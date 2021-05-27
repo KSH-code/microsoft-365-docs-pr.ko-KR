@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: f2e20415cb64903e8dfe2c82646c1970036b8f6b
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: ab33db7fb7acf1969973a7af8f80ea97ef3d378f
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653676"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689100"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>장치당 보안 구성 평가 내보내기
 
@@ -41,9 +41,9 @@ ms.locfileid: "52653676"
 
 다양한 형식의 데이터를 얻기 위해 다른 API 호출이 있습니다. 데이터 양은 매우 크기 때문에 다음 두 가지 방법으로 데이터를 검색할 수 있습니다.
 
-- **OData**  API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어들입니다. 이 방법은 _100K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
+- [보안 구성 평가 **OData 내보내기:**](#1-export-secure-configuration-assessment-odata)API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어 들입니다. 이 방법은 _100 K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
 
-- **파일을 통해** 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 장치가 100K 이상인 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다.
+- 파일을 통해 보안 [구성 평가 ](#2-export-secure-configuration-assessment-via-files)내보내기: 이 API 솔루션을 사용하면 더 많은 양의 데이터를 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다.
 
   - API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.
 
@@ -51,7 +51,9 @@ ms.locfileid: "52653676"
 
 _OData_ 또는 파일을 통해 수집되는 데이터는 현재 상태의 현재 스냅숏으로 기록 데이터를 포함하지 않습니다. 기록 데이터를 수집하려면 고객은 데이터를 자체 데이터 저장소에 저장해야 합니다.
 
-다른 설명이 없는 한 나열된 **** 모든 내보내기 평가 방법은 전체 내보내기 및 장치(장치당 **** **_참조)입니다._**
+> [!Note]
+>
+> 다른 설명이 없는 한 나열된 **** 모든 내보내기 평가 방법은 전체 내보내기 및 장치(장치당 **** **_참조)입니다._**
 
 ## <a name="1-export-secure-configuration-assessment-odata"></a>1. 보안 구성 평가 내보내기(OData)
 
@@ -90,12 +92,12 @@ GET /api/machines/SecureConfigurationsAssessmentByMachine
 
 >[!Note]
 >
->- 다음 표에 정의된 속성은 속성 ID에 따라 영순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이러한 테이블에 나열된 순서대로 반환되지 않을 수도 있습니다.
+>- 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
 >
 >- 응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있습니다. 문서화한 열만 사용하시기 바랍니다.
 >
 
-속성(id) | 데이터 형식 | 설명 | 반환된 값의 예
+속성(ID) | 데이터 형식 | 설명 | 반환된 값의 예
 :---|:---|:---|:---
 ConfigurationCategory | 문자열 | 구성이 속해 있는 범주 또는 그룹(응용 프로그램, OS, 네트워크, 계정, 보안 제어) | 보안 제어
 ConfigurationId | 문자열 | 특정 구성의 고유 식별자 | scid-10000
@@ -255,7 +257,7 @@ GET /api/machines/SecureConfigurationsAssessmentExport
 >
 >- 데이터의 최대 다운로드 속도를 위해 데이터가 있는 동일한 Azure 지역에서 다운로드하는지 확인하면 됩니다.
 >
-속성(id) | 데이터 형식 | 설명 | 반환된 값의 예
+속성(ID) | 데이터 형식 | 설명 | 반환된 값의 예
 :---|:---|:---|:---
 파일 내보내기 | array \[ string\] | 조직의 현재 스냅숏을 저장하는 파일의 다운로드 URL 목록 | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]
 GeneratedTime | 문자열 | 내보내기 생성 시간입니다. | 2021-05-20T08:00:00Z ]

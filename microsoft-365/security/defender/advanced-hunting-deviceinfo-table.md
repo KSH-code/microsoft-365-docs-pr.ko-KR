@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f97947c2c9f02720facae4f0c3c29ff702416261
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 99a07b1517058b0e5ab241aaae9c6899e2994432
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023132"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689112"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -52,14 +52,24 @@ ms.locfileid: "52023132"
 | `OSArchitecture` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 아키텍처 |
 | `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같은 동일한 패밀리 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
 | `OSBuild` | 문자열 | 시스템에서 실행되는 운영 체제의 빌드 버전 |
-| `IsAzureADJoined` | 부울 | 머신이 Azure Active Directory에 가입된지 여부를 나타내는 부울 표시기입니다. |
+| `IsAzureADJoined` | 부울 | 컴퓨터의 가입 여부를 나타내는 부울 표시기입니다Azure Active Directory |
 | `AadObjectId` | 문자열 | Azure AD에서 디바이스의 고유 식별자 |
 | `LoggedOnUsers` | 문자열 | 이벤트 당시 컴퓨터에 로그온한 모든 사용자 목록(JSON 배열 형식)입니다. |
 | `RegistryDeviceTag` | 문자열 | 레지스트리를 통해 추가된 컴퓨터 태그 |
 | `OSVersion` | 문자열 | 컴퓨터에서 실행 중인 운영 체제 버전 |
 | `MachineGroup` | 문자열 | 컴퓨터의 컴퓨터 그룹입니다. 이 그룹은 역할 기반 액세스 제어에서 컴퓨터 액세스 확인에 사용됩니다. |
 | `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
+| `OnboardingStatus` | 문자열 | 디바이스가 현재 Microsoft Defender For Endpoint에 온보딩 상태인지 또는 디바이스가 지원되지 않는지 여부를 나타냅니다. |
 |`AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대한 추가 정보 |
+|`DeviceCategory` | 문자열 | 끝점, 네트워크 장치, IoT, 알 수 없음 범주의 특정 장치 유형을 그룹화하는 더 광범위한 분류 |
+|`DeviceType` | 문자열 | 네트워크 장치, Workstation, 서버, 모바일, 게임 콘솔 또는 프린터와 같은 용도 및 기능을 기반으로 하는 장치 유형 |
+|`DeviceSubType` | 문자열 | 특정 유형의 장치에 대한 추가 수정자(예: 모바일 장치는 태블릿 또는 스마트폰일 수 있습니다)입니다. |
+|`Model` | 문자열 | 공급업체 또는 제조업체의 모델 이름 또는 제품 번호 |
+|`Vendor` | 문자열 | 제품 공급업체 또는 제조업체의 이름 |
+|`OSDistribution` | 문자열 | Linux 플랫폼용 Ubuntu 또는 RedHat와 같은 OS 플랫폼 배포 |
+|`OSVersionInfo` | 문자열 | 인기 있는 이름, 코드 이름 또는 버전 번호와 같은 OS 버전에 대한 추가 정보 |
+|`MergedDeviceIds` | 문자열 | 동일한 장치에 할당된 이전 장치 ID |
+|`MergedToDeviceId` | 문자열 | 장치에 할당된 최신 장치 ID입니다. |
 
 이 표에서는 장치의 주기적인 보고서 또는 신호인 하트비트 기반 장치 `DeviceInfo` 정보를 제공합니다. 15분마다 장치는 처럼 자주 변경되는 특성을 포함하는 부분 하트비트를 `LoggedOnUsers` 전송합니다. 하루 중 한 번 장치의 특성을 포함하는 전체 하트비트가 전송됩니다.
 

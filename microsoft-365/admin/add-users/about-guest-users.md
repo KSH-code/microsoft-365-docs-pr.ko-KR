@@ -2,8 +2,8 @@
 title: Microsoft 365 관리 센터의 게스트 사용자
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: overview
@@ -19,13 +19,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 관리 센터에서 게스트와 함께 팀을 만드는 방법과 팀을 게스트로 참여하는 방법을 배워야 합니다.
-ms.openlocfilehash: b458aaba464121e2e408013d4c8f32cd8a6852c5
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: 게스트 사용자 목록이 그룹 관리 센터에서 Microsoft 365 방법을 알아보습니다.
+ms.openlocfilehash: 7c0fbfb57c9710103d1b670eb09024501071d602
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634187"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683394"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 게스트 사용자
 
@@ -34,35 +34,38 @@ Microsoft Teams, SharePoint 또는 Azure Active Directory 추가하는 모든 �
 
 게스트 사용자를 보기 위해 Microsoft 365 관리 센터의 왼쪽 네비게이트에서 사용자를 **확장하고** 게스트 사용자를 **선택하세요.**
 
-## <a name="watch-create-a-team-with-guests"></a>시청: 게스트와 함께 팀 만들기
+## <a name="before-you-begin"></a>시작하기 전에
 
-게스트를 추가하는 방법을 Teams 비디오를 참조합니다. <br><br>
+이 작업을 수행하려면 전역 관리자 되어야 합니다.
+
+## <a name="watch-add-guests-to-teams"></a>시청: 게스트를 추가하여 Teams
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FQMp]
 
 ## <a name="watch-join-a-team-as-a-guest"></a>시청: 팀을 게스트로 참여
 
-팀에 게스트로 참여하기 위해 다음 비디오를 참조합니다.<br><br>
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4tyys]
 
-## <a name="add-guests-in-azure-active-directory"></a>추가 게스트를 Azure Active Directory
+## <a name="steps-add-guests-in-azure-active-directory"></a>단계: 2단계에서 게스트 Azure Active Directory
 
-게스트를 추가 Azure Active Directory 게스트 사용자 [추가를 참조합니다.](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
+게스트를 추가 Azure Active Directory 게스트 사용자 [추가를 참조합니다.](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
 
 사용자를 추가한 후 그룹에 사용자를 할당하거나 조직의 앱에 대한 액세스 권한을 부여할 수도 있습니다. Azure AD 포털에서 사용자를 추가한 후 해당 사용자는 Microsoft 365  관리 센터의 게스트 사용자 페이지에도 나열됩니다.
 사용자가 게스트 사용자 목록에  추가된 후 사용자가 [](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) 게스트 관리 센터의 그룹에 Microsoft 365 수 있습니다.
 
-여러 [게스트를](/azure/active-directory/b2b/tutorial-bulk-invite) 초대하여 조직과 공동 작업을 할 수 있도록 대량으로 게스트 추가를 참조합니다.
+여러 [게스트를](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) 초대하여 조직과 공동 작업을 할 수 있도록 대량으로 게스트 추가를 참조합니다.
 
-## <a name="remove-a-guest"></a>게스트 제거
+## <a name="next-steps-remove-a-guest"></a>다음 단계: 게스트 제거
+
+게스트 사용자와의 공동 작업을 완료하면 제거하면 조직에 더 이상 액세스할 수 없습니다.
 
 1. Microsoft 365 관리 센터에서 사용자를 **확장한** 다음 게스트 사용자를 **선택하세요.**
-1. 게스트 **사용자 페이지에서** 제거할 사용자를 선택한 다음 사용자 삭제 **를 선택합니다.** 
+1. 게스트 **사용자 페이지에서** 제거할 사용자를 선택한 다음 사용자 삭제 **를 선택합니다.**
 
-Azure AD 포털에서 사용자를 제거하려면 게스트 사용자 및 리소스 [제거를 참조하세요.](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources)
+Azure AD 포털에서 사용자를 제거하려면 게스트 사용자 및 리소스 [제거를 참조하세요.](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources)
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 그룹에서 게스트](../create-groups/manage-guest-access-in-groups.md) 액세스 관리(문서)\
-[게스트가 특정 Microsoft 365](../../solutions/per-group-guest-access.md) 그룹 또는 Microsoft Teams 추가되지 않도록 방지(문서)
+[Microsoft 365 관리 센터의 게스트 사용자](about-guest-users.md)
+
+[게스트가 특정 Microsoft 365 그룹 또는 Microsoft 팀에 추가되지 않도록 방지](../../solutions/per-group-guest-access.md)

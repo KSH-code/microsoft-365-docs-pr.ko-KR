@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 852e87ee76d9692b789ca217720ac3efb08f31a8
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 906048609ce70c761bb014961e02c86f912cd638
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624612"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683502"
 ---
 # <a name="user-submissions-policy"></a>사용자 제출 정책
 
@@ -66,7 +66,7 @@ ms.locfileid: "52624612"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 사용자 제출 **페이지로** 직접 이동하기 위해 를 <https://protection.office.com/userSubmissionsReportMessage> 사용하세요.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 사용자 제출 **페이지로** 직접 이동하기 위해 를 <https://protection.office.com/userSubmissionsReportMessage> 사용하세요.
 
 - 사용자 제출에 대한 구성을 수정하려면 다음 역할 그룹 중 하나의 구성원이 되어야 합니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "52624612"
 
 보고된 메시지를 사용자 지정 사서함으로 보내도록 타사 메시지 보고 도구를 구성할 수 있습니다. 유일한 요구 사항은 원본 메시지가 사용자 지정 사서함으로 전송되는 메시지에 첨부 파일로 포함되는 것입니다(원본 메시지를 사용자 지정 사서함으로만 전달하는 것이 아니라).
 
-메시지 서식 요구 사항은 다음 섹션에 설명되어 있습니다.
+메시지 서식 요구 사항은 다음 섹션에 설명되어 있습니다. 서식은 선택 사항이지만 정해진 형식을 따르지 않는 경우 보고서는 항상 피싱으로 제출됩니다.
 
 ## <a name="message-submission-format"></a>메시지 전송 형식
 

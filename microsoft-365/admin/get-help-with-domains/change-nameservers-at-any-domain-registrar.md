@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 Microsoft 365 같은 서비스가 자체 도메인 이름을 사용할 수 있도록 비즈니스용 Skype 도메인을 추가하고 설정하는 방법을 학습합니다.
-ms.openlocfilehash: c6394b505e025c565713aae753879601f5a6aecf
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 7f1ade6cb3013126fb011fe9232b3b4c2e9a82d4
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635441"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683130"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>도메인 등록 기관에서 이름 Microsoft 365 설정
 
@@ -43,7 +43,6 @@ ms.locfileid: "52635441"
 - DNS Microsoft 365 관리해야 합니다. 원하는 경우 [고유한 DNS 레코드를 관리](../setup/add-domain.md)할 수도 있습니다.
     
 ## <a name="add-a-txt-or-mx-record-for-verification"></a>확인을 위해 TXT 또는 MX 레코드 추가
-<a name="BKMK_verify"> </a>
 
 > [!NOTE]
 > 이러한 레코드 중 하나만 만들어집니다. TXT가 기본 레코드 형식이지만 일부 DNS 호스팅 공급자는 이를 지원하지 않으며, 이 경우 대신 MX 레코드를 만들면 됩니다. 
@@ -94,17 +93,13 @@ Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 
   
 3. **설정** 페이지에서 **설정 시작** 을 선택합니다.
  
-    
   
 4. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
-    
-    
   
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>도메인의 NS(이름 서버) 레코드 변경
-<a name="BKMK_nameservers"> </a>
 
 도메인 설정 마법사의 마지막 단계에 Microsoft 365 한 번의 작업이 남습니다. 전자 메일과 같은 Microsoft 365 도메인을 설정하려면 도메인 등록 기관에서 도메인의 이름server(또는 NS) 레코드가 기본 및 보조 이름 Microsoft 365 있도록 변경합니다. 그런 다음 Microsoft 365 DNS를 호스트하기 때문에 서비스에 필요한 DNS 레코드가 자동으로 설정됩니다. 도메인 등록 기관의 웹 사이트에서 도움말 콘텐츠를 제공한 경우 해당 단계를 따라 이름 서버 레코드를 직접 업데이트할 수 있습니다. DNS에 익숙하지 않다면 도메인 등록 기관의 지원에 문의하세요.
 
@@ -199,5 +194,5 @@ Microsoft를 지점으로 이름 서비스 레코드가 업데이트된 후 도�
 ## <a name="related-content"></a>관련 콘텐츠
 
 [도메인을 연결하기](create-dns-records-at-any-dns-hosting-provider.md) 위해 DNS 레코드 추가(문서)\
-[도메인 또는 DNS 레코드를 추가한 후](find-and-fix-issues.md) 문제 찾기 및 해결(문서)\
+[도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)\
 [도메인 관리](index.yml)(링크 페이지)

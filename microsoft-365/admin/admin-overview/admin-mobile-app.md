@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 앱을 다운로드하고 휴대폰 또는 태블릿에서 온라인 조직을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2f6b27b409dd456a88a17a9825fae3ec24d787a4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f8834aca0835a209a4df32a934eca736c5f7808f
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244023"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683238"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>관리자 Microsoft 365 앱
 
@@ -50,6 +50,10 @@ ms.locfileid: "52244023"
   
 > [!IMPORTANT]
 > iOS 또는 Android에서 관리 모바일 앱을 사용하는 데 문제가 있는 경우 에 전자 [메일을](mailto:feedback365@microsoft.com) 보내 feedback365@microsoft.com 알려주세요.
+
+## <a name="before-you-begin"></a>시작하기 전에
+
+관리자 모바일 앱을 사용하려면 Microsoft 365 조직의 관리자 되어야 합니다.
   
 ## <a name="download-the-admin-mobile-app"></a>관리자 모바일 앱 다운로드
 
@@ -61,7 +65,7 @@ ms.locfileid: "52244023"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c1d439-9ec2-415f-9178-250f64dec64c]
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 다음은 질문과 대답입니다.
   
@@ -115,7 +119,11 @@ ms.locfileid: "52244023"
 ### <a name="what-do-i-do-if-my-question-isnt-answered"></a>답변이 없는 경우 어떻게 하나요?
 
 전자 [feedback365@microsoft.com](mailto:feedback365@microsoft.com) 문제를 보고할 수 있습니다. 또는 이 문서 아래쪽에 피드백을 제공하면 됩니다.
-  
-## <a name="related-content"></a>관련 콘텐츠 
 
-[Microsoft 365 교육용 비디오(링크](../../business-video/index.yml) 페이지)
+## <a name="next-steps"></a>다음 단계
+
+관리 모바일을 다운로드한 후 사용자를 추가하여 시작할 수 있습니다.
+  
+## <a name="related-content"></a>관련 콘텐츠
+
+[Microsoft 365 Business 교육 비디오](../../business-video/index.yml)

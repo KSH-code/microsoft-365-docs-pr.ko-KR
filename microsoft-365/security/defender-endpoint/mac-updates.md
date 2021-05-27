@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 886195de38856306d69932446eae34212fe4bb0d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: e08781455888595d57bd8a9e6f792796ea1853cd
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934504"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684210"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender 업데이트 배포
 
@@ -48,7 +48,7 @@ MacOS에서 끝점에 대한 Microsoft Defender를 업데이트하기 위해 MAU
 
 ## <a name="use-msupdate"></a>Msupdate 사용
 
-MAU에는 업데이트가 적용되는 경우를 보다 정확하게 제어할 수 있도록 IT 관리자를 위해 설계된 *msupdate라는* 명령줄 도구가 포함되어 있습니다. 이 도구를 사용하는 방법에 대한 지침은 [msupdate를 사용하여 Mac용 Office 업데이트에서 찾을 수 있습니다.](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)
+MAU에는 업데이트가 적용되는 경우를 보다 정확하게 제어할 수 있도록 IT 관리자를 위해 설계된 *msupdate라는* 명령줄 도구가 포함되어 있습니다. 이 도구를 사용하는 방법에 대한 지침은 [msupdate를](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)사용하여 업데이트 Mac용 Office 있습니다.
 
 MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 식별자는 *WDAV00입니다.* macOS의 끝점용 Microsoft Defender에 대한 최신 업데이트를 다운로드하고 설치하려면 터미널 창에서 다음 명령을 실행합니다.
 
@@ -81,7 +81,7 @@ MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 �
 | **도메인** | `com.microsoft.autoupdate2` |
 | **키** | ChannelName |
 | **Data type** | String |
-| **사용 가능한 값:** | Beta <br/> Preview <br/> Current |
+| **사용 가능한 값:** | Beta <br/> 미리 보기 <br/> Current |
 |||
 
 >[!WARNING]
@@ -125,19 +125,19 @@ MAU에서 업데이트를 검색하는 방법을 변경합니다.
 | **도메인** | `com.microsoft.autoupdate2` |
 | **키** | EnableCheckForUpdatesButton |
 | **Data type** | 부울 |
-| **사용 가능한 값:** | True(기본값) <br/> False |
+| **사용 가능한 값:** | True(기본값) <br/> 거짓 |
 
 
 ### <a name="disable-insider-checkbox"></a>내부자 사용 안함 확인란
 
-true로 설정하여 "Office Insider Program에 참여..."로 설정 사용자에게 확인란을 사용할 수 없음/회색으로 나타났습니다.
+true로 설정하여 "Office 프로그램 참여..."로 설정 사용자에게 확인란을 사용할 수 없음/회색으로 나타났습니다.
 
 |섹션|값|
 |:--|:--|
 | **도메인** | `com.microsoft.autoupdate2` |
 | **키** | DisableInsiderCheckbox |
 | **Data type** | 부울 |
-| **사용 가능한 값:** | False(기본값) <br/> True |
+| **사용 가능한 값:** | False(기본값) <br/> 참 |
 
 
 ### <a name="limit-the-telemetry-that-is-sent-from-mau"></a>MAU에서 전송된 원격 분석 제한
@@ -149,16 +149,23 @@ false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 
 | **도메인** | `com.microsoft.autoupdate2` |
 | **키** | SendAllTelemetryEnabled |
 | **Data type** | 부울 |
-| **사용 가능한 값:** | True(기본값) <br/> False |
+| **사용 가능한 값:** | True(기본값) <br/> 거짓 |
 
 
 ## <a name="example-configuration-profile"></a>구성 프로필 예제
 
 다음 구성 프로필은 다음과 같은 데 사용됩니다.
-- 디바이스를 베타 채널에 추가
+- 프로덕션 채널에 디바이스 추가
 - 업데이트를 자동으로 다운로드 및 설치
 - 사용자 인터페이스에서 "업데이트 확인" 단추를 사용하도록 설정
 - 장치의 사용자가 Insider 채널에 등록할 수 있도록 허용
+
+
+>[!WARNING]
+>아래 구성은 예제 구성으로, 설정 및 구성 조정을 제대로 검토하지 않으면 프로덕션에서 사용되지 않습니다.
+
+>[!TIP]
+>새 기능을 미리 보고 초기 피드백을 제공하기 위해서는 엔터프라이즈의 일부 장치를 또는 로 구성하는 것이 `Beta` `Preview` 좋습니다.
 
 ### <a name="jamf"></a>JAMF
 
@@ -168,7 +175,7 @@ false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 
 <plist version="1.0">
 <dict>
     <key>ChannelName</key>
-    <string>Beta</string>
+    <string>Production</string>
     <key>HowToCheck</key>
     <string>AutomaticDownload</string>
     <key>EnableCheckForUpdatesButton</key>
@@ -228,7 +235,7 @@ false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 
             <key>PayloadEnabled</key>
             <true/>
             <key>ChannelName</key>
-            <string>Beta</string>
+            <string>Production</string>
             <key>HowToCheck</key>
             <string>AutomaticDownload</string>
             <key>EnableCheckForUpdatesButton</key>

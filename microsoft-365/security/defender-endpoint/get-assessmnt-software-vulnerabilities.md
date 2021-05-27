@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: be21be07758c1123cdde38e3750cafe739bfb66a
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: 951f78ba361a12e404a5cce2071f931eab30c43f
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653684"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689216"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>장치당 소프트웨어 취약점 평가 내보내기
 
@@ -37,13 +37,13 @@ ms.locfileid: "52653684"
 [!include[Prerelease information](../../includes/prerelease.md)]
 >
 >
-장치 기준에 따라 모든 장치에 대해 알려진 모든 취약성 및 세부 정보를 반환합니다.
+장치 기준에 따라 알려진 모든 소프트웨어 취약성 및 모든 장치에 대한 세부 정보를 반환합니다.
 
 다양한 형식의 데이터를 얻기 위해 다른 API 호출이 있습니다. 데이터 양은 매우 크기 때문에 다음 두 가지 방법으로 데이터를 검색할 수 있습니다.
 
-- **OData**  API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어들입니다. 이 방법은 _100K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
+- [소프트웨어 취약점 평가 OData 내보내기](#1-export-software-vulnerabilities-assessment-odata)  API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어들입니다. 이 방법은 _100 K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
 
-- **파일을 통해** 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 장치가 100K 이상인 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다.
+- [파일을 통해 소프트웨어 취약성 평가 내보내기](#2-export-software-vulnerabilities-assessment-via-files) 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다.
 
   - API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.
 
@@ -51,7 +51,9 @@ ms.locfileid: "52653684"
 
 _OData_ 또는 파일을 통해 수집되는 데이터는 현재 상태의 현재 스냅숏으로 기록 데이터를 포함하지 않습니다. 기록 데이터를 수집하려면 고객은 데이터를 자체 데이터 저장소에 저장해야 합니다.
 
-다른 설명이 없는 한 나열된 **** 모든 내보내기 평가 방법은 전체 내보내기 및 장치(장치당 **** **_참조)입니다._**
+> [!Note]
+>
+> 다른 설명이 없는 한 나열된 **** 모든 내보내기 평가 방법은 전체 내보내기 및 장치(장치당 **** **_참조)입니다._**
 
 ## <a name="1-export-software-vulnerabilities-assessment-odata"></a>1. OData(소프트웨어 취약점 평가) 내보내기
 
@@ -93,10 +95,10 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 >
 >- 응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있습니다. 문서화한 열만 사용하시기 바랍니다.
 >
->- 다음 표에 정의된 속성은 속성 ID에 따라 영순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이러한 테이블에 나열된 순서대로 반환되지 않을 수도 있습니다.
+>- 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
 >
 
-속성(id) | 데이터 형식 | 설명 | 반환된 값의 예
+속성(ID) | 데이터 형식 | 설명 | 반환된 값의 예
 :---|:---|:---|:---
 CveId | 문자열 | CVE(Common Vulnerabilities and Exposures) 시스템의 보안 취약성에 할당된 고유 식별자입니다. | CVE-2020-15992
 CvssScore | 문자열 | CVE의 CVSS 점수입니다. | 6.2
@@ -270,7 +272,7 @@ GET https://api.securitycenter.microsoft.com/api/machines/SoftwareVulnerabilitie
 
 ### <a name="22-permissions"></a>2.2 사용 권한
 
-이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API for details을 참조합니다.](apis-intro.md)
+이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API(끝점 API용 Microsoft Defender](apis-intro.md)사용)를 참조합니다.
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 ---|---|---
@@ -304,10 +306,8 @@ GET /api/machines/SoftwareVulnerabilitiesExport
 >
 >- 응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있습니다. 문서화한 열만 사용하시기 바랍니다.
 >
->- 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이러한 테이블에 나열된 순서대로 반환되지 않을 수도 있습니다.
->
 
-속성(id) | 데이터 형식 | 설명 | 반환된 값의 예
+속성(ID) | 데이터 형식 | 설명 | 반환된 값의 예
 :---|:---|:---|:---
 파일 내보내기 | array \[ string\]  | 조직의 현재 스냅숏을 저장하는 파일의 다운로드 URL 목록입니다. | [  “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2”  ]
 GeneratedTime | 문자열 | 내보내기 생성 시간입니다. | 2021-05-20T08:00:00Z

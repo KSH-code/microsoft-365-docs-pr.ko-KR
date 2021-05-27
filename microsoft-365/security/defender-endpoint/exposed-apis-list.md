@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 656aa26d80db73bfc52511f9dd94e58e771f3ac6
-ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
+ms.openlocfilehash: f7a620ad56496b1a26e193a18fa93f4d217431df
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52073832"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684150"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>지원되는 엔드포인트용 Microsoft Defender API
 
@@ -61,6 +61,7 @@ API 호출을 실행할 수 있는 지원되는 개별 엔터티 및 HTTP 요청
 :---|:---
 [지능형 헌팅](run-advanced-query-api.md) | API에서 쿼리를 실행합니다.
 [경고 방법 및 속성](alerts.md) | 경고 다운로드, 경고 만들기, 경고 업데이트 등의 API \- 호출을 실행합니다.
+[장치당 평가 방법 및 속성 내보내기](get-assessmnt-1methods-properties.md) | 보안 구성 평가 내보내기, 소프트웨어 인벤토리 평가 내보내기, 소프트웨어 취약점 평가 내보내기 등의 API \- 호출을 실행합니다.
 [자동화된 조사 방법 및 속성](investigation.md) | 조사 컬렉션을 수집하는 등의 API \- 호출을 실행합니다.
 [도메인 관련 경고 가져오기](get-domain-related-alerts.md) | 도메인 관련 장치, 도메인 통계 등의 API \- 호출을 실행합니다.
 [파일 방법 및 속성](files.md) | 파일 정보 다운로드, 파일 관련 경고, 파일 관련 장치 및 파일 통계와 같은 API \- 호출을 실행합니다.
@@ -69,6 +70,7 @@ API 호출을 실행할 수 있는 지원되는 개별 엔터티 및 HTTP 요청
 [컴퓨터 방법 및 속성](machine.md) | 장치 검색, ID로 장치 검색, 로그온한 사용자에 대한 정보, 태그 편집 등의 API \- 호출을 실행합니다.
 [컴퓨터 작업 방법 및 속성](machineaction.md) | ISOLATION, 바이러스 백신 검사 실행 등의 API \- 호출을 실행합니다.
 [권장 방법 및 속성](recommendation.md) | ID로 추천 등의 API \- 호출을 실행합니다.
+[수정 작업 방법 및 속성](get-remediation-methods-properties.md) | 모든 재구성 작업을 시작하고, 노출된 장치 수정 작업을 시작하고, ID로 하나의 재구성 작업을 수행하는 등의 API \- 호출을 실행합니다.
 [점수 방법 및 속성](score.md) | 노출 점수 얻기 또는 장치 보안 점수 얻기 등의 API \- 호출을 실행합니다.
 [소프트웨어 방법 및 속성](software.md) | 소프트웨어의 목록 \- 취약점과 같은 API 호출을 실행합니다.
 [사용자 방법](user.md) | 사용자 관련 알림 및 사용자 관련 장치와 같은 API \- 호출을 실행합니다.

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: a6c0ec6f1248fdeecd8616b7eda000b7608d452d
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 34355a25283207929a12a7bc504b929fbf3041a0
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651011"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683658"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
@@ -104,7 +104,6 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 4. 모든 장치는 다음 중 하나에 해당해야 합니다.
 - [Azure AD(Azure Active Directory) 조인됨](/azure/active-directory/devices/concept-azure-ad-join)
-- AD 조인됨
 - [하이브리드 Azure AD 조인됨](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
 - [AAD 등록됨](/azure/active-directory/user-help/user-help-register-device-on-network)
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 69345a0db42ec838dc0758cdb0e93a49a8ba6cfd
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: f3fd597181d73c1768057ea7740ab111e5af2068
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259406"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689160"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Microsoft 365 Defender 선행 준비
 
@@ -37,7 +37,7 @@ ms.locfileid: "52259406"
 
 Defender를 프로비전하고 사용하는 라이선싱 [및 기타 요구 사항에 대해 Microsoft 365.](microsoft-365-defender.md)
 
-## <a name="licensing-requirements"></a>라이선스 요구 사항
+## <a name="licensing-requirements"></a>라이선스 요구사항
 이러한 라이선스를 사용하면 추가 비용 없이 Microsoft 365 보안 센터의 Microsoft 365 Defender 기능에 액세스할 수 있습니다.
 
 - Microsoft 365 E5 또는 A5
@@ -73,6 +73,18 @@ Microsoft 365, Microsoft 365, Internet Explorer Microsoft Edge 11 또는 HTML 5 
 - US 정부 커뮤니티 클라우드 High(GCC High)
 - 미 국방부
 - 상업용 라이선스가 있는 모든 미국 정부 기관
+
+
+현재 Microsoft Defender for Office 365 통합 Microsoft 365 Defend Office 365 er 기능에 통합할 수 없습니다.
+
+- 브라질 
+- 독일 
+- 노르웨이 
+- 싱가포르 
+- 남아프리카 공화국
+- 스위스 
+- 아랍에미리트 
+
 
 ## <a name="related-topics"></a>관련 항목
 - [Microsoft 365 Defender 개요](microsoft-365-defender.md)

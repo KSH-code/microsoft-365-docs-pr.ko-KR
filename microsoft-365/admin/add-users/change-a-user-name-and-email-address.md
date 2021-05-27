@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Microsoft 365 전역 관리자가 이름이 변경될 때 사용자의 전자 메일 주소와 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 1aa3fd3b67333937e64aab825e64533ccb09eea9
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 4f65bade32b2998f395c3b4eab7a1d2a2e5f3f33
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634223"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683118"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
@@ -47,39 +47,26 @@ ms.locfileid: "52634223"
 ::: moniker range="o365-worldwide"
  
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-    
-2. 사용자 이름을 선택한 다음 **계정** 탭에서 **사용자 이름 관리** 를 선택합니다.
-    
-3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Microsoft 365에 본인의 도메인을 추가한 경우 드롭다운 목록을 사용하여 새로운 전자 메일 별칭의 도메인을 선택합니다. 
 
-4. **변경 내용 저장** 을 선택합니다.
-
-   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
-
-2. 사용자를 선택합니다. 플라이아웃 창에서 **사용자 이름/전자 메일** 옆에 있는 **편집** 을 선택합니다.
-
-3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Microsoft 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다.
-
-4. **저장** 을 선택합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
-
-2. 사용자를 선택합니다. 플라이아웃 창에서 **사용자 이름/전자 메일** 옆에 있는 **편집** 을 선택합니다.
-
-3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Microsoft 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다.
-
-4. **저장** 을 선택합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
 
 ::: moniker-end
+
+1. 사용자 이름을 선택한 다음 **계정** 탭에서 **사용자 이름 관리** 를 선택합니다.
+    
+1. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Microsoft 365에 본인의 도메인을 추가한 경우 드롭다운 목록을 사용하여 새로운 전자 메일 별칭의 도메인을 선택합니다. 
+
+1. **변경 내용 저장** 을 선택합니다.
 
 > [!IMPORTANT]
 > 오류 메시지가 표시되는 경우 [오류 메시지 해결](#resolve-error-messages)을 참조하세요.
@@ -89,6 +76,20 @@ ms.locfileid: "52634223"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+
+::: moniker-end
     
 2. 사용자 이름을 선택한 다음 **계정** 탭에서 **전자 메일 별칭 관리** 를 선택합니다.
 
@@ -113,34 +114,17 @@ ms.locfileid: "52634223"
   
    - 해당 암호도 변경된 경우 사용자에게 모바일 장치에서 새 암호를 입력하라는 메시지가 표시되고 새 암호를 입력하지 않으면 모바일 장치가 동기화되지 않습니다.
   
+## <a name="change-a-users-display-name"></a>사용자의 표시 이름 변경
+
+::: moniker range="o365-worldwide"
+
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
-
-2. 사용자를 선택합니다. 플라이아웃 창에서 **사용자 이름/전자 메일** 옆에 있는 **편집** 을 선택합니다.
-
-3. 해당 사용자의 기본 전자 메일 주소로 설정할 전자 메일 주소에 대해 **기본으로 설정** 을 선택합니다. 
-    
-   > [!IMPORTANT]
-   > GoDaddy 또는 관리 콘솔을 제공하는 다른 파트너 서비스에서 Microsoft 365를 구매한 경우 이 기본으로 설정 옵션이 표시되지 않습니다. 대신 GoDaddy/파트너 관리 콘솔에 로그인하여 기본 별칭을 설정하세요. 
-   > 
-   > 또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
-  
-4. 사용자의 로그인 정보를 변경하려 한다는 큰 노란색 경고가 표시됩니다. **저장** 을 선택한 다음 **닫기** 를 선택합니다.
-    
-5. 사용자에게 다음과 같은 정보를 알립니다.
- 
-   - 변경 내용이 적용되는 데 시간이 걸릴 수 있습니다.
-  
-   - 새로운 사용자명이 무엇인가요. Microsoft 365에 로그인하려면 해당 정보가 필요합니다.
-    
-   - 사용자가 비즈니스용 Skype Online을 사용 중인 경우 사용자에게 모든 비즈니스용 Skype Online 모임의 일정을 조정하고 해당 외부 연락처에 이전 연락처 정보를 업데이트하도록 알려야 한다고 알립니다.
-
-   - 해당 사용자가 OneDrive를 사용하는 경우에 이 위치에 대한 URL이 변경되었음을 알립니다. OneDrive에 OneNote 전자 필기장이 있는 경우 OneNote에서 전자 필기장을 닫았다가 다시 열어야 할 수 있습니다. OneDrive의 공유 파일이 있는 경우 파일에 대한 링크가 작동하지 않을 수 있고 사용자가 다시 공유할 수 있습니다.    
-  
-   - 해당 암호도 변경된 경우 사용자에게 모바일 장치에서 새 암호를 입력하라는 메시지가 표시되며 새 암호를 입력하지 않으면 모바일 장치가 동기화되지 않는다고 알립니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
 
 ::: moniker-end
 
@@ -148,36 +132,7 @@ ms.locfileid: "52634223"
 
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
 
-2. 사용자를 선택합니다. 플라이아웃 창에서 **사용자 이름/전자 메일** 옆에 있는 **편집** 을 선택합니다.
-
-3. 해당 사용자의 기본 전자 메일 주소로 설정할 전자 메일 주소에 대해 **기본으로 설정** 을 선택합니다. 
-    
-   > [!IMPORTANT]
-   > GoDaddy 또는 관리 콘솔을 제공하는 다른 파트너 서비스에서 Microsoft 365를 구매한 경우 이 기본으로 설정 옵션이 표시되지 않습니다. 대신 GoDaddy/파트너 관리 콘솔에 로그인하여 기본 별칭을 설정하세요. 
-   >  
-   > 또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
-  
-4. 사용자의 로그인 정보를 변경하려 한다는 큰 노란색 경고가 표시됩니다. **저장** 을 선택한 다음 **닫기** 를 선택합니다.
-    
-5. 사용자에게 다음과 같은 정보를 알립니다.
- 
-   - 변경 내용이 적용되는 데 시간이 걸릴 수 있습니다.
-  
-   - 새로운 사용자명이 무엇인가요. Microsoft 365에 로그인하려면 해당 정보가 필요합니다.
-    
-   - 사용자가 비즈니스용 Skype Online을 사용 중인 경우 사용자에게 모든 비즈니스용 Skype Online 모임의 일정을 조정하고 해당 외부 연락처에 이전 연락처 정보를 업데이트하도록 알려야 한다고 알립니다.
-
-   - 해당 사용자가 OneDrive를 사용하는 경우에 이 위치에 대한 URL이 변경되었음을 알립니다. OneDrive에 OneNote 전자 필기장이 있는 경우 OneNote에서 전자 필기장을 닫았다가 다시 열어야 할 수 있습니다. OneDrive의 공유 파일이 있는 경우 파일에 대한 링크가 작동하지 않을 수 있고 사용자가 다시 공유할 수 있습니다.    
-  
-   - 해당 암호도 변경된 경우 사용자에게 모바일 장치에서 새 암호를 입력하라는 메시지가 표시되며 새 암호를 입력하지 않으면 모바일 장치가 동기화되지 않는다고 알립니다.
-
 ::: moniker-end
-  
-## <a name="change-a-users-display-name"></a>사용자의 표시 이름 변경
-
-::: moniker range="o365-worldwide"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. 사용자 이름을 선택한 다음 **계정** 탭에서 **연락처 정보 관리** 를 선택합니다.
 
@@ -186,37 +141,7 @@ ms.locfileid: "52634223"
    “**사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** 가 표시되는 경우 [오류 메시지 해결](#resolve-error-messages)을 참조하세요.
 
 이 변경 내용이 서비스 전체에 적용되기까지 최대 24시간이 걸릴 수 있습니다. 변경 내용이 적용된 후 사용자는 업데이트된 사용자 이름을 사용해 Outlook, 비즈니스용 Skype 및 SharePoint에 로그인해야 합니다.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
-
-2. 사용자를 선택합니다. 플라이아웃 창에서 **연락처 정보** 옆에 있는 **편집** 을 선택합니다.
-
-3. **표시 이름** 상자에 사용자의 새 이름을 입력하고 **저장** 을 선택합니다.
-
-   “**사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** 가 표시되는 경우 [오류 메시지 해결](#resolve-error-messages)을 참조하세요.
-
-이 변경 내용이 서비스 전체에 적용되기까지 최대 24시간이 걸릴 수 있습니다. 변경 내용이 적용된 후 사용자는 Outlook, 비즈니스용 Skype 및 SharePoint에 업데이트된 사용자 이름으로 로그인해야 하므로 이 변경 내용에 대해 사용자에게 알려야 합니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
-
-2. 사용자를 선택합니다. 플라이아웃 창에서 **연락처 정보** 옆에 있는 **편집** 을 선택합니다.
-
-3. **표시 이름** 상자에 사용자의 새 이름을 입력하고 **저장** 을 선택합니다.
-
-   “**사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** 가 표시되는 경우 [오류 메시지 해결](#resolve-error-messages)을 참조하세요.
-
-이 변경 내용이 서비스 전체에 적용되기까지 최대 24시간이 걸릴 수 있습니다. 변경 내용이 적용된 후 사용자는 Outlook, 비즈니스용 Skype 및 SharePoint에 업데이트된 사용자 이름으로 로그인해야 하므로 이 변경 내용에 대해 사용자에게 알려야 합니다.
-
-::: moniker-end
-
+ 
 ## <a name="resolve-error-messages"></a>오류 메시지 해결
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.”

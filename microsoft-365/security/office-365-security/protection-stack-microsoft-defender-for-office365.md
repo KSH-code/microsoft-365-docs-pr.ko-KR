@@ -13,12 +13,12 @@ localization_priority: Normal
 description: Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01ad901f7f746d9b5d2c50632c1344701120c20f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: e892ebe04887527cf57e4ea44f67c4aaa775b228
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538690"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683298"
 ---
 # <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 단계별 위협 방지
 
@@ -111,13 +111,13 @@ Edge 블록은 자동으로 디자인됩니다. 가짓 긍정의 경우 보낸 �
 
 :::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase4.png" alt-text="Defender for Office 365 4단계는 배달 후 보호입니다.":::
 
-1. **안전한 링크는** MDO의 클릭 시간 보호 기능입니다. 모든 메시지의 모든 URL은 Microsoft 안전 링크 서버를 지점으로 래핑됩니다. URL을 클릭하면 사용자가 대상 사이트로 리디렉션되기 전에 최신 신뢰도에 대해 확인됩니다. URL은 비동기적으로 샌드박스가 적용되어 신뢰도를 업데이트합니다.
+1. **안전한 링크는** 클릭 Office 365 보호를 위한 Defender입니다. 모든 메시지의 모든 URL은 Microsoft 안전 링크 서버를 지점으로 래핑됩니다. URL을 클릭하면 사용자가 대상 사이트로 리디렉션되기 전에 최신 신뢰도에 대해 확인됩니다. URL은 비동기적으로 샌드박스가 적용되어 신뢰도를 업데이트합니다.
 
-2. **피싱 Zero-Hour ZAP(자동 제거)는** 이미 배달된 악성 피싱 메시지를 Exchange Online 중화합니다.
+2. **피싱** 소급에 대한 ZAP(제로 아워 자동 제거)는 이미 모든 사서함으로 배달된 악성 피싱 메시지를 Exchange Online 중화합니다.
 
-3. **맬웨어 ZAP는** 이미 사서함에 배달된 악성 맬웨어 메시지를 소급적으로 감지하고 Exchange Online 중화합니다.
+3. **맬웨어에 대한 ZAP는** 이미 사서함에 배달된 악성 맬웨어 메시지를 Exchange Online 중화합니다.
 
-4. **스팸 ZAP는** 이미 해당 사서함으로 배달된 악성 스팸 메시지를 Exchange Online 중화합니다.
+4. 피싱 소수 **자제용 ZAP는** 이미 사서함에 배달된 악성 스팸 메시지를 Exchange Online 중화합니다.
 
 5. **캠페인 보기를** 통해 관리자는 자동화 없이 모든 팀보다 더 빠르고 완벽하게 공격의 큰 그림을 볼 수 있습니다. Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별하고, 관리자는 다운로드 가능한 캠페인 쓰기에서 사용할 수 있는 대상, 영향 및 흐름을 포함하여 시작부터 끝까지 조사할 수 있도록 합니다.
 
@@ -129,14 +129,13 @@ Edge 블록은 자동으로 디자인됩니다. 가짓 긍정의 경우 보낸 �
 
 9. 배달 후 파일을 지점하는 URL을 선택하면  링크된 콘텐츠 검색에서 파일의 샌드박스가 완료되어 URL이 안전한 것으로 확인될 때까지 경고 페이지를 표시됩니다.
 
-
 ## <a name="the-filtering-stack-diagram"></a>필터링 스택 다이어그램
 
 최종 다이어그램(다이어그램을 구성하는 모든 부분과)은 제품이 커지고 개발함에 따라 변경될 *수 있습니다.* 업데이트 후 요청해야  하는 경우 이 페이지를 책갈피로 설정하고 아래쪽에 있는 피드백 옵션을 사용합니다. 레코드의 경우 모든 단계가 순서대로 스택입니다.
 
 :::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase5.png" alt-text="MDO의 모든 필터링 단계는 1에서 4까지 순서대로 진행됩니다.":::
 
-## <a name="more-information"></a>자세한 정보
+## <a name="more-information"></a>추가 정보
 
 현재 _에 대해 Microsoft Defender를 설정해야 Office 365 ***** 이 스택(_now*)을 사용하여 [](protect-against-threats.md) 이 단계별 단계를 통해 조직 보호를 시작할 수 있습니다.
 

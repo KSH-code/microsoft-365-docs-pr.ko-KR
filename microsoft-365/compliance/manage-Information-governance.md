@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 recommendations: false
 description: Microsoft 정보 거버넌스 기능을 구현하여 규정 준수 또는 규제 요구 사항에 대한 데이터를 관리합니다.
-ms.openlocfilehash: 304b4e57702c55242e49fae7fdf4a36e9b2f7cdb
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: a62b1a20aa07c8b5d147fd24e3867c4d4c50174e
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244567"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683538"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Microsoft 365의 Microsoft 정보 거버넌스
 
@@ -32,7 +32,7 @@ Microsoft 정보 거버넌스(MIG) 기능을 사용하여 규정 준수 또는 �
 
 데이터 보호에 대해 찾고 있으신가요? [Microsoft 365의 Microsoft 정보 보호](information-protection.md)를 참조하세요.
 
-Microsoft는 사용자가 데이터 개인 정보 보호 규정을 준수할 수 있도록 안전한 액세스, 위협 방지, 정보 보호, 데이터 거버넌스를 비롯한 Microsoft 365 전반에서 기능을 계획하고 구현하기 위한 종단 간 프로세스를 안내하는 워크플로를 설계했습니다. 자세한 내용은 [Microsoft 365를 사용하여 데이터 개인 정보 보호 규정을 위한 정보 보호를 구현합니다](../solutions/information-protection-deploy.md)(aka.ms/m365dataprivacy)를 참조하세요. 
+Microsoft는 사용자가 데이터 개인 정보 보호 규정을 준수할 수 있도록 안전한 액세스, 위협 방지, 정보 보호, 데이터 거버넌스를 비롯한 Microsoft 365 전반에서 기능을 계획하고 구현하기 위한 종단 간 프로세스를 안내하는 워크플로를 설계했습니다. 자세한 내용은 [Microsoft 365로 데이터 개인 정보 보호 규정에 대한 정보 보호 배포(](../solutions/information-protection-deploy.md)(aka.ms/m365dataprivacy)를 참조하세요. 
 
 ## <a name="information-governance"></a>정보 거버넌스
 
@@ -52,3 +52,7 @@ Microsoft는 사용자가 데이터 개인 정보 보호 규정을 준수할 수
 |기능|어떤 문제를 해결하나요?|시작|
 |:------|:------------|---------------------|:----------------------------|
 |[레코드 관리](records-management.md)| 레코드 선언, 보존 및 처리를 사용하여 콘텐츠의 전체 수명을 지원하는 파일 계획에서 보존 일정 및 요구 사항을 통합하는 전자 메일 및 문서에 대한 단일 솔루션 <br /><br />시나리오 예시: [레코드의 처리](disposition.md#disposition-of-records)|[레코드 관리 시작](get-started-with-records-management.md) |
+
+## <a name="licensing-requirements"></a>라이선스 요구사항
+
+Microsoft 정보 거버넌스에 대한 라이선스 요구 사항은 이 페이지에 나열된 각 기능에 대한 라이선스 요구 사항을 설정하는 것이 아니라 사용하는 시나리오 및 기능에 따라 다릅니다. 라이선스 요구 사항 및 옵션을 이해하려면 Microsoft 365 라이선싱 설명서의 [정보 거버넌스](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) 및 [레코드 관리](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management) 섹션을 참조하고 관련 PDF 또는 Excel을 다운로드하세요.

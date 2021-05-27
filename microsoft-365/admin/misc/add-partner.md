@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: 구매 시 레코드의 파트너를 Microsoft 365 파트너를 변경하거나 구독에서 파트너를 삭제합니다.
-ms.openlocfilehash: e21c324bc84e360b80deae2abeec610e73834819
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 4cebbce41cbd2a500cc502b808734f6056271d12
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624528"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683346"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>구독 관리자 파트너 추가, 변경, 삭제
 
@@ -43,17 +43,17 @@ ms.locfileid: "52624528"
 
 ::: moniker-end
 
+::: moniker range="o365-germany"
+
+구독 관리자 역할을 하는 Microsoft 공인 파트너는 구독을 설정하고 유지 관리하는 데 도움이 되는 판매, 지원, 기술 전문 지식을 제공합니다. 구독 관리자 파트너는 Office 365를 구입할 때 아니면 다른 때에 공식 파트너로 추가할 수 있습니다. 현재 파트너와 작업하고 있지 않은 경우 [Microsoft Pinpoint](https://pinpoint.microsoft.com) 웹 사이트에서 파트너를 찾을 수 있습니다.
+
+::: moniker-end
+
 ## <a name="before-you-begin"></a>시작하기 전에
 
 ::: moniker range="o365-worldwide"
 
 선택한 파트너는 사용하는 Microsoft 서비스 및 해당 서비스를 사용할 국가 또는 지역에 따라 다를 수 있습니다. 구독 파트너를 추가하거나 변경하려면 먼저 파트너에게 Microsoft 파트너 ID를 문의해야 합니다.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-구독 관리자 역할을 하는 Microsoft 공인 파트너는 구독을 설정하고 유지 관리하는 데 도움이 되는 판매, 지원, 기술 전문 지식을 제공합니다. 구독 관리자 파트너는 Office 365를 구입할 때 아니면 다른 때에 공식 파트너로 추가할 수 있습니다. 현재 파트너와 작업하고 있지 않은 경우 [Microsoft Pinpoint](https://pinpoint.microsoft.com) 웹 사이트에서 파트너를 찾을 수 있습니다.
 
 ::: moniker-end
 
@@ -73,7 +73,7 @@ ms.locfileid: "52624528"
 
 ## <a name="add-a-partner-at-the-time-of-purchase"></a>구입 시 파트너 추가
 
-1. 관리 센터에서 청구 구매  서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
+1. 관리 센터에서 청구 구매  서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**페이지로**</a> 이동합니다.
 2. 구매할 제품을 선택하고 구입을 **선택합니다.**
 3. 새 파트너를 추가하려면 **주문에** 대한 도움이 필요하세요?를 확장하고 Microsoft 파트너로부터 지원 **요청 을 선택합니다.**<br>
 공급자 페이지의 단계에 따라 파트너를 검색하거나 파트너와 일치할 수 있습니다.
@@ -136,30 +136,22 @@ ms.locfileid: "52624528"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-2. 구독 세부 정보 페이지의 **파트너 정보에서** 제거를 **선택합니다.**
-3. 새 **파트너의 Microsoft 파트너** 네트워크 ID를 입력합니다. 파트너에게 요청하여 파트너의 Microsoft 파트너 ID를 얻을 수 있습니다.
-4. **추가** 를 선택합니다.
-  
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-2. 구독이 여러 개 있는 경우 편집할 구독의 이름을 선택합니다.
-3. **파트너 ID** 에서 **레코드의 파트너 편집** 을 선택합니다.
-4. 추가할 파트너의 새 Microsoft 파트너 ID를 입력하고 **ID 검사** 를 선택한 다음 **제출** 을 선택합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
-2. 구독이 여러 개 있는 경우 편집할 구독의 이름을 선택합니다.
-3. **파트너 ID** 에서 **레코드의 파트너 편집** 을 선택합니다.
-4. 추가할 파트너의 새 Microsoft 파트너 ID를 입력하고 **ID 검사** 를 선택한 다음 **제출** 을 선택합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.
-
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
 ::: moniker-end
-
+2. 구독 세부 정보 페이지의 **파트너 정보에서** 제거를 **선택합니다.**
+3. 새 **파트너의 Microsoft 파트너** 네트워크 ID를 입력합니다. 파트너에게 요청하여 파트너의 Microsoft 파트너 ID를 얻을 수 있습니다.
+4. **추가** 를 선택합니다.
+  
 ## <a name="view-your-partner-relationships"></a>파트너 관계 보기
 
 - 관리 센터에서 파트너 **관계** 설정  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">이동합니다.</a> 파트너가 이 페이지에 나열됩니다.
@@ -171,50 +163,38 @@ ms.locfileid: "52624528"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+::: moniker-end
 2. 제품 **탭에서** 편집할 구독을 선택합니다.
 3. 구독 세부 정보 페이지의 **파트너 정보에서** 제거를 **선택합니다.**
 
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-2. 구독이 여러 개 있는 경우 편집할 구독의 이름을 선택합니다.
-3. **파트너 ID** 에서 **레코드의 파트너 편집** 을 선택합니다.
-4. **파트너 정보** 페이지에서 **파트너 ID** 상자의 선택을 취소한 다음 **제출** 을 선택합니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
-2. 구독이 여러 개 있는 경우 편집할 구독의 이름을 선택합니다.
-3. **파트너 ID** 에서 **레코드의 파트너 편집** 을 선택합니다.
-4. **파트너 정보** 페이지에서 **파트너 ID** 상자의 선택을 취소한 다음 **제출** 을 선택합니다.
-
-::: moniker-end
-
 ## <a name="remove-a-reseller-relationship"></a>리셀러 관계 제거
 
-::: moniker range="o365-worldwide"
-
 대리점 관계를 스스로 제거할 수는 없습니다.
+
+::: moniker range="o365-worldwide"
   
 리셀러 관계를 제거하는 경우 **삭제** 옵션이 회색으로 표시되고 대리업체 파트너에게 다음 지침을 따르게 요청해야 합니다. [파트너와의](/partner-center/remove-a-relationship)리셀러 관계 제거.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-
-대리점 관계를 스스로 제거할 수는 없습니다.
   
 리셀러 관계를 제거하는 경우 **삭제** 옵션이 회색으로 표시되고 대리업체 파트너에게 다음 지침을 따르게 요청해야 합니다. [파트너와의](/partner-center/remove-a-relationship)리셀러 관계 제거.
   
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-
-대리점 관계를 스스로 제거할 수는 없습니다.
   
 리셀러 파트너에게 다음 지침을 따르기 위해 요청해야 합니다. [파트너와의 리셀러](/partner-center/remove-a-relationship)관계 제거.
   

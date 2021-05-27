@@ -9,20 +9,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
+description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정하고, 제거하고, 테스트하는 & 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36238d14d3d6a1f84b0fdcae62635922f62b58d3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
-ms.translationtype: HT
+ms.openlocfilehash: 911d2dc3a4adeb79e2b41f3a450bbc446feee916
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908492"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683846"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -61,10 +61,10 @@ ms.locfileid: "50908492"
 2. **이름** 및 **설명** 값을 입력하고 **다음** 을 선택합니다.
 3. **패턴 만들기** 를 선택합니다. 새 중요한 정보 유형을 정의할 때 각각 서로 다른 요소와 신뢰 수준이 있는 여러 개의 패턴을 만들 수 있습니다.
 4. 패턴의 기본 신뢰 수준을 선택합니다. 값에는 **낮은 신뢰 신뢰도**, **보통 신뢰도** 및 **높은 신뢰도** 가 있습니다.
-5. **기본 요소** 를 선택하고 정의합니다. 기본 요소는 선택적 유효성 검사기가 있는 **정규식**, **키워드 목록**, **키워드 사전** 또는 미리 구성된 **함수** 중 하나가 될 수 있습니다. DLP 함수에 대한 자세한 내용은 [DLP 함수가 찾는 항목](what-the-dlp-functions-look-for.md)을 참조하세요.
+5. **기본 요소** 를 선택하고 정의합니다. 기본 요소는 선택적 유효성 검사기가 있는 **정규식**, **키워드 목록**, **키워드 사전** 또는 미리 구성된 **함수** 중 하나가 될 수 있습니다. DLP 함수에 대한 자세한 내용은 [DLP 함수가 찾는 항목](what-the-dlp-functions-look-for.md)을 참조하세요. 날짜 및 체크 um 유효성 검사기에 대한 자세한 내용은 정규식 유효성 검사기에 대한 자세한 [정보를 참조하세요.](#more-information-on-regular-expression-validators)
 6. **문자 근접성** 값을 입력합니다.
-7. (선택 사항) 있는 경우 지원 요소를 추가합니다. 지원 요소는 선택적 유효성 검사기가 있는 정규식, 키워드 목록, 키워드 사전 또는 미리 정의된 함수 중 하나가 될 수 있습니다. 
-8.  (선택 사항) 사용 가능한 검사 목록에서 [**추가 검사**](#more-information-on-additional-checks)를 추가합니다.
+7. (선택 사항) 있는 경우 지원 요소를 추가합니다. 지원 요소는 선택적 유효성 검사기가 있는 정규식, 키워드 목록, 키워드 사전 또는 미리 정의된 함수 중 하나가 될 수 있습니다. 지원 요소는 자체 문자 근접 **구성을 사용할 수** 있습니다. 
+8. (선택 사항) 사용 가능한 검사 목록에서 [**추가 검사**](#more-information-on-additional-checks)를 추가합니다.
 9. **만들기** 를 선택합니다.
 10. **다음** 을 선택합니다.
 11. 이 중요한 정보 유형에 대한 **권장 신뢰 수준** 을 선택합니다.
@@ -122,6 +122,47 @@ ms.locfileid: "50908492"
 PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지정 중요한 정보 유형을 만들 수도 있습니다. 해당 방법에 대한 자세한 내용은 다음을 참조하세요.
 - [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [정확한 데이터 매치(EDM)를 사용하여 DLP를 위한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+
+## <a name="more-information-on-regular-expression-validators"></a>정규식 유효성 검사에 대한 자세한 정보
+
+### <a name="checksum-validator"></a>Checksum 유효성 검사기
+
+정규식의 숫자에 체크 아웃을 실행해야 하는 경우 체크 um *유효성 검사기 를 사용할 수 있습니다.* 예를 들어 마지막 숫자가 mod 9 계산을 사용하여 유효성을 검사하는 체크 um 숫자인 8자리 라이선스 번호에 대한 SIT를 만들어야 된다고 합니다. 체크 um 알고리즘을 설정했습니다.
+ 
+Sum = digit = digit 1 * Weight 1 + digit 2 * weight 2 + digit 3 * weight 3 + digit 4 * weight 4 + digit 5 * weight 5 + digit 6 * weight 6 + digit 7 * weight 7 + digit 8 * weight 8 Mod value = Sum % 9 If Mod value == digit 8 Account number is valid If Mod value != digit 8 Account number is invalid
+
+1. 이 정규식을 사용하여 기본 요소를 정의합니다.
+
+`\d{8}`
+
+2. 그런 다음 체크 um 유효성 검사를 추가합니다.
+3. 가중치 값, 검사 숫자의 위치 및 Mod 값으로 구분하여 추가합니다. Modulo 작업에 대한 자세한 내용은 [Modulo 작업을 참조하십시오.](https://en.wikipedia.org/wiki/Modulo_operation)
+
+> [!NOTE]
+> 체크 숫자가 체크 체크 um 계산의 일부가 아닌 경우 0을 검사 숫자의 가중치로 사용합니다. 예를 들어 검사 숫자를 검사 숫자로 계산하지 않을 경우 위의 경우 가중치 8은 0과 같습니다.  Modulo_operation).
+
+![구성된 체크 um 유효성 검사기 스크린샷](../media/checksum-validator.png)
+
+### <a name="date-validator"></a>날짜 유효성 검사기
+
+정규식에 포함된 날짜 값이 새로 만드는 패턴의 일부인 경우 날짜  유효성 검사기에서 조건을 충족하는지 테스트할 수 있습니다. 예를 들어 9자리 직원 ID 번호에 대한 SIT를 만들라고 합니다. 처음 6자리 숫자는 DDMMYY 형식의 채용 날짜로, 마지막 3자리는 임의로 생성된 숫자입니다. 처음 6자리 숫자가 올바른 형식의지 확인합니다. 
+
+1. 이 정규식을 사용하여 기본 요소를 정의합니다.
+
+`\d{9}`
+
+2. 그런 다음 날짜 유효성 검사기 를 추가합니다.
+3. 날짜 형식과 시작 오프셋을 선택합니다. 날짜 문자열은 처음 6자리 숫자이기 때문에 오프셋은 `0` 입니다.
+
+![구성된 날짜 유효성 검사기 스크린샷](../media/date-validator.png)
+
+### <a name="functional-processors-as-validators"></a>유효성 검사자인 기능 프로세서
+
+가장 일반적으로 사용되는 일부 SITS에 대해 함수 프로세서를 유효성 검사기로 사용할 수 있습니다. 따라서 SIT에 필요한 추가 검사를 통과하는 동시에 사용자만의 정규식을 정의할 수 있습니다. 예를 들어 Func_India_Aadhar 정의한 사용자 지정 정규식이 인디언 Aadhar 카드에 필요한 유효성 검사 논리를 전달하는지 확인하게 됩니다. 유효성 검사로 사용할 수 있는 DLP 함수에 대한 자세한 내용은 DLP 함수에서 를 [찾아보는 것을 참조하세요.](what-the-dlp-functions-look-for.md#what-the-dlp-functions-look-for) 
+
+### <a name="luhn-check-validator"></a>Luhn 검사 유효성 검사기
+
+Luhn 알고리즘을 전달해야 하는 정규식을 포함하는 사용자 지정 중요한 정보 유형이 있는 경우 [Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm)검사 유효성 검사를 사용할 수 있습니다.
 
 ## <a name="more-information-on-additional-checks"></a>추가 검사에 대한 추가 정보
 

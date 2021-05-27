@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2c746a74899a34827e089f4c9c2f6ecc396bb69c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ec8dd97a563edc487008d028a7cdc9f6ef3d17c1
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538774"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689088"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>제로 데이 취약성 완화 - 위협 및 취약성 관리
 
@@ -46,7 +46,7 @@ ms.locfileid: "52538774"
 제로 데이 취약점이 발견된 후 이 취약점에 대한 정보는 제로 데이의 다음 경험을 통해 Microsoft Defender 보안 센터.
 
 >[!NOTE]
-> 0일 기능은 현재 비영구 제품(Mac, Linux Windows 사용할 수 없습니다. 그러나 향후에 추가될 예정입니다.
+> 0일 취약성 기능은 현재 모든 제품에서만 Windows 있습니다.
 
 ### <a name="threat-and-vulnerability-management-dashboard"></a>위협 및 취약성 관리 대시보드
 

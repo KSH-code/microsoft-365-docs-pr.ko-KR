@@ -1,5 +1,5 @@
 ---
-title: Configuration Manager Microsoft Defender 바이러스 백신 Intune을 통해 구성
+title: 사용자 Microsoft Defender 바이러스 백신 구성 Microsoft Endpoint Manager
 description: Microsoft Microsoft Endpoint Manager Microsoft Intune 사용하여 Microsoft Defender AV 및 Endpoint Protection
 keywords: scep, intune, 끝점 보호, 구성
 search.product: eADQiWindows 10XVcnh
@@ -11,20 +11,20 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 10/26/2018
-ms.reviewer: ''
+ms.date: 05/24/2021
+ms.reviewer: phuijbr, oogunrinde
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: b62344945efc0bdfc495a4fc4196cea6ddcb1874
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ab77f3ab5ac9385d1ce049061730d2192e3bcb0c
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275327"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683754"
 ---
-# <a name="use-microsoft-endpoint-manager-and-microsoft-intune-to-configure-and-manage-microsoft-defender-antivirus"></a>Microsoft Endpoint Manager 및 Microsoft Intune 사용하여 Microsoft Defender 바이러스 백신
+# <a name="use-microsoft-endpoint-manager-to-configure-and-manage-microsoft-defender-antivirus"></a>이 Microsoft Endpoint Manager 사용하여 Microsoft Defender 바이러스 백신
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,26 +33,32 @@ ms.locfileid: "52275327"
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-네트워크에서 Microsoft Endpoint Manager Microsoft Intune 사용하여 끝점을 관리하는 경우 이제 Microsoft Endpoint Manager 사용하여 검색을 관리할 Microsoft Defender 바이러스 백신 있습니다.
+검색을 [사용하여](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 구성할 Microsoft Defender 바이러스 백신 있습니다. [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) 및 [Configuration Manager는](/mem/configmgr/core/understand/introduction) 이제 Endpoint Manager.  
 
-1. in the Microsoft Endpoint Manager admin center ( [https://endpoint.microsoft.com](https://endpoint.microsoft.com) ) navigate to **Endpoint Security**.
+## <a name="configure-microsoft-defender-antivirus-scans-in-endpoint-manager"></a>사용자 Microsoft Defender 바이러스 백신 검사 구성 Endpoint Manager
 
-2. 관리에서 바이러스 백신 을 **선택 합니다.** 
+1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
 
-3. 사용자 Microsoft Defender 바이러스 백신 선택합니다. 
+2. **끝점 보안으로 이동합니다.**
 
-4. 관리에서 속성을 **선택 합니다.** 
+3. 관리에서 바이러스 백신 을 **선택 합니다.** 
 
-5. 구성 설정 **옆에 있는** 편집 **을 선택합니다.**
+4. 사용자 Microsoft Defender 바이러스 백신 선택합니다. 
 
-6. 검사 **섹션을** 확장하고 검사 설정을 검토하거나 편집합니다.
+5. **관리** 에서 **속성** 을 선택합니다.
 
-7. 검토 **+ 저장 선택**
+6. **구성 설정** 옆의 **편집** 을 선택합니다.
 
-도움이 필요하신가요? 에서 끝점 보안 [관리를 Microsoft Intune.](/mem/intune/protect/endpoint-security)
+7. 검사 **섹션을** 확장하고 검사 설정을 검토하거나 편집합니다.
+
+8. 검토 **+ 저장 선택**
+
+
+> [!TIP]
+> 도움이 필요하신가요? 에서 끝점 보안 [관리를 Microsoft Intune.](/mem/intune/protect/endpoint-security)
 
 
 ## <a name="related-articles"></a>관련 문서
 
-- [관리 및 구성 도구에 대한 참조 항목](configuration-management-reference-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [관리 및 구성 도구에 대한 참조 문서](configuration-management-reference-microsoft-defender-antivirus.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

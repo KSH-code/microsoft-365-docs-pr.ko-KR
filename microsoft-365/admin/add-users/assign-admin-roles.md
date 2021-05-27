@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 사용자가 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에게 관리자 역할을 할당하는 방법을 설명합니다.
-ms.openlocfilehash: 8a9da12a8ebc01a02e4362f09ccaa9e92c21b7e9
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e53d1a414d081ddb74a1c4784adcd982b6194691
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634175"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683214"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -50,8 +50,6 @@ Microsoft 비즈니스 구독을 구입한 사람인 경우 전역 관리자입�
 
 ## <a name="assign-admin-roles"></a>관리자 역할 할당 
 
-::: moniker range="o365-worldwide"
-
 다음 두 가지 방법으로 사용자에게 역할을 할당할 수 있습니다.
 
 - 사용자의 세부 정보 및 **역할** 관리로 이동하여 사용자에게 역할을 할당할 수 있습니다.
@@ -61,52 +59,40 @@ Microsoft 비즈니스 구독을 구입한 사람인 경우 전역 관리자입�
 
 1. 관리 센터에서 **역할로 이동하세요.** Azure **AD 또는** **Intune** 탭을 선택하면 조직에서 사용할 수 있는 관리자 역할을 볼 수 있습니다.
 2. 사용자를 할당할 관리자 역할을 선택합니다.
-3. 할당된 **관리자 추가** > **를 선택합니다.**
+3. 할당된 **관리자 추가**  >  **를 선택합니다.**
 4. 사용자의 표시 이름  또는 사용자 이름을 입력한 다음 제안 목록에서 사용자를 선택합니다.
 5. 완료될 때까지 여러 사용자를 추가합니다.
 6. **저장을** 선택한 다음 사용자가 할당된 관리자 목록에 추가됩니다.
 
 ### <a name="assign-a-user-to-an-admin-role-from-active-users"></a>활성 사용자의 관리자 역할에 사용자 할당
 
+::: moniker range="o365-worldwide"
+
 1. 관리 센터에서 사용자 활성 **사용자** > [페이지로](https://go.microsoft.com/fwlink/p/?linkid=834822) 이동합니다.
-
-2. 활성 **사용자 페이지에서** 관리자 역할을 변경할 사용자를 선택합니다. 플라이아웃 창의 역할에서 **역할** **관리를 선택합니다.**
-
-3. 사용자에게 할당할 관리자 역할을 선택합니다. 원하는 역할이 없는 경우 목록 맨 아래에서 **모두** 표시를 선택합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
-
-2. 활성 **사용자 페이지에서** 관리자 역할을 변경할 사용자를 선택합니다. 플라이아웃 창에서 역할 옆의 **편집** 을 **선택합니다.** 
-
-    편집 옵션이 없는 경우  편집할 수 있는 권한이 없는 것이고 다른 사용자에게 관리자 역할을 할당할 수 없습니다. 비즈니스의 전역 관리자에게 역할을 할당해달고 요청합니다. 중소기업에서 비즈니스 소유자(구독을 구매한 사람)는 전역 관리자입니다. 대기업에서 IT 부서의 주요 직원은 전역 관리자입니다.
-
-3. 사용자 **지정된 관리자를** 선택하여 사용자 지정한 역할 목록을 볼 수 있습니다. 각 역할에 대한 설명은 관리자 역할 [정보를 참조하세요.](about-admin-roles.md)
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
-
-2. 활성 **사용자 페이지에서** 관리자 역할을 변경할 사용자를 선택합니다. 플라이아웃 창에서 역할 옆의 **편집** 을 **선택합니다.**
-
-    편집 옵션이 없는 경우  편집할 수 있는 권한이 없는 것이고 다른 사용자에게 관리자 역할을 할당할 수 없습니다. 비즈니스의 전역 관리자에게 역할을 할당해달고 요청합니다. 중소기업에서 비즈니스 소유자(구독을 구매한 사람)는 전역 관리자입니다. 대기업에서 IT 부서의 주요 직원은 전역 관리자입니다.
-
-3. 사용자 **지정된 관리자를** 선택하여 사용자 지정한 역할 목록을 볼 수 있습니다. 각 역할에 대한 설명은 관리자 역할 [정보를 참조하세요.](about-admin-roles.md)
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
+
+2. 활성 **사용자 페이지에서** 관리자 역할을 변경할 사용자를 선택합니다. 플라이아웃 창의 역할에서 **역할** **관리를 선택합니다.**
+
+3. 사용자에게 할당할 관리자 역할을 선택합니다. 원하는 역할이 없는 경우 목록 맨 아래에서 **모두** 표시를 선택합니다.
 
 ## <a name="assign-admin-roles-to-multiple-users"></a>여러 사용자에게 관리자 역할 할당
 
 PowerShell을 알고 있는 경우 PowerShell을 통해 사용자 계정에 역할 [할당을 참조합니다.](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) 이 방법은 수백 명의 사용자에게 역할을 할당하는 경우 적합합니다.
   
 수십 명의 사용자에게 역할을 할당하려면 다음 지침을 따릅니다.
-
-::: moniker range="o365-worldwide"
 
 ## <a name="check-admin-roles-in-your-organization"></a>조직에서 관리자 역할 확인
 
@@ -116,8 +102,6 @@ PowerShell을 알고 있는 경우 PowerShell을 통해 사용자 계정에 역�
 
 - 사용자의 세부 정보로 이동하여 계정 페이지의 역할 **아래를** 볼 **수** 있습니다.
 - 또는 역할로 **이동하여** 관리자 역할을 선택하고 할당된 관리자를 선택하여 할당된 사용자를 볼 수 있습니다.
-
-::: moniker-end
 
 ## <a name="related-content"></a>관련 콘텐츠
 

@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f96cfd56cb8d61bc62c34e2b1ee08d6313c6a8ad
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 43a136bb3432adcd47589d29aa5de8f8f6299ba8
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186644"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683070"
 ---
 # <a name="machine-resource-type"></a>컴퓨터 리소스 유형
 
@@ -46,31 +46,31 @@ ms.locfileid: "51186644"
 [컴퓨터 얻기](get-machine-by-id.md) | [컴퓨터](machine.md) | ID를 [통해](machine.md) 컴퓨터 얻습니다.
 [로그온한 사용자](get-machine-log-on-users.md) | [사용자](user.md) 컬렉션 | 컴퓨터에 로그온한 [User](user.md) 집합을 [얻습니다.](machine.md)
 [관련 알림 표시](get-machine-related-alerts.md) | [경고](alerts.md) 컬렉션 | 에서 [발생된](alerts.md) 경고 엔터티 집합을 [얻습니다.](machine.md)
-[설치된 소프트웨어 다운로드](get-installed-software.md) | [software collection(소프트웨어](software.md) 컬렉션) | 특정 컴퓨터 ID와 관련된 설치된 소프트웨어 컬렉션을 검색합니다.
-[발견된 취약성 확인](get-discovered-vulnerabilities.md) | [취약점](vulnerability.md) 수집 | 특정 컴퓨터 ID와 관련된 검색된 취약성 컬렉션을 검색합니다.
-[보안 권장 사항](get-security-recommendations.md) | [권장 컬렉션](recommendation.md) | 특정 컴퓨터 ID와 관련된 보안 권장 사항 컬렉션을 검색합니다.
+[설치된 소프트웨어 가져오기](get-installed-software.md) | [software collection(소프트웨어](software.md) 컬렉션) | 특정 컴퓨터 ID와 관련된 설치된 소프트웨어 컬렉션을 검색합니다.
+[발견된 취약성 가져오기](get-discovered-vulnerabilities.md) | [취약점](vulnerability.md) 수집 | 특정 컴퓨터 ID와 관련된 검색된 취약성 컬렉션을 검색합니다.
+[보안 권장 사항 가져오기](get-security-recommendations.md) | [권장 컬렉션](recommendation.md) | 특정 컴퓨터 ID와 관련된 보안 권장 사항 컬렉션을 검색합니다.
 [컴퓨터 태그 추가 또는 제거](add-or-remove-machine-tags.md) | [컴퓨터](machine.md) | 특정 컴퓨터의 태그를 추가하거나 제거합니다.
-[IP로 컴퓨터 찾기](find-machines-by-ip.md) | [machine collection(컴퓨터](machine.md) 컬렉션) | IP로 볼 수 있는 컴퓨터를 찾아 찾습니다.
-[태그로 컴퓨터 찾기](find-machines-by-tag.md) | [machine collection(컴퓨터](machine.md) 컬렉션) | 태그로 컴퓨터를 [검색합니다.](machine-tags.md)
-[누락된 KB](get-missing-kbs-machine.md) | KB 컬렉션 | 컴퓨터 ID와 연결된 누락된 KB 목록 표시
+[IP별 컴퓨터 찾기](find-machines-by-ip.md) | [machine collection(컴퓨터](machine.md) 컬렉션) | IP로 볼 수 있는 컴퓨터를 찾아 찾습니다.
+[태그별 컴퓨터 찾기](find-machines-by-tag.md) | [machine collection(컴퓨터](machine.md) 컬렉션) | 태그로 컴퓨터를 [검색합니다.](machine-tags.md)
+[누락된 KB 가져오기](get-missing-kbs-machine.md) | KB 컬렉션 | 컴퓨터 ID와 연결된 누락된 KB 목록 표시
 [장치 값 설정](set-device-value.md)| [machine collection(컴퓨터](machine.md) 컬렉션) | 디바이스의 [값을 설정합니다.](tvm-assign-device-value.md)
 
-## <a name="properties"></a>속성
+## <a name="properties"></a>특성
 
 속성 |   유형   |   설명
 :---|:---|:---
-id | 문자열 | [컴퓨터](machine.md) ID입니다.
-computerDnsName | 문자열 | [컴퓨터의](machine.md) 정식 이름입니다.
+id | String | [컴퓨터](machine.md) ID입니다.
+computerDnsName | String | [컴퓨터의](machine.md) 정식 이름입니다.
 firstSeen | DateTimeOffset | Microsoft Defender for [](machine.md) Endpoint에서 컴퓨터가 관찰된 첫 번째 날짜 및 시간입니다.
 lastSeen | DateTimeOffset |마지막으로 수신한 전체 장치 보고서의 시간 및 날짜입니다. 일반적으로 장치는 24시간마다 전체 보고서를 전송합니다.
-osPlatform | 문자열 | 운영 체제 플랫폼.
-osProcessor | 문자열 | 운영 체제 프로세서.
-버전 | 문자열 | 운영 체제 버전입니다.
+osPlatform | String | 운영 체제 플랫폼.
+osProcessor | String | 운영 체제 프로세서. 대신 osArchitecture 속성을 사용합니다.
+버전 | String | 운영 체제 버전입니다.
 osBuild | Nullable long | 운영 체제 빌드 번호입니다.
-lastIpAddress | 문자열 | 컴퓨터의 로컬 NIC에 대한 마지막 [IP입니다.](machine.md)
-lastExternalIpAddress | 문자열 | 컴퓨터로 인터넷에 [](machine.md) 액세스한 마지막 IP입니다.
+lastIpAddress | String | 컴퓨터의 로컬 NIC에 대한 마지막 [IP입니다.](machine.md)
+lastExternalIpAddress | String | 컴퓨터로 인터넷에 [](machine.md) 액세스한 마지막 IP입니다.
 healthStatus | Enum | [컴퓨터](machine.md) 상태. 가능한 값은 "Active", "Inactive", "ImpairedCommunication", "NoSensorData", "NoSensorDataImpairedCommunication" 및 "Unknown"입니다. 
-rbacGroupName | 문자열 | 컴퓨터 그룹 이름입니다.
+rbacGroupName | String | 컴퓨터 그룹 이름입니다.
 riskScore | Nullable Enum | 끝점에 대한 Microsoft Defender에서 평가한 위험 점수입니다. 가능한 값은 'None', 'Informational', 'Low', 'Medium' 및 'High'입니다.
 exposureScore | Nullable Enum | [Microsoft](tvm-exposure-score.md) Defender for Endpoint에서 평가한 노출 점수입니다. 가능한 값은 'None', 'Low', 'Medium' 및 'High'입니다.
 aadDeviceId | Nullable 표현 Guid | AAD 장치 [ID(장치가](machine.md) AAD에 가입된 경우).
@@ -78,5 +78,6 @@ machineTags | 문자열 컬렉션 | 컴퓨터 [태그](machine.md) 집합입니�
 exposureLevel | Nullable Enum | 끝점용 Microsoft Defender에서 평가한 노출 수준입니다. 가능한 값은 'None', 'Low', 'Medium' 및 'High'입니다.
 deviceValue | Nullable Enum | 디바이스의 [값입니다.](tvm-assign-device-value.md) 가능한 값은 '보통', '낮음' 및 '높음'입니다.
 ipAddresses | IpAddress 컬렉션 | ***IpAddress*** 개체 집합입니다. 컴퓨터 [API 보기를 참조합니다.](get-machines.md)
+osArchitecture | String | 운영 체제 아키텍처. 가능한 값은 "32비트", "64비트"입니다. osProcessor 대신 이 속성을 사용합니다.
 
 

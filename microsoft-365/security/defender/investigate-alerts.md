@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6a34269c414f59d40c9160d5728159ed9cddf976
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 4957c92cb95464213cce4a81ded07de166468c73
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651355"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689016"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Defender에서 경고 Microsoft 365 조사
 
@@ -78,6 +78,23 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 Microsoft 
 :::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="보안 센터에서 경고의 세부 정보 Microsoft 365 예":::
 
 경고 페이지 전체에서 모든 엔터티 옆에 있는 타원(**...**)을 선택하여 경고 페이지를 열거나 경고를 다른 인시던트에 연결하는 등의 사용 가능한 작업을 볼 수 있습니다.
+
+### <a name="alert-sources"></a>경고 원본
+Microsoft 365 Defender 경고는 Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 Microsoft Cloud App Security. 경고에 미리 문자가 있는 경고가 표시될 수 있습니다. 다음 표에서는 경고에 추가된 문자를 기반으로 경고 원본의 매핑을 이해하는 데 도움이 되는 지침을 제공합니다.
+
+> [!NOTE]
+> - 추가된 GUID는 통합 경고 큐, 통합 알림 페이지, 통합 조사 및 통합 인시던트와 같은 통합 환경 전용입니다.<br>
+> - 미리 든 문자는 경고의 GUID를 변경하지 않습니다. GUID는 추가된 구성 요소뿐입니다.<br>
+
+
+경고 원본 | 문자를 더한 문자 
+:---|:---
+Office 365용 Microsoft Defender | `fa{GUID}` <br> 예: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
+끝점용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
+ID용 Microsoft Defender | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Cloud App Security |`ca{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+
+
 
 ### <a name="analyze-affected-assets"></a>영향을 받는 자산 분석
 

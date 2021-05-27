@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: MIP(Microsoft Information Protection)를 구현하여 중요한 정보를 어디에서나 보호할 수 있습니다.
-ms.openlocfilehash: a68f8dee00117af1fa4d7be5f459ed5c850a5100
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 2de9b1e4a3901477df883287a1ee350885de5513
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332753"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683694"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 Microsoft Information Protection
 
@@ -41,9 +41,6 @@ MIP 기능은 Microsoft 365 규정 준수에 포함되어 있으며, [데이터 
 
 > [!NOTE]
 > 현재 미리 보기에 있는 Azure Purview에서 데이터 분류 및 레이블 지정에 대한 자세한 내용은 [Azure Purview에서 내용에 자동으로 레이블을 지정](/azure/purview/create-sensitivity-label)을 참조하세요.
-> 
-> Azure Purview의 릴리스 공지 사항은 다음 블로그 게시물을 참조하세요. [Microsoft Information Protection 및 Microsoft Azure Purview: 함께 사용하면 더욱 효과적](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-microsoft-azure-purview/ba-p/1957481) 및 [Spring Ignite 2021의 Azure Purview](https://techcommunity.microsoft.com/t5/azure-purview/azure-purview-at-spring-ignite-2021/ba-p/2175919).
-
 
 하이브리드 환경에서 데이터 환경을 이해하고 중요한 데이터를 식별하려면 다음 기능을 사용합니다.
  
@@ -83,3 +80,7 @@ MIP 기능은 Microsoft 365 규정 준수에 포함되어 있으며, [데이터 
 |[Microsoft 규정 준수 확장(미리 보기)](dlp-chrome-learn-about.md) | Chrome 브라우저로 DLP 기능 확장 | [Microsoft 규정 준수 확장 시작(미리 보기)](dlp-chrome-get-started.md)|
 |[Microsoft 365 데이터 손실 방지 온-프레미스 스캐너(미리 보기)](dlp-on-premises-scanner-learn.md)|파일 활동과 해당 파일에 대한 보호 작업 모니터링을 온-프레미스 파일 공유와 SharePoint 폴더 및 문서 라이브러리로 확대시킵니다.|[Microsoft 365 데이터 손실 방지 온-프레미스 스캐너로 시작하기(미리 보기)](dlp-on-premises-scanner-get-started.md)|
 |[Microsoft Teams 대화 및 채널 메시지에서 중요한 정보를 보호합니다](dlp-microsoft-teams.md) | Teams 채팅 및 채널 메시지로 일부 DLP 기능 확장 | [Microsoft Teams의 기본 데이터 손실 방지 정책에 대한 자세한 정보(미리 보기)](dlp-teams-default-policy.md)|
+
+## <a name="licensing-requirements"></a>라이선스 요구사항
+
+MIP에 대한 라이선스 요구 사항은 이 페이지에 나열된 각 기능에 대한 라이선스 요구 사항을 설정하는 것이 아니라 사용하는 시나리오 및 기능에 따라 다릅니다. MIP에 대한 라이선스 요구 사항 및 옵션을 이해하려면 Microsoft 365 라이선싱 설명서에서 [정보 보호](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 섹션을 참조하고 관련 PDF 또는 Excel을 다운로드하세요.

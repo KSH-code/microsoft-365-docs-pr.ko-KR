@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: e628d72482ed7ff32a204eaf9503fdd9a271844a
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 35f1de41094c6bf3f806b3e8e01c0a67949c491e
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635501"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683250"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
@@ -116,42 +116,26 @@ ms.locfileid: "52635501"
 
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
-2. 사용자 계정 목록에서 공유 사서함의 계정을 찾습니다(예: 필터를 **라이선스가 없는 사용자** 로 변경).
-
-3. 사용자를 선택하여 속성 창을 연 다음 **이 사용자 차단** 아이콘 및 ![이 사용자 차단 아이콘의 스크린 샷](../../media/block-user-icon.png)을 선택합니다.
-
-   **참고**: 계정이 이미 차단된 경우 상단에 **로그인 차단됨** 이 표시되고 아이콘은 **이 사용자 차단 해제** 로 표시됩니다.
-
-4. **이 사용자를 차단할까요?** 창에서 **사용자의 로그인 차단** 을 선택한 다음 **변경 사항 저장** 을 선택합니다.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
-2. 사용자 계정 목록에서 공유 사서함의 계정을 찾은 다음(예: 보기를 **라이선스가 없는 사용자** 로 변경) 계정을 선택합니다.
-
-3. 속성 플라이 아웃에서 **로그인 차단** 을 선택합니다.
-
-    **참고:** 계정이 이미 차단된 경우 단추에 **로그인 차단 해제** 가 표시됩니다.
-
-4. **로그인 상태 편집** 플라이 아웃에서 사용자의 로그인 차단이 선택되어 있는지 확인한 후 **저장** 을 선택한 다음 **닫기** 를 선택합니다.
-
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-
-2. 사용자 계정 목록에서 공유 사서함의 계정을 찾은 다음(예: 보기를 **라이선스가 없는 사용자** 로 변경) 계정을 선택합니다.
-
-3. 속성 플라이 아웃에서 **로그인 차단** 을 선택합니다.
-
-    **참고:** 계정이 이미 차단된 경우 단추에 **로그인 차단 해제** 가 표시됩니다.
-
-4. **로그인 상태 편집** 플라이 아웃에서 사용자의 로그인 차단이 선택되어 있는지 확인한 후 **저장** 을 선택한 다음 **닫기** 를 선택합니다.
 ::: moniker-end
+
+1. 사용자 계정 목록에서 공유 사서함의 계정을 찾습니다(예: 필터를 **라이선스가 없는 사용자** 로 변경).
+
+1. 사용자를 선택하여 속성 창을 연 다음 **이 사용자 차단** 아이콘 및 ![이 사용자 차단 아이콘의 스크린 샷](../../media/block-user-icon.png)을 선택합니다.
+
+   **참고**: 계정이 이미 차단된 경우 상단에 **로그인 차단됨** 이 표시되고 아이콘은 **이 사용자 차단 해제** 로 표시됩니다.
+
+1. **이 사용자를 차단할까요?** 창에서 **사용자의 로그인 차단** 을 선택한 다음 **변경 사항 저장** 을 선택합니다.
 
 Azure AD PowerShell을 사용하여 계정에 대한 로그인을 차단하는 방법(동시에 여러 계정 포함)에 대한 자세한 내용은 [Office 365 PowerShell을 사용하여 사용자 계정 차단](../../enterprise/block-user-accounts-with-microsoft-365-powershell.md)을 참조하세요.
 
@@ -172,7 +156,6 @@ Outlook의 공유 사서함에 대한 자세한 내용은 다음을 참조하세
 - <a href="https://support.microsoft.com/office/6ecc39c5-5577-4a1d-b18c-bbdc92972cb2" target="_blank">Mac 용 Outlook에서 공유 폴더 또는 사서함 열기</a>
 
 - <a href="https://support.microsoft.com/office/b0963400-2a51-4c64-afc7-b816d737d164" target="_blank">공유 사서함에 규칙 추가</a>
-
 
 ## <a name="use-a-shared-mailbox-on-a-mobile-device-phone-or-tablet"></a>모바일 장치(휴대폰 또는 태블릿)에서 공유 사서함 사용
 

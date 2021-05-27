@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: eDiscovery 및 검색 도구를 사용하여 조직의 데이터 유출 인시던트 관리 및 대응
-ms.openlocfilehash: 4305dbdb2fb59e4275852c88f8b74f6c4128a5cb
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: f92887018a7ab1cec35526c2a36cce4b0889172e
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653526"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683778"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오 - 검색 및 제거
 
@@ -64,7 +64,7 @@ Contoso의 책임자 정보 보안 책임자입니다. 직원이 전자 메일�
 
 조직의 관행에 따라 데이터 유출 사고를 조사하고 규정 준수 경계를 설정하는 데 사용되는 eDiscovery 사례에 액세스할 수 있는 사용자도 제어해야 합니다. 이 작업을 수행하는 가장 쉬운 방법은 보안 및 준수 센터에서 기존 역할 & 구성원으로 역할 그룹을 추가한 다음 eDiscovery 사례의 구성원으로 역할 그룹을 추가하는 것입니다. 기본 제공 eDiscovery 역할 그룹 및 eDiscovery 사례에 구성원을 추가하는 방법에 대한 자세한 내용은 [eDiscovery 권한 할당을 참조하세요.](assign-ediscovery-permissions.md)
   
-조직의 요구에 맞게 새 역할 그룹을 만들 수도 있습니다. 예를 들어 조직의 데이터 유출 조사자 그룹이 모든 데이터 유출 사례에 액세스하고 공동 작업을 하도록 할 수 있습니다. 이를 위해 "데이터 유출 조사자" 역할 그룹을 만들고 적절한 역할(내보내기, RMS 암호 해독, 검토, 미리 보기, 준수 검색 및 사례 관리)을 할당하고, 데이터 유출 조사자를 역할 그룹에 추가한 다음 역할 그룹을 데이터 유출 eDiscovery 사례의 구성원으로 추가하면 됩니다. 자세한 지침은 [Set up compliance boundaries for eDiscovery investigations in Office 365(eDiscovery](tagging-and-assessment-in-advanced-ediscovery.md) 조사에 대한 규정 준수 경계 설정)를 참조하세요. 
+조직의 요구에 맞게 새 역할 그룹을 만들 수도 있습니다. 예를 들어 조직의 데이터 유출 조사자 그룹이 모든 데이터 유출 사례에 액세스하고 공동 작업을 하도록 할 수 있습니다. 이를 위해 "데이터 유출 조사자" 역할 그룹을 만들고 적절한 역할(내보내기, RMS 암호 해독, 검토, 미리 보기, 준수 검색 및 사례 관리)을 할당하고, 데이터 유출 조사자를 역할 그룹에 추가한 다음 역할 그룹을 데이터 유출 eDiscovery 사례의 구성원으로 추가하면 됩니다. 자세한 지침은 [Set up compliance boundaries for eDiscovery investigations in Office 365(eDiscovery](set-up-compliance-boundaries.md) 조사에 대한 규정 준수 경계 설정)를 참조하세요. 
   
 ## <a name="step-2-create-an-ediscovery-case"></a>2단계: eDiscovery 사례 만들기
 
@@ -123,7 +123,7 @@ eDiscovery 사례와 연결된 콘텐츠 검색을 만들 내용은 [Core eDisco
   
 - [보안 및 준수 센터의 메시지 추적](../security/office-365-security/message-trace-scc.md)
     
-- [보안 및 준수 센터의 & 메시지 추적](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
+- [보안 및 준수 센터의 & 메시지 추적](https://techcommunity.microsoft.com/t5/exchange-team-blog/new-message-trace-in-office-365-security-038-compliance-center/ba-p/607893)
     
 ## <a name="step-6-prepare-the-mailboxes"></a>6단계: 사서함 준비
 

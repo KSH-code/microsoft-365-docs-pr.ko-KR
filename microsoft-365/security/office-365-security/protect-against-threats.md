@@ -20,12 +20,12 @@ description: 관리자는 조직의 위협 방지에 대해 Microsoft 365 조직
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 438200f3f8a6a846d49bc397d6a4b0a0a33cad40
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 12b519d45df005471e3d87cfdb24f87edddbf6f3
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624624"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683334"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -78,27 +78,26 @@ ms.locfileid: "52624624"
 
 자세한 내용은 [Security & Compliance Center의 사용 권한을 참조합니다.](permissions-in-the-security-and-compliance-center.md)
 
-## <a name="before-you-begin-turn-on-audit-logging-for-reporting-and-investigation"></a>시작하기 전에 보고 및 조사에 대한 감사 로깅 켜기
+### <a name="turn-on-audit-logging-for-reporting-and-investigation"></a>보고 및 조사에 대한 감사 로깅 켜기
 
-감사 로깅을 조기 시작합니다. 다음과 같은 특정 단계에 대한 감사를 **ON으로** 해야 합니다. 감사 로깅은 을(를) 포함 하는 [구독에서 사용할 Exchange Online.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) 보안 대시보드, 전자 메일 보안 보고서 [](security-dashboard.md)및 탐색기 등의 위협 [](threat-explorer.md)방지 보고서에서 데이터를 확인하려면 감사 로깅이 에 있어야 *합니다.* [](view-email-security-reports.md) 자세한 내용은 감사 로그 검색 켜기 또는 [끄기 를 참조합니다.](../../compliance/turn-audit-log-search-on-or-off.md)
+- 감사 로깅을 조기 시작합니다. 다음 단계 중 일부에 대해 **감사를 ON으로** 해야 합니다. 감사 로깅은 을(를) 포함 하는 [구독에서 사용할 Exchange Online.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) 보안 대시보드, 전자 메일 보안 보고서 [](security-dashboard.md)및 탐색기 등의 위협 [](threat-explorer.md)방지 보고서에서 데이터를 확인하려면 감사 로깅이 에 있어야 *합니다.* [](view-email-security-reports.md) 자세한 내용은 감사 로그 검색 켜기 또는 [끄기 를 참조합니다.](../../compliance/turn-audit-log-search-on-or-off.md)
 
 ## <a name="part-1---anti-malware-protection"></a>1부 - 맬웨어 방지 보호
 
-[맬웨어 방지 보호는](anti-malware-protection.md) EOP를 포함 하는 [구독에서 사용할 수 있습니다.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
+맬웨어 방지에 대한 권장 설정에 대한 자세한 내용은 EOP 맬웨어 방지 정책 [설정 을 참조하세요.](recommended-settings-for-eop-and-office365.md#eop-anti-malware-policy-settings)
 
-1. 보안 및 [& 센터에서](https://protection.office.com)위협 관리 정책 맬웨어 방지  \>  \> **를 선택 합니다.**
+1. 을 를 열 <https://security.microsoft.com/antimalwarev2> 수 있습니다
 
-2. 기본 정책을 **두 번** 클릭한 다음 설정을 **선택합니다.**
+2. 정책 이름을 클릭하여 기본 정책을 선택합니다.
 
-3. 다음 설정을 지정합니다.
+3. 정책 세부 정보 플라이아웃이 열리면 보호 설정 편집을 **클릭하고** 다음 설정을 구성합니다.
+   - 공통 **첨부 파일 필터** 사용 을 선택하여 공통 첨부 파일 필터를 켜야 합니다. 파일 **형식 사용자 지정을 클릭하여** 파일 형식을 더 추가합니다.
+   - **맬웨어에 대한 제로 아워 자동 제거 사용이 선택되어 있는지** 확인
+   - 알림 섹션의 설정이 **선택되어 있는지** 확인합니다.
 
-    - **맬웨어 검색 응답 섹션에서** 기본 설정을 **아니요로 지정합니다.**
+   완료되면 **저장을 클릭합니다.**
 
-    - 일반 **첨부 파일 형식 필터 섹션에서** 을 **선택 합니다.**
-
-4. **저장** 을 클릭합니다.
-
-맬웨어 방지 정책 옵션에 대한 자세한 내용은 맬웨어 방지 정책 [구성을 참조하세요.](configure-anti-malware-policies.md)
+맬웨어 방지 정책을 구성하는 방법에 대한 자세한 내용은 EOP에서 맬웨어 방지 [정책 구성을 참조하세요.](configure-anti-malware-policies.md)
 
 ## <a name="part-2---anti-phishing-protection"></a>2부 - 피싱 방지 보호 기능
 
