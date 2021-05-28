@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1aaae2970cfb2f6da82507eefa87c8d0e2227661
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: c72e9491303d3f14ddb184e6a302a518643f709d
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939627"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694344"
 ---
 #  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender for Endpoint(Android용) - 개인 정보
 
@@ -38,6 +38,8 @@ Android의 Endpoint용 Defender는 구성된 Android 장치에서 정보를 수�
 
 Android용 Endpoint용 Defender를 예상대로 안전하게 최신으로 유지하고 서비스를 지원하기 위해 수집된 정보입니다.
 
+Android 및 iOS 모바일 장치의 끝점용 Microsoft Defender에 대한 가장 일반적인 개인 정보 보호 질문에 대한 자세한 내용은 Android 및 iOS 모바일 장치에서 [끝점용 Microsoft Defender](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-and-your-privacy-on-android-and-ios-mobile-devices-4109bc54-8ec5-4433-9c33-d359b75ac22a)및 개인 정보를 참조하세요.
+
 ## <a name="required-data"></a>필수 데이터 
 
 필수 데이터는 Android용 Endpoint용 Defender가 예상대로 작동하게 하는 데 필요한 데이터로 구성됩니다. 이 데이터는 서비스 운영에 필수적으로 사용하며 최종 사용자, 조직, 장치 및 앱과 관련된 데이터를 포함할 수 있습니다. 수집되는 데이터의 유형 목록은 다음과 같습니다.
@@ -47,7 +49,7 @@ Android용 Endpoint용 Defender를 예상대로 안전하게 최신으로 유지
 디바이스의  악성 Android 응용 프로그램 패키지(APK)에 대한 정보 포함
 
 -  원본 설치
--  APK의 저장소 위치(파일 경로)
+-  Storage 위치(파일 경로)입니다.
 -  설치 시간, APK 크기 및 사용 권한
 
 ### <a name="web-page--network-information"></a>웹 페이지/네트워크 정보
@@ -66,9 +68,9 @@ Android용 Endpoint용 Defender를 예상대로 안전하게 최신으로 유지
     - 임의로 생성된 GUID(Globally Unique Identifier)
 
 - 테넌트, 장치 및 사용자 정보
-    -   Azure AD(Active Directory) 장치 ID 및 Azure 사용자 ID: Azure Active Directory에서 각각 장치를 고유하게 식별합니다.
+    -   Azure Active Directory(AD) 장치 ID 및 Azure 사용자 ID: Azure Active Directory에서 각각 장치를 고유하게 식별합니다.
 
-    -   Azure 테넌트 ID - Azure Active Directory 내에서 조직을 식별하는 GUID
+    -   Azure 테넌트 ID - 조직 내에서 조직을 식별하는 Azure Active Directory
 
     -   Microsoft Defender for Endpoint org ID - 장치가 속한 엔터프라이즈와 연결된 고유 식별자. Microsoft에서 문제가 선택한 엔터프라이즈 집합에 영향을 미치는지 여부와 영향을 미치는 엔터프라이즈 수를 식별할 수 있도록 허용 
 

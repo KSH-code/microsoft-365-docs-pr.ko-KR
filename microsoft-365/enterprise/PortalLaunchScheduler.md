@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: d7ea64b3a9fef25ddfde43e61624e49d2b7d4352
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: fdf92f2bbdfb673f1db446b562e941d61679fa9a
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280973"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694356"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
@@ -95,7 +95,7 @@ ms.locfileid: "52280973"
     - 사용자 수가 10k명 미만: 2회
     - 10k ~ 30k 사용자: 세 가지 파도 
     - 30k+ ~ 100k 사용자: 5회
-    - 100k 사용자 이상: 5개의 물결표로 Microsoft 계정 팀에 문의
+    - 사용자 수가 100k명 이상인 경우 포털 시작 섹션에 나열된 단계를 통해 5개의 단계로 Microsoft에 문의하세요. 
 
 5.  그런 다음 필요한 **리디렉션 유형을** 파악합니다.
 
@@ -118,6 +118,26 @@ ms.locfileid: "52280973"
 
 8.  포털 시작 세부 정보를 확인하고 일정 을 **선택합니다.** 시작이 예약된 후 SharePoint 포털 홈 페이지에 대한 모든 변경 내용은 포털 시작이 다시 시작되기 전에 정상 진단 결과를 수신해야 합니다.
 
+### <a name="launch-portal-with-over-100k-users"></a>100k 사용자가 있는 포털 시작
+
+100TB를 초과하여 마이그레이션할 계획이면 아래에 나열된 단계에 따라 지원 요청서를 제출하세요. 요청된 정보를 모두 포함해야 합니다.
+
+다음 단계를 따릅니다:
+1. https://admin.microsoft.com(으)로 이동
+2. 새 관리 센터 미리 보기를 사용하고 있는지 확인합니다.
+3. 왼쪽 탐색 창에서 **지원** 을 선택한 다음 **새 서비스 요청** 을 선택합니다. 
+
+
+   그러면 화면 오른쪽에 **도움이 필요하세요?** 창이 활성화됩니다.
+
+4.  문제 **설명 간단히** 설명 영역에 "100k SharePoint 포털 시작"을 입력합니다.</br>
+5. **고객 지원에 문의** 를 선택합니다.
+6. 설명 **아래에서**"100k SharePoint 포털 시작"을 입력합니다. 
+7. 나머지 정보를 입력하고 **연락 받기** 를 선택합니다.
+8. 티켓이 생성되면 다음과 같은 정보를 고객 지원팀으로 보내주세요.
+- 포털 URL 시작 
+- 예상 사용자 수
+- 예상 실행 시간 
 
 ## <a name="make-changes-to-a-scheduled-portal-launch"></a>예약된 포털 시작 변경
 
@@ -247,7 +267,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
 
 2. 모든 사용자에 대해 리디렉션이 진행되지 않은지 유효성을 검사합니다.
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [SharePoint Online에서 포털 시작 롤아웃 계획](./planportallaunchroll-out.md)
 

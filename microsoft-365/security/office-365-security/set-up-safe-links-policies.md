@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Office 365에서 안전한 링크 정책 설정
+title: Microsoft Defender에서 안전한 링크 정책 Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Microsoft Defender for Office 365에서 안전한 링크 정책 및 전역 안전 링크 설정을 보고, 만들고, 수정하고, 삭제하는 방법을 배울 수 있습니다.
+description: 관리자는 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c8b2cb8b57dcf630b3e07ac387e96ab099ca7403
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 61cb4746289a8acbdd9af7f668010604de511902
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205620"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694500"
 ---
-# <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 안전한 링크 정책 설정
+# <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 안전한 링크 정책 Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,21 +34,24 @@ ms.locfileid: "51205620"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365용 Microsoft Defender](defender-for-office-365.md)가 있는 비즈니스 고객을 대상으로 합니다. Outlook의 Safelinks에 대한 정보를 찾고 있는 가정용 사용자인 경우 고급 보안 [Outlook.com 참조하세요.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
+> 이 문서는 [Office 365용 Microsoft Defender](defender-for-office-365.md)가 있는 비즈니스 고객을 대상으로 합니다. 사용자 계정의 Safelinks에 대한 정보를 찾는 가정용 사용자인 Outlook [고급 Outlook.com 보안 을 참조하세요.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
 
-안전한 링크는 메일 흐름에서 인바운드 전자 메일 메시지의 URL 검색을 제공하는 [Office 365용 Microsoft Defender의](defender-for-office-365.md) 기능으로, 전자 메일 메시지 및 기타 위치에서 URL 및 링크 확인을 클릭하는 시간을 제공합니다. 자세한 내용은 [Office 365용 Microsoft Defender의 안전한 링크를 참조하세요.](safe-links.md)
+안전한 링크는 메일 흐름에서 [인바운드 전자 Office 365](defender-for-office-365.md) URL 검색을 제공하는 Microsoft Defender for Office 365 기능으로, 전자 메일 메시지 및 기타 위치에서 URL 및 링크 확인을 클릭하는 시간을 제공합니다. 자세한 내용은 Microsoft [Defender for Office 365.](safe-links.md)
 
 기본 제공 또는 기본 안전 링크 정책이 없습니다. URL의 안전한 링크 검색을 사용하려면 이 문서에 설명된 하나 이상의 안전한 링크 정책을 만들어야 합니다.
 
 > [!NOTE]
-> 안전한 링크 정책 외부에서 안전한 링크 **보호에 대한** 전역 설정을 구성합니다. 자세한 내용은 [Office 365용 Microsoft Defender에서 안전한](configure-global-settings-for-safe-links.md)링크에 대한 전역 설정 구성을 참조하세요.
+> 안전한 링크 정책 외부에서 안전한 링크 **보호에 대한** 전역 설정을 구성합니다. 자세한 내용은 [Microsoft Defender에서](configure-global-settings-for-safe-links.md)안전한 링크에 대한 전역 설정 구성을 Office 365.
 
-보안 & 준수 센터 또는 PowerShell에서 안전한 링크 정책을 구성할 수 있습니다(Exchange Online에 사서함이 있는 적격 Microsoft 365 조직에 대한 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell, Office 365 추가 기능 구독용 Microsoft Defender를 사용).
+보안 & 준수 센터 또는 PowerShell(Exchange Online PowerShell)에서 Exchange Online 사서함이 있는 적격 Microsoft 365 조직, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell, Office 365 추가 기능 구독용 Microsoft Defender에서 안전한 링크 정책을 구성할 수 있습니다.
 
 안전한 링크 정책의 기본 요소는 다음입니다.
 
 - 안전한 링크 **정책:** 안전한 링크 보호를 켜고, 실시간 URL 검색을 켜고, 메시지를 배달하기 전에 실시간 검색이 완료될 때까지 기다릴지 여부를 지정하고, 내부 메시지 검색을 켜고, URL에서 사용자 클릭을 추적할지 여부를 지정하고, 사용자가 원래 URL로 트러프를 클릭할 수 있도록 허용할지 여부를 지정합니다.
 - **안전한 링크 규칙:** 우선 순위 및 받는 사람 필터(정책이 적용되는 사람)를 지정합니다.
+
+> [!IMPORTANT]
+> 관리자는 SafeLinks에 대한 다양한 구성 설정을 고려해야 합니다. 사용 가능한 옵션 중 하나는 SafeLinks에 사용자 식별 가능 정보를 포함 하는 것입니다. 이 기능을 사용하면 *보안 Ops* 팀에서 잠재적인 사용자 손상을 조사하고, 수정 조치를 취하고, 비용이 많이 드는 위반을 제한할 수 있습니다.
 
 보안 및 준수 센터에서 안전한 링크 & 두 요소의 차이는 명확하지 않습니다.
 
@@ -56,7 +59,7 @@ ms.locfileid: "51205620"
 - 안전한 링크 정책을 수정할 때 이름, 우선 순위, 사용 또는 사용 안 하도록 설정 및 받는 사람 필터와 관련된 설정은 안전한 링크 규칙을 수정합니다. 다른 모든 설정은 연결된 안전한 링크 정책을 수정합니다.
 - 안전한 링크 정책을 제거하면 안전한 링크 규칙 및 연결된 안전한 링크 정책이 제거됩니다.
 
-Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 문서 부분의 Exchange Online PowerShell 또는 독립 실행형 [EOP PowerShell을](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) 사용하여 안전한 링크 정책 구성 섹션을 참조하세요.
+Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 문서의 Exchange Online PowerShell 또는 독립 실행형 [EOP PowerShell을](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) 사용하여 안전한 링크 정책 구성 섹션을 참조하세요.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
@@ -65,21 +68,21 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 이 문서의 절차를 수행하려면 먼저 사용 권한을 할당해야 합니다.
-  - 안전한 링크 정책을 만들고 수정하고 삭제하려면 보안 & 준수  센터에서 조직 관리 또는 보안 관리자 역할 그룹의 구성원이자  Exchange Online의 조직 관리 역할 그룹의 구성원이 되어야 합니다.  
+  - 안전한 링크 정책을 만들고 수정하고 삭제하려면 보안 & 준수  센터에서 조직 관리 또는 보안 관리자 역할  그룹의 구성원이자 보안 센터의 조직 관리 역할 Exchange Online.  
   - 안전한 링크 정책에 대한 읽기 전용 액세스 권한을 사용하려면 전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 해야 합니다. 
 
-  자세한 내용은 [Security & Compliance Center의](permissions-in-the-security-and-compliance-center.md) 사용 권한 및 Exchange Online의 사용 권한을 [참조하세요.](/exchange/permissions-exo/permissions-exo)
+  자세한 내용은 Security [& Compliance Center의](permissions-in-the-security-and-compliance-center.md) 사용 권한 및 에서 사용 [권한을 Exchange Online.](/exchange/permissions-exo/permissions-exo)
 
   > [!NOTE]
   > 
   > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  . - [Exchange Online의](/Exchange/permissions-exo/permissions-exo#role-groups) 보기 전용 **조직** 관리 역할 그룹은 기능에 대한 읽기 전용 액세스도 제공합니다.
+  . - 조직의 보기 전용 **조직** 관리 [역할 Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) 기능에 대한 읽기 전용 액세스 권한을 제공합니다.
 
 - 안전한 링크 정책에 대한 권장 설정은 안전한 링크 정책 [설정을 참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
 - 새 정책 또는 업데이트된 정책을 적용하는 데 최대 30분을 허용합니다.
 
-- [Office 365용 Microsoft Defender에](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365)새로운 기능이 지속적으로 추가되고 있습니다. 새 기능이 추가될 때 기존 안전 링크 정책을 조정해야 할 수 있습니다.
+- [새로운 기능은 계속해서](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365)Microsoft Defender for Office 365. 새 기능이 추가될 때 기존 안전 링크 정책을 조정해야 할 수 있습니다.
 
 ## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a>보안 및 & 센터를 사용하여 안전한 링크 정책 만들기
 
@@ -91,17 +94,17 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 3. 새 **안전 링크 정책 마법사가** 열립니다. 정책 **이름 지정 페이지에서** 다음 설정을 구성합니다.
 
-   - **이름**: 정책을 설명하는 고유한 이름을 입력합니다.
+   - **이름**: 정책을 설명하는 고유한 이름을 입력합니다.
 
    - **설명**: 정책에 대한 선택적 설명을 입력합니다.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
-4. 설정 **페이지가** 나타나면 다음 설정을 구성합니다.
+4. 나타나는 **설정** 페이지에서 다음 설정을 구성합니다.
 
    - **메시지의** 알 수 없는 악의적인 URL에  대한 작업 선택: 전자 메일 메시지의 링크에 대해 안전한 링크 보호를 사용하도록 설정하려면 을 선택합니다.
 
-   - **Microsoft Teams 내에서** 알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 선택합니다. 을 선택하여 Teams의 링크에 대해 안전한 링크 보호를 사용하도록 설정하세요. 
+   - **알 수 없는 URL** 또는 잠재적으로 악의적인 URL에  대한 작업을 Microsoft Teams : 을 선택하여 보안 링크 보호를 사용하도록 Teams.
 
    - **파일을 지정하는** 의심스러운 링크 및 링크에 대한 실시간 URL 검색 적용: 전자 메일 메시지의 링크를 실시간으로 검색할 수 있도록 설정하려면 이 설정을 선택합니다.
 
@@ -121,7 +124,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
      항목 구문은 "다음 URL을 다시 덮어치지 않습니다." 목록의 항목 [구문을 참조하세요.](safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)
 
-   이러한 설정에 대한 자세한 내용은 전자 메일 메시지에 대한 [안전한](safe-links.md#safe-links-settings-for-email-messages) 링크 설정 및 [Microsoft Teams의 안전한 링크 설정을 참조하세요.](safe-links.md#safe-links-settings-for-microsoft-teams)
+   이러한 설정에 대한 자세한 [](safe-links.md#safe-links-settings-for-email-messages) 내용은 전자 메일 메시지의 안전한 링크 설정 및 전자 메일 메시지의 안전한 링크 [설정을 Microsoft Teams.](safe-links.md#safe-links-settings-for-microsoft-teams)
 
    표준 및 엄격한 정책 설정에 대한 권장 값은 안전 링크 정책 [설정 을 참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
@@ -222,7 +225,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 3. 정책 세부 정보 플라이아웃이 나타나면 정책 삭제를  클릭한 다음 나타나는 경고 대화 상자에서 예를 클릭합니다. 
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a>Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용하여 안전한 링크 정책 구성
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a>PowerShell Exchange Online 독립 실행형 EOP PowerShell을 사용하여 안전한 링크 정책 구성
 
 앞서 설명한 바와 같이 안전한 링크 정책은 안전한 링크 정책과 안전한 링크 규칙으로 구성됩니다.
 
@@ -267,7 +270,7 @@ New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEn
 이 예에서는 다음 값을 지정하여 Contoso All이라는 안전한 링크 정책을 만듭니다.
 
 - 전자 메일 메시지에서 URL 검색 및 다시 끄기
-- Teams에서 URL 검색을 켜세요(TAP 미리 보기만 해당).
+- 탭에서 URL 검색을 Teams 탭 미리 보기 전용입니다.
 - 파일을 지점하는 클릭된 링크를 포함하여 클릭한 URL에 대한 실시간 검색을 하게 합니다.
 - URL 검색이 완료될 때까지 기다렸다가 메시지를 배달합니다.
 - 내부 메시지에 대해 URL 검색 및 다시 덮기 기능을 켜세요.
@@ -469,7 +472,7 @@ Remove-SafeLinksRule -Identity "Marketing Department"
 
 구문과 매개 변수에 대한 자세한 내용은 [Remove-SafeLinksRule을 참조하십시오.](/powershell/module/exchange/remove-safelinksrule)
 
-안전한 링크가 메시지를 검사하는지 확인하기 위해 사용 가능한 Microsoft Defender for Office 365 보고서를 확인하세요. 자세한 내용은 [Office 365용 Defender에](view-reports-for-mdo.md) 대한 보고서 보기 및 보안 및 준수 센터에서 [탐색기 & 참조하세요.](threat-explorer.md)
+안전한 링크가 메시지를 검사하는지 확인하기 위해 사용 가능한 Microsoft Defender에서 보고서에 Office 365 합니다. 자세한 내용은 [View reports for Defender for Office 365](view-reports-for-mdo.md) and Use Explorer in the Security & Compliance Center [를 참조하세요.](threat-explorer.md)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
@@ -477,7 +480,7 @@ Remove-SafeLinksRule -Identity "Marketing Department"
 
 - 보안 및 & 센터에서 위협 **관리** 정책 \>  \> **ATP 안전한 링크로 이동하세요.** 정책 목록, 해당 **상태 값** 및 우선 순위 값을 **검증합니다.** 자세한 내용을 확인하려면 목록에서 정책을 선택하고 플라이아웃에서 세부 정보를 하세요.
 
-- Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에서 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행하고 설정을 \<Name\> 확인합니다.
+- PowerShell Exchange Online PowerShell Exchange Online Protection PowerShell에서 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행하고 설정을 \<Name\> 확인합니다.
 
   ```PowerShell
   Get-SafeLinksPolicy -Identity "<Name>"

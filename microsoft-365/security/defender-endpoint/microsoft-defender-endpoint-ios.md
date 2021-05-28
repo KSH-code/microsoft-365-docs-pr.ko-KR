@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3d9dd871edba29ec6119329f98ada990abad6e8d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4a051742775c3d4e8b36bf0ba7a4fd2502763014
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246419"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694464"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
@@ -62,9 +62,6 @@ ms.locfileid: "52246419"
 
 - Microsoft Endpoint Manager [관리](https://go.microsoft.com/fwlink/?linkid=2109431)센터에 액세스하여 조직의 등록된 사용자 그룹에 앱을 배포합니다.
 
-**네트워크 요구 사항**
-- 네트워크에 연결할 때 iOS의 [끝점용 Microsoft Defender가](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server) 작동하려면 끝점 서비스 URL용 Microsoft Defender에 액세스할 수 있도록 방화벽/프록시를 구성해야 합니다.
-
 **시스템 요구 사항**
 
 - iOS 11.0 이상을 실행하는 iOS 장치. iPad 버전 1.1.15010101 이상에서 공식적으로 지원됩니다.
@@ -72,7 +69,7 @@ ms.locfileid: "52246419"
 - 디바이스가 앱 에 [Intune 회사 포털 등록되어 있습니다.](https://apps.apple.com/us/app/intune-company-portal/id719171358)
 
 > [!NOTE]
-> **Microsoft Defender ATP(끝점용 Microsoft Defender)는 [이제 Apple 앱 스토어에서](https://aka.ms/mdatpiosappstore)사용할 수 있습니다.**
+> **iOS의 끝점용 Microsoft Defender는 [Apple App Store에서 사용할 수 있습니다.](https://aka.ms/mdatpiosappstore)**
 
 ## <a name="installation-instructions"></a>설치 지침
 

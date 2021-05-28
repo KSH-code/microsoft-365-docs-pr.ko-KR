@@ -18,16 +18,21 @@ description: 결제한 원만한 세금에 대한 계정에 대한 크레딧을 
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
+ROBOTS: NOINDEX, NOFOLLOW
 monikerRange: o365-worldwide
 ms.date: 05/03/2021
-ms.openlocfilehash: b34fd0fd2e35d71e6b35cde250be822201aa719a
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: 68afdd9c5dddc071faa96a78981c68cc2c20e1ed
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689028"
+ms.locfileid: "52694224"
 ---
 # <a name="request-a-credit-for-withholding-tax-on-your-account-india-customers"></a>계정의 원주세에 대한 크레딧 요청(인도 고객)
+
+> [!NOTE]
+>
+> 조직이 인도에 있지 않은 경우 계정(전역 고객)에 대한 원금 원금에 대한 크레딧 요청을 [참조하세요.](withholding-tax-credit-global.md)
 
 인도의 고객은 Microsoft 지역 판매 Pte Ltd. 싱가포르(MRS)에서 청구한 웹 다이렉트(Azure 및 Microsoft 365) 송장을 받고 송장 결제를 위해 싱가포르로 국가 간 결제를 합니다. 지급을 송금할 때 세금을 원할 경우 이 문서에서는 MRS를 통해 계정에서 WHT(원불 세금)에 대한 크레딧을 청구하는 프로세스에 대해 설명하고 있습니다.
 

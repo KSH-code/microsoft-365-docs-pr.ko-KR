@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
-description: 'Exchange Online의 다중 위치 기능(예: 기능 제한 및 사서함 배치)에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: bf1c3c8f510c57f47cbfc7b2609d97f5932e05d3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 기능 제한 사항 및 사서함 Exchange Online 같은 다중 위치 기능에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 4c8f873039cd14251931125f5af2c04b7cbfe719
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923735"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694308"
 ---
 # <a name="multi-geo-capabilities-in-exchange-online"></a>Exchange Online의 다중 위치 기능
 
@@ -43,7 +43,7 @@ Exchange Online에서 Azure AD의 **PreferredDataLocation** 속성을 Exchange O
 
 - **PreferredDataLocation** 이 사용자에게 지정되지 않은 경우, 사서함을 프로비저닝하면 사서함이 중앙 지리적 위치로 프로비저닝됩니다.
 
-- **PreferredDataLocation** 코드가 틀린 경우(예: NAM 대신 NAN 입력), 사서함이 중앙 지리적 위치에서 프로비저닝됩니다.
+- **PreferredDataLocation** 코드가 올바르지 않은 경우(예: NAM 대신 NAN의 오타) 사서함이 중앙 지리적 위치에 프로비전됩니다.
 
 **참고**: 다중 위치 기능 및 비즈니스용 Skype에서 지리적으로 호스팅된 모임은 사용자 개체에서 **PreferredDataLocation** 속성을 사용하여 서비스를 찾습니다. 지리적으로 호스팅된 모임에 대해 사용자 개체에서 **PreferredDataLocation** 값을 구성하는 경우, Microsoft 365 테넌트에서 Multi-Geo가 활성화된 후 해당 사용자의 사서함이 지정된 지리적 위치로 자동으로 이동합니다. 
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 15c22a6f6b581ff68488db6628f7647d49487652
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b1d64ceb7b0027546e84a9c42c8d2ffed188c03b
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934288"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694476"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>개인 정보 보호 정보 - iOS의 끝점용 Microsoft Defender
 
@@ -39,6 +39,9 @@ ms.locfileid: "51934288"
 iOS의 Endpoint용 Defender는 구성된 iOS 장치에서 정보를 수집하고 Endpoint용 Defender가 있는 동일한 테넌트에 저장합니다. 이 정보는 iOS에서 끝점에 대한 Defender를 안전하고 최신으로 유지하며 예상대로 수행하고 서비스를 지원하기 위해 수집됩니다.
 
 데이터 저장소에 대한 자세한 내용은 끝점 데이터 저장소 및 개인 정보 보호를 위한 [Microsoft Defender를 참조하세요.](data-storage-privacy.md)
+
+
+Android 및 iOS 모바일 장치의 끝점용 Microsoft Defender에 대한 가장 일반적인 개인 정보 보호 질문에 대한 자세한 내용은 Android 및 iOS 모바일 장치에서 [끝점용 Microsoft Defender](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-and-your-privacy-on-android-and-ios-mobile-devices-4109bc54-8ec5-4433-9c33-d359b75ac22a)및 개인 정보를 참조하세요.
 
 ## <a name="required-data"></a>필수 데이터 
 
@@ -60,9 +63,9 @@ iOS의 Endpoint용 Defender는 구성된 iOS 장치에서 정보를 수집하고
 
 - 테넌트, 장치 및 사용자 정보 
 
-    - Azure AD(Active Directory) 장치 ID 및 Azure 사용자 ID - Azure Active Directory에서 각각 장치를 고유하게 식별합니다. 
+    - Azure Active Directory(AD) 장치 ID 및 Azure 사용자 ID - Azure Active Directory에서 각각 장치를 고유하게 식별합니다. 
 
-    - Azure 테넌트 ID - Azure Active Directory 내에서 조직을 식별하는 GUID입니다. 
+    - Azure 테넌트 ID - 조직 내에서 조직을 식별하는 Azure Active Directory. 
 
     - Microsoft Defender for Endpoint org ID - 장치가 속한 엔터프라이즈와 연결된 고유 식별자. Microsoft에서 선택한 엔터프라이즈 집합 및 영향을 받는 엔터프라이즈 수에 영향을 주는 문제가 있는지 식별할 수 있습니다. 
 
