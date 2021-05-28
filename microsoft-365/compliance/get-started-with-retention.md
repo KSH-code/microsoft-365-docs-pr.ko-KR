@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 위한 몇 가지 실용적인 지침을 읽어보세요.
-ms.openlocfilehash: b39f6246fc9265319e0d4e5b053db6dfddc0d43a
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: bd3ed5e354ee80831cb1af073b6da6f277418b51
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244591"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689040"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -88,4 +88,4 @@ ms.locfileid: "52244591"
 
 Microsoft 365 앱의 경우 보전 레이블이 UI에 표시되므로 프로덕션 네트워크에 해당 레이블을 배포하기 전에 최종 사용자와 지원 센터용 지침을 제공하세요. 사용자가 SharePoint 및 OneDrive의 보존 레이블을 적용할 수 있도록 하려면 [SharePoint 또는 OneDrive의 파일에 보존 레이블 적용](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df)을 참조하세요.
 
-그러나, 가장 효과적인 최종 사용자 문서는 선택한 보존 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 사용자를 교육하고 채택을 유도하는 데 사용할 수 있는 다운로드 패키지는 다음 블로그 게시물을 참조하세요 [M365의 보존 레이블에 대한 최종 사용자 교육 – 채택을 가속화하는 방법](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
+그러나, 가장 효과적인 최종 사용자 문서는 선택한 보존 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 사용자 교육을 지원하는 데 사용할 수 있는 다음 페이지 및 다운로드를 참조하세요. [데이터 보존 레이블에 대한 최종 사용자 교육](https://microsoft.github.io/ComplianceCxE/enduser/retention/).

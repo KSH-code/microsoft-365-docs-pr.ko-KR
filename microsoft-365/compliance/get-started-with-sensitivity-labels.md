@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 2e757f7f07dbb911a8d89890b1f1cce80d7247b5
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: c87289fc7017e75db3b8a5b84a8af3a42dc16a10
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302115"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689124"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -102,7 +102,7 @@ ms.locfileid: "52302115"
 - 기본 제공 레이블 지정의 경우: **자세히 알아보기** 메뉴 옵션.
 - Azure Information Protection 통합 레이블 지정 클라이언트의 경우: **도움말 및 피드백** 메뉴 옵션 > **자세한 정보** 링크(Microsoft Azure Information Protection 대화 상자).
 
-사용자 정의 설명서를 작성하려면 사용자를 교육하고 채택을 유도하는 데 사용할 수 있는 다운로드 패키지를 다음 블로그 게시물에서 참조하세요 [M365의 민감도 레이블에 대한 최종 사용자 교육 – 채택을 가속화하는 방법](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-sensitivity-labels-in-m365-how-to/ba-p/1750880). 
+맞춤식 설명서를 제공할 수 있도록 사용자 교육을 지원하는 데 사용할 수 있는 다음 페이지 및 다운로드를 참조하세요. [민감도 레이블에 대한 최종 사용자 교육](https://microsoft.github.io/ComplianceCxE/enduser/sensitivity/). 
 
 기본 지침으로 다음 리소스를 사용할 수 있습니다.
 

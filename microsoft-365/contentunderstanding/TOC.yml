@@ -42,6 +42,8 @@
   items:
     - name: 서비스 도입 프레임 워크 시작
       href: adoption-getstarted.md
+    - name: 사용 시나리오 및 사용 사례
+      href: adoption-scenarios.md
     - name: Microsoft 365에서 계약 관리
       items:
         - name: 개요
@@ -54,7 +56,7 @@
           href: solution-manage-contracts-step3.md
 - name: 설정 및 관리
   items:
-    - name: 콘텐츠 이해 설정
+    - name: SharePoint Syntex 설정
       href: set-up-content-understanding.md
 - name: 콘텐츠 서비스
   items:
