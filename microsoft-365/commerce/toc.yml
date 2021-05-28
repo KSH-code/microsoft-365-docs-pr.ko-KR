@@ -66,6 +66,8 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: 결제 서비스 지침 2 및 강력한 고객 인증 정보
       href: billing-and-payments/psd2.md
+    - name: 계정에 대한 원천징수세 크레딧 요청
+      href: billing-and-payments/withholding-tax-credit-global.md
 - name: 청구 계정
   items:
     - name: 청구 계정 이해
