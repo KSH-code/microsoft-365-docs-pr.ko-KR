@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1241e6ebb838938f82fce5dc08ea93a3038f4ace
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: fb4ba4f48d6f336444861b4407461efd4c8862d0
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624236"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694512"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -214,7 +214,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
    - **차단할 도메인**: **편집** 을 클릭합니다. 표시되는 **차단되는 도메인 목록** 플라이아웃에서 다음을 수행합니다.
 
-      a. 도메인을 입력합니다. 여러 개의 도메인을 세미콜론(;)으로 구분하여 지정할 수 있습니다. 와일드카드(*)는 허용되지 않습니다.
+      a. 도메인을 입력합니다. 여러 도메인을 세미콜론(;)으로 구분하여 지정할 수 있습니다. 와일드카드(*)는 허용되지 않습니다.
 
       b. 이 ![추가 아이콘](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) 을 클릭하여 도메인을 추가합니다.
 

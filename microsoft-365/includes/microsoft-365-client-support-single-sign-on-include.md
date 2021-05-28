@@ -13,7 +13,7 @@
 |OFFICE.COM|해당 없음|해당 없음|해당 없음|해당 없음|✔|
 |ONEDRIVE|✔|✔|계획|✔|✔|
 |ONENOTE|✔|✔|✔|계획|✔|
-|OUTLOOK|✔|✔|계획|✔|✔|
+|OUTLOOK|✔|✔|✔|✔|✔|
 |PLANNER|✔|✔|해당 없음|해당 없음|해당 없음|
 |POWER APPS|✔|✔|해당 없음|해당 없음|계획|
 |POWER AUTOMATE|✔|✔|해당 없음|해당 없음|해당 없음|

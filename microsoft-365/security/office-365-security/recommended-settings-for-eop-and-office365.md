@@ -19,12 +19,12 @@ ms.collection:
 description: 보안 설정에 대한 EOP(Exchange Online Protection) 및 Defender에 대한 모범 Office 365 무엇입니까? 표준 보호를 위한 현재 권장 사항은 무엇입니까? 더 엄격하게 사용하려는 경우 어떻게 해야 하나요? 또한 2016년 8월에 Defender를 사용하는 경우 어떤 추가 Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 10fac8cb7241faa652bbcb4726610abef741e70c
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: b6661c31d0cc05a1bdfd51de986af1e7b22c9d70
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683274"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696529"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Microsoft Defender 보안에 대한 Office 365 설정
 
@@ -44,7 +44,7 @@ ms.locfileid: "52683274"
 > [!NOTE]
 > 필터링이 제대로 작동하려면 사서함에서 정크 메일 규칙을 사용하도록 설정해야 합니다. 기본적으로 사용하도록 설정되어 있지만 필터링이 작동하지 않는지 확인해야 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
 
-이 문서에서는 기본 설정과 사용자를 보호하는 데 도움이 되는 권장 표준 및 엄격한 설정에 대해 설명합니다.
+이 문서에서는 기본 설정과 사용자를 보호하는 데 도움이 되는 권장 표준 및 엄격한 설정에 대해 설명합니다. 표에는 Microsoft 365 사서함이 없는 조직을 위한 Microsoft 365 PowerShell 또는 Exchange Online PowerShell을 Exchange Online Protection PowerShell의 설정이 Exchange Online 있습니다.
 
 > [!TIP]
 > PowerShell에 Office 365 ORCA(Advanced Threat Protection 권장 구성 분석기) 모듈을 통해 이러한 설정의 현재 값을 찾을 수 있습니다. 특히 **Get-ORCAReport** cmdlet은 스팸 방지, 피싱 방지 및 기타 메시지 예방조치 설정에 대한 평가를 생성합니다. 에서 ORCA 모듈을 다운로드할 수 <https://www.powershellgallery.com/packages/ORCA/> 있습니다.
@@ -65,26 +65,26 @@ ms.locfileid: "52683274"
 |---|:---:|:---:|:---:|---|
 |**스팸** 검색 작업 <p> _SpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`||
 |**높은 지수 스팸** 감지 작업 <p> _HighConfidenceSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
-|**피싱 전자 메일** 검색 작업 <p> _PhishSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
-|**높은 신뢰도 피싱 전자 메일** 검색 작업 <p> _HighConfidencePhishAction_|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
-|**대량 전자 메일** 검색 작업 <p> _BulkSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`||
-|대량 전자 메일 임계값 <p> _BulkThreshold_|7 |6 |4 |자세한 내용은 에서 [BCL(대량 불만 수준)을 Office 365.](bulk-complaint-level-values.md)|
-|보존 기간에 대 한 검량 <p> _QuarantineRetentionPeriod_|15일|30일|30일||
-|**보안 팁** <p> _InlineSafetyTipsEnabled_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**피싱 감지** 작업 <p> _PhishSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
+|**높은 신뢰도 피싱 감지** 작업 <p> _HighConfidencePhishAction_|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
+|**대량** 검색 작업 <p> _BulkSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`||
+|**대량 전자 메일 임계값** <p> _BulkThreshold_|7 |6 |4 |자세한 내용은 에서 [BCL(대량 불만 수준)을 Office 365.](bulk-complaint-level-values.md)|
+|_MarkAsSpamBulkMail_|켜짐|켜짐|켜짐|이 설정은 PowerShell에서만 사용할 수 있습니다.|
+|**이 며칠 동안 스팸을 검지에서 보존** <p> _QuarantineRetentionPeriod_|15일|30일|30일||
+|**스팸 보안 팁 사용** <p> _InlineSafetyTipsEnabled_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |허용된 보낸 사람 <p> _AllowedSenders_|없음|없음|없음||
-|허용된 보낸 사람 도메인 <p> _AllowedSenderDomains_|없음|없음|없음|허용된 보낸 사람 목록에 도메인을 추가하는 것은 매우 좋지 않습니다. 공격자는 다른 경우 필터링되는 전자 메일을 보낼 수 있습니다. <p> 보안 [](learn-about-spoof-intelligence.md) 및 준수 센터의 스푸핑 인텔리전스 인사이트 및 테넌트 허용 [&/차단](tenant-allow-block-list.md) 목록을 사용하여 조직의 전자 메일 도메인에서 보낸 사람 전자 메일 주소를 스푸핑하거나 외부 도메인의 보낸 사람 전자 메일 주소를 스푸핑하는 모든 보낸 사람 검토|
-|수신 차단된 보낸 사람 <p> _BlockedSenders_|없음|없음|없음||
+|허용된 보낸 사람 도메인 <p> _AllowedSenderDomains_|없음|없음|없음|허용된 보낸 사람 목록에 도메인을 추가하는 것은 매우 좋지 않습니다. 공격자는 다른 경우 필터링되는 전자 메일을 보낼 수 있습니다. <p> [스푸핑](learn-about-spoof-intelligence.md) 인텔리전스 인사이트 및 테넌트 [허용/차단](tenant-allow-block-list.md) 목록을 사용하여 조직의 전자 메일 도메인에서 보낸 사람 전자 메일 주소를 스푸핑하거나 외부 도메인의 보낸 사람 전자 메일 주소를 스푸핑하는 모든 보낸 사람 검토|
+|수신이 차단된 보낸 사람 <p> _BlockedSenders_|없음|없음|없음||
 |차단된 보낸 사람 도메인 <p> _BlockedSenderDomains_|없음|없음|없음||
 |**최종 사용자 스팸 알림 사용** <p> _EnableEndUserSpamNotifications_|사용 안 함 <p> `$false`|사용 <p> `$true`|사용 <p> `$true`||
 |**최종 사용자 스팸 알림 보내기(일)** <p> _EndUserSpamNotificationFrequency_|3일|3일|3일||
-|**스팸 ZAP** <p> _SpamZapEnabled_|사용 <p> `$true`|사용 <p> `$true`|사용 <p> `$true`||
-|**피싱 ZAP** <p> _PhishZapEnabled_|사용 <p> `$true`|사용 <p> `$true`|사용 <p> `$true`||
-|_MarkAsSpamBulkMail_|켜짐|켜짐|켜짐|이 설정은 PowerShell에서만 사용할 수 있습니다.|
+|피싱 메시지에 ZAP(제로 아워 자동 제거)를 사용하도록 설정 <p> _PhishZapEnabled_|사용 <p> `$true`|사용 <p> `$true`|사용 <p> `$true`||
+|스팸 메시지에 ZAP 사용 <p> _SpamZapEnabled_|사용 <p> `$true`|사용 <p> `$true`|사용 <p> `$true`||
 |
 
-스팸 방지 정책에는 더이상 사용되지 않습니다. 이러한 기능의 정가 하한 일정에 대한 자세한 내용은 이 문서 외부에 전달될 것입니다.
+스팸 방지 정책에는 사용되지 않습니다. 이러한 기능의 정가 하한 일정에 대한 자세한 내용은 이 문서 외부에 전달될 것입니다.
 
-Standard 및 Strict 수준 모두에 대해  이러한 ASF 설정을 **해제하는 것이** 좋습니다.  ASF 설정에 대한 자세한 내용은 [asF(고급](advanced-spam-filtering-asf-options.md)스팸 필터) 설정에서 Office 365.
+표준 및 엄격한 수준 모두에  대해  다음 ASF 설정을 **해제하는 것이** 좋습니다. ASF 설정에 대한 자세한 내용은 [asF(고급](advanced-spam-filtering-asf-options.md)스팸 필터) 설정에서 Office 365.
 
 <br>
 

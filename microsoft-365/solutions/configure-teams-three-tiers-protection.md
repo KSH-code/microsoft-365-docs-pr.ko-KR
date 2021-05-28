@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 recommendations: false
 description: 세 가지 보호 수준을 사용하여 보안을 강화하기 위해 Teams를 구성하는 방법에 대해 알아보고, 공동 작업을 쉽게 수행할 수 있습니다.
-ms.openlocfilehash: ab2dd4cbf2b9cfc7b285f049eeaa876371574202
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 34351b202575302e2929db48d7807b91e4308905
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539218"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683406"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 
@@ -117,6 +117,14 @@ ms.locfileid: "52539218"
 중요한 계층 및 매우 중요한 계층의 경우 민감도 레이블이 포함된 SharePoint 콘텐츠에 대한 액세스를 제한합니다. Azure AD 조건부 액세스는 위치, 위험, 장치 호환성 및 기타 요인에 따른 제한을 비롯하여 사용자가 Microsoft 365에 액세스하는 방법을 결정하는 데 사용할 수 있는 다양한 옵션을 제공합니다. [조건부 액세스란 무엇인가요?](/azure/active-directory/conditional-access/overview)를 읽는 것을 권장합니다. 또한 조직에 적합한 추가 정책을 고려하세요.
 
 게스트에게는 조직에서 관리하는 장치가없는 경우가 많습니다. 계층에서 게스트를 허용하는 경우 게스트가 팀 및 사이트에 액세스하는 데 사용할 디바이스 유형을 고려하고 그에 따라 관리되지 않는 디바이스 정책을 설정합니다.
+
+### <a name="control-device-access-across-microsoft-365"></a>Microsoft 365 장치 액세스 제어
+
+민감도 레이블의 관리되지 않는 디바이스 설정은 SharePoint 액세스에만 영향을 줍니다. SharePoint를 넘어 관리되지 않는 장치에 대한 제어를 확장하려면 대신 [조직의 모든 앱 및 서비스에 대한 Azure Active Directory 조건부 액세스 정책을 만들 수](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) 있습니다. 이 정책을 [Microsoft 365 서비스](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365)에 맞게 구성하려면 **클라우드 앱 또는 작업** 아래에서 **Office 365** 클라우드 앱을 선택하세요.
+
+![Azure Active Directory 조건부 액세스 정책의 Office 365 클라우드 앱 스크린샷](https://docs.microsoft.com/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
+
+모든 Microsoft 365 서비스에 영향을 주는 정책을 사용하면 보안이 강화되고 사용자 환경이 향상될 수 있습니다. 예를 들어 SharePoint에서만 관리되지 않는 장치에 대한 액세스를 차단하면 사용자가 관리되지 않는 장치가 있는 팀의 채팅에 액세스할 수 있지만 **파일** 탭에 액세스하려고 하면 액세스 권한이 손실됩니다. Office 365 클라우드 앱을 사용하면 [서비스 종속성](/azure/active-directory/conditional-access/service-dependencies)에 대한 문제를 방지할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 

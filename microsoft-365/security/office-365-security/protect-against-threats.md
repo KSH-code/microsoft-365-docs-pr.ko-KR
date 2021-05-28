@@ -20,12 +20,12 @@ description: 관리자는 조직의 위협 방지에 대해 Microsoft 365 조직
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12b519d45df005471e3d87cfdb24f87edddbf6f3
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 77b76a56c34a005b0e0742f207e2824359ae8cac
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683334"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696553"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -50,6 +50,8 @@ ms.locfileid: "52683334"
 > [!TIP]
 > 감사를 켜는 지시 이외에 단계는 **EOP(맬웨어** 방지) 의 일부로 표시된 맬웨어 방지, 피싱 방지 및 스팸 방지를 Office 365 Exchange Online Protection 있습니다.  (에 대한 **Defender** for Office 365) EOP를 포함하고 빌드할 때까지 이 문서에서 이 Office 365 이상한 것처럼 보일 수 있습니다.
 
+<br>
+
 ****
 
 |보호 유형|구독 요구 사항|
@@ -67,6 +69,8 @@ ms.locfileid: "52683334"
 
 정책에 대해 Defender를 Office 365 보안 및 준수 센터에서 [적절한 역할을 & 합니다.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) 아래 표에서 이러한 작업을 수행할 수 있는 역할을 확인하세요.
 
+<br>
+
 ****
 
 |역할 또는 역할 그룹|자세한 내용을 알아보는 위치|
@@ -82,20 +86,22 @@ ms.locfileid: "52683334"
 
 - 감사 로깅을 조기 시작합니다. 다음 단계 중 일부에 대해 **감사를 ON으로** 해야 합니다. 감사 로깅은 을(를) 포함 하는 [구독에서 사용할 Exchange Online.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) 보안 대시보드, 전자 메일 보안 보고서 [](security-dashboard.md)및 탐색기 등의 위협 [](threat-explorer.md)방지 보고서에서 데이터를 확인하려면 감사 로깅이 에 있어야 *합니다.* [](view-email-security-reports.md) 자세한 내용은 감사 로그 검색 켜기 또는 [끄기 를 참조합니다.](../../compliance/turn-audit-log-search-on-or-off.md)
 
-## <a name="part-1---anti-malware-protection"></a>1부 - 맬웨어 방지 보호
+## <a name="part-1---anti-malware-protection-in-eop"></a>1부 - EOP의 맬웨어 방지 보호
 
 맬웨어 방지에 대한 권장 설정에 대한 자세한 내용은 EOP 맬웨어 방지 정책 [설정 을 참조하세요.](recommended-settings-for-eop-and-office365.md#eop-anti-malware-policy-settings)
 
 1. 을 를 열 <https://security.microsoft.com/antimalwarev2> 수 있습니다
 
-2. 정책 이름을 클릭하여 기본 정책을 선택합니다.
+2. **맬웨어 방지 페이지에서** 이름을 클릭하여  기본 정책이라는 정책을 선택합니다.
 
 3. 정책 세부 정보 플라이아웃이 열리면 보호 설정 편집을 **클릭하고** 다음 설정을 구성합니다.
    - 공통 **첨부 파일 필터** 사용 을 선택하여 공통 첨부 파일 필터를 켜야 합니다. 파일 **형식 사용자 지정을 클릭하여** 파일 형식을 더 추가합니다.
    - **맬웨어에 대한 제로 아워 자동 제거 사용이 선택되어 있는지** 확인
    - 알림 섹션의 설정이 **선택되어 있는지** 확인합니다.
 
-   완료되면 **저장을 클릭합니다.**
+   작업을 마쳤으면 **저장** 을 클릭합니다.
+
+4. 정책 세부 정보 플라이아웃으로 돌아가서 닫기 **를 클릭합니다.**
 
 맬웨어 방지 정책을 구성하는 방법에 대한 자세한 내용은 EOP에서 맬웨어 방지 [정책 구성을 참조하세요.](configure-anti-malware-policies.md)
 
@@ -135,23 +141,23 @@ ms.locfileid: "52683334"
 
 피싱 방지 정책 옵션에 대한 자세한 내용은 Microsoft [Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 Office 365.
 
-## <a name="part-3---anti-spam-protection"></a>3부 - 스팸 방지 보호
+## <a name="part-3---anti-spam-protection-in-eop"></a>3부 - EOP의 스팸 방지 보호 기능
 
-[스팸 방지 보호는](anti-spam-protection.md) EOP를 포함 하는 [구독에서 사용할 수 있습니다.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
+스팸 방지에 대한 권장 설정에 대한 자세한 내용은 EOP 스팸 방지 정책 [설정 을 참조하세요.](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)
 
-1. 보안 및 [& 센터에서](https://protection.office.com)위협 **관리** 정책 스팸 방지 \>  \> **를 선택 합니다.**
+1. 을 를 열 <https://security.microsoft.com/antispam> 수 있습니다
 
-2. 사용자 지정 **탭에서** 사용자 지정 설정을 니다.
+2. 스팸 **방지 정책 페이지에서** 이름을 클릭하여  목록에서 스팸 방지 인바운드 정책이라는 정책을 선택합니다.
 
-3. 기본 **스팸 필터 정책을 확장하고** 정책 **편집을** 클릭한 후 다음 설정을 지정합니다.
+3. 정책 세부 정보 플라이아웃이 나타나면 스팸 속성의 대량 전자 메일 임계값 섹션에서 스팸 임계값 및 속성 **& 클릭합니다.** 
 
-   - 스팸 **및 대량 작업** 섹션에서 임계값을 5 또는 6으로 설정합니다.
+4. 나타나는 **스팸 임계값** 및 속성 플라이아웃에서  대량 전자 메일 임계값을 5(Strict) 또는 6(표준)으로 설정합니다. 완료되면 **저장을 클릭합니다.**
 
-   - 허용 **목록 섹션에서** 허용된 보낸 사람 및 도메인을 검토(및/또는 편집)합니다.
+5. 정책 세부 정보 플라이아웃으로 돌아가  허용 및 차단된 보낸 사람 및 도메인 섹션으로 이동하여 허용된 보낸 사람 및 허용 도메인을 검토하거나 편집합니다.
 
-4. **저장** 을 클릭합니다.
+6. 작업을 마쳤으면 **닫기** 를 클릭합니다.
 
-스팸 방지 정책 옵션에 대한 자세한 내용은 [EOP에서 스팸 방지 정책 구성을 참조하세요.](configure-your-spam-filter-policies.md)
+스팸 방지 정책을 구성하는 방법에 대한 자세한 내용은 [EOP에서 스팸 방지 정책 구성을 참조하세요.](configure-your-spam-filter-policies.md)
 
 ## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365"></a>4부 - 악의적인 URL 및 파일로부터 보호(안전한 링크 및 안전한 첨부 파일 for Office 365)
 

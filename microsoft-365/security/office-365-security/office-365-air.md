@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c9cd9ef649ec60fc8d880ae525469980a00f69b2
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 7632efb2014af9f55e9cad700bceeeabe555fb8b
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275003"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696577"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 자동화된 조사 및 대응(AIR)Office 365
 
@@ -78,9 +78,9 @@ Microsoft Defender for Office 365 수정 작업은 자동으로 수행되지 않
 정책 및 경고가 구성된 경우 Office 365 대한 [Microsoft Defender에](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2)AIR 기능이 포함되어 있습니다. 도움이 필요하세요? 위협으로부터 [보호의](protect-against-threats.md) 지침에 따라 다음 보호 설정을 설정하거나 구성합니다.
 
 - [감사 로깅(켜져](../../compliance/turn-audit-log-search-on-or-off.md) 있어야 합니다.
-- [맬웨어 방지 정책](protect-against-threats.md#part-1---anti-malware-protection)
-- [피싱 방지 보호](protect-against-threats.md#part-2---anti-phishing-protection)
-- [스팸 방지 보호](protect-against-threats.md#part-3---anti-spam-protection)
+- [맬웨어 방지 정책](protect-against-threats.md#part-1---anti-malware-protection-in-eop)
+- [피싱 방지 보호 기능](protect-against-threats.md#part-2---anti-phishing-protection)
+- [스팸 방지 보호 기능](protect-against-threats.md#part-3---anti-spam-protection-in-eop)
 - [안전한 링크 및 안전한 첨부 파일](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
 - [SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
 - [전자 메일에 대한 제로 아워 자동 제거](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
@@ -108,7 +108,7 @@ Microsoft 365 관리자 권한 남용, 맬웨어 활동Exchange 잠재적인 외
 
 사용 권한은 다음 표에 설명된 역할과 같은 특정 역할을 통해 부여됩니다.
 
-|작업 |역할 필요|
+|작업|역할 필요|
 |---|---|
 |AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 보안 및 준수 [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 보안 & [할당할 수 있습니다.](permissions-in-the-security-and-compliance-center.md)|
 |자동화된 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|보안 및 준수 센터 또는 [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Azure Active Directory 할당된 [다음 & 중 하나:](permissions-in-the-security-and-compliance-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 운영자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 보안 및 준수 [센터에서 & 할당됩니다.](permissions-in-the-security-and-compliance-center.md) 새 역할 그룹을 만들어 검색 및 제거 역할을 새 역할 그룹에 추가해야 할 수 있습니다.</li></ul>|

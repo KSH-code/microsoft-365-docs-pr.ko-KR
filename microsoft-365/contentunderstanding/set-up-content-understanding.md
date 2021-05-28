@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: 2f9fd4e035152a127f9f1c254f4c489a6ca4c976
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 7589003505aafb480872b14a09c383cfbe0dff40
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994709"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683556"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -42,6 +42,8 @@ Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있�
 > Microsoft 365 관리 센터에 액세스하고 SharePoint Syntex를 설정하려면 글로벌 관리자 또는 SharePoint 관리자 권한이 있어야 합니다.
 
 관리자는 Microsoft 365 관리 센터의 콘텐츠 이해 관리 설정 전반에 걸쳐 설정 후 언제든지 선택한 설정을 변경할 수도 있습니다.
+
+사용자 지정 Power Platform 환경을 사용하고자 계획한다면 이 환경에서 *Project Cortex용 AI Builder* 앱을 [설치하고](/power-platform/admin/manage-apps#install-an-app-in-the-environment-view) [AI Builder 크레딧](/power-platform/admin/capacity-add-on)을 할당해야 양식 처리 모델을 만들 수 있습니다.
 
 ### <a name="licensing"></a>라이선싱
 
@@ -67,9 +69,9 @@ SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있�
 
 1. Microsoft365 관리 센터에서 **설정** 을 선택하고 **파일 및 콘텐츠** 섹션을 선택합니다.
 
-2. **파일 및 콘텐츠** 섹션에서 **콘텐츠 이해 자동화** 를 선택합니다.<br/>
+2. **파일 및 콘텐츠** 섹션에서 **콘텐츠 이해 자동화** 를 선택합니다. 현재 AI Builder 크레딧의 상태는 **한눈에 보기** 섹션에 표시됩니다.<br/>
 
-3. **콘텐츠 이해 자동화** 페이지에서 **시작하기** 를 클릭하여 설정 프로세스를 살펴봅니다.<br/>
+3. **콘텐츠 이해 자동화** 페이지에서 **시작하기** 를 클릭하여 설정 프로세스를 살펴봅니다. <br/>
 
     > [!div class="mx-imgBorder"]
     > ![설치 시작](../media/content-understanding/admin-content-understanding-get-started.png)</br>
@@ -93,7 +95,7 @@ SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있�
 
     **Power Platform 환경** 의 경우 다음을 선택할 수 있습니다.
     - **기본 환경 설정을 사용하여** 기본 Power Platform 환경을 사용합니다.
-    - **사용자 지정 환경을 사용하여** 사용자 지정 환경을 사용합니다. 목록에서 사용할 환경을 선택합니다. 이 환경에서 *Project Cortex용 AI 작성기* 앱을 설치하고 AI 작성기 크레딧을 할당해야 양식 처리 모델을 만들 수 있습니다.
+    - **사용자 지정 환경을 사용하여** 사용자 지정 환경을 사용합니다. 목록에서 사용할 환경을 선택합니다. ([사용자 지정 환경의 요구 사항을 참조하세요](/microsoft-365/contentunderstanding/set-up-content-understanding#requirements)).
 
     **다음** 을 클릭합니다.
 

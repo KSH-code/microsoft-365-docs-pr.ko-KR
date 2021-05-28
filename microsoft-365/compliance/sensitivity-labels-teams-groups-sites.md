@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: ef4559a278ce83f429790efcd20517b5c8545cb3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 6baca2e24e50bd3ee418da994adcfbe7fca8338c
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52531045"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694404"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -138,7 +138,7 @@ SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 �
 
 선택을 위해 드롭다운 목록에 표시하려면 인증 컨텍스트를 Azure Active Directory 조건 액세스 구성의 일부로 생성, 구성 및 게시해야 합니다. 자세한 내용 및 지침은 Azure AD 조건부 액세스 문서에서 [인증 컨텍스트 구성](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts) 섹션을 참조하세요.
 
-모든 앱이 인증 컨텍스트를 지원하는 것은 아닙니다. 지원되지 않는 앱을 지닌 사용자가 인증 컨텍스트에 대해 구성된 사이트에 연결하면 액세스 거부 메시지가 표시되거나 인증하라는 메시지가 표시되지만 거부됩니다. 현재 인증 컨텍스트를 지원하는 앱:
+일부 앱은 인증 컨텍스트를 지원하지 않습니다. 지원되지 않는 앱을 지닌 사용자가 인증 컨텍스트에 대해 구성된 사이트에 연결하면 액세스 거부 메시지가 표시되거나 인증하라는 메시지가 표시되지만 거부됩니다.
 
 - 웹용 Outlook이 포함된 웹용 Office
 
@@ -163,6 +163,20 @@ SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 �
     - Android: 아직 지원되지 않음
 
 이 미리 보기에 대해 알려진 제한 사항:
+
+- 이 기능은 여전히 일부 테넌트로 배포 중입니다. 사용자가 사이트에 액세스할 때 선택한 인증 컨텍스트의 조건부 액세스 정책이 적용되지 않는 경우 PowerShell을 사용하여 구성이 올바르고 모든 필수 구성 요소가 충족되는지 확인할 수 있습니다. 사이트에서 민감도 레이블을 제거한 다음 현재 [SharePoint Online 관리 셸](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)의 [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) cmdlet을 사용하여 인증 컨텍스트에 대한 사이트를 구성해야 합니다. 이 메서드가 작동하는 경우, 며칠 더 기다린 후 민감도 레이블을 다시 적용합니다.
+    
+    PowerShell을 사용하여 인증 컨텍스트를 테스트하려면 다음을 수행합니다.
+    
+    ```powershell
+    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName "Name of authentication context"
+    ```
+    
+    민감도 레이블을 다시 적용할 수 있도록 인증 컨텍스트를 제거하려면 다음을 수행합니다.
+    
+    ```powershell
+    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName ""
+    ```
 
 - OneDrive 동기화 앱의 경우 OneDrive에서만 지원되며 다른 사이트에서는 지원되지 않습니다.
 

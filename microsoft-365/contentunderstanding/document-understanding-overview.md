@@ -1,8 +1,9 @@
 ---
 title: 문서 이해 개요
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -12,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint 구문에서 문서 이해 개요 얻기
-ms.openlocfilehash: 73e217e458fb9e1ccad8b64ffc81a6c9522a04f4
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 7e5818a929fa0f4554a7ee4ece460b4fe0d691aa
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222758"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683826"
 ---
 # <a name="document-understanding-overview"></a>문서 이해 개요
 
@@ -48,16 +49,40 @@ ms.locfileid: "51222758"
 
 모델을 게시 한 후 콘텐츠 센터를 사용하여 액세스 권한이 있는 모든 SharePoint 문서 라이브러리에 적용 합니다.  
 
-### <a name="file-limitations"></a>파일 제한 사항
+## <a name="file-limitations"></a>파일 제한 사항
 
 문서 이해 모델에서는 OCR(광학 인식) 기술을 사용하여 예제 파일이 있는 모델을 교육하고 문서 라이브러리의 파일에 대해 모델을 실행할 때 모두 PDF, 이미지 및 TIFF 파일을 스캔합니다.
 
 Microsoft Office 텍스트 기반 파일과 OCR로 스캔한 파일(PDF, 이미지 또는 TIFF)과 관련하여 다음과 같은 차이점에 유의하세요.
 
-- Office 파일: 교육 중 및 문서 라이브러리의 파일에 대해 실행할 때 64K자로 잘라냅니다.
+- Office 파일: 교육 중 및 문서 라이브러리의 파일에 대해 실행할 때 64,000자로 잘라냈습니다.
+
 - OCR로 스캔한 파일: 20페이지 제한이 있습니다.  
 
-#### <a name="supported-file-types"></a>지원되는 파일 형식
+### <a name="requirements"></a>요구 사항
+
+OCR 처리는 다음 요구 사항을 충족하는 문서에서 가장 잘 작동합니다.
+
+- JPG, PNG 또는 PDF 형식(텍스트 또는 스캔됨)입니다. 문자 추출 및 위치 관련 오류가 없는 텍스트 포함 PDF가 더 좋습니다.
+
+- PDF가 암호로 잠겨 있는 경우 PDF를 제출하기 전에 잠금을 제거해야 합니다.
+
+- 컬렉션당 학습에 사용되는 문서의 합산 파일 크기는 50MB를 초과하면 안 되며 PDF 문서는 500페이지를 초과하면 안 됩니다.
+
+- 이미지의 경우 크기는 50 × 50에서 10,000 픽셀 × 10,000 픽셀 사이여야 합니다.
+   > [!NOTE]
+   > 매우 넓거나 홀수 차원이 있는 이미지(예: 평면도)는 OCR 프로세스에서 잘리고 정확도가 낮아질 수 있습니다.
+ 
+- PDF 파일의 경우 크기는 Legal 또는 A3 용지 크기에 해당하는 최대 17 x 17인치여야 합니다.
+
+- 용지 문서에서 스캔하는 경우 스캔은 고품질 이미지여야 합니다.
+
+- 라틴어 알파벳(영어 문자)을 사용해야 합니다.
+
+> [!NOTE]
+> AI 작성기는 현재 다음 형식의 양식 처리 입력 데이터를 지원하지 않습니다.<br>- 확인란 또는 라디오 단추<br>- 서명<br>- 채우기 가능한 PDF
+
+### <a name="supported-file-types"></a>지원되는 파일 형식
 
 문서 이해 모델에서는 다음 파일 형식을 지원합니다.
 
@@ -89,7 +114,7 @@ Microsoft Office 텍스트 기반 파일과 OCR로 스캔한 파일(PDF, 이미�
 ## <a name="see-also"></a>참고 항목
 [분류자 만들기](create-a-classifier.md)
 
-[추출자 만들기](create-an-extractor.md)
+[추출기 만들기](create-an-extractor.md)
 
 [콘텐츠 센터 만들기](create-a-content-center.md)
 
