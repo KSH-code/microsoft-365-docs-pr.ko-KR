@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서 관리자는 피싱 및 악의적인 URL을 사용하는 Office 365 공격으로부터 조직을 보호하기 위해 Defender의 안전한 링크 보호에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 407f04685e41269c0e8436d3b68db7d755fce129
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 675de13410ac98e18a8b72125c2226d2c9c62821
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593572"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698991"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 안전한 Office 365
 
@@ -74,7 +74,7 @@ ms.locfileid: "52593572"
   - [사용자에 대한 안전한 링크 Microsoft Teams](#safe-links-settings-for-microsoft-teams)
   - [안전한 링크 정책의 "다음 URL을 다시 덮어치지 않습니다." 목록](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
-- **전역 안전 링크 설정:** 이러한 설정은 안전한 링크 정책이 아니라 전역으로 구성됩니다. 그러나 설정은 활성 안전 링크 정책에 포함된 사용자에게만 적용됩니다. 이러한 설정은 다음을 포함합니다.
+- **전역 안전 링크 설정:** 이러한 설정은 안전한 링크 정책이 아니라 전역으로 구성됩니다. 이러한 설정은 다음을 포함합니다.
 
   - [앱의 안전한 Office 365 설정](#safe-links-settings-for-office-365-apps)
   - [안전한 링크에 대한 "다음 URL 차단" 목록](#block-the-following-urls-list-for-safe-links)
@@ -259,7 +259,7 @@ Office 365 앱의 안전한 링크 보호는 전자 메일 메시지의 링크�
 
 안전한 링크에 대한 전역 설정에서 URL 목록을 구성합니다. 자세한 내용은 [Configure the "Block the following URLs" list을 참조하십시오.](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)
 
-**참고**:
+**참고:**
 
 - 모든 곳에서 차단되는 URL의 진정한 범용 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
 - 다음 URL **차단 목록에 대한 제한 사항:**
@@ -296,7 +296,7 @@ Office 365 앱의 안전한 링크 보호는 전자 메일 메시지의 링크�
 
 새 링크 정책 또는 기존 안전 링크 정책의 목록에 항목을 추가하려면 [안전](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) 링크 정책 만들기 또는 안전한 링크 정책 [수정을 참조하세요.](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)
 
-**참고**:
+**참고:**
 
 - 다음 클라이언트는 안전 링크 정책에서 다음 URL 목록을 다시 덮어 **들이지** 않습니다.를 인식하지 못합니다. 이러한 클라이언트에서 안전한 링크 검색 결과를 기반으로 하여 해당 사이트에 포함된 사용자는 URL에 액세스하지 차단할 수 있습니다.
   - Microsoft Teams

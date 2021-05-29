@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 9a73f14662deb0fc68ac6c2a8552d988efc1d351
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: 62e65f9be25e2c482cca78577048d504ee93097a
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696469"
+ms.locfileid: "52698979"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint 도입: 시작
 
@@ -144,6 +144,6 @@ Syntex를 구현하기 SharePoint 준비하려면 다음을 해야 합니다.
 1. 피드백을 수집하고 이행합니다.
 1. 사용량이 증가함에 따라 필요한 경우 AI 작성기 크레딧에 대한 계획이 커지고 있습니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [Syntex의 시나리오 및 SharePoint 사례](adoption-scenarios.md)
