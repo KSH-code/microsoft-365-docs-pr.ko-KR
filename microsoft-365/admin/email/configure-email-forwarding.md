@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: 전자 메일 전달을 사용하면 조직 내부 또는 외부의 다른 사서함으로 Microsoft 365 전자 메일 메시지를 전달할 수 있습니다.
-ms.openlocfilehash: eb72204211a8eff929c024fbcede66dfe1f4b879
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 1d16a44749b51b582b7198cb331edf7faf3cf1f8
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635489"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698919"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>전자 메일 전달 구성 Microsoft 365
 
@@ -40,6 +40,8 @@ ms.locfileid: "52635489"
 ## <a name="configure-email-forwarding"></a>전자 메일 전달 구성
 
 전자 메일 전달을 설정하기 전에 다음에 유의하세요.
+
+- 원격 도메인의 사용자에 자동으로 전달된 메시지를 보낼 수 있도록 허용합니다. 자세한 [내용은 원격 도메인](/exchange/mail-flow-best-practices/remote-domains/manage-remote-domains) 관리를 참조합니다.
 
 - 전자 메일 전달을 설정하면  사서함으로 전송된  새 전자 메일만 전달됩니다.
 
@@ -104,4 +106,3 @@ ms.locfileid: "52635489"
 [공유 사서함](../email/create-a-shared-mailbox.md) 만들기(문서)\
 [다른 주소에서 전자 메일](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) 보내기(문서)\
 [사용자 이름 및 전자 메일 주소](../add-users/change-a-user-name-and-email-address.md) 변경(문서)
-

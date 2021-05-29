@@ -1,5 +1,5 @@
 ---
-title: 게스트와 Teams 모임 예약
+title: 외부 사용자와 Teams 모임 예약
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,30 +19,29 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 게스트와 Teams 모임을 예약하는 방법을 배워야 합니다.
-ms.openlocfilehash: 1a48fa290211507453004c54637e588ad9ad6759
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 외부 사용자와의 Teams 예약하는 방법을 배워야 합니다.
+ms.openlocfilehash: e4fec84613dc968298569284c7f026de47005ce3
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578702"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698895"
 ---
-# <a name="schedule-a-teams-meeting-with-guests"></a>게스트와 Teams 모임 예약
+# <a name="schedule-a-teams-meeting-with-external-users"></a>외부 사용자와 Teams 모임 예약
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOhP?autoplay=false]
 
-Microsoft Teams에 추가하지 않고도 조직 외부의 사용자들을 모임에 초대할 수 있습니다. Teams 계정 없이 모임에 참가할 때 고객 또는 파트너에게 작동하는 [방식은 다음과 있습니다.](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)
+조직 외부의 사용자들을 모임에 추가하지 않고도 모임에 초대할 수 Microsoft Teams. 고객 또는 파트너가 계정 없이 모임에 참가할 때 이 Teams [있습니다.](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)
 
 ## <a name="try-it"></a>사용해 보세요!
 
-Microsoft Teams를 사용하여 새 프로젝트를 시작하거나 고객을 추가할 때 새 팀을 만들 수 있습니다.
+직원, 클라이언트, 외부 사용자 및 기타 게스트와의 모임을 예약하기 위해 Microsoft Teams. 
 
-1. Teams **탭에서** 팀 참가 **또는** **만들기,** 팀 **만들기,** 처음부터 팀 구성, 비공개를 **선택합니다.**
-2. 팀의 이름, 설명을 입력한 다음 만들기 를 **선택합니다.**
-3. 구성원 **추가 페이지에서** 내부 구성원을 검색 및 선택하여 추가하고, 전자 메일 주소를 입력하여 게스트 구성원을 추가한 다음 추가를 **선택합니다.**
-
-    일치하는  **일치를 찾을** 수 없는 경우 게스트 공유를 사용하도록 설정해야 합니다. Microsoft 365 관리 센터로 이동하여 Teams 관리 센터를 선택하고, **Org-wide settings**, **Guest access(게스트** 액세스) 를 선택하고 Teams에서 게스트 액세스 허용을 **켜면 됩니다.** 이 변경에는 최대 24시간이 걸릴 수 있습니다.
-
-1. 닫기 **를 선택합니다.** 게스트와 구성원은 팀에 대한 초대를 받게됩니다.
-2. 일반 채널에서 모든 사용자에 대한 인사말을 입력하고 보내기 를 **선택합니다.**
-3. 파일  **탭에서** 함께 작업할 문서를 추가합니다. 여기에서 만들거나 컴퓨터에서 파일을 끌어서 놓을 수 있습니다.
+1. In Microsoft Teams, in the left navigation, choose **Meetings**.
+2. 모임 **예약 을 선택 합니다.**
+3. 새 모임 **상자에** 모임의 **제목과** **위치를** 입력합니다.
+4. 시작 및 **종료** **시간** 및 날짜를 입력합니다.
+5. 세부 **정보 상자에** 모임에 대한 설명과 추가할 기타 세부 정보(예: 모임 안건)를 입력합니다.
+6. 사람 **초대에서** 초대할 직원 또는 클라이언트의 이름을 입력합니다.
+7. 이름 아래에 **미정** 또는 다른 중이 표시될 경우 제공된  무료 시간 중 하나를 선택하거나 추가 옵션을 보려면 일정 도우미를 클릭합니다.  
+8. 모임 **예약 을 선택 합니다.**

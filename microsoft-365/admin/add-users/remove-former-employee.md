@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 솔루션의 단계에 따라 이전 직원을 제거하고 Microsoft 365 데이터를 보호합니다.
-ms.openlocfilehash: a613d4931c730dffe195954da97af86c683041bf
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 3fb41ea393e98c1492553941a2b6208524377166
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634247"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698931"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>개요: 이전 직원 및 보안 데이터 제거
 
@@ -54,8 +54,8 @@ ms.locfileid: "52634247"
 |[1단계 - 이전 직원이 로그인하지 못하게 방지하고 Microsoft 365 액세스 차단](remove-former-employee-step-1.md) <br/> |이렇게 하면 이전 직원이 로그인하지 못하고 Microsoft 365 액세스하지 못하게 Microsoft 365 있습니다. <br/> |
 |[2단계 - 이전 직원 사서함의 내용 저장](remove-former-employee-step-2.md) <br/> |이 기능은 직원의 작업을 인계할 사람이나 소송이 있는 경우 유용합니다. <br/> |
 |[3단계 - 이전 직원의 전자 메일을 다른 직원에게 전달하거나 공유 사서함으로 변환](remove-former-employee-step-3.md) <br/> |이렇게 하면 이전 직원의 전자 메일 주소를 활성 상태로 유지할 수 있습니다. 이전 직원의 주소로 여전히 전자 메일을 보내는 고객 또는 파트너가 있는 경우 업무를 인수하는 사람에게 전자 메일이 전달됩니다. <br/> |
-|[4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여](remove-former-employee-step-6.md) <br/> |사용자의 라이선스만 제거하고 계정을 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다. <br/><br/> 계정을 삭제하기 전에 해당 계정에 대한 액세스 권한을 OneDrive Outlook 합니다. 직원의 계정을 삭제하면 해당 계정 및 OneDrive Outlook **30일** 동안 보존됩니다. 그러나 해당 30일 동안 사용자 계정을 복원하고 해당 콘텐츠에 액세스할 수 있습니다. 사용자 계정을 복원하면 30일이 OneDrive Outlook 콘텐츠에 계속 액세스할 수 있습니다. <br/> |
-|[5단계 - 이전 직원의 모바일 장치 지우기 및 차단](remove-former-employee-step-4.md) <br/> |휴대폰 또는 태블릿에서 비즈니스 데이터를 제거합니다.  <br/> |
+|[4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여](remove-former-employee-step-4.md) <br/> |사용자의 라이선스만 제거하고 계정을 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다. <br/><br/> 계정을 삭제하기 전에 해당 계정에 대한 액세스 권한을 OneDrive Outlook 합니다. 직원의 계정을 삭제하면 해당 계정 및 OneDrive Outlook **30일** 동안 보존됩니다. 그러나 해당 30일 동안 사용자 계정을 복원하고 해당 콘텐츠에 액세스할 수 있습니다. 사용자 계정을 복원하면 30일이 OneDrive Outlook 콘텐츠에 계속 액세스할 수 있습니다. <br/> |
+|[5단계 - 이전 직원의 모바일 장치 지우기 및 차단](remove-former-employee-step-5.md) <br/> |휴대폰 또는 태블릿에서 비즈니스 데이터를 제거합니다.  <br/> |
 |[6단계 - 이전 직원의 Microsoft 365 라이선스 제거 및 삭제](remove-former-employee-step-7.md) <br/> |라이선스를 제거하면 다른 사람에게 해당 라이선스를 할당할 수 있습니다. 또는 다른 사람을 고용할 때까지 라이선스 비용을 지불하지 않도록 라이선스를 삭제할 수 있습니다.  <br/><br/> 라이선스를 제거하거나 삭제하면 사용자의 이전 전자 메일, 연락처 및 일정이 **30일** 간 보존된 후 영구적으로 삭제됩니다. 라이선스를 제거하거나 삭제하되 계정은 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/> |
 |[7단계 - 이전 직원의 사용자 계정 삭제](remove-former-employee-step-7.md) <br/> |그러면 관리 센터에서 계정이 제거됩니다. 깔끔하게 정리됩니다. <br/> |
 
