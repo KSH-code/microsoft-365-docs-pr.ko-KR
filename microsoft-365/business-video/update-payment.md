@@ -20,19 +20,21 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 비즈니스용 Microsoft 365의 결제 방법을 업데이트하는 방법을 자세히 알아보습니다.
-ms.openlocfilehash: 3b659da6745c92d777629b2912114ee214582623
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 비즈니스용 앱에 대한 결제 방법을 Microsoft 365 방법을 배워야 합니다.
+ms.openlocfilehash: b0ed8541068fe02e0bd1f005a5a9c7ee8f50ae1b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580357"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705541"
 ---
-# <a name="update-yor-payment-method-for-your-subscription"></a>구독에 대한 yor 결제 방법 업데이트
+# <a name="update-the-payment-method-for-your-subscription"></a>구독의 결제 방법 업데이트
+
+## <a name="watch-update-your-payment-method"></a>감시: 결제 방법 업데이트
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AVxy?autoplay=false]
 
-Microsoft 365 Business 구독의 결제 방법을 쉽게 업데이트할 수 있습니다. 사용된 신용 카드, 이름 또는 주소와 같은 세부 정보를 변경할 수 있습니다.
+구독에 대한 결제 방법을 쉽게 업데이트할 Microsoft 365 Business 있습니다. 사용된 신용 카드, 이름 또는 주소와 같은 세부 정보를 변경할 수 있습니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 

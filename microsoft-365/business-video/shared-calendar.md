@@ -20,14 +20,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 일정을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 21b594d1d5f28cc38c907cb8e85085a296ef20b8
-ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.openlocfilehash: cbc84523b52b7a38e25a35670abf6758a73d0a70
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52464360"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705645"
 ---
 # <a name="create-a-shared-calendar"></a>공유 일정 만들기
+
+## <a name="watch-create-a-shared-calendar"></a>보기: 공유 일정 만들기
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYWm?autoplay=false]
 
@@ -43,8 +45,6 @@ ms.locfileid: "52464360"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[일정 및 연락처를](https://support.microsoft.com/office/manage-your-calendar-and-contacts-in-outlook-631a182a-21e0-4e41-8fa2-0d83e55da02d) Outlook(문서)
-
-[전자 메일 공동](../admin/email/email-collaboration.md) 작업(문서)
-
+[관리 일정 및 연락처를](https://support.microsoft.com/office/manage-your-calendar-and-contacts-in-outlook-631a182a-21e0-4e41-8fa2-0d83e55da02d) Outlook(문서)\
+[전자 메일 공동](../admin/email/email-collaboration.md) 작업(문서)\
 [Microsoft 365 관리 센터](admin-center-overview.md) 개요(문서)

@@ -26,16 +26,16 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 고급 보안 및 비즈니스 네트워킹 기능을 활용하기 위해 Windows 장치를 업그레이드하는 Windows 10 Pro 방법을 검색합니다.
-ms.openlocfilehash: 0ed24f3560832890c1ba26f89ecbcd1f2ef7b098
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 14a1705a333b2fd4d4dda37ed5170b34acb13abe
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244739"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705557"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>업그레이드 Windows 장치로 Windows 10 Pro
 
-Windows 장치로 업그레이드하는 Windows 10 Pro.<br><br>
+## <a name="watch-upgrade-windows-10-home-to-windows-10-pro"></a>시청: 업그레이드 Windows 10 Home Windows 10 Pro
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
@@ -56,9 +56,11 @@ Windows 장치로 업그레이드하는 Windows 10 Pro.<br><br>
 > [!NOTE]
 > Windows Windows 7, Pro, Windows 8 Pro 또는 Windows 8.1 Pro 실행 중인 Microsoft 365 비즈니스용 Windows Pro 업그레이드할 수 있습니다.
     
-비즈니스용 [Windows 장치 설정을](set-up-windows-devices.md) Microsoft 365 장치 설정을 Windows 10 참조합니다. 
+## <a name="next-steps"></a>다음 단계
+
+장치 Windows 10 설정을 완료하기 위해 비즈니스 사용자를 위한 Windows [장치 설정을 Microsoft 365 참조합니다.](set-up-windows-devices.md) 
   
-비즈니스 [사용자를 위한 모바일](set-up-mobile-devices.md) Microsoft 365 Android 및 iOS 장치 설정을 완료하기를 참조합니다. 
+Android 및 iOS 장치 설정을 완료하기 위해 비즈니스 사용자를 위한 모바일 Microsoft 365 [설정을 참조합니다.](set-up-mobile-devices.md) 
   
 ## <a name="related-content"></a>관련 콘텐츠
 

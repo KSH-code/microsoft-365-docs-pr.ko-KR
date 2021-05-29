@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: 문서 라이브러리, 목록 및 허브를 사용하여 SharePoint 팀 사이트를 사용자 지정, 구성 및 관리하는 방법을 학습합니다.
-ms.openlocfilehash: aca2b2ff147fdb030540712133b27eba706b0985
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 47033f286f2661a8cfffa3efce0cc7deda82ea63
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244518"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706349"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>파일 저장 및 공유를 위해 팀 사이트 사용자 지정
 
@@ -103,15 +103,15 @@ SharePoint 목록에는 링크 목록, 일정, 연락처 또는 작업 등 사�
 
 팀 사이트를 관리할 때 사용자를 추가하거나 제거해야 할 수 있습니다. 다음은 팀 사이트의 사용자를 이해하고 추가하고 관리하는 데 도움이 되는 정보입니다.
   
-그룹 이해 및 관리가 있는 [그룹에서 비디오를 시청합니다.](https://docs.microsoft.com/learn/m365/) 
+그룹 이해 및 관리가 있는 [그룹에서 비디오를 시청합니다.](/learn/m365/) 
   
 사용자 그룹에 사용자를 Microsoft 365 사용자 추가 및 동시에 라이선스 [할당을 참조합니다.](../add-users/add-users.md)
   
 액세스 요청 설정 및 관리로 액세스 요청을 [처리하는 방법을 학습합니다.](https://support.microsoft.com/office/94B26E0B-2822-49D4-929A-8455698654B3)
   
-## <a name="here-are-more-articles-you-might-be-interested-in"></a>관심 있는 추가 문서는 다음과 같습니다.
+## <a name="next-steps"></a>다음 단계
 
-- 태블릿 및 Office 앱을 **설치합니다.** 이렇게 해야 팀 사이트에 저장된 파일을 태블릿이나 휴대폰에서 편집할 수 있습니다. 태블릿 또는 휴대폰용 Office 앱을 설치하지 않은 경우 팀 사이트에서 파일을 볼 수 있지만 편집할 수 없습니다. 
+태블릿이나 휴대폰에서 팀 사이트에 Office 파일을 편집할 수 있도록 디바이스에서 앱을 설정해야 합니다. 태블릿 또는 휴대폰용 Office 앱을 설치하지 않은 경우 팀 사이트에서 파일을 볼 수 있지만 편집할 수 없습니다. 
     
   - [Android에서 Office 설치 및 Microsoft 365](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
     
