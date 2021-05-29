@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: 보존 정책 및 보존 레이블 정책에 대한 정책당 최대 정책 및 항목 수 이해
-ms.openlocfilehash: 007ca6eec50b243e1b820938ffa67553d7882c7b
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 1ee2d07a42aaf4dff45ae22e9dfc005b3c4593d9
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107660"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698967"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 제한 사항
 
@@ -33,13 +33,15 @@ ms.locfileid: "52107660"
 
 ## <a name="maximum-number-of-policies-per-tenant"></a>테넌트당 최대 정책 수
 
-단일 테넌트의 경우 최대 10,000개 정책(모든 구성)을 사용할 수 있습니다. 이 최대 수에는 DLP 정책과 같은 다양한 보존 정책과 기타 규정 준수 정책이 포함됩니다.
+단일 테넌트의 경우 최대 10,000개 정책(모든 구성)을 사용할 수 있습니다. 이 최대 수에는 다양한 보존 정책과 DLP 정책, 정보 장벽, eDiscovery 보존 및 민감도 레이블과 같은 규정 준수 정책이 포함되어 있습니다.
 
-워크로드당 최대 보존 정책 수:
+이 10,000개의 정책 제한 내에서 워크로드당 보존을 위한 최대 정책 수에 몇 가지 제한도 있습니다.
 
 - Exchange Online(모든 구성): 1,800
 - SharePoint 또는 OneDrive: (모든 사이트가 자동으로 포함됨): 13
 - SharePoint 또는 OneDrive(특정 위치 포함 또는 제외): 2,600
+
+Microsoft Teams 및 Yammer에 대한 보존 정책은 사서함을 사용하여 보존 목적으로 데이터를 저장하지만 Exchange Online의 최대 정책 수는 Teams 및 Yammer에 대한 보존 정책을 제외합니다.
 
 ## <a name="maximum-number-of-items-per-policy"></a>정책당 최대 항목 수
 
