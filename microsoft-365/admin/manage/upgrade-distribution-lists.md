@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: 하나 또는 여러 개의 메일 그룹을 Microsoft 365 그룹으로 업그레이드하는 방법과 powerShell을 사용하여 여러 메일 Outlook 동시에 업그레이드하는 방법을 배워야 합니다.
-ms.openlocfilehash: 7e1fc4e971a22ec785662f684a4f9e08970c808a
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: d4686e7f2ec305194130b60fbacab24c9cf7f4e9
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636013"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698943"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>메일 그룹을 Microsoft 365 그룹으로 Outlook
 
@@ -86,10 +86,10 @@ PowerShell 사용 경험이 있는 경우 UI를 사용하는 대신 이 경로�
 단일 DL을 업그레이드하려면 다음 명령을 실행합니다.
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>
+Upgrade-DistributionGroup -DlIdentities <Dl SMTP address>
 ```
 
-예를 들어 SMTP 주소가 있는 DLS를 업그레이드하려면 dl1@contoso.com 명령을 실행합니다.
+예를 들어 SMTP 주소가 있는 DL을 업그레이드하려면 dl1@contoso.com 명령을 실행합니다.
 
 ```PowerShell
 Upgrade-DistributionGroup -DlIdentities dl1@contoso.com
@@ -103,8 +103,8 @@ Upgrade-DistributionGroup -DlIdentities dl1@contoso.com
 여러 DLS를 일괄 처리로 전달하고 함께 업그레이드할 수도 있습니다.
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address2\>,
-\< DL SMTP address3\>, \< DL SMTP address 4\>
+Upgrade-DistributionGroup -DlIdentities <DL SMTP address1>, <DL SMTP address2>,
+<DL SMTP address3>, <DL SMTP address4>
 ```
 
 예를 들어, SMTP 주소 및 , 및 를 사용하여 5개의 DLS를 업그레이드하려면 `dl1@contoso.com` `dl2@contoso.com` 다음 명령을 `dl3@contoso.com` `dl4@contoso.com` `dl5@contoso.com` 실행합니다.
@@ -159,7 +159,7 @@ Get-DistributionGroup| Foreach-Object{
 
 DL이 적합한지 여부를 확인하려는 경우 다음 명령을 실행할 수 있습니다.
 
-`Get-DistributionGroup \<DL SMTP address\> | Get-EligibleDistributionGroupForMigration`
+`Get-DistributionGroup <DL SMTP address> | Get-EligibleDistributionGroupForMigration`
 
 업그레이드에 적합한 DLS를 확인하려면 다음 명령을 실행하면 됩니다.
 
