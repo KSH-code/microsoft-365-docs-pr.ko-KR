@@ -19,24 +19,26 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 외부에서 비즈니스 파일을 쉽게 공유하는 방법을 배워야 합니다.
-ms.openlocfilehash: 469e4b16277b048a539767f6fc9fd54d2ea2e6cf
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 외부에서 모든 사용자 링크를 사용하여 비즈니스 Microsoft 365 쉽게 공유하는 방법을 배워야 합니다.
+ms.openlocfilehash: cbe6a12fd8d0c2b2ec16db32178f9c2559a08c22
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578630"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706501"
 ---
 # <a name="easily-share-files-externally"></a>외부에서 손쉽게 파일 공유
 
+## <a name="watch-share-files-with-an-anyone-link"></a>감시: 모든 사용자 링크와 파일 공유
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2dCOV?autoplay=false]
 
-고객과 파일을 공유하고 문서를 함께 사용하려면 Microsoft 365에서 모든 사용자 링크를 사용하세요.
+고객과 파일을 공유하고 문서를 함께 사용하려면 사용자 계정의 모든 사용자 링크를 Microsoft 365.
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. SharePoint 사이트에서 공유할 폴더를 선택하고 공유를 선택한 다음 링크 설정 단추를 클릭합니다.
-1. 링크 **설정 창에서** 모든 사람이 **선택되어 있는지** 확인합니다. 이 옵션이 회색으로 표시되어 있는 경우 SharePoint 관리 센터에서 설정해야 합니다.
+1. 사이트 SharePoint 공유할 폴더를 선택하고 공유를 선택한 다음 링크 설정 단추를 클릭합니다.
+1. 링크 **설정** 창에서 모든 사람이 **선택되어** 있는지 확인 합니다. 이 옵션이 회색으로 표시되어 있는 경우 SharePoint 관리 센터에서 설정해야 합니다.
 1. 원하는 경우 편집  허용 확인란을 선택하고 링크의 만료 날짜를 입력합니다.
 1. 적용 **을 선택 합니다.**
 1. 링크 **보내기 창에서** 고객의 전자 메일 주소를 입력하고 메시지를 입력한 다음 보내기 를 **선택합니다.**

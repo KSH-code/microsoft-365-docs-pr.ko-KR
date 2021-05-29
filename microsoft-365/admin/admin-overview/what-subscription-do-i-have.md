@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 제품 페이지로 이동하여 조직에 있는 구독을 확인하는 방법을 알아보십시오.
 ms.date: 01/21/2021
-ms.openlocfilehash: c33ba799880e6c687a08c2d49b17cbae8e80552c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b0f5f11f34ec4cf84648709ae5557bc5f637a55f
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535893"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706301"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
 
@@ -41,10 +41,7 @@ ms.locfileid: "52535893"
 
 ## <a name="related-content"></a>관련 콘텐츠
   
-[구독 및](../../commerce/index.yml) 청구(링크)
-
-[청구서 또는 송장](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) 보기(문서)
-
-[구독 결제(문서)](../../commerce/billing-and-payments/pay-for-your-subscription.md)
-
+[구독 및](../../commerce/index.yml) 청구(링크)\
+[청구서 또는 송장 보기](../../commerce/billing-and-payments/view-your-bill-or-invoice.md)(문서)\
+[구독 요금 지불(문서)\](../../commerce/billing-and-payments/pay-for-your-subscription.md)
 [대금 청구 주소](../../commerce/billing-and-payments/change-your-billing-addresses.md) 변경(문서)

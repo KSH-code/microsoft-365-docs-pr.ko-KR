@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae1df2ce6373e4a8f6b01c33e50bea5e6c16ca0a
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: f249108dba279e255efd57ecd56159d3c71dcb4b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698955"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706621"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -48,7 +48,7 @@ Microsoft 365 규정 준수 센터에 새 솔루션을 [추가하거나,](micros
 
 ### <a name="data-connectors"></a>데이터 커넥터
 
-- [Oracle 데이터에 Cisco Jabber를 보관하도록 커넥터 설정]/microsoft-365/compliance/archive-ciscojabberonoracle-data)
+- [Oracle 데이터에 Cisco Jabber를 보관할 커넥터 설정](/microsoft-365/compliance/archive-ciscojabberonoracle-data)
 - [PostgreSQL 데이터에 Cisco Jabber를 보관할 커넥터 설정](/microsoft-365/compliance/archive-ciscojabberonpostgresql-data)
 
 ### <a name="data-loss-prevention"></a>데이터 손실 방지
@@ -59,14 +59,15 @@ Microsoft 365 규정 준수 센터에 새 솔루션을 [추가하거나,](micros
 
 ### <a name="retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책
 
-- Microsoft 365 그룹 위치는 이제 Applications 매개 변수와 함께 [Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) cmdlet을 사용하여 Microsoft 365 사서함 또는 연결된 SharePoint 사이트에 보존 설정을 적용할 수 있습니다.
+- Microsoft 365 그룹 위치는 *이제 Applications* 매개 변수와 함께 [Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) cmdlet을 사용하여 Microsoft 365 사서함 또는 연결된 SharePoint 사이트에 보존 설정을 적용할 수 있습니다.
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 
 Outlook 릴리스 및 업데이트:
-- 이전에는 AIP 통합 레이블 클라이언트에서만 지원했던 기본 제공 레이블 지정은 이제 기본 레이블 및 필수 레이블 지정에 대한 다양한 설정을 [지원합니다.](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling)
-- Encrypt-Only 이제 macOS, iOS 및 Android에서 지원됩니다.
-- [](/microsoft-365/compliance/sensitivity-labels-office-apps) 다른 기본 레이블 및 필수 레이블 지정 제외를 지원하기 위해 기본 제공 [](/microsoft-365/compliance/sensitivity-labels-office-apps#outlook-specific-options-for-default-label-and-mandatory-labeling) 레이블에 대한 새로운 Outlook 기능 릴리스의 기본 레이블 및 필수 레이블 지정에 대한 다른 설정 및 필수 레이블 지정에 대한 Outlook 기능 표의 새 항목으로 업데이트된 Office 앱의 민감도 레이블 관리 항목 [](/microsoft-365/compliance/sensitivity-labels-office-apps#sensitivity-label-capabilities-in-outlook) 또한 이제 Encrypt-Only 옵션을 macOS/iOS/Android에서 지원하며 변수가 있는 모든 동적 표시가 이제 모든 Outlook 지원됩니다. 필수 레이블은 이제 나머지 플랫폼에 롤아웃됩니다.
+- [이제 기본 레이블 및](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling) 필수 레이블 지정에 대한 다양한 설정이 기본 제공 레이블 지정에 지원됩니다. 이전에는 AIP 통합 레이블 지정 클라이언트에서만 이러한 설정을 지원했습니다.
+- [암호화 전용은](encryption-sensitivity-labels.md#let-users-assign-permissions) 이제 macOS, iOS 및 Android에서 지원됩니다.
+- [필수 레이블은](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) 나머지 플랫폼에 롤아웃됩니다.
+- [모든 변수가](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) 있는 동적 표시는 모든 클라이언트에서 Outlook 지원됩니다.
 
 ## <a name="march-2021"></a>2021년 3월
 

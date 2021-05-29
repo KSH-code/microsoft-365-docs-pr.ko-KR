@@ -18,20 +18,20 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 제공 기본 이동성 및 보안을 사용하여 등록된 장치에서 정보를 제거합니다.
-ms.openlocfilehash: 7830a0f4ef609f6465c171ecab2c9e3c48198424
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 8c873923505fe527f5a44df0e8b15d290e92023b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023860"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706145"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 모바일 장치 지우기
 
-Microsoft 365의 기본 제공 Basic Mobility and Security를 사용하여 조직 정보만 제거하거나 초기화하여 모바일 장치에서 모든 정보를 삭제하고 공장 설정으로 복원할 수 있습니다.
+기본 제공 Basic Mobility and Security for Microsoft 365 사용하여 조직 정보만 제거하거나 초기화하여 모바일 장치에서 모든 정보를 삭제하고 공장 설정으로 복원할 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-모바일 장치는 중요한 조직 정보를 저장하고 조직의 Microsoft 365 리소스에 대한 액세스를 제공할 수 있습니다. 조직의 정보를 보호하기 위해 공장 초기화 또는 회사 데이터 제거를 할 수 있습니다.
+모바일 장치는 중요한 조직 정보를 저장하고 조직의 조직 리소스에 Microsoft 365 수 있습니다. 조직의 정보를 보호하기 위해 공장 초기화 또는 회사 데이터 제거를 할 수 있습니다.
 
 - **초기화:** 설치된 응용 프로그램, 사진 및 개인 정보를 포함하여 사용자의 모바일 장치에서 모든 데이터를 삭제합니다. 초기화가 완료되면 장치가 공장 설정으로 복원됩니다.
 
@@ -45,7 +45,7 @@ Microsoft 365의 기본 제공 Basic Mobility and Security를 사용하여 조�
 
 ## <a name="wipe-a-mobile-device"></a>모바일 장치 지우기
 
-1.  [Microsoft 365 관리 센터로 이동하세요.](../../admin/admin-overview/about-the-admin-center.md)
+1. Microsoft 365 [관리 센터로 이동하세요.](../../admin/admin-overview/about-the-admin-center.md)
 
 2. 검색 필드에 모바일 장치 관리를 입력하고 결과 목록에서 **모바일** 장치 관리를 선택합니다.
 
@@ -60,7 +60,7 @@ Microsoft 365의 기본 제공 Basic Mobility and Security를 사용하여 조�
 6. 원하는 원격 초기화 유형을 선택합니다.
 
     - 전체 지우기를 적용하고 장치를 공장 설정으로 복원하려면 초기화 **를 선택합니다.**
-    - 선택적으로 지우고 Microsoft 365 조직 정보만 삭제하려면 회사 데이터 **제거를 선택합니다.**
+    - 조직 정보만 선택적으로 지우고 삭제하려면 Microsoft 365 데이터 **제거를 선택합니다.**
     - 조직에서 장치를 제거하려면 장치 **제거 를 선택합니다.**
 
 7. **예** 를 선택하여 확인합니다.
@@ -83,12 +83,8 @@ Microsoft 365의 기본 제공 Basic Mobility and Security를 사용하여 조�
 
 |**콘텐츠 영향**|**iOS 10 이상**|**Android 5 이상**|
 |:-----|:-----|:-----|
-|디바이스가 Intune 앱 보호 정책에 의해 보호되는 경우 Microsoft 365 앱 데이터가 지워지기 앱이 제거되지 않습니다. MAM(모바일 응용 프로그램 관리) 정책으로 보호되지 않는 장치의 경우 Outlook 및 OneDrive는 캐시된 데이터를 제거하지 않습니다.<br/>**참고** Intune 앱 보호 정책을 적용하려면 Intune 라이선스가 있어야 합니다.|예|예|
+|Microsoft 365 Intune 앱 보호 정책에 의해 보호되는 경우 앱 데이터가 지워지기만 합니다. 앱이 제거되지 않습니다. MAM(모바일 응용 프로그램 관리) 정책으로 보호되지 않는 장치의 경우 Outlook OneDrive 캐시된 데이터는 제거되지 않습니다.<br/>**참고** Intune 앱 보호 정책을 적용하려면 Intune 라이선스가 있어야 합니다.|예|예|
 |기본 모바일 및 보안에서 장치에 적용한 정책 설정은 더 이상 적용되지 않습니다. 사용자는 설정을 변경할 수 있습니다.|예|예|
 |기본 Mobility and Security에서 만든 전자 메일 프로필이 제거되고 장치에서 캐시된 전자 메일이 삭제됩니다.|예|해당 없음|
 >[!NOTE]
->회사 포털 앱은 iOS용 앱 스토어 및 Android 디바이스용 Play 스토어에서 사용할 수 있습니다.
-
-## <a name="related-topics"></a>관련 항목
-
-[기본 이동성 및 보안 설정](set-up.md)
+>회사 포털 앱은 iOS용 앱 스토어 및 Android용 Play 스토어 디바이스에서 사용할 수 있습니다.

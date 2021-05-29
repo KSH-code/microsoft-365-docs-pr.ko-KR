@@ -20,15 +20,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 사용자의 이름 또는 전자 메일 주소를 변경하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0f2a378cccf2def9cd951483b23a11c2a414607d
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+description: 표시 이름, 별칭 또는 전자 메일 주소를 변경하여 사용자 이름 또는 전자 메일 주소를 변경하는 방법을 학습합니다.
+ms.openlocfilehash: e012923ebe12a04b07c9236f5ebbd30623cd2dd5
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903733"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706421"
 ---
 # <a name="change-a-users-name-or-email-address"></a>사용자의 이름 또는 전자 메일 주소 변경
+
+## <a name="watch-change-a-users-name-or-email-address"></a>시청: 사용자 이름 또는 전자 메일 주소 변경
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc?autoplay=false]
 
@@ -43,7 +45,7 @@ ms.locfileid: "51903733"
 1. 연락처 **정보 관리를 선택합니다.**
 1. 표시 이름을 변경하고 변경 내용 **저장 을 선택합니다.**
 
-    이제 새 이름이 Outlook 및 기타 Microsoft 365 앱에 표시됩니다.
+    이제 새 이름이 앱 및 Outlook 앱에 Microsoft 365 표시됩니다.
 
 ### <a name="add-an-email-alias"></a>전자 메일 별칭 추가
 
@@ -59,8 +61,10 @@ ms.locfileid: "51903733"
 1. 사용자 **이름 관리를 선택합니다.**
 1. 새 사용자 이름을 입력하고 도메인을 확인하고 변경 **내용 저장 을 선택합니다.**
 
-    이 변경의 결과로 사용자는 이 새 사용자 이름으로 Microsoft 365에 로그인하고 Outlook에 새 전자 메일 계정을 추가해야 합니다.
+    이 변경의 결과로 사용자는 이 새 사용자 이름을 Microsoft 365 로그인하고 새 전자 메일 계정을 새 전자 메일 계정에 추가해야 Outlook.
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[다른 사용자에게 사서함 사용](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user) 권한 부여(문서) [사용자](https://docs.microsoft.com/microsoft-365/admin/email/convert-user-mailbox-to-shared-mailbox) 사서함을 공유 사서함으로 변환(문서) 사용자 전자 메일 [설정(문서)](https://docs.microsoft.com/microsoft-365/admin/email/office-365-user-email-settings)
+[다른 사용자에게 사서함](../admin/add-users/give-mailbox-permissions-to-another-user.md) 사용 권한 부여(문서)\
+[사용자 사서함을 공유 사서함으로 변환](../admin/email/convert-user-mailbox-to-shared-mailbox.md)(문서)\
+[사용자 전자 메일](../admin/email/office-365-user-email-settings.md) 설정(문서)

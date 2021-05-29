@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: 3c55619dc1193d7c41f8a52fc027f03f13f3c9ad
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: c1baf7fcd9189973864929550b19ca6e32d499ae
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759957"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706205"
 ---
 # <a name="get-started-with-the-roles-page"></a>역할 페이지 시작
 
@@ -33,7 +33,7 @@ ms.locfileid: "51759957"
 ![관리자 역할을 보여 주는 그림](../../media/roles-main-page.png)
 
 > [!TIP]
-> 자세한 역할 설명을 찾고 계신가요? Azure [Active Directory의](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 관리자 역할 권한 및 [관리자 역할 정보를 확인합니다.](/microsoft-365/admin/add-users/about-admin-roles)
+> 자세한 역할 설명을 찾고 계신가요? Azure Active Directory 관리자 [역할에](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 대한 관리자 역할 권한을 [확인 합니다.](/microsoft-365/admin/add-users/about-admin-roles)
 
 ## <a name="about-the-admin-roles-page"></a>관리자 역할 페이지
 
@@ -43,7 +43,7 @@ ms.locfileid: "51759957"
 
 |||
 |:-----|:-----|
-|  <br/> |관리자 **목록 내보내기 를** 사용하여 조직의 모든 관리자 사용자의 전체 목록을 얻습니다. 목록은 Excel .csv 파일에 저장됩니다.   <br/> |
+|  <br/> |관리자 **목록 내보내기 를** 사용하여 조직의 모든 관리자 사용자의 전체 목록을 얻습니다. 목록은 Excel .csv 저장됩니다.   <br/> |
 |  <br/> |**검색을** 사용하여 관리자 역할을 검색하고 해당 역할에 할당된 사용자를 볼 수 있습니다.   <br/> |
 |  <br/> |**Filter를** 사용하여 표시된 관리자 역할의 보기를 변경합니다.   <br/> |
 
@@ -56,7 +56,7 @@ ms.locfileid: "51759957"
 
 ### <a name="exchange-admin"></a>Exchange 관리자
 
-사용자의 전자 메일 사서함, Microsoft 365 그룹 및 Exchange Online을 보고 관리해야 하는 사용자에게 Exchange 관리자 역할을 할당합니다. 또한 Microsoft 지원 서비스에 대한 서비스 요청을 열고 관리할 수 있습니다. [자세한 정보](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
+사용자의 Exchange 사서함, 그룹 및 사용자 지정 사서함을 보고 관리해야 하는 Microsoft 365 관리자 역할을 Exchange Online. 또한 Microsoft 지원 서비스에 대한 서비스 요청을 열고 관리할 수 있습니다. [자세한 정보](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
 
 ### <a name="global-admin"></a>전역 관리자
 
@@ -72,15 +72,15 @@ Microsoft 온라인 서비스에서 대부분의 관리 기능 및 데이터에 
 
 ### <a name="service-admin"></a>서비스 관리자
 
-Azure, Microsoft 365 및 Office 365 서비스에 대한 서비스 요청을 만들어야 하는 사용자에게 서비스 관리자 역할을 할당합니다. [자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Azure, 서비스 및 서비스 서비스에 대한 서비스 요청을 만들어야 하는 Microsoft 365 관리자 Office 365 할당합니다. [자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ### <a name="sharepoint-admin"></a>SharePoint 관리자
 
-Microsoft 365 구독을 구입하면 팀 사이트가 자동으로 만들어지며 전역 관리자가 기본 사이트 모음 관리자로 설정됩니다. SharePoint 관리 센터에 액세스하려는 사용자에게 SharePoint 관리자 역할을 할당합니다. SharePoint 관리자 역할이 있는 사용자는 사이트 모음을 만들고 관리하고, 사이트 모음 관리자를 지정하고, 사용자 프로필을 관리할 수 있습니다. SharePoint 관리자 역할이 있는 사용자는 Microsoft 365 그룹을 관리하고 Microsoft 지원을 통해 서비스 요청을 열 수도 있습니다. [자세한 정보](/sharepoint/sharepoint-admin-role)
+Microsoft 365 구독을 구매하면 팀 사이트가 자동으로 만들어지며 전역 관리자가 기본 사이트 모음 관리자로 설정됩니다. SharePoint 센터에 액세스하려는 사용자에게 SharePoint 관리자 역할을 할당합니다. 관리자 역할이 SharePoint 사용자는 사이트 모음을 만들고 관리하고, 사이트 모음 관리자를 지정하고, 사용자 프로필을 관리할 수 있습니다. 또한 SharePoint 역할이 있는 사용자는 Microsoft 지원을 통해 Microsoft 365 그룹 및 서비스 요청을 열 수 있습니다. [자세한 정보](/sharepoint/sharepoint-admin-role)
 
 ### <a name="teams-service-admin"></a>Teams 서비스 관리자
 
-Skype 관리 센터에서 Teams에 액세스하고 관리하려는 & 할당합니다. Teams 관리자 역할이 있는 사용자는 Microsoft 365 그룹을 관리하고 Microsoft 지원을 통해 서비스 요청을 열 수도 있습니다. [자세한 정보](/MicrosoftTeams/using-admin-roles)
+Teams 관리 센터에 액세스하고 관리하려는 사용자에게 Teams & Skype 관리자 역할을 할당합니다. 관리자 역할이 Teams 사용자는 Microsoft 지원을 통해 Microsoft 365 서비스 요청을 관리할 수도 있습니다. [자세한 정보](/MicrosoftTeams/using-admin-roles)
 
 ### <a name="user-admin"></a>사용자 관리자
 
@@ -96,8 +96,7 @@ Skype 관리 센터에서 Teams에 액세스하고 관리하려는 & 할당합�
 
 ![관리자 역할 비교를 보여주는 그림](../../media/compare-roles-list.png)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 관리자 역할 정보](about-admin-roles.md)
-
-[관리자 역할 할당](assign-admin-roles.md)
+[관리자 Microsoft 365](about-admin-roles.md) (문서)\
+[관리자 역할 할당](assign-admin-roles.md)(문서)

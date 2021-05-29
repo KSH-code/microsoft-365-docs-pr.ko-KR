@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
 description: 자체 DNS 레코드를 관리하거나 Microsoft에서 DNS 레코드를 관리하게 하는 방법을 배워야 합니다.
-ms.openlocfilehash: 475e2c13a1b73a58cfb9f72e9d335a2d1c8b4da5
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 454a3c95556d52e9ca2b45f82531839a557a0d8c
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332477"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706385"
 ---
 # <a name="set-up-your-domain"></a>도메인 설정
 
@@ -41,4 +41,4 @@ ms.locfileid: "52332477"
 
 ## <a name="manage-your-own-dns-records"></a>자체 DNS 레코드 관리
 
-자세한 내용은 ny DNS 호스팅 공급자에서 [DNS 레코드 만들기를 참조하세요.](create-dns-records-at-any-dns-hosting-provider.md)
+자세한 내용은 DNS 호스팅 [공급자에서 DNS 레코드 만들기를 참조하세요.](create-dns-records-at-any-dns-hosting-provider.md)

@@ -19,15 +19,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft Bookings에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 826cb84acace03aaf18bcb9d3a58fa5a518d71ee
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 고객에게 약속 예약을 제공하는 소규모 기업용 온라인 및 모바일 앱인 Microsoft Bookings에 대해 자세히 알아보십시오.
+ms.openlocfilehash: f797a18616f63aea873ea5c1060a54dffbe078ef
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578750"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706229"
 ---
 # <a name="overview-of-microsoft-bookings"></a>Microsoft Bookings 개요
+
+## <a name="watch-overview-of-microsoft-bookings"></a>시청: Microsoft Bookings 개요
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE26B1q?autoplay=false]
 
@@ -35,7 +37,7 @@ Microsoft Bookings는 약속에 따라 고객에게 서비스를 제공하는 �
 
 ## <a name="get-started-with-bookings"></a>Bookings 시작
 
-1. Microsoft 365에 로그인을 시작하고 앱 시작기에서 **Bookings를** 선택합니다.
+1. 로그인을 시작하려면 Microsoft 365 시작 앱에서 **Bookings를** 선택합니다.
 1. 예약 **페이지에서** 지금 바로 **시작을** 선택합니다.
 1. 비즈니스 정보를 추가하면 Bookings 사용을 시작할 수 있습니다.
 

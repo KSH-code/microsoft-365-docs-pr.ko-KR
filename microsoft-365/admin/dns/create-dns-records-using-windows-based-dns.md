@@ -1,5 +1,5 @@
 ---
-title: Windows 기반 DNS를 사용하여 Microsoft용 DNS 레코드 만들기
+title: WINDOWS DNS를 사용하여 Microsoft용 DNS 레코드 만들기
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,26 +20,26 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
-description: Microsoft용 Windows 기반 DNS에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: fd7c56b6db9fe5f5dbb0637ad5abcb40a64bef8f
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+description: Microsoft용 도메인 기반 DNS에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 Windows DNS 레코드를 설정하는 방법을 배워야 합니다.
+ms.openlocfilehash: b9088fe3efd58700db0234a2839665a783731eb0
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876352"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706118"
 ---
-# <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Windows 기반 DNS를 사용하여 Microsoft용 DNS 레코드 만들기
+# <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>WINDOWS DNS를 사용하여 Microsoft용 DNS 레코드 만들기
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
    
 Windows 기반 DNS를 사용하여 자체 DNS 레코드를 호스트하는 경우 이 문서의 단계에 따라 전자 메일, 비즈니스용 Skype Online 등에 대한 레코드를 설정하세요.
   
-시작하려면 업데이트할 수 있도록 Windows 기반 [DNS에서 DNS](#find-your-dns-records-in-windows-based-dns) 레코드를 찾아야 합니다. 또한 Microsoft와의 동기화를 계획하는 경우 라우팅할 수 없는 전자 메일 주소가 [On-prem Active Directory](#non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory)에서 UPN으로 사용되는 것을 참조하세요.
+시작하려면 업데이트할 수 있도록 Windows [DNS에서 DNS](#find-your-dns-records-in-windows-based-dns) 레코드를 찾아야 합니다. 또한 Microsoft와의 동기화를 계획하는 경우 라우팅할 수 없는 전자 메일 주소가 [On-prem Active Directory](#non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory)에서 UPN으로 사용되는 것을 참조하세요.
   
 DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제를 해결하는 데 문제가 발생하면 도메인 이름 또는 DNS 레코드를 변경한 후 문제 [해결을 참조합니다.](../get-help-with-domains/find-and-fix-issues.md) 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Windows 기반 DNS에서 DNS 레코드 찾기
-<a name="BKMK_find_your_dns_1"></a> 도메인에 대한 DNS 레코드가 있는 페이지로 이동합니다. Windows Server 2008에서 작업하는 경우 실행 **시작으로**  >  **이동하십시오.** If you're working in Windows Server 2012, press the Windows key and **r**. **dnsmgmnt.msc 를 입력하고** 확인 을 **선택합니다.** DNS 관리자에서 정방 **\<DNS server name\> \> 응답 영역 을 확장합니다.** 도메인을 선택합니다. 이제 DNS 레코드를 만들 준비가 되었습니다.
+<a name="BKMK_find_your_dns_1"></a> 도메인에 대한 DNS 레코드가 있는 페이지로 이동합니다. Windows Server 2008에서 작업하는 경우 실행 시작으로   >  **이동하십시오.** If you're working in Windows Server 2012, press the Windows key and **r**. **dnsmgmnt.msc 를 입력하고** 확인 을 **선택합니다.** DNS 관리자에서 정방 **\<DNS server name\> \> 응답 영역 을 확장합니다.** 도메인을 선택합니다. 이제 DNS 레코드를 만들 준비가 되었습니다.
    
 ## <a name="add-mx-record"></a>MX 레코드 추가
 <a name="BKMK_add_MX"> </a>
@@ -47,7 +47,7 @@ DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제를 해결하�
 도메인의 전자 메일이 Microsoft로 전송될 수 있도록 MX 레코드를 추가합니다.
 - 추가할 MX 레코드에는 .mail.protection.outlook.com 값(여기서  \<MX token\> \<MX token\> 은 MSxxxx와 같은 값)을 포함합니다. 
 - Microsoft의 DNS 레코드 추가 페이지의 Exchange Online 섹션에 있는 MX 행에서 주소 지점에 나열된 값을 복사합니다. 이 작업에서 만드는 레코드에 이 값을 사용하게 됩니다. 
-- 도메인의 DNS 관리자 페이지에서 작업   >  **메일 교환기(MX) 로 이동합니다.** 도메인에 대한 이 페이지를 찾으면 Windows 기반 DNS에서 DNS 레코드 [찾기를 참조하세요.](#find-your-dns-records-in-windows-based-dns)  
+- 도메인의 DNS 관리자 페이지에서 작업   >  **메일 교환기(MX) 로 이동합니다.** 도메인에 대한 이 페이지를 찾으십시오. Windows [기반 DNS에서 DNS 레코드 찾기를 참조하세요.](#find-your-dns-records-in-windows-based-dns)  
 - 새 **자원 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정되어 있는지 확인하십시오. 
     - 호스트 이름:  
     - @Address: 방금 Microsoft에서 복사한 지점 주소 값을 붙여 넣습니다.  
@@ -119,7 +119,7 @@ MDM Enterpriseenrollment CNAME 레코드를 추가합니다.
 - 도메인의 DNS 관리자 페이지에서 작업  \> **텍스트(TXT)로 이동합니다.** 
 -  새 **자원 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정되어 있는지 확인하십시오. 
  > [!IMPORTANT]
-> 일부 버전의 Windows DNS 관리자에서는 txt 레코드를 만들 때 홈 이름이 기본적으로 상위 도메인으로 설정될 수 있도록 도메인이 설정되어 있을 수 있습니다. 이 경우 TXT 레코드를 추가할 때 호스트 이름을 @ 또는 도메인 이름으로 설정하는 대신 비어 있음(값 없음)으로 설정하세요. 
+> 일부 Windows DNS 관리자에서는 txt 레코드를 만들 때 홈 이름이 기본적으로 상위 도메인으로 설정될 수 있도록 도메인이 설정되어 있을 수 있습니다. 이 경우 TXT 레코드를 추가할 때 호스트 이름을 @ 또는 도메인 이름으로 설정하는 대신 비어 있음(값 없음)으로 설정하세요. 
 
 -  호스트 유형: @
 -  레코드 종류: TXT
@@ -160,7 +160,7 @@ Microsoft에 필요한 두 SRV 레코드를 추가합니다.
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>도메인이 없는 경우 레코드를 추가해 도메인을 소유하고 있는지 확인
 <a name="BKMK_verify"> </a>
 
-Microsoft 서비스를 설정하기 위해 DNS 레코드를 추가하기 전에 Microsoft는 사용자가 추가하는 도메인을 소유하고 있는지 확인해야 합니다. 이렇게 하려면 다음 단계에 따라 레코드를 추가합니다.
+DNS 레코드를 추가하여 도메인을 Microsoft 서비스 Microsoft는 사용자가 추가하는 도메인을 소유하고 있는지 확인해야 합니다. 이렇게 하려면 다음 단계에 따라 레코드를 추가합니다.
   
 > [!NOTE]
 > 이 레코드는 사용자가 도메인을 소유하고 있는지 확인하는 데만 사용되며 그 밖에 아무런 영향도 주지 않습니다. 
@@ -179,7 +179,7 @@ TXT 레코드를 추가합니다.
 -  새 **리소스 레코드** 대화  상자의 사용자 지정 호스트 이름 영역에서 필드가 정확히 다음 값으로 설정되어 있는지 확인하십시오. 
 
 > [!IMPORTANT] 
-> 일부 버전의 Windows DNS 관리자에서는 txt 레코드를 만들 때 홈 이름이 기본적으로 상위 도메인으로 설정될 수 있도록 도메인이 설정되어 있을 수 있습니다. 이 경우 TXT 레코드를 추가할 때 호스트 이름을 @ 또는 도메인 이름으로 설정하는 대신 비어 있음(값 없음)으로 설정하세요. 
+> 일부 Windows DNS 관리자에서는 txt 레코드를 만들 때 홈 이름이 기본적으로 상위 도메인으로 설정될 수 있도록 도메인이 설정되어 있을 수 있습니다. 이 경우 TXT 레코드를 추가할 때 호스트 이름을 @ 또는 도메인 이름으로 설정하는 대신 비어 있음(값 없음)으로 설정하세요. 
 
 - 호스트 이름: @
 - 유형: TXT
@@ -208,8 +208,6 @@ Microsoft에서 도메인을 확인 합니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Micrsoft 365에서](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host) 다른 호스트로 도메인 전송(문서)
-
-[사용자 지정 도메인에서 Microsoft 365 파일럿(문서)](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain)
-
-[도메인 FAQ(문서)](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)
+[Micrsoft 365에서](../get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md) 다른 호스트로 도메인 전송(문서)\
+[사용자 Microsoft 365 도메인에서](../misc/pilot-microsoft-365-from-my-custom-domain.md) 파일럿 파일럿 시작(문서)\
+[도메인 FAQ](../setup/domains-faq.yml) (문서)

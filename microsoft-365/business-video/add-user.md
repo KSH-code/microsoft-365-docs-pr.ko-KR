@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Microsoft 365에 사용자 추가
+title: 비즈니스용 Microsoft 365 사용자 추가
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,19 +20,21 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 비즈니스용 Microsoft 365에서 사용자를 추가하는 방법을 배워야 합니다.
-ms.openlocfilehash: d1167241a7b4c6012663f900973cb2fdbb7792bb
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 비즈니스용 앱에 사용자를 추가하는 Microsoft 365 방법을 배워야 합니다.
+ms.openlocfilehash: 8a9d9cbf0204d9cf4ef878116ddddbe1b2103ccb
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580717"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706409"
 ---
 # <a name="add-a-new-user"></a>새 사용자 추가
 
+## <a name="watch-add-a-user"></a>감시: 사용자 추가
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfN?autoplay=false]
 
-새 사용자가 회사에 가입할 때 Microsoft 365 Business Premium 구독에 새 사용자로 추가해야 합니다.
+새 사용자가 회사에 가입할 때 새 사용자로 Microsoft 365 Business Premium 구독에 추가해야 합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 
@@ -46,4 +48,4 @@ ms.locfileid: "51580717"
 1. 사용자를 관리자로 설정하려면 **역할** s를 확장하고 사용자(관리자 액세스 권한 **없음)** 확인란의 선택을 취소한 다음 목록에서 관리자 역할을 선택합니다. 관리자 역할 및 관리자를 설정하는 방법에 대한 자세한 내용은 [관리자란?을 참조하세요.](what-is-admin.md)
 1. 프로필 **정보에서** 사용자의 작업, 부서, 사무실에 대한 세부 정보를 입력합니다. (사용자 또는 새 사용자는 언제든지 이 정보를 나중에 추가할 수 있습니다.) 다음 **을 선택합니다.**
 1. 사용자 세부 정보를 검토합니다. 이 사용자에 대한 추가 라이선스를 구입해야 하는 경우 검토 페이지에 알림이 표시됩니다. 추가 **완료를** 선택한 다음 **닫기 를 선택합니다.**
-1. 사용자가 성공적으로 만들어졌습니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **사용자,** 활성 사용자를 **선택합니다.** 새 사용자는 할당된 라이선스와 함께 나열됩니다.
+1. 사용자가 성공적으로 만들어졌습니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 사용자, 활성사용자를 **선택합니다.** 새 사용자는 할당된 라이선스와 함께 나열됩니다.

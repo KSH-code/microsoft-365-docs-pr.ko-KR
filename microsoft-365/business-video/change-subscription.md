@@ -22,15 +22,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 사용자를 다른 구독으로 이동하는 방법을 학습합니다.
-ms.openlocfilehash: 8d919cc4d84654a17ac52813a287da0d75590536
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+description: 새 기능이 필요한 경우 사용자를 다른 구독으로 이동하는 방법을 배워야 합니다.
+ms.openlocfilehash: ffba2184908ccdc4736bae3dc0ac835c0d088143
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332201"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706277"
 ---
 # <a name="move-users-to-different-subscriptions"></a>다른 구독으로 사용자 이동
+
+## <a name="watch-move-users-to-a-different-subscription"></a>시청: 사용자를 다른 구독으로 이동
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SBE2?autoplay=false]
 

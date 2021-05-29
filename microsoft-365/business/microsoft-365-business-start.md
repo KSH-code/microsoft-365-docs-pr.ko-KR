@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 비즈니스용 Microsoft 365 설정하는 방법 및 사용자의 장치와 PC를 비즈니스용 앱으로 보호할 수 있도록 준비하는 방법에 대해 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: ddf6f8d12587c6fb562a599a41c190ffef32c147
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: be5f0e74b71f412bf647e4ef0e496cd932fc306a
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293710"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706461"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 시작
 
@@ -41,7 +41,7 @@ ms.locfileid: "52293710"
 
 Microsoft 365 비즈니스용 도구는 Outlook, Word, Excel 및 기타 Office 제품과 같은 포괄적인 비즈니스 생산성 및 공동 작업 도구 집합으로, 항상 최신 제품입니다. 관리하기 쉬운 엔터프라이즈급 보안으로 모든 iOS, Android 및 Windows 10 장치에서 작업 파일을 보호할 수 있습니다.
 
-이 비디오를 시청하여 비즈니스용 Microsoft 365 개요를 확인할 수 있습니다.<br><br>
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Watch: What is what is Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -61,11 +61,11 @@ Microsoft 365 비즈니스용 라이선스는 최대 300개 라이선스를 위�
   
 ![관리자 및 사용자의 설정 및 관리 흐름을 보여 주는 다이어그램](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
-비즈니스용 설정에 대한 Microsoft 365 비디오를 시청하세요.<br><br>
+## <a name="watch-set-up-microsoft-365-business"></a>감시: 설정 Microsoft 365 Business
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: 비즈니스용 Microsoft 365 설정(관리자)
@@ -109,8 +109,7 @@ Microsoft 365 비즈니스용 라이선스는 최대 300개 라이선스를 위�
     
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 문서 및 리소스에 대한 자세한 설명](./index.yml)
-  
-[비즈니스 Microsoft 365](manage.md)[마이그레이션을 비즈니스용 Microsoft 365 관리](migrate-to-microsoft-365-business.md)
-
-[Microsoft 365 Business 교육 비디오](../business-video/index.yml)
+[Microsoft 365 문서 및 리소스에 대한](./index.yml) 자세한 설명(링크 페이지)\
+[비즈니스 Microsoft 365](manage.md) 관리(문서)\
+[비즈니스용 Microsoft 365](migrate-to-microsoft-365-business.md) 마이그레이션(문서)\
+[Microsoft 365 교육용 비디오(링크](../business-video/index.yml) 페이지)

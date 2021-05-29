@@ -20,15 +20,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 자동 전달 전자 메일을 중지하는 방법을 배워야 합니다.
-ms.openlocfilehash: f8bd599c7c8bca8d4789188acbcd3574b7473dcb
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+description: 소유 정보 도용을 방지하기 위한 메일 흐름 규칙을 만들어 자동 전달 전자 메일을 중지하는 방법을 학습합니다.
+ms.openlocfilehash: 82e4c80b0edc501889e0fc4dc28f1ec1ad703568
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903685"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706477"
 ---
 # <a name="stop-email-auto-forward"></a>전자 메일 자동 전달 중지
+
+## <a name="watch-stop-auto-forwarding-emails"></a>감시: 전자 메일 자동 전달 중지
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2W6kS?autoplay=false]
 
@@ -36,7 +38,7 @@ ms.locfileid: "51903685"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 관리 센터에서 **Exchange,** **메일** 흐름  을 선택하고 규칙 탭에서 더하기 기호를 선택하고 새 규칙 만들기 **를 선택합니다.**
+1. Microsoft 365 관리 센터에서 Exchange **,** **메일** 흐름 을 선택하고  규칙 탭에서 더하기 기호를 선택하고 새 규칙 만들기 를 **선택합니다.**
 1. 추가 **옵션 을 선택합니다.** 새 규칙의 이름을 지정합니다.
 1. 그런 다음 이 규칙을 적용하기 위한 드롭다운을 **열고** 보낸 사람 **을** 선택한 다음 외부 내부 **입니다.**
 1. 조직 **내부 를 선택한** 다음 확인 **을 선택합니다.**
@@ -50,4 +52,6 @@ ms.locfileid: "51903685"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자에](https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user) 대한 다른 전자 메일 별칭 추가(문서) [Microsoft 365에서](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding) 전자 메일 전달 구성(문서) 비즈니스용 [Office 365](https://docs.microsoft.com/exchange/troubleshoot/email-delivery/email-delivery-issues) 관리자로 전자 메일 배달 문제 찾기 및 해결(문서)
+[사용자의 다른 전자 메일 별칭 추가](../admin/email/add-another-email-alias-for-a-user.md)(문서)\
+[Microsoft 365에서 전자 메일 전달 구성](../admin/email/configure-email-forwarding.md)(문서)\
+[비즈니스 관리자를 위한 전자](/exchange/troubleshoot/email-delivery/email-delivery-issues) 메일 Office 365 문제 찾기 및 해결(문서)

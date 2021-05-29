@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국에서 Office 365, 안정성 및 확장 가능한 클라우드 서비스에 대한 요구 사항을 충족하도록 설계된 21Vianet에서 운영하는 21Vianet에 의해 운영되는 비즈니스에 대해 자세히 알아보아야 합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 00710d53033648764ed0e55eeb51ee66518e36f7
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: bc416ca253d26cc5d391d226039223eac02720b0
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297059"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706373"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -197,7 +197,7 @@ Apple Exchange 연락처 데이터를 Apple iCloud에 공유합니다. |이 설�
 |리서치 창과 서비스 Bing 통합  <br/> |사용할 수 없습니다.  <br/> |
 |접근성 검사  <br/> |사용할 수 없습니다.  <br/> |
 |수업용 전자 필기장  <br/> |사용할 수 없습니다.  <br/> |
-|양식  <br/> |사용할 수 없습니다.  <br/> |
+|Forms  <br/> |사용할 수 없습니다.  <br/> |
 |몰입형 리더  <br/> |사용할 수 없습니다.  <br/> |
 |온라인 그림 삽입  <br/> |사용할 수 없습니다.  <br/> |
 |모임 세부 정보  <br/> |사용할 수 없습니다.  <br/> |
@@ -236,8 +236,6 @@ GDPR은 부정확한 데이터를 수정하거나, 데이터를 지우거나, �
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[비즈니스용 Microsoft 365 구독을](../../commerce/try-or-buy-microsoft-365.md) 시도하거나 구입(문서)
-
-[21Vianet에서 운영하는](parity-between-azure-information-protection.md) Office 365 Azure Information Protection 지원(문서)
-
+[비즈니스용 Microsoft 365 구독을](../../commerce/try-or-buy-microsoft-365.md) 시도하거나 구입(문서)\
+[21Vianet에서 운영하는](parity-between-azure-information-protection.md) Office 365 Azure Information Protection 지원(문서)\
 [청구서 보기 또는 Fapiao](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) 보기(문서)

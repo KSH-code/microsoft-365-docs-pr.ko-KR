@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: Microsoft 365 준수 센터에서 감사 로그 검색 기능을 켜거나 끄고 관리자가 감사 로그를 검색할 수 있도록 설정하거나 사용하지 않도록 설정하는 방법
-ms.openlocfilehash: 091331a40a2ab6bf3c05bb289d49f63ab2dd2794
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: 457f453b001f71a095bc60932c8e0cebf46aa7b1
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657736"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706667"
 ---
 # <a name="turn-auditing-on-or-off"></a>감사 켜기 또는 끄기
 
@@ -63,7 +63,7 @@ Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 
 
    조직에 대한 감사가 설정되어 있지 않은 경우 사용자 및 관리자 활동 기록을 시작하라는 배너가 표시됩니다.
 
-   ![감사 페이지의 배너](../media/39a9d35f-88d0-4bbe-a962-0be2f838e2bf.png)
+   ![감사 페이지의 배너](../media/AuditingBanner.png)
 
 3. 사용자 **및 관리자 활동 기록 시작 배너를** 클릭합니다.
 

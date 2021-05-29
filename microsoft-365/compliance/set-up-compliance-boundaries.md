@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b19347ad8e1c87d5b66cb49ed2af152b4765c37
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 02e2e2f048ab521ad5640003cb127ed7bfa19641
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311919"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706609"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사를 위한 준수 경계 설정
 
@@ -289,6 +289,8 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
     또한 보류 통계는 에이전시의 콘텐츠 위치에만 적용됩니다.
 
+- 검색 권한 필터(사서함 또는 사이트 필터)가 할당되어 있으며 조직의 모든 SharePoint 사이트를 포함하는 검색에 대해 인덱서되지 않은 항목을 내보내려고 시도하면 다음 오류 메시지가 표시됩니다. `Unable to execute the task. Reason: The scope options UnindexedItemsOnly or BothIndexedandUnindexedItems are not allowed when the executing user has a compliance security filter applied` . 검색 권한 필터가 할당되어 있으며 인덱서되지 않은 항목을 SharePoint 검색을 다시 시작하고 검색할 특정 SharePoint 포함해야 합니다. 그렇지 않으면 모든 사이트가 포함된 검색에서 인덱싱된 항목만 내보낼 SharePoint 있습니다. 검색 결과를 내보낼 때의 옵션에 대한 자세한 내용은 콘텐츠 검색 결과 [내보내기 를 참조하세요.](export-search-results.md#step-1-prepare-search-results-for-export)
+
 - Exchange 공용 폴더에는 검색 권한 필터가 적용되지 않습니다.
 
 ## <a name="more-information"></a>추가 정보
@@ -307,7 +309,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
 - 콘텐츠 기반 준수 경계에 제외 필터(예: 검색 권한 필터에서 사용)를 사용하지 `-not()` 않는 것이 좋습니다. 최근에 업데이트된 특성이 있는 콘텐츠가 인덱싱되지 않은 경우 제외 필터를 사용하면 예기치 않은 결과가 발생할 수 있습니다. 
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **Who 및 cmdlet을 사용하여 검색 권한 필터를 New-ComplianceSecurityFilter Set-ComplianceSecurityFilter 수 있습니까?**
   

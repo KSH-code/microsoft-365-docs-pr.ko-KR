@@ -21,14 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 회사 전체 전자 메일 서명을 만드는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a1a85826be2a799b56cf3d06b6416778470a116f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 669c61d17784641d1ecc88ac0952a46575c7898b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578954"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706265"
 ---
 # <a name="create-a-company-wide-email-signature"></a>회사 전체 전자 메일 서명 만들기
+
+## <a name="watch-create-a-company-wide-email-signature"></a>감시: 회사 전체 전자 메일 서명 만들기
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf?autoplay=false]
 
@@ -36,7 +38,7 @@ ms.locfileid: "51578954"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 관리 센터에서 Exchange 를 **선택합니다.**
+1. Microsoft 365 관리 센터에서 를 **Exchange.**
 1. 메일 **흐름 을 선택합니다.**
 1. 추가 **+ 를** 선택한 다음 고지 조항 **적용을 선택합니다.**
 1. 새 **규칙 페이지에서 다음을** 클릭합니다.
