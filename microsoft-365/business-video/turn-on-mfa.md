@@ -28,22 +28,22 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2021
 ms.locfileid: "52706445"
 ---
-# <a name="turn-on-multi-factor-authentication"></a><span data-ttu-id="54b46-103">다단계 인증 켜기</span><span class="sxs-lookup"><span data-stu-id="54b46-103">Turn on multi-factor authentication</span></span>
+# <a name="turn-on-multi-factor-authentication"></a><span data-ttu-id="a4211-103">다단계 인증 켜기</span><span class="sxs-lookup"><span data-stu-id="a4211-103">Turn on multi-factor authentication</span></span>
 
-## <a name="watch-turn-on-multi-factor-authentication"></a><span data-ttu-id="54b46-104">감시: 다단계 인증 켜기</span><span class="sxs-lookup"><span data-stu-id="54b46-104">Watch: Turn on multi-factor authentication</span></span>
+## <a name="watch-turn-on-multi-factor-authentication"></a><span data-ttu-id="a4211-104">감시: 다단계 인증 켜기</span><span class="sxs-lookup"><span data-stu-id="a4211-104">Watch: Turn on multi-factor authentication</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MuO3?autoplay=false]
 
-<span data-ttu-id="54b46-105">다단계 인증은 사용자와 직원이 비즈니스를 보호하는 가장 쉬운 방법 중 하나인 Microsoft 365 로그인하는 두 가지 방법을 제공해야 하다는 것을 뜻합니다.</span><span class="sxs-lookup"><span data-stu-id="54b46-105">Multi-factor authentication means you and your employees must provide more than one way to sign in to Microsoft 365 is one of the easiest ways to secure your business.</span></span>
+<span data-ttu-id="a4211-105">다단계 인증은 사용자와 직원이 비즈니스를 보호하는 가장 쉬운 방법 중 하나인 Microsoft 365 로그인하는 두 가지 방법을 제공해야 하다는 것을 뜻합니다.</span><span class="sxs-lookup"><span data-stu-id="a4211-105">Multi-factor authentication means you and your employees must provide more than one way to sign in to Microsoft 365 is one of the easiest ways to secure your business.</span></span>
 
-## <a name="try-it"></a><span data-ttu-id="54b46-106">사용해 보세요!</span><span class="sxs-lookup"><span data-stu-id="54b46-106">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="a4211-106">사용해 보세요!</span><span class="sxs-lookup"><span data-stu-id="a4211-106">Try it!</span></span>
 
-1. <span data-ttu-id="54b46-107">[https://admin.microsoft.com](https://admin.microsoft.com)의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="54b46-107">Go to the admin center at [https://admin.microsoft.com](https://admin.microsoft.com).</span></span>
-1. <span data-ttu-id="54b46-108">모두 **표시를 선택한** 다음 관리 Azure Active Directory **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="54b46-108">Select  **Show All**, then choose the **Azure Active Directory Admin Center**.</span></span>
-1. <span data-ttu-id="54b46-109">를 **Azure Active Directory** **속성**, 보안 기본값 **관리를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="54b46-109">Select **Azure Active Directory**, **Properties**, **Manage Security defaults**.</span></span>
-1. <span data-ttu-id="54b46-110">보안 **기본값 사용에서** **예를 선택한** 다음 **저장을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="54b46-110">Under **Enable Security defaults**, select **Yes** and then **Save**.</span></span>
+1. <span data-ttu-id="a4211-107">[https://admin.microsoft.com](https://admin.microsoft.com)의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="a4211-107">Go to the admin center at [https://admin.microsoft.com](https://admin.microsoft.com).</span></span>
+1. <span data-ttu-id="a4211-108">모두 **표시를 선택한** 다음 관리 Azure Active Directory **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="a4211-108">Select  **Show All**, then choose the **Azure Active Directory Admin Center**.</span></span>
+1. <span data-ttu-id="a4211-109">를 **Azure Active Directory** **속성**, 보안 기본값 **관리를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="a4211-109">Select **Azure Active Directory**, **Properties**, **Manage Security defaults**.</span></span>
+1. <span data-ttu-id="a4211-110">보안 **기본값 사용에서** **예를 선택한** 다음 **저장을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="a4211-110">Under **Enable Security defaults**, select **Yes** and then **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="54b46-111">새 구독의 경우 보안 기본값이 자동으로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="54b46-111">For new subscriptions Secure defaults are turned on automatically.</span></span>
+> <span data-ttu-id="a4211-111">새 구독의 경우 보안 기본값이 자동으로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4211-111">For new subscriptions Secure defaults are turned on automatically.</span></span>
 
-<span data-ttu-id="54b46-112">선택한 직원이 다음에 로그인하면 휴대폰에서 두 번째 인증을 위해 Microsoft Authenticator 앱을 설정하도록 요청됩니다.</span><span class="sxs-lookup"><span data-stu-id="54b46-112">Next time the selected employees sign in, they'll be asked to set up the Microsoft Authenticator app on their phones for a second form of authentication.</span></span>
+<span data-ttu-id="a4211-112">선택한 직원이 다음에 로그인하면 휴대폰에서 두 번째 인증을 위해 Microsoft Authenticator 앱을 설정하도록 요청됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4211-112">Next time the selected employees sign in, they'll be asked to set up the Microsoft Authenticator app on their phones for a second form of authentication.</span></span>
