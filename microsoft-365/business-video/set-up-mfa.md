@@ -20,15 +20,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 휴대폰에서 다단계 인증을 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 4a4041777b055b03e2ab5efede72eca56afdf589
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 휴대폰에서 2단계 인증이라고도 하는 다단계 인증을 설정하는 방법을 학습합니다.
+ms.openlocfilehash: 16997961c4bbe405792c40d1f1d93c511e10e740
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578666"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705657"
 ---
 # <a name="set-up-multi-factor-authentication-on-your-phone"></a>휴대폰에서 다단계 인증 설정
+
+## <a name="watch-set-up-multi-factor-authentication-with-a-mobile-device"></a>감시: 모바일 장치를 사용하여 다단계 인증 설정
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR?autoplay=false]
 
@@ -43,8 +45,8 @@ ms.locfileid: "51578666"
     - 인증할 때마다 확인 **코드** 사용을 선택하여 새 확인 코드를 입력합니다.
 1. 설정 **을 선택 합니다.**
 1. 컴퓨터에서 모바일 앱 **구성 창을** 열어 습니다.
-1. 모바일 장치에서 앱 스토어로 이동하여 "Microsoft Authenticator"를 검색하여 설치한 다음 를 니다.
-1. Authenticator에서 프롬프트에 따라 마법사를 완료한 다음 더하기(+) 기호를 선택해 계정을 추가합니다.
+1. 모바일 장치에서 앱 스토어로 이동하여 "Microsoft Authenticator"를 검색하고, 설치한 후 열 수 있습니다.
+1. In Authenticator, follow the prompts to complete the wizard, and then choose the plus (+) sign to add your account.
 1. Choose **Work or school account**, choose **Allow** when permission to take pictures and record video, and then follow the instructions to scan the QR code in the open window on your computer.
 1. 계정이 추가된 후 Got **It 을 선택하세요.**
 1. 컴퓨터에서 다음 을 선택하고 **다음을** 다시 선택하십시오. 
