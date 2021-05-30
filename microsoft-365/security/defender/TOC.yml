@@ -18,6 +18,8 @@
           href: microsoft-365-security-mde-redirection.md
         - name: Office 365용 Defender를 Microsoft 365 보안 센터로 리디렉션
           href: microsoft-365-security-mdo-redirection.md
+        - name: Microsoft 365 Azure Sentinel과 Defender 통합
+          href: microsoft-365-defender-integration-with-azure-sentinel.md
         - name: 미리 보기 기능
           href: preview.md
         - name: 문제 해결
@@ -96,7 +98,7 @@
               href: incident-queue.md
             - name: 관리
               href: manage-incidents.md
-            - name: 조사하기
+            - name: 조사
               href: investigate-incidents.md
             - name: 인시던트 경고
               href: investigate-alerts.md

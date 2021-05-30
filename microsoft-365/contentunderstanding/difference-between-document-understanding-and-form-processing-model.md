@@ -1,8 +1,9 @@
 ---
 title: 문서 이해와 양식 처리 모델의 차이
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: lauriellis
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -12,15 +13,14 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 문서 이해 모델과 양식 처리 모델의 주요 차이를 설명합니다.
-ms.openlocfilehash: f12cc46e1ffcbc610f50ba327e22ad46a2591521
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: f19017ce8b748644177ac00f4daf7cb29ad522c6
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222272"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706513"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>문서 이해와 양식 처리 모델의 차이 
-
 
 Microsoft SharePoint Syntex의 콘텐츠 이해를 통해 SharePoint 문서 라이브러리에 업로드되는 문서를 식별 및 분류하고 각 파일에서 관련 정보를 추출할 수 있습니다.  예를 들어 파일이 SharePoint 문서 라이브러리에 업로드되면 *구매 주문서* 로 식별된 모든 파일이 이와 같이 분류된 다음 사용자 지정 문서 라이브러리 보기에 표시됩니다. 또한 각 파일에서 특정 정보(예: *PO 번호* 및 *전체l*)를 가져와 문서 라이브러리 보기에 열로 표시할 수 있습니다. 
 
@@ -36,16 +36,14 @@ Microsoft SharePoint Syntex의 콘텐츠 이해를 통해 SharePoint 문서 라�
 > [!NOTE]
 > 양식 처리 및 문서 이해 시나리오 예제에 대한 자세한 내용은 [SharePoint Syntex 채택: 시작 가이드](./adoption-getstarted.md)를 참조하세요.
 
-
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>구조화된 콘텐츠와 구조화되지 않은 콘텐츠 및 반구조화된 콘텐츠가 비교됩니다.
 
 문서 이해 모델을 사용하여 편지나 계약서와 같은 비정형 문서로부터 추출하려는 텍스트 엔터티가 문서의 문장이나 특정 영역에 있는 데이터를 식별하고 추출합니다. 예를 들어, 비정형 문서는 다양한 방법으로 작성할 수 있는 계약 갱신 서한이 될 수 있습니다. 그러나 텍스트 문자열 *서비스 시작 날짜* 와 실제 날짜와 같은 정보는 각 계약 갱신 문서의 본문에 일관성 있게 존재합니다.
 
-양식 처리 모델을 사용하여 파일을 식별하고 양식 또는 송장과 같은 구조화된 또는 반구조화된 문서에서 데이터를 추출합니다. 양식 처리 모델은 예제 문서에서 양식의 레이아웃을 이해하고 유사한 위치에서 추출해야 하는 데이터를 찾는 방법을 학습하도록 훈련되었습니다. 일반적으로 양식에는 엔터티가 동일한 위치에 있는 보다 구조화된 레이아웃(예: 세금 양식의 주민 등록 번호)을 가지고 있습니다.
+양식 처리 모델을 사용하여 파일을 식별하고 양식 또는 송장과 같은 구조적 또는 반구조적 문서에서 데이터를 추출합니다. 양식 처리 모델은 예제 문서에서 양식의 레이아웃을 이해하고 유사한 위치에서 추출해야 하는 데이터를 찾는 방법을 학습하도록 훈련되어 있습니다. 양식은 일반적으로 엔터티가 동일한 위치에 있는, 보다 구조적 레이아웃을 갖습니다(예: 세금 양식의 주민등록번호)
 
 > [!NOTE]
 > 문서 이해 모델을 작성하거나 SharePoint 문서 라이브러리에 적용하려면 컨텐츠 센터 사이트에 대한 액세스 권한이 있어야 합니다. 
-
 
 ## <a name="where-models-are-created"></a>모델이 생성되는 위치
 
@@ -78,7 +76,7 @@ Microsoft SharePoint Syntex의 콘텐츠 이해를 통해 SharePoint 문서 라�
 | 위치 | 단일 문서 라이브러리에 대해 학습합니다.| 여러 라이브러리에 적용할 수 있습니다.|
 | 지원되는 파일 형식| PDF, JPG, PNG 파일 형식의 총 50MB, 500페이지에서 학습 가능합니다.| 5~10개의 PDF, Office 또는 전자 메일 파일(부정 예제 포함)에 대해 학습 가능합니다.<br>Office 파일은 64k 문자로 잘립니다. OCR 스캔 파일은 20페이지로 제한됩니다.|
 | 관리되는 메타데이터와 통합 | 아니요 | 예, 구성된 관리형 메타데이터 필드를 참조하는 교육 엔터티 추출기입니다.|
-| Microsoft Information Protection을 사용하도록 설정했을 때 규정 준수 기능 통합 | 게시된 보존 레이블을 설정합니다.<br>민감도 레이블 설정 기능이 곧 제공됩니다. | 게시된 보존 레이블을 설정합니다.<br>민감도 레이블 설정 기능이 곧 제공됩니다. |
+| Microsoft Information Protection을 사용하도록 설정했을 때 규정 준수 기능 통합 | 게시된 보존 레이블을 설정합니다.<br>민감도 레이블 설정 기능이 곧 제공됩니다. | 게시된 보존 레이블을 설정합니다.<br>게시된 민감도 레이블을 설정합니다. |
 | 지원되는 지역| 양식 처리는 Power Platform을 기반으로 합니다. Power Platform 및 AI 작성기의 글로벌 가용성에 대한 자세한 내용은 [Power Platform 가용성](https://dynamics.microsoft.com/geographic-availability/)을 참조하세요. | 모든 지역에서 지원됩니다.|
 | 트랜잭션 비용 | AI 작성기 크레딧을 사용합니다.<br>크레딧은 백만 크레딧 단위로 구입할 수 있습니다.<br>300개 이상의 SharePoint Syntex 라이선스를 구입하면 1백만 크레딧이 포함됩니다.<br>1백만 크레딧으로는 2,000개 파일 페이지를 처리할 수 있습니다.<br>| 해당 없음 |
 | 용량 | 기본 파워 플랫폼 환경(Dataverse 데이터베이스가 지원되는 사용자 지정 환경)을 사용합니다. | 용량 제한이 없습니다.|
