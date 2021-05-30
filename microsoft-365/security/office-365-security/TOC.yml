@@ -20,8 +20,6 @@
           items:
             - name: Exchange Online Protection 개요
               href: exchange-online-protection-overview.md
-            - name: EOP 기능
-              href: eop-features.md
             - name: EOP의 메일 흐름
               href: mail-flow-in-eop.md
             - name: 격리

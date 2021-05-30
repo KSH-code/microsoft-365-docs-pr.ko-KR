@@ -28,13 +28,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Office 생산성 앱과 사이버 위협으로부터 비즈니스를 보호하는 고급 보호 기능을 포함하는 구독 서비스인 Microsoft 365 Business Premium에 대해 알아봅니다.
-ms.openlocfilehash: a355c9856ead4a66f6876cc7cb5aa8eb469d7f12
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Microsoft 365 Business Premium 앱 및 사이버 위협에 대한 고급 보호를 포함하는 Office 서비스에 대해 자세히 알아보십시오.
+ms.openlocfilehash: e4a182c5dd5444392486dd137e70361e880534bd
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244859"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705525"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 개요
 
@@ -42,7 +42,7 @@ ms.locfileid: "52244859"
 
 Microsoft 365 Business Premium(이전 명칭: Microsoft 365 Business)은 직원의 수가 300명 미만인 비즈니스를 위한 포괄적인 구독 서비스입니다. 좋아하는 Office 생산성 앱 및 서비스와 Microsoft Teams와 같은 공동 작업 도구를 고급 보안 및 장치 관리 기능과 통합합니다.
 
-Microsoft 365 Business Premium에 대한 간략한 개요를 보려면 이 비디오를 시청하세요.<br><br>
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Watch: What is what is Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -105,7 +105,7 @@ Microsoft 365 Business Premium은 다음을 통해 **위협으로부터 보호�
 
 전체 보안 기능 목록을 보려면 [Microsoft 365 Business Premium 보안 기능](security-features.md)을 참조하세요. [Microsoft 365 Business Premium을 설정](set-up.md)한 후에는 [위협 방지 강화](increase-threat-protection.md) 및 [규정 준수 기능 설정](set-up-compliance.md)을 참조하여 가이드 설정의 일부로 포함되지 않은 보안 기능을 시작하세요. 또한 사이버 범죄자와 해커로부터 보호를 설정하는 방법에 대한 개요를 보려면 [Office 365 및 Microsoft 365 Business Premium 플랜을 보호하는 10가지 주요 방법](/office365/admin/security-and-compliance/secure-your-business-data)을 참조하세요.
 
-## <a name="get-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 받기
+## <a name="next-steps"></a>다음 단계
 
 - 파트너가 있다면 파트너가 Microsoft 365 Business Premeum을 제공합니다([Microsoft 파트너 센터에서 Microsoft 365 Business Premium 받기)](get-microsoft-365-business.md).
 

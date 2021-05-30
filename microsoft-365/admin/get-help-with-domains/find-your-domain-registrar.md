@@ -21,13 +21,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: b5b633ba-1e56-4a98-8ff5-2acaac63a5c8
-description: InterNIC 검색을 사용하여 도메인 등록 기관 및 DNS 호스팅 공급자를 찾는 방법에 대해 알아보세요.
-ms.openlocfilehash: 434e30709b112cf591159a1692540b8ef2b6bb65
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: InterNIC 검색을 사용하여 도메인 등록 기관 및 DNS 호스팅 공급자를 찾는 방법에 대해 알아봅니다.
+ms.openlocfilehash: af883f53c8c45aee2594b0f5b8b9da57e5717f9e
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49655545"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706397"
 ---
 # <a name="find-your-domain-registrar"></a>도메인 등록 기관 찾기
 
@@ -40,11 +40,11 @@ ms.locfileid: "49655545"
 >[!NOTE]
 > *.COM*, *.NET*, and *.EDU* 로 끝나는 도메인만이 이 도구를 사용할 수 있습니다.
   
-1. [InterNIC 검색 페이지](https://go.microsoft.com/fwlink/p/?LinkId=402770)의 **Whois Search(Whois 검색)** 상자에 도메인을 입력합니다. 예: *contoso.com.* 
+1. [InterNIC 검색 페이지](https://go.microsoft.com/fwlink/p/?LinkId=402770)의 **Whois 검색** 상자에 도메인을 입력합니다(예: *contoso.com*). 
     
-2. **Domain(도메인)** 옵션을 선택하고 **Submit(제출)** 을 선택합니다.
+2. **도메인** 옵션을 선택한 다음 **제출** 을 선택합니다.
     
-3. **Whois Search Results(Whois 검색 결과)** 페이지에서 **Registrar(등록 기관)** 항목을 찾습니다. 이 항목에는 도메인에 등록 기관 서비스를 제공하는 조직이 나열됩니다. 
+3. **Whois 검색 결과** 페이지에서 **등록 기관** 항목을 찾습니다. 이 항목에는 도메인에 등록 기관 서비스를 제공하는 조직이 나열됩니다. 
     
 ## <a name="dns-hosting-provider"></a>DNS 호스팅 공급자
   
@@ -53,14 +53,14 @@ ms.locfileid: "49655545"
 >[!NOTE]
 > *.COM*, *.NET*, and *.EDU* 로 끝나는 도메인만이 이 도구를 사용할 수 있습니다.
   
-1. [InterNIC 검색 페이지]( https://go.microsoft.com/fwlink/p/?LinkId=402770)의 **Whois Search(Whois 검색)** 상자에 도메인을 입력합니다. 예로 contoso.com 등을 들 수 있습니다. 
+1. [InterNIC 검색 페이지]( https://go.microsoft.com/fwlink/p/?LinkId=402770)의 **Whois 검색** 상자에 도메인을 입력합니다(예: contoso.com). 
     
 2. **Domain(도메인)** 옵션을 선택하고 **Submit(제출)** 을 선택합니다.
     
 3. 
             **Whois Search Results(Whois 검색 결과)** 페이지에서 첫 번째 **Name Server(이름 서버)** 항목을 찾습니다. 
     
-4. 콜론(:) 뒤에 나타나는 NS(이름 서버) 정보를 복사하고 페이지 위쪽의 **검색** 상자에 붙여 넣습니다. **Nameserver(이름 서버)** 를 선택하고 **Submit(제출)** 을 클릭합니다.
+4. 콜론(:) 뒤에 나타나는 NS(이름 서버) 정보를 복사한 다음 페이지 위쪽의 **검색** 상자에 붙여 넣습니다. **이름 서버** 를 선택한 다음 **제출** 을 선택합니다.
     
 5. 
             **Whois Search Results(Whois 검색 결과)** 페이지에서 **Registrar(등록 기관)** 항목을 찾습니다. 이 항목에는 DNS 호스팅 공급자, 즉 도메인의 이름 서버를 소유한 DNS 공급자가 나열됩니다. 
