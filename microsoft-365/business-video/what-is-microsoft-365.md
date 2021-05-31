@@ -17,20 +17,21 @@ ms.custom:
 - adminvideo
 search.appverid:
 - MET150
-description: Microsoft 365 Business Premium 기능에 대해 알아보세요.
+description: IT 파트를 관리해주는 구독 서비스인 Microsoft 365 Business Premium에 대해 알아보세요.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 336d206b3853baa2bdde5d925113dc0887919da7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3f0c184cd0e0e6392f66d049b46930031e054bbe
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245183"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705669"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA?autoplay=false]
+## <a name="watch-what-is-microsoft-365-business-premium"></a>시청: Microsoft 365 Business Premium이란 무엇인가요?
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA?autoplay=false]
 
 Microsoft 365 Business Premium은 Microsoft에서 사용자를 위해 장치를 관리하고, 실제 위협으로부터 보호하고, 조직에 최신 비즈니스 소프트웨어를 제공하며 IT 관련 업무를 처리하면서 사용자가 클라우드에서 조직을 운영할 수 있도록 해주는 구독 서비스입니다.
 
