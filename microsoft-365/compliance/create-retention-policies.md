@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 1faeae5dc145d6f908f9137387b875c890d22e14
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 7b23ed2b45a24e8999785909f9357043bef731e5
+ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280430"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "52710697"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -54,7 +54,7 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 - Teams 채널 메시지
 - Teams 채팅
 - Yammer 커뮤니티 메시지
-- Yammer 개인 메시지
+- Yammer 사용자 메시지
 
 보존 정책을 생성할 때 Teams 또는 Yammer 위치를 선택하면 다른 위치는 자동으로 제외됩니다. 즉, Teams 또는 Yammer 위치 포함 여부에 따라, 따라야 할 지침도 달라진다는 뜻이죠.
 
@@ -130,11 +130,11 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되�
     
     이 옵션은 Yammer 위치에 지원되지 않으므로 **고급 보존 설정 사용** 을 선택하지 않습니다. 
 
-4. **위치 선택** 페이지에 대해 **특정 위치 선택** 를 선택합니다. 그런 다음 Yammer에 대한 위치 중 하나 또는 둘 모두를 전환합니다. **Yammer 커뮤니티 메시지** 및 **Yammer 개인 메시지**.
+4. **위치 선택** 페이지에 대해 **특정 위치 선택** 를 선택합니다. 그런 다음 Yammer에 대한 위치 중 하나 또는 둘 모두를 전환합니다. **Yammer 커뮤니티 메시지** 및 **Yammer 사용자 메시지**.
     
     기본적으로 모든 커뮤니티와 사용자가 선택되지만 포함하거나 제외할 커뮤니티와 사용자를 지정하여 세분화할 수 있습니다.
     
-    Yammer 개인 메시지의 경우 다음을 수행합니다. 
+    Yammer 사용자 메시지의 경우: 
     - 기본값 **모두** 를 그대로 두면 Azure B2B 게스트 사용자가 포함되지 않습니다. 
     - **사용자 선택** 을 선택한 경우, 계정을 알고 있는 외부 사용자에게 보존 정책을 적용할 수 있습니다.
 

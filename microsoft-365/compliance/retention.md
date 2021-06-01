@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: ba17a94fa4ae0d12405cc7e38d7d74e90fa7ad02
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: ab02559a439899fe25a560aa52718045b730ebd4
+ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625224"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "52710721"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -116,7 +116,7 @@ ms.locfileid: "52625224"
 - Teams 채널 메시지
 - Teams 채팅
 - Yammer 커뮤니티 메시지
-- Yammer 개인 메시지
+- Yammer 사용자 메시지
 
 단일 정책을 여러 위치 또는 특정 위치 또는 사용자에게 효율적으로 적용할 수 있습니다.
 
@@ -308,7 +308,7 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
     
     이 마케팅 SharePoint 사이트의 문서는 보존 기간이 가장 길기 때문에 10년 동안 보존됩니다.
 
-3. **암시적 포함보다 명시적 포함이 우선됩니다.** 항목을 삭제할 시기를 결정하는 데 적용됩니다. 
+3. **삭제에 대해서는 암시적 항목보다 명시적 항목이 우선됩니다.** 이제 보존에 대한 충돌이 해결되었으므로 삭제에 대한 충돌만 남아 있습니다. 
     
     1. 보존 설정은 컨테이너에서 암시적으로 할당되지 않고 개별 항목에 적용되기 때문에 보존 정책과 비교하여 보존 레이블(그러나 적용됨)은 명시적 보존을 제공합니다. 즉, 보존 레이블의 삭제 작업이 항상 보존 정책의 삭제 작업보다 우선합니다.
         

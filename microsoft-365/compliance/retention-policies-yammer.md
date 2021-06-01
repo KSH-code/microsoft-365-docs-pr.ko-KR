@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Yammer에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 0426fdf04090e535a99f8acd3bf376adfb016796
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1b99d0915cfb159f821818fb1425d7191a011351
+ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917804"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "52710709"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Yammer의 보존에 대한 자세한 정보
 
@@ -49,7 +49,7 @@ Yammer에 대한 보존 정책을 사용하여 커뮤니티 메시지 및 개인
 
 보존 정책을 사용하여 Yammer에서 커뮤니티 메시지와 비공개 메시지를 보존 하고 삭제할 수 있습니다. 비공개 메시지는 메시지에 포함된 각 사용자의 사서함에 있는 숨겨진 폴더에 저장되고, 커뮤니티 메시지는 커뮤니티의 그룹 사서함에 있는 유사한 숨겨진 폴더에 저장됩니다.
 
-Yammer 메시지는 사용자 또는 그룹 사서함에 대해 구성된 보존 정책의 영향을받지 않습니다. Yammer 메시지가 Exchange에 저장되어 있어도 이 Yammer 데이터는 **Yammer 커뮤니티 메시지** 및 **Yammer 비공개 메시지** 위치에 대해 구성된 보존 정책에 의해서만 포함됩니다.
+Yammer 메시지는 사용자 또는 그룹 사서함에 대해 구성된 보존 정책의 영향을받지 않습니다. Yammer 메시지가 Exchange에 저장되어 있어도 이 Yammer 데이터는 **Yammer 커뮤니티 메시지** 및 **Yammer 사용자 메시지** 위치에 대해 구성된 보존 정책에 의해서만 포함됩니다.
 
 > [!NOTE]
 > Yammer 데이터를 보존하는 활성 보존 정책에 사용자가 포함되어 있고 Yammer 데이터를 보존하기 위해 이 정책에 포함된 사용자의 사서함을 삭제하면 사서함이 [비활성 사서함](inactive-mailboxes-in-office-365.md)으로 변환됩니다. 사용자에 대한 이 Yammer 데이터를 유지할 필요가 없는 경우 사서함을 삭제하기 전에 사용자 계정을 보존 정책에서 제외합니다.
@@ -88,13 +88,13 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 ## <a name="messages-and-external-users"></a>메시지 및 외부 사용자
 
-기본적으로 Yammer 비공개 메시지에 대한 보존 정책은 조직의 모든 사용자에게 적용되지만 외부 사용자에게는 적용되지 않습니다. **사용자 선택** 을 사용하고 해당 계정을 지정하는 경우 외부 사용자에게 보존 정책을 적용할 수 있습니다. 
+기본적으로 Yammer 사용자 메시지에 대한 보존 정책은 조직의 모든 사용자에게 적용되지만 외부 사용자에게는 적용되지 않습니다. **사용자 선택** 을 사용하고 해당 계정을 지정하는 경우 외부 사용자에게 보존 정책을 적용할 수 있습니다. 
 
 지금은 Azure B2B 게스트 사용자가 지원되지 않습니다.
 
 ## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
 
-사용자가 조직을 떠나 Microsoft 365 계정이 삭제된 경우 보존이 적용되는 해당 사용자의 Yammer 비공개 메시지는 비활성 사서함에 저장됩니다. 이들 메시지는 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요. 
+사용자가 조직을 떠나 Microsoft 365 계정이 삭제된 경우 보존이 적용되는 해당 사용자의 Yammer 사용자 메시지는 비활성 사서함에 저장됩니다. 이들 메시지는 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요. 
 
 사용자가 Yammer에 저장한 파일이 있다면 SharePoint 및 OneDrive의 경우 [해당 섹션](retention-policies-sharepoint.md#when-a-user-leaves-the-organization)을 참조하세요.
 
@@ -102,7 +102,7 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 Yammer 보존 정책은 현재 미리 보기 상태이며 당사는 보존 기능 최적화를 계속 진행하고 있습니다. 그동안 Yammer 커뮤니티 메시지 및 개인 메시지에 대해 보존을 사용할 때 다음 제한 사항에 유의해야 합니다.
 
-- **Yammer 비공개 메시지** 위치에 대해 **사용자 선택** 을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
+- **Yammer 사용자 메시지** 위치에 대해 **사용자 선택** 을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
 
 ## <a name="configuration-guidance"></a>구성 지침
 
