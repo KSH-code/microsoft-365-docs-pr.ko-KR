@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0e09a313b512135785050abd5aa61bb9576ce1d8
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 2242d195f4a4ea4b8f0c345d82fa0ad1f947bfa2
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274943"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730765"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender for Endpoint(Linux용)
 
@@ -77,7 +77,7 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 
 ### <a name="system-requirements"></a>시스템 요구 사항
 
-- 지원되는 Linux 서버 배포 및 버전:
+- 지원되는 Linux 서버 배포 및 x64(AMD64/EM64T) 버전:
 
   - Red Hat Enterprise Linux 7.2 이상
   - CentOS 7.2 이상

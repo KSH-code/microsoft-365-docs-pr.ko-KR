@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 171f449a8b73ff42113358d50dbe8bde909f5d4d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 42ac45fcea72d0ccdae69f6b7315cf31d38121d7
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625188"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730249"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -182,7 +182,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 - **레이블이 표시되는 사용자 및 그룹을 선택합니다.** Azure AD에서 레이블은 특정 사용자 또는 전자 메일 사용이 가능한 보안 그룹, 메일 그룹 또는 Microsoft 365 그룹([동적 구성원](/azure/active-directory/users-groups-roles/groups-create-rule)이 될 수 있음)에 게시할 수 있습니다.
 
-- 레이블 정책에 포함된 사용자와 그룹에 의해 만들어진 모든 새 문서와 레이블이 지정되지 않은 전자 메일에 **기본 레이블을 적용** 하고 컨테이너에는 동일하거나 다른 기본 레이블([Microsoft Teams, Microsoft 365 그룹, SharePoint 사이트에 대해 민감도 레이블을 사용하도록 설정](sensitivity-labels-teams-groups-sites.md)한 경우)을 적용합니다. 이 설정을 통해 Azure Information Protection 통합 레이블 지정 클라이언트는 레이블이 지정되지 않은 기존 문서에도 기본 레이블을 적용합니다. 레이블이 문서 또는 전자 메일에 대한 올바른 레이블이 아닌 경우에는 사용자가 언제든지 기본 레이블을 변경할 수 있습니다.
+- 새 문서, 레이블이 지정되지 않은 이메일 및 새 컨테이너에 대한 **기본 레이블을 지정** 합니다([Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에 대해 민감도 레이블을 활성화](sensitivity-labels-teams-groups-sites.md)한 경우). 세 가지 유형의 항목 모두 또는 다른 레이블에 대해 동일한 레이블을 지정할 수 있습니다. 문서에 대한 기본 레이블을 지정하면 Azure Information Protection 통합 레이블 지정 클라이언트는 레이블이 지정되지 않은 기존 문서에도 이 레이블을 적용합니다. 레이블이 문서 또는 전자 메일에 대한 올바른 레이블이 아닌 경우에는 사용자가 언제든지 기본 레이블을 변경할 수 있습니다.
     
     모든 콘텐츠에 적용할 기본 수준의 보호 설정을 설정하려면 기본 레이블 사용을 고려하십시오. 그러나 사용자 교육 및 기타 컨트롤이 없는 경우 이 설정으로 인해 레이블이 정확하지 않을 수 있습니다. 일반적으로 문서에 대한 기본 레이블로 암호화를 적용하는 레이블을 선택하지 않는 것이 좋습니다. 예를 들어, 많은 조직에서 암호화를 지원하는 앱이 없는 외부 사용자와 문서를 보내고 공유해야 하거나, 권한을 부여할 수 있는 계정을 사용하지 않을 수 있습니다. 이 시나리오에 대한 자세한 내용은 [암호화된 문서를 외부 사용자와 공유하기](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users)를 참조하세요.
 
@@ -190,7 +190,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
     ![사용자가 사유를 입력하는 메시지 표시](../media/Sensitivity-label-justification-required.png)
 
-- **사용자에게 전자 메일 및 문서에 대한 옵션 그리고 컨테이너에 대한 또 다른 옵션을 포함하여 레이블을 적용하도록 요구합니다**. 필수 레이블 지정으로도 알려졌으며 이러한 옵션은 사용자가 문서를 저장하고 전자 메일을 보내고 새 그룹 혹은 사이트를 만들기 전에 레이블이 반드시 적용되도록 보장합니다.
+- 사용자가 문서 및 이메일, 문서 및 컨테이너에 대한 **레이블을 적용하도록 요구** 합니다. 필수 레이블 지정으로도 알려졌으며 이러한 옵션은 사용자가 문서를 저장하고 전자 메일을 보내고 새 그룹 혹은 사이트를 만들기 전에 레이블이 반드시 적용되도록 보장합니다.
     
     문서 및 전자 메일의 경우 레이블은 사용자가 수동으로 할당하거나 구성한 조건의 결과로 자동으로 할당하거나 기본적으로 할당할 수 있습니다(앞에서 설명한 기본 레이블 옵션). 사용자가 레이블을 할당해야 할 때 Outlook에 표시되는 예제 프롬프트 :
 

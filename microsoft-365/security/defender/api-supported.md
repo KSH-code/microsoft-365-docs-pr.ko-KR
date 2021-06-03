@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f2c66dca326589807f5712c5548c177a0d08ade0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c10b2863503a5bda829cbf67379a606b687ac2e3
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935728"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730945"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>지원되는 Microsoft 365 Defender API 
 
@@ -43,6 +43,7 @@ ms.locfileid: "51935728"
 -|-
 [고급 헌팅 API](api-advanced-hunting.md) | 고급 헌팅 쿼리를 실행합니다.
 [인시던트 API](api-incident.md) | 다른 실용적인 작업과 함께 인시던트 나열 및 업데이트
+[스트리밍 API(미리](../defender-endpoint/raw-data-export.md) 보기) | 단일 데이터 스트림에서 발생하는 실시간 이벤트 및 경고를 제공합니다.
 
 ### <a name="endpoint-uris"></a>끝점 URIS
 
@@ -59,6 +60,7 @@ ms.locfileid: "51935728"
 ## <a name="related-articles"></a>관련 문서
 
 - [Microsoft 365 Defender API 개요](api-overview.md)
-- [Microsoft 365 Defender API 액세스](api-access.md)
+- [Microsoft 365 Defender API에 액세스](api-access.md)
+- [스트리밍 API](../defender-endpoint/raw-data-export.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)

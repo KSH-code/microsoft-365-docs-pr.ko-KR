@@ -22,12 +22,12 @@ ms.custom:
 description: 관리자는 ZAP(제로 아워 자동 제거)가 배달된 메시지를 Exchange Online 메일 폴더로 이동하거나 스팸 또는 피싱으로 확인된 정크 메일 폴더 또는 검역소로 이동하는 방법을 알 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ee5a3fee8e189ff9cc08f187971e728670766d6d
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 9612f6267a0786b6f81f1c9a3f2ac270e344d0a8
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684198"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730681"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>ZAP(제로 아워 자동 Exchange Online
 
@@ -72,6 +72,12 @@ ZAP 작업은 사용자에게 매끄럽게 수행됩니다. 메시지가 검색�
 기본적으로 피싱에 대한 ZAP는 스팸 방지 정책에서 사용하도록 설정되어  있으며, 피싱 전자 메일 필터링 판정에 대한 기본 작업은 피싱 전자 메일 필터링에 대한 기본 작업으로, 피싱에 대한 ZAP는 기본적으로 메시지를 차단합니다.
 
 스팸 필터링 판정을 구성하는 데 대한 자세한 내용은 [Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
+
+### <a name="zap-for-high-confidence-phishing"></a>높은 신뢰도의 피싱을 위한 ZAP 
+
+배달 **후** 높은 신뢰도 피싱으로 식별된 읽거나 읽지 않은 메시지의 경우 ZAP는 메시지를 검지합니다. 관리자만이 검지에서 높은 신뢰도의 피싱 메시지를 보고 관리할 수 있습니다. 
+
+높은 신뢰도 피싱에 대한 ZAP는 기본적으로 사용하도록 설정되어 있습니다. 자세한 내용은 에서 기본적으로 보안 [을 Office 365.](secure-by-default.md)
 
 ### <a name="zap-for-spam"></a>스팸용 ZAP
 
@@ -119,6 +125,6 @@ ZAP는 메시지가 삭제되지 않은 경우 또는 동일한 또는 더 강�
 
 ### <a name="how-does-zap-affect-mailboxes-on-hold"></a>ZAP는 보류된 사서함에 어떤 영향을 미치나요?
 
-ZAP는 보류된 사서함의 메시지를 검지하지 않습니다. ZAP는 스팸 방지 정책에서 스팸 또는 피싱 판정에 대해 구성된 작업을 기반으로 메시지를 정크 메일 폴더로 이동할 수 있습니다.
+ZAP는 보류된 사서함의 메시지를 검지합니다. ZAP는 스팸 방지 정책에서 스팸 또는 피싱 판정에 대해 구성된 작업을 기반으로 메시지를 정크 메일 폴더로 이동할 수 있습니다.
 
 보류에 대한 자세한 Exchange Online 에서 [In-Place Hold and Litigation Hold in Exchange Online.](/Exchange/security-and-compliance/in-place-and-litigation-holds)

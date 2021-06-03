@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Defender 인시던트 API 및 인시던트 리소스 유형
-description: Defender에서 인시던트 리소스 유형의 메서드 및 속성에 Microsoft 365 정보
+description: Defender에서 인시던트 리소스 유형의 방법 및 속성에 Microsoft 365 정보
 keywords: 인시던트, 인시던트, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,20 +20,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5cc149668e49e21b38b5fb95ae3f40db6c296e1d
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 587d6107b0c09b2178311d8da6606968e7fda083
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572588"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730933"
 ---
-# <a name="microsoft-365-defender-incidents-api-and-the-incident-resource-type"></a>Microsoft 365 Defender 인시던트 API 및 인시던트 리소스 유형
+# <a name="microsoft-365-defender-incidents-api-and-the-incidents-resource-type"></a>Microsoft 365 Defender 인시던트 API 및 인시던트 리소스 유형
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **적용 대상:**
 
-- Microsoft 365 Defender
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.

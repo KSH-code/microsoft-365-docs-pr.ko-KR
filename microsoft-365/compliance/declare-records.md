@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 레코드 선언
-ms.openlocfilehash: fd88858c8d5cd1870f594050607b784a9dc5b78c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fed988d2f880e4c0af1321cfb6ef4a873bd4e7ab
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925664"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730549"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>보존 레이블을 사용하여 레코드 선언
 
@@ -54,7 +54,7 @@ ms.locfileid: "50925664"
 
 ## <a name="configuring-retention-labels-to-declare-records"></a>레코드를 선언하도록 보존 레이블을 구성하는 중입니다.
 
-Microsoft 365 규정 준수 센터의 **레코드 관리** 솔루션에서 보존 레이블을 생성하거나 편집할 때 항목을 레코드로 표시하는 옵션이 제공됩니다. 이전 섹션에서 PowerShell 명령을 실행한 경우 또는 항목을 규정 레코드로 표시할 수 있습니다.
+Microsoft 365 규정 준수 센터의 **레코드 관리** 솔루션에서 보존 레이블을 생성할 때 항목을 레코드로 표시하는 옵션이 제공됩니다. 이전 섹션에서 PowerShell 명령을 실행한 경우 또는 항목을 규정 레코드로 표시할 수 있습니다.
 
 예를 들어 다음과 같습니다.
 

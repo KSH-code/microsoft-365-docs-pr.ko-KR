@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 문서의 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook.
-ms.openlocfilehash: 55bc2c3d8530e5cb7702f99a77b3918bfb7c0dee
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: abcad87498f6670fe7fe2f5457321f1b3f6e0930
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634259"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730201"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여
 
@@ -41,7 +41,7 @@ ms.locfileid: "52634259"
 
 이전 사용자의 OneDrive 파일을 보존하려면 먼저 해당 사용자 OneDrive 액세스 권한을 부여한 다음 유지하려는 파일을 이동하십시오.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
 
 2. 사용자를 선택합니다.
 
@@ -52,6 +52,30 @@ ms.locfileid: "52634259"
 > [!NOTE]
 > 한에 최대 500MB의 파일 및 폴더를 이동하거나 복사할 수 있습니다.<br/>
 > 버전 기록이 있는 문서를 이동하거나 복사하면 최신 버전만 이동됩니다.  
+
+또한 다른 사용자에게 이전 직원의 사용자 액세스 권한을 부여할 수도 OneDrive.
+
+1. 전역 관리자 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">또는</a> 관리자로 관리 센터에 SharePoint 로그인합니다.
+
+    관리 센터에 액세스할 수 있는 권한이 없다고 메시지가 표시된 경우 조직에 관리자 권한이 없습니다.
+
+2. 왼쪽 창에서 관리  센터 를 \> **SharePoint.** (관리 센터의 목록을 보려면 **모두 표시** 를 선택해야 할 수도 있습니다.)
+
+3. 클래식 SharePoint 관리 센터가 나타나면 페이지  맨 위에 있는 지금 열기 를 선택하여 SharePoint 관리 센터를 열 수 있습니다.
+
+4. 왼쪽 창에서 추가 기능 **을 선택합니다.**
+
+5. 사용자 **프로필에서** **열기 를 선택합니다.**
+
+6. 사용자 **아래에서** 사용자 **프로필 관리를 선택합니다.**
+
+7. 이전 직원의 이름을 입력하고 찾기 를 **선택합니다.**
+
+8. 사용자를 마우스 오른쪽 단추로 클릭한 다음 사이트 모음 **소유자 관리를 클릭합니다.**
+
+9. 사용자를 사이트 모음 **관리자에게 추가하고** 확인 을 **선택합니다.**
+
+10. 이제 사용자는 해당 URL을 사용하여 이전 직원의 OneDrive 액세스할 OneDrive 있습니다. 
 
 ### <a name="revoke-admin-access-to-a-users-onedrive"></a>사용자의 사용자 액세스에 대한 관리자 액세스 OneDrive
 

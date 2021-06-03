@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: fdf92f2bbdfb673f1db446b562e941d61679fa9a
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: ac55a5b0cc9d252642c890b78ccec1ba720f0957
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694356"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730261"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
@@ -120,7 +120,7 @@ ms.locfileid: "52694356"
 
 ### <a name="launch-portal-with-over-100k-users"></a>100k 사용자가 있는 포털 시작
 
-100TB를 초과하여 마이그레이션할 계획이면 아래에 나열된 단계에 따라 지원 요청서를 제출하세요. 요청된 정보를 모두 포함해야 합니다.
+사용자가 10만 명 이상인 포털을 시작해야 하는 경우 아래 나열된 단계에 따라 지원 요청을 제출하세요. 요청된 정보를 모두 포함해야 합니다.
 
 다음 단계를 따릅니다:
 1. https://admin.microsoft.com(으)로 이동
@@ -136,7 +136,7 @@ ms.locfileid: "52694356"
 7. 나머지 정보를 입력하고 **연락 받기** 를 선택합니다.
 8. 티켓이 생성되면 다음과 같은 정보를 고객 지원팀으로 보내주세요.
 - 포털 URL 시작 
-- 예상 사용자 수
+- 필요한 사용자 수
 - 예상 실행 시간 
 
 ## <a name="make-changes-to-a-scheduled-portal-launch"></a>예약된 포털 시작 변경
@@ -267,7 +267,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
 
 2. 모든 사용자에 대해 리디렉션이 진행되지 않은지 유효성을 검사합니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [SharePoint Online에서 포털 시작 롤아웃 계획](./planportallaunchroll-out.md)
 

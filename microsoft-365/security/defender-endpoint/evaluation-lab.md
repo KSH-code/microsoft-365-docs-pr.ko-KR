@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ed2165c0102170256f50964180a550d8eccbce8c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f6ef1d3dbc111e5d10bf4d3c42dfd08e5e9d63e3
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932790"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730630"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>끝점용 Microsoft Defender 평가 랩
 
@@ -45,7 +45,7 @@ ms.locfileid: "51932790"
 
 자동화된 조사, 고급 헌팅 및 위협 분석과 같은 플랫폼의 강력한 기능에 대한 모든 권한을 가지게 되므로 Endpoint용 Defender가 제공하는 포괄적인 보호 스택을 테스트할 수 있습니다. 
 
-Office 2019 Standard뿐만 아니라 최신 OS 버전 및 올바른 보안 구성 요소를 설치하도록 미리 구성된 Windows 10 또는 Windows Server 2019 장치를 추가할 수 있습니다.
+최신 OS 버전과 올바른 보안 구성 요소를 설치하고 Office 2019 Standard를 설치하도록 미리 구성된 Windows 10 또는 Windows Server 2019 장치를 추가할 수 있습니다.
 
 위협 시뮬레이터를 설치할 수 있습니다. Endpoint용 Defender는 업계를 선도하는 위협 시뮬레이션 플랫폼과 파트너가 되어 포털을 떠나지 않고도 끝점용 Defender 기능을 테스트할 수 있습니다.
 
@@ -75,9 +75,8 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 >[!NOTE]
 >- 선택한 환경 구조의 유형에 따라 정품 인증일로부터 지정된 시간 동안 디바이스를 사용할 수 있습니다.
->- 각 환경은 제한된 테스트 장치 집합으로 프로비전됩니다. 프로비전된 장치를 사용한 경우 새 장치가 제공되지 않습니다. 삭제된 장치는 사용 가능한 테스트 장치 수를 새로 고치지 않습니다.
->- 리소스를 사용한 경우 더 이상 랩을 사용할 수 없습니다. 다시 설정하거나 새로 고치지 않습니다.
->- 리소스를 신중하게 사용하는 것이 입니다. 랩 리소스는 제한됩니다. 다시 설정하거나 새로 고치지 않습니다. 
+>- 각 환경은 제한된 테스트 장치 집합으로 프로비전됩니다. 프로비전된 장치를 사용한 후 삭제한 경우 더 많은 디바이스를 요청할 수 있습니다. 
+>- 한 달에 한 번씩 랩 리소스를 요청할 수 있습니다. 
 
 이미 랩이 있나요? 새 위협 시뮬레이터를 사용하도록 설정하고 활성 장치를 설정해야 합니다.
 
@@ -109,30 +108,27 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 
 ## <a name="add-devices"></a>장치 추가
-환경에 장치를 추가하면 끝점용 Defender가 연결 세부 정보가 있는 잘 구성된 장치를 설치합니다. Windows 10 또는 Windows Server 2019 장치를 추가할 수 있습니다.
+환경에 장치를 추가하면 끝점용 Defender가 연결 세부 정보가 있는 잘 구성된 장치를 설치합니다. Server 2019 Windows 10 또는 Windows 추가할 수 있습니다.
 
-장치는 최신 버전의 OS 및 Office 2019 Standard 및 Java, Python 및 SysIntenals와 같은 기타 앱으로 구성됩니다. 
-
-   >[!TIP]
-   > 랩에 더 많은 디바이스가 필요하세요? 지원 티켓을 제출하여 요청이 끝점용 Defender 팀에서 검토하게 합니다. 
+장치는 최신 버전의 OS 및 Office 2019 Standard 및 Java, PysIntenals 등의 기타 앱으로 구성됩니다. 
 
 랩 설정 중에 위협 시뮬레이터를 추가하기로 선택한 경우 모든 장치에 추가하는 장치에 위협 시뮬레이터 에이전트가 설치됩니다.
 
-장치가 권장되는 Windows 보안 구성 요소를 켜고 감사 모드로 켜져 있는 테넌트에 자동으로 온보드됩니다. 즉, 사용자 쪽에서 아무 노력도 하지 않습니다. 
+권장되는 Windows 보안 구성 요소가 켜져 감사 모드로 켜져 있는 경우 장치에서 자동으로 테넌트에 온보드됩니다. 
 
 테스트 장치에 미리 구성된 보안 구성 요소는 다음과 같습니다.
 
-- [공격 표면 감소](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
-- [차단 시 차단](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
-- [제어된 폴더 액세스](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
-- [악용 방지](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
-- [네트워크 보호](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
-- [잠재적으로 원치 않는 응용 프로그램 검색](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [클라우드 제공 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
-- [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
+- [공격 표면 감소](attack-surface-reduction.md)
+- [차단 시 차단](configure-block-at-first-sight-microsoft-defender-antivirus.md)
+- [제어된 폴더 액세스](controlled-folders.md)
+- [악용 방지](enable-exploit-protection.md)
+- [네트워크 보호](network-protection.md)
+- [잠재적으로 원치 않는 응용 프로그램 검색](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
+- [클라우드 제공 보호](cloud-protection-microsoft-defender-antivirus.md)
+- [Microsoft Defender SmartScreen](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview)
 
 >[!NOTE]
-> Microsoft Defender 바이러스 백신이 설정됩니다(감사 모드 아미타임). Microsoft Defender 바이러스 백신이 시뮬레이션을 실행하지 못하게 차단하는 경우 Windows 보안을 통해 디바이스에서 실시간 보호를 해제할 수 있습니다. 자세한 내용은 [Always-On 보호 구성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
+> Microsoft Defender 바이러스 백신 설정됩니다(감사 모드 아미기). 사용자가 Microsoft Defender 바이러스 백신 실행을 차단하는 경우 디바이스에서 실시간 보호를 해제할 수 Windows 보안. 자세한 내용은 [Always-On 보호 구성을 참조하세요.](configure-real-time-protection-microsoft-defender-antivirus.md)
 
 자동화된 조사 설정은 테넌트 설정에 따라 달라집니다. 기본적으로 반자동으로 구성됩니다. 자세한 내용은 자동화된 조사 [개요를 참조하세요.](automated-investigations.md)
 
@@ -141,7 +137,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 1. 대시보드에서 장치 **추가 를 선택합니다.** 
 
-2. 추가할 디바이스 유형을 선택하십시오. Windows 10 또는 Windows Server 2019를 추가할 수 있습니다.
+2. 추가할 디바이스 유형을 선택하십시오. Server 2019를 추가하거나 Windows 10 Windows 수 있습니다.
 
     ![디바이스 옵션을 사용하여 랩 설정의 이미지](images/add-machine-options.png)
 
@@ -163,10 +159,29 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
     ![장치 탭의 이미지](images/machines-tab.png)
     
 
-    >[!TIP]
-    >시뮬레이터 **상태** 열에서 정보 아이콘 위에 마우스를 여 에이전트의 설치 상태를 알 수 있습니다.
+    > [!TIP]
+    > 시뮬레이터 **상태** 열에서 정보 아이콘 위에 마우스를 여 에이전트의 설치 상태를 알 수 있습니다.
+
+## <a name="request-for-more-devices"></a>추가 장치 요청
+모든 기존 장치를 사용 및 삭제하는 경우 더 많은 디바이스를 요청할 수 있습니다. 한 달에 한 번씩 랩 리소스를 요청할 수 있습니다. 
 
 
+1. 평가 랩 대시보드에서 추가 장치 **요청을 선택합니다.**
+
+   ![더 많은 장치에 대한 요청 이미지](images/request-more-devices.png)
+
+2. 구성을 선택 합니다. 
+3. 요청을 제출합니다. 
+
+요청이 성공적으로 제출된 경우 녹색 확인 배너와 마지막 제출 날짜가 표시됩니다.
+ 
+요청의 상태는 몇 시간  후 승인되는 사용자 작업 탭에서 확인할 수 있습니다.
+
+승인되면 요청된 장치가 랩 설정에 추가되어 더 많은 디바이스를 만들 수 있습니다. 
+
+
+> [!TIP]
+> 랩을 좀 더 잘 진행하기 위해 시뮬레이션 라이브러리를 체크 아웃하는 것을 잊지 마세요.
 
 ## <a name="simulate-attack-scenarios"></a>공격 시나리오 시뮬레이트
 테스트 장치를 사용하여 연결하여 자체 공격 시뮬레이션을 실행합니다. 
@@ -175,7 +190,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 - ["직접" 공격 시나리오](https://securitycenter.windows.com/tutorials)
 - 위협 시뮬레이터
 
-고급 [헌팅을](advanced-hunting-query-language.md) 사용하여 데이터 및 [위협](threat-analytics.md) 분석을 쿼리하여 새로운 위협에 대한 보고서를 볼 수 있습니다.
+고급 [헌팅을](advanced-hunting-overview.md) 사용하여 데이터 및 [위협](threat-analytics.md) 분석을 쿼리하여 새로운 위협에 대한 보고서를 볼 수 있습니다.
 
 ### <a name="do-it-yourself-attack-scenarios"></a>직접 공격 시나리오
 미리 만든 시뮬레이션을 찾고 있는 경우 ["직접 실행"](https://securitycenter.windows.com/tutorials)공격 시나리오를 사용할 수 있습니다. 이러한 스크립트는 안전하고 문서화되어 있으며 사용하기 쉽습니다. 이러한 시나리오는 끝점 기능에 대한 Defender를 반영하고 조사 환경을 진행합니다.
@@ -184,11 +199,11 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 >[!NOTE]
 >테스트 장치에 대한 연결은 RDP를 사용하여 수행됩니다. 방화벽 설정에서 RDP 연결을 허용하는지 확인합니다.
 
-1. 장치에 연결하고 연결을 선택하여 공격 시뮬레이션을 **실행합니다.** 
+1. 커넥트 를 선택하여 장치에 연결하고 를 선택하여 **공격 시뮬레이션을 커넥트.** 
 
     ![테스트 장치에 대한 연결 단추의 이미지](images/test-machine-table.png)
 
-2. RDP 파일을 저장하고 연결을 선택하여 **실행합니다.**
+2. RDP 파일을 저장하고 를 선택하여 **커넥트.**
 
     ![원격 데스크톱 연결의 이미지](images/remote-connection.png)
 

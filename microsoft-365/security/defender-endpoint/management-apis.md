@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a57cebd2cb7d35f968ed9ddfa4d9215eac2182d6
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 78ab364f8a261b1201fad17ebf86adc1a7456a46
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934461"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730842"
 ---
 # <a name="overview-of-management-and-apis"></a>관리 및 API 개요 
 
@@ -41,7 +41,7 @@ Endpoint용 Defender는 고객이 플랫폼을 쉽게 채택할 수 있도록 �
 
 ## <a name="endpoint-onboarding-and-portal-access"></a>끝점 온보드 및 포털 액세스 
 
-장치 온보딩은 Microsoft Endpoint Manager 및 클라이언트 장치용 Microsoft Intune과 서버 장치용 Azure Defender에 완전히 통합되어 구성, 배포 및 모니터링에 대한 완전한 종단 간 환경을 제공합니다. 또한 Endpoint용 Microsoft Defender는 그룹 정책 및 장치 관리에 사용되는 기타 타사 도구를 지원합니다.
+장치 온보딩은 클라이언트 Microsoft Endpoint Manager Microsoft Intune 및 서버 장치용 Azure Defender에 완전히 통합되어 구성, 배포 및 모니터링에 대한 완전한 종단 간 환경을 제공합니다. 또한 Endpoint용 Microsoft Defender는 그룹 정책 및 장치 관리에 사용되는 기타 타사 도구를 지원합니다.
 
 끝점용 Defender는 포털에 액세스할 수 있는 사용자가 RBAC(역할 기반 액세스 제어)의 유연성을 통해 보고 할 수 있는 작업을 세분화하여 제어할 수 있도록 합니다. RBAC 모델은 모든 보안 팀 구조를 지원합니다.
 - 전역으로 분산된 조직 및 보안 팀
@@ -71,16 +71,17 @@ Endpoint용 Defender는 사용자 또는 SaaS 응용 프로그램의 컨텍스�
 
 응답 **API는** 서비스 및 장치에서 작업을 수행할 수 있는 기능을 노출하여 고객이 표시기를 검색하고, 설정, 경고 상태를 관리하고, 장치에서 프로그래밍식으로 장치 격리, 파일 격리 등의 응답 작업을 수행할 수 있도록 합니다. 
 
-## <a name="raw-data-streaming-api"></a>원시 데이터 스트리밍 API 
-Endpoint 원시 데이터 스트리밍 API에 대한 Defender는 고객이 단일 데이터 스트림 내에서 발생할 때 인스턴스에서 실시간 이벤트 및 경고를 전달할 수 있도록 하여 짧은 대기 시간, 높은 처리률 전달 메커니즘을 제공합니다.
+## <a name="streaming-api"></a>스트리밍 API 
+스트리밍 API는 고객이 단일 데이터 스트림 내에서 발생할 때 인스턴스에서 실시간 이벤트 및 경고를 전달할 수 있도록 하여 짧은 대기 시간, 높은 처리 시간 배달 메커니즘을 제공합니다.
 
-장기 데이터 보존을 위해 Endpoint용 Defender 이벤트 정보는 Azure 저장소에 직접 푸시되거나 시각화 서비스 또는 추가 데이터 처리 엔진에서 사용할 수 있도록 Azure 이벤트 허브로 푸시됩니다. 
+이벤트 정보는 장기 데이터 보존을 위해 Azure 저장소에 직접 푸시되거나 시각화 서비스 또는 추가 데이터 처리 엔진에서 사용할 수 있도록 Azure 이벤트 허브에 푸시됩니다. 
 
-자세한 내용은 원시 데이터 스트리밍 [API 를 참조하세요.](raw-data-export.md)
+>[!NOTE]
+>이제 스트리밍 API가 Defender로 Microsoft 365 이동되었습니다. 자세한 내용은 [스트리밍 API를 참조하세요.](raw-data-export.md)
 
 
 ## <a name="siem-api"></a>SIEM API
-SIEM(보안 정보 및 이벤트 관리) 통합을 사용하도록 설정하면 SIEM 솔루션을 사용하여 Microsoft Defender 보안 센터에서 검색을 끌어오거나 검색 REST API에 직접 연결할 수 있습니다. 이렇게 하면 미리 채워진 값을 사용하여 SIEM 커넥터 액세스 세부 정보 섹션이 활성화되면 Azure AD(Azure Active Directory) 테넌트 아래에 응용 프로그램이 만들어집니다. 자세한 내용은 [SIEM 통합을 참조하세요.](enable-siem-integration.md)
+SIEM(보안 정보 및 이벤트 관리) 통합을 사용하도록 설정하면 SIEM 솔루션을 Microsoft Defender 보안 센터 검색 REST API에 직접 연결하여 검색된 검색을 수집할 수 있습니다. 이렇게 하면 미리 채워진 값이 포함된 SIEM 커넥터 액세스 세부 정보 섹션이 활성화되어 응용 프로그램이 Azure Active Directory(Azure AD) 테넌트에 만들어집니다. 자세한 내용은 [SIEM 통합을 참조하세요.](enable-siem-integration.md)
 
 ## <a name="related-topics"></a>관련 항목
 - [끝점 API용 Microsoft Defender 액세스 ](apis-intro.md)

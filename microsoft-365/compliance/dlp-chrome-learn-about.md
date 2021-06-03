@@ -1,5 +1,5 @@
 ---
-title: Microsoft 규정 준수 확장(미리 보기)에 대해 알아보기
+title: Microsoft 규정 준수 확장에 대해 알아보기
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 통해 파일 활동 및 보호 작업을 Google Chrome 브라우저로 확장
-ms.openlocfilehash: c8a5795b3be8b393fd3a934504449bf6db0c2f01
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: b8d9be88f42cce736cdbf66a97f4363106fa5820
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113384"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730489"
 ---
-# <a name="learn-about-the-microsoft-compliance-extension-preview"></a>Microsoft 규정 준수 확장(미리 보기)에 대해 알아보기
+# <a name="learn-about-the-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장에 대해 알아보기
 
 [끝점 데이터 손실 방지](endpoint-dlp-learn-about.md)(끝점 DLP)는 [Microsoft 365 데이터 손실 방지(DLP)](dlp-learn-about-dlp.md)의 활동 모니터링 및 보호 기능을 Windows 10 장치의 중요한 항목으로 확장합니다. 장치가 Microsoft 365 규정 준수 솔루션에 등록된 경우 사용자가 중요한 항목으로 수행하는 작업에 대한 정보는 [활동 탐색기](data-classification-activity-explorer.md)에서 확인할 수 있으며 해당 항목에 대한 보호 작업은 [DLP 정책](create-test-tune-dlp-policy.md)을 통해 적용할 수 있습니다.
 

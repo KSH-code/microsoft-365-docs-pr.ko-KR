@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6f0c92371e7e9b7a3348f90df788ee8c3a46374b
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 833bc1d8284829323cc2f0c391e42f4e563a6948
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572156"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730885"
 ---
 # <a name="list-incidents-api-in-microsoft-365-defender"></a>Defender의 인시던트 Microsoft 365 API 나열
 
@@ -34,7 +34,7 @@ ms.locfileid: "52572156"
 
 **적용 대상:**
 
-- Microsoft 365 Defender
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
@@ -82,7 +82,7 @@ GET /api/incidents
 
 이름 | 유형 | 설명
 -|-|-
-권한 부여 | 문자열 | Bearer {token}. **필수**
+권한 부여 | String | Bearer {token}. **필수**
 
 
 ## <a name="request-body"></a>요청 본문
@@ -186,7 +186,7 @@ securityGroupId | entityType이 *SecurityGroup인 경우 사용할 수 있습니
 securityGroupName | entityType이 *SecurityGroup인 경우 사용할 수 있습니다.* | 네트워크 구성 연산자
 registryHive | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | HKEY \_ 로컬 \_ 컴퓨터 |
 registryKey | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
-registryValueType | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | 문자열
+registryValueType | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | String
 registryValue | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | 31-00-00-00
 deviceId | 엔터티와 관련된 장치의 ID(있는 경우)입니다. | 986e5df8b73dacd43c8917d17e523e76b13c75cd
 

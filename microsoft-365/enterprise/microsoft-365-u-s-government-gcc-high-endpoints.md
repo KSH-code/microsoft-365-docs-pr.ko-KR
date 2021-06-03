@@ -1,9 +1,9 @@
 ---
-title: Office 365 U.S. Government GCC High endpoints
+title: Office 365 미국 정부 GCC 끝점
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 01/28/2021
+ms.date: 05/28/2021
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -18,26 +18,26 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
 ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
-description: 이 문서에서는 Office 365 미국 정부 GCC High 요금제를 사용하는 고객이 끝점에 도달할 수 있습니다.
+description: 이 문서에서는 미국 정부 및 고가 요금제로 Office 365 끝점에 GCC 있습니다.
 hideEdit: true
-ms.openlocfilehash: 4089be4e3e28493afc27972d77f30bca81364f37
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: da721d7d0a8965c4dea9bc812df755f19e69ea55
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923877"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730165"
 ---
-# <a name="office-365-us-government-gcc-high-endpoints"></a>Office 365 U.S. Government GCC High endpoints
+# <a name="office-365-us-government-gcc-high-endpoints"></a>Office 365 미국 정부 GCC 끝점
 
  *적용 사항: Office 365 관리자*
 
-Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점은 Office 365 미국 정부 GCC High 요금제만 사용하는 고객에게 도달할 수 있습니다.
+Office 365 인터넷에 연결해야 합니다. The endpoints below should be reachable for customers using Office 365 U.S. Government GCC High plans only.
   
  **Office 365 끝점:** [전 세계(GCC 포함)](urls-and-ip-address-ranges.md) | [21vianet에서 운영하는 Microsoft Office 365](urls-and-ip-address-ranges-21vianet.md)  | [Microsoft Office 365 Germany](microsoft-365-germany-endpoints.md)   |  [Office 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) | *Office 365 U.S. Government GCC High* |
   
 |||
 |:-----|:-----|
-|**Last updated:** 01/28/2021 - ![ RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**다운로드:** [JSON 형식의 전체 목록](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
+|**Last updated:** 05/28/2021 - ![ RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**다운로드:** [JSON 형식의 전체 목록](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
 
  이 데이터를 사용하여 네트워크 연결을 관리하기 위한 권장 사항을 이해하려면 [Office 365 끝점 관리](managing-office-365-endpoints.md)에서 시작하세요. 끝점 데이터는 활성화되기 30일 전에 게시된 새 IP 주소와 URL을 사용하여 매월 초에 필요한 경우 업데이트됩니다. 따라서 아직 자동화된 업데이트가 없는 고객은 새 연결이 필요하기 전에 프로세스를 완료할 수 있습니다. 지원 에스컬레이션, 보안 인시던트 또는 기타 즉각적인 운영 요구 사항을 해결해야 하는 경우 끝점은 해당 월 중에 업데이트될 수도 있습니다. 이 페이지에 아래에 표시된 데이터는 모두 REST 기반 웹 서비스에서 생성됩니다. 스크립트나 네트워크 장치를 사용하여 이 데이터에 액세스하는 경우 직접 [웹 서비스로](microsoft-365-ip-web-service.md) 이동해야 합니다.
 
@@ -51,7 +51,7 @@ Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점
 
 - **범주**: 끝점 집합이 "최적화", "허용" 또는 "기본"으로 분류되는지 여부를 보여줍니다. [https://aka.ms/pnc](./microsoft-365-network-connectivity-principles.md)에서 이러한 범주 및 관리에 대한 지침을 읽을 수 있습니다. 이 열에서도 네트워크에 연결하는 데 필요한 끝점 집합을 나열합니다. 네트워크에 연결하는 데 필요하지 않은 끝점 집합의 경우, 이 필드에서 메모를 제공해 끝점 집합이 차단되면 어떤 기능을 사용할 수 없는지 표시해줍니다. 전체 서비스 영역을 제외하는 경우, 필요한 것으로 나열된 끝점 집합은 연결이 필요하지 않습니다.
 
-- **ER**: **끝점** 집합이 Office 365 경로 prefix를 사용하여 Azure ExpressRoute를 통해 지원되는 경우 예입니다. 표시된 경로 prefix가 포함된 BGP 커뮤니티는 나열된 서비스 영역에 맞춰 정렬됩니다. ER이 **아니요인** 경우 이는 ExpressRoute가 이 끝점 집합에 지원되지 않는다는 의미입니다. 그러나 ER이 아니요인 끝점 집합에 대해 보급되는 경로가 없다고 가정하면 **안 됩니다.** Azure AD Connect를 사용하려면 특수 [](/azure/active-directory/hybrid/reference-connect-instances#microsoft-azure-government) 고려 사항 섹션을 읽고 적절한 Azure AD Connect 구성을 하도록 합니다.
+- **ER**:  끝점 집합이 Azure ExpressRoute에서 지원되는 경우 예입니다Office 365. 표시된 경로 prefix가 포함된 BGP 커뮤니티는 나열된 서비스 영역에 맞춰 정렬됩니다. ER이 **아니요인** 경우 이는 ExpressRoute가 이 끝점 집합에 지원되지 않는다는 의미입니다. 그러나 ER이 아니요인 끝점 집합에 대해 보급되는 경로가 없다고 가정하면 **안 됩니다.** Azure AD 커넥트 사용하려면 특수 고려 사항 [](/azure/active-directory/hybrid/reference-connect-instances#microsoft-azure-government) 섹션을 읽고 적절한 Azure AD 구성을 커넥트 합니다.
 
 - **주소**: 끝점 집합의 FQDN 또는 와일드카드 도메인 이름 및 IP 주소 범위를 보여줍니다. IP 주소 범위가 CIDR 형식이며 특정 네트워크에서 여러 개의 개별 IP 주소를 포함할 수 있다는 점에 유의하시기 바랍니다.
  
@@ -61,6 +61,6 @@ Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점
 
 이 표에 대한 참고 사항
 
-- SCC(보안 및 준수 센터)는 Office 365용 Azure ExpressRoute를 제공합니다. 보고, 감사, 고급 eDiscovery, 통합 DLP 및 데이터 거버넌스와 같이 SCC를 통해 노출되는 많은 기능에도 동일하게 적용됩니다. PST Import 및 eDiscovery Export의 두 가지 특정 기능은 현재 Azure Blob Storage에 대한 종속성으로 인해 Office 365 경로 필터만 사용하여 Azure ExpressRoute를 지원하지 않습니다. 이러한 기능을 사용하려면 인터넷 연결 또는 Azure Public 경로 필터가 포함된 Azure ExpressRoute를 포함해 지원되는 모든 Azure 연결 옵션을 사용하여 Azure Blob Storage에 별도의 연결이 필요합니다. 이러한 두 기능에 대해 이러한 연결을 설정하는지 평가해야 합니다. Office 365 정보 보호 팀은 이러한 제한에 대해 알고 있으며, 이러한 두 기능에 대한 Office 365 경로 필터로 제한되어 Office 365용 Azure ExpressRoute에 대한 지원을 가져오기 위해 적극적으로 작업하고 있습니다.
+- SCC(보안 및 준수 센터)는 Azure ExpressRoute를 Office 365. 보고, 감사, Advanced eDiscovery, 통합 DLP 및 데이터 거버넌스와 같이 SCC를 통해 노출되는 많은 기능에도 동일하게 적용됩니다. PST Import 및 eDiscovery Export의 두 가지 특정 기능은 현재 Azure Blob 및 eDiscovery에 대한 종속성으로 인해 Office 365 경로 필터만 사용하여 Azure ExpressRoute를 지원하지 Storage. 이러한 기능을 사용하려면 인터넷 연결 또는 Azure 공용 경로 필터를 Storage Azure ExpressRoute를 사용하는 지원되는 Azure 연결 옵션을 사용하여 Azure Blob 2013에 별도의 연결이 필요합니다. 이러한 두 기능에 대해 이러한 연결을 설정하는지 평가해야 합니다. Office 365 Information Protection 팀은 이러한 제한에 대해 알고 있으며 이러한 두 기능에 대한 Office 365 경로 필터로 제한되는 Office 365 Office 365 Azure ExpressRoute에 대한 지원을 제공하기 위해 적극적으로 작업하고 있습니다.
 
-- 엔터프라이즈용 Microsoft 365 앱에 대한 추가 선택적 끝점이 있습니다. 이 끝점은 사용자가 엔터프라이즈용 Microsoft 365 앱을 시작하고 문서를 편집하는 데 필요하지 않습니다. 선택적 끝점은 Microsoft 데이터 센터에서 호스팅하며 고객 데이터를 처리, 전송 또는 저장하지 않습니다. 이러한 끝점에 대한 사용자 연결은 기본 인터넷 시작 경계로 연결하는 것이 좋습니다.
+- 목록에 없는 추가 선택적 엔터프라이즈용 Microsoft 365 앱 응용 프로그램을 시작하고 문서를 편집하는 데 필요하지 않은 추가 엔터프라이즈용 Microsoft 365 앱 끝점이 있습니다. 선택적 끝점은 Microsoft 데이터 센터에서 호스팅하며 고객 데이터를 처리, 전송 또는 저장하지 않습니다. 이러한 끝점에 대한 사용자 연결은 기본 인터넷 시작 경계로 연결하는 것이 좋습니다.

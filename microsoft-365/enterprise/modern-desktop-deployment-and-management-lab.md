@@ -1,5 +1,5 @@
 ---
-title: Windows 및 Office 배포 랩 키트
+title: Windows 10 및 Office 365 랩 키트
 f1.keywords:
 - NOCSH
 ms.author: greglin
@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: c0cf3ce239ed91261bd6e53cf317a7053168509a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: da51e0e3509ac2be60b9961dc2a0532d29f4f137
+ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060876"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52736351"
 ---
-# <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
+# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 및 Office 365 랩 키트
 
-Windows 및 Office 배포 랩 키트는 Windows 10 Enterprise 및 엔터프라이즈용 Microsoft 365 앱을 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 유효성 검사하는 데 도움이 하도록 디자인되어 있습니다. 키트의 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등 다양한 기능을 제공합니다.
+Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스크톱의 배포 및 관리를 계획, 테스트 및 유효성을 Windows 10 Enterprise 엔터프라이즈용 Microsoft 365 앱. 키트의 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, autopilot Windows 사용하는 방법을 다 사용합니다.
 
-이 키트는 Windows 10으로의 Windows 8.1 업그레이드를 준비하는 조직에 권장됩니다. 현재 Windows 10, 엔터프라이즈용 Microsoft 365 앱(이전 Office 365 ProPlus) 또는 Office 2019를 사용 중인 경우도 적용됩니다. 결과 랩은 격리된 환경으로 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 이상적입니다.
+이 키트는 조직에서 Windows 8.1 업그레이드를 준비하는 조직에 Windows 10. 또한 현재 2019년 Windows 10, 엔터프라이즈용 Microsoft 365 앱(Office 365 ProPlus) 또는 Office 적용됩니다. 결과 랩은 격리된 환경으로 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 이상적입니다.
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
@@ -34,9 +34,9 @@ Windows 및 Office 배포 랩 키트는 Windows 10 Enterprise 및 엔터프라�
 
 이 키트는 도메인에 가입된 데스크톱 클라이언트, 도메인 컨트롤러, 인터넷 게이트웨이 및 완전히 구성된 Configuration Manager 인스턴스를 포함하여 자동으로 프로비전된 가상 랩 환경을 제공합니다. 키트에는 다음 제품의 최신 평가 버전이 포함되어 있습니다.
 
-  - 새로운 기능! Windows 10 Enterprise, 버전 20H2
+  - 새로운 기능! Windows 10 Enterprise 버전 21H1
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager, 버전 2010*
+  - 새로운 기능! Microsoft Endpoint Configuration Manager 버전 2103*
   - Windows 10용 Windows 평가 및 배포 키트
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization(App-V)
@@ -47,7 +47,8 @@ Windows 및 Office 배포 랩 키트는 Windows 10 Enterprise 및 엔터프라�
 결과 랩은 다음에 대한 평가판에 연결하도록 디자인됩니다. 
 
   - Microsoft 365 E5
-  - EmS(Enterprise Mobility + Security)가 있는 Office 365 E5
+  - 엔터프라이즈용 Microsoft 365 앱
+  - Office 365 EMS(Enterprise Mobility + Security E5)
 
 ## <a name="step-by-step-labs"></a>단계별 랩
 
@@ -61,45 +62,46 @@ Windows 및 Office 배포 랩 키트는 Windows 10 Enterprise 및 엔터프라�
 
 ### <a name="prepare-configuration"></a>구성 준비   
 
-- Windows 10 업데이트 배달 최적화   
-- 그룹 정책을 사용하여 Windows 10 서비스
-- Microsoft Intune을 사용하여 Windows 10 서비스   
-- Configuration Manager를 통해 Windows 10 서비스   
-- Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 서비스   
-- Intune을 사용하여 엔터프라이즈용 Microsoft 365 앱 서비스  
+- 업데이트 Windows 10 최적화   
+- 그룹 정책을 Windows 10 서비스 서비스
+- 서비스 Windows 10 사용하여 Microsoft Intune   
+- Configuration Manager를 Windows 10 서비스   
+- Configuration Manager를 엔터프라이즈용 Microsoft 365 앱 서비스   
+- Intune을 엔터프라이즈용 Microsoft 365 앱 서비스  
 - 보안 및 규정 준수   
 
 ### <a name="prepare-applications"></a>응용 프로그램 준비    
 
-- Office용 Toolkit 준비  
+- 준비 Toolkit 준비 Office  
 - Win32 응용 프로그램의 MSIX 패키징 및 변환   
 
 ### <a name="deploy-windows-10"></a>Windows 10 배포   
 
 - Configuration Manager의 OS 배포 작업 순서
-- MDT(Microsoft Deployment Toolkit OS 배포 작업 순서)
+- MDT(Microsoft Deployment Toolkit)의 OS 배포 작업 순서
 - Windows Autopilot
-- 새 Microsoft Edge 배포 및 관리  
+- 새 배포 및 관리 Microsoft Edge  
 
 ### <a name="deploy-microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱 배포    
 
 - 클라우드 관리 배포  
 - 로컬 관리 배포    
-- AD에 가입되지 않은 장치에 엔터프라이즈용 Microsoft 365 앱 배포 
-- Configuration Manager를 사용하여 엔터프라이즈 관리 배포
-- Microsoft Intune을 사용하여 엔터프라이즈 관리 배포  
-- Microsoft Intune을 통해 LOB 배포 및 관리
-- Microsoft Teams 배포
+- 엔터프라이즈용 Microsoft 365 앱 AD에 가입되지 않은 장치에 배포 
+- Enterprise 사용하여 관리되는 배포 관리
+- Enterprise 사용하여 관리되는 배포를 Microsoft Intune  
+- LOB 배포 및 관리 Microsoft Intune
+- 배포 Microsoft Teams
 
-### <a name="deploy-windows-virtual-desktop"></a>Windows Virtual Desktop 배포  
+### <a name="deploy-windows-virtual-desktop"></a>가상 Windows 배포  
 
 - 준비, 배포, 최적화
  
-## <a name="where-to-find-the-windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트를 찾을 수 있는 위치
+## <a name="where-to-find-the-windows-10-and-office-365-deployment-lab-kit"></a>배포 Windows 10 Office 365 키트를 찾을 수 있는 위치
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-* 설치된 기준 버전 2002는 콘솔 내 업데이트를 사용하여 버전 2010으로 업데이트할 수 있습니다. 광대역대 인터넷 연결을 사용하여 이 콘텐츠를 다운로드하고 자동 프로비전을 위해 30-45분을 허용하세요. 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 메모리와 300GB의 사용 가능한 공간이 권장됩니다. 키트는 2021년 7월 22일 만료됩니다. 만료 전에 새 버전이 게시됩니다.
+> [!NOTE]
+> 광대역 인터넷 연결을 사용하여 이 콘텐츠를 다운로드하고 자동 프로비전을 위해 30-45분을 허용하세요. 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 메모리와 300GB의 사용 가능한 공간이 권장됩니다. 키트는 2021년 8월 23일 만료됩니다. 만료 전에 새 버전이 게시됩니다.
 
 ## <a name="additional-guidance"></a>추가 안내
 

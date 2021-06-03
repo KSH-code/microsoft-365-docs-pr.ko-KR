@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 ms.custom: seo-marvel-apr2020
-description: PST 파일을 가져올 때 Office 365 가져오기 서비스의 지능형 가져오기 기능을 사용하여 데이터를 필터링하는 Office 365.
-ms.openlocfilehash: fb978332f70495044a457147d29d8cdcf1194264
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+description: PST 파일을 가져올 때 Microsoft 365 가져오기 서비스의 지능형 가져오기 기능을 사용하여 데이터를 필터링하는 방법을 Microsoft 365.
+ms.openlocfilehash: fc89467e3ea9c0af86ec6b9ef6a9d7d61079e116
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684060"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730573"
 ---
 # <a name="filter-data-when-importing-pst-files"></a>PST 파일을 가져올 때 데이터 필터링
 
-Office 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 사용하여 실제로 대상 사서함으로 가져오는 PST 파일의 항목을 필터링합니다. 작동 방식은 다음과 같습니다.
+Microsoft 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 사용하여 실제로 대상 사서함으로 가져오는 PST 파일의 항목을 필터링합니다. 작동 방식은 다음과 같습니다.
   
 - PST 가져오기 작업을 만들고 제출하면 PST 파일이 Microsoft 클라우드의 Azure 저장소 영역에 업로드됩니다.
   
@@ -66,7 +66,7 @@ PST 가져오기 작업을 만든 후 다음 단계에 따라 데이터를 가�
   
 1. <https://compliance.microsoft.com>으로 이동한 후 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다.
     
-2. 규정 준수 센터의 왼쪽 Microsoft 365 정보 **거버넌스 가져오기 를** \> **클릭합니다.**
+2. Microsoft 365 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **가져오기** 를 클릭합니다.
     
     조직의 가져오기 작업이 가져오기 **탭에 나열됩니다.** 상태 **열의 분석** 완료 **값은** 사용자가 분석한 가져오기 Microsoft 365 가져오기 준비가 완료된 작업을 나타냅니다.
     

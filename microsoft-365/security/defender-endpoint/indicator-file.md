@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 103f5d0ad9d12a37f3a3b8065f39c24d592cc252
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 6d92cbacba72210c6accbbb1e5ecf25de660fc3c
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995060"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730537"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 지표 만들기
 
@@ -47,19 +47,19 @@ ms.locfileid: "51995060"
 
 파일에 대한 표시기를 만들기 전에 다음과 같은 선행 방법을 이해하는 것이 중요합니다.
 
-- 조직에서 **Microsoft Defender** 바이러스 백신(활성 모드)을 사용하며 클라우드 기반 보호가 활성화된 경우 이 **기능을 사용할 수 있습니다.** 자세한 내용은 클라우드 기반 보호 [관리를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+- 이 기능은 조직에서 활성  Microsoft Defender 바이러스 백신 클라우드 기반 보호를 사용하도록 설정된 경우 **사용할 수 있습니다.** 자세한 내용은 클라우드 기반 보호 [관리를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다. 월별 [플랫폼 및 엔진 버전 참조](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
 
-- Windows 10 버전 1703 이상, Windows Server 2016 및 2019가 있는 장치에서 지원됩니다.
+- 2019년 Windows 10 버전 1703 이상, Windows Server 2016 장치에서 지원됩니다.
 
-- 파일 차단을 시작하려면 먼저 설정에서 "차단 또는 [허용"](advanced-features.md) 기능을 켜야 합니다.
+- 파일 차단을 시작하려면 먼저 파일 차단에서 "차단 또는 [허용"](advanced-features.md) 기능을 켜야 설정.
 
-이 기능은 의심되는 맬웨어(또는 악성 파일)가 웹에서 다운로드되지 않도록 디자인되었습니다. 현재 .exe 및 .dll 파일을 비롯한 PE(이식 가능한 실행 파일) 파일을 지원하고 있습니다. 적용 범위는 시간이 지날 때 연장됩니다.
+이 기능은 의심되는 맬웨어(또는 악성 파일)가 웹에서 다운로드되지 않도록 디자인되었습니다. 현재 이식 가능한 PE(실행 파일) 파일(예: 파일 및 .exe 포함).dll 지원됩니다. 적용 범위는 시간이 지날 때 연장됩니다.
 
 ## <a name="create-an-indicator-for-files-from-the-settings-page"></a>설정 페이지에서 파일에 대한 표시기 만들기
 
-1. 탐색 창에서 설정 > **선택합니다.**
+1. 탐색 창에서 **표시기 설정 > 선택합니다.**
 
 2. 파일 **해시 탭을**   선택합니다.
 
@@ -91,11 +91,11 @@ Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 
 - 응용 프로그램 제어 및 AppLocker에서 모드 정책/정책을 Windows Defender 파일을 허용하지 않는 경우 **차단**
 
-- 그 외의 경우 파일이 Defender 바이러스 백신 제외에서 허용된 경우 허용 
+- 그 외 제외에서 파일을 Microsoft Defender 바이러스 백신 다음 **허용**
 
 - 그렇지 않은 경우 파일이 차단되거나 파일 IoC에 의해 경고된 경우 **차단/경고**
 
-- 파일 허용 IOC 정책에 의해 파일이 허용되는  경우 허용
+- 파일을 허용 파일 IoC 정책에서 허용하는 경우  허용
 
 - 다른 경우 파일이 ASR 규칙, CFA, AV, SmartScreen, Block에 의해 **차단된 경우**  
 
@@ -103,7 +103,7 @@ Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 
 적용 유형과 대상이 동일한 충돌하는 파일 IoC 정책이 있는 경우 더 안전한(더 긴) 해시 정책이 적용됩니다. 예를 들어 두 해시 유형이 동일한 파일을 정의하는 경우 SHA-256 파일 해시 IoC 정책이 MD5 파일 해시 IoC 정책에서 이기게 됩니다.
 
-위협 및 취약성 관리의 취약한 응용 프로그램 기능은 적용을 위해 IoC 파일을 사용하며 위의 충돌 처리 순서를 따르게 됩니다.
+취약한 위협 및 취약성 관리 차단 기능은 적용을 위해 IoC 파일을 사용하며 위의 충돌 처리 순서를 따르게 됩니다.
 
 ### <a name="examples"></a>예제
 

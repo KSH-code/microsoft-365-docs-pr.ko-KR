@@ -1,5 +1,5 @@
 ---
-title: Microsoft 규정 준수 확장 시작(미리 보기)
+title: Microsoft 규정 준수 확장 시작
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 준비하고 배포합니다.
-ms.openlocfilehash: 6ae44a86d415161cd3d7adf40671f02d93fb83c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 084d8fea1bffb012b4a4685dd28ec93df8e29b19
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113866"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730513"
 ---
-# <a name="get-started-with-microsoft-compliance-extension-preview"></a>Microsoft 규정 준수 확장 시작(미리 보기)
+# <a name="get-started-with-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장 시작하기
 
 이 절차를 사용하여 Microsoft 규정 준수 확장을 배포합니다.
 
@@ -261,9 +261,8 @@ Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용�
 
 ### <a name="known-issues-and-limitations"></a>알려진 문제점 및 제한 사항
 
-1. 폴더 업로드에 대한 끌어서 놓기 실행은 지원되지 않습니다.
-2. 클라우드 송신에 대한 오버라이드 실행은 지원되지 않습니다.
-3. Incognito 모드는 지원되지 않으며 사용하지 않도록 설정해야 합니다.
+1. 클라우드 송신에 대한 오버라이드 실행은 지원되지 않습니다.
+2. Incognito 모드는 지원되지 않으며 사용하지 않도록 설정해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 이제 온보딩된 장치가 있고 활동 탐색기에서 활동 데이터를 볼 수 있으므로 중요한 항목을 보호하는 DLP 정책을 만드는 다음 단계를 진행할 준비가 되었습니다.

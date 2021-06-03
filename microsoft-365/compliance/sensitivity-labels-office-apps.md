@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dd3f1e7329612755a1806b5d9af8e13f07790cd6
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: a7ac7415ce5e7f88b21128846b7cff957e388fd5
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625128"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730381"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -387,54 +387,24 @@ ${If.App.<application type>}<your visual markings text> ${If.End}
 
 ## <a name="outlook-specific-options-for-default-label-and-mandatory-labeling"></a>기본 레이블 및 필수 레이블에 대한 Outlook 관련 옵션
 
-기본 레이블 지정의 경우 이 페이지의 [Outlook 에 대한 기능 테이블](#sensitivity-label-capabilities-in-outlook)과 **기본 레이블 및 필수 레이블 지정** 행의 다른 설정을 사용하여 이러한 기능을 지원하는 최소 버전의 Outlook을 식별합니다.
+기본 레이블 지정의 경우 이 페이지의 [Outlook 에 대한 기능 테이블](#sensitivity-label-capabilities-in-outlook)과 **기본 레이블 및 필수 레이블 지정** 행의 다른 설정을 사용하여 이러한 기능을 지원하는 최소 버전의 Outlook을 식별합니다. 모든 버전의 Azure Information Protection 통합 레이블 지정 클라이언트는 이러한 Outlook 관련 옵션을 지원합니다.
 
-기본적으로 **레이블 정책 설정을 문서 및 전자 메일에 기본적으로 적용** 하고 **사용자가 전자 메일 또는 문서에 레이블을 적용해야 함** 을 선택하면 구성 선택 사항이 문서와 전자 메일에 적용됩니다.
+Outlook 앱이 문서의 기본 레이블 설정과 다른 기본 레이블 설정을 지원하는 경우:
 
-전자 메일에 다른 설정을 적용하려면 PowerShell 고급 설정을 사용합니다.
+- 레이블 정책 마법사의 **전자 메일에 기본 레이블 적용** 페이지에서 레이블이 지정되지 않은 모든 전자 메일에 적용될 민감도 레이블을 선택하여 지정하거나 기본 레이블을 선택하지 않을 수 있습니다. 이 설정은 마법사의 이전 **문서에 대한 정책 설정** 페이지의 문서에 대한 **기본적으로 이 레이블 적용** 설정과는 별개입니다.
 
-- **OutlookDefaultLabel**: Outlook에서 다른 기본 레이블을 적용하거나 레이블이 없는 경우 이 설정을 사용합니다.
+Outlook 앱이 문서의 기본 레이블 설정과 다른 기본 레이블 설정을 지원하지 않는 경우: Outlook은 레이블 정책 마법사의 **문서에 대한 정책 설정** 페이지에서 **문서에 기본적으로 이 레이블 적용** 에 대해 지정한 값을 항상 사용합니다.
 
-- **DisableMandatoryInOutlook** 사용 안 함: 사용자에게 레이블이 지정되지 않은 전자 메일 메시지의 레이블을 선택하라는 메시지를 표시하지 않으려면 이 설정을 사용합니다.
+Outlook 앱에서 필수 레이블 지정 해제를 지원하는 경우:
 
-PowerShell을 사용하여 이러한 설정을 구성하는 방법에 대한 자세한 내용은 다음 섹션을 참조하세요.
+- 레이블 정책 마법사의 **정책 설정** 페이지에서 **사용자가 이메일 또는 문서에 레이블을 적용하도록 요구** 를 선택합니다. 그리고 나서 **다음** > **다음** 을 선택하고 **사용자가 이메일에 레이블을 적용하도록 요구** 확인란을 선택 취소합니다. 필수 레이블을 이메일과 문서에 적용하려면 확인란을 선택한 상태로 유지하세요.
 
-### <a name="powershell-advanced-settings-outlookdefaultlabel-and-disablemandatoryinoutlook"></a>PowerShell 고급 설정 OutlookDefaultLabel 및 DisableMandemandInOutlook
+Outlook 앱에서 필수 레이블 지정 해제를 지원하지 않는 경우: 정책 설정으로 **사용자에게 이메일 또는 문서에 레이블을 적용하도록 요구** 를 선택하면 Outlook은 항상 사용자에게 레이블이 지정되지 않은 전자 메일의 레이블을 선택하라는 메시지를 표시합니다.
 
-이러한 설정은 *고급 설정* 매개 변수와 [보안 및 준수 센터r PowerShell](/powershell/exchange/scc-powershell)의 [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) 및 [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy) cmdlet을 사용하여 지원됩니다. 이전에는 Azure Information Protection 통합 레이블 지정 클라이언트에서만 지원되던 이 두 가지 고급 설정이 이제 기본 레이블 지정에 대해 지원됩니다.
-
-레이블 정책의 이름이 **전체** 인 PowerShell 예:
-
-- Outlook을 기본 레이블에서 제외하려면:
-    
-    ````powershell
-    Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel="None"}
-    ````
-
-- Outlook을 필수 레이블에서 제외하려면:
-    
-    ````powershell
-    Set-LabelPolicy -Identity Global -AdvancedSettings @{DisableMandatoryInOutlook="True"}
-    ````
-
-현재 OutlookDefaultLabel 및 DisableMandomatoryInOutlook은 기본 제공 레이블과 Azure Information Protection 클라이언트 모두에 대해 지원되는 유일한 PowerShell 고급 설정입니다.
-
-다른 PowerShell 고급 설정은 Azure Information Protection 클라이언트에서만 지원됩니다. Azure Information Protection 클라이언트에 대한 고급 설정 사용에 대한 자세한 내용은 [ 관리 가이드: Azure Information Protection 통합 레이블 지정 클라이언트 ](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#configuring-advanced-settings-for-the-client-via-powershell)에 대한 사용자 지정 구성을 참조하세요.
-
-#### <a name="powershell-tips-for-specifying-the-advanced-settings"></a>고급 설정을 지정하는 PowerShell 팁
-
-Outlook에 다른 기본 레이블을 지정하기 위해 해당 GUID로 레이블을 식별합니다. 이 값을 찾기 위해 다음 명령을 사용할 수 있나요?
-
-````powershell
-Get-Label | Format-Table -Property DisplayName, Name, Guid
-````
-
-레이블 정책에서 이러한 고급 설정 중 하나를 제거하려면 동일한 고급 설정 매개 변수 구문을 사용하되 null 문자열 값을 지정합니다. 예를 들면 다음과 같습니다.
-
-````powershell
-Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel=""}
-````
-
+> [!NOTE]
+> [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) 또는 [New-LabelPolicy cmdlet](/powershell/module/exchange/new-labelpolicy)을 사용하여 PowerShell 고급 설정 **OutlookDefaultLabel** 및 **DisableMandatoryInOutlook** 을 구성한 경우:
+> 
+> 이러한 PowerShell 설정에 대해 선택한 값은 레이블 정책 마법사에 반영되며 이러한 설정을 지원하는 Outlook 앱에서 자동으로 작동합니다. 다른 PowerShell 고급 설정은 Azure Information Protection 통합 레이블 지정 클라이언트에서만 지원됩니다.
 
 ## <a name="end-user-documentation"></a>최종 사용자 설명서
 

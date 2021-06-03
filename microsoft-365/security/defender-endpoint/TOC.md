@@ -593,11 +593,6 @@
 ###### [PowerShell을 사용하는 지능형 헌팅](run-advanced-query-sample-powershell.md)
 ###### [OData 쿼리 사용](exposed-apis-odata-samples.md)
 
-#### [원시 데이터 스트리밍 API]()
-##### [원시 데이터 스트리밍](raw-data-export.md)
-##### [Azure 이벤트 허브에 지능형 헌팅 이벤트 스트리밍](raw-data-export-event-hub.md)
-##### [저장소 계정에 지능형 헌팅 이벤트 스트리밍](raw-data-export-storage.md)
-
 #### [SIEM 통합]()
 ##### [위협 인텔리전스 개념 이해](threat-indicator-concepts.md)
 ##### [검색 결과를 끌어오는 다양한 방법에 대해 자세히 알아보기](configure-siem.md)

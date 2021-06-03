@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop 사용
-description: ''
+description: "\"작업 중\" 섹션의 방문 페이지"
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,19 +9,19 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 55f8040f2533e60d1ff696845baa195983667859
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: f950943d63c7c67a6b4a364e75b4c91b461b7f73
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289438"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729983"
 ---
 # <a name="working-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop 사용
 
 이 섹션에는 IT 관리자가 필요한 경우에 지원을 받는 방법, 사용자가 지원을 받는 방법, 앱을 배포한 후에 관리하는 방법 및 장치에서 사용자 지정할 수 있는 설정 작업을 수행하는 방법 등 서비스와 일상 생활에 대한 정보가 포함됩니다.
 
 
-- [인사이트를 활용한 작업](insights.md)
+
 - [Microsoft Managed Desktop의 관리자 지원](admin-support.md)
 - [사용자를 위한 도움말](end-user-support.md)
 - [Microsoft Managed Desktop에서 업무용 앱 관리](manage-apps.md)

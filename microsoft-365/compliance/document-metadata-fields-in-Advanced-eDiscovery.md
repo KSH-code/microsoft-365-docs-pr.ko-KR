@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 문서의 검토 집합에 있는 문서에 대한 메타데이터 필드를 Advanced eDiscovery Microsoft 365.
-ms.openlocfilehash: 77df40f4922718a7ed30431b0c1bd91f5c075425
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7b8628973a8b07a3cd31e2b42df28c181e77e288
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244603"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730501"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Advanced eDiscovery의 문서 메타데이터 필드
 
@@ -50,7 +50,7 @@ ms.locfileid: "52244603"
 |콘텐츠*|콘텐츠||항목의 추출된 텍스트입니다.|
 |Conversation Body|Conversation Body||항목의 대화 본문입니다.|
 |대화 항목|대화 항목||항목의 대화 항목입니다.|
-|대화 ID|ConversationId|Email_conversation_ID|메시지의 대화 ID입니다.|
+|대화 ID|ConversationId|Conversation_ID|메시지의 대화 ID입니다.|
 |대화 인덱스||Conversation_index|메시지의 대화 인덱스입니다.|
 |대화 Pdf 시간|ConversationPdfTime||PDF 버전의 대화가 만들어진 날짜입니다.|
 |대화 재배포 굽기 시간|ConversationRedactionBurnTime||채팅을 위해 대화의 PDF 버전을 만든 날짜입니다.|
@@ -73,12 +73,12 @@ ms.locfileid: "52244603"
 |주 테마|DominantTheme|Dominant_theme|분석에 대해 계산된 주 테마입니다.|
 |중복 하위 집합||Duplicate_subset|정확한 중복 항목의 그룹 ID입니다.|
 |EmailAction*||Email_action|값은 **None,** **Reply** 또는 **Forward입니다.** 메시지의 제목 줄을 기반으로 합니다.|
-|전자 메일 배달 확인 요청||Email_delivery_receipt_requested|배달 확인을 위해 인터넷 헤더에 제공된 전자 메일 주소입니다.|
+|전자 메일 배달 확인 요청||Email_delivery_receipt|배달 확인을 위해 인터넷 헤더에 제공된 전자 메일 주소입니다.|
 |Importance|EmailImportance|Email_importance|메시지의 중요도: **0** - 낮음 **1** - 보통; **2** - 높음|
 |EmailInternetHeaders|EmailInternetHeaders|Email_internet_headers|전자 메일 메시지의 전체 전자 메일 헤더 집합|
 |EmailLevel*||Email_level|메시지가 속한 전자 메일 스레드 내의 메시지 수준을 나타냅니다. 첨부 파일은 부모 메시지의 값을 상속합니다.|
 |전자 메일 메시지 ID||Email_message_ID|메시지의 인터넷 메시지 ID입니다.|
-|EmailReadReceiptRequested||Email_read_receipt_requested|읽은 확인을 위해 인터넷 헤더에 제공된 전자 메일 주소입니다.|
+|EmailReadReceiptRequested||Email_read_receipt|읽은 확인을 위해 인터넷 헤더에 제공된 전자 메일 주소입니다.|
 |전자 메일 보안|EmailSecurity|Email_security|메시지의 보안 설정: **0** - 없음; **1** - 서명된; **2** - 암호화 **3** - 암호화되고 서명된 경우.|
 |전자 메일 민감도|EmailSensitivity|email_sensitivity|메시지의 민감도 설정: **0** - 없음; **1** 개인; **2** - 비공개; **3** - CompanyConfidential.|
 |전자 메일 집합|EmailSet|Email_set|동일한 전자 메일 집합의 모든 메시지에 대한 그룹 ID입니다.|
@@ -119,7 +119,7 @@ ms.locfileid: "52244603"
 |모임 종료 날짜|MeetingEndDate|Meeting_end_date|모임의 모임 종료 날짜입니다.|
 |모임 시작 날짜|MeetingStartDate|Meeting_start_date|모임의 모임 시작 날짜입니다.|
 |메시지 종류|MessageKind|Message_kind|검색할 메시지 유형입니다. 가능한 **<br /> <br /> 값: 연락처 <br /> docs 전자 메일 <br /> <br /> externaldata <br /> 팩스 <br /> im <br /> 저널스 <br /> 모임 <br /> microsoftteams(Microsoft Teams에서** 채팅, 모임 및 통화의 항목 반환) 메모 게시물 **<br /> <br /> <br /> rssfeeds <br /> 작업 음성 <br /> 메일**| 
-|ModernAttachment_ParentId||ModernAttachment_ParentId||
+|최신 첨부 파일 부모 ID||ModernAttachment_ParentId|문서 부모의 변경 불가능 ID입니다.|
 |Native Extension|NativeExtension|Native_extension|항목의 기본 확장명입니다.|
 |기본 파일 이름|NativeFileName|Native_file_name|항목의 기본 파일 이름입니다.|
 |NativeMD5||Native_MD5|파일 스트림의 MD5 해시(128비트 해시 값)|
@@ -131,7 +131,7 @@ ms.locfileid: "52244603"
 |O365 만든 날짜||O365_date_created|만든 날짜를 SharePoint.|
 |O365 날짜 수정||O365_date_modified|마지막 수정 날짜(SharePoint.|
 |O365에 의해 수정||O365_modified_by|에서 수정한 SharePoint.|
-|상위 ID|ParentId|Container_ID|항목의 부모 ID입니다.|
+|상위 ID|ParentId|Parent_ID|항목의 부모 ID입니다.|
 |ParentNode||Parent_node|전자 메일 스레드에서 가장 앞의 전자 메일 메시지입니다.|
 |참가자 도메인|ParticipantDomains|Email_participant_domains|메시지 참가자의 모든 도메인 목록입니다.|
 |참가자|참가자|Email_participants|메시지의 모든 참가자 목록 예를 들어 Sender, To, Cc, Bcc와 같습니다.|
@@ -164,6 +164,7 @@ ms.locfileid: "52244603"
 |제목|제목|Doc_title|문서 메타데이터의 제목입니다.|
 |받는 사람|받는 사람|Email_to|To 메시지 유형에 대한 필드입니다. Format은 **DisplayName입니다. \<SmtpAddress>**|
 |전자 메일 집합의 고유|UniqueInEmailSet||**False이면** 첨부 파일이 전자 메일 집합에 중복되어 있습니다.|
+|버전 그룹 ID||Version_Group_Id|동일한 문서의 서로 다른 버전을 그룹화합니다.|
 |수정된 경우|WasRemediated|Was_Remediated|**True이면** 항목이 수정된 것입니다. 그렇지 않으면 **False입니다.**|
 |단어 개수|WordCount|Word_count|항목의 단어 수입니다.|
 |||||
