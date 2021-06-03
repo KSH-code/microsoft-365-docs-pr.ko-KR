@@ -16,163 +16,163 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 22ff42cb399b3d07c0ebd8ec4f947352eb6f44aa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9b7699b1a24e7e1d74a48389d02518e814911ecc
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934768"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730873"
 ---
-# <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a><span data-ttu-id="f51c8-104">엔드포인트용 Microsoft Defender(Linux) 업데이트 예약</span><span class="sxs-lookup"><span data-stu-id="f51c8-104">Schedule an update of the Microsoft Defender for Endpoint (Linux)</span></span>
+# <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a><span data-ttu-id="12a0f-104">엔드포인트용 Microsoft Defender(Linux) 업데이트 예약</span><span class="sxs-lookup"><span data-stu-id="12a0f-104">Schedule an update of the Microsoft Defender for Endpoint (Linux)</span></span>
 
-<span data-ttu-id="f51c8-105">Linux의 끝점용 Microsoft Defender에서 업데이트를 실행하기 위해 Linux에서 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-updates)</span><span class="sxs-lookup"><span data-stu-id="f51c8-105">To run an update on Microsoft Defender for Endpoint on Linux, see [Deploy updates for Microsoft Defender for Endpoint on Linux](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-updates).</span></span>
+<span data-ttu-id="12a0f-105">Linux의 끝점용 Microsoft Defender에서 업데이트를 실행하기 위해 Linux에서 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](/microsoft-365/security/defender-endpoint/linux-updates)</span><span class="sxs-lookup"><span data-stu-id="12a0f-105">To run an update on Microsoft Defender for Endpoint on Linux, see [Deploy updates for Microsoft Defender for Endpoint on Linux](/microsoft-365/security/defender-endpoint/linux-updates).</span></span>
 
-<span data-ttu-id="f51c8-106">Linux(및 Unix)에는 예약된 작업을 실행할 수 있는 **크로ntab(작업** 스케줄러와 유사)라는 도구가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-106">Linux (and Unix) have a tool called **crontab** (similar to Task Scheduler) to be able to run scheduled tasks.</span></span>
+<span data-ttu-id="12a0f-106">Linux(및 Unix)에는 예약된 작업을 실행할 수 있는 **크로ntab(작업** 스케줄러와 유사)라는 도구가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-106">Linux (and Unix) have a tool called **crontab** (similar to Task Scheduler) to be able to run scheduled tasks.</span></span>
 
-## <a name="pre-requisite"></a><span data-ttu-id="f51c8-107">필수 조건</span><span class="sxs-lookup"><span data-stu-id="f51c8-107">Pre-requisite</span></span>
+## <a name="pre-requisite"></a><span data-ttu-id="12a0f-107">필수 조건</span><span class="sxs-lookup"><span data-stu-id="12a0f-107">Pre-requisite</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f51c8-108">모든 표준 시간대 목록을 얻습니다. 다음 명령을 실행합니다. `timedatectl list-timezones`</span><span class="sxs-lookup"><span data-stu-id="f51c8-108">To get a list of all the time zones, run the following command: `timedatectl list-timezones`</span></span><br>
-> <span data-ttu-id="f51c8-109">타임존의 예:</span><span class="sxs-lookup"><span data-stu-id="f51c8-109">Examples for timezones:</span></span> <br>
+> <span data-ttu-id="12a0f-108">모든 표준 시간대 목록을 얻습니다. 다음 명령을 실행합니다. `timedatectl list-timezones`</span><span class="sxs-lookup"><span data-stu-id="12a0f-108">To get a list of all the time zones, run the following command: `timedatectl list-timezones`</span></span><br>
+> <span data-ttu-id="12a0f-109">타임존의 예:</span><span class="sxs-lookup"><span data-stu-id="12a0f-109">Examples for timezones:</span></span> <br>
 > - `America/Los_Angeles`
 > - `America/New_York`
 > - `America/Chicago`
 > - `America/Denver`
 
-## <a name="to-set-the-cron-job"></a><span data-ttu-id="f51c8-110">Cron 작업을 설정하는 경우</span><span class="sxs-lookup"><span data-stu-id="f51c8-110">To set the Cron job</span></span>
-<span data-ttu-id="f51c8-111">다음 명령을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-111">Use the following commands:</span></span>
+## <a name="to-set-the-cron-job"></a><span data-ttu-id="12a0f-110">Cron 작업을 설정하는 경우</span><span class="sxs-lookup"><span data-stu-id="12a0f-110">To set the Cron job</span></span>
+<span data-ttu-id="12a0f-111">다음 명령을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-111">Use the following commands:</span></span>
 
-<span data-ttu-id="f51c8-112">**크로ntab 항목을 백업하는 경우**</span><span class="sxs-lookup"><span data-stu-id="f51c8-112">**To backup crontab entries**</span></span>
+<span data-ttu-id="12a0f-112">**크로ntab 항목을 백업하는 경우**</span><span class="sxs-lookup"><span data-stu-id="12a0f-112">**To backup crontab entries**</span></span>
 
 `sudo crontab -l > /var/tmp/cron_backup_201118.dat`
 
 > [!NOTE]
-> <span data-ttu-id="f51c8-113">여기서 201118 == YYMMDD</span><span class="sxs-lookup"><span data-stu-id="f51c8-113">Where 201118 == YYMMDD</span></span>
+> <span data-ttu-id="12a0f-113">여기서 201118 == YYMMDD</span><span class="sxs-lookup"><span data-stu-id="12a0f-113">Where 201118 == YYMMDD</span></span>
 
 > [!TIP]
-> <span data-ttu-id="f51c8-114">편집하거나 제거하기 전에 이 작업을 합니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-114">Do this before you edit or remove.</span></span> <br>
+> <span data-ttu-id="12a0f-114">편집하거나 제거하기 전에 이 작업을 합니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-114">Do this before you edit or remove.</span></span> <br>
 
-<span data-ttu-id="f51c8-115">크로ntab를 편집하고 루트 사용자로 새 작업을 추가하려면</span><span class="sxs-lookup"><span data-stu-id="f51c8-115">To edit the crontab, and add a new job as a root user:</span></span> <br>
+<span data-ttu-id="12a0f-115">크로ntab를 편집하고 루트 사용자로 새 작업을 추가하려면</span><span class="sxs-lookup"><span data-stu-id="12a0f-115">To edit the crontab, and add a new job as a root user:</span></span> <br>
 `sudo crontab -e`
 
 > [!NOTE]
-> <span data-ttu-id="f51c8-116">기본 편집기는 VIM입니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-116">The default editor is VIM.</span></span>
+> <span data-ttu-id="12a0f-116">기본 편집기는 VIM입니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-116">The default editor is VIM.</span></span>
 
-<span data-ttu-id="f51c8-117">다음이 표시될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-117">You might see:</span></span>
+<span data-ttu-id="12a0f-117">다음이 표시될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-117">You might see:</span></span>
 
-<span data-ttu-id="f51c8-118">0\*\*\*\*/etc/opt/microsoft/mdatp/logrorate.sh</span><span class="sxs-lookup"><span data-stu-id="f51c8-118">0\*\*\*\*/etc/opt/microsoft/mdatp/logrorate.sh</span></span>
+<span data-ttu-id="12a0f-118">0\*\*\*\*/etc/opt/microsoft/mdatp/logrorate.sh</span><span class="sxs-lookup"><span data-stu-id="12a0f-118">0\*\*\*\*/etc/opt/microsoft/mdatp/logrorate.sh</span></span>
 
-<span data-ttu-id="f51c8-119">및</span><span class="sxs-lookup"><span data-stu-id="f51c8-119">And</span></span>
+<span data-ttu-id="12a0f-119">및</span><span class="sxs-lookup"><span data-stu-id="12a0f-119">And</span></span>
 
-<span data-ttu-id="f51c8-120">02\*\*sat /bin/mdatp scan quick>~/mdatp_cron_job.log</span><span class="sxs-lookup"><span data-stu-id="f51c8-120">02\*\*sat /bin/mdatp scan quick>~/mdatp_cron_job.log</span></span>
+<span data-ttu-id="12a0f-120">02\*\*sat /bin/mdatp scan quick>~/mdatp_cron_job.log</span><span class="sxs-lookup"><span data-stu-id="12a0f-120">02\*\*sat /bin/mdatp scan quick>~/mdatp_cron_job.log</span></span>
 
-<span data-ttu-id="f51c8-121">끝점에 대한 [Microsoft Defender 검사 예약(Linux) 참조](linux-schedule-scan-atp.md)</span><span class="sxs-lookup"><span data-stu-id="f51c8-121">See [Schedule scans with Microsoft Defender for Endpoint (Linux)](linux-schedule-scan-atp.md)</span></span>
+<span data-ttu-id="12a0f-121">끝점에 대한 [Microsoft Defender 검사 예약(Linux) 참조](linux-schedule-scan-atp.md)</span><span class="sxs-lookup"><span data-stu-id="12a0f-121">See [Schedule scans with Microsoft Defender for Endpoint (Linux)](linux-schedule-scan-atp.md)</span></span>
 
-<span data-ttu-id="f51c8-122">"Insert" 누르기</span><span class="sxs-lookup"><span data-stu-id="f51c8-122">Press “Insert”</span></span>
+<span data-ttu-id="12a0f-122">"Insert" 누르기</span><span class="sxs-lookup"><span data-stu-id="12a0f-122">Press “Insert”</span></span>
 
-<span data-ttu-id="f51c8-123">다음 항목을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-123">Add the following entries:</span></span>
+<span data-ttu-id="12a0f-123">다음 항목을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-123">Add the following entries:</span></span>
 
-<span data-ttu-id="f51c8-124">CRON_TZ=America/Los_Angeles</span><span class="sxs-lookup"><span data-stu-id="f51c8-124">CRON_TZ=America/Los_Angeles</span></span>
+<span data-ttu-id="12a0f-124">CRON_TZ=America/Los_Angeles</span><span class="sxs-lookup"><span data-stu-id="12a0f-124">CRON_TZ=America/Los_Angeles</span></span>
 
-> #<a name="rhel-and-variants-centos-and-oracle-linux"></a><span data-ttu-id="f51c8-125">! RHEL 및 변형(CentOS 및 Oracle Linux)</span><span class="sxs-lookup"><span data-stu-id="f51c8-125">!RHEL and variants (CentOS and Oracle Linux)</span></span>
+> #<a name="rhel-and-variants-centos-and-oracle-linux"></a><span data-ttu-id="12a0f-125">! RHEL 및 변형(CentOS 및 Oracle Linux)</span><span class="sxs-lookup"><span data-stu-id="12a0f-125">!RHEL and variants (CentOS and Oracle Linux)</span></span>
 
 `06**sun[$(date +\%d) -le 15] sudo yum update mdatp>>~/mdatp_cron_job.log`
 
-> #<a name="sles-and-variants"></a><span data-ttu-id="f51c8-126">! SLES 및 변형</span><span class="sxs-lookup"><span data-stu-id="f51c8-126">!SLES and variants</span></span>
+> #<a name="sles-and-variants"></a><span data-ttu-id="12a0f-126">! SLES 및 변형</span><span class="sxs-lookup"><span data-stu-id="12a0f-126">!SLES and variants</span></span>
 
 `06**sun[$(date +\%d) -le 15] sudo zypper update mdatp>>~/mdatp_cron_job.log`
 
-> #<a name="ubuntu-and-debian-systems"></a><span data-ttu-id="f51c8-127">! Ubuntu 및 데비안 시스템</span><span class="sxs-lookup"><span data-stu-id="f51c8-127">!Ubuntu and Debian systems</span></span>
+> #<a name="ubuntu-and-debian-systems"></a><span data-ttu-id="12a0f-127">! Ubuntu 및 데비안 시스템</span><span class="sxs-lookup"><span data-stu-id="12a0f-127">!Ubuntu and Debian systems</span></span>
 
-`06**sun [$(date +\%d) -le 15] sudo apt-get install --only-upgrade mdatp>>~/mdatp_cron_job.log`
-
-> [!NOTE]
-> <span data-ttu-id="f51c8-128">위의 예제에서는 일요일, 모든 월의 하루를 00분, 오후 6시(24시간 형식의 시간)로 설정하고 있습니다. [$(date + \% d) -le 15] == 15일(3주)보다 작거나 같지 않으면 실행되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-128">In the examples above, we are setting it to 00 minutes, 6 a.m.(hour in 24 hour format), any day of the month, any month, on Sundays.[$(date +\%d) -le 15] == Won’t run unless it’s equal or less than the 15th day (3rd week).</span></span> <span data-ttu-id="f51c8-129">즉, 이 매월 3일 일요일(7)은 매일 아침 6시에 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-129">Meaning it will run every 3rd Sundays(7) of the month at 6:00 a.m.</span></span> <span data-ttu-id="f51c8-130">태평양(UTC -8).</span><span class="sxs-lookup"><span data-stu-id="f51c8-130">Pacific (UTC -8).</span></span>
-
-<span data-ttu-id="f51c8-131">"Esc" 누르기</span><span class="sxs-lookup"><span data-stu-id="f51c8-131">Press “Esc”</span></span>
-
-<span data-ttu-id="f51c8-132">":wq"를 이중 따옴표로 w/o 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-132">Type “:wq” w/o the double quotes.</span></span>
+`0 6 * * sun [$(date +\%d) -le 15] sudo apt-get install --only-upgrade mdatp>>~/mdatp_cron_job.log`
 
 > [!NOTE]
-> <span data-ttu-id="f51c8-133">w == write, q == quit</span><span class="sxs-lookup"><span data-stu-id="f51c8-133">w == write, q == quit</span></span>
+> <span data-ttu-id="12a0f-128">위의 예제에서는 일요일, 모든 월의 하루를 00분, 오후 6시(24시간 형식의 시간)로 설정하고 있습니다. [$(date + \% d) -le 15] == 15일(3주)보다 작거나 같지 않으면 실행되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-128">In the examples above, we are setting it to 00 minutes, 6 a.m.(hour in 24 hour format), any day of the month, any month, on Sundays.[$(date +\%d) -le 15] == Won’t run unless it’s equal or less than the 15th day (3rd week).</span></span> <span data-ttu-id="12a0f-129">즉, 이 매월 3일 일요일(7)은 매일 아침 6시에 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-129">Meaning it will run every 3rd Sundays(7) of the month at 6:00 a.m.</span></span> <span data-ttu-id="12a0f-130">태평양(UTC -8).</span><span class="sxs-lookup"><span data-stu-id="12a0f-130">Pacific (UTC -8).</span></span>
 
-<span data-ttu-id="f51c8-134">크로인 작업을 보시고 입력합니다. `sudo crontab -l`</span><span class="sxs-lookup"><span data-stu-id="f51c8-134">To view your cron jobs, type `sudo crontab -l`</span></span>
+<span data-ttu-id="12a0f-131">"Esc" 누르기</span><span class="sxs-lookup"><span data-stu-id="12a0f-131">Press “Esc”</span></span>
+
+<span data-ttu-id="12a0f-132">":wq"를 이중 따옴표로 w/o 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-132">Type “:wq” w/o the double quotes.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="12a0f-133">w == write, q == quit</span><span class="sxs-lookup"><span data-stu-id="12a0f-133">w == write, q == quit</span></span>
+
+<span data-ttu-id="12a0f-134">크로인 작업을 보시고 입력합니다. `sudo crontab -l`</span><span class="sxs-lookup"><span data-stu-id="12a0f-134">To view your cron jobs, type `sudo crontab -l`</span></span>
 
 :::image type="content" source="images/update-MDE-linux-4634577.jpg" alt-text="MDE linux 업데이트":::
 
-<span data-ttu-id="f51c8-136">크론 작업을 검사하기 위해 실행됩니다. `sudo grep mdatp /var/log/cron`</span><span class="sxs-lookup"><span data-stu-id="f51c8-136">To inspect cron job runs: `sudo grep mdatp /var/log/cron`</span></span>
+<span data-ttu-id="12a0f-136">크론 작업을 검사하기 위해 실행됩니다. `sudo grep mdatp /var/log/cron`</span><span class="sxs-lookup"><span data-stu-id="12a0f-136">To inspect cron job runs: `sudo grep mdatp /var/log/cron`</span></span>
 
-<span data-ttu-id="f51c8-137">mdatp_cron_job.log `sudo nano mdatp_cron_job.log`</span><span class="sxs-lookup"><span data-stu-id="f51c8-137">To inspect the mdatp_cron_job.log `sudo nano mdatp_cron_job.log`</span></span>
+<span data-ttu-id="12a0f-137">mdatp_cron_job.log `sudo nano mdatp_cron_job.log`</span><span class="sxs-lookup"><span data-stu-id="12a0f-137">To inspect the mdatp_cron_job.log `sudo nano mdatp_cron_job.log`</span></span>
 
-## <a name="for-those-who-use-ansible-chef-or-puppet"></a><span data-ttu-id="f51c8-138">Ansible, 정적 또는 Puppet을 사용하는 사람</span><span class="sxs-lookup"><span data-stu-id="f51c8-138">For those who use Ansible, Chef, or Puppet</span></span>
+## <a name="for-those-who-use-ansible-chef-or-puppet"></a><span data-ttu-id="12a0f-138">Ansible, 정적 또는 Puppet을 사용하는 사람</span><span class="sxs-lookup"><span data-stu-id="12a0f-138">For those who use Ansible, Chef, or Puppet</span></span>
 
-<span data-ttu-id="f51c8-139">다음 명령을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-139">Use the following commands:</span></span>
-### <a name="to-set-cron-jobs-in-ansible"></a><span data-ttu-id="f51c8-140">Ansible에서 크론 작업을 설정</span><span class="sxs-lookup"><span data-stu-id="f51c8-140">To set cron jobs in Ansible</span></span>
+<span data-ttu-id="12a0f-139">다음 명령을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-139">Use the following commands:</span></span>
+### <a name="to-set-cron-jobs-in-ansible"></a><span data-ttu-id="12a0f-140">Ansible에서 크론 작업을 설정</span><span class="sxs-lookup"><span data-stu-id="12a0f-140">To set cron jobs in Ansible</span></span>
 
 `cron – Manage cron.d and crontab entries`
 
-<span data-ttu-id="f51c8-141">자세한 내용은 [https://docs.ansible.com/ansible/latest/modules/cron_module.html](https://docs.ansible.com/ansible/latest/modules/cron_module.html)을 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="f51c8-141">See [https://docs.ansible.com/ansible/latest/modules/cron_module.html](https://docs.ansible.com/ansible/latest/modules/cron_module.html) for more information.</span></span>
+<span data-ttu-id="12a0f-141">자세한 내용은 [https://docs.ansible.com/ansible/latest/modules/cron_module.html](https://docs.ansible.com/ansible/latest/modules/cron_module.html)을 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="12a0f-141">See [https://docs.ansible.com/ansible/latest/modules/cron_module.html](https://docs.ansible.com/ansible/latest/modules/cron_module.html) for more information.</span></span>
 
-### <a name="to-set-crontabs-in-chef"></a><span data-ttu-id="f51c8-142">To set crontabs in아이프리드</span><span class="sxs-lookup"><span data-stu-id="f51c8-142">To set crontabs in Chef</span></span>
+### <a name="to-set-crontabs-in-chef"></a><span data-ttu-id="12a0f-142">To set crontabs in아이프리드</span><span class="sxs-lookup"><span data-stu-id="12a0f-142">To set crontabs in Chef</span></span>
 `cron resource`
 
-<span data-ttu-id="f51c8-143">자세한 내용은 [https://docs.chef.io/resources/cron/](https://docs.chef.io/resources/cron/)을 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="f51c8-143">See [https://docs.chef.io/resources/cron/](https://docs.chef.io/resources/cron/) for more information.</span></span>
+<span data-ttu-id="12a0f-143">자세한 내용은 [https://docs.chef.io/resources/cron/](https://docs.chef.io/resources/cron/)을 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="12a0f-143">See [https://docs.chef.io/resources/cron/](https://docs.chef.io/resources/cron/) for more information.</span></span>
 
-### <a name="to-set-cron-jobs-in-puppet"></a><span data-ttu-id="f51c8-144">Puppet에서 크론 작업을 설정하는 경우</span><span class="sxs-lookup"><span data-stu-id="f51c8-144">To set cron jobs in Puppet</span></span>
-<span data-ttu-id="f51c8-145">자원 유형: cron</span><span class="sxs-lookup"><span data-stu-id="f51c8-145">Resource Type: cron</span></span>
+### <a name="to-set-cron-jobs-in-puppet"></a><span data-ttu-id="12a0f-144">Puppet에서 크론 작업을 설정하는 경우</span><span class="sxs-lookup"><span data-stu-id="12a0f-144">To set cron jobs in Puppet</span></span>
+<span data-ttu-id="12a0f-145">자원 유형: cron</span><span class="sxs-lookup"><span data-stu-id="12a0f-145">Resource Type: cron</span></span>
 
-<span data-ttu-id="f51c8-146">자세한 내용은 [https://puppet.com/docs/puppet/5.5/types/cron.html](https://puppet.com/docs/puppet/5.5/types/cron.html)을 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="f51c8-146">See [https://puppet.com/docs/puppet/5.5/types/cron.html](https://puppet.com/docs/puppet/5.5/types/cron.html) for more information.</span></span>
+<span data-ttu-id="12a0f-146">자세한 내용은 [https://puppet.com/docs/puppet/5.5/types/cron.html](https://puppet.com/docs/puppet/5.5/types/cron.html)을 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="12a0f-146">See [https://puppet.com/docs/puppet/5.5/types/cron.html](https://puppet.com/docs/puppet/5.5/types/cron.html) for more information.</span></span>
 
-<span data-ttu-id="f51c8-147">Puppet으로 자동화: Cron 작업 및 예약된 작업</span><span class="sxs-lookup"><span data-stu-id="f51c8-147">Automating with Puppet: Cron jobs and scheduled tasks</span></span>
+<span data-ttu-id="12a0f-147">Puppet으로 자동화: Cron 작업 및 예약된 작업</span><span class="sxs-lookup"><span data-stu-id="12a0f-147">Automating with Puppet: Cron jobs and scheduled tasks</span></span>
 
-<span data-ttu-id="f51c8-148">자세한 내용은 [https://puppet.com/blog/automating-puppet-cron-jobs-and-scheduled-tasks/](https://puppet.com/blog/automating-puppet-cron-jobs-and-scheduled-tasks/)을 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="f51c8-148">See [https://puppet.com/blog/automating-puppet-cron-jobs-and-scheduled-tasks/](https://puppet.com/blog/automating-puppet-cron-jobs-and-scheduled-tasks/) for more information.</span></span>
+<span data-ttu-id="12a0f-148">자세한 내용은 [https://puppet.com/blog/automating-puppet-cron-jobs-and-scheduled-tasks/](https://puppet.com/blog/automating-puppet-cron-jobs-and-scheduled-tasks/)을 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="12a0f-148">See [https://puppet.com/blog/automating-puppet-cron-jobs-and-scheduled-tasks/](https://puppet.com/blog/automating-puppet-cron-jobs-and-scheduled-tasks/) for more information.</span></span>
 
-## <a name="additional-information"></a><span data-ttu-id="f51c8-149">추가 정보</span><span class="sxs-lookup"><span data-stu-id="f51c8-149">Additional information</span></span>
+## <a name="additional-information"></a><span data-ttu-id="12a0f-149">추가 정보</span><span class="sxs-lookup"><span data-stu-id="12a0f-149">Additional information</span></span>
 
-<span data-ttu-id="f51c8-150">**크로ntab에 대한 도움말을 얻은 경우**</span><span class="sxs-lookup"><span data-stu-id="f51c8-150">**To get help with crontab**</span></span>
+<span data-ttu-id="12a0f-150">**크로ntab에 대한 도움말을 얻은 경우**</span><span class="sxs-lookup"><span data-stu-id="12a0f-150">**To get help with crontab**</span></span>
 
 `man crontab`
 
-<span data-ttu-id="f51c8-151">**현재 사용자의 크로ntab 파일 목록을 얻은 경우**</span><span class="sxs-lookup"><span data-stu-id="f51c8-151">**To get a list of crontab file of the current user**</span></span>
+<span data-ttu-id="12a0f-151">**현재 사용자의 크로ntab 파일 목록을 얻은 경우**</span><span class="sxs-lookup"><span data-stu-id="12a0f-151">**To get a list of crontab file of the current user**</span></span>
 
 `crontab -l`
 
-<span data-ttu-id="f51c8-152">**다른 사용자의 크로ntab 파일 목록을 얻은 경우**</span><span class="sxs-lookup"><span data-stu-id="f51c8-152">**To get a list of crontab file of another user**</span></span>
+<span data-ttu-id="12a0f-152">**다른 사용자의 크로ntab 파일 목록을 얻은 경우**</span><span class="sxs-lookup"><span data-stu-id="12a0f-152">**To get a list of crontab file of another user**</span></span>
 
 `crontab -u username -l`
 
-<span data-ttu-id="f51c8-153">**크로ntab 항목을 백업하는 경우**</span><span class="sxs-lookup"><span data-stu-id="f51c8-153">**To backup crontab entries**</span></span>
+<span data-ttu-id="12a0f-153">**크로ntab 항목을 백업하는 경우**</span><span class="sxs-lookup"><span data-stu-id="12a0f-153">**To backup crontab entries**</span></span>
 
 `crontab -l > /var/tmp/cron_backup.dat`
 
 > [!TIP]
-> <span data-ttu-id="f51c8-154">편집하거나 제거하기 전에 이 작업을 합니다.</span><span class="sxs-lookup"><span data-stu-id="f51c8-154">Do this before you edit or remove.</span></span> <br>
+> <span data-ttu-id="12a0f-154">편집하거나 제거하기 전에 이 작업을 합니다.</span><span class="sxs-lookup"><span data-stu-id="12a0f-154">Do this before you edit or remove.</span></span> <br>
 
-<span data-ttu-id="f51c8-155">**크로ntab 항목을 복원하는 경우**</span><span class="sxs-lookup"><span data-stu-id="f51c8-155">**To restore crontab entries**</span></span>
+<span data-ttu-id="12a0f-155">**크로ntab 항목을 복원하는 경우**</span><span class="sxs-lookup"><span data-stu-id="12a0f-155">**To restore crontab entries**</span></span>
 
 `crontab /var/tmp/cron_backup.dat`
 
-<span data-ttu-id="f51c8-156">**크로ntab를 편집하고 루트 사용자로 새 작업을 추가하려면**</span><span class="sxs-lookup"><span data-stu-id="f51c8-156">**To edit the crontab and add a new job as a root user**</span></span>
+<span data-ttu-id="12a0f-156">**크로ntab를 편집하고 루트 사용자로 새 작업을 추가하려면**</span><span class="sxs-lookup"><span data-stu-id="12a0f-156">**To edit the crontab and add a new job as a root user**</span></span>
 
 `sudo crontab -e`
 
-<span data-ttu-id="f51c8-157">**크로ntab를 편집하고 새 작업을 추가하려면**</span><span class="sxs-lookup"><span data-stu-id="f51c8-157">**To edit the crontab and add a new job**</span></span>
+<span data-ttu-id="12a0f-157">**크로ntab를 편집하고 새 작업을 추가하려면**</span><span class="sxs-lookup"><span data-stu-id="12a0f-157">**To edit the crontab and add a new job**</span></span>
 
 `crontab -e`
 
-<span data-ttu-id="f51c8-158">**다른 사용자의 크로ntab 항목을 편집하려면**</span><span class="sxs-lookup"><span data-stu-id="f51c8-158">**To edit other user’s crontab entries**</span></span>
+<span data-ttu-id="12a0f-158">**다른 사용자의 크로ntab 항목을 편집하려면**</span><span class="sxs-lookup"><span data-stu-id="12a0f-158">**To edit other user’s crontab entries**</span></span>
 
 `crontab -u username -e`
 
-<span data-ttu-id="f51c8-159">**모든 크로ntab 항목을 제거하려면**</span><span class="sxs-lookup"><span data-stu-id="f51c8-159">**To remove all crontab entries**</span></span>
+<span data-ttu-id="12a0f-159">**모든 크로ntab 항목을 제거하려면**</span><span class="sxs-lookup"><span data-stu-id="12a0f-159">**To remove all crontab entries**</span></span>
 
 `crontab -r`
 
-<span data-ttu-id="f51c8-160">**다른 사용자의 크로ntab 항목을 제거하려면**</span><span class="sxs-lookup"><span data-stu-id="f51c8-160">**To remove other user’s crontab entries**</span></span>
+<span data-ttu-id="12a0f-160">**다른 사용자의 크로ntab 항목을 제거하려면**</span><span class="sxs-lookup"><span data-stu-id="12a0f-160">**To remove other user’s crontab entries**</span></span>
 
 `crontab -u username -r`
 
-<span data-ttu-id="f51c8-161">**설명**</span><span class="sxs-lookup"><span data-stu-id="f51c8-161">**Explanation**</span></span>
+<span data-ttu-id="12a0f-161">**설명**</span><span class="sxs-lookup"><span data-stu-id="12a0f-161">**Explanation**</span></span>
 
 <pre>
 +—————- minute (values: 0 – 59) (special characters: , – * /)  <br>
