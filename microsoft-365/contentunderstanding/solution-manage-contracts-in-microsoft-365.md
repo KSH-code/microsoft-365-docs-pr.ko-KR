@@ -1,5 +1,5 @@
 ---
-title: 관리 솔루션을 사용하여 Microsoft 365 관리
+title: Microsoft 365 솔루션을 사용하여 계약 관리
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -13,14 +13,14 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Syntex, Microsoft 365 목록, SharePoint 및 SharePoint 솔루션을 사용하여 계약을 관리하는 Microsoft Teams 방법을 Power Automate.
-ms.openlocfilehash: 219ab13eb5787bef566ede0c5dc856da29d96837
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: d12ccd2d4bc777b05489556f0d96ce9de80954a8
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651287"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770820"
 ---
-# <a name="manage-contracts-using-a-microsoft-365-solution"></a>관리 솔루션을 사용하여 Microsoft 365 관리
+# <a name="manage-contracts-using-a-microsoft-365-solution"></a>Microsoft 365 솔루션을 사용하여 계약 관리
 
 이 문서에서는 조직의 Syntex 및 구성 요소를 사용하여 조직에 SharePoint 관리 솔루션을 만드는 Microsoft 365. 또한 고유한 비즈니스 요구에 맞는 솔루션을 계획하고 만드는 데 도움이 되는 프레임워크를 제공합니다. 이 솔루션이 비즈니스 요구에 전체적으로 적합하지 않은 경우에도 사용자 지정 계약 관리 솔루션을 만들기 위한 계획에서 솔루션의 일부를 채택할 수 있습니다.
 
@@ -73,6 +73,14 @@ ms.locfileid: "52651287"
 6. 이 솔루션의 최종 결과는 조직에 대한 자동화된 비즈니스 프로세스입니다. 직원은 문서의 승인 워크플로를 시작하고 Teams 사용자 지정 타일 보기를 쉽게 사용할 수 있습니다. 
 
      ![계약 탭](../media/content-understanding/tile-view.png)
+
+### <a name="licensing-requirements"></a>라이선스 요구사항
+
+이 솔루션은 Microsoft 365 Enterprise(E1, E3, E5, F3) 또는 비즈니스(기본, 표준 또는 Premium) 라이선스의 일부로 사용할 수 있는 다음 기능을 사용 합니다.
+
+-   Microsoft SharePoint Syntex
+-   Microsoft Teams
+-   Power Automate
 
 ## <a name="create-the-solution"></a>솔루션 만들기
 

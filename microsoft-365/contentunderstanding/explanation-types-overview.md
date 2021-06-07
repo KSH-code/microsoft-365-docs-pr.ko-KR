@@ -12,13 +12,13 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-description: Microsoft SharePoint Syntex에서 설명 유형에 대해 자세히 알아보세요.
-ms.openlocfilehash: 515fd8af289ec7c64e14eb6d54b236ba3a8aa9f6
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+description: Microsoft SharePoint Syntex의 구문 목록, 정규식 및 근접 설명 유형에 대해 자세히 알아보세요.
+ms.openlocfilehash: 8748b2fd33e20cf7e402d499db05f1f6722e735a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706579"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770868"
 ---
 # <a name="explanation-types-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 설명 유형
 
@@ -114,6 +114,15 @@ ms.locfileid: "52706579"
    템플릿을 사용하여 정규식을 추가하면 텍스트 상자에 이름과 정규식이 자동으로 추가됩니다. 예를 들어 **전자 메일 주소** 템플릿을 선택하면 **설명 만들기** 패널이 채워집니다.
 
    ![전자 메일 주소 템플릿이 적용된 설명 만들기 패널을 보여 주는 스크린샷입니다.](../media/content-understanding/create-regular-expression-email.png)
+
+### <a name="limitations"></a>제한 사항
+
+다음 표는 현재 정규식 패턴에 사용할 수 없는 인라인 문자 옵션을 보여 줍니다. 
+
+|옵션  |시/도  |현재 기능  |
+|---------|---------|---------|
+|대/소문자 구분 | 현재 지원되지 않습니다. | 수행되는 모든 일치 항목은 대/소문자를 구분하지 않습니다.  |
+|줄 앵커     | 현재 지원되지 않습니다. | 일치가 발생해야 하는 문자열의 특정 위치를 지정할 수 없습니다.   |
 
 ## <a name="proximity"></a>근접 
 

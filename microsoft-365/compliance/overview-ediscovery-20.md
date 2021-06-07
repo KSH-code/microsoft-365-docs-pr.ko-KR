@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 description: 자세한 내용은 Advanced eDiscovery 솔루션에 대해 Microsoft 365. 이 문서에서는 내부 및 외부 Advanced eDiscovery 관리하는 Microsoft 365 도구인 2016의 개요를 제공합니다. 또한 법적 조사를 관리하는 데 Advanced eDiscovery 비즈니스 이유에 대한 프레임을 틀 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16d18d04c0bb45f0a9328dcebae866c16a575812
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ec5ea7b32abb03edd31ab69abc7b8d3044b1d353
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860967"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782792"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>개요 Microsoft 365 Advanced eDiscovery
 
-이 Advanced eDiscovery 솔루션은 Microsoft 365 Microsoft eDiscovery 및 분석 기능을 빌드합니다. Advanced eDiscovery 조직의 내부 및 외부 조사에 응답하는 콘텐츠를 보존, 수집, 분석, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공합니다. 또한 법률팀에서 전체 법적 보류 알림 워크플로를 관리하여 사례와 관련된 보유자와 통신할 수 있게 합니다.
+이 Advanced eDiscovery 솔루션은 Microsoft 365 Microsoft eDiscovery 및 분석 기능을 빌드합니다. Advanced eDiscovery 조직의 내부 및 외부 조사에 응답하는 콘텐츠를 보존, 수집, 분석, 검토 및 내보내기 위한 종단 간 워크플로를 제공합니다. 또한 법률팀에서 전체 법적 보류 알림 워크플로를 관리하여 사례와 관련된 보유자와 통신할 수 있게 합니다.
 
 ## <a name="advanced-ediscovery-capabilities"></a>Advanced eDiscovery 기능
 

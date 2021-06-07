@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: df2407deeaa3cd6e0b0925b48f888a25c0435042
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 6778248b127894102d15d4d94e3d2f099e3bfa37
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651116"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771204"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -80,7 +80,7 @@ Microsoft 클라우드 도이치클라드 인스턴스에서 Office 365 Azure에
 
 **적용된 경우:** 2단계가 시작되기 전
 
-AD FS(Active Directory Federation Services)를 사용하는 경우 2단계가 시작되기 전에 Office 365 Global 서비스에 대한 신뢰자  트러스트 추가 전후에 [ADFS](ms-cloud-germany-transition-azure-ad.md) 구성을 백업해야 합니다.
+AD FS(Active Directory Federation Services)를 사용하는 경우 2단계가 시작되기 전에 Office 365 Global 서비스에 대한 신뢰자  트러스트 추가 전후에 [ADFS](ms-cloud-germany-transition-add-adfs.md) 구성을 백업해야 합니다.
 
 ## <a name="phase-2-azure-ad-migration"></a>2단계: Azure AD 마이그레이션
 이 단계에서는 Azure Active Directory 데이터 센터 지역으로 마이그레이션되어 활성화됩니다. 이전 Azure AD 끝점은 계속 사용할 수 있습니다.
@@ -169,7 +169,7 @@ Office 365 전역 서비스 지역이 기본값으로 설정되어 내부 부하
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예:
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```powershell
 New-PSSession 

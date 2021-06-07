@@ -16,12 +16,12 @@ ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
 ms.technology: m365d
-ms.openlocfilehash: 685c23f4e8daac4f00e0bbd90dcaca9a80703559
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: 48d299f2318b0a1be251132a4b50a333a1a0c7a8
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696517"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782960"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Defender에서 자동화된 조사 및 대응 Microsoft 365 구성
 
@@ -48,9 +48,9 @@ Microsoft 365 Defender에는 [](m365d-autoir.md) 보안 운영 팀에 많은 시
 |---|---|
 |구독 요구 사항|다음 구독 중 하나: <ul><li>Microsoft 365 E5</li><li>Microsoft 365 A5</li><li>Microsoft 365 E3 추가 Microsoft 365 E5 Security 있는 경우</li><li>Microsoft 365 A3 및 Microsoft 365 A5 보안 추가 기능</li><li>Office 365 E5 및 Enterprise Mobility + Security E5 및 Windows E5</li></ul> <p> 자세한 [Microsoft 365 Defender 라이선스 요구 사항을 참조하세요.](./prerequisites.md#licensing-requirements)|
 |네트워크 요구 사항|<ul><li>[Id에 대한 Microsoft Defender 사용](/azure-advanced-threat-protection/what-is-atp)</li><li>[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) 구성</li><li>[Microsoft Defender for Identity 통합](/cloud-app-security/mdi-integration)</li></ul>|
-|Windows 컴퓨터 요구 사항|<ul><li>Windows 10 버전 1709 이상이 설치되어 있습니다(릴리스 정보 Windows 10 [참조).](/windows/release-information/)</li><li>구성된 위협 방지 서비스는 다음과 같습니다.<ul><li>[엔드포인트용 Microsoft Defender](../defender-endpoint/configure-endpoints.md) </li><li>[Windows Defender 바이러스 백신](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)</li></ul></li></ul>|
+|Windows 컴퓨터 요구 사항|<ul><li>Windows 10 버전 1709 이상이 설치되어 있습니다(릴리스 정보 Windows 10 [참조).](/windows/release-information/)</li><li>구성된 위협 방지 서비스는 다음과 같습니다.<ul><li>[엔드포인트용 Microsoft Defender](../defender-endpoint/configure-endpoints.md)</li><li>[Windows Defender 바이러스 백신](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)</li></ul></li></ul>|
 |전자 메일 콘텐츠 및 Office 보호|[Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) 구성|
-|권한|자동화된 조사 및 응답 기능을 구성하려면 전역 관리자 또는 보안 관리자 역할이 Azure Active Directory( ) 또는 Microsoft 365 관리 <https://portal.azure.com> 센터()에서 할당되어야 합니다. <https://admin.microsoft.com> <p> 보류 중인 작업의 검토, 승인 또는 거부와 같은 자동화된 조사 및 응답 기능과 함께 작업하는 데 필요한 사용 권한을 얻하려면 Action Center 작업에 필요한 사용 권한을 [참조하세요.](m365d-action-center.md#required-permissions-for-action-center-tasks)|
+|사용 권한|자동화된 조사 및 응답 기능을 구성하려면 전역 관리자 또는 보안 관리자 역할이 Azure Active Directory( ) 또는 Microsoft 365 관리 <https://portal.azure.com> 센터()에서 할당되어야 합니다. <https://admin.microsoft.com> <p> 보류 중인 작업의 검토, 승인 또는 거부와 같은 자동화된 조사 및 응답 기능과 함께 작업하는 데 필요한 사용 권한을 얻하려면 Action Center 작업에 필요한 사용 권한을 [참조하세요.](m365d-action-center.md#required-permissions-for-action-center-tasks)|
 |
 
 ## <a name="review-or-change-the-automation-level-for-device-groups"></a>장치 그룹의 자동화 수준 검토 또는 변경
@@ -73,8 +73,8 @@ Microsoft는 특정 위험을 [식별하는](../../compliance/alert-policies.md)
 
 1. 보안 [https://security.microsoft.com](https://security.microsoft.com) Microsoft 365()에서 정책 & **위협** \> **정책으로 이동하십시오.**
 2. 다음 정책을 모두 구성해야 합니다. 도움말 및 권장 사항을 얻었다면 [위협으로부터 보호를 참조하세요.](/microsoft-365/security/office-365-security/protect-against-threats)
-   - [맬웨어 방지)](../office-365-security/protect-against-threats.md#part-1---anti-malware-protection-in-eop)
-   - [피싱 방지)](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection)
+   - [맬웨어 방지](../office-365-security/protect-against-threats.md#part-1---anti-malware-protection-in-eop)
+   - [피싱 방지](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection)
    - [안전한 첨부 파일](../office-365-security/protect-against-threats.md#safe-attachments-policies-in-microsoft-defender-for-office-365)
    - [안전한 링크](../office-365-security/protect-against-threats.md#safe-links-policies-in-microsoft-defender-for-office-365)
    - [스팸 방지](../office-365-security/protect-against-threats.md#part-3---anti-spam-protection-in-eop)

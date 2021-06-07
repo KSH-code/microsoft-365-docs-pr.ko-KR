@@ -13,12 +13,12 @@ ms.collection:
 description: 보고서 메시지 기능을 사용하여 가짓 긍정 및 Outlook 보고하는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6f8c4fc327bfd467cdd1d0043c454e222e84125c
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 84a5b697f8a4b46cf79c542485bfafb396328f5c
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625116"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789246"
 ---
 # <a name="report-false-positives-and-false-negatives-in-outlook"></a>Outlook에서 가양성 및 가음성 보고
 
@@ -38,7 +38,10 @@ ms.locfileid: "52625116"
 
 - 최상의 사용자 제출 환경을 위해 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하세요.
 
-- 이 추가 기능의 작동 방식은 Outlook, iOS, Android 및 데스크톱 등 모든 플랫폼에서 사용할 수 있습니다.
+  > [!IMPORTANT]
+  > 정크 또는 피싱을 보고하기 위한 기본 제공 Outlook 제출 정책을 사용할 [수 없습니다.](./user-submission.md) 대신 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하는 것이 좋습니다.
+
+- 보고서 메시지 추가 기능 및 피싱 보고 추가 Outlook(웹, iOS Outlook Android 및 데스크톱에서 사용)에서 사용할 수 있습니다.
 
 - 사서함이 있는 조직의 관리자인 Exchange Online 보안 및 준수 센터의 & 포털을 사용하세요. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
 
@@ -54,29 +57,23 @@ ms.locfileid: "52625116"
 
 받은 편지함 또는 정크 메일을 제외한 다른 전자 메일 폴더에 있는 메시지의 경우 다음 방법을 사용하여 스팸 및 피싱 메시지를 보고합니다.
 
-1. 선택한 **메시지의** 오른쪽 위에 있는 추가 작업 줄임표를  클릭하고 드롭다운 메뉴에서 메시지  보고를 클릭한 다음 정크 또는 피싱 **을 선택합니다.**
+1. 선택한 **메시지의** 오른쪽 위에 있는 추가 작업 줄임표를  선택하고 드롭다운 메뉴에서 메시지 보고를 선택한 다음 정크 또는 피싱 을 **선택합니다.** 
 
-   > [!div class="mx-imgBorder"]
-   > ![보고서 메시지 - 추가 작업](../../media/report-message-more-actions.png)
-
-   > [!div class="mx-imgBorder"]
-   > ![보고서 메시지 - 정크 및 피싱](../../media/report-message-junk-phishing.png)
+   ![보고서 메시지 - 추가 작업](../../media/report-message-more-actions.png)
+   
+   ![보고서 메시지 - 정크 및 피싱](../../media/report-message-junk-phishing.png)
 
 2. 선택한 메시지는 분석을 위해 Microsoft로 전송됩니다.
-
    - 스팸으로 보고된 경우 정크 메일 폴더로 이동되었습니다.
-
-   - 피싱으로 보고된 경우 삭제되었습니다.
+   - 피싱으로 보고된 경우 삭제됩니다.
 
 ### <a name="report-messages-that-are-not-junk"></a>정크 메일이 아닌 메시지 보고
 
-1. 선택한 **메시지의** 오른쪽 위 모서리에 있는 추가 작업 줄임표를 클릭하고 드롭다운 메뉴에서 메시지 보고를 클릭한 다음 정크 메일 아님 **을 클릭합니다.** 
+1. 선택한 **메시지의** 오른쪽 위 모서리에 있는 추가 작업 줄임표를 선택하고 드롭다운 메뉴에서 메시지 보고를 선택한 다음 정크 메일 아님 **을 선택합니다.** 
 
-   > [!div class="mx-imgBorder"]
-   > ![보고서 메시지 - 추가 작업](../../media/report-message-more-actions.png)
-
-   > [!div class="mx-imgBorder"]
-   > ![보고서 메시지 - 정크 메일 아님](../../media/report-message-not-junk.png)
+   ![보고서 메시지 - 추가 작업](../../media/report-message-more-actions.png)
+   
+   ![보고서 메시지 - 정크 메일 아님](../../media/report-message-not-junk.png)
 
 2. 선택한 메시지가 분석을 위해 Microsoft로 전송되어 받은 편지함 또는 기타 지정된 폴더로 이동됩니다.
 
@@ -85,5 +82,4 @@ ms.locfileid: "52625116"
 사용자가 Microsoft에 보고하는 메시지를 검토할 수 있는 옵션은 다음과 같습니다.
 
 - 관리 제출 포털을 사용하세요. 자세한 내용은 [Microsoft에 대한 사용자 제출 보기를 참조하세요.](admin-submission.md#view-user-submissions-to-microsoft)
-
 - 메일 흐름 규칙(전송 규칙)을 만들어 보고된 메시지의 복사본을 전송합니다. 자세한 내용은 메일 흐름 규칙을 사용하여 Microsoft에 보고하는 사용자 [확인을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft)

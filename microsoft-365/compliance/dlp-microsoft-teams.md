@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Teams 채널은 DLP(데이터 손실 방지) 정책을 지원합니다.
-ms.openlocfilehash: e55bfa34b2495465f573bcede3ebda2308dbbbbc
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 6467ae7fdfc9c8636bd306efde5cb89c100e5e6c
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583391"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782564"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -59,15 +59,12 @@ DLP 보호는 엔터티에 Teams 다르게 적용됩니다.
 |---------|---------|---------|
 |개별 사용자 계정     |1:1/n 채팅         |예         |
 |     |일반 채팅         |아니요         |
-|     |공유 채널         |아니요         |
 |     |비공개 채널         |예         |
 |보안 그룹/메일 그룹  | 1:1/n 채팅         |예         |
 |     |일반 채팅         |아니요         |
-|     |공유 채널         |아니요      |
 |     |비공개 채널         |예        |
 |Microsoft 365 그룹    |1:1/n 채팅          |아니요         |
 |     |일반 채팅          |예        |
-|     |공유 채널|예 |
 |     |비공개 채널|아니요| 
 
 
@@ -231,5 +228,5 @@ DLP 보호는 엔터티에 Teams 다르게 적용됩니다.
 
 ## <a name="related-articles"></a>관련 문서
 
-- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [ DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](use-notifications-and-policy-tips.md)

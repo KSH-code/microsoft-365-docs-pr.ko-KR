@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: '받는 응용 프로그램 및 서비스는 구입한 Microsoft 365(예: 비즈니스용 Microsoft 365 앱.'
 ms.date: 07/01/2020
-ms.openlocfilehash: 4e93a84df106475417289da168ca472ed5a07475
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 817ea454bf471fdc2f175658af9030925d29189a
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582731"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779882"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스용 구독 및 라이선스 Microsoft 365 이해
 
@@ -67,8 +67,6 @@ ms.locfileid: "52582731"
 - [공유 사서함 만들기](../../admin/email/create-a-shared-mailbox.md)
 - [공유 사서함에서 라이선스 제거](../../admin/email/remove-license-from-shared-mailbox.md)
 - [다른 모든 Exchange Online](/exchange/collaboration-exo/shared-mailboxes) 계획에 대한 공유 Microsoft 365 있습니다.
-- [대화방 사서함 만들기 및 관리](/exchange/recipients-in-exchange-online/manage-room-mailboxes)
-- [장비 사서함 관리](/exchange/recipients-in-exchange-online/manage-equipment-mailboxes)
 
 ## <a name="who-can-assign-licenses"></a>Who 라이선스를 할당할 수 있나요?
 

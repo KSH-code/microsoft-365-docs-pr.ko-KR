@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca65f003b0c206b0f7e23f3498a4ef0d0bc03fa6
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ca0b8b8dd879f3f662c96f1527bca13efbe5ef6c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788982"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771228"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
@@ -119,7 +119,7 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
 
 ### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>보안 센터를 사용하여 미리 설정한 보안 정책을 사용자에게 할당
 
-1. 보안 센터에서 전자 메일 & **정책** & 규칙 위협 정책 템플릿 정책 섹션으로 \>  \>  \>  \> **이동하십시오.**
+1. 보안 센터에서 Email **& collaboration** \> **Policies & Rules** Threat Policies Preset Security Policies 로 \>  \> **이동하세요.**
 
 2. 표준 **보호 또는** 엄격한 **보호에서** 편집을 **클릭합니다.**
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Office 365의 사용자 태그
+title: Microsoft Defender for Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,27 +13,27 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Microsoft Defender for Office 365 계획 2에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 방법을 배울 수 있습니다. 태그 필터링은 Microsoft Defender for Office 365의 경고, 보고서 및 조사에서 사용할 수 있으며, 태그가 지정된 사용자를 빠르게 식별할 수 있습니다.
+description: 관리자는 Plan 2용 Microsoft Defender에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 Office 365 있습니다. 태그 필터링은 Microsoft Defender의 경고, 보고서 및 조사에서 사용할 수 있으며, Office 365 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2c1dc426bae77cd35b567bf166032855327a8ffe
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+ms.openlocfilehash: 44b925840700c00c6b2d28c445ac26abd6624d1c
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943014"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782864"
 ---
-# <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
+# <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
 > [!NOTE]
-> 사용자 태그 기능은 미리 보기에 있으며 모든 사용자가 사용할 수 있으며 변경될 수 있습니다. 릴리스 일정에 대한 자세한 내용은 [Microsoft 365 로드맵 을 참조하십시오.](https://www.microsoft.com/microsoft-365/roadmap)
+> 사용자 태그 기능은 미리 보기에 있으며 모든 사용자가 사용할 수 있으며 변경될 수 있습니다. 릴리스 일정에 대한 자세한 내용은 Microsoft 365 [로드맵을 참조하십시오.](https://www.microsoft.com/microsoft-365/roadmap)
 
-사용자 태그는 [Office 365용 Microsoft Defender의](defender-for-office-365.md)특정 사용자 그룹에 대한 식별자입니다. 사용자 태그에는 다음 두 가지 유형이 있습니다.
+사용자 태그는 에 대한 Microsoft [Defender의](defender-for-office-365.md)특정 사용자 그룹의 식별자 Office 365. 사용자 태그에는 다음 두 가지 유형이 있습니다.
 
 - **시스템 태그:** 현재 [우선](../../admin/setup/priority-accounts.md) 순위 계정은 시스템 태그의 유일한 유형입니다.
 - **사용자 지정 태그:** 이러한 사용자 태그를 직접 만들 수 있습니다.
 
-조직에 Office 365 계획 2용 Defender가 있는 경우(구독 또는 추가 기능으로 포함) 우선 순위 계정 태그를 사용하는 것 외에도 사용자 지정 사용자 태그를 만들 수 있습니다.
+조직에 Office 365 계획 2에 대한 Defender가 있는 경우(구독 또는 추가 기능으로 포함) 우선 순위 계정 태그를 사용하는 것 외에도 사용자 지정 사용자 태그를 만들 수 있습니다.
 
 > [!NOTE]
 > 현재 사서함 사용자에게만 사용자 태그를 적용할 수 있습니다.
@@ -44,14 +44,14 @@ ms.locfileid: "51943014"
 - [위협 탐색기 및 실시간 검색](threat-explorer.md)
 - [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
 - [캠페인 보기](campaigns.md)
-- 우선 순위 계정의 경우 [](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) EAC(Exchange 관리 센터)의 우선 순위 계정 보고서에 대한 전자 메일 문제를 사용할 수 있습니다.
+- 우선 순위 계정의 경우 [](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) EAC(Exchange 관리 센터)의 우선 순위 계정 보고서에 전자 메일 문제를 사용할 수 있습니다.
 
 이 문서에서는 보안 및 준수 센터에서 사용자 태그를 & 설명합니다. 보안 및 준수 센터에는 사용자 태그를 & cmdlet이 없습니다.
 
-사용자 태그가 영향력이 큰 사용자 계정을 보호하는 데 도움이 되는 전략의 일부인 방법을 자세한 내용은 [Microsoft 365의](security-recommendations-for-priority-accounts.md)우선 순위 계정에 대한 보안 권장 사항을 참조하세요.
+사용자 태그가 영향력이 큰 사용자 계정을 보호하는 데 도움이 되는 전략의 일부인 방법을 자세한 내용은 에서 우선 순위 계정에 [대한 보안 권장 사항을 Microsoft 365.](security-recommendations-for-priority-accounts.md)
 
 > [!NOTE]
-> 통합 Microsoft 365 보안 센터를 사용하는 경우 에서 태그를 설정할 수 https://security.microsoft.com/userTags 있습니다.
+> 통합 보안 센터를 Microsoft 365 에서 태그를 설정할 수 https://security.microsoft.com/securitysettings/userTags 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
@@ -64,12 +64,13 @@ ms.locfileid: "51943014"
 
   자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-  **참고**:
+  > [!NOTE]
+  >
+  > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  >
+  > - 사용자 태그 관리는 태그 판독기 및 **태그** 관리자 **역할에 의해** 제어됩니다.
 
-  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - 사용자 태그 관리는 태그 판독기 및 **태그** 관리자 **역할에 의해** 제어됩니다.
-
-- Microsoft 365 관리 센터에서 우선 순위 계정을 관리하고 모니터링할 수도 있습니다. 자세한 내용은 우선 순위 [계정 관리 및 모니터링을 참조하세요.](../../admin/setup/priority-accounts.md)
+- 또한 중앙 관리 센터에서 우선 순위 계정을 관리하고 Microsoft 365 있습니다. 자세한 내용은 우선 순위 [계정 관리 및 모니터링을 참조하세요.](../../admin/setup/priority-accounts.md)
 
 - 권한 있는 계정(관리자 계정)의 보안에 대한 자세한 내용은 이 [항목을 참조하세요.](/azure/architecture/framework/security/critical-impact-accounts) 
 
@@ -126,7 +127,8 @@ ms.locfileid: "51943014"
 
 ## <a name="use-the-security--compliance-center-to-remove-user-tags"></a>보안 및 준수 & 사용하여 사용자 태그 제거
 
-**참고:** 기본 제공 우선 순위 계정 태그는 제거할 **수** 없습니다.
+> [!NOTE]
+> 기본 제공 우선 순위 계정 태그는 제거할 **수** 없습니다.
 
 1. 보안 및 & 센터에서 **위협** 관리 \> **사용자 태그로 이동합니다.**
 

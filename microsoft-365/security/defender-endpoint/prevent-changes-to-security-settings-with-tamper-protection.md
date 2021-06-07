@@ -17,12 +17,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 05/17/2021
-ms.openlocfilehash: ed9eb425d718a2dbdaa2cdb3ab1e6899c9870124
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2d212bedf9033b0824d32e7f42afea3944d9ca67
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538896"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782816"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -50,7 +50,7 @@ ms.locfileid: "52538896"
 - 클라우드 제공 보호를 사용 안 하게
 - 보안 인텔리전스 업데이트 제거
 
-### <a name="how-it-works"></a>작동 방식
+### <a name="how-it-works"></a>작동 방법
 
 변조 방지는 기본적으로 Microsoft Defender 바이러스 백신 잠그고 다음과 같은 앱 및 방법을 통해 보안 설정이 변경되지 않도록 합니다.
 
@@ -78,10 +78,10 @@ ms.locfileid: "52538896"
 
 | 변조 방지를 사용하도록 설정하는 방법  | MAPS에 대한 종속성(클라우드 제공 보호)    |
 |:----|:----|
-| Microsoft Intune  | 아니요 |
-| Microsoft Endpoint Configuration Manager + 테넌트 첨부  |     아니요  |
-| Microsoft Defender 보안 센터( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     예 |
-| Microsoft 365 보안 센터( [https://security.microsoft.com](https://security.microsoft.com) )  |     예  |
+| Microsoft Intune  | 아니요. |
+| Microsoft Endpoint Configuration Manager + 테넌트 첨부  |     아니요.  |
+| Microsoft Defender 보안 센터( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     네. |
+| Microsoft 365 보안 센터( [https://security.microsoft.com](https://security.microsoft.com) )  |     네.  |
 
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>조직에 대한 변조 방지를 Microsoft Defender 보안 센터
 
@@ -257,7 +257,7 @@ Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/wi
 
 - [Intune을 사용하여 변조 방지 관리](#manage-tamper-protection-for-your-organization-using-intune)
 - [Configuration Manager, 버전 2006을 사용하여 변조 보호 관리](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
-- [현재 미리 보기에서 Microsoft Defender 보안 센터](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) 변조 보호 관리
+- [다음을 사용하여 변조 방지 Microsoft Defender 보안 센터](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) 
 
 ### <a name="how-does-configuring-tamper-protection-in-intune-affect-how-i-manage-microsoft-defender-antivirus-through-my-group-policy"></a>Intune에서 변조 보호를 구성하는 것은 그룹 정책을 통해 Microsoft Defender 바이러스 백신 어떻게 영향을 미치나요?
 

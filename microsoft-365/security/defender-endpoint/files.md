@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9079a47dcc078b582586370b322502b74ce3838c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c4d392c9c7777a5ab5435d70e36822e11aa39dae
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199984"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771192"
 ---
 # <a name="file-resource-type"></a>파일 리소스 유형
 
@@ -47,25 +48,25 @@ Defender for Endpoint의 파일 엔터티를 나타냅니다.
 [파일 통계](get-file-statistics.md) | 통계 요약 | 지정한 파일의 보전을 검색합니다.
 
 
-## <a name="properties"></a>속성
+## <a name="properties"></a>특성
 |속성 | 유형    |   설명 |
 |:---|:---|:---|
-|sha1 | 문자열 | 파일 콘텐츠의 Sha1 해시 |
-|sha256 | 문자열 | 파일 콘텐츠의 Sha256 해시 |
+|sha1 | String | 파일 콘텐츠의 Sha1 해시 |
+|sha256 | String | 파일 콘텐츠의 Sha256 해시 |
 |globalPrevalence | Nullable long | 조직 전체의 파일 보전 |
 |globalFirstObserved | DateTimeOffset | 파일이 처음으로 관찰된 시간 |
 |globalLastObserved | DateTimeOffset | 파일이 마지막으로 관찰된 시간 |
 |size | Nullable long | 파일 크기 |
-|fileType | 문자열 | 파일 형식 |
+|fileType | String | 파일 형식 |
 |isPeFile | 부울 | true이면 파일이 이식 가능한 실행 파일(예: "DLL", "EXE" 등)입니다. |
-|filePublisher | 문자열 | 파일 게시자 |
-|fileProductName | 문자열 | 제품 이름 |
-|signer | 문자열 | 파일 서명자 |
-|발급자 | 문자열 | 파일 발급자 |
-|signerHash | 문자열 | 서명 인증서의 해시 |
+|filePublisher | String | 파일 게시자 |
+|fileProductName | String | 제품 이름 |
+|signer | String | 파일 서명자 |
+|발급자 | String | 파일 발급자 |
+|signerHash | String | 서명 인증서의 해시 |
 |isValidCertificate | 부울 | Microsoft Defender for Endpoint 에이전트에서 인증서 서명이 성공적으로 확인된 경우 |
-|determinationType | 문자열 | 파일의 결정 유형 |
-|determinationValue | 문자열 | 결정 값 |
+|determinationType | String | 파일의 결정 유형 |
+|determinationValue | String | 결정 값 |
 
 
 ## <a name="json-representation"></a>Json 표현

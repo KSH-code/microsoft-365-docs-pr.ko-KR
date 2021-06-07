@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4957c92cb95464213cce4a81ded07de166468c73
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: a6e11aea14a7b8d99c0098b68951790328ec593e
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689016"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782912"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Defender에서 경고 Microsoft 365 조사
 
@@ -56,7 +56,7 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 Microsoft 
 
 - 심각도
 - 상태
-- 범주
+- Category
 - 검색 원본
 - 태그
 - 정책
@@ -90,9 +90,9 @@ Microsoft 365 Defender 경고는 Endpoint용 Microsoft Defender, Microsoft Defen
 경고 원본 | 문자를 더한 문자 
 :---|:---
 Office 365용 Microsoft Defender | `fa{GUID}` <br> 예: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
-끝점용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
+엔드포인트용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
 ID용 Microsoft Defender | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
-Microsoft Cloud App Security |`ca{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
 
 

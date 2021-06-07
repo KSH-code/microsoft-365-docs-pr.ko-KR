@@ -18,17 +18,17 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 recommendations: false
-description: 보안 및 준수 센터의 DLP(데이터 손실 방지)에는 DLP 정책에 사용할 준비가 된 200가지가 넘는 중요한 정보 &amp; 유형이 포함되어 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다.
-ms.openlocfilehash: ff976389e75e96d0a018d7c5379e2831313388dc
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+description: DLP 정책에 사용할 수 있는 200가지 중요한 정보 유형이 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다.
+ms.openlocfilehash: 4efa411f7cc34b4116cc418e328e5c3f7545f788
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730477"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789222"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
-준수 센터의 DLP(데이터 손실 방지)에는 DLP 정책에 사용할 준비가 된 많은 중요한 정보 유형이 포함되어 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다. 중요한 정보 유형에 대한 자세한 내용은 중요한 정보 [유형을 참조하세요.](sensitive-information-type-learn-about.md)
+이 문서에는 모든 중요한 정보 유형 엔터티 정의가 나열됩니다. 각 정의는 DLP 정책이 각 유형을 검색하기 위해 검색하는 것을 보여줍니다. 중요한 정보 유형에 대한 자세한 내용은 중요한 정보 [유형을 참조하세요.](sensitive-information-type-learn-about.md)
 
 ## <a name="aba-routing-number"></a>ABA 라우팅 번호
 
@@ -48,7 +48,7 @@ ms.locfileid: "52730477"
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -111,7 +111,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -160,7 +160,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -230,7 +230,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="format"></a>포맷
 
-은행 주 분기 번호가 있는 경우 또는 없는 6-10자리 숫자
+은행 지점 번호가 있는 경우 또는 없는 6-10자리 숫자
 
 ### <a name="pattern"></a>패턴
 
@@ -243,7 +243,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -317,7 +317,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -377,7 +377,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -437,7 +437,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -573,13 +573,13 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 10-11자리 숫자:
 - 첫 번째 숫자는 2-6 범위에 있습니다.
-- 9자리 숫자는 검사 숫자입니다.
+- 9번째 숫자는 검사 숫자입니다.
 - 10번째 숫자는 문제 숫자입니다.
 - 11번째 숫자(선택 사항)는 개인 번호입니다.
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -623,11 +623,11 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 ### <a name="pattern"></a>패턴
 
 - 한 문자(N, E, D, F, A, C, U, X) 다음에 7자리 숫자 또는
-- 2개 문자(PA, PB, PC, PD, PE, PF, PU, PW, PX, PZ) 다음에 7자리가 습니다.
+- 두 문자(PA, PB, PC, PD, PE, PF, PU, PW, PX, PZ) 다음에 7자리가 입니다.
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -691,7 +691,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -736,7 +736,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -1038,7 +1038,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -1112,7 +1112,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -1190,7 +1190,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -1250,7 +1250,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1310,7 +1310,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1370,7 +1370,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1420,7 +1420,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1476,7 +1476,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1530,7 +1530,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1570,7 +1570,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1628,7 +1628,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1686,7 +1686,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1713,7 +1713,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -1890,7 +1890,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -2089,7 +2089,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 
 ### <a name="definition"></a>정의
@@ -2151,7 +2151,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -2214,7 +2214,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -2291,7 +2291,7 @@ Registro de Identidade(RIC)(새 형식):
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -2337,7 +2337,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -2513,7 +2513,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -2601,7 +2601,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -2682,7 +2682,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -2745,11 +2745,21 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="pattern"></a>패턴
 
-앨버타, 브리티시 콜롬비아, 매니토바, 뉴브런즈윅, 뉴펀들랜드/래브라도, 노바스코샤, 온타리오, 프린스에드워드아일랜드, 퀘벡 및 서스캐처원을 포함하는 다양한 패턴
+다양한 패턴에 대한 다국어:
+- 앨버타
+- British Columbia
+- 매니토바
+- New Brunswick
+- Newfoundland/Labrador
+- Nova Scotia
+- 오타리오
+- Prince Edward Island
+- 퀘벡
+- Saskatchewan
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -2967,7 +2977,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -3014,7 +3024,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -3082,7 +3092,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -3160,13 +3170,13 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
 DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_canadian_sin 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- 2개 이상의 다음 항목 조합:
+- 다음 패턴 중 두 개 이상
     - Keyword_sin의 키워드가 발견되었습니다.
     - Keyword_sin_collaborative의 키워드가 발견되었습니다.
     - Func_eu_date 함수가 올바른 날짜 형식의 날짜를 찾습니다.
@@ -3244,7 +3254,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -3326,7 +3336,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -3376,7 +3386,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="pattern"></a>패턴
 
-Visa, MasterCard, Discover Card, JCB, American Express, 기프트 카드 및 다이너 카드를 비롯한 전 세계 모든 주요 브랜드의 카드를 감지하는 복잡하고 강력한 패턴입니다.
+Visa, MasterCard, Discover Card, JCB, American Express, 기프트 카드 및 다이너 카드를 비롯한 전 세계 모든 주요 브랜드의 카드를 검색합니다.
 
 ### <a name="checksum"></a>체크섬
 
@@ -3682,7 +3692,7 @@ cód. segurança
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -3835,7 +3845,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 
 ## <a name="croatia-identity-card-number"></a>크로아티아 ID 카드 번호
-이 중요한 정보 유형 엔터티는 EU 국가 식별 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 엔터티는 EU 국가 식별 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 
@@ -3847,7 +3857,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -3911,7 +3921,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -3982,7 +3992,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -4053,7 +4063,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4264,7 +4274,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4430,7 +4440,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4594,7 +4604,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4680,7 +4690,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -4772,7 +4782,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4934,7 +4944,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -5014,7 +5024,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -5131,7 +5141,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -5189,7 +5199,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -5364,7 +5374,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -5440,7 +5450,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -5514,7 +5524,7 @@ eesti kodaniku passi number passinumbrid document number document no dokumendi n
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -6036,7 +6046,7 @@ EU 사회 보장 번호 또는 이와 동등한 식별에 있는 이러한 엔�
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -6216,7 +6226,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6270,7 +6280,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -6349,7 +6359,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="finland-passport-number"></a>핀란드 여권 번호
 
-이 중요한 정보 유형 엔터티는 EU Passport 번호 중요한 정보 유형에서 사용할 수 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 엔터티는 EU Passport Number 중요한 정보 유형에서 사용할 수 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 9개의 문자 및 숫자 조합
@@ -6361,7 +6371,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6429,7 +6439,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="france-drivers-license-number"></a>프랑스 운전 면허 번호
 
-이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에서 사용할 수 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 엔터티는 EU 운전 면허 번호 중요한 정보 유형에서 사용할 수 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 
@@ -6441,7 +6451,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6614,7 +6624,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6652,7 +6662,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6688,7 +6698,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
    
 ## <a name="france-passport-number"></a>프랑스 여권 번호
-이 중요한 정보 유형 엔터티는 EU 여권 번호 중요한 정보 유형에서 사용할 수 있습니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 엔터티는 EU 여권 번호 중요한 정보 유형에서 사용할 수 있습니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 
@@ -6703,7 +6713,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6794,7 +6804,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -6881,7 +6891,7 @@ no. d'identite
   
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -6961,7 +6971,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -7002,7 +7012,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="germany-drivers-license-number"></a>독일 운전 면허 번호
 
-이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 
@@ -7019,7 +7029,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -7209,7 +7219,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -7248,7 +7258,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="germany-passport-number"></a>독일 여권 번호
 
-이 중요한 정보 유형 엔터티는 EU Passport 번호 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 엔터티는 EU Passport Number 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 
@@ -7264,7 +7274,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -7347,7 +7357,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -7427,7 +7437,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -7465,7 +7475,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="greece-drivers-license-number"></a>그리스 운전 면허 번호
 
-이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 
@@ -7477,7 +7487,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -7650,7 +7660,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -7700,7 +7710,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -7779,7 +7789,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -7901,7 +7911,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -7985,7 +7995,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -8153,14 +8163,14 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 11자리 숫자:
   
-- 성별에 해당하는 1자리 숫자(1900년 이전의 시민 또는 시민권이 2배인 시민의 경우 1-남성, 2-여성, 기타 숫자도 가능) 
+- 성별에 해당하는 1자리 숫자, 남성 1명, 여성 2명입니다. 1900년 이전의 시민이나 시민권이 2배인 시민에 대해 다른 번호가 가능합니다.
 - 생년월일(YYMMDD)에 해당하는 6자리 숫자
 - 일련 번호에 해당하는 3자리 숫자
 - 검사 숫자 1개
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -8215,7 +8225,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -8290,7 +8300,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -8361,7 +8371,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -8442,7 +8452,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -8502,7 +8512,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8554,7 +8564,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -8610,7 +8620,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8653,11 +8663,70 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 각 국가에 대한 형식은 약간 다릅니다. IBAN 중요한 정보 유형은 다음 60개 국가에 해당합니다.
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk , sm, tn, tr, vg
+- 광고
+- ae
+- al
+- at
+- az
+- ba
+- be
+- bg
+- bh
+- ch
+- cr
+- cy
+- cz
+- de
+- dk
+- do
+- ee
+- es
+- fi
+- fo
+- fr
+- gb
+- ge
+- gi
+- gl
+- gr
+- hr
+- hu
+- ie
+- il
+- is
+- it
+- kw
+- kz
+- lb
+- li
+- lt
+- lu
+- lv
+- mc
+- md
+- me
+- mk
+- mr
+- mt
+- mu
+- nl
+- 아니요
+- pl
+- pt
+- ro
+- rs
+- sa
+- se
+- si
+- sk
+- sm
+- tn
+- tr
+- vg
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -8691,7 +8760,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8733,7 +8802,7 @@ ICD-Dictionary_icd_10_codes 국제질병 [분류, 10번째 수정, ICD-10-CM(예
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8776,7 +8845,7 @@ IPv4 주소의 서식 있는(기간) 및 서식 없는 버전(기간 없음)을 
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8841,7 +8910,7 @@ IPv6의 경우 DLP 정책은 300자 이내의 근접성으로 이러한 유형�
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -9007,7 +9076,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -9098,7 +9167,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9192,7 +9261,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9233,7 +9302,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9278,7 +9347,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="italy-drivers-license-number"></a>이탈리아 운전 면허 번호
 
-이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 
@@ -9294,7 +9363,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9466,13 +9535,13 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 이름의 첫 번째, 세 번째 및 네 번째 자석에 해당하는 세 글자
 - 생년월일의 마지막 숫자에 해당하는 두 자리 숫자
 - 생년월일 문자에 해당하는 한 문자- 문자는 사전순으로 사용되지만 A에서 E, H, L, M, P, R에서 T까지의 문자만 사용됩니다(따라서 1월은 A, 10월은 R임).
-- 성별을 차별화하기 위해 생년월일에 해당하는 두 자리 숫자는 여성의 생년월일에 40이 추가됩니다.
+- 성별을 차별화하기 위해 생년월일에 해당하는 두 자리 숫자, 여성의 생년월일에 40자리 추가
 - 사람이 태어나는 지역 번호에 해당하는 4자리 숫자(국가 전체 코드가 외국 국가에 사용)
 - 패리티 숫자 1개
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -9640,7 +9709,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9692,7 +9761,7 @@ bank account number:
 
 체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9790,7 +9859,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9870,7 +9939,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9934,7 +10003,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9986,7 +10055,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -10039,7 +10108,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -10080,7 +10149,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -10130,7 +10199,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -10195,7 +10264,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -10372,7 +10441,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -10492,7 +10561,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -10571,7 +10640,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -10745,7 +10814,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -10898,7 +10967,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11135,7 +11204,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11231,7 +11300,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -11320,7 +11389,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -11386,7 +11455,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11614,7 +11683,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11787,7 +11856,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11842,7 +11911,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11907,7 +11976,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -11964,7 +12033,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -12205,7 +12274,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -12296,7 +12365,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12359,7 +12428,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12415,7 +12484,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12533,7 +12602,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12583,7 +12652,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12650,7 +12719,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12701,7 +12770,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12756,7 +12825,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -12801,7 +12870,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -12963,7 +13032,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -13010,7 +13079,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -13052,7 +13121,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
    
 ## <a name="poland-passport-number"></a>폴란드 여권 번호
-이 중요한 정보 유형 엔터티는 EU 여권 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 중요한 정보 유형 엔터티는 EU 여권 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 
@@ -13064,7 +13133,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -13162,7 +13231,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -13223,7 +13292,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
   
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -13287,7 +13356,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -13353,7 +13422,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -13526,7 +13595,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -13613,7 +13682,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -13679,7 +13748,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -13854,7 +13923,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -13943,7 +14012,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -14029,7 +14098,7 @@ numărul pașaportului numarul pasaportului numerele pașaportului Pașaport nr
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -14089,7 +14158,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -14139,7 +14208,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -14184,7 +14253,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -14238,7 +14307,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -14411,7 +14480,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -14497,7 +14566,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -14575,7 +14644,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -14746,12 +14815,12 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 - "LLL"이 생년월일의 마지막 3자리에 해당하는 생년월일(DDMMLLL)에 해당하는 7자리 숫자 
 - 생년월일 "50"에 해당하는 2자리 숫자
-- 같은 날에 출생한 사람의 성별 및 일련 번호 조합에 해당하는 3자리 숫자(남성 000-499, 여성의 경우 500-999)
+- 같은 날에 태어나는 사람의 성별과 일련 번호 조합에 해당하는 세 자리 숫자입니다. 남성의 경우 000-499, 여성의 경우 500-999입니다.
 - 검사 숫자 1개
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -14821,7 +14890,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -14908,7 +14977,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -14976,7 +15045,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -15021,7 +15090,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -15072,7 +15141,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -15270,7 +15339,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -15435,7 +15504,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -15517,7 +15586,7 @@ Foreigners without a Foreigner's Identification Number
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -15600,7 +15669,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -15635,7 +15704,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 #### <a name="cep_passwordplaceholder"></a>CEP_PasswordPlaceHolder
 
-기술적으로 이 중요한 정보 유형은 키워드 목록이 아닌 정규식을 사용하여 이러한 키워드를 식별합니다.
+이 중요한 정보 유형은 키워드 목록이 아닌 정규식을 사용하여 이러한 키워드를 식별합니다.
 
 - 암호 또는 pwd 다음에 0-2 공백, 등호(=), 0-2 공백 및 추가 표시(*) -OR-
 - 암호 또는 pwd 다음을 입력합니다.
@@ -15646,7 +15715,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
-기술적으로 이 중요한 정보 유형은 키워드 목록이 아닌 정규식을 사용하여 이러한 키워드를 식별합니다.
+이 중요한 정보 유형은 키워드 목록이 아닌 정규식을 사용하여 이러한 키워드를 식별합니다.
 
 - contoso
 - fabrikam
@@ -15674,7 +15743,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
     
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -15849,7 +15918,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -15909,7 +15978,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16015,7 +16084,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 ### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -16089,7 +16158,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16171,7 +16240,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16234,7 +16303,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16296,7 +16365,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16341,7 +16410,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16389,7 +16458,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16436,7 +16505,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16486,7 +16555,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16648,7 +16717,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16695,7 +16764,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16746,7 +16815,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - Birth Date 
    
 ## <a name="uk-national-insurance-number-nino"></a>영국 national insurance number (NINO)
-이 중요한 정보 유형 엔터티는 EU 국가 식별 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
+이 중요한 정보 유형 엔터티는 EU 국가 식별 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
 ### <a name="format"></a>포맷
 
@@ -16774,7 +16843,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16842,7 +16911,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -16894,7 +16963,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16958,7 +17027,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -17121,7 +17190,7 @@ unformatted:
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -17193,7 +17262,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 
 ### <a name="definition"></a>정의
@@ -17266,7 +17335,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -17339,7 +17408,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -17389,7 +17458,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 

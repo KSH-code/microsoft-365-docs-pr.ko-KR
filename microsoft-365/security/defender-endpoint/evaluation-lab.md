@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f6ef1d3dbc111e5d10bf4d3c42dfd08e5e9d63e3
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: c785dbb759afe77b14f41985b9f451a4ec52e29f
+ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730630"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52778236"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>끝점용 Microsoft Defender 평가 랩
 
@@ -118,17 +118,17 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 테스트 장치에 미리 구성된 보안 구성 요소는 다음과 같습니다.
 
-- [공격 표면 감소](attack-surface-reduction.md)
-- [차단 시 차단](configure-block-at-first-sight-microsoft-defender-antivirus.md)
-- [제어된 폴더 액세스](controlled-folders.md)
-- [악용 방지](enable-exploit-protection.md)
-- [네트워크 보호](network-protection.md)
-- [잠재적으로 원치 않는 응용 프로그램 검색](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
-- [클라우드 제공 보호](cloud-protection-microsoft-defender-antivirus.md)
-- [Microsoft Defender SmartScreen](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview)
+- [공격 표면 감소](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
+- [차단 시 차단](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
+- [제어된 폴더 액세스](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
+- [악용 방지](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
+- [네트워크 보호](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
+- [잠재적으로 원치 않는 응용 프로그램 검색](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
+- [클라우드 제공 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
+- [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
 
 >[!NOTE]
-> Microsoft Defender 바이러스 백신 설정됩니다(감사 모드 아미기). 사용자가 Microsoft Defender 바이러스 백신 실행을 차단하는 경우 디바이스에서 실시간 보호를 해제할 수 Windows 보안. 자세한 내용은 [Always-On 보호 구성을 참조하세요.](configure-real-time-protection-microsoft-defender-antivirus.md)
+> Microsoft Defender 바이러스 백신 설정됩니다(감사 모드 아미기). 사용자가 Microsoft Defender 바이러스 백신 실행을 차단하는 경우 디바이스에서 실시간 보호를 해제할 수 Windows 보안. 자세한 내용은 [Always-On 보호 구성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
 자동화된 조사 설정은 테넌트 설정에 따라 달라집니다. 기본적으로 반자동으로 구성됩니다. 자세한 내용은 자동화된 조사 [개요를 참조하세요.](automated-investigations.md)
 
@@ -190,7 +190,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 - ["직접" 공격 시나리오](https://securitycenter.windows.com/tutorials)
 - 위협 시뮬레이터
 
-고급 [헌팅을](advanced-hunting-overview.md) 사용하여 데이터 및 [위협](threat-analytics.md) 분석을 쿼리하여 새로운 위협에 대한 보고서를 볼 수 있습니다.
+고급 [헌팅을](advanced-hunting-query-language.md) 사용하여 데이터 및 [위협](threat-analytics.md) 분석을 쿼리하여 새로운 위협에 대한 보고서를 볼 수 있습니다.
 
 ### <a name="do-it-yourself-attack-scenarios"></a>직접 공격 시나리오
 미리 만든 시뮬레이션을 찾고 있는 경우 ["직접 실행"](https://securitycenter.windows.com/tutorials)공격 시나리오를 사용할 수 있습니다. 이러한 스크립트는 안전하고 문서화되어 있으며 사용하기 쉽습니다. 이러한 시나리오는 끝점 기능에 대한 Defender를 반영하고 조사 환경을 진행합니다.

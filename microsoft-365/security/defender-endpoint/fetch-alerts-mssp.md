@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ee2a5e1815dd552753ac7f3dee30df11ac4332e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.custom: api
+ms.openlocfilehash: 456507533265bc085adc1008f3264e123569a6ca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076607"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770772"
 ---
 # <a name="fetch-alerts-from-mssp-customer-tenant"></a>MSSP 고객 테넌트에서 경고 페치
 
@@ -48,15 +49,15 @@ SIEM 시스템으로 경고를 페치하려면 다음 단계를 수행해야 합
 
 2단계: 고객의 테넌트에서 토큰 액세스 및 새로 고침
  
-3단계: Microsoft Defender 보안 센터에서 응용 프로그램 허용
+3단계: 응용 프로그램에서 응용 프로그램 허용 Microsoft Defender 보안 센터
  
-### <a name="step-1-create-an-application-in-azure-active-directory-azure-ad"></a>1단계: Azure AD(Azure Active Directory)에서 응용 프로그램 만들기
+### <a name="step-1-create-an-application-in-azure-active-directory-azure-ad"></a>1단계: Azure AD(Azure Active Directory 응용 프로그램 만들기)
  
 응용 프로그램을 만들고 고객의 끝점 테넌트에 대한 Microsoft Defender에서 알림을 보내기 위한 권한을 부여해야 합니다.
 
 1. Azure AD [포털에 로그인합니다.](https://aad.portal.azure.com/)
 
-2. **Azure Active Directory 앱** 등록  >  **을 선택합니다.**
+2. 앱 **Azure Active Directory**  >  **등록을 선택합니다.**
  
 3. 새 **등록 을 클릭합니다.**
 
@@ -85,7 +86,7 @@ SIEM 시스템으로 경고를 페치하려면 다음 단계를 수행해야 합
  
 
 ### <a name="step-2-get-access-and-refresh-tokens-from-your-customers-tenant"></a>2단계: 고객의 테넌트에서 토큰 액세스 및 새로 고침
-이 섹션에서는 PowerShell 스크립트를 사용하여 고객의 테넌트에서 토큰을 다운로드하는 방법을 안내합니다. 이 스크립트는 이전 단계의 응용 프로그램을 사용하여 OAuth 권한 부여 코드 흐름을 사용하여 액세스 및 새로 고침 토큰을 얻습니다.
+이 섹션에서는 PowerShell 스크립트를 사용하여 고객의 테넌트에서 토큰을 다운로드하는 방법을 안내합니다. 이 스크립트는 이전 단계의 응용 프로그램을 사용하여 OAuth 권한 부여 코드 응용 프로그램을 사용하여 액세스 및 새로 고침 토큰을 Flow.
 
 자격 증명을 제공한 후 응용 프로그램이 고객의 테넌트에 프로비전되는 데 필요한 동의를 응용 프로그램에 부여해야 합니다.
 
@@ -159,14 +160,14 @@ SIEM 시스템으로 경고를 페치하려면 다음 단계를 수행해야 합
 
 8. PowerShell 창에서 액세스 토큰과 새로 고침 토큰을 받게 됩니다. 새로 고침 토큰을 저장하여 SIEM 커넥터를 구성합니다. 
  
-### <a name="step-3-allow-your-application-on-microsoft-defender-security-center"></a>3단계: Microsoft Defender 보안 센터에서 응용 프로그램 허용
-Microsoft Defender 보안 센터에서 만든 응용 프로그램을 허용해야 합니다.
+### <a name="step-3-allow-your-application-on-microsoft-defender-security-center"></a>3단계: 응용 프로그램에서 응용 프로그램 Microsoft Defender 보안 센터
+응용 프로그램에서 만든 응용 프로그램을 허용해야 Microsoft Defender 보안 센터.
  
 응용 프로그램을 **허용하려면** 포털 시스템 설정 관리 권한이 필요합니다. 그렇지 않으면 고객에게 응용 프로그램을 허용하도록 요청해야 합니다.
 
 1. 로 `https://securitycenter.windows.com?tid=<customer_tenant_id>` 이동(고객의 테넌트 \<customer_tenant_id\> ID로 대체).
 
-2. 설정   >  **SIEM 을 클릭합니다.** 
+2. SIEM **설정**  >  **클릭합니다.** 
 
 3. **MSSP 탭을** 선택합니다.
 
@@ -187,6 +188,6 @@ REST API를 사용하여 경고를 끌어오는 방법에 대한 자세한 내�
 
 
 ## <a name="see-also"></a>참고 항목
-- [포털에 대한 MSSP 액세스 권한 부여](grant-mssp-access.md)
-- [MSSP 고객 포털 액세스](access-mssp-portal.md)
+- [MSSP 액세스를 포털에 부여](grant-mssp-access.md)
+- [MSSP 고객 포털에 액세스](access-mssp-portal.md)
 - [경고 알림 구성](configure-mssp-notifications.md)

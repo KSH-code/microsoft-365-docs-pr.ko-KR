@@ -1,10 +1,10 @@
 ---
-title: '출시 예정: Microsoft Viva Learning용 학습 콘텐츠 원본으로 SharePoint 구성(미리 보기)'
+title: Microsoft SharePoint 학습용 콘텐츠 원본으로 구성(미리 보기)
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/12/2021
+ms.date: ''
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -14,127 +14,132 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
 localization_priority: None
-description: Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본으로 SharePoint를 구성하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 2bed3a42d62e2aab2165ee38379eb07503807e6e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+description: Microsoft Viva Learning(미리 보기)SharePoint 학습 콘텐츠 원본으로 구성하는 방법을 알아보겠습니다.
+ms.openlocfilehash: 29ac15abe3a915213306ebfdf8ebab8f89730f20
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333581"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782780"
 ---
-# <a name="coming-soon-configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>출시 예정: Microsoft Viva Learning용 학습 콘텐츠 원본으로 SharePoint 구성(미리 보기)
+# <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>Microsoft SharePoint 학습용 콘텐츠 원본으로 구성(미리 보기)
 
 > [!NOTE]
-> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 
+> 이 기능은 제품 미리 보기에서 아직 사용할 수 없습니다. 
 
-Viva Learning(미리 보기)에서 조직의 자체 콘텐츠를 사용할 수 있도록 SharePoint를 학습 콘텐츠 원본으로 구성할 수 있습니다.
 
-## <a name="overview"></a>개요
 
-지식 관리자(또는 전역 관리자)는 학습 서비스가 구조화된 SharePoint 목록 형태로 빈 중앙 집중식 위치인 학습 앱 콘텐츠 저장소를 만들 수 있는 사이트 URL을 제공합니다. 이 목록은 조직에서 학습 콘텐츠가 포함된 회사 간 SharePoint 폴더에 대한 링크를 포함하는 데 사용할 수 있습니다. 관리자는 폴더의 URL 목록을 수집하고 큐레이터해야 합니다. 이러한 폴더에는 Viva Learning(미리 보기)에서 사용할 수 있는 콘텐츠만 포함되어야 합니다.
+<!---
 
-Viva Learning(미리 보기)은 다음과 같은 문서 유형을 지원합니다.
+You can configure SharePoint as a learning content source to make your organization's own content available in Viva Learning (Preview).
+
+## Overview
+
+The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create an empty centralized location—the Learning App Content Repository—in the form of a structured SharePoint list. This list can be used by your organization to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in Viva Learning (Preview).
+
+Viva Learning (Preview) supports the following document types:
 
 - Word, PowerPoint, Excel, PDF
-- 오디오(.m4a)
-- 비디오(.mov, .mp4, .avi)
+- Audio (.m4a)
+- Video (.mov, .mp4, .avi)
 
-자세한 내용은 [SharePoint 제한을 참조하세요.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498) 
+For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498). 
 
-## <a name="permissions"></a>권한
+## Permissions
 
-문서 라이브러리 폴더 URL은 조직의 모든 SharePoint 사이트에서 수집할 수 있습니다. Viva Learning(미리 보기)은 모든 기존 콘텐츠 사용 권한을 따르게 됩니다. 따라서 사용자에게 액세스 권한이 있는 콘텐츠만 Viva Learning(미리 보기) 내에서 검색 및 표시됩니다. 이러한 폴더 내의 모든 콘텐츠는 검색할 수 있지만 개별 직원이 사용 권한을 가지는 콘텐츠만 사용할 수 있습니다.
+Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning (Preview) follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning (Preview). Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
 
-조직 리포지토리에서 콘텐츠 삭제는 현재 지원되지 않습니다.
+Content deletion from your organization’s repository is not currently supported.
 
-의도하지 않은 표면이 있는 콘텐츠를 제거하려면 다음 단계를 수행합니다.
+To remove unintentionally surfaced content, follow these steps:
 
-1.  문서 라이브러리에 대한 액세스를 제한하려면 작업 표시 옵션을 선택한 다음 액세스 **관리를 선택합니다.** 
+1.  To restrict access to the document library, select the **Show actions** option, and then select **Manage access**.
      
-     ![Access Highligted를 사용하여 작업 표시 옵션을 표시하는 SharePoint의 문서 라이브러리 페이지입니다.](../media/learning/learning-sharepoint-permissions2.png)
+     ![Document library page in SharePoint showing Show actions option with Manage access highligted.](../media/learning/learning-sharepoint-permissions2.png)
 
-2.  문서 라이브러리 내에서 원본 문서를 삭제합니다.
+2.  Delete the original document within the document library.
 
-자세한 내용은 SharePoint 최신 환경의 공유 및 [사용 권한을 참조하세요.](/sharepoint/modern-experience-sharing-permissions) 
+For more information, see [Sharing and permissions in the SharePoint modern experience](/sharepoint/modern-experience-sharing-permissions). 
 
-## <a name="learning-service"></a>학습 서비스
+## Learning Service
 
-학습 서비스는 제공된 폴더 URL을 사용하여 해당 폴더에 저장된 모든 콘텐츠의 메타데이터를 얻습니다. 직원이 중앙 저장소에 폴더 URL을 제공한 후 24시간 이내에 Viva Learning(미리 보기) 내에서 조직의 콘텐츠를 검색하고 사용할 수 있습니다. 업데이트된 메타데이터 및 사용 권한을 포함하여 콘텐츠에 대한 모든 변경 내용은 24시간 이내에 학습 서비스에도 적용됩니다.
+The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees can search for and use your organization’s content within Viva Learning (Preview). All changes to content, including updated metadata and permissions, will also be applied in the Learning Service within 24 hours.
 
-## <a name="configure-sharepoint-as-a-source"></a>SharePoint를 원본으로 구성
+## Configure SharePoint as a source
 
-이러한 작업을 수행하려면 Microsoft 365 전역 관리자, SharePoint 관리자 또는 지식 관리자 되어야 합니다.
+You must be a Microsoft 365 global administrator, SharePoint administrator, or knowledge admin to perform these tasks.
 
-Viva Learning(미리 보기)에서 SharePoint를 학습 콘텐츠 원본으로 구성하기 위해 다음 단계를 수행합니다.
+To configure SharePoint as a learning content sources in for Viva Learning (Preview), follow these steps:
 
-1.  Microsoft 365 관리 센터의 왼쪽 탐색에서 설정  >  **구성 설정으로 이동합니다.**
+1.  In the left navigation of the Microsoft 365 admin center, go to **Settings** > **Org settings**.
  
-2.  Org **설정 페이지의** 서비스 **탭에서** **Viva Learning(미리 보기)을 선택합니다.**
+2.  On the **Org settings** page, on the **Services** tab, select **Viva Learning (Preview)**.
 
-     ![Viva Learning이 나열된 Microsoft 365 관리 센터의 설정 페이지](../media/learning/learning-sharepoint-configure1.png)
+     ![Settings page in the Microsoft 365 admin center showing Viva Learning listed.](../media/learning/learning-sharepoint-configure1.png)
 
-3.  **Viva Learning(미리 보기)** 패널의 SharePoint에서 Viva Learning(미리 보기)에서 중앙 저장소를 만들 SharePoint 사이트에 대한 사이트 URL을 제공합니다.
+3.  On the **Viva Learning (Preview)** panel, under SharePoint, provides the site URL to the SharePoint site where you want Viva Learning (Preview) to create a centralized repository.
 
-     ![SharePoint가 선택된 Microsoft 365 관리 센터의 학습 패널입니다.](../media/learning/learning-sharepoint-configure2.png)
+     ![Learning panel in the Microsoft 365 admin center showing SharePoint selected.](../media/learning/learning-sharepoint-configure2.png)
 
-4.  SharePoint 목록은 제공된 SharePoint 사이트 내에서 자동으로 만들어집니다.
+4.  A SharePoint list is created automatically within the provided SharePoint site.
 
-     ![SharePoint 사이트 내에서 새로 만든 SharePoint 목록입니다.](../media/learning/learning-sharepoint-configure3.png)
+     ![Newly created SharePoint list within the SharePoint site.](../media/learning/learning-sharepoint-configure3.png)
 
-     SharePoint 사이트의 왼쪽 탐색에서 사이트 **콘텐츠** 학습 앱 콘텐츠  >  **리포지토리 를 선택합니다.** 
+     In the left navigation of the SharePoint site, select **Site contents** > **Learning App Content Repository**. 
 
-     ![사이트 콘텐츠 탐색 및 학습 앱 콘텐츠 저장소 섹션을 보여주는 SharePoint 목록입니다.](../media/learning/learning-sharepoint-configure4.png) 
+     ![SharePoint list showing the Site contents navigation and the Learning App Content Repository section.](../media/learning/learning-sharepoint-configure4.png) 
 
-5. 학습 **앱 콘텐츠 리포지토리** 페이지에서 학습 콘텐츠 폴더에 대한 URL로 SharePoint 목록을 채우십시오.
+5. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders.
 
-   1. 새로 **보기를** 선택하여 새 항목 **패널을** 볼 수 있습니다. 
+   1. Select **New** to view the **New item** panel. 
 
-       ![SharePoint의 학습 콘텐츠 저장소 페이지에 새 옵션이 표시됩니다.](../media/learning/learning-sharepoint-configure5.png)
+       ![Learning Content Repository page in SharePoint showing the New option.](../media/learning/learning-sharepoint-configure5.png)
  
-   2. 새 **항목 패널의** **제목** 필드에 선택한 디렉터리 이름을 추가합니다. 폴더 **URL 필드에서** 학습 콘텐츠 폴더에 URL을 추가합니다. **저장** 을 선택합니다.
+   2. On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**.
 
-       ![제목 및 폴더 URL 필드를 표시하는 SharePoint의 새 항목 패널입니다.](../media/learning/learning-sharepoint-configure6.png)
+       ![New item panel in SharePoint showing the Title and Folder URL fields.](../media/learning/learning-sharepoint-configure6.png)
 
-   3. 학습 **앱 콘텐츠 리포지토리** 페이지는 새 학습 콘텐츠로 업데이트됩니다.
+   3. The **Learning App Content Repository** page is updated with the new learning content.
 
-       ![업데이트된 정보를 표시하는 SharePoint의 콘텐츠 저장소 학습 페이지](../media/learning/learning-sharepoint-configure7.png)
+       ![Learning Content Repository page in SharePoint showing the updated information.](../media/learning/learning-sharepoint-configure7.png)
 
 > [!NOTE]
-> 학습 앱 콘텐츠 리포지토리에 대한 광범위한 액세스를 허용하기 위해 사용자가 액세스를 요청하고 궁극적으로 목록을 채우는 데 도움이 되는 Viva Learning(미리 보기) 인터페이스에서 목록에 대한 링크를 곧 사용할 수 있습니다. 사이트 소유자 및 전역 관리자는 목록에 대한 액세스 권한을 부여해야 합니다. Access는 목록에만 해당하며 목록이 저장된 사이트에는 적용되지 않습니다. 자세한 내용은 이 문서 의 부분에 있는 자체 조직의 [콘텐츠](#provide-your-own-organizations-content) 제공을 참조하십시오.
+> To allow for broader access to the Learning App Content Repository, a link to the list soon will be available in the Viva Learning (Preview) interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
 
-### <a name="folder-url-document-library-curation"></a>폴더 URL 문서 라이브러리 큐레이터
+### Folder URL document library curation
 
-Microsoft Graph API에 의해 수정된 날짜, 문서 이름, 콘텐츠 형식 및 조직 이름과 같은 기본 메타데이터가 Viva Learning(미리 보기)에 자동으로 끌어와집니다.
+Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning (Preview) by the Microsoft Graph API.
  
-콘텐츠의 전체 검색 및 검색 관련성을 개선하기 위해 설명 열을 **추가하는 것이** 좋습니다.
+To improve overall discovery and search relevance of the content, we recommend adding a **Description** column.
 
-문서 라이브러리 **페이지에 설명** 열을 추가하기 위해 다음 단계를 수행합니다.
+To add a **Description** column to the document library page, follow these steps:
 
-1.  문서 **페이지에서** 열 **추가를 선택합니다.**
+1.  On the **Documents** page, select **Add column**.
 
-2. 작업 **표시 옵션을** 선택한 다음 한 줄 **텍스트 를 선택합니다.**
+2. Select the **Show actions** option, and then select **Single line of text**.
 
-     ![한 줄 텍스트가 강조 표시된 작업 표시 옵션을 보여주는 SharePoint의 문서 페이지](../media/learning/learning-sharepoint-curation1.png)
+     ![Documents page in SharePoint showing the Show actions options with Single line of text highlighted.](../media/learning/learning-sharepoint-curation1.png)
 
-3. 열 **만들기 패널의** 이름 **필드에** 열에 대한 설명적인 이름을 추가합니다. **저장** 을 선택합니다.
+3. On the **Create a column** panel, in the **Name** field, add a descriptive name for the column. Select **Save**.
 
-     ![SharePoint에서 이름 및 기타 필드를 표시하는 열 패널을 만들 수 있습니다.](../media/learning/learning-sharepoint-curation2.png)
+     ![Create a column panel in SharePoint showing the Name and other fields.](../media/learning/learning-sharepoint-curation2.png)
  
-4. 문서 **페이지의** 설명 열에서  각 항목에 대한 사용자 지정 설명을 추가합니다. 설명을 제공하지 못하면 Viva Learning(미리 보기)에서 콘텐츠를 자체 SharePoint 라이브러리의 콘텐츠로 강조 표시하는 기본 메시지를 제공합니다. 
+4. On the **Documents** page, in the **Description** column, add custom descriptions for each item. If no description is supplied, Viva Learning (Preview) will provide a default message that highlights the content as being from your own SharePoint library. 
 
-     ![설명 열에 설명을 표시하는 SharePoint의 문서 페이지](../media/learning/learning-sharepoint-curation3.png)
+     ![Documents page in SharePoint showing the descriptions in the Description column.](../media/learning/learning-sharepoint-curation3.png)
  
-### <a name="provide-your-own-organizations-content"></a>자체 조직의 콘텐츠 제공
+### Provide your own organization's content
 
-지식 관리자는 조직의 SharePoint의 학습 앱 콘텐츠 저장소에 액세스하여 조직 간 문서 라이브러리에 대한 참조를 제공할 수 있습니다. 이러한 라이브러리 내의 콘텐츠는 Viva Learning(미리 보기)에서 학습 콘텐츠로 표시됩니다.
+Knowledge admins can access their organization’s Learning App Content Repository in SharePoint, where they can provide references to cross-organization document libraries. Content within these libraries will be then surfaced as learning content in Viva Learning (Preview).
 
-1. Viva Learning(미리 보기)에서 **추가 옵션(** **...**)을 선택한 다음 설정을 **선택합니다.**
+1. In Viva Learning (Preview), select **More options** (**...**), and then select **Settings**.
 
-     ![자세한 옵션 및 설정 옵션을 보여주는 SharePoint 라이브러리 페이지](../media/learning/learning-sharepoint-library-1.png)
+     ![SharePoint library page showing the More options and Settings option.](../media/learning/learning-sharepoint-library-1.png)
      
-2. **설정에서** 사용 권한을 **선택합니다.**
+2. Under **Settings**, select **Permissions**.
 
-     ![사용 권한 및 액세스 확인 옵션을 표시하는 SharePoint의 설정 옵션 페이지](../media/learning/learning-sharepoint-library-2.png)
+     ![Settings option page in SharePoint showing the Permissions and Check access options.](../media/learning/learning-sharepoint-library-2.png)
 
-3. 액세스 **확인을** 선택하여 조직의 중앙 집중식 라이브러리에 연결합니다.
+3. Select **Check access** to connect to your organization’s centralized library.
      
+--->

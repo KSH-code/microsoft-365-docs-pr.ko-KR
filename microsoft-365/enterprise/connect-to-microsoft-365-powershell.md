@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 테넌트에 연결하여 명령줄에서 관리 센터 작업을 수행합니다.
-ms.openlocfilehash: 08005ba1cbdcbfec14585d22614129a9b33352b9
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 70d6aa1373daf2322319d21e385fc1498af3351e
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445759"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782804"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>PowerShell을 사용하여 Microsoft 365에 연결
 
@@ -42,7 +42,7 @@ Microsoft 365 및 관리자 계정, 그룹 및 라이선스에 연결하는 데 
 
 **운영 체제**
 
-64비트 버전의 Windows를 사용해야 합니다. 32비트 버전의 Windows PowerShell용 Microsoft Azure Active Directory 모듈 지원은 2014년에 종료됩니다.
+Windows 64비트 버전을 사용해야 합니다. Microsoft PowerShell용 Microsoft Azure Active Directory 모듈의 32비트 버전에 대한 지원은 2014년에 종료되었습니다.
 
 다음 Windows 버전을 사용할 수 있습니다.
     
@@ -57,7 +57,7 @@ Microsoft 365 및 관리자 계정, 그룹 및 라이선스에 연결하는 데 
 
 - Azure Active Directory PowerShell for Graph 모듈의 경우 PowerShell 버전 5.1 이상을 사용해야 합니다.
 
-- Windows PowerShell용 Microsoft Azure Active Directory 모듈의 경우 PowerShell 버전 5.1 이상 PowerShell 버전 6 이하를 사용해야 합니다. PowerShell 버전 7은 사용할 수 없습니다.
+- Windows PowerShell 모듈용 Microsoft Azure Active Directory 모듈의 경우 PowerShell 버전 5.1 이상, PowerShell 버전 6까지 사용해야 합니다. PowerShell 버전 7은 사용할 수 없습니다.
        
 >[!Note]
 >이러한 절차는 Microsoft 365 관리자 역할의 구성원인 사용자를 대상으로 합니다. 자세한 내용은 [관리자 역할 정보](../admin/add-users/about-admin-roles.md)를 참조하세요.
@@ -101,7 +101,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 ### <a name="step-2-connect-to-azure-ad-for-your-microsoft-365-subscription"></a>2단계: Microsoft 365 구독을 위해 Azure AD에 연결
 
-계정 이름 및 암호를 사용하여 또는 다단계 인증을 사용하여 Microsoft 365 구독을 위해 Azure AD(Azure Active Directory)에 연결하려면, Windows PowerShell 명령 프롬프트에서 이 명령 중 하나를 실행하세요. (관리자일 필요는 없습니다.)
+계정 이름 및 암호 또는 다단계 인증을 사용하여 Microsoft 365 구독용 Azure AD(Azure Active Directory)에 연결하려면, Windows PowerShell 명령 프롬프트에서 다음 명령 중 하나를 실행합니다(권한 상승할 필요는 없음.)
 
 | Office 365 클라우드 | 명령 |
 |:-------|:-----|
@@ -130,7 +130,7 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
 
 이러한 단계는 컴퓨터에서 한 번만 필요합니다. 그러나 소프트웨어를 정기적으로 업데이트해야 할 수 있습니다.
   
-1.  Windows 10을 사용하는 것이 아니라면 64비트 버전의 Microsoft Online Services 로그인 도우미를 설치합니다.[IT 전문가용 Microsoft Online Services 로그인 도우미 RTW](https://www.microsoft.com/Download/details.aspx?id=28177)를 설치합니다.
+1.  Windows 10을 사용하는 것이 아니라면 64비트 버전의 Microsoft Online Services 로그인 도우미를 설치합니다.[IT 전문가용 Microsoft Online Services 로그인 도우미 RTW](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_32bit.msi)를 설치합니다.
     
 2. 다음 단계에 따라 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 설치합니다.
     
@@ -141,7 +141,7 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
     
 ### <a name="step-2-connect-to-azure-ad-for-your-microsoft-365-subscription"></a>2단계: Microsoft 365 구독을 위해 Azure AD에 연결
 
-계정 이름 및 암호를 사용하여 또는 MFA(다중 요소 인증)을 사용하여 Microsoft 365 구독을 위해 Azure AD에 연결하려면, Windows PowerShell 명령 프롬프트(관리자 권한이 아니어도 됨)에서 이 명령 중 하나를 실행하세요. (관리자일 필요는 없습니다.)
+계정 이름 및 암호 또는 다단계 인증을 사용하여 Microsoft 365 구독용 Azure AD에 연결하려면, Windows PowerShell 명령 프롬프트에서 다음 명령 중 하나를 실행합니다(권한 상승할 필요는 없음.)
 
 | Office 365 클라우드 | 명령 |
 |:-------|:-----|

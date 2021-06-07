@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수가 사용자 및 기술 경험 측정값을 반영하는 방식을 알아보고 비슷한 크기의 조직과 비교해 보세요.
-ms.openlocfilehash: 0735fb6d47b475146deade6ab3ca2f8d24ec27a7
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: af0e8583bec00b1ddfd62145a4757a4e568108e8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779677"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789042"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -118,11 +118,11 @@ Microsoft는 개인의 프라이버시를 보호하기 위해 노력하고 있�
 
 점수 기록에서는 지난 6개월 동안 각 범주의 점수가 어떻게 변했는지를 표시합니다.
 
-**사용자 경험** 과 **기술 경험** 영역에는 해당 영역의 범주에 대한 주요 인사이트가 포함되어 있습니다. 각 범주를 클릭하여 세부 인사이트를 확인할 수 있습니다.
+**사용자 경험** 과 **기술 경험** 영역에는 해당 영역의 범주에 대한 주요 인사이트가 포함되어 있습니다. 각 범주를 선택하여 세부 인사이트를 확인할 수 있습니다.
 
 ## <a name="category-details-pages"></a>범주 세부 정보 페이지
 
-각 범주 세부 정보 페이지에는 주요 인사이트와 지원 메트릭과 함께 조직에서 변경을 촉진하는 데 사용할 수 있는 관련 리서치 및 조치가 표시됩니다. 리서치는 각 범주에 대한 주요 인사이트의 중요성과 근거를 지원합니다. 자세한 정보는 [Forrester 보고서를 참조하세요](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
+각 범주 세부 정보 페이지에는 주요 인사이트와 지원 메트릭과 함께 조직에서 변경을 촉진하는 데 사용할 수 있는 관련 리서치 및 조치가 표시됩니다. 리서치는 각 범주에 대한 주요 인사이트의 중요성과 근거를 지원합니다. 자세한 정보는 [Forrester 보고서를 참조하세요](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PBrb).
 
 범주 세부 정보 페이지:
 - [콘텐츠 공동 작업 – 사용자 환경](content-collaboration.md)

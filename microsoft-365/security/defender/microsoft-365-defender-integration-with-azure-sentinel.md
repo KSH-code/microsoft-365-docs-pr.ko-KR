@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b5a53131733d1c7c539676c1d45abe7eabbe2de7
-ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
+ms.openlocfilehash: 7d9cff584f35c39544034501c607b7156a0f1bf2
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52707340"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782924"
 ---
 # <a name="microsoft-365-defender-integration-with-azure-sentinel"></a>Microsoft 365 Azure Sentinel과 Defender 통합
 
@@ -48,7 +48,7 @@ Azure Sentinel에서 인시던트는 Microsoft 365 Defender와 양방향으로 �
 
 ## <a name="next-steps"></a>다음 단계
 
-1. [Azure Sentinel과의 Microsoft 365 통합에 대해 더 잘 이해합니다.](/azure/sentinel/microsoft-365-defender-sentinel-integration)
+1. [Azure Sentinel과의](/azure/sentinel/microsoft-365-defender-sentinel-integration)Microsoft 365 통합에 대해 더 깊이 이해합니다.
 2. [커넥트 Defender에서 Azure Sentinel로 Microsoft 365 데이터를 저장합니다.](/azure/sentinel/connect-microsoft-365-defender)
 
 ## <a name="see-also"></a>참고 항목

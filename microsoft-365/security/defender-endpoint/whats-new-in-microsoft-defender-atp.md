@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3336abf516fbd848ae52b1a8734a99d173c692e3
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 28d956e11b4ea26cbc816c4c3c0d915ec18c5810
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246480"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782972"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -36,7 +36,7 @@ ms.locfileid: "52246480"
 
 다음 기능은 Microsoft Defender for Endpoint의 최신 릴리스에서 일반적으로 사용할 수 있으며 Windows 10 및 Windows 서버의 보안 기능입니다.
 
-자세한 미리 보기 기능은 미리 보기 [기능을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/preview-windows-defender-advanced-threat-protection)
+미리 보기 기능에 대한 자세한 내용은 미리 보기 [기능을 참조하세요.](preview.md)
 
 
 > [!TIP]
@@ -46,6 +46,8 @@ ms.locfileid: "52246480"
 > https://docs.microsoft.com/api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
 
+## <a name="march-2021"></a>2021년 3월
+- [다음을 사용하여 변조 방지 Microsoft Defender 보안 센터](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) <br> 테넌트 연결 이라는 방법을 사용하여 Windows 10, Windows Server 2016 및 Windows Server 2019에서 변조 보호 설정을 *관리할 수 있습니다.* 
 
 ## <a name="january-2021"></a>2021년 1월
 
@@ -74,17 +76,17 @@ ms.locfileid: "52246480"
 
 ## <a name="april-2020"></a>2020년 4월
 
-- [위협 & 관리 API 지원](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/exposed-apis-list) <BR>조직의 & 노출 점수 또는 장치 보안 점수, 소프트웨어 및 장치 취약점 인벤토리, 소프트웨어 버전 배포, 장치 취약성 정보, 보안 권장 정보 등의 위협 요소 관리 관련 API 호출을 실행합니다. 자세한 내용은 이 Microsoft Tech Community [게시물을 참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/threat-amp-vulnerability-management-apis-are-now-generally/ba-p/1304615)
+- [위협 & 관리 API 지원](exposed-apis-list.md) <BR>조직의 & 노출 점수 또는 장치 보안 점수, 소프트웨어 및 장치 취약점 인벤토리, 소프트웨어 버전 배포, 장치 취약성 정보, 보안 권장 정보 등의 위협 요소 관리 관련 API 호출을 실행합니다. 자세한 내용은 이 Microsoft Tech Community [게시물을 참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/threat-amp-vulnerability-management-apis-are-now-generally/ba-p/1304615)
 
 ## <a name="november-december-2019"></a>November-December 2019
 
 - [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md) <BR> MacOS의 끝점용 Microsoft Defender는 Mac 장치에 차세대 보호 기능을 제공합니다. 이제 통합된 끝점 보안 플랫폼의 핵심 구성 요소를 끝점 감지 및 응답을 포함하여 Mac 장치에서 사용할 [수 있습니다.](microsoft-defender-endpoint-mac.md)
  
-- [위협 & 관리 응용 프로그램 및 응용 프로그램 버전 종료 정보](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation) <BR>수명이 종료된 응용 프로그램 및 응용 프로그램 버전은 더 이상 지원되지 않는다는 것을 인식하고 제거 또는 바꾸기 작업을 취할 수 있도록 태그가 지정되거나 레이블이 지정됩니다. 이렇게 하면 패치가 없는 응용 프로그램으로 인한 다양한 취약점 노출과 관련된 위험을 완화하는 데 도움이 됩니다.
+- [위협 & 관리 응용 프로그램 및 응용 프로그램 버전 종료 정보](tvm-security-recommendation.md) <BR>수명이 종료된 응용 프로그램 및 응용 프로그램 버전은 더 이상 지원되지 않는다는 것을 인식하고 제거 또는 바꾸기 작업을 취할 수 있도록 태그가 지정되거나 레이블이 지정됩니다. 이렇게 하면 패치가 없는 응용 프로그램으로 인한 다양한 취약점 노출과 관련된 위험을 완화하는 데 도움이 됩니다.
 
-- [위협 & 관리 고급 헌팅 스마](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/advanced-hunting-schema-reference) <BR>고급 헌팅 & 위협 요소 관리 테이블을 사용하여 소프트웨어 인벤토리, 취약성 지식베이스, 보안 구성 평가 및 보안 구성 지식베이스에 대해 쿼리합니다. 
+- [위협 & 관리 고급 헌팅 스마](advanced-hunting-schema-reference.md) <BR>고급 헌팅 & 위협 요소 관리 테이블을 사용하여 소프트웨어 인벤토리, 취약성 지식베이스, 보안 구성 평가 및 보안 구성 지식베이스에 대해 쿼리합니다. 
  
- - [위협 & 관리 역할 기반 액세스 제어](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/user-roles#create-roles-and-assign-the-role-to-an-azure-active-directory-group) <BR>새 사용 권한을 사용하여 권한이 부여된 사용자만 특정 데이터에 액세스하여 작업을 수행할 수 있도록 SecOps 중심 역할, 위협 & 취약성 관리 중심 역할 또는 하이브리드 역할을 만들 수 있습니다. 또한 위협 & 취약성 관리 역할이 취약성 관련 데이터만 볼 수 있는지 또는 수정 및 예외를 만들고 관리할 수 있는지 여부를 지정하여 더욱 세부적으로 관리할 수 있습니다.
+ - [위협 & 관리 역할 기반 액세스 제어](user-roles.md#create-roles-and-assign-the-role-to-an-azure-active-directory-group) <BR>새 사용 권한을 사용하여 권한이 부여된 사용자만 특정 데이터에 액세스하여 작업을 수행할 수 있도록 SecOps 중심 역할, 위협 & 취약성 관리 중심 역할 또는 하이브리드 역할을 만들 수 있습니다. 또한 위협 & 취약성 관리 역할이 취약성 관련 데이터만 볼 수 있는지 또는 수정 및 예외를 만들고 관리할 수 있는지 여부를 지정하여 더욱 세부적으로 관리할 수 있습니다.
 
 - [장치 상태 및 준수 보고서](machine-reports.md) <br/> 장치 상태 및 준수 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다.
 
@@ -102,13 +104,13 @@ ms.locfileid: "52246480"
 
 ## <a name="september-2019"></a>2019년 9월
 
-- [Intune을 사용한 변조 보호 설정](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/prevent-changes-to-security-settings-with-tamper-protection#turn-tamper-protection-on-or-off-for-your-organization-using-intune)<br/>이제 Intune(장치 관리 포털)에서 조직에 대해 변조 보호를 켜거나 Microsoft 365 수 있습니다.
+- [Intune을 사용한 변조 보호 설정](prevent-changes-to-security-settings-with-tamper-protection.md)<br/>이제 Intune(장치 관리 포털)에서 조직에 대해 변조 보호를 켜거나 Microsoft 365 수 있습니다.
 
 - [라이브 응답](live-response.md)<BR> 원격 셸 연결을 사용하여 장치에 즉시 액세스합니다. 심층 조사 작업을 수행하고 즉각적인 대응 조치를 취하여 식별된 위협을 실시간으로 포함시킵니다.
 
 - [평가 랩](evaluation-lab.md) <BR> 끝점용 Microsoft Defender 평가 랩은 플랫폼의 기능을 평가하고 시뮬레이션을 실행하고, 실행 중인 예방, 탐지 및 수정 기능을 보는 데 집중할 수 있도록 장치 및 환경 구성의 복잡한 문제를 없애기 위해 설계되었습니다.
 
-- [Windows Server 2008 R2 SP1](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016) <BR> 이제 Server 2008 R2 SP1을 Windows 수 있습니다.
+- [Windows Server 2008 R2 SP1](configure-server-endpoints.md) <BR> 이제 Server 2008 R2 SP1을 Windows 수 있습니다.
 
 
 ## <a name="june-2019"></a>2019년 6월
@@ -119,64 +121,64 @@ ms.locfileid: "52246480"
 
 ## <a name="may-2019"></a>2019년 5월
 
-- [위협 방지 보고서](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/threat-protection-reports-windows-defender-advanced-threat-protection)<BR>위협 방지 보고서는 조직에서 생성된 경고에 대한 높은 수준의 정보를 제공합니다. 
+- [위협 방지 보고서](threat-protection-reports.md)<BR>위협 방지 보고서는 조직에서 생성된 경고에 대한 높은 수준의 정보를 제공합니다. 
 
 
-- [Microsoft 위협 전문가](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)<BR> Microsoft 위협 전문가 MICROSOFT Defender for Endpoint의 새로운 관리되는 위협 헌팅 서비스로, SOC(보안 운영 센터)가 위협을 빠르고 정확하게 식별하고 대응할 수 있도록 사전 헌팅, 우선 순위 지정 및 추가 컨텍스트 및 인사이트를 제공합니다. Microsoft 고객이 보안 운영 기능을 강화하는 데 활용할 수 있는 전문 지식과 광학 계층을 추가로 Microsoft 365.  
+- [Microsoft 위협 전문가](microsoft-threat-experts.md)<BR> Microsoft 위협 전문가 MICROSOFT Defender for Endpoint의 새로운 관리되는 위협 헌팅 서비스로, SOC(보안 운영 센터)가 위협을 빠르고 정확하게 식별하고 대응할 수 있도록 사전 헌팅, 우선 순위 지정 및 추가 컨텍스트 및 인사이트를 제공합니다. Microsoft 고객이 보안 운영 기능을 강화하는 데 활용할 수 있는 전문 지식과 광학 계층을 추가로 Microsoft 365.  
 
-- [지표](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/ti-indicator) <BR> 이제 표시기용 API를 일반적으로 사용할 수 있습니다. 
+- [지표](ti-indicator.md) <BR> 이제 표시기용 API를 일반적으로 사용할 수 있습니다. 
 
 
-- [상호 운용성](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/partner-applications) <BR> 끝점용 Microsoft Defender는 플랫폼의 감지, 조사 및 위협 인텔리전스 기능을 향상시키는 데 도움이 되는 타사 응용 프로그램을 지원합니다.
+- [상호 운용성](partner-applications.md) <BR> 끝점용 Microsoft Defender는 플랫폼의 감지, 조사 및 위협 인텔리전스 기능을 향상시키는 데 도움이 되는 타사 응용 프로그램을 지원합니다.
 
 
 ## <a name="april-2019"></a>2019년 4월
-- [Microsoft 위협 전문가 대상 공격 알림 기능](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts#targeted-attack-notification) <BR> Microsoft 위협 전문가 표적 공격 알림 경고는 조직에 맞게 조정되어 빠르게 전달될 수 있는 많은 정보를 제공하여 타임라인, 위반 범위 및 침입 방법을 포함하여 네트워크의 중요한 위협에 관심을 집중시킵니다.
+- [Microsoft 위협 전문가 대상 공격 알림 기능](microsoft-threat-experts.md) <BR> Microsoft 위협 전문가 표적 공격 알림 경고는 조직에 맞게 조정되어 빠르게 전달될 수 있는 많은 정보를 제공하여 타임라인, 위반 범위 및 침입 방법을 포함하여 네트워크의 중요한 위협에 관심을 집중시킵니다.
 
-- [엔드포인트용 Microsoft Defender API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro)  <BR> 끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 통해 워크플로를 자동화하고 끝점용 Microsoft Defender 기능을 기반으로 혁신할 수 있습니다. 
+- [엔드포인트용 Microsoft Defender API](apis-intro.md)  <BR> 끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 통해 워크플로를 자동화하고 끝점용 Microsoft Defender 기능을 기반으로 혁신할 수 있습니다. 
 
 
 
 ## <a name="february-2019"></a>2019년 2월
-- [인시던트](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/incidents-queue) <BR> 인시던트는 모든 관련 경고 및 관련 엔터티를 모아 더 광범위한 공격 스토리를 설명하는 Microsoft Defender for Endpoint의 새로운 엔터티로, 분석가에게 복잡한 위협의 제거에 대한 더 나은 관점을 제공합니다. 
+- [인시던트](view-incidents-queue.md) <BR> 인시던트는 모든 관련 경고 및 관련 엔터티를 모아 더 광범위한 공격 스토리를 설명하는 Microsoft Defender for Endpoint의 새로운 엔터티로, 분석가에게 복잡한 위협의 제거에 대한 더 나은 관점을 제공합니다. 
 
-- [이전 버전의 Windows 온보딩](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/onboard-downlevel-windows-defender-advanced-threat-protection)<BR> 지원되는 버전의 Windows 끝점 센서에 센서 데이터를 보낼 수 있도록 온보딩합니다.
+- [이전 버전의 Windows 온보딩](onboard-downlevel.md)<BR> 지원되는 버전의 Windows 끝점 센서에 센서 데이터를 보낼 수 있도록 온보딩합니다.
 
 
 ## <a name="october-2018"></a>2018년 10월
-- [공격 표면 감소 규칙](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>모든 공격 표면 감소 규칙은 이제 Server 2019에서 Windows 지원됩니다.
+- [공격 표면 감소 규칙](attack-surface-reduction.md)<BR>모든 공격 표면 감소 규칙은 이제 Server 2019에서 Windows 지원됩니다.
 
-- [제어된 폴더 액세스](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR> 제어된 폴더 액세스는 이제 Server 2019에서 Windows 지원됩니다.
+- [제어된 폴더 액세스](enable-controlled-folders.md)<BR> 제어된 폴더 액세스는 이제 Server 2019에서 Windows 지원됩니다.
 
-- [사용자 지정 검색](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-custom-detections)<BR>사용자 지정 검색을 사용하면 의심스러우거나 새로운 위협과 같은 모든 종류의 동작을 모니터링하는 사용자 지정 쿼리를 만들 수 있습니다. 사용자 지정 검색 규칙을 만들어 고급 헌팅 기능을 활용하면 됩니다. 
+- [사용자 지정 검색](manage-indicators.md)<BR>사용자 지정 검색을 사용하면 의심스러우거나 새로운 위협과 같은 모든 종류의 동작을 모니터링하는 사용자 지정 쿼리를 만들 수 있습니다. 사용자 지정 검색 규칙을 만들어 고급 헌팅 기능을 활용하면 됩니다. 
 
-- [AAzure Defender와의 통합](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection#integration-with-azure-security-center)<BR> 끝점용 Microsoft Defender는 Azure Defender와 통합하여 포괄적인 서버 보호 솔루션을 제공합니다. 이 통합을 통해 Azure Defender는 끝점용 Microsoft Defender의 기능을 활용하여 서버의 위협 감지를 Windows 있습니다.
+- [Azure Defender와 통합](configure-server-endpoints.md)<BR> 끝점용 Microsoft Defender는 Azure Defender와 통합하여 포괄적인 서버 보호 솔루션을 제공합니다. 이 통합을 통해 Azure Defender는 끝점용 Microsoft Defender의 기능을 활용하여 서버의 위협 감지를 Windows 있습니다.
 
-- [MSSP(관리되는 보안 서비스 공급자) 지원](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/mssp-support-windows-defender-advanced-threat-protection)<BR> 끝점용 Microsoft Defender는 MSSP 통합을 제공하여 이 시나리오에 대한 지원을 추가합니다. 이러한 통합을 통해 MSSP는 MSSP 고객의 Microsoft Defender 보안 센터 포털에 액세스하고, 전자 메일 알림을 받고, SIEM(보안 정보 및 이벤트 관리) 도구를 통해 경고를 받을 수 있습니다.
+- [MSSP(관리되는 보안 서비스 공급자) 지원](mssp-support.md)<BR> 끝점용 Microsoft Defender는 MSSP 통합을 제공하여 이 시나리오에 대한 지원을 추가합니다. 이러한 통합을 통해 MSSP는 MSSP 고객의 Microsoft Defender 보안 센터 포털에 액세스하고, 전자 메일 알림을 받고, SIEM(보안 정보 및 이벤트 관리) 도구를 통해 경고를 받을 수 있습니다.
 
 - [이동식 장치 컨트롤](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/19/windows-defender-atp-has-protections-for-usb-and-removable-devices/)<BR>Microsoft Defender for Endpoint는 특정 하드웨어 ID를 허용하거나 차단하는 새로운 설정을 포함하여 이동식 장치의 위협을 방지하는 데 도움이 되는 여러 모니터링 및 제어 기능을 제공합니다.
 
-- [iOS 및 Android 장치 지원](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection#turn-on-third-party-integration)<BR> 이제 iOS 및 Android 장치가 지원됩니다. 이 서비스를 온보드할 수 있습니다.
+- [iOS 및 Android 장치 지원](configure-endpoints-non-windows.md)<BR> 이제 iOS 및 Android 장치가 지원됩니다. 이 서비스를 온보드할 수 있습니다.
 
-- [위협 분석](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/threat-analytics)<BR>
+- [위협 분석](threat-analytics.md)<BR>
 Threat Analytics는 새로운 위협 및 발생이 식별되는 즉시 끝점 연구 팀에 의해 게시된 대화형 보고서 집합입니다. 이 보고서는 보안 운영 팀이 환경에 미치는 영향을 평가하는 데 도움을 주며, 조직 탄력성 향상 및 특정 위협 방지를 위한 권장 조치를 제공합니다.
 
 - Windows 10 버전 1809의 새로운 공격 표면 감소 규칙은 다음과 같은 두 가지입니다. 
   - Adobe Reader에서 하위 프로세스를 만들지 차단
   - 통신 Office 자식 프로세스를 만들지 차단합니다.
   
-- [Windows Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
+- [Windows Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
     - AMSI(맬웨어 방지 검사 인터페이스)는 VBA 매크로에 Office 확장되었습니다. [Office VBA + AMSI: 악성 매크로에 대해 베일을 파트링합니다.](https://cloudblogs.microsoft.com/microsoftsecure/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/)
     - Microsoft Defender 바이러스 백신 버전 1809의 새로운 Windows 10 이제 샌드박스(미리 보기) 내에서 실행하여 보안을 강화할 수 있습니다. [](https://www.microsoft.com/security/blog/2018/10/26/windows-defender-antivirus-can-now-run-in-a-sandbox)
-    - [검색에 대한 CPU](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus) 우선 순위 Microsoft Defender 바이러스 백신 구성합니다.
+    - [검색에 대한 CPU](configure-advanced-scan-types-microsoft-defender-antivirus.md) 우선 순위 Microsoft Defender 바이러스 백신 구성합니다.
 
 
   
 ## <a name="march-2018"></a>2018년 3월
-- [지능형 헌팅](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) <BR>
+- [지능형 헌팅](advanced-hunting-overview.md) <BR>
 끝점용 Microsoft Defender의 고급 헌팅을 사용하여 데이터를 쿼리합니다.
 
-- [공격 표면 감소 규칙](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
+- [공격 표면 감소 규칙](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
     새로운 공격 표면 감소 규칙: 
   - 랜섬웨어에 대한 고급 보호 사용
   - 로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단
@@ -184,29 +186,29 @@ Threat Analytics는 새로운 위협 및 발생이 식별되는 즉시 끝점 �
   - USB에서 실행된 무단 및 사인되지 않은 프로세스 차단
   - 전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단
 
-- [자동화된 조사 및 수정](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection)<BR> 자동화된 조사를 사용하여 위협을 조사하고 수정합니다.
+- [자동화된 조사 및 수정](automated-investigations.md)<BR> 자동화된 조사를 사용하여 위협을 조사하고 수정합니다.
 
     >[!NOTE]
     >버전 Windows 10 버전 1803 이상에서 사용할 수 있습니다.
 
-- [조건부 액세스](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/conditional-access-windows-defender-advanced-threat-protection) <br> 조건부 액세스를 사용하도록 설정하여 사용자, 장치 및 데이터를 보다 잘 보호합니다.
+- [조건부 액세스](conditional-access.md) <br> 조건부 액세스를 사용하도록 설정하여 사용자, 장치 및 데이터를 보다 잘 보호합니다.
 
-- [끝점용 Microsoft Defender Community 센터](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/community-windows-defender-advanced-threat-protection)<BR> 
+- [끝점용 Microsoft Defender Community 센터](community.md)<BR> 
     끝점용 Microsoft Defender Community 센터는 커뮤니티 구성원이 제품에 대한 학습, 공동 작업 및 경험을 공유할 수 있는 장소입니다. 
 
-- [제어된 폴더 액세스](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR>
+- [제어된 폴더 액세스](enable-controlled-folders.md)<BR>
 이제 제어된 폴더 액세스를 사용하여 디스크 섹터에 쓸 수 없는 프로세스를 차단할 수 있습니다.
 
-- [Windows가 아닌 장치 온보딩](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection)<BR>
+- [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)<BR>
     끝점용 Microsoft Defender는 비보안 플랫폼뿐만 아니라 Windows 중앙 집중식 보안 Windows 환경을 제공합니다. 지원되는 다양한 OS(운영 체제)에서 경고를 보고 조직의 Microsoft Defender 보안 센터 보호할 수 있습니다.
 
-- [역할 기반 액세스 컨트롤(RBAC)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)<BR>
+- [역할 기반 액세스 컨트롤(RBAC)](rbac.md)<BR>
     RBAC(역할 기반 액세스 제어)를 사용하면 보안 작업 팀 내에 역할 및 그룹을 만들어 포털에 대한 적절한 액세스 권한을 부여할 수 있습니다.
 
 
-- [Windows Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)<BR>
-Microsoft Defender 바이러스 백신 M365 서비스 간에 검색 상태를 공유하고 끝점용 Microsoft Defender와 상호 협력합니다. 자세한 내용은 클라우드 제공 보호를 통해 Microsoft Defender 바이러스 백신 기술 사용을 [참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
+- [Windows Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)<BR>
+Microsoft Defender 바이러스 백신 서비스 간에 검색 상태를 공유하고 Microsoft 365 Microsoft Defender for Endpoint와 상호 협력합니다. 자세한 내용은 클라우드 제공 보호를 통해 Microsoft Defender 바이러스 백신 기술 사용을 [참조하세요.](cloud-protection-microsoft-defender-antivirus.md)
 
-    이제 JS, VBS 또는 매크로와 같은 이식 가능하지 않은 실행 파일과 실행 파일을 차단할 수 있습니다. 자세한 내용은 [Enable block at first sight을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
+    이제 JS, VBS 또는 매크로와 같은 이식 가능하지 않은 실행 파일과 실행 파일을 차단할 수 있습니다. 자세한 내용은 [Enable block at first sight을 참조하세요.](configure-block-at-first-sight-microsoft-defender-antivirus.md)
 
 

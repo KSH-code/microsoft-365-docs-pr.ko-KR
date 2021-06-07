@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/03/2021
-ms.openlocfilehash: e67f783552cca5cc36c1563f5e5557796028ea18
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.date: 06/04/2021
+ms.openlocfilehash: 264a3b7a4a24c446048d6cfc6863f1ae9765566f
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772020"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789186"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -83,6 +83,21 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 - 통합 개선된 기능(클라우드, Microsoft 365 Defender).
 <br/>
 <details>
+<summary> 2021년 5월(플랫폼: 4.18.2105.4 | 엔진: 1.1.18200.4)</summary>
+
+&ensp;보안 인텔리전스 업데이트 버전: **1.341.8.0**  
+&ensp;릴리스: **2021년 6월 4일**  
+&ensp;플랫폼: **4.18.2105.4**  
+&ensp;엔진: **1.1.18200.4**  
+&ensp;지원 단계: **보안 및 중요 업데이트**
+    
+### <a name="whats-new"></a>새로운 기능
+- 동작 모니터링 개선 
+
+### <a name="known-issues"></a>알려진 문제
+알려진 문제 없음  
+<br/>
+</details><details>
 <summary> 2021년 4월(플랫폼: 4.18.2104.14 | 엔진: 1.1.18100.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.337.2.0**  
@@ -98,9 +113,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음  
 <br/>
-</details>
-
-<details>
+</details><details>
 <summary> 2021년 3월(플랫폼: 4.18.2103.7 | 엔진: 1.1.18000.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.335.36.0**  
@@ -118,14 +131,20 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음  
 <br/>
-</details><details>
+</details>
+
+### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
+
+새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다. 
+<br/><br/>
+<details>
 <summary> 2021년 2월(플랫폼: 4.18.2102.3 | 엔진: 1.1.17900.7)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.333.7.0**  
 &ensp;릴리스: **2021년 3월 9일**  
 &ensp;플랫폼: **4.18.2102.3**  
 &ensp;엔진: **1.1.17900.7**  
-&ensp;지원 단계: **보안 및 중요 업데이트**
+&ensp;지원 단계: **기술 업그레이드 지원(전용)**
     
 ### <a name="whats-new"></a>새로운 기능
 
@@ -135,13 +154,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음  
 <br/>
-</details>
-
-### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
-
-새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다. 
-<br/><br/>
-<details>
+</details><details>
 <summary> 2021년 1월(플랫폼: 4.18.2101.9 | 엔진: 1.1.17800.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.327.1854.0**  

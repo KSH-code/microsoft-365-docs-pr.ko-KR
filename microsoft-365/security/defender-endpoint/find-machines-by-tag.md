@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6460860828acd5ea0c3509e9eb06061d2a9a0cc2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 88ad63d8b7cc71f7d3f809c7cb0371fc41bb9f5d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200152"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771168"
 ---
 # <a name="find-devices-by-tag-api"></a>태그 API로 장치 찾기
 
@@ -68,13 +70,13 @@ GET /api/machines/findbytag?tag={tag}&useStartsWithFilter={true/false}
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 ## <a name="request-uri-parameters"></a>요청 URI 매개 변수
 
 이름 | 유형 | 설명
 :---|:---|:---
-tag | 문자열 | 태그 이름입니다. **필수입니다**.
+tag | String | 태그 이름입니다. **필수입니다**.
 useStartsWithFilter | 부울 | true로 설정하면 쿼리에서 태그 이름이 지정한 태그로 시작하는 모든 장치가 검색됩니다. 기본값은 false입니다. 선택 사항입니다.
 
 ## <a name="request-body"></a>요청 본문
@@ -83,7 +85,7 @@ useStartsWithFilter | 부울 | true로 설정하면 쿼리에서 태그 이름�
 ## <a name="response"></a>응답
 성공적이면 - 응답 본문에 컴퓨터 목록이 있는 200 OK.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

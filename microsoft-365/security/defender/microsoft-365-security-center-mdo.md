@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 62a917b36355335c8eb52d83caecdbba691f8175
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 2322dbab657d6dd73ce79b3a8e52a3d968c45809
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52242135"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770981"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
 
@@ -33,7 +33,33 @@ ms.locfileid: "52242135"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365)
 
-[https://security.microsoft.com](https://security.microsoft.com)의 개선된 [Microsoft 365 보안 센터](./overview-security-center.md)는 Microsoft Defender 보안 센터와 Office 365 보안 및 준수 센터 등의 기존 Microsoft 보안 포털의 보안 기능을 결합합니다. 이 개선된 센터는 보안 팀이 더 효과적이고 효율적으로 위협으로부터 조직을 보호하는 데 도움이 됩니다.
+## <a name="quick-reference"></a>빠른 참조
+
+아래 이미지와 표에는 Office 365 보안 및 준수 센터와 & 보안 센터 Microsoft 365 변경 내용이 나열되어 있습니다.
+
+> [!div class="mx-imgBorder"]
+> ![이동한 위치의 이미지](../../media/mdo-m3d-security-center.png)
+
+<br>
+
+****
+
+|Office 365 보안 & 규정 준수|Microsoft 365 보안 센터|Microsoft 365 규정 준수 센터|Exchange 관리 센터|
+|---|---|---|---|
+|경고|전자 메일 및 공동 작업|||
+|분류||준수 [Microsoft 365 참조](https://compliance.microsoft.com/homepage)||
+|데이터 손실 방지||준수 [Microsoft 365 참조](https://compliance.microsoft.com/homepage)||
+|레코드 관리||준수 [Microsoft 365 참조](https://compliance.microsoft.com/homepage) ||
+|정보 거버넌스||준수 [Microsoft 365 참조](https://compliance.microsoft.com/homepage)||
+|위협 관리|전자 메일 및 공동 작업|||
+|메일 흐름|||관리 [Exchange 참조](https://admin.exchange.microsoft.com/#/)|
+|데이터 개인 정보||준수 [Microsoft 365 참조](https://compliance.microsoft.com/homepage)||
+|검색|검색|||
+|보고서|보고서|||
+|서비스 보증|설정|||
+|
+
+<https://security.microsoft.com>의 개선된 [Microsoft 365 보안 센터](./overview-security-center.md)는 Microsoft Defender 보안 센터와 Office 365 보안 및 준수 센터 등의 기존 Microsoft 보안 포털의 보안 기능을 결합합니다. 이 개선된 센터는 보안 팀이 더 효과적이고 효율적으로 위협으로부터 조직을 보호하는 데 도움이 됩니다.
 
 Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 경우 이 문서에서는 Microsoft 365 보안 센터의 몇 가지 변경 및 개선 사항을 설명합니다.
 
@@ -69,7 +95,7 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 또한 이 문서 아래에 있는 **관련 정보** 섹션을 참조하세요.
 
 > [!IMPORTANT]
-> Microsoft 365 보안 포털(https://security.microsoft.com)에서 https://securitycenter.windows.com 및 https://protection.office.com보안 기능을 결합합니다. 그러나 표시되는 내용은 구독에 따라 다를 수 있습니다. 예를 들어 독립 실행형 구독으로 Office 365용 Microsoft Defender 플랜 1 또는 2만 있는 경우 엔드포인트용 보안과 관련된 기능이 표시되지 않으며 Office용 Defender 플랜 1 고객에게는 위협 분석과 같은 항목이 표시되지 않습니다.
+> Microsoft 365 보안 포털( <https://security.microsoft.com> )은 및 의 보안 기능을 <https://securitycenter.windows.com> <https://protection.office.com> 결합합니다. 그러나 표시되는 내용은 구독에 따라 다를 수 있습니다. 예를 들어 독립 실행형 구독으로 Office 365용 Microsoft Defender 플랜 1 또는 2만 있는 경우 엔드포인트용 보안과 관련된 기능이 표시되지 않으며 Office용 Defender 플랜 1 고객에게는 위협 분석과 같은 항목이 표시되지 않습니다.
 
 > [!TIP]
 > EOP는 Exchange Online Protection Defender의 핵심 요소이기 때문에 모든 EOP(Microsoft 365) 기능이 Office 365.
@@ -147,15 +173,15 @@ Microsoft 365 보안 센터의 왼쪽 위 탐색 표시줄에서 또는 조직�
 
 [Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365.md#getting-started) 문서의 [시작](/microsoft-365/security/office-365-security/defender-for-office-365) 섹션에는 다음과 같은 논리적 초기 구성 덩어리가 있습니다.
 
-1. 이름에 '방지'가 포함된 모든 항목 구성
-   - 밸웨어 방지
+1. 이름에 'Anti'가 있는 모든 것을 구성합니다.
+   - 맬웨어 방지
    - 피싱 방지
    - 스팸 방지
-2. 이름에 '안전한'을 사용하여 모든 항목 설정
+2. 이름에 '안전'으로 모든 것을 설정합니다.
    - 안전한 링크
    - 안전한 첨부 파일
-3. 작업을 방어할 때 (예: SharePoint Online, OneDrive 및 Teams)
-4. ZAP로 보호
+3. 작업을 방어할 때 (예: SharePoint 온라인, OneDrive 및 Teams).
+4. 제로 아워 자동 제거로 보호합니다.
 
 [링크](../office-365-security/protect-against-threats.md)를 통해 바로 시작하여 첫날에 구성을 시작하세요.
 
@@ -181,7 +207,7 @@ EmailPostDeliveryEvents
 LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, LogonType
 ```
 
-:::image type="content" source="../../media/converge-13-advanced-hunt-an-email-zap-new.png" alt-text="(헌팅 아래) 고급 헌팅 페이지의 쿼리 패널 상단에서 쿼리를 선택하고 Kusto 쿼리를 실행해 지난 7일간의 ZAP 작업을 캡처합니다.":::
+:::image type="content" source="../../media/converge-13-advanced-hunt-an-email-zap-new.png" alt-text="쿼리 패널 맨 위에 선택된 쿼리가 있는 고급 헌팅 페이지(헌팅 아래)를 표시하고 Kusto 쿼리를 실행하여 지난 7일 동안의 ZAP 작업을 캡처합니다.":::
 
 이 쿼리의 데이터는 쿼리 자체 아래에 있는 결과 패널에 나타납니다. 결과에는 사용자 지정 가능한 결과 집합의 'DeviceName', 'AccountDisplayName', 'ZapTime' 같은 정보가 포함됩니다. 레코드에 대한 결과를 내보낼 수도 있습니다. 쿼리가 다시 필요하면 **저장** > **다른 이름으로 저장** 을 선택하고 쿼리 목록, 공유 또는 커뮤니티 쿼리에 쿼리를 추가합니다.
 

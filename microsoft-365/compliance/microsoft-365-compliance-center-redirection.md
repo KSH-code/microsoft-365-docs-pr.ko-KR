@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: 보안 및 준수 센터 사용자를 Office 365 규정 준수 센터로 Microsoft 365 대해 자세히 알아보습니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: fb667e8f19b26cbe229b3aceffe194a86133c261
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b51b2e225c833ac499379bbee119f8cb6f4216e9
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772482"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782840"
 ---
 # <a name="redirect-users-from-the-office-365-security-and-compliance-center-to-the-microsoft-365-compliance-center"></a>보안 및 Office 365 센터에서 Microsoft 365 규정 준수 센터로 리디렉션
 
@@ -51,7 +51,7 @@ ms.locfileid: "52772482"
 1. 전역 관리자로 [](https://compliance.microsoft.com) Microsoft 365 Azure Active Directory에서 규정 준수 관리자 권한이 있는 계정을 사용하여 규정 준수 센터에 로그인합니다.
 2. 준수 **설정**  >  **리디렉션으로 이동합니다.**
 3. 자동 리디렉션 설정을 끄기 로 **전환합니다.**
-4. 메시지가 **표시될** 때 사용 안 을 선택하고 피드백을 공유합니다.
+4. 메시지가 **표시될 때** 끄기 및 피드백 공유를 선택합니다.
 
 사용하지 않도록 설정하면 사용자는 더 이상 compliance.microsoft.com 라우팅되지 Office 365 보안 및 규정 준수 센터(protection.microsoft.com). 전역 또는 규정 준수 관리자가 이 설정을 다시 사용하도록 설정할 수 있습니다.
 

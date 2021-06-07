@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 180179d5b1362ad4952618148b11007aa9efe91c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dcb00d0d2afc7f873ea9c4afa3174ac46babf879
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200068"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770784"
 ---
 # <a name="get-machineaction-api"></a>machineAction API 사용
 
@@ -65,7 +67,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions/{id}
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -74,7 +76,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions/{id}
 ## <a name="response"></a>응답
 성공하면 이 메서드는 Machine Action 엔터티가 있는 200, 확인 응답 [코드를 반환합니다.](machineaction.md) 지정된 ID가 있는 컴퓨터 작업 엔터티를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

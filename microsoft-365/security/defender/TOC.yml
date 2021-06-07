@@ -322,7 +322,7 @@
                   items:
                     - name: Microsoft 365 스트리밍 API
                       href: ../defender-endpoint/raw-data-export.md
-                    - name: Azure 이벤트 허브에 지능형 헌팅 이벤트 스트리밍
+                    - name: Azure 이벤트 허브로 고급 헌팅 심지어 스트리밍
                       href: ../defender-endpoint/raw-data-export-event-hub.md
                     - name: 저장소 계정에 지능형 헌팅 이벤트 스트리밍
                       href: ../defender-endpoint/raw-data-export-storage.md

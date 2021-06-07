@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 EOP(스푸핑 인텔리전스 정보)에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 37c5bcb6f2c15c3814fafa198f2905e23b12ba01
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 45ecbe68072441b40477d1b27953b957aeffa9e3
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538750"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793175"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>EOP의 스푸핑 인텔리전스 정보
 
@@ -63,7 +63,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 > [!NOTE]
 >
-> - 스푸핑 인텔리전스에서 검색된 스푸핑된 보낸 사람만 스푸핑 인텔리전스 인사이트에 표시됩니다. 인사이트에서 허용 또는 차단 판정을 다시 설정하면 스푸핑된 보낸 사람이 테넌트 허용/차단 목록의 스푸핑 탭에만 나타나는 수동 허용 또는 차단 항목이 됩니다.  스푸핑 인텔리전스에서 검색되기 전에 스푸핑된 보낸 사람에 대한 허용 또는 차단 항목을 수동으로 만들 수도 있습니다. 자세한 내용은 [EOP에서 테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
+> - 스푸핑 인텔리전스에서 검색된 스푸핑된 보낸 사람만 스푸핑 인텔리전스 인사이트에 표시됩니다. 인사이트에서 허용 또는 차단 판정을 다시 설정하면 스푸핑된 보낸 사람이 테넌트 허용/차단 목록의 스푸핑 탭에만 나타나는 수동 허용 또는 차단 항목이 됩니다.  스푸핑 인텔리전스에서 검색되기 전에 스푸핑된 보낸 사람에 대한 허용 또는 차단 항목을 수동으로 만들 수도 있습니다. 자세한 내용은 [EOP에서 테넌트 허용/차단 목록 관리](tenant-allow-block-list.md)를 참조하세요.
 >
 > - 테넌트 허용/차단  목록의 스푸핑 인텔리전스 정보 분석 및 스푸핑 탭은 보안 및 준수 센터의 스팸 방지 정책 페이지에서 사용할 수 있는 스푸핑 인텔리전스 정책의 & 대체합니다.
 >
@@ -88,7 +88,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 - EOP 및 Microsoft Defender for Office 365 피싱 방지 정책에서 스푸핑 인텔리전스를 사용하도록 설정하고 사용하지 않도록 Office 365. 스푸핑 인텔리전스가 기본적으로 사용됩니다. 자세한 내용은 [EOP에서](configure-anti-phishing-policies-eop.md) 피싱 방지 정책 구성 또는 Microsoft [Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 Office 365.
 
-- 스푸핑 인텔리전스에 대한 권장 설정은 EOP 기본 피싱 방지 정책 설정을 [참조하세요.](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)
+- 스푸핑 인텔리전스에 대한 권장 설정은 EOP 피싱 방지 정책 [설정을 참조하세요.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 스푸핑 인텔리전스 & 열기
 

@@ -11,21 +11,19 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/05/2021
+ms.date: 06/04/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 124ebde48c008743a486a4454e7772fd93f9eca7
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: fdca059633ab0993e07b5b1be0c6f33cfe327fcf
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275363"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789174"
 ---
 # <a name="configure-and-run-on-demand-microsoft-defender-antivirus-scans"></a>요청 기반 Microsoft Defender 바이러스 백신 검사 구성 및 실행
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 
@@ -40,14 +38,12 @@ ms.locfileid: "52275363"
 > [!IMPORTANT]
 > Microsoft Defender 바이러스 백신 로컬 검색을 수행할 때 [LocalSystem](/windows/win32/services/localsystem-account) 계정의 컨텍스트에서 실행됩니다. 네트워크 검사의 경우 디바이스 계정의 컨텍스트를 사용합니다. 도메인 장치 계정에 공유에 액세스할 수 있는 적절한 권한이 없는 경우 검사가 작동하지 않습니다. 디바이스에 액세스 네트워크 공유에 대한 사용 권한이 있는지 확인합니다.
 
-파일을 [](configure-real-time-protection-microsoft-defender-antivirus.md)열고 닫을 때 그리고 사용자가 폴더로 이동할 때마다 파일을 검토하는 실시간 보호 기능과 함께 빠른 검사는 시스템으로 시작하는 맬웨어와 커널 수준 맬웨어에 대해 강력한 적용 범위를 제공하는 데 도움이 됩니다.  
+항상 [실시간 보호](configure-real-time-protection-microsoft-defender-antivirus.md)기능과 결합된 빠른 검사는 시스템으로 시작되는 맬웨어와 커널 수준 맬웨어에 대해 강력한 범위를 제공합니다. 항상 실시간 보호는 파일을 열고 닫을 때, 그리고 사용자가 폴더로 이동할 때마다 파일을 검토합니다. 기본적으로 빠른 검사는 USB 드라이브와 같은 탑재된 이동식 장치에서 실행됩니다. 대부분의 경우 빠른 검사는 실시간 보호로 선택되지 않은 맬웨어를 찾는 데 적합합니다.
 
-대부분의 경우 빠른 검사는 실시간 보호로 선택되지 않은 맬웨어를 찾는 데 적합합니다.
+전체 검사는 끝점에서 맬웨어 위협이 보고될 때 유용할 수 있습니다. 검사는 보다 철저한 정리가 필요한 비활성 구성 요소가 있는지 여부를 식별할 수 있습니다. 그러나 Microsoft는 일반적으로 전체 검사 대신 빠른 검색을 사용하는 것이 좋습니다. 전체 검사는 검사해야 하는 데이터의 양과 유형에 따라 완료하는 데 몇 시간 또는 며칠이 걸릴 수 있습니다. 
 
-전체 검사는 맬웨어 위협을 보고한 끝점에서 유용할 수 있습니다. 검사는 보다 철저한 정리가 필요한 비활성 구성 요소가 있는지 식별할 수 있습니다. 이는 조직에서 요구 시 검색을 실행하는 경우 이상적입니다.
-
-> [!NOTE]
-> 기본적으로 빠른 검사는 USB 드라이브와 같은 탑재된 이동식 장치에서 실행됩니다.
+> [!TIP]
+> 빠른 검사와 전체 검사의 차이점에 대한 자세한 내용은 빠른 검사와 전체 검사 및 사용자 지정 검사 를 [참조합니다.](scheduled-catch-up-scans-microsoft-defender-antivirus.md#quick-scan-versus-full-scan-and-custom-scan)
 
 ## <a name="use-microsoft-endpoint-manager-to-run-a-scan"></a>검색 Microsoft Endpoint Manager 실행
 
@@ -101,4 +97,4 @@ PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 Micro
 
 - [Microsoft Defender 바이러스 백신 검사 옵션 구성](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 - [예약된 Microsoft Defender 바이러스 백신 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

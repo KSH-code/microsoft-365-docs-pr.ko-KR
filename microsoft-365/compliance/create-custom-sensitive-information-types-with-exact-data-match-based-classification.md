@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c6db9df115020902b80328a341606cca2b1c735
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b729cb8a4c30ec13e22f36f9721cb55ecc93942d
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769464"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779870"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -377,7 +377,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 > 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하여 스키마 및 패턴 파일을 만든 경우 이 절차에 대한 스키마를 ***다운로드해야*** 합니다.
 
 > [!NOTE]
-> 조직에서 [테넌트 수준(공개 미리 보기)에서 Microsoft 365용 고객 키](customer-key-tenant-level.md#overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview)를 설정한 경우 정확한 데이터 일치는 암호화 기능을 자동으로 사용합니다.  상업용 클라우드의 E5 라이선스 테넌트에서만 사용할 수 있습니다.
+> 조직에서 테넌트 [](customer-key-overview.md)Microsoft 365 사용자에 대한 고객 키를 설정한 경우 정확한 데이터 일치는 암호화 기능을 자동으로 사용합니다. 상업용 클라우드의 E5 라이선스 테넌트에서만 사용할 수 있습니다.
 
 #### <a name="prerequisites"></a>필수 구성 요소
 

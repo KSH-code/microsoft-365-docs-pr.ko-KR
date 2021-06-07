@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용하여 추가 기능을 배포할 수 있도록 테넌트와 사용자가 요구 사항을 Office 확인합니다.
-ms.openlocfilehash: 531281eba6accfb2e1ffdab1e662a03b077869bd
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 63775ed6bab2d595ae87085e1607be5818b355e2
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779761"
+ms.locfileid: "52782490"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 적합한지 확인
 
@@ -121,7 +121,7 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 - 지원되는 사서함 - OAuth 지원 사서함을 사용 중인 경우
 
 > [!NOTE]
-> 중앙 배포 PowerShell 모듈을 사용하는 경우 다단계 인증이 지원되지 않습니다.
+> 중앙 배포 PowerShell 모듈을 사용하는 경우 다단계 인증이 지원되지 않습니다. 모듈은 기본 인증에서만 작동합니다.
   
 ## <a name="user-and-group-assignments"></a>사용자 및 그룹 할당
 

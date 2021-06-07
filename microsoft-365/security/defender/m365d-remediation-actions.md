@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender의 수정 작업
-description: Microsoft 365 Defender에서 자동화된 조사를 따르는 수정 작업의 개요를 얻습니다.
+title: Defender의 Microsoft 365 조치
+description: Defender에서 자동화된 조사를 따르는 수정 Microsoft 365 개요를 얻습니다.
 keywords: 자동화된, 조사, 경고, 트리거, 작업, 수정
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 80546d44bc1ba222c736b397a272f9f1f1a01d4a
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f025f23242c28f698e6f67755cc59d21c4463914
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52269471"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782948"
 ---
-# <a name="remediation-actions-in-microsoft-365-defender"></a>Microsoft 365 Defender의 수정 작업
+# <a name="remediation-actions-in-microsoft-365-defender"></a>Defender의 Microsoft 365 조치
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,21 +36,21 @@ ms.locfileid: "52269471"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender에서 자동화된 조사가 진행되는 동안 및 이후에 악의적 또는 의심스러운 항목에 대한 수정 작업이 식별됩니다. 일부 종류의 수정 작업은 끝점이라고도 하는 장치에서 수행됩니다. 기타 수정 작업은 전자 메일 콘텐츠에 대해 수행됩니다. 재구성 작업을 수행, 승인 또는 거부한 후에 자동화된 조사가 완료됩니다.
+Microsoft 365 자동화된 조사가 진행되는 동안 및 이후에 악의적 또는 의심스러운 항목에 대해 수정 작업이 식별됩니다. 일부 종류의 수정 작업은 끝점이라고도 하는 장치에서 수행됩니다. 기타 수정 작업은 전자 메일 콘텐츠에 대해 수행됩니다. 재구성 작업을 수행, 승인 또는 거부한 후에 자동화된 조사가 완료됩니다.
 
 > [!IMPORTANT]
 > 재구성 작업이 자동으로 수행될지 승인에만 수행될지는 자동화 수준과 같은 특정 설정에 따라 결정됩니다. 자세한 내용은 다음 문서를 참조합니다.
-> - [Microsoft 365 Defender에서 자동화된 조사 및 응답 기능 구성](m365d-configure-auto-investigation-response.md)
+> - [Defender에서 자동화된 조사 및 대응 Microsoft 365 구성](m365d-configure-auto-investigation-response.md)
 > - [장치에서 위협을 수정하는 방법](../defender-endpoint/automated-investigations.md)
 > - [전자 메일 및 공동 작업 콘텐츠에 & 수정 작업](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
-다음 표에는 Microsoft 365 Defender에서 현재 지원되는 수정 작업이 요약됩니다. 
+다음 표에는 현재 Defender에서 지원되는 수정 Microsoft 365 요약되어 있습니다. 
 
 |장치(끝점) 수정 작업  |전자 메일 수정 작업  |
 |:---------|:---------|
 |- 조사 패키지 수집 <br/>- 장치 격리(이 작업은 실행을 엽니다.)<br/>- 컴퓨터 오프보드 <br/>- 릴리스 코드 실행 <br/>- 릴리스 <br/>- 샘플 요청 <br/>- 코드 실행 제한(이 작업은 실행을 실행 중지할 수 있습니다. <br/>- 바이러스 백신 검사 실행 <br/>- 중지 및 검사      |- 차단 URL(클릭 시간)<br/>- 전자 메일 메시지 또는 클러스터를 소프트 삭제<br/>- 전자 메일 검지<br/>- 전자 메일 첨부 파일 Quarantine<br/>- 외부 메일 전달 끄기          |
 
-승인 보류 중이든 이미 완료 상태이든 재구성 작업은 관리 센터에서 볼 [수 있습니다.](m365d-action-center.md)
+승인 보류 중이든 이미 완료 상태든 재구성 작업은 관리 센터 에서 볼 [수 있습니다.](m365d-action-center.md)
 
 ## <a name="remediation-actions-that-follow-automated-investigations"></a>자동화된 조사를 따르는 수정 작업
 

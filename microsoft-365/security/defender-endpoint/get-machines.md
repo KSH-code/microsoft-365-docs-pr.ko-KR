@@ -13,13 +13,14 @@ localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
-ms.topic: article
-ms.openlocfilehash: 01e36427116ad7bd845901e7da7f5aa152bd44f9
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: f06973bc45ecac05c15d48afe5f0e2e9e7788f78
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893356"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770752"
 ---
 # <a name="list-machines-api"></a>목록 컴퓨터 API
 
@@ -70,7 +71,7 @@ GET https://api.securitycenter.microsoft.com/api/machines
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문

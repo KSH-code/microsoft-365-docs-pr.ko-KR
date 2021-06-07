@@ -12,17 +12,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Microsoft 365 관리자는 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
+description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 242a4a2f43bd91d75caeaeaa0488f23a5ba4319d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 473591a02b78043153d505dda6dd7ef5ac6e3961
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205764"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789054"
 ---
-# <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Microsoft 365의 랜섬웨어 공격으로부터 복구
+# <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -49,13 +49,13 @@ ms.locfileid: "51205764"
 
 백업이 없는 경우 또는 백업이 랜섬웨어의 영향을 받은 경우 이 단계를 건너뛸 수 있습니다.
 
-## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>2단계: Exchange ActiveSync 및 OneDrive 동기화를 사용하지 않도록 설정
+## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>2단계: 동기화 Exchange ActiveSync OneDrive 사용 안
 
 여기서 핵심은 랜섬웨어에 의해 데이터 암호화의 확산을 중지하는 것입니다.
 
-전자 메일이 랜섬웨어 암호화의 대상으로 의심되는 경우 사서함에 대한 사용자 액세스를 일시적으로 사용하지 않도록 설정하십시오. Exchange ActiveSync Exchange Online 사서함 간에 데이터를 동기화합니다.
+전자 메일이 랜섬웨어 암호화의 대상으로 의심되는 경우 사서함에 대한 사용자 액세스를 일시적으로 사용하지 않도록 설정하십시오. Exchange ActiveSync 사서함과 장치 간에 데이터를 Exchange Online 동기화합니다.
 
-사서함에 Exchange ActiveSync 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 [How to disable Exchange ActiveSync for users in Exchange Online을 참조하세요.](https://support.microsoft.com/help/2795303)
+사서함에 Exchange ActiveSync 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 Exchange ActiveSync 사용자에 대해 사서함을 사용하지 않도록 설정하는 [Exchange Online.](https://support.microsoft.com/help/2795303)
 
 다른 유형의 사서함 액세스를 사용하지 않도록 설정하는 경우 다음을 참조합니다.
 
@@ -63,7 +63,7 @@ ms.locfileid: "51205764"
 
 - [사용자에 대해 POP3 또는 IMAP4 액세스 사용 또는 사용 안 하도록 설정](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 클라우드 데이터가 업데이트되지 못하도록 보호하는 데 도움이 됩니다. 자세한 내용은 [OneDrive에서 동기화를](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)일시 중지하고 다시 시작하는 방법을 참조하세요.
+동기화를 OneDrive 경우 잠재적으로 감염된 장치에 의해 클라우드 데이터가 업데이트되지 못하도록 보호하는 데 도움이 됩니다. 자세한 내용은 에서 동기화 일시 중지 및 다시 시작 방법을 [OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>3단계: 영향을 받는 장치에서 맬웨어 제거
 
@@ -71,7 +71,7 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 데이터를 동기화하는 장치 또는 매핑된 네트워크 드라이브의 대상을 검색하는 것을 잊지 마세요.
 
-또는 [(Windows Defender](https://www.microsoft.com/windows/comprehensive-security) [클라이언트의](https://www.microsoft.com/download/details.aspx?id=5201)경우) 를 사용하여 Microsoft Security Essentials.
+에서 [Windows Defender](https://www.microsoft.com/windows/comprehensive-security) 또는 (이전 클라이언트의 [경우)](https://www.microsoft.com/download/details.aspx?id=5201)를 사용할 Microsoft Security Essentials.
 
 랜섬웨어 또는 맬웨어를 제거하는 데 도움이 되는 [대안으로는 MSRT(악성](https://www.microsoft.com/download/details.aspx?id=9905)소프트웨어 제거 도구)가 있습니다.
 
@@ -79,17 +79,17 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>4단계: 정리된 컴퓨터 또는 장치에서 파일 복구
 
-사용자 환경에서 랜섬웨어 페이로드를 제거하기 위한 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하는 것을 방지) Windows 10 및 Windows 8.1의 파일 기록 또는 Windows 7의 시스템 보호를 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다. [](https://support.microsoft.com/help/17128)
+사용자 환경에서 랜섬웨어 페이로드를 제거하기 위한 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하는 것을 방지) Windows 10 및 Windows 8.1 또는 System Protection의 파일 기록을 Windows 7의 파일 기록을 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다. [](https://support.microsoft.com/help/17128)
 
 **참고:**
 
-- 일부 랜섬웨어는 또한 백업 버전을 암호화하거나 삭제하기 때문에 파일 기록 또는 시스템 보호를 사용하여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명된 바와 같이 랜섬웨어 또는 OneDrive의 영향을 받지 않는 외부 드라이브 또는 장치에서 백업을 사용해야 합니다.
+- 일부 랜섬웨어는 또한 백업 버전을 암호화하거나 삭제하기 때문에 파일 기록 또는 시스템 보호를 사용하여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명된 바와 같이 랜섬웨어 또는 랜섬웨어의 영향을 받지 OneDrive 장치에서 백업을 사용해야 합니다.
 
-- 폴더가 OneDrive와 동기화된 경우 최신 버전의 Windows를 사용하지 않는 경우 파일 기록을 사용하는 데 몇 가지 제한이 있을 수 있습니다.
+- 폴더가 OneDrive 동기화되어 최신 버전의 폴더를 사용하지 않는 Windows 파일 기록을 사용하는 데 몇 가지 제한이 있을 수 있습니다.
 
-## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>5단계: 비즈니스용 OneDrive에서 파일 복구
+## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>5단계: 사용자 설정에서 파일 비즈니스용 OneDrive
 
-비즈니스용 OneDrive에서 파일 복원을 사용하면 지난 30일 이내에 전체 OneDrive를 이전 시점으로 복원할 수 있습니다. 자세한 내용은 [OneDrive 복원을 참조하세요.](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
+파일 비즈니스용 OneDrive 복원을 사용하면 지난 30일 OneDrive 이전 시점으로 전체 파일을 복원할 수 있습니다. 자세한 내용은 [OneDrive 복구](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)를 참조하세요.
 
 ## <a name="step-6-recover-deleted-email"></a>6단계: 삭제된 전자 메일 복구
 
@@ -99,11 +99,11 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 - [Windows용 Outlook에서 삭제된 항목 복구](https://support.microsoft.com/office/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
 
-## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>7단계: Exchange ActiveSync 및 OneDrive 동기화 다시 활성화
+## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>7단계: 동기화 및 Exchange ActiveSync OneDrive 다시 사용하도록 설정
 
-컴퓨터와 장치를 정리하고 데이터를 복구한 후 이전에 [2단계에서](#step-2-disable-exchange-activesync-and-onedrive-sync)사용하지 않도록 Exchange ActiveSync 및 OneDrive 동기화를 다시 사용하도록 설정할 수 있습니다.
+컴퓨터와 장치를 정리하고 데이터를 복구한 후 이전에 [2단계에서](#step-2-disable-exchange-activesync-and-onedrive-sync)사용하지 않도록 설정한 Exchange ActiveSync OneDrive 동기화를 다시 사용하도록 설정할 수 있습니다.
 
-## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>8단계(선택 사항): 특정 파일 확장명에 대한 OneDrive 동기화 차단
+## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>8단계(선택 사항): 특정 OneDrive 동기화 차단
 
 복구한 후 비즈니스용 OneDrive 클라이언트가 이 랜섬웨어의 영향을 받은 파일 형식을 동기화하지 못하게 할 수 있습니다. 자세한 내용은 [Set-SPOTenantSyncClientRestriction을 참조하세요.](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
@@ -129,6 +129,8 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 - 뉴질랜드: [소비자 업무 사기](http://www.consumeraffairs.govt.nz/scams)
 
+- 스위스 [국가 Zentrum für Cybersicherheit NCSC](https://www.ncsc.admin.ch/ncsc/de/home.html)
+
 - 영국: [작업 사기](http://www.actionfraud.police.uk/)
 
 - 미국: [On Guard Online](http://www.onguardonline.gov/)
@@ -147,15 +149,15 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 - [Norsk 지수는 투명성을 통해 랜섬웨어 공격에 대응합니다.](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
-- [OneDrive에서 랜섬웨어 검색 및 파일 복구](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
+- [랜섬웨어 검색 및 복구에서 파일 OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
 - [Microsoft 보안 인텔리전스 보고서](https://www.microsoft.com/securityinsights/)
 
-- [Office 파일에서 매크로 사용 또는 사용 안 하도록 설정](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
+- [파일에서 매크로 사용 또는 Office 사용 안 하도록 설정](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
-- [EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정](recommended-settings-for-eop-and-office365.md)
+- [EOP 및 Microsoft Defender 보안에 대한 Office 365 설정](recommended-settings-for-eop-and-office365.md)
 
-- [업그레이드 가치가 있는 업그레이드: Windows 10의 차세대 보안은 2017년 랜섬웨어 발생에 대한 탄력적인 증명](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
+- [업그레이드 가치가 있는 업그레이드: 2017년 랜섬웨어 Windows 10 대한 차세대 보안이 입증됩니다.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
 - [No mas, Samas: What's in this ransomware's modus operandi?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
 

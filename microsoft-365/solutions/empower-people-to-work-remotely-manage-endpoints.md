@@ -1,5 +1,5 @@
 ---
-title: 4단계. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
+title: '4단계: 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포'
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,16 +17,16 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft Endpoint Manager를 사용하여 장치, PC 및 기타 끝점을 관리합니다.
-ms.openlocfilehash: 116f2a92ccae43a36a8a4ceafcd598c532a852c3
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: ef43f447b819a6e5d9d0de1d979d7d30887e30fb
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028995"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789111"
 ---
-# <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>4단계. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
+# <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>4단계: 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 
-원격 작업자의 경우 점점 늘어나는 개인 장치를 지원해야 합니다. 끝점 관리 기능은 장치에서 리소스에 대한 액세스 권한을 부여받기 전에 특정 기준을 준수해야 하는 정책 기반의 보안 방식입니다. Microsoft Endpoint Manager는 클라우드 및 온-프레미스에서 데이터를 안전하게 유지하기 위한 최신 관리 기능을 제공합니다. 
+하이브리드 작업자의 경우 점점 늘어나는 개인 장치를 지원해야 합니다. 끝점 관리 기능은 장치에서 리소스에 대한 액세스 권한을 부여받기 전에 특정 기준을 준수해야 하는 정책 기반의 보안 방식입니다. Microsoft Endpoint Manager는 클라우드 및 온-프레미스에서 데이터를 안전하게 유지하기 위한 최신 관리 기능을 제공합니다. 
 
 [Microsoft Endpoint Manager](/mem/endpoint-manager-overview)는 사용자가 이미 알고 사용 중에 있는 다음 서비스를 결합하여 모바일 장치, 데스크톱 컴퓨터, 가상 머신, 내장 장치, 서버를 관리하는 서비스와 도구를 제공합니다.
 
@@ -38,7 +38,7 @@ Microsoft Intune은 Microsoft 365에 포함된 MDM(모바일 장치 관리) 및 
 
 - **MDM:** 조직 소유의 장치의 경우 설정, 기능 및 보안을 포함하여 모든 권한을 발휘할 수 있습니다. 장치는에서 규칙과 설정을 사용하여 Intune 정책을 받는 Intune에서 "등록”되었습니다. 예를 들어, 암호와 PIN 요구 사항을 설정하고, VPN 연결을 만들고, 위협 방지를 설정하는 등의 작업을 수행할 수 있습니다.
 
-- **MAM:** 원격 작업자는 BYOD(Bring-Your-Own Device)라고도 하는 개인 기기를 완전히 제어하는 것을 원하지 않을 수 있습니다. 원격 작업자 옵션을 제공하고 계속해서 조직을 보호할 수 있습니다. 예를 들어 원격 작업자가 조직 리소스에 대한 전체 액세스 권한을 원할 경우 장치를 등록할 수 있습니다. 또는 이러한 사용자가 전자 메일 또는 Microsoft Teams에만 액세스하려면 MFA(다단계 인증)가 필요한 앱 보호 정책을 사용하여 이러한 앱을 사용합니다.
+- **MAM:** 원격 작업자는 BYOD(Bring-Your-Own Device)라고도 하는 개인 기기를 완전히 제어하는 것을 원하지 않을 수 있습니다. 하이브리드 작업자 옵션을 제공하고 계속해서 조직을 보호할 수 있습니다. 예를 들어 하이브리드 작업자가 조직 리소스에 대한 전체 액세스 권한을 원할 경우 장치를 등록할 수 있습니다. 또는 이러한 사용자가 전자 메일 또는 Microsoft Teams에만 액세스하려면 MFA(다단계 인증)가 필요한 앱 보호 정책을 사용하여 이러한 앱을 사용합니다.
 
 자세한 내용은 이 [Microsoft Intune의 개요](/intune/fundamentals/what-is-intune)를 참조하세요.
 
@@ -95,4 +95,4 @@ Windows 자동 실행 기능을 사용하면 IT 부서가 쉽고 간단한 프�
 
 [![5단계: 원격 작업자 생산성 앱 및 서비스 배포](../media/empower-people-to-work-remotely/remote-workers-step-grid-5.png)](empower-people-to-work-remotely-teams-productivity-apps.md)
 
-[5단계](empower-people-to-work-remotely-teams-productivity-apps.md)를 계속 진행하면 원격 작업자가 Microsoft 팀과 같은 Microsoft 365 생산성 앱을 사용할 수 있습니다.
+[5단계](empower-people-to-work-remotely-teams-productivity-apps.md)를 계속 진행하면 하이브리드 작업자가 Microsoft 팀과 같은 Microsoft 365 생산성 앱을 사용할 수 있습니다.

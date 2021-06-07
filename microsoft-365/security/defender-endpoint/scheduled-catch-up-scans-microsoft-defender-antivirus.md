@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/05/2021
+ms.date: 06/04/2021
 ms.reviewer: pauhijbr, ksarens
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 1748a33be2c27123eb0437784dcdb2cb7905616a
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f1344026878b7fbd6242d82b1afb0e6671c32073
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274691"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789271"
 ---
 # <a name="configure-scheduled-quick-or-full-microsoft-defender-antivirus-scans"></a>예약된 빠른 또는 전체 Microsoft Defender 바이러스 백신 검사 구성
 
@@ -73,8 +73,8 @@ ms.locfileid: "52274691"
 |시나리오  |권장 검사 유형  |
 |---------|---------|
 |정기적인 예약된 검색을 설정하려는 경우     | 빠른 검사 <p>빠른 검사는 디바이스의 프로세스, 메모리, 프로필 및 특정 위치를 확인합니다. 빠른 [검사는 항상 실시간](configure-real-time-protection-microsoft-defender-antivirus.md)보호와 결합되어 시스템으로 시작되는 맬웨어와 커널 수준 맬웨어에 대해 강력한 범위를 제공합니다. 실시간 보호는 파일을 열고 닫을 때와 사용자가 폴더로 이동할 때마다 검토합니다.         |
-|맬웨어와 같은 위협이 장치에서 감지됩니다.     | 전체 검사 <p>전체 검사는 보다 철저한 정리가 필요한 비활성 구성 요소가 있는지 여부를 식별하는 데 도움이 될 수 있습니다.         |
-|필요한 경우 검색을 [실행하려는 경우](run-scan-microsoft-defender-antivirus.md)     | 전체 검사  <p>전체 검사는 부실, 보관 및 매일 액세스되지 않는 파일을 포함하여 장치 디스크의 모든 파일을 확인합니다.      |
+|개별 장치에서 맬웨어와 같은 위협이 감지됩니다.     | 빠른 검사 <p>대부분의 경우 빠른 검사는 검색된 맬웨어를 catch하고 정리합니다.   |
+|필요한 경우 검색을 [실행하려는 경우](run-scan-microsoft-defender-antivirus.md)     | 빠른 검사       |
 | USB 드라이브와 같은 휴대용 장치에 맬웨어가 포함되어 있지 않은지 확인하려는 경우 | 사용자 지정 검사 <p>사용자 지정 검색을 사용하면 특정 위치, 폴더 또는 파일을 선택하고 빠른 검색을 실행합니다. |
 
 ### <a name="what-else-do-i-need-to-know-about-quick-and-full-scans"></a>빠른 검사 및 전체 검사에 대해 알아야 할 다른 것은 무엇입니까?
@@ -101,7 +101,7 @@ ms.locfileid: "52274691"
 |위치 | 설정 | 설명 | 기본 설정(구성되지 않은 경우) |
 |:---|:---|:---|:---|
 |검사 | 예약된 검사에 사용할 검사 유형 지정 | 빠른 검사 |
-|검사 | 예약된 검색을 실행할 날짜 지정 | 검색을 실행할 날짜를 지정하거나 지정하지 않습니다. | 없음 |
+|검사 | 예약된 검색을 실행할 날짜 지정 | 검색을 실행할 날짜를 지정하거나 지정하지 않습니다. | 공개하지 않음 |
 |검사 | 예약된 검색을 실행할 시간 지정 | 자정 이후의 시간(분)을 지정합니다(예: **60** :a.m.). | 2:a.m. |
 |루트 | 예약된 작업 시간 임의로 |이 Microsoft Defender 바이러스 백신 검사 시작 시간을 0시간에서 4시간 사이의 간격으로 임의로 임의로 변경합니다. <p>[SCEP에서](/mem/intune/protect/certificates-scep-configure)임의로 스캔을 30분을 더하거나 30분을 더한 간격으로 임의로 변경합니다. 이는 가상 컴퓨터 또는 VDI 배포에서 유용할 수 있습니다. | 사용 |
 
@@ -155,7 +155,7 @@ RandomizeScheduleTaskTimes
 Set-MpPreference -ScanOnlyIfIdleEnabled
 ```
 
-자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet을 구성 및 실행을 참조하세요.](/powershell/module/defender/)
+자세한 내용은 [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)과 [Defender cmdlet](/powershell/module/defender/)을 참조하세요.
 
 ### <a name="use-windows-management-instruction-wmi"></a>WMI(Windows 관리 명령) 사용
 
@@ -176,7 +176,7 @@ API 및 허용되는 매개 변수에 대한 자세한 내용은 [WMIv2 api Wind
 
 | 위치 | 설정 | 설명 | 기본 설정(구성되지 않은 경우) |
 |---|---|---|---|
-|수정 | 재구성 완료를 위해 예약된 전체 검사 실행을 위해 주중 날짜 지정 | 검색을 실행할 날짜를 지정하거나 지정하지 않습니다. | 없음 |
+|수정 | 재구성 완료를 위해 예약된 전체 검사 실행을 위해 주중 날짜 지정 | 검색을 실행할 날짜를 지정하거나 지정하지 않습니다. | 공개하지 않음 |
 |수정 | 재구성 완료를 위해 예약된 전체 검사 실행 시간을 지정합니다. | 자정 이후의 시간(분)을 지정합니다(예: **60** :a.m.) | 2:a.m. |
 
 ### <a name="use-powershell-cmdlets"></a>PowerShell cmdlet 사용
@@ -210,7 +210,7 @@ RemediationScheduleTime
 
 |위치 | 설정 | 설명 | 기본 설정(구성되지 않은 경우) |
 |:---|:---|:---|:---|
-|검사 | 매일 빠른 검색을 실행할 간격 지정 | 다음 빠른 검사 전에 경과해야 하는 시간을 지정합니다. 예를 들어 2시간마다 실행을 위해 **2를** 입력하고, 하루 한 번씩 **24를 입력합니다.** **0을 입력하여** 매일 빠른 검색을 실행하지 않습니다. | 없음 |
+|검사 | 매일 빠른 검색을 실행할 간격 지정 | 다음 빠른 검사 전에 경과해야 하는 시간을 지정합니다. 예를 들어 2시간마다 실행을 위해 **2를** 입력하고, 하루 한 번씩 **24를 입력합니다.** **0을 입력하여** 매일 빠른 검색을 실행하지 않습니다. | 공개하지 않음 |
 |검사 | 매일 빠른 검사에 대한 시간 지정 | 자정 이후의 시간(분)을 지정합니다(예: **60** :a.m.) | 2:a.m. |
 
 ### <a name="use-powershell-cmdlets-to-schedule-daily-scans"></a>PowerShell cmdlet을 사용하여 일일 검사 예약
@@ -251,4 +251,4 @@ ScanScheduleQuickScanTime
 - [Microsoft Defender 바이러스 백신 검사 옵션 구성](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 - [업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [보호 업데이트를 다운로드하고 적용해야 하는 경우 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md) 
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

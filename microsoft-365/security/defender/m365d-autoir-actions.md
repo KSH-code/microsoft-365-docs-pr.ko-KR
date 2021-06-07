@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 9e82f1c5de9fe1f4a03385458338edf18c4f35bd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 95c82f815c794662f7eb0ffaabcfb5f81df3e828
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538846"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782996"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>관리 센터에서 작업 보기 및 관리
 
@@ -51,9 +51,9 @@ Defender의 위협 방지 Microsoft 365 특정 수정 작업이 수행될 수 �
 
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
 
-2. 탐색 창에서 **알림 센터** 를 선택합니다. 
+2. 탐색 창에서 **작업 센터** 를 선택합니다. 
 
-3. 알림 센터의 **보류 중인** 탭의 목록에서 항목을 선택합니다. 플라이아웃 창이 열립니다. 다음은 예입니다.
+3. 작업 센터의 보류 중인 **탭에서** 목록의 항목을 선택합니다. 플라이아웃 창이 열립니다. 다음은 예입니다.
 
    ![조치 승인 또는 거부](../../media/air-actioncenter-itemselected.png)
 

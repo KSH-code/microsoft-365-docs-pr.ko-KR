@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 654f8de8d931f26efbcba5b60d730a9d9e477e65
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: d4bd7d02b8c14f8b57b6f2e3eef99c2233d820fe
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769077"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779894"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
 
@@ -49,6 +49,18 @@ We're continuously adding new features to [the Microsoft 365 admin center,](../b
 - [SharePoint 관리 센터의 새로운](/sharepoint/what-s-new-in-admin-center)
 - [Office 업데이트](/OfficeUpdates/)
 - [릴리스 상태 Windows 방법](/windows/deployment/update/check-release-health)
+
+## <a name="june-2021"></a>2021년 6월
+
+### <a name="microsoft-365-admin-center-search"></a>Microsoft 365 센터 검색
+
+검색 기능에 몇 가지 새로운 범주가 추가되었습니다.
+
+- 이제 전역 검색에서 Microsoft 365 관리자 역할을 검색하고 모든 페이지에서 역할 할당을 빠르게 보고 관리할 수 있습니다. 예를 들어 **Intune 관리자 를 검색합니다.**
+
+- 이제 전역 검색을 통해 간소화된 설치 환경을 찾을 수 있습니다. 이를 통해 사용자와 팀이 새 기능을 사용하는 방법을 빠르게 시작할 수 있습니다. 예를 들어 만료되지 않는 암호 설정 **을 검색합니다.**
+
+관리 센터에서 검색에 대한 자세한 내용은 Microsoft 365 관리 센터에서 [검색을 참조하세요.](manage/search-in-the-mac.md)
 
 ## <a name="may-2021"></a>2021년 5월
 

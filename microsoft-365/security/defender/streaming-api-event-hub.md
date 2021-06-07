@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c62f175fc8227f64b9f18de78a2a793b2201691c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: b96ae78b0f2decfe7b2c6f695a4456ac93919c35
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782372"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772561"
 ---
-# <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-azure-event-hub"></a>Azure Microsoft 365 허브로 고급 헌팅 이벤트를 스트리밍하도록 Microsoft 365 Defender 구성
+# <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Azure Microsoft 365 허브로 고급 헌팅 이벤트를 스트리밍하도록 Defender 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,24 +33,21 @@ ms.locfileid: "52782372"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음을 수행해야 합니다:
 
-1. [테넌트에서](/azure/event-hubs/) 이벤트 허브를 생성합니다.
+1. [테넌트에서 이벤트 허브를](/azure/event-hubs/) 생성합니다.
 
 2. [Azure](https://ms.portal.azure.com/)테넌트에 로그인하고, **Microsoft.Insights에** 등록할 > 구독 > 리소스 공급자로 > 로 이동하세요.
 
-3. 이벤트 허브 네임스페이스를 만들고  이벤트 허브 네임스페이스로 이동하여 > 계층, 처리력 단위 및 예상 부하에 적합한 자동 Inflate을 선택합니다. 자세한 내용은 [가격 책정 - 이벤트 허브 | Microsoft Azure.](https://azure.microsoft.com/en-us/pricing/details/event-hubs/)  
+3. 이벤트 허브 네임스페이스를 만들고  이벤트 허브로 이동하여 > 계층, 처리력 단위 및 예상 부하에 적합한 자동 인플래시를 선택합니다. 자세한 내용은 [가격 책정 - 이벤트 허브 | Microsoft Azure.](https://azure.microsoft.com/en-us/pricing/details/event-hubs/)  
 
-### <a name="add-contributor-permissions"></a>참가자 권한 추가 
-이벤트 허브 네임스페이스가 생성되면 앱 등록 서비스 사용자를 읽기 프로그램, Azure 이벤트 허브 데이터 수신기로 추가하고 Microsoft 365 Defender에 참가자로 로그인할 사용자를 추가해야 합니다(리소스 그룹 또는 구독 수준에서도 이 작업을 수행 할 수 있습니다). 
+4. 이벤트 허브 네임스페이스가 생성되면 앱 등록 서비스 사용자를 읽기 프로그램, Azure 이벤트 허브 데이터 수신기 및 Microsoft 365 Defender에 참가자로 로그인할 사용자를 추가해야 합니다(리소스 그룹 또는 구독 수준에서도 이 작업을 수행 할 수 있습니다). **IAM(액세스 제어)** > 이벤트 허브 네임스페이스로 이동하여 > 할당 아래에서 추가 및 **확인을 진행합니다.**
 
-**IAM(액세스 제어)** > 이벤트 허브 네임스페이스로 이동하여 > 할당 아래에서 추가 및 **확인을 진행합니다.**
-
-## <a name="enable-raw-data-streaming"></a>원시 데이터 스트리밍 사용
+## <a name="enable-raw-data-streaming"></a>원시 데이터 스트리밍을 사용하도록 설정:
 
 1. * 전역 [Microsoft 365](https://security.microsoft.com) 또는 _* 보안 관리자 ****로** Microsoft 365 보안 _센터에 로그인합니다._
 
-2. 스트리밍 [API 설정 페이지로 이동합니다.](https://security.microsoft.com/settings/mtp_settings/raw_data_export)
+2. 데이터 [내보내기 설정 페이지로 이동합니다.](https://security.microsoft.com/settings/mtp_settings/raw_data_export)
 
 3. 추가를 **클릭합니다.**
 
@@ -58,17 +55,17 @@ ms.locfileid: "52782372"
 
 5. **Azure 이벤트 허브로 이벤트 전달을 선택하세요.**
 
-6. 이벤트 데이터를 단일 이벤트 허브로 내보내거나 각 이벤트 테이블을 이벤트 허브 네임스페이스의 다른 이벤트 허브로 내보낼지 선택할 수 있습니다. 
+6. 이벤트 데이터를 단일 이벤트 허브로 내보내거나 이벤트 허브 네임스페이스에서 각 이벤트 테이블을 다른 Even Hub로 내보낼지 선택할 수 있습니다. 
 
-7. 이벤트 데이터를 단일 이벤트 허브로 내보내기  위해 이벤트 허브 이름 및 이벤트 허브 리소스 **ID 를 입력합니다.**
+7. 이벤트 데이터를 단일 이벤트 허브로 내보내기  위해 이벤트 허브 이름 및 이벤트 허브 리소스 **ID를 입력합니다.**
 
    이벤트 허브 리소스 **ID를** 얻습니다. Azure 속성 탭의 [Azure](https://ms.portal.azure.com/)이벤트 허브 네임스페이스 페이지로 이동하여 > ID 아래 텍스트를  >   **복사합니다.**
 
-   ![이벤트 허브 리소스 ID1의 이미지](../defender-endpoint/images/event-hub-resource-id.png)
+   ![이벤트 허브 리소스 Id1의 이미지](../defender-endpoint/images/event-hub-resource-id.png)
 
 8. 스트리밍할 이벤트를 선택하고 저장을 **클릭합니다.**
 
-## <a name="the-schema-of-the-events-in-azure-event-hub"></a>Azure 이벤트 허브의 이벤트 스마마
+## <a name="the-schema-of-the-events-in-azure-event-hubs"></a>Azure 이벤트 허브에 있는 이벤트의 스마마:
 
 ```
 {
@@ -92,10 +89,10 @@ ms.locfileid: "52782372"
 
 - 고급 헌팅에서 **DeviceInfo** 테이블에는 장치 그룹이 포함된 **MachineGroup이라는** 열이 있습니다. 여기에서 모든 이벤트도 이 열로 장식됩니다. 
 
+9. 각 이벤트 테이블을 다른 이벤트 허브로  내보내기 위해 이벤트 허브 이름을 비워 두면 Microsoft 365 나머지 작업을 할 수 있습니다.
 
 
-
-## <a name="data-types-mapping"></a>데이터 형식 매핑
+## <a name="data-types-mapping"></a>데이터 형식 매핑:
 
 이벤트 속성에 대한 데이터 형식을 얻습니다.
 

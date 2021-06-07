@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7632efb2014af9f55e9cad700bceeeabe555fb8b
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: c3a86436706b350557e9a39f81c1ef6430ac88ff
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696577"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793163"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 자동화된 조사 및 대응(AIR)Office 365
 
@@ -78,8 +78,8 @@ Microsoft Defender for Office 365 수정 작업은 자동으로 수행되지 않
 정책 및 경고가 구성된 경우 Office 365 대한 [Microsoft Defender에](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2)AIR 기능이 포함되어 있습니다. 도움이 필요하세요? 위협으로부터 [보호의](protect-against-threats.md) 지침에 따라 다음 보호 설정을 설정하거나 구성합니다.
 
 - [감사 로깅(켜져](../../compliance/turn-audit-log-search-on-or-off.md) 있어야 합니다.
-- [맬웨어 방지 정책](protect-against-threats.md#part-1---anti-malware-protection-in-eop)
-- [피싱 방지 보호 기능](protect-against-threats.md#part-2---anti-phishing-protection)
+- [맬웨어 방지 보호 기능](protect-against-threats.md#part-1---anti-malware-protection-in-eop)
+- [피싱 방지 보호 기능](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection-in-eop-and-defender-for-office-365)
 - [스팸 방지 보호 기능](protect-against-threats.md#part-3---anti-spam-protection-in-eop)
 - [안전한 링크 및 안전한 첨부 파일](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
 - [SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)

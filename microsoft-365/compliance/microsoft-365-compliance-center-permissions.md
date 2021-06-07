@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 규정 준수 센터의 사용 권한
+title: Microsoft 365 규정 준수 센터 사용 권한
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -11,14 +11,14 @@ ms.topic: article
 localization_priority: Normal
 description: 규정 준수 센터에서 사용 권한을 Microsoft 365 대해 자세히 알아보습니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 72575fce5f7d43354715c77016a8f444e539887f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 7038863c0cbcaf99cf07072445a3b001e7b8ca0b
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772483"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782852"
 ---
-# <a name="permissions-in-the-microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터의 사용 권한
+# <a name="permissions-in-the-microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터 사용 권한
 
 Microsoft 365 규정 준수 센터가 최근에 업데이트되어 현재 규정 준수 작업을 수행하는 사용자에 대한 사용 권한을 직접 관리할 수 Microsoft 365. 이 업데이트는 더 이상 Office 365 보안 & 준수 센터를 사용하여 규정 준수 솔루션에 대한 사용 권한을 관리할 필요가 없음을 의미합니다. Microsoft 365 규정  준수 센터의 새 사용 권한 페이지를 사용하여 장치 관리, 데이터 손실 방지, eDiscovery, 내부자 위험 관리, 보존 등 기능의 규정 준수 작업에 대한 사용 권한을 관리할 수 있습니다. 사용자는 명시적으로 액세스 권한을 부여한 준수 작업만 수행할 수 있습니다.
 
@@ -26,7 +26,7 @@ Microsoft 365 준수 센터에서 사용 권한 탭을 보기 위해 사용자�
 
 ![Microsoft 365 센터의 사용 권한 페이지](../media/m365-compliance-center-permissions.png)
 
-Microsoft 365 센터의 사용 권한은 RBAC(역할 기반 액세스 제어) 권한 모델을 기반으로 합니다. RBAC는 대부분의 Microsoft 365 서비스에서 사용하는 사용 권한 모델과 동일하기 때문에 이러한 서비스의 사용 권한 구조에 익숙한 경우 Microsoft 365 규정 준수 센터에서 사용 권한을 부여하는 것이 익숙합니다. Microsoft 365 준수 센터에서 관리되는 사용 권한은 각 개별 서비스에 필요한 모든 사용 권한 관리를 다루지 않습니다. 관리 센터에서 특정 서비스에 대한 특정 서비스 관련 권한을 관리해야 합니다. 예를 들어 보관, 감사 및 보존 정책에 대한 사용 권한을 할당해야 하는 경우 Exchange 관리 센터에서 이러한 사용 권한을 관리해야 합니다.
+Microsoft 365 센터의 사용 권한은 RBAC(역할 기반 액세스 제어) 권한 모델을 기반으로 합니다. RBAC는 대부분의 Microsoft 365 서비스에서 사용하는 사용 권한 모델과 동일하기 때문에 이러한 서비스의 사용 권한 구조에 익숙한 경우 Microsoft 365 규정 준수 센터에서 사용 권한을 부여하는 것이 익숙합니다. Microsoft 365 준수 센터에서 관리되는 사용 권한은 각 개별 서비스에 필요한 모든 사용 권한 관리를 다루지 않습니다. 관리 센터에서 특정 서비스에 대한 특정 서비스 관련 권한을 관리해야 합니다. 예를 들어 보관, 감사 및 MRM 보존 정책에 대한 사용 권한을 할당해야 하는 경우 Exchange 관리 센터에서 이러한 사용 권한을 관리해야 합니다.
 
 ## <a name="relationship-of-members-roles-and-role-groups"></a>구성원, 역할 및 역할 그룹의 관계
 
@@ -55,8 +55,8 @@ Microsoft 365 센터 사용 권한 페이지의 **Azure AD** 역할 섹션에 �
 |**보안 읽기 권한자**|Microsoft 365 사용자, 디바이스 및 콘텐츠에 대한 활성 위협을 보고 조사하나 (보안 운영자와는 달리) 조치를 취하여 대응할 권한은 없습니다. 자세한 내용은 [보안 읽기 권한자](/azure/active-directory/roles/permissions-reference#security-reader)를 참조하세요.|
 |**보안 관리자**|보안 정책을 관리하고, Microsoft 365 제품 전반에서 보안 분석 및 보고서를 검토하고, 위협 상황에 대한 최신 정보를 파악하여 조직의 전반적인 보안을 제어합니다. 자세한 내용은 [보안 관리자](/azure/active-directory/roles/permissions-reference#security-administrator)를 참조하세요.|
 |**전역 읽기 권한자**|**전역 관리자** 역할의 읽기 전용 버전입니다. Microsoft 365 전반의 모든 설정 및 관리 정보를 봅니다. 자세한 내용은 [전역 읽기 권한자](/azure/active-directory/roles/permissions-reference#global-reader)를 참조하세요.|
-|**공격 시뮬레이션 관리자**|공격 시뮬레이션 만들기, 시뮬레이션 시작/설정, 시뮬레이션 결과 검토의 모든 측면을 만들고 관리합니다. 자세한 내용은 공격 시뮬레이션 [관리자를 참조하세요.](/azure/active-directory/roles/permissions-reference#attack-simulation-administrator)|
-|**공격 페이로드 작성자**|공격 페이로드를 만들지만 실제로 시작하거나 예약하지는 않습니다. 자세한 내용은 공격 페이로드 [작성자 를 참조하세요.](/azure/active-directory/roles/permissions-reference#attack-payload-author)|
+|**공격 시뮬레이션 관리자**|공격 시뮬레이션 생성, 시뮬레이션 실행/예약, 시뮬레이션 결과 검토의 모든 측면을 만들고 관리합니다. 자세한 내용은 [공격 시뮬레이션 관리자](/azure/active-directory/roles/permissions-reference#attack-simulation-administrator)를 참조하세요.|
+|**공격 페이로드 작성자**|공격 페이로드를 생성하지만 실제로 시작하거나 예약하지는 않습니다. 자세한 내용은 [공격 페이로드 작성자](/azure/active-directory/roles/permissions-reference#attack-payload-author)를 참조하세요.|
 |
 
 ## <a name="add-users-to-a-compliance-role-group"></a>준수 역할 그룹에 사용자 추가
