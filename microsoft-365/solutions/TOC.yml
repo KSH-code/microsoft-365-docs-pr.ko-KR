@@ -13,7 +13,7 @@
       href: architecture-icons-templates.md
 - name: Microsoft 365 기초 솔루션
   items:
-    - name: 원격 작업을 위한 인프라 설정
+    - name: 하이브리드 작업을 위한 인프라 설정
       items:
         - name: 개요
           href: empower-people-to-work-remotely.md
@@ -27,7 +27,7 @@
           href: empower-people-to-work-remotely-manage-endpoints.md
         - name: 5단계. 생산성 앱 및 서비스 배포
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: 6단계. 원격 작업자 교육
+        - name: 6단계. 작업자 교육
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Microsoft 365를 사용하여 안전한 공동 작업 설정
       items:
@@ -225,7 +225,7 @@
       items:
         - name: Contoso Corporation의 Microsoft 365 솔루션
           href: contoso-case-study-solutions.md
-        - name: 원격 및 현장 업무를 위한 COVID-19 대응 및 인프라
+        - name: 하이브리드 작업에 대한 COVID-19 응답 및 지원
           href: contoso-remote-onsite-work.md
         - name: 극비 프로젝트를 위해 격리된 팀
           href: contoso-team-for-top-secret-project.md

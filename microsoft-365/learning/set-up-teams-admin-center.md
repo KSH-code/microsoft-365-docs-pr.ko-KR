@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/24/2021
+ms.date: ''
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -15,69 +15,130 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Teams 관리 센터에서 Microsoft Viva Learning(미리 보기)을 구성하는 방법을 자세히 알아보습니다.
-ms.openlocfilehash: a96a2f3ecf7d4e1ee0c136ae155868218f08aaf4
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 860f16bee7d93f2212072c5d738263402704272f
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636137"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789234"
 ---
-# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a><span data-ttu-id="f5eb4-103">Teams 관리 센터에서 Microsoft Viva Learning(미리 보기) 설정</span><span class="sxs-lookup"><span data-stu-id="f5eb4-103">Set up Microsoft Viva Learning (Preview) in the Teams admin center</span></span>
+# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a><span data-ttu-id="28910-103">Teams 관리 센터에서 Microsoft Viva Learning(미리 보기) 설정</span><span class="sxs-lookup"><span data-stu-id="28910-103">Set up Microsoft Viva Learning (Preview) in the Teams admin center</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f5eb4-104">이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-104">The information in this article relates to a preview product that may be substantially modified before it's commercially released.</span></span> 
+> <span data-ttu-id="28910-104">이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28910-104">The information in this article relates to a preview product that may be substantially modified before it's commercially released.</span></span> 
 
-<span data-ttu-id="f5eb4-105">Teams 관리자는 Viva Learning(미리 보기)을 설치하고 Teams 관리 센터를 통해 권한 정책을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-105">The Teams admin installs Viva Learning (Preview) and applies permission policies through the Teams admin center.</span></span>
+<span data-ttu-id="28910-105">Teams 관리자는 특정 단계를 수행하여 테넌트의 사용자에 대해 Viva Learning(미리 보기)을 사용하도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28910-105">The Teams administrator needs to perform certain steps to enable Viva Learning (Preview) for their users in the tenant.</span></span> <span data-ttu-id="28910-106">이러한 단계는 테넌트가 활성화되는 방식에 따라 달라집니다. [*공개*](set-up-teams-admin-center.md#public-preview-tenants) 미리 보기 또는 비공개 [ *미리* 보기(또는 베타)](set-up-teams-admin-center.md#private-preview-tenants)).</span><span class="sxs-lookup"><span data-stu-id="28910-106">These steps vary based on how the tenant is enabled:  [*Public Preview*](set-up-teams-admin-center.md#public-preview-tenants) or [*Private Preview* (or Beta)](set-up-teams-admin-center.md#private-preview-tenants).</span></span>
 
-1. <span data-ttu-id="f5eb4-106">Viva Learning(미리 보기)의 경우 먼저 업데이트 정책에서 Teams.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-106">For Viva Learning (Preview), you must first set the Update policy in Teams.</span></span> <span data-ttu-id="f5eb4-107">자세한 내용은 공개 미리 [Microsoft Teams 참조하세요.](/MicrosoftTeams/public-preview-doc-updates)</span><span class="sxs-lookup"><span data-stu-id="f5eb4-107">For more information, see [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates).</span></span>
+## <a name="public-preview-tenants"></a><span data-ttu-id="28910-107">공개 미리 보기 테넌트</span><span class="sxs-lookup"><span data-stu-id="28910-107">Public Preview tenants</span></span>
 
-    1. <span data-ttu-id="f5eb4-108">Teams 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-108">Sign in to the Teams admin center.</span></span>
+### <a name="administrator-steps-for-public-preview-tenants"></a><span data-ttu-id="28910-108">공개 미리 보기 테넌트에 대한 관리자 단계</span><span class="sxs-lookup"><span data-stu-id="28910-108">Administrator steps for Public Preview tenants</span></span>
 
-    2. <span data-ttu-id="f5eb4-109">업데이트 **Teams**  >  **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="f5eb4-109">Select **Teams** > **Update policies**.</span></span>
+<span data-ttu-id="28910-109">Viva Learning(미리 보기)은 아직 일반적이지 않았기 때문에 기능을 사용하도록 설정하고 특정 사용자 또는 그룹에 대한 사용 권한을 설정하려면 특정 단계가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="28910-109">Because the Viva Learning (Preview) is not yet generally available, certain steps are required to enable the features and set permissions for specific users or groups.</span></span> 
 
-    3. <span data-ttu-id="f5eb4-110">**추가** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-110">Select **Add**.</span></span> 
+1. <span data-ttu-id="28910-110">Viva Learning(미리 보기) 사용자에 대해 공개 미리 보기 기능을 사용하도록 설정</span><span class="sxs-lookup"><span data-stu-id="28910-110">Enable Public Preview features for Viva Learning (Preview) users.</span></span>
 
-    4. <span data-ttu-id="f5eb4-111">업데이트 정책의 이름을 지정하고 정책을 추가한 다음 미리 보기 기능 **표시를 켜야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="f5eb4-111">Name the update policy, add a policy, and turn on **Show preview features**.</span></span>
+    <span data-ttu-id="28910-111">a.</span><span class="sxs-lookup"><span data-stu-id="28910-111">a.</span></span> <span data-ttu-id="28910-112">공용 Teams 기능을 사용하도록 업데이트 정책을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="28910-112">Modify Teams update policy to enable Public Preview features.</span></span> <span data-ttu-id="28910-113">공개 [Microsoft Teams 을 참조합니다.](/microsoftteams/public-preview-doc-updates)</span><span class="sxs-lookup"><span data-stu-id="28910-113">See [Microsoft Teams Public Preview](/microsoftteams/public-preview-doc-updates).</span></span>
 
-2. <span data-ttu-id="f5eb4-112">관리자는 사용자에게 정책 업데이트를 알려 해당 빌드를 공용 미리 보기로 이동해야 Teams.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-112">The admin must notify users of the policy update so that they move their build into the Public Preview for Teams.</span></span> 
+    <span data-ttu-id="28910-114">b.</span><span class="sxs-lookup"><span data-stu-id="28910-114">b.</span></span> <span data-ttu-id="28910-115">Viva Learning(미리 보기) 테스트를 수행할 사용자 또는 그룹에 대해 업데이트 정책을 사용하도록 설정하십시오.</span><span class="sxs-lookup"><span data-stu-id="28910-115">Enable the update policy for users or groups who will perform Viva Learning (Preview) testing.</span></span> <span data-ttu-id="28910-116">사용자 [및 그룹에 정책 할당을 참조합니다.](/microsoftteams/assign-policies-users-and-groups)</span><span class="sxs-lookup"><span data-stu-id="28910-116">See [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups).</span></span>
 
-    1. <span data-ttu-id="f5eb4-113">사용자는 공개 미리 보기 정보에서 > **이미지를**  >  **선택해야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="f5eb4-113">Users must select their profile image > **About** > **Public Preview**.</span></span>
+2. <span data-ttu-id="28910-117">Viva Learning(미리 보기) 사용자에 대한 앱 권한 정책을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="28910-117">Modify the app permission policy for Viva Learning (Preview) users.</span></span>
+
+    <span data-ttu-id="28910-118">a.</span><span class="sxs-lookup"><span data-stu-id="28910-118">a.</span></span> <span data-ttu-id="28910-119">현재 글로벌 정책의 일부가 않는 한 앱 사용 권한 정책의 모든 Microsoft 앱을 허용합니다.</span><span class="sxs-lookup"><span data-stu-id="28910-119">Unless it's currently part of the global policy, allow all Microsoft apps in the app permission policy.</span></span> <span data-ttu-id="28910-120">에서 [앱 권한 정책 Microsoft Teams.](/microsoftteams/teams-app-permission-policies)</span><span class="sxs-lookup"><span data-stu-id="28910-120">See [Manage app permission policies in Microsoft Teams](/microsoftteams/teams-app-permission-policies).</span></span> 
+
+    <span data-ttu-id="28910-121">b.</span><span class="sxs-lookup"><span data-stu-id="28910-121">b.</span></span> <span data-ttu-id="28910-122">Viva Learning(미리 보기) 테스트를 수행할 사용자 또는 그룹에 대해 앱 권한 정책을 사용하도록 설정하세요.</span><span class="sxs-lookup"><span data-stu-id="28910-122">Enable the app permission policy for users or groups who will perform Viva Learning (Preview) testing.</span></span> <span data-ttu-id="28910-123">사용자 [및 그룹에 정책 할당을 참조합니다.](/microsoftteams/assign-policies-users-and-groups)</span><span class="sxs-lookup"><span data-stu-id="28910-123">See [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups).</span></span>
+
+3.  <span data-ttu-id="28910-124">Viva Learning(미리 보기)을 테스트할 사용자에게 빌드 클라이언트를 공개 미리 보기로 전환할 수 있도록 [Teams.](set-up-teams-admin-center.md#user-steps-for-public-preview-tenants)</span><span class="sxs-lookup"><span data-stu-id="28910-124">Notify users who will test Viva Learning (Preview) to [switch their build client to Public Preview for Teams](set-up-teams-admin-center.md#user-steps-for-public-preview-tenants).</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="28910-125">공개 미리 보기 테넌트의 경우 최종 제품  릴리스가 될 때까지 Viva Learning(미리 보기)이 Teams 관리 앱에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="28910-125">For Public Preview tenants, Viva Learning (Preview) will not be displayed in **Managed apps** in the Teams admin center until final product release.</span></span> <span data-ttu-id="28910-126">그러나 활성화된 공개 미리 보기 사용자는 Teams 앱 스토어에서 Viva Learning(미리 보기)을 찾아 올바른 정책 및 사용 권한을 설정한 후 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28910-126">However, enabled Public Preview users can find Viva Learning (Preview) in the Teams app store and use it, once the correct policies and permissions have been set up.</span></span>
+
+### <a name="user-steps-for-public-preview-tenants"></a><span data-ttu-id="28910-127">공개 미리 보기 테넌트에 대한 사용자 단계</span><span class="sxs-lookup"><span data-stu-id="28910-127">User steps for Public Preview tenants</span></span>
+
+<span data-ttu-id="28910-128">이전에 설명한 정책을 사용하도록 설정하여 공개 [](set-up-teams-admin-center.md#administrator-steps-for-public-preview-tenants) 미리 보기 테스트를 [](/microsoftteams/public-preview-doc-updates#enable-public-preview) 사용하도록 설정된 사용자는 해당 클라이언트에서 공개 미리 보기로 Teams 합니다.</span><span class="sxs-lookup"><span data-stu-id="28910-128">Users who have been enabled for Public Preview testing — by enabling the [policies previously described](set-up-teams-admin-center.md#administrator-steps-for-public-preview-tenants) — need to [switch to Public Preview](/microsoftteams/public-preview-doc-updates#enable-public-preview) in their Teams client.</span></span>
+
+1. <span data-ttu-id="28910-129">사용자는 공개 미리 보기 정보에서 > **이미지를**  >  **선택해야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="28910-129">Users must select their profile image > **About** > **Public Preview**.</span></span>
    
-        ![사용자 프로필을 Teams 응용 프로그램의 위쪽 탐색](../media/learning/learning-app-select-profile-teams.png)
+    ![사용자 프로필을 Teams 응용 프로그램의 위쪽 탐색](../media/learning/learning-app-select-profile-teams.png)
     
-    2. <span data-ttu-id="f5eb4-115">사용자는 공개 미리 보기 **사용 약관에** 동의해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-115">Users must accept the **Public preview** terms and conditions.</span></span>
+2. <span data-ttu-id="28910-131">사용자는 공개 미리 보기 사용 약관에 동의해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28910-131">Users must accept the Public Preview terms and conditions.</span></span>
 
-        ![공개 미리 보기 빌드로 전환](../media/learning/learning-app-switch-to-public-preview.png)
+    ![공개 미리 보기 빌드로 전환](../media/learning/learning-app-switch-to-public-preview.png)
  
-3. <span data-ttu-id="f5eb4-117">제한적인 정책이 적용되어 있으며 Viva Learning(미리 보기)을 사용하도록 설정해야 하는 조직의 경우 다음 섹션의 프로세스를 따르십시오.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-117">For organizations that have restrictive policies and need to enable Viva Learning (Preview), follow the process in the next section.</span></span>
+3. <span data-ttu-id="28910-133">이제 사용자는 앱 스토어에서 Viva Learning(미리 보기)Teams 사용하여 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28910-133">Users can now find Viva Learning (Preview) in the Teams app store and start using it.</span></span>
 
-## <a name="manage-settings-for-viva-learning-preview"></a><span data-ttu-id="f5eb4-118">Viva Learning 설정 관리(미리 보기)</span><span class="sxs-lookup"><span data-stu-id="f5eb4-118">Manage settings for Viva Learning (Preview)</span></span>
+## <a name="private-preview-tenants"></a><span data-ttu-id="28910-134">비공개 미리 보기 테넌트</span><span class="sxs-lookup"><span data-stu-id="28910-134">Private Preview tenants</span></span>
 
-<span data-ttu-id="f5eb4-119">이러한 작업을 수행하려면 Teams 관리 센터의 관리자 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-119">You must be an administrator in the Teams admin center to perform these tasks.</span></span>
+### <a name="administrator-steps-for-private-preview-or-beta-tenants"></a><span data-ttu-id="28910-135">비공개 미리 보기(또는 베타) 테넌트에 대한 관리자 단계</span><span class="sxs-lookup"><span data-stu-id="28910-135">Administrator steps for Private Preview (or Beta) tenants</span></span>
 
-<span data-ttu-id="f5eb4-120">조직의 사용자가 Viva Learning(미리 보기)을 사용할 수 있도록 설정하기 위해 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-120">To make Viva Learning (Preview) available for users in your organization, follow these steps:</span></span>
+<span data-ttu-id="28910-136">비공개 미리 보기 테넌트의 경우 사용하도록 설정해야 하는 추가 정책이 없습니다.</span><span class="sxs-lookup"><span data-stu-id="28910-136">For Private Preview tenants, there are no additional policies that need to be enabled.</span></span> <span data-ttu-id="28910-137">그러나 Viva Learning(미리 보기)은 조직의 사용자가 사용할 수 있도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="28910-137">However, Viva Learning (Preview) must be made available for users in your organization.</span></span>
 
-1. <span data-ttu-id="f5eb4-121">Teams 센터의 왼쪽 탐색 창에서 앱 관리 **Teams 로**  >  **이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="f5eb4-121">In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.</span></span>
+1. <span data-ttu-id="28910-138">Teams 센터의 왼쪽 탐색 창에서 앱 관리 **Teams 로**  >  **이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="28910-138">In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.</span></span>
 
    ![앱 및 앱 Teams 섹션을 Teams 관리 센터의 왼쪽 탐색입니다.](../media/learning/learning-app-teams-manage-apps-nav.png)
 
-2. <span data-ttu-id="f5eb4-123">앱 **관리 페이지의** 검색 상자에 *Viva learning* 을 입력하고 **Viva Learning(미리 보기)을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="f5eb4-123">On the **Manage apps** page, in the search box, type *Viva learning*, and then select **Viva Learning (Preview)**.</span></span>
+2. <span data-ttu-id="28910-140">앱 **관리 페이지의** 검색 상자에 Viva Learning 을 입력하고 **Viva Learning(미리 보기)을 선택합니다.** </span><span class="sxs-lookup"><span data-stu-id="28910-140">On the **Manage apps** page, in the search box, type *Viva Learning*, and then select **Viva Learning (Preview)**.</span></span>
 
    ![검색 상자를 표시하는 Teams 관리 센터의 앱 페이지 관리](../media/learning/learning-app-teams-manage-apps-page.png)
 
-3. <span data-ttu-id="f5eb4-125">**Viva Learning(미리 보기) 페이지에서 다음을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-125">On the **Viva Learning (Preview)** page:</span></span>
-
-   1. <span data-ttu-id="f5eb4-126">상태 **아래에서** Viva Learning 켜기 허용(미리 보기)을 선택합니다. </span><span class="sxs-lookup"><span data-stu-id="f5eb4-126">Under **Status**, select **Allowed** to turn on Viva Learning (Preview).</span></span>
-
-   2. <span data-ttu-id="f5eb4-127">설정 **탭의** 앱 설정에서 Microsoft 365 관리 센터로 이동하여 학습 콘텐츠 원본을 [구성합니다.](content-sources-365-admin-center.md)</span><span class="sxs-lookup"><span data-stu-id="f5eb4-127">On the **Settings** tab, under **App settings**, go to the Microsoft 365 admin center to [configure learning content sources](content-sources-365-admin-center.md).</span></span>
+3. <span data-ttu-id="28910-142">**Viva Learning(미리 보기)** 페이지의 **상태**  아래에서 Viva Learning(미리 보기)을 켜기 위해 허용을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="28910-142">On the **Viva Learning (Preview)** page, under **Status**, select **Allowed** to turn on Viva Learning (Preview).</span></span>
 
    ![상태 및 앱 설정 Teams 관리 센터의 학습 페이지입니다.](../media/learning/learning-app-teams-learning-page.png)
 
-4. <span data-ttu-id="f5eb4-129">앱 **설정 관리** 후  사용  권한 정책 및 설정 정책으로 이동하여 조직의 미리 보기 참여의 일부로 Viva Learning(미리 보기)에 액세스할 수 있는 권한을 직원에게 부여합니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-129">After **Manage app** settings, go to **Permission policies** and **Setup policies** to grant permission to employees who should have access to Viva Learning (Preview) as part of your organization's participation in the preview.</span></span>
+
+<!---
+The Teams admin installs Viva Learning (Preview) and applies permission policies through the Teams admin center.
+
+1. For Viva Learning (Preview), you must first set the Update policy in Teams. For more information, see [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates).
+
+    1. Sign in to the Teams admin center.
+
+    2. Select **Teams** > **Update policies**.
+
+    3. Select **Add**. 
+
+    4. Name the update policy, add a policy, and turn on **Show preview features**.
+
+2. The admin must notify users of the policy update so that they move their build into the Public Preview for Teams. 
+
+    1. Users must select their profile image > **About** > **Public Preview**.
+   
+        ![Upper navigation in the Teams application showing user's profile](../media/learning/learning-app-select-profile-teams.png)
+    
+    2. Users must accept the **Public preview** terms and conditions.
+
+        ![Switch to public preview build](../media/learning/learning-app-switch-to-public-preview.png)
+ 
+3. For organizations that have restrictive policies and need to enable Viva Learning (Preview), follow the process in the next section.
+
+## Manage settings for Viva Learning (Preview)
+
+You must be an administrator in the Teams admin center to perform these tasks.
+
+To make Viva Learning (Preview) available for users in your organization, follow these steps:
+
+1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
+
+   ![Left navigation in the Teams admin center showing Teams apps and Manage apps section.](../media/learning/learning-app-teams-manage-apps-nav.png)
+
+2. On the **Manage apps** page, in the search box, type *Viva learning*, and then select **Viva Learning (Preview)**.
+
+   ![Manage apps page in the Teams admin center showing the search box.](../media/learning/learning-app-teams-manage-apps-page.png)
+
+3. On the **Viva Learning (Preview)** page:
+
+   1. Under **Status**, select **Allowed** to turn on Viva Learning (Preview).
+
+   2. On the **Settings** tab, under **App settings**, go to the Microsoft 365 admin center to [configure learning content sources](content-sources-365-admin-center.md).
+
+   ![Learning page in the Teams admin center showing Status and App settings section.](../media/learning/learning-app-teams-learning-page.png)
+
+4. After **Manage app** settings, go to **Permission policies** and **Setup policies** to grant permission to employees who should have access to Viva Learning (Preview) as part of your organization's participation in the preview.
 
 > [!NOTE]
->  <span data-ttu-id="f5eb4-130">조직이 TAP100 프로그램의 일부로 Teams 링 4.0에 있는 경우 링 3.0에서 승인된 사용자가 Viva Learning(미리 보기)에 액세스하도록 설정해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-130">If your organization is in Ring 4.0 as part of Teams TAP100 program, you might need to enable approved users in Ring 3.0 to access Viva Learning (Preview).</span></span> <br><br><span data-ttu-id="f5eb4-131">미리 보기의 일부로 Viva Learning(미리 보기)은 링 3.0에서 릴리스됩니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-131">As part of the preview, Viva Learning (Preview) is released in Ring 3.0.</span></span> <span data-ttu-id="f5eb4-132">조직이 링 4.0에 있는 경우 앱 관리 페이지에 Viva Learning(미리 보기)이 **표시되지** 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f5eb4-132">If your organization is in Ring 4.0, you won’t see Viva Learning (Preview) on the **Manage apps** page.</span></span> <span data-ttu-id="f5eb4-133">앱을 테스트하려면 사용자 지정 앱 사용 권한 정책을 만들고, 모든 앱 허용으로 설정하고, 링 3.0 승인된 사용자에게 할당해야 합니다. </span><span class="sxs-lookup"><span data-stu-id="f5eb4-133">To test the app, you need to create a custom apps permission policy, set it to **Allow all apps**, and assign it to Ring 3.0 approved users.</span></span> <br><br>   <span data-ttu-id="f5eb4-134">![TAP-AppsPermission-Plcy 페이지에는 모든 앱 허용이 선택되어 있습니다.](../media/learning/learning-app-tap-appspermission-plcy.png)</span><span class="sxs-lookup"><span data-stu-id="f5eb4-134">![TAP-AppsPermission-Plcy page showing Allow all apps selected.](../media/learning/learning-app-tap-appspermission-plcy.png)</span></span>
+>  If your organization is in Ring 4.0 as part of Teams TAP100 program, you might need to enable approved users in Ring 3.0 to access Viva Learning (Preview). <br><br>As part of the preview, Viva Learning (Preview) is released in Ring 3.0. If your organization is in Ring 4.0, you won’t see Viva Learning (Preview) on the **Manage apps** page. To test the app, you need to create a custom apps permission policy, set it to **Allow all apps**, and assign it to Ring 3.0 approved users. <br><br>   ![TAP-AppsPermission-Plcy page showing Allow all apps selected.](../media/learning/learning-app-tap-appspermission-plcy.png)
 
-## <a name="next-step"></a><span data-ttu-id="f5eb4-135">다음 단계</span><span class="sxs-lookup"><span data-stu-id="f5eb4-135">Next step</span></span>
+--->
 
-[<span data-ttu-id="f5eb4-136">Microsoft 365 관리 센터에서 Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 구성</span><span class="sxs-lookup"><span data-stu-id="f5eb4-136">Configure learning content sources for Viva Learning (Preview) in the Microsoft 365 admin center</span></span>](content-sources-365-admin-center.md)
+## <a name="next-step"></a><span data-ttu-id="28910-144">다음 단계</span><span class="sxs-lookup"><span data-stu-id="28910-144">Next step</span></span>
+
+[<span data-ttu-id="28910-145">Microsoft 365 관리 센터에서 Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 구성</span><span class="sxs-lookup"><span data-stu-id="28910-145">Configure learning content sources for Viva Learning (Preview) in the Microsoft 365 admin center</span></span>](content-sources-365-admin-center.md)
