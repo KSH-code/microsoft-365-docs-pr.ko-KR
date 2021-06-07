@@ -14,23 +14,24 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: f4b62ca7fecb8e66fc082b6cf0972c1c2c06afb5
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 4da646a52392871cde99271a17ed6eb9111f51ab
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166974"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769254"
 ---
-# <a name="list-alerts-api"></a><span data-ttu-id="dc2d3-104">목록 알림 API</span><span class="sxs-lookup"><span data-stu-id="dc2d3-104">List alerts API</span></span>
+# <a name="list-alerts-api"></a><span data-ttu-id="6c6fe-104">목록 알림 API</span><span class="sxs-lookup"><span data-stu-id="6c6fe-104">List alerts API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="dc2d3-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="dc2d3-105">**Applies to:**</span></span>
-- [<span data-ttu-id="dc2d3-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="dc2d3-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="dc2d3-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="dc2d3-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="6c6fe-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="6c6fe-105">**Applies to:**</span></span>
+- [<span data-ttu-id="6c6fe-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="6c6fe-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="6c6fe-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="6c6fe-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="dc2d3-108">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="dc2d3-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="dc2d3-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="6c6fe-108">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="6c6fe-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="6c6fe-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
@@ -38,73 +39,73 @@ ms.locfileid: "51166974"
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-## <a name="api-description"></a><span data-ttu-id="dc2d3-110">API 설명</span><span class="sxs-lookup"><span data-stu-id="dc2d3-110">API description</span></span>
-<span data-ttu-id="dc2d3-111">Alerts 컬렉션을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-111">Retrieves a collection of Alerts.</span></span>
-<br><span data-ttu-id="dc2d3-112">[OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)</span><span class="sxs-lookup"><span data-stu-id="dc2d3-112">Supports [OData V4 queries](https://www.odata.org/documentation/).</span></span>
-<br><span data-ttu-id="dc2d3-113">OData 지원 연산자:</span><span class="sxs-lookup"><span data-stu-id="dc2d3-113">OData supported operators:</span></span>
-<br><span data-ttu-id="dc2d3-114">```$filter``` on: ```alertCreationTime``` ```lastUpdateTime``` , , , , , ```incidentId``` ```InvestigationId``` ```status``` ```severity``` 및 ```category``` 속성.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-114">```$filter``` on: ```alertCreationTime```, ```lastUpdateTime```, ```incidentId```,```InvestigationId```, ```status```, ```severity``` and ```category``` properties.</span></span>
-<br><span data-ttu-id="dc2d3-115">```$top``` 최대값 10,000</span><span class="sxs-lookup"><span data-stu-id="dc2d3-115">```$top``` with max value of 10,000</span></span>
+## <a name="api-description"></a><span data-ttu-id="6c6fe-110">API 설명</span><span class="sxs-lookup"><span data-stu-id="6c6fe-110">API description</span></span>
+<span data-ttu-id="6c6fe-111">Alerts 컬렉션을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-111">Retrieves a collection of Alerts.</span></span>
+<br><span data-ttu-id="6c6fe-112">[OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)</span><span class="sxs-lookup"><span data-stu-id="6c6fe-112">Supports [OData V4 queries](https://www.odata.org/documentation/).</span></span>
+<br><span data-ttu-id="6c6fe-113">OData 지원 연산자:</span><span class="sxs-lookup"><span data-stu-id="6c6fe-113">OData supported operators:</span></span>
+<br><span data-ttu-id="6c6fe-114">```$filter``` on: ```alertCreationTime``` ```lastUpdateTime``` , , , , , ```incidentId``` ```InvestigationId``` ```status``` ```severity``` 및 ```category``` 속성.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-114">```$filter``` on: ```alertCreationTime```, ```lastUpdateTime```, ```incidentId```,```InvestigationId```, ```status```, ```severity``` and ```category``` properties.</span></span>
+<br><span data-ttu-id="6c6fe-115">```$top``` 최대값 10,000</span><span class="sxs-lookup"><span data-stu-id="6c6fe-115">```$top``` with max value of 10,000</span></span>
 <br>```$skip```
-<br><span data-ttu-id="dc2d3-116">```$expand``` of ```evidence```</span><span class="sxs-lookup"><span data-stu-id="dc2d3-116">```$expand``` of ```evidence```</span></span>
-<br><span data-ttu-id="dc2d3-117">[끝점용 Microsoft Defender를 사용하여 OData 쿼리 예제 보기](exposed-apis-odata-samples.md)</span><span class="sxs-lookup"><span data-stu-id="dc2d3-117">See examples at [OData queries with Microsoft Defender for Endpoint](exposed-apis-odata-samples.md)</span></span>
+<br><span data-ttu-id="6c6fe-116">```$expand``` of ```evidence```</span><span class="sxs-lookup"><span data-stu-id="6c6fe-116">```$expand``` of ```evidence```</span></span>
+<br><span data-ttu-id="6c6fe-117">[끝점용 Microsoft Defender를 사용하여 OData 쿼리 예제 보기](exposed-apis-odata-samples.md)</span><span class="sxs-lookup"><span data-stu-id="6c6fe-117">See examples at [OData queries with Microsoft Defender for Endpoint](exposed-apis-odata-samples.md)</span></span>
 
 
-## <a name="limitations"></a><span data-ttu-id="dc2d3-118">제한 사항</span><span class="sxs-lookup"><span data-stu-id="dc2d3-118">Limitations</span></span>
-1. <span data-ttu-id="dc2d3-119">구성된 보존 기간에 따라 마지막으로 업데이트된 알림을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-119">You can get alerts last updated according to your configured retention period.</span></span>
-2. <span data-ttu-id="dc2d3-120">최대 페이지 크기는 10,000개입니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-120">Maximum page size is 10,000.</span></span>
-3. <span data-ttu-id="dc2d3-121">이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-121">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span> 
+## <a name="limitations"></a><span data-ttu-id="6c6fe-118">제한 사항</span><span class="sxs-lookup"><span data-stu-id="6c6fe-118">Limitations</span></span>
+1. <span data-ttu-id="6c6fe-119">구성된 보존 기간에 따라 마지막으로 업데이트된 알림을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-119">You can get alerts last updated according to your configured retention period.</span></span>
+2. <span data-ttu-id="6c6fe-120">최대 페이지 크기는 10,000개입니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-120">Maximum page size is 10,000.</span></span>
+3. <span data-ttu-id="6c6fe-121">이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-121">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span> 
 
 
-## <a name="permissions"></a><span data-ttu-id="dc2d3-122">사용 권한</span><span class="sxs-lookup"><span data-stu-id="dc2d3-122">Permissions</span></span>
-<span data-ttu-id="dc2d3-123">이 API를 호출하려면 다음 권한 중 하나가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-123">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="dc2d3-124">사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="dc2d3-124">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
+## <a name="permissions"></a><span data-ttu-id="6c6fe-122">사용 권한</span><span class="sxs-lookup"><span data-stu-id="6c6fe-122">Permissions</span></span>
+<span data-ttu-id="6c6fe-123">이 API를 호출하려면 다음 권한 중 하나가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-123">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="6c6fe-124">사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="6c6fe-124">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
 
-<span data-ttu-id="dc2d3-125">사용 권한 유형</span><span class="sxs-lookup"><span data-stu-id="dc2d3-125">Permission type</span></span> |   <span data-ttu-id="dc2d3-126">사용 권한</span><span class="sxs-lookup"><span data-stu-id="dc2d3-126">Permission</span></span>  |   <span data-ttu-id="dc2d3-127">사용 권한 표시 이름</span><span class="sxs-lookup"><span data-stu-id="dc2d3-127">Permission display name</span></span>
+<span data-ttu-id="6c6fe-125">사용 권한 유형</span><span class="sxs-lookup"><span data-stu-id="6c6fe-125">Permission type</span></span> |   <span data-ttu-id="6c6fe-126">사용 권한</span><span class="sxs-lookup"><span data-stu-id="6c6fe-126">Permission</span></span>  |   <span data-ttu-id="6c6fe-127">사용 권한 표시 이름</span><span class="sxs-lookup"><span data-stu-id="6c6fe-127">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="dc2d3-128">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="dc2d3-128">Application</span></span> |   <span data-ttu-id="dc2d3-129">Alert.Read.All</span><span class="sxs-lookup"><span data-stu-id="dc2d3-129">Alert.Read.All</span></span> |    <span data-ttu-id="dc2d3-130">'모든 경고 읽기'</span><span class="sxs-lookup"><span data-stu-id="dc2d3-130">'Read all alerts'</span></span>
-<span data-ttu-id="dc2d3-131">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="dc2d3-131">Application</span></span> |   <span data-ttu-id="dc2d3-132">Alert.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="dc2d3-132">Alert.ReadWrite.All</span></span> |   <span data-ttu-id="dc2d3-133">'모든 경고 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="dc2d3-133">'Read and write all alerts'</span></span>
-<span data-ttu-id="dc2d3-134">위임(직장 또는 학교 계정)</span><span class="sxs-lookup"><span data-stu-id="dc2d3-134">Delegated (work or school account)</span></span> | <span data-ttu-id="dc2d3-135">Alert.Read</span><span class="sxs-lookup"><span data-stu-id="dc2d3-135">Alert.Read</span></span> | <span data-ttu-id="dc2d3-136">'경고 읽기'</span><span class="sxs-lookup"><span data-stu-id="dc2d3-136">'Read alerts'</span></span>
-<span data-ttu-id="dc2d3-137">위임(직장 또는 학교 계정)</span><span class="sxs-lookup"><span data-stu-id="dc2d3-137">Delegated (work or school account)</span></span> | <span data-ttu-id="dc2d3-138">Alert.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="dc2d3-138">Alert.ReadWrite</span></span> | <span data-ttu-id="dc2d3-139">'경고 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="dc2d3-139">'Read and write alerts'</span></span>
+<span data-ttu-id="6c6fe-128">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="6c6fe-128">Application</span></span> |   <span data-ttu-id="6c6fe-129">Alert.Read.All</span><span class="sxs-lookup"><span data-stu-id="6c6fe-129">Alert.Read.All</span></span> |    <span data-ttu-id="6c6fe-130">'모든 경고 읽기'</span><span class="sxs-lookup"><span data-stu-id="6c6fe-130">'Read all alerts'</span></span>
+<span data-ttu-id="6c6fe-131">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="6c6fe-131">Application</span></span> |   <span data-ttu-id="6c6fe-132">Alert.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="6c6fe-132">Alert.ReadWrite.All</span></span> |   <span data-ttu-id="6c6fe-133">'모든 경고 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="6c6fe-133">'Read and write all alerts'</span></span>
+<span data-ttu-id="6c6fe-134">위임(직장 또는 학교 계정)</span><span class="sxs-lookup"><span data-stu-id="6c6fe-134">Delegated (work or school account)</span></span> | <span data-ttu-id="6c6fe-135">Alert.Read</span><span class="sxs-lookup"><span data-stu-id="6c6fe-135">Alert.Read</span></span> | <span data-ttu-id="6c6fe-136">'경고 읽기'</span><span class="sxs-lookup"><span data-stu-id="6c6fe-136">'Read alerts'</span></span>
+<span data-ttu-id="6c6fe-137">위임(직장 또는 학교 계정)</span><span class="sxs-lookup"><span data-stu-id="6c6fe-137">Delegated (work or school account)</span></span> | <span data-ttu-id="6c6fe-138">Alert.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="6c6fe-138">Alert.ReadWrite</span></span> | <span data-ttu-id="6c6fe-139">'경고 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="6c6fe-139">'Read and write alerts'</span></span>
 
 >[!Note]
-> <span data-ttu-id="dc2d3-140">사용자 자격 증명을 사용하여 토큰을 얻을 때:</span><span class="sxs-lookup"><span data-stu-id="dc2d3-140">When obtaining a token using user credentials:</span></span>
->- <span data-ttu-id="dc2d3-141">사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).</span><span class="sxs-lookup"><span data-stu-id="dc2d3-141">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
->- <span data-ttu-id="dc2d3-142">응답에는 장치 그룹 설정에 따라 사용자가 액세스할 수 있는 장치와 연결된 알림만 포함됩니다(자세한 내용은 장치 그룹 [만들기](machine-groups.md) 및 관리 참조).</span><span class="sxs-lookup"><span data-stu-id="dc2d3-142">The response will include only alerts that are associated with devices that the user can access, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
+> <span data-ttu-id="6c6fe-140">사용자 자격 증명을 사용하여 토큰을 얻을 때:</span><span class="sxs-lookup"><span data-stu-id="6c6fe-140">When obtaining a token using user credentials:</span></span>
+>- <span data-ttu-id="6c6fe-141">사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).</span><span class="sxs-lookup"><span data-stu-id="6c6fe-141">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
+>- <span data-ttu-id="6c6fe-142">응답에는 장치 그룹 설정에 따라 사용자가 액세스할 수 있는 장치와 연결된 알림만 포함됩니다(자세한 내용은 장치 그룹 [만들기](machine-groups.md) 및 관리 참조).</span><span class="sxs-lookup"><span data-stu-id="6c6fe-142">The response will include only alerts that are associated with devices that the user can access, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="dc2d3-143">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="dc2d3-143">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="6c6fe-143">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="6c6fe-143">HTTP request</span></span>
 ```
 GET /api/alerts
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="dc2d3-144">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="dc2d3-144">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="6c6fe-144">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="6c6fe-144">Request headers</span></span>
 
-<span data-ttu-id="dc2d3-145">이름</span><span class="sxs-lookup"><span data-stu-id="dc2d3-145">Name</span></span> | <span data-ttu-id="dc2d3-146">유형</span><span class="sxs-lookup"><span data-stu-id="dc2d3-146">Type</span></span> | <span data-ttu-id="dc2d3-147">설명</span><span class="sxs-lookup"><span data-stu-id="dc2d3-147">Description</span></span>
+<span data-ttu-id="6c6fe-145">이름</span><span class="sxs-lookup"><span data-stu-id="6c6fe-145">Name</span></span> | <span data-ttu-id="6c6fe-146">유형</span><span class="sxs-lookup"><span data-stu-id="6c6fe-146">Type</span></span> | <span data-ttu-id="6c6fe-147">설명</span><span class="sxs-lookup"><span data-stu-id="6c6fe-147">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="dc2d3-148">권한 부여</span><span class="sxs-lookup"><span data-stu-id="dc2d3-148">Authorization</span></span> | <span data-ttu-id="dc2d3-149">문자열</span><span class="sxs-lookup"><span data-stu-id="dc2d3-149">String</span></span> | <span data-ttu-id="dc2d3-150">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-150">Bearer {token}.</span></span> <span data-ttu-id="dc2d3-151">**필수입니다**.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-151">**Required**.</span></span>
+<span data-ttu-id="6c6fe-148">권한 부여</span><span class="sxs-lookup"><span data-stu-id="6c6fe-148">Authorization</span></span> | <span data-ttu-id="6c6fe-149">String</span><span class="sxs-lookup"><span data-stu-id="6c6fe-149">String</span></span> | <span data-ttu-id="6c6fe-150">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-150">Bearer {token}.</span></span> <span data-ttu-id="6c6fe-151">**필수입니다**.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-151">**Required**.</span></span>
 
 
-## <a name="request-body"></a><span data-ttu-id="dc2d3-152">요청 본문</span><span class="sxs-lookup"><span data-stu-id="dc2d3-152">Request body</span></span>
-<span data-ttu-id="dc2d3-153">비어 있음</span><span class="sxs-lookup"><span data-stu-id="dc2d3-153">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="6c6fe-152">요청 본문</span><span class="sxs-lookup"><span data-stu-id="6c6fe-152">Request body</span></span>
+<span data-ttu-id="6c6fe-153">비어 있음</span><span class="sxs-lookup"><span data-stu-id="6c6fe-153">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="dc2d3-154">응답</span><span class="sxs-lookup"><span data-stu-id="dc2d3-154">Response</span></span>
-<span data-ttu-id="dc2d3-155">성공하면 이 메서드는 200 OK와 응답 [](alerts.md) 본문의 경고 개체 목록을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-155">If successful, this method returns 200 OK, and a list of [alert](alerts.md) objects in the response body.</span></span>
+## <a name="response"></a><span data-ttu-id="6c6fe-154">응답</span><span class="sxs-lookup"><span data-stu-id="6c6fe-154">Response</span></span>
+<span data-ttu-id="6c6fe-155">성공하면 이 메서드는 200 OK와 응답 [](alerts.md) 본문의 경고 개체 목록을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-155">If successful, this method returns 200 OK, and a list of [alert](alerts.md) objects in the response body.</span></span>
 
 
-## <a name="example-1---default"></a><span data-ttu-id="dc2d3-156">예제 1 - 기본값</span><span class="sxs-lookup"><span data-stu-id="dc2d3-156">Example 1 - Default</span></span>
+## <a name="example-1---default"></a><span data-ttu-id="6c6fe-156">예제 1 - 기본값</span><span class="sxs-lookup"><span data-stu-id="6c6fe-156">Example 1 - Default</span></span>
 
-<span data-ttu-id="dc2d3-157">**요청**</span><span class="sxs-lookup"><span data-stu-id="dc2d3-157">**Request**</span></span>
+<span data-ttu-id="6c6fe-157">**요청**</span><span class="sxs-lookup"><span data-stu-id="6c6fe-157">**Request**</span></span>
 
-<span data-ttu-id="dc2d3-158">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-158">Here is an example of the request.</span></span>
+<span data-ttu-id="6c6fe-158">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-158">Here is an example of the request.</span></span>
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/alerts
 ```
 
-<span data-ttu-id="dc2d3-159">**응답**</span><span class="sxs-lookup"><span data-stu-id="dc2d3-159">**Response**</span></span>
+<span data-ttu-id="6c6fe-159">**응답**</span><span class="sxs-lookup"><span data-stu-id="6c6fe-159">**Response**</span></span>
 
-<span data-ttu-id="dc2d3-160">다음은 응답의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-160">Here is an example of the response.</span></span>
+<span data-ttu-id="6c6fe-160">다음은 응답의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-160">Here is an example of the response.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="dc2d3-161">여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-161">The response list shown here may be truncated for brevity.</span></span> <span data-ttu-id="dc2d3-162">모든 알림은 실제 호출에서 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-162">All alerts will be returned from an actual call.</span></span>
+><span data-ttu-id="6c6fe-161">여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-161">The response list shown here may be truncated for brevity.</span></span> <span data-ttu-id="6c6fe-162">모든 알림은 실제 호출에서 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-162">All alerts will be returned from an actual call.</span></span>
 
 
 ```json
@@ -159,23 +160,23 @@ GET https://api.securitycenter.microsoft.com/api/alerts
 }
 ```
 
-## <a name="example-2---get-10-latest-alerts-with-related-evidence"></a><span data-ttu-id="dc2d3-163">예제 2 - 관련 증거가 있는 최신 경고 10개 다운로드</span><span class="sxs-lookup"><span data-stu-id="dc2d3-163">Example 2 - Get 10 latest Alerts with related Evidence</span></span>
+## <a name="example-2---get-10-latest-alerts-with-related-evidence"></a><span data-ttu-id="6c6fe-163">예제 2 - 관련 증거가 있는 최신 경고 10개 다운로드</span><span class="sxs-lookup"><span data-stu-id="6c6fe-163">Example 2 - Get 10 latest Alerts with related Evidence</span></span>
 
-<span data-ttu-id="dc2d3-164">**요청**</span><span class="sxs-lookup"><span data-stu-id="dc2d3-164">**Request**</span></span>
+<span data-ttu-id="6c6fe-164">**요청**</span><span class="sxs-lookup"><span data-stu-id="6c6fe-164">**Request**</span></span>
 
-<span data-ttu-id="dc2d3-165">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-165">Here is an example of the request.</span></span>
+<span data-ttu-id="6c6fe-165">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-165">Here is an example of the request.</span></span>
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
 
-<span data-ttu-id="dc2d3-166">**응답**</span><span class="sxs-lookup"><span data-stu-id="dc2d3-166">**Response**</span></span>
+<span data-ttu-id="6c6fe-166">**응답**</span><span class="sxs-lookup"><span data-stu-id="6c6fe-166">**Response**</span></span>
 
-<span data-ttu-id="dc2d3-167">다음은 응답의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-167">Here is an example of the response.</span></span>
+<span data-ttu-id="6c6fe-167">다음은 응답의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-167">Here is an example of the response.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="dc2d3-168">여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-168">The response list shown here may be truncated for brevity.</span></span> <span data-ttu-id="dc2d3-169">모든 알림은 실제 호출에서 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="dc2d3-169">All alerts will be returned from an actual call.</span></span>
+><span data-ttu-id="6c6fe-168">여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-168">The response list shown here may be truncated for brevity.</span></span> <span data-ttu-id="6c6fe-169">모든 알림은 실제 호출에서 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c6fe-169">All alerts will be returned from an actual call.</span></span>
 
 
 ```json
@@ -314,5 +315,5 @@ GET https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
 
-## <a name="see-also"></a><span data-ttu-id="dc2d3-170">참고 항목</span><span class="sxs-lookup"><span data-stu-id="dc2d3-170">See also</span></span>
-- [<span data-ttu-id="dc2d3-171">끝점용 Microsoft Defender를 사용하여 OData 쿼리</span><span class="sxs-lookup"><span data-stu-id="dc2d3-171">OData queries with Microsoft Defender for Endpoint</span></span>](exposed-apis-odata-samples.md)
+## <a name="see-also"></a><span data-ttu-id="6c6fe-170">참고 항목</span><span class="sxs-lookup"><span data-stu-id="6c6fe-170">See also</span></span>
+- [<span data-ttu-id="6c6fe-171">끝점용 Microsoft Defender를 사용하여 OData 쿼리</span><span class="sxs-lookup"><span data-stu-id="6c6fe-171">OData queries with Microsoft Defender for Endpoint</span></span>](exposed-apis-odata-samples.md)
