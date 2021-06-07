@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 2322dbab657d6dd73ce79b3a8e52a3d968c45809
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ec5d22caa52ffaa061637cb8c510a0efaf566b6a
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770981"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782900"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
 
@@ -139,7 +139,7 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 
 작업 센터에서는 자동화된 조사 및 응답 기능으로 만든 조사가 표시됩니다. Microsoft 365 Defender의 자동화된 자동 복구에서 특정 이벤트에 자동으로 응답하여 보안 팀을 도울 수 있습니다.
 
-[알림 센터에 대한 자세한 정보 알아보기](m365d-action-center.md)
+[자세한 내용은 Action Center를 통해 자세히 알아보시고](m365d-action-center.md)
 
 #### <a name="threat-analytics"></a>위협 분석
 

@@ -17,12 +17,12 @@ ms.collection:
 description: 웹, 개별 사용자 또는 전체 조직에 대해 웹에서 Outlook Outlook 보고서 피싱 추가 기능 또는 보고서 피싱 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 25c4f7d67fd4fa876544a17df0f4bc1abfd7b3e7
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: ff91cf4c99c9552ab5f5fecd7c6d2efee8d2d9a8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782936"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789259"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>보고서 메시지 또는 피싱 보고 추가 기능 사용
 
@@ -53,7 +53,6 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 보고서 메시지 추가 기능 및 피싱 보고 추가 기능 모두 대부분의 Microsoft 365 및 다음 제품과 함께 작동합니다.
-
   - 웹용 Outlook
   - Outlook 2013 SP1 이상
   - Mac용 Outlook 2016
@@ -69,6 +68,9 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 - 관리자는 전역 관리자 역할 그룹의 구성원이 해야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 - 보고서 메시지 기능을 사용하여 메시지를 보고하는 방법에 대한 자세한 내용은 report [false positives and false negatives in Outlook.](report-false-positives-and-false-negatives.md)
+
+> [!IMPORTANT]
+> 사용자 제출 정책을 사용할 수 Outlook 기본 제공 보고 환경은 사용하지 [않는 것이 좋습니다.](./user-submission.md) 대신 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하는 것이 좋습니다.
 
 ## <a name="get-the-report-message-add-in"></a>보고서 메시지 추가 기능 확인
 

@@ -20,12 +20,12 @@ ms.custom:
 - commerce_purchase
 description: Microsoft 제품 또는 서비스를 구입할 때의 등록 번호 및 검토 중 알림에 대해 자세히 알아보아야 합니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 8ec97356f9859e928a8ee435f406c15f4f17a4c4
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 93cba6c1eebf0b41a94d6a6e3aac83693218f407
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332225"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795973"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>등록 번호 및 검토 알림
 
@@ -86,7 +86,7 @@ ms.locfileid: "52332225"
 | **폴란드**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – 세금 식별 번호<br>[PESEL](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – 폴란드(폴란드어(폴란드) Elektroniczny System Ewidencji Ludności, 모집단 등록을 위한 유니버설 전자 시스템)에서 사용되는 국가 ID 번호입니다. |  |  |  |  |
 | **러시아**  | [INN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Russia-TIN.pdf) – 세금 식별 번호(러시아어 "Individualiy Nomer Nalogoplatelshika") |  |  |  |  |
 | **사우디아라비아** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Saudi-Arabia-TIN.pdf) – 세금 식별 번호 |  |  |  |  |
-| **남아프리카 공화국** | TRN – 트래픽 등록 번호 |  |  |  |  |
+| **남아프리카 공화국** | TRN – 세금 참조 번호 |  |  |  |  |
 | **남수단** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – 세금 식별 번호 |  |  |  |  |
 | **타지키스탄**  | INN – 세금 식별 번호<br>EIN – 고용주 식별 번호<br>KPP – 조직 등록 이유를 반영하는 코드입니다. |  |  |  |  |
 | **태국** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – 세금 식별 번호 |  |  |  |  |

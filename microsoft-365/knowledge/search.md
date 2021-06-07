@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Microsoft Viva에서 항목을 검색하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 54a143ea0960bf56a0d1c5224658bea404c7621e
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 36901cf32a0633aaa5fc08e45021d13c7b06dd0b
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301719"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795997"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Search를 사용하여 Microsoft Viva 항목에서 항목 찾기
 
@@ -55,8 +55,5 @@ Viva 항목에서는 항목을 수동으로 편집하여 이 항목의 약어를
 - 일반적으로 "여행"을 검색하는 사용자의 경우 예상 정보가 있는 "여행"에 대한 항목을 만들 수 있습니다. 항목 설명에서 Concur 외부 사이트에 대한 링크를 추가하는 것이 좋습니다. 해당 링크가 Microsoft 365 호스트되는 내부 여행 예약 사이트에 대한 링크인 경우 "고정된 리소스"에 추가할 수 있습니다.
  
 ### <a name="search-results-priority"></a>검색 결과 우선 순위 
- 
-사용자 검색 환경의 경우 사용자가 "여행" 같은 용어를 검색하면 검색 결과가 Microsoft Search에서 다음 우선 순위로 표시됩니다.
-1. 게시된 항목 또는 확인된 항목 
-2. 책갈피
-3. 제안된 항목
+
+사용자의 검색 환경에서 사용자가 "여행"이라는 용어를 검색하면 책갈피를 사용할 수 있는 경우 주제보다 먼저 책갈피가 나타납니다.

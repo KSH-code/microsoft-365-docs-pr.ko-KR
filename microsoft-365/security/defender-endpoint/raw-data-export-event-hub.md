@@ -1,6 +1,6 @@
 ---
-title: Azure Microsoft 365 Hub로 Defender 이벤트 스트림
-description: 고급 헌팅 Microsoft 365 이벤트를 이벤트 허브로 스트리밍하도록 Defender를 구성하는 방법을 학습합니다.
+title: Azure 이벤트 허브로 끝점용 Microsoft Defender 이벤트 스트림
+description: 고급 헌팅 이벤트를 이벤트 허브로 스트리밍하도록 끝점용 Microsoft Defender를 구성하는 방법을 학습합니다.
 keywords: 원시 데이터 내보내기, 스트리밍 API, API, Azure 이벤트 허브, Azure 저장소, 저장소 계정, 고급 헌팅, 원시 데이터 공유
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,65 +16,60 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 82a2e5cc3555dd3f444e7a1fc1b7126603bea489
-ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
+ms.openlocfilehash: 8985a40c99ad4db9710dfbf9805d537a921f6c96
+ms.sourcegitcommit: f0118e61e490496cb23189cc5c73b23e2ba939be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52778224"
+ms.locfileid: "52780168"
 ---
-# <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Azure Microsoft 365 허브로 고급 헌팅 이벤트를 스트리밍하도록 Defender 구성
+# <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Azure 이벤트 허브에 고급 헌팅 이벤트를 스트리밍하도록 끝점에 대한 Microsoft Defender 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 
-## <a name="before-you-begin"></a>시작하기 전에 다음을 수행해야 합니다:
+## <a name="before-you-begin"></a>시작하기 전에
 
 1. [테넌트에서 이벤트 허브를](/azure/event-hubs/) 생성합니다.
 
-2. [Azure](https://ms.portal.azure.com/)테넌트에 로그인하고, **Microsoft.Insights에** 등록할 > 구독 > 리소스 공급자로 > 로 이동하세요.
+2. [Azure](https://ms.portal.azure.com/)테넌트에 로그인하고 **구독 > 구독 > 리소스 공급자> 등록 **Microsoft.insights****로 이동하세요.
 
-3. 이벤트 허브 네임스페이스를 만들고  이벤트 허브로 이동하여 > 계층, 처리력 단위 및 예상 부하에 적합한 자동 인플래시를 선택합니다. 자세한 내용은 [가격 책정 - 이벤트 허브 | Microsoft Azure.](https://azure.microsoft.com/en-us/pricing/details/event-hubs/)  
+## <a name="enable-raw-data-streaming"></a>원시 데이터 스트리밍 사용
 
-4. 이벤트 허브 네임스페이스가 생성되면 앱 등록 서비스 사용자를 읽기 프로그램, Azure 이벤트 허브 데이터 수신기 및 Microsoft 365 Defender에 참가자로 로그인할 사용자를 추가해야 합니다(리소스 그룹 또는 구독 수준에서도 이 작업을 수행 할 수 있습니다). **IAM(액세스 제어)** > 이벤트 허브 네임스페이스로 이동하여 > 할당 아래에서 추가 및 **확인을 진행합니다.**
+1. * 전역 [Microsoft Defender 보안 센터](https://securitycenter.windows.com) **_** 또는 __*_ 보안 관리자 **로 로그인합니다.
 
-## <a name="enable-raw-data-streaming"></a>원시 데이터 스트리밍을 사용하도록 설정:
+2. 에서 [데이터 내보내기 설정](https://securitycenter.windows.com/interoperability/dataexport) 페이지로 Microsoft Defender 보안 센터.
 
-1. * 전역 [Microsoft 365](https://security.microsoft.com) 또는 _* 보안 관리자 ****로** Microsoft 365 보안 _센터에 로그인합니다._
-
-2. 데이터 [내보내기 설정 페이지로 이동합니다.](https://security.microsoft.com/settings/mtp_settings/raw_data_export)
-
-3. 추가를 **클릭합니다.**
+3. 데이터 **내보내기 설정 추가를 클릭합니다.**
 
 4. 새 설정의 이름을 선택합니다.
 
 5. **Azure 이벤트 허브로 이벤트 전달을 선택하세요.**
 
-6. 이벤트 데이터를 단일 이벤트 허브로 내보내거나 이벤트 허브 네임스페이스에서 각 이벤트 테이블을 다른 Even Hub로 내보낼지 선택할 수 있습니다. 
+6. 이벤트 **허브** 이름 및 **이벤트 허브 리소스 ID를 입력합니다.**
 
-7. 이벤트 데이터를 단일 이벤트 허브로 내보내기  위해 이벤트 허브 이름 및 이벤트 허브 리소스 **ID를 입력합니다.**
-
-   이벤트 허브 리소스 **ID를** 얻습니다. Azure 속성 탭의 [Azure](https://ms.portal.azure.com/)이벤트 허브 네임스페이스 페이지로 이동하여 > ID 아래 텍스트를  >   **복사합니다.**
+   이벤트 허브 리소스 **ID를** 얻기 위해 Azure > 속성 탭의 [Azure](https://ms.portal.azure.com/) 이벤트 허브 네임스페이스 페이지로 이동한 > 리소스 ID 아래 텍스트를 **복사합니다.**
 
    ![이벤트 허브 리소스 Id1의 이미지](images/event-hub-resource-id.png)
 
-8. 스트리밍할 이벤트를 선택하고 저장을 **클릭합니다.**
+7. 스트리밍할 이벤트를 선택하고 저장을 **클릭합니다.**
 
-## <a name="the-schema-of-the-events-in-azure-event-hubs"></a>Azure 이벤트 허브에 있는 이벤트의 스마마:
+## <a name="the-schema-of-the-events-in-azure-event-hubs"></a>Azure 이벤트 허브의 이벤트 스마마
 
 ```
 {
     "records": [
                     {
-                        "time": "<The time Microsoft 365 Defender received the event>"
+                        "time": "<The time WDATP received the event>"
                         "tenantId": "<The Id of the tenant that the event belongs to>"
                         "category": "<The Advanced Hunting table name with 'AdvancedHunting-' prefix>"
-                        "properties": { <Microsoft 365 Defender Advanced Hunting event as Json> }
+                        "properties": { <WDATP Advanced Hunting event as Json> }
                     }
                     ...
                 ]
@@ -83,20 +78,17 @@ ms.locfileid: "52778224"
 
 - Azure 이벤트 허브의 각 이벤트 허브 메시지에는 레코드 목록이 포함되어 있습니다.
 
-- 각 레코드에는 이벤트 이름, Microsoft 365 Defender에서 이벤트를 수신한 시간, 해당 레코드가 속한 테넌트(테넌트에서만 이벤트만 수신) 및 **"properties"라는** 속성의 JSON 형식 이벤트가 포함되어 있습니다.
+- 각 레코드에는 이벤트 이름, Endpoint용 Microsoft Defender에서 이벤트를 수신한 시간, 해당 레코드가 속한 테넌트(테넌트에서만 이벤트만 수신) 및 **"properties"라는** 속성의 JSON 형식 이벤트가 포함되어 있습니다.
 
-- Defender 이벤트의 Microsoft 365 대한 자세한 내용은 고급 헌팅 개요를 [참조하세요.](../defender/advanced-hunting-overview.md)
+- 끝점 이벤트용 Microsoft Defender 이벤트의 schema에 대한 자세한 내용은 고급 헌팅 [개요를 참조하세요.](advanced-hunting-overview.md)
 
-- 고급 헌팅에서 **DeviceInfo** 테이블에는 장치 그룹이 포함된 **MachineGroup이라는** 열이 있습니다. 여기에서 모든 이벤트도 이 열로 장식됩니다. 
+- 고급 헌팅에서 **DeviceInfo** 테이블에는 장치 그룹이 포함된 **MachineGroup이라는** 열이 있습니다. 여기에서 모든 이벤트도 이 열로 장식됩니다. 자세한 [내용은 장치 그룹을](machine-groups.md) 참조하세요.
 
-9. 각 이벤트 테이블을 다른 이벤트 허브로  내보내기 위해 이벤트 허브 이름을 비워 두면 Microsoft 365 나머지 작업을 할 수 있습니다.
-
-
-## <a name="data-types-mapping"></a>데이터 형식 매핑:
+## <a name="data-types-mapping"></a>데이터 형식 매핑
 
 이벤트 속성에 대한 데이터 형식을 얻습니다.
 
-1. 보안 센터에 [Microsoft 365 고급](https://security.microsoft.com) 헌팅 [페이지로 이동합니다.](https://security.microsoft.com/hunting-package)
+1. 로그인하여 [](https://securitycenter.windows.com) Microsoft Defender 보안 센터 [헌팅 페이지로 이동합니다.](https://securitycenter.windows.com/hunting-package)
 
 2. 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다.
  
@@ -111,8 +103,8 @@ ms.locfileid: "52778224"
   ![이벤트 허브 리소스 Id2의 이미지](images/machine-info-datatype-example.png)
 
 ## <a name="related-topics"></a>관련 항목
-- [고급 헌팅 개요](../defender/advanced-hunting-overview.md)
-- [Microsoft 365 Defender 스트리밍 API](raw-data-export.md)
-- [Azure Microsoft 365 Defender 이벤트 스트림](raw-data-export-storage.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [끝점 스트리밍 API용 Microsoft Defender](raw-data-export.md)
+- [Azure 저장소 계정으로 Endpoint용 Microsoft Defender 이벤트 스트림](raw-data-export-storage.md)
 - [Azure 이벤트 허브 설명서](/azure/event-hubs/)
 - [연결 문제 해결 - Azure 이벤트 허브](/azure/event-hubs/troubleshooting-guide)

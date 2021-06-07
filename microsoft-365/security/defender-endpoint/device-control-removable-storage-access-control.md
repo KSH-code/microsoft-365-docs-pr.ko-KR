@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 46ea74d11f9c54cd1d967058433a74ef4c1ead19
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 018bc3549cd7a25df5bdd86d98d351e19027c31f
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300241"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796033"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -34,10 +34,10 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 |---------|---------|
 |Access    |  읽기, 쓰기, 실행       |
 |작업 모드    |    감사, 허용, 방지     |
-|CSP 지원   |   예      |
-|GPO 지원    |   예      |
-|사용자 기반 지원     |   예      |
-|컴퓨터 기반 지원    |    예     |
+|CSP 지원   |   네.      |
+|GPO 지원    |   네.      |
+|사용자 기반 지원     |   네.      |
+|컴퓨터 기반 지원    |    네.     |
 
 ## <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
@@ -68,7 +68,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
         - CdRomDevices
     - DeviceId
     - HardwareId
-    - InstancePathId
+    - InstancePathId: InstancePathId는 시스템에서 장치를 고유하게 식별하는 문자열입니다(예: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&). 끝에 있는 **숫자(예:**&0)는 사용 가능한 슬롯을 나타내며 장치에서 장치로 변경될 수 있습니다. 최상의 결과를 얻기 위해 끝에 와일드카드를 사용 합니다. 예를 들어 USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
     - FriendlyNameId
     - SerialNumberId
     - VID
@@ -196,7 +196,7 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 
 ### <a name="licensing"></a>라이선싱
 
-이동식 액세스 제어를 Storage 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 Storage 액세스 제어에 액세스하고 사용하려면 액세스 Microsoft 365 E5.
+이동식 액세스 제어를 Storage 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 제어에 액세스하고 Storage 액세스 제어가 있어야 Microsoft 365 E3.
 
 ### <a name="deploying-policy-via-group-policy"></a>그룹 정책을 통해 정책 배포
 
@@ -243,7 +243,7 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 1. 각 그룹에 대해 OMA-URI 규칙을 생성합니다.
     - OMA-URI: 
 
-      /Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b **GroupGUID**%7d/GroupData
+      ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b **GroupGUID**%7d/GroupData
 
       예를 들어 샘플의 이동식 저장소 및 **CD/DVD** 그룹의 경우 링크는 다음과 같습니다.
 
@@ -257,7 +257,7 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 
     - OMA-URI: 
 
-      /Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bFA6BE102-0784-4A2A-B010-A0BEBEBF68E1%7d/RuleData
+      ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bFA6BE102-0784-4A2A-B010-A0BEBEBF68E1%7d/RuleData
 
       예를 들어 예제에서 승인된 **USB** 규칙을 허용하지만 쓰기 차단 및 실행에 대한 링크는 다음과 같습니다. 
 

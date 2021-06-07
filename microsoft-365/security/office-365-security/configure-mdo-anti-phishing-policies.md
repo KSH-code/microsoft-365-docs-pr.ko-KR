@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8cbe517ef2a702e3e4fd7f6af4ee1d7ed1dd13d2
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 9af3824b245cd976d1e859d6ebc4efcda47325e0
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789162"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793091"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 피싱 방지 정책 Office 365
 
@@ -164,7 +164,7 @@ Defender for Office 365 피싱 방지 보호의 효율성을 높이기 위해 �
 
        가장 플라이아웃에 대한 사용자 지정 도메인 관리로 돌아가 목록에서 항목을 하나 이상 선택하여 항목을 제거할 수 있습니다.  검색 아이콘 검색 상자를 사용하여 ![ 항목을 ](../../media/m365-cc-sc-create-icon.png) **검색할 수** 있습니다.
 
-       항목을 하나 이상 선택하면 삭제 아이콘 삭제 아이콘이 나타나 선택된 항목을 제거하는 데 사용할 ![ ](../../media/m365-cc-sc-delete-icon.png)  수 있습니다.
+       하나 이상의 항목을 선택하면 선택한 항목을 제거하는 데 사용할 수 있는 도메인 삭제 아이콘 삭제 아이콘이 ![ ](../../media/m365-cc-sc-delete-icon.png)  나타납니다.
 
    - **신뢰할** 수 있는 보낸 사람 및 도메인 추가: **관리(nn)** 신뢰할 수 있는 보낸 사람 및 도메인을 클릭하여 정책에 대한 가장 보호 예외를 지정합니다. 나타나는 **가장 보호를** 위한 사용자 지정 도메인 관리 플라이아웃에서 다음 설정을 구성합니다.
       - **보낸 사람**:  보낸 사람 탭이 선택되어 있는지 확인하고 보낸 사람 추가 ![ 아이콘 을 ](../../media/m365-cc-sc-create-icon.png) 클릭합니다. 신뢰할 **수 있는 보낸** 사람 추가 플라이아웃이 나타나면 상자에 전자 메일 주소를 입력하고 추가를 **클릭합니다.** 필요한 만큼 이 단계를 반복합니다. 기존 항목을 제거하려면 ![ 항목의 삭제 ](../../media/m365-cc-sc-close-icon.png) 아이콘을 클릭합니다.
@@ -243,7 +243,7 @@ Defender for Office 365 피싱 방지 보호의 효율성을 높이기 위해 �
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
-7. 표시되는 **검토** 페이지에서 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다.
+7. 표시되는 **검토** 페이지에서 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다. 또는 뒤로를 **클릭하거나** 마법사에서 특정 페이지를 선택할 수 있습니다.
 
    완료되면 제출을 **클릭합니다.**
 

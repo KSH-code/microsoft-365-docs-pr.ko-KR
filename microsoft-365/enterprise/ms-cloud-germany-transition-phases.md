@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 6778248b127894102d15d4d94e3d2f099e3bfa37
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 3a5b95bac74ae405f4e1d6fa91ba4ab51e4a9d05
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771204"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796045"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -50,8 +50,7 @@ ms.locfileid: "52771204"
 |Power BI & Dynamics 365|15일 이상|Microsoft|Power BI 및 Dynamics 365 콘텐츠를 마이그레이션합니다.|
 |Azure AD 마무리|1~2일|Microsoft|전 세계 테넌트 컷오버를 완료합니다.|
 |Clean-Up|1~2일|고객|AD FS(Active Directory Federation Services) 신뢰 파티 트러스트, Azure AD 커넥트 및 클라이언트 다시 시작과 같은 레거시 연결을 Office 정리합니다.|
-|끝점 사용 안|30일|Microsoft|Azure AD가 마무리된 후 30일이 지난 후 Microsoft 클라우드 도이치랜드 Azure AD 서비스는 전환된 조직의 끝점 액세스를 중지합니다. 인증과 같은 끝점 요청은 도이치랜드 Microsoft 클라우드 서비스에 대해 이 시점부터 실패합니다. |
-
+|끝점 사용 안|30일|Microsoft|Azure AD가 마무리된 후 30일이 지난 후 Microsoft 클라우드 도이치랜드 Azure AD 서비스는 전환된 조직의 끝점 액세스를 중지합니다. 인증과 같은 끝점 요청은 도이치랜드 Microsoft 클라우드 서비스에 대해 이 시점부터 실패합니다. 도이치랜드 Microsoft 클라우드의 Office 365 서비스에 연결된 인스턴스에서 Azure 워크로드를 실행하는 고객은 나중에 최종 마이그레이션 단계로 이동됩니다. |
 
 단계 및 해당 작업은 중요한 데이터 및 환경이 전역 서비스로 Office 365 보장합니다. 테넌트가 마이그레이션 큐에 추가되고 나면 각 작업이 백end 서비스에서 실행되는 단계 집합으로 완료됩니다. 일부 워크로드에는 관리자(또는 사용자)가 작업을 요구하거나 마이그레이션이 실행되고 마이그레이션이 구성되는 방법에서 설명하는 단계의 사용에 영향을 줄 [수 있습니다.](ms-cloud-germany-transition.md#how-is-the-migration-organized)
 
@@ -136,6 +135,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 - 조직에서 여전히 SharePoint 워크플로를 사용하는 경우 2021년 12월 31일 이후에는 더 이상 작동하지 않습니다. SharePoint 2013 워크플로는 2020년 11월 1일부터 시작되는 새 테넌트에 대해 기본적으로 꺼져 있습니다. SharePoint Online 서비스로의 마이그레이션이 완료되면 지원되는 Power Automate 솔루션으로 이동하는 것이 좋습니다.
  - SharePoint Online 인스턴스가 아직 마이그레이션되지 않은 Microsoft 클라우드 도이클랜드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM 버전 16.0.20616.12000 이하를 유지해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 SharePoint 통해 Online에 대한 연결이 실패합니다.
 - 이 단계에서는 URL의 SharePoint IP 주소가 변경됩니다. Office 365 전역 서비스로 전환하고 나면 보존된 테넌트 URL(예: 및 )의 주소가 전 세계 Microsoft 365 URL 및 IP 주소 범위(SharePoint Online 및 `contoso.sharepoint.de` `contoso-my.sharepoint.de` [비즈니스용 OneDrive)로 변경됩니다.](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#sharepoint-online-and-onedrive-for-business)
+- 서비스 SharePoint OneDrive 전환하는 동안 Office Online이 예상대로 작동하지 않을 수 있습니다. 
 
 > [!NOTE]
 > eDiscovery를 사용하는 경우 [eDiscovery](ms-cloud-germany-transition-add-scc.md)마이그레이션 환경을 알고 있어야 합니다.
@@ -169,7 +169,7 @@ Office 365 전역 서비스 지역이 기본값으로 설정되어 내부 부하
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같은 가치를 제공해야 합니다.
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예:
 
 ```powershell
 New-PSSession 
@@ -256,7 +256,7 @@ Dynamics 365를 사용 하는 고객은 조직의 Dynamics 조직을 독립적�
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| Microsoft Dynamics 리소스 | Microsoft Dynamics를 사용할 고객은 Microsoft Dynamics 365를 전역 서비스 인스턴스로 전환하기 위해 Microsoft Engineering 또는 Microsoft FastTrack의 Office 365 있습니다.* |<ul><li>마이그레이션 후 관리자는 조직의 유효성을 검사합니다. <</li><li>관리자는 필요한 경우 워크플로를 수정합니다. </li><li>관리자는 AdminOnly 모드를 적절하게 지워야 합니다.</li><li>관리자는 조직 유형을 샌드박스에서 적절하게 변경합니다. </li><li>최종 사용자에게 새 URL을 알리고 인스턴스(org)에 액세스합니다.</li><li>인바운드 연결을 새 끝점 URL로 업데이트합니다. </li><li>전환 중에 사용자가 Dynamics 서비스를 사용할 수 없습니다. </li><li>사용자는 각 Org를 마이그레이션한 후 해당 상태 및 기능의 유효성을 검사해야 합니다.</li></ul>|
+| Microsoft Dynamics 리소스 | Microsoft Dynamics를 사용할 고객은 Microsoft Dynamics 365를 전역 서비스 인스턴스로 전환하기 위해 Microsoft Engineering 또는 Microsoft FastTrack의 Office 365 있습니다.* |<ul><li>마이그레이션 후 관리자는 조직의 유효성을 검사합니다. </li><li>관리자는 필요한 경우 워크플로를 수정합니다. </li><li>관리자는 AdminOnly 모드를 적절하게 지워야 합니다.</li><li>관리자는 조직 유형을 샌드박스에서 적절하게 변경합니다. </li><li>최종 사용자에게 새 URL을 알리고 인스턴스(org)에 액세스합니다.</li><li>인바운드 연결을 새 끝점 URL로 업데이트합니다. </li><li>전환 중에 사용자가 Dynamics 서비스를 사용할 수 없습니다. </li><li>사용자는 각 Org를 마이그레이션한 후 해당 상태 및 기능의 유효성을 검사해야 합니다.</li></ul>|
 ||||
 
 \* (i) Microsoft Dynamics 365를 사용 하는 고객은 제공된 마이그레이션 프로세스에 정의된 이 마이그레이션 시나리오에서 조치를 취해야 합니다. (ii) 고객이 조치를 취하지 못하면 Microsoft가 마이그레이션을 완료할 수 없습니다. (iii) 고객의 비활성으로 인해 Microsoft가 마이그레이션을 완료할 수 없는 경우 고객의 구독은 2021년 10월 29일에 만료됩니다.

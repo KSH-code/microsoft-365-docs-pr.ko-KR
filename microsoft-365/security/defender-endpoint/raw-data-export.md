@@ -1,6 +1,6 @@
 ---
-title: Defender Microsoft 365 스트림
-description: 고급 헌팅 이벤트를 이벤트 허브 Microsoft 365 Azure 저장소 계정으로 스트리밍하도록 Defender를 구성하는 방법을 설명합니다.
+title: Endpoint용 Microsoft Defender 이벤트 스트림
+description: 고급 헌팅 이벤트를 이벤트 허브 또는 Azure 저장소 계정으로 스트리밍하도록 끝점용 Microsoft Defender를 구성하는 방법을 설명합니다.
 keywords: 원시 데이터 내보내기, 스트리밍 API, API, 이벤트 허브, Azure 저장소, 저장소 계정, 고급 헌팅, 원시 데이터 공유
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,35 +16,38 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 971cc757dcbd0a190917d2a5f11eb7f68b758008
-ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
+ms.openlocfilehash: 27d1b36f3e49112a2da95f9268c0e05fcaa72c89
+ms.sourcegitcommit: f0118e61e490496cb23189cc5c73b23e2ba939be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52778200"
+ms.locfileid: "52780144"
 ---
-# <a name="streaming-api"></a>스트리밍 API
+# <a name="raw-data-streaming-api"></a>원시 데이터 스트리밍 API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 
 ## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a>고급 헌팅 이벤트를 이벤트 허브 및/또는 Azure 저장소 계정으로 스트리밍합니다.
 
-Microsoft 365 Defender는 고급 헌팅을 [](../defender/advanced-hunting-overview.md) 통해 사용할 수 있는 모든 이벤트를 이벤트 [허브](/azure/event-hubs/) 및/또는 Azure 저장소 계정으로 [스트리밍할 수 있도록 지원합니다.](/azure/event-hubs/)
+Endpoint용 Defender는 고급 헌팅을 통해 사용할 수 있는 모든 이벤트를 이벤트 [허브](/azure/event-hubs/) 및/또는 Azure 저장소 계정으로 [스트리밍할 수 있도록 지원합니다.](/azure/event-hubs/) [](advanced-hunting-overview.md)
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4r4ga]
 
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
 항목 | 설명
 :---|:---
-[Azure 이벤트 허브로 이벤트 스트림](raw-data-export-event-hub.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 고급 [](../defender/advanced-hunting-overview.md) 헌팅을 이벤트 허브로 Microsoft 365 Defender를 구성합니다.
-[Azure 저장소 계정으로 이벤트 스트림](raw-data-export-storage.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 Azure [](../defender/advanced-hunting-overview.md) Microsoft 365 고급 헌팅을 스트리밍하도록 Defender를 구성합니다.
+[Azure 이벤트 허브로 끝점용 Microsoft Defender 이벤트 스트림](raw-data-export-event-hub.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 [](advanced-hunting-overview.md) 고급 헌팅을 이벤트 허브로 스트리밍하도록 끝점용 Defender를 구성합니다.
+[Azure 저장소 계정으로 끝점 이벤트용 Stream Defender](raw-data-export-storage.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 [](advanced-hunting-overview.md) Azure 저장소 계정으로 고급 헌팅을 스트리밍하도록 끝점용 Defender를 구성합니다.
 
 
 ## <a name="related-topics"></a>관련 항목
-- [고급 헌팅 개요](../defender/advanced-hunting-overview.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
 - [Azure 이벤트 허브 설명서](/azure/event-hubs/)
 - [Azure Storage 계정 설명서](/azure/storage/common/storage-account-overview)
