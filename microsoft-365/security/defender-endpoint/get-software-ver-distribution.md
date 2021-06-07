@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e47a97477500491f634e3f5134a32241bd68985b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 7ac7fdf4c38846e2e8be614567ddb87a98e3a96c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935296"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772128"
 ---
 # <a name="list-software-version-distribution"></a>소프트웨어 버전 배포 목록 
 
@@ -54,7 +56,7 @@ GET /api/Software/{Id}/distributions
 
 | 이름        | 유형 | 설명
 |:--------------|:-------|:--------------|
-| 권한 부여 | 문자열 | Bearer {token}. **필수 .**
+| 권한 부여 | String | Bearer {token}. **필수 .**
 
 ## <a name="request-body"></a>요청 본문
 비어 있음

@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 1e24236aae1922705c1711042f0426251a979ede
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 0083d806f3e52307e6dce30f74e255073a09c16a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167082"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770502"
 ---
 # <a name="collect-investigation-package-api"></a>조사 패키지 수집 API
 
@@ -68,7 +69,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/collectInvestiga
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
@@ -82,7 +83,7 @@ Comment |   String |    작업과 연결되는 설명입니다. **필수입니�
 성공하면 이 메서드는 응답 본문에 201 - 생성된 응답 코드 및 [컴퓨터](machineaction.md) 작업을 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

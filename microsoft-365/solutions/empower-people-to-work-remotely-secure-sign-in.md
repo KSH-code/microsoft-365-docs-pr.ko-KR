@@ -1,5 +1,5 @@
 ---
-title: 1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
+title: 1단계. MFA를 사용하여 하이브리드 작업자에 대 한 로그인 보안 강화
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -16,21 +16,21 @@ ms.collection:
 - m365solution-remotework
 - m365solution-scenario
 ms.custom: ''
-description: 원격 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: 1c69f2ee7520a554a726bc0ffd9e2d7ebca64261
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+description: 하이브리드 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
+ms.openlocfilehash: 105c2f7170b4bea648427b0fda57ad081cb99a86
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028971"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788966"
 ---
-# <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
+# <a name="step-1-increase-sign-in-security-for-hybrid-workers-with-mfa"></a>1단계. MFA를 사용하여 하이브리드 작업자에 대 한 로그인 보안 강화
 
-원격 작업자의 로그인에 대한 보안을 강화하려면 MFA(다단계 인증)를 사용합니다. MFA에서는 사용자 로그인이 사용자 계정 비밀번호 외에 추가 확인을 받아야합니다. 악의적인 사용자가 사용자 계정 암호를 확인하더라도 액세스 권한이 부여되기 전에 스마트폰으로 전송되는 문자 메시지와 같은 추가 확인에 응답 할 수 있어야 합니다.
+하이브리드 작업자의 로그인에 대한 보안을 강화하려면 MFA(다단계 인증)를 사용합니다. MFA에서는 사용자 로그인이 사용자 계정 비밀번호 외에 추가 확인을 받아야합니다. 악의적인 사용자가 사용자 계정 암호를 확인하더라도 액세스 권한이 부여되기 전에 스마트폰으로 전송되는 문자 메시지와 같은 추가 확인에 응답 할 수 있어야 합니다.
 
 ![올바른 암호와 추가적인 확인을 수행하면 로그인에 성공합니다.](../media/empower-people-to-work-remotely/remote-workers-mfa.png)
 
-원격 작업자, 특히 관리자를 포함한 모든 사용자에게 MFA를 강력히 권장합니다.
+하이브리드 작업자, 특히 관리자를 포함한 모든 사용자에게 MFA를 강력히 권장합니다.
 
 사용자가 Microsoft 365 계획에 따라 MFA를 사용하도록하는 방법에는 세 가지가 있습니다.
 
@@ -101,7 +101,7 @@ Azure AD ID 보호를 사용하여 사용자가 MFA에 등록하도록 요구하
 
 ## <a name="sign-in-to-saas-apps-with-azure-ad"></a>Azure AD를 사용하여 SaaS 앱에 로그인
 
-Azure AD는 사용자에게 클라우드 인증을 제공할 뿐만 아니라 사내, 마이크로소프트 클라우드 또는 다른 클라우드에 있는 모든 애플리케이션을 보호하는 중요한 방법이 될 수도 있습니다. [Azure AD](/azure/active-directory/manage-apps/plan-an-application-integration)에 앱을 통합하면 원격 작업자들이 필요로 하는 응용 프로그램을 쉽게 검색하고 안전하게 로그인할 수 있습니다.
+Azure AD는 사용자에게 클라우드 인증을 제공할 뿐만 아니라 사내, 마이크로소프트 클라우드 또는 다른 클라우드에 있는 모든 애플리케이션을 보호하는 중요한 방법이 될 수도 있습니다. [Azure AD](/azure/active-directory/manage-apps/plan-an-application-integration)에 앱을 통합하면 하이브리드 작업자들이 필요로 하는 응용 프로그램을 쉽게 검색하고 안전하게 로그인할 수 있습니다.
 
 ## <a name="admin-technical-resources-for-mfa-and-identity"></a>MFA 및 ID에 대한 관리자 기술 리소스
 

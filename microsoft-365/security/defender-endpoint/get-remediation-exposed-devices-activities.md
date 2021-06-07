@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 92b5a93e86a20f36469d2b5cb606a8ddc2e97077
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 9b10659f76e5b05bea11f5c6c55ca7c2a34a2db5
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241715"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772164"
 ---
 # <a name="list-exposed-devices-of-one-remediation-activity"></a>한 번의 수정 작업이 있는 노출된 장치 목록
 
@@ -49,7 +50,7 @@ ms.locfileid: "52241715"
 
 **URL:** GET: /api/remediationTasks/ \{ id \} /machineReferences
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API for details을 참조합니다.](apis-intro.md)
 
@@ -62,12 +63,12 @@ ms.locfileid: "52241715"
 
 속성(id) | 데이터 형식 | 설명 | 예제
 :---|:---|:---|:---
-id | 문자열 | 장치 ID | w2957837fwda8w9ae7f023dba081059dw8d94503
-computerDnsName | 문자열 | 장치 이름 | PC-SRV2012R2Foo.UserNameVldNet.local
-osPlatform | 문자열 | 장치 운영 체제 | WindowsServer2012R2
-rbacGroupName | 문자열 | 이 장치가 연결된 장치 그룹의 이름입니다. | 서버
+id | String | 장치 ID | w2957837fwda8w9ae7f023dba081059dw8d94503
+computerDnsName | String | 장치 이름 | PC-SRV2012R2Foo.UserNameVldNet.local
+osPlatform | String | 장치 운영 체제 | WindowsServer2012R2
+rbacGroupName | String | 이 장치가 연결된 장치 그룹의 이름입니다. | 서버
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 ### <a name="request-example"></a>요청 예제
 

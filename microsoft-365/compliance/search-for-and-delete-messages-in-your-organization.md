@@ -16,13 +16,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
-description: 보안 및 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: 629b236be3f857da47674cda9350d8b89e6f3445
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Microsoft 365 규정 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
+ms.openlocfilehash: 95683ed5dc6cce8ff109976ebb0d13215593f046
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537646"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770712"
 ---
 # <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 
@@ -46,19 +46,23 @@ ms.locfileid: "52537646"
   > [!NOTE]
   > **조직 관리** 역할 그룹은 Exchange Online과 보안 및 준수 센터 모두에 있습니다. 이들은 서로 다른 권한을 부여하는 별도의 역할 그룹입니다. Exchange Online에서 **조직 관리** 의 구성원은 전자 메일 메시지를 삭제하는 데 필요한 권한을 부여하지 않습니다. 보안 및 준수 센터에서 **검색 및 삭제** 역할(직접 또는 **조직 관리** 등의 역할 그룹을 통해)이 할당되지 않은 경우 "A 매개 변수를 찾을 수 없습니다"라는 메시지와 함께 **New-ComplianceSearchAction** cmdlet을 실행하면 3단계에서 오류가 발생합니다.
 
-- 메시지를 삭제하려면 보안 및 준수 센터 PowerShell을 사용해야 합니다. 연결하는 방법에 대한 자세한 내용은 [2단계](#step-2-connect-to-security--compliance-center-powershell)를 참조하세요.
+- 메시지를 삭제하려면 보안 및 준수 센터 PowerShell을 사용해야 합니다. 연결하는 방법에 대한 자세한 내용은 [1단계](#step-1-connect-to-security--compliance-center-powershell)를 참조하세요.
 
 - 사서함마다 한번에 최대 10개의 항목을 제거할 수 있습니다. 메시지를 검색하고 제거하는 기능은 사고 대응 도구로 고안되었으므로 이러한 제한은 사서함에서 메시지가 빠르게 제거되도록 합니다. 이 기능은 사용자 사서함을 정리하기 위한 기능이 아닙니다.
 
-- 콘텐츠 검색에서 검색 및 삭제 작업을 사용하여 항목을 삭제할 수 있는 최대 사서함 수는 50,000개입니다. [1단계](#step-1-create-a-content-search-to-find-the-message-to-delete)에서 만든 검색에 50,000개를 초과하는 사서함이 있는 경우 3단계에서 만드는 삭제 작업이 실패합니다. 일반적으로 단일 검색에서 50,000개 이상의 편지함을 검색하는 작업은 조직의 모든 편지함을 포함하도록 검색을 구성할 때 발생할 수 있습니다. 이 제한은 50,000개 미만의 사서함에 검색 쿼리와 일치하는 항목이 포함된 경우에도 적용됩니다. 50,000개 이상의 사서함에서 검색 권한 필터를 사용하여 항목을 검색하고 제거하는 방법에 대한 지침은 [자세한 정보](#more-information) 색션을 참조하세요.
+- 콘텐츠 검색에서 검색 및 삭제 작업을 사용하여 항목을 삭제할 수 있는 최대 사서함 수는 50,000개입니다. [2단계](#step-2-create-a-content-search-to-find-the-message-to-delete)에서 만든 검색에 50,000개를 초과하는 사서함이 있는 경우 3단계에서 만드는 삭제 작업이 실패합니다. 일반적으로 단일 검색에서 50,000개 이상의 편지함을 검색하는 작업은 조직의 모든 편지함을 포함하도록 검색을 구성할 때 발생할 수 있습니다. 이 제한은 50,000개 미만의 사서함에 검색 쿼리와 일치하는 항목이 포함된 경우에도 적용됩니다. 50,000개 이상의 사서함에서 검색 권한 필터를 사용하여 항목을 검색하고 제거하는 방법에 대한 지침은 [자세한 정보](#more-information) 색션을 참조하세요.
 
 - 이 문서의 절차는 Exchange Online 사서함 및 공용 폴더에서 항목을 삭제하는 데에만 사용할 수 있습니다. SharePoint 또는 비즈니스용 OneDrive 사이트에서 콘텐츠를 삭제하는 데에는 사용할 수 없습니다.
 
 - Advanced eDiscovery 사례에서 검토 집합의 전자 메일 항목은 이 문서의 절차를 사용하여 삭제할 수 없습니다. 검토 집합의 항목이 실제 서비스가 아닌 Azure Storage 위치에 저장되기 때문입니다. 즉, 1단계에서 만든 콘텐츠 검색에서 이를 반환하지 않습니다. 검토 집합의 항목을 삭제하려면 검토 집합이 포함된 Advanced eDiscovery 사례를 삭제해야 합니다. 자세한 내용은 [Advanced eDiscovery 사례 닫기 또는 삭제하기](close-or-delete-case.md)를 참조하세요.
 
-## <a name="step-1-create-a-content-search-to-find-the-message-to-delete"></a>1단계: 삭제할 메시지를 찾는 콘텐츠 검색 만들기
+## <a name="step-1-connect-to-security--compliance-center-powershell"></a>1단계: 보안 및 준수 센터 PowerShell에 연결
 
-첫 번째 단계는 조직의 사서함에서 제거하려는 메시지를 찾는 콘텐츠 검색을 만들어 실행하는 것입니다. 보안 및 준수 센터를 사용하거나 **New-ComplianceSearch** 및 **Start-ComplianceSearch** cmdlet을 실행하여 검색을 만들 수 있습니다. 이 검색의 쿼리와 일치하는 메시지는 [3단계](#step-3-delete-the-message)에서 **New-ComplianceSearchAction -Purge** 명령을 실행하여 삭제합니다. 콘텐츠 검색을 만들고 검색 쿼리를 구성하는 방법에 대한 자세한 내용은 다음 항목을 참조하세요.
+첫 번째 단계에서는 조직의 보안 및 준수 센터 PowerShell에 연결합니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)를 참조하세요.
+
+## <a name="step-2-create-a-content-search-to-find-the-message-to-delete"></a>2단계: 삭제할 메시지를 찾는 콘텐츠 검색 만들기
+
+두 번째 단계는 조직의 사서함에서 제거하려는 메시지를 찾는 콘텐츠 검색을 만들어 실행하는 것입니다. Microsoft 365 규정 준수 센터를 사용하거나 보안 및 규정 준수 PowerShell의 **New-ComplianceSearch** 및 **Start-ComplianceSearch** cmdlet을 실행하여 검색을 만들 수 있습니다. 이 검색의 쿼리와 일치하는 메시지는 [3단계](#step-3-delete-the-message)에서 **New-ComplianceSearchAction -Purge** 명령을 실행하여 삭제합니다. 콘텐츠 검색을 만들고 검색 쿼리를 구성하는 방법에 대한 자세한 내용은 다음 항목을 참조하세요.
 
 - [Office 365의 콘텐츠 검색](content-search.md)
 
@@ -83,7 +87,7 @@ ms.locfileid: "52537646"
 
 - 검색 결과를 미리 확인하여 콘텐츠 검색이 삭제하려는 메시지만 반환하는지 검토합니다.
 
-- 검색 예상 통계(보안 및 준수 센터의 검색 세부 정보 창에 표시되거나 [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch) cmdlet을 사용할 경우에 표시)를 사용하여 결과의 총 개수를 가져올 수 있습니다.
+- 검색 예상 통계(Microsoft 365 규정 준수 센터의 검색 세부 정보 창에 표시되거나 [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch) cmdlet을 사용할 경우에 표시)를 사용하여 결과의 총 개수를 가져올 수 있습니다.
 
 다음은 의심스러운 전자 메일 메시지를 찾는 쿼리의 두 가지 예입니다.
 
@@ -105,12 +109,6 @@ ms.locfileid: "52537646"
 $Search=New-ComplianceSearch -Name "Remove Phishing Message" -ExchangeLocation All -ContentMatchQuery '(Received:4/13/2016..4/14/2016) AND (Subject:"Action required")'
 Start-ComplianceSearch -Identity $Search.Identity
 ```
-
-## <a name="step-2-connect-to-security--compliance-center-powershell"></a>2단계: 보안 및 준수 센터 PowerShell에 연결
-
-다음 단계에서는 조직의 보안 및 준수 센터 PowerShell에 연결합니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)를 참조하세요.
-
-보안 및 준수 센터 PowerShell에 연결한 후 이전 단계에서 준비한 **New-ComplianceSearch** 및 **Start-ComplianceSearch** cmdlet을 실행합니다.
 
 ## <a name="step-3-delete-the-message"></a>3단계: 메시지 삭제
 

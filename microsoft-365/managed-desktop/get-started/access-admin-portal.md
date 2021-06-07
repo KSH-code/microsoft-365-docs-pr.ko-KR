@@ -10,51 +10,50 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 7293c8ced43332f84ced56908ea5203ba867e600
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2facd506497cbdab42f2d8b051fbd50f82432927
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925907"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770604"
 ---
 # <a name="access-the-admin-portal"></a>관리 포털 액세스
 
-Microsoft Managed Desktop 서비스에 대한 게이트웨이는 [Microsoft Endpoint Manager입니다.](https://endpoint.microsoft.com/) 디바이스 관리를 위해 이 포털의 기능에 익숙하지 않은 경우 [Microsoft Endpoint Manager 설명서를 참조하세요.](/mem/)
+Microsoft Managed Desktop 게이트웨이가 [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/) 장치 관리를 위해 이 포털의 기능에 익숙하지 않은 경우 장치 관리를 위한 Microsoft Endpoint Manager [참조하세요.](/mem/)
 
 > [!NOTE]
-> [Microsoft Endpoint Manager에서 지원되는](https://endpoint.microsoft.com/) 브라우저는 다음과 같습니다.
+> 이 [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 지원되는 브라우저는 다음과 같습니다.
 > - Microsoft Edge(최신 버전)
-> - Microsoft Internet Explorer 11
 > - Safari(최신 버전, Mac만 해당)
 > - Chrome(최신 버전)
 > - Firefox(최신 버전)
 
-Microsoft Endpoint Manager의 Microsoft Managed Desktop 관리 기능에 액세스하려면 관리 계정에 특정 권한이 필요합니다. 역할 기반 액세스 제어를 사용하여 조직 내에서 이러한 기능에 대한 관리자 액세스를 관리할 수 있습니다. 여러 Azure AD(Azure Active Directory) 관리자 역할 및 기본 제공 Microsoft Managed Desktop 역할을 사용하여 Microsoft Managed Desktop 관리 포털 내의 여러 기능에 대해 보다 세부적으로 제어할 수 있습니다. Azure Active Directory 역할에 대한 자세한 내용은 Azure Active Directory의 관리자 역할 [권한을 참조하세요.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 다양한 Microsoft 제품 및 서비스에 적용되는 Azure AD 관리자 역할과 달리 기본 제공 역할은 Microsoft Managed Desktop에만 적용되고 이 서비스의 관리자 기능에 대한 액세스 권한만 보장합니다. 관리자는 기본 제공 역할을 개별적으로 또는 Azure AD 관리자 역할과 함께 할당하여 기존 관리자 계정에 Microsoft Managed Desktop 권한을 추가할 수 있습니다.
+관리 계정에 특정 사용 권한이 필요하여 해당 계정의 Microsoft Managed Desktop 기능에 액세스해야 Microsoft Endpoint Manager. 역할 기반 액세스 제어를 사용하여 조직 내에서 이러한 기능에 대한 관리자 액세스를 관리할 수 있습니다. 여러 Azure Active Directory(Azure AD) 관리자 역할 및 기본 제공 Microsoft Managed Desktop 역할을 사용하여 Microsoft Managed Desktop 관리 포털 내의 여러 기능에 대해 보다 세부적으로 제어할 수 있습니다. 역할 Azure Active Directory 대한 자세한 내용은 에서 관리자 역할 [권한을 Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 다양한 Microsoft 제품 및 서비스에 적용되는 Azure AD 관리자 역할과 달리 기본 제공 역할은 Microsoft Managed Desktop 특정하며 이 서비스의 관리자 기능에 대한 액세스만 보장합니다. 관리자는 기본 제공 역할을 사용자에게 개별적으로 또는 Azure AD 관리자 역할과 함께 할당하여 기존 관리자 계정에 Microsoft Managed Desktop 권한을 추가할 수 있습니다.
 
-## <a name="azure-active-directory-roles-with-microsoft-managed-desktop-access"></a>Microsoft Managed Desktop 액세스가 있는 Azure Active Directory 역할
+## <a name="azure-active-directory-roles-with-microsoft-managed-desktop-access"></a>Azure Active Directory 액세스 권한이 있는 Microsoft Managed Desktop 역할
 
-|Azure AD 역할  |Microsoft Managed Desktop 사용 권한  |
+|Azure AD 역할  |Microsoft Managed Desktop 권한  |
 |---------|---------|
-|전역 관리자     | 이 역할이 있는  관리자는 Microsoft Managed Desktop Admin 포털의 모든 기능에 대한 읽기 및 쓰기 권한을 하게 됩니다.         |
-|전역 읽기 권한자     | 이 역할이 있는  관리자는 Microsoft Managed Desktop Admin 포털의 모든 기능에 대한 읽기 전용 권한을 하게 됩니다.         |
-|Intune 서비스 관리자     |  이 역할이 있는  관리자는 Microsoft Managed Desktop Admin 포털의 보안과 관련이 없는 기능에 대한 읽기 및 쓰기 권한을 가지게 됩니다.       |
-|서비스 지원 관리자     | 이 역할의 관리자는  Microsoft Managed Desktop Admin 포털에서  지원 요청을 관리하기 위한 보안 및 쓰기 권한과 관련이 없는 기능에 대한 읽기 전용 권한을 받습니다.         |
-|보안 관리자 | 이 역할이 있는  관리자는 관리 포털에서 Microsoft  Managed Desktop의 보안 관련 기능에 대한 읽기 전용 권한을 가지며, 보안 관련 기능에 대한 쓰기 권한이 있습니다. |
-|보안 읽기 권한자 |이 역할이 있는  관리자는 Microsoft Managed Desktop Admin 포털의 모든 기능에 대한 읽기 전용 권한을 하게 됩니다.|
+|전역 관리자     | 이 역할이 있는  관리자는 관리자 포털의 모든 기능에 대한 읽기 및 쓰기 Microsoft Managed Desktop 있습니다.         |
+|전역 읽기 권한자     | 이 역할이 있는  관리자는 관리자 포털의 모든 기능에 대한 읽기 전용 Microsoft Managed Desktop 있습니다.         |
+|Intune 서비스 관리자     |  이 역할이 있는  관리자는 관리자 포털에서 보안과 관련이 없는 기능에 대한 읽기 및 쓰기 Microsoft Managed Desktop 있습니다.       |
+|서비스 지원 관리자     | 이 역할이 있는  관리자는 보안과 관련이 없는 기능에  대한 읽기 전용 권한을 가지며, 관리자 포털에서 지원 요청을 Microsoft Managed Desktop 권한이 있습니다.         |
+|보안 관리자 | 이 역할이 있는  관리자는 관리 포털의 모든  기능에 대한 읽기 전용 권한을 가지며, 관리자 포털의 보안 관련 기능에 Microsoft Managed Desktop 권한이 있습니다. |
+|보안 읽기 권한자 |이 역할이 있는  관리자는 관리자 포털의 모든 기능에 대한 읽기 전용 Microsoft Managed Desktop 있습니다.|
 
-Azure Active Directory 역할을 할당하는 데 도움이 필요한 경우 Azure Active Directory의 관리자 역할 [권한을 참조하세요.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+Azure Active Directory 할당하는 데 도움이 필요한 경우 에서 관리자 역할 [권한을 Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
 > [!IMPORTANT]
-> 전역 관리자 역할만 Microsoft Managed  Desktop에서 조직을 등록하는 데 필요한 권한이 있습니다. Azure Active Directory 역할은 다양한 Microsoft 서비스에서 사용자 계정에 권한을 부여합니다. Microsoft Managed Desktop에 등록한 후 다른 작업을 수행하는  데 필요한 최소 권한으로 항상 역할을 사용해야 합니다.
+> 전역 관리자 역할에만 조직을 등록하는 데 필요한 권한이 Microsoft Managed Desktop.  역할이 Azure Active Directory 역할은 다양한 역할에 걸쳐 사용자 계정에 권한을 Microsoft 서비스. 등록을 완료한 Microsoft Managed Desktop 다른 작업을 수행하는 데 필요한  최소 권한으로 역할을 항상 사용해야 합니다.
 
-## <a name="built-in-roles-provided-by-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 제공하는 기본 제공 역할
+## <a name="built-in-roles-provided-by-microsoft-managed-desktop"></a>Microsoft Managed Desktop
 
 
-|기본 제공 역할  |Microsoft Managed Desktop 사용 권한  |
+|기본 제공 역할  |Microsoft Managed Desktop 권한  |
 |---------|---------|
-|Microsoft Managed Desktop Service 관리자  | 사용자에게 할당된 경우 이 역할은  관리자가 Microsoft Managed Desktop Admin 포털의 보안과 관련이 없는 기능에 대한 읽기 및 쓰기 권한을 부여합니다.  |
-|Microsoft Managed Desktop Service Reader | 사용자에게 할당된 경우 이 역할은  Microsoft Managed Desktop Admin 포털의 보안과 관련이 없는 기능에 대한 읽기 전용 권한을 관리자에게 제공합니다. |
-|Microsoft Managed Desktop Security Manager |사용자에게 할당된 경우 이 역할은  해당 관리자에게 Microsoft Managed Desktop Admin 포털의 보안 관련 기능에 대한 읽기 및 쓰기 권한만 제공합니다.   |
+|Microsoft Managed Desktop 서비스 관리자  | 사용자에게 할당된 경우 이 역할은  관리자 포털의 보안과 관련이 없는 기능에 대한 읽기 및 쓰기 Microsoft Managed Desktop 부여합니다.  |
+|Microsoft Managed Desktop 서비스 읽기 | 사용자에게 할당된 경우 이 역할은  관리자 포털의 보안과 관련이 없는 기능에 대한 읽기 전용 Microsoft Managed Desktop 부여합니다. |
+|Microsoft Managed Desktop 보안 관리자 |사용자에게 할당된 경우 이 역할은  관리자 포털의 보안 관련 기능에만 읽기 Microsoft Managed Desktop 권한을 부여합니다.   |
 
 > [!NOTE]
 > 보안 기능에는 보안 관련 통신, 보안 연락처 관리, 보안 관련 지원 요청 관리, 보안 관련 보고서 액세스가 포함됩니다. 
@@ -62,7 +61,7 @@ Azure Active Directory 역할을 할당하는 데 도움이 필요한 경우 Azu
 ### <a name="assigning-built-in-roles-to-user"></a>사용자에게 기본 제공 역할 할당
 
 기본 제공 역할을 쉽게 관리하기 위해 "최신 작업 공간 역할 _-_ 역할 이름"(예: "최신 작업 공간 역할 - 보안 관리자")으로 각 사용자 지정 역할에 대한 보안 그룹이 있습니다. 사용자를 이러한 보안 그룹 중 하나에 할당하기 위해 다음 단계를 수행합니다.
-1.  Microsoft Endpoint Manager 포털로 이동 합니다.
+1.  Microsoft Endpoint Manager 포털로 이동합니다.
 2.  **왼쪽에서** 그룹을 선택합니다.
 3.  최신 작업 **공간 역할을 검색한** 다음 할당할 역할과 연결된 그룹을 선택합니다. 
 4.  왼쪽에서 **구성원을** 선택한 다음 명령 표시줄에서 **+ 구성원** 추가를 선택합니다.
@@ -76,7 +75,7 @@ Azure Active Directory 역할을 할당하는 데 도움이 필요한 경우 Azu
 
 기본 제공 역할을 기존 그룹에 하나 이상 할당해야 하는 경우 다음 단계를 수행합니다.
 1. 으로 [portal.azure.com.](https://portal.azure.com/)
-2. 엔터프라이즈 응용 프로그램을 **검색하고 여는 경우.**
+2. 응용 프로그램을 **검색하고 Enterprise 를 열 수 있습니다.**
 3. 응용 프로그램 유형 **필터를** _Microsoft 응용 프로그램으로 변경한_ 다음 적용 을 **선택합니다.**
 4. 최신 Workplace _고객 API를 검색하고 선택합니다._
 5. 왼쪽 **창에서** 사용자 및 그룹을 선택한 다음 **+ 사용자/그룹 추가를 선택합니다.**

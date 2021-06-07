@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: eef06657d7f691a89e5985640431c2cc706557b4
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: d2edc5d429d124412134b466753b65506d2dd7a9
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167137"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772188"
 ---
 # <a name="get-domain-statistics-api"></a>도메인 통계 얻기 API
 
@@ -81,7 +82,7 @@ lookBackHours | Int32 | 통계를 얻기 위해 다시 검색하는 시간을 �
 성공 및 도메인이 있는 경우 - 응답 본문에 statistics 개체가 있는 200 OK. 도메인이 없는 경우 - 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

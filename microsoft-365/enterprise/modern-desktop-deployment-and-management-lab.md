@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: da51e0e3509ac2be60b9961dc2a0532d29f4f137
-ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
+ms.openlocfilehash: bb73c303e1266a7d19b3578fb01b849b5e96990f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52736351"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770676"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 및 Office 365 랩 키트
 
@@ -28,7 +28,7 @@ Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스
 
 이 키트는 조직에서 Windows 8.1 업그레이드를 준비하는 조직에 Windows 10. 또한 현재 2019년 Windows 10, 엔터프라이즈용 Microsoft 365 앱(Office 365 ProPlus) 또는 Office 적용됩니다. 결과 랩은 격리된 환경으로 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 이상적입니다.
 
-[Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
+[배포 Windows 10 Office 365 키트를 다운로드합니다.](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
 ## <a name="a-complete-lab-environment"></a>전체 랩 환경
 
@@ -36,7 +36,7 @@ Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스
 
   - 새로운 기능! Windows 10 Enterprise 버전 21H1
   - Windows 7 Enterprise
-  - 새로운 기능! Microsoft Endpoint Configuration Manager 버전 2103*
+  - 새로운 기능! Microsoft Endpoint Configuration Manager 버전 2103
   - Windows 10용 Windows 평가 및 배포 키트
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization(App-V)

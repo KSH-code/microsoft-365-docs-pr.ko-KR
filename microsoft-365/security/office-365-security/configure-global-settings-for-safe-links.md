@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for Office 365 링크에 대한 전역 설정('다음 URL 차단' 목록 및 Office 365 앱 보호)을 보고 구성하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 11544953bf348c47e697b3210da709cccdb31a7e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 623b1bcd670f42c7c6b49c06cacfa31cb8adfd49
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245843"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52792995"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 안전한 링크에 대한 전역 Office 365
 
@@ -45,13 +45,13 @@ ms.locfileid: "52245843"
 - 다음 **URL 차단 목록** 이 설정은 활성 안전 링크 정책에 포함된 모든 사용자에게 적용됩니다. 자세한 내용은 [안전한 링크에 대한 "다음 URL 차단" 목록을 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
 - 앱에 대한 안전한 Office 365 보호합니다. 이러한 설정은 사용자가 활성 안전 링크 정책에 포함되어 있는지 여부에 관계없이 Office 365 대한 Defender 사용이 허가된 조직의 모든 사용자에게 적용됩니다. 자세한 내용은 앱의 안전한 링크 [Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)
 
-보안 & 준수 센터 또는 PowerShell(Exchange Online PowerShell(Exchange Online PowerShell)에서 사서함이 있는 Exchange Online, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerSh Microsoft 365 ell, Office 365 추가 기능 구독의 경우 Microsoft Defender를 사용하여 전역 안전 링크 설정을 구성할 수 있습니다.
+Microsoft 365 보안 센터 또는 PowerShell(Exchange Online PowerShell)에서 전역 안전 링크 설정을 구성할 수 있습니다(Exchange Online 사서함이 있는 적격 Microsoft 365 조직, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell, Office 365 추가 기능 구독의 경우 Microsoft Defender를 사용하여 구성할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 기본 제공 또는 기본 안전 링크 정책이 아니기 때문에 다음 URL 차단 목록이 활성화될 수 있도록 하나 이상의 안전 링크 정책을 만들어야 합니다.  자세한 내용은 [Set up Safe Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 안전한 링크 페이지로 직접 **이동하기** 위해 를 <https://protection.office.com/safelinksv2> 사용하세요.
+- <https://security.microsoft.com/>에서 보안 센터를 엽니다. 안전한 링크 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/safelinksv2> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -72,13 +72,13 @@ ms.locfileid: "52245843"
 
 - [새로운 기능은 계속해서](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365)Microsoft Defender for Office 365. 새 기능이 추가될 때 기존 안전 링크 정책을 조정해야 할 수 있습니다.
 
-## <a name="configure-the-block-the-following-urls-list-in-the-security--compliance-center"></a>보안 및 준수 센터에서 "다음 URL 차단" & 구성
+## <a name="configure-the-block-the-following-urls-list-in-the-security-center"></a>보안 센터에서 "다음 URL 차단" 목록 구성
 
 다음 **URL 차단 목록은** 지원되는 앱에서 안전 링크 검색을 통해 항상 차단해야 하는 링크를 식별합니다. 자세한 내용은 [안전한 링크에 대한 "다음 URL 차단" 목록을 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
 
-1. 보안 및 & 센터에서 위협 관리  정책 \>  \> **ATP 안전한 링크로** 이동한 다음 전역 설정을 **클릭합니다.**
+1. 보안 센터에서 전자 메일 & **정책** 및 규칙 위협 & 정책 \>  \>  \>  \> **섹션으로 이동하세요.**
 
-2. 조직의 **안전 링크 정책** 플라이아웃이 나타나면 다음 URL 차단 **상자로 이동하세요.**
+2. 안전한 링크 **페이지에서** 전역 **설정을 클릭합니다.** 조직의 **안전 링크 정책** 플라이아웃이 나타나면 다음 URL 차단 **상자로 이동하세요.**
 
 3. "다음 URL 차단" 목록에 대한 항목 구문에 설명된 하나 이상의 항목을 [구성합니다.](safe-links.md#entry-syntax-for-the-block-the-following-urls-list)
 
@@ -117,19 +117,19 @@ ms.locfileid: "52245843"
   Set-AtpPolicyForO365 -BlockUrls @{Add="adatum.com"; Remove="fabrikam"}
   ```
 
-## <a name="configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center"></a>보안 및 준수 센터에서 Office 365 앱에 대한 안전한 & 보호 구성
+## <a name="configure-safe-links-protection-for-office-365-apps-in-the-security-center"></a>보안 센터에서 Office 365 앱에 대한 안전한 링크 보호 구성
 
 모든 앱에 Office 365 안전한 링크 보호는 데스크톱, 모바일 및 웹 Office 지원되는 문서에 적용됩니다. 자세한 내용은 앱의 안전한 링크 [Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)
 
-1. 보안 및 & 센터에서 위협 관리  정책 \>  \> **ATP 안전한 링크로** 이동한 다음 전역 설정을 **클릭합니다.**
+1. 보안 센터에서 전자 메일 & **정책** 및 규칙 위협 & 정책 \>  \>  \>  \> **섹션으로 이동하세요.**
 
-2. 조직의 **안전 링크** 정책 플라이아웃이 나타나면 전자 메일 섹션을 제외한 콘텐츠에 적용되는 설정 설정을 **구성합니다.**
+2. 안전한 링크 **페이지에서** 전역 **설정을 클릭합니다.** 조직의 **안전 링크** 정책 플라이아웃이 나타나면 지원되는 설정 앱 섹션의 콘텐츠에 적용되는 다음 설정을 Office 365 **구성합니다.**
 
-   - **Office 365 응용 프로그램:** 지원되는 모든 앱에 대해 안전한 링크를 사용하도록 설정하려면 토글이 오른쪽에 있는지 확인: Office 365 ![ 토글합니다. ](../../media/scc-toggle-on.png)
+   - **Office 365** 앱에서 안전한 링크 사용: 지원되는 Office 365 앱에 대해 안전한 링크를 사용하도록 설정하려면 토글이 오른쪽에 있는지 ![ 확인: 을 토글합니다. ](../../media/scc-toggle-on.png)
 
-   - **사용자가 안전한** 링크를 클릭하는 경우 추적하지 않습니다. 지원되는 앱의 차단된 URL과 관련된 사용자 클릭을 추적하려면 토글을 왼쪽으로 Office 365: ![ 토글 ](../../media/scc-toggle-off.png) 해제합니다.
+   - 사용자가 Office 365 앱에서 보호된 링크를 클릭하는 경우 추적하지 **않습니다.** 토글을 왼쪽으로 이동하여 지원되는 Office 365 앱의 차단된 URL과 관련된 사용자 클릭을 추적합니다. ![ 토글 를 해제합니다. ](../../media/scc-toggle-off.png)
 
-   - **사용자가 원래 URL에** 대한 안전한 링크를 클릭할 수 있도록 하지 않도록 합니다. 사용자가 지원되는 Office 365 앱에서 원래 차단된 URL을 클릭하지 못하게 설정하려면 토글이 오른쪽에 있는지 확인합니다. 토글합니다. ![ ](../../media/scc-toggle-on.png)
+   - 사용자가 Office 365 앱에서 원래 URL을 클릭할 수 있도록 합니다. 사용자가 지원되는 Office 365 앱에서 원래 차단된 URL을 클릭하지 못하게 차단하려면 토글이 오른쪽에 있는지 **확인합니다.** ![ 토글합니다. ](../../media/scc-toggle-on.png)
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
 
@@ -157,7 +157,7 @@ Set-AtpPolicyForO365 -TrackClicks $true
 
 안전한 링크에 대한 전역 설정(다음 URL 차단 목록  및 Office 365 앱 보호 설정)을 성공적으로 구성한지 확인하려면 다음 단계를 수행합니다.
 
-- 보안 & 규정 준수 센터에서 위협  관리 정책 \>  \> **ATP 안전한 링크로** 이동하고 전역 설정을 클릭하고 플라이아웃에 나타나는 설정을 확인합니다.
+- 보안 센터에서 전자 **메일** & 공동 작업 정책 & 규칙 위협 정책 섹션 \>  \>  \>  \> **안전 링크로** \> 이동하여 전역 설정을 클릭하고 플라이아웃에 나타나는 설정을 확인합니다.
 
 - PowerShell Exchange Online PowerShell을 Exchange Online Protection 다음 명령을 실행하고 설정을 확인합니다.
 

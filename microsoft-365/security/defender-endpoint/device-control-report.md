@@ -6,19 +6,19 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: normal
-ms.author: dansimp
-author: dansimp
+ms.author: deniseb
+author: denisebmsft
 ms.reviewer: dansimp
 ms.topic: article
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: ee8e7be20076bde41867981008e53a70c134e47e
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 47eb80af58c948db5997dc9f5edfa5737a796837
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893796"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772368"
 ---
 # <a name="protect-your-organizations-data-with-device-control"></a>장치 제어를 사용하여 조직의 데이터 보호
 
@@ -43,7 +43,7 @@ Microsoft Defender for Endpoint 장치 컨트롤은 이동식 저장 장치 및 
 
 ## <a name="monitor-device-control-security"></a>장치 제어 보안 모니터링
 
-끝점용 Microsoft Defender의 장치 제어를 통해 보안 관리자는 보고서를 통해 조직의 장치 제어 보안을 추적할 수 있는 도구를 사용할 수 있습니다. Microsoft 365 보안 센터에서 보고서 및 장치 보호로 > **있습니다.**
+끝점용 Microsoft Defender의 장치 제어를 통해 보안 관리자는 보고서를 통해 조직의 장치 제어 보안을 추적할 수 있는 도구를 사용할 수 있습니다. 보고서 및 장치 보호로 Microsoft 365 보안 센터에서 장치 제어 **보고서를 > 있습니다.**
 
 보고서 대시보드의 장치  보호 카드에는 지난 180일 동안 미디어 유형에 의해 생성된 감사 이벤트 수가 표시됩니다.
 
@@ -61,7 +61,7 @@ Microsoft Defender for Endpoint 장치 컨트롤은 이동식 저장 장치 및 
 
 - **일반 세부 정보:** 날짜, 작업 모드 및 이 이벤트의 정책입니다.
 - **미디어 정보:** 미디어 정보에는 미디어 이름, 클래스 이름, 클래스 GUID, 장치 ID, 공급업체 ID, 볼륨, 일련 번호 및 버스 유형이 포함됩니다.
-- **위치 세부 정보:** 장치 이름 및 MDATP 장치 ID입니다.
+- **위치 세부 정보:** 장치 이름 및 MDATP ID입니다.
 
 > [!div class="mx-imgBorder"]
 > ![FilterOnDeviceControlReport](images/devicecontrolreportfilter.png)

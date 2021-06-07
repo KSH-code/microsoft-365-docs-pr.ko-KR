@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9ad1216a05846b48bff4186c7e6f39e9da3623b0
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 38485a5028626153c26cd1e11537ef7a2daf5296
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167118"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770148"
 ---
 # <a name="list-investigations-api"></a>목록 조사 API
 
@@ -72,7 +73,7 @@ GET https://api.securitycenter.microsoft.com/api/investigations
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -82,7 +83,7 @@ GET https://api.securitycenter.microsoft.com/api/investigations
 성공하면 이 메서드는 조사 엔터티 컬렉션이 있는 200, 확인 응답 [코드를](investigation.md) 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

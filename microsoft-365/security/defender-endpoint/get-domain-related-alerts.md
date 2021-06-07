@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: f8de54072c0b0ebef69b8e5586fee058b971c51f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c5de779566f1aa8e53da10b9aa5bceb92f5a0a3c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166866"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772260"
 ---
 # <a name="get-domain-related-alerts-api"></a>도메인 관련 알림 API를 얻습니다.
 
@@ -70,7 +71,7 @@ GET /api/domains/{domain}/alerts
 
 | 머리글        | 값  |
 |:--------------|:-------|
-| 권한 부여 | 문자열 |
+| 권한 부여 | String |
 
 ## <a name="request-body"></a>요청 본문
 비어 있음
@@ -79,7 +80,7 @@ GET /api/domains/{domain}/alerts
 성공적이고 도메인이 있는 경우 - 경고 [](alerts.md) 엔터티 목록이 있는 200 OK. 도메인이 없는 경우 - 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

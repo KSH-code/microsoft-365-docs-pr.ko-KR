@@ -1,5 +1,5 @@
 ---
-title: '3단계: 원격 작업자를 위한 보안 및 규정 준수 구현'
+title: '3단계: 하이브리드 작업자를 위한 보안 및 규정 준수 구현'
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -16,30 +16,30 @@ ms.collection:
 - m365solution-remotework
 - m365solution-scenario
 ms.custom: ''
-description: Microsoft 365 보안 및 규정 준수 서비스를 사용하여 원격 작업자를 위한 애플리케이션, 데이터 및 장치를 보호할 수 있습니다.
-ms.openlocfilehash: eb558b276b5e8fe828f62930eb977cc87ce3134f
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+description: Microsoft 365 보안 및 규정 준수 서비스를 사용하여 하이브리드 작업자를 위한 애플리케이션, 데이터 및 장치를 보호할 수 있습니다.
+ms.openlocfilehash: fc5a83bfc6c8ec2dcb801e6063514c0a90c83de8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029113"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788941"
 ---
-# <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>3단계: 원격 작업자를 위한 보안 및 규정 준수 구현
+# <a name="step-3-deploy-security-and-compliance-for-hybrid-workers"></a>3단계: 하이브리드 작업자를 위한 보안 및 규정 준수 구현
 
-사무실에 들어오지 않거나 매우 드물게 출근하는 원격 작업자의 경우 보안 및 규정 준수는 전체 솔루션의 중요한 부분입니다. 모든 커뮤니케이션은 조직 인트라넷에 국한되지 않고 인터넷을 통해 이루어집니다. 
+사무실에 들어오지 않거나 매우 드물게 출근하는 하이브리드 작업자의 경우 보안 및 규정 준수는 전체 솔루션의 중요한 부분입니다. 모든 커뮤니케이션은 조직 인트라넷에 국한되지 않고 인터넷을 통해 이루어집니다. 
 
 사이버 보안 위험을 줄이고 내부 정책 및 데이터 규정을 준수하는 동시에 생산성을 유지하기 위해 귀하와 귀사의 직원이 할 수 있는 일이 있습니다.
 
 원격 작업에는 다음과 같은 보안 및 규정 준수 요소가 필요합니다.
 
-- Microsoft Teams와 같이 원격 작업자가 사용하는 생산성 애플리케이션에 대한 액세스 제어 
-- 채팅 대화 또는 공유 파일과 같이 원격 작업자가 만들고 사용하는 데이터에 대한 액세스 및 보호를 제어
+- Microsoft Teams와 같이 하이브리드 작업자가 사용하는 생산성 애플리케이션에 대한 액세스 제어 
+- 채팅 대화 또는 공유 파일과 같이 하이브리드 작업자가 만들고 사용하는 데이터에 대한 액세스 및 보호를 제어
 - 악성 프로그램 및 기타 유형의 사이버 공격으로부터 Windows 10 장치를 보호
 - 민감도 및 보호 수준에 대한 일관된 레이블을 사용하여 전자 메일, 파일 및 사이트 보호
 - 정보유출 방지
 - 지역 데이터 규정을 준수
 
-다음은 원격 작업자에 대한 보안 및 규정 준수 서비스를 제공하는 Microsoft 365의 기능입니다.
+다음은 하이브리드 작업자에 대한 보안 및 규정 준수 서비스를 제공하는 Microsoft 365의 기능입니다.
 
 ![이러한 Microsoft 365 서비스를 사용하여 보안을 유지하고 규정 준수](../media/empower-people-to-work-remotely/remote-workers-security-compliance-grid.png)
 
@@ -49,14 +49,18 @@ Microsoft 365의 이러한 보안 기능으로 애플리케이션과 데이터�
 
 | 기능 또는 특징 | 필요한 이유 | 라이선싱 |
 |:-------|:-----|:-------|
-| Office 365용 Microsoft Defender | 전자 메일 메시지, 사무실 문서 및 협업 도구와 같은 Microsoft 365 앱과 데이터를 공격으로부터 보호합니다. <br><br> Office365용 Microsoft Defender는 보안 위험을 감지, 조사 및 조치하기 위해 앱에서 보내는 신호를 수집 및 분석하고 전자 메일 메시지, 링크(URL) 및 협업 도구로 인해 발생하는 악의적인 위협으로부터 조직을 보호합니다. 또한 표준 및 엄격한 보안 태세를 위해 자동화된 테넌트 구성 평가 및 구성 도구를 제공합니다. | Microsoft 365 E3 혹은 E5 | 
+| Office 365용 Microsoft Defender | 전자 메일 메시지, 사무실 문서 및 협업 도구와 같은 Microsoft 365 앱과 데이터를 공격으로부터 보호합니다. <br><br> Office365용 Microsoft Defender는 보안 위험을 감지, 조사 및 조치하기 위해 앱에서 보내는 신호를 수집 및 분석하고 전자 메일 메시지, 링크(URL) 및 협업 도구로 인해 발생하는 악의적인 위협으로부터 조직을 보호합니다. 또한 표준적이고 엄격한 보안 자세를 위한 자동화된 테넌트 구성 평가 및 구성 도구 기능도 제공합니다. | Microsoft 365 E3 혹은 E5 | 
 | 악성 프로그램 차단 | Microsoft Defender Antivirus 및 Device Guard는 장치 기반 말웨어 방지 기능을 제공합니다. <br><br> 쉐어포인트 온라인에서는 알려진 악성 프로그램이 있는지 파일 업로드를 자동으로 검색합니다. ‎<br><br> EOP(Exchange Online Protection)는 클라우드 편지함을 보호합니다. | Microsoft 365 E3 혹은 E5 |
 | 엔드포인트용 Microsoft Defender | 사이버 위협 및 데이터 침해로부터 조직의 장치를 보호하고 고급 위협에 대해 감지, 조사 및 대응합니다. | Microsoft 365 E5 |
 | 클라우드 앱 보안 | Microsoft 365 및 기타 SaaS 앱 모두 클라우드 기반 서비스를 공격으로부터 보호합니다. | Microsoft 365 E5 또는 개별 클라우드 앱 보안 라이선를 선택합니다. |
 | Azure AD ID 보호  | ID 기반 리스크의 감지 및 해결 작업을 자동화합니다. <br><br>위험 기반 조건부 액세스 정책을 만들어 위험 로그인에 대한 MFA(다단계 인증)를 요구합니다. | Azure AD Premium P2 라이선스를 포함한 Microsoft 365 E5 또는 E3 |
 ||||
 
+첫 번째 단계는 [Microsoft Secure Score](/microsoft-365/security/defender/microsoft-secure-score)에 대해 알아보고 사용하는 것입니다.
+
 자세한 내용은 [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](../security/top-security-tasks-for-remote-work.md)을 참조하세요.
+
+Microsoft 365의 보안에 대한 자세한 내용은 [Microsoft 365 보안 설명서](/microsoft-365/security)를 참조하세요.
 
 ## <a name="compliance"></a>규정 준수
 
@@ -79,10 +83,10 @@ Microsoft 365의 이러한 규정 준수 기능을 사용하여 내부 정책 �
 
 ## <a name="results-of-step-3"></a>3단계의 결과
 
-원격 작업자의 경우 다음을 구현했습니다.
+하이브리드 작업자의 경우 다음을 구현했습니다.
 
 - 보안
-  - 원격 작업자가 통신하고 협업하는 데 사용하는 애플리케이션 및 데이터에 대한 액세스를 제어합니다.
+  - 하이브리드 작업자가 통신하고 협업하는 데 사용하는 애플리케이션 및 데이터에 대한 액세스를 제어합니다.
   - 클라우드 서비스 데이터, 전자 메일 및 Windows 10 장치를 위한 악성 프로그램 차단 기능 
 - 규정 준수
   - 민감도 및 보호 수준에 대한 일관된 라벨링

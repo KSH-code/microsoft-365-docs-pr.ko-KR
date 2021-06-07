@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0590e63aa0feb5b699eca98c0056604fe09b77f5
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a3f715cb05ad1d5acf3c93c58959f12ebec46978
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583655"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788345"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>중요한 데이터를 보호하는 팀 구성하기
 
@@ -33,6 +33,13 @@ ms.locfileid: "52583655"
 - 게스트 공유를 설정하거나 해제하고 관리되지 않는 장치의 SharePoint 콘텐츠에 대한 액세스를 웹 전용으로 제한하는 팀의 민감도 레이블입니다. 이 레이블은 파일을 분류하는 데도 사용할 수 있습니다.
 - 더욱 제한적인 기본 공유 링크 유형
 - 팀 소유자만 비공개 채널을 만들 수 있습니다.
+
+## <a name="video-demonstration"></a>동영상 데모
+
+이 동영상에서 이 문서에 설명된 단계별 절차를 살펴보세요.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NMS6]
 
 ## <a name="guest-sharing"></a>게스트 공유
 

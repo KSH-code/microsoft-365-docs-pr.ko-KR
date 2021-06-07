@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 133a8525a2e561062a492f7148de97a77d37444e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ac7a9ef932f2640bbc5325f0154c0ceb48ae3018
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934324"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772296"
 ---
 # <a name="get-discovered-vulnerabilities"></a>발견된 취약성 가져오기
 
@@ -61,7 +62,7 @@ GET /api/machines/{machineId}/vulnerabilities
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

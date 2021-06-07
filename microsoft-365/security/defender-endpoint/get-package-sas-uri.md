@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b9c8877e341e7438532ab3eb3f7af4c2a9114af7
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 054db1766cdab3aa5b49da4940dcdddfe6086434
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893344"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770688"
 ---
 # <a name="get-package-sas-uri-api"></a>패키지 SAS URI API를 얻습니다.
 
@@ -60,7 +62,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions/{machine action 
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문

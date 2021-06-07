@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 솔루션을 배포한 방법
-ms.openlocfilehash: 74eacd4a7de2cf60eb2f1f388f3690496c6cc0e1
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 3112dc452ff03fbd661ffff80b6b25b1f38f8a66
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028931"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788334"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 솔루션
 
@@ -32,7 +32,7 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 
 다음으로, Contoso가 이러한 솔루션 및 시나리오에 Microsoft 365를 어떻게 사용했는지 살펴봅니다.
 
-- [원격 및 현장 업무를 위한 COVID-19 대응 및 인프라](contoso-remote-onsite-work.md)
+- [하이브리드 작업을 위한 COVID-19 대응 및 인프라](contoso-remote-onsite-work.md)
 
 - [극비 프로젝트를 위해 격리된 팀](contoso-team-for-top-secret-project.md)
 

@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: f7a620ad56496b1a26e193a18fa93f4d217431df
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 63e38d5c9cfe50d1fa4cda1f7ae9c7df55a45083
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684150"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788838"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>지원되는 엔드포인트용 Microsoft Defender API
 
@@ -61,7 +62,7 @@ API 호출을 실행할 수 있는 지원되는 개별 엔터티 및 HTTP 요청
 :---|:---
 [지능형 헌팅](run-advanced-query-api.md) | API에서 쿼리를 실행합니다.
 [경고 방법 및 속성](alerts.md) | 경고 다운로드, 경고 만들기, 경고 업데이트 등의 API \- 호출을 실행합니다.
-[장치당 평가 방법 및 속성 내보내기](get-assessmnt-1methods-properties.md) | 보안 구성 평가 내보내기, 소프트웨어 인벤토리 평가 내보내기, 소프트웨어 취약점 평가 내보내기 등의 API \- 호출을 실행합니다.
+[장치당 평가 방법 및 속성 내보내기](get-assessment-methods-properties.md) | 보안 구성 평가 내보내기, 소프트웨어 인벤토리 평가 내보내기, 소프트웨어 취약점 평가 내보내기 등의 API \- 호출을 실행합니다.
 [자동화된 조사 방법 및 속성](investigation.md) | 조사 컬렉션을 수집하는 등의 API \- 호출을 실행합니다.
 [도메인 관련 경고 가져오기](get-domain-related-alerts.md) | 도메인 관련 장치, 도메인 통계 등의 API \- 호출을 실행합니다.
 [파일 방법 및 속성](files.md) | 파일 정보 다운로드, 파일 관련 경고, 파일 관련 장치 및 파일 통계와 같은 API \- 호출을 실행합니다.

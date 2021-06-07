@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: 관리자는 EOP(Exchange Online Protection) 및 Office 365용 Microsoft Defender의 보호 기능에 표준 및 엄격한 정책 설정을 적용하는 방법을 배울 수 있습니다.
+description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7579b2d2a47135ab9628d2ec8990f53c3917514b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ca65f003b0c206b0f7e23f3498a4ef0d0bc03fa6
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205805"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788982"
 ---
-# <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Office 365용 Microsoft Defender에서 보안 정책 미리 설정
+# <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -31,9 +31,9 @@ ms.locfileid: "51205805"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-미리 설정한 보안 정책은 권장되는 모든 스팸, 맬웨어 및 피싱 정책을 한에 적용할 수 있는 중앙 집중식 위치를 제공합니다. 정책 설정은 구성할 수 없습니다. 대신, 사용자가 작업을 중단하지 않고 유해한 콘텐츠를 사용자에게 노출하지 못하게 하는 균형을 위해 데이터 센터의 관찰 및 환경을 기반으로 설정됩니다.
+미리 설정한 보안 정책은 권장되는 모든 스팸, 맬웨어 및 피싱 정책을 한에 적용할 수 있는 중앙 집중식 위치를 제공합니다. 정책 설정은 구성할 수 없습니다. 대신 사용자로부터 유해한 콘텐츠를 보호하고 불필요한 중단을 방지하는 것 사이의 균형을 위해 데이터 센터의 관찰 및 환경을 기반으로 설정됩니다.
 
-이 항목의 나머지 항목에서는 미리 설정한 보안 정책과 이를 구성하는 방법에 대해 설명하고 있습니다.
+이 문서의 나머지부분에서는 미리 설정한 보안 정책과 이를 구성하는 방법에 대해 설명하고 있습니다.
 
 ## <a name="what-preset-security-policies-are-made-of"></a>미리 설정한 보안 정책의 적용
 
@@ -54,27 +54,27 @@ ms.locfileid: "51205805"
 
 조건 및 예외와 함께 프로필이 누구인지 또는 적용되지 않는지 결정하는 규칙을 사용할 수 있습니다.
 
-조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
-
 사용 가능한 조건 및 예외는 다음입니다.
 
-- **받는 사람은 조직의** 사서함, 메일 사용자 또는 메일 연락처입니다.
-- **받는 사람은 조직의**: 그룹의 구성원입니다.
-- **받는 사람 도메인은**: Microsoft 365에서 구성된 허용 도메인입니다.
+- **사용자**: 조직의 지정된 사서함, 메일 사용자 또는 메일 연락처입니다.
+- **그룹**: 조직에서 지정한 메일 그룹, 메일 사용이 가능한 보안 그룹 또는 Microsoft 365 그룹입니다.
+- **도메인**: 조직에서 지정한 [허용 도메인](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)의 모든 받는 사람입니다.
+
+조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
 
 ### <a name="policies-in-preset-security-policies"></a>미리 설정한 보안 정책의 정책
 
-미리 설정한 보안 정책은 EOP 및 Office 365용 Microsoft Defender의 다양한 보호 기능에서 해당 정책을 사용 합니다. 이러한 정책은 **Standard** _보호_ 또는 **엄격한** 보호 미리 설정 보안 정책을 사용자에게 할당한 후에 만들어집니다. 이러한 정책은 수정할 수 없습니다.
+미리 설정한 보안 정책은 EOP 및 Microsoft Defender for Office 365. 이러한 정책은 **Standard** _보호_ 또는 **엄격한** 보호 미리 설정 보안 정책을 사용자에게 할당한 후에 만들어집니다. 이러한 정책은 수정할 수 없습니다.
 
-- **EOP(Exchange Online Protection)** 정책: Exchange Online 사서함이 있는 Microsoft 365 조직과 Exchange Online 사서함이 없는 독립 실행형 EOP 조직이 포함됩니다.
+- **Exchange Online Protection(EOP)** 정책: Microsoft 365 사서함이 없는 Exchange Online 독립 실행형 EOP Exchange Online 포함됩니다.
 
   - [Standard 미리](configure-your-spam-filter-policies.md) 설정  보안 정책 및 엄격한 미리 설정 보안 정책 이라는 스팸 **방지 정책**
   - [Standard 미리](configure-anti-malware-policies.md) 설정  보안 정책 및 엄격한 미리 설정 보안 정책 이라는 맬웨어 **방지 정책**
   - 표준 미리 설정 보안 정책  및 엄격한 미리  설정 보안 정책(스푸핑 설정)이라는 [EOP](set-up-anti-phishing-policies.md#spoof-settings) 피싱 방지 정책
 
-- **Microsoft Defender for Office 365 정책:** 여기에는 Microsoft 365 E5 또는 Office 365용 Defender 추가 기능 구독이 있는 조직이 포함됩니다.
+- **Microsoft Defender for Office 365** 정책: Microsoft 365 E5 추가 기능 구독에 대한 Office 365 조직이 포함됩니다.
 
-  - Standard Preset Security Policy 및 Strict **Preset Security Policy라는** Microsoft Defender for Office 365의 피싱 방지 정책에는 다음이 포함됩니다.
+  - Standard Preset Security Policy 및 Strict **Preset** Security **Policy라는** 이름의 Microsoft Defender의 피싱 Office 365 다음을 포함합니다.
 
     - EOP [](set-up-anti-phishing-policies.md#spoof-settings) 피싱 방지 정책에서 사용할 수 있는 동일한 스푸핑 설정입니다.
     - [가장 설정](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
@@ -84,11 +84,11 @@ ms.locfileid: "51205805"
 
   - [표준 미리](set-up-safe-attachments-policies.md) 설정  보안 정책 및 엄격한 미리 설정 보안 정책 이라는 안전 첨부 **파일 정책**
 
-Office 365 보호를 위한 Microsoft Defender와 다른 사용자에게 EOP 보호를 적용할 수 있습니다.
+Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Office 365 있습니다.
 
 ### <a name="policy-settings-in-preset-security-policies"></a>미리 설정한 보안 정책의 정책 설정
 
-보호 프로필에서는 정책 설정을 수정할 수 없습니다. 표준 **및** **엄격한** 정책 설정 값은 EOP 및 [Office 365용 Microsoft Defender](recommended-settings-for-eop-and-office365.md)보안에 대한 권장 설정에 설명되어 있습니다.
+보호 프로필에서는 정책 설정을 수정할 수 없습니다. 표준 **및** **엄격한** 정책 설정 값은 보안에 대한 EOP 및 Microsoft Defender에 대한 권장 [Office 365 설명되어 있습니다.](recommended-settings-for-eop-and-office365.md)
 
 ### <a name="order-of-precedence-for-preset-security-policies-and-other-policies"></a>미리 설정한 보안 정책 및 기타 정책의 우선 순위
 
@@ -105,7 +105,7 @@ Office 365 보호를 위한 Microsoft Defender와 다른 사용자에게 EOP 보
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 미리 설정 보안 정책 페이지로 직접 **이동하기 위해** 를 <https://protection.office.com/presetSecurityPolicies> 사용하세요.
+- 에서 Microsoft 365 보안 센터를 열 수 <https://security.microsoft.com/> 있습니다. 미리 설정 보안 정책 페이지로 직접 **이동하기 위해** 를 <https://security.microsoft.com/presetSecurityPolicies> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -115,47 +115,40 @@ Office 365 보호를 위한 Microsoft Defender와 다른 사용자에게 EOP 보
 
   자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
-  **참고:** Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에  사용자를 추가하면 사용자에게 Microsoft 365의 다른 기능에 필요한 사용 권한 및 사용 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  **참고:** Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 Microsoft 365.  자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
-### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>보안 및 & 센터를 사용하여 미리 설정한 보안 정책을 사용자에게 할당
+### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>보안 센터를 사용하여 미리 설정한 보안 정책을 사용자에게 할당
 
-1. 보안 및 준수 & 위협 관리  \> **정책** \> **미리 설정 보안 정책으로 이동 합니다.**
+1. 보안 센터에서 전자 메일 & **정책** & 규칙 위협 정책 템플릿 정책 섹션으로 \>  \>  \>  \> **이동하십시오.**
 
 2. 표준 **보호 또는** 엄격한 **보호에서** 편집을 **클릭합니다.**
 
-3. 표준 **보호 적용 또는** 엄격한 보호 적용 **마법사가** 시작됩니다. **EOP 보호는** 단계에 적용될 때 [EOP](#policies-in-preset-security-policies) 보호가 적용되는 내부 받는 사람을 식별합니다.
+3. 표준 **보호 적용 또는** 엄격한 보호 적용 **마법사가** 시작됩니다. **EOP 보호가** 페이지에 적용됨 페이지에서 [EOP](#policies-in-preset-security-policies) 보호가 적용되는 내부 받는 사람을 식별합니다(받는 사람 조건).
+   - **사용자**
+   - **그룹**
+   - **도메인**
 
-   1. 조건 **추가를 클릭합니다.** 나타나는 드롭다운에서 적용된 조건(있는 **경우)을 선택합니다.**
+   적절한 상자를 클릭하고, 값 입력을 시작하고, 결과에서 원하는 값을 선택합니다. 이 프로세스를 필요한 만큼 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![아이콘 제거](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
-      - **받는 사람은**
-      - **받는 사람이 다음의 구성원**
-      - **받는 사람 도메인**
+   사용자 또는 그룹의 경우 대부분의 식별자(이름, 표시 이름, 별칭, 전자 메일 주소, 계정 이름 등)를 사용할 수 있지만 해당 표시 이름은 결과에 표시됩니다. 사용자의 경우 별표(\*)만 입력하여 사용 가능한 모든 값을 확인합니다.
 
-      조건을 한 번만 사용할 수 있지만 조건에 대해 여러 값을 지정할 수 있습니다. 같은 조건의 여러 값은 OR 논리(예: 또는 )를 _\<recipient1\>_ _\<recipient2\>_ 사용합니다.
-
-   2. 선택한 조건이 음영이 있는 섹션에 표시됩니다. 해당 섹션에서 다음 중 **원하는 상자를 클릭합니다.** 잠시 기다리면 값을 선택할 수 있도록 목록이 나타납니다. 또는 값을 입력하여 목록을 필터링하고 값을 선택할 수 있습니다. 필요한 만큼 이 단계를 반복합니다. 개별 값을 제거하려면 **값에서** 제거 ![ 아이콘 ](../../media/scc-remove-icon.png) 제거를 클릭합니다. 전체 조건을 제거하려면 **조건에서** 제거 ![ 아이콘 ](../../media/scc-remove-icon.png) 제거를 클릭합니다.
-
-   3. 다른 조건을 추가하려면 조건 추가를 **클릭하고** 나머지 조건에서 선택합니다. 다른 조건은 AND 논리(예: 및 )를 _\<recipient1\>_ _\<member of group 1\>_ 사용합니다.
-
-      이전 단계를 반복하여 조건에 값을 추가하고 필요한 수만큼 또는 조건이 다를 때까지 이 단계를 반복합니다.
-
-   4. 예외를 추가하려면 조건 **추가 를 클릭합니다.** 나타나는 드롭다운에서 다음인 경우 **제외에서 조건을 선택합니다.** 설정 및 동작은 조건과 정확히 같습니다.
+   - **다음 사용자, 그룹 및 도메인 제외**: 정책이 적용되는 내부 받는 사람에 대한 예외를 추가하려면(받는 사람 예외) 이 옵션을 선택하고 예외를 구성합니다. 설정 및 동작은 조건과 정확히 같습니다.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
-4. 조직에 Office 365용 Microsoft Defender가 있는 경우 MICROSOFT [Defender for Office 365](#policies-in-preset-security-policies) 보호가 적용되는 내부 받는 사람을 식별하기 위한 **단계로 ATP** 보호가 적용됩니다.
+4. Office 365 조직용 Microsoft Defender에서는 Office 365 보호를 위한 [Defender로](#policies-in-preset-security-policies) 이동하여 microsoft **Defender for** Office 365 보호가 적용되는 내부 받는 사람을 식별합니다(받는 사람 조건).
 
-   설정 및 동작은 **단계에 적용되는 EOP 보호와 정확히 같습니다.**
+   설정 및 동작은 EOP 보호가 페이지에 적용되는 **동작과 정확히 같습니다.**
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
-5. 확인 **단계에서** 선택을 확인한 다음 확인 을 **클릭합니다.**
+5. 변경 **내용 검토 및 확인 페이지에서** 선택 사항을 확인하고 확인을 **클릭합니다.**
 
-### <a name="use-the-security--compliance-center-to-modify-the-assignments-of-preset-security-policies"></a>보안 및 & 센터를 사용하여 미리 설정한 보안 정책 할당 수정
+### <a name="use-the-security-center-to-modify-the-assignments-of-preset-security-policies"></a>보안 센터를 사용하여 미리 설정한 보안 정책 할당 수정
 
-**표준** 보호 또는 **엄격한** 보호 보안 정책 할당을 수정하는 단계는 미리 설정한 보안 정책을 사용자에게 처음 할당할 때와 [동일합니다.](#use-the-security--compliance-center-to-assign-preset-security-policies-to-users)
+**표준** 보호 또는 **엄격한** 보호 보안 정책 할당을 수정하는 단계는 미리 설정한 보안 정책을 사용자에게 처음 할당할 때와 [동일합니다.](#use-the-security-center-to-assign-preset-security-policies-to-users)
 
-기존 조건 및 예외를 보존하면서 **표준** 보호 또는 **엄격한** 보호 보안 정책을 사용하지 않도록 설정하고 토글을 사용 안 으로 **전환합니다.** 정책을 사용하도록 설정하려면 토글을 사용으로 **끄면 됩니다.**
+기존 조건 및 예외를 보존하면서 **표준** 보호 또는 **엄격한** 보호 보안 정책을 사용하지  않도록 설정하거나 해제 해제로 ![ 토글합니다. ](../../media/scc-toggle-off.png) 정책을 사용하도록 설정하려면 토글을 사용 토글 **으로** ![ 밀어 으로 끄면 ](../../media/scc-toggle-on.png) 됩니다.
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
@@ -163,4 +156,4 @@ Office 365 보호를 위한 Microsoft Defender와 다른 사용자에게 EOP 보
 
 예를 들어 스팸으로 검색된 전자 메일(높은 지수 스팸 아님)의 경우 표준  보호 사용자를 위해 메시지가 정크  메일 폴더로 배달되고 고급 보호 사용자에 대해 검역됩니다.
 
-또는 대량 [](bulk-complaint-level-values.md)전자 메일의 경우 BCL 값 6 이상이 **표준** 보호 사용자를 위해 메시지를 정크 메일 폴더로 배달하고 BCL 값 4 이상이 **엄격한** 보호 사용자에 대한 메시지를 차단하는지 확인합니다.
+또는 대량 [](bulk-complaint-level-values.md)메일의 경우 BCL 값 6 이상이 **표준** 보호 사용자를 위해 메시지를 정크 메일 폴더로 배달하고 BCL 값 4 이상이 **엄격한** 보호 사용자에 대한 메시지를 차단하는지 확인합니다.

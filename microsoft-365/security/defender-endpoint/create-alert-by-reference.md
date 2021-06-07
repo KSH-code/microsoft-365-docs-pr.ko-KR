@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9066bcdae549f7a6b1372714d567674eb03c1e51
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8b05dde015bc96e1ccd3f80e25c416a371e03199
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167070"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772392"
 ---
 # <a name="create-alert-api"></a>경고 API 만들기
 
@@ -74,8 +75,8 @@ POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
-Content-Type | 문자열 | application/json. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
+Content-Type | String | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -84,19 +85,19 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 속성 | 유형 | 설명
 :---|:---|:---
 eventTime | DateTime(UTC) | 고급 헌팅에서 얻은 이벤트의 정확한 시간(문자열)입니다. 예: 필수 ```2018-08-03T16:45:21.7115183Z``` .
-reportId | 문자열 | 고급 헌팅에서 얻은 이벤트의 reportId입니다. **필수입니다**.
-machineId | 문자열 | 이벤트를 식별한 장치의 ID입니다. **필수입니다**.
-심각도 | 문자열 | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
-title | 문자열 | 경고의 제목입니다. **필수입니다**.
-설명 | 문자열 | 경고에 대한 설명입니다. **필수입니다**.
-recommendedAction| 문자열 | 경고를 분석할 때 보안 담당자가 권장하는 작업입니다. **필수입니다**.
-category| 문자열 | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**
+reportId | String | 고급 헌팅에서 얻은 이벤트의 reportId입니다. **필수입니다**.
+machineId | String | 이벤트를 식별한 장치의 ID입니다. **필수입니다**.
+심각도 | String | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
+title | String | 경고의 제목입니다. **필수입니다**.
+설명 | String | 경고에 대한 설명입니다. **필수입니다**.
+recommendedAction| String | 경고를 분석할 때 보안 담당자가 권장하는 작업입니다. **필수입니다**.
+category| String | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**
 
 ## <a name="response"></a>응답
 
 성공하면 이 메서드는 200 OK를 [](alerts.md) 반환하고 응답 본문에 새 경고 개체를 반환합니다. 지정된 _속성(reportId,_ _eventTime_ 및 _machineId)이_ 있는 이벤트를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

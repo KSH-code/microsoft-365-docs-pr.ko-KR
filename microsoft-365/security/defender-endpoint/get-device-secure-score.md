@@ -14,20 +14,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: db4682d0d2fccd7504eb46d9099a9783408cfb73
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dd9def688619b6079d947cb76069aa0f77d768de
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570939"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772308"
 ---
 # <a name="get-device-secure-score"></a>장치 보안 점수 가져오기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
@@ -60,7 +61,7 @@ GET /api/configurationScore
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -70,7 +71,7 @@ GET /api/configurationScore
 
 성공하면 이 메서드는 응답 본문에 장치 보안 점수 데이터를 사용하여 200 OK를 반환합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 ### <a name="request"></a>요청
 

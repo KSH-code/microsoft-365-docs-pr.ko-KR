@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 독일 신규 데이터 센터 Office 365 서비스로 전환할 때 사전 작업입니다.'
-ms.openlocfilehash: 66f23d33e9e55c432c33e9d90549d33ea42536db
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 244a784b0e28f9d5629f5af242a6cf8227abdb01
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651023"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770383"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
@@ -98,16 +98,12 @@ Office 365 "Germany" 지역으로 전환하는 테넌트는 모든 사용자가 
 
 ## <a name="active-directory-federation-services-ad-fs"></a>AD FS(Active Directory Federation Services)
 
-<!-- before phase 4 -->
-
 **적용 사항:** AD FS를 사용하여 프레미스에 연결하는 사용자를 인증하는 Microsoft Office 365<br>
-**적용된 경우**: 4단계가 시작되기 전의 시간
+**적용된 경우**: 2단계가 시작되기 전의 시간
 
 [ADFS 마이그레이션 단계 읽기 및 적용](ms-cloud-germany-transition-add-adfs.md)
 
 ## <a name="sharepoint-online"></a>SharePoint Online
-
-<!-- before phase 4 -->
 
 **적용 사항:** SharePoint 2013 사내를 사용하는 고객<br>
 **적용된 경우**: 4단계가 시작되기 전의 시간

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7ac7415ce5e7f88b21128846b7cff957e388fd5
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 3da3d971a1ef55d343ac1b61e6457981022c4c92
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730381"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770386"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -88,11 +88,11 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |[변수가 있는 동적 표시](#dynamic-markings-with-variables)                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 권한을 할당하도록 허용: <br /> - 전달하지 않음](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
-|[사용자가 권한을 할당하도록 허용: <br /> - 암호화 전용](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ | 4.2112.0+  | 4.2112.0+ | 예 |
+|[사용자가 권한을 할당하도록 허용: <br /> - 암호화 전용](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ <sup>\*</sup> | 4.2112.0+  | 4.2112.0+ | 예 |
 |[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | 4.2111+            | 4.2111+                | 예                |
 |[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 2011+ | 검토 중 | 검토 중           | 검토 중               | 검토 중 |
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | 검토 중           | 검토 중               | 예 |
-|[기본 레이블 및 필수 레이블에 대한 다른 설정](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 2105+                      | 16.43.1108+                   | 4.2111+           | 4.2111+               | 예 |
+|[기본 레이블 및 필수 레이블에 대한 다른 설정](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 2105+                      | 16.43.1108+ <sup>\*</sup>                   | 4.2111+           | 4.2111+               | 예 |
 |
 
 **각주:**

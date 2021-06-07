@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: c6b3f965c7abb1cb9208f0bfa157c1fd8aa3f891
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 9da87dcb64f8c62966382e3a2888f03c49149a09
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500706"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770437"
 ---
 # <a name="get-exposure-score"></a>노출 점수 가져오기
 
@@ -60,7 +61,7 @@ GET /api/exposureScore
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -70,7 +71,7 @@ GET /api/exposureScore
 
 성공하면 이 메서드는 응답 본문의 노출 데이터를 사용하여 200 OK를 반환합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 ### <a name="request"></a>요청
 

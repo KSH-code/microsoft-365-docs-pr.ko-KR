@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365를 사용하여 원격 작업을 위한 인프라 설정
+title: Microsoft 365를 사용하여 하이브리드 작업을 위한 인프라 설정
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -18,27 +18,27 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 keywords: 재택근무, 재택근무, 하이브리드, 원격근무, 하이브리드 근무, 원격직원, 하이브리드 연결, 원격접속, 재택근무, 재택근무, 재택근무, 원격근무, 원격근무, 원격근무, 유연한 근무 장소
-description: 원격 직원이 온-프레미스 및 Microsoft 365 리소스에 안전하게 액세스할 수 있도록 인프라 계층으로 이동합니다.
-ms.openlocfilehash: 1a8cf471cf92e1301c231f395ed0238bb35359cb
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: 하이브리드 직원이 온-프레미스 및 Microsoft 365 리소스에 안전하게 액세스할 수 있도록 인프라 계층으로 이동합니다.
+ms.openlocfilehash: 55f1cf5c922166e1fe3932b6fe89fbdfcbfba466
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246323"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788886"
 ---
-# <a name="set-up-your-infrastructure-for-remote-work-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업을 위한 인프라 설정
+# <a name="set-up-your-infrastructure-for-hybrid-work-with-microsoft-365"></a>Microsoft 365를 사용하여 하이브리드 작업을 위한 인프라 설정
 
-원격 작업의 생산성 및 공동 작업을 보호하고 최적화하려면 원격 작업을 사용하도록 IT 및 클라우드 인프라를 구성하고 조직의 온-프레미스 및 클라우드 기반 정보, 도구 및 리소스에 대한 액세스를 제공해야 합니다. 이 솔루션에서는 작업자가 어디에 있든 최고의 업무를 할 수 있도록 하는 인프라의 주요 계층을 배포하는 단계를 수행합니다.
+직원의 생산성과 공동 작업을 보호하고 최적화하려면 현장 및 원격 직원이 조직의 온-프레미스 및 클라우드 기반 정보, 도구 및 리소스에 쉽고 안전하게 액세스할 수 있도록 해야 합니다. 이 솔루션에서는 작업자가 어디에 있든 최고의 업무를 할 수 있도록 하는 인프라의 주요 계층을 배포하는 단계를 수행합니다.
 
-직원이 원격으로 작업할 수 있도록 하는 것은 조직에 다음과 같은 이유로 중요합니다.
+하이브리드 작업자는 현장 또는 여러 위치에서 원격으로 작업할 수 있습니다. 많은 조직에서 직원들이 기존 사무실에서 근무할 수 있도록 하는 것은 다음과 같은 작업을 수행하는 데 중요합니다.
 
-- 사무실 공간에 저장
-- 이동할 의사가 없는 직원을 고용하고 유지할 수 있습니다.
+- 이전을 원하지 않거나 유연한 작업 환경이 필요한 직원을 채용하고 유지하세요.
 - 직원의 출퇴근를 줄여 업무 이외에 생산성을 높이고 스트레스 해소 활동을 위한 시간을 늘릴 수 있습니다.
+- 사무실 공간을 절약할 수 있습니다.
 
-Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 기능이 있습니다.
+Microsoft 365에는 하이브리드 직원이 현장이나 원격으로 작업할 수 있도록 도와주는 기능이 있습니다.
 
-![Microsoft 365를 사용하여 원격 작업자의 역량 강화하기](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
+![Microsoft 365를 사용하여 하이브리드 작업자의 역량 강화하기](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
 >[!Note]
 >Microsoft 365를 처음 사용하는 경우, [다음 리소스](https://www.microsoft.com/microsoft-365)를 참조하세요.
@@ -49,11 +49,11 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
 
-작업 생산성을 높이기 위해 인트라 사이트 및 클라우드 기반 인프라를 관리하는 IT 전문가를 위해 이 솔루션은 다음과 같은 주요 기능을 제공합니다.
+하이브리드 직원 생산성을 높이기 위해 인트라 사이트 및 클라우드 기반 인프라를 관리하는 IT 전문가를 위해 이 솔루션은 다음과 같은 주요 기능을 제공합니다.
 
 - 연결
 
-  원격 작업자는 전 세계 어디서나 언제든지 다음 항목에 액세스할 수 있습니다. 
+  작업자는 전 세계 어디서나 언제든지 다음 항목에 액세스할 수 있습니다. 
 
   - Microsoft 365 구독의 클라우드 기반 서비스 및 데이터 
 
@@ -65,11 +65,11 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 - 관리
 
-  보안 설정, 허용 앱을 사용해 원격 작업자의 장치를 클라우드에서 관리하고 시스템 상태 규정을 준수할 수 있습니다.
+  보안 설정, 허용 앱을 사용해 하이브리드 작업자의 장치를 클라우드에서 관리하고 시스템 상태 규정을 준수할 수 있습니다.
 
 - 공동 작업 및 생산성
 
-  원격 작업자는 다음과 같이 매우 협력적인 방식으로 온-프레미스 환경에서처럼 생산적으로 작업할 수 있습니다.
+  하이브리드 작업자는 다음과 같이 매우 협력적인 방식으로 온-프레미스 환경에서처럼 생산적으로 작업할 수 있습니다.
 
   - Teams를 통한 온라인 팀 회의 및 채팅 
 
@@ -79,9 +79,9 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 원활하게 로그인하려면 온-프레미스 Active Directory 도메인 서비스(AD DS) 사용자 계정을 Azure Active Directory(Azure AD)와 동기화해야 합니다. Windows 10 장치를 보호하려면 Intune에서 장치를 등록해야 합니다. 다음은 인프라의 개괄적인 보기입니다.
 
-![Microsoft 365를 사용하는 원격 작업자용 기본 인프라](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
+![Microsoft 365를 사용하는 하이브리드 작업자용 기본 인프라](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
 
-원격 작업자를 위한 Microsoft 365의 기능을 사용하려면 다음 Microsoft 365 기능을 사용하세요.
+하이브리드 작업자를 위한 Microsoft 365의 기능을 사용하려면 다음 Microsoft 365 기능을 사용하세요.
 
 | 기능 또는 특징 | 설명 | 라이선싱 |
 |:-------|:-----|:-------|
@@ -103,13 +103,13 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 보안 및 규정 준수 기준에 대한 내용은 [원격 작업자에 대한 보안 및 규정 준수 배포](empower-people-to-work-remotely-security-compliance.md)를 참조하세요.
 
-<a name="poster"></a> 이 솔루션의 2페이지 요약은 [원격 작업자 지원 포스터](../downloads/empower-remote-workers.pdf)를 참조하세요.
+<a name="poster"></a> 이 솔루션의 2페이지 요약은 [하이브리드 작업자 지원 포스터](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pdf)를 참조하세요.
 
-[![원격 작업자 지원](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
+[![하이브리드 작업자 지원](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pdf)
 
-이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)나 [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) 형식으로 다운로드할 수 있고 편지형, 법률형, 타블로이드(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
+이 포스터를 [PowerPoint](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pptx) 형식으로 다운로드 할 수 있고 편지형, 법률형, 타블로이드(11 x 17) 크기 용지에 인쇄할 수 있습니다.
 
-## <a name="provide-remote-working-for-all-of-your-workers"></a>모든 직원에게 원격 작업 제공
+## <a name="provide-hybrid-working-for-all-of-your-workers"></a>모든 직원에게 하이브리드 작업 제공
 
 모든 직원이 다음 장치를 사용하여 어디서나 생산성을 유지할 수 있도록 할 수 있습니다.
 
@@ -119,15 +119,15 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 ## <a name="next-steps"></a>다음 단계
 
-다음 단계를 사용하여 조직의 서버 및 클라우드 서비스에 대한 액세스를 보호하고 최적화하며 원격 작업자의 생산성을 극대화합니다.
+다음 단계를 사용하여 조직의 서버 및 클라우드 서비스에 대한 액세스를 보호하고 최적화하며 하이브리드 작업자의 생산성을 극대화합니다.
 
 1. [MFA로 로그인 보안 강화](empower-people-to-work-remotely-secure-sign-in.md)
 2. [온-프레미스 앱 및 서비스로의 원격 액세스 제공](empower-people-to-work-remotely-remote-access.md)
 3. [보안 및 규정 준수 서비스 배포](empower-people-to-work-remotely-security-compliance.md)
 4. [장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포](empower-people-to-work-remotely-manage-endpoints.md)
-5. [원격 작업자 생산성 앱 및 서비스 배포](empower-people-to-work-remotely-teams-productivity-apps.md)
-6. [원격 작업자 교육 및 사용 피드백 처리](empower-people-to-work-remotely-train-monitor-usage.md)
+5. [하이브리드 작업자 생산성 앱 및 서비스 배포](empower-people-to-work-remotely-teams-productivity-apps.md)
+6. [작업자 교육 및 사용 피드백 처리](empower-people-to-work-remotely-train-monitor-usage.md)
 
-[![Microsoft 365에서 원격 작업을 위한 인프라를 설정하는 단계](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
+[![Microsoft 365에서 하이브리드 작업을 위한 인프라를 설정하는 단계](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
-가상이지만 대표적인 다국적 조직이 원격 작업을 위해 인프라를 구축하는 방법을 보려면 [Contoso의 COVID-19 대응 및 원격 및 현장 작업을 위한 인프라](contoso-remote-onsite-work.md)를 참조하세요.
+가상이지만 대표적인 다국적 조직이 하이브리드 작업을 위해 인프라를 구축하는 방법을 보려면 [Contoso의 COVID-19 대응 및 하이브리드 작업을 위한 인프라](contoso-remote-onsite-work.md)를 참조하세요.

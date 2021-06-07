@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용하도록 SharePoint OneDrive.
-ms.openlocfilehash: 16186bd1e5c4cd2ca5b1ccd81c24ec81bfd33597
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 8007f085e7bcba7f055f616954e2f0549f6f125a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684030"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770400"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
@@ -87,6 +87,8 @@ Mac에서 OneDrive 버전 19.002.0121.0008 이상 및 Windows 버전 19.002.0107
     - **이중 키 암호화** 가 선택됩니다.
     
     이러한 암호화 구성이 있는 레이블의 경우 레이블이 해당 암호화 구성의 사용자에게 웹용 Office. 또한 이러한 암호화 설정이 이미 있는 레이블이 지정되어 있는 문서에는 새 기능을 사용할 수 없습니다. 예를 들어 이러한 문서는 업데이트된 경우에도 검색 결과에 반환되지 않습니다.
+
+- 성능상의 이유로 문서를 업로드하거나 저장하여 SharePoint 파일의 레이블에 암호화가 적용되지 않는 경우  문서 라이브러리의 민감도 열에 레이블 이름을 표시하는 데 시간이 걸릴 수 있습니다. 이 열의 레이블 이름을 사용하는 스크립트 또는 자동화를 사용하는 경우 이 지연을 고려합니다.
 
 - 암호화를 적용하는 민감도 레이블이 있는 문서에 대해 데스크톱 버전의 Office 사용 시나리오에서 암호화된 문서를 열 수 있는 데 지연이 있을 수 있습니다. 사용자가 위치의 SharePoint OneDrive 선택한 다음 해당 문서를 현재 위치에서 열 웹용 Office. 서비스가 여전히 암호화를 처리하고 있는 경우 사용자는 데스크톱 앱에서 문서를 열 수 있어야 하다는 메시지를 볼 수 있습니다. 몇 분 후 다시 시도하면 문서가 웹용 Office. 
 
@@ -169,7 +171,8 @@ PowerShell 명령을 실행하여 SharePoint 및 OneDrive 파일에서 Office �
 
 1. 전역 관리자 또는 SharePoint 관리자 권한이 있는 직장 또는 학교 계정을 Microsoft 365 계정으로 SharePoint. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
     
-    참고: Multi-Microsoft 365 있는 경우 [커넥트-SPOService와](/powershell/module/sharepoint-online/connect-sposervice)함께 -Url 매개 변수를 사용하여 지리적 위치 중 하나에 SharePoint Online Administration Center 사이트 URL을 지정합니다.
+    > [!NOTE]
+    > Multi-Microsoft 365 있는 경우 [커넥트-SPOService와](/powershell/module/sharepoint-online/connect-sposervice)함께 -Url 매개 변수를 사용하여 지리적 위치 중 하나에 SharePoint 온라인 관리 센터 사이트 URL을 지정합니다.
 
 2. 다음 명령을 실행하고 **Y를 눌러** 확인합니다.
 
@@ -239,7 +242,7 @@ PowerShell 명령을 실행하여 SharePoint 및 OneDrive 파일에서 Office �
 
 대신 전역 관리자 또는 [](/sharepoint/sharepoint-admin-role) SharePoint 관리자가 민감도 레이블과 암호화를 모두 제거하는 [Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 실행할 수 있습니다. 이 cmdlet은 관리자가 사이트 또는 파일에 대한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행됩니다. 
 
-예제:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```powershell
 Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"

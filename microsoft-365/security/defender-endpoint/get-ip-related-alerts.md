@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: dbcde70b32f9a10280dd43e98c5a237a0027a33c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: a12ae502702b7fc9f69b01cd67857003258c20f2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167190"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770127"
 ---
 # <a name="get-ip-related-alerts-api"></a>IP 관련 알림 API를 얻습니다.
 
@@ -68,7 +69,7 @@ GET /api/ips/{ip}/alerts
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -78,7 +79,7 @@ GET /api/ips/{ip}/alerts
 성공 및 IP가 있는 경우 - 본문에 [](alerts.md) 경고 엔터티 목록이 있는 200 OK. IP가 없는 경우 - 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

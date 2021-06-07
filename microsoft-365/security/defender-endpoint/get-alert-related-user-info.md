@@ -1,5 +1,5 @@
 ---
-title: 경고 관련 사용자 정보 얻기
+title: 경고 관련 사용자 정보 가져오기
 description: 경고 관련 사용자 정보 다운로드 API를 사용하여 끝점용 Microsoft Defender의 특정 경고와 관련된 사용자를 검색하는 방법을 학습합니다.
 keywords: api, 그래프 api, 지원되는 api, get, 경고, 정보, 관련, 사용자
 search.product: eADQiWindows 10XVcnh
@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: aee3c6fb381341c6823fbcb6766c0b761cb3413d
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: e895885a638c60a845ed4857c682cd472e42615c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166981"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772320"
 ---
 # <a name="get-alert-related-user-information-api"></a>경고 관련 사용자 정보 얻기 API
 
@@ -69,7 +70,7 @@ GET /api/alerts/{id}/user
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -79,7 +80,7 @@ GET /api/alerts/{id}/user
 성공 및 알림 및 사용자가 있는 경우 - 본문에 사용자가 200 OK입니다. 경고 또는 사용자를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

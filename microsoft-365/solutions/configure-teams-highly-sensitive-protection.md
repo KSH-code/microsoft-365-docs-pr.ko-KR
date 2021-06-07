@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: 매우 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7c5485a008434b351eebbec3ea1f20b10d82278a
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 3e98b1a52e698d52eba16d4296c062d7347759d0
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583691"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788358"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>매우 중요한 데이터를 보호하는 팀 구성하기
 
@@ -38,6 +38,13 @@ ms.locfileid: "52583691"
 - 더욱 제한적인 기본 공유 링크 유형
 - 팀 소유자만 비공개 채널을 만들 수 있습니다.
 - 연결된 SharePoint 사이트에 대한 액세스 요청은 꺼져 있습니다.
+
+## <a name="video-demonstration"></a>동영상 데모
+
+이 동영상에서 이 문서에 설명된 단계별 절차를 살펴보세요.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzI7]
 
 ## <a name="guest-sharing"></a>게스트 공유
 

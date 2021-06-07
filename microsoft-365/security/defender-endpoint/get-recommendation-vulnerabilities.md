@@ -1,5 +1,5 @@
 ---
-title: 권장에 의해 취약성 목록
+title: 권장 사항별 취약성 목록
 description: 보안 권장과 관련된 취약점 목록을 검색합니다.
 keywords: api, 그래프 api, 지원되는 api, get, 취약성 목록, 보안 권장, 취약점에 대한 보안 권장, 위협 및 취약성 관리, 위협 및 취약성 관리 api
 search.product: eADQiWindows 10XVcnh
@@ -14,14 +14,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b41ee2886d758ab0ab70b78ee6d6d863d0d482a7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8fc9bb53fd2cfe768710129704c13ee751a695a2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198604"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770448"
 ---
-# <a name="list-vulnerabilities-by-recommendation"></a>권장에 의해 취약성 목록
+# <a name="list-vulnerabilities-by-recommendation"></a>권장 사항별 취약성 목록
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -54,7 +56,7 @@ GET /api/recommendations/{id}/vulnerabilities
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -64,7 +66,7 @@ GET /api/recommendations/{id}/vulnerabilities
 성공하면 이 메서드는 보안 권장과 관련된 취약점 목록과 함께 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

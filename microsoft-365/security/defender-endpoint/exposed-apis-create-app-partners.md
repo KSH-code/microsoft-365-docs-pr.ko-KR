@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: bc58241be69a1d8e1a78abc583b2c87dbef9cfa7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 6182b4cb0d1f648f33c3a7fc4da4c648d8996bcd
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199411"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770616"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>끝점 API용 Microsoft Defender를 통한 파트너 액세스
 
@@ -36,10 +37,10 @@ ms.locfileid: "51199411"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-이 페이지에서는 고객을 대신하여 끝점용 Microsoft Defender에 프로그래밍 방식 액세스하기 위해 Azure AD(Azure Active Directory) 응용 프로그램을 만드는 방법을 설명합니다.
+이 페이지에서는 고객을 대신하여 Azure Active Directory Microsoft Defender for Endpoint에 프로그래밍 방식의 액세스 권한을 부여하는 Azure AD(Azure AD) 응용 프로그램을 만드는 방법을 설명합니다.
 
 
-끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API는 Microsoft Defender for Endpoint 기능을 기반으로 작업 흐름을 자동화하고 혁신하는 데 도움이 됩니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 권한 부여 코드 흐름을 참조하세요.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API는 Microsoft Defender for Endpoint 기능을 기반으로 작업 흐름을 자동화하고 혁신하는 데 도움이 됩니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 일반적으로 API를 사용하려면 다음 단계를 수행해야 합니다.
 - 다중 **테넌트** Azure AD 응용 프로그램을 생성합니다.
@@ -53,9 +54,9 @@ ms.locfileid: "51199411"
 
 1. 전역 관리자 역할이 있는 사용자로 [Azure](https://portal.azure.com) **테넌트에 로그인합니다.**
 
-2. Azure **Active Directory**  >  **앱 등록 새**  >  **등록으로 이동합니다.** 
+2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.** 
 
-   ![Microsoft Azure의 이미지 및 응용 프로그램 등록 탐색](images/atp-azure-new-app2.png)
+   ![응용 Microsoft Azure 탐색 및 이미지](images/atp-azure-new-app2.png)
 
 3. 등록 양식에서 다음을 합니다.
 
@@ -65,7 +66,7 @@ ms.locfileid: "51199411"
 
     - 리디렉션 URI - 유형: 웹, URI: https://portal.azure.com
 
-    ![Microsoft Azure 파트너 응용 프로그램 등록 이미지](images/atp-api-new-app-partner.png)
+    ![파트너 Microsoft Azure 등록 이미지](images/atp-api-new-app-partner.png)
 
 
 4. 응용 프로그램이 끝점용 Microsoft Defender에 액세스하여 통합을 완료하는 데 필요한 최소한의 권한 집합으로 응용 프로그램을 할당하도록 허용합니다.
@@ -169,7 +170,7 @@ return $token
 >아래 코드는 Nuget Microsoft.IdentityModel.Clients.ActiveDirectory로 테스트되었습니다.
 
 - 새 콘솔 응용 프로그램 만들기
-- NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory 설치](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)
+- [Microsoft.NuGet.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) 설치
 - 다음을 사용하여 추가
 
     ```
@@ -200,7 +201,7 @@ return $token
 ### <a name="using-curl"></a>컬 사용
 
 > [!NOTE]
-> 아래 절차에서는 Windows용 Curl이 컴퓨터에 이미 설치되어 있는 것으로 가정합니다.
+> 다음 절차에서는 컬 for Windows 컴퓨터에 이미 설치되어 있습니다.
 
 - 명령 창 열기
 - Azure CLIENT_ID ID로 설정
@@ -248,5 +249,5 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
     ```
 
 ## <a name="see-also"></a>참고 항목
-- [끝점 API에 지원되는 Microsoft Defender](exposed-apis-list.md)
+- [지원되는 엔드포인트용 Microsoft Defender API](exposed-apis-list.md) 
 - [사용자를 대신하여 끝점용 Microsoft Defender 액세스](exposed-apis-create-app-nativeapp.md)
