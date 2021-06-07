@@ -14,20 +14,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 94be185bd30cd36f456a66d5ae30a4361abc0c48
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 043d423e1016d77cad4a175aa41718329f464252
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688252"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768931"
 ---
 # <a name="update-alert"></a>업데이트 경고
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -70,8 +71,8 @@ PATCH /api/alerts/{id}
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
-Content-Type | 문자열 | application/json. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
+Content-Type | String | application/json. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -81,17 +82,17 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 
 속성 | 유형 | 설명
 :---|:---|:---
-status | 문자열 | 경고의 현재 상태를 지정합니다. 속성 값은 'New', 'InProgress' 및 'Resolved'입니다.
-assignedTo | 문자열 | 경고의 소유자
-classification | 문자열 | 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
-determination | 문자열 | 경고 결정 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
-comment | 문자열 | 경고에 추가할 설명입니다.
+status | String | 경고의 현재 상태를 지정합니다. 속성 값은 'New', 'InProgress' 및 'Resolved'입니다.
+assignedTo | String | 경고의 소유자
+classification | String | 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
+determination | String | 경고 결정 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
+comment | String | 경고에 추가할 설명입니다.
 
 ## <a name="response"></a>응답
 성공하면 이 메서드는 200 OK를 [](alerts.md) 반환하고 업데이트된 속성을 사용하여 응답 본문의 경고 엔터티를 반환합니다. 지정된 ID가 있는 알림을 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

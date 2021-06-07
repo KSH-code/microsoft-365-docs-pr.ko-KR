@@ -13,12 +13,12 @@ ms.collection:
 description: 보고된 메시지를 검토하고 사용자에게 피드백을 주는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 619cd35b6a60f0d50aa6c13e4cad2b8d7ae947a8
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 7386f5b283e2bfabb76eee91d33dfda0e42ec7b1
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730979"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769128"
 ---
 # <a name="admin-review-for-reported-messages"></a>보고된 메시지에 대한 관리자 검토
 
@@ -40,12 +40,12 @@ Microsoft 365 사서함이 Exchange Online 및 Microsoft Defender for Office 365
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 사용자 제출에 대한 구성을 수정하려면 다음 역할 그룹 중 하나의 구성원이 되어야 합니다.
-    - 보안 센터의 조직 관리 [또는 보안 관리자](permissions-microsoft-365-compliance-security.md)
-    - 에서 조직 [Exchange Online.](/Exchange/permissions-exo/permissions-exo)
+  - Microsoft 365 보안 센터의 [조직 관리 또는 보안 관리자](permissions-microsoft-365-security-center.md)
+  - 에서 조직 [Exchange Online.](/Exchange/permissions-exo/permissions-exo)
 
 - PowerShell을 사용하려면 Exchange Online 액세스해야 합니다. 사용하려는 계정이 Exchange Online PowerShell에 액세스할 수 없는 경우 도메인에 전자 메일 주소 지정 을 입력하는 오류가 *표시됩니다.* PowerShell에 대한 액세스를 활성화하거나 Exchange Online 자세한 내용은 다음 항목을 참조하세요.
-    - [PowerShell에 대한 액세스 Exchange Online 사용 또는 사용 안 하도록 설정](/powershell/exchange/disable-access-to-exchange-online-powershell)
-    - [클라이언트 액세스 규칙의 Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
+  - [PowerShell에 대한 액세스 Exchange Online 사용 또는 사용 안 하도록 설정](/powershell/exchange/disable-access-to-exchange-online-powershell)
+  - [클라이언트 액세스 규칙의 Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="configure-the-messages-used-to-notify-users"></a>사용자에게 알리는 데 사용되는 메시지 구성
 

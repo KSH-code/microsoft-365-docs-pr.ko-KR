@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: d0db45daa786c1a44272e4d02153af3fe658e781
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 3df703fd84c87a2bd34bb2a81f8c83063e468b17
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200212"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771453"
 ---
 # <a name="run-antivirus-scan-api"></a>바이러스 백신 검사 실행 API
 
@@ -35,7 +36,7 @@ ms.locfileid: "51200212"
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 ## <a name="api-description"></a>API 설명
-장치에서 Microsoft Defender 바이러스 백신 검사 시작
+장치에서 Microsoft Defender 바이러스 백신 시작하세요.
 
 
 ## <a name="limitations"></a>제한 사항
@@ -66,7 +67,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/runAntiVirusScan
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 Content-Type | 문자열 | application/json
 
 ## <a name="request-body"></a>요청 본문
@@ -75,7 +76,7 @@ Content-Type | 문자열 | application/json
 매개 변수 | 유형    | 설명
 :---|:---|:---
 Comment |   String | 작업과 연결되는 설명입니다. **필수입니다**.
-ScanType|   문자열  | 스캔 유형을 정의합니다. **필수입니다**.
+ScanType|   String  | 스캔 유형을 정의합니다. **필수입니다**.
 
 **ScanType은** 수행할 검사 유형을 제어하며 다음 중 하나일 수 있습니다.
 
@@ -88,7 +89,7 @@ ScanType|   문자열  | 스캔 유형을 정의합니다. **필수입니다**.
 성공하면 이 메서드는 응답 본문에 201, 만든 응답 코드 및 _MachineAction_ 개체를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

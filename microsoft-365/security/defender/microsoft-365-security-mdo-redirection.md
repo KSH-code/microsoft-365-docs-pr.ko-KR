@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender에서 새 보안 Office 365 계정으로 Microsoft 365 리디렉션
+title: 보안 및 Office 365 센터에서 새 보안 센터로 Microsoft 365 리디렉션
 description: 보안 센터에 대한 Defender에서 Office 365 보안 Microsoft 365 방법.
 keywords: Microsoft 365 보안 센터, 보안 센터 Microsoft 365 시작, 보안 센터 리디렉션
 search.product: eADQiWindows 10XVcnh
@@ -20,14 +20,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2a4b122b3ef3a1ddaf61d8f9373bec3e721db177
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 703d3c3c9086aa2bdfada560c009e8738dffbb18
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651383"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768972"
 ---
-# <a name="redirecting-accounts-from-microsoft-defender-for-office-365-to-the-microsoft-365-security-center"></a>Microsoft Defender에서 Office 365 보안 센터로 Microsoft 365 리디렉션
+# <a name="redirecting-accounts-from-office-365-security-and-compliance-center-to-microsoft-365-security-center"></a>보안 및 Office 365 센터에서 Microsoft 365 리디렉션
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "52651383"
 - Microsoft 365 Defender
 - Office 365용 Defender
 
-이 문서에서는 이전 Microsoft 보안 및 준수 센터(protection.office.com 또는 securitycenter.microsoft.com)에서 Microsoft 365 보안 센터(security.microsoft.com)로 자동 리디렉션을 사용하도록 설정하여 계정을 Microsoft 365 보안 센터로 라우팅하는 방법에 대해 security.microsoft.com.
+이 문서에서는 이전 Office 365 Office 365 보안 및 준수 센터(protection.office.com)에서 Microsoft 365 보안 센터(security.microsoft.com)로 자동 리디렉션을 사용하도록 설정하여 계정을 Microsoft 365 보안 센터로 라우팅하는 방법에 대해 security.microsoft.com.
 
 ## <a name="what-to-expect"></a>예상할 일
 자동 리디렉션을 사용하도록 설정하고 활성화하면 Office 365 보안 및 규정 준수(protection.office.com)의 보안 관련 기능에 액세스하는 사용자는 자동으로 Microsoft 365 보안 센터( ( 로 라우팅됩니다. https://security.microsoft.com)  
@@ -78,7 +78,7 @@ ms.locfileid: "52651383"
 
 이 설정은 어떤 경우든 다시 사용하도록 설정할 수 있습니다.
 
-사용하지 않도록 설정하면 계정이 더 이상 security.microsoft.com 라우팅되지 않습니다. securitycenter.windows.com 또는 이전 포털에 다시 securitycenter.microsoft.com.
+사용하지 않도록 설정하면 계정이 더 이상 security.microsoft.com 라우팅되지 않습니다. 또한 이전 포털(securitycenter.windows.com 또는 securitycenter.microsoft.com.
 
 ## <a name="related-information"></a>관련 정보
 - [Microsoft 365 보안 센터 개요](overview-security-center.md)

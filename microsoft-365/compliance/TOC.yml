@@ -694,7 +694,7 @@
               href: advanced-ediscovery-dashboard.md
             - name: 검토 집합에서 문서 보기
               href: view-documents-in-review-set.md
-            - name: 검토 집합에서 데이터 쿼리
+            - name: 검토 집합의 콘텐츠 쿼리 및 필터링
               href: review-set-search.md
             - name: 검토 집합에서 문서 태그 지정
               href: tagging-documents.md

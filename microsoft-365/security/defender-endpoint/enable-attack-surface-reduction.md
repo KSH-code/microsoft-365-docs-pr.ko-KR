@@ -9,22 +9,21 @@ ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 audience: ITPro
-author: dansimp
-ms.author: dansimp
+author: denisebmsft
+ms.author: deniseb
 ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: b3460e2c9b6073c518bea46147be69d4b89cd96a
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.date: 06/02/2021
+ms.openlocfilehash: 5bdb7ed46bdf01d4fb6075f310b98dcdb98a5a7f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538642"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771924"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 
@@ -55,7 +54,7 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 > [!IMPORTANT]
 > 현재 MEM(2013)에서 ASR 규칙을 구성할 때 세 가지 ASR 규칙에 대해 경고 Microsoft Endpoint Manager 지원되지 않습니다. 자세한 내용은 경고 모드가 지원되지 [않는 경우를 참조합니다.](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)
 
-끝점용 [Microsoft Defender(Endpoint용 Defender)에서](https://docs.microsoft.com/windows/security/threat-protection) 사용할 수 있는 고급 모니터링 및 보고 기능을 활용하기 위해 Windows E5 라이선스(또는 유사한 라이선스 SKU)와 함께 ASR 규칙을 사용하는 것이 좋습니다. 그러나 고급 모니터링 및 보고 기능에 액세스할 수 없는 Windows Professional 또는 E3와 같은 다른 라이선스의 경우 ASR 규칙이 트리거될 때 각 끝점에서 생성되는 이벤트(예: 이벤트 전달) 위에 자체 모니터링 및 보고 도구를 개발할 수 있습니다.
+Windows E5 라이선스(또는 유사한 라이선스 SKU)와 함께 ASR 규칙을 사용하여 [끝점용 Microsoft Defender(Endpoint용 Defender)에서](microsoft-defender-endpoint.md) 사용할 수 있는 고급 모니터링 및 보고 기능을 활용하는 것이 좋습니다. 그러나 고급 모니터링 및 보고 기능을 포함하지 않는 Windows Professional 또는 Windows E3와 같은 다른 라이선스가 있는 경우 ASR 규칙이 트리거될 때 각 끝점에서 생성된 이벤트(예: 이벤트 전달) 위에 자체 모니터링 및 보고 도구를 개발할 수 있습니다.
 
 > [!TIP]
 > 라이선스 라이선스에 대한 Windows 자세한 내용은 [](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) Windows 10 라이선스를 참조하고 에 대한 볼륨 라이선스 [가이드를 Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
@@ -74,7 +73,7 @@ Enterprise Intune 또는 Microsoft Endpoint Manager 수준의 관리가 권장�
 
 대부분의 공격 표면 감소 규칙에 의해 평가되지 않는 파일 및 폴더를 제외할 수 있습니다. 즉, ASR 규칙이 파일 또는 폴더에 악의적인 동작이 포함되어 있는지 확인한 경우에도 파일이 실행되는 것을 차단하지 않습니다. 이렇게 하면 안전하지 않은 파일이 실행되고 장치를 감염시킬 수 있습니다.
 
-끝점 파일 및 인증서 표시기를 위해 지정된 Defender를 허용하여 인증서 및 파일 해시에 따라 ASR 규칙을 트리거하지 못하게 제외할 수도 있습니다. [(표시기 관리를](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-indicators)참조합니다.)
+끝점 파일 및 인증서 표시기를 위해 지정된 Defender를 허용하여 인증서 및 파일 해시에 따라 ASR 규칙을 트리거하지 못하게 제외할 수도 있습니다. [(표시기 관리를](manage-indicators.md)참조합니다.)
 
 > [!IMPORTANT]
 > 파일 또는 폴더를 제외하면 ASR 규칙에서 제공하는 보호를 심각하게 줄일 수 있습니다. 제외된 파일은 실행될 수 있으며 보고서나 이벤트는 기록되지 않습니다.
@@ -82,7 +81,7 @@ Enterprise Intune 또는 Microsoft Endpoint Manager 수준의 관리가 권장�
 
 개별 파일 또는 폴더(폴더 경로 또는 정식 리소스 이름을 사용하여)를 지정할 수 있지만 제외가 적용되는 규칙을 지정할 수 없습니다. 제외는 제외된 응용 프로그램 또는 서비스가 시작될 때만 적용됩니다. 예를 들어 이미 실행 중인 업데이트 서비스에 대해 제외를 추가하는 경우 업데이트 서비스는 서비스가 중지되고 다시 시작될 때까지 이벤트를 계속 트리거합니다.
 
-ASR 규칙은 환경 변수 및 와일드카드를 지원합니다. 와일드카드 사용에 대한 자세한 내용은 파일 이름 및 폴더 경로 또는 확장명 제외 목록에 와일드카드 사용을 [참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists)
+ASR 규칙은 환경 변수 및 와일드카드를 지원합니다. 와일드카드 사용에 대한 자세한 내용은 파일 이름 및 폴더 경로 또는 확장명 제외 목록에 와일드카드 사용을 [참조하세요.](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists)
 
 ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더를 제외하는 방법에 대한 지침이 포함되어 있습니다.
 
@@ -180,7 +179,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 ## <a name="mdm"></a>MDM
 
-[./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductionrules) CSP(구성 서비스 공급자)를 사용하여 각 규칙에 대해 모드를 개별적으로 사용하도록 설정하고 설정할 수 있습니다.
+[./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules](/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductionrules) CSP(구성 서비스 공급자)를 사용하여 각 규칙에 대해 모드를 개별적으로 사용하도록 설정하고 설정할 수 있습니다.
 
 다음은 ASR 규칙에 GUID 값을 사용하는 참조용 [샘플입니다.](attack-surface-reduction.md#attack-surface-reduction-rules)
 
@@ -195,7 +194,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 - 2: 감사(ASR 규칙이 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가)
 - 6: 경고(ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 허용). 이제 경고 모드를 대부분의 ASR 규칙에 사용할 수 있습니다.
 
-[./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions) CSP(구성 서비스 공급자)를 사용하여 제외를 추가합니다.
+[./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions](/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions) CSP(구성 서비스 공급자)를 사용하여 제외를 추가합니다.
 
 예제:
 
@@ -275,7 +274,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
     악용된 취약한 드라이버의 남용을 ASR로 차단하려면 다음 cmdlet을 사용 합니다.
 
    ```PowerShell
-   "& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
+   Add-MpPreference -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled
    ```
 
     ASR 규칙을 끄기 위해 다음 cmdlet을 사용 합니다.

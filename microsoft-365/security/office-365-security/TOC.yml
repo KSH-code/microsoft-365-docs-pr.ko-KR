@@ -254,6 +254,8 @@
           href: detect-and-remediate-outlook-rules-forms-attack.md
         - name: 가양성/가음성 처리
           href: air-report-false-positives-negatives.md
+        - name: 보고된 메시지에 대한 관리자 검토
+          href: admin-review-reported-message.md
         - name: 랜섬웨어 공격으로부터 복구
           href: recover-from-ransomware.md
         - name: 악성 전자 메일 교정

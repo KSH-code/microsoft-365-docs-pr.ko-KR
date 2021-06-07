@@ -19,12 +19,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: e7cecd645d857a5c2d5e7a98c78bd3f39b68449d
-ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
+ms.openlocfilehash: 487fc87c613d7321e3ae608097d98d2c90f8874e
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639410"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771912"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft 365 끝점용 Microsoft Defender
 
@@ -177,6 +177,10 @@ Endpoint [SIEM API용 Defender를](../defender-endpoint/enable-siem-integration.
 ### <a name="email-alerts"></a>전자 메일 알림
 
 Endpoint용 Defender에 대한 전자 메일 알림을 계속 사용할 수 있습니다. 전자 메일에 보안 센터의 경고 페이지 또는 인시던트 페이지를 Microsoft 365 추가했습니다. 자세한 내용은 [끝점용 Microsoft Defender에서](./microsoft-365-security-mde-redirection.md)보안 센터로 계정 Microsoft 365 참조하세요.
+
+### <a name="managed-security-service-providers-mssp"></a>MSSP(관리되는 보안 서비스 공급자)
+
+동일한 검색 세션에서 동시에 여러 테넌트에 로그인하는 것은 현재 통합 포털에서 지원되지 않습니다. 문제가 해결될 때까지 이 기능을 유지 관리하기 위해 [이전의 Microsoft Defender for Endpoint](microsoft-365-security-mde-redirection.md#can-i-go-back-to-using-the-former-portal)포털로 되전하여 자동 리디렉션을 옵트아웃(opt-out)할 수 있습니다.
 
 ## <a name="related-information"></a>관련 정보
 

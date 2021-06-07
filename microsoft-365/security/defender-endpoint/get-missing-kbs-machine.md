@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: aa22b90b95788d9f5a65d54c7a335a2e0f4c3091
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 97cad51938c4ff3498234dbf2e9d69fd48a52367
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933580"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771876"
 ---
 # <a name="get-missing-kbs-by-device-id"></a>장치 ID로 누락된 KB 사용
 
@@ -45,7 +47,7 @@ GET /api/machines/{machineId}/getmissingkbs
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

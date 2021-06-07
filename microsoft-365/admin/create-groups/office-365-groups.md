@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 그룹 Microsoft 365 사용하면 사용자 그룹에 공유 리소스 모음에 대한 액세스 권한을 Microsoft 365 팀워크를 주도할 수 있습니다.
-ms.openlocfilehash: f940872a3e4ba2aeeb62247c2898d5a4c0dec85f
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 69f7e47bcfb9e0704f8c373cf1addf98ef898cfa
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635753"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782396"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -45,7 +45,7 @@ Microsoft 365 그룹은 모든 팀워크를 모든 팀워크로 구동하는 기
 
 그룹 Microsoft 365 이러한 각 리소스에 대한 사용 권한을 수동으로 할당할 필요는 없습니다. 그룹에 사용자 추가는 자동으로 필요한 사용 권한을 부여합니다.
 
-특정 사용자 집합으로 그룹 만들기를 제한하지 않는 한 모든 사용자는 그룹을 [만들 수 있습니다.](../../solutions/manage-creation-of-groups.md) 그룹 만들기를 제한하면 그룹을 만들 수 없는 사용자는 사이트, 플래너 또는 팀을 SharePoint 수 없습니다. 이러한 서비스를 사용하려면 그룹을 만드는 사람이 그룹을 만들 수 있게 됩니다. 사용자는 Planner에서 작업을 만들거나 그룹 구성원인 경우 Teams 채팅을 사용하는 등의 그룹 활동에 계속 참여할 수 있습니다.
+특정 사용자 집합으로 그룹 만들기를 제한하지 않는 한 모든 사용자는 그룹을 [만들 수 있습니다.](../../solutions/manage-creation-of-groups.md) 그룹 만들기를 제한하면 그룹을 만들 수 없는 사용자는 SharePoint 사이트, 플래너, 팀, Outlook 그룹 일정, 스트림 그룹, Yammer 그룹, OneDrive의 공유 라이브러리 또는 공유 Power BI 작업 영역으로 만들 수 없습니다. 이러한 서비스를 사용하려면 그룹을 만드는 사람이 그룹을 만들 수 있게 됩니다. 사용자는 Planner에서 작업을 만들거나 그룹 구성원인 경우 Teams 채팅을 사용하는 등의 그룹 활동에 계속 참여할 수 있습니다.
 
 그룹에는 다음과 같은 역할이 있습니다.
 

@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 28035a9f0a669c1daa7526d0b1fefac52a77c81a
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b37ce09a0781aa83970502224ddbb3658ed07d69
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52729971"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771888"
 ---
 # <a name="work-with-reports"></a>보고서 작업
 
-Microsoft Managed Desktop 조직의 IT 관리자가 디바이스의 다양한 측면을 이해하는 데 사용할 수 있는 여러 보고서 및 대시보드를 제공합니다.보고서는 Microsoft Endpoint Manager 관리 센터의 [](https://endpoint.microsoft.com) Microsoft 365 [있습니다.](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop) 
+Microsoft Managed Desktop 조직의 IT 관리자가 디바이스의 다양한 측면을 이해하는 데 사용할 수 있는 여러 보고서 및 대시보드를 제공합니다. 
 
 ## <a name="reports-in-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager
 
@@ -37,6 +37,13 @@ Microsoft Endpoint Manager 콘솔은 여러 제품의 보고를 단일 위치로
 > [!NOTE]
 > 사용자 Microsoft Managed Desktop 역할은 보고서에 대한 액세스만 Microsoft Managed Desktop 보장합니다. 모든 장치와 같은 Microsoft Endpoint Manager 다른 부분에 액세스하는 경우 를 사용하여 역할 기반 액세스 [제어를 Microsoft Intune.](/mem/intune/fundamentals/role-based-access-control) 
 
+## <a name="endpoint-analytics"></a>끝점 분석
+Microsoft Managed Desktop 끝점 [분석과 통합됩니다.](/mem/analytics/overview) 이러한 보고서는 조직이 작업하는 방식과 사용자에게 전달된 환경의 품질을 측정하는 데 필요한 정보를 제공합니다. 끝점 분석은 의 **보고서** [메뉴에 Microsoft Endpoint Manager.](https://endpoint.microsoft.com/) 모든 보고서로 이동하여 관리되는 장치만 포함하려면 Microsoft Managed Desktop 필터 드롭다운을  선택한 다음 장치 Microsoft Managed Desktop **선택합니다.**
+
+등록 중에 Azure AD 조직("테넌트")에 대해 끝점 분석이 자동으로 구성되지 않은 경우 직접 구성할 수 있습니다. 자세한 내용은 Endpoint 분석 [포털의 온보드를 참조하세요.](/mem/analytics/enroll-intune#bkmk_onboard) 모든 장치를 등록할 수도 있으며, 장치만 포함하려는 Microsoft Managed Desktop 테스트,  첫 번째, 빠르기 및 광범위에 대한 최신 작업 공간 장치 그룹을 선택합니다. 이러한 보고서에는 다른 사용 권한이 필요할 수 있습니다. 자세한 내용은 [사용 권한을](/mem/analytics/overview#permissions) 참조하여 역할을 적절하게 할당할 수 있습니다.
+
+> [!NOTE]
+> 개인 정보 보호 사용자 개인 정보를 보다 잘 활용하려면 이 필터를 사용하려면 Microsoft Managed Desktop 등록된 디바이스가 10개 Microsoft Managed Desktop 있어야 합니다.
 
  ## <a name="inventory-data"></a>인벤토리 데이터
 

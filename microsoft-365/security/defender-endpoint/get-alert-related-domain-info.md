@@ -1,5 +1,5 @@
 ---
-title: 경고 관련 도메인 정보 확인
+title: 경고 관련 도메인 정보 가져오기
 description: 끝점용 Microsoft Defender를 사용하여 특정 경고와 관련된 모든 도메인을 검색합니다.
 keywords: api, 그래프 api, 지원되는 api, 경고 정보, 경고 정보, 관련 도메인
 search.product: eADQiWindows 10XVcnh
@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 0cb09b23df8243d970069d087976ddc79394b67d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: a5f3db65b42d8dc98c11f2ef2c3c5d509340e386
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200416"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771264"
 ---
 # <a name="get-alert-related-domain-information-api"></a>경고 관련 도메인 정보 얻기 API
 
@@ -65,7 +66,7 @@ GET /api/alerts/{id}/domains
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -74,7 +75,7 @@ GET /api/alerts/{id}/domains
 ## <a name="response"></a>응답
 성공적이고 경고와 도메인이 있는 경우 - 200 OK. 알림을 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

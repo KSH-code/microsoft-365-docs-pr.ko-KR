@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: 이 페이지를 사용하여 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리할 수 있습니다.
-ms.openlocfilehash: 7fd19e3281b3dc075b5f72ca0471f5c66f93752d
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 23757c492986936125eff1203e6a99231164da22
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683322"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768948"
 ---
 # <a name="add-staff-to-bookings"></a>Bookings에 직원 추가
 
@@ -23,7 +23,7 @@ Bookings의 직원 페이지에서는 직원 목록을 만들고 이름, 전화 
 
 Bookings는 모든 Microsoft 365 Microsoft 365 계정이 필요한 것은 아닙니다. 모든 직원 구성원은 예약을 받고 변경 내용을 예약할 수 있도록 유효한 전자 메일 주소가 있어야 합니다.
 
-## <a name="watch-add-your-staff-in-microsoft-bookings"></a>감시: Microsoft Bookings에서 직원 추가
+## <a name="watch-add-your-staff-to-bookings"></a>감시: Bookings에 직원 추가
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWuVka]
 
@@ -67,14 +67,39 @@ Bookings는 모든 Microsoft 365 Microsoft 365 계정이 필요한 것은 아닙
     > [!NOTE]
     > 서비스에 직원 구성원을 할당할 때 직원 페이지에 추가한 처음 31명 직원 구성원만 표시됩니다.
 
-## <a name="next-steps"></a>다음 단계
+## <a name="make-a-bookings-user-a-super-user-without-adding-them-as-staff-in-bookings"></a>Bookings 사용자를 Bookings에서 직원으로 추가하지 않고 Super User로 만들기
 
-직원 구성원을 추가한 [](schedule-closures-time-off-vacation.md) 후 업무 폐쇄 및 해제를 예약하고 예약 정책을 [설정할 수 있습니다.](set-scheduling-policies.md)
+고객 또는 클라이언트가 사용할 수 있도록 하지 않고 Bookings의 직원 목록에 사람을 추가할 수 있습니다. 슈퍼 사용자로 만들면 해당 사용자는 예약 사서함의 관리자가 됩니다. 예약 사서함의 관리자는 예약 사서함에 대한 모든 액세스 및 다른 사람 권한으로 보내기 권한이 있는 것으로 정의됩니다.
 
-## <a name="related-content"></a>관련 콘텐츠
+> [!NOTE]
+> 이러한 단계는 추가되는 사용자에게 Bookings에서 뷰어  역할이 아직 할당되지 않은 경우만 적용됩니다.
 
-[Microsoft Bookings](bookings-overview.md)
+1. [커넥트 Microsoft 365 를 사용할 수 있습니다.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-[업무 폐쇄, 휴가 및 휴가 예약](schedule-closures-time-off-vacation.md)
+2. PowerShell을 사용하여 다음 명령을 사용하여 모든 권한을 할당합니다.
 
-[예약 정책 설정](set-scheduling-policies.md)
+    ```powershell
+    Add-MailboxPermission -Identity <bookingmailbox@emailaddress> -User <adminusers@emailaddress> -AccessRights FullAccess -Deny:$false
+    ```
+
+3. 그런 다음 이 명령을 실행하여 다른 사람으로 보내기 권한을 할당합니다.
+
+    ```powershell
+    Add-RecipientPermission -Identity <bookingmailbox@emailaddress> -Trustee <adminusers@emailaddress> -AccessRights SendAs -Confirm:$false
+    ```
+
+다음은 Contoso daycare 예약 사서함에 Allie Bellew를 추가하는 PowerShell 명령의 예입니다.
+
+1. 먼저 이 명령을 실행합니다.
+
+    ```powershell
+    Add-MailboxPermission -Identity "daycare@contoso.com" -User "Allie Bellew" -AccessRights FullAccess -InheritanceType All
+    ```
+
+2. 그런 다음 다음 명령을 실행합니다.
+
+    ```powershell
+    Add-RecipientPermission -Identity <bookingmailbox@emailaddress> -Trustee <adminusers@emailaddress> -AccessRights SendAs -Confirm:$false
+    ```
+
+**이제 Allie Bellew는** 관리자 액세스 권한이 있지만 Bookings에서 예약 가능한 직원으로 나타나지 않습니다.

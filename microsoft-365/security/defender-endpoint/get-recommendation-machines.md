@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 515542f6eca208e92228a8d0b344b6013b11a148
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 6c762a15051444ec950e92998317db4f7e51783c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198272"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771816"
 ---
 # <a name="list-devices-by-recommendation"></a>권장으로 장치 나열
 
@@ -54,7 +56,7 @@ GET /api/recommendations/{id}/machineReferences
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -64,7 +66,7 @@ GET /api/recommendations/{id}/machineReferences
 성공하면 이 메서드는 보안 권장과 연결된 장치 목록과 함께 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

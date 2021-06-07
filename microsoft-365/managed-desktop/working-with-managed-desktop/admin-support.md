@@ -9,32 +9,32 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5e614581ee76d1f8cb026345f1c31ed22faafb8a
-ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
+ms.openlocfilehash: d35ab0f4e99d466d283d49e0f51f8e868691b9a9
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50572631"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771744"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 관리자 지원
 
-Microsoft Managed Desktop Administrative Portal을 사용하여 지원 티켓 또는 피드백 요청을 Microsoft에 제출할 수 있습니다. 지원 요청은 항상 피드백 제출보다 우선합니다. 지원 요청은 심각도 정의 테이블에 설명된 심각도에 따라 조사 및 [관리됩니다.](#sev) 피드백을 검토하고 요청된 경우 응답이 제공됩니다. 
+관리 포털을 사용하여 지원 티켓 또는 피드백 요청을 Microsoft에 Microsoft Managed Desktop 있습니다. 지원 요청은 항상 피드백 제출보다 우선합니다. 지원 요청은 심각도 정의 테이블에 설명된 심각도에 따라 조사 및 [관리됩니다.](#sev) 피드백을 검토하고 요청된 경우 응답이 제공됩니다. 
 
 >[!IMPORTANT]
 >앱 [패키징,](../get-started/add-admin-contacts.md) 장치, 보안 및 기타에 대한 관리자 연락처를 설정해야 합니다. 관리자 연락처가 구성되지 않은 경우 이러한 영역에서 지원 요청을 제출할 수 없습니다.
 
 **지원 요청을 제출합니다.**
-1. [Microsoft Endpoint Manager에 로그인하고](https://endpoint.microsoft.com/) 문제 해결 + 지원 **메뉴로** 이동합니다.
-2. Microsoft Managed Desktop 섹션을 찾아 서비스 요청을 **선택합니다.**
+1. 로그인하여 [](https://endpoint.microsoft.com/) Microsoft Endpoint Manager 테넌트 관리 **메뉴로** 이동합니다.
+2. 서비스 Microsoft Managed Desktop 를 찾아 **서비스 요청을 선택합니다.**
 3. 지원 **요청에서**+ 새 지원 **티켓을 선택합니다.**
 4. 필요한 **도움말과** 일치하는 지원 요청 유형을 선택합니다. 아래 표에서는 옵션에 대해 간략하게 설명합니다. 
 5. 심각도 **수준을 선택합니다.** 자세한 내용은 지원 요청 [심각도 정의를 참조하세요.](#sev) 
 
 지원 요청 유형 | 사용해야 하는 경우
 --- | ---
-인시던트 | 변경 또는 서비스 작동이 광범위하게 미치는 영향과 같이 Microsoft Managed Desktop Operations Team이 조사해야 합니다.
-정보 요청 | 네트워킹, 프록시 구성, VPN 시스템, 인증서 만료에 대한 변경을 계획하거나 서비스에 대한 몇 가지 정보만 필요합니다. 조직 내에서 변경을 전달할 때 Microsoft Managed Desktop Operations Team의 응답을 요청하는 것이 좋습니다.
-변경 요청 | 업데이트 그룹 간에 장치를 이동하는 등의 변경 작업을 수행하려면 Microsoft Managed Desktop Operations Team이 필요합니다.
+인시던트 | 변경 또는 Microsoft Managed Desktop 서비스에 대한 광범위한 영향과 같이 조사해야 합니다.
+정보 요청 | 네트워킹, 프록시 구성, VPN 시스템, 인증서 만료에 대한 변경을 계획하거나 서비스에 대한 몇 가지 정보만 필요합니다. 조직 내에서 Microsoft Managed Desktop 통신할 때 조직 운영 팀의 응답을 요청하는 것이 좋습니다.
+변경 요청 | 장치 Microsoft Managed Desktop 그룹 간에 장치를 이동하는 등의 변경 작업을 수행하려면 작업 팀이 필요합니다.
 
 <span id="sev" />
 
@@ -52,7 +52,7 @@ Microsoft Managed Desktop Administrative Portal을 사용하여 지원 티켓 �
 - **지원 언어** - 모든 지원이 영어로 제공됩니다.
 - **심각도 수준 변경** - 고객이 Microsoft가 문제 해결 노력을 계속할 수 있도록 충분한 리소스 또는 응답을 제공할 수 없는 경우 Microsoft는 심각도 수준을 다운그레이드할 수 있습니다. 
 - **업무 시간** - 대부분의 국가에서 업무 시간은 태평양 표준시 오전 9시에서 오후 5시까지입니다.
-- **응용 프로그램 호환성** - 응용 프로그램 호환성 문제를 고려하려면 이전 버전의 Windows 또는 Office와 동일한 버전의 응용 프로그램 간에 재현할 수 있는 오류가 있어야 합니다. 응용 프로그램 호환성 문제를 해결하려면 Microsoft는 고객 담당자와 함께 작업해야 합니다. 개인은 Fast Track 팀과 직접 작업하여 문제를 조사하고 해결해야 합니다.
+- **응용 프로그램** 호환성 - 응용 프로그램 호환성 문제를 고려하려면 이전 버전과 현재 버전의 응용 프로그램 또는 응용 프로그램 간에 동일한 버전의 재현할 수 Windows Office. 응용 프로그램 호환성 문제를 해결하려면 Microsoft는 고객 담당자와 함께 작업해야 합니다. 개인은 Fast Track 팀과 직접 작업하여 문제를 조사하고 해결해야 합니다.
 - **고객 응답 시간** 고객이 예상된 응답 요구 사항을 충족할 수 없는 경우 Microsoft는 요청의 심각도 수준 하나를 최소 심각도 C로 다운그레이드합니다. 고객이 작업 요청에 응답하지 않는 경우 Microsoft는 마지막 요청 후 48시간 이내에 지원 요청을 완화하고 닫습니다.
 
 ## <a name="provide-feedback"></a>피드백 제공
@@ -66,6 +66,6 @@ Microsoft Managed Desktop Administrative Portal을 사용하여 지원 티켓 �
 
 
 ## <a name="more-resources"></a>추가 리소스
-- [Microsoft Managed Desktop에 대한 사용자 지원.](end-user-support.md) 
-- [Microsoft Managed Desktop에 대한 지원.](../service-description/support.md) 
-- Microsoft Managed Desktop을 이미 구독한 경우 Microsoft [Endpoint Manager의](https://endpoint.microsoft.com/)테넌트 관리 메뉴의 Microsoft Managed Desktop  섹션에 있는 온라인 리소스 페이지의  **Microsoft Managed Desktop** Admin Guide에서 자세한 절차, 프로세스 흐름, 작업 지침 및 FAQ를 찾을 수 있습니다.
+- [에 대한 사용자 Microsoft Managed Desktop.](end-user-support.md) 
+- [에 대한 Microsoft Managed Desktop.](../service-description/support.md) 
+- 이미 Microsoft Managed Desktop 구독한 경우 온라인 리소스 페이지의 Microsoft Managed Desktop 관리 가이드에서 테넌트 관리 메뉴의 Microsoft Managed Desktop 섹션에 있는  자세한 절차, 프로세스 **흐름,**  작업 지침 및 FAQ를 [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)

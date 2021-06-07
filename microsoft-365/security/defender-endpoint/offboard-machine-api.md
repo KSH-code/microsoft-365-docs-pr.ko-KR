@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 03a1ef11224021703a6f33f82fa2c4f135a317a7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: e2b1114cd091c9cd42aa8e4525416f9d73358a65
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934180"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771996"
 ---
 # <a name="offboard-machine-api"></a>컴퓨터 오프보드 API
 
@@ -74,7 +75,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/offboard
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문

@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 06028f64a3340aeeef52269bc8a1e739d18e6db7
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.custom: api
+ms.openlocfilehash: 6716b0eb029b49ec08cb52ebefc23e50b19036ca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903121"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771672"
 ---
 # <a name="pull-microsoft-defender-for-endpoint-detections-using-siem-rest-api"></a>SIEM REST API를 사용하여 끝점 검색을 위한 Microsoft Defender 끌어오기
 
@@ -52,7 +53,7 @@ ms.locfileid: "51903121"
 
 OAuth 사양에 대한 자세한 내용은 [OAuth](http://www.oauth.net)웹 사이트를 참조하십시오.
 
-끝점용 Microsoft Defender는  권한 부여  흐름 및 클라이언트 자격 증명 흐름을 지원하여 AAD(Azure Active Directory)를 권한 부여 서버로 사용하여 검색을 끌어오기 위한 액세스 권한을 얻습니다.
+끝점용 Microsoft Defender는  권한 부여  흐름 및 클라이언트 자격 증명 흐름을 지원하여 권한 부여 서버로 AAD(Azure Active Directory)를 사용하여 검색을 끌어오기 위한 액세스 권한을 얻습니다.
 
 권한 _부여 흐름은_ 사용자 자격 증명을 사용하여 권한 부여 코드를 얻은 다음 액세스 토큰을 얻는 데 사용됩니다.
 
@@ -61,10 +62,10 @@ OAuth 사양에 대한 자세한 내용은 [OAuth](http://www.oauth.net)웹 사�
 Microsoft Defender for Endpoint API에서 다음 메서드를 사용하여 JSON 형식으로 검색을 끌어오는 방법을 사용합니다.
 
 >[!NOTE]
->Microsoft Defender 보안 센터는 유사한 경고 검색을 단일 경고에 병합합니다. 이 API는 설정한 쿼리 매개 변수에 따라 원시 양식의 경고 검색을 끌어와서 자체 그룹화 및 필터링을 적용할 수 있도록 합니다. 
+>Microsoft Defender 보안 센터 경고 검색을 단일 경고로 병합할 수 있습니다. 이 API는 설정한 쿼리 매개 변수에 따라 원시 양식의 경고 검색을 끌어와서 자체 그룹화 및 필터링을 적용할 수 있도록 합니다. 
 
 ## <a name="before-you-begin"></a>시작하기 전에
-- 검색을 끌어오기 위해 끝점용 Microsoft Defender 끝점을 호출하기 전에 AAD(Azure Active Directory)에서 SIEM 통합 응용 프로그램을 사용하도록 설정해야 합니다. 자세한 내용은 [Enable SIEM integration in Microsoft Defender for Endpoint을 참조하세요.](enable-siem-integration.md)
+- 검색을 끌어오기 위해 끝점용 Microsoft Defender 끝점을 호출하기 전에 AAD(Microsoft Defender)에서 SIEM 통합 응용 프로그램을 Azure Active Directory 합니다. 자세한 내용은 [Enable SIEM integration in Microsoft Defender for Endpoint을 참조하세요.](enable-siem-integration.md)
 
 - Azure 응용 프로그램 등록에서 다음 값을 참고하십시오. 서비스 또는 데몬 앱에서 OAuth 흐름을 구성하려면 다음 값이 필요합니다.
   - 응용 프로그램 ID(응용 프로그램에 고유)
@@ -127,7 +128,7 @@ ago | 문자열 | 경고를 끌어오는 시간 범위는 다음과 `(current_ti
 limit | int | 검색할 알림 수를 정의합니다. 가장 최근 알림은 정의된 수에 따라 검색됩니다.<br><br> **참고:** 지정하지 않으면 시간 범위에서 사용할 수 있는 모든 경고가 검색됩니다.
 machinegroups | 문자열 | 경고를 끌어오기 위해 장치 그룹을 지정합니다. <br><br> **참고:** 지정하지 않으면 모든 장치 그룹의 경고가 검색됩니다. <br><br> 예제: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
 DeviceCreatedMachineTags | 문자열 | 레지스트리의 단일 장치 태그입니다.
-CloudCreatedMachineTags | 문자열 | Microsoft Defender 보안 센터에서 만든 장치 태그입니다.
+CloudCreatedMachineTags | 문자열 | 디바이스에서 만든 장치 태그 Microsoft Defender 보안 센터.
 
 ### <a name="request-example"></a>요청 예제
 다음 예제에서는 조직의 모든 검색을 검색하는 방법을 보여 제공합니다.

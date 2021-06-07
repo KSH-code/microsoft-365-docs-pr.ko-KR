@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 670282f0f87092437bb1f3c6bf7be908e4649042
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ac14f1ecda2b6256dc19223869b8878e6e725b96
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199732"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771412"
 ---
 # <a name="stop-and-quarantine-file-api"></a>파일 API 중지 및 검사
 
@@ -67,7 +68,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/StopAndQuarantin
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
@@ -76,13 +77,13 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 매개 변수 | 유형    | 설명
 :---|:---|:---
 Comment |   String |    작업과 연결되는 설명입니다. **필수입니다**.
-Sha1 |  문자열   | 디바이스에서 중지하고 검지할 파일의 Sha1입니다. **필수입니다**.
+Sha1 |  String   | 디바이스에서 중지하고 검지할 파일의 Sha1입니다. **필수입니다**.
 
 ## <a name="response"></a>응답
 성공하면 이 메서드는 응답 본문에 201 - 생성된 응답 코드 및 [컴퓨터](machineaction.md) 작업을 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

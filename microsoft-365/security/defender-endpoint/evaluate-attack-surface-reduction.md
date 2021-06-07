@@ -9,17 +9,17 @@ ms.sitesec: library
 ms.topic: article
 localization_priority: Normal
 audience: ITPro
-author: dansimp
-ms.author: dansimp
-ms.reviewer: dansimp
+author: denisebmsft
+ms.author: deniseb
+ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 73b23427ff401f2a37c399131d6aa01330ff9de5
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c2dea22cc8a0ebb875f83ebd5a3e42f723e5f254
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245303"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771324"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 평가
 
@@ -37,10 +37,10 @@ ms.locfileid: "52245303"
 
 다음 버전 및 버전의 디바이스를 실행하는 장치에 대해 공격 표면 감소 규칙을 Windows.
 
-- Windows 10 Pro 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows 10 Enterprise 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows 서버, [버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 감사 모드를 사용하도록 설정하여 조직에서 기능을 직접 테스트하여 공격 표면 감소 규칙을 평가하는 방법을 알아보십시오.
 

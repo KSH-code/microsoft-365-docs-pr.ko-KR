@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 1c287a72318cfb2e6e4e3860ac90a90e561040fe
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 89012dce4aa5b74d09f071b23f7709b4bd0bf03c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500951"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771433"
 ---
 # <a name="score-resource-type"></a>점수 리소스 유형
 
@@ -48,10 +49,10 @@ ms.locfileid: "51500951"
 [장치 보안 점수 가져오기](get-device-secure-score.md) | [점수](score.md) | 조직 장치 보안 점수를 얻습니다.
 [장치 그룹당 노출 점수 나열](get-machine-group-exposure-score.md)| [점수](score.md) | 장치 그룹당 점수를 나열합니다.
 
-## <a name="properties"></a>속성
+## <a name="properties"></a>특성
 
 속성 |  유형    |   설명
 :---|:---|:---
 점수 | 실수 | 현재 점수입니다.
 시간 | DateTime | 이 API를 호출한 날짜 및 시간입니다.
-RbacGroupName | 문자열 | 장치 그룹 이름입니다.
+RbacGroupName | String | 장치 그룹 이름입니다.

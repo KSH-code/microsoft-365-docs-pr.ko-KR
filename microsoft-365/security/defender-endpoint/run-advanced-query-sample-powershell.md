@@ -15,15 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 20c63daaf61b85f35aaceccb540b6d50824c801d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 9192662b8d4ed23a5903dddb555f07bf182ab17f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198674"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771504"
 ---
-# <a name="advanced-hunting-using-powershell"></a>PowerShell을 사용한 고급 헌팅
+# <a name="advanced-hunting-using-powershell"></a>PowerShell을 사용하는 지능형 헌팅
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -129,4 +130,4 @@ $results | ConvertTo-Json | Set-Content file1.json
 ## <a name="related-topic"></a>관련 항목
 - [끝점 API용 Microsoft Defender](apis-intro.md)
 - [고급 헌팅 API](run-advanced-query-api.md)
-- [Python을 사용한 고급 헌팅](run-advanced-query-sample-python.md)
+- [Python을 사용하는 지능형 헌팅](run-advanced-query-sample-python.md)

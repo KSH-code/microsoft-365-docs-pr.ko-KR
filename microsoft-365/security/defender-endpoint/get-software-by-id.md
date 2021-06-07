@@ -1,5 +1,5 @@
 ---
-title: ID별 소프트웨어 가져오기
+title: ID로 소프트웨어 다운로드
 description: 장치 그룹당 노출 점수 목록을 검색합니다.
 keywords: api, 그래프 api, 지원되는 api, get, software, Endpoint tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
@@ -14,14 +14,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 31203e83570dbeb2404c9f1578301b5d6c18223c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 7e9e6b5e64099e7ab49fec624d83f13f18e6029c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934312"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769164"
 ---
-# <a name="get-software-by-id"></a>ID별 소프트웨어 가져오기
+# <a name="get-software-by-id"></a>ID로 소프트웨어 다운로드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -54,7 +56,7 @@ GET /api/Software/{Id}
 
 | 이름        | 유형 | 설명
 |:--------------|:-------|:--------------|
-| 권한 부여 | 문자열 | Bearer {token}. **필수 .**
+| 권한 부여 | String | Bearer {token}. **필수 .**
 
 ## <a name="request-body"></a>요청 본문
 비어 있음

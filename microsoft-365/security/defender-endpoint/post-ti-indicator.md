@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 42bab0a9d20d5e1ef78b98b3538cef209240d890
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ce0dc0ce255e9717082687bd1f8bf5941739261d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187361"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771708"
 ---
 # <a name="submit-or-update-indicator-api"></a>제출 또는 업데이트 표시기 API
 
@@ -65,7 +66,7 @@ POST https://api.securitycenter.microsoft.com/api/indicators
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
@@ -73,23 +74,23 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 
 매개 변수 | 유형    | 설명
 :---|:---|:---
-indicatorValue | 문자열 | Indicator [엔터티의 ID입니다.](ti-indicator.md) **필수**
+indicatorValue | String | Indicator [엔터티의 ID입니다.](ti-indicator.md) **필수**
 indicatorType | Enum | 표시기 유형입니다. 가능한 값은 "FileSha1", "FileSha256", "IpAddress", "DomainName" 및 "Url"입니다. **필수**
 조치 | Enum | 표시기가 조직에서 검색되는 경우 수행되는 작업입니다. 가능한 값은 "Alert", "AlertAndBlock" 및 "Allowed"입니다. **필수**
-application | 문자열 | 표시기와 연결된 응용 프로그램입니다. **선택**
-title | 문자열 | 표시기 경고 제목입니다. **필수**
-설명 | 문자열 | 표시기 설명입니다. **필수**
-expirationTime | DateTimeOffset | 표시기 만료 시간입니다. **선택**
-심각도 | Enum | 표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다. **선택**
-recommendedActions | 문자열 | TI 표시기 경고 권장 작업. **선택**
-rbacGroupNames | 문자열 | 콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **선택**
+application | String | 표시기와 연결된 응용 프로그램입니다. **선택 사항**
+title | String | 표시기 경고 제목입니다. **필수**
+설명 | String | 표시기 설명입니다. **필수**
+expirationTime | DateTimeOffset | 표시기 만료 시간입니다. **선택 사항**
+심각도 | Enum | 표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다. **선택 사항**
+recommendedActions | String | TI 표시기 경고 권장 작업. **선택 사항**
+rbacGroupNames | String | 콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **선택 사항**
 
 
 ## <a name="response"></a>응답
 - 성공하면 이 메서드는 응답 본문에 200 - 확인 응답 코드와 생성/업데이트된 [Indicator](ti-indicator.md) 엔터티를 반환합니다.
 - 성공하지 못하면 이 메서드는 400 - 잘못된 요청을 반환합니다. 잘못된 요청은 일반적으로 잘못된 본문을 나타냅니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 
@@ -115,4 +116,4 @@ POST https://api.securitycenter.microsoft.com/api/indicators
 ```
 
 ## <a name="related-topic"></a>관련 항목
-- [표시기 관리](manage-indicators.md)
+- [지표 관리](manage-indicators.md)

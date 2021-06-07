@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 229c1f9e77a0cb85744155e82934b48dd63052b2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 3aa58f3df4a4c3562cbd4dfbf6113c30816e2a0f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933412"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769224"
 ---
 # <a name="list-vulnerabilities-by-machine-and-software"></a>컴퓨터 및 소프트웨어별 취약성 목록
 
@@ -43,7 +44,7 @@ ms.locfileid: "51933412"
 - OData는 ```$filter``` 모든 속성에서 지원됩니다.
 
 >[!Tip]
->이는 Power BI 통합을 위한 [좋은 API입니다.](api-power-bi.md)
+>이는 통합된 에 [Power BI 좋은 API입니다.](api-power-bi.md)
 
 ## <a name="permissions"></a>사용 권한
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
@@ -62,7 +63,7 @@ GET /api/vulnerabilities/machinesVulnerabilities
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문

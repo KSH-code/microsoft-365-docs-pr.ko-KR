@@ -1,7 +1,7 @@
 ---
 title: ID로 권장 사용
 description: ID로 보안 권장을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, get, 보안 권장, ID의 보안 권장, 위협 및 취약성 관리, 위협 및 취약성 관리 api
+keywords: api, 그래프 api, 지원되는 api, get, 보안 권장, ID로 보안 권장, 위협 및 취약성 관리, 위협 및 취약성 관리 api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,14 +14,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 45a151fc5855a4a2b1ba63a50b54737c90e6bdd1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 4ec4758453f43cb211143918ed5fe8fe83e91c3f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199516"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771804"
 ---
-# <a name="get-recommendation-by-id"></a>ID로 권장 사용
+# <a name="get-recommendation-by-id"></a>ID별 권장 사항 가져오기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -55,7 +57,7 @@ GET /api/recommendations/{id}
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -65,7 +67,7 @@ GET /api/recommendations/{id}
 성공하면 이 메서드는 본문의 보안 권장 사항을 사용하여 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

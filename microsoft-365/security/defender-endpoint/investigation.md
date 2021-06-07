@@ -16,20 +16,21 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 3872976717a5b472ab8d471db7eff9975dbc2258
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 252b273995d48d523604802c0c4365a613d86dbe
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587686"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771732"
 ---
 # <a name="investigation-resource-type"></a>조사 리소스 유형
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -49,18 +50,18 @@ ms.locfileid: "51587686"
 [조사 시작](initiate-autoir-investigation.md) | 조사 엔터티 | 장치에서 조사를 시작합니다.
 
 
-## <a name="properties"></a>속성
+## <a name="properties"></a>특성
 속성 |  유형    |   설명
 :---|:---|:---
-id | 문자열 | 조사 엔터티의 ID입니다. 
+id | String | 조사 엔터티의 ID입니다. 
 startTime | DateTime Nullable | 조사를 만든 날짜 및 시간입니다. 
 endTime | DateTime Nullable | 조사가 완료된 날짜 및 시간입니다. 
-cancelledBy | 문자열 | 해당 조사를 취소한 사용자/응용 프로그램의 ID입니다. 
+cancelledBy | String | 해당 조사를 취소한 사용자/응용 프로그램의 ID입니다. 
 investigationState | Enum | 조사의 현재 상태입니다. 가능한 값은 '알 수 없음', 'Terminated', 'SuccessfullyRemediated', 'Benign', 'Failed', 'PartiallyRemediated', 'Running', 'PendingApproval', 'PendingResource', 'PartiallyInvestigated', 'TerminatedByUser', 'TerminatedBySystem', 'Queued', 'InnerFailure', 'PreexistingAlert', 'UnsupportedOs', 'UnsupportedAlertType', 'SuppressedAlert'.
-statusDetails | 문자열 | 조사 상태 관련 추가 정보입니다.
-machineId | 문자열 | 조사가 실행되는 장치의 ID입니다.
-computerDnsName | 문자열 | 조사가 실행되는 장치의 이름입니다.
-triggeringAlertId | 문자열 | 조사를 트리거한 경고의 ID입니다.
+statusDetails | String | 조사 상태 관련 추가 정보입니다.
+machineId | String | 조사가 실행되는 장치의 ID입니다.
+computerDnsName | String | 조사가 실행되는 장치의 이름입니다.
+triggeringAlertId | String | 조사를 트리거한 경고의 ID입니다.
 
 
 ## <a name="json-representation"></a>Json 표현

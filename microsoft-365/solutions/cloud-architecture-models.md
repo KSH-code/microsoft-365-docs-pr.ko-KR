@@ -13,14 +13,14 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 4532afc40c2324b77725d9ddad158587083e6e9b
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 73e29109a429d8a3fffc69b79939c8dff7ecb087
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280960"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769272"
 ---
-# <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>엔터프라이즈 설계자용 Microsoft 클라우드 일러스트레이션
+# <a name="microsoft-cloud-for-it-architects-illustrations"></a>IT 설계자용 Microsoft 클라우드 그림
 
 이러한 클라우드 아키텍처 포스터는 Microsoft 365, Azure Active Directory(Azure AD), Microsoft Intune, Microsoft Dynamics 365 및 하이브리드 사내 및 클라우드 솔루션을 비롯한 Microsoft 클라우드 서비스에 대한 정보를 제공합니다. 
 
@@ -28,7 +28,7 @@ IT 의사 결정권자 및 설계자는 이러한 리소스를 사용하여 워�
 
 
 <a name="identity"></a>
-### <a name="microsoft-cloud-identity-for-enterprise-architects"></a> Microsoft Cloud Identity for Enterprise Architects
+### <a name="microsoft-cloud-identity-for-it-architects"></a>IT 설계자용 Microsoft 클라우드 ID
 
 Microsoft 클라우드 서비스 및 플랫폼을 사용하는 조직용으로 ID를 설계하는 과정과 관련하여 IT 설계자가 파악해야 하는 사항
   
@@ -37,7 +37,7 @@ Microsoft 클라우드 서비스 및 플랫폼을 사용하는 조직용으로 I
 |[![Microsoft Cloud ID 모델용 축소판 이미지](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [PDF로 보기](../downloads/MSFT_cloud_architecture_identity.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [앱으로 Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>2020년 9월에 업데이트되었습니다. | 이 모델에는 다음이 포함됩니다.  <ul> <li> Microsoft 클라우드를 사용하는 ID 소개 </li><li> Azure AD IDaaS 기능 </li><li> Azure AD와 AD DS(Active Directory 도메인 서비스) 계정 통합 </li><li> Azure IaaS에 디렉터리 구성 요소 추가 </li><li> Azure IaaS의 워크로드에 대한 AD DS 옵션 </li></ul><br/>  <br/>|
 
 <a name="security"></a>
-### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Microsoft Cloud Security for Enterprise Architects
+### <a name="microsoft-cloud-security-for-it-architects"></a>IT 설계자용 Microsoft 클라우드 보안
 
 Microsoft 클라우드 서비스 및 플랫폼의 보안과 관련하여 IT 설계자가 파악해야 하는 사항
   
@@ -46,7 +46,7 @@ Microsoft 클라우드 서비스 및 플랫폼의 보안과 관련하여 IT 설�
 |[![엔터프라이즈 설계자 모델 축소판 그림을 위한 Microsoft 클라우드 보안](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf) <br/> [PDF](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf)  \| <br/>2021년 4월에 업데이트되었습니다. | 이 모델에는 다음이 포함됩니다. <ul><li>Microsoft 및 고객 보안 책임</li><li>ID 및 장치 액세스</li><li>위협 방지</li><li>정보 보호 </ul><br/>|
    
 <a name="networking"></a>
-### <a name="microsoft-cloud-networking-for-enterprise-architects"></a>Microsoft Cloud Networking for Enterprise Architects
+### <a name="microsoft-cloud-networking-for-it-architects"></a>IT 설계자용 Microsoft 클라우드 네트워킹
 
 Microsoft 클라우드 서비스 및 플랫폼의 네트워킹과 관련하여 IT 설계자가 파악해야 하는 사항
   
@@ -55,7 +55,7 @@ Microsoft 클라우드 서비스 및 플랫폼의 네트워킹과 관련하여 I
 |[![Microsoft 클라우드 네트워킹 모델의 축소판 이미지](../media/solutions-architecture-center/msft-cloud-networking-model-thumb.png)](../downloads/MSFT_cloud_architecture_networking.pdf) <br/>  [PDF로 보기](../downloads/MSFT_cloud_architecture_networking.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf) \| [앱으로 Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.vsdx)   <br/>2020년 8월에 업데이트되었습니다. | 이 모델에는 다음이 포함됩니다. <ul><li> 클라우드 연결을 위해 네트워크 확장 </li><li> Microsoft 클라우드 연결의 공통 요소 </li><li> Microsoft 클라우드 연결을 위한 ExpressRoute </li><li> Microsoft SaaS, Azure PaaS 및 Azure IaaS에 대한 네트워킹 디자인 </li></ul><br/>  <br/>|
 
 <a name="hybrid"></a>
-### <a name="microsoft-hybrid-cloud-for-enterprise-architects"></a>Microsoft Hybrid Cloud for Enterprise Architects
+### <a name="microsoft-hybrid-cloud-for-it-architects"></a>IT 설계자용 Microsoft 하이브리드 클라우드
 
 Microsoft 서비스 및 플랫폼용 하이브리드 클라우드와 관련하여 IT 설계자가 파악해야 하는 사항
   
