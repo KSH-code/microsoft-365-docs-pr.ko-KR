@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 837643bf5793437380a6f33c0eeca55ccef2100b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: bf445332fed7b8661c510bf60f36088b79e2d8df
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199254"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770028"
 ---
 # <a name="get-machine-related-alerts--api"></a>컴퓨터 관련 경고 API를 얻습니다.
 
@@ -63,7 +65,7 @@ GET /api/machines/{id}/alerts
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문

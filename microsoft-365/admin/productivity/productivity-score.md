@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수가 사용자 및 기술 경험 측정값을 반영하는 방식을 알아보고 비슷한 크기의 조직과 비교해 보세요.
-ms.openlocfilehash: ded8b3ee6cbe6df308a4e7388107ea394debe020
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 0735fb6d47b475146deade6ab3ca2f8d24ec27a7
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593844"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779677"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -40,7 +40,7 @@ Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항�
 
 - **사용자의 경험:** 컨텐츠 협업, 이동성, 커뮤니케이션, 모임 및 팀워크와 같은 Microsoft 365 범주를 사용하여 조직의 작동 방식을 수량화합니다.  
 
-    언급된 각 범주에 대해, 우리는 공공 연구를 검토하여 조직 효과의 형태로 몇 가지 모범 사례와 관련 편익을 식별합니다. 예를 들어 [Forrester](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf) 조사에 따르면 사용자가 첨부 파일을 전자 메일로 보내는 대신 클라우드에서 협업하고 콘텐츠를 공유할 때 일주일에 최대 100분을 절약할 수 있습니다. 또한 Microsoft는 조직에서 이러한 모범 사례를 사용하여 디지털 전환 과정의 현재 위치를 파악할 수 있도록 지원합니다. 
+    언급된 각 범주에 대해, 우리는 공공 연구를 검토하여 조직 효과의 형태로 몇 가지 모범 사례와 관련 편익을 식별합니다. 예를 들어 Forrester 조사에 따르면 사용자가 첨부 파일을 전자 메일로 보내는 대신 클라우드에서 협업하고 콘텐츠를 공유할 때 일주일에 최대 100분을 절약할 수 있습니다. 또한 Microsoft는 조직에서 이러한 모범 사례를 사용하여 디지털 전환 과정의 현재 위치를 파악할 수 있도록 지원합니다. 
 
 - **기술 경험:** 조직은 신뢰할 수 있고 성능이 우수한 기술과 Microsoft 365의 효율적인 사용에 의존합니다. [엔드포인트 분석](https://aka.ms/endpointanalytics)를 사용하면 하드웨어 및 소프트웨어의 성능 및 상태 문제로 인해 조직에 어떤 영향을 미칠 수 있는지 이해할 수 있습니다. Microsoft 365 앱 상태를 사용하면 조직의 장치에서 권장 채널에서 Microsoft 365 앱을 실행하고 있는지 여부를 파악할 수 있습니다.
 

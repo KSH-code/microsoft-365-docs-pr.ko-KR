@@ -13,23 +13,51 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: bc04059d3ec63dd9395ed8f7a0e02b948e5cead1
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 6b18de29b339c3367bfacb8bdc8ec9725481e3e4
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730741"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779858"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
 이 문서에는 새 문서와 업데이트된 문서가 Microsoft Managed Desktop [나열되어 있습니다.](index.yml) "업데이트된" 문서에는 오타, 스타일 또는 서식 문제의 수정과 같은 부적인 수정이 추가되거나 수정되었습니다. 언제든지 의 리포지토리를 방문하여 특정 커밋 기록(변경 내용 세부 정보 [포함)을](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)볼 GitHub.
+
+## <a name="may-2021"></a>2021년 5월
+신규 또는 변경된 문서 | 설명
+--- | ---
+[Microsoft Managed Desktop 장치 설정](get-started/set-up-devices.md) | 업데이트된 문서
+[디바이스 인벤토리 보고서](working-with-managed-desktop/device-inventory-report.md) | 업데이트된 문서
+[Microsoft Managed Desktop의 네트워크 구성](get-ready/network.md) | 업데이트된 문서
+[진단 로그](service-description/diagnostic-logs.md) | 새 문서
+[Microsoft Managed Desktop 기술](intro/technologies.md) | 업데이트된 문서
+[게스트 계정에 대한 필수 구성 요소](get-ready/guest-accounts.md) | 업데이트된 문서
+[보고서 작업](working-with-managed-desktop/reports.md) | 업데이트된 문서
+
+## <a name="april-2021"></a>2021년 4월
+신규 또는 변경된 문서 | 설명
+--- | ---
+[장치 프로필](service-description/profiles.md) | 새 문서
+[파트너가 장치를 등록하기 위한 단계](get-started/register-devices-partner.md) | 업데이트된 문서
+[직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트된 문서
+[직접 기존의 장치 등록](get-started/register-reused-devices-self.md) | 업데이트된 문서
+[주소 장치 이름 종속성](get-ready/address-device-names.md) | 새 문서
+[디바이스 이름](service-description/device-names.md) | 새 문서
+[장치 제거](working-with-managed-desktop/remove-devices.md) | 새 문서
+[Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트된 문서
+[Microsoft Managed Desktop의 앱](get-ready/apps.md) | 업데이트된 문서
+[새 장치 유효성 검사](get-started/validate-device.md) | 새 문서
+[Microsoft Managed Desktop 장치 설정](get-started/set-up-devices.md) | 업데이트된 문서
+[Microsoft Managed Desktop 수명 주기](service-description/device-lifecycle.md) | 업데이트된 문서
+[Microsoft Managed Desktop 장치](service-description/device-list.md) |업데이트된 문서
 
 ## <a name="march-2021"></a>2021년 3월
 신규 또는 변경된 문서 | 설명
 --- | ---
 [Microsoft Managed Desktop의 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트된 문서
 [Autopilot 및 등록 상태 페이지의 첫 실행 환경](get-started/esp-first-run.md) | 업데이트된 문서
-[Windows 10 위치 서비스](get-started/device-location.md) | 새 문서
+[Windows 10 위치 서비스](get-started/device-location.md) | 새 문서
 [장치 이미지](service-description/device-images.md) | 새 문서
 [Microsoft Managed Desktop 지원되는 지역](service-description/regions-languages.md) | 업데이트된 문서
 [사용자 환경 현지화](get-started/localization.md) | 새 문서

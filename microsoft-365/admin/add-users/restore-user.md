@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: 사용자 계정을 삭제한 후 30일 이내에 계정 및 모든 데이터를 복원할 수 있으며 사용자는 동일한 계정으로 로그인할 수 있습니다.
-ms.openlocfilehash: 83852136ee22ab3f63d8ada6a5a7290883c392e5
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f849fe8e403aa9a72eccb4dd65665ec9f33618d1
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623824"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779653"
 ---
 # <a name="restore-a-user"></a>사용자 복원
    
@@ -38,7 +38,7 @@ ms.locfileid: "52623824"
   
 - 계정에 할당할 수 있는 라이선스가 있는지 확인
     
-- 회사에서 Active Directory를 사용할 경우, 사용자 계정 복원에 대한 자세한 내용은 [How to troubleshoot deleted user accounts in Office 365](/office365/troubleshoot/active-directory/restore-deleted-user-accounts.md)(Office 365에서 삭제된 사용자 계정 문제를 해결하는 방법)를 참조하세요. 
+- 비즈니스에서 Active Directory를 사용하는 경우 사용자 계정 복원에 대한 자세한 내용은 에서 삭제된 사용자 계정 문제를 해결하는 [Office 365.](/office365/troubleshoot/active-directory/restore-deleted-user-accounts) 
     
 ## <a name="restore-one-or-more-user-accounts"></a>하나 이상의 사용자 계정 복원
 

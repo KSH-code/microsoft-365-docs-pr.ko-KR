@@ -1,5 +1,5 @@
 ---
-title: Power BI에 대한 끝점 API용 Microsoft Defender 연결
+title: Microsoft Defender for Endpoint API를 Power BI
 ms.reviewer: ''
 description: 끝점 API용 Microsoft Defender 위에 POWER BI(비즈니스 인텔리전스) 보고서를 만들 수 있습니다.
 keywords: api, 지원되는 api, Power BI, 보고서
@@ -15,15 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 7c99267d75c89b3484d207cd763131e4bcc91527
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 5c76784d78837c324922ffc25539746a4921e426
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935044"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769716"
 ---
-# <a name="create-custom-reports-using-power-bi"></a>Power BI를 사용하여 사용자 지정 보고서 만들기
+# <a name="create-custom-reports-using-power-bi"></a>사용자 지정 보고서를 사용하여 Power BI
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,13 +39,13 @@ ms.locfileid: "51935044"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-이 섹션에서는 끝점 API용 Defender 위에 Power BI 보고서를 만드는 방법을 설명합니다.
+이 섹션에서는 끝점 API용 Power BI 보고서 만들기를 배우게 됩니다.
 
-첫 번째 예제에서는 Power BI를 고급 헌팅 API에 연결하는 방법을 보여 주며, 두 번째 예제에서는 Machine Actions 또는 Alerts와 같은 OData API에 대한 연결을 보여 제공합니다.
+첫 번째 예제에서는 고급 헌팅 API에 Power BI 방법을 보여 주며, 두 번째 예제에서는 OData API에 대한 연결(예: Machine Actions 또는 Alerts)을 보여 제공합니다.
 
-## <a name="connect-power-bi-to-advanced-hunting-api"></a>고급 헌팅 API에 Power BI 연결
+## <a name="connect-power-bi-to-advanced-hunting-api"></a>커넥트 Power BI 헌팅 API로
 
-- Microsoft Power BI 열기
+- Microsoft Power BI
 
 - 데이터 **빈 쿼리**  >  **다운로드를 클릭합니다.**
 
@@ -107,7 +108,7 @@ ms.locfileid: "51935044"
 
 - 자격 증명을 입력하고 로그인 대기
 
-- 연결 **클릭**
+- 사용자 **커넥트**
 
     ![자격 증명 설정 이미지2](images/power-bi-set-credentials-organizational-cont.png)
 
@@ -115,7 +116,7 @@ ms.locfileid: "51935044"
 
 - 이 테이블을 복제하고 이름을 변경한 다음 내부에서 고급 헌팅 쿼리를 편집하여 원하는 데이터를 얻을 수 있습니다.
 
-## <a name="connect-power-bi-to-odata-apis"></a>Power BI를 OData API에 연결
+## <a name="connect-power-bi-to-odata-apis"></a>커넥트 Power BI OData API에 대한 데이터
 
 - 위의 예제와 유일한 차이점은 편집기 내부의 쿼리입니다. 
 
@@ -137,11 +138,11 @@ ms.locfileid: "51935044"
 - 쿼리 필터에 OData 쿼리를 사용할 수 있습니다. 자세한 내용은 [OData 쿼리 사용을 참조](exposed-apis-odata-samples.md)
 
 
-## <a name="power-bi-dashboard-samples-in-github"></a>GitHub의 Power BI 대시보드 샘플
-자세한 내용은 Power BI 보고서 서식 [파일을 참조하세요.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
+## <a name="power-bi-dashboard-samples-in-github"></a>Power BI 대시보드 샘플을 GitHub
+자세한 내용은 보고서 [서식 Power BI 참조하세요.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>예제 보고서
-끝점 Power BI용 Microsoft Defender 보고서 샘플을 보세요. 자세한 내용은 코드 샘플 [찾아보기를 참조하세요.](https://docs.microsoft.com/samples/browse/?products=mdatp)
+보고서 샘플에 대한 Microsoft Defender Power BI 볼 수 있습니다. 자세한 내용은 코드 샘플 [찾아보기를 참조하세요.](https://docs.microsoft.com/samples/browse/?products=mdatp)
 
 
 ## <a name="related-topic"></a>관련 항목

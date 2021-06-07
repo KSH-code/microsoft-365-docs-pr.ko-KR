@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: c28417d9782d14d890e771ed401f8ee5d3c26bc0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 18a2cf87cd0e6b898a9f2aa4d6ecd47a86a8c7f6
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932766"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769920"
 ---
 # <a name="list-vulnerabilities-by-software"></a>소프트웨어별 취약성 목록
 
@@ -58,7 +59,7 @@ GET /api/Software/{Id}/vulnerabilities
 
 | 이름        | 유형 | 설명
 |:--------------|:-------|:--------------|
-| 권한 부여 | 문자열 | Bearer {token}. **필수 .**
+| 권한 부여 | String | Bearer {token}. **필수 .**
 
 ## <a name="request-body"></a>요청 본문
 비어 있음

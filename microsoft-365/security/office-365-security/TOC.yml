@@ -66,6 +66,8 @@
           href: protect-against-threats.md
         - name: Office 365용 Defender와 엔드포인트용 Defender 통합
           href: integrate-office-365-ti-with-mde.md
+        - name: Microsoft 365 보안 센터의 사용 권한
+          href: permissions-microsoft-365-security-center.md
         - name: 보안 및 규정 준수 센터의 사용 권한
           href: permissions-in-the-security-and-compliance-center.md
         - name: SIEM 서버 통합

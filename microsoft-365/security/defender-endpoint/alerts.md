@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 4997d7118b139d993ed94ed917137ca107940e46
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c935df1abddc3d0ebee74e09280d6e3ec961ca97
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199624"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769812"
 ---
 # <a name="alert-resource-type"></a>경고 리소스 유형
 
@@ -41,7 +42,7 @@ ms.locfileid: "51199624"
 메서드 |반환 형식 |설명
 :---|:---|:---
 [알림 표시](get-alert-info-by-id.md) | [경고](alerts.md) | 단일 경고 [개체를](alerts.md) 얻습니다.
-[목록 알림](get-alerts.md) | [경고](alerts.md) 컬렉션 | 경고 [컬렉션을 나열합니다.](alerts.md)
+[경고 목록](get-alerts.md) | [경고](alerts.md) 컬렉션 | 경고 [컬렉션을 나열합니다.](alerts.md)
 [업데이트 경고](update-alert.md) | [경고](alerts.md) | 특정 경고를 [업데이트합니다.](alerts.md)
 [일괄 업데이트 경고](batch-update-alerts.md) | | 경고 일괄 [업데이트](alerts.md).
 [경고 만들기](create-alert-by-reference.md)|[경고](alerts.md)|고급 헌팅에서 얻은 이벤트 데이터를 기반으로 [경고를 생성합니다.](run-advanced-query-api.md)
@@ -52,13 +53,13 @@ ms.locfileid: "51199624"
 [관련 사용자 얻기](get-alert-related-user-info.md) | [사용자](user.md) | [경고와](user.md) 연결된 [사용자입니다.](alerts.md)
 
 
-## <a name="properties"></a>속성
+## <a name="properties"></a>특성
 
 속성 |    유형    |    설명
 :---|:---|:---
-id | 문자열 | 경고 ID입니다.
-title | 문자열 | 경고 제목.
-설명 | 문자열 | 경고 설명.
+id | String | 경고 ID입니다.
+title | String | 경고 제목.
+설명 | String | 경고 설명.
 alertCreationTime | Nullable DateTimeOffset | 경고가 만들어진 날짜 및 시간(UTC)입니다.
 lastEventTime | Nullable DateTimeOffset | 동일한 장치에서 경고를 트리거한 이벤트의 마지막 발생입니다.
 firstEventTime | Nullable DateTimeOffset | 해당 디바이스에서 경고를 트리거한 이벤트의 첫 번째 발생입니다.
@@ -67,19 +68,19 @@ resolvedTime | Nullable DateTimeOffset | 경고 상태가 '해결'으로 변경�
 incidentId | Nullable Long | 경고의 [인시던트](view-incidents-queue.md) ID입니다.
 investigationId | Nullable Long | [경고와](automated-investigations.md) 관련된 조사 ID입니다.
 investigationState | Nullable Enum | 조사의 현재 [상태입니다.](automated-investigations.md) 가능한 값은 '알 수 없음', 'Terminated', 'SuccessfullyRemediated', 'Benign', 'Failed', 'PartiallyRemediated', 'Running', 'PendingApproval', 'PendingResource', 'PartiallyInvestigated', 'TerminatedByUser', 'TerminatedBySystem', 'Queued', 'InnerFailure', 'PreexistingAlert', 'UnsupportedOs', 'UnsupportedAlertType', 'SuppressedAlert'.
-assignedTo | 문자열 | 경고의 소유자입니다.
+assignedTo | String | 경고의 소유자입니다.
 심각도 | Enum | 경고의 심각도입니다. 가능한 값은 'UnSpecified', 'Informational', 'Low', 'Medium' 및 'High'입니다.
 status | Enum | 경고의 현재 상태를 지정합니다. 가능한 값은 '알 수 없음', '신규', 'InProgress' 및 'Resolved'입니다.
 classification | Nullable Enum | 경고 사양입니다. 가능한 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다.
 determination | Nullable Enum | 경고 결정 가능한 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
-category| 문자열 | 경고 범주입니다.
-detectionSource | 문자열 | 검색 원본.
-threatFamilyName | 문자열 | 위협 패밀리.
-threatName | 문자열 | 위협 이름입니다.
-machineId | 문자열 | 경고와 [연결된](machine.md) 컴퓨터 엔터티의 ID입니다.
-computerDnsName | 문자열 | [컴퓨터의](machine.md) 정식 이름입니다.
-aadTenantId | 문자열 | Azure Active Directory ID입니다.
-detectorId | 문자열 | 경고를 트리거한 감지기 ID입니다.
+category| String | 경고 범주입니다.
+detectionSource | String | 검색 원본.
+threatFamilyName | String | 위협 패밀리.
+threatName | String | 위협 이름입니다.
+machineId | String | 경고와 [연결된](machine.md) 컴퓨터 엔터티의 ID입니다.
+computerDnsName | String | [컴퓨터의](machine.md) 정식 이름입니다.
+aadTenantId | String | Azure Active Directory ID입니다.
+detectorId | String | 경고를 트리거한 감지기 ID입니다.
 설명 | 경고 설명 목록 | Alert Comment 개체에는 주석 문자열, createdBy 문자열 및 createTime 날짜 시간이 포함되어 있습니다.
 증거 | 경고 증거 목록 | 경고와 관련된 증거입니다. 아래 예제를 참조하세요.
 

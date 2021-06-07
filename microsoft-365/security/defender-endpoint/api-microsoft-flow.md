@@ -1,5 +1,5 @@
 ---
-title: 끝점 흐름 커넥터용 Microsoft Defender
+title: 끝점용 Microsoft Defender Flow 커넥터
 ms.reviewer: ''
 description: Microsoft Defender for Endpoint Flow 커넥터를 사용하여 보안을 자동화하고 테넌트에서 새 경고가 발생할 때 트리거되는 흐름을 만들 수 있습니다.
 keywords: flow, 지원되는 api, api, Microsoft 흐름, 쿼리, 자동화
@@ -15,15 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 33a7c7b1907ac761dfdde43a70bfb8f515235150
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dd0cc3c2da134750f905b1f80746d6ec65cc70b2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929302"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769709"
 ---
-# <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate(이전의 Microsoft Flow) 및 Azure Functions
+# <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate(이전 Microsoft Flow) 및 Azure Functions
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -34,9 +35,9 @@ ms.locfileid: "51929302"
 
 - 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
-모든 최신 보안 운영 센터의 표준 요구 사항은 보안 절차를 자동화하는 것입니다. 전문 사이버 방어자 부족으로 SOC가 가장 효율적인 방식으로 작동하고 자동화가 반드시 있어야 합니다. Microsoft Power Automate는 정확히 구축된 여러 커넥터를 지원합니다. 몇 분 내에 종단간 프로시저 자동화를 빌드할 수 있습니다.
+모든 최신 보안 운영 센터의 표준 요구 사항은 보안 절차를 자동화하는 것입니다. 전문 사이버 방어자 부족으로 SOC가 가장 효율적인 방식으로 작동하고 자동화가 반드시 있어야 합니다. Microsoft Power Automate 정확히 구축된 여러 커넥터를 지원할 수 있습니다. 몇 분 내에 종단간 프로시저 자동화를 빌드할 수 있습니다.
 
-Microsoft Defender API에는 다양한 기능이 있는 공식 Flow Connector가 있습니다.
+Microsoft Defender API에는 다양한 기능이 있는 공식 Flow 커넥터가 있습니다.
 
 ![자격 증명 편집 이미지1](images/api-flow-0.png)
 
@@ -46,19 +47,19 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Flow Connector가
 
 ## <a name="usage-example"></a>사용 예제
 
-다음 예제에서는 테넌트에서 새 Alert가 발생할 때 트리거되는 Flow를 만드는 방법을 보여 주며,
+다음 예제에서는 테넌트에서 새 Flow 트리거되는 새 경고를 만드는 방법을 보여 주며,
 
-1. [Microsoft Power Automate에 로그인합니다.](https://flow.microsoft.com)
+1. [Microsoft](https://flow.microsoft.com)Power Automate 로그인합니다.
 
 2. Go to **My flows**  >  **New**  >  **Automated-from blank**.
 
     ![자격 증명 편집 이미지2](images/api-flow-1.png)
 
-3. 흐름의 이름을 선택하고 트리거로 "Microsoft Defender ATP 트리거"를 검색한 다음 새 경고 트리거를 선택합니다.
+3. 사용자 이름Flow 선택하고 "Microsoft Defender ATP 트리거"를 트리거로 검색한 다음 새 경고 트리거를 선택합니다.
 
     ![자격 증명 편집 이미지3](images/api-flow-2.png)
 
-이제 새 경고가 발생할 때마다 트리거되는 Flow가 있습니다.
+이제 새 Flow 발생할 때마다 트리거되는 이벤트가 있습니다.
 
 ![자격 증명 편집 이미지4](images/api-flow-3.png)
 
@@ -68,7 +69,7 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Flow Connector가
 
 ### <a name="get-the-alert-entity-using-the-connector"></a>커넥터를 사용하여 Alert 엔터티 사용
 
-1. 새 **단계를 위해 Microsoft Defender ATP를** 선택 합니다.
+1. 새 **Microsoft Defender ATP** 대한 선택을 선택 합니다.
 
 2. 경고 **- 단일 경고 API를 를 선택 합니다.**
 
@@ -82,11 +83,11 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Flow Connector가
 
 2. 경고 심각도가 **높음과 같은지** 검사합니다.
 
-   그렇다면 **Microsoft Defender ATP - 컴퓨터** ID 및 설명을 사용하여 컴퓨터 격리 작업을 추가합니다.
+   예인 경우 Microsoft Defender ATP **- 컴퓨터** ID 및 설명을 사용하여 컴퓨터 격리 작업을 추가합니다.
 
     ![자격 증명 편집 이미지6](images/api-flow-5.png)
 
-3. 경고 및 Isolation에 대한 전자 메일을 보내기 위한 새 단계를 추가합니다. Outlook 또는 Gmail과 같이 사용하기 쉬운 여러 전자 메일 커넥터가 있습니다.
+3. 경고 및 Isolation에 대한 전자 메일을 보내기 위한 새 단계를 추가합니다. 메일 또는 Gmail과 같이 사용하기 쉬운 여러 전자 메일 Outlook 있습니다.
 
 4. 흐름을 저장합니다.
 

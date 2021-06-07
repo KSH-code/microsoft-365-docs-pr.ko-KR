@@ -1,5 +1,5 @@
 ---
-title: 소프트웨어에 의해 권장되는 경우
+title: 소프트웨어별 권장 사항 가져오기
 description: 특정 소프트웨어와 관련된 보안 권장을 검색합니다.
 keywords: api, 그래프 api, 지원되는 api, 다운로드, 보안 권장, 소프트웨어에 대한 보안 권장, 위협 및 취약성 관리, 위협 및 취약성 관리 api
 search.product: eADQiWindows 10XVcnh
@@ -14,14 +14,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 82479b0248ceee95321d269e3f48a4eeea3ad193
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 68bc53f2ae0b44567530cc1dd733c9dd37d380ca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199504"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769596"
 ---
-# <a name="get-recommendation-by-software"></a>소프트웨어에 의해 권장되는 경우
+# <a name="get-recommendation-by-software"></a>소프트웨어별 권장 사항 가져오기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -55,7 +57,7 @@ GET /api/recommendations/{id}/software
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -65,7 +67,7 @@ GET /api/recommendations/{id}/software
 성공하면 이 메서드는 본문의 보안 권장 사항과 연결된 소프트웨어를 사용하여 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

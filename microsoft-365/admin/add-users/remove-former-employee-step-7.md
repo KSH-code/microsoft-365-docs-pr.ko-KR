@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 사용자 계정을 삭제합니다.
-ms.openlocfilehash: 735821c9c4d6edf3d23fa3535ed9fa6b3d294b8c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: e9f87f68650394a81c735346db929bf592e91d18
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782384"
+ms.locfileid: "52779834"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>7단계 - 이전 직원의 사용자 계정 삭제
 
@@ -84,6 +84,8 @@ Active Directory에서 사용자 계정을 삭제 및 복원하는 방법에 대
   
  **온 - 프레미스 및 Exchange Datacenter에 있는 사용자에게 가장 빠름**: Azure Active Directory 관리 센터/Exchange 관리 센터를 사용하여 세션을 종료하고 온 - 프레미스 환경에서도 변경합니다. 그렇지 않으면 Azure Active Directory 관리 센터/Exchange 관리 센터의 변경 사항이 DirSync에 의해 덮어 쓰여집니다.
   
-## <a name="related-content"></a>관련 콘텐츠
+## <a name="related-articles"></a>관련 문서
 
-[사용자](restore-user.md) 복원(문서) / [암호 다시 설정(문서)](reset-passwords.md)
+[사용자 복원](restore-user.md)
+
+[암호 초기화](reset-passwords.md)

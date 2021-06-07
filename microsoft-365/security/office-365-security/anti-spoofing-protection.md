@@ -22,12 +22,12 @@ localization_priority: Priority
 description: 관리자는 스푸핑된 보낸 사람 및 도메인의 피싱 공격을 완화하는 데 도움이 되며 EOP(Exchange Online Protection)에서 사용할 수 있는 스푸핑 방지 기능에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7680c2f4eae54aa53eba72b328baf1bf92fbcf98
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 17228f634dc4aee9cfd416ca676920a5b4e0fba2
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537970"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779497"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>EOP의 스푸핑 방지 보호 기능
 
@@ -54,7 +54,7 @@ EOP에서 다음 스푸핑 방지 기술을 사용할 수 있습니다.
 
 - **테넌트 허용/차단 목록에서 스푸핑된 보낸 사람 허용 또는 차단**: 스푸핑 인텔리전스 인사이트에서 평가 결과를 재정의하면 스푸핑된 보낸 사람은 테넌트 허용/차단 목록의 **스푸핑** 탭에만 나타나는 수동 허용 또는 차단 항목이 됩니다. 스푸핑 인텔리전스에 의해 탐지되기 전에 스푸핑 발신자에 대한 허용 또는 차단 항목을 수동으로 만들 수도 있습니다. 자세한 내용은 [EOP에서 테넌트 허용/차단 목록 관리](tenant-allow-block-list.md)를 참조하세요.
 
-- **피싱 방지 정책**: EOP에서 피싱 방지 정책에는 다음과 같은 스푸핑 방지 설정이 포함됩니다.
+- **피싱 방지 정책**: EOP 및 Office 365용 Microsoft Defender의 피싱 방지 정책에는 다음과 같은 스푸핑 방지 설정이 포함됩니다.
   - 스푸핑 인텔리전스를 켜거나 끕니다.
   - Outlook에서 인증되지 않은 보낸 사람 ID를 켜거나 끕니다.
   - 차단된 스푸핑 된 발신자에 대한 작업을 지정합니다.

@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: df2c01bd0cc935ae8a541b40a96f3e067926674a
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 0123fc5cb22e249475f7e95426ee74f6e0939aaa
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625020"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788438"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -105,15 +105,15 @@ Microsoft는 Microsoft 클라우드에서 팀을 처음 경험할 때 몇 가지
 |[![Microsoft 전화 통신 솔루션 포스터](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br/> [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) \| [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx) <br/>2021년 3월에 업데이트되었습니다. | 자세한 내용은 [Plan your Teams voice solution을 참조하십시오.](/microsoftteams/cloud-voice-landing-page)|
 
 
-## <a name="empower-remote-workers"></a>원격 작업자 권한 부여
+## <a name="set-up-your-infrastructure-for-hybrid-work"></a>하이브리드 작업을 위한 인프라 설정
 
 사용자 Microsoft 365 및 기타 Microsoft 클라우드 기술을 사용하여 직원들에게 가정에서 조직의 사내 및 클라우드 기반 정보, 도구 및 리소스에 안전하게 액세스할 수 있도록 할 수 있습니다. 
 
-[![원격 작업자 지원](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf) <br/>
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)  |  [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) <br>
-2020년 7월 업데이트
+[![하이브리드 작업용 인프라 설정 포스터](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pdf) <br/>
+[PDF](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pdf)  |  [PowerPoint](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pptx) <br>
+2021년 6월에 업데이트되었습니다.
 
-자세한 내용은 이 포스터에 대한 문서를 참조하세요. 원격 작업자의 [역량을 Microsoft 365.](empower-people-to-work-remotely.md)
+자세한 내용은 이 포스터에 대한 문서인 [Set up your infrastructure for hybrid work with Microsoft 365.](empower-people-to-work-remotely.md)
 
 ## <a name="microsoft-teams-with-security-isolation"></a>Microsoft Teams 사용
 

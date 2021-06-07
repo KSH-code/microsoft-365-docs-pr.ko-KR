@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용하여 추가 기능을 배포할 수 있도록 테넌트와 사용자가 요구 사항을 Office 확인합니다.
-ms.openlocfilehash: 25fe217a41274b6a239e4ee482ee105238465999
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 531281eba6accfb2e1ffdab1e662a03b077869bd
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635453"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779761"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 적합한지 확인
 
@@ -84,7 +84,7 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 
 ### <a name="centralized-deployment-compatibility-checker"></a>중앙 집중식 배포 호환성 검사
 
-중앙 집중식 배포 호환성 검사를 사용하여 테넌트의 사용자가 Word, 배포 및 배포에 대해 중앙 집중식 배포를 Excel PowerPoint. Outlook 지원에는 호환성 검사가 필요하지 않습니다. [여기](https://aka.ms/officeaddindeploymentorgcompatibilitychecker)에서 호환성 검사를 다운로드하세요.
+중앙 집중식 배포 호환성 검사를 사용하여 테넌트의 사용자가 Word, 배포 및 배포에 대해 중앙 집중식 배포를 Excel PowerPoint. Outlook 지원에는 호환성 검사가 필요하지 않습니다. 호환성 [검사 를 다운로드합니다.](https://aka.ms/officeaddindeploymentorgcompatibilitychecker)
   
 #### <a name="run-the-compatibility-checker"></a>호환성 검사 실행
   
@@ -155,7 +155,7 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
   
 |**플랫폼**|**디버그 정보**|
 |:-----|:-----|
-|Office  <br/> | Charles/Fiddler 로그  <br/>  테넌트 ID( [방법 알아보기](/onedrive/find-your-office-365-tenant-id.md))  <br/>  CorrelationID. 사무실 페이지 중 하나의 원본을 보고 상관 관계 ID 값을 찾아서 지원에 전송합니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
+|Office  <br/> | Charles/Fiddler 로그  <br/>  테넌트 ID( [방법 알아보기](/onedrive/find-your-office-365-tenant-id))  <br/>  CorrelationID. 사무실 페이지 중 하나의 원본을 보고 상관 관계 ID 값을 찾아서 지원에 전송합니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |리치 클라이언트(Windows, Mac)  <br/> | Charles/Fiddler 로그  <br/>  클라이언트 앱의 빌드 번호(파일/계정의 스크린샷으로 **가급적)**  <br/> |
 
 ## <a name="related-content"></a>관련 콘텐츠

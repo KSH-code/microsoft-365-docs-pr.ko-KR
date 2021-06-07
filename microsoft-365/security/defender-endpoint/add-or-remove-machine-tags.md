@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 98dd513cc66683ff1b95f66d6d7b89916ce54bab
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 3818fc0050790b2c3b307f95ee0760c516cbf893
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199780"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769824"
 ---
 # <a name="add-or-remove-machine-tags-api"></a>컴퓨터 태그 API 추가 또는 제거
 
@@ -72,7 +73,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/tags
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
@@ -81,7 +82,7 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 
 매개 변수 |    유형    | 설명
 :---|:---|:---
-값 |    문자열 |    태그 이름입니다. **필수입니다**.
+값 |    String |    태그 이름입니다. **필수입니다**.
 작업    | Enum |    추가 또는 제거. 허용되는 값은 '추가' 또는 '제거'입니다. **필수입니다**.
 
 
@@ -89,7 +90,7 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 
 성공하면 이 메서드는 응답 본문에 200 - 확인 응답 코드와 업데이트된 Machine을 반환합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

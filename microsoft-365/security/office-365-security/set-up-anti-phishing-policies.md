@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d20d9c3839cf72d1e99a185186d0716d9a513c5f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 205fd5cd40d187eada4f6b87edf64c0d35f7e3b3
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537862"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788418"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -60,7 +60,7 @@ Microsoft Defender for Office 365 피싱 방지 정책은 사용자용 Defender�
 
 피싱 방지 정책을 구성하기 위해 다음 문서를 참조합니다.
 
-- [EOP에서 스팸 방지 정책 구성하기](configure-anti-phishing-policies-eop.md)
+- [EOP에서 스팸 방지 정책 구성](configure-anti-phishing-policies-eop.md)
 
 - [Microsoft Defender에서 피싱 방지 정책 Office 365](configure-atp-anti-phishing-policies.md)
 
@@ -133,7 +133,7 @@ Microsoft Defender for Office 365 피싱 방지 정책은 사용자용 Defender�
 - **"via"** 태그 사용 여부 chris@contoso.com: 이 설정을 켜면 보낸 사람 주소(전자 메일 클라이언트에 표시되는 메시지 보낸 사람)의 도메인이 DKIM 서명의 도메인이나 MAIL FROM 주소의 도메인과 다른 경우 보낸 사람(fabrikam.com 을 통해 fabrikam.com)을 보낸 사람 상자에 <sup>\*</sup> <u></u> 추가합니다.  이러한 주소에 대한 자세한 내용은 전자 메일 메시지 표준 [개요를 참조하세요.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
 
 > [!NOTE]
-> 현재 일부 조직에서는 **"via"** 태그 사용 설정을 사용할 수 없습니다. **"via"** 태그 사용 설정이 없는 경우 물음표와  via 태그는 모두 조직에서 확인되지 않은 보낸 사람 물음표(?) 사용 기호에 의해 제어됩니다. 
+> 현재 일부 조직에서는 **"via"** 태그 사용 설정을 사용할 수 없습니다. **"via"** 태그 사용 설정이 없는 경우 물음표와 via 태그는 모두 조직에서 확인되지 않은 보낸 사람 물음표(?) 사용 기호로 제어됩니다.  
 
 물음표 또는 태그를 통해 특정 보낸 사람이 보낸 메시지에 추가되지 않도록 설정하기 위해 다음 옵션을 사용할 수 있습니다.
 

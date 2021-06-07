@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: cff4530cfa4ecd6b0d918a9112e7be3c0f30209c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ab0d0e97365b5ce38b29f2b0d65e3aea48d6c28c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166798"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769932"
 ---
 # <a name="get-user-related-alerts-api"></a>사용자 관련 알림 API를 얻습니다.
 
@@ -71,7 +72,7 @@ GET /api/users/{id}/alerts
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -81,7 +82,7 @@ GET /api/users/{id}/alerts
 성공적이고 사용자가 있는 경우 - 200 OK. 사용자가 존재하지 않는 경우 - 404 찾을 수 없습니다. 
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

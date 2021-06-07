@@ -23,17 +23,17 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: 2016에서 도메인 이름을 구입하는 Microsoft 365.
-ms.openlocfilehash: 3d5a5568a0e75a06f0880d82ea8e4a1a8d003689
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: c4b3b0ac88671e72ed567998ad9d97486dfb6342
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635465"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779689"
 ---
 # <a name="buy-a-domain-name"></a>도메인 이름 구매
 
 > [!NOTE]
-> 조직에서 중국의 Office 365 운영하는 21Vianet을 사용하는 경우 [중국의 21Vianet에서](/buy-a-domain-name?view=o365-21vianet#how-to-buy-a-domain-for-office-365-operated-by-21vianet.md)운영하는 Office 365 도메인을 구입하는 방법을 참조합니다.
+> 조직에서 중국의 Office 365 운영하는 21Vianet을 사용하는 경우 [중국의 21Vianet에서](#how-to-buy-a-domain-for-office-365-operated-by-21vianet)운영하는 Office 365 도메인을 구입하는 방법을 참조합니다.
 
  *도메인을 추가, 수정 또는 제거하려면  **비즈니스** 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경을 할 수 없습니다.*  
 
@@ -89,9 +89,8 @@ ms.locfileid: "52635465"
 
 
 ::: moniker range="o365-21vianet"
+
 ## <a name="how-to-buy-a-domain-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365에 대한 도메인 구입 방법
-
-
 
 고유한 도메인이 아직 없다면 도메인 이름 등록 기관이나 도메인 판매자 또는 현재 인터넷 제공업체에서 온라인으로 손쉽게 도메인을 구입할 수 있습니다. 21Vianet에서 운영하는 Office 365에 등록하면 contoso.partner.onmschina.cn 같은 도메인 이름이 제공됩니다. 하지만 fourthcoffee.com 같은 사용자 지정 도메인 이름도 사용할 수 있습니다.
   
@@ -120,5 +119,5 @@ ms.locfileid: "52635465"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [도메인을 도메인에](../setup/add-domain.md) Microsoft 365(문서)\
-[도메인](../setup/domains-faq.yml) FAQ(문서)\
+[도메인 FAQ](../setup/domains-faq.yml)(문서)\
 [DNS 레코드를 업데이트하여 웹 사이트를](../dns/update-dns-records-to-retain-current-hosting-provider.md) 현재 호스팅 공급자와 함께 유지(문서)

@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: DLP 정책에서 민감도 레이블을 조건으로 사용할 수 있는 서비스 및 항목 형식에 대해 배워봅니다.
-ms.openlocfilehash: b33e6704a3311740c1e386f77f1c751382ee6958
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 94d5e9f53471f6113dcc755995a3f94e95a58e53
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651095"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779846"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies"></a>DLP 정책에서 민감도 레이블을 조건으로 사용
 
@@ -65,6 +65,9 @@ ms.locfileid: "52651095"
 민감도 레이블이 부착된 전자 메일 첨부 파일의 \* DLP 감지는 Office 파일 형식에만 지원됩니다.
 
 \** 1:1 채팅 혹은 채널을 통해 Teams 로 보낸 첨부 파일은 비즈니스용 One drive 및 SharePoint에 자동으로 업로드 됩니다. 따라서 SharePoint Online 또는 비즈니스용 One Drive가 DLP 정책에서 위치로 포함되는 경우, Teams에서 보낸 레이블이 지정된 첨부 파일은 이 조건의 범위에 자동으로 포함됩니다. DLP 정책에서 Teams를 위치로 선택할 필요가 없습니다.
+
+> [!NOTE]
+> SharePoint 및 비즈니스용 OneDrive에서 민감도 레이블을 검색하는 DLP의 기능은 제한적입니다. 자세한 내용은 [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용](sensitivity-labels-sharepoint-onedrive-files.md#limitations)을 참조하세요.
 
 ### <a name="supported-scenarios"></a>지원되는 시나리오
 

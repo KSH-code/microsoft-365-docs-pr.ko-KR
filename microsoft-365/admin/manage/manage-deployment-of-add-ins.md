@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 설명합니다.
-ms.openlocfilehash: 8cc4f29cd2593d9651edaf87791f46dabdcc30b2
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 796517ba13a4718c38d5200fcf9cbe38b5dc62d0
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636025"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779641"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 배포
 
@@ -38,7 +38,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 배포 후 추가 기능 관리에 대한 자세한 내용은 관리 센터에서 추가 기능 [관리를 참조하세요.](manage-addins-in-the-admin-center.md)
   
 > [!NOTE]
->  Word의 경우 Excel PowerPoint 및 SharePoint SharePoint [](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) 카탈로그를 사용하여 Microsoft 365 및/또는 필요한 추가 기능을 지원하지 Microsoft 365 환경의 사용자에게 추가 기능을 배포합니다. 이 Outlook 제어판을 사용하여 Exchange 연결 없이 사내 환경에 배포할 Microsoft 365.
+>  Word의 경우 Excel PowerPoint 및 SharePoint SharePoint [](/office/dev/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) 카탈로그를 사용하여 Microsoft 365 및/또는 필요한 추가 기능을 지원하지 Microsoft 365 환경의 사용자에게 추가 기능을 배포합니다. 이 Outlook 제어판을 사용하여 Exchange 연결 없이 사내 환경에 배포할 Microsoft 365.
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Office 추가 기능 배포에 권장되는 방법
 

@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 54b3e0cd63189e67de0aa101634508ff8833dc6a
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 71daccdbcb223ac48d80721bf0a296d9c1a7c98c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500252"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770100"
 ---
 # <a name="list-exposure-score-by-device-group"></a>장치 그룹당 노출 점수 나열
 
@@ -58,7 +60,7 @@ GET /api/exposureScore/ByMachineGroups
 
 | 이름        | 유형 | 설명
 |:--------------|:-------|:--------------|
-| 권한 부여 | 문자열 | Bearer {token}. **필수 .**
+| 권한 부여 | String | Bearer {token}. **필수 .**
 
 ## <a name="request-body"></a>요청 본문
 
@@ -68,7 +70,7 @@ GET /api/exposureScore/ByMachineGroups
 
 성공하면 이 메서드는 응답 본문의 장치 그룹 데이터당 노출 점수 목록을 사용하여 200 OK를 반환합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 ### <a name="request"></a>요청
 

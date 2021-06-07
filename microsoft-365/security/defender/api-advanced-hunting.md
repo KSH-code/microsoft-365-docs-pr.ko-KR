@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Defender 고급 헌팅 API
-description: Microsoft 365 Defender의 고급 헌팅 API를 사용하여 고급 헌팅 쿼리를 실행하는 방법 학습
+description: Defender의 고급 헌팅 API를 사용하여 Microsoft 365 헌팅 쿼리를 실행하는 방법에 대해 자세히 알아보기
 keywords: 고급 헌팅, API, api, M365 Defender, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c988a609a329c8f7f8988314e56aae942beebac5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3ff62265783be846a95964164e372100fe1ef662
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932896"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769589"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender 고급 헌팅 API
 
@@ -38,7 +38,7 @@ ms.locfileid: "51932896"
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-[고급 헌팅은](advanced-hunting-overview.md) 특수하게 생성한 [](advanced-hunting-query-language.md) 쿼리를 사용하여 Microsoft 365 Defender에서 지난 30일 동안의 이벤트 데이터를 검사하는 위협 헌팅 도구입니다. 고급 헌팅 쿼리를 사용하여 비정상적인 활동을 검사하고, 가능한 위협을 감지하고, 공격에 대응할 수 있습니다. 고급 헌팅 API를 사용하면 프로그래밍적으로 이벤트 데이터를 쿼리할 수 있습니다.
+[고급 헌팅은](advanced-hunting-overview.md) 특수하게 생성한 [](advanced-hunting-query-language.md) 쿼리를 사용하여 Defender에서 지난 30일 동안의 이벤트 데이터를 Microsoft 365 위협 헌팅 도구입니다. 고급 헌팅 쿼리를 사용하여 비정상적인 활동을 검사하고, 가능한 위협을 감지하고, 공격에 대응할 수 있습니다. 고급 헌팅 API를 사용하면 프로그래밍적으로 이벤트 데이터를 쿼리할 수 있습니다.
 
 ## <a name="quotas-and-resource-allocation"></a>할당량 및 리소스 할당
 
@@ -47,17 +47,16 @@ ms.locfileid: "51932896"
 1. 쿼리는 지난 30일 동안의 데이터를 탐색하고 반환합니다.
 2. 결과는 최대 100,000개 행을 반환할 수 있습니다.
 3. 테넌트당 분당 최대 15통의 통화를 만들 수 있습니다.
-4. 테넌트당 시간당 10분의 실행 시간이 있습니다.
-5. 테넌트당 하루 총 4시간의 실행 시간이 있습니다.
-6. 단일 요청이 10분 이상 실행되는 경우 시간이 너무 까다로우며 오류가 반환됩니다.
-7. HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 할당량에 도달했다는 `429` 메시지를 나타냅니다. 응답 본문을 읽고 도달한 제한을 이해합니다. 
+4. 다음 15분 주기 후에 테넌트가 100%에 도달하면 쿼리가 차단됩니다.
+5. 단일 요청이 10분 이상 실행되는 경우 시간이 너무 까다로우며 오류가 반환됩니다.
+6. HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 할당량에 도달했다는 `429` 메시지를 나타냅니다. 응답 본문을 읽고 도달한 제한을 이해합니다. 
 
 > [!NOTE]
 > 위에 나열된 모든 할당량(예: 분당 통화 수 15개)은 테넌트 크기당입니다. 이러한 할당량은 최소값입니다.
 
 ## <a name="permissions"></a>사용 권한
 
-고급 헌팅 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender Protection API 액세스를 참조합니다.](api-access.md)
+고급 헌팅 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 [Access the Microsoft 365 Defender Protection API를 참조합니다.](api-access.md)
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 -|-|-
@@ -180,7 +179,7 @@ Query | 텍스트 | 실행할 쿼리입니다. **참고: 필수**
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Microsoft 365 Defender API 액세스](api-access.md)
+- [Microsoft 365 Defender API에 액세스](api-access.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

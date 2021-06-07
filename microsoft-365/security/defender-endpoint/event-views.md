@@ -8,27 +8,29 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: dansimp
-ms.author: dansimp
+author: denisebmsft
+ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 0a2ec16685ede2e625528fc3944943923bba3fc9
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.topic: article
+ms.openlocfilehash: ff82819f4e168fc57b649411fbe5e9136b0e36f4
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569746"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769332"
 ---
 # <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+> [!TIP]
+> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 이벤트 뷰어에서 공격 표면 감소 이벤트를 검토하여 작동되는 규칙 또는 설정을 모니터링합니다. 또한 설정이 너무 "시저"되거나 매일 워크플로에 영향을 미치는지 확인할 수 있습니다.
 
@@ -36,17 +38,17 @@ ms.locfileid: "51569746"
 
 이 문서에서는 모든 이벤트, 관련 기능 또는 설정을 나열하고 특정 이벤트에 대해 필터링하는 사용자 지정 보기를 만드는 방법에 대해 설명합니다.
 
-E5 구독이 있으며 [끝점용 Microsoft Defender를](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)사용하는 경우 이벤트에 대한 자세한 보고를 보고하고 Windows 보안의 일부로 차단합니다.
+E5 구독이 있는 경우 이벤트에 대한 자세한 보고를 보고하고 Windows 보안 [Microsoft Defender for Endpoint를](microsoft-defender-endpoint.md)사용하는 경우 이벤트의 일부로 차단합니다.
 
 ## <a name="use-custom-views-to-review-attack-surface-reduction-capabilities"></a>사용자 지정 보기를 사용하여 공격 표면 감소 기능 검토
 
-Windows 이벤트 뷰어에서 사용자 지정 보기를 만들어 특정 기능 및 설정에 대한 이벤트만 볼 수 있습니다. 가장 쉬운 방법은 사용자 지정 보기를 XML 파일로 가져오는 것입니다. 이 페이지에서 직접 XML을 복사할 수 있습니다.
+이벤트 뷰어에서 Windows 사용자 지정 보기를 만들어 특정 기능 및 설정에 대한 이벤트만 볼 수 있습니다. 가장 쉬운 방법은 사용자 지정 보기를 XML 파일로 가져오는 것입니다. 이 페이지에서 직접 XML을 복사할 수 있습니다.
 
 기능에 해당하는 이벤트 영역으로 수동으로 이동할 수도 있습니다.
 
 ### <a name="import-an-existing-xml-custom-view"></a>기존 XML 사용자 지정 보기 가져오기
 
-1. 빈 .txt 파일을 만들고 .txt 파일에 사용할 사용자 지정 보기의 XML을 복사합니다. 사용할 각 사용자 지정 보기에 대해 이 작업을 합니다. 파일 이름을 다음과 같이 바꿔야 합니다(형식을 .txt에서 .xml로 변경해야 합니다).
+1. 빈 .txt 파일을 만들고 파일 보기에 사용할 사용자 지정 보기의 XML을 .txt 복사합니다. 사용할 각 사용자 지정 보기에 대해 이 작업을 합니다. 파일 이름을 다음과 같이 바꿔야 합니다(형식을 .txt 변경해야 .xml.
     - 제어된 폴더 액세스 이벤트 사용자 지정 보기: *cfa-events.xml*
     - Exploit Protection 이벤트 사용자 지정 보기: *ep-events.xml*
     - 공격 표면 감소 이벤트 사용자 지정 *보기:asr-events.xml*
@@ -66,7 +68,7 @@ Windows 이벤트 뷰어에서 사용자 지정 보기를 만들어 특정 기�
 
 ### <a name="copy-the-xml-directly"></a>XML 직접 복사
 
-1. 시작 **메뉴에 이벤트 뷰어를** 입력하고 Windows **이벤트 뷰어를 열 수 있습니다.**
+1. 시작 **메뉴에 이벤트** 뷰어를 입력하고 이벤트 뷰어 Windows **를 니다.**
 
 2. 왼쪽 패널의 **동작에서** 사용자 지정 **보기 만들기...를 선택합니다.**
 
@@ -135,12 +137,12 @@ Windows 이벤트 뷰어에서 사용자 지정 보기를 만들어 특정 기�
 
 ## <a name="list-of-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 목록
 
-모든 공격 표면 감소 이벤트는 Microsoft > **Windows의** 응용 프로그램 및 서비스 > 다음 표에 나열된 폴더 또는 공급자 아래에 있습니다.
+모든 공격 표면 감소 이벤트는 **Microsoft** > 서비스 로그 > Windows 다음 표에 나열된 폴더 또는 공급자 아래에 있습니다.
 
-Windows 이벤트 뷰어에서 다음 이벤트에 액세스할 수 있습니다.
+이벤트 뷰어에서 다음 이벤트에 Windows 있습니다.
 
 1. 시작 **메뉴를** 열고 이벤트 **뷰어 를 입력한** 다음 이벤트 **뷰어 결과를** 선택합니다.
-2. **Microsoft > Microsoft** > 응용 프로그램 및 서비스 로그를 확장한 다음 아래 표의 **공급자/원본** 아래에 나열된 폴더로 이동합니다.
+2. **Microsoft >** > Windows 응용 프로그램 및 서비스 로그를 확장한 다음 아래 표의 **공급자/원본에** 나열된 폴더로 이동합니다.
 3. 하위 항목을 두 번 클릭하여 이벤트를 볼 수 있습니다. 이벤트를 스크롤하여 원하는 이벤트를 찾으면 됩니다.
 
    ![이벤트 뷰어를 사용하는 애니메이션](/windows/security/threat-protection/images/event-viewer)
@@ -157,11 +159,11 @@ Windows 이벤트 뷰어에서 다음 이벤트에 액세스할 수 있습니다
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 8  | 원격 이미지 차단 차단
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 9  | win32k 시스템 호출 감사를 사용하지 않도록 설정
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 10   | win32k 시스템 호출 차단 사용 안
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 11  | 코드 무결성 보호 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 11 | 코드 무결성 보호 감사
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 12  | 코드 무결성 보호 블록
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 13 | EAF 감사
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 14  | EAF 적용
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 15  | EAF+ 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 15 | EAF+ 감사
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 16  | EAF+ 적용
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 17  | IAF 감사
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 18  | IAF 적용

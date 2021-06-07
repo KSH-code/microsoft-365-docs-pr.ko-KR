@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 개인 Microsoft 계정이 있는 사용자는 링크 AAD with Rewards 기능이 사용하도록 설정된 경우 작업 검색과 관련한 Microsoft 보상 점수를 획득할 수 있습니다.
-ms.openlocfilehash: 8cbd88de530ec4aa566962bb74715dc9c417f296
-ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.openlocfilehash: 581a7a044ef1b3508591778c9da416ffc3afac2e
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52464345"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779665"
 ---
 # <a name="manage-microsoft-rewards"></a>Microsoft Rewards 관리
 
@@ -36,10 +36,10 @@ ms.locfileid: "52464345"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft Search](/microsoftsearch/setup-microsoft-search.md) 설정(문서)
+[Microsoft Search](/microsoftsearch/setup-microsoft-search) 설정(문서)
 
 보안 팀이 집에서 작업할 수 있는 상위 [12개](../../security/top-security-tasks-for-remote-work.md) 작업(문서)
 
-[새로운](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-365-95c8d81d-08ba-42c1-914f-bca4603e1426) Microsoft 365(문서)
+[새로운](https://support.microsoft.com/office/what-s-new-in-microsoft-365-95c8d81d-08ba-42c1-914f-bca4603e1426) Microsoft 365(문서)
 
 

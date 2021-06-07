@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 590bd1dee14e54359dd699e86795664819c23d05
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 1c81d2978677b751a8085f88b5c4732fd4a5a247
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200101"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770052"
 ---
 # <a name="get-machine-logon-users-api"></a>컴퓨터 로그온 사용자 확인 API
 
@@ -66,7 +68,7 @@ GET /api/machines/{id}/logonusers
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -76,7 +78,7 @@ GET /api/machines/{id}/logonusers
 성공 및 장치가 있는 경우 - 본문에 [](user.md) 사용자 엔터티 목록이 있는 200 OK. 장치를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

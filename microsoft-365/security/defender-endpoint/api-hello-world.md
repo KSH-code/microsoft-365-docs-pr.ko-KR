@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 08188acf1209ea2247a0eb09d722ce74c4540254
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 385227dc67039fb3666d3b9518af5be8eb01dc7a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939615"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769764"
 ---
 # <a name="microsoft-defender-for-endpoint-api---hello-world"></a>Endpoint API용 Microsoft Defender API - Hello World 
 
@@ -47,15 +48,15 @@ ms.locfileid: "51939615"
 - 예제 사용: 짧은 PowerShell 스크립트의 복사/붙여넣기만 필요
 
 ### <a name="do-i-need-a-permission-to-connect"></a>연결할 수 있는 권한이 필요한가요?
-응용 프로그램 등록 단계의 경우  Azure AD(Azure Active Directory) 테넌트에 전역 관리자 역할이 있어야 합니다.
+응용 프로그램 등록 단계의 경우  Azure AD(Azure AD) 테넌트에 Azure Active Directory 전역 관리자 역할이 있어야 합니다.
 
-### <a name="step-1---create-an-app-in-azure-active-directory"></a>1단계 - Azure Active Directory에서 앱 만들기
+### <a name="step-1---create-an-app-in-azure-active-directory"></a>1단계 - 앱에서 앱 Azure Active Directory
 
 1. 전역 관리자 [사용자로 Azure에](https://portal.azure.com) **로그온합니다.**
 
-2. Azure **Active Directory**  >  **앱 등록 새**  >  **등록으로 이동합니다.** 
+2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.** 
 
-   ![Microsoft Azure의 이미지 및 응용 프로그램 등록 탐색](images/atp-azure-new-app2.png)
+   ![응용 Microsoft Azure 탐색 및 이미지](images/atp-azure-new-app2.png)
 
 3. 등록 양식에서 응용 프로그램의 이름을 선택하고 등록을 **클릭합니다.**
 

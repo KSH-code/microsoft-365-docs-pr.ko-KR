@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 서비스 암호화가 고객 키와 함께 작동하는 방식에 대해 Microsoft 365.
-ms.openlocfilehash: 3d0c86dbca02a66547f0ade643b745ecfc8f92cd
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: d12a5d2f80de11a69fc4a36146a511c5f9a306f8
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344773"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769452"
 ---
 # <a name="service-encryption-with-customer-key"></a>고객 키를 사용한 서비스 암호화
 
@@ -52,8 +52,11 @@ DEP(데이터 암호화 정책)는 암호화 계층 구조를 정의합니다. �
 - Teams 메시지 표시
 - 사용자 및 사용자에 대한 Exchange Online
 - Exchange Online DEP에 의해 암호화되지 않은 사서함
-- MIP 정확한 데이터 일치(EDM) 데이터 – (데이터 파일 스케마, 규칙 패키지 및 중요한 데이터를 해시하는 데 사용되는 솔트).
-  MIP EDM(정확한 데이터 일치) 및 Microsoft Teams 경우 다중 작업 DEP는 테넌트에 DEP를 할당한 시간부터 새 데이터를 암호화합니다. 고객 Exchange Online 위해 고객 키는 모든 기존 및 새 데이터를 암호화합니다.
+- Microsoft Information Protection:
+
+  - 데이터 파일 스키마, 규칙 패키지 및 중요한 데이터를 해시하는 데 사용되는 솔트 등의 정확한 데이터 일치(EDM) 데이터 EDM 및 Microsoft Teams 경우 다중 작업 DEP는 DEP를 테넌트에 할당한 시간부터 새 데이터를 암호화합니다. 고객 Exchange Online 위해 고객 키는 모든 기존 및 새 데이터를 암호화합니다.
+
+  - 민감도 레이블에 대한 레이블 구성
 
 다중 작업 DEP는 다음과 같은 유형의 데이터를 암호화하지 않습니다. 대신 Microsoft 365 다른 유형의 암호화를 사용하여 이 데이터를 보호할 수 있습니다.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 문서의 검토 집합에 있는 문서에 대한 메타데이터 필드를 Advanced eDiscovery Microsoft 365.
-ms.openlocfilehash: 7b8628973a8b07a3cd31e2b42df28c181e77e288
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 42f349bf01d5a777535dd04096b860a0165f1edf
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730501"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769572"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Advanced eDiscovery의 문서 메타데이터 필드
 
@@ -75,6 +75,7 @@ ms.locfileid: "52730501"
 |EmailAction*||Email_action|값은 **None,** **Reply** 또는 **Forward입니다.** 메시지의 제목 줄을 기반으로 합니다.|
 |전자 메일 배달 확인 요청||Email_delivery_receipt|배달 확인을 위해 인터넷 헤더에 제공된 전자 메일 주소입니다.|
 |Importance|EmailImportance|Email_importance|메시지의 중요도: **0** - 낮음 **1** - 보통; **2** - 높음|
+|무시된 처리 오류|ErrorIgnored|Error_Ignored|오류가 무시되고 수정되지 않습니다.|
 |EmailInternetHeaders|EmailInternetHeaders|Email_internet_headers|전자 메일 메시지의 전체 전자 메일 헤더 집합|
 |EmailLevel*||Email_level|메시지가 속한 전자 메일 스레드 내의 메시지 수준을 나타냅니다. 첨부 파일은 부모 메시지의 값을 상속합니다.|
 |전자 메일 메시지 ID||Email_message_ID|메시지의 인터넷 메시지 ID입니다.|
@@ -88,14 +89,14 @@ ms.locfileid: "52730501"
 |||Extracted_text_path|내보내기에서 추출된 텍스트 파일의 경로입니다.|
 |ExtractedTextLength*||Extracted_text_length|추출된 텍스트의 문자 수입니다.|
 |FamilyDuplicateSet*||Family_duplicate_set|서로 정확히 중복되는 패밀리의 숫자 식별자입니다(동일한 콘텐츠 및 모든 동일한 첨부 파일).|
-|가족 ID|FamilyId|Family_ID|패밀리 ID는 모든 항목을 함께 그룹화합니다. 전자 메일의 경우 메시지와 모든 첨부 파일이 포함됩니다. 문서의 경우 문서 및 포함된 항목이 포함됩니다.|
+|가족 ID|FamilyId|Family_ID|전자 메일의 모든 항목을 그룹화합니다. 여기에는 메시지와 모든 첨부 파일 및 추출된 항목이 포함됩니다.|
 |가족 크기||Family_size|패밀리의 문서 수입니다.|
 |파일 클래스|FileClass|File_class|문서 및 SharePoint 콘텐츠의 OneDrive: **문서**; 의 콘텐츠에 Exchange: **전자 메일** 또는 첨부 파일입니다. |
 |파일 ID|FileId|File_ID|사례 내에서 고유한 문서 식별자입니다.|
 |만들어진 파일 시스템 날짜||File_system_date_created|파일 시스템에서 만든 날짜입니다(비영구 데이터에만 Office 365 적용).|
 |파일 시스템 날짜 수정||File_system_date_modified|파일 시스템에서 수정된 날짜입니다(비영구 데이터에만 Office 365 적용).|
 |파일 형식|FileType||파일 확장명에 따라 항목의 파일 형식입니다.|
-|그룹 ID|GroupID||그룹화한 콘텐츠의 그룹 ID입니다.|
+|그룹 ID|그룹 ID|Group_ID|전자 메일 및 문서의 모든 항목을 그룹화합니다. 전자 메일의 경우 메시지와 모든 첨부 파일 및 추출된 항목이 포함됩니다. 문서의 경우 여기에는 문서와 포함된 항목이 포함됩니다.|
 |첨부 파일 포함|HasAttachment|Email_has_attachment|메시지에 첨부 파일이 있는지 여부를 나타냅니다.|
 |변호사가 있습니다.|HasAttorney||**True이면** 적어도 한 명 이상의 참가자가 변호사 목록에 있습니다. 그렇지 않으면 값이 **False입니다.**|
 |HasText*||Has_text|항목에 텍스트가 있는지 여부를 나타냅니다. 가능한 값은 **True** 및 **False입니다.**|
@@ -126,6 +127,7 @@ ms.locfileid: "52730501"
 |NativeSHA256||Native_SHA_256|파일 스트림의 SHA256 해시(256비트 해시 값)|
 |ND/ET 정렬: 첨부 파일 제외|NdEtSortExclAttach|ND_ET_sort_excl_attach|ET(전자 메일 스레드) 집합 및 ND(Near-duplicate) 집합의 연속입니다. 이 필드는 검토 시 효율적으로 정렬하는 데 사용됩니다. **D는** ND 집합에, **E는** ET 집합에 사전으로 추가됩니다.|
 |ND/ET 정렬: 첨부 파일 포함|NdEtSortInclAttach|ND_ET_sort_incl_attach|ET(전자 메일 스레드) 집합과 중복에 가까운 ND(복제본) 집합의 연속입니다. 이 필드는 검토 시 효율적으로 정렬하는 데 사용됩니다. **D는** ND 집합에, **E는** ET 집합에 사전으로 추가됩니다. ET 집합의 각 전자 메일 항목 다음에는 해당 첨부 파일이 표시됩니다.|
+|중복에 가까운 집합||ND_set|피벗 문서와 유사한 항목은 동일한 항목을 ND_set.|
 |O365 작성자||O365_authors|만든 이 SharePoint.|
 |O365에서 만든 O365||O365_created_by|2016에서 SharePoint.|
 |O365 만든 날짜||O365_date_created|만든 날짜를 SharePoint.|
@@ -155,6 +157,7 @@ ms.locfileid: "52730501"
 |보낸 사람 도메인|SenderDomain|Email_sender_domain|보낸 사람 도메인입니다.|
 |Sent|Sent|Email_date_sent|메시지의 보낸 날짜입니다.|
 |순서 설정: 우선 포함|SetOrderInclusivesFirst|Set_order_inclusives_first|정렬 필드 - 전자 메일 및 첨부 파일: 연도에 반시적; 문서: 먼저 유사성 점수를 내어 피벗합니다.|
+|ID 설정||Set_ID|동일한 전자 메일 스레드(ND_set) 내의 유사한 콘텐츠(Email_set) 또는 전자 메일의 문서는 동일한 Set_ID.|
 |SimilarityPercent||Similarity_percent|문서가 가까운 중복 집합의 피벗과 얼마나 유사한지 나타냅니다.|
 |기본 파일 크기|Size|Native_size|기본 항목의 bytes 수입니다.|
 |제목|제목|Email_subject|메시지의 제목입니다.|

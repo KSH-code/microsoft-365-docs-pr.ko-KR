@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: c47a5e58b1888447a4428fad78e71b85cfe79b69
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 55bf10d01093c17ba2d186ce0a1d1313db2c3a75
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167185"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770088"
 ---
 # <a name="get-ip-statistics-api"></a>IP 통계 API를 얻습니다.
 
@@ -64,7 +65,7 @@ GET /api/ips/{ip}/stats
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 ## <a name="request-uri-parameters"></a>요청 URI 매개 변수
 
@@ -79,7 +80,7 @@ lookBackHours | Int32 | 통계를 얻기 위해 다시 검색하는 시간을 �
 성공 및 ip가 있는 경우 - 본문에 통계 데이터가 있는 200 OK. IP가 존재하지 않습니다. 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 
