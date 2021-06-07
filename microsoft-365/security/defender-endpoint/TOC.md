@@ -244,17 +244,14 @@
 
 ### [공격 표면 감소]()
 #### [공격 표면 감소 개요](overview-attack-surface-reduction.md)
+#### [공격 표면 감소 기능 구성](configure-attack-surface-reduction.md)
+#### [공격 표면 감소 규칙에 대한 자세한 정보](attack-surface-reduction.md)
 #### [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
-#### [공격 표면 감소 구성 설정](configure-attack-surface-reduction.md)
+#### [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
+#### [공격 표면 감소 규칙 사용자 지정](customize-attack-surface-reduction.md)
 #### [공격 표면 감소 FAQ](attack-surface-reduction-faq.md)
-
-#### [공격 표면 감소 제어]()
-##### [공격 표면 감소 규칙](attack-surface-reduction.md)
-##### [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
-##### [공격 표면 감소 규칙 사용자 지정](customize-attack-surface-reduction.md)
-##### [공격 표면 감소 이벤트 보기](event-views.md)
-
-#### [감사 모드 사용](audit-windows-defender.md)
+#### [공격 표면 감소 이벤트 보기](event-views.md)
+#### [공격 노출 영역 감소에 감사 모드 사용](audit-windows-defender.md)
 
 ### 차세대 보호
 #### [Microsoft Defender 바이러스 백신 개요](microsoft-defender-antivirus-in-windows-10.md)
@@ -592,6 +589,13 @@
 ###### [Python을 사용하는 지능형 헌팅](run-advanced-query-sample-python.md)
 ###### [PowerShell을 사용하는 지능형 헌팅](run-advanced-query-sample-powershell.md)
 ###### [OData 쿼리 사용](exposed-apis-odata-samples.md)
+
+
+#### [원시 데이터 스트리밍 API]()
+##### [원시 데이터 스트리밍](raw-data-export.md)
+##### [Azure 이벤트 허브에 지능형 헌팅 이벤트 스트리밍](raw-data-export-event-hub.md)
+##### [저장소 계정에 지능형 헌팅 이벤트 스트리밍](raw-data-export-storage.md)
+
 
 #### [SIEM 통합]()
 ##### [위협 인텔리전스 개념 이해](threat-indicator-concepts.md)
