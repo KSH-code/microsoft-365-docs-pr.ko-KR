@@ -19,12 +19,12 @@ description: 관리자는 스푸핑 인텔리전스 정책 및 스푸핑 인텔�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 821488f79186e1b5c306b587764377989346eea5
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: f0e5c83bc50197e30c12f8f7aeedc83930d7ff5e
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52530889"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793211"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>EOP에서 스푸핑 인텔리전스 정책 및 스푸핑 인텔리전스 인사이트를 사용하여 스푸핑된 보낸 사람 관리
 
@@ -69,7 +69,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
   - [EOP에서 피싱 방지 정책을 구성합니다.](configure-anti-phishing-policies-eop.md)
   - [Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책을 Office 365.
 
-- 스푸핑 인텔리전스에 대한 권장 설정은 EOP 기본 피싱 방지 정책 설정을 [참조하세요.](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)
+- 스푸핑 인텔리전스에 대한 권장 설정은 EOP 피싱 방지 정책 [설정을 참조하세요.](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)
 
 ## <a name="manage-spoofed-senders"></a>스푸핑된 보낸 사람 관리
 
@@ -96,7 +96,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
    - **도메인:** 보낸 사람이 내부 도메인의 사용자를 스푸핑합니다.
    - **외부 도메인:** 보낸 사람이 외부 도메인의 사용자를 스푸핑합니다.
 
-5. 스푸핑 허용 여부 열에서 확장 ![ ](../../media/scc-expand-icon.png) **아이콘을** 클릭합니다. 예를 **선택하면** 스푸핑된 보낸 사람이 허용되거나 아니요를 선택하고 메시지를 스푸핑된 메시지로 표시합니다.  이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책(기본값은 정크 메일 폴더로 메시지 이동)에 의해 **제어됩니다.** 자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)
+5. 스푸핑 허용 여부 열에서 확장 ![ ](../../media/scc-expand-icon.png) **아이콘을** 클릭합니다. 예를 **선택하면** 스푸핑된 보낸 사람이 허용되거나 아니요를 선택하고 메시지를 스푸핑된 메시지로 표시합니다.  이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책(기본값은 정크 메일 폴더로 메시지 이동)에 의해 **제어됩니다.** 자세한 내용은 [피싱 방지 정책의 스푸핑 설정](set-up-anti-phishing-policies.md#spoof-settings)을 참조하세요.
 
    ![스푸핑된 보낸 사람 플라이아웃 및 보낸 사람이 스푸핑할 수 있는지 여부를 보여 주는 스크린샷](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 

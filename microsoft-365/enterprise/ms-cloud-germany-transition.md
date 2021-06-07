@@ -19,19 +19,19 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: ad6c81f04b9e8551ad6eeb6521f7562243df53e9
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 4162e51164120cecaa431ad6883d3ee112ad4880
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346307"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796009"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드에서 새 독일 Office 365 서비스로 마이그레이션
 
 > [!NOTE]
 > 이 문서는 적격 Microsoft 클라우드 도이클란드 고객에게만 적용됩니다.
 
-2018년 8월 Microsoft는 고객의 디지털 변환을 더욱 잘 지원하기 위해 독일의 새 클라우드 지역에서 완전한 Microsoft 클라우드인 Azure, Office 365, Dynamics 365 및 Power Platform을 제공하겠다는 의도를 발표했습니다. 2019년 8월, 독일의 신규 클라우드 지역 출범을 발표합니다.   이후 Azure, Office 365, Dynamics 365 및 Power Platform의 가용성을 발표했습니다.
+2018년 8월 Microsoft는 고객의 디지털 변환을 더욱 잘 가능하게 하기 위해 독일의 새 클라우드 지역에서 완전한 Microsoft 클라우드인 Azure, Office 365, Dynamics 365 및 Power Platform을 제공하겠다는 의도를 발표했습니다. 2019년 8월, 독일의 신규 클라우드 지역 출범을 발표합니다.   이후 Azure, Office 365, Dynamics 365 및 Power Platform의 가용성을 발표했습니다.
 
 새로운 지역은 독일 고객의 진화하는 요구를 보다 유연하게, 최신 지능형 클라우드 서비스, Microsoft 365 서비스 클라우드 네트워크 및 독일 내 고객 데이터 상주에 대한 완전한 연결로 처리하도록 디자인되었습니다.
 
@@ -64,7 +64,7 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 이 그림에서는 새로운 독일 데이터 센터로의 10개 마이그레이션 단계를 보여 주었다.
 
-![새 독일 데이터 센터로의 10단계 마이그레이션](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+:::image type="content" alt-text="새 독일 데이터 센터로의 10단계 마이그레이션" source="../media/ms-cloud-germany-migration-opt-in/migration-organization.png" lightbox="../media/ms-cloud-germany-migration-opt-in/migration-organization.png":::
 
 마이그레이션에 옵트인(opt [in)할 때 이러한 단계가 시작됩니다.](./ms-cloud-germany-migration-opt-in.md) 대부분의 마이그레이션 단계는 최소한의 고객 상호 작용이 필요하며 백 엔드 서비스 작업으로 실행되고 한 단계 후에 실행됩니다. 추가 고객 주도 작업의 시작 및 전체 마이그레이션 상태는 마이그레이션 프로세스 중에 Microsoft 365 관리 센터의 메시지 센터를 통해 전달됩니다. 작업의 예로는 고객 관리 DNS 업데이트, 하이브리드 고객을 위한 하이브리드 설정 Exchange 또는 Azure 마이그레이션이 있습니다.
 
@@ -201,7 +201,7 @@ Office 365 독일 데이터 센터 지역에 서비스를 제공합니다.
 
 Azure 고객만 있는 경우 현재 [](/azure/germany/germany-migration-main) Azure 리소스를 다른 지역으로 마이그레이션할 수 있습니다. 
 
-Azure에 Office 365, Dynamics 365 또는 Power BI Azure가 있는 경우 자체 지시 Azure 마이그레이션을 시작하기 전에 마이그레이션 프로세스를 수행하여 성공적인 마이그레이션을 보장해야 합니다. AzureAD 및 조직과 함께 Azure 워크로드를 유지 관리하려면 서비스가 완료되기 전에 Azure 마이그레이션을 Office 365 합니다.
+Office 365, Dynamics 365 또는 Power BI Azure가 있는 경우 자체 지시 Azure 마이그레이션을 시작하기 전에 먼저 Office 365 서비스에 대한 마이그레이션 프로세스를 따라야 합니다. Azure AD 및 테넌트 조직과 함께 Azure 워크로드를 유지 관리하려면 테넌트 마이그레이션을 완료하기 전에 Azure 마이그레이션을 Office 365 합니다. 자세한 [내용은 도이치란드 Microsoft](ms-cloud-germany-transition-phases.md) 클라우드에서 마이그레이션에 대한 마이그레이션 단계 작업 및 영향을 참조합니다.
 
 **Office 365**
 
@@ -303,7 +303,7 @@ Azure에 Office 365, Dynamics 365 또는 Power BI Azure가 있는 경우 자체 
 
 ### <a name="which-customers-are-affected-by-the-azure-active-directory-migration"></a>마이그레이션의 영향을 받는 고객은 Azure Active Directory 있나요? 
 
-Office365의 모든 고객은 Microsoft Azure Active Directory 서비스 운영에 필요한 중요한 서비스 구성 요소를 인증하고 저장하는 데 도움이 됩니다. 
+모든 고객 Office 365 Microsoft Azure Active Directory 서비스 운영에 필요한 중요한 서비스 구성 요소를 인증하고 저장하는 데 필요한 구성 요소에 의존합니다. 
 
 
 ### <a name="what-are-the-impacts-of-the-azure-active-directory-migration"></a>마이그레이션의 영향은 Azure Active Directory 무엇입니까?
