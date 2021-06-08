@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 회사 로고 또는 색에 맞게 Microsoft 365 모음 위쪽의 기본 테마를 변경하는 방법을 알아보고 사용자 지정합니다.
-ms.openlocfilehash: 5f6536d575ef055cda7a97a0860315c491100a1d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e609cbbc116f932d9c41f7ec797bf04a2a9c8ef8
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635929"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809050"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직의 Microsoft 365 테마 사용자 지정
 
@@ -39,7 +39,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 1. 관리 센터에서 조직 설정  설정 이동한 다음 조직 프로필 \>  **탭을** 선택합니다.
 
-2. 조직 **프로필 탭에서** 조직 테마 **를 선택합니다.**
+2. 조직 **프로필 탭에서** 사용자 지정 **테마 를 선택합니다.**
 
 다음 탭을 사용하여 모든 테마를 사용자 정의할 수 있습니다.
 
@@ -59,7 +59,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 1. 이전에 조직에 대한 테마를 사용자  지정한 경우 기본 테마를 선택하고 저장된 사용자 지정 중 하나를 사용하거나 테마 추가 **를 선택합니다.**
 2. 일반 **페이지에서** 사용자가 테마를 다시 지정하지 못하도록 방지하고 사용자의 표시 이름을 표시할 수 있습니다.
-3. 변경 내용을 저장하려면 **저장** 을 선택합니다.  
+3. **저장** 을 선택하여 변경 내용을 저장합니다.  
 
 > [!IMPORTANT]
 > 기본 테마는 고유하며 이름을 변경할 수 없습니다. 조직 내의 모든 사용자에 적용됩니다. 기본 테마를 삭제하려면 먼저 다른 모든 테마를 삭제해야 합니다.
@@ -88,7 +88,7 @@ You can add or update a default theme that applies to everyone within your org. 
 - **작은 대체 로고:** 로고를 지정하는 URL 위치를 추가합니다. 이 이미지의 요구 사항은 작은 기본 로고와 동일합니다.
 - **On-click link:** Add a URL location that points to your logo. 로고를 회사 웹 사이트와 같은 회사 리소스에 대한 링크로 사용할 수 있습니다.
 
-변경 내용을 저장하려면 **저장** 을 선택합니다.
+**저장** 을 선택하여 변경 내용을 저장합니다.
 
 로고는 어떤 경우든 제거할 수 있습니다. 로고 **페이지로 돌아가서** 제거를 **선택합니다.**
 
@@ -109,7 +109,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 :::image type="content" source="../../media/default-theme-colors.png" alt-text="Screenshot: Colors tab showing default theme colors for your organization":::
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="my-organization-already-has-a-theme-for-all-employees-how-will-this-change"></a>조직에 이미 모든 직원에 대한 테마가 있습니다. 이 변경은 어떻게 될까요?
 

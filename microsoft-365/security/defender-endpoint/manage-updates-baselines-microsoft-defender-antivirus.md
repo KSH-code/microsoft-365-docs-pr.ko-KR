@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/04/2021
-ms.openlocfilehash: a1b7891e9e397e7345eb73a94d6298a9da781d98
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.date: 06/07/2021
+ms.openlocfilehash: 33170d4706ed53f4de687c34806bb0492a08836e
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52795985"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809110"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -440,7 +440,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 - MRT 로그를 추가하여 파일 지원
    
 ### <a name="known-issues"></a>알려진 문제
-이 업데이트를 설치하면 장치에 점프 패키지 4.10.2001.10이 최신 플랫폼 버전으로 업데이트될 수 있게 됩니다.
+이 업데이트를 설치하면 디바이스에서 점프 패키지 4.18.2001.10을 최신 플랫폼 버전으로 업데이트해야 합니다.
 <br/>
 </details>
 

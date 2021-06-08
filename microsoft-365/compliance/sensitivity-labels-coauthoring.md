@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: 6506f72a7ff663c1fc1c32ca22a562f1f8ad3e0a
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 926f8aa188aeb1dbc7bb7b042d0a402acc49f7a3
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332729"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796057"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
@@ -48,7 +48,7 @@ Office 데스크톱 앱에 [공동 작성](https://support.office.com/article/ee
 
 Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, 이 작업이 Office 파일에 저장되고 거기에서 읽어오는 레이블 지정 메타데이터를 변경한다는 점을 이해하는 것이 중요합니다.
 
-레이블 지정 메타데이터에는 테넌트 및 적용된 민감도 레이블을 식별하는 정보가 포함됩니다. 이 설정에서 변경하는 것은 Word, Excel 및 PowerPoint의 암호화되지 않은 파일에 대한 메타데이터 형식 및 위치입니다. 암호화된 파일이나 전자 메일의 레이블 지정 메타데이터에는 변경이 없습니다.
+레이블 지정 메타데이터에는 테넌트 및 적용된 민감도 레이블을 식별하는 정보가 포함됩니다. 이 설정으로 인해 변경되는 사항은 Word, Excel 및 PowerPoint 파일의 메타데이터 형식과 위치입니다. 암호화된 파일 또는 전자 메일에 대해 어떤 조치도 취할 필요가 없습니다. 암호화된 파일에 대한 메타데이터 변경은 이전 버전과 호환되며 전자 메일에 대해 변경 내용은 없습니다. 그러나 암호화된 파일에 대한 메타데이터 변경 내용이 자동으로 업그레이드될 수 있지만 이전 버전과 호환되지 않는다는 것을 명심해야 합니다.
 
 이 변경 내용은 새로 레이블이 지정된 파일과 이미 레이블이 지정된 파일 모두에 영향을 미칩니다. 공동 작성 설정을 지원하는 앱 및 서비스를 사용하는 경우:
 - 새로 레이블을 지정한 파일의 경우 레이블 지정 메타데이터에는 새 형식과 위치만 사용합니다.

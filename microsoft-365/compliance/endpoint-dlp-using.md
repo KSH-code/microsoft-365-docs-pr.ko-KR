@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: cbd95ed3ee70b69b395f73c83852a9f37a269f0b
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 1a0297271c3e0e8fb94a476982f146aa8c221e7a
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259490"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809134"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -70,6 +70,9 @@ ms.locfileid: "52259490"
 > [!IMPORTANT]
 > 실행 파일 이름(예: 브라우저.exe)은 포함해야 하지만 실행 파일 경로는 포함하지 않아야 합니다.
 
+### <a name="unallowed-bluetooth-apps"></a>허용되지 않는 Bluetooth 앱
+
+특정 Bluetooth 앱을 통해 정책에 의해 보호되는 파일을 전송하지 못하게 합니다.
 
 ### <a name="browser-and-domain-restrictions"></a>브라우저 및 도메인 제한:
 정책과 일치하는 중요한 파일을 무제한 클라우드 서비스 도메인에 공유하지 못하도록 제한합니다.
@@ -97,6 +100,11 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 - 사용자는 기본 제공 사유만 선택할 수 있습니다.
 - 사용자는 고유의 사유만 입력할 수 있습니다.
 
+### <a name="always-audit-file-activity-for-devices"></a>장치에 대한 파일 활동 항상 감사
+
+기본적으로 장치가 온보딩되면 Office, PDF 및 CSV 파일에 대한 활동이 자동으로 감사되고 활동 탐색기에서 검토할 수 있게 됩니다. 온보딩된 장치가 활성 정책에 포함된 경우에만 이 활동을 감사하려면 이 기능을 끄세요.
+
+온보딩된 장치에 대한 파일 활동은 활성 정책에 포함된지의 여부에 상관없이 항상 감사됩니다.
 
 ## <a name="tying-dlp-settings-together"></a>DLP 설정 함께 연결
 

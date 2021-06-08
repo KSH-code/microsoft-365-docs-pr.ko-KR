@@ -19,12 +19,12 @@ ms.assetid: ''
 description: eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 Office 365 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d3d0830ac677ea812a0d09793de8214245d6b2a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 26ca41774e1e09619fdf5e518258f8acf3a9d938
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060993"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809122"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
@@ -89,6 +89,20 @@ SharePoint Online 및 비즈니스용 OneDiscovery 위치를 포함하는 eDisco
 1. 검색에서 식별된 위치를 확인하여 파일의 위치가 올바른지 확인하고 검색 위치에 추가하는지 확인합니다.
 
 2. 사이트, 라이브러리 [](/sharepoint/crawl-site-content) 또는 목록의 크롤링 및 다시 인덱싱을 수동으로 요청하는 절차에 따라 사이트를 다시 인덱싱합니다.
+
+## <a name="errorissue-this-file-wasnt-exported-because-it-doesnt-exist-anymore-the-file-was-included-in-the-count-of-estimated-search-results-because-its-still-listed-in-the-index-the-file-will-eventually-be-removed-from-the-index-and-wont-cause-an-error-in-the-future"></a>오류/문제: 더 이상 존재하지 않는 이 파일을 내보낼 수 없습니다. 파일은 인덱스에 계속 나열되어 있기 때문에 예상 검색 결과 수에 포함되어 있습니다. 결국 파일은 인덱스에서 제거되고 나중에 오류가 발생하지 않습니다.
+
+온라인 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 SharePoint 오류가 표시될 수 있습니다. eDiscovery는 SPO 인덱스를 사용하여 파일 위치를 식별합니다. 파일을 삭제했지만 SPO 인덱스가 아직 업데이트되지 않은 경우 이 오류가 발생할 수 있습니다.
+
+### <a name="resolution"></a>해결 방법 
+SPO 위치를 열고 이 파일이 실제로 해당 위치에 없는지 확인해야 합니다.
+권장되는 해결 방법은 사이트를 수동으로 다시 인덱스하거나 사이트가 자동 백그라운드 프로세스에 의해 다시 인덱스될 때까지 기다리는 것입니다.
+
+
+## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artefact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>오류/문제: 폴더 또는 자체적으로 다운로드할 수 없는 다른 아트 페이지이기 때문에 이 검색 결과가 다운로드되지 않은 경우 폴더 또는 라이브러리의 항목이 다운로드됩니다.
+
+온라인 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 SharePoint 오류가 표시될 수 있습니다. 즉, 인덱스에 보고된 항목을 시도하고 내보내려고 했지만 내보낼 수 없는 폴더로 표시되었습니다. 오류에서 설명한 것 처럼 폴더 항목을 내보낼 수 없지만 해당 콘텐츠를 내보낼 수 있습니다.
+
 
 ## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>오류/문제: 받는 사람을 찾을 수 없는 경우 검색이 실패합니다.
 

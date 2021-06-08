@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
-ms.openlocfilehash: 917a44f4b6f7458c50ac193b95c7751c66c9e7cd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 66cb3436fe6903c429e3c1950eee040b21c6dc9d
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52530973"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809002"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -33,7 +33,7 @@ ms.locfileid: "52530973"
   
 지난 7일, 30일, 90일 및 180일에 대한 보고서를 사용할 수 있습니다. 모든 보고 기간에 해당하는 데이터가 바로 준비되지는 않습니다. 보고서는 48시간 내에 사용할 수 있습니다.
   
-개요에 대한 비디오를 시청하세요. 보고서를 사용하는 방법에 대해 알아봅니다.
+## <a name="watch-act-on-a-usage-report-in-office-365"></a>시청: Office 365 사용 현황 보고서 활용
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/fb726f8e-aead-43b2-ba0f-53ba5b886bf7?autoplay=false]
   
@@ -88,52 +88,30 @@ ms.locfileid: "52530973"
 - [Microsoft 브라우저 사용량](browser-usage-report.md) 
   
 - [이메일 활동](email-activity-ww.md)
-
-- [미국 정부 기관용 전자 메일 활동](email-activity.md)
     
 - [사서함 사용 현황](mailbox-usage.md)
     
 - [Office 정품 인증](microsoft-office-activations-ww.md)
 
-- [미국식 정부 기관용 Office 정품 인증](microsoft-office-activations.md)
-
 - [활성 사용자](active-users-ww.md)
-
-- [미국 정부 기관용 활성 사용자](active-users.md)
   
 - [이메일 앱 사용 현황](email-apps-usage-ww.md)
 
-- [미국 정부용 전자 메일 앱 사용](email-apps-usage.md)
-
 - [양식 활동](forms-activity-ww.md)
 
-- [미국 정부 기관용 Yammer 활동](forms-activity.md)
-
 - [Dynamics 365 고객 음성 활동](forms-pro-activity-ww.md)
-  
-- [미국 정부 기관용 Dynamics 365 고객 음성 활동](forms-pro-activity.md)
 
 - [Microsoft 365 그룹](office-365-groups-ww.md)
-
-- [미국 정부 기관용 Microsoft 365 그룹](office-365-groups.md)
   
 - [비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity-ww.md)
 
-- [미국 정부 기관용 비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity.md)
-
 - [비즈니스용 OneDrive 사용 현황](onedrive-for-business-usage-ww.md)
-
-- [미국 정부 기관용 비즈니스용 OneDrive 사용](onedrive-for-business-usage.md)
 
 - [Microsoft 365 앱 사용 현황](microsoft365-apps-usage-ww.md)
   
 - [SharePoint 사이트 사용 현황](sharepoint-site-usage-ww.md)
-
-- [미국 정부 기관용 SharePoint 사이트 사용 현황](sharepoint-site-usage.md)
   
 - [SharePoint 활동](sharepoint-activity-ww.md)
-
-- [미국 정부 기관용 SharePoint 활동](sharepoint-activity.md)
   
 - [Skype for Business Online activity](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)(비즈니스용 Skype Online 활동)
   
@@ -145,23 +123,13 @@ ms.locfileid: "52530973"
 
 - [Yammer 활동](yammer-activity-report-ww.md)
 
-- [미국 정부 기관용 Yammer 활동](yammer-activity-report.md)
-
 - [Yammer 장치 사용 현황](yammer-device-usage-report-ww.md)
-
-- [미국 정부 기관용 Yammer 장치](yammer-device-usage-report.md)
 
 - [Yammer 그룹 활동 보고서](yammer-groups-activity-report-ww.md)
 
-- [미국 정부 기관용 Yammer 그룹 활동 보고서](yammer-groups-activity-report.md)
-
 - [Microsoft Teams 사용자 활동](microsoft-teams-user-activity-preview.md)
 
-- [미국 정부 기관용 Microsoft Teams 사용자 활동](microsoft-teams-user-activity.md)
-
 - [Microsoft Teams 장치 사용 현황](microsoft-teams-device-usage-preview.md)
-
-- [미국 정부 기관용 Microsoft Teams 장치](microsoft-teams-device-usage.md)
 
 ## <a name="how-to-view-licensing-information"></a>라이선스 정보를 보는 방법
 
@@ -201,8 +169,6 @@ ms.locfileid: "52530973"
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[보안 &amp; 준수 센터의 보고서](../../compliance/reports-in-security-and-compliance.md)(문서)
-
-[Microsoft 365 사용 현황 분석](../usage-analytics/usage-analytics.md)(문서)
-
+[보안 &amp; 준수 센터의 보고서](../../compliance/reports-in-security-and-compliance.md)(문서)\
+[Microsoft 365 사용 현황 분석](../usage-analytics/usage-analytics.md)(문서)\
 [Microsoft 365 사용 현황 분석 도구에서 보고서 사용자 지정](../usage-analytics/customize-reports.md)(문서)
