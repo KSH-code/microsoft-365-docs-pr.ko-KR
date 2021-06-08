@@ -380,7 +380,7 @@ ms.locfileid: "51445688"
 7. <span data-ttu-id="ef4e1-599">정책에 추가할 사용자 목록을 가져오려면 **가져오기** 를 선택하여 .csv(쉼표로 구분된 값) 파일을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="ef4e1-599">To import a list of users to add to the policies, select **Import** to import a .csv (comma-separated values) file.</span></span> <span data-ttu-id="ef4e1-600">파일은 다음 형식이어야 하며 파일의 사용자 계정 이름을 나열해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef4e1-600">The file must be in the following format and you must list the user principal names in the file:</span></span>
 
     ```csv
-    user principal name
+    사용자 계정 이름
     user1@domain.com
     user2@domain.com
     ```
