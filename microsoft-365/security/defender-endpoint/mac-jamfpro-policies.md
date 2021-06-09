@@ -1,6 +1,6 @@
 ---
-title: Jamf Pro에서 macOS 정책에 대한 끝점용 Microsoft Defender 설정
-description: Jamf Pro에서 macOS 정책에 대한 끝점용 Microsoft Defender를 설정하는 방법을 배우기
+title: Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
+description: Jamf 2013에서 macOS 정책에 대한 끝점용 Microsoft Defender를 설정하는 Pro
 keywords: 정책, microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamfpro, macos, 카탈리나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 84d0b37632dc23615a37bbbd73c17fe509dedae5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: e26bb85fc74b6be49a9f8116792a7f28e8fa7e05
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934684"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842269"
 ---
-# <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf Pro에서 macOS 정책에 대한 끝점용 Microsoft Defender 설정
+# <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -34,13 +34,13 @@ ms.locfileid: "51934684"
 
 - [Mac의 끝점용 Defender](microsoft-defender-endpoint-mac.md)
 
-이 페이지에서는 Jamf Pro에서 macOS 정책을 설정하는 데 필요한 단계를 안내합니다.
+이 페이지에서는 Jamf 2013에서 macOS 정책을 설정하는 데 필요한 단계를 Pro.
 
 다음 단계를 수행해야 합니다.
 
 1. [끝점용 Microsoft Defender 온보딩 패키지 다운로드](#step-1-get-the-microsoft-defender-for-endpoint-onboarding-package)
 
-2. [온보더링 패키지를 사용하여 Jamf Pro에서 구성 프로필 만들기](#step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package)
+2. [온보더링 패키지를 사용하여 Jamf Pro 구성 프로필 만들기](#step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package)
 
 3. [끝점 설정에 맞게 Microsoft Defender 구성](#step-3-configure-microsoft-defender-for-endpoint-settings)
 
@@ -56,18 +56,18 @@ ms.locfileid: "51934684"
 
 9. [네트워크 확장 구성](#step-9-configure-network-extension)
 
-10. [MacOS의 끝점에 대한 Microsoft Defender 검사 예약](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+10. [MacOS의 끝점에 대한 Microsoft Defender 검사 예약](/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
 11. [macOS에서 끝점용 Microsoft Defender 배포](#step-11-deploy-microsoft-defender-for-endpoint-on-macos)
 
 
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>1단계: 끝점용 Microsoft Defender 온보딩 패키지 다운로드
 
-1. [Microsoft Defender 보안 센터에서](https://securitycenter.microsoft.com )설정 > **온보딩으로 이동합니다.** 
+1. 에서 [Microsoft Defender 보안 센터](https://securitycenter.microsoft.com )에서 **온보 설정 > 로 이동합니다.** 
 
-2. 운영 체제로 macOS를 선택하고 배포 방법으로 모바일 장치 관리/Microsoft Intune을 선택합니다.
+2. 운영 체제로 macOS를 선택하고 배포 방법으로 모바일 Microsoft Intune/를 선택합니다.
 
-    ![Microsoft Defender 보안 센터의 이미지](images/onboarding-macos.png)
+    ![이미지 Microsoft Defender 보안 센터](images/onboarding-macos.png)
 
 3. **온보더링 패키지 다운로드(WindowsDefenderATPOnboardingPackage.zip).**
 
@@ -76,7 +76,7 @@ ms.locfileid: "51934684"
 5. 파일을 원하는 위치에 복사합니다. 예:  `C:\Users\JaneDoe_or_JohnDoe.contoso\Downloads\WindowsDefenderATPOnboardingPackage_macOS_MDM_contoso\jamf\WindowsDefenderATPOnboarding.plist`.
 
 
-## <a name="step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package"></a>2단계: 온보더링 패키지를 사용하여 Jamf Pro에서 구성 프로필 만들기
+## <a name="step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package"></a>2단계: 온보더링 패키지를 사용하여 Jamf Pro 프로필 만들기
 
 1. 이전 `WindowsDefenderATPOnboarding.plist` 섹션에서 파일을 찾습니다.
 
@@ -85,22 +85,22 @@ ms.locfileid: "51934684"
  
 2. Jamf Pro 대시보드에서 새로 만들 를 **선택합니다.**
 
-    ![새 Jamf Pro 대시보드를 만드는 이미지](images/jamf-pro-configure-profile.png)
+    ![새 Jamf Pro 이미지](images/jamf-pro-configure-profile.png)
 
 3. 다음 세부 정보를 입력합니다.
 
    **일반**
-   - 이름: macOS용 MDATP 온보드
-   - 설명: macOS용 MDATP EDR 온보더링
+   - 이름: MDATP macOS용 온보드
+   - 설명: MDATP EDR macOS용 온보더링
    - 범주: 없음
    - 배포 방법: 자동으로 설치
    - 수준: 컴퓨터 수준
 
-4. 응용 **프로그램 & 사용자 지정 설정 구성을** **선택합니다.**
+4. 응용 **프로그램 & 사용자 지정 설정** 구성을 **선택합니다.**
 
     ![앱 및 사용자 지정 설정 구성 이미지](images/jamfpro-mac-profile.png)
 
-5. 파일 **업로드(PLIST 파일)를** 선택한 다음 **기본 설정 도메인에서 다음을** 입력합니다. `com.microsoft.wdav.atp` . 
+5. 기본 **업로드 파일(PLIST 파일)을** 선택한 다음 기본 설정 **도메인에** 다음을 입력합니다. `com.microsoft.wdav.atp` . 
 
     ![jamfpro plist 업로드 파일의 이미지](images/jamfpro-plist-upload.png)
 
@@ -110,7 +110,7 @@ ms.locfileid: "51934684"
 
     ![온보더링 파일의 이미지](images/jamfpro-plist-file-onboard.png)
 
-8. 업로드를 **선택합니다.** 
+8. 를 **업로드.** 
 
     ![plist 파일 업로드 이미지](images/jamfpro-upload-plist.png)
 
@@ -273,7 +273,7 @@ ms.locfileid: "51934684"
 
 3.  Jamf Pro 대시보드에서 일반 을 **선택합니다.**
 
-    ![새 Jamf Pro 대시보드의 이미지](images/644e0f3af40c29e80ca1443535b2fe32.png)
+    ![새 Jamf Pro 이미지](images/644e0f3af40c29e80ca1443535b2fe32.png)
 
 4. 다음 세부 정보를 입력합니다.
 
@@ -285,9 +285,9 @@ ms.locfileid: "51934684"
     - 배포 방법: 자동으로 설치(기본값)
     - 수준: 컴퓨터 수준(기본값)
 
-    ![MDATP MDAV 구성 설정의 이미지](images/3160906404bc5a2edf84d1d015894e3b.png)
+    ![MDAV MDATP 설정의 이미지](images/3160906404bc5a2edf84d1d015894e3b.png)
 
-5. 응용 **프로그램 & 사용자 지정 설정 구성을** **선택합니다.**
+5. 응용 **프로그램 & 사용자 지정 설정** 구성을 **선택합니다.**
 
     ![앱 및 사용자 지정 설정의 이미지](images/e1cc1e48ec9d5d688087b4d771e668d2.png)
 
@@ -295,7 +295,7 @@ ms.locfileid: "51934684"
 
     ![구성 설정 plist 파일의 이미지](images/6f85269276b2278eca4bce84f935f87b.png)
 
-7. 기본 **설정 도메인에서** `com.microsoft.wdav` 를 입력한 다음 **PLIST 파일 업로드를 선택합니다.**
+7. 기본 **설정 도메인에서** `com.microsoft.wdav` 를 입력한 다음 **PLIST 업로드 선택합니다.**
 
     ![구성 설정 기본 설정 도메인의 이미지](images/db15f147dd959e872a044184711d7d46.png)
 
@@ -307,7 +307,7 @@ ms.locfileid: "51934684"
 
     ![mdatpmdav 구성 설정의 이미지](images/98acea3750113b8dbab334296e833003.png)
 
-10. 업로드를 **선택합니다.**
+10. 를 **업로드.**
 
     ![구성 설정 업로드 이미지](images/0adb21c13206861ba9b30a879ade93d3.png)
 
@@ -354,7 +354,7 @@ ms.locfileid: "51934684"
 2. 새로 **추가를** 클릭하고 옵션에 대해 다음 세부 정보를 **입력합니다.**
     
     - Tab **일반**: 
-        - **이름:** MDATP MDAV 알림 설정
+        - **이름:** MDATP MDAV 알림 설정 지정
         - **설명:** macOS 10.15(카탈로니아) 이상
         - **범주:** *없음(기본값)*
         - **배포 방법:** 자동으로 *설치(기본값)*
@@ -373,7 +373,7 @@ ms.locfileid: "51934684"
 
         ![구성 설정의 이미지 mdatpmdav 알림 트레이](images/7f9138053dbcbf928e5182ee7b295ebe.png)
 
-    - 탭 **알림**, **한** 번 더 추가를 클릭하고 아래로 스크롤하여 새 **알림 설정**
+    - 탭 **알림,** **한** 번 더 추가를 클릭하고 새 알림 페이지로 **설정**
         - **번들 ID**: `com.microsoft.autoupdate2`
         - 나머지 설정은 위의 값과 동일한 값으로 구성합니다.
 
@@ -430,12 +430,12 @@ ms.locfileid: "51934684"
     **일반** 
     
     - 이름: MDATP MDAV MAU 설정
-    - 설명: MacOS용 MDATP에 대한 Microsoft 자동 업데이트 설정
+    - 설명: macOS용 MDATP Microsoft 자동 업데이트 설정
     - 범주: 없음(기본값)
     - 배포 방법: 자동으로 설치(기본값)
     - 수준: 컴퓨터 수준(기본값)
 
-5. 응용 **프로그램 & 사용자 지정 설정 구성을** **선택합니다.**
+5. 응용 **프로그램 & 사용자 지정 설정** 구성을 **선택합니다.**
 
     ![구성 설정 앱 및 사용자 지정 설정의 이미지](images/1f72e9c15eaafcabf1504397e99be311.png)
 
@@ -443,7 +443,7 @@ ms.locfileid: "51934684"
 
     ![구성 설정 plist의 이미지](images/1213872db5833aa8be535da57653219f.png)  
 
-7. 기본 **설정 도메인에** 다음을 `com.microsoft.autoupdate2` 입력한 다음 **PLIST 파일 업로드를 선택합니다.**
+7. 기본 **설정 도메인에** 다음을 입력한 다음 `com.microsoft.autoupdate2` **PLIST 업로드 선택합니다.**
 
     ![구성 설정 pref 도메인의 이미지](images/1213872db5833aa8be535da57653219f.png)
 
@@ -455,7 +455,7 @@ ms.locfileid: "51934684"
 
     ![구성 설정 mdatpmdavmau 설정의 이미지](images/a26bd4967cd54bb113a2c8d32894c3de.png)
 
-10. 업로드를 **선택합니다.**
+10. 를 **업로드.**
     ![구성 설정 uplimage 이미지](images/4239ca0528efb0734e4ca0b490bfb22d.png)
 
     ![구성 설정 uplimg 이미지](images/4ec20e72c8aed9a4c16912e01692436a.png)
@@ -491,7 +491,7 @@ ms.locfileid: "51934684"
 3. 다음 세부 정보를 입력합니다.
 
     **일반** 
-    - 이름: MDATP MDAV - EDR 및 AV에 대한 전체 디스크 액세스 권한 부여
+    - 이름: MDATP MDAV - EDR 및 AV에 대한 모든 디스크 액세스 권한 부여
     - 설명: macOS 카탈로니아 이상에서 새로운 개인 정보 기본 설정 정책 컨트롤
     - 범주: 없음
     - 배포 방법: 자동으로 설치
@@ -569,7 +569,7 @@ ms.locfileid: "51934684"
     
     ![구성 설정 donimg2의 이미지](images/6c8b406ee224335a8c65d06953dc756e.png)
 
-또는 Jamf Pro를 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [fulldisk.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 수 있습니다| 방법 2: Jamf Pro에 구성 프로필 업로드.](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)
+또는 Jamf 2013을 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [fulldisk.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 Pro| 방법 2: 업로드 프로필을 Jamf](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)Pro.
 
 ## <a name="step-7-approve-kernel-extension-for-microsoft-defender-for-endpoint"></a>7단계: 끝점용 Microsoft Defender에 대한 커널 확장 승인
 
@@ -585,7 +585,7 @@ ms.locfileid: "51934684"
     **일반** 
     
     - 이름: MDATP MDAV 커널 확장
-    - 설명: MDATP 커널 확장(kext)
+    - 설명: MDATP 확장명(kext)
     - 범주: 없음
     - 배포 방법: 자동으로 설치
     - 수준: 컴퓨터 수준
@@ -624,7 +624,7 @@ ms.locfileid: "51934684"
 
     ![doneimag 구성 설정의 이미지](images/1c9bd3f68db20b80193dac18f33c22d0.png)
 
-또는 Jamf Pro를 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [kext.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/kext.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 수 있습니다| 방법 2: Jamf Pro에 구성 프로필 업로드.](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)
+또는 Jamf 2013을 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [kext.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/kext.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 Pro| 방법 2: 업로드 프로필을 Jamf](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)Pro.
 
 ## <a name="step-8-approve-system-extensions-for-microsoft-defender-for-endpoint"></a>8단계: 끝점용 Microsoft Defender의 시스템 확장 승인
 
@@ -637,7 +637,7 @@ ms.locfileid: "51934684"
     **일반**
     
     - 이름: MDATP MDAV 시스템 확장
-    - 설명: MDATP 시스템 확장
+    - 설명: MDATP 확장
     - 범주: 없음
     - 배포 방법: 자동으로 설치
     - 수준: 컴퓨터 수준
@@ -681,7 +681,7 @@ ms.locfileid: "51934684"
 
 ## <a name="step-9-configure-network-extension"></a>9단계: 네트워크 확장 구성
 
-끝점 감지 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
+끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
 이러한 단계는 macOS 10.15(카탈로니아) 이상에서 적용할 수 있습니다.
 
@@ -697,7 +697,7 @@ ms.locfileid: "51934684"
         - **수준:** 컴퓨터 *수준(기본값)*
 
     - 탭 **콘텐츠 필터**:
-        - **필터 이름:** Microsoft Defender ATP 콘텐츠 필터
+        - **필터 이름**: Microsoft Defender ATP 필터
         - **식별자**: `com.microsoft.wdav`
         - 서비스 **주소,** **조직,** **사용자 이름,** **암호,** **인증서** 비워 두기(포함이 *선택되지* 않았습니다.
         - **필터 순서:** 검사기
@@ -729,11 +729,11 @@ ms.locfileid: "51934684"
 
     ![구성 설정 netextfinal의 이미지](images/netext-final.png)
 
-또는 Jamf Pro를 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [netfilter.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 수 있습니다| 방법 2: Jamf Pro에 구성 프로필 업로드.](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)
+또는 Jamf 구성 프로필을 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [netfilter.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) 다운로드하여 JAMF 구성 프로필에 업로드할 [Pro| 방법 2: 업로드 프로필을 Jamf](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)Pro.
 
 
 ## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>10단계: MacOS의 끝점에 대한 Microsoft Defender 검사 예약
-[MacOS의 끝점에 대한 Microsoft Defender 검사 예약에 대한 지침을 따릅니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+[MacOS의 끝점에 대한 Microsoft Defender 검사 예약에 대한 지침을 따릅니다.](/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
 
 ## <a name="step-11-deploy-microsoft-defender-for-endpoint-on-macos"></a>11단계: macOS에서 끝점용 Microsoft Defender 배포
@@ -746,7 +746,7 @@ ms.locfileid: "51934684"
 
     ![파일 탐색기1 wdavmdmpkg의 이미지](images/fb2220fed3a530f4b3ef36f600da0c27.png)
 
-3. Jamf Pro 대시보드를 열 수 있습니다.
+3. Jamf Pro 를 열 수 있습니다.
 
     ![구성 설정 jamfpro의 이미지](images/990742cd9a15ca9fdd37c9f695d1b9f4.png)
 
@@ -770,7 +770,7 @@ ms.locfileid: "51934684"
     
     ![컴퓨터 화면의 스크린샷 자동으로 생성되는 설명](images/1aa5aaa0a387f4e16ce55b66facc77d1.png)
 
-7. **열기** 를 선택합니다. 표시 **이름을** Microsoft Defender Advanced Threat Protection 및 **Microsoft Defender 바이러스 백신으로 설정**
+7. **열기** 를 선택합니다. 표시 이름을 **으로** **Microsoft Defender Advanced Threat Protection Microsoft Defender 바이러스 백신.**
 
     **매니페스트 파일은** 필요하지 않습니다. 끝점용 Microsoft Defender는 매니페스트 파일 없이 작동합니다.
     
@@ -780,7 +780,7 @@ ms.locfileid: "51934684"
     
      ![구성 설정 제한 탭의 이미지](images/56dac54634d13b2d3948ab50e8d3ef21.png)
    
-8. **저장** 을 선택합니다. 패키지가 Jamf Pro에 업로드됩니다. 
+8. **저장** 을 선택합니다. 패키지가 Jamf 2013에 Pro. 
 
    ![구성 설정 팩 upl jamf pro의 이미지](images/33f1ecdc7d4872555418bbc3efe4b7a3.png)
 
@@ -799,7 +799,7 @@ ms.locfileid: "51934684"
 
 11. **일반에서** 다음 세부 정보를 입력합니다.
 
-    - 표시 이름: MDATP 온보드 Contoso 200329 v100.86.92 이상
+    - 표시 이름: MDATP Contoso 200329 v100.86.92 이상
 
     ![구성 설정mdatponboard의 이미지 ](images/625ba6d19e8597f05e4907298a454d28.png)
 
@@ -814,9 +814,9 @@ ms.locfileid: "51934684"
  
     ![구성 설정 팩 구성 이미지](images/8fb4cc03721e1efb4a15867d5241ebfb.png)
 
-15. Microsoft  Defender Advanced Threat Protection 및 Microsoft Defender 바이러스 백신 옆에 있는 추가 **단추를 선택합니다.**
+15. 추가 **단추를** 선택하고 Microsoft Defender Advanced Threat Protection **단추를 Microsoft Defender 바이러스 백신.**
 
-    ![구성 설정의 이미지 MDATP 및 MDA 추가](images/526b83fbdbb31265b3d0c1e5fbbdc33a.png)
+    ![구성 설정 및 MDA MDATP 이미지](images/526b83fbdbb31265b3d0c1e5fbbdc33a.png)
 
 16. **저장** 을 선택합니다.
 

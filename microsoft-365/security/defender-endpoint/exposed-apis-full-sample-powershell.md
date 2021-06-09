@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/24/2018
 ms.technology: mde
-ms.openlocfilehash: 9913d1b0b0d5d0462fdee0b9c576a590bd3ddbc9
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ef6d05bb27018bb72f731da2e8b7837c9d9f0127
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198329"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842065"
 ---
 # <a name="microsoft-defender-for-endpoint-apis-using-powershell"></a>PowerShell을 사용하여 끝점 API용 Microsoft Defender
 
@@ -55,7 +55,7 @@ ms.locfileid: "51198329"
   Set-ExecutionPolicy -ExecutionPolicy Bypass
   ```
 
-자세한 내용은 [PowerShell 설명서를 참조하세요.](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)
+자세한 내용은 [PowerShell 설명서를 참조하세요.](/powershell/module/microsoft.powershell.security/set-executionpolicy)
 
 ## <a name="get-token"></a>토큰을 얻다
 
@@ -132,4 +132,4 @@ $response
 ## <a name="see-also"></a>참고 항목
 - [끝점 API용 Microsoft Defender](apis-intro.md)
 - [고급 헌팅 API](run-advanced-query-api.md)
-- [Python을 사용한 고급 헌팅](run-advanced-query-sample-python.md)
+- [Python을 사용하는 지능형 헌팅](run-advanced-query-sample-python.md)

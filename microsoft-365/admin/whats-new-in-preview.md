@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: d4bd7d02b8c14f8b57b6f2e3eef99c2233d820fe
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 5bb8377dd45714dcdf25533055159f8964acc558
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779894"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841969"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
 
@@ -291,7 +291,7 @@ Azure Active Directory 관리 센터에 새로운 Microsoft 365 추가되었습�
 
 ### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365 솔루션 및 아키텍처 센터
 
-이번 달에, 보안 및 규정 준수 공동 작업을 위해 통합된 Microsoft 365 솔루션을 이해하고 계획하고 구현하는 데 필요한 기술 지침을 통합하는 Microsoft 365 솔루션 및 아키텍처 센터라는 새 사이트를 [https://docs.microsoft.com]() 출시했습니다. [](../solutions/index.yml) 이 센터에서 다음을 찾을 수 있습니다.
+이번 달에, docs.microsoft.com 솔루션 및 아키텍처 센터라는 새 사이트를 출시했습니다 [Microsoft 365.](../solutions/index.yml)이 사이트를 통해 안전하고 규정을 준수하는 공동 작업을 위해 통합된 Microsoft 365 솔루션을 이해하고 계획하고 구현하는 데 필요한 기술 지침을 제공합니다. 이 센터에서 다음을 찾을 수 있습니다.
 
 - 기본 솔루션 지침
 - 워크로드 솔루션 및 시나리오 지침

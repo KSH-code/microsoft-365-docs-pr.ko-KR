@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 끝점용 Microsoft Defender
-description: 보안 센터에서 Microsoft Defender 보안 센터 변경된 Microsoft 365 정보
-keywords: Microsoft 365 보안 센터, microsoft Defender for Office 365, Endpoint용 Microsoft Defender, MDO, MDE, 단일 창, 수렴형 포털, 보안 포털, Defender 보안 포털
+title: Microsoft Defender for Endpoint in Microsoft 365 Defender
+description: Defender에서 변경된 Microsoft Defender 보안 센터 Microsoft 365 자세히 알아보기
+keywords: Microsoft 365 Defender, microsoft Defender for Office 365, Endpoint용 Microsoft Defender, MDO, MDE, 보안 포털, Defender 보안 포털 시작
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -19,14 +19,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 487fc87c613d7321e3ae608097d98d2c90f8874e
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b43b7c99c6585e8610d34f3c4e5b372fb1c829a2
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771912"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842629"
 ---
-# <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft 365 끝점용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint-in-microsoft-365-defender"></a>Microsoft Defender for Endpoint in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,16 +34,15 @@ ms.locfileid: "52771912"
 
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365)
 
 ## <a name="quick-reference"></a>빠른 참조
 
-아래 이미지와 아래 표에는 보안 센터와 Microsoft Defender 보안 센터 탐색의 Microsoft 365 나열되어 있습니다.
+아래 이미지와 아래 표에는 Defender와 Microsoft Defender 보안 센터 탐색 Microsoft 365 나열되어 있습니다.
 
 > [!div class="mx-imgBorder"]
 > ![이동한 위치의 이미지](../../media/mde-m3d-security-center.png)
 
-| Microsoft Defender 보안 센터 | Microsoft 365 보안 센터 |
+| Microsoft Defender 보안 센터 | Microsoft 365 Defender |
 |---------|---------|
 | 대시보드 <ul><li>보안 운영</li><li>위협 분석</li></ul>  |홈 <ul><li>위협 분석</li></ul>   |
 | 인시던트 | 인시던트 & 경고 |
@@ -58,40 +57,39 @@ ms.locfileid: "52771912"
 | 구성 관리 | 구성 관리 |
 | 설정 | 설정 | 
 
-향상된 Microsoft 365 보안 센터는 전자 메일, 공동 [작업,](overview-security-center.md) ID 및 장치 위협을 보호, 감지, 조사 및 대응하는 보안 [https://security.microsoft.com](https://security.microsoft.com) 기능을 결합합니다. 이 보안 센터는 보안 및 규정 준수 센터를 비롯한 기존 Microsoft Microsoft Defender 보안 센터 기능을 Office 365 & 제공합니다.
+향상된 Microsoft 365 [Defender는](overview-security-center.md) 전자 메일, 공동 작업, ID 및 장치 위협을 보호, 감지, 조사 및 대응하는 보안 [https://security.microsoft.com](https://security.microsoft.com) 기능을 결합합니다. 이를 통해 보안 및 규정 준수 센터를 비롯한 기존 Microsoft Microsoft Defender 보안 센터 기능을 Office 365 & 있습니다.
 
-이 문서의 내용에 익숙한 Microsoft Defender 보안 센터 이 문서는 향상된 보안 센터의 일부 변경 및 Microsoft 365 설명하는 데 도움이 됩니다. 그러나 인식해야 할 몇 가지 새 요소와 업데이트된 요소가 있습니다.
+이 문서의 내용에 익숙한 Microsoft Defender 보안 센터 이 문서는 Microsoft 365 Defender에서 일부 변경 및 개선된 기능을 설명하는 데 도움이 됩니다. 그러나 인식해야 할 몇 가지 새 요소와 업데이트된 요소가 있습니다.
 
-지금까지는 Microsoft Defender 보안 센터 [](/windows/security/threat-protection/microsoft-defender-atp/portal-overview) Microsoft Defender for Endpoint의 홈입니다. Enterprise 보안 팀은 이를 사용하여 잠재적인 지속적인 위협 활동 또는 데이터 위반에 대한 경고를 모니터링하고 대응하는 데 도움을 주었다. 포털 수를 줄이기 위해 Microsoft 365 보안 센터는 Microsoft ID, 데이터, 장치, 앱 및 인프라에서 보안을 모니터링하고 관리할 수 있는 홈이 됩니다.
+지금까지는 Microsoft Defender 보안 센터 [](/windows/security/threat-protection/microsoft-defender-atp/portal-overview) Microsoft Defender for Endpoint의 홈입니다. Enterprise 보안 팀은 이를 사용하여 잠재적인 지속적인 위협 활동 또는 데이터 위반에 대한 경고를 모니터링하고 대응하는 데 도움을 주었다. 포털 수를 줄이기 위해 Microsoft 365 Defender는 Microsoft ID, 데이터, 장치, 앱 및 인프라에서 보안을 모니터링하고 관리하기 위한 홈이 될 것입니다.
 
-Microsoft 365 보안 센터의 끝점용 Microsoft Defender는 Microsoft Defender 보안 센터에서 액세스 권한을 부여하는 동일한 방식으로 [MSSP(관리되는](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) 보안 서비스 공급자)에 대한 액세스 권한을 [부여할 수 있도록 지원합니다.](mssp-access.md)
-
+Microsoft 365 Defender for Endpoint는 Microsoft Defender 보안 센터에서 액세스 권한을 부여하는 동일한 방식으로 [MSSP(관리되는](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) 보안 서비스 공급자)에 대한 액세스 권한을 [부여할 수](mssp-access.md)있도록 지원합니다.
 
 > [!IMPORTANT]
-> 보안 센터에 Microsoft 365 내용은 현재 구독에 따라 다를 수 있습니다. 예를 들어 Microsoft Defender for Office 365 라이선스가 없는 경우 전자 메일 & 공동 작업 섹션이 표시되지 않습니다.
+> Defender에 Microsoft 365 표시하는 내용은 현재 구독에 따라 다를 수 있습니다. 예를 들어 Microsoft Defender for Office 365 라이선스가 없는 경우 전자 메일 & 공동 작업 섹션이 표시되지 않습니다.
 
->[!Note]
->새 통합 포털은 다음에 사용할 수 없습니다.
+> [!Note]
+> Microsoft 365 Defender는 사용할 수 없습니다.
 >- US 정부 커뮤니티 클라우드(GCC)
 >- US 정부 커뮤니티 클라우드 High(GCC High)
 >- 미 국방부
 >- 상업용 라이선스가 있는 모든 미국 정부 기관
 
-향상된 보안 센터를 Microsoft 365 살펴보아야 [https://security.microsoft.com](https://security.microsoft.com) 합니다.
+Defender: Microsoft 365 살펴보아야 할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다.
 
-이점에 대한 자세한 정보: [Microsoft 365 보안 센터 개요](overview-security-center.md)
+혜택에 대해 자세히 알아보시고, [Microsoft 365 Defender 개요를 참조하세요.](overview-security-center.md)
 
 ## <a name="whats-changed"></a>변경된 기능
 
-이 표는 보안 센터와 Microsoft Defender 보안 센터 보안 센터 간의 변경 Microsoft 365 참조입니다.
+이 표에서는 Defender와 Microsoft Defender 보안 센터 Microsoft 365 참조합니다.
 
 ### <a name="alerts-and-actions"></a>경고 및 작업
 
 | 영역 | 변경 설명 |
 |---------|---------|
-| [인시던트 & 경고](incidents-overview.md)  | 보안 Microsoft 365 센터에서 모든 끝점, 전자 메일 및 ID에서 인시던트 및 알림을 관리할 수 있습니다. 관련 이벤트를 보다 쉽게 찾을 수 있도록 환경을 수렴했습니다. 자세한 내용은 인시던트 [개요를 참조하세요.](incidents-overview.md)   |
+| [인시던트 & 경고](incidents-overview.md)  | Microsoft 365 Defender에서 모든 끝점, 전자 메일 및 ID에서 인시던트 및 경고를 관리할 수 있습니다. 관련 이벤트를 보다 쉽게 찾을 수 있도록 환경을 수렴했습니다. 자세한 내용은 인시던트 [개요를 참조하세요.](incidents-overview.md)   |
 | [헌팅](advanced-hunting-overview.md)  |  ID 및 전자 메일 테이블을 포함하도록 끝점용 Microsoft Defender에서 만든 사용자 지정 검색 규칙을 수정하면 자동으로 해당 사용자 지정 Microsoft 365 이동됩니다. 해당 경고는 Defender에 Microsoft 365 표시됩니다. 이러한 변경 내용에 대한 자세한 내용은 사용자 지정 검색 규칙 [마이그레이션을 참조합니다.](advanced-hunting-migrate-from-mde.md#migrate-custom-detection-rules) <br><br>고급 `DeviceAlertEvents` 헌팅 표는 Defender에서 사용할 Microsoft 365 없습니다. Microsoft 365 Defender에서 장치별 경고 정보를 쿼리하려면 및 테이블을 사용하여 다양한 원본 집합의 추가 정보를 `AlertInfo` `AlertEvidence` 수용할 수 있습니다. [DeviceAlertEvents](advanced-hunting-migrate-from-mde.md#write-queries-without-devicealertevents)없이 쓰기 쿼리를 수행하여 다음 장치 관련 쿼리를 작성합니다.|
-|[작업 센터](m365d-action-center.md)    | 자동화된 조사 및 수정 조치에 따라 수행된 보류 중인 작업 및 완료된 작업을 나열합니다. 이전의 알림 센터에는 Microsoft Defender 보안 센터 조치에 대한 보류 중 및 완료된 조치가 나열되어 있으며 자동화된 조사에는 경고 및 상태가 나열되어 있습니다. 향상된 Microsoft 365 보안 센터에서 알림 센터는 전자 메일, 장치 및 사용자 전반에 걸쳐 재구성 작업 및 조사를 한 위치에 모습니다.  |
+|[작업 센터](m365d-action-center.md)    | 자동화된 조사 및 수정 조치에 따라 수행된 보류 중인 작업 및 완료된 작업을 나열합니다. 이전의 알림 센터에는 Microsoft Defender 보안 센터 조치에 대한 보류 중 및 완료된 조치가 나열되어 있으며 자동화된 조사에는 경고 및 상태가 나열되어 있습니다. 향상된 Microsoft 365 Defender에서 알림 센터는 전자 메일, 장치 및 사용자 전반에 걸쳐 재구성 작업과 조사를 한 위치에 모습니다.  |
 | [위협 분석](threat-analytics.md) |  탐색 모음의 위쪽으로 이동하여 보다 쉽게 검색하고 사용할 수 있습니다. 이제 끝점과 전자 메일 및 공동 작업 둘 다에 대한 위협 정보를 포함합니다.    |
 
 ### <a name="endpoints"></a>끝점
@@ -118,7 +116,7 @@ Microsoft 365 보안 센터의 끝점용 Microsoft Defender는 Microsoft Defende
 |---------|---------|
 | 보고서  | 위협 방지, 장치 상태 및 규정 & 취약한 장치를 비롯한 엔드포인트 및 전자 메일 공동 작업용 보고서를 참조하세요. |
 | 상태  |  현재 Microsoft 365 관리 센터의 "서비스 상태" [페이지로 연결됩니다.](https://admin.microsoft.com/) |
-| 설정 |  보안 센터, Microsoft 365, Microsoft 365, 전자 메일 &, ID 및 장치 검색에 대한 설정을 관리합니다.   |
+| 설정 |  Defender, 끝점, 전자 Microsoft 365 메일 &, ID 및 장치 검색에 대한 설정을 관리합니다.   |
 
 ## <a name="microsoft-365-security-navigation-and-capabilities"></a>Microsoft 365 탐색 및 기능
 
@@ -154,7 +152,7 @@ Microsoft 365 보안 센터의 끝점용 Microsoft Defender는 Microsoft Defende
 - 위협과 관련된 인시던트 보기.
 - 보고서에서 실행 가능한 정보를 빠르게 식별하고 사용할 수 있는 향상된 환경.
 
-보안 센터의 왼쪽 위 탐색 모음에서 위협 분석에 액세스할 Microsoft 365 또는 조직의 최상위 위협을 표시하는 전용 대시보드 카드에서 위협 분석에 액세스할 수 있습니다.
+Microsoft 365 Defender의 왼쪽 위 탐색 모음 또는 조직의 최상위 위협을 보여줄 수 있는 전용 대시보드 카드에서 위협 분석에 액세스할 수 있습니다.
 
 위협 분석을 사용하여 새로운 위협을 추적하고 [대응하는 방법에 대해 자세히 알아보십시오.](./threat-analytics.md)
 
@@ -172,11 +170,11 @@ Microsoft 365 보안 센터의 끝점용 Microsoft Defender는 Microsoft Defende
 
 ### <a name="siem-api-connections"></a>SIEM API 연결
 
-Endpoint [SIEM API용 Defender를](../defender-endpoint/enable-siem-integration.md)사용하는 경우 계속 진행할 수 있습니다. API 페이로드에 경고 페이지 또는 보안 포털의 인시던트 페이지를 Microsoft 365 추가했습니다. 새 API 필드에는 LinkToMTP 및 IncidentLinkToMTP가 포함됩니다. 자세한 내용은 [끝점용 Microsoft Defender에서](./microsoft-365-security-mde-redirection.md)보안 센터로 계정 Microsoft 365 참조하세요.
+Endpoint [SIEM API용 Defender를](../defender-endpoint/enable-siem-integration.md)사용하는 경우 계속 진행할 수 있습니다. API 페이로드에 경고 페이지 또는 보안 포털의 인시던트 페이지를 Microsoft 365 추가했습니다. 새 API 필드에는 LinkToMTP 및 IncidentLinkToMTP가 포함됩니다. 자세한 내용은 [Endpoint용 Microsoft Defender에서 Microsoft Defender로](./microsoft-365-security-mde-redirection.md)계정 리디렉션을 Microsoft 365 참조하세요.
 
 ### <a name="email-alerts"></a>전자 메일 알림
 
-Endpoint용 Defender에 대한 전자 메일 알림을 계속 사용할 수 있습니다. 전자 메일에 보안 센터의 경고 페이지 또는 인시던트 페이지를 Microsoft 365 추가했습니다. 자세한 내용은 [끝점용 Microsoft Defender에서](./microsoft-365-security-mde-redirection.md)보안 센터로 계정 Microsoft 365 참조하세요.
+Endpoint용 Defender에 대한 전자 메일 알림을 계속 사용할 수 있습니다. Microsoft 365 Defender의 경고 페이지 또는 인시던트 페이지를 Microsoft 365 있습니다. 자세한 내용은 [Endpoint용 Microsoft Defender에서 Microsoft Defender로](./microsoft-365-security-mde-redirection.md)계정 리디렉션을 Microsoft 365 참조하세요.
 
 ### <a name="managed-security-service-providers-mssp"></a>MSSP(관리되는 보안 서비스 공급자)
 
@@ -184,6 +182,6 @@ Endpoint용 Defender에 대한 전자 메일 알림을 계속 사용할 수 있�
 
 ## <a name="related-information"></a>관련 정보
 
-- [Microsoft 365 보안 센터](overview-security-center.md)
-- [Microsoft 365 끝점용 Microsoft Defender](microsoft-365-security-center-mde.md)
-- [끝점용 Microsoft Defender에서 보안 센터로 Microsoft 365 리디렉션](microsoft-365-security-mde-redirection.md)
+- [Microsoft 365 Defender](overview-security-center.md)
+- [Microsoft Defender for Endpoint in Microsoft 365 Defender](microsoft-365-security-center-mde.md)
+- [끝점용 Microsoft Defender에서 Microsoft 365 리디렉션](microsoft-365-security-mde-redirection.md)

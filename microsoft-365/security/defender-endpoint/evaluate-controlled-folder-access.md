@@ -13,25 +13,25 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f996a8fdaf630c8ea389ac9648369cc955a6e95d
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 15ea4696052a6c987314e3c7b0dd282a49ed4df8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569908"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842917"
 ---
 # <a name="evaluate-controlled-folder-access"></a>제어된 폴더 액세스 평가
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 
-[제어된 폴더 액세스는](controlled-folders.md) 의심스러운 앱 또는 악성 앱에 의해 문서 및 파일을 수정하지 못하게 보호하는 기능입니다. 제어된 폴더 액세스는 Windows Server 2019 및 Windows 10 클라이언트에서 지원됩니다.
+[제어된 폴더 액세스는](controlled-folders.md) 의심스러운 앱 또는 악성 앱에 의해 문서 및 파일을 수정하지 못하게 보호하는 기능입니다. 제어된 폴더 액세스는 Windows Server 2019 및 Windows 10 지원됩니다.
 
 파일을 암호화하고 인질을 [](https://www.microsoft.com/wdsi/threats/ransomware) 보유하려는 랜섬웨어로부터 보호하는 데 특히 유용합니다.
 
@@ -52,11 +52,11 @@ Set-MpPreference -EnableControlledFolderAccess AuditMode
 
 > [!TIP]
 > 조직에서 제어된 폴더 액세스가 어떻게 작동할지 완전히 감사하려면 관리 도구를 사용하여 이 설정을 네트워크의 장치에 배포해야 합니다.
-주 제어된 폴더 액세스 항목에 설명된 바와 같이 그룹 정책, Intune, MDM(모바일 장치 관리) 또는 Microsoft Endpoint Manager를 사용하여 설정을 구성하고 배포할 [수도 있습니다.](controlled-folders.md)
+주 제어된 폴더 액세스 항목에 설명된 바와 같이 그룹 정책, Intune, MDM(모바일 장치 관리) 또는 Microsoft Endpoint Manager 설정을 구성하고 배포할 [수도 있습니다.](controlled-folders.md)
 
-## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Windows 이벤트 뷰어에서 제어된 폴더 액세스 이벤트 검토
+## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>이벤트 뷰어에서 제어된 폴더 액세스 Windows 검토
 
-다음 제어된 폴더 액세스 이벤트는 Microsoft/Windows/Windows Defender/Operational 폴더 아래에 Windows 이벤트 뷰어에 표시됩니다.
+다음 제어된 폴더 액세스 이벤트는 Microsoft/Windows/Windows/Operational 폴더의 Windows Defender 표시됩니다.
 
 이벤트 ID | 설명
 -|-
@@ -65,7 +65,7 @@ Set-MpPreference -EnableControlledFolderAccess AuditMode
  1123 | 차단된 제어된 폴더 액세스 이벤트
 
 > [!TIP]
-> [로그를](https://docs.microsoft.com/windows/win32/wec/setting-up-a-source-initiated-subscription) 중앙에서 수집하도록 Windows 이벤트 전달 구독을 구성할 수 있습니다. 
+> 로그를 중앙에서 [Windows 이벤트](/windows/win32/wec/setting-up-a-source-initiated-subscription) 전달 구독을 구성할 수 있습니다. 
 
 ## <a name="customize-protected-folders-and-apps"></a>보호된 폴더 및 앱 사용자 지정
 

@@ -1,7 +1,7 @@
 ---
-title: 끝점용 Microsoft Defender에서 Microsoft 365 보안 센터로 계정 리디렉션
-description: 끝점용 Defender에서 Microsoft 365 보안 센터로 계정 및 세션을 리디렉션하는 방법
-keywords: Microsoft 365 보안 센터, Microsoft 365 보안 센터 시작, 보안 센터 리디렉션
+title: 끝점용 Microsoft Defender에서 Microsoft 365 리디렉션
+description: 계정 및 세션을 끝점용 Defender에서 Defender로 리디렉션하는 Microsoft 365.
+keywords: Microsoft 365 Defender, Microsoft 365 Defender 시작, 보안 센터 리디렉션
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,14 +20,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: db458015d8434843ec64f3c2c00d640d4c4d8ff2
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: c678cb8d9eece9ff3a900a7d2b0c6bf95ad8eda9
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760179"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842569"
 ---
-# <a name="redirecting-accounts-from-microsoft-defender-for-endpoint-to-the-microsoft-365-security-center"></a>끝점용 Microsoft Defender에서 Microsoft 365 보안 센터로 계정 리디렉션
+# <a name="redirecting-accounts-from-microsoft-defender-for-endpoint-to-microsoft-365-defender"></a>끝점용 Microsoft Defender에서 Microsoft 365 리디렉션
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,21 +35,21 @@ ms.locfileid: "51760179"
 - Microsoft 365 Defender
 - 엔드포인트용 Defender
 
-SIEM 및 XDR(Extended detection and response)을 통해 위협 방지에 대한 Microsoft의 도메인 간 접근 방식에 맞춰 Microsoft Defender Advanced Threat Protection을 끝점용 Microsoft Defender로 변경하고 이를 단일 통합 포털인 Microsoft 365 보안 센터로 통합했습니다.
+SIEM 및 XDR(Extended detection and response)을 통해 위협 방지에 대한 Microsoft의 도메인 간 접근 방식에 맞춰 Microsoft는 Microsoft Defender Advanced Threat Protection 끝점용 Microsoft Defender로 변경하고 단일 통합 포털인 Microsoft 365 Defender로 통합했습니다.
 
-이 가이드에서는 이전의 Microsoft Defender for Endpoint 포털(securitycenter.windows.com 또는 securitycenter.microsoft.com)에서 Microsoft 365 보안 센터 포털(security.microsoft.com)으로 자동 리디렉션을 사용하도록 설정하여 계정을 Microsoft 365 보안 센터로 라우팅하는 방법을 설명합니다.
+이 가이드에서는 이전 Microsoft Defender for Endpoint 포털(securitycenter.windows.com 또는 securitycenter.microsoft.com)에서 Microsoft 365 Defender 포털(security.microsoft.com)으로 자동 리디렉션을 사용하도록 설정하여 계정을 Microsoft 365 Defender로 라우팅하는 방법에 대해 security.microsoft.com.
 
 > [!NOTE]
-> Microsoft 365 보안 센터의 끝점용 Microsoft [Defender는 Microsoft Defender](./mssp-access.md)보안 센터에서 액세스 권한을 부여하는 방법과 동일한 방식으로 관리되는 보안 서비스 공급자(MSSP)에 대한 액세스 권한을 부여할 수 있도록 지원합니다. [](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access)
+> Microsoft 365 Defender의 끝점용 Microsoft Defender는 Microsoft Defender 보안 센터에서 액세스 권한을 부여하는 방법과 동일한 방식으로 관리되는 보안 서비스 [공급자(MSSP)에](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) 대한 액세스 권한을 [부여할 수 있도록 지원합니다.](./mssp-access.md)
 
 ## <a name="what-to-expect"></a>예상할 일
-자동 리디렉션을 사용하도록 설정하면 securitycenter.windows.com 또는 securitycenter.microsoft.com 에서 이전 Microsoft Defender for Endpoint 포털에 액세스하는 계정은 microsoft 365 보안 센터 포털의 security.microsoft.com.
+자동 리디렉션을 사용하도록 설정하면 securitycenter.windows.com 또는 securitycenter.microsoft.com 에서 이전 Microsoft Defender for Endpoint 포털에 액세스하는 계정은 Microsoft 365 Defender 포털로 security.microsoft.com.
  
-변경된 내용을 자세히 알아보시고, Microsoft 365 보안 센터의 [끝점용 Microsoft Defender를 자세히 알아보실 수 있습니다.](microsoft-365-security-center-mde.md)
+변경된 내용을 자세히 알아보시고 Microsoft [Defender for Endpoint in Microsoft 365.](microsoft-365-security-center-mde.md)
 
 여기에는 전자 메일 알림의 링크, SIEM API 호출에서 반환된 링크 등 이전 securitycenter.windows.com 포털을 향한 링크를 포함하여 브라우저를 통해 이전 포털에 직접 액세스하기 위한 리디렉션이 포함됩니다.  
 
- 전자 메일 알림 또는 SIEM API의 외부 링크에는 현재 두 포털에 대한 링크가 포함되어 있습니다. 리디렉션을 사용하도록 설정하면 이전 링크가 결국 제거될 때까지 두 링크가 Microsoft 365 보안 센터를 연결합니다. Microsoft 365 보안 센터를 중심으로 하는 새 링크를 채택하는 것이 권장됩니다.
+ 전자 메일 알림 또는 SIEM API의 외부 링크에는 현재 두 포털에 대한 링크가 포함되어 있습니다. 리디렉션을 사용하도록 설정하면 이전 링크가 Microsoft 365 때까지 두 링크가 모두 Microsoft 365 Defender를 참조합니다. Defender에 대한 새로운 링크를 채택하는 Microsoft 365 합니다.
 
 링크 및 라우팅에 대한 자세한 내용은 아래 표를 참조하세요.
 ## <a name="siem-api-routing"></a>SIEM API 라우팅
@@ -71,34 +71,34 @@ SIEM 및 XDR(Extended detection and response)을 통해 위협 방지에 대한 
 | 보안 센터 포털의 인시던트 페이지 | 인시던트 security.microsoft.com  | 인시던트 security.microsoft.com  |
 
 ## <a name="when-does-this-take-effect"></a>이 방식은 언제 적용하나요? 
-사용하도록 설정하면 일부 계정에 대해 이 업데이트가 거의 즉시 적용될 수 있습니다. 그러나 리디렉션이 조직의 모든 계정에 전파하는 데 더 오래 걸릴 수 있습니다. 이 설정이 적용된 동안 활성 세션의 계정은 세션에서출되지 않습니다. 현재 세션을 종료하고 다시 로그인한 후에만 Microsoft 365 보안 센터로 라우팅됩니다.  
+사용하도록 설정하면 일부 계정에 대해 이 업데이트가 거의 즉시 적용될 수 있습니다. 그러나 리디렉션이 조직의 모든 계정에 전파하는 데 더 오래 걸릴 수 있습니다. 이 설정이 적용된 동안 활성 세션의 계정은 세션에서 나아지지 않습니다. 현재 세션을 종료하고 다시 로그인한 Microsoft 365 Defender로만 라우팅됩니다.  
 
 ### <a name="set-up-portal-redirection"></a>포털 리디렉션 설정
-Microsoft 365 보안 센터로 계정 라우팅을 시작:
+Defender에 대한 라우팅 계정을 Microsoft 365:
 1. 전역 관리자 또는 Azure Active Directory에 보안 관리자 권한이 있는지 확인 
 
-2. [](https://security.microsoft.com/) Microsoft 365 보안 센터에 로그인합니다.
+2. [Defender에](https://security.microsoft.com/) Microsoft 365 로그인합니다.
 
-3. 설정 **끝점** 일반 포털  >    >    >  **리디렉션으로 이동하거나** [여기를 클릭합니다.](https://security.microsoft.com/preferences2/portal_redirection)  
+3. 끝점 **설정**  >    >  **리디렉션으로**  >  **이동하거나** [여기를 클릭합니다.](https://security.microsoft.com/preferences2/portal_redirection)  
 
 4. 자동 리디렉션 설정을 으로 **전환합니다.**
 
-5. Microsoft  365 보안 센터 포털에 자동 리디렉션을 적용하려면 사용 을 클릭합니다.
+5. **Defender에** 자동 리디렉션을 적용하려면 Microsoft 365 클릭합니다.
 
 >[!IMPORTANT]
->이 설정을 사용하도록 설정하면 활성 사용자 세션이 종료되지 않습니다. 이 설정이 적용되는 동안 활성 세션에 있는 계정은 현재 세션을 종료하고 다시 로그인한 후에만 Microsoft 365 보안 센터로 연결됩니다.
+>이 설정을 사용하도록 설정하면 활성 사용자 세션이 종료되지 않습니다. 이 설정이 적용되는 동안 활성 세션에 있는 계정은 현재 세션을 종료하고 Microsoft 365 다시 로그인한 후에만 Microsoft 365 Defender로 연결됩니다.
 
 >[!NOTE]
->이 설정을 사용하도록 설정하거나 사용하지 않도록 설정하려면 전역 관리자 또는 Azure Active Directory의 보안 관리자 권한이 있어야 합니다.  
+>이 설정을 사용하도록 설정하거나 사용하지 않도록 설정하려면 전역 관리자 또는 Azure Active Directory 권한이 있어야 합니다.  
 
 ## <a name="can-i-go-back-to-using-the-former-portal"></a>이전 포털을 사용하여 다시 돌아갈 수 있나요?
-문제가 작동하지 않는 경우 또는 Microsoft 365 보안 센터 포털을 통해 완료할 수 없는 경우 해당 정보를 듣고자 합니다. 리디렉션과 관련한 문제가 발생하는 경우 피드백 제출 보내기 양식을 사용하여 알려주는 것이 권장됩니다.
+If something isn't working for you or if you're unable to complete through Microsoft 365 Defender, we want to hear it. 리디렉션과 관련한 문제가 발생하는 경우 피드백 제출 보내기 양식을 사용하여 알려주는 것이 권장됩니다.
 
 이전의 Microsoft Defender for Endpoint 포털로 되 되 관리:
 
-1. [전역 관리자로](https://security.microsoft.com/) Microsoft 365 보안 센터에 로그인하거나 Azure Active Directory에서 보안 관리자 권한을 사용하여 계정으로 로그인합니다.
+1. [전역 관리자로](https://security.microsoft.com/) Microsoft 365 Azure Active Directory의 보안 관리자 권한 및 계정으로 Defender에 로그인합니다.
 
-2. 설정 **끝점** 일반 포털  >    >    >  **리디렉션으로 이동하거나** 여기에서 [페이지를 열 수 있습니다.](https://security.microsoft.com/preferences2/portal_redirection)  
+2. 끝점 **설정** 일반 포털  >    >    >  **리디렉션으로 이동하거나** 여기에서 [페이지를 열 수 있습니다.](https://security.microsoft.com/preferences2/portal_redirection)  
 
 3. 자동 리디렉션 설정을 끄기 로 **전환합니다.**
 
@@ -109,10 +109,10 @@ Microsoft 365 보안 센터로 계정 라우팅을 시작:
 사용하지 않도록 설정하면 계정이 더 이상 security.microsoft.com 라우팅되지 않습니다. securitycenter.windows.com 또는 이전 포털에 다시 securitycenter.microsoft.com. 
 
 ## <a name="related-information"></a>관련 정보
-- [Microsoft 365 보안 센터 개요](overview-security-center.md)
-- [Microsoft 365 보안 센터의 끝점용 Microsoft Defender](microsoft-365-security-center-mde.md)
+- [Microsoft 365 Defender 개요](overview-security-center.md)
+- [Microsoft Defender for Endpoint in Microsoft 365 Defender](microsoft-365-security-center-mde.md)
 - [Microsoft는 보안 운영을 현대화하기 위해 통합 SIEM 및 XDR을 제공합니다.](https://www.microsoft.com/security/blog/?p=91813) 
 - [XDR 및 SIEM 인포그래픽](https://afrait.com/blog/xdr-versus-siem/) 
 - [The New Defender](https://afrait.com/blog/the-new-defender/) 
-- [About Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) 
+- [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) 
 - [Microsoft 보안 포털 및 관리 센터](portals.md)

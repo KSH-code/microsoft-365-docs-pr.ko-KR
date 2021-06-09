@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 87305f28975b8997afce211ffa4de3711d26be6b
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7fd9ec25c21b2d70238bd5b0d6b58b60731088ea
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246371"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845477"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -167,7 +167,7 @@ Id에 대한 Microsoft Defender와의 통합을 통해 다른 Microsoft Id 보�
 > [!NOTE]
 > 이 기능을 사용하려면 적절한 라이선스가 필요합니다.
 
-위협 인텔리전스에서 상황 Office 365 통합을 받으하려면 보안 및 준수 대시보드에서 끝점에 대한 Defender 설정을 & 합니다. 자세한 내용은 위협 조사 및 [응답을 참조하세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
+위협 인텔리전스에서 상황 Office 365 통합을 받으하려면 보안 및 준수 대시보드에서 끝점에 대한 Defender 설정을 & 합니다. 자세한 내용은 위협 조사 및 [응답을 참조하세요.](/microsoft-365/security/office-365-security/office-365-ti)
 
 ## <a name="microsoft-threat-experts---targeted-attack-notifications"></a>Microsoft 위협 전문가 - 대상 공격 알림
 
@@ -212,7 +212,7 @@ Id에 대한 Microsoft Defender에서 상황에 맞는 장치 통합을 받으�
 
 ## <a name="microsoft-intune-connection"></a>Microsoft Intune 연결
 
-장치 위험 기반 [조건부 액세스를](https://docs.microsoft.com/intune/what-is-intune) Microsoft Intune 끝점용 [Defender를](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune)통합할 수 있습니다. 이 [기능을 켜면](configure-conditional-access.md)끝점 장치 정보에 대한 Defender를 Intune과 공유하여 정책 적용을 강화할 수 있습니다.
+장치 위험 기반 [조건부 액세스를](/intune/what-is-intune) Microsoft Intune 끝점용 [Defender를](/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune)통합할 수 있습니다. 이 [기능을 켜면](configure-conditional-access.md)끝점 장치 정보에 대한 Defender를 Intune과 공유하여 정책 적용을 강화할 수 있습니다.
 
 > [!IMPORTANT]
 > 이 기능을 사용하려면 Intune 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. 특정 단계에 대한 자세한 내용은 [Configure Conditional Access in Defender for Endpoint을 참조하세요.](configure-conditional-access.md)
@@ -220,7 +220,7 @@ Id에 대한 Microsoft Defender에서 상황에 맞는 장치 통합을 받으�
 이 기능은 다음이 있는 경우만 사용할 수 있습니다.
 
 - E5 및 Enterprise Mobility + Security E3 및 Windows E5용 Microsoft 365 Enterprise 테넌트
-- Intune에서 관리하는 Microsoft Intune Azure AD에 가입된 장치를 Windows 10 활성 상태 [환경.](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join/)
+- Intune에서 관리하는 Microsoft Intune Azure AD에 가입된 장치를 Windows 10 활성 상태 [환경.](/azure/active-directory/devices/concept-azure-ad-join/)
 
 
 ### <a name="conditional-access-policy"></a>조건부 액세스 정책
@@ -228,7 +228,7 @@ Id에 대한 Microsoft Defender에서 상황에 맞는 장치 통합을 받으�
 Intune 통합을 사용하도록 설정하면 Intune에서 클래식 CA(조건부 액세스) 정책을 자동으로 생성합니다. 이 클래식 CA 정책은 상황 보고서를 Intune으로 설정하기 위한 전제입니다. 삭제하면 안 됩니다.
 
 > [!NOTE]
-> Intune에서 만든 클래식 CA 정책은 [](https://docs.microsoft.com/azure/active-directory/conditional-access/overview/)끝점을 구성하는 데 사용되는 최신 조건부 액세스 정책과는 별개입니다.
+> Intune에서 만든 클래식 CA 정책은 [](/azure/active-directory/conditional-access/overview/)끝점을 구성하는 데 사용되는 최신 조건부 액세스 정책과는 별개입니다.
 
 
 ## <a name="device-discovery"></a>장치 검색

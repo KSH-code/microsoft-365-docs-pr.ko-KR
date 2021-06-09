@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 64a96256ff4bb4b77ec634195f6d89b92252142a
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 894b628575c0788b6a5d4bb23a8fe512d7c467bc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301767"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845609"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender의 새로운
 
@@ -34,6 +34,12 @@ ms.locfileid: "52301767"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+
+## <a name="1117240101"></a>1.1.17240101
+- Intune을 통한 MAM(모바일 응용 프로그램 관리)은 이 버전에서 일반적으로 지원됩니다. 자세한 내용은 앱 보호 정책에 사용할 수 있는 끝점 위험 신호에 대한 [Microsoft Defender를 참조하세요.](https://techcommunity.microsoft.com/t5/intune-customer-success/microsoft-defender-for-endpoint-risk-signals-available-for-your/ba-p/2186322)
+- **탈옥 검색은** 일반적으로 사용할 수 있습니다. 자세한 내용은 장치 위험 신호에 따라 조건부 액세스 정책 [설정을 참조하세요.](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios)
+- **Intune(Intune)을** 통해 등록된 장치에 대한 VPN 프로필 자동 Microsoft Endpoint Manager 사용할 수 있습니다. 자세한 내용은 등록된 iOS 장치에 대한 VPN 프로필 자동 [설치를 참조하세요.](ios-install.md#auto-onboarding-of-vpn-profile-simplified-onboarding)
+- 버그 수정
 
 ## <a name="1115140101"></a>1.1.15140101
 

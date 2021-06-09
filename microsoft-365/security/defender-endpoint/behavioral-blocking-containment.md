@@ -1,7 +1,7 @@
 ---
 title: 동작 차단 및 제약
 description: 끝점용 Microsoft Defender의 동작 차단 및 포함 기능에 대해 자세히 알아보기
-keywords: 끝점용 Microsoft Defender, 차단 모드의 EDR, 수동 모드 차단
+keywords: 끝점용 Microsoft Defender, EDR 모드, 수동 모드 차단
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: fdaa4d7cbc24ae2ebe28d0856b413f4982fe6b01
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 00ed505b153e5af4d89038bdc53e988ee763827b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929052"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845645"
 ---
 # <a name="behavioral-blocking-and-containment"></a>동작 차단 및 제약
 
@@ -38,7 +38,7 @@ ms.locfileid: "51929052"
 
 ## <a name="overview"></a>개요
 
-오늘날의 위협 환경은 파일 [](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats) 없는 맬웨어로 오버런되고, 기존의 솔루션보다 빠르게 변이되는 매우 다형성 위협과 손상된 디바이스에서 적들이 발견하는 공격에 적응하는 인간이 운영하는 공격에 의해 해결됩니다. 기존 보안 솔루션만으로는 이러한 공격을 막을 수 없습니다. 인공 지능(AI) 및 ML(장치 학습) 지원 기능(예: 동작 차단 및 포함)이 [끝점용 Defender에 포함되어야 합니다.](https://docs.microsoft.com/windows/security) 
+오늘날의 위협 환경은 파일 [](/windows/security/threat-protection/intelligence/fileless-threats) 없는 맬웨어로 오버런되고, 기존의 솔루션보다 빠르게 변이되는 매우 다형성 위협과 손상된 디바이스에서 적들이 발견하는 공격에 적응하는 인간이 운영하는 공격에 의해 해결됩니다. 기존 보안 솔루션만으로는 이러한 공격을 막을 수 없습니다. 엔드포인트용 [Defender에](/windows/security)포함된 인공 지능(AI) 및 ML(장치 학습) 지원 기능(예: 동작 차단 및 포함)이 필요합니다. 
 
 동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리에 따라 위협을 식별하고 중지하는 데 도움이 될 수 있습니다. 엔드포인트 구성 요소 및 기능에 대한 차세대 보호, EDR 및 Defender는 동작 차단 및 포함 기능에서 함께 작동됩니다. 
 
@@ -46,11 +46,11 @@ ms.locfileid: "51929052"
 
 동작 차단 및 포함 기능은 끝점용 Defender의 여러 구성 요소 및 기능과 함께 작동하여 공격을 즉시 중지하고 공격이 진행되지 않도록 합니다.
 
-- [Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) Defender 바이러스 백신을 포함하는 차세대 보호는 동작을 분석하여 위협을 감지하고 실행을 시작한 위협을 중지할 수 있습니다.
+- [차세대 보호(Microsoft Defender 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 포함)는 동작을 분석하여 위협을 감지하고 실행을 시작한 위협을 중지할 수 있습니다.
 
-- [EDR(엔드포인트](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) 감지 및 응답)은 네트워크, 장치 및 커널 동작을 통해 보안 신호를 수신합니다. 위협이 감지되면 경고가 생성됩니다. 동일한 유형의 여러 경고가 인시던트로 집계됩니다. 따라서 보안 운영 팀이 보다 쉽게 조사하고 대응할 수 있습니다.
+- [끝점 감지](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) 및 응답(EDR)은 네트워크, 장치 및 커널 동작을 통해 보안 신호를 수신합니다. 위협이 감지되면 경고가 생성됩니다. 동일한 유형의 여러 경고가 인시던트로 집계됩니다. 따라서 보안 운영 팀이 보다 쉽게 조사하고 대응할 수 있습니다.
 
-- [Endpoint용 Defender에는](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) EDR을 통해 수신된 네트워크, 끝점 및 커널 동작 신호 외에도 ID, 전자 메일, 데이터 및 앱에 걸쳐 광범위한 광학이 있습니다. [Microsoft 365 Defender의](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)구성 요소인 Defender for Endpoint 프로세스 및 이러한 신호의 상관 관계, 검색 경고를 발생시킵니다. 인시던트에 관련 경고를 연결합니다.
+- [끝점용 Defender에는](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) 네트워크, 끝점 및 커널 동작을 통해 수신된 네트워크, 끝점 및 커널 동작 신호 외에도 ID, 전자 메일, 데이터 및 앱에 걸쳐 광범위한 광학 EDR. Endpoint용 [Defender](/microsoft-365/security/defender/microsoft-threat-protection)Microsoft 365 구성 요소로, 이러한 신호와 상관 관계가 있으며, 검색 경고를 발생시킵니다. 인시던트에 관련 경고를 연결합니다.
 
 이러한 기능을 사용하여 실행을 시작한 경우에도 더 많은 위협을 방지하거나 차단할 수 있습니다. 의심스러운 동작이 감지될 때마다 위협이 포함되어 경고가 생성되고 추적에서 위협이 중지됩니다. 
 
@@ -60,15 +60,15 @@ ms.locfileid: "51929052"
 
 ## <a name="components-of-behavioral-blocking-and-containment"></a>동작 차단 및 포함의 구성 요소
 
-- **클라이언트에서 정책 기반 공격 [표면 감소 규칙](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)** 미리 정의한 일반적인 공격 동작은 공격 표면 감소 규칙에 따라 실행되지 않습니다. 이러한 동작이 실행을 시도하면 Microsoft Defender 보안 센터에서 정보 경고로 [https://securitycenter.windows.com](https://securitycenter.windows.com) 표시될 수 있습니다. 공격 표면 감소 규칙은 기본적으로 사용하도록 설정되지 않습니다. Microsoft Defender 보안 센터에서 정책을 구성합니다.
+- **클라이언트에서 정책 기반 공격 [표면 감소 규칙](/microsoft-365/security/defender-endpoint/attack-surface-reduction)** 미리 정의한 일반적인 공격 동작은 공격 표면 감소 규칙에 따라 실행되지 않습니다. 이러한 동작이 실행을 시도하면 정보 경고로 Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) 수 있습니다. 공격 표면 감소 규칙은 기본적으로 사용하도록 설정되지 않습니다. 이 규칙에서 정책을 Microsoft Defender 보안 센터.
 
 - **[클라이언트 동작 차단](client-behavioral-blocking.md)** 끝점의 위협은 기계 학습을 통해 감지된 다음 자동으로 차단되고 수정됩니다. 클라이언트 동작 차단은 기본적으로 사용하도록 설정됩니다. 
 
 - **[피드백 루프](feedback-loop-blocking.md)** 차단(신속한 보호라고도 지칭) 위협 감지는 동작 인텔리전스를 통해 관찰됩니다. 위협이 중지되고 다른 끝점에서 실행되지 않습니다. 피드백 루프 차단은 기본적으로 사용하도록 설정됩니다. 
 
-- **[차단 모드의 끝점 검색 및 응답(EDR)](edr-in-block-mode.md)** 위반 후 보호를 통해 관찰되는 악의적인 아티팩트 또는 동작은 차단되어 포함되어 있습니다. 차단 모드의 EDR은 Microsoft Defender 바이러스 백신이 기본 바이러스 백신 솔루션이 아니어도 작동합니다. 차단 모드의 EDR은 기본적으로 사용하도록 설정되어 있지 않습니다. Microsoft Defender 보안 센터에서 EDR을 설정합니다. 
+- **[차단 모드의 끝점 EDR 응답(EDR)](edr-in-block-mode.md)** 위반 후 보호를 통해 관찰되는 악의적인 아티팩트 또는 동작은 차단되어 포함되어 있습니다. EDR 기본 바이러스 백신 솔루션이 아니어도 Microsoft Defender 바이러스 백신 모드로 전환됩니다. (EDR 모드에서는 기본적으로 사용하도록 설정되지 않습니다. 이 설정은 Microsoft Defender 보안 센터. 
 
-Microsoft는 계속해서 위협 방지 기능과 기능을 개선하기에 따라 동작 차단 및 포함 영역에 더 많은 것이 제공될 것으로 예상합니다. 지금 계획된 계획 및 배포를 참조하세요. [Microsoft 365 로드맵을 방문하세요.](https://www.microsoft.com/microsoft-365/roadmap)
+Microsoft는 계속해서 위협 방지 기능과 기능을 개선하기에 따라 동작 차단 및 포함 영역에 더 많은 것이 제공될 것으로 예상합니다. 현재 계획된 계획 및 롤아웃을 보시다시피 Microsoft 365 [로드맵을 방문하세요.](https://www.microsoft.com/microsoft-365/roadmap)
 
 ## <a name="examples-of-behavioral-blocking-and-containment-in-action"></a>동작 차단 및 실행 포함의 예
 
@@ -96,9 +96,9 @@ Endpoint용 Defender의 동작 기반 장치 학습 모델은 공격 체인에�
 - 첫 번째 보호 계층에서 악용 동작을 감지했습니다. 클라우드의 장치 학습 분류자는 공격을 차단하라는 지시와 함께 위협을 올바르게 식별하고 즉시 클라이언트 장치에 지시했습니다.
 - 두 번째 보호 계층은 공격이 첫 번째 계층을 넘어가고, 프로세스 공백을 감지하고, 해당 프로세스를 중지하고, 해당 파일(예: Lokibot)을 제거한 경우를 중지하는 데 도움을 주었다. 
 
-공격이 감지되고 중지되는 동안 "초기 액세스 경고"과 같은 경고가 트리거되고 Microsoft Defender 보안 센터() 에 [https://securitycenter.windows.com](https://securitycenter.windows.com) 표시됩니다.
+공격이 감지되고 중지되는 동안 "초기 액세스 알림"과 같은 경고가 트리거되고 경고에 Microsoft Defender 보안 센터( [https://securitycenter.windows.com](https://securitycenter.windows.com) ):
 
-:::image type="content" source="images/behavblockcontain-initialaccessalert.png" alt-text="Microsoft Defender 보안 센터의 초기 액세스 경고":::
+:::image type="content" source="images/behavblockcontain-initialaccessalert.png" alt-text="보안 설정의 초기 액세스 Microsoft Defender 보안 센터":::
 
 이 예에서는 실행을 시작한 후에도 클라우드의 동작 기반 장치 학습 모델이 공격으로부터 새로운 보호 계층을 추가하는 방법을 보여 주며,
 
@@ -120,12 +120,12 @@ Endpoint용 Defender의 동작 기반 장치 학습 모델은 공격 체인에�
 
 ## <a name="next-steps"></a>다음 단계
 
-- [끝점용 Defender에 대해 자세히 알아보시고](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)
+- [끝점용 Defender에 대해 자세히 알아보시고](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)
 
 - [공격 표면 감소 규칙 구성](attack-surface-reduction.md)
 
-- [차단 모드에서 EDR 사용](edr-in-block-mode.md)
+- [차단 EDR 사용](edr-in-block-mode.md)
 
 - [최근 전역 위협 활동 보기](https://www.microsoft.com/wdsi/threats)
 
-- [Microsoft 365 Defender 개요 보기 ](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)
+- [Defender의 Microsoft 365 개요 보기](/microsoft-365/security/defender/microsoft-threat-protection)

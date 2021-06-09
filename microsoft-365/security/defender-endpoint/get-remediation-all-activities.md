@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: b95fa2da177a3ecb93bcf3e2085be6111c2c641e
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 60f80e78a5f5c7da44a218c30f4b0173d4ecc829
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770520"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845138"
 ---
 # <a name="list-all-remediation-activities"></a>모든 수정 작업 나열s
 
@@ -55,7 +55,7 @@ ms.locfileid: "52770520"
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 :---|:---|:---
 응용 프로그램 | RemediationTask.Read.All | \'위협 및 취약성 관리 취약성 정보 읽기\'
-위임(직장 또는 학교 계정) | RemediationTask.Read.Read | \'위협 및 취약성 관리 취약성 정보 읽기\'
+위임(직장 또는 학교 계정) | RemediationTask.Read | \'위협 및 취약성 관리 취약성 정보 읽기\'
 
 ## <a name="properties"></a>특성
 

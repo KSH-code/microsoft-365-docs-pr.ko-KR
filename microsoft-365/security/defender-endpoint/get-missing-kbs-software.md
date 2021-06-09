@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: d9218ad447f926f0086801036277323e7c1efb4c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: bbb3e5dfe94d5efb026e21a4cbd94fac45f36594
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770564"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845225"
 ---
 # <a name="get-missing-kbs-by-software-id"></a>소프트웨어 ID로 누락된 KB 다운로드
 
@@ -102,5 +102,5 @@ GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/getmi
 
 ## <a name="related-topics"></a>관련 항목
 
-- [위험 기반 위협 & 관리](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [위협 & 소프트웨어 인벤토리](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)
+- [위험 기반 위협 & 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [위협 & 소프트웨어 인벤토리](/microsoft-365/security/defender-endpoint/tvm-software-inventory)

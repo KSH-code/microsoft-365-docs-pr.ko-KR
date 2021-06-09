@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: a107c6364e6766094724972e931606003e0c87f7
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 3346f6b4d05eb514bf680f87eb8452d9fd4bab38
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445199"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841993"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Microsoft Managed Desktop 서비스 설명
 
@@ -27,7 +27,7 @@ Microsoft Managed Desktop은 사용자에게 최신 보안 환경을 제공하�
 - 장치 구성
 - Microsoft 모범 사례에 따라 Windows Hello, BitLocker, SecureBoot 및 가상화 기반 보안을 포함하여 사용자 및 장치를 안전하게 유지하는 기능
 - 장치 보안 모니터링 및 관리 서비스
-- [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure)를 통한 앱 호환성
+- [App Assure](/fasttrack/products-and-capabilities#app-assure)를 통한 앱 호환성
 - Windows 10 및 엔터프라이즈용 Microsoft 365 앱 업데이트 관리
 - 장치 및 앱 사용에 대한 분석 데이터
 - 사용자를 위한 IT 지원

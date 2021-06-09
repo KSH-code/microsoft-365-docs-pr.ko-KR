@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0a58287a9bd48a4d19144a40674e1d3ad3bd256a
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: eb009a01e36739ab5e9ec009d053a7bd4e177907
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52768934"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841537"
 ---
 # <a name="list-all-recommendations"></a>모든 권장 사항 목록
 
@@ -121,6 +121,6 @@ GET https://api.securitycenter.microsoft.com/api/recommendations
 }
 ```
 ## <a name="see-also"></a>참고 항목
-- [위험 기반 위협 & 관리](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [위협 & 보안 권장](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation)
+- [위험 기반 위협 & 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [위협 & 보안 권장](/microsoft-365/security/defender-endpoint/tvm-security-recommendation)
 

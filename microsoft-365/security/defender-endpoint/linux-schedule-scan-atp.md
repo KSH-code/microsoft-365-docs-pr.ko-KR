@@ -16,16 +16,16 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f868570fccf9b30cde5f16aa8e71292fb8b09497
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 5a4beaefb2fcc12d46cf61c22644217dce1807a6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933136"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845369"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-linux"></a>끝점용 Microsoft Defender를 통해 검사 예약(Linux)
 
-Linux에 대한 검색을 실행하기 위해 [지원되는 명령을 참조합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-resources#supported-commands)
+Linux에 대한 검색을 실행하기 위해 [지원되는 명령을 참조합니다.](/microsoft-365/security/defender-endpoint/linux-resources#supported-commands)
 
 Linux(및 Unix)에는 예약된 작업을 실행할 수 있는 **크로ntab(작업** 스케줄러와 유사)라는 도구가 있습니다.
 

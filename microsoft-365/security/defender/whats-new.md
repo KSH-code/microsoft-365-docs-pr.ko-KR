@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender의 새로운 기능
-description: Microsoft 365 Defender의 새로운 기능을 나열합니다.
-keywords: Microsoft 365 Defender, ga, 일반적으로 사용 가능한 기능, 사용 가능, 새로운 기능의 새로운 기능
+description: Defender의 새로운 기능을 Microsoft 365 나열합니다.
+keywords: Microsoft 365, ga, 일반적으로 사용 가능, 기능, 사용 가능, 새로운 기능의 새로운 기능
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 91029f03e089f44f49800bfe2d18536a8d415411
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: c974701b83fbb6dbcac1cc597578a97144b2b482
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029031"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845597"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -32,23 +32,23 @@ ms.locfileid: "52029031"
 > Microsoft 365 Defender를 경험해 보고 싶으신가요? [랩 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
 >
 
-다음 기능은 Microsoft 365 Defender의 최신 릴리스에서 일반적으로 사용할 수 있습니다(GA).
+다음 기능은 최신 릴리스의 Microsoft 365(GA)입니다.
 
 RSS 피드: 다음 URL을 복사하여 피드 읽기에 붙여 넣는 방법을 통해 이 페이지가 업데이트될 때 알림을 받을 수 있습니다.
 ```http
-https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
+/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
 
 ## <a name="april-2021"></a>2021년 4월
-- 개선된 Microsoft 365 보안 센터 <br> 개선된 [Microsoft 365 보안 센터](https://security.microsoft.com)를 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 엔드포인트용 Defender, Office 365용 Defender, Microsoft 365 Defender 등을 Microsoft 365 보안 센터에 제공합니다. 보안 제어를 관리하는 새로운 홈입니다. [새로운 기능에 대해 알아보세요](./overview-security-center.md).
+- 향상된 Microsoft 365 보안 센터 <br> 개선된 [Microsoft 365 보안 센터](https://security.microsoft.com)를 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 엔드포인트용 Defender, Office 365용 Defender, Microsoft 365 Defender 등을 Microsoft 365 보안 센터에 제공합니다. 보안 제어를 관리하는 새로운 홈입니다. [새로운 기능에 대해 알아보세요](./overview-security-center.md).
 
 - [Microsoft 365 Defender 위협 분석 보고서](threat-analytics.md)<br>
- 위협 분석을 사용하면 활성 공격에 대응하고 영향을 최소화할 수 있습니다. 또한 Microsoft 365 Defender 솔루션에 의해 차단되는 공격 시도에 대해 알아보고 추가 노출 및 탄력성 증가의 위험을 완화하는 예방 조치를 취할 수 있습니다. 통합 보안 환경의 일부로, 끝점용 Microsoft Defender 및 Office E5용 Microsoft Defender 라이선스 소유자에게 위협 분석을 사용할 수 있습니다.
+ 위협 분석을 사용하면 활성 공격에 대응하고 영향을 최소화할 수 있습니다. 또한 Defender 솔루션에 의해 차단된 공격 시도에 대해 Microsoft 365 추가 노출 및 탄력성 증가 위험을 완화하는 예방 조치를 취할 수 있습니다. 통합 보안 환경의 일부로, 이제 Microsoft Defender for Endpoint 및 Microsoft Defender for Office 사용할 수 있습니다.
 
 ## <a name="march-2021"></a>2021년 3월
-- [CloudAppEvents 테이블](advanced-hunting-cloudappevents-table.md) <br>Microsoft Cloud App Security에서 다루는 다양한 클라우드 앱 및 서비스의 이벤트에 대한 정보를 찾아 하세요. 이 표에는 이전에 에서 사용 가능한 정보도 포함되어 `AppFileEvents` 있습니다.
+- [CloudAppEvents 테이블](advanced-hunting-cloudappevents-table.md) <br>다양한 클라우드 앱 및 서비스에서 이벤트에 대한 정보를 Microsoft Cloud App Security. 이 표에는 이전에 에서 사용 가능한 정보도 포함되어 `AppFileEvents` 있습니다.
 ## <a name="february-2021"></a>2021년 2월
-- (미리 보기) 향상된 [Microsoft 365 보안 https://security.microsoft.com) ](https://security.microsoft.com) 센터( 이제 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 Endpoint용 Defender 및 Office 365용 Defender를 중앙에 제공합니다. [변경 사항에 대한 자세한 정보](./overview-security-center.md).
+- (미리 보기) 향상된 Microsoft 365 [보안 https://security.microsoft.com) ](https://security.microsoft.com) 센터(는 이제 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 끝점용 Defender와 중앙에 Office 365 Defender를 제공합니다. [변경 사항에 대한 자세한 정보](./overview-security-center.md).
 
 ## <a name="september-2020"></a>2020년 9월
 - [IdentityDirectoryEvents 테이블](advanced-hunting-identitydirectoryevents-table.md) <br> AD(Active Directory)를 실행하는 사내 도메인 컨트롤러와 관련된 이벤트를 검색합니다. 이 [고급 헌팅](advanced-hunting-overview.md) 체계표에는 도메인 컨트롤러의 ID 관련 이벤트 및 시스템 이벤트가 포함됩니다.

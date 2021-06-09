@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 91295135c833c6b403078bdfd517c7b84ec7d630
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a5590e62e7838bb9f611320b6d0e5c573b2be084
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932850"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841561"
 ---
 # <a name="optimize-asr-rule-deployment-and-detections"></a>ASR 규칙 배포 및 검색 최적화
 
@@ -44,15 +44,15 @@ ms.locfileid: "51932850"
 * ASR 검색을 검토하고 가능한 잘못된 검색을 식별합니다.
 * 제외의 영향을 분석하고 제외할 파일 경로 목록을 생성합니다.
 
-Go **to attack surface management**  >  **Monitoring & reports > Attack surface reduction rules > Add exclusions 를 선택합니다.** Microsoft 365 보안 센터의 다른 섹션으로 이동할 수 있습니다.
+Go **to attack surface management**  >  **Monitoring & reports > Attack surface reduction rules > Add exclusions 를 선택합니다.** 이 섹션에서 보안 센터의 다른 섹션으로 Microsoft 365 있습니다.
 
-![Microsoft 365 보안 센터의 공격 표면 축소 규칙 페이지에서 제외 탭 추가](images/secconmgmt_asr_m365exlusions.png)<br>
-*Microsoft 365 보안 센터의 공격 표면 축소 규칙 페이지의 제외 추가 탭*
+![보안 센터의 공격 표면 축소 규칙 페이지에서 제외 Microsoft 365 추가](images/secconmgmt_asr_m365exlusions.png)<br>
+보안 ***센터의** 공격 표면 축소 규칙 페이지의 제외 Microsoft 365 탭*
 
 > [!NOTE]
-> Microsoft 365 보안 센터에 액세스하려면 Microsoft 365 E3 또는 E5 라이선스와 Azure Active Directory에서 특정 역할이 있는 계정이 필요합니다. [필요한 라이선스 및 사용 권한에 대해 읽어 읽습니다.](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)
+> 보안 Microsoft 365 액세스하려면 Microsoft 365 E3 또는 E5 라이선스와 특정 역할이 있는 계정이 Azure Active Directory. [필요한 라이선스 및 사용 권한에 대해 읽어 읽습니다.](/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)
 
-Microsoft 365 보안 센터의 ASR 규칙 배포에 대한 자세한 내용은 ASR 규칙 배포 및 검색 모니터링 및 관리를 [참조하세요.](https://docs.microsoft.com/office365/securitycompliance/monitor-devices#monitor-and-manage-asr-rule-deployment-and-detections)
+Microsoft 365 센터의 ASR 규칙 배포에 대한 자세한 내용은 ASR 규칙 배포 및 검색 모니터링 및 관리를 [참조하세요.](/office365/securitycompliance/monitor-devices#monitor-and-manage-asr-rule-deployment-and-detections)
 
 **관련 항목**
 

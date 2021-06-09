@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: b937dd41f0296f2cf4102f41f8ab10bd55e1c35d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7c471dc99a5deafcc60177812f60f1f884b10ee1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200284"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845573"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스로 중요한 폴더 보호
 
@@ -36,10 +36,10 @@ ms.locfileid: "51200284"
 
 ## <a name="what-is-controlled-folder-access"></a>제어된 폴더 액세스란?
 
-제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 알려진 신뢰할 수 있는 앱 목록에서 앱을 확인하여 데이터를 보호합니다. Windows Server 2019 및 Windows 10 클라이언트에서 지원되는 제어된 폴더 액세스는 Windows 보안 앱, Microsoft Endpoint Configuration Manager 또는 Intune(관리되는 디바이스의 경우)을 사용하여 으로 설정될 수 있습니다. 
+제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 알려진 신뢰할 수 있는 앱 목록에서 앱을 확인하여 데이터를 보호합니다. Windows Server 2019 및 Windows 10 클라이언트에서 지원되는 제어된 폴더 액세스는 Windows 보안 App, Microsoft Endpoint Configuration Manager 또는 Intune(관리되는 디바이스의 경우)을 사용하여 켜져 있을 수 있습니다. 
 
 > [!NOTE]
-> 스크립팅 엔진은 신뢰할 수 없습니다. 제어된 보호된 폴더에 대한 액세스를 허용할 수 없습니다.  예를 들어 인증서 및 파일 표시기를 사용하여 허용하는 경우에도 PowerShell은 제어된 폴더 액세스에서 [신뢰되지 않습니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/indicator-certificates) 
+> 스크립팅 엔진은 신뢰할 수 없습니다. 제어된 보호된 폴더에 대한 액세스를 허용할 수 없습니다.  예를 들어 인증서 및 파일 표시기를 사용하여 허용하는 경우에도 PowerShell은 제어된 폴더 액세스에서 [신뢰되지 않습니다.](/microsoft-365/security/defender-endpoint/indicator-certificates) 
 
 제어된 폴더 액세스는 제어된 폴더 액세스 이벤트에 대한 자세한 보고를 제공하고 일반적인 경고 조사 시나리오의 일부로 차단하는 [끝점용 Microsoft Defender와](microsoft-defender-endpoint.md)가장 [잘 작동합니다.](investigate-alerts.md)
 
@@ -62,15 +62,15 @@ Configuration Manager 또는 Intune을 사용하여 앱을 신뢰할 수 있는 
 
 보호된 [폴더에는](#review-controlled-folder-access-events-in-windows-event-viewer) 일반적인 시스템 폴더(부팅 섹터 포함)가 포함되고 폴더를 더 추가할 [수 있습니다.](customize-controlled-folders.md#protect-additional-folders) 앱에서 보호된 [폴더에](customize-controlled-folders.md#allow-specific-apps-to-make-changes-to-controlled-folders) 대한 액세스 권한을 부여하도록 허용할 수도 있습니다.
 
-감사 모드를 [사용하여](audit-windows-defender.md) 제어된 폴더 액세스가 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가할 수 있습니다. 또한 Windows Defender 테스트 demo.wd.microsoft.com 웹 사이트를 방문하여 기능이 작동하는지 확인하고 작동 방법을 확인할 수 있습니다. [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground)
+감사 모드를 [사용하여](audit-windows-defender.md) 제어된 폴더 액세스가 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가할 수 있습니다. 또한 Windows Defender 테스트 demo.wd.microsoft.com 웹 사이트를 [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 방문하여 기능이 작동하는지 확인하고 작동 방법을 확인할 수 있습니다.
 
-제어된 폴더 액세스는 다음 버전의 Windows에서 지원됩니다.
-- [Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+제어된 폴더 액세스는 다음 버전의 폴더에서 Windows.
+- [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-## <a name="windows-system-folders-are-protected-by-default"></a>Windows 시스템 폴더는 기본적으로 보호됩니다.
+## <a name="windows-system-folders-are-protected-by-default"></a>Windows 폴더는 기본적으로 보호됩니다.
 
-Windows 시스템 폴더는 기본적으로 몇 가지 다른 폴더와 함께 보호됩니다. 
+Windows 폴더는 기본적으로 몇 가지 다른 폴더와 함께 보호됩니다. 
 
 - `c:\Users\<username>\Documents`
 - `c:\Users\Public\Documents`
@@ -83,17 +83,17 @@ Windows 시스템 폴더는 기본적으로 몇 가지 다른 폴더와 함께 �
 - `c:\Users\<username>\Favorites`
 
 > [!NOTE]
-> 추가 폴더를 보호된 폴더로 구성할 수는 있지만 기본적으로 보호되는 Windows 시스템 폴더는 제거할 수 없습니다.
+> 추가 폴더를 보호된 폴더로 구성할 수는 있지만 기본적으로 보호되는 Windows 폴더는 제거할 수 없습니다.
 
 ## <a name="requirements-for-controlled-folder-access"></a>제어된 폴더 액세스에 대한 요구 사항
 
-제어된 폴더 액세스에는 Microsoft Defender 바이러스 백신 실시간 보호를 [사용하도록 설정해야 합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
+제어된 폴더 액세스를 사용하려면 실시간 Microsoft Defender 바이러스 백신 [활성화해야 합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
-## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>Microsoft Defender 보안 센터에서 제어된 폴더 액세스 이벤트 검토
+## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>폴더에서 제어된 폴더 액세스 이벤트를 Microsoft Defender 보안 센터
 
 Endpoint용 Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 [차단합니다.](investigate-alerts.md)
 
-고급 헌팅을 사용하여 Microsoft Defender에서 끝점 데이터를 [쿼리할 수 있습니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection) 감사 모드를 사용하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 제어된 폴더 액세스 설정이 사용하도록 설정된 경우 환경에 어떤 영향을 주는지 볼 수 있습니다. [](advanced-hunting-overview.md)
+고급 헌팅을 사용하여 Microsoft Defender에서 끝점 데이터를 [쿼리할 수 있습니다.](/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection) 감사 모드를 사용하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 제어된 폴더 액세스 설정이 사용하도록 설정된 경우 환경에 어떤 영향을 주는지 볼 수 있습니다. [](advanced-hunting-overview.md)
 
 쿼리 예제:
 
@@ -102,12 +102,12 @@ DeviceEvents
 | where ActionType in ('ControlledFolderAccessViolationAudited','ControlledFolderAccessViolationBlocked')
 ```
 
-## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Windows 이벤트 뷰어에서 제어된 폴더 액세스 이벤트 검토
+## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>이벤트 뷰어에서 제어된 폴더 액세스 Windows 검토
 
-Windows 이벤트 로그를 검토하여 제어된 폴더 액세스가 앱을 차단(또는 감사)할 때 생성되는 이벤트를 볼 수 있습니다.
+제어된 Windows 로그를 검토하여 제어된 폴더 액세스가 앱을 차단(또는 감사)할 때 생성되는 이벤트를 볼 수 있습니다.
 
 1. 평가 [패키지를](https://aka.ms/mp7z2w) 다운로드하고  디바이스에서cfa-events.xml쉽게 액세스할 수 있는 위치에 파일을 추출합니다.
-2. 시작 **메뉴에** 이벤트 뷰어를 입력하여 Windows 이벤트 뷰어를 열 수 있습니다.
+2. 시작 **메뉴에** 이벤트 뷰어를 입력하여 이벤트 뷰어를 Windows 열 수 있습니다.
 3. 왼쪽 패널의 **동작에서** 사용자 지정 보기 **가져오기... 를 선택합니다.**
 4. 추출한 위치로 *이동하여cfa-events.xml* 선택합니다. 또는 [XML을 직접 복사합니다.](event-views.md)
 5. **확인** 을 선택합니다.
@@ -122,18 +122,18 @@ Windows 이벤트 로그를 검토하여 제어된 폴더 액세스가 앱을 �
 
 ## <a name="view-or-change-the-list-of-protected-folders"></a>보호된 폴더 목록 보기 또는 변경
 
-Windows 보안 앱을 사용하여 제어된 폴더 액세스로 보호되는 폴더 목록을 볼 수 있습니다. 
+앱 앱을 Windows 보안 제어된 폴더 액세스로 보호되는 폴더 목록을 볼 수 있습니다. 
 
-1. Windows 10 디바이스에서 Windows 보안 앱을 열 수 있습니다.
-2. 바이러스 **& 보호를 선택합니다.**
+1. 디바이스에서 Windows 10 앱을 Windows 보안 를 니다.
+2. **바이러스 및 위협 방지** 를 선택합니다.
 3. **랜섬웨어 보호에서** **랜섬웨어** 보호 관리를 선택합니다.
 4. 제어된 폴더 액세스가 꺼져 있는 경우 이를 켜야 합니다. 보호된 **폴더를 선택합니다.**
-5. 다음 단계 중 하나를 수행합니다.
+5. 다음 단계 중 하나를 실행합니다.
    - 폴더를 추가하려면 **+ 보호된 폴더 추가를 선택합니다.**
    - 폴더를 제거하려면 폴더를 선택하고 제거 를 **선택합니다.** 
 
 > [!NOTE]
-> [Windows 시스템 폴더는](#windows-system-folders-are-protected-by-default) 기본적으로 보호되어 있으며 목록에서 제거할 수 없습니다.
+> [Windows 시스템](#windows-system-folders-are-protected-by-default) 폴더는 기본적으로 보호되어 있으며 목록에서 제거할 수 없습니다.
 
 ## <a name="see-also"></a>참고 항목
 

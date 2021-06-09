@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e0d5a13b0c33516209bd2d18361a1de6ab9245c2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 7798f3b6bd2f99d48a8fa85ecf088023f4629b7b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932944"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841573"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 장치 온보딩
 
@@ -41,17 +41,17 @@ ms.locfileid: "51932944"
 
 ## <a name="discover-and-track-unprotected-devices"></a>보호되지 않는 장치 검색 및 추적
 
-**온보딩** 카드는 실제로 Endpoint용 Defender에 온보딩된 Windows 10 장치의 수와 Intune에서 관리하는 Windows 10 장치의 총 수를 비교하여 온보딩 속도에 대한 간략한 개요를 제공합니다.
+**온보딩** 카드는 실제로 끝점용 Defender에 온보딩된 Windows 10 장치 수를 Intune 관리 Windows 10 비교하여 온보딩 속도에 대한 간략한 개요를 제공합니다.
 
 ![장치 구성 관리 온보더링 카드](images/secconmgmt_onboarding_card.png)<br>
-*Intune에서 관리하는 Windows 10 장치의 총 수와 비교한 온보드 장치를 보여 주는 카드*
+*Intune에서 관리하는 총 장치 수와 비교한 온보더 장치를 보여 Windows 10 카드*
 
 >[!NOTE]
 >Intune 프로필을 사용하지 않는 보안 센터 구성 관리자, 온보딩 스크립트 또는 기타 온보딩 방법을 사용한 경우 데이터 불일치가 발생할 수 있습니다. 이러한 불일치 문제를 해결하려면 끝점 온보딩용 Defender에 대한 해당 Intune 구성 프로필을 만들고 해당 프로필을 장치에 할당합니다.
 
 ## <a name="onboard-more-devices-with-intune-profiles"></a>Intune 프로필을 사용하여 더 많은 장치 온보드
 
-Endpoint용 Defender는 Windows [10](onboard-configure.md)장치를 온보딩하기 위한 몇 가지 편리한 옵션을 제공합니다. 그러나 Intune 관리 장치의 경우 Intune 프로필을 활용하여 Endpoint용 Defender 센서를 편리하게 배포하여 디바이스를 선택해 효과적으로 이러한 장치를 서비스에 온보딩할 수 있습니다.
+Endpoint용 Defender는 디바이스를 온보딩하기 위한 몇 가지 [편리한 Windows 10 있습니다.](onboard-configure.md) 그러나 Intune 관리 장치의 경우 Intune 프로필을 활용하여 Endpoint용 Defender 센서를 편리하게 배포하여 디바이스를 선택해 효과적으로 이러한 장치를 서비스에 온보딩할 수 있습니다.
 
 **온보더링 카드에서** 더 많은 디바이스 온보더를 **선택하여** Intune에서 프로필을 만들고 할당합니다. 이 링크를 통해 Intune의 장치 준수 페이지로 이동하여 온보더링 상태를 비슷한 개요로 제공합니다.
 
@@ -59,7 +59,7 @@ Endpoint용 Defender는 Windows [10](onboard-configure.md)장치를 온보딩하
    *Intune 장치 관리의 끝점 장치 준수 페이지용 Microsoft Defender*
 
 >[!TIP]
->또는 [Microsoft Defender](https://portal.azure.com/) ATP의 모든 서비스 및 **Intune**> 장치 준수 > Microsoft Azure Portal에서 끝점 온보딩 준수를 위한 Defender > 있습니다.
+>**또는 Intune** 및 장치 준수 > 모든 서비스에서 Microsoft Azure [](https://portal.azure.com/) 포털의 끝점 온보딩 준수를 위한 Defender > 수 > Microsoft Defender ATP.
 
 >[!NOTE]
 > 최신 장치 데이터를 보려면 ATP 센서가 없는 장치 목록을 **클릭합니다.**
@@ -69,7 +69,7 @@ Endpoint용 Defender는 Windows [10](onboard-configure.md)장치를 온보딩하
 - 미리 **정의한 장치 구성** 프로필로 시작하도록 ATP 센서를 구성하려면 장치 구성 프로필 만들기를 선택합니다.
 - 처음부터 장치 구성 프로필을 만드시다.
 
-자세한 내용은 Intune 장치 구성 프로필을 사용하여 끝점용 Defender에 장치를 온보딩하는 [방법을 읽어보아야 합니다.](https://docs.microsoft.com/intune/advanced-threat-protection#onboard-devices-by-using-a-configuration-profile)
+자세한 내용은 Intune 장치 구성 프로필을 사용하여 끝점용 Defender에 장치를 온보딩하는 [방법을 읽어보아야 합니다.](/intune/advanced-threat-protection#onboard-devices-by-using-a-configuration-profile)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 

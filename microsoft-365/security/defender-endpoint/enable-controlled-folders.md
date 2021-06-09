@@ -14,24 +14,24 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: ee87ac3bdfe88596a5f1625904af53499488f35f
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 1d09eaf04999478a0cd0b4907667a522a23fb39f
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571011"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841981"
 ---
 # <a name="enable-controlled-folder-access"></a>제어된 폴더 액세스 사용
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-[제어된 폴더 액세스는](controlled-folders.md) 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows 10 및 Windows Server 2019에 포함되어 있습니다.
+[제어된 폴더 액세스는](controlled-folders.md) 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows 10 Server 2019에 Windows 포함되어 있습니다.
 
 다음 방법 중 한 가지를 사용하여 제어된 폴더 액세스를 사용하도록 설정할 수 있습니다.
 
@@ -46,23 +46,23 @@ ms.locfileid: "51571011"
 
 로컬 관리자 목록의 선택을 해제하는 그룹 정책 설정은 제어된 폴더 액세스 설정을 다시 지정합니다. 또한 제어된 폴더 액세스를 통해 로컬 관리자가 설정한 보호된 폴더 및 허용된 앱을 어버합니다. 이러한 정책에는 다음이 포함됩니다.
 
-* Microsoft Defender 바이러스 백신 **목록에 대한 로컬 관리자 병합 동작 구성**
+* Microsoft Defender 바이러스 백신 목록에 **대한 로컬 관리자 병합 동작 구성**
 * System Center Endpoint Protection 사용자가 제외 및 오버라이드를 추가할 **수 있도록 허용**
 
-로컬 목록의 선택을 취소하는 데 대한 자세한 내용은 [사용자가 Microsoft Defender AV](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-local-policy-overrides-microsoft-defender-antivirus#configure-how-locally-and-globally-defined-threat-remediation-and-exclusions-lists-are-merged)정책 설정을 로컬로 수정하지 못하도록 허용을 참조하세요.
+로컬 목록의 선택을 취소하는 데 대한 자세한 내용은 [사용자가 Microsoft Defender AV](/windows/security/threat-protection/microsoft-defender-antivirus/configure-local-policy-overrides-microsoft-defender-antivirus#configure-how-locally-and-globally-defined-threat-remediation-and-exclusions-lists-are-merged)정책 설정을 로컬로 수정하지 못하도록 허용을 참조하세요.
 
 ## <a name="windows-security-app"></a>Windows 보안 앱
 
-1. 작업 표시줄에서 방패 아이콘을 선택하여 Windows 보안 앱을 열 수 있습니다. Defender의 시작 메뉴를 **검색할 수도 있습니다.**
+1. 작업 Windows 보안 방패 아이콘을 선택하여 앱 앱을 니다. Defender의 시작 메뉴를 **검색할 수도 있습니다.**
 
 2. 바이러스 & **위협** 방지 타일(또는 왼쪽 메뉴 표시줄의 방패 아이콘)을 선택한 다음 랜섬웨어 보호 **를 선택합니다.**
 
 3. 제어된 폴더 **액세스에 대한 스위치를** **켜기 로 설정**
 
 > [!NOTE]
-> 그룹 정책, PowerShell 또는 MDM CSP를 사용하여 제어된 폴더 액세스가 구성된 경우 장치를 다시 시작한 후 Windows 보안 앱에서 상태가 변경됩니다.
-> 해당 도구를 사용하여  기능이 감사 모드로 설정되어 있는 경우 Windows 보안 앱은 상태를 해제로 **표시됩니다.**
-> 사용자 프로필 데이터를 보호하는 경우 사용자 프로필이 기본 Windows 설치 드라이브에 있는 것이 좋습니다.
+> 제어된 폴더 액세스가 그룹 정책, PowerShell 또는 MDM CSP로 구성된 경우 디바이스를 다시 시작한 후 Windows 보안 앱에서 상태가 변경됩니다.
+> 해당 도구를 사용하여  기능이 감사 모드로 설정되어 있는 경우 Windows 보안 앱이 상태를 끄기로 **표시됩니다.**
+> 사용자 프로필 데이터를 보호하는 경우 사용자 프로필이 설치 드라이브의 기본 Windows 좋습니다.
 
 ## <a name="intune"></a>Intune
 
@@ -70,7 +70,7 @@ ms.locfileid: "51571011"
 
 2. 장치 구성 **프로필**  >  **프로필**  >  **만들기로 이동하세요.**
 
-3. 프로필 이름을 지정하고 **Windows 10 이상 및** 엔드포인트 보호 **를 선택하세요.** <br/> ![끝점 보호 프로필 만들기](/microsoft-365/security/defender-endpoint/images/create-endpoint-protection-profile) <br/>
+3. 프로필 이름을 지정하고 Windows 10 **및 끝점 보호** **를 선택하세요.** <br/> ![끝점 보호 프로필 만들기](/microsoft-365/security/defender-endpoint/images/create-endpoint-protection-profile) <br/>
 
 4. Configure   >  **Windows Defender Exploit Guard**  >  **Controlled folder access**  >  **Enable으로 이동합니다.**
 
@@ -85,11 +85,11 @@ ms.locfileid: "51571011"
 
 ## <a name="mobile-device-management-mdm"></a>MDM(모바일 장치 관리)
 
-[./Vendor/MSFT/Policy/Config/ControlledFolderAccessProtectedFolders](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders) CSP(구성 서비스 공급자)를 사용하여 앱이 보호된 폴더를 변경할 수 있도록 합니다.
+[./Vendor/MSFT/Policy/Config/ControlledFolderAccessProtectedFolders](/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders) CSP(구성 서비스 공급자)를 사용하여 앱이 보호된 폴더를 변경할 수 있도록 합니다.
 
 ## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
 
-1. Microsoft Endpoint Configuration Manager에서 Exploit **Guard의** 자산 및 준수 끝점 보호  >    >  **Windows Defender 로 이동합니다.**
+1. 이 Microsoft Endpoint Configuration Manager Exploit **Guard에서** 자산 및 규정 준수 Endpoint Protection  >    >  **Windows Defender 로 이동합니다.**
 
 2. 홈 **Exploit**  >  **Guard 정책 만들기 를 선택합니다.**
 
@@ -107,16 +107,16 @@ ms.locfileid: "51571011"
 
 1. 그룹 정책 관리 장치에서 그룹 정책 관리 콘솔을 [열고](https://technet.microsoft.com/library/cc731212.aspx)구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **선택합니다.**
 
-2. 그룹 **정책 관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 **템플릿을 선택합니다.**
+2. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-3. Microsoft Defender 바이러스 백신 > 제어된 폴더 액세스를 > Windows Defender Windows 구성 **> 확장합니다.**
+3. 제어된 **폴더 액세스 Windows Exploit Guard > Microsoft Defender 바이러스 백신 > Windows Defender 구성 > 확장합니다.**
 
 4. 제어된 폴더 액세스 구성 설정을 **두** 번 클릭하고 옵션을 사용으로 **설정합니다.** 옵션 섹션에서 다음 옵션 중 하나를 지정해야 합니다.
-    * **사용** - 악성 및 의심스러운 앱은 보호된 폴더의 파일을 변경할 수 없습니다. 알림이 Windows 이벤트 로그에 제공됩니다.
+    * **사용** - 악성 및 의심스러운 앱은 보호된 폴더의 파일을 변경할 수 없습니다. 알림은 이벤트 로그의 Windows 제공됩니다.
     * **사용 안 하게(기본값)** - 제어된 폴더 액세스 기능이 작동하지 않습니다. 모든 앱은 보호된 폴더의 파일을 변경할 수 있습니다.
-    * **감사 모드** - 악의적 또는 의심스러운 앱이 보호된 폴더의 파일을 변경하려고 하면 변경이 허용됩니다. 그러나 조직에 미치는 영향을 평가할 수 있는 Windows 이벤트 로그에 기록됩니다.
-    * **디스크 수정만 차단** - Windows 이벤트 로그에 기록됩니다. 이러한 로그 **>는** Microsoft > Windows > Windows Defender > ID 1123의 응용 프로그램 및 > 로그에서 > 있습니다.
-    * **디스크 수정만** 감사 - 보호된 디스크 섹터에 쓰기 시도만 Windows 이벤트 로그에 기록됩니다(응용 프로그램 및 서비스 로그 Microsoft Windows Windows Defender  >    >    >    >  **작동**  >  **ID 1124).** 보호된 폴더의 파일 수정 또는 삭제 시도는 기록되지 않습니다.
+    * **감사 모드** - 악의적 또는 의심스러운 앱이 보호된 폴더의 파일을 변경하려고 하면 변경이 허용됩니다. 그러나 조직에 미치는 영향을 평가할 수 있는 Windows 로그에 기록됩니다.
+    * **디스크 수정만 차단** - 디스크 섹터에 쓰는 것으로 확인되지 않은 앱에서 디스크 섹터에 쓰는 시도는 이벤트 로그에 Windows 기록됩니다. 이러한 로그는 Microsoft  > 작업 ID 1123의 응용 프로그램 > Windows > Windows Defender > 서비스 > 있습니다.
+    * **디스크** 수정만 감사 - 보호된 디스크 섹터에 쓰기 시도만 Windows 이벤트 로그에 기록됩니다(응용 프로그램 및 서비스 로그 Microsoft Windows Windows Defender  >    >    >    >  **작동**  >  **ID 1124).** 보호된 폴더의 파일 수정 또는 삭제 시도는 기록되지 않습니다.
 
       ![드롭다운에서 선택한 그룹 정책 옵션 사용 및 감사 모드 스크린샷](/microsoft-365/security/defender-endpoint/images/cfa-gp-enable)
 

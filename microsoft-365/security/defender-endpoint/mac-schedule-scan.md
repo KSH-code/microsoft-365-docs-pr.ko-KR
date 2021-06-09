@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2c1dc16dc3fbb61a77e1d7348d47fdfd778c56e2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a93ea3427c72eb5529715b92cb18d01462493cc6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934516"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842857"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender 검사 예약
 
@@ -102,6 +102,6 @@ macOS 디바이스에서 시작된  데몬을 사용하여 스캔 일정을 만�
 
 ## <a name="schedule-a-scan-with-intune"></a>Intune을 통해 검사 예약
 
-Microsoft Intune을 사용하여 검색을 예약할 수 있습니다. 디바이스가 [runMDATPQuickScan.sh](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP#runmdatpquickscansh) 모드로 다시 시작되면 [Scripts for Microsoft Defender for Endpoint에서](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP) 사용할 수 있는 runMDATPQuickScan.sh 셸 스크립트가 지속됩니다. 
+또한 검색을 실행하여 검색을 예약할 Microsoft Intune. 디바이스가 [runMDATPQuickScan.sh](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP#runmdatpquickscansh) 모드로 다시 시작되면 [Scripts for Microsoft Defender for Endpoint에서](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP) 사용할 수 있는 runMDATPQuickScan.sh 셸 스크립트가 지속됩니다. 
 
-엔터프라이즈에서 이 스크립트를 사용하는 방법에 대한 자세한 내용은 [Intune에서 macOS](https://docs.microsoft.com/mem/intune/apps/macos-shell-scripts) 장치에서 셸 스크립트 사용을 참조하세요.
+엔터프라이즈에서 이 스크립트를 사용하는 방법에 대한 자세한 내용은 [Intune에서 macOS](/mem/intune/apps/macos-shell-scripts) 장치에서 셸 스크립트 사용을 참조하세요.

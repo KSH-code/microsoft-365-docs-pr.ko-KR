@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d01e1d847a8932d95e645a89eff15cf0793491e5
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 6348d688103c51176fbed36c923a660c77a2258d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651275"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842785"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender의 새로운
 
@@ -163,7 +163,7 @@ ms.locfileid: "52651275"
 
 ## <a name="1010031"></a>101.00.31
 
-- [Intune 사용자에 대한](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos) 향상된 제품 온보더링 환경
+- [Intune 사용자에 대한](/mem/intune/apps/apps-advanced-threat-protection-macos) 향상된 제품 온보더링 환경
 - 바이러스 [백신 제외에서 와일드카드 지원](mac-exclusions.md#supported-exclusion-types)
 - macOS 상황에 맞는 메뉴에서 바이러스 백신 검색을 트리거하는 기능을 추가했습니다. 이제 Finder에서 파일 또는 폴더를 마우스 오른쪽 단추로 클릭하고 **끝점용 Microsoft Defender로 스캔을** 선택할 수 있습니다.
 - 현재 있는 제품 다운그레이드가 설치 관리자에 의해 명시적으로 허용되지 않습니다. 다운그레이드해야 하는 경우 먼저 기존 버전을 제거하고 장치를 다시 구성합니다.

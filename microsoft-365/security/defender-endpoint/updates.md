@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: f5db08e4eb98dd3fe6f7e8a84fb0c49e889fb73f
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 435a77432caa9d7335a22993f85cae69eff6cd38
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809303"
+ms.locfileid: "52841765"
 ---
 #  <a name="manage-the-gradual-rollout-process-for-microsoft-defender-updates"></a>Microsoft Defender 업데이트에 대한 서진적 출시 프로세스 관리
 
@@ -56,7 +56,7 @@ ms.locfileid: "52809303"
 
 1. 첫 번째 릴리스는 베타 채널 구독자에게 공개됩니다.
 2. 유효성 검사, 피드백 및 수정 후 제한된 방식으로 먼저 미리 보기 채널 구독자에게 서서한 롤아웃 프로세스를 시작합니다.
-3. 그런 다음 나머지 전역 인구에 대한 업데이트 릴리스를 진행하여 10~100%로 확장합니다.
+3. 그런 다음 나머지 전역 인구에 대한 업데이트를 계속 릴리스하여 10~100%로 확장합니다.
 
 엔지니어는 지속적으로 영향을 모니터링하고 문제를 에스컬레이터하여 필요한 경우 수정을 생성합니다.
 

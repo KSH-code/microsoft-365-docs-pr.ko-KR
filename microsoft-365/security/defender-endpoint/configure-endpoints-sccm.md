@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: e919f697048840b0eb7bffd34914328fe233f823
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d827fb89a082286b1b7b77ea0a14e588ce171161
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935164"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842197"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>구성 관리자를 사용하여 Windows 10 장치 온보딩
 
@@ -32,7 +32,7 @@ ms.locfileid: "51935164"
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-- Microsoft Endpoint Configuration Manager 현재 분기
+- Microsoft Endpoint Configuration Manager 분기
 - System Center 2012 R2 Configuration Manager
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointssccm-abovefoldlink)
@@ -43,7 +43,7 @@ ms.locfileid: "51935164"
 
 #### <a name="configuration-manager-version-1910-and-prior"></a>Configuration Manager 버전 1910 및 이전
 
-- Windows 10을 실행하는 클라이언트 컴퓨터 
+- 클라이언트 컴퓨터에서 Windows 10 
 
 #### <a name="configuration-manager-version-2002-and-later"></a>Configuration Manager 버전 2002 이상
 
@@ -57,38 +57,38 @@ Configuration Manager 버전 2002부터 다음 운영 체제를 온보드할 수
 - Windows Server 2019
 
 >[!NOTE]
->R2, Windows Server 2016 및 Windows Server 2019를 Windows Server 2012 방법에 대한 자세한 내용은 Windows 서버 온보드를 [참조하세요.](configure-server-endpoints.md)
+>R2, Windows Server 2012, Windows Server 2016 및 Windows Server 2019를 온보드하는 방법에 대한 자세한 내용은 [onboard Windows servers을 참조하십시오.](configure-server-endpoints.md)
 
 
 
-### <a name="onboard-devices-using-system-center-configuration-manager"></a>System Center Configuration Manager를 사용하여 장치 온보드
+### <a name="onboard-devices-using-system-center-configuration-manager"></a>장치를 사용하여 온보드 System Center Configuration Manager
 
 
 [![다양한 배포 경로를 보여 주며 PDF 이미지](images/onboard-config-mgr.png)](images/onboard-config-mgr.png#lightbox)
 
 
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 [Visio를](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 확인하여 끝점용 Microsoft Defender 배포의 다양한 경로를 확인할 수 있습니다. 
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) Microsoft Defender for Endpoint 배포에서 다양한 경로를 확인할 수 있습니다. 
 
 
 
-1. 서비스 온보더링 마법사에서 ** 다운로드한 Configuration Manager 구성 패키지 .zip 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. Microsoft Defender 보안 센터에서 패키지를 [다운로드할 수 있습니다.](https://securitycenter.windows.com/)
+1. 서비스 온보더링 마법사에서 ** 다운로드한 .zip(WindowsDefenderATPOnboardingPackage.zip)를 구성 관리자 구성 패키지 패키지를 열 수 있습니다. 에서 패키지를 얻을 [Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
 
-    1. 탐색 창에서 설정   >  **온보드 를 선택합니다.**
+    1. 탐색 창에서 **온보 설정**  >  **선택합니다.**
     
-    1. 운영 체제로 Windows 10을 선택합니다.
+    1. 운영 Windows 10 로 실행을 선택합니다.
 
-    1. 배포 **방법 필드에서** **System Center Configuration Manager 2012/2012 R2/1511/1602 를 선택합니다.**
+    1. 배포 **방법 필드에서** System Center Configuration Manager **2012/2012 R2/1511/1602 를 선택합니다.**
     
-    1. 패키지 **다운로드 를** 선택하고 .zip 파일을 저장합니다.
+    1. 패키지 **다운로드를** 선택하고 파일 .zip 저장합니다.
 
-2. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 공유 읽기 전용 위치에 .zip 파일의 내용을 추출합니다. *이름이 WindowsDefenderATPOnboardingScript.cmd인 파일이 있습니다.*
+2. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 .zip 공유 읽기 전용 위치로 파일 파일의 내용을 추출합니다. *이름이 WindowsDefenderATPOnboardingScript.cmd인 파일이 있습니다.*
 
-3. R2 Configuration Manager의 패키지 및 프로그램 문서에 [System Center 2012 패키지를 배포합니다.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
+3. System Center [R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\)) 문서의 단계에 따라 패키지를 배포합니다.
 
     a. 패키지를 배포할 미리 정의한 장치 컬렉션을 선택하십시오.
 
 > [!NOTE]
-> Endpoint용 Defender는 [OOBE(첫 경험)](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) 단계에서 온보딩을 지원하지 않습니다. 사용자가 Windows 설치 또는 업그레이드를 실행한 후 OOBE를 완료해야 합니다.
+> Endpoint용 Defender는 [OOBE(첫 경험)](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) 단계에서 온보딩을 지원하지 않습니다. 설치 또는 업그레이드를 실행한 후 사용자가 OOBE를 Windows 합니다.
 
 >[!TIP]
 > 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 Endpoint 디바이스용 Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
@@ -98,11 +98,11 @@ Configuration Manager 버전 2002부터 다음 운영 체제를 온보드할 수
 > 
 > 이 동작은 "OnboardingState" 레지스트리 값(형식이 REG_DWORD) = 1이면 검색 규칙을 만들어 수행할 수 있습니다.
 > 이 레지스트리 값은 "HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status" 아래에 있습니다.
-자세한 내용은 [Configure Detection Methods in System Center 2012 R2 Configuration Manager을 참조하십시오.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type)
+자세한 내용은 [Configure Detection Methods in System Center 2012 R2 Configuration Manager을 참조하십시오.](/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type)
 
 ### <a name="configure-sample-collection-settings"></a>샘플 수집 설정 구성
 
-각 디바이스에 대해 Microsoft Defender 보안 센터를 통해 요청이 있을 때 장치에서 샘플을 수집할 수 있는지 여부를 설명하는 구성 값을 설정하여 심층 분석을 위해 파일을 제출할 수 있습니다.
+각 디바이스에 대해 심층 분석을 위해 파일을 제출하기 위해 요청을 할 때 장치에서 샘플을 수집할 수 있는지 여부를 Microsoft Defender 보안 센터 구성 값을 설정할 수 있습니다.
 
 >[!NOTE]
 >이러한 구성 설정은 일반적으로 Configuration Manager를 통해 수행됩니다. 
@@ -127,7 +127,7 @@ Value: 0 or 1
 
 레지스트리 키가 없는 경우의 기본값은 1입니다.
 
-System Center Configuration Manager 규정 준수에 대한 자세한 내용은 System Center 2012 R2 Configuration Manager의 규정 준수 설정 [소개를 참조하세요.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
+규정 준수에 System Center Configuration Manager 대한 자세한 내용은 [System Center 2012 R2 Configuration Manager의](/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))규정 준수 설정 소개를 참조하세요.
 
 
 ## <a name="other-recommended-configuration-settings"></a>기타 권장 구성 설정
@@ -173,25 +173,25 @@ Endpoint Configuration Manager 버전 2002 이상을 사용하는 경우 서버 
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-### <a name="offboard-devices-using-microsoft-endpoint-manager-current-branch"></a>Microsoft Endpoint Manager 현재 분기를 사용하여 장치 오프보드
+### <a name="offboard-devices-using-microsoft-endpoint-manager-current-branch"></a>현재 분기를 사용하여 Microsoft Endpoint Manager 오프보드
 
-Microsoft Endpoint Manager 현재 분기를 사용하는 경우 오프보링 구성 파일 [만들기를 참조합니다.](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file)
+현재 분기에 Microsoft Endpoint Manager 경우 오프보링 구성 파일 [만들기를 참조합니다.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file)
 
-### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>R2 Configuration Manager를 사용하여 System Center 2012 오프보드
+### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>System Center 2012 R2 Configuration Manager를 사용하여 장치 오프보드
 
-1. Microsoft Defender 보안 센터에서 오프보딩 [패키지를 다운로드합니다.](https://securitycenter.windows.com/)
+1. 에서 오프보더 [패키지를 Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
 
-    1. 탐색 창에서 설정 **오프보링**  >   **을 선택합니다.**
+    1. 탐색 창에서 **오프보더 설정**  >   **선택합니다.**
 
-    1. 운영 체제로 Windows 10을 선택합니다.
+    1. 운영 Windows 10 로 실행을 선택합니다.
 
-    1. 배포 **방법 필드에서** **System Center Configuration Manager 2012/2012 R2/1511/1602 를 선택합니다.**
+    1. 배포 **방법 필드에서** System Center Configuration Manager **2012/2012 R2/1511/1602 를 선택합니다.**
     
-    1. 패키지 **다운로드 를** 선택하고 .zip 파일을 저장합니다.
+    1. 패키지 **다운로드를** 선택하고 파일 .zip 저장합니다.
 
-2. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 공유 읽기 전용 위치에 .zip 파일의 내용을 추출합니다. 이름이 *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd 입니다.*
+2. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 .zip 공유 읽기 전용 위치로 파일 파일의 내용을 추출합니다. 이름이 *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd 입니다.*
 
-3. R2 Configuration Manager의 패키지 및 프로그램 문서에 [System Center 2012 패키지를 배포합니다.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
+3. System Center [R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\)) 문서의 단계에 따라 패키지를 배포합니다.
 
     a. 패키지를 배포할 미리 정의한 장치 컬렉션을 선택하십시오.
 
@@ -201,9 +201,9 @@ Microsoft Endpoint Manager 현재 분기를 사용하는 경우 오프보링 구
 
 ## <a name="monitor-device-configuration"></a>장치 구성 모니터링
 
-Microsoft Endpoint Manager 현재 분기를 사용하는 경우 Configuration Manager 콘솔에서 기본 제공 Defender for Endpoint 대시보드를 사용하세요. 자세한 내용은 [Endpoint용 Defender - 모니터링을 참조하세요.](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
+현재 분기를 Microsoft Endpoint Manager Configuration Manager 콘솔에서 기본 제공 Defender for Endpoint 대시보드를 사용하세요. 자세한 내용은 [Endpoint용 Defender - 모니터링을 참조하세요.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
 
-R2 구성 관리자를 System Center 2012 모니터링은 다음 두 부분으로 구성됩니다.
+2012 R2 System Center 사용하는 경우 모니터링은 다음 두 부분으로 구성됩니다.
 
 1. 구성 패키지가 올바르게 배포되어 네트워크의 디바이스에서 실행 중(또는 성공적으로 실행) 확인
 
@@ -225,7 +225,7 @@ R2 구성 관리자를 System Center 2012 모니터링은 다음 두 부분으�
 
 ### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-for-endpoint-service"></a>장치가 끝점용 Microsoft Defender 서비스를 준수하는지 확인
 
-R2 Configuration Manager에서 구성 항목에 대한 준수 규칙을 System Center 2012 배포를 모니터링할 수 있습니다.
+System Center 2012 R2 Configuration Manager에서 구성 항목에 대한 준수 규칙을 설정하여 배포를 모니터링할 수 있습니다.
 
 이 규칙은  대상 디바이스에서 레지스트리 키 값을 모니터링하는 수정되지 않는 준수 규칙 구성 항목입니다.
 
@@ -237,10 +237,10 @@ Name: "OnboardingState"
 Value: "1"
 ```
 
-자세한 내용은 R2 Configuration Manager의 규정 준수 System Center 2012 [소개를 참조하세요.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
+자세한 내용은 [System Center 2012 R2 Configuration Manager의](/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))규정 준수 설정 소개를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
-- [그룹 정책을 사용하여 Windows 10 장치 온보드](configure-endpoints-gp.md)
+- [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
 - [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)

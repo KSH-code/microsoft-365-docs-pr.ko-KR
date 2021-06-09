@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
-description: Office 365 보안 및 규정 준수 센터에서 Microsoft 365 보안 센터로의 변경에 대해 자세히 알아보겠습니다.
-keywords: Microsoft 365 보안, Microsoft 365 보안 센터 시작, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender, MDO, MDE, 단일 창, 새 보안 포털, 새로운 Defender 보안 포털
+title: Microsoft Defender for Office 365 Defender Microsoft 365 Defender
+description: 보안 및 준수 센터에서 Defender로의 Office 365 변경에 대해 Microsoft 365 대해 자세히 알아보습니다.
+keywords: Microsoft 365 보안, Microsoft 365 Defender, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender, MDO, MDE, 단일 창, 새 보안 포털, 새로운 Defender 보안 포털
 ms.date: 02/21/2021
 ms.author: tracyp
 author: msfttracyp
@@ -17,14 +17,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: ec5d22caa52ffaa061637cb8c510a0efaf566b6a
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 95471f444117e1a44abe8de76c95cda52d5f7930
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782900"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842606"
 ---
-# <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
+# <a name="microsoft-defender-for-office-365-in-microsoft-365-defender"></a>Microsoft Defender for Office 365 Defender Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "52782900"
 
 ## <a name="quick-reference"></a>빠른 참조
 
-아래 이미지와 표에는 Office 365 보안 및 준수 센터와 & 보안 센터 Microsoft 365 변경 내용이 나열되어 있습니다.
+아래 이미지와 표에는 Office 365 Security & Compliance Center와 Defender 간의 탐색 Microsoft 365 나열되어 있습니다.
 
 > [!div class="mx-imgBorder"]
 > ![이동한 위치의 이미지](../../media/mdo-m3d-security-center.png)
@@ -44,7 +44,7 @@ ms.locfileid: "52782900"
 
 ****
 
-|Office 365 보안 & 규정 준수|Microsoft 365 보안 센터|Microsoft 365 규정 준수 센터|Exchange 관리 센터|
+|Office 365 보안 & 규정 준수|Microsoft 365 Defender|Microsoft 365 규정 준수 센터|Exchange 관리 센터|
 |---|---|---|---|
 |경고|전자 메일 및 공동 작업|||
 |분류||준수 [Microsoft 365 참조](https://compliance.microsoft.com/homepage)||
@@ -59,11 +59,11 @@ ms.locfileid: "52782900"
 |서비스 보증|설정|||
 |
 
-<https://security.microsoft.com>의 개선된 [Microsoft 365 보안 센터](./overview-security-center.md)는 Microsoft Defender 보안 센터와 Office 365 보안 및 준수 센터 등의 기존 Microsoft 보안 포털의 보안 기능을 결합합니다. 이 개선된 센터는 보안 팀이 더 효과적이고 효율적으로 위협으로부터 조직을 보호하는 데 도움이 됩니다.
+[Microsoft 365 Defender는](./overview-security-center.md) 보안 및 규정 준수 센터를 비롯한 기존 Microsoft 보안 포털의 Microsoft Defender 보안 센터 Office 365 <https://security.microsoft.com> & 결합합니다. 이 개선된 센터는 보안 팀이 더 효과적이고 효율적으로 위협으로부터 조직을 보호하는 데 도움이 됩니다.
 
-Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 경우 이 문서에서는 Microsoft 365 보안 센터의 몇 가지 변경 및 개선 사항을 설명합니다.
+Office 365 보안 및 준수 포털(protection.office.com)에 익숙한 경우 이 문서에서는 Microsoft 365 Defender의 일부 변경 및 개선 사항을 설명하고 있습니다.
 
-이점에 대한 자세한 정보: [Microsoft 365 보안 센터 개요](overview-security-center.md)
+혜택에 대해 자세히 알아보시고, [Microsoft 365 Defender 개요를 참조하세요.](overview-security-center.md)
 
 규정 준수 관련 항목을 찾고 있는 경우 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)를 방문하세요.
 
@@ -79,7 +79,7 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 |---|---|
 |[전자 메일 엔터티 페이지](../office-365-security/mdo-email-entity-page.md)|이 페이지는 여러 페이지나 보기에 흩어진 전자 메일 정보를 **통합** 합니다. 위협과 추세 조사가 *중앙화* 됩니다. 헤더 정보 및 전자 메일 미리 보기는 같은 전자 메일 페이지에서 다른 유용한 전자 메일 관련 정보와 함께 액세스할 수 있습니다. 마찬가지로 악성 파일 첨부 파일 또는 URL에 대한 데토네이션 상태는 같은 페이지의 탭에서 찾을 수 있습니다. 전자 메일 엔터티 페이지를 통해 관리자와 보안 운영 팀이 전자 메일 위협과 해당 상태를 빠르게 파악한 다음 처리를 신속하게 결정할 수 있습니다.|
 |[조사](../office-365-security/office-365-air.md#changes-are-coming-soon-in-your-security-center)|[Office 365용 Defender](/microsoft-365/security/office-365-security/defender-for-office-365) 및 [엔드포인트용 Defender](../defender-endpoint/automated-investigations.md)의 AIR 기능을 결합합니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀에서는 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.|
-|[경고 보기](../../compliance/alert-policies.md)|이제 Office 보안 및 규정 준수 센터의 **경고 보기** 플라이아웃 창에 Microsoft 365 보안 센터에 대한 링크가 포함됩니다. **경고 열기 페이지** 링크를 클릭하면 Microsoft 365 보안 센터가 열립니다. 경고 큐에서 Office 365 경고를 클릭하여 **경고보기** 페이지에 액세스할 수 있습니다.|
+|[경고 보기](../../compliance/alert-policies.md)|이제 **보안 및** 준수 센터의 경고 보기 플라이아웃 Office Defender에 대한 링크가 Microsoft 365 있습니다. 경고 페이지 **열기** 링크를 클릭하고 defender가 Microsoft 365 클릭합니다. 경고 큐에서 Office 365 경고를 클릭하여 **경고보기** 페이지에 액세스할 수 있습니다.|
 |[공격 시뮬레이션 교육](../office-365-security/attack-simulation-training-insights.md)|공격 시뮬레이션 교육을 사용하여 조직에서 현실적인 공격 시나리오를 실행합니다. 이렇게 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 인력을 교육하는 데 도움이 될 수 있습니다. 공격 시뮬레이션 교육에는 추가 옵션, 향상된 보고서 및 향상된 교육 흐름이 포함되어 공격 시뮬레이션 및 교육 시나리오를 더 쉽게 전달하고 관리할 수 있도록 지원합니다.|
 |
 
@@ -98,9 +98,9 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 > Microsoft 365 보안 포털( <https://security.microsoft.com> )은 및 의 보안 기능을 <https://securitycenter.windows.com> <https://protection.office.com> 결합합니다. 그러나 표시되는 내용은 구독에 따라 다를 수 있습니다. 예를 들어 독립 실행형 구독으로 Office 365용 Microsoft Defender 플랜 1 또는 2만 있는 경우 엔드포인트용 보안과 관련된 기능이 표시되지 않으며 Office용 Defender 플랜 1 고객에게는 위협 분석과 같은 항목이 표시되지 않습니다.
 
 > [!TIP]
-> EOP는 Exchange Online Protection Defender의 핵심 요소이기 때문에 모든 EOP(Microsoft 365) 기능이 Office 365.
+> EOP는 Exchange Online Protection Defender의 핵심 요소이기 때문에 모든 EOP(Microsoft 365) 함수가 Office 365.
 
-## <a name="microsoft-365-security-center-home-page"></a>Microsoft 365 보안 센터 홈페이지
+## <a name="microsoft-365-defender-home-page"></a>Microsoft 365 Defender 홈 페이지
 
 포털 홈페이지에 표시되는 사항:
 
@@ -148,7 +148,7 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 - Office 365용 Microsoft Defender의 전자 메일 관련 감지 및 완화. 이 외에도 엔드포인트용 Microsoft Defender에서 이미 사용 가능한 엔드포인트 데이터도 사용할 수 있습니다.
 - 위협과 관련된 인시던트 보기.
 - 보고서에서 실행 가능한 정보를 빠르게 식별하고 사용할 수 있는 향상된 환경.
-Microsoft 365 보안 센터의 왼쪽 위 탐색 표시줄에서 또는 조직의 가장 큰 위협을 표시하는 전용 대시보드 카드에서 위협 분석에 액세스할 수 있습니다.
+Microsoft 365 Defender의 왼쪽 위 탐색 모음 또는 조직의 최상위 위협을 보여줄 수 있는 전용 대시보드 카드에서 위협 분석에 액세스할 수 있습니다.
 
 [위협 분석을 통해 새로운 위협을 추적 및 대처](./threat-analytics.md)하는 방법에 대해 자세히 알아보기
 
@@ -156,16 +156,16 @@ Microsoft 365 보안 센터의 왼쪽 위 탐색 표시줄에서 또는 조직�
 
 사용자의 전자 메일 위협을 추적 및 조사, 캠페인 추적 등. Office 365 보안 및 규정 준수 센터를 사용하는 경우 이 방법이 익숙할 것입니다.
 
-:::image type="content" source="../../media/converge-3-email-and-collab-new.png" alt-text="Microsoft 365 보안 센터의 왼쪽에 있는 전자 메일 및 공동 작업(또는 MSDO)의 빠른 실행 메뉴입니다.":::
+:::image type="content" source="../../media/converge-3-email-and-collab-new.png" alt-text="Defender 왼쪽에 있는 Collab(& MSDO)에 대한 빠른 실행 메뉴를 Microsoft 365 있습니다.":::
 
 ### <a name="access-and-reports"></a>액세스 및 보고서
 
 보고서를 보고, 설정을 변경하고, 사용자 역할을 수정합니다.
 
-:::image type="content" source="../../media/converge-4-access-and-reporting-new.png" alt-text="Microsoft 365 보안 센터 사용 권한 및 보고에 대한 빠른 실행 메뉴는 보안 센터의 왼쪽에 있습니다.":::
+:::image type="content" source="../../media/converge-4-access-and-reporting-new.png" alt-text="보안 센터 왼쪽에 있는 Microsoft 365 및 보고를 위한 빠른 실행 메뉴입니다.":::
 
 > [!NOTE]
-> Office 365 사용자의 경우 이제 Microsoft 365 보안 센터를 통해 *DomainKeys* 식별 메일(DKIM) 키를 관리하고 회전하거나 정책 & 규칙 <https://security.microsoft.com/threatpolicy> 위협 정책  \>  \> **DKIM으로** 이동할 수 있습니다.
+> Office 365 사용자용 Defender의 경우 이제  Microsoft 365 Defender를 통해 DKIM(DomainKeys Identified Mail) 키를 관리하고 회전하거나 정책 & <https://security.microsoft.com/threatpolicy> 규칙 위협 정책  \>  \> **DKIM으로** 이동할 수 있습니다.
 
 ## <a name="advanced-hunting-example-for-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 고급 검색 예제
 
@@ -213,7 +213,7 @@ LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, Lo
 
 ## <a name="related-information"></a>관련 정보
 
-- [Microsoft 365 보안 센터의 Office 365용 Microsoft Defender](microsoft-365-security-center-mdo.md)
+- [Microsoft Defender for Office 365 Defender Microsoft 365 Defender](microsoft-365-security-center-mdo.md)
 - [알림 센터](./m365d-action-center.md)
 - [전자 메일 및 공동 작업 경고](../../compliance/alert-policies.md#default-alert-policies)
 - [장치, 전자 메일, 앱 및 ID에 대한 위협 검색](./advanced-hunting-query-emails-devices.md)

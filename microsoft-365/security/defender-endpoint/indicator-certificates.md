@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8cf611e38bc781c2302f70f6491bb827410235b0
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b75a8cf1d2681281555a3b7bb80deadfc11ee44c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164684"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845455"
 ---
 # <a name="create-indicators-based-on-certificates"></a>인증서를 기반으로 표시기 만들기
 
@@ -39,16 +39,16 @@ ms.locfileid: "51164684"
 인증서에 대한 표시기를 만들 수 있습니다. 몇 가지 일반적인 사용 사례는 다음과 같습니다.
 
 - 공격 표면 감소 규칙 및 제어된 [](attack-surface-reduction.md) 폴더 액세스와 [](controlled-folders.md) 같은 차단 기술을 배포해야 하지만 허용 목록에 인증서를 추가하여 서명된 응용 프로그램의 동작을 허용해야 하는 시나리오입니다.
-- 조직 전체에서 서명된 특정 응용 프로그램의 사용을 차단합니다. 응용 프로그램의 인증서를 차단하는 표시기를 만들면 Windows Defender AV에서 파일 실행(차단 및 수정)을 방지하고 자동화된 조사 및 수정이 동일하게 실행됩니다.
+- 조직 전체에서 서명된 특정 응용 프로그램의 사용을 차단합니다. 응용 프로그램의 인증서를 차단하는 표시기를 만들면 Windows Defender AV는 파일 실행(차단 및 수정)을 방지하고 자동화된 조사 및 수정이 동일하게 실행됩니다.
 
 
 ### <a name="before-you-begin"></a>시작하기 전에
 
 인증서에 대한 표시기를 만들기 전에 다음 요구 사항을 이해하는 것이 중요합니다.
 
-- 이 기능은 조직에서 바이러스 백신 및 클라우드 Windows Defender 사용하도록 설정된 경우 사용할 수 있습니다. 자세한 내용은 클라우드 기반 보호 [관리를 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+- 이 기능은 조직에서 클라우드 기반 보호를 Windows Defender 바이러스 백신 경우 사용할 수 있습니다. 자세한 내용은 클라우드 기반 보호 [관리를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
-- Windows 10 버전 1703 이상, Windows server 2016 및 2019의 컴퓨터에서 지원됩니다.
+- 서버 2016 및 Windows 10 버전 1703 이상에 있는 Windows 지원됩니다.
 - 바이러스 및 위협 방지 정의는 최신해야 합니다.
 - 이 기능은 현재 를 입력할 수 있습니다. CER 또는 . PEM 파일 확장명입니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "51164684"
 >[!IMPORTANT]
 > 인증서 IoC를 만들고 제거하는 데 최대 3시간이 걸릴 수 있습니다.
 
-1. 탐색 창에서 설정   >  **표시기를 선택합니다.**  
+1. 탐색 창에서 **표시기 설정**  >  **선택합니다.**  
 
 2. 인증서 **탭을** 선택합니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "51164684"
 5. 요약 탭에서 세부 정보를 검토한 다음 저장을 **클릭합니다.**
 
 ## <a name="related-topics"></a>관련 항목
-- [표시기 만들기](manage-indicators.md)
-- [파일에 대한 표시기 만들기](indicator-file.md)
-- [IPS 및 URL/도메인에 대한 표시기 만들기](indicator-ip-domain.md)
-- [표시기 관리](indicator-manage.md)
+- [지표 만들기](manage-indicators.md)
+- [파일에 대한 지표 만들기](indicator-file.md)
+- [IP 및 URL/도메인에 대한 지표 만들기](indicator-ip-domain.md)
+- [지표 관리](indicator-manage.md)

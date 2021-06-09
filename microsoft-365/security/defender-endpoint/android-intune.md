@@ -1,6 +1,6 @@
 ---
 title: Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포
-description: Microsoft Intune을 사용하여 Android에서 끝점용 Microsoft Defender를 배포하는 방법을 설명
+description: Android에서 끝점용 Microsoft Defender를 배포하는 방법을 Microsoft Intune
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, mde, android, 설치, 배포, 제거,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f14d79d98bfffda675cd71b96068b179f30f059e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1935533ad924b7589bdfee6f3119fb667fb60b73
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934636"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841513"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포 
 
@@ -34,35 +34,35 @@ ms.locfileid: "51934636"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
-Intune 회사 포털 등록 디바이스에서 Android에 Endpoint용 Defender를 배포하는 방법을 학습합니다. Intune 장치 등록에 대한 자세한 내용은 [장치 등록을 참조하세요.](https://docs.microsoft.com/mem/intune/user-help/enroll-device-android-company-portal)
+등록된 디바이스에서 Android에 Endpoint용 Defender를 Intune 회사 포털 방법을 배워야 합니다. Intune 장치 등록에 대한 자세한 내용은 [장치 등록을 참조하세요.](/mem/intune/user-help/enroll-device-android-company-portal)
 
 > [!NOTE]
 > **Android의 끝점용 Defender는 [이제 Google Play에서 사용할 수 있습니다.](https://play.google.com/store/apps/details?id=com.microsoft.scmx)** <br>
-> Intune에서 Google Play에 연결하여 장치 관리자 및 Android Enterprise 관리 모드로 끝점용 Defender 앱을 배포할 수 있습니다.
+> Intune에서 Google Play에 연결하여 디바이스 관리자 및 Android 관리 모드에 끝점용 Defender 앱을 Enterprise 수 있습니다.
 앱 업데이트는 Google Play를 통해 자동으로 진행됩니다.
 
 ## <a name="deploy-on-device-administrator-enrolled-devices"></a>장치 관리자 등록 장치에 배포
 
-**Intune 회사 포털에서 Android에서 끝점용 Defender 배포 - 장치 관리자 등록 장치**
+**Android에서 끝점용 Defender Intune 회사 포털 - 장치 관리자 등록 장치**
 
-Intune 회사 포털 - 장치 관리자가 등록한 디바이스에서 Android에 Endpoint용 Defender를 배포하는 방법을 학습합니다. 
+Android에서 Android용 끝점용 Defender를 배포하는 방법을 Intune 회사 포털 - 장치 관리자 등록 장치. 
 
 ### <a name="add-as-android-store-app"></a>Android 스토어 앱으로 추가
 
-1. [Microsoft Endpoint Manager 관리 센터에서](https://go.microsoft.com/fwlink/?linkid=2109431) 앱 Android 앱 Android 스토어 앱  \>  \> **\> 추가로 이동하고** 선택을 **선택합니다.**
+1. In [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) , go to **Apps** Android \> **Apps** Add Android store \> **\> app** and choose **Select**.
 
-   ![Microsoft Endpoint Manager 관리 센터의 이미지 android 스토어 응용 프로그램 추가](images/mda-addandroidstoreapp.png)
+   ![Android Microsoft Endpoint Manager 응용 프로그램 추가의 이미지](images/mda-addandroidstoreapp.png)
 
 2. 앱 **추가 페이지에서** 앱 정보 *섹션에 다음을* 입력합니다. 
 
    - **이름** 
    - **설명**
-   - **Microsoft로 게시자.**
+   - **Publisher** Microsoft로 지원됩니다.
    - **앱 스토어 URL** https://play.google.com/store/apps/details?id=com.microsoft.scmx as(Endpoint 앱용 Defender 앱 Google Play 스토어 URL) 
 
    다른 필드는 선택 사항입니다. **다음** 을 선택합니다.
 
-   ![Microsoft Endpoint Manager 관리 센터의 이미지 앱 정보 추가](images/mda-addappinfo.png)
+   ![관리 Microsoft Endpoint Manager 앱 정보 추가 이미지](images/mda-addappinfo.png)
 
 3. 배정 *섹션에서* 필수 섹션으로 **이동하여** 그룹 **추가를 선택합니다.** 그런 다음 Android 앱에서 끝점용 Defender를 대상으로 할 사용자 그룹을 선택할 수 있습니다. **Select(선택)를** 선택하고 **Next(다음)를 선택합니다.**
 
@@ -71,18 +71,18 @@ Intune 회사 포털 - 장치 관리자가 등록한 디바이스에서 Android�
 
     > [!div class="mx-imgBorder"]
 
-    > ![선택한 사용자 그룹의 Microsoft Endpoint Manager 관리 센터 이미지](images/363bf30f7d69a94db578e8af0ddd044b.png)
+    > ![관리 Microsoft Endpoint Manager 선택한 사용자 그룹의 이미지](images/363bf30f7d69a94db578e8af0ddd044b.png)
 
 4. **검토+만들기 섹션에서** 입력한 정보가 모두 올바른지 확인한 다음 만들기를 **선택합니다.**
 
     잠시 후 Endpoint용 Defender 앱이 성공적으로 만들어지며 알림이 페이지의 오른쪽 위 모서리에 표시됩니다.
 
-    ![Defender 끝점 앱의 Microsoft Endpoint Manager 관리 센터 알림 이미지](images/86cbe56f88bb6e93e9c63303397fc24f.png)
+    ![Defender Microsoft Endpoint Manager 관리 센터 알림의 이미지](images/86cbe56f88bb6e93e9c63303397fc24f.png)
 
 5. 표시되는 앱 정보 페이지의 모니터 섹션에서 장치  설치 상태를 선택하여 장치 설치가 성공적으로 완료되어 있는지 확인합니다. 
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 관리 센터 장치 설치 이미지](images/513cf5d59eaaef5d2b5bc122715b5844.png)
+    > ![관리 Microsoft Endpoint Manager 설치 이미지](images/513cf5d59eaaef5d2b5bc122715b5844.png)
 
 ### <a name="complete-onboarding-and-check-status"></a>온보더링 완료 및 상태 확인
 
@@ -92,15 +92,15 @@ Intune 회사 포털 - 장치 관리자가 등록한 디바이스에서 Android�
 
 2. 끝점용 Microsoft Defender 앱 아이콘을 탭하고 화면 지침에 따라 앱 온보딩을 완료합니다. 세부 정보에는 Android의 끝점용 Defender에 필요한 Android 사용 권한의 최종 사용자 수락이 포함됩니다.
 
-3. 온보딩에 성공하면 장치가 Microsoft Defender 보안 센터의 장치 목록에 표시될 것입니다.
+3. 온보드에 성공하면 디바이스가 디바이스의 디바이스 목록에 Microsoft Defender 보안 센터.
 
     ![Endpoint 포털용 Defender의 장치 이미지](images/9fe378a1dce0f143005c3aa53d8c4f51.png)
 
-## <a name="deploy-on-android-enterprise-enrolled-devices"></a>Android Enterprise 등록 장치에 배포
+## <a name="deploy-on-android-enterprise-enrolled-devices"></a>Android 및 등록된 Enterprise 배포
 
-Android의 끝점용 Defender는 Android Enterprise 등록 장치를 지원합니다.
+Android의 끝점용 Defender는 등록된 디바이스에서 Android Enterprise 지원합니다.
 
-Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 옵션 을 참조하세요.](https://docs.microsoft.com/mem/intune/enrollment/android-enroll)
+Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 옵션 을 참조하세요.](/mem/intune/enrollment/android-enroll)
 
 **현재 회사 프로필이 있는 개인 소유 장치 및 회사 소유의 완전히 관리되는 사용자 장치 등록은 배포에 지원됩니다.**
 
@@ -108,14 +108,14 @@ Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 �
 
 아래 단계에 따라 관리되는 Google Play에 끝점용 Microsoft Defender 앱을 추가합니다.
 
-1. [Microsoft Endpoint Manager 관리 센터에서](https://go.microsoft.com/fwlink/?linkid=2109431) 앱 Android 앱 추가로  \>  \> **이동하여** **관리되는 Google Play 앱 을 선택합니다.**
+1. Microsoft Endpoint Manager [관리 센터에서](https://go.microsoft.com/fwlink/?linkid=2109431) 앱 Android  앱 추가로 \>  \> **이동하여** **관리되는 Google Play 앱 을 선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 관리 센터 관리 Google Play의 이미지](images/579ff59f31f599414cedf63051628b2e.png)
+    > ![관리 Microsoft Endpoint Manager Google Play의 이미지](images/579ff59f31f599414cedf63051628b2e.png)
 
 2. 이후에 로드되는 관리되는 Google Play 페이지에서 검색 상자로 이동하여 **Microsoft Defender를 검색합니다.** 검색은 관리되는 Google Play에 끝점용 Microsoft Defender 앱을 표시해야 합니다. 앱 검색 결과에서 끝점용 Microsoft Defender 앱을 클릭합니다.
 
-    ![Microsoft Endpoint Manager 관리 센터 앱 검색의 이미지](images/0f79cb37900b57c3e2bb0effad1c19cb.png)
+    ![Microsoft Endpoint Manager 센터 앱 검색 이미지](images/0f79cb37900b57c3e2bb0effad1c19cb.png)
 
 3. 다음에 나오는 앱 설명 페이지에서 끝점용 Defender에서 앱 세부 정보를 볼 수 있습니다. 페이지에서 정보를 검토한 다음 승인 을 **선택합니다.**
 
@@ -151,19 +151,19 @@ Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 �
 
     1. 앱 **페이지에서** 정책 > 앱 구성 정책 > 관리 > **이동합니다.**
 
-       ![Microsoft Endpoint Manager 관리 센터 Android 관리 장치의 이미지](images/android-mem.png)
+       ![Microsoft Endpoint Manager 관리되는 android 관리 장치의 이미지](images/android-mem.png)
 
     1. 앱 **구성 정책 만들기 페이지에서** 다음 세부 정보를 입력합니다.
     
         - 이름: 끝점용 Microsoft Defender.
-        - **플랫폼으로 Android Enterprise를** 선택하십시오.
+        - Android **Enterprise** 플랫폼으로 선택
         - 프로필 **유형으로만 작업** 프로필을 선택하십시오.
-        - 앱 **선택을 클릭하고** **Microsoft Defender ATP를 선택하고** 확인을 선택한 후 다음을 **선택합니다.** 
+        - 앱 **선택을** **클릭하고** Microsoft Defender ATP 를 선택하고 **확인을** 선택한 후 다음 **을 선택합니다.**
     
         > [!div class="mx-imgBorder"]
         > ![앱 구성 정책 만들기 페이지 이미지](images/android-create-app.png)
 
-    1. 설정 **페이지에서** 사용 권한 섹션으로 이동하여 추가를 클릭하여 지원되는 사용 권한 목록을 확인합니다. 사용 권한 추가 섹션에서 다음 사용 권한을 선택합니다.
+    1. 설정 **페이지에서** 사용 권한 섹션으로 이동하여 추가를 클릭하여 지원되는 사용 권한 목록을 볼 수 있습니다. 사용 권한 추가 섹션에서 다음 사용 권한을 선택합니다.
 
        - 외부 저장소(읽기)
        - 외부 저장소(쓰기)
@@ -192,12 +192,12 @@ Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 �
         > ![Android 리뷰 앱 구성 정책 만들기 이미지](images/android-review-create.png)
 
 
-10. 속성 할당 편집 목록에서 **Microsoft Defender ATP** \>  \> **앱을** \> **선택합니다.**
+10. 속성 **Microsoft Defender ATP** 편집 에서 앱 \>  \> **선택을** \> **선택합니다.**
 
     ![앱 목록 이미지](images/mda-properties.png)
 
 
-11. 앱을 필수 *앱으로* 사용자 그룹에 할당합니다. 회사 포털 앱을  통해 다음에 디바이스를 동기화하는 동안 회사 프로필에 자동으로 설치됩니다. 이 할당은 필수 섹션 그룹 추가로 가고  사용자 그룹을 선택하고 선택을 클릭하여 \>  완료할 **수 있습니다.**
+11. 앱을 필수 *앱으로* 사용자 그룹에 할당합니다. 이 앱은 앱  앱을 통해 다음에 디바이스를 동기화하는 동안 작업 프로필에 회사 포털 설치됩니다. 이 할당은 필수 섹션 그룹 추가로 가고  사용자 그룹을 선택하고 선택을 클릭하여 \>  완료할 **수 있습니다.**
 
     > [!div class="mx-imgBorder"]
     > ![응용 프로그램 페이지 편집 이미지](images/ea06643280075f16265a596fb9a96042.png)
@@ -206,8 +206,8 @@ Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 �
 12. 응용 **프로그램 편집 페이지에서** 위에 입력한 모든 정보를 검토합니다. 그런 다음 **검토 + 저장을 선택한** 다음 다시 **저장을** 선택하여 배정을 시작합니다.
 
 ### <a name="auto-setup-of-always-on-vpn"></a>Always-on VPN의 자동 설정 
-Endpoint용 Defender는 Intune을 통해 관리되는 장치에 대한 장치 구성 정책을 지원합니다. 이 기능을 활용하여 Android Enterprise 등록 장치에서 **Always-on VPN의** 자동 설정에 활용할 수 있으므로 최종 사용자는 온보드하는 동안 VPN 서비스를 설정할 필요가 없습니다.
-1.  장치에서 **구성** 프로필 만들기 프로필 플랫폼 Android 엔터프라이즈 장치 등록 유형에 따라 다음 중 하나에서 장치 제한  >    >    >   선택을 선택합니다.  
+Endpoint용 Defender는 Intune을 통해 관리되는 장치에 대한 장치 구성 정책을 지원합니다. 이 기능은 등록된 장치에서 Android에서 **Always-on VPN의** 자동 설정에 Enterprise 수 있으므로 최종 사용자는 등록하는 동안 VPN 서비스를 설정할 필요가 없습니다.
+1.  장치에서 구성 프로필 만들기 프로필 플랫폼 Android Enterprise 등록 유형에 따라 다음 중 하나에서 장치 제한  >    >    >   선택을 선택합니다.  
 - **완전히 관리, 전용 및 Corporate-Owned 프로필**
 - **개인 소유의 작업 프로필**
 
@@ -254,7 +254,7 @@ Endpoint용 Defender는 Intune을 통해 관리되는 장치에 대한 장치 �
 
     ![Microsoft Defender for Endpoint 앱을 사용하여 모바일 장치의 이미지](images/mda-devicesafe.png)
 
-4. 이 단계에서 장치는 Android의 끝점용 Defender에 성공적으로 온보딩됩니다. 장치 페이지로 이동하여 [Microsoft Defender 보안](https://securitycenter.microsoft.com) 센터에서 이를 확인할 **수** 있습니다.
+4. 이 단계에서 장치는 Android의 끝점용 Defender에 성공적으로 온보딩됩니다. 장치 페이지로 이동하여 Microsoft Defender 보안 센터 확인할 **수** 있습니다. [](https://securitycenter.microsoft.com)
 
     ![Endpoint 포털용 Microsoft Defender 이미지](images/9fe378a1dce0f143005c3aa53d8c4f51.png)
 

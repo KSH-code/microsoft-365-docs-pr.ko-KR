@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4742a32fd899f41d4e7772c52415891cdd8895bf
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 2d78b7ea31c45220735a8579d728f9c0f7bda181
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769524"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842113"
 ---
 # <a name="create-an-app-to-access-microsoft-defender-for-endpoint-without-a-user"></a>사용자 없이 끝점용 Microsoft Defender에 액세스하는 앱 만들기
 
@@ -39,7 +39,7 @@ ms.locfileid: "52769524"
 
 이 페이지에서는 사용자가 없는 끝점용 Defender에 프로그래밍 방식 액세스 권한을 부여하는 응용 프로그램을 만드는 방법을 설명합니다. 사용자를 대신하여 Endpoint용 Defender에 프로그래밍식 액세스 권한이 필요한 경우 사용자 컨텍스트를 통해 [액세스하기를 참조합니다.](exposed-apis-create-app-nativeapp.md) 필요한 액세스 권한이 확실하지 않은 경우 [시작을 참조합니다.](apis-intro.md)
 
-끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API는 작업 흐름을 자동화하고 끝점용 Defender 기능을 기반으로 혁신하는 데 도움이 됩니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API는 작업 흐름을 자동화하고 끝점용 Defender 기능을 기반으로 혁신하는 데 도움이 됩니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 일반적으로 API를 사용하려면 다음 단계를 수행해야 합니다.
 - Azure AD(Azure Active Directory 응용 프로그램을 만들 수 있습니다.
@@ -116,7 +116,7 @@ ms.locfileid: "52769524"
 
 ## <a name="get-an-access-token"></a>액세스 토큰을 얻게 됩니다.
 
-Azure AD 토큰에 대한 자세한 내용은 [Azure AD 자습서를 참조하세요.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+Azure AD 토큰에 대한 자세한 내용은 [Azure AD 자습서를 참조하세요.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 ### <a name="use-powershell"></a>PowerShell 사용
 

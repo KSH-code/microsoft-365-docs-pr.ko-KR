@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 26c531c0544f92d664bfa0f1a21e4f33a0765d24
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 06ef716e9deee7b20e8615bd22c93130ee18b77f
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893500"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845585"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 연결된 응용 프로그램
 
@@ -37,9 +37,9 @@ ms.locfileid: "51893500"
 
 연결된 응용 프로그램은 API를 사용하여 끝점용 Defender 플랫폼과 통합됩니다. 
 
-응용 프로그램은 표준 OAuth 2.0 프로토콜을 사용하여 끝점 API용 Microsoft Defender에서 사용할 토큰을 인증하고 제공합니다.  또한 Azure AD(Azure Active Directory) 응용 프로그램을 사용하면 테넌트 관리자가 해당 앱을 사용하여 액세스할 수 있는 API에 대한 명시적 컨트롤을 설정할 수 있습니다.
+응용 프로그램은 표준 OAuth 2.0 프로토콜을 사용하여 끝점 API용 Microsoft Defender에서 사용할 토큰을 인증하고 제공합니다.  또한 Azure AD(Azure Active Directory) 응용 프로그램을 통해 테넌트 관리자는 해당 앱을 사용하여 액세스할 수 있는 API에 대한 명시적 컨트롤을 설정할 수 있습니다.
  
-연결된 응용 프로그램에서 [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro) API를 사용하려면 다음 단계를 따라야 합니다.
+연결된 응용 프로그램에서 [](/microsoft-365/security/defender-endpoint/apis-intro) API를 사용하려면 다음 단계를 따라야 합니다.
  
 ## <a name="access-the-connected-application-page"></a>연결된 응용 프로그램 페이지에 액세스
 왼쪽 탐색 메뉴에서 **파트너**& API 연결된 AAD 응용  >  **프로그램을 선택합니다.**

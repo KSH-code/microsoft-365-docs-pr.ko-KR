@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2279045093ebfac4a7eb4544a3e0c137c08c9c0c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 0258b2cdbff4a8b20be42e508863985c7402f609
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935392"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845513"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "51935392"
 
 이 섹션에서는 끝점용 Defender의 개인 정보 및 데이터 처리와 관련하여 자주 묻는 몇 가지 질문에 대해 설명합니다.
 > [!NOTE]
-> 이 문서에서는 끝점용 Defender와 관련된 데이터 저장소 및 개인 정보 보호 세부 정보를 설명합니다. Endpoint용 Defender 및 Microsoft Defender 바이러스 백신 및 Windows 10과 같은 기타 제품 및 서비스와 관련된 자세한 내용은 Microsoft 개인 정보 취급 방침을 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=827576) 자세한 내용은 [Windows 10 개인 정보 FAQ도](https://go.microsoft.com/fwlink/?linkid=827577) 참조하세요.
+> 이 문서에서는 끝점용 Defender와 관련된 데이터 저장소 및 개인 정보 보호 세부 정보를 설명합니다. Endpoint용 Defender 및 Microsoft Defender 바이러스 백신 및 서비스와 관련된 Microsoft Defender 바이러스 백신 Windows 10 Microsoft 개인 정보 취급 방침을 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=827576) 자세한 내용은 Windows 10 [개인 정보 FAQ도](https://go.microsoft.com/fwlink/?linkid=827577) 참조하세요.
 
 
 ## <a name="what-data-does-microsoft-defender-for-endpoint-collect"></a>Endpoint용 Microsoft Defender는 어떤 데이터를 수집하나요?
@@ -44,7 +44,7 @@ ms.locfileid: "51935392"
 
 수집된 정보에는 파일 데이터(예: 파일 이름, 크기 및 해시), 프로세스 데이터(실행 중인 프로세스, 해시), 레지스트리 데이터, 네트워크 연결 데이터(호스트 IP 및 포트) 및 장치 세부 정보(예: 장치 식별자, 이름 및 운영 체제 버전)가 포함됩니다.
 
-Microsoft는 이 데이터를 Microsoft Azure에 안전하게 저장하고 Microsoft 개인 정보 취급 방침 및 Microsoft 보안 센터 정책에 따라 [유지 관리합니다.](https://go.microsoft.com/fwlink/?linkid=827578)
+Microsoft는 이 데이터를 안전하게 Microsoft Azure Microsoft 개인 정보 취급 방침 및 Microsoft 보안 센터 정책에 따라 [유지 관리합니다.](https://go.microsoft.com/fwlink/?linkid=827578)
 
 이 데이터는 끝점에 대한 Defender를 사용하여:
 - 조직에서 IOAS(공격 지표)를 사전 식별
@@ -54,16 +54,16 @@ Microsoft는 이 데이터를 Microsoft Azure에 안전하게 저장하고 Micro
 Microsoft는 광고를 위해 데이터를 사용하지 않습니다.
 
 ## <a name="data-protection-and-encryption"></a>데이터 보호 및 암호화
-Endpoint용 Defender 서비스는 Microsoft Azure 인프라를 기반으로 하는 아트 데이터 보호 기술의 상태를 활용합니다. 
+Endpoint용 Defender 서비스는 네트워크 인프라를 기반으로 하는 최첨단 데이터 보호 Microsoft Azure 활용합니다. 
 
-서비스에서 처리되는 데이터 보호와 관련된 다양한 측면이 있습니다. 암호화는 가장 중요하며 보관된 데이터 암호화, 작업 중 암호화 및 Key Vault를 사용하는 키 관리를 포함합니다. Endpoint 서비스용 Defender에서 사용하는 다른 기술에 대한 자세한 내용은 [Azure 암호화 개요를 참조하세요.](https://docs.microsoft.com/azure/security/security-azure-encryption-overview) 
+서비스에서 처리되는 데이터 보호와 관련된 다양한 측면이 있습니다. 암호화는 가장 중요하며 보관된 데이터 암호화, 작업 중 암호화 및 Key Vault를 사용하는 키 관리를 포함합니다. Endpoint 서비스용 Defender에서 사용하는 다른 기술에 대한 자세한 내용은 [Azure 암호화 개요를 참조하세요.](/azure/security/security-azure-encryption-overview) 
 
 모든 시나리오에서 데이터는 최소한 256비트 [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) 암호화를 사용하여 암호화됩니다.
 
 
 ## <a name="data-storage-location"></a>데이터 저장소 위치
 
-Endpoint용 Defender는 유럽 연합, 영국 또는 미국의 Microsoft Azure 데이터 센터에서 운영됩니다. 서비스에 의해 수집된 고객 데이터는 다음에 저장될 수 있습니다. (a) 프로비전 중에 식별된 테넌트의 지리적 위치 또는 (b) Endpoint용 Defender가 다른 Microsoft 온라인 서비스를 사용하여 해당 데이터를 처리한 경우, 다른 온라인 서비스의 데이터 저장소 규칙에 정의된 지리적 위치
+Endpoint용 Defender는 유럽 연합Microsoft Azure 영국 또는 미국의 데이터 센터에서 운영됩니다. 서비스에 의해 수집된 고객 데이터는 다음에 저장될 수 있습니다. (a) 프로비전 중에 식별된 테넌트의 지리적 위치 또는 (b) Endpoint용 Defender가 다른 Microsoft 온라인 서비스를 사용하여 해당 데이터를 처리한 경우, 다른 온라인 서비스의 데이터 저장소 규칙에 정의된 지리적 위치
 
 가명 처리 양식의 고객 데이터는 미국의 중앙 저장소 및 처리 시스템에도 저장될 수 있습니다.
 
@@ -82,7 +82,7 @@ Microsoft 개발자와 관리자는 서비스 운영 및 발전을 위해 할당
 
 또한 Microsoft는 특정 운영 담당자에 대한 백그라운드 확인 검사를 수행하고 백그라운드 확인 수준에 비례하여 응용 프로그램, 시스템 및 네트워크 인프라에 대한 액세스를 제한합니다. 운영 담당자는 업무 수행 시 고객의 계정 또는 관련 정보에 액세스해야 할 때 공식적인 프로세스를 따르게 됩니다.
 
-Microsoft Azure Government 데이터 센터에 배포된 서비스에 대한 데이터에 대한 액세스 권한은 FedRAMP, NIST 800.171(DIB), ITAR, IRS 1075, DoD L4 및 CJIS와 같은 특정 정부 규정 및 요구 사항을 준수하는 데이터를 처리하기 위해 심사되고 승인된 운영 직원에게만 부여됩니다.
+Microsoft Azure 정부 데이터 센터에 배포된 서비스에 대한 데이터에 대한 액세스는 FedRAMP, NIST 800.171(DIB), ITAR, IRS 1075, DoD L4 및 CJIS와 같은 특정 정부 규정 및 요구 사항을 준수하는 데이터를 처리하기 위해 승인된 운영 직원에게만 부여됩니다.
 
 
 ## <a name="is-data-shared-with-other-customers"></a>데이터가 다른 고객과 공유하나요?

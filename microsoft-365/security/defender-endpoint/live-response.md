@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fc1c1e0d3f68016651c04521e04ce348e5ab9a65
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: d5e48f1e4f6bc2cfaa836d90e24f2ce8ba3f2114
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246468"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845333"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>라이브 응답을 사용하여 디바이스에서 엔터티 조사
 
@@ -55,11 +55,11 @@ ms.locfileid: "52246468"
 장치에서 다음 버전의 디바이스 중 하나를 실행해야 Windows
 
   - **Windows 10**
-    - [버전 1909](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1909) 이상  
-    - [버전 1903(KB4515384)](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384) [](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1903)
-    - [KB4537818이](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818) 있는 버전 [1809(RS 5)](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809)
-    - [KB4537795가](https://support.microsoft.com/help/4537795/windows-10-update-kb4537795) 있는 버전 [1803(RS 4)](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-    - [KB4537816이](https://support.microsoft.com/help/4537816/windows-10-update-kb4537816) 있는 버전 [1709(RS 3)](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
+    - [버전 1909](/windows/whats-new/whats-new-windows-10-version-1909) 이상  
+    - [버전 1903(KB4515384)](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384) [](/windows/whats-new/whats-new-windows-10-version-1903)
+    - [KB4537818이](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818) 있는 버전 [1809(RS 5)](/windows/whats-new/whats-new-windows-10-version-1809)
+    - [KB4537795가](https://support.microsoft.com/help/4537795/windows-10-update-kb4537795) 있는 버전 [1803(RS 4)](/windows/whats-new/whats-new-windows-10-version-1803)
+    - [KB4537816이](https://support.microsoft.com/help/4537816/windows-10-update-kb4537816) 있는 버전 [1709(RS 3)](/windows/whats-new/whats-new-windows-10-version-1709)
   
   - **Windows Server 2019 - 공개 미리 보기에만 해당**
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384)사용) 
@@ -172,7 +172,7 @@ ms.locfileid: "52246468"
 
 ## <a name="use-live-response-commands"></a>라이브 응답 명령 사용
 
-콘솔에서 사용할 수 있는 명령은 명령과 [Windows 합니다.](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands#BKMK_c)
+콘솔에서 사용할 수 있는 명령은 명령과 [Windows 합니다.](/windows-server/administration/windows-commands/windows-commands#BKMK_c)
 
 고급 명령은 파일 다운로드 및 업로드, 장치에서 스크립트 실행, 엔터티에 대한 수정 작업 등의 보다 강력한 작업을 수행할 수 있는 보다 강력한 작업 집합을 제공합니다.
 
@@ -197,7 +197,7 @@ ms.locfileid: "52246468"
 다음은 몇 가지 예입니다.
 
 
-|명령  |기능  |
+|명령  |속성 기능  |
 |---------|---------|
 |`getfile "C:\windows\some_file.exe" &`     |백그라운드에서 이름이some_file.exe *다운로드를* 시작합니다.         |
 |`fg 1234`     |명령 ID가 *1234인* 다운로드를 포그라운드로 반환합니다.         |
@@ -288,7 +288,7 @@ processes > output.txt
 세션 **중에** 디바이스에서 사용되는 명령을 확인하려면 명령 로그 탭을 선택합니다. 각 명령은 전체 세부 정보(예: )를 사용하여 추적됩니다.
 - ID
 - 명령줄
-- Duration
+- 기간
 - 상태 및 입력 또는 출력 사이드바
 
 ## <a name="limitations"></a>제한 사항

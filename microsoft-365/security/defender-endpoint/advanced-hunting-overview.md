@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 906ae4bdebcc46e210fa9c5dcb5387c880fdbb38
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 9f1934de8f710a21bc362e735bb6f1eab7a2d287
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939663"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845426"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>고급 헌팅을 통해 위협을 사전 대응
 
@@ -43,8 +43,8 @@ ms.locfileid: "51939663"
 동일한 위협 헌팅 쿼리를 사용하여 사용자 지정 탐지 규칙을 만들 수 있습니다. 이러한 규칙은 자동으로 실행되어 의심되는 위반 활동, 잘못 구성된 컴퓨터 및 기타 결과를 확인하고 이에 대응합니다.
 
 >[!TIP]
->[Microsoft 365 Defender의](/microsoft-365/security/defender/advanced-hunting-overview) 고급 헌팅을 사용하여 Endpoint용 Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 ID에 대한 Microsoft Defender의 데이터를 사용하여 위협을 헌팅합니다. [Microsoft 365 Defender를 켜기.](/microsoft-365/security/defender/m365d-enable)<br><br>
-Endpoint용 Microsoft Defender에서 Microsoft Defender에서 Microsoft 365 Defender로 고급 헌팅 워크플로를 이동하는 방법에 대한 자세한 내용은 [Endpoint용 Microsoft Defender에서](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)고급 헌팅 쿼리 마이그레이션에서 자세히 알아보하세요.
+>Microsoft 365 [Defender의](/microsoft-365/security/defender/advanced-hunting-overview) 고급 헌팅을 사용하여 Endpoint용 Defender, Office 365, Microsoft Cloud App Security, ID에 대한 Microsoft Defender의 데이터를 사용하여 위협을 헌팅합니다. [Defender Microsoft 365 를 켜야합니다.](/microsoft-365/security/defender/m365d-enable)<br><br>
+Endpoint용 Microsoft Defender에서 고급 헌팅 워크플로를 끝점용 Microsoft Defender에서 Microsoft 365 헌팅 쿼리 마이그레이션에서 고급 헌팅 워크플로를 헌팅으로 이동하는 방법에 대해 [자세히 알아보고 끝점용 Microsoft Defender에서](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)고급 헌팅 쿼리를 마이그레이션하세요.
 
 ## <a name="get-started-with-advanced-hunting"></a>고급 헌팅 시작
 
@@ -54,7 +54,7 @@ Endpoint용 Microsoft Defender에서 Microsoft Defender에서 Microsoft 365 Defe
 
 | 학습 목표 | 설명 | 리소스 |
 |--|--|--|
-| **언어 학습** | 고급 헌팅은 [Kusto](https://docs.microsoft.com/azure/kusto/query/)쿼리 언어를 기반으로 하여 동일한 구문과 연산자를 지원합니다. 첫 번째 쿼리를 실행하여 쿼리 언어 학습을 시작합니다. | [쿼리 언어 개요](advanced-hunting-query-language.md) |
+| **언어 학습** | 고급 헌팅은 [Kusto](/azure/kusto/query/)쿼리 언어를 기반으로 하여 동일한 구문과 연산자를 지원합니다. 첫 번째 쿼리를 실행하여 쿼리 언어 학습을 시작합니다. | [쿼리 언어 개요](advanced-hunting-query-language.md) |
 | **쿼리 결과 사용 방법 학습** | 결과를 보거나 내보낼 수 있는 차트 및 다양한 방법에 대해 자세히 알아보습니다. 보다 풍부한 정보를 얻을 수 있도록 쿼리를 빠르게 조정하고 드릴다운하는 방법을 살펴보아야 합니다. | [쿼리 결과로 작업](advanced-hunting-query-results.md) |
 | **스키마의 이해** | 스키마와 해당 열에 있는 테이블에 대한 이해를 높이세요. 쿼리를 구성할 때 데이터를 검색할 위치를 학습합니다. | [스키마 참조](advanced-hunting-schema-reference.md) |
 | **미리 정의된 쿼리 사용** | 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | [공유 쿼리](advanced-hunting-shared-queries.md) |

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 056268ed093d371d39a6136dd0b272c12ab6f9d7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2510fb1a187bbe136669e11bc73103438b51d811
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933916"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842173"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 사용하여 Windows 10 장치 온보딩
 
@@ -37,28 +37,28 @@ ms.locfileid: "51933916"
 > [!IMPORTANT]
 > 이 스크립트는 최대 10대의 장치에서 사용하기 위해 최적화되었습니다.
 >
-> 대규모로 배포하기 위해 다른 [배포 옵션을 사용하세요.](configure-endpoints.md) 예를 들어 그룹 정책을 사용하여 Windows 10 디바이스 온보딩에서 사용할 수 있는 스크립트를 사용하여 프로덕션의 [10개가](configure-endpoints-gp.md)넘는 디바이스에 온보딩 스크립트를 배포할 수 있습니다.
+> 대규모로 배포하기 위해 다른 [배포 옵션을 사용하세요.](configure-endpoints.md) 예를 들어 그룹 정책을 사용하여 온보딩 스크립트를 온보딩 장치에서 사용할 수 있는 스크립트를 사용하여 프로덕션의 10개가 넘는 디바이스에 배포할 [Windows 10 있습니다.](configure-endpoints-gp.md)
 
-## <a name="onboard-devices"></a>장치 온보드 
+## <a name="onboard-devices"></a>온보딩 장치 
 
 [![다양한 배포 경로를 보여 주며 PDF 이미지](images/onboard-script.png)](images/onboard-script.png#lightbox)
 
 
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 [Visio를](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 확인하여 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다. 
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다. 
 
 
-1.  서비스 온보더링 마법사에서 다운로드한 GP 구성 패키지 *.zip* 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. Microsoft Defender 보안 센터에서 패키지를 [다운로드할 수 있습니다.](https://securitycenter.windows.com/)
+1.  서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 에서 패키지를 얻을 [Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
 
-    1. 탐색 창에서 설정   >  **온보드 를 선택합니다.**
+    1. 탐색 창에서 **온보 설정**  >  **선택합니다.**
 
-    1. 운영 체제로 Windows 10을 선택합니다.
+    1. 운영 Windows 10 로 실행을 선택합니다.
 
     1. 배포 **방법 필드에서** 로컬 스크립트 **를 선택합니다.**
 
-    1. 패키지 **다운로드를 클릭하고** .zip 파일을 저장합니다.
+    1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
   
-2.  온보더할 디바이스의 위치(예: 데스크톱)에 구성 패키지의 내용을 추출합니다. *이름이 WindowsDefenderATPOnboardingScript.cmd인 파일이 있습니다.*
+2.  온보더할 디바이스의 위치(예: 데스크톱)에 구성 패키지의 내용을 추출합니다. *이름이 WindowsDefenderATPLocalOnboardingScript.cmd인 파일이 있습니다.*
 
 3.  디바이스에서 상승된 명령줄 프롬프트를 열고 스크립트를 실행합니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "51933916"
 
         ![관리자 권한으로 실행을 설정하는 창 시작 메뉴](images/run-as-admin.png)
 
-4.  스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPOnboardingScript.cmd를 입력합니다.*
+4.  스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPLocalOnboardingScript.cmd를 입력합니다.*
 
 5.  Enter 키를 **누르거나** 확인을 **클릭합니다.**
 
@@ -79,7 +79,7 @@ ms.locfileid: "51933916"
 > 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 [끝점용 Microsoft Defender](run-detection-test.md)끝점에서 검색 테스트 실행을 참조하세요.
 
 ## <a name="configure-sample-collection-settings"></a>샘플 수집 설정 구성
-각 디바이스에 대해 Microsoft Defender 보안 센터를 통해 요청이 있을 때 장치에서 샘플을 수집할 수 있는지 여부를 설명하는 구성 값을 설정하여 심층 분석을 위해 파일을 제출할 수 있습니다.
+각 디바이스에 대해 심층 분석을 위해 파일을 제출하기 위해 요청을 할 때 장치에서 샘플을 수집할 수 있는지 여부를 Microsoft Defender 보안 센터 구성 값을 설정할 수 있습니다.
 
 *regedit를* 사용하거나 .reg 파일을 만들고 실행하여 디바이스에서 샘플 공유 설정을 수동으로 *구성할 수* 있습니다.  
 
@@ -105,17 +105,17 @@ Value: 0 or 1
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-1. Microsoft Defender 보안 센터에서 오프보딩 [패키지를 다운로드합니다.](https://securitycenter.windows.com/)
+1. 에서 오프보더 [패키지를 Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
 
-    1. 탐색 창에서 설정 **오프보링**  >  **을 선택합니다.**
+    1. 탐색 창에서 **오프보더 설정**  >  **선택합니다.**
 
-    1. 운영 체제로 Windows 10을 선택합니다.
+    1. 운영 Windows 10 로 실행을 선택합니다.
 
     1. 배포 **방법 필드에서** 로컬 스크립트 **를 선택합니다.**
 
-    1. 패키지 **다운로드를 클릭하고** .zip 파일을 저장합니다.
+    1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
-2. .zip 파일의 내용을 장치에서 액세스할 수 있는 공유 읽기 전용 위치에 추출합니다. 이름이 *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd 입니다.*
+2. 디바이스에서 액세스할 수 .zip 읽기 전용 공유 위치로 파일 콘텐츠의 추출 이름이 *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd 입니다.*
 
 3.  디바이스에서 상승된 명령줄 프롬프트를 열고 스크립트를 실행합니다.
 
@@ -139,7 +139,7 @@ Value: 0 or 1
 모니터링은 포털에서 직접 수행하거나 다른 배포 도구를 사용하여 수행될 수도 있습니다.
 
 ### <a name="monitor-devices-using-the-portal"></a>포털을 사용하여 장치 모니터링
-1. Microsoft Defender 보안 센터로 이동 합니다.
+1. 다음으로 Microsoft Defender 보안 센터.
 
 2. 장치 **목록을 클릭합니다.**
 
@@ -147,8 +147,8 @@ Value: 0 or 1
 
 
 ## <a name="related-topics"></a>관련 항목
-- [그룹 정책을 사용하여 Windows 10 장치 온보드](configure-endpoints-gp.md)
-- [Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 장치 온보드](configure-endpoints-sccm.md)
+- [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)
+- [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)

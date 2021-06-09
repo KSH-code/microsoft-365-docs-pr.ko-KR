@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: f025f23242c28f698e6f67755cc59d21c4463914
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: c8d3838194c25ba49b2611dc355b21e228291b01
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782948"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842533"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Defender의 Microsoft 365 조치
 
@@ -74,7 +74,7 @@ Microsoft 365 자동화된 조사가 진행되는 동안 및 이후에 악의적
 - 수동 전자 메일 작업(예: 전자 메일 메시지 소프트 삭제) 
 - [장치 또는 전자](../defender-endpoint/advanced-hunting-overview.md) 메일에 대한 고급 헌팅 작업
 - [전자](../office-365-security/threat-explorer.md) 메일 콘텐츠에 대한 탐색기 작업(예: 정크 메일로 이동, 전자 메일 소프트 삭제 또는 하드 삭제 전자 메일)
-- 파일 [삭제,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) 프로세스 중지, 예약된 작업 제거와 같은 수동 실시간 응답 작업
+- 파일 [삭제,](/windows/security/threat-protection/microsoft-defender-atp/live-response) 프로세스 중지, 예약된 작업 제거와 같은 수동 실시간 응답 작업
 - [Microsoft Defender for Endpoint API를](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis)사용하여 실시간 응답 작업(예: 장치 차단, 바이러스 백신 검사 실행, 파일에 대한 정보 수집)
 
 ## <a name="next-steps"></a>다음 단계

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dab72da02927c3fff6025eb2d0fa9ed0fdf1d0d7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: d32d40ac8ce086caedd53e0a69aac2a3025dc702
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245279"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842257"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
@@ -40,10 +40,10 @@ ms.locfileid: "52245279"
 ## <a name="conditional-access-with-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Defender를 통해 조건부 액세스  
 iOS의 끝점용 Microsoft Defender 및 Microsoft Intune Azure Active Directory 장치 위험 점수를 기반으로 장치 준수 및 조건부 액세스 정책을 시행할 수 있습니다. Endpoint용 Defender는 Intune을 통해 이 기능을 활용하기 위해 배포할 수 있는 MTD(Mobile Threat Defense) 솔루션입니다.
 
-iOS에서 끝점용 Defender를 통해 조건부 액세스를 설정하는 방법에 대한 자세한 내용은 Endpoint 및 [Intune용 Defender를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)
+iOS에서 끝점용 Defender를 통해 조건부 액세스를 설정하는 방법에 대한 자세한 내용은 Endpoint 및 [Intune용 Defender를 참조하세요.](/mem/intune/protect/advanced-threat-protection)
 
-> [!NOTE]
-> **iOS의 끝점에 대한 Microsoft Defender의** 탈옥 감지는 현재 미리 보기에 있습니다. 끝점용 Microsoft Defender에서 장치를 무단으로 차단한 것으로 감지되면 보안 센터에 높은 **위험** 경고가 보고되고, 조건부 액세스가 장치 위험 점수를 기반으로 설정되어 있는 경우 장치가 회사 데이터에 액세스하지 못하게 차단됩니다.
+### <a name="jailbreak-detection-by-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender의 탈옥 감지
+끝점용 Microsoft Defender에는 무단으로 보호된 관리되지 않는 장치를 검색하는 기능이 있습니다. 장치가 무단으로 보호된 것으로 감지되면 보안 센터에 높은 **위험** 경고가 보고되고, 조건부 액세스가 장치 위험 점수를 기반으로 설정되어 있는 경우 장치가 회사 데이터에 액세스하지 못하게 차단됩니다.
 
 ## <a name="web-protection-and-vpn"></a>웹 보호 및 VPN
 
@@ -71,7 +71,7 @@ Apple iOS는 동시에 활성화하기 위해 여러 장치 전체의 VPN을 지
 무단으로 보호된 iOS 장치에서 회사 데이터에 액세스하지 못하도록 보호하기 위해 Intune에서 다음 규정 준수 정책을 설정하는 것이 좋습니다.
 
 > [!NOTE]
-> 현재 iOS의 끝점에 대한 Microsoft Defender의 탈옥 감지가 미리 보기에 있습니다. 이 정책을 탈옥 시나리오에 대한 추가 방어 계층으로 설정하는 것이 좋습니다.
+> 탈옥 검색은 iOS의 끝점에 대해 Microsoft Defender에서 제공하는 기능입니다. 그러나 이 정책을 탈옥 시나리오에 대한 추가 방어 계층으로 설정하는 것이 좋습니다.
 
 다음 단계에 따라 무단으로 보호된 장치에 대한 규정 준수 정책을 만들 수 있습니다.
 
@@ -96,7 +96,7 @@ Apple iOS는 동시에 활성화하기 위해 여러 장치 전체의 VPN을 지
 
 ## <a name="configure-custom-indicators"></a>사용자 지정 표시기 구성
 
-iOS의 끝점용 Defender를 사용하면 관리자가 iOS 장치에서도 사용자 지정 표시기를 구성할 수 있습니다. 사용자 지정 표시기를 구성하는 방법에 대한 자세한 내용은 [지표 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-indicators)
+iOS의 끝점용 Defender를 사용하면 관리자가 iOS 장치에서도 사용자 지정 표시기를 구성할 수 있습니다. 사용자 지정 표시기를 구성하는 방법에 대한 자세한 내용은 [지표 관리를 참조하세요.](/microsoft-365/security/defender-endpoint/manage-indicators)
 
 > [!NOTE]
 > iOS의 끝점용 Defender는 IP 주소 및 URL/도메인에 대한 사용자 지정 표시기만 만들 수 있습니다.
@@ -105,8 +105,3 @@ iOS의 끝점용 Defender를 사용하면 관리자가 iOS 장치에서도 사�
 
 피싱 웹 사이트는 개인 또는 재무 정보를 얻기 위해 신뢰할 수 있는 웹 사이트를 가장합니다. 피싱 [](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) 사이트일 수 있는 웹 사이트를 보고하려는 경우 네트워크 보호에 대한 피드백 제공 페이지를 방문하세요.
 
-## <a name="battery-consumption-issues-on-ios-when-microsoft-defender-for-endpoint-is-installed"></a>끝점용 Microsoft Defender를 설치할 때 iOS의 배터리 사용 문제
-
-앱의 배터리 사용량은 CPU 및 네트워크 사용량을 비롯한 다양한 요인에 따라 Apple에서 계산합니다. 끝점용 Microsoft Defender는 백그라운드에서 로컬/루프백 VPN을 사용하여 악성 웹 사이트 또는 연결에 대한 웹 트래픽을 확인합니다. 모든 앱에서 네트워크 패킷이 이 검사를 통과하여 끝점용 Microsoft Defender의 배터리 사용이 부정확하게 계산됩니다. 이렇게 하면 사용자에게 거짓 인상을 줍니다. Endpoint용 Microsoft Defender의 실제 배터리 사용은 장치의 배터리 설정 페이지에 표시된 것보다 적습니다. 이는 배터리 소비를 이해하기 위해 끝점용 Microsoft Defender 앱에서 수행한 테스트를 기반으로 합니다.
-
-또한 사용된 VPN은 로컬 VPN으로, 기존 VPN과 달리 네트워크 트래픽은 장치 외부로 전송되지 않습니다.

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 보다 안전한 사용자 인증 및 권한 부여를 Exchange Server HMA(하이브리드 최신 인증)를 사용하도록 하이브리드 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f52b7c011b717c5dcb91270ab0a7dd2015131c0e
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: d30d1b2b14efd66d973e9bf6d45b970d7af681bc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694452"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841633"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>하이브리드 최신 인증을 사용하도록 Exchange Server 온-프레미스를 구성하는 방법
 
@@ -183,12 +183,12 @@ HMA를 사용하도록 설정하면 클라이언트의 다음 로그인에서 �
 
 TCP 443에서 Exchange 서버를 사용하는 사내 고객의 경우 다음 IP 주소 범위에 대한 트래픽 처리를 무시합니다.
 
-```
+```text
 52.125.128.0/20
 52.127.96.0/23
 ```
 
-iOS 및 Android용 Outlook 앱은 모바일 장치에서 Microsoft 365 Office 365 앱을 사용하여 일상 생활과 작업을 찾고, 계획하고Microsoft 서비스 우선 순위를 지정하는 데 가장 적합한 방법으로 디자인됩니다. 자세한 내용은 iOS 및 Android용 하이브리드 최신 인증을 Outlook [참조하세요.](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019)
+iOS 및 Android용 Outlook 앱은 모바일 장치에서 Microsoft 365 Office 365 앱을 사용하여 일상 생활과 작업을 찾고, 계획하고Microsoft 서비스 우선 순위를 지정하는 데 가장 적합한 방법으로 디자인됩니다. 자세한 내용은 iOS 및 Android용 하이브리드 최신 인증을 Outlook [참조하세요.](/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)
 
 ## <a name="related-topics"></a>관련 항목
 

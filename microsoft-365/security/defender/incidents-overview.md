@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: cc2fcd7410c2f3122fb3ce49a40e93bfa0767331
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 9970bb6d410f39ff5d796dec678a750342f0f599
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539026"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842029"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Defender의 Microsoft 365 인시던트
 
@@ -185,5 +185,5 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 
   - [인시던트 조사를](investigate-incidents.md) 수행합니다.
 
-- [피싱,](https://docs.microsoft.com/security/compass/incident-response-playbooks) 암호 분사 및 앱 동의 부여 공격에 대한 자세한 지침은 다음 인시던트 대응 플레이북을 참조하세요.
+- [피싱,](/security/compass/incident-response-playbooks) 암호 분사 및 앱 동의 부여 공격에 대한 자세한 지침은 다음 인시던트 대응 플레이북을 참조하세요.
 

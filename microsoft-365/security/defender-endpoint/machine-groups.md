@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4fc2768392e818f74600e3c2d749b6e95bf957e4
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: d4f62acde4e7d790c7a7c8635f51c99f0823687d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259424"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842773"
 ---
 # <a name="create-and-manage-device-groups"></a>장치 그룹 만들기 및 관리
 
@@ -75,7 +75,7 @@ RBAC(역할 기반 액세스)의 컨텍스트에서 장치 그룹을 만들어 �
     >[!NOTE]
     >RBAC 역할에 할당된 Azure AD 사용자 그룹에만 액세스 권한을 부여할 수 있습니다.
 
-6. **닫기** 를 누르세요. 구성 변경 내용이 적용됩니다.
+6. **닫기** 를 클릭합니다. 구성 변경 내용이 적용됩니다.
 
 ## <a name="manage-device-groups"></a>장치 그룹 관리
 
@@ -111,4 +111,4 @@ RBAC(역할 기반 액세스)의 컨텍스트에서 장치 그룹을 만들어 �
 
 - [역할 기반 액세스 제어를 사용하여 포털 액세스 관리](rbac.md)
 - [장치 태그 만들기 및 관리](machine-tags.md)
-- [테넌트 API를 사용하여 테넌트 Graph 목록](https://docs.microsoft.com/graph/api/device-list-memberof)
+- [테넌트 API를 사용하여 테넌트 Graph 목록](/graph/api/device-list-memberof)

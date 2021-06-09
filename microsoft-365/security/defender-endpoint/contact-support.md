@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: eaf26c566b54b21e63af5ecbfe3603f2b1389208
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 2231a4fc1f8bb58a83c639c8e60ad790af0df236
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892844"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845633"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>엔드포인트용 Microsoft Defender 지원 문의
 
@@ -46,9 +46,9 @@ Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 �
 최소한 서비스 지원 관리자 또는  헬프데스크 관리자 역할이 있어야 합니다.
 
 
-사용 권한이 있는 역할에 대한 자세한 내용은 [Security Administrator permissions을 참조하십시오.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator-permissions) 작업이 포함된 역할은 `microsoft.office365.supportTickets/allEntities/allTasks` 사례를 제출할 수 있습니다.
+사용 권한이 있는 역할에 대한 자세한 내용은 [Security Administrator permissions을 참조하십시오.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator-permissions) 작업이 포함된 역할은 `microsoft.office365.supportTickets/allEntities/allTasks` 사례를 제출할 수 있습니다.
 
-관리자 역할에 대한 일반 정보는 관리자 역할 [정보를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
+관리자 역할에 대한 일반 정보는 관리자 역할 [정보를 참조하세요.](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
 
 
 ## <a name="access-the-widget"></a>위젯에 액세스
@@ -58,7 +58,7 @@ Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 �
 
     ![물음표가 선택된 경우 위젯 이미지](images/support-widget.png)
 
-2. 도움이 **필요하세요? 클릭**  단추를 클릭합니다.
+2. 도움이 **필요하세요? 클릭**  단추를 누른 다음 Microsoft Defender 보안 센터.
 
 
     ![도움이 필요 단추의 이미지](images/need-help.png)

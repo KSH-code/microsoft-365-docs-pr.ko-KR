@@ -1,6 +1,6 @@
 ---
 title: Microsoft Endpoint Manager를 사용하여 온보딩
-description: Microsoft Endpoint Manager를 사용하여 끝점용 Microsoft Defender에 온보딩하는 방법 학습
+description: Microsoft Defender for Endpoint를 사용하여 끝점에 온보딩하는 Microsoft Endpoint Manager
 keywords: 온보딩, 구성, 배포, 배포, 끝점 관리자, Endpoint용 Microsoft Defender, 컬렉션 만들기, 끝점 감지 응답, 차세대 보호, 공격 표면 감소, Microsoft 끝점 관리자
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e744262cfd63383e69abf02be9fbf91d2d229db2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f3442528f6d9239219f0b4638f75758a055717de
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935260"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842641"
 ---
 # <a name="onboarding-using-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 사용하여 온보딩
 
@@ -46,14 +46,14 @@ ms.locfileid: "51935260"
 Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기는 하지만 이 문서에서는 이를 다루지 않습니다. 지원되는 다른 배포 도구 및 방법을 사용하는 일반적인 온보드에 대한 자세한 내용은 [Onboarding overview 를 참조하세요.](onboarding.md)
 
 
-[Microsoft Endpoint Manager는](https://docs.microsoft.com/mem/endpoint-manager-overview) 여러 서비스를 통합하는 솔루션 플랫폼입니다. 여기에는 클라우드 기반 장치 관리를 위한 [Microsoft Intune이](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) 포함됩니다.
+[Microsoft Endpoint Manager](/mem/endpoint-manager-overview) 여러 서비스를 통합하는 솔루션 플랫폼입니다. 클라우드 기반 [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) 관리에 대한 자세한 정보도 포함되어 있습니다.
 
 
 이 항목에서는 사용자에게 다음을 안내합니다.
-- 1단계: MEM(Microsoft Endpoint Manager)에서 구성을 할당하는 그룹을 만들어 서비스에 장치 온보드
-- 2단계: Microsoft Endpoint Manager를 사용하여 끝점 기능에 대한 Defender 구성
+- 1단계: MEM(Microsoft Endpoint Manager)에서 구성을 할당하여 서비스에 장치 온보드
+- 2단계: 추가 기능을 사용하여 끝점에 대한 Defender Microsoft Endpoint Manager
 
-이 온보더링 지침은 Microsoft Endpoint Manager를 사용할 때 취해야 하는 다음과 같은 기본 단계를 안내합니다.
+이 온보더링 지침은 다음 기본 단계를 안내합니다. 이 가이드를 사용할 때 Microsoft Endpoint Manager.
 
 -   [대상 장치 또는 사용자 식별](#identify-target-devices-or-users)
 
@@ -61,7 +61,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
 
 -   [구성 프로필 만들기](#step-2-create-configuration-policies-to-configure-microsoft-defender-for-endpoint-capabilities)
 
-    -   Microsoft 끝점 관리자에서 각 기능에 대한 별도의 정책을 만드는 데 대해 안내합니다.
+    -   이 Microsoft Endpoint Manager 각 기능에 대해 별도의 정책을 만드는 데 대해 안내합니다.
 
 
 
@@ -76,10 +76,10 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
 
 -   [보안 센터](https://securitycenter.windows.com/)
 
--   [Intune 보안 기준](https://docs.microsoft.com/mem/intune/protect/security-baseline-settings-defender-atp#microsoft-defender)
+-   [Intune 보안 기준](/mem/intune/protect/security-baseline-settings-defender-atp#microsoft-defender)
 
-Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참조하십시오.
-- [Microsoft Endpoint Manager 페이지](https://docs.microsoft.com/mem/)
+자세한 내용은 Microsoft Endpoint Manager 리소스를 참조하십시오.
+- [Microsoft Endpoint Manager 페이지](/mem/)
 - [Intune 및 ConfigMgr의 수렴에 대한 블로그 게시물](https://www.microsoft.com/microsoft-365/blog/2019/11/04/use-the-power-of-cloud-intelligence-to-simplify-and-accelerate-it-and-the-move-to-a-modern-workplace/)
 - [MEM의 소개 비디오](https://www.microsoft.com/microsoft-365/blog/2019/11/04/use-the-power-of-cloud-intelligence-to-simplify-and-accelerate-it-and-the-move-to-a-modern-workplace)
 
@@ -88,8 +88,8 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 이 섹션에서는 구성을 할당하는 테스트 그룹을 만들 것입니다.
 
 >[!NOTE]
->Intune은 Azure AD(Azure Active Directory) 그룹을 사용하여 장치 및 사용자를 관리합니다. Intune 관리자는 조직의 요구 사항에 맞게 그룹을 설정할 수 있습니다.<br>
-자세한 내용은 사용자 및 장치를 구성하는 그룹 [추가를 참조하세요.](https://docs.microsoft.com/mem/intune/fundamentals/groups-add)
+>Intune은 Azure Active Directory(Azure AD) 그룹을 사용하여 장치 및 사용자를 관리합니다. Intune 관리자는 조직의 요구 사항에 맞게 그룹을 설정할 수 있습니다.<br>
+자세한 내용은 사용자 및 장치를 구성하는 그룹 [추가를 참조하세요.](/mem/intune/fundamentals/groups-add)
 
 ### <a name="create-a-group"></a>그룹 만들기
 
@@ -98,12 +98,12 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 2.  새 **> 그룹 열기**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지1](images/66f724598d9c3319cba27f79dd4617a4.png)
+    > ![Microsoft Endpoint Manager portal1의 이미지](images/66f724598d9c3319cba27f79dd4617a4.png)
 
 3.  세부 정보를 입력하고 새 그룹을 만들 수 있습니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지2](images/b1e0206d675ad07db218b63cd9b9abc3.png)
+    > ![Microsoft Endpoint Manager portal2의 이미지](images/b1e0206d675ad07db218b63cd9b9abc3.png)
 
 4.  테스트 사용자 또는 장치를 추가합니다.
 
@@ -114,7 +114,7 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 7.  테스트 사용자 또는 장치를 찾아 선택합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지3](images/149cbfdf221cdbde8159d0ab72644cd0.png)
+    > ![포털 Microsoft Endpoint Manager 이미지](images/149cbfdf221cdbde8159d0ab72644cd0.png)
 
 8.  이제 테스트 그룹에 테스트할 구성원이 있습니다.
 
@@ -137,46 +137,46 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 2.  끝점 검색 및 **> 끝점 보안 으로 이동합니다.** 프로필 **만들기를 클릭합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지4](images/58dcd48811147feb4ddc17212b7fe840.png)
+    > ![포털 Microsoft Endpoint Manager 이미지](images/58dcd48811147feb4ddc17212b7fe840.png)
 
-3.  플랫폼에서 **Windows 10 이상, 프로필 - 끝점** 감지 및 응답 만들기를 > 선택합니다.
+3.  플랫폼에서 **Windows 10 이상, 프로필 - 끝점** 검색 및 응답 만들기를 > 선택합니다.
 
 4.  이름과 설명을 입력하고 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지5](images/a5b2d23bdd50b160fef4afd25dda28d4.png)
+    > ![포털 Microsoft Endpoint Manager 이미지](images/a5b2d23bdd50b160fef4afd25dda28d4.png)
 
 5.  필요한 설정을 선택하고 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지6](images/cea7e288b5d42a9baf1aef0754ade910.png)
+    > ![포털 Microsoft Endpoint Manager 이미지](images/cea7e288b5d42a9baf1aef0754ade910.png)
 
     > [!NOTE]
-    > 이 경우 이는 Endpoint용 Defender가 이미 Intune에 통합되어 있는 것으로 자동 채워진 것입니다. 통합에 대한 자세한 내용은 [Intune에서 끝점에 대해 Microsoft Defender 사용 을 참조하세요.](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection-configure#to-enable-microsoft-defender-atp)
+    > 이 경우 이는 Endpoint용 Defender가 이미 Intune에 통합되어 있는 것으로 자동 채워진 것입니다. 통합에 대한 자세한 내용은 [Intune에서 끝점에 대해 Microsoft Defender 사용 을 참조하세요.](/mem/intune/protect/advanced-threat-protection-configure#to-enable-microsoft-defender-atp)
     > 
     > 다음 이미지는 끝점용 Microsoft Defender가 Intune과 통합되지 않은 경우 볼 수 있는 예제입니다.
     >
-    > ![Microsoft Endpoint Manager 포털의 이미지7](images/2466460812371ffae2d19a10c347d6f4.png)
+    > ![Microsoft Endpoint Manager portal7의 이미지](images/2466460812371ffae2d19a10c347d6f4.png)
 
 6.  필요한 경우 범위 태그를 추가하고 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager Portal의 이미지8](images/ef844f52ec2c0d737ce793f68b5e8408.png)
+    > ![Microsoft Endpoint Manager portal8의 이미지](images/ef844f52ec2c0d737ce793f68b5e8408.png)
 
 7.  포함할 그룹 선택을  클릭하여 테스트 그룹을 추가하고 그룹을 선택한 후 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지9](images/fc3525e20752da026ec9f46ab4fec64f.png)
+    > ![포털 Microsoft Endpoint Manager 이미지](images/fc3525e20752da026ec9f46ab4fec64f.png)
 
 8.  검토하고 수락한 다음 만들기를 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지10](images/289172dbd7bd34d55d24810d9d4d8158.png)
+    > ![portal10 Microsoft Endpoint Manager 이미지](images/289172dbd7bd34d55d24810d9d4d8158.png)
 
 9.  완료된 정책을 볼 수 있습니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지11](images/5a568b6878be8243ea2b9d82d41ed297.png)
+    > ![portal11 Microsoft Endpoint Manager 이미지](images/5a568b6878be8243ea2b9d82d41ed297.png)
 
 ### <a name="next-generation-protection"></a>차세대 보호
 
@@ -185,39 +185,39 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 2.  정책 **만들기 에서 끝점**> 바이러스 > 로 이동합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지12](images/6b728d6e0d71108d768e368b416ff8ba.png)
+    > ![Microsoft Endpoint Manager portal12의 이미지](images/6b728d6e0d71108d768e368b416ff8ba.png)
 
-3.  플랫폼 **선택 - Windows 10 이상 - Windows 및 프로필 - Microsoft Defender** 바이러스 백신 > 만들기 .
+3.  플랫폼 - Windows 10 이상 - Windows **및 프로필 - Microsoft Defender 바이러스 백신 > 선택합니다.**
 
 4.  이름 및 설명을 입력하고 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지13](images/a7d738dd4509d65407b7d12beaa3e917.png)
+    > ![portal13 Microsoft Endpoint Manager 이미지](images/a7d738dd4509d65407b7d12beaa3e917.png)
 
-5.  구성 **설정 페이지:** Microsoft Defender 바이러스 백신(클라우드 보호, 제외, Real-Time 보호 및 수정)에 필요한 구성을 설정합니다.
+5.  구성 **설정 페이지에서**: 클라우드 보호, Microsoft Defender 바이러스 백신, Real-Time 보호 및 수정에 필요한 구성을 설정합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지14](images/3840b1576d6f79a1d72eb14760ef5e8c.png)
+    > ![portal14 Microsoft Endpoint Manager 이미지](images/3840b1576d6f79a1d72eb14760ef5e8c.png)
 
 6.  필요한 경우 범위 태그를 추가하고 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지15](images/2055e4f9b9141525c0eb681e7ba19381.png)
+    > ![portal15 Microsoft Endpoint Manager 이미지](images/2055e4f9b9141525c0eb681e7ba19381.png)
 
 7.  포함할 그룹을 선택하고 테스트 그룹에 할당한 후 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지16](images/48318a51adee06bff3908e8ad4944dc9.png)
+    > ![portal16 Microsoft Endpoint Manager 이미지](images/48318a51adee06bff3908e8ad4944dc9.png)
 
 8.  검토하고 만든 다음 만들기를 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지17](images/dfdadab79112d61bd3693d957084b0ec.png)
+    > ![portal17 Microsoft Endpoint Manager 이미지](images/dfdadab79112d61bd3693d957084b0ec.png)
 
 9.  만든 구성 정책이 볼 수 있습니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지18](images/38180219e632d6e4ec7bd25a46398da8.png)
+    > ![Microsoft Endpoint Manager portal18의 이미지](images/38180219e632d6e4ec7bd25a46398da8.png)
 
 ### <a name="attack-surface-reduction--attack-surface-reduction-rules"></a>공격 표면 감소 – 공격 표면 감소 규칙
 
@@ -227,15 +227,15 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 
 3.  정책 **만들기 를 선택합니다.**
 
-4.  플랫폼 **선택 - Windows 10 이상 - 프로필 - 만들기에서** 공격 표면 > 선택합니다.
+4.  플랫폼 **- Windows 10 이상 – 프로필 - 만들기에서** 공격 표면 > 선택합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지19](images/522d9bb4288dc9c1a957392b51384fdd.png)
+    > ![portal19 Microsoft Endpoint Manager 이미지](images/522d9bb4288dc9c1a957392b51384fdd.png)
 
 5.  이름과 설명을 입력하고 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager Portal의 이미지20](images/a5a71fd73ec389f3cdce6d1a6bd1ff31.png)
+    > ![Microsoft Endpoint Manager portal20 이미지](images/a5a71fd73ec389f3cdce6d1a6bd1ff31.png)
 
 6.  구성 **설정 페이지에서**: 공격 표면 감소 규칙에 필요한 구성을 설정하고 다음 을 **선택합니다.**
 
@@ -245,17 +245,17 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
     > 자세한 내용은 공격 표면 [감소 규칙을 참조하세요.](attack-surface-reduction.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지21](images/dd0c00efe615a64a4a368f54257777d0.png)
+    > ![Microsoft Endpoint Manager portal21의 이미지](images/dd0c00efe615a64a4a368f54257777d0.png)
 
 7.  필요한 경우 범위 태그를 추가하고 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지22](images/6daa8d347c98fe94a0d9c22797ff6f28.png)
+    > ![Microsoft Endpoint Manager portal22의 이미지](images/6daa8d347c98fe94a0d9c22797ff6f28.png)
 
 8.  포함할 그룹을 선택하고 테스트 그룹에 할당한 후 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지23](images/45cefc8e4e474321b4d47b4626346597.png)
+    > ![portal23 Microsoft Endpoint Manager 이미지](images/45cefc8e4e474321b4d47b4626346597.png)
 
 9. 세부 정보를 검토한 다음 만들기 를 **선택합니다.**
 
@@ -265,7 +265,7 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 10. 정책을 시청합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지25](images/7a631d17cc42500dacad4e995823ffef.png)
+    > ![Microsoft Endpoint Manager portal25의 이미지](images/7a631d17cc42500dacad4e995823ffef.png)
 
 ### <a name="attack-surface-reduction--web-protection"></a>공격 표면 감소 – 웹 보호
 
@@ -275,15 +275,15 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 
 3.  정책 **만들기 를 선택합니다.**
 
-4.  **Windows 10 이상 – 웹** 보호 및 > 선택합니다.
+4.  만들기 Windows 10 이상 – 웹 **보호 > 선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지26](images/cd7b5a1cbc16cc05f878cdc99ba4c27f.png)
+    > ![Microsoft Endpoint Manager portal26 이미지](images/cd7b5a1cbc16cc05f878cdc99ba4c27f.png)
 
 5.  이름과 설명을 입력하고 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지27](images/5be573a60cd4fa56a86a6668b62dd808.png)
+    > ![Microsoft Endpoint Manager portal27의 이미지](images/5be573a60cd4fa56a86a6668b62dd808.png)
 
 6.  구성 **설정 페이지:** 웹 보호에 필요한 구성을 설정하고 다음 을 **선택합니다.**
 
@@ -293,27 +293,27 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
     > 자세한 내용은 Web [Protection 을 참조하세요.](web-protection-overview.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지28](images/6104aa33a56fab750cf30ecabef9f5b6.png)
+    > ![portal28 Microsoft Endpoint Manager 이미지](images/6104aa33a56fab750cf30ecabef9f5b6.png)
 
 7.  다음에 필요한 범위 **> 추가합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지29](images/6daa8d347c98fe94a0d9c22797ff6f28.png)
+    > ![portal29 Microsoft Endpoint Manager 이미지](images/6daa8d347c98fe94a0d9c22797ff6f28.png)
 
 8.  다음에서 테스트 그룹에 **할당을 > 선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager portal30 이미지](images/45cefc8e4e474321b4d47b4626346597.png)
+    > ![portal30 Microsoft Endpoint Manager 이미지](images/45cefc8e4e474321b4d47b4626346597.png)
 
 9.  검토 **및 만들기를 > 를 선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지31](images/8ee0405f1a96c23d2eb6f737f11c1ae5.png)
+    > ![포털 Microsoft Endpoint Manager 이미지](images/8ee0405f1a96c23d2eb6f737f11c1ae5.png)
 
 10. 정책을 시청합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 포털의 이미지32](images/e74f6f6c150d017a286e6ed3dffb7757.png)
+    > ![portal32 Microsoft Endpoint Manager 이미지](images/e74f6f6c150d017a286e6ed3dffb7757.png)
 
 ## <a name="validate-configuration-settings"></a>구성 설정 유효성 검사
 
@@ -323,29 +323,29 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 
 구성 정책이 할당된 후 적용하는 데 시간이 다소 걸릴 수 있습니다.
 
-타이밍에 대한 자세한 내용은 [Intune 구성 정보를 참조하세요.](https://docs.microsoft.com/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned)
+타이밍에 대한 자세한 내용은 [Intune 구성 정보를 참조하세요.](/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned)
 
 구성 정책이 테스트 장치에 적용되어 있는지 확인하려면 각 구성 정책에 대해 다음 프로세스를 따르하세요.
 
 1.  MEM 포털을 열고 위의 단계에 표시된 대로 관련 정책으로 이동합니다. 다음 예에서는 차세대 보호 설정을 보여줍니다.
 
     > [!div class="mx-imgBorder"]
-    > [![Microsoft Endpoint Manager 포털의 이미지33 ](images/43ab6aa74471ee2977e154a4a5ef2d39.png)](images/43ab6aa74471ee2977e154a4a5ef2d39.png#lightbox)
+    > [![portal33 ](images/43ab6aa74471ee2977e154a4a5ef2d39.png) Microsoft Endpoint Manager 이미지](images/43ab6aa74471ee2977e154a4a5ef2d39.png#lightbox)
 
 2.  정책 **상태를 확인하려면** 구성 정책을 선택합니다.
 
     > [!div class="mx-imgBorder"]
-    > [![Microsoft Endpoint Manager portal34의 이미지 ](images/55ecaca0e4a022f0e29d45aeed724e6c.png)](images/55ecaca0e4a022f0e29d45aeed724e6c.png#lightbox)
+    > [![portal34 ](images/55ecaca0e4a022f0e29d45aeed724e6c.png) Microsoft Endpoint Manager 이미지](images/55ecaca0e4a022f0e29d45aeed724e6c.png#lightbox)
 
 3.  장치  **상태를 선택하여** 상태를 확인합니다.
 
     > [!div class="mx-imgBorder"]
-    > [![Microsoft Endpoint Manager 포털의 이미지35 ](images/18a50df62cc38749000dbfb48e9a4c9b.png)](images/18a50df62cc38749000dbfb48e9a4c9b.png#lightbox)
+    > [![portal35 ](images/18a50df62cc38749000dbfb48e9a4c9b.png) Microsoft Endpoint Manager 이미지](images/18a50df62cc38749000dbfb48e9a4c9b.png#lightbox)
 
 4.  상태를  **확인하려면** 사용자 상태를 선택합니다.
 
     > [!div class="mx-imgBorder"]
-    > [![Microsoft Endpoint Manager 포털의 이미지36 ](images/4e965749ff71178af8873bc91f9fe525.png)](images/4e965749ff71178af8873bc91f9fe525.png#lightbox)
+    > [![portal36 ](images/4e965749ff71178af8873bc91f9fe525.png) Microsoft Endpoint Manager 이미지](images/4e965749ff71178af8873bc91f9fe525.png#lightbox)
 
 5.  상태를  **확인하려면** 설정당 상태를 선택합니다.
 
@@ -353,25 +353,25 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
     >이 보기는 다른 정책과 충돌하는 설정을 식별하는 데 매우 유용합니다.
 
     > [!div class="mx-imgBorder"]
-    > [![Microsoft Endpoint Manager 포털의 이미지37 ](images/42acc69d0128ed09804010bdbdf0a43c.png)](images/42acc69d0128ed09804010bdbdf0a43c.png#lightbox)
+    > [![포털 Microsoft Endpoint Manager 이미지 ](images/42acc69d0128ed09804010bdbdf0a43c.png)](images/42acc69d0128ed09804010bdbdf0a43c.png#lightbox)
 
 ### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
 
 
-1.  구성을 적용하기 전에 Endpoint Protection용 Defender 서비스를 시작하지 말아야 합니다.
+1.  구성을 적용하기 전에 Endpoint Protection Defender for Endpoint Protection 시작하면 안 됩니다.
 
     > [!div class="mx-imgBorder"]
     > [![서비스 패널 1의 이미지 ](images/b418a232a12b3d0a65fc98248dbb0e31.png)](images/b418a232a12b3d0a65fc98248dbb0e31.png#lightbox)
 
-2.  구성이 적용된 후 Endpoint Protection Service용 Defender를 시작해야 합니다.
+2.  구성이 적용된 후 Endpoint Protection 서비스를 시작해야 합니다.
 
     > [!div class="mx-imgBorder"]
     > [![서비스 패널 2의 이미지 ](images/a621b699899f1b41db211170074ea59e.png)](images/a621b699899f1b41db211170074ea59e.png#lightbox)
 
-3.  장치에서 서비스가 실행되고 나면 장치가 Microsoft Defender 보안 센터에 표시됩니다.
+3.  장치에서 서비스가 실행되고 나면 디바이스가 디바이스에 Microsoft Defender 보안 센터.
 
     > [!div class="mx-imgBorder"]
-    > [![Microsoft Defender 보안 센터의 이미지 ](images/df0c64001b9219cfbd10f8f81a273190.png)](images/df0c64001b9219cfbd10f8f81a273190.png#lightbox)
+    > [![이미지 Microsoft Defender 보안 센터 ](images/df0c64001b9219cfbd10f8f81a273190.png)](images/df0c64001b9219cfbd10f8f81a273190.png#lightbox)
 
 ### <a name="next-generation-protection"></a>차세대 보호
 
@@ -403,7 +403,7 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 
     ![명령줄 1의 이미지](images/cb0260d4b2636814e37eee427211fe71.png)
 
-3.  테스트 장치에 정책을 적용한 후 PowerShell Windows를 열고 를 `Get-MpPreference` 입력합니다.
+3.  테스트 장치에 정책을 적용한 후 PowerShell Windows 를 `Get-MpPreference` 입력합니다.
 
 4.  아래와 같이 콘텐츠가 있는 다음 줄로 응답해야 합니다.
 
@@ -411,13 +411,13 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 
 ### <a name="attack-surface-reduction--web-protection"></a>공격 표면 감소 – 웹 보호
 
-1.  테스트 장치에서 PowerShell Windows를 열고 를 `(Get-MpPreference).EnableNetworkProtection` 입력합니다.
+1.  테스트 장치에서 PowerShell 을 열고 Windows `(Get-MpPreference).EnableNetworkProtection` 를 입력합니다.
 
 2.  아래와 같이 0으로 응답해야 합니다.
 
     ![명령줄 3의 이미지](images/196a8e194ac99d84221f405d0f684f8c.png)
 
-3.  정책을 적용한 후 PowerShell Windows를 열고 를 `(Get-MpPreference).EnableNetworkProtection` 입력합니다.
+3.  정책을 적용한 후 PowerShell Windows 를 `(Get-MpPreference).EnableNetworkProtection` 입력합니다.
 
 4.  아래와 같이 1로 응답해야 합니다.
 

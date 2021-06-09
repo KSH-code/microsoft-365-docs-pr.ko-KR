@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 6c762a15051444ec950e92998317db4f7e51783c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: a321a3aec9bbd0e7e405b82b7cbd56cf214694ca
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771816"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845204"
 ---
 # <a name="list-devices-by-recommendation"></a>권장으로 장치 나열
 
@@ -96,5 +96,5 @@ GET https://api.securitycenter.microsoft.com/api/recommendations/va-_-google-_-c
 ```
 
 ## <a name="related-topics"></a>관련 항목
-- [위험 기반 위협 & 관리](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [위협 & 보안 권장](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation)
+- [위험 기반 위협 & 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [위협 & 보안 권장](/microsoft-365/security/defender-endpoint/tvm-security-recommendation)

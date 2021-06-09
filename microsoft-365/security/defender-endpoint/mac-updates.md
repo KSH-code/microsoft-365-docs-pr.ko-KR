@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e08781455888595d57bd8a9e6f792796ea1853cd
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 6447aa4182846020312e9be870c5548d9415ac71
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684210"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842833"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender 업데이트 배포
 
@@ -48,7 +48,7 @@ MacOS에서 끝점에 대한 Microsoft Defender를 업데이트하기 위해 MAU
 
 ## <a name="use-msupdate"></a>Msupdate 사용
 
-MAU에는 업데이트가 적용되는 경우를 보다 정확하게 제어할 수 있도록 IT 관리자를 위해 설계된 *msupdate라는* 명령줄 도구가 포함되어 있습니다. 이 도구를 사용하는 방법에 대한 지침은 [msupdate를](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)사용하여 업데이트 Mac용 Office 있습니다.
+MAU에는 업데이트가 적용되는 경우를 보다 정확하게 제어할 수 있도록 IT 관리자를 위해 설계된 *msupdate라는* 명령줄 도구가 포함되어 있습니다. 이 도구를 사용하는 방법에 대한 지침은 [msupdate를](/deployoffice/mac/update-office-for-mac-using-msupdate)사용하여 업데이트 Mac용 Office 있습니다.
 
 MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 식별자는 *WDAV00입니다.* macOS의 끝점용 Microsoft Defender에 대한 최신 업데이트를 다운로드하고 설치하려면 터미널 창에서 다음 명령을 실행합니다.
 
@@ -256,4 +256,4 @@ MAU를 구성하려면 엔터프라이즈에서 사용하는 관리 도구에서
 
 ## <a name="resources"></a>리소스
 
-- [msupdate 참조](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)
+- [msupdate 참조](/deployoffice/mac/update-office-for-mac-using-msupdate)

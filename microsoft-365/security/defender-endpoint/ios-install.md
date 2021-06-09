@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6f2b9a1365a27bb7397aea51dcd5bc9e2631afe2
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 371208433cbb0f65ab5a2808318c03dae6bb6d8b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624708"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842310"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>iOS에서 끝점용 Microsoft Defender 배포
 
@@ -44,7 +44,7 @@ ms.locfileid: "52624708"
 - 사용자에 대해 iOS 등록이 완료되도록 합니다. iOS에서 끝점용 Defender를 사용하려면 사용자가 끝점용 Defender 라이선스를 할당해야 합니다. 라이선스를 [할당하는](/azure/active-directory/users-groups-roles/licensing-groups-assign) 방법에 대한 지침은 사용자에게 라이선스 할당을 참조하세요.
 
 > [!NOTE]
-> 이제 Apple App Store에서 iOS의 끝점용 Microsoft [Defender를 사용할 수 있습니다.](https://aka.ms/mdatpiosappstore)
+> iOS의 끝점용 Microsoft Defender는 [Apple App Store에서 사용할 수 있습니다.](https://aka.ms/mdatpiosappstore)
 
 ## <a name="deployment-steps"></a>배포 단계
 
@@ -78,9 +78,6 @@ iOS에서 끝점용 Defender를 배포하는 Intune 회사 포털.
 
 ## <a name="auto-onboarding-of-vpn-profile-simplified-onboarding"></a>VPN 프로필의 자동 온보더링(간소화된 온보더링)
 
-> [!NOTE]
-> VPN 프로필의 자동 온보더링은 현재 미리 보기로 제공되고 있으며 이 섹션에 설명된 단계는 상업적으로 출시되기 전에 상당 부분 수정될 수 있습니다.
-
 관리자는 VPN 프로필의 자동 설정을 구성할 수 있습니다. 이렇게 하면 사용자가 온보딩하는 동안 이를 수행하지 않고도 Endpoint VPN용 Defender 프로필이 자동으로 설정됩니다. VPN은 웹 보호 기능을 제공하기 위해 사용됩니다. 이는 일반 VPN이 아니며 장치 외부에서 트래픽을 취하지 않는 로컬/자체 루프 VPN입니다.
 
 1. [Microsoft 끝점 관리자 관리 센터에서](https://go.microsoft.com/fwlink/?linkid=2109431)장치 **구성** 프로필 프로필  ->    ->  **만들기로 이동하세요.**
@@ -107,7 +104,7 @@ iOS에서 끝점용 Defender를 배포하는 Intune 회사 포털.
 
     ![자동으로 생성된 스마트폰 설명의 스크린샷](images/41627a709700c324849bf7e13510c516.png)
 
-2. 끝점용 Defender 앱 아이콘을 탭하고 화면의 지침에 따라 온보딩 단계를 완료합니다. 세부 정보에는 iOS의 끝점에 대한 Defender에서 요구하는 iOS 사용 권한의 최종 사용자 수락이 포함됩니다.
+2. 끝점용 Defender 앱 아이콘(MSDefender)을 탭하고 화면의 지침에 따라 온보딩 단계를 완료합니다. 세부 정보에는 iOS의 끝점에 대한 Defender에서 요구하는 iOS 사용 권한의 최종 사용자 수락이 포함됩니다.
 
 3. 온보드에 성공하면 디바이스가 디바이스의 디바이스 목록에 Microsoft Defender 보안 센터.
 
@@ -133,7 +130,7 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
 1. 앱 *구성 정책 만들기 페이지에서* 다음 정보를 제공합니다.
     - 정책 이름
     - 플랫폼: iOS/iPadOS 선택
-    - 대상 앱: **목록에서 Microsoft Defender ATP** 선택
+    - 대상 앱: 목록에서 **Microsoft Defender 끝점** 선택
 
     > [!div class="mx-imgBorder"]
     > ![Microsoft Endpoint Manager 관리 센터5의 이미지](images/ios-deploy-5.png)
