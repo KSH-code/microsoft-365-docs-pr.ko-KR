@@ -23,15 +23,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52769920"
 ---
-# <a name="list-vulnerabilities-by-software"></a><span data-ttu-id="1ab51-104">소프트웨어별 취약성 목록</span><span class="sxs-lookup"><span data-stu-id="1ab51-104">List vulnerabilities by software</span></span>
+# <a name="list-vulnerabilities-by-software"></a><span data-ttu-id="409f2-104">소프트웨어별 취약성 목록</span><span class="sxs-lookup"><span data-stu-id="409f2-104">List vulnerabilities by software</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="1ab51-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="1ab51-105">**Applies to:**</span></span>
-- [<span data-ttu-id="1ab51-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="1ab51-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="1ab51-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="1ab51-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="409f2-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="409f2-105">**Applies to:**</span></span>
+- [<span data-ttu-id="409f2-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="409f2-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="409f2-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="409f2-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="1ab51-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="1ab51-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="1ab51-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="1ab51-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="409f2-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="409f2-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="409f2-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="409f2-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -40,47 +40,47 @@ ms.locfileid: "52769920"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-<span data-ttu-id="1ab51-110">설치된 소프트웨어의 취약성 목록을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="1ab51-110">Retrieve a list of vulnerabilities in the installed software.</span></span> 
+<span data-ttu-id="409f2-110">설치된 소프트웨어의 취약성 목록을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="409f2-110">Retrieve a list of vulnerabilities in the installed software.</span></span> 
 
-## <a name="permissions"></a><span data-ttu-id="1ab51-111">사용 권한</span><span class="sxs-lookup"><span data-stu-id="1ab51-111">Permissions</span></span>
-<span data-ttu-id="1ab51-112">이 API를 호출하려면 다음 권한 중 하나가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="1ab51-112">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="1ab51-113">사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="1ab51-113">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
+## <a name="permissions"></a><span data-ttu-id="409f2-111">사용 권한</span><span class="sxs-lookup"><span data-stu-id="409f2-111">Permissions</span></span>
+<span data-ttu-id="409f2-112">이 API를 호출하려면 다음 권한 중 하나가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="409f2-112">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="409f2-113">사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="409f2-113">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
 
-<span data-ttu-id="1ab51-114">사용 권한 유형</span><span class="sxs-lookup"><span data-stu-id="1ab51-114">Permission type</span></span> |   <span data-ttu-id="1ab51-115">사용 권한</span><span class="sxs-lookup"><span data-stu-id="1ab51-115">Permission</span></span>  |   <span data-ttu-id="1ab51-116">사용 권한 표시 이름</span><span class="sxs-lookup"><span data-stu-id="1ab51-116">Permission display name</span></span>
+<span data-ttu-id="409f2-114">사용 권한 유형</span><span class="sxs-lookup"><span data-stu-id="409f2-114">Permission type</span></span> |   <span data-ttu-id="409f2-115">사용 권한</span><span class="sxs-lookup"><span data-stu-id="409f2-115">Permission</span></span>  |   <span data-ttu-id="409f2-116">사용 권한 표시 이름</span><span class="sxs-lookup"><span data-stu-id="409f2-116">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="1ab51-117">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="1ab51-117">Application</span></span> | <span data-ttu-id="1ab51-118">Software.Read.All</span><span class="sxs-lookup"><span data-stu-id="1ab51-118">Software.Read.All</span></span> | <span data-ttu-id="1ab51-119">'위협 및 취약성 관리 소프트웨어 정보 읽기'</span><span class="sxs-lookup"><span data-stu-id="1ab51-119">'Read Threat and Vulnerability Management Software information'</span></span>
-<span data-ttu-id="1ab51-120">위임(직장 또는 학교 계정)</span><span class="sxs-lookup"><span data-stu-id="1ab51-120">Delegated (work or school account)</span></span> | <span data-ttu-id="1ab51-121">Software.Read</span><span class="sxs-lookup"><span data-stu-id="1ab51-121">Software.Read</span></span> | <span data-ttu-id="1ab51-122">'위협 및 취약성 관리 소프트웨어 정보 읽기'</span><span class="sxs-lookup"><span data-stu-id="1ab51-122">'Read Threat and Vulnerability Management Software information'</span></span>
+<span data-ttu-id="409f2-117">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="409f2-117">Application</span></span> | <span data-ttu-id="409f2-118">Software.Read.All</span><span class="sxs-lookup"><span data-stu-id="409f2-118">Software.Read.All</span></span> | <span data-ttu-id="409f2-119">'위협 및 취약성 관리 소프트웨어 정보 읽기'</span><span class="sxs-lookup"><span data-stu-id="409f2-119">'Read Threat and Vulnerability Management Software information'</span></span>
+<span data-ttu-id="409f2-120">위임(직장 또는 학교 계정)</span><span class="sxs-lookup"><span data-stu-id="409f2-120">Delegated (work or school account)</span></span> | <span data-ttu-id="409f2-121">Software.Read</span><span class="sxs-lookup"><span data-stu-id="409f2-121">Software.Read</span></span> | <span data-ttu-id="409f2-122">'위협 및 취약성 관리 소프트웨어 정보 읽기'</span><span class="sxs-lookup"><span data-stu-id="409f2-122">'Read Threat and Vulnerability Management Software information'</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="1ab51-123">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="1ab51-123">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="409f2-123">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="409f2-123">HTTP request</span></span>
 ```
 GET /api/Software/{Id}/vulnerabilities
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="1ab51-124">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="1ab51-124">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="409f2-124">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="409f2-124">Request headers</span></span>
 
-| <span data-ttu-id="1ab51-125">이름</span><span class="sxs-lookup"><span data-stu-id="1ab51-125">Name</span></span>        | <span data-ttu-id="1ab51-126">유형</span><span class="sxs-lookup"><span data-stu-id="1ab51-126">Type</span></span> | <span data-ttu-id="1ab51-127">설명</span><span class="sxs-lookup"><span data-stu-id="1ab51-127">Description</span></span>
+| <span data-ttu-id="409f2-125">이름</span><span class="sxs-lookup"><span data-stu-id="409f2-125">Name</span></span>        | <span data-ttu-id="409f2-126">유형</span><span class="sxs-lookup"><span data-stu-id="409f2-126">Type</span></span> | <span data-ttu-id="409f2-127">설명</span><span class="sxs-lookup"><span data-stu-id="409f2-127">Description</span></span>
 |:--------------|:-------|:--------------|
-| <span data-ttu-id="1ab51-128">권한 부여</span><span class="sxs-lookup"><span data-stu-id="1ab51-128">Authorization</span></span> | <span data-ttu-id="1ab51-129">String</span><span class="sxs-lookup"><span data-stu-id="1ab51-129">String</span></span> | <span data-ttu-id="1ab51-130">Bearer {token}. **필수 .**</span><span class="sxs-lookup"><span data-stu-id="1ab51-130">Bearer {token}.**Required**.</span></span>
+| <span data-ttu-id="409f2-128">권한 부여</span><span class="sxs-lookup"><span data-stu-id="409f2-128">Authorization</span></span> | <span data-ttu-id="409f2-129">String</span><span class="sxs-lookup"><span data-stu-id="409f2-129">String</span></span> | <span data-ttu-id="409f2-130">Bearer {token}. **필수 .**</span><span class="sxs-lookup"><span data-stu-id="409f2-130">Bearer {token}.**Required**.</span></span>
 
-## <a name="request-body"></a><span data-ttu-id="1ab51-131">요청 본문</span><span class="sxs-lookup"><span data-stu-id="1ab51-131">Request body</span></span>
-<span data-ttu-id="1ab51-132">비어 있음</span><span class="sxs-lookup"><span data-stu-id="1ab51-132">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="409f2-131">요청 본문</span><span class="sxs-lookup"><span data-stu-id="409f2-131">Request body</span></span>
+<span data-ttu-id="409f2-132">비어 있음</span><span class="sxs-lookup"><span data-stu-id="409f2-132">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="1ab51-133">응답</span><span class="sxs-lookup"><span data-stu-id="1ab51-133">Response</span></span>
-<span data-ttu-id="1ab51-134">성공하면 이 메서드는 지정된 소프트웨어에 의해 노출된 취약점 목록과 함께 200 OK를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="1ab51-134">If successful, this method returns 200 OK with a list of vulnerabilities exposed by the specified software.</span></span> 
+## <a name="response"></a><span data-ttu-id="409f2-133">응답</span><span class="sxs-lookup"><span data-stu-id="409f2-133">Response</span></span>
+<span data-ttu-id="409f2-134">성공하면 이 메서드는 지정된 소프트웨어에 의해 노출된 취약점 목록과 함께 200 OK를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="409f2-134">If successful, this method returns 200 OK with a list of vulnerabilities exposed by the specified software.</span></span> 
 
 
-## <a name="example"></a><span data-ttu-id="1ab51-135">예시</span><span class="sxs-lookup"><span data-stu-id="1ab51-135">Example</span></span>
+## <a name="example"></a><span data-ttu-id="409f2-135">예시</span><span class="sxs-lookup"><span data-stu-id="409f2-135">Example</span></span>
 
-<span data-ttu-id="1ab51-136">**요청**</span><span class="sxs-lookup"><span data-stu-id="1ab51-136">**Request**</span></span>
+<span data-ttu-id="409f2-136">**요청**</span><span class="sxs-lookup"><span data-stu-id="409f2-136">**Request**</span></span>
 
-<span data-ttu-id="1ab51-137">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="1ab51-137">Here is an example of the request.</span></span>
+<span data-ttu-id="409f2-137">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="409f2-137">Here is an example of the request.</span></span>
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/vulnerabilities 
 ```
 
-<span data-ttu-id="1ab51-138">**응답**</span><span class="sxs-lookup"><span data-stu-id="1ab51-138">**Response**</span></span>
+<span data-ttu-id="409f2-138">**응답**</span><span class="sxs-lookup"><span data-stu-id="409f2-138">**Response**</span></span>
 
-<span data-ttu-id="1ab51-139">다음은 응답의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="1ab51-139">Here is an example of the response.</span></span>
+<span data-ttu-id="409f2-139">다음은 응답의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="409f2-139">Here is an example of the response.</span></span>
 
 ```json
 {
