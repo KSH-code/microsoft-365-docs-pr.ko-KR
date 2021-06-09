@@ -79,7 +79,7 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 
 - Microsoft 365(Exchange Online)
 - Azure Active Directory
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
 - ID용 Microsoft Defender
 - 클라우드 앱 보안
 - Microsoft Teams

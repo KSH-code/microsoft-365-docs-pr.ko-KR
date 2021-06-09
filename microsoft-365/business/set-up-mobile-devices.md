@@ -47,7 +47,7 @@ iPhone 또는 Android 휴대폰에서 Office를 설치하려면 탭의 지침을
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
 **App store** 로 이동하여 검색 필드에 Microsoft Outlook을 입력합니다.
   
@@ -79,7 +79,7 @@ Android 디바이스에 Outlook 설치하는 Office 비디오를 시청합니다
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
 Android 휴대폰에서 설정을 시작하려면 Play 스토어로 이동하십시오.
   

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Microsoft 365 관리
+title: 비즈니스 Microsoft 365 관리
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -21,7 +21,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: 비즈니스용 Microsoft 365 관리 작업, 모바일 장치, Windows 10 PC 및 다양한 작업을 관리하는 방법을 설명합니다.
+description: 비즈니스 관련 Microsoft 365, 모바일 장치, PC 및 여러 가지 Windows 10 관리 방법을 설명합니다.
 ms.openlocfilehash: 0ad2326bdcc785c0d8d1a52dee74187cdc1668e7
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -29,25 +29,25 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578370"
 ---
-# <a name="manage-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 관리
+# <a name="manage-microsoft-365-for-business"></a>비즈니스 Microsoft 365 관리
 
-## <a name="general-microsoft-365-for-business-admin-tasks"></a>일반 비즈니스용 Microsoft 365 관리 작업
+## <a name="general-microsoft-365-for-business-admin-tasks"></a>비즈니스 Microsoft 365 대한 일반 관리 작업
 
-Office 365의 관리 콘텐츠는 대부분 비즈니스용 Microsoft 365에도 적용됩니다. [](/office365/admin/admin-home)
+비즈니스용 [Office 365](/office365/admin/admin-home) 콘텐츠는 대부분 비즈니스용 Microsoft 365 적용됩니다.
 
-- [비즈니스용 Microsoft 365에 더 많은 사용자 추가](../admin/add-users/add-users.md)
+- [비즈니스용 Microsoft 365 사용자 추가](../admin/add-users/add-users.md)
     
 - [정책 및 장치 보기](view-policies-and-devices.md)
     
-- [비즈니스용 Microsoft 365 보안 기능](security-features.md)
+- [Microsoft 365 보안 기능 관리](security-features.md)
     
-- [비즈니스용 Microsoft 365의 보호 기능을 Intune 설정에 매핑하는 방법](map-protection-features-to-intune-settings.md)
+- [비즈니스용 에지의 보호 Microsoft 365 Intune 설정에 매핑하는 방법](map-protection-features-to-intune-settings.md)
     
-비즈니스용 Microsoft 365를 사용하여 PC 및 모바일 장치에서 조직의 데이터를 보호하는 방법에 대한 다음 섹션을 참조하세요.
+비즈니스용 Microsoft 365 사용하여 PC 및 모바일 장치에서 조직의 데이터를 보호하는 방법에 대한 다음 섹션을 참조하세요.
   
 ## <a name="manage-mobile-devices"></a>모바일 장치 관리
 
-- [비즈니스용 Microsoft 365 사용자를 위한 모바일 장치 설정](set-up-mobile-devices.md)
+- [비즈니스 사용자를 위한 Microsoft 365 장치 설정](set-up-mobile-devices.md)
     
 - [Android 또는 iOS 장치에서 앱 보호 설정 설정하기](app-protection-settings-for-android-and-ios.md)
     
@@ -57,17 +57,17 @@ Office 365의 관리 콘텐츠는 대부분 비즈니스용 Microsoft 365에도 
     
 ## <a name="manage-windows-10-pcs"></a>Windows 10 PC 관리
 
-- [비즈니스용 Microsoft 365 사용자를 위한 Windows 장치 설정](set-up-windows-devices.md)
+- [비즈니스 Windows 사용자를 위한 Microsoft 365 장치 설정](set-up-windows-devices.md)
 
-    Office를 자동 설치하기 전에 [비즈니스용 Microsoft 365에서 Office](prepare-for-office-client-deployment.md) 클라이언트 배포 준비를 읽어 읽습니다. 
+    자동 [설치를 Office](prepare-for-office-client-deployment.md) 전에 Microsoft 365 클라이언트 배포 준비를 Office. 
     
 - [Windows 10 장치에서 장치 보호 설정 설정하기](protection-settings-for-windows-10-pcs.md)
     
-    이 작동 여부를 확인하려면 Windows 10 장치에서 장치 보호 설정 유효성 [검사를 참조하세요.](validate-settings-on-windows-10-pcs.md) 
+    이 작동 여부를 확인하려면 장치에서 장치 보호 설정 [유효성 Windows 10 참조하세요.](validate-settings-on-windows-10-pcs.md) 
     
 - [Windows 10 장치에서 응용 프로그램 보호 설정 설정하기](protection-settings-for-windows-10-devices.md)
     
-    이 작동 여부를 확인하려면 Windows 10 PC에서 앱 보호 설정 유효성 [검사를 참조하세요.](validate-protection-settings-on-windows-10-pcs.md) 
+    작동 여부를 확인하려면 PC에서 앱 보호 설정 [Windows 10 참조하세요.](validate-protection-settings-on-windows-10-pcs.md) 
     
 - [장치에서 회사 데이터 제거](remove-company-data.md)
     
@@ -75,7 +75,7 @@ Office 365의 관리 콘텐츠는 대부분 비즈니스용 Microsoft 365에도 
     
 ### <a name="use-autopilot-to-deploy-windows-10-devices"></a>AutoPilot을 사용하여 Windows 10 장치 배포
 
-다음 항목에서는 비즈니스용 Microsoft 365에서 Windows AutoPilot을 사용하여 Windows 10 장치를 미리 구성하는 방법을 설명합니다.
+다음 항목에서는 비즈니스용 Windows AutoPilot을 사용하여 Microsoft 365 장치를 미리 구성하는 방법을 Windows 10 있습니다.
   
 - [단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가](add-autopilot-devices-and-profile.md)
     
@@ -91,12 +91,12 @@ Office 365의 관리 콘텐츠는 대부분 비즈니스용 Microsoft 365에도 
     
 ## <a name="set-up-and-prerequisite-information"></a>설정 및 선행 준비 정보
 
-- [비즈니스용 Microsoft 365를 사용하여 장치에서 데이터를 보호하기 위한 선행 준비](pre-requisites-for-data-protection.md)
+- [비즈니스용 디바이스에서 데이터를 보호하기 위한 Microsoft 365 선행](pre-requisites-for-data-protection.md)
     
 - [설치 마법사를 사용하여 비즈니스용 Microsoft 365 설정](set-up.md)
     
-- [비즈니스용 Microsoft 365로 마이그레이션](migrate-to-microsoft-365-business.md)
+- [비즈니스용 Microsoft 365 마이그레이션](migrate-to-microsoft-365-business.md)
     
-- [비즈니스용 Microsoft 365에서 도메인에 가입된 Windows 10 장치를 관리하도록 설정](manage-windows-devices.md)
+- [비즈니스용 Windows 10 통해 도메인에 가입된 Microsoft 365 장치를 관리하도록 설정](manage-windows-devices.md)
     
 - [추가 보안 기능](security-features.md#additional-security-features)

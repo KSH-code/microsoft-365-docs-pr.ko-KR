@@ -1,5 +1,5 @@
 ---
-title: Windows 10 및 Office 365 랩 키트
+title: Windows 10 및 Office 365 배포 랩 키트
 f1.keywords:
 - NOCSH
 ms.author: greglin
@@ -22,7 +22,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770676"
 ---
-# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 및 Office 365 랩 키트
+# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 및 Office 365 배포 랩 키트
 
 Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스크톱의 배포 및 관리를 계획, 테스트 및 유효성을 Windows 10 Enterprise 엔터프라이즈용 Microsoft 365 앱. 키트의 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, autopilot Windows 사용하는 방법을 다 사용합니다.
 

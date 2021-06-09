@@ -18,7 +18,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 3c364f9e-b9f6-4da4-a792-c8e8c8cd2e86
-description: 이 문서에서는 개발자 도구를 사용하여 SharePoint Online 사이트의 일반적인 문제를 진단하는 Internet Explorer 방법을 보여 제공합니다.
+description: 이 문서에서는 개발자 도구를 사용하여 SharePoint 일반적인 문제를 진단하는 Internet Explorer 방법을 보여줍니다.
 ms.openlocfilehash: 6a29b8b2df54d74d8237418828a7aa89efdbcfaf
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -28,19 +28,19 @@ ms.locfileid: "50927615"
 ---
 # <a name="diagnosing-performance-issues-with-sharepoint-online"></a>SharePoint Online의 성능 문제 진단
 
-이 문서에서는 개발자 도구를 사용하여 SharePoint Online 사이트의 일반적인 문제를 진단하는 Internet Explorer 방법을 보여 제공합니다.
+이 문서에서는 개발자 도구를 사용하여 SharePoint 일반적인 문제를 진단하는 Internet Explorer 방법을 보여줍니다.
   
-SharePoint Online 사이트의 페이지에 사용자 지정과 성능 문제가 있는 경우를 식별할 수 있는 방법에는 세 가지가 있습니다.
+온라인 사이트의 페이지에 사용자 지정에 성능 문제가 SharePoint 식별할 수 있는 방법에는 세 가지가 있습니다.
   
 - F12 도구 모음 네트워크 모니터
 
 - 사용자 지정되지 않은 기준과 비교
 
-- SharePoint Online 응답 헤더 메트릭
+- SharePoint 온라인 응답 헤더 메트릭
 
-이 항목에서는 이러한 각 방법을 사용하여 성능 문제를 진단하는 방법에 대해 설명합니다. 문제의 원인을 알아내면 에서 찾을 수 있는 SharePoint 성능 개선 관련 문서를 사용하여 해결 방법을 찾을 수 https://aka.ms/tune 있습니다.
+이 항목에서는 이러한 각 방법을 사용하여 성능 문제를 진단하는 방법에 대해 설명합니다. 문제의 원인을 찾은 후 에서 찾을 수 있는 성능 향상에 대한 문서를 SharePoint 해결 방법을 찾을 수 https://aka.ms/tune 있습니다.
   
-## <a name="using-the-f12-tool-bar-to-diagnose-performance-in-sharepoint-online"></a>F12 도구 모음을 사용하여 SharePoint Online의 성능 진단
+## <a name="using-the-f12-tool-bar-to-diagnose-performance-in-sharepoint-online"></a>F12 도구 모음을 사용하여 온라인에서 SharePoint 진단
 <a name="F12ToolInfo"> </a>
 
 이 문서에서는 Internet Explorer 11을 사용했습니다. 다른 브라우저의 F12 개발자 도구 버전은 약간 다를 수 있습니다. F12 개발자 도구에 대한 자세한 내용은 다음을 참조하세요.
@@ -66,14 +66,14 @@ SharePoint Online 사이트의 페이지에 사용자 지정과 성능 문제가
 ## <a name="setting-up-a-non-customized-baseline-for-sharepoint-online"></a>SharePoint Online에 대해 사용자 지정되지 않은 기준 설정
 <a name="F12ToolInfo"> </a>
 
-사이트의 성능 약점을 확인하는 가장 좋은 방법은 SharePoint Online에서 완전히 새로운 사이트 모음을 설정하는 것입니다. 이렇게 하면 사이트의 모든 다양한 측면과 페이지에서 사용자 지정하지 않고도 얻을 수 있는 측면을 비교할 수 있습니다. 비즈니스용 OneDrive 홈 페이지는 사용자 지정이 없는 별도의 사이트 모음의 좋은 예입니다.
+사이트의 성능 약점을 확인하는 가장 좋은 방법은 온라인에서 완전히 새로운 사이트 모음을 SharePoint 것입니다. 이렇게 하면 사이트의 모든 다양한 측면과 페이지에서 사용자 지정하지 않고도 얻을 수 있는 측면을 비교할 수 있습니다. 이 비즈니스용 OneDrive 페이지는 사용자 지정이 없는 별도의 사이트 모음의 좋은 예입니다.
   
-## <a name="viewing-sharepoint-response-header-information"></a>SharePoint 응답 헤더 정보 보기
+## <a name="viewing-sharepoint-response-header-information"></a>응답 SharePoint 정보 보기
 <a name="F12ToolInfo"> </a>
 
-SharePoint Online에서는 각 파일의 응답 헤더에서 브라우저로 다시 전송된 정보에 액세스할 수 있습니다. 성능 문제를 평가하는 데 가장 유용한 값은 요청이 처리되는 데 걸려오는 시간을 표시하는 **SPRequestDuration입니다.** 이렇게하면 요청이 매우 과도하고 리소스를 많이 사용하는지 여부를 확인하는 데 도움이 될 수 있습니다. 서버가 페이지를 제공하는 데 얼마나 많은 작업을 수행하고 있는지 파악하는 데 가장 적합한 정보입니다.
+온라인 SharePoint 각 파일의 응답 헤더에서 브라우저로 다시 전송되는 정보에 액세스할 수 있습니다. 성능 문제를 평가하는 데 가장 유용한 값은 요청이 처리되는 데 걸려오는 시간을 표시하는 **SPRequestDuration입니다.** 이렇게하면 요청이 매우 과도하고 리소스를 많이 사용하는지 여부를 확인하는 데 도움이 될 수 있습니다. 서버가 페이지를 제공하는 데 얼마나 많은 작업을 수행하고 있는지 파악하는 데 가장 적합한 정보입니다.
 
-### <a name="to-view-sharepoint-response-header-information"></a>SharePoint 응답 헤더 정보를 보기 위해
+### <a name="to-view-sharepoint-response-header-information"></a>응답 SharePoint 정보를 보기 위해
   
 1. F12 도구가 설치되어 있는지 확인합니다. 이러한 도구를 다운로드하고 설치하는 데 대한 자세한 내용은 F12 도구의 새로운 [기능 을 참조하세요.](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182632(v=vs.85))
 
@@ -87,10 +87,10 @@ SharePoint Online에서는 각 파일의 응답 헤더에서 브라우저로 다
 
     ![응답 헤더의 URL을 보여 주는 다이어그램](../media/efc7076e-447e-447e-882a-ae3aa721e2c3.png)
   
-## <a name="whats-causing-performance-issues-in-sharepoint-online"></a>SharePoint Online에서 성능 문제를 일으키는 원인은 무엇입니까?
+## <a name="whats-causing-performance-issues-in-sharepoint-online"></a>온라인에서 성능 문제를 일으키는 원인은 SharePoint?
 <a name="F12ToolInfo"> </a>
 
-[SharePoint Online의](navigation-options-for-sharepoint-online.md) 탐색 옵션 문서에서는 SPRequestDuration 값을 사용하여 복잡한 구조 탐색으로 인해 페이지에서 처리 시간이 오래 걸릴 수 있는 예를 보여줍니다. 사용자 지정하지 않고 기준 사이트의 값을 사용하여 특정 파일을 로드하는 데 시간이 오래 필요한지 확인할 수 있습니다. [SharePoint Online의 탐색](navigation-options-for-sharepoint-online.md) 옵션에 사용되는 예제는 기본 .aspx 파일입니다. 이 파일에는 페이지 로드에 ASP.NET 실행되는 대부분의 코드가 포함되어 있습니다. 사용하는 사이트 서식 파일에 따라 홈 페이지를 사용자 지정하는 경우 start.aspx, home.aspx, default.aspx 또는 다른 이름이 될 수 있습니다. 이 수치가 기준 사이트보다 훨씬 높은 경우 페이지에 성능 문제를 일으키는 복잡한 문제가 있는 것을 표시하는 것이 좋습니다.
+SharePoint [Online의](navigation-options-for-sharepoint-online.md) 탐색 옵션 문서에서는 SPRequestDuration 값을 사용하여 복잡한 구조 탐색으로 인해 서버에서 페이지를 처리하기까지 시간이 오래 걸릴 수 있는 예를 보여줍니다. 사용자 지정하지 않고 기준 사이트의 값을 사용하여 특정 파일을 로드하는 데 시간이 오래 필요한지 확인할 수 있습니다. SharePoint [Online의](navigation-options-for-sharepoint-online.md) 탐색 옵션에 사용되는 예제는 기본 .aspx 파일입니다. 이 파일에는 페이지 로드에 ASP.NET 실행되는 대부분의 코드가 포함되어 있습니다. 사용하는 사이트 서식 파일에 따라 홈 페이지를 사용자 지정하는 경우 start.aspx, home.aspx, default.aspx 또는 다른 이름이 될 수 있습니다. 이 수치가 기준 사이트보다 훨씬 높은 경우 페이지에 성능 문제를 일으키는 복잡한 문제가 있는 것을 표시하는 것이 좋습니다.
   
 사이트와 관련한 문제가 확인되면 성능 향상을 위해 권장되는 방법은 페이지 사용자 지정과 같은 가능한 모든 원인을 제거한 다음 사이트에 하나씩 다시 추가하는 것입니다. 페이지가 잘 수행되는 충분한 사용자 지정을 제거한 후 특정 사용자 지정을 하나씩 다시 추가할 수 있습니다.
   

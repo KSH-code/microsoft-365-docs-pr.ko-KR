@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: 전역 관리자 자격 증명을 사용하여 비즈니스용 Microsoft 365에 로그인하여 장치 정책 및 작업을 확인합니다.
+description: 전역 관리자 자격 증명을 사용하여 비즈니스용 Microsoft 365 로그인하여 장치 정책 및 작업을 확인합니다.
 ms.openlocfilehash: 39d88e8fa84055e4bac62899a1b84bdf42f366a2
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -32,11 +32,11 @@ ms.locfileid: "51578030"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>정책 및 장치 보기 및 관리
 
-이 문서는 Microsoft 365 Business Premium에 적용됩니다.
+이 문서는 이 문서에 Microsoft 365 Business Premium.
 
 ## <a name="view-and-edit-device-policies"></a>장치 정책 보기 및 편집
 
-1.  <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
+1.  <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
 2. 왼쪽 nav에서 장치 **정책을** \> **선택 합니다.**
 
     이 페이지에서 정책을 만들거나, 편집하거나, 대상 그룹을 변경하거나, 삭제할 수 있습니다.

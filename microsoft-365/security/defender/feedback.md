@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender에 대한 피드백 제공
-description: Microsoft 365 Defender에 대한 제품 피드백 제공
+title: Defender에 대한 Microsoft 365 제공
+description: Defender에 대한 제품 Microsoft 365 제공
 keywords: 피드백, m365 보안, 보안, 365, 기능
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/20/2021
 ms.locfileid: "51899343"
 ---
-# <a name="provide-feedback-on-microsoft-365-defender"></a>Microsoft 365 Defender에 대한 피드백 제공
+# <a name="provide-feedback-on-microsoft-365-defender"></a>Defender에 대한 Microsoft 365 제공
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

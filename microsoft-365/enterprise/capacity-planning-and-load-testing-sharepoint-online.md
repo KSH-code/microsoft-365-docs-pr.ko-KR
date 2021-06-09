@@ -18,7 +18,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: c932bd9b-fb9a-47ab-a330-6979d03688c0
-description: 이 문서에서는 허용되지 않는 기존 부하 테스트를 수행하지 않고도 SharePoint Online에 배포할 수 있는 방법을 설명합니다.
+description: 이 문서에서는 허용되지 않는 기존 부하 테스트를 수행하지 않고 SharePoint Online에 배포하는 방법을 설명합니다.
 ms.openlocfilehash: fb54864168b35fed290ccb1139cb6c607969820d
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905227"
 ---
 # <a name="capacity-planning-and-load-testing-sharepoint-online"></a>Capacity planning and load testing SharePoint Online(용량 계획과 부하 테스트가 가능한 SharePoint Online)
-이 문서에서는 SharePoint Online에서 부하 테스트가 허용되지 않는 기존 부하 테스트 없이 SharePoint Online에 배포할 수 있는 방법을 설명합니다. SharePoint Online은 클라우드 서비스로, 서비스의 부하 기능, 상태 및 전체 부하 잔액은 Microsoft에서 관리합니다.
+이 문서에서는 기존 부하 테스트 없이 SharePoint Online에 배포할 수 있는 방법에 대해 설명합니다. 이는 SharePoint Online에서 부하 테스트가 허용되지 않습니다. SharePoint 온라인은 클라우드 서비스로, 서비스의 부하 기능, 상태 및 전반적인 부하 잔액은 Microsoft에서 관리합니다.
   
 사이트 시작의 성공을 보장하는 가장 좋은 방법은 포털 시작 롤아웃 계획에서 강조 표시된 기본 원칙, 사례 및 권장 사항을 [따르는 것입니다.](planportallaunchroll-out.md)
 
@@ -40,9 +40,9 @@ SharePoint Online의 주요 이점 중 하나는 클라우드의 탄력성과 �
 
 용량은 지속적으로 하드웨어를 더 추가하는 것 이상으로, 유효한 부하 요청을 처리하도록 해당 용량을 관리 및 제어하는 데도 관련이 있습니다. 고객이 최상의 환경을 경험할 수 있도록 권장 지침을 따르는 것이 좋습니다. 또한 서비스에서 "부적당" 동작을 허용하지 않도록 하는 데 필요한 조절 패턴과 컨트롤이 있습니다. 모든 "나쁜" 동작이 의도적인 것은 아니며 해당 동작의 영향을 제한해야 합니다. 스로틀 및 이를 방지하는 방법에 대한 자세한 내용은 스로틀되지 않도록 하는 방법 문서를 [검토하세요.](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
 
-## <a name="why-you-cannot-load-test-sharepoint-online"></a>테스트 SharePoint Online을 로드할 수 없는 이유
+## <a name="why-you-cannot-load-test-sharepoint-online"></a>Online에서 테스트 테스트를 로드할 SharePoint 이유
 사내 환경에서는 부하 테스트가 확장 가정의 유효성을 검사하고 궁극적으로 팜의 중단점을 찾는 데 사용됩니다. 로드를 채도로 채우는 것입니다. 
 
-SharePoint Online에서는 배율이 비교적 유동적이기 때문에 특정추론에 따라 부하를 조정, 제한 및 제어하기 때문에 다르게 작업을 해야 합니다. 이러한 대규모 다중 테넌트 환경인 경우 동일한 팜의 모든 테넌트를 보호해야 하여 부하 테스트를 자동으로 조정합니다. 그러나 테스트를 로드하려고 하면 스로틀링되는 것 외에 배율 및 팜 균형 조정 작업이 계속 수행될 때 현재 테스트한 팜이 테스트 기간 동안 또는 테스트 후 시간 내에 배율이 변경될 수 있기 때문에 잘못된 결과를 얻게 됩니다.
+온라인 SharePoint 배율이 비교적 유동적이기 때문에 특정추학에 따라 부하를 조정, 제한 및 제어하기 때문에 다르게 작업을 해야 합니다. 이러한 대규모 다중 테넌트 환경인 경우 동일한 팜의 모든 테넌트를 보호해야 하여 부하 테스트를 자동으로 조정합니다. 그러나 테스트를 로드하려고 하면 스로틀링되는 것 외에 배율 및 팜 균형 조정 작업이 계속 수행될 때 현재 테스트한 팜이 테스트 기간 동안 또는 테스트 후 시간 내에 배율이 변경될 수 있기 때문에 잘못된 결과를 얻게 됩니다.
 
-테스트 SharePoint를 서비스로 로드하는 대신 권장 사례를 따르고 건전한 포털 지침 [만들기,](/sharepoint/portal-health) 시작 및 유지 관리에 중점을 두는 것이 좋습니다.
+테스트 SharePoint 서비스로 로드하는 대신 권장 사례를 따르고, 정상 포털 [만들기,](/sharepoint/portal-health) 시작 및 유지 관리 지침을 따르는 것이 좋습니다.

@@ -16,7 +16,7 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Microsoft 365의 루트 인증서 및 CAS(인증 기관)의 전체 목록을 볼 수 있습니다.
+description: 전체 루트 인증서 및 CAS(인증 기관)의 전체 목록을 Microsoft 365.
 ms.openlocfilehash: c5b00a3a663c2ae4862cfa3d11f92015c0331e59
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -26,17 +26,17 @@ ms.locfileid: "50907722"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Microsoft 365 암호화 체인
 
-Microsoft 365는 다양한 인증서 공급자를 활용합니다. 다음에서는 고객이 Microsoft 365에 액세스할 때 발생할 수 있는 알려진 Microsoft 365 루트 인증서의 전체 목록을 설명합니다. 자체 인프라에 설치해야 할 수 있는 인증서에 대한 자세한 내용은 [Microsoft 365용 타사 SSL](../enterprise/plan-for-third-party-ssl-certificates.md)인증서 계획을 참조하세요. 다음 인증서 정보는 Microsoft 365의 모든 전 세계 및 국가 클라우드 인스턴스에 적용됩니다.
+Microsoft 365 다양한 인증서 공급자를 활용합니다. 다음에서는 고객에게 액세스할 때 Microsoft 365 수 있는 알려진 루트 인증서의 전체 목록을 Microsoft 365. 자체 인프라에 설치해야 할 수 있는 인증서에 대한 자세한 내용은 [Plan for third-party SSL certificates for Microsoft 365.](../enterprise/plan-for-third-party-ssl-certificates.md) 다음 인증서 정보는 모든 전 세계 및 국가 클라우드 인스턴스에 Microsoft 365.
 
 Last updated: **10/16/2020**
 
 >[!NOTE]
->DOD 및 **GCC High** 고객에게 적용되는 인증서 정보는 Microsoft 365 암호화 체인 [- DOD 및 GCC High를 참조하세요.](encryption-office-365-certificate-chains-itar.md)
+>**DOD** 및 높은 고객에게 적용되는 인증서 GCC 자세한 내용은 Microsoft 365 암호화 체인 - DOD 및 GCC [높음 을 참조하세요.](encryption-office-365-certificate-chains-itar.md)
 
 | **인증서 형식** | **P7b 다운로드** | **CRL 끝점** | **OCSP 끝점** | **AIA 끝점** |
 | --- | --- | --- | --- | --- |
 | 공개적으로 신뢰할 수 있는 루트 인증서 | [Microsoft 365 루트 인증서 번들(P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | 해당 없음 | 해당 없음 |
-| 공개적으로 신뢰할 수 있는 중간 인증서 | [Microsoft 365 중간 인증서 번들(P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
+| 공개적으로 신뢰할 수 있는 중간 인증서 | [Microsoft 365 P7B(중간 인증서 번들)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
 아래 루트 및 중간 섹션을 확장하여 인증서 공급자에 대한 추가 세부 정보를 확인하세요.
 

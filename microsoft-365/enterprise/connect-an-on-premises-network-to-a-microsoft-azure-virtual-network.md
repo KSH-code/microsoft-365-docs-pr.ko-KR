@@ -31,7 +31,7 @@ ms.locfileid: "50907711"
 
 프레미스 간 Azure Virtual Network가 온-프레미스 네트워크에 연결되어 Azure 인프라 서비스에서 호스트되는 서브넷 및 가상 시스템을 포함하도록 네트워크를 확장합니다. 이 연결을 통해 온-프레미스 네트워크의 컴퓨터는 Azure의 가상 시스템에 직접 액세스할 수 있으며 그 반대의 경우도 가능합니다. 
 
-예를 들어 Azure Virtual Machine에서 실행되는 디렉터리 동기화 서버는 계정 변경을 위해 사내 도메인 컨트롤러를 쿼리하고 이러한 변경 내용을 Microsoft 365 구독과 동기화해야 합니다. 이 문서에서는 Azure Virtual Machines를 호스트할 준비가 된 사이트 간 VPN(가상 사설망) 연결을 사용하여 프레미스 간 Azure Virtual Network를 설정하는 방법을 보여줍니다.
+예를 들어 Azure Virtual Machine에서 실행되는 디렉터리 동기화 서버는 계정 변경을 위해 사내 도메인 컨트롤러를 쿼리하고 이러한 변경 내용을 Microsoft 365 합니다. 이 문서에서는 Azure Virtual Machines를 호스트할 준비가 된 사이트 간 VPN(가상 사설망) 연결을 사용하여 프레미스 간 Azure Virtual Network를 설정하는 방법을 보여줍니다.
 
 ## <a name="configure-a-cross-premises-azure-virtual-network"></a>프레미스 간 Azure Virtual Network 구성
 
@@ -128,7 +128,7 @@ Azure Virtual Network의 개인 IP 주소 공간은 가상 네트워크를 호�
   
 |**필요한 가상 컴퓨터의 수**|**필요한 호스트 비트 수**|**서브넷 크기**|
 |:-----|:-----|:-----|
-|1-3  <br/> |3   <br/> |/29  <br/> |
+|1-3  <br/> |3  <br/> |/29  <br/> |
 |4-11  <br/> |4   <br/> |/28  <br/> |
 |12-27  <br/> |5   <br/> |/27  <br/> |
 |28-59  <br/> |6   <br/> |/26  <br/> |
@@ -336,4 +336,4 @@ Azure에서 필요한 가상 머신을 만듭니다. 자세한 내용은 [Azure 
   
 ## <a name="next-step"></a>다음 단계
   
-[Microsoft Azure에서 Microsoft 365 디렉터리 동기화 배포](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+[Microsoft 365 디렉터리 동기화 배포 Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)

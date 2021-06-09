@@ -1,5 +1,5 @@
 ---
-title: 사용자가 Microsoft 365 Business Premium에 연결할 수 있도록 지원
+title: 사용자가 조직에 연결할 수 있도록 Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -35,14 +35,14 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578450"
 ---
-# <a name="help-users-connect-to-microsoft-365-business-premium"></a>사용자가 Microsoft 365 Business Premium에 연결할 수 있도록 지원
+# <a name="help-users-connect-to-microsoft-365-business-premium"></a>사용자가 조직에 연결할 수 있도록 Microsoft 365 Business Premium
 
-설치를 완료하면 기본 장치 정책이 준비되어 적용할 수 있습니다. 모바일 장치에서 사용자는 Office 앱을 다운로드합니다. 그런 다음 사용자가 직장 또는 학교 계정으로 로그인하면 정책이 적용됩니다. Windows PC에 정책을 적용하려면 현재 위치 업그레이드와 같은 몇 가지 작업을 추가로 수행해야 합니다. 사용자가 설정하고 연결할 수 있도록 다음 항목을 참조하고 공유하세요.
+설치를 완료하면 기본 장치 정책이 준비되어 적용할 수 있습니다. 모바일 장치에서 사용자는 앱을 Office 다운로드합니다. 그런 다음 사용자가 직장 또는 학교 계정으로 로그인하면 정책이 적용됩니다. Windows PC에 정책을 적용하려면 현재 위치 업그레이드와 같은 몇 가지 작업을 추가로 수행해야 합니다. 사용자가 설정하고 연결할 수 있도록 다음 항목을 참조하고 공유하세요.
   
-[Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정](set-up-windows-devices.md)
+[사용자용 Windows 장치 Microsoft 365 Business Premium 설정](set-up-windows-devices.md)
   
 [단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가](add-autopilot-devices-and-profile.md)
   
-[Microsoft 365 Business Premium 사용자를 위한 모바일 장치 설정](set-up-mobile-devices.md)
+[사용자용 모바일 Microsoft 365 Business Premium 설정](set-up-mobile-devices.md)
   
 

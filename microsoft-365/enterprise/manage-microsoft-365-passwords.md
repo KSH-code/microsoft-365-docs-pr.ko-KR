@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 사용자 계정 암호 관리
+title: 사용자 Microsoft 365 암호 관리
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Microsoft 365 사용자 계정 암호를 관리하는 방법에 대해 자세히 알아보습니다.
+description: 사용자 계정 암호를 관리하는 Microsoft 365 대해 자세히 알아보아야 합니다.
 ms.openlocfilehash: 2062da49310121ec18f7ce21f523531f10d6df9b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,15 +29,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905095"
 ---
-# <a name="manage-microsoft-365-user-account-passwords"></a>Microsoft 365 사용자 계정 암호 관리
+# <a name="manage-microsoft-365-user-account-passwords"></a>사용자 Microsoft 365 암호 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-ID 구성에 따라 여러 가지 방법으로 Microsoft 365 사용자 계정 암호를 관리할 수 있습니다. [Microsoft 365](../admin/add-users/index.yml)관리 센터, AD DS(Active Directory 도메인 서비스) 또는 Azure AD(Azure Active Directory) 관리 센터에서 사용자 계정을 관리할 수 있습니다.
+ID 구성에 Microsoft 365 여러 가지 방법으로 사용자 계정 암호를 관리할 수 있습니다. ad DS(Active Directory [도메인 서비스)](../admin/add-users/index.yml)Microsoft 365 또는 Azure AD(Active Directory 도메인 서비스) 관리 센터에서 사용자 계정을 Azure Active Directory 수 있습니다.
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-user-account-passwords"></a>사용자 계정 암호를 관리하는 위치 및 방법 계획
 
-사용자 계정을 관리하는 위치와 방법은 Microsoft 365에 사용하려는 ID 모델에 따라 다릅니다. 두 모델은 클라우드 전용 및 하이브리드입니다.
+사용자 계정을 관리하는 위치 및 방법은 사용자 계정의 ID 모델에 따라 Microsoft 365. 두 모델은 클라우드 전용 및 하이브리드입니다.
   
 ### <a name="cloud-only"></a>클라우드 전용
 

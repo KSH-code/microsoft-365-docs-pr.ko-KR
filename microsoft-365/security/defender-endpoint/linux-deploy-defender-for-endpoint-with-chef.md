@@ -37,7 +37,7 @@ ms.locfileid: "51903931"
 
 `mkdir mdatp/files`
 
-Microsoft Defender 보안 센터 포털에서 다운로드할 수 있는 Linux Server 온보딩 zip 파일을 이 새 파일 폴더로 전송합니다.
+이 새 파일 폴더로 Microsoft Defender 보안 센터 다운로드할 수 있는 Linux Server 온보더링 zip 파일을 전송합니다.
 
 이동식 Workstation에서 mdatp/recipes 폴더로 이동합니다. 이 폴더는 작성된 문서가 생성될 때 만들어집니다. 기본 설정 텍스트 편집기(예: vi 또는 nano)를 사용하여 default.rb 파일의 끝에 다음 지침을 추가합니다.
 -   include_recipe '::onboard_mdatp'
@@ -127,7 +127,7 @@ end
 이 단계를 조리법의 일부로 포함하기 위해 조리법 폴더 내의 default.include_recipe settings_mdatp ':: settings_mdatp'를 추가합니다.
 크로ntab를 사용하여 자동 업데이트를 예약할 수도 있습니다. [끝점용 Microsoft Defender 업데이트 예약(Linux)](linux-update-MDE-Linux.md).
 
-MDATP 가이드 제거:
+다음 MDATP 제거합니다.
 
 ```powershell
 #Uninstall the Defender package

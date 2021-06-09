@@ -52,7 +52,7 @@ ms.locfileid: "52634271"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>단계: 사용자가 암호를 직접 재설정할 수 있도록 합니다.
 
@@ -75,5 +75,5 @@ ms.locfileid: "52634271"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [조직의 암호 만료 정책](../manage/set-password-expiration-policy.md) 설정(문서)\
-[개별 사용자의 암호가](set-password-to-never-expire.md) 만료되지 않는 것으로 설정(문서)\
+[개별 사용자의 암호를 만료 기한 없음으로 설정](set-password-to-never-expire.md)(문서)\
 [Microsoft 365 Business 비디오(링크](../../business-video/index.yml) 페이지)

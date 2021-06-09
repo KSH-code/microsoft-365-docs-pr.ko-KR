@@ -1,5 +1,5 @@
 ---
-title: Docs 및 교육 찾기
+title: 설명서 및 교육 찾기
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -28,7 +28,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52245231"
 ---
-# <a name="find-docs-and-training"></a>Docs 및 교육 찾기
+# <a name="find-docs-and-training"></a>설명서 및 교육 찾기
 
 질문이 있는 경우 또는 지원이 필요한 Microsoft 365 Business Premium 도움말을 받을 수 있는 몇 가지 옵션이 있습니다.
 

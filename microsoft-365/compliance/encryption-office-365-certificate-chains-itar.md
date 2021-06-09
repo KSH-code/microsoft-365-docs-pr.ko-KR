@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 암호화 체인 - DOD 및 GCC High
+title: Microsoft 365 암호화 체인 - DOD 및 GCC 높음
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -16,7 +16,7 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Microsoft 365의 DOD 및 GCC High 루트 인증서 및 CAS(인증 기관)의 전체 목록을 볼 수 있습니다.
+description: DOD 및 인증 기관의 GCC 높은 루트 인증서 및 인증 기관(CAS)의 전체 목록을 Microsoft 365.
 ms.openlocfilehash: 016c7d6b4c5557b7930763c2628525cc3c2c409f
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,16 +24,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50927808"
 ---
-# <a name="microsoft-365-encryption-chains---dod-and-gcc-high"></a>Microsoft 365 암호화 체인 - DOD 및 GCC High
+# <a name="microsoft-365-encryption-chains---dod-and-gcc-high"></a>Microsoft 365 암호화 체인 - DOD 및 GCC 높음
 
-Microsoft 365는 다양한 인증서 공급자를 활용합니다. 다음에서는 DOD 및 **GCC High** 고객이 Microsoft 365에 액세스할 때 발생할 수 있는 알려진 Microsoft 365 루트 인증서의 전체 목록을 설명합니다. 자체 인프라에 설치해야 할 수 있는 인증서에 대한 자세한 내용은 [Microsoft 365용 타사 SSL](../enterprise/plan-for-third-party-ssl-certificates.md)인증서 계획을 참조하세요.
+Microsoft 365 다양한 인증서 공급자를 활용합니다. 다음에서는 **DOD** 및 Microsoft 365 액세스 시 발생할 수 있는 알려진 GCC 루트 인증서의 전체 목록을 Microsoft 365. 자체 인프라에 설치해야 할 수 있는 인증서에 대한 자세한 내용은 [Plan for third-party SSL certificates for Microsoft 365.](../enterprise/plan-for-third-party-ssl-certificates.md)
 
-다음 인증서 정보는 모든 DOD 및 **GCC High** 고객에게 적용됩니다.
+다음 인증서 정보는 모든 DOD 및 높은 GCC **적용됩니다.**
 
 Last updated: **10/16/2020**
 
 >[!NOTE]
->전 세계 고객에게 적용되는 인증서 정보는 [Microsoft 365 암호화 체인을 참조하세요.](encryption-office-365-certificate-chains.md)
+>전 세계 고객에게 적용되는 인증서 정보는 암호화 Microsoft 365 [참조하세요.](encryption-office-365-certificate-chains.md)
 
 | **인증서 형식** | **P7b 다운로드** | **CRL 끝점** | **OCSP 끝점** |
 | --- | --- | --- | --- | --- |
@@ -146,7 +146,7 @@ Last updated: **10/16/2020**
 | **서명 알고리즘** | sha256RSA |
 | **이전과 다른 유효성** | 2013년 10월 22일 00:00:00 UTC |
 | **유효 기간 이후 아지 않는 경우** | 2028년 10월 22일 00:00:00 UTC |
-| **주체 키 식별자** | 3D:D3:50:A5:D6:A0:AD:EE:F3:4A:60:0A:65:D3:21:D4:F8:D6:0F |
+| **주체 키 식별자** | 3D:D3:50:A5:D6:A0:AD:EE:F3:4A:60:0A:65:D3:21:D4:F8:F8:D6:0F |
 | **기관 키 식별자** | keyID:b1:3e:c3:69:03:f8:bf:47:01:d4:98:26:1a:08:02:ef:63:64:2b:c3 |
 | **지문(SHA-1)** | 7E2F3A4F8FE8FA8A5730AECA029696637E986F3F |
 | **지문(SHA-256)** | 403E062A2653059113285BAF80A0D4AE422C848C9F78FAD01FC94BC5B87FEF1A |

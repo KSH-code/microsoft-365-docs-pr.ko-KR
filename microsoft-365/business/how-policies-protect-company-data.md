@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Microsoft 365의 정책이 회사 데이터를 보호하는 방법
+title: 비즈니스용 Microsoft 365 정책이 회사 데이터를 보호하는 방법
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -34,18 +34,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578430"
 ---
-# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>비즈니스용 Microsoft 365의 정책이 회사 데이터를 보호하는 방법
+# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>비즈니스용 Microsoft 365 정책이 회사 데이터를 보호하는 방법
 
-이 문서는 Microsoft 365 Business Premium에 적용됩니다.
+이 문서는 이 문서에 Microsoft 365 Business Premium.
 
 관리자가 생성하는 정책은 장치 유형에 따라 달라지며, 특정 사용자 그룹에 적용할 수 있습니다. 즉, 임원진에게만 적용되는 하나의 정책과 그 밖의 모든 사용자에게 적용되는 또 다른 정책을 만들 수 있습니다.
   
-Android 및 iOS 장치의 경우 Office 앱에서 사용하는 Office 앱 및 작업 파일을 보호하는 응용 프로그램 정책을 추가하거나 편집할 수 있습니다. Windows 10 디바이스를 약간 더 제어할 수 있으므로 응용 프로그램 정책에 네트워크 및 클라우드 위치에 대한 암호화 및 보호와 같은 더 많은 설정이 포함할 수 있습니다. 바이러스 보호 및 자동 업데이트와 같은 설정을 적용하는 Windows 10 장치에 대한 장치 정책을 만들 수 있습니다. 설치 중에 만든 정책을 준수하는 것이 되지만 정책을 미세 조정하거나 추가하려면 다음 문서를 참조합니다.
+Android 및 iOS 장치의 경우 Office 앱 및 작업 파일을 보호하는 응용 프로그램 정책을 추가하거나 편집할 Office 있습니다. We're able to control Windows 10 devices a bit more, so application policies can include more settings, like encryption and protection for network and cloud locations. 바이러스 보호 및 자동 업데이트와 같은 설정을 적용하는 Windows 10 장치에 대한 장치 정책을 만들 수 있습니다. 설치 중에 만든 정책을 준수하는 것이 되지만 정책을 미세 조정하거나 추가하려면 다음 문서를 참조합니다.
   
 [Android 또는 iOS 장치용 앱 구성 설정](app-protection-settings-for-android-and-ios.md)
   
 [Windows 10 PC용 장치 구성 설정](protection-settings-for-windows-10-pcs.md)
   
-[Windows 10 장치에 대한 앱 보호 설정 설정](protection-settings-for-windows-10-devices.md)
+[장치용 앱 보호 Windows 10 설정](protection-settings-for-windows-10-devices.md)
   
 

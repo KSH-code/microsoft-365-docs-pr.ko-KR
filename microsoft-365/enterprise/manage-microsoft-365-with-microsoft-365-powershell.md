@@ -18,7 +18,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 932d57c0-1520-4f0f-8ec9-9966d646480f
-description: PowerShell을 사용하여 Microsoft 365 사용자, 라이선스 및 365 앱을 관리하는 방법을 학습합니다.
+description: PowerShell을 사용하여 Microsoft 365, 라이선스 및 365 앱을 관리하는 방법을 학습합니다.
 ms.openlocfilehash: dee8fbce03e38a954ddea5a8ec86248f9209d96c
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -30,13 +30,13 @@ ms.locfileid: "50905107"
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365용 PowerShell은 Microsoft 365 관리 센터를 보완하는 강력한 관리 도구입니다. 예를 들어 PowerShell 자동화를 사용하여 여러 사용자 계정 및 라이선스를 쉽게 관리하고 보고서를 만들 수 있습니다.
+Microsoft 365 PowerShell은 Microsoft 365 관리 센터를 보완하는 강력한 관리 도구입니다. 예를 들어 PowerShell 자동화를 사용하여 여러 사용자 계정 및 라이선스를 쉽게 관리하고 보고서를 만들 수 있습니다.
 
-다음 항목에서 PowerShell을 사용하여 Microsoft 365를 관리하는 방법을 알아보는 방법을 선택합니다.
+다음 항목에서 PowerShell을 사용하여 PowerShell을 관리하는 방법을 Microsoft 365.
   
 - [**시작하기**](getting-started-with-microsoft-365-powershell.md)
 
-    Microsoft 365용 PowerShell에 익숙하지 않은 경우 Microsoft 365 모듈을 설치하고 구독에 연결하려면 여기에서 시작하세요.
+    Microsoft 365 PowerShell에 익숙하지 않은 경우 여기에서 시작하고 Microsoft 365 모듈을 설치하고 구독에 연결합니다.
 
 - [**사용자 계정, 라이선스 및 그룹**](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
 
@@ -44,11 +44,11 @@ Microsoft 365용 PowerShell은 Microsoft 365 관리 센터를 보완하는 강�
 
 - [**SharePoint**](manage-sharepoint-online-with-microsoft-365-powershell.md)
 
-    자동화 명령을 사용하여 SharePoint를 관리하려는 경우 여기에서 시작하세요.
+    자동화 명령을 사용하여 자동화 기능을 관리하려는 경우 여기에서 SharePoint.
 
 - [**Exchange Online**](/powershell/exchange/exchange-online-powershell)
 
-    Exchange Online을 관리하려는 경우 여기에서 시작하세요.
+    사용자 계정 관리에 필요한 경우 여기에서 Exchange Online.
 
 - [**전자 메일 마이그레이션**](use-powershell-for-email-migration-to-microsoft-365.md)
 
@@ -60,8 +60,8 @@ Microsoft 365용 PowerShell은 Microsoft 365 관리 센터를 보완하는 강�
 
 - [**DAP(위임된 액세스 권한) 파트너**](manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-dap-p.md)
 
-    Syndication 및 CSP(클라우드 솔루션 공급자) 파트너를 사용하여 Microsoft 365 고객 테넌트를 관리하려는 경우 여기에서 시작하세요.
+    Syndication 및 CSP(클라우드 솔루션 공급자) 파트너를 사용하여 고객 테넌트의 Microsoft 365 시작하세요.
 
-- [**비즈니스용 Skype Online**](manage-skype-for-business-online-with-microsoft-365-powershell.md)
+- [**비즈니스용 Skype 온라인**](manage-skype-for-business-online-with-microsoft-365-powershell.md)
 
-    비즈니스용 Skype Online을 관리하기 위해 여기에서 시작하세요.
+    여기에서 시작하여 온라인 비즈니스용 Skype 관리합니다.

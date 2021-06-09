@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 사용하여 Microsoft 365 사용자 계정 만들기
+title: PowerShell을 Microsoft 365 사용자 계정 만들기
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,7 +18,7 @@ ms.custom:
 - O365ITProTrain
 - seo-marvel-apr2020
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
-description: PowerShell을 사용하여 개인 또는 여러 Microsoft 365 사용자 계정을 만드는 방법
+description: PowerShell을 사용하여 사용자 계정을 개별적으로 또는 여러 개 Microsoft 365 방법
 ms.openlocfilehash: c3676acdec3bbba328809ee1528206bbc44f94f1
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -26,33 +26,33 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50907567"
 ---
-# <a name="create-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 사용하여 Microsoft 365 사용자 계정 만들기
+# <a name="create-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 만들기
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365용 PowerShell을 사용하여 여러 계정을 포함하여 사용자 계정을 효율적으로 만들 수 있습니다.
+PowerShell을 사용하여 여러 계정을 Microsoft 365 효율적으로 사용자 계정을 만들 수 있습니다.
 
 PowerShell에서 사용자 계정을 만들 때 특정 계정 속성은 항상 필요합니다. 다른 속성은 필수는 아니며 중요합니다. 다음 표를 참고하십시오.
   
 |**속성 이름**|**필수 여부**|**설명**|
 |:-----|:-----|:-----|
-|**DisplayName** <br/> |예  <br/> |Microsoft 365 서비스에서 사용되는 표시 이름입니다. 예를 들어 *Caleb Sills와 같습니다.* <br/> |
-|**UserPrincipalName** <br/> |예  <br/> |Microsoft 365 서비스에 로그인하는 데 사용되는 계정 이름입니다. 예를 들어 *CalebS는 \@ contoso.onmicrosoft.com.*  <br/> |
+|**DisplayName** <br/> |예  <br/> |이 이름은 Microsoft 365 서비스에서 사용되는 표시 이름입니다. 예를 들어 *Caleb Sills와 같습니다.* <br/> |
+|**UserPrincipalName** <br/> |예  <br/> |이 이름은 Microsoft 365 서비스에 로그인하는 데 사용되는 계정 이름입니다. 예를 들어 *CalebS는 \@ contoso.onmicrosoft.com.*  <br/> |
 |**FirstName** <br/> |아니요  <br/> ||
 |**LastName** <br/> |아니요  <br/> ||
-|**LicenseAssignment** <br/> |아니요  <br/> |사용 가능한 라이선스가 사용자 계정에 할당되는 라이선스 계획(라이선스 계획 또는 SKU라고도 알려지기)입니다. 라이선스는 계정에서 사용할 수 있는 Microsoft 365 서비스를 정의합니다. 계정을 만들 때 사용자에게 라이선스를 할당하지는 않지만 계정에 Microsoft 365 서비스에 액세스하려면 라이선스가 있어야 합니다. 사용자 계정을 만든 후 30일 동안 라이선스를 부여해야 합니다. |
+|**LicenseAssignment** <br/> |아니요  <br/> |사용 가능한 라이선스가 사용자 계정에 할당되는 라이선스 계획(라이선스 계획 또는 SKU라고도 알려지기)입니다. 라이선스는 Microsoft 365 사용할 수 있는 서비스를 정의합니다. 계정을 만들 때 사용자에게 라이선스를 할당할 수 없지만 계정에는 Microsoft 365 액세스하는 라이선스가 있어야 합니다. 사용자 계정을 만든 후 30일 동안 라이선스를 부여해야 합니다. |
 |**Password** <br/> |아니요  <br/> | 암호를 지정 하지 않으면 사용자 계정에 임의의 암호를 할당 하 고 암호는 명령의 결과에 표시 됩니다. 암호를 지정하는 경우 소문자, 대문자, 숫자 및 기호 형식의 8~16개 ASCII 텍스트 문자를 지정해야 합니다.<br/> |
-|**UsageLocation** <br/> |아니요  <br/> |유효한 ISO 3166-1 alpha-2 국가 코드입니다. 예를 들어 *미국은 미국,* *프랑스의 경우 FR입니다.* 일부 Microsoft 365 서비스는 특정 국가에서 사용할 수 없는 경우도 있기 때문에 이 값을 제공하는 것이 중요합니다. 계정이 이 값을 구성하지 않으면 사용자 계정에 라이선스를 할당할 수 없습니다. 자세한 내용은 라이선스 제한 [정보를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=691730)<br/> |
+|**UsageLocation** <br/> |아니요  <br/> |유효한 ISO 3166-1 alpha-2 국가 코드입니다. 예를 들어 *미국은 미국,* *프랑스의 경우 FR입니다.* 일부 Microsoft 365 서비스를 특정 국가에서 사용할 수 없는 경우에는 이 값을 제공하는 것이 중요합니다. 계정이 이 값을 구성하지 않으면 사용자 계정에 라이선스를 할당할 수 없습니다. 자세한 내용은 라이선스 제한 [정보를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=691730)<br/> |
 
 >[!Note]
->[](../admin/add-users/add-users.md) Microsoft 365 관리 센터를 사용하여 사용자 계정을 만드는 방법을 학습합니다.
+>[사이트 관리 센터를 사용하여](../admin/add-users/add-users.md) 사용자 계정을 만드는 Microsoft 365 방법을 학습합니다.
 > 
 > 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
 >   
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 연결한 후 다음 구문을 사용하여 개별 계정을 만들 수 있습니다.
   
@@ -72,7 +72,7 @@ New-AzureADUser -DisplayName "Caleb Sills" -GivenName "Caleb" -SurName "Sills" -
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="create-an-individual-user-account"></a>개별 사용자 계정 만들기
 
@@ -83,7 +83,7 @@ New-MsolUser -DisplayName <display name> -FirstName <first name> -LastName <last
 ```
 
 >[!Note]
->PowerShell Core는 이름에 *Msol이* 있는 cmdlet 및 Windows PowerShell Microsoft Azure Active Directory 모듈을 지원하지 않습니다. Windows PowerShell에서 이러한 cmdlet을 실행합니다.
+>PowerShell Core는 이름에 *Msol이* Microsoft Azure Active Directory cmdlet을 Windows PowerShell 모듈용 Windows PowerShell 모듈을 지원하지 않습니다. Windows PowerShell에서 이러한 cmdlet을 실행합니다.
 >
 
 사용 가능한 라이선스 계획 이름을 열거하려면 이 명령을  사용합니다:
@@ -92,7 +92,7 @@ New-MsolUser -DisplayName <display name> -FirstName <first name> -LastName <last
 Get-MsolAccountSku
 ````
 
-이 예에서는 미국 사용자 *Caleb Sills에* 대한 계정을 만들고 `contoso:ENTERPRISEPACK` (Office 365 Enterprise E3) 라이선스 계획에서 라이선스를 할당합니다.
+이 예에서는 미국 사용자 *Caleb Sills에* 대한 계정을 만들고 (Office 365 Enterprise E3) 라이선스 계획에서 라이선스를 `contoso:ENTERPRISEPACK` 할당합니다.
   
 ```powershell
 New-MsolUser -DisplayName "Caleb Sills" -FirstName Caleb -LastName Sills -UserPrincipalName calebs@contoso.onmicrosoft.com -UsageLocation US -LicenseAssignment contoso:ENTERPRISEPACK
@@ -110,7 +110,7 @@ New-MsolUser -DisplayName "Caleb Sills" -FirstName Caleb -LastName Sills -UserPr
      ```
 
    >[!NOTE]
-   >CSV 파일의 첫 번째 행에서 열 이름과 순서는 임의로 표시됩니다. 그러나 파일의 나머지에 있는 데이터의 순서가 열 이름의 순서와 일치하는지 확인하십시오. 또한 Microsoft 365용 PowerShell 명령에서 매개 변수 값에 열 이름을 사용합니다.
+   >CSV 파일의 첫 번째 행에서 열 이름과 순서는 임의로 표시됩니다. 그러나 파일의 나머지에 있는 데이터의 순서가 열 이름의 순서와 일치하는지 확인하십시오. PowerShell에서 매개 변수 값에 대한 열 이름을 Microsoft 365 있습니다.
     
 2. 다음 구문을 사용합니다.
     
@@ -124,7 +124,7 @@ New-MsolUser -DisplayName "Caleb Sills" -FirstName Caleb -LastName Sills -UserPr
     Import-Csv -Path "C:\My Documents\NewAccounts.csv" | foreach {New-MsolUser -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -UserPrincipalName $_.UserPrincipalName -UsageLocation $_.UsageLocation -LicenseAssignment $_.AccountSkuId} | Export-Csv -Path "C:\My Documents\NewAccountResults.csv"
     ```
 
-3. 결과 볼 수 있는 출력 파일을 검토 합니다. 암호를 지정하지 않았기 때문에 Microsoft 365에서 생성한 임의 암호가 출력 파일에 표시됩니다.
+3. 결과 볼 수 있는 출력 파일을 검토 합니다. 암호를 지정하지 않았기 때문에 생성된 임의 암호가 Microsoft 365 파일에 표시됩니다.
     
 ## <a name="see-also"></a>참고 항목
 

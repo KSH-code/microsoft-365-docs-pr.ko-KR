@@ -17,7 +17,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
-description: 엔터프라이즈 조직 네트워크 아키텍처에서 작동할 수 있도록 Office 365 끝점을 관리하는 방법을 알아보세요.
+description: 엔터프라이즈 조직 네트워크 Office 365 작동할 수 있도록 끝점을 관리하는 방법을 배워야 합니다.
 ms.openlocfilehash: ea89c263b1d2c89ff49ec7263269afc6030292e8
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,17 +27,17 @@ ms.locfileid: "50905119"
 ---
 # <a name="managing-office-365-endpoints"></a>Office 365 끝점 관리
 
-여러개의 사무실이 있는 대부분의 회사 조직에서 WAN에 연결하기 위해 Office 365 네트워크 연결을 구성해야 합니다. 방화벽을 통해 직접 모든 신뢰할 수 있는 Office 365 네트워크 요청을 보내 모든 추가 패킷 수준 검사 또는 처리를 건너뜀으로써 네트워크를 최적화할 수 있습니다. 이렇게 하면 대기 시간 및 경계 용량 요구 사항이 줄어듭니다. 사용자에게 최적의 성능을 제공할 수 있는 첫 번째 단계는 Office 365 네트워크 트래픽을 식별하는 것입니다. 자세한 내용은 [Office 365 네트워크 연결 원칙을 참조하세요.](microsoft-365-network-connectivity-principles.md)
+여러개의 사무실이 있는 대부분의 회사 조직에서 WAN에 연결하기 위해 Office 365 네트워크 연결을 구성해야 합니다. 방화벽을 통해 직접 모든 신뢰할 수 있는 Office 365 네트워크 요청을 보내 모든 추가 패킷 수준 검사 또는 처리를 건너뜀으로써 네트워크를 최적화할 수 있습니다. 이렇게 하면 대기 시간 및 경계 용량 요구 사항이 줄어듭니다. 사용자에게 최적의 성능을 제공할 수 있는 첫 번째 단계는 Office 365 네트워크 트래픽을 식별하는 것입니다. 자세한 내용은 네트워크 [연결 Office 365 을 참조하세요.](microsoft-365-network-connectivity-principles.md)
 
-Office 365 IP 주소 및 URL 웹 서비스를 사용하여 [Office 365](microsoft-365-ip-web-service.md)네트워크 끝점에 액세스하고 해당 끝점에 지속적인 변경 내용을 적용하는 것이 좋습니다.
+OFFICE 365 IP 주소 및 URL 웹 서비스를 사용하여 Office 365 네트워크 끝점에 액세스하는 [것이 좋습니다.](microsoft-365-ip-web-service.md)
 
 중요 Office 365 네트워크 트래픽을 관리하는 방법과 관계없이 Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 연결이 필요한 다른 네트워크 끝점은 [Office 365 IP 주소 및 URL 웹 서비스에 포함되지 않은 추가 끝점](additional-office365-ip-addresses-and-urls.md)에 나열되어 있습니다.
 
 Office 365 네트워크 끝점을 사용하는 방법은 엔터프라이즈 조직 네트워크 아키텍처에 따라 다릅니다. 이 문서에서는 엔터프라이즈 네트워크 아키텍처를 Office 365 IP 주소 및 URL과 통합할 수있는 몇 가지 방법에 대해 설명합니다. 신뢰할 네트워크 요청을 선택하는 가장 쉬운 방법은 각 사무실 위치에서 자동화된 Office 365 구성을 지원하는 SD-WAN 장치를 사용하는 것입니다.
 
-## <a name="sd-wan-for-local-branch-egress-of-vital-office-365-network-traffic"></a>중요한 Office 365 네트워크 트래픽의 로컬 분기를 위한 SD-WAN
+## <a name="sd-wan-for-local-branch-egress-of-vital-office-365-network-traffic"></a>중요 네트워크 트래픽의 로컬 분기 Office 365 SD-WAN
 
-각 지점 위치에서 끝점의 Office 365 최적화 범주 또는 최적화 및 허용 범주에 대한 트래픽을 Microsoft 네트워크에 직접 라우팅하도록 구성된 SD-WAN 장치를 제공할 수 있습니다. 온-프레미스 데이터 센터 트래픽, 일반 인터넷 웹 사이트 트래픽 및 Office 365 기본 범주 끝점 트래픽을 포함한 기타 네트워크 트래픽은 보다 상당한 네트워크 경계가 있는 다른 위치로 전송됩니다.
+각 지점 위치에서 끝점의 최적화 범주 또는 최적화 및 허용 범주에 대한 트래픽을 Microsoft 네트워크로 직접 라우팅하도록 Office 365 SD-WAN 장치를 제공할 수 있습니다. 온-프레미스 데이터 센터 트래픽, 일반 인터넷 웹 사이트 트래픽 및 Office 365 기본 범주 끝점 트래픽을 포함한 기타 네트워크 트래픽은 보다 상당한 네트워크 경계가 있는 다른 위치로 전송됩니다.
 
 Microsoft는 자동화된 구성을 사용하도록 SD-WAN 공급자와 협력하고 있습니다. 자세한 내용은 [Office 365 네트워킹 파트너 프로그램](microsoft-365-networking-partner-program.md)을 참조하세요.
 
@@ -76,7 +76,7 @@ Get-PacFile -ClientRequestId b10c5ed1-bad1-445f-b386-b919946339a7
 | 매개 변수 | 설명 |
 |:-----|:-----|
 |**ClientRequestId** <br/> |이는 필수 요소이며 호출하는 클라이언트 시스템을 나타내는 웹 서비스에 전달되는 GUID입니다. <br/> |
-|**Instance** <br/> |기본적으로 전 세계 Office 365 서비스 인스턴스입니다. 이는 웹 서비스로도 전달됩니다. <br/> |
+|**Instance** <br/> |기본 Office 365 서비스 인스턴스입니다. 이는 웹 서비스로도 전달됩니다. <br/> |
 |**TenantName** <br/> |Office 365 테넌트 이름 웹 서비스에 전달되어 일부 Office 365 URL에서 바꿀 수 있는 매개 변수로 사용됩니다. <br/> |
 |**Type** <br/> |생성할 프록시 PAC 파일의 형식입니다. <br/> |
 
@@ -120,7 +120,7 @@ Microsoft Flow 샘플 및 서식 파일에 대한 자세한 내용은 [Microsoft
 <a name="FAQ"> </a>
 ## <a name="office-365-network-endpoints-faq"></a>Office 365 네트워크 끝점 FAQ
 
-Office 365 네트워크 연결에 대한 질문과 대답을 참조하세요.
+네트워크 연결에 대한 질문과 Office 365 참조하세요.
   
 ### <a name="how-do-i-submit-a-question"></a>질문을 제출하려면 어떻게 하나요?
 
@@ -146,7 +146,7 @@ Microsoft는 사용자가 직접 라우팅해야 하는 Office 365 서버의 IP 
 1. [IPv4](https://www.ipaddressguide.com/cidr) 혹은 [IPv6](https://www.ipaddressguide.com/ipv6-cidr) 같은 CIDR 계산기를 사용하여 IP 주소가 더 큰 게시된 범위에 포함되는지 확인합니다. 예를 들어 40.96.0.0/13에는 40.96이 40.103과 일치하지 않더라도 40.103.0.1 IP 주소를 포함합니다.
 2. [whois 쿼리](https://dnsquery.org/)를 사용하여 파트너가 IP를 소유하는지 확인합니다. Microsoft가 해당 IP를 소유한 경우 내부 파트너일 수 있습니다. 많은 파트너 네트워크 끝점은 IP 주소가 게시 되지 않은 _기본_ 범주에 속하는 것으로 표시 됩니다.
 3. IP 주소는 Office 365 또는 종속성에 속하지 않을 수 있습니다. Office 365 네트워크 끝점 게시에 모든 Microsoft 네트워크 끝점이 포함되지는 않습니다.
-4. 인증서를 검사합니다. 브라우저를 사용하여 *\<IP_ADDRESS\>* ip 주소에 HTTPS:// 인증서에 나열된 도메인을 확인하여 IP 주소와 연결된 도메인을 파악합니다. Office 365 IP 주소 목록에 없는 Microsoft 소유의 IP 주소인 경우 IP 주소가 게시된 IP 정보가 없는 MSOCDN.NET  또는 다른 Microsoft 도메인과 같은 Microsoft CDN과 연결될 수 있습니다. 인증서의 도메인이 Microsoft가 IP 주소를 나열하려고 요구하는 도메인인 경우 알려주세요.
+4. 인증서를 검사합니다. 브라우저를 사용하여 *\<IP_ADDRESS\>* ip 주소에 HTTPS:// 인증서에 나열된 도메인을 확인하여 IP 주소와 연결된 도메인을 파악합니다. Microsoft 소유의 IP 주소가 아닌 Office 365 IP 주소인 경우 IP 주소가 게시된 IP 정보가 없는 CDN 또는 다른 Microsoft  도메인과 MSOCDN.NET Microsoft 도메인과 연결될 수 있습니다. 인증서의 도메인이 Microsoft가 IP 주소를 나열하려고 요구하는 도메인인 경우 알려주세요.
 
 <a name="bkmk_cname"> </a>
 ### <a name="some-office-365-urls-point-to-cname-records-instead-of-a-records-in-the-dns-what-do-i-have-to-do-with-the-cname-records"></a>일부 Office 365 URL은 DNS의 A 레코드 대신 CNAME 레코드를 가리킵니다. CNAME 레코드로 무엇을 해야 하나요?
@@ -159,14 +159,14 @@ serviceA.office.com -> CNAME: serviceA.domainA.com -> CNAME: serviceA.domainB.co
 
 이러한 CNAME 리디렉션은 DNS의 일반적인 부분이며 클라이언트 컴퓨터에 투명하며 프록시 서버에 투명합니다. 부하 분산, 콘텐츠 배달 네트워크, 고가용성 및 서비스 문제 완화에 사용됩니다. Microsoft는 중간 CNAME 레코드를 게시하지 않으며 언제든지 변경될 수 있으며 프록시 서버에서 허용하는 대로 구성할 필요가 없습니다.
 
-프록시 서버는 위의 예에서 기본 URL인 초기 URL의 유효성을 serviceA.office.com 이 URL은 Office 365 게시에 포함됩니다. 프록시 서버는 해당 URL의 DNS 확인을 IP 주소로 요청하고 IP_1을 다시 수신합니다. 중간 CNAME 리디렉션 레코드에 대한 유효성 검사를 수행하지 않습니다.
+프록시 서버는 위의 예에서 serviceA.office.com 초기 URL의 유효성을 검사하며 이 URL은 Office 365 게시에 포함됩니다. 프록시 서버는 해당 URL의 DNS 확인을 IP 주소로 요청하고 IP_1을 다시 수신합니다. 중간 CNAME 리디렉션 레코드에 대한 유효성 검사를 수행하지 않습니다.
 
-간접 Office 365 FQDNS에 기반한 하드 코딩된 구성 또는 화이트리스트는 권장되지 않는 것이 아니며 Microsoft에서 지원하지 않는 것이 며 고객 연결 문제를 일으키는 것으로 알려져 있습니다. CNAME 리디렉션을 차단하거나 Office 365 DNS 항목을 잘못 해결하는 DNS 솔루션은 DNS 재발을 사용하는 DNS 전달자 또는 DNS 루트 힌트를 사용하여 해결할 수 있습니다. 대부분의 타사 네트워크 경계 제품은 기본적으로 [Office 365 IP](microsoft-365-ip-web-service.md)주소 및 URL 웹 서비스를 사용하여 구성에 권장되는 Office 365 끝점 화이트리스트를 통합합니다.
+간접 기반의 하드 코딩된 구성 또는 Office 365 FQDNS는 권장하지 않는 것이 며 Microsoft에서 지원하지 않는 것이 며 고객 연결 문제를 일으키는 것으로 알려져 있습니다. CNAME 리디렉션을 차단하거나 그렇지 않으면 DNS Office 365 문제를 해결하는 DNS 솔루션은 DNS 재발을 사용하는 DNS 전달자 또는 DNS 루트 힌트를 사용하여 해결할 수 있습니다. 대부분의 타사 네트워크 경계 제품은 기본적으로 Office 365 IP 주소 및 URL 웹 서비스를 사용하여 구성에 권장되는 Office 365 [통합합니다.](microsoft-365-ip-web-service.md)
 
 <a name="bkmk_akamai"> </a>
 ### <a name="why-do-i-see-names-such-as-nsatcnet-or-akadnsnet-in-the-microsoft-domain-names"></a>Microsoft 도메인 이름에 nsatc.net 또는 akadns.net과 같은 이름이 표시되는 이유는 무엇인가요?
 
-Office 365 및 기타 Microsoft 서비스에서는 Office 365 환경을 개선하기 위해 Akamai 및 MarkMonitor와 같은 몇 가지 타사 서비스를 사용합니다. 가능한 최상의 환경을 계속 제공하기 위해 Microsoft는 향후 이러한 서비스를 변경할 수 있습니다. 타사 도메인은 CDN과 같은 콘텐츠를 호스트하거나 지리적 트래픽 관리 서비스 등의 서비스를 호스트할 수 있습니다. 현재 사용 중인 몇 가지 서비스는 다음과 같습니다.
+Office 365 및 기타 Microsoft 서비스에서는 Office 365 환경을 개선하기 위해 Akamai 및 MarkMonitor와 같은 몇 가지 타사 서비스를 사용합니다. 가능한 최상의 환경을 계속 제공하기 위해 Microsoft는 향후 이러한 서비스를 변경할 수 있습니다. 타사 도메인은 CDN 같은 콘텐츠를 호스팅하거나 지리적 트래픽 관리 서비스 등의 서비스를 호스팅할 수 있습니다. 현재 사용 중인 몇 가지 서비스는 다음과 같습니다.
   
 .nsatc.net 포함된 요청이 표시되어 [MarkMonitor가](https://www.markmonitor.com/) *\* nsatc.net.* 이 서비스는 악의적인 동작으로부터 보호하기 위해 도메인 이름 보호 및 모니터링을 제공합니다.
   
@@ -202,7 +202,7 @@ Office 365 제품군은 주요 서비스 영역으로 나뉩니다. 이러한 �
 
 기본 인터넷 서비스 외에 기능을 통합하는 데만 사용되는 타사 서비스도 있습니다. 이러한 기능은 통합에 필요하기는 하지만 Office 365 끝점 문서에서 선택 사항으로 표시됩니다. 즉, 끝점에 액세스할 수 없는 경우 서비스의 핵심 기능이 계속 작동하게 됩니다. 필요한 모든 네트워크 끝점에는 필수 특성이 true로 설정됩니다. 선택 사항이 있는 모든 네트워크 끝점에는 필수 특성이 false로 설정되어 있으며 notes 특성은 연결이 차단된 경우 예상되는 누락된 기능에 대해 자세히 설명합니다.
   
-Office 365를 사용하려고 하여 타사 서비스에 액세스할 수 없는 경우 이 문서에서 필수 또는 선택 사항으로 표시된 모든 [FQDNS가](urls-and-ip-address-ranges.md)프록시 및 방화벽을 통해 허용되도록 할 수 있습니다.
+Office 365 타사 서비스에 액세스할 수 없는 경우 이 문서에서 필수 또는 선택 사항으로 표시된 모든 [FQDNS가](urls-and-ip-address-ranges.md)프록시 및 방화벽을 통해 허용되도록 할 수 있습니다.
   
 <a name="bkmk_consumer"> </a>
 ### <a name="how-do-i-block-access-to-microsofts-consumer-services"></a>Microsoft 소비자 서비스에 대한 액세스를 차단하려면 어떻게 하나요?
@@ -214,9 +214,9 @@ Microsoft 소비자 서비스에 대한 액세스만 차단해서는 네트워�
 <a name="bkmk_IPOnlyFirewall"> </a>
 ### <a name="my-firewall-requires-ip-addresses-and-cannot-process-urls-how-do-i-configure-it-for-office-365"></a>방화벽에 IP 주소가 필요하며 URL을 처리할 수 없습니다. Office 365에 맞게 구성하려면 어떻게 하나요?
 
-Office 365가 모든 필수 네트워크 끝점의 IP 주소를 제공 하지 않습니다. 일부는 URL로만 제공 되며 기본값으로 분류됩니다. 필요한 기본 범주의 URL은 프록시 서버를 통해 허용해야 합니다. 프록시 서버가 없는 경우 사용자가 웹 브라우저의 주소 표시줄에 입력하는 URL에 대한 웹 요청을 구성한 방법을 살펴보아야 합니다. 사용자가 IP 주소를 제공하지 않습니다. IP 주소를 제공하지 않는 Office 365 기본 범주 URL은 동일한 방식으로 구성해야 합니다.
+Office 365가 모든 필수 네트워크 끝점의 IP 주소를 제공 하지 않습니다. 일부는 URL로만 제공 되며 기본값으로 분류됩니다. 필요한 기본 범주의 URL은 프록시 서버를 통해 허용해야 합니다. 프록시 서버가 없는 경우 사용자가 웹 브라우저의 주소 표시줄에 입력하는 URL에 대한 웹 요청을 구성한 방법을 살펴보아야 합니다. 사용자가 IP 주소를 제공하지 않습니다. IP Office 365 제공하지 않는 기본 범주 URL은 동일한 방식으로 구성해야 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365 IP 주소 및 URL 웹 서비스](microsoft-365-ip-web-service.md)
 
