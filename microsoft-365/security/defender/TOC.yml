@@ -6,17 +6,17 @@
       items:
         - name: Microsoft 365 Defender란 무엇인가요?
           href: microsoft-365-defender.md
-        - name: Microsoft 365 보안 센터
+        - name: Microsoft 365 Defender 개요
           href: overview-security-center.md
         - name: Microsoft 365 Defender의 새로운 기능
           href: whats-new.md
-        - name: Microsoft 365 보안 센터의 엔드포인트용 Defender
+        - name: Defender의 끝점 Microsoft 365 Defender
           href: microsoft-365-security-center-mde.md
-        - name: Microsoft 365 보안 센터의 Office 365용 Defender
+        - name: Office 365 Defender의 Microsoft 365 Defender
           href: microsoft-365-security-center-mdo.md
-        - name: 엔드포인트용 Defender를 Microsoft 365 보안 센터로 리디렉션
+        - name: Endpoint용 Defender를 Defender로 Microsoft 365 리디렉션
           href: microsoft-365-security-mde-redirection.md
-        - name: Office 365용 Defender를 Microsoft 365 보안 센터로 리디렉션
+        - name: 보안 Office 365 및 준수 센터를 Defender로 Microsoft 365 리디렉션
           href: microsoft-365-security-mdo-redirection.md
         - name: Microsoft 365 Azure Sentinel과 Defender 통합
           href: microsoft-365-defender-integration-with-azure-sentinel.md
@@ -123,7 +123,7 @@
                     - name: ID
                       href: first-incident-path-identity.md
             - name: 인시던트 대응 플레이북
-              href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
+              href: /security/compass/incident-response-playbooks
             - name: 이메일 알림
               href: get-incident-notifications.md
         - name: 위협 분석
@@ -321,11 +321,11 @@
                 - name: 스트리밍 API
                   items:
                     - name: Microsoft 365 스트리밍 API
-                      href: ../defender-endpoint/raw-data-export.md
-                    - name: Azure 이벤트 허브로 고급 헌팅 심지어 스트리밍
-                      href: ../defender-endpoint/raw-data-export-event-hub.md
+                      href: streaming-api.md
+                    - name: Azure 이벤트 허브에 지능형 헌팅 이벤트 스트리밍
+                      href: streaming-api-event-hub.md
                     - name: 저장소 계정에 지능형 헌팅 이벤트 스트리밍
-                      href: ../defender-endpoint/raw-data-export-storage.md
+                      href: streaming-api-storage.md
                 - name: 고급 헌팅 API
                   href: api-advanced-hunting.md
                 - name: 인시던트 API

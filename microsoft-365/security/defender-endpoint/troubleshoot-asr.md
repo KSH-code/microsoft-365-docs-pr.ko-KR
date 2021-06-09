@@ -17,113 +17,113 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 9ff00c706b0fb336c178e227b1cb33eff9e9ebbc
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c5c76553ff3f0b32def5fbafbf2c8f010e49eeb2
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935224"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845425"
 ---
-# <a name="troubleshoot-attack-surface-reduction-rules"></a><span data-ttu-id="85bb7-104">공격 표면 감소 규칙 문제 해결</span><span class="sxs-lookup"><span data-stu-id="85bb7-104">Troubleshoot attack surface reduction rules</span></span>
+# <a name="troubleshoot-attack-surface-reduction-rules"></a><span data-ttu-id="0ffb5-104">공격 표면 감소 규칙 문제 해결</span><span class="sxs-lookup"><span data-stu-id="0ffb5-104">Troubleshoot attack surface reduction rules</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="85bb7-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="85bb7-105">**Applies to:**</span></span>
-- [<span data-ttu-id="85bb7-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="85bb7-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="85bb7-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="85bb7-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="0ffb5-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="0ffb5-105">**Applies to:**</span></span>
+- [<span data-ttu-id="0ffb5-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="0ffb5-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="0ffb5-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="0ffb5-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="85bb7-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="85bb7-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="85bb7-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> <span data-ttu-id="0ffb5-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="0ffb5-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="0ffb5-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
-<span data-ttu-id="85bb7-110">공격 표면 [감소 규칙을](attack-surface-reduction.md) 사용하는 경우 다음과 같은 문제가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-110">When you use [attack surface reduction rules](attack-surface-reduction.md) you may run into issues, such as:</span></span>
+<span data-ttu-id="0ffb5-110">공격 표면 [감소 규칙을](attack-surface-reduction.md) 사용하는 경우 다음과 같은 문제가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-110">When you use [attack surface reduction rules](attack-surface-reduction.md) you may run into issues, such as:</span></span>
 
-- <span data-ttu-id="85bb7-111">규칙은 파일, 처리 또는 수행하지 말아야 할 다른 작업(가음성)을 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-111">A rule blocks a file, process, or performs some other action that it shouldn't (false positive)</span></span>
+- <span data-ttu-id="0ffb5-111">규칙은 파일, 처리 또는 수행하지 말아야 할 다른 작업(가음성)을 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-111">A rule blocks a file, process, or performs some other action that it shouldn't (false positive)</span></span>
 
-- <span data-ttu-id="85bb7-112">규칙이 설명된 바와 같이 작동하지 않습니다. 또는 규칙이 처리해야 하는 파일 또는 프로세스를 차단하지 않습니다(거짓 부정).</span><span class="sxs-lookup"><span data-stu-id="85bb7-112">A rule doesn't work as described, or doesn't block a file or process that it should (false negative)</span></span>
+- <span data-ttu-id="0ffb5-112">규칙이 설명된 바와 같이 작동하지 않습니다. 또는 규칙이 처리해야 하는 파일 또는 프로세스를 차단하지 않습니다(거짓 부정).</span><span class="sxs-lookup"><span data-stu-id="0ffb5-112">A rule doesn't work as described, or doesn't block a file or process that it should (false negative)</span></span>
 
-<span data-ttu-id="85bb7-113">이러한 문제를 해결하는 네 가지 단계가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-113">There are four steps to troubleshooting these problems:</span></span>
+<span data-ttu-id="0ffb5-113">이러한 문제를 해결하는 네 가지 단계가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-113">There are four steps to troubleshooting these problems:</span></span>
 
-1. [<span data-ttu-id="85bb7-114">선행 준비 확인</span><span class="sxs-lookup"><span data-stu-id="85bb7-114">Confirm prerequisites</span></span>](#confirm-prerequisites)
+1. [<span data-ttu-id="0ffb5-114">선행 준비 확인</span><span class="sxs-lookup"><span data-stu-id="0ffb5-114">Confirm prerequisites</span></span>](#confirm-prerequisites)
 
-2. [<span data-ttu-id="85bb7-115">감사 모드를 사용하여 규칙 테스트</span><span class="sxs-lookup"><span data-stu-id="85bb7-115">Use audit mode to test the rule</span></span>](#use-audit-mode-to-test-the-rule)
+2. [<span data-ttu-id="0ffb5-115">감사 모드를 사용하여 규칙 테스트</span><span class="sxs-lookup"><span data-stu-id="0ffb5-115">Use audit mode to test the rule</span></span>](#use-audit-mode-to-test-the-rule)
 
-3. <span data-ttu-id="85bb7-116">[지정된 규칙에](#add-exclusions-for-a-false-positive) 대한 제외 추가(가음성의 경우)</span><span class="sxs-lookup"><span data-stu-id="85bb7-116">[Add exclusions for the specified rule](#add-exclusions-for-a-false-positive) (for false positives)</span></span>
+3. <span data-ttu-id="0ffb5-116">[지정된 규칙에](#add-exclusions-for-a-false-positive) 대한 제외 추가(가음성의 경우)</span><span class="sxs-lookup"><span data-stu-id="0ffb5-116">[Add exclusions for the specified rule](#add-exclusions-for-a-false-positive) (for false positives)</span></span>
 
-4. [<span data-ttu-id="85bb7-117">지원 로그 제출</span><span class="sxs-lookup"><span data-stu-id="85bb7-117">Submit support logs</span></span>](#collect-diagnostic-data-for-file-submissions)
+4. [<span data-ttu-id="0ffb5-117">지원 로그 제출</span><span class="sxs-lookup"><span data-stu-id="0ffb5-117">Submit support logs</span></span>](#collect-diagnostic-data-for-file-submissions)
 
-## <a name="confirm-prerequisites"></a><span data-ttu-id="85bb7-118">선행 준비 확인</span><span class="sxs-lookup"><span data-stu-id="85bb7-118">Confirm prerequisites</span></span>
+## <a name="confirm-prerequisites"></a><span data-ttu-id="0ffb5-118">선행 준비 확인</span><span class="sxs-lookup"><span data-stu-id="0ffb5-118">Confirm prerequisites</span></span>
 
-<span data-ttu-id="85bb7-119">공격 표면 감소 규칙은 다음 조건이 있는 디바이스에서만 작동합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-119">Attack surface reduction rules will only work on devices with the following conditions:</span></span>
+<span data-ttu-id="0ffb5-119">공격 표면 감소 규칙은 다음 조건이 있는 디바이스에서만 작동합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-119">Attack surface reduction rules will only work on devices with the following conditions:</span></span>
 
-- <span data-ttu-id="85bb7-120">끝점에서 Windows 10 Enterprise 버전 1709(Fall Creators Update라고도 알려)를 실행하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-120">Endpoints are running Windows 10 Enterprise, version 1709 (also known as the Fall Creators Update).</span></span>
+- <span data-ttu-id="0ffb5-120">끝점은 Windows 10 Enterprise 버전 1709(Fall Creators Update라고도 알려지기)를 실행하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-120">Endpoints are running Windows 10 Enterprise, version 1709 (also known as the Fall Creators Update).</span></span>
 
-- <span data-ttu-id="85bb7-121">끝점에서 Microsoft Defender 바이러스 백신을 단독 바이러스 백신 보호 앱으로 사용하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-121">Endpoints are using Microsoft Defender Antivirus as the sole antivirus protection app.</span></span> <span data-ttu-id="85bb7-122">[다른 바이러스 백신 앱을 사용하는 경우 Microsoft Defender AV가](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)자체적으로 비활성화됩니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-122">[Using any other antivirus app will cause Microsoft Defender AV to disable itself](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility).</span></span>
+- <span data-ttu-id="0ffb5-121">끝점에서 단독 Microsoft Defender 바이러스 백신 보호 앱으로 사용하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-121">Endpoints are using Microsoft Defender Antivirus as the sole antivirus protection app.</span></span> <span data-ttu-id="0ffb5-122">[다른 바이러스 백신 앱을 사용하는 경우 Microsoft Defender AV가](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)자체적으로 비활성화됩니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-122">[Using any other antivirus app will cause Microsoft Defender AV to disable itself](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility).</span></span>
 
-- <span data-ttu-id="85bb7-123">[실시간 보호가](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-123">[Real-time protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) is enabled.</span></span>
+- <span data-ttu-id="0ffb5-123">[실시간 보호가](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-123">[Real-time protection](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) is enabled.</span></span>
 
-- <span data-ttu-id="85bb7-124">감사 모드를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-124">Audit mode isn't enabled.</span></span> <span data-ttu-id="85bb7-125">공격 표면 감소 규칙  사용에 설명된 바와 같이 그룹 정책을 사용하여 규칙을 사용 안 하도록 설정(값: **0)로** [설정](enable-attack-surface-reduction.md)</span><span class="sxs-lookup"><span data-stu-id="85bb7-125">Use Group Policy to set the rule to **Disabled** (value: **0**) as described in [Enable attack surface reduction rules](enable-attack-surface-reduction.md).</span></span>
+- <span data-ttu-id="0ffb5-124">감사 모드를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-124">Audit mode isn't enabled.</span></span> <span data-ttu-id="0ffb5-125">공격 표면 감소 규칙  사용에 설명된 바와 같이 그룹 정책을 사용하여 규칙을 사용 안 하도록 설정(값: **0)로** [설정](enable-attack-surface-reduction.md)</span><span class="sxs-lookup"><span data-stu-id="0ffb5-125">Use Group Policy to set the rule to **Disabled** (value: **0**) as described in [Enable attack surface reduction rules](enable-attack-surface-reduction.md).</span></span>
 
-<span data-ttu-id="85bb7-126">이러한 선행 단계가 모두 충족된 경우 다음 단계로 진행하여 감사 모드에서 규칙을 테스트합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-126">If these prerequisites have all been met, proceed to the next step to test the rule in audit mode.</span></span>
+<span data-ttu-id="0ffb5-126">이러한 선행 단계가 모두 충족된 경우 다음 단계로 진행하여 감사 모드에서 규칙을 테스트합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-126">If these prerequisites have all been met, proceed to the next step to test the rule in audit mode.</span></span>
 
-## <a name="use-audit-mode-to-test-the-rule"></a><span data-ttu-id="85bb7-127">감사 모드를 사용하여 규칙 테스트</span><span class="sxs-lookup"><span data-stu-id="85bb7-127">Use audit mode to test the rule</span></span>
+## <a name="use-audit-mode-to-test-the-rule"></a><span data-ttu-id="0ffb5-127">감사 모드를 사용하여 규칙 테스트</span><span class="sxs-lookup"><span data-stu-id="0ffb5-127">Use audit mode to test the rule</span></span>
 
-<span data-ttu-id="85bb7-128">Windows Defender 테스트 라운드 웹 사이트를 방문하여 demo.wd.microsoft.com 공격 표면 감소 규칙이 일반적으로 장치의 미리 구성된 시나리오 및 프로세스에서 작동하고 있는지 확인하거나, 보고 규칙만 사용하도록 설정하는 감사 모드를 사용할 수 있습니다. [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground)</span><span class="sxs-lookup"><span data-stu-id="85bb7-128">You can visit the Windows Defender Test ground website at [demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) to confirm attack surface reduction rules are generally working for pre-configured scenarios and processes on a device, or you can use audit mode, which enables rules for reporting only.</span></span>
+<span data-ttu-id="0ffb5-128">Windows Defender 테스트 demo.wd.microsoft.com 웹 사이트를 방문하여 [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 공격 표면 감소 규칙이 일반적으로 장치의 미리 구성된 시나리오 및 프로세스에서 작동하고 있는지 확인하거나, 보고 규칙만 사용하도록 설정하는 감사 모드를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-128">You can visit the Windows Defender Test ground website at [demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) to confirm attack surface reduction rules are generally working for pre-configured scenarios and processes on a device, or you can use audit mode, which enables rules for reporting only.</span></span>
 
-<span data-ttu-id="85bb7-129">데모 도구를 [](evaluate-attack-surface-reduction.md) 사용하여 공격 표면 감소 규칙이 어떻게 작동하여 문제가 발생하는 특정 규칙을 테스트하는지 확인하려면 다음 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="85bb7-129">Follow these instructions in [Use the demo tool to see how attack surface reduction rules work](evaluate-attack-surface-reduction.md) to test the specific rule you're encountering problems with.</span></span>
+<span data-ttu-id="0ffb5-129">데모 도구를 [](evaluate-attack-surface-reduction.md) 사용하여 공격 표면 감소 규칙이 어떻게 작동하여 문제가 발생하는 특정 규칙을 테스트하는지 확인하려면 다음 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-129">Follow these instructions in [Use the demo tool to see how attack surface reduction rules work](evaluate-attack-surface-reduction.md) to test the specific rule you're encountering problems with.</span></span>
 
-1. <span data-ttu-id="85bb7-130">테스트할 특정 규칙에 대해 감사 모드를 사용하도록 설정하십시오.</span><span class="sxs-lookup"><span data-stu-id="85bb7-130">Enable audit mode for the specific rule you want to test.</span></span> <span data-ttu-id="85bb7-131">그룹 정책을 사용하여 공격  표면 감소 규칙 사용에 설명된 바와 같이 규칙을 감사 모드(값: **2)로** [설정](enable-attack-surface-reduction.md)</span><span class="sxs-lookup"><span data-stu-id="85bb7-131">Use Group Policy to set the rule to **Audit mode** (value: **2**) as described in [Enable attack surface reduction rules](enable-attack-surface-reduction.md).</span></span> <span data-ttu-id="85bb7-132">감사 모드를 사용하면 규칙이 파일 또는 프로세스를 보고할 수 있지만 계속 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-132">Audit mode allows the rule to report the file or process, but will still allow it to run.</span></span>
+1. <span data-ttu-id="0ffb5-130">테스트할 특정 규칙에 대해 감사 모드를 사용하도록 설정하십시오.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-130">Enable audit mode for the specific rule you want to test.</span></span> <span data-ttu-id="0ffb5-131">그룹 정책을 사용하여 공격  표면 감소 규칙 사용에 설명된 바와 같이 규칙을 감사 모드(값: **2)로** [설정](enable-attack-surface-reduction.md)</span><span class="sxs-lookup"><span data-stu-id="0ffb5-131">Use Group Policy to set the rule to **Audit mode** (value: **2**) as described in [Enable attack surface reduction rules](enable-attack-surface-reduction.md).</span></span> <span data-ttu-id="0ffb5-132">감사 모드를 사용하면 규칙이 파일 또는 프로세스를 보고할 수 있지만 계속 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-132">Audit mode allows the rule to report the file or process, but will still allow it to run.</span></span>
 
-2. <span data-ttu-id="85bb7-133">문제를 일으키는 활동(예: 차단해야 하지만 허용되는 파일 또는 프로세스를 열거나 실행)을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-133">Perform the activity that is causing an issue (for example, open or execute the file or process that should be blocked but is being allowed).</span></span>
+2. <span data-ttu-id="0ffb5-133">문제를 일으키는 활동(예: 차단해야 하지만 허용되는 파일 또는 프로세스를 열거나 실행)을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-133">Perform the activity that is causing an issue (for example, open or execute the file or process that should be blocked but is being allowed).</span></span>
 
-3. <span data-ttu-id="85bb7-134">[공격 표면 감소](attack-surface-reduction.md) 규칙 이벤트 로그를 검토하여 규칙이 사용으로 설정된 경우 규칙이 파일 또는 프로세스를 차단하는지 **확인합니다.**</span><span class="sxs-lookup"><span data-stu-id="85bb7-134">[Review the attack surface reduction rule event logs](attack-surface-reduction.md) to see if the rule would have blocked the file or process if the rule had been set to **Enabled**.</span></span>
+3. <span data-ttu-id="0ffb5-134">[공격 표면 감소](attack-surface-reduction.md) 규칙 이벤트 로그를 검토하여 규칙이 사용으로 설정된 경우 규칙이 파일 또는 프로세스를 차단하는지 **확인합니다.**</span><span class="sxs-lookup"><span data-stu-id="0ffb5-134">[Review the attack surface reduction rule event logs](attack-surface-reduction.md) to see if the rule would have blocked the file or process if the rule had been set to **Enabled**.</span></span>
 
-<span data-ttu-id="85bb7-135">규칙이 차단할 것으로 예상하는 파일 또는 프로세스를 차단하지 않는 경우 먼저 감사 모드를 사용하도록 설정되어 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-135">If a rule isn't blocking a file or process that you're expecting it should block, first check if audit mode is enabled.</span></span>
+<span data-ttu-id="0ffb5-135">규칙이 차단할 것으로 예상하는 파일 또는 프로세스를 차단하지 않는 경우 먼저 감사 모드를 사용하도록 설정되어 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-135">If a rule isn't blocking a file or process that you're expecting it should block, first check if audit mode is enabled.</span></span>
 
-<span data-ttu-id="85bb7-136">감사 모드는 다른 기능 또는 자동화된 PowerShell 스크립트를 통해 테스트할 수 있으며 테스트가 완료된 후 사용하지 않도록 설정되지 않은 것일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-136">Audit mode may have been enabled for testing another feature, or by an automated PowerShell script, and may not have been disabled after the tests were completed.</span></span>
+<span data-ttu-id="0ffb5-136">감사 모드는 다른 기능 또는 자동화된 PowerShell 스크립트를 통해 테스트할 수 있으며 테스트가 완료된 후 사용하지 않도록 설정되지 않은 것일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-136">Audit mode may have been enabled for testing another feature, or by an automated PowerShell script, and may not have been disabled after the tests were completed.</span></span>
 
-<span data-ttu-id="85bb7-137">데모 도구 및 감사 모드를 사용하여 규칙을 테스트한 경우 공격 표면 감소 규칙이 미리 구성된 시나리오에서 작동하지만 규칙이 예상대로 작동하지 않는 경우 상황에 따라 다음 섹션 중 하나를 진행합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-137">If you've tested the rule with the demo tool and with audit mode, and attack surface reduction rules are working on pre-configured scenarios, but the rule isn't working as expected, proceed to either of the following sections based on your situation:</span></span>
+<span data-ttu-id="0ffb5-137">데모 도구 및 감사 모드를 사용하여 규칙을 테스트한 경우 공격 표면 감소 규칙이 미리 구성된 시나리오에서 작동하지만 규칙이 예상대로 작동하지 않는 경우 상황에 따라 다음 섹션 중 하나를 진행합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-137">If you've tested the rule with the demo tool and with audit mode, and attack surface reduction rules are working on pre-configured scenarios, but the rule isn't working as expected, proceed to either of the following sections based on your situation:</span></span>
 
-1. <span data-ttu-id="85bb7-138">공격 표면 감소 규칙이 차단하지 말아야 할 것을 차단하는 경우(가음성으로도 알려져) 먼저 공격 표면 축소 규칙 제외를 추가할 [수 있습니다.](#add-exclusions-for-a-false-positive)</span><span class="sxs-lookup"><span data-stu-id="85bb7-138">If the attack surface reduction rule is blocking something that it shouldn't block (also known as a false positive), you can [first add an attack surface reduction rule exclusion](#add-exclusions-for-a-false-positive).</span></span>
+1. <span data-ttu-id="0ffb5-138">공격 표면 감소 규칙이 차단하지 말아야 할 것을 차단하는 경우(가음성으로도 알려져) 먼저 공격 표면 축소 규칙 제외를 추가할 [수 있습니다.](#add-exclusions-for-a-false-positive)</span><span class="sxs-lookup"><span data-stu-id="0ffb5-138">If the attack surface reduction rule is blocking something that it shouldn't block (also known as a false positive), you can [first add an attack surface reduction rule exclusion](#add-exclusions-for-a-false-positive).</span></span>
 
-2. <span data-ttu-id="85bb7-139">공격 표면 감소 규칙이 차단해야 하는 것을 차단하지 않는 경우(거짓 부정) 바로 마지막 단계로 진행하여 진단 데이터를 수집하고 에 문제를 제출할 [수 있습니다.](#collect-diagnostic-data-for-file-submissions)</span><span class="sxs-lookup"><span data-stu-id="85bb7-139">If the attack surface reduction rule isn't blocking something that it should block (also known as a false negative), you can proceed immediately to the last step, [collecting diagnostic data and submitting the issue to us](#collect-diagnostic-data-for-file-submissions).</span></span>
+2. <span data-ttu-id="0ffb5-139">공격 표면 감소 규칙이 차단해야 하는 것을 차단하지 않는 경우(거짓 부정) 바로 마지막 단계로 진행하여 진단 데이터를 수집하고 에 문제를 제출할 [수 있습니다.](#collect-diagnostic-data-for-file-submissions)</span><span class="sxs-lookup"><span data-stu-id="0ffb5-139">If the attack surface reduction rule isn't blocking something that it should block (also known as a false negative), you can proceed immediately to the last step, [collecting diagnostic data and submitting the issue to us](#collect-diagnostic-data-for-file-submissions).</span></span>
 
-## <a name="add-exclusions-for-a-false-positive"></a><span data-ttu-id="85bb7-140">가짓 긍정에 대한 제외 추가</span><span class="sxs-lookup"><span data-stu-id="85bb7-140">Add exclusions for a false positive</span></span>
+## <a name="add-exclusions-for-a-false-positive"></a><span data-ttu-id="0ffb5-140">가짓 긍정에 대한 제외 추가</span><span class="sxs-lookup"><span data-stu-id="0ffb5-140">Add exclusions for a false positive</span></span>
 
-<span data-ttu-id="85bb7-141">공격 표면 감소 규칙이 차단하지 말아야 할 것을 차단하는 경우(가음성으로도 알려지며) 제외를 추가하여 공격 표면 감소 규칙이 제외된 파일 또는 폴더를 평가하지 못하게 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-141">If the attack surface reduction rule is blocking something that it shouldn't block (also known as a false positive), you can add exclusions to prevent attack surface reduction rules from evaluating the excluded files or folders.</span></span>
+<span data-ttu-id="0ffb5-141">공격 표면 감소 규칙이 차단하지 말아야 할 것을 차단하는 경우(가음성으로도 알려지며) 제외를 추가하여 공격 표면 감소 규칙이 제외된 파일 또는 폴더를 평가하지 못하게 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-141">If the attack surface reduction rule is blocking something that it shouldn't block (also known as a false positive), you can add exclusions to prevent attack surface reduction rules from evaluating the excluded files or folders.</span></span>
 
-<span data-ttu-id="85bb7-142">제외를 추가하는 방법에 대한 자세한 내용은 공격 표면 [축소 사용자 지정을 참조합니다.](customize-attack-surface-reduction.md)</span><span class="sxs-lookup"><span data-stu-id="85bb7-142">To add an exclusion, see [Customize Attack surface reduction](customize-attack-surface-reduction.md).</span></span>
+<span data-ttu-id="0ffb5-142">제외를 추가하는 방법에 대한 자세한 내용은 공격 표면 [축소 사용자 지정을 참조합니다.](customize-attack-surface-reduction.md)</span><span class="sxs-lookup"><span data-stu-id="0ffb5-142">To add an exclusion, see [Customize Attack surface reduction](customize-attack-surface-reduction.md).</span></span>
 
 >[!IMPORTANT]
-><span data-ttu-id="85bb7-143">제외할 개별 파일 및 폴더를 지정할 수는 있지만 개별 규칙을 지정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-143">You can specify individual files and folders to be excluded, but you cannot specify individual rules.</span></span>
-><span data-ttu-id="85bb7-144">즉, 제외된 파일 또는 폴더는 모든 ASR 규칙에서 제외됩니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-144">This means any files or folders that are excluded will be excluded from all ASR rules.</span></span>
+><span data-ttu-id="0ffb5-143">제외할 개별 파일 및 폴더를 지정할 수는 있지만 개별 규칙을 지정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-143">You can specify individual files and folders to be excluded, but you cannot specify individual rules.</span></span>
+><span data-ttu-id="0ffb5-144">즉, 제외된 파일 또는 폴더는 모든 ASR 규칙에서 제외됩니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-144">This means any files or folders that are excluded will be excluded from all ASR rules.</span></span>
 
-## <a name="report-a-false-positive-or-false-negative"></a><span data-ttu-id="85bb7-145">가짓 긍정 또는 거짓 부정 보고</span><span class="sxs-lookup"><span data-stu-id="85bb7-145">Report a false positive or false negative</span></span>
+## <a name="report-a-false-positive-or-false-negative"></a><span data-ttu-id="0ffb5-145">가짓 긍정 또는 거짓 부정 보고</span><span class="sxs-lookup"><span data-stu-id="0ffb5-145">Report a false positive or false negative</span></span>
 
-<span data-ttu-id="85bb7-146">보안 [인텔리전스 Windows Defender](https://www.microsoft.com/wdsi/filesubmission) 제출 양식을 사용하여 네트워크 보호를 위해 거짓 부정 또는 가극적을 보고합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-146">Use the [Windows Defender Security Intelligence web-based submission form](https://www.microsoft.com/wdsi/filesubmission) to report a false negative or false positive for network protection.</span></span> <span data-ttu-id="85bb7-147">Windows E5 구독을 사용하여 연결된 경고에 대한 [링크를 제공할 수도 있습니다.](alerts-queue.md)</span><span class="sxs-lookup"><span data-stu-id="85bb7-147">With a Windows E5 subscription, you can also [provide a link to any associated alert](alerts-queue.md).</span></span>
+<span data-ttu-id="0ffb5-146">보안 [Windows Defender](https://www.microsoft.com/wdsi/filesubmission) 웹 기반 제출 양식을 사용하여 네트워크 보호에 대해 거짓 부정 또는 가긍성 보고를 합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-146">Use the [Windows Defender Security Intelligence web-based submission form](https://www.microsoft.com/wdsi/filesubmission) to report a false negative or false positive for network protection.</span></span> <span data-ttu-id="0ffb5-147">E5 Windows 연결된 모든 경고에 대한 링크를 [제공할 수도 있습니다.](alerts-queue.md)</span><span class="sxs-lookup"><span data-stu-id="0ffb5-147">With a Windows E5 subscription, you can also [provide a link to any associated alert](alerts-queue.md).</span></span>
 
-## <a name="collect-diagnostic-data-for-file-submissions"></a><span data-ttu-id="85bb7-148">파일 전송에 대한 진단 데이터 수집</span><span class="sxs-lookup"><span data-stu-id="85bb7-148">Collect diagnostic data for file submissions</span></span>
+## <a name="collect-diagnostic-data-for-file-submissions"></a><span data-ttu-id="0ffb5-148">파일 전송에 대한 진단 데이터 수집</span><span class="sxs-lookup"><span data-stu-id="0ffb5-148">Collect diagnostic data for file submissions</span></span>
 
-<span data-ttu-id="85bb7-149">공격 표면 감소 규칙에 대한 문제를 보고하는 경우 Microsoft 지원 및 엔지니어링 팀에서 문제를 해결하는 데 사용할 수 있는 진단 데이터를 수집하고 제출해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-149">When you report a problem with attack surface reduction rules, you're asked to collect and submit diagnostic data that can be used by Microsoft support and engineering teams to help troubleshoot issues.</span></span>
+<span data-ttu-id="0ffb5-149">공격 표면 감소 규칙에 대한 문제를 보고하는 경우 Microsoft 지원 및 엔지니어링 팀에서 문제를 해결하는 데 사용할 수 있는 진단 데이터를 수집하고 제출해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-149">When you report a problem with attack surface reduction rules, you're asked to collect and submit diagnostic data that can be used by Microsoft support and engineering teams to help troubleshoot issues.</span></span>
 
-1. <span data-ttu-id="85bb7-150">승강된 명령 프롬프트를 열고 Windows Defender 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-150">Open an elevated command prompt and change to the Windows Defender directory:</span></span>
+1. <span data-ttu-id="0ffb5-150">승강된 명령 프롬프트를 열고 Windows Defender 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-150">Open an elevated command prompt and change to the Windows Defender directory:</span></span>
 
    ```console
    cd "c:\program files\windows defender"
    ```
 
-2. <span data-ttu-id="85bb7-151">다음 명령을 실행하여 진단 로그를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-151">Run this command to generate the diagnostic logs:</span></span>
+2. <span data-ttu-id="0ffb5-151">다음 명령을 실행하여 진단 로그를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-151">Run this command to generate the diagnostic logs:</span></span>
 
    ```console
    mpcmdrun -getfiles
    ```
 
-3. <span data-ttu-id="85bb7-152">기본적으로 에 `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-152">By default, they're saved to `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab`.</span></span> <span data-ttu-id="85bb7-153">파일을 제출 양식에 첨부합니다.</span><span class="sxs-lookup"><span data-stu-id="85bb7-153">Attach the file to the submission form.</span></span>
+3. <span data-ttu-id="0ffb5-152">기본적으로 에 `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-152">By default, they're saved to `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab`.</span></span> <span data-ttu-id="0ffb5-153">파일을 제출 양식에 첨부합니다.</span><span class="sxs-lookup"><span data-stu-id="0ffb5-153">Attach the file to the submission form.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="85bb7-154">관련 문서</span><span class="sxs-lookup"><span data-stu-id="85bb7-154">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="0ffb5-154">관련 문서</span><span class="sxs-lookup"><span data-stu-id="0ffb5-154">Related articles</span></span>
 
-- [<span data-ttu-id="85bb7-155">공격 표면 감소 규칙</span><span class="sxs-lookup"><span data-stu-id="85bb7-155">Attack surface reduction rules</span></span>](attack-surface-reduction.md)
+- [<span data-ttu-id="0ffb5-155">공격 표면 감소 규칙</span><span class="sxs-lookup"><span data-stu-id="0ffb5-155">Attack surface reduction rules</span></span>](attack-surface-reduction.md)
 
-- [<span data-ttu-id="85bb7-156">공격 표면 감소 규칙 사용</span><span class="sxs-lookup"><span data-stu-id="85bb7-156">Enable attack surface reduction rules</span></span>](enable-attack-surface-reduction.md)
+- [<span data-ttu-id="0ffb5-156">공격 표면 감소 규칙 사용</span><span class="sxs-lookup"><span data-stu-id="0ffb5-156">Enable attack surface reduction rules</span></span>](enable-attack-surface-reduction.md)
 
-- [<span data-ttu-id="85bb7-157">공격 표면 감소 규칙 평가</span><span class="sxs-lookup"><span data-stu-id="85bb7-157">Evaluate attack surface reduction rules</span></span>](evaluate-attack-surface-reduction.md)
+- [<span data-ttu-id="0ffb5-157">공격 표면 감소 규칙 평가</span><span class="sxs-lookup"><span data-stu-id="0ffb5-157">Evaluate attack surface reduction rules</span></span>](evaluate-attack-surface-reduction.md)
