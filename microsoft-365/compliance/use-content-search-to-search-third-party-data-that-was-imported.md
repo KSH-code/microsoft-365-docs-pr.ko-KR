@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
-description: 콘텐츠 검색 eDiscovery 도구를 사용하여 쿼리를 만들어 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 검색합니다.
+description: 콘텐츠 검색 eDiscovery 도구를 사용하여 쿼리를 만들어 타사 Microsoft 365 원본의 사서함으로 가져온 항목을 검색할 수 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 24ca63cf78b85f7b8b5181d5babd16058b641128
 ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
@@ -26,34 +26,34 @@ ms.locfileid: "47324574"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-by-a-custom-partner-connector"></a>콘텐츠 검색을 사용하여 사용자 지정 파트너 커넥터에서 가져온 타사 데이터 검색
 
-보안 및 준수 센터의 콘텐츠 검색 [eDiscovery](content-search.md) 도구를 & 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 검색할 수 있습니다. 가져온 모든 타사 데이터 항목을 검색하는 쿼리를 만들거나 쿼리를 만들어 특정 타사 데이터 항목을 검색할 수 있습니다. 또한 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 보류를 만들어 타사 데이터를 보존할 수도 있습니다.
+보안 및 준수 센터의 콘텐츠 검색 [eDiscovery](content-search.md) 도구를 사용하여 & 데이터 원본에서 사서함으로 가져온 항목을 Microsoft 365 수 있습니다. 가져온 모든 타사 데이터 항목을 검색하는 쿼리를 만들거나 특정 타사 데이터 항목을 검색하는 쿼리를 만들 수 있습니다. 또한 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 보류를 만들어 타사 데이터를 보존할 수도 있습니다.
   
-파트너와 협력하여 타사 데이터를 가져오고 Microsoft 365로 가져올 수 있는 타사 데이터 형식 목록은 Office [365에서](work-with-partner-to-archive-third-party-data.md)타사 데이터를 보관하는 파트너와 협력을 참조하세요.
+파트너와 협력하여 타사 데이터를 가져오는 데 사용할 수 있는 타사 데이터 형식 및 타사 데이터 형식 목록을 Microsoft 365 파트너와 협력하여 타사 데이터를 [Office 365.](work-with-partner-to-archive-third-party-data.md)
 
 > [!IMPORTANT]
-> 이 문서의 지침은 사용자 지정 파트너 커넥터에서 가져온 타사 데이터에만 적용됩니다. 이 문서는 Microsoft 규정 준수 센터에서 타사 데이터 [](archiving-third-party-data.md#third-party-data-connectors) 커넥터를 사용하여 가져온 타사 데이터에는 적용되지 않습니다.
+> 이 문서의 지침은 사용자 지정 파트너 커넥터에서 가져온 타사 데이터에만 적용됩니다. 이 문서는 Microsoft 규정 준수 센터의 타사 데이터 [](archiving-third-party-data.md#third-party-data-connectors) 커넥터를 사용하여 가져온 타사 데이터에는 적용되지 않습니다.
   
 ## <a name="creating-a-query-to-search-all-third-party-data"></a>모든 타사 데이터를 검색하는 쿼리 만들기
 
-Office 365로 가져온 모든 유형의 타사 데이터를 검색하거나 보류하기 위해 콘텐츠 검색 또는 쿼리 기반 보류를 만들 때 키워드 상자에 메시지 속성 값 쌍을 사용할 수  `kind:externaldata` 있습니다. 예를 들어 타사 데이터 원본에서 가져온 항목을 검색하고 가져온 항목의 Subject 속성에 "contoso"라는 단어를 포함하기 위해 다음 쿼리를 사용합니다. 
+콘텐츠 검색으로 가져온 모든 유형의 타사 데이터를 검색(또는 보류Office 365 콘텐츠 검색의 키워드 상자에 또는 쿼리 기반 보류를 만들 때 메시지 속성 값 쌍을 사용할 수 `kind:externaldata` 있습니다. 예를 들어 타사 데이터 원본에서 가져온 항목을 검색하고 가져온 항목의 Subject 속성에 "contoso"라는 단어를 포함하기 위해 다음 쿼리를 사용합니다. 
   
 ```powershell
 kind:externaldata AND subject:contoso
 ```
 
-이전 키워드 쿼리 예제에는 제목 속성이 포함되어 있습니다. 키워드 쿼리에 포함할 수 있는 타사 데이터 항목에 대한 다른 속성 목록은 Office [365에서](work-with-partner-to-archive-third-party-data.md#more-information)타사 데이터를 보관하는 파트너와의 작업에서 "추가 정보" 섹션을 참조하세요.
+이전 키워드 쿼리 예제에는 제목 속성이 포함되어 있습니다. 키워드 쿼리에 포함할 수 있는 타사 데이터 항목에 대한 다른 속성 목록은 파트너와 협력하여 타사 데이터를 [Office 365.](work-with-partner-to-archive-third-party-data.md#more-information)
   
-타사 데이터를 검색하고 보유하는 쿼리를 만들 때 조건을 사용하여 검색 결과 범위를 좁힐 수도 있습니다. 콘텐츠 검색 쿼리를 만드는 데 대한 자세한 내용은 콘텐츠 검색에 대한 키워드 쿼리 및 [검색 조건을 참조하세요.](keyword-queries-and-search-conditions.md)
+타사 데이터를 검색하고 보유하는 쿼리를 만들 때 조건을 사용하여 검색 결과 범위를 좁힐 수도 있습니다. 콘텐츠 검색 쿼리를 만드는 데 대한 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건을 참조하세요.](keyword-queries-and-search-conditions.md)
   
 ## <a name="creating-a-query-to-search-specific-types-of-third-party-data"></a>특정 유형의 타사 데이터를 검색하는 쿼리 만들기
 
-모든 형식의 타사 데이터를 검색하는 대신 콘텐츠 검색에 대한 키워드 상자의 값 쌍을 사용하여 특정  형식의 타사 데이터만 검색하는 쿼리를 만들 수 있습니다.
+모든 유형의 타사 데이터를 검색하는 대신 콘텐츠 검색에 대한 키워드 상자의 값 쌍을 사용하여 특정 형식의 타사 데이터만 검색하는 쿼리를 만들 수 있습니다. 
   
 ```powershell
 itemclass:ipm.externaldata.<third-party data type>* 
 ```
 
-예를 들어 Subject 속성에 "contoso"라는 단어가 포함된 Facebook 데이터를 검색하기 위해 다음 쿼리를 사용합니다.
+예를 들어 Subject 속성에 단어 "contoso"가 포함된 Facebook 데이터를 검색하기 위해 다음 쿼리를 사용합니다.
   
 ```powershell
 itemclass:ipm.externaldata.Facebook* AND subject:contoso
@@ -98,13 +98,13 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |Google Talk  <br/> | `ipm.externaldata.GoogleTalk*` <br/> |
 |GoToMyPC  <br/> | `ipm.externaldata.GoToMyPC*` <br/> |
 |HipChat  <br/> | `ipm.externaldata.HipChat*` <br/> |
-|홉스터  <br/> | `ipm.externaldata.Hopster*` <br/> |
+|Hopster  <br/> | `ipm.externaldata.Hopster*` <br/> |
 |HubConnex  <br/> | `ipm.externaldata.HubConnex*` <br/> |
 |IBM Connections  <br/> | `ipm.externaldata.Connections*` <br/> |
 |IBM SameTime  <br/> | `ipm.externaldata.Sametime*` <br/> |
 |ICE 채팅  <br/> | `ipm.externaldata.conversation.Ice Chat*` <br/> |
 |Indii Messenger  <br/> | `ipm.externaldata.Indii*` <br/> |
-|인자  <br/> | `ipm.externaldata.Instagram*` <br/> |
+|인스 타마  <br/> | `ipm.externaldata.Instagram*` <br/> |
 |Instant Bloomberg  <br/> | `ipm.externaldata.InstantBloomberg*` <br/> |
 |InvestEdge  <br/> | `ipm.externaldata.InvestEdge*` <br/> |
 |IRC  <br/> | `ipm.externaldata.IRC*` <br/> |
@@ -114,7 +114,7 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |LinkedIn  <br/> | `ipm.externaldata.LinkedIn*` <br/> |
 |MFTP  <br/> | `ipm.externaldata.MFTP*` <br/> |
 |Microsoft UC  <br/> | `ipm.externaldata.MicrosoftUC*` <br/> |
-|마음 맞춤  <br/> | `ipm.externaldata.MindAlign*` <br/> |
+|Mind Align  <br/> | `ipm.externaldata.MindAlign*` <br/> |
 |Mobile Guard  <br/> | `ipm.externaldata.MobileGuard*` <br/> |
 |MSN  <br/> | `ipm.externaldata.MSN*` <br/> |
 |MySpace  <br/> | `ipm.externaldata.MySpace*` <br/> |
@@ -128,7 +128,7 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |비즈니스용 Skype  <br/> | `ipm.externaldata.Skype*` <br/> |
 |Slack Enterprise Grid  <br/> | `ipm.externaldata.Slack.IM` <br/> |
 |SoftEther  <br/> | `ipm.externaldata.SoftEther*` <br/> |
-|스쿼커  <br/> | `ipm.externaldata.Squawker*` <br/> |
+|스쿼워커  <br/> | `ipm.externaldata.Squawker*` <br/> |
 |Symphony  <br/> | `ipm.externaldata.Symphony*` <br/> |
 |Thomson Reuters  <br/> | `ipm.externaldata.Reuters*` <br/> |
 | Thomson Reuters Eikon Messenger  <br/> | `ipm.externaldata.ReutersEikon*` <br/> |

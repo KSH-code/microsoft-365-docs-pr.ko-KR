@@ -13,7 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Contoso On-premises IT 인프라의 기본 구조와 엔터프라이즈용 Microsoft 365를 통해 회사의 비즈니스 요구를 충족하는 방법을 이해합니다.
+description: Contoso 사내 IT 인프라의 기본 구조와 엔터프라이즈용 클라우드를 통해 회사의 비즈니스 요구를 Microsoft 365 이해합니다.
 ms.openlocfilehash: 72d502b5078a1e572eeba27832550af52907e209
 ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
@@ -23,19 +23,19 @@ ms.locfileid: "49558409"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT 인프라 및 비즈니스 요구
 
-Contoso는 중앙 집중식 중앙 IT 인프라에서 클라우드 기반 개인 생산성 워크로드 및 응용 프로그램을 통합하는 클라우드 포함 설치로 전환하고 있습니다.
+Contoso는 중앙 집중식 사내 IT 인프라에서 클라우드 기반 개인 생산성 워크로드 및 응용 프로그램을 통합하는 클라우드 포함 설치로 전환하고 있습니다.
 
 ## <a name="existing-contoso-it-infrastructure"></a>기존 Contoso IT 인프라
 
 Contoso는 주로 중앙 집중식 온-프레미스 IT 인프라를 사용하며, 응용 프로그램 데이터 센터는 파리 본사에 있습니다.
 
-다음은 응용 프로그램 데이터 센터, DMZ 및 인터넷이 있는 본사 사무실입니다.
+다음은 응용 프로그램 데이터 센터, DMZ 및 인터넷이 있는 본사입니다.
 
 ![기존 Contoso IT 인프라](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
 
 온-프레미스 응용 프로그램 데이터 센터에서는 다음과 같은 것들을 호스팅합니다. 
 
-- 사용자 지정 업무(LINE-OF-BUSINESS) 응용 프로그램으로, SQL Server 및 기타 Linux 데이터베이스를 사용합니다.
+- 응용 프로그램 및 기타 Linux 데이터베이스를 SQL Server 사용자 지정 업무(LINE-OF-BUSINESS) 응용 프로그램
 - 레거시 SharePoint 서버 집합
 - 파일 저장을 위한 조직 및 팀 수준 서버
 
@@ -57,10 +57,10 @@ Contoso 비즈니스 요구는 다음과 같은 다섯 가지 주요 범주로 �
 
 - 보다 쉽게 공동으로 작업
 
-  전자 메일 및 파일 공유 기반 공동 작업을 문서, 보다 간편한 온라인 모임 및 캡처된 대화 스레드를 실시간으로 변경할 수 있는 온라인 모델로 대체합니다.
+  전자 메일 및 파일 공유 기반 공동 작업을 문서에 대한 실시간 변경, 보다 쉬운 온라인 모임 및 캡처된 대화 스레드를 허용하는 온라인 모델로 대체합니다.
 - 원격 및 모바일 작업자의 생산성 향상
 
-  많은 직원이 재택 근무 또는 현장에서 작업하는 경우 병목 현상이 있는 VPN 솔루션을 클라우드의 Contoso 데이터 및 리소스에 대한 액세스로 대체합니다.
+  많은 직원이 재택 근무 또는 현장에서 작업하는 경우 병목 현상이 있는 VPN 솔루션을 클라우드의 Contoso 데이터 및 리소스에 대한 다양한 액세스로 대체하세요.
 - 창의성 및 혁신 증대
 
   수동 입력과 3D 시각화를 포함하여 최신 수준의 시각적 학습 및 아이디어 개발 방식을 활용할 수 있습니다.
@@ -94,36 +94,36 @@ Contoso 비즈니스 요구는 다음과 같은 다섯 가지 주요 범주로 �
 
   일반적으로 액세스하는 리소스를 클라우드로 이동하여 유지 관리 및 지원 비용을 절감하고 원격 액세스 솔루션의 성능을 향상합니다.
 
-- B2B(비즈니스-에지) 트랜잭션에 대한 더 나은 연결 제공 및 오버헤드 감소
+- B2B(비즈니스 대 Susiness) 트랜잭션에 대한 연결 향상 및 오버헤드 감소
 
-  고령화 및 비용이 많이 드는 파트너 엑스트라넷을 페더타 인증을 사용하는 클라우드 기반 솔루션으로 대체합니다.
+  페더넷 인증을 사용하는 클라우드 기반 솔루션으로 고가의 고가의 파트너 엑스트라넷을 대체합니다.
 
 **규정 준수**
 
 - 지역별 규정 준수
 
-  데이터 저장, 암호화, 데이터 개인 정보 보호 및 개인 데이터 규정(예: 유럽 연합에 대한 GDPR(일반 데이터 보호 규정))에 대한 산업 및 지역 규정을 준수합니다.
+  데이터 저장, 암호화, 데이터 개인 정보 보호 및 유럽 연합에 대한 GDPR(일반 데이터 보호 규정)과 같은 개인 데이터 규정에 대한 산업 및 지역 규정을 준수합니다.
 
 **관리**
 
 - 클라이언트 PC 및 장치에서 실행되는 소프트웨어를 관리하기 위한 IT 오버헤드 감소
 
-  조직 전체에서 Windows 운영 체제 및 엔터프라이즈용 Microsoft 365 앱에 대한 업데이트 설치를 자동화합니다.
+  조직 전체에서 Windows 및 엔터프라이즈용 Microsoft 365 앱 업데이트 설치를 자동화합니다.
 
-## <a name="mapping-contoso-business-needs-to-microsoft-365-for-enterprise"></a>Contoso 비즈니스 요구를 엔터프라이즈용 Microsoft 365에 매핑
+## <a name="mapping-contoso-business-needs-to-microsoft-365-for-enterprise"></a>엔터프라이즈를 위해 Contoso 비즈니스 요구 Microsoft 365 매핑
 
-Contoso IT 부서는 배포 전에 다음과 같은 비즈니스 요구 사항을 Microsoft 365 E5 기능에 매핑하기로 결정했습니다.
+Contoso IT 부서는 배포 전에 비즈니스 요구 사항을 Microsoft 365 E5 매핑하기로 결정했습니다.
 
 
-| 범주 | 비즈니스 요구 | 엔터프라이즈용 Microsoft 365 제품 또는 기능 |
+| Category | 비즈니스 요구 | Microsoft 365 제품 또는 기능에 대한 데이터 관리 |
 |:-------|:-----|:-----|
 | 생산성 |  |  |
 |  | 보다 쉽게 공동으로 작업 | Microsoft Teams, SharePoint, OneDrive |
 |  | 원격 및 모바일 작업자의 생산성 향상 | Microsoft 365 워크로드 및 클라우드 기반 데이터 |
 |  | 창의성 및 혁신 증대 | Windows Ink, Cortana at Work, PowerPoint |
 | 보안 |  |  |
-|  | ID 및 액세스 관리 | Azure AD MFA(Multi-Factor Authentication) 및 Azure PIM(Privileged Identity Management)을 사용하는 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
-|  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Office 365용 Defender <BR> Office 365용 Microsoft Defender <BR> Microsoft 365 위협 조사 및 대응 <BR> |
+|  | ID 및 액세스 관리 | Azure AD MFA(Multi-Factor Authentication) 및 Azure PIM(Azure AD 2013)Privileged Identity Management 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
+|  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Office 365용 Defender <BR> Office 365용 Microsoft Defender <BR> Microsoft 365 조사 및 대응 <BR> |
 |  | 정보 보호 | Azure Information Protection <BR> DLP(데이터 손실 방지) <BR> WIP(Windows Information Protection) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | 보안 관리 | Azure Defender  <BR> Windows Defender 보안 센터 |
 | 원격 및 모바일 액세스 및 비즈니스 파트너 |  |  |
@@ -131,14 +131,14 @@ Contoso IT 부서는 배포 전에 다음과 같은 비즈니스 요구 사항�
 |  | 직원을 위한 원격 액세스 인프라 감소 | Microsoft 365 워크로드 및 클라우드 기반 데이터 |
 |  | B2B 트랜잭션에 대한 연결 향상 및 오버헤드 감소 | 페더레이션된 인증 및 클라우드 기반 리소스 |
 | 규정 준수 |  |  |
-|  | 지역별 규정 준수 | Microsoft 365의 GDPR 기능 |
+|  | 지역별 규정 준수 | GDPR의 Microsoft 365 |
 | 관리 |  |  |
 |  | 클라이언트 업데이트 설치를 위한 IT 오버헤드 감소 | Windows 10 Enterprise 업데이트 <BR> Microsoft Office 365 ProPlus 업데이트 |
 ||||
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso Corporation의 [On-premises 네트워크와](contoso-networking.md) Microsoft 365 클라우드 기반 리소스에 대한 액세스 및 대기 시간에 최적화된 방법에 대해 자세히 알아보습니다.
+Contoso [Corporation의](contoso-networking.md) 사내 네트워크와 클라우드 기반 리소스에 대한 액세스 및 대기 시간에 최적화된 Microsoft 365 대해 자세히 알아보습니다.
 
 ## <a name="see-also"></a>참고 항목
 

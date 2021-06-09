@@ -1,5 +1,5 @@
 ---
-title: 독일의 Office 365 끝점
+title: Office 365 끝점
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,7 +18,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
-description: 이 문서에서는 독일의 Office 365를 사용하는 고객이 도달할 수 있는 끝점을 찾을 수 있습니다.
+description: 이 문서에서는 독일에서 서비스를 사용하는 고객이 Office 365 있습니다.
 hideEdit: true
 ms.openlocfilehash: 0d96300e77c67ac05ea18ab23d63c01d4f840dfb
 ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
@@ -31,11 +31,11 @@ ms.locfileid: "51759897"
 
  *적용 사항: Office 365 관리자*
 
-Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점은 **Office 365 Germany** 요금제만 사용하는 고객에게 도달할 수 있습니다.
+Office 365 인터넷에 연결해야 합니다. 아래 끝점은 독일 요금제만 사용하는 **Office 365 수** 있습니다.
 
 > [!NOTE]
-> 독일의 새 Microsoft 365 데이터 센터 지역으로 전환하는 고객의 경우 끝점이 변경됩니다.
-> 자세한 내용은 독일 Microsoft 클라우드에서 새 독일 데이터 센터 지역의 [Office 365 서비스로 마이그레이션을 참조하세요.](ms-cloud-germany-transition.md)
+> 독일의 새 Microsoft 365 지역으로 전환하는 고객의 경우 끝점이 변경됩니다.
+> 자세한 내용은 독일 Microsoft 클라우드에서 독일 Office 365 지역으로 [마이그레이션을 참조하세요.](ms-cloud-germany-transition.md)
   
  **Office 365 끝점:** [전 세계(GCC 포함)](urls-and-ip-address-ranges.md)  | [21vianet에서 운영하는 Microsoft Office 365](urls-and-ip-address-ranges-21vianet.md)  | *Microsoft Office 365 Germany*  |  [Office 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) | [Office 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md)  |
   
@@ -47,7 +47,7 @@ Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점
 
 이 페이지에 아래에 표시된 데이터는 모두 REST 기반 웹 서비스에서 생성됩니다. 스크립트나 네트워크 장치를 사용하여 이 데이터에 액세스하는 경우 직접 [웹 서비스로](microsoft-365-ip-web-service.md) 이동해야 합니다.
 
-아래의 끝점 데이터는 사용자의 컴퓨터와 Office 365의 연결에 대한 요구 사항을 나열합니다. 하이브리드 또는 인바운드 네트워크 연결이라고도 하는 Microsoft에서 고객 네트워크로의 네트워크 연결을 포함하지 않습니다.
+아래의 끝점 데이터에는 사용자 컴퓨터와 사용자 컴퓨터의 연결 요구 사항이 Office 365. 하이브리드 또는 인바운드 네트워크 연결이라고도 하는 Microsoft에서 고객 네트워크로의 네트워크 연결을 포함하지 않습니다.
 
 끝점은 네 가지 서비스 영역으로 그룹화됩니다. 첫 번째 세 개의 서비스 영역은 연결용으로 개별 선택할 수 있습니다. 네 번째 서비스 영역(Microsoft 365 Common 및 Office 라고 함)은 일반적인 종속성이 있으며 항상 네트워크에 연결된 상태여야 합니다.
 

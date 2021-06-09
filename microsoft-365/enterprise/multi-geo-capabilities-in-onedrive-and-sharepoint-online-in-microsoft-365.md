@@ -27,7 +27,7 @@ ms.locfileid: "48995912"
 ---
 # <a name="multi-geo-capabilities-in-onedrive-and-sharepoint-online"></a>OneDrive 및 SharePoint Online의 Multi-Geo 기능
 
-OneDrive 및 SharePoint Online의 Multi-Geo 기능을 사용하면 SharePoint 팀 사이트와 같은 공유 리소스와 국가 또는 지역에 저장되어 있는 Microsoft 365 그룹 사서함을 제어할 수 있습니다.
+OneDrive 및 SharePoint Online의 Multi-Geo 기능을 사용하면 SharePoint 팀 사이트 및 Microsoft 365 휴지통에 저장된 그룹 사서함과 같은 공유 리소스를 제어할 수 있습니다.
 
 각 사용자, 그룹 사서함 및 SharePoint 사이트에는 관련 데이터가 저장되는 지리적 위치를 나타내는 기본 설정 데이터 위치(PDL)가 있습니다. 사용자의 개인 데이터(Exchange 사서함 및 OneDrive)는 물론 생성한 Microsoft 365 그룹 또는 SharePoint 사이트가 데이터 상주 요건 충족을 위해 특정 지리적 위치에 저장될 수 있습니다. [각 지리적 위치에 대해 다른 관리자를 지정](add-a-sharepoint-geo-admin.md)할 수 있습니다.
 

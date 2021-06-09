@@ -54,7 +54,7 @@ ms.locfileid: "52470559"
 > [!div class="mx-imgBorder"]
 > ![백hauled 네트워크 유선](../media/m365-mac-perf/m365-mac-perf-insights-detail-backhauled.png)
 
-### <a name="what-does-this-mean"></a>시나리오
+### <a name="what-does-this-mean"></a>어떤 의미가 있나요?
 
 이는 사무실 위치와 네트워크 출구 사이의 거리가 500 마일(800킬로미터)보다 먼지(킬로미터)를 식별합니다. 사무실 위치는 난해한 클라이언트 컴퓨터 위치로 식별됩니다. 네트워크에서 위치는 역방향 IP 주소를 사용하여 위치 데이터베이스에 식별됩니다. 컴퓨터의 위치 서비스를 사용하지 않도록 Windows 사무실 위치가 부정확할 수 있습니다. 역방향 IP 주소 데이터베이스 정보가 부정확한 경우 네트워크 유입 위치가 부정확할 수 있습니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "52470559"
 
 한 가지 네트워크 중계 인사이트는 네트워크 중계 장치에 의해 가로채기 및 암호 해독되는 Exchange, SharePoint Teams 네트워크 끝점에 대한 중요한 네트워크 끝점이 있는 경우 SS Office 365 L 중단 및 검사입니다.
 
-### <a name="what-does-this-mean"></a>시나리오
+### <a name="what-does-this-mean"></a>어떤 의미가 있나요?
 
 프록시 서버, VPN 및 데이터 손실 방지 장치와 같은 네트워크 중간 장치는 트래픽이 중간에 있는 Microsoft 365 클라이언트의 성능과 안정성에 영향을 줄 수 있습니다.
 
@@ -89,7 +89,7 @@ ms.locfileid: "52470559"
 > [!div class="mx-imgBorder"]
 > ![상대 네트워크 성능](../media/m365-mac-perf/m365-mac-perf-insights-detail-cust-near-you.png)
 
-### <a name="what-does-this-mean"></a>시나리오
+### <a name="what-does-this-mean"></a>어떤 의미가 있나요?
 
 이 인사이트는 이 사무실 위치와 동일한 Microsoft 365 고객에 대한 집계 성과를 검사합니다. 이 인사이트는 사용자의 평균 대기 시간이 인접 테넌트의 평균 대기 시간보다 10% 더 큰 경우 표시됩니다.
 
@@ -106,7 +106,7 @@ ms.locfileid: "52470559"
 > [!div class="mx-imgBorder"]
 > ![최적이 아닌 EXO 프런트 도어](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-exo.png)
 
-### <a name="what-does-this-mean"></a>시나리오
+### <a name="what-does-this-mean"></a>어떤 의미가 있나요?
 
 당사는 Exchange Online 사무실 위치 도시에서 사용하기에 적합한 서비스 프런트 도어를 나열합니다. 현재 테스트에서 이 목록에 없는 Exchange Online 서비스 프런트 도어를 사용하는 것으로 표시되어 있는 경우 이 권장을 호출합니다.
 
@@ -123,7 +123,7 @@ ms.locfileid: "52470559"
 > [!div class="mx-imgBorder"]
 > ![최적이 아닌 SPO 프런트 도어](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-spo.png)
 
-### <a name="what-does-this-mean"></a>시나리오
+### <a name="what-does-this-mean"></a>어떤 의미가 있나요?
 
 테스트 클라이언트가 SharePoint 온라인 서비스 프런트 도어를 식별합니다. 그런 다음 사무실 위치 도시에 대해 해당 도시에 대한 SharePoint 온라인 서비스 프런트 도어와 비교합니다. 일치하지 않는 경우 이 권장됩니다.
 
@@ -137,7 +137,7 @@ ms.locfileid: "52470559"
 
 이 인사이트는 일부 요약 보기에서 "Throughput"로 약어됩니다.
 
-### <a name="what-does-this-mean"></a>시나리오
+### <a name="what-does-this-mean"></a>어떤 의미가 있나요?
 
 사용자가 SharePoint Online 및 비즈니스용 OneDrive 도어에서 얻을 수 있는 다운로드 속도는 메가바이트(MBps) 단위로 측정됩니다. 이 값이 1MBps보다 작은 경우 이 정보를 제공합니다.
 
@@ -149,7 +149,7 @@ ms.locfileid: "52470559"
 
 이 인사이트는 조직에서 중국의 사용자가 다른 지리적 위치에 있는 Microsoft 365 테넌트에 연결하는 경우 표시됩니다. 
 
-### <a name="what-does-this-mean"></a>시나리오
+### <a name="what-does-this-mean"></a>어떤 의미가 있나요?
 
 조직에 개인 WAN 연결이 있는 경우 다음 위치 중 한 위치에서 인터넷으로 네트워크가 유출된 중국의 사무실 위치에서 네트워크 WAN 회로를 구성하는 것이 좋습니다.
 
@@ -170,7 +170,7 @@ ms.locfileid: "52470559"
 
 이 인사이트는 샘플링된 연결 중 50% 이상이 영향을 미치는 경우를 보여 주게 됩니다. 영향은 각 샘플에 Exchange 60% 미만인 평가로 정의됩니다.
 
-### <a name="what-does-this-mean"></a>시나리오
+### <a name="what-does-this-mean"></a>어떤 의미가 있나요?
 
 이는 대부분의 사용자가 사용자 환경과 연결되지 Outlook 경험할 가능성이 Exchange Online. 샘플의 백분율은 60포인트 미만으로 표시하는 사용자의 백분율을 나타내고 있습니다.  
 
@@ -182,7 +182,7 @@ ms.locfileid: "52470559"
 
 이 인사이트는 샘플링된 연결 중 50% 이상이 영향을 미치는 경우를 보여 주게 됩니다. 영향은 각 샘플에 SharePoint 40% 미만인 평가로 정의됩니다.
 
-### <a name="what-does-this-mean"></a>시나리오
+### <a name="what-does-this-mean"></a>어떤 의미가 있나요?
 
 이는 대부분의 사용자가 사용자 환경 문제 및 사용자 환경과 관련한 SharePoint OneDrive. 샘플의 백분율은 40포인트 미만으로 표시하는 사용자의 백분율을 나타내고 있습니다.  
 

@@ -22,14 +22,14 @@ ms.locfileid: "49659717"
 
 <!--Application addendum -->
  
-Microsoft Managed Desktop을 사용하려면 장치의 성능, 안정성 및 서비스를 보장하기 위해 특정 접근 방식을 사용하여 장치를 관리해야 합니다.
+Microsoft Managed Desktop 장치의 성능, 안정성 및 서비스성을 보장하기 위해 특정 접근 방식을 사용하여 장치를 관리해야 합니다.
 
 
-|관리 영역  |Microsoft Managed Desktop 접근 방식  |
+|관리 영역  |Microsoft Managed Desktop 방법  |
 |---------|---------|
 |장치 구성 또는 정책 관리     |  Microsoft Intune       |
-|응용 프로그램 관리      | Microsoft Intune 및 회사 포털        |
-|드라이버 배포     |  디바이스, Windows 업데이트 또는 Intune에 포함된 드라이버       |
+|응용 프로그램 관리      | Microsoft Intune 회사 포털        |
+|드라이버 배포     |  장치, Windows 또는 Intune에 포함된 드라이버       |
 |장치 보안     | 장치 [보안 참조](security.md#device-security)      |
 |ID 및 액세스 관리     | ID [및 액세스 관리 참조](security.md#identity-and-access-management)        |
 |네트워크 보안     | 네트워크 [보안 참조](security.md#network-security)        |
@@ -41,4 +41,4 @@ Microsoft Managed Desktop을 사용하려면 장치의 성능, 안정성 및 서
 
 
 
-Microsoft Managed Desktop은 관리되는 장치에서 실행 중인 다른 소프트웨어를 모니터링할 수 있습니다. 장치 관리, 장치 보안, 성능 또는 안정성에 부정적인 영향을 미치는 경우 서비스 계획에 대한 예외를 [요청해야 할 수 있습니다.](customizing.md)
+Microsoft Managed Desktop 장치에서 실행 중인 다른 소프트웨어를 모니터링할 수 있습니다. 장치 관리, 장치 보안, 성능 또는 안정성에 부정적인 영향을 미치는 경우 서비스 계획에 대한 예외를 요청해야 할 [수 있습니다.](customizing.md)

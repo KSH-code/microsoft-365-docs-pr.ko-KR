@@ -523,7 +523,7 @@ Top **malware report** shows the various kinds of malware that was detected by [
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기**
+- **보안 읽기 권한자**
 - **전역 읽기 권한자**
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.

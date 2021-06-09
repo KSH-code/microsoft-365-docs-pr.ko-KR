@@ -1,6 +1,6 @@
 ---
-title: ServiceNow 티켓을 Microsoft 365 보안 센터 및 규정 준수 센터에 통합
-description: Microsoft 365 보안 센터 및 규정 준수 센터에서 ServiceNow에서 티켓을 만들고 추적하는 방법을 학습합니다.
+title: ServiceNow 티켓을 Microsoft 365 및 규정 준수 센터에 통합
+description: 서비스 보안 센터 및 규정 준수 센터에서 ServiceNow에서 티켓을 Microsoft 365 방법을 학습합니다.
 keywords: 보안, Microsoft 365, M365, 규정 준수, 규정 준수 센터, 보안 센터, ServiceNow, 티켓, 작업, SNOW, 연결
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51569874"
 ---
-# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow 티켓을 Microsoft 365 보안 센터 및 규정 준수 센터에 통합
+# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow 티켓을 Microsoft 365 및 규정 준수 센터에 통합
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

@@ -35,7 +35,7 @@ DLP(데이터 손실 방지) 정책의 기준이 사용자가 중요한 항목�
 
 ## <a name="workloads"></a>워크로드
 
-[Microsoft 365](https://compliance.microsoft.com/)규정 준수 센터의 [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts)경고 관리 대시보드에는 다음 워크로드에 대한 DLP 정책에 대한 경고가 표시됩니다.
+Microsoft 365 규정 준수 센터의 [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts)경고 관리 [대시보드는](https://compliance.microsoft.com/)다음 워크로드에 대한 DLP 정책에 대한 경고를 보여줍니다.
 
 - Exchange
 - SharePoint
@@ -44,7 +44,7 @@ DLP(데이터 손실 방지) 정책의 기준이 사용자가 중요한 항목�
 - Windows 10 장치 
 
 > [!TIP]
-> [Teams](dlp-microsoft-teams.md) DLP 자격이 있는 [끝점 DLP를](endpoint-dlp-learn-about.md) 사용하는 고객은 DLP 경고 관리 대시보드에서 끝점 DLP 정책 경고 및 Teams DLP 정책 경고를 볼 수 있습니다.
+> Teams DLP를 사용할 수 있는 끝점 [DLP를](endpoint-dlp-learn-about.md) 사용하는 고객에게는 끝점 DLP 정책 경고 및 [DLP](dlp-microsoft-teams.md) Teams 관리 대시보드에서 DLP 정책 경고가 표시됩니다.
 
 ## <a name="single-alert-and-aggregate-alert"></a>단일 경고 및 집계 경고
 
@@ -82,7 +82,7 @@ DLP 정책에서 구성할 수 있는 두 가지 유형의 경고가 있습니�
 |전자 메일 제목 |DLP 정책과 일치하는 전자 메일의 제목 |Exchange 이벤트|
 |전자 메일 첨부 파일 | DLP 정책과 일치하는 전자 메일의 첨부 파일 이름| Exchange 이벤트|
 |사이트 소유자 |사이트 소유자의 이름| SharePoint 및 OneDrive 이벤트|
-|사이트 URL |DLP 정책 일치가 발생한 SharePoint 또는 OneDrive 사이트의 URL 전체 |SharePoint 및 OneDrive 이벤트|
+|사이트 URL |DLP 정책이 일치하는 SharePoint OneDrive 사이트의 URL 전체 |SharePoint 및 OneDrive 이벤트|
 |만든 파일 |DLP 정책과 일치하는 파일을 만들 때의 시간 |SharePoint 및 OneDrive 이벤트|
 |마지막으로 수정한 파일 | DLP 정책과 일치하는 파일이 마지막으로 변경된 시간 | SharePoint 및 OneDrive 이벤트|
 |파일 크기 | DLP 정책과 일치하는 파일의 크기 |SharePoint 및 OneDrive 이벤트|

@@ -122,7 +122,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화 제거를
 
 아직 조직을 새 OME 기능으로 이동하지 않은 경우 조직에 적절한 새 OME 기능으로 이동하는 계획을 세우는 것이 좋습니다. 자세한 내용은 Azure Information Protection을 Office 365 메시지 암호화 새로운 Office 365 메시지 암호화 기능 [설치를 참조하세요.](set-up-new-message-encryption-capabilities.md) 그렇지 않으면 새 OME 기능을 사용하지 Office 365 메시지 암호화 메일 흐름 규칙 [정의를 참조합니다.](legacy-information-for-message-encryption.md#defining-mail-flow-rules-for-office-365-message-encryption-that-dont-use-the-new-ome-capabilities)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365의 암호화](encryption.md)
 

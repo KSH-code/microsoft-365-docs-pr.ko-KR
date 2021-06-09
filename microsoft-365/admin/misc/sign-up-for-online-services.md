@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4f374dc7-b96c-49c7-80ed-554716ba0138
-description: 'IT 부서에 개입하지 않고도 직장 또는 학교 전자 메일을 사용하여 Microsoft 온라인 서비스에 등록하는 방법을 배워야 합니다. '
+description: 'IT 부서가 개입하지 않고도 직장 또는 학교 전자 메일을 사용하여 Microsoft 온라인 서비스에 등록하는 방법을 배워야 합니다. '
 ms.openlocfilehash: ad46d698398da32d88d0c1617499b326e8fcb163
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT

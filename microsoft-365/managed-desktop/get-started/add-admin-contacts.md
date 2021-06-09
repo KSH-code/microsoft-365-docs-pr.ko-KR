@@ -42,7 +42,7 @@ Microsoft Managed Desktop 관리 포털을 사용하려면 포털에 액세스 �
 앱 패키징 | 앱 패키징 문제 해결
 장치 | 장치 상태, Microsoft Managed Desktop 장치를 사용하여 문제 해결
 보안 | Microsoft Managed Desktop 장치를 사용하여 보안 문제 해결
-IT 지원 센터 | 지원 직원이 Microsoft Managed Desktop 지원 영역 외부에서 사용자 티켓을 넘긴 경우 
+IT 지원 센터 | 지원 직원이 지원 영역 외부에서 사용자 티켓을 Microsoft Managed Desktop 경우 
 기타 | 다른 영역에서 다루지 않는 문제
 
 **이러한 연락처로 선택한 사용자는 Microsoft Managed Desktop 환경을 결정할 수 있는 지식과 권한이 있어야 합니다.** Microsoft Managed Desktop 환경을 온보드하는 경우 로컬 지원 센터 및 보안에 대한 연락처를 추가하라는 메시지가 표시됩니다. 

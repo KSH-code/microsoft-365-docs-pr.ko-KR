@@ -79,7 +79,7 @@ For frequently asked questions about using drive shipping to import PST files to
     
 - Drive shipping is available through a Microsoft 기업계약 (EA). MPSA(Microsoft 제품 및 서비스 계약)를 통해서는 드라이브 배송이 가능하지 않습니다.
     
-- 드라이브 배송을 사용하여 PST 파일을 Microsoft 365 사서함으로 가져오는 비용은 데이터 GB당 2 USD입니다. 예를 들어 1,000GB(1TB)의 PST 파일이 포함된 하드 드라이브를 배송하는 경우 비용은 2,000,000원입니다. 파트너와 협의하여 가져오기 요금을 지불할 수 있습니다. 파트너를 찾는 방법에 대한 내용은 [Microsoft 파트너 또는 대리점 찾기](../admin/manage/find-your-partner-or-reseller.md)를 참조하세요.
+- 드라이브 발송을 사용하여 Microsoft 365 사서함에 PST 파일을 가져오는 데 드는 비용은 1GB의 데이터당 2,000원입니다. 예를 들어 1,000GB(1TB)의 PST 파일이 포함된 하드 드라이브를 배송하는 경우 비용은 2,000,000원입니다. 파트너와 협의하여 가져오기 요금을 지불할 수 있습니다. 파트너를 찾는 방법에 대한 내용은 [Microsoft 파트너 또는 대리점 찾기](../admin/manage/find-your-partner-or-reseller.md)를 참조하세요.
     
 - 사용자나 조직은 FedEx 또는 DHL 계정이 있어야 합니다. 
     
@@ -124,7 +124,7 @@ For frequently asked questions about using drive shipping to import PST files to
     > [!NOTE]
     > 앞서 설명한 것 처럼 준수 센터의 가져오기  페이지에 액세스하려면 적절한 사용 Microsoft 365 합니다. 
   
-3. 가져오기 **탭에서** 아이콘 ![ 추가 새 ](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 을 클릭합니다.**
+3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 새로 만들기** 를 클릭합니다.
     
 4. 가져오기 작업 마법사에서 PST 가져오기 작업의 이름을 입력하고 다음 을 **클릭합니다.** 소문자, 숫자, 하이픈 및 밑줄을 사용하세요. 이름에는 대문자를 사용하거나 공백을 포함할 수 없습니다.
     
@@ -255,7 +255,7 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
 
 2. 규정 준수 센터의 왼쪽 탐색 Microsoft 365 정보 **거버넌스 가져오기 를** \> **클릭합니다.**
 
-3. 가져오기 **탭에서** 아이콘 ![ 추가 새 ](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 을 클릭합니다.**
+3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 새로 만들기** 를 클릭합니다.
 
     > [!NOTE]
     > 앞서 설명한 것 처럼 준수 센터의 가져오기  페이지에 액세스하려면 적절한 사용 Microsoft 365 합니다.
@@ -402,9 +402,9 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
 
 1. <https://compliance.microsoft.com>으로 이동한 후 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다.
 
-2. Microsoft 365 센터의 왼쪽 창에서 가져오기 에서 정보 **거버넌스 > 클릭합니다.**
+2. Microsoft 365 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스 > 가져오기** 를 클릭합니다.
 
-3. 가져오기 **탭에서** 아이콘 ![ 추가 새 ](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 을 클릭합니다.**
+3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 새로 만들기** 를 클릭합니다.
 
 4. 가져오기 작업 마법사에서 PST 가져오기 작업의 이름을 입력하고 다음 을 **클릭합니다.** 소문자, 숫자, 하이픈 및 밑줄을 사용하세요. 이름에는 대문자를 사용하거나 공백을 포함할 수 없습니다.
 

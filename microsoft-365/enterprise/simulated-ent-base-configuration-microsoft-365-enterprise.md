@@ -17,7 +17,7 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
-description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 Microsoft 365의 시뮬레이트된 엔터프라이즈 테스트 환경을 만들 수 있습니다.
+description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 테스트를 위한 시뮬레이트된 Microsoft 365 환경을 만들 수 있습니다.
 ms.openlocfilehash: 8df63e1a580b57aa263c11dccaed947f46f2cbb9
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,9 +27,9 @@ ms.locfileid: "50926047"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>시뮬레이트된 엔터프라이즈 기본 구성
 
-*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 및 Office 365 Enterprise 테스트 환경에 모두 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 및 엔터프라이즈용 Microsoft 365 둘 다에 사용할 Office 365 Enterprise 있습니다.*
 
-이 문서에서는 다음을 포함하는 엔터프라이즈용 Microsoft 365의 간소화된 환경을 만드는 방법을 설명합니다.
+이 문서에서는 다음을 포함하는 엔터프라이즈용 Microsoft 365 간소화된 환경을 만드는 방법을 설명합니다.
 
 - Microsoft 365 E5 평가판 또는 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷으로, Azure Virtual Network의 3개의 가상 머신(DC1, APP1 및 CLIENT1)으로 구성됩니다.
@@ -40,18 +40,18 @@ ms.locfileid: "50926047"
 - [1단계: 시뮬레이트된 인트라넷 만들기](#phase-1-create-a-simulated-intranet)
 - [2단계: Microsoft 365 E5 구독 만들기](#phase-2-create-your-microsoft-365-e5-subscription)
 
-결과 환경을 사용하여 추가 테스트 랩 가이드를 사용하여 엔터프라이즈용 [Microsoft 365의](https://www.microsoft.com/microsoft-365/enterprise) 기능과 기능을 테스트하거나 직접 [테스트할](m365-enterprise-test-lab-guides.md) 수 있습니다.
+결과 환경을 사용하여 추가 테스트 랩 가이드를 [](https://www.microsoft.com/microsoft-365/enterprise) 사용하여 엔터프라이즈용 Microsoft 365 [](m365-enterprise-test-lab-guides.md) 기능을 테스트할 수 있습니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵은 [엔터프라이즈용 Microsoft 365 테스트](../downloads/Microsoft365EnterpriseTLGStack.pdf)랩 가이드 스택으로 이동하세요.
+> 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 자세한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>1단계: 시뮬레이트된 인트라넷 만들기
 
 이 단계에서는 AD DS(Active Directory 도메인 서비스) 도메인 컨트롤러, 응용 프로그램 서버 및 클라이언트 컴퓨터를 포함하는 Azure 인프라 서비스에 시뮬레이트된 인트라넷을 구축합니다.
 
-추가 [엔터프라이즈용 Microsoft 365 테스트](m365-enterprise-test-lab-guides.md) 랩 가이드에서 이러한 컴퓨터를 사용하여 하이브리드 ID 및 기타 기능을 구성하고 보여줄 것입니다.
+이러한 컴퓨터를 엔터프라이즈용 추가 테스트 랩 Microsoft 365 사용하여 하이브리드 ID [및](m365-enterprise-test-lab-guides.md) 기타 기능을 구성하고 보여줄 것입니다.
 
 ### <a name="method-1-build-your-simulated-intranet-with-an-azure-resource-manager-template"></a>방법 1: Azure Resource Manager 템플릿으로 시뮬레이트된 인트라넷 만들기
 
@@ -160,19 +160,19 @@ DC1의 로컬 관리자 계정에 대한 사용자 이름과 암호를 입력하
   
 다음으로 DC1 가상 컴퓨터에 연결합니다.
   
-1. Azure [Portal에서](https://portal.azure.com)리소스  그룹을 선택하고 > <리소스 그룹의 이름 _> > _ ****  >  **연결합니다.**
+1. Azure [Portal에서](https://portal.azure.com)리소스 그룹을 선택하고 **> <** 리소스 그룹의 이름 ***_***> > _ DC1  >  커넥트.
     
-2. 열린 창에서 **RDP 파일 다운로드를 선택합니다.** 다운로드한 DC1.rdp 파일을 열고 연결을 **선택합니다.**
+2. 열린 창에서 **RDP 파일 다운로드를 선택합니다.** 다운로드한 DC1.rdp 파일을 열고 를 **커넥트.**
     
 3. DC1 로컬 관리자 계정 이름을 지정합니다.
     
    - Windows 7:
     
-     Windows 보안 **대화** 상자에서 다른 계정 **사용을 선택합니다.** 사용자 **이름 에** **\\ DC1** 로컬 관리자 계정 < *이름*>.
+     사용자 **Windows 보안** 다른 계정 사용을 **선택합니다.** 사용자 **이름 에** **\\ DC1** 로컬 관리자 계정 < *이름*>.
     
    - Windows 8.1 또는 Windows 10:
     
-     Windows **보안 대화** 상자에서 추가 **선택** 을 선택한 다음 다른 계정 사용을 **선택합니다.** 사용자 **이름 에** **\\ DC1** 로컬 관리자 계정 < *이름*>.
+     추가 **Windows 보안** 대화 상자에서 추가 선택 을 선택한 다음 다른 계정 사용을 **선택합니다.** 사용자 **이름 에** **\\ DC1** 로컬 관리자 계정 < *이름*>.
     
 4. **암호에서** 로컬 관리자 계정의 암호를 입력한 다음 확인 을 **선택합니다.**
     
@@ -197,11 +197,11 @@ Install-ADDSForest -DomainName testlab.$yourDomain -DatabasePath "F:\NTDS" -Sysv
   
 DC1이 다시 시작되면 DC1 가상 머신에 다시 연결합니다.
   
-1. Azure [Portal에서](https://portal.azure.com)리소스  그룹 > <DC1 Connect에서 리소스 *> >*   >  **선택합니다.**
+1. Azure [Portal에서](https://portal.azure.com)리소스  그룹 을  > <**DC1**> > 그룹  >  **커넥트.**
     
-2. 다운로드한 DC1.rdp 파일을 실행한 다음 연결을 **선택합니다.**
+2. 다운로드된 DC1.rdp 파일을 실행한 다음 를 **커넥트.**
     
-3. **Windows 보안에서** 다른 계정 **사용을 선택합니다.** 사용자 **이름에** **TESTLAB \\** 로컬 관리자 계정 < *이름 입력을>.*
+3. 에서 **Windows 보안** 다른 계정 **사용을 선택합니다.** 사용자 **이름에** **TESTLAB \\** 로컬 관리자 계정 < *이름 입력을>.*
     
 4. 암호 **상자에** 로컬 관리자 계정의 암호를 입력한 다음 확인 을 **선택합니다.**
     
@@ -379,13 +379,13 @@ Azure Portal에서 CORP\User1 계정을 사용하여 CLIENT1에 연결합니다.
 
 #### <a name="using-an-office-365-e5-test-environment"></a>Office 365 E5 테스트 환경 사용
 
-Office 365 테스트 환경만 필요한 경우 이 문서의 나머지 내용을 읽을 필요가 없습니다.
+테스트 환경만 Office 365 경우 이 문서의 나머지 내용을 읽을 필요가 없습니다.
 
-Microsoft 365 및 Office 365에 적용되는 추가 테스트 랩 가이드는 [엔터프라이즈용 Microsoft 365 테스트 랩 가이드를 참조하세요.](m365-enterprise-test-lab-guides.md)
+Microsoft 365 및 Office 365 테스트 랩 가이드에 Microsoft 365 테스트 랩 가이드를 [참조하세요.](m365-enterprise-test-lab-guides.md)
 
 ### <a name="add-a-microsoft-365-e5-trial-subscription"></a>Microsoft 365 E5 평가판 구독 추가
 
-Microsoft 365 E5 평가판 구독을 추가하고 라이선스를 통해 사용자 계정을 구성하려면 간단한 기본 구성 테스트 [랩 가이드의 3단계에](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) 있는 지침을 수행하세요.
+Microsoft 365 E5 평가판 구독을 추가하고 사용자 계정을 라이선스로 구성하려면 간단한 기본 구성 테스트 랩 [가이드의 3단계에](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) 있는 지침을 수행하세요.
 
   
 ## <a name="results"></a>결과
@@ -400,7 +400,7 @@ Microsoft 365 E5 평가판 구독을 추가하고 라이선스를 통해 사용�
   
 ![시뮬레이트된 엔터프라이즈 기반 구성 2단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
   
-이제 엔터프라이즈용 [Microsoft 365의](https://www.microsoft.com/microsoft-365/enterprise)추가 기능을 실험할 준비가 완료되었습니다.
+이제 엔터프라이즈용 에디터스 에디터의 추가 [기능을 Microsoft 365 준비가 완료되었습니다.](https://www.microsoft.com/microsoft-365/enterprise)
   
 ## <a name="next-steps"></a>다음 단계
 

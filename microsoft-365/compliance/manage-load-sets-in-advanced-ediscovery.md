@@ -1,5 +1,5 @@
 ---
-title: Advanced eDiscovery에서 로드 집합 관리
+title: 2013에서 로드 집합 Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: Advanced eDiscovery에서 부하 집합을 관리하는 방법을 자세히 알아보고,
+description: 2013에서 부하 집합을 관리하는 방법을 Advanced eDiscovery.
 ms.openlocfilehash: 38eb0e19c7e62a42df85343d3328b941332adc03
 ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
@@ -23,6 +23,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 09/26/2020
 ms.locfileid: "48285604"
 ---
-# <a name="manage-load-sets-in-advanced-ediscovery"></a>Advanced eDiscovery에서 로드 집합 관리
+# <a name="manage-load-sets-in-advanced-ediscovery"></a>2013에서 로드 집합 Advanced eDiscovery
 
 곧 제공될 콘텐츠입니다.
