@@ -1,7 +1,7 @@
 ---
-title: 위협 및 취약성 관리를 통해 취약성 수정
-description: 보안 권장 사항을 통해 발견된 보안 약점을 수정하고 필요한 경우 위협 및 취약성 관리에서 예외를 만듭니다.
-keywords: Microsoft Defender for Endpoint tvmmediation, Microsoft Defender for Endpoint tvm, threat and vulnerability management, threat & vulnerability management, threat & vulnerability management remediation, tvm remediation intune, tvm remediation sccm
+title: 보안 문제를 해결하여 취약성 위협 및 취약성 관리
+description: 보안 권장 사항을 통해 발견된 보안 약점을 수정하고 필요한 경우 예외를 위협 및 취약성 관리.
+keywords: Microsoft Defender for Endpoint tvmmediation, Microsoft Defender for Endpoint tvm, 위협 및 취약성 관리, threat & 취약성 관리, threat & 취약성 관리 remediation, tvm remediation intune, tvm remediation sccm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,63 +18,63 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 56b6c809e31285bbfae47a5fdcc0446890919e8b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 602a38d8ad27505e81628db265681ac89218e593
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934072"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840914"
 ---
-# <a name="remediate-vulnerabilities-with-threat-and-vulnerability-management"></a>위협 및 취약성 관리를 통해 취약성 수정
+# <a name="remediate-vulnerabilities-with-threat-and-vulnerability-management"></a>보안 문제를 해결하여 취약성 위협 및 취약성 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 ## <a name="request-remediation"></a>요청 수정
 
-Microsoft Defender for Endpoint의 위협 및 취약성 관리 기능은 수정 요청 워크플로를 통해 보안 관리자와 IT 관리자 간의 격차를 해소합니다. 보안 관리자는 IT 관리자에게 보안 권장 페이지에서 Intune으로의  취약점 수정을 요청할 수 있습니다.
+끝점용 Microsoft Defender의 위협 및 취약성 관리 기능은 업데이트 관리 요청 워크플로를 통해 보안 관리자와 IT 관리자 간의 격차를 해소합니다. 보안 관리자는 IT 관리자에게 보안 권장 페이지에서 Intune으로의  취약점 수정을 요청할 수 있습니다.
 
-### <a name="enable-microsoft-intune-connection"></a>Microsoft Intune 연결 사용
+### <a name="enable-microsoft-intune-connection"></a>연결 Microsoft Intune 사용
 
-이 기능을 사용하려면 Microsoft Intune 연결을 사용하도록 설정해야 합니다. Microsoft Defender 보안 센터에서 설정 **일반** 고급  >    >  **기능으로 이동합니다.** 아래로 스크롤하여 **Microsoft Intune 연결을 확인합니다.** 기본적으로 토글은 꺼져 있습니다. Microsoft **Intune 연결** 토글을 **으로 전환합니다.**
+이 기능을 사용하려면 사용자 Microsoft Intune 사용하도록 설정해야 합니다. 이 Microsoft Defender 보안 센터 일반 고급 **설정**  >    >  **로 이동합니다.** 아래로 스크롤하여 연결 **Microsoft Intune 확인합니다.** 기본적으로 토글은 꺼져 있습니다. 사용자 Microsoft Intune **켜기** **토글합니다.**
 
 **참고:** Intune 연결을 사용하도록 설정한 경우 수정 요청을 만들 때 Intune 보안 작업을 만드는 옵션이 제공됩니다. 연결이 설정되어 있지 않은 경우 이 옵션이 나타나지 않습니다.
 
-자세한 [내용은 Intune을 사용하여 끝점용 Microsoft Defender로](https://docs.microsoft.com/intune/atp-manage-vulnerabilities) 식별된 취약점 수정을 참조합니다.
+자세한 [내용은 Intune을 사용하여 끝점용 Microsoft Defender로](/intune/atp-manage-vulnerabilities) 식별된 취약점 수정을 참조합니다.
 
 ### <a name="remediation-request-steps"></a>재구성 요청 단계
 
-1. Microsoft Defender 보안 센터의 위협 및 취약성 관리 탐색 메뉴로 이동하여 보안 권장 [**사항을 선택합니다.**](tvm-security-recommendation.md)
+1. 에서 위협 및 취약성 관리 탐색 메뉴로 이동하고 Microsoft Defender 보안 센터 권장 [**사항을 선택합니다.**](tvm-security-recommendation.md)
 
 2. 재구성 요청을 할 보안 권장을 선택한 다음 수정 옵션을 **선택합니다.**
 
 3. 수정을 요청하는 사항, 해당 장치 그룹, 우선 순위, 기한 및 선택적 메모를 포함하여 양식을 작성합니다.
     1. "주의 필요" 수정 옵션을 선택하는 경우 특정 작업이 아니기 때문에 기한을 선택할 수 없습니다.
 
-4. 요청 **제출을 선택합니다.** 수정 요청을 제출하면 위협 및 취약성 관리 내에 재구성 활동 항목이 생성됩니다. 이 항목은 이 권장에 대한 재구성 진행 상황을 모니터링하는 데 사용할 수 있습니다. 이렇게 하면 수정이 트리거되거나 장치에 변경 내용이 적용되지 않습니다.
+4. 요청 **제출을 선택합니다.** 재구성 요청을 제출하면 이 권장 위협 및 취약성 관리 재구성 진행 상황을 모니터링하는 데 사용할 수 있는 재구성 활동 항목이 생성됩니다. 이렇게 하면 수정이 트리거되거나 장치에 변경 내용이 적용되지 않습니다.
 
 5. IT 관리자에게 새 요청을 알리고 Intune에 로그인하여 요청을 승인하거나 거부하고 패키지 배포를 시작하게 합니다.
 
 6. [**재구성 페이지로 이동하여**](tvm-remediation.md) 재구성 요청의 상태를 시청하세요.
 
-Intune에서 티켓이 어떻게 표시하는지 확인하려는 경우 [Intune을 사용하여 끝점용 Microsoft Defender로](https://docs.microsoft.com/intune/atp-manage-vulnerabilities) 식별된 취약점 수정을 참조하세요.
+Intune에서 티켓이 어떻게 표시하는지 확인하려는 경우 [Intune을 사용하여 끝점용 Microsoft Defender로](/intune/atp-manage-vulnerabilities) 식별된 취약점 수정을 참조하세요.
 
 >[!NOTE]
 >요청에 10,000개가 넘는 장치를 수정해야 하는 경우 수정을 위해 10,000개가 넘는 장치만 Intune에 보낼 수 있습니다.
 
-조직의 사이버 보안 약점을 식별하고 실행 가능한 보안 권장 사항에 매핑한 후 [보안](tvm-security-recommendation.md)작업 만들기를 시작하세요. 재구성 티켓이 만들어진 Microsoft Intune과의 통합을 통해 작업을 만들 수 있습니다.
+조직의 사이버 보안 약점을 식별하고 실행 가능한 보안 권장 사항에 매핑한 후 [보안](tvm-security-recommendation.md)작업 만들기를 시작하세요. 재구성 티켓이 만들어진 위치와 통합하여 Microsoft Intune 만들 수 있습니다.
 
 보안 권장 사항을 수정하여 취약성에 대한 조직의 노출을 낮추고 보안 구성을 강화합니다.
 
 ## <a name="view-your-remediation-activities"></a>재구성 활동 보기
 
-보안 권장 사항 페이지에서 재구성 요청을 제출하면 수정 활동이 시작됩니다. 위협 및 취약성 관리 수정 페이지에서 추적할 수  있는 보안 작업이 만들어지며 Microsoft Intune에서 수정 티켓이 만들어집니다.
+보안 권장 사항 페이지에서 재구성 요청을 제출하면 수정 활동이 시작됩니다. 업데이트 관리 페이지에서 추적할 수 있는 보안  작업이 위협 및 취약성 관리 업데이트 관리 페이지에서 업데이트 관리 티켓이 Microsoft Intune.
 
 "주의 필요" 수정 옵션을 선택한 경우 모니터링할 수 있는 실제 작업이 아니기 때문에 진행률 표시줄, 티켓 상태 또는 기한이 없습니다.
 
@@ -96,7 +96,7 @@ Intune에서 티켓이 어떻게 표시하는지 확인하려는 경우 [Intune�
 
 ### <a name="top-remediation-activities-in-the-dashboard"></a>대시보드의 상위 수정 활동
 
-위협 **및 취약성** 관리 대시보드에서 상위 수정 [활동을 을 볼 수 있습니다.](tvm-dashboard-insights.md) 수정 페이지로 이동하려면 항목을 **선택합니다.** IT 관리자 팀이 작업을 수정한 후 재구성 활동을 완료된 것으로 표시하면 됩니다.
+사이트 **대시보드에서** 상위 [재구성 위협 및 취약성 관리 을 볼 수 있습니다.](tvm-dashboard-insights.md) 수정 페이지로 이동하려면 항목을 **선택합니다.** IT 관리자 팀이 작업을 수정한 후 재구성 활동을 완료된 것으로 표시하면 됩니다.
 
 ![보안 권장 사항에서 생성된 주요 활동을 나열하는 표가 있는 상위 수정 활동 카드의 예](images/tvm-remediation-activities-card.png)
 

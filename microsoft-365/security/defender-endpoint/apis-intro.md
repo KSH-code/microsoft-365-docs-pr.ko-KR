@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 43c797dc8ee9f431ceda6ddecb0a1eada0e362f5
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 9d3f4431825193d189f7ea1d73b6a99163cac428
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769656"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843701"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-apis"></a>엔드포인트용 Microsoft Defender API에 액세스 
 
@@ -40,7 +40,7 @@ ms.locfileid: "52769656"
 
 
 
-Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 통해 워크플로를 자동화하고 끝점용 Defender 기능을 기반으로 혁신할 수 있습니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 통해 워크플로를 자동화하고 끝점용 Defender 기능을 기반으로 혁신할 수 있습니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 끝점 API용 Defender에 대한 간략한 개요는 이 비디오를 시청하세요. 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4d73M]

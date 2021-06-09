@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 8b3b864e716957c24893d2097249440b0a90f10a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 626be9e949170fcda1f0bcf2a88e1b9780bbe764
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186104"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841093"
 ---
 # <a name="investigate-alerts-in-microsoft-defender-for-endpoint"></a>Microsoft Defender에서 끝점에 대한 경고 조사
 
@@ -40,7 +40,7 @@ ms.locfileid: "51186104"
 
 경고 큐에서 경고를 선택하여 경고 페이지로 이동합니다. 이 보기에는 경고 제목, 영향을 받는 자산, 세부 정보 쪽 창 및 경고 스토리가 포함되어 있습니다.
 
-경고 페이지에서 경고 스토리 트리 보기에서 영향을 받는 자산 또는 엔터티를 선택하여 조사를 시작합니다. 세부 정보 창에는 선택한 내용에 대한 추가 정보가 자동으로 채워집니다. 여기에서 볼 수 있는 정보의 종류를 표시하기 위해 [끝점용 Microsoft Defender의 경고 검토를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/review-alerts)
+경고 페이지에서 경고 스토리 트리 보기에서 영향을 받는 자산 또는 엔터티를 선택하여 조사를 시작합니다. 세부 정보 창에는 선택한 내용에 대한 추가 정보가 자동으로 채워집니다. 여기에서 볼 수 있는 정보의 종류를 표시하기 위해 [끝점용 Microsoft Defender의 경고 검토를 참조하세요.](/microsoft-365/security/defender-endpoint/review-alerts)
 
 ## <a name="investigate-using-the-alert-story"></a>경고 스토리를 사용하여 조사
 

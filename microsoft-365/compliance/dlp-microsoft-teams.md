@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Teams 채널은 DLP(데이터 손실 방지) 정책을 지원합니다.
-ms.openlocfilehash: 6467ae7fdfc9c8636bd306efde5cb89c100e5e6c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: fa7e0967e24d8fa5e64b84fbccf54ff8cf45d1d6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782564"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843545"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -46,7 +46,7 @@ Office 365 Microsoft 365 E3 온라인, OneDrive 및 SharePoint DLP 보호가 Exc
 
 채팅에서 DLP 보호를 지원하려면 Teams E5가 필요합니다.
 
-라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참고하십시오.
+라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참고하십시오.
 
 > [!IMPORTANT]
 > DLP는 채팅 또는 채널 스레드의 실제 메시지에만 적용됩니다. 짧은 메시지 미리 보기를 포함하며 사용자의 알림 설정에 따라 나타나는 활동  알림은 DLP에 Teams 없습니다. 미리 보기에 표시되는 메시지 부분에 있는 모든 중요한 정보는 DLP 정책이 적용되고 메시지 자체를 제거한 후에도 알림에 계속 표시됩니다.
@@ -228,5 +228,5 @@ DLP 보호는 엔터티에 Teams 다르게 적용됩니다.
 
 ## <a name="related-articles"></a>관련 문서
 
-- [ DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](use-notifications-and-policy-tips.md)

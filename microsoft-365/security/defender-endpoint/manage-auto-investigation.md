@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
-ms.openlocfilehash: b0c983f4ba939cee6485570af774c8a728c73944
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 410972bd823c3a3c4fda53cacc225014d83f3457
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274931"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844013"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>자동화된 조사 후 수정 작업 검토
 
@@ -39,7 +39,7 @@ ms.locfileid: "52274931"
 
 - 위협 유형, 
 - 결과 결과 및 
-- 조직의 장치 [그룹](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups) 구성 방법 
+- 조직의 장치 [그룹](/microsoft-365/security/defender-endpoint/machine-groups) 구성 방법 
 
 수정 작업은 자동으로 또는 조직의 보안 운영 팀의 승인 시에만 발생할 수 있습니다. 
 
@@ -49,7 +49,7 @@ ms.locfileid: "52274931"
 
 - **예제 2:** Contoso의 장치는 Semi - 모든 수정에 대한 승인이 필요한 장치 그룹에 **포함되어 있습니다.** 이 경우 Contoso의 보안 운영 팀은 자동화된 조사 후 모든 수정 작업을 검토하고 승인해야 [합니다(보류 중인](#review-pending-actions)작업 검토 참조).
 
-- **예제 3:** Tailspin Toys의 장치 그룹이 **자동화된** 응답 없음(권장하지 않음)으로 설정되어 있습니다. 이 경우 자동화된 조사가 발생하지 않습니다. 수정 작업이 수행되거나 보류 중이 아니며, 장치에 [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center#the-action-center) 대한 관리 센터에 작업이 [기록되지 않습니다(장치](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups#manage-device-groups)그룹 관리 참조).
+- **예제 3:** Tailspin Toys의 장치 그룹이 **자동화된** 응답 없음(권장하지 않음)으로 설정되어 있습니다. 이 경우 자동화된 조사가 발생하지 않습니다. 수정 작업이 수행되거나 보류 중이 아니며, 장치에 [](/microsoft-365/security/defender-endpoint/auto-investigation-action-center#the-action-center) 대한 관리 센터에 작업이 [기록되지 않습니다(장치](/microsoft-365/security/defender-endpoint/machine-groups#manage-device-groups)그룹 관리 참조).
 
 자동 또는 승인 시 자동화된 조사를 수행하면 하나 이상의 수정 작업이 수행될 수 있습니다.
 - 파일 Quarantine a file
@@ -111,8 +111,8 @@ ms.locfileid: "52274931"
 |**Semi - 핵심 폴더 수정에 대한 승인 필요** |증거에 *대한 의심스러운* 판정에 도달합니다. <br/><br/>수정 작업이 승인 보류 중입니다.  |[보류 중인 작업을 승인(또는 거부) 합니다.](#review-pending-actions)|
 |**Semi - 비 임시 폴더 수정에 대한 승인 필요** |악의적인 *판정은* 증거에 도달합니다. <br/><br/>아티팩트가 사용자의 다운로드 폴더 또는 임시 폴더와 같이 임시 폴더에 없는 파일 또는 실행 파일인 경우 수정 작업은 승인 보류 중입니다. <br/><br/>아티팩트가 임시 폴더에  있는 파일 또는 실행 파일인 경우 수정 작업이 자동으로 수행됩니다.  |1. [보류 중인 작업](#review-pending-actions) 승인(또는 거부)<br/><br/>2. [완료된 작업 검토](#review-completed-actions)  |
 |**Semi - 비 임시 폴더 수정에 대한 승인 필요** |증거에 *대한 의심스러운* 판정에 도달합니다. <br/><br/>수정 작업이 승인 보류 중입니다. |[보류 중인 작업 승인(또는 거부)](#review-pending-actions)  | 
-|모든 **전체** 또는 **세미** 자동화 수준 |증거에 *대한* 위협 없음에 대한 판결이 도달했습니다. <br/><br/>재구성 작업은 수행하지 않습니다. 승인 보류 중인 작업은 없습니다. |[자동화된 조사의 세부 정보 및 결과 보기](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
-|**자동 응답** 없음(권장하지 않음)|자동화된 조사가 실행되지 않습니다. 따라서 판정에 도달하지 못하고 수정 작업이 수행되거나 승인을 기다리지 않습니다. |[전체 또는 세미 자동화를  사용할 수 있도록 장치 그룹을 **설정하거나 변경하는 것을 고려합니다.**](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups) |
+|모든 **전체** 또는 **세미** 자동화 수준 |증거에 *대한* 위협 없음에 대한 판결이 도달했습니다. <br/><br/>재구성 작업은 수행하지 않습니다. 승인 보류 중인 작업은 없습니다. |[자동화된 조사의 세부 정보 및 결과 보기](/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
+|**자동 응답** 없음(권장하지 않음)|자동화된 조사가 실행되지 않습니다. 따라서 판정에 도달하지 못하고 수정 작업이 수행되거나 승인을 기다리지 않습니다. |[전체 또는 세미 자동화를  사용할 수 있도록 장치 그룹을 **설정하거나 변경하는 것을 고려합니다.**](/microsoft-365/security/defender-endpoint/machine-groups) |
 
 끝점용 Microsoft Defender에서 모든 판정은 관리 [센터에서 추적됩니다.](auto-investigation-action-center.md#new-a-unified-action-center)
 

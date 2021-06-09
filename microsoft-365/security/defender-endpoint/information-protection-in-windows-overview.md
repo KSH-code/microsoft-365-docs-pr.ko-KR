@@ -1,7 +1,7 @@
 ---
 title: Windows의 정보 보호 개요
 ms.reviewer: ''
-description: Windows에서 정보 보호가 작동하는 방식에 대해 알아보고 중요한 정보를 식별하고 보호합니다.
+description: 중요한 정보를 식별하고 보호하기 위해 Windows 보호에서 정보 보호가 작동하는 방식에 대해 자세히 알아보기
 keywords: 정보, 보호, dlp, 데이터, 손실, 방지, 보호
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 65c5161f110e95008f2dc56aa3a2d17266ac1cb1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9d68f879fe8fd9379b286c106ed9229895f91b9a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933352"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841112"
 ---
 # <a name="information-protection-in-windows-overview"></a>Windows의 정보 보호 개요
 
@@ -37,16 +37,16 @@ ms.locfileid: "51933352"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-정보 보호는 Microsoft 365 Enterprise 제품군의 중요한 부분으로, 작업 공간에서 생산성을 유지하면서 중요한 데이터를 안전하게 보호하는 지능형 보호 기능을 제공합니다.
+정보 보호는 업무 공간에서 생산성을 Microsoft 365 Enterprise 중요한 데이터를 안전하게 유지하는 지능형 보호 기능을 제공하는 Microsoft 365 Enterprise 제품군의 중요한 부분입니다.
 
 
 >[!TIP]
-> Microsoft Defender for Endpoint가 Microsoft Information Protection과 통합되어 Windows 장치에서 중요한 데이터를 검색, 보호 및 모니터링하는 방법에 대한 [블로그 게시물을 읽어 읽습니다.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
+> Microsoft Defender for Endpoint가 Microsoft Information Protection과 통합되어 모든 장치에서 중요한 데이터를 검색, 보호 및 모니터링하는 Windows 블로그 [게시물을 읽어 읽습니다.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
 
 Endpoint용 Defender는 다음 방법을 적용하여 데이터를 검색, 분류 및 보호합니다.
 
-- **데이터 검색** - 위험에 노출된 Windows 장치에서 중요한 데이터 식별
-- **데이터 분류** - Office 365 보안 및 준수 센터에서 관리되는 일반적인 MIP(Microsoft Information Protection) 정책을 & 분류합니다. 자동 분류를 사용하면 최종 사용자가 중요한 데이터를 수동으로 분류하지 않은 경우에도 보호할 수 있습니다.
+- **데이터 검색** - 위험에 노출된 Windows 중요한 데이터 식별
+- **데이터 분류** - 보안 및 준수 센터에서 관리되는 일반적인 MIP(Microsoft Information Protection) 정책을 Office 365 & 분류합니다. 자동 분류를 사용하면 최종 사용자가 중요한 데이터를 수동으로 분류하지 않은 경우에도 보호할 수 있습니다.
 
 
 ## <a name="data-discovery-and-data-classification"></a>데이터 검색 및 데이터 분류
@@ -55,14 +55,14 @@ Endpoint용 Defender는 민감도 레이블이 있는 파일과 중요한 정보
 
 민감도 레이블은 중요한 콘텐츠를 분류하고 보호하는 데 도움이 됩니다.
 
-Office 365 DLP(데이터 손실 방지) 구현의 중요한 정보 유형은 다음 두 가지 범주로 분류됩니다.
+DLP(Office 365 손실 방지) 구현의 중요한 정보 유형은 다음 두 가지 범주로 분류됩니다.
 
 - 기본값
 - 사용자 지정
 
-기본 중요한 정보 유형에는 은행 계좌 번호, 주민 번호 또는 국가 번호와 같은 정보가 포함됩니다. 자세한 내용은 중요한 정보 [유형이 를 찾아보는 것을 참조하세요.](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for)
+기본 중요한 정보 유형에는 은행 계좌 번호, 주민 번호 또는 국가 번호와 같은 정보가 포함됩니다. 자세한 내용은 중요한 정보 [유형이 를 찾아보는 것을 참조하세요.](/office365/securitycompliance/what-the-sensitive-information-types-look-for)
 
-사용자 지정 유형은 정의하는 유형으로, 다른 유형의 중요한 정보(예: 직원의 신분증 또는 프로젝트 번호)를 보호하도록 디자인되어 있습니다. 자세한 내용은 사용자 지정 중요한 정보 [유형 만들기를 참조하세요.](https://docs.microsoft.com/office365/securitycompliance/create-a-custom-sensitive-information-type)
+사용자 지정 유형은 정의하는 유형으로, 다른 유형의 중요한 정보(예: 직원의 신분증 또는 프로젝트 번호)를 보호하도록 디자인되어 있습니다. 자세한 내용은 사용자 지정 중요한 정보 [유형 만들기를 참조하세요.](/office365/securitycompliance/create-a-custom-sensitive-information-type)
 
 Windows 장치에서 파일을 만들거나 편집하면 Endpoint용 Defender는 콘텐츠를 검사하여 중요한 정보가 포함되어 있는지 평가합니다.
 
@@ -87,9 +87,9 @@ Windows 장치에서 파일을 만들거나 편집하면 Endpoint용 Defender는
 
 ## <a name="log-analytics"></a>Log Analytics
 
-끝점용 Defender를 기반으로 하는 데이터 검색은 [Azure Log Analytics에서도](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)사용할 수 있습니다. 여기서 원시 데이터에 대해 복잡한 쿼리를 수행할 수 있습니다.
+끝점용 Defender를 기반으로 하는 데이터 검색은 [Azure Log Analytics에서도](/azure/log-analytics/log-analytics-overview)사용할 수 있습니다. 여기서 원시 데이터에 대해 복잡한 쿼리를 수행할 수 있습니다.
 
-Azure Information Protection 분석에 대한 자세한 내용은 Azure Information Protection에 대한 [중앙 보고를 참조하세요.](https://docs.microsoft.com/azure/information-protection/reports-aip)
+Azure Information Protection 분석에 대한 자세한 내용은 Azure Information Protection에 대한 [중앙 보고를 참조하세요.](/azure/information-protection/reports-aip)
 
 Azure Portal에서 Azure Log Analytics를 열고 쿼리 작성기(표준 또는 클래식)를 여십시오.
 
@@ -103,8 +103,8 @@ InformationProtectionLogs_CL
 **선행 준비 사항:**
 
 - 고객은 Azure Information Protection 구독이 있어야 합니다.
-- Microsoft Defender 보안 센터에서 Azure Information Protection 통합을 사용하도록 설정:
-    - Microsoft Defender 보안 **센터의** 설정으로 이동하여 일반 아래의 **고급 설정을** **클릭합니다.**
+- 다음을 통해 Azure Information Protection 통합을 Microsoft Defender 보안 센터.
+    - Go to **설정** in Microsoft Defender 보안 센터, click on **Advanced 설정** under **General**.
 
 
 

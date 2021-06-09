@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: dd0cc3c2da134750f905b1f80746d6ec65cc70b2
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: a0718f8e3aba27e6fbfc92a4308278f4c629275f
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769709"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843797"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate(이전 Microsoft Flow) 및 Azure Functions
 
@@ -42,7 +42,7 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Flow 커넥터가
 ![자격 증명 편집 이미지1](images/api-flow-0.png)
 
 > [!NOTE]
-> 프리미엄 커넥터 라이선싱 선행 조건에 대한 자세한 내용은 프리미엄 커넥터에 대한 라이선싱을 [참조합니다.](https://docs.microsoft.com/power-automate/triggers-introduction#licensing-for-premium-connectors)
+> 프리미엄 커넥터 라이선싱 선행 조건에 대한 자세한 내용은 프리미엄 커넥터에 대한 라이선싱을 [참조합니다.](/power-automate/triggers-introduction#licensing-for-premium-connectors)
 
 
 ## <a name="usage-example"></a>사용 예제

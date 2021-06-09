@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 로컬 스크립트를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보딩합니다.
-ms.openlocfilehash: e9efa76af72f9169bdec1acf35d72066ac0a776e
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 55109d8fda52db6651d4398cd84ffd6668b4d871
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893309"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843449"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 사용하여 Windows 10 장치 온보딩
 
@@ -93,7 +93,7 @@ ms.locfileid: "51893309"
 
 
 ## <a name="monitor-device-configuration"></a>장치 구성 모니터링
-[온보딩 문제 해결](()의 다양한 확인 단계를 수행하여 스크립트가 성공적으로 완료되고 에이전트가 실행되고 있는지 https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding) 확인할 수 있습니다.
+[온보딩 문제 해결](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)의 다양한 확인 단계를 수행하여 스크립트가 성공적으로 완료되고 에이전트가 실행되고 있는지 확인할 수 있습니다.
 
 모니터링은 포털에서 직접 수행하거나 다른 배포 도구를 사용하여 수행될 수도 있습니다.
 

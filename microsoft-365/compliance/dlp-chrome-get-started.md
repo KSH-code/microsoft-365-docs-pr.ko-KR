@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 준비하고 배포합니다.
-ms.openlocfilehash: 084d8fea1bffb012b4a4685dd28ec93df8e29b19
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 5a2fa5958117d14715292245924dce2ff63b09a0
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730513"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843833"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장 시작하기
 
@@ -55,7 +55,7 @@ Microsoft 규정 준수 확장을 사용하려면 장치가 엔드포인트 DLP�
 - Microsoft 365 E5 Information Protection 및 거버넌스
 - Microsoft 365 A5 Information Protection 및 거버넌스
 
-자세한 라이선싱에 대한 지침은 [보안 및 준수에 대한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)을 참조하세요.
+자세한 라이선싱에 대한 지침은 [보안 및 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)을 참조하세요.
 
 - 조직에는 엔드포인트 DLP에 대한 라이선스가 있어야 합니다.
 - 장치에서 Windows 10 x64 빌드 1809 이상을 실행해야 합니다.
@@ -169,7 +169,7 @@ Microsoft 규정 준수 확장 배포는 다단계 프로세스입니다. 한 �
 
 Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용하여 조직 전체에 Microsoft 규정 준수 확장을 배포할 수 있습니다.
 
-1. 장치는 그룹 정책을 통해 관리할 수 있어야 하며 모든 Chrome ADMX를 그룹 정책 중앙 저장소로 가져와야 합니다. 자세한 내용은 [Windows의 그룹 정책 관리 서식 파일에 대한 중앙 저장소를 만들고 관리하는 방법](https://docs.microsoft.com/troubleshoot/windows-client/group-policy/create-and-manage-central-store)을 참조하세요.
+1. 장치는 그룹 정책을 통해 관리할 수 있어야 하며 모든 Chrome ADMX를 그룹 정책 중앙 저장소로 가져와야 합니다. 자세한 내용은 [Windows의 그룹 정책 관리 서식 파일에 대한 중앙 저장소를 만들고 관리하는 방법](/troubleshoot/windows-client/group-policy/create-and-manage-central-store)을 참조하세요.
 
 2.  다음 PowerShell 명령을 사용하여 PowerShell 스크립트를 작성합니다.
 
@@ -276,8 +276,8 @@ Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용�
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
-- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Windows 10 컴퓨터용 온보딩 도구 및 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
+- [Windows 10 컴퓨터용 온보딩 도구 및 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Azure AD 가입 장치](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Azure AD 가입 장치](/azure/active-directory/devices/concept-azure-ad-join)
 - [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

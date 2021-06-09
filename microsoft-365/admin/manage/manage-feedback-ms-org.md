@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자가 Microsoft 제품에 대해 Microsoft에 보낼 수 있는 피드백을 관리합니다.
-ms.openlocfilehash: 490081ace32203d015ee8cf3561ccf0ae978bace
-ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
+ms.openlocfilehash: 70ea1d5c176dd603f6a5addb09356909f13f9ace
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51657010"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840673"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>조직에 대한 Microsoft 피드백 관리
 
-Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용할 때 사용자 의견 수집 및 사용자 참여 환경을 관리하는 데 도움이 되는 몇 가지 정책이 있습니다. 이러한 각 정책에 대해 조직의 기존 Azure Active Directory 그룹을 만들고 사용할 수 있습니다. 이러한들을 사용하여 조직의 여러 부서가 Microsoft에 피드백을 보낼 수 있는 방법을 제어할 수 있습니다. Microsoft는 고객이 제출한 모든 피드백을 검토하고 이 피드백을 사용하여 제품을 개선합니다. 피드백 환경을 으로  유지하면 사용 중이던 Microsoft 제품에 대해 사용자가 말하는 것을 볼 수 있습니다. 사용자로부터 수집한 피드백은 Microsoft 365 관리 센터에서 곧 제공될 예정입니다.
+Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용할 때 사용자의 피드백 수집 및 고객 참여 환경을 관리하는 데 도움이 되는 몇 가지 Microsoft 365 있습니다. 이러한 각 정책에 대해 조직의 기존 Azure Active Directory 그룹을 만들고 사용할 수 있습니다. 이러한들을 사용하여 조직의 여러 부서가 Microsoft에 피드백을 보낼 수 있는 방법을 제어할 수 있습니다. Microsoft는 고객이 제출한 모든 피드백을 검토하고 이 피드백을 사용하여 제품을 개선합니다. 피드백 환경을 으로  유지하면 사용 중이던 Microsoft 제품에 대해 사용자가 말하는 것을 볼 수 있습니다. 사용자로부터 수집한 피드백은 사용자 센터에서 곧 Microsoft 365 있습니다.
 
 피드백 유형 및 Microsoft에서 사용자 피드백을 사용하는 방법에 대한 자세한 내용은 [조직에 대한 Microsoft 피드백에 대해 자세히 보기를 참조합니다.](../misc/feedback-user-control.md)
 
@@ -51,7 +51,7 @@ Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용
 |**Visio**|예|예|예|예|
 |**Yammer**|예|예|예|예|
 
-[제품 내 설문 조사 및 피드백의 몇 가지 예는 여기를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/misc/feedback-user-control?view=o365-worldwide#in-product-surveys)
+[제품 내 설문 조사 및 피드백의 몇 가지 예는 여기를 참조하세요.](/microsoft-365/admin/misc/feedback-user-control#in-product-surveys)
 
 **메타데이터 컬렉션**
 
@@ -94,7 +94,7 @@ Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용
 1. 피드백 및 **설문 조사를** **검색합니다.**
 1. 나열된 각 정책에 대해 원하는 값을 설정합니다.
 
-자세한 내용은 Office 클라우드 정책 [서비스 개요를 참조하세요.](/deployoffice/overview-office-cloud-policy-service)
+자세한 내용은 클라우드 정책 서비스 Office [개요를 참조하세요.](/deployoffice/overview-office-cloud-policy-service)
 
 이러한 정책 설정은 그룹 정책을 사용하는 경우도 사용할 수 있습니다. 이러한 정책 설정을 사용하려면 2021년 3월 22일 출시된 관리 템플릿 [파일(ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030)버전 5146.1000 이상을 다운로드합니다.
 

@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: eed486120673abc513490f4892069ee8fd9bba21
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e258a7fec21bd3499553fe726730ac685ff990b5
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636161"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821382"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -133,7 +133,7 @@ ms.locfileid: "52636161"
   
 정책에서 메일 그룹을 할당하면 정책은 메일 그룹의 각 사용자의 모든 전자 메일 Teams 모니터링합니다. 정책에서 Microsoft 365 그룹을 할당하면 정책은 각 그룹 구성원이 수신한 개별 전자 메일 및 Teams 아닌 해당 그룹에 전송된 모든 전자 메일 및 Teams 채팅을 모니터링합니다.
 
-Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사용자의 Microsoft Teams 채팅을 모니터링하려는 경우 모니터링할 메일 그룹을 만들어야 합니다. 이 단계의 나중에 이 메일 그룹을  정책 마법사에서 감독된 사용자 및 그룹 선택으로 할당합니다.
+Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사용자의 Microsoft Teams 채팅을 모니터링하려는 경우 모니터링할 메일 그룹을 만들어야 합니다. 이 단계의 나중에 이 메일 그룹을  정책 마법사에서 감독된 사용자 및 그룹 선택으로 할당합니다. 클라우드 기반 저장소를 사용하도록 설정하기 위한 요구 사항 및 제한 사항에 대한 자세한 내용은 Teams 사용자에 대한 Teams 채팅 데이터 검색을 [참조하세요.](search-cloud-based-mailboxes-for-on-premises-users.md)
 
 대규모 엔터프라이즈 조직에서 감독되는 사용자를 관리하려면 대규모 그룹의 모든 사용자를 모니터링해야 할 수 있습니다. PowerShell을 사용하여 할당된 그룹에 대한 전역 통신 준수 정책에 대한 메일 그룹을 구성할 수 있습니다. 이렇게 하면 단일 정책으로 수천 명의 사용자를 모니터링하고 신입 사원이 조직에 가입할 때 통신 준수 정책을 업데이트할 수 있습니다.
 

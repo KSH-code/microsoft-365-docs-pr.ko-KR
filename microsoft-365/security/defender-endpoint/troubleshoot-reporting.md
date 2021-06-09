@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ca62db922a13ab2cb3226eaf0efb92bfaf8c572b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ab987089c20d0a1d0baed152e7ddcfdd2878cc65
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274895"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843461"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-reporting-in-update-compliance"></a>업데이트 규정 준수에서 Microsoft Defender 바이러스 백신 보고 문제 해결
 
@@ -66,7 +66,7 @@ Windows [분석](/windows/deployment/update/update-compliance-using#wdav-assessm
 > - 끝점이 1607 Windows 10 실행 중인 경우 Windows 10 진단 데이터를 고급 [수준으로 설정해야 합니다.](/windows/configuration/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
 > - 모든 요구 사항이 충족된 후 3일이 지났습니다.
 
-"업데이트 준수와 함께 Microsoft Defender 바이러스 백신 수 있습니다. E3, B, F1, VL 및 Pro 상태가 표시됩니다. 그러나 E5 라이선스의 경우 끝점용 Microsoft Defender 포털( 를 사용해야 https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) 합니다. 라이선스 옵션에 대한 자세한 내용은 Windows 10 라이선스 옵션을 참조하세요."
+"업데이트 준수와 함께 Microsoft Defender 바이러스 백신 수 있습니다. E3, B, F1, VL 및 Pro 상태가 표시됩니다. 그러나 E5 라이선스의 경우 끝점 포털용 Microsoft Defender 포털(/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)을 사용해야 합니다. 라이선스 옵션에 대한 자세한 내용은 Windows 10 라이선스 옵션을 참조하세요."
 
 위의 선행 구성이 모두 충족된 경우 다음 단계로 진행하여 진단 정보를 수집하고 이를 저희에게 보내야 할 수 있습니다.
 
@@ -75,5 +75,5 @@ Windows [분석](/windows/deployment/update/update-compliance-using#wdav-assessm
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
 - [배포 Microsoft Defender 바이러스 백신](deploy-manage-report-microsoft-defender-antivirus.md)

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c1e572910ad311daba18a8b0f5eeb546ffe36956
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: e64f17f2bedea89db1190e6c758c514f14fc3a68
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929112"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843581"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Microsoft Defender for Endpoint Devices 목록에서 장치 조사
 
@@ -39,7 +39,7 @@ ms.locfileid: "51929112"
 특정 장치에서 발생한 경고의 세부 정보를 조사하여 경고 또는 잠재적인 위반 범위와 관련이 있을 수 있는 다른 동작 또는 이벤트를 식별합니다.
 
 > [!NOTE]
-> 조사 또는 응답 프로세스의 일부로 장치에서 조사 패키지를 수집할 수 있습니다. 방법: 장치에서 [조사 패키지를 수집합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/respond-machine-alerts#collect-investigation-package-from-devices)
+> 조사 또는 응답 프로세스의 일부로 장치에서 조사 패키지를 수집할 수 있습니다. 방법: 장치에서 [조사 패키지를 수집합니다.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#collect-investigation-package-from-devices)
 
 포털에서 영향을 받는 장치를 볼 때마다 해당 장치를 클릭하여 해당 장치에 대한 자세한 보고서를 열 수 있습니다. 영향을 받는 장치는 다음 영역에서 식별됩니다.
 
@@ -109,12 +109,12 @@ ms.locfileid: "51929112"
 타임라인을 사용하면 특정 기간 내에 발생한 이벤트로 선택적으로 드릴다운할 수 있습니다. 선택한 기간 동안 디바이스에서 발생한 이벤트의 임시 순서를 볼 수 있습니다. 보기를 추가로 제어하기 위해 이벤트 그룹을 필터링하거나 열을 사용자 지정할 수 있습니다.
 
 >[!NOTE]
-> 방화벽 이벤트를 표시하려면 감사 정책을 사용하도록 설정해야 합니다. 필터링 플랫폼 연결 [감사를 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/auditing/audit-filtering-platform-connection)
+> 방화벽 이벤트를 표시하려면 감사 정책을 사용하도록 설정해야 합니다. 필터링 플랫폼 연결 [감사를 참조하세요.](/windows/security/threat-protection/auditing/audit-filtering-platform-connection)
 >방화벽이 다음 이벤트를 다루는 경우
 >
->- [5025](https://docs.microsoft.com/windows/security/threat-protection/auditing/event-5025) - 방화벽 서비스가 중지됨
->- [5031](https://docs.microsoft.com/windows/security/threat-protection/auditing/event-5031) - 응용 프로그램이 네트워크에서 들어오는 연결을 허용하지 않습니다.
->- [5157](https://docs.microsoft.com/windows/security/threat-protection/auditing/event-5157) - 차단된 연결
+>- [5025](/windows/security/threat-protection/auditing/event-5025) - 방화벽 서비스가 중지됨
+>- [5031](/windows/security/threat-protection/auditing/event-5031) - 응용 프로그램이 네트워크에서 들어오는 연결을 허용하지 않습니다.
+>- [5157](/windows/security/threat-protection/auditing/event-5157) - 차단된 연결
 
 ![이벤트가 있는 디바이스 타임라인의 이미지](images/timeline-device.png)
 

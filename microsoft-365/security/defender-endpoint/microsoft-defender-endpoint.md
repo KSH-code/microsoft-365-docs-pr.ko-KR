@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 57d4506e32db5defe29f2d0e59f72bd4c1998310
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3bab9d0248a2ed8e83807f3c38215e653cba26eb
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935932"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843557"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 
@@ -33,23 +33,23 @@ ms.locfileid: "51935932"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-> Windows 10 Enterprise Edition 기능에 대한 자세한 내용은 [Windows 10 Enterprise Edition 을 참조하세요.](https://www.microsoft.com/WindowsForBusiness/buy)
+> Windows 10 Enterprise 에디션 기능에 대한 자세한 내용은 Windows 10 Enterprise [을 참조하세요.](https://www.microsoft.com/WindowsForBusiness/buy)
 
 끝점용 Microsoft Defender는 엔터프라이즈 네트워크가 고급 위협을 방지, 감지, 조사 및 대응하도록 설계된 엔터프라이즈 끝점 보안 플랫폼입니다.
 <p></p>
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wDob]
 
-Endpoint용 Defender는 Windows 10에 기본 제공되는 다음과 같은 기술 조합과 Microsoft의 강력한 클라우드 서비스를 사용 합니다.
+Endpoint용 Defender는 기본 제공된 다음과 같은 Windows 10 Microsoft의 강력한 클라우드 서비스를 활용합니다.
 
--   **끝점** 동작 센서: Windows 10에 포함된 이러한 센서는 운영 체제에서 동작 신호를 수집하고 처리하고 이 센서 데이터를 끝점용 Microsoft Defender의 격리된 개인 클라우드 인스턴스로 전송합니다.
+-   **끝점** 동작 센서: Windows 10 포함된 이러한 센서는 운영 체제에서 동작 신호를 수집하고 처리하고 이 센서 데이터를 끝점용 Microsoft Defender의 격리된 개인 클라우드 인스턴스로 전송합니다.
 
 
--   **클라우드 보안 분석:** Windows 에코시스템, 엔터프라이즈 클라우드 제품(예: Office 365) 및 온라인 자산에서 빅 데이터, 장치 학습 및 고유한 Microsoft 광학을 활용하여 행동 신호를 고급 위협에 대한 인사이트, 탐지 및 권장 대응으로 변환합니다.
+-   클라우드 보안 **분석:** Windows 에코시스템, 엔터프라이즈 클라우드 제품(예: Office 365) 및 온라인 자산에서 빅데이터, 장치 학습 및 고유한 Microsoft 광학을 활용하여 행동 신호를 고급 위협에 대한 인사이트, 탐지 및 권장 대응으로 변환합니다.
 
 -   **위협** 인텔리전스: Microsoft 헌터, 보안 팀에서 생성하고 파트너가 제공하는 위협 인텔리전스를 통해 위협 인텔리전스를 통해 엔드포인트용 Defender가 공격자 도구, 기술 및 절차를 식별하고 수집된 센서 데이터에서 관찰될 때 경고를 생성할 수 있습니다.
 
-<center><h2>엔드포인트용 Microsoft Defender</center></h2>
+<center><h2>끝점용 Microsoft Defender</center></h2>
 <table>
 <tr>
 <td><a href="#tvm"><center><img src="images/TVM_icon.png" alt="Threat & Vulnerability Management"> <br><b>위협 & 취약성 관리</b></center></a></td>
@@ -89,7 +89,7 @@ Endpoint용 Defender는 Windows 10에 기본 제공되는 다음과 같은 기�
 
 <a name="ngp"></a>
 
-**[차세대 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
+**[차세대 보호](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
 네트워크의 보안 경계를 더욱 강화하기 위해 끝점용 Microsoft Defender는 모든 유형의 새로운 위협을 감지하도록 설계된 차세대 보호를 사용했습니다.
 
 <a name="edr"></a>
@@ -114,8 +114,8 @@ Endpoint용 Defender에는 엔터프라이즈 네트워크의 보안 상태를 �
 Endpoint용 Microsoft Defender for Endpoint의 새로운 관리되는 위협 헌팅 서비스는 사전 헌팅, 우선 순위 지정 및 추가 컨텍스트 및 정보를 제공하여 SOC(보안 운영 센터)가 위협을 빠르고 정확하게 식별하고 대응할 수 있도록 합니다.
 
 >[!IMPORTANT]
->끝점용 Defender 고객은 Microsoft 위협 전문가 관리 위협 헌팅 서비스를 신청하여 사전 대상 공격 알림을 받고 필요할 때 전문가와 공동 작업을 해야 합니다. 전문가가 추가 기능 서비스입니다. 대상 공격 알림은 Microsoft 위협 전문가 관리 위협 헌팅 서비스에 수락된 후 항상 포함됩니다.<p>
-><p>아직 등록하지 않았고 해당 이점을 경험하고자 <b></b> > <b></b> > <b></b> 하는 경우 설정 일반 고급 기능 > <b>Microsoft 위협</b> 전문가로 이동하여 적용할 수 있습니다. 일단 수락되면 대상 공격 알림의 이점을 얻을 수 있으며, 90일의 전문가 평가판을 시작할 수 있습니다. Microsoft 담당자에게 문의하여 전체 전문가 관련 전문가 구독을 받을 수 있습니다.
+>끝점용 Defender 고객은 사전 Microsoft 위협 전문가 공격 알림을 받고 전문가와 협력하기 위해 Microsoft 위협 전문가 관리되는 위협 헌팅 서비스를 신청해야 합니다. 전문가가 추가 기능 서비스입니다. 대상 공격 알림은 관리되는 위협 헌팅 서비스에 Microsoft 위협 전문가 항상 포함됩니다.<p>
+><p>아직 등록하지 않았고 해당 이점을 경험하고자 <b></b> > <b></b> > <b></b> 하는 경우 일반 고급 설정 적용할 Microsoft 위협 전문가 > <b>합니다.</b> 일단 수락되면 대상 공격 알림의 이점을 얻을 수 있으며, 90일의 전문가 평가판을 시작할 수 있습니다. Microsoft 담당자에게 문의하여 전체 전문가 관련 전문가 구독을 받을 수 있습니다.
 
 <a name="apis"></a>
 
@@ -134,8 +134,8 @@ Endpoint용 Defender는 다음을 비롯한 다양한 Microsoft 솔루션과 직
 - Microsoft Defender for Office
 - 비즈니스용 Skype
 
-**[Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)**<br>
-Microsoft 365 Defender를 통해 Endpoint용 Defender 및 다양한 Microsoft 보안 솔루션은 기본적으로 엔드포인트, ID, 전자 메일 및 응용 프로그램 전반에 걸쳐 통합되는 통합 사전 및 사후 침해 엔터프라이즈 방어 제품군을 형성하여 정교한 공격을 감지, 방지, 조사 및 자동으로 대응합니다.
+**[Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)**<br>
+Microsoft 365 Defender for Endpoint 및 다양한 Microsoft 보안 솔루션은 엔드포인트, ID, 전자 메일 및 응용 프로그램 전반에 걸쳐 통합되는 통합 사전 및 사후 침해 엔터프라이즈 방어 제품군을 구성하여 정교한 공격을 감지, 방지, 조사 및 자동으로 대응합니다.
 
 
 ## <a name="related-topic"></a>관련 항목

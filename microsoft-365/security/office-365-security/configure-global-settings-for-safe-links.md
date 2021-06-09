@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for Office 365 링크에 대한 전역 설정('다음 URL 차단' 목록 및 Office 365 앱 보호)을 보고 구성하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 623b1bcd670f42c7c6b49c06cacfa31cb8adfd49
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 4e77373657d3167ca8f5bafa544923ab3a2320ce
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52792995"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821988"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 안전한 링크에 대한 전역 Office 365
 
@@ -47,11 +47,11 @@ ms.locfileid: "52792995"
 
 Microsoft 365 보안 센터 또는 PowerShell(Exchange Online PowerShell)에서 전역 안전 링크 설정을 구성할 수 있습니다(Exchange Online 사서함이 있는 적격 Microsoft 365 조직, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell, Office 365 추가 기능 구독의 경우 Microsoft Defender를 사용하여 구성할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 기본 제공 또는 기본 안전 링크 정책이 아니기 때문에 다음 URL 차단 목록이 활성화될 수 있도록 하나 이상의 안전 링크 정책을 만들어야 합니다.  자세한 내용은 [Set up Safe Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
-- <https://security.microsoft.com/>에서 보안 센터를 엽니다. 안전한 링크 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/safelinksv2> 사용하세요.
+- <https://security.microsoft.com>에서 보안 센터를 엽니다. 안전한 링크 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/safelinksv2> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 

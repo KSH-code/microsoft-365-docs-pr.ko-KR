@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 전자 메일 서버에서 전자 메일을 허용하거나 차단하도록 EOP(Exchange Online Protection)에서 연결 필터링을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 27c8cbbc70a4844e11bf85003215d2798a57a7ff
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: b5eb24377dd9f9ac304e1df7b2902d29e4a738b9
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52792983"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821964"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
@@ -51,7 +51,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://security.microsoft.com/>에서 보안 센터를 엽니다. **스팸 방지 정책** 페이지로 직접 이동하려면 <https://security.microsoft.com/antispam>을(를) 사용합니다.
+- <https://security.microsoft.com>에서 보안 센터를 엽니다. **스팸 방지 정책** 페이지로 직접 이동하려면 <https://security.microsoft.com/antispam>을(를) 사용합니다.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -74,7 +74,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 ## <a name="use-the-security-center-to-modify-the-default-connection-filter-policy"></a>보안 센터를 사용하여 기본 연결 필터 정책 수정
 
-1. 보안 센터에서 전자 메일 & **정책** 및 규칙 위협 정책 & 스팸 방지 \>  \>  \>  \> **섹션으로 이동하세요.**
+1. 보안 센터에서 **전자 메일 및 공동 작성** \> **정책 및 규칙** \> **위협 정책** \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
 
 2. 스팸 **방지 정책 페이지의** 정책  이름을 클릭하여 목록에서 연결 필터 정책(기본값)을 선택합니다.
 
@@ -105,7 +105,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 ## <a name="use-the-security-center-to-view-the-default-connection-filter-policy"></a>보안 센터를 사용하여 기본 연결 필터 정책 보기
 
-1. 보안 센터에서 전자 메일 & **정책** 및 규칙 위협 정책 & 스팸 방지 \>  \>  \>  \> **섹션으로 이동하세요.**
+1. 보안 센터에서 **전자 메일 및 공동 작성** \> **정책 및 규칙** \> **위협 정책** \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
 
 2. 스팸 **방지 정책 페이지에는** 정책 목록에 다음 속성이 표시됩니다.
 

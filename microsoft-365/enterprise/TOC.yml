@@ -454,7 +454,7 @@
         - name: 비즈니스용 Skype
           href: /SkypeForBusiness/skype-for-business-online
         - name: Microsoft Teams
-          href: 'https://docs.microsoft.com/microsoftteams/upgrade-monitor-quality'
+          href: /microsoftteams/upgrade-monitor-quality
         - name: Yammer
           href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
         - name: 성능 및 조정
@@ -481,7 +481,7 @@
 - name: Windows 10
   items:
     - name: 릴리스 상태 확인 방법
-      href: 'https://docs.microsoft.com/windows/deployment/update/check-release-health'
+      href: /windows/deployment/update/check-release-health
     - name: 배포 및 업데이트
       href: /windows/deployment/
 - name: 엔터프라이즈용 Microsoft 365 앱

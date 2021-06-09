@@ -22,23 +22,24 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 새 비즈니스용 Microsoft 365 라이선스를 구입하는 방법을 배워야 합니다.
-ms.openlocfilehash: c9077dbb4c653d162df97e7f7bda47d929eb67ce
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+description: 비즈니스용 라이선스에 대한 새 Microsoft 365 구입하는 방법을 배워야 합니다.
+ms.date: 05/11/2021
+ms.openlocfilehash: 239d650bdb765875b60669a4d556f47bcd06dc92
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332213"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821418"
 ---
-# <a name="buy-microsoft-365-licenses"></a>Microsoft 365 라이선스 구입
+# <a name="buy-microsoft-365-licenses"></a>라이선스 Microsoft 365 구입
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4KWvE?autoplay=false]
 
-새 사용자를 추가할 때 해당 사용자를 위해 Microsoft 365 라이선스를 더 구입해야 합니다.
+새 사용자를 추가할 때 해당 사용자에 대한 Microsoft 365 라이선스를 더 구입해야 합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 관리 센터에서 **청구,** **제품** 을 선택한 다음 구독을 선택합니다.
+1. In the Microsoft 365 admin center, choose **Billing**, **Your Products**, then select your subscription.
 1. 라이선스 **구입 을 선택 합니다.**
 1. 구입하려는 라이선스 수를 입력합니다.
 1. **저장** 을 선택합니다.

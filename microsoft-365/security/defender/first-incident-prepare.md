@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4fc124bf8787d5880d78a4f5208bd66329da07a0
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: da9147955c5da9ea727854420b3d4d160583ef73
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539038"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840937"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>첫 번째 인시던트에 대한 보안 준비
 
@@ -40,14 +40,14 @@ ms.locfileid: "52539038"
 
 Microsoft 365 Defender는 인시던트 방지의 여러 측면을 해결할 수 있습니다. 
 
-- Zero [Trust](https://docs.microsoft.com/security/zero-trust/) 프레임워크 구현
+- Zero [Trust](/security/zero-trust/) 프레임워크 구현
 - Microsoft 보안 점수를 통해 점수를 할당하여 보안 설정 [결정](microsoft-secure-score.md)
 - 위협 및 취약성 관리의 취약점 평가를 통해 위협 [방지](../defender-endpoint/next-gen-threat-and-vuln-mgt.md)
 - 준비할 수 있도록 최신 보안 위협 이해
 
 ## <a name="step-1-implement-zero-trust"></a>1단계. 제로 트러스트 구현
 
-[Zero Trust는](https://docs.microsoft.com/security/zero-trust/) 모바일 인력, 사용자, 장치, 응용 프로그램 및 데이터를 비롯한 모든 최신 환경의 복잡한 특성을 고려하는 통합 보안 철학 및 종단식 전략입니다. 단일 창을 제공하여 일관된 방식으로 모든 검색을 관리함으로써 Microsoft 365 Defender를 사용하면 보안 운영 팀이 Zero [](https://docs.microsoft.com/security/zero-trust/#guiding-principles-of-zero-trust) Trust의 기본 원칙을 보다 쉽게 구현할 수 있습니다. 
+[Zero Trust는](/security/zero-trust/) 모바일 인력, 사용자, 장치, 응용 프로그램 및 데이터를 비롯한 모든 최신 환경의 복잡한 특성을 고려하는 통합 보안 철학 및 종단식 전략입니다. 단일 창을 제공하여 일관된 방식으로 모든 검색을 관리함으로써 Microsoft 365 Defender를 사용하면 보안 운영 팀이 Zero [](/security/zero-trust/#guiding-principles-of-zero-trust) Trust의 기본 원칙을 보다 쉽게 구현할 수 있습니다. 
 
 Microsoft 365 Defender의 구성 요소는 MDE(Microsoft Defender for Endpoint) 또는 기타 모바일 보안 공급업체의 데이터를 장치 준수 정책 및 장치 기반 조건부 액세스 정책 구현에 대한 정보 원본으로 통합하여 Zero Trust에 대한 조건부 액세스 정책을 설정하기 위해 구현된 규칙의 위반을 표시할 수 있습니다. 
 

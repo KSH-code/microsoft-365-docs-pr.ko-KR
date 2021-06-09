@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Endpoint(Linux용)
+title: 엔드포인트용 Microsoft Defender(Linux용)
 ms.reviewer: ''
 description: Linux에서 끝점용 Microsoft Defender를 설치하고 사용하는 방법을 설명 합니다.
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2242d195f4a4ea4b8f0c345d82fa0ad1f947bfa2
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: bd9d42ed85e9a489107a72ccbe841537a7e524d4
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730765"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843521"
 ---
-# <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender for Endpoint(Linux용)
+# <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -140,7 +140,7 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 |![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)<br/>  | 서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <br><br>[여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 
 > [!NOTE]
-> 보다 구체적인 URL 목록은 프록시 및 인터넷 연결 설정 [구성을 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)
+> 보다 구체적인 URL 목록은 프록시 및 인터넷 연결 설정 [구성을 참조하세요.](/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)
 
 Endpoint용 Defender는 다음 검색 방법을 사용하여 프록시 서버를 검색할 수 있습니다.
 - 투명한 프록시
@@ -159,7 +159,7 @@ Endpoint용 Defender는 다음 검색 방법을 사용하여 프록시 서버를
 
 Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위해 소프트웨어 업데이트를 정기적으로 게시합니다. Linux에서 끝점용 Microsoft Defender를 업데이트하기 위해 Linux에서 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](linux-updates.md)
 
-## <a name="how-to-configure-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점에 대해 Microsoft Defender를 구성하는 방법
+## <a name="how-to-configure-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 엔드포인트용 Microsoft Defender를 구성하는 방법
 
 엔터프라이즈 환경에서 제품을 구성하는 방법에 대한 지침은 [Linux의 끝점용 Microsoft Defender](linux-preferences.md)기본 설정에서 사용할 수 있습니다.
 

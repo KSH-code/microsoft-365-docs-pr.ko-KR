@@ -20,12 +20,12 @@ description: 관리자는 조직의 위협 방지에 대해 Microsoft 365 조직
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ac90aa853769b239386d422e0b196a1f6140bf95
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 4c32026ab4f33a68b1f63cb000807671839f6bad
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793199"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821286"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -278,7 +278,7 @@ SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft Teams 파일이 악
 > 구성이 완료되면 다음 링크를 사용하여 작업 조사를 시작하세요.
 >
 >- [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
->- [보안 및 & 센터를 사용하여 분리된 파일 관리](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files)
+>- [보안 센터를 사용하여 2016년 8월에 대한 Defender에서 quarantined Office 365](manage-quarantined-messages-and-files.md#use-the-security-center-to-manage-quarantined-files-in-defender-for-office-365)
 >- [SharePoint Online, OneDrive 또는 Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
 >- [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
 

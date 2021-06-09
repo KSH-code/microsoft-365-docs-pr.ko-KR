@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c028289a58247075c33e85d6d6f3797b3ddad7b4
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 204530b8b4a87215053ddcb0434e40e45271da3d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297191"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841009"
 ---
 # <a name="example-of-an-identity-based-attack"></a>ID 기반 공격의 예
 
@@ -44,7 +44,7 @@ Microsoft 365 Defender를 사용하면 분석가가 인시던트  페이지의 �
 
 :::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mdi-filter.png" alt-text="ID에 대한 Defender에 대한 검색 원본 필터링 예":::
 
-의심되는 **overpass-the-hash** 공격 경고를 선택하면 자세한 정보가 Microsoft Cloud App Security 페이지로 이동합니다. 경고 유형에 대해 자세히 알아보고 공격에  대한 설명과 수정 제안을 읽으면 경고 또는 공격에 대한 자세한 정보를 언제든지 찾을 수 있습니다. [](https://docs.microsoft.com/defender-for-identity/lateral-movement-alerts#suspected-overpass-the-hash-attack-kerberos-external-id-2002)
+의심되는 **overpass-the-hash** 공격 경고를 선택하면 자세한 정보가 Microsoft Cloud App Security 페이지로 이동합니다. 경고 유형에 대해 자세히 알아보고 공격에  대한 설명과 수정 제안을 읽으면 경고 또는 공격에 대한 자세한 정보를 언제든지 찾을 수 있습니다. [](/defender-for-identity/lateral-movement-alerts#suspected-overpass-the-hash-attack-kerberos-external-id-2002)
  
 :::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-alert-example.png" alt-text="의심되는 오버패스- 해시 공격 경고의 예"::: 
 

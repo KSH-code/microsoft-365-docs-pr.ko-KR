@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 83889123067897483478aec3d881a5a7b6ec14cc
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8eb36ca630a9748de07c5cbe84f0e43ef23a47cf
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297227"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841081"
 ---
 # <a name="step-1-triage-and-analyze-your-first-incident"></a>1단계. 첫 번째 인시던트의 세분화 및 분석
 
@@ -45,10 +45,10 @@ ms.locfileid: "52297227"
 Microsoft 365 Defender는 여러 Microsoft 보안 플랫폼에서 경고 및 이벤트를 감지 원본으로 수신하여 악의적인 활동의 전체적인 그림과 컨텍스트를 생성합니다. 다음은 가능한 검색 원본입니다.
 
 - [끝점용 Microsoft Defender는](../defender-endpoint/microsoft-defender-endpoint.md) Microsoft Defender 바이러스 백신과 Microsoft 보안 기능을 사용하는 클라우드 사용 고급 위협 방지를 사용하는 끝점 감지 및 응답 솔루션(EDR)Graph. Endpoint용 Defender는 예방적 보호, 위반 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다. 사이버 위협으로부터 끝점을 보호하고, 고급 공격 및 데이터 위반을 감지하고, 보안 인시던트를 자동화하며, 보안 자세를 개선합니다. 
-- [Id용 Microsoft Defender는](https://docs.microsoft.com/defender-for-identity/what-is) 클라우드 기반 보안 솔루션으로, 조직에 대한 고급 위협, ID 손상 및 악의적인 내부자 작업을 식별, 감지 및 조사하기 위해 AD DS(Active Directory 도메인 서비스) 신호를 사용하는 클라우드 기반 보안 솔루션입니다. 
-- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/) 위치와 사용 디바이스에 관계없이 엔터프라이즈 사용자와 사용하는 클라우드 리소스 간의 액세스를 실시간으로 브로커하는 게이트키퍼 역할을 합니다. 
+- [Id용 Microsoft Defender는](/defender-for-identity/what-is) 클라우드 기반 보안 솔루션으로, 조직에 대한 고급 위협, ID 손상 및 악의적인 내부자 작업을 식별, 감지 및 조사하기 위해 AD DS(Active Directory 도메인 서비스) 신호를 사용하는 클라우드 기반 보안 솔루션입니다. 
+- [Microsoft Cloud App Security](/cloud-app-security/) 위치와 사용 디바이스에 관계없이 엔터프라이즈 사용자와 사용하는 클라우드 리소스 간의 액세스를 실시간으로 브로커하는 게이트키퍼 역할을 합니다. 
 - [Microsoft Defender for Office 365](../office-365-security/overview.md) 전자 메일 메시지, 링크(URL) 및 공동 작업 도구의 악의적인 위협에 대해 조직을 보호합니다. 
-- [Azure Security Center는](https://docs.microsoft.com/azure/security-center/security-center-introduction) 데이터 센터의 보안 환경이 강화되고 클라우드와 사내의 하이브리드 워크로드에서 고급 위협 보호를 제공하는 통합 인프라 보안 관리 시스템입니다. 
+- [Azure Security Center는](/azure/security-center/security-center-introduction) 데이터 센터의 보안 환경이 강화되고 클라우드와 사내의 하이브리드 워크로드에서 고급 위협 보호를 제공하는 통합 인프라 보안 관리 시스템입니다. 
 
 Microsoft 365 Defender에서 [](incidents-overview.md) 인시던트는 이러한 다양한 검색 원본의 경고를 상호 연결하여 식별됩니다. 리소스를 함께 스트링하거나 여러 경고를 해당 인시던트로 구분하는 대신, 바로 Microsoft 365 Defender에서 인시던트 큐로 시작할 수 있습니다. 이를 통해 끝점, ID, 전자 메일 및 응용 프로그램 전반에서 인시던트의 효율적인 방식으로 인시던트의 선을 들이고 공격으로 인한 손상을 줄일 수 있습니다.
 

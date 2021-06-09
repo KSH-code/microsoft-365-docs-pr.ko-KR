@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 6f0fcf101388f9cae08655117caa5380af1242c2
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: dc3ce994108f902e3119de2f5b175b232b68c891
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769668"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843725"
 ---
 # <a name="microsoft-defender-for-endpoint-api-license-and-terms-of-use"></a>Endpoint용 Microsoft Defender API 라이선스 및 사용 약관
 
@@ -33,7 +33,7 @@ ms.locfileid: "52769668"
 
 ## <a name="apis"></a>API
 
-끝점 API용 Defender는 Microsoft API 사용권 및 사용 [약관에 따라 관리됩니다.](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
+끝점 API용 Defender는 Microsoft API 사용권 및 사용 [약관에 따라 관리됩니다.](/legal/microsoft-apis/terms-of-use)
 
 ### <a name="throttling-limits"></a>제한
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5c76784d78837c324922ffc25539746a4921e426
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 0ddb38e713f08c101639976b9f2c8c1ee32e63a3
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769716"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843785"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>사용자 지정 보고서를 사용하여 Power BI
 
@@ -142,7 +142,7 @@ ms.locfileid: "52769716"
 자세한 내용은 보고서 [서식 Power BI 참조하세요.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>예제 보고서
-보고서 샘플에 대한 Microsoft Defender Power BI 볼 수 있습니다. 자세한 내용은 코드 샘플 [찾아보기를 참조하세요.](https://docs.microsoft.com/samples/browse/?products=mdatp)
+보고서 샘플에 대한 Microsoft Defender Power BI 볼 수 있습니다. 자세한 내용은 코드 샘플 [찾아보기를 참조하세요.](/samples/browse/?products=mdatp)
 
 
 ## <a name="related-topic"></a>관련 항목

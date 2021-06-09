@@ -20,16 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 정책에 대한 경고 정의 및 관리부터 시작하십시오.
-ms.openlocfilehash: 7f070dd960cc00ad7899c75117cd2a3fcf679973
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: ad117eb0c5460b90c92c664f0c233b81d1882327
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760768"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843869"
 ---
 # <a name="get-started-with-the-data-loss-prevention-alert-dashboard"></a>데이터 손실 방지 경고 대시보드 시작
 
-DLP(데이터 손실 방지) 정책은 중요한 항목의 의도하지 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. [Microsoft 365](https://compliance.microsoft.com/) 규정 준수 센터에서 DLP 경고 관리 대시보드를 사용하여 [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) 정책 위반에 대한 경고, 이벤트 및 관련 메타데이터를 보는 방법을 볼 수 있습니다.
+DLP(데이터 손실 방지) 정책은 중요한 항목의 의도하지 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. Microsoft 365 센터에서 DLP 경고 관리 대시보드를 사용하여 [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) 정책 위반에 대한 [경고Microsoft 365](https://compliance.microsoft.com/) 이벤트 및 관련 메타데이터를 보는 방법을 볼 수 있습니다.
 
 DLP 경고를 새로 사용하는 경우 데이터 손실 방지 경고에 대한 자세한 정보 대시보드를 [검토해야 합니다.](dlp-alerts-dashboard-learn.md)
 
@@ -43,9 +43,9 @@ DLP 경고를 새로 사용하는 경우 데이터 손실 방지 경고에 대�
 
 ### <a name="licensing-for-the-dlp-alert-management-dashboard"></a>DLP 경고 관리 대시보드에 대한 라이선스
 
-Office 365 DLP에 적합한 모든 테넌트는 DLP 경고 관리 대시보드에 액세스할 수 있습니다. 시작을 위해 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에 대한 Office 365 DLP를 사용할 수 있습니다. Office 365 DLP의 라이선스 요구 사항에 대한 자세한 내용은 사용자에게 서비스 혜택을 받을 수 있는 권한을 제공하는 라이선스를 [참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16)
+DLP의 모든 적합한 Office 365 DLP 경고 관리 대시보드에 액세스할 수 있습니다. 시작을 위해 Office 365, SharePoint Online 및 Exchange Online DLP를 비즈니스용 OneDrive. Office 365 DLP의 라이선스 요구 사항에 대한 자세한 내용은 사용자에게 서비스를 혜택을 제공할 수 있는 권한을 제공하는 라이선스를 [참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16)
 
-[Teams](dlp-microsoft-teams.md) DLP 자격이 있는 [끝점 DLP를](endpoint-dlp-learn-about.md) 사용하는 고객은 DLP 경고 관리 대시보드에서 끝점 DLP 정책 경고 및 Teams DLP 정책 경고를 볼 수 있습니다.
+Teams DLP를 사용할 수 있는 끝점 [DLP를](endpoint-dlp-learn-about.md) 사용하는 고객에게는 끝점 DLP 정책 경고 및 [DLP](dlp-microsoft-teams.md) Teams 관리 대시보드에서 DLP 정책 경고가 표시됩니다.
 
 콘텐츠 **미리 보기 기능은** 다음 라이선스에서만 사용할 수 있습니다.
 
@@ -65,7 +65,7 @@ Office 365 DLP에 적합한 모든 테넌트는 DLP 경고 관리 대시보드�
 - E1, F1 또는 G1 구독 또는 다음 기능 중 하나를 포함하는 E3 또는 G3 구독
     - Office 365 Advanced Threat Protection Plan 2
     - Microsoft 365 E5 Compliance
-    - Microsoft 365 eDiscovery 및 추가 기능 라이선스 감사
+    - Microsoft 365 및 추가 기능 라이선스 감사
 
 ### <a name="roles"></a>역할
 
@@ -115,7 +115,7 @@ DLP 정책에서 경고를 구성하는 방법에 대한 자세한 내용은 데
 
 DLP 경고 관리 대시보드에서 작업하는 경우:
 
-1. Microsoft [365 규정 준수 센터에서](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
+1. Microsoft 365 [센터에서](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
 2. 경고 **탭을 선택하여** DLP 경고 대시보드를 볼 수 있습니다.
 3. 경고를 선택하여 세부 정보를 봐야 합니다.
 

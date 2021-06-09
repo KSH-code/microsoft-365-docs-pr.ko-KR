@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
 description: 암호를 다시 설정하고 새 사용자로 전자 메일을 보내는 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: 17db9a61dc12c349f0aea032655b56c2a448653f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 916ac2f92f8cd6a7236525c733d4b5061368b0ef
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244047"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840865"
 ---
 # <a name="resend-a-users-password---admin-help"></a>사용자 암호 다시 보내기 - 관리자 도움말
 
@@ -33,7 +33,7 @@ ms.locfileid: "52244047"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)
+회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](/microsoft-365/business-video/admin-center-overview)
 
 이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자 되어야 합니다.
 

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 통해 파일 활동 및 보호 작업을 Google Chrome 브라우저로 확장
-ms.openlocfilehash: b8d9be88f42cce736cdbf66a97f4363106fa5820
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: cf7a3cd2e26f2e7d7a116e4a609f98aeea78be19
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730489"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843809"
 ---
 # <a name="learn-about-the-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장에 대해 알아보기
 
@@ -63,5 +63,5 @@ Microsoft 규정 준수 확장을 사용하여 Windows 10을 실행하는 장치
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
-- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
 - [내부자 위험 관리](insider-risk-management.md)

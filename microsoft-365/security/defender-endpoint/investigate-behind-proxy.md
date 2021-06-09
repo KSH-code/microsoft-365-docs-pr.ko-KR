@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47be07759a72a080a3687ed3bb50cef9d0a959b7
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 55c001781ff016d7a23dc5db286d454b39fac5de
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904049"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841057"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>전달 프록시 뒤에 발생하는 연결 이벤트 조사
 
@@ -45,11 +45,11 @@ Endpoint용 Defender는 네트워크 보호를 통해 고급 HTTP 수준 모니�
 
 네트워크 보호는 다음 모드를 사용하여 제어할 수 있습니다.
 
-- **차단** <br> 사용자 또는 앱은 위험한 도메인에 연결하지 않습니다. Microsoft Defender 보안 센터에서 이 활동을 볼 수 있습니다.
-- **감사** <br> 사용자 또는 앱은 위험한 도메인에 연결하지 못하게 차단되지 않습니다. 그러나 Microsoft Defender 보안 센터에서 이 활동이 계속 표시됩니다.
+- **차단** <br> 사용자 또는 앱은 위험한 도메인에 연결하지 않습니다. You will be able to see this activity in Microsoft Defender 보안 센터.
+- **감사** <br> 사용자 또는 앱은 위험한 도메인에 연결하지 못하게 차단되지 않습니다. 그러나 이 활동은 여전히 Microsoft Defender 보안 센터.
 
 
-네트워크 보호를 끄면 사용자 또는 앱이 위험한 도메인에 연결하지 못하게 차단되지 않습니다. Microsoft Defender 보안 센터에서 네트워크 활동이 볼 수 없습니다.
+네트워크 보호를 끄면 사용자 또는 앱이 위험한 도메인에 연결하지 못하게 차단되지 않습니다. 이 경우 네트워크 활동이 Microsoft Defender 보안 센터.
 
 구성하지 않은 경우 기본적으로 네트워크 차단이 꺼집니다.
 
@@ -94,4 +94,4 @@ DeviceNetworkEvents
 
 
 ## <a name="related-topics"></a>관련 항목
-- [GP를 통해 네트워크 보호 적용 - 정책 CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)
+- [GP를 통해 네트워크 보호 적용 - 정책 CSP](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)

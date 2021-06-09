@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 자세한 내용은 Advanced eDiscovery 솔루션에 대해 Microsoft 365. 이 문서에서는 내부 및 외부 Advanced eDiscovery 관리하는 Microsoft 365 도구인 2016의 개요를 제공합니다. 또한 법적 조사를 관리하는 데 Advanced eDiscovery 비즈니스 이유에 대한 프레임을 틀 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec5ea7b32abb03edd31ab69abc7b8d3044b1d353
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 16f597fdbbbad89116af73fdd0a607f3f03116ad
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782792"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840841"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>개요 Microsoft 365 Advanced eDiscovery
 
@@ -105,7 +105,7 @@ Advanced eDiscovery는 높은 수준에서 다음과 같은 방식으로 EDRM �
 
   - Microsoft 365 Education A5 또는 Office 365 Education A5 구독
 
-   기존 Microsoft 365 E5 계획이 없는 경우 Advanced eDiscovery 기존 구독에 Microsoft 365 구독을 [](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 추가하거나 평가판을 등록할 [](https://www.microsoft.com/microsoft-365/enterprise) Microsoft 365 E5.
+   기존 Microsoft 365 E5 계획이 없는 경우 Advanced eDiscovery 기존 구독에 Microsoft 365 구독을 [](/office365/admin/try-or-buy-microsoft-365) 추가하거나 평가판을 등록할 [](https://www.microsoft.com/microsoft-365/enterprise) Microsoft 365 E5.
 
 - **사용자당 라이선스:** Advance eDiscovery 사례에서 사용자를 관리인으로 추가하려면 조직 구독에 따라 사용자에게 다음 라이선스 중 하나를 할당해야 합니다.
 
@@ -113,7 +113,7 @@ Advanced eDiscovery는 높은 수준에서 다음과 같은 방식으로 EDRM �
 
   - Office 365: 사용자에게 E5 또는 Office 365 A5 Office 365 Education 할당되어야 합니다.
 
-   라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+   라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 > [!NOTE]
 > 사용자는 E5 또는 A5 라이선스(또는 적절한 추가 기능 라이선스)만 등록된 사례에 Advanced eDiscovery 필요합니다. E5, A5 또는 추가 기능 라이선스가 필요하지 않은 사례를 관리하고 사례 데이터를 검토하기 위해 Advanced eDiscovery 관리자, eDiscovery 관리자, 변호사, paralegals 또는 조사자.
