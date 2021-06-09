@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
-description: PowerShell을 사용하여 Microsoft 365 환경에서 Exchange Online Multi-Geo 설정을 관리하는 방법을 확인합니다.
+description: PowerShell을 사용하여 Exchange Online 환경에서 다중 위치 설정을 관리하는 Microsoft 365 방법을 확인합니다.
 ms.openlocfilehash: c8f06318313c4192fc2b3a289727933c5a54f3ad
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -21,11 +21,11 @@ ms.locfileid: "50905587"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Multi-Geo 환경에서 Exchange Online 사서함 관리
 
-Microsoft 365 환경에서 다중 지리적 속성을 보고 구성하려면 Exchange Online PowerShell이 필요합니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+Exchange Online PowerShell은 사용자 환경의 다중 지리적 속성을 보고 구성하는 Microsoft 365 필요합니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 사용자 개체의 **PreferredDataLocation** 속성을 보려면 v1.x에서 [Microsoft Azure Active Directory PowerShell 모듈](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx) v1.1.166.0 이상이 필요합니다. AAD Connect를 통해 AAD에 동기화된 사용자 개체의 **PreferredDataLocation** 값은 AAD PowerShell을 통해 직접 수정할 수 없습니다. 클라우드 전용 사용자 개체는 AAD PowerShell을 통해 수정할 수 있습니다. Azure AD PowerShell에 연결하려면 [PowerShell에 연결](connect-to-microsoft-365-powershell.md)을 참조하세요.
 
-Exchange Online Multi-Geo 환경에서는 테넌트에 지역을 추가하기 위한 수동 단계를 수행하지 필요가 없습니다. Multi-Geo가 Exchange Online을 사용할 준비가 됐다는 메시지 센터 게시물을 받으면 사용 가능한 모든 지역이 준비되어 사용할 수 있도록 구성됩니다.
+다중 Exchange Online 환경에서는 테넌트에 지역을 추가하기 위한 수동 단계를 수행하지 필요가 없습니다. Multi-Geo를 사용할 준비가 됐다는 메시지 센터 게시물을 Exchange Online 사용 가능한 모든 지역이 준비되어 사용할 수 있도록 구성됩니다.
 
 ## <a name="connect-directly-to-a-geo-location-using-exchange-online-powershell"></a>Exchange Online PowerShell을 사용하여 지리적 위치에 직접 연결
 
@@ -33,13 +33,13 @@ Exchange Online Multi-Geo 환경에서는 테넌트에 지역을 추가하기 �
 
 EXO V2 모듈을 설치하고 사용하는 데 필요한 사항에 대한 자세한 내용은 [EXO V2 모듈 설치 및 유지 관리](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)를 참조하세요.
 
-Exchange Online PowerShell을 특정 지리적 위치에 연결하기 위해 *ConnectionUri* 매개 변수는 일반 연결 지침과 다릅니다. 나머지 명령과 값은 동일합니다.
+PowerShell을 Exchange Online 위치에 연결하기 위해 *ConnectionUri* 매개 변수는 일반 연결 지침과 다릅니다. 나머지 명령과 값은 동일합니다.
 
-특히 ConnectionUri 값의 끝에 값을 `?email=<emailaddress>` _추가해야_ 합니다. `<emailaddress>` 은 대상 지리적 위치에 있는 **모든** 사서함의 전자 메일 주소입니다. 해당 사서함에 대한 사용 권한 또는 자격 증명과의 관계는 요인이 되지 않습니다. 전자 메일 주소는 연결 위치를 Exchange Online PowerShell에 알려면 됩니다.
+특히 ConnectionUri 값의 끝에 값을 `?email=<emailaddress>` _추가해야_ 합니다. `<emailaddress>` 은 대상 지리적 위치에 있는 **모든** 사서함의 전자 메일 주소입니다. 해당 사서함에 대한 사용 권한 또는 자격 증명과의 관계는 요인이 되지 않습니다. 전자 메일 주소는 연결 위치를 Exchange Online PowerShell에 알 수 있습니다.
 
-Microsoft 365 또는 Microsoft 365 GCC 고객은 일반적으로 _ConnectionUri_ 매개 변수를 사용하여 Exchange Online PowerShell에 연결할 필요가 없습니다. 그러나 특정 지리적 위치에 연결하려면 _값에서_ 사용할 수 있도록 ConnectionUri 매개 변수를 `?email=<emailaddress>` 사용해야 합니다.
+Microsoft 365 또는 Microsoft 365 GCC 일반적으로 PowerShell에 연결하기 위해 _ConnectionUri_ 매개 변수를 Exchange Online 없습니다. 그러나 특정 지리적 위치에 연결하려면 _값에서_ 사용할 수 있도록 ConnectionUri 매개 변수를 `?email=<emailaddress>` 사용해야 합니다.
 
-### <a name="connect-to-a-geo-location-in-exchange-online-powershell"></a>Exchange Online PowerShell에서 지리적 위치에 연결
+### <a name="connect-to-a-geo-location-in-exchange-online-powershell"></a>커넥트 PowerShell의 지리적 Exchange Online 수 있습니다.
 
 다음 연결 지침은 MFA(다단계 인증)에 대해 구성되거나 구성되지 않은 계정에 대해 작동됩니다.
 
@@ -104,7 +104,7 @@ MailboxRegionLastUpdateTime : 2/6/2018 8:21:01 PM
 ```
 
 > [!NOTE]
-> 데이터베이스 이름의 지리적 위치 코드가 **MailboxRegion** 값과 일치하지 않으면 사서함이 자동으로 재배치 큐에 추가되고 **MailboxRegion** 값으로 지정된 지리적 위치로 이동됩니다(Exchange Online은 이러한 속성 값 간의 불일치 검색).
+> 데이터베이스 이름의 지리적 위치 코드가 **MailboxRegion** 값과 일치하지 않으면 사서함이 자동으로 재배치 큐에 추가되고 **MailboxRegion** 값으로 지정된 지리적 위치로 이동됩니다(Exchange Online 속성 값 간의 불일치 검색).
 
 ## <a name="move-an-existing-cloud-only-mailbox-to-a-specific-geo-location"></a>기존 클라우드 전용 사서함을 특정 지리적 위치로 이동
 
@@ -150,19 +150,19 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 
 1. 비활성 사서함을 복구합니다. 자세한 내용은 비활성 사서함 [복구를 참조하세요.](../compliance/recover-an-inactive-mailbox.md)
 
-2. 사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 바꾸고 \<MailboxIdentity\> [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)다음 명령을 실행하여 관리되는 폴더 도우미가 복구된 사서함을 처리하지 못하게 합니다.
+2. 관리되는 폴더 도우미가 사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 바꾸고 PowerShell에서 다음 명령을 실행하여 복구된 \<MailboxIdentity\> [사서함을 Exchange Online 방지합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $true
     ```
 
-3. 복구된 **사서함에 Exchange Online 계획 2** 라이선스를 할당합니다. 이 단계는 사서함을 다시 소송 보류에 두는 데 필요합니다. 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](../admin/manage/assign-licenses-to-users.md)
+3. 복구된 **Exchange Online 계획 2** 라이선스를 할당합니다. 이 단계는 사서함을 다시 소송 보류에 두는 데 필요합니다. 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](../admin/manage/assign-licenses-to-users.md)
 
 4. 이전 섹션에 설명된 바와 같이 사서함에 **PreferredDataLocation** 값을 구성합니다.
 
 5. 사서함이 새 지리적 위치로 이동된 것이 확인되면 복구된 사서함을 소송 보류에 다시 옮기면 됩니다. 자세한 내용은 [Place a mailbox on Litigation Hold을 참조하십시오.](../compliance/create-a-litigation-hold.md#place-a-mailbox-on-litigation-hold)
 
-6. 소송 보류가 설정되고 있는지 확인한 후 관리되는 폴더 도우미가 사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 바꾸고 \<MailboxIdentity\> [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)다음 명령을 실행하여 사서함을 다시 처리하도록 허용합니다.
+6. 소송 보류가 설정되어 있는지 확인한 후 관리되는 폴더 도우미가 사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 바꾸고 Exchange Online PowerShell에서 다음 명령을 실행하여 \<MailboxIdentity\> [사서함을 다시 처리하도록 허용합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $false
@@ -176,7 +176,7 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 
 특정 지리적 위치에 새 사서함을 만들려면 다음 단계 중 하나를 수행해야 합니다.
 
-- Exchange Online에서 사서함을 만들기 전에 이전의 [](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) 특정 지리적 위치로 기존 클라우드 전용  사서함 이동 섹션에 설명된 바와 같이 **PreferredDataLocation** 값을 구성합니다. 예를 들어 라이선스를 할당하기 전에 사용자에 **대해 PreferredDataLocation** 값을 구성합니다.
+- 이전의 Move an existing [cloud-only mailbox to a specific geo location](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) 섹션에  설명된 바와 같이 **PreferredDataLocation** 값을 구성한 후 사서함을 Exchange Online. 예를 들어 라이선스를 할당하기 전에 사용자에 **대해 PreferredDataLocation** 값을 구성합니다.
 
 - **PreferredDataLocation** 값을 설정함과 동시에 라이선스를 할당합니다.
 

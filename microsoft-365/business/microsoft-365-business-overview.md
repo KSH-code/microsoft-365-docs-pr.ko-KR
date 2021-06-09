@@ -42,7 +42,7 @@ ms.locfileid: "52705525"
 
 Microsoft 365 Business Premium(이전 명칭: Microsoft 365 Business)은 직원의 수가 300명 미만인 비즈니스를 위한 포괄적인 구독 서비스입니다. 좋아하는 Office 생산성 앱 및 서비스와 Microsoft Teams와 같은 공동 작업 도구를 고급 보안 및 장치 관리 기능과 통합합니다.
 
-## <a name="watch-what-is-microsoft-365-business-premium"></a>Watch: What is what is Microsoft 365 Business Premium
+## <a name="watch-what-is-microsoft-365-business-premium"></a>시청: Microsoft 365 Business Premium이란 무엇인가요?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   

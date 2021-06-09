@@ -17,7 +17,7 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 ms.custom: seo-marvel-apr2020
-description: 이 문서에서는 Microsoft 365 감사 로그 레코드를 내보내고 구성하고 보는 방법을 배우게 됩니다.
+description: 이 문서에서는 감사 로그 레코드를 내보내고 구성하고 보는 Microsoft 365 있습니다.
 ms.openlocfilehash: 4cea867b46d3bda7d3b3a8cd38f3d01938da8764
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "50906870"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>감사 로그 레코드 내보내기, 구성 및 보기
 
-감사 로그를 검색하고 검색 결과를 CSV 파일로 다운로드한 후 파일에는 각 이벤트에 대한 추가 정보가 포함된 **AuditData** 열이 포함되어 있습니다. 이 열의 데이터는 *property:value* 쌍으로 구성된 여러 속성이 들어 있는 JSON 개체로 서식이 설정됩니다. Excel의 파워 쿼리 편집기에서 JSON 변환 기능을 사용하여 **AuditData** 열의 JSON 개체에 있는 각 속성을 여러 열로 분할하여 각 속성에 자체 열이 있도록 할 수 있습니다. 이렇게 하면 이러한 속성 중 하나 이상을 정렬하고 필터링할 수 있으며, 이를 통해 원하는 특정 감사 데이터를 빠르게 찾을 수 있습니다.
+감사 로그를 검색하고 검색 결과를 CSV 파일로 다운로드한 후 파일에는 각 이벤트에 대한 추가 정보가 포함된 **AuditData** 열이 포함되어 있습니다. 이 열의 데이터는 *property:value* 쌍으로 구성된 여러 속성이 들어 있는 JSON 개체로 서식이 설정됩니다. **AuditData** 열의 JSON 개체에 있는 각 속성을 여러 열로 분할하여 각 속성에 자체 열을 Excel 쿼리 편집기에서 JSON 변환 기능을 사용할 수 있습니다. 이렇게 하면 이러한 속성 중 하나 이상을 정렬하고 필터링할 수 있으며, 이를 통해 원하는 특정 감사 데이터를 빠르게 찾을 수 있습니다.
 
 ## <a name="step-1-export-audit-log-search-results"></a>1단계: 감사 로그 검색 결과 내보내기
 
@@ -52,9 +52,9 @@ ms.locfileid: "50906870"
 
 ## <a name="step-2-format-the-exported-audit-log-using-the-power-query-editor"></a>2단계: 파워 쿼리 편집기를 사용하여 내보낼 감사 로그 서식 지정
 
-다음 단계는 Excel의 파워 쿼리 편집기에서 JSON 변환 기능을 사용하여 **AuditData** 열에 있는 JSON 개체의 각 속성을 자체 열로 분할하는 것입니다. 그런 다음 열을 필터링하여 특정 속성의 값에 따라 레코드를 볼 수 있습니다. 이를 통해 원하는 특정 감사 데이터를 빠르게 찾을 수 있습니다.
+다음 단계는 Power Query Editor의 JSON 변환 기능을 사용하여 Excel 열에 있는 JSON 개체의  각 속성을 자체 열로 분할하는 것입니다. 그런 다음 열을 필터링하여 특정 속성의 값에 따라 레코드를 볼 수 있습니다. 이를 통해 원하는 특정 감사 데이터를 빠르게 찾을 수 있습니다.
 
-1. Office 365, Excel 2019 또는 Excel 2016용 Excel에서 빈 통합 문서 열기
+1. 2019년 또는 2019년 Excel Office 365 Excel 통합 문서의 새 통합 Excel 2016.
 
 2. 데이터 **탭의** 데이터 변환 데이터 **&** 그룹에서 **텍스트/CSV 를 클릭합니다.**
 
@@ -98,15 +98,15 @@ ms.locfileid: "50906870"
 
 9. **확인** 을 클릭합니다.
 
-    **AuditData 열은** 여러 열로 분할됩니다. 각 새 열은 AuditData JSON 개체의 속성에 해당합니다. 열의 각 행에는 속성 값이 들어 있습니다. 속성에 값이 없는 경우 *null* 값이 표시됩니다. Excel에서 null 값이 있는 셀은 비어 있습니다.
+    **AuditData 열은** 여러 열로 분할됩니다. 각 새 열은 AuditData JSON 개체의 속성에 해당합니다. 열의 각 행에는 속성 값이 들어 있습니다. 속성에 값이 없는 경우 *null* 값이 표시됩니다. 이 Excel 값이 null인 셀은 비어 있습니다.
   
-10. 홈 **탭에서** 로드  & 닫기를 클릭하여 파워 쿼리 편집기를 닫고 Excel 통합 문서에서 변환된 CSV 파일을 니다.
+10. 홈 **탭에서** 로드  & 닫기를 클릭하여 파워 쿼리 편집기를 닫고 변환된 CSV 파일을 통합 문서의 Excel 니다.
 
 ## <a name="use-powershell-to-search-and-export-audit-log-records"></a>PowerShell을 사용하여 감사 로그 레코드 검색 및 내보내기
 
 보안 & 준수 센터의 감사 로그 검색 도구를 사용하는 대신 Exchange Online PowerShell에서 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) cmdlet을 사용하여 감사 로그 검색 결과를 CSV 파일로 내보낼 수 있습니다. 그런 다음 2단계에 설명된 절차에 따라 Power Query 편집기를 사용하여 감사 로그의 형식을 지정합니다. PowerShell cmdlet을 사용할 때의 한 가지 이점은 *RecordType* 매개 변수를 사용하여 특정 서비스에서 이벤트를 검색할 수 있는 것입니다. 다음은 PowerShell을 사용하여 감사 레코드를 CSV 파일로 내보내는 몇 가지 예로, Power Query 편집기를 사용하여 2단계에 설명된 바와 같이 **AuditData** 열의 JSON 개체를 변환할 수 있습니다.
 
-이 예제에서는 다음 명령을 실행하여 SharePoint 공유 작업과 관련된 모든 레코드를 반환합니다.
+이 예제에서는 다음 명령을 실행하여 공유 작업과 관련된 SharePoint 반환합니다.
 
 ```powershell
 $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointSharingOperation
@@ -118,9 +118,9 @@ $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | 
 
 검색 결과는 CreationDate, UserIds, RecordType, AuditData의 네 개의 열을 포함하는 *PowerShellAuditlog라는* CSV 파일로 내보낼 수 있습니다.
 
-레코드 형식의 이름 또는 열어 값도 *RecordType* 매개 변수의 값으로 사용할 수 있습니다. 레코드 유형 이름 및 해당 열문 값 목록은 Office 365 관리 활동 API schema의 *AuditLogRecordType* [테이블을 참조하세요.](/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32)
+레코드 형식의 이름 또는 열어 값도 *RecordType* 매개 변수의 값으로 사용할 수 있습니다. 레코드 유형 이름 및 해당 열문 값 목록은 관리 활동 API Office 365 *AuditLogRecordType* [테이블을 참조하세요.](/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32)
 
-*RecordType* 매개 변수에는 단일 값만 포함할 수 있습니다. 다른 레코드 유형에 대한 감사 레코드를 검색하기 위해 이전의 두 명령을 다시 실행하여 다른 레코드 유형을 지정하고 원본 CSV 파일에 해당 결과를 추가해야 합니다. 예를 들어 다음 두 명령을 실행하여 동일한 날짜 범위의 SharePoint 파일 활동을 PowerShellAuditlog.csv 있습니다.
+*RecordType* 매개 변수에는 단일 값만 포함할 수 있습니다. 다른 레코드 유형에 대한 감사 레코드를 검색하기 위해 이전의 두 명령을 다시 실행하여 다른 레코드 유형을 지정하고 원본 CSV 파일에 해당 결과를 추가해야 합니다. 예를 들어 다음 두 명령을 실행하여 동일한 날짜 범위의 SharePoint 파일 활동을 파일 PowerShellAuditlog.csv 합니다.
 
 ```powershell
 $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation
@@ -130,10 +130,10 @@ $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -Re
 $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Append -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
 ```
 
-## <a name="tips-for-exporting-and-viewing-the-audit-log"></a>감사 로그 내보내기 및 보기 팁
+## <a name="tips-for-exporting-and-viewing-the-audit-log"></a>팁 로그를 내보내고 보는 데 사용할 수 있는 사용자 수
 
 다음은 JSON 변환 기능을 사용하여 **AuditData** 열을 여러 열로 분할하기 전과 후에 감사 로그를 내보내고 보는 몇 가지 팁과 예입니다.
 
-- **RecordType 열을 필터링하여** 특정 서비스 또는 기능 영역의 레코드만 표시합니다. 예를 들어 SharePoint 공유와 관련된 이벤트를 표시하려면 **14(SharePoint** 공유 활동에서 트리거된 레코드의 열어 값)를 선택합니다. **RecordType** 열에 표시되는 열 열 값에 해당하는 서비스 목록은 감사 로그의 [자세한 속성을 참조하세요.](detailed-properties-in-the-office-365-audit-log.md)
+- **RecordType 열을 필터링하여** 특정 서비스 또는 기능 영역의 레코드만 표시합니다. 예를 들어 SharePoint 공유와 관련된 이벤트를 표시하려면 **14(공유** 활동에서 트리거된 레코드의 열 SharePoint 선택합니다. **RecordType** 열에 표시되는 열 열 값에 해당하는 서비스 목록은 감사 로그의 [자세한 속성을 참조하세요.](detailed-properties-in-the-office-365-audit-log.md)
 
 - 작업 **열을 필터링하여** 특정 작업에 대한 레코드를 표시합니다. 보안 & 준수 센터의 감사 로그 검색 도구에서 검색 가능한 작업에 해당하는 대부분의 작업 목록은 보안 및 준수 센터에서 감사 로그 검색의 ["감사된 활동" 섹션을 & 참조하세요.](search-the-audit-log-in-security-and-compliance.md#audited-activities)

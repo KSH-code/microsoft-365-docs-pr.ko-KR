@@ -31,7 +31,7 @@ ms.locfileid: "51650072"
 사용자 피드백은 Microsoft가 Microsoft 제품에 대한 사용자 환경을 이해하는 데 중요한 신호입니다. Microsoft는 사용자의 의견을 소 중시합니다. 사용자 의견은 엔지니어에게 직접 보내지며 모든 사용자를 위한 Microsoft 제품 및 서비스의 미래를 형성하는 데 도움이 됩니다.  
 이 항목에서는 존재하는 피드백 유형, 피드백을 수집하는 방법, 수집하는 항목 및 데이터를 처리하는 방법에 대한 정보를 찾을 수 있습니다.
 
-관리자는 조직의 피드백 신호를 관리할 수 있습니다. 조직의 Microsoft 365 응용 프로그램 내에서 사용자 의견 수집을 관리하는 데 도움이 되는 새로운 정책 설정 집합이 도입되었습니다. 이러한 정책 설정은 Azure Active Directory 그룹을 대상으로 지정하고 조직에 대한 피드백 수집 환경을 구성하는 데 도움이 됩니다. 사용자 의견은 엔지니어에게 직접 보내지며 모든 사용자를 위한 Microsoft 제품 및 서비스의 미래를 형성하는 데 도움이 됩니다. 이러한 정책 설정, 적용하는 응용 프로그램 및 조직에 대한 Microsoft 피드백 관리에서 모범 사례에 대해 [자세히 알아보면 됩니다.](../manage/manage-feedback-ms-org.md)
+관리자는 조직의 피드백 신호를 관리할 수 있습니다. 조직에 대한 사용자 피드백 모음 내에서 사용자 피드백 모음을 관리하는 데 도움이 되는 새로운 정책 Microsoft 365 도입되었습니다. 이러한 정책 설정은 Azure Active Directory 그룹을 대상으로 지정하고 조직에 대한 피드백 수집 환경을 구성하는 데 도움이 됩니다. 사용자 의견은 엔지니어에게 직접 보내지며 모든 사용자를 위한 Microsoft 제품 및 서비스의 미래를 형성하는 데 도움이 됩니다. 이러한 정책 설정, 적용하는 응용 프로그램 및 조직에 대한 Microsoft 피드백 관리에서 모범 사례에 대해 [자세히 알아보면 됩니다.](../manage/manage-feedback-ms-org.md)
 
 ## <a name="feedback-types"></a>피드백 유형
 
@@ -42,12 +42,12 @@ ms.locfileid: "51650072"
 #### <a name="in-product-feedback-examples"></a>제품 내 피드백 예제
 
 :::image type="content" source="../../media/In-appfeedbackbackstage.png" alt-text="스크린샷: 제품 내 피드백 예제":::
-:::image type="content" source="../../media/In-appfeedbackwindows.png" alt-text="스크린샷: Windows 제품 내 피드백 예제 ":::
-:::image type="content" source="../../media/TeamsIn-appFeedback.png" alt-text="스크린샷: Teams 제품 내 피드백 예제":::
+:::image type="content" source="../../media/In-appfeedbackwindows.png" alt-text="Screenshot: Windows in-product feedback example":::
+:::image type="content" source="../../media/TeamsIn-appFeedback.png" alt-text="Screenshot: Teams in-product feedback example":::
 
 ### <a name="in-product-surveys"></a>제품 내 설문 조사
 
-또한 사용자는 시스템 시작 설문 조사 프롬프트를 통해 자신의 경험을 평가하고 경험에 대한 추가 정보를 제공할 수 있습니다. 이러한 프롬프트는 Microsoft 365 제품 내에서 수시로 발생합니다. 메시지가 표시될 때 사용자는 피드백을 제공할지 선택할 수 있습니다. 설문 조사 프롬프트는 일반적으로 앱 오른쪽 아래에 표시됩니다. 사용자가 피드백을 제공하거나, 프롬프트를 해지하거나, 프롬프트가 자체적으로 사라지게 하도록 설정하면 해당 사용자는 설문 조사를 한 번 더 볼 수 없습니다. 또한 Microsoft는 거버넌스 프로세스를 활용하여 이러한 시스템이 시작한 설문 조사의 수를 제한합니다.  거버넌스의 의도는 사용자가 설문 조사 프롬프트 수에 부담을 주지 않도록 하는 것입니다.
+또한 사용자는 시스템 시작 설문 조사 프롬프트를 통해 자신의 경험을 평가하고 경험에 대한 추가 정보를 제공할 수 있습니다. 이러한 프롬프트는 Microsoft 365 제품 내에서 발생합니다. 메시지가 표시될 때 사용자는 피드백을 제공할지 선택할 수 있습니다. 설문 조사 프롬프트는 일반적으로 앱 오른쪽 아래에 표시됩니다. 사용자가 피드백을 제공하거나, 프롬프트를 해지하거나, 프롬프트가 자체적으로 사라지게 하도록 설정하면 해당 사용자는 설문 조사를 한 번 더 볼 수 없습니다. 또한 Microsoft는 거버넌스 프로세스를 활용하여 이러한 시스템이 시작한 설문 조사의 수를 제한합니다.  거버넌스의 의도는 사용자가 설문 조사 프롬프트 수에 부담을 주지 않도록 하는 것입니다.
 
 :::image type="content" source="../../media/feedback-love.png" alt-text="스크린샷: 제품 내 피드백 요청의 예":::
 
@@ -57,7 +57,7 @@ ms.locfileid: "51650072"
 
 자세한 피드백과 실행 가능한 피드백은 Microsoft 제품을 변경하고 개선하는 데 중요합니다. 사용자에게 문제가 있는 경우 또는 개선할 수 있는 방법에 대한 제안이 있는 경우 해당 의견을 듣고자 합니다. 다음은 Microsoft에 전송된 실행 가능한 피드백에 대한 몇 가지 팁과 예제입니다.
 
-- **제목을 설명하는 약어**   설명이 있는 특정 제목은 보고되는 문제를 이해하는 데 도움이 됩니다. 예제: Excel의 **최근** 파일 목록에는 최근에 추가된 OneDrive 파일이 없습니다.
+- **제목을 설명하는 약어**   설명이 있는 특정 제목은 보고되는 문제를 이해하는 데 도움이 됩니다. 예: Excel 최근 파일  목록에 최근에 추가된 파일 목록은 OneDrive 않습니다.
 - **한 번씩 한 가지 문제 집중**   한 번의 문제 또는 권장 항목에 대한 피드백을 한 번씩 제공합니다. 이렇게 하면 각 제출과 함께 올바른 로그 및 데이터가 수신되어 후속 작업을 위해 할당될 수 있습니다. 문제가 두 개 이상 있는 경우 각 문제의 새 피드백 요청을 제출합니다. 이는 특정 문제에서 수신하는 피드백의 양을 식별하는 데 도움이 됩니다.
 - **설명 상자에 세부 정보 쓰기**   장치, 운영 체제 및 앱에 대한 정보는 보고된 각 피드백에 자동으로 포함됩니다. 중요한 문제와 관련한 추가 정보를 추가합니다. 예를 들어 문제를 재현하기 위한 자세한 단계를 포함합니다.
 
@@ -82,7 +82,7 @@ Microsoft는 피드백을 사용하여 Microsoft 제품을 개선합니다. 질�
 - **앱 빌드**   제출 시 캡처된 Microsoft 제품의 빌드 번호입니다.
 - **앱 언어**   제출 시 캡처된 Microsoft 제품의 언어입니다.
 - **첨부 파일**   첨부 파일이 있는 경우(예: screenshots, files) collected as part of the feedback? (예/아니요).
-- **TenantId**   피드백이 연결된 TenantId인 Azure Active Directory 계정에서 제출된 경우
+- **TenantId**   피드백이 연결된 Azure Active Directory 계정에서 제출된 경우
 
 ## <a name="data-handling-and-privacy"></a>데이터 처리 및 개인 정보
 
@@ -93,4 +93,4 @@ Microsoft 거버넌스 규칙에 따라 받은 피드백이 저장 및 처리되
 
 ## <a name="how-can-i-see-my-users-feedback"></a>사용자 의견을 어떻게 볼 수 있나요?
 
-곧 Microsoft 제품에서 수집하는 피드백 데이터를 다시 공유할 예정입니다. Microsoft는 조직의 피드백 데이터를 보고 삭제하고 내보낼 수 있는 Microsoft 365 관리 센터에서 새로운 환경을 개발하고 있습니다. 이렇게 하면 Microsoft 365 제품에 대한 사용자 경험에 대한 직접적인 투명성과 유용한 인사이트를 얻을 수 있습니다.
+곧 Microsoft 제품에서 수집하는 피드백 데이터를 다시 공유할 예정입니다. 조직에 대한 피드백 데이터를 보고 삭제하고 내보낼 수 있는 Microsoft 365 관리 센터에서 새로운 환경을 개발하고 있습니다. 이렇게 하면 사용자 환경의 투명성과 유용한 인사이트를 직접 Microsoft 365 있습니다.

@@ -195,7 +195,7 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예를 들면 다음과 같습니다.
+   예:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-CK-EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -320,7 +320,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름과 키 이름을 조합하여 선택하십시오. 이렇게 하면 파일 이름이 자체 설명으로 지정됩니다. 또한 백업 파일 이름이 충돌하지 않도록 합니다.
   
-예를 들면 다음과 같습니다.
+예:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-CK-EX-NA-VaultA1 -Name Contoso-CK-EX-NA-VaultA1-Key001 -OutputFile Contoso-CK-EX-NA-VaultA1-Key001-Backup-20170802.backup

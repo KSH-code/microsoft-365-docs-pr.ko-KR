@@ -63,17 +63,17 @@ Endpoint용 Defender는 서비스에 온보딩할 수 있는 다양한 끝점을
 | 끝점     | 배포 도구                       |
 |--------------|------------------------------------------|
 | **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md)   |
-| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
+| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
 | **Linux Server** | [로컬 스크립트](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [앱 기반](ios-install.md)                                |
-| **Android**  | [Microsoft Endpoint Manager](android-intune.md)               | 
+| **Android**  | [Microsoft Endpoint Manager ](android-intune.md)               | 
 
 
 
 ## <a name="step-3-configure-capabilities"></a>3단계: 기능 구성
 끝점을 온보딩한 후 제품군에서 사용할 수 있는 강력한 보안 보호를 최대화할 수 있도록 끝점용 Defender의 보안 기능을 구성합니다. 기능은 다음과 같습니다.
 
-- 끝점 감지 및 대응
+- 엔드포인트 감지 및 응답
 - 차세대 보호
 - 공격 표면 감소
 

@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-description: 관리자가 기본 커넥터를 사용하여 LinkedIn 회사 & Microsoft 365로 데이터를 가져오는 방법을 참조하세요.
+description: 관리자가 기본 커넥터를 사용하여 LinkedIn 회사 & 데이터를 가져오는 방법을 Microsoft 365.
 ms.openlocfilehash: 40e51424d086b0eee42d1f15ea577b7e8f1648c1
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,17 +24,17 @@ ms.locfileid: "50906148"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>LinkedIn 데이터를 보관할 커넥터 설정
 
-Microsoft 365 규정 준수 센터의 커넥터를 사용하여 LinkedIn 회사 페이지에서 데이터를 가져오고 보관합니다. 커넥터를 설정하고 구성한 후 24시간마다 한 번씩 특정 LinkedIn Company 페이지의 계정에 연결합니다. 커넥터는 회사 페이지에 게시된 메시지를 전자 메일 메시지로 변환한 다음 해당 항목을 Microsoft 365의 사서함으로 가져올 수 있습니다.
+규정 준수 센터의 Microsoft 365 사용하여 LinkedIn 회사 페이지에서 데이터를 가져오고 보관합니다. 커넥터를 설정하고 구성한 후 24시간마다 한 번씩 특정 LinkedIn Company 페이지의 계정에 연결합니다. 커넥터는 회사 페이지에 게시된 메시지를 전자 메일 메시지로 변환한 다음 해당 항목을 회사에 있는 사서함으로 Microsoft 365.
 
-LinkedIn 회사 페이지 데이터가 사서함에 저장되고 나면 소송 보존, 콘텐츠 검색, In-Place 보관, 감사 및 Microsoft 365 보존 정책과 같은 Microsoft 365 규정 준수 기능을 LinkedIn 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용하여 이러한 항목을 검색하거나 고급 eDiscovery 사례에서 저장소 사서함을 보관인과 연결할 수 있습니다. Microsoft 365에서 LinkedIn 데이터를 가져오고 보관하는 커넥터를 만들면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
+LinkedIn 회사 페이지 데이터가 사서함에 저장되고 나면 소송 보존, Microsoft 365 검색, In-Place 보관, 감사 및 보존 정책과 같은 Microsoft 365 규정 준수 기능을 LinkedIn 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용하여 이러한 항목을 검색하거나 저장소 사서함을 보관된 사례에 Advanced eDiscovery 있습니다. 조직에서 LinkedIn 데이터를 가져오고 보관하는 커넥터를 Microsoft 365 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
 ## <a name="before-you-set-up-a-connector"></a>커넥터를 설정하기 전에
 
-- LinkedIn 회사 페이지 커넥터를 만드는 사용자에게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이는 Microsoft 365  규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하세요.
+- LinkedIn 회사 페이지 커넥터를 만드는 사용자에게 사서함 가져오기 내보내기 역할이 할당되어야 Exchange Online. 준수 센터의 데이터 커넥터  페이지에서 커넥터를 추가하려면 Microsoft 365 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
 
 - 보관할 LinkedIn 회사 페이지의 관리자인 LinkedIn 사용자 계정의 로그인 자격 증명(전자 메일 주소 또는 전화 번호 및 암호)이 있어야 합니다. 커넥터를 설정할 때 이러한 자격 증명을 사용하여 LinkedIn에 로그인합니다.
 
-- LinkedIn 커넥터는 하루 총 200,000개 항목을 가져올 수 있습니다. 하루 200,000개가 넘는 LinkedIn 항목이 있는 경우 이러한 항목은 Microsoft 365로 가져오지 않습니다.
+- LinkedIn 커넥터는 하루 총 200,000개 항목을 가져올 수 있습니다. 하루 200,000개가 넘는 LinkedIn 항목이 있는 경우 이러한 항목 중 어떤 항목도 가져오지 Microsoft 365.
 
 ## <a name="create-a-linkedin-connector"></a>LinkedIn 커넥터 만들기
 
@@ -68,4 +68,4 @@ LinkedIn 회사 페이지 데이터가 사서함에 저장되고 나면 소송 �
 
 ## <a name="more-information"></a>추가 정보
 
-LinkedIn 항목은 Microsoft 365의 저장소 사서함 받은 편지함에 있는 LinkedIn 하위폴더로 가져오기됩니다. 전자 메일 메시지로 표시됩니다.
+LinkedIn 항목은 연결된 저장소 사서함의 받은 편지함에 있는 LinkedIn 하위 Microsoft 365. 전자 메일 메시지로 표시됩니다.

@@ -25,7 +25,7 @@ ms.locfileid: "51649965"
 
 ## <a name="what-is-it"></a>OME(Office 365 메시지 암호화)란 무엇입니까?
 
-Microsoft의 Bing 검색 엔진의 기능을 활용하는 산업 업데이트는 웹 주변에서 가장 중요한 작업 뉴스 모음으로, 자동으로 선택됩니다.
+Microsoft의 Bing 검색 엔진의 기능을 활용하는 산업 업데이트는 웹에서 가장 중요한 작업 소식 모음으로, 자동으로 선택됩니다.
 
 ## <a name="how-does-it-work"></a>작동 방식
 
@@ -33,7 +33,7 @@ Microsoft의 Bing 검색 엔진의 기능을 활용하는 산업 업데이트는
 
 ## <a name="how-do-i-customize-my-industry-updates-email"></a>산업 업데이트 전자 메일을 사용자 지정하는 방법
 
-환경을 사용자 지정하려면 설정 페이지를 방문하여 중요한 항목 및 관심사에 따라 진행하세요. [Bing, Edge](https://www.bing.com/news/professional?pn=setting&mkt=en-us&form=BAWLOG&frb=1) 및 산업 업데이트 뉴스레터에서 콘텐츠 사용자 지정을 책갈피로 지정하거나 산업 업데이트 전자 메일의 설정 단추를 클릭하여 개인 설정 페이지에 액세스합니다.
+환경을 사용자 지정하려면 설정 페이지를 방문하여 중요한 항목 및 관심사에 따라 진행하세요. 개인 설정 페이지에 액세스하려면 [Bing, Edge](https://www.bing.com/news/professional?pn=setting&mkt=en-us&form=BAWLOG&frb=1) 및 산업 업데이트 뉴스레터에서 콘텐츠 사용자 지정 또는 산업 업데이트 전자 메일의 설정 단추를 클릭하여 개인 설정 페이지에 액세스합니다.
 
 [지금](https://www.bing.com/news/professional?pn=setting&mkt=en-us&asnl=1&form=BAWLOG&frb=1) 받은 편지함으로 산업 업데이트 전자 메일을 구독하고 다운로드하세요!
 

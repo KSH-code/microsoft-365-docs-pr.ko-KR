@@ -1,5 +1,5 @@
 ---
-title: 엔터프라이즈용 Microsoft 365 테스트 환경용 Azure AD ID 보호
+title: 엔터프라이즈 테스트 환경에 Microsoft 365 Azure AD ID 보호
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,7 +14,7 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Azure AD ID 보호를 구성하고 엔터프라이즈용 Microsoft 365 테스트 환경에서 현재 계정을 분석합니다.
+description: Azure AD ID 보호를 구성하고 엔터프라이즈 테스트 환경에 Microsoft 365 현재 계정을 분석합니다.
 ms.openlocfilehash: 0cb0acf3faee13676573b04178bd6b4d3d36da4d
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -22,23 +22,23 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905347"
 ---
-# <a name="azure-ad-identity-protection-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈용 Microsoft 365 테스트 환경용 Azure AD ID 보호
+# <a name="azure-ad-identity-protection-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 Azure AD ID 보호
 
-*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 테스트 환경에만 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 테스트 환경에 Microsoft 365 사용할 수 있습니다.*
 
 Azure AD(Azure Active Directory) ID 보호를 사용하여 조직의 ID에 영향을 주는 잠재적인 취약점을 감지하고, 자동화된 응답을 구성하고, 인시던트 조사를 할 수 있습니다. 이 문서에서는 Azure AD ID 보호를 사용하여 테스트 환경 계정의 분석을 보는 방법을 설명합니다.
 
-엔터프라이즈용 Microsoft 365 테스트 환경에서 Azure AD ID 보호를 설정하는 단계는 다음 두 단계로 진행됩니다.
+엔터프라이즈 테스트 환경에 대한 Microsoft 365 Azure AD ID 보호를 설정하는 단계는 다음 두 단계로 진행됩니다.
 
-- [1단계: 엔터프라이즈용 Microsoft 365 테스트 환경 구축](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+- [1단계: 엔터프라이즈 테스트 Microsoft 365 사용자 환경 구축](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
 - [2단계: Azure AD ID 보호 사용](#phase-2-use-azure-ad-identity-protection)
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵은 [엔터프라이즈용 Microsoft 365 테스트](../downloads/Microsoft365EnterpriseTLGStack.pdf)랩 가이드 스택으로 이동하세요.
+> 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 자세한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
   
-## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>1단계: 엔터프라이즈용 Microsoft 365 테스트 환경 구축
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>1단계: 엔터프라이즈 테스트 Microsoft 365 사용자 환경 구축
 
 최소 요구 사항을 사용하여 경량 방식으로 Azure AD ID 보호를 테스트하려면 간단한 기본 [구성의 지침을 따릅니다.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
@@ -49,7 +49,7 @@ Azure AD(Azure Active Directory) ID 보호를 사용하여 조직의 ID에 영�
   
 ## <a name="phase-2-use-azure-ad-identity-protection"></a>2단계: Azure AD ID 보호 사용
 
-1. 브라우저의 개인 인스턴스를 열고 [https://portal.azure.com](https://portal.azure.com) 엔터프라이즈용 Microsoft 365 테스트 환경의 전역 관리자 계정으로 Azure Portal에 로그인합니다.
+1. 브라우저의 개인 인스턴스를 열고 엔터프라이즈 테스트 환경에 대한 사용자 계정의 전역 관리자 [https://portal.azure.com](https://portal.azure.com) Microsoft 365 Azure Portal에 로그인합니다.
 2. Azure Portal에서 검색 상자에 **ID** 보호를 입력한 다음 **Azure AD ID 보호 를 선택합니다.**
 3. ID 보호 **- 개요** 블레이드에서 각 보고서를 선택하여 보고하는 대상을 봐야 합니다.
 4. **알림에서** **위험에 노출된 경고가 있는 사용자를 선택합니다.**

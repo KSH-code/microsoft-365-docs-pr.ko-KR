@@ -26,10 +26,10 @@ ms.locfileid: "50906782"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
 
-사용자들은 종종 신용 카드 번호, 사회 보장 번호 또는 개인 정보와 같은 중요한 데이터를 사이트에 저장하며, 시간에 지나면서 이로 인해 조직은 심각한 데이터 손실 위험에 처할 수 있습니다. 사이트에 저장된 문서(비즈니스용 OneDrive 사이트 포함)는 정보에 액세스할 수 없는 조직 외부의 사용자와 공유할 수 있습니다. SharePoint Online의 DLP(데이터 손실 방지)를 사용하면 테넌트 전체에서 중요한 데이터가 포함된 문서를 검색할 수 있습니다. 문서를 검색한 후 문서 소유자와 함께 작업하여 데이터를 보호할 수 있습니다. 이 항목은 중요한 데이터를 검색하는 쿼리를 작성하는 데 도움이 될 수 있습니다.
+사용자들은 종종 신용 카드 번호, 사회 보장 번호 또는 개인 정보와 같은 중요한 데이터를 사이트에 저장하며, 시간에 지나면서 이로 인해 조직은 심각한 데이터 손실 위험에 처할 수 있습니다. 사이트에 저장된 문서(비즈니스용 OneDrive 포함)는 정보에 액세스할 수 없는 조직 외부의 사용자와 공유할 수 있습니다. SharePoint Online의 DLP(데이터 손실 방지)를 사용하면 테넌트 전체에서 중요한 데이터가 포함된 문서를 검색할 수 있습니다. 문서를 검색한 후 문서 소유자와 함께 작업하여 데이터를 보호할 수 있습니다. 이 항목은 중요한 데이터를 검색하는 쿼리를 작성하는 데 도움이 될 수 있습니다.
   
 > [!NOTE]
-> 전자 검색 또는 eDiscovery 및 DLP는 [SharePoint Online 계획 2가 필요한 고급 기능입니다.](https://go.microsoft.com/fwlink/?LinkId=510080) 
+> 전자 검색 또는 eDiscovery 및 DLP는 온라인 계획 [2를 SharePoint 고급 기능입니다.](https://go.microsoft.com/fwlink/?LinkId=510080) 
   
 ## <a name="forming-a-basic-dlp-query"></a>기본 DLP 쿼리 작성
 
@@ -39,11 +39,11 @@ ms.locfileid: "50906782"
   
 ### <a name="sensitive-type---required"></a>중요한 정보 유형 - 필수
 
-그렇다면 각 부분이 어떻게 하나요? SharePoint DLP 쿼리는 일반적으로 속성 및 중요한 정보 유형 인벤토리의 정보 유형 이름으로 시작하고 `SensitiveType:"` 로 끝날 수 [](/Exchange/what-the-sensitive-information-types-in-exchange-look-for-exchange-2013-help) `"` 있습니다. 조직에 대해 만든 사용자 지정 중요한 정보 유형의 [이름을](create-a-custom-sensitive-information-type.md) 사용할 수도 있습니다. 예를 들어 신용 카드 번호가 포함된 문서를 찾고 있을 수 있습니다. 이러한 경우 다음 형식을 사용하게  `SensitiveType:"Credit Card Number"` 됩니다. . 개수 범위나 신뢰도 범위를 포함하지 않았기 때문에 쿼리는 신용 카드 번호가 검색되는 모든 문서를 반환합니다. 이 쿼리는 실행할 수 있는 가장 간단한 쿼리로, 가장 많은 결과를 반환합니다. 중요한 유형의 맞춤법과 간격은 중요합니다. 
+그렇다면 각 부분이 어떻게 하나요? SharePoint DLP 쿼리는 일반적으로 중요한 정보 유형 인벤토리의 속성 및 정보 유형 이름으로 시작하고 `SensitiveType:"` 로 끝날 수 [](/Exchange/what-the-sensitive-information-types-in-exchange-look-for-exchange-2013-help) `"` 있습니다. 조직에 대해 만든 사용자 지정 중요한 정보 유형의 [이름을](create-a-custom-sensitive-information-type.md) 사용할 수도 있습니다. 예를 들어 신용 카드 번호가 포함된 문서를 찾고 있을 수 있습니다. 이러한 경우 다음 형식을 사용하게  `SensitiveType:"Credit Card Number"` 됩니다. . 개수 범위나 신뢰도 범위를 포함하지 않았기 때문에 쿼리는 신용 카드 번호가 검색되는 모든 문서를 반환합니다. 이 쿼리는 실행할 수 있는 가장 간단한 쿼리로, 가장 많은 결과를 반환합니다. 중요한 유형의 맞춤법과 간격은 중요합니다. 
   
 ### <a name="ranges---optional"></a>범위 - 옵션
 
-다음 두 부분 모두 범위이기 때문에 범위의 모양을 빠르게 살펴보아야 합니다. SharePoint DLP 쿼리에서 기본 범위는 다음과 같이 두 개의 기간으로 구분된 두 개의 숫자로  `[number]..[number]` 표시됩니다. 예를 들어 사용하는 경우 해당  `10..20` 범위는 10에서 20까지의 숫자를 캡처합니다. 다양한 범위 조합이 있으며 이 항목에서는 몇 가지에 대해 다산합니다. 
+다음 두 부분 모두 범위이기 때문에 범위의 모양을 빠르게 살펴보아야 합니다. DLP SharePoint 경우 기본 범위는 다음과 같은 두 개의 마주로 구분된 두 개의 숫자로 `[number]..[number]` 표시됩니다. 예를 들어 사용하는 경우 해당  `10..20` 범위는 10에서 20까지의 숫자를 캡처합니다. 다양한 범위 조합이 있으며 이 항목에서는 몇 가지에 대해 다산합니다. 
   
 쿼리에 개수 범위를 추가해보아야 합니다. 개수 범위를 사용하여 문서가 쿼리 결과에 포함되기 전에 포함해야 하는 중요한 정보의 발생 횟수를 정의할 수 있습니다. 예를 들어 쿼리에서 정확히 다섯 개의 신용 카드 번호가 포함된 문서만 반환하려는 경우 를  `SensitiveType:"Credit Card Number|5"` 사용합니다. 개수 범위는 높은 위험도를 내포하는 문서를 식별하는 데도 도움이 될 수 있습니다. 예를 들어 조직에서는 신용 카드 번호가 5개 이상인 문서를 높은 위험으로 고려할 수 있습니다. 이 기준에 맞는 문서를 찾으 위해 다음 쿼리를  `SensitiveType:"Credit Card Number|5.."` 사용합니다. . 또는 다음 쿼리를 사용하여 신용 카드 번호가 5개 이하인 문서를 찾을 수  `SensitiveType:"Credit Card Number|..5"` 있습니다. 
   
@@ -56,9 +56,9 @@ ms.locfileid: "50906782"
   
 ### <a name="additional-query-properties-and-search-operators-available-in-the-ediscovery-center"></a>eDiscovery 센터에서 사용할 수 있는 추가 쿼리 속성 및 검색 연산자
 
-또한 SharePoint의 DLP에는 특정 시간 범위 내에서 검색되는 파일을 검색하는 데 도움이 되는 LastSensitiveContentScan 속성이 도입됩니다. 속성이 있는 쿼리 예제는 다음 섹션의 복잡한  `LastSensitiveContentScan` [쿼리](#examples-of-complex-queries) 예제를 참조하세요. 
+또한 SharePoint DLP에는 LastSensitiveContentScan 속성이 도입되어 특정 기간 내에 검색되는 파일을 검색할 수 있습니다. 속성이 있는 쿼리 예제는 다음 섹션의 복잡한  `LastSensitiveContentScan` [쿼리](#examples-of-complex-queries) 예제를 참조하세요. 
   
-DLP 관련 속성을 사용하여 쿼리를 만들 수 있는 것은 물론, 또는 과 같은 표준 SharePoint eDiscovery 검색 속성도 사용할 수  `Author`  `FileExtension` 있습니다. 연산자를 사용하여 복잡한 쿼리를 작성할 수 있습니다. 사용 가능한 속성 및 연산자 목록은 [eDiscovery에서](/archive/blogs/quentin/using-search-properties-and-operators-with-ediscovery) 검색 속성 및 연산자 사용 블로그 게시물을 참조하세요. 
+DLP 관련 속성을 사용하여 쿼리를 만들 수 있는 것은 물론, 또는 과 같은 eDiscovery SharePoint 속성을 사용할 수도 `Author` `FileExtension` 있습니다. 연산자를 사용하여 복잡한 쿼리를 작성할 수 있습니다. 사용 가능한 속성 및 연산자 목록은 [eDiscovery에서](/archive/blogs/quentin/using-search-properties-and-operators-with-ediscovery) 검색 속성 및 연산자 사용 블로그 게시물을 참조하세요. 
   
 ## <a name="examples-of-complex-queries"></a>예제
 
@@ -74,7 +74,7 @@ DLP 관련 속성을 사용하여 쿼리를 만들 수 있는 것은 물론, 또
    
 ## <a name="examples-of-queries-to-avoid"></a>예제
 
-모든 쿼리가 동일하게 만들어지는 것은 아닙니다. 다음 표에서는 SharePoint의 DLP에서 작동하지 않는 쿼리의 예를 설명하고 그 이유를 설명합니다.
+모든 쿼리가 동일하게 만들어지는 것은 아닙니다. 다음 표에서는 이 문서에서 DLP로 작동하지 않는 쿼리의 예를 SharePoint 설명합니다.
   
 |**지원되지 않는 쿼리**|**이유**|
 |:-----|:-----|

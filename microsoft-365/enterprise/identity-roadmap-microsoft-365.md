@@ -15,7 +15,7 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 ms.custom: ''
-description: Microsoft 365의 ID 로드맵입니다.
+description: ID에 대한 로드맵을 Microsoft 365.
 ms.openlocfilehash: 456841bfc15d143409535140f2b5a63ee72e99d2
 ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
@@ -25,19 +25,19 @@ ms.locfileid: "51051309"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Microsoft 365의 ID 로드맵
 
-엔터프라이즈용 Microsoft 365에서 잘 계획되고 실행되는 ID 인프라는 생산성 작업 및 해당 데이터에 대한 액세스를 인증된 사용자 및 장치로만 제한하는 것을 포함하여 보안을 강화하는 방법을 제공합니다.
+엔터프라이즈 Microsoft 365 잘 계획되고 실행되는 ID 인프라는 생산성 워크로드 및 해당 데이터에 대한 액세스를 인증된 사용자 및 장치로만 제한하는 것을 포함하여 보안을 강화하는 방법을 제공합니다.
 
-엔터프라이즈용 Microsoft 365의 ID 모델 및 인증에 대한 개요는 이 비디오를 시청하세요.
+엔터프라이즈용 id 모델 및 인증에 대한 개요를 Microsoft 365 비디오를 시청하세요.
 
 <p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
-각 엔터프라이즈용 Microsoft 365 계획의 ID 기능, Azure Active Directory의 역할, 사내 및 클라우드 기반 구성 요소 모두 및 가장 일반적인 인증 구성에 대한 자세한 내용은 ID 인프라 [포스터](../downloads/m365e-identity-infra.pdf)를 참조하세요.
+엔터프라이즈 계획에 대한 각 Microsoft 365 기능, Azure Active Directory 및 클라우드 기반 구성 요소 및 가장 일반적인 인증 구성에 대한 자세한 내용은 ID 인프라 [포스터](../downloads/m365e-identity-infra.pdf)를 참조하세요.
 
 [![ID 인프라 포스터](../downloads/m365e-identity-infra.png)](../downloads/m365e-identity-infra.pdf)
 
-이 두 페이지 포스터를 검토하여 엔터프라이즈용 Microsoft 365의 ID 개념 및 구성을 빠르게 확인할 수 있습니다.
+이 두 페이지 포스터를 검토하여 엔터프라이즈용 id 개념 및 구성을 빠르게 Microsoft 365 있습니다.
 
 이 [포스터를](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) 다운로드하여 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수도 있습니다.
 
@@ -67,7 +67,7 @@ ID 구현을 배포하는 경우:
 
 ## <a name="manage"></a>관리
 
-Microsoft 365 ID 배포를 관리하기 위해 다음을 참조합니다.
+ID Microsoft 365 관리하기 위해 다음을 참조합니다.
 
 - [사용자 계정](manage-microsoft-365-accounts.md)
 - [라이선스](assign-licenses-to-user-accounts.md)
@@ -76,7 +76,7 @@ Microsoft 365 ID 배포를 관리하기 위해 다음을 참조합니다.
 - [거버넌스](manage-microsoft-365-identity-governance.md)
 - [디렉터리 동기화](view-directory-synchronization-status.md)
 
-## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Microsoft에서 Microsoft 365 ID를 하는 방법
+## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Microsoft에서 사용자 ID를 Microsoft 365
 
 Microsoft의 IT 전문가가 [ID와 보안 액세스를 관리하는 방법](https://www.microsoft.com/en-us/itshowcase/managing-user-identities-and-secure-access-at-microsoft)을 알아보세요.
 
@@ -84,7 +84,7 @@ Microsoft의 IT 전문가가 [ID와 보안 액세스를 관리하는 방법](htt
 >이 IT 쇼케이스 리소스는 영어로만 제공됩니다.
 >
 
-## <a name="how-contoso-did-identity-for-microsoft-365"></a>Contoso가 Microsoft 365의 ID를 어떻게 했는가
+## <a name="how-contoso-did-identity-for-microsoft-365"></a>Contoso에서 ID를 확인한 Microsoft 365
 
 대표적이지만 대표적인 다국적 조직이 Microsoft 365 클라우드 서비스에 대한 하이브리드 ID 인프라를 배포한 방법의 예는 [Contoso Corporation의 ID를 참조합니다.](contoso-identity.md)
 

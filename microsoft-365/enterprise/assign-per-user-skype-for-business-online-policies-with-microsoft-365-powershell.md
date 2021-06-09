@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365용 PowerShell을 통해 사용자당 비즈니스용 Skype Online 정책 할당
+title: PowerShell을 비즈니스용 Skype 온라인 정책을 사용자 Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,7 +13,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
-description: '요약: Microsoft 365용 PowerShell을 사용하여 비즈니스용 Skype Online 정책을 사용하여 사용자당 통신 설정을 할당합니다.'
+description: '요약: PowerShell을 사용하여 Microsoft 365 Online 정책을 사용하여 사용자 비즈니스용 Skype 할당합니다.'
 ms.openlocfilehash: 2d3d953fe0beb74cc63f914137942f068ce90be7
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -21,11 +21,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905407"
 ---
-# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Microsoft 365용 PowerShell을 통해 사용자당 비즈니스용 Skype Online 정책 할당
+# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>PowerShell을 비즈니스용 Skype 온라인 정책을 사용자 Microsoft 365
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365용 PowerShell을 사용하는 것은 비즈니스용 Skype Online 정책으로 사용자당 통신 설정을 할당하는 효율적인 방법입니다.
+PowerShell을 사용하여 Microsoft 365 온라인 정책을 사용하여 사용자당 통신 설정을 효율적으로 비즈니스용 Skype 있습니다.
   
 ## <a name="prepare-to-run-the-powershell-commands"></a>PowerShell 명령 실행 준비
 
@@ -43,11 +43,11 @@ Microsoft 365용 PowerShell을 사용하는 것은 비즈니스용 Skype Online 
    Connect-MicrosoftTeams
    ```
 
-   메시지가 표시될 때 비즈니스용 Skype Online 관리자 계정 이름과 암호를 입력합니다.
+   메시지가 표시될 때 비즈니스용 Skype 계정 이름과 암호를 입력합니다.
     
 ## <a name="updating-external-communication-settings-for-a-user-account"></a>사용자 계정에 대한 외부 통신 설정 업데이트
 
-사용자 계정에서 외부 통신 설정을 변경하려는 경우를 가정해 가정합니다. 예를 들어 Alex가 페더임 사용자와 통신할 수 있도록 허용할 수 있지만(EnableFederationAccess가 True와 같음) Windows Live(EnablePublicCloudAccess는 False임). 이를 위해 다음 두 가지 작업을 해야 합니다.
+사용자 계정에서 외부 통신 설정을 변경하려는 경우를 가정해 가정합니다. 예를 들어 Alex가 페더임 사용자와 통신할 수 있도록 허용할 수 있지만(EnableFederationAccess가 True와 같음) Windows Live 사용자와는 통신하지 않을 수 있습니다(EnablePublicCloudAccess는 False임). 이를 위해 다음 두 가지 작업을 해야 합니다.
   
 1. 기준을 충족하는 외부 액세스 정책을 찾습니다.
     

@@ -56,7 +56,7 @@ ms.locfileid: "50905611"
 
 ObjectID를 사용하여 그룹을 제거하려면 다음을 실행하세요. `Remove-SPOGeoAdministrator -ObjectID <ObjectID>`
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Add-SPOGeoAdministrator](/powershell/module/sharepoint-online/add-spogeoadministrator)
 

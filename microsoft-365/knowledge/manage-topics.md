@@ -64,7 +64,7 @@ Viva Topics 항목 센터에서 기술 관리자는  항목 관리 페이지를 
 항목 센터에서 항목을 관리하려면 다음을 해야 합니다.
 - Viva Topics 라이선스가 있어야 합니다.
 
-- 항목을 [**Who 수 있도록**](./topic-experiences-user-permissions.md) 합니다. 지식 관리자는 Viva Topics의 항목 사용 권한 설정에서 사용자에게 해당 사용 권한을 부여할 수 있습니다. 
+- 항목을 [**Who 수 있도록**](./topic-experiences-user-permissions.md) 합니다. 지식 관리자는 Viva Topics의 항목 사용 권한 설정에서 사용자에게 해당 권한을 부여할 수 있습니다. 
 
 항목 관리 권한이 있는  경우 항목 센터에서 항목 관리 페이지를 **Who 수** 없습니다.
 

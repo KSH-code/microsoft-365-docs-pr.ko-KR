@@ -13,7 +13,7 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Microsoft 365 E5 또는 Microsoft 365 E5 보안의 안전한 문서에 대해 자세히 알아보습니다.
+description: 자세한 내용은 Microsoft 365 E5 또는 Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 1186c7856d0b979c483cf6dd1c0a010ab582e2ce
@@ -30,13 +30,13 @@ ms.locfileid: "51644755"
 **적용 대상**
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-안전한 문서는 끝점용 [Microsoft Defender를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 Office용 보호된 보기 또는 Application Guard에서 열 수 있는 문서 및 [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) 파일을 검사하는 Microsoft 365 E5 또는 Microsoft 365 E5 보안의 [기능입니다.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)
+안전한 문서는 Microsoft 365 E5 또는 Microsoft 365 E5 Security [Microsoft Defender for Endpoint를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기 또는 [Application Guard에서](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)열 수 있는 문서 및 파일을 검사하는 Office. [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 안전한 문서는 *Microsoft 365 E5 또는 Microsoft 365 E5* *보안* 라이선스가 있는 사용자만 사용할 수 있습니다. 이러한 라이선스는 Microsoft Defender for Office 365 계획에 포함되어 있지 않습니다.
+- 안전한 문서는 라이선스가 있는 사용자만 사용할 *Microsoft 365 E5* *Microsoft 365 E5 Security* 있습니다. 이러한 라이선스는 Microsoft Defender for Office 365 포함되어 있지 않습니다.
 
-- 안전한 문서는 엔터프라이즈용 Microsoft 365 앱(이전의 Office 365 ProPlus) 버전 2004 이상에서 지원됩니다.
+- 안전한 문서는 엔터프라이즈용 Microsoft 365 앱(Office 365 ProPlus) 버전 2004 이상에서 지원됩니다.
 
 - <https://protection.office.com>에서 보안 및 준수 센터를 엽니다. ATP 안전한 첨부 파일 페이지로 직접 **이동하기** 위해 를 를 니다. <https://protection.office.com/safeattachmentv2>
 
@@ -66,7 +66,7 @@ ms.locfileid: "51644755"
 
 2. 전역 **설정** 플라이아웃이 나타나면 다음 설정을 구성합니다.
 
-   - **Office 클라이언트에 대한** 안전한 문서 켜기 : 토글을 오른쪽으로 이동하여 기능을 ![ 켜기: 토글합니다. ](../../media/scc-toggle-on.png)
+   - **클라이언트에** 대해 안전한 Office 켜기 : 토글을 오른쪽으로 이동하여 기능을 ![ 켜기: ](../../media/scc-toggle-on.png) 토글합니다.
 
    - **안전한 문서에서** 파일을 악성으로 식별하는 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용 : 이 옵션을 해제한 후(토글을 왼쪽으로 유지: 토글 해제) 하는 것이 ![ 좋습니다. ](../../media/scc-toggle-off.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "51644755"
 
    ![안전한 첨부 파일 페이지에서 전역 설정을 선택한 후의 안전한 문서 설정입니다.](../../media/safe-docs.png)
 
-### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>Exchange Online PowerShell을 사용하여 안전한 문서 구성
+### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>PowerShell Exchange Online 사용하여 안전한 문서 구성
 
 다음 구문을 사용합니다.
 
@@ -103,9 +103,9 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 
 안전한 문서를 사용하도록 설정하고 구성하는지 확인하기 위해 다음 단계를 수행합니다.
 
-- 보안 & 준수 센터에서 위협  관리 정책 \>  \> **ATP 안전한**   첨부 파일로 이동하고, 전역 설정을 클릭하고, **안전한** 문서가 파일을 악의적인 설정으로 식별하는 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용을 확인합니다.
+- 보안 & 준수 센터에서 위협 관리  정책 \>  \> **ATP 안전한**   첨부 파일로 이동하고,  전역 설정을 클릭하고, Office 클라이언트에 대해 안전한 문서 사용 및 안전한 문서가 파일을 악성 설정으로 식별하는 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용을 확인합니다.
 
-- Exchange Online PowerShell에서 다음 명령을 실행하고 속성 값을 검증합니다.
+- PowerShell에서 Exchange Online 명령을 실행하고 속성 값을 검증합니다.
 
   ```powershell
   Get-AtpPolicyForO365 | Format-List *SafeDocs*

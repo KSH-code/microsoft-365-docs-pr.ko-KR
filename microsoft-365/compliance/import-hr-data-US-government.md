@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
-description: 미국 정부 클라우드의 관리자는 데이터 커넥터를 설정하여 조직의 HR(인사) 시스템에서 Microsoft 365로 직원 데이터를 가져올 수 있습니다. 이렇게 하면 내부자 위험 관리 정책의 HR 데이터를 사용하여 조직에 내부 위협을 줄 수 있는 특정 사용자의 활동을 검색할 수 있습니다.
+description: 미국 정부 클라우드의 관리자는 데이터 커넥터를 설정하여 조직의 HR(인사) 시스템에서 직원 데이터를 데이터 원본으로 가져올 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책의 HR 데이터를 사용하여 조직에 내부 위협을 줄 수 있는 특정 사용자의 활동을 검색할 수 있습니다.
 ms.openlocfilehash: 16d6d72d557744e30d41795d5f8c8a17db81c6a3
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,19 +24,19 @@ ms.locfileid: "50905930"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government"></a>미국 정부에서 HR 데이터를 가져오는 커넥터 설정
 
-Microsoft 365 규정 준수 센터에서 데이터 커넥터를 설정하여 인사(HR) 데이터를 미국 정부 조직으로 가져올 수 있습니다. HR 관련 데이터에는 직원이 퇴직을 제출한 날짜와 직원의 마지막 날이 포함됩니다. 그런 다음 내부자 위험 관리 솔루션과 같은 Microsoft [](insider-risk-management.md)정보 보호 솔루션에서 이 HR 데이터를 사용하여 조직 내부의 악의적인 활동이나 데이터 도용으로부터 조직을 보호할 수 있습니다. HR 커넥터 설정은 커넥터의 인증에 사용되는 Azure Active Directory에서 앱을 만들고, HR 데이터가 포함된 CSV 매핑 파일을 만들고, 준수 센터에서 데이터 커넥터를 만들고, CSV 파일의 HR 데이터를 Microsoft 클라우드에 수집하는 스크립트를 실행(예약된 기준)하는 것으로 구성됩니다. 그런 다음 내부자 위험 관리 도구에서 데이터 커넥터를 사용하여 Microsoft 365 미국 정부 조직으로 가져온 HR 데이터에 액세스합니다.
+조직 준수 센터에서 데이터 커넥터를 설정하여 Microsoft 365(인사) 데이터를 미국 정부 조직으로 가져올 수 있습니다. HR 관련 데이터에는 직원이 퇴직을 제출한 날짜와 직원의 마지막 날이 포함됩니다. 그런 다음 내부자 위험 관리 솔루션과 같은 Microsoft [](insider-risk-management.md)정보 보호 솔루션에서 이 HR 데이터를 사용하여 조직 내부의 악의적인 활동이나 데이터 도용으로부터 조직을 보호할 수 있습니다. HR 커넥터 설정은 커넥터의 인증에 사용되는 Azure Active Directory 앱 만들기, HR 데이터가 포함된 CSV 매핑 파일 만들기, 준수 센터에서 데이터 커넥터 만들기, CSV 파일의 HR 데이터를 Microsoft 클라우드에 수집하는 스크립트 실행으로 구성됩니다. 그런 다음 내부자 위험 관리 도구에서 데이터 커넥터를 사용하여 미국 정부 조직으로 가져온 HR Microsoft 365 액세스합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 3단계에서 HR 커넥터를 만드는 사용자에게 Exchange Online의 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하세요.
+- 3단계에서 HR 커넥터를 만드는 사용자에게 사서함 가져오기 내보내기 역할이 할당되어야 Exchange Online. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 새 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
 
 - 정기적으로 조직의 HR 시스템에서 데이터를 검색하거나 내보내는 방법을 결정하고 2단계에서 설명하는 CSV 파일에 추가해야 합니다. 4단계에서 실행한 스크립트는 CSV 파일의 HR 데이터를 Microsoft 클라우드에 업로드합니다.
 
 - 4단계에서 실행한 샘플 스크립트는 내부자 위험 관리 솔루션과 같은 다른 Microsoft 도구에서 사용할 수 있도록 HR 데이터를 Microsoft 클라우드에 업로드합니다. 이 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서 지원되지 않습니다. 샘플 스크립트는 어떤 종류의 보증도 없이 그대로 제공됩니다. 또한 Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 그외 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용할 수 없음으로 인해 발생하는 모든 손해(수익 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알았더라도 마찬가지입니다.
 
-## <a name="step-1-create-an-app-in-azure-active-directory"></a>1단계: Azure Active Directory에서 앱 만들기
+## <a name="step-1-create-an-app-in-azure-active-directory"></a>1단계: 앱에서 앱 Azure Active Directory
 
-첫 번째 단계는 Azure AD(Azure Active Directory)에서 새 앱을 만들고 등록하는 것입니다. 앱은 3단계에서 만든 HR 커넥터에 해당합니다. 이 앱을 만들면 Azure AD에서 HR 커넥터를 실행하고 조직에 액세스하려고 할 때 인증할 수 있습니다. 이 앱은 4단계에서 실행하여 Microsoft 클라우드에 HR 데이터를 업로드하는 스크립트를 인증하는 데도 사용됩니다. 이 Azure AD 앱을 만들 때 다음 정보를 저장해야 합니다. 이러한 값은 이후 단계에서 사용됩니다.
+첫 번째 단계는 Azure AD(Azure AD)에서 새 Azure Active Directory 등록하는 것입니다. 앱은 3단계에서 만든 HR 커넥터에 해당합니다. 이 앱을 만들면 Azure AD에서 HR 커넥터를 실행하고 조직에 액세스하려고 할 때 인증할 수 있습니다. 이 앱은 4단계에서 실행하여 Microsoft 클라우드에 HR 데이터를 업로드하는 스크립트를 인증하는 데도 사용됩니다. 이 Azure AD 앱을 만들 때 다음 정보를 저장해야 합니다. 이러한 값은 이후 단계에서 사용됩니다.
 
 - Azure AD 응용 프로그램 ID(앱 ID 또는 *클라이언트 ID라고도 합니다.* 
 
@@ -44,11 +44,11 @@ Microsoft 365 규정 준수 센터에서 데이터 커넥터를 설정하여 인
 
 - 테넌트 ID(디렉터리 *ID라고도 합니다.*
 
-Azure AD에서 앱을 만드는 단계별 지침은 Microsoft ID 플랫폼으로 응용 프로그램 [등록을 참조하세요.](/azure/active-directory/develop/quickstart-register-app)
+Azure AD에서 앱을 만드는 단계별 지침은 응용 프로그램 등록을 [Microsoft ID 플랫폼.](/azure/active-directory/develop/quickstart-register-app)
 
 ## <a name="step-2-prepare-a-csv-file-with-your-hr-data"></a>2단계: HR 데이터를 사용하여 CSV 파일 준비
 
-다음 단계는 조직을 떠나는 직원에 대한 정보가 포함된 CSV 파일을 만드는 것입니다. 시작하기 전에 섹션에 설명된 경우 조직의 HR 시스템에서 이 CSV 파일을 생성하는 방법을 결정해야 합니다. 다음 예제에서는 3개의 필수 매개 변수(열)가 포함된 완성된 CSV 파일(메모 패드에서 열)을 보여 주며, Microsoft Excel에서 CSV 파일을 편집하는 것이 훨씬 쉽습니다.
+다음 단계는 조직을 떠나는 직원에 대한 정보가 포함된 CSV 파일을 만드는 것입니다. 시작하기 전에 섹션에 설명된 경우 조직의 HR 시스템에서 이 CSV 파일을 생성하는 방법을 결정해야 합니다. 다음 예제에서는 3개의 필수 매개 변수(열)가 포함된 완성된 CSV 파일(메모 패드에서 열)을 보여 주며, CSV 파일을 편집할 때 훨씬 더 쉽게 Microsoft Excel.
 
 ```text
 EmailAddress,TerminationDate,LastWorkingDate
@@ -71,7 +71,7 @@ CSV 파일의 첫 번째 행(머리줄 행)에는 필요한 열 이름이 나열
 
 ## <a name="step-3-create-the-hr-connector"></a>3단계: HR 커넥터 만들기
 
-다음 단계는 Microsoft 365 규정 준수 센터에서 HR 커넥터를 만드는 것입니다. 4단계에서 스크립트를 실행한 후 만든 HR 커넥터는 CSV 파일의 HR 데이터를 Microsoft 365 조직으로 수집합니다. 이 단계에서는 커넥터를 만들 때 생성되는 작업 ID를 복사해야 합니다. 스크립트를 실행할 때 작업 ID를 사용하게 됩니다.
+다음 단계는 준수 센터에서 HR 커넥터를 Microsoft 365 것입니다. 4단계에서 스크립트를 실행한 후 만든 HR 커넥터는 CSV 파일의 HR 데이터를 Microsoft 365 조직에 수집합니다. 이 단계에서는 커넥터를 만들 때 생성되는 작업 ID를 복사해야 합니다. 스크립트를 실행할 때 작업 ID를 사용하게 됩니다.
 
 1. 으로 이동한 다음 왼쪽 [https://compliance.microsoft.com](https://compliance.microsoft.com) **네비게이트에서 데이터** 커넥터를 클릭합니다.
 
@@ -97,7 +97,7 @@ CSV 파일의 첫 번째 행(머리줄 행)에는 필요한 열 이름이 나열
 
    1. **작업 ID입니다.** 다음 단계에서 스크립트를 실행하려면 이 작업 ID가 필요합니다. 이 페이지 또는 커넥터 플라이아웃 페이지에서 복사할 수 있습니다.
    
-   1. **샘플 스크립트에 연결합니다.** 샘플 **스크립트에** 액세스하려면 여기를 클릭하고 GitHub 사이트로 이동하세요(링크가 새 창이 열립니다). 4단계에서 스크립트를 복사할 수 있도록 이 창을 열어 두십시오. 또는 4단계에서 다시 액세스할 수 있도록 대상에 책갈피를 지정하거나 URL을 복사할 수 있습니다. 이 링크는 커넥터 플라이아웃 페이지에서도 사용할 수 있습니다.
+   1. **샘플 스크립트에 연결합니다.** 샘플 **스크립트에** 액세스하려면 여기를 클릭하고 GitHub 사이트로 이동하십시오.(링크가 새 창이 열립니다). 4단계에서 스크립트를 복사할 수 있도록 이 창을 열어 두십시오. 또는 4단계에서 다시 액세스할 수 있도록 대상에 책갈피를 지정하거나 URL을 복사할 수 있습니다. 이 링크는 커넥터 플라이아웃 페이지에서도 사용할 수 있습니다.
 
 7. **완료** 를 클릭합니다.
 
@@ -137,8 +137,8 @@ HR 커넥터를 설정하는 마지막 단계는 CSV 파일(2단계에서 만든
 
    | 매개 변수 | 설명 |
    |:-----|:-----|:-----|
-   |`tenantId`|1단계에서 획득한 Microsoft 365 조직의 ID입니다. Azure AD 관리 센터의 개요 블레이드에서  조직의 테넌트 ID를 얻을 수도 있습니다. 이는 조직을 식별하는 데 사용됩니다.|
-   |`appId` |1단계에서 Azure AD에서 만든 앱의 Azure AD 응용 프로그램 ID입니다. 스크립트가 Microsoft 365 조직에 액세스하려고 할 때 Azure AD에서 인증에 사용됩니다. |
+   |`tenantId`|1단계에서 Microsoft 365 조직의 ID입니다. Azure AD 관리 센터의 개요 블레이드에서  조직의 테넌트 ID를 얻을 수도 있습니다. 이는 조직을 식별하는 데 사용됩니다.|
+   |`appId` |1단계에서 Azure AD에서 만든 앱의 Azure AD 응용 프로그램 ID입니다. 스크립트가 사용자 조직에 액세스하려고 할 때 Azure AD에서 Microsoft 365 사용됩니다. |
    |`appSecret`|1단계에서 Azure AD에서 만든 앱에 대한 Azure AD 응용 프로그램 비밀입니다. 이는 인증에도 사용됩니다.|
    |`jobId`|3단계에서 만든 HR 커넥터의 작업 ID입니다. 이는 Microsoft 클라우드에 업로드된 HR 데이터를 HR 커넥터와 연결하기 위해 사용됩니다.|
    |`csvFilePath`|2단계에서 만든 CSV 파일의 파일 경로(스크립트와 동일한 시스템에 저장)입니다. 파일 경로의 공백을 방지합니다. 그렇지 않으면 인용 부호를 하나만 사용할 수 있습니다.|
@@ -150,14 +150,14 @@ HR 커넥터를 설정하는 마지막 단계는 CSV 파일(2단계에서 만든
     .\HRConnector.ps1 -tenantId d5723623-11cf-4e2e-b5a5-01d1506273g9 -appId 29ee526e-f9a7-4e98-a682-67f41bfd643e -appSecret MNubVGbcQDkGCnn -jobId b8be4a7d-e338-43eb-a69e-c513cd458eba -csvFilePath 'C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv'
     ```
 
-   업로드가 성공하면 스크립트에 업로드 성공 **메시지가** 표시됩니다.
+   업로드가 성공하면 스크립트에 성공한 업로드 **표시됩니다.**
 
    > [!NOTE]
    > 실행 정책 때문에 이전 명령을 실행하는 데 문제가 있는 경우 실행 정책 설정에 대한 지침은 [실행](/powershell/module/microsoft.powershell.core/about/about_execution_policies) 정책 정보 및 [Set-ExecutionPolicy를](/powershell/module/microsoft.powershell.security/set-executionpolicy) 참조하세요.
 
 ## <a name="step-5-monitor-the-hr-connector"></a>5단계: HR 커넥터 모니터링
 
-HR 커넥터를 만들고 스크립트를 실행하여 HR 데이터를 업로드한 후 Microsoft 365 규정 준수 센터에서 커넥터를 보고 상태를 업로드할 수 있습니다. 스크립트가 정기적으로 자동으로 실행될 수 있는 경우 스크립트가 마지막으로 실행된 후 현재 상태를 볼 수도 있습니다.
+HR 커넥터를 만들고 스크립트를 실행하여 HR 데이터를 업로드한 후 커넥터를 보고 준수 센터에서 Microsoft 365 수 있습니다. 스크립트가 정기적으로 자동으로 실행될 수 있는 경우 스크립트가 마지막으로 실행된 후 현재 상태를 볼 수도 있습니다.
 
 1. 으로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 왼쪽 **nav에서 데이터** 커넥터를 클릭합니다.
 
@@ -177,9 +177,9 @@ HR 커넥터를 만들고 스크립트를 실행하여 HR 데이터를 업로드
 
 조직의 최신 HR 데이터를 내부자 위험 관리 솔루션과 같은 도구에서 사용할 수 있도록 하는 경우 스크립트가 매일 한 번과 같이 정기적으로 자동으로 실행될 수 있도록 예약하는 것이 좋습니다. 또한 조직을 떠나는 직원에 대한 최신 정보를 포함하려면 CSV 파일의 HR 데이터를 유사한 일정(같지 않은 경우)으로 업데이트해야 합니다. 목표는 내부자 위험 관리 솔루션에서 HR 커넥터를 사용할 수 있도록 가장 최근의 HR 데이터를 업로드하는 것입니다.
 
-Windows에서 작업 스케줄러 앱을 사용하여 매일 스크립트를 자동으로 실행할 수 있습니다.
+작업 스케줄러 앱을 사용자 Windows 자동으로 스크립트를 실행할 수 있습니다.
 
-1. 로컬 컴퓨터에서 **Windows** 시작 단추를 클릭한 다음 작업 **스케줄러 를 입력합니다.**
+1. 로컬 컴퓨터에서 시작 Windows **클릭한** 다음 작업 스케줄러 **를 입력합니다.**
 
 2. 작업 **스케줄러 앱을 클릭하여** 열립니다.
 
@@ -195,7 +195,7 @@ Windows에서 작업 스케줄러 앱을 사용하여 매일 스크립트를 자
 
 6. 트리거 **탭을** 선택하고 새로 **고치기를** 클릭한 후 다음을 실행합니다.
 
-   1. 설정에서 **일별** 옵션을 선택한 다음 처음으로 스크립트를 실행할 날짜와 시간을 선택합니다.  스크립트는 매일 같은 지정된 시간으로 실행됩니다.
+   1. 이 **설정** 에서 일별 옵션을 선택한 다음 처음으로 스크립트를 실행할 날짜와 시간을 선택합니다.  스크립트는 매일 같은 지정된 시간으로 실행됩니다.
    
    1. 고급 **설정에서** 사용 **확인란이** 선택되어 있는지 확인합니다.
    

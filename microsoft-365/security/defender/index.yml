@@ -42,7 +42,7 @@ landingContent:
       url: m365d-evaluation.md
     - text: 프로덕션에서 파일럿 프로젝트 실행
       url: m365d-pilot.md
-- title: 시작
+- title: 시작하기
   linkLists:
   - linkListType: get-started
     links:

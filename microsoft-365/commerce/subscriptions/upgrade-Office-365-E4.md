@@ -57,7 +57,7 @@ ms.locfileid: "52344629"
 
 ## <a name="find-out-if-you-can-use-the-upgrade-tab-to-upgrade-to-a-new-plan"></a>업그레이드 탭을 사용하여 새 계획으로 업그레이드할 수 있는지 찾기
 
-1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
 2. E4 Office 365 선택합니다.
 3. 업그레이드 **탭을** 선택합니다. 다른 계획이 나열되어 있는 경우 요금제가 자동으로 업그레이드될 수 있습니다.
 4. 자동으로 업그레이드할 수 없는 경우 업그레이드할 수 없는 이유를 설명하는 메시지가 표시됩니다.
@@ -82,7 +82,7 @@ ms.locfileid: "52344629"
 
 ### <a name="start-the-upgrade-by-using-the-upgrade-tab"></a>업그레이드 탭을 사용하여 업그레이드 시작
 
-1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
 2. E4 Office 365 선택합니다.
 3. 구독 세부 정보 페이지에서 업그레이드 **탭을** 선택합니다.
 4. 구입하려는 구독을 찾은 다음 업그레이드를 **선택합니다.**
@@ -120,7 +120,7 @@ ms.locfileid: "52344629"
 > [!NOTE]
 > 새 구독 비용을 송장으로 결제하기로 선택한 경우 신용 검사가 필요한 것일 수 있습니다. 구독을 사용할 수 있는 데 영업일까지 최대 2일이 걸릴 수 있습니다.
 
-1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
 2. 구독 **상태 드롭다운에서** 활성 을 **선택합니다.**
 3. 새 구독이 표시되고 라이선스 수가 E4에서 사용했던 라이선스 수와 Office 365 합니다.
 4. 라이선스를 더 구입해야 하는 경우 구독 라이선스 구입 또는 제거의 [단계를 따릅니다.](../licenses/buy-licenses.md)
