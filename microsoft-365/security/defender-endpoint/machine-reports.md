@@ -1,6 +1,6 @@
 ---
 title: 끝점용 Microsoft Defender의 장치 상태 및 규정 준수 보고서
-description: 장치 상태 및 준수 보고서를 사용하여 장치 상태 검색, 바이러스 백신 상태, OS 플랫폼 및 Windows 10 버전 추적
+description: 장치 상태 및 준수 보고서를 사용하여 장치 상태 검색, 바이러스 Windows 10 OS 플랫폼 및 버전 추적
 keywords: 상태, 바이러스 백신, os 플랫폼, Windows 10 버전, 버전, 상태, 규정 준수, 상태
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,7 +35,7 @@ ms.locfileid: "51860294"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-장치 상태 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다. 이 보고서에는 센서 상태, 바이러스 백신 상태, OS 플랫폼 및 Windows 10 버전을 보여주는 추세 정보가 포함되어 있습니다.
+장치 상태 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다. 이 보고서에는 센서 상태, 바이러스 백신 상태, OS 플랫폼 및 최신 버전을 보여 Windows 10 포함되어 있습니다.
 
 대시보드는 장치 보고서의 이미지와 같은 두 섹션으로 ![ 구성됩니다.](images/device-reports.png)
  
@@ -72,11 +72,11 @@ ms.locfileid: "51860294"
  
 - **상태**: 장치의 센서 상태 정보를 표시하여 활성 상태, 통신 장애가 발생하거나, 비활성 상태 또는 센서 데이터가 없는 경우 집계된 보기를 제공합니다.
   
-- **활성 Windows 10** 장치의 바이러스 백신 상태: 장치 수와 Microsoft Defender 바이러스 백신의 상태를 보여 주며,
+- **활성 Windows 10 장치의** 바이러스 백신 상태 : 장치 수와 장치 상태 Microsoft Defender 바이러스 백신.
     
 - **OS 플랫폼**: 조직 내에 있는 OS 플랫폼의 배포를 보여줍니다. 
  
-- **Windows 10 버전:** 조직에서 Windows 10 장치 및 해당 버전의 배포를 보여 주며,
+- **Windows 10** 버전 : 조직에서 Windows 10 장치 및 해당 버전의 배포를 보여줍니다.
  
  
  
@@ -89,10 +89,10 @@ ms.locfileid: "51860294"
 >[!NOTE]
 >이러한 필터는 **보고서의 모든** 카드에 적용됩니다.
  
-예를 들어 활성 센서 상태의 Windows 10 장치에 대한 데이터를 표시하기 위해 다음을 실행합니다.
+예를 들어 활성 센서 상태의 Windows 10 장치에 대한 데이터를 표시하는 경우:
  
 1. 필터에서 > 활성 상태인 > **상태입니다.**
-2. 그런 다음 **Windows 10에서 OS > 선택합니다.**
+2. 그런 다음 **에서 OS 플랫폼을 > Windows 10.**
 3. **적용** 을 선택합니다.
 
 

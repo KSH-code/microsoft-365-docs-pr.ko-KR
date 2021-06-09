@@ -43,7 +43,7 @@ ms.locfileid: "51860788"
 
 Endpoint용 Defender는 이 시나리오에 대한 파트너 관계 기회를 추가하고 MSSP가 다음 작업을 수행할 수 있습니다.
 
-- MSSP 고객의 Microsoft Defender 보안 센터 포털에 액세스
+- MSSP 고객의 사이트 포털에 Microsoft Defender 보안 센터 액세스
 - 전자 메일 알림 및 
 - SIEM(보안 정보 및 이벤트 관리) 도구를 통해 경고 페치
 

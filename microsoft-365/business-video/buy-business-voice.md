@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Voice 구입
+title: 구매 Microsoft 365 Business Voice
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -20,7 +20,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 Business Voice 추가 기능을 구입하는 방법을 배워야 합니다.
+description: 추가 기능을 구입하는 Microsoft 365 Business Voice 대해 자세히 알아보습니다.
 ms.openlocfilehash: 90d0aae474fa3bd95ffeb1d0ec104268af5edc27
 ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
@@ -32,13 +32,13 @@ ms.locfileid: "50422990"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Gryk?autoplay=false]
 
-Microsoft 365 Business Voice를 사용하면 전화를 걸고 받고, 오디오 회의를 사용하며, 통화 메뉴 시스템을 설정하여 고객을 올바른 부서로 라우팅할 수 있습니다. 시작하려면 Business Voice 추가 기능을 구입해야 합니다.
+이 Microsoft 365 Business Voice 사용하여 전화를 걸고 받고, 오디오 회의를 사용하며, 통화 메뉴 시스템을 설정하여 고객을 올바른 부서로 라우팅할 수 있습니다. 시작하려면 Business Voice 추가 기능을 구입해야 합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 
 1. Microsoft 365 관리 센터에서 청구로 **이동하여** 서비스 **구매를 선택합니다.**
 1. 아래로 스크롤하여 **추가 기능 을 선택 합니다.** 
-1. **Microsoft 365 Business Voice를 선택합니다.**
+1. 를 **Microsoft 365 Business Voice.**
 
     If you don't see it, you need to first buy a business subscription that includes Microsoft Teams.
 1. 라이선스를 원하는 사용자 수를 입력하고 지금 **체크 아웃을 선택합니다.**

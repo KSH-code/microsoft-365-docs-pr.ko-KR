@@ -142,18 +142,18 @@ Get-DistributionGroup| Foreach-Object{
 
 |**속성**|**적합한가요?**|
 |:-----|:-----|
-|On-premises managed distribution list.  <br/> |아니요  <br/> |
-|중첩된 메일 그룹. 메일 그룹은 하위 그룹을 들이거나 다른 그룹의 구성원입니다.  <br/> |아니요  <br/> |
-|**UserMailbox, SharedMailbox,** **TeamMailbox,** **MailUser** 외의 구성원이 **RecipientTypeDetails인** 메일 목록  <br/> |아니요  <br/> |
-|소유자가 100명 이상인 메일 목록  <br/> |아니요  <br/> |
-|구성원만 있지만 소유자가 없는 메일 목록  <br/> |아니요  <br/> |
-|특수 문자를 포함하는 별칭이 있는 메일 목록  <br/> |아니요  <br/> |
-|메일 목록이 공유 사서함의 전달 주소로 구성되어 있는 경우  <br/> |아니요  <br/> |
-|DL이 다른 DL에서 **보낸** 사람 제한의 일부인 경우  <br/> |아니요  <br/> |
-|보안 그룹  <br/> |아니요  <br/> |
-|동적 메일 그룹  <br/> |아니요  <br/> |
-|**RoomLists로** 변환된 메일 목록  <br/> |아니요  <br/> |
-|**MemberJoinRestriction** 및/또는 **MemberDepartRestriction이 닫힌** 메일 **목록**  <br/> |아니요  <br/> |
+|On-premises managed distribution list.  <br/> |아니요.  <br/> |
+|중첩된 메일 그룹. 메일 그룹은 하위 그룹을 들이거나 다른 그룹의 구성원입니다.  <br/> |아니요.  <br/> |
+|**UserMailbox, SharedMailbox,** **TeamMailbox,** **MailUser** 외의 구성원이 **RecipientTypeDetails인** 메일 목록  <br/> |아니요.  <br/> |
+|소유자가 100명 이상인 메일 목록  <br/> |아니요.  <br/> |
+|구성원만 있지만 소유자가 없는 메일 목록  <br/> |아니요.  <br/> |
+|특수 문자를 포함하는 별칭이 있는 메일 목록  <br/> |아니요.  <br/> |
+|메일 목록이 공유 사서함의 전달 주소로 구성되어 있는 경우  <br/> |아니요.  <br/> |
+|DL이 다른 DL에서 **보낸** 사람 제한의 일부인 경우  <br/> |아니요.  <br/> |
+|보안 그룹  <br/> |아니요.  <br/> |
+|동적 메일 그룹  <br/> |아니요.  <br/> |
+|**RoomLists로** 변환된 메일 목록  <br/> |아니요.  <br/> |
+|**MemberJoinRestriction** 및/또는 **MemberDepartRestriction이 닫힌** 메일 **목록**  <br/> |아니요.  <br/> |
 
 ### <a name="check-which-dls-are-eligible-for-upgrade"></a>업그레이드할 수 있는 DLS 확인
 

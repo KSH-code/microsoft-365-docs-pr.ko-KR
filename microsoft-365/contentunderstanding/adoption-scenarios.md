@@ -137,6 +137,6 @@ SharePoint Syntex를 사용하면 주요 계약 정보에 대한 미리 알림 �
 - 수동 미리 알림 수가 감소합니다.
 - 비준수에 대한 벌금 수가 감소합니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [Microsoft SharePoint 도입: 시작](adoption-getstarted.md)

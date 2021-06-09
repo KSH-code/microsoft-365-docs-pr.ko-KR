@@ -1,5 +1,5 @@
 ---
-title: 네트워크 성능 권장 사항에 대한 Office 365 측정값
+title: Office 365 권장 사항 측정값
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,7 +13,7 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: 네트워크 성능 권장 사항에 대한 Office 365 측정값
+description: Office 365 권장 사항 측정값
 ms.openlocfilehash: 4fbd845688e2c09117b600ef8ae6c1473887499f
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -21,4 +21,4 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46696298"
 ---
-# <a name="office-365-measurements-for-network-performance-recommendations"></a>네트워크 성능 권장 사항에 대한 Office 365 측정값
+# <a name="office-365-measurements-for-network-performance-recommendations"></a>Office 365 권장 사항 측정값

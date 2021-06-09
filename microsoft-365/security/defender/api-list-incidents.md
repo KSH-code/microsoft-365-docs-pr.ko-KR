@@ -55,7 +55,7 @@ API는 다음 **OData 연산자를** 지원합니다.
 1. 최대 페이지 크기는 **인시던트 100개입니다.**
 2. 최대 요청 속도는 **분당 50통,** **시간당 1500통입니다.**
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 Access Microsoft 365 [Defender API를 참조합니다.](api-access.md)
 
@@ -190,7 +190,7 @@ registryValueType | entityType이 레지스트리인 *경우 사용할 수 있�
 registryValue | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | 31-00-00-00
 deviceId | 엔터티와 관련된 장치의 ID(있는 경우)입니다. | 986e5df8b73dacd43c8917d17e523e76b13c75cd
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

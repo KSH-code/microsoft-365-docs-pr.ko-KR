@@ -1,5 +1,5 @@
 ---
-title: 기본 이동성 및 보안에서 장치 액세스 설정 관리
+title: 기본 모바일 및 보안에서 장치 액세스 설정 관리
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -25,25 +25,25 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/15/2021
 ms.locfileid: "49876951"
 ---
-# <a name="manage-device-access-settings-in-basic-mobility-and-security"></a>기본 이동성 및 보안에서 장치 액세스 설정 관리
+# <a name="manage-device-access-settings-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 액세스 설정 관리
 
-기본 이동성 및 보안을 사용하는 경우 기본 이동성 및 보안으로 관리할 수 없는 장치가 있을 수 있습니다. 그렇다면 기본 이동성 및 Exchange ActiveSync 지원되지 않는 모바일 장치에 대한 Microsoft 365 전자 메일에 대한 앱 액세스를 차단해야 합니다. 이렇게 하면 더 많은 장치에서 조직 정보를 보호하는 데 도움이 됩니다.
+기본 Mobility and Security를 사용하는 경우 기본 모바일 및 보안으로 관리할 수 없는 장치가 있을 수 있습니다. 이 경우 기본 이동성 및 Exchange ActiveSync 지원되지 않는 모바일 Microsoft 365 전자 메일에 대한 앱 액세스를 차단해야 합니다. 이렇게 하면 더 많은 장치에서 조직 정보를 보호하는 데 도움이 됩니다.
 
 다음 단계를 사용하세요.
 
-1. 전역 관리자 계정으로 Microsoft 365에 로그인합니다.
+1. 전역 관리자 Microsoft 365 로그인합니다.
 
-2. 브라우저에 다음을  [https://protection.office.com](https://protection.office.com/) 입력합니다.    
+2. 브라우저에 를  [https://protection.office.com](https://protection.office.com/) 입력합니다. .    
 
     >[!IMPORTANT]
-    >Microsoft 365 Business Standard용 Basic Mobility and Security를 처음 사용하는 경우 [](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx)기본 보안 및 모바일 기능을 활성화합니다. 장치를 정품 인증한 후 Office 365 보안 및 규정 [준수로 & 관리합니다.](https://protection.office.com/)
+    >기본 이동성 및 보안을 처음 사용하는 경우 기본 보안 및 Microsoft 365 Business Standard 활성화: 기본 보안 및 모바일 기능 활성화에서 [활성화합니다.](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx) 장치를 활성화한 후 보안 및 규정 [준수로 Office 365 & 관리합니다.](https://protection.office.com/)
 
-3. 장치 관리 장치 > **** 데이터 손실 방지로 이동하고 조직 전체의 장치 액세스   >  **** **설정 관리를 선택합니다.**
+3. 장치 관리 장치 > **** 데이터 손실 방지로 이동하고 조직 전체 장치 액세스   >  **** 설정 **관리를 선택합니다.**
 
 4. 차단을 **선택합니다.**
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="기본 이동성 및 보안 차단 액세스 확인란":::
+    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="기본 모바일 및 보안 액세스 차단 확인란":::
 
 5. 저장을 **선택합니다.**
 
-기본 이동성 및 보안이 지원하는 장치에 대한 자세한 내용은 기본 이동성 및 보안 [기능을 참조합니다.](capabilities.md)
+기본 모바일 및 보안에서 지원하는 장치에 대한 자세한 내용은 [Capabilities of Basic Mobility and Security을 참조합니다.](capabilities.md)
