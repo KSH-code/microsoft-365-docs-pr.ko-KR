@@ -1,5 +1,5 @@
 ---
-title: 사용자가 Microsoft 365 Business Premium에 연결할 수 있도록 지원
+title: 사용자가 조직에 연결할 수 있도록 Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -35,14 +35,14 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578450"
 ---
-# <a name="help-users-connect-to-microsoft-365-business-premium"></a><span data-ttu-id="05e1a-103">사용자가 Microsoft 365 Business Premium에 연결할 수 있도록 지원</span><span class="sxs-lookup"><span data-stu-id="05e1a-103">Help users connect to Microsoft 365 Business Premium</span></span>
+# <a name="help-users-connect-to-microsoft-365-business-premium"></a><span data-ttu-id="5100c-103">사용자가 조직에 연결할 수 있도록 Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="5100c-103">Help users connect to Microsoft 365 Business Premium</span></span>
 
-<span data-ttu-id="05e1a-104">설치를 완료하면 기본 장치 정책이 준비되어 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="05e1a-104">After you complete setup, your default device policies are in place and ready to apply.</span></span> <span data-ttu-id="05e1a-105">모바일 장치에서 사용자는 Office 앱을 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="05e1a-105">On mobile devices, users download Office apps.</span></span> <span data-ttu-id="05e1a-106">그런 다음 사용자가 직장 또는 학교 계정으로 로그인하면 정책이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="05e1a-106">Policies are then applied when the user signs in with their work or school account.</span></span> <span data-ttu-id="05e1a-107">Windows PC에 정책을 적용하려면 현재 위치 업그레이드와 같은 몇 가지 작업을 추가로 수행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="05e1a-107">There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade.</span></span> <span data-ttu-id="05e1a-108">사용자가 설정하고 연결할 수 있도록 다음 항목을 참조하고 공유하세요.</span><span class="sxs-lookup"><span data-stu-id="05e1a-108">See and share the following topics to help users get set up and connected:</span></span>
+<span data-ttu-id="5100c-104">설치를 완료하면 기본 장치 정책이 준비되어 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5100c-104">After you complete setup, your default device policies are in place and ready to apply.</span></span> <span data-ttu-id="5100c-105">모바일 장치에서 사용자는 앱을 Office 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="5100c-105">On mobile devices, users download Office apps.</span></span> <span data-ttu-id="5100c-106">그런 다음 사용자가 직장 또는 학교 계정으로 로그인하면 정책이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="5100c-106">Policies are then applied when the user signs in with their work or school account.</span></span> <span data-ttu-id="5100c-107">Windows PC에 정책을 적용하려면 현재 위치 업그레이드와 같은 몇 가지 작업을 추가로 수행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5100c-107">There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade.</span></span> <span data-ttu-id="5100c-108">사용자가 설정하고 연결할 수 있도록 다음 항목을 참조하고 공유하세요.</span><span class="sxs-lookup"><span data-stu-id="5100c-108">See and share the following topics to help users get set up and connected:</span></span>
   
-[<span data-ttu-id="05e1a-109">Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정</span><span class="sxs-lookup"><span data-stu-id="05e1a-109">Set up Windows devices for Microsoft 365 Business Premium users</span></span>](set-up-windows-devices.md)
+[<span data-ttu-id="5100c-109">사용자용 Windows 장치 Microsoft 365 Business Premium 설정</span><span class="sxs-lookup"><span data-stu-id="5100c-109">Set up Windows devices for Microsoft 365 Business Premium users</span></span>](set-up-windows-devices.md)
   
-[<span data-ttu-id="05e1a-110">단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가</span><span class="sxs-lookup"><span data-stu-id="05e1a-110">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
+[<span data-ttu-id="5100c-110">단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가</span><span class="sxs-lookup"><span data-stu-id="5100c-110">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
   
-[<span data-ttu-id="05e1a-111">Microsoft 365 Business Premium 사용자를 위한 모바일 장치 설정</span><span class="sxs-lookup"><span data-stu-id="05e1a-111">Set up mobile devices for Microsoft 365 Business Premium users</span></span>](set-up-mobile-devices.md)
+[<span data-ttu-id="5100c-111">사용자용 모바일 Microsoft 365 Business Premium 설정</span><span class="sxs-lookup"><span data-stu-id="5100c-111">Set up mobile devices for Microsoft 365 Business Premium users</span></span>](set-up-mobile-devices.md)
   
 

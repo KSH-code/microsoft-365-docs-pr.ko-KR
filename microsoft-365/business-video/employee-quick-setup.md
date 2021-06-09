@@ -28,62 +28,62 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52244947"
 ---
-# <a name="employee-quick-setup"></a><span data-ttu-id="a84e8-103">직원 빠른 설정</span><span class="sxs-lookup"><span data-stu-id="a84e8-103">Employee quick setup</span></span>
+# <a name="employee-quick-setup"></a><span data-ttu-id="4b887-103">직원 빠른 설정</span><span class="sxs-lookup"><span data-stu-id="4b887-103">Employee quick setup</span></span>
 
-<span data-ttu-id="a84e8-104">비즈니스용 Microsoft 365 새로운가요?</span><span class="sxs-lookup"><span data-stu-id="a84e8-104">Are you new to Microsoft 365 for business?</span></span> :::image type="icon" source="../media/video-call-icon.png" border="false":::[이 비디오를 시청하여](../business/microsoft-365-business-start.md) 자세한 정보를 봐야 합니다. <span data-ttu-id="a84e8-106">그런 후 다음 단계를 수행하세요.</span><span class="sxs-lookup"><span data-stu-id="a84e8-106">Then follow these steps.</span></span>
+<span data-ttu-id="4b887-104">비즈니스용 Microsoft 365 새로운가요?</span><span class="sxs-lookup"><span data-stu-id="4b887-104">Are you new to Microsoft 365 for business?</span></span> :::image type="icon" source="../media/video-call-icon.png" border="false":::[이 비디오를 시청하여](../business/microsoft-365-business-start.md) 자세한 정보를 봐야 합니다. <span data-ttu-id="4b887-106">그런 후 다음 단계를 수행하세요.</span><span class="sxs-lookup"><span data-stu-id="4b887-106">Then follow these steps.</span></span>
 
 :::image type="content" source="../media/m365-employee-quick-setup.png" alt-text="빠른 직원 설정 단계를 보여 주는 이미지입니다.":::
 
-## <a name="1-sign-in-to-office"></a><span data-ttu-id="a84e8-108">1. 로그인하여 Office</span><span class="sxs-lookup"><span data-stu-id="a84e8-108">1. Sign in to Office</span></span>
+## <a name="1-sign-in-to-office"></a><span data-ttu-id="4b887-108">1. 로그인하여 Office</span><span class="sxs-lookup"><span data-stu-id="4b887-108">1. Sign in to Office</span></span>
 
-1. <span data-ttu-id="a84e8-109">[Office.com](https://office.com)으로 이동하여 **로그인** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-109">Go to [Office.com](https://office.com) and choose **Sign in**.</span></span>
-1. <span data-ttu-id="a84e8-110">메일 및 Microsoft 365 입력한 다음 **로그인합니다.**</span><span class="sxs-lookup"><span data-stu-id="a84e8-110">Type your Microsoft 365 email and password, then **Sign in**.</span></span>
+1. <span data-ttu-id="4b887-109">[Office.com](https://office.com)으로 이동하여 **로그인** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-109">Go to [Office.com](https://office.com) and choose **Sign in**.</span></span>
+1. <span data-ttu-id="4b887-110">메일 및 Microsoft 365 입력한 다음 **로그인합니다.**</span><span class="sxs-lookup"><span data-stu-id="4b887-110">Type your Microsoft 365 email and password, then **Sign in**.</span></span>
 
-## <a name="2-download-and-install-office-apps"></a><span data-ttu-id="a84e8-111">2. 앱 다운로드 및 Office 설치</span><span class="sxs-lookup"><span data-stu-id="a84e8-111">2. Download and install Office apps</span></span>
+## <a name="2-download-and-install-office-apps"></a><span data-ttu-id="4b887-111">2. 앱 다운로드 및 Office 설치</span><span class="sxs-lookup"><span data-stu-id="4b887-111">2. Download and install Office apps</span></span>
 
-1. <span data-ttu-id="a84e8-112">오른쪽 **Office** 설치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-112">Choose **Install Office** in the upper right.</span></span>
-    - <span data-ttu-id="a84e8-113">Chrome에서는 페이지 아래쪽의 다운로드로 이동하여 **열기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-113">In Chrome, go to the download on the bottom of the page and choose **Open**.</span></span>
-    - <span data-ttu-id="a84e8-114">Microsoft Edge/IE에서는 **저장** 을 선택한 다음 **실행** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-114">In Microsoft Edge/IE, choose **Save** then **Run**.</span></span>
+1. <span data-ttu-id="4b887-112">오른쪽 **Office** 설치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-112">Choose **Install Office** in the upper right.</span></span>
+    - <span data-ttu-id="4b887-113">Chrome에서는 페이지 아래쪽의 다운로드로 이동하여 **열기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-113">In Chrome, go to the download on the bottom of the page and choose **Open**.</span></span>
+    - <span data-ttu-id="4b887-114">Microsoft Edge/IE에서는 **저장** 을 선택한 다음 **실행** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-114">In Microsoft Edge/IE, choose **Save** then **Run**.</span></span>
     
-        <span data-ttu-id="a84e8-p102">앱이 변경할 수 있도록 허용할 것인지 묻는 메시지가 표시되면 **예** 를 선택합니다. Office 설치 프로그램이 시작되도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-p102">If asked to allow the app to make changes, choose **Yes**. Let Office setup begin.</span></span>
-    - <span data-ttu-id="a84e8-117">Mac에서 Microsoft **Office_2016_Installer.pkg 열기**</span><span class="sxs-lookup"><span data-stu-id="a84e8-117">On a Mac, open Microsoft **Office_2016_Installer.pkg**</span></span>
+        <span data-ttu-id="4b887-p102">앱이 변경할 수 있도록 허용할 것인지 묻는 메시지가 표시되면 **예** 를 선택합니다. Office 설치 프로그램이 시작되도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-p102">If asked to allow the app to make changes, choose **Yes**. Let Office setup begin.</span></span>
+    - <span data-ttu-id="4b887-117">Mac에서 Microsoft **Office_2016_Installer.pkg 열기**</span><span class="sxs-lookup"><span data-stu-id="4b887-117">On a Mac, open Microsoft **Office_2016_Installer.pkg**</span></span>
 
-## <a name="3-open-outlook-and-add-your-account"></a><span data-ttu-id="a84e8-118">3. Outlook 열고 계정 추가</span><span class="sxs-lookup"><span data-stu-id="a84e8-118">3. Open Outlook and add your account</span></span>
+## <a name="3-open-outlook-and-add-your-account"></a><span data-ttu-id="4b887-118">3. Outlook 열고 계정 추가</span><span class="sxs-lookup"><span data-stu-id="4b887-118">3. Open Outlook and add your account</span></span>
 
-1. <span data-ttu-id="a84e8-119">컴퓨터에서 **Outlook** 을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-119">Open **Outlook** on your computer.</span></span> <span data-ttu-id="a84e8-120">입력하세요 필드에 **계정** 을 입력한 다음 **계정 추가** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-120">In the Tell me field, type **account** then **Add Account**.</span></span>
+1. <span data-ttu-id="4b887-119">컴퓨터에서 **Outlook** 을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-119">Open **Outlook** on your computer.</span></span> <span data-ttu-id="4b887-120">입력하세요 필드에 **계정** 을 입력한 다음 **계정 추가** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-120">In the Tell me field, type **account** then **Add Account**.</span></span>
 
     :::image type="content" source="../media/add-outlook-account.png" alt-text="계정에 계정을 추가하는 방법을 보여 Outlook.":::
 
-1. <span data-ttu-id="a84e8-122">이름, 전자 메일 및 암호를 입력하고 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-122">Type your name, email, and password then **Next**.</span></span>
+1. <span data-ttu-id="4b887-122">이름, 전자 메일 및 암호를 입력하고 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-122">Type your name, email, and password then **Next**.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="a84e8-123">이전 전자 메일을 가져오려면 이와 같이 이전 전자 메일을 PST 파일로 내보낸 다음 가져오세요.</span><span class="sxs-lookup"><span data-stu-id="a84e8-123">To import your old email, export it to a PST file, then import it, like this.</span></span>
+> <span data-ttu-id="4b887-123">이전 전자 메일을 가져오려면 이와 같이 이전 전자 메일을 PST 파일로 내보낸 다음 가져오세요.</span><span class="sxs-lookup"><span data-stu-id="4b887-123">To import your old email, export it to a PST file, then import it, like this.</span></span>
 
-## <a name="4-save-or-copy-files-to-onedrive"></a><span data-ttu-id="a84e8-124">4. 파일을 저장하거나 복사하여 OneDrive</span><span class="sxs-lookup"><span data-stu-id="a84e8-124">4. Save or copy files to OneDrive</span></span>
+## <a name="4-save-or-copy-files-to-onedrive"></a><span data-ttu-id="4b887-124">4. 파일을 저장하거나 복사하여 OneDrive</span><span class="sxs-lookup"><span data-stu-id="4b887-124">4. Save or copy files to OneDrive</span></span>
 
-- <span data-ttu-id="a84e8-125">앱의 **다른 OneDrive** 메뉴에서  문서에 Office 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-125">Save documents to **OneDrive** from the **Save As** menu in Office apps.</span></span>
+- <span data-ttu-id="4b887-125">앱의 **다른 OneDrive** 메뉴에서  문서에 Office 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-125">Save documents to **OneDrive** from the **Save As** menu in Office apps.</span></span>
     :::image type="content" source="../media/save-onedrive.png" alt-text="다른 사람에 저장하는 방법을 알 수 OneDrive.":::
 
-- <span data-ttu-id="a84e8-127">또는 바탕 화면이나 문서의 파일을 **OneDrive** 에 복사합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-127">Or copy files from your Desktop or Documents to **OneDrive**.</span></span>
+- <span data-ttu-id="4b887-127">또는 바탕 화면이나 문서의 파일을 **OneDrive** 에 복사합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-127">Or copy files from your Desktop or Documents to **OneDrive**.</span></span>
 
     :::image type="content" source="../media/save-to-onedrive-from-docs.png" alt-text="문서 폴더에서 저장하는 OneDrive 보여 주는 이미지입니다.":::
 
     > [!TIP]
-    > <span data-ttu-id="a84e8-129">또한 사이트의 사이트에 파일을 저장할 [Microsoft 365.](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e)</span><span class="sxs-lookup"><span data-stu-id="a84e8-129">You can also store files on [sites](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) in Microsoft 365.</span></span>
+    > <span data-ttu-id="4b887-129">또한 사이트의 사이트에 파일을 저장할 [Microsoft 365.](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e)</span><span class="sxs-lookup"><span data-stu-id="4b887-129">You can also store files on [sites](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) in Microsoft 365.</span></span>
 
-## <a name="5-share-documents"></a><span data-ttu-id="a84e8-130">5. 문서 공유</span><span class="sxs-lookup"><span data-stu-id="a84e8-130">5. Share Documents</span></span>
+## <a name="5-share-documents"></a><span data-ttu-id="4b887-130">5. 문서 공유</span><span class="sxs-lookup"><span data-stu-id="4b887-130">5. Share Documents</span></span>
 
-1. <span data-ttu-id="a84e8-131">**공유** 를 선택하여 문서를 다른 사용자와 공유합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-131">Share your documents with others by choosing **Share**.</span></span>
+1. <span data-ttu-id="4b887-131">**공유** 를 선택하여 문서를 다른 사용자와 공유합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-131">Share your documents with others by choosing **Share**.</span></span>
 
     :::image type="content" source="../media/share-office-doc.png" alt-text="공유 아이콘을 Office 앱.":::
 
-1. <span data-ttu-id="a84e8-133">전자 메일 주소를 입력하고 읽기 또는 편집을 선택하고 메시지를 포함한 후 **공유** 합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-133">Type their email address, choose read or edit, include a message and **Share**.</span></span>
-1. <span data-ttu-id="a84e8-134">또는 화면 아래쪽에 있는 **공유 링크 가져오기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-134">Or choose **Get sharing link** on the bottom of the screen.</span></span>
+1. <span data-ttu-id="4b887-133">전자 메일 주소를 입력하고 읽기 또는 편집을 선택하고 메시지를 포함한 후 **공유** 합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-133">Type their email address, choose read or edit, include a message and **Share**.</span></span>
+1. <span data-ttu-id="4b887-134">또는 화면 아래쪽에 있는 **공유 링크 가져오기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-134">Or choose **Get sharing link** on the bottom of the screen.</span></span>
 
-## <a name="6-get-outlook-on-your-phone"></a><span data-ttu-id="a84e8-135">6. 휴대폰에서 Outlook 설정</span><span class="sxs-lookup"><span data-stu-id="a84e8-135">6. Get Outlook on your phone</span></span>
+## <a name="6-get-outlook-on-your-phone"></a><span data-ttu-id="4b887-135">6. 휴대폰에서 Outlook 설정</span><span class="sxs-lookup"><span data-stu-id="4b887-135">6. Get Outlook on your phone</span></span>
 
-- <span data-ttu-id="a84e8-136">앱 **Outlook** Google Play 스토어에서 휴대폰으로 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-136">Get **Outlook** on your phone from App store or Google Play store.</span></span> <span data-ttu-id="a84e8-137">열고 전자 **메일** 시작 및 암호를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-137">Open it, and choose **Get Started** and add your email and password.</span></span>
-- <span data-ttu-id="a84e8-138">그렇지 않으면 iOS 또는 Android 장치에서는 Outlook을 열고 **설정** 으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-138">Or, open Outlook on an iOS or Android device and go to **Settings**.</span></span>
+- <span data-ttu-id="4b887-136">앱 **Outlook** Google Play 스토어에서 휴대폰으로 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-136">Get **Outlook** on your phone from App store or Google Play store.</span></span> <span data-ttu-id="4b887-137">열고 전자 **메일** 시작 및 암호를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-137">Open it, and choose **Get Started** and add your email and password.</span></span>
+- <span data-ttu-id="4b887-138">그렇지 않으면 iOS 또는 Android 장치에서는 Outlook을 열고 **설정** 으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-138">Or, open Outlook on an iOS or Android device and go to **Settings**.</span></span>
 
-    <span data-ttu-id="a84e8-139">**계정 추가** 를 선택한 다음 **전자 메일 계정 추가** 를 선택하고 전자 메일 및 암호를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="a84e8-139">Choose **Add Account** then **Add Email Account** then type your email and password.</span></span>
-- <span data-ttu-id="a84e8-140">On a **Windows Phone,** **choose 설정**, **Email + accounts**, Add an **account**, and then **Exchange.**</span><span class="sxs-lookup"><span data-stu-id="a84e8-140">On a **Windows Phone**, choose **Settings**, **Email + accounts**, **Add an account**, and then **Exchange**.</span></span>
+    <span data-ttu-id="4b887-139">**계정 추가** 를 선택한 다음 **전자 메일 계정 추가** 를 선택하고 전자 메일 및 암호를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4b887-139">Choose **Add Account** then **Add Email Account** then type your email and password.</span></span>
+- <span data-ttu-id="4b887-140">On a **Windows Phone,** **choose 설정**, **Email + accounts**, Add an **account**, and then **Exchange.**</span><span class="sxs-lookup"><span data-stu-id="4b887-140">On a **Windows Phone**, choose **Settings**, **Email + accounts**, **Add an account**, and then **Exchange**.</span></span>
