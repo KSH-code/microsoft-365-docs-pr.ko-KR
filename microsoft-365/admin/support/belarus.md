@@ -19,26 +19,26 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2021
 ms.locfileid: "52623580"
 ---
-# <a name="contact-support-for-belarus"></a><span data-ttu-id="7311c-103">Belarus 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="7311c-103">Contact support for Belarus</span></span>
+# <a name="contact-support-for-belarus"></a><span data-ttu-id="4b1ed-103">Belarus 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="4b1ed-103">Contact support for Belarus</span></span>
 
-<span data-ttu-id="7311c-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="7311c-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="4b1ed-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="4b1ed-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="7311c-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="7311c-105">Phone number</span></span>
-<span data-ttu-id="7311c-106">8 820 0071 0003</span><span class="sxs-lookup"><span data-stu-id="7311c-106">8 820 0071 0003</span></span>
+## <a name="phone-number"></a><span data-ttu-id="4b1ed-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="4b1ed-105">Phone number</span></span>
+<span data-ttu-id="4b1ed-106">8 820 0071 0003</span><span class="sxs-lookup"><span data-stu-id="4b1ed-106">8 820 0071 0003</span></span>
 
-<span data-ttu-id="7311c-107">비즈니스용 2를 누르기</span><span class="sxs-lookup"><span data-stu-id="7311c-107">Press 2 for business</span></span>
+<span data-ttu-id="4b1ed-107">비즈니스용 2를 누르기</span><span class="sxs-lookup"><span data-stu-id="4b1ed-107">Press 2 for business</span></span>
 
-<span data-ttu-id="7311c-108">1을 눌러 Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="7311c-108">Press 1 for Microsoft 365</span></span>
+<span data-ttu-id="4b1ed-108">1을 눌러 Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="4b1ed-108">Press 1 for Microsoft 365</span></span>
 
-## <a name="hours"></a><span data-ttu-id="7311c-109">시간</span><span class="sxs-lookup"><span data-stu-id="7311c-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="7311c-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="7311c-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="4b1ed-109">시간</span><span class="sxs-lookup"><span data-stu-id="4b1ed-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="4b1ed-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="4b1ed-110">Billing Support:</span></span>
 
-<span data-ttu-id="7311c-111">러시아어: Mon-Fri 오전 10시-오후 7시 모스크바</span><span class="sxs-lookup"><span data-stu-id="7311c-111">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
+<span data-ttu-id="4b1ed-111">러시아어: Mon-Fri 오전 10시-오후 7시 모스크바</span><span class="sxs-lookup"><span data-stu-id="4b1ed-111">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
 
-<span data-ttu-id="7311c-112">영어: Mon-Fri 오전 9시-오후 5시 런던</span><span class="sxs-lookup"><span data-stu-id="7311c-112">English: Mon-Fri 9 AM-5 PM London</span></span>
+<span data-ttu-id="4b1ed-112">영어: Mon-Fri 오전 9시-오후 5시 런던</span><span class="sxs-lookup"><span data-stu-id="4b1ed-112">English: Mon-Fri 9 AM-5 PM London</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="7311c-113">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="7311c-113">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="4b1ed-113">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="4b1ed-113">Technical Support:</span></span>
 
-<span data-ttu-id="7311c-114">러시아어: Mon-Fri 오전 7시-오후 8시 모스크바</span><span class="sxs-lookup"><span data-stu-id="7311c-114">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
+<span data-ttu-id="4b1ed-114">러시아어: Mon-Fri 오전 7시-오후 8시 모스크바</span><span class="sxs-lookup"><span data-stu-id="4b1ed-114">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
 
-<span data-ttu-id="7311c-115">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="7311c-115">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="4b1ed-115">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="4b1ed-115">English: 24 hours a day, 7 days a week</span></span>
