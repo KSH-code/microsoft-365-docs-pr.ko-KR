@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365를 통해 보안을 강화하여 캠페인 또는 비즈니스를 보호하는 방법을 자세히 알아보하세요.
+description: 캠페인을 통해 보안을 강화하여 캠페인 또는 비즈니스를 보호하는 Microsoft 365.
 ms.openlocfilehash: d2486f7160bef57a91d76fba756ff75ba319b8fa
 ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
@@ -31,20 +31,20 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50044375"
 ---
-# <a name="bump-up-security-protection-for-your-campaign-or-business"></a><span data-ttu-id="371e1-103">캠페인 또는 비즈니스에 대한 보안 보호 강화</span><span class="sxs-lookup"><span data-stu-id="371e1-103">Bump up security protection for your campaign or business</span></span>
+# <a name="bump-up-security-protection-for-your-campaign-or-business"></a><span data-ttu-id="004ac-103">캠페인 또는 비즈니스에 대한 보안 보호 강화</span><span class="sxs-lookup"><span data-stu-id="004ac-103">Bump up security protection for your campaign or business</span></span>
 
 
-## <a name="overview"></a><span data-ttu-id="371e1-104">개요</span><span class="sxs-lookup"><span data-stu-id="371e1-104">Overview</span></span> 
-<span data-ttu-id="371e1-105">이 비디오를 시청하여 캠페인 또는 비즈니스를 보호하는 방법을 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="371e1-105">Watch this video to see how you can protect your campaign or business:</span></span>
+## <a name="overview"></a><span data-ttu-id="004ac-104">개요</span><span class="sxs-lookup"><span data-stu-id="004ac-104">Overview</span></span> 
+<span data-ttu-id="004ac-105">이 비디오를 시청하여 캠페인 또는 비즈니스를 보호하는 방법을 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="004ac-105">Watch this video to see how you can protect your campaign or business:</span></span>
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3cfV1]  
 
 
-<span data-ttu-id="371e1-106">그런 다음 단계에 따라 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="371e1-106">Then follow the steps to:</span></span>
+<span data-ttu-id="004ac-106">그런 다음 다음 단계에 따라 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="004ac-106">Then follow the steps to:</span></span>
 
-- [<span data-ttu-id="371e1-107">악성코드 및 기타 위협으로부터 보호</span><span class="sxs-lookup"><span data-stu-id="371e1-107">Protect against malware and other threats</span></span>](m365-campaigns-increase-protection.md)
-- <span data-ttu-id="371e1-108">[계정 및 앱을 보호하여](m365-campaigns-conditional-access.md) 캠페인 데이터에 대한 액세스 보호</span><span class="sxs-lookup"><span data-stu-id="371e1-108">[Protect access to your campaign data](m365-campaigns-conditional-access.md) by protecting your accounts and apps</span></span>
-- [<span data-ttu-id="371e1-109">관리자 계정 보호</span><span class="sxs-lookup"><span data-stu-id="371e1-109">Protect admin accounts</span></span>](m365-campaigns-protect-admin-accounts.md)
-- [<span data-ttu-id="371e1-110">모바일 장치 설정</span><span class="sxs-lookup"><span data-stu-id="371e1-110">Set up mobile devices</span></span>](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
-- [<span data-ttu-id="371e1-111">사용자 교육</span><span class="sxs-lookup"><span data-stu-id="371e1-111">Train your users</span></span>](m365-campaigns-users.md)
+- [<span data-ttu-id="004ac-107">악성코드 및 기타 위협으로부터 보호</span><span class="sxs-lookup"><span data-stu-id="004ac-107">Protect against malware and other threats</span></span>](m365-campaigns-increase-protection.md)
+- <span data-ttu-id="004ac-108">[계정 및 앱을 보호하여](m365-campaigns-conditional-access.md) 캠페인 데이터에 대한 액세스 보호</span><span class="sxs-lookup"><span data-stu-id="004ac-108">[Protect access to your campaign data](m365-campaigns-conditional-access.md) by protecting your accounts and apps</span></span>
+- [<span data-ttu-id="004ac-109">관리자 계정 보호</span><span class="sxs-lookup"><span data-stu-id="004ac-109">Protect admin accounts</span></span>](m365-campaigns-protect-admin-accounts.md)
+- [<span data-ttu-id="004ac-110">모바일 장치 설정</span><span class="sxs-lookup"><span data-stu-id="004ac-110">Set up mobile devices</span></span>](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
+- [<span data-ttu-id="004ac-111">사용자 교육</span><span class="sxs-lookup"><span data-stu-id="004ac-111">Train your users</span></span>](m365-campaigns-users.md)

@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft Bookings
-summary: Microsoft Bookings를 사용하여 약속을 예약하고 관리합니다. Outlook과의 통합 및 자동 알림이 포함됩니다.
+summary: Microsoft Bookings를 사용하여 약속을 예약하고 관리합니다. 자동 알림과 Outlook 통합이 포함됩니다.
 metadata:
   title: Microsoft Bookings
-  description: Microsoft Bookings를 사용하여 약속을 예약하고 관리합니다. Outlook과의 통합 및 자동 알림이 포함됩니다.
+  description: Microsoft Bookings를 사용하여 약속을 예약하고 관리합니다. 자동 알림과 Outlook 통합이 포함됩니다.
   ms.service: bookings
   ms.topic: landing-page
   author: dmaguire
