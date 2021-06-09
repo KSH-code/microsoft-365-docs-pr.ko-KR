@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/07/2021
-ms.openlocfilehash: 33170d4706ed53f4de687c34806bb0492a08836e
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.date: 06/08/2021
+ms.openlocfilehash: ccbb57d781196e352e0fed456a1f7cb43eb17300
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809110"
+ms.locfileid: "52822277"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -110,6 +110,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 ### <a name="whats-new"></a>새로운 기능
 - 추가 동작 모니터링 논리
 - 커널 모드 키로거 검색 개선
+- Microsoft Defender 업데이트의점적 출시 프로세스를 관리하기 위한 새 [컨트롤이 추가되었습니다.](updates.md)
 
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음  

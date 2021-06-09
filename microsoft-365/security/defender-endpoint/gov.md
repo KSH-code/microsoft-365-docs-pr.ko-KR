@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0276f0464f898d3675e4cc1d6b69185e7e390a87
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 7956c1454cd7bd962eda984cc9d93be9824d7458
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572672"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822108"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>엔드포인트용 Microsoft Defender(미국 정부 고객용)
 
@@ -78,8 +78,8 @@ Windows 10 버전 [1909(KB4586819](https://support.microsoft.com/help/4586819)�
 Windows 10 버전 [1903(KB4586819](https://support.microsoft.com/help/4586819)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows 10 버전 [1809(KB4586839](https://support.microsoft.com/help/4586839)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows 10 버전 [1803(KB4598245](https://support.microsoft.com/help/4598245)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-Windows 10 버전 1709 | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다. | ![](images/svg/check-yes.svg) [예(KB4499147)](https://support.microsoft.com/help/4499147)<br />참고: [사용되지 않습니다.](/lifecycle/announcements/revised-end-of-service-windows-10-1709)업그레이드하십시오. | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다.
-Windows 10 버전 1703 이전 버전 | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다. | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다. | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다.
+Windows 10 버전 1709 | ![아니요.](images/svg/check-no.svg)<br />참고: 지원되지 않습니다. | ![](images/svg/check-yes.svg) [예(KB4499147)](https://support.microsoft.com/help/4499147)<br />참고: [사용되지 않습니다.](/lifecycle/announcements/revised-end-of-service-windows-10-1709)업그레이드하십시오. | ![아니요.](images/svg/check-no.svg)<br />참고: 지원되지 않습니다.
+Windows 10 버전 1703 이전 버전 | ![아니요.](images/svg/check-no.svg)<br />참고: 지원되지 않습니다. | ![아니요.](images/svg/check-no.svg)<br />참고: 지원되지 않습니다. | ![아니요.](images/svg/check-no.svg)<br />참고: 지원되지 않습니다.
 Windows Server [2019(KB4586839](https://support.microsoft.com/help/4586839)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows Server 2016 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
@@ -90,8 +90,8 @@ Windows 7 SP1 Enterprise | ![예](images/svg/check-yes.svg) | ![예](images/svg/
 Windows 7 SP1 Pro | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Linux | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 macOS | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-Android | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
-iOS | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
+Android | ![아니요.](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요.](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요.](images/svg/check-no.svg) 백로그 엔지니어링
+iOS | ![아니요.](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요.](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요.](images/svg/check-no.svg) 백로그 엔지니어링
 
 > [!NOTE]
 > 패치가 지정된 경우 올바른 환경으로 끝점에 대한 Defender를 구성하려면 장치 온보딩 전에 패치를 배포해야 합니다.
@@ -104,7 +104,7 @@ iOS | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니
 
 OS 버전 | GCC | GCC 높음 | DoD
 :---|:---|:---|:---
-Windows Server 2019 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+Windows Server 2019 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows Server 2016 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows Server 2008 R2 SP1 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
@@ -162,12 +162,12 @@ SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https:/
 기능 이름 | GCC | GCC 높음 | DoD
 :---|:---|:---|:---
 관리 및 API: 스트리밍 API | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-웹 컨텐츠 필터링 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
-통합: Azure Sentinel | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) 경고 <br /> ![아니요](images/svg/check-no.svg) 인시던트 & 데이터: 개발 중 | ![예](images/svg/check-yes.svg) 경고 <br /> ![아니요](images/svg/check-no.svg) 인시던트 & 데이터: 개발 중
-통합: Microsoft Cloud App Security | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
-통합: Microsoft 준수 관리자 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
-통합: Id용 Microsoft Defender | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
-통합: Microsoft Endpoint DLP | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+웹 컨텐츠 필터링 | ![아니요.](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중
+통합: Azure Sentinel | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) 경고 <br /> ![아니요.](images/svg/check-no.svg) 인시던트 & 데이터: 개발 중 | ![네.](images/svg/check-yes.svg) 경고 <br /> ![아니요.](images/svg/check-no.svg) 인시던트 & 데이터: 개발 중
+통합: Microsoft Cloud App Security | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중
+통합: Microsoft 준수 관리자 | ![아니요.](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중
+통합: Id용 Microsoft Defender | ![아니요.](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중
+통합: Microsoft Endpoint DLP | ![아니요.](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중
 통합: Microsoft Intune | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-통합: Microsoft Power Automate & Azure Logic Apps | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
-Microsoft 위협 전문가 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
+통합: Microsoft Power Automate & Azure Logic Apps | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요.](images/svg/check-no.svg) 개발 중
+Microsoft 위협 전문가 | ![아니요.](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요.](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요.](images/svg/check-no.svg) 백로그 엔지니어링

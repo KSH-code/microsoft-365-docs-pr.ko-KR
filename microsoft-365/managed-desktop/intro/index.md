@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d058cfefbc31be6d355ed61e745c36af684829b4
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 0c08f5d05c42ed8d1e84632377be28e542771c2a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259670"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841369"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -61,7 +61,7 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 
 - **업데이트**: Microsoft Managed Desktop은 Windows 10 품질 및 기능 업데이트, 드라이버, 펌웨어, 바이러스 백신 정의 및 엔터프라이즈용 Microsoft 365 앱 업데이트 [배포 그룹](../service-description/updates.md)의 모든 것을 설정하고 관리합니다. 광범위한 검사 및 모든 업데이트 확인이 포함되어 등록된 장비가 항상 최신 상태를 유지하고 방해를 최소화 하여 상시 업무로 부터 IT 부서를 자유롭게 해줍니다.
 
-- **앱**: Microsoft 365 Enterprise의 일부로서 Microsoft는 몇 가지 주요 Microsoft 앱을 제공하고 관리 합니다. 비즈니스에 필요한 다른 앱도 있을 것입니다. Microsoft는 IT 부서에서 이러한 앱을 테스트, 패키징 및 배포하는 대신 [FastTrack](https://www.microsoft.com/FastTrack) 프로그램을 통해 배포할 수 있도록 지원합니다. 또한 Microsoft의 [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assuree) 프로그램은 최신 버전의 제품으로 마이그레이션할 때 발생하는 모든 앱 호환성 문제를 수정하는 데 도움을 줄 수 있습니다. [Microsoft Managed Desktop 앱](../get-ready/apps.md)에 대해 더 알아보세요.
+- **앱**: Microsoft 365 Enterprise의 일부로서 Microsoft는 몇 가지 주요 Microsoft 앱을 제공하고 관리 합니다. 비즈니스에 필요한 다른 앱도 있을 것입니다. Microsoft는 IT 부서에서 이러한 앱을 테스트, 패키징 및 배포하는 대신 [FastTrack](https://www.microsoft.com/FastTrack) 프로그램을 통해 배포할 수 있도록 지원합니다. 또한 Microsoft의 [App Assure](/fasttrack/products-and-capabilities#app-assuree) 프로그램은 최신 버전의 제품으로 마이그레이션할 때 발생하는 모든 앱 호환성 문제를 수정하는 데 도움을 줄 수 있습니다. [Microsoft Managed Desktop 앱](../get-ready/apps.md)에 대해 더 알아보세요.
 
 
 ## <a name="device-monitoring"></a>장치 모니터링

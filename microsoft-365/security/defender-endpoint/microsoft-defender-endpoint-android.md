@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3f8a8c04f608096e5c226d6899fbbd983bd8d8c1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 499ac9a6ee81bacb79cd83993d510f87e11c62c6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246431"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844721"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
@@ -48,13 +48,13 @@ ms.locfileid: "52246431"
 
 -   **최종 사용자의 경우**
 
-    -   앱의 최종 사용자에게 할당된 끝점용 Microsoft Defender 라이선스입니다. 끝점 라이선싱 요구 사항에 대한 [Microsoft Defender를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
+    -   앱의 최종 사용자에게 할당된 끝점용 Microsoft Defender 라이선스입니다. 끝점 라이선싱 요구 사항에 대한 [Microsoft Defender를 참조하세요.](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
 
     -   Intune 회사 포털 [앱은 Google Play에서](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) 다운로드할 수 있으며 Android 장치에서 사용할 수 있습니다.
 
-        -   또한 Intune 장치 준수 [](https://docs.microsoft.com/mem/intune/user-help/enroll-device-android-company-portal) 정책을 적용하기 위해 Intune 회사 포털 앱을 통해 장치를 등록할 수 있습니다. 이렇게 하려면 최종 사용자에게 라이선스를 할당해야 Microsoft Intune 합니다.
+        -   또한 Intune 장치 준수 [](/mem/intune/user-help/enroll-device-android-company-portal) 정책을 적용하기 위해 Intune 회사 포털 앱을 통해 장치를 등록할 수 있습니다. 이렇게 하려면 최종 사용자에게 라이선스를 할당해야 Microsoft Intune 합니다.
 
-    -   라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+    -   라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](/azure/active-directory/users-groups-roles/licensing-groups-assign)
         
 
 -   **관리자용**

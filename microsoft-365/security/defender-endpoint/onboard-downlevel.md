@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7ed7390f67747d176145bb051d8b1633a7146a23
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: d0cb4a3d01c1380f4fd06999c8f81a4054e2fd00
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730813"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844433"
 ---
 # <a name="onboard-previous-versions-of-windows"></a>이전 버전의 Windows 온보딩
 
@@ -59,7 +59,7 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 이 통합을 사용하려면 다음 단계가 필요합니다. 
 - 클라이언트용 맬웨어 방지 플랫폼 [2017년 1월 Endpoint Protection 업데이트 설치](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie) 
 - 고급 설정으로 SCEP 클라이언트 클라우드 보호 서비스 멤버 자격 **구성**
-- 클라우드에 대한 연결을 허용하도록 Microsoft Defender 바이러스 백신 구성합니다. 자세한 내용은 클라우드에 대한 연결 [Microsoft Defender 바이러스 백신 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud)
+- 클라우드에 대한 연결을 허용하도록 Microsoft Defender 바이러스 백신 구성합니다. 자세한 내용은 클라우드에 대한 연결 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud)
 
 ## <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>MMA(Microsoft Monitoring Agent)를 설치 및 구성하여 끝점용 Microsoft Defender에 센서 데이터 보고
 
@@ -90,10 +90,10 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
    - 작업 영역 ID 및 작업 영역 키 복사
 
 3. 작업 영역 ID 및 작업 영역 키를 사용하여 다음 설치 방법 중 원하는 경우 에이전트를 설치합니다.
-    - [설치 프로그램을 사용하여 에이전트를 수동으로 설치합니다.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) <br>
+    - [설치 프로그램을 사용하여 에이전트를 수동으로 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) <br>
       에이전트 설정 **옵션 페이지에서** 에이전트를 **커넥트 OMS(Azure Log Analytics)를 선택합니다.**
-    - [명령줄을 사용하여 에이전트를 설치합니다.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
-    - [스크립트를 사용하여 에이전트를 구성합니다.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation)
+    - [명령줄을 사용하여 에이전트를 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
+    - [스크립트를 사용하여 에이전트를 구성합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation)
 
    > [!NOTE]
    > 미국 정부 [](gov.md)고객인 경우 "Azure Cloud"에서 설치 마법사를 사용하는 경우 또는 명령줄 또는 스크립트를 사용하는 경우 "azure US Government"를 선택해야 합니다. "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" 매개 변수를 1로 설정해야 합니다.
@@ -104,8 +104,8 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 
 ### <a name="configure-proxy-and-internet-connectivity-settings"></a>프록시 및 인터넷 연결 설정 구성
  
-- 각 Windows 끝점은 HTTPS를 사용하여 인터넷에 연결할 수 있어야 합니다. 이 연결은 프록시를 사용하여 직접 연결하거나 [OMS 게이트웨이를 통해](https://docs.microsoft.com/azure/log-analytics/log-analytics-oms-gateway)할 수 있습니다.
-- 프록시 또는 방화벽이 기본적으로 모든 트래픽을 차단하고 특정 도메인만 허용하거나 SSL 검사(SSL 검사)를 통해 허용하는 경우 끝점 서비스 URL용 [Defender에](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)대한 액세스를 사용하도록 설정해야 합니다.
+- 각 Windows 끝점은 HTTPS를 사용하여 인터넷에 연결할 수 있어야 합니다. 이 연결은 프록시를 사용하여 직접 연결하거나 [OMS 게이트웨이를 통해](/azure/log-analytics/log-analytics-oms-gateway)할 수 있습니다.
+- 프록시 또는 방화벽이 기본적으로 모든 트래픽을 차단하고 특정 도메인만 허용하거나 SSL 검사(SSL 검사)를 통해 허용하는 경우 끝점 서비스 URL용 [Defender에](/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)대한 액세스를 사용하도록 설정해야 합니다.
 
 ## <a name="offboard-client-endpoints"></a>오프보드 클라이언트 끝점
 오프보딩을 위해 끝점에서 MMA 에이전트를 제거하거나 끝점 작업 영역용 Defender에 보고에서 이 에이전트를 제거하면 됩니다. 에이전트를 오프보딩한 후 끝점은 더 이상 끝점용 Defender에 센서 데이터를 전송하지 않습니다. 

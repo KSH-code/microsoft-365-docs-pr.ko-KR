@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 보안 및 준수 센터에서 키워드 사전을 만드는 기본 단계에 대해 알아봅니다.
-ms.openlocfilehash: 24f6bb636c702438be8ca9520c6523031f297410
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1e1aa45c3bf4d31e4c969b0bc0949109fa716467
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683766"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841165"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
@@ -31,7 +31,7 @@ DLP(데이터 손실 방지)는 중요한 항목을 식별, 모니터링 및 보
 
 ## <a name="keyword-dictionary-limits"></a>키워드 사전 제한
 
-테넌트당 만들 수 있는 중요한 정보 유형을 기반으로 하는 키워드 사전은 50개로 제한됩니다. 테넌트에 있는 키워드 사전의 수를 확인하려면 [보안 및 준수 센터 PowerShell 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)의 절차를 따라 테넌트에 연결하고 이 PowerShell 스크립트를 실행합니다.
+테넌트당 만들 수 있는 중요한 정보 유형을 기반으로 하는 키워드 사전은 50개로 제한됩니다. 테넌트에 있는 키워드 사전의 수를 확인하려면 [보안 및 준수 센터 PowerShell 연결](/powershell/exchange/connect-to-scc-powershell)의 절차를 따라 테넌트에 연결하고 이 PowerShell 스크립트를 실행합니다.
 
 ```powershell
 $rawFile = $env:TEMP + "\rule.xml"

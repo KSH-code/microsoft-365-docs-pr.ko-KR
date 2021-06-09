@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1d8f4452273047684a30db3b18d1281f40f46378
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0b52b6f9b457dbe1a5984c3d68c7077f7037d498
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903301"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845081"
 ---
 # <a name="investigate-incidents-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 인시던트 조사
 
@@ -83,7 +83,7 @@ Microsoft Defender for Endpoint는 경고에서 지원되는 모든 인시던트
 끝점용 Microsoft Defender는 위협 정보를 인시던트로 집계하여 다양한 데이터 요소에서 들어오는 패턴 및 상관 관계도 볼 수 있습니다. 인시던트 그래프를 통해 이러한 상관 관계는 볼 수 있습니다.
 
 ### <a name="incident-graph"></a>인시던트 그래프
-**Graph는** 사이버 보안 공격에 대한 스토리를 제공합니다. 예를 들어 어떤 장치가 손상되거나 활동이 관찰된 진입점인 것을 보여 주었습니다. 등.
+이 **Graph** 사이버 보안 공격의 스토리를 알 수 있습니다. 예를 들어 어떤 장치가 손상되거나 활동이 관찰된 진입점인 것을 보여 주었습니다. 등.
 
 ![인시던트 그래프의 이미지](images/atp-incident-graph-tab.png)
 
@@ -92,6 +92,6 @@ Microsoft Defender for Endpoint는 경고에서 지원되는 모든 인시던트
 ![인시던트 세부 정보 이미지](images/atp-incident-graph-details.png)
 
 ## <a name="related-topics"></a>관련 항목
-- [인시던트 큐](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
-- [끝점용 Microsoft Defender에서 인시던트 조사](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-incidents)
-- [끝점 인시던트에 대한 Microsoft Defender 관리](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-incidents)
+- [인시던트 큐](/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [끝점용 Microsoft Defender에서 인시던트 조사](/microsoft-365/security/defender-endpoint/investigate-incidents)
+- [끝점 인시던트에 대한 Microsoft Defender 관리](/microsoft-365/security/defender-endpoint/manage-incidents)

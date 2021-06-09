@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 00943eb85abbfd2d237ae5544eb69d3ec4d9f875
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c8c83724d17acff52d588331b3b854e180d5466c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245507"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841285"
 ---
 # <a name="device-images"></a>장치 이미지
 
@@ -79,13 +79,13 @@ HP 회사 준비 이미지와 함께 배송된 HP 상용 PC에는 를 포함합�
 
 다음 단계에서는 디바이스의 모든 데이터를 제거하기 때문에 시작하기 전에 유지하려는 데이터를 백업해야 합니다.
 
-1. [WinPE를 사용하여 부팅 가능한 USB](https://docs.microsoft.com/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive) 드라이브를 만들 수 있습니다.
+1. [WinPE를 사용하여 부팅 가능한 USB](/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive) 드라이브를 만들 수 있습니다.
 2. C: \\ SOURCES에서 USB 드라이브로 다음 파일을 복사합니다.
     - 공장 복구 WIM 파일(예: HP \_ EliteBook \_ 840 \_ G7 \_ 노트북 PC \_ \_ \_ CR 2004.wim)
     - 배포. CMD
     - ReCreatePartitions.txt
 3. [WinPE로 디바이스 부팅](https://store.hp.com/us/en/tech-takes/how-to-boot-from-usb-drive-on-windows-10-pcs) USB 드라이브.
-4. 명령 프롬프트에서 를 [Diskpart.exe. ](https://docs.microsoft.com/windows-server/administration/windows-commands/diskpart#additional-references)
+4. 명령 프롬프트에서 를 [Diskpart.exe. ](/windows-server/administration/windows-commands/diskpart#additional-references)
 5. Diskpart에서 를 실행한 다음 기본 저장소 디스크 `list disk` 번호(일반적으로 디스크 0)를 기록합니다.
 6. 를 입력하여 Diskpart를 `exit` 종료합니다.
 7. 명령 프롬프트에서 를 실행합니다. 여기서 sys_disk 는 방금 결정한 기본 저장소 디스크의 디스크 recovery_wim 의 파일 `deploy.cmd <sys_disk> <recovery_wim>` 이름입니다.   앞에서 복사한 WIM 파일입니다.

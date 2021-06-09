@@ -1,7 +1,7 @@
 ---
 title: Microsoft Search를 사용하여 Microsoft Viva 항목에서 항목 찾기
-ms.author: efrene
-author: efrene
+ms.author: chuckedmonson
+author: chucked
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Microsoft Viva에서 항목을 검색하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 36901cf32a0633aaa5fc08e45021d13c7b06dd0b
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: bce9309d27b76854b927922f39389c18e1c09449
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52795997"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844734"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Search를 사용하여 Microsoft Viva 항목에서 항목 찾기
 
@@ -23,7 +23,7 @@ Viva 항목 사용자는 자신의 SharePoint 항목을 통해 항목을 찾을 
 
 ## <a name="topic-answer"></a>항목 답변
 
-Microsoft Search에서 특정 항목(예: "Saturn")을 검색할 때 해당 항목을 찾은 경우 응답 제안 형식으로 결과가 표시됩니다.
+Microsoft Search에서 특정 항목(예: "Saturn")을 검색할 때 항목이 있으며 발견된 경우 항목 응답 제안 형식으로 결과가 표시됩니다.
 
 이 항목의 답변은 다음을 표시합니다.
 - 토픽 이름
@@ -56,4 +56,4 @@ Viva 항목에서는 항목을 수동으로 편집하여 이 항목의 약어를
  
 ### <a name="search-results-priority"></a>검색 결과 우선 순위 
 
-사용자의 검색 환경에서 사용자가 "여행"이라는 용어를 검색하면 책갈피를 사용할 수 있는 경우 주제보다 먼저 책갈피가 나타납니다.
+사용자의 검색 환경에서 사용자가 "travel"이라는 용어를 검색하면 책갈피를 사용할 수 있는 경우 주제 대신 책갈피가 나타납니다.

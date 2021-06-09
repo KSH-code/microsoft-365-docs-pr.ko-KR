@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 계획 2 조직용 Microsoft Defender에서 시뮬레이션된 피싱 및 암호 Office 365 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a5986bbeebd49223ebfd74773346f27fc5297243
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: c5d4b77204f207c31f2014df797f6209b92c9ccb
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730921"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822337"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>공격의 신나는 교육 사용 시작
 
@@ -38,7 +38,7 @@ ms.locfileid: "52730921"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- Microsoft 보안 센터를 열기 위해 로 이동 <https://security.microsoft.com/> 합니다. 공격 시뮬레이션 교육은 전자 **메일** 및 공동 작업 공격 시뮬레이션 \> **교육에서 사용할 수 있습니다.** 공격 시뮬레이션 교육으로 직접 이동하기 위해 를 를 를 <https://security.microsoft.com/attacksimulator> 습니다.
+- Microsoft 보안 센터를 열기 위해 로 이동 <https://security.microsoft.com> 합니다. 공격 시뮬레이션 교육은 전자 **메일** 및 공동 작업 공격 시뮬레이션 \> **교육에서 사용할 수 있습니다.** 공격 시뮬레이션 교육으로 직접 이동하기 위해 를 를 를 <https://security.microsoft.com/attacksimulator> 습니다.
 
 - 여러 Microsoft 365 구독의 공격 시뮬레이션 교육 가용성에 대한 자세한 내용은 Microsoft [Defender for Office 365 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 

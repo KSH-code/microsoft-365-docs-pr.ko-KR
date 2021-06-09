@@ -19,12 +19,12 @@ ms.assetid: ''
 description: eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 Office 365 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26ca41774e1e09619fdf5e518258f8acf3a9d938
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 28c092cefbdd8add46d3f36aa118e230d16a918a
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809122"
+ms.locfileid: "52822241"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
@@ -226,7 +226,7 @@ eDiscovery 내보내기 도구를 사용하여 검색 결과를 다운로드할 
 
 1. 다른 클라이언트/컴퓨터로 다운로드해 하세요.
 
-2. [Remove-ComplianceSearch][/powershell/module/exchange/remove-compliancesearch] cmdlet을 사용하여 더 이상 필요 없는 이전 검색을 제거합니다.
+2. [Remove-ComplianceSearch](/powershell/module/exchange/remove-compliancesearch) cmdlet을 사용하여 더 이상 필요 없는 이전 검색을 제거합니다.
 
 3. 로컬 드라이브에 다운로드해야 합니다.
 

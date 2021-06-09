@@ -1,7 +1,7 @@
 ---
 title: 온보더링 문제 및 오류 메시지 문제 해결
 description: 끝점용 Microsoft Defender 설정을 완료하는 동안 온보딩 문제 및 오류 메시지를 해결합니다.
-keywords: 문제 해결, Azure Active Directory, 온보딩, 오류 메시지, 오류 메시지, 끝점용 Microsoft Defender
+keywords: 문제 해결, 문제 해결, Azure Active Directory, 온보딩, 오류 메시지, 오류 메시지, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 1b769c1b3e4201802ea6150358568bf57894d305
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: b8e15f27ffe4babe730870fb576980c62cb0fd59
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185813"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844039"
 ---
 # <a name="troubleshoot-subscription-and-portal-access-issues"></a>구독 및 포털 액세스 문제 해결
 
@@ -35,17 +35,17 @@ ms.locfileid: "51185813"
 
 이 페이지에서는 끝점용 Microsoft Defender 서비스를 설정할 때 발생할 수 있는 문제를 해결하기 위한 자세한 단계를 제공합니다.
 
-오류 메시지가 표시될 경우 Microsoft Defender 보안 센터에서 문제와 관련 링크가 제공될 내용에 대한 자세한 설명을 제공합니다.
+오류 메시지가 표시될 경우 Microsoft Defender 보안 센터 관련 링크가 제공될 문제 및 관련 링크에 대한 자세한 설명을 제공합니다.
 
 ## <a name="no-subscriptions-found"></a>구독을 찾을 수 없음
 
-Microsoft Defender 보안 센터에 액세스하는  동안 구독을 찾을 수 없음 메시지가 표시면 사용자가 포털에 로그인하는 데 사용되는 Azure AD(Azure Active Directory)에 끝점용 Microsoft Defender 라이선스가 없음을 나타냅니다.
+액세스하는 동안 Microsoft Defender 보안 센터 구독을 찾을  수 없음 메시지가 표시되어 있는 경우 사용자를 포털에 로그인하는 데 사용되는 Azure Active Directory(Azure AD)에 끝점용 Microsoft Defender 라이선스가 없음을 의미합니다.
 
 가능한 원인:
 - Windows E5 및 Office E5 라이선스는 별도의 라이선스입니다.
 - 라이선스를 구매했지만 이 Azure AD 인스턴스에 프로비전되지는 않습니다.
     - 라이선스 프로비저닝 문제일 수 있습니다.
-    - 서비스 인증에 사용되는 라이선스와 다른 Microsoft Azure AD에 라이선스를 프로비전할 수 있습니다.
+    - 서비스에 대한 인증에 사용되는 라이선스와 다른 Microsoft Azure AD 라이선스를 프로비전할 수 있습니다.
 
 두 경우 모두 일반 Microsoft [Defender for Endpoint 지원](https://support.microsoft.com/getsupport?wf=0&tenant=ClassicCommercial&oaspworkflow=start_1.0.0.0&locale=en-us&supportregion=en-us&pesid=16055&ccsid=636419533611396913) 또는 볼륨 라이선스 지원 에서 Microsoft 지원에 [문의해야 합니다.](https://www.microsoft.com/licensing/servicecenter/Help/Contact.aspx)
 
@@ -53,7 +53,7 @@ Microsoft Defender 보안 센터에 액세스하는  동안 구독을 찾을 수
 
 ## <a name="your-subscription-has-expired"></a>구독이 만료되었습니다.
 
-Microsoft Defender 보안 센터에 액세스하는 동안 **구독이** 만료된 메시지가 표시되면 온라인 서비스 구독이 만료된 것입니다. 다른 온라인 서비스 구독과 마찬가지로 Endpoint용 Microsoft Defender 구독에는 만료 날짜가 있습니다. 
+구독에 액세스하는 Microsoft Defender 보안 센터 **만료된** 메시지가 표시되면 온라인 서비스 구독이 만료된 것입니다. 다른 온라인 서비스 구독과 마찬가지로 Endpoint용 Microsoft Defender 구독에는 만료 날짜가 있습니다. 
 
 특정 시점에 라이선스를 갱신하거나 연장할 수 있습니다. 만료 날짜 후 포털에 액세스할  때 라이선스를 갱신하지 않을 경우 구독이 만료된 메시지에 장치 등록 취소 패키지를 다운로드하는 옵션이 표시됩니다.
 
@@ -65,7 +65,7 @@ Microsoft Defender 보안 센터에 액세스하는 동안 **구독이** 만료�
 ## <a name="you-are-not-authorized-to-access-the-portal"></a>포털에 액세스할 수 있는 권한이 없습니다.
 
 포털에 액세스할 수 있는 권한이 없는 경우 끝점용 Microsoft Defender는 보안 모니터링, 인시던트 조사 및 대응 제품으로, 이에 따라 액세스가 제한되고 사용자가 제어합니다.
-자세한 내용은 포털에 [**대한 사용자 액세스 할당을 참조하세요.**](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/assign-portal-access-windows-defender-advanced-threat-protection)
+자세한 내용은 포털에 [**대한 사용자 액세스 할당을 참조하세요.**](/windows/threat-protection/windows-defender-atp/assign-portal-access-windows-defender-advanced-threat-protection)
 
 ![포털 액세스 권한이 부여되지 않은 이미지](images/atp-not-authorized-to-access-portal.png)
 

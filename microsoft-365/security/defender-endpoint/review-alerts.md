@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 5/1/2020
 ms.technology: mde
-ms.openlocfilehash: b791f2b62cb4a3f8062c80ceeb04ccfa72f704bc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b17af7931b181a5fa30271a3eee07c7abf10a010
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070172"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844025"
 ---
 # <a name="review-alerts-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 경고 검토
 
@@ -46,7 +46,7 @@ Microsoft Defender for Endpoint의 경고 페이지는 선택한 경고와 관�
 
 1. **경고 제목은** 경고의 이름을 표시하며 페이지에서 선택한 경고에 관계없이 현재 조사를 시작한 경고를 알려 주게 됩니다.
 2. [**영향을 받는 자산에는**](#review-affected-assets) 추가 정보 및 작업에 대해 클릭할 수 있는 이 경고의 영향을 받는 장치 및 사용자의 카드가 나열됩니다.
-3. 경고 **스토리에는** 경고와 관련된 모든 엔터티가 트리 보기로 상호 연결됩니다. 제목의 경고는 선택한 경고 페이지에 처음 방문할 때 포커스가 됩니다. 경고 스토리의 엔터티는 확장 및 클릭 가능하여 경고 페이지의 컨텍스트에서 바로 작업을 수행할 수 있도록 하여 추가 정보와 응답을 제공합니다. 경고 스토리를 사용하여 조사를 시작할 수 있습니다. Microsoft Defender for [Endpoint에서 경고 조사에서 방법을 알아보습니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-alerts)
+3. 경고 **스토리에는** 경고와 관련된 모든 엔터티가 트리 보기로 상호 연결됩니다. 제목의 경고는 선택한 경고 페이지에 처음 방문할 때 포커스가 됩니다. 경고 스토리의 엔터티는 확장 및 클릭 가능하여 경고 페이지의 컨텍스트에서 바로 작업을 수행할 수 있도록 하여 추가 정보와 응답을 제공합니다. 경고 스토리를 사용하여 조사를 시작할 수 있습니다. Microsoft Defender for [Endpoint에서 경고 조사에서 방법을 알아보습니다.](/microsoft-365/security/defender-endpoint/investigate-alerts)
 4. 세부 **정보 창에는** 처음에 선택한 경고의 세부 정보 및 이 경고와 관련된 세부 정보 및 작업이 표시됩니다. 경고 스토리에서 영향을 받는 자산 또는 엔터티를 선택하면 세부 정보 창이 변경되어 선택한 개체에 대한 상황에 맞는 정보 및 작업을 제공합니다.
 
 경고의 검색 상태를 메모합니다. 
@@ -85,5 +85,5 @@ Microsoft Defender for Endpoint의 경고 페이지는 선택한 경고와 관�
 ## <a name="related-topics"></a>관련 항목
 
 - [인시던트 큐 보기 및 구성](view-incidents-queue.md)
-- [사고 조사](investigate-incidents.md)
+- [인시던트 조사](investigate-incidents.md)
 - [인시던트 관리](manage-incidents.md)

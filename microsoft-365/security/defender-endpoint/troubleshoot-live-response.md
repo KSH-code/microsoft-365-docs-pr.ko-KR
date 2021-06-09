@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 2601001687fc22da98ca3cd81010237d12705ea4
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 99a52188dd5f6eca2f8368aa3c114d0bfb950b10
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687414"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844157"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-live-response-issues"></a>Endpoint 라이브 응답 문제에 대한 Microsoft Defender 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
@@ -62,12 +62,12 @@ ms.locfileid: "51687414"
 5. 복사한 파일에 대한 작업을 실행합니다.
 
 ## <a name="slow-live-response-sessions-or-delays-during-initial-connections"></a>초기 연결 중에 느린 라이브 응답 세션 또는 지연
-실시간 응답은 Windows에서 WNS 서비스를 통해 Endpoint 센서 등록에 Defender를 활용합니다. 라이브 응답에 연결 문제가 있는 경우 다음 세부 정보를 확인 합니다.
+라이브 응답은 WNS 서비스에 대한 끝점 센서 등록에 대한 Defender를 Windows. 라이브 응답에 연결 문제가 있는 경우 다음 세부 정보를 확인 합니다.
 1. `notify.windows.com` 는 환경에서 차단되지 않습니다. 자세한 내용은 장치 프록시 및 인터넷 연결 설정 [구성을 참조하세요.](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)
-2. WpnService(Windows 푸시 알림 시스템 서비스)를 사용할 수 없습니다.
+2. WpnService(Windows 알림 시스템 서비스)를 사용할 수 없습니다.
 
 WpnService 서비스 동작 및 요구 사항을 완전히 이해하기 위해 아래 문서를 참조하세요.
-- [WNS(Windows 푸시 Notification Services) 개요](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview)
-- [WNS 트래픽을 지원하기 위한 엔터프라이즈 방화벽 및 프록시 구성](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
+- [Windows WNS(푸시 Notification Services) 개요](/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview)
+- [Enterprise WNS 트래픽을 지원하기 위한 방화벽 및 프록시 구성](/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
 - [Microsoft 푸시 알림 서비스(MPNS) 공용 IP 범위](https://www.microsoft.com/en-us/download/details.aspx?id=44535)
 

@@ -16,25 +16,25 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a985719663ec23d41ce4da57aea9aa5e0cf7674c
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: eed208da92f7e196cc71dab4e9d32e5666f3f6a4
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688972"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844205"
 ---
 # <a name="web-protection"></a>웹 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-끝점용 Microsoft Defender의 웹 보호는 웹 [](web-threat-protection.md) 위협 방지 및 웹 콘텐츠 필터링으로 [끝나는 기능입니다.](web-content-filtering.md) 웹 보호를 사용하면 웹 위협으로부터 장치를 보호하고 원치 않는 콘텐츠를 규제하는 데 도움이 됩니다. Microsoft Defender 보안 센터에서 보고서 및 웹 **보호로**> 있습니다.
+끝점용 Microsoft Defender의 웹 보호는 웹 [](web-threat-protection.md) 위협 방지 및 웹 콘텐츠 필터링으로 [끝나는 기능입니다.](web-content-filtering.md) 웹 보호를 사용하면 웹 위협으로부터 장치를 보호하고 원치 않는 콘텐츠를 규제하는 데 도움이 됩니다. 보고서 웹 보호 에서 보고서 Microsoft Defender 보안 센터 웹 보호로 > **있습니다.**
 
 ![모든 웹 보호 카드의 이미지](images/web-protection.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "51688972"
 
 웹 콘텐츠 필터링에는 다음이 포함됩니다.
 - 사용자가 차단된 범주의 웹 사이트에 액세스하지 못하도록 차단됩니다.
-- 끝점 역할 기반 액세스 제어 설정에 대해 [Microsoft Defender에](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/rbac) 정의된 장치 그룹을 사용하여 다양한 정책을 다양한 사용자 집합에 편리하게 배포할 수 있습니다.
+- 끝점 역할 기반 액세스 제어 설정에 대해 [Microsoft Defender에](/microsoft-365/security/defender-endpoint/rbac) 정의된 장치 그룹을 사용하여 다양한 정책을 다양한 사용자 집합에 편리하게 배포할 수 있습니다.
 - 실제 블록 및 웹 사용 현황을 볼 수 있는 동일한 중앙 위치에서 웹 보고서에 액세스할 수 있습니다.
 
 ## <a name="in-this-section"></a>이 섹션의 내용

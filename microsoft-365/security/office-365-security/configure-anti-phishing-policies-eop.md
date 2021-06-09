@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 사서함을 사용하거나 사서함이 없는 EOP(Exchange Online Protection 조직)에서 사용할 수 있는 피싱 방지 정책을 만들고 수정하고 삭제하는 Exchange Online 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c329edc517476cfb184bfa4b70c2f2c9542b6e33
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ee227fe622f21d5b0f520507e1d88e2bbd0f3b31
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789066"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822313"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성
 
@@ -60,7 +60,7 @@ PowerShell Exchange Online 정책과 규칙을 별도로 관리합니다. 자세
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://security.microsoft.com/>에서 보안 센터를 엽니다. 피싱 방지 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/antiphishing> 사용하세요.
+- <https://security.microsoft.com>에서 보안 센터를 엽니다. 피싱 방지 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/antiphishing> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -77,7 +77,7 @@ PowerShell Exchange Online 정책과 규칙을 별도로 관리합니다. 자세
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   - 또한 **조직의 보기** 전용 조직 관리 역할 Exchange Online 기능에 대한 읽기 [전용](/Exchange/permissions-exo/permissions-exo#role-groups) 액세스 권한을 <sup>\*</sup> 제공합니다.
 
-- 피싱 방지 정책에 대한 권장 설정은 EOP 기본 피싱 방지 정책 설정을 [참조하세요.](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)
+- 피싱 방지 정책에 대한 권장 설정은 EOP 피싱 방지 정책 [설정을 참조하세요.](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)
 
 - 업데이트된 정책을 적용하는 데 최대 30분을 허용합니다.
 
@@ -137,7 +137,7 @@ PowerShell Exchange Online 정책과 규칙을 별도로 관리합니다. 자세
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
-7. 표시되는 **검토** 페이지에서 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다.
+7. 표시되는 **검토** 페이지에서 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다. 또는 **뒤로** 를 클릭하거나 마법사에서 특정 페이지를 선택할 수 있습니다.
 
    완료되면 제출을 **클릭합니다.**
 

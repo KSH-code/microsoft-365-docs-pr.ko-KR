@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ae8b08ce3d5bcc34e91f031223108fca053348ce
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: aab9c191e590b0717a0f1be62ed88a699d3b5b57
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572396"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844052"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -51,9 +51,9 @@ ms.locfileid: "52572396"
  다음 보기에서 장치 페이지를 찾을 수 있습니다.
 
 - **보안 작업 대시보드** - 위험 카드의 장치에서 장치 이름을 선택합니다.
-- **경고 큐** - 경고 큐에서 장치 아이콘 옆에 있는 장치 이름을 선택합니다.
+- **경고 큐** - 경고 큐에서 디바이스 아이콘 옆에 있는 디바이스 이름을 선택하세요.
 - **장치 목록** - 장치 목록에서 장치 이름의 제목을 선택합니다.
-- **검색 상자** - 드롭다운 메뉴에서 장치를 선택하고 장치 이름을 입력합니다.
+- **검색 상자** - 드롭다운 메뉴에서 디바이스를 선택하고 디바이스 이름을 입력하세요.
 
 >[!IMPORTANT]
 > - 이러한 응답 작업은 버전 1703 이상의 Windows 10 장치에만 사용할 수 있습니다. 
@@ -61,7 +61,7 @@ ms.locfileid: "52572396"
 
 ## <a name="manage-tags"></a>태그 관리
 
-태그를 추가하거나 관리하여 논리 그룹 소속을 만들 수 있습니다. 장치 태그는 네트워크의 적절한 매핑을 지원하여 컨텍스트를 캡처하고 인시던트의 일부로 동적 목록을 만들 수 있도록 서로 다른 태그를 연결할 수 있도록 합니다.
+태그를 추가하거나 관리하여 논리 그룹 소속을 만들 수 있습니다. 디바이스 태그는 네트워크의 적절한 매핑을 지원하므로 다양한 태그를 연결하여 컨텍스트를 캡처하고 인시던트 일부로 동적 목록 만들기를 사용하도록 설정할 수 있습니다.
 
 장치 태그 지정에 대한 자세한 내용은 장치 태그 [만들기 및 관리를 참조하세요.](machine-tags.md)
 
@@ -124,7 +124,7 @@ ms.locfileid: "52572396"
 
 >[!IMPORTANT]
 >- 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
->- A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
+>- A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
 
 바이러스 백신 검사 실행을 선택한 경우 실행할 검사 유형(빠른 또는 전체)을 선택하고 스캔을 확인하기 전에 설명을 추가합니다.
 
@@ -134,7 +134,7 @@ ms.locfileid: "52572396"
 
 >[!NOTE]
 >Endpoint 응답 작업을 위해 Defender를 사용하여 검색을 트리거할 때 Microsoft Defender 바이러스 백신 'ScanAvgCPULoadFactor' 값은 계속 적용하고 검사의 CPU 영향을 제한합니다.<br> ScanAvgCPULoadFactor가 구성되지 않은 경우 기본값은 검사 중에 최대 CPU 부하의 50% 제한입니다.<br>
->자세한 내용은 [configure-advanced-scan-types-microsoft-defender-antivirus 을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus)
+>자세한 내용은 [configure-advanced-scan-types-microsoft-defender-antivirus 을 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus)
 
 ## <a name="restrict-app-execution"></a>앱 실행 제한
 
@@ -143,7 +143,7 @@ ms.locfileid: "52572396"
 >[!IMPORTANT]
 > - 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
 > - 이 기능은 조직에서 이 기능을 사용하는 Microsoft Defender 바이러스 백신.
-> - 이 작업은 응용 프로그램 제어 Windows Defender 정책 형식 및 서명 요구 사항을 충족해야 합니다. 자세한 내용은 코드 무결성 정책 형식 및 [서명을 참조하세요.](https://docs.microsoft.com/windows/device-security/device-guard/requirements-and-deployment-planning-guidelines-for-device-guard#code-integrity-policy-formats-and-signing)
+> - 이 작업은 응용 프로그램 제어 Windows Defender 정책 형식 및 서명 요구 사항을 충족해야 합니다. 자세한 내용은 코드 무결성 정책 형식 및 [서명을 참조하세요.](/windows/device-security/device-guard/requirements-and-deployment-planning-guidelines-for-device-guard#code-integrity-policy-formats-and-signing)
 
 응용 프로그램의 실행을 제한하기 위해 Microsoft에서 발급한 인증서로 서명한 파일만 실행할 수 있는 코드 무결성 정책이 적용됩니다. 이 제한 방법은 공격자가 손상된 장치를 제어하고 추가 악의적인 활동을 수행하지 못하게 방지하는 데 도움이 될 수 있습니다.
 
@@ -191,7 +191,7 @@ ms.locfileid: "52572396"
 
 잠재적으로 손상된 장치 또는 이미 손상된 장치와 관련한 자세한 정보를 Microsoft 위협 전문가에게 문의할 수 있습니다. Microsoft 위협 전문가 정확한 응답을 위해 Microsoft Defender 보안 센터 내에서 직접 사용할 수 있습니다. 전문가는 잠재적으로 손상된 장치에 대한 정보 뿐만 아니라 복잡한 위협, 사용자가 수신하는 대상이 지정한 공격 알림 또는 알림에 대한 추가 정보가 필요한 경우 또는 포털 대시보드에서 볼 수 있는 위협 인텔리전스 컨텍스트를 보다 잘 이해하기 위해 정보를 제공합니다.
 
-자세한 [내용은 Microsoft Threat Expert를](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) 참조합니다.
+자세한 [내용은 Microsoft Threat Expert를](/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) 참조합니다.
 
 
 ## <a name="check-activity-details-in-action-center"></a>알림 센터에서 활동 세부 정보 확인
@@ -209,4 +209,4 @@ ms.locfileid: "52572396"
 
 ## <a name="related-topic"></a>관련 항목
 - [파일에 대해 대응 조치 실행](respond-file-alerts.md)
-- [부정확성 보고](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)
+- [부정확성 보고](/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)

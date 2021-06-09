@@ -15,12 +15,12 @@ ms.custom:
 description: 이 문서에서는 EOP(Microsoft Exchange Online 보호) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 자세히 알아보게 됩니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ae55ded9d907754161813c9f7bfa7eeb14c558a8
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 079e2b359f28b0b6bc3d7eac86e69060c65ea250
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625032"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841441"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>EOP의 보고 및 메시지 추적
 
@@ -46,11 +46,8 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 자세한 내용은 다음 리소스를 참조하세요.
 
 - [Microsoft 365 관리 센터의 보고서 - Microsoft 365 그룹](../../admin/activity-reports/office-365-groups.md)
-
 - [Microsoft 365 관리 센터의 보고서 - 전자 메일 활동](../../admin/activity-reports/email-activity.md)
-
 - [Microsoft 365 관리 센터의 보고서 - 전자 메일 앱 사용 현황](../../admin/activity-reports/email-apps-usage.md)
-
 - [Microsoft 365 관리 센터의 보고서 - 사서함 사용량](../../admin/activity-reports/mailbox-usage.md)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>& 센터의 보안 Microsoft 365 규정 준수 보고서

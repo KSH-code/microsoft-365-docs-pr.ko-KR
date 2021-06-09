@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 93aa685f12e0241758bf86d3aa956717db052e5f
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 56fd5aa10cf30e7bdcad213a68430b460e65647c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499933"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844229"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-incidents-queue"></a>끝점 인시던트에 대한 Microsoft Defender 큐 보기 및 구성
 
@@ -65,7 +65,7 @@ ms.locfileid: "51499933"
 ## <a name="assigned-to"></a>할당된 사용자
 필터를 사용하여 특정 담당자에게 할당 된 목록이나 자신에게 할당된 목록을 선택할 수 있습니다. 
 
-### <a name="category"></a>범주
+### <a name="category"></a>Category
 인시던트는 사이버 보안 킬체인이 있는 단계에 대한 설명에 따라 분류됩니다. 이 보기는 위협 분석가가 컨텍스트에 따라 배포할 우선 순위, 긴급성 및 해당 응답 전략을 결정하는 데 도움이 됩니다.
 
 ### <a name="status"></a>상태
@@ -85,7 +85,7 @@ ms.locfileid: "51499933"
 
 
 ## <a name="see-also"></a>참고 항목
-- [인시던트 큐](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [인시던트 큐](/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [인시던트 관리](manage-incidents.md)
 - [인시던트 조사](investigate-incidents.md)
 

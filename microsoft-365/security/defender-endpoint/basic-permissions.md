@@ -1,5 +1,5 @@
 ---
-title: 기본 사용 권한을 사용하여 Microsoft Defender 보안 센터 액세스
+title: 기본 사용 권한을 사용하여 액세스 Microsoft Defender 보안 센터
 description: 기본 권한을 사용하여 끝점 포털용 Microsoft Defender에 액세스하는 방법을 배워야 합니다.
 keywords: 사용자 역할 할당, 읽기 및 쓰기 액세스 할당, 읽기 전용 액세스 할당, 사용자, 사용자 역할, 역할
 search.product: eADQiWindows 10XVcnh
@@ -16,20 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: cb5762d2a9e4b62432aba6dacd1033ddc3c7daf2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 2d022e903111c498d6f3b7411857748fcb637b64
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163674"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844661"
 ---
-# <a name="use-basic-permissions-to-access-the-portal"></a>기본 사용 권한을 사용하여 포털 액세스
+# <a name="use-basic-permissions-to-access-the-portal"></a>기본 권한을 사용하여 포털에 액세스
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 - Azure Active Directory
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-basicaccess-abovefoldlink)
@@ -42,19 +42,19 @@ ms.locfileid: "51163674"
 
 사용 권한에 대한 세부적인 제어를 위해 역할 기반 액세스 [제어로 전환합니다.](rbac.md)
 
-## <a name="assign-user-access-using-azure-powershell"></a>Azure PowerShell을 사용하여 사용자 액세스 할당
+## <a name="assign-user-access-using-azure-powershell"></a>사용자를 사용하여 사용자 액세스 Azure PowerShell
 다음 권한 수준 중 하나를 사용하여 사용자를 할당할 수 있습니다.
 - 모든 액세스(읽기 및 쓰기)
 - 읽기 전용 액세스
 
 ### <a name="before-you-begin"></a>시작하기 전에
 
-- Azure PowerShell을 설치합니다. 자세한 내용은 Azure [PowerShell을](https://azure.microsoft.com/documentation/articles/powershell-install-configure/)설치 및 구성하는 방법을 참조하세요.<br>
+- 설치 Azure PowerShell. 자세한 내용은 를 설치 및 구성하는 [방법을 Azure PowerShell.](https://azure.microsoft.com/documentation/articles/powershell-install-configure/)<br>
 
     > [!NOTE]
     > PowerShell cmdlet은 상승된 명령줄에서 실행해야 합니다.
 
-- Azure Active Directory에 연결합니다. 자세한 내용은 [Connect-MsolService 를 참조하세요.](https://docs.microsoft.com/powershell/module/msonline/connect-msolservice?view=azureadps-1.0&preserve-view=true)
+- 커넥트 Azure Active Directory. 자세한 내용은 [커넥트-MsolService를 참조하십시오.](/powershell/module/msonline/connect-msolservice?view=azureadps-1.0&preserve-view=true)
 
 **모든 액세스** <br>
 모든 권한이 있는 사용자는 로그인하고, 모든 시스템 정보를 보고, 경고를 해결하고, 심층 분석을 위해 파일을 제출하고, 온보더링 패키지를 다운로드할 수 있습니다.
@@ -79,11 +79,11 @@ ms.locfileid: "51163674"
   Add-MsolRoleMember -RoleName "Security Reader" -RoleMemberEmailAddress "reader@Contoso.onmicrosoft.com"
   ```
 
-자세한 내용은 Azure Active Directory를 사용하여 그룹 구성원 추가 또는 [제거를 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal)
+자세한 내용은 를 사용하여 그룹 구성원 추가 [또는 제거를 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal)
 
 ## <a name="assign-user-access-using-the-azure-portal"></a>Azure Portal을 사용하여 사용자 액세스 할당
 
-자세한 내용은 Azure Active Directory를 사용하여 사용자에게 관리자 및 비 [관리자 역할 할당을 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
+자세한 내용은 [을(를)](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)사용할 수 있는 사용자에게 관리자 및 비 관리자 역할 할당을 Azure Active Directory.
 
 ## <a name="related-topic"></a>관련 항목
 

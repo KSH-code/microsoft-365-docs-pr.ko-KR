@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b1d64ceb7b0027546e84a9c42c8d2ffed188c03b
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: a232bd8d600df37d5b9b01921859556476ced345
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694476"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822373"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>개인 정보 보호 정보 - iOS의 끝점용 Microsoft Defender
 
@@ -51,7 +51,7 @@ Android 및 iOS 모바일 장치의 끝점용 Microsoft Defender에 대한 가�
 
 ### <a name="web-page-or-network-information"></a>웹 페이지 또는 네트워크 정보 
 
-- 악의적인 연결 또는 웹 페이지가 검색된 웹 사이트의 도메인 이름입니다. 
+- 악의적인 연결 또는 웹 페이지가 검색된 웹 사이트의 도메인 이름 및 IP 주소입니다. 
 
 ### <a name="device-and-account-information"></a>장치 및 계정 정보 
 

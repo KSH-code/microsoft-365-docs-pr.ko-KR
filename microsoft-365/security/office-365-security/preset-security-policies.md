@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca0b8b8dd879f3f662c96f1527bca13efbe5ef6c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 244364b423ee633a9131aabf93b5fc1e7cf756c0
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771228"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822289"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
@@ -105,7 +105,7 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 에서 Microsoft 365 보안 센터를 열 수 <https://security.microsoft.com/> 있습니다. 미리 설정 보안 정책 페이지로 직접 **이동하기 위해** 를 <https://security.microsoft.com/presetSecurityPolicies> 사용하세요.
+- 에서 Microsoft 365 보안 센터를 열 수 <https://security.microsoft.com> 있습니다. 미리 설정 보안 정책 페이지로 직접 **이동하기 위해** 를 <https://security.microsoft.com/presetSecurityPolicies> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -119,7 +119,7 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
 
 ### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>보안 센터를 사용하여 미리 설정한 보안 정책을 사용자에게 할당
 
-1. 보안 센터에서 Email **& collaboration** \> **Policies & Rules** Threat Policies Preset Security Policies 로 \>  \> **이동하세요.**
+1. 보안 센터에서 전자 메일 & **정책** & 규칙 위협 정책 템플릿 정책 섹션으로 \>  \>  \>  \> **이동하십시오.**
 
 2. 표준 **보호 또는** 엄격한 **보호에서** 편집을 **클릭합니다.**
 

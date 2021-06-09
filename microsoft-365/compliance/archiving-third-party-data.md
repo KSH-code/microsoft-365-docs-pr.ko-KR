@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 22a2e6dbadc3c259896348fc89754882db85cfb4
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 17172daa60721523bbfb97ab81f7a57078eb1b1c
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764113"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822156"
 ---
 # <a name="archive-third-party-data"></a>타사 데이터 보관
 
@@ -86,7 +86,7 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 ||||||||
 
 > [!NOTE]
-> <sup>1</sup> TeleMessage에서 제공하는 데이터 커넥터입니다. 조직에 데이터를 Microsoft 365 조직에 대한 보관 서비스를 설정하기 위해 TeleMessage와 함께 작업해야 합니다. 자세한 내용은 이 데이터 형식에 대한 단계별 지침의 선행 단계 섹션을 참조하세요.<br/><br/><sup>2</sup> Veritas에서 제공하는 데이터 커넥터입니다. 조직의 데이터를 보관할 Microsoft 365 조직에 대한 보관 서비스를 설정하기 위해 Veritas와 함께 작업해야 합니다. 자세한 내용은 이 데이터 형식에 대한 단계별 지침의 선행 단계 섹션을 참조하세요.
+> <sup>1</sup> TeleMessage에서 제공하는 데이터 커넥터입니다. 조직에 데이터를 Microsoft 365 조직에 대한 보관 서비스를 설정하기 위해 TeleMessage와 함께 작업해야 합니다. 자세한 내용은 이 데이터 형식에 대한 단계별 지침의 선행 단계 섹션을 참조하세요. TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있습니다. 자세한 내용은 이 문서의 [미국 정부](#data-connectors-in-the-us-government-cloud) 클라우드의 데이터 커넥터 섹션을 참조하세요. <br/><br/><sup>2</sup> Veritas에서 제공하는 데이터 커넥터입니다. 조직의 데이터를 보관할 Microsoft 365 조직에 대한 보관 서비스를 설정하기 위해 Veritas와 함께 작업해야 합니다. 자세한 내용은 이 데이터 형식에 대한 단계별 지침의 선행 단계 섹션을 참조하세요.
 
 이전 표에 나열된 타사 데이터(HR 데이터 및 물리적 배지 데이터 제외)는 사용자 사서함으로 가져오기됩니다. 타사 데이터를 지원하는 해당 준수 솔루션은 데이터가 저장되는 사용자 사서함에 적용됩니다.
 
@@ -125,6 +125,22 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 ### <a name="insider-risk-management"></a>내부자 위험 관리
 
 선택적 HR 데이터와 같은 타사 데이터의 신호를 내부자 [](insider-risk-management.md) 위험 관리 솔루션에서 사용하여 조직의 위험한 활동을 감지, 조사 및 작업할 수 있도록 하여 내부 위험을 최소화할 수 있습니다. 예를 들어 HR 데이터 커넥터에서 가져온 데이터는 퇴사하는 직원 데이터 도용을 감지하는 데 도움이 되는 위험 지표로 사용됩니다.
+
+## <a name="data-connectors-in-the-us-government-cloud"></a>미국 정부 클라우드의 데이터 커넥터
+
+앞서 언급했듯이 TeleMessage에서 제공하는 데이터 커넥터는 미국 정부 클라우드에서 사용할 수 있습니다. 다음 표에서는 각 TeleMessage 데이터 커넥터를 지원하는 특정 정부 환경을 나타냅니다. 미국 정부 클라우드에 대한 자세한 내용은 미국 [Microsoft 365 참조하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy)
+
+|TeleMessage 데이터 커넥터  |GCC  |GCC 높음  |DoD  |
+|:---------|:---------|:---------|:---------|
+|Android Archiver | 예 | 아니요 | 아니요 |
+|AT&T SMS/MMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
+|Bell SMS/MMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
+|Enterprise Number Archiver | 예 | 아니요 | 아니요 |
+|O2 SMS 및 음성 네트워크 보관함 | 예         | 아니요 | 아니요 |
+|TELUS SMS Network Archiver | 예 | 아니요 | 아니요 |
+|Verizon SMS/MMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
+|WhatsApp Archiver | 예 | 아니요 | 아니요 |
+|||||
 
 ## <a name="working-with-a-microsoft-partner-to-archive-third-party-data"></a>Microsoft 파트너와 협력하여 타사 데이터 보관
 

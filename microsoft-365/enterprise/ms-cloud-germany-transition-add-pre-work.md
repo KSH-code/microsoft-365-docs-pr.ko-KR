@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 독일 신규 데이터 센터 Office 365 서비스로 전환할 때 사전 작업입니다.'
-ms.openlocfilehash: 5eefa56b96eb616c694b26c374b235ccd95c3ee9
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: db4563b4a63dc39ee8171e80fd76ae15b7cd10e9
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796021"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844289"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
@@ -58,8 +58,8 @@ Office 365 테넌트 및 사용자 식별자는 마이그레이션 중에 보존
 | 마이그레이션 후 클라이언트를 다시 시작하고 클라이언트에서 로그인 및 로그인하는 방법을 사용자에게 알릴 준비를 합니다. | Office 라이선스가 도이치클란드 Microsoft 클라우드에서 마이그레이션의 Office 365 서비스로 전환됩니다. 클라이언트는 클라이언트에서 로그인한 후 유효한 새 라이선스를 Office 합니다. | 사용자의 Office 서비스에서 라이선스를 새로 고쳐야 Office 365 합니다. 라이선스를 새로 고치지 않은 경우 Office 유효성 검사 오류가 발생할 수 있습니다. |
 | 서비스 URL 및 IP Office 365 네트워크에 [연결합니다.](https://aka.ms/o365urls) | Office 365 서비스에 액세스하는 데 사용되는 고객이 호스팅하는 모든 클라이언트 및 서비스는 Office 365 전역 서비스 끝점에 액세스할 수 있어야 합니다. <br>사용자 또는 공동 작업 파트너가 Office 365 서비스 URL 및 IP 주소에 나열된 URL 및 [IP](https://aka.ms/o365urls) 주소에 액세스하지 못하게 하는 방화벽 규칙이 있는 경우 Office 365 전역 서비스 끝점에 대한 액세스를 허용하기 위해 방화벽 규칙을 변경해야 합니다.| 4단계 전에 이 단계를 수행하지 않은 경우 서비스 또는 클라이언트 소프트웨어 오류가 발생할 수 있습니다.  |
 | 평가판 구독을 취소합니다. | 평가판 구독은 마이그레이션되지 않습니다. 유료 구독의 전송이 차단됩니다. | 취소 후 사용자가 액세스하는 경우 평가판 서비스가 만료되고 작동하지 않습니다. |
-| 도이클란드 Microsoft 클라우드와 전역 서비스 간의 라이선스 기능 Office 365 분석합니다. | Office 365 서비스에는 현재 Microsoft 클라우드 도이치랜드에서 사용할 수 없는 추가 기능 및 서비스가 포함되어 있습니다. 구독을 전송하는 동안 사용자가 새 기능을 사용할 수 있습니다. | <ul><li> 도이클란드 Microsoft 클라우드 및 글로벌 서비스에 대한 라이선스에서 제공하는 다양한 Office 365 분석합니다. Office 365 [플랫폼 서비스 설명으로 시작하세요.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> 사용자 또는 사용자 변경 관리에 대한 영향을 제한하기 위해 Office 365 서비스의 새 기능을 처음에 사용하지 않도록 설정해야 하는지 여부를 결정하고 필요한 경우 사용자 라이선스 할당을 변경합니다. </li><li>사용자 및 지원 센터 직원이 사용자 및 지원 센터 서비스에서 제공하는 새 서비스 및 기능을 Office 365 준비합니다. |
-| 마이그레이션 중 [](https://docs.microsoft.com/microsoft-365/compliance/retention) 콘텐츠를 무단으로 삭제하는 것을 방지하는 조직 전체 보존 정책을 만들 수 있습니다.  |<ul><li>마이그레이션 중에 최종 사용자가 콘텐츠를 부수적으로 삭제하지 않도록 조직 전체 보존 정책을 사용하도록 설정할 수 있습니다. </li><li>보존은 필요하지는 않습니다. 마이그레이션 중에 언제든지 배치되는 보류는 예상대로 작동해야 하기 때문에 보존 정책을 보유하는 것은 백업 안전 메커니즘입니다. 동시에 일부 고객, 특히 보존이 우려되는 고객은 보존 정책을 사용할 수 없습니다.</li></ul>| 보존 정책 및 보존 레이블에 대해 자세히 설명에 [설명된 보존 정책을 적용합니다.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 서비스 또는 클라이언트 소프트웨어의 오류는 9단계 중 4단계 전에 수행되지 않은 경우 발생할 수 있습니다. </li></ul>|
+| 도이클란드 Microsoft 클라우드와 전역 서비스 간의 라이선스 기능 Office 365 분석합니다. | Office 365 서비스에는 현재 Microsoft 클라우드 도이치랜드에서 사용할 수 없는 추가 기능 및 서비스가 포함되어 있습니다. 구독을 전송하는 동안 사용자가 새 기능을 사용할 수 있습니다. | <ul><li> 도이클란드 Microsoft 클라우드 및 글로벌 서비스에 대한 라이선스에서 제공하는 다양한 Office 365 분석합니다. Office 365 [플랫폼 서비스 설명으로 시작하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> 사용자 또는 사용자 변경 관리에 대한 영향을 제한하기 위해 Office 365 서비스의 새 기능을 처음에 사용하지 않도록 설정해야 하는지 여부를 결정하고 필요한 경우 사용자 라이선스 할당을 변경합니다. </li><li>사용자 및 지원 센터 직원이 사용자 및 지원 센터 서비스에서 제공하는 새 서비스 및 기능을 Office 365 준비합니다. |
+| 마이그레이션 중 [](/microsoft-365/compliance/retention) 콘텐츠를 무단으로 삭제하는 것을 방지하는 조직 전체 보존 정책을 만들 수 있습니다.  |<ul><li>마이그레이션 중에 최종 사용자가 콘텐츠를 부수적으로 삭제하지 않도록 조직 전체 보존 정책을 사용하도록 설정할 수 있습니다. </li><li>보존은 필요하지는 않습니다. 마이그레이션 중에 언제든지 배치되는 보류는 예상대로 작동해야 하기 때문에 보존 정책을 보유하는 것은 백업 안전 메커니즘입니다. 동시에 일부 고객, 특히 보존이 우려되는 고객은 보존 정책을 사용할 수 없습니다.</li></ul>| 보존 정책 및 보존 레이블에 대해 자세히 설명에 [설명된 보존 정책을 적용합니다.](/microsoft-365/compliance/retention-policies) 서비스 또는 클라이언트 소프트웨어의 오류는 9단계 중 4단계 전에 수행되지 않은 경우 발생할 수 있습니다. </li></ul>|
 |||||
 
 ## <a name="dns-entries-for-custom-domains"></a>사용자 지정 도메인에 대한 DNS 항목
@@ -131,13 +131,15 @@ Office 365 "Germany" 지역으로 전환하는 테넌트는 모든 사용자가 
 **다음에 적용됩니다.** 활성 하이브리드 구성을 사용하는 Exchange 서버와 Exchange 구성을 사용하는 모든 고객<br>
 **적용된 경우:** 5단계가 시작되기 전의 시간
 
-Enterprise 하이브리드 배포가 있는 Exchange Online 및 Exchange Server HCW(하이브리드 구성 마법사) 및 AAD 커넥트 배포를 실행하여 하이브리드 설정을 유지 관리하고 설정할 수 있습니다. Exchange Online 하이브리드 관리자는 이 전환의 일부로 **HCW(하이브리드** 구성 마법사)를 여러 번 실행해야 합니다. 독일 Microsoft 클라우드에서 Office 365 독일 지역으로 전환할 때 관리자는 Exchange 마이그레이션(5단계)이 시작되기 전에 "Office 365 Germany" 모드에서 HCW의 최신 빌드를 다시 실행해야 합니다. 그런 다음 5단계가 완료된 후 "Office 365 Worldwide" 모드에서 HCW를 다시 실행하여 독일 지역 설정으로 Office 365 배포를 완료합니다. 5단계에서 HCW 실행을 실행하면 안 되고 5단계가 완료될 때까지 HCW를 실행해야 합니다.
-디렉터리 특성은 AAD Office 365 배포를 통해 Office 365 Azure AD 간에 동기화 커넥트. 
+Enterprise 하이브리드 배포가 있는 Exchange Online 및 Exchange Server HCW(하이브리드 구성 마법사) 및 AAD 커넥트 배포를 실행하여 하이브리드 설정을 유지 관리하고 설정할 수 있습니다.
+Exchange Online 하이브리드 관리자는 이 전환의 일부로 **HCW(하이브리드** 구성 마법사)를 여러 번 실행해야 합니다.
+독일 Microsoft 클라우드에서 Office 365 독일 지역으로 전환할 때 관리자는 Exchange 마이그레이션(5단계)이 시작되기 전에 "Office 365 Germany" 모드에서 HCW의 최신 빌드를 다시 실행해야 합니다. 그런 다음 5단계가 완료된 후 "Office 365 Worldwide" 모드에서 HCW를 다시 실행하여 독일 지역 설정으로 Office 365 배포를 완료합니다. 5단계에서 HCW 실행을 실행하면 안 되고 5단계가 완료될 때까지 HCW를 실행해야 합니다.
+디렉터리 특성은 AAD Office 365 배포를 통해 Office 365 Azure AD 간에 동기화 커넥트.
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| 독일 설정을 사용하여 HCW Office 365 다시 실행 <br><br> <i>테넌트 마이그레이션이 시작했다는 메시지 센터 알림을 받은 Office 365 바로 이 활동을 시작할 수 있습니다(1단계).</i>| 5단계 이전의 HCW(17.0.5378.0 이상)를 설치하고 다시 실행하면 Microsoft 클라우드 독일 사용자와 독일 Office 365 지역으로 마이그레이션된 사용자와 함께 메일을 보내고 받을 준비가 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 됩니다. <p><li> In the HCW, for the list box below **My Office 365 organization is hosted by**, select Office 365 **Germany.** | 5단계 [Exchange 마이그레이션]이 시작되기 전에 이 작업을 완료하지 못하면 메일에 대한 NDRs가 Exchange 배포 및 Office 365.  
-| 공유 사서함 설정 보존 | 일부 하이브리드 고객은 클라우드 사용자 사서함을 클라우드 명령을 사용하여 '공유' 사서함으로 Exchange Online 있습니다. 이 클라우드 사서함 구성은 사서함 및 로컬 Exchange Online 디렉터리에 기록됩니다. 그러나 AAD 사서함을 통해 고객의 Active Directory에 다시 동기화되지 커넥트. 그 결과 RemoteRecipientType 및 RemoteDisplayType 값의 Active Directory 표현과 사서함을 공유로 Exchange Online 간의 불일치가 있습니다. <br><br> 고객은 , 또는 를 사용하여 모든 공유 사서함이 제대로 프로비전되었는지 `New-RemoteMailbox -Shared` `Enable-RemoteMailbox -Shared` `Set-RemoteMailbox -Shared` 확인합니다.  하이브리드 환경에서 사용자 사서함을 변환하는 방법에 대한 자세한 내용은 이 [참조를 참조합니다.](/microsoft-365/admin/email/convert-user-mailbox-to-shared-mailbox?view=o365-worldwide)| 5단계 [Exchange Online 마이그레이션] 전에 이 작업을 완료하지 못하면 공유 사서함에 대한 NDRs가 사용이 허용되지 않은 사서함으로 다시 변환되어 영향을 받는 사서함에 대한 공유 액세스가 손실될 수 있습니다. [공유 사서함은](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes) Exchange 하이브리드 배포에서 디렉터리 동기화가 실행된 후 사용자 사서함으로 예기치 않게 변환됩니다. 마이그레이션이 완료되기 전에 이 문제를 Exchange Online 설명합니다.  
+| 독일 설정을 사용하여 HCW Office 365 다시 실행 <br><br> <i>테넌트 마이그레이션이 시작했다는 메시지 센터 알림을 받은 Office 365 바로 이 활동을 시작할 수 있습니다(1단계).</i>| 5단계 이전의 HCW(17.0.5378.0 이상)를 설치하고 다시 실행하면 Microsoft 클라우드 독일 사용자와 독일 Office 365 지역으로 마이그레이션된 사용자와 함께 메일을 보내고 받을 준비가 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 됩니다. <p><li> In the HCW, for the list box below **My Office 365 organization is hosted by**, select Office 365 **Germany.** | 5단계 [Exchange 마이그레이션]이 시작되기 전에 이 작업을 완료하지 못하면 메일에 대한 NDRs가 Exchange 배포 및 Office 365.
+| 공유 사서함 설정 보존 | 일부 하이브리드 고객은 클라우드 사용자 사서함을 클라우드 명령을 사용하여 '공유' 사서함으로 Exchange Online 있습니다. 이 클라우드 사서함 구성은 사서함 및 로컬 Exchange Online 디렉터리에 기록됩니다. 그러나 AAD 사서함을 통해 고객의 Active Directory에 다시 동기화되지 커넥트. 그 결과 RemoteRecipientType 및 RemoteDisplayType 값의 Active Directory 표현과 사서함을 공유로 Exchange Online 간의 불일치가 있습니다. <br><br> 고객은 , 또는 를 사용하여 모든 공유 사서함이 제대로 프로비전되었는지 `New-RemoteMailbox -Shared` `Enable-RemoteMailbox -Shared` `Set-RemoteMailbox -Shared` 확인합니다.  하이브리드 환경에서 사용자 사서함을 변환하는 방법에 대한 자세한 내용은 이 [참조를 참조합니다.](/microsoft-365/admin/email/convert-user-mailbox-to-shared-mailbox?view=o365-worldwide)| 5단계 [Exchange Online 마이그레이션] 전에 이 작업을 완료하지 못하면 공유 사서함에 대한 NDRs가 사용이 허용되지 않은 사서함으로 다시 변환되어 영향을 받는 사서함에 대한 공유 액세스가 손실될 수 있습니다. [공유 사서함은](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes) Exchange 하이브리드 배포에서 디렉터리 동기화가 실행된 후 사용자 사서함으로 예기치 않게 변환됩니다. 마이그레이션이 완료되기 전에 이 문제를 Exchange Online 설명합니다.
 ||||
 
 ## <a name="skype-for-business-online"></a>비즈니스용 Skype Online
@@ -203,7 +205,7 @@ Microsoft 클라우드 Azure Active Directory 및 Office 365 Microsoft Azure 동
 > [!NOTE]
 > Microsoft Azure 테넌트가 마이그레이션 단계 9에 도달하기 전에 Office 365 서비스 마이그레이션이 시작되지 않을 수 있으며 마이그레이션 단계 10이 시작되기 전에 완료해야 합니다.
 
-네트워크, Office 365 및 Azure 리소스(예: 네트워킹, 계산 및 저장소)를 사용하는 고객은 리소스의 마이그레이션을 Office 365 서비스 인스턴스로 마이그레이션합니다. 이 마이그레이션은 고객의 책임입니다. 메시지 센터 게시물에 시작 신호가 표시됩니다. 마이그레이션은 서비스 환경에서 Azure AD 조직을 완료하기 Office 365 합니다. Azure 마이그레이션의 경우 Azure 마이그레이션 플레이북, Azure Germany에 대한 마이그레이션 [지침 개요를 참조하세요.](https://docs.microsoft.com/azure/germany/germany-migration-main)
+네트워크, Office 365 및 Azure 리소스(예: 네트워킹, 계산 및 저장소)를 사용하는 고객은 리소스의 마이그레이션을 Office 365 서비스 인스턴스로 마이그레이션합니다. 이 마이그레이션은 고객의 책임입니다. 메시지 센터 게시물에 시작 신호가 표시됩니다. 마이그레이션은 서비스 환경에서 Azure AD 조직을 완료하기 Office 365 합니다. Azure 마이그레이션의 경우 Azure 마이그레이션 플레이북, Azure Germany에 대한 마이그레이션 [지침 개요를 참조하세요.](/azure/germany/germany-migration-main)
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
@@ -215,15 +217,15 @@ Reworked as text:
 
 **Step:** Determine which Azure services are in use and prepare for future migration from Germany to the Office 365 services tenant by working with your partners. Follow the steps described in the [Azure migration playbook](/azure/germany/germany-migration-main).
 
-**Description:** Migration of Azure resources is a customer responsibility and requires manual effort following prescribed steps. Understanding what services are in use in the organization is key to successful migration of Azure services. 
+**Description:** Migration of Azure resources is a customer responsibility and requires manual effort following prescribed steps. Understanding what services are in use in the organization is key to successful migration of Azure services.
 
 Office 365 Germany customers who have Azure subscriptions under the same identity partition (organization) must follow the Microsoft-prescribed order when they can begin subscription and services migration.
 
 **Applies to:** Azure Customers
 
-**Impact:** 
+**Impact:**
 
-- Customers may have multiple Azure subscriptions, each subscription containing infrastructure, services, and platform components. 
+- Customers may have multiple Azure subscriptions, each subscription containing infrastructure, services, and platform components.
 - Administrators should identify subscriptions and stakeholders to ensure prompt migration and validation is possible as part of this migration event.
 
   Failing to successfully complete migration of these subscriptions and Azure components within the prescribed timeline will affect completion of the Office and Azure AD transition to Office 365 services and may result in data loss.

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 018bc3549cd7a25df5bdd86d98d351e19027c31f
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: fba74990d8e4465f957acda83e66e1dc43a317e8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796033"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841189"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -68,7 +68,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
         - CdRomDevices
     - DeviceId
     - HardwareId
-    - InstancePathId: InstancePathId는 시스템에서 장치를 고유하게 식별하는 문자열입니다(예: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&). 끝에 있는 **숫자(예:**&0)는 사용 가능한 슬롯을 나타내며 장치에서 장치로 변경될 수 있습니다. 최상의 결과를 얻기 위해 끝에 와일드카드를 사용 합니다. 예를 들어 USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
+    - InstancePathId: InstancePathId는 시스템에서 장치를 고유하게 식별하는 문자열입니다(예: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&). 끝에 있는 번호(예:&**0)는** 사용 가능한 슬롯을 나타내며 디바이스에서 장치로 변경될 수 있습니다. 최상의 결과를 얻기 위해 끝에 와일드카드를 사용 합니다. 예를 들어 USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
     - FriendlyNameId
     - SerialNumberId
     - VID
@@ -196,7 +196,7 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 
 ### <a name="licensing"></a>라이선싱
 
-이동식 액세스 제어를 Storage 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 제어에 액세스하고 Storage 액세스 제어가 있어야 Microsoft 365 E3.
+이동식 액세스 제어를 Storage 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 Storage 액세스 제어에 액세스하고 사용하려면 액세스 Microsoft 365 E3 또는 Microsoft 365 E5.
 
 ### <a name="deploying-policy-via-group-policy"></a>그룹 정책을 통해 정책 배포
 
@@ -226,7 +226,7 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 
 ### <a name="licensing"></a>라이선싱
 
-이동식 액세스 제어를 Storage 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 제어에 액세스하고 Storage 액세스 제어가 있어야 Microsoft 365 E3.
+이동식 액세스 제어를 Storage 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 Storage 액세스 제어에 액세스하고 사용하려면 액세스 Microsoft 365 E3 또는 Microsoft 365 E5.
 
 ### <a name="permission"></a>사용 권한
 
@@ -265,11 +265,11 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 
     - 데이터 형식: 문자열(XML 파일)
 
-      :::image type="content" source="images/xml-data-type-string-2.png" alt-text="STRING 데이터 형식에 대한 XML 파일 표시":::
+      :::image type="content" source="images/xml-data-type-string-2.png" lightbox="images/xml-data-type-string-2.png" alt-text="STRING 데이터 형식에 대한 XML 파일 표시":::
 
 ## <a name="deploying-and-managing-policy-by-using-intune-user-interface"></a>Intune 사용자 인터페이스를 사용하여 정책 배포 및 관리
 
-이 기능은 아직 사용할 수 없습니다. 
+이 기능(Microsoft Endpoint Manager 관리 센터( https://endpoint.microsoft.com/) > Devices > Configuration profiles > Create profile > Platform: Windows 10 and later & Profile: Device Control)은 아직 사용할 수 없습니다. 
 
 ## <a name="view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 장치 Storage 이동식 액세스 제어 데이터 보기
 
@@ -277,7 +277,7 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 
 - Microsoft 365 E5 보고용 보고서
 
-```
+```kusto
 //events triggered by RemovableStoragePolicyTriggered
 DeviceEvents
 | where ActionType == &quot;RemovableStoragePolicyTriggered&quot; 

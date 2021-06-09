@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ba48adcf93c5b768b2280729b33a1a7d361919cb
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1f189956d65e6d08d8e00272ba0d8db3ba59f6d4
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074231"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844083"
 ---
-# <a name="take-response-actions-on-a-file"></a>파일에 대한 응답 작업 수행
+# <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -60,20 +60,20 @@ ms.locfileid: "51074231"
 
 역할에 대한 자세한 내용은 역할 기반 액세스 제어에 대한 역할 [만들기 및 관리를 참조하세요.](user-roles.md)
 
-## <a name="stop-and-quarantine-files-in-your-network"></a>네트워크에서 파일 중지 및 검지
+## <a name="stop-and-quarantine-files-in-your-network"></a>네트워크에서 파일 중지 및 격리
 
 악의적인 프로세스를 중지하고 파일이 관찰된 파일을 대리하여 조직에서 공격을 포함할 수 있습니다.
 
 > [!IMPORTANT]
 > 이 작업은 다음의 경우만 취할 수 있습니다.
 >
-> - 작업을 수행 중인 디바이스가 Windows 10 버전 1703 이상을 실행하고 있습니다.
+> - 작업을 수행 중인 장치가 버전 1703 이상에서 Windows 10 실행 중입니다.
 > - 파일이 신뢰할 수 있는 타사 게시자에 속하지 않는 경우 또는 Microsoft에서 서명하지 않은 경우
-> - Microsoft Defender 바이러스 백신은 적어도 수동 모드에서 실행해야 합니다. 자세한 내용은 [Microsoft Defender 바이러스 백신 호환성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+> - Microsoft Defender 바이러스 백신 수동 모드에서 실행해야 합니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
 파일 중지 및 **Quarantine 작업으로는** 실행 중인 프로세스를 중지하고, 파일을 검지하고, 레지스트리 키와 같은 영구 데이터를 삭제하는 작업이 포함됩니다.
 
-이 작업은 지난 30일 동안 파일이 관찰된 Windows 10 버전 1703 이상이 있는 디바이스에 적용됩니다.
+이 작업은 지난 30일 동안 Windows 10 버전 1703 이상이 있는 장치에 적용됩니다.
 
 > [!NOTE]
 > 파일을 무단으로 복원할 수 있습니다.
@@ -116,7 +116,7 @@ ms.locfileid: "51074231"
 
 조직 전체에서 널리 사용되는 파일에 대한 작업을 구현하기 전에 경고가 표시됩니다. 작업이 의도된지 유효성을 검사하는 것입니다.
 
-## <a name="restore-file-from-quarantine"></a>파일 복구(quarantine)에서 파일 복원
+## <a name="restore-file-from-quarantine"></a>격리로부터 파일 복원
 
 조사 후에 파일이 정리된 것으로 판단되면 파일을 롤백하고 검지에서 제거할 수 있습니다. 파일이 중단된 각 디바이스에서 다음 명령을 실행합니다.
 
@@ -142,7 +142,7 @@ ms.locfileid: "51074231"
 
 ## <a name="download-or-collect-file"></a>파일 다운로드 또는 수집
 
-응답 **작업에서 파일** 다운로드를 선택하면 파일이 포함된 암호로 보호된 로컬 .zip 보관 파일을 다운로드할 수 있습니다. 파일을 다운로드하는 이유를 기록하고 암호를 설정할 수 있는 플라이아웃이 나타납니다.
+응답 **작업에서** 파일 다운로드를 선택하면 파일이 포함된 로컬 암호로 보호된 .zip 다운로드할 수 있습니다. 파일을 다운로드하는 이유를 기록하고 암호를 설정할 수 있는 플라이아웃이 나타납니다.
 
 기본적으로는 검지된 파일을 다운로드할 수 없습니다.
 
@@ -160,11 +160,11 @@ ms.locfileid: "51074231"
 
 > [!IMPORTANT]
 >
-> - 조직에서 Microsoft Defender 바이러스 백신을 사용하며 클라우드 제공 보호를 사용하는 경우 이 기능을 사용할 수 있습니다. 자세한 내용은 클라우드 제공 [보호 관리를 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+> - 조직에서 클라우드 제공 보호를 사용하도록 설정하고 Microsoft Defender 바이러스 백신 기능을 사용하는 경우 이 기능을 사용할 수 있습니다. 자세한 내용은 클라우드 제공 [보호 관리를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 >
 > - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
-> - 이 기능은 의심되는 맬웨어(또는 악성 파일)가 웹에서 다운로드되지 않도록 디자인되었습니다. 현재 _.exe_ 및 _.dll_ 파일을 비롯한 PE(이식 가능한 실행 파일) 파일을 지원하고 있습니다. 적용 범위는 시간이 지날 때 연장됩니다.
-> - 이 응답 작업은 Windows 10 버전 1703 이상 디바이스에서 사용할 수 있습니다.
+> - 이 기능은 의심되는 맬웨어(또는 악성 파일)가 웹에서 다운로드되지 않도록 디자인되었습니다. 현재 이식 가능한 PE(이식 가능한 실행 파일) 파일을.exe _.dll_ _있습니다._ 적용 범위는 시간이 지날 때 연장됩니다.
+> - 이 응답 작업은 버전 1703 Windows 10 장치에 사용할 수 있습니다.
 > - 허용 또는 차단 작업 전에 파일의 분류가 디바이스 캐시에 있는 경우 파일에서 허용 또는 차단 기능을 사용할 수 없습니다.
 
 > [!NOTE]
@@ -174,7 +174,7 @@ ms.locfileid: "51074231"
 
 ### <a name="enable-the-block-file-feature"></a>파일 차단 기능 사용
 
-파일 차단을 시작하려면 먼저 설정에서 차단 또는 허용 [기능을 켜야  ](advanced-features.md) 합니다.
+파일 차단을 시작하려면 먼저 [  ](advanced-features.md) 차단 또는 허용 기능을 설정해야 설정.
 ### <a name="allow-or-block-file"></a>파일 허용 또는 차단
 
 파일에 대한 표시기 해시를 추가할 때 조직의 장치가 파일을 실행하려고 할 때마다 경고를 발생하고 파일을 차단할 수 있습니다.
@@ -185,15 +185,15 @@ ms.locfileid: "51074231"
 
 파일 차단을 중지하려면 표시기를 제거합니다. 파일의 프로필 페이지에서  표시기 편집 작업을 통해 이 작업을 할 수 있습니다. 이 작업은 표시기를 추가하기 전에  지표 추가 작업과 동일한 위치에 표시됩니다.
 
-설정 페이지의 규칙 표시기  에서 **표시기를**  >  **편집할 수도 있습니다.** 표시기는 파일의 해시에 의해 이 영역에 나열됩니다.
+규칙 표시기 **의** 설정 **표시기를**  >  **편집할 수도 있습니다.** 표시기는 파일의 해시에 의해 이 영역에 나열됩니다.
 
 ## <a name="consult-a-threat-expert"></a>위협 전문가에게 문의
 
-잠재적으로 손상된 장치 또는 이미 손상된 장치에 대한 자세한 내용은 Microsoft 위협 전문가에게 문의하세요. Microsoft 위협 전문가는 시기적용하고 정확한 대응을 위해 Microsoft Defender 보안 센터 내에서 직접 참여합니다. 전문가는 잠재적으로 손상된 장치에 대한 인사이트를 제공하고 복잡한 위협 및 대상 공격 알림을 이해하는 데 도움이 됩니다. 또한 포털 대시보드에서 경고 또는 위협 인텔리전스 컨텍스트에 대한 정보를 제공할 수 있습니다.
+잠재적으로 손상된 장치 또는 이미 손상된 장치에 대한 자세한 내용은 Microsoft 위협 전문가에게 문의하세요. Microsoft 위협 전문가 정확한 응답을 위해 Microsoft Defender 보안 센터 내에서 직접 연결됩니다. 전문가는 잠재적으로 손상된 장치에 대한 인사이트를 제공하고 복잡한 위협 및 대상 공격 알림을 이해하는 데 도움이 됩니다. 또한 포털 대시보드에서 경고 또는 위협 인텔리전스 컨텍스트에 대한 정보를 제공할 수 있습니다.
 
-자세한 [내용은 Microsoft Threat Expert를](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) 참조합니다.
+자세한 [내용은 Microsoft Threat Expert를](/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) 참조합니다.
 
-## <a name="check-activity-details-in-action-center"></a>작업 센터에서 활동 세부 정보 확인
+## <a name="check-activity-details-in-action-center"></a>알림 센터에서 활동 세부 정보 확인
 
 관리 **센터는** 장치 또는 파일에서 수행된 작업에 대한 정보를 제공합니다. 다음 세부 정보를 볼 수 있습니다.
 
@@ -211,7 +211,7 @@ ms.locfileid: "51074231"
 사이버 보안 조사는 일반적으로 경고에 의해 트리거됩니다. 경고는 종종 신규 또는 알 수 없는 관찰된 하나 이상의 파일과 관련이 있습니다. 파일을 선택하면 파일의 메타데이터를 볼 수 있는 파일 보기로 연결됩니다. 파일과 관련된 데이터를 보강하기 위해 심층 분석을 위해 파일을 제출할 수 있습니다.
 
 심층 분석 기능은 완전하게 계측된 안전한 클라우드 환경에서 파일을 실행합니다. 심층 분석 결과에는 파일의 활동, 관찰된 동작 및 연결된 아티팩트(예: 삭제된 파일, 레지스트리 수정, IP와의 통신)가 표시됩니다.
-심층 분석은 현재 PE(이식 가능한 실행 파일) _파일(.exe_ 및 _.dll_ 파일 포함)에 대한 광범위한 분석을 지원하고 있습니다.
+현재 심층 분석은 PE(이식 가능한 실행 파일) 파일(파일 및 파일 _포함)에_ 대한 광범위한.exe _.dll_ 지원됩니다.
 
 파일을 심층 분석하는 데 몇 분 정도 걸립니다. 파일 분석이 완료되면 심층 분석 탭이 업데이트되어 사용 가능한 최신 결과의 요약과 날짜 및 시간이 표시됩니다.
 
@@ -224,12 +224,12 @@ ms.locfileid: "51074231"
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4aAYy?rel=0]
 
- 파일을 Endpoint 백 엔드용 Defender 샘플 컬렉션에서 사용할 수 있는 경우 또는 심층 분석 제출을 지원하는 Windows 10 장치에서 파일을 관찰한 경우 심층 분석을 위한 제출이 활성화됩니다.
+ 파일을 Endpoint 백 엔드용 Defender 샘플 컬렉션에서 사용할 수 있는 경우 또는 심층 분석 제출을 지원하는 Windows 10 장치에서 파일을 관찰한 경우 심층 분석을 위한 제출을 사용할 수 있습니다.
 
 > [!NOTE]
-> Windows 10의 파일만 자동으로 수집할 수 있습니다.
+> 모든 파일의 Windows 10 자동으로 수집할 수 있습니다.
 
-Windows 10 장치에서 파일이 관찰되지 않은 경우 [Microsoft 보안](https://www.microsoft.com/security/portal/submission/submit.aspx) 센터 포털을 통해 샘플을  제출하고 심층 분석 단추가 제공될 때까지 기다릴 수 있습니다.
+파일에서 파일이 관찰되지 않은 경우 [Microsoft](https://www.microsoft.com/security/portal/submission/submit.aspx) 보안 센터 포털을 통해 샘플을 제출할 Windows 10  심층 분석 단추가 제공될 때까지 기다릴 수 있습니다.
 
 > [!NOTE]
 > Microsoft 보안 센터 포털의 백 엔드 처리 흐름으로 인해 파일 전송과 Endpoint용 Defender의 심층 분석 기능 가용성 사이에 최대 10분이 지연될 수 있습니다.
@@ -249,12 +249,12 @@ Windows 10 장치에서 파일이 관찰되지 않은 경우 [Microsoft 보안](
    ![파일 세부 정보 섹션에서만 PE 파일을 제출할 수 있습니다.](images/submit-file.png)
 
    > [!NOTE]
-   > _.exe_ 및 _.dll_ 파일을 포함하여 PE 파일만 지원됩니다.
+   > PE 파일만 _지원됩니다(파일_ 및.exe _.dll_ 포함).
 
 진행률 표시줄이 표시되고 다양한 분석 단계에 대한 정보를 제공합니다. 그런 다음 분석이 완료되면 보고서를 볼 수 있습니다.
 
 > [!NOTE]
-> 디바이스 가용성에 따라 샘플 수집 시간이 다를 수 있습니다. 샘플 수집에는 3시간의 시간 제한이 있습니다. 이때 온라인 Windows 10 장치 보고가 없는 경우 컬렉션이 실패하고 작업이 다시 시작됩니다. 심층 분석을 위해 파일을 다시 제출하여 파일에 대한 새 데이터를 얻을 수 있습니다.
+> 디바이스 가용성에 따라 샘플 수집 시간이 다를 수 있습니다. 샘플 수집에는 3시간의 시간 제한이 있습니다. 이때 장치 보고를 위해 온라인 Windows 10 컬렉션이 실패하고 작업이 다시 표시됩니다. 심층 분석을 위해 파일을 다시 제출하여 파일에 대한 새 데이터를 얻을 수 있습니다.
 
 ### <a name="view-deep-analysis-reports"></a>심층 분석 보고서 보기
 
@@ -276,7 +276,7 @@ Windows 10 장치에서 파일이 관찰되지 않은 경우 [Microsoft 보안](
 
 파일을 제출할 때 문제가 발생하면 다음 문제 해결 단계를 각각 시도해 하세요.
 
-1. 해당 파일이 PE 파일인지 확인 PE 파일에는 _일반적으로 .exe_ 또는 _.dll_ 확장명(실행 프로그램 또는 응용 프로그램)이 있습니다.
+1. 해당 파일이 PE 파일인지 확인 PE 파일에는 일반적으로 _.exe_ 또는.dll확장명(실행 프로그램 또는 응용 프로그램)이 있습니다. 
 2. 서비스에 파일에 대한 액세스 권한이 있으며, 파일이 여전히 존재하며, 손상되거나 수정되지 않은지 확인
 3. 잠시 기다렸다가 파일을 다시 제출합니다. 큐가 가득 차거나 일시적인 연결 또는 통신 오류가 발생했습니다.
 4. 샘플 수집 정책이 구성되지 않은 경우 기본 동작은 샘플 수집을 허용하는 것입니다. 구성된 경우 파일을 다시 제출하기 전에 정책 설정에서 샘플 수집을 허용하는지 확인해야 합니다. 샘플 컬렉션이 구성되면 다음 레지스트리 값을 검사합니다.
@@ -295,5 +295,5 @@ Windows 10 장치에서 파일이 관찰되지 않은 경우 [Microsoft 보안](
 
 ## <a name="related-topics"></a>관련 항목
 
-- [디바이스에서 응답 작업 수행](respond-machine-alerts.md)
+- [장치에 대해 대응 조치 실행](respond-machine-alerts.md)
 - [파일 조사](investigate-files.md)

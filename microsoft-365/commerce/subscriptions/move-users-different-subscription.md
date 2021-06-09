@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: 구독 간에 사용자를 이동하는 방법을 학습합니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 0261ee15d16e895cb2552320097d8e6b396d5220
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 96ae6a589469004f2479edb2a4f8ed384b25f841
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333209"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822084"
 ---
 # <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
@@ -39,19 +39,19 @@ ms.locfileid: "52333209"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 

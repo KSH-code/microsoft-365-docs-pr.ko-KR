@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47211e187d1f9f883745f008c6d94d04ee762e98
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: a16e3eb8f6f7eae9fbaa82c9fd978f4fef429818
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302067"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822325"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -57,15 +57,15 @@ ms.locfileid: "52302067"
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-이 기능을 사용해 보기 전에 다음 요구 사항이 있는지 확인합니다.
+이 기능을 시도하기 전에 다음 요구 사항을 충족하는지 확인합니다.
 
 - Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 끝점용 Microsoft Defender 독립 실행형 라이선스. 
 - Microsoft Defender 보안 센터 포털에 https://securitycenter.windows.com) 액세스합니다( .
-- 최신 moCAMP Windows 10 1주년 업데이트(버전 1607) 이상을 실행하는 장치.
+- 최신 Microsoft Defender Windows 10 업데이트가 있는 1주년 업데이트(버전 1607) 이상을 실행하는 장치.
 
 ## <a name="data-handling"></a>데이터 처리
 
-Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하기로 선택한 [지역을 따를 것입니다.](data-storage-privacy.md) 데이터가 데이터 센터에서 나가지 않습니다. 또한 데이터 공급자를 포함하여 모든 타사와 귀하의 데이터가 공유되지 않습니다.
+데이터는 끝점 데이터 처리 설정에 대한 [Microsoft Defender의 일부로 선택된 지역에 저장됩니다.](data-storage-privacy.md) 데이터가 데이터 센터에서 나가지 않습니다. 또한 데이터 공급자를 포함하여 모든 타사와 귀하의 데이터가 공유되지 않습니다.
 
 ## <a name="turn-on-web-content-filtering"></a>웹 콘텐츠 필터링 켜기
 
@@ -91,14 +91,10 @@ Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하�
 
 5. 요약을 검토하고 정책을 저장합니다. 선택한 장치에 정책 새로 고침을 적용하는 데 최대 2시간이 걸릴 수 있습니다.
 
-> [!TIP]
-> 장치 그룹에서 범주를 선택하지 않고 정책을 배포할 수 있습니다. 이 작업은 차단 정책을 만들기 전에 사용자 동작을 이해하는 데 도움이 되는 감사 전용 정책을 생성합니다.
-
->[!NOTE]
->정책을 제거하거나 장치 그룹을 동시에 변경하는 경우 정책 배포가 지연될 수 있습니다.
-
->[!IMPORTANT]
->"분류되지 않은" 범주를 차단하면 예기치 않게 원치 않는 결과가 발생할 수 있습니다.  
+> [!NOTE]
+> - 장치 그룹에서 범주를 선택하지 않고 정책을 배포할 수 있습니다. 이 작업은 차단 정책을 만들기 전에 사용자 동작을 이해하는 데 도움이 되는 감사 전용 정책을 생성합니다.
+> - 정책을 제거하거나 장치 그룹을 동시에 변경하는 경우 정책 배포가 지연될 수 있습니다.
+> - "분류되지 않은" 범주를 차단하면 예기치 않게 원치 않는 결과가 발생할 수 있습니다.  
 
 ### <a name="allow-specific-websites"></a>특정 웹 사이트 허용
 
@@ -120,7 +116,7 @@ Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하�
 
 ## <a name="web-content-filtering-cards-and-details"></a>웹 콘텐츠 필터링 카드 및 세부 정보
 
-웹 **> 필터링** 및 웹 위협 방지에 대한 정보가 있는 카드를 표시하려면 보고서 웹 보호를 선택합니다. 다음 카드는 웹 콘텐츠 필터링에 대한 요약 정보를 제공합니다.
+웹 **콘텐츠** 필터링 및 웹 위협 방지에 대한 정보가 있는 카드를 표시하려면 보고서 웹  >   보호를 선택합니다. 다음 카드는 웹 콘텐츠 필터링에 대한 요약 정보를 제공합니다.
 
 ### <a name="web-activity-by-category"></a>범주별 웹 활동
 
@@ -166,9 +162,4 @@ Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하�
 
 - 웹 콘텐츠 필터링 보고서는 현재 상위 5,000개 레코드를 표시하는 것으로 제한됩니다. 예를 들어 도메인 보고서에는 해당되는 경우 지정한 필터 쿼리에 대해 상위 5,000개 도메인만 표시됩니다. 
 
-## <a name="related-topics"></a>관련 항목
 
-- [웹 보호 개요](web-protection-overview.md)
-- [웹 위협 방지](web-threat-protection.md)
-- [웹 보안 모니터링](web-protection-monitoring.md)
-- [웹 위협에 대응](web-protection-response.md)

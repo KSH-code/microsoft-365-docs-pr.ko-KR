@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 TELUS 네트워크의 SMS 데이터를 가져오고 보관할 수 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 13ac3306d2541f5bc7393152abb6cefb5a11123e
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+ms.openlocfilehash: d5a0875b34c8dca06ac2a81dc33ce1ba44a62671
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52077352"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822180"
 ---
 # <a name="set-up-a-connector-to-archive-telus-network-data"></a>TELUS 네트워크 데이터를 보관할 커넥터 설정
 
@@ -41,7 +41,7 @@ Microsoft 365 규정 준수 센터의 TeleMessage 커넥터를 사용하여 조�
 
    사용자의 전자 메일 주소 속성 값을  사용하는 자동 사용자 매핑 외에도 CSV 매핑 파일을 업로드하여 사용자 지정 매핑을 구현할 수도 있습니다. 이 매핑 파일에는 조직의 사용자에 대한 휴대폰 번호와 Microsoft 365 전자 메일 주소가 포함되어 있습니다. 자동 사용자 매핑과 사용자 지정 매핑을 모두 사용하도록 설정하면 커넥터가 모든 TELUS 항목에 대해 먼저 사용자 지정 매핑 파일을 룩합니다. 사용자의 휴대폰 번호에 해당하는 유효한 Microsoft 365 사용자가 없는 경우 커넥터는 가져오려고 하는 항목의 전자 메일 주소 속성에 있는 값을 사용합니다. 커넥터가 사용자 지정 매핑 파일 또는 Microsoft 365 TELUS 항목의 전자 메일 주소 속성에서 유효한 사용자 지정 사용자를 찾지 못하면 항목을 가져오지 않습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-set-up-a-connector"></a>커넥터를 설정하기 전에
 
 TELUS 네트워크 데이터를 보관하는 데 필요한 일부 구현 단계는 Microsoft 365 외부에 있으며 준수 센터에서 커넥터를 만들기 전에 완료해야 합니다.
 
@@ -54,6 +54,8 @@ TELUS 네트워크 데이터를 보관하는 데 필요한 일부 구현 단계�
 - 직원은TELUS 모바일 네트워크에 회사 소유 휴대폰 및 회사 소유 휴대폰이 있어야 합니다. 직원 소유의 Microsoft 365 또는 BYOD(Bring Your Own Devices) 디바이스에서는 보관 메시지를 사용할 수 없습니다.
 
 - TELUS 네트워크 커넥터를 만드는 사용자에게 TELUS 네트워크 커넥터의 사서함 가져오기 내보내기 역할이 할당되어야 Exchange Online. 준수 센터의 데이터 커넥터  페이지에서 커넥터를 추가하려면 Microsoft 365 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
+
+- 이 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 사용할 수 있습니다. 타사 응용 프로그램 및 서비스는 Microsoft 365 인프라 외부에 있는 타사 시스템에서 조직의 고객 데이터를 저장, 전송 및 처리해야 할 수 있으므로 Microsoft 365 및 데이터 보호 약정의 적용을 Microsoft 365 수 있습니다. Microsoft는 타사 응용 프로그램에 연결하는 데 이 제품을 사용하는 것은 해당 타사 응용 프로그램이 FEDRAMP 규격임을 암시하는 표현을 사용하지 않습니다.
 
 ## <a name="create-a-telus-network-connector"></a>TELUS 네트워크 커넥터 만들기
 

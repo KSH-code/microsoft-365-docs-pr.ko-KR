@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e653ff84602a5e5546ef9a4c0aca2559b77e43c1
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 7c1f768e69fa65c76529e641f095e13fc7ad67c8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683514"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841343"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Microsoft Managed Desktop 기술
 
@@ -52,8 +52,8 @@ Microsoft 365 손실 방지 | 중요한 Microsoft 365 항목에 대해 수행되
  |
  --- | ---
 BitLocker 드라이브 암호화 | BitLocker 드라이브 암호화는 모든 시스템 드라이브를 암호화하는 데 사용됩니다. 자세한 내용은 드라이브 암호화 [BitLocker 참조하세요.](/windows/security/information-protection/bitlocker/bitlocker-overview)
-Windows Defender System Guard | 시작할 때 시스템의 무결성을 보호하고 시스템 무결성이 참으로 유지 관리되고 있는지 유효성을 검사합니다. 자세한 내용은 System [Guard Windows Defender 참조하세요.]( https://docs.microsoft.com/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
-Windows Defender Credential Guard | Windows Defender Credential Guard 시스템 소프트웨어만 액세스할 수 있도록 가상화 기반 보안을 사용하여 비밀을 격리합니다. 자세한 내용은 System [Guard Windows Defender 참조하세요.]( https://docs.microsoft.com/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
+Windows Defender System Guard | 시작할 때 시스템의 무결성을 보호하고 시스템 무결성이 참으로 유지 관리되고 있는지 유효성을 검사합니다. 자세한 내용은 System [Guard Windows Defender 참조하세요.](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
+Windows Defender Credential Guard | Windows Defender Credential Guard 시스템 소프트웨어만 액세스할 수 있도록 가상화 기반 보안을 사용하여 비밀을 격리합니다. 자세한 내용은 System [Guard Windows Defender 참조하세요.](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
 끝점용 Microsoft Defender - 끝점 감지 및 응답 | Microsoft Managed Desktop 보안 운영은 경고에 응답하고 끝점 감지 및 응답을 사용하여 위협을 수정하기 위한 조치를 취합니다. 자세한 내용은 [끝점용 Microsoft Defender - 끝점 검색 및 응답을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)
 끝점용 Microsoft Defender - 위협 전문가 | Microsoft Managed Desktop 공격 알림을 통해 위협 전문가의 인사이트 및 데이터와 통합됩니다. 이 서비스를 사용하도록 설정하기 전에 추가 동의를 제공해야 합니다. 자세한 내용은 [Endpoint용 Microsoft Defender - 위협 전문가를 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)
 끝점용 Microsoft Defender - 위협 및 취약성 관리 | 서비스 계획의 향후 사용에 Microsoft Managed Desktop 필요합니다. 자세한 내용은 [끝점용 Microsoft Defender - 위협 및 취약성 관리를 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
@@ -61,7 +61,7 @@ Windows Defender Credential Guard | Windows Defender Credential Guard 시스템 
 끝점용 Microsoft Defender - Exploit Protection | 악용을 사용하여 장치를 감염하고 악용 완화 기술을 운영 체제 프로세스와 앱에 자동으로 적용하여 확산되는 맬웨어로부터 보호합니다. 자세한 내용은 [끝점용 Microsoft Defender - Exploit Protection을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/exploit-protection)
 끝점용 Microsoft Defender - 네트워크 보호 | 네트워크 보호는 신뢰도 Microsoft Defender SmartScreen 연결을 시도하는 모든 아웃바운드 HTTP 및 HTTPS 트래픽을 차단하기 위해 네트워크 보호 범위를 확장합니다. 자세한 내용은 [끝점용 Microsoft Defender - 네트워크 보호를 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/network-protection)
 Microsoft Defender 변조 보호 | Windows 변조 보호는 바이러스 백신 보호와 같은 보안 설정이 변경되지 않도록 하는 데 사용됩니다. 자세한 내용은 [Microsoft Defender 변조 보호를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/prevent-changes-to-security-settings-with-tamper-protection)
-Microsoft Defender 바이러스 백신 동작 기반,추론적 및 실시간 바이러스 백신 보호 | 맬웨어로 검색되지 않을 수 있는 파일 및 프로세스 위협을 항상 검사합니다. 자세한 내용은 동작 기반, Microsoft Defender 바이러스 백신 및 실시간 바이러스 백신 보호를 [참조하세요.]( https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
+Microsoft Defender 바이러스 백신 동작 기반,추론적 및 실시간 바이러스 백신 보호 | 맬웨어로 검색되지 않을 수 있는 파일 및 프로세스 위협을 항상 검사합니다. 자세한 내용은 동작 기반, Microsoft Defender 바이러스 백신 및 실시간 바이러스 백신 보호를 [참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
 Microsoft Defender 바이러스 백신 클라우드 제공 보호 | 새로운 위협과 새로운 위협에 대해 거의 즉각적이고 자동화된 동적 보호 기능을 제공합니다. 자세한 내용은 클라우드 [제공 Microsoft Defender 바이러스 백신 보호를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
 Microsoft Defender "한시적 차단" | 사용자가 의심스러우거나 알 수 없는 파일을 Windows 새 맬웨어를 검색하고 차단합니다. 자세한 내용은 [Microsoft Defender 차단을 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
 Microsoft Defender AV 잠재적으로 원치 않는 응용 프로그램 | 잠재적으로 원치 않는 응용 프로그램은 컴퓨터의 실행 속도가 느려지거나, 예기치 않은 광고를 표시하거나, 최악의 경우 예기치 않게 또는 원치 않는 다른 소프트웨어를 설치할 수 있는 앱을 차단하는 데 사용됩니다. 자세한 내용은 [Microsoft Defender AV 잠재적으로 원치 않는 응용 프로그램을 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)

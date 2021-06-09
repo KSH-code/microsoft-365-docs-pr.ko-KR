@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: f77ce94fda63a9e7e8a9484a67a22eeec136d619
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 481a8f15d6a41bda8dc866ce40d98c4f3717223d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935884"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844061"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
@@ -51,10 +51,10 @@ ms.locfileid: "51935884"
 네트워크 보호는 다음 조건이 있는 디바이스에서만 작동합니다.
 
 >[!div class="checklist"]
-> - 끝점에서 Windows 10 Pro 또는 Enterprise 버전, 버전 1709 이상을 실행하고 있습니다.
-> - 끝점에서 Microsoft Defender 바이러스 백신을 단독 바이러스 백신 보호 앱으로 사용하고 있습니다. [Microsoft가 아닌 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)솔루션을 사용할 때 발생하는 문제를 참조합니다.
-> - [실시간 보호가](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) 사용됩니다.
-> - [클라우드 제공 보호를](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 사용할 수 있습니다.
+> - 끝점에서 Windows 10 Pro 버전 Enterprise 버전 1709 이상을 실행하고 있습니다.
+> - 끝점에서 단독 Microsoft Defender 바이러스 백신 보호 앱으로 사용하고 있습니다. [Microsoft가 아닌 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)솔루션을 사용할 때 발생하는 문제를 참조합니다.
+> - [실시간 보호가](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) 사용됩니다.
+> - [클라우드 제공 보호를](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 사용할 수 있습니다.
 > - 감사 모드를 사용할 수 없습니다. 그룹 [정책을 사용하여](enable-network-protection.md#group-policy) 규칙을 사용 안 하게 **설정(값:** **0)합니다.**
 
 ## <a name="use-audit-mode"></a>감사 모드 사용
@@ -120,10 +120,10 @@ reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP 
 reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
 ```
 
-PowerShell, Microsoft Endpoint Manager 또는 그룹 정책을 사용하여 레지스트리 키를 구성할 수 있습니다. 다음은 도움이 되는 몇 가지 리소스입니다.
+PowerShell, 그룹 정책 또는 그룹 정책을 사용하여 Microsoft Endpoint Manager 수 있습니다. 다음은 도움이 되는 몇 가지 리소스입니다.
 - [레지스트리 키 작업](/powershell/scripting/samples/working-with-registry-keys)
-- [Endpoint Protection에 대한 사용자 지정 클라이언트 설정 구성](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
-- [그룹 정책 설정을 사용하여 끝점 보호 관리](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
+- [사용자 지정 클라이언트 설정 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
+- [그룹 정책 설정을 사용하여 그룹 정책 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
 
 ## <a name="see-also"></a>참고 항목
 

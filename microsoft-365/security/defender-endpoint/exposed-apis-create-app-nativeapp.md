@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8f23a0b269986f4caa199ad3744c563fcc6ff6b2
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 876dddf7a68b9844dea6a30ff4ebbbe3c2b75b69
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769104"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844553"
 ---
 # <a name="use-microsoft-defender-for-endpoint-apis"></a>끝점 API에 Microsoft Defender 사용
 
@@ -44,7 +44,7 @@ ms.locfileid: "52769104"
 
 필요한 액세스 권한이 확실하지 않은 경우 소개 페이지를 [읽어 하세요.](apis-intro.md)
 
-끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 사용하면 작업 흐름을 자동화하고 끝점용 Microsoft Defender 기능을 기반으로 혁신할 수 있습니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 사용하면 작업 흐름을 자동화하고 끝점용 Microsoft Defender 기능을 기반으로 혁신할 수 있습니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 일반적으로 API를 사용하려면 다음 단계를 수행해야 합니다.
 - AAD 응용 프로그램 만들기
@@ -122,7 +122,7 @@ ms.locfileid: "52769104"
 
 ## <a name="get-an-access-token"></a>액세스 토큰을 얻게 됩니다.
 
-AAD 토큰에 대한 자세한 내용은 [Azure AD 자습서를 참조하세요.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+AAD 토큰에 대한 자세한 내용은 [Azure AD 자습서를 참조하세요.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 ### <a name="using-c"></a>C 사용 #
 

@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: a22cab9185b2ece2e8e30c00ea747cca823f4920
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: b6b664d471e238e2feb1e1aedd100c1299fc5bbe
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861158"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844265"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 
@@ -33,9 +33,9 @@ ms.locfileid: "51861158"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-네트워크 보호는 인터넷 기반 이벤트에서 장치의 공격 표면을 줄이는 데 도움이 됩니다. 이를 통해 직원이 응용 프로그램을 사용하여 인터넷에서 피싱 사기, 악용 및 기타 악성 콘텐츠를 호스팅할 수 있는 위험한 도메인에 액세스할 수 없습니다. 네트워크 보호는 Microsoft [Defender SmartScreen의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) 범위를 확장하여 신뢰도가 낮은 원본(도메인 또는 호스트 이름 기반)에 연결하려고 하는 모든 아웃바운드 HTTP 트래픽을 차단합니다.
+네트워크 보호는 인터넷 기반 이벤트에서 장치의 공격 표면을 줄이는 데 도움이 됩니다. 이를 통해 직원이 응용 프로그램을 사용하여 인터넷에서 피싱 사기, 악용 및 기타 악성 콘텐츠를 호스팅할 수 있는 위험한 도메인에 액세스할 수 없습니다. 네트워크 보호는 신뢰도 [Microsoft Defender SmartScreen(도메인](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) 또는 호스트 이름 기반)에 연결하려고 하는 모든 아웃바운드 HTTP 트래픽을 차단하기 위해 네트워크 보호 범위를 확장합니다.
 
-네트워크 보호는 Windows 10 버전 1709부터 Windows에서 지원됩니다. 네트워크 보호는 아직 다른 운영 체제에서 지원되지 않지만 Chromium을 기반으로 하는 새 Microsoft Edge를 사용하여 웹 보호가 지원됩니다. 자세한 내용은 웹 [보호를 참조합니다.](web-protection-overview.md)
+네트워크 보호는 Windows 버전 1709부터 Windows 10 지원됩니다. 네트워크 보호는 아직 다른 운영 체제에서 지원되지 않지만, 웹 보호는 다른 운영 체제를 기반으로 하는 Microsoft Edge 지원 Chromium. 자세한 내용은 웹 [보호를 참조합니다.](web-protection-overview.md)
 
 네트워크 보호는 웹 보호의 [보호를](web-protection-overview.md) 운영 체제 수준으로 확장합니다. 이 기능은 지원되는 다른 브라우저 및 비 브라우저 응용 프로그램에 Edge의 웹 보호 기능을 제공합니다. 또한 네트워크 보호는 끝점 감지 및 응답과 함께 사용될 경우 IOC(손상 표시기)를 표시하고 [차단합니다.](overview-endpoint-detection-response.md) 예를 들어 네트워크 보호는 사용자 지정 [표시기 에서 작동합니다.](manage-indicators.md)
 
@@ -52,11 +52,11 @@ ms.locfileid: "51861158"
 
 ## <a name="requirements"></a>요구 사항
 
-네트워크 보호에는 Windows 10 Pro 또는 Enterprise 및 Microsoft Defender 바이러스 백신 실시간 보호가 필요합니다.
+네트워크 보호를 사용하려면 Windows 10 Pro Enterprise 및 Microsoft Defender 바이러스 백신 보호가 필요합니다.
 
-| Windows 버전 | Microsoft Defender 바이러스 백신 |
+| Windows 버전 | Windows Defender 바이러스 백신 |
 |:---|:---|
-| Windows 10 버전 1709 이상 <p>Windows Server 1803 이상 | [Microsoft Defender 바이러스 백신 실시간 보호](configure-real-time-protection-microsoft-defender-antivirus.md) 및 클라우드 [제공](enable-cloud-protection-microsoft-defender-antivirus.md) 보호를 사용하도록 설정해야 합니다. |
+| Windows 10 버전 1709 이상 <p>Windows 서버 1803 이상 | [Microsoft Defender 바이러스 백신 보호](configure-real-time-protection-microsoft-defender-antivirus.md) 및 클라우드 [제공](enable-cloud-protection-microsoft-defender-antivirus.md) 보호를 사용하도록 설정해야 합니다. |
 
 서비스를 사용하도록 설정한 후 서비스와 장치(끝점이라고도 하는) 간의 연결을 허용하도록 네트워크 또는 방화벽을 구성해야 할 수 있습니다.  
 
@@ -76,9 +76,9 @@ DeviceEvents
 | where ActionType in ('ExploitGuardNetworkProtectionAudited','ExploitGuardNetworkProtectionBlocked')
 ```
 
-## <a name="review-network-protection-events-in-windows-event-viewer"></a>Windows 이벤트 뷰어에서 네트워크 보호 이벤트 검토
+## <a name="review-network-protection-events-in-windows-event-viewer"></a>이벤트 뷰어에서 Windows 이벤트 검토
 
-Windows 이벤트 로그를 검토하여 네트워크 보호가 악성 IP 또는 도메인에 대한 액세스를 차단(또는 감사)할 때 생성되는 이벤트를 볼 수 있습니다.
+Windows 로그를 검토하여 네트워크 보호가 악성 IP 또는 도메인에 대한 액세스를 차단(또는 감사)할 때 생성되는 이벤트를 볼 수 있습니다.
 
 1. [XML을 직접 복사합니다.](event-views.md)
 
@@ -92,15 +92,15 @@ Windows 이벤트 로그를 검토하여 네트워크 보호가 악성 IP 또는
 | 1125 | 감사 모드에서 네트워크 보호가 발생 하는 경우 이벤트 |
 | 1126 | 차단 모드에서 네트워크 보호가 발생하면 이벤트 |
 
-## <a name="considerations-for-windows-virtual-desktop-running-windows-10-enterprise-multi-session"></a>Windows 10 Enterprise 다중 세션을 실행하는 Windows 가상 데스크톱에 대한 고려 사항
+## <a name="considerations-for-windows-virtual-desktop-running-windows-10-enterprise-multi-session"></a>다중 세션을 Windows 가상 데스크톱에 Windows 10 Enterprise 고려 사항
 
-Windows 10 Enterprise의 다중 사용자 특성으로 인해 다음에 유의해야 합니다.
+다중 사용자 특성으로 인해 Windows 10 Enterprise 다음에 유의해야 합니다.
 
 1. 네트워크 보호는 장치 전체 기능으로, 특정 사용자 세션을 대상으로 할 수 없습니다.
 
 2. 웹 콘텐츠 필터링 정책도 장치 전체에 적용됩니다.
 
-3. 사용자 그룹을 구분해야 하는 경우 별도의 Windows Virtual Desktop 호스트 풀 및 할당을 만드는 것이 좋습니다.
+3. 사용자 그룹을 구분해야 하는 경우 가상 데스크톱 호스트 풀과 할당을 Windows 만드는 것이 좋습니다.
 
 4. 감사 모드에서 네트워크 보호를 테스트하여 롤아웃하기 전에 해당 동작을 평가합니다. 
 
@@ -108,7 +108,7 @@ Windows 10 Enterprise의 다중 사용자 특성으로 인해 다음에 유의�
 
 ### <a name="alternative-option-for-network-protection"></a>네트워크 보호를 위한 대체 옵션
 
-Azure의 Windows Virtual Desktop에서 사용되는 Windows 10 Enterprise Multi-Session 1909 이상의 경우 다음 방법을 사용하여 Microsoft Edge에 대한 네트워크 보호를 사용할 수 있습니다.
+Azure의 Windows 데스크톱에서 사용되는 Windows 10 Enterprise 세션 1909 이상의 경우 다음 방법을 사용하여 Microsoft Edge 네트워크 보호를 사용할 수 있습니다.
 
 1. 네트워크 [보호 켜기 및](enable-network-protection.md) 지침에 따라 정책을 적용합니다.
 

@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: how-to
 ms.date: 01/27/2021
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
-ms.openlocfilehash: 23d6c8c87a6cbcc7b8060440ba2c0cae6182767d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: bd86458749db4019bb247a3664748b9891965754
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274547"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841350"
 ---
 # <a name="configure-automated-investigation-and-remediation-capabilities-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 자동화된 조사 및 수정 기능 구성
 
@@ -35,7 +35,7 @@ ms.locfileid: "52274547"
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-조직에서 [끝점용 Microsoft Defender(Endpoint용 Defender)를](https://docs.microsoft.com/windows/security/threat-protection/) 사용하는 경우 [자동화된](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/automated-investigations) 조사 및 수정 기능을 통해 보안 운영 팀의 시간과 노력을 절약할 수 있습니다. 이 블로그 [](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/enhance-your-soc-with-microsoft-defender-atp-automatic/ba-p/848946)게시물에 설명된 것 처럼 이러한 기능은 보안 분석가가 위협을 조사하고 수정하는 데 걸리는 이상적인 단계와 모방합니다. [자동화된 조사 및 수정에 대해 자세히 알아보시겠어요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/automated-investigations) 
+조직에서 [끝점용 Microsoft Defender(Endpoint용 Defender)를](/windows/security/threat-protection/) 사용하는 경우 [자동화된](/microsoft-365/security/defender-endpoint/automated-investigations) 조사 및 수정 기능을 통해 보안 운영 팀의 시간과 노력을 절약할 수 있습니다. 이 블로그 [](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/enhance-your-soc-with-microsoft-defender-atp-automatic/ba-p/848946)게시물에 설명된 것 처럼 이러한 기능은 보안 분석가가 위협을 조사하고 수정하는 데 걸리는 이상적인 단계와 모방합니다. [자동화된 조사 및 수정에 대해 자세히 알아보시겠어요.](/microsoft-365/security/defender-endpoint/automated-investigations) 
 
 자동화된 조사 및 수정을 구성하기 위해
 1. [기능 켜기](#turn-on-automated-investigation-and-remediation); 및 
@@ -43,26 +43,26 @@ ms.locfileid: "52274547"
 
 ## <a name="turn-on-automated-investigation-and-remediation"></a>자동화된 조사 및 수정 켜기
 
-1. 전역 관리자 또는 보안 관리자는 Microsoft Defender 보안 센터( )로 이동하여 [https://securitycenter.windows.com](https://securitycenter.windows.com) 로그인합니다.
-2. 탐색 창에서 설정을 **선택합니다.**
+1. 전역 관리자 또는 보안 관리자는 [https://securitycenter.windows.com](https://securitycenter.windows.com) Microsoft Defender 보안 센터()로 이동하여 로그인합니다.
+2. 탐색 창에서 를 **설정.**
 3. 일반 **섹션에서** 고급 기능을 **선택합니다.**
 4. 자동 조사 **및** **경고 자동 해결을 둘 다 니다.**
 
 ## <a name="set-up-device-groups"></a>장치 그룹 설정
 
-1. Microsoft Defender 보안 센터( ) 에서 설정 페이지의 사용 권한 아래에서 장치 [https://securitycenter.windows.com](https://securitycenter.windows.com) 그룹을 **선택합니다.**  
+1. in the Microsoft Defender 보안 센터 ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) on the **설정** page, under **Permissions**, select **Device groups**.
 2. **+ 장치 그룹 추가를 선택합니다.**
 3. 다음과 같이 하나 이상의 장치 그룹을 만들 수 있습니다.
    - 디바이스 그룹의 이름과 설명을 지정합니다.
    - 자동화 **수준 목록에서** 수준(예: 전체 - 위협 자동 **수정)을 선택합니다.** 자동화 수준은 수정 작업이 자동으로 수행될지 승인 시에만 수행될지 여부를 결정합니다. 자세한 내용은 자동화된 조사 및 수정의 자동화 수준을 [참조합니다.](automation-levels.md)
    - 구성원 **섹션에서** 하나 이상의 조건을 사용하여 장치를 식별하고 포함합니다.
-   - 사용자 **액세스 탭에서** 만들 장치 그룹에 대한 액세스 권한이 있는 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups?context=azure/active-directory/users-groups-roles/context/ugr-context) 그룹을 선택합니다.
+   - 사용자 **액세스 탭에서** 만들 [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-manage-groups?context=azure/active-directory/users-groups-roles/context/ugr-context) 액세스할 수 있는 사용자 그룹 그룹을 선택합니다.
 4. 디바이스 **그룹** 설정이 완료되면 완료를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-- [관리 센터를 방문하여 보류 중 및 완료된 수정 작업 보기](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center#the-action-center)
-- [보류 중인 작업 검토 및 승인](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-auto-investigation)
+- [관리 센터를 방문하여 보류 중 및 완료된 수정 작업 보기](/microsoft-365/security/defender-endpoint/auto-investigation-action-center#the-action-center)
+- [보류 중인 작업 검토 및 승인](/microsoft-365/security/defender-endpoint/manage-auto-investigation)
 
 ## <a name="see-also"></a>참고 항목
 

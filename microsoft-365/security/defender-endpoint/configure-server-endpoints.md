@@ -1,6 +1,6 @@
 ---
-title: 끝점용 Microsoft Defender 서비스에 Windows 서버 온보딩
-description: 센서 데이터를 끝점용 Microsoft Defender 센서로 보낼 수 있도록 Windows 서버를 온보딩합니다.
+title: 끝점 Windows Microsoft Defender에 서버 온보딩
+description: 센서 Windows 끝점용 Microsoft Defender 센서로 보낼 수 있도록 서버를 온보딩합니다.
 keywords: 온보딩 서버, 서버, 2012r2, 2016, 2019, 서버 온보딩, 장치 관리, 끝점 서버용 Microsoft Defender 구성, 끝점 서버용 Microsoft Defender 온보딩, 끝점 서버용 Microsoft Defender 온보딩
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 17aca5fb388aef26504902ee63b22410420c8827
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: 47d57e51eca4950f7a8f4284fbc916e9d030b2c7
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952491"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844337"
 ---
-# <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점용 Microsoft Defender 서비스에 Windows 서버 온보딩
+# <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -32,43 +32,43 @@ ms.locfileid: "51952491"
 - Windows Server 2008 R2 SP1
 - Windows Server 2012 R2
 - Windows Server 2016
-- Windows Server(SAC) 버전 1803 이상
+- Windows SAC(서버) 버전 1803 이상
 - Windows Server 2019 이상
 - Windows Server 2019 Core Edition
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configserver-abovefoldlink)
 
-Endpoint용 Defender는 Windows Server 운영 체제도 포함하기 위해 지원을 확장합니다. 이 지원은 Microsoft Defender 보안 센터 콘솔을 통해 고급 공격 감지 및 조사 기능을 원활하게 제공합니다.
+Endpoint용 Defender는 Windows 서버 운영 체제를 포함하기 위해 지원을 확장합니다. 이 지원은 보안 콘솔을 통해 고급 공격 감지 및 조사 기능을 Microsoft Defender 보안 센터 제공합니다.
 
-라이선스 및 인프라를 위해 필요한 사항을 실제로 설명하는 내용은 [Endpoint용 Defender로 Windows Server](https://techcommunity.microsoft.com/t5/What-s-New/Protecting-Windows-Server-with-Windows-Defender-ATP/m-p/267114#M128)보호를 참조하세요.
+라이선스 및 인프라에 필요한 사항을 실제로 설명하는 내용은 [Endpoint용 Defender로 Windows 서버 보호를 참조하세요.](https://techcommunity.microsoft.com/t5/What-s-New/Protecting-Windows-Server-with-Windows-Defender-ATP/m-p/267114#M128)
 
-Windows 서버에 대한 Windows 보안 기준을 다운로드하고 사용하는 방법에 대한 지침은 [Windows 보안 기준을 참조하세요.](https://docs.microsoft.com/windows/device-security/windows-security-baselines)
+Windows 보안 서버의 기본 Windows 다운로드하고 사용하는 방법에 대한 지침은 Windows 보안 [참조하세요.](/windows/device-security/windows-security-baselines)
 
 ## <a name="windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016"></a>Windows Server 2008 R2 SP1, Windows Server 2012 R2 및 Windows Server 2016
 
-다음 옵션 중 원하는 옵션을 사용하여 Windows Server 2008 R2 SP1, Windows Server 2012 R2 및 Windows Server 2016을 끝점용 Defender에 온보딩할 수 있습니다.
+다음 옵션 중 Windows Server 2008 R2 SP1, Windows Server 2012 R2 및 Windows Server 2016 Defender for Endpoint에 온보딩할 수 있습니다.
 
-- **옵션 1:** [MMA(Microsoft 모니터링](#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) 에이전트)를 설치 및 구성하여 온보더링
+- **옵션 1:** MMA(Microsoft Monitoring Agent 설치 및 구성하여 [온보더링)](#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma)
 - **옵션 2:** [Azure 보안 센터를 통해 온보더](#option-2-onboard-windows-servers-through-azure-security-center)
-- **옵션 3:** [Microsoft Endpoint Manager 버전 2002 이상을 통해 온보드](#option-3-onboard-windows-servers-through-microsoft-endpoint-manager-version-2002-and-later)
+- **옵션 3:** [Microsoft Endpoint Manager 버전 2002 이상을](#option-3-onboard-windows-servers-through-microsoft-endpoint-manager-version-2002-and-later) 통해 온보드
 
-제공된 옵션을 사용하여 온보더링 단계를 완료한 후 [System Center Endpoint Protection](#configure-and-update-system-center-endpoint-protection-clients)클라이언트를 구성하고 업데이트해야 합니다.
+제공된 옵션 중 원하는 옵션을 사용하여 온보더링 단계를 완료한 후 클라이언트를 구성하고 System Center Endpoint Protection [합니다.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
-> Microsoft 모니터링 에이전트(옵션 1)를 통해 Windows 서버를 온보딩하거나 Microsoft Endpoint Manager(옵션 3)를 통해 Windows 서버를 등록하려면 노드당 엔드포인트 독립 실행형 서버 라이선스에 대한 Defender가 필요합니다. 또는 Azure 보안 센터(옵션 2)를 통해 Windows 서버를 등록하려면 노드당 Azure Defender for Servers 라이선스가 필요합니다(옵션 2). [Azure Defender에서](https://docs.microsoft.com/azure/security-center/security-center-services)사용할 수 있는 지원되는 기능을 참조하세요.
+> Windows(옵션 1) 또는 Microsoft Endpoint Manager(옵션 3)를 통해 Windows Microsoft Monitoring Agent 서버를 온보딩하려면 노드당 Defender가 필요합니다. 또는 Azure 보안 센터를 통해 Windows 서버를 온보딩하려면 노드당 Azure Defender for Servers 라이선스가 필요합니다(옵션 2). [Azure Defender에서](/azure/security-center/security-center-services)사용할 수 있는 지원되는 기능을 참조하세요.
 
-### <a name="option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma"></a>옵션 1: MMA(Microsoft 모니터링 에이전트)를 설치 및 구성하여 온보더링
+### <a name="option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma"></a>옵션 1: MMA(Microsoft Monitoring Agent 설치 및 구성하여 온보더링)
 
-끝점용 Defender에 센서 데이터를 보고하도록 Windows 서버에 대한 MMA를 설치하고 구성해야 합니다. 자세한 내용은 Azure Log Analytics 에이전트를 사용하여 로그 데이터 [수집을 참조하세요.](https://docs.microsoft.com/azure/azure-monitor/platform/log-analytics-agent)
+끝점용 Defender에 센서 데이터를 보고하도록 Windows MMA를 설치하고 구성해야 합니다. 자세한 내용은 Azure Log Analytics 에이전트를 사용하여 로그 데이터 [수집을 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)
 
-이미 SCOM(System Center Operations Manager) 또는 Azure 모니터(이전의 OMS(Operations Management Suite))를 사용 중이면 MMA(Microsoft 모니터링 에이전트)를 연결하여 다중 호밍 지원을 통해 끝점 작업 영역의 Defender에 보고합니다.
+SCOM(System Center Operations Manager) 또는 Azure 모니터(이전의 OM Microsoft Monitoring Agent S(Operations Management Suite))를 이미 사용 중이면 MMA(Operations Management Suite)를 연결하여 다중 호밍 지원을 통해 끝점 작업 영역용 Defender에 보고합니다.
 
 일반적으로 다음 단계를 수행해야 합니다.
 
 1. 시작하기 전에 섹션에 설명된 **온보더링 요구 사항을 이행합니다.**
 2. Microsoft Defender 보안 센터에서 서버 모니터링을 켜기.
 3. 서버가 끝점용 Defender에 센서 데이터를 보고하도록 MMA를 설치하고 구성합니다.
-4. System Center Endpoint Protection 클라이언트를 구성하고 업데이트합니다.
+4. 클라이언트를 구성하고 System Center Endpoint Protection 업데이트합니다.
 
 > [!TIP]
 > 장치를 온보드한 후 검색 테스트를 실행하여 서비스에 올바르게 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 Endpoint 끝점에 대한 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
@@ -89,78 +89,78 @@ Windows Server 2008 R2 SP1의 경우 다음 요구 사항을 충족해야 합니
     > [!NOTE]
     > SCCM을 통해 Windows Server 2008 R2 SP1을 관리하는 경우 SCCM 클라이언트 에이전트는 .Net Framework 4.5.2를 설치합니다. 따라서 .NET Framework 4.5 이상을 설치할 필요가 없습니다.
 
-Windows Server 2008 R2 SP1 및 Windows Server 2012 R2: System Center Endpoint Protection 클라이언트를 구성하고 [업데이트합니다.](#configure-and-update-system-center-endpoint-protection-clients)
+Windows Server 2008 R2 SP1 및 Windows Server 2012 R2의 경우: 클라이언트 System Center Endpoint Protection [구성 및 업데이트합니다.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
-> 이 단계는 조직에서 SCEP(System Center Endpoint Protection)를 사용하며 Windows Server 2008 R2 SP1 및 R2를 온보드하는 Windows Server 2012 필요합니다.
+> 이 단계는 조직에서 SCEP(System Center Endpoint Protection)를 사용하며 Windows Server 2008 R2 SP1 및 R2를 Windows Server 2012 하는 Windows Server 2012 필요합니다.
 
-### <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 센서 데이터를 보고하도록 MMA(Microsoft 모니터링 에이전트) 설치 및 구성
+### <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>MMA(Microsoft Monitoring Agent)를 설치 및 구성하여 끝점용 Microsoft Defender에 센서 데이터 보고
 
-1. 에이전트 설치 파일 Windows [64비트 에이전트를 다운로드합니다.](https://go.microsoft.com/fwlink/?LinkId=828603)
+1. 64비트 Windows 설치 파일을 [다운로드합니다.](https://go.microsoft.com/fwlink/?LinkId=828603)
 
-2. 이전 절차에서 얻은 작업 영역 ID 및 작업 영역 키를 사용하여 다음 설치 방법을 선택하고 Windows 서버에 에이전트를 설치합니다.
-    - [설치 프로그램을 사용하여 에이전트를 수동으로 설치합니다.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) 
-    에이전트 설정 **옵션 페이지에서** 에이전트를 **Azure OMS(Log Analytics)에 연결을 선택합니다.**
-    - [명령줄을 사용하여 에이전트를 설치합니다.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
-    - [스크립트를 사용하여 에이전트를 구성합니다.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation)
+2. 이전 절차에서 얻은 작업 영역 ID 및 작업 영역 키를 사용하여 다음 설치 방법을 선택하고 에이전트를 Windows 설치합니다.
+    - [설치 프로그램을 사용하여 에이전트를 수동으로 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) 
+    에이전트 설정 **옵션 페이지에서** **에이전트를 커넥트 OMS(Azure Log Analytics) 로 이동합니다.**
+    - [명령줄을 사용하여 에이전트를 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
+    - [스크립트를 사용하여 에이전트를 구성합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation)
 
 > [!NOTE]
 > 미국 정부 [](gov.md)고객인 경우 "Azure Cloud"에서 설치 마법사를 사용하는 경우 또는 명령줄 또는 스크립트를 사용하는 경우 "azure US Government"를 선택해야 합니다. "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" 매개 변수를 1로 설정해야 합니다.
 
-### <a name="configure-windows-server-proxy-and-internet-connectivity-settings-if-needed"></a>필요한 경우 Windows 서버 프록시 및 인터넷 연결 설정 구성
+### <a name="configure-windows-server-proxy-and-internet-connectivity-settings-if-needed"></a>필요한 Windows 서버 프록시 및 인터넷 연결 설정 구성
 
 서버에서 프록시를 사용하여 끝점용 Defender와 통신해야 하는 경우 다음 방법 중 하나를 사용하여 프록시 서버를 사용하도록 MMA를 구성합니다.
 
-- [프록시 서버를 사용하도록 MMA 구성](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-agent-using-setup-wizard)
+- [프록시 서버를 사용하도록 MMA 구성](/azure/azure-monitor/platform/agent-windows#install-agent-using-setup-wizard)
 
-- [모든 연결에 프록시 서버를 사용하도록 Windows 구성](configure-proxy-internet.md)
+- [모든 Windows 프록시 서버를 사용하도록 구성](configure-proxy-internet.md)
 
 프록시 또는 방화벽이 사용 중이면 서버가 SSL 차단 없이 모든 끝점용 Microsoft Defender 서비스 URL에 직접 액세스할 수 있도록 합니다. 자세한 내용은 [Enable access to Defender for Endpoint service URLs을 참조하세요.](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server) SSL 차단을 사용하는 경우 시스템이 Endpoint용 Defender 서비스와 통신하지 못하게 됩니다.
 
-완료되면 1시간 이내에 포털에 온보드 Windows 서버가 표시될 것입니다.
+완료되면 1시간 이내에 포털에 Windows 서버의 온보드 서버가 표시될 것입니다.
 
-### <a name="option-2-onboard-windows-servers-through-azure-security-center"></a>옵션 2: Azure 보안 센터를 통해 Windows 서버 온보드
+### <a name="option-2-onboard-windows-servers-through-azure-security-center"></a>옵션 2: Azure Windows 서버 온보드
 
-1. Microsoft Defender 보안 센터 탐색 창에서 설정 **장치** 관리  >    >  **온보딩 을 선택합니다.**
+1. 장치 Microsoft Defender 보안 센터 창에서 장치 관리 **설정**  >    >  **를 선택합니다.**
 
-2. **운영 체제로 Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택합니다.
+2. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택합니다.
 
 3. **Azure 보안 센터에서 서버 온보더를 클릭합니다.**
 
-4. [Azure Defender를 사용하여 끝점용 Microsoft Defender의](https://docs.microsoft.com/azure/security-center/security-center-wdatp) 온보딩 지침을 따르고 Azure ARC를 사용하는 경우 끝점 통합을 위해 [Microsoft Defender](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)통합 사용의 온보딩 지침을 따릅니다.
+4. [Azure Defender를 사용하여 끝점용 Microsoft Defender의](/azure/security-center/security-center-wdatp) 온보딩 지침을 따르고 Azure ARC를 사용하는 경우 끝점 통합을 위해 [Microsoft Defender](/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)통합 사용의 온보딩 지침을 따릅니다.
 
-온보더링 단계를 완료한 후 System Center Endpoint Protection 클라이언트를 구성하고 [업데이트해야 합니다.](#configure-and-update-system-center-endpoint-protection-clients)
+온보더링 단계를 완료한 후 클라이언트를 구성하고 System Center Endpoint Protection [합니다.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
 >
-> - 서버용 Azure Defender를 통한 온보딩이 예상대로 작동하려면 서버에 적절한 작업 영역과 키가 MMA(Microsoft 모니터링 에이전트) 설정 내에 구성되어 있어야 합니다.
+> - 서버용 Azure Defender를 통한 온보딩이 예상대로 작동하려면 서버에 MMA(서버 관리) 설정 내에 적절한 작업 Microsoft Monitoring Agent 구성해야 합니다.
 > - 구성되면 적절한 클라우드 관리 팩이 컴퓨터로 배포되어 센서 프로세스(MsSenseS.exe)가 배포 및 시작됩니다.
 > - 이 설정은 서버가 OMS 게이트웨이 서버를 프록시로 사용하도록 구성된 경우도 필요합니다.
 
-### <a name="option-3-onboard-windows-servers-through-microsoft-endpoint-manager-version-2002-and-later"></a>옵션 3: Microsoft Endpoint Manager 버전 2002 이상을 통해 Windows 서버 온보드
+### <a name="option-3-onboard-windows-servers-through-microsoft-endpoint-manager-version-2002-and-later"></a>옵션 3: Microsoft Endpoint Manager 2002 이상을 통해 Windows 서버 온보드
 
-Microsoft Endpoint Manager Windows Server 2012 이상을 사용하여 R2 및 Windows Server 2016을 온보드할 수 있습니다. 자세한 내용은 Microsoft Endpoint Manager 현재 분기의 [끝점용 Microsoft Defender를 참조하세요.](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection)
+2002 버전 Windows Server 2012 사용하여 R2 및 Windows Server 2016 Microsoft Endpoint Manager 온보드할 수 있습니다. 자세한 내용은 현재 분기의 [끝점용 Microsoft Defender를 Microsoft Endpoint Manager 참조하세요.](/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection)
 
-온보더링 단계를 완료한 후 System Center Endpoint Protection 클라이언트를 구성하고 [업데이트해야 합니다.](#configure-and-update-system-center-endpoint-protection-clients)
+온보더링 단계를 완료한 후 클라이언트를 구성하고 System Center Endpoint Protection [합니다.](#configure-and-update-system-center-endpoint-protection-clients)
 
-## <a name="windows-server-sac-version-1803-windows-server-2019-and-windows-server-2019-core-edition"></a>Windows Server(SAC) 버전 1803, Windows Server 2019 및 Windows Server 2019 Core Edition
+## <a name="windows-server-sac-version-1803-windows-server-2019-and-windows-server-2019-core-edition"></a>Windows SAC(서버) 버전 1803, Windows Server 2019 및 Windows Server 2019 Core edition
 
-다음 배포 방법을 사용하여 Windows Server(SAC) 버전 1803, Windows Server 2019 또는 Windows Server 2019 Core Edition을 온보드할 수 있습니다.
+다음 배포 방법을 사용하여 Windows Server(Windows Server) 버전 1803, Windows Server 2019 또는 Windows Server 2019 Core Edition을 온보드할 수 있습니다.
 
 - [로컬 스크립트](configure-endpoints-script.md)
 - [그룹 정책](configure-endpoints-gp.md)
 - [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-- [System Center Configuration Manager 2012/ 2012 R2 1511/ 1602](configure-endpoints-sccm.md#onboard-devices-using-system-center-configuration-manager)
+- [System Center Configuration Manager 2012/2012 R2 1511/ 1602](configure-endpoints-sccm.md#onboard-devices-using-system-center-configuration-manager)
 - [비영구 장치에 대한 VDI 온보딩 스크립트](configure-endpoints-vdi.md)
 
 > [!NOTE]
 >
-> - Microsoft Endpoint Manager를 통한 Windows Server 2019용 온보딩 패키지는 현재 스크립트를 제공합니다. Configuration Manager에서 스크립트를 배포하는 방법에 대한 자세한 내용은 Configuration Manager의 패키지 [및 프로그램을 참조하세요.](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)
-> - 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책 또는 Microsoft Endpoint Configuration Manager를 사용하는 것이 좋습니다.
+> - 현재 스크립트를 Windows Server 2019를 Microsoft Endpoint Manager 온보딩 패키지 Configuration Manager에서 스크립트를 배포하는 방법에 대한 자세한 내용은 Configuration Manager의 패키지 [및 프로그램을 참조하세요.](/configmgr/apps/deploy-use/packages-and-programs)
+> - 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책을 사용하는 것이 Microsoft Endpoint Configuration Manager.
 
-Windows Server 지원은 서버 활동, 커널 및 메모리 공격 감지 범위에 대한 더 깊은 정보를 제공하며 응답 작업을 가능하게 합니다.
+Windows Server에 대한 지원은 서버 활동, 커널 및 메모리 공격 감지 범위에 대한 심층적인 정보를 제공하며 대응 작업을 가능하게 합니다.
 
-1. Windows 10 디바이스에 대해 동일한 도구와 방법을 사용하여 Windows 서버에서 끝점 온보딩 설정에 대한 Defender를 구성합니다. 자세한 내용은 [Windows 10 장치 온보드를 참조하세요.](configure-endpoints.md)
+1. 장치와 동일한 도구 및 방법을 사용하여 Windows 서버에서 끝점 온보딩 설정에 대한 Defender를 Windows 10 구성합니다. 자세한 내용은 장치 [온보드 Windows 10 참조하세요.](configure-endpoints.md)
 
 2. 타사 맬웨어 방지 솔루션을 실행하는 경우 다음 Microsoft Defender AV 수동 모드 설정을 적용해야 합니다. 올바르게 구성되어 있는지 확인합니다.
 
@@ -184,82 +184,82 @@ Windows Server 지원은 서버 활동, 커널 및 메모리 공격 감지 범�
 
    ```sc.exe query Windefend```
 
-    결과가 '지정된 서비스가 설치된 서비스로 존재하지 않는 경우 Microsoft Defender AV를 설치해야 합니다. 자세한 내용은 [Windows 10의 Microsoft Defender 바이러스 백신을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
+    결과가 '지정된 서비스가 설치된 서비스로 존재하지 않는 경우 Microsoft Defender AV를 설치해야 합니다. 자세한 내용은 Microsoft Defender 바이러스 백신 [를 Windows 10.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
 
-    그룹 정책을 사용하여 Windows 서버에서 Microsoft Defender 바이러스 백신을 구성하고 관리하는 방법에 대한 자세한 내용은 그룹 정책 설정을 사용하여 Microsoft Defender 바이러스 백신 구성 및 관리를 [참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)
+    그룹 정책을 사용하여 Microsoft Defender 바이러스 백신 서버에서 그룹 정책을 Windows 방법에 대한 자세한 내용은 [그룹](/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)정책 설정을 사용하여 그룹 정책 구성 및 Microsoft Defender 바이러스 백신.
 
 ## <a name="integration-with-azure-defender"></a>Azure Defender와 통합
 
-Endpoint용 Defender는 Azure Defender와 통합하여 포괄적인 Windows 서버 보호 솔루션을 제공할 수 있습니다. 이 통합을 통해 Azure Defender는 끝점용 Defender의 기능을 사용하여 Windows Server에 대한 향상된 위협 감지를 제공할 수 있습니다.
+Endpoint용 Defender는 Azure Defender와 통합하여 포괄적인 서버 Windows 솔루션을 제공할 수 있습니다. 이 통합을 통해 Azure Defender는 끝점용 Defender의 기능을 사용하여 서버의 위협 감지 기능을 Windows 있습니다.
 
 이 통합에는 다음과 같은 기능이 포함됩니다.
 
-- 자동 온보딩 - Azure Defender에 온보딩된 Windows Server에서 Endpoint용 Defender 센서가 자동으로 활성화됩니다. Azure Defender 온보딩에 대한 자세한 내용은 [통합된 끝점용 Microsoft Defender 라이선스 사용을 참조하세요.](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
+- 자동 온보딩 - Azure Defender에 온보딩된 Windows Endpoint용 Defender 센서가 자동으로 사용하도록 설정됩니다. Azure Defender 온보딩에 대한 자세한 내용은 [통합된 끝점용 Microsoft Defender 라이선스 사용을 참조하세요.](/azure/security-center/security-center-wdatp)
 
     > [!NOTE]
-    > Windows [Server 2019 및 WVD(Windows Virtual Desktop)를](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합이 확장됩니다.
+    > 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows [Server 2019 및 WVD(가상 데스크톱)Windows](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
 
-- Azure Defender에서 모니터링하는 Windows 서버는 Endpoint용 Defender에서도 사용할 수 있습니다. Azure Defender는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다.  또한 Azure Defender 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
-- 서버 조사 - Azure Defender 고객은 Microsoft Defender 보안 센터에 액세스하여 자세한 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
+- Windows Azure Defender가 모니터링하는 서버는 Endpoint용 Defender에서도 사용할 수 있습니다. Azure Defender는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다.  또한 Azure Defender 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
+- 서버 조사 - Azure Defender 고객은 액세스하여 Microsoft Defender 보안 센터 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
 
 > [!IMPORTANT]
 > - Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트에 대한 Defender가 자동으로 만들어집니다(미국 사용자의 경우 유럽 및 영국 사용자용 EU).<br>
 Endpoint용 Defender에서 수집한 데이터는 프로비전 중에 식별된 테넌트의 지리적 위치에 저장됩니다.
 > - Azure Defender를 사용하기 전에 Endpoint용 Defender를 사용하는 경우 나중에 Azure Defender와 통합하는 경우에도 테넌트를 만들 때 지정한 위치에 데이터가 저장됩니다.
 > - 일단 구성되면 데이터가 저장되는 위치를 변경할 수 없습니다. 데이터를 다른 위치로 이동해야 하는 경우 Microsoft 지원에 문의하여 테넌트를 다시 설정해야 합니다. <br>
-Office 365 GCC 고객의 경우 이 통합을 활용하는 서버 끝점 모니터링이 사용하지 않도록 설정되어 있습니다.
+이러한 통합을 활용하는 서버 끝점 모니터링은 Office 365 GCC 사용하지 않도록 설정되어 있습니다.
 
-## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>System Center Endpoint Protection 클라이언트 구성 및 업데이트
+## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>클라이언트 구성 및 System Center Endpoint Protection 업데이트
 
-Endpoint용 Defender는 System Center Endpoint Protection과 통합됩니다. 통합을 통해 맬웨어 감지에 대한 가시성을 확보하고 잠재적인 악성 파일 또는 의심되는 맬웨어를 금지하여 조직에서 공격 전파를 중지할 수 있습니다.
+Endpoint용 Defender는 통합된 System Center Endpoint Protection. 통합을 통해 맬웨어 감지에 대한 가시성을 확보하고 잠재적인 악성 파일 또는 의심되는 맬웨어를 금지하여 조직에서 공격 전파를 중지할 수 있습니다.
 
 이 통합을 사용하려면 다음 단계가 필요합니다.
 
-- [Endpoint Protection 클라이언트에 대한 2017년 1월 맬웨어](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie)방지 플랫폼 업데이트를 설치합니다.
+- Endpoint Protection [맬웨어](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie)방지 플랫폼 업데이트를 설치합니다.
 
-- [고급 설정으로 SCEP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 클라이언트 클라우드 보호 서비스 멤버 **자격을 구성합니다.**
+- [고급 설정으로 SCEP](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 클라이언트 클라우드 보호 서비스 멤버 **자격을 구성합니다.**
 
-## <a name="offboard-windows-servers"></a>Windows 서버 오프보드
+## <a name="offboard-windows-servers"></a>서버 Windows 오프보드
 
-Windows 10 클라이언트 디바이스에 사용할 수 있는 동일한 방법으로 Windows Server(SAC), Windows Server 2019 및 Windows Server 2019 Core Edition을 오프보드할 수 있습니다.
+SAC(Windows Server), Windows Server 2019 및 Windows Server 2019 Core Edition은 클라이언트 장치에서 사용할 수 있는 동일한 방법으로 Windows 10 있습니다.
 
-다른 Windows 서버 버전의 경우 서비스에서 Windows 서버를 오프보드할 수 있는 두 가지 옵션이 있습니다.
+다른 Windows 서버 버전의 경우 서비스에서 서버 Windows 오프보드할 수 있는 두 가지 옵션이 있습니다.
 
 - MMA 에이전트 제거
 - 끝점용 Defender 작업 영역 구성 제거
 
 > [!NOTE]
-> 오프보더링을 통해 Windows 서버는 포털에 센서 데이터 전송을 중지하지만, Windows 서버의 데이터(에 대한 참조 포함)는 최대 6개월 동안 보존됩니다.
+> 오프보드를 통해 Windows 서버는 포털에 센서 데이터 전송을 중지하지만 Windows 서버에 있는 모든 경고에 대한 참조를 포함하여 데이터까지 최대 6개월 동안 보존됩니다.
 
-### <a name="uninstall-windows-servers-by-uninstalling-the-mma-agent"></a>MMA 에이전트를 제거하여 Windows 서버 제거
+### <a name="uninstall-windows-servers-by-uninstalling-the-mma-agent"></a>MMA Windows 제거하여 서버 제거
 
-Windows 서버를 오프보딩하기 위해 Windows 서버에서 MMA 에이전트를 제거하거나 끝점용 Defender 작업 영역으로 보고에서 이 에이전트를 제거하면 됩니다. 에이전트를 오프보딩한 후 Windows 서버는 더 이상 끝점용 Defender에 센서 데이터를 보내지 않습니다.
-자세한 내용은 에이전트를 [사용하지 않도록 설정 을 참조하세요.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#to-disable-an-agent)
+Windows 서버를 오프보딩하기 위해 MMA 에이전트를 Windows 끝점 작업 영역의 Defender에 보고에서 이 에이전트를 제거하면 됩니다. 에이전트를 오프보딩한 후 Windows 서버는 더 이상 끝점용 Defender로 센서 데이터를 보내지 않습니다.
+자세한 내용은 에이전트를 [사용하지 않도록 설정 을 참조하세요.](/azure/log-analytics/log-analytics-windows-agents#to-disable-an-agent)
 
 ### <a name="remove-the-defender-for-endpoint-workspace-configuration"></a>끝점용 Defender 작업 영역 구성 제거
 
-Windows 서버를 오프보드하기 위해 다음 방법 중 하나를 사용할 수 있습니다.
+서버의 Windows 다음 방법 중 하나를 사용할 수 있습니다.
 
 - MMA 에이전트에서 끝점용 Defender 작업 영역 구성 제거
 - PowerShell 명령을 실행하여 구성 제거
 
 #### <a name="remove-the-defender-for-endpoint-workspace-configuration-from-the-mma-agent"></a>MMA 에이전트에서 끝점용 Defender 작업 영역 구성 제거
 
-1. Microsoft **모니터링 에이전트 속성에서** **Azure OMS(로그 분석) 탭을** 선택합니다.
+1. 사용자 **Microsoft Monitoring Agent 에서** Azure **OMS(로그 분석) 탭을** 선택합니다.
 
 2. 끝점 작업 영역용 Defender를 선택하고 제거를 **클릭합니다.**
 
-    ![Microsoft 모니터링 에이전트 속성의 이미지](images/atp-mma.png)
+    ![속성 Microsoft Monitoring Agent 이미지](images/atp-mma.png)
 
 #### <a name="run-a-powershell-command-to-remove-the-configuration"></a>PowerShell 명령을 실행하여 구성 제거
 
 1. 작업 영역 ID를 얻게 합니다.
 
-   1. 탐색 창에서 설정   >  **온보드 를 선택합니다.**
+   1. 탐색 창에서 **온보 설정**  >  **선택합니다.**
 
-   1. **운영 체제로 Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택하고 작업 영역 ID를 얻습니다.
+   1. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택하고 작업 영역 ID를 얻습니다.
 
-      ![Windows 서버 온보드 이미지](images/atp-server-offboarding-workspaceid.png)
+      ![서버 Windows 이미지](images/atp-server-offboarding-workspaceid.png)
 
 2. 승강된 PowerShell을 열고 다음 명령을 실행합니다. 얻은 작업 영역 ID를 사용하여 을 `WorkspaceID` 대체합니다.
 
@@ -286,12 +286,12 @@ Windows 서버를 오프보드하기 위해 다음 방법 중 하나를 사용�
 
     **사용자 환경 및 진단 원격 분석에 대한 업데이트(Windows Server 2008 R2 및 Windows Server 2012 R2)**
 
-    [Windows 2008 R2 x64의 경우](https://www.microsoft.com/download/details.aspx?familyid=1bd1d18d-4631-4d8e-a897-327925765f71)
+    [2008 R2 Windows 2008의 경우](https://www.microsoft.com/download/details.aspx?familyid=1bd1d18d-4631-4d8e-a897-327925765f71)
 
-    [Windows 2012 R2 x64의 경우](https://www.microsoft.com/download/details.aspx?familyid=94cf6d85-017a-4c4c-afca-7d00721b500f)
+    [2012 Windows x64의 경우](https://www.microsoft.com/download/details.aspx?familyid=94cf6d85-017a-4c4c-afca-7d00721b500f)
 
     > [!NOTE]
-    > 이 문서에서는 x64 기반 서버(MMA 에이전트 .exe x64 [새 SHA-2 호환 버전)를](https://go.microsoft.com/fwlink/?LinkId=828603)사용 중이라 가정합니다.
+    > 이 문서에서는 x64 기반 서버(MMA Agent .exe x64 [New SHA-2 호환 버전)를 사용 중이라 가정합니다.](https://go.microsoft.com/fwlink/?LinkId=828603)
 
 **2단계: 파일 이름 DeployMMA.cmd 만들기(메모장 사용)** cmd 파일에 다음 줄을 추가합니다. WORKSPACE ID 및 KEY가 필요합니다.
 
@@ -327,7 +327,7 @@ OPINSIGHTS_WORKSPACE_KEY=<your workspace key>== AcceptEndUserLicenseAgreement=1"
 
 :::image type="content" source="images/deploymma.png" alt-text="mma cmd 배포":::
 
-두 KB(Windows Server 2008R2/Windows 7용 및 Windows Server 2012 R2용 KB)의 경우 프로세스를 반복하지만 공용 탭에 항목 수준 대상 지정을 만들면 파일이 범위의 적절한 플랫폼/운영 체제 버전으로만 복사됩니다.
+두 KB(Windows Server 2008R2/Windows 7 및 Windows Server 2012 R2용 KB)의 경우 프로세스를 반복하지만 COMMON 탭에 항목 수준 대상 지정을 만들면 파일이 범위의 해당 플랫폼/운영 체제 버전으로만 복사됩니다.
 
 :::image type="content" source="images/targeteditor.png" alt-text="대상 편집기":::
 
@@ -362,7 +362,7 @@ Windows Server 2008 R2 PS1의 경우 다음 요구 사항을 충족해야 합니
   
 - [.NET framework 4.5](https://www.microsoft.com/download/details.aspx?id=30653) 이상 또는 [KB3154518](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework) 설치
 
-Windows Server 2008 R2를 온보드하기 전에 KB가 존재할지 확인하시기 바랍니다. 이 프로세스를 통해 서버를 관리하는 Configuration Manager가 없는 경우 모든 서버를 온보드할 수 있습니다.
+온보드 Windows Server 2008 R2에 KB가 있는지 확인하시기 바랍니다. 이 프로세스를 통해 서버를 관리하는 Configuration Manager가 없는 경우 모든 서버를 온보드할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

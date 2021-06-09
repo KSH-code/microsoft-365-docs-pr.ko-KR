@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 회사 로고 또는 색에 맞게 Microsoft 365 모음 위쪽의 기본 테마를 변경하는 방법을 알아보고 사용자 지정합니다.
-ms.openlocfilehash: e609cbbc116f932d9c41f7ec797bf04a2a9c8ef8
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 7dc1eb4df22cbd96b2370437991aee936243189e
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809050"
+ms.locfileid: "52841309"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직의 Microsoft 365 테마 사용자 지정
 
@@ -82,20 +82,13 @@ You can add or update a default theme that applies to everyone within your org. 
 
 로고 **페이지에서** 로고를 추가하고 사용자가 로고를 선택할 때 이동할 URL을 지정할 수 있습니다.
 
-- **기본 로고:** 로고를 지정하는 URL 위치를 추가합니다. URL에서 HTTPS를 사용하며 이미지가 200 x 30 픽셀 이상인지 확인합니다. 기본 로고는 JPG, PNG, GIF 또는 SVG 형식일 수 있습니다.
+- **기본 로고:** 로고를 지정하는 URL 위치를 추가합니다. URL에서 HTTPS를 사용하는지 확인합니다. 로고를 업로드하는 경우 10kb 미만인지 확인 기본 로고는 JPG, PNG, GIF 또는 SVG 형식일 수 있습니다. SVG 이미지의 경우 세로로 24픽셀에 맞게 크기 조정됩니다. JPG, PNG, GIF 이미지는 200 x 48픽셀에 맞게 조정됩니다.
 - **대체 로고:** 로고를 지정하는 URL 위치를 추가합니다. 대체 로고는 어두운 테마에서 Office 최적화해야 합니다. 기본 로고와 동일한 요구 사항
-- **작은 기본 로고:** 로고를 지정하는 URL 위치를 추가합니다. 이미지는 48 x 48픽셀 이상입니다. 소형 또는 모바일 장치에 맞게 이 이미지를 확장할 수 있습니다.
-- **작은 대체 로고:** 로고를 지정하는 URL 위치를 추가합니다. 이 이미지의 요구 사항은 작은 기본 로고와 동일합니다.
 - **On-click link:** Add a URL location that points to your logo. 로고를 회사 웹 사이트와 같은 회사 리소스에 대한 링크로 사용할 수 있습니다.
 
 **저장** 을 선택하여 변경 내용을 저장합니다.
 
 로고는 어떤 경우든 제거할 수 있습니다. 로고 **페이지로 돌아가서** 제거를 **선택합니다.**
-
-:::image type="content" source="../../media/default-theme-logos.png" alt-text="Screenshot: Logos tab showing default theme logo for your organization":::
-
-> [!NOTE]
-> 기본적으로 대부분의 조직에서 사용하는 로고 선택이 먼저 표시됩니다. 모든 로고 선택을 표시하려면 목록 맨 아래로 이동하여 고급 옵션 **참조를 선택합니다.**
   
 ## <a name="colors-choose-theme-colors"></a>색: 테마 색 선택
 

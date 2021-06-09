@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: d8f589da32ae72383bbe2da7624c9bb846265679
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 26695df0e34c0e06adc4f58acf3fea83122c1982
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809296"
+ms.locfileid: "52844481"
 ---
 # <a name="create-a-custom-gradual-rollout-process-for-microsoft-defender-updates"></a>Microsoft Defender 업데이트에 대한 사용자 지정 서진 배포 프로세스 만들기
 
@@ -54,7 +54,7 @@ Defender 업데이트에 대한 사용자 지정 서서적 출시 프로세스�
 > [!NOTE]
 > 업데이트된 Defender ADMX 템플릿이 21H2 릴리스와 함께 Windows 10.
 
-그룹 정책을 [사용하여](https://docs.microsoft.com/windows/win32/srvnodes/group-policy?redirectedfrom=MSDN)끝점에서 Microsoft Defender 바이러스 백신   관리할 수 있습니다.
+그룹 정책을 [사용하여](/windows/win32/srvnodes/group-policy?redirectedfrom=MSDN)끝점에서 Microsoft Defender 바이러스 백신   관리할 수 있습니다.
 
 일반적으로 다음 절차에 따라 그룹 정책 설정을 구성하거나 Microsoft Defender 바이러스 백신 수 있습니다.
 
@@ -74,7 +74,7 @@ Defender 업데이트에 대한 사용자 지정 서서적 출시 프로세스�
 
 아래 링크의 지침에 따라 Intune에서 사용자 지정 정책을 만들 수 있습니다.
 
-[Windows 10 디바이스에 대한 사용자 지정 설정 Microsoft Intune - Azure \| Microsoft Docs](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10)
+[Windows 10 디바이스에 대한 사용자 지정 설정 Microsoft Intune - Azure \| Microsoft Docs](/mem/intune/configuration/custom-settings-windows-10)
 
 ## <a name="powershell"></a>PowerShell
 
@@ -94,4 +94,4 @@ Set-MpPreference
 
 베타 `Set-MpPreference -PlatformUpdatesChannel Beta` 채널에서 도착하도록 플랫폼 업데이트를 구성하는 데 사용할 수 있습니다.
 
-매개 변수 및 매개 변수를 구성하는 방법에 대한 자세한 내용은 [Set-MpPreference (Defender) | Microsoft Docs.](https://docs.microsoft.com/powershell/module/defender/set-mppreference?view=windowsserver2019-ps)
+매개 변수 및 매개 변수를 구성하는 방법에 대한 자세한 내용은 [Set-MpPreference (Defender) | Microsoft Docs.](/powershell/module/defender/set-mppreference?view=windowsserver2019-ps)

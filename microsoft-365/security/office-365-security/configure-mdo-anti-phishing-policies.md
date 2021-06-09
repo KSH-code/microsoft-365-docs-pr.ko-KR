@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9af3824b245cd976d1e859d6ebc4efcda47325e0
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: bc7575b87b8c5e512116f60ae98b700071e2bbd0
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793091"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822385"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 피싱 방지 정책 Office 365
 
@@ -61,7 +61,7 @@ Defender for Office 365 피싱 방지 보호의 효율성을 높이기 위해 �
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://security.microsoft.com/>에서 보안 센터를 엽니다. 피싱 방지 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/antiphishing> 사용하세요.
+- <https://security.microsoft.com>에서 보안 센터를 엽니다. 피싱 방지 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/antiphishing> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -243,7 +243,7 @@ Defender for Office 365 피싱 방지 보호의 효율성을 높이기 위해 �
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
-7. 표시되는 **검토** 페이지에서 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다. 또는 뒤로를 **클릭하거나** 마법사에서 특정 페이지를 선택할 수 있습니다.
+7. 표시되는 **검토** 페이지에서 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다. 또는 **뒤로** 를 클릭하거나 마법사에서 특정 페이지를 선택할 수 있습니다.
 
    완료되면 제출을 **클릭합니다.**
 

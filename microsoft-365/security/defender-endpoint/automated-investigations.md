@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: d4b0751938b66cc22dd59e2e7035077c5ef59ff9
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: e52471e1b3e9ee3a410de493b536f9d360d60624
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274823"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844445"
 ---
 # <a name="overview-of-automated-investigations"></a>자동화된 조사 개요
 
@@ -72,9 +72,9 @@ ms.locfileid: "52274823"
 
 결과가 도달하면 자동화된 조사를 통해 하나 이상의 수정 작업이 수행될 수 있습니다. 수정 작업의 예로는 파일을 검지로 보내기, 서비스 중지, 예약된 작업 제거 등입니다. 자세한 내용은 재구성 [작업 을 참조합니다.](manage-auto-investigation.md#remediation-actions)  
 
-조직에 설정된 [](automation-levels.md) 자동화 수준 및 기타 보안 설정에 따라 수정 작업은 자동으로 또는 보안 운영 팀의 승인 시에만 발생할 수 있습니다. 자동 수정에 영향을 줄 수 있는 추가 보안 설정에는 잠재적으로 원치 않는 응용 프로그램(PUA)으로부터의 [보호가](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) 포함됩니다. 
+조직에 설정된 [](automation-levels.md) 자동화 수준 및 기타 보안 설정에 따라 수정 작업은 자동으로 또는 보안 운영 팀의 승인 시에만 발생할 수 있습니다. 자동 수정에 영향을 줄 수 있는 추가 보안 설정에는 잠재적으로 원치 않는 응용 프로그램(PUA)으로부터의 [보호가](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) 포함됩니다. 
 
-보류 중인지 완료 여부에 따라 모든 수정 작업은 관리 센터에서 [추적됩니다.](auto-investigation-action-center.md) 필요한 경우 보안 운영 팀에서 수정 작업을 실행 취소할 수 있습니다. 자세한 내용은 자동화된 조사 후 재구성 작업 검토 및 [승인을 참조합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-auto-investigation)
+보류 중인지 완료 여부에 따라 모든 수정 작업은 관리 센터에서 [추적됩니다.](auto-investigation-action-center.md) 필요한 경우 보안 운영 팀에서 수정 작업을 실행 취소할 수 있습니다. 자세한 내용은 자동화된 조사 후 재구성 작업 검토 및 [승인을 참조합니다.](/microsoft-365/security/defender-endpoint/manage-auto-investigation)
 
 > [!TIP]
 > 보안 센터의 새로운 통합 조사 Microsoft 365 확인 합니다. 자세한 내용은 [(NEW!)를 참조하세요. 통합 조사 페이지.](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page)
@@ -88,7 +88,7 @@ ms.locfileid: "52274823"
 - Windows Server 2019
 - Windows 10 버전 1709(OS 빌드 [16299.1085(KB4493441)](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)이상
 - Windows 10 버전 1803(OS 빌드 [17134.704(KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)이상
-- Windows 10 버전 [1803](https://docs.microsoft.com/windows/release-information/status-windows-10-1809-and-windows-server-2019) 이상
+- Windows 10 버전 [1803](/windows/release-information/status-windows-10-1809-and-windows-server-2019) 이상
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -98,6 +98,6 @@ ms.locfileid: "52274823"
 
 ## <a name="see-also"></a>참고 항목
 
-- [PUA 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Microsoft Defender에서 자동화된 조사 및 Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
-- [Defender의 자동화된 조사 Microsoft 365 대응](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)
+- [PUA 보호](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
+- [Microsoft Defender에서 자동화된 조사 및 Office 365](/microsoft-365/security/office-365-security/office-365-air)
+- [Defender의 자동화된 조사 Microsoft 365 대응](/microsoft-365/security/defender/mtp-autoir)
