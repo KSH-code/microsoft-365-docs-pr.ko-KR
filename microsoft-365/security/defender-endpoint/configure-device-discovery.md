@@ -1,6 +1,6 @@
 ---
 title: 장치 검색 구성
-description: 기본 검색 또는 표준 검색을 사용하여 Microsoft 365 Defender에서 장치 검색을 구성하는 방법에 대해 자세히 알아보기
+description: 기본 검색 또는 표준 검색을 Microsoft 365 Defender에서 장치 검색을 구성하는 방법에 대해 자세히 알아보기
 keywords: 기본, 표준, 끝점 검색 구성, 장치 검색
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -32,7 +32,7 @@ ms.locfileid: "51765254"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -44,13 +44,13 @@ ms.locfileid: "51765254"
 
 
 > [!IMPORTANT]
-> 미리 보기를 위해 먼저 Microsoft Defender 보안 센터의 미리 보기 기능을 켜야 합니다.
-> 그런 다음 Microsoft 365 보안 센터에서 장치 검색 구성에 액세스할 수 있습니다. 관리되지 않는 장치 및 보안 권장 사항 목록은 Microsoft Defender 보안 센터와 Microsoft 365 보안 센터에서 모두 사용할 수 있으며 대시보드 타일은 Microsoft 365 보안 센터에서만 사용할 수 있습니다.
+> 미리 보기의 경우 먼저 2016에서 미리 보기 기능을 켜야 Microsoft Defender 보안 센터.
+> 그런 다음 보안 센터에서 장치 검색 구성에 액세스할 Microsoft 365 있습니다. 관리되지 않는 장치 및 보안 권장 사항 목록은 Microsoft Defender 보안 센터 및 Microsoft 365 보안 센터에서 사용할 수 있으며 대시보드 타일은 Microsoft 365 보안 센터에서만 사용할 수 있습니다.
 
 
-Microsoft 365 보안 센터에서 다음 구성 단계를 수행합니다.
+보안 센터에서 다음 구성 Microsoft 365 수행합니다.
 
-1.  장치 검색 **> 설정으로 이동합니다.**
+1.  장치 **검색 설정 > 로 이동합니다.**
 2.  온보드 디바이스에서 사용할 검색 모드를 선택합니다. 
 3.  표준 검색을 사용하기로 선택한 경우 해당 장치 태그를 지정하여 활성 프로비전에 사용할 장치(모든 장치 또는 하위 집합)를 선택합니다.
 4. **저장** 을 클릭합니다.
@@ -86,7 +86,7 @@ Microsoft 365 보안 센터에서 다음 구성 단계를 수행합니다.
 
 초기 검색 분류를 선택하면 기본 시스템 구성 네트워크 모니터 상태를 적용하는 것입니다. 기본 시스템 구성 네트워크 모니터 상태를 선택하면 회사로 식별된 네트워크가 모니터링되고 회사가 아닌 것으로 식별된 네트워크는 자동으로 무시됩니다.
  
-1. 장치 **검색 > 설정을 선택합니다.**
+1. 장치 **설정 > 를 선택합니다.**
 2. 모니터링된 **네트워크를 선택합니다.** 
 3. 네트워크 목록을 시청하세요. 
 4. 네트워크 이름 옆의 세 점을 선택합니다. 

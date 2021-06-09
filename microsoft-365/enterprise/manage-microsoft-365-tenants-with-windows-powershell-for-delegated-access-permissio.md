@@ -1,5 +1,5 @@
 ---
-title: DAP 파트너용 Microsoft 365 Windows PowerShell 관리
+title: DAP Microsoft 365 대한 Windows PowerShell 테넌트 관리
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
-description: 이 문서에서는 Microsoft 365용 PowerShell을 사용하여 고객 테넌트 관리 방법을 알아보고 있습니다.
+description: 이 문서에서는 고객 테넌트 관리에 PowerShell을 Microsoft 365 방법을 배워야 합니다.
 ms.openlocfilehash: 14290f04159e3ba0ce46971d204b71d3bb1600d9
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -24,16 +24,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46692417"
 ---
-# <a name="manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>DAP(위임된 액세스 Windows PowerShell) 파트너용 Microsoft 365 테넌트 관리
+# <a name="manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>DAP(위임된 액세스 Microsoft 365)에 대한 Windows PowerShell 테넌트 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Windows PowerShell Syndication 및 CSP(클라우드 솔루션 공급자) 파트너는 Microsoft 365 관리 센터에서 사용할 수 없는 고객 테넌트 설정을 쉽게 관리하고 보고할 수 있습니다. AOBO(관리 위임자) 권한은 파트너 관리자 계정에서 고객 테넌트에 연결하는 데 필요합니다.
+Windows PowerShell Syndication 및 클라우드 솔루션 공급자(CSP) 파트너는 Microsoft 365 관리 센터에서 사용할 수 없는 고객 테넌트 설정을 쉽게 관리하고 보고할 수 있습니다. AOBO(관리 위임자) 권한은 파트너 관리자 계정에서 고객 테넌트에 연결하는 데 필요합니다.
   
-DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다. 이러한 공급자는 다른 회사의 네트워크 또는 전자 통신 공급자인 경우가 많습니다. Microsoft 365 구독을 고객에게 제공하는 서비스 제품으로 번들로 묶습니다. Microsoft 365 구독을 판매하는 경우 고객 테넌트에 대한 AOBO(관리 대신 관리) 권한이 자동으로 부여되어 고객 테넌트에 대해 관리하고 보고할 수 있습니다.
+DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다. 이러한 공급자는 다른 회사의 네트워크 또는 전자 통신 공급자인 경우가 많습니다. 또한 Microsoft 365 서비스에 구독을 번들로 묶습니다. Microsoft 365 구독을 판매하는 경우 고객 테넌트에 대한 AOBO(관리 대신 관리) 권한이 자동으로 부여되어 고객 테넌트에 대해 관리하고 보고할 수 있습니다.
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-이 항목의 절차를 수행하려면 [PowerShell을 사용하여 Microsoft 365에 연결해야 합니다.](connect-to-microsoft-365-powershell.md)
+이 항목의 절차를 수행하려면 [PowerShell을](connect-to-microsoft-365-powershell.md)사용하여 커넥트 Microsoft 365 연결해야 합니다.
   
 파트너 테넌트 관리자 자격 증명도 필요합니다.
   
@@ -76,7 +76,7 @@ Get-MsolDomain -TenantId <customer TenantId value>
   
 ### <a name="get-a-mapping-of-all-tenants-and-registered-domains"></a>모든 테넌트 및 등록된 도메인의 매핑 가져오기
 
-Microsoft 365 명령에 대한 이전 PowerShell에서는 테넌트 ID 또는 도메인 중 하나를 검색하는 방법을 보여 주었지만 동시에 둘 다 검색하는 것은 아니며 둘 다 명백하게 매핑되지 않았습니다. 이 명령은 모든 고객 테넌트 ID와 도메인 목록을 생성합니다.
+Microsoft 365 명령에 대한 이전 PowerShell에서는 테넌트 ID 또는 도메인 중 하나를 검색하는 방법을 보여 주었지만 동시에 둘 다 검색하지는 못하며 둘 간에 명확한 매핑이 없습니다. 이 명령은 모든 고객 테넌트 ID와 도메인 목록을 생성합니다.
   
 ```
 $Tenants = Get-MsolPartnerContract -All; $Tenants | foreach {$Domains = $_.TenantId; Get-MsolDomain -TenantId $Domains | fl @{Label="TenantId";Expression={$Domains}},name}
@@ -100,7 +100,7 @@ Get-MsolUser -TenantId <customer TenantId value> -UserPrincipalName <user princi
 
 ### <a name="add-users-set-options-and-assign-licenses"></a>사용자 추가, 옵션 설정 및 라이선스 할당
 
-Microsoft 365 사용자의 대량 생성, 구성 및 라이선싱은 특히 Microsoft 365용 PowerShell을 사용하여 효율적입니다. 이 2단계 프로세스에서는 먼저 CSV(콤보로 구분된 값) 파일에 추가하려는 모든 사용자에 대한 항목을 만든 다음 Microsoft 365용 PowerShell을 사용하여 해당 파일을 가져올 수 있습니다. 
+사용자에 대한 대량 생성, 구성 및 Microsoft 365 PowerShell을 사용하여 특히 Microsoft 365. 이 2단계 프로세스에서는 먼저 CSV(콤보로 구분된 값) 파일에 추가하려는 모든 사용자에 대한 항목을 만든 다음 PowerShell을 사용하여 해당 파일을 Microsoft 365. 
   
 #### <a name="create-a-csv-file"></a>CSV 파일 만들기
 

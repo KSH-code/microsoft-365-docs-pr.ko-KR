@@ -28,17 +28,17 @@ ms.locfileid: "51570560"
 
 **이 문서의 예는** 이 문서는 준수 관리자를 설정하는 데 도움이 됩니다. 준수 **관리자에 액세스하고,** 역할 및 사용 권한을 설정하고, 개선 작업의 자동 테스트를 구성하는 방법을 **배워야 합니다.** 준수 **관리자 대시보드를** 탐색하고 개선 작업 페이지, 솔루션 페이지, 평가 페이지 및 평가 템플릿 페이지의 기본 페이지를 이해합니다.
 
-## <a name="who-can-access-compliance-manager"></a>준수 관리자에 액세스할 수 있는 사용자
+## <a name="who-can-access-compliance-manager"></a>Who 관리자에 액세스할 수 있는 사용자
 
-준수 관리자는 Office 365 및 Microsoft 365 라이선스가 있는 조직과 미국 GCC(정부 커뮤니티 클라우드) 보통, GCC High 및 DoD(국방부) 고객에게 제공됩니다. 평가 가용성 및 관리 기능은 사용권 계약에 따라 달라집니다.  [서비스 설명 세부 정보 보기.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+준수 관리자는 Office 365 및 Microsoft 365 라이선스가 있는 조직과 미국 정부 커뮤니티 클라우드(GCC) 보통, GCC High 및 DoD(국방부) 고객에게 제공됩니다. 평가 가용성 및 관리 기능은 사용권 계약에 따라 달라집니다.  [서비스 설명 세부 정보 보기.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-조직의 Microsoft 365 전역 관리자는 준수 관리자에 액세스하는 첫 번째 사용자일 수 있습니다. 규정 준수 관리자를 처음 방문할 때 전역 관리자가 로그인하고 아래에 설명된 사용자 권한을 설정하는 것이 좋습니다.
+조직의 Microsoft 365 전역 관리자가 준수 관리자에 액세스하는 첫 번째 사용자일 수 있습니다. 규정 준수 관리자를 처음 방문할 때 전역 관리자가 로그인하고 아래에 설명된 사용자 권한을 설정하는 것이 좋습니다.
 
 ## <a name="sign-in"></a>로그인
 
-1. [Microsoft 365](https://compliance.microsoft.com/) 규정 준수  센터로 이동하여 Microsoft 365 전역 관리자 계정으로 로그인합니다.
+1. 규정 [준수 Microsoft 365 이동하고](https://compliance.microsoft.com/) 전역 관리자 **계정으로** Microsoft 365 로그인합니다.
 2. 왼쪽 **탐색 창에서** 준수 관리자를 선택합니다. 준수 관리자 [대시보드에 도착합니다.](#understand-the-compliance-manager-dashboard)
 
 준수 관리자에 액세스하는 직접 링크는 [https://compliance.microsoft.com/compliancemanager](https://compliance.microsoft.com/compliancemanager) 입니다.
@@ -49,14 +49,14 @@ ms.locfileid: "51570560"
 
 ### <a name="where-to-set-permissions"></a>사용 권한을 설정할 위치
 
-조직에 대한 전역 관리자 역할을 보유하는 사용자는 준수 관리자에 대한 사용자 권한을 설정할 수 있습니다. 사용 권한은 Office 365 보안 및 준수 & Azure AD(Active Directory)에서 설정할 수 있습니다.
+조직에 대한 전역 관리자 역할을 보유하는 사용자는 준수 관리자에 대한 사용자 권한을 설정할 수 있습니다. 사용 권한은 Office 365 보안 & 및 Azure AD(Azure Active Directory)에서 설정할 수 있습니다.
 
 > [!NOTE]
-> GCC(미국 정부 커뮤니티) 높은 및 DoD(국방부) 환경의 고객은 Azure AD에서 준수 관리자에 대한 사용자 권한 및 역할만 설정할 수 있습니다. Azure AD 지침 및 역할 유형 정의는 아래를 참조하세요.
+> 미국 정부 Community(GCC) 높은 및 국방부(DoD) 환경의 고객은 Azure AD에서 준수 관리자에 대한 사용자 권한 및 역할만 설정할 수 있습니다. Azure AD 지침 및 역할 유형 정의는 아래를 참조하세요.
 
-Office 365 보안 및 준수 센터에서 권한을 설정하고 역할을 할당하려면 & 단계를 따르세요.
+Office 365 Security & 규정 준수 센터에서 사용 권한을 설정하고 역할을 할당하려면 다음 단계를 따릅니다.
 
-1. [Office 365 보안](https://protection.office.com/) 및 준수 & 이동하고 왼쪽 탐색에서 **사용** 권한을 선택합니다.
+1. Office 365 보안 & [센터로](https://protection.office.com/) 이동하고 왼쪽 탐색에서 **사용** 권한을 선택합니다.
 
 2. 하나 이상의 사용자를 추가할 역할 그룹을 찾고 그룹 이름 왼쪽에 있는 확인란을 선택합니다. (아래 역할 및 관련 [함수 목록을 참조하세요.](#role-types) 역할 그룹 이름은 역할 이름과 모방됩니다.)
 
@@ -70,15 +70,15 @@ Office 365 보안 및 준수 센터에서 권한을 설정하고 역할을 할�
 
 7. 사용자 할당을 완료했면 완료 **를** 선택한 다음 **저장,** **닫기 를 선택합니다.**
 
-##### <a name="more-about-the-office-365-security--compliance-center"></a>Office 365 보안 및 준수 & 대한 자세한 정보
+##### <a name="more-about-the-office-365-security--compliance-center"></a>Office 365 보안 & 규정 준수 센터에 대한 자세한 정보
 
-Office 365 보안 및 준수 센터의 사용 [권한에 & 자세히 알아보아야 합니다.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
+자세한 내용은 Office 365 보안 및 준수 [센터에서 & 합니다.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 Office 365 보안 및 준수 센터에 액세스할 수 없는 경우 또는 Microsoft Service Trust Portal에서 준수 관리자의 클래식 버전에 액세스해야 하는 경우 서비스 보안 포털의 관리 설정을 통해 역할을 할당할 수 있습니다(지침[보기).](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users) 이러한 역할은 기능에서 더 제한적입니다.
 
 ##### <a name="more-about-azure-ad"></a>Azure AD에 대한 자세한 내용은
 
-Azure AD에서 역할을 할당하고 권한을 설정하려면 Azure Active Directory를 사용하여 사용자에게 관리자 및 비 관리자 역할 [할당을 참조하세요.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
+Azure AD에서 역할을 할당하고 사용 권한을 설정하려면 역할이 있는 사용자에게 관리자 및 비 관리자 역할 [할당을 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
 Office 365 또는 Microsoft 365 구독이 없는 Azure AD ID가 있는 사용자는 Microsoft 365 규정 준수 센터에서 준수 관리자에 액세스할 수 없습니다. 준수 관리자에 액세스하는 데 도움이 필요한 경우 에 [cmresearch@microsoft.com.](mailto:cmresearch@microsoft.com)
 
@@ -89,30 +89,30 @@ Office 365 또는 Microsoft 365 구독이 없는 Azure AD ID가 있는 사용자
 
 | 사용자는 다음을 할 수 있습니다. | 준수 관리자 역할 | Azure AD 역할 | 
 | :------------- | :-------------: | :------------: |
-| **데이터를 읽지만 편집하지는 않습니다.**| 준수 관리자의 독자  | Azure AD Global Reader, 보안 판독기 | 
+| **데이터 읽기만 가능하고 편집할 수 없음**| 준수 관리자의 독자  | Azure AD Global Reader, 보안 판독기 | 
 | **데이터 편집**| 준수 관리자 기여 | 준수 관리자 | 
 | **테스트 결과 편집**| 준수 관리자의 평가자 | 준수 관리자 | 
 | **평가 및 템플릿 및 테넌트 데이터 관리**| 준수 관리자 관리 | 준수 관리자, 준수 데이터 관리자, 보안 관리자  | 
 | **사용자 할당**| 전역 관리자 | 전역 관리자 | 
 
-## <a name="settings-for-automated-testing-and-user-history"></a>자동화된 테스트 및 사용자 기록 설정
+## <a name="settings-for-automated-testing-and-user-history"></a>설정 테스트 및 사용자 기록에 대한 자세한 정보를 제공합니다.
 
-Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 개선 작업의 자동 테스트를 활성화 및 비활성화할 수 있습니다. 또한 이 설정을 사용하면 개선 작업과 관련된 사용자 데이터를 관리할 수 있습니다(개선 작업을 다른 사용자에게 다시 재배치하는 기능 포함).  전역 관리자 또는 준수 관리자 관리자 역할이 있는 사용자만 준수 관리자 설정에 액세스할 수 있습니다.
+Microsoft 365 준수 센터의 준수 관리자 설정을 사용하여 개선 작업의 자동 테스트를 사용하도록 설정하고 사용하지 않도록 설정할 수 있습니다. 또한 이 설정을 사용하면 개선 작업과 관련된 사용자 데이터를 관리할 수 있습니다(개선 작업을 다른 사용자에게 다시 재배치하는 기능 포함).  전역 관리자 또는 준수 관리자 관리자 역할이 있는 사용자만 준수 관리자 설정에 액세스할 수 있습니다.
 
 > [!NOTE]
-> 이러한 환경에서는 보안 점수가 제공되지 않는 GCC High 및 DoD 환경에서는 자동화된 테스트 기능을 사용할 수 없습니다. GCC High 및 DoD 고객은 개선 작업을 수동으로 구현하고 테스트해야 합니다.
+> 이러한 환경에서는 보안 점수가 제공되지 GCC DoD 환경의 고객은 자동화된 테스트 기능을 사용할 수 없습니다. GCC 높음 및 DoD 고객은 개선 작업을 수동으로 구현하고 테스트해야 합니다.
 
 ### <a name="set-up-automated-testing"></a>자동화된 테스트 설정
 
 준수 관리자의 일부 개선 작업도 [Microsoft 보안 점수에서 모니터링합니다.](../security/defender/microsoft-secure-score.md) 공동으로 모니터링되는 작업의 자동화된 테스트를 설정할 수 있습니다. 즉, 보안 점수에서 작업을 테스트하고 업데이트하면 해당 결과가 준수 관리자의 동일한 작업과 동기화되고 준수 점수에 계산됩니다.
 
-자동 테스트는 준수 관리자를 새로 설치하는 조직에 대해 기본적으로 설정됩니다. Microsoft 365 또는 Office 365를 처음 배포할 때 보안 점수가 데이터를 완전히 수집하고 준수 점수에 고려하는 데 약 7일이 소요됩니다.  자동화된 테스트가 켜져 있는 경우 작업의 테스트 날짜는 업데이트되지 않지만 테스트 상태가 업데이트됩니다. 새 평가를 만들면 자동으로 Microsoft 컨트롤 점수와 보안 점수 통합이 점수에 포함됩니다.
+자동 테스트는 준수 관리자를 새로 설치하는 조직에 대해 기본적으로 설정됩니다. 보안 점수 또는 Microsoft 365 Office 365 배포할 때 데이터를 완전히 수집하고 준수 점수에 고려하는 데 약 7일이 소요됩니다.  자동화된 테스트가 켜져 있는 경우 작업의 테스트 날짜는 업데이트되지 않지만 테스트 상태가 업데이트됩니다. 새 평가를 만들면 자동으로 Microsoft 컨트롤 점수와 보안 점수 통합이 점수에 포함됩니다.
 
 조직의 전역 관리자는 자동화된 테스트에 대한 설정을 변경할 수 있습니다. 일반적인 개선 작업에 대한 자동화된 테스트를 해제하거나 개별 작업에 대해 이 기능을 끄면 됩니다. 아래의 지침에 따라 자동화된 테스트 설정을 변경합니다.
 
 #### <a name="to-manage-your-automated-testing-settings"></a>자동화된 테스트 설정을 관리하려면
 
-1. Microsoft  [365](https://compliance.microsoft.com/)규정 준수 센터의 어디에서나 왼쪽 탐색의 설정을 선택합니다.
+1. 설정  센터의 아무 곳이나 왼쪽 탐색에 있는 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -134,7 +134,7 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 
 **사용자 기록 설정을 찾으면 다음을 입력합니다.**
 
-1. [Microsoft 365](https://compliance.microsoft.com/)규정 준수 센터의 어디에서나 왼쪽 탐색의 설정을 선택합니다.
+1. 설정 준수 센터의 아무 곳이나 왼쪽 탐색 창에서 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -146,13 +146,13 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 
 #### <a name="export-a-report-of-user-history-data"></a>사용자 기록 데이터 보고서 내보내기
 
-현재 사용자에게 할당된 개선 작업 목록이 포함된 Excel 파일을 내보낼 수 있습니다.  이 보고서에는 해당 사용자가 업로드한 증거 파일도 나열됩니다. 이 정보는 열기 개선 작업을 다시 재배치하는 데 도움이 될 수 있습니다.
+현재 사용자에게 Excel 개선 작업 목록이 포함된 사용자 지정 파일을 내보낼 수 있습니다.  이 보고서에는 해당 사용자가 업로드한 증거 파일도 나열됩니다. 이 정보는 열기 개선 작업을 다시 재배치하는 데 도움이 될 수 있습니다.
 
 보고서에는 개선 작업의 생성 날짜 현재 상태가 반영됩니다. 상태 또는 배정에 대한 모든 이전 변경 내용에 대한 기록 보고서는 아니며 개선 작업 페이지에서 보고서를 내보내는 방법에 [대해 자세히 알아보십시오.](compliance-manager-improvement-actions.md#export-a-report)
 
 **아래 단계에 따라 사용자에 따라 보고서를 내보낼 수 있습니다.**
 
-1. Microsoft  [365](https://compliance.microsoft.com/)규정 준수 센터의 어디에서나 왼쪽 탐색의 설정을 선택합니다.
+1. 설정  센터의 아무 곳이나 왼쪽 탐색에 있는 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -162,7 +162,7 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 
 5. **Select(선택)** 드롭다운 메뉴에서 **Export report(보고서 내보내기)를 선택합니다.**
 
-6. 보고서의 Excel 파일이 생성되는 경우 보고서 파일을 열고 로컬 컴퓨터로 저장할 수 있습니다.
+6. 보고서의 Excel 파일이 생성될 때 해당 파일을 열고 로컬 컴퓨터로 저장할 수 있습니다.
 
 #### <a name="reassign-improvement-actions-to-another-user"></a>다른 사용자에게 개선 작업 다시 재배치
 
@@ -170,7 +170,7 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 
 **다른 사용자에게 개선 작업을 다시 위임하기 위해 아래 단계를 따르세요.**
 
-1. Microsoft  [365](https://compliance.microsoft.com/)규정 준수 센터의 어디에서나 왼쪽 탐색의 설정을 선택합니다.
+1. 설정  센터의 아무 곳이나 왼쪽 탐색에 있는 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -197,7 +197,7 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 
 사용자 기록을 삭제하려면 다음 단계를 따릅니다.
 
-1. Microsoft  [365](https://compliance.microsoft.com/)규정 준수 센터의 어디에서나 왼쪽 탐색의 설정을 선택합니다.
+1. 설정  센터의 아무 곳이나 왼쪽 탐색에 있는 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -215,25 +215,25 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 
 준수 관리자 대시보드는 현재 규정 준수의 현재 입장을 한눈에 볼 수 있도록 디자인됩니다.
 
-![준수 관리자 - 대시보드](../media/compliance-manager-dashboard.png "준수 관리자 대시보드")
+![준수 관리자 - 대시보드](../media/compliance-manager-dashboard.png "준수 관리자 대시보드 검토")
 
-### <a name="overall-compliance-score"></a>전체 준수 점수
+### <a name="overall-compliance-score"></a>전체 규정 준수 점수
 
 준수 점수는 맨 위에 두드러게 추천됩니다. 이 백분율은 주요 데이터 보호 표준 및 규정을 충족하는 개선 작업을 완료하기 위해 달성할 수 있는 포인트를 기반으로 합니다. Microsoft에서 [관리되는 Microsoft](compliance-manager-assessments.md#microsoft-actions-tab)작업의 점수도 준수 점수에 계산됩니다.
 
-준수 관리자를 처음 시작하면 초기 점수는 [Microsoft 365](compliance-manager-assessments.md#data-protection-baseline-default-assessment)데이터 보호 기준을 기반으로 합니다. 모든 조직에서 사용할 수 있는 이 기준 평가는 일반적인 산업 규정 및 표준을 포함하는 제어 집합입니다. 준수 관리자는 기존 Microsoft 365 솔루션을 검사하고 현재 개인 정보 및 보안 설정에 따라 초기 평가를 제공합니다. 조직과 관련된 평가를 추가하면 점수가 더 의미가 있습니다.
+준수 관리자를 처음 사용하면 초기 점수는 데이터 보호 기준의 Microsoft 365 [합니다.](compliance-manager-assessments.md#data-protection-baseline-default-assessment) 모든 조직에서 사용할 수 있는 이 기준 평가는 일반적인 산업 규정 및 표준을 포함하는 제어 집합입니다. 준수 관리자는 기존 Microsoft 365 솔루션을 검사하고 현재 개인 정보 및 보안 설정에 따라 초기 평가를 제공합니다. 조직과 관련된 평가를 추가하면 점수가 더 의미가 있습니다.
 
 **자세한 내용은 다음을** [통해 준수 점수를 계산하는 방법을 이해합니다.](compliance-score-calculation.md)
 
-### <a name="key-improvement-actions"></a>주요 개선 작업
+### <a name="key-improvement-actions"></a>개선 작업
 
 이 섹션에는 현재 전체 준수 점수에 가장 긍정적인 영향을 미칠 수 있는 가장 큰 개선 작업이 나열됩니다. 모든 **개선 작업 보기를 선택하여** 개선 작업 페이지로 이동합니다.
 
-### <a name="solutions-that-affect-your-score"></a>점수에 영향을 주는 솔루션
+### <a name="solutions-that-affect-your-score"></a>성적에 영향을 주는 해결 방법
 
 이 섹션에서는 점수에 긍정적인 영향을 줄 수 있는 개선 작업이 포함된 솔루션과 해당 솔루션의 미해결 개선 작업 수에 대해 중점적으로 설명합니다. 솔루션 **페이지를 방문하려면** 모든 솔루션 보기를 선택합니다.
 
-### <a name="compliance-score-breakdown"></a>준수 점수 분석
+### <a name="compliance-score-breakdown"></a>규정 준수 점수 세분화
 
 이 섹션에서는 다음 두 가지 방법으로 점수에 대한 자세한 정보를 볼 수 있습니다.
 
@@ -316,7 +316,7 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 
 1. 원하는 솔루션의 행에 있는  나머지 작업 열에서 하이퍼링크된 번호를 선택합니다. 해당 솔루션에 대해 미확인 개선 작업을 보여 주며 개선 작업 화면의 필터링된 보기가 표시됩니다.
 
-2. 원하는 솔루션 행의 솔루션 **열** 열에서 **열기 를 선택합니다.** 권장 조치를 취할 수 있는 Microsoft 365 및 Office 365 보안 및 규정 준수 센터에 솔루션 또는 위치가 표시됩니다.
+2. 원하는 솔루션 행의 솔루션 **열** 열에서 **열기 를 선택합니다.** 권장 조치를 취할 수 있는 Microsoft 365 및 Office 365 및 규정 준수 센터에 솔루션 또는 위치가 표시됩니다.
 
 ## <a name="assessments-page"></a>평가 페이지
 
@@ -336,7 +336,7 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 - **개선 작업:** 컨트롤 구현을 충족하기 위한 완료된 작업 수
 - **Microsoft 작업:** Microsoft 컨트롤 구현을 충족하기 위한 완료된 작업 수
 - **Group**: 평가가 속한 그룹의 이름
-- **제품**: 관련 Microsoft 365 서비스
+- **제품**: 연결된 Microsoft 365 서비스
 - **규정**: 평가에 적용되는 규제 표준, 정책 또는 법률
 
 ### <a name="filtering-your-assessments-view"></a>평가 보기 필터링
@@ -353,13 +353,13 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 
 기본적으로 평가 페이지에 데이터 [](compliance-manager-assessments.md#data-protection-baseline-default-assessment) 보호 기준 평가가 표시됩니다. 준수 관리자는 평가를 작성하기 위해 미리 [작성된](compliance-manager-templates-list.md) 여러 템플릿도 제공합니다.
 
-## <a name="assessment-templates-page"></a>평가 템플릿 페이지
+## <a name="assessment-templates-page"></a>평가 서식 파일 페이지
 
-템플릿은 준수 관리자에서 평가를 만들기 위한 프레임워크입니다. 평가 템플릿 페이지에 서식 파일 및 주요 세부 정보 목록이 표시됩니다. 목록에는 준수 관리자가 제공한 서식 파일과 조직에서 수정하거나 만든 모든 템플릿이 포함됩니다. 필터를 적용하여 인증, 제품 범위, 국가, 산업 및 해당 템플릿을 만든 사용자에 따라 템플릿을 찾을 수 있습니다.
+서식 파일은 규정 준수 관리자에서 평가를 만들기 위한 프레임워크입니다. 평가 서식 파일 페이지에는 서식 파일 및 주요 세부 정보 목록이 표시됩니다. 목록에는 준수 관리자가 제공한 서식 파일과 조직에서 수정하거나 만든 모든 템플릿이 포함됩니다. 필터를 적용하여 인증, 제품 범위, 국가, 산업 및 해당 템플릿을 만든 사용자에 따라 템플릿을 찾을 수 있습니다.
 
 페이지 **위쪽** 근처의 활성화된 템플릿 카운터에는 조직에서 사용할 수 있는 총 서식 파일 수에서 현재 사용 중인 활성 평가 템플릿의 수가 표시됩니다. 자세한 [내용은 템플릿](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) 유형을 참조하세요.
 
-해당 행에서 템플릿을 선택하여 템플릿에 대한 설명과 인증, 범위 및 컨트롤 세부 정보에 대한 추가 정보가 포함된 세부 정보 페이지를 가져올 수 있습니다. 이 페이지에서 평가를 만들거나, 서식 파일을 Excel로 내보내거나, 서식 파일을 수정할 수 있는 적절한 단추를 선택할 수 있습니다.
+해당 행에서 템플릿을 선택하여 템플릿에 대한 설명과 인증, 범위 및 컨트롤 세부 정보에 대한 추가 정보가 포함된 세부 정보 페이지를 가져올 수 있습니다. 이 페이지에서 평가를 만들거나 템플릿 데이터를 내보낼 적절한 단추를 선택하거나 템플릿을 Excel 수 있습니다.
 
 **자세한 내용은 평가** [템플릿으로 작업하는 방법을 읽어 를 읽어보아야 합니다.](compliance-manager-templates.md)
 

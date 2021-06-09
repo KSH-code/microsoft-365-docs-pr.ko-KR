@@ -25,7 +25,7 @@ ms.locfileid: "50926558"
 ---
 # <a name="collect-ediscovery-diagnostic-information"></a>eDiscovery 진단 정보 수집
 
-경우에 따라 Microsoft 지원 엔지니어가 Core eDiscovery 또는 Advanced eDiscovery와 관련된 지원 사례를 열 때 해당 문제와 관련된 특정 정보를 요구합니다. 이 문서에서는 지원 엔지니어가 문제를 조사하고 해결하는 데 도움이 되는 진단 정보를 수집하는 방법에 대한 지침을 제공합니다. 일반적으로 Microsoft 기술 지원 엔지니어가 요청하기 전까지는 이 정보를 수집할 필요가 없습니다.
+경우에 따라 Microsoft 지원 엔지니어가 Core eDiscovery 또는 지원과 관련된 지원 사례를 열 때 사용자 Advanced eDiscovery. 이 문서에서는 지원 엔지니어가 문제를 조사하고 해결하는 데 도움이 되는 진단 정보를 수집하는 방법에 대한 지침을 제공합니다. 일반적으로 Microsoft 기술 지원 엔지니어가 요청하기 전까지는 이 정보를 수집할 필요가 없습니다.
 
 > [!IMPORTANT]
 > 이 문서에 설명된 cmdlet 및 진단 정보의 출력에는 조직의 소송 또는 내부 조사에 대한 중요한 정보가 포함되어 있을 수 있습니다. Microsoft 지원에 원시 진단 정보를 보내기 전에 정보를 검토하고 으로 바꾸어 중요한 정보(예: 소송 또는 조사 당사자에 대한 이름 또는 기타 정보)를 변경해야 `XXXXXXX` 합니다. 또한 이 방법을 사용하면 Microsoft 기술 지원 엔지니어에게 정보가 다시 시정된 것으로 표시됩니다.
@@ -39,7 +39,7 @@ Core eDiscovery에 대한 진단 정보를 수집하는 것은 cmdlet 기반이�
 생성된 텍스트 파일을 검토하고 중요한 정보를 편집한 후 사례를 작업하는 Microsoft 기술 지원 엔지니어에게 전송합니다.
 
 > [!NOTE]
-> 이 섹션의 명령을 실행하여 Microsoft 365 규정 준수 센터의  콘텐츠 검색 페이지에 나열된 검색 및 내보내기에 대한 진단 정보를 수집할 수도 있습니다.
+> 또한 이 섹션의 명령을 실행하여 준수 센터의 콘텐츠 검색 페이지에 나열된 검색 및 내보내기에 대한 진단 Microsoft 365 있습니다. 
 
 ### <a name="collect-information-about-searches"></a>검색에 대한 정보 수집
 
@@ -67,25 +67,25 @@ Get-CaseHoldPolicy "<Case hold policy name>" | %{"--CaseHoldPolicy--";$_|FL;"--C
 
 ### <a name="collect-all-case-information"></a>모든 사례 정보 수집
 
-경우에 따라 Microsoft 지원에서 문제를 조사하는 데 필요한 정보가 분명하지 않은 경우도 있습니다. 이 경우 Core eDiscovery 사례에 대한 모든 진단 정보를 수집할 수 있습니다. 다음 *명령의 Core eDiscovery* 사례 이름은 Microsoft 365 규정 준수 센터의 **Core eDiscovery** 페이지에 표시되는 사례의 이름과 동일합니다.
+경우에 따라 Microsoft 지원에서 문제를 조사하는 데 필요한 정보가 분명하지 않은 경우도 있습니다. 이 경우 Core eDiscovery 사례에 대한 모든 진단 정보를 수집할 수 있습니다. 다음 *명령의 Core eDiscovery* 사례 이름은 준수 센터의 **Core eDiscovery** 페이지에 표시되는 사례의 이름과 Microsoft 365 같습니다.
 
 ```powershell
 Get-ComplianceCase "<Core eDiscovery case name>"| %{"$($_.Name)";"`t==Searches==";Get-ComplianceSearch -Case $_.Name | FL;"`t==Search Actions==";Get-ComplianceSearchAction -Case $_.Name |FL;"`t==Holds==";Get-CaseHoldPolicy -Case $_.Name | %{$_|FL;"`t`t ==$($_.Name) Rules==";Get-CaseHoldRule -Policy $_.Name | FL}} > "eDiscoveryCase.txt"
 ```
 
-## <a name="collect-diagnostic-information-for-advanced-ediscovery"></a>Advanced eDiscovery에 대한 진단 정보 수집
+## <a name="collect-diagnostic-information-for-advanced-ediscovery"></a>사용자에 대한 진단 Advanced eDiscovery
 
-Advanced  eDiscovery 사례의 설정 탭을 사용하면 사례에 대한 진단 정보를 빠르게 복사할 수 있습니다. 진단 정보는 클립보드에 저장되어 텍스트 파일에 붙여넣고 Microsoft 지원에 보낼 수 있습니다.
+설정  사례의 Advanced eDiscovery 탭을 사용하면 사례에 대한 진단 정보를 빠르게 복사할 수 있습니다. 진단 정보는 클립보드에 저장되어 텍스트 파일에 붙여넣고 Microsoft 지원에 보낼 수 있습니다.
 
 1. 으로 [https://compliance.microsoft.com](https://compliance.microsoft.com/) 이동한 다음 **모든 eDiscovery**> 표시를 > 클릭합니다.
 
-2. 사례를 선택한 다음 설정 **탭을** 클릭합니다.
+2. 사례를 선택한 다음 설정 **클릭합니다.**
 
 3. 사례 **정보에서** 선택을 **클릭합니다.**
 
 4. 플라이아웃 페이지에서 진단  정보 복사를 클릭하여 정보를 클립보드에 복사합니다.
 
-5. 메모장에서 텍스트 파일을 열고 텍스트 파일에 정보를 붙여 넣습니다.
+5. 텍스트 파일(메모장)을 열고 텍스트 파일에 정보를 붙여 넣습니다.
 
 6. 텍스트 파일을 저장하고 다음과 같은 이름을 `AeD Diagnostic Info YYYY.MM.DD` 지정합니다(예: `AeD Diagnostic Info 2020.11.03` ).
 

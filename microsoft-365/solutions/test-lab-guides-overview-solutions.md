@@ -16,7 +16,7 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - Ent_Architecture
-description: 테스트 랩 가이드를 사용하여 개발/테스트 환경에서 Microsoft 365 솔루션 및 시나리오를 구축합니다.
+description: 테스트 랩 가이드를 사용하여 개발/테스트 Microsoft 365 및 시나리오를 구축할 수 있습니다.
 ms.openlocfilehash: 10ddfc9cb9f9135b352be50c555811342ae0bd2b
 ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
@@ -34,6 +34,6 @@ TLS는 모듈 방식으로 설계되었습니다. 따라서 각 모듈을 조합
   
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-이 [테스트 랩 가이드를 사용해](team-security-isolation-dev-test.md) 보안이 설정된 팀을 설정해 보세요.
+이 [테스트 랩 가이드를 참조하여](team-security-isolation-dev-test.md) 보안이 강화된 팀을 설정해 보세요.
 
-Microsoft 365 기능 및 구성에 대한 추가 가이드는 [엔터프라이즈용 Microsoft 365 테스트 랩 가이드를 참조하세요.](../enterprise/m365-enterprise-test-lab-guides.md)
+Microsoft 365 및 구성에 대한 추가 가이드는 Microsoft 365 테스트 랩 가이드를 [참조하세요.](../enterprise/m365-enterprise-test-lab-guides.md)

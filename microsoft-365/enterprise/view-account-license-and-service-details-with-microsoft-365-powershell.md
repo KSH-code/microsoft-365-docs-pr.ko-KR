@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 통해 Microsoft 365 계정 라이선스 및 서비스 세부 정보 보기
+title: PowerShell을 Microsoft 365 계정 라이선스 및 서비스 세부 정보 보기
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,7 +18,7 @@ ms.custom:
 - Ent_Office_Other
 - LIL_Placement
 ms.assetid: ace07d8a-15ca-4b89-87f0-abbce809b519
-description: PowerShell을 사용하여 사용자에게 할당된 Microsoft 365 서비스를 확인하는 방법을 설명합니다.
+description: PowerShell을 사용하여 사용자에게 할당된 Microsoft 365 서비스를 확인하는 방법에 대해 설명
 ms.openlocfilehash: 163a92ec31f700aa6157e58b49e23a1cec587815
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -26,19 +26,19 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46692881"
 ---
-# <a name="view-microsoft-365-account-license-and-service-details-with-powershell"></a>PowerShell을 통해 Microsoft 365 계정 라이선스 및 서비스 세부 정보 보기
+# <a name="view-microsoft-365-account-license-and-service-details-with-powershell"></a>PowerShell을 Microsoft 365 계정 라이선스 및 서비스 세부 정보 보기
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365에서 라이선스 계획(SKUS 또는 Microsoft 365 계획이라고도 하는 라이선스)을 통해 사용자는 해당 요금제에 대해 정의된 Microsoft 365 서비스에 액세스할 수 있습니다. 그러나 사용자는 현재 할당된 라이선스에서 사용할 수 있는 모든 서비스에 액세스하지 못할 수도 있습니다. Microsoft 365용 PowerShell을 사용하여 사용자 계정의 서비스 상태를 볼 수 있습니다. 
+Microsoft 365 라이선스 계획(SKUS 또는 Microsoft 365 계획이라고도 하는 라이선스)을 통해 사용자는 해당 계획에 대해 정의된 Microsoft 365 서비스에 액세스할 수 있습니다. 그러나 사용자는 현재 할당된 라이선스에서 사용할 수 있는 모든 서비스에 액세스하지 못할 수도 있습니다. PowerShell을 사용하여 사용자 Microsoft 365 서비스 상태를 볼 수 있습니다. 
 
-라이선스 계획, 라이선스 및 서비스에 대한 자세한 내용은 PowerShell을 통해 라이선스 및 [서비스 보기를 참조하세요.](view-licenses-and-services-with-microsoft-365-powershell.md)
+라이선스 계획, 라이선스 및 서비스에 대한 자세한 내용은 PowerShell을 통해 라이선스 및 서비스 [보기를 참조하세요.](view-licenses-and-services-with-microsoft-365-powershell.md)
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
-다음으로, 이 명령을 사용하여 테넌트의 라이선스 계획을 나열합니다.
+다음으로, 이 명령을 사용하여 테넌트에 대한 라이선스 계획을 나열합니다.
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
@@ -69,7 +69,7 @@ $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 다음으로, 이 명령을 실행하여 조직에서 사용할 수 있는 라이선스 계획을 나열합니다. 
 
@@ -80,7 +80,7 @@ Get-MsolAccountSku
 >PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol** 이 있는 cmdlet을 지원하지 않습니다. 이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.
 >
 
-그런 다음 이 명령을 실행하여 각 라이선스 계획에서 사용할 수 있는 서비스와 나열되는 순서(인덱스 번호)를 나열합니다.
+그런 다음 이 명령을 실행하여 각 라이선스 계획에서 사용할 수 있는 서비스와 서비스가 나열되는 순서(인덱스 번호)를 나열합니다.
 
 ```powershell
 (Get-MsolAccountSku | where {$_.AccountSkuId -eq "<AccountSkuId>"}).ServiceStatus
@@ -94,7 +94,7 @@ Get-MsolUser -UserPrincipalName <user account UPN> | Format-List DisplayName,Lic
 
 ### <a name="to-view-services-for-a-user-account"></a>사용자 계정에 대한 서비스를 보기 위해
 
-사용자가 액세스할 수 있는 모든 Microsoft 365 서비스를 보고 다음 구문을 사용 합니다.
+사용자가 액세스할 수 있는 Microsoft 365 모든 서비스 보기 위해 다음 구문을 사용 합니다.
   
 ```powershell
 (Get-MsolUser -UserPrincipalName <user account UPN>).Licenses[<LicenseIndexNumber>].ServiceStatus
@@ -112,7 +112,7 @@ Get-MsolUser -UserPrincipalName <user account UPN> | Format-List DisplayName,Lic
 (Get-MsolUser -UserPrincipalName belindan@litwareinc.com).Licenses[0].ServiceStatus
 ```
 
-여러 라이선스가 할당된 사용자에 대한 모든 서비스를 보고 *다음* 구문을 사용 합니다.
+여러 라이선스가 할당된 사용자에 대한 모든 서비스를 보고 다음 구문을 사용 합니다.
 
 ```powershell
 $userUPN="<user account UPN>"

@@ -19,21 +19,21 @@ ms.locfileid: "51574550"
 ---
 # <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 인쇄 리소스 준비
 
-Microsoft Managed Desktop에 등록할 준비가 되면 인쇄 요구 사항을 평가하고 환경에 적합한 방법을 결정해야 합니다. 다음과 같은 세 가지 옵션이 있습니다.
+응용 프로그램에 등록할 준비가 Microsoft Managed Desktop 인쇄 요구 사항을 평가하고 환경에 적합한 방법을 결정해야 합니다. 다음과 같은 세 가지 옵션이 있습니다.
  
-- Microsoft Managed Desktop 장치가 프린터를 쉽게 검색할 수 있도록 Microsoft 유니버설 인쇄 솔루션을 배포합니다. 자세한 내용은 유니버설 인쇄 [를 참조하세요.](/universal-print/fundamentals/universal-print-whatis)
+- Microsoft 유니버설 인쇄 솔루션을 배포하여 Microsoft Managed Desktop 쉽게 검색할 수 있습니다. 자세한 내용은 유니버설 인쇄 [를 참조하세요.](/universal-print/fundamentals/universal-print-whatis)
 - 사용자 지정 PowerShell 스크립트를 사용하여 프린터를 직접 배포합니다. 로컬 프린터 설정 [섹션의 단계를](#set-up-local-printers) 따릅니다.
-- Azure Active Directory 도메인에 가입된 Windows 10 장치와 호환되는 Microsoft가 아닌 클라우드 인쇄 솔루션을 사용하세요. 솔루션은 Microsoft Managed Desktop의 소프트웨어 요구 사항을 충족해야 합니다. 자세한 내용은 Microsoft Managed Desktop 앱 [요구 사항을 참조하세요.](../service-description/mmd-app-requirements.md)
+- Windows 10 도메인에 가입된 디바이스와 호환되는 Microsoft가 아닌 클라우드 인쇄 Azure Active Directory 사용 이 솔루션은 해당 솔루션에 대한 소프트웨어 요구 사항을 Microsoft Managed Desktop. 자세한 내용은 앱 요구 [Microsoft Managed Desktop 참조하세요.](../service-description/mmd-app-requirements.md)
  
-모든 경우에 프린터 드라이버를 Microsoft Update 또는 Microsoft Store에서 사용할 수 없는 경우 프린터 드라이버를 직접 얻어 Microsoft Intune을 사용하여 Microsoft Managed Desktop 디바이스에 배포할 수 있도록 패키지로 제공해야 합니다. 자세한 내용은 [Intune 독립 실행형 - Win32 앱 관리를 참조하세요.](/mem/intune/apps/apps-win32-app-management)
+모든 경우 프린터 드라이버를 Microsoft Update 또는 Microsoft Store 사용할 수 없는 경우 프린터 드라이버를 직접 확보하고 프린터가 있는 Microsoft Managed Desktop 장치로 배포하기 위해 패키지로 Microsoft Intune. 자세한 내용은 [Intune 독립 실행형 - Win32 앱 관리를 참조하세요.](/mem/intune/apps/apps-win32-app-management)
 
 ## <a name="set-up-local-printers"></a>로컬 프린터 설정
 
 사용자 지정 PowerShell 스크립트를 사용하여 프린터를 배포하기로 결정하고 인쇄 리소스를 준비한 경우 다음 단계에 따라 공유 프린터를 배포합니다.
 
-1.  Microsoft Managed Desktop 포털로 이동합니다.
+1.  검색 포털로 Microsoft Managed Desktop 이동합니다.
 2.  관리 포털의  지원 >  지원 요청 섹션에서 레이블이 붙은 프린터 배포 요청을 제출하여 다음 세부 정보를 제공합니다.
-    - Microsoft Managed Desktop 장치에 배포해야 하는 공유 프린터 위치에 대한 모든 UNC 경로
+    - 공유 프린터 위치에 대해 배포해야 하는 공유 프린터 위치에 대한 모든 UNC Microsoft Managed Desktop 경로
     - 이러한 공유 프린터에 액세스해야 하는 사용자 그룹
 3.  관리 포털을 사용하여 요청이 완료된 경우 이를 알 수 있습니다. 처음에는 테스트 배포 그룹의 장치에만 구성을 배포합니다.
 4.  구성이 예상한 결과로 작동하는지 테스트하고 확인해야 합니다. 테스트 완료  시 알려주기 위해 지원 요청의 토론 탭을 사용하여 회신합니다.
@@ -41,7 +41,7 @@ Microsoft Managed Desktop에 등록할 준비가 되면 인쇄 요구 사항을 
 
 ## <a name="steps-to-get-ready"></a>준비 단계
 
-1. Microsoft Managed Desktop의 선행 [준비를 검토합니다.](prerequisites.md)
+1. 에 대한 [선행 Microsoft Managed Desktop.](prerequisites.md)
 2. 준비 [평가 도구를 사용합니다.](readiness-assessment-tool.md)
 3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
 4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
@@ -49,4 +49,4 @@ Microsoft Managed Desktop에 등록할 준비가 되면 인쇄 요구 사항을 
 6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
 7. [Microsoft Managed Desktop의 앱](apps.md)
 8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
-9. [Microsoft Managed Desktop용](printing.md) 인쇄 리소스 준비(이 문서)
+9. [이 문서의 인쇄 리소스 Microsoft Managed Desktop](printing.md) 준비(이 문서)

@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: 이 문서에서는 위성 지리적 위치에서 SharePoint Multi-Geo를 사용하도록 설정하는 데 대한 전역 관리자 또는 SharePoint 관리자를 위한 정보를 제공합니다.
+description: 이 문서에서는 위성 지리적 위치에서 전역 또는 SharePoint 관리자를 위한 SharePoint Multi-Geo 정보를 제공합니다.
 ms.openlocfilehash: 78f0e925a333dd48a6016bc749459b13e1ac21c0
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

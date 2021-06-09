@@ -29,19 +29,19 @@ ms.locfileid: "48487687"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에 대한 페더레이션 ID
 
-*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 및 Office 365 Enterprise 테스트 환경에 모두 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 및 엔터프라이즈용 Microsoft 365 둘 다에 사용할 Office 365 Enterprise 있습니다.*
 
 Microsoft 365는 페더레이션 ID를 지원합니다. 즉, 자격 증명 자체의 유효성 검사를 수행하는 대신, Microsoft 365는 Microsoft 365가 신뢰하는 페더레이션 인증 서버에 사용자를 연결하는 것을 의미합니다. 사용자의 자격 증명이 올바른 경우 페더레이션 인증 서버는 보안 토큰을 발급하며, 그런 후에 클라이언트는 인증의 증거로 해당 보안 토큰을 Microsoft 365로 전송합니다. 페더레이션 ID를 사용하면 Microsoft 365 구독과 고급 인증 및 보안 시나리오의 부하 부담을 줄이고 강화할 수 있습니다.
   
-이 문서에서는 Microsoft 365 테스트 환경에 대해 페더티된 인증을 구성하여 다음과 같은 방법을 제공합니다.
+이 문서에서는 Microsoft 365 환경에 대해 페더티된 인증을 구성하여 다음과 같은 방법을 제공합니다.
 
 ![Microsoft 365 테스트 환경에 대한 페더레이션 인증](../media/federated-identity-for-your-microsoft-365-dev-test-environment/federated-tlg-phase3.png)
   
 이 구성 내용은 다음과 같습니다.
   
-- Microsoft 365 E5 평가판 또는 프로덕션 구독
+- 평가 Microsoft 365 E5 또는 프로덕션 구독입니다.
     
-- 인터넷에 연결된 간소화된 조직 인트라넷으로, Azure Virtual Network 서브넷에 있는 5개의 가상 머신(DC1, APP1, CLIENT1, ADFS1 및 PROXY1)으로 구성됩니다. Azure AD Connect는 Active Directory 도메인 서비스 도메인의 계정 목록을 Microsoft 365와 동기화하기 위해 APP1에서 실행됩니다. PROXY1은 들어오는 인증 요청을 수신합니다. ADFS1은 DC1을 사용하여 자격 증명의 유효성을 검사하고 보안 토큰을 발행합니다.
+- 인터넷에 연결된 간소화된 조직 인트라넷으로, Azure Virtual Network 서브넷에 있는 5개의 가상 머신(DC1, APP1, CLIENT1, ADFS1 및 PROXY1)으로 구성됩니다. Azure AD 커넥트 ACTIVE Directory 도메인 서비스 도메인의 계정 목록을 동기화하기 위해 APP1에서 Microsoft 365. PROXY1은 들어오는 인증 요청을 수신합니다. ADFS1은 DC1을 사용하여 자격 증명의 유효성을 검사하고 보안 토큰을 발행합니다.
     
 이 테스트 환경 설정에는 다음 다섯 단계가 필요합니다.
 - [1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성](#phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment)
@@ -55,14 +55,14 @@ Microsoft 365는 페더레이션 ID를 지원합니다. 즉, 자격 증명 자�
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성
 
-[Microsoft 365의](password-hash-sync-m365-ent-test-environment.md)암호 해시 동기화 지침을 따릅니다. 결과 구성은 다음과 같습니다.
+에 대한 암호 [해시 동기화의 지침을 Microsoft 365.](password-hash-sync-m365-ent-test-environment.md) 구성 결과는 다음과 같습니다.
   
 ![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/federated-identity-for-your-microsoft-365-dev-test-environment/federated-tlg-phase1.png)
   
 이 구성은 다음으로 이루어집니다.
   
-- Microsoft 365 E5 평가판 또는 유료 구독
-- 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. Azure AD Connect는 TESTLAB AD DS(Active Directory Domain Services) 도메인을 Microsoft 365 구독의 Azure AD 테넌트와 주기적으로 동기화하기 위해 APP1에서 실행됩니다.
+- 평가 Microsoft 365 E5 또는 유료 구독입니다.
+- 인터넷에 연결된 간소화된 조직 인트라넷으로, Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. Azure AD 커넥트 APP1에서 실행되어 TESTLAB AD DS(Active Directory 도메인 서비스) 도메인을 주기적으로 Microsoft 365 구독의 Azure AD 테넌트와 동기화합니다.
 
 ## <a name="phase-2-create-the-ad-fs-server"></a>2단계: AD FS 서버 만들기
 
@@ -104,7 +104,7 @@ Add-Computer -DomainName corp.contoso.com -Credential $cred
 Restart-Computer
 ```
 
-결과 구성은 다음과 같습니다.
+구성 결과는 다음과 같습니다.
   
 ![AD FS 서버가 Microsoft 365 테스트 환경에 추가됨](../media/federated-identity-for-your-microsoft-365-dev-test-environment/federated-tlg-phase2.png)
   
@@ -155,7 +155,7 @@ Add-Computer -DomainName corp.contoso.com -Credential $cred
 Restart-Computer
 ```
 
-로컬 컴퓨터에서 이러한 Azure PowerShell 명령을 사용하여 PROXY1의 공용 IP 주소를 표시합니다.
+로컬 컴퓨터에서 다음 명령과 함께 PROXY1의 Azure PowerShell IP 주소를 표시합니다.
   
 ```powershell
 Write-Host (Get-AzPublicIpaddress -Name "PROXY1-PIP" -ResourceGroup $rgName).IPAddress
@@ -171,7 +171,7 @@ Add-DnsServerResourceRecordA -Name "fs" -ZoneName corp.contoso.com -AllowUpdateA
 ```
 이러한 명령은 Azure Virtual Network의 가상 머신이 내부 페더전 서비스 FQDN을 ADFS1의 개인 IP 주소로 확인할 수 있도록 내부 DNS A 레코드를 생성합니다.
   
-결과 구성은 다음과 같습니다.
+구성 결과는 다음과 같습니다.
   
 ![웹 응용프로그램 프록시 서버가 Microsoft 365 테스트 환경에 대한 DirSync에 추가됨](../media/federated-identity-for-your-microsoft-365-dev-test-environment/federated-tlg-phase3.png)
   
@@ -181,12 +181,12 @@ Add-DnsServerResourceRecordA -Name "fs" -ZoneName corp.contoso.com -AllowUpdateA
   
 먼저, [Azure Portal](https://portal.azure.com)에서 CORP\\User1 자격 증명을 사용하여 DC1 가상 머신에 연결하고 관리자 수준 Windows PowerShell 명령 프롬프트를 엽니다.
   
-다음으로 DC1의 명령 프롬프트에서 다음 명령을 사용하여 AD FS Windows PowerShell 계정을 생성합니다.
+다음으로 DC1의 Windows PowerShell 명령 프롬프트에서 이 명령을 사용하여 AD FS 서비스 계정을 생성합니다.
   
 ```powershell
 New-ADUser -SamAccountName ADFS-Service -AccountPassword (read-host "Set user password" -assecurestring) -name "ADFS-Service" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
-이 명령은 계정 암호를 입력하라는 메시지를 표시합니다. 강력한 암호를 선택하고 안전한 위치에 기록합니다. 이 단계 및 5단계에 필요합니다.
+이 명령은 계정 암호를 입력하라는 메시지를 표시합니다. 강력한 암호를 선택하고 안전한 위치에 기록합니다. 이 단계와 5단계에 필요합니다.
   
 [Azure Portal](https://portal.azure.com)에서 CORP\\User1 자격 증명을 사용하여 ADFS1 가상 머신에 연결합니다. ADFS1에서 관리자 수준 Windows PowerShell 명령 프롬프트를 열고 페더레이션 서비스 FQDN을 입력한 후 다음 명령을 실행하여 자체 서명된 인증서를 만듭니다.
   
@@ -199,33 +199,33 @@ New-SmbShare -name Certs -path c:\Certs -changeaccess CORP\User1
 
 다음 단계를 사용하여 새 자체 서명된 인증서를 파일로 저장합니다.
   
-1. Select **Start,** enter **mmc.exe,** and then press **Enter**.
+1. 시작을 **선택하고** **mmc.exe** 를 입력한 다음 Enter **를 누르고 를 선택합니다.**
     
-2. 스냅인   >  **파일 추가/제거를 선택합니다.**
+2. 파일   >  **추가/제거를 끌기-in 을 선택합니다.**
     
-3. 스냅인 **추가 또는** 제거에서 사용  가능한 스냅인 목록에서 인증서를 두 번 클릭하고 컴퓨터 계정을 선택한 후 다음을 **선택합니다.**
+3. 추가 또는 끌기 **인에서** 사용 가능한 스냅인  목록에서 인증서를 두 번 클릭하고 컴퓨터 계정을 선택한 후 다음 을 **선택합니다.**
     
-4. 컴퓨터 **선택에서** 완료를 **선택하고** 확인을 **선택합니다.**
+4. 컴퓨터 **선택에서** 마친 **후** 확인을 **선택합니다.**
     
 5. 트리 창에서 **인증서(로컬 컴퓨터) > 개인 > 인증서** 를 엽니다.
     
-6. 페더ation Service FQDN이 있는 인증서를 선택하고 보류(또는 마우스 오른쪽 단추 클릭)한 다음 모든 작업을 선택한 다음 내보내기를 **선택합니다.**
+6. 페더ation Service FQDN이 있는 인증서를 선택하고 보류(또는 마우스 오른쪽 단추 클릭)를 선택하고 모든 작업을 선택한 다음 내보내기 를 **선택합니다.**
     
-7. 시작 **페이지에서** 다음을 **선택합니다.**
+7. 시작 **페이지에서** 다음 을 **선택합니다.**
     
-8. 개인 키 **내보내기 페이지에서** **예를** 선택하고 다음을 **선택합니다.**
+8. 개인 키 **내보내기 페이지에서** 예를 **선택하고** 다음 을 **선택합니다.**
     
-9. 파일 **내보내기 형식 페이지에서** **확장된** 모든 속성 내보내기를 선택하고 다음을 **선택합니다.**
+9. 파일 **내보내기 형식 페이지에서** **확장된** 모든 속성 내보내기 를 선택하고 다음 을 **선택합니다.**
     
-10. 보안 **페이지에서** 암호를 **선택하고** 암호 및 암호 **확인에 암호를** **입력합니다.**
+10. 보안 **페이지에서** 암호를 **선택하고** 암호 및  암호 확인에 **암호를 입력합니다.**
     
-11. **내보낼 파일 페이지에서** **찾아보기를 선택합니다.**
+11. **내보낼 파일 페이지에서** 찾아보기를 **선택합니다.**
     
-12. **C: \\ Certs** 폴더로 찾아서 파일 이름에 **SSL을** 입력한 다음 저장을 **선택합니다.**
+12. **C: \\ Certs** 폴더로 이동합니다. 파일 이름에 **SSL을** **입력한** 다음 저장을 **선택합니다.**
     
-13. **내보낼 파일 페이지에서** 다음을 **선택합니다.**
+13. **내보낼 파일 페이지에서** 다음 을 **선택합니다.**
     
-14. 인증서 **내보내기 마법사 완료 페이지에서** 마친을 **선택합니다.** 메시지가 표시될 때 확인을 **선택합니다.**
+14. 인증서 **내보내기 마법사 완료 페이지에서** 마친 을 **선택합니다.** 메시지가 표시될 때 확인 을 **선택합니다.**
     
 다음으로, ADFS1의 Windows PowerShell 명령 프롬프트에서 다음 명령을 사용하여 AD FS 서비스를 설치합니다.
   
@@ -237,37 +237,37 @@ Install-WindowsFeature ADFS-Federation -IncludeManagementTools
   
 다음으로, 다음 단계에 따라 AD FS 서비스를 구성합니다.
   
-1. **시작을** 선택한 다음 서버 관리자 **아이콘을** 선택합니다.
+1. 시작 **을** 선택한 다음 서버 관리자 **아이콘을** 선택합니다.
     
-2. 서버 관리자의 트리 창에서 **AD FS를 선택합니다.**
+2. 서버 관리자의 트리 창에서 **AD FS 를 선택합니다.**
     
-3. 맨 위에 있는 도구 모음에서 주황색 주의 기호를 선택한 다음 이 서버에서 페더링 서비스 **구성을 선택합니다.**
+3. 맨 위에 있는 도구 모음에서 주황색 주의 기호를 선택한 다음 이 서버에서 페더링 서비스 구성을 **선택합니다.**
     
-4. Active  Directory Federation Services 구성 마법사의 시작 페이지에서 다음을 **선택합니다.**
+4. Active  Directory Federation Services 구성 마법사의 시작 페이지에서 다음 을 **선택합니다.**
     
-5. AD **DS에 연결 페이지에서** 다음을 **선택합니다.**
+5. AD **커넥트** 페이지에서 다음 을 **선택합니다.**
     
 6. **서비스 속성 지정** 페이지에서 다음을 수행합니다.
     
-  - **SSL 인증서의** 경우 아래쪽 화살표를 선택한 다음 페더임 서비스 FQDN 이름이 있는 인증서를 선택합니다.
+  - **SSL 인증서의** 경우 아래쪽 화살표를 선택한 다음 페더임 서비스 FQDN의 이름을 사용하여 인증서를 선택합니다.
     
   - **페더ation Service 표시 이름에** 소설 조직의 이름을 입력합니다.
     
   - **다음** 을 선택합니다.
     
-7. 서비스 계정 **지정 페이지에서** 계정 **이름 선택을** **선택합니다.**
+7. 서비스 계정 **지정 페이지에서** 계정 **이름에 대해** **선택을 선택합니다.**
     
-8. 사용자 **또는 서비스 계정** 선택에서 **ADFS-Service를** 입력하고 이름 **확인을** 선택한 다음 확인을 **선택합니다.**
+8. 사용자 **또는 서비스 계정 선택에서** **ADFS-Service를 입력하고** 이름 **확인을** 선택한 다음 확인 을 **선택합니다.**
     
-9. 계정 **암호에서** ADFS-Service 암호를 입력하고 다음을 **선택합니다.**
+9. 계정 **암호에서** ADFS-Service 암호를 입력하고 다음 을 **선택합니다.**
     
-10. 구성 데이터베이스 **지정 페이지에서** 다음을 **선택합니다.**
+10. 구성 데이터베이스 **지정 페이지에서** 다음 을 **선택합니다.**
     
-11. 검토 **옵션 페이지에서** 다음을 **선택합니다.**
+11. 검토 **옵션 페이지에서** 다음 을 **선택합니다.**
     
-12. 선행 **검사** 페이지에서 구성을 **선택합니다.**
+12. 사전 검사 **페이지에서** 구성을 **선택합니다.**
 
-13. 결과 **페이지에서** 닫기 를 **선택합니다.**
+13. 결과 **페이지에서** 닫기 **를 선택합니다.**
     
 14. 시작을 **선택하고** 전원 아이콘을 선택하고 다시 **시작을** 선택한 다음 계속을 **선택합니다.**
     
@@ -275,39 +275,39 @@ Install-WindowsFeature ADFS-Federation -IncludeManagementTools
   
 그런 후 다음 단계를 사용하여 **PROXY1과 APP1 모두** 에 자체 서명된 인증서를 설치합니다.
   
-1. Select **Start,** enter **mmc.exe,** and then press **Enter**.
+1. 시작을 **선택하고** **mmc.exe** 를 입력한 다음 Enter **를 누르고 를 선택합니다.**
     
-2. **스냅인을 > 파일** 선택.
+2. 파일 **> 추가/제거를 끌기 를 선택합니다.**
     
-3. 스냅인 **추가 또는** 제거에서 사용  가능한 스냅인 목록에서 인증서를 두 번 클릭하고 컴퓨터 계정을 선택한 후 다음을 **선택합니다.**
+3. 추가 또는 끌기 **인에서** 사용 가능한 스냅인  목록에서 인증서를 두 번 클릭하고 컴퓨터 계정을 선택한 후 다음 을 **선택합니다.**
     
-4. 컴퓨터 **선택에서** 완료를 **선택하고** 확인을 **선택합니다.**
+4. 컴퓨터 **선택에서** 마친 **후** 확인을 **선택합니다.**
     
-5. 트리 창에서 **인증서(로컬 컴퓨터)**  >  **개인**  >  **인증서를 열 수 있습니다.**
+5. 트리 창에서 **인증서(로컬 컴퓨터)** 개인  >    >  **인증서를 열 수 있습니다.**
     
-6. Select and hold (or right-click) **Personal,** select **All tasks,** and then select **Import.**
+6. 개인 을 선택하고 보류(또는 마우스 오른쪽 단추 **클릭)를 선택하고** 모든 작업을 선택한 다음 가져오기 를 **선택합니다.**
     
-7. 시작 **페이지에서** 다음을 **선택합니다.**
+7. 시작 **페이지에서** 다음 을 **선택합니다.**
     
-8. 가져올 **파일** 페이지에서 **\\ \\ adfs1 \\ certs \\ ssl.pfx를** 입력하고 다음을 **선택합니다.**
+8. 가져올 **파일 페이지에서** **\\ \\ adfs1 \\ certs \\ ssl.pfx를** 입력하고 다음 을 **선택합니다.**
     
-9. 개인 키 **보호 페이지에서** 암호로 인증서 암호를 입력하고 다음을 **선택합니다.**
+9. 개인 키 **보호 페이지에서** 암호 에 인증서 암호를 **입력하고** 다음을 **선택합니다.**
     
-10. 인증서 저장소 **페이지에서** 다음을 **선택합니다.**
+10. 인증서 **저장소 페이지에서** 다음을 **선택합니다.**
     
-11. 완료 **페이지에서** 완료를 **선택합니다.**
+11. 완료 **페이지에서** 마친 을 **선택합니다.**
     
-12. 인증서 저장소 **페이지에서** 다음을 **선택합니다.**
+12. 인증서 **저장소 페이지에서** 다음 을 **선택합니다.**
     
-13. 메시지가 표시될 때 확인을 **선택합니다.**
+13. 메시지가 표시될 때 확인 을 **선택합니다.**
     
 14. 트리 창에서 **인증서를 선택합니다.**
     
-15. 인증서를 선택하고 보유(또는 마우스 오른쪽 단추 클릭)한 다음 복사를 **선택합니다.**
+15. 인증서를 선택하고 보류(또는 마우스 오른쪽 단추 클릭)한 다음 복사를 **선택합니다.**
     
-16. 트리 창에서 신뢰할 수 있는 루트 인증 **기관 인증서를**  >  **열 수 있습니다.**
+16. 트리 창에서 신뢰할 수 있는 루트 인증 **기관** 인증서  >  **를 열 수 있습니다.**
     
-17. 설치된 인증서 목록 아래에서 마우스 포인터를 이동하고, 마우스 포인터를 선택한 다음(또는 마우스 오른쪽 단추를 클릭) 선택한 다음 **붙여넣기 를 선택합니다.**
+17. 설치된 인증서 목록 아래에 마우스 포인터를 이동하고, 마우스를 잡고(또는 마우스 오른쪽 단추 클릭) **붙여넣기 를 선택합니다.**
     
 관리자 수준 PowerShell 명령 프롬프트를 열고 다음 명령을 실행합니다.
   
@@ -319,29 +319,29 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
   
 다음 단계를 사용하여 ADFS1을 해당 페더레이션 서버로 사용하도록 웹 응용 프로그램 프록시 서비스를 구성합니다.
   
-1. **시작을** 선택하고 서버 **관리자를 선택합니다.**
+1. 시작 **을** 선택한 다음 서버 관리자 **를 선택합니다.**
     
 2. 트리 창에서 원격 **액세스를 선택합니다.**
     
-3. 맨 위에 있는 도구 모음에서 주황색 주의 기호를 선택한 다음 웹 응용 프로그램 프록시 마법사 **열기를 선택합니다.**
+3. 위쪽의 도구 모음에서 주황색 주의 기호를 선택한 다음 웹 응용 프로그램 프록시 **마법사 열기 를 선택합니다.**
     
-4. 웹 **응용** 프로그램 프록시 구성 마법사의 시작 페이지에서 다음을 **선택합니다.**
+4. 웹 **응용** 프로그램 프록시 구성 마법사의 시작 페이지에서 다음 을 **선택합니다.**
     
 5. **페더레이션 서버** 페이지에서 다음을 수행합니다.
     
-  - **페더임 서비스** 이름 상자에 페더화 서비스 FQDN을 입력합니다.
+  - **페더임 서비스 이름** 상자에 페더ation Service FQDN을 입력합니다.
     
-  - 사용자 이름 **상자에** **CORP \\ User1을 입력합니다.**
+  - 사용자 **이름 상자에** **CORP \\ User1 을 입력합니다.**
     
   - 암호 **상자에** User1 계정의 암호를 입력합니다.
     
   - **다음** 을 선택합니다.
     
-6. AD **FS 프록시** 인증서 페이지에서 아래쪽 화살표를 선택하고 페더ation Service FQDN이 있는 인증서를 선택한 후 다음을 **선택합니다.**
+6. AD **FS 프록시** 인증서 페이지에서 아래쪽 화살표를 선택하고 페더ation Service FQDN이 있는 인증서를 선택한 후 다음 을 **선택합니다.**
     
 7. 확인 **페이지에서** 구성을 **선택합니다.**
     
-8. 결과 **페이지에서** 닫기 를 **선택합니다.**
+8. 결과 **페이지에서** 닫기 **를 선택합니다.**
     
 ## <a name="phase-5-configure-microsoft-365-for-federated-identity"></a>5단계: 페더레이션 ID에 대해 Microsoft 365를 구성합니다.
 
@@ -351,23 +351,23 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
   
 1. 데스크톱에서 **Azure AD Connect** 를 두 번 클릭합니다.
     
-2. Azure **AD Connect 시작 페이지에서** 구성을 **선택합니다.**
+2. Azure AD 커넥트 시작 **페이지에서 구성을** **선택합니다.**
     
-3. 추가 **작업 페이지에서** 사용자 로그인 변경을 선택하고 다음을 **선택합니다.**
+3. 추가 **작업 페이지에서** 사용자 로그인 변경을 선택하고 다음 을 **선택합니다.**
     
-4. Azure **AD에 연결 페이지에서** 전역 관리자 계정 이름과 암호를 입력하고 다음을 **선택합니다.**
+4. Azure **AD 커넥트** 페이지에서 전역 관리자 계정 이름 및 암호를 입력하고 다음 을 **선택합니다.**
     
-5. 사용자 로그인 **페이지에서** **AD FS와의** 페더ation을 선택하고 다음을 **선택합니다.**
+5. 사용자 **로그인 페이지에서** **AD FS와의** 페더ation을 선택하고 다음 을 **선택합니다.**
     
-6. AD **FS** 팜 페이지에서 기존 **AD FS** 팜 사용을 선택하고 서버 이름 상자에 **ADFS1을** **입력한** 후 다음을 **선택합니다.**
+6. AD **FS 팜** 페이지에서 기존 **AD FS** 팜 사용을 선택하고  서버 이름 상자에 **ADFS1을** 입력한 후 다음 을 **선택합니다.**
     
-7. 서버 자격 증명을 입력하라는 메시지가 표시될 때 CORP User1 계정의 자격 증명을 입력한 다음 \\ 확인을 **선택합니다.**
+7. 서버 자격 증명을 입력하라는 메시지가 표시될 때 CORP User1 계정의 자격 증명을 입력한 다음 \\ 확인 을 **선택합니다.**
     
-8. 도메인 **관리자** 자격 증명 페이지에서 **CORP \\ User1을** 사용자 이름 상자에  입력하고 암호 상자에 계정 암호를 입력한 후 다음을 **선택합니다.** 
+8. 도메인 **관리자** 자격 증명 페이지의 사용자 이름 상자에 **CORP \\ User1을** 입력하고 암호 상자에 계정 암호를 **입력한** 후 다음 을 **선택합니다.** 
     
-9. AD **FS** 서비스 계정 페이지에서 도메인 사용자 이름 상자에  **CORP \\ ADFS-Service를** 입력하고 도메인 사용자 암호 상자에 계정 암호를 입력한 후 다음을 **선택합니다.** 
+9. AD **FS** 서비스 계정 페이지의 도메인 사용자 이름 상자에  **CORP \\ ADFS-Service를** 입력하고 도메인 사용자 암호 상자에 계정 암호를 입력한 후 다음 을 **선택합니다.** 
     
-10. Azure **AD 도메인** 페이지의 **도메인에서** 이전에 1단계에서 생성하여 구독에 추가한 도메인의 이름을 선택하고 다음을 **선택합니다.**
+10. Azure **AD 도메인** 페이지의 도메인에서 **이전에** 1단계에서 생성하여 구독에 추가한 도메인의 이름을 선택하고 다음 을 **선택합니다.**
     
 11. 구성 **준비 완료 페이지에서** 구성을 **선택합니다.**
     
@@ -375,19 +375,19 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
     
     인트라넷 및 인터넷 구성이 모두 확인되었음을 나타내는 메시지가 표시됩니다.
     
-13. 설치 **완료 페이지에서** 종료를 **선택합니다.**
+13. 설치 **완료 페이지에서** 끝내기 **를 선택합니다.**
     
 페더레이션 인증이 작동하는지 확인하려면 다음을 수행합니다.
   
 1. 로컬 컴퓨터에서 브라우저의 새 개인 인스턴스를 열고 [https://admin.microsoft.com](https://admin.microsoft.com)으로 이동합니다.
     
-2. 로그인 자격 증명의 경우 **다음을** \<*the domain created in Phase 1*> user1@.
+2. 로그인 자격 증명의 경우 **를** \<*the domain created in Phase 1*> user1@.
     
-    예를 들어 테스트 도메인이 testlab.contoso.com "user1@testlab.contoso.com"를 입력합니다. Tab 키를 **누르거나** Microsoft 365에서 사용자를 자동으로 리디렉션하도록 허용합니다.
+    예를 들어 테스트 도메인이 testlab.contoso.com **경우**"user1@testlab.contoso.com"를 입력합니다. Tab 키를 **누르거나** 사용자가 Microsoft 365 리디렉션하도록 허용합니다.
     
-    이제 연결이 비공개 **페이지가 아니라는 것을 볼 수** 있습니다. 데스크톱 컴퓨터에서 유효성을 검사할 수 없는 자체 서명된 인증서를 ADFS1에 설치한 경우 이 인증서가 표시됩니다. 페더타 인증의 프로덕션 배포에서는 신뢰할 수 있는 인증 기관의 인증서를 사용하며 사용자에게는 이 페이지가 표시되지 않습니다.
+    이제 연결이 **비공개가 아닌 페이지가 표시됩니다.** 데스크톱 컴퓨터에서 확인할 수 없는 자체 서명된 인증서를 ADFS1에 설치한 경우 이 인증서가 표시됩니다. 페더타 인증의 프로덕션 배포에서는 신뢰할 수 있는 인증 기관의 인증서를 사용하며 사용자에게는 이 페이지가 표시되지 않습니다.
     
-3. On the **Your connection is not private** page, select **Advanced,** and then select **Proceed to. \<*your federation service FQDN*>** 
+3. 연결이 **비공개가 아 않습니다. 페이지에서** 고급 **을** 선택하고 **계속을 선택합니다. \<*your federation service FQDN*>** 
     
 4. 가상의 조직 이름이 표시된 페이지에서 다음을 사용하여 로그인합니다.
     
@@ -415,5 +415,5 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
   
 ## <a name="next-step"></a>다음 단계
 
-Azure에서 Microsoft 365에 대해 프로덕션 준비가 완료된 고가용성 페더타 인증을 배포할 준비가 되면 [Azure에서 Microsoft 365용](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)고가용성 페더러드 인증 배포를 참조하세요.
+Azure에서 배포할 수 있는 프로덕션 준비 고가용성 페더니트 인증을 배포할 준비가 Microsoft 365 Azure에서 고가용성 페더 Microsoft 365 [배포를 참조하세요.](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   

@@ -111,8 +111,8 @@ Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 |--|--|--|--|
 |공격 표면 축소 파일 경로 제외 |허용 |차단 |차단
 |공격 표면 감소 규칙 |차단 |허용 |허용
-|Windows Defender 응용 프로그램 제어 |허용 |차단 |허용 |
-|Windows Defender 응용 프로그램 제어 |차단 |허용 |차단
+|Windows Defender Application Control |허용 |차단 |허용 |
+|Windows Defender Application Control |차단 |허용 |차단
 |Microsoft Defender 바이러스 백신 제외 |허용 |차단 |허용
 
 ## <a name="see-also"></a>참고 항목

@@ -16,7 +16,7 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
-description: 조직의 연락처 정보를 업데이트하고 받을 Microsoft 365 제품 관련 통신을 선택하세요.
+description: 조직의 연락처 정보를 업데이트하고 수신할 Microsoft 365 제품 관련 통신을 선택하세요.
 ms.openlocfilehash: afb69c52ba89c2a9e6ff7af014a74b0abfda4e5e
 ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
@@ -26,15 +26,15 @@ ms.locfileid: "44407935"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Microsoft의 통신에 대한 연락처 기본 설정 변경
 
-연락처 기본 **설정** 페이지를 사용하여 조직의 연락처 정보를 업데이트하고 받을 Microsoft 365 제품 관련 통신을 선택합니다.
+연락처 **기본 설정 페이지를** 사용하여 조직의 연락처 정보를 업데이트하고 받을 Microsoft 365 제품 관련 통신을 선택합니다.
   
-관리자 휴대폰 번호 및 전자 메일 주소를 변경하는 방법에 대한 자세한 내용은 [Microsoft 365에서](update-phone-number-and-email-address.md) 관리자 전화 번호 및 전자 메일 주소를 업데이트하세요.
+관리자 [휴대폰 번호 및](update-phone-number-and-email-address.md) 전자 메일 주소를 변경하는 방법에 대한 자세한 내용은 Microsoft 365 전화 번호 및 전자 메일 주소 업데이트를 참조하세요.
   
 조직의 이름 및 주소, 기본 회사 전화 번호 및 기술 담당자 정보와 같은 회사 프로필 정보를 변경하는 방법을 알아보려면 [조직의 주소, 기술 담당자 전자 메일 및 기타 정보 변경](change-address-contact-and-more.md)을 참조하세요.
   
 ## <a name="to-update-your-information"></a>정보를 업데이트하려면
   
-1. 관리 센터에서 헤더  오른쪽 위에 있는 설정 아이콘을 선택합니다.
+1. 관리 센터에서 헤더 **오른쪽 설정** 아이콘을 선택합니다.
 
 2. 연락처 **기본 설정을 선택합니다.**
 
@@ -45,10 +45,10 @@ ms.locfileid: "44407935"
 
 5. **저장** 을 선택합니다.
   
-Office 365 Enterprise, Microsoft 365 Business Standard 및 Microsoft 365 Business Basic의 경우 조직의 사용자 국가 또는 지역에 따라 Microsoft 365 관리자로 처음 등록할 때 제품 관련 통신을 수신하기 위해 사용자가 자동으로 등록될 수 있습니다.
+Office 365 Enterprise, Microsoft 365 Business Standard 및 Microsoft 365 Business Basic 조직의 사용자 국가 또는 지역에 따라 Microsoft 365 관리자로 처음 등록하면 사용자들이 제품 관련 통신을 받기 위해 자동으로 등록될 수 있습니다.
   
 대금 청구 관련 질문에 대답은 다음을 참조하세요.
   
-- [비즈니스용 Microsoft 365의 청구 주소 변경](../../commerce/billing-and-payments/change-your-billing-addresses.md)
+- [비즈니스용 Microsoft 365 대금 청구 주소 변경](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
 - [결제 방법 관리](../../commerce/billing-and-payments/manage-payment-methods.md)

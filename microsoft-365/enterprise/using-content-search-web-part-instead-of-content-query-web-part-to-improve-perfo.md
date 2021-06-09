@@ -1,5 +1,5 @@
 ---
-title: 콘텐츠 쿼리 웹 파트 대신 콘텐츠 검색 웹 파트를 사용하여 SharePoint Online의 성능 향상
+title: 콘텐츠 쿼리 웹 파트 대신 콘텐츠 검색 웹 파트를 사용하여 온라인에서 SharePoint 향상
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - SPO160
 ms.assetid: e8ce6b72-745b-464a-85c7-cbf6eb53391b
-description: SharePoint Server 2013 및 SharePoint Online에서 콘텐츠 쿼리 웹 파트를 콘텐츠 검색 웹 파트로 바꾸어 성능을 향상하는 방법을 알아보겠습니다.
+description: SharePoint Server 2013 및 SharePoint Online에서 콘텐츠 쿼리 웹 파트를 콘텐츠 검색 웹 파트로 바꾸어 성능을 SharePoint 방법을 알아보겠습니다.
 ms.openlocfilehash: e5f57e59a421d79302f447e229091fdfc96f1237
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -28,17 +28,17 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46692889"
 ---
-# <a name="using-content-search-web-part-instead-of-content-query-web-part-to-improve-performance-in-sharepoint-online"></a>콘텐츠 쿼리 웹 파트 대신 콘텐츠 검색 웹 파트를 사용하여 SharePoint Online의 성능 향상
+# <a name="using-content-search-web-part-instead-of-content-query-web-part-to-improve-performance-in-sharepoint-online"></a>콘텐츠 쿼리 웹 파트 대신 콘텐츠 검색 웹 파트를 사용하여 온라인에서 SharePoint 향상
 
-이 문서에서는 콘텐츠 쿼리 웹 파트를 SharePoint Server 2013 및 SharePoint Online의 콘텐츠 검색 웹 파트로 바꾸어 성능을 높이는 방법을 설명합니다.
+이 문서에서는 콘텐츠 쿼리 웹 파트를 SharePoint Server 2013 및 SharePoint Online의 콘텐츠 검색 웹 파트로 바꾸어 성능을 향상하는 방법에 대해 설명합니다.
   
 SharePoint Server 2013 및 SharePoint Online의 가장 강력한 새로운 기능 중 하나는 CSWP(콘텐츠 검색 웹 파트)입니다. 이 웹 파트는 검색 인덱스를 사용하여 사용자에게 표시되는 결과를 빠르게 검색합니다. 페이지의 CQWP(콘텐츠 쿼리 웹 파트) 대신 콘텐츠 검색 웹 파트를 사용하여 사용자의 성능을 향상시킬 수 있습니다.
   
-콘텐츠 쿼리 웹 파트를 통해 콘텐츠 검색 웹 파트를 사용하는 경우 SharePoint Online에서 페이지 로드 성능이 거의 항상 향상됩니다. 올바른 쿼리를 얻을 수 있는 몇 가지 추가 구성이 있지만 성능이 향상되어 사용자가 더 기다렸다는 보상을 받을 수 있습니다.
+콘텐츠 쿼리 웹 파트를 통해 콘텐츠 검색 웹 파트를 사용하는 경우 거의 항상 온라인에서 페이지 로드 성능이 SharePoint 있습니다. 올바른 쿼리를 얻을 수 있도록 몇 가지 추가 구성이 있지만 성능이 향상되어 사용자가 더 기다렸다는 보상을 받을 수 있습니다.
   
 ## <a name="comparing-the-performance-gain-you-get-from-using-content-search-web-part-instead-of-content-query-web-part"></a>콘텐츠 쿼리 웹 파트 대신 콘텐츠 검색 웹 파트를 사용하여 얻을 수 있는 성능 비교
 
-다음 예제에서는 콘텐츠 쿼리 웹 파트 대신 콘텐츠 검색 웹 파트를 사용할 때 얻을 수 있는 상대적인 성능 향상을 보여 제공합니다. 복잡한 사이트 구조와 매우 광범위한 콘텐츠 쿼리를 통해 그 효과가 더 명확해 졌다는 것입니다.
+다음 예제에서는 콘텐츠 쿼리 웹 파트 대신 콘텐츠 검색 웹 파트를 사용할 때 얻을 수 있는 상대적인 성능 향상을 보여 제공합니다. 복잡한 사이트 구조와 매우 광범위한 콘텐츠 쿼리를 사용할 때의 효과는 더욱 명확합니다.
   
 이 예제 사이트에는 다음과 같은 특성이 있습니다.
   
@@ -48,27 +48,27 @@ SharePoint Server 2013 및 SharePoint Online의 가장 강력한 새로운 기�
     
 - 웹 파트에서 콘텐츠 쿼리는 광범위하여 콘텐츠 형식이 "fruit"인 모든 항목을 반환합니다.
     
-- 이 예제에서는 8개 사이트에서 50개 항목만 사용했습니다. 콘텐츠가 더 많은 사이트에서는 효과의 발음이 더욱 두드게 됩니다.
+- 이 예제에서는 8개 사이트에서 50개 항목만 사용하게 됩니다. 콘텐츠가 더 많은 사이트에서는 효과의 발음이 더욱 두드게 됩니다.
     
 다음은 콘텐츠 쿼리 웹 파트의 결과 스크린샷입니다.
   
 ![웹 파트에 대한 콘텐츠 쿼리를 보여 주는 그래픽](../media/b3d41f20-dfe5-46ed-9c0a-31057e82de33.png)
   
-이 Internet Explorer F12  개발자 도구의 네트워크 탭을 사용하여 응답 헤더에 대한 세부 정보를 확인합니다. 다음 스크린샷에서 이 페이지 로드에 대한 **SPRequestDuration의** 값은 924밀리초입니다. 
+이 Internet Explorer F12  개발자 도구의 네트워크 탭을 사용하여 응답 헤더에 대한 세부 정보를 확인합니다. 다음 스크린샷에서 이 페이지 로드의 **SPRequestDuration** 값은 924밀리초입니다. 
   
 ![924의 요청 기간을 보여 주는 스크린샷](../media/343571f2-a249-4de2-bc11-2cee93498aea.png)
   
- **SPRequestDuration은** 서버에서 페이지를 준비하기 위해 수행되는 작업의 양을 나타냅니다. 검색을 통해 쿼리 웹 파트 콘텐츠로 전환하면 웹 파트 렌더링하는 데 걸리는 시간이 크게 줄어듭니다. 반면 동일한 수의 결과를 반환하는 동등한 콘텐츠 검색 웹 파트가 있는 페이지에는 이 스크린샷과 같이 **SPRequestDuration** 값이 106밀리초입니다. 
+ **SPRequestDuration은** 서버에서 페이지를 준비하기 위해 수행되는 작업의 양을 나타냅니다. 쿼리로 콘텐츠를 웹 파트 검색을 통해 콘텐츠를 웹 파트 페이지를 렌더링하는 데 걸리는 시간이 크게 줄어듭니다. 반면 동일한 수의 결과를 반환하는 동등한 콘텐츠 검색 웹 파트가 있는 페이지에는 이 스크린샷과 같이 **SPRequestDuration** 값이 106밀리초입니다. 
   
 ![106의 요청 기간을 보여 주는 스크린샷](../media/b46387ac-660d-4e5e-a11c-cc430e912962.png)
   
-## <a name="adding-a-content-search-web-part-in-sharepoint-online"></a>SharePoint Online에서 콘텐츠 검색 웹 파트 추가
+## <a name="adding-a-content-search-web-part-in-sharepoint-online"></a>온라인에서 콘텐츠 검색 웹 파트 SharePoint 추가
 
-콘텐츠 검색 웹 파트를 추가하는 것은 일반 콘텐츠 쿼리 웹 파트와 매우 비슷합니다. SharePoint에서 콘텐츠 검색 웹 파트 구성에서 *"콘텐츠* 검색 웹 파트 [추가" 섹션을 참조하세요.](https://support.office.com/article/Configure-a-Content-Search-Web-Part-in-SharePoint-0dc16de1-dbe4-462b-babb-bf8338c36c9a)
+콘텐츠 검색 웹 파트를 추가하는 것은 일반 콘텐츠 쿼리 웹 파트와 매우 유사합니다. 에서 콘텐츠 검색 웹 파트 구성의 "콘텐츠 검색 웹 파트 *추가"* [섹션을 SharePoint.](https://support.office.com/article/Configure-a-Content-Search-Web-Part-in-SharePoint-0dc16de1-dbe4-462b-babb-bf8338c36c9a)
   
 ## <a name="creating-the-right-search-query-for-your-content-search-web-part"></a>콘텐츠 검색 웹 파트에 적합한 검색 쿼리 만들기
 
-콘텐츠 검색 웹 파트를 추가한 후 검색을 구체화하고 원하는 항목을 반환할 수 있습니다. 이 작업을 하는 방법에 대한 자세한 내용은 SharePoint의 콘텐츠 검색 웹 파트 구성에서 "콘텐츠 검색 웹 파트에서 고급 쿼리를 구성하여 콘텐츠 *표시"* 섹션을 [참조하세요.](https://support.office.com/article/Configure-a-Content-Search-Web-Part-in-SharePoint-0dc16de1-dbe4-462b-babb-bf8338c36c9a)
+콘텐츠 검색 웹 파트를 추가한 후 검색을 구체화하고 원하는 항목을 반환할 수 있습니다. 이 작업을 수행 하는 방법에 대한 자세한 내용은 에서 콘텐츠 검색 웹 파트 구성의 *"콘텐츠* 검색 웹 파트에서 고급 쿼리를 구성하여 콘텐츠 표시" [섹션을 SharePoint.](https://support.office.com/article/Configure-a-Content-Search-Web-Part-in-SharePoint-0dc16de1-dbe4-462b-babb-bf8338c36c9a)
   
 ## <a name="query-building-and-testing-tool"></a>쿼리 작성 및 테스트 도구
 

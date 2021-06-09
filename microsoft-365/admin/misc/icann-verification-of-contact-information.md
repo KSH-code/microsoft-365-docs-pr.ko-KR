@@ -1,5 +1,5 @@
 ---
-title: 연락처 정보의 ICANN 확인
+title: ICANN 연락처 정보 확인
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -27,9 +27,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48645050"
 ---
-# <a name="icann-verification-of-contact-information"></a>연락처 정보의 ICANN 확인
+# <a name="icann-verification-of-contact-information"></a>ICANN 연락처 정보 확인
 
-도메인을 구입하거나 도메인의 연락처 정보를 변경하는 경우 등록자는 ICANN 규정을 준수하기 위해 연락처 정보의 유효성을 검사해야 합니다.
+도메인을 구입하거나 도메인의 연락처 정보를 변경할 때 등록 기관은 ICANN 규정을 준수하기 위해 연락처 정보의 유효성을 검사해야 합니다.
 
 유효성 검사를 위해 전자 메일이 등록자 주소로 전송됩니다.
 
@@ -37,6 +37,6 @@ ms.locfileid: "48645050"
 
 전자 메일은 다음과 같습니다.
 
-![전자 메일 예](../../media/8bf27c08-510c-4d49-b152-8d047d038f1f.jpg)
+![전자 메일 예제](../../media/8bf27c08-510c-4d49-b152-8d047d038f1f.jpg)
 
 

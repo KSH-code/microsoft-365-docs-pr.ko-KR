@@ -22,4 +22,4 @@ ms.locfileid: "46692544"
 ---
 # <a name="placeholder-article"></a>자리 holder 문서
 
-이 문서는 현재 자리 HOLDer입니다.
+이 문서는 현재 자리 holder입니다.

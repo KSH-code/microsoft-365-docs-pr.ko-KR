@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 통해 Microsoft 365 서비스에 액세스하지 않도록 설정
+title: PowerShell을 Microsoft 365 서비스에 액세스하지 않도록 설정
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 ms.assetid: 264f4f0d-e2cd-44da-a9d9-23bef250a720
-description: 이 문서에서는 PowerShell을 사용하여 사용자에 대한 Microsoft 365 서비스에 대한 액세스를 사용하지 않도록 설정하는 방법을 학습합니다.
+description: 이 문서에서는 PowerShell을 사용하여 사용자에 대한 Microsoft 365 액세스를 사용하지 않도록 설정하는 방법을 학습합니다.
 ms.openlocfilehash: 292bda3b380b9ce3947b2427288da4f16198bb51
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -27,25 +27,25 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46692512"
 ---
-# <a name="disable-access-to-microsoft-365-services-with-powershell"></a>PowerShell을 통해 Microsoft 365 서비스에 액세스하지 않도록 설정
+# <a name="disable-access-to-microsoft-365-services-with-powershell"></a>PowerShell을 Microsoft 365 서비스에 액세스하지 않도록 설정
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-라이선스 계획에서 Microsoft 365 계정에 라이선스가 할당된 경우 해당 라이선스에서 사용자가 Microsoft 365 서비스를 사용할 수 있습니다. 그러나 사용자가 액세스할 수 있는 Microsoft 365 서비스를 제어할 수 있습니다. 예를 들어 라이선스에서 SharePoint Online 서비스에 대한 액세스를 허용하는 경우에도 라이선스에 대한 액세스를 사용하지 않도록 설정할 수 있습니다. PowerShell을 사용하여 특정 라이선스 계획에 대해 원하는 수의 서비스에 대한 액세스를 사용하지 않도록 설정할 수 있습니다.
+라이선스 Microsoft 365 라이선스가 할당된 경우 해당 Microsoft 365 라이선스에서 사용자에게 라이선스 서비스를 사용할 수 있습니다. 그러나 사용자가 액세스할 수 있는 Microsoft 365 서비스를 제어할 수 있습니다. 예를 들어 라이선스에서 SharePoint Online 서비스에 대한 액세스를 허용하는 경우에도 라이선스에 대한 액세스를 사용하지 않도록 설정할 수 있습니다. PowerShell을 사용하여 특정 라이선스 계획에 대해 원하는 수의 서비스에 대한 액세스를 사용하지 않도록 설정할 수 있습니다.
 
 - 개별 계정.
 - 계정 그룹입니다.
 - 조직의 모든 계정
 
 >[!Note]
->다른 서비스가 종속된 경우 지정된 서비스를 사용할 수 없는 Microsoft 365 서비스 종속성도 있습니다.
+>다른 Microsoft 365 사용하는 경우 지정된 서비스를 사용할 수 없는 서비스 종속성에 따라 다른 서비스가 사용되지 않도록 할 수 있습니다.
 >
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-다음으로, 다음 명령을 사용하여 사용 가능한 라이선스 요금제(AccountSkuIds라고도 합니다.)를 볼 수 있습니다.
+다음으로, 다음 명령을 사용하여 사용 가능한 라이선스 계획(AccountSkuIds라고도 합니다.
 
 ```powershell
 Get-MsolAccountSku | Select AccountSkuId | Sort AccountSkuId
@@ -57,14 +57,14 @@ Get-MsolAccountSku | Select AccountSkuId | Sort AccountSkuId
 
 자세한 내용은 PowerShell을 통해 라이선스 및 [서비스 보기를 참조하세요.](view-licenses-and-services-with-microsoft-365-powershell.md)
     
-이 항목의 절차 전후 결과를 확인하려면 [PowerShell을](view-account-license-and-service-details-with-microsoft-365-powershell.md)통해 계정 라이선스 및 서비스 세부 정보 보기를 참조하세요.
+이 항목의 절차의 전후 결과를 확인하려면 PowerShell을 통해 계정 라이선스 및 서비스 세부 정보 [보기를 참조하세요.](view-account-license-and-service-details-with-microsoft-365-powershell.md)
     
-이 항목에서 설명하는 절차를 자동화하는 PowerShell 스크립트를 사용할 수 있습니다. 특히 이 스크립트를 사용하면 Sway를 비롯한 Microsoft 365 조직의 서비스를 보고 사용하지 않도록 설정할 수 있습니다. 자세한 내용은 [PowerShell을 통해 Sway에 대한 액세스 해제를 참조하세요.](disable-access-to-sway-with-microsoft-365-powershell.md)
+이 항목에서 설명하는 절차를 자동화하는 PowerShell 스크립트를 사용할 수 있습니다. 특히 이 스크립트를 사용하면 Sway를 포함하여 Microsoft 365 조직에서 서비스를 보고 사용하지 않도록 설정할 수 있습니다. 자세한 내용은 [PowerShell을 통해 Sway에 대한 액세스 사용 안 을 참조하세요.](disable-access-to-sway-with-microsoft-365-powershell.md)
     
     
-### <a name="disable-specific-microsoft-365-services-for-specific-users-for-a-specific-licensing-plan"></a>특정 라이선스 계획에 대해 특정 사용자에 대해 특정 Microsoft 365 서비스를 사용하지 않도록 설정
+### <a name="disable-specific-microsoft-365-services-for-specific-users-for-a-specific-licensing-plan"></a>특정 Microsoft 365 사용자에 대해 특정 라이선스 서비스 사용 안 하도록 설정
   
-특정 라이선스 요금제의 사용자에 대해 특정 Microsoft 365 서비스 집합을 사용하지 않도록 설정하기 위해 다음 단계를 수행합니다.
+특정 라이선스 계획에 Microsoft 365 사용자에 대해 특정 Microsoft 365 서비스 집합을 사용하지 않도록 설정하기 위해 다음 단계를 수행합니다.
   
 #### <a name="step-1-identify-the-undesirable-services-in-the-licensing-plan-by-using-the-following-syntax"></a>1단계: 다음 구문을 사용하여 라이선스 계획에서 바람직하지한 서비스를 식별합니다.
     
@@ -72,7 +72,7 @@ Get-MsolAccountSku | Select AccountSkuId | Sort AccountSkuId
 $LO = New-MsolLicenseOptions -AccountSkuId <AccountSkuId> -DisabledPlans "<UndesirableService1>", "<UndesirableService2>"...
 ```
 
-다음 예에서는 **LicenseOptions** 개체가 명명된 라이선스 `litwareinc:ENTERPRISEPACK` 계획(Office 365 Enterprise E3)에서 Office 및 SharePoint Online 서비스를 사용하지 않도록 설정하는 개체를 만듭니다.
+다음 예제에서는 이름이 E3인 라이선스 계획에서 Office 및 SharePoint Online 서비스를 사용하지 않도록 설정하는 **LicenseOptions** 개체를 Office 365 Enterprise `litwareinc:ENTERPRISEPACK` 만듭니다.
     
 ```powershell
 $LO = New-MsolLicenseOptions -AccountSkuId "litwareinc:ENTERPRISEPACK" -DisabledPlans "SHAREPOINTWAC", "SHAREPOINTENTERPRISE"
@@ -92,9 +92,9 @@ New-MsolUser -UserPrincipalName <Account> -DisplayName <DisplayName> -FirstName 
 New-MsolUser -UserPrincipalName allieb@litwareinc.com -DisplayName "Allie Bellew" -FirstName Allie -LastName Bellew -LicenseAssignment litwareinc:ENTERPRISEPACK -LicenseOptions $LO -UsageLocation US
 ```
 
-Microsoft 365용 PowerShell에서 사용자 계정을 만드는 데 대한 자세한 내용은 PowerShell을 사용하여 사용자 [계정 만들기를 참조하세요.](create-user-accounts-with-microsoft-365-powershell.md)
+For more information about creating user accounts in PowerShell for Microsoft 365, [see Create user accounts with PowerShell](create-user-accounts-with-microsoft-365-powershell.md).
     
-기존 사용이 허가된 사용자에 대해 서비스를 사용하지 않도록 설정하기 위해 다음 구문을 사용 합니다.
+기존 라이선스 사용자에 대해 서비스를 사용하지 않도록 설정하기 위해 다음 구문을 사용 합니다.
     
 ```powershell
 Set-MsolUserLicense -UserPrincipalName <Account> -LicenseOptions $LO
@@ -106,7 +106,7 @@ Set-MsolUserLicense -UserPrincipalName <Account> -LicenseOptions $LO
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -LicenseOptions $LO
 ```
 
-1단계에서 설명하는 모든 기존 라이선스 사용자에 대해 설명하는 서비스를 사용하지 않도록 설정하기 위해 **Get-MsolAccountSku** cmdlet(예: **litwareinc:ENTERPRISEPACK)의** 표시에서 Microsoft 365 계획의 이름을 지정한 다음 다음 명령을 실행합니다.
+1단계에서 설명하는 모든 기존 라이선스 사용자에 대해 설명하는 서비스를 사용하지 않도록 설정하기 위해 **Get-MsolAccountSku** cmdlet 표시에서 Microsoft 365 계획의 이름을 지정하고(예: **litwareinc:ENTERPRISEPACK)** 다음 명령을 실행합니다.
     
 ```powershell
 $acctSKU="<AccountSkuId>"
@@ -118,7 +118,7 @@ $AllLicensed | ForEach {Set-MsolUserLicense -UserPrincipalName $_.UserPrincipalN
 
 기존 사용자 그룹에 대해 서비스를 사용하지 않도록 설정하기 위해 다음 방법 중 하나를 사용하여 사용자를 식별합니다.
     
-**메서드 1 기존 계정 특성을 기준으로 계정 필터링** 
+**메서드 1. 기존 계정 특성을 기준으로 계정 필터링** 
 
 그렇게 하려면 다음 구문을 사용합니다.
     
@@ -127,7 +127,7 @@ $x = Get-MsolUser -All <FilterableAttributes>
 $x | ForEach {Set-MsolUserLicense -UserPrincipalName $_.UserPrincipalName -LicenseOptions $LO}
 ```
 
-다음은 미국 판매 부서의 사용자에 대해 서비스를 사용하지 않도록 설정하는 예제입니다.
+다음 예에서는 미국 판매 부서의 사용자에 대해 서비스를 사용하지 않도록 설정합니다.
     
 ```powershell
 $USSales = Get-MsolUser -All -Department "Sales" -UsageLocation "US"
@@ -154,12 +154,12 @@ $USSales | ForEach {Set-MsolUserLicense -UserPrincipalName $_.UserPrincipalName 
    Get-Content "C:\My Documents\Accounts.txt" | foreach {Set-MsolUserLicense -UserPrincipalName $_ -LicenseOptions $LO}
    ```
 
-여러 라이선스 계획에 대한 서비스에 대한 액세스를 사용하지 않도록 설정하려는 경우 각 라이선스 계획에 대해 위의 지침을 반복하여 다음을 보장합니다.
+여러 라이선스 계획에 대한 서비스에 대한 액세스를 사용하지 않도록 설정하려는 경우 각 라이선스 계획에 대해 위의 지침을 반복하여 다음 사항을 보장합니다.
 
 - 사용자 계정에 라이선스 계획이 할당되어 있습니다.
 - 사용하지 않도록 설정할 서비스는 라이선스 계획에서 사용할 수 있습니다.
 
-사용자를 라이선스 요금제에 할당하는 동안 사용자에 대해 Microsoft 365 서비스를 사용하지 않도록 설정하는 경우 사용자 라이선스를 할당하는 동안 서비스에 대한 액세스 사용 안 하도록 [설정을 참조합니다.](disable-access-to-services-while-assigning-user-licenses.md)
+사용자를 Microsoft 365 라이선스 계획에 할당하는 동안 사용자에 대해 Microsoft 365 서비스를 사용하지 않도록 설정하는 경우 사용자 라이선스를 할당하는 동안 서비스에 대한 액세스 사용 안 하도록 [설정을 참조합니다.](disable-access-to-services-while-assigning-user-licenses.md)
 
 ### <a name="assign-all-services-in-a-licensing-plan-to-a-user-account"></a>사용자 계정에 라이선스 계획의 모든 서비스 할당
 

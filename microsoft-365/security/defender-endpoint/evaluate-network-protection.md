@@ -25,7 +25,7 @@ ms.locfileid: "51570927"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [네트워크 보호는](network-protection.md) 직원이 응용 프로그램을 사용하여 인터넷에서 피싱 사기, 악용 및 기타 악성 콘텐츠를 호스팅할 수 있는 위험한 도메인에 액세스하는 것을 방지하는 데 도움이 됩니다.
@@ -54,9 +54,9 @@ ms.locfileid: "51570927"
 
 네트워크 연결이 허용되고 테스트 메시지가 표시됩니다.
 
-![연결 차단을 표시하는 알림 예: IT 관리자가 Windows Security에서 이 네트워크 연결을 차단했습니다. IT 지원 센터에 문의합니다.](/microsoft-365/security/defender-endpoint/images/np-notif)
+![연결 차단을 표시하는 알림의 예: IT 관리자가 이 네트워크 Windows 보안 차단했습니다. IT 지원 센터에 문의합니다.](/microsoft-365/security/defender-endpoint/images/np-notif)
 
-## <a name="review-network-protection-events-in-windows-event-viewer"></a>Windows 이벤트 뷰어에서 네트워크 보호 이벤트 검토
+## <a name="review-network-protection-events-in-windows-event-viewer"></a>이벤트 뷰어에서 Windows 이벤트 검토
 
 차단된 앱을 검토하려면 Microsoft-Windows-Windows-Defender/Operational 로그에서 이벤트 뷰어를 열고 이벤트 ID 1125를 필터링합니다. 다음 표에는 모든 네트워크 보호 이벤트가 나열됩니다.
 
