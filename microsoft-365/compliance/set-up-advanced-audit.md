@@ -30,7 +30,7 @@ ms.locfileid: "52314413"
 
 조직에 고급 감사를 지원하는 구독 및 최종 사용자 라이선스가 있는 경우 다음 단계를 수행하여 고급 감사의 추가 기능을 설정하고 사용하세요.
 
-![고급 감사를 설정하는 워크플로](../media/AdvancedAuditWorkflow.png)
+![고급 감사 설정 워크플로](../media/AdvancedAuditWorkflow.png)
 
 ## <a name="step1-set-up-advanced-audit-for-users"></a>1단계: 사용자에 대한 고급 감사 설정
 
@@ -70,7 +70,7 @@ Get-Mailbox <user identity> | FL MailboxLocations
 
 ## <a name="step-3-set-up-audit-retention-policies"></a>3단계: 감사 보존 정책 설정
 
-1년 동안 Exchange, SharePoint 및 Azure AD 감사 레코드를 보존하는 기본 정책에 더하여 조직의 보안 운영, IT 및 규정 준수 팀의 요구 사항을 충족하는 추가 감사 로그 보존 정책을 만들 수 있습니다. 자세한 내용은 [감사 로그 보존 정책 관리](audit-log-retention-policies.md)를 참조하십시오.
+Exchange, SharePoint 및 Azure AD 감사 레코드를 1년 동안 유지하는 기본 정책에 더해 조직의 보안 작업, IT 및 규정 준수 팀의 요구 사항을 충족하는 추가 감사 로그 보존 정책을 만들 수 있습니다. 자세한 내용은 [감사 로그 보존 정책 관리](audit-log-retention-policies.md)를 참조하십시오.
 
 ## <a name="step-4-search-for-crucial-events"></a>4단계: 중요한 이벤트 검색
 

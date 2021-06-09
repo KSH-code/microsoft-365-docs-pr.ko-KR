@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365를 통해 보안을 강화하여 캠페인 또는 비즈니스를 보호하는 방법을 자세히 알아보하세요.
+description: 캠페인을 통해 보안을 강화하여 캠페인 또는 비즈니스를 보호하는 Microsoft 365.
 ms.openlocfilehash: d2486f7160bef57a91d76fba756ff75ba319b8fa
 ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
@@ -41,7 +41,7 @@ ms.locfileid: "50044375"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3cfV1]  
 
 
-그런 다음 단계에 따라 다음을 수행합니다.
+그런 다음 다음 단계에 따라 다음을 수행합니다.
 
 - [악성코드 및 기타 위협으로부터 보호](m365-campaigns-increase-protection.md)
 - [계정 및 앱을 보호하여](m365-campaigns-conditional-access.md) 캠페인 데이터에 대한 액세스 보호

@@ -21,7 +21,7 @@ search.appverid:
 - MSO150
 - BCS160
 ms.assetid: 4307bdbf-6097-458d-9a6a-048112695c59
-description: 관리자는 네트워크, 모임 및 IM, 사용자에 대한 외부 액세스 등 비즈니스용 Skype Online의 일부를 설정하는 도움말을 찾아야 합니다.
+description: 관리자는 네트워크, 모임 및 IM, 사용자에 대한 외부 액세스를 포함하여 비즈니스용 Skype Online의 일부를 설정하는 도움말을 찾아야 합니다.
 ms.openlocfilehash: 1e3807199fc83d642399b29870f2cac477d2ec75
 ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "47415709"
 
 ## <a name="were-here-to-help"></a>언제든지 도와드리겠습니다!
 
-Office 365 비즈니스 에디션 관리자는 Microsoft의 해박한 지원 에이전트와 무료로 상담할 수 있습니다. 이 웹 사이트에서 필요한 정보를 찾지 못하면 비즈니스 제품에 대한 고객 지원에 문의 **[- 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
+Office 365 비즈니스 에디션 관리자는 Microsoft의 해박한 지원 에이전트와 무료로 상담할 수 있습니다. 이 웹 사이트에서 필요한 정보를 찾지 못하면 비즈니스 제품에 대한 고객 **[지원에](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 문의 - 관리자 도움말**
   
 ## <a name="let-your-users-contact-external-skype-or-skype-for-business-users"></a>사용자가 외부 Skype 또는 비즈니스용 Skype 사용자에게 연락할 수 있도록 지원
 
@@ -65,23 +65,23 @@ Office 365 비즈니스 에디션 관리자는 Microsoft의 해박한 지원 에
     
 ## <a name="fix-problems-for-your-users"></a>사용자를 위한 문제 해결
 
-- [비즈니스용 Skype에서 개인 옵션 설정](https://support.office.com/article/68bacc31-71d3-44c3-a4d4-64da78c447aa#bkmk-stop-automatic-startup)
+- [2016에서 개인 옵션 비즈니스용 Skype](https://support.office.com/article/68bacc31-71d3-44c3-a4d4-64da78c447aa#bkmk-stop-automatic-startup)
     
-- [비즈니스용 Skype에 로그인하는 데 도움이 필요하세요?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
+- [로그인하는 데 도움이 비즈니스용 Skype?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
     
-- [비디오: 비즈니스용 Skype 로그인 및 아웃](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
+- [비디오: 로그인 및 비즈니스용 Skype](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
     
-- [비즈니스용 Skype에서 오디오 장치 옵션 설정](https://support.office.com/article/2533d929-9814-4349-8ae4-fca29246e2ff)
+- [오디오 장치 옵션 설정 비즈니스용 Skype](https://support.office.com/article/2533d929-9814-4349-8ae4-fca29246e2ff)
     
 - [비즈니스용 Skype 모임 참가](https://support.office.com/article/3862be6d-758a-4064-a016-67c0febf3cd5)
     
-- [비즈니스용 Skype 제거](https://support.office.com/article/28C4A036-7F22-406C-B7F4-87894CBAF902)
+- [제거 비즈니스용 Skype](https://support.office.com/article/28C4A036-7F22-406C-B7F4-87894CBAF902)
     
 ## <a name="help-your-users-get-started-quickly"></a>사용자들이 빨리 시작할 수 있도록 도와주세요!
 
 - [비즈니스용 Skype 살펴보기](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): 사용자를 위한 교육 리소스 
     
-- [비즈니스용 Skype 설치](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+- [설치 비즈니스용 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
     
 - [비디오: 비즈니스용 Skype의 현재 상태 및 메신저 대화](https://support.office.com/article/c873b869-4ce0-4375-9bea-5de150eaf081)
     
@@ -89,6 +89,6 @@ Office 365 비즈니스 에디션 관리자는 Microsoft의 해박한 지원 에
     
 - [비즈니스용 Skype 전화 회의 시작](https://support.office.com/article/8dc8ac52-91ac-4db9-8672-11551fdaf997)
     
- **사용자에 대한 자세한 내용은 [비즈니스용 Skype 도움말을 참조하세요.](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410)**
+ **사용자에 대한 자세한 문서는 도움말 [비즈니스용 Skype 참조합니다.](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410)**
   
 

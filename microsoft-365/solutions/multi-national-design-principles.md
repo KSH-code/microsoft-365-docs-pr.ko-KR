@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에 대한 다국적 디자인 원칙
+title: 개인용 다국적 디자인 Microsoft 365
 description: 설명.
 ms.author: samanro
 author: samanro
@@ -19,6 +19,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 07/29/2020
 ms.locfileid: "46521102"
 ---
-# <a name="multi-national-design-principles-for-microsoft-365"></a>Microsoft 365에 대한 다국적 디자인 원칙
+# <a name="multi-national-design-principles-for-microsoft-365"></a>개인용 다국적 디자인 Microsoft 365
 
 텍스트

@@ -1,7 +1,7 @@
 ---
 title: Windows 10 장치용 온보딩 도구 및 방법
-description: 센서 데이터를 끝점용 Microsoft Defender 센서로 보낼 수 있도록 Windows 10 디바이스 온보딩
-keywords: Windows 10 장치 온보딩, 그룹 정책, 끝점 구성 관리자, 모바일 장치 관리, 로컬 스크립트, gp, sccm, mdm, intune
+description: 끝점 Windows 10 센서로 센서 데이터를 보낼 수 있도록 장치 온보딩
+keywords: 온보딩 Windows 10 장치, 그룹 정책, 끝점 구성 관리자, 모바일 장치 관리, 로컬 스크립트, gp, sccm, mdm, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -41,15 +41,15 @@ ms.locfileid: "51892832"
 
 - 그룹 정책
 - Microsoft Endpoint Configuration Manager
-- 모바일 장치 관리(Microsoft Intune 포함)
+- 모바일 장치 관리(Microsoft Intune)
 - 로컬 스크립트
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 항목 | 설명
 :---|:---
-[그룹 정책을 사용하여 Windows 10 장치 온보드](configure-endpoints-gp.md) | 그룹 정책을 사용하여 디바이스에 구성 패키지를 배포합니다.
-[Microsoft Endpoint Configuration Manager를 사용하여 Windows 장치 온보드](configure-endpoints-sccm.md) | Microsoft Endpoint Manager(현재 분기) 버전 1606 또는 Microsoft Endpoint Manager(현재 분기) 버전 1602 또는 이전 버전을 사용하여 디바이스에 구성 패키지를 배포할 수 있습니다.
-[모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md) | 모바일 장치 관리 도구 또는 Microsoft Intune을 사용하여 디바이스에 구성 패키지를 배포합니다.
+[그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md) | 그룹 정책을 사용하여 디바이스에 구성 패키지를 배포합니다.
+[Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) | Microsoft Endpoint Manager(현재 분기) 버전 1606 또는 Microsoft Endpoint Manager(현재 분기) 버전 1602 이전 버전을 사용하여 디바이스에 구성 패키지를 배포할 수 있습니다.
+[모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md) | 모바일 장치 관리 도구 또는 Microsoft Intune 구성 패키지를 배포할 수 있습니다.
 [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md) | 로컬 스크립트를 사용하여 끝점에서 구성 패키지를 배포하는 방법을 학습합니다.
 [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md) | 구성 패키지를 사용하여 VDI 디바이스를 구성하는 방법을 학습합니다.
 

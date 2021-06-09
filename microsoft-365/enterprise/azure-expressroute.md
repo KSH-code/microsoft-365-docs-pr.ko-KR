@@ -103,7 +103,7 @@ For expressRoute for Office 365, you'll need to work with one or more [approved 
 
 [ExpressRoute에](https://aka.ms/ert)등록할 준비가 Office 365?
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
 

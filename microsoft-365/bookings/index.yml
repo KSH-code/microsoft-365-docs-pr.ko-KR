@@ -12,30 +12,24 @@ metadata:
   manager: serdars
   audience: Admin
   ms.date: 09/04/2020
-  ms.openlocfilehash: 8c7158c72700a7db866051a4de10bbc890ad4478
-  ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
-  ms.translationtype: MT
-  ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/09/2020
-  ms.locfileid: "47419942"
 additionalContent:
   sections:
-  - items:
-    - title: Microsoft Bookings란?
-      summary: 직원의 Outlook 통합 및 자동화된 알림 전자 메일을 포함하여 웹 기반 예약 일정 및 앱으로 약속을 예약하고 관리합니다.
-      url: bookings-overview.md
-    - title: 비즈니스 정보 입력
-      summary: Microsoft Bookings의 회사 이름, 주소, 전화 번호, 웹 사이트 URL, 로고 및 업무 시간을 포함하여 회사 내게 필요한 정보를 입력합니다.
-      url: enter-business-information.md
-    - title: 예약 앱 가져오기
-      summary: 색 테마를 변경하고 외부 고객 연결 예약 페이지의 모양을 설정합니다.
-      url: customize-booking-page.md
-    - title: Bookings에 직원 추가
-      summary: 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리합니다.
-      url: add-staff.md
-    - title: 업무 폐쇄, 휴가 및 휴가 예약
-      summary: 지정된 시간 동안 직원이 예약할 수 없음으로 표시될 수 있도록 Bookings 일정에서 사무실 폐쇄 및 직원의 시간을 예약합니다.
-      url: schedule-closures-time-off-vacation.md
-    - title: Microsoft Bookings의 직원 작업 시간
-      summary: Microsoft Bookings에서 직원 작업 시간 및 가용성을 설정할 수 있습니다.
-      url: employee-hours.md
+    - items:
+        - title: Microsoft Bookings란?
+          summary: 직원을 위한 통합 및 자동화된 알림 전자 Outlook 포함하여 웹 기반 예약 일정 및 앱으로 약속을 예약하고 관리합니다.
+          url: bookings-overview.md
+        - title: 비즈니스 정보 입력
+          summary: 'Microsoft Bookings의 회사 이름, 주소, 전화 번호, 웹 사이트 URL, 로고 및 업무 시간을 포함하여 회사 내 정보를 입력합니다.'
+          url: enter-business-information.md
+        - title: 예약 앱 가져오기
+          summary: 색 테마를 변경하고 외부 고객 연결 예약 페이지의 모양을 설정합니다.
+          url: customize-booking-page.md
+        - title: Bookings에 직원 추가
+          summary: '직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리합니다.'
+          url: add-staff.md
+        - title: '업무 폐쇄, 휴가 및 휴가 예약'
+          summary: 직원이 지정된 시간 동안 예약할 수 없음으로 표시될 수 있도록 Bookings 일정에서 사무실 폐쇄 및 직원의 시간을 예약합니다.
+          url: schedule-closures-time-off-vacation.md
+        - title: Microsoft Bookings의 직원 작업 시간
+          summary: Microsoft Bookings에서 직원의 근무 시간 및 가용성을 설정할 수 있습니다.
+          url: employee-hours.md

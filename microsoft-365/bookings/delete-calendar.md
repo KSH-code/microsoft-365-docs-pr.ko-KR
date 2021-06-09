@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
-description: Microsoft 365 관리 센터 또는 예약 Windows PowerShell 일정을 삭제합니다.
+description: Microsoft 365 관리 센터 또는 Windows PowerShell 일정을 삭제합니다.
 ms.openlocfilehash: 21fc7b9994ffd7f76ed04000a50bd0ee8f7f167e
 ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
@@ -18,10 +18,10 @@ ms.locfileid: "51034094"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Bookings에서 예약 일정 삭제
 
-이 문서에서는 원치 않는 예약 일정을 삭제하는 방법에 대해 설명하고 있습니다. Microsoft 365 관리 센터에서 예약 일정을 삭제하거나 PowerShell을 사용할 수 있습니다. Bookings 일정은 Exchange Online의 사서함으로, 해당 사용자 계정을 삭제하여 예약 일정을 삭제합니다.
+이 문서에서는 원치 않는 예약 일정을 삭제하는 방법에 대해 설명하고 있습니다. Microsoft 365 관리 센터에서 예약 일정을 삭제하거나 PowerShell을 사용할 수 있습니다. Bookings 일정은 예약 Exchange Online 사서함으로, 해당 사용자 계정을 삭제하여 예약 일정을 삭제합니다.
 
 > [!IMPORTANT]
-> 2017년 또는 그 전에 만든 모든 예약 일정은 이 항목의 PowerShell 지침을 사용하여 삭제해야 합니다. 2018년 또는 그 이후에 만들어진 모든 예약 일정은 Microsoft 365 관리 센터에서 삭제할 수 있습니다.
+> 2017년 또는 그 전에 만든 모든 예약 일정은 이 항목의 PowerShell 지침을 사용하여 삭제해야 합니다. 2018년 또는 그 이후에 만들어진 모든 예약 일정은 Microsoft 365 있습니다.
 
 예약 일정은 다음을 포함하여 예약 일정 및 데이터에 대한 모든 관련 정보가 저장되는 위치입니다.
 
@@ -44,9 +44,9 @@ ms.locfileid: "51034094"
 
    ![Microsoft 365 관리 센터에서 사용자 UI 삭제 이미지](../media/bookings-delete-user.png)
 
-## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Exchange Online PowerShell을 사용하여 예약 일정 삭제
+## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>PowerShell을 사용하여 예약 Exchange Online 삭제
 
-Exchange [Online PowerShell에](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) 연결하기 위한 사전 및 지침은 Exchange Online PowerShell에 연결을 참조하세요.
+PowerShell에 커넥트 대한 Exchange Online 및 지침은 [PowerShell을](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) Exchange Online 참조하세요.
 
 이러한 단계를 수행하려면 "관리자 권한으로 실행" 옵션을 선택하여 실행한 활성 Microsoft PowerShell 명령 창을 사용하고 있어야 합니다.
 
@@ -67,7 +67,7 @@ Exchange [Online PowerShell에](/powershell/exchange/exchange-online-powershell-
 
    - _\<UPN\>_ 은(는) 사용자 계정 이름 형식(예: `john@contoso.com`)의 계정입니다.
 
-3. 메시지가 표시되면 영구적으로 삭제할 예약 일정을 호스트하는 Microsoft 365 테넌트에 테넌트 관리자 자격 증명으로 로그온합니다.
+3. 메시지가 표시되면 영구적으로 삭제할 예약 일정을 호스팅하는 Microsoft 365 테넌트에 테넌트 관리자 자격 증명으로 로그온합니다.
 
 4. 이 명령의 처리가 완료되면 다음 명령을 입력하여 테넌트의 예약 사서함 목록을 얻습니다.
 

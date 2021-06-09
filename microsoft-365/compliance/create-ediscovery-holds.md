@@ -56,11 +56,11 @@ Core eDiscovery 사례와 연결된 eDiscovery 보류를 만들 수 있는 경�
 
     ![보류 시킬 콘텐츠 위치 선택](../media/eDiscoveryHoldLocations.png)
   
-   1. **Exchange 사서함:** 토글을 **설정으로** 설정한 다음 **사용자,** 그룹 또는 팀 선택을 클릭하여 보류할 사서함을 지정합니다. 검색 상자를 사용하여 보류할 사용자 사서함 및 메일 그룹을 찾을 수 있습니다(그룹 구성원의 사서함에 보류 설정). Microsoft 팀, 그룹 및 그룹 그룹에 대한 연결된 Office 365 보류할 Yammer 있습니다. 사서함을 보류할 때 보존되는 응용 프로그램 데이터에 대한 자세한 내용은 [eDiscovery의](what-is-stored-in-exo-mailbox.md)사서함에 저장된 콘텐츠를 참조하세요.
+   1. **Exchange 사서함**: 토글을 **켜기** 로 설정한 다음 **사용자, 그룹 또는 팀 선택** 을 클릭하여 보류할 사서함을 지정합니다. 검색 상자를 사용하여 보류 상태로 지정할 사용자 사서함 및 메일 그룹(그룹 구성원의 사서함을 보류)을 찾습니다. Microsoft 팀, 그룹 및 그룹 그룹에 대한 연결된 Office 365 보류할 Yammer 있습니다. 사서함을 보류할 때 보존되는 응용 프로그램 데이터에 대한 자세한 내용은 [eDiscovery의](what-is-stored-in-exo-mailbox.md)사서함에 저장된 콘텐츠를 참조하세요.
 
-   1. **SharePoint** 사이트: 토글을 **설정으로** 설정한 다음  사이트 선택을 클릭하여 SharePoint 사이트 및 OneDrive 계정을 지정합니다. 보류할 각 사이트의 URL을 입력합니다. Microsoft 팀, SharePoint 그룹 또는 그룹 그룹에 대한 Office 365 URL을 추가할 Yammer 있습니다.
+   1. **SharePoint 사이트**: 토글을 **켜기** 로 설정한 다음 **사이트 선택** 을 클릭하여 SharePoint 사이트 및 OneDrive 계정을 보류할 수 있습니다. 보류할 각 사이트의 URL을 입력합니다. Microsoft 팀, SharePoint 그룹 또는 그룹 그룹에 대한 Office 365 URL을 추가할 Yammer 있습니다.
   
-   1. **Exchange** 폴더: 조직의 모든 공용 폴더를  보류할 Exchange Online 토글을 설정으로 설정하십시오. 보류할 특정 공용 폴더를 선택할 수 없습니다. 공용 폴더에 보류를 설정하지 않는 경우 토글 스위치를 해제합니다.
+   1. **Exchange 공용 폴더**: 토글을 **켜기** 로 설정하여 Exchange Online 조직의 모든 공용 폴더를 보류합니다. 보류할 특정 공용 폴더는 선택할 수 없습니다. 공용 폴더를 보류하고 싶지 않은 경우 토글 스위치를 해제합니다.
 
    > [!NOTE]
    > 보류에 콘텐츠 위치를 하나 이상 추가해야 합니다. 그렇지 않으면 eDiscovery 보류 통계에 보류된 항목이 없음이 표시될 수 있습니다.

@@ -58,7 +58,7 @@ ms.locfileid: "52683106"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 요금제 선택에 도움이 필요하세요? 영업 컨설턴트가 질문에 답변해 드립니다. 모든 제품 [비교로 이동하여](https://products.office.com/compare-all-microsoft-office-products?tab=2) 페이지 왼쪽에 나열된 연락처 지원 옵션 중 하나를 선택합니다.
   
