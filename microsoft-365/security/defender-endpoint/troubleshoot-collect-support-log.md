@@ -45,7 +45,7 @@ ms.locfileid: "51893416"
  
 2.  조사해야 [하는](live-response.md#initiate-a-live-response-session-on-a-device) 컴퓨터의 실시간 응답 세션을 시작합니다.
 
-3.  라이브러리에 **파일 업로드를 선택합니다.**
+3.  라이브러리에 **업로드 파일을 선택합니다.**
 
     ![업로드 파일의 이미지](images/upload-file.png)
 

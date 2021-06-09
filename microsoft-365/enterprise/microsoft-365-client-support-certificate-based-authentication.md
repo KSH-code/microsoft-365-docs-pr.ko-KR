@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 인증서 기반 인증에 대한 Microsoft 365 클라이언트 앱 지원에 대한 세부 정보를 제공합니다.
+description: 이 문서에서는 인증서 기반 인증에 Microsoft 365 클라이언트 앱 지원에 대한 세부 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: d5ebef7c10aa61ba28c8fb841468be244f6e8542
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -32,15 +32,15 @@ ms.locfileid: "50905000"
 - **인증 방법:** 다단계 인증 클라이언트 인증서 기반 인증.
 - **권한 부여 방법:** Microsoft의 OAuth(Open Authorization) 구현
 
-ADAL(Active Directory 인증 라이브러리) 또는 MSAL(Microsoft 인증 라이브러리)과 같은 인증 라이브러리를 사용하여 최신 인증을 사용할 수 있습니다. 최신 인증은 클라이언트가 Microsoft 365 리소스에 대한 액세스를 인증하고 권한을 부여하는 데 사용하는 인증입니다. 최신 인증은 OAuth를 사용하며 클라이언트가 사용자 자격 증명에 액세스하지 않고도 Microsoft 365 서비스에 액세스할 수 있는 안전한 메커니즘을 제공합니다. 로그인 시 사용자는 Azure Active Directory에 직접 인증하고 그에 대한 대가로 액세스/새로 고침 토큰 쌍을 받게 됩니다. 액세스 토큰은 클라이언트에게 Microsoft 365 테넌트의 적절한 리소스에 대한 액세스 권한을 부여합니다. 새로 고침 토큰은 현재 액세스 토큰이 만료될 때 새 액세스 또는 새로 고침 토큰 쌍을 얻는 데 사용됩니다.
+ADAL(Active Directory 인증 라이브러리) 또는 MSAL(Microsoft 인증 라이브러리)과 같은 인증 라이브러리를 사용하여 최신 인증을 사용할 수 있습니다. 최신 인증은 클라이언트가 리소스에 대한 액세스 권한을 인증하고 권한을 부여하는 Microsoft 365 것입니다. 최신 인증은 OAuth를 사용하며 클라이언트가 사용자 자격 증명에 액세스하지 않고도 Microsoft 365 서비스에 액세스할 수 있는 보안 메커니즘을 제공합니다. 로그인 시 사용자는 로그인 시 직접 인증을 Azure Active Directory 액세스/새로 고침 토큰 쌍을 받게 됩니다. 액세스 토큰은 클라이언트에게 테넌트의 적절한 리소스에 대한 Microsoft 365 부여합니다. 새로 고침 토큰은 현재 액세스 토큰이 만료될 때 새 액세스 또는 새로 고침 토큰 쌍을 얻는 데 사용됩니다.
 
-최신 인증은 인증서 기반 인증과 같은 다양한 인증 메커니즘을 지원합니다. Windows, Android 또는 iOS 장치의 클라이언트는 CBA(인증서 기반 인증)를 사용하여 장치의 클라이언트 인증서를 사용하여 Azure Active Directory에 인증할 수 있습니다. 인증서는 일반적인 사용자 이름/암호 대신 Azure Active Directory에서 액세스/새로 고침 토큰 쌍을 얻는 데 사용됩니다.
+최신 인증은 인증서 기반 인증과 같은 다양한 인증 메커니즘을 지원합니다. Windows, Android 또는 iOS 장치의 클라이언트는 CBA(인증서 기반 인증)를 사용하여 장치에서 클라이언트 Azure Active Directory 인증할 수 있습니다. 일반적인 사용자 이름/암호 대신 인증서를 사용하여 사용자 이름에서 액세스/새로 고침 토큰 쌍을 Azure Active Directory.
 
 인증서 기반 [인증에 대해 자세히 알아보시다.](/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)
 
 ## <a name="supported-clients--platforms"></a>지원되는 & 플랫폼
 
-다음 클라이언트 및 플랫폼의 최신 버전은 클라이언트 내에서 Azure Active Directory 계정에 로그인할 때(예: 앱에 계정을 추가할 때) 인증서 기반 인증을 지원합니다. Microsoft 365의 플랫폼 지원에 대한 자세한 내용은 [Microsoft 365의 시스템 요구 사항을 참조하세요.](/microsoft-365/microsoft-365-and-office-resources)
+다음 클라이언트 및 플랫폼의 최신 버전은 클라이언트 내의 Azure Active Directory 계정에 로그인할 때(예: 앱에 계정을 추가할 때) 인증서 기반 인증을 지원합니다. Microsoft 365 플랫폼 지원에 대한 자세한 내용은 에 대한 시스템 요구 [Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 <br>
 <br>
 

@@ -242,7 +242,7 @@ PowerShell 명령을 실행하여 SharePoint 및 OneDrive 파일에서 Office �
 
 대신 전역 관리자 또는 [](/sharepoint/sharepoint-admin-role) SharePoint 관리자가 민감도 레이블과 암호화를 모두 제거하는 [Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 실행할 수 있습니다. 이 cmdlet은 관리자가 사이트 또는 파일에 대한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행됩니다. 
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예:
 
 ```powershell
 Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"

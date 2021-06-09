@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 Microsoft 365에 대해 다단계 인증을 지원하는 플랫폼, 클라이언트 및 PowerShell 모듈에 대해 자세히 알아보습니다.
+description: 이 문서에서는 사용자에 대해 다단계 인증을 지원하는 플랫폼, 클라이언트 및 PowerShell 모듈에 대해 Microsoft 365.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 80ee370526d17d472cd048cd4d89b862e158b631
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -36,7 +36,7 @@ ms.locfileid: "50927567"
 
 ## <a name="supported-clients--platforms"></a>지원되는 & 플랫폼
 
-다음 클라이언트 및 플랫폼의 최신 버전은 다단계 인증을 지원합니다. Microsoft 365의 플랫폼 지원에 대한 자세한 내용은 [Microsoft 365의 시스템 요구 사항을 참조하세요.](/microsoft-365/microsoft-365-and-office-resources)
+다음 클라이언트 및 플랫폼의 최신 버전은 다단계 인증을 지원합니다. Microsoft 365 플랫폼 지원에 대한 자세한 내용은 에 대한 시스템 요구 [Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 <br>
 <br>
 

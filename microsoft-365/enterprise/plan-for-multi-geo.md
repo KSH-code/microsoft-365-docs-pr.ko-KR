@@ -82,6 +82,6 @@ Microsoft 365 Multi-Geo를 구성을 시작하려면 [Microsoft 365 Multi-Geo �
 
 구성을 완료한 경우 기본 설정 데이터 위치에서 작업할 때 필요하므로 [사용자의 OneDrive 라이브러리를 마이그레이션](move-onedrive-between-geo-locations.md)해야 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365 Multi-Geo eDiscovery 구성](./multi-geo-ediscovery-configuration.md)

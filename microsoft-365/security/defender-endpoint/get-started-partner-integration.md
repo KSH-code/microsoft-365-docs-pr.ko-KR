@@ -39,7 +39,7 @@ Endpoint 솔루션 파트너가 되기 위해 다음 단계를 수행하고 완�
 [끝점 개발자용 Microsoft Defender 라이선스를 구독합니다.](https://winatpregistration-prd.trafficmanager.net/Developer/UserAgreement?Length=9) Subscribing을 사용하면 최대 10대의 장치가 있는 끝점용 Microsoft Defender 테넌트를 사용하여 끝점용 Microsoft Defender와 통합되는 솔루션을 개발할 수 있습니다. 
 
 ## <a name="step-2-fulfill-the-solution-validation-and-certification-requirements"></a>2단계: 솔루션 유효성 검사 및 인증 요구 사항 이행
-기술 파트너가 통합이 작동하는지 인증하는 가장 좋은 방법은 공동 고객이 제안된 통합 디자인을 승인할 수 있도록 [](https://securitycenter.microsoft.com/interoperability/partners) 하는 것입니다(고객이 Microsoft Defender 보안 센터의 파트너 응용 프로그램 페이지에서 파트너 추천 옵션을 사용할 수 있습니다). 끝점용 Microsoft Defender 팀으로 테스트 및 강연을 합니다. 
+기술 파트너가 통합이 작동하는지 인증하는 가장 좋은 방법은 공동 고객이 제안된 통합 디자인을 승인할 수 있도록 [](https://securitycenter.microsoft.com/interoperability/partners) 하는 것입니다(고객이 Microsoft Defender 보안 센터 파트너 응용 프로그램 페이지에서 파트너 추천 옵션을 사용할 수 있습니다) 끝점용 Microsoft Defender 팀으로 테스트 및 강연을 합니다. 
 
 Microsoft Defender for Endpoint 팀이 통합을 검토하고 승인하면 Microsoft 지능형 보안 협회에서 파트너로 포함될 수 있습니다.
 
@@ -56,9 +56,9 @@ Microsoft Defender for Endpoint 팀이 통합을 검토하고 승인하면 Micro
 3. 15 단어 제품 설명을 제공합니다.
 4. 고객을 위한 방문 페이지로 연결하여 고객에게 충분한 정보를 포함할 통합 또는 블로그 게시물을 완료합니다. Microsoft Defender for Endpoint 제품 이름을 포함한 모든 보도 자료는 마케팅 및 엔지니어링 팀에서 검토해야 합니다. 검토 프로세스가 완료될 때까지 10일 이상 기다릴 수 있습니다.
 5.  다중 테넌트 Azure AD 접근 방법을 사용하는 경우 응용 프로그램의 사용을 추적하려면 Azure AD 응용 프로그램 이름이 필요합니다.
-6. Endpoint User-Agent Api 또는 Graph Security API에 대한 Microsoft Defender에 대한 각 API 호출에 User-Agent 필드를 포함합니다. 이는 통계 목적, 문제 해결 및 파트너 인식에 사용됩니다. 또한 이 단계는 MISA(Microsoft Intelligent Security Association)의 멤버 자격에 대한 요구 사항입니다.
+6. Microsoft Defender에서 User-Agent API 또는 보안 API의 끝점 공용 집합에 대해 호출한 각 API에 Graph 필드를 포함합니다. 이는 통계 목적, 문제 해결 및 파트너 인식에 사용됩니다. 또한 이 단계는 MISA(Microsoft Intelligent Security Association)의 멤버 자격에 대한 요구 사항입니다.
 
-    다음 단계를 따릅니다.
+    다음 단계를 따르세요.
     
     - 각 HTTP User-Agent 헤더의 User-Agent 필드를 아래 형식으로 설정하십시오.
 
