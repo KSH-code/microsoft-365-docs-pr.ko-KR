@@ -20,6 +20,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46692544"
 ---
-# <a name="placeholder-article"></a><span data-ttu-id="95bb4-103">자리 holder 문서</span><span class="sxs-lookup"><span data-stu-id="95bb4-103">Placeholder article</span></span>
+# <a name="placeholder-article"></a><span data-ttu-id="35889-103">자리 holder 문서</span><span class="sxs-lookup"><span data-stu-id="35889-103">Placeholder article</span></span>
 
-<span data-ttu-id="95bb4-104">이 문서는 현재 자리 HOLDer입니다.</span><span class="sxs-lookup"><span data-stu-id="95bb4-104">This article is a placeholder for now.</span></span>
+<span data-ttu-id="35889-104">이 문서는 현재 자리 holder입니다.</span><span class="sxs-lookup"><span data-stu-id="35889-104">This article is a placeholder for now.</span></span>
