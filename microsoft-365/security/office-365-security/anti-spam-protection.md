@@ -60,7 +60,7 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 - **스팸 필터링(콘텐츠 필터링)**: EOP는 스팸 필터링 판정 **스팸,** **높은** 지수 **스팸,**  대량 전자 **메일,** 피싱 전자 메일 및 높은 지수 피싱 전자 메일을 사용하여 메시지를 분류합니다. 이러한 판정에 따라 수행할 작업을 구성할 수 있으며 배달되지 않고 검사된 메시지에 대한 최종 사용자 알림 옵션을 구성할 수 있습니다. 자세한 내용은 [Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
 
   > [!NOTE]
-  > 기본적으로 스팸 필터링은 스팸으로 표시된 메시지를 받는 사람의 정크 메일 폴더로 보내도록 구성됩니다. 그러나 EOP가 Exchange 사서함을 보호하는 하이브리드 환경에서는 메시지에 추가된 EOP 스팸 헤더를 인식하도록 Exchange 조직에서 두 개의 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 하이브리드 환경의 정크 메일 폴더에 스팸을 배달하도록 [EOP 구성을 참조하세요.](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)
+  > 기본적으로 스팸 필터링은 스팸으로 표시된 메시지를 받는 사람의 정크 메일 폴더로 보내도록 구성됩니다. 그러나 EOP가 Exchange 사서함을 보호하는 하이브리드 환경에서는 메시지에 추가된 EOP 스팸 헤더를 인식하도록 Exchange 조직에서 두 개의 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
 
 - **아웃바운드** 스팸 필터링: 또한 EOP는 사용자가 아웃바운드 메시지 콘텐츠에서 또는 아웃바운드 메시지 제한을 초과하여 스팸을 보내지 않는지 검사합니다. 자세한 내용은 [Configure outbound spam filtering in Microsoft 365.](configure-the-outbound-spam-policy.md)
 
@@ -100,7 +100,7 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
 - **대량 전자 메일 구독 취소** 사용자가 등록한 메시지(뉴스레터, 제품 공지 등)에 포함된 것으로, 구독 취소 링크가 포함된 경우 구독을 취소하도록 요청하는 것이 좋은 예입니다.
 
-- 독립 실행형 **EOP: EOP** 스팸 필터링 Exchange 위한 메일 흐름 규칙 만들기: EOP가 Exchange 사서함을 보호하는 EOP 환경에서는 정크 메일 규칙이 메시지를 정크 메일 폴더로 이동할 수 있도록 EOP 스팸 필터링 판정을 변환하도록 Exchange 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 하이브리드 환경의 정크 메일 폴더에 스팸을 배달하도록 [EOP 구성을 참조하세요.](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)
+- 독립 실행형 **EOP: EOP** 스팸 필터링 Exchange 위한 메일 흐름 규칙 만들기: EOP가 Exchange 사서함을 보호하는 EOP 환경에서는 정크 메일 규칙이 메시지를 정크 메일 폴더로 이동할 수 있도록 EOP 스팸 필터링 판정을 변환하도록 Exchange 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
 
 ### <a name="prevent-good-email-from-being-identified-as-spam"></a>좋은 전자 메일이 스팸으로 식별되지 않도록 방지
 

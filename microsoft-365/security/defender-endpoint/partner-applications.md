@@ -62,9 +62,9 @@ Defender for Endpoint는 플랫폼의 감지, 조사 및 위협 인텔리전스 
 ![탄력적 보안 로고 이미지](images/elastic-security-logo.png) | [탄력적인 보안](https://go.microsoft.com/fwlink/?linkid=2139303) | 탄력적 보안은 위협을 방지, 탐지 및 대응하기 위한 무료 개방형 솔루션입니다.
 ![IBM QRadar 로고 이미지](images/ibm-qradar-logo.png) | [IBM QRadar](https://go.microsoft.com/fwlink/?linkid=2113903) | 끝점용 Defender에서 검색을 수집하도록 IBM QRadar 구성 
 ![마이크로 포커스 ArcSight 로고 이미지](images/arcsight-logo.png) | [마이크로 포커스 ArcSight](https://go.microsoft.com/fwlink/?linkid=2113548) | 마이크로 포커스 ArcSight를 사용하여 끝점 감지에 대한 Defender 끌어오기
-![RSA NetWitness 로고 이미지](images/rsa-netwitness-logo.png) | [RSA NetWitness](https://go.microsoft.com/fwlink/?linkid=2118566) | Microsoft Graph Security API를 사용하여 RSA NetWitness에 대한 끝점 경고용 Stream Defender
+![RSA NetWitness 로고 이미지](images/rsa-netwitness-logo.png) | [RSA NetWitness](https://go.microsoft.com/fwlink/?linkid=2118566) | Endpoint용 Stream Defender 보안 API를 사용하여 RSA NetWitness에 대한 Graph 경고
 ![SafeBreach 로고 이미지](images/safebreach-logo.png) | [SafeBreach](https://go.microsoft.com/fwlink/?linkid=2114114)| SafeBreach 시뮬레이션과 자동으로 상호 관련되는 Endpoint 보안 이벤트에 대한 Defender를 볼 수 있습니다.
-![Skybox 취약성 컨트롤 로고 이미지](images/skybox-logo.png) | [Skybox 취약성 제어](https://go.microsoft.com/fwlink/?linkid=2127467) | Skybox 취약성 컨트롤은 취약성 관리의 노이즈를 잘라 내어 비즈니스, 네트워크 및 위협 컨텍스트를 상호 연결하여 위험한 취약성을 발견합니다.
+![Skybox 취약성 컨트롤 로고 이미지](images/skybox-logo.png) | [Skybox 취약성 제어](https://go.microsoft.com/fwlink/?linkid=2127467) | Skybox 취약성 컨트롤은 비즈니스, 네트워크 및 위협 컨텍스트를 취약성 관리 노이즈를 잘라 내어 위험한 취약성을 발견합니다.
 ![Splunk 로고 이미지](images/splunk-logo.png) | [Splunk](https://go.microsoft.com/fwlink/?linkid=2129805) | 끝점용 Defender 추가 기능을 사용하면 Splunk 사용자가 모든 경고를 수집하고 지원 정보를 Splunk에 수집할 수 있습니다.
 ![XM 사이버 로고 이미지](images/xmcyber-logo.png) | [XM 사이버](https://go.microsoft.com/fwlink/?linkid=2136700) | 위험 요인 및 높은 가치 자산을 기반으로 경고에 대한 응답 우선 순위 지정
 
@@ -76,9 +76,9 @@ Defender for Endpoint는 플랫폼의 감지, 조사 및 위협 인텔리전스 
 ![CyberSponse CyOps 로고 이미지](images/cybersponse-logo.png) | [CyberSponse CyOps](https://go.microsoft.com/fwlink/?linkid=2115943) | CyOps는 Endpoint용 Defender와 통합되어 고객의 고속 인시던트 대응 플레이북을 자동화합니다.
 ![델타 위험 ActiveEye 로고 이미지](images/delta-risk-activeeye-logo.png) | [델타 위험 ActiveEye](https://go.microsoft.com/fwlink/?linkid=2127468) | SOC-as-a-Service 및 보안 서비스의 선두 업체인 델타 위험은 끝점용 Defender를 클라우드 기반 SOAR 플랫폼인 ActiveEye와 통합합니다.
 ![Palo Alto Networks 회사 로고인 Demisto의 이미지](images/demisto-logo.png) | [Palo Alto Networks 회사인 Demisto](https://go.microsoft.com/fwlink/?linkid=2108414) | Demisto는 끝점용 Defender와 통합하여 보안 팀이 끝점 보안 모니터링, 강화 및 응답을 오케스트레이션하고 자동화할 수 있도록 합니다.
-![Azure Functions & Microsoft Flow 이미지](images/ms-flow-logo.png) | [Microsoft Flow & Azure Functions](https://go.microsoft.com/fwlink/?linkid=2114300) | Microsoft Flow를 사용하여 보안 절차를 자동화하기 위해 Azure Logic Apps용 &용 Defender 커넥터 사용
+![Azure Functions Microsoft Flow & 이미지](images/ms-flow-logo.png) | [Microsoft Flow & Azure Functions](https://go.microsoft.com/fwlink/?linkid=2114300) | 보안 절차를 자동화하기 위해 끝점 커넥터에 Azure Logic Apps & Microsoft Flow 수 있습니다.
 ![Rapid7 InsightConnect 로고 이미지](images/rapid7-logo.png) | [Rapid7 InsightConnect](https://go.microsoft.com/fwlink/?linkid=2116040) | InsightConnect는 끝점용 Defender와 통합하여 시간이 많이 사용하는 보안 프로세스를 가속화, 간소화 및 통합합니다.
-![ServiceNow 로고 이미지](images/servicenow-logo.png) | [ServiceNow](https://go.microsoft.com/fwlink/?linkid=2135621) | Microsoft Graph API 통합을 기반으로 ServiceNow 보안 작업 솔루션으로 경고 검색
+![ServiceNow 로고 이미지](images/servicenow-logo.png) | [ServiceNow](https://go.microsoft.com/fwlink/?linkid=2135621) | Microsoft Graph API 통합을 기반으로 ServiceNow 보안 운영 솔루션으로 경고 Graph 이벤트
 ![스위틀란 로고 이미지](images/swimlane-logo.png) | [스위틀란](https://go.microsoft.com/fwlink/?linkid=2113902) | Endpoint에 대해 스위틀란 및 Defender를 함께 활용하는 인시던트 대응 기능 최대화
 
 
@@ -109,8 +109,8 @@ Defender for Endpoint는 플랫폼의 감지, 조사 및 위협 인텔리전스 
 ![더 나은 모바일 로고 이미지](images/bettermobile-logo.png) | [모바일 개선](https://go.microsoft.com/fwlink/?linkid=2086214)| 피싱의 모바일 위협을 & AI 기반 MTD 솔루션입니다. 개인 정보 보호를 위한 개인 인터넷 검색 
 ![Corrata 로고 이미지](images/corrata-logo.png)| [코라타](https://go.microsoft.com/fwlink/?linkid=2081148) | 모바일 솔루션 - Corrata에서 세부적인 가시성 및 제어로 모바일 장치 보호 
 ![보기 로고 이미지](images/lookout-logo.png)| [Lookout](https://go.microsoft.com/fwlink/?linkid=866935)| Android 및 iOS 모바일 장치에 대한 Lookout Mobile Threat Protection 원격 분석 다운로드
-![Symantec Endpoint Protection 모바일 로고 이미지](images/symantec-logo.png) | [Symantec Endpoint Protection Mobile](https://go.microsoft.com/fwlink/?linkid=2090992)| SEP Mobile은 기업이 모바일 장치에서 보안 위협 및 취약점을 예측, 감지 및 방지하는 데 도움이 됩니다. 
-![Zimperium 로고 이미지](images/zimperium-logo.png)| [Zimperium](https://go.microsoft.com/fwlink/?linkid=2118044)|기계 학습 기반 모바일 위협 방어를 통해 끝점에 대한 Defender를 iOS 및 Android로 확장
+![Symantec Endpoint Protection 로고 이미지](images/symantec-logo.png) | [Symantec Endpoint Protection Mobile](https://go.microsoft.com/fwlink/?linkid=2090992)| SEP Mobile은 기업이 모바일 장치에서 보안 위협 및 취약점을 예측, 감지 및 방지하는 데 도움이 됩니다. 
+![Zimperium 로고 이미지](images/zimperium-logo.png)| [Zimperium](https://go.microsoft.com/fwlink/?linkid=2118044)|모바일 위협 방어를 통해 끝점용 Defender를 iOS 및 Android로 Machine Learning 확장
 
 
 
@@ -152,5 +152,5 @@ Endpoint용 Defender를 사용하면 이러한 솔루션과 통합하고 다양�
 
 Endpoint용 Defender는 현재 파일 및 네트워크 표시기에서 IOC 일치 및 수정을 지원하고 있습니다. 파일 표시기에서 차단이 지원됩니다.  
 
-## <a name="support-for-non-windows-platforms"></a>비 Windows 플랫폼 지원
-Endpoint용 Defender는 모바일 장치를 포함하여 Windows 및 비 Windows 플랫폼에 대한 중앙 집중식 보안 운영 환경을 제공합니다. 포털에서 지원되는 다양한 OS(운영 체제)에서 경고를 보고 조직의 네트워크를 보다 잘 보호할 수 있습니다. 
+## <a name="support-for-non-windows-platforms"></a>비영리 Windows 지원
+Endpoint용 Defender는 모바일 장치를 포함하여 Windows 비영리 Windows 중앙 집중식 보안 운영 환경을 제공합니다. 포털에서 지원되는 다양한 OS(운영 체제)에서 경고를 보고 조직의 네트워크를 보다 잘 보호할 수 있습니다. 

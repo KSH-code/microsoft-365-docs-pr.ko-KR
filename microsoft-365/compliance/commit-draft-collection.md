@@ -1,5 +1,5 @@
 ---
-title: 검토 집합에 초안 컬렉션 커밋
+title: 검토 집합에 초안 컬렉션 사용
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -23,13 +23,13 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/17/2021
 ms.locfileid: "50838889"
 ---
-# <a name="commit-a-draft-collection-to-a-review-set-in-advanced-ediscovery"></a>Advanced eDiscovery의 검토 집합에 초안 컬렉션 커밋
+# <a name="commit-a-draft-collection-to-a-review-set-in-advanced-ediscovery"></a>초안 컬렉션을 임시 검토 집합에 Advanced eDiscovery
 
-초안 컬렉션에서 수집한 항목에 만족하고 이를 분석, 태그 및 검토할 준비가 된 경우 사례의 검토 집합에 컬렉션을 추가할 수 있습니다. 초안 컬렉션을 검토 집합에 커밋하면 수집된 항목이 Microsoft 365의 원래 콘텐츠 위치에서 검토 집합으로 복사됩니다. 검토 집합은 Microsoft 클라우드에서 Microsoft에서 제공하는 안전한 Azure Storage 위치입니다.
+초안 컬렉션에서 수집한 항목에 만족하고 이를 분석, 태그 및 검토할 준비가 된 경우 사례의 검토 집합에 컬렉션을 추가할 수 있습니다. 초안 컬렉션을 검토 집합에 커밋하면 수집된 항목이 검토 집합의 원래 콘텐츠 위치에서 Microsoft 365 복사됩니다. 검토 집합은 Microsoft 클라우드에서 microsoft에서 제공하는 안전한 Azure Storage 위치입니다.
 
-## <a name="commit-a-draft-collection-to-a-review-set"></a>검토 집합에 초안 컬렉션 커밋
+## <a name="commit-a-draft-collection-to-a-review-set"></a>검토 집합에 초안 컬렉션 사용
 
-1. Microsoft 365 규정 준수 센터에서 Advanced eDiscovery 사례를  열고 컬렉션 탭을 선택하여 해당 사례의 컬렉션 목록을 표시합니다.
+1. 준수 Microsoft 365 센터에서 Advanced eDiscovery 사례를 연 다음 컬렉션 탭을  선택하여 해당 사례의 컬렉션 목록을 표시합니다.
 
    ![사례의 컬렉션 목록](../media/CommitDraftCollections1.png)
 
@@ -50,11 +50,11 @@ ms.locfileid: "50838889"
 
    3. 추가 컬렉션 설정을 구성합니다.
 
-       - **Teams 및 Yammer** 메시지: 컬렉션의 검색 쿼리에서 반환된 채팅 항목을 포함 하는 대화 스레드를 컬렉션에 추가하려면 이 옵션을 선택합니다. 즉, 검색 조건과 일치하는 항목이 포함된 채팅 대화가 재구성됩니다. 이렇게 하면 대화의 컨텍스트에서 채팅 항목을 검토할 수 있습니다. 자세한 내용은 [Advanced eDiscovery의 대화 스레딩을 참조하세요.](conversation-review-sets.md)
+       - **Teams** 및 Yammer 메시지: 컬렉션에 검색 쿼리에서 반환된 채팅 항목이 포함된 대화 스레드를 컬렉션에 추가하려면 이 옵션을 선택합니다. 즉, 검색 조건과 일치하는 항목이 포함된 채팅 대화가 재구성됩니다. 이렇게 하면 대화의 컨텍스트에서 채팅 항목을 검토할 수 있습니다. 자세한 내용은 에서 [대화 스레딩을 Advanced eDiscovery.](conversation-review-sets.md)
 
        - **클라우드 첨부 파일:** 컬렉션 결과가 검토 집합에 추가될 때 최신 첨부 파일 또는 연결된 파일을 포함하려면 이 옵션을 선택합니다. 즉, 최신 첨부 파일 또는 연결된 파일의 대상 파일이 검토 집합에 추가됩니다.
 
-       - **SharePoint 버전:** 컬렉션의 버전 제한 및 검색 매개 변수에 따라 모든 버전의 SharePoint 문서 컬렉션을 사용하도록 설정하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 검토 집합에 추가된 항목의 크기가 크게 증가합니다.
+       - **SharePoint 버전:** 컬렉션의 버전 제한 및 검색 매개 변수에 따라 SharePoint 문서의 모든 버전 컬렉션을 사용하도록 설정하려면 이 옵션을 선택합니다. 이 옵션을 선택하면 검토 집합에 추가된 항목의 크기가 크게 증가합니다.
 
    4. 검토 집합에 추가할 컬렉션의 배율을 정의하도록 설정을 구성합니다.
 
@@ -76,11 +76,11 @@ ms.locfileid: "50838889"
 
 - 컬렉션 검색 쿼리가 다시 실행됩니다. 즉, 검토 집합에 복사된 실제 검색 결과는 컬렉션 검색이 마지막으로 실행될 때 반환된 예상 결과와 다를 수 있습니다.
 
-- 검색 결과의 모든 항목은 라이브 서비스의 원본 데이터 원본에서 복사된 후 Microsoft 클라우드의 보안 Azure Storage 위치에 복사됩니다.
+- 검색 결과의 모든 항목은 라이브 서비스의 원본 데이터 원본에서 복사되어 Microsoft 클라우드의 보안 Azure Storage 위치에 복사됩니다.
 
 - 문서 또는 비관리 데이터 원본에 없는 모든 항목(콘텐츠 및 메타데이터 포함)은 사례 데이터를 검토하는 동안 검토 집합의 모든 데이터를 완전히 검색할 수 있도록 깊이 인덱싱이라는 프로세스에서 다시 인덱싱됩니다. 컬렉션의 콘텐츠를 다시 인덱스하면 사례 조사 중에 검토 집합의 콘텐츠를 검색하거나 필터링할 때 철저하고 빠른 검색이 진행됩니다.
 
-- 검토 집합에 컬렉션을 커밋하면 암호화된 SharePoint 및 OneDrive 문서 및 암호화된 파일 첨부 전자 메일 메시지가 검색 결과에 반환되는 암호가 해독됩니다. 검토 집합에서 암호 해독된 파일을 검토하고 쿼리할 수 있습니다. 자세한 내용은 [Microsoft 365 eDiscovery](ediscovery-decryption.md)도구의 암호 해독을 참조하세요.
+- 암호화된 SharePoint OneDrive 문서 및 암호화된 파일 첨부 전자 메일 메시지는 컬렉션을 검토 집합에 커밋할 때 암호가 해독됩니다. 검토 집합에서 암호 해독된 파일을 검토하고 쿼리할 수 있습니다. 자세한 내용은 [eDiscovery](ediscovery-decryption.md)도구에서 암호 Microsoft 365 참조하세요.
 
 - OCR(광학 문자 인식) 기능은 이미지에서 텍스트를 추출하고 검토 집합에 추가된 콘텐츠와 함께 이미지 텍스트를 포함합니다. 자세한 내용은 이 문서의 광학 문자 [인식](#optical-character-recognition) 섹션을 참조하세요.
 
@@ -88,6 +88,6 @@ ms.locfileid: "50838889"
 
 ## <a name="optical-character-recognition"></a>광학 문자 인식
 
-컬렉션을 검토 집합으로 커밋하면 Advanced eDiscovery의 OCR(광학 문자 인식) 기능이 이미지에서 텍스트를 자동으로 추출하고 검토 집합에 추가된 콘텐츠가 포함된 이미지 텍스트를 포함합니다. 선택된 이미지 파일의 텍스트 뷰어에서 추출된 텍스트를 검토 집합에서 볼 수 있습니다. 이를 통해 이미지의 텍스트를 추가로 검토하고 분석할 수 있습니다. 느슨한 파일, 전자 메일 첨부 파일 및 포함된 이미지에 대해 OCR이 지원됩니다. OCR에 지원되는 이미지 파일 형식 목록은 [Advanced eDiscovery에서 지원되는 파일 형식을 참조하세요.](supported-filetypes-ediscovery20.md#image)
+검토 집합에 컬렉션을 커밋하면 검토 집합에 추가된 콘텐츠와 함께 이미지에서 Advanced eDiscovery 자동으로 추출되는 OCR(광학 문자 인식) 기능이 이미지에서 추출됩니다. 선택된 이미지 파일의 텍스트 뷰어에서 추출된 텍스트를 검토 집합에서 볼 수 있습니다. 따라서 이미지의 텍스트를 추가로 검토하고 분석할 수 있습니다. 느슨한 파일, 전자 메일 첨부 파일 및 포함된 이미지에 대해 OCR이 지원됩니다. OCR에 지원되는 이미지 파일 형식 목록은 [고급 eDiscovery에서 지원되는 파일 형식](supported-filetypes-ediscovery20.md#image)을 참조하세요.
 
-Advanced eDiscovery에서 만드는 각 사례에 대해 OCR 기능을 사용하도록 설정해야 합니다. 자세한 내용은 검색 및 분석 [설정 구성을 참조하세요.](configure-search-and-analytics-settings-in-advanced-ediscovery.md#optical-character-recognition-ocr)
+고급 eDiscovery에서 만든 각 사례에 대해 OCR 기능을 사용하도록 설정해야 합니다. 자세한 내용은 검색 및 분석 [설정 구성을 참조하세요.](configure-search-and-analytics-settings-in-advanced-ediscovery.md#optical-character-recognition-ocr)

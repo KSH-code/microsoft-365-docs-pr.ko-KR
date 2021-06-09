@@ -16,7 +16,7 @@ search.appverid:
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365의 보안 & 준수 센터에서 eDiscovery 사례를 사용하여 조직의 법적 조사를 관리합니다.
+description: 조직의 법적 조사를 관리하기 위해 & 준수 센터에서 eDiscovery 사례를 Office 365 관리합니다.
 ms.openlocfilehash: c052daab8de33e21cccc3c638ab4995a007f60fb
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -48,19 +48,19 @@ eDiscovery 사례를 사용하면 조직에서 eDiscovery 사례를 만들고, �
   
 - [조직의 eDiscovery](create-a-report-on-holds-in-ediscovery-cases.md) 사례와 연결된 모든 보류에 대한 정보가 포함된 eDiscovery 보류 보고서를 만들 수 있습니다.
 
-- 사용자 목록에 대한 사서함 및 [OneDrive](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) 위치를 eDiscovery 보류에 추가합니다.
+- [사용자 OneDrive](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) 사서함 및 사서함 위치를 eDiscovery 보류에 추가합니다.
   
-## <a name="manage-legal-investigations-with-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 Advanced eDiscovery 솔루션으로 법적 조사 관리
+## <a name="manage-legal-investigations-with-the-advanced-ediscovery-solution-in-microsoft-365"></a>2016년 8월 2일부로 법률 Advanced eDiscovery 관리 Microsoft 365
 
-Microsoft 365의 Advanced eDiscovery 솔루션은 Office 365의 기존 eDiscovery 및 분석 기능을 빌드합니다. *Advanced eDiscovery라는* 이 새로운 솔루션은 조직의 내부 및 외부 조사에 응답하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공합니다. 또한 법률 팀에서 전체 법적 보유 알림 워크플로를 관리하여 사례에 관련된 보유자와 통신할 수 있습니다.
+이 Advanced eDiscovery 솔루션은 Microsoft 365 eDiscovery 및 분석 기능을 Office 365. 이 새로운 솔루션인 *Advanced eDiscovery* 는 조직의 내부 및 외부 조사에 응답하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공합니다. 또한 법률팀에서 전체 법적 보류 알림 워크플로를 관리하여 사례와 관련된 보유자와 통신할 수 있게 합니다.
 
-Advanced eDiscovery를 사용하려면 Microsoft 365 또는 Office 365 조직에 대한 E5 구독이 필요합니다. 라이선스에 대한 자세한 내용은 [Set up Advanced eDiscovery을 참조하십시오.](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses)
+Advanced eDiscovery 조직의 E5 구독이 Microsoft 365 Office 365 합니다. 라이선스에 대한 자세한 내용은 [Set up Advanced eDiscovery.](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses)
 
-다음은 Advanced eDiscovery의 기본 제공 워크플로에 대한 간략한 개요입니다. 자세한 내용은 [Manage the Advanced eDiscovery workflow를 참조하십시오.](create-and-manage-advanced-ediscoveryv2-case.md#manage-the-workflow)
+다음은 기본 제공 워크플로에 대한 간략한 개요 Advanced eDiscovery. 자세한 내용은 [Manage the Advanced eDiscovery workflow 를 참조하십시오.](create-and-manage-advanced-ediscoveryv2-case.md#manage-the-workflow)
 
 - [시작할 사례를](create-and-manage-advanced-ediscoveryv2-case.md#create-a-case) 생성합니다.
 
-- [보유자들을](managing-custodians.md) 사례에 추가하고 사서함, OneDrive 계정 및 Microsoft Teams가 구성원으로 있는 콘텐츠에 법적 보유를 하여 관리합니다.
+- [보유자들을](managing-custodians.md) 사례에 추가하고 사서함, OneDrive 계정 및 구성원으로 Microsoft Teams 법적 보유를 설정하여 보유자 관리
 
 - [법적 보유](managing-custodian-communications.md) 알림 프로세스를 자동화하여 보유자와의 통신을 관리합니다.
 
@@ -74,4 +74,4 @@ Advanced eDiscovery를 사용하려면 Microsoft 365 또는 Office 365 조직에
 
 - [외부 자문가가 검토할](exporting-data-ediscover20.md) 사례 데이터를 내보낼 수 있습니다.
 
-- [Advanced](managing-jobs-ediscovery20.md) eDiscovery에서 장기 실행 작업을 관리합니다.
+- [2013에서](managing-jobs-ediscovery20.md) 장기 실행 작업을 Advanced eDiscovery.

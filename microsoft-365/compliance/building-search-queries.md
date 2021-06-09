@@ -1,5 +1,5 @@
 ---
-title: Advanced eDiscovery에서 검색 쿼리 작성
+title: 검색 쿼리를 Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.custom: seo-marvel-mar2020
-description: 키워드 및 조건을 사용하여 Microsoft 365에서 Advanced eDiscovery를 사용하여 데이터를 검색할 때 검색 범위를 좁힐 수 있습니다.
+description: 키워드 및 조건을 사용하여 검색 범위 내에서 데이터를 검색할 Advanced eDiscovery 범위를 Microsoft 365.
 ms.openlocfilehash: e0df319257776d3995a4b8e37781d7b5dad54d82
 ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
@@ -23,19 +23,19 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/17/2021
 ms.locfileid: "50838488"
 ---
-# <a name="build-search-queries-for-collections-in-advanced-ediscovery"></a>Advanced eDiscovery에서 컬렉션에 대한 검색 쿼리 작성
+# <a name="build-search-queries-for-collections-in-advanced-ediscovery"></a>2013에서 컬렉션에 대한 검색 쿼리를 Advanced eDiscovery
 
-Advanced eDiscovery 사례에서 컬렉션을 만들 때 검색 쿼리를 구성할 때 키워드를 사용하여 특정 콘텐츠 및 조건을 검색하여 법적 조사와 가장 관련이 있는 항목을 반환하도록 검색 범위를 좁힐 수 있습니다. [](collections-overview.md)
+Advanced eDiscovery 사례에서 컬렉션을 만들 [](collections-overview.md) 때 검색 쿼리를 구성할 때 키워드를 사용하여 특정 콘텐츠 및 조건을 검색하여 법적 조사와 가장 관련이 있는 항목을 반환하도록 검색 범위를 좁힐 수 있습니다.
 
 ![키워드 및 조건을 사용하여 검색 결과 좁히기](../media/SearchQueryBox.png)
 
 ## <a name="keyword-searches"></a>키워드 검색
 
-검색 쿼리의 키워드  상자에 키워드 쿼리를 입력합니다. 키워드, 전자 메일 메시지 속성(예: 보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서가 마지막으로 변경된 날짜)을 지정할 수 있습니다. **AND**, **OR**, **NOT**, **NEAR** 와 같은 부울 연산자를 사용하는 좀 더 복잡한 쿼리를 사용할 수 있습니다. SharePoint 및 OneDrive의 문서에서 중요한 정보(예: 주민 등록 번호)를 검색하거나(전자 메일 메시지 아미지) 외부에서 공유된 문서를 검색할 수도 있습니다. 키워드 **상자를 비워** 두면 지정된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 표시됩니다.
+검색 쿼리의 키워드  상자에 키워드 쿼리를 입력합니다. 키워드, 전자 메일 메시지 속성(예: 보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서가 마지막으로 변경된 날짜)을 지정할 수 있습니다. **AND**, **OR**, **NOT**, **NEAR** 와 같은 부울 연산자를 사용하는 좀 더 복잡한 쿼리를 사용할 수 있습니다. 또한 전자 메일 메시지에 없는 SharePoint 및 OneDrive 문서에서 중요한 정보(예: 주민 등록 번호)를 검색하거나 외부에서 공유된 문서를 검색할 수도 있습니다. **키워드** 상자를 비워 두면 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 나옵니다.
 
 ## <a name="keyword-list"></a>키워드 목록
 
-또는 키워드 목록 표시  확인란을 선택하고 각 행에 키워드 또는 키워드 구를 입력할 수 있습니다. 각 행의 키워드는 작성된 검색 쿼리의 **OR** 연산자와 기능상 유사한 논리 연산자(검색 쿼리 구문에서 *c:s로* 표시)에 의해 연결됩니다. 즉, 행에 키워드가 포함된 항목이 검색 결과에 있습니다. Advanced eDiscovery 검색 쿼리의 키워드 목록에 최대 180개 행을 추가할 수 있습니다.
+또는 키워드 목록 표시  확인란을 선택하고 각 행에 키워드 또는 키워드 구를 입력할 수 있습니다. 각 행의 키워드는 작성된 검색 쿼리의 **OR** 연산자와 기능상 유사한 논리 연산자(검색 쿼리 구문에서 *c:s로* 표시)에 의해 연결됩니다. 즉, 행에 키워드가 포함된 항목이 검색 결과에 있습니다. 검색 쿼리의 키워드 목록에 최대 180개 행을 추가할 Advanced eDiscovery 있습니다.
 
 ![키워드 목록을 사용하여 쿼리의 각 키워드에 대한 통계를 얻습니다.](../media/KeywordListSearch.png)
 

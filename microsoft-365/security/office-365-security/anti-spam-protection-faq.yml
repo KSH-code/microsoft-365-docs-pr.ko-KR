@@ -61,7 +61,7 @@ sections:
 
       > [!IMPORTANT]
 
-      > EOP가 Exchange 사서함을 보호하는 하이브리드 배포에서는 메시지에 추가된 EOP 스팸 필터링 헤더를 검색하도록 Exchange 조직에서 두 개의 Exchange 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 하이브리드 환경의 정크 메일 폴더에 스팸을 배달하도록 [EOP 구성을 참조하세요.](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)
+      > EOP가 Exchange 사서함을 보호하는 하이브리드 배포에서는 메시지에 추가된 EOP 스팸 필터링 헤더를 검색하도록 Exchange 조직에서 두 개의 Exchange 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
 
        **아웃바운드 메시지의 경우:** 이 메시지는 위험이 높은 [](high-risk-delivery-pool-for-outbound-messages.md) 배달 풀을 통해 라우팅되거나 배달되지 않은 보고서(NDR 또는 반송 메시지라고도 알려지음)에서 보낸 사람으로 반환됩니다. 아웃바운드 스팸 보호에 대한 자세한 내용은 [아웃바운드 스팸 컨트롤을 참조하세요.](outbound-spam-controls.md)
   - question: >

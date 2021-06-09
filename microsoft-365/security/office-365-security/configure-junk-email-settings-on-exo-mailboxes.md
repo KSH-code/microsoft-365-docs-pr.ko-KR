@@ -58,7 +58,7 @@ ms.locfileid: "52624804"
 
 - 이 문서의 절차를 수행하려면 Exchange Online 사용 권한을 할당해야 합니다. 특히 조직 관리, 받는 사람 관리 및 사용자 지정 메일 받는 사람 역할 그룹에 기본적으로 할당되는  Mail  **Recipients** 역할 또는 조직 관리 및 **지원** 센터 역할 그룹에 기본적으로 할당되는 사용자 옵션 역할이 필요합니다.  에서 역할 그룹에 사용자를 추가하려면 Exchange Online 에서 역할 [그룹 수정을 Exchange Online.](/Exchange/permissions-exo/role-groups#modify-role-groups) 기본 권한이 있는 사용자는 [PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)에 액세스할 수 있는 한 자신의 사서함에서 동일한 절차를 Exchange Online 있습니다.
 
-- EOP가 Exchange 사서함을 보호하는 하이브리드 환경에서는 정크 메일 규칙이 메시지를 정크 메일 폴더로 이동할 수 있도록 EOP 스팸 필터링 판정을 변환하도록 Exchange 프레미스 Exchange 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 하이브리드 환경의 정크 메일 폴더에 스팸을 배달하도록 [EOP 구성을 참조하세요.](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)
+- EOP로 온-프레미스 Exchange 사서함을 보호하는 하이브리드 환경에서는 EOP 스팸 필터링 평가 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
 
 - 공유 사서함의 수신 안전한 보낸 사람이 Azure AD 및 EOP에 기본적으로 동기화되지 않습니다.
 

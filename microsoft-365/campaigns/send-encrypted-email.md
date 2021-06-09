@@ -24,7 +24,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Outlook을 사용하여 암호화된 전자 메일을 보내는 방법을 배워야 합니다.
+description: 암호화된 전자 메일을 사용하여 암호화된 전자 메일을 보내는 Outlook.
 ms.openlocfilehash: 209734bd52d1d97278d5632f035723758fe2e016
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -47,21 +47,21 @@ ms.locfileid: "51576976"
 
 ## <a name="set-it-up"></a>설정하기
 
-미리 정의된 규칙을 충족하지 않는 메시지를 암호화하거나 관리자가 규칙을 설정하지 않은 경우 메시지를 보내기 전에 다양한 암호화 규칙을 적용할 수 있습니다. Outlook 2013 또는 2016 또는 Mac용 Outlook 2016에서 암호화된 메시지를 보내기 위해 옵션 > **사용 권한 을** 선택한 다음 필요한 보호 옵션을 선택합니다. 웹에서 Outlook에서 보호 단추를 선택하여  암호화된 메시지를 보낼 수도 있습니다. 자세한 내용은 PC용 Outlook에서 암호화된 메시지 보내기, 보기 및 [회신을 참조하세요.](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
+미리 정의된 규칙을 충족하지 않는 메시지를 암호화하거나 관리자가 규칙을 설정하지 않은 경우 메시지를 보내기 전에 다양한 암호화 규칙을 적용할 수 있습니다. Outlook 2013 또는 2016에서 암호화된 메시지를 보내거나 Mac용 Outlook 2016 사용 > 옵션을 선택한 다음 필요한 보호 옵션을 선택합니다. 웹에서 보호 단추를 선택하여 암호화된  메시지를 Outlook 수 있습니다. 자세한 내용은 PC용 에서 암호화된 메시지 보내기, Outlook [회신을 참조하세요.](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
 
 ## <a name="admin-settings"></a>관리자 설정
 
-전자 메일 암호화 설정에 대한 자세한 내용은 [Microsoft 365의](../compliance/email-encryption.md)전자 메일 암호화에서 자세히 볼 수 있습니다.
+전자 메일 암호화 설정에 대한 자세한 내용은 에서 전자 메일 [암호화를 Microsoft 365.](../compliance/email-encryption.md)
 
 ### <a name="automatically-encrypt-email-messages"></a>전자 메일 메시지 자동 암호화
 
 관리자는 메일 흐름 규칙을 만들어 캠페인에서 보내고 받은 전자 메일 메시지를 자동으로 보호할 수 있습니다. 발신 전자 메일 메시지를 암호화하고 조직 내부에서 전송된 암호화된 메시지 또는 조직에서 보낸 암호화된 메시지에 대한 답장에서 암호화를 제거하는 규칙을 설정합니다.
 
-새 Office 365 메시지 암호화(OME) 기능을 사용하여 전자 메일 메시지를 암호화하는 메일 흐름 규칙을 만들 수 있습니다. EAC(Exchange 관리 센터)를 사용하여 새 OME 기능을 사용하여 메시지 암호화를 트리거하기 위한 메일 흐름 규칙을 정의합니다. 
+메일 흐름 규칙을 만들어 새 OME(Office 365 메시지 암호화) 기능을 사용하여 전자 메일 메시지를 암호화합니다. EAC(Exchange 관리 센터)를 사용하여 새 OME 기능으로 메시지 암호화를 트리거하기 위한 메일 흐름 규칙을 정의합니다. 
 
 1. 웹 브라우저에서 전역 관리자 권한이 부여된 직장 또는 학교 계정을 사용하여 로그인합니다.
 2. 관리 타일을 선택하세요.
-3. In the admin center, choose **Admin centers > Exchange**.
+3. In the admin center, choose **Admin centers > Exchange.**
 
 자세한 내용은 [Define mail flow rules to encrypt email messages를 참조하세요.](../compliance/define-mail-flow-rules-to-encrypt-email.md)
 

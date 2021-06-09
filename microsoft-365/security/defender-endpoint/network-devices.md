@@ -32,7 +32,7 @@ ms.locfileid: "51862070"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
@@ -45,9 +45,9 @@ ms.locfileid: "51862070"
 > [!NOTE]  
 > 네트워크 [장치](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/network-device-discovery-and-vulnerability-assessments/ba-p/2267548) 검색 및 취약점 평가 블로그 \( 04-13-2021에 게시된 블로그는 \) 끝점용 Defender의  새로운 네트워크 장치 검색 기능에 대한 정보를 제공합니다. 이 문서에서는 네트워크 장치  검색이 해결하도록 디자인된 과제에 대해 간략하게 설명하고 이러한 새로운 기능을 사용하여 시작하는 방법에 대한 자세한 정보를 제공합니다.
 
-네트워크 검색 기능은 Microsoft  365 보안 센터 및 Microsoft Defender 보안 센터 콘솔의 장치 인벤토리 섹션에서 사용할 수 있습니다.  
+네트워크 검색 기능은 보안  센터 및 Microsoft 365 콘솔의 장치 인벤토리 섹션에서 Microsoft Defender 보안 센터 있습니다.  
 
-지정된 끝점 디바이스용 Microsoft Defender가 각 네트워크 세그먼트에서 미리 구성한 네트워크 장치에 대해 정기적으로 인증된 스캔을 수행하는 데 사용됩니다. 검색된 끝점의 위협 및 취약성 관리 기능에 대한 Defender는 검색된 스위치, 라우터, WLAN 컨트롤러, 방화벽 및 VPN 게이트웨이를 보호하는 통합 워크플로를 제공합니다.  
+지정된 끝점 디바이스용 Microsoft Defender가 각 네트워크 세그먼트에서 미리 구성한 네트워크 장치에 대해 정기적으로 인증된 스캔을 수행하는 데 사용됩니다. 검색된 끝점용 Defender의 위협 및 취약성 관리 기능은 검색된 스위치, 라우터, WLAN 컨트롤러, 방화벽 및 VPN 게이트웨이를 보호하는 통합 워크플로를 제공합니다.  
 
 네트워크 장치가 검색 및 분류되면 보안 관리자는 최신 보안 권장 사항을 받고 조직 전체에 배포된 네트워크 장치에서 최근에 발견된 취약점을 검토할 수 있습니다.
 
@@ -89,7 +89,7 @@ ms.locfileid: "51862070"
 
 5. 검색할 네트워크 장치의 IP 주소(또는 이러한 장치가 배포된 서브넷)를 얻습니다.
 
-6. 네트워크 장치의 SNMP 자격 증명(예: 커뮤니티 문자열, noAuthNoPriv, authNoPriv, authPriv)을 얻습니다. 새 평가 작업을 구성할 때 자격 증명을 제공해야 합니다.  
+6. 네트워크 장치의 SNMP 자격 증명(예: Community String, noAuthNoPriv, authNoPriv, authPriv)을 얻습니다. 새 평가 작업을 구성할 때 자격 증명을 제공해야 합니다.  
 
 7. 프록시 클라이언트 구성: Endpoint 장치 프록시 요구 사항에 대한 Defender 외의 추가 구성은 필요하지 않습니다.
 
@@ -105,12 +105,12 @@ ms.locfileid: "51862070"
 
 ## <a name="permissions"></a>사용 권한
 
-평가 작업을 구성하려면 보안 센터에서 보안 설정 관리와 같은 사용자 **권한 옵션이 필요합니다.** 설정 역할로 이동하여 권한을  >  **찾을 수 있습니다.** 자세한 내용은 역할 기반 액세스 제어에 대한 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
+평가 작업을 구성하려면 보안 센터에서 보안 설정 관리와 같은 사용자 **권한 옵션이 필요합니다.** 역할 에서 **역할로** 설정  >  **있습니다.** 자세한 내용은 역할 기반 액세스 제어에 대한 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
 
 ## <a name="install-the-network-scanner"></a>네트워크 스캐너 설치
 
-1. Microsoft **365 보안** 설정  >    >  **끝점**  >  **평가 작업(네트워크** 평가 **아래)으로 이동합니다.**
-    1. Microsoft Defender 보안 센터에서 설정 > 작업 페이지로 이동합니다.
+1. 끝점 **Microsoft 365 보안** 설정(네트워크 평가 아래)로  >    >    >   **이동하십시오.**
+    1. 이 Microsoft Defender 보안 센터 평가 작업 설정 > 이동합니다.
 
 2. 네트워크 스캐너를 다운로드하여 지정된 Endpoint 평가 장치에 설치합니다.
 
@@ -134,7 +134,7 @@ ms.locfileid: "51862070"
 
 ## <a name="configure-a-new-assessment-job"></a>새 평가 작업 구성  
 
-설정의 평가 작업 페이지에서 **네트워크** 평가 작업 **추가를 선택합니다.** 설정 프로세스에 따라 정기적으로 검사하고 장치 인벤토리에 추가할 네트워크 장치를 선택하세요.
+의 평가 작업 **페이지에서 설정** 작업 **추가를 선택합니다.** 설정 프로세스에 따라 정기적으로 검사하고 장치 인벤토리에 추가할 네트워크 장치를 선택하세요.
 
 네트워크 장치 인벤토리에서 장치 중복을 방지하려면 각 IP 주소가 여러 평가 장치에서 한 번만 구성되어 있는지 확인합니다.
 
