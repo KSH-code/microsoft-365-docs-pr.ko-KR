@@ -25,159 +25,159 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/27/2021
 ms.locfileid: "52683670"
 ---
-# <a name="manage-self-service-purchases-users"></a><span data-ttu-id="55844-103">셀프 서비스 구매(사용자) 관리</span><span class="sxs-lookup"><span data-stu-id="55844-103">Manage self-service purchases (Users)</span></span>
+# <a name="manage-self-service-purchases-users"></a><span data-ttu-id="cf15d-103">셀프 서비스 구매(사용자) 관리</span><span class="sxs-lookup"><span data-stu-id="cf15d-103">Manage self-service purchases (Users)</span></span>
 
-<span data-ttu-id="55844-104">사용자는 특정 제품에 대한 구독을 구입하고 해당 구독에 대한 라이선스를 팀의 사용자에게 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55844-104">As a user, you can buy subscriptions to certain products and assign licenses for those subscriptions to people in your team.</span></span> <span data-ttu-id="55844-105">셀프 서비스 구매에 대한 대가를 지불해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-105">You are responsible for paying for any self-service purchases you make.</span></span> <span data-ttu-id="55844-106">의 Microsoft 365 관리 센터에서 구독을 관리할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a></span><span class="sxs-lookup"><span data-stu-id="55844-106">You can manage your subscriptions in the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.</span></span>
+<span data-ttu-id="cf15d-104">사용자는 특정 제품에 대한 구독을 구입하고 해당 구독에 대한 라이선스를 팀의 사용자에게 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-104">As a user, you can buy subscriptions to certain products and assign licenses for those subscriptions to people in your team.</span></span> <span data-ttu-id="cf15d-105">셀프 서비스 구매에 대한 대가를 지불해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-105">You are responsible for paying for any self-service purchases you make.</span></span> <span data-ttu-id="cf15d-106">의 Microsoft 365 관리 센터에서 구독을 관리할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a></span><span class="sxs-lookup"><span data-stu-id="cf15d-106">You can manage your subscriptions in the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.</span></span>
 
-<span data-ttu-id="55844-107">관리자가 구입한 모든 구독에 대한 읽기 전용 보기가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55844-107">Your admin has a read-only view into any subscriptions that you buy.</span></span> <span data-ttu-id="55844-108">구입한 각 구독에 대한 제품, 구매자 이름, 구독, 만료 날짜, 구매 가격 및 할당된 사용자를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55844-108">They can see the product, purchaser name, subscriptions purchased, expiry date, purchase price, and assigned users for each subscription that you buy.</span></span>
+<span data-ttu-id="cf15d-107">관리자가 구입한 모든 구독에 대한 읽기 전용 보기가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-107">Your admin has a read-only view into any subscriptions that you buy.</span></span> <span data-ttu-id="cf15d-108">구입한 각 구독에 대한 제품, 구매자 이름, 구독, 만료 날짜, 구매 가격 및 할당된 사용자를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-108">They can see the product, purchaser name, subscriptions purchased, expiry date, purchase price, and assigned users for each subscription that you buy.</span></span>
 
-## <a name="view-your-subscriptions"></a><span data-ttu-id="55844-109">구독 보기</span><span class="sxs-lookup"><span data-stu-id="55844-109">View your subscriptions</span></span>
+## <a name="view-your-subscriptions"></a><span data-ttu-id="cf15d-109">구독 보기</span><span class="sxs-lookup"><span data-stu-id="cf15d-109">View your subscriptions</span></span>
 
-<span data-ttu-id="55844-110">구입한 모든 셀프 서비스 구매 구독 목록을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55844-110">You can view a list of all self-service purchased subscriptions that you bought.</span></span>
-
-::: moniker range="o365-worldwide"
-
-1. <span data-ttu-id="55844-111">관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="55844-111">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. <span data-ttu-id="55844-112">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="55844-112">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <span data-ttu-id="55844-113">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="55844-113">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
-::: moniker-end
-2. <span data-ttu-id="55844-114">제품 **탭에서** 필터 아이콘을 선택한 다음 셀프 **서비스 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-114">On the **Products** tab, select the filter icon, then select **Self-service**.</span></span>
-
-## <a name="how-to-buy-more-or-reduce-licenses"></a><span data-ttu-id="55844-115">라이선스를 더 구입하거나 라이선스를 줄이는 방법</span><span class="sxs-lookup"><span data-stu-id="55844-115">How to buy more or reduce licenses</span></span>
+<span data-ttu-id="cf15d-110">구입한 모든 셀프 서비스 구매 구독 목록을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-110">You can view a list of all self-service purchased subscriptions that you bought.</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="55844-116">관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="55844-116">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="cf15d-111">관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-111">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="55844-117">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="55844-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="cf15d-112">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-112">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="55844-118">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="55844-118">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="cf15d-113">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-113">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
 ::: moniker-end
-2. <span data-ttu-id="55844-119">제품 **탭에서** 더 구입하거나 라이선스를 줄일 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-119">On the **Products** tab, select the subscription that you want to buy more or reduce licenses for.</span></span>
-3. <span data-ttu-id="55844-120">라이선스 **구입 또는** 라이선스 **제거를 선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-120">Choose **Buy licenses** or **Remove licenses**.</span></span>
-4. <span data-ttu-id="55844-121">오른쪽 창의 총 라이선스  상자에 이 구독에 대해 원하는 총 라이선스 수를 입력한 다음 저장 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-121">In the right pane, in the **Total licenses** box, enter the total number of licenses that you want for this subscription, then choose **Save**.</span></span> <span data-ttu-id="55844-122">예를 들어 라이선스가 100개인 경우 5개 더 추가하려는 경우 105를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-122">For example, if you have 100 licenses and you want to add 5 more, enter 105.</span></span>
+2. <span data-ttu-id="cf15d-114">제품 **탭에서** 필터 아이콘을 선택한 다음 셀프 **서비스 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-114">On the **Products** tab, select the filter icon, then select **Self-service**.</span></span>
 
-## <a name="assign-or-unassign-licenses"></a><span data-ttu-id="55844-123">라이선스 할당 또는 할당해지</span><span class="sxs-lookup"><span data-stu-id="55844-123">Assign or unassign licenses</span></span>
+## <a name="how-to-buy-more-or-reduce-licenses"></a><span data-ttu-id="cf15d-115">라이선스를 더 구입하거나 라이선스를 줄이는 방법</span><span class="sxs-lookup"><span data-stu-id="cf15d-115">How to buy more or reduce licenses</span></span>
 
-### <a name="to-assign-licenses"></a><span data-ttu-id="55844-124">라이선스를 할당하기 위해</span><span class="sxs-lookup"><span data-stu-id="55844-124">To assign licenses</span></span>
+::: moniker range="o365-worldwide"
 
-<span data-ttu-id="55844-125">:: moniker range="o365-worldwide"</span><span class="sxs-lookup"><span data-stu-id="55844-125">:: moniker range="o365-worldwide"</span></span>
-
-1. <span data-ttu-id="55844-126">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-126">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
+1. <span data-ttu-id="cf15d-116">관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-116">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. <span data-ttu-id="55844-127">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-127">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenses</a> page.</span></span>
+1. <span data-ttu-id="cf15d-117">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. <span data-ttu-id="55844-128">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-128">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenses</a> page.</span></span>
+1. <span data-ttu-id="cf15d-118">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-118">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
+::: moniker-end
+2. <span data-ttu-id="cf15d-119">제품 **탭에서** 더 구입하거나 라이선스를 줄일 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-119">On the **Products** tab, select the subscription that you want to buy more or reduce licenses for.</span></span>
+3. <span data-ttu-id="cf15d-120">라이선스 **구입 또는** 라이선스 **제거를 선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-120">Choose **Buy licenses** or **Remove licenses**.</span></span>
+4. <span data-ttu-id="cf15d-121">오른쪽 창의 총 라이선스  상자에 이 구독에 대해 원하는 총 라이선스 수를 입력한 다음 저장 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-121">In the right pane, in the **Total licenses** box, enter the total number of licenses that you want for this subscription, then choose **Save**.</span></span> <span data-ttu-id="cf15d-122">예를 들어 라이선스가 100개인 경우 5개 더 추가하려는 경우 105를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-122">For example, if you have 100 licenses and you want to add 5 more, enter 105.</span></span>
+
+## <a name="assign-or-unassign-licenses"></a><span data-ttu-id="cf15d-123">라이선스 할당 또는 할당해지</span><span class="sxs-lookup"><span data-stu-id="cf15d-123">Assign or unassign licenses</span></span>
+
+### <a name="to-assign-licenses"></a><span data-ttu-id="cf15d-124">라이선스를 할당하기 위해</span><span class="sxs-lookup"><span data-stu-id="cf15d-124">To assign licenses</span></span>
+
+<span data-ttu-id="cf15d-125">:: moniker range="o365-worldwide"</span><span class="sxs-lookup"><span data-stu-id="cf15d-125">:: moniker range="o365-worldwide"</span></span>
+
+1. <span data-ttu-id="cf15d-126">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-126">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
 
 ::: moniker-end
-2. <span data-ttu-id="55844-129">라이선스를 할당할 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-129">Choose the subscription that you want to assign licenses for.</span></span>
-3. <span data-ttu-id="55844-130">라이선스 **할당 을 선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-130">Choose **Assign licenses**.</span></span>
-4. <span data-ttu-id="55844-131">**사용자에게 라이선스 할당** 창에서 이름을 입력한 다음 결과에서 해당 이름을 선택하여 목록에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-131">In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list.</span></span> <span data-ttu-id="55844-132">한 번에 최대 20명의 사용자를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55844-132">You can add up to 20 users at a time.</span></span>
+
+::: moniker range="o365-germany"
+
+ 1. <span data-ttu-id="cf15d-127">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-127">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenses</a> page.</span></span>
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. <span data-ttu-id="cf15d-128">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-128">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenses</a> page.</span></span>
+
+::: moniker-end
+2. <span data-ttu-id="cf15d-129">라이선스를 할당할 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-129">Choose the subscription that you want to assign licenses for.</span></span>
+3. <span data-ttu-id="cf15d-130">라이선스 **할당 을 선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-130">Choose **Assign licenses**.</span></span>
+4. <span data-ttu-id="cf15d-131">**사용자에게 라이선스 할당** 창에서 이름을 입력한 다음 결과에서 해당 이름을 선택하여 목록에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-131">In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list.</span></span> <span data-ttu-id="cf15d-132">한 번에 최대 20명의 사용자를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-132">You can add up to 20 users at a time.</span></span>
     > [!NOTE]
-    > <span data-ttu-id="55844-133">조직의 사용자에게만 라이선스를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55844-133">You can only assign licenses to people in your organization.</span></span>
-5. <span data-ttu-id="55844-134">할당 **을** 선택한 다음 **닫기 를 선택.**</span><span class="sxs-lookup"><span data-stu-id="55844-134">Choose **Assign**, then choose **Close**.</span></span>
+    > <span data-ttu-id="cf15d-133">조직의 사용자에게만 라이선스를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-133">You can only assign licenses to people in your organization.</span></span>
+5. <span data-ttu-id="cf15d-134">할당 **을** 선택한 다음 **닫기 를 선택.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-134">Choose **Assign**, then choose **Close**.</span></span>
 
-### <a name="to-unassign-licenses"></a><span data-ttu-id="55844-135">라이선스를 배포를 unassign(라이선스)</span><span class="sxs-lookup"><span data-stu-id="55844-135">To unassign licenses</span></span>
+### <a name="to-unassign-licenses"></a><span data-ttu-id="cf15d-135">라이선스를 배포를 unassign(라이선스)</span><span class="sxs-lookup"><span data-stu-id="cf15d-135">To unassign licenses</span></span>
 
-<span data-ttu-id="55844-136">:: moniker range="o365-worldwide"</span><span class="sxs-lookup"><span data-stu-id="55844-136">:: moniker range="o365-worldwide"</span></span>
+<span data-ttu-id="cf15d-136">:: moniker range="o365-worldwide"</span><span class="sxs-lookup"><span data-stu-id="cf15d-136">:: moniker range="o365-worldwide"</span></span>
 
-1. <span data-ttu-id="55844-137">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-137">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
+1. <span data-ttu-id="cf15d-137">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-137">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. <span data-ttu-id="55844-138">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-138">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenses</a> page.</span></span>
+ 1. <span data-ttu-id="cf15d-138">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-138">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenses</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. <span data-ttu-id="55844-139">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-139">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenses</a> page.</span></span>
+ 1. <span data-ttu-id="cf15d-139">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-139">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenses</a> page.</span></span>
 
 ::: moniker-end
-2. <span data-ttu-id="55844-140">라이선스의 배포를 해지할 제품을 선택하십시오.</span><span class="sxs-lookup"><span data-stu-id="55844-140">Choose the product that you want to unassign licenses for.</span></span>
-3. <span data-ttu-id="55844-141">라이선스의 배포를 해지할 사용자를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-141">Choose the users that you want to unassign licenses from.</span></span>
-4. <span data-ttu-id="55844-142">라이선스 **배포를 선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-142">Choose **Unassign licenses**.</span></span>
-5. <span data-ttu-id="55844-143">라이선스의 **Unassign(라이선스)** 상자에서 **Unassign (1)을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-143">In the **Unassign licenses** box, choose **Unassign**.</span></span>
+2. <span data-ttu-id="cf15d-140">라이선스의 배포를 해지할 제품을 선택하십시오.</span><span class="sxs-lookup"><span data-stu-id="cf15d-140">Choose the product that you want to unassign licenses for.</span></span>
+3. <span data-ttu-id="cf15d-141">라이선스의 배포를 해지할 사용자를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-141">Choose the users that you want to unassign licenses from.</span></span>
+4. <span data-ttu-id="cf15d-142">라이선스 **배포를 선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-142">Choose **Unassign licenses**.</span></span>
+5. <span data-ttu-id="cf15d-143">라이선스의 **Unassign(라이선스)** 상자에서 **Unassign (1)을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-143">In the **Unassign licenses** box, choose **Unassign**.</span></span>
 
-## <a name="cancel-a-subscription"></a><span data-ttu-id="55844-144">구독 취소</span><span class="sxs-lookup"><span data-stu-id="55844-144">Cancel a subscription</span></span>
+## <a name="cancel-a-subscription"></a><span data-ttu-id="cf15d-144">구독 취소</span><span class="sxs-lookup"><span data-stu-id="cf15d-144">Cancel a subscription</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="55844-145">관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="55844-145">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="cf15d-145">관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-145">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="55844-146">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="55844-146">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="cf15d-146">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-146">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="55844-147">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="55844-147">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="cf15d-147">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-147">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
 ::: moniker-end
-2. <span data-ttu-id="55844-148">**제품** 탭에서 취소하려는 구독을 찾으세요.</span><span class="sxs-lookup"><span data-stu-id="55844-148">On the **Products** tab, find the subscription that you want to cancel.</span></span> <span data-ttu-id="55844-149">점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-149">Select the three dots (more actions), then select **Cancel subscription**.</span></span>
-3. <span data-ttu-id="55844-150">**구독 취소** 창에서 취소 이유를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-150">In the **Cancel subscription** pane, choose a reason why you're canceling.</span></span> <span data-ttu-id="55844-151">원하는 경우 피드백을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-151">Optionally, provide any feedback you have.</span></span>
-4. <span data-ttu-id="55844-152">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-152">Select **Save**.</span></span>
+2. <span data-ttu-id="cf15d-148">**제품** 탭에서 취소하려는 구독을 찾으세요.</span><span class="sxs-lookup"><span data-stu-id="cf15d-148">On the **Products** tab, find the subscription that you want to cancel.</span></span> <span data-ttu-id="cf15d-149">점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-149">Select the three dots (more actions), then select **Cancel subscription**.</span></span>
+3. <span data-ttu-id="cf15d-150">**구독 취소** 창에서 취소 이유를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-150">In the **Cancel subscription** pane, choose a reason why you're canceling.</span></span> <span data-ttu-id="cf15d-151">원하는 경우 피드백을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-151">Optionally, provide any feedback you have.</span></span>
+4. <span data-ttu-id="cf15d-152">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-152">Select **Save**.</span></span>
 
-## <a name="manage-your-payment-details"></a><span data-ttu-id="55844-153">결제 세부 정보 관리</span><span class="sxs-lookup"><span data-stu-id="55844-153">Manage your payment details</span></span>
+## <a name="manage-your-payment-details"></a><span data-ttu-id="cf15d-153">결제 세부 정보 관리</span><span class="sxs-lookup"><span data-stu-id="cf15d-153">Manage your payment details</span></span>
 
-1. <span data-ttu-id="55844-154">관리 센터에서 청구 청구서 청구서 & 프로필   >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">페이지로 이동합니다.</a></span><span class="sxs-lookup"><span data-stu-id="55844-154">In the admin center, go to the **Billing** > **Bills & payments** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Billing profiles</a> page.</span></span>
-2. <span data-ttu-id="55844-155">목록에서 청구 프로필을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-155">Select a billing profile from the list.</span></span>
-3. <span data-ttu-id="55844-156">청구 프로필 세부 정보 페이지의 **결제** 방법에서 다음 옵션 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-156">On the billing profile details page, under **Payment method**, choose one of the following options:</span></span>
-    - <span data-ttu-id="55844-157">기존 결제 방법을 업데이트하려면 편집 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-157">If you want to update an existing payment method, select **Edit**.</span></span>
-    - <span data-ttu-id="55844-158">새 결제 방법을 추가하려면 바꾸기 를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-158">If you want to add a new payment method, select **Replace**.</span></span>
-4. <span data-ttu-id="55844-159">오른쪽 창에서 카드 세부 정보를 입력한 다음 저장 을 **선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-159">In the right pane, enter the card details, then choose **Save**.</span></span>
+1. <span data-ttu-id="cf15d-154">관리 센터에서 청구 청구서 청구서 & 프로필   >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">페이지로 이동합니다.</a></span><span class="sxs-lookup"><span data-stu-id="cf15d-154">In the admin center, go to the **Billing** > **Bills & payments** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Billing profiles</a> page.</span></span>
+2. <span data-ttu-id="cf15d-155">목록에서 청구 프로필을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-155">Select a billing profile from the list.</span></span>
+3. <span data-ttu-id="cf15d-156">청구 프로필 세부 정보 페이지의 **결제** 방법에서 다음 옵션 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-156">On the billing profile details page, under **Payment method**, choose one of the following options:</span></span>
+    - <span data-ttu-id="cf15d-157">기존 결제 방법을 업데이트하려면 편집 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-157">If you want to update an existing payment method, select **Edit**.</span></span>
+    - <span data-ttu-id="cf15d-158">새 결제 방법을 추가하려면 바꾸기 를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-158">If you want to add a new payment method, select **Replace**.</span></span>
+4. <span data-ttu-id="cf15d-159">오른쪽 창에서 카드 세부 정보를 입력한 다음 저장 을 **선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-159">In the right pane, enter the card details, then choose **Save**.</span></span>
 
-### <a name="update-an-existing-payment-method"></a><span data-ttu-id="55844-160">기존 결제 방법 업데이트</span><span class="sxs-lookup"><span data-stu-id="55844-160">Update an existing payment method</span></span>
+### <a name="update-an-existing-payment-method"></a><span data-ttu-id="cf15d-160">기존 결제 방법 업데이트</span><span class="sxs-lookup"><span data-stu-id="cf15d-160">Update an existing payment method</span></span>
 
-1. <span data-ttu-id="55844-161">관리 센터에서 청구 청구서 &   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">페이지로</a> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-161">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
-2. <span data-ttu-id="55844-162">결제 **방법 탭의** 목록에서 기존 결제 방법을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-162">On the **Payment methods** tab, choose an existing payment method from the list.</span></span>
-3. <span data-ttu-id="55844-163">오른쪽 창에서 편집 을 **선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-163">In the right pane, choose **Edit**.</span></span> <span data-ttu-id="55844-164">보안 코드, 만료 날짜, 카드의 이름 및 주소를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55844-164">You can change the security code, expiration date, name on the card, and address.</span></span>
-4. <span data-ttu-id="55844-165">필요한 변경을 한 다음 저장 을 **선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-165">Make any needed changes, then choose **Save**.</span></span>
+1. <span data-ttu-id="cf15d-161">관리 센터에서 청구 청구서 &   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">페이지로</a> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-161">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
+2. <span data-ttu-id="cf15d-162">결제 **방법 탭의** 목록에서 기존 결제 방법을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-162">On the **Payment methods** tab, choose an existing payment method from the list.</span></span>
+3. <span data-ttu-id="cf15d-163">오른쪽 창에서 편집 을 **선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-163">In the right pane, choose **Edit**.</span></span> <span data-ttu-id="cf15d-164">보안 코드, 만료 날짜, 카드의 이름 및 주소를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-164">You can change the security code, expiration date, name on the card, and address.</span></span>
+4. <span data-ttu-id="cf15d-165">필요한 변경을 한 다음 저장 을 **선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-165">Make any needed changes, then choose **Save**.</span></span>
 
-### <a name="add-a-new-payment-method"></a><span data-ttu-id="55844-166">새 결제 방법 추가</span><span class="sxs-lookup"><span data-stu-id="55844-166">Add a new payment method</span></span>
+### <a name="add-a-new-payment-method"></a><span data-ttu-id="cf15d-166">새 결제 방법 추가</span><span class="sxs-lookup"><span data-stu-id="cf15d-166">Add a new payment method</span></span>
 
-1. <span data-ttu-id="55844-167">관리 센터에서 청구 청구서 &   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">페이지로</a> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-167">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
-2. <span data-ttu-id="55844-168">결제 **방법 탭에서** 결제 **방법 추가를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-168">On the **Payment methods** tab, choose **Add a payment method**.</span></span>
-3. <span data-ttu-id="55844-169">결제 **방법 추가 창에서** 새 결제 방법에 대한 정보를 입력한 다음 추가 를 **선택하십시오.**</span><span class="sxs-lookup"><span data-stu-id="55844-169">In the **Add a payment method** pane, enter the information for the new payment method, then choose **Add**.</span></span>
+1. <span data-ttu-id="cf15d-167">관리 센터에서 청구 청구서 &   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">페이지로</a> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-167">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
+2. <span data-ttu-id="cf15d-168">결제 **방법 탭에서** 결제 **방법 추가를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-168">On the **Payment methods** tab, choose **Add a payment method**.</span></span>
+3. <span data-ttu-id="cf15d-169">결제 **방법 추가 창에서** 새 결제 방법에 대한 정보를 입력한 다음 추가 를 **선택하십시오.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-169">In the **Add a payment method** pane, enter the information for the new payment method, then choose **Add**.</span></span>
 
-## <a name="view-your-invoices"></a><span data-ttu-id="55844-170">송장 보기</span><span class="sxs-lookup"><span data-stu-id="55844-170">View your invoices</span></span>
+## <a name="view-your-invoices"></a><span data-ttu-id="cf15d-170">송장 보기</span><span class="sxs-lookup"><span data-stu-id="cf15d-170">View your invoices</span></span>
 
-1. <span data-ttu-id="55844-171">관리 센터에서 청구 청구서 및 &  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">페이지로</a> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-171">In the admin center, go to **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
-2. <span data-ttu-id="55844-172">송장 **탭에서** 보게 할 송장을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55844-172">On the **Invoices** tab, select the invoice that you want to view.</span></span> <span data-ttu-id="55844-173">표시되는 송장이 없는 경우 지난 **3개월을** 지난 **6개월** 또는 날짜 범위 지정으로 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="55844-173">If no invoices are visible, change **Past 3 months** to either **Past 6 months** or **Specify a date range**.</span></span>
+1. <span data-ttu-id="cf15d-171">관리 센터에서 청구 청구서 및 &  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">페이지로</a> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-171">In the admin center, go to **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
+2. <span data-ttu-id="cf15d-172">송장 **탭에서** 보게 할 송장을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-172">On the **Invoices** tab, select the invoice that you want to view.</span></span> <span data-ttu-id="cf15d-173">표시되는 송장이 없는 경우 지난 **3개월을** 지난 **6개월** 또는 날짜 범위 지정으로 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="cf15d-173">If no invoices are visible, change **Past 3 months** to either **Past 6 months** or **Specify a date range**.</span></span>
 
-## <a name="need-help-contact-us"></a><span data-ttu-id="55844-174">도움이 필요하신가요?</span><span class="sxs-lookup"><span data-stu-id="55844-174">Need help?</span></span> <span data-ttu-id="55844-175">문의해 주시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="55844-175">Contact us.</span></span>
+## <a name="need-help-contact-us"></a><span data-ttu-id="cf15d-174">도움이 필요하신가요?</span><span class="sxs-lookup"><span data-stu-id="cf15d-174">Need help?</span></span> <span data-ttu-id="cf15d-175">문의해 주시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="cf15d-175">Contact us.</span></span>
 
-<span data-ttu-id="55844-176">셀프 서비스 구매에 대한 일반적인 질문은 셀프 서비스 [구매 FAQ를 참조하세요.](self-service-purchase-faq.yml)</span><span class="sxs-lookup"><span data-stu-id="55844-176">For common questions about self-service purchases, see [Self-service purchases FAQ](self-service-purchase-faq.yml).</span></span>
+<span data-ttu-id="cf15d-176">셀프 서비스 구매에 대한 일반적인 질문은 셀프 서비스 [구매 FAQ를 참조하세요.](self-service-purchase-faq.yml)</span><span class="sxs-lookup"><span data-stu-id="cf15d-176">For common questions about self-service purchases, see [Self-service purchases FAQ](self-service-purchase-faq.yml).</span></span>
 
-<span data-ttu-id="55844-177">셀프 서비스 구매에 대한 질문이나 도움이 필요한 경우 고객 [지원에 문의하세요.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="55844-177">If you have questions or need help with self-service purchases, [contact support](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="cf15d-177">셀프 서비스 구매에 대한 질문이나 도움이 필요한 경우 고객 [지원에 문의하세요.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="cf15d-177">If you have questions or need help with self-service purchases, [contact support](../../business-video/get-help-support.md).</span></span>

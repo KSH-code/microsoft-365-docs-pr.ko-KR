@@ -26,11 +26,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/27/2020
 ms.locfileid: "44399245"
 ---
-# <a name="microsoft-cloud-solution-provider-partners-in-russia"></a><span data-ttu-id="7e0a9-103">러시아의 Microsoft 클라우드 솔루션 공급자 파트너</span><span class="sxs-lookup"><span data-stu-id="7e0a9-103">Microsoft Cloud Solution Provider Partners in Russia</span></span>
-<span data-ttu-id="7e0a9-104">[]다음은 러시아의 Microsoft 클라우드 솔루션 공급자 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="7e0a9-104">Here is a list of Microsoft Cloud Solution Providers in Russia.</span></span>
+# <a name="microsoft-cloud-solution-provider-partners-in-russia"></a><span data-ttu-id="f7cae-103">러시아의 Microsoft 클라우드 솔루션 공급자 파트너</span><span class="sxs-lookup"><span data-stu-id="f7cae-103">Microsoft Cloud Solution Provider Partners in Russia</span></span>
+<span data-ttu-id="f7cae-104">[]다음은 러시아의 Microsoft 클라우드 솔루션 공급자 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="f7cae-104">Here is a list of Microsoft Cloud Solution Providers in Russia.</span></span>
   
-- [<span data-ttu-id="7e0a9-105">Mont</span><span class="sxs-lookup"><span data-stu-id="7e0a9-105">Mont</span></span>](https://www.mont.com/ru-ru/)
+- [<span data-ttu-id="f7cae-105">Mont</span><span class="sxs-lookup"><span data-stu-id="f7cae-105">Mont</span></span>](https://www.mont.com/ru-ru/)
     
-- [<span data-ttu-id="7e0a9-106">Softline</span><span class="sxs-lookup"><span data-stu-id="7e0a9-106">Softline</span></span>](https://softline.ru/)
+- [<span data-ttu-id="f7cae-106">Softline</span><span class="sxs-lookup"><span data-stu-id="f7cae-106">Softline</span></span>](https://softline.ru/)
     
 
