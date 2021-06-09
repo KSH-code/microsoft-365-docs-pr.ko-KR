@@ -349,4 +349,4 @@
     - name: 끝점용 Microsoft Defender
       href: ../defender-endpoint/index.yml
     - name: ID용 Microsoft Defender
-      href: 'https://docs.microsoft.com/defender-for-identity/'
+      href: /defender-for-identity/

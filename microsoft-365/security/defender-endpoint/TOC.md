@@ -288,6 +288,9 @@
 ##### [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 관리](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 ##### [WMI(Windows Management Instrumentation)를 사용하여 Microsoft Defender 바이러스 백신 관리](use-wmi-microsoft-defender-antivirus.md)
 ##### [mpcmdrun.exe 도구를 사용하여 Microsoft Defender 바이러스 백신 관리](command-line-arguments-microsoft-defender-antivirus.md)
+##### [엔드포인트에 표시되는 알림 구성](configure-notifications-microsoft-defender-antivirus.md)
+##### [사용자가 로컬에서 Microsoft Defender 바이러스 백신 정책 설정을 수정할 수 있게 할지 지정](configure-local-policy-overrides-microsoft-defender-antivirus.md)
+##### [사용자가 Microsoft Defender 바이러스 백신 사용자 인터페이스를 보고 이와 상호 작용할 수 있게 할지 지정](prevent-end-user-interaction-microsoft-defender-antivirus.md)
 
 #### [Microsoft Defender 바이러스 백신 배포 및 보고](deploy-manage-report-microsoft-defender-antivirus.md)
 ##### [Microsoft Defender 바이러스 백신 배포 및 사용](deploy-microsoft-defender-antivirus.md)
@@ -480,10 +483,10 @@
 ####### [경고 관련 사용자 정보 가져오기](get-alert-related-user-info.md)
 
 ###### [취약성 및 보안 구성 평가]()
-####### [평가 방법 및 속성 내보내기](get-assessmnt-1methods-properties.md)
-####### [보안 구성 평가 내보내기](get-assessmnt-secure-cfg.md)
-####### [소프트웨어 인벤토리 재고 내보내기](get-assessmnt-software-inventory.md)
-####### [소프트웨어 취약점 평가 내보내기](get-assessmnt-software-vulnerabilities.md)
+####### [평가 방법 및 속성 내보내기](get-assessment-methods-properties.md)
+####### [보안 구성 평가 내보내기](get-assessment-secure-config.md)
+####### [소프트웨어 인벤토리 재고 내보내기](get-assessment-software-inventory.md)
+####### [소프트웨어 취약점 평가 내보내기](get-assessment-software-vulnerabilities.md)
 
 ###### [자동화된 조사]()
 ####### [조사 방법 및 속성](investigation.md)
