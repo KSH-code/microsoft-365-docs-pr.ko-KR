@@ -21,18 +21,18 @@ ms.locfileid: "52023264"
 ---
 # <a name="localize-the-user-experience"></a>사용자 환경 현지화
 
-Microsoft Managed Desktop 장치 사용자는 설치 프로세스("첫 실행 경험") 또는 그 이후에 원하는 언어를 선택할 수 있습니다.
+장치 Microsoft Managed Desktop 설치 프로세스("첫 실행 경험") 또는 그 이후에 선택한 언어를 선택할 수 있습니다.
 
 ## <a name="during-setup-the-out-of-box-experience"></a>설치 중("첫 실행 경험")
 
 설치를 완료하는 동안 사용자는 원하는 언어를 선택할 수 있습니다. 이 선택은 다음 특성에 영향을 미치게 됩니다.
 
-- Windows 10 언어 기능:
+- Windows 10 기능:
     - 표시 언어
     - 키보드 언어
     - 언어 관련 요구 시 기능
 
-- 엔터프라이즈용 Microsoft 365 앱 언어 기능:
+- Microsoft 365 앱 언어 Enterprise 대한 자세한 예는 다음과 같습니다.
     - 표시 언어
     - 교정 및 제작 도구
 
@@ -41,17 +41,17 @@ Microsoft Managed Desktop 장치 사용자는 설치 프로세스("첫 실행 �
 
 ## <a name="after-completing-setup"></a>설치를 완료한 후
 
-사용자는 설치 프로세스가 완료된 후 언제든지 Windows 10 및 엔터프라이즈용 Microsoft 365 앱에 대해 원하는 언어를 선택할 수 있습니다. 특히 다음 사항에 유의합니다.
+사용자는 설치 프로세스가 완료된 후 Windows 10 Microsoft 365 앱 Enterprise 선택한 언어를 선택할 수 있습니다. 특히 다음 사항에 유의합니다.
 
-- Windows 10 언어 기능:
+- Windows 10 기능:
     - 표시 언어
     - 키보드 언어
 
-- 엔터프라이즈용 Microsoft 365 앱 언어 기능:
+- Microsoft 365 앱 언어 Enterprise 대한 자세한 예는 다음과 같습니다.
     - 표시 언어
     - 교정 및 제작 도구
 
-사용자가 설치할 [](#supported-languages) 수 있는 엔터프라이즈용 Microsoft 365 앱의 지원되는 언어를 만들 수 있도록 최신 **Workplace-Office-Language_Packs** 그룹에 사용자를 추가합니다. 언어는 Intune 회사 포털에서 사용할 수 있습니다.
+사용자가 설치할 [](#supported-languages) Microsoft 365 앱 Enterprise 지원되는 언어를 만들 수 있도록 최신 **Workplace-Office-Language_Packs** 그룹에 추가합니다. 언어는 다음 Intune 회사 포털.
 
 
 ## <a name="supported-languages"></a>지원되는 언어
@@ -60,7 +60,7 @@ Microsoft Managed Desktop 장치 사용자는 설치 프로세스("첫 실행 �
 
 기존 장치를 다시 사용하려면 Microsoft 계정 담당자와 함께 적절한 이미지를 얻어야 할 수 있습니다. 자세한 내용은 장치 이미지를 [참조하세요.](../service-description/device-images.md)
 
-Microsoft Managed [Desktop에서](../service-description/device-images.md#universal-image) 제공하는 유니버설 이미지에는 다음 언어와 Windows 10용이 포함되어 있습니다.
+이러한 [언어 및](../service-description/device-images.md#universal-image) Microsoft Managed Desktop 이미지에 포함된 유니버설 이미지는 Windows 10.
 
 - 아랍어
 - 불가리아어
@@ -100,18 +100,18 @@ Microsoft Managed [Desktop에서](../service-description/device-images.md#univer
 - 우크라이나어
 - 베트남어
 
-엔터프라이즈용 Microsoft 365 앱은 약간 다른 목록을 지원할 수 있습니다.
+Microsoft 365 앱 대한 Enterprise 약간 다른 목록을 지원할 수 있습니다.
 
 여기에 나열된 언어가 다른 언어가 필요한 경우 [](../working-with-managed-desktop/admin-support.md) 관리 포털을 사용하여 지원 요청을 [제출합니다.](access-admin-portal.md)
 
 ## <a name="languages-for-support-and-operations"></a>지원 및 운영 언어
 
 ### <a name="user-support"></a>사용자 지원
-Microsoft Managed Desktop은 영어로만 지원을 제공합니다. 사용자가 도움말 보기 앱에서 다른 언어를 선택하면 Microsoft Managed Desktop에서 직접 지원하지 않고 일반 Microsoft 지원 채널에서 지원을 받을 수 있습니다. 자세한 내용은 [사용자에 대한 도움말 보기를 참조하세요.](../working-with-managed-desktop/end-user-support.md)
+Microsoft Managed Desktop 지원은 영어로만 제공됩니다. 사용자가 도움말 앱에서 다른 언어를 선택하는 경우 해당 앱에서 직접 지원하지 않고 일반 Microsoft 지원 채널에서 지원을 Microsoft Managed Desktop. 자세한 내용은 [사용자에 대한 도움말 보기를 참조하세요.](../working-with-managed-desktop/end-user-support.md)
 
 사용자가 다른 언어로 지원을 필요로 하는 경우 Microsoft가 아닌 지원 원본이나 조직에서 지원을 제공해야 합니다.
 
 ### <a name="admin-support-and-operations"></a>관리자 지원 및 운영
-Microsoft Managed Desktop은 영어로만 관리자 지원을 제공합니다. 여기에는 관리 포털 및 Microsoft Managed Desktop 작업과의 모든 통신이 포함됩니다. 달리 지정하지 않는 한 모든 관리자 관련 상호 작용 및 인터페이스가 영어로 제공된다고 가정해야 합니다.
+Microsoft Managed Desktop 영어로만 관리자 지원을 제공합니다. 여기에는 관리 포털 및 관리 작업과의 Microsoft Managed Desktop 포함됩니다. 달리 지정하지 않는 한 모든 관리자 관련 상호 작용 및 인터페이스가 영어로 제공된다고 가정해야 합니다.
 
 

@@ -1,5 +1,5 @@
 ---
-title: 등록 또는 등록 해제 알림 규칙 만들기
+title: 온보딩 또는 오프보딩 알림 규칙 만들기
 description: 로컬 온보딩 또는 등록 해제 스크립트를 사용할 때 알림을 받을 수 있습니다.
 keywords: 등록, 등록 해제, 로컬, 스크립트, 알림, 규칙
 search.product: eADQiWindows 10XVcnh
@@ -44,8 +44,8 @@ ms.locfileid: "51187337"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 다음에 대한 액세스 권한이 필요합니다.
- - Microsoft Flow(최소한 흐름 계획 1) 자세한 내용은 흐름 가격 [페이지를 참조하세요.](https://flow.microsoft.com/pricing/)
- - Azure 테이블 또는 SharePoint 목록 또는 라이브러리/SQL DB
+ - Microsoft Flow(Flow 계획 1 이상) 자세한 내용은 가격 Flow [페이지를 참조하세요.](https://flow.microsoft.com/pricing/)
+ - Azure 테이블 또는 SharePoint 또는 라이브러리/SQL DB
 
 ## <a name="create-the-notification-flow"></a>알림 흐름 만들기
 
@@ -63,7 +63,7 @@ ms.locfileid: "51187337"
 
     ![알림 흐름의 이미지](images/build-flow.png)
 
-4. + 단추를 선택하여 새 작업을 추가합니다. 새 작업은 끝점 보안 센터 장치용 Defender API에 대한 HTTP 요청입니다. "WDATP 커넥터"(작업: "컴퓨터 - 컴퓨터 목록 확인")로 바꿀 수도 있습니다. 
+4. + 단추를 선택하여 새 작업을 추가합니다. 새 작업은 끝점 보안 센터 장치용 Defender API에 대한 HTTP 요청입니다. "WDATP 커넥터&quot;(작업: &quot;컴퓨터 - 컴퓨터 목록 확인")로 바꿀 수도 있습니다. 
 
     ![재발 및 작업 추가의 이미지](images/recurrence-add.png)
 
@@ -73,11 +73,11 @@ ms.locfileid: "51187337"
    - 메서드: 디바이스 목록을 얻을 수 있는 값으로 "GET"입니다.
    - URI: 를 `https://api.securitycenter.microsoft.com/api/machines` 입력합니다.
    - 인증: "Active Directory OAuth"를 선택합니다.
-   - 테넌트: Azure Active Directory에 로그인하여 앱 등록을 > 테넌트 ID 값을 https://portal.azure.com 얻습니다. 
+   - 테넌트: 앱 등록에 로그인하고 Azure Active Directory > 테넌트 ID 값을 https://portal.azure.com 얻습니다. 
    - 대상: `https://securitycenter.onmicrosoft.com/windowsatpservice\`
-   - 클라이언트 ID: Azure Active Directory에 로그인하여 앱 등록을 > 클라이언트 https://portal.azure.com ID 값을  얻습니다.
+   - 클라이언트 ID: 로그인하여 Azure Active Directory > 앱 등록으로 이동하고 https://portal.azure.com 클라이언트 ID 값을 얻습니다. 
    - 자격 증명 유형: "비밀"을 선택합니다.
-   - 비밀: https://portal.azure.com Azure Active **Directory에** 로그인하여 앱 등록을 > 테넌트 ID 값을 얻습니다.
+   - 비밀: 로그인하여 앱 등록을 Azure Active Directory > 테넌트 https://portal.azure.com ID 값을  얻습니다.
 
     ![HTTP 조건의 이미지](images/http-conditions.png)
 
@@ -176,9 +176,9 @@ ms.locfileid: "51187337"
 
     ```
 
-10.  JSON 호출에서 값을 추출하고 등록된 장치가 SharePoint 목록에 이미 등록되어 있는지 확인합니다. 예를 들면 다음과 같습니다.
+10.  JSON 호출에서 값을 추출하고 등록된 장치가 이미 SharePoint 등록되어 있는지 확인합니다.
 - 예인 경우 알림이 트리거되지 않습니다.
-- 아니요인 경우 SharePoint 목록에 새 등록된 장치를 등록하고 끝점용 Defender 관리자에게 알림이 전송됩니다.
+- 아니요인 경우 새 등록된 장치를 SharePoint 등록하고 끝점용 Defender 관리자에게 알림이 전송됩니다.
 
     ![각 이미지에 적용](images/flow-apply.png)
 

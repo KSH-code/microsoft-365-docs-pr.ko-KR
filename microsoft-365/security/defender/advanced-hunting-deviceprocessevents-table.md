@@ -65,7 +65,7 @@ ms.locfileid: "52024265"
 | `ProcessVersionInfoFileDescription` | 문자열 | 새로 만든 프로세스의 버전 정보 설명 |
 | `ProcessId` | int | 새로 만든 프로세스의 PID(프로세스 ID)입니다. |
 | `ProcessCommandLine` | 문자열 | 새 프로세스를 만드는 데 사용되는 명령줄 |
-| `ProcessIntegrityLevel` | 문자열 | 새로 만든 프로세스의 무결성 수준입니다. Windows는 다운로드한 인터넷에서 시작된 경우와 같이 특정 특성을 기반으로 프로세스에 무결성 수준을 할당합니다. 이러한 무결성 수준은 리소스에 대한 사용 권한에 영향을 미치기 |
+| `ProcessIntegrityLevel` | 문자열 | 새로 만든 프로세스의 무결성 수준입니다. Windows 다운로드한 인터넷에서 시작된 경우와 같이 특정 특성을 기반으로 프로세스에 무결성 수준을 할당합니다. 이러한 무결성 수준은 리소스에 대한 사용 권한에 영향을 미치기 |
 | `ProcessTokenElevation` | 문자열 | 새로 만든 프로세스에 적용되는 토큰 권한 상승 유형을 나타냅니다. 가능한 값: TokenElevationTypeLimited(제한), TokenElevationTypeDefault(표준) 및 TokenElevationTypeFull(상승) |
 | `ProcessCreationTime` | datetime | 프로세스가 만들어진 날짜 및 시간 |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
@@ -80,7 +80,7 @@ ms.locfileid: "52024265"
 | `InitiatingProcessAccountUpn` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 계정의 UPN(사용자 계정 이름)입니다. |
 | `InitiatingProcessAccountObjectId` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 사용자 계정의 Azure AD 개체 ID입니다. |
 | `InitiatingProcessLogonId` | 문자열 | 이벤트를 시작한 프로세스의 로그온 세션 식별자입니다. 이 식별자는 다시 시작 사이에만 동일한 컴퓨터의 고유합니다. |
-| `InitiatingProcessIntegrityLevel` | 문자열 | 이벤트를 시작한 프로세스의 무결성 수준입니다. Windows는 인터넷 다운로드에서 시작된 경우와 같이 특정 특성을 기반으로 프로세스에 무결성 수준을 할당합니다. 이러한 무결성 수준은 리소스에 대한 사용 권한에 영향을 미치기 |
+| `InitiatingProcessIntegrityLevel` | 문자열 | 이벤트를 시작한 프로세스의 무결성 수준입니다. Windows 인터넷 다운로드에서 시작된 경우와 같은 특정 특성을 기반으로 프로세스에 무결성 수준을 할당합니다. 이러한 무결성 수준은 리소스에 대한 사용 권한에 영향을 미치기 |
 | `InitiatingProcessTokenElevation` | 문자열 | 이벤트를 시작한 프로세스에 적용되는 UAC(사용자 액세스 제어) 권한 상승의 유무를 나타내는 토큰 형식입니다. |
 | `InitiatingProcessSHA1` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 SHA-1 |
 | `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 SHA-256입니다. 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |

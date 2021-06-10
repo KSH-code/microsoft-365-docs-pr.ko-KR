@@ -233,7 +233,7 @@ WINDOWS 10 OS  [1709, 1803](/windows/release-health/status-windows-10-1709)또�
 
 위협 및 취약성 & 대한 자세한 내용은 에서 위협 & 취약성 관리를 [Microsoft Defender 보안 센터.](/microsoft-365/security/defender-endpoint/tvm-dashboard-insights#threat--vulnerability-management-in-microsoft-defender-security-center)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="to-which-windows-os-versions-is-configuring-tamper-protection-is-applicable"></a>어떤 Windows OS 버전에서 변조 보호를 구성할 수 있나요?
 

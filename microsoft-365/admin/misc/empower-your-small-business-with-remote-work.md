@@ -14,7 +14,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-description: Microsoft 365를 사용하여 비즈니스를 위한 원격 작업의 최신 방법 정보, 팁, 리소스 및 지침을 찾아보세요.
+description: 비즈니스용 원격 작업을 위한 최신 방법 정보, 팁, 리소스 및 지침을 Microsoft 365.
 ms.openlocfilehash: 5bdff59f3d07c59951c6da87d7b28432fb7c5878
 ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
@@ -24,10 +24,10 @@ ms.locfileid: "52023740"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>원격 작업을 통해 소기업의 역량 강화
 
-기업은 사람들이 원격으로 작업하고 고객과 가상으로 연결해야 하는 필요성이 증가하는 데 적응할 때 이 사이트는 Microsoft 365를 사용하여 비즈니스를 위한 원격 작업 관련 최신 방법 정보, 팁, 리소스 및 지침으로 업데이트됩니다.
+기업은 사람들이 원격으로 작업하고 고객과 가상으로 연결해야 하는 필요성이 증가하고 있는 요구에 맞춰 이 사이트가 최신 방법 정보, 팁, 리소스 및 비즈니스용 원격 작업 지침으로 Microsoft 365.
 
 >[!TIP]
->사용되지 Microsoft_Teams? Office에서 6개월 무료 Microsoft Teams를 다운로드합니다(1년 등록 시). 이 문서에 설명된 기술을 제안의 일부로 얻습니다. 자세한 내용은 [1개월 무료 시도를 참조합니다.](https://aka.ms/SMBTeamsOffer)
+>사용되지 Microsoft_Teams? 6개월 동안 Microsoft Teams Office 무료로 다운로드할 수 있습니다(1년 등록 시). 이 문서에 설명된 기술을 제안의 일부로 얻습니다. 자세한 내용은 [1개월 무료 시도를 참조합니다.](https://aka.ms/SMBTeamsOffer)
 
 ## <a name="remote-work-for-your-small-business-video"></a>중소기업을 위한 원격 작업(동영상)
 
@@ -39,15 +39,15 @@ COVID-19(Novel Coronavirus) 발생에 비하면 많은 비즈니스 소유자가
 
 자세한 내용은 [중소기업에서 Microsoft Teams 시작을 참조하세요.](../../business-video/get-started-teams-small-business.md)
 
-이미 구독이 있지만 설정해야 하나요? [Microsoft 365 Small Business 교육을 참조합니다.](../../business-video/index.yml)
+이미 구독이 있지만 설정해야 하나요? 소규모 [Microsoft 365 교육을 참조합니다.](../../business-video/index.yml)
 
-## <a name="connect-with-employees-and-customers"></a>직원 및 고객과 연결
+## <a name="connect-with-employees-and-customers"></a>커넥트 및 고객과의 서비스 제공
 
-대면할 수 없는 경우에도 직원, 고객, 클라이언트 및 파트너와 계속 연결할 수 있습니다. Microsoft Teams를 사용하여 비즈니스를 계속하고 고객과의 연결을 계속합니다. 
+대면할 수 없는 경우에도 직원, 고객, 클라이언트 및 파트너와 계속 연결할 수 있습니다. 비즈니스 Microsoft Teams 고객과의 연결을 계속할 수 있습니다. 
 
-### <a name="meet-up-in-teams"></a>Teams에서 만나기
+### <a name="meet-up-in-teams"></a>Teams
 
-Microsoft Teams를 통해 직원, 고객 또는 파트너와 오디오, 비디오 및 웹 모임을 호스팅합니다.
+직원, 고객 또는 파트너와 오디오, 비디오 및 웹 모임을 Microsoft Teams.
 
 자세한 내용은 [호스트 온라인](../../business-video/start-and-pin-chats.md) 모임 및 직원 및 고객과 [채팅을 참조하세요.](https://support.microsoft.com/office/chat-with-employees-and-customers-65748808-a403-462c-a6e1-b169e5bc6c92)
 
@@ -55,7 +55,7 @@ Microsoft Teams를 통해 직원, 고객 또는 파트너와 오디오, 비디�
 
 비즈니스 문서를 클라우드에 저장하고 내부 및 외부적으로 안전하게 공유합니다.
 
-자세한 내용은 이 비즈니스 [파일](../../business-video/overview-file-sharing.md) 공유 개요 및 파일 업로드 및 [공유를 참조하세요.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
+자세한 내용은 이 비즈니스 파일 [공유](../../business-video/overview-file-sharing.md) 개요 및 파일 공유 [업로드 참조하세요.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
 
 ### <a name="collaborate-with-customers"></a>고객과 공동 작업
 
@@ -75,19 +75,19 @@ Microsoft Teams를 통해 직원, 고객 또는 파트너와 오디오, 비디�
 
 ### <a name="secure-your-devices"></a>장치 보안
 
-PC 및 휴대폰을 원격으로 관리하고 보호하고 최신으로 보호합니다. Microsoft 365 Business가 필요합니다.
+PC 및 휴대폰을 원격으로 관리하고 보호하고 최신으로 보호합니다. 필요한 Microsoft 365 Business.
 
 자세한 내용은 장치 [관리를 참조하세요.](../../business-video/secure-win-10-pro-devices.md)
 
 ### <a name="more-for-admins-and-partners"></a>관리자 및 파트너에 대한 추가
 
-Microsoft 365 Business용 기술 설명서 허브가 새로운 보안 원격 작업 지침으로 업데이트되었습니다.
+보안용 기술 Microsoft 365 Business 새로운 보안 원격 작업 지침으로 업데이트되었습니다.
 
-자세한 내용은 [Microsoft 365 Business 리소스 를 참조합니다.](https://docs.microsoft.com/microsoft-365/business)
+자세한 내용은 Microsoft 365 Business [참조합니다.](https://docs.microsoft.com/microsoft-365/business)
 
 ## <a name="need-to-ask-a-question"></a>질문해야 하나요? 
 
-Teams 포럼 [또는](https://answers.microsoft.com/msteams/forum) [Office Admins 포럼에 문의하세요.](https://answers.microsoft.com)
+Teams [또는](https://answers.microsoft.com/msteams/forum) Office [포럼에 문의하세요.](https://answers.microsoft.com)
 
 > [!NOTE]
-> 이 문서 및 비디오의 대부분의 작업은 Microsoft 365 Business Basic(이전의 Office 365 Business Essentials)을 구독하여 수행할 수 있지만 일부는 프리미엄 구독이 필요합니다. 
+> 이 문서 및 비디오의 대부분의 작업은 구독을 통해 수행할 수 있지만(Microsoft 365 Business Basic 이전의 Office 365 Business Essentials) 프리미엄 구독이 필요한 경우도 있습니다. 

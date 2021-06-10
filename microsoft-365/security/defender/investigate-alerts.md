@@ -90,7 +90,7 @@ Microsoft 365 Defender 경고는 Endpoint용 Microsoft Defender, Microsoft Defen
 경고 원본 | 문자를 더한 문자 
 :---|:---
 Office 365용 Microsoft Defender | `fa{GUID}` <br> 예: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
-엔드포인트용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
+끝점용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
 ID용 Microsoft Defender | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
 Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 

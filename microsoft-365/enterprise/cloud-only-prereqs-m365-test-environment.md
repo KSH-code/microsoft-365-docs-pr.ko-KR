@@ -23,9 +23,9 @@ ms.locfileid: "51199552"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 클라우드 전용 ID 및 장치 액세스 필수 구성 요소
 
-*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 테스트 환경에만 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 테스트 환경에 Microsoft 365 사용할 수 있습니다.*
 
-[ID 및 장치 액세스 구성은](../security/office-365-security/microsoft-365-policies-configurations.md) Azure AD(Azure Active Directory)와 통합된 모든 서비스에 대한 액세스를 보호하기 위한 권장 구성 및 조건부 액세스 정책 집합입니다.
+[ID 및 장치 액세스](../security/office-365-security/microsoft-365-policies-configurations.md) 구성은 Azure AD(Azure AD)와 통합된 모든 서비스에 대한 액세스를 보호하기 위한 권장 구성 및 조건부 액세스 Azure Active Directory 집합입니다.
 
 이 문서에서는 ID 및 장치 액세스를 위해 [클라우드 전용 필수 구성](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
 
@@ -35,7 +35,7 @@ ms.locfileid: "51199552"
 2. 명명된 위치 구성
 3. 셀프 서비스 암호 재설정 구성
 4. Multi-Factor Authentication를 구성합니다.
-5. 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록 사용
+5. 도메인에 가입된 컴퓨터의 자동 장치 Windows 사용
 6. Azure AD 암호 보호 구성 
 7. Azure AD Identity Protection 사용
 8. Exchange Online 및 비즈니스용 Skype Online에 대한 최신 인증을 실행합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "51199552"
 
 ## <a name="phase-3-configure-self-service-password-reset"></a>3단계: 셀프 서비스 암호 재설정 구성
 
-[암호 재설정 테스트 랩 가이드의 3단계](password-reset-m365-ent-test-environment.md#phase-3-configure-and-test-password-reset)에 있는 지침을 따릅니다. 
+[암호 재설정 3단계](password-reset-m365-ent-test-environment.md#phase-3-configure-and-test-password-reset) 테스트 랩 가이드의 지침을 따릅니다. 
 
 특정 Azure AD 그룹의 계정에 대한 비밀번호 재설정을 활성화 할 때 다음 계정을 **비밀번호 재설정** 그룹에 추가합니다.
 
@@ -75,11 +75,11 @@ ms.locfileid: "51199552"
 - 사용자 4
 - 사용자 5
 
-사용자 2 계정에 대해서만 다단계 인증을 테스트합니다.
+사용자 2 계정에 대해서만 다중 요소 인증을 테스트하십시오.
 
-## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>5단계: 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록 사용 
+## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>5단계: 도메인에 가입된 컴퓨터의 자동 장치 Windows 사용 
 
-다음 [지침에 따라](/azure/active-directory/devices/hybrid-azuread-join-plan) 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록을 사용하도록 설정하세요.
+다음 [지침에 따라](/azure/active-directory/devices/hybrid-azuread-join-plan) 도메인에 가입된 컴퓨터의 자동 장치 등록을 Windows.
 
 ## <a name="phase-6-configure-azure-ad-password-protection"></a>6단계: Azure AD 암호 보호 구성 
 
@@ -103,7 +103,7 @@ Online 비즈니스용 Skype의 경우:
   Set-CsOAuthConfiguration -ClientAdalAuthOverride Allowed
   ```
 
-3. 이 명령을 사용하여 변경되었는지 확인합니다.
+3. 이 명령을 이용해 변경 내용이 제대로 적용되었는지 확인합니다.
 
   ```powershell
   Get-CsOAuthConfiguration

@@ -52,7 +52,7 @@ GET /api/users/{id}/
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -62,7 +62,7 @@ GET /api/users/{id}/
 성공적이고 사용자가 있는 경우 - [](user.md) 본문에 사용자 엔터티가 있는 200 OK. 사용자가 존재하지 않는 경우 - 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

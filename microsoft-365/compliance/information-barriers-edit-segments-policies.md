@@ -27,13 +27,13 @@ ms.locfileid: "50925554"
 
 |**작업**|**설명**|
 |:---------|:--------------|
-| [사용자 계정 특성 편집](#edit-user-account-attributes) | 세그먼트를 정의하는 데 사용할 수 있는 Azure Active Directory의 특성을 입력합니다.<br/>사용자가 세그먼트에 포함되지 않은 경우, 사용자가 포함된 세그먼트를 변경하거나, 다른 특성을 사용하여 세그먼트를 정의하기 위해 사용자 계정 특성을 편집합니다. |
-| [세그먼트 편집](#edit-a-segment) | 세그먼트 정의 방법을 변경하려는 경우 세그먼트를 편집합니다. <br/>예를 들어 Department를 사용하여 원래 세그먼트를 정의한 다음 *MemberOf와* 같은 다른 특성을 *사용하려는 경우를* 예로 들 수 있습니다. |
+| [사용자 계정 특성 편집](#edit-user-account-attributes) | 세그먼트를 정의하는 데 Azure Active Directory 특성을 입력합니다.<br/>사용자가 포함되어야 하는 세그먼트에 포함되지 않은 경우 사용자 계정 특성을 편집하여 사용자가 있는 세그먼트를 변경하거나, 다른 특성을 사용하여 세그먼트를 정의할 수 있습니다. |
+| [세그먼트 편집](#edit-a-segment) | 세그먼트의 정의 방법을 변경하려는 경우 세그먼트를 편집합니다. <br/>예를 들어 Department를 사용하여 원래 세그먼트를 정의한 다음 *MemberOf와* 같은 다른 특성을 *사용하려는 경우를* 예로 들 수 있습니다. |
 | [정책 편집](#edit-a-policy) | 정책의 작동 방법을 변경하려는 경우 정보 장벽 정책을 편집합니다.<br/>예를 들어 두 세그먼트 간의 통신을 차단하는 대신 특정 세그먼트 간에만 통신이 발생하도록 허용할 수 있습니다. |
 | [정책을 비활성 상태로 설정](#set-a-policy-to-inactive-status) |정책을 변경하거나 정책을 적용하지 못하게 하려는 경우 정책을 비활성 상태로 설정 |
 | [정책 제거](#remove-a-policy) | 더 이상 특정 정책을 적용하지 필요가 없는 경우 정보 장벽 정책을 제거합니다. |
 | [정책 응용 프로그램 중지](#stop-a-policy-application) | 정보 장벽 정책을 적용하는 프로세스를 중지하려는 경우 이 작업을 수행하세요.<br/> 정책 응용 프로그램을 중지하는 것은 즉각적인 것이 아니며 사용자에게 이미 적용된 정책을 실행 취소하지 않습니다. |
-| [정보 장벽에 대한 정책 정의](information-barriers-policies.md) | 이러한 정책이 아직 설정되지 않은 경우 정보 장벽 정책을 정의하고 특정 사용자 그룹 간의 통신을 제한하거나 제한해야 합니다. |
+| [정보 장벽을 위한 정책 정의](information-barriers-policies.md) | 이러한 정책이 아직 설정되지 않은 경우 정보 장벽 정책을 정의하고 특정 사용자 그룹 간의 통신을 제한하거나 제한해야 합니다. |
 | [정보 장벽 문제 해결](information-barriers-troubleshooting.md) | 정보 장벽으로 예기치 않은 문제가 발생할 경우 이 문서를 참조하세요. |
 
 > [!IMPORTANT]
@@ -47,15 +47,15 @@ ms.locfileid: "50925554"
 
     |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
     |:---------|:----------|
-    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 각 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다. <p> (단일 사용자에 대해 이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>` ) |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> 이 예제에서는 Office 365의 두 사용자 계정인 *Meganb* 및 *Alex의 alexw를* *참조합니다.*  |
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 각 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다. <p> (단일 사용자에 대해 이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>` ) |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> 이 예제에서는 2개의 사용자 계정인 Office 365 *meganb* 및 *Alex의 alexw를* *참조합니다.* |
 
 2. 사용자 계정 프로필에 대해 편집할 특성을 결정하십시오. 자세한 내용은 정보 장벽 [정책에 대한 특성을 참조하세요.](information-barriers-attributes.md) 
 
 3. 이전 단계에서 선택한 특성의 값을 포함하도록 하나 이상의 사용자 계정을 편집합니다. 이 작업을 수행하기 위해 다음 절차 중 하나를 사용 합니다.
 
-    - 단일 계정을 편집하려면 Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 [업데이트를 참조하세요.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+    - 단일 계정을 편집하려면 [를](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)사용하여 사용자 프로필 정보 추가 또는 Azure Active Directory.
 
-    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [Office 365 PowerShell을](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)사용하여 사용자 계정 속성 구성을 참조하세요.
+    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [PowerShell을](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)사용하여 사용자 계정 속성 Office 365 참조하세요.
 
 ## <a name="edit-a-segment"></a>세그먼트 편집
 
@@ -165,9 +165,9 @@ ms.locfileid: "50925554"
 ## <a name="resources"></a>리소스
 
 - [정보 장벽 개요 보기](information-barriers.md)
-- [정보 장벽에 대한 정책 정의](information-barriers-policies.md)
-- [Microsoft Teams의 정보 장벽에 대한 자세한 정보](/MicrosoftTeams/information-barriers-in-teams)
-- [SharePoint Online의 정보 장벽에 대한 자세한 정보](/sharepoint/information-barriers)
-- [OneDrive의 정보 장벽에 대한 자세한 정보](/onedrive/information-barriers)
+- [정보 장벽을 위한 정책 정의](information-barriers-policies.md)
+- [정보 장벽에 대해 자세히 Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams)
+- [온라인에서 정보 장벽에 대해 SharePoint 정보](/sharepoint/information-barriers)
+- [정보 장벽에 대해 자세히 OneDrive](/onedrive/information-barriers)
 - [정보 장벽 정책의 속성](information-barriers-attributes.md)
 - [정보 장벽 문제 해결](information-barriers-troubleshooting.md)

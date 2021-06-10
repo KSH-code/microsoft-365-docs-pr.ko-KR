@@ -23,9 +23,9 @@ ms.locfileid: "51199852"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 통과 인증을 위한 ID 및 장치 액세스 필수 구성 요소
 
-*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 테스트 환경에만 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 테스트 환경에 Microsoft 365 사용할 수 있습니다.*
 
-[ID 및 장치 액세스 구성은](../security/office-365-security/microsoft-365-policies-configurations.md) Azure AD(Azure Active Directory)와 통합된 엔터프라이즈용 Microsoft 365의 모든 서비스에 대한 액세스를 보호하기 위한 구성 및 조건부 액세스 정책 집합입니다.
+[ID 및 장치 액세스](../security/office-365-security/microsoft-365-policies-configurations.md) 구성은 Azure AD(Azure AD)와 통합된 엔터프라이즈용 Microsoft 365 모든 서비스에 대한 액세스를 보호하기 위한 구성 및 조건부 액세스 Azure Active Directory 집합입니다.
 
 이 문서에서는 ID 및 장치 액세스에 대한 [통과 인증 필수 요건 구성](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "51199852"
 4. 비밀번호 쓰기 저장 구성
 5. 셀프 서비스 암호 재설정 구성
 6. Multi-Factor Authentication를 구성합니다.
-7. 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록 사용
+7. 도메인에 가입된 컴퓨터의 자동 장치 Windows 사용
 8. Azure AD 암호 보호 구성 
 9. Azure AD Identity Protection 사용
 10. Exchange Online 및 Skype for Business Online에 대한 최신 인증을 실행합니다.
@@ -86,11 +86,11 @@ ms.locfileid: "51199852"
 - 사용자 4
 - 사용자 5
 
-사용자 2 계정에 대해서만 다단계 인증을 테스트합니다.
+사용자 2 계정에 대해서만 다중 요소 인증을 테스트하십시오.
 
-## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>7단계: 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록 사용 
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>7단계: 도메인에 가입된 컴퓨터의 자동 장치 Windows 사용 
 
-다음 [지침에 따라](/azure/active-directory/devices/hybrid-azuread-join-plan) 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록을 사용하도록 설정하세요.
+다음 [지침에 따라](/azure/active-directory/devices/hybrid-azuread-join-plan) 도메인에 가입된 컴퓨터의 자동 장치 등록을 Windows.
 
 ## <a name="phase-8-configure-azure-ad-password-protection"></a>8단계: Azure AD 암호 보호 구성 
 
@@ -98,9 +98,9 @@ ms.locfileid: "51199852"
 
 ## <a name="phase-9-enable-azure-ad-identity-protection"></a>9단계: Azure AD ID 보호 사용
 
-[Azure Active Directory Identity Protection 테스트 랩 가이드의 2단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection)에 있는 지침을 따릅니다. 
+[Azure AD ID 보호 테스트 랩 가이드의 2 단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection) 지침을 따릅니다. 
 
-## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>10단계: Exchange Online 및 비즈니스용 Skype Online에 대해 최신 인증 사용
+## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>10단계: 온라인 및 Exchange Online 비즈니스용 Skype 사용하도록 설정
 
 Exchange Online의 경우에는 [이 지침](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later)을 따릅니다. 
 

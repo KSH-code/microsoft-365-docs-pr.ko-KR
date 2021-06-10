@@ -63,7 +63,7 @@ POST https://api.securitycenter.microsoft.com/api/indicators/import
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
@@ -78,7 +78,7 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 - 성공하면 이 메서드는 표시기당 가져오기 결과 목록이 있는 200 - 확인 응답 코드를 반환합니다. 아래 예제를 참조하세요.
 - 성공하지 못하면 이 메서드는 400 - 잘못된 요청을 반환합니다. 잘못된 요청은 일반적으로 잘못된 본문을 나타냅니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 
@@ -144,4 +144,4 @@ POST https://api.securitycenter.microsoft.com/api/indicators/import
 ```
 
 ## <a name="related-topic"></a>관련 항목
-- [표시기 관리](manage-indicators.md)
+- [지표 관리](manage-indicators.md)

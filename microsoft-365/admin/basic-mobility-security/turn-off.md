@@ -55,4 +55,4 @@ ms.locfileid: "52023872"
 3.  경고 대화 상자에서 예를 **선택합니다.**
 
 >[!NOTE]
->조직 장치가 여전히 차단된 상태인 경우 장치 차단을 해제하는 자세한 단계는 블로그 게시물 [Office 365의](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)모바일 장치 관리에서 액세스 제어 제거를 참조하세요.
+>조직 장치가 여전히 차단된 상태인 경우 디바이스 차단을 해제하는 자세한 단계는 다음에서 액세스 제어 제거 블로그 [게시물을 Office 365용 모바일 장치 관리.](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)
