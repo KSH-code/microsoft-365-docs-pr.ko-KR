@@ -39,15 +39,15 @@ Microsoft는 웹에서 가장 신뢰할 수 있는 사용자 환경을 제공하
 
 ## <a name="general-microsoft-policies"></a>일반 Microsoft 정책
 
-Microsoft 365 사용자에게 전송되는 전자 메일은 Microsoft 365의 전자 메일 전송 및 사용을 규정하는 모든 Microsoft 정책을 준수해야 합니다.
+사용자로 Microsoft 365 전자 메일은 전자 메일 전송 및 사용에 대한 모든 Microsoft 정책을 준수해야 Microsoft 365.
 
-- Microsoft 365에 적용되는 서비스 약관 특히 서비스를 사용하여 스팸을 방지하거나 맬웨어를 배포하는 금지입니다.
+- 해당 서비스에 적용되는 서비스 Microsoft 365; 특히 서비스를 사용하여 스팸을 방지하거나 맬웨어를 배포하는 금지입니다.
 
 - [Microsoft 서비스 계약](https://www.microsoft.com/servicesagreement/)
 
 ## <a name="governmental-regulations"></a>정부 규정
 
-Microsoft 365 사용자에게 전송되는 전자 메일은 해당 관할권의 전자 메일 통신을 규정하는 모든 관련 법률 및 규정을 준수해야 합니다.
+Microsoft 365 전자 메일은 해당 관할권의 전자 메일 통신을 규정하는 모든 관련 법률 및 규정을 준수해야 합니다.
 
 - [CAN-SPAM Act: A Compliance Guide for Business](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
 
@@ -55,13 +55,13 @@ Microsoft 365 사용자에게 전송되는 전자 메일은 해당 관할권의 
 
 ## <a name="technical-guidelines"></a>기술 지침
 
-Microsoft 365로 전송되는 전자 메일은 아래 문서에 나열된 해당 권장 사항을 준수해야 합니다(일부 링크는 영어로만 제공).
+Microsoft 365 전자 메일은 아래 문서에 나열된 해당 권장 사항을 준수해야 합니다(일부 링크는 영어로만 제공).
 
-- [RFC 2505: SMTP MTAS에 대한 스팸 방지 권장 사항](https://www.ietf.org/rfc/rfc2505.txt)
+- [RFC 2505: SMTP MTAS용 권장 사항 스팸 방지 기능](https://www.ietf.org/rfc/rfc2505.txt)
 
 - [RFC 2920: 명령 파이프라이너용 SMTP 서비스 확장](https://www.ietf.org/rfc/rfc2920.txt)
 
-또한 Microsoft 365에 연결하는 전자 메일 서버는 다음 요구 사항을 준수해야 합니다.
+또한 서버에 연결하는 전자 메일 Microsoft 365 다음 요구 사항을 준수해야 합니다.
 
 - 보낸 사람이 RFC 5321, RFC 5322 등을 포함하여 인터넷 사회의 IETF(Internet Engineering Task Force)에서 게시한 인터넷 전자 메일 전송에 대한 모든 기술 표준을 준수해야 합니다.
 
@@ -83,7 +83,7 @@ Microsoft 365로 전송되는 전자 메일은 아래 문서에 나열된 해당
 
 ## <a name="microsoft-365-limits"></a>Microsoft 365 제한
 
-보낸 사람이 Exchange Online Protection 제한에 나열된 Microsoft 365 [제한을 준수해야 합니다.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
+보낸 사람이 제한에 Microsoft 365 제한에 나열된 Exchange Online Protection [준수해야 합니다.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
 
 ## <a name="email-delivery-resources-and-organizations"></a>전자 메일 배달 리소스 및 조직
 
@@ -101,4 +101,4 @@ Microsoft는 인터넷 및 전자 메일 에코시스템을 개선하기 위해 
 
 ## <a name="law-enforcement"></a>사법 기관
 
-사법 기관의 구성원이자 Office 365에 관한 법적 문서를 Microsoft Corporation에 지원하고자 하는 경우 또는 Microsoft에 제출한 법적 문서에 대한 질문이 있는 경우 (1) (425) 722-1299로 전화하세요.
+사법 기관의 구성원이자 Microsoft Corporation에 Office 365 또는 Microsoft에 제출한 법적 문서와 관련하여 질문이 있는 경우 (1) (425) 722-1299로 전화하세요.

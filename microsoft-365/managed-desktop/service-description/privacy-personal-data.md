@@ -12,12 +12,12 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: 3f1a251d98be5b3a9fefa5c1f6d5d5562516d5d5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3de39e8d10f949856862095ebd204fac1a4d694e
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908177"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861686"
 ---
 # <a name="privacy-and-personal-data"></a>개인 정보 및 개인 데이터
 
@@ -109,10 +109,8 @@ Intune 데이터는 유럽 북부(아일랜드) 및 유럽 서부(네덜란드)�
 Microsoft Managed Desktop 데이터 저장소에 대한 직접 액세스는 여러 가지 방법으로 제한됩니다.
 
 - 엔지니어링 리드 수준 승인이 필요합니다.
-- 감사 및 시간 제한입니다.
-- 보안이 유지되고 제한된 Workstation을 사용해야 합니다.
+- 시간이 바인딩된 후 감사됩니다.
 - 모든 데이터는 저장되는 동안 암호화됩니다.
-- 정식 액세스 권한이 없습니다.
 - 보안 Microsoft Managed Desktop 포털에 액세스하려면 보안이 강화되고 제한된 Workstation이 필요합니다.
 
 ## <a name="processing-personal-data-in-a-compliant-manner"></a>준수 방식으로 개인 데이터 처리

@@ -141,7 +141,7 @@ ms.locfileid: "52346405"
 
 다음 표에는 Mac의 끝점용 Defender에서 지원하는 제외 유형이 표시됩니다.
 
-제외 | 정의 | 예
+제외 | 정의 | 예제
 ---|---|---
 파일 확장명 | 디바이스의 아무 곳이나 확장명을 사용하여 모든 파일 | `.test`
 파일 | 전체 경로로 식별된 특정 파일 | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`

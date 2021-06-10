@@ -44,7 +44,7 @@ Security **&** Compliance [Center에서](https://protection.office.com) 전달�
 
 또한 ( 보고서 대시보드 또는 **)의** 상위 인사이트 및 추천 영역에 있는 모든 정보 보기를 클릭한 & 세부 정보 페이지로 이동될 **수도**  \>  <https://protection.office.com/insightdashboard> 있습니다.
 
-외부 도메인으로 자동 메시지 전달을 방지하려면 일부 또는 모든 외부 도메인에 대해 원격 도메인을 구성합니다. 자세한 내용은 [Exchange Online에서 원격 도메인 관리를 참조하세요.](/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains)
+외부 도메인으로 자동 메시지 전달을 방지하려면 일부 또는 모든 외부 도메인에 대해 원격 도메인을 구성합니다. 자세한 내용은 Manage [remote domains in Exchange Online.](/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains)
 
 ## <a name="related-topics"></a>관련 항목
 

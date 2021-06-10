@@ -35,7 +35,7 @@ Microsoft는 고객에게 가용성 키에 대한 직접적인 제어를 노출�
 
 키를 롤링할 때 기존 키의 새 버전을 요청합니다. 기존 키의 새 버전을 요청하기 위해 처음에 키를 만드는 데 사용한 구문과 동일한 cmdlet인 [Add-AzKeyVaultKey를](/powershell/module/az.keyvault/add-azkeyvaultkey)사용하게 됩니다. DEP(데이터 암호화 정책)와 연결된 키의 롤링을 완료한 후 고객 키가 새 키를 사용할 수 있도록 다른 cmdlet을 실행합니다. 각 AKV(Azure Key Vault)에서 이 단계를 합니다.
 
-예를 들면 다음과 같습니다.
+예:
 
 1. 구독을 사용하여 Azure 구독에 Azure PowerShell. 자세한 내용은 [으로 로그인을 Azure PowerShell.](/powershell/azure/authenticate-azureps)
 

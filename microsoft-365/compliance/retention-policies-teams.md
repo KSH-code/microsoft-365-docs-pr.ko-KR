@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: db167894f32bcc1e30054b9cc4738af300b6d704
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 607fbdd02cfaccfee79df67c4946c178ff3eb383
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280802"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861578"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -76,6 +76,9 @@ Teams 채팅 및 채널 메시지의 이 데이터가 사서함에 저장되어 
 채팅 및 채널 메시지에 대한 보존 정책을 구성한 후에는, Exchange 서비스의 타이머 작업이 해당 Teams 메시지가 저장된 숨겨진 폴더의 항목을 주기적으로 평가합니다. 일반적으로 타이머 작업을 실행하는 데 1~7일이 소요됩니다. 이러한 항목의 보존 기간이 만료되면, 해당 항목은 영구적으로 삭제되기 전에 모든 사용자 또는 그룹 사서함에서 "일시 삭제됨" 항목을 저장하는 또 다른 숨겨진 폴더인 SubstrateHolds 폴더로 이동됩니다. 
 
 메시지는 SubstrateHolds 폴더에 최소 1일 동안 남아 있으며 삭제할 수있는 경우, 타이머 작업은 다음에 실행할 때 해당 메시지를 영구적으로 삭제합니다.
+
+> [!NOTE]
+> [첫 번째 보존 원칙](retention.md#the-principles-of-retention-or-what-takes-precedence) 때문에 다른 보존 정책으로 인해 동일한 항목을 유지해야 하거나 법적 또는 조사상의 이유로 eDiscovery 보류 상태에 있는 경우, 영구 삭제는 항상 일시 중단됩니다.
 
 채팅 및 채널 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는 경로는 보존 정책이 보존 및 삭제, 보존만 또는 삭제만 가능한지 여부에 따라 달라집니다.
 

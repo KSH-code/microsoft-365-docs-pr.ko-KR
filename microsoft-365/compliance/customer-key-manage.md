@@ -301,7 +301,7 @@ Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Enabled $false
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-예를 들면 다음과 같습니다.
+예:
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -319,7 +319,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-예를 들면 다음과 같습니다.
+예:
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -331,7 +331,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-예를 들면 다음과 같습니다.
+예:
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com

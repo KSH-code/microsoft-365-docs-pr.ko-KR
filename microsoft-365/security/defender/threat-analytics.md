@@ -53,7 +53,7 @@ ms.locfileid: "51501210"
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwJfU]
 
-Microsoft 365 보안 포털의 탐색 모음 왼쪽 위나, 또는 해당 도구 모음의 최상위 위협을 표시하는 전용 대시보드 카드에서 위협 분석에 액세스할 수 있습니다. 활성 또는 지속적인 캠페인에 대한 가시성을 확보하고 위협 분석을 통해 무엇을 할지 알면 보안 운영 팀에 정보를 제공한 결정을 내리는 데 도움이 될 수 있습니다. 
+보안 포털의 탐색 모음 왼쪽 위 또는 Microsoft 365 가장 큰 위협을 표시하는 전용 대시보드 카드에서 위협 분석에 액세스할 수 있습니다. 활성 또는 지속적인 캠페인에 대한 가시성을 확보하고 위협 분석을 통해 무엇을 할지 알면 보안 운영 팀에 정보를 제공한 결정을 내리는 데 도움이 될 수 있습니다. 
 
 ![위협 분석 대시보드의 이미지](../../media/threat-analytics/ta_inlandingpage_mtp.png)
 
@@ -131,16 +131,16 @@ _위협 분석 보고서의 관련 인시던트 섹션_
 ### <a name="impacted-assets-get-list-of-impacted-devices-and-mailboxes"></a>영향을 받는 자산: 영향을 받는 장치 및 사서함 목록 확인
 활성으로 해결되지 않은 활성 경고의 영향을 받는 자산은 영향을 받는 것으로 간주됩니다. 영향을 **미치는 자산 탭에는** 다음과 같은 유형의 영향을 미치는 자산이 나열됩니다.
 - **영향을 미치는 장치**- 끝점 경고에 대한 Microsoft Defender를 해결하지 않은 끝점입니다. 이러한 경고는 일반적으로 알려진 위협 표시기 및 활동을 볼 때 발생됩니다.
-- **영향을 받는 사서함**- Office 365용 Microsoft Defender 경고를 트리거한 전자 메일 메시지를 받은 사서함입니다. 경고를 트리거하는 대부분의 메시지는 일반적으로 차단되는 반면, 사용자 수준 정책은 필터를 대체할 수 있습니다.
+- **영향을 받는 사서함**- 경고에 대해 Microsoft Defender를 트리거한 전자 메일 메시지를 받은 Office 365. 경고를 트리거하는 대부분의 메시지는 일반적으로 차단되는 반면, 사용자 수준 정책은 필터를 대체할 수 있습니다.
 
 ![위협 분석 보고서의 영향을 미치는 자산 섹션 이미지](../../media/threat-analytics/ta_impacted_assets_mtp.png)
 
 _위협 분석 보고서의 영향을 미치는 자산 섹션_
 
 ### <a name="prevented-email-attempts-view-blocked-or-junked-threat-emails"></a>차단된 전자 메일 시도: 차단 또는 정크 메일 보기
-Office 365용 Microsoft Defender는 일반적으로 악의적인 링크 또는 첨부 파일을 포함하여 알려진 위협 표시기가 있는 전자 메일을 차단합니다. 경우에 따라 의심스러운 콘텐츠를 검사하는 사전 필터링 메커니즘은 대신 위협 전자 메일을 정크 메일 폴더로 전송합니다. 두 경우 모두 위협으로 디바이스에서 맬웨어 코드를 시작하게 될 가능성이 줄어듭니다.
+Microsoft Defender for Office 365 악성 링크 또는 첨부 파일을 포함하여 알려진 위협 표시기가 있는 전자 메일을 차단합니다. 경우에 따라 의심스러운 콘텐츠를 검사하는 사전 필터링 메커니즘은 대신 위협 전자 메일을 정크 메일 폴더로 전송합니다. 두 경우 모두 위협으로 디바이스에서 맬웨어 코드를 시작하게 될 가능성이 줄어듭니다.
 
-**금지된** 전자 메일 시도 탭에는 배달 전에 차단되거나 Office 365용 Microsoft Defender에 의해 정크 메일 폴더로 전송된 모든 전자 메일이 나열됩니다. 
+**금지된** 전자 메일 시도 탭에는 배달 전에 차단되거나 Microsoft Defender에서 정크 메일 폴더로 전송한 모든 전자 메일이 Office 365. 
 
 ![위협 분석 보고서의 방지된 전자 메일 시도 섹션 이미지](../../media/threat-analytics/ta_prevented_email_attempts_mtp.png)
 
@@ -155,7 +155,7 @@ _위협 분석 보고서의 전자 메일 시도 방지 섹션_
   - 잠재적으로 원치 않는 응용 프로그램(PUA) 보호
   - 실시간 보호
  
-이 섹션의 완화 정보는 위협 및 [](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)취약성 관리의 데이터를 통합하며, 보고서의 다양한 링크에서 자세한 드릴다운 정보도 제공합니다.
+이 섹션의 완화 정보는 보고서의 [](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)다양한 링크에 위협 및 취약성 관리 자세한 드릴다운 정보도 제공하는 위협 및 취약성 관리 데이터를 통합합니다.
 
 ![보안 구성 세부 정보를 보여 주며 위협 분석 보고서의 완화 섹션 이미지 취약성 세부 정보를 보여주는 위협 분석 보고서의 완화 섹션 ](../../media/threat-analytics/ta_mitigations_mtp.png)
  ![ 이미지](../../media/threat-analytics/ta_mitigations_mtp2.png)
@@ -164,19 +164,19 @@ _위협 분석 보고서의 완화 섹션_
 
 ## <a name="additional-report-details-and-limitations"></a>추가 보고서 세부 정보 및 제한 사항
 >[!NOTE]
->통합 보안 환경의 일부로, 위협 분석은 이제 끝점용 Microsoft Defender 뿐만 아니라 Office E5용 Microsoft Defender 라이선스 소유자도 사용할 수 있습니다.
->Microsoft 365 보안 포털(Microsoft 365 Defender)을 사용하지 않는 경우 Microsoft Defender 보안 센터 포털(끝점용 Microsoft Defender)에서 보고서 세부 정보(Office용 Microsoft Defender 없이)를 볼 수 있습니다. 
+>통합 보안 환경의 일부로, 위협 분석은 끝점용 Microsoft Defender 뿐만 아니라 Microsoft Defender for Office 사용할 수 있습니다.
+>Microsoft 365 보안 포털(Microsoft 365 Defender)을 사용하지 않는 경우 Microsoft Defender 보안 센터 포털(끝점용 Microsoft Defender)에서 보고서 세부 정보(Office 데이터에 대한 Microsoft Defender 없이)를 볼 수 있습니다. 
 
-위협 분석 보고서에 액세스하려면 특정 역할 및 사용 권한이 필요합니다. 자세한 [내용은 Microsoft 365 Defender에](custom-roles.md) 대한 역할 기반 액세스 제어의 사용자 지정 역할을 참조합니다.
-  - 경고, 인시던트 또는 영향을 미치는 자산 데이터를 보기 위해 Office용 Microsoft Defender 또는 끝점 경고 데이터용 Microsoft Defender에 대한 사용 권한이 있는 경우 또는 둘 다에 대한 권한이 필요합니다.
-  - 금지된 전자 메일 시도를 확인하려면 Office 헌팅 데이터에 대한 Microsoft Defender에 대한 사용 권한이 필요합니다. 
-  - 완화를 확인하려면 끝점용 Microsoft Defender에서 위협 및 취약성 관리 데이터에 대한 사용 권한이 필요합니다.
+위협 분석 보고서에 액세스하려면 특정 역할 및 사용 권한이 필요합니다. 자세한 내용은 역할 기반 액세스 [제어의 Microsoft 365 Defender를](custom-roles.md) 참조합니다.
+  - 경고, 인시던트 또는 영향을 미치는 자산 데이터를 보기 위해 Microsoft Defender에 대한 사용 권한을 Office 또는 끝점 경고 데이터용 Microsoft Defender에 대한 사용 권한이 Office 또는 둘 다에 대한 권한이 필요합니다.
+  - 금지된 전자 메일 시도를 확인하려면 헌팅 데이터에 대한 Microsoft Defender에 Office 필요합니다. 
+  - 완화를 보기 위해 끝점용 Microsoft Defender에서 데이터를 위협 및 취약성 관리 권한이 필요합니다.
 
 위협 분석 데이터를 보는 경우 다음 요인에 유의하세요.
 - 차트에는 추적되는 완화만 반영됩니다. 보고서 개요에서 차트에 나와 있지 않은 추가 완화를 확인할 수 있습니다.
 - 완화는 완전한 탄력을 보장하지 않습니다. 제공된 완화에는 탄력성을 개선하는 데 필요한 최상의 조치가 반영됩니다.
 - 장치가 서비스로 데이터를 전송하지 않은 경우 장치는 "사용할 수 없음"으로 계산됩니다.
-- 바이러스 백신 관련 통계는 Microsoft Defender 바이러스 백신 설정을 기반으로 합니다. 타사 바이러스 백신 솔루션이 있는 장치는 "노출"으로 표시될 수 있습니다.
+- 바이러스 백신 관련 통계는 설정에 Microsoft Defender 바이러스 백신 합니다. 타사 바이러스 백신 솔루션이 있는 장치는 "노출"으로 표시될 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅을 통해 위협을 사전 대응적으로 찾기](advanced-hunting-overview.md) 

@@ -17,12 +17,12 @@ ms.collection:
 description: EOP(보안 기본 설정)에 대해 Exchange Online Protection 자세히 알아보시다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d5cdc8f8faa9c2d5772fd1572134ea49cdd77da
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f197556426171b867b49781b38ea5f5116f80aa2
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624052"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861530"
 ---
 # <a name="secure-by-default-in-office-365"></a>기본적으로 보안은 Office 365
 
@@ -58,7 +58,7 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 이러한 오버라이드에 대한 자세한 내용은 안전한 보낸 사람 목록 만들기 [에서 찾을 수 있습니다.](create-safe-sender-lists-in-office-365.md)
 
 > [!NOTE]
-> EOP 스팸 방지 정책에서 높은  신뢰도의 피싱 전자 메일  판정에 대한 정크 메일 폴더로 메시지 이동 작업을 더는 사용되지 않는 중입니다. 높은 신뢰도의 피싱 메시지에 대해 이 작업을 사용하는 스팸 방지 정책은 메시지 를 **Quarantine message 로 변환합니다.** 높은 **신뢰도의** 피싱 메시지에 대한 전자 메일 주소로 메시지 리디렉션 작업은 영향을 받지 않습니다.
+> EOP 스팸 방지  정책에서 높은 지수의 피싱 전자 메일 판정에 대한 정크 메일 폴더로 메시지 이동 작업은 더는 사용되지 않습니다.  높은 신뢰도의 피싱 메시지에 대해 이 작업을 사용하는 스팸 방지 정책은 메시지 를 **Quarantine message 로 변환합니다.** 높은 **신뢰도의** 피싱 메시지에 대한 전자 메일 주소로 메시지 리디렉션 작업은 영향을 받지 않습니다.
 
 기본적으로 보안은 켜거나 끄는 설정이 아니며, 필터링이 기본적으로 작동하여 잠재적으로 위험하거나 원치 않는 메시지를 사서함 밖으로 유지하는 방식입니다. 맬웨어 및 높은 신뢰도의 피싱 메시지는 차단해야 합니다. 관리자만 맬웨어 또는 높은 신뢰도 피싱으로 보호된 메시지를 관리할 수 있으며, Microsoft에 가음성 보고도 할 수 있습니다. 자세한 내용은 EOP에서 관리자로 [quarantined messages and files를 참조하세요.](manage-quarantined-messages-and-files.md)
 

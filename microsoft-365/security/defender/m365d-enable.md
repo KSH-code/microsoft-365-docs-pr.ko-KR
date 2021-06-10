@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3d7564b5d509190c8c8e799c541bb0ca583097f1
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 3f05cc8c9b2509f8c95b802f56905e2859221cd2
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636233"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861602"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender 켜기
 
@@ -65,7 +65,7 @@ Microsoft 365 Defender는 끝점용 Microsoft Defender에서 사용하는 동일
 다른 **데이터** 센터 위치의 Microsoft 365 Defender 프로비전에 대해 Microsoft 지원에 문의하려면 Microsoft 365 필요하세요?를 선택합니다.
 
 > [!NOTE]
-> 끝점용 Microsoft Defender는 Azure Defender를 통해 켜져 있는 경우 유럽 연합(EU) 데이터 센터에서 자동으로 프로비전합니다. Microsoft 365 Defender는 이러한 방식으로 끝점에 대한 Defender를 프로비전한 고객을 위해 동일한 EU 데이터 센터에서 자동으로 프로비전합니다.
+> 과거에는 Azure Defender를 통해 켜져 있는 경우 끝점용 Microsoft Defender가 EU(유럽 연합) 데이터 센터에서 자동으로 프로비전됩니다. Microsoft 365 Defender는 과거에 이 방식으로 끝점에 대해 Defender를 프로비전한 고객을 위해 동일한 EU 데이터 센터에서 자동으로 프로비전합니다.
 
 ### <a name="confirm-that-the-service-is-on"></a>서비스가 켜져 있는지 확인합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에 로그인
+title: 로그인하여 Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -22,7 +22,7 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Microsoft 365에 로그인합니다. 사이버 보안 위협으로부터 전자 메일, 데이터 및 통신에 대한 비즈니스, 관행 또는 캠페인을 보호합니다.
+description: 로그인하여 Microsoft 365. 사이버 보안 위협으로부터 전자 메일, 데이터 및 통신에 대한 비즈니스, 관행 또는 캠페인을 보호합니다.
 ms.openlocfilehash: eff81da84853130da2f2dcc0aaaf2a9834477a85
 ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
@@ -30,11 +30,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/27/2021
 ms.locfileid: "51398177"
 ---
-# <a name="sign-in-to-microsoft-365"></a>Microsoft 365에 로그인
+# <a name="sign-in-to-microsoft-365"></a>로그인하여 Microsoft 365
 
 ## <a name="for-business-or-campaign-admins"></a>비즈니스 또는 캠페인 관리자용
 
-Microsoft 365에 등록한 경우 Microsoft 365 관리자입니다. 로그인하는 방법:
+등록한 Microsoft 365 관리자인 Microsoft 365. 로그인하는 방법:
 
 1. 등록 단계의 2단계에서 제공한 전자 메일 주소로 보낸 사용자 이름과 [암호를 찾아야 합니다.](m365-campaigns-sign-up.md#steps-to-sign-up)
 2. 브라우저에서 의 Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 이동하세요.

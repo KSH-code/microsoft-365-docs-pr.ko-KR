@@ -15,7 +15,7 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: 관리자는 EOP(Exchange Online Protection)에서 수락 또는 거부하는 전자 메일 주소 유형에 대해 알아보고 피싱 Outlook.com 수 있습니다.
+description: 관리자는 피싱 방지를 위해 EOP(Exchange Online Protection 또는 Outlook.com)에서 수락 또는 거부하는 전자 메일 주소 유형에 대해 Outlook 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
@@ -35,7 +35,7 @@ ms.locfileid: "51205377"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-피싱 공격은 모든 전자 메일 조직에 대한 지속적인 위협입니다. [스푸핑된(위조된)](anti-spoofing-protection.md)보낸 사람 전자 메일 주소를 사용하는 것 외에도 공격자는 보낸 사람 주소에서 인터넷 표준을 위반하는 값을 자주 사용합니다. 이러한 유형의 피싱을 방지하기 위해 EOP(Exchange Online Protection) 및 Outlook.com 이 문서에 설명된 RFC 규격 보낸사용자 주소를 포함하도록 인바운드 메시지가 요구됩니다. 이 적용은 2017년 11월에 사용하도록 설정되어 있습니다.
+피싱 공격은 모든 전자 메일 조직에 대한 지속적인 위협입니다. [스푸핑된(위조된)](anti-spoofing-protection.md)보낸 사람 전자 메일 주소를 사용하는 것 외에도 공격자는 보낸 사람 주소에서 인터넷 표준을 위반하는 값을 자주 사용합니다. 이러한 유형의 피싱을 방지하려면 이제 EOP(Exchange Online Protection) 및 Outlook.com에 이 문서에 설명된 RFC 규격 보낸사용자 주소를 포함해야 합니다. 이 적용은 2017년 11월에 사용하도록 설정되어 있습니다.
 
 **참고:**
 
@@ -90,7 +90,7 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 다음 전자 메일 주소가 잘못되었습니다.
 
-- **보낸사서** 주소 없음: 일부 자동화된 메시지에는 보낸사서 주소가 없습니다. 과거에는 Microsoft 365 또는 Outlook.com 보낸사용자 주소가 없는 메시지를 수신할 때 서비스에서 다음과 같은 기본 보낸사용자: 주소를 추가하여 메시지를 배달할 수 있습니다.
+- **보낸사서** 주소 없음: 일부 자동화된 메시지에는 보낸사서 주소가 없습니다. 과거에는 Microsoft 365 또는 Outlook.com에서 보낸사용자 주소 없이 메시지를 수신하면 서비스에서 다음과 같은 기본 보낸사용자: 주소를 추가하여 메시지를 배달할 수 있습니다.
 
   `From: <>`
 
@@ -118,22 +118,22 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 - 이 도메인에 대한 null MX 레코드는 단일 기간으로 구성됩니다.
 
-예를 들면 다음과 같습니다.
+예:
 
 ```text
 noreply.contoso.com IN MX .
 ```
 
-MX 레코드 설정에 대한 자세한 내용은 [Microsoft 365용 DNS](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)호스팅 공급자에서 DNS 레코드 만들기를 참조하세요.
+MX 레코드를 설정하는 데 대한 자세한 내용은 [Dns](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)호스팅 공급자에서 DNS 레코드 만들기를 Microsoft 365.
 
 null MX를 게시하는 자세한 내용은 [RFC 7505를 참조하세요.](https://tools.ietf.org/html/rfc7505)
 
 ## <a name="override-from-address-enforcement"></a>주소 적용에서 오버라이드
 
-인바운드 전자 메일의 보낸 사람 주소 요구 사항을 무시하기 위해 [Microsoft 365에서](create-safe-sender-lists-in-office-365.md)수신 허용 - 보낸 사람 목록 만들기에 설명된 IP 허용 목록(연결 필터링) 또는 메일 흐름 규칙(전송 규칙)을 사용할 수 있습니다.
+인바운드 전자 메일의 보낸 사람 주소 요구 사항을 무시하기 위해 Microsoft 365. [](create-safe-sender-lists-in-office-365.md)
 
-Microsoft 365에서 보내는 아웃바운드 전자 메일의 보낸 사람 주소 요구 사항은 다시 정할 수 없습니다. 또한 Outlook.com 경우에도 어떤 종류의 다시도 허용하지 않습니다.
+전자 메일에서 보내는 아웃바운드 전자 메일의 보낸 사람 주소 요구 사항은 Microsoft 365. 또한 Outlook.com은 지원을 통해서도 어떠한 종류의 다시도 허용하지 않습니다.
 
-## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>Microsoft 365에서 사이버 범죄를 방지하고 보호하는 다른 방법
+## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>사이버 범죄를 방지하고 보호하는 다른 Microsoft 365
 
-피싱, 스팸, 데이터 위반 및 기타 위협으로부터 조직을 강화하는 방법에 대한 자세한 내용은 비즈니스용 Microsoft 365 계획을 보호하는 [10가지 방법을 참조하세요.](../../admin/security-and-compliance/secure-your-business-data.md)
+피싱, 스팸, 데이터 위반 및 기타 위협으로부터 조직을 강화하는 방법에 대한 자세한 내용은 비즈니스 계획에 대한 보안 Microsoft 365 [방법을 참조하세요.](../../admin/security-and-compliance/secure-your-business-data.md)

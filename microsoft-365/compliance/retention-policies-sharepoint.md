@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: 90e94f4ff94b65860890ab65b451107d1d02963f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 14b3bebab8b73b7b45c79a34903fed5d0f6ec9ca
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625248"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861590"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 
@@ -91,6 +91,9 @@ SharePoint 또는 OneDrive 사이트에 저장된 모든 파일은 보존 정책
     > 실수로 데이터가 손실되는 것을 방지하기 위해 더 이상 보존 라이브러리의 콘텐츠를 영구적으로 삭제하지 않습니다. 대신 휴지통에서 콘텐츠를 영구적으로 삭제합니다. 이제는 보존 라이브러리의 모든 콘텐츠가 2단계 휴지통을 거칩니다.
     
 2. 보존 기간 동안 **콘텐츠가 수정되거나 삭제되지 않으면** 타이머 작업은 해당 콘텐츠를 보존 기간의 종료 시점에 1단계 휴지통으로 이동시킵니다. 여기에서 사용자가 콘텐츠를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 휴지통이 인덱싱되지 않으므로 검색할 수 없습니다. 따라서 eDiscovery 검색에서 보류할 휴지통 콘텐츠를 찾을 수 없습니다.
+
+> [!NOTE]
+> [첫 번째 보존 원칙](retention.md#the-principles-of-retention-or-what-takes-precedence) 때문에 다른 보존 정책 또는 보존 레이블로 인해 동일한 항목을 유지해야 하거나 법적 또는 조사상의 이유로 eDiscovery 보류 상태에 있는 경우 영구 삭제는 항상 일시 중단됩니다.
 
 보존 설정이 보존 전용 또는 삭제 전용인 경우 컨텐츠 경로는 보존 및 삭제의 변형입니다.
 

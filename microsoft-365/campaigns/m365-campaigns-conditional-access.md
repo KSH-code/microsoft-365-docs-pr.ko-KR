@@ -41,15 +41,15 @@ ms.locfileid: "51398299"
 
 Azure AD(Azure Active Directory)에서 보안 기본값을 사용하도록 설정하거나 이미 활성화되어 있는지 확인하려면
 
-1. 전역 관리자 자격 증명으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365</a> 관리 센터에 로그인합니다.
+1. 전역 관리자 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">자격 증명으로</a> Microsoft 365 센터에 로그인합니다.
 
-2. 왼쪽 창에서 모두  표시를 선택한 다음 관리 센터에서 **Azure Active Directory 를 선택합니다.**
+2. 왼쪽 창에서 모두  표시를 선택한 다음 관리 센터에서 를 **Azure Active Directory.**
 
-3. **Azure Active Directory** 관리 센터의 왼쪽 창에서 Azure Active **Directory 를 선택합니다.**
+3. Azure Active Directory 센터의 왼쪽 창에서 **를** **Azure Active Directory.**
 
 4. 대시보드의 왼쪽 메뉴에 있는 관리 **섹션에서** 속성을 **선택합니다.**
 
-    :::image type="content" source="../media/m365-campaigns-conditional-access/azure-ad-properties.png" alt-text="속성 메뉴 항목의 위치를 보여 주며 Azure Active Directory 관리 센터의 스크린샷입니다.":::
+    :::image type="content" source="../media/m365-campaigns-conditional-access/azure-ad-properties.png" alt-text="속성 메뉴 Azure Active Directory 위치를 보여주는 Azure Active Directory 관리 센터의 스크린샷입니다.":::
 
 5. 속성 페이지의 맨 **아래에서** **보안 기본값 관리를 선택합니다.**
 
@@ -71,7 +71,7 @@ Azure AD(Azure Active Directory)에서 보안 기본값을 사용하도록 설�
 - Azure Active Directory Premium P1 또는 P2
 - Microsoft 365 Business Premium
 - Microsoft 365 E3 혹은 E5
-- Enterprise Mobility & Security E3 또는 E5
+- Enterprise 모바일 & E3 또는 E5
 
 조건부 액세스를 사용하여 기본적으로 보안이 설정된 정책과 동등한 정책을 구성하려는 경우 다음 단계별 가이드를 참조하세요.
 
@@ -79,7 +79,7 @@ Azure AD(Azure Active Directory)에서 보안 기본값을 사용하도록 설�
 - [Azure 관리를 위한 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-azure-management)
 - [레거시 인증 차단](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 - [모든 사용자에게 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- [Azure AD MFA 등록](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) 필요 - Azure Active Directory Premium P2의 일부인 Azure AD ID 보호가 필요합니다.
+- [Azure AD MFA](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) 등록 필요 - P2의 일부인 Azure AD ID 보호가 Azure Active Directory Premium
 
 조건부 액세스에 대한 자세한 내용은 [조건부 액세스란?을 참조하세요.](/azure/active-directory/conditional-access/overview) 조건부 액세스 정책을 만드는 데 대한 자세한 내용은 [Create a Conditional Access policy를 참조하십시오.](/azure/active-directory/authentication/tutorial-enable-azure-mfa#create-a-conditional-access-policy)
 

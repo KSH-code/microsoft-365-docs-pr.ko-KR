@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02e2e2f048ab521ad5640003cb127ed7bfa19641
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 1a84bc77cb78a9da3cfe873849a4148e55501137
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706609"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878031"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사를 위한 준수 경계 설정
 
@@ -92,6 +92,9 @@ ID가 있는 azure AD(Azure Active Directory) 특성(1단계)이 사용자의 On
 더 많은 사용자 특성을 사용할 수 있습니다. 특히 Exchange 사서함의 경우 위에 나열된 특성만 현재 OneDrive.
   
 ## <a name="step-2-file-a-request-with-microsoft-support-to-synchronize-the-user-attribute-to-onedrive-accounts"></a>2단계: 사용자 특성을 사용자 계정과 동기화하기 위한 Microsoft 지원 OneDrive 제출
+
+> [!IMPORTANT]
+> 이 단계는 더 이상 필요하지 않습니다. 2021년 6월부터 사서함 필터가 비즈니스용 OneDrive. 특성과 동기화하기 위한 지원 OneDrive 더 이상 필요하지 아니기 때문에 거부됩니다. 이 문서는 가까운 미래에 업데이트될 예정입니다.
 
 다음 단계는 1단계에서 선택한 Azure AD 특성을 조직의 모든 OneDrive 동기화하기 위해 Microsoft 지원에 요청을 제출하는 것입니다. 이 동기화가 발생하면 1단계에서 선택한 특성 및 해당 값이 라는 숨겨진 관리 속성에 `ComplianceAttribute` 매핑됩니다. 이 특성을 사용하여 4단계에서 검색 OneDrive 필터를 만들 수 있습니다.
   
@@ -309,7 +312,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
 - 콘텐츠 기반 준수 경계에 제외 필터(예: 검색 권한 필터에서 사용)를 사용하지 `-not()` 않는 것이 좋습니다. 최근에 업데이트된 특성이 있는 콘텐츠가 인덱싱되지 않은 경우 제외 필터를 사용하면 예기치 않은 결과가 발생할 수 있습니다. 
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **Who 및 cmdlet을 사용하여 검색 권한 필터를 New-ComplianceSecurityFilter Set-ComplianceSecurityFilter 수 있습니까?**
   

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Yammer에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 1b99d0915cfb159f821818fb1425d7191a011351
-ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
+ms.openlocfilehash: a8d047845b986029d393816982e6bede3db71485
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "52710709"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861566"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Yammer의 보존에 대한 자세한 정보
 
@@ -55,6 +55,9 @@ Yammer 메시지는 사용자 또는 그룹 사서함에 대해 구성된 보존
 > Yammer 데이터를 보존하는 활성 보존 정책에 사용자가 포함되어 있고 Yammer 데이터를 보존하기 위해 이 정책에 포함된 사용자의 사서함을 삭제하면 사서함이 [비활성 사서함](inactive-mailboxes-in-office-365.md)으로 변환됩니다. 사용자에 대한 이 Yammer 데이터를 유지할 필요가 없는 경우 사서함을 삭제하기 전에 사용자 계정을 보존 정책에서 제외합니다.
 
 Yammer 메시지에 대한 보존 정책을 구성한 후에는, Exchange 서비스의 타이머 작업이 해당 Yammer 메시지가 저장된 숨겨진 폴더의 항목을 주기적으로 평가합니다. 타이머 작업의 실행은 7일까지 걸립니다. 이러한 항목의 보존 기간이 만료되면, 해당 항목은 영구적으로 삭제되기 전에 모든 사용자 또는 그룹 사서함에서 "일시 삭제됨" 항목을 저장하는 하나의 숨겨진 폴더인 SubstrateHolds 폴더로 이동됩니다.
+
+> [!NOTE]
+> [첫 번째 보존 원칙](retention.md#the-principles-of-retention-or-what-takes-precedence) 때문에 다른 보존 정책으로 인해 동일한 항목을 유지해야 하거나 법적 또는 조사상의 이유로 eDiscovery 보류 상태에 있는 경우 영구 삭제는 항상 일시 중단됩니다.
 
 Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는 경로는 보존 정책이 보존 및 삭제, 보존만 또는 삭제만 가능한지 여부에 따라 달라집니다.
 

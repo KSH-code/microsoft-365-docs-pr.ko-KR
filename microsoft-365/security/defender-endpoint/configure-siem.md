@@ -40,7 +40,7 @@ ms.locfileid: "51222338"
 >- [끝점 검색을 위한 Microsoft Defender는](api-portal-mapping.md) 장치 및 관련 경고 세부 정보에서 발생한 의심스러운 이벤트로 구성됩니다.
 >-The Microsoft Defender for Endpoint Alert API는 경고 소비를 위한 최신 API로, 각 경고에 대한 자세한 관련 증거 목록을 제공합니다. 자세한 내용은 [Alert 메서드](alerts.md) 및 속성 및 목록 [경고를 참조하세요.](get-alerts.md)
 
-Endpoint용 Defender는 검색을 끌어오기 위한 SIEM(보안 정보 및 이벤트 관리) 도구를 지원합니다. Endpoint용 Defender는 Azure에서 호스트된 HTTPS 끝점을 통해 경고를 노출합니다. 해당 환경에 설치된 특정 SIEM 커넥터를 나타내는 AAD 응용 프로그램에 대해 OAuth 2.0 인증 프로토콜을 사용하여 AAD(Azure Active Directory)의 엔터프라이즈 테넌트에서 검색을 끌어오도록 끝점을 구성할 수 있습니다.
+Endpoint용 Defender는 검색을 끌어오기 위한 SIEM(보안 정보 및 이벤트 관리) 도구를 지원합니다. Endpoint용 Defender는 Azure에서 호스트된 HTTPS 끝점을 통해 경고를 노출합니다. 환경에 설치된 특정 SIEM 커넥터를 나타내는 AAD 응용 프로그램에 대해 OAuth 2.0 인증 프로토콜을 사용하여 AAD(Azure Active Directory)의 엔터프라이즈 테넌트에서 검색을 끌어오도록 끝점을 구성할 수 있습니다.
 
 Endpoint용 Defender는 현재 전용 SIEM 통합 모델을 통해 다음과 같은 특정 SIEM 솔루션 도구를 지원합니다.
 

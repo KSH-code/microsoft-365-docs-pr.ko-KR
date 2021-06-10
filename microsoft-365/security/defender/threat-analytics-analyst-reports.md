@@ -54,7 +54,7 @@ _위협 분석 보고서의 분석가 보고서 섹션_
 | 요약 | 위협이 처음 확인된 경우, 그 동기, 중요한 이벤트, 주요 대상 및 고유한 도구와 기술을 포함하여 위협에 대한 개요 이 정보를 사용하여 산업, 지리적 위치 및 네트워크 컨텍스트에서 위협의 우선 순위를 지정하는 방법을 추가로 평가할 수 있습니다. |
 | 분석 | 공격의 세부 정보와 공격자가 새로운 기술 또는 공격 표면을 활용하는 방법을 포함하여 위협에 대한 기술 정보 | 
 | MITRE ATT&CK 기술 관찰 | 관찰된 기술이 [MITRE ATT](https://attack.mitre.org/) 및 CK 공격&매핑되는 방법 | 
-| [완화](#apply-additional-mitigations) | 위협의 영향을 중지하거나 줄이는 데 도움이 될 수 있는 권장 사항입니다. 이 섹션에는 위협 분석 보고서의 일부로 동적으로 추적되지 않는 완화 기능도 포함되어 있습니다. |
+| [완화](#apply-additional-mitigations) | 권장 사항 영향을 중지하거나 줄이는 데 도움이 될 수 있는 요소입니다. 이 섹션에는 위협 분석 보고서의 일부로 동적으로 추적되지 않는 완화 기능도 포함되어 있습니다. |
 | [검색 세부 정보](#understand-how-each-threat-can-be-detected) | 위협과 관련된 활동 또는 구성 요소를 표면화할 수 있는 Microsoft 보안 솔루션에서 제공하는 특정 및 일반 감지. | 
 | [지능형 헌팅](#find-subtle-threat-artifacts-using-advanced-hunting) | [고급 헌팅은 가능한](advanced-hunting-overview.md) 위협 활동을 사전 식별하기 위한 쿼리입니다. 대부분의 쿼리는 검색을 보완하기 위해 제공됩니다. 특히 악의적인 것으로 동적으로 평가할 수 없는 잠재적으로 악의적인 구성 요소 또는 동작을 찾기 위한 쿼리가 제공됩니다. | 
 | 참조 | 보고서를 작성하는 동안 분석가가 참조하는 Microsoft 및 타사 발행물 위협 분석 콘텐츠는 Microsoft 연구원이 유효성을 검사한 데이터를 기반으로 합니다. 공개적으로 사용 가능한 타사 원본의 정보는 명확하게 식별됩니다. | 
@@ -73,21 +73,21 @@ _위협 분석 보고서의 분석가 보고서 섹션_
 완화 탭을  사용하여 위협에 대한 보안 상태를 평가할 수 있는 반면, 이러한 권장 사항을 통해 보안 상태를 개선하기 위한 추가 단계를 취할 수 있습니다. 분석가 보고서의 모든 완화 지침을 신중하게 읽고 가능한 경우 적용합니다.
 
 ## <a name="understand-how-each-threat-can-be-detected"></a>각 위협을 검색할 수 있는 방법 이해
-분석가 보고서는 끝점 바이러스 백신 및 끝점  감지 및 응답(EDR) 기능에 대한 Microsoft Defender의 검색 기능도 제공합니다.
+또한 분석가 보고서는 Endpoint 바이러스 백신 및  끝점 감지 및 응답(응용 프로그램) 기능에 대한 Microsoft Defender의 EDR 제공합니다.
 
 ### <a name="antivirus-detections"></a>바이러스 백신 검색
-이러한 검색은 [Microsoft Defender 바이러스](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 백신이 켜져 있는 장치에서 사용할 수 있습니다. 끝점용 Microsoft Defender에 온보딩된 장치에서 이러한 검색이 발생하면 보고서의 차트를 밝게 하는 경고도 트리거합니다.
+이러한 검색은 장치가 켜져 있는 [장치에서 Microsoft Defender 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 있습니다. 끝점용 Microsoft Defender에 온보딩된 장치에서 이러한 검색이 발생하면 보고서의 차트를 밝게 하는 경고도 트리거합니다.
 
 >[!NOTE]
 >또한 분석가 보고서에는 추적된 위협과 관련한 구성 요소 또는 동작 외에도 광범위한 위협을 식별할 수 있는 일반 탐지가 나열됩니다.  이러한 일반 검색은 차트에 반영되지 않습니다.
 
 ### <a name="endpoint-detection-and-response-edr-alerts"></a>끝점 감지 및 응답(EDR) 경고
-끝점용 Microsoft Defender에 온보딩된 장치에 대해 EDR [경고가 발생했습니다.](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure) 이러한 경고는 일반적으로 Microsoft Defender for Endpoint 센서 및 기타 끝점 기능(예: 바이러스 백신, 네트워크 보호, 변조 방지)에서 수집한 보안 신호와 강력한 신호 원본 역할을 합니다.
+EDR [Microsoft Defender for Endpoint에](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure)온보딩된 장치에 대해 경고가 표시됩니다. 이러한 경고는 일반적으로 Microsoft Defender for Endpoint 센서 및 기타 끝점 기능(예: 바이러스 백신, 네트워크 보호, 변조 방지)에서 수집한 보안 신호와 강력한 신호 원본 역할을 합니다.
 
-바이러스 백신 검색 목록과 마찬가지로 일부 EDR 경고는 추적된 위협과 연결되지 않을 수 있는 의심스러운 동작에 일반적으로 플래그를 지정하도록 디자인됩니다. 이러한 경우 보고서는 경고를 "일반"으로 명확하게 식별하고 보고서의 차트에 영향을주지 않습니다.
+바이러스 백신 검색 목록과 마찬가지로 일부 EDR 경고는 추적된 위협과 연결되지 않을 수 있는 의심스러운 동작에 일반적으로 플래그를 지정하도록 디자인되어 있습니다. 이러한 경우 보고서는 경고를 "일반"으로 명확하게 식별하고 보고서의 차트에 영향을주지 않습니다.
 
 ### <a name="email-related-detections-and-mitigations"></a>전자 메일 관련 검색 및 완화
-Office 365용 Microsoft Defender의 전자 메일 관련 검색 및 완화는 끝점용 Microsoft Defender에서 이미 사용할 수 있는 끝점 데이터 외에도 분석가 보고서에 포함됩니다. 
+Microsoft Defender for Office 365 전자 메일 관련 검색 및 완화는 끝점용 Microsoft Defender에서 이미 사용할 수 있는 끝점 데이터 외에도 분석가 보고서에 포함됩니다. 
 
 금지된 전자 메일 시도 정보는 배달 또는 정크 메일 폴더로 전달되기 전에 공격이 효과적으로 차단된 경우에도 조직이 분석 보고서에서 대상이 된 위협의 대상인지에 대한 정보를 제공합니다.
 
@@ -100,7 +100,7 @@ Office 365용 Microsoft Defender의 전자 메일 관련 검색 및 완화는 �
 
 
 >[!NOTE]
-> 위협 분석은 [끝점용 Microsoft Defender에서도 사용할 수 있습니다.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) 그러나 Office용 Microsoft Defender와 Microsoft 365 Defender 위협 분석에서 제공하는 끝점용 Microsoft Defender 간의 데이터 통합은 없습니다.
+> 위협 분석은 [끝점용 Microsoft Defender에서도 사용할 수 있습니다.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) 그러나 Microsoft Defender for Office Defender와 Defender 위협 분석에 Microsoft 365 통합되지는 않습니다.
 
 
 ## <a name="related-topics"></a>관련 항목

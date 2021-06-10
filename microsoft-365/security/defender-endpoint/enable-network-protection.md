@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6afdcc16493839e83771ac831831fdbb121663a1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: b62659360e990467524ec632968dfea313d0b164
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841777"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861674"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 
@@ -43,7 +43,7 @@ ms.locfileid: "52841777"
 
 2. 사이드 **HKEY_LOCAL_MACHINE** 선택
 
-3. 중첩된 메뉴를 탐색하여 **소프트웨어** 정책 Microsoft Windows Defender  >    >    >    >  **관리자로 이동합니다.** 
+3. 중첩된 메뉴를 탐색하여 Exploit Guard Windows Defender  >    >  **Windows Defender**  >  **소프트웨어로**  >  **이동합니다.**
 
 4. **EnableNetworkProtection을** 선택하여 장치의 현재 네트워크 보호 상태를 확인합니다.
 
@@ -120,7 +120,7 @@ ms.locfileid: "52841777"
 
 1. 시작을 **선택하고** **regedit를** 입력하여 **레지스트리 편집기를 열 수 있습니다.**
 
-2. 사이트 **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**
+2. 사이트 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection\EnableNetworkProtection**
 
 3. **EnableNetworkProtection을 선택하고** 값을 확인 합니다.
    * 0=해제

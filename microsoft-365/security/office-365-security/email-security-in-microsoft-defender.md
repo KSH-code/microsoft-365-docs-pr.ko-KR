@@ -16,12 +16,12 @@ description: 맬웨어 피싱 시도를 보고 조사합니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a2a6d3d10cfa21c0ad2da948bff130cb9336ebd8
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: f0326a51f14b402b9a579e8668ef2c026f9de789
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297630"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877899"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -45,7 +45,9 @@ ms.locfileid: "52297630"
 
 전자 메일에서 검색된 맬웨어를 Microsoft 365 탐색기(또는 실시간 검색)의 전자 메일 > 맬웨어 보기를 사용합니다. [](threat-explorer-views.md#email--malware) 맬웨어는 기본 보기이기 때문에 탐색기를 여는 즉시 선택될 수 있습니다.
 
-1. In the Security & Compliance Center ( <https://protection.office.com> ), choose Threat **management** \> **Explorer** (or **Real-time detections**). (이 예제에서는 Explorer를 사용합니다.) 수렴형 보안 센터에 있는 Microsoft 365(email & https://security.microsoft.com/) Collaboration   >  **Explorer로 스크롤합니다.**
+1. In the Security & Compliance Center ( <https://protection.office.com> ), choose Threat **management** \> **Explorer** (or **Real-time detections**). (이 예제에서는 Explorer를 사용합니다.)
+
+   수렴된 Defender 포털에 있는 Microsoft 365 전자 메일 & <https://security.microsoft.com> **탐색기 로**  >  **스크롤합니다.**
 
    여기에서 보기에서 시작하여 조사할 특정 시간 프레임(필요한 경우)을 선택하고 탐색기에서 진행하는 에 따라 필터에 [집중합니다.](threat-hunting-in-threat-explorer.md#threat-explorer-walk-through)
 

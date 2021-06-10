@@ -1,5 +1,5 @@
 ---
-title: 인시던트 업데이트 API
+title: 인시던트 API 업데이트
 description: Defender API를 사용하여 인시던트 업데이트 Microsoft 365 방법 학습
 keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e3b445b2f9612f0113f353450ca7bf0b8a1a2bb2
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b50fe4672dd4cd721464c7414297efcc4a4921b7
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730861"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861506"
 ---
 # <a name="update-incidents-api"></a>인시던트 업데이트 API
 

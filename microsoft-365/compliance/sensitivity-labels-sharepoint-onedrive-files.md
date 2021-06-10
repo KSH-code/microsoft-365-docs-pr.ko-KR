@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용하도록 SharePoint OneDrive.
-ms.openlocfilehash: 8007f085e7bcba7f055f616954e2f0549f6f125a
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 695084443ee10de87f091d358b63fad079e03093
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770400"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861518"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
@@ -220,7 +220,11 @@ PowerShell 명령을 실행하여 SharePoint 및 OneDrive 파일에서 Office �
 
 예를 들어 "기밀"으로 레이블이 지정되어 있는 모든 문서를 검색하고 해당 레이블의 GUID는 "8faca7b8-8d20-48a3-8ea2-0f96310a848e"를 검색 상자에 입력합니다.
 
-`InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`    
+```
+InformationProtectionLabelId:8faca7b8-8d20-48a3-8ea2-0f96310a848e
+```
+
+검색에서 압축된 파일(예: 파일 파일)에서 레이블이 .zip 없습니다.
 
 민감도 레이블의 GUID를 얻습니다. [Get-Label](/powershell/module/exchange/get-label) cmdlet을 사용 합니다.    
 

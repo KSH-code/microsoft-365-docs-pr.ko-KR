@@ -19,7 +19,7 @@ ms.assetid: 5c47c07d-f9b6-4b78-a329-bfdc1b6da7a0
 ms.custom: seo-marvel-apr2020
 f1.keywords:
 - NOCSH
-description: 이 문서에는 중국의 21Vianet에서 운영하는 Office 365의 URL 및 IP 주소 범위가 나열됩니다.
+description: 이 문서에서는 중국의 21Vianet에서 운영하는 Office 365 URL 및 IP 주소 범위를 나열합니다.
 hideEdit: true
 ms.openlocfilehash: ed9b6fdbef1ca121ccf53b635768ebdaab89763a
 ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
@@ -40,7 +40,7 @@ ms.locfileid: "51418052"
 |:-----|:-----|
 |**Last updated:** 03/29/2021 - ![ RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**다운로드:** 모든 필수 및 선택 대상을 [JSON 형식](https://endpoints.office.com/endpoints/China?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) 목록에 다운로드합니다.  <br/> |
 
-이 데이터를 사용하여 네트워크 연결을 관리하기 위한 권장 사항을 이해하려면 [Office 365 끝점 관리](managing-office-365-endpoints.md)에서 시작하세요. 끝점 데이터는 활성화되기 30일 전에 게시된 새 IP 주소와 URL을 사용하여 매월 초에 필요한 경우 업데이트됩니다. 이를 통해 새 연결이 필요하기 전에 아직 자동 업데이트를 사용하지 않는 고객이 프로세스를 완료할 수 있습니다. 지원 에스컬레이션, 보안 인시던트 또는 기타 즉각적인 운영 요구 사항을 해결해야 하는 경우 끝점은 해당 월 중에 업데이트될 수도 있습니다. 이 페이지에 아래에 표시된 데이터는 모두 REST 기반 웹 서비스에서 생성됩니다. 스크립트나 네트워크 장치를 사용하여 이 데이터에 액세스하는 경우 직접 [웹 서비스로](microsoft-365-ip-web-service.md) 이동해야 합니다.
+[Office 365 끝점 관리](managing-office-365-endpoints.md)에서 시작해 이 데이터를 사용해 네트워크 연결을 관리하는 데 추천하는 사항을 파악합니다. 끝점 데이터는 새 IP 주소 및 URL이 활성화되기 30일 전인 월초에 필요에 따라 업데이트됩니다. 이렇게 하면 자동 업데이트를 설정하지 않은 고객에게 새로운 연결이 필요하기 해당 프로세스를 완료할 수 있습니다. 끝점 주소는 지원 에스컬레이션, 보안 문제 또는 그 외의 즉각적인 운영 요구 사항을 처리하는 데 필요한 경우 월중에 업데이트될 수 있습니다. 이 페이지 아래에 표시되는 데이터는 모두 REST 기반 웹 서비스에서 생성됩니다. 스크립트 또는 네트워크 장치를 사용하여 이 데이터에 액세스 하는 경우, 직접 [웹 서비스](microsoft-365-ip-web-service.md)로 이동해야 합니다.
 
 아래의 끝점 데이터는 사용자의 컴퓨터에서 Microsoft Office 365에 연결할 때의 요구 사항을 나열합니다. 이는 하이브리드 또는 인바운드 네트워크 연결이라 불리며 Microsoft에서 고객 네트워크로의 네트워크 연결을 포함하지 않습니다.
 

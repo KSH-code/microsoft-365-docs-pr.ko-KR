@@ -20,7 +20,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Office 365 전역 관리자가 암호화 포털의 콘텐츠와 함께 암호화된 전자 메일 메시지에 조직의 & 적용하는 방법을 알아보겠습니다.
+description: 전역 Office 365 조직의 브랜드를 암호화 포털의 콘텐츠와 함께 암호화된 전자 메일 메시지에 적용하는 & 방법을 알아보겠습니다.
 ms.openlocfilehash: 2898e12ad00d11cd9eb2f3be5d817ef113607e79
 ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/26/2021
 ms.locfileid: "51394716"
 ---
-# <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 Microsoft 365 메시지 암호화 암호화 메시지에 조직의 브랜드 추가
+# <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 메시지 암호화 암호화 Microsoft 365 조직 브랜드 추가
 
 회사 브랜드를 적용하여 조직의 전자 메일 메시지와 암호화 포털의 모양을 사용자 지정할 수 있습니다. 시작하기 전에 먼저 직장 또는 학교 계정에 전역 관리자 권한을 적용해야 합니다. 이러한 사용 권한이 있는 경우 Get-OMEConfiguration 및 Set-OMEConfiguration Windows PowerShell cmdlet을 사용하여 암호화된 전자 메일 메시지의 이러한 부분을 사용자 지정합니다.
   
@@ -46,7 +46,7 @@ ms.locfileid: "51394716"
 
 언제든지 기본 모양과 느낌으로 되돌릴 수 있습니다.
 
-더 많은 제어를 원할 경우 Office 365 고급 메시지 암호화를 사용하여 조직에서 시작된 암호화된 전자 메일에 대한 여러 템플릿을 만듭니다. 이러한 템플릿을 사용하여 최종 사용자 환경의 일부를 제어합니다. 예를 들어 받는 사람이 Google, Yahoo 및 Microsoft 계정을 사용하여 암호화 포털에 로그인할 수 있는지 여부를 지정합니다. 서식 파일을 사용하여 다음의 여러 사용 사례를 처리합니다.
+더 많은 제어를 원할 경우 조직에서 Office 365 고급 메시지 암호화 암호화된 전자 메일에 대한 여러 템플릿을 만들 수 있습니다. 이러한 템플릿을 사용하여 최종 사용자 환경의 일부를 제어합니다. 예를 들어 받는 사람이 Google, Yahoo 및 Microsoft 계정을 사용하여 암호화 포털에 로그인할 수 있는지 여부를 지정합니다. 서식 파일을 사용하여 다음의 여러 사용 사례를 처리합니다.
 
 - 재무, 영업 등의 개별 부서
 
@@ -58,7 +58,7 @@ ms.locfileid: "51394716"
 
 - 외부 받는 사람에게 보낸 전자 메일이 지정된 일 수 후에 만료될지 여부를 지정합니다.
 
-템플릿을 만든 후 Exchange 메일 흐름 규칙을 사용하여 암호화된 전자 메일에 적용할 수 있습니다. Office 365 고급 메시지 암호화가 있는 경우 이러한 템플릿을 사용하여 브랜드한 모든 전자 메일을 해지할 수 있습니다.
+템플릿을 만든 후 메일 흐름 규칙을 사용하여 암호화된 전자 메일에 Exchange 있습니다. 이 Office 365 고급 메시지 암호화 경우 이러한 템플릿을 사용하여 브랜드한 모든 전자 메일을 해지할 수 있습니다.
 
 ## <a name="work-with-ome-branding-templates"></a>OME 브랜랜드 템플릿 사용
 
@@ -70,9 +70,9 @@ ms.locfileid: "51394716"
   
 ## <a name="modify-an-ome-branding-template"></a>OME 브랜랜드 템플릿 수정
 
-이 Windows PowerShell 사용하여 한 번씩 하나의 브랜디트 템플릿을 수정할 수 있습니다. 고급 메시지 암호화가 있는 경우 사용자 지정 서식 파일을 만들고 수정하고 제거할 수도 있습니다.
+이 Windows PowerShell 사용하여 한 번의 브랜드 템플릿을 수정할 수 있습니다. 고급 메시지 암호화가 있는 경우 사용자 지정 서식 파일을 만들고 수정하고 제거할 수도 있습니다.
 
-1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 조직에 Exchange Online. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 2. [Set-OMEConfiguration에](/powershell/module/exchange/Set-OMEConfiguration) 설명된 Set-OMEConfiguration cmdlet을 사용하거나 다음 그래픽 및 표를 사용하여 지침을 참조하세요.
 
@@ -93,11 +93,11 @@ ms.locfileid: "51394716"
 
 ## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>OME 브랜랜드 템플릿 만들기(고급 메시지 암호화)
 
-Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](/powershell/module/exchange/new-omeconfiguration) cmdlet을 사용하여 조직에 대한 사용자 지정 브랜징 템플릿을 만들 수 있습니다. 템플릿을 만든 후 Modify an OME branding template 에 설명된 Set-OMEConfiguration cmdlet을 사용하여 [템플릿을 수정합니다.](#modify-an-ome-branding-template) 여러 서식 파일을 만들 수 있습니다.
+이 Office 365 고급 메시지 암호화 [New-OMEConfiguration](/powershell/module/exchange/new-omeconfiguration) cmdlet을 사용하여 조직에 대한 사용자 지정 브랜징 템플릿을 만들 수 있습니다. 템플릿을 만든 후 Modify an OME branding template 에 설명된 Set-OMEConfiguration cmdlet을 사용하여 [템플릿을 수정합니다.](#modify-an-ome-branding-template) 여러 서식 파일을 만들 수 있습니다.
 
 새 사용자 지정 브랜징 템플릿을 만들 수 있습니다.
 
-1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 조직에 Exchange Online. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 2. [New-OMEConfiguration](/powershell/module/exchange/new-omeconfiguration) cmdlet을 사용하여 새 템플릿을 만들 수 있습니다.
 
@@ -115,7 +115,7 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](/p
 
 브랜드 사용자 지정 등을 포함하여 기본 템플릿에서 모든 수정 내용을 제거하려면 다음 단계를 완료합니다.
   
-1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 조직에 Exchange Online. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 2. **Set-OMEConfiguration 에** 설명된 바와 같이 [Set-OMEConfiguration cmdlet을 사용 합니다.](/powershell/module/exchange/Set-OMEConfiguration) DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드 사용자 지정을 제거하려면 값을 빈 문자열인 로 `""` 설정하십시오. 로고와 같은 모든 이미지 값에 대해 값을 로  `"$null"` 설정합니다.
 
@@ -135,7 +135,7 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](/p
 
 사용자 지정 브랜징 서식 파일을 제거하려면
   
-1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 조직에 Exchange Online. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 2. **Remove-OMEConfiguration** cmdlet은 다음과 같이 사용할 수 있습니다.
 
@@ -151,23 +151,23 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](/p
 
    자세한 내용은 [Remove-OMEConfiguration을 참조하십시오.](/powershell/module/exchange/remove-omeconfiguration)
 
-## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>암호화된 전자 메일에 사용자 지정 브랜드를 적용하는 Exchange 메일 흐름 규칙 만들기
+## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>암호화된 Exchange 사용자 지정 브랜더를 적용하는 메일 흐름 규칙 만들기
 
-기본 템플릿을 수정하거나 새 브랜징 템플릿을 만든 후 Exchange 메일 흐름 규칙을 만들어 특정 조건에 따라 사용자 지정 브랜드를 적용할 수 있습니다. 이러한 규칙은 다음과 같은 시나리오에서 사용자 지정 브랜드를 적용합니다.
+기본 템플릿을 수정하거나 새 브랜더링 템플릿을 만든 후 특정 조건에 Exchange 사용자 지정 브랜더링을 적용하는 메일 흐름 규칙을 만들 수 있습니다. 이러한 규칙은 다음과 같은 시나리오에서 사용자 지정 브랜드를 적용합니다.
 
-- Outlook 또는 웹용 Outlook을 사용하여 최종 사용자가 전자 메일을 수동으로 암호화한 경우 이전의 Outlook Web App
+- 최종 사용자가 웹에서 Outlook 또는 Outlook 전자 메일을 수동으로 암호화한 경우 Outlook Web App
 
 - 전자 메일이 Exchange 메일 흐름 규칙 또는 데이터 손실 방지 정책에 의해 자동으로 암호화된 경우
 
-암호화를 적용하는 Exchange 메일 흐름 규칙을 만드는 방법에 대한 자세한 내용은 [Define mail flow rules to encrypt email messages in Office 365를 참조하세요.](define-mail-flow-rules-to-encrypt-email.md)
+암호화를 적용하는 Exchange 메일 흐름 규칙을 만드는 방법에 대한 자세한 내용은 [Define mail flow rules to encrypt email messages in Office 365.](define-mail-flow-rules-to-encrypt-email.md)
 
-1. 웹 브라우저에서 전역 관리자 권한이 부여된 직장 또는 학교 계정을 사용하여 [Office 365에 로그인합니다.](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser)
+1. 웹 브라우저에서 전역 관리자 권한이 부여된 직장 또는 학교 계정을 사용하여 에 [Office 365.](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser)
 
 2. 관리 **타일을** 선택하세요.
 
-3. Microsoft 365 관리 센터에서 관리 센터 Exchange **를** \> **선택 합니다.**
+3. in the Microsoft 365 admin center, choose **Admin centers** \> **Exchange.**
 
-4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 [Exchange Online의 Exchange 관리 센터를 참조하세요.](/exchange/exchange-admin-center)
+4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
 
 5. **이름에** 규칙의 이름(예: 영업 부서의 브랜드)을 입력합니다.
 
@@ -179,9 +179,9 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](/p
 
 7. 다음 **작업에서** 메시지 보안 수정 **OME** 메시지에 사용자 지정 \> **브랜드 적용 을 선택합니다.** 그런 다음 드롭다운에서 브랜드 템플릿을 선택합니다.
 
-8. (선택 사항) 암호화 및 사용자 지정 브랜드를 적용하도록 메일 흐름 규칙을 구성할 수 있습니다. 다음 **작업에서** **메시지** 보안 수정을 선택한 다음 **Office 365** 메시지 암호화 및 권한 보호 적용을 선택합니다. 목록에서 RMS 템플릿을 선택하고 **저장을** 선택한 다음 확인 을 **선택합니다.**
+8. (선택 사항) 암호화 및 사용자 지정 브랜드를 적용하도록 메일 흐름 규칙을 구성할 수 있습니다. 다음 **작업에서** **메시지** 보안 수정을 선택한 다음 메시지 보안 및 권한 **Office 365 메시지 암호화 적용을 선택합니다.** 목록에서 RMS 템플릿을 선택하고 **저장을** 선택한 다음 확인 을 **선택합니다.**
   
-   템플릿 목록에는 기본 서식 파일 및 옵션과 만든 모든 사용자 지정 템플릿이 포함됩니다. 목록이 비어 있는 경우 새 기능을 사용하여 Office 365 메시지 암호화를 설정해야 합니다. 자세한 내용은 [Set up new Office 365 Message Encryption capabilities을 참조하십시오.](set-up-new-message-encryption-capabilities.md) 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 및 [관리를 참조하세요.](/information-protection/deploy-use/configure-policy-templates) 전달 금지 **옵션에** 대한 자세한 내용은 전자 메일에 [대해 전달 금지 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 **옵션에** 대한 자세한 내용은 전자 메일에 대한 [암호화 전용 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+   템플릿 목록에는 기본 서식 파일 및 옵션과 만든 모든 사용자 지정 템플릿이 포함됩니다. 목록이 비어 있는 경우 새 기능을 Office 365 메시지 암호화 설정해야 합니다. 자세한 내용은 [Set up new Office 365 메시지 암호화 capabilities을 참조하십시오.](set-up-new-message-encryption-capabilities.md) 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 및 [관리를 참조하세요.](/information-protection/deploy-use/configure-policy-templates) 전달 금지 **옵션에** 대한 자세한 내용은 전자 메일에 [대해 전달 금지 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 **옵션에** 대한 자세한 내용은 전자 메일에 대한 [암호화 전용 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
    다른 **작업을 지정하려는** 경우 작업 추가를 선택 합니다.
 

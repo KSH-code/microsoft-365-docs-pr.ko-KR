@@ -16,12 +16,12 @@ ms.collection:
 description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 현재 보유 중인 항목이 무엇이고 이러한 항목을 어떻게 보호할 수 있는지 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: db37718ce2feae9c79ff6b323eb22e30f24e72b2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 29602d5fe62c84b9293522a94b71c550d360b3e3
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205836"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877803"
 ---
 # <a name="office-365-security-overview"></a>Office 365 보안 개요
 
@@ -117,7 +117,7 @@ Office 365용 Microsoft Defender P1은 조사를 위해 **실시간 감지** 기
 
 따라서 Office 365용 Microsoft Defender P2는 ***조사 및 대응*** 측면을 확장하고 새로운 검색 능력을 추가합니다. 자동화
 
-Office 365용 Microsoft Defender P2에서는 기본 검색 도구를 실시간 감지가 아닌 **위협 탐색기** 이라고 합니다. 보안 센터로 이동할 때 위협 탐색기가 표시되면 Office 365용 Microsoft Defender P2를 사용 중인 것입니다.
+Office 365용 Microsoft Defender P2에서는 기본 검색 도구를 실시간 감지가 아닌 **위협 탐색기** 이라고 합니다. Microsoft 365 Defender 포털로 이동할 때 위협 탐색기가 표시될 경우 P2용 Microsoft Defender에 Office 365 있습니다.
 
 Office 365용 Microsoft Defender P1 및 P2에 대해 자세히 알아보려면 **[이 문서로 이동](defender-for-office-365.md)** 하세요.
 

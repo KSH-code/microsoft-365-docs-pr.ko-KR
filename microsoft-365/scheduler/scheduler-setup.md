@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: scheduler
 localization_priority: Normal
 description: 사용자에 대한 스케줄러 Microsoft 365.
-ms.openlocfilehash: c17cdbbf71359a2725a3b0a145cba5feffd7c853
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: ba1e178545001473bf73eea3eb02b5ab1c7bf084
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809194"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861482"
 ---
 # <a name="setting-up-scheduler-for-microsoft-365"></a>사용자에 대한 스케줄러 Microsoft 365
 
@@ -55,7 +55,7 @@ Cortana 스케줄러 사서함에서 이 "설정" 명령을 실행한 후 사서
  
 ```powershell
 
-Get-mailbox -Organization contoso.com | where {($_.PersistedCapabilities -like "SchedulerAssistant")}
+Get-mailbox | where {$_.PersistedCapabilities -Match "SchedulerAssistant"}
 
 ```
 

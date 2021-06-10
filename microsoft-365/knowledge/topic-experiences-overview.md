@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva Topics 개요입니다.
-ms.openlocfilehash: c7a5af9d2a038c2b9cc5f26d851eb3776a00c71f
-ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
+ms.openlocfilehash: c95e611a98609ff13a41854a6fb25b6ae88b43d8
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/10/2021
-ms.locfileid: "52866694"
+ms.locfileid: "52877815"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva Topics 개요 
 
@@ -70,7 +70,7 @@ Viva Topics는 Microsoft AI 기술을 사용하여 Microsoft 365 환경에서 *�
 
 지식 관리자는 테넌트의 모든 SharePoint 사이트를 크롤링하거나 특정 SharePoint 사이트를 선택할 수 있습니다.
 
-항목 [검색 및 큐레이터를 참조하세요.](./topic-experiences-discovery-curation.md)
+자세한 내용은 항목 검색 및 [큐레이터를 참조하세요.](./topic-experiences-discovery-curation.md)
 
 ## <a name="roles"></a>역할
 
@@ -90,15 +90,15 @@ Microsoft 365 환경에서 Viva Topics를 사용하는 경우 사용자는 다�
 
 항목 관리는 조직의  항목 센터의 항목 관리 *페이지에서 수행됩니다.* 항목 센터는 설치 중에 만들어지며 조직의 지식 센터 역할을 합니다. 
 
-사용이 허가된 모든 사용자는 항목 센터에서 연결된 항목을 볼 수  있는 반면 항목 관리 권한이 있는 사용자(지식 관리자)만 항목 관리 페이지를 보고 사용할 **수** 있습니다.
+라이선스가 부여된 모든 사용자는 항목 센터에서 연결된 항목을 볼 수  있는 반면 항목 관리 권한이 있는 사용자(기술 관리자)만 항목 관리 페이지를 보고 사용할 **수** 있습니다.
 
 지식 관리자는 다음을 할 수 있습니다.
 
 - 테넌트에서 검색된 주제를 확인하거나 제거합니다.
 - 필요한 경우 새 주제를 수동으로 만들 수 있습니다(예: AI를 통해 검색하기에 충분한 정보가 부족한 경우).
-- 기존 주제 페이지를 편집합니다.<br/>
+- 기존 주제 페이지를 편집합니다.
 
-자세한 내용은 항목 센터에서 항목 [관리를 참조하세요.](manage-topics.md)  
+자세한 내용은 항목 센터에서 [항목 관리를 참조하세요.](manage-topics.md)  
 
 ## <a name="admin-controls"></a>관리자 컨트롤
 

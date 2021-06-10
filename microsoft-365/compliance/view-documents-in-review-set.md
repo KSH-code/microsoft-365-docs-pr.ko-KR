@@ -1,5 +1,5 @@
 ---
-title: Advanced eDiscovery의 검토 집합에서 문서 보기
+title: 문서의 검토 집합에서 Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -13,7 +13,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: 텍스트, 주석, 변환된 보기 또는 기본 보기와 같은 Advanced eDiscovery에서 콘텐츠를 보는 방법을 선택하세요.
+description: 텍스트, 주석 Advanced eDiscovery 또는 기본 보기와 같은 콘텐츠 보기 방법을 선택하세요.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: aa8e8e9ea22469ab6d0b223c1bcc9285e2c2ef40
 ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
@@ -22,9 +22,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/31/2021
 ms.locfileid: "51471071"
 ---
-# <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>Advanced eDiscovery의 검토 집합에서 문서 보기
+# <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>문서의 검토 집합에서 Advanced eDiscovery
 
-Advanced eDiscovery는 각각 다른 용도의 여러 뷰어를 통해 콘텐츠를 표시됩니다. 검토 집합 내의 문서를 클릭하여 다양한 뷰어를 사용할 수 있습니다. 현재 제공된 뷰어는 다음을 제공합니다.
+Advanced eDiscovery는 각각 다른 목적을 가진 여러 뷰어를 통해 콘텐츠를 표시합니다. 검토 집합 내의 문서를 클릭하여 다양한 뷰어를 사용할 수 있습니다. 현재 제공된 뷰어는 다음을 제공합니다.
 
 - 파일 메타데이터
 - 기본 보기
@@ -33,23 +33,23 @@ Advanced eDiscovery는 각각 다른 용도의 여러 뷰어를 통해 콘텐츠
 
 ## <a name="file-metadata"></a>파일 메타데이터
 
-이 패널을 꺼서 문서와 연결된 다양한 메타데이터를 표시할 수 있습니다. 검색 결과 표를 사용자 지정하여 특정 메타데이터를 표시할 수 있습니다. 그러나 데이터를 검토하는 동안 가로로 스크롤하기 어려울 수 있는 인스턴스가 있습니다. 파일 메타데이터 패널을 사용하면 사용자가 뷰어 내의 보기를 전환할 수 있습니다.
+이 패널을 꺼서 문서와 연결된 다양한 메타데이터를 표시할 수 있습니다. 특정 메타데이터를 표시하도록 검색 결과 그리드를 사용자 지정할 수 있지만, 데이터를 검토하는 동안 수평으로 스크롤하는 것이 어려울 수 있는 경우가 있습니다. 파일 메타데이터 패널을 사용하여 뷰어 내의 보기를 전환할 수 있습니다.
 
 ![파일 메타데이터 패널
 ](../media/Reviewimage2.png)
 
 ## <a name="native-view"></a>기본 보기
 
-기본 뷰어에는 문서의 가장 풍부한 보기가 표시됩니다. 수백 개의 파일 형식을 지원하며 가능한 기본 환경을 가장 잘 표시하기 위한 것입니다. 파일 Microsoft Office 보기 위해 뷰어는 웹 버전의 Office 앱을 사용하여 문서 메모, Excel 수식, 숨겨진 행/열 및 PowerPoint 메모와 같은 콘텐츠를 표시합니다.
+기본 뷰어에는 문서의 가장 풍부한 보기가 표시됩니다. 수백 개의 파일 형식을 지원하며 가능한 한 가장 신뢰할 수 있는 기본 환경을 표시합니다. Microsoft Office 파일의 경우 뷰어는 Office 앱의 웹 버전을 사용하여 문서 주석, Excel 수식, 숨겨진 행/열 및 PowerPoint 노트와 같은 콘텐츠를 표시합니다.
 
 ![기본 보기
 ](../media/Reviewimage3.png)
 
 ## <a name="text-view"></a>텍스트 보기
 
-텍스트 뷰어는 파일의 추출된 텍스트를 볼 수 있습니다. 포함된 이미지와 서식은 무시되지만 콘텐츠를 빠르게 이해하려는 경우 매우 효과적입니다. 텍스트 보기에는 다음 기능도 포함됩니다.
+텍스트 뷰어는 파일의 추출된 텍스트 보기를 제공합니다. 내장된 이미지 및 형식을 무시하지만 콘텐츠를 빨리 이해하려는 경우 매우 효과적입니다. 텍스트 보기에는 다음과 같은 기능도 포함되어 있습니다.
 
-  - 줄 카운터를 사용하면 문서의 특정 부분을 보다 쉽게 참조할 수 있습니다.
+  - 라인 카운터를 사용하면 문서의 특정 부분을 쉽게 참조할 수 있습니다.
 
   - 스크롤 막대뿐만 아니라 문서 내의 용어를 강조 표시하는 검색 적중 강조 표시
 

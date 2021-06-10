@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 EOP(스푸핑 인텔리전스 정보)에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2fc591bbaf2ecc6f59c2b569acde521453887c2a
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 280743e87ce6039f456cec0b89bff57a31d75691
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822357"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877827"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>EOP의 스푸핑 인텔리전스 정보
 
@@ -53,13 +53,13 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
   - 보낸 사람이 메일링 목록(토론 목록)에 있으며, 메일링 목록은 원래 보낸 사람으로부터 메일링 목록의 모든 참가자에게 전자 메일을 릴레이합니다.
   - 외부 회사가 다른 회사를 대신하여 전자 메일을 전송합니다(예: 자동화된 보고서 또는 소프트웨어 as-a-service 회사).
 
-Microsoft 365 보안  센터의 스푸핑 인텔리전스 인사이트를 사용하여 합법적으로 허용되지 않은 전자 메일을 보내는 스푸핑된 보낸 사람(SPF, DKIM 또는 DMARC 검사를 통과하지 않는 도메인의 메시지)을 빠르게 식별하고 이러한 보낸 사람이 수동으로 허용하도록 허용할 수 있습니다.
+Microsoft 365 Defender  포털의 스푸핑 인텔리전스 인사이트를 사용하여 합법적으로 사용자에게 허용되지 않은 전자 메일(SPF, DKIM 또는 DMARC 검사를 통과하지 않는 도메인의 메시지)을 보내는 스푸핑된 보낸 사람(SPF, DKIM 또는 DMARC 확인을 통과하지 않은 도메인의 메시지)을 빠르게 식별하고 해당 보낸 사람이 이를 수동으로 허용할 수 있습니다.
 
 알려진 보낸 사람이 알려진 위치에서 스푸핑된 메시지를 보낼 수 있도록 허용하면 가음성(나쁜 것으로 표시된 좋은 전자 메일)을 줄일 수 있습니다. 허용된 스푸핑된 보낸 사람 모니터링을 통해 안전하지 않은 메시지가 조직에 도착하지 않도록 추가 보안 계층을 제공합니다.
 
 마찬가지로 스푸핑 인텔리전스에서 허용된 스푸핑된 보낸 사람도 검토하고 스푸핑 인텔리전스 인사이트에서 해당 보낸 사람은 수동으로 차단할 수 있습니다.
 
-이 문서의 나머지부분에서는 보안 센터 및 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 스푸핑 인텔리전스 정보를 사용하는 방법을 설명합니다.
+이 문서의 나머지부분에서는 Microsoft 365 Defender 포털 및 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Microsoft 365 PowerShell, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell Exchange Online에서 스푸핑 인텔리전스 정보를 사용하는 방법을 설명합니다.
 
 > [!NOTE]
 >
@@ -69,9 +69,9 @@ Microsoft 365 보안  센터의 스푸핑 인텔리전스 인사이트를 사용
 >
 >- 스푸핑 인텔리전스 인사이트는 7일 동안의 데이터를 보여줍니다. **Get-SpoofIntelligenceInsight** cmdlet은 30일 동안의 데이터를 보여줍니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- <https://security.microsoft.com/>에서 보안 센터를 엽니다. 피싱 방지 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/antiphishing> 사용하세요. 스푸핑 인텔리전스 인사이트 **페이지로** 직접 이동하기 위해 를 <https://security.microsoft.com/spoofintelligence> 사용하세요.
+- 에서 Microsoft 365 Defender 포털을 열 수 <https://security.microsoft.com/> 있습니다. 피싱 방지 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/antiphishing> 사용하세요. 스푸핑 인텔리전스 인사이트 **페이지로** 직접 이동하기 위해 를 <https://security.microsoft.com/spoofintelligence> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -90,9 +90,9 @@ Microsoft 365 보안  센터의 스푸핑 인텔리전스 인사이트를 사용
 
 - 스푸핑 인텔리전스에 대한 권장 설정은 EOP 피싱 방지 정책 [설정을 참조하세요.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)
 
-## <a name="open-the-spoof-intelligence-insight-in-the-security-center"></a>보안 센터에서 스푸핑 인텔리전스 정보 열기
+## <a name="open-the-spoof-intelligence-insight-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털에서 스푸핑 인텔리전스 정보 열기
 
-1. 보안 센터에서 전자 메일 **&** 정책 및 규칙 위협 정책 & 피싱 방지 \>  \>  \>  \> **섹션으로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책& 규칙 위협 정책 섹션으로 이동하여 피싱 방지 \>  \>  \>  \> **를 참조하세요.**
 
 2. 피싱 **방지** 페이지에서 스푸핑 인텔리전스 인사이트는 다음과 같이 표시됩니다.
 

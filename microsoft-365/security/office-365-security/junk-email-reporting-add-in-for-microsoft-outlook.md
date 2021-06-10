@@ -1,5 +1,5 @@
 ---
-title: Microsoft Outlook용 정크 메일 보고 추가 기능 설치 및 사용
+title: Microsoft 365용 정크 메일 보고 추가 기능 Outlook
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -22,7 +22,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/25/2021
 ms.locfileid: "51205467"
 ---
-# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook용 정크 메일 보고 추가 기능 설치 및 사용
+# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft 365용 정크 메일 보고 추가 기능 Outlook
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,18 +34,18 @@ ms.locfileid: "51205467"
 > [!NOTE]
 > 현재 정크 메일 보고 추가 기능을 사용하지 않는 경우 보고서 메시지 [](enable-the-report-message-add-in.md) 추가 기능 또는 피싱 보고 추가 기능을 대신 사용하는 [것이](enable-the-report-phish-add-in.md) 좋습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
-Microsoft Outlook용 정크 메일 보고 추가 기능을 사용하면 가음성(스팸으로 표시된 양호한 전자 메일), 거짓 부정(잘못된 전자 메일 허용) 및 피싱 메시지를 Microsoft에 제출할 수 있습니다. 조직에서 Exchange Online Protection을 사용하지 않는 경우(예: Exchange Online이 아닌 전자 메일 서비스 또는 Exchange Online이 아닌 경우) 정크 메일 보고서 제출은 스팸 필터링에 영향을 주지 않습니다.
+Microsoft 365용 정크 메일 보고 추가 Outlook 가음성(스팸으로 표시된 양호한 전자 메일), 거짓 부정(잘못된 전자 메일 허용) 및 피싱 메시지를 Microsoft에 제출할 수 있습니다. 조직에서 Exchange Online Protection(예: Exchange 또는 Exchange Online 메일 서비스)를 사용하지 않는 경우 정크 메일 보고서 제출은 스팸 필터링에 영향을 주지 않습니다.
 
 이 항목에서는 정크 메일 보고 추가 기능을 설치하고 사용하는 방법을 설명합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 정크 메일 보고 추가 기능을 설치하려면 [](#install-the-junk-email-reporting-add-in) 이 문서 부분의 정크 메일 보고 추가 기능 설치 섹션을 참조하세요.
 
-- 정크 메일 보고 추가 기능에서는 다음 버전의 Outlook과 함께 작동합니다.
+- 정크 메일 보고 추가 기능에서는 다음 버전의 정크 메일 Outlook.
 
   - Outlook 2013 이상
-  - 엔터프라이즈용 Microsoft 365 앱에 포함된 Outlook
+  - Outlook 포함된 엔터프라이즈용 Microsoft 365 앱
 
 - Microsoft에 메시지를 보고하는 데 대한 자세한 내용은 Microsoft에 메시지 및 [파일 보고를 참조하세요.](report-junk-email-messages-to-microsoft.md)
 
@@ -111,20 +111,20 @@ Microsoft Outlook용 정크 메일 보고 추가 기능을 사용하면 가음�
 
 - 추가 기능을 설치하는 컴퓨터에 관리자 권한이 필요합니다.
 
-- 으로 이동하여 Office 버전에 대한 적절한 .msi 파일을 찾기 쉬운 <https://www.microsoft.com/download/details.aspx?id=18275> 위치로 다운로드합니다.
+- 으로 이동하여 .msi 쉽게 찾을 수 있는 위치에 Office 대한 적절한 파일 파일을 <https://www.microsoft.com/download/details.aspx?id=18275> 다운로드합니다.
 
   - **32비트**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
   - **64비트**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
-- Outlook 2013 이상의 경우 Microsoft .NET Framework 2.0만 선행해야 합니다. Windows 10에서는 다운로드에서 .NET Framework 2.0을 설치하지 않습니다.
+- Outlook 2013 이상의 경우 Microsoft .NET Framework 2.0만의 선행 .NET Framework 있습니다. 이 Windows 10 다운로드에서 .NET Framework 2.0을 설치하지 않습니다.
 
 ### <a name="install-the-junk-email-reporting-add-in-using-the-setup-wizard"></a>설치 마법사를 사용하여 정크 메일 보고 추가 기능 설치
 
 1. 컴퓨터에서 Outlook을 종료합니다.
 
-2. Windows 10에서 2..NET Framework 사용하도록 설정되어 있는지 확인합니다. 자세한 내용은 [제어판에서 .NET Framework 3.5 사용 을 참조하세요.](/dotnet/framework/install/dotnet-35-windows-10#enable-the-net-framework-35-in-control-panel)
+2. 이 Windows 10 2.0이 .NET Framework 활성화되어 있는지 확인합니다. 자세한 내용은 [제어판에서 .NET Framework 3.5 사용 을 참조하세요.](/dotnet/framework/install/dotnet-35-windows-10#enable-the-net-framework-35-in-control-panel)
 
-3. 다운로드한 .msi 파일을 찾아서 두 번 클릭합니다.
+3. 다운로드한 .msi 파일을 찾아 두 번 클릭합니다.
 
 4. **Microsoft 정크 메일 보고 추가 기능 설치 시작** 페이지에서 **다음** 을 클릭합니다.
 
@@ -142,7 +142,7 @@ Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**
 
 1. 컴퓨터에서 Outlook을 종료합니다.
 
-2. Windows 10에서 다음 명령을 .NET Framework 2.0을 설치합니다.
+2. 다음 Windows 10 명령을 실행하여 .NET Framework 2.0을 설치합니다.
 
    ```dos
    DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
@@ -175,7 +175,7 @@ Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
-정크 메일 보고 추가 기능을 성공적으로 설치한 경우 Outlook에서 다음 단계를 수행합니다.
+정크 메일 보고 추가 기능을 성공적으로 설치한지 확인하기 위해 다음 단계 중 Outlook.
 
 - 메시지를 선택하거나 메시지를 여는 경우 리본 **메뉴의 홈** 또는 **메시지** 탭에서 정크 를 클릭하고 다음 옵션을 사용할 수 있는지 확인해야 합니다. 
 
@@ -212,21 +212,21 @@ Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**
 
 ## <a name="uninstall-the-junk-email-reporting-add-in"></a>정크 메일 보고 추가 기능 제거
 
-Outlook을 닫은 후 다음 절차에 따라 정크 메일 보고 추가 기능을 제거합니다.
+정크 Outlook 다음 절차에 따라 정크 메일 보고 추가 기능을 제거합니다.
 
-- **제어판:** Windows 키 + R을 누르고 있습니다. 실행 **대화** 상자가 열리면 를 `control appwiz.cpl` 입력하고 확인을 **클릭합니다.**
+- **제어판:** Windows + R을 누르고 있습니다. 실행 **대화** 상자가 열리면 를 `control appwiz.cpl` 입력하고 확인을 **클릭합니다.**
 
   목록에서 **Microsoft 정크** 메일 보고 추가 기능을 찾아 선택한 다음 제거 **를 클릭합니다.**
 
-- **Windows Installer 패키지:** 적절한 .msi 파일을 찾거나 다운로드한 다음 두 번 클릭합니다.
+- **Windows 설치** 관리자 패키지: 적절한 설치 .msi 다운로드하고 두 번 클릭합니다.
 
   - **32비트**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
 
   - **64비트**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
-  나타나는 대화 상자에서 **Remove Microsoft Junk Email Reporting Add-in for Outlook(Outlook용 Microsoft 정크** 메일 보고 추가 기능 제거)을 선택하고 Next(다음)를 **클릭합니다.**
+  나타나는 대화 상자에서 Microsoft 정크 메일 보고 추가 기능 제거를 Outlook **다음을** **클릭합니다.**
 
-- **자동 모드:** 적절한 .msi 파일을 찾거나 다운로드합니다. 명령 프롬프트 창에서 .msi 파일의 위치로 바꾸고 다음 명령 중 하나를 \<PathToFile\> 실행합니다.
+- **자동 모드:** 적절한 자동 모드 파일을 .msi 다운로드합니다. 명령 프롬프트 창에서 .msi 위치로 바꾸고 다음 명령 중 하나를 \<PathToFile\> 실행합니다.
 
   - **32비트**:
 
@@ -240,11 +240,11 @@ Outlook을 닫은 후 다음 절차에 따라 정크 메일 보고 추가 기능
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
     ```
 
-제거 후 Outlook을 열면 정크가 아닌 정크 및 피싱 보고 옵션이 사라집니다.
+제거 후 Outlook 열면 정크가 아닌 정크 및 피싱 보고 옵션이 사라집니다.
 
 ## <a name="troubleshooting-the-junk-email-reporting-add-in"></a>정크 메일 보고 추가 기능 문제 해결
 
-경우에 따라 정크 메일 보고 추가 기능을 추가한 후 Outlook에 문제가 있을 수 있습니다. 이 섹션에서는 발생할 수 있는 문제에 대해 설명하고 이러한 문제를 해결하기 위한 팁을 제공합니다.
+경우에 따라 정크 메일 보고 추가 기능을 Outlook 문제가 있을 수 있습니다. 이 섹션에서는 발생할 수 있는 문제에 대해 설명하고 이러한 문제를 해결하기 위한 팁을 제공합니다.
 
 ### <a name="troubleshooting-for-users"></a>사용자 문제 해결
 
@@ -256,7 +256,7 @@ Outlook을 닫은 후 다음 절차에 따라 정크 메일 보고 추가 기능
 
 이 문제를 해결하려면 다음 단계를 수행합니다.
 
-1. Outlook을 닫았다가 다시 시작합니다.
+1. 닫았다가 다시 Outlook.
 2. 테스트 메시지를 만들고 보내고 받는 사람이 메시지를 받았는지 확인해야 합니다.
 3. 문제가 계속되면 관리자에게 문의하세요.
 
@@ -268,7 +268,7 @@ Microsoft에 메시지를 전송하는 데 사용할 수 있는 다른 방법은
 
 1. 레지스트리 키를 `LoggingLevel` "Verbose" 값으로 확인하거나 설정
 
-   - **32비트 Windows의 32비트 Outlook**:
+   - **32비트 Outlook 32비트** Windows:
 
      ```text
      Windows Registry Editor Version 5.00
@@ -277,7 +277,7 @@ Microsoft에 메시지를 전송하는 데 사용할 수 있는 다른 방법은
      "LoggingLevel"="Verbose"
      ```
 
-   - **64비트 Windows의 32비트 Outlook**:
+   - **64비트 Outlook 32비트** Windows:
 
      ```text
      Windows Registry Editor Version 5.00
@@ -295,7 +295,7 @@ Microsoft에 메시지를 전송하는 데 사용할 수 있는 다른 방법은
      "LoggingLevel"="Verbose"
      ```
 
-2. Outlook을 다시 시작하고 사용자에게 오류 메시지가 표시될 때 다시 보고해달고 요청합니다.
+2. 이 Outlook 다시 시작하고 사용자에게 오류 메시지가 표시될 때 다시 보고해달고 요청합니다.
 
 3. 다음 위치에 있는 로그 정보를 수집합니다.
 

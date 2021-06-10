@@ -54,7 +54,7 @@ The **Fix slow mail flow rules insight** in the Recommended **area** of the Mail
 
 ![느린 메일 흐름 규칙 수정 정보에서 세부 정보 보기를 클릭한 후 나타나는 세부 정보 플라이아웃](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
-메일 흐름 규칙의 조건 및 예외에 대한 자세한 내용은 Exchange Online의 메일 흐름 규칙 조건 및 예외(조건자)를 [참조하세요.](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
+메일 흐름 규칙의 조건 및 예외에 대한 자세한 내용은 에서 메일 흐름 규칙 조건 및 [예외(조건자)를 Exchange Online.](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
 ## <a name="see-also"></a>참고 항목
 
