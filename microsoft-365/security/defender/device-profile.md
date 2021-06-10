@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 보안 포털의 장치 프로필
+title: 보안 포털의 Microsoft 365 프로필
 description: 조직에서 장치에 대한 위험 및 노출 수준을 확인합니다. 과거 및 현재 위협을 분석하고 최신 업데이트로 장치를 보호합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, Microsoft 365 Defender, 보안 센터, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender, 장치 페이지, 장치 프로필, 컴퓨터 페이지, 컴퓨터 프로필
 ms.prod: m365-security
@@ -25,7 +25,7 @@ ms.locfileid: "51935668"
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-Microsoft 365 보안 포털은 장치 프로필 페이지를 제공 하여 네트워크에서 디바이스의 상태를 빠르게 평가할 수 있도록 합니다.
+Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네트워크에서 디바이스의 상태를 빠르게 평가할 수 있습니다.
 
 > [!IMPORTANT]
 > 디바이스 프로필 페이지는 장치가 Endpoint용 Microsoft Defender, ID용 Microsoft Defender 또는 둘 다에 등록된지 여부에 따라 약간 다를 수 있습니다.
@@ -75,10 +75,10 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공 하여 네�
 장치 프로필 페이지에서 사용할 수 있는 작업은 다음과 같습니다.
 
 * **태그 관리** - 이 장치에 적용한 사용자 지정 태그를 업데이트합니다.
-* **장치 격리** - 디바이스를 끝점용 Microsoft Defender에 계속 연결하면서 조직의 네트워크에서 격리합니다. 디바이스가 격리된 동안 통신을 위해 Outlook, Teams 및 비즈니스용 Skype가 실행될 수 있도록 선택할 수 있습니다.
+* **장치 격리** - 디바이스를 끝점용 Microsoft Defender에 계속 연결하면서 조직의 네트워크에서 격리합니다. 디바이스가 격리된 동안 통신을 위해 Outlook, Teams 및 비즈니스용 Skype 실행하도록 선택할 수 있습니다.
 * **작업 센터** - 제출된 작업의 상태를 시청합니다. 다른 작업이 이미 선택된 경우만 사용할 수 있습니다.
 * **앱 실행 제한** - Microsoft에서 서명하지 않은 응용 프로그램을 실행하지 못하도록 합니다.
-* **바이러스 백신 검사** 실행 - 바이러스 Windows Defender 업데이트하고 즉시 바이러스 백신 검색을 실행합니다. 빠른 검사 또는 전체 검사 중 선택할 수 있습니다.
+* **바이러스 백신 검사** 실행 - Windows Defender 바이러스 백신 업데이트하고 바이러스 백신 검색을 즉시 실행합니다. 빠른 검사 또는 전체 검사 중 선택할 수 있습니다.
 * **조사 패키지 수집** - 장치에 대한 정보를 수집합니다. 조사가 완료되면 다운로드할 수 있습니다.
 * **라이브 응답** 세션 시작 - 심층 보안 조사를 위해 디바이스에 원격 [셸을 로드합니다.](/microsoft-365/security/defender-endpoint/live-response)
 * **자동화된 조사 시작** - 위협을 자동으로 [조사하고 수정합니다.](../office-365-security/office-365-air.md) 이 페이지에서 자동화된 조사를 수동으로 트리거할 수 있지만 [특정](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) 경고 정책은 자체적인 자동 조사를 트리거합니다.
@@ -183,4 +183,4 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공 하여 네�
 * [Microsoft 365 Defender 개요](microsoft-365-defender.md)
 * [Microsoft 365 Defender 켜기](m365d-enable.md)
 * [라이브 응답을 사용하여 디바이스에서 엔터티 조사](../defender-endpoint/live-response.md)
-* [Office 365의 자동화된 조사 및 대응(AIR)](../office-365-security/office-365-air.md)
+* [자동화된 조사 및 대응(AIR)Office 365](../office-365-security/office-365-air.md)

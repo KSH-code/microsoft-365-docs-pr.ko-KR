@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 schema의 EmailPostDeliveryEvents 테이블
-description: 고급 헌팅 스마의 EmailPostDeliveryEvents 표에서 Microsoft 365 전자 메일에 대해 수행한 배달 후 작업에 대해 자세히 알아보기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석,chema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware verdict, phishing verdict, attachment count, link count, url count
+description: 고급 헌팅 Microsoft 365 EmailPostDeliveryEvents 표에서 전자 메일에 대해 수행한 배달 후 작업에 대해 자세히 알아보기
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware verdict, phishing verdict, attachment count, link count, url count
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -35,7 +35,7 @@ ms.locfileid: "51935476"
 **적용 대상:**
 - Microsoft 365 Defender
 
-고급 `EmailPostDeliveryEvents` 헌팅 [schema의](advanced-hunting-overview.md) 표에는 Microsoft 365에서 처리한 전자 메일 메시지에 대해 수행된 배달 후 작업에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 `EmailPostDeliveryEvents` 헌팅 schema의 표에는 고급 헌팅에서 처리된 전자 메일 메시지에 대해 수행된 배달 후 작업에 대한 정보가 Microsoft 365. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
 > 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` Schema 참조를 사용합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "51935476"
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
-| `NetworkMessageId` | 문자열 | Microsoft 365에서 생성되는 전자 메일의 고유 식별자 |
+| `NetworkMessageId` | 문자열 | 전자 메일에서 생성되는 전자 메일의 고유 Microsoft 365 |
 | `InternetMessageId` | 문자열 | 보내는 전자 메일 시스템에서 설정한 전자 메일의 공개 식별자 |
 | `Action` | 문자열 | 엔터티에 대한 작업 |
 | `ActionType` | 문자열 | 이벤트를 트리거한 활동 유형: 수동 수정, 피싱 ZAP, 맬웨어 ZAP |

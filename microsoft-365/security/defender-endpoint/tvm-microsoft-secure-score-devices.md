@@ -1,7 +1,7 @@
 ---
 title: 장치용 Microsoft Secure Score
 description: 장치에 대한 점수는 응용 프로그램, 운영 체제, 네트워크, 계정 및 보안 제어 전반에 걸쳐 디바이스의 총 보안 구성 상태를 보여줍니다.
-keywords: Microsoft Secure Score for Devices, Microsoft Defender for Endpoint Microsoft Secure Score for Devices, secure score, configuration score, threat and vulnerability management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
+keywords: Microsoft Secure Score for Devices, Endpoint Microsoft Defender for Devices, Secure score, configuration score, 위협 및 취약성 관리, security controls, improvement opportunities, security configuration score over time, security posture, baseline
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -32,16 +32,16 @@ ms.locfileid: "51934084"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
 >[!NOTE]
-> 구성 점수는 이제 장치용 Microsoft 보안 점수로 위협 및 취약성 관리의 일부입니다.
+> 구성 점수는 이제 장치용 Microsoft 위협 및 취약성 관리 점수의 일부입니다.
 
-장치에 대한 점수는 Microsoft [](tvm-dashboard-insights.md) Defender 보안 센터의 위협 및 취약성 관리 대시보드에 표시됩니다. 장치에 대한 Microsoft 보안 점수가 높을수록 끝점이 사이버 보안 위협 공격으로부터 더 탄력적입니다. 다음 범주에 걸쳐 디바이스의 전체 보안 구성 상태를 반영합니다.
+장치에 대한 점수는 디바이스의 위협 및 취약성 관리 [대시보드에](tvm-dashboard-insights.md) Microsoft Defender 보안 센터. 장치에 대한 Microsoft 보안 점수가 높을수록 끝점이 사이버 보안 위협 공격으로부터 더 탄력적입니다. 다음 범주에 걸쳐 디바이스의 전체 보안 구성 상태를 반영합니다.
 
 - 응용 프로그램
 - 운영 체제
@@ -57,13 +57,13 @@ ms.locfileid: "51934084"
 
 변경 내용을 대시보드에 반영하는 데 최대 몇 시간이 걸릴 수 있습니다.
 
-1. 탐색 창에서 설정 고급   >  **기능으로 이동합니다.** 
+1. 탐색 창에서 고급 설정   >  **이동** 
 
 2. **아래로 스크롤하여 Microsoft 보안** 점수로 이동하고 설정을 으로 **전환합니다.**
 
 3. 기본 **설정 저장을 선택합니다.**
 
-## <a name="how-it-works"></a>작동 방식
+## <a name="how-it-works"></a>작동 방법
 
 >[!NOTE]
 > Microsoft Secure Score for Devices는 현재 그룹 정책을 통해 설정된 구성을 지원합니다. 현재 부분 Intune 지원으로 인해 Intune을 통해 설정될 수 있는 구성이 잘못 구성된 것으로 표시될 수 있습니다. 조직에서 보안 구성 관리를 위해 Intune을 사용하는 경우 IT 관리자에게 문의하여 실제 구성 상태를 확인할 수 있습니다.
@@ -79,7 +79,7 @@ Microsoft Secure Score for Devices 카드의 데이터는 세세하고 지속적
 
 보안 권장 사항 목록의 문제를 수정하여 보안 구성을 개선합니다. 이렇게 할 때 장치에 대한 Microsoft 보안 점수가 개선될 수 있으며 조직은 사이버 보안 위협 및 취약성에 대해 더 탄력적으로 대응할 수 있습니다.
 
-1. 위협 및 취약성 관리 대시보드의 Microsoft 장치 보안 점수 카드에서 범주 중 하나를 선택합니다. 해당 범주와 관련된 추천 목록을 볼 수 있습니다. 보안 권장 사항 [**페이지로 이동합니다.**](tvm-security-recommendation.md) 모든 보안 권장 사항을 확인하려는 경우 보안 권장 사항 페이지로 이동한 후 검색 필드를 지우십시오.
+1. 위협 및 취약성 관리 대시보드의 Microsoft Secure Score for Devices(장치 보안 점수) 카드에서 범주 중 하나를 선택합니다. 해당 범주와 관련된 추천 목록을 볼 수 있습니다. 보안 권장 사항 [**페이지로 이동합니다.**](tvm-security-recommendation.md) 모든 보안 권장 사항을 확인하려는 경우 보안 권장 사항 페이지로 이동한 후 검색 필드를 지우십시오.
 
 2. 목록에서 항목을 선택합니다. 추천과 관련된 세부 정보가 있는 플라이아웃 패널이 열립니다. 수정 **옵션 을 선택합니다.**
 

@@ -1,6 +1,6 @@
 ---
 title: 역할 기반 액세스 제어에 대한 역할 만들기 및 관리
-description: 역할을 만들고 Microsoft Defender 보안 센터에서 역할 기반 액세스 제어 구현의 일부로 역할에 할당된 사용 권한을 정의합니다.
+description: 역할 만들기 및 역할에 할당된 권한을 역할 기반 액세스 제어 구현의 일부로 Microsoft Defender 보안 센터
 keywords: 사용자 역할, 역할, rbac 액세스
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,13 +35,13 @@ ms.locfileid: "51073988"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-## <a name="create-roles-and-assign-the-role-to-an-azure-active-directory-group"></a>역할을 만들고 Azure Active Directory 그룹에 역할 할당
+## <a name="create-roles-and-assign-the-role-to-an-azure-active-directory-group"></a>역할 만들기 및 역할 Azure Active Directory 할당
 
-다음 단계에서는 Microsoft Defender 보안 센터에서 역할을 만드는 방법을 안내합니다. Azure Active Directory 사용자 그룹을 이미 만들었다고 가정합니다.
+다음 단계에서는 2단계에서 역할을 만드는 방법을 Microsoft Defender 보안 센터. 사용자 그룹에 대해 이미 Azure Active Directory 가정합니다.
 
-1. 보안 관리자 또는 전역 관리자 역할이 할당된 계정을 사용하여 [Microsoft Defender](https://securitycenter.windows.com/) 보안 센터에 로그인합니다.
+1. 보안 [관리자](https://securitycenter.windows.com/) Microsoft Defender 보안 센터 전역 관리자 역할이 할당된 계정을 사용하여 로그인합니다.
 
-2. 탐색 창에서 설정 및 **> 선택합니다.**
+2. 탐색 창에서 역할 **설정 > 선택합니다.**
 
 3. 항목 **추가를 선택합니다.**
 
@@ -66,7 +66,7 @@ ms.locfileid: "51073988"
 
 - **활성 수정 작업**
     - **보안 작업** - 대응 조치 수행, 보류 중인 수정 작업 승인 또는 해지, 자동화 및 표시기를 위한 허용/차단 목록 관리
-    - **위협 및 취약성 관리 - 예외 처리 -** 새 예외 만들기 및 활성 예외 관리
+    - **위협 및 취약성 관리 - 예외** 처리 - 새 예외 만들기 및 활성 예외 관리
     - **위협 및 취약성 관리 -** 수정 처리 - 새 수정 요청을 제출하고, 티켓을 만들고, 기존 수정 활동을 관리합니다.
 
 - **경고 조사** - 경고 관리, 자동화된 조사 시작, 검사 실행, 조사 패키지 수집, 장치 태그 관리, PE(이식 가능한 실행 파일) 파일만 다운로드 
@@ -85,7 +85,7 @@ ms.locfileid: "51073988"
     - **고급** 명령:
         - 라이브 응답을 통해 원격 장치에서 파일 다운로드
         - 파일 페이지에서 PE 및 PE가 아닌 파일 다운로드
-        - 원격 장치에 파일 업로드
+        - 업로드 장치에 파일 연결
         - 파일 라이브러리에서 스크립트 보기
         - 파일 라이브러리에서 원격 디바이스에서 스크립트 실행
 
@@ -93,9 +93,9 @@ ms.locfileid: "51073988"
   
 ## <a name="edit-roles"></a>역할 편집
 
-1. 보안 관리자 또는 전역 관리자 역할이 할당된 계정을 사용하여 [Microsoft Defender](https://securitycenter.windows.com/) 보안 센터에 로그인합니다.
+1. 보안 [관리자](https://securitycenter.windows.com/) Microsoft Defender 보안 센터 전역 관리자 역할이 할당된 계정을 사용하여 로그인합니다.
 
-2. 탐색 창에서 설정 및 **> 선택합니다.**
+2. 탐색 창에서 역할 **설정 > 선택합니다.**
 
 3. 편집할 역할을 선택합니다.
 
@@ -107,9 +107,9 @@ ms.locfileid: "51073988"
 
 ## <a name="delete-roles"></a>역할 삭제
 
-1. 보안 관리자 또는 전역 관리자 역할이 할당된 계정을 사용하여 [Microsoft Defender](https://securitycenter.windows.com/) 보안 센터에 로그인합니다.
+1. 보안 [관리자](https://securitycenter.windows.com/) Microsoft Defender 보안 센터 전역 관리자 역할이 할당된 계정을 사용하여 로그인합니다.
 
-2. 탐색 창에서 설정 및 **> 선택합니다.**
+2. 탐색 창에서 역할 **설정 > 선택합니다.**
 
 3. 삭제할 역할을 선택합니다.
 

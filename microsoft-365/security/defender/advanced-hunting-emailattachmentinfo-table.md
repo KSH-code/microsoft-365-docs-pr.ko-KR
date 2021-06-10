@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스키마의 EmailAttachmentInfo 표
 description: 고급 헌팅 스키마의 EmailAttachmentInfo 표에서 전자 메일 첨부 파일 정보에 대해 알아봅니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 데이터 형식, kusto, 표, 열, 데이터 형식, 설명, EmailAttachmentInfo, 네트워크 메시지 ID, 보낸 사람, 받는 사람, 첨부 파일 ID, 첨부 파일 이름, 맬웨어 결과
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마마 참조, kusto, 표, 열, 데이터 형식, 설명, EmailAttachmentInfo, 네트워크 메시지 ID, 보낸 사람, 받는 사람, 첨부 파일 ID, 첨부 파일 이름, 맬웨어 결과
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -37,14 +37,14 @@ ms.locfileid: "51935500"
 
 
 
-고급 `EmailAttachmentInfo` 헌팅 [schema의](advanced-hunting-overview.md) 표에는 Office 365용 Microsoft Defender에서 처리한 전자 메일의 첨부 파일에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 `EmailAttachmentInfo` 헌팅 [schema의](advanced-hunting-overview.md) 표에는 Microsoft Defender에서 고급 헌팅을 위해 처리한 전자 메일의 첨부 파일에 대한 Office 365. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
-| `NetworkMessageId` | 문자열 | Microsoft 365에서 생성되는 전자 메일의 고유 식별자 |
+| `NetworkMessageId` | 문자열 | 전자 메일에서 생성되는 전자 메일의 고유 Microsoft 365 |
 | `SenderFromAddress` | 문자열 | 전자 메일 클라이언트의 전자 메일 수신자에게 표시되는 FROM 머리글의 발신자 전자 메일 주소  |
 | `SenderDisplayName` | 문자열 | 주소장에 표시되는 보낸 사람 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 이니셜 및 성 또는 성의 조합입니다. |
 | `SenderObjectId` | 문자열 | Azure AD에서 보낸 사람 계정의 고유 식별자 |

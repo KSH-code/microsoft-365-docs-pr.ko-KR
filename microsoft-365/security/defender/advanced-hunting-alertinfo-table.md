@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스위마의 AlertInfo 테이블
 description: 고급 헌팅 스커마의 AlertInfo 표에서 경고 생성 이벤트에 대해 자세히 알아보시다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, Microsoft 365, m365, 검색, 쿼리, 원격 분석,chema reference, kusto, 테이블, 열, 데이터 형식, 설명, AlertInfo, 경고, 심각도, 범주, MITRE, ATT&CK, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security, MCAS 및 ID용 Microsoft Defender
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, AlertInfo, 경고, 심각도, 범주, MITRE, ATT&CK, Endpoint용 Microsoft Defender, Office 365, Microsoft Cloud App Security, MCAS 및 ID용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -37,7 +37,7 @@ ms.locfileid: "51933700"
 
 
 
-고급 `AlertInfo` 헌팅 schema의 표에는 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 ID용 Microsoft Defender의 경고에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 헌팅 schema의 표에는 끝점용 Microsoft Defender, microsoft Defender for Office 365, Microsoft Cloud App Security 및 `AlertInfo` Id용 Microsoft [](advanced-hunting-overview.md) Defender의 경고에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 

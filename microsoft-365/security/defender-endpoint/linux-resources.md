@@ -52,7 +52,7 @@ ms.locfileid: "51933328"
 
 2. 문제를 재현합니다.
 
-3. 다음 명령을 실행하여 끝점 로그에 대한 Defender를 백업합니다. 파일은 .zip 보관 파일 내부에 저장됩니다.
+3. 다음 명령을 실행하여 끝점 로그에 대한 Defender를 백업합니다. 파일은 보관 파일 내부에 .zip 저장됩니다.
 
    ```bash
    sudo mdatp diagnostic create
@@ -79,7 +79,7 @@ ms.locfileid: "51933328"
 
 자세한 로그는 에 `/var/log/microsoft/mdatp_install.log` 저장됩니다. 설치 중에 문제가 발생하면 이 파일을 보내 원인을 진단하는 데 도움을 받을 수 있습니다.
 
-## <a name="uninstall"></a>Uninstall
+## <a name="uninstall"></a>제거
 
 Linux에서 끝점용 Defender를 제거하는 방법에는 여러 가지가 있습니다. Puppet과 같은 구성 도구를 사용하는 경우 구성 도구에 대한 패키지 제거 지침을 따릅니다.
 
@@ -163,8 +163,8 @@ Linux에서 끝점용 Defender를 제거하는 방법에는 여러 가지가 있
 
 ### <a name="known-issues"></a>알려진 문제
 
-- 제품이 예상대로 작동하고 있도 Microsoft Defender 보안 센터 포털의 컴퓨터 정보 페이지에 "센서 데이터 없음, 통신 장애가 있습니다."가 표시될 수 있습니다. We are working on addressing this issue.
-- 로그온한 사용자가 Microsoft Defender 보안 센터 포털에 나타나지 않습니다.
+- 제품이 예상대로 작동하고 있도 Microsoft Defender 보안 센터 정보 페이지에 "센서 데이터 없음, 통신 장애가 있습니다."가 표시될 수 있습니다. We are working on addressing this issue.
+- 로그온한 사용자가 로그인 포털에 Microsoft Defender 보안 센터 않습니다.
 - SUSE 배포에서 *libatomic1* 설치가 실패하면 OS가 등록되어 있는지 유효성을 검사해야 합니다.
 
    ```bash

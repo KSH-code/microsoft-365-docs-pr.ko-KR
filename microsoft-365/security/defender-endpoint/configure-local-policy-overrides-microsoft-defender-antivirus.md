@@ -97,5 +97,5 @@ MAPS | Microsoft MAPS에 보고하기 위한 로컬 설정 오버라이드 구�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
 - [사용자와의 최종 사용자 상호 작용 Microsoft Defender 바이러스 백신](configure-end-user-interaction-microsoft-defender-antivirus.md)

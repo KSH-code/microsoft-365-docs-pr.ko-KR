@@ -61,33 +61,33 @@ ms.locfileid: "51933784"
 - **작업**- 프로세스 실행
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- powershell.exe, cmd.exe, regsvr32.exe
 - **공격 표면 감소 규칙**- ASR 규칙은 하위 프로세스가 "하위 프로세스"를 "mshta.exe. 이 컨트롤은 Exploit Protection 또는 응용 프로그램 제어의 Windows Defender 있습니다.
-- **기타 권장 기능**- 응용 Windows Defender 응용 프로그램 제어를 사용하도록 설정하여 응용 mshta.exe 모두 실행되지 않도록 합니다. 조직에서 업무용 앱에 "mshta.exe"를 요구하는 경우 조직에서 하위 Windows Defender 시작하지 못하도록 특정 Windows Defender Exploit Protection 규칙을 mshta.exe 구성합니다.
+- **기타 권장 기능**- 응용 Windows Defender 응용 프로그램 제어를 사용하도록 설정하여 응용 mshta.exe 실행되지 않도록 합니다. 조직에서 업무용 앱에 "mshta.exe" 요구하는 경우 조직에서 하위 Windows Defender 시작하지 못하도록 특정 Windows Defender Exploit Protection 규칙을 mshta.exe 구성합니다.
 
-### <a name="block-outlook-from-launching-child-processes"></a>Outlook에서 하위 프로세스 시작 차단
+### <a name="block-outlook-from-launching-child-processes"></a>하위 Outlook 시작하지 차단
 
-- **적용대상**- Outlook
+- **적용하는 Outlook**
 - **프로세스**- outlook.exe
 - **작업**- 프로세스 실행
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- powershell.exe
-- **공격 표면** 감소 규칙 - ASR 규칙에는 Office 통신 앱(Outlook, Skype 및 Teams)이 하위 프로세스를 시작하지 못하게 하는 기본 제공 규칙이 있습니다. "Office 통신 응용 프로그램이 하위 프로세스를 만들지 못하게 차단", GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
+- **공격** 표면 감소 규칙 - ASR 규칙에는 Office 통신 앱(Outlook, Skype 및 Teams)이 하위 프로세스를 시작하지 못하게 하는 기본 제공 규칙이 있습니다. "Office 통신 응용 프로그램이 자식 프로세스를 만들지 못하게 차단", GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
 - **기타 권장 기능**- PowerShell의 공격 표면을 최소화하기 위해 PowerShell 제한 언어 모드를 사용하도록 설정하는 것이 좋습니다.
 
 
-### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Office 앱이 하위 프로세스를 시작하고 실행 가능한 콘텐츠를 만들지 차단
+### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>앱의 Office 프로세스 시작 및 실행 가능 콘텐츠 만들기 차단
 
-- **적용대상**- Office  
+- **적용일**- Office  
 - **프로세스**- winword.exe, powerpnt.exe, excel.exe
 - **작업**- 프로세스 실행
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
-- **공격 표면** 감소 규칙 - ASR 규칙에는 Office 앱이 하위 프로세스를 시작하지 못하게 하는 기본 제공 규칙이 있습니다. "모든 Office 응용 프로그램이 하위 프로세스를 만들지 못하게 차단", GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A".
+- **공격** 표면 감소 규칙 - ASR 규칙에는 "모든 Office 응용 프로그램이 하위 프로세스를 만들지 못하게 차단", GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A" 등 Office 앱이 하위 프로세스를 시작하지 못하게 하는 기본 제공 규칙이 있습니다.
 - **기타 권장 기능**- N/A
     
-### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Office 앱이 하위 프로세스를 시작하고 실행 가능한 콘텐츠를 만들지 차단
+### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>앱의 Office 프로세스 시작 및 실행 가능 콘텐츠 만들기 차단
 
-- **적용대상**- Office
+- **적용일**- Office
 - **프로세스**- winword.exe, powerpnt.exe, excel.exe
 - **작업**- 파일 만들기
-- **파일/폴더, 레지스트리 키/값의 예, 프로세스,** 서비스 - C:\Users *\AppData **.exe, C:\ProgramData .exe,** C:\ProgramData**.com, C:\Users* AppData\Local\Temp **.com, C:\Users*\Downloads**.exe, C:\Users ***\AppData .scf, C:\ProgramData**.scf, C:\Users\Public*.exe, C:\Users*\Desktop***.exe
+- **파일/폴더, 레지스트리 키/값, 프로세스의 예,** 서비스 - C:\Users ***\AppData.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp **.com, C:\Users*\Downloads**.exe, C:\Users ***\AppData .scf, C:\ProgramData**.scf, C:\Users\Public*.exe, C:\Users*\Desktop***.exe
 - **공격 표면 감소 규칙**- N/A.
 
 ### <a name="block-wscript-from-reading-certain-types-of-files"></a>Wscript에서 특정 형식의 파일을 읽지 않습니다.
@@ -95,9 +95,9 @@ ms.locfileid: "51933784"
 - **적용대상**- Wscript
 - **프로세스**- wscript.exe
 - **작업**- 파일 읽기
-- **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- C:\Users *\AppData**.js, C:\Users*\Downloads**.js의 예
+- **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- C:\Users *\AppData**.js, C:\Users*\Downloads**.js
 - **공격 표면 감소 규칙**- 안정성 및 성능 문제로 인해 ASR 규칙에는 특정 프로세스가 특정 스크립트 파일 형식을 읽는 것을 방지할 수 있는 기능이 없습니다. 이러한 시나리오에서 시작될 수 있는 공격 벡터를 방지하는 규칙이 있습니다. 규칙 이름은 "JavaScript 또는 VBScript에서 다운로드된 실행 콘텐츠 시작을 차단"(GUID "D3E037E1-3EB8-44C8-A917-57927947596)입니다.D") 및 "잠재적으로 난치될 수 있는 스크립트의 실행 차단"(GUID " 5BEB7EFE-FD9A-4556-801D-275E5FFC04CC").
-- 다른 권장 기능 **-** 이러한 시나리오 내에서 특정 공격 벡터를 완화하는 특정 ASR 규칙이 있는 경우 AV가 AMSI(맬웨어 방지 검사 인터페이스)를 통해 실시간으로 스크립트(PowerShell, Windows 스크립트 호스트, JavaScript, VBScript 등)를 실시간으로 검사할 수 있습니다. 자세한 내용은 [AMSI(맬웨어](/windows/win32/amsi/antimalware-scan-interface-portal)방지 검사 인터페이스)에서 사용할 수 있습니다.
+- 다른 권장 기능 **-** 이러한 시나리오 내에서 특정 공격 벡터를 완화하는 특정 ASR 규칙이 있는 경우 AV가 AMSI(맬웨어 방지 검사 인터페이스)를 통해 실시간으로 스크립트(PowerShell, Windows Script Host, JavaScript, VBScript 등)를 실시간으로 검사할 수 있습니다. 자세한 내용은 [AMSI(맬웨어](/windows/win32/amsi/antimalware-scan-interface-portal)방지 검사 인터페이스)에서 사용할 수 있습니다.
 
 ### <a name="block-launch-of-child-processes"></a>하위 프로세스 시작 차단
 
@@ -114,8 +114,8 @@ ms.locfileid: "51933784"
 - **적용 사항**- CertUtil: 실행 파일을 다운로드 또는 만들기 차단 
 - **프로세스**- certutil.exe
 - **작업**- 파일 만들기
-- **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- *.exe의 예
-- **공격 표면 감소 규칙**- ASR 규칙은 Microsoft Defender 바이러스 백신 보호의 일부이기 때문에 이러한 시나리오를 지원하지 않습니다.
+- **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- *.exe
+- **공격 표면 감소 규칙**- ASR 규칙은 보안 보호의 일부이기 때문에 이러한 시나리오를 Microsoft Defender 바이러스 백신 않습니다.
 - **기타 권장 기능**- Microsoft Defender AV는 CertUtil이 실행 파일을 만들거나 다운로드하지 못하게 합니다.
 
 
@@ -125,7 +125,7 @@ ms.locfileid: "51933784"
 - **프로세스**- *
 - **작업**- 프로세스 종료
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- MsSense.exe, MsMpEng.exe, NisSrv.exe, svchost.exe*, services.exe, csrss.exe, smss.exe, wininit.exe 등입니다.
-- **공격 표면 감소 규칙**- ASR 규칙은 Windows 10 기본 제공 보안 보호로 보호되어 있기 때문에 이러한 시나리오를 지원하지 않습니다.
+- **공격 표면 감소 규칙**- ASR 규칙은 기본 제공 보안 보호 기능으로 보호되어 있기 때문에 이러한 Windows 10 지원하지 않습니다.
 - ELAM(맬웨어 방지 조기 실행), PPL(보호 프로세스 조명), PPL 맬웨어 방지 조명 및 System Guard와 같은 권장 기능도 있습니다.
 
 ### <a name="block-specific-launch-process-attempt"></a>특정 시작 프로세스 시도 차단
@@ -137,12 +137,12 @@ ms.locfileid: "51933784"
 - **공격 표면 감소 규칙**- 전체적으로 ASR 규칙은 응용 프로그램 관리자로 작동하도록 설계되지 않습니다.
 - **기타 권장 기능**- 사용자가 특정 프로세스 또는 프로그램을 시작하지 못하도록 방지하기 위해 응용 프로그램 제어를 Windows Defender 좋습니다. Microsoft Defender for Endpoint File and Cert indicators는 인시던트 대응 시나리오에서 사용할 수 있습니다(응용 프로그램 제어 메커니즘으로 표시하지 말아야 합니다).
     
-### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>Microsoft Defender 바이러스 백신 구성의 무단 변경 차단
+### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>구성에 대한 무단 Microsoft Defender 바이러스 백신 차단
 
 - **적용대상**- 모든 프로세스
 - **프로세스**- *
 - **작업**- 레지스트리 수정
-- **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware, HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\AllowRealTimeMonitoring 등입니다.
+- **파일/폴더, 레지스트리 키/값, 프로세스, 서비스 -** HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware, HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\AllowRealTimeMonitoring과 같은 예입니다.
 - **공격 표면 감소 규칙**- ASR 규칙은 끝점에 대한 Microsoft Defender 기본 제공 보호의 일부이기 때문에 이러한 시나리오를 다루지 않습니다.
 - 기타 권장 **기능인** 변조 방지(옵트인(opt in, Intune에서 관리)는 DisableAntiVirus, DisableAntiSpyware, DisableRealtimeMonitoring, DisableOnAccessProtection, DisableBehaviorMonitoring 및 DisableIOAVProtection 레지스트리 키에 대한 무단 변경을 방지합니다.
 

@@ -42,11 +42,11 @@ ms.locfileid: "51933844"
 
 **이벤트 뷰어를 열고 끝점용 Microsoft Defender 서비스 이벤트 로그를 찾습니다.**
 
-1. Windows **메뉴에서** 시작을 클릭하고 이벤트 **뷰어를 입력한** 다음 **Enter를 클릭합니다.**
+1. 시작 **메뉴에서** 시작을 Windows 이벤트 **뷰어를 입력하고** **Enter를 클릭합니다.**
 
-2. 로그 목록의 **로그** 요약에서 **Microsoft-Windows-SENSE/Operational이** 표시될 때까지 스크롤합니다. 항목을 두 번 클릭하여 로그를 니다.
+2. 로그 목록의 **로그** 요약에서 **Microsoft-Windows/Operational이 표시될 때까지 스크롤합니다.** 항목을 두 번 클릭하여 로그를 니다.
 
-   a.  응용 프로그램 및 서비스 로그   >  **Microsoft**  >  **Windows**  >  **SENSE를** 확장하고 작동을 클릭하여 로그에 액세스할 수도 **있습니다.**
+   a.  응용 프로그램 및 서비스 로그 Microsoft 센스를 확장하고 Windows 를 클릭하여 로그에  >    >    >   액세스할 **수도 있습니다.**
 
    > [!NOTE]
    > SENSE는 끝점용 Microsoft Defender의 전원을 공급하는 동작 센서를 참조하는 데 사용되는 내부 이름입니다.
@@ -59,7 +59,7 @@ ms.locfileid: "51933844"
 <th>이벤트 ID</th>
 <th>메시지</th>
 <th>설명</th>
-<th>작업</th>
+<th>조치</th>
 </tr>
 <tr>
 <td>1</td>
@@ -99,14 +99,14 @@ ms.locfileid: "51933844"
 <td>장치가 올바르게 온보드되지 않았고 포털에 보고되지 않습니다.</td>
 <td>서비스를 시작하기 전에 온보더링을 실행해야 합니다.<br>
 온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
 <td>7 </td>
 <td>Microsoft Defender for Endpoint Service에서 온보딩 매개 변수를 읽지 못했습니다. 실패: <code>variable</code> .</td>
 <td>변수 = 자세한 오류 설명입니다. 장치가 올바르게 온보드되지 않았고 포털에 보고되지 않습니다.</td>
 <td>온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
 <td>8 </td>
@@ -114,24 +114,24 @@ ms.locfileid: "51933844"
 <td><b>온보드 중:</b> 서비스가 온보더링하는 동안 구성을 정리하지 못했습니다. 온보더링 프로세스가 계속됩니다. <br><br> <b>오프보더 중:</b> 서비스가 오프보더하는 동안 구성을 정리하지 못했습니다. 오프보더 프로세스가 완료 했지만 서비스가 계속 실행됩니다.
  </td>
 <td><b>온보더링:</b> 필요한 작업은 없습니다. <br><br> <b>오프보더링:</b> 시스템을 다시 부트합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
 <td>9 </td>
 <td>끝점용 Microsoft Defender 서비스가 시작 유형을 변경하지 못했습니다. 오류 코드: <code>variable</code> .</td>
 <td><b>온보드 중:</b> 장치가 올바르게 온보드되지 않았고 포털에 보고되지 않습니다. <br><br><b>오프보더 중:</b> 서비스 시작 유형을 변경하지 못했습니다. 오프보더 프로세스가 계속됩니다. </td>
 <td>온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
 <td>10  </td>
 <td>Microsoft Defender for Endpoint Service에서 온보딩 정보를 유지하지 못했습니다. 오류 코드: <code>variable</code> .</td>
 <td>장치가 올바르게 온보드되지 않았고 포털에 보고되지 않습니다.</td>
 <td>온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
-<td>11 </td>
+<td>11</td>
 <td>Endpoint Service용 Defender의 온보딩 또는 다시 온보딩이 완료되었습니다.</td>
 <td>장치가 올바르게 온보드되었습니다.</td>
 <td>정상 작동 알림 필요한 작업이 없습니다.<br>
@@ -150,7 +150,7 @@ ms.locfileid: "51933844"
 <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
 <tr>
-<td>15 </td>
+<td>15</td>
 <td>끝점용 Microsoft Defender는 URL로 명령 채널을 시작할 수 없습니다. <code>variable</code> .</td>
 <td>변수 = 끝점 처리 서버용 Defender의 URL입니다.<br>
 서비스가 해당 URL의 외부 처리 서버에 연결하지 못했습니다.</td>
@@ -159,29 +159,29 @@ ms.locfileid: "51933844"
 <tr>
 <td>17 </td>
 <td>끝점용 Microsoft Defender 서비스가 연결된 사용자 환경 및 원격 분석 서비스 위치를 변경하지 못했습니다. 오류 코드: <code>variable</code> .</td>
-<td>Windows 원격 분석 서비스에 오류가 발생했습니다.</td>
+<td>원격 분석 서비스에 Windows 오류가 발생했습니다.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">진단 데이터 서비스가 사용하도록 설정되어 있는지 확인합니다.</a><br>
 온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
 <td>18 </td>
 <td>OOBE(Windows 시작)가 완료되었습니다.</td>
-<td>Windows 업데이트 설치가 완료된 후에만 서비스가 시작됩니다.</td>
+<td>서비스는 업데이트가 설치를 Windows 후에만 시작됩니다.</td>
 <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
 <tr>
 <td>19</td>
 <td>OOBE(Windows 시작)가 아직 완료되지 않았습니다.</td>
-<td>Windows 업데이트 설치가 완료된 후에만 서비스가 시작됩니다.</td>
+<td>서비스는 업데이트가 설치를 Windows 후에만 시작됩니다.</td>
 <td>정상 작동 알림 필요한 작업이 없습니다.<br>
-시스템을 다시 시작한 후에도 이 오류가 지속되면 모든 Windows 업데이트가 전체 설치가 되도록 합니다.</td>
+시스템을 다시 시작한 후에도 이 오류가 지속되면 모든 Windows 전체 업데이트가 설치되어 있는지 확인합니다.</td>
 </tr>
 <tr>
 <td>20</td>
-<td>OOBE(Windows 시작)가 완료될 때까지 기다릴 수 없습니다. 오류 코드: <code>variable</code> .</td>
+<td>OOBE(시작 시작)가 Windows 기다릴 수 없습니다. 오류 코드: <code>variable</code> .</td>
 <td>내부 오류입니다.</td>
-<td>시스템을 다시 시작한 후에도 이 오류가 지속되면 모든 Windows 업데이트가 전체 설치가 되도록 합니다.</td>
+<td>시스템을 다시 시작한 후에도 이 오류가 지속되면 모든 Windows 전체 업데이트가 설치되어 있는지 확인합니다.</td>
 </tr>
 <tr>
 <td>25</td>
@@ -189,7 +189,7 @@ ms.locfileid: "51933844"
 <td>장치가 올바르게 온보드되지 않았습니다.
 포털에 보고됩니다. 그러나 서비스가 SCCM 또는 레지스트리에 등록된 것으로 나타나지 않을 수 있습니다.</td>
 <td>온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
 <td>26</td>
@@ -197,23 +197,23 @@ ms.locfileid: "51933844"
 <td>장치가 올바르게 온보드되지 않았습니다.<br>
 포털에 보고됩니다. 그러나 서비스가 SCCM 또는 레지스트리에 등록된 것으로 나타나지 않을 수 있습니다.</td>
 <td>온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
 <td>27</td>
-<td>Microsoft Defender for Endpoint Service가 Microsoft Defender 바이러스 백신에서 SENSE 인식 모드를 사용하도록 설정하지 못했습니다. 온보더링 프로세스가 실패했습니다. 오류 코드: <code>variable</code> .</td>
-<td>일반적으로 다른 실시간 맬웨어 방지 제품이 장치에서 제대로 실행되고 장치가 Endpoint용 Defender에 보고하는 경우 Microsoft Defender 바이러스 백신은 특별한 수동 상태가 됩니다.</td>
+<td>Microsoft Defender for Endpoint Service에서 센스 인식 모드를 사용하도록 설정하지 Microsoft Defender 바이러스 백신. 온보더링 프로세스가 실패했습니다. 오류 코드: <code>variable</code> .</td>
+<td>일반적으로 Microsoft Defender 바이러스 백신 다른 실시간 맬웨어 방지 제품이 장치에서 제대로 실행되고 장치가 Endpoint용 Defender에 보고하는 경우 특별한 수동 상태가 됩니다.</td>
 <td>온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a><br>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a><br>
 실시간 맬웨어 방지 보호가 제대로 실행되고 있는지 확인합니다.</td>
 </tr>
 <tr>
 <td>28</td>
 <td>Endpoint용 Microsoft Defender 연결된 사용자 환경 및 원격 분석 서비스 등록에 실패했습니다. 오류 코드: <code>variable</code> .</td>
-<td>Windows 원격 분석 서비스에 오류가 발생했습니다.</td>
+<td>원격 분석 서비스에 Windows 오류가 발생했습니다.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">진단 데이터 서비스가 사용하도록 설정되어 있는지 확인합니다.</a><br>
 온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
 <td>29</td>
@@ -223,17 +223,17 @@ ms.locfileid: "51933844"
 </tr>
 <tr>
 <td>30</td>
-<td>Microsoft Defender for Endpoint Service가 Microsoft Defender 바이러스 백신에서 SENSE 인식 모드를 사용하지 않도록 설정하지 못했습니다. 오류 코드: <code>variable</code> .</td>
-<td>일반적으로 다른 실시간 맬웨어 방지 제품이 장치에서 제대로 실행되고 장치가 Endpoint용 Defender에 보고하는 경우 Microsoft Defender 바이러스 백신은 특별한 수동 상태가 됩니다.</td>
+<td>Microsoft Defender for Endpoint Service에서 센스 인식 모드를 사용하지 않도록 설정하지 Microsoft Defender 바이러스 백신. 오류 코드: <code>variable</code> .</td>
+<td>일반적으로 Microsoft Defender 바이러스 백신 다른 실시간 맬웨어 방지 제품이 장치에서 제대로 실행되고 장치가 Endpoint용 Defender에 보고하는 경우 특별한 수동 상태가 됩니다.</td>
 <td>온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드 참조</a><br>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보 Windows 10 참조</a><br>
 실시간 맬웨어 방지 보호가 제대로 실행되고 있는지 확인합니다.</td>
 </tr>
 <tr>
 <td>31</td>
 <td>Endpoint용 Microsoft Defender 연결된 사용자 환경 및 원격 분석 서비스 등록이 실패했습니다. 오류 코드: <code>variable</code> .</td>
-<td>온보더링하는 동안 Windows 원격 분석 서비스에 오류가 발생했습니다. 오프보더 프로세스가 계속됩니다.</td>
-<td>Windows 원격 분석 서비스 에서 <a href="troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled" data-raw-source="[Check for errors with the Windows telemetry service](troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled)">오류를 검사합니다.</a></td>
+<td>온보더링하는 동안 원격 분석 Windows 오류가 발생했습니다. 오프보더 프로세스가 계속됩니다.</td>
+<td><a href="troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled" data-raw-source="[Check for errors with the Windows telemetry service](troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled)">원격 분석 서비스 에서 Windows 검사합니다.</a></td>
 </tr>
 <tr>
 <td>32</td>
@@ -251,17 +251,17 @@ ms.locfileid: "51933844"
 <tr>
 <td>34</td>
 <td>끝점용 Microsoft Defender 서비스가 연결된 사용자 환경 및 원격 분석 서비스에 대한 종속성으로 추가하지 못하여 온보딩 프로세스가 실패했습니다. 오류 코드: <code>variable</code> .</td>
-<td>Windows 원격 분석 서비스에 오류가 발생했습니다.</td>
+<td>원격 분석 서비스에 Windows 오류가 발생했습니다.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">진단 데이터 서비스가 사용하도록 설정되어 있는지 확인합니다.</a><br>
 온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다.<br>
-<a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 장치 온보드를 참조합니다.</a></td>
+장치 <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">온보드 Windows 10 참조.</a></td>
 </tr>
 <tr>
 <td>35</td>
 <td>Microsoft Defender for Endpoint Service가 연결된 사용자 환경 및 원격 분석 서비스에 대한 종속성으로 자체적으로 제거하지 못했습니다. 오류 코드: <code>variable</code> .</td>
-<td>오프보더 중 Windows 원격 분석 서비스에 오류가 발생했습니다. 오프보더 프로세스가 계속됩니다.
+<td>오프보더 중 원격 분석 Windows 오류가 발생했습니다. 오프보더 프로세스가 계속됩니다.
 </td>
-<td>Windows 진단 데이터 서비스에서 오류를 검사합니다.</td>
+<td>진단 데이터 서비스에서 Windows 검사합니다.</td>
 </tr>
 <tr>
 <td>36</td>
@@ -412,7 +412,7 @@ ms.locfileid: "51933844"
    <td>62</td>
    <td>연결된 사용자 환경 및 원격 분석 서비스를 시작하지 못했습니다. 오류 코드: %1</td>
    <td>연결된 사용자 환경 및 원격 분석(diagtrack) 서비스를 시작하지 못했습니다. 끝점 원격 분석용 Microsoft Defender가 아닌 다른 원격 분석은 이 컴퓨터로부터 전송되지 않습니다.</td>
-   <td>이벤트 로그에서 Microsoft-Windows-UniversalTelemetryClient/Operational 문제 해결 힌트를 찾아 봐야 합니다.</td>
+   <td>이벤트 로그에서 Microsoft-Windows-UniversalTelemetryClient/Operational의 문제 해결 힌트를 찾아 봐야 합니다.</td>
 </tr>
 <tr>
    <td>63</td>
@@ -494,7 +494,7 @@ ms.locfileid: "51933844"
 </tr>
 <tr>
    <td>84</td>
-   <td>바이러스 Windows Defender 모드로 설정 수동 모드 강제: %1, 결과 코드: %2.</td>
+   <td>실행 Windows Defender 바이러스 백신 설정 수동 모드 강제: %1, 결과 코드: %2.</td>
    <td>Defender 실행 모드(활성 또는 수동)를 설정합니다.</td>
    <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
@@ -613,5 +613,5 @@ ms.locfileid: "51933844"
 
 ## <a name="related-topics"></a>관련 항목
 - [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
-- [장치 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
+- [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
 - [엔드포인트용 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

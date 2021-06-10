@@ -1,6 +1,6 @@
 ---
 title: Microsoft 보안 점수의 새로운
-description: Microsoft 365 보안 센터에서 Microsoft 보안 점수에 대한 새로운 변경 내용에 대해 설명
+description: 보안 센터에서 Microsoft 보안 점수에 대한 새로운 변경 Microsoft 365 설명
 keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -34,19 +34,19 @@ ms.locfileid: "51933868"
 
 Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경 사항을 적용해 두었다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 [점수의 출시 예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
 
-Microsoft 보안 점수는 https://security.microsoft.com/securescore Microsoft [365 보안 센터에서 찾을 수 있습니다.](overview-security-center.md)
+Microsoft 보안 점수는 보안 센터의 Microsoft 365 https://security.microsoft.com/securescore [있습니다.](overview-security-center.md)
     
 ## <a name="february-2021"></a>2021년 2월
 
-### <a name="compatibility-with-graph-api"></a>Graph API와의 호환성
+### <a name="compatibility-with-graph-api"></a>API와 Graph 호환성
 
-Graph API를 통해 전달된 Microsoft 보안 점수 권장 사항은 현재 Microsoft 365 보안 센터에 있는 권장 사항과 동일하게 표시 및 가중치가 주어지게 됩니다.
+Graph API를 통해 전달되는 Microsoft 보안 점수 권장 사항은 현재 보안 센터의 권장 사항과 Microsoft 365 가중치가 있습니다.
 
 ## <a name="january-2021"></a>2021년 1월
 
-### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>Microsoft Teams에 대한 첫 번째 보안 권장이 추가되었습니다.
+### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>보안에 대한 첫 번째 보안 권장 Microsoft Teams
 
-Microsoft Teams 고객은 보안 점수의 새로운 개선 작업으로 "익명 사용자가 모임에 참가하지 못하도록 제한"을 볼 수 있습니다.
+Microsoft Teams 고객에게 보안 점수의 새로운 개선 작업으로 "익명 사용자의 모임 참가 제한"이 표시될 수 있습니다.
 
 ## <a name="december-2020"></a>2020년 12월
 
@@ -67,7 +67,7 @@ Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓
 
 ### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 세 가지 서비스 관련 개선 작업이 추가되었습니다.
 
-- Windows 서비스에 대한 인용되지 않은 서비스 경로 수정
+- 서비스에서 인용되지 않은 서비스 Windows 수정
 - 서비스 실행 경로를 일반적인 보호된 위치로 변경
 - Windows 레지스트리에서 캐시된 암호를 방지하는 서비스 계정 변경
 
@@ -75,11 +75,11 @@ Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓
 
 ### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 관련된 개선 작업 제거
 
-- 경고를 표시하기 위해 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 확인 설정
+- 경고 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 확인 설정
 
 ## <a name="august-2020"></a>2020년 8월
 
-### <a name="updated-improvement-action-for-azure-active-directory"></a>Azure Active Directory에 대한 개선 작업 업데이트
+### <a name="updated-improvement-action-for-azure-active-directory"></a>업데이트된 업데이트된 Azure Active Directory
 
 - 정책을 사용하여 레거시 인증 차단
 
@@ -91,7 +91,7 @@ Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 
 
 ## <a name="updated-improvement-actions"></a>개선 작업 업데이트
 
-- Azure Active Directory 개선 작업 추가
+- 개선 Azure Active Directory 추가되었습니다.
 - ID 개선 작업에 대한 Microsoft Defender 추가
 - Endpoint Threat 및 & 관리 보안 권장 사항에 대한 Microsoft [Defender](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) 지원
     - 이제 TVM에서 제공하는 모든 릴리스된 보안 권장 사항을 사용할 수 있습니다.

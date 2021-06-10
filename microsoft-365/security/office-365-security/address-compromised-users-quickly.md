@@ -12,7 +12,7 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
-description: Microsoft Defender for Office 365 계획 2에서 자동화된 조사 및 응답 기능을 통해 손상된 사용자 계정을 검색하고 처리하는 프로세스를 빠르게 진행하는 방법을 학습합니다.
+description: Microsoft Defender for Office 365 계획에서 자동화된 조사 및 응답 기능을 통해 손상된 사용자 계정을 검색하고 처리하는 프로세스를 Office 365 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: c500221a10c00cc3b8d9d99c102ce8ec54fa2a48
@@ -32,7 +32,7 @@ ms.locfileid: "51934696"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-[Microsoft Defender for Office 365 계획 2에는](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 강력한 자동화된 조사 및 대응(AIR) 기능이 포함되어 있습니다. [](office-365-air.md) 이러한 기능을 통해 보안 운영 팀이 위협을 처리하기 위한 시간과 노력을 많이 절약할 수 있습니다. Microsoft는 계속해서 보안 기능을 개선하고 있습니다. 최근에는 손상된 사용자 보안 플레이북(현재 미리 보기에서)을 포함하도록 AIR 기능이 향상했습니다. 손상된 사용자 보안 플레이북에 대한 자세한 내용은 이 문서를 읽어 하세요. 추가 세부 정보는 Microsoft [Defender for Office 365를](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) 통해 사용자 손상을 감지하고 대응하고 위반 범위를 제한하는 시간 향상 블로그 게시물을 참조하세요.
+[Microsoft Defender for Office 365 Plan 2에는](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 강력한 자동화된 조사 및 대응(AIR) 기능이 포함되어 있습니다. [](office-365-air.md) 이러한 기능을 통해 보안 운영 팀이 위협을 처리하기 위한 시간과 노력을 많이 절약할 수 있습니다. Microsoft는 계속해서 보안 기능을 개선하고 있습니다. 최근에는 손상된 사용자 보안 플레이북(현재 미리 보기에서)을 포함하도록 AIR 기능이 향상했습니다. 손상된 사용자 보안 플레이북에 대한 자세한 내용은 이 문서를 읽어 하세요. 추가 세부 정보는 Microsoft [Defender를](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) 통해 사용자 손상을 감지하고 대응하고 위반 범위를 제한하는 시간 Office 365 블로그 게시물을 참조하세요.
 
 ![손상된 사용자에 대한 자동화된 조사](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
@@ -46,7 +46,7 @@ ms.locfileid: "51934696"
 
 ## <a name="compromised-user-alerts"></a>손상된 사용자 경고
 
-사용자 계정이 손상되면 이상하거나 이상한 동작이 발생합니다. 예를 들어 피싱 및 스팸 메시지는 신뢰할 수 있는 사용자 계정에서 내부적으로 전송될 수 있습니다. Office 365용 Defender는 Office 365 내의 전자 메일 패턴 및 공동 작업 활동에서 이러한 변호를 감지할 수 있습니다. 이 경우 경고가 트리거되면 위협 완화 프로세스가 시작됩니다.
+사용자 계정이 손상되면 이상하거나 이상한 동작이 발생합니다. 예를 들어 피싱 및 스팸 메시지는 신뢰할 수 있는 사용자 계정에서 내부적으로 전송될 수 있습니다. 전자 메일 Office 365 전자 메일 패턴 및 공동 작업 활동에서 이러한 이상을 감지할 수 Office 365. 이 경우 경고가 트리거되면 위협 완화 프로세스가 시작됩니다.
 
 예를 들어 다음은 의심스러운 전자 메일을 보내기 때문에 트리거된 경고입니다.
 
@@ -81,7 +81,7 @@ ms.locfileid: "51934696"
 
    그러면 제한된 사용자 목록이 열립니다.
 
-   ![Office 365의 제한된 사용자](/microsoft-365/media/office365atp-restrictedusers.jpg)
+   ![사용자의 제한된 Office 365](/microsoft-365/media/office365atp-restrictedusers.jpg)
 
 4. 목록에서 사용자 계정을 선택하여 세부 정보를 보고 제한된 사용자 를 공개하는 등의 작업을 [실행합니다.](removing-user-from-restricted-users-portal-after-spam.md)
 
@@ -103,8 +103,8 @@ ms.locfileid: "51934696"
 
 - [AIR 기능을 사용하는 데 필요한 사용 권한 검토](office-365-air.md#required-permissions-to-use-air-capabilities)
 
-- [Office 365에서 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
+- [전자 메일에서 악성 전자 메일을 찾아 Office 365](investigate-malicious-email-that-was-delivered.md)
 
 - [끝점용 Microsoft Defender의 AIR에 대해 자세히 알아보기](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
-- [Microsoft 365 로드맵을 방문하여 출시 예정 및 출시 예정 보기](https://www.microsoft.com/microsoft-365/roadmap?filters=)
+- [Microsoft 365 로드맵을 방문하여 곧 출시될 예정인 것을 볼 수 있습니다.](https://www.microsoft.com/microsoft-365/roadmap?filters=)

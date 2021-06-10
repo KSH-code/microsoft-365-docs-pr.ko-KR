@@ -1,6 +1,6 @@
 ---
-title: MacOS 디바이스에서 Endpoint용 Microsoft Defender를 Jamf Pro에 등록
-description: MacOS 디바이스에서 Endpoint용 Microsoft Defender를 Jamf Pro에 등록
+title: MacOS 장치에서 Endpoint용 Microsoft Defender를 Jamf 2013에 Pro
+description: MacOS 장치에서 Endpoint용 Microsoft Defender를 Jamf 2013에 Pro
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -25,7 +25,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933100"
 ---
-# <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>MacOS 디바이스에서 Endpoint용 Microsoft Defender를 Jamf Pro에 등록 
+# <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>MacOS 장치에서 Endpoint용 Microsoft Defender를 Jamf 2013에 Pro 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -80,7 +80,7 @@ JamF에 등록하는 방법에는 여러 가지가 있습니다.
 
 ## <a name="enrollment-method-2-prestage-enrollments"></a>등록 방법 2: 사전 등록
 
-1. Jamf Pro 대시보드에서 사전 **등록으로 이동합니다.**
+1. Jamf Pro 대시보드에서 **사전 등록으로 이동합니다.**
 
     ![구성 설정의 이미지9](images/6fd0cb2bbb0e60a623829c91fd0826ab.png)
 
@@ -102,11 +102,11 @@ JamF에 등록하는 방법에는 여러 가지가 있습니다.
 
 4. **계속을** 선택하여 MDM 프로필 설치를 진행합니다. 
 
-    ![Jamf Pro 등록의 이미지4](images/jamfpro-install-mdm.png)
+    ![Jamf Pro 등록의 이미지](images/jamfpro-install-mdm.png)
 
 5. **계속을** 선택하여 MDM 프로필을 설치합니다.
 
-    ![Jamf Pro 등록의 이미지5](images/jamfpro-mdm-unverified.png)
+    ![Jamf Pro 등록5의 이미지](images/jamfpro-mdm-unverified.png)
 
 6. **계속을** 선택하여 구성을 완료합니다. 
 

@@ -1,7 +1,7 @@
 ---
 title: 보안 권장 사항에 대한 예외 만들기 및 보기 - 위협 및 취약성 관리
-description: 위협 및 취약성 관리에서 보안 권장 사항에 대한 예외를 만들고 모니터링합니다.
-keywords: Microsoft Defender for Endpoint tvmmediation, Microsoft Defender for Endpoint tvm, threat and vulnerability management, threat & vulnerability management, threat & vulnerability management remediation, tvm remediation intune, tvm remediation sccm
+description: 보안 권장 사항에 대한 예외를 만들고 모니터링하는 위협 및 취약성 관리.
+keywords: Microsoft Defender for Endpoint tvmmediation, Microsoft Defender for Endpoint tvm, 위협 및 취약성 관리, threat & 취약성 관리, threat & 취약성 관리 remediation, tvm remediation intune, tvm remediation sccm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -32,7 +32,7 @@ ms.locfileid: "51933748"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -62,9 +62,9 @@ ms.locfileid: "51933748"
 
 #### <a name="filtered-views"></a>필터링된 보기
 
-위협 및 취약성 관리 페이지에서 장치 그룹으로 필터링한 경우 필터링된 장치 그룹만 옵션으로 표시됩니다.
+모든 위협 및 취약성 관리 그룹에서 장치 그룹으로 필터링한 경우 필터링된 장치 그룹만 옵션으로 표시됩니다.
 
-이 단추는 위협 및 취약성 관리 페이지에서 장치 그룹으로 필터링하는 단추입니다. 
+이 단추는 모든 장치 페이지에서 장치 그룹으로 필터링하는 위협 및 취약성 관리 있습니다. 
 
 ![선택한 장치 그룹 필터 표시](images/tvm-selected-device-groups.png)
 
@@ -128,7 +128,7 @@ ms.locfileid: "51933748"
 
 ## <a name="view-impact-after-exceptions-are-applied"></a>예외가 적용된 후의 영향 보기
 
-보안 권장 사항 페이지에서  열 사용자 지정을 선택하고 노출된 장치(예외 후) 및 영향(예외 **후)** 확인란을 **선택합니다.**
+보안 권장 사항 페이지에서 열 사용자  지정을 선택하고 노출된 장치(예외 후) 및 영향(예외 **후)** 확인란을 **선택합니다.**
 
 ![사용자 지정 열 옵션을 보여 주며,](images/tvm-after-exceptions.png)
 

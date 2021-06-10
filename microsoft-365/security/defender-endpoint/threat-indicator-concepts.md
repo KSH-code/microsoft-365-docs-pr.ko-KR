@@ -64,14 +64,14 @@ IOC는 경고 정의에 해당하는 여러 IOC가 될 수 있는 경고 정의�
 항목 | 설명
 :---|:---
 [SIEM 도구로 검색 끌어오기](configure-siem.md)| 검색을 끌어오는 다양한 방법에 대해 자세히 알아보습니다.
-[끝점용 Microsoft Defender에서 SIEM 통합 사용](enable-siem-integration.md)| 지원되는 SIEM 도구를 구성하는  데 필요한 정보를 사용하고 생성할 수 있도록 포털의 설정 페이지에서 SIEM 통합 기능을 사용하도록 설정하는 방법을 알아보십시오.
+[끝점용 Microsoft Defender에서 SIEM 통합 사용](enable-siem-integration.md)| 지원되는 SIEM 도구를 구성하는 **데** 필요한 정보를 사용하고 생성할 수 있도록 포털의 설정 페이지에서 SIEM 통합 기능을 사용하도록 설정하는 방법을 알아보십시오.
 [끝점 검색을 위해 Microsoft Defender를 끌어오도록 Splunk 구성](configure-siem.md)| Splunk가 끝점 감지를 위해 Microsoft Defender를 끌어오기 위해 REST API 모듈식 입력 앱 및 기타 구성 설정을 설치하는 방법을 알아보습니다.
 [끝점 감지를 위해 Microsoft Defender를 끌어오도록 HP ArcSight 구성](configure-arcsight.md)| 끝점 검색을 위해 Microsoft Defender를 끌어오도록 ArcSight를 구성하는 데 필요한 파일 및 HP ArcSight REST FlexConnector 패키지를 설치하는 방법을 자세히 알아보습니다.
-[끝점 검색 필드용 Microsoft Defender](api-portal-mapping.md) | 경고 API의 일부로 노출되는 데이터 필드와 이러한 필드가 Microsoft Defender 보안 센터에 매핑되는 방법을 이해합니다.
+[끝점 검색 필드용 Microsoft Defender](api-portal-mapping.md) | 경고 API의 일부로 노출되는 데이터 필드와 이러한 필드가 경고 API에 매핑되는 방법을 Microsoft Defender 보안 센터.
 [REST API를 사용하여 끝점 검색을 위한 Microsoft Defender 끌어오기](pull-alerts-using-rest-api.md) | 클라이언트 자격 증명 OAuth 2.0 흐름을 사용하여 REST API를 사용하여 끝점용 Microsoft Defender에서 검색을 끌어오는 방법을 사용할 수 있습니다.
 [SIEM 도구 통합 문제 해결](troubleshoot-siem.md) | SIEM 통합 기능을 사용할 때 발생할 수 있는 문제를 해결합니다.
 
 
 
 ## <a name="related-topics"></a>관련 항목
-- [표시기 관리](manage-indicators.md)
+- [지표 관리](manage-indicators.md)

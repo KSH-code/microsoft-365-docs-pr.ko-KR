@@ -1,5 +1,5 @@
 ---
-title: 위협 및 취약성 관리의 이벤트 타임라인
+title: 이벤트 타임라인의 위협 및 취약성 관리
 description: 이벤트 타임라인은 조직에 위험이 도입되는 방식과 위험을 줄이기 위해 어떤 완화가 발생 하는지 해석하는 데 도움이 되는 위험 뉴스 피드입니다.
 keywords: 이벤트 타임라인, Endpoint 이벤트 타임라인용 Microsoft Defender, Endpoint tvm 이벤트 타임라인용 Microsoft Defender, 위협 및 취약성 관리, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
@@ -45,7 +45,7 @@ ms.locfileid: "51933484"
 
 ## <a name="navigate-to-the-event-timeline-page"></a>이벤트 타임라인 페이지로 이동합니다.
 
-위협 및 취약성 관리 대시보드의 3가지 [진입점도 있습니다.](tvm-dashboard-insights.md)
+또한 대시보드의 3가지 [진입점도 위협 및 취약성 관리 있습니다.](tvm-dashboard-insights.md)
 
 - **조직 노출 점수 카드:**"시간의에 따라 노출 점수" 그래프에서 이벤트 점 위에 마우스를 대고 "이 날의 모든 이벤트 보기"를 선택합니다. 이벤트는 소프트웨어 취약성을 나타 내는 이벤트입니다.
 - **Microsoft Secure Score for Devices:**"Your score for devices over time" graph에서 이벤트 점 위에 마우스를 대고 "이 날의 모든 이벤트 보기"를 선택합니다. 이벤트는 새 구성 평가를 나타내는 이벤트입니다.
@@ -53,7 +53,7 @@ ms.locfileid: "51933484"
 
 ### <a name="exposure-score-and-microsoft-secure-score-for-devices-graphs"></a>노출 점수 및 장치용 Microsoft 보안 점수 그래프
 
-위협 및 취약성 관리 대시보드에서 노출 점수 그래프 위로 마우스를여 해당 날부터 장치에 영향을 미치는 상위 소프트웨어 취약성 이벤트를 들을 수 있습니다. Microsoft Secure Score for Devices 그래프를 마우스로 마우스로 여서 점수에 영향을 주는 새로운 보안 구성 평가를 시청합니다.
+위협 및 취약성 관리 대시보드에서 노출 점수 그래프 위로 마우스를여 장치에 영향을 미치게 된 해당 날의 상위 소프트웨어 취약성 이벤트를 들을 수 있습니다. Microsoft Secure Score for Devices 그래프를 마우스로 마우스로 여서 점수에 영향을 주는 새로운 보안 구성 평가를 시청합니다.
 
 디바이스 또는 장치의 점수에 영향을 주는 이벤트가 없는 경우 아무 이벤트도 표시되지 않습니다.
 

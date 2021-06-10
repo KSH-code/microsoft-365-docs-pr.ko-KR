@@ -1,7 +1,7 @@
 ---
 title: MSSP(관리되는 보안 서비스 공급자) 액세스 제공
-description: Microsoft Defender 보안 센터에서 Microsoft 365 보안 센터로의 변경 내용에 대해 자세히 알아보기
-keywords: Microsoft 365 보안 센터, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender, MDO, MDE, 단일 창, 수렴 포털, 보안 포털, Defender 보안 포털 시작
+description: 보안 센터에서 Microsoft Defender 보안 센터 변경된 Microsoft 365 정보
+keywords: Microsoft 365 보안 센터, microsoft Defender for Office 365, Endpoint용 Microsoft Defender, MDO, MDE, 단일 창, 수렴형 포털, 보안 포털, Defender 보안 포털
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -38,26 +38,26 @@ ms.locfileid: "51935356"
 
 다중 테넌트 위임 액세스 솔루션을 구현하기 위해 다음 단계를 수행합니다.
 
-1. Microsoft [](/windows/security/threat-protection/microsoft-defender-atp/rbac) 365 보안 센터의 Endpoint용 Defender에서 역할 기반 액세스 제어를 사용하도록 설정하고 Azure AD(Azure Active Directory) 그룹에 연결합니다.
+1. Microsoft 365 [](/windows/security/threat-protection/microsoft-defender-atp/rbac) 센터의 Endpoint용 Defender에서 역할 기반 액세스 제어를 사용하도록 설정하고 Azure Active Directory(Azure AD) 그룹에 연결합니다.
 
 2. 액세스 [요청 및 프로비저닝을 위해](/azure/active-directory/governance/identity-governance-overview) 거버넌스 액세스 패키지를 구성합니다.
 
 3. Microsoft Myaccess에서 액세스 요청 및 [감사를 관리합니다.](/azure/active-directory/governance/entitlement-management-request-approve)
 
-## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint-in-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 끝점에 대한 Microsoft Defender에서 역할 기반 액세스 제어 사용
+## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint-in-microsoft-365-security-center"></a>보안 센터에서 끝점에 대해 Microsoft Defender에서 역할 기반 액세스 Microsoft 365 사용
 
 1. **고객 AAD에서 MSSP 리소스에 대한 액세스 그룹 만들기: 그룹**
 
-    이러한 그룹은 Microsoft 365 보안 센터의 Endpoint용 Defender에서 만든 역할에 연결됩니다. 이렇게 하여 고객 AD 테넌트에서 세 개의 그룹을 만드면 됩니다. 이 예제에서는 다음 그룹을 생성합니다.
+    이러한 그룹은 보안 센터의 Endpoint용 Defender에서 만든 역할에 Microsoft 365 연결됩니다. 이렇게 하여 고객 AD 테넌트에서 세 개의 그룹을 만드면 됩니다. 이 예제에서는 다음 그룹을 생성합니다.
 
     - 계층 1 분석가 
     - 계층 2 분석가 
     - MSSP 분석가 승인자  
 
 
-2. Microsoft 365 보안 센터 역할 및 그룹의 Endpoint용 Customer Defender에서 적절한 액세스 수준에 대한 끝점 역할에 대한 Defender를 만들 수 있습니다.
+2. 보안 센터 역할 및 그룹의 끝점용 Customer Defender에서 적절한 액세스 수준에 Microsoft 365 끝점 역할에 대한 Defender를 만들 수 있습니다.
 
-    고객 Microsoft 365 보안 센터에서 RBAC를 사용하도록 설정하려면 사용 권한 > **끝점** 역할 & 그룹 > 전역 관리자 또는 보안 관리자 권한이 있는 사용자 계정으로 역할에 액세스합니다.
+    고객 Microsoft 365 보안 센터에서 RBAC를 사용하도록 설정하려면 사용 권한 > **끝점** 역할 & > 전역 관리자 또는 보안 관리자 권한이 있는 사용자 계정을 사용하여 역할 그룹에 액세스합니다.
 
     ![MSSP 액세스 이미지](../../media/mssp-access.png)
 
@@ -130,9 +130,9 @@ ms.locfileid: "51935356"
     예:  `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`   
 2. UI의 승인 섹션에서  요청을 승인하거나 거부합니다.
 
-     이때 분석가 액세스가 프로비전되고 각 분석가가 고객의 Microsoft 365 보안 센터에 액세스할 수 있습니다. 
+     이 시점에서 분석가 액세스가 프로비전되고 각 분석가가 고객의 Microsoft 365 액세스할 수 있습니다. 
 
     `https://security.microsoft.com/?tid=<CustomerTenantId>` 할당된 사용 권한 및 역할과 함께 사용할 수 있습니다.
 
 > [!IMPORTANT]
-> Microsoft 365 보안 센터에서 끝점용 Microsoft Defender에 대한 위임된 액세스를 통해 현재 브라우저 창당 하나의 테넌트에 액세스할 수 있습니다.
+> Microsoft 365 보안 센터에서 끝점용 Microsoft Defender에 대한 위임된 액세스는 현재 브라우저 창당 하나의 테넌트에 대한 액세스를 허용합니다.

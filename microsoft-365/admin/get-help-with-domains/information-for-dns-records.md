@@ -100,6 +100,6 @@ ms.locfileid: "52635729"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인](../setup/domains-faq.yml) FAQ(문서)\
-[도메인 또는 DNS 레코드를 추가한 후](find-and-fix-issues.md) 문제 찾기 및 해결(문서)\
+[도메인 FAQ](../setup/domains-faq.yml)(문서)\
+[도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)\
 [도메인 관리](index.yml)(링크 페이지)

@@ -47,9 +47,9 @@ ms.locfileid: "51935332"
 
 ## <a name="download-installation-and-onboarding-packages"></a>설치 및 온보더링 패키지 다운로드
 
-Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운로드합니다.
+다음 사이트에서 설치 및 온보더링 패키지를 Microsoft Defender 보안 센터.
 
-1. Microsoft Defender 보안 센터에서 설정 > 장치 관리 > **로 이동합니다.**
+1. 다음 Microsoft Defender 보안 센터 **온보드 설정 > 장치** 관리 > 로 이동하세요.
 2. 페이지의 섹션 1에서 운영 체제를 **macOS로** 설정하고 배포 방법을 **로컬 스크립트로 설정합니다.**
 3. 페이지의 섹션 2에서 설치 패키지 **다운로드를 선택합니다.** 로컬 디렉터리에 wdav.pkg로 저장합니다.
 4. 페이지의 섹션 2에서 **온보더링 패키지 다운로드를 선택합니다.** 동일한 디렉터리에 WindowsDefenderATPOnboardingPackage.zip 저장합니다.
@@ -107,11 +107,11 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 5. Mac의 끝점용 Microsoft Defender와 함께 배포된 모든 시스템 확장에 대해 & 4단계를 반복합니다.
 
-6. 끝점 감지 및 응답 기능의 일부로 Mac의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 네트워크 트래픽을 필터링할 수 있는 끝점에 대한 Microsoft Defender 사용 권한을 부여하라는 메시지가 표시될 때 허용을 **선택합니다.**
+6. 끝점 검색 및 응답 기능의 일부로 Mac의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 네트워크 트래픽을 필터링할 수 있는 끝점에 대한 Microsoft Defender 사용 권한을 부여하라는 메시지가 표시될 때 허용을 **선택합니다.**
 
     ![시스템 확장 보안 기본 설정2](images/big-sur-install-4.png)
 
-7. 시스템 **기본 설정** 보안 & 개인 정보 보호 탭으로  >   이동합니다. Microsoft Defender ATP 및 **Microsoft Defender ATP**  끝점 보안 확장에 모든 디스크 액세스 권한을 **부여합니다.** 
+7. 시스템 **기본 설정** 보안 & 개인 정보 보호를 열고 개인 정보 탭으로 이동합니다. 끝점 보안 확장에 대한 모든 Microsoft Defender ATP Microsoft Defender ATP 권한을  >   **부여합니다.**   
 
     ![전체 디스크 액세스](images/big-sur-install-5.png)
 
@@ -170,11 +170,11 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
         mdatp threat list
         ```
 
-3. EDR 검색 테스트를 실행하여 장치가 제대로 온보드되었는지 확인하고 서비스에 보고합니다. 새로 온보드된 디바이스에서 다음 단계를 수행합니다.
+3. EDR 검색 테스트를 실행하여 장치가 제대로 온보드되어 서비스에 보고되었는지 확인합니다. 새로 온보드된 디바이스에서 다음 단계를 수행합니다.
 
-   1. Mac용 Microsoft Edge 또는 Safari와 같은 브라우저에서.
+   1. In your browser such as Microsoft Edge for Mac or Safari.
 
-   1. MDATP MacOS 다운로드 DIY.zip https://aka.ms/mdatpmacosdiy 추출합니다.
+   1. MacOS MDATP 다운로드 DIY.zip https://aka.ms/mdatpmacosdiy 추출합니다.
 
       다음 메시지가 표시될 수 있습니다.
 
@@ -185,22 +185,22 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 5. 다운로드 **열기.**
 
-6. **MDATP MacOS DIY가 표시 됩니다.**
+6. MacOS **DIY가 MDATP 있습니다.**
 
    > [!TIP]
    > 두 번 클릭하면 다음 메시지가 표시됩니다.
    > 
-   > > **개발자가 검증자일 수 없는 "MDATP MacOS DIY"를 열 수 없습니다.**<br/>
+   > > **개발자가 MDATP 수 없는 "MacOS DIY"를 열 수 없습니다.**<br/>
    > > macOS는 이 앱이 맬웨어에서 무료인지 확인할 수 없습니다.<br/>
    > > **\[ 휴지통 \] 취소로** **\[ 이동 \]** 
   
 7. 따라서 **취소** 를 클릭합니다.
 
-8. **MDATP MacOS DIY를 마우스** 오른쪽 단추로 클릭한 다음 **열기 를 클릭합니다.** 
+8. **MacOS DIY를 MDATP 마우스** 오른쪽 단추로 클릭한 다음 **열기 를 클릭합니다.** 
 
     시스템에 다음 메시지가 표시됩니다.
 
-    > **macOS는 **MDATP MacOS DIY의 개발자를 확인할 수 없습니다.** 열려고 하나요?**<br/>
+    > **macOS는 **MacOS DIY의 개발자를 MDATP 수 없습니다.** 열려고 하나요?**<br/>
     > 이 앱을 열면 컴퓨터 및 개인 정보를 Mac에 손상을 주거나 개인 정보를 손상시킬 수 있는 맬웨어에 노출될 수 있는 시스템 보안을 다시 정합니다.
 
 10. **열기** 를 클릭합니다. 
@@ -208,17 +208,17 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
     시스템에 다음 메시지가 표시됩니다.
 
     > 끝점용 Microsoft Defender - macOS EDR DIY 테스트 파일<br/>
-    > 해당 경고는 MDATP 포털에서 사용할 수 있습니다.
+    > 해당 알림은 사이트 포털에서 MDATP 있습니다.
 
 11. **열기** 를 클릭합니다. 
 
-    몇 분 후에 "macOS EDR 테스트 경고"라는 경고가 발생해야 합니다.
+    몇 분 후에 "macOS EDR 경고"라는 경고가 발생해야 합니다.
 
-12. Microsoft Defender 보안 센터(로 https://SecurityCenter.microsoft.com) 이동).
+12. 다음으로 https://SecurityCenter.microsoft.com) Microsoft Defender 보안 센터( .
 
 13. 경고 큐로 이동합니다.
 
-    :::image type="content" source="images/b8db76c2-c368-49ad-970f-dcb87534d9be.png" alt-text="심각도, 범주, 검색 원본 및 축소된 작업 메뉴를 표시하는 macOS EDR 테스트 경고의 예입니다.":::
+    :::image type="content" source="images/b8db76c2-c368-49ad-970f-dcb87534d9be.png" alt-text="심각도, EDR, 검색 원본 및 축소된 작업 메뉴를 표시하는 macOS 테스트 경고의 예입니다.":::
     
     경고 세부 정보 및 장치 타임라인을 보고 정기적인 조사 단계를 수행합니다.
 

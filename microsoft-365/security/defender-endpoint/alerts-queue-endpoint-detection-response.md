@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender 보안 센터의 경고 큐
+title: 알림 큐의 Microsoft Defender 보안 센터
 ms.reviewer: ''
-description: Microsoft Defender 보안 센터에 표시된 경고 보기 및 관리
+description: 알림에 표시되어 있는 경고를 보고 Microsoft Defender 보안 센터
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -25,7 +25,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51075439"
 ---
-# <a name="alerts-queue-in-microsoft-defender-security-center"></a>Microsoft Defender 보안 센터의 경고 큐
+# <a name="alerts-queue-in-microsoft-defender-security-center"></a>알림 큐의 Microsoft Defender 보안 센터
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

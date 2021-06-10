@@ -45,7 +45,7 @@ ms.locfileid: "51935368"
 어떤 이유로든 장치를 7일 이상 사용하지 않은 경우 포털에서 '비활성' 상태로 유지됩니다.
 
 ### <a name="device-was-reinstalled-or-renamed"></a>장치가 다시 설치되거나 이름을 변경했습니다.
-다시 설치되거나 이름을 변경한 장치는 Microsoft Defender 보안 센터에서 새 장치 엔터티를 생성합니다. 이전 장치 엔터티는 포털에서 '비활성' 상태로 유지됩니다. 장치를 다시 설치하고 Endpoint용 Defender 패키지를 배포한 경우 새 장치 이름을 검색하여 장치가 정상적으로 보고하고 있는지 확인합니다.
+다시 설치되거나 이름을 변경하면 디바이스에서 새 장치 엔터티가 Microsoft Defender 보안 센터. 이전 장치 엔터티는 포털에서 '비활성' 상태로 유지됩니다. 장치를 다시 설치하고 Endpoint용 Defender 패키지를 배포한 경우 새 장치 이름을 검색하여 장치가 정상적으로 보고하고 있는지 확인합니다.
 
 ### <a name="device-was-offboarded"></a>디바이스가 오프보더된 경우
 장치가 오프보더된 경우 장치 목록에 계속 표시됩니다. 7일이 지난 후 장치 상태는 비활성으로 변경됩니다.
@@ -86,8 +86,8 @@ ms.locfileid: "51935368"
 - [진단 데이터 서비스를 사용하도록 설정되어 있는지 확인](troubleshoot-onboarding.md#ensure-the-diagnostics-service-is-enabled)</br>
 장치가 올바르게 보고되지 않는 경우 Windows 10 진단 데이터 서비스가 자동으로 시작되고 끝점에서 실행 중인지 확인해야 할 수 있습니다.
 
-- [정책에 따라 Microsoft Defender 바이러스 백신이 사용하지 않도록 설정되지 않은지 확인](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)</br>
-디바이스에서 타사 맬웨어 방지 클라이언트를 실행하는 경우 끝점용 Defender 에이전트는 Microsoft Defender 바이러스 백신 ELAM(맬웨어 방지 조기 실행) 드라이버를 사용하도록 설정해야 합니다.
+- [정책에 Microsoft Defender 바이러스 백신 사용하지 않도록 설정되어 있지 않은지 확인](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)</br>
+장치에서 타사 맬웨어 방지 클라이언트를 실행하는 경우 끝점용 Defender 에이전트는 ELAM(Microsoft Defender 바이러스 백신 맬웨어 방지 조기 실행) 드라이버를 사용하도록 설정해야 합니다.
 
 수정 작업을 수행한 경우 장치 상태가 여전히 잘못 구성된 경우 지원 [티켓 을 를 열 수 있습니다.](https://go.microsoft.com/fwlink/?LinkID=761093&clcid=0x409)
 

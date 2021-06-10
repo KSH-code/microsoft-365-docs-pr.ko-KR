@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 설정
-description: Microsoft 365 보안 센터에 액세스한 다음 Microsoft 365 Defender 평가판 랩 환경 설정
-keywords: Microsoft 365 Defender 평가판 설정, Microsoft 365 Defender 파일럿 설정, Microsoft 365 Defender, Microsoft 365 Defender 평가 랩 설정 체험
+title: Microsoft 365 평가판 랩 또는 파일럿 환경 설정
+description: Access Microsoft 365 보안 센터에 액세스한 다음 Microsoft 365 Defender 평가판 랩 환경을 설정
+keywords: Microsoft 365 Defender 평가판 설치, Microsoft 365 Defender 파일럿 설정, Defender Microsoft 365 평가 Microsoft 365 테스트
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -26,7 +26,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51935428"
 ---
-# <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Microsoft 365 Defender 평가판 랩 환경 설정 
+# <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Defender Microsoft 365 랩 환경 설정 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,30 +35,30 @@ ms.locfileid: "51935428"
 - Microsoft 365 Defender 
 
 
-Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 만들고 배포하는 과정은 다음 3단계 프로세스입니다.
+Microsoft 365 테스트 랩 또는 파일럿 환경을 만들고 배포하는 과정은 다음 3단계 프로세스입니다.
 
 |[![1 단계: 준비](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[1 단계: 준비](prepare-m365d-eval.md) |![2 단계: 설정](../../media/phase-diagrams/setup.png)<br/>2 단계: 설정 |[![3 단계: 온보딩](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[3 단계: 온보딩](config-m365d-eval.md) | [![파일럿으로 돌아가기](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[파일럿 플레이북으로 돌아가기](m365d-pilot.md) |
 |--|--|--|--|
 ||*여기 있습니다!*  | | |
 
 
-현재 설정 단계에 있습니다. 초기 단계를 수행하여 Microsoft 365 보안 센터에 액세스한 다음 평가판 랩 또는 파일럿 환경을 설정할 수 있습니다.
+현재 설정 단계에 있습니다. 보안 센터에 액세스하기 위한 초기 Microsoft 365 테스트 랩 또는 파일럿 환경을 설정하세요.
 
-Office 365 또는 Azure Active Directory 구독에 등록하여 Microsoft 365 E5 onmicrosoft.com 등록하는 데 사용할 수 있는 *.onmicrosoft.com* 테넌트 생성 
+Office 365 또는 Azure Active Directory 구독에 등록하여 onmicrosoft.com 라이선스에 등록하는 데 사용할 수 있는 *.onmicrosoft.com* 테넌트 Microsoft 365 E5 생성합니다. 
 
 >[!NOTE]
->기존 Office 365 또는 Azure Active Directory 구독이 이미 있는 경우 Office 365 E5 평가판 또는 파일럿 테넌트 만들기 단계를 건너뛸 수 있습니다.
+>기존 Office 365 또는 Azure Active Directory 있는 경우 E5 평가판 또는 Office 365 테넌트 만들기 단계를 건너뛸 수 있습니다.
 
 이 단계에서는 다음을 안내합니다.
-- Office 365 E5 평가판 테넌트 만들기
-- Microsoft 365 평가판 구독 사용
+- E5 Office 365 테넌트 만들기
+- 평가판 Microsoft 365 사용
 
 
-## <a name="create-an-office-365-e5-trial-tenant"></a>Office 365 E5 평가판 테넌트 만들기
+## <a name="create-an-office-365-e5-trial-tenant"></a>E5 Office 365 테넌트 만들기
 >[!NOTE]
->기존 Office 365 또는 Azure Active Directory 구독이 이미 있는 경우 Office 365 E5 평가판 테넌트 만들기 단계를 건너뛸 수 있습니다.
+>기존 Office 365 또는 Azure Active Directory 있는 경우 E5 평가판 테넌트 Office 365 단계를 건너뛸 수 있습니다.
 
-1. [Office 365 E5 제품 포털로 이동하고](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) **무료 평가판 을 선택합니다.**
+1. E5 [Office 365 포털로 이동하고](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) **무료 평가판 을 선택합니다.**
 
    ![이미지 of_Office 365 E5 무료 평가판 페이지](../../media/mtp-eval-9.png)
   
@@ -71,7 +71,7 @@ Office 365 또는 Azure Active Directory 구독에 등록하여 Microsoft 365 E5
    ![이름of_Office 전화 및 회사 세부 정보를 요청하는 365 E5 평가판 등록 설정 페이지 이미지](../../media/mtp-eval-11.png)
    
    > [!NOTE]
-   > 여기서 설정한 국가 또는 지역은 Office 365가 호스팅되는 데이터 센터 지역을 결정 합니다.
+   > 여기서 설정한 국가 또는 지역은 호스트할 데이터 센터 Office 365 결정됩니다.
   
 4. 확인 기본 설정 선택: 문자 메시지 또는 전화를 통해 선택 확인 **코드 보내기 를 클릭합니다.** 
 
@@ -85,11 +85,11 @@ Office 365 또는 Azure Active Directory 구독에 등록하여 Microsoft 365 E5
 
    ![비즈니스 of_Office 설정할 수 있는 365 E5 평가판 등록 설정 페이지 이미지](../../media/mtp-eval-14.png)
 
-7. 설치로 **이동을 클릭하여** Office 365 E5 평가판 테넌트 프로비전을 완료합니다.
+7. 설치로 **이동을 클릭하여** Office 365 테넌트 프로비전을 완료합니다.
 
-   ![설정 이동 단추를 클릭하라는 Office 365 E5 평가판 등록 설정 페이지의 이미지](../../media/mtp-eval-15.png)
+   ![설치 Office 365 클릭하라는 메시지를 표시하는 E5 평가판 등록 설정 페이지의 이미지](../../media/mtp-eval-15.png)
 
-8. 회사 도메인을 Office 365 테넌트에 연결합니다. [선택 사항] 이미 **소유하고 있는 도메인 연결을 선택하고** 도메인 이름을 입력합니다. **다음** 을 클릭합니다.
+8. 커넥트 도메인을 Office 365 테넌트에 등록합니다. [선택 사항] 이미 **커넥트** 도메인을 선택하고 도메인 이름을 입력합니다. **다음** 을 클릭합니다.
 
    ![로그인 of_Office 전자 메일을 개인 설정해야 하는 365 E5 설치 페이지 이미지](../../media/mtp-eval-16.png)
  
@@ -101,15 +101,15 @@ Office 365 또는 Azure Active Directory 구독에 등록하여 Microsoft 365 E5
 
     ![더 of_Office 추가할 수 있는 365 E5 설치 페이지 이미지](../../media/mtp-eval-18.png)
  
-11. [선택 사항] Office 앱을 다운로드합니다. 이 **단계를** 건너뛰려면 다음을 클릭합니다. 
+11. [선택 사항] 앱 Office 다운로드합니다. 이 **단계를** 건너뛰려면 다음을 클릭합니다. 
 
-    ![Office of_Office 설치할 수 있는 365 E5 페이지 이미지](../../media/mtp-eval-19.png)
+    ![of_Office 앱을 설치할 수 있는 365 E5 Office 이미지](../../media/mtp-eval-19.png)
 
 12. [선택 사항] 전자 메일 메시지를 마이그레이션합니다. 이 단계를 건너뛸 수 있습니다.
 
     ![전자 of_Office 마이그레이션할지 여부를 설정할 수 있는 365 E5 이미지](../../media/mtp-eval-20.png)
  
-13. 온라인 서비스를 선택하세요. **Exchange를 선택하고** 다음 을 **클릭합니다.** 
+13. 온라인 서비스를 선택하세요. 다음 **Exchange** 선택하고 다음 을 **클릭합니다.** 
 
     ![온라인 of_Office 선택할 수 있는 365 E5 이미지](../../media/mtp-eval-21.png)
 
@@ -117,18 +117,18 @@ Office 365 또는 Azure Active Directory 구독에 등록하여 Microsoft 365 E5
 
     ![여기에서 of_Office 365 E5를 사용하여 DNS 레코드를 추가할 수 있습니다.](../../media/mtp-eval-22.png)
  
-15. 축하합니다. Office 365 테넌트 프로비전을 완료했습니다.
+15. 축하합니다. 사용자 테넌트의 프로비전을 Office 365 있습니다.
 
     ![이미지 of_Office 365 E5 설치 완료 확인 페이지](../../media/mtp-eval-23.png)
 
-## <a name="enable-microsoft-365-trial-subscription"></a>Microsoft 365 평가판 구독 사용
+## <a name="enable-microsoft-365-trial-subscription"></a>평가판 Microsoft 365 사용
 
 >[!NOTE]
 >평가판에 등록하면 한 달 동안 사용할 25개 사용자 라이선스가 부여됩니다. 자세한 [내용은 M365](../../commerce/try-or-buy-microsoft-365.md) 구독 시도 또는 구입을 참조하세요.
 
-1. [Microsoft 365 관리 센터에서](https://admin.microsoft.com/)청구를 **클릭한** 다음 서비스 **구매로 이동합니다.**
+1. Microsoft 365 [관리 센터에서](https://admin.microsoft.com/)청구를 **클릭한** 다음 서비스 **구매로 이동합니다.**
 
-2. **Microsoft 365 E5를 선택하고** 무료 평가판 시작 **을 클릭합니다.** 
+2. 선택 **Microsoft 365 E5** 무료 평가판 **시작 을 클릭합니다.** 
 
    ![이미지 of_Microsoft 365 E5 무료 평가판 시작 페이지](../../media/mtp-eval-24.png)
 
@@ -140,24 +140,24 @@ Office 365 또는 Azure Active Directory 구독에 등록하여 Microsoft 365 E5
 
    ![이미지 of_Microsoft 365 E5 무료 평가판 시작 페이지에서 시스템이 로봇이 아 아니라는 것을 증명하기 위해 전송된 검증 코드를 입력할 수 있습니다.](../../media/mtp-eval-26.png)
 
-5. 지금 **시도를** 클릭하여 Microsoft 365 E5 평가판을 확인할 수 있습니다.
+5. 지금 **사용해 보시고** 평가판을 Microsoft 365 E5 클릭합니다.
 
    ![이미지 of_Microsoft 365 E5 무료 평가판 시작 페이지에서 지금 사용해기 단추를 시작해야 합니다.](../../media/mtp-eval-27.png)
  
-6. **Microsoft 365** 관리 센터 사용자 활성  >    >  **사용자로 이동하세요.** 사용자 계정을 선택하고 제품 라이선스 관리를 선택한 다음 Office 365 E5에서 **Microsoft 365 E5로** 라이선스를 교체합니다. **저장** 을 클릭합니다.
+6. 관리 센터 **Microsoft 365 활성**  >  **사용자로**  >  **이동하세요.** 사용자 계정을 선택하고 제품 라이선스 관리를 선택한 다음 라이선스를 Office 365 E5에서 **Microsoft 365 E5.** **저장** 을 클릭합니다.
 
-   ![Microsoft of_Microsoft 365 E5 라이선스를 선택할 수 있는 365 관리 센터 페이지 이미지](../../media/mtp-eval-28.png)
+   ![of_Microsoft 라이선스를 선택할 수 있는 이미지 of_Microsoft 365 Microsoft 365 E5 페이지](../../media/mtp-eval-28.png)
  
 7. 전역 관리자 계정을 다시 선택한 다음 사용자 이름 **관리를 클릭합니다.**
 
    ![계정 of_Microsoft 사용자 이름 관리를 선택할 수 있는 365 관리 센터 페이지 이미지](../../media/mtp-eval-29.png)
 
-8. [선택 사항] 이전 단계에서  onmicrosoft.com 따라 도메인을 사용자 도메인으로 변경합니다. **변경 내용 저장** 을 클릭합니다.
+8. [선택 사항] 이전 단계에서  onmicrosoft.com 따라 도메인을 사용자 도메인으로 변경합니다. **변경 사항 저장** 를 클릭합니다.
 
    ![도메인 of_Microsoft 변경할 수 있는 365 관리 센터 페이지 이미지](../../media/mtp-eval-30.png)
 
 
 
 ## <a name="next-step"></a>다음 단계
-|[3단계: 온보드 & 구성](config-m365d-eval.md) | Microsoft 365 Defender 평가판 랩 또는 파일럿 환경에 대한 각 Microsoft 365 Defender 기조를 구성하고 끝점을 온보딩합니다.
+|[3단계: 온보드 & 구성](config-m365d-eval.md) | 각 Microsoft 365 Defender 평가판 Microsoft 365 랩 또는 파일럿 환경에 대해 각 Defender 기조를 구성하고 끝점을 온보딩합니다.
 |:-------|:-----|

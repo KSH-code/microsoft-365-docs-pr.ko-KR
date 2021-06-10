@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 배달된 악성 전자 메일 조사, 악성 전자 메일 찾기 및 조사
+title: 전자 메일에서 배달된 악성 전자 메일 Office 365 찾기 및 조사
 keywords: TIMailData-Inline, 보안 인시던트, 인시던트, Endpoint PowerShell용 Microsoft Defender, 전자 메일 맬웨어, 손상된 사용자, 전자 메일 피싱, 전자 메일 맬웨어, 전자 메일 헤더 읽기, 헤더 읽기, 전자 메일 헤더 열기,특수 작업
 f1.keywords:
 - NOCSH
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933376"
 ---
-# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 배달된 악성 전자 메일 조사
+# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>전자 메일에서 배달된 악성 전자 메일 Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "51933376"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-[Microsoft Defender for Office 365를](defender-for-office-365.md) 사용하면 조직의 사용자가 위험에 노출되는 활동을 조사하고 조직을 보호하기 위한 조치를 취할 수 있습니다. 예를 들어 조직의 보안 팀에 소원이면 배달된 의심스러운 전자 메일 메시지를 찾아 조사할 수 있습니다. 위협 탐색기(또는 실시간 검색)를 사용하여 이 [작업을 할 수 있습니다.](threat-explorer.md)
+[Microsoft Defender for Office 365](defender-for-office-365.md) 조직의 사용자가 위험에 노출된 활동을 조사하고 조직을 보호하기 위한 조치를 취할 수 있습니다. 예를 들어 조직의 보안 팀에 소원이면 배달된 의심스러운 전자 메일 메시지를 찾아 조사할 수 있습니다. 위협 탐색기(또는 실시간 검색)를 사용하여 이 [작업을 할 수 있습니다.](threat-explorer.md)
 
 > [!NOTE]
 > 여기에서 수정 문서로 [이동하세요.](remediate-malicious-email-delivered-office-365.md)
@@ -45,11 +45,11 @@ ms.locfileid: "51933376"
 
 다음 조건이 충족되었는지 확인하세요.
 
-- 조직에 [Office 365용 Microsoft Defender가](defender-for-office-365.md) 있으며 [라이선스가 사용자에게 할당됩니다.](../../admin/manage/assign-licenses-to-users.md)
+- 조직에 사용자용 [Microsoft Defender가 Office 365](defender-for-office-365.md) [라이선스가 사용자에게 할당됩니다.](../../admin/manage/assign-licenses-to-users.md)
 
 - [조직에 대해 감사](../../compliance/turn-audit-log-search-on-or-off.md) 로깅이 설정되어 있습니다.
 
-- 조직에는 스팸 방지, 맬웨어 방지, 피싱 방지 등 정책이 정의되어 있습니다. [Office 365의 위협으로부터 보호를 참조합니다.](protect-against-threats.md)
+- 조직에는 스팸 방지, 맬웨어 방지, 피싱 방지 등 정책이 정의되어 있습니다. 에서 [위협으로부터 보호를 Office 365.](protect-against-threats.md)
 
 - 전역 관리자 또는 보안 및 준수 센터에서 보안 관리자 또는 검색 및 제거 역할이 & 있습니다. 보안 [및 준수 센터의 & 참조합니다.](permissions-in-the-security-and-compliance-center.md) 일부 작업의 경우 새 미리 보기 역할도 할당해야 합니다.
 
@@ -61,16 +61,16 @@ ms.locfileid: "51933376"
 
 |활동|역할 그룹|미리 보기 역할이 필요하세요?|
 |---|---|---|
-|위협 탐색기(및 실시간 검색)를 사용하여 위협 분석 |전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요|
-|위협 탐색기(및 실시간 검색)를 사용하여 전자 메일 메시지에 대한 헤더를 보고, 분리된 전자 메일 메시지 미리 보기 및 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요|
-|위협 탐색기를 사용하여 헤더 보기, 전자 메일 미리 보기(전자 메일 엔터티 페이지만) 및 사서함에 배달된 전자 메일 메시지 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자 <p> Preview|예|
+|위협 탐색기(및 실시간 검색)를 사용하여 위협 분석 |전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요.|
+|위협 탐색기(및 실시간 검색)를 사용하여 전자 메일 메시지에 대한 헤더를 보고, 분리된 전자 메일 메시지 미리 보기 및 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요.|
+|위협 탐색기를 사용하여 헤더 보기, 전자 메일 미리 보기(전자 메일 엔터티 페이지만) 및 사서함에 배달된 전자 메일 메시지 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자 <p> 미리 보기|네.|
 |
 
 > [!NOTE]
-> *미리* 보기는 역할 그룹이 아닌 역할입니다. 미리 보기 역할을 Office 365의 기존 역할 그룹에 추가해야 <https://protection.office.com> 합니다(에서). 사용 **권한으로 이동한** 다음 기존 역할 그룹을 편집하거나 미리 보기 역할이 할당된 **새** 역할 그룹을 추가합니다.
-> 전역 관리자 역할에는 Microsoft 365 관리 센터( ) 가 할당되고 보안 관리자 및 보안 읽기 권한자 역할은 보안 & 준수 <https://admin.microsoft.com> 센터( )에 할당됩니다. <https://protection.office.com> 역할 및 사용 권한에 대한 자세한 내용은 [Security & Compliance Center의 사용 권한을 참조합니다.](permissions-in-the-security-and-compliance-center.md)
+> *미리* 보기는 역할 그룹이 아닌 역할입니다. 미리 보기 역할은 의 기존 역할 그룹에 Office 365 <https://protection.office.com> 합니다. 사용 **권한으로 이동한** 다음 기존 역할 그룹을 편집하거나 미리 보기 역할이 할당된 **새** 역할 그룹을 추가합니다.
+> 전역 관리자 역할에는 Microsoft 365 관리 센터( )가 할당되고, 보안 관리자 및 보안 읽기 권한자 역할은 보안 & 준수 <https://admin.microsoft.com> 센터( )에 <https://protection.office.com> 할당됩니다. 역할 및 사용 권한에 대한 자세한 내용은 [Security & Compliance Center의 사용 권한을 참조합니다.](permissions-in-the-security-and-compliance-center.md)
 
-전자 메일 미리 보기 및 다운로드는 중요한 활동이기 때문에 감사가 사용하도록 설정되어 있습니다. 관리자가 전자 메일에 대해 이러한 활동을 수행하면 동일한 감사 로그가 생성되어 Office 365 보안 및 준수 센터()& 볼 수 <https://protection.office.com> 있습니다. 검색 **감사 로그**  >  **검색으로 이동하여** 검색 섹션의 관리자 이름을 필터링합니다. 필터링된 결과에는 **AdminMailAccess 활동이 표시됩니다.** 미리 보거나 다운로드한 전자 메일에 대한 **추가** 정보 섹션에서 세부 정보를 확인하려면 행을 선택합니다.
+전자 메일 미리 보기 및 다운로드는 중요한 활동이기 때문에 감사가 사용하도록 설정되어 있습니다. 관리자가 전자 메일에 대해 이러한 활동을 수행하면 동일한 감사 로그가 생성되어 Office 365 보안 & 규정 준수 센터()에서 볼 수 <https://protection.office.com> 있습니다. 검색 **감사 로그**  >  **검색으로 이동하여** 검색 섹션의 관리자 이름을 필터링합니다. 필터링된 결과에는 **AdminMailAccess 활동이 표시됩니다.** 미리 보거나 다운로드한 전자 메일에 대한 **추가** 정보 섹션에서 세부 정보를 확인하려면 행을 선택합니다.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>배달된 의심스러운 전자 메일 찾기
 
@@ -79,7 +79,7 @@ ms.locfileid: "51933376"
 > [!NOTE]
 > Explorer의 기본 검색에는 현재 Zapped 항목이 없습니다.  이는 모든 보기(예: 맬웨어 또는 피싱 보기)에 적용됩니다. Zapped 항목을 포함하려면 ZAP에서 제거됨을 포함하기 위해 배달 작업  **집합을 추가해야 합니다.** 모든 옵션을 포함하면 Zapped 항목을 포함하여 모든 배달 작업 결과가 표시됩니다.
 
-1. **위협 탐색기:** 으로 이동하여 Office 365의 직장 또는 학교 계정을 사용하여 <https://protection.office.com> 로그인합니다. 이렇게하면 보안 및 준수 & 수 있습니다.
+1. **위협 탐색기로** 이동: 으로 이동한 후 해당 사용자에 대해 직장 또는 학교 계정을 사용하여 <https://protection.office.com> Office 365. 이렇게하면 보안 및 준수 & 수 있습니다.
 
 2. 왼쪽 탐색 빠른 실행에서 위협 관리 **탐색기 를** \> **선택 합니다.**
 
@@ -93,7 +93,7 @@ ms.locfileid: "51933376"
 
     *맬웨어* 보기는 현재 기본 보기로, 맬웨어 위협이 감지된 전자 메일을 캡처합니다. 피싱 *보기는* 피싱과 같은 방식으로 작동됩니다.
 
-    그러나 *모든 전자* 메일 보기에는 위협이 감지 여부에 따라 조직에서 받은 모든 메일이 나열됩니다. 이 보기에는 필터를 적용해 묻는 자리 표시자에 데이터가 많이 표시됩니다. (이 보기는 Office 365 P2 고객용 Defender에서만 사용할 수 있습니다.)
+    그러나 *모든 전자* 메일 보기에는 위협이 감지 여부에 따라 조직에서 받은 모든 메일이 나열됩니다. 이 보기에는 필터를 적용해 묻는 자리 표시자에 데이터가 많이 표시됩니다. 이 보기는 P2 고객용 Defender에서만 Office 365 있습니다.
 
     *제출 보기에는* Microsoft에 보고된 관리자 또는 사용자가 전송한 모든 메일이 표시됩니다.
 
@@ -122,7 +122,7 @@ ms.locfileid: "51933376"
     - **배달** – 전자 메일이 사용자의 받은 편지함 또는 폴더로 배달된 경우 사용자가 직접 액세스할 수 있습니다.
     - **정크** 메일(정크 메일로 배달) - 전자 메일이 사용자의 정크 폴더 또는 삭제된 폴더로 전송되고 사용자는 정크 또는 삭제된 폴더의 전자 메일 메시지에 액세스할 수 있습니다.
     - **차단 -** 차단되거나 실패했거나 삭제된 모든 전자 메일 메시지입니다. 이 설정은 사용자가 완전히 액세스하지 않습니다.
-    - **Replaced** – 악의적인 첨부 파일이 첨부 파일이 악성 상태인 .txt 파일로 대체되는 모든 전자 메일
+    - **대체 -** 악의적인 첨부 파일이 첨부 파일이 악성 상태인 .txt 파일로 대체되는 모든 전자 메일
 
     **배달 위치:** 배달 위치 필터를 사용하여 관리자가 악성 메일로 의심되는 위치와 해당 메일에 대해 수행된 작업을 이해할 수 있습니다. 결과 데이터를 스프레드시트로 내보낼 수 있습니다. 가능한 배달 위치는:
 
@@ -206,10 +206,10 @@ ms.locfileid: "51933376"
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365에서 배달된 악성 전자 메일 수정](remediate-malicious-email-delivered-office-365.md)
+[전자 메일로 배달된 악성 전자 메일 Office 365](remediate-malicious-email-delivered-office-365.md)
 
 [Office 365용 Microsoft Defender](office-365-ti.md)
 
-[Office 365의 위협으로부터 보호](protect-against-threats.md)
+[보안 위협으로부터 Office 365](protect-against-threats.md)
 
-[Office 365용 Defender에 대한 보고서 보기](view-reports-for-mdo.md)
+[Defender for Office 365](view-reports-for-mdo.md)

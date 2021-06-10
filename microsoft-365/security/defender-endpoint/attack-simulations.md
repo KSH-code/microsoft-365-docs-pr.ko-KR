@@ -72,5 +72,5 @@ ms.locfileid: "51934384"
 
 ## <a name="related-topics"></a>관련 항목
 
-- [장치 온보드](onboard-configure.md)
+- [온보딩 장치](onboard-configure.md)
 - [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)

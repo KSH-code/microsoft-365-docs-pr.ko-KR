@@ -1,6 +1,6 @@
 ---
-title: 위협 및 취약성 관리의 노출 점수
-description: 위협 및 취약성 관리 노출 점수는 조직이 사이버 보안 위협에 얼마나 취약한지 반영합니다.
+title: 노출 점수(위협 및 취약성 관리
+description: 노출 위협 및 취약성 관리 점수는 조직이 사이버 보안 위협에 얼마나 취약한지 반영합니다.
 keywords: 노출 점수, 끝점 노출 점수용 Microsoft Defender, Endpoint tvm 노출 점수용 Microsoft Defender, 조직 노출 점수, tvm 조직 노출 점수, 위협 및 취약성 관리, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -32,12 +32,12 @@ ms.locfileid: "51934108"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-노출 점수는 Microsoft Defender 보안 센터의 위협 및 취약성 관리 대시보드에 표시됩니다. [](tvm-dashboard-insights.md) 이는 조직이 사이버 보안 위협에 얼마나 취약한지 반영합니다. 노출 점수가 낮을 경우 장치가 악용에 덜 취약하다는 의미입니다.
+노출 점수는 보고서의 위협 및 취약성 관리 [대시보드에](tvm-dashboard-insights.md) Microsoft Defender 보안 센터. 이는 조직이 사이버 보안 위협에 얼마나 취약한지 반영합니다. 노출 점수가 낮을 경우 장치가 악용에 덜 취약하다는 의미입니다.
 
 - 조직의 보안 상태와 관련한 높은 수준의 조치를 신속하게 이해하고 식별합니다.
 - 현재 상태를 개선하기 위해 조사 또는 조치가 필요한 영역을 감지하고 대응합니다.
@@ -47,7 +47,7 @@ ms.locfileid: "51934108"
 
 ![노출 점수 카드](images/tvm_exp_score.png)
 
-## <a name="how-it-works"></a>작동 방식
+## <a name="how-it-works"></a>작동 방법
 
 노출 점수는 다음 수준으로 세분화됩니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "51934108"
 
 ## <a name="reduce-your-threat-and-vulnerability-exposure"></a>위협 및 취약성 노출 줄이기
 
-보안 권장 사항을 수정하여 위협 및 [취약성 노출을 줄입니다.](tvm-security-recommendation.md) 위협 및 취약성 관리 대시보드에서 볼 수 있는 최상위 보안 권장 사항을 수정하여 노출 점수에 가장 많은 영향을 [미치게 합니다.](tvm-dashboard-insights.md)
+보안 권장 사항을 수정하여 위협 및 [취약성 노출을 줄입니다.](tvm-security-recommendation.md) 위협 및 취약성 관리 대시보드에서 볼 수 있는 주요 보안 권장 사항을 수정하여 노출 점수에 [가장 위협 및 취약성 관리 합니다.](tvm-dashboard-insights.md)
 
 ## <a name="related-topics"></a>관련 항목
 

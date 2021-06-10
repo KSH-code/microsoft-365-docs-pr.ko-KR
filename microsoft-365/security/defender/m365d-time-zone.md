@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Defender 기능의 표준 시간대 설정
+title: Defender 기능의 표준 시간대 Microsoft 365 설정
 description: 인시던트, 자동화된 조사 및 수정 그리고 고급 헌팅과 관련된 날짜 및 시간 정보에 대한 표준 시간대를 선택하는 방법에 대해 알아봅니다.
 keywords: 표준 시간대, 날짜, 시간, Microsoft 365 Defender, M365, 보안, 인시던트, 자동화된 조사 및 대응, AIR, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934420"
 ---
-# <a name="set-the-time-zone-for-microsoft-365-defender"></a>Microsoft 365 Defender의 표준 시간대 설정
+# <a name="set-the-time-zone-for-microsoft-365-defender"></a>Defender의 표준 시간대 Microsoft 365 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -42,4 +42,4 @@ Microsoft 365 Defender는 현지 표준 시간대 또는 UTC를 사용하여 날
 - 알림 센터를 비롯하여 자동화된 조사 및 수정
 - 고급 헌팅
 
-이러한 기능에 대한 표준 시간대를 설정하려면  >  **설정 Microsoft 365 Defender** 표준 시간대 로  >  **이동합니다.**
+이러한 기능에 대한 표준 시간대를 설정하기 위해 Defender 표준 **설정**  >  **Microsoft 365**  >  **로 이동 합니다.**

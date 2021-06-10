@@ -41,19 +41,19 @@ Linux의 Endpoint용 Defender의 PUA(잠재적으로 원치 않는 응용 프로
 
 이러한 응용 프로그램은 네트워크가 맬웨어에 감염될 위험을 높이고, 맬웨어 감염을 식별하기 더 어렵게 할 수 있으며, 응용 프로그램을 정리하는 데 IT 리소스를 낭비할 수 있습니다.
 
-## <a name="how-it-works"></a>작동 방식
+## <a name="how-it-works"></a>작동 방법
 
 Linux의 끝점용 Defender는 PUA 파일을 검색하고 보고할 수 있습니다. 차단 모드에서 구성하면 PUA 파일이 검지로 이동됩니다.
 
-끝점에서 PUA가 감지되면 Linux의 Endpoint용 Defender는 위협 기록에 감염의 기록을 보관합니다. 기록은 Microsoft Defender 보안 센터 포털 또는 명령줄 도구를 통해 `mdatp` 시각화할 수 있습니다. 위협 이름에는 "Application"이라는 단어가 포함되어 있습니다.
+끝점에서 PUA가 감지되면 Linux의 Endpoint용 Defender는 위협 기록에 감염의 기록을 보관합니다. 기록은 Microsoft Defender 보안 센터 명령줄 도구를 통해 `mdatp` 시각화할 수 있습니다. 위협 이름에는 "Application"이라는 단어가 포함되어 있습니다.
 
 ## <a name="configure-pua-protection"></a>PUA 보호 구성
 
 Linux의 끝점용 Defender의 PUA 보호는 다음 방법 중 하나에서 구성할 수 있습니다.
 
 - **Off**: PUA 보호를 사용할 수 없습니다.
-- **감사**: PUA 파일이 제품 로그에 보고되지만 Microsoft Defender 보안 센터에는 보고되지 않습니다. 감염에 대한 기록은 위협 기록에 저장되지 않습니다. 제품에 의해 수행된 조치가 없습니다.
-- **차단:** PUA 파일이 제품 로그 및 Microsoft Defender 보안 센터에 보고됩니다. 감염 레코드는 위협 기록에 저장되고 제품이 조치를 취합니다.
+- **감사**: PUA 파일이 제품 로그에 보고되지만, PUA 파일에는 Microsoft Defender 보안 센터. 감염에 대한 기록은 위협 기록에 저장되지 않습니다. 제품에 의해 수행된 조치가 없습니다.
+- **차단:** PUA 파일이 제품 로그 및 검색된 Microsoft Defender 보안 센터. 감염 레코드는 위협 기록에 저장되고 제품이 조치를 취합니다.
 
 >[!WARNING]
 >기본적으로 PUA 보호는 감사 모드에서 **구성됩니다.**

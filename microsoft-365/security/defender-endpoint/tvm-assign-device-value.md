@@ -1,7 +1,7 @@
 ---
 title: 장치 값 할당 - 위협 및 취약성 관리
 description: 자산 우선 순위를 차별화하는 데 도움이 될 수 있도록 장치에 낮은 값, 보통 또는 높은 값을 할당하는 방법을 배워야 합니다.
-keywords: 끝점 장치 값, 위협 및 취약성 관리 장치 값, 고가치 장치, 장치 값 노출 점수에 대한 Microsoft Defender
+keywords: Microsoft Defender for Endpoint 장치 값, 위협 및 취약성 관리 값, 높은 값 장치, 장치 값 노출 점수
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -32,14 +32,14 @@ ms.locfileid: "51935200"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-디바이스의 값을 정의하면 자산 우선 순위를 차별화하는 데 도움이 됩니다. 장치 값은 개별 자산의 위험 위험을 위협 및 취약성 관리 노출 점수 계산에 통합하는 데 사용됩니다. "높은 값"으로 할당된 장치는 더 많은 가중치를 받게 됩니다.
+디바이스의 값을 정의하면 자산 우선 순위를 차별화하는 데 도움이 됩니다. 디바이스 값은 노출 점수 계산에 개별 자산의 위험 위협 및 취약성 관리 통합하는 데 사용됩니다. "높은 값"으로 할당된 장치는 더 많은 가중치를 받게 됩니다.
 
 설정 장치 값 [API 를 사용할 수 있습니다.](set-device-value.md)
 
@@ -47,7 +47,7 @@ ms.locfileid: "51935200"
 
 - 낮음
 - 보통(기본값)
-- High
+- 높음
 
 높은 값을 할당해야 하는 장치의 예:
 

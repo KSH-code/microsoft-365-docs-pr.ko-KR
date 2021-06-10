@@ -1,6 +1,6 @@
 ---
-title: Jamf Pro에서 장치 그룹 설정
-description: MacOS에서 Endpoint용 Microsoft Defender용 Jamf Pro에서 장치 그룹을 설정하는 방법을 배우기
+title: Jamf 2013에서 장치 Pro
+description: MacOS에서 Microsoft Defender for Endpoint용 Pro Jamf 에서 장치 그룹을 설정하는 방법에 대해 자세히 알아보기
 keywords: device, group, microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -25,7 +25,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933808"
 ---
-# <a name="set-up-microsoft-defender-for-endpoint-on-macos-device-groups-in-jamf-pro"></a>Jamf Pro에서 macOS 장치 그룹에서 끝점에 대한 Microsoft Defender 설정
+# <a name="set-up-microsoft-defender-for-endpoint-on-macos-device-groups-in-jamf-pro"></a>Jamf 2013에서 macOS 장치 그룹에서 끝점에 대한 Microsoft Defender Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51933808"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-그룹 정책 US(조직 구성 단위), Microsoft Endpoint Configuration Manager의 장치 컬렉션 및 Intune의 장치 그룹과 유사한 장치 그룹을 설정합니다.
+그룹 정책 US(조직 구성 단위), Microsoft Endpoint Configuration Manager 및 Intune의 장치 그룹과 유사한 장치 그룹을 설정합니다.
 
 1. 정적 **컴퓨터 그룹으로 이동합니다.**
 
@@ -52,4 +52,4 @@ ms.locfileid: "51933808"
     ![Jamf Pro3의 이미지](images/contoso-machine-group.png)
 
 ## <a name="next-step"></a>다음 단계
-- [Jamf Pro에서 macOS 정책에 대한 끝점에 대한 Microsoft Defender 설정](mac-jamfpro-policies.md)
+- [Jamf 2013에서 macOS 정책에 대한 끝점에 대한 Microsoft Defender Pro](mac-jamfpro-policies.md)

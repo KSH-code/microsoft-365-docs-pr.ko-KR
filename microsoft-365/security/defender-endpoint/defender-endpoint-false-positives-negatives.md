@@ -41,7 +41,7 @@ ms.locfileid: "51933592"
 
 ![끝점용 Defender의 가짓 긍정 및 음수 정의](images/false-positives-overview.png)
 
-다행히 이러한 종류의 문제를 해결하고 줄이기 위한 단계를 수행하면 됩니다. [Microsoft Defender](../defender/microsoft-365-security-center-mde.md)보안 센터에 가음성/부정이 표시될 경우 보안 작업은 다음 프로세스를 사용하여 이를 해결하기 위한 단계를 취할 수 있습니다.
+다행히 이러한 종류의 문제를 해결하고 줄이기 위한 단계를 수행하면 됩니다. 사용자 설정에 가음성/부정이 Microsoft Defender 보안 센터 [다음](../defender/microsoft-365-security-center-mde.md)프로세스를 사용하여 보안 운영에서 이를 해결하기 위한 단계를 취할 수 있습니다.
 
 1.  [경고 검토 및 분류](#part-1-review-and-classify-alerts) 
 2.  [수행된 수정 작업 검토](#part-2-review-remediation-actions)
@@ -66,7 +66,7 @@ ms.locfileid: "51933592"
 
 경고를 분류하거나 표시하지 말고 경고가 정확한지, 가음성인지 또는 양성인지 여부를 결정해야 합니다.
 
-1. Microsoft Defender 보안 센터()로 이동하여 [https://securitycenter.windows.com](https://securitycenter.windows.com) 로그인합니다.
+1. Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) ()로 이동하여 로그인합니다.
 
 2. 탐색 창에서 경고 큐 **를 선택 합니다.**
 
@@ -82,9 +82,9 @@ ms.locfileid: "51933592"
 
 ### <a name="classify-an-alert"></a>경고 분류
 
-경고는 Microsoft Defender 보안 센터에서 가짓 긍정 또는 참 긍정으로 분류될 수 있습니다. 경고를 분류하면 시간이 지날수록 더 많은 참 경고와 더 적은 거짓 경고를 볼 수 있도록 끝점에 대해 Microsoft Defender를 교육하는 데 도움이 됩니다.
+알림은 알림에서 가음성 또는 참 긍정으로 분류될 Microsoft Defender 보안 센터. 경고를 분류하면 시간이 지날수록 더 많은 참 경고와 더 적은 거짓 경고를 볼 수 있도록 끝점에 대해 Microsoft Defender를 교육하는 데 도움이 됩니다.
 
-1. Microsoft Defender 보안 센터()로 이동하여 [https://securitycenter.windows.com](https://securitycenter.windows.com) 로그인합니다.
+1. Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) ()로 이동하여 로그인합니다.
 
 2. 경고 **큐 를** 선택한 다음 경고를 선택합니다.
 
@@ -97,9 +97,9 @@ ms.locfileid: "51933592"
 
 ### <a name="suppress-an-alert"></a>경고 표시 안
 
-가음성 또는 참 긍정이지만 미미한 이벤트에 대한 경고가 있는 경우 Microsoft Defender 보안 센터에서 해당 경고를 표시하지 않습니다. 경고를 표시하지는 것은 보안 작업 대시보드에서 노이즈를 줄이는 데 도움이 됩니다. 
+가음성 또는 참 긍정이지만 미미한 이벤트에 대한 경고가 있는 경우 경고를 표시하지 Microsoft Defender 보안 센터. 경고를 표시하지는 것은 보안 작업 대시보드에서 노이즈를 줄이는 데 도움이 됩니다. 
 
-1. Microsoft Defender 보안 센터()로 이동하여 [https://securitycenter.windows.com](https://securitycenter.windows.com) 로그인합니다.
+1. Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) ()로 이동하여 로그인합니다.
 
 2. 탐색 창에서 경고 큐 **를 선택합니다.**
 
@@ -114,7 +114,7 @@ ms.locfileid: "51933592"
 
 ## <a name="part-2-review-remediation-actions"></a>2부: 재구성 작업 검토
 
-[파일을 검지로](manage-auto-investigation.md#remediation-actions)보내거나 프로세스를 중지하는 등의 수정 작업은 위협으로 감지된 엔터티(예: 파일)에 대해 수행됩니다. 자동화된 조사 및 Microsoft Defender 바이러스 백신을 통해 여러 가지 유형의 수정 작업이 자동으로 수행됩니다.   
+[파일을 검지로](manage-auto-investigation.md#remediation-actions)보내거나 프로세스를 중지하는 등의 수정 작업은 위협으로 감지된 엔터티(예: 파일)에 대해 수행됩니다. 자동화된 조사 및 다음 작업을 통해 여러 유형의 Microsoft Defender 바이러스 백신.   
 - 파일 Quarantine a file
 - 레지스트리 키 제거
 - 프로세스 숨기기
@@ -199,22 +199,22 @@ CustomEnterpriseBlock!cl` 있습니다. Endpoint용 Defender는 지난 30일 동
 제외는 수정 작업의 예외로 지정하는 파일 또는 URL과 같은 엔터티입니다. 제외된 엔터티는 계속 검색될 수 있지만 이 엔터티에 대해 수정 작업이 수행되지 않습니다. 즉, 검색된 파일 또는 프로세스가 중지되거나, 끝점용 Microsoft Defender에 의해 중지, 제거 또는 변경되지 않습니다. 
 
 끝점용 Microsoft Defender에서 제외를 정의하기 위해 다음 작업을 수행합니다.
-- [Microsoft Defender 바이러스 백신에 대한 제외 정의](#exclusions-for-microsoft-defender-antivirus)
+- [사용자에 대한 제외 Microsoft Defender 바이러스 백신](#exclusions-for-microsoft-defender-antivirus)
 - [끝점용 Microsoft Defender에 대한 "허용" 표시기 만들기](#indicators-for-microsoft-defender-for-endpoint)
 
 > [!NOTE]
-> Microsoft Defender 바이러스 백신 제외는 다른 끝점용 Microsoft Defender 기능이 아닌 바이러스 백신 보호에만 적용됩니다. 파일을 광범위하게 제외하려면 Microsoft Defender 바이러스 백신에 [](/microsoft-365/security/defender-endpoint/manage-indicators) 대한 제외와 끝점용 Microsoft Defender에 대한 사용자 지정 표시기를 사용 합니다.
+> Microsoft Defender 바이러스 백신 제외는 다른 끝점용 Microsoft Defender 기능이 아닌 바이러스 백신 보호에만 적용됩니다. 파일을 광범위하게 제외하려면 끝점용 Microsoft Defender에 [](/microsoft-365/security/defender-endpoint/manage-indicators) 대한 Microsoft Defender 바이러스 백신 및 사용자 지정 표시기를 제외합니다.
 
 이 섹션의 절차에서는 제외 및 표시기를 정의하는 방법에 대해 설명합니다.
 
-### <a name="exclusions-for-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신 제외
+### <a name="exclusions-for-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신
 
-일반적으로 Microsoft Defender 바이러스 백신에 대한 제외를 정의할 필요가 없습니다. 제외는 반드시 정의해야 합니다. 그리고 가을의 결과로 생성되는 파일, 폴더, 프로세스 및 프로세스에서 연 파일만 포함해야 합니다. 또한 정의된 제외를 정기적으로 검토해야 합니다. Microsoft [Endpoint Manager를](/mem/endpoint-manager-overview) 사용하여 바이러스 백신 제외를 정의하거나 편집하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
+일반적으로는 사용자에 대한 제외를 정의할 필요가 Microsoft Defender 바이러스 백신. 제외는 반드시 정의해야 합니다. 그리고 가을의 결과로 생성되는 파일, 폴더, 프로세스 및 프로세스에서 연 파일만 포함해야 합니다. 또한 정의된 제외를 정기적으로 검토해야 합니다. 바이러스 백신 제외 [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) 정의하거나 편집하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
 
 > [!TIP]
-> 바이러스 백신 제외에 대한 도움이 필요하세요? Microsoft Defender 바이러스 백신 검사에 대한 제외 구성 [및 유효성 검사를 참조합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)
+> 바이러스 백신 제외에 대한 도움이 필요하세요? 자세한 [내용은 Configure and validate exclusions for Microsoft Defender 바이러스 백신 참조.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)
 
-#### <a name="use-microsoft-endpoint-manager-to-manage-antivirus-exclusions-for-existing-policies"></a>Microsoft Endpoint Manager를 사용하여 바이러스 백신 제외 관리(기존 정책의 경우)
+#### <a name="use-microsoft-endpoint-manager-to-manage-antivirus-exclusions-for-existing-policies"></a>이 Microsoft Endpoint Manager 사용하여 바이러스 백신 제외 관리(기존 정책의 경우)
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
 
@@ -222,19 +222,19 @@ CustomEnterpriseBlock!cl` 있습니다. Endpoint용 Defender는 지난 30일 동
 
 3. 속성 **을** 선택하고 구성 설정 **옆에** 있는 편집 **을 선택합니다.**
 
-4. **Microsoft Defender 바이러스** 백신 제외를 확장한 다음 제외를 지정합니다.
+4. 제외 **Microsoft Defender 바이러스 백신** 확장한 다음 제외를 지정합니다.
 
 5. 검토 **+ 저장 을** 선택한 다음 저장 을 **선택 합니다.**
 
-#### <a name="use-microsoft-endpoint-manager-to-create-a-new-antivirus-policy-with-exclusions"></a>Microsoft Endpoint Manager를 사용하여 제외가 있는 새 바이러스 백신 정책 만들기
+#### <a name="use-microsoft-endpoint-manager-to-create-a-new-antivirus-policy-with-exclusions"></a>다음 Microsoft Endpoint Manager 사용하여 제외가 있는 새 바이러스 백신 정책 만들기
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
 
 2. 끝점 **보안 바이러스**  >  **백신**  >  **+ 정책 만들기 를 선택 합니다.** 
 
-3. **플랫폼(예: Windows 10 이상,** **macOS** 또는 **Windows 10 및 Windows Server)을 선택합니다.**
+3. 플랫폼(예: Windows 10 이상, **macOS** **또는** Windows 10 및 Windows **서버)을 선택합니다.**
 
-4. 프로필에서 **Microsoft Defender 바이러스** 백신 제외를 선택한 다음 만들기 를 **선택합니다.** 
+4. **프로필에서** 제외 **Microsoft Defender 바이러스 백신** 를 선택한 다음 만들기 를 **선택합니다.**
 
 5. 프로필의 이름과 설명을 지정하고 다음 을 **선택하십시오.**
 
@@ -242,7 +242,7 @@ CustomEnterpriseBlock!cl` 있습니다. Endpoint용 Defender는 지난 30일 동
 
 7. 조직에서  범위 태그를 사용하는 경우 범위 태그 탭에서 만들 정책의 범위 태그를 지정합니다. 범위 [태그를 참조합니다.](/mem/intune/fundamentals/scope-tags)
 
-8. 할당 **탭에서** 정책을 적용할 사용자 및 그룹을 지정하고 다음 을 **선택합니다.** 할당에 대한 도움이 필요한 경우 [Microsoft Intune에서](/mem/intune/configuration/device-profile-assign)사용자 및 장치 프로필 할당을 참조하세요.
+8. 할당 **탭에서** 정책을 적용할 사용자 및 그룹을 지정하고 다음 을 **선택합니다.** 할당에 대한 도움이 필요한 경우 에서 사용자 및 장치 프로필 [할당을 Microsoft Intune.](/mem/intune/configuration/device-profile-assign)
 
 9. 검토 **+ 만들기 탭에서** 설정을 검토한 다음 만들기 를 **선택합니다.**
 
@@ -265,9 +265,9 @@ CustomEnterpriseBlock!cl` 있습니다. Endpoint용 Defender는 지난 30일 동
 실행 파일과 같은 파일에 [대한 "허용"](/microsoft-365/security/defender-endpoint/indicator-file)표시기를 만들면 조직에서 사용하는 파일이 차단되지 않도록 할 수 있습니다. 파일에는 PE(이식 가능한 실행 파일) 파일(예: 및 파일)이 `.exe` `.dll` 포함됩니다. 
 
 파일에 대한 표시기를 만들기 전에 다음 요구 사항을 충족하는지 확인합니다.
-- Microsoft Defender 바이러스 백신은 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+- Microsoft Defender 바이러스 백신 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다. 
-- 디바이스에서 Windows 10 버전 1703 이상을 실행하고 있습니다. Windows Server 2016; 또는 Windows Server 2019 
+- 디바이스에서 Windows 10 버전 1703 이상이 실행되고 있습니다. Windows Server 2016; 또는 Windows Server 2019 
 - 차단 [또는 허용 기능이 켜져 있습니다.](/microsoft-365/security/defender-endpoint/advanced-features) 
 
 #### <a name="indicators-for-ip-addresses-urls-or-domains"></a>IP 주소, URL 또는 도메인에 대한 표시기
@@ -277,18 +277,18 @@ IP 주소, URL 또는 도메인에 [대한 "허용"](/microsoft-365/security/def
 IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 요구 사항을 충족하는지 확인합니다.
 - 끝점용 Defender의 네트워크 보호는 차단 모드에서 사용하도록 설정됩니다(네트워크 [보호 사용 참조).](/microsoft-365/security/defender-endpoint/enable-network-protection)
 - 맬웨어 방지 클라이언트 버전은 4.18.1906.x 이상입니다. 
-- 디바이스에서 Windows 10 버전 1709 이상을 실행하고 있습니다. 
+- 디바이스가 Windows 10 버전 1709 이상이 실행되고 있습니다. 
 
-Microsoft Defender 보안 센터에서 사용자 지정 네트워크 표시기가 켜져 [있습니다(고급 기능 참조).](/microsoft-365/security/defender-endpoint/advanced-features)   
+사용자 지정 네트워크 표시기가 사용자 지정 [Microsoft Defender 보안 센터(고급 기능 참조)](/microsoft-365/security/defender-endpoint/advanced-features)   
 
 #### <a name="indicators-for-application-certificates"></a>응용 프로그램 인증서 표시기 
 
 응용 프로그램 [인증서에 대한 "허용"](/microsoft-365/security/defender-endpoint/indicator-certificates)표시기를 만들면 조직에서 사용하는 응용 프로그램(예: 내부 개발 응용 프로그램)이 차단되지 않도록 방지할 수 있습니다. `.CER` 또는 `.PEM` 파일 확장명을 지원합니다.   
 
 응용 프로그램 인증서에 대한 표시기를 만들기 전에 다음 요구 사항을 충족하는지 확인합니다.
-- Microsoft Defender 바이러스 백신은 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+- Microsoft Defender 바이러스 백신 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다. 
-- 디바이스에서 Windows 10 버전 1703 이상을 실행하고 있습니다. Windows Server 2016; 또는 Windows Server 2019 
+- 디바이스에서 Windows 10 버전 1703 이상이 실행되고 있습니다. Windows Server 2016; 또는 Windows Server 2019 
 - 바이러스 및 위협 방지 정의가 최신입니다.  
 
 > [!TIP]
@@ -308,16 +308,16 @@ Microsoft Defender 보안 센터에서 사용자 지정 네트워크 표시기�
 
 ### <a name="submit-a-fileless-detection-for-analysis"></a>분석을 위해 파일 없는 검색 제출
 
-동작에 따라 맬웨어로 검색된 파일도 없는 경우 분석을 위해 파일을 `Mpsupport.cab` 제출할 수 있습니다. Windows 10의 Microsoft 맬웨어 보호 Command-Line 유틸리티(MPCmdRun.exe) 도구를 사용하여 *.cab* 파일을 얻을 수 있습니다.
+동작에 따라 맬웨어로 검색된 파일도 없는 경우 분석을 위해 파일을 `Mpsupport.cab` 제출할 수 있습니다. Microsoft 맬웨어 보호.cab유틸리티(Command-Line 유틸리티) 도구를 사용하여 MPCmdRun.exe 파일을 Windows 10. 
 
 1.  로 ` C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` 이동한 다음 관리자 `MpCmdRun.exe` 권한으로 실행합니다.
 
 2.  를 `mpcmdrun.exe -GetFiles` 입력한 다음 **Enter를 누르고 를 입력합니다.**
-   다양한 진단 로그가 포함된 .cab 파일이 생성됩니다. 파일의 위치는 명령 프롬프트 출력에 지정됩니다. 기본적으로 위치는 `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` 입니다.
+   다양한 .cab 로그가 포함된 파일 생성 파일의 위치는 명령 프롬프트 출력에 지정됩니다. 기본적으로 위치는 `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` 입니다.
 
 3.  분석을 위해 파일 [제출에 대한 지침을 검토합니다.](/windows/security/threat-protection/intelligence/submission-guide)
 
-4.  Microsoft 보안 인텔리전스 제출 사이트( [https://www.microsoft.com/wdsi/filesubmission](https://www.microsoft.com/wdsi/filesubmission) )를 방문하여 .cab 파일을 제출합니다.
+4.  Microsoft 보안 인텔리전스 제출 사이트( [https://www.microsoft.com/wdsi/filesubmission](https://www.microsoft.com/wdsi/filesubmission) )를 방문하고 .cab 제출합니다.
 
 ### <a name="what-happens-after-a-file-is-submitted"></a>파일이 제출된 후 어떻게 하나요?
 
@@ -329,7 +329,7 @@ Microsoft Defender 보안 센터에서 사용자 지정 네트워크 표시기�
 - 인증된 고객, 특히 유효한 [SAID(Software Assurance ID)가](https://www.microsoft.com/licensing/licensing-programs/software-assurance-default.aspx)있는 엔터프라이즈 고객에게는 높은 우선 순위가 부여됩니다.
 - SAID 소유자가 우선 순위가 높은 것으로 플래그를 지정한 제출은 즉시 주의를 기울입니다.
 
-제출에 대한 업데이트를 확인하거나 Microsoft 보안 인텔리전스 제출 사이트에서 [로그인합니다.](https://www.microsoft.com/wdsi/filesubmission) 
+제출에 대한 업데이트를 확인하거나 제출 사이트 [에서 Microsoft 보안 인텔리전스 로그인합니다.](https://www.microsoft.com/wdsi/filesubmission) 
 
 > [!TIP]
 > 자세한 내용은 분석을 위해 [파일 제출을 참조합니다.](/windows/security/threat-protection/intelligence/submission-guide#how-does-microsoft-prioritize-submissions)
@@ -344,14 +344,14 @@ Microsoft Defender 보안 센터에서 사용자 지정 네트워크 표시기�
 
 ### <a name="cloud-delivered-protection"></a>클라우드 제공 보호
 
-Microsoft Defender 바이러스 백신에 대한 클라우드 제공 보호 수준을 검사합니다. 기본적으로 클라우드 제공 보호는 구성되지 않습니다.로 설정되어 있습니다. 이는 대부분의 조직에 대한 일반적인 보호 수준에 해당합니다.  클라우드 제공 보호가 **높음,** **높음 +** 또는 허용 오차가 **0으로** 설정된 경우 가음성 수가 더 높을 수 있습니다.
+클라우드 제공 보호 수준에 대한 Microsoft Defender 바이러스 백신. 기본적으로 클라우드 제공 보호는 구성되지 않습니다.로 설정되어 있습니다. 이는 대부분의 조직에 대한 일반적인 보호 수준에 해당합니다.  클라우드 제공 보호가 **높음,** **높음 +** 또는 허용 오차가 **0으로** 설정된 경우 가음성 수가 더 높을 수 있습니다.
 
 > [!TIP]
 > 클라우드 제공 보호 구성에 대한 자세한 내용은 클라우드 제공 보호 수준 [지정을 참조합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/specify-cloud-protection-level-microsoft-defender-antivirus)
 
-[Microsoft Endpoint Manager를](/mem/endpoint-manager-overview) 사용하여 클라우드 제공 보호 설정을 편집하거나 설정하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
+클라우드 제공 보호 [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) 편집하거나 설정하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
 
-#### <a name="use-microsoft-endpoint-manager-to-review-and-edit-cloud-delivered-protection-settings-for-existing-policies"></a>Microsoft Endpoint Manager를 사용하여 클라우드 제공 보호 설정 검토 및 편집(기존 정책의 경우)
+#### <a name="use-microsoft-endpoint-manager-to-review-and-edit-cloud-delivered-protection-settings-for-existing-policies"></a>이 Microsoft Endpoint Manager 사용하여 클라우드 제공 보호 설정 검토 및 편집(기존 정책의 경우)
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
 
@@ -363,23 +363,23 @@ Microsoft Defender 바이러스 백신에 대한 클라우드 제공 보호 수�
 
 5. 검토 **+ 저장 을** 선택한 다음 저장 **을 선택 합니다.**
 
-#### <a name="use-microsoft-endpoint-manager-to-set-cloud-delivered-protection-settings-for-a-new-policy"></a>Microsoft Endpoint Manager를 사용하여 클라우드 제공 보호 설정 설정(새 정책의 경우)
+#### <a name="use-microsoft-endpoint-manager-to-set-cloud-delivered-protection-settings-for-a-new-policy"></a>새 Microsoft Endpoint Manager 사용하여 클라우드 제공 보호 설정 설정
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
 
 2. 끝점 **보안 바이러스**  >  **백신**  >  **+ 정책 만들기 를 선택 합니다.**
 
-3. 플랫폼의 경우 옵션을 선택하고 프로필에서 바이러스  백신 또는 **Microsoft Defender 바이러스** 백신을 선택합니다(특정 옵션은 플랫폼에 대해 선택한 대상에 따라 **다를 수** 있습니다.   그런 다음 만들기 **를 선택.**
+3. 플랫폼의 경우 옵션을 선택하고 프로필에서 바이러스  백신 또는 Microsoft Defender 바이러스 백신 선택합니다(특정 옵션은 플랫폼에 대해 선택한 대상에 따라 **다를 수** 있습니다.    그런 다음 만들기 **를 선택.**
 
 4. 기본 **탭에서** 정책의 이름과 설명을 지정합니다. 그런 후 **다음** 을 선택합니다.
 
 5. 구성 **설정 탭에서** 클라우드 **보호를** 확장하고 다음 설정을 지정합니다.
    - 클라우드 **제공 보호 켜기 를** **예로 설정**
-   - 클라우드 **제공 보호 수준을 구성되지** 않은 **으로 설정** (이 수준은 기본적으로 강력한 수준의 보호를 제공하면서 가음성의 확률을 줄입니다.)
+   - **클라우드 제공 보호 켜기** 를 **구성되지 않음** 으로 설정합니다. (이 수준은 기본적으로 강력한 수준의 보호를 제공하면서 가음성의 확률을 줄입니다.)
 
 6. 조직에서  범위 태그를 사용하는 경우 범위 태그 탭에서 정책의 범위 태그를 지정합니다. 범위 [태그를 참조합니다.](/mem/intune/fundamentals/scope-tags)
 
-7. 할당 **탭에서** 정책을 적용할 사용자 및 그룹을 지정하고 다음 을 **선택합니다.** 할당에 대한 도움이 필요한 경우 [Microsoft Intune에서](/mem/intune/configuration/device-profile-assign)사용자 및 장치 프로필 할당을 참조하세요.
+7. 할당 **탭에서** 정책을 적용할 사용자 및 그룹을 지정하고 다음 을 **선택합니다.** 할당에 대한 도움이 필요한 경우 에서 사용자 및 장치 프로필 [할당을 Microsoft Intune.](/mem/intune/configuration/device-profile-assign)
 
 8. 검토 **+ 만들기 탭에서** 설정을 검토한 다음 만들기 를 **선택합니다.**  
 
@@ -390,11 +390,11 @@ PUA(사용자 없이도 사용 가능한 응용 프로그램)는 장치가 느�
 > [!TIP]
 > PUA에 대한 자세한 내용은 잠재적으로 원치 않는 응용 프로그램 검색 및 [차단을 참조합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
  
-조직에서 사용하는 앱에 따라 PUA 보호 설정의 결과로 가극적 긍정을 가지게 될 수 있습니다. 필요한 경우 한 동안 감사 모드에서 PUA 보호를 실행하거나 조직의 디바이스 하위 집합에 PUA 보호를 적용하는 것이 좋습니다. MICROSOFT Edge 브라우저 및 Microsoft Defender 바이러스 백신에 대해 PUA 보호를 구성할 수 있습니다.
+조직에서 사용하는 앱에 따라 PUA 보호 설정의 결과로 가극적 긍정을 가지게 될 수 있습니다. 필요한 경우 한 동안 감사 모드에서 PUA 보호를 실행하거나 조직의 디바이스 하위 집합에 PUA 보호를 적용하는 것이 좋습니다. PUA 보호는 MICROSOFT EDGE 및 사용자에 대해 구성할 수 Microsoft Defender 바이러스 백신.
 
-[Microsoft Endpoint Manager를 사용하여](/mem/endpoint-manager-overview) PUA 보호 설정을 편집하거나 설정하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
+PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집하거나 설정하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
 
-#### <a name="use-microsoft-endpoint-manager-to-edit-pua-protection-for-existing-configuration-profiles"></a>Microsoft Endpoint Manager를 사용하여 PUA 보호 편집(기존 구성 프로필의 경우)
+#### <a name="use-microsoft-endpoint-manager-to-edit-pua-protection-for-existing-configuration-profiles"></a>추가 Microsoft Endpoint Manager 사용하여 PUA 보호 편집(기존 구성 프로필의 경우)
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
 
@@ -402,29 +402,29 @@ PUA(사용자 없이도 사용 가능한 응용 프로그램)는 장치가 느�
 
 3. 관리에서 **속성 을** 선택한 다음 구성 설정 옆에 **있는** 편집 을 **선택합니다.** 
 
-4. 구성 **설정 탭에서** 아래로 스크롤하여 **Microsoft Defender 바이러스 백신을 확장합니다.**
+4. 구성 **설정 탭에서** 아래로 스크롤하여 **을** Microsoft Defender 바이러스 백신.
 
 5. 잠재적으로 **원치 않는 응용 프로그램 검색을** 감사로 **설정** (이 기능을 해제할 수 있지만 감사 모드를 사용하면 검색을 볼 수 있습니다.)
 
 6. 검토 **+ 저장 을** 선택한 다음 저장 을 **선택 합니다.**
 
-#### <a name="use-microsoft-endpoint-manager-to-set-pua-protection-for-a-new-configuration-profile"></a>Microsoft Endpoint Manager를 사용하여 PUA 보호 설정(새 구성 프로필)
+#### <a name="use-microsoft-endpoint-manager-to-set-pua-protection-for-a-new-configuration-profile"></a>추가 Microsoft Endpoint Manager 사용하여 PUA 보호 설정(새 구성 프로필용)
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
 
 2. 장치 **구성**  >  **프로필**  >  **+ 프로필 만들기 를 선택하세요.**
 
-3. 플랫폼에서 Windows **10 이상을** 선택하고 **프로필에 대해** 장치 **제한을 선택합니다.**
+3. 플랫폼의 경우 Windows 10 **이상을** 선택하고 **프로필에** 대해 장치 제한 **을 선택합니다.**
 
 4. 기본 **탭에서** 정책의 이름과 설명을 지정합니다. 그런 후 **다음** 을 선택합니다.
 
-5. 구성 **설정 탭에서** 아래로 스크롤하여 **Microsoft Defender 바이러스 백신을 확장합니다.**
+5. 구성 **설정 탭에서** 아래로 스크롤하여 **을** Microsoft Defender 바이러스 백신.
 
 6. 잠재적으로 **원치 않는 응용 프로그램 검색을** **감사로** 설정하고 다음 을 **선택 합니다.** PUA 보호를 해제할 수 있지만 감사 모드를 사용하면 검색을 볼 수 있습니다.
 
-7. 할당 **탭에서** 정책을 적용할 사용자 및 그룹을 지정하고 다음 을 **선택합니다.** 할당에 대한 도움이 필요한 경우 [Microsoft Intune에서](/mem/intune/configuration/device-profile-assign)사용자 및 장치 프로필 할당을 참조하세요.
+7. 할당 **탭에서** 정책을 적용할 사용자 및 그룹을 지정하고 다음 을 **선택합니다.** 할당에 대한 도움이 필요한 경우 에서 사용자 및 장치 프로필 [할당을 Microsoft Intune.](/mem/intune/configuration/device-profile-assign)
 
-8. 적용 **가능성 규칙** 탭에서 정책을 포함하거나 제외할 OS 버전을 지정합니다. 예를 들어 Windows 10의 특정 버전에 따라 모든 디바이스에 적용될 정책을 설정할 수 있습니다. 그런 후 **다음** 을 선택합니다.
+8. 적용 **가능성 규칙** 탭에서 정책을 포함하거나 제외할 OS 버전을 지정합니다. 예를 들어 특정 에디션 버전이 있는 모든 디바이스에 적용될 정책을 Windows 10. 그런 후 **다음** 을 선택합니다.
 
 9. 검토 **+ 만들기 탭에서** 설정을 검토한 다음 만들기를 **선택합니다.**
 
@@ -440,11 +440,11 @@ PUA(사용자 없이도 사용 가능한 응용 프로그램)는 장치가 느�
 > [!IMPORTANT]
 > 자동화된 조사 및 *수정을 위해* 전체 자동화를 사용하는 것이 좋습니다. 가극적이기 때문에 이러한 기능을 해제하지 않습니다. 대신 ["허용"](#indicators-for-microsoft-defender-for-endpoint)표시기를 사용하여 예외를 정의하고 자동화된 조사 및 수정을 설정하여 적절한 조치를 자동으로 취하도록 합니다. 이 [지침에 따라](automation-levels.md#levels-of-automation) 보안 운영 팀이 처리해야 하는 경고 수를 줄일 수 있습니다. 
 
-## <a name="still-need-help"></a>여전히 도움이 필요하세요?
+## <a name="still-need-help"></a>아직 해결되지 않았습니까?
 
 이 문서의 모든 단계를 수행한 후 여전히 도움이 필요한 경우 기술 지원에 문의하세요.
 
-1. Microsoft Defender 보안 센터()로 이동하여 [https://securitycenter.windows.com](https://securitycenter.windows.com) 로그인합니다.
+1. Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) ()로 이동하여 로그인합니다.
 
 2. 오른쪽 위 모서리에서 물음표(**?**)를 선택한 다음 Microsoft 지원 **을 선택합니다.**
 

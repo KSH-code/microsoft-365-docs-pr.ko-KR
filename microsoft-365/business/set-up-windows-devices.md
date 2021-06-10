@@ -50,7 +50,7 @@ Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 장치를 조직의 Azure AD에 연결
 

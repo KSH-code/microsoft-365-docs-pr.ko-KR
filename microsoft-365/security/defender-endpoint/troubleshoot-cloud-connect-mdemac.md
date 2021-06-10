@@ -73,7 +73,7 @@ Testing connection with https://v20.events.data.microsoft.com/ping ... [OK]
 
 > [!WARNING]
 > 인증된 proxies는 지원되지 않습니다. PAC, WPAD 또는 정적 프록시만 사용 중이지 않습니다. 보안상의 이유로 SSL 검사 및 가로채기 Proxies도 지원되지 않습니다. MacOS용 끝점용 Microsoft Defender의 데이터를 가로채지 않고 관련 URL로 직접 전달하도록 SSL 검사 및 프록시 서버에 대한 예외를 구성합니다. 전역 저장소에 가로채기 인증서를 추가하면 가로채는 것을 허용하지 않습니다.
-연결이 차단되지 않는지 테스트하기 위해: Mac용 Microsoft Edge 또는 Safari와 같은 브라우저에서 열기 및 https://x.cp.wd.microsoft.com/api/report https://cdn.x.cp.wd.microsoft.com/ping 를 실행합니다.
+연결이 차단되지 않는지 테스트하기 위해: Mac 또는 Safari용 Microsoft Edge 같은 브라우저에서 및 https://x.cp.wd.microsoft.com/api/report https://cdn.x.cp.wd.microsoft.com/ping 를 사용합니다.
 
 터미널에서 선택적으로 다음 명령을 실행합니다.
 

@@ -1,6 +1,6 @@
 ---
-title: Jamf Pro에 로그인
-description: Jamf Pro에 로그인
+title: Jamf 2013에 Pro
+description: Jamf 2013에 Pro
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -25,7 +25,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51935584"
 ---
-# <a name="log-in-to-jamf-pro"></a>Jamf Pro에 로그인
+# <a name="log-in-to-jamf-pro"></a>Jamf 2013에 Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "51935584"
 
 1. 자격 증명을 입력합니다.
 
-    ![Jamf Pro 대시보드1의 이미지](images/jamf-pro-portal1.png)
+    ![Jamf Pro dashboard1의 이미지](images/jamf-pro-portal1.png)
 
 2. 컴퓨터를 **선택합니다.**
 
@@ -49,5 +49,5 @@ ms.locfileid: "51935584"
 
 
 ## <a name="next-step"></a>다음 단계
-[Jamf Pro에서 장치 그룹 설정](mac-jamfpro-device-groups.md)
+[Jamf 2013에서 장치 Pro](mac-jamfpro-device-groups.md)
 

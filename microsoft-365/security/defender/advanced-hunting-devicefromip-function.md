@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender에 대한 고급 헌팅의 DeviceFromIP() 기능
+title: Defender용 고급 헌팅의 DeviceFromIP() Microsoft 365 기능
 description: DeviceFromIP() 함수를 사용하여 특정 IP 주소가 할당된 디바이스를 사용하는 방법을 학습
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, device, devicefromIP, function, enrichment
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 장치, devicefromIP, 기능, 향상
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security

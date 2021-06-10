@@ -51,9 +51,9 @@ ms.locfileid: "51934576"
 
 ## <a name="download-the-onboarding-package"></a>온보더링 패키지 다운로드
 
-Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니다.
+다음 사이트에서 온보더링 패키지를 Microsoft Defender 보안 센터.
 
-1. Microsoft Defender 보안 센터에서 설정 > 장치 관리 > **로 이동합니다.**
+1. 다음 Microsoft Defender 보안 센터 **온보드 설정 > 장치** 관리 > 로 이동하세요.
 2. 첫 번째 드롭다운 메뉴에서 **운영 체제로 Linux Server를** 선택합니다. 두 번째 드롭다운 메뉴에서 배포 **방법으로** 기본 Linux 구성 관리 도구를 선택합니다.
 3. **온보더링 패키지 다운로드를 선택합니다.** 파일을 다른 파일로 WindowsDefenderATPOnboardingPackage.zip.
 

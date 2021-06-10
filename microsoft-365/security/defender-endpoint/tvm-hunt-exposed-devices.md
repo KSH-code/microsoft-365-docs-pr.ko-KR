@@ -1,6 +1,6 @@
 ---
 title: 노출된 장치 헌팅
-description: 보안 관리자, IT 관리자 및 SecOps가 공동 작업을 하는 데 위협 및 취약성 관리를 사용하는 방법에 대해 자세히 알아보습니다.
+description: 보안 관리자위협 및 취약성 관리 IT 관리자 및 SecOps가 공동 작업을 하는 데 사용할 수 있는 방법에 대해 자세히 알아보습니다.
 keywords: Endpoint-tvm 시나리오용 Microsoft Defender, 끝점용 Microsoft Defender, tvm, tvm 시나리오, 위협 & 취약성 노출 감소, 위협 및 취약성 감소, 보안 구성 향상, 장치용 Microsoft 보안 점수 증가, 장치용 Microsoft 보안 점수& 장치용 Microsoft 보안 점수, 노출 점수, 보안 제어
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -32,7 +32,7 @@ ms.locfileid: "51934096"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
@@ -49,13 +49,13 @@ ms.locfileid: "51934096"
 
 - [DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md) - 악용 코드를 공개적으로 사용할 수 있는지 여부를 포함하여 공개적으로 공개된 취약성의 기술 자료입니다.
 
-- [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) - 장치의 다양한 보안 구성 상태를 나타내는 위협 및 취약성 관리 평가 이벤트입니다.
+- [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) - 위협 및 취약성 관리 장치의 다양한 보안 구성 상태를 나타내는 평가 이벤트입니다.
 
 - [DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md) - 위협 및 취약성 관리에서 장치를 평가하는 데 & 다양한 보안 구성의 기술 자료 다양한 표준 및 벤치마크에 대한 매핑 포함
 
 ## <a name="check-which-devices-are-involved-in-high-severity-alerts"></a>높은 심각도 경고에 포함되는 장치 확인
 
-1. Microsoft Defender **보안** 센터의 왼쪽 탐색 창에서 고급 헌팅으로 이동
+1. **헌팅** 창의 왼쪽 탐색 창에서 고급 헌팅으로 Microsoft Defender 보안 센터.
 
 2. 열 이름에 익숙해지기 위해 TVM 고급 헌팅 스마마까지 아래로 스크롤합니다.
 
@@ -80,6 +80,6 @@ DeviceName=any(DeviceName) by DeviceId, AlertId
 - [위협 및 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
 - [보안 권장 사항](tvm-security-recommendation.md)
 - [API](next-gen-threat-and-vuln-mgt.md#apis)
-- [위협 및 취약성 관리 역할에 대한 데이터 액세스 구성](user-roles.md#create-roles-and-assign-the-role-to-an-azure-active-directory-group)
+- [역할에 대한 위협 및 취약성 관리 액세스 구성](user-roles.md#create-roles-and-assign-the-role-to-an-azure-active-directory-group)
 - [지능형 헌팅 개요](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
 - [모든 고급 헌팅 테이블](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-schema-reference.md)

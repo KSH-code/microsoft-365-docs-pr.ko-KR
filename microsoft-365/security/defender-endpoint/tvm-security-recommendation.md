@@ -1,7 +1,7 @@
 ---
-title: 위협 및 취약성 관리의 보안 권장 사항
-description: 위협 및 취약성 관리에서 위협에 의해 우선 순위가 지정될 수 있는 보안 권장 사항, 위반 가능성 및 가치를 얻습니다.
-keywords: 위협 및 취약성 관리, 끝점 tvm 보안 권장, 사이버 보안 권장, 실행 가능한 보안 권장
+title: 보안 권장 사항 위협 및 취약성 관리
+description: 위협에 의해 우선 순위가 지정되는 실행 가능한 보안 권장 사항, 위반 가능성 및 가치에 따라 우선 순위를 위협 및 취약성 관리.
+keywords: 위협 및 취약성 관리 Microsoft Defender for Endpoint tvm 보안 권장, 사이버 보안 권장, 실행 가능한 보안 권장
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -32,19 +32,19 @@ ms.locfileid: "51933736"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 조직에서 식별된 사이버 보안 약점은 실행 가능한 보안 권장 사항에 매핑된 후 영향에 따라 우선 순위가 지정됩니다. 우선 순위가 높은 권장 사항은 취약성을 완화하거나 수정하고 규정 준수를 구동하는 데 시간을 단축하는 데 도움이 됩니다.
 
-각 보안 권장에는 실행 가능한 수정 단계가 포함됩니다. 작업 관리를 지원하기 위해 Microsoft Intune 및 Microsoft Endpoint Configuration Manager를 사용하여 권장을 보낼 수도 있습니다. 위협 환경이 변경될 때 환경의 정보를 지속적으로 수집할 때 권장 사항도 변경됩니다.
+각 보안 권장에는 실행 가능한 수정 단계가 포함됩니다. 작업 관리를 지원하기 위해 권장되는 작업은 작업 관리 Microsoft Intune 사용하여 보낼 Microsoft Endpoint Configuration Manager. 위협 환경이 변경될 때 환경의 정보를 지속적으로 수집할 때 권장 사항도 변경됩니다.
 
 >[!TIP]
 >새 취약성 이벤트에 대한 전자 메일을 얻습니다. [끝점용 Microsoft Defender에서 취약성](configure-vulnerability-email-notifications.md) 전자 메일 알림 구성을 참조하세요.
 
-## <a name="how-it-works"></a>작동 방식
+## <a name="how-it-works"></a>작동 방법
 
 조직의 각 장치는 고객이 올바른 점에 집중할 수 있도록 세 가지 중요한 요인에 따라 점수를 매기게 됩니다.
 
@@ -58,8 +58,8 @@ ms.locfileid: "51933736"
 
 몇 가지 다른 방법으로 보안 권장 페이지에 액세스합니다.
 
-- [Microsoft Defender](portal-overview.md) 보안 센터의 위협 및 취약성 관리 탐색 메뉴
-- 위협 및 취약성 관리 [대시보드의](tvm-dashboard-insights.md) 주요 보안 권장 사항
+- 위협 및 취약성 관리 탐색 [메뉴의](portal-overview.md) Microsoft Defender 보안 센터
+- 보안 대시보드의 위협 및 취약성 관리 [권장 사항](tvm-dashboard-insights.md)
 
 다음과 같은 위치의 관련 보안 권장 사항을 볼 수 있습니다.
 
@@ -68,11 +68,11 @@ ms.locfileid: "51933736"
 
 ### <a name="navigation-menu"></a>탐색 메뉴
 
-위협 및 취약성 관리 탐색 메뉴로 이동하여 보안 권장 **사항을 선택합니다.** 이 페이지에는 조직에서 발견된 위협 및 취약성에 대한 보안 권장 사항 목록이 포함되어 있습니다.
+위협 및 취약성 관리 메뉴로 이동하고 보안 권장 **사항을 선택합니다.** 이 페이지에는 조직에서 발견된 위협 및 취약성에 대한 보안 권장 사항 목록이 포함되어 있습니다.
 
-### <a name="top-security-recommendations-in-the-threat-and-vulnerability-management-dashboard"></a>위협 및 취약성 관리 대시보드의 주요 보안 권장 사항
+### <a name="top-security-recommendations-in-the-threat-and-vulnerability-management-dashboard"></a>보안 대시보드의 주요 위협 및 취약성 관리 권장 사항
 
-보안 관리자로 주어진 날에 위협 및 취약성 [](tvm-dashboard-insights.md) 관리 대시보드를 살펴보고 [](tvm-exposure-score.md) 노출 점수를 장치용 Microsoft 보안 점수와 [나란히](tvm-microsoft-secure-score-devices.md)볼 수 있습니다. 목표는 **취약성에서** 조직의 노출을 낮추고 사이버  보안 위협 공격에 대한 조직의 장치 보안을 강화하는 것입니다. 주요 보안 권장 사항 목록은 해당 목표를 달성하는 데 도움이 될 수 있습니다.
+보안 관리자로 주어진 날에 위협 및 취약성 관리 대시보드를 살펴보고 노출 점수를 장치용 [](tvm-exposure-score.md) Microsoft 보안 점수와 [나란히](tvm-microsoft-secure-score-devices.md)볼 수 있습니다. [](tvm-dashboard-insights.md) 목표는 **취약성에서** 조직의 노출을 낮추고 사이버  보안 위협 공격에 대한 조직의 장치 보안을 강화하는 것입니다. 주요 보안 권장 사항 목록은 해당 목표를 달성하는 데 도움이 될 수 있습니다.
 
 ![보안 권장 사항 4개가 있는 최상위 보안 권장 사항 카드의 예](images/top-security-recommendations350.png)
 
@@ -85,7 +85,7 @@ ms.locfileid: "51933736"
 추세가 변경되면 **노출된 디바이스** 그래프의 색이 변경됩니다. 노출된 디바이스 수가 증가하면 색이 빨강으로 변경됩니다. 노출된 장치 수가 감소하면 그래프의 색이 녹색으로 변경됩니다.
 
 >[!NOTE]
->위협 및 취약성 관리는 최대 **30일** 전에 사용 중이던 장치를 보여줍니다. 이는 장치가 7일 이상 사용되지 않은 경우 '비활성' 상태인 끝점용 Microsoft Defender의 나머지와 다릅니다.
+>위협 및 취약성 관리 **30일** 전까지 사용 중이던 장치를 보여줍니다. 이는 장치가 7일 이상 사용되지 않은 경우 '비활성' 상태인 끝점용 Microsoft Defender의 나머지와 다릅니다.
 
 ![보안 권장 사항에 대한 방문 페이지의 예입니다.](images/tvmsecrec-updated.png)
 
@@ -106,12 +106,12 @@ ms.locfileid: "51933736"
 
 - **소프트웨어 페이지 열기** - 소프트웨어 페이지를 열어 소프트웨어 및 소프트웨어 배포 방법에 대한 추가 컨텍스트를 얻을 수 있습니다. 이 정보에는 위협 컨텍스트, 관련 권장 사항, 발견된 약점, 노출된 장치 수, 발견된 취약점, 소프트웨어가 설치된 장치의 이름 및 상세한 장치 및 버전 배포가 포함됩니다.
 
-- [**수정**](tvm-remediation.md) 옵션 - IT 관리자가 선택 및 주소를 입력할 수 있도록 Microsoft Intune에서 티켓을 열 수 있도록 재구성 요청을 제출합니다. 재구성 페이지에서 재구성 활동을 추적합니다.
+- [**수정**](tvm-remediation.md) 옵션 - IT 관리자가 선택 및 주소를 입력할 수 있도록 Microsoft Intune 재구성 요청을 제출하여 티켓을 열 수 있습니다. 재구성 페이지에서 재구성 활동을 추적합니다.
 
 - [**예외 옵션**](tvm-exception.md) - 예외를 제출하고, 사당을 제공하고, 문제를 아직 수정하지 못하면 예외 기간을 설정할 수 있습니다.
 
 >[!NOTE]
->장치에서 소프트웨어 변경을 하는 경우 일반적으로 데이터가 보안 포털에 반영되는 데 2시간이 소요됩니다. 그러나 경우에 따라 시간이 오래 걸릴 수 있습니다. 구성 변경에는 4시간에서 24시간까지 걸릴 수 있습니다.
+>장치에서 소프트웨어 변경을 하는 경우 일반적으로 데이터가 보안 포털에 반영되는 데 2시간이 소요됩니다. 하지만, 때때로 더 오래 걸릴 수도 있습니다. 구성 변경에는 4시간에서 24시간까지 걸릴 수 있습니다.
 
 ### <a name="investigate-changes-in-device-exposure-or-impact"></a>장치 노출 또는 영향의 변경 내용 조사
 
@@ -123,7 +123,7 @@ ms.locfileid: "51933736"
 
 ## <a name="request-remediation"></a>요청 수정
 
-위협 및 취약성 관리 수정 기능은 수정 요청 워크플로를 통해 보안 및 IT 관리자 간의 격차를 해소합니다. 보안 관리자는 IT 관리자에게 보안 권장 페이지에서 Intune으로의  취약점 수정을 요청할 수 있습니다. [수정 옵션에 대해 자세히 알아보시다](tvm-remediation.md)
+이러한 위협 및 취약성 관리 기능은 업데이트 관리 요청 워크플로를 통해 보안 및 IT 관리자 간의 격차를 해소합니다. 보안 관리자는 IT 관리자에게 보안 권장 페이지에서 Intune으로의  취약점 수정을 요청할 수 있습니다. [수정 옵션에 대해 자세히 알아보시다](tvm-remediation.md)
 
 ### <a name="how-to-request-remediation"></a>수정을 요청하는 방법
 
@@ -157,7 +157,7 @@ ms.locfileid: "51933736"
 
 3. 플라이아웃 창의 드롭다운 메뉴에서 부정확성 범주를 선택하고 전자 메일 주소를 입력하고 부정확성에 대한 세부 정보를 입력합니다.
 
-4. **전송** 을 선택합니다. 피드백은 위협 및 취약성 관리 전문가에게 즉시 전송됩니다.
+4. **전송** 을 선택합니다. 피드백은 즉시 전문가에게 위협 및 취약성 관리 전송됩니다.
 
 ## <a name="related-articles"></a>관련 문서
 

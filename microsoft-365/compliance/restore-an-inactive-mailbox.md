@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
-description: 비활성 사서함의 내용을 Office 365의 기존 사서함에 복원(또는 병합)하는 방법을 알아보겠습니다.
+description: 비활성 사서함의 내용을 기존 사서함에 복원(또는 병합)하는 방법을 Office 365.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: bc9039d21f76affce7f58f1f83597dd9e5eb4ecf
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -30,7 +30,7 @@ ms.locfileid: "50917302"
 
 - **비활성 사서함 복원** 다른 직원이 퇴사한 직원의 직무를 대신하거나 다른 사용자가 비활성 사서함의 콘텐츠에 액세스해야 하는 경우 비활성 사서함의 내용을 기존 사서함으로 복원하거나 병합할 수 있습니다. 비활성 사서함에서 보관 파일을 복원할 수도 있습니다. 사서함이 복원된 후 비활성 사서함은 보존되고 비활성 사서함으로 보존됩니다. 이 항목에서는 비활성 사서함을 복원하는 절차에 대해 설명합니다.
 
-- **비활성 사서함 복구** 퇴사한 직원이 조직으로 돌아오거나 퇴사한 직원의 직무를 위해 신입 사원이 고용된 경우 비활성 사서함의 내용을 복구할 수 있습니다. 이 메서드는 비활성 사서함을 비활성 사서함의 내용이 포함된 새 사서함으로 변환합니다. 복구한 후 비활성 사서함 존재 하지 않습니다. 단계별 절차는 [Office 365에서](recover-an-inactive-mailbox.md)비활성 사서함 복구를 참조합니다.
+- **비활성 사서함 복구** 퇴사한 직원이 조직으로 돌아오거나 퇴사한 직원의 직무를 위해 신입 사원이 고용된 경우 비활성 사서함의 내용을 복구할 수 있습니다. 이 메서드는 비활성 사서함을 비활성 사서함의 내용이 포함된 새 사서함으로 변환합니다. 복구한 후 비활성 사서함 존재 하지 않습니다. 단계별 절차는 [에서 비활성 사서함 복구를 Office 365.](recover-an-inactive-mailbox.md)
 
 [비활성](#more-information) 사서함 복원 및 복구 간의 차이점에 대한 자세한 내용은 이 문서의 추가 정보 섹션을 참조하세요.
 
@@ -42,9 +42,9 @@ ms.locfileid: "50917302"
 
 ## <a name="requirements-to-restore-an-inactive-mailbox"></a>비활성 사서함 복원 요구 사항
 
-- 비활성 사서함을 복원 하는 Exchange Online PowerShell을 사용 하 고 있습니다. EAC(Exchange 관리 센터)는 사용할 수 없습니다. 단계별 지침은 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오.
+- 비활성 사서함을 복원 Exchange Online PowerShell을 사용 하 고 있습니다. EAC(Exchange 관리 센터)는 사용할 수 없습니다. 단계별 지침은 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오.
 
-- Exchange Online PowerShell에서 다음 명령을 실행하여 조직의 비활성 사서함에 대한 ID 정보를 얻습니다.
+- PowerShell에서 Exchange Online 명령을 실행하여 조직의 비활성 사서함에 대한 ID 정보를 얻습니다.
 
   ```powershell
   Get-Mailbox -InactiveMailboxOnly | Format-List Name,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
@@ -52,7 +52,7 @@ ms.locfileid: "50917302"
 
   이 명령에서 반환된 정보를 사용하여 특정 비활성 사서함을 복원합니다.
 
-- 비활성 사서함에 대한 자세한 내용은 [Office 365의 비활성 사서함을 참조하세요.](inactive-mailboxes-in-office-365.md)
+- 비활성 사서함에 대한 자세한 내용은 에서 [비활성 사서함을 Office 365.](inactive-mailboxes-in-office-365.md)
 
 ## <a name="restore-inactive-mailboxes"></a>비활성 사서함 복원
 
@@ -110,9 +110,9 @@ SourceMailbox 및 _TargetMailbox_ 매개 변수와  함께 **New-MailboxRestoreR
   Get-Mailbox -InactiveMailboxOnly | Format-List Name,PrimarySMTPAddress,DistinguishedName,ExchangeGUID,LegacyExchangeDN,ArchiveStatus
   ```
 
-- **소송 보존 또는 Microsoft 365 보존 정책을 사용하여 비활성 사서함 콘텐츠를 보존합니다.** 비활성 사서함이 복원된 후 상태를 유지하려는 경우 대상 사서함을 소송 [](create-a-litigation-hold.md) 보존 상태로 설정하거나 비활성 사서함을 복원하기 전에 [Microsoft 365](retention.md) 보존 정책을 적용할 수 있습니다. 이렇게 하면 비활성 사서함의 항목이 대상 사서함으로 복원된 후 항목이 영구적으로 삭제되지 않습니다.
+- **소송 보존 또는 Microsoft 365 정책을 사용하여 비활성 사서함 콘텐츠를 보존합니다.** 비활성 사서함이 복원된 후 상태를 유지하려는 경우 대상 사서함을 소송 [](create-a-litigation-hold.md) 보존 상태로 설정하거나 비활성 사서함을 복원하기 전에 Microsoft 365 보존 정책을 적용할 수 있습니다. [](retention.md) 이렇게 하면 비활성 사서함의 항목이 대상 사서함으로 복원된 후 항목이 영구적으로 삭제되지 않습니다.
 
-- **비활성 사서함을 복원하기 전에 대상 사서함에 대한 보존을 사용하도록 설정** 비활성 사서함의 사서함 항목은 오래 될 수 있으므로 비활성 사서함을 복원 하기 전에 대상 사서함에 대 한 보존을 사용 하도록 설정 하는 것이 고려할 수 있습니다. 사서함을 보존으로 설정하면 사서함에 할당된 보존 정책은 보존 보존이 제거되거나 보존 기간이 만료될 때까지 처리되지 않습니다. 이렇게 하면 대상 사서함의 소유자가 비활성 사서함의 이전 메시지를 관리할 수 있습니다. 그렇지 않은 경우 보존 정책은 대상 사서함에 대해 구성된 보존 설정에 따라 만료된 오래된 항목을 삭제하거나 보관 사서함으로 항목을 이동할 수 있습니다. 자세한 내용은 [Place a mailbox on retention hold in Exchange Online을 참조하세요.](/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold)
+- **비활성 사서함을 복원하기 전에 대상 사서함에 대한 보존을 사용하도록 설정** 비활성 사서함의 사서함 항목은 오래 될 수 있으므로 비활성 사서함을 복원 하기 전에 대상 사서함에 대 한 보존을 사용 하도록 설정 하는 것이 고려할 수 있습니다. 사서함을 보존으로 설정하면 사서함에 할당된 보존 정책은 보존 보존이 제거되거나 보존 기간이 만료될 때까지 처리되지 않습니다. 이렇게 하면 대상 사서함의 소유자가 비활성 사서함의 이전 메시지를 관리할 수 있습니다. 그렇지 않은 경우 보존 정책은 대상 사서함에 대해 구성된 보존 설정에 따라 만료된 오래된 항목을 삭제하거나 보관 사서함으로 항목을 이동할 수 있습니다. 자세한 내용은 [Place a mailbox on retention hold in Exchange Online.](/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold)
 
 - **AllowLegacyDNMismatch 스위치는 어떤 작업을 하나요?** 비활성 사서함을 복원하기 위한 이전 예에서는 **AllowLegacyDNMismatch** 스위치를 사용하여 비활성 사서함을 다른 대상 사서함으로 복원할 수 있습니다. 일반적인 복원 시나리오에서 목표는 원본 사서함과 대상 사서함이 동일한 사서함인 콘텐츠를 복원하는 것입니다. 따라서 **기본적으로 New-MailboxRestoreRequest** cmdlet은 원본 및 대상 사서함의 **LegacyExchangeDN** 속성 값이 동일한지 검사합니다. 이렇게 하면 원본 사서함을 잘못된 대상 사서함으로 실수로 복원하는 것을 방지할 수 있습니다. **AllowLegacyDNMismatch** 스위치를 사용하지 않고 비활성 사서함을 복원하려고 하면 원본 사서함과 대상 사서함의 **LegacyExchangeDN** 속성 값이 다른 경우 명령이 실패할 수 있습니다.
 

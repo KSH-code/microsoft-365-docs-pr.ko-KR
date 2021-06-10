@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender 보안 센터 MSSP 고객 포털에 액세스
-description: Microsoft Defender 보안 센터 MSSP 고객 포털에 액세스
+title: MSSP Microsoft Defender 보안 센터 포털에 액세스
+description: MSSP Microsoft Defender 보안 센터 포털에 액세스
 keywords: 관리되는 보안 서비스 공급자, mssp, 구성, 통합
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -23,7 +23,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51164860"
 ---
-# <a name="access-the-microsoft-defender-security-center-mssp-customer-portal"></a>Microsoft Defender 보안 센터 MSSP 고객 포털에 액세스
+# <a name="access-the-microsoft-defender-security-center-mssp-customer-portal"></a>MSSP Microsoft Defender 보안 센터 포털에 액세스
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -44,7 +44,7 @@ ms.locfileid: "51164860"
 >[!NOTE] 
 >이러한 단계 집합은 MSSP로 연결됩니다. 
 
-기본적으로 MSSP 고객은 다음 URL을 통해 Microsoft Defender 보안 센터 테넌트에 `https://securitycenter.windows.com` 액세스합니다. .
+기본적으로 MSSP 고객은 다음 URL을 Microsoft Defender 보안 센터 테넌트에 `https://securitycenter.windows.com` 액세스합니다. .
  
 
 그러나 MSSP는 MSSP 고객 포털에 액세스하려면 다음과 같은 형식으로  `https://securitycenter.windows.com?tid=customer_tenant_id` 테넌트별 URL을 사용해야 합니다. 
@@ -58,12 +58,12 @@ ms.locfileid: "51164860"
 
 2. 디렉터리를 MSSP 고객의 테넌트로 전환합니다.
 
-3.  **Azure Active Directory 속성 > 선택합니다.** 디렉터리 ID 필드에서 테넌트 ID를 찾을 수 있습니다. 
+3.  속성 **Azure Active Directory > 선택합니다.** 디렉터리 ID 필드에서 테넌트 ID를 찾을 수 있습니다. 
 
 4. 다음 URL의 값을 바 사용하여 MSSP 고객 `customer_tenant_id` 포털에 `https://securitycenter.windows.com?tid=customer_tenant_id` 액세스합니다. .
 
 
 ## <a name="related-topics"></a>관련 항목
-- [포털에 대한 MSSP 액세스 권한 부여](grant-mssp-access.md)
+- [MSSP 액세스를 포털에 부여](grant-mssp-access.md)
 - [경고 알림 구성](configure-mssp-notifications.md)
 - [고객 테넌트에서 경고 페치](fetch-alerts-mssp.md)

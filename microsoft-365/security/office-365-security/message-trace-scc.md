@@ -30,17 +30,17 @@ ms.locfileid: "52274475"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-보안 및 준수 & 메시지 추적은 Exchange Online 조직을 통과하는 전자 메일 메시지를 추적합니다. 서비스에서 메시지를 수신, 거부, 지연 또는 배달할지 여부를 확인할 수 있습니다. 또한 최종 상태에 도달하기 전에 메시지에 대해 수행된 작업도 보여 주며,
+보안 및 준수 & 메시지 추적은 조직을 통과하는 전자 메일 Exchange Online 추적합니다. 서비스에서 메시지를 수신, 거부, 지연 또는 배달할지 여부를 확인할 수 있습니다. 또한 최종 상태에 도달하기 전에 메시지에 대해 수행된 작업도 보여 주며,
 
 메시지 추적의 정보를 사용하여 메시지에 대해 진행된 문제에 대한 사용자 질문에 효율적으로 답변하고, 메일 흐름 문제를 해결하고, 정책 변경의 유효성을 검사할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 메시지 추적을 사용하려면 **Exchange Online에서** **조직** **관리,** 준수 관리 또는 **지원** 센터 역할 그룹의 구성원이 되거나 구성원이 되거나 구성원이 되거나, 자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
+- 메시지 추적을 사용하려면 조직 **관리,** 준수  관리 또는 지원 센터 역할  **Exchange Online** 구성원이 되어야 합니다. 자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
-  **참고:** Microsoft 365 관리 센터의 해당 Azure Active Directory 역할  멤버 자격은 사용자에게 Microsoft 365의 다른 기능에 대한 필수 사용 권한 및 사용 권한을 제공합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  **참고:** Microsoft 365 관리 센터의 해당 Azure Active Directory 역할의 멤버 자격은 사용자에게  Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
-- 메시지 추적 결과에 표시되는 최대 메시지 수는 선택한 보고서 유형에 따라 다릅니다(자세한 [](#choose-report-type) 내용은 보고서 유형 선택 섹션 참조). Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell의 [Get-HistoricalSearch](/powershell/module/exchange/get-historicalsearch) cmdlet은 결과에 모든 메시지를 반환합니다.
+- 메시지 추적 결과에 표시되는 최대 메시지 수는 선택한 보고서 유형에 따라 다릅니다(자세한 [](#choose-report-type) 내용은 보고서 유형 선택 섹션 참조). PowerShell 또는 Exchange Online 독립 실행형 EOP PowerShell의 [Get-HistoricalSearch](/powershell/module/exchange/get-historicalsearch) cmdlet은 결과에 모든 메시지를 반환합니다.
 
 ## <a name="open-message-trace"></a>메시지 추적 열기
 
@@ -52,7 +52,7 @@ ms.locfileid: "52274475"
 
 여기에서 추적 시작 단추를 클릭하여 새 기본 **추적을 시작할 수** 있습니다. 이렇게 하면 지난 2일 동안의 모든 보낸 사람 및 받는 사람에 대한 모든 메시지가 검색됩니다. 또는 사용 가능한 쿼리 범주에서 저장된 쿼리 중 하나를 사용하여 현재 쿼리를 실행하거나 자체 쿼리의 시작점으로 사용할 수 있습니다.
 
-- **기본 쿼리:** Microsoft 365에서 제공하는 기본 제공 쿼리입니다.
+- **기본 쿼리:** 기본 제공 쿼리는 Microsoft 365.
 - **사용자 지정 쿼리:** 향후 사용을 위해 조직의 관리자가 저장한 쿼리입니다.
 - **자동 검색 쿼리:** 최근 10개가 실행된 쿼리입니다. 이 목록을 사용하면 벗어났을 때 쉽게 선택할 수 있습니다.
 
@@ -105,7 +105,7 @@ ms.locfileid: "52274475"
 - **실패:** 메시지가 배달되지 않습니다.
 - **Quarantined**: 메시지가 스팸, 대량 메일 또는 피싱으로 확인되었습니다. 자세한 내용은 [EOP에서 Quarantined email messages를 참조하세요.](quarantine-email-messages.md)
 - **스팸으로 필터링:** 메시지가 스팸으로 식별되어 거부되거나 차단되었습니다(고지되지 않은 경우).
-- **상태 확인:** 메시지는 최근에 Microsoft 365에서 수신했지만 다른 상태 데이터를 아직 사용할 수 없습니다. 몇 분 후에 다시 확인 합니다.
+- **상태 확인:** 메시지를 최근에 받은 메시지는 Microsoft 365 다른 상태 데이터를 아직 사용할 수 없습니다. 몇 분 후에 다시 확인 합니다.
 
 > [!NOTE]
 > **Pending,** **Quarantined** 및 **Filter as spam** 값은 10일 미만의 검색에만 사용할 수 있습니다. 또한 실제 상태와 보고된 배달 상태 간에는 5~10분이 지연될 수 있습니다.
@@ -114,7 +114,7 @@ ms.locfileid: "52274475"
 
 이 ID는 메시지 헤더의 **Message-ID:** 헤더 필드에 있는 인터넷 메시지 ID(클라이언트 ID라고도 합니다. 사용자는 이 값을 제공하여 특정 메시지를 조사할 수 있습니다.
 
-이 값은 메시지 수명을 나타내는 상수입니다. Microsoft 365 또는 Exchange에서 만든 메시지의 경우 값은 형식입니다(앵글 `<GUID@ServerFQDN>` 괄호( \< \> ). 예를 들면 `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`와 같습니다. 다른 메시징 시스템에서는 다른 구문이나 값을 사용할 수 있습니다. 이 값은 고유해야 하지만 모든 전자 메일 시스템이 이 요구 사항을 엄격하게 따르는 것은 아닙니다. **Message-ID:** 헤더 필드가 존재하지 않는 경우 또는 외부 원본에서 들어오는 메시지에 대해 비어 있으면 임의의 값이 할당됩니다.
+이 값은 메시지 수명을 나타내는 상수입니다. Microsoft 365 또는 Exchange 괄호()를 포함하여 값이 `<GUID@ServerFQDN>` \< \> 형식입니다. 예를 들면 `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`와 같습니다. 다른 메시징 시스템에서는 다른 구문이나 값을 사용할 수 있습니다. 이 값은 고유해야 하지만 모든 전자 메일 시스템이 이 요구 사항을 엄격하게 따르는 것은 아닙니다. **Message-ID:** 헤더 필드가 존재하지 않는 경우 또는 외부 원본에서 들어오는 메시지에 대해 비어 있으면 임의의 값이 할당됩니다.
 
 메시지 **ID를** 사용하여 결과를 필터링하는 경우 괄호를 포함하여 전체 문자열을 포함해야 합니다.
 
@@ -140,7 +140,7 @@ ms.locfileid: "52274475"
 >
 > - 향상된 요약 및 확장된 보고서는 보관된 메시지 추적 데이터를 사용하여 준비됩니다. 보고서를 다운로드할 수 있는 데 최대 몇 시간이 걸릴 수 있습니다. 동시에 보고서 요청을 제출한 다른 관리자의 수에 따라 대기 중인 요청이 처리되기 전에 지연이 확인될 수도 있습니다.
 > - 날짜/시간 범위에 대해 고급 요약 또는 확장 보고서를 선택할 수 있는 반면 일반적으로 보관된 데이터의 최근 4시간은 이러한 두 가지 유형의 보고서에 아직 제공되지 않습니다.
-> - 다운로드 가능한 보고서의 최대 크기는 500MB입니다. 다운로드 가능한 보고서가 500MB를 초과하면 Excel 또는 메모장에서 보고서를 열 수 없습니다.
+> - 다운로드 가능한 보고서의 최대 크기는 500MB입니다. 다운로드 가능한 보고서가 500MB를 초과하는 경우 보고서를 500MB 또는 Excel 열 수 메모장.
 
 다음을 클릭하면 선택한 필터링 옵션, 보고서의 고유한 제목(편집 가능) 제목 및 메시지 추적이 완료될 때 알림을 받는 전자 메일 주소(편집 가능하고 조직의 허용 도메인 중 하나에 있어야 합니다)가 나열되는 요약 페이지가 표시됩니다. 보고서 **준비를** 클릭하여 메시지 추적을 제출합니다. 기본 메시지 추적 **페이지에서** 다운로드 가능한 보고서 섹션에서 보고서의 **상태를 확인할 수** 있습니다.
 
@@ -204,7 +204,7 @@ ms.locfileid: "52274475"
   > [!NOTE]
   >
   > - 배달되지 않은 메시지가 배달된 경우 메시지 추적에 여러 **Event** 항목이 생성됩니다.
-  > - 이 목록은 전체 목록으로만 사용되지는 않습니다. 추가 이벤트에 대한 자세한 내용은 메시지 추적 로그의 이벤트 [유형을 참조하세요.](/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) 이 링크는 Exchange Server(Exchange Server Exchange) 항목입니다.
+  > - 이 목록은 전체 목록으로만 사용되지는 않습니다. 추가 이벤트에 대한 자세한 내용은 메시지 추적 로그의 이벤트 [유형을 참조하세요.](/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) 이 링크는 Exchange Server(Exchange) 항목입니다.
 
 - **추가 정보:** 이 섹션에는 다음과 같은 세부 정보가 포함되어 있습니다.
   - **메시지 ID:** 이 값은 이 문서 앞부분의 메시지 [ID](#message-id) 섹션에서 설명합니다. 예를 들면 `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`와 같습니다.
@@ -228,7 +228,7 @@ ms.locfileid: "52274475"
 - **network_message_id**: 순환 또는 메일 그룹 확장으로 인해 만들어질 수 있는 메시지의 모든 복사본에서 유지되는 고유한 메시지 ID 값입니다. 값의 예로는 를 들 수 `1341ac7b13fb42ab4d4408cf7f55890f` 있습니다.
 - **original_client_ip**: 보낸 사람 클라이언트의 IP 주소입니다.
 - **directionality:** 메시지가 조직에 전송된 인바운드 메시지(1)인지 또는 조직에서 보낸 아웃바운드 메시지(2)를 나타냅니다.
-- **connector_id**: 원본 또는 대상 커넥터의 이름입니다. Exchange Online의 커넥터에 대한 자세한 내용은 [Office 365에서](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)커넥터를 사용하여 메일 흐름 구성을 참조하세요.
+- **connector_id**: 원본 또는 대상 커넥터의 이름입니다. Exchange Online 커넥터에 대한 자세한 내용은 Configure [mail flow using connectors in Office 365.](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
 - **delivery_priority**: 메시지가 높음, 낮음 또는 보통 우선 순위로 <sup>*</sup>   **전송된지 여부입니다.**
 
 <sup>*</sup> 이러한 속성은 고급 요약 보고서에서만 사용할 수 있습니다.
@@ -244,7 +244,7 @@ ms.locfileid: "52274475"
 - **source_context**: 원본 필드와 관련된 추가 **정보입니다.** 예:
   - `Protocol Filter Agent`
   - `3489061114359050000`
-- **source**: 이벤트를 담당하는 Exchange Online 구성 요소입니다. 예:
+- **source**: Exchange Online 담당하는 구성 요소입니다. 예:
   - `AGENT`
   - `MAILBOXRULE`
   - `SMTP`
@@ -262,9 +262,9 @@ ms.locfileid: "52274475"
   - **MAILBOXRULE**:  internal_message_id 인바운드 메시지를 생성하는 인바운드 메시지의 값입니다. 다른 유형의 이벤트의 경우 일반적으로 이 필드는 비어 있습니다.
 - **return_path**: 메시지를 보낸 **MAIL FROM** 명령으로 지정된 반환 전자 메일 주소입니다. 이 필드는 비어 있는 것이 아니라 로 나타내는 null 보낸 사람 주소 값을 사용할 수 `<>` 있습니다.
 - **message_info**: 메시지에 대한 추가 정보입니다. 예:
-  - 메시지 발신 날짜-시간(UTC for `DELIVER` and `SEND` events)입니다. 원본 날짜-시간은 메시지가 Exchange Online 조직에 처음 들어온 시간입니다. UTC 날짜-시간은 ISO 8601 날짜-시간 형식으로 표시됩니다. 여기서 = 년, = 월, 일은 시간 구성 요소의 시작을 `yyyy-mm-ddThh:mm:ss.fffZ` 나타내며, 시간, = 분, = 초, = 초의 분수 및 UTC를 나타내는 또 다른 `yyyy` `mm` `dd` `T` `hh` `mm` `ss` `fff` `Z` `Zulu` 방법인 을 나타냅니다.
+  - 메시지 발신 날짜-시간(UTC for `DELIVER` and `SEND` events)입니다. 원본 날짜-시간은 메시지가 조직에 처음 Exchange Online 시간입니다. UTC 날짜-시간은 ISO 8601 날짜-시간 형식으로 표시됩니다. 여기서 = 년, = 월, 일은 시간 구성 요소의 시작을 `yyyy-mm-ddThh:mm:ss.fffZ` 나타내며, 시간, = 분, = 초, = 초의 분수 및 UTC를 나타내는 또 다른 `yyyy` `mm` `dd` `T` `hh` `mm` `ss` `fff` `Z` `Zulu` 방법인 을 나타냅니다.
   - 인증 오류입니다. 예를 들어 인증 오류가 발생할 때 사용된 인증의 값과 유형이 표시될 `11a` 수 있습니다.
-- **tenant_id**: Exchange Online 조직(예: )을 나타내는 GUID `39238e87-b5ab-4ef6-a559-af54c6b07b42` 값입니다.
+- **tenant_id**: Exchange Online 조직을 나타내는 GUID 값입니다(예: `39238e87-b5ab-4ef6-a559-af54c6b07b42` ).
 - **original_server_ip**: 원본 서버의 IP 주소입니다.
 - **custom_data**: 특정 이벤트 유형과 관련된 데이터가 들어 있습니다. 자세한 내용은 다음 섹션을 참조하세요.
 
@@ -344,8 +344,8 @@ ms.locfileid: "52274475"
 |---|---|
 |`ETR|ruleId=<guid>`|일치된 규칙 ID입니다.|
 |`St=<datetime>`|규칙 일치가 발생한 날짜 및 시간(UTC)입니다.|
-|`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Exchange Online의 메일 흐름 규칙 작업을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
-|`Mode=<Mode>`|규칙의 모드입니다. 유효한 값은 다음과 같습니다.<ul><li>**적용**: 규칙에 대한 모든 작업이 적용됩니다.</li><li>**정책 팁을 통해 테스트:** 모든 정책 팁 작업이 전송되지만 다른 적용 작업은 실행되지 않습니다.</li><li>**정책 팁이** 없는 테스트: 작업이 로그 파일에 나열되지만 보낸 사람이 어떤 식으로도 알림을 보내지 않고 적용 작업이 실행되지 않습니다.</li></ul>|
+|`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 에서 메일 흐름 규칙 [작업을 Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
+|`Mode=<Mode>`|규칙의 모드입니다. 유효한 값은 다음과 같습니다.<ul><li>**적용**: 규칙에 대한 모든 작업이 적용됩니다.</li><li>**정책 팁 테스트:** 모든 정책 팁 작업이 전송되지만 다른 적용 작업은 실행되지 않습니다.</li><li>**정책 팁** 없는 테스트: 작업이 로그 파일에 나열되지만 보낸 사람이 어떤 식으로도 알림을 보내지 않고 적용 작업이 실행되지 않습니다.</li></ul>|
 |
 
 메일 **custom_data** 조건과 일치하는 메시지의 값을 설정하는 예는 다음과 같습니다.

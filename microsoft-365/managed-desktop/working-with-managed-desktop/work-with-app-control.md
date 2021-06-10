@@ -19,30 +19,30 @@ ms.locfileid: "50917643"
 ---
 # <a name="work-with-app-control"></a>앱 제어 작업
 
-사용자 환경에 앱 컨트롤이 배포되면 사용자와 Microsoft Managed Desktop 작업 모두 지속적인 책임을 집니다. 예를 들어 환경에 새 앱을 추가하거나 신뢰할 수 있는 서명자(또는 제거)를 할 수 있습니다. 보안을 강화하기 위해 사용자에게 릴리스하기 전에 모든 앱에 코드 서명을 해야 합니다. 앱의 게시자 세부 정보에는 서명자에 대한 정보가 포함됩니다.
+사용자 환경의 앱 컨트롤이 배포되면 사용자와 사용자 모두에게 Microsoft Managed Desktop 지속적인 책임이 있습니다. 예를 들어 환경에 새 앱을 추가하거나 신뢰할 수 있는 서명자(또는 제거)를 할 수 있습니다. 보안을 강화하기 위해 사용자에게 릴리스하기 전에 모든 앱에 코드 서명을 해야 합니다. 앱의 게시자 세부 정보에는 서명자에 대한 정보가 포함됩니다.
 
 
 ## <a name="add-a-new-app"></a>새 앱 추가
 
 새 앱을 추가하기 위해 다음 단계를 수행합니다.
 
-1. [Microsoft Intune에 앱을 추가합니다.](/mem/intune/apps/apps-win32-app-management)
+1. 에 앱을 [Microsoft Intune.](/mem/intune/apps/apps-win32-app-management)
 2. 테스트 링의 모든 디바이스에 앱을 배포합니다. 
 3. 표준 비즈니스 프로세스에 따라 앱을 테스트합니다. 
-4. Application **and Services Logs\Microsoft\Windows\AppLocker에서** 이벤트 뷰어를 확인하여 **8003 또는 8006** 이벤트를 **찾아야** 합니다. 이러한 이벤트는 앱이 차단될 것 것 을 나타냅니다. 모든 앱 보관 이벤트 및 해당 의미에 대한 자세한 내용은 [AppLocker와 함께](/windows/security/threat-protection/windows-defender-application-control/applocker/using-event-viewer-with-applocker)이벤트 뷰어 사용을 참조하세요.
-5. 이러한 이벤트가 발견되는 경우 Microsoft Managed Desktop Operations를 사용하여 서명자 요청을 하세요.
+4. Application **and Services Logs\Microsoft\Windows\AppLocker에서** 이벤트 뷰어를 확인하고 **8003 또는 8006** 이벤트를 **찾아야** 합니다. 이러한 이벤트는 앱이 차단될 것 것 을 나타냅니다. 모든 앱 보관 이벤트 및 해당 의미에 대한 자세한 내용은 [AppLocker와 함께](/windows/security/threat-protection/windows-defender-application-control/applocker/using-event-viewer-with-applocker)이벤트 뷰어 사용을 참조하세요.
+5. 이러한 이벤트가 발견되는 경우 Operations를 통해 서명자 요청을 Microsoft Managed Desktop 을 하세요.
 
 ## <a name="add-or-remove-a-trusted-signer"></a>신뢰할 수 있는 서명자 추가(또는 제거)
 
 서명자 요청을 열면 먼저 몇 가지 중요한 게시자 세부 정보를 제공해야 합니다. 그런 다음 다음 단계를 수행합니다.
 
 1. [게시자 세부 정보를 수집합니다.](#gather-publisher-details)
-2. Microsoft Managed Desktop Operations를 사용하여 티켓을 열어 서명자 규칙을 요청하고 다음 세부 정보를 포함합니다.  
-    - 응용 프로그램 이름 
+2. Microsoft Managed Desktop 티켓을 열어 서명자 규칙을 요청하고 다음 세부 정보를 포함합니다.  
+    - 애플리케이션 이름 
     - 응용 프로그램 버전 
     - 설명 
     - 변경 유형("추가" 또는 "제거")  
-    - 게시자 세부 정보(예: "O= <publisher name> ,L= <location> ,S=State,C=Country") 
+    - Publisher 세부 정보(예: "O= <publisher name> ,L= <location> ,S=State,C=Country") 
 
 > [!NOTE]
 > 앱에 대한 트러스트는 제거하려면 동일한 단계를 따르지만 변경 유형을 **설정하여** 를 *제거합니다.*
@@ -67,12 +67,12 @@ ms.locfileid: "50917643"
 
 앱의 게시자 데이터에 액세스하기 위해 다음 단계를 수행합니다.
 
-1. 감사 모드 정책이 적용된 테스트 링에서 Microsoft Managed Desktop 장치를 찾아야 합니다. 
+1. 감사 Microsoft Managed Desktop 정책이 적용된 테스트 링에서 디바이스를 찾을 수 있습니다. 
 2. 디바이스에 앱을 설치하려고 합니다.
 3. 디바이스에서 이벤트 뷰어를 니다. 
-4. 이벤트 뷰어에서 응용 프로그램 및 서비스 **로그\Microsoft\Windows로** 이동한 다음 **AppLocker 를 선택합니다.** 
+4. 이벤트 뷰어에서 응용 프로그램 및 서비스 **로그\Microsoft\Windows** 로 이동한 다음 **AppLocker 를 선택합니다.** 
 5. **8003** 또는 **8006 이벤트를 찾은** 다음 이벤트에서 정보를 복사합니다. 
-    - 응용 프로그램 이름 
+    - 애플리케이션 이름 
     - 응용 프로그램 버전 
     - 설명 
-    - 게시자 세부 정보(예: "O= <publisher name> , L= <location> , S=State, C=Country")
+    - Publisher 세부 정보(예: "O= <publisher name> , L= <location> , S=State, C=Country")

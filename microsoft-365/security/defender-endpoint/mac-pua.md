@@ -42,7 +42,7 @@ macOS의 끝점용 Microsoft Defender의 PUA(사용자 계정) 보호 기능은 
 
 이러한 응용 프로그램은 네트워크가 맬웨어에 감염될 위험을 높이고, 맬웨어 감염을 식별하기 더 어렵게 할 수 있으며, 응용 프로그램을 정리하는 데 IT 리소스를 낭비할 수 있습니다.
 
-## <a name="how-it-works"></a>작동 방식
+## <a name="how-it-works"></a>작동 방법
 
 MacOS의 끝점용 Microsoft Defender는 PUA 파일을 검색하고 보고할 수 있습니다. 차단 모드에서 구성하면 PUA 파일이 검지로 이동됩니다.
 
@@ -53,8 +53,8 @@ MacOS의 끝점용 Microsoft Defender는 PUA 파일을 검색하고 보고할 �
 macOS의 끝점용 Microsoft Defender의 PUA 보호는 다음 방법 중 하나에서 구성할 수 있습니다.
 
 - **Off**: PUA 보호를 사용할 수 없습니다.
-- **감사**: PUA 파일이 제품 로그에 보고되지만 Microsoft Defender 보안 센터에는 보고되지 않습니다. 사용자에게 알림이 제공된 것이 아니며 제품에 의해 아무 작업도 수행하지 않습니다.
-- **차단:** PUA 파일이 제품 로그 및 Microsoft Defender 보안 센터에 보고됩니다. 사용자에게 알림이 표시된 후 제품에 의해 작업이 수행됩니다.
+- **감사**: PUA 파일이 제품 로그에 보고되지만, PUA 파일에는 Microsoft Defender 보안 센터. 사용자에게 알림이 제공된 것이 아니며 제품에 의해 아무 작업도 수행하지 않습니다.
+- **차단:** PUA 파일이 제품 로그 및 검색된 Microsoft Defender 보안 센터. 사용자에게 알림이 표시된 후 제품에 의해 작업이 수행됩니다.
 
 >[!WARNING]
 >기본적으로 PUA 보호는 감사 모드에서 **구성됩니다.**

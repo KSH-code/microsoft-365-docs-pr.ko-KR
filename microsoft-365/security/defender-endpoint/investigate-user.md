@@ -60,7 +60,7 @@ ms.locfileid: "51935068"
 
 ### <a name="user-details"></a>사용자 세부 정보
 
-왼쪽의 사용자 세부 정보 창에서는 관련된 공개 인시던트, 활성 경고, SAM 이름, SID, ID 알림용 Microsoft Defender 경고, 사용자가 로그온한 장치 수, 사용자가 처음 및 마지막으로 본 때, 역할 및 로그온 유형과 같은 사용자에 대한 정보를 제공합니다.  사용하도록 설정한 통합 기능에 따라 다른 세부 정보가 표시됩니다. 예를 들어 비즈니스용 Skype 통합을 사용하도록 설정하면 포털에서 사용자에게 연락할 수 있습니다. **Azure ATP 경고** 섹션에는 Id에 대한 Microsoft Defender 기능을 사용하도록 설정한 경우 Id에 대한 Microsoft Defender 페이지로 이동하는 링크가 포함되어 있으며 사용자와 관련된 알림이 있습니다. Microsoft Defender for Identity 페이지에서 경고에 대한 자세한 정보를 제공합니다.
+왼쪽의 사용자 세부 정보 창에서는 관련된 공개 인시던트, 활성 경고, SAM 이름, SID, ID 알림용 Microsoft Defender 경고, 사용자가 로그온한 장치 수, 사용자가 처음 및 마지막으로 본 때, 역할 및 로그온 유형과 같은 사용자에 대한 정보를 제공합니다.  사용하도록 설정한 통합 기능에 따라 다른 세부 정보가 표시됩니다. 예를 들어 비즈니스용 Skype 사용하도록 설정하면 포털에서 사용자에게 연락할 수 있습니다. **Azure ATP 경고** 섹션에는 Id에 대한 Microsoft Defender 기능을 사용하도록 설정한 경우 Id에 대한 Microsoft Defender 페이지로 이동하는 링크가 포함되어 있으며 사용자와 관련된 알림이 있습니다. Microsoft Defender for Identity 페이지에서 경고에 대한 자세한 정보를 제공합니다.
 
 >[!NOTE]
 >이 기능을 사용하려면 ID용 Microsoft Defender 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. Endpoint용 Defender에서 고급 기능에서 이 기능을 사용하도록 설정할 수 있습니다. 고급 기능을 사용하도록 설정하는 방법에 대한 자세한 내용은 고급 기능 [켜기 를 참조하세요.](advanced-features.md)

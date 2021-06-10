@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender 보안 센터에 대한 사용자 액세스 할당
+title: 사용자 액세스 권한을 Microsoft Defender 보안 센터
 description: 끝점용 Microsoft Defender 포털에 대한 읽기 및 쓰기 또는 읽기 전용 권한을 할당합니다.
 keywords: 사용자 역할 할당, 읽기 및 쓰기 액세스 할당, 읽기 전용 액세스 할당, 사용자, 사용자 역할, 역할
 search.product: eADQiWindows 10XVcnh
@@ -24,7 +24,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51164774"
 ---
-# <a name="assign-user-access-to-microsoft-defender-security-center"></a>Microsoft Defender 보안 센터에 대한 사용자 액세스 할당
+# <a name="assign-user-access-to-microsoft-defender-security-center"></a>사용자 액세스 권한을 Microsoft Defender 보안 센터
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -32,7 +32,7 @@ ms.locfileid: "51164774"
 **적용 대상:**
 - Azure Active Directory
 - Office 365
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -52,5 +52,5 @@ Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [기본 사용 권한을 사용하여 포털 액세스](basic-permissions.md)
+- [기본 권한을 사용하여 포털에 액세스](basic-permissions.md)
 - [RBAC를 사용하여 포털 액세스 관리](rbac.md)

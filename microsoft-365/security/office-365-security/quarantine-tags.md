@@ -29,7 +29,7 @@ ms.locfileid: "52274463"
 > [!NOTE]
 > 이 문서에서 설명하는 기능은 현재 미리 보기로 제공되어 있으며 모든 사람이 사용할 수 있으며 변경될 수 있습니다.
 
-EOP(Exchange Online Protection)에서 태그를 검역하면 관리자가 메시지가 검역에 도착한 방법에 따라 사용자가 자신의 검역된 메시지에 대해 할 수 있는 작업을 제어할 수 있습니다.
+EOP(Exchange Online Protection)의 태그를 사용하여 관리자는 메시지가 검사에 도착한 방식에 따라 사용자가 자신의 검사된 메시지에 대해 할 수 있는 작업을 제어할 수 있습니다.
 
 EOP는 일반적으로 메시지에 대해 특정 수준의 대화형 작업 [](find-and-release-quarantined-messages-as-a-user.md) 수준을 허용하거나 차단하고 있으며, 이러한 대화형 작업 수준은 최종 사용자 스팸 [알림에서 허용되거나 차단되었습니다.](use-spam-notifications-to-release-and-report-quarantined-messages.md) 예를 들어 최종 사용자는 스팸 방지 필터링에 의해 스팸 또는 대량으로 검색된 메시지를 보고 해제할 수 있지만 높은 신뢰도 피싱으로 분류된 메시지를 보거나 해제할 수 없습니다.
 
@@ -59,7 +59,7 @@ EOP는 일반적으로 메시지에 대해 특정 수준의 대화형 작업 [](
 
 미리 설정한 사용 권한 그룹의 기본 사용 권한이 원하지 않는 경우 사용자 지정 검지 태그를 만들거나 수정할 때 사용자 지정 권한을 사용할 수 있습니다. 각 사용 권한의 작동에 대한 자세한 내용은 이 문서 의 부분에 있는 태그 사용 권한 세부 정보 [Quarantine tag permission details](#quarantine-tag-permission-details) 섹션을 참조하십시오.
 
-보안 & 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 EOP 조직의 독립 실행형 EOP PowerShell)에서 검역 태그를 만들고 할당합니다.
+보안 & 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, 사서함이 없는 EOP 조직의 독립 실행형 EOP PowerShell에서 Exchange Online 태그를 만들고 할당합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
@@ -111,7 +111,7 @@ EOP는 일반적으로 메시지에 대해 특정 수준의 대화형 작업 [](
 
 ### <a name="create-quarantine-tags-in-powershell"></a>PowerShell에서 Quarantine 태그 만들기
 
-PowerShell을 사용하여 검역 태그를 만들 경우 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에 연결하고 **New-QuarantineTag** cmdlet을 사용하세요. 다음 두 가지 방법으로 선택할 수 있습니다.
+PowerShell을 사용하여 Quarantine 태그를 만들 수 있는 경우 PowerShell 또는 Exchange Online PowerShell에 Exchange Online Protection **New-QuarantineTag** cmdlet을 사용 합니다. 다음 두 가지 방법으로 선택할 수 있습니다.
 
 - _EndUserQuarantinePermissionsValue 매개 변수를_ 사용합니다.
 - _EndUserQuarantinePermissions 매개 변수를_ 사용합니다.
@@ -238,14 +238,14 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 |기능|태그를 검사 지원하나요?|사용되는 기본 검지 태그|
 |---|:---:|---|
-|[스팸 방지 정책](configure-your-spam-filter-policies.md): <ul><li>**Spam(** _SpamAction_)</li><li>**높은 지수 스팸(** _HighConfidenceSpamAction_)</li><li>**피싱 전자 메일(** _PhishSpamAction_)</li><li>**높은 신뢰도 피싱 전자 메일(** _HighConfidencePhishAction_)</li><li>**대량 전자 메일(** _BulkSpamAction_)</li></ul>|예|<ul><li>DefaultSpamTag(모든 액세스)</li><li>DefaultHighConfSpamTag(모든 액세스)</li><li>DefaultPhishTag(모든 액세스)</li><li>DefaultHighConfPhishTag(액세스 없음)</li><li>DefaultBulkTag(모든 액세스)</li></ul>
-|피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호(](set-up-anti-phishing-policies.md#spoof-settings) _AuthenticationFailAction_)</li><li>[가장 보호](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**가장된 사용자가** 전자 메일을 보낸 경우(_TargetedUserProtectionAction_)</li><li>**가장된** 도메인에서 전자 메일을 보낸 경우(_TargetedDomainProtectionAction_)</li><li>**사서함 인텔리전스** \> **가장된 사용자가** 전자 메일을 보낸 경우(_MailboxIntelligenceProtectionAction_)</li></ul></li></ul></ul>|아니요|해당 없음|
-|[맬웨어 방지 정책:](configure-anti-malware-policies.md)검색된 모든 메시지는 항상 차단됩니다.|아니요|해당 없음|
-|[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)|아니요|해당 없음|
-|[메일 흐름 규칙(전송](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 규칙)에 다음  작업을 수행하여 메시지를 호스팅된 검사(_Quarantine)로 배달합니다._|아니요|해당 없음|
+|[스팸 방지 정책](configure-your-spam-filter-policies.md): <ul><li>**Spam(** _SpamAction_)</li><li>**높은 지수 스팸(** _HighConfidenceSpamAction_)</li><li>**피싱 전자 메일(** _PhishSpamAction_)</li><li>**높은 신뢰도 피싱 전자 메일(** _HighConfidencePhishAction_)</li><li>**대량 전자 메일(** _BulkSpamAction_)</li></ul>|네.|<ul><li>DefaultSpamTag(모든 액세스)</li><li>DefaultHighConfSpamTag(모든 액세스)</li><li>DefaultPhishTag(모든 액세스)</li><li>DefaultHighConfPhishTag(액세스 없음)</li><li>DefaultBulkTag(모든 액세스)</li></ul>
+|피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호(](set-up-anti-phishing-policies.md#spoof-settings) _AuthenticationFailAction_)</li><li>[가장 보호](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**가장된 사용자가** 전자 메일을 보낸 경우(_TargetedUserProtectionAction_)</li><li>**가장된** 도메인에서 전자 메일을 보낸 경우(_TargetedDomainProtectionAction_)</li><li>**사서함 인텔리전스** \> **가장된 사용자가** 전자 메일을 보낸 경우(_MailboxIntelligenceProtectionAction_)</li></ul></li></ul></ul>|아니요.|해당 없음|
+|[맬웨어 방지 정책:](configure-anti-malware-policies.md)검색된 모든 메시지는 항상 차단됩니다.|아니요.|해당 없음|
+|[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)|아니요.|해당 없음|
+|[메일 흐름 규칙(전송](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 규칙)에 다음  작업을 수행하여 메시지를 호스팅된 검사(_Quarantine)로 배달합니다._|아니요.|해당 없음|
 |
 
-<sup>\*</sup> 가장 보호 설정은 Microsoft Defender for Office 365의 피싱 방지 정책에서만 사용할 수 있습니다.
+<sup>\*</sup>가장 보호 설정은 Microsoft Defender에서 피싱 방지 정책에서만 사용할 수 Office 365.
 
 기본 Quarantine 태그에서 제공하는 최종 사용자 권한이 만족스러우면 아무 것도 할 필요가 없습니다. 최종 사용자 스팸 알림 또는 검지된 메시지 세부 정보에서 최종 사용자 기능(사용 가능한 단추)을 사용자 지정하려는 경우 사용자 지정 검지 태그를 할당할 수 있습니다.
 
@@ -269,13 +269,13 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 #### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>PowerShell에서 스팸 방지 정책에서 스팸 방지 태그 할당
 
-PowerShell을 사용하여 스팸 방지 정책에서 검역 태그를 할당할 경우 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에 연결하고 다음 구문을 사용하세요.
+PowerShell을 사용하여 스팸 방지 정책에서 스팸 방지 태그를 할당하는 경우 powerShell 또는 Exchange Online PowerShell에 Exchange Online Protection 다음 구문을 사용하십시오.
 
 ```powershell
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
 ```
 
-**참고**:
+**참고:**
 
 - _HighConfidencePhishAction_ 매개 변수의 기본값은 Quarantine이기 때문에 새로운 스팸 방지 정책에서 높은 신뢰도의 피싱 검색에 대해 Quarantine 작업을 설정할 필요가 없습니다. 새 스팸 방지 정책 또는 기존 스팸 방지 정책의 다른 모든 스팸 필터링 판정에 대해, 작업 값이 Quarantine인 경우만 검지 태그가 적용됩니다. 기존 스팸 방지 정책의 작업 값을 표시하기 위해 다음 명령을 실행합니다.
 
@@ -320,7 +320,7 @@ Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine
 
 3. 열 수 있는 **Quarantine notification settings** flyout에서 다음 설정의 일부 또는 전체를 구성합니다.
 
-   - **회사 로고 사용:** 최종 사용자 스팸 알림의 맨 위에 있는 기본 Microsoft 로고를 대체하려면 이 옵션을 선택합니다. 이 작업을 수행하기 전에 사용자 지정 로고를 업로드하려면 조직의 [Microsoft 365](../../admin/setup/customize-your-organization-theme.md) 테마 사용자 지정의 지침을 따라야 합니다.
+   - **회사 로고 사용:** 최종 사용자 스팸 알림의 맨 위에 있는 기본 Microsoft 로고를 대체하려면 이 옵션을 선택합니다. 이 작업을 수행하기 전에 조직에서 [](../../admin/setup/customize-your-organization-theme.md) 사용자 지정 로고를 업로드할 Microsoft 365 테마 사용자 지정의 지침을 따라야 합니다.
 
      다음 스크린샷은 최종 사용자 스팸 알림의 사용자 지정 로고를 보여줍니다.
 
@@ -382,7 +382,7 @@ PowerShell을 사용하여 태그를 볼 수 있는 경우 다음 단계를 수�
 
 ## <a name="remove-quarantine-tags-in-the-security--compliance-center"></a>보안 및 준수 센터에서 & 태그 제거
 
-**참고**:
+**참고:**
 
 - 기본 제공 분리 태그는 제거할 수 없습니다.
 

@@ -100,7 +100,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | navigationTarget |
-| **Data type** | 문자열 |
+| **Data type** | String |
 | **Comments** | 정의되지 않은 경우 제품이 수행한 작업을 설명하는 일반 페이지를 표시하는 기본 URL을 사용합니다. |
 
 ### <a name="allow-or-block-removable-devices"></a>이동식 장치 허용 또는 차단

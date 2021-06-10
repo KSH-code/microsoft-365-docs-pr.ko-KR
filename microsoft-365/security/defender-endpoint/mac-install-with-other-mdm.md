@@ -68,7 +68,7 @@ MacOS의 끝점용 Microsoft Defender는 공급업체별 기능에 의존하지 
 
 ### <a name="package"></a>패키지
 
-Microsoft Defender [](mac-install-with-jamf.md)보안 센터에서 다운로드한 설치 패키지(wdav.pkg)를 통해 필수 응용 프로그램 패키지의 [배포를 구성합니다.](mac-install-with-jamf.md)
+에서 다운로드한 설치 패키지(wdav.pkg)를 통해 필수 응용 프로그램 패키지의 [배포를 Microsoft Defender 보안 센터.](mac-install-with-jamf.md) [](mac-install-with-jamf.md)
 
 엔터프라이즈에 패키지를 배포하기 위해 MDM 솔루션과 관련된 지침을 사용하세요.
 
@@ -76,9 +76,9 @@ Microsoft Defender [](mac-install-with-jamf.md)보안 센터에서 다운로드�
 
 시스템 [구성 프로필을 설정합니다.](mac-install-with-jamf.md) 
 
-MacOS의 끝점용 Microsoft Defender는 macOS의 일부가 아니기에 MDM 솔루션에서 "사용자 지정 설정 프로필"처럼 호출할 수 있습니다.
+MacOS의 끝점용 Microsoft Defender는 macOS의 일부가 아니기 때문에 MDM 솔루션에서 "사용자 지정 설정 프로필"처럼 호출할 수 있습니다.
 
-Microsoft Defender 보안 센터에서 다운로드한 등록 패키지에서 추출할 수 있는 속성 목록 jamf/WindowsDefenderATPOnboarding.plist를 [사용하세요.](mac-install-with-jamf.md)
+에서 다운로드한 등록 패키지에서 추출할 수 있는 속성 목록 jamf/WindowsDefenderATPOnboarding.plist를 [Microsoft Defender 보안 센터.](mac-install-with-jamf.md)
 시스템에서 임의의 속성 목록을 XML 형식으로 지원할 수 있습니다. jamf/WindowsDefenderATPOnboarding.plist 파일을 현재 있는 것으로 업로드할 수 있습니다.
 또는 먼저 속성 목록을 다른 형식으로 변환해야 할 수 있습니다.
 
@@ -104,7 +104,7 @@ KEXT 또는 커널 확장 정책을 설정합니다. 팀 식별자 **UBF8T346G9�
 
 다음 구성 요소에 대한 전체 디스크 액세스 권한을 부여합니다.
 
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
     - 식별자: `com.microsoft.wdav`
     - 식별자 유형: 번들 ID
     - 코드 요구 사항: `identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`
@@ -116,7 +116,7 @@ KEXT 또는 커널 확장 정책을 설정합니다. 팀 식별자 **UBF8T346G9�
 
 ### <a name="network-extension-policy"></a>네트워크 확장 정책
 
-끝점 감지 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
+끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
 - 필터 유형: 플러그 인
 - 플러그 인 번들 식별자: `com.microsoft.wdav`

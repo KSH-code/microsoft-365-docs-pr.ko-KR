@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender for Endpoint Service에서 장치 오프보딩
-description: Microsoft Defender for Endpoint Service에서 Windows 10 장치, 서버, 비 Windows 장치 온보딩
+description: 끝점 Windows 10 Microsoft Defender의 Windows, 서버, 비영구 장치 온보딩
 keywords: 오프보딩, 끝점 오프보딩용 Microsoft Defender, 오프보딩
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -45,10 +45,10 @@ ms.locfileid: "51934156"
 >[!NOTE]
 > 장치 상태는 오프보더 후 [7일](fix-unhealthy-sensors.md#inactive-devices) 후에 비활성으로 전환됩니다. <br> 오프보더된 장치의 데이터(예: 타임라인, 경고, 취약성 등)는 구성된 보존 기간이 만료될 때까지 [포털에](data-storage-privacy.md#how-long-will-microsoft-store-my-data-what-is-microsofts-data-retention-policy) 유지됩니다. <br>
 > 디바이스의 프로필(데이터 없이)은 180일 이상 장치 목록에 남아 있습니다. [](machines-view-overview.md)
-> 또한 지난 30일 동안 활성이 아닌 장치는 조직의 위협 및 취약성 관리 노출 점수와 장치용 Microsoft 보안 점수를 반영하는 데이터에 반영되지 않습니다. [](tvm-exposure-score.md) <br>
+> 또한 지난 30일 동안 활성이 아닌 장치는 조직의 노출 점수와 장치에 대한 Microsoft 보안 [](tvm-exposure-score.md) 점수를 위협 및 취약성 관리 영향을 미치지 않습니다. <br>
 > 활성 장치만 표시하려면 상태, [](machines-view-overview.md#health-state)장치 [](machine-tags.md) 태그 또는 컴퓨터 그룹 을 [필터링할 수 있습니다.](machine-groups.md) 
 
-## <a name="offboard-windows-10-devices"></a>Windows 10 장치 오프보드
+## <a name="offboard-windows-10-devices"></a>장치 Windows 10 오프보드
 - [로컬 스크립트를 사용하여 디바이스 오프보딩](configure-endpoints-script.md#offboard-devices-using-a-local-script)
 - [그룹 정책을 사용하여 디바이스 오프보드](configure-endpoints-gp.md#offboard-devices-using-group-policy)
 - [모바일 장치 관리 도구를 사용하여 장치 오프보드](configure-endpoints-mdm.md#offboard-and-monitor-devices-using-mobile-device-management-tools)
@@ -56,6 +56,6 @@ ms.locfileid: "51934156"
 ## <a name="offboard-servers"></a>오프보드 서버
 - [오프보드 서버](configure-server-endpoints.md#offboard-windows-servers)
 
-## <a name="offboard-non-windows-devices"></a>비 Windows 장치 온보드
-- [비 Windows 장치 온보드](configure-endpoints-non-windows.md#offboard-non-windows-devices)
+## <a name="offboard-non-windows-devices"></a>비보안 Windows 오프보드
+- [비보안 Windows 오프보드](configure-endpoints-non-windows.md#offboard-non-windows-devices)
 

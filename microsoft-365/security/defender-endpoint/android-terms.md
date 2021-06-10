@@ -105,7 +105,7 @@ ms.locfileid: "51934624"
 
     2.  각 응용 프로그램 저장소 공급자와 해당 자회사는 본 약관의 제3자 수혜자입니다. 본 약관에 동의하면 응용 프로그램 저장소 공급자는 혜택 또는 권한을 부여하는 본 약관의 조항을 직접 적용하고 이에 따라 사용할 수 있는 권한을 가합니다.
 
-9.  **상표 고지.** Microsoft, Endpoint용 Microsoft Defender 및 Microsoft 365는 미국 및/또는 기타 국가에서 Microsoft Corporation의 등록 또는 일반 법률 상표입니다.
+9.  **상표 고지.** Microsoft, Endpoint용 Microsoft Defender 및 Microsoft 365 미국 및/또는 기타 국가에서 Microsoft Corporation의 등록 또는 일반 법률 상표입니다.
 
 10. **ENTIRE AGREEMENT.** 본 계약 및 사용하는 보충 서비스, 업데이트, 인터넷 기반 서비스 및 지원 서비스에 대한 약관은 응용 프로그램 및 지원 서비스에 대한 전체 계약입니다.
 

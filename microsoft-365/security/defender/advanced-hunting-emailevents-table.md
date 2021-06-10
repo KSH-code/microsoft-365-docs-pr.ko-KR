@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스키마의 EmailEvents 표
-description: 고급 헌팅 스위마의 EmailEvents 표에서 Microsoft 365 전자 메일과 관련된 이벤트에 대해 자세히 알아보기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석,chema reference, kusto, table, column, data type, description, EmailEvents, network message id, sender, recipient, attachment id, attachment name, malwaredict, phishing verdict, attachment count, link count, url count
+description: 고급 헌팅 Microsoft 365 EmailEvents 표에서 전자 메일과 관련된 이벤트에 대해 자세히 알아보기
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, EmailEvents, network message id, sender, recipient, attachment id, attachment name, malwaredict, phishing verdict, attachment count, link count, url count
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -35,7 +35,7 @@ ms.locfileid: "51935488"
 
 - Microsoft 365 Defender
 
-고급 `EmailEvents` 헌팅 [schema의](advanced-hunting-overview.md) 표에는 Office 365용 Microsoft Defender에서 전자 메일 처리와 관련된 이벤트에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 `EmailEvents` 헌팅 [schema의](advanced-hunting-overview.md) 표에는 Microsoft Defender for Office 365. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
 > 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` Schema 참조를 사용합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "51935488"
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
-| `NetworkMessageId` | 문자열 | Microsoft 365에서 생성되는 전자 메일의 고유 식별자 |
+| `NetworkMessageId` | 문자열 | 전자 메일에서 생성되는 전자 메일의 고유 Microsoft 365 |
 | `InternetMessageId` | 문자열 | 보내는 전자 메일 시스템에서 설정한 전자 메일의 공개 식별자 |
 | `SenderMailFromAddress` | 문자열 | 보낸 사람 머리글의 보낸 사람 전자 메일 주소(봉투의 보낸 사람 또는 반송 경로 주소라고도 함) |
 | `SenderFromAddress` | 문자열 | 전자 메일 클라이언트의 전자 메일 수신자에게 표시되는 FROM 머리글의 발신자 전자 메일 주소  |

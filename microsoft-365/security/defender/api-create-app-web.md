@@ -1,6 +1,6 @@
 ---
-title: 사용자 없이 Microsoft 365 Defender에 액세스하는 앱 만들기
-description: 사용자 없이 Microsoft 365 Defender에 액세스하는 앱을 만드는 방법을 학습합니다.
+title: 사용자 없이 Microsoft 365 액세스하는 앱 만들기
+description: 사용자 없이 Microsoft 365 액세스하는 앱을 만드는 방법을 학습합니다.
 keywords: 앱, 액세스, api, 만들기
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51074796"
 ---
-# <a name="create-an-app-to-access-microsoft-365-defender-without-a-user"></a>사용자 없이 Microsoft 365 Defender에 액세스하는 앱 만들기
+# <a name="create-an-app-to-access-microsoft-365-defender-without-a-user"></a>사용자 없이 Microsoft 365 액세스하는 앱 만들기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,38 +38,38 @@ ms.locfileid: "51074796"
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-이 페이지에서는 정의된 사용자 없이 Microsoft 365 Defender에 프로그래밍 방식 액세스(예: 디먼 또는 백그라운드 서비스를 만드는 경우)를 만드는 방법을 설명합니다.
+이 페이지에서는 디먼 또는 백그라운드 서비스를 만드는 경우와 같이 정의된 사용자 없이 Microsoft 365 Defender에 프로그래밍 방식의 액세스 권한을 부여하는 응용 프로그램을 만드는 방법을 설명합니다.
 
-하나 이상의 사용자를 대신하여 Microsoft 365 Defender에 프로그래밍된 액세스 권한이 필요한 경우 사용자를 대신하여 [Microsoft 365 Defender](api-create-app-user-context.md) API에 액세스하는 앱 만들기 및 Microsoft [365 Defender](api-partner-access.md)API에 대한 파트너 액세스가 있는 앱 만들기를 참조하세요. 필요한 액세스 종류가 확실하지 않은 경우 [시작을 참조합니다.](api-access.md)
+하나 이상의 사용자를 대신하여 Microsoft 365 Defender에 프로그래밍된 액세스 권한이 필요한 경우 사용자를 대신하여 Microsoft 365 [Defender](api-create-app-user-context.md) API에 액세스하는 앱 만들기 및 파트너가 Microsoft 365 [Defender](api-partner-access.md)API에 액세스할 수 있는 앱 만들기를 참조하세요. 필요한 액세스 종류가 확실하지 않은 경우 [시작을 참조합니다.](api-access.md)
 
-Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API는 워크플로를 자동화하고 Microsoft 365 Defender의 기능을 활용하는 데 도움이 됩니다. 이 API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 권한 부여 코드 흐름을 참조하세요.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 사용하면 워크플로를 자동화하고 Microsoft 365 기능을 사용할 수 있습니다. 이 API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 일반적으로 이러한 API를 사용하려면 다음 단계를 수행해야 합니다.
 
-- Azure AD(Azure Active Directory) 응용 프로그램을 만드십시오.
+- Azure AD(Azure Active Directory 응용 프로그램을 만들 수 있습니다.
 - 이 응용 프로그램을 사용하여 액세스 토큰을 얻습니다.
-- 토큰을 사용하여 Microsoft 365 Defender API에 액세스합니다.
+- 토큰을 사용하여 Defender API에 Microsoft 365 액세스합니다.
 
 이 문서에서는 이러한 방법을 설명합니다.
 
 - Azure AD 응용 프로그램 만들기
-- Microsoft 365 Defender에 대한 액세스 토큰 다운로드
+- Defender에 액세스 토큰을 Microsoft 365 수 있습니다.
 - 토큰의 유효성을 검사합니다.
 
 ## <a name="create-an-app"></a>앱 만들기
 
 1. 전역 관리자 역할을 사용하여 [사용자로 Azure에](https://portal.azure.com) **로그인합니다.**
 
-2. Azure **Active Directory**  >  **앱 등록 새**  >  **등록으로 이동합니다.**
+2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.**
 
-   ![Microsoft Azure의 이미지 및 응용 프로그램 등록 탐색](../../media/atp-azure-new-app2.png)
+   ![응용 Microsoft Azure 탐색 및 이미지](../../media/atp-azure-new-app2.png)
 
 3. 양식에서 응용 프로그램의 이름을 선택한 다음 등록을 **선택합니다.**
 
-4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 api를 >  >    >   Microsoft **Threat Protection을** 입력하고 **Microsoft Threat Protection을 선택합니다.** 이제 앱이 Microsoft 365 Defender에 액세스할 수 있습니다.
+4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 API를 선택하고 > 를 Microsoft Threat Protection  >    >   를 **Microsoft Threat Protection.**  이제 앱이 Defender에 액세스할 Microsoft 365 있습니다.
 
    > [!TIP]
-   > *Microsoft Threat Protection은* Microsoft 365 Defender의 이전 이름으로, 원래 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
+   > *Microsoft Threat Protection* 은 Microsoft 365 Defender의 이전 이름으로, 원래 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
 
    ![API 권한 선택 이미지](../../media/apis-in-my-org-tab.PNG)
 
@@ -97,13 +97,13 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터�
 
    ![생성된 앱 ID의 이미지](../../media/app-and-tenant-ids.png)
 
-9. **Microsoft 365 Defender 파트너만:** [](./api-partner-access.md) Microsoft 365 Defender API를 통한 파트너 액세스에 대한 다음 지침을 따르고, 앱을 다중 테넌트로 설정하여 관리자 동의를 받은 후 모든 테넌트에서 사용할 수 있습니다. 타사 앱에 대해 파트너 액세스가 필요합니다. 예를 들어 여러 고객의 테넌트에서 실행하도록 고안된 앱을 만드는 경우  테넌트에서만 실행하려는 서비스를 만드는 경우(예: 사용자 데이터와만 상호 작용하는 자체 사용을 위한 응용 프로그램) 이 서비스는 필요하지 않습니다.  앱을 다중 테넌트로 설정:
+9. **Microsoft 365 Defender 파트너만:** Microsoft 365 [](./api-partner-access.md) Defender API를 통한 파트너 액세스에 대한 다음 지침을 따르고, 관리자 동의를 받은 후 모든 테넌트에서 사용할 수 있도록 앱을 다중 테넌트로 설정하세요. 타사 앱에 대해 파트너 액세스가 필요합니다. 예를 들어 여러 고객의 테넌트에서 실행하도록 고안된 앱을 만드는 경우  테넌트에서만 실행하려는 서비스를 만드는 경우(예: 사용자 데이터와만 상호 작용하는 자체 사용을 위한 응용 프로그램) 이 서비스는 필요하지 않습니다.  앱을 다중 테넌트로 설정:
 
     - 인증으로 **이동하여** https://portal.azure.com 리디렉션 **URI로 추가합니다.**
 
     - 페이지 아래쪽의 지원되는 계정 유형에서 다중  테넌트 앱에 대한 조직 디렉터리 응용 프로그램 동의의 계정을 선택합니다.
 
-    응용 프로그램은 사용자를 대신하여 Microsoft 365 Defender와 상호 작용하기 때문에 응용 프로그램을 사용하려는 모든 테넌트에 대해 승인이 필요합니다.
+    응용 프로그램은 사용자를 Microsoft 365 Defender와 상호 작용하기 때문에 응용 프로그램을 사용하려는 모든 테넌트에 대해 승인이 필요합니다.
 
     각 테넌트에 대한 Active Directory 전역 관리자는 동의 링크를 선택하고 앱을 승인해야 합니다.
 
@@ -119,7 +119,7 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터�
 
 ## <a name="get-an-access-token"></a>액세스 토큰을 얻게 됩니다.
 
-Azure Active Directory 토큰에 대한 자세한 내용은 [Azure AD 자습서를 참조하세요.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+토큰에 대한 Azure Active Directory [Azure AD 자습서를 참조하세요.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 > [!IMPORTANT]
 > 이 섹션의 예제에서는 테스트를 위해 비밀 값에 붙여 넣는 것이 까다로우지만 프로덕션에서 실행되는 응용 프로그램에 암호를 하드코드하면 안 됩니다.  제3자에서 해당 비밀을 사용하여 리소스에 액세스할 수 있습니다. Azure Key Vault를 사용하여 앱의 비밀을 안전하게 [유지할 수 있습니다.](/azure/key-vault/general/about-keys-secrets-certificates) 앱을 보호하는 방법에 대한 실제 예제는 Azure Key Vault를 사용하여 서버 앱의 암호 [관리를 참조하세요.](/learn/modules/manage-secrets-with-azure-key-vault/)
@@ -158,7 +158,7 @@ return $token
 
 1. 새 콘솔 응용 프로그램을 만들 수 있습니다.
 
-1. NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory를 설치합니다.](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)
+1. [Microsoft.NuGet.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)를 설치합니다.
 
 1. 다음 줄을 추가합니다.
 
@@ -215,13 +215,13 @@ aadToken = jsonResponse["access_token"]
 ### <a name="get-an-access-token-using-curl"></a>컬을 사용하여 액세스 토큰을 얻다
 
 > [!NOTE]
-> 컬은 Windows 10 버전 1803 이상에 미리 설치되어 있습니다. 다른 버전의 Windows의 경우 공식 컬 웹 사이트에서 직접 도구를 [다운로드하여 설치합니다.](https://curl.haxx.se/windows/)
+> 컬은 1803 이상의 Windows 10 버전에 미리 설치됩니다. 다른 버전의 Windows 공식 컬 웹 사이트에서 직접 도구를 [다운로드하여 설치합니다.](https://curl.haxx.se/windows/)
 
 1. 명령 프롬프트를 열고 azure CLIENT_ID ID로 설정하십시오.
 
 1. Azure CLIENT_SECRET 비밀로 설정하세요.
 
-1. 앱을 TENANT_ID Microsoft 365 Defender에 액세스하려는 고객의 Azure 테넌트 ID로 설정하세요.
+1. 앱을 TENANT_ID Defender에 액세스하려는 고객의 Azure 테넌트 ID로 Microsoft 365.
 
 1. 다음 명령을 실행합니다.
 
@@ -245,9 +245,9 @@ aadToken = jsonResponse["access_token"]
 
    ![토큰 유효성 검사 이미지](../../media/webapp-decoded-token.png)
 
-## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>토큰을 사용하여 Microsoft 365 Defender API에 액세스
+## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>토큰을 사용하여 Microsoft 365 API에 액세스
 
-1. 사용할 API(인시던트 또는 고급 헌팅)를 선택하십시오. 자세한 내용은 지원되는 [Microsoft 365 Defender API를 참조하세요.](api-supported.md)
+1. 사용할 API(인시던트 또는 고급 헌팅)를 선택하십시오. 자세한 내용은 Supported [Microsoft 365 Defender API를 참조하세요.](api-supported.md)
 
 2. 보내고자 하는 http 요청에서 권한 부여 헤더를 , 권한 부여 체계인 `"Bearer" <token>` *Bearer로* 설정하고 유효성이 검사된 토큰인 토큰을 으로 설정합니다. 
 
@@ -267,10 +267,10 @@ aadToken = jsonResponse["access_token"]
 ## <a name="related-articles"></a>관련 문서
 
 - [Microsoft 365 Defender API 개요](api-overview.md)
-- [Microsoft 365 Defender API 액세스](api-access.md)
+- [Microsoft 365 Defender API에 액세스](api-access.md)
 - ['Hello world' 응용 프로그램 만들기](api-hello-world.md)
 - [사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 앱 만들기](api-create-app-user-context.md)
-- [Microsoft 365 Defender API에 대한 다중 테넌트 파트너 액세스가 있는 앱 만들기](api-partner-access.md)
+- [다중 테넌트 파트너 액세스 권한이 있는 앱 만들기Microsoft 365 Defender API](api-partner-access.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)
 - [Azure Key Vault를 사용하여 서버 앱의 비밀 관리](/learn/modules/manage-secrets-with-azure-key-vault/)
