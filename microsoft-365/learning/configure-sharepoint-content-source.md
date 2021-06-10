@@ -22,10 +22,10 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/05/2021
 ms.locfileid: "52782780"
 ---
-# <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a><span data-ttu-id="e4c57-103">Microsoft SharePoint 학습용 콘텐츠 원본으로 구성(미리 보기)</span><span class="sxs-lookup"><span data-stu-id="e4c57-103">Configure SharePoint as a learning content source for Microsoft Viva Learning (Preview)</span></span>
+# <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a><span data-ttu-id="e270f-103">Microsoft SharePoint 학습용 콘텐츠 원본으로 구성(미리 보기)</span><span class="sxs-lookup"><span data-stu-id="e270f-103">Configure SharePoint as a learning content source for Microsoft Viva Learning (Preview)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e4c57-104">이 기능은 제품 미리 보기에서 아직 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e4c57-104">This feature is not yet available in product preview.</span></span> 
+> <span data-ttu-id="e270f-104">이 기능은 제품 미리 보기에서 아직 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e270f-104">This feature is not yet available in product preview.</span></span> 
 
 
 
