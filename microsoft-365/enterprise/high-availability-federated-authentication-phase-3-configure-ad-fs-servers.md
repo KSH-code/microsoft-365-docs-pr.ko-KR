@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
-description: Microsoft Azure에서 Microsoft 365에 대한 고가용성 페더전 인증을 위한 AD FS 서버를 만들고 구성하는 방법을 설명합니다.
+description: 2016년 6월 1일부로 전송되는 2013의 고가용성 페더전 인증을 위한 AD FS 서버를 만들고 Microsoft 365 Microsoft Azure.
 ms.openlocfilehash: 388a99aa496c4ecd9145759d4dfb1b9441b4fb2c
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -23,37 +23,37 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50909801"
 ---
-# <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a><span data-ttu-id="9c13b-103">고가용성 페더레이션 인증 3단계: AD FS 서버 구성</span><span class="sxs-lookup"><span data-stu-id="9c13b-103">High availability federated authentication Phase 3: Configure AD FS servers</span></span>
+# <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a><span data-ttu-id="60dc2-103">고가용성 페더레이션 인증 3단계: AD FS 서버 구성</span><span class="sxs-lookup"><span data-stu-id="60dc2-103">High availability federated authentication Phase 3: Configure AD FS servers</span></span>
 
-<span data-ttu-id="9c13b-104">Azure 인프라 서비스에서 Microsoft 365 페더링 인증에 대한 고가용성을 배포하는 이 단계에서는 내부 부하 균형 조정 및 AD FS 서버 2대를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-104">In this phase of deploying high availability for Microsoft 365 federated authentication in Azure infrastructure services, you create an internal load balancer and two AD FS servers.</span></span>
+<span data-ttu-id="60dc2-104">Azure 인프라 서비스에서 Microsoft 365 페더링 인증에 대한 고가용성을 배포하는 이 단계에서는 내부 부하 균형 조정 및 AD FS 서버 2대를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-104">In this phase of deploying high availability for Microsoft 365 federated authentication in Azure infrastructure services, you create an internal load balancer and two AD FS servers.</span></span>
   
-<span data-ttu-id="9c13b-105">Phase [4: Configure web application proxies 로](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)이동하기 전에 이 단계를 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-105">You must complete this phase before moving on to [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md).</span></span> <span data-ttu-id="9c13b-106">모든 [단계는 Azure에서 Microsoft 365에](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 대한 고가용성 페더타 인증 배포를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9c13b-106">See [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) for all of the phases.</span></span>
+<span data-ttu-id="60dc2-105">Phase [4: Configure web application proxies 로](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)이동하기 전에 이 단계를 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-105">You must complete this phase before moving on to [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md).</span></span> <span data-ttu-id="60dc2-106">모든 [단계는 Azure에서](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 고가용성 Microsoft 365 인증 배포를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="60dc2-106">See [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) for all of the phases.</span></span>
   
-## <a name="create-the-ad-fs-server-virtual-machines-in-azure"></a><span data-ttu-id="9c13b-107">Azure에서 AD FS 서버 가상 컴퓨터 만들기</span><span class="sxs-lookup"><span data-stu-id="9c13b-107">Create the AD FS server virtual machines in Azure</span></span>
+## <a name="create-the-ad-fs-server-virtual-machines-in-azure"></a><span data-ttu-id="60dc2-107">Azure에서 AD FS 서버 가상 컴퓨터 만들기</span><span class="sxs-lookup"><span data-stu-id="60dc2-107">Create the AD FS server virtual machines in Azure</span></span>
 
-<span data-ttu-id="9c13b-p102">PowerShell 명령의 다음 블록을 사용하여 두 AD FS 서버의 가상 컴퓨터를 만듭니다. PowerShell 명령 집합은 다음 테이블의 값을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-p102">Use the following block of PowerShell commands to create the virtual machines for the two AD FS servers. This PowerShell command set uses values from the following tables:</span></span>
+<span data-ttu-id="60dc2-p102">PowerShell 명령의 다음 블록을 사용하여 두 AD FS 서버의 가상 컴퓨터를 만듭니다. PowerShell 명령 집합은 다음 테이블의 값을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-p102">Use the following block of PowerShell commands to create the virtual machines for the two AD FS servers. This PowerShell command set uses values from the following tables:</span></span>
   
-- <span data-ttu-id="9c13b-110">테이블 M, 가상 컴퓨터</span><span class="sxs-lookup"><span data-stu-id="9c13b-110">Table M, for your virtual machines</span></span>
+- <span data-ttu-id="60dc2-110">테이블 M, 가상 컴퓨터</span><span class="sxs-lookup"><span data-stu-id="60dc2-110">Table M, for your virtual machines</span></span>
     
-- <span data-ttu-id="9c13b-111">테이블 R, 리소스 그룹</span><span class="sxs-lookup"><span data-stu-id="9c13b-111">Table R, for your resource groups</span></span>
+- <span data-ttu-id="60dc2-111">테이블 R, 리소스 그룹</span><span class="sxs-lookup"><span data-stu-id="60dc2-111">Table R, for your resource groups</span></span>
     
-- <span data-ttu-id="9c13b-112">테이블 V, 가상 네트워크 설정</span><span class="sxs-lookup"><span data-stu-id="9c13b-112">Table V, for your virtual network settings</span></span>
+- <span data-ttu-id="60dc2-112">테이블 V, 가상 네트워크 설정</span><span class="sxs-lookup"><span data-stu-id="60dc2-112">Table V, for your virtual network settings</span></span>
     
-- <span data-ttu-id="9c13b-113">테이블 S, 서브넷</span><span class="sxs-lookup"><span data-stu-id="9c13b-113">Table S, for your subnets</span></span>
+- <span data-ttu-id="60dc2-113">테이블 S, 서브넷</span><span class="sxs-lookup"><span data-stu-id="60dc2-113">Table S, for your subnets</span></span>
     
-- <span data-ttu-id="9c13b-114">테이블 I, 고정 IP 주소</span><span class="sxs-lookup"><span data-stu-id="9c13b-114">Table I, for your static IP addresses</span></span>
+- <span data-ttu-id="60dc2-114">테이블 I, 고정 IP 주소</span><span class="sxs-lookup"><span data-stu-id="60dc2-114">Table I, for your static IP addresses</span></span>
     
-- <span data-ttu-id="9c13b-115">테이블 A, 가용성 집합</span><span class="sxs-lookup"><span data-stu-id="9c13b-115">Table A, for your availability sets</span></span>
+- <span data-ttu-id="60dc2-115">테이블 A, 가용성 집합</span><span class="sxs-lookup"><span data-stu-id="60dc2-115">Table A, for your availability sets</span></span>
     
-<span data-ttu-id="9c13b-116">[Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) 및 Tables R, V, S, I, and A in Phase 1: Configure Azure에서 테이블 M을 정의했다는 [점에 유의하세요.](high-availability-federated-authentication-phase-1-configure-azure.md)</span><span class="sxs-lookup"><span data-stu-id="9c13b-116">Recall that you defined Table M in [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) and Tables R, V, S, I, and A in [Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md).</span></span>
+<span data-ttu-id="60dc2-116">[Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) 및 Tables R, V, S, I, and A in Phase 1: Configure Azure에서 테이블 M을 정의했다는 [점에 유의하세요.](high-availability-federated-authentication-phase-1-configure-azure.md)</span><span class="sxs-lookup"><span data-stu-id="60dc2-116">Recall that you defined Table M in [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) and Tables R, V, S, I, and A in [Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="9c13b-117">다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-117">The following command sets use the latest version of Azure PowerShell.</span></span> <span data-ttu-id="9c13b-118">[Azure PowerShell 시작을 참조하세요.](/powershell/azure/get-started-azureps)</span><span class="sxs-lookup"><span data-stu-id="9c13b-118">See [Get started with Azure PowerShell](/powershell/azure/get-started-azureps).</span></span> 
+> <span data-ttu-id="60dc2-117">다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-117">The following command sets use the latest version of Azure PowerShell.</span></span> <span data-ttu-id="60dc2-118">에서 [시작을 Azure PowerShell.](/powershell/azure/get-started-azureps)</span><span class="sxs-lookup"><span data-stu-id="60dc2-118">See [Get started with Azure PowerShell](/powershell/azure/get-started-azureps).</span></span> 
   
-<span data-ttu-id="9c13b-119">먼저, 두 개의 AD FS 서버용 Azure 내부 부하 분산 장치를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-119">First, you create an Azure internal load balancer for the two AD FS servers.</span></span> <span data-ttu-id="9c13b-120">변수 값을 지정하고 문자를 \< and > 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-120">Specify the values for the variables, removing the \< and > characters.</span></span> <span data-ttu-id="9c13b-121">모든 적절한 값이 제공되면 Azure PowerShell 명령 프롬프트나 PowerShell ISE에서 결과 블록을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-121">When you have supplied all the proper values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell ISE.</span></span>
+<span data-ttu-id="60dc2-119">먼저, 두 개의 AD FS 서버용 Azure 내부 부하 분산 장치를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-119">First, you create an Azure internal load balancer for the two AD FS servers.</span></span> <span data-ttu-id="60dc2-120">변수 값을 지정하고 문자를 \< and > 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-120">Specify the values for the variables, removing the \< and > characters.</span></span> <span data-ttu-id="60dc2-121">모든 적절한 값이 제공되면 Azure PowerShell 명령 프롬프트나 PowerShell ISE에서 결과 블록을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-121">When you have supplied all the proper values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell ISE.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="9c13b-122">사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 Microsoft Excel 구성 통합 문서 [를 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx)</span><span class="sxs-lookup"><span data-stu-id="9c13b-122">To generate ready-to-run PowerShell command blocks based on your custom settings, use this [Microsoft Excel configuration workbook](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx).</span></span> 
+> <span data-ttu-id="60dc2-122">사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 구성 통합 [Microsoft Excel 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx)</span><span class="sxs-lookup"><span data-stu-id="60dc2-122">To generate ready-to-run PowerShell command blocks based on your custom settings, use this [Microsoft Excel configuration workbook](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx).</span></span> 
 
 ```powershell
 # Set up key variables
@@ -74,9 +74,9 @@ $lbrule=New-AzLoadBalancerRuleConfig -Name "HTTPSTraffic" -FrontendIpConfigurati
 New-AzLoadBalancer -ResourceGroupName $rgName -Name "ADFSServers" -Location $locName -LoadBalancingRule $lbrule -BackendAddressPool $beAddressPool -Probe $healthProbe -FrontendIpConfiguration $frontendIP
 ```
 
-<span data-ttu-id="9c13b-123">다음으로 AD FS 서버 가상 컴퓨터를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-123">Next, create the AD FS server virtual machines.</span></span>
+<span data-ttu-id="60dc2-123">다음으로 AD FS 서버 가상 컴퓨터를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-123">Next, create the AD FS server virtual machines.</span></span>
   
-<span data-ttu-id="9c13b-124">모든 적절한 값이 제공되면 Azure PowerShell 명령 프롬프트나 PowerShell ISE에서 결과 블록을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-124">When you have supplied all the proper values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell ISE.</span></span>
+<span data-ttu-id="60dc2-124">모든 적절한 값이 제공되면 Azure PowerShell 명령 프롬프트나 PowerShell ISE에서 결과 블록을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-124">When you have supplied all the proper values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell ISE.</span></span>
   
 ```powershell
 # Set up variables common to both virtual machines
@@ -131,11 +131,11 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 > [!NOTE]
-> <span data-ttu-id="9c13b-p105">이러한 가상 컴퓨터는 인트라넷 응용 프로그램용이므로 공용 IP 주소나 DNS 도메인 이름 레이블에 할당되지 않으며 인터넷에 표시되지 않습니다. 그러나 이는 Azure Portal에서 연결할 수 없음을 의미합니다. 가상 컴퓨터의 속성을 보면 이 **연결** 옵션을 사용할 수 없습니다. 원격 데스크톱 연결 액세서리 또는 다른 원격 데스크톱 도구를 사용하여 개인 IP 주소나 인트라넷 DNS 이름을 사용하는 가상 컴퓨터에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-p105">Because these virtual machines are for an intranet application, they are not assigned a public IP address or a DNS domain name label and exposed to the Internet. However, this also means that you cannot connect to them from the Azure portal. The **Connect** option is unavailable when you view the properties of the virtual machine. Use the Remote Desktop Connection accessory or another Remote Desktop tool to connect to the virtual machine using its private IP address or intranet DNS name.</span></span>
+> <span data-ttu-id="60dc2-p105">이러한 가상 컴퓨터는 인트라넷 응용 프로그램용이므로 공용 IP 주소나 DNS 도메인 이름 레이블에 할당되지 않으며 인터넷에 표시되지 않습니다. 그러나 이는 Azure Portal에서 연결할 수 없음을 의미합니다. 가상 컴퓨터의 속성을 보면 이 **연결** 옵션을 사용할 수 없습니다. 원격 데스크톱 연결 액세서리 또는 다른 원격 데스크톱 도구를 사용하여 개인 IP 주소나 인트라넷 DNS 이름을 사용하는 가상 컴퓨터에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-p105">Because these virtual machines are for an intranet application, they are not assigned a public IP address or a DNS domain name label and exposed to the Internet. However, this also means that you cannot connect to them from the Azure portal. The **Connect** option is unavailable when you view the properties of the virtual machine. Use the Remote Desktop Connection accessory or another Remote Desktop tool to connect to the virtual machine using its private IP address or intranet DNS name.</span></span>
   
-<span data-ttu-id="9c13b-p106">각 가상 컴퓨터에 원하는 원격 데스크톱 클라이언트를 사용하고 원격 데스크톱 연결을 만듭니다. 인트라넷 DNS나 컴퓨터 이름 및 로컬 관리자 계정의 자격 증명을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-p106">For each virtual machine, use the remote desktop client of your choice and create a remote desktop connection. Use its intranet DNS or computer name and the credentials of the local administrator account.</span></span>
+<span data-ttu-id="60dc2-p106">각 가상 컴퓨터에 원하는 원격 데스크톱 클라이언트를 사용하고 원격 데스크톱 연결을 만듭니다. 인트라넷 DNS나 컴퓨터 이름 및 로컬 관리자 계정의 자격 증명을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-p106">For each virtual machine, use the remote desktop client of your choice and create a remote desktop connection. Use its intranet DNS or computer name and the credentials of the local administrator account.</span></span>
   
-<span data-ttu-id="9c13b-131">각 가상 컴퓨터의 경우 메시지 메시지에서 다음 명령을 사용하여 해당 AD DS(Active Directory 도메인 서비스) 도메인에 Windows PowerShell 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-131">For each virtual machine, join them to the appropriate Active Directory Domain Services (AD DS) domain with these commands at the Windows PowerShell prompt.</span></span>
+<span data-ttu-id="60dc2-131">각 가상 컴퓨터의 경우 메시지 프롬프트에서 다음 명령을 사용하여 해당 AD DS(Active Directory 도메인 서비스) 도메인에 Windows PowerShell 합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-131">For each virtual machine, join them to the appropriate Active Directory Domain Services (AD DS) domain with these commands at the Windows PowerShell prompt.</span></span>
   
 ```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
@@ -144,18 +144,18 @@ Add-Computer -DomainName $domName -Credential $cred
 Restart-Computer
 ```
 
-<span data-ttu-id="9c13b-132">이 단계를 성공적으로 완료하면 자리 표시자 컴퓨터 이름이 포함된 다음 구성이 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-132">Here is the configuration resulting from the successful completion of this phase, with placeholder computer names.</span></span>
+<span data-ttu-id="60dc2-132">이 단계를 성공적으로 완료하면 자리 표시자 컴퓨터 이름이 포함된 다음 구성이 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-132">Here is the configuration resulting from the successful completion of this phase, with placeholder computer names.</span></span>
   
-<span data-ttu-id="9c13b-133">**3단계: Azure의 고가용성 페더레이션 인증 인프라용 AD FS 서버 및 내부 부하 분산 장치**</span><span class="sxs-lookup"><span data-stu-id="9c13b-133">**Phase 3: The AD FS servers and internal load balancer for your high availability federated authentication infrastructure in Azure**</span></span>
+<span data-ttu-id="60dc2-133">**3단계: Azure의 고가용성 페더레이션 인증 인프라용 AD FS 서버 및 내부 부하 분산 장치**</span><span class="sxs-lookup"><span data-stu-id="60dc2-133">**Phase 3: The AD FS servers and internal load balancer for your high availability federated authentication infrastructure in Azure**</span></span>
 
-![AD FS 서버가 있는 Azure의 고가용성 Microsoft 365 페더전 인증 인프라 3단계](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
+![AD FS 서버와 azure의 Microsoft 365 인증 인프라의 고가용성 기능 3단계](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
   
-## <a name="next-step"></a><span data-ttu-id="9c13b-135">다음 단계</span><span class="sxs-lookup"><span data-stu-id="9c13b-135">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="60dc2-135">다음 단계</span><span class="sxs-lookup"><span data-stu-id="60dc2-135">Next step</span></span>
 
-<span data-ttu-id="9c13b-136">4단계: 웹 응용 프로그램 [proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) 구성을 사용하여 이 작업을 계속 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="9c13b-136">Use [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) to continue configuring this workload.</span></span>
+<span data-ttu-id="60dc2-136">4단계: 웹 응용 프로그램 [proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) 구성을 사용하여 이 작업을 계속 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="60dc2-136">Use [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) to continue configuring this workload.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="9c13b-137">참고 항목</span><span class="sxs-lookup"><span data-stu-id="9c13b-137">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="60dc2-137">참고 항목</span><span class="sxs-lookup"><span data-stu-id="60dc2-137">See Also</span></span>
 
-[<span data-ttu-id="9c13b-138">Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포</span><span class="sxs-lookup"><span data-stu-id="9c13b-138">Deploy high availability federated authentication for Microsoft 365 in Azure</span></span>](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
+[<span data-ttu-id="60dc2-138">Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포</span><span class="sxs-lookup"><span data-stu-id="60dc2-138">Deploy high availability federated authentication for Microsoft 365 in Azure</span></span>](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[<span data-ttu-id="9c13b-139">Microsoft 365 개발/테스트 환경에 대한 페더러티드 ID</span><span class="sxs-lookup"><span data-stu-id="9c13b-139">Federated identity for your Microsoft 365 dev/test environment</span></span>](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[<span data-ttu-id="60dc2-139">Microsoft 365/테스트 환경에 대한 페더티드 ID</span><span class="sxs-lookup"><span data-stu-id="60dc2-139">Federated identity for your Microsoft 365 dev/test environment</span></span>](federated-identity-for-your-microsoft-365-dev-test-environment.md)
