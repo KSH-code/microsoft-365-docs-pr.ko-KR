@@ -1,5 +1,5 @@
 ---
-title: Outlook 규칙 및 사용자 지정 양식 주입 공격을 감지하고 수정합니다.
+title: 사용자 지정 양식 Outlook 공격을 감지하고 수정합니다.
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -25,7 +25,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/25/2021
 ms.locfileid: "51205920"
 ---
-# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
+# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>규칙 및 사용자 Outlook 주입 공격 감지 및 재구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,14 +34,14 @@ ms.locfileid: "51205920"
 
 ## <a name="what-is-the-outlook-rules-and-custom-forms-injection-attack"></a>Outlook 규칙과 사용자 지정 양식 주입 공격은 무엇인가요?
 
-공격자가 조직에 대한 액세스 권한을 얻게 된 후 발견된 후 계속 유지하거나 다시 들어오기 위한 발판을 설정하려고 합니다. 이 활동을 *지속성 메커니즘 설정이라고 합니다.* 공격자가 Outlook을 사용하여 지속성 메커니즘을 설정하는 방법에는 다음 두 가지가 있습니다.
+공격자가 조직에 대한 액세스 권한을 얻게 된 후 발견된 후 계속 유지하거나 다시 들어오기 위한 발판을 설정하려고 합니다. 이 활동을 *지속성 메커니즘 설정이라고 합니다.* 공격자가 영구적 메커니즘을 설정하기 위해 다음 두 가지 방법으로 Outlook 수 있습니다.
 
-- Outlook 규칙을 악용하여
-- Outlook에 사용자 지정 양식을 삽입합니다.
+- 기본 규칙을 Outlook.
+- 사용자 지정 양식을 양식에 삽입하여 Outlook.
 
-Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터를 제공하면 도움이되지 않습니다. Outlook을 처음 설치할 때 사서함에 연결하면 모든 규칙과 양식이 클라우드에서 동기화됩니다. 규칙 또는 양식은 일반적으로 원격 코드를 실행하고 로컬 컴퓨터에 맬웨어를 설치하도록 디자인됩니다. 맬웨어는 자격 증명을 훔치거나 다른 악성 활동을 수행합니다.
+이 Outlook 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터를 제공하면 도움이되지 않습니다. 새 설치 Outlook 사서함에 연결하면 모든 규칙과 양식이 클라우드에서 동기화됩니다. 규칙 또는 양식은 일반적으로 원격 코드를 실행하고 로컬 컴퓨터에 맬웨어를 설치하도록 디자인됩니다. 맬웨어는 자격 증명을 훔치거나 다른 악성 활동을 수행합니다.
 
-다행히도 Outlook 클라이언트가 최신 버전으로 패치된 경우 현재 Outlook 클라이언트 기본값이 두 메커니즘을 모두 차단하기 때문에 위협에 취약하지 않습니다.
+다행히도 Outlook 클라이언트가 최신 버전으로 패치된 경우 현재 클라이언트 기본값이 두 메커니즘을 모두 차단하기 때문에 Outlook 취약하지 않습니다.
 
 이 공격은 일반적으로 다음의 패턴을 따릅니다.
 
@@ -49,7 +49,7 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
 1. 공격자는 사용자의 자격 증명을 도용합니다.
 
-2. 공격자는 해당 사용자의 Exchange 사서함(Exchange Online 또는 사내 Exchange)에 로그인합니다.
+2. 공격자는 해당 사용자의 Exchange 사서함(Exchange Online 또는 Exchange.
 
 3. 공격자는 사서함에 전달 받은 편지함 규칙을 만듭니다. 전달 규칙은 사서함이 규칙의 조건과 일치하는 공격자로부터 특정 메시지를 받을 때 트리거됩니다. 규칙 조건과 메시지 형식은 서로에 맞게 조정됩니다.
 
@@ -65,7 +65,7 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
 1. 공격자는 사용자의 자격 증명을 도용합니다.
 
-2. 공격자는 해당 사용자의 Exchange 사서함(Exchange Online 또는 사내 Exchange)에 로그인합니다.
+2. 공격자는 해당 사용자의 Exchange 사서함(Exchange Online 또는 Exchange.
 
 3. 공격자는 사용자 사서함에 사용자 지정 메일 양식 서식 파일을 삽입합니다. 사용자 지정 양식은 사서함이 사용자 지정 양식을 로드해야 하는 공격자로부터 특정 메시지를 받을 때 트리거됩니다. 사용자 지정 양식과 메시지 형식은 서로에 맞게 조정됩니다.
 
@@ -116,7 +116,7 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
 1. 사용자로 사용자 Outlook 클라이언트를 엽니다.
 
-2. 사용자의 Outlook 버전에 대한 개발자 탭 표시의 단계를 따릅니다. [](https://support.microsoft.com/office/e1192344-5e56-4d45-931b-e5fd9bea2d45)
+2. 사용자 버전의 개발자 [](https://support.microsoft.com/office/e1192344-5e56-4d45-931b-e5fd9bea2d45) 탭 표시에 있는 단계를 Outlook.
 
 3. Outlook에서 현재 표시되는 개발자 탭을 열고 **양식 디자인** 을 클릭합니다.
 
@@ -150,9 +150,9 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
   - **IsPotentiallyMalicious(D열)**:이 값이 "TRUE" 인 경우 이 규칙은 악의가 있을 가능성이 큽니다.
 
-  - **ActionCommand(G 열)**: 이 열에 .exe 또는 .zip 확장명 또는 URL을 참조하는 알 수 없는 항목이 있는 응용 프로그램 또는 파일이 나열되는 경우 규칙이 악성일 수 있습니다.
+  - **ActionCommand(G 열)**: 이 열에 .exe 또는 .zip 확장명이나 URL을 참조하는 알 수 없는 항목이 있는 응용 프로그램이나 파일이 나열된 경우 규칙이 악성일 수 있습니다.
 
-- **MailboxFormsExport-*yyyy-mm-dd*.csv:** 일반적으로 사용자 지정 양식을 사용하는 경우는 거의 없습니다. 이 통합 문서에서 양식을 찾은 경우 해당 사용자의 사서함을 열고 양식 자체를 확인합니다. 조직에서 의도적으로 이를 추가하지 않은 경우 악의가 있을 가능성이 큽니다.
+- **MailboxFormsExport-*yyyy-mm-dd***.csv: 일반적으로 사용자 지정 양식을 사용하는 경우는 거의 없습니다. 이 통합 문서에서 양식을 찾은 경우 해당 사용자의 사서함을 열고 양식 자체를 확인합니다. 조직에서 의도적으로 이를 추가하지 않은 경우 악의가 있을 가능성이 큽니다.
 
 ## <a name="how-to-stop-and-remediate-the-outlook-rules-and-forms-attack"></a>Outlook 규칙과 양식 공격을 중지하고 재구성하는 방법
 
@@ -206,11 +206,11 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
   - **비정상적 가장 활동(사용자)**: 이 정책은 침해의 시도를 나타낼 수 있는 학습한 기준을 고려하여 단일 세션에서 수차례 가장 활동을 수행하는 경우 사용자 환경을 프로파일링하고 알림을 트리거합니다.
 
-- [Office 365 보안](https://securescore.office.com/) 점수와 같은 도구를 사용하여 계정 보안 구성 및 동작을 관리합니다.
+- 보안 점수와 [같은 Office 365](https://securescore.office.com/) 사용하여 계정 보안 구성 및 동작을 관리합니다.
 
 ### <a name="second-keep-your-outlook-clients-current"></a>두 번째: Outlook 클라이언트를 최신 상태로 유지
 
-완전히 업데이트 및 패치된 버전의 Outlook 2013 및 2016에서는 기본적으로 "응용 프로그램 시작" 규칙/양식 작업을 사용하지 않도록 설정됩니다. 이렇게 하면 공격자가 계정을 침해하는 경우에도 규칙 및 양식 작업이 차단됩니다. [Office 업데이트 설치](https://support.microsoft.com/office/2ab296f3-7f03-43a2-8e50-46de917611c5)단계를 따라 최신 업데이트 및 보안 패치를 설치할 수 있습니다.
+완전히 업데이트 및 패치된 Outlook 2013 및 2016은 기본적으로 "응용 프로그램 시작" 규칙/양식 작업을 사용하지 않도록 설정됩니다. 이렇게 하면 공격자가 계정을 침해하는 경우에도 규칙 및 양식 작업이 차단됩니다. [Office 업데이트 설치](https://support.microsoft.com/office/2ab296f3-7f03-43a2-8e50-46de917611c5)단계를 따라 최신 업데이트 및 보안 패치를 설치할 수 있습니다.
 
 다음은 Outlook 2013 및 2016 클라이언트용 패치 버전입니다.
 
@@ -228,7 +228,7 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
 패치 및 업데이트가 설치되어 있더라도 공격자가 로컬 컴퓨터 구성을 변경하여 "응용 프로그램 시작" 동작을 다시 사용하도록 설정할 수 있습니다. [고급 그룹 정책 관리](/microsoft-desktop-optimization-pack/agpm/)를 사용하여 클라이언트에서 로컬 컴퓨터 정책을 모니터링하고 적용할 수 있습니다.
 
-[64비트 버전의 Windows를](https://support.microsoft.com/help/305097)사용하여 시스템 레지스트리를 보는 방법의 정보를 사용하여 레지스트리의 재지정을 통해 "응용 프로그램 시작"이 다시 활성화되어 있는지 알 수 있습니다. 다음의 하위 키를 확인합니다:
+64비트 버전의 Windows 사용하여 시스템 레지스트리를 보는 방법의 정보를 사용하여 "응용 프로그램 시작"이 레지스트리의 다시 활성화를 통해 다시 활성화되어 [있는지 알 수 Windows.](https://support.microsoft.com/help/305097) 다음의 하위 키를 확인합니다:
 
 - **Outlook 2016**: `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\`
 

@@ -280,8 +280,6 @@
 #### [바이러스 백신 및 맬웨어 방지 업데이트 다운로드](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [보호 업데이트를 다운로드하여 적용해야 하는 경우에 대한 예약 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md)
-#####  [Microsoft Defender 업데이트를 위한 점차적인 롤아웃 절차 관리](updates.md)
-#####  [Microsoft Defender 업데이트를 위한 점차적인 롤아웃 절차 구성](configure-updates.md)
 ##### [Microsoft Defender 바이러스 백신 업데이트 및 만료된 엔드포인트에 대한 검사 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [이벤트 기반 강제 업데이트 관리](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -513,8 +511,9 @@
 
 ###### [지표]()
 ####### [지표 방법 및 속성](ti-indicator.md)
-####### [지표 제출](post-ti-indicator.md)
 ####### [지표 목록](get-ti-indicators-collection.md)
+####### [지표 제출](post-ti-indicator.md)
+####### [표시기 가져오기](import-ti-indicators.md)
 ####### [지표 삭제](delete-ti-indicator-by-id.md)
 
 ###### [IP]()

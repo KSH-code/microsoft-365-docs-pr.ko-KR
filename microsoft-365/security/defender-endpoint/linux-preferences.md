@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 29505a6e975fdfa2283efe3391c615e40e678164
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 00f6bdac66ae286bf55a875599f7097b14b06cb3
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346381"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861554"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 기본 설정 설정
 
@@ -139,7 +139,7 @@ ms.locfileid: "52346381"
 
 **경로 유형(파일/디렉터리)**
 
-path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다. 
+path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 
 |||
 |:---|:---|
@@ -397,7 +397,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
          },
          {
             "$type":"excludedFileExtension",
-            "extension":"pdf"
+            "extension":".pdf"
          },
          {
             "$type":"excludedFileName",
@@ -444,7 +444,7 @@ python -m json.tool mdatp_managed.json
 JSON이 잘 구성되면 위의 명령은 터미널에 다시 출력하고 의 종료 코드를 `0` 반환합니다. 그렇지 않으면 문제를 설명하는 오류가 표시되고 명령은 의 종료 코드를 `1` 반환합니다.
 
 ## <a name="verifying-that-the-mdatp_managedjson-file-is-working-as-expected"></a>파일의 mdatp_managed.js올바르게 작동하고 있는지 확인
-/etc/opt/microsoft/mdatp/managed/mdatp_managed.js제대로 작동하고 있는지 확인하려면 다음 설정 옆에 "[관리]"가 표시됩니다.  
+/etc/opt/microsoft/mdatp/managed/mdatp_managed.js제대로 작동하고 있는지 확인하려면 다음 설정 옆에 "[관리]"가 표시됩니다.
 - cloud_enabled
 - cloud_automatic_sample_submission_consent
 - passice_mode_enabled

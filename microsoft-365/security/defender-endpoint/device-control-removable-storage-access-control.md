@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fba74990d8e4465f957acda83e66e1dc43a317e8
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cf8e74a6886d7086da062d6258e3e1e1a1cbd730
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841189"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861722"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -42,13 +42,17 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 ## <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
 맬웨어 Storage 버전 **4.Storage 2103.3** 이상이 있는 Windows 10 장치에 이동식 액세스 제어를 배포합니다.
-1. **4.18.2104** 이상 : SerialNumberId 추가, VID_PID 파일 경로 기반 GPO 지원
+1. **4.18.2104** 이상 : SerialNumberId 추가, VID_PID, 파일 경로 기반 GPO 지원, ComputerSid
 
 2. **4.18.2105** 이상 : HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId에 대한 와일드카드 지원 추가, 특정 컴퓨터의 특정 사용자 조합, 제거 가능한 SSD(SanDisk Extreme SSD)/UAS(USB 연결된 SCSI) 지원
 
 :::image type="content" source="images/powershell.png" alt-text="PowerShell 인터페이스":::
 
+   > [!NOTE]
+   > 모든 Windows 보안 활성화할 필요는 없습니다. 상태와는 독립적으로 이동식 Storage 제어를 실행할 Windows 보안 있습니다.
+
 ## <a name="policy-properties"></a>정책 속성
+
 
 다음 속성을 사용하여 이동식 저장소 그룹을 만들 수 있습니다.
 
@@ -87,6 +91,8 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
     - MatchAny: DescriptorIdList의 특성은 **Or 관계가** 됩니다. 예를 들어 관리자가 DeviceID 및 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 USB에 **동일한 DeviceID** 또는 **InstanceID** 값이 있는 한 시스템에서 적용을 실행합니다.
 
+
+
 액세스 제어 정책 속성은 다음과 같습니다.
 
 **속성 이름: PolicyRuleId**
@@ -124,6 +130,14 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
     - AuditDenied: 액세스가 거부된 경우 알림 및 이벤트를 정의합니다. 거부 항목과 **함께 작업해야** 합니다.
 
 동일한 미디어에 대한 충돌 유형이 있는 경우 시스템은 정책의 첫 번째 형식을 적용합니다. 충돌 형식의 예로는 **Allow** 및 **Deny가 있습니다.**
+
+**속성 이름: Sid**
+
+1. 설명: 특정 사용자 또는 사용자 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 Sid를 사용할 수 있으며 Sid가 없는 항목은 컴퓨터 위에 정책을 적용하는 것입니다.
+
+**속성 이름: ComputerSid**
+
+1. 설명: 특정 컴퓨터 또는 컴퓨터 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 ComputerSid를 최대 하나만 사용할 수 있으며, ComputerSid가 없는 항목은 컴퓨터에 정책을 적용하는 것입니다. 특정 사용자 및 특정 컴퓨터에 Entry를 적용하려면 Sid와 ComputerSid를 모두 동일한 항목에 추가합니다.
 
 **속성 이름: 옵션**
 

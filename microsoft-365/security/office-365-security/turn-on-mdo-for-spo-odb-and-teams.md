@@ -16,7 +16,7 @@ ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 ms.collection:
 - M365-security-compliance
 - SPO_Content
-description: 관리자는 검색된 파일에 대한 알림을 설정하는 방법을 포함하여 SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일을 설정하는 방법을 배울 수 있습니다.
+description: 관리자는 검색된 파일에 대한 경고를 설정하는 방법을 포함하여 SharePoint, OneDrive 및 Microsoft Teams 설정하는 방법을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
@@ -35,33 +35,33 @@ ms.locfileid: "51206139"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-SharePoint, OneDrive 및 Microsoft Teams용 Office 365용 Microsoft Defender는 악성 파일을 부수적으로 공유하지 못하게 조직을 보호합니다. 자세한 내용은 [SharePoint, OneDrive](mdo-for-spo-odb-and-teams.md)및 Microsoft Teams에 대한 안전한 첨부 파일을 참조하세요.
+Microsoft Defender for Office 365 for SharePoint, OneDrive 및 Microsoft Teams 악의적인 파일을 공유하지 못하게 조직을 보호합니다. 자세한 내용은 SharePoint, OneDrive 및 에 대한 안전한 첨부 [Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
 
-이 문서에는 SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일을 사용하도록 설정하고 구성하는 단계가 포함되어 있습니다.
+이 문서에는 보안, 설정 및 관리에 대해 안전한 첨부 SharePoint OneDrive Microsoft Teams.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - <https://protection.office.com>에서 보안 및 준수 센터를 엽니다. ATP 안전한 첨부 파일 페이지로 직접 **이동하기** 위해 를 를 니다. <https://protection.office.com/safeattachmentv2>
 
-- SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일을 켜기  위해 보안  및 준수 센터에서 조직 관리 또는 보안 관리자 역할 & 해야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- SharePoint, OneDrive 및 Microsoft Teams 안전 첨부 파일을 설정하려면 보안 및 준수 센터에서 조직  관리  또는 보안 관리자 역할 그룹의 구성원 & 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-- SharePoint Online PowerShell을 사용하여 사용자가 악성 파일을 다운로드하지 못하게 [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) 방지하려면 Azure AD에서 전역 관리자 또는 [SharePoint 관리자](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#sharepoint-administrator) 역할의 구성원이 해야 합니다.
+- SharePoint Online PowerShell을 사용하여 사용자가 악성 파일을 다운로드하지 못하게 방지하려면 [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) Azure AD에서 전역 관리자 또는 SharePoint 관리자 역할의 구성원이 되어야 합니다. [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#sharepoint-administrator)
 
 - 조직에 대해 감사 로깅이 사용하도록 설정되어 있는지 확인합니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](../../compliance/turn-audit-log-search-on-or-off.md)를 참조하세요.
 
 - 설정이 적용되는 데 최대 30분을 허용합니다.
 
-## <a name="step-1-use-the-security--compliance-center-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>1단계: 보안 & 준수 센터를 사용하여 SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일을 켜기
+## <a name="step-1-use-the-security--compliance-center-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>1단계: 보안 & 준수 센터를 사용하여 SharePoint, OneDrive 및 보안 준수 Microsoft Teams
 
 1. 보안 및 & 센터에서 **위협** 관리 정책 ATP 안전한 첨부 파일로 \>  \> **이동하고** 전역 설정을 **클릭합니다.**
 
-2. 전역 **설정** 플라이아웃이 나타나면 **SharePoint, OneDrive 및 Microsoft Teams용 Office 365용 Defender** 켜기 설정으로 이동합니다. 토글을 오른쪽 토글로 이동하여 ![ SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 ](../../media/scc-toggle-on.png) 파일을 켜야 합니다.
+2. 전역 **설정** 플라이아웃이 나타나면 에 대한 Office 365, SharePoint 및 OneDrive 설정으로 **Microsoft Teams** 이동합니다. 토글을 오른쪽 토글로 이동하여 SharePoint, OneDrive 및 연결에 대한 안전 첨부 ![ ](../../media/scc-toggle-on.png) 파일을 Microsoft Teams.
 
-   작업을 마친 후 **저장** 을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
-### <a name="use-exchange-online-powershell-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Exchange Online PowerShell을 사용하여 SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일 켜기
+### <a name="use-exchange-online-powershell-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>PowerShell을 Exchange Online 사용하여 SharePoint, OneDrive 및 파일에 대한 안전한 첨부 Microsoft Teams
 
-PowerShell을 사용하여 SharePoint, OneDrive 및 Microsoft Teams에 대한 안전 첨부 파일을 켜고 [Exchange Online PowerShell에](/powershell/exchange/connect-to-exchange-online-powershell) 연결하고 다음 명령을 실행합니다.
+PowerShell을 사용하여 SharePoint, OneDrive 및 Microsoft Teams 안전 첨부 파일을 설정하는 Exchange Online [PowerShell에](/powershell/exchange/connect-to-exchange-online-powershell) 연결하고 다음 명령을 실행합니다.
 
 ```powershell
 Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
@@ -73,7 +73,7 @@ Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
 
 기본적으로 사용자는 ATP에서 검색된 악성 파일을 열거나 이동, 복사 또는 공유할 수 없습니다. 그러나 악성 파일을 삭제하고 다운로드할 수 있습니다.
 
-사용자가 악성 파일을 다운로드하지 못하게 방지하려면 [SharePoint Online PowerShell에](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) 연결하고 다음 명령을 실행합니다.
+사용자가 악성 파일을 다운로드하지 못하게 SharePoint [Online PowerShell에 연결하고 다음](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) 명령을 실행합니다.
 
 ```powershell
 Set-SPOTenant -DisallowInfectedFileDownload $true
@@ -88,7 +88,7 @@ Set-SPOTenant -DisallowInfectedFileDownload $true
 
 ## <a name="step-3-recommended-use-the-security--compliance-center-to-create-an-alert-policy-for-detected-files"></a>3단계(권장) 보안 & 준수 센터를 사용하여 검색된 파일에 대한 경고 정책 만들기
 
-SharePoint, OneDrive 및 Microsoft Teams의 안전 첨부 파일이 악성 파일을 감지할 때 관리자와 다른 관리자에게 알리는 경고 정책을 만들 수 있습니다. 경고에 대한 자세한 내용은 보안 및 준수 센터에서 활동 [& 참조합니다.](../../compliance/create-activity-alerts.md)
+사용자 및 기타 관리자에게 악의적인 파일을 감지하는 경우 사용자 및 기타 관리자에게 안전한 첨부 파일을 SharePoint, OneDrive Microsoft Teams 수 있습니다. 경고에 대한 자세한 내용은 보안 및 준수 센터에서 활동 [& 참조합니다.](../../compliance/create-activity-alerts.md)
 
 1. 보안 & [규정](https://protection.office.com)준수 센터에서 경고  경고 정책으로 \> **이동하거나** 을 를 열 수 <https://protection.office.com/alertpolicies> 있습니다.
 
@@ -97,7 +97,7 @@ SharePoint, OneDrive 및 Microsoft Teams의 안전 첨부 파일이 악성 파�
 3. 새 **경고 정책 마법사가** 플라이아웃에서 열립니다. 경고 **이름 지정 페이지에서** 다음 설정을 구성합니다.
 
    - **이름:** 고유하고 설명적인 이름을 입력합니다. 예를 들어 라이브러리의 악성 파일입니다.
-   - **설명:** 선택적 설명을 입력합니다. 예를 들어 SharePoint Online, OneDrive 또는 Microsoft Teams에서 악성 파일이 감지되면 관리자에게 고지합니다.
+   - **설명:** 선택적 설명을 입력합니다. 예를 들어 SharePoint Online, OneDrive 또는 파일에서 악성 파일이 검색되면 관리자에게 Microsoft Teams.
    - **심각도**: 기본값을 낮게 **선택된** 그대로 두거나 중간 또는 **높음** 을 **선택합니다.**
    - **범주 선택:** **위협 관리 선택**.
 
@@ -137,11 +137,11 @@ New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies ad
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
-- SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일이 설정되어 있는지 확인하기 위해 다음 단계 중 하나를 사용하세요.
+- SharePoint, OneDrive 및 Microsoft Teams 안전한 첨부 파일이 설정되어 있는지 확인 Microsoft Teams 다음 단계 중 하나를 수행합니다.
 
-  - 보안 [](https://protection.office.com)& 준수 센터에서 위협 관리  정책 ATP 안전한 첨부 파일로 이동하고 전역 설정을 선택하고 \>  \>   **SharePoint, OneDrive 및 Microsoft Teams용 Office 365용 Defender** 켜기 설정 값을 확인합니다.
+  - 보안 & 규정 준수 [센터에서](https://protection.office.com)위협  관리 정책 \>  \> **ATP 안전한** 첨부 파일로 이동하고 전역 설정을 선택하고 Office 365, SharePoint, OneDrive 및 Microsoft Teams 설정에 대한 Office 365 에서 Defender 켜기 설정을 **확인합니다.**
 
-  - Exchange Online PowerShell에서 다음 명령을 실행하여 속성 설정을 확인 합니다.
+  - PowerShell을 Exchange Online 다음 명령을 실행하여 속성 설정을 확인 합니다.
 
     ```powershell
     Get-AtpPolicyForO365 | Format-List EnableATPForSPOTeamsODB
@@ -169,4 +169,4 @@ New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies ad
 
     구문과 매개 변수에 대한 자세한 내용은 [Get-ActivityAlert 를 참조하십시오.](/powershell/module/exchange/get-activityalert)
 
-- 위협 [방지 상태 보고서를](view-email-security-reports.md#threat-protection-status-report) 사용하여 SharePoint, OneDrive 및 Microsoft Teams에서 검색된 파일에 대한 정보를 볼 수 있습니다. 특히 다음을 사용하여 데이터 보기: 콘텐츠 맬웨어 **\> 보기를 사용할 수** 있습니다.
+- 위협 [방지 상태 보고서를](view-email-security-reports.md#threat-protection-status-report) 사용하여 검색된 파일에 대한 정보를 SharePoint, OneDrive 및 Microsoft Teams. 특히 다음을 사용하여 데이터 보기: 콘텐츠 맬웨어 **\> 보기를 사용할 수** 있습니다.

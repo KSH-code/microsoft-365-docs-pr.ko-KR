@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c9b97c2157ba8090628af23b2ab54cf38f04d8c6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 55171429d3ea447de32eb7e2ec12b8b2c3542e95
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538390"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861710"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 보호
 
@@ -35,7 +35,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호는 사�
 
 **기능** - 다양한 장치 속성에 따라 제외를 포함하거나 제외하지 않고 설치하지 못하게 합니다.
 
-**설명**
+**Windows 10 지원 세부 정보**
 - 컴퓨터 수준에서 적용: 로그온한 사용자에 대해 동일한 정책이 적용됩니다.
 - MEM 및 GPO를 지원합니다.
 - 나열된['장치 속성'이](#device-properties)지원됩니다.
@@ -43,7 +43,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호는 사�
 
 **지원되는 플랫폼** - Windows 10
 
-**설명**
+**macOS 지원 세부 정보**
 - 컴퓨터 수준에서 적용: 로그온한 사용자에 대해 동일한 정책이 적용됩니다.
 - macOS 관련 정보는 [macOS용 장치 제어를 참조하세요.](mac-device-control-overview.md)
  
@@ -55,7 +55,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호는 사�
 - *감사* 제외를 포함하거나 제외하지 않고 다양한 장치 속성을 기반으로 이동식 저장소에 대한 액세스를 읽거나 쓰기 또는 실행합니다.
 - *방지* 제외를 포함하거나 제외하지 않고 액세스 읽기 또는 쓰기 또는 실행 - 다양한 장치 속성에 따라 특정 장치를 허용합니다.
 
-**설명**
+**Windows 10 지원 세부 정보**
 - 컴퓨터 또는 사용자 또는 둘 다에서 적용 - 특정 컴퓨터의 특정 이동식 저장소에 대한 읽기/쓰기/실행 액세스를 수행하는 특정 사용자만 허용합니다.
 - MEM OMA-URI 및 GPO를 지원합니다.
 - 나열된['장치 속성'이](#device-properties)지원됩니다.
@@ -63,7 +63,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호는 사�
 
 **지원되는 플랫폼** - Windows 10
 
-**설명**
+**macOS 지원 세부 정보**
 - 컴퓨터 수준에서 적용: 로그온한 사용자에 대해 동일한 정책이 적용됩니다.
 - macOS 관련 정보는 [macOS용 장치 제어를 참조하세요.](mac-device-control-overview.md)
  

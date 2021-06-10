@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 00ed505b153e5af4d89038bdc53e988ee763827b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a6271c1bd3714cfdffc606b7ada9b027e394216d
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845645"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866730"
 ---
 # <a name="behavioral-blocking-and-containment"></a>동작 차단 및 제약
 
@@ -46,11 +46,11 @@ ms.locfileid: "52845645"
 
 동작 차단 및 포함 기능은 끝점용 Defender의 여러 구성 요소 및 기능과 함께 작동하여 공격을 즉시 중지하고 공격이 진행되지 않도록 합니다.
 
-- [차세대 보호(Microsoft Defender 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 포함)는 동작을 분석하여 위협을 감지하고 실행을 시작한 위협을 중지할 수 있습니다.
+- [차세대 보호(Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md) 포함)는 동작을 분석하여 위협을 감지하고 실행을 시작한 위협을 중지할 수 있습니다.
 
-- [끝점 감지](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) 및 응답(EDR)은 네트워크, 장치 및 커널 동작을 통해 보안 신호를 수신합니다. 위협이 감지되면 경고가 생성됩니다. 동일한 유형의 여러 경고가 인시던트로 집계됩니다. 따라서 보안 운영 팀이 보다 쉽게 조사하고 대응할 수 있습니다.
+- [끝점 감지](overview-endpoint-detection-response.md) 및 응답(EDR)은 네트워크, 장치 및 커널 동작을 통해 보안 신호를 수신합니다. 위협이 감지되면 경고가 생성됩니다. 동일한 유형의 여러 경고가 인시던트로 집계됩니다. 따라서 보안 운영 팀이 보다 쉽게 조사하고 대응할 수 있습니다.
 
-- [끝점용 Defender에는](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) 네트워크, 끝점 및 커널 동작을 통해 수신된 네트워크, 끝점 및 커널 동작 신호 외에도 ID, 전자 메일, 데이터 및 앱에 걸쳐 광범위한 광학 EDR. Endpoint용 [Defender](/microsoft-365/security/defender/microsoft-threat-protection)Microsoft 365 구성 요소로, 이러한 신호와 상관 관계가 있으며, 검색 경고를 발생시킵니다. 인시던트에 관련 경고를 연결합니다.
+- [끝점용 Defender에는](overview-endpoint-detection-response.md) 네트워크, 끝점 및 커널 동작을 통해 수신된 네트워크, 끝점 및 커널 동작 신호 외에도 ID, 전자 메일, 데이터 및 앱에 걸쳐 광범위한 광학 EDR. Endpoint용 [Defender](../defender/microsoft-365-defender.md)Microsoft 365 구성 요소로, 이러한 신호와 상관 관계가 있으며, 검색 경고를 발생시킵니다. 인시던트에 관련 경고를 연결합니다.
 
 이러한 기능을 사용하여 실행을 시작한 경우에도 더 많은 위협을 방지하거나 차단할 수 있습니다. 의심스러운 동작이 감지될 때마다 위협이 포함되어 경고가 생성되고 추적에서 위협이 중지됩니다. 
 
@@ -60,7 +60,7 @@ ms.locfileid: "52845645"
 
 ## <a name="components-of-behavioral-blocking-and-containment"></a>동작 차단 및 포함의 구성 요소
 
-- **클라이언트에서 정책 기반 공격 [표면 감소 규칙](/microsoft-365/security/defender-endpoint/attack-surface-reduction)** 미리 정의한 일반적인 공격 동작은 공격 표면 감소 규칙에 따라 실행되지 않습니다. 이러한 동작이 실행을 시도하면 정보 경고로 Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) 수 있습니다. 공격 표면 감소 규칙은 기본적으로 사용하도록 설정되지 않습니다. 이 규칙에서 정책을 Microsoft Defender 보안 센터.
+- **클라이언트에서 정책 기반 공격 [표면 감소 규칙](attack-surface-reduction.md)** 미리 정의한 일반적인 공격 동작은 공격 표면 감소 규칙에 따라 실행되지 않습니다. 이러한 동작이 실행을 시도하면 정보 경고로 Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) 수 있습니다. 공격 표면 감소 규칙은 기본적으로 사용하도록 설정되지 않습니다. 이 규칙에서 정책을 Microsoft Defender 보안 센터.
 
 - **[클라이언트 동작 차단](client-behavioral-blocking.md)** 끝점의 위협은 기계 학습을 통해 감지된 다음 자동으로 차단되고 수정됩니다. 클라이언트 동작 차단은 기본적으로 사용하도록 설정됩니다. 
 
@@ -93,6 +93,7 @@ Microsoft는 계속해서 위협 방지 기능과 기능을 개선하기에 따�
 [Elusive Threats에](https://www.microsoft.com/security/blog/2019/10/08/in-hot-pursuit-of-elusive-threats-ai-driven-behavior-based-blocking-stops-attacks-in-their-tracks)설명된 바와 같이: AI 기반 동작 기반 차단은 추적에서 공격을 중지합니다. 전 세계 100개 조직에 대한 자격 증명 도난 공격은 행동 차단 및 포함 기능에 의해 중지되었습니다. 루이지 문서가 포함된 스피어 피싱 전자 메일 메시지를 대상 조직으로 전송했습니다. 받는 사람이 첨부 파일을 연 경우 관련 원격 문서가 사용자의 디바이스에서 코드를 실행하고 Lokibot 맬웨어를 로드할 수 있습니다. 이 맬웨어는 자격 증명을 훔치고 훔친 데이터를 유출하고 명령 및 제어 서버에서 추가 지침을 기다립니다. 
 
 Endpoint용 Defender의 동작 기반 장치 학습 모델은 공격 체인에서 다음 두 지점에서 공격자 기술을 잡았다가 중지했습니다.
+
 - 첫 번째 보호 계층에서 악용 동작을 감지했습니다. 클라우드의 장치 학습 분류자는 공격을 차단하라는 지시와 함께 위협을 올바르게 식별하고 즉시 클라이언트 장치에 지시했습니다.
 - 두 번째 보호 계층은 공격이 첫 번째 계층을 넘어가고, 프로세스 공백을 감지하고, 해당 프로세스를 중지하고, 해당 파일(예: Lokibot)을 제거한 경우를 중지하는 데 도움을 주었다. 
 
@@ -120,7 +121,7 @@ Endpoint용 Defender의 동작 기반 장치 학습 모델은 공격 체인에�
 
 ## <a name="next-steps"></a>다음 단계
 
-- [끝점용 Defender에 대해 자세히 알아보시고](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)
+- [끝점용 Defender에 대해 자세히 알아보시고](overview-endpoint-detection-response.md)
 
 - [공격 표면 감소 규칙 구성](attack-surface-reduction.md)
 
@@ -128,4 +129,4 @@ Endpoint용 Defender의 동작 기반 장치 학습 모델은 공격 체인에�
 
 - [최근 전역 위협 활동 보기](https://www.microsoft.com/wdsi/threats)
 
-- [Defender의 Microsoft 365 개요 보기](/microsoft-365/security/defender/microsoft-threat-protection)
+- [Defender의 Microsoft 365 개요 보기](../defender/microsoft-365-defender.md)

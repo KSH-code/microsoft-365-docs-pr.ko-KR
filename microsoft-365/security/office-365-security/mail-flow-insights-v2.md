@@ -69,12 +69,12 @@ ms.locfileid: "51206289"
 
 - **보안 및** 준수 센터의 & 관리(전역 관리자).
 
-- Azure Active Directory의 **[Exchange](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** 관리자
+- **[Exchange 관리자](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** Azure Active Directory.
 
-- **보안 및 준수** 센터의 메일 흐름 &. 계정이 조직 관리 또는 Exchange 관리자 역할 그룹의 구성원이 아닌 경우 다음 문제를 고려하세요.
+- **보안 및 준수** 센터의 메일 흐름 &. 계정이 조직 관리 또는 관리자 역할 Exchange 구성원이 아닌 경우 다음 문제를 고려하세요.
   - 사용자는 에서 직접 보안 및 & 로그인해야 <https://protection.office.com> 합니다.
   - 사용자에게 메일 흐름 대시보드에 대한 읽기 전용 권한만 있습니다.
-  - 사용자는 Microsoft 365 관리 센터에 액세스할 수 없습니다.
+  - 사용자는 Microsoft 365 액세스할 수 없습니다.
 
 사용 권한에 대한 자세한 내용은 [Security & Compliance Center의](permissions-in-the-security-and-compliance-center.md) 사용 권한 및 사용자에게 보안 및 준수 센터에 대한 액세스 [& 참조하세요.](grant-access-to-the-security-and-compliance-center.md)
 

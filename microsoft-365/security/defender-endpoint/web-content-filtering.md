@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a16e3eb8f6f7eae9fbaa82c9fd978f4fef429818
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: c7b39b600af2fed130a0b78a590740a8bc063f50
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822325"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861698"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -61,7 +61,9 @@ ms.locfileid: "52822325"
 
 - Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 끝점용 Microsoft Defender 독립 실행형 라이선스. 
 - Microsoft Defender 보안 센터 포털에 https://securitycenter.windows.com) 액세스합니다( .
-- 최신 Microsoft Defender Windows 10 업데이트가 있는 1주년 업데이트(버전 1607) 이상을 실행하는 장치.
+- 최신 moCAMP Windows 10 1주년 업데이트(버전 1607) 이상을 실행하는 장치.
+- Windows Defender SmartScreen 및 네트워크 보호를 사용할 수 있습니다.
+
 
 ## <a name="data-handling"></a>데이터 처리
 
@@ -162,4 +164,11 @@ ms.locfileid: "52822325"
 
 - 웹 콘텐츠 필터링 보고서는 현재 상위 5,000개 레코드를 표시하는 것으로 제한됩니다. 예를 들어 도메인 보고서에는 해당되는 경우 지정한 필터 쿼리에 대해 상위 5,000개 도메인만 표시됩니다. 
 
+
+
+- [웹 보호 개요](web-protection-overview.md)
+- [웹 위협 방지](web-threat-protection.md)
+- [웹 보안 모니터링](web-protection-monitoring.md)
+- [웹 위협에 대응](web-protection-response.md)
+- [네트워크 보호 요구 사항](web-content-filtering.md)
 

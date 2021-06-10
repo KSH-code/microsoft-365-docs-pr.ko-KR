@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/08/2021
-ms.openlocfilehash: ccbb57d781196e352e0fed456a1f7cb43eb17300
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.date: 06/09/2021
+ms.openlocfilehash: 05b2b2af87e423058d18651571d52a97ac387506
+ms.sourcegitcommit: 3584c1fe59d12512d67faf3efc955e1d67e2baa0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822277"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52862150"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -86,7 +86,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 <summary> 2021년 5월(플랫폼: 4.18.2105.4 | 엔진: 1.1.18200.4)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.341.8.0**  
-&ensp;릴리스: **2021년 6월 4일**  
+&ensp;릴리스: **2021년 6월 3일**  
 &ensp;플랫폼: **4.18.2105.4**  
 &ensp;엔진: **1.1.18200.4**  
 &ensp;지원 단계: **보안 및 중요 업데이트**
@@ -102,15 +102,13 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 <summary> 2021년 4월(플랫폼: 4.18.2104.14 | 엔진: 1.1.18100.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.337.2.0**  
-&ensp;릴리스: **2021년 4월 1일**  
-&ensp;플랫폼: **4.18.2104.14**  
+&ensp;릴리스: **2021년 4월 26일(엔진:**  1.1.18100.6 릴리스 2021년 5월 5일) &ensp; 플랫폼: **4.18.2104.14**  
 &ensp;엔진: **1.1.18100.5**  
 &ensp;지원 단계: **보안 및 중요 업데이트**
     
 ### <a name="whats-new"></a>새로운 기능
 - 추가 동작 모니터링 논리
 - 커널 모드 키로거 검색 개선
-- Microsoft Defender 업데이트의점적 출시 프로세스를 관리하기 위한 새 [컨트롤이 추가되었습니다.](updates.md)
 
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음  
@@ -119,7 +117,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 <summary> 2021년 3월(플랫폼: 4.18.2103.7 | 엔진: 1.1.18000.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.335.36.0**  
-&ensp;릴리스: **2021년 4월 1일**  
+&ensp;릴리스: **2021년 4월 2일**  
 &ensp;플랫폼: **4.18.2103.7**  
 &ensp;엔진: **1.1.18000.5**  
 &ensp;지원 단계: **보안 및 중요 업데이트**

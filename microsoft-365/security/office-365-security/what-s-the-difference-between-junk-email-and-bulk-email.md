@@ -16,7 +16,7 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 EOP(Exchange Online Protection)에서 정크 메일(스팸)과 대량 전자 메일(회색 메일) 간의 차이점에 대해 학습할 수 있습니다.
+description: 관리자는 EOP(전자 메일)에서 정크 메일(스팸)과 대량 전자 메일(회색 메일) 간의 차이점에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: fc9c94946c3da2f9a14f45070a86c557a5c7dc85
@@ -35,7 +35,7 @@ ms.locfileid: "51206976"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 고객은 "정크 메일과 대량 전자 메일의 차이점"을 물어보는 경우도 있습니다. 이 항목에서는 차이점에 대해 설명하고 EOP에서 사용할 수 있는 컨트롤에 대해 설명합니다.
+Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Exchange Online Protection) 조직에서 고객이 "정크 메일과 대량 전자 메일의 차이점"을 Exchange Online 있습니다. 이 항목에서는 차이점에 대해 설명하고 EOP에서 사용할 수 있는 컨트롤에 대해 설명합니다.
 
 - **정크 메일은** 원치 않는 보편적으로 원치 않는 메시지(올바르게 식별된 경우)인 스팸입니다. 기본적으로 EOP는 원본 전자 메일 서버의 신뢰도에 따라 스팸을 거부합니다. 메시지가 원본 IP 검사를 통과하면 스팸 필터링으로 전송됩니다. 메시지가 스팸 필터링을 통해 스팸으로 분류되는 경우 메시지는 기본적으로 의도한 받는 사람에게 배달되어 정크 메일 폴더로 이동됩니다.
 

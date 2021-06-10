@@ -1,5 +1,5 @@
 ---
-title: Office 365용 Microsoft Defender를 사용하여 피싱 공격 시뮬레이션
+title: Microsoft Defender를 사용하여 피싱 공격을 Office 365
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 관리자는 Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 사용하여 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지에 교육하는 방법을 배울 수 있습니다.
+description: 관리자는 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지를 위한 Microsoft Defender의 공격 시뮬레이션 교육을 사용하여 피싱 방지를 교육하는 방법을 Office 365.
 ms.technology: mdo
 ms.openlocfilehash: 27279f927a15ea94ae84112ffdc23d88ea42d2ff
 ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
@@ -21,15 +21,15 @@ ms.locfileid: "51206226"
 ---
 # <a name="simulate-a-phishing-attack"></a>피싱 공격 시뮬레이션
 
-Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 통해 조직에서 양성 사이버 공격 시뮬레이션을 실행하여 보안 정책 및 관행을 테스트하고 직원의 인식을 높이고 공격에 대한 인식을 낮출 수 있도록 교육할 수 있습니다. 이 문서에서는 공격 시뮬레이션 교육을 사용하여 시뮬레이션된 피싱 공격을 만드는 방법을 단계적으로 제공합니다.
+Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 조직에서 양성 사이버 공격 시뮬레이션을 실행하여 보안 정책 및 관행을 테스트할 수 있을 뿐만 아니라 직원의 인식을 높이고 공격에 대한 인식을 낮출 수 있도록 교육할 수 있습니다. 이 문서에서는 공격 시뮬레이션 교육을 사용하여 시뮬레이션된 피싱 공격을 만드는 방법을 단계적으로 제공합니다.
 
 공격 시뮬레이션 교육에 대한 시작 정보는 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
 
-시뮬레이션된 피싱 공격을 시작하기 위해 [Microsoft 365](https://security.microsoft.com/)보안 센터를 열고 전자 메일 & **공동** 작업 공격 시뮬레이션 교육으로 이동한 후 시뮬레이션 탭으로 \> 전환합니다. [](https://security.microsoft.com/attacksimulator?viewid=simulations)
+시뮬레이션된 피싱 공격을 시작하기 [](https://security.microsoft.com/)위해 Microsoft 365 보안 센터를 열고 전자 메일 & **공동** 작업 공격 시뮬레이션 교육으로 이동한 다음 시뮬레이션 탭으로 \>  [**전환합니다.**](https://security.microsoft.com/attacksimulator?viewid=simulations)
 
 **시뮬레이션에서**+ **시뮬레이션 실행을 선택합니다.**
 
-![Microsoft 365 보안 센터에서 시뮬레이션 단추 시작](../../media/attack-sim-preview-launch.png)
+![보안 센터에서 시뮬레이션 Microsoft 365 시작](../../media/attack-sim-preview-launch.png)
 
 > [!NOTE]
 > 시뮬레이션을 만들 때 어느 시점에서든 저장하고 닫아서 나중에 시뮬레이션을 계속 구성할 수 있습니다.
@@ -47,7 +47,7 @@ Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 통해 조
 > [!TIP]
 > 각 기술에 **대한** 설명 내에서 세부 정보 보기를 클릭하면 해당 기술에 대한 추가 정보와 시뮬레이션 단계가 표시됩니다.
 >
-> ![Microsoft 365 보안 센터의 공격 시뮬레이션 교육 내에서 자격 증명 수집을 위한 시뮬레이션 단계](../../media/attack-sim-preview-sim-steps.png)
+> ![보안 센터의 공격 시뮬레이션 교육 내에서 자격 Microsoft 365 단계](../../media/attack-sim-preview-sim-steps.png)
 
 기술을 선택한 후 다음 을 클릭한 후 **시뮬레이션에** 이름과 설명(옵션)을 제공합니다.
 
@@ -58,12 +58,12 @@ Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 통해 조
 페이로드에는 다음을 선택하는 데 도움이 되는 다양한 데이터 포인트가 있습니다.
 
 - **클릭 속도는** 이 페이로드를 클릭한 사용자 수를 계산합니다.
-- **예측된** 손상률은 Office 365 고객용 Microsoft Defender에서 페이로드에 대한 기록 데이터를 기반으로 이 페이로드에 의해 손상되는 사용자 비율을 예측합니다.
+- **예측된** 손상률은 고객용 Microsoft Defender에서 페이로드에 대한 기록 데이터를 기반으로 이 페이로드에 의해 손상될 비율을 Office 365 예측합니다.
 - **실행된 시뮬레이션은** 이 페이로드가 다른 시뮬레이션에 사용된 횟수를 계산합니다.
 - **필터를** **통해** 사용할 수 있는 복잡성은 페이로드 내에서 공격 대상을 단서하는 지표 수를 기반으로 계산됩니다. 지표가 수록 복잡성이 낮아집니다.
 - **Source** 는 필터를 **통해** 사용할 수 있습니다. 페이로드가 테넌트에서 만들어지거나 Microsoft의 기존 페이로드 카탈로그(전역)의 일부인지 여부를 나타냅니다.
 
-![Microsoft 365 보안 센터의 공격 시뮬레이션 교육 내에서 선택한 페이로드](../../media/attack-sim-preview-select-payload.png)
+![보안 센터의 공격 시뮬레이션 Microsoft 365 선택한 페이로드](../../media/attack-sim-preview-select-payload.png)
 
 목록에서 페이로드를 선택하여 페이로드에 대한 추가 정보가 있는 미리 보기를 볼 수 있습니다.
 
@@ -76,7 +76,7 @@ Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 통해 조
 특정 사용자 및 그룹만 **포함하도록 선택하는 경우** 다음 중 하나를 사용할 수 있습니다.
 
 - **사용자를 추가하여** 지난 3개월 동안 시뮬레이션의 대상으로 지정되지 않은 사용자를 대상으로 지정하는 등 테넌트에 대한 검색뿐만 아니라 고급 검색 및 필터링 기능을 활용할 수 있습니다.
-  ![Microsoft 365 보안 센터에 대한 공격 시뮬레이션 교육의 사용자 필터링](../../media/attack-sim-preview-user-targeting.png)
+  ![보안 센터에 대한 공격 시뮬레이션 Microsoft 365 사용자 필터링](../../media/attack-sim-preview-user-targeting.png)
 - **CSV에서 가져오기에서는** 이 시뮬레이션에 대해 미리 정의한 사용자 집합을 가져올 수 있습니다.
 
 ## <a name="assigning-training"></a>교육 할당
@@ -90,7 +90,7 @@ Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 통해 조
 > [!NOTE]
 > 과정 및 모듈을 직접 선택하기로 선택한 경우 권장되는 콘텐츠와 사용 가능한 모든 과정 및 모듈을 계속 볼 수 있습니다.
 >
-> ![Microsoft 365 보안 센터의 공격 시뮬레이션 교육 내에서 권장 교육 추가](../../media/attack-sim-preview-add-training.png)
+> ![보안 센터에서 공격 시뮬레이션 교육 내에서 Microsoft 365 추가](../../media/attack-sim-preview-add-training.png)
 
 다음 단계에서 직접 교육을  선택하기로 선택한 경우 교육을 추가하고 교육 방문 페이지를 사용자 지정해야 합니다. 교육 방문 페이지를 미리 보고 머리더와 본문을 변경할 수 있습니다.
 

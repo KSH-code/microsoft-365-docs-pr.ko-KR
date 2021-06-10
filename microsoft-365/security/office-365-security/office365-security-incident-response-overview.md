@@ -14,7 +14,7 @@ ms.collection:
 localization_priority: Normal
 search.appverid:
 - MET150
-description: 이 솔루션은 Microsoft 365에서 가장 일반적인 사이버 보안 공격의 모양과 이에 대응하는 방법을 알 수 있습니다.
+description: 이 솔루션에서는 가장 일반적인 사이버 보안 공격의 모양과 대응 방법을 Microsoft 365 방법을 알 수 있습니다.
 ms.custom:
 - seo-marvel-apr2020
 ms.technology: mdo
@@ -41,7 +41,7 @@ ms.locfileid: "51205872"
 
 모든 사이버 공격을 막을 수 있는 것은 아닙니다. 공격자는 계속해서 방어 전략에 대한 새로운 약점을 찾고 있거나 이전 약점을 악용하고 있습니다. 공격을 인식하는 방법을 알면 보다 신속하게 대처하여 보안 사고의 기간을 단축시킬 수 있습니다.
 
-이 문서 시리즈는 Microsoft 365에서 특정 유형의 공격이 어떻게 모양이 될 수 있는지 파악하는 데 도움을 주며 대응하기 위해 취할 수 있는 단계를 사용자에게 제공 합니다. 다음 사항을 이해하기 위한 빠른 진입점입니다.
+이 문서 시리즈는 특정 유형의 공격이 조직에서 어떻게 Microsoft 365 대응하기 위해 취할 수 있는 단계를 제공하는 데 도움이 됩니다. 다음 사항을 이해하기 위한 빠른 진입점입니다.
 
 - 공격이란 무엇인가와 작동 방식
 
@@ -67,7 +67,7 @@ ms.locfileid: "51205872"
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>사이버 보안 프로그램과 같은 Microsoft 365 보안
 
-Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수 있는 강력한 보안 기능이 함께 제공됩니다.  Microsoft 365 보안 로드맵 - 처음 [30일, 90일](security-roadmap.md) 및 그 이상에 대한 최우선 순위를 사용하여 Microsoft 365 조직 보안을 위한 Microsoft 권장 모범 사례를 구현합니다.
+Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수 있는 강력한 보안 기능이 함께 제공됩니다.  Microsoft 365 보안 로드맵 - 처음 [30일, 90일](security-roadmap.md) 및 그 이상에 대한 최상위 우선 순위를 사용하여 Microsoft에서 권장하는 보안 Microsoft 365 구현합니다.
 
 - 처음 30일 이내에 수행 할 작업  이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
 

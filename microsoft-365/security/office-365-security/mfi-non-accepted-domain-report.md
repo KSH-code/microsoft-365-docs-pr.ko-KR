@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 않는 도메인 보고서를 사용하여 Microsoft 365에서 보낸 사람 도메인이 구성되지 않은 & 조직의 메시지를 모니터링하는 방법을 배울 수 있습니다.
+description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 않는 도메인 보고서를 사용하여 보낸 사람 도메인이 조직에 구성되어 있지 않은 & 조직에서 보낸 메시지를 모니터링하는 방법을 Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: fb33feb56bf2b52731c03273ce0c6444c333f348
@@ -30,9 +30,9 @@ ms.locfileid: "51206336"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-[보안](https://protection.office.com) & 준수 센터의 [](mail-flow-insights-v2.md) 메일 흐름 대시보드에 있는 허용되지 않는 도메인 보고서에는 보낸 사람 도메인이 Microsoft 365 조직의 허용 도메인으로 구성되지 않은 사용자의 전자 메일 조직에서 보낸 메시지에 대한 정보가 표시됩니다. 
+[보안](https://protection.office.com) & 준수 센터의 [](mail-flow-insights-v2.md) 메일 흐름 대시보드에 있는 허용되지 않는 도메인 보고서에는 보낸 사람 도메인이 Microsoft 365 조직에서 허용 도메인으로 구성되지 않은 경우의 메시지에 대한 정보가 표시됩니다. 
 
-Microsoft 365는 이러한 메시지의 의도가 악성일 수 있는 것으로 증명할 데이터가 있는 경우 이러한 메시지를 스로틀할 수 있습니다. 따라서 어떤 일이 일어나는지 이해하고 문제를 해결하는 것이 중요합니다.
+Microsoft 365 메시지의 의도가 악의적일 수 있는 것으로 증명할 데이터가 있는 경우 이러한 메시지가 스로틀될 수 있습니다. 따라서 어떤 일이 일어나는지 이해하고 문제를 해결하는 것이 중요합니다.
 
 ![보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 & 위젯](../../media/mfi-non-accepted-domain-report-widget.png)
 

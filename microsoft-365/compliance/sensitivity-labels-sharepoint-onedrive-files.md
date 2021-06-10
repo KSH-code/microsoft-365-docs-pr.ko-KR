@@ -17,20 +17,20 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용하도록 SharePoint OneDrive.
-ms.openlocfilehash: 695084443ee10de87f091d358b63fad079e03093
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: d4c0f9b4c280394dd63820320ba7ca30e349c361
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861518"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878043"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
->*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
-사용자가 Office 레이블을 적용할 수 있도록 SharePoint 및 OneDrive 파일에 대해 민감도 [](sensitivity-labels.md) 레이블을 웹용 Office. 이 기능을 사용하도록 설정하면 레이블을 적용할 수 있도록 리본 메뉴에 민감도 단추가 표시되고 상태 표시줄에 적용된 레이블 이름이 표시됩니다. 
+지원되는 Office 파일에 [](sensitivity-labels-office-apps.md#office-file-types-supported) 대해 기본 제공 레이블 지정을 SharePoint OneDrive 사용하여 사용자가 해당 파일에서 민감도 레이블을 적용할 수 웹용 Office. [](sensitivity-labels.md) 이 기능을 사용하도록 설정하면 레이블을 적용할 수 있도록 리본 메뉴에 민감도 단추가 표시되고 상태 표시줄에 적용된 레이블 이름이 표시됩니다. 
 
-또한 이 기능을 사용하도록 설정하면 SharePoint OneDrive 레이블을 사용하여 암호화된 파일의 내용을 처리하지 못하게 됩니다. 레이블은 데스크톱 앱 또는 웹용 Office 또는 Office 앱 및 앱에 SharePoint 저장될 OneDrive. 이 기능을 사용하도록 설정하기 전까지는 이러한 서비스가 암호화된 파일을 처리할 수 없습니다. 즉, 공동 작성, eDiscovery, 데이터 손실 방지, 검색 및 기타 공동 작업 기능이 이러한 파일에 대해 작동하지 않습니다.
+또한 이 기능을 사용하도록 설정하면 SharePoint OneDrive 사용하여 암호화된 Office 파일의 콘텐츠를 처리하지 못하게 됩니다. 레이블은 데스크톱 앱 또는 웹용 Office 또는 Office 앱 및 앱에 SharePoint 저장될 OneDrive. 이 기능을 사용하도록 설정하기 전까지는 이러한 서비스가 암호화된 파일을 처리할 수 없습니다. 즉, 공동 작성, eDiscovery, 데이터 손실 방지, 검색 및 기타 공동 작업 기능이 이러한 파일에 대해 작동하지 않습니다.
 
 Office 및 SharePoint 및 OneDrive 파일에 대해 민감도 레이블을 사용하도록 설정한 후 클라우드 기반 키로 암호화를 적용하고 이중 키 암호화를 사용하지 않는 민감도 레이블이 있는 새 파일 및 변경된 파일의 경우 [:](double-key-encryption.md)
 

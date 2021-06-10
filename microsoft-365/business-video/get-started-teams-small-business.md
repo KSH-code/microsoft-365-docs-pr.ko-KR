@@ -1,5 +1,5 @@
 ---
-title: 시작 Teams
+title: Teams 시작하기
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537370"
 ---
-# <a name="get-started-with-teams"></a>시작 Teams
+# <a name="get-started-with-teams"></a>Teams 시작하기
 
 원격으로 작업하기 위해 비즈니스를 변경하기 시작하면 올바른 장소로 들어오게 될 것입니다. 이 Microsoft 365 사용하면 비즈니스를 가상으로 관리하고 온라인 모임, 채팅, 파일 공유 및 통화를 [](https://www.microsoft.com/microsoft-teams/instant-messaging?ocid=oo_support_mix_marvel_ups_support_smcteamsmb_inline)통해 직원, 파트너 및 고객과 연락할 수 Microsoft Teams. 
 

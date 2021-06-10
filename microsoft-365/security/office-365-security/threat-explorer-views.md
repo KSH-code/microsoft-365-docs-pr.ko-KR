@@ -35,22 +35,22 @@ ms.locfileid: "51206419"
 
 ![위협 탐색기](../../media/ThreatExplorerFirstOpened.png)
 
-[위협](threat-explorer.md) 탐색기(및 실시간 검색 보고서)는 보안 운영 팀이 보안 및 준수 센터에서 위협을 조사하고 대응하는 데 도움이 되는 강력한 거의 실시간 & 도구입니다. 탐색기(및 실시간 검색 보고서)는 Office 365의 전자 메일 및 파일에 의심되는 맬웨어 및 피싱과 조직에 대한 기타 보안 위협 및 위험에 대한 정보를 표시합니다.
+[위협](threat-explorer.md) 탐색기(및 실시간 검색 보고서)는 보안 운영 팀이 보안 및 준수 센터에서 위협을 조사하고 대응하는 데 도움이 되는 강력한 거의 실시간 & 도구입니다. 탐색기(및 실시간 검색 보고서)는 조직의 전자 메일 및 파일에서 의심되는 맬웨어 및 피싱Office 365 조직에 대한 기타 보안 위협 및 위험에 대한 정보를 표시합니다.
 
-- [Office 365 계획 2용 Microsoft Defender가](defender-for-office-365.md) 있는 경우 탐색기가 있습니다.
-- Office 365 계획 1에 대한 Microsoft Defender가 있는 경우 실시간 검색이 있습니다.
+- Microsoft [Defender for Office 365](defender-for-office-365.md) 계획 2가 있는 경우 탐색기가 있습니다.
+- Microsoft Defender for Office 365 계획 1이 있는 경우 실시간 검색이 있습니다.
 
-탐색기(또는 실시간 검색 보고서)를 처음 열면 기본 보기에 지난 7일 동안의 전자 메일 맬웨어 검색이 표시됩니다. 또한 이 보고서에는 안전한 링크에서 검색된 악의적인 URL 및 안전한 첨부 [](safe-links.md)파일에서 검색된 악성 파일과 같은 Office 365 검색에 대한 Microsoft Defender가 표시될 [수 있습니다.](safe-attachments.md) 이 보고서는 지난 30일 동안의 데이터를 표시하기 위해 수정할 수 있습니다(Office 365 P2 유료 구독용 Microsoft Defender 사용). 평가판 구독에는 지난 7일 동안의 데이터만 포함됩니다.
+탐색기(또는 실시간 검색 보고서)를 처음 열면 기본 보기에 지난 7일 동안의 전자 메일 맬웨어 검색이 표시됩니다. 또한 이 보고서는 안전한 링크에서 검색된 악의적인 URL Office 365 안전한 [](safe-links.md)첨부 파일로 검색된 악성 파일 등 검색된 메시지에 대해 Microsoft Defender를 보여 [주어도 됩니다.](safe-attachments.md) 이 보고서는 지난 30일 동안의 데이터를 표시하기 위해 수정할 수 있습니다(P2 유료 구독용 Microsoft Defender 사용 Office 365 수 있습니다. 평가판 구독에는 지난 7일 동안의 데이터만 포함됩니다.
 
 ****
 
 |구독|유틸리티|데이터 일 수|
 |---|---|---|
 |Microsoft Defender for Office 365 P1 평가판|실시간 탐지|7 |
-|Office 365 P1용 Microsoft Defender 유료|실시간 탐지|30|
-|Office 365 P1용 Microsoft Defender 유료 테스트 Defender for Office 365 P2 평가판|위협 탐색기|7 |
+|Microsoft Defender for Office 365 P1 유료|실시간 탐지|30|
+|Microsoft Defender for Office 365 P1 유료 테스트 Defender for Office 365 P2 평가판|위협 탐색기|7 |
 |Microsoft Defender for Office 365 P2 평가판|위협 탐색기|7 |
-|Office 365 P2용 Microsoft Defender 유료|위협 탐색기|30|
+|Microsoft Defender for Office 365 P2 유료|위협 탐색기|30|
 |
 
 > [!NOTE]
@@ -131,9 +131,9 @@ ms.locfileid: "51206419"
 
 ## <a name="content--malware"></a>콘텐츠 > 맬웨어
 
-이 보고서를 보거나 탐색기(또는 실시간 검색)에서 콘텐츠 맬웨어  \> **보기를** \> **선택하세요.** 이 보기는 SharePoint Online, 비즈니스용 [OneDrive 및 Microsoft Teams에서 Office 365용 Microsoft Defender에](mdo-for-spo-odb-and-teams.md)의해 악성으로 식별된 파일을 보여줍니다.
+이 보고서를 보거나 탐색기(또는 실시간 검색)에서 콘텐츠 맬웨어  \> **보기를** \> **선택하세요.** 이 보기는 Office 365 Online, SharePoint 및 에서 [Microsoft Defender에서](mdo-for-spo-odb-and-teams.md)악성으로 식별된 비즈니스용 OneDrive Microsoft Teams.
 
-맬웨어 패밀리, 검색 기술(맬웨어가 검색된 방법) 및 워크로드(OneDrive, SharePoint 또는 Teams)를 통해 정보를 볼 수 있습니다.
+맬웨어 패밀리, 검색 기술(맬웨어가 검색된 방법) 및 작업(OneDrive, SharePoint 또는 Teams.
 
 ![검색된 맬웨어에 대한 데이터 보기](../../media/d11dc568-b091-4159-b261-df13d76b520b.png)
 
@@ -147,7 +147,7 @@ ms.locfileid: "51206419"
 
 이 **차트에서 ATP** 검색을 클릭하면 보기가 이와 같이 표시됩니다.
 
-![Office 365 검색 결과용 Defender만 표시하기 위해 필터링된 탐색기](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
+![검색 결과에 대한 Defender만 표시 Office 365 탐색기](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
 
 이 보기에서는 이제 안전한 첨부 파일로 검색된 파일에 대한 [데이터를 보고 있습니다.](safe-attachments.md) 차트 아래에서는 안전한 첨부 파일에서 검색된 첨부 파일이 있는 특정 전자 메일 메시지에 대한 세부 정보를 볼 수 있습니다.
 
