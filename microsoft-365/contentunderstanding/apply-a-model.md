@@ -10,14 +10,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
-localization_priority: Priority
+localization_priority: Normal
 description: SharePoint 문서 라이브러리에 게시된 모델을 적용하는 방법 알아보기
-ms.openlocfilehash: 42168537c8d449a075b5e29ef9905b6b98b8d714
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
-ms.translationtype: HT
+ms.openlocfilehash: cda9de43d0139c52f950527eb75d050602005fd2
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925403"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843297"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 
@@ -105,6 +105,6 @@ SharePoint Syntex 문서의 이해 또는 양식 처리 모델을 문서 라이�
 ## <a name="see-also"></a>참고 항목
 [분류자 만들기](create-a-classifier.md)
 
-[추출자 만들기](create-an-extractor.md)
+[추출기 만들기](create-an-extractor.md)
 
 [문서 이해 개요](document-understanding-overview.md)

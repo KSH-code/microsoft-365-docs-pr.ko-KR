@@ -1,6 +1,6 @@
 ---
 title: 끝점용 Microsoft Defender로 전환하기 위한 마이그레이션 가이드
-description: Microsoft 365가 아닌 Defender 솔루션에서 끝점용 Microsoft Defender로 전환하는 방법을 알아보십시오.
+description: 비보안 Defender 솔루션에서 끝점용 Microsoft Defender로 Microsoft 365 방법을 알아보십시오.
 search.appverid: MET150
 author: denisebmsft
 ms.author: deniseb
@@ -17,14 +17,14 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 09/24/2020
 ms.technology: mde
-ms.openlocfilehash: f834ab371b9d860c451c89bb1a4e7d64bdd6ec1f
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 7d6d92f3abc79552406c80a46a8c3390b91e31d0
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934444"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843013"
 ---
-# <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Endpoint용 Microsoft Defender 및 Microsoft Defender 바이러스 백신으로 전환
+# <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Endpoint 및 2013용 Microsoft Defender로 Microsoft Defender 바이러스 백신
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,16 +36,16 @@ ms.locfileid: "51934444"
 
 ## <a name="migration-guides"></a>마이그레이션 가이드
 
-Microsoft Defender 바이러스 백신을 사용하여 비 Microsoft 365 Defender 솔루션에서 끝점용 Microsoft Defender로 전환하려는 경우 마이그레이션 지침을 참조하세요. 배포 프로세스에서 가장 적합한 시나리오를 선택하고 지침을 참조하세요.
+비영리 Microsoft 365 Defender 솔루션에서 끝점용 Microsoft Defender로 전환하는 Microsoft Defender 바이러스 백신 마이그레이션 지침을 참조하세요. 배포 프로세스에서 가장 적합한 시나리오를 선택하고 지침을 참조하세요.
 
 |시나리오 |지침 |
 |:--|:--|
-|아직 끝점 보호 솔루션이 없는 경우 Microsoft Defender 바이러스 백신이 어떻게 작동하고, Endpoint용 Microsoft Defender & 알고 싶을 것입니다.  |[끝점용 Microsoft Defender 평가 랩](evaluation-lab.md)   |
-|You have Microsoft Defender for Endpoint & Microsoft Defender Antivirus and need some help getting everything set up and configured.  |[끝점용 Microsoft Defender 배포 가이드](deployment-phases.md)  |
-|McAfee Endpoint Security(McAfee)에서 Microsoft Defender 바이러스 백신을 사용하여 끝점용 Microsoft Defender로 & 계획입니다. |[McAfee에서 엔드포인트용 Microsoft Defender로 전환](mcafee-to-microsoft-defender-migration.md) |
-|Symantec Endpoint Protection(Symantec)에서 Microsoft Defender 바이러스 백신을 사용하여 끝점용 Microsoft Defender로 & 계획입니다. |[Symantec에서 엔드포인트용 Microsoft Defender로 전환](symantec-to-microsoft-defender-endpoint-migration.md) |
-|Microsoft Defender 바이러스 백신을 사용하여 Microsoft가 아닌 다른 끝점 보호 솔루션(McAfee 또는 Symantec 외)에서 Endpoint용 Microsoft Defender로 & 계획입니다. |[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)   |
-|Microsoft Defender 바이러스 백신용 Microsoft Defender로 & 추가 기능을 구성하거나 보안 설정을 미세 조정하는 등 다음 단계에 대한 도움이 필요합니다. | [끝점용 Microsoft Defender 관리, 마이그레이션 후](manage-atp-post-migration.md) |
+|아직 끝점 보호 솔루션이 없는 경우 끝점용 Microsoft Defender가 어떻게 작동하고 & Microsoft Defender 바이러스 백신 합니다.  |[끝점용 Microsoft Defender 평가 랩](evaluation-lab.md)   |
+|끝점용 Microsoft Defender & Microsoft Defender 바이러스 백신 설정하고 구성하는 데 도움이 필요합니다.  |[끝점용 Microsoft Defender 배포 가이드](deployment-phases.md)  |
+|McAfee 끝점 보안(McAfee)에서 끝점용 Microsoft Defender 보안으로 마이그레이션할 & Microsoft Defender 바이러스 백신. |[McAfee에서 엔드포인트용 Microsoft Defender로 전환](mcafee-to-microsoft-defender-migration.md) |
+|Symantec Endpoint Protection(Symantec)에서 Endpoint용 Microsoft Defender로 마이그레이션할 & Microsoft Defender 바이러스 백신. |[Symantec에서 엔드포인트용 Microsoft Defender로 전환](symantec-to-microsoft-defender-endpoint-migration.md) |
+|Microsoft가 아닌 끝점 보호 솔루션(McAfee 또는 Symantec 외)에서 Endpoint용 Microsoft Defender로 마이그레이션할 & Microsoft Defender 바이러스 백신. |[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)   |
+|Microsoft Defender for Endpoint & Microsoft Defender 바이러스 백신 마이그레이션한 후 추가 기능 구성 또는 보안 설정 미세 조정과 같은 다음 단계에 대한 도움이 필요합니다. | [끝점용 Microsoft Defender 관리, 마이그레이션 후](manage-atp-post-migration.md) |
 
 
 ## <a name="got-feedback"></a>피드백이 있나요?
@@ -54,6 +54,6 @@ Microsoft Defender 바이러스 백신을 사용하여 비 Microsoft 365 Defende
 
 ## <a name="see-also"></a>참고 항목
 
-- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection)
-- [Office 365용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
-- [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection?) 
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection)
+- [Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/office-365-atp)
+- [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection?) 

@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅chema의 DeviceImageLoadEvents 테이블
 description: 고급 헌팅 스위마의 DeviceImageLoadEvents 테이블에서 DLL 로딩 이벤트에 대해 자세히 알아보시고
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, imageloadevents, DeviceImageLoadEvents, DLL loading, library, file image
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마마 참조, kusto, 표, 열, 데이터 형식, 설명, imageloadevents, DeviceImageLoadEvents, DLL 로드, 라이브러리, 파일 이미지
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -62,7 +62,7 @@ ms.locfileid: "52023009"
 | `InitiatingProcessAccountSid` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 계정의 SID(보안 식별자)입니다. |
 | `InitiatingProcessAccountUpn` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 계정의 UPN(사용자 계정 이름)입니다. |
 | `InitiatingProcessAccountObjectId` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 사용자 계정의 Azure AD 개체 ID입니다. |
-| `InitiatingProcessIntegrityLevel` | 문자열 | 이벤트를 시작한 프로세스의 무결성 수준입니다. Windows는 인터넷 다운로드에서 시작된 경우와 같이 특정 특성을 기반으로 프로세스에 무결성 수준을 할당합니다. 이러한 무결성 수준은 리소스에 대한 사용 권한에 영향을 미치기 |
+| `InitiatingProcessIntegrityLevel` | 문자열 | 이벤트를 시작한 프로세스의 무결성 수준입니다. Windows 인터넷 다운로드에서 시작된 경우와 같은 특정 특성을 기반으로 프로세스에 무결성 수준을 할당합니다. 이러한 무결성 수준은 리소스에 대한 사용 권한에 영향을 미치기 |
 | `InitiatingProcessTokenElevation` | 문자열 | 이벤트를 시작한 프로세스에 적용되는 UAC(사용자 액세스 제어) 권한 상승의 유무를 나타내는 토큰 형식입니다. |
 | `InitiatingProcessSHA1` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 SHA-1 |
 | `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 SHA-256입니다. 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |

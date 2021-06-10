@@ -139,4 +139,4 @@ ms.locfileid: "52275135"
 ## <a name="related-articles"></a>관련 문서
 
 - [동작, 추론 및 실시간 보호 구성](configure-protection-features-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

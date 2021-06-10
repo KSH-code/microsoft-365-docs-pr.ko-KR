@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6607d5029e45c77754a431c87eb61cd281e013c1
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: ccff6abcfcd1a2da32a8e1614a2de45afed69aef
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730729"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843001"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
@@ -60,7 +60,7 @@ ms.locfileid: "52730729"
 
 서버용 끝점용 Microsoft Defender에는 다음 라이선스 옵션 중 하나가 필요합니다.
 
-- [Azure Defender가 활성화된 Azure 보안 센터](https://docs.microsoft.com/azure/security-center/security-center-pricing)
+- [Azure Defender가 활성화된 Azure 보안 센터](/azure/security-center/security-center-pricing)
 - 서버용 Microsoft Defender for Server(대상 서버당 1개)
 
 > [!NOTE]

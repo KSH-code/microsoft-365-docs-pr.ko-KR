@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender 바이러스 백신에 대한 클라우드 제공 보호 수준 지정
-description: Microsoft Defender 바이러스 백신에 대한 클라우드 제공 보호 수준을 설정합니다.
-keywords: Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, defender, 클라우드, 적극성, 보호 수준
+title: 클라우드 제공 보호 수준을 Microsoft Defender 바이러스 백신
+description: 사용자에 대한 클라우드 제공 보호 수준을 Microsoft Defender 바이러스 백신.
+keywords: Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, Defender, 클라우드, 적극성, 보호 수준
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
@@ -32,19 +32,19 @@ ms.locfileid: "52274907"
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-Microsoft Endpoint Manager(권장) 또는 그룹 정책을 사용하여 Microsoft Defender 바이러스 백신에서 제공하는 클라우드 제공 보호 수준을 지정할 수 있습니다.
+사용자 지정(권장) 또는 그룹 정책을 사용하여 Microsoft Defender 바이러스 백신 클라우드 제공 보호 수준을 Microsoft Endpoint Manager 수 있습니다.
 
 > [!TIP]
-> 클라우드 보호는 단순히 클라우드에 저장된 파일에 대한 보호가 아니며, Microsoft Defender 바이러스 백신 클라우드 서비스는 네트워크 및 장치(끝점이라고도 불리는)에 업데이트된 보호를 제공하는 메커니즘입니다. Microsoft Defender 바이러스 백신을 사용하는 클라우드 보호는 분산된 리소스 및 기계 학습을 사용하여 기존 보안 인텔리전스 업데이트보다 훨씬 빠른 속도로 끝점에 보호 기능을 제공합니다. Microsoft Intune 및 Microsoft Endpoint Manager는 이제 [Microsoft Endpoint Manager의 일부입니다.](/mem/endpoint-manager-overview) 
+> 클라우드 보호는 단순히 클라우드에 저장된 파일에 대한 보호가 아니며, Microsoft Defender 바이러스 백신 클라우드 서비스는 네트워크 및 장치(끝점이라고도 하는)에 업데이트된 보호를 제공하는 메커니즘입니다. 사용자 Microsoft Defender 바이러스 백신 클라우드 보호는 분산된 리소스와 기계 학습을 사용하여 기존 보안 인텔리전스 업데이트보다 훨씬 빠른 속도로 끝점에 보호 기능을 제공합니다. Microsoft Intune Microsoft Endpoint Manager 의 [일부로](/mem/endpoint-manager-overview)Microsoft Endpoint Manager. 
 
 
-## <a name="use-microsoft-endpoint-manager-to-specify-the-level-of-cloud-delivered-protection"></a>Microsoft Endpoint Manager를 사용하여 클라우드 제공 보호 수준 지정
+## <a name="use-microsoft-endpoint-manager-to-specify-the-level-of-cloud-delivered-protection"></a>이 Microsoft Endpoint Manager 사용하여 클라우드 제공 보호 수준 지정
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
 
 2. 끝점 **보안 바이러스 백신**  >  **을 선택 합니다.**
 
-3. 바이러스 백신 프로필을 선택합니다. (아직 프로필이 없는 경우 또는 새 프로필을 만들하려는 경우 Microsoft Intune에서 장치 제한 설정 [구성을 참조하세요.](/intune/device-restrictions-configure)
+3. 바이러스 백신 프로필을 선택합니다. (아직 프로필이 없는 경우 또는 새 프로필을 만들하려는 경우 에서 장치 제한 설정 [구성을 Microsoft Intune.](/intune/device-restrictions-configure)
 
 4. 속성을 **선택합니다.** 그런 다음 구성 설정 **옆에 있는** 편집 을 **선택합니다.**
 
@@ -58,7 +58,7 @@ Microsoft Endpoint Manager(권장) 또는 그룹 정책을 사용하여 Microsof
 
 > [!TIP]
 > 도움이 필요하세요? 다음 리소스를 참조하십시오.
-> - [끝점 보호 구성](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
+> - [구성 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
 > - [Intune에서 끝점 보호 설정 추가](/mem/intune/protect/endpoint-protection-configure)
   
 
@@ -70,7 +70,7 @@ Microsoft Endpoint Manager(권장) 또는 그룹 정책을 사용하여 Microsof
 
 3.  그룹 정책 **관리 편집기에서** 컴퓨터 구성 **관리**  >  **템플릿으로 이동하십시오.**
 
-4.  **Windows** 구성 요소 Microsoft  >  **Defender 바이러스** 백신  >  **MpEngine까지 트리를 확장합니다.**
+4.  트리를   >    >  **MpEngine** Windows 구성 Microsoft Defender 바이러스 백신 확장합니다.
 
 5.  클라우드 보호 수준 **선택 설정을 두 번 클릭하고** 사용으로 **설정합니다.** 보호 수준을 선택합니다.
     - **기본 차단 수준은** 합법적인 파일을 검색할 위험을 늘리지 않고 강력한 검색을 제공합니다.
@@ -87,7 +87,7 @@ Microsoft Endpoint Manager(권장) 또는 그룹 정책을 사용하여 Microsof
 7. 업데이트된 그룹 정책 개체를 배포합니다. 그룹 [정책 관리 콘솔 참조](/windows/win32/srvnodes/group-policy)
 
 > [!TIP]
-> 그룹 정책 개체를 사용하는지 여부 클라우드에서 번역하는 방법을 참조합니다. [Microsoft Endpoint Manager -](/mem/intune/configuration/group-policy-analytics)미리 보기에서 그룹 정책 분석을 사용하여 프레미스 그룹 정책 개체를 분석합니다. 
+> 그룹 정책 개체를 사용하는지 여부 클라우드에서 번역하는 방법을 참조합니다. 미리 보기에서 그룹 정책 분석을 사용하여 Microsoft Endpoint Manager 그룹 정책 개체를 [분석합니다.](/mem/intune/configuration/group-policy-analytics) 
   
 ## <a name="related-articles"></a>관련 문서
 

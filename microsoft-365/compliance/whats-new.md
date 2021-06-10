@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f249108dba279e255efd57ecd56159d3c71dcb4b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: d312b3ac3c2cb43e05a09936f1e5c07b32c22ef1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706621"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843249"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -75,7 +75,7 @@ Outlook 릴리스 및 업데이트:
 
 ### <a name="advanced-ediscovery"></a>Advanced eDiscovery
 
-- **Advanced eDiscovery 컬렉션에서** 새 컬렉션 도구 및 [워크플로를 지원하게 됩니다.](/microsoft-365/compliance/collections-overview) 다른 새 항목에는 초안 컬렉션 [만들기,](https://docs.microsoft.com/microsoft-365/compliance/create-draft-collection)검토 [집합에](/microsoft-365/compliance/commit-draft-collection)초안 컬렉션 커밋, 컬렉션 통계 및 보고서가 [있습니다.](/microsoft-365/compliance/collection-statistics-reports)
+- **Advanced eDiscovery 컬렉션에서** 새 컬렉션 도구 및 [워크플로를 지원하게 됩니다.](/microsoft-365/compliance/collections-overview) 다른 새 항목에는 초안 컬렉션 [만들기,](/microsoft-365/compliance/create-draft-collection)검토 [집합에](/microsoft-365/compliance/commit-draft-collection)초안 컬렉션 커밋, 컬렉션 통계 및 보고서가 [있습니다.](/microsoft-365/compliance/collection-statistics-reports)
 - **검토 집합의** 문서를 Azure Storage 계정으로 [내보낼](/microsoft-365/compliance/download-export-jobs) 수 있습니다.
 - **에 대한** 예측 코딩 Advanced eDiscovery. 먼저 사용 중지된 [Relevance](/microsoft-365/compliance/predictive-coding-overview) 모듈을 대체하는 새로운 예측 코딩 기능을 살펴 봐야 합니다.
 
@@ -169,22 +169,22 @@ Outlook 릴리스 및 업데이트:
 
 다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
 
-- [끝점 DLP에 대해 자세히](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about)
-- [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](https://docs.microsoft.com/microsoft-365/compliance/use-notifications-and-policy-tips)
-- [데이터 손실 Microsoft 365 스캐너에 대해 자세히 알아보시고](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-learn)
-- [데이터 손실 방지 On-premises 스캐너 시작](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
-- [FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기](https://docs.microsoft.com/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
-- [엔드포인트 데이터 손실 방지 사용](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-using)
-- [끝점 데이터 손실 방지 시작](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started)
+- [끝점 DLP에 대해 자세히](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](/microsoft-365/compliance/use-notifications-and-policy-tips)
+- [데이터 손실 Microsoft 365 스캐너에 대해 자세히 알아보시고](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
+- [데이터 손실 방지 On-premises 스캐너 시작](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
+- [FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
+- [엔드포인트 데이터 손실 방지 사용](/microsoft-365/compliance/endpoint-dlp-using)
+- [끝점 데이터 손실 방지 시작](/microsoft-365/compliance/endpoint-dlp-getting-started)
 
 ### <a name="ediscovery"></a>eDiscovery
 
 다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
 
-- [eDiscovery Microsoft 365 암호 해독](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-decryption)
-- [키워드 쿼리 및 검색 조건](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
-- [2016년 12월에 대한 Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/relevance-module-retirement)
-- [스크립트를 사용하여 Core eDiscovery 사례에서 보류에 사용자 추가](https://docs.microsoft.com/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
+- [eDiscovery Microsoft 365 암호 해독](/microsoft-365/compliance/ediscovery-decryption)
+- [키워드 쿼리 및 검색 조건](/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
+- [2016년 12월에 대한 Advanced eDiscovery](/microsoft-365/compliance/relevance-module-retirement)
+- [스크립트를 사용하여 Core eDiscovery 사례에서 보류에 사용자 추가](/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
 
 ### <a name="encryption"></a>암호화
 
@@ -192,30 +192,30 @@ Outlook 릴리스 및 업데이트:
 
 #### <a name="azure-rights-management-service-rms"></a>Azure RMS(권한 관리 서비스)
 
-- [고객 관리 암호화 기능](https://docs.microsoft.com/microsoft-365/compliance/office-365-customer-managed-encryption-features)
-- [Exchange Online 를 사용하여 메일 암호화를 사용합니다.](https://docs.microsoft.com/microsoft-365/compliance/information-rights-management-in-exchange-online) 이 서비스에 대한 지원은 사용되지 않습니다. 하이브리드 환경에서는 더 이상 AD RMS를 사용할 Exchange 없습니다. 대신 Azure RMS로 마이그레이션합니다.
+- [고객 관리 암호화 기능](/microsoft-365/compliance/office-365-customer-managed-encryption-features)
+- [Exchange Online 를 사용하여 메일 암호화를 사용합니다.](/microsoft-365/compliance/information-rights-management-in-exchange-online) 이 서비스에 대한 지원은 사용되지 않습니다. 하이브리드 환경에서는 더 이상 AD RMS를 사용할 Exchange 없습니다. 대신 Azure RMS로 마이그레이션합니다.
 
 #### <a name="customer-key"></a>고객 키
 
-- [테넌트 Microsoft 365 대한 고객 키](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level)
-- [보안 및 규정 준수 개요](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
+- [테넌트 Microsoft 365 대한 고객 키](/microsoft-365/compliance/customer-key-tenant-level)
+- [보안 및 규정 준수 개요](/microsoftteams/security-compliance-overview)
 
 #### <a name="information-rights-management-irm"></a>IRM(정보 권한 관리)
 
-- [목록 또는 라이브러리에 IRM(정보 권한 관리)을 적용합니다.](https://docs.microsoft.com/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) 이러한 국가 클라우드는 이 설정을 지원하지 않습니다.
+- [목록 또는 라이브러리에 IRM(정보 권한 관리)을 적용합니다.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) 이러한 국가 클라우드는 이 설정을 지원하지 않습니다.
     - Microsoft Cloud for US Government
     - Microsoft 클라우드 독일
     - Azure 및 Microsoft 365 중국의 21Vianet에서 운영)
-- [프레미스 AD RMS 서버를 사용하도록 IRM을 구성합니다.](https://docs.microsoft.com/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) 하이브리드 환경에서 이 서비스에 Exchange 더는 사용되지 않습니다.
+- [프레미스 AD RMS 서버를 사용하도록 IRM을 구성합니다.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) 하이브리드 환경에서 이 서비스에 Exchange 더는 사용되지 않습니다.
 
 ### <a name="sensitive-information-types"></a>중요한 정보 유형
 
 다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
 
-- [중요한 정보 유형에 대해 알아보기](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-learn-about)
-- [PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기](https://docs.microsoft.com/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
-- [정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형 만들기](https://docs.microsoft.com/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
-- [중요한 정보 유형 엔터티 정의](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions)
+- [중요한 정보 유형에 대해 알아보기](/microsoft-365/compliance/sensitive-information-type-learn-about)
+- [PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기](/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
+- [정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형 만들기](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
+- [중요한 정보 유형 엔터티 정의](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
 
 
 ### <a name="sensitivity-labels"></a>민감도 레이블

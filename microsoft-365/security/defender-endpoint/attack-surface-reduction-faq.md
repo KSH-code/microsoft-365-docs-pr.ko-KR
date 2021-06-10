@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3ca429ca1fea125450fdbb8d1f3a0e3a745513d8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 56d4ac95ab49310cc5fc74168158672e7a0d65d1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245699"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843225"
 ---
 # <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>공격 표면 감소 자주 묻는 질문(FAQ)
 
@@ -127,7 +127,7 @@ Office, 자격 증명, 스크립트, 전자 메일 등 여러 보호 기조에 �
 
 ## <a name="im-making-the-switch-from-a-third-party-security-solution-to-defender-for-endpoint-is-there-an-easy-way-to-export-rules-from-another-security-solution-to-asr"></a>타사 보안 솔루션에서 끝점용 Defender로 전환하고 있습니다. 다른 보안 솔루션에서 ASR로 규칙을 내보내는 "쉬운" 방법이 있나요?
 
-대부분의 경우 다른 보안 솔루션에서 규칙을 가져오는 것보다 [Endpoint용 Defender가](https://docs.microsoft.com/windows/security/threat-protection) 제안한 기준 권장 사항부터 시작하는 것이 더 쉽고 좋습니다. 그런 다음 감사 모드, 모니터링 및 분석과 같은 도구를 사용하여 고유한 요구 사항에 맞게 새 솔루션을 구성합니다. 
+대부분의 경우 다른 보안 솔루션에서 규칙을 가져오는 것보다 [Endpoint용 Defender가](/windows/security/threat-protection) 제안한 기준 권장 사항부터 시작하는 것이 더 쉽고 좋습니다. 그런 다음 감사 모드, 모니터링 및 분석과 같은 도구를 사용하여 고유한 요구 사항에 맞게 새 솔루션을 구성합니다. 
 
 끝점의 실시간 보호를 위한 Defender와 결합된 대부분의 ASR 규칙에 대한 기본 구성은 많은 악용 및 취약성으로부터 보호합니다.
 
@@ -135,7 +135,7 @@ Office, 자격 증명, 스크립트, 전자 메일 등 여러 보호 기조에 �
 
 ## <a name="does-asr-support-file-or-folder-exclusions-that-include-system-variables-and-wildcards-in-the-path"></a>ASR은 경로에 시스템 변수와 와일드카드를 포함 하는 파일 또는 폴더 제외를 지원 합니까?
 
-예. ASR 규칙에서 파일 또는 폴더를 제외하는 데 대한 자세한 내용은 [ASR](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) 규칙에서 파일 [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) 및 폴더 제외를 참조하고 제외된 파일 경로에서 시스템 변수 및 와일드카드를 사용하는 방법을 자세히 확인하려면 파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사를 참조하세요.
+예. ASR 규칙에서 파일 또는 폴더를 제외하는 데 대한 자세한 내용은 [ASR](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) 규칙에서 파일 [](/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) 및 폴더 제외를 참조하고 제외된 파일 경로에서 시스템 변수 및 와일드카드를 사용하는 방법을 자세히 확인하려면 파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사를 참조하세요.
 
 ## <a name="do-asr-rules-cover-all-applications-by-default"></a>ASR 규칙은 기본적으로 모든 응용 프로그램을 지원하나요?
 
@@ -175,7 +175,7 @@ ASR 규칙에 의해 로컬로 알림이 트리거될 때마다 이벤트에 대
 
 ## <a name="is-it-a-good-idea-to-enable-the-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-alongside-lsa-protection"></a>LSA 보호와 함께 Windows 로컬 보안 기관 하위 Windows lsass.exe 자격 증명 도용 차단 *규칙을* 사용하도록 설정하는 것이 좋습니다.
 
-LSA 보호 기능도 사용하도록 설정한 경우 이 규칙을 사용하도록 설정하면 추가 [보호가](https://docs.microsoft.com/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection#BKMK_HowToConfigure) 제공되지 않습니다. 규칙과 LSA 보호는 모두 동일한 방식으로 작동하기 때문에 둘 다 동시에 실행되는 것이 중복됩니다. 그러나 경우에 따라 LSA 보호를 사용하도록 설정하지 않을 수 있습니다. 이러한 경우 이 규칙을 사용하여 해당 규칙을 대상으로 하는 맬웨어에 대해 동등한 보호를 제공할 수 lsass.exe.
+LSA 보호 기능도 사용하도록 설정한 경우 이 규칙을 사용하도록 설정하면 추가 [보호가](/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection#BKMK_HowToConfigure) 제공되지 않습니다. 규칙과 LSA 보호는 모두 동일한 방식으로 작동하기 때문에 둘 다 동시에 실행되는 것이 중복됩니다. 그러나 경우에 따라 LSA 보호를 사용하도록 설정하지 않을 수 있습니다. 이러한 경우 이 규칙을 사용하여 해당 규칙을 대상으로 하는 맬웨어에 대해 동등한 보호를 제공할 수 lsass.exe.
 
 ## <a name="see-also"></a>참고 항목
 
@@ -183,6 +183,6 @@ LSA 보호 기능도 사용하도록 설정한 경우 이 규칙을 사용하도
 * [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
 * [공격 표면 감소 규칙 사용자 지정](customize-attack-surface-reduction.md)
 * [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
-* [다른 바이러스 백신/맬웨어 방지와 Microsoft Defender의 호환성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+* [다른 바이러스 백신/맬웨어 방지와 Microsoft Defender의 호환성](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
 

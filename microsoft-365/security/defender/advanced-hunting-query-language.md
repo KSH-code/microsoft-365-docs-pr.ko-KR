@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender의 고급 헌팅 쿼리 언어 학습
+title: Defender의 고급 헌팅 Microsoft 365 학습
 description: 첫 번째 위협 헌팅 쿼리를 만들고 고급 헌팅 쿼리 언어의 일반적인 연산자와 기타 요소에 대한 정보를 알아봅니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 언어, 학습, 첫 번째 쿼리, 원격 분석, 이벤트, 원격 분석, 사용자 지정 검색, schema, kusto, 운영자, 데이터 형식, powershell 다운로드, 쿼리 예제
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 언어, 학습, 첫 번째 쿼리, 원격 분석, 이벤트, 원격 분석, 사용자 지정 감지, schema, kusto, 연산자, 데이터 형식, powershell 다운로드, 쿼리 예제
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -40,7 +40,7 @@ ms.locfileid: "51952623"
 
 ## <a name="try-your-first-query"></a>첫 번째 쿼리 시도하기
 
-Microsoft 365 보안 센터에서 헌팅으로 **이동하여** 첫 번째 쿼리를 실행합니다. 다음 예제를 사용합니다.
+보안 Microsoft 365 센터에서 **헌팅으로** 이동하여 첫 번째 쿼리를 실행합니다. 다음 예제를 사용합니다.
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
@@ -176,14 +176,14 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 ![고급 헌팅 창 이미지](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
->기본 쿼리 샘플과는 별도로 특정 위협 헌팅 시나리오에 대한 [공유 쿼리](advanced-hunting-shared-queries.md)에 액세스할 수도 있습니다. 페이지 왼쪽 또는 GitHub 쿼리 리포지토리의 공유 [쿼리를 탐색합니다.](https://aka.ms/hunting-queries)
+>기본 쿼리 샘플과는 별도로 특정 위협 헌팅 시나리오에 대한 [공유 쿼리](advanced-hunting-shared-queries.md)에 액세스할 수도 있습니다. 페이지 또는 쿼리 리포지토리의 왼쪽에 있는 공유 [쿼리를 GitHub 탐색합니다.](https://aka.ms/hunting-queries)
 
 ## <a name="access-query-language-documentation"></a>쿼리 언어 설명서에 액세스
 
 Kusto 쿼리 언어와 지원되는 연산자에 대한 자세한 내용은 [Kusto 쿼리 언어 설명서](/azure/kusto/query/)를 참조하세요.
 
 >[!NOTE]
->이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Microsoft 365 Defender를 켜서](m365d-enable.md) 더 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 Microsoft Defender의 고급 헌팅 쿼리 마이그레이션의 단계에 따라 끝점용 [Microsoft Defender에서 Microsoft](advanced-hunting-migrate-from-mde.md)365 Defender로 고급 헌팅 워크플로를 이동할 수 있습니다.
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

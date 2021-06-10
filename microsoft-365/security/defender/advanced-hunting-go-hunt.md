@@ -109,7 +109,7 @@ Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))
 - [사용자 지정 검색 규칙 만들기](custom-detection-rules.md)
 
 >[!NOTE]
->이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Microsoft 365 Defender를 켜서](m365d-enable.md) 더 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 Microsoft Defender의 고급 헌팅 쿼리 마이그레이션의 단계에 따라 끝점용 [Microsoft Defender에서 Microsoft](advanced-hunting-migrate-from-mde.md)365 Defender로 고급 헌팅 워크플로를 이동할 수 있습니다.
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

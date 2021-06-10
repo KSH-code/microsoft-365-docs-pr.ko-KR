@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender의 고급 헌팅 쿼리 모범 사례
+title: Defender의 고급 헌팅 Microsoft 365 모범 사례
 description: 고급 헌팅을 사용하여 빠르고 효율적이며 오류가 없는 위협 헌팅 쿼리를 생성하는 방법을 학습합니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema, kusto, 시간 제한 방지, 명령줄, 프로세스 ID, 최적화, 모범 사례, 구문 분석, 참가, 요약
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema, kusto, 시간 제한 방지, 명령줄, 프로세스 ID, 최적화, 모범 사례, 구문 분석, 가입, 요약
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -61,7 +61,7 @@ ms.locfileid: "51952695"
 - **구문 분석,** 추출 안 하세요 . [](/azure/data-explorer/kusto/query/parseoperator) 가능한 경우 구문 분석 연산자 또는 [parse_json() 같은 구문 분석 함수를 사용하세요.](/azure/data-explorer/kusto/query/parsejsonfunction) 정규식을 사용하는 문자열 `matches regex` [연산자나 extract()](/azure/data-explorer/kusto/query/extractfunction)함수는 사용하지 않습니다. 좀 더 복잡한 시나리오에서는 정규식을 사용할 수 있습니다. [구문 분석 함수에 대한 자세한 내용을 읽어 읽습니다.](#parse-strings)
 - **식이 아닌** 필터 테이블 - 테이블 열을 필터링할 수 있는 경우 계산된 열에는 필터링하지 않습니다.
 - **3자 용어** 없음 - 3자 이하의 용어를 사용하여 비교하거나 필터링하지 않습니다. 이러한 용어는 인덱싱되지 않습니다. 이러한 용어와 일치하면 더 많은 리소스가 필요합니다.
-- **선택적으로 프로젝트**- 필요한 열만 투영하여 결과를 보다 쉽게 이해할 수 있도록 합니다. 조인 또는 유사한 작업을 [](/azure/data-explorer/kusto/query/joinoperator) 실행하기 전에 특정 열을 투영하면 성능을 개선하는 데도 도움이 됩니다.
+- **Project 선택적으로**-필요한 열만 투영하여 결과를 보다 쉽게 이해할 수 있도록 합니다. 조인 또는 유사한 작업을 [](/azure/data-explorer/kusto/query/joinoperator) 실행하기 전에 특정 열을 투영하면 성능을 개선하는 데도 도움이 됩니다.
 
 ## <a name="optimize-the-join-operator"></a>연산자 `join` 최적화
 조인 [연산자는](/azure/data-explorer/kusto/query/joinoperator) 지정된 열의 값과 일치하여 두 테이블의 행을 병합합니다. 다음 팁을 적용하여 이 연산자를 사용하는 쿼리를 최적화합니다.
@@ -254,7 +254,7 @@ SHA256,ThreatTypes,DetectionMethods
 ### <a name="parse-strings"></a>문자열 구문 분석
 구문 분석 또는 변환이 필요한 문자열을 효율적으로 처리하는 데 사용할 수 있는 다양한 함수가 있습니다. 
 
-| 문자열 | 함수 | 사용 예제 |
+| String | 함수 | 사용 예제 |
 |--|--|--|
 | 명령줄 | [parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) | 명령과 모든 인수를 추출합니다. | 
 | 경로 | [parse_path()](/azure/data-explorer/kusto/query/parsepathfunction) | 파일 또는 폴더 경로의 섹션을 추출합니다. |
@@ -265,7 +265,7 @@ SHA256,ThreatTypes,DetectionMethods
 지원되는 모든 구문 분석 함수에 대한 자세한 내용은 [Kusto 문자열 함수 를 읽어 보아야 합니다.](/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
 
 >[!NOTE]
->이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Microsoft 365 Defender를 켜서](m365d-enable.md) 더 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 Microsoft Defender의 고급 헌팅 쿼리 마이그레이션의 단계에 따라 끝점용 [Microsoft Defender에서 Microsoft](advanced-hunting-migrate-from-mde.md)365 Defender로 고급 헌팅 워크플로를 이동할 수 있습니다.
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [Kusto 쿼리 언어 설명서](/azure/data-explorer/kusto/query/)

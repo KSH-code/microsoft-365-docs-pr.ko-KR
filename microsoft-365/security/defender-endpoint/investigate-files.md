@@ -117,4 +117,4 @@ ms.locfileid: "51186068"
 - [끝점 경고에 대한 Microsoft Defender와 연결된 IP 주소 조사](investigate-ip.md)
 - [끝점 경고에 대한 Microsoft Defender와 연결된 도메인 조사](investigate-domain.md)
 - [끝점용 Microsoft Defender에서 사용자 계정 조사](investigate-user.md)
-- [파일에 대한 응답 작업 수행](respond-file-alerts.md)
+- [파일에 대해 대응 조치 실행](respond-file-alerts.md)

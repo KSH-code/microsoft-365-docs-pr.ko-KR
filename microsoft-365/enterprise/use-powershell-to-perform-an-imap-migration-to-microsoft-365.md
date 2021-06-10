@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: c28de4a5-1e8e-4491-9421-af066cde7cdd
-description: PowerShell을 사용하여 Microsoft 365로 IMAP(Internet Mail Access Protocol) 마이그레이션을 수행하는 방법을 학습합니다.
+description: PowerShell을 사용하여 IMAP(Internet Mail Access Protocol) 마이그레이션을 수행하는 방법을 Microsoft 365.
 ms.openlocfilehash: fbfc0340e80ce70aa8a706d89a4d27729b91535b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,14 +27,14 @@ ms.locfileid: "50924771"
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 배포 프로세스의 일부로 IMAP(Internet Mail Access Protocol) 전자 메일 서비스에서 Microsoft 365로 사용자 사서함의 콘텐츠를 마이그레이션하도록 선택할 수 있습니다. 이 문서에서는 Exchange Online PowerShell을 사용하는 전자 메일 IMAP 마이그레이션 작업을 살펴봅니다. 
+사용자 사서함을 배포하는 Microsoft 365 IMAP(Internet Mail Access Protocol) 전자 메일 서비스에서 사용자 사서함의 콘텐츠를 마이그레이션하도록 선택할 수 Microsoft 365. 이 문서에서는 Exchange Online PowerShell을 사용하는 전자 메일 IMAP 마이그레이션 작업을 살펴봅니다. 
   
 > [!NOTE]
 > Exchange 관리 센터를 사용하여 IMAP 마이그레이션을 수행할 수도 있습니다. [IMAP 사서함 마이그레이션을 참조합니다.](/Exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes) 
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-이 작업의 예상 완료 시간: 2-5분(마이그레이션 일괄 처리 만들기에 소요되는 시간). 마이그레이션 일괄 처리가 시작되면 마이그레이션 기간은 일괄 처리의 사서함 수, 각 사서함의 크기 및 사용 가능한 네트워크 용량에 따라 달라집니다. 사서함을 Microsoft 365로 마이그레이션하는 데 걸리는 시간에 영향을 주는 다른 요인에 대한 자세한 내용은 마이그레이션 성능 을 [참조하세요.](/Exchange/mailbox-migration/office-365-migration-best-practices)
+이 작업의 예상 완료 시간: 2-5분(마이그레이션 일괄 처리 만들기에 소요되는 시간). 마이그레이션 일괄 처리가 시작되면 마이그레이션 기간은 일괄 처리의 사서함 수, 각 사서함의 크기 및 사용 가능한 네트워크 용량에 따라 달라집니다. 사서함을 마이그레이션하는 데 걸리는 시간에 영향을 주는 다른 요인에 대한 자세한 내용은 Microsoft 365 [성능 을 참조하세요.](/Exchange/mailbox-migration/office-365-migration-best-practices)
   
 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인하려면 [받는 사람 사용 권한](/exchange/recipients-permissions-exchange-2013-help)의 표에 나오는 "마이그레이션" 항목을 참조하세요.
   
@@ -55,9 +55,9 @@ IMAP 마이그레이션에 적용되는 제한 사항은 다음과 같습니다.
 ### <a name="step-1-prepare-for-an-imap-migration"></a>1단계: IMAP 마이그레이션 준비
 <a name="BK_Step1"> </a>
 
-- **IMAP 조직에 대한 도메인이 있는 경우 Microsoft 365 조직의 허용 도메인으로 추가합니다.** Microsoft 365 사서함에 대해 이미 소유하고 있는 동일한 도메인을 사용하려면 먼저 Microsoft 365에 허용 도메인으로 추가해야 합니다. 추가한 후 Microsoft 365에서 사용자를 만들 수 있습니다. 자세한 내용은[도메인 확인을 참조하세요.](../admin/setup/add-domain.md)
+- **IMAP 조직에 대한 도메인이 있는 경우 해당 도메인을 사용자 조직의 허용 도메인으로 Microsoft 365.** Microsoft 365 사서함에 대해 이미 소유하고 있는 동일한 도메인을 사용하려면 먼저 허용 도메인으로 추가해야 Microsoft 365. 사용자를 추가한 후 사용자 계정을 만들 수 Microsoft 365. 자세한 내용은[도메인 확인을 참조하세요.](../admin/setup/add-domain.md)
     
-- **사서함이 있도록 Microsoft 365에 각 사용자를 추가합니다.** 자세한 내용은[비즈니스용 Microsoft 365에 사용자 추가를 참조하세요.](../admin/add-users/add-users.md)
+- **사서함이 Microsoft 365 각 사용자를 추가합니다.** 자세한 내용은[비즈니스용 앱에 Microsoft 365 추가를 참조하세요.](../admin/add-users/add-users.md)
     
 - **IMAP 서버의 FQDN을 받습니다**. IMAP 마이그레이션 끝점을 만들 때 사서함 데이터를 마이그레이션할 원본 IMAP 서버의 FQDN(정규화된 도메인 이름)(전체 컴퓨터 이름이라고도 함)을 제공해야 합니다. IMAP 클라이언트나 PING 명령을 사용하여 인터넷에서 해당 FQDN으로 IMAP 서버와 통신할 수 있는지 확인합니다.
     
@@ -84,7 +84,7 @@ IMAP 마이그레이션 일괄 처리에서 해당 사서함을 마이그레이�
   
 각 사용자의 필수 특성은 다음과 같습니다. 
   
-- **EmailAddress는** 사용자의 Microsoft 365 사서함에 대한 사용자 ID를 지정합니다.
+- **EmailAddress는** 사용자의 사서함에 대한 사용자 ID를 Microsoft 365 지정합니다.
     
 - **UserName** 은 IMAP 서버의 사서함에 액세스하는 데 사용할 계정의 로그온 이름을 지정합니다.
     
@@ -136,7 +136,7 @@ paulc@contoso.edu,#paul.cannon@contoso-students.edu#mailadmin#,P@ssw0rd
 
  **Courier IMAP:**
   
-Courier IMAP와 같은 일부 원본 전자 메일 시스템은 사서함 관리자 자격 증명을 사용하여 사서함을 Microsoft 365로 마이그레이션할 수 없습니다. 대신, 가상 공유 폴더를 사용하도록 원본 전자 메일 시스템을 설정할 수 있습니다. 가상 공유 폴더를 사용하여 사서함 관리자 자격 증명을 통해 원본 전자 메일 시스템의 사용자 사서함에 액세스할 수 있습니다. Courier IMAP에 대한 가상 공유 폴더를 구성하는 방법에 대한 자세한 내용은 [공유 폴더](https://go.microsoft.com/fwlink/p/?LinkId=398870)를 참조하세요.
+Courier IMAP와 같은 일부 원본 전자 메일 시스템은 사서함 관리자 자격 증명을 사용하여 사서함을 사서함으로 마이그레이션할 수 Microsoft 365. 대신, 가상 공유 폴더를 사용하도록 원본 전자 메일 시스템을 설정할 수 있습니다. 가상 공유 폴더를 사용하여 사서함 관리자 자격 증명을 통해 원본 전자 메일 시스템의 사용자 사서함에 액세스할 수 있습니다. Courier IMAP에 대한 가상 공유 폴더를 구성하는 방법에 대한 자세한 내용은 [공유 폴더](https://go.microsoft.com/fwlink/p/?LinkId=398870)를 참조하세요.
   
 원본 전자 메일 시스템에서 가상 공유 폴더를 설정한 뒤 사서함을 마이그레이션하려면 선택적 특성인 **UserRoot** 를 마이그레이션 파일에 포함해야 합니다. 이 특성은 원본 전자 메일 시스템의 가상 공유 폴더 구조에서 각 사용자의 사서함 위치를 지정합니다. 예를 들어 Terry 사서함의 경로는 /users/terry.adams입니다.
   
@@ -152,7 +152,7 @@ paulc@contoso.edu,mailadmin,P@ssw0rd,/users/paul.cannon
 ### <a name="step-3-create-an-imap-migration-endpoint"></a>3단계: IMAP 마이그레이션 끝점 만들기
 <a name="BK_Step3"> </a>
 
-전자 메일을 마이그레이션하기 위해 Microsoft 365는 원본 전자 메일 시스템에 연결하고 통신해야 합니다. 이를 위해 Microsoft 365는 마이그레이션 끝점을 사용 합니다. 또한 마이그레이션 끝점은 동시에 마이그레이션할 사서함의 수와 24시간마다 수행되는 증분 동기화 중에 동시에 동기화할 사서함 수도 정의합니다. IMAP 마이그레이션용 마이그레이션 끝점을 만들려면 먼저 [Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)합니다. 
+전자 메일을 마이그레이션하려면 Microsoft 365 전자 메일 시스템에 연결하고 통신해야 합니다. 이 작업을 수행하기 위해 Microsoft 365 끝점을 사용하게 됩니다. 또한 마이그레이션 끝점은 동시에 마이그레이션할 사서함의 수와 24시간마다 수행되는 증분 동기화 중에 동시에 동기화할 사서함 수도 정의합니다. IMAP 마이그레이션용 마이그레이션 끝점을 만들려면 먼저 [Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)합니다. 
   
 전체 마이그레이션 명령 목록을 보려면 [이동 및 마이그레이션 cmdlet](/powershell/exchange/)을 참조하세요.
   
@@ -205,10 +205,10 @@ Get-MigrationBatch -Identity IMAPBatch1 | Format-List
 Get-MigrationBatch -Identity IMAPBatch1 | Format-List Status
 ```
 
-### <a name="step-5-route-your-email-to-microsoft-365"></a>5단계: Microsoft 365로 전자 메일 라우팅
+### <a name="step-5-route-your-email-to-microsoft-365"></a>5단계: 전자 메일을 메일로 Microsoft 365
 <a name="BK_Step5"> </a>
 
-전자 메일 시스템은 MX 레코드라는 DNS 레코드를 사용하여 전자 메일을 배달할 위치를 확인합니다. 전자 메일 마이그레이션 프로세스 중에는 MX 레코드가 원본 전자 메일 시스템을 가리켰습니다. Microsoft 365로의 전자 메일 마이그레이션이 완료되었습니다. 이제 Microsoft 365에서 MX 레코드를 설정해야 합니다. 이렇게 하면 전자 메일이 Microsoft 365 사서함으로 배달됩니다. MX 레코드를 이동하여 준비가 되었을 때 이전 전자 메일 시스템을 해제할 수도 있습니다. 
+전자 메일 시스템은 MX 레코드라는 DNS 레코드를 사용하여 전자 메일을 배달할 위치를 확인합니다. 전자 메일 마이그레이션 프로세스 중에는 MX 레코드가 원본 전자 메일 시스템을 가리켰습니다. 이제 전자 메일 마이그레이션을 Microsoft 365 이제 MX 레코드를 Microsoft 365. 이렇게 하면 전자 메일이 사용자 사서함으로 Microsoft 365 수 있습니다. MX 레코드를 이동하여 준비가 되었을 때 이전 전자 메일 시스템을 해제할 수도 있습니다. 
   
 DNS 공급자가 많이 있으므로 MX 레코드를 변경하기 위한 특정 지침이 제공됩니다. 사용자의 DNS 공급자가 여기에 포함되지 않거나 일반적인 지침을 원하는 경우를 위해 [일반 MX 레코드 지침](https://go.microsoft.com/fwlink/?LinkId=397449)도 제공됩니다.
   
@@ -217,11 +217,11 @@ DNS 공급자가 많이 있으므로 MX 레코드를 변경하기 위한 특정 
 ### <a name="step-6-delete-imap-migration-batch"></a>6단계: IMAP 마이그레이션 일괄 처리 삭제
 <a name="BK_Step6"> </a>
 
-MX 레코드를 변경하고 모든 전자 메일이 Microsoft 365 사서함으로 라우팅되고 있는지 확인한 후 해당 메일이 Microsoft 365로 이동될 것임 사용자에게 알릴 수 있습니다. 그런 후에는 IMAP 마이그레이션 일괄 처리를 삭제해도 됩니다. 마이그레이션 일괄 처리를 삭제하기 전에 다음을 확인합니다.
+MX 레코드를 변경하고 모든 전자 메일이 Microsoft 365 사서함으로 라우팅되고 있는지 확인한 후 사용자에게 메일이 전송될 것 Microsoft 365. 그런 후에는 IMAP 마이그레이션 일괄 처리를 삭제해도 됩니다. 마이그레이션 일괄 처리를 삭제하기 전에 다음을 확인합니다.
   
-- 모든 사용자가 Microsoft 365 사서함을 사용하고 있습니다. 일괄 처리가 삭제된 후 해당 Microsoft 365 사서함에 Exchange Server 사서함으로 전송되는 메일은 복사되지 않습니다.
+- 모든 사용자가 사서함을 Microsoft 365 있습니다. 일괄 처리가 삭제된 후 해당 사서함의 Exchange Server 사서함으로 전송되는 메일은 Microsoft 365 않습니다.
     
-- 메일을 직접 보내기 시작한 후 Microsoft 365 사서함이 한 번 이상 동기화됩니다. 이 작업을 수행하기 위해 마이그레이션 일괄 처리에 대한 마지막 동기화 시간 상자의 값이 메일이 Microsoft 365 사서함으로 직접 라우팅하기 시작한 시간보다 최신 상태인지 확인해야 합니다.
+- Microsoft 365 메일을 직접 보내기 시작한 후 사서함이 한 번 이상 동기화된 경우 이 작업을 수행하기 위해 마이그레이션 일괄 처리에 대한 마지막 동기화 시간 상자의 값이 메일이 사서함에 직접 라우팅하기 시작한 Microsoft 365 합니다.
     
 Exchange Online PowerShell에서 "IMAPBatch1" 마이그레이션 일괄 처리를 삭제하려면 다음 명령을 실행합니다.
   

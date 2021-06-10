@@ -161,7 +161,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 4. **확인** 을 선택합니다. 
 
-5. 일반적으로와 같은 그룹 정책 개체를 배포합니다.
+5. 평소와 같이 그룹 정책 개체를 배포합니다.
 
 ## <a name="prevent-notifications"></a>알림 방지
 
@@ -173,14 +173,14 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 3. 정책을 **사용으로 설정하고** 확인 을 **선택합니다.**
 
-4. 일반적으로와 같은 그룹 정책 개체를 배포합니다.
+4. 평소와 같이 그룹 정책 개체를 배포합니다.
 
 알림을 표시하지 Microsoft Defender 바이러스 백신 검사가 수행되거나 수정 작업이 수행될 Windows 10 알림 센터에 알림이 표시되지 않습니다. 그러나 보안 운영 팀의 검색 결과는 [https://securitycenter.windows.com](https://securitycenter.windows.com) Microsoft Defender 보안 센터( ).
 
 > [!TIP]
-> Windows 10에서 동작 센터를 열기 위해 다음 단계 중 하나를 수행합니다.
+> 관리 센터를 Windows 10 다음 단계 중 하나를 수행합니다.
 > - 작업 표시줄의 오른쪽 끝에서 작업 센터 아이콘을 선택합니다.
-> - Windows 로고 키 단추 + A를 누릅니다.
+> - 로고 Windows 단추 + A를 누릅니다.
 > - 터치 스크린 디바이스에서 화면 오른쪽 가장자리에서 스와이프합니다.
 
 ## <a name="disable-scans-after-an-update"></a>업데이트 후 검사 사용 안
@@ -190,7 +190,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 > [!IMPORTANT]
 > 업데이트 후 검색을 실행하면 최신 보안 인텔리전스 업데이트로 VM을 보호하는 데 도움이 됩니다. 이 옵션을 설정하면 VM의 보호 수준이 낮아지며, 기본 이미지를 처음 만들거나 배포할 때만 사용할 수 있습니다.
 
-1. 그룹 정책 편집기에서 **Windows** 구성 요소  >  **Microsoft Defender 바이러스 백신** 보안  >  **인텔리전스 업데이트 로 이동하세요.**
+1. 그룹 정책 편집기에서 보안 **인텔리전스 Windows 구성**  >  **Microsoft Defender 바이러스 백신**  >  **로 이동하세요.**
 
 2. 보안 **인텔리전스 업데이트 후 검사 켜기 를 선택한** 다음 정책 설정을 편집합니다.
 
@@ -198,13 +198,13 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 4. **확인** 을 선택합니다.
 
-5. 일반적으로와 같은 그룹 정책 개체를 배포합니다.
+5. 평소와 같이 그룹 정책 개체를 배포합니다.
 
 이 정책은 업데이트 후 즉시 검사가 실행되지 않도록 합니다.
 
 ## <a name="scan-vms-that-have-been-offline"></a>오프라인 상태인 VM 검사
 
-1. 그룹 정책 편집기에서 **Windows** 구성 요소 Microsoft Defender 바이러스 백신 검사  >  **로**  >  **이동하십시오.**
+1. 그룹 정책 편집기에서 검사에서 Windows **구성**  >  **Microsoft Defender 바이러스 백신**  >  **로 이동하십시오.**
 
 2. 빠른 **추가 검사 켜기 를 선택한** 다음 정책 설정을 편집합니다.
 
@@ -218,7 +218,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 ## <a name="enable-headless-ui-mode"></a>헤드리스 UI 모드 사용
 
-1. 그룹 정책 편집기에서 **Windows** 구성 요소  >  **Microsoft Defender 바이러스 백신** 클라이언트 인터페이스 로  >  **이동하십시오.**
+1. 그룹 정책 편집기에서 클라이언트 **인터페이스의** Windows 구성  >  **Microsoft Defender 바이러스 백신**  >  **로 이동하십시오.**
 
 2. 헤드리스 **UI 모드 사용 을 선택하고** 정책을 편집합니다.
 
@@ -228,16 +228,16 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 5. 일반적으로 그룹 정책 개체를 배포합니다.
  
-이 정책은 조직의 최종 사용자로부터 전체 Microsoft Defender 바이러스 백신 사용자 인터페이스를 숨길 수 있습니다.
+이 정책은 조직의 Microsoft Defender 바이러스 백신 사용자 인터페이스 전체를 숨길 수 있습니다.
 
 ## <a name="exclusions"></a>제외
 
 제외는 필요에 맞게 추가, 제거 또는 사용자 지정될 수 있습니다.
 
-자세한 내용은 [Windows Server에서 Microsoft Defender 바이러스 백신 제외 구성을 참조하세요.](configure-exclusions-microsoft-defender-antivirus.md)
+자세한 내용은 [Configure Microsoft Defender 바이러스 백신 exclusions on Windows 참조하세요.](configure-exclusions-microsoft-defender-antivirus.md)
 
 ## <a name="additional-resources"></a>추가 리소스
 
-- [기술 커뮤니티 블로그: 비영구적 VDI 컴퓨터를 위한 Microsoft Defender 바이러스 백신 구성](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/configuring-microsoft-defender-antivirus-for-non-persistent-vdi/ba-p/1489633)
+- [기술 Community 블로그: 비영구 Microsoft Defender 바이러스 백신 VDI 컴퓨터용 구성](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/configuring-microsoft-defender-antivirus-for-non-persistent-vdi/ba-p/1489633)
 - [원격 데스크톱 서비스 및 VDI의 TechNet 포럼](https://social.technet.microsoft.com/Forums/windowsserver/en-US/home?forum=winserverTS)
 - [SignatureDownloadCustomTask PowerShell 스크립트](https://www.powershellgallery.com/packages/SignatureDownloadCustomTask/1.4)

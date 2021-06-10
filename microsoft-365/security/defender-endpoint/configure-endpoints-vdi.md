@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 3872be343e51c4e28f946192256932b048a23791
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d09967a18848365702f52f65a7f0624d2b2ae3d6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933904"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843213"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
 
@@ -32,7 +32,7 @@ ms.locfileid: "51933904"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 - VDI(가상 데스크톱 인프라) 장치
-- Windows 10, Windows Server 2019, Windows Server 2008R2/2012R2/2016
+- Windows 10 Windows Server 2019, Windows Server 2008R2/2012R2/2016
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configvdi-abovefoldlink)
 
@@ -63,17 +63,17 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Windows 10 또는 Windows Server 2019의 경우
 
-1.  서비스 온보더링 마법사에서 다운로드한 VDI 구성 패키지 *.zip* 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. Microsoft Defender 보안 센터에서 패키지를 [다운로드할 수 있습니다.](https://securitycenter.windows.com/)
+1.  서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 에서 패키지를 얻을 [Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
 
-    1.  탐색 창에서 설정   >  **온보드 를 선택합니다.**
+    1.  탐색 창에서 **온보 설정**  >  **선택합니다.**
 
-    1. 운영 체제로 Windows 10을 선택합니다.
+    1. 운영 Windows 10 로 실행을 선택합니다.
 
     1.  배포 **방법 필드에서** 비영구 끝점에 **대한 VDI 온보딩 스크립트를 선택합니다.**
 
-    1. 패키지 **다운로드를 클릭하고** .zip 파일을 저장합니다.
+    1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
-2. .zip 파일에서 추출한 WindowsDefenderATPOnboardingPackage 폴더의 파일을 경로 아래 `golden/master` 이미지로 `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 복사합니다. 
+2. .zip 파일에서 추출한 WindowsDefenderATPOnboardingPackage 폴더의 파일을 경로의 이미지로 `golden/master` `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 복사합니다. 
 
     1. 각 장치에 대해 단일 항목을 구현하지 않는 경우 WindowsDefenderATPOnboardingScript.cmd를 복사합니다.
 
@@ -82,7 +82,7 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
     > [!NOTE]
     > 폴더가 없는 경우 `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 숨겨져 있을 수 있습니다. 파일 탐색기에서 숨겨진 파일 및 **폴더 표시** 옵션을 선택해야 합니다.
 
-3. 로컬 그룹 정책 편집기 창을 열고 **컴퓨터** 구성 Windows 설정 스크립트 시작  >    >    >  **으로 이동합니다.**
+3. 로컬 그룹 정책 편집기 창을 열고 컴퓨터 **구성** Windows 설정  >    >    >  **시작으로 이동합니다.**
 
    > [!NOTE]
    > 도메인 그룹 정책은 비영구적 VDI 장치를 온보드하는 데도 사용할 수 있습니다.
@@ -91,11 +91,11 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
    - 각 디바이스에 대한 단일 항목:
    
-     **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기는 앞서 온보딩 스크립트를 복사한 경로에서 직접 열립니다).를 클릭합니다. 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
+     **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
    
    - 각 장치에 대한 여러 항목의 경우:
    
-     스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기는 앞서 온보딩 스크립트를 복사한 경로에서 직접 열립니다).를 클릭합니다. 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
+     스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
 
 5. 솔루션을 테스트합니다.
 
@@ -111,11 +111,11 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
    
       - 각 디바이스에 대한 단일 항목: 
     
-        Microsoft Defender 보안 센터에서 하나의 항목만 확인 합니다.
+        100분의 1에 있는 항목만 Microsoft Defender 보안 센터.
 
       - 각 장치에 대한 여러 항목의 경우: 
        
-        Microsoft Defender 보안 센터에서 여러 항목을 검사합니다.
+        여러 항목을 확인하여 Microsoft Defender 보안 센터.
 
 6. 탐색 **창에서** 장치 목록을 클릭합니다.
 
@@ -155,9 +155,9 @@ DISM /Unmount-Image /MountDir:"C:\Temp\OfflineServicing" /commit
 ```
 
 DISM 명령 및 오프라인 서비스에 대한 자세한 내용은 아래 문서를 참조하세요.
-- [DISM을 사용하여 Windows 이미지 수정](https://docs.microsoft.com/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
-- [DISM 이미지 관리 Command-Line 옵션](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
-- [오프라인 Windows 이미지의 구성 요소 저장소 크기 줄이기](https://docs.microsoft.com/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
+- [DISM을 Windows 이미지 수정](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
+- [DISM 이미지 관리 Command-Line 옵션](/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
+- [오프라인 저장소 이미지에서 구성 요소 저장소 Windows 줄이기](/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
 
 오프라인 서비스에서 비영구적 VDI 환경에 대한 사용 가능한 옵션이 아닌 경우 일관성 및 센서 상태 보장을 위해 다음 단계를 따라야 합니다.
 
@@ -184,8 +184,8 @@ DISM 명령 및 오프라인 서비스에 대한 자세한 내용은 아래 문�
 5. 평소처럼 골든/마스터 이미지를 다시 봉인합니다.
 
 ## <a name="related-topics"></a>관련 항목
-- [그룹 정책을 사용하여 Windows 10 장치 온보드](configure-endpoints-gp.md)
-- [Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 장치 온보드](configure-endpoints-sccm.md)
+- [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)
+- [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
 - [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

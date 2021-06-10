@@ -1204,7 +1204,7 @@ UAC </dt>
 Microsoft Defender 바이러스 백신 클라이언트에서 중요한 문제로 인해 이 오류가 발생했습니다. 끝점이 보호되지 않을 수 있습니다. 오류 설명을 검토한 다음 아래의 관련 <b>사용자 작업 단계를</b> 따릅니다.
 <table>
 <tr>
-<th>작업</th>
+<th>조치</th>
 <th>사용자 작업</th>
 </tr>
 <tr>
@@ -1352,21 +1352,21 @@ Microsoft Defender 바이러스 백신 클라이언트가 정상 상태로 실�
 <td >
 바이러스 백신 클라이언트 상태 보고서.
 <dl>
-<dt>플랫폼 버전: &lt; &gt;현재</dt>플랫폼 버전 엔진
+<dt>플랫폼 버전: &lt; 현재 플랫폼 &gt; </dt>버전 엔진
 <dt>버전: &lt; &gt; </dt>Antimalware Engine 버전 네트워크 실시간 검사 엔진
 <dt>버전: &lt; &gt; </dt>네트워크 실시간 검사 엔진 버전 바이러스 백신 서명
-<dt>버전: &lt; &gt; 바이러스</dt>백신 서명 버전 스파이웨어 방지 서명
-<dt>버전: &lt; &gt; </dt>스파이웨어 방지 서명 버전 네트워크 실시간 검사 서명
-<dt>버전: 네트워크 &lt; 실시간 &gt; </dt>검사 서명 버전 RTP 상태: 실시간 보호
-<dt> &lt; &gt; 상태(사용</dt>또는 비활성화) OA 상태: On Access state
-<dt> &lt; &gt; (Enabled or Disabled)</dt>
-<dt>IOAV state: IE Download 및 Outlook Express 첨부 파일 상태(사용 또는 사용 안 합니까) &lt; &gt; </dt>BM 상태: 동작 모니터링 상태(사용 또는 사용 안
-<dt>합니까) &lt; &gt; </dt>바이러스 백신 서명 기간: 바이러스 백신 서명
-<dt> &lt; 기간(일): &gt; </dt>스파이웨어 방지 서명 기간: 스파이웨어 방지 서명 기간(일) 마지막 빠른 검사 기간: 마지막 빠른 검사 기간(일) 마지막 전체 검사 기간: 마지막 전체 검사
-<dt> &lt; &gt; </dt>기간(일) 바이러스 서명 생성
-<dt> &lt; &gt; </dt>시간:
-<dt> &lt; &gt; </dt>
-<dt>? &lt; 바이러스 백신 &gt; 서명 생성 시간</dt>스파이웨어 방지 서명
+<dt>버전: &lt; 바이러스 &gt; </dt>백신 서명 버전 스파이웨어 방지 서명
+<dt> &lt; &gt; 버전:</dt>스파이웨어 방지 서명 버전 네트워크 실시간 검사 서명
+<dt>버전: 네트워크 실시간 &lt; 검사 &gt; </dt>서명 버전
+<dt>RTP 상태: &lt; 실시간 보호 &gt; 상태(사용</dt>또는 사용 안 하게)
+<dt>OA 상태: &lt; On Access state &gt; (Enabled or Disabled)</dt>
+<dt>IOAV state: &lt; IE Downloads and Outlook Express Attachments state &gt; (Enabled or Disabled)</dt>
+<dt>BM state: &lt; Behavior Monitoring state &gt; (Enabled or Disabled)</dt>Antivirus signature
+<dt>age: Antivirus signature age &lt; &gt; (in days) </dt> 
+<dt>Antispyware signature age: &lt; Antispyware signature age &gt; (in days)</dt>
+<dt>Last quick scan age: Last quick scan &lt; age &gt; (in days)</dt>Last full
+<dt>scan age: Last full scan age &lt; &gt; (in days)</dt>
+<dt>Antivirus signature creation time: ? &lt; 바이러스 백신 &gt; 서명 생성 시간</dt>스파이웨어 방지 서명
 <dt>생성 시간: ? &lt; 스파이웨어 방지 서명 생성 &gt; 시간</dt>
 <dt>마지막 빠른 검사 시작 시간: ? &lt; 마지막 빠른 검사 &gt; 시작 시간</dt>
 <dt>마지막 빠른 검사 종료 시간: ? &lt; 마지막 빠른 검사 &gt; </dt>종료 시간 마지막 빠른 검사 원본: 마지막 빠른 검사 원본(0 =&#39;
@@ -1769,7 +1769,7 @@ Microsoft Defender 바이러스 백신 데 <i>도움이</i> 되는 추가 서명
 <li>Version</li>
 <li>타임스탬프</li>
 <li>제한 없음</li>
-<li>Duration</li>
+<li>기간</li>
 </ul>
 </dt>
 <dt>지속성 경로: &lt; 경로 &gt; </dt>
@@ -1825,7 +1825,7 @@ Microsoft Defender 바이러스 백신 <i>서명을</i> 삭제하기 위해 동�
 <li>Version</li>
 <li>타임스탬프</li>
 <li>제한 없음</li>
-<li>Duration</li>
+<li>기간</li>
 </ul>
 </dt>
 <dt>지속성 경로: &lt; 경로 &gt; </dt>
@@ -1892,7 +1892,7 @@ Microsoft Defender 바이러스 백신 서명 서비스를 사용하려고 하�
 <li>Version</li>
 <li>타임스탬프</li>
 <li>제한 없음</li>
-<li>Duration</li>
+<li>기간</li>
 </ul>
 </dt>
 <dt>지속성 경로: &lt; 경로 &gt; </dt>
@@ -3116,4 +3116,4 @@ Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정�
 ## <a name="related-topics"></a>관련 항목
 
 - [Microsoft Defender 바이러스 백신 보호에 대한 보고](report-monitor-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

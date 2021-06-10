@@ -69,7 +69,7 @@ JSON 파일은 커넥터에 필요한 Schema 정의를 준수해야 합니다. J
 |AssetId|실제 자산 또는 물리적 액세스 지점의 참조 ID입니다.|영문 문자열|
 |AssetName|실제 자산 또는 물리적 액세스 지점의 이름입니다.|영문 문자열|
 |EventTime|액세스의 타임스탬프입니다.|날짜 및 시간(UTC 형식)|
-|AccessStatus|또는 `Success``Failed`|문자열|
+|AccessStatus|또는 `Success``Failed`|String|
 |||
 
 다음은 필요한 Schema를 준수하는 JSON 파일의 예입니다.

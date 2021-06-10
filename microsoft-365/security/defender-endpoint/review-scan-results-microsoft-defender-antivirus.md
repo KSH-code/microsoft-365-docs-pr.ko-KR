@@ -69,4 +69,4 @@ MSFT_MpThreat 클래스의 [ **Get** **MSFT_MpThreatDetection**](/previous-versi
 ## <a name="related-articles"></a>관련 문서
 
 - [사용자 지정, 시작 및 재구성 결과 Microsoft Defender 바이러스 백신 검토](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

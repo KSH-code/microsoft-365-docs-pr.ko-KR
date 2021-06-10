@@ -1,7 +1,7 @@
 ---
 title: 내부자 위험 관리 콘텐츠 탐색기
 description: 내부자 위험 관리 앱의 콘텐츠 탐색기에 Microsoft 365
-keywords: Microsoft 365, 내부자 위험 관리, 위험 관리, 규정 준수
+keywords: Microsoft 365, 내부 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article

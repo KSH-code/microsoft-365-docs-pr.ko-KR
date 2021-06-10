@@ -1,5 +1,5 @@
 ---
-title: SharePoint Online의 탐색 옵션
+title: 온라인용 탐색 SharePoint 옵션
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,7 +20,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: adb92b80-b342-4ecb-99a1-da2a2b4782eb
-description: 이 문서에서는 SharePoint Online에서 SharePoint 게시를 사용하도록 설정한 탐색 옵션 사이트에 대해 설명합니다.
+description: 이 문서에서는 SharePoint Online에서 게시를 사용하도록 설정한 탐색 옵션 SharePoint 설명합니다.
 ms.openlocfilehash: b5989bf26ebf7bb1452f983af89a6e6739821d53
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -28,24 +28,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50923627"
 ---
-# <a name="navigation-options-for-sharepoint-online"></a>SharePoint Online의 탐색 옵션
+# <a name="navigation-options-for-sharepoint-online"></a>온라인용 탐색 SharePoint 옵션
 
-이 문서에서는 SharePoint Online에서 SharePoint 게시를 사용하도록 설정한 탐색 옵션 사이트에 대해 설명합니다. 탐색 선택 및 구성은 SharePoint Online의 사이트 성능 및 확장성에 큰 영향을 미치게 됩니다. SharePoint 게시 사이트 서식 파일은 중앙 집중식 포털에 필요한 경우만 사용해야 합니다. 게시 기능은 특정 사이트에서만 사용하도록 설정해야 합니다. 잘못 사용될 경우 성능에 영향을 줄 수 있는 특정 사이트에서만 게시 기능을 사용하도록 설정해야 합니다.
+이 문서에서는 SharePoint Online에서 게시를 사용하도록 설정한 탐색 옵션 SharePoint 설명합니다. 탐색 선택 및 구성은 온라인에서 사이트의 성능 및 확장성에 SharePoint 영향을 미치게 됩니다. SharePoint 게시 사이트 서식 파일은 중앙 집중식 포털에 필요한 경우만 사용하며, 게시 기능은 특정 사이트에서만 사용하도록 설정해야 합니다. 올바로 사용할 경우 성능에 영향을 줄 수 있는 특정 사이트에서만 게시 기능을 사용하도록 설정해야 합니다.
 
 >[!NOTE]
->메가 메뉴, 계단식 탐색 또는 허브 탐색과 같은 최신 SharePoint 탐색 옵션을 사용하는 경우 이 문서는 사이트에 적용되지 않습니다. 최신 SharePoint 사이트 아키텍처는 보다 평면적인 사이트 계층 구조와 허브 및 스포크 모델을 활용합니다. 따라서 SharePoint 게시 기능을 사용할 필요가 없는 많은 시나리오를 달성할 수 있습니다.
+>메가 메뉴, SharePoint 탐색 또는 허브 탐색과 같은 최신 탐색 옵션을 사용하는 경우 이 문서는 사이트에 적용되지 않습니다. 최신 SharePoint 아키텍처는 보다 평면적인 사이트 계층 구조와 허브 및 스포크 모델을 활용합니다. 따라서 게시 기능을 사용할 필요가 없는 많은 시나리오를 SharePoint 수 있습니다.
 
 ## <a name="overview-of-navigation-options"></a>탐색 옵션 개요
 
-탐색 공급자 구성은 전체 사이트의 성능에 큰 영향을 줄 수 있으며, SharePoint 사이트의 요구 사항에 따라 효과적으로 확장되는 탐색 공급자 및 구성을 선택하려면 신중하게 고려해야 합니다. 사용자 지정 탐색 구현뿐만 아니라 두 가지 바로 사용 가능한 탐색 공급자가 있습니다.
+탐색 공급자 구성은 전체 사이트의 성능에 큰 영향을 줄 수 있으며, 사이트 요구 사항에 따라 효과적으로 확장되는 탐색 공급자 및 구성을 선택하려면 SharePoint 주의해야 합니다. 사용자 지정 탐색 구현뿐만 아니라 두 가지 바로 사용 가능한 탐색 공급자가 있습니다.
 
-사이트에 대한 [](#using-structural-navigation-in-sharepoint-online)구조적 탐색 캐싱을 설정하는 경우 첫 번째 옵션인 구조 탐색 은 클래식 SharePoint 사이트에 대해 SharePoint Online의 권장 탐색 **옵션입니다.** 이 탐색 공급자는 현재 사이트 아래에 탐색 항목을 표시하고 선택적으로 현재 사이트와 해당 형제 항목을 표시합니다. 보안 자르기 및 사이트 구조 열0과 같은 추가 기능을 제공합니다. 캐싱을 사용하지 않도록 설정하면 성능 및 확장성에 부정적인 영향을 미치며, 조정이 적용될 수 있습니다.
+사이트의 구조적 [](#using-structural-navigation-in-sharepoint-online)탐색 캐싱을 설정하는 경우 첫 번째 옵션인 구조적 탐색 은 SharePoint Online에서 클래식 SharePoint 사이트에 권장되는 탐색 **옵션입니다.** 이 탐색 공급자는 현재 사이트 아래에 탐색 항목을 표시하고 선택적으로 현재 사이트와 해당 형제 항목을 표시합니다. 보안 자르기 및 사이트 구조 열0과 같은 추가 기능을 제공합니다. 캐싱을 사용하지 않도록 설정하면 성능 및 확장성에 부정적인 영향을 미치며, 조정이 적용될 수 있습니다.
 
 두 번째 옵션인 [**관리(메타데이터) 탐색은**](#using-managed-navigation-and-metadata-in-sharepoint-online)관리되는 메타데이터 용어 집합을 사용하는 탐색 항목을 나타내는 데 사용됩니다. 필요한 경우를 위해 보안 트리밍을 사용하지 않도록 설정하는 것이 좋습니다. 보안 트리밍은 이 탐색 공급자에 대한 보안 기본 설정으로 사용됩니다. 그러나 대부분의 사이트에서는 탐색 요소가 사이트의 모든 사용자에게 일관성이 유지되는 경우가 많기 때문에 보안 자르기 오버헤드가 필요하지 않습니다. 보안 조정을 사용하지 않도록 설정하는 권장 구성을 통해 이 탐색 공급자는 사이트 구조를 열000개할 필요가 없습니다. 성능에 대한 영향이 적정 수준으로 확장될 수 있습니다.
 
 첫 실행 탐색 공급자 외에도 많은 고객이 대체 사용자 지정 탐색 구현을 성공적으로 구현했습니다. 이 문서의 검색 [기반 클라이언트 쪽 스크립팅을](#using-search-driven-client-side-scripting) 참조하세요.
   
-## <a name="pros-and-cons-of-sharepoint-online-navigation-options"></a>SharePoint Online의 장단점 탐색 옵션
+## <a name="pros-and-cons-of-sharepoint-online-navigation-options"></a>온라인 탐색 옵션의 장단 SharePoint 장단
 
 다음 표에서는 각 옵션의 장단을 요약하여 제공합니다.
 
@@ -57,27 +57,27 @@ ms.locfileid: "50923627"
 사이트에 가장 적합한 옵션은 사이트 요구 사항 및 기술 기능에 따라 다릅니다. 콘텐츠가 변경될 때 자동으로 업데이트되는 구성하기 쉬운 탐색 공급자를 [](https://support.office.com/article/structural-navigation-and-performance-f163053f-8eca-4b9c-b973-36b395093b43) 원하는 경우 캐싱을 사용하는 구조 탐색이 좋은 옵션입니다.
 
 >[!NOTE]
->전체 사이트 구조를 계층 구조가 단순화하여 최신 SharePoint 사이트와 동일한 원칙을 적용하면 성능이 향상되고 최신 SharePoint 사이트로의 이동이 간소화됩니다. 즉, 수백 개의 사이트(하위 웹)가 있는 단일 사이트 모음을 사용할 수 있는 대신 하위 사이트(하위 웹)가 거의 없는 사이트 모음이 많이 있는 것이 더 좋습니다.
+>전체 사이트 구조를 SharePoint 계층 구조가 단순화되어 최신 사이트와 동일한 원칙을 적용하면 성능이 향상되고 최신 SharePoint 사이트로 쉽게 이동됩니다. 즉, 수백 개의 사이트(하위 웹)가 있는 단일 사이트 모음을 사용할 수 있는 대신 하위 사이트(하위 웹)가 거의 없는 사이트 모음이 많이 있는 것이 더 좋습니다.
 
-## <a name="analyzing-navigation-performance-in-sharepoint-online"></a>SharePoint Online에서 탐색 성능 분석
+## <a name="analyzing-navigation-performance-in-sharepoint-online"></a>온라인에서 탐색 성능 SharePoint 분석
 
-[SharePoint용](./page-diagnostics-for-spo.md) 페이지 진단 도구는 SharePoint Online 최신 포털 및 클래식 게시 사이트 페이지를 모두 분석하는 Microsoft Edge 및 Chrome 브라우저의 브라우저 확장입니다. 이 도구는 SharePoint Online에서만 작동하며 SharePoint 시스템 페이지에서는 사용할 수 없습니다.
+SharePoint [페이지](./page-diagnostics-for-spo.md) 진단 도구는 Microsoft Edge 온라인 최신 포털과 클래식 게시 사이트 페이지를 SharePoint Chrome 브라우저의 브라우저 확장입니다. 이 도구는 SharePoint Online에서만 사용할 수 있으며 시스템 SharePoint 사용할 수 없습니다.
 
-이 도구는 미리 정의된 규칙 집합에 대해 페이지가 수행되는 방법을 보여 주며, 테스트 결과가 기준 값에 맞지 않은 경우 자세한 정보를 표시하는 분석된 각 페이지에 대한 보고서를 생성합니다. SharePoint Online 관리자 및 디자이너는 이 도구를 사용하여 성능 문제를 해결하여 게시 전에 새 페이지를 최적화할 수 있습니다.
+이 도구는 미리 정의된 규칙 집합에 대해 페이지가 수행되는 방법을 보여 주며, 테스트 결과가 기준 값에 맞지 않은 경우 자세한 정보를 표시하는 분석된 각 페이지에 대한 보고서를 생성합니다. SharePoint 온라인 관리자와 디자이너는 이 도구를 사용하여 성능 문제를 해결하여 게시 전에 새 페이지를 최적화할 수 있습니다.
 
-**특히 SPRequestDuration은** SharePoint에서 페이지를 처리하는 데 걸리는 시간입니다. 탐색에 페이지 포함, 복잡한 사이트 계층 및 기타 구성 및 토폴로지 옵션이 모두 긴 기간에 기여할 수 있습니다.
+**특히 SPRequestDuration은** 페이지를 처리하기 위해 SharePoint 시간입니다. 탐색에 페이지 포함, 복잡한 사이트 계층 및 기타 구성 및 토폴로지 옵션이 모두 긴 기간에 기여할 수 있습니다.
 
-## <a name="using-structural-navigation-in-sharepoint-online"></a>SharePoint Online에서 구조 탐색 사용
+## <a name="using-structural-navigation-in-sharepoint-online"></a>온라인에서 구조 탐색 SharePoint 사용
 
 이 탐색은 기본적으로 사용되는 기본 제공 탐색으로, 가장 간단한 솔루션입니다. 또한 사용자 지정이 필요하지 않은 사용자도 항목을 쉽게 추가하고, 항목을 숨기고, 설정 페이지에서 탐색을 관리할 수 있습니다. [캐싱을 사용하도록](https://support.office.com/article/structural-navigation-and-performance-f163053f-8eca-4b9c-b973-36b395093b43)설정하는 것이 좋습니다. 그렇지 않은 경우 성능에 많은 비용이 드는 상거래가 있습니다.
 
 ### <a name="how-to-implement-structural-navigation-caching"></a>구조 탐색 캐싱을 구현하는 방법
 
-사이트 **설정 디자인** 탐색에서 전역 탐색 또는 현재 탐색에 대해 구조적 탐색이 선택되어 있는지  >    >  확인할 수 있습니다. 페이지 **표시를 선택하면** 성능에 부정적인 영향을 미치게 됩니다.
+사이트 **설정** 디자인 탐색에서 전역 탐색 또는 현재 탐색에 대해 구조적 탐색이 선택되어 있는지  >    >  확인할 수 있습니다. 페이지 **표시를 선택하면** 성능에 부정적인 영향을 미치게 됩니다.
 
 ![하위 페이지 표시가 선택된 구조 탐색](../media/SPONavOptionsStructuredShowSubsites.png)
 
-캐싱은 사이트 모음 수준과 사이트 수준에서 사용하도록 설정하거나 사용하지 않도록 설정할 수 있으며 기본적으로 둘 다에 대해 사용하도록 설정됩니다. 사이트 모음 수준에서 사용하도록 설정하려면 사이트 설정 사이트 모음 관리 사이트 모음  >    >  **탐색에서** 캐싱 사용 **확인란을 선택합니다.**
+캐싱은 사이트 모음 수준과 사이트 수준에서 사용하도록 설정하거나 사용하지 않도록 설정할 수 있으며 기본적으로 둘 다에 대해 사용하도록 설정됩니다. 사이트 모음 수준에서 사용하도록 설정하려면 사이트 설정 사이트 모음 관리 사이트 모음   >    >  **탐색에서** 캐싱 사용 확인란을 **선택합니다.**
 
 ![사이트 수준에서 캐싱 사용](../media/structural-nav/structural-nav-caching-site-coll.png)
 
@@ -99,11 +99,11 @@ ms.locfileid: "50923627"
 
 ### <a name="how-to-implement-managed-navigation-and-the-results"></a>관리 탐색 및 결과를 구현하는 방법
 
-관리 탐색의 세부 docs.microsoft.com 문서가 몇 가지 있습니다. 예를 들어 [SharePoint Server의 관리 탐색 개요를 참조하세요.](/sharepoint/administration/overview-of-managed-navigation)
+관리 탐색의 세부 docs.microsoft.com 문서가 몇 가지 있습니다. 예를 들어 SharePoint 서버의 관리 [탐색 개요를 참조하세요.](/sharepoint/administration/overview-of-managed-navigation)
 
-관리 탐색을 구현하기 위해 사이트의 탐색 구조에 해당하는 URL을 사용하여 용어를 설정해야 합니다. 대부분의 경우 구조 탐색을 대체하기 위해 관리 탐색을 수동으로 구성할 수도 있습니다. 예를 들어 다음과 같습니다.
+관리 탐색을 구현하기 위해 사이트의 탐색 구조에 해당하는 URL을 사용하여 용어를 설정해야 합니다. 대부분의 경우 구조 탐색을 대체하기 위해 관리 탐색을 수동으로 구성할 수도 있습니다. 예:
 
-![SharePoint Online 사이트 구조](../media/SPONavOptionsListOfSites.png))
+![SharePoint 온라인 사이트 구조](../media/SPONavOptionsListOfSites.png))
 
 ## <a name="using-search-driven-client-side-scripting"></a>검색 기반 클라이언트 쪽 스크립팅 사용
 
@@ -117,7 +117,7 @@ ms.locfileid: "50923627"
 
 데이터 공급자의 예로는 검색 기반 탐색을 사용하여 탐색 노드를 열고 보안 트리밍을 효율적으로 처리할 수 있습니다.
 
-사용자 지정 탐색 공급자를 빌드하는 다른 **인기 있는 옵션이 있습니다.** 사용자 지정 탐색 공급자를 구축하는 방법에 대한 자세한 지침은 [SharePoint Online](/sharepoint/dev/solution-guidance/portal-navigation) 포털의 탐색 솔루션을 검토하세요.
+사용자 지정 탐색 공급자를 빌드하는 다른 **인기 있는 옵션이 있습니다.** 사용자 지정 탐색 공급자를 SharePoint [지침은](/sharepoint/dev/solution-guidance/portal-navigation) 온라인 포털에 대한 탐색 솔루션을 검토하세요.
 
 검색을 사용하면 연속 크롤링을 사용하여 백그라운드에서 구축된 인덱스를 활용할 수 있습니다. 검색 결과는 검색 인덱스에서 끌어오고 결과는 보안이 잘림됩니다. 이는 일반적으로 보안 트리밍이 필요한 경우 첫 탐색 공급자보다 빠릅니다. 구조 탐색 검색을 사용하면 특히 사이트 구조가 복잡한 경우 페이지 로드 시간이 상당히 빠를 수 있습니다. 관리 탐색을 통해 이 기능의 주요 이점은 보안 트리밍을 활용할 수 있는 것입니다.
 
@@ -125,7 +125,7 @@ ms.locfileid: "50923627"
 
 ### <a name="example-replace-the-out-of-the-box-navigation-code-in-a-master-page"></a>예제: 마스터 페이지에서 첫 실행 탐색 코드 바꾸기
 
-1. 사이트 설정 페이지로 이동합니다.
+1. 사이트 사이트 설정 페이지로 이동합니다.
 2. 마스터 페이지 를 클릭하여 마스터 페이지 **갤러리를 열 수 있습니다.**
 3. 여기에서 라이브러리를 탐색하고 파일을 다운로드할 수 `seattle.master` 있습니다.
 4. 텍스트 편집기를 사용하여 코드를 편집하고 다음 스크린샷에서 코드 블록을 삭제합니다.<br/>![표시된 코드 블록 삭제](../media/SPONavOptionsDeleteCodeBlock.png)<br/>
@@ -221,7 +221,7 @@ var root = "https://spperformance.sharepoint.com/sites/NavigationBySearch";
 ### <a name="about-the-javascript-file"></a>JavaScript 파일...
 
 >[!NOTE]
->사용자 지정 JavaScript를 사용하는 경우 공용 CDN이 사용하도록 설정되어 있으며 파일이 CDN 위치에 있는지 확인합니다.
+>사용자 지정 JavaScript를 사용하는 경우 공용 CDN 사용하도록 설정되어 있으며 파일이 모든 위치에 CDN 확인합니다.
 
 전체 JavaScript 파일은 다음과 같습니다.
 
@@ -543,7 +543,7 @@ ByHierarchy: function(firstLevel, connectBy, orderBy, ascending, parent) {
 
 ```
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [SharePoint Server의 관리 탐색 개요](/sharepoint/administration/overview-of-managed-navigation)
 

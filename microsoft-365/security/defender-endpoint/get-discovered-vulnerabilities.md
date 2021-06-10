@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: ac7a9ef932f2640bbc5325f0154c0ceb48ae3018
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 73d9803736df546f2381b7a84c9089d2460c4c44
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772296"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843085"
 ---
 # <a name="get-discovered-vulnerabilities"></a>발견된 취약성 가져오기
 
@@ -110,5 +110,5 @@ GET https://api.securitycenter.microsoft.com/api/machines/ac233fa6208e1579620bf4
 
 ## <a name="see-also"></a>참고 항목
 
-- [위험 기반 위협 & 관리](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [조직의 취약성](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-weaknesses)
+- [위험 기반 위협 & 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [조직의 취약성](/microsoft-365/security/defender-endpoint/tvm-weaknesses)

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 727576ab75d77d12be0595c081586f411887da49
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 5ecee4a71ef0b6f607a284766163a90f16bc27dc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165444"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843073"
 ---
 # <a name="helpful-microsoft-defender-for-endpoint-resources"></a>엔드포인트 리소스에 대한 유용한 Microsoft Defender
 
@@ -37,7 +37,7 @@ ms.locfileid: "51165444"
 블로그 링크 및 끝점용 Microsoft Defender와 관련된 기타 리소스와 같은 유용한 리소스에 액세스합니다.
 
 ## <a name="endpoint-protection-platform"></a>끝점 보호 플랫폼
-- [업계 테스트에서 최고 점수](https://docs.microsoft.com/windows/security/threat-protection/intelligence/top-scoring-industry-antivirus-tests)
+- [업계 테스트에서 최고 점수](/windows/security/threat-protection/intelligence/top-scoring-industry-antivirus-tests)
 
 - [내부: Endpoint 차세대 보호를 위한 Defender의 핵심에 있는 고급 기술에 대해 알아가기](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)
 
@@ -61,4 +61,4 @@ ms.locfileid: "51165444"
 
 - [자동화가 보안 팀에 가치를 가져다주는 방법](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/How-automation-brings-value-to-your-security-teams/ba-p/729297)
 
-- [끝점용 Microsoft Defender에서 가짓 긍정/음수 해결](defender-endpoint-false-positives-negatives.md)
+- [Endpoint용 Microsoft Defender에서 가양성/가음성 처리](defender-endpoint-false-positives-negatives.md)

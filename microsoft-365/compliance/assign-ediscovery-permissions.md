@@ -80,7 +80,7 @@ Microsoft 365  준수 센터의 사용 권한 페이지에서 준수 관리자, 
 | 역할 | 준수 관리자 | eDiscovery 관리자 & 관리자 | 조직 관리 | Reviewer |
 |:-----|:-----:|:-----:|:-----:|:-----:|
 |사례 관리 <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
-|통신 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
+|커뮤니케이션 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
 |규격 검색 <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
 |Custodian <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
 |내보내기 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
@@ -103,7 +103,7 @@ Microsoft 365  준수 센터의 사용 권한 페이지에서 준수 관리자, 
 
 - [고급 eDiscovery 시작](get-started-with-advanced-ediscovery.md)
 
-### <a name="communication"></a>통신
+### <a name="communication"></a>커뮤니케이션
 
 이 역할을 사용하면 사용자가 사례에서 식별된 관리인과의 모든 통신을 Advanced eDiscovery 있습니다. 여기에는 보류 알림 만들기, 보류 미리 알림 및 관리로의 에스컬레이터가 포함됩니다. 또한 사용자는 보유자 확인을 추적하고 각 보유자에서 보유자 포털에 대한 액세스를 관리하여 보유자로 식별된 사례에 대한 통신을 추적할 수 있습니다.
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fad3dd64c9acf079bd8da778d417240c44031569
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 21a83c4876a90a231eb2a78d10a290be2dca2fa0
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772473"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782480"
 ---
 # <a name="streaming-api"></a>스트리밍 API
 
@@ -34,7 +34,7 @@ ms.locfileid: "52772473"
 
 ## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a>고급 헌팅 이벤트를 이벤트 허브 및/또는 Azure 저장소 계정으로 스트리밍합니다.
 
-Microsoft 365 Defender는 고급 헌팅을 [](../defender/advanced-hunting-overview.md) 통해 사용할 수 있는 모든 이벤트를 이벤트 [허브](/azure/event-hubs/) 및/또는 Azure 저장소 계정으로 [스트리밍할 수 있도록 지원합니다.](/azure/event-hubs/)
+Microsoft 365 Defender는 고급 헌팅을 통해 [](/azure/event-hubs/) 이벤트 허브 및/또는 Azure 저장소 계정으로 스트리밍 이벤트를 [지원합니다.](/azure/event-hubs/) [](../defender/advanced-hunting-overview.md)
 
 
 

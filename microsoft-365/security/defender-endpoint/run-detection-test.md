@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2bb1fde1bfd8ddfa358d1141c3821843e532a8bf
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 10090fdd1dff6b020d06c82afa8456d7a157ff91
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52312003"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843309"
 ---
 # <a name="run-a-detection-test-on-a-newly-onboarded-microsoft-defender-for-endpoint-device"></a>새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행 
 
@@ -63,4 +63,4 @@ ms.locfileid: "52312003"
 ## <a name="related-topics"></a>관련 항목
 - [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
 - [서버 온보드](configure-server-endpoints.md)
-- [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)
+- [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)

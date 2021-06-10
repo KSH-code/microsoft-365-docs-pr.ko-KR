@@ -1,5 +1,5 @@
 ---
-title: 도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 추가 Azure Active Directory 정보
+title: 도이치클라드에서 마이그레이션하기 위한 추가 Azure Active Directory 정보
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -17,7 +17,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
-description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 추가 Azure Active Directory 정보입니다.'
+description: '요약: 독일 Microsoft Azure Active Directory(Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 추가 정보입니다.'
 ms.openlocfilehash: 1e3871dc5a8a8a9ecbef29df21431aa3707871d0
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50923853"
 ---
-# <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 추가 Azure Active Directory 정보
+# <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이치클라드에서 마이그레이션하기 위한 추가 Azure Active Directory 정보
 
-Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료하기 위해 OIDC(OpenID Connect) 끝점에서 상업용 클라우드 끝점 보고를 시작할 때 응용 프로그램의 인증 끝점, Azure AD(Azure Active Directory) Graph 및 MS Graph 끝점을 상업용 클라우드의 끝점으로 업데이트하는 것이 `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` 좋습니다. 
+Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료하기 위해 OIDC(OpenID 커넥트) 끝점에서 상업용 클라우드 끝점 보고를 시작할 때 응용 프로그램의 인증 끝점, Azure Active Directory(Azure AD) Graph 및 MS Graph 끝점을 상업용 클라우드의 끝점으로 업데이트하는 것이 `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` 좋습니다. 
  
 **언제 변경해야 하나요?**
 
@@ -37,7 +37,7 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 
  - 테넌트의 OIDC 검색 `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` 끝점은 Azure AD 공용 클라우드 끝점을 반환합니다.
 
- - 테넌트가 페더넌트에 대해 설정된 경우 AD FS(Active Directory Federation Services)가 Azure AD Public과 동기화될 수 있도록 업데이트됩니다. 지침에 따라 이 변경을 위해 Azure AD Connect 설정을 업데이트할 수 있습니다.
+ - 테넌트가 페더넌트에 대해 설정된 경우 AD FS(Active Directory Federation Services)가 Azure AD Public과 동기화될 수 있도록 업데이트됩니다. 이 변경에 대한 Azure AD 커넥트 지침에 따라 업데이트할 수 있습니다.
 
  - 응용 프로그램에서 사용하는 리소스 응용 프로그램은 Azure AD Germany와 Azure AD Public 둘 다에서 서명된 토큰을 수락하기 위해 수정됩니다.
  
@@ -62,13 +62,13 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 1. Azure Germany 또는 Office 365 Germany 사용자를 인증하는 데 사용되는 응용 프로그램을 Azure Germany에서 호스팅하는 경우 인증 컨텍스트에서 기관으로 `https://login.microsoftonline.com` 사용되는지 확인
 
     - Azure AD 인증 컨텍스트를 참조하세요.
-    - 이는 응용 프로그램에 대한 인증과 응용 프로그램이 호출할 수 있는 API(즉, Microsoft Graph, Azure AD Graph, Azure Resource Manager)에 대한 인증에 모두 적용됩니다.
+    - 이는 응용 프로그램에 대한 인증뿐만 아니라 응용 프로그램이 호출할 수 있는 API에 대한 인증(즉, Microsoft Graph, Azure AD Graph, Azure Resource Manager)에 적용됩니다.
 
 2. Azure AD Graph 끝점을 로 `https://graph.windows.net` 업데이트합니다.
 
 3. MS Graph 끝점을 로 `https://graph.microsoft.com` 업데이트합니다.
 
-4. 응용 프로그램에서 공용 클라우드의 끝점으로 사용하는 독일 클라우드 끝점(예: Exchange Online 및 SharePoint Online용 끝점)을 업데이트합니다.
+4. 응용 프로그램이 공용 클라우드로 사용하는 독일 클라우드 끝점(예: Exchange Online SharePoint Online용 끝점)을 업데이트합니다.
 
 5. 다음에 대한 관리 도구 및 스크립트에서 (대신) 환경 매개 `AzurePublic` `AzureGermany` 변수를 업데이트합니다.
 
@@ -95,7 +95,7 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 
   - Azure Portal에서 IPv6으로 명명된 네트워크를 만들 수 `http://portal.microsoftazure.de/` 없습니다. 에서 Azure Portal을 `https://portal.azure.com` 사용하여 IPv6으로 명명된 네트워크를 만들 수 있습니다.
  
-   - 도이치랜드 Microsoft 클라우드 포털에서 Azure MFA(다단계 인증) 서비스 설정에 대한 신뢰할 수 있는 IP 주소 범위를 만들 수 없습니다. Office 365 서비스용 Azure AD 포털을 사용하여 Azure MFA 신뢰할 수 있는 IP 주소 범위를 만들 수 있습니다.
+   - 도이치랜드 Microsoft 클라우드 포털에서 Azure MFA(다단계 인증) 서비스 설정에 대한 신뢰할 수 있는 IP 주소 범위를 만들 수 없습니다. 서비스용 Azure AD 포털을 Office 365 Azure MFA 신뢰할 수 있는 IP 주소 범위를 만들 수 있습니다.
 
 
 - 조건부 액세스의 경우: 
@@ -110,20 +110,20 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 
 - Intune 시나리오는 모든 Office 작업 마이그레이션을 포함하여 테넌트 마이그레이션이 완료된 후 전 세계 끝점에 대해 지원됩니다.
 
-- MFA 요청에 모바일 앱 알림 메서드를 사용하는 Microsoft 클라우드 도이클랜드 사용자는 Microsoft Authenticator 앱에서 UPN(사용자 계정 이름) 대신 사용자의 ObjectId(GUID)를 볼 수 있습니다. Azure AD 테넌트의 마이그레이션이 완료 및 Office 365 서비스에서 호스트된 후 새 Microsoft Authenticator 정품 인증에 사용자의 UPNS가 표시됩니다. 기존 Microsoft Authenticator 계정에는 사용자 ObjectId가 계속 표시되지만 모바일 앱 알림에도 계속 사용할 수 있습니다. 
+- MFA 요청에 모바일 앱 알림 메서드를 사용하는 Microsoft 클라우드 도이클란드 사용자는 Microsoft Authenticator 앱의 UPN(사용자 계정 이름) 대신 사용자의 ObjectId(GUID)를 볼 수 있습니다. Azure AD 테넌트의 마이그레이션이 완료되어 Office 365 서비스에서 호스팅된 후 새로운 Microsoft Authenticator 정품 인증에 사용자의 UPNS가 표시됩니다. 기존 Microsoft Authenticator 계정은 사용자 ObjectId를 계속 표시하지만 모바일 앱 알림에도 계속 사용할 수 있습니다. 
 
-- 2019년 10월 22일 이후에 만들어진 테넌트의 경우 Office 365 서비스로 마이그레이션할 때 테넌트에 대해 보안 기본값이 자동으로 활성화될 수 있습니다. 테넌트 관리자는 보안 기본값을 사용하도록 설정하고 MFA에 등록할 수 있습니다. 또는 이 기능을 사용하지 않도록 설정할 수 있습니다. 자세한 내용은 [Disabling security defaults을 참조하십시오.](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#disabling-security-defaults) 
+- 2019년 10월 22일 이후에 만들어진 테넌트의 경우 테넌트가 Office 365 서비스로 마이그레이션될 때 테넌트에 대해 보안 기본값이 자동으로 활성화될 수 있습니다. 테넌트 관리자는 보안 기본값을 사용하도록 설정하고 MFA에 등록할 수 있습니다. 또는 이 기능을 사용하지 않도록 설정할 수 있습니다. 자세한 내용은 [Disabling security defaults을 참조하십시오.](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#disabling-security-defaults) 
 
   > [!NOTE]
-  > Office 365 서비스에 보안 기본값을 사용하도록 설정하는 기능이 롤아웃되어 마이그레이션 중에 자동 사용이 가능하지 않은 조직은 향후에도 자동 등록될 수 있습니다. 보안 기본값을 명시적으로 사용하지 않도록 설정하거나 사용하도록 선택한 관리자는 Azure Active Directory 속성 속성에서 기능을 **업데이트하여 > 있습니다.** 관리자가 이 기능을 명시적으로 사용하도록 설정한 후 자동 사용이 가능하지 않습니다.
+  > 마이그레이션 중에 자동 사용되지 않는 조직은 보안 기본값을 사용하도록 설정하는 기능이 Office 365 서비스에서 롤아웃될 수 있습니다. 보안 기본값을 명시적으로 사용하지 않도록 설정하거나 사용하도록 선택한 관리자는 속성 에서 기능을 업데이트하여 Azure Active Directory > **있습니다.** 관리자가 이 기능을 명시적으로 사용하도록 설정한 후 자동 사용이 가능하지 않습니다.
 
-- 테넌트가 마이그레이션 중이면 Office 365 Germany 포털뿐만 아니라 Office 365 포털의 Azure AD Connect 버전에 대한 경고가 표시됩니다. 마이그레이션이 완료된 후 버전 경고가 더 이상 경고를 표시하지 않는 경우 무시할 수 있습니다. 마이그레이션 전이나 후에 경고가 표시될 경우 어느 포털에서든 Azure AD Connect를 업데이트해야 합니다. 경고 메시지는 다음을 나타냅니다. "디렉터리 동기화 도구가 사용 중입니다. 최신 버전의 Azure AD Connect를 다운로드하려면 Microsoft 다운로드 센터로 이동하는 것이 좋습니다."
+- 테넌트가 마이그레이션 중이면 Office 365 독일 포털과 Office 365 포털에서 Azure AD ad 커넥트 버전에 대한 경고가 표시됩니다. 마이그레이션이 완료된 후 버전 경고가 더 이상 경고를 표시하지 않는 경우 무시할 수 있습니다. 마이그레이션 전이나 후에 경고가 표시될 경우 두 포털에서 Azure AD 커넥트 업데이트해야 합니다. 경고 메시지는 다음을 나타냅니다. "디렉터리 동기화 도구가 사용 중입니다. Microsoft 다운로드 센터로 이동하여 최신 버전의 Azure AD 2013을 다운로드하는 커넥트."
 
 ## <a name="more-information"></a>추가 정보
 
 시작:
 
-- [독일 Microsoft 클라우드에서 새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션](ms-cloud-germany-transition.md)
+- [독일 Microsoft 클라우드에서 새 독일 Office 365 서비스로 마이그레이션](ms-cloud-germany-transition.md)
 - [Microsoft Cloud Deutschland 마이그레이션 지원](https://aka.ms/germanymigrateassist)
 - [마이그레이션에 대해 옵트인하는 방법](ms-cloud-germany-migration-opt-in.md)
 - [마이그레이션 중의 고객 환경](ms-cloud-germany-transition-experience.md)

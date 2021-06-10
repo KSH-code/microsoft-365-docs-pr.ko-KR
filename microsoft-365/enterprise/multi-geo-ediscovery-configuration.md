@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
-description: Region 매개 변수를 사용하여 Microsoft 365 Multi-Geo의 위성 위치에서 사용하도록 eDiscovery를 구성하는 방법을 학습합니다.
+description: Region 매개 변수를 사용하여 Multi-Geo의 위성 위치에서 사용하도록 eDiscovery를 Microsoft 365 방법을 학습합니다.
 ms.openlocfilehash: 4d3481fe8b72bb970893ce065293a7a2cc717331
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "50923723"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Microsoft 365 Multi-Geo eDiscovery 구성
 
-[고급 eDiscovery](../compliance/overview-ediscovery-20.md) 기능을 사용하면 다중 지역 eDiscovery 관리자가 "지역" 보안 필터를 사용할 필요 없이 모든 지역을 검색할 수 있습니다. 데이터는 다중 위치 테넌트의 중앙 위치의 Azure 인스턴스로 내보낼 수 있습니다. 
+[Advanced eDiscovery](../compliance/overview-ediscovery-20.md) 기능을 사용하면 Multi-Geo eDiscovery 관리자가 "지역" 보안 필터를 활용하지 않고도 모든 지역을 검색할 수 있습니다. 데이터는 다중 위치 테넌트의 중앙 위치의 Azure 인스턴스로 내보낼 수 있습니다. 
 
-고급 eDiscovery 기능이 없는 경우 다중 위치 테넌트의 eDiscovery 관리자 또는 관리자는 해당 테넌트의 중앙 위치에서만 eDiscovery를 수행 할 수 있습니다. 위성 위치에 대한 eDiscovery 수행 기능을 지원하기 위해 PowerShell을 통해 "Region"이라는 새로운 준수 보안 필터 매개 변수를 사용할 수 있습니다. 이 매개 변수는 중앙 위치가 북미, 유럽 또는 아시아 태평양에 있는 테넌트에서 사용할 수 있습니다. Advanced eDiscovery는 중앙 위치가 북미, 유럽 또는 아시아 태평양에 있지 않은 테넌트와 위성 지리적 위치에서 eDiscovery를 수행해야 하는 테넌트에 권장됩니다. 
+고급 eDiscovery 기능이 없는 경우 다중 위치 테넌트의 eDiscovery 관리자 또는 관리자는 해당 테넌트의 중앙 위치에서만 eDiscovery를 수행 할 수 있습니다. 위성 위치에 대한 eDiscovery 수행 기능을 지원하기 위해 PowerShell을 통해 "Region"이라는 새로운 준수 보안 필터 매개 변수를 사용할 수 있습니다. 이 매개 변수는 중앙 위치가 북미, 유럽 또는 아시아 태평양에 있는 테넌트에서 사용할 수 있습니다. Advanced eDiscovery 중앙 위치가 북미, 유럽 또는 아시아 태평양에 있지 않은 테넌트와 위성 지리적 위치에서 eDiscovery를 수행해야 하는 테넌트에 권장됩니다. 
 
 Microsoft 365 전역 관리자는 다른 사용자들이 eDiscovery를 수행할 수 있도록 하기 위해 eDiscovery 관리자 권한을 할당해야 하며, 해당 준수 보안 필터에서 “Region” 매개 변수를 할당하여 eDiscovery 수행 지역을 위성 위치로 지정해야 합니다. 그렇지 않으면 해당 위성 위치에 대해 eDiscovery가 수행되지 않습니다.
 

@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 통해 Microsoft 365 사용자 계정 보기
+title: PowerShell을 Microsoft 365 사용자 계정 보기
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -27,15 +27,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50924651"
 ---
-# <a name="view-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 통해 Microsoft 365 사용자 계정 보기
+# <a name="view-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 보기
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 관리 센터를 사용하여 Microsoft 365 테넌트의 계정을 볼 수 있습니다. Microsoft 365용 PowerShell에서는 이 기능을 사용할 수 있지만 추가 기능도 제공합니다.
+Microsoft 365 관리 센터를 사용하여 Microsoft 365 테넌트의 계정을 볼 수 있습니다. PowerShell for Microsoft 365 이 기능을 사용할 수 있지만 추가 기능도 제공합니다.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 ### <a name="view-all-accounts"></a>모든 계정 보기
 
@@ -66,7 +66,7 @@ be4bdddd-c790-424c-9f96-a0cf609b7815 Allan Deyoung                              
 Get-AzureADUser -ObjectID <sign-in name of the user account>
 ```
 
-예를 들면 다음과 같습니다.
+다음은 예입니다.
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com
@@ -76,7 +76,7 @@ Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com
 
 기본적으로 **Get-AzureADUser** cmdlet은 계정의 *ObjectID,* *DisplayName* 및 *UserPrincipalName* 속성만 표시합니다.
 
-표시할 속성에 대해 보다 선택적으로 선택하려면 **Get-AzureADUser**  cmdlet과 함께 Select cmdlet을 사용하세요. 두 cmdlet을 결합하기 위해 "파이프" 문자("|")를 사용하여 Graph용 Azure Active Directory PowerShell에 한 명령의 결과를 받아 다음 명령으로 전송합니다. 다음은 모든 사용자 계정에 대한 *DisplayName,* *Department* 및 *UsageLocation을* 표시하는 예제 명령입니다.
+표시할 속성에 대해 보다 선택적으로 선택하려면 **Get-AzureADUser**  cmdlet과 함께 Select cmdlet을 사용하세요. 두 cmdlet을 결합하기 위해 "파이프" 문자("|")를 사용하여 Azure Active Directory PowerShell에 Graph 명령의 결과를 받아 다음 명령으로 보낼 수 있습니다. 다음은 모든 사용자 계정에 대한 *DisplayName,* *Department* 및 *UsageLocation을* 표시하는 예제 명령입니다.
   
 ```powershell
 Get-AzureADUser | Select DisplayName,Department,UsageLocation
@@ -88,7 +88,7 @@ Get-AzureADUser | Select DisplayName,Department,UsageLocation
     
 1.  사용자 계정 이름, 부서 및 사용 위치만 표시합니다(**DisplayName, Department, UsageLocation 선택).**
   
-특정 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet 및 와일드카드 문자(*)를 사용하세요. 예를 들면 다음과 같습니다.
+특정 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet 및 와일드카드 문자(*)를 사용하세요. 다음은 예입니다.
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com | Select *
@@ -104,9 +104,9 @@ Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayNam
 
 사용자 계정에는 다음 두 가지 원본이 있습니다. 
 
-- Windows Server AD(Active Directory)는 사내 AD에서 클라우드로 동기화되는 계정입니다.
+- Windows 서버 AD(Active Directory) - 사내 AD에서 클라우드로 동기화되는 계정입니다.
 
-- 클라우드에서 직접 생성되는 Azure AD(Azure Active Directory) AD 계정
+- Azure Active Directory(Azure AD) AD 계정을 사용하여 클라우드에서 직접 생성됩니다.
 
 
 다음 명령은 *DirSyncEnabled* 특성이 True로 설정된 모든 사용자를 하게 PowerShell에 *지시합니다.* 이를 사용하여 사내 AD에서 동기화하는 계정을 찾을 수 있습니다.
@@ -123,19 +123,19 @@ Get-AzureADUser | Where {$_.DirSyncEnabled -ne $false}
 
 ### <a name="view-accounts-based-on-a-common-property"></a>공통 속성을 기반으로 계정 보기
 
-표시할 계정 목록에 대해 보다 선택적으로 사용하려면 **Where** cmdlet을 **Get-AzureADUser** cmdlet과 함께 사용하면 됩니다. 두 cmdlet을 결합하기 위해 "파이프" 문자("|")를 사용하여 Graph용 Azure Active Directory PowerShell에 한 명령의 결과를 받아 다음 명령으로 전송합니다. 다음은 지정되지 않은 사용 위치가 있는 사용자 계정만 표시하는 예제 명령입니다.
+표시할 계정 목록에 대해 보다 선택적으로 사용하려면 **Where** cmdlet을 **Get-AzureADUser** cmdlet과 함께 사용하면 됩니다. 두 cmdlet을 결합하기 위해 "파이프" 문자("|")를 사용하여 Azure Active Directory PowerShell에 Graph 명령의 결과를 받아 다음 명령으로 보낼 수 있습니다. 다음은 지정되지 않은 사용 위치가 있는 사용자 계정만 표시하는 예제 명령입니다.
   
 ```powershell
 Get-AzureADUser | Where {$_.UsageLocation -eq $Null}
 ```
 
-이 명령은 Azure Active Directory PowerShell for Graph에 다음을 지시합니다.
+이 명령은 다음 Azure Active Directory PowerShell에 Graph 지시합니다.
   
 1. 사용자 **계정(Get-AzureADUser)에** 대한 모든 정보를 확인하여 다음 명령()으로 **|** 전송합니다.
     
 1. 미지정 사용 위치가 있는 모든 사용자 **계정(Where {$ \_ 을 찾아야 합니다. UsageLocation -eq $Null}**). 중괄호 안의 명령은 PowerShell에 UsageLocation 사용자 계정 속성이 있는 계정 집합만 찾게 **$ \_ 합니다. UsageLocation**)이 지정되지 않았습니다(**-eq $Null).**
     
-**UsageLocation 속성은** 사용자 계정과 연결된 여러 속성 중 하나일 뿐입니다. 특정 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet 및 와일드카드 문자(*)를 사용하세요. 예를 들면 다음과 같습니다.
+**UsageLocation 속성은** 사용자 계정과 연결된 여러 속성 중 하나일 뿐입니다. 특정 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet 및 와일드카드 문자(*)를 사용하세요. 다음은 예입니다.
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com | Select *
@@ -153,7 +153,7 @@ Get-AzureADUser | Where {$_.City -eq "London"}
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="view-all-accounts"></a>모든 계정 보기
 
@@ -179,7 +179,7 @@ AnneWlitwareinc.onmicrosoft.com       Anne Wallace          True
 ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 ```
 
-**Get-msoluser** cmdlet에도 매개 변수 집합이 있어 표시된 사용자 계정 집합을 필터링할 수 있습니다. 예를 들어 허가되지 않은 사용자(Microsoft 365에 추가했지만 서비스를 사용할 수 있는 라이선스가 아직 부여되지 않은 사용자) 목록의 경우 다음 명령을 실행합니다.
+**Get-msoluser** cmdlet에도 매개 변수 집합이 있어 표시된 사용자 계정 집합을 필터링할 수 있습니다. 예를 들어 허가되지 않은 사용자(Microsoft 365 서비스에 대한 사용이 허가되지 않은 사용자)의 목록에서 다음 명령을 실행합니다.
   
 ```powershell
 Get-MsolUser -UnlicensedUsersOnly
@@ -228,7 +228,7 @@ ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 
 ```
 
-*UsageLocation 속성은* 사용자 계정과 연결된 여러 속성 중 하나일 뿐입니다. 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet 및 와일드카드 문자(*)를 사용하여 특정 사용자 계정에 대한 모든 속성을 표시합니다. 예를 들면 다음과 같습니다.
+*UsageLocation 속성은* 사용자 계정과 연결된 여러 속성 중 하나일 뿐입니다. 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet 및 와일드카드 문자(*)를 사용하여 특정 사용자 계정에 대한 모든 속성을 표시합니다. 다음은 예입니다.
   
 ```powershell
 Get-MsolUser -UserPrincipalName BelindaN@litwareinc.onmicosoft.com | Select *
@@ -259,7 +259,7 @@ Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,Block
     
 - isLicensed
     
-사용자가 작업하는 부서, Microsoft 365 서비스를 사용하는 국가/지역 등의 추가 속성이 필요한 경우 **Get-MsolUser를** **Select** cmdlet과 함께 실행하여 사용자 계정 속성 목록을 지정할 수 있습니다. 예를 들면 다음과 같습니다.
+사용자가 작업하는 부서 및 Microsoft 365 서비스를 사용하는 국가/지역과 같은 추가 속성이 필요한 경우 **Get-MsolUser를** **Select** cmdlet과 함께 실행하여 사용자 계정 속성 목록을 지정할 수 있습니다. 다음은 예입니다.
   
 ```powershell
 Get-MsolUser | Select DisplayName, Department, UsageLocation
@@ -284,7 +284,7 @@ Alex Darrow             Sales & Marketing                    US
 Scott Wallace           Operations
 ```
 
-Select  cmdlet을 사용하면 표시할 속성을 선택할 수 있습니다. 특정 사용자 계정에 대한 모든 속성을 표시하려면 와일드카드 문자(*)를 사용하세요. 예를 들면 다음과 같습니다.
+Select  cmdlet을 사용하면 표시할 속성을 선택할 수 있습니다. 특정 사용자 계정에 대한 모든 속성을 표시하려면 와일드카드 문자(*)를 사용하세요. 다음은 예입니다.
   
 ```powershell
 Get-MsolUser -UserPrincipalName BelindaN@litwareinc.onmicosoft.com | Select *
@@ -313,9 +313,9 @@ Brian Johnson
 Scott Wallace            Operations
 ```
 
-디렉터리 동기화를 사용하여 Microsoft 365 사용자를 만들고 관리하는 경우 Microsoft 365 사용자가 프로젝트된 로컬 계정을 표시할 수 있습니다. 다음 예제에서는 다음을 가정합니다.
+디렉터리 동기화를 사용하여 Microsoft 365 사용자를 만들고 관리하는 경우 Microsoft 365 로컬 계정을 표시할 수 있습니다. 다음 예제에서는 다음을 가정합니다.
 
-- Azure AD Connect는 ObjectGUID의 기본 원본 앵커를 사용하도록 구성됩니다. 원본 앵커 구성에 대한 자세한 내용은 [Azure AD Connect: 디자인 개념을 참조하세요.](/azure/active-directory/hybrid/plan-connect-design-concepts)
+- Azure AD 커넥트 ObjectGUID의 기본 원본 앵커를 사용하도록 구성됩니다. 원본 앵커 구성에 대한 자세한 내용은 [Azure AD 커넥트: 디자인 개념을 참조하세요.](/azure/active-directory/hybrid/plan-connect-design-concepts)
 - PowerShell용 Active Directory 도메인 서비스 모듈이 [설치되었습니다(RSAT 도구 참조).](https://www.microsoft.com/en-gb/download/details.aspx?id=45520)
 
 ```powershell

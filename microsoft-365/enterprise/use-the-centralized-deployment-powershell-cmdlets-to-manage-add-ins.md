@@ -19,7 +19,7 @@ f1.keywords:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
-description: 중앙 집중식 배포 PowerShell cmdlet을 사용하여 Microsoft 365 조직에 대한 Office 추가 기능을 배포하고 관리할 수 있습니다.
+description: 중앙 집중식 배포 PowerShell cmdlet을 사용하여 조직에 대한 Office 추가 기능을 배포하고 Microsoft 365 있습니다.
 ms.openlocfilehash: 7872deedfcfe058f0a4ac63c489bbed139699d18
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.locfileid: "50924675"
 ---
 # <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>중앙 집중식 배포 PowerShell cmdlet을 사용하여 추가 기능 관리
 
-Microsoft 365 전역 관리자는 중앙 집중식 배포 기능을 통해 사용자에게 Office 추가 기능을 배포할 수 있습니다(관리 센터에서 [Office](../admin/manage/manage-deployment-of-add-ins.md)추가 기능 배포 참조). Microsoft 365 관리 센터를 통해 Office 추가 기능을 배포하는 것 외에도 Microsoft PowerShell을 사용할 수도 있습니다. 에 대한 [O365](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment)중앙 집중식 Add-In 배포 모듈을 Windows PowerShell. 
+전역 Microsoft 365 중앙 집중식 배포 기능을 통해 Office 추가 기능을 배포할 수 있습니다(관리 센터에서 Office 추가 기능 배포 [참조).](../admin/manage/manage-deployment-of-add-ins.md) Office 추가 기능을 배포하는 Microsoft 365 Microsoft PowerShell을 사용할 수도 있습니다. 에 대한 [O365](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment)중앙 집중식 Add-In 배포 모듈을 Windows PowerShell. 
 
 모듈을 다운로드한 후 일반 Windows PowerShell 열고 다음 cmdlet을 실행합니다.
 
@@ -37,19 +37,19 @@ Microsoft 365 전역 관리자는 중앙 집중식 배포 기능을 통해 사�
  Import-Module -Name O365CentralizedAddInDeployment
 ```
     
-## <a name="connect-using-your-admin-credentials"></a>관리자 자격 증명을 사용하여 연결
+## <a name="connect-using-your-admin-credentials"></a>커넥트 자격 증명 사용
 
 중앙 집중식 배포 cmdlet을 사용하려면 먼저 로그인해야 합니다.
   
 1. PowerShell을 시작 합니다.
     
-2. 회사 관리자 자격 증명을 사용하여 PowerShell에 연결합니다. 다음 cmdlet을 실행합니다.
+2. 커넥트 자격 증명을 사용하여 PowerShell에 연결합니다. 다음 cmdlet을 실행합니다.
     
   ```powershell
   Connect-OrganizationAddInService
   ```
 
-3. 자격 **증명 입력 페이지에서** Microsoft 365 전역 관리자 자격 증명을 입력합니다. 또는 cmdlet에 자격 증명을 직접 입력할 수 있습니다. 
+3. 자격 **증명 입력 페이지에서** 전역 Microsoft 365 자격 증명을 입력합니다. 또는 cmdlet에 자격 증명을 직접 입력할 수 있습니다. 
     
     회사 관리자 자격 증명을 PSCredential 개체로 지정하는 다음 cmdlet을 실행합니다.
     
@@ -60,9 +60,9 @@ Microsoft 365 전역 관리자는 중앙 집중식 배포 기능을 통해 사�
   ```
 
 > [!NOTE]
-> PowerShell 사용에 대한 자세한 내용은 [PowerShell을 사용하여 Microsoft 365에 연결을 참조하세요.](./connect-to-microsoft-365-powershell.md) 
+> PowerShell 사용에 대한 자세한 내용은 PowerShell을 사용하여 커넥트 [Microsoft 365 참조하세요.](./connect-to-microsoft-365-powershell.md) 
   
-## <a name="upload-an-add-in-manifest"></a>추가 기능 매니페스트 업로드
+## <a name="upload-an-add-in-manifest"></a>업로드 매니페스트
 
 **New-OrganizationAdd-In** cmdlet을 실행하여 파일 위치 또는 URL일 수 있는 경로에서 추가 기능 매니페스트를 업로드합니다. 다음 예제에서는  _ManifestPath_ 매개 변수의 값에 대한 파일 위치를 보여 제공합니다. 
   
@@ -76,7 +76,7 @@ New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale '
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US' -Members  'KathyBonner@contoso.com', 'MaxHargrave@contoso.com'
 ```
 
-## <a name="upload-an-add-in-from-the-office-store"></a>Office 스토어에서 추가 기능 업로드
+## <a name="upload-an-add-in-from-the-office-store"></a>업로드 스토어에서 추가 Office 추가 기능
 
 **New-OrganizationAddIn** cmdlet을 실행하여 Office 스토어에서 매니페스트를 업로드합니다.
   
@@ -86,12 +86,12 @@ New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale '
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-_AssetId_ 매개 변수의 값을 확인하기 위해 추가 기능의 Office 스토어 웹 페이지 URL에서 복사하면 됩니다. AssetIds는 항상 "WA"로 시작하고 그 다음에 숫자가 오게 됩니다. 예를 들어 이전 예제에서 AssetId 값 WA104099688의 원본은 추가 기능의 Office 스토어 웹 페이지 [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) URL입니다.
+_AssetId_ 매개 변수의 값을 확인하기 위해 추가 기능의 Store 웹 Office URL에서 복사하면 됩니다. AssetIds는 항상 "WA"로 시작하고 그 다음에 숫자가 오게 됩니다. 예를 들어 이전 예제에서 ASSETId 값 WA104099688의 원본은 추가 기능의 Office Store 웹 페이지 URL입니다. [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688)
   
 _Locale_ 매개 변수 및 _ContentMarket_ 매개 변수의 값은 동일하며 추가 기능을 설치하려는 국가/지역을 나타냅니다. 형식은 en-US, fr-FR입니다. 등입니다. 
   
 > [!NOTE]
-> Office 스토어에서 업로드한 추가 기능의 경우 Office 스토어에서 사용할 수 있는 최신 업데이트가 며칠 내에 자동으로 업데이트됩니다. 
+> Office 스토어에서 업로드한 추가 기능은 Office 스토어에서 사용할 수 있는 최신 업데이트로부터 며칠 내에 자동으로 업데이트됩니다. 
   
 ## <a name="get-details-of-an-add-in"></a>추가 기능 세부 정보 확인
 
@@ -162,7 +162,7 @@ Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -ManifestP
 ```
 
 > [!NOTE]
-> Office 스토어에서 업로드한 추가 기능의 경우 Office 스토어에서 사용할 수 있는 최신 업데이트가 며칠 내에 자동으로 업데이트됩니다. 
+> Office 스토어에서 업로드한 추가 기능은 Office 스토어에서 사용할 수 있는 최신 업데이트로부터 며칠 내에 자동으로 업데이트됩니다. 
   
 ## <a name="delete-an-add-in"></a>추가 기능 삭제
 

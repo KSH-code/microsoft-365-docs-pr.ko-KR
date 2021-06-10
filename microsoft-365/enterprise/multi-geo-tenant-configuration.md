@@ -110,10 +110,10 @@ Azure Active Directory(Azure AD)에는 두 가지 유형의 사용자 개체(클
 
 ## <a name="onedrive-provisioning-and-the-effect-of-pdl"></a>OneDrive 프로비전 및 PDL의 영향
 
-사용자가 이미 테넌트에 OneDrive 사이트를 만든 경우 PDL을 설정해도 기존 OneDrive가 자동으로 이동하지 않습니다. 사용자의 OneDrive를 이동하는 경우 [비즈니스용 OneDrive 지리적 이동을 참조합니다.](move-onedrive-between-geo-locations.md)
+사용자가 이미 테넌트에 OneDrive 사이트를 만든 경우 PDL을 설정해도 기존 OneDrive가 자동으로 이동하지 않습니다. 사용자의 사용자를 이동 OneDrive 지리적 [이동을 비즈니스용 OneDrive 참조합니다.](move-onedrive-between-geo-locations.md)
 
 > [!NOTE]
-> PLD가 변경되고 MailboxRegion이 사서함 데이터베이스 지리적 위치 코드와 더 이상 일치하지 경우 Exchange Online은 사용자 사서함의 위치를 자동으로 다시 지정합니다. 자세한 내용은 [Administering Exchange Online mailboxes in a multi-geo environment를 참조하십시오.](./administering-exchange-online-multi-geo.md)
+> Exchange Online PLD가 변경되고 MailboxRegion이 사서함 데이터베이스 지리적 위치 코드와 더 이상 일치하지 경우 사용자의 사서함이 자동으로 재배치됩니다. 자세한 내용은 [Administering Exchange Online mailboxes in a multi-geo environment를 참조하십시오.](./administering-exchange-online-multi-geo.md)
 
 테넌트 내에 OneDrive 사이트가 없으면 해당 사용자의 PDL가 회사의 위성 위치 중 하나와 일치한다고 가정할 경우 해당 PDL 값에 따라 OneDrive가 프로비전됩니다.
 

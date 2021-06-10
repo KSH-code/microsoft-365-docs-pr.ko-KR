@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Architecture
 - seo-marvel-apr2020
 ms.assetid: 98fc1006-9399-4ff0-a216-c7c05820d822
-description: Microsoft Azure 가상 머신에서 호스팅할 수 있는 SharePoint 2013 솔루션 유형과 호스트할 Azure를 설정하는 방법을 설명합니다.
+description: SharePoint 가상 SharePoint 호스트할 수 있는 Microsoft Azure 솔루션 유형과 호스트할 Azure를 설정하는 방법을 설명합니다.
 ms.openlocfilehash: eed74e2dcbe383f0f63e7f6ea2fc70fe7b51b1b3
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,49 +25,49 @@ ms.locfileid: "50924179"
 ---
 # <a name="microsoft-azure-architectures-for-sharepoint-2013"></a>SharePoint 2013용 Microsoft Azure 아키텍처
 
-Azure는 SharePoint Server 2013 솔루션을 호스팅하기에 좋은 환경입니다. 대부분의 경우 Microsoft 365를 사용하는 것이 좋지만 Azure에서 호스트되는 SharePoint Server 팜은 특정 솔루션에 대한 좋은 옵션일 수 있습니다. 이 문서에서는 Azure 플랫폼에 적합한 SharePoint 솔루션을 설계하는 방법을 설명합니다. 예를 들어 다음과 같은 두 가지 특정 솔루션이 사용됩니다.
+Azure는 SharePoint Server 2013 솔루션을 호스팅하기에 좋은 환경입니다. 대부분의 경우 권장되는 Microsoft 365 Azure에서 호스팅되는 SharePoint 서버 팜은 특정 솔루션에 대한 좋은 옵션일 수 있습니다. 이 문서에서는 Azure 플랫폼에 적합한 SharePoint 솔루션을 설계하는 방법을 설명합니다. 예를 들어 다음과 같은 두 가지 특정 솔루션이 사용됩니다.
   
 - [Microsoft Azure에서 SharePoint Server 2013 재해 복구](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)
     
 - [SharePoint Server 2013을 사용하는 Microsoft Azure의 인터넷 사이트](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
     
-## <a name="recommended-sharepoint-solutions-for-azure-infrastructure-services"></a>Azure 인프라 서비스에 대한 권장 SharePoint 솔루션
+## <a name="recommended-sharepoint-solutions-for-azure-infrastructure-services"></a>Azure 인프라 SharePoint 권장 솔루션
 
-Azure 인프라 서비스는 SharePoint 솔루션을 호스팅하기 위한 좋은 옵션입니다. 일부 솔루션은 다른 솔루션보다 이 플랫폼에 더 잘 맞습니다. 다음 표에서는 권장 해결법을 보여줍니다.
+Azure 인프라 서비스는 클라우드 솔루션을 호스팅하기 위한 SharePoint 옵션입니다. 일부 솔루션은 다른 솔루션보다 이 플랫폼에 더 잘 맞습니다. 다음 표에서는 권장 해결법을 보여줍니다.
   
 |**솔루션**|**Azure에 이 솔루션이 권장되는 이유**|
 |:-----|:-----|
 |개발 및 테스트 환경  <br/> |이러한 환경은 쉽게 만들고 관리할 수 있습니다.  <br/> |
-|Azure로의 사내 SharePoint 팜 재해 복구  <br/> |**호스팅된 보조 데이터 센터** 다른 지역의 보조 데이터 센터에 투자하는 대신 Azure를 사용합니다. <br/> **낮은 비용의 재해 복구 환경** 프레미스 재해 복구 환경보다 적은 수의 리소스를 유지 관리하고 비용을 지불합니다. 리소스 수는 콜드 대기, 웜 대기 또는 핫 대기 중 선택하는 재해 복구 환경에 따라 다를 수 있습니다. <br/> **보다 탄력적인 플랫폼** 재해가 발생하면 부하 요구 사항을 충족하기 위해 복구 SharePoint 팜을 쉽게 수 확장할 수 있습니다. 리소스가 더 이상 필요하지 않습니다. <br/> [Microsoft Azure의 SharePoint Server 2013 재해 복구를 참조하세요.](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)  <br/> |
-|Microsoft 365에서 사용할 수 없는 기능 및 규모를 사용하는 인터넷 연결 사이트  <br/> |**노력에 집중** 인프라를 구축하는 대신 멋진 사이트를 구축하는 데 집중합니다. <br/> **Azure에서 탄력성 활용** 새 서버를 추가하여 수요에 따라 팜의 크기를 설정하고 필요한 리소스만 지불합니다. 동적 컴퓨터 할당은 지원되지 않습니다(자동 크기 조정). <br/> **Azure AD(Active Directory) 사용** 고객 계정에 대해 Azure AD를 활용합니다. <br/> **Microsoft 365에서 사용할** 수 없는 SharePoint 기능 추가 심층 보고 및 웹 분석을 추가합니다. <br/> [SharePoint Server 2013을](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)사용하여 Microsoft Azure의 인터넷 사이트를 참조하세요.  <br/> |
-|Microsoft 365 또는 사내 환경을 지원하기 위한 앱 팜  <br/> |**Azure에서** 앱을 빌드, 테스트 및 호스트하여 사내 환경과 클라우드 환경을 모두 지원합니다. <br/> **Azure에서** 이 역할을 호스트하는 대신, 사내 환경의 새 하드웨어를 구입하세요. <br/> |
+|Azure로의 SharePoint 팜의 재해 복구  <br/> |**호스팅된 보조 데이터 센터** 다른 지역의 보조 데이터 센터에 투자하는 대신 Azure를 사용합니다. <br/> **낮은 비용의 재해 복구 환경** 프레미스 재해 복구 환경보다 적은 수의 리소스를 유지 관리하고 비용을 지불합니다. 리소스 수는 콜드 대기, 웜 대기 또는 핫 대기 중 선택하는 재해 복구 환경에 따라 다를 수 있습니다. <br/> **보다 탄력적인 플랫폼** 재해가 발생하면 팜에서 복구를 SharePoint 요구 사항을 충족할 수 있습니다. 리소스가 더 이상 필요하지 않습니다. <br/> 에서 [SharePoint Server 2013 재해 복구를 Microsoft Azure.](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)  <br/> |
+|기능 및 규모를 사용하는 인터넷 연결 사이트는 사이트에서 사용할 수 Microsoft 365  <br/> |**노력에 집중** 인프라를 구축하는 대신 멋진 사이트를 구축하는 데 집중합니다. <br/> **Azure에서 탄력성 활용** 새 서버를 추가하여 수요에 따라 팜의 크기를 설정하고 필요한 리소스만 지불합니다. 동적 컴퓨터 할당은 지원되지 않습니다(자동 크기 조정). <br/> **AD Azure Active Directory 사용** 고객 계정에 대해 Azure AD를 활용합니다. <br/> **다른 SharePoint 사용할** 수 없는 추가 Microsoft 365 심층 보고 및 웹 분석을 추가합니다. <br/> Microsoft Azure Server [2013을 SharePoint 인터넷 사이트를 참조합니다.](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)  <br/> |
+|앱 또는 Microsoft 365 환경을 지원하기 위한 앱 팜  <br/> |**Azure에서** 앱을 빌드, 테스트 및 호스트하여 사내 환경과 클라우드 환경을 모두 지원합니다. <br/> **Azure에서** 이 역할을 호스트하는 대신, 사내 환경의 새 하드웨어를 구입하세요. <br/> |
    
 인트라넷 및 공동 작업 솔루션 및 워크로드의 경우 다음 옵션을 고려하세요.
   
-- Microsoft 365가 비즈니스 요구 사항을 충족하는지 아니면 솔루션의 일부가 될 수 있는지 확인합니다. Microsoft 365는 항상 최신의 다양한 기능 집합을 제공 합니다.
+- 비즈니스 Microsoft 365 충족하는지 아니면 솔루션의 일부가 될 수 있는지 확인합니다. Microsoft 365 항상 최신으로 유지되는 다양한 기능 집합을 사용할 수 있습니다.
     
-- Microsoft 365가 모든 비즈니스 요구 사항을 충족하지 않는 경우 MCS(Microsoft Consulting Services)에서 SharePoint 2013의 표준 구현을 고려하세요. 표준 아키텍처는 사용자 지정된 아키텍처보다 더 빠르고 저렴한 솔루션이 될 수 있습니다. 
+- 모든 Microsoft 365 충족하지 않는 경우 MCS(Microsoft Consulting Services)에서 SharePoint 2013의 표준 구현을 고려하세요. 표준 아키텍처는 사용자 지정된 아키텍처보다 더 빠르고 저렴한 솔루션이 될 수 있습니다. 
     
 - 표준 구현이 비즈니스 요구 사항을 충족하지 않는 경우 사용자 지정된 사내 솔루션을 고려하세요.
     
-- 비즈니스 요구 사항에 클라우드 플랫폼을 사용하는 것이 중요한 경우 Azure 인프라 서비스에서 호스트된 SharePoint 2013의 표준 또는 사용자 지정 구현을 고려하세요. SharePoint 솔루션은 다른 기본이 아닌 Microsoft 공용 클라우드 플랫폼보다 Azure에서 훨씬 더 쉽게 지원할 수 있습니다.
+- 비즈니스 요구 사항에 클라우드 플랫폼을 사용하는 것이 중요한 경우 Azure 인프라 서비스에서 호스팅되는 SharePoint 2013의 표준 또는 사용자 지정 구현을 고려하세요. SharePoint 솔루션은 다른 기본이 아닌 Microsoft 공용 클라우드 플랫폼보다 Azure에서 훨씬 더 쉽게 지원할 수 있습니다.
     
 ## <a name="before-you-design-the-azure-environment"></a>Azure 환경을 디자인하기 전에
 
-이 문서에서는 예제 SharePoint 토폴로지 를 사용하면서 모든 SharePoint 팜 토폴로지에서 이러한 디자인 개념을 사용할 수 있습니다. Azure 환경을 디자인하기 전에 다음 토폴로지, 아키텍처, 용량 및 성능 지침을 사용하여 SharePoint 팜을 디자인합니다.
+이 문서에서는 예제 SharePoint 토폴로지의 경우 이러한 디자인 개념을 모든 팜 토폴로지에서 사용할 SharePoint 있습니다. Azure 환경을 디자인하기 전에 다음 토폴로지, 아키텍처, 용량 및 성능 지침을 사용하여 SharePoint 팜을 디자인합니다.
   
-- [SharePoint 2013 IT전문가용 아키텍처 디자인](/SharePoint/technical-reference/technical-diagrams)
+- [2013 IT SharePoint 아키텍처 디자인](/SharePoint/technical-reference/technical-diagrams)
     
 - [SharePoint Server 2013에서 성능 및 용량 관리 계획](/SharePoint/administration/performance-planning-in-sharepoint-server-2013)
     
 ## <a name="determine-the-active-directory-domain-type"></a>Active Directory 도메인 유형 확인
 
-각 SharePoint Server 팜은 Active Directory를 통해 팜 설정에 대한 관리 계정을 제공합니다. 현재 Azure에서 SharePoint 솔루션에 대한 두 가지 옵션이 있습니다. 이러한 설명은 다음 표에 설명되어 있습니다.
+각 SharePoint 서버 팜은 Active Directory를 통해 팜 설정에 대한 관리 계정을 제공합니다. 현재 Azure의 여러 솔루션에 SharePoint 옵션이 있습니다. 이는 다음 표에 설명되어 있습니다.
   
 |**옵션**|**설명**|
 |:-----|:-----|
-|전용 도메인  <br/> |SharePoint 팜을 지원하기 위해 Azure에 격리된 전용 Active Directory 도메인을 배포할 수 있습니다. 공용 인터넷 사이트에는 이 선택이 좋습니다.  <br/> |
-|크로스-프레미스 연결을 통해 사내 도메인 확장  <br/> |크로스-프레미스 연결을 통해 프레미스 도메인을 확장하면 사용자는 인트라넷을 통해 SharePoint 팜이 호스트된처럼 SharePoint 팜에 액세스합니다. 프레미스 Active Directory 및 DNS 구현을 활용할 수 있습니다.  <br/> Azure에서 재해 복구 환경을 구축하려면 프레미스 간 연결이 필요합니다.  <br/> |
+|전용 도메인  <br/> |Azure에 격리된 전용 Active Directory 도메인을 배포하여 사용자 팜을 SharePoint 있습니다. 공용 인터넷 사이트에는 이 선택이 좋습니다.  <br/> |
+|크로스-프레미스 연결을 통해 사내 도메인 확장  <br/> |크로스-프레미스 연결을 통해 사내 도메인을 확장하면 사용자는 인트라넷을 통해 호스트된 SharePoint 팜에 액세스합니다. 프레미스 Active Directory 및 DNS 구현을 활용할 수 있습니다.  <br/> Azure에서 재해 복구 환경을 구축하려면 프레미스 간 연결이 필요합니다.  <br/> |
    
 이 문서에는 크로스-프레미스 연결을 통해 사내 도메인을 확장하기 위한 디자인 개념이 포함되어 있습니다. 솔루션에서 전용 도메인을 사용하는 경우 프레미스 간 연결이 필요하지 않습니다.
   
@@ -79,7 +79,7 @@ Azure 인프라 서비스는 SharePoint 솔루션을 호스팅하기 위한 좋�
   
 **그림 1: Azure의 가상 네트워크가 있는 사내 환경**
 
-![SharePoint 솔루션에 대한 Microsoft Azure Virtual Network 디자인입니다. Azure 게이트웨이용 서브넷 1개 가상 컴퓨터용 서브넷 1개](../media/OPrrasconWA-AZarch.png)
+![Microsoft Azure 솔루션에 대한 가상 네트워크 SharePoint 있습니다. Azure 게이트웨이용 서브넷 1개 가상 컴퓨터용 서브넷 1개](../media/OPrrasconWA-AZarch.png)
   
 다음은 이 다이어그램에 대한 설명입니다.
   
@@ -105,17 +105,17 @@ Azure 인프라 서비스는 SharePoint 솔루션을 호스팅하기 위한 좋�
     
 - 사내 환경에는 라우터 또는 VPN 서버와 같은 게이트웨이 장치가 포함됩니다.
     
-크로스-프레미스 가상 네트워크를 계획하고 만드는 자세한 내용은 Microsoft Azure Virtual Network에 사내 네트워크를 [연결을 참조하세요.](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
+프레미스 간 가상 네트워크를 계획하고 만드는 자세한 내용은 커넥트 가상 네트워크에 대한 Microsoft Azure [참조하세요.](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
   
 ## <a name="add-active-directory-domain-services-ad-ds-and-dns"></a>AD DS(Active Directory 도메인 서비스) 및 DNS 추가
 
-Azure의 재해 복구를 위해 Windows Server AD가 사내 및 Azure 가상 컴퓨터 둘 다에 배포되는 하이브리드 시나리오에서 Windows Server AD 및 DNS를 배포합니다.
+Azure의 재해 복구를 위해 Windows Server AD와 DNS를 모두 배포하는 하이브리드 시나리오에서 Windows Server AD를 배포하고 Azure Virtual Machines에 배포합니다.
   
 **그림 3: 하이브리드 Active Directory 도메인 구성**
 
 ![Azure Virtual Network에 배포된 STwo 가상 컴퓨터 및 SharePoint 팜 서브넷은 복제본 도메인 컨트롤러 및 DNS 서버입니다.](../media/AZarch-HyADdomainConfig.png)
   
-이 다이어그램은 Windows Server AD 및 DNS 서브넷에 가상 컴퓨터를 두 개 추가하여 이전 다이어그램을 토대합니다. 이러한 가상 컴퓨터는 복제본 도메인 컨트롤러 및 DNS 서버입니다. 이는 사내 Windows Server AD 환경의 확장입니다. 
+이 다이어그램은 Windows 서버 AD 및 DNS 서브넷에 두 가상 컴퓨터를 추가하여 이전 다이어그램을 토대합니다. 이러한 가상 컴퓨터는 복제본 도메인 컨트롤러 및 DNS 서버입니다. 이는 서버 AD 환경의 Windows 확장입니다. 
   
 다음 표에서는 Azure의 이러한 가상 머신에 대한 구성 권장 사항을 제공합니다. Azure 환경이 프레미스 환경과 통신하지 않는 전용 도메인의 경우에도 사용자 환경을 디자인하기 위한 시작점으로 사용할 수 있습니다.
   
@@ -129,21 +129,21 @@ Azure의 재해 복구를 위해 Windows Server AD가 사내 및 Azure 가상 �
 |IP 주소  <br/> |고정 IP 주소를 사용하여 도메인 컨트롤러가 구성된 후 가상 네트워크의 가상 머신에 이러한 주소를 할당하도록 가상 네트워크를 구성합니다.  <br/> |
    
 > [!IMPORTANT]
-> Azure에서 Active Directory를 배포하기 전에 [Azure 가상 머신에 Windows Server Active Directory 배포에](/windows-server/identity/ad-ds/introduction-to-active-directory-domain-services-ad-ds-virtualization-level-100)대한 지침을 읽어야 합니다. 이러한 설정은 솔루션에 다른 아키텍처 또는 다른 구성 설정이 필요한지 여부를 결정하는 데 도움이 됩니다. 
+> Azure에서 Active Directory를 배포하기 전에 Azure 가상 컴퓨터의 Windows Server Active Directory 배포에 대한 [지침을 읽어야 합니다.](/windows-server/identity/ad-ds/introduction-to-active-directory-domain-services-ad-ds-virtualization-level-100) 이러한 설정은 솔루션에 다른 아키텍처 또는 다른 구성 설정이 필요한지 여부를 결정하는 데 도움이 됩니다. 
   
-## <a name="add-the-sharepoint-farm"></a>SharePoint 팜 추가
+## <a name="add-the-sharepoint-farm"></a>팜 SharePoint 추가
 
-적절한 서브넷의 계층에 SharePoint 팜의 가상 컴퓨터를 2007년 10월에 두면 됩니다.
+적절한 서브넷의 SharePoint 팜의 가상 컴퓨터를 계층에 두습니다.
   
-**그림 4: SharePoint 가상 컴퓨터 배치**
+**그림 4: 가상 SharePoint 배치**
 
-![SharePoint 팜 서브넷 내의 Azure Virtual Network에 추가된 데이터베이스 서버 및 SharePoint 서버 역할](../media/AZarch-SPVMsinCloudSer.png)
+![데이터베이스 서버 및 SharePoint 팜 서브넷 내의 Azure Virtual Network에 추가된 SharePoint 서버 역할](../media/AZarch-SPVMsinCloudSer.png)
   
 이 다이어그램은 각 계층에 SharePoint 팜 서버 역할을 추가하여 이전 다이어그램을 작성합니다.
   
-- 두 개의 데이터베이스 가상 SQL Server 계층을 만듭니다.
+- 실행 중인 두 데이터베이스 가상 SQL Server 계층을 만듭니다.
     
-- 프런트 엔드 서버, 분산 캐시 서버 및 백 엔드 서버의 각 계층에 대해 SharePoint Server 2013을 실행하는 가상 컴퓨터 2대.
+- 프런트 엔드 서버SharePoint 분산 캐시 서버 및 백 엔드 서버 등 각 계층에 대해 SharePoint Server 2013을 실행하는 가상 컴퓨터 2대.
     
 ## <a name="design-and-fine-tune-server-roles-for-availability-sets-and-fault-domains"></a>가용성 집합 및 장애 도메인에 대한 서버 역할 디자인 및 미세 조정
 
@@ -167,13 +167,13 @@ SharePoint 팜에 대해 Azure 아키텍처를 디자인할 때 가용성 집합
     
 - 프런트 엔드
     
-Azure 플랫폼에서 SharePoint 팜을 미세 조정해야 할 수 있습니다. 모든 구성 요소의 고가용성을 보장하기 위해 서버 역할이 모두 동일하게 구성되어 있는지 확인합니다.
+Azure SharePoint 팜을 세부적으로 조정해야 할 수 있습니다. 모든 구성 요소의 고가용성을 보장하기 위해 서버 역할이 모두 동일하게 구성되어 있는지 확인합니다.
   
-다음은 특정 용량 및 성능 목표를 충족하는 표준 인터넷 사이트 아키텍처를 보여 주는 예제입니다. 이 예제는 Internet Sites Search [Architectures for SharePoint Server 2013 아키텍처 모델에 설명됩니다.](https://go.microsoft.com/fwlink/p/?LinkId=261519)
+다음은 특정 용량 및 성능 목표를 충족하는 표준 인터넷 사이트 아키텍처를 보여 주는 예제입니다. 이 예제는 SharePoint [Server 2013용 인터넷 사이트 검색 아키텍처](https://go.microsoft.com/fwlink/p/?LinkId=261519)아키텍처의 아키텍처 모델에 설명되어 있습니다.
   
 **그림 6: 3계층 팜의 용량 및 성능 목표 계획 예제**
 
-![특정 용량 및 성능 목표를 충족하는 구성 요소 할당이 있는 표준 SharePoint 2013 인터넷 사이트 아키텍처](../media/AZarch-CapPerfexmpArch.png)
+![특정 용량 SharePoint 성능 목표를 충족하는 구성 요소 할당이 있는 Standard SharePoint 2013 인터넷 사이트 아키텍처](../media/AZarch-CapPerfexmpArch.png)
   
 다음은 이 다이어그램에 대한 설명입니다.
   
@@ -189,7 +189,7 @@ Azure 플랫폼에서 SharePoint 팜을 미세 조정해야 할 수 있습니다
   
 **그림 7: 미세 조정 전 응용 프로그램 서버 계층**
 
-![Microsoft Azure 가용성 집합을 조정하기 전에 SharePoint Server 2013 응용 프로그램 서버 계층 예](../media/AZarch-AppServtierBefore.png)
+![가용성 SharePoint 조정하기 전에 Server 2013 응용 프로그램 Microsoft Azure 예제](../media/AZarch-AppServtierBefore.png)
   
 다음은 이 다이어그램에 대한 설명입니다.
   
@@ -205,17 +205,17 @@ Azure 플랫폼에서 SharePoint 팜을 미세 조정해야 할 수 있습니다
   
 **그림 8: 미세 조정 후 응용 프로그램 서버 계층**
 
-![Microsoft Azure 가용성 집합을 조정한 후의 예제 SharePoint Server 2013 응용 프로그램 서버 계층](../media/AZarch-AppServtierAfter.png)
+![SharePoint 가용성 집합에 대한 조정 후 서버 2013 응용 Microsoft Azure 예제](../media/AZarch-AppServtierAfter.png)
   
 이 다이어그램은 동일한 4개의 구성 요소로 동일하게 구성된 3개의 응용 프로그램 서버를 모두 보여줍니다.
   
-SharePoint 팜의 계층에 가용성 집합을 추가하면 구현이 완료됩니다.
+가용성 집합을 SharePoint 팜의 계층에 추가하면 구현이 완료됩니다.
   
-**그림 9: Azure 인프라 서비스의 완료된 SharePoint 팜**
+**그림 9: Azure 인프라 SharePoint 완료된 팜**
 
-![가상 네트워크, 프레미스 간 연결, 서브넷, VM 및 가용성 집합이 있는 Azure 인프라 서비스의 예제 SharePoint 2013 팜](../media/7256292f-bf11-485b-8917-41ba206153ee.png)
+![예제 SharePoint, 크로스-프레미스 연결, 서브넷, VM 및 가용성 집합이 있는 Azure 인프라 서비스의 2013 팜 예제](../media/7256292f-bf11-485b-8917-41ba206153ee.png)
   
-이 다이어그램은 Azure 인프라 서비스에서 구현된 SharePoint 팜을 보여 주며, 각 계층의 서버에 장애 도메인을 제공하기 위한 가용성 집합을 제공합니다.
+이 다이어그램은 Azure 인프라 서비스에서 SharePoint 팜을 보여 주며, 가용성 집합을 통해 각 계층의 서버에 장애 도메인을 제공합니다.
   
 ## <a name="see-also"></a>참고 항목
 

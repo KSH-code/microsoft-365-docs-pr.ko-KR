@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender의 고급 헌팅 쿼리 결과에 대한 작업 수행
+title: Defender에서 고급 헌팅 쿼리 결과에 Microsoft 365 수행
 description: 고급 헌팅 쿼리 결과에서 위협 및 영향을 받는 자산을 빠르게 해결
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, Microsoft 365, m365, 검색, 쿼리, 원격 분석, 작업 수행
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 작업 수행
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -43,10 +43,10 @@ ms.locfileid: "51952611"
 - 디바이스에서 다양한 작업 수행
 - 파일 Quarantine files
 
-## <a name="required-permissions"></a>필요한 사용 권한
+## <a name="required-permissions"></a>필수 권한
 고급 헌팅을 통해 조치를 취하려면 장치에서 수정 작업을 제출할 수 있는 권한이 있는 끝점용 Microsoft [Defender의 역할이 필요합니다.](/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options) 조치를 취할 수 없는 경우 전역 관리자에게 문의하여 다음 권한을 부여합니다.
 
-*위협 및 > 관리에 대한 활성 수정 작업 - 수정 처리*
+*위협 및 > 조치 취약성 관리 - 수정 처리*
 
 ## <a name="take-various-actions-on-devices"></a>디바이스에서 다양한 작업 수행
 쿼리 결과의 열로 식별된 장치에 대해 다음 `DeviceId` 작업을 수행할 수 있습니다.
@@ -81,7 +81,7 @@ ms.locfileid: "51952611"
 각 작업은 각각 동작 센터 [](m365d-action-center.md) 기록( 또는 )의 security.microsoft.com/action-center/history  >   기록됩니다.[](https://security.microsoft.com/action-center/history) 작업 센터로 이동하여 각 작업의 상태를 검사합니다.
  
 >[!NOTE]
->이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Microsoft 365 Defender를 켜서](m365d-enable.md) 더 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 Microsoft Defender의 고급 헌팅 쿼리 마이그레이션의 단계에 따라 끝점용 [Microsoft Defender에서 Microsoft](advanced-hunting-migrate-from-mde.md)365 Defender로 고급 헌팅 워크플로를 이동할 수 있습니다.
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

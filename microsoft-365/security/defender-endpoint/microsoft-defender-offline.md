@@ -142,4 +142,4 @@ Microsoft Defender 오프라인 검사 결과가 앱의 검사 기록 [섹션에
 ## <a name="related-articles"></a>관련 문서
 
 - [검사 및 수정 결과 사용자 지정, 시작 및 검토](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender에 대한 고급 헌팅에서 오류 처리
+title: Defender에 대한 고급 헌팅에서 Microsoft 365 처리
 description: 고급 헌팅을 사용할 때 표시되는 오류 이해
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema, kusto, 시간 제한, 리소스, 오류, 알 수 없는 오류, 제한, 할당량, 매개 변수, 할당
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema, kusto, 시간 제한, 리소스, 오류, 알 수 없는 오류, 제한, 할당량, 매개 변수, 할당량
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security

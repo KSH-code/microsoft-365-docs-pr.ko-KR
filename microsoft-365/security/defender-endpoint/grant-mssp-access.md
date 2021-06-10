@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 320355f838db5dbb1540350e95e4cc0645acd805
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 311903cdd1409f4ab997641cc842ff199ce2500d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932754"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843109"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>MSSP(관리되는 보안 서비스 공급자) 액세스 권한 부여(미리 보기)
 
@@ -41,9 +41,9 @@ ms.locfileid: "51932754"
 
 1. [끝점용](rbac.md) Defender에서 역할 기반 액세스 제어를 사용하도록 설정하고 AD(Active Directory) 그룹과 연결합니다.
 
-2. 액세스 [요청 및 프로비저닝을 위해](https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview) 거버넌스 액세스 패키지를 구성합니다.
+2. 액세스 [요청 및 프로비저닝을 위해](/azure/active-directory/governance/identity-governance-overview) 거버넌스 액세스 패키지를 구성합니다.
 
-3. Microsoft Myaccess에서 액세스 요청 및 [감사를 관리합니다.](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-request-approve)
+3. Microsoft Myaccess에서 액세스 요청 및 [감사를 관리합니다.](/azure/active-directory/governance/entitlement-management-request-approve)
 
 ## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 역할 기반 액세스 제어 사용
 
@@ -58,7 +58,7 @@ ms.locfileid: "51932754"
 
 2. Endpoint용 Customer Defender에서 적절한 액세스 수준에 대한 끝점 역할에 대한 Defender를 생성합니다.
 
-    고객 Microsoft Defender 보안 센터에서 RBAC를 사용하도록 설정하려면 전역 관리자 또는 보안 관리자 권한이 **>** 사용자 계정에서 > 권한 > 역할 및 "역할 켜기"에 액세스합니다.
+    고객 서비스에서 RBAC를 사용하도록 Microsoft Defender 보안 센터  전역 관리자 또는 보안 관리자 권한이 > 사용자 계정에서 설정 > 권한 및 "역할 켜기"에 액세스합니다.
 
     ![MSSP 액세스 이미지](images/mssp-access.png)
 
@@ -92,7 +92,7 @@ ms.locfileid: "51932754"
 
     ![새 카탈로그의 이미지](images/goverance-catalog.png)
 
-    자세한 내용은 리소스 카탈로그 [만들기를 참조하세요.](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-catalog-create)
+    자세한 내용은 리소스 카탈로그 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-catalog-create)
 
 
 3. **MSSP 리소스 고객 AAD: ID 거버넌스에 대한 액세스 패키지 만들기**
@@ -109,7 +109,7 @@ ms.locfileid: "51932754"
     > [!div class="mx-imgBorder"]
     > ![새 액세스 패키지의 이미지](images/new-access-package.png)
 
-    자세한 내용은 새 액세스 패키지 [만들기를 참조하세요.](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-access-package-create)
+    자세한 내용은 새 액세스 패키지 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-access-package-create)
 
 
 4. **고객 AAD에서 MSSP 리소스에 대한 액세스 요청 링크 제공: ID 거버넌스**
@@ -132,7 +132,7 @@ ms.locfileid: "51932754"
     예:  `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`   
 2. UI의 승인 섹션에서  요청을 승인하거나 거부합니다.
 
-    이때 분석가 액세스가 프로비전되고 각 분석가가 고객의 Microsoft Defender 보안 센터에 액세스할 수 있습니다. `https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
+    이 시점에서 분석가 액세스가 프로비전되고 각 분석가가 고객의 앱에 액세스할 수 Microsoft Defender 보안 센터.`https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
 
 ## <a name="related-topics"></a>관련 항목
 - [MSSP 고객 포털에 액세스](access-mssp-portal.md)

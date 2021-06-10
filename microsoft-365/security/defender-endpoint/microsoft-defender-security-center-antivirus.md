@@ -48,7 +48,7 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 
 ## <a name="review-virus-and-threat-protection-settings-in-the-windows-security-app"></a>앱의 바이러스 및 위협 방지 Windows 보안 검토
 
-![& 앱의 바이러스 & 보호 설정 레이블의 Windows 보안 스크린샷](images/defender/wdav-protection-settings-wdsc.png)
+![Windows 보안 앱의 바이러스 및 위협 방지 설정 레이블 스크린샷](images/defender/wdav-protection-settings-wdsc.png)
 
 1. 작업 표시줄에서 방패 아이콘을 클릭하거나 **Defender의** 시작 메뉴를 검색하여 Windows 보안 앱을 열 수 있습니다.
 
@@ -57,7 +57,7 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 다음 섹션에서는 Microsoft Defender 바이러스 백신 앱에서 제공하는 위협 방지를 검토하거나 상호 작용할 때 가장 일반적인 몇 가지 작업을 Windows 보안 설명합니다.
 
 > [!NOTE]
-> 그룹 정책을 사용하여 이러한 설정을 구성하고 배포하는 경우 이 섹션에 설명된 설정은 회색으로 표시됩니다. 개별 끝점에서 사용할 수 없습니다. 그룹 정책 개체를 통해 변경한 내용은 먼저 개별 끝점에 배포해야 설정이 Windows 설정. Configure [end-user interaction with Microsoft Defender 바이러스 백신](configure-end-user-interaction-microsoft-defender-antivirus.md) 항목에서는 로컬 정책 Microsoft Defender 바이러스 백신 구성할 수 있는 방법에 대해 설명합니다.
+> 그룹 정책을 사용하여 이러한 설정을 구성하고 배포하는 경우 이 섹션에 설명된 설정은 회색으로 표시됩니다. 개별 끝점에서 사용할 수 없습니다. 설정이 Windows 설정에서 업데이트되기 전에 먼저 그룹 정책 개체를 통해 수행한 변경을 개별 엔드포인트에 배포해야 합니다. Configure [end-user interaction with Microsoft Defender 바이러스 백신](configure-end-user-interaction-microsoft-defender-antivirus.md) 항목에서는 로컬 정책 Microsoft Defender 바이러스 백신 구성할 수 있는 방법에 대해 설명합니다.
 
 ## <a name="run-a-scan-with-the-windows-security-app"></a>앱과 함께 Windows 보안 실행
 

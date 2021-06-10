@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에서 디렉터리 동기화 상태 보기
+title: 디렉터리 동기화 상태는 Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -20,7 +20,7 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 18be3b98-34ae-47be-9337-ab6c3fb372ac
-description: 이 문서에서는 Office 365에서 디렉터리 동기화 상태를 확인할 수 있는 방법을 알아보십시오.
+description: 이 문서에서는 디렉터리 동기화의 상태를 검사하는 방법을 Office 365.
 ms.openlocfilehash: cbaae8bbd31f6124c2b0f4984b9a625ffbde538f
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -28,20 +28,20 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50924663"
 ---
-# <a name="view-directory-synchronization-status-in-microsoft-365"></a>Microsoft 365에서 디렉터리 동기화 상태 보기
+# <a name="view-directory-synchronization-status-in-microsoft-365"></a>디렉터리 동기화 상태는 Microsoft 365
 
-Microsoft 365와 사내 환경을 동기화하여 AD DS(Active Directory 도메인 서비스)를 Azure AD(Azure Active Directory)와 통합한 경우 동기화 상태를 확인할 수도 있습니다.
+Azure Active Directory 환경을 Azure AD(Active Directory Domain Services)와 동기화하여 Microsoft 365 AD DS(Active Directory 도메인 서비스)를 통합한 경우 동기화 상태를 확인할 수도 있습니다.
   
 ## <a name="view-directory-synchronization-status"></a>디렉터리 동기화 상태 보기
 
-- [Microsoft 365](https://admin.microsoft.com) 관리 센터에 로그인하고 홈 페이지에서 **DirSync** 상태를 선택합니다.
+- Microsoft 365 관리 센터에 [로그인하고](https://admin.microsoft.com) 홈 페이지에서 **DirSync** 상태를 선택합니다.
 - 또는 사용자 활성 **사용자로** 이동하여 활성 사용자 페이지에서 더 많은 디렉터리 동기화 \>    \> **를 선택합니다.** 디렉터리 **동기화 창에서** **DirSync 관리로 이동을 선택하십시오.**
 
 ## <a name="information-on-the-manage-directory-synchronization-page"></a>디렉터리 동기화 관리 페이지에 대한 정보
 
 다음 표에는 페이지에서 정보를 얻을 수 있는 기능이 나열됩니다.
   
-디렉터리 동기화에 문제가 있는 경우 이 페이지에도 오류가 나열됩니다. 발생할 수 있는 여러 오류에 대한 자세한 내용은 [Microsoft 365에서](identify-directory-synchronization-errors.md)디렉터리 동기화 오류 식별을 참조하세요.
+디렉터리 동기화에 문제가 있는 경우 이 페이지에도 오류가 나열됩니다. 발생할 수 있는 여러 오류에 대한 자세한 내용은 에서 디렉터리 동기화 오류 [식별을 Microsoft 365.](identify-directory-synchronization-errors.md)
   
 |항목|용도|
 |:-----|:-----|
@@ -49,10 +49,10 @@ Microsoft 365와 사내 환경을 동기화하여 AD DS(Active Directory 도메�
 |**도메인이 확인되지 않습니다.** | 추가했지만 확인되지 않은 도메인입니다. |
 |**디렉터리 동기화 사용** |True 또는 False입니다. 디렉터리 동기화를 사용하도록 설정하는지 여부를 지정합니다. |
 |**최신 디렉터리 동기화** | 디렉터리 동기화를 마지막으로 시작한 시간입니다. 마지막 동기화가 3일이 지난 경우 경고와 문제 해결 도구에 대한 링크가 표시됩니다. |
-|**암호 동기화 사용** | True 또는 False입니다. Microsoft의 사내 테넌트와 Microsoft 365 테넌트 간에 암호 해시 동기화가 있는지 여부를 지정합니다. |
+|**암호 동기화 사용** | True 또는 False입니다. 당사의 사내 테넌트와 사용자 테넌트 간에 암호 해시 동기화가 Microsoft 365 지정합니다. |
 |**마지막 암호 동기화** | 암호 해시 동기화가 마지막으로 시작된 시간입니다. 마지막 동기화가 3일이 지난 경우 경고와 문제 해결 도구에 대한 링크가 표시됩니다. |
-|**디렉터리 동기화 클라이언트 버전** | 새 버전의 Azure AD Connect가 릴리스된 경우 다운로드 링크가 포함되어 있습니다. |
-|**디렉터리 동기화 서비스 계정** | Microsoft 365 디렉터리 동기화 서비스 계정의 이름을 나타냅니다. |
+|**디렉터리 동기화 클라이언트 버전** | 새 버전의 Azure AD 계정이 릴리스된 경우 커넥트 링크가 포함되어 있습니다. |
+|**디렉터리 동기화 서비스 계정** | 디렉터리 동기화 서비스 Microsoft 365 이름을 나타냅니다. |
 |||
 
 ## <a name="monitor-synchronization-health"></a>동기화 상태 모니터링

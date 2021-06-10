@@ -1,5 +1,5 @@
 ---
-title: 끝점에 대한 Microsoft Defender 평가
+title: 엔드포인트용 Microsoft Defender 평가
 ms.reviewer: ''
 description: 끝점용 Microsoft Defender의 다양한 보안 기능을 평가합니다.
 keywords: 공격 표면 감소, 평가, 다음, 생성, 보호
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d13f13872954978a14454d8f3c0e66970606bd21
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: e7f065c5f42b62885c3c0fde7b402490f86ec2ba
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218800"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843201"
 ---
-# <a name="evaluate-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender 평가 
+# <a name="evaluate-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender 평가 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -48,14 +48,14 @@ ms.locfileid: "51218800"
 - [Exploit Protection 평가](./evaluate-exploit-protection.md)
 - [네트워크 보호 평가](./evaluate-exploit-protection.md)
 - [제어된 폴더 액세스 평가](./evaluate-controlled-folder-access.md)
-- [응용 프로그램 보호 평가](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/test-scenarios-md-app-guard)
-- [네트워크 방화벽 평가](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/evaluating-windows-firewall-with-advanced-security-design-examples)
+- [응용 프로그램 보호 평가](/windows/security/threat-protection/microsoft-defender-application-guard/test-scenarios-md-app-guard)
+- [네트워크 방화벽 평가](/windows/security/threat-protection/windows-firewall/evaluating-windows-firewall-with-advanced-security-design-examples)
 
 ## <a name="evaluate-next-generation-protection"></a>차세대 보호 평가
 
 차세대 보호는 최신 위협을 감지하고 차단하는 데 도움이 됩니다.
 
-- [바이러스 백신 평가](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus)
+- [바이러스 백신 평가](/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus)
 
 ## <a name="see-also"></a>참고 항목
 
