@@ -13,7 +13,7 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
-description: '요약: Microsoft 365에 대한 고가용성 페더전 인증을 호스트하도록 Microsoft Azure 인프라를 구성합니다.'
+description: '요약: Microsoft Azure 대해 고가용성 페더러스트 인증을 호스트하도록 Microsoft 365.'
 ms.openlocfilehash: 7f9a935648fedd2c6235c443f7398f97c0a06e06
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "50929111"
 ---
 # <a name="high-availability-federated-authentication-phase-1-configure-azure"></a>고가용성 페더레이션 인증 1단계: Azure 구성
 
-이 단계에서는 2, 3, 4단계에서 가상 컴퓨터를 호스트할 리소스 그룹, VNet(가상 네트워크) 및 가용성 집합을 Azure에 생성합니다. 2단계: 도메인 컨트롤러 구성으로 이동하기 전에 이 단계를 [완료해야 합니다.](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) 모든 [단계는 Azure에서 Microsoft 365에](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 대한 고가용성 페더타 인증 배포를 참조하세요.
+이 단계에서는 2, 3, 4단계에서 가상 컴퓨터를 호스트할 리소스 그룹, VNet(가상 네트워크) 및 가용성 집합을 Azure에 생성합니다. 2단계: 도메인 컨트롤러 구성으로 이동하기 전에 이 단계를 [완료해야 합니다.](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) 모든 [단계는 Azure에서](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 고가용성 Microsoft 365 인증 배포를 참조하세요.
   
 Azure는 다음 기본 구성 요소로 프로비전되어야 합니다.
   
@@ -106,10 +106,10 @@ IT 부서에서 가상 네트워크 주소 공간의 이러한 주소 공간을 
    
  **테이블 L: 로컬 네트워크의 주소 접두사**
   
-이제 Azure 인프라를 구축하여 Microsoft 365에 대한 페더맹 인증을 호스트합니다.
+이제 Azure 인프라를 구축하여 사용자에 대한 페더니트 인증을 호스트할 Microsoft 365.
   
 > [!NOTE]
-> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell 시작을 참조하세요.](/powershell/azure/get-started-azureps) 
+> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. 에서 [시작을 Azure PowerShell.](/powershell/azure/get-started-azureps) 
   
 먼저 Azure PowerShell 프롬프트를 시작하고 계정에 로그인합니다.
   
@@ -118,7 +118,7 @@ Connect-AzAccount
 ```
 
 > [!TIP]
-> 사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 Microsoft Excel 구성 통합 문서 [를 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> 사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 구성 통합 [Microsoft Excel 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 다음 명령을 사용하여 구독 이름을 가져옵니다.
   
@@ -126,13 +126,13 @@ Connect-AzAccount
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-이전 버전의 Azure PowerShell의 경우 이 명령을 대신 사용합니다.
+이전 버전의 Azure PowerShell 이 명령을 대신 사용합니다.
   
 ```powershell
 Get-AzSubscription | Sort Name | Select SubscriptionName
 ```
 
-Azure 구독을 설정합니다. 문자를 포함하여 따옴표 안에 있는 모든 것을 올바른 \< and > 이름으로 바칭합니다.
+Azure 구독을 설정합니다. \< and > 문자를 포함하여 따옴표 안에 있는 모든 것을 올바른 이름으로 바꿉니다.
   
 ```powershell
 $subscrName="<subscription name>"
@@ -159,25 +159,25 @@ Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 이러한 명령을 사용하여 새 리소스 그룹을 만듭니다.
   
 ```powershell
-$locName="<an Azure location, such as West US>"
-$rgName="<Table R - Item 1 - Name column>"
+$locName="<an Azure location, such as West US>&quot;
+$rgName=&quot;<Table R - Item 1 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 2 - Name column>"
+$rgName=&quot;<Table R - Item 2 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 3 - Name column>"
+$rgName=&quot;<Table R - Item 3 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 4 - Name column>"
+$rgName=&quot;<Table R - Item 4 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
 다음으로 Azure Virtual Network 및 해당 서브넷을 생성합니다.
   
 ```powershell
-$rgName="<Table R - Item 4 - Resource group name column>"
-$locName="<your Azure location>"
-$vnetName="<Table V - Item 1 - Value column>"
-$vnetAddrPrefix="<Table V - Item 4 - Value column>"
-$dnsServers=@( "<Table D - Item 1 - DNS server IP address column>", "<Table D - Item 2 - DNS server IP address column>" )
+$rgName=&quot;<Table R - Item 4 - Resource group name column>&quot;
+$locName=&quot;<your Azure location>&quot;
+$vnetName=&quot;<Table V - Item 1 - Value column>&quot;
+$vnetAddrPrefix=&quot;<Table V - Item 4 - Value column>&quot;
+$dnsServers=@( &quot;<Table D - Item 1 - DNS server IP address column>&quot;, &quot;<Table D - Item 2 - DNS server IP address column>" )
 # Get the shortened version of the location
 $locShortName=(Get-AzResourceGroup -Name $rgName).Location
 
@@ -283,7 +283,7 @@ Get-AzPublicIpAddress -Name $publicGatewayVipName -ResourceGroupName $rgName
   
 2, 3 및 4단계에서 가상 컴퓨터를 만들 때 이러한 이름이 필요합니다.
   
-다음 Azure PowerShell 명령을 사용하여 새 가용성 집합을 만들 수 있습니다.
+이러한 명령으로 새 가용성 Azure PowerShell 만들 수 있습니다.
   
 ```powershell
 $locName="<the Azure location for your new resource group>"
@@ -300,9 +300,9 @@ New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locNam
 
 이 단계를 성공적으로 완료하면 다음 구성을 얻을 수 있습니다.
   
-**1단계: Microsoft 365에 대한 고가용성 페더전 인증을 위한 Azure 인프라**
+**1단계: 클라이언트용 고가용성 페더맹 인증을 위한 Azure Microsoft 365**
 
-![Azure 인프라를 사용하는 Azure의 고가용성 Microsoft 365 페더타이트 인증 1단계](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
+![Azure 인프라를 Microsoft 365 Azure의 고가용성 인증 1단계](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
   
 ## <a name="next-step"></a>다음 단계
 
@@ -312,8 +312,8 @@ New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locNam
 
 [Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Microsoft 365 개발/테스트 환경에 대한 페더러티드 ID](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Microsoft 365/테스트 환경에 대한 페더티드 ID](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 [Microsoft 365 솔루션 및 아키텍처 센터](../solutions/index.yml)
 
-[Microsoft 365 ID 및 Azure Active Directory 이해](about-microsoft-365-identity.md)
+[ID Microsoft 365 및 Azure Active Directory](about-microsoft-365-identity.md)

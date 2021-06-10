@@ -16,7 +16,7 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: fce71911-5c54-455d-b937-1b5a0b674620
-description: Microsoft 365의 성능을 개선하는 방법을 알려 주며 교육 과정, 블로그, 문서 및 기타 리소스에 대한 링크입니다.
+description: 교육 과정, 블로그, 문서 및 기타 리소스로 연결되는 링크로 연결하여 교육 과정의 성능을 Microsoft 365.
 ms.openlocfilehash: 6e6e224eb1f08effeae6c6189f61699834897172
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -26,12 +26,12 @@ ms.locfileid: "50909349"
 ---
 # <a name="tune-microsoft-365-performance"></a>Microsoft 365 성능 조정
 
-이 문서는 Microsoft 365의 성능을 개선하는 방법을 알려 주며 교육 과정, 블로그, 문서 및 기타 리소스로 연결됩니다.
+이 문서는 교육 과정, 블로그, 문서 및 기타 리소스로 연결하여 교육 과정의 성능을 개선하는 방법을 Microsoft 365.
   
-이 문서는 [Microsoft 365 프로젝트에](./network-planning-and-performance.md) 대한 네트워크 계획 및 성능 조정의 일부입니다.
+이 문서는 프로젝트의 네트워크 계획 및 성능 [Microsoft 365](./network-planning-and-performance.md) 중입니다.
    
-## <a name="articles-about-fine-tuning-microsoft-365-and-office-365-performance"></a>Microsoft 365 및 Office 365 성능 미세 조정에 대한 문서
+## <a name="articles-about-fine-tuning-microsoft-365-and-office-365-performance"></a>성능 및 성능 Microsoft 365 조정에 Office 365 문서
 
-Paul Collinge의 [Office 365](/archive/blogs/onthewire/top-10-tips-for-optimising-troubleshooting-your-office-365-network-connectivity) 네트워크 연결 최적화 및 문제 해결을 위한 상위 10개 팁을 살펴보세요. 
+Paul Collinge의 네트워크 연결 최적화 및 문제 해결을 위한 Office 365 [10개](/archive/blogs/onthewire/top-10-tips-for-optimising-troubleshooting-your-office-365-network-connectivity) 팁을 살펴보세요. 
   
-Microsoft 365에서 네트워크 주소 변환을 사용하는 데 대한 자세한 내용은 [Microsoft 365에서 NAT 지원을 참조하세요.](nat-support-with-microsoft-365.md)
+네트워크 주소 변환과 함께 네트워크 주소 Microsoft 365 자세한 내용은 에서 [NAT 지원을 Microsoft 365.](nat-support-with-microsoft-365.md)

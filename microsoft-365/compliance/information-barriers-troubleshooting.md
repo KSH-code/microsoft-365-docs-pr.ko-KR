@@ -29,13 +29,13 @@ ms.locfileid: "50928008"
 > [!IMPORTANT]
 > 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise 전역 관리자<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 준수 관리(새로운 역할입니다!)<p>정보 장벽의 선행 준비에 대한 자세한 내용은 [Prerequisites (for information barrier policies)을 참조하십시오.](information-barriers-policies.md#prerequisites)<p>보안 및 준수 [센터 PowerShell & 에 연결해야 합니다.](/powershell/exchange/connect-to-scc-powershell)
 
-## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>문제: 사용자가 예기치 않게 Microsoft Teams의 다른 사용자와 통신하지 못하게 차단됩니다. 
+## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>문제: 사용자가 예기치 않게 사용자의 다른 사용자와 통신하지 못하게 Microsoft Teams 
 
-이 경우 Microsoft Teams의 다른 사용자와 통신하는 예기치 않은 문제를 보고합니다. 예를 들면 다음과 같습니다.
+이 경우 다른 사용자와 통신하는 예기치 않은 문제를 보고하는 Microsoft Teams. 예를 들면 다음과 같습니다.
 
-- 사용자가 Microsoft Teams에서 다른 사용자를 검색하지만 찾을 수 없습니다.
-- 사용자는 Microsoft Teams에서 다른 사용자를 찾을 수 있지만 선택할 수는 없습니다.
-- 사용자는 다른 사용자를 볼 수 있지만 Microsoft Teams의 다른 사용자에게 메시지를 보낼 수는 없습니다.
+- 사용자가 검색을 했지만 검색할 수 없는 경우 해당 사용자의 다른 사용자를 Microsoft Teams.
+- 사용자가 검색할 수 있지만 선택할 수 없는 경우 해당 사용자에 있는 다른 사용자를 Microsoft Teams.
+- 사용자는 다른 사용자를 볼 수는 있지만 다른 사용자의 다른 사용자에게 메시지를 보낼 수는 Microsoft Teams.
 
 ### <a name="what-to-do"></a>수행할 작업
 
@@ -79,9 +79,9 @@ ms.locfileid: "50928008"
 
     정보 장벽 정책에 여전히 문제가 있는 경우 **고객 지원에 문의하세요.**
 
-## <a name="issue-communications-are-allowed-between-users-who-should-be-blocked-in-microsoft-teams"></a>문제: Microsoft Teams에서 차단해야 하는 사용자 간에 통신이 허용됩니다.
+## <a name="issue-communications-are-allowed-between-users-who-should-be-blocked-in-microsoft-teams"></a>문제: 사용자 간에 통신이 허용 Microsoft Teams됩니다.
 
-이 경우 정보 장벽이 정의, 활성 및 적용되어도 서로 통신하지 못하게 해야 하는 사람은 어떻게 든 Microsoft Teams에서 채팅하고 통화할 수 있습니다.
+이 경우 정보 장벽이 정의, 활성 및 적용되어도 서로 통신하지 못하게 해야 하는 사람은 서로 채팅을 하여 서로 통화할 수 Microsoft Teams.
 
 ### <a name="what-to-do"></a>수행할 작업
 
@@ -91,7 +91,7 @@ ms.locfileid: "50928008"
 
     |**구문** _|_ *예제**|
     |:----------|:----------|
-    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 각 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다. |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> 이 예제에서는 Office 365의 두 사용자 계정인 *Meganb* 및 *Alex의 alexw를* *참조합니다.*  |
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 각 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다. |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> 이 예제에서는 2개의 사용자 계정인 Office 365 *meganb* 및 *Alex의 alexw를* *참조합니다.* |
 
     > [!TIP]
     > 단일 사용자에 대해 이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`
@@ -102,28 +102,28 @@ ms.locfileid: "50928008"
 
     |**결과**|**다음에 할 일**|
     |:----------|:------------------|
-    | 선택한 사용자에 대한 세그먼트가 나열되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- Azure Active Directory에서 사용자 프로필을 편집하여 사용자를 기존 세그먼트에 할당합니다. (Office [365 PowerShell을](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)사용하여 사용자 계정 속성 구성을 참조하세요.)<br/>- 정보 장벽에 지원되는 특성을 사용하여 [세그먼트를 정의합니다.](information-barriers-attributes.md) 그런 다음 새 [정책을 정의하거나](information-barriers-policies.md#part-2-define-information-barrier-policies) 해당 세그먼트를 포함하기 위해 기존 정책을 편집합니다. [](information-barriers-edit-segments-policies.md#edit-a-policy) |
+    | 선택한 사용자에 대한 세그먼트가 나열되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- 사용자 프로필을 편집하여 기존 세그먼트에 사용자를 Azure Active Directory. PowerShell을 사용하여 사용자 계정 [Office 365 구성을 참조하세요.](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)<br/>- 정보 장벽에 지원되는 특성을 사용하여 [세그먼트를 정의합니다.](information-barriers-attributes.md) 그런 다음 새 [정책을 정의하거나](information-barriers-policies.md#part-2-define-information-barrier-policies) 해당 세그먼트를 포함하기 위해 기존 정책을 편집합니다. [](information-barriers-edit-segments-policies.md#edit-a-policy) |
     | 세그먼트가 나열되지만 이러한 세그먼트에 정보 장벽 정책이 할당되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- [해당 각 세그먼트에](information-barriers-policies.md#part-2-define-information-barrier-policies) 대한 새 정보 장벽 정책 정의 <br/>- [기존 정보 장벽 정책을 편집하여](information-barriers-edit-segments-policies.md#edit-a-policy) 올바른 세그먼트에 할당 |
     | 세그먼트가 나열되어 있으며 각각 정보 장벽 정책에 포함됩니다. | - `Get-InformationBarrierPolicy` cmdlet을 실행하여 정보 장벽 정책이 활성 상태인지 확인<br/>- `Get-InformationBarrierPoliciesApplicationStatus` cmdlet을 실행하여 정책이 적용되는지 확인<br/>- `Start-InformationBarrierPoliciesApplication` cmdlet을 실행하여 모든 활성 정보 장벽 정책을 적용합니다. |
 
 ## <a name="issue-i-need-to-remove-a-single-user-from-an-information-barrier-policy"></a>문제: 정보 장벽 정책에서 단일 사용자를 제거해야 합니다.
 
-이 경우 정보 장벽 정책이 적용될 것이고 한 개 이상의 사용자가 예기치 않게 Microsoft Teams의 다른 사용자와 통신하지 못하게 차단됩니다. 정보 장벽 정책을 모두 제거하는 대신 정보 장벽 정책에서 하나 이상의 개별 사용자를 제거할 수 있습니다.
+이 경우 정보 장벽 정책이 적용되어 한 개 이상의 사용자가 예기치 않게 다른 사용자와 통신하지 못하게 Microsoft Teams. 정보 장벽 정책을 모두 제거하는 대신 정보 장벽 정책에서 하나 이상의 개별 사용자를 제거할 수 있습니다.
 
 ### <a name="what-to-do"></a>수행할 작업
 
-정보 장벽 정책은 사용자 세그먼트에 할당됩니다. 세그먼트는 사용자 계정 프로필의 특정 특성을 [사용하여 정의됩니다.](information-barriers-attributes.md) 단일 사용자에서 정책을 제거해야 하는 경우 사용자가 정보 장벽의 영향을 받는 세그먼트에 더 이상 포함되지 못하도록 Azure Active Directory에서 해당 사용자의 프로필을 편집하는 것이 있습니다.
+정보 장벽 정책은 사용자 세그먼트에 할당됩니다. 세그먼트는 사용자 계정 프로필의 특정 특성을 [사용하여 정의됩니다.](information-barriers-attributes.md) 단일 사용자에서 정책을 제거해야 하는 경우 사용자가 정보 장벽의 영향을 받는 세그먼트에 더 Azure Active Directory 사용자 프로필을 편집할 수 있습니다.
 
 1. Identity 매개 변수와 함께 **Get-InformationBarrierRecipientStatus** cmdlet을 사용합니다. 이 cmdlet은 특성 값 및 적용되는 모든 정보 장벽 정책과 같은 사용자에 대한 정보를 반환합니다.
 
     |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
     |:---------|:----------|
-    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 각 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다. | `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> 이 예제에서는 Office 365의 두 사용자 계정인 *Meganb* 및 *Alex의 alexw를* *참조합니다.*           |
-    | `Get-InformationBarrierRecipientStatus -Identity <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다.|`Get-InformationBarrierRecipientStatus -Identity jeanp`<p> 이 예에서는 Office 365의 단일 계정인 *을(를) 참조합니다.* |
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 각 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다. | `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> 이 예제에서는 2개의 사용자 계정인 Office 365 *meganb* 및 *Alex의 alexw를* *참조합니다.*          |
+    | `Get-InformationBarrierRecipientStatus -Identity <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다.|`Get-InformationBarrierRecipientStatus -Identity jeanp`<p> 이 예제에서는 Office 365 *단일 계정을 참조합니다.* |
 
 2. 결과를 검토하여 정보 장벽 정책이 할당되어 있으며 사용자가 속한 세그먼트를 검토합니다.
 
-3. 정보 장벽의 영향을 받는 세그먼트에서 사용자를 제거하려면 Azure Active Directory에서 사용자의 프로필 정보를 [업데이트합니다.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+3. 정보 장벽의 영향을 받는 세그먼트에서 사용자를 제거하려면 에서 사용자 프로필 정보를 [Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 4. FwdSync가 발생할 때까지 약 30분 정도 기다립니다. 또는 cmdlet을 실행하여 모든 활성 정보 `Start-InformationBarrierPoliciesApplication` 장벽 정책을 적용합니다.
 
@@ -157,15 +157,15 @@ ms.locfileid: "50928008"
 
 ### <a name="what-to-do"></a>수행할 작업
 
-조직에 [Exchange](/exchange/address-books/address-book-policies/address-book-policies) 주소 책 정책이 없는지 확인 이러한 정책은 정보 장벽 정책이 적용되지 않도록 합니다.
+조직에 주소 Exchange [정책이](/exchange/address-books/address-book-policies/address-book-policies) 없는지 확인 이러한 정책은 정보 장벽 정책이 적용되지 않도록 합니다.
 
-1. Exchange [Online PowerShell에 연결합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
+1. 커넥트 [PowerShell을 Exchange Online 합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. [Get-AddressBookPolicy](/powershell/module/exchange/get-addressbookpolicy) cmdlet을 실행하고 결과를 검토합니다.
 
     |**결과**|**다음 단계**|
     |:----------|:------------|
-    | Exchange 주소장 정책이 나열됩니다. | [주소 책 정책 제거](/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
+    | Exchange 정책이 나열됩니다. | [주소 책 정책 제거](/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
     | 주소 책 정책이 없습니다. |감사 로그를 검토하여 정책 응용 프로그램이 실패하는 이유 확인 |
 
 3. [사용자 계정, 세그먼트,](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application)정책 또는 정책 응용 프로그램의 상태를 볼 수 있습니다.
@@ -199,7 +199,7 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
    $DetailedLogs[1] |fl
 ```
 
-예를 들어 다음과 같습니다.
+예:
 
 > "UserId": User1
 >
@@ -211,5 +211,5 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
 
 ## <a name="resources"></a>리소스
 
-- [Microsoft Teams에서 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
+- [정보 장벽에 대한 정책을 Microsoft Teams](information-barriers-policies.md)
 - [정보 장벽](information-barriers.md)

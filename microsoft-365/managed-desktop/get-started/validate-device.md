@@ -1,5 +1,5 @@
 ---
-title: 새 디바이스 유효성 검사
+title: 새 장치 유효성 검사
 description: 디바이스를 주문하기 전에 각 모델 중 하나를 얻은 후 테스트합니다.
 ms.service: m365-md
 author: jaimeo
@@ -18,7 +18,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52246291"
 ---
-# <a name="validate-new-devices"></a>새 디바이스 유효성 검사
+# <a name="validate-new-devices"></a>새 장치 유효성 검사
 
 처음 Microsoft Managed Desktop 구독자이든, 장기 구독자이든, 처음으로 서비스에 등록하는 장치 모델의 예를 테스트하는 것이 가장 좋은 예입니다. 새 디바이스를 주문하거나 기존 디바이스를 다시 사용(Shop Microsoft Managed Desktop 비즈니스 장치 사이트)에서 권장되는 장치를 Windows 10 Pro [마찬가지입니다.](https://www.microsoft.com/windowsforbusiness/view-all-devices) 해당 사이트에서 필터로 필터링 영역의 기능을 확장한  다음  을 선택하여 서비스에 권장되는 장치를 **Microsoft Managed Desktop.** 디바이스의 유효성을 검사하면 예상한 사용자 환경을 제공할 수 있습니다.
 
@@ -28,7 +28,7 @@ ms.locfileid: "52246291"
     - [Microsoft Managed Desktop 장치 설정](set-up-devices.md)
     - [사용자 환경 현지화](localization.md)
     - [Autopilot 및 등록 상태 페이지의 첫 실행 환경](esp-first-run.md)
-    - [Windows 10 위치 서비스](device-location.md)
+    - [Windows 10 위치 서비스](device-location.md)
     - [앱 제어 시작하기](get-started-app-control.md)
     - [장치에 앱 배포](deploy-apps.md)
 2. 오류, 오류 또는 프롬프트 없이 다음 환경이 작동 하는지 확인 합니다.

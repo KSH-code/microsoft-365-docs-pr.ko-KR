@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Microsoft 365의 관리자
+title: 비즈니스용 Microsoft 365 관리자
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,7 +19,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 비즈니스용 Microsoft 365의 관리자 역할에 대해 자세히 알아보습니다.
+description: 비즈니스용 앱의 관리자 역할에 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: a4fcb60218069d73fe658a6dc4ef681a659ec70b
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578558"
 ---
-# <a name="what-is-a-microsoft-365-admin"></a>Microsoft 365 관리자란?
+# <a name="what-is-a-microsoft-365-admin"></a>관리자란 Microsoft 365 무엇입니까?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0?autoplay=false]
 
@@ -41,8 +41,8 @@ ms.locfileid: "51578558"
 
 사용자 역할을 관리자 역할로 변경하는 방법에는 다음이 있습니다.
 
-1. Microsoft 365에 로그인한 동안 앱 시작 프로그램을 선택합니다. 관리자 단추가 표시되어 있는 경우 관리자입니다.
-1. **관리자를** 선택하여 Microsoft 365 관리 센터로 이동하세요.
+1. 로그인한 Microsoft 365 시작 프로그램을 선택합니다. 관리자 단추가 표시되어 있는 경우 관리자입니다.
+1. **관리자를** 선택하여 Microsoft 365 센터로 이동하세요.
 1. 왼쪽 탐색 창에서 **사용자,** 활성 사용자를 **선택합니다.**
 1. 관리자로 만들 사람을 선택합니다. 사용자의 세부 정보가 오른쪽 대화 상자에 표시됩니다.
 1. 역할 **관리를 선택 합니다.**
@@ -53,8 +53,8 @@ ms.locfileid: "51578558"
 
 IT 사용자 또는 서비스에 대한 전용 관리자 계정을 만들 수도 있습니다.
 
-1. Microsoft 365에 로그인한 동안 앱 시작 프로그램을 선택합니다.
-1. **관리자를** 선택하여 Microsoft 365 관리 센터로 이동하세요.
+1. 로그인한 Microsoft 365 시작 프로그램을 선택합니다.
+1. **관리자를** 선택하여 Microsoft 365 센터로 이동하세요.
 1. 왼쪽 탐색 창에서 **사용자,** 활성 사용자를 **선택합니다.**
 1. 사용자 **추가를 선택합니다.**
 1. 사용자의 이름과  **성,** **표시** 이름 및 **사용자 이름을** 입력하고 다음 을 **선택합니다.**

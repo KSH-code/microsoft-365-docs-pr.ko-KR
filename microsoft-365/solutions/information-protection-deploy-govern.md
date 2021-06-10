@@ -16,7 +16,7 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-scenario
 ms.custom: ''
-description: Microsoft 365 보존 레이블 및 정책을 사용하여 Microsoft 365 환경에서 개인 데이터를 관리합니다.
+description: 사용자 Microsoft 365 레이블 및 정책을 사용하여 사용자 환경의 개인 Microsoft 365 관리합니다.
 ms.openlocfilehash: 62c2386ac8f9c5b31650df8be2c2a411d8b75959
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -49,12 +49,12 @@ GDPR(일반 데이터 보호 규정), HIPAA-HITECH(미국 의료 개인 정보 �
 
 정보 거버넌스를 위해 데이터 개인 정보 보호 규정은 일반적으로 다음을 요구합니다.
 
-- Microsoft 365에 저장된 개인 데이터의 보존 및 삭제를 위한 기술 체계를 사용해야 합니다.
+- 개인 데이터에 저장된 개인 데이터의 보존 및 삭제를 위한 기술 체계를 Microsoft 365.
 - 개인 데이터를 저장하는 경우 데이터 저장 기간을 주체에게 알릴 수 있습니다. 이는 현재 프런트 엔드 웹 시스템에서 표준 사례입니다.
 - 확인 가능한 방법을 사용하여 실수로 처리, 손실 또는 변경되지 않도록 개인 데이터를 보호해야 합니다.
 - 개인 데이터에 대해 실행되는 모든 작업은 문서화해야 합니다. 문서화는 지정된 기간 동안 보존해야 합니다.
 
-데이터 개인 정보 보호 규정은 데이터 보존 및 삭제와 관련되어 매우 구체적인 것이 아니기 때문에 Microsoft 365 구독에 저장된 개인 정보에 대한 정보 거버넌스 지침을 규정할 수 있는 다른 요인을 고려해야 합니다. 다음은 몇 가지 예입니다.
+데이터 개인 정보 보호 규정은 데이터 보존 및 삭제와 관련되어 매우 구체적이지 않은 것이기 때문에 Microsoft 365 구독에 저장된 개인 정보에 대한 정보 거버넌스 지침을 규정할 수 있는 다른 요소를 고려해야 합니다. 다음은 몇 가지 예입니다.
 
 - 5년 동안 비활성한 후 소비자 계정을 사용하려면 해당 시점 이후 계정 데이터를 삭제하거나 비유해야 하여 알림 및 기타 자동화와 관련된 데이터와 워크플로를 저장하는 시스템 간의 오케스트레이션이 필요합니다.
 - GDPR과 관련된 정책 및 절차를 3년 동안 유지하도록 규칙을 구성하여 정책 및 절차에 대한 조직의 보존 일정에 부합합니다.
@@ -64,11 +64,11 @@ GDPR(일반 데이터 보호 규정), HIPAA-HITECH(미국 의료 개인 정보 �
 
 - "보관" 관행을 피하기 위해 유효한 비즈니스상의 이유로 개인 데이터를 포함하는 정보를 보관해야 하는 기간은 얼마나 하나요? 이는 비즈니스 연속성을 위한 보존 요구와 균형을 맞출 수 있어야 합니다.
 
-개인 정보를 보관하거나 삭제하는 법적 및 비즈니스 이유에 관계없이 Microsoft는 Microsoft 365에서 데이터 거버넌스 체계를 구현하기 위한 다양한 기능을 제공합니다.
+개인 정보를 보관하거나 삭제하는 법적 및 비즈니스 이유와 관계없이 Microsoft는 데이터 거버넌스 체계를 구현하기 위한 다양한 기능을 Microsoft 365.
 
-## <a name="managing-information-governance-in-microsoft-365"></a>Microsoft 365에서 정보 거버넌스 관리
+## <a name="managing-information-governance-in-microsoft-365"></a>2013에서 정보 거버넌스 Microsoft 365
 
-시작은 [Microsoft](../compliance/manage-information-governance.md) [365에서](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)정보 거버넌스 관리 및 데이터 보존, 삭제 및 폐기를 참조하세요.
+시작은 [관리 정보 거버넌스](../compliance/manage-information-governance.md) 및 에서 데이터 보존, 삭제 [및 폐기 Microsoft 365.](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)
 
 ### <a name="develop-data-retention-schedules-for-containers-email-and-content"></a>컨테이너, 전자 메일 및 콘텐츠에 대한 데이터 보존 일정 개발
 
@@ -84,10 +84,10 @@ GDPR(일반 데이터 보호 규정), HIPAA-HITECH(미국 의료 개인 정보 �
 
 ### <a name="retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블
 
-보존 [정책 및 보존](../compliance/retention.md) 레이블을 사용하여 Microsoft 365에서 개인 데이터를 포함하거나 포함할 것으로 예상되는 콘텐츠를 보존하거나 삭제합니다.
+보존 [정책 및 보존 레이블을](../compliance/retention.md) 사용하여 개인 데이터를 포함하거나 Microsoft 365 콘텐츠를 보존하거나 삭제할 수 있습니다.
 
 ### <a name="records-management"></a>레코드 관리
 
-콘텐츠를 레코드로 선언하는 보존 레이블을 [](../compliance/records-management.md) 사용하여 Microsoft 365의 데이터에 대한 레코드 관리 솔루션을 구현합니다.
+레코드를 선언하는 보존 레이블을 사용하여 [](../compliance/records-management.md) 레코드의 데이터에 대한 레코드 관리 솔루션을 Microsoft 365.
 
 데이터 개인 정보 보호를 위해 법률 부서에서 수신한 DSRS(데이터 주체 요청)는 레코드로 선언되고 규정 활동 보존 사양을 준수하기 위해 무기한 또는 증명으로 삭제될 수 있습니다.

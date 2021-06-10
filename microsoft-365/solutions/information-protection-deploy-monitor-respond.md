@@ -26,7 +26,7 @@ ms.locfileid: "50928427"
 ---
 # <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>조직의 데이터 개인 정보 보호 인시던트 모니터링 및 대응
 
-Microsoft 365 기능은 관련 기능을 운영할 때 조직의 데이터 개인 정보 인시던트 모니터링, 조사 및 대응에 도움을 줄 수 있습니다. 이러한 각 문서에 대한 프로세스, 절차 및 기타 설명서를 가지는 것은 규제 기관의 규정 준수를 입증하는 데도 중요할 수 있습니다.
+Microsoft 365 기능을 운영할 때 조직의 데이터 개인 정보 보호 인시던트 모니터링, 조사 및 대응에 도움이 되는 다양한 기능을 사용할 수 있습니다. 이러한 각 문서에 대한 프로세스, 절차 및 기타 설명서를 가지는 것은 규제 기관의 규정 준수를 입증하는 데도 중요할 수 있습니다.
 
 여기에는 다음이 포함됩니다. 
 
@@ -56,7 +56,7 @@ Microsoft 365 기능은 관련 기능을 운영할 때 조직의 데이터 개�
 
 조직은 다른 규정 준수 요구 또는 비즈니스상의 이유로 모니터링 및 대응 활동을 수행하고자 할 수도 있습니다. 데이터 개인 정보 보호에 대한 모니터링 및 응답 체계를 설정하는 것이 전체 모니터링 및 응답 계획, 구현 및 관리의 일부로 수행됩니다.
 
-데이터 개인 정보 규정에 대한 Microsoft 365의 모니터링 및 응답 체계를 시작하는 데 도움을 줄 수 있도록 이 문서에서는 Microsoft 365에서 다음 질문에 답변할 수 있는 유용한 기능을 나열합니다. 
+이 문서에서는 데이터 개인 정보 보호 규정에 대한 Microsoft 365 모니터링 및 응답 체계를 시작하는 데 도움이 되는 Microsoft 365 정보를 제공합니다. 
 
 - 다양한 데이터 형식 및 원본에 대해 어떤 종류의 모니터링, 조사 및 보고 기술을 사용할 수 있나요?
 - 데이터 주체 요청(DSRs)을 처리하는 데 필요한 메커니즘 및 수정 작업(예: 비음성, 수정 및 수정)입니다.
@@ -72,12 +72,12 @@ Microsoft 365 기능은 관련 기능을 운영할 때 조직의 데이터 개�
 
 ## <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 데이터 주체 요청
 
-Microsoft 365에서 DSR에 응답하는 데 대한 자세한 내용은 GDPR 및 [CCPA에](/compliance/regulatory/gdpr-dsr-Office365) 대한 데이터 주체 요청을 참조하세요.
+DSR에 응답하는 데 대한 자세한 내용은 GDPR 및 [CCPA에](/compliance/regulatory/gdpr-dsr-Office365) 대한 데이터 주체 요청을 Microsoft 365.
 
 ## <a name="manage-deleted-users-in-microsoft-stream"></a>Microsoft Stream에서 삭제된 사용자 관리
 
-Microsoft Stream의 경우 사용자가 Azure AD(Azure Active Directory)에서 삭제될 때 해당 이름이 이전에 게시된 Stream 비디오와 연결된 경우 해당 전자 메일 주소는 비디오와 연결된 상태로 남아 있습니다. Microsoft [Stream에서 삭제된 사용자 관리를](/stream/managing-deleted-users) 참조하여 제거합니다.
+Microsoft Stream의 경우 사용자가 Azure AD(Azure Active Directory)에서 삭제될 때 해당 이름이 이전에 게시된 Stream 비디오와 연결되어 있는 경우 해당 전자 메일 주소는 비디오와 연결된 상태로 남아 있습니다. Microsoft [Stream에서 삭제된 사용자 관리를](/stream/managing-deleted-users) 참조하여 제거합니다.
 
 ## <a name="insider-risk-management-as-an-investigative-tool"></a>조사 도구로 내부자 위험 관리
 
-[Microsoft 365의](../compliance/insider-risk-management.md) 내부자 위험 관리는 조직의 위험한 활동을 감지, 조사 및 조치를 취할 수 있도록 하여 내부 위험을 최소화하는 데 도움이 되는 Microsoft 규정 준수 관리 센터의 기능입니다.
+[Microsoft 365](../compliance/insider-risk-management.md) 내부자 위험 관리는 조직에서 위험한 활동을 감지, 조사 및 조치를 취할 수 있도록 하여 내부 위험을 최소화하는 데 도움이 되는 Microsoft 규정 준수 관리 센터의 기능입니다.

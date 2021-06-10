@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365를 사용하여 데이터 개인 정보 보호 위험 평가 및 중요한 항목 식별
+title: 데이터 개인 정보 보호 위험을 평가하고 데이터를 사용하여 중요한 Microsoft 365
 ms.author: bcarter
 author: brendacarter
 f1.keywords:
@@ -16,7 +16,7 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-scenario
 ms.custom: ''
-description: 데이터 개인 정보 보호 규정, 관련 시나리오, 준비 및 Microsoft 365 환경에 있는 중요한 정보 유형을 파악합니다.
+description: 데이터 개인 정보 보호 규정, 관련 시나리오, 준비 및 사용자 환경의 중요한 정보 유형을 Microsoft 365 결정하십시오.
 ms.openlocfilehash: 6801f0af70e08d2b4efdc9e27f1cb1f1d636b821
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,9 +24,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50929171"
 ---
-# <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>Microsoft 365를 사용하여 데이터 개인 정보 보호 위험 평가 및 중요한 항목 식별
+# <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>데이터 개인 정보 보호 위험을 평가하고 데이터를 사용하여 중요한 Microsoft 365
 
-조직이 적용하는 데이터 개인 정보 규정 및 위험을 평가하는 것은 Microsoft 365 기능 및 서비스로 달성할 수 있는 개선 조치를 포함하여 관련 개선 조치를 구현하기 전에 먼저 중요한 첫 번째 단계입니다. 
+조직에서 적용해야 하는 데이터 개인 정보 규정 및 위험을 평가하는 것은 조직에서 수행할 수 있는 기능 및 서비스를 포함하여 관련 개선 작업을 구현하기 Microsoft 365 중요한 첫 번째 단계입니다. 
 
 ## <a name="potentially-applicable-data-privacy-regulations"></a>적용 가능한 데이터 개인 정보 규정
 
@@ -52,7 +52,7 @@ ISO 27001과 같은 다른 표준을 준수하는 것이 여러 유럽 감독 �
 
 독일의 BDSG(국가 GDPR 구현법), 브라질 데이터 보호법(LGPD) 및 기타 많은 예가 여기에 포함됩니다.
 
-## <a name="regulation-mapping-to-microsoft-365-technical-control-categories"></a>Microsoft 365 기술 제어 범주에 대한 규정 매핑
+## <a name="regulation-mapping-to-microsoft-365-technical-control-categories"></a>기술 제어 범주에 Microsoft 365 규정 매핑
 
 대부분의 데이터 개인 정보 관련 규정에는 겹치는 요구 사항이 있으므로 기술 제어 체계를 개발하기 전에 해당 규정이 적용될 규정을 이해해야 합니다. 
 
@@ -63,7 +63,7 @@ ISO 27001과 같은 다른 표준을 준수하는 것이 여러 유럽 감독 �
 | GDPR | 제5조(1)(f) | 개인 데이터는 적절한 기술 또는 조직적 조치('무결성 및 기밀성')를 사용하여 무단 또는 불법적인 처리 및 우발적인 손실, 파괴 또는 손상으로부터 보호를 포함하여 개인 데이터의 적절한 보안을 보장하는 방식으로 처리되어야 합니다.  |  (모두) <br> ID <br> 디바이스 <br> 위협 방지 <br> 정보 보호 <br> 정보 관리 <br> 검색 및 대응 |
 |  | 제32조(1)(a) | 기술의 상태, 구현 비용, 처리의 성격, 범위, 컨텍스트 및 목적과 자연인의 권리와 자유에 대한 다양한 가능성과 심각도의 위험을 고려하여, 컨트롤러와 처리자는 위험에 적절한 보안 수준을 보장하기 위해 적절한 기술 및 조직적 조치를 구현해야 합니다. 에 적절한 별칭 포함: (a) 개인 데이터의 가명 처리 및 암호화. | 정보 보호 |
 |  | 제13조(2)(a) | "... 컨트롤러는 개인 데이터를 획득할 때 개인정보주체에게 공정하고 투명한 처리를 보장하는 데 필요한 다음의 추가 정보를 제공해야 합니다. (a) 개인 데이터가 저장되는 기간 또는 가능하지 않을 경우 해당 기간을 결정하는 데 사용되는 기준을 제공해야 합니다. | 정보 관리 |
-|  | 제15조(1)(e) | 개인정보주체는 개인정보와 관련한 개인 데이터가 처리되고 있는지 여부 및 이 경우, 개인정보 및 다음의 정보에 대한 액세스 권한을 컨트롤러로부터 얻을 수 있는 권리가 있습니다: (e) 개인정보주체에 관한 개인정보의 처리 제한 또는 개인정보의 처리 제한에 대한 제어권의 존재 | 검색 및 대응 |
+|  | 제15조(1)(e) | 개인정보주체는 개인정보와 관련한 개인정보가 처리되고 있는지 여부 및 해당되는 경우, 개인정보 및 다음의 정보에 대한 액세스 권한을 컨트롤러로부터 얻을 수 있는 권리가 있습니다: (e) 개인정보의 시정 또는 삭제 또는 개인정보의 처리 제한 또는 개인정보 처리 제한의 존재 또는 이에 반대하는 권리 processing | 검색 및 대응 |
 | LGPD | 제46조 | 처리 에이전트는 무단 액세스, 파기, 손실, 변경, 통신 또는 부적절하거나 불법적인 처리의 우발적 또는 불법적인 상황에서 개인 데이터를 보호할 수 있는 보안, 기술 및 관리 조치를 채택해야 합니다. | 정보 보호 <br> 정보 관리 <br> 검색 및 대응|
 |  | 제48조 | 컨트롤러는 국가 기관 및 데이터 주체에게 데이터 주체에 위험 또는 관련 손상을 만들 수 있는 보안 인시던트 발생을 데이터 주체에게 전달해야 합니다. | 검색 및 대응 |
 | HIPPA-HITECH | 45 CFR 164.312(e)(1) | 전자 통신 네트워크를 통해 전송되는 전자적으로 보호되는 건강 정보에 대한 무단 액세스를 방지하기 위한 기술 보안 조치를 구현한다. | 정보 보호 |
@@ -96,7 +96,7 @@ ISO 27001과 같은 다른 표준을 준수하는 것이 여러 유럽 감독 �
  
 ### <a name="where-the-personal-data-is"></a>개인 데이터가 있는 위치
 
-데이터 개인 정보 규정을 해결하기 위해 개인 데이터가 존재할 수 있는 위치(현재 또는 향후)에 대한 일반적인 생각을 사용할 수 없습니다. 데이터 개인 정보 보호 규정을 통해 조직은 개인 데이터가 진행되는 위치를 알고 있는 것을 증명해야 합니다. 따라서 Microsoft 365 환경을 비롯한 개인 정보를 가능한 저장하기 위해 모든 데이터 원본의 초기 스냅숏을 작성하고 지속적인 모니터링 및 검색을 위한 메커니즘을 설정하는 것이 중요합니다.
+데이터 개인 정보 규정을 해결하기 위해 개인 데이터가 존재할 수 있는 위치(현재 또는 향후)에 대한 일반적인 생각을 사용할 수 없습니다. 데이터 개인 정보 보호 규정을 통해 조직은 개인 데이터가 진행되는 위치를 알고 있는 것을 증명해야 합니다. 따라서 사용자 환경과 같은 개인 정보를 저장하기 위해 모든 데이터 원본의 초기 스냅숏을 Microsoft 365 지속적인 모니터링 및 검색을 위한 메커니즘을 설정해야 합니다.
 
 데이터 개인 정보 규정과 관련된 전반적인 준비 및 위험을 아직 평가하지 않은 경우 다음 3단계 프레임워크를 사용하여 시작하십시오. 
 
@@ -110,7 +110,7 @@ ISO 27001과 같은 다른 표준을 준수하는 것이 여러 유럽 감독 �
 
 데이터 개인 정보 보호 위험에 대한 노출은 현재 관리되는 개인 데이터의 유형, 데이터가 저장되는 위치, 보호 컨트롤에 배치되는 보호 컨트롤, 수명 주기 관리 방법 및 데이터에 액세스할 수 있는 사용자에 따라 측정해야 합니다. 
 
-시작점으로 Microsoft 365 환경에 있는 개인 데이터의 유형을 인벤토리에 기록하는 것이 중요합니다. 다음 범주를 사용 합니다.
+시작점으로 사용자 환경의 개인 데이터 형식을 인벤토리에 Microsoft 365 중요합니다. 다음 범주를 사용 합니다.
 
 - 매일 업무 기능을 수행하기 위해 필요한 직원 데이터
 - B2B(비즈니스-기업) 시나리오의 비즈니스 고객, 파트너 및 기타 관계에 대한 조직 관련 데이터
@@ -120,9 +120,9 @@ ISO 27001과 같은 다른 표준을 준수하는 것이 여러 유럽 감독 �
 
 ![개인 데이터 유형](../media/information-protection-deploy-assess/information-protection-deploy-assess-data-types.png)
 
-데이터 개인 정보 보호 규정이 적용된 많은 개인 데이터는 일반적으로 Microsoft 365 외부에서 수집 및 저장됩니다. 소비자 연결 웹 또는 모바일 응용 프로그램의 모든 개인 데이터는 Microsoft 365 내에서 데이터 개인 정보 보호를 준수하기 위해 이러한 응용 프로그램에서 Microsoft 365로 내보내야 합니다. 
+데이터 개인 정보 보호 규정이 적용된 개인 데이터의 상당수는 일반적으로 외부에서 수집되고 Microsoft 365. 소비자 연결 웹 또는 모바일 응용 프로그램의 모든 개인 데이터는 이러한 응용 프로그램에서 Microsoft 365 데이터 개인 정보 보호를 준수하기 위해 내보내야 Microsoft 365. 
 
-Microsoft 365의 데이터 개인 정보 노출은 이 솔루션에서 해결하지 않는 웹 응용 프로그램 및 CRM 시스템을 상대로 더 제한될 수 있습니다.
+이 솔루션에서는 Microsoft 365 응용 프로그램 및 CRM 시스템에 비해 데이터 개인 정보 노출이 더 제한될 수 있습니다.
 
 또한 위험 프로필을 평가할 때 다음과 같은 일반적인 데이터 개인 정보 보호 규정 준수 문제도 생각해 보아야 합니다.
 
@@ -143,7 +143,7 @@ Microsoft 365의 데이터 개인 정보 노출은 이 솔루션에서 해결하
 이러한 요구를 처리하기 위해 조직은 직원에 대한 일부 정보가 비즈니스 연속성에 대해 상당히 중요한 것으로 간주될 수 있습니다. 예를 들어 개인이 파일을 작성하거나 함수를 수행한 정보입니다. 
 
 >[!Note]
->Microsoft 365의 개인 데이터에 대한 조사 및 수정 기술은 모니터 및 응답 [문서를 참조하세요.](information-protection-deploy-monitor-respond.md) 또한 자동화된 분류 및 보호 체계를 사용하여 조직 내부에서 개인 데이터를 제어하고 악의적인 공격자 상황에서 조직을 떠나지 못하게 할 수 있습니다. 자세한 내용은 [정보 보호](information-protection-deploy-protect-information.md) 문서를 참조하세요.
+>Microsoft 365 개인 데이터에 대한 조사 및 수정 기술은 모니터 및 응답 문서를 [참조하세요.](information-protection-deploy-monitor-respond.md) 또한 자동화된 분류 및 보호 체계를 사용하여 조직 내부에서 개인 데이터를 제어하고 악의적인 공격자 상황에서 조직을 떠나지 못하게 할 수 있습니다. 자세한 내용은 [정보 보호](information-protection-deploy-protect-information.md) 문서를 참조하세요.
 >
  
 ### <a name="data-the-organization-has-about-its-business-customers-in-the-b2b-scenario"></a>B2B 시나리오에서 조직에 비즈니스 고객에 대한 데이터
@@ -167,9 +167,9 @@ B2B 정보 수집은 조직에서 비즈니스 연속성을 위해 다양한 시
 
 위험 및 데이터 개인 정보 보호 규정에 대한 노출을 이해하는 것은 조직의 개인 데이터 시나리오에 대한 기본 이해를 기반으로 하는 중요한 첫 번째 단계입니다.
 
-Microsoft 365 환경에서 소비자의 개인 데이터가 없는 경우 또는 해당 환경의 특정 부분으로 제한되고 소비자 유형 데이터 노출에 대한 기술 제어의 필요성이 전제된 경우 기술 컨트롤은 모든 환경이 아닌 환경의 고위험 부분에만 사용할 수 있습니다.
+Microsoft 365 환경에 소비자의 개인 데이터가 없는 경우 또는 환경의 특정 부분으로 제한되어 있으며 소비자 유형 데이터 노출에 대한 기술 제어의 필요성이 전제된 경우 기술 컨트롤은 환경의 모든 부분이 아닌 고위험 부분에만 사용되어야 할 수 있습니다.
 
-Microsoft 365의 준수 관리자와 같은 외부 조직 또는 표준 제어 집합 권장안이 제어 전략을 알리는 데 도움이 될 수 있는 반면, 실제 위험 노출을 수량화하기 위해 데이터 인벤토리 인식에 따라 구현을 선택해야 합니다.
+외부 조직 또는 표준 제어 집합 권장(예: Microsoft 365 준수 관리자의 권장)은 제어 전략을 알리는 데 도움이 될 수 있는 반면, 실제 위험 노출을 수량화하기 위해 데이터 인벤토리 인식에 따라 구현을 선택해야 합니다.
 
 대부분의 조직에서는 위의 시나리오 중 하나에 어느 정도 노출됩니다. 전체적인 평가 방식을 취하는 것이 중요합니다.
 
@@ -189,11 +189,11 @@ GDPR 평가는 다음 섹션으로 구성됩니다.
 | 정책 관리 | <ol><li>바인딩 회사 규칙(BCRS)을 관리하는 방법 </li><li>데이터에 대한 동의를 추적하나요? </li><li> 1에서 5까지의 규모로, 5개가 완전히 적용된 경우 계약에서 데이터 분류 및 처리 요구 사항을 다루나요? </li><li>인시던트 대응 계획을 세우고 정기적으로 테스트하나요? </li><li>액세스를 관리하는 데 어떤 정책을 사용하나요? </li></ol>|
 |||
  
-## <a name="step-3-identify-sensitive-information-types-that-occur-in-your-microsoft-365-environment"></a>3단계: Microsoft 365 환경에서 발생하는 중요한 정보 유형을 식별합니다. 
+## <a name="step-3-identify-sensitive-information-types-that-occur-in-your-microsoft-365-environment"></a>3단계: 사용자 환경에서 발생하는 중요한 정보 유형을 Microsoft 365 식별합니다. 
 
-이 단계에서는 특정 규제 제어가 적용된 특정 중요한 정보 유형을 식별하고 Microsoft 365 환경에서 이러한 유형의 발생을 식별합니다. 
+이 단계에서는 특정 규제 제어가 적용된 특정 중요한 정보 유형을 식별하고 사용자 환경의 중요한 정보 유형 Microsoft 365 수 있습니다. 
 
-개인이 포함된 환경의 콘텐츠를 찾는 작업은 과거에는 준수 검색, eDiscovery, Advanced eDiscovery, DLP 및 감사를 함께 사용하는 형태로 구성될 수 있습니다. 
+개인이 포함된 환경의 콘텐츠를 찾는 작업은 과거에 준수 검색, eDiscovery, Advanced eDiscovery, DLP 및 감사를 함께 사용하는 형태로 구성될 수 있습니다. 
 
 Microsoft 규정 **준수** 관리 센터의 새로운 데이터 분류 솔루션을 사용하여 [](../compliance/data-classification-content-explorer.md) 개인 데이터와 관련된 정보를 포함하여 기본 제공 또는 사용자 지정 중요한 정보 유형에서 작동하는 콘텐츠 탐색기 기능을 훨씬 더 쉽게 사용할 수 있습니다.
  
@@ -212,18 +212,18 @@ Microsoft 규정 준수 관리 센터는 100가지가 넘는 중요한 정보 �
 자세한 내용은 다음 문서를 참조하세요.
 
 - [기본으로 제공되는 중요한 정보 유형 사용자 지정](../compliance/customize-a-built-in-sensitive-information-type.md)
-- [중요한 정보 유형에 대해 자세히 알아보기](../compliance/sensitive-information-type-learn-about.md)
+- [중요한 정보 유형에 대해 알아보기](../compliance/sensitive-information-type-learn-about.md)
 - [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기](../compliance/create-a-custom-sensitive-information-type.md)
 - [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](../compliance/create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기](../compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 
 ### <a name="content-explorer"></a>콘텐츠 탐색기
 
-사용자 환경에서 중요한 항목의 발생을 결정하는 중요한 도구는 Microsoft 365 규정 준수 관리 센터의 새로운 콘텐츠 탐색기입니다. [](../compliance/data-classification-content-explorer.md) 이 도구는 중요한 정보 유형이 발생하고 결과를 표시하기 위해 전체 Microsoft 365 구독의 초기 및 지속적인 검색을 위한 자동화된 도구입니다.
+사용자 환경에서 중요한 항목의 발생을 파악하기 위한 [](../compliance/data-classification-content-explorer.md) 중요한 도구는 Microsoft 365 규정 준수 관리 센터의 새로운 콘텐츠 탐색기입니다. 이 도구는 중요한 정보 유형이 발생하고 결과를 표시하기 위해 전체 Microsoft 365 구독의 초기 및 지속적인 검색을 위한 자동화된 도구입니다.
  
 새로운 콘텐츠 탐색기 도구를 사용하면 기본 제공 중요한 정보 유형 또는 사용자 지정 정보 유형을 사용하여 환경에서 중요한 항목의 위치를 빠르게 식별할 수 있습니다. 여기에는 프로세스 설정 및 중요한 항목의 존재 및 위치를 정기적으로 조사하기 위한 책임 할당이 수반될 수 있습니다.
 
-이 문서에서 강조한 다른 단계와 함께 계획된 Microsoft 365 구성 및 모니터링을 통해 보호할 중요한 항목의 전반적인 위험 노출, 준비 상태 및 위치를 식별하기 위한 시작점을 제공합니다. 
+이 문서에서 강조한 다른 단계와 함께 계획된 구성 및 모니터링을 통해 보호할 중요한 항목의 전반적인 위험 노출, 준비 상태 및 위치를 식별하기 위한 시작점을 Microsoft 365 제공합니다. 
 
 ### <a name="other-methods-to-identify-personal-data-in-your-environment"></a>사용자 환경에서 개인 데이터를 식별하는 다른 방법
 
@@ -231,7 +231,7 @@ Microsoft 규정 준수 관리 센터는 100가지가 넘는 중요한 정보 �
 
 개인 데이터 검색을 위한 콘텐츠 검색 사용에 대한 자세한 지침은 이 문서에서 [제공됩니다.](/compliance/regulatory/gdpr) 콘텐츠 검색 및 기타 검색 기술도 GDPR 및 [CCPA에 대한 DSR에서 살펴보겠습니다.](/compliance/regulatory/gdpr-dsr-Office365#introduction-to-dsrs)
 
-Microsoft 365의 개인 데이터에 대한 조사 및 수정 기술에 대한 추가 정보는 모니터 및 응답 [문서에 제공됩니다.](information-protection-deploy-monitor-respond.md)
+모니터링 및 응답 문서에서는 Microsoft 365 개인 데이터에 대한 조사 및 수정 기술에 대한 추가 [정보를 제공합니다.](information-protection-deploy-monitor-respond.md)
 
 > [!NOTE]
 > On-premises에 저장된 파일에 있는 중요한 정보를 찾으면 [Azure Information Protection 을 참조하세요.](/azure/information-protection/quickstart-findsensitiveinfo)

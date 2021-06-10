@@ -65,13 +65,13 @@ ms.locfileid: "51579053"
 
 보고서를 공유하려면 공유 단추를 선택하기만 합니다. ![Power BI Share icon](../../media/dbb0569d-2013-4f9d-ab9d-d01b09631b92.png) 을 클릭합니다.
 
-보고서를 사용자 지정하는 방법에 대한 자세한 내용은 Microsoft 365 사용 현황 분석에서 보고서 사용자 [지정을 참조하세요.](customize-reports.md)
+보고서를 사용자 지정하는 방법에 대한 자세한 내용은 사용 현황 분석에서 [Microsoft 365 사용자 지정을 참조하세요.](customize-reports.md)
 
 Power BI 도움말 문서에서 추가 정보를 찾을 수 있습니다.
 
-- [Power BI 기본 개념](/power-bi/service-basic-concepts)
+- [Power BI 개념](/power-bi/service-basic-concepts)
 
-    대시보드, 데이터 집합, 보고서 및 기타 Power BI 개념에 대해 자세히 알아보습니다.
+    대시보드, 데이터 집합, 보고서 및 기타 Power BI 대해 자세히 알아보습니다.
 
 - [Power BI 시작](/power-bi/service-get-started?wt.mc_id=O365_Reports_PBI_contentpack)
 

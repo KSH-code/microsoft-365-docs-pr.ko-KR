@@ -32,7 +32,7 @@ ms.locfileid: "51578714"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtn3I?autoplay=false]
 
-이전의 Microsoft 365 ATP 또는 Advanced Threat Protection이라는 Office 365용 Microsoft Defender는 Outlook, OneDrive, SharePoint 및 Teams에서 악의적인 콘텐츠가 포함된 파일로부터 비즈니스를 보호하는 데 도움이 됩니다.
+Office 365 Microsoft Defender for Microsoft 365 ATP 또는 Advanced Threat Protection은 Outlook, OneDrive, SharePoint 및 에 악의적인 콘텐츠가 포함된 파일로부터 비즈니스를 Teams.
 
 ## <a name="try-it"></a>사용해 보세요!
 
@@ -47,6 +47,6 @@ ms.locfileid: "51578714"
 
 ATP 안전한 첨부 파일 규칙이 업데이트되었습니다.
 
-이제 보호가 시작된 후 Outlook, OneDrive, SharePoint 또는 Teams에서 악성 파일을 열 수 없습니다. 영향을 받는 파일에는 옆에 빨간색 방패가 있습니다. 누군가가 차단된 파일을 열려고 시도하면 경고 메시지가 표시됩니다.
+이제 보호가 시작된 후, Outlook, OneDrive, SharePoint 또는 파일에서 악성 파일을 열 수 Teams. 영향을 받는 파일에는 옆에 빨간색 방패가 있습니다. 누군가가 차단된 파일을 열려고 시도하면 경고 메시지가 표시됩니다.
 
 정책이 잠시 동안 적용된 후 보고서 페이지를 방문하여 검사된 기능을 확인하십시오.

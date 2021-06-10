@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: 페이지 진단을 사용하여 SharePoint Online 최신 사이트 페이지에서 웹 파트의 성능을 최적화하는 방법을 알아보십시오.
+description: 페이지 진단을 사용하여 온라인 최신 사이트 페이지에서 웹 파트의 SharePoint 방법을 알아보십시오.
 ms.openlocfilehash: 2a72ecd8bc1f6dee4166809f72ce5f9bce422dc9
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT

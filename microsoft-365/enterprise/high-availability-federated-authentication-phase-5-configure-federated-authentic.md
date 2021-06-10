@@ -1,5 +1,5 @@
 ---
-title: 고가용성 페더타 인증 5단계 Microsoft 365에 대한 페더전 인증 구성
+title: 고가용성 페더타 인증 5단계 고가용성 인증에 대한 페더타 인증 Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,7 +13,7 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 0f1dbf52-5bff-44cc-a264-1b48641af98f
-description: '요약: Microsoft Azure의 Microsoft 365에 대한 고가용성 페더러티 인증에 대해 Azure AD Connect를 구성합니다.'
+description: '요약: 2016년 커넥트 대한 고가용성 페더전 인증에 대해 Azure AD Microsoft 365 구성하는 Microsoft Azure.'
 ms.openlocfilehash: 2bca2b758486b85d185870e2e14b495b8f084cb7
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -21,11 +21,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50929411"
 ---
-# <a name="high-availability-federated-authentication-phase-5-configure-federated-authentication-for-microsoft-365"></a>고가용성 페더러타 인증 5단계: Microsoft 365에 대한 페더러드 인증 구성
+# <a name="high-availability-federated-authentication-phase-5-configure-federated-authentication-for-microsoft-365"></a>고가용성 페더러타 인증 5단계: 페더러에 대한 페더 Microsoft 365
 
-Azure 인프라 서비스에서 Microsoft 365용 고가용성 페더링 인증을 배포하는 이 최종 단계에서는 공용 인증 기관에서 발급한 인증서를 다운로드하여 설치하고 구성을 확인한 다음 디렉터리 동기화 서버에 Azure AD Connect를 설치 및 실행합니다. Azure AD Connect는 페더임 인증을 위해 Microsoft 365 구독 및 AD FS(Active Directory Federation Services) 및 웹 응용 프로그램 프록시 서버를 구성합니다.
+Azure 인프라 서비스에서 Microsoft 365 대한 고가용성 페더링 인증을 배포하는 이 최종 단계에서는 공용 인증 기관에서 발급한 인증서를 다운로드하여 설치하고 구성을 확인한 다음 디렉터리 동기화 서버에 Azure AD 커넥트 설치 및 실행합니다. Azure AD 커넥트 페더화 인증을 위해 Microsoft 365 및 AD FS(Active Directory Federation Services) 및 웹 응용 프로그램 프록시 서버를 구성합니다.
   
-모든 [단계는 Azure에서 Microsoft 365에](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 대한 고가용성 페더타 인증 배포를 참조하세요.
+모든 [단계는 Azure에서](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 고가용성 Microsoft 365 인증 배포를 참조하세요.
   
 ## <a name="get-a-public-certificate-and-copy-it-to-the-directory-synchronization-server"></a>공용 인증서를 다운로드하여 디렉터리 동기화 서버에 복사
 
@@ -37,7 +37,7 @@ Azure 인프라 서비스에서 Microsoft 365용 고가용성 페더링 인증�
     
 - 인증서에는 개인 키가 있어야하며 PFX 형식으로 저장해야 합니다.
     
-또한 조직 컴퓨터와 장치는 디지털 인증서를 발급하는 공용 인증 기관을 신뢰해야 합니다. 이 트러스트는 컴퓨터 및 장치의 신뢰할 수 있는 루트 인증 기관 저장소에 공용 인증 기관의 루트 인증서를 설치하여 설정됩니다. Microsoft Windows를 실행하는 컴퓨터에는 일반적으로 일반적으로 사용되는 인증 기관에서 설치되는 이러한 유형의 인증서 집합이 있습니다. 공용 인증 기관의 루트 인증서가 아직 설치되어 있지 않은 경우 이 인증서를 조직의 컴퓨터 및 장치에 배포해야 합니다.
+또한 조직 컴퓨터와 장치는 디지털 인증서를 발급하는 공용 인증 기관을 신뢰해야 합니다. 이 트러스트는 컴퓨터 및 장치의 신뢰할 수 있는 루트 인증 기관 저장소에 공용 인증 기관의 루트 인증서를 설치하여 설정됩니다. Microsoft Windows 실행하는 컴퓨터에는 일반적으로 일반적으로 사용되는 인증 기관에서 설치되는 이러한 유형의 인증서 집합이 있습니다. 공용 인증 기관의 루트 인증서가 아직 설치되어 있지 않은 경우 이 인증서를 조직의 컴퓨터 및 장치에 배포해야 합니다.
   
 페더라이트 인증의 인증서 요구 사항에 대한 자세한 내용은 페더전 설치 및 구성에 대한 사전 요구 [사항을 참조하세요.](/azure/active-directory/connect/active-directory-aadconnect-prerequisites#prerequisites-for-federation-installation-and-configuration)
   
@@ -45,11 +45,11 @@ Azure 인프라 서비스에서 Microsoft 365용 고가용성 페더링 인증�
   
 ## <a name="verify-your-configuration"></a>구성 확인
 
-이제 Microsoft 365에 대한 Azure AD Connect 및 페더전 인증을 구성할 준비가 완료되었습니다. 확인을 위해 검사 목록은 다음과 같습니다.
+이제 Azure AD 2013에 대해 Azure AD 커넥트 페더러시트 인증을 구성할 준비가 Microsoft 365. 확인을 위해 검사 목록은 다음과 같습니다.
   
-- 조직의 공용 도메인이 Microsoft 365 구독에 추가됩니다.
+- 조직의 공용 도메인이 조직 구독에 Microsoft 365 추가됩니다.
     
-- 조직의 Microsoft 365 사용자 계정이 조직의 공용 도메인 이름으로 구성되어 있으며 성공적으로 로그인할 수 있습니다.
+- 조직의 Microsoft 365 계정이 조직의 공용 도메인 이름으로 구성되어 성공적으로 로그인할 수 있습니다.
     
 - 공용 도메인 이름을 기반으로 페더임 서비스 FQDN을 결정했습니다.
     
@@ -65,19 +65,19 @@ Contoso 조직의 예는 다음과 같습니다.
   
 **Azure의 고가용성 페더타 인증 인프라에 대한 구성 예**
 
-![Azure의 고가용성 Microsoft 365 페더타 인증 인프라의 구성 예](../media/ac1a6a0d-0156-4407-9336-6e4cd6db8633.png)
+![Azure의 페더 Microsoft 365 인프라에 대한 고가용성 구성의 예](../media/ac1a6a0d-0156-4407-9336-6e4cd6db8633.png)
   
-## <a name="run-azure-ad-connect-to-configure-federated-authentication"></a>Azure AD Connect를 실행하여 페더러티 인증 구성
+## <a name="run-azure-ad-connect-to-configure-federated-authentication"></a>Azure AD 커넥트 실행하여 페더타 인증 구성
 
-Azure AD Connect 도구는 AD FS 서버, 웹 응용 프로그램 프록시 서버 및 Microsoft 365를 다음 단계에 따라 페더링 인증에 대해 구성합니다.
+Azure AD 커넥트 도구는 다음 단계를 사용하여 AD FS 서버, 웹 응용 프로그램 프록시 서버 및 Microsoft 365 인증을 구성합니다.
   
 1. 로컬 관리자 권한이 있는 도메인 계정을 사용하여 디렉터리 동기화 서버에 대한 원격 데스크톱 연결을 만들 수 있습니다.
     
 2. 디렉터리 동기화 서버의 바탕 화면에서 를 열고 Internet Explorer 로 [https://aka.ms/aadconnect](https://aka.ms/aadconnect) 이동하십시오.
     
-3. Microsoft **Azure Active Directory Connect 페이지에서** 다운로드를 클릭한 다음 실행을 **클릭합니다.** 
+3. Microsoft Azure Active Directory 커넥트 **페이지에서** **다운로드를** 클릭한 다음 실행을 **클릭합니다.**
     
-4. Azure **AD Connect 시작 페이지에서** 동의를 **클릭하고** 계속을 **클릭합니다.**
+4. Azure AD 커넥트 페이지에서 **동의를** **클릭하고** 계속을 **클릭합니다.**
     
 5. **기본 설정** 페이지에서 **사용자 지정** 을 클릭합니다.
     
@@ -85,9 +85,9 @@ Azure AD Connect 도구는 AD FS 서버, 웹 응용 프로그램 프록시 서�
     
 7. **사용자 로그인** 페이지에서 **AD FS로 페더레이션** 을 클릭하고 **다음** 을 클릭합니다.
     
-8. Azure **AD에** 연결 페이지에서 Microsoft 365 구독에 대한 전역 관리자 계정의 이름과 암호를 입력하고 다음 을 **클릭합니다.**
+8. Azure **AD 커넥트** 페이지에서 Microsoft 365 전역 관리자 계정의 이름과 암호를 입력하고 다음 을 **클릭합니다.**
     
-9. 디렉터리 **연결** 페이지에서 포리스트에서 AD DS(Active Directory 도메인 서비스) 포리스트가 선택되어 있는지 **확인한** 다음 도메인 관리자 계정의 이름과 암호를 입력하고 디렉터리 추가를 클릭한 후 다음 을 **클릭합니다.**
+9. 디렉터리  커넥트 페이지에서 포리스트에서 AD DS(Active Directory 도메인 서비스) 포리스트가 선택되어 있는지 **확인한** 다음 도메인 관리자 계정의 이름과 암호를 입력하고 디렉터리 추가를 클릭한 후 다음 을 **클릭합니다.**
     
 10. Azure **AD 로그인 구성 페이지에서** 다음 을 **클릭합니다.**
     
@@ -135,16 +135,16 @@ Azure AD Connect 도구는 AD FS 서버, 웹 응용 프로그램 프록시 서�
   
 **5단계: Azure의 고가용성 페더전 인증 인프라의 최종 구성**
 
-![Azure의 고가용성 Microsoft 365 페더전 인증 인프라의 최종 구성](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
+![Azure의 페더 Microsoft 365 인프라에 대한 고가용성 구성](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
   
-Azure의 Microsoft 365에 대한 고가용성 페더전 인증 인프라가 완료되었습니다.
+Azure에서 사용할 수 있는 고가용성 페더 Microsoft 365 인프라가 완료되었습니다.
   
 ## <a name="see-also"></a>참고 항목
 
 [Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Microsoft 365 개발/테스트 환경에 대한 페더러티드 ID](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Microsoft 365/테스트 환경에 대한 페더티드 ID](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 [Microsoft 365 솔루션 및 아키텍처 센터](../solutions/index.yml)
 
-[Microsoft 365용 페더러티드 ID](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9#bk_federated)
+[Microsoft 365](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9#bk_federated)

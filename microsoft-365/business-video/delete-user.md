@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Microsoft 365에서 사용자 삭제
+title: 비즈니스용 Microsoft 365 사용자 삭제
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,7 +20,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 비즈니스용 Microsoft 365에서 사용자를 삭제하는 방법을 배워야 합니다.
+description: 비즈니스용 앱의 사용자를 삭제하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: 8b2f0db242197aecb04df2261caac3688ad4f1b2
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "51578930"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR?autoplay=false]
 
-직원이 퇴사할 때 비즈니스용 Microsoft 365에서 제거해야 합니다. 이렇게 하기 전에 회사 파일에 액세스하지 못하도록 차단하고, 만든 문서를 보존하고, 사용자 제거와 관련된 다른 여러 관리 작업을 수행해야 합니다.
+직원이 퇴사할 때 비즈니스용 Microsoft 365 제거해야 합니다. 이렇게 하기 전에 회사 파일에 액세스하지 못하도록 차단하고, 만든 문서를 보존하고, 사용자 제거와 관련된 다른 여러 관리 작업을 수행해야 합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 
@@ -40,7 +40,7 @@ ms.locfileid: "51578930"
 1. 제거할 사용자를 선택하고 사용자 **삭제 를 선택합니다.**
 1. 확인란을 확인하여 라이선스를 제거하고 확인란을 확인하여 전자 메일 별칭을 제거합니다.
 1. 사용자에게 대리인 사서함 권한이 있는 경우 여기에서 해당 권한을 제거할 수 있습니다.
-1. 확인란을 확인하여 다른 사용자에게 이전 직원의 OneDrive에 대한 액세스 권한을 부여하고 해당 사용자를 검색합니다.
+1. 확인란을 확인하여 다른 사용자에게 이전 직원의 OneDrive 액세스 권한을 부여하고 해당 사용자를 검색합니다.
 1. 이름을 선택합니다.
 1. 이제 이 사용자는 30일 동안 파일을 새 위치로 이동할 수 있습니다.
 1. 다른 사용자에게 이전 직원의 전자 메일에 대한 액세스 권한을 부여하려면 확인란을 선택하고 사용자 선택 및 전자 메일 **옵션 설정 을 선택합니다.**

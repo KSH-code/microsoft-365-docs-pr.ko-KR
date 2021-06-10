@@ -31,13 +31,13 @@ ms.locfileid: "51579885"
 ---
 # <a name="difference-between-mdm-and-mam"></a>MDM과 MAM의 차이점
 
-Microsoft 365 Business Premium은 비즈니스 데이터를 보호하는 다양한 방법을 제공합니다. 자동으로 설정되는 다양한 보호에 대한 자세한 내용은 [Microsoft 365 Business Premium](../microsoft-365-business-overview.md) 개요 및 비즈니스를 더욱 보호하기 위해 직접 설정할 수 있는 기능을 참조하세요. Windows 10 장치 및 모바일 장치에서 데이터를 보호하는 정책을 설정할 수도 있습니다.
-[Windows 10 장치에](../protection-settings-for-windows-10-devices.md)대한 응용 프로그램 보호 설정을 합니다.
+Microsoft 365 Business Premium 비즈니스 데이터를 보호하는 다양한 방법을 제공합니다. 비즈니스를 Microsoft 365 Business Premium 설정하는 다양한 보호에 대한 자세한 내용은 Overview [of](../microsoft-365-business-overview.md) Microsoft 365 Business Premium, and what you can set up yourself to further protect your business을 참조하세요. 또한 모바일 장치에서 Windows 10 데이터를 보호하는 정책을 설정할 수 있습니다.
+[장치 에 대한 응용 Windows 10 설정합니다.](../protection-settings-for-windows-10-devices.md)
 
 ## <a name="mobile-device-management-or-mdm"></a>모바일 장치 관리 또는 MDM
 
-Microsoft 365 Business Premium을 사용하면 Windows 10 장치의 데이터를 보호하는 정책을 설정할 수 있습니다. 장치가 모바일 장치 관리에 있는 경우 전체 디바이스를 제어하고 장치에서 데이터를 지우고 공장 설정으로 초기화할 수도 있습니다. 자세한 내용은 [Windows 10 PC에](../protection-settings-for-windows-10-pcs.md)대한 장치 보호 설정 설정을 참조하세요.
+Microsoft 365 Business Premium 디바이스에서 데이터를 보호하는 정책을 설정할 Windows 10 있습니다. 장치가 모바일 장치 관리에 있는 경우 전체 디바이스를 제어하고 장치에서 데이터를 지우고 공장 설정으로 초기화할 수도 있습니다. 자세한 내용은 PC에 대한 장치 보호 Windows 10 [설정을 참조하세요.](../protection-settings-for-windows-10-pcs.md)
 
 ## <a name="mobile-application-management-or-mam"></a>모바일 응용 프로그램 관리 또는 MAM
 
-모바일 응용 프로그램 관리를 사용하면 사용자의 개인 장치(예: iPhone 및 Android) 및 개인 Win 10 컴퓨터의 비즈니스 데이터를 제어할 수 있습니다. 응용 프로그램 관리 정책을 사용하여 사용자가 Office 앱에서 개인 앱으로 비즈니스 데이터를 복사하지 못하게 할 수 있습니다. 개인 장치의 Office 앱에서 모든 데이터를 제거할 수도 있습니다. 자세한 내용은 Android 또는 [iOS](../app-protection-settings-for-android-and-ios.md) 장치에 대한 앱 보호 설정 설정 및 Windows 10 장치에 대한 응용 프로그램 보호 설정 [설정을 참조하세요.](../protection-settings-for-windows-10-devices.md)
+모바일 응용 프로그램 관리를 사용하면 사용자의 개인 장치(예: iPhone 및 Android) 및 개인 Win 10 컴퓨터의 비즈니스 데이터를 제어할 수 있습니다. 응용 프로그램 관리 정책을 사용하여 사용자가 비즈니스 데이터를 개인 앱으로 복사하지 못하게 Office 수 있습니다. 개인 장치에서 앱의 모든 Office 제거할 수도 있습니다. 자세한 내용은 Android 또는 [iOS](../app-protection-settings-for-android-and-ios.md) 장치에 대한 앱 보호 설정 설정 및 장치용 응용 프로그램 보호 [Windows 10 참조하세요.](../protection-settings-for-windows-10-devices.md)

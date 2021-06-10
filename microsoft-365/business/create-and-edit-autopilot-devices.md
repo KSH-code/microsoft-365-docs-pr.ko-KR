@@ -25,7 +25,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Microsoft 365 Business Premium에서 AutoPilot을 사용하여 디바이스를 업로드하는 방법을 학습합니다. 장치 또는 장치 그룹에 프로필을 할당할 수 있습니다.
+description: 장치에서 AutoPilot을 사용하여 디바이스를 업로드하는 방법을 Microsoft 365 Business Premium. 장치 또는 장치 그룹에 프로필을 할당할 수 있습니다.
 ms.openlocfilehash: 506ff44e3cb6656b19174e82688b5af141ea2b79
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -43,9 +43,9 @@ ms.locfileid: "51578490"
   
 - Windows 10 버전 1703 이상
     
-- Windows에서 바로 사용할 수 있는 환경을 통해 제공되지 않은 새 장치
+- 2016년 1월 환경을 Windows 새 장치
 
-1. Microsoft 365 관리 센터에서 **장치** \> **AutoPilot 을 선택하세요.**
+1. In the Microsoft 365 admin center, choose **Devices** \> **AutoPilot**.
   
 2. **AutoPilot 페이지에서** 장치 탭 **장치** \> **추가 를 선택합니다.**
     
@@ -57,7 +57,7 @@ ms.locfileid: "51578490"
     
 ## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a>장치 또는 장치 그룹에 프로필 할당
 
-1. Windows **준비 페이지에서** 장치  탭을 선택하고 하나 이상의 장치 옆에 있는 확인란을 선택합니다. 
+1. 장치 **Windows** 페이지에서 장치 탭을  선택하고 하나 이상의 장치 옆에 있는 확인란을 선택합니다. 
     
 2. **장치** 패널의 **할당된 프로필** 드롭다운에서 프로필을 선택합니다. 
     

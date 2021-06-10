@@ -40,7 +40,7 @@ ms.locfileid: "51580257"
 
 프로필이 장치 또는 장치 그룹에 적용됩니다.
   
-1. Microsoft 365 관리 센터에서 **장치** \> **AutoPilot 을 선택하세요.**
+1. In the Microsoft 365 admin center, choose **Devices** \> **AutoPilot**.
   
 2. **AutoPilot 페이지에서** 프로필 탭  프로필 \> **만들기 를 선택합니다.**
     

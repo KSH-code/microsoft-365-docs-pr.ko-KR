@@ -21,7 +21,7 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Microsoft 365에 대한 개인 정보 및 동의 알림으로 로그인 페이지를 사용자 지정합니다.
+description: 로그인 페이지에 대한 개인 정보 및 동의 알림으로 로그인 페이지를 Microsoft 365.
 ms.openlocfilehash: 652566ca1caf46cd224e5205da3bebfd7b25cefa
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "51579809"
 
 비즈니스 또는 캠페인은 사법 기관이 로그인 페이지에 개인 정보 및 동의 통지를 추가하여 온라인 범죄자에 대한 법적 요금을 보다 쉽게 제출할 수 있도록 할 수 있습니다.
 
-브랜드를 사용하여 로그인 페이지를 사용자 지정할 수 있습니다. 사용자가 로그인할 수 있도록 텍스트를 추가하거나 Microsoft 365 리소스에 액세스하기 위한 법적 요구 사항 또는 제한 사항을 설명할 수도 있습니다.
+브랜드를 사용하여 로그인 페이지를 사용자 지정할 수 있습니다. 또한 사용자가 로그인할 수 있도록 텍스트를 추가하거나 리소스에 액세스하기 위한 법적 요구 사항 또는 제한 사항을 Microsoft 365 있습니다.
 
 ## <a name="design-customization-the-text-on-your-sign-in-page"></a>로그인 페이지의 텍스트 사용자 지정 디자인
 

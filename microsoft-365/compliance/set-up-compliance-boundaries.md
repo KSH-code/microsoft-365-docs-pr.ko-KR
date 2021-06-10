@@ -309,7 +309,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
 - 콘텐츠 기반 준수 경계에 제외 필터(예: 검색 권한 필터에서 사용)를 사용하지 `-not()` 않는 것이 좋습니다. 최근에 업데이트된 특성이 있는 콘텐츠가 인덱싱되지 않은 경우 제외 필터를 사용하면 예기치 않은 결과가 발생할 수 있습니다. 
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **Who 및 cmdlet을 사용하여 검색 권한 필터를 New-ComplianceSecurityFilter Set-ComplianceSecurityFilter 수 있습니까?**
   

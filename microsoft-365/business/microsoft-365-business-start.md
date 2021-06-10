@@ -41,7 +41,7 @@ ms.locfileid: "52706461"
 
 Microsoft 365 비즈니스용 도구는 Outlook, Word, Excel 및 기타 Office 제품과 같은 포괄적인 비즈니스 생산성 및 공동 작업 도구 집합으로, 항상 최신 제품입니다. 관리하기 쉬운 엔터프라이즈급 보안으로 모든 iOS, Android 및 Windows 10 장치에서 작업 파일을 보호할 수 있습니다.
 
-## <a name="watch-what-is-microsoft-365-business-premium"></a>Watch: What is what is Microsoft 365 Business Premium
+## <a name="watch-what-is-microsoft-365-business-premium"></a>시청: Microsoft 365 Business Premium이란 무엇인가요?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -65,7 +65,7 @@ Microsoft 365 비즈니스용 라이선스는 최대 300개 라이선스를 위�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: 비즈니스용 Microsoft 365 설정(관리자)

@@ -81,7 +81,7 @@ ms.locfileid: "52245651"
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 

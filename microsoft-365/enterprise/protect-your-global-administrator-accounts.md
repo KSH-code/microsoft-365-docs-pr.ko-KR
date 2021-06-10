@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 전역 관리자 계정 보호
+title: 전역 Microsoft 365 계정 보호
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -20,7 +20,7 @@ search.appverid:
 f1.keywords:
 - NOCSH
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
-description: 이 문서에서는 Microsoft 365 구독에 대한 전역 관리자 액세스를 보호하는 방법을 제공합니다.
+description: 이 문서에서는 사용자 구독에 대한 전역 관리자 액세스를 보호하는 Microsoft 365 제공합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 4ade5fd8070a656f976caa75c16ab92cadb7b64a
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -29,11 +29,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50929051"
 ---
-# <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Microsoft 365 전역 관리자 계정 보호
+# <a name="protect-your-microsoft-365-global-administrator-accounts"></a>전역 Microsoft 365 계정 보호
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-정보 수집 및 피싱 공격을 포함하여 Microsoft 365 구독의 보안 위반은 일반적으로 Microsoft 365 전역 관리자 계정의 자격 증명을 침해하여 수행됩니다. 클라우드의 보안은 사용자와 Microsoft 간의 파트너 관계입니다.
+정보 수집 및 피싱 공격을 포함하여 Microsoft 365 구독의 보안 위반은 일반적으로 전역 관리자 계정의 자격 증명을 Microsoft 365 수행됩니다. 클라우드의 보안은 사용자와 Microsoft 간의 파트너 관계입니다.
   
 - Microsoft 클라우드 서비스는 신뢰 및 보안을 토대로 구축됩니다. Microsoft는 데이터 및 응용 프로그램을 보호하는 데 도움이 되는 보안 제어 및 기능을 제공합니다.
     
@@ -41,30 +41,30 @@ ms.locfileid: "50929051"
     
 Microsoft는 조직을 보호하는 데 도움이 되는 기능을 제공하지만 사용하는 경우만 유효합니다. 사용하지 않는 경우 공격에 취약할 수 있습니다. 전역 관리자 계정을 보호하기 위해 Microsoft는 다음에 대한 자세한 지침을 제공합니다.
   
-1. 전용 Microsoft 365 전역 관리자 계정을 만들고 필요한 경우만 사용하세요.
+1. 전역 Microsoft 365 전용 관리자 계정을 만들고 필요한 경우만 사용하세요.
     
-2. 전용 Microsoft 365 전역 관리자 계정에 대해 다단계 인증을 구성하고 가장 강력한 형태의 보조 인증을 사용하세요.
+2. 전역 관리자 계정에 대해 전용 Microsoft 365 다단계 인증을 구성하고 가장 강력한 형태의 보조 인증을 사용하세요.
     
 > [!Note]
 > 이 문서는 전역 관리자 계정에 초점을 맞추지만 구독의 데이터에 액세스할 수 있는 광범위한 권한이 있는 추가 계정(예: eDiscovery 관리자 또는 보안 또는 규정 준수 관리자 계정)을 동일한 방식으로 보호해야 하는지 여부를 고려해야 합니다. <br > 라이선스를 추가하지 않고 전역 관리자 계정을 만들 수 있습니다.
   
-## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>1단계. 전용 Microsoft 365 전역 관리자 계정을 만들고 필요한 경우만 사용
+## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>1단계. 전역 Microsoft 365 전용 관리자 계정을 만들고 필요한 경우만 사용
 
 사용자 계정에 역할을 할당하는 등 전역 관리자 권한이 필요한 관리 작업은 비교적 적습니다. 따라서 전역 관리자 역할이 할당된 일상적인 사용자 계정을 사용하는 대신 다음 단계를 수행합니다.
   
-1. 전역 관리자 역할이 할당된 사용자 계정 집합을 결정하십시오. Microsoft 365 관리 센터에서 또는 다음 Azure AD(Azure Active) Directory PowerShell for Graph 명령을 사용하여 이 작업을 할 수 있습니다.
+1. 전역 관리자 역할이 할당된 사용자 계정 집합을 결정하십시오. 이 작업을 Microsoft 365 관리 센터에서 또는 다음 Azure AD(Azure Active) 디렉터리 PowerShell을 사용하여 Graph 있습니다.
   
   ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Global Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 
-2. 전역 관리자 역할이 할당된 사용자 계정으로 Microsoft 365 구독에 로그인합니다.
+2. 전역 관리자 역할이 Microsoft 365 계정으로 Microsoft 365 구독에 로그인합니다.
     
 3. 최대 4개의 전용 전역 관리자 사용자 계정을 만들 수 있습니다. **12자 이상 강력한 암호를 사용하세요.** 자세한 [내용은 강력한](https://support.microsoft.com/help/4026406/microsoft-account-create-a-strong-password) 암호 만들기를 참조하세요. 새 계정의 암호를 안전한 위치에 저장합니다. 
     
 4. 각 새 전용 전역 관리자 사용자 계정에 전역 관리자 역할을 할당합니다.
     
-5. Microsoft 365에서 로그인합니다.
+5. 로그인에서 Microsoft 365.
     
 6. 새 전용 전역 관리자 사용자 계정 중 하나를 통해 로그인합니다.
     
@@ -72,9 +72,9 @@ Microsoft는 조직을 보호하는 데 도움이 되는 기능을 제공하지�
     
   - 전역 관리자 역할을 제거합니다.
     
-  - 해당 사용자의 직무 및 책임에 적합한 관리자 역할을 계정에 할당합니다. Microsoft 365의 다양한 관리자 역할에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](/office365/admin/add-users/about-admin-roles)
+  - 해당 사용자의 직무 및 책임에 적합한 관리자 역할을 계정에 할당합니다. 관리자 역할의 다양한 관리자 역할에 대한 자세한 Microsoft 365 관리자 역할 [정보를 참조하세요.](/office365/admin/add-users/about-admin-roles)
     
-8. Microsoft 365에서 로그인합니다.
+8. 로그인에서 Microsoft 365.
     
 결과는 다음을 따라야 합니다.
   
@@ -91,9 +91,9 @@ Microsoft는 조직을 보호하는 데 도움이 되는 기능을 제공하지�
 > [!NOTE]
 > 이 경우 일상적인 사용자 계정으로 로그인하고 전용 전역 관리자 계정으로 로그인하기 위한 추가 단계가 필요합니다. 그러나 전역 관리자 작업에는 가끔씩만 이 작업을 수행해야 합니다. 전역 관리자 계정 위반 후 Microsoft 365 구독을 복구하려면 훨씬 더 많은 단계가 필요하다는 것을 고려하세요.
   
-## <a name="step-2-configure-multi-factor-authentication-for-your-dedicated-microsoft-365-global-administrator-accounts"></a>2단계. 전용 Microsoft 365 전역 관리자 계정에 대해 다단계 인증 구성
+## <a name="step-2-configure-multi-factor-authentication-for-your-dedicated-microsoft-365-global-administrator-accounts"></a>2단계. 전용 전역 관리자 계정에 대해 다단계 Microsoft 365 구성
 
-MFA(다단계 인증)에는 계정 이름 및 암호 이외에 추가 정보가 필요합니다. Microsoft 365는 다음 추가 확인 방법을 지원합니다.
+MFA(다단계 인증)에는 계정 이름 및 암호 이외에 추가 정보가 필요합니다. Microsoft 365 추가 확인 방법을 지원할 수 있습니다.
   
 - Microsoft Authenticator 앱
 
@@ -111,15 +111,15 @@ MFA(다단계 인증)에는 계정 이름 및 암호 이외에 추가 정보가 
 
 클라우드에만 저장된 사용자 계정(클라우드 전용 ID 모델)을 사용하는 중소기업인 경우 각 전용 전역 관리자 계정에 대해 스마트폰으로 전송된 전화 통화 또는 문자 메시지 확인 코드를 사용하여 MFA를 구성하도록 [MFA를](/office365/admin/security-and-compliance/set-up-multi-factor-authentication) 설정하세요.
     
-Microsoft 365 하이브리드 ID 모델을 사용하는 대규모 조직인 경우 더 많은 확인 옵션이 있습니다. 더 강력한 보조 인증 방법에 대한 보안 인프라가 이미 있는 경우 [MFA를](../admin/security-and-compliance/set-up-multi-factor-authentication.md) 설정하고 적절한 확인 방법을 위해 각 전용 전역 관리자 계정을 구성합니다.
+하이브리드 ID 모델을 사용하는 대규모 조직인 Microsoft 365 더 많은 확인 옵션이 있습니다. 더 강력한 보조 인증 방법에 대한 보안 인프라가 이미 있는 경우 [MFA를](../admin/security-and-compliance/set-up-multi-factor-authentication.md) 설정하고 적절한 확인 방법을 위해 각 전용 전역 관리자 계정을 구성합니다.
   
-원하는 강력한 인증 방법에 대한 보안 인프라가 설정되지 않은 경우 Microsoft 365 MFA에 대해 작동할 경우 중간 보안 조치로 Microsoft Authenticator 앱, 전화 통화 또는 전역 관리자 계정에 대해 스마트폰으로 전송된 문자 메시지 확인 코드를 사용하여 MFA를 사용하여 전용 전역 관리자 계정을 구성하는 것이 좋습니다. MFA에서 제공하는 추가 보호 없이는 전용 전역 관리자 계정을 그대로 두지 않습니다.
+원하는 강력한 확인 방법에 대한 보안 인프라가 설정되지 않은 경우 Microsoft 365 MFA에 대해 작동할 경우 중간 보안 조치로 Microsoft Authenticator 앱, 전화 통화 또는 전역 관리자 계정에 대해 스마트폰으로 전송된 문자 메시지 확인 코드를 사용하여 MFA로 전용 전역 관리자 계정을 구성하는 것이 좋습니다. MFA에서 제공하는 추가 보호 없이는 전용 전역 관리자 계정을 그대로 두지 않습니다.
   
-자세한 내용은 [Microsoft 365의 MFA를 참조하세요.](../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md)
+자세한 내용은 에 [대한 MFA를 Microsoft 365.](../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md)
   
-MFA 및 PowerShell을 사용하여 Microsoft 365 서비스에 연결하기 위해 다음 문서를 참조합니다.
+MFA Microsoft 365 PowerShell을 사용하여 Microsoft 365 서비스에 연결하기 위해 다음 문서를 참조합니다.
 
-- [사용자 계정, 그룹 및 라이선스용 Microsoft 365용 PowerShell](connect-to-microsoft-365-powershell.md)
+- [사용자 계정, Microsoft 365 및 라이선스에 대한 PowerShell](connect-to-microsoft-365-powershell.md)
 - [Microsoft Teams](/microsoftteams/teams-powershell-install)
 - [Exchange Online](/powershell/exchange/mfa-connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa)
 - [SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online#to-connect-with-multifactor-authentication-mfa)
@@ -141,7 +141,7 @@ Azure AD 테넌트 및 관리자 계정에서 Azure PIM을 사용하도록 설�
 
 ### <a name="azure-ad-privileged-identity-management"></a>Azure AD Privileged Identity Management
 
-전역 관리자 계정에 전역 관리자 역할이 영구적으로 할당되는 대신 Azure AD PIM(Privileged Identity Management)을 사용하여 필요할 때 전역 관리자 역할의 정시에 할당할 수 있습니다.
+전역 관리자 계정에 전역 관리자 역할이 영구적으로 할당되지 않고, 필요한 경우 Azure AD Privileged Identity Management(PIM)를 사용하여 필요할 때 전역 관리자 역할의 정시에 할당할 수 있습니다.
   
 전역 관리자 계정은 영구 관리자에서 적격 관리자로 변경됩니다. 전역 관리자 역할은 누군가가 필요로 할 때까지 비활성입니다. 그런 다음 정품 인증 프로세스를 완료하여 미리 정해진 시간 동안 전역 관리자 계정에 전역 관리자 역할을 추가합니다. 시간이 만료되면 PIM은 전역 관리자 계정에서 전역 관리자 역할을 제거합니다.
   
@@ -149,7 +149,7 @@ PIM과 이 프로세스를 사용하는 경우 전역 관리자 계정이 악의
 
 PIM은 Microsoft 365 E5에 포함된 Azure Active Directory Premium P2와 함께 제공됩니다.  또는 관리자 계정에 대해 개별 Azure Active Directory Premium P2 라이선스를 구매할 수 있습니다.
   
-자세한 내용은 [Azure AD Privileged Identity Management를 참조하세요.](/azure/active-directory/active-directory-privileged-identity-management-configure)
+자세한 내용은 Azure AD 2016을 [Privileged Identity Management.](/azure/active-directory/active-directory-privileged-identity-management-configure)
   
 
 ### <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
@@ -168,13 +168,13 @@ PIM은 Microsoft 365 E5에 포함된 Azure Active Directory Premium P2와 함께
 
 자세한 내용은 [Privileged access management를 참조하십시오.](/office365/securitycompliance/privileged-access-management-overview)
 
-### <a name="security-information-and-event-management-siem-software-for-microsoft-365-logging"></a>Microsoft 365 로깅을 위한 SIEM(보안 정보 및 이벤트 관리) 소프트웨어
+### <a name="security-information-and-event-management-siem-software-for-microsoft-365-logging"></a>보안 정보 및 이벤트 관리(SIEM) 로깅을 Microsoft 365 소프트웨어
 
-서버에서 실행되는 SIEM 소프트웨어는 응용 프로그램 및 네트워크 하드웨어에서 만든 보안 경고 및 이벤트를 실시간으로 분석합니다. SIEM 서버가 Microsoft 365 보안 경고 및 이벤트를 분석 및 보고 기능에 포함하도록 허용하기 위해 Azure AD를 SEIM에 통합합니다. [Azure 로그 통합 소개를 참조하세요.](/azure/security/security-azure-log-integration-overview)
+서버에서 실행되는 SIEM 소프트웨어는 응용 프로그램 및 네트워크 하드웨어에서 만든 보안 경고 및 이벤트를 실시간으로 분석합니다. SIEM 서버에서 분석 및 보고 기능에 Microsoft 365 보안 경고 및 이벤트를 포함하도록 허용하기 위해 Azure AD를 SEIM에 통합합니다. 에 [대한 소개를 Azure Log Integration.](/azure/security/security-azure-log-integration-overview)
 
 ## <a name="next-step"></a>다음 단계
 
-Microsoft 365 구독의 ID를 설정하는 경우 다음을 참조하세요.
+Microsoft 365 ID를 설정하는 경우 다음을 참조하세요.
 
 - [클라우드 전용 ID를](cloud-only-identities.md) 사용하는 경우 클라우드 전용 ID
 - [하이브리드 ID를](prepare-for-directory-synchronization.md) 사용하는 경우 디렉터리 동기화 준비
@@ -182,4 +182,4 @@ Microsoft 365 구독의 ID를 설정하는 경우 다음을 참조하세요.
   
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 보안 로드맵](/office365/securitycompliance/security-roadmap)
+[Microsoft 365 로드맵](/office365/securitycompliance/security-roadmap)

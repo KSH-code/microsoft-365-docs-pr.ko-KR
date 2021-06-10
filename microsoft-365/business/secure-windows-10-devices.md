@@ -26,7 +26,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: Windows 10 장치가 직장 또는 학교 계정에 로그인할 때 받을 기본 장치 정책의 설정을 구성하는 방법을 자세히 알아보습니다.
+description: 자신의 직장 또는 학교 계정에 로그인할 때 모든 Windows 10 기본 장치 정책의 설정을 구성하는 방법을 학습합니다.
 ms.openlocfilehash: 86db1c152f9f6ac1fe6093b4a55a74b69fbd8b0f
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -36,9 +36,9 @@ ms.locfileid: "51579977"
 ---
 # <a name="secure-windows-10-devices"></a>Windows 10 장치 보안
 
-이 문서는 Microsoft 365 Business Premium에 적용됩니다.
+이 문서는 이 문서에 Microsoft 365 Business Premium.
 
-여기서 구성하는 설정은 Windows 10의 기본 장치 정책에 해당합니다. 모바일 장치 및 PC를 포함하여 Windows 10 장치를 연결한 모든 사용자는 직장 계정으로 로그인하여 이러한 설정을 자동으로 받게 됩니다. 설치 중에 기본 정책을 수락하고 특정 사용자 그룹을 대상으로 하는 정책은 나중에 추가하는 것이 권장됩니다.
+여기서 구성하는 설정은 Windows 10의 기본 장치 정책에 해당합니다. 모바일 장치 및 PC를 포함하여 Windows 10 계정으로 로그인하여 디바이스를 연결하는 모든 사용자는 이러한 설정을 자동으로 받게 됩니다. 설치 중에 기본 정책을 수락하고 특정 사용자 그룹을 대상으로 하는 정책은 나중에 추가하는 것이 권장됩니다.
   
 ## <a name="settings-to-secure-windows-10-devices"></a>Windows 10 장치의 보안 설정
 

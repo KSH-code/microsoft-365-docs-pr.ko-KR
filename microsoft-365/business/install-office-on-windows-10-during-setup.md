@@ -25,7 +25,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Microsoft 365 Business Premium을 사용하여 사용자가 모든 Windows 10 장치에서 최신 버전의 Office를 사용할 수 있도록 하는 방법을 자동으로 검색합니다.
+description: 이 방법을 Microsoft 365 Business Premium 사용하여 사용자가 모든 Office 장치에서 최신 버전의 버전을 사용할 수 Windows 10 있습니다.
 ms.openlocfilehash: d3c62eb42ea73c7af6df6012dbc9488828cd1ba8
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -37,6 +37,6 @@ ms.locfileid: "51580177"
 
 ![을(를) 포인트로 하는 https://aka.ms/aboutM365preview 배너입니다.](../media/m365admincenterchanging.png)
 
-이 설정은 기본적으로 해제되어 있습니다. 이 기능을 켜서 사용자가 모든 Windows 10 장치에서 최신 버전의 Office를 사용할 수 있도록 하지만 먼저 모든 선행 장치가 충족되는지 확인할 수 있습니다. 소프트웨어를 장치에 푸시하려면 Microsoft 365 Business Premium으로 Office 클라이언트 배포 준비에 설명된 다른 요구 사항 외에도 이 설정에 대해 [사용자에게 Microsoft 365 Business Premium](prepare-for-office-client-deployment.md)라이선스가 있어야 합니다.
+이 설정은 기본적으로 해제되어 있습니다. 이 기능을 켜서 사용자가 모든 Office 장치에서 최신 버전의 Windows 10 수 있지만 먼저 모든 선행 Windows 10 충족하는지 확인할 수 있습니다. 소프트웨어를 장치에 푸시하려면 Microsoft 365 Business Premium 사용자에 대한 사용이 허가되어야 합니다. 또한 Office 클라이언트 배포 준비에 설명된 다른 요구 [사항도 Microsoft 365 Business Premium.](prepare-for-office-client-deployment.md)
   
 설치하는 동안 기본 설정을 수락하는 것이 좋습니다.

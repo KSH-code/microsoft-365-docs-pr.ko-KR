@@ -22,7 +22,7 @@ search.appverid:
 - MOE150
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
-description: 비즈니스용 Microsoft 365에서 AutoPilot용 CSV 파일을 만드는 방법을 학습합니다.
+description: 비즈니스용 앱의 AutoPilot에 대한 CSV Microsoft 365 방법을 학습합니다.
 ms.openlocfilehash: 13d7fbffd8d6fbe1af0dde55a4e98688060d9da8
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -34,7 +34,7 @@ ms.locfileid: "51579221"
 
 ## <a name="device-list-csv-file-format"></a>장치 목록 .csv 파일 형식
 
-Windows Autopilot을 통해 장치를 관리하고 배포하려면 장치에 대한 특정 정보가 포함된 .csv 파일이 필요합니다.
+Autopilot을 통해 디바이스를 Windows 배포하려면 장치에 대한 특정 .csv 포함하는 .csv 파일이 필요합니다.
   
 장치 목록 파일의 열에는 지정된 순서대로 다음 헤더가 있어야 합니다.
   
@@ -50,8 +50,8 @@ Windows Autopilot을 통해 장치를 관리하고 배포하려면 장치에 대
   
 ## <a name="related-articles"></a>관련 문서
 
-[비즈니스용 Microsoft 365 설명서 및 리소스](../../business/index.yml)
+[Microsoft 365 문서 및 리소스에 대한 자세한 설명](../../business/index.yml)
   
 [비즈니스용 Microsoft 365 시작](../../business/microsoft-365-business-overview.md)
   
-[비즈니스용 Microsoft 365 관리](../../business/manage.md)
+[비즈니스 Microsoft 365 관리](../../business/manage.md)

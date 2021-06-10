@@ -37,7 +37,7 @@ ms.locfileid: "51580037"
 ---
 # <a name="protect-work-files-on-devices"></a>장치에서 작업 파일 보호
 
-이 문서는 Microsoft 365 Business Premium에 적용됩니다.
+이 문서는 이 문서에 Microsoft 365 Business Premium.
 
 오늘날의 세계에서 사용자는 장치에 연결됩니다. 개인 및 직장 생활이 충돌하면 회사 데이터가 직원의 개인 장치에 저장될 수 있습니다. 여기서 구성하는 설정을 사용하면 사용자의 개인 설정이나 데이터에 영향을 주지 않고도 제어를 되돌려 작업 파일에 대한 보호 기능을 제공할 수 있습니다.
   

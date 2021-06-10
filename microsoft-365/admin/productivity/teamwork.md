@@ -28,7 +28,7 @@ ms.locfileid: "51579161"
 ---
 # <a name="teamwork--people-experiences"></a>팀워크 - 사람 환경
 
-생산성 점수는 Microsoft 365를 활용하고 이를 지원하는 기술 환경을 통해 조직의 디지털 변환 여정에 대한 인사이트를 제공합니다. 조직의 점수는 사용자 및 기술 환경 측정값을 반영하며 사용자와 비슷한 조직의 벤치마크와 비교할 수 있습니다. 팀워크 범주는 사람들이 경험하는 측정의 일부입니다. 자세한 내용은 생산성 점수 개요를 [확인하고](productivity-score.md) Microsoft의 개인 정보 [취급 방침을 참조하세요.](https://privacy.microsoft.com/privacystatement)
+생산성 점수는 조직의 디지털 변환 여정에 대한 인사이트를 Microsoft 365 지원하는 기술 환경을 제공합니다. 조직의 점수는 사용자 및 기술 환경 측정값을 반영하며 사용자와 비슷한 조직의 벤치마크와 비교할 수 있습니다. 팀워크 범주는 사람들이 경험하는 측정의 일부입니다. 자세한 내용은 생산성 점수 개요를 [확인하고](productivity-score.md) Microsoft의 개인 정보 [취급 방침을 참조하세요.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -52,32 +52,32 @@ ms.locfileid: "51579161"
 
 ### <a name="primary-insight"></a>기본 인사이트
 
-기본 인사이트는 Microsoft Teams에서 전자 메일 및 메시지를 사용하여 통신하고 공유 작업 영역의 클라우드의 콘텐츠와 상호 작용하는 모든 사용자들을 검색합니다. Microsoft 365 내에서 Microsoft 365 그룹은 그룹 사서함으로 전자 메일을 보내고, SharePoint 팀 사이트의 파일을 공유하고, Microsoft Teams를 통해 채널 메시지를 보낼 수 있는 기능을 통해 공유 작업 영역으로 모이는 토대입니다.
+기본 인사이트는 공유 작업 영역의 클라우드에서 전자 메일 및 Microsoft Teams 통신하는 모든 사용자와 상호 작용을 합니다. Microsoft 365 내에서 Microsoft 365 그룹은 그룹 사서함으로 전자 메일을 보내고, SharePoint 팀 사이트의 파일을 공유하고, 공유를 통해 채널 메시지를 보내는 기능을 통해 공유 작업 영역으로 모이는 Microsoft Teams.
 
 :::image type="content" source="../../media/teamwork-score.png" alt-text="팀워크 점수에 대한 기본 정보를 보여 제공하는 차트입니다.":::
 
 1. **헤더:** 다음 활동 중 하나를 수행하는 사용자 비고 섹션의 주요 메트릭을 제공합니다.
-      - Exchange를 통해 그룹 사서함으로 전자 메일 보내기
-      - Teams를 통해 채널 메시지 보내기
-      - SharePoint 팀 사이트에서 콘텐츠 읽기 및 만들기(콘텐츠 상호 작용으로 총체적으로 참조)
+      - 전자 메일을 통해 그룹 사서함으로 Exchange.
+      - 채널 메시지를 통해 Teams
+      - 팀 사이트에서 콘텐츠 읽기 및 만들기(콘텐츠 상호 작용으로 SharePoint 참조).
 
         다음 활동(공유 작업 영역 내부 또는 외부)을 수행하는 모든 사용자에 대한 백분율입니다.
-        - Exchange를 통해 전자 메일 보내기
-        - Microsoft Teams에서 메시지 보내기(채팅 또는 채널 메시지)
-        - OneDrive 또는 SharePoint에서 콘텐츠 읽기 및 만들기
+        - 전자 메일을 통해 Exchange.
+        - 메시지(채팅 또는 채널 메시지)를 Microsoft Teams.
+        - 콘텐츠 읽기 및 만들기 OneDrive 또는 SharePoint.
 
-            또한 Exchange, Microsoft Teams 또는 SharePoint 서비스 중 하나 이상에 액세스할 수 있습니다.
+            또한 다음 서비스 중 하나 이상에 액세스할 수 Exchange, Microsoft Teams 또는 SharePoint
 
 1. **본문:** 공유 작업 영역 내에서 콘텐츠 통신 및 상호 작용이 조직에서 생산성에 긍정적인 결과를 내는 방법에 대한 자세한 정보를 제공합니다.
 2. **시각화(현재 상태):**
       - 파란색 부분이 헤더에 표현된 백분율을 나타내는 가로 막대
-      - 헤더에 표시된 백분율을 계산하는 데 사용되는 분수(숫자/분모)를 강조합니다.
-        - Numerator: Exchange를 통해 그룹 사서함으로 전자 메일을 보내는 조직의 사용자 또는 Teams를 통해 채널 메시지를 보내거나 SharePoint 팀 사이트에서 콘텐츠를 읽고 만드는 사용자 수입니다.
-        - 분노: Exchange를 통해 전자 메일을 보내거나 Microsoft Teams에서 메시지(채팅 또는 채널 메시지)를 보내거나 OneDrive 또는 SharePoint에서 콘텐츠를 읽고 만들고, Exchange, Microsoft Teams 또는 SharePoint 서비스 중 하나 이상에 액세스할 수 있는 사용자 수입니다.
+      - 하이라이트 표시된 백분율을 계산하는 데 사용되는 분수(숫자/분모)입니다.
+        - Numerator: Exchange 통해 그룹 사서함에 전자 메일을 보내는 조직의 사용자 또는 Teams 또는 SharePoint 팀 사이트에서 콘텐츠를 읽고 만드는 조직의 사용자 수입니다.
+        - 분모: Exchange 또는 Microsoft Teams 또는 OneDrive 또는 SharePoint에서 메시지를 보내거나 메시지를 보내거나Exchange, Microsoft Teams 또는 SharePoint 중 하나 이상의 서비스에 액세스할 수 있는 사용자 수입니다.
    - 키 메트릭의 피어 벤치마크 값도 백분율로 표시됩니다.
 3. **팀워크에 대한 리소스 보기:** 도움말 콘텐츠를 확인하려면 이 링크를 선택합니다.
 
-#### <a name="trend-visualization-of-the-primary-insight"></a>기본 인사이트의 추세 시각화
+#### <a name="trend-visualization-of-the-primary-insight"></a>추세 정보의 시각화
 
 다음 차트는 기본 인사이트에서 숫자와 주요 메트릭의 디노이터의 추세를 제공합니다. 공유 작업 공간에 참여한 사용자 수와 지난 180일 동안 콘텐츠와 통신하거나 상호 작용하는 사용자 수를 보여줍니다. 라인 차트의 각 데이터 포인트는 지난 28일간의 활동 집계입니다.
 
@@ -103,12 +103,12 @@ ms.locfileid: "51579161"
       - **전자 메일 보내기**: 색이 있는 부분과 분수는 그룹 사서함에 전자 메일을 보내는 사용자 비율을 나타 내는 비율입니다. 분수는 다음으로 구성됩니다.
         - Numerator: 지난 28일 동안 그룹 사서함으로 전자 메일을 보내는 사용자입니다.
         - 분노: 지난 28일 동안 전자 메일을 보내는 사용자입니다. 통신 생산성 점수의 기본 인사이트에서 전자 메일을 보내는 것으로 표시된 사용자 그룹과 동일합니다.
-      - **메시지 보내기:** 색이 있는 부분과 분수는 Microsoft Teams의 채널에서 메시지를 보내는 사용자 비율을 나타 내는 비율입니다. 분수는 다음으로 구성됩니다.
+      - **메시지 보내기**: 색이 있는 부분과 분수는 채널의 채널에서 메시지를 보내는 Microsoft Teams. 분수는 다음으로 구성됩니다.
         - Numerator: 지난 28일 이내에 채널 메시지를 보내는 사람입니다.
-        - 분노: 지난 28일 동안 채팅 또는 채널 메시지를 보내는 사용자입니다. 이는 생산성 점수의 통신 범주에 대한 기본 인사이트에서 Microsoft Teams에서 메시지를 보내는 것으로 표시된 사용자 그룹과 동일합니다.
-    - **콘텐츠 만들기:** 색이 있는 부분과 분수는 Microsoft 365 SharePoint 팀 사이트에서 콘텐츠를 읽거나 만드는 사용자 비율을 나타났습니다.
-        - Numerator: Microsoft 365 그룹 연결된 팀 사이트에서 콘텐츠를 읽거나 만드는 사용자 수입니다.
-        - 분노: 지난 28일 동안 OneDrive 또는 SharePoint 사이트에서 모든 종류의 콘텐츠를 읽거나 만든 SharePoint에 액세스할 수 있는 사용자 수입니다.
+        - 분노: 지난 28일 동안 채팅 또는 채널 메시지를 보내는 사용자입니다. 이 그룹은 생산성 점수의 통신 범주에 대한 기본 Microsoft Teams 메시지 전송으로 표시된 동일한 사람 그룹입니다.
+    - **콘텐츠 만들기:** 색이 있는 부분과 분수는 팀 사이트에서 콘텐츠를 읽거나 만드는 Microsoft 365 SharePoint 비율입니다.
+        - Numerator: 연결된 팀 사이트에서 콘텐츠를 Microsoft 365 수입니다.
+        - 분노: SharePoint 액세스 권한이 있는 사용자 수입니다. 지난 28일 동안 OneDrive 또는 SharePoint 사이트의 콘텐츠를 읽거나 만든 사용자 수입니다.
 4. **관련 콘텐츠 보기:** 도움말 콘텐츠를 확인하려면 이 링크를 선택합니다.
 
 ### <a name="breakdown-of-workspace-engagement-by-size-and-age"></a>규모 및 연령별 작업 영역 참여도 분석
@@ -141,23 +141,23 @@ ms.locfileid: "51579161"
       - **콘텐츠 읽기 또는 만들기:** 지난 28일 동안 매주 콘텐츠를 읽거나 만드는 일/일/1일/2-3일/4일이 없는 작업 영역의 백분율입니다.
 4. **관련 콘텐츠 보기:** 도움말 콘텐츠를 확인하려면 이 링크를 선택합니다.
 
-### <a name="use-of-teams-within-microsoft-teams"></a>Microsoft Teams 내에서 팀 사용
+### <a name="use-of-teams-within-microsoft-teams"></a>팀 내에서 팀 Microsoft Teams
 
-:::image type="content" source="../../media/useof-teams-within-teams.png" alt-text="Microsoft Teams에서 사용되는 공유 작업 영역 수를 보여하는 차트입니다.":::
+:::image type="content" source="../../media/useof-teams-within-teams.png" alt-text="공유 작업 영역이 사용되는 공유 작업 영역의 수를 보여 Microsoft Teams.":::
 
-1. **헤더:** Microsoft Teams 팀이 연결된 공유 작업 영역의 수를 보여줍니다.
-2. **본문:** Microsoft Teams 팀을 공유 작업 영역으로 연결하여 팀워크에서 관련 사용자가 보다 효과적으로 작업할 수 있도록 하는 값에 대한 정보를 제공합니다.
-3. **시각화:** 도넛형 차트의 색이 있는 부분은 Microsoft Teams 팀이 연결된 작업 영역의 백분율을 반영합니다. 백분율은 다음과 같이 계산됩니다.
+1. **헤더:** 팀이 연결된 공유 작업 영역의 Microsoft Teams 수를 보여 주며,
+2. **본문:** 공유 작업 Microsoft Teams 팀이 연결된 값에 대한 정보를 제공하면 팀워크에 연결된 사용자가 보다 효과적으로 작업할 수 있습니다.
+3. **시각화:** 도넛형 차트의 색이 있는 부분은 팀이 연결된 작업 영역의 Microsoft Teams 비율을 반영합니다. 백분율은 다음과 같이 계산됩니다.
 
-      - Numerator: 지난 28일 동안 Microsoft Teams 팀이 연결된 조직의 공유 작업 영역 수입니다.
+      - Numerator: 조직에서 지난 28일 동안 조직에 Microsoft Teams 팀이 연결된 공유 작업 영역 수입니다.
       - 공무원: 지난 28일 동안의 공유 작업 영역 수입니다.
 
-        도넛형 차트의 가운데에 있는 숫자는 Microsoft Teams 팀이 연결된 공유 작업 영역의 총 수를 나타내는 숫자입니다.
+        도넛형 차트의 가운데에 있는 숫자는 여러 팀이 연결된 공유 작업 영역의 Microsoft Teams 수를 나타내는 숫자입니다.
 4. **관련 콘텐츠 보기:** 도움말 콘텐츠를 확인하려면 이 링크를 선택합니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 앱 상태 - 기술](apps-health.md) 환경(문서)\
+[Microsoft 365 앱 상태 – 기술](apps-health.md) 환경(문서)\
 [커뮤니케이션 - 사람](communication.md) 환경(문서)\
 [콘텐츠 공동 작업 - 사람](content-collaboration.md) 환경(문서)\
 [모임 - 사람](meetings.md) 환경(문서)\
