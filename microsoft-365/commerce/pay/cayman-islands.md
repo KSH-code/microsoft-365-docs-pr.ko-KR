@@ -20,16 +20,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52536985"
 ---
-# <a name="payment-information-for-cayman-islands"></a><span data-ttu-id="8f5ce-103">케이맨 제도의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="8f5ce-103">Payment information for Cayman Islands</span></span>
+# <a name="payment-information-for-cayman-islands"></a><span data-ttu-id="adb1d-103">케이맨 제도의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="adb1d-103">Payment information for Cayman Islands</span></span>
 
-<span data-ttu-id="8f5ce-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="8f5ce-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="adb1d-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="adb1d-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="8f5ce-105">USD로만 결제하고 송장 번호를 송장 송장 번호로 송장으로 결제합니다.</span><span class="sxs-lookup"><span data-stu-id="8f5ce-105">Please pay in USD only and reference your invoice number(s) on the payment remittance.</span></span>
+<span data-ttu-id="adb1d-105">USD로만 결제하고 송장 번호를 송장 송장 번호로 송장으로 결제합니다.</span><span class="sxs-lookup"><span data-stu-id="adb1d-105">Please pay in USD only and reference your invoice number(s) on the payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="8f5ce-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="8f5ce-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="adb1d-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="adb1d-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="8f5ce-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="8f5ce-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="8f5ce-108">**Branch:** 달라</span><span class="sxs-lookup"><span data-stu-id="8f5ce-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="8f5ce-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="8f5ce-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="8f5ce-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="8f5ce-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="8f5ce-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="8f5ce-111">**Account Name:** Microsoft</span></span>
+<span data-ttu-id="adb1d-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="adb1d-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="adb1d-108">**Branch:** 달라</span><span class="sxs-lookup"><span data-stu-id="adb1d-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="adb1d-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="adb1d-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="adb1d-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="adb1d-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="adb1d-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="adb1d-111">**Account Name:** Microsoft</span></span>
