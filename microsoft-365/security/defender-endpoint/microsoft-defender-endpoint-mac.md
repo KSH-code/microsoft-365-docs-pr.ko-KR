@@ -91,7 +91,7 @@ M1 프로세서가 있는 macOS 장치는 지원되지 않습니다.
 
 서비스를 사용하도록 설정한 후 네트워크 또는 방화벽에서 해당 서비스 및 끝점 간의 아웃바운드 연결을 허용하도록 구성해야 할 수 있습니다.
 
-### <a name="licensing-requirements"></a>라이선스 요구 사항
+### <a name="licensing-requirements"></a>라이선스 요구사항
 
 Mac의 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선싱 제품 중 하나가 필요합니다.
 

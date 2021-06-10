@@ -23,7 +23,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52300218"
 ---
-# <a name="threat-explorer-and-real-time-detections-basics"></a>위협 탐색기 및 실시간 검색 기본
+# <a name="threat-explorer-and-real-time-detections-basics"></a>위협 탐색기 및 실시간 감지 기본 정보
 
 이 문서의 내용
 

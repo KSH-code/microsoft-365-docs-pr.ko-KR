@@ -57,18 +57,18 @@ Microsoft Defender 바이러스 백신 실행되는 끝점 및 장치에 자동�
 
 | Windows 버전   | 바이러스 백신/맬웨어 방지 솔루션  | 온보더드- <br/> Endpoint용 Defender | Microsoft Defender 바이러스 백신 상태     |
 |------|------|-------|-------|
-| Windows 10  | Windows Defender 바이러스 백신 | 예  | 활성 모드 | 
-| Windows 10  | Windows Defender 바이러스 백신 | 아니요   | 활성 모드 |
-| Windows 10  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 예  | 수동 모드(자동) |
-| Windows 10  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 아니요   | 비활성화 모드(자동)    |
-| Windows 서버, 버전 1803 이상 <p> Windows Server 2019 | Windows Defender 바이러스 백신  | 예 |         활성 모드  |
-| Windows 서버, 버전 1803 이상 <p> Windows Server 2019 | Windows Defender 바이러스 백신 | 아니요  | 활성 모드 |
-| Windows 서버, 버전 1803 이상 <p> Windows Server 2019 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 예  | Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다(수동) <sup> [[1]](#fn1)<sup>  | 
-| Windows 서버, 버전 1803 이상 <p> Windows Server 2019 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 아니요  | Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[2]](#fn2)<sup></sup>  |
-| Windows Server 2016 | Windows Defender 바이러스 백신 | 예 | 활성 모드 |
-| Windows Server 2016 | Windows Defender 바이러스 백신 | 아니요 | 활성 모드 |
-| Windows Server 2016 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 예 | Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[2]](#fn2)<sup> |
-| Windows Server 2016 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 아니요 | Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[2]](#fn2)<sup> |
+| Windows 10  | Windows Defender 바이러스 백신 | 네.  | 활성 모드 | 
+| Windows 10  | Windows Defender 바이러스 백신 | 아니요.   | 활성 모드 |
+| Windows 10  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 네.  | 수동 모드(자동) |
+| Windows 10  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 아니요.   | 비활성화 모드(자동)    |
+| Windows 서버, 버전 1803 이상 <p> Windows Server 2019 | Windows Defender 바이러스 백신  | 네. |         활성 모드  |
+| Windows 서버, 버전 1803 이상 <p> Windows Server 2019 | Windows Defender 바이러스 백신 | 아니요.  | 활성 모드 |
+| Windows 서버, 버전 1803 이상 <p> Windows Server 2019 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 네.  | Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다(수동) <sup> [[1]](#fn1)<sup>  | 
+| Windows 서버, 버전 1803 이상 <p> Windows Server 2019 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 아니요.  | Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[2]](#fn2)<sup></sup>  |
+| Windows Server 2016 | Windows Defender 바이러스 백신 | 네. | 활성 모드 |
+| Windows Server 2016 | Windows Defender 바이러스 백신 | 아니요. | 활성 모드 |
+| Windows Server 2016 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 네. | Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[2]](#fn2)<sup> |
+| Windows Server 2016 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 아니요. | Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[2]](#fn2)<sup> |
 
 (<a id="fn1">1)</a>Windows Server, 버전 1803 이상 또는 Windows Server 2019에서는 microsoft가 아닌 바이러스 백신 제품을 설치할 때 Microsoft Defender 바이러스 백신 수동 모드가 자동으로 전환되지 않습니다. 이러한 경우 [Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md#need-to-set-microsoft-defender-antivirus-to-passive-mode) 바이러스 백신 제품을 여러 개 설치하여 문제를 방지할 수 있는 수동 모드로 설정하십시오. PowerShell, Microsoft Defender 바이러스 백신 또는 레지스트리 키를 사용하여 수동 모드로 설정할 수 있습니다.
 
@@ -101,10 +101,10 @@ Microsoft Defender 바이러스 백신 [서버](microsoft-defender-antivirus-on-
 
 |보호 |활성 모드 |수동 모드 |차단 모드의 EDR |사용 안 되거나 제거 |
 |:---|:---|:---|:---|:---|
-| [실시간 보호 및](configure-real-time-protection-microsoft-defender-antivirus.md) [클라우드 제공 보호](enable-cloud-protection-microsoft-defender-antivirus.md) | 예 | 아니요 <sup> [[3](#fn3)]<sup> | 아니요 | 아니요 |
+| [실시간 보호 및](configure-real-time-protection-microsoft-defender-antivirus.md) [클라우드 제공 보호](enable-cloud-protection-microsoft-defender-antivirus.md) | 네. | 아니요 <sup> [[3](#fn3)]<sup> | 아니요 | 아니요 |
 | [제한된 주기적 검사 가용성](limited-periodic-scanning-microsoft-defender-antivirus.md) | 아니요 | 아니요 | 아니요 | 예 |
 | [파일 검색 및 검색 정보](customize-run-review-remediate-scans-microsoft-defender-antivirus.md) | 예 | 예 | 예 | 아니요 |
-|  [위협 수정](configure-remediation-microsoft-defender-antivirus.md) | 예 | 참고 <sup> 참조 [[4](#fn4)]<sup> | 예 | 아니요 |
+|  [위협 수정](configure-remediation-microsoft-defender-antivirus.md) | 네. | 참고 <sup> 참조 [[4](#fn4)]<sup> | 예 | 아니요 |
 | [보안 인텔리전스 업데이트](manage-updates-baselines-microsoft-defender-antivirus.md) | 예 | 예 | 예 | 아니요 |
 
 (<a id="fn3">3)</a>일반적으로 Microsoft Defender 바이러스 백신 수동 모드인 경우 실시간 보호는 활성화되어 있으며 수동 모드에서도 차단 또는 적용을 제공하지 않습니다. 

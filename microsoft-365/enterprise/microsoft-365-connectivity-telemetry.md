@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
-description: 이 문서에는 Microsoft 365 연결 원격 분석에 대한 정보가 포함되어 있습니다.
+description: 이 문서에는 연결 원격 분석에 Microsoft 365 정보가 포함되어 있습니다.
 ms.openlocfilehash: 9ad7abbabc293e1b283d6742966982b09f0bffa1
 ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT

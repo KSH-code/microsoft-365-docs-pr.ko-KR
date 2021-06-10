@@ -28,7 +28,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/28/2021
 ms.locfileid: "52073964"
 ---
-# <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 고급 헌팅을 통해 위협을 사전 대응
+# <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Defender에서 고급 헌팅을 통해 위협을 Microsoft 365 헌팅
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -46,14 +46,14 @@ ms.locfileid: "52073964"
 
 동일한 위협 헌팅 쿼리를 사용하여 사용자 지정 탐지 규칙을 만들 수 있습니다. 이러한 규칙은 자동으로 실행되어 의심되는 위반 활동, 잘못 구성된 컴퓨터 및 기타 결과를 확인하고 이에 대응합니다.
 
-이 기능은 [끝점용 Microsoft Defender의 고급 헌팅과 유사합니다.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Microsoft 365 보안 센터에서 사용할 수 있는 이 기능은 다음에서 더 광범위한 데이터 집합을 검사하는 쿼리를 지원합니다.
+이 기능은 [끝점용 Microsoft Defender의 고급 헌팅과 유사합니다.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Microsoft 365 센터에서 사용할 수 있는 이 기능은 다음에서 더 광범위한 데이터 집합을 검사하는 쿼리를 지원합니다.
 
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
 - Office 365용 Microsoft Defender
 - Microsoft Cloud App Security
 - ID용 Microsoft Defender
 
-고급 헌팅을 사용하 고 [Microsoft 365 Defender 를 켜야 합니다.](m365d-enable.md)
+고급 헌팅을 사용 하 고 [를 켜면 Microsoft 365.](m365d-enable.md)
 
 ## <a name="get-started-with-advanced-hunting"></a>고급 헌팅 시작
 
@@ -69,9 +69,9 @@ ms.locfileid: "52073964"
 | **사용자 지정 검색 규칙 만들기** | 고급 헌팅 쿼리를 사용하여 경고를 트리거하고 응답 작업을 자동으로 수행할 수 있는 방법을 이해합니다. | - [사용자 지정 검색 개요](custom-detections-overview.md) <br />- [사용자 지정 검색 규칙](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>액세스 액세스
-고급 헌팅 또는 [기타 Microsoft 365 Defender](microsoft-365-defender.md) 기능을 사용하려면 Azure Active Directory에서 적절한 역할이 필요합니다. 고급 헌팅에 필요한 역할 및 사용 [권한에 대해 읽어 읽습니다.](custom-roles.md)
+고급 헌팅 또는 기타 Microsoft 365 [Defender](microsoft-365-defender.md) 기능을 사용하려면 해당 기능에 적절한 역할이 Azure Active Directory. 고급 헌팅에 필요한 역할 및 사용 [권한에 대해 읽어 읽습니다.](custom-roles.md)
 
-또한 끝점 데이터에 대한 액세스는 끝점용 Microsoft Defender의 RBAC(역할 기반 액세스 제어) 설정에 따라 결정됩니다. [Microsoft 365 Defender에 대한 액세스 관리에 대해 읽어 읽습니다.](m365d-permissions.md)
+또한 끝점 데이터에 대한 액세스는 끝점용 Microsoft Defender의 RBAC(역할 기반 액세스 제어) 설정에 따라 결정됩니다. [Defender 에 대한 액세스 Microsoft 365 대해 읽어 읽습니다.](m365d-permissions.md)
 
 
 ## <a name="data-freshness-and-update-frequency"></a>데이터 최신성 및 업데이트 빈도

@@ -1,5 +1,5 @@
 ---
-title: 엔드포인트용 Microsoft Defender
+title: 끝점용 Microsoft Defender
 description: 끝점용 Microsoft Defender는 고급 영구 위협을 방어하는 데 도움이 되는 엔터프라이즈 끝점 보안 플랫폼입니다.
 keywords: 끝점용 Microsoft Defender 소개, 끝점용 Microsoft Defender 소개, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 컴퓨터 동작 센서, 클라우드 보안, 분석, 위협 인텔리전스, 공격 표면 감소, 차세대 보호, 자동화된 조사 및 수정, Microsoft 위협 전문가, 보안 점수, 고급 헌팅, Microsoft 365 Defender, 사이버 위협 헌팅
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52843557"
 ---
-# <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

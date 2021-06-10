@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 7ade1ae1e045cb52f48d231acbc1712e753b6bc3
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5bf9f856e93ae1424373a917490a264c04e07feb
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841849"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861182"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩 
 6분 읽기 
@@ -148,3 +148,7 @@ WVD 호스트 컴퓨터는 여러 가지 방법으로 온보드합니다.
 
 라이선스에 대한 참고 사항: Windows 10 Enterprise 세션을 사용하는 경우 요구 사항에 따라 모든 사용자를 끝점용 Microsoft Defender(사용자당), Windows Enterprise E5, Microsoft 365 보안 또는 Microsoft 365 E5 또는 Azure Defender를 통해 VM 라이선스를 부여하도록 선택할 수 있습니다.
 끝점용 Microsoft Defender의 라이선스 요구 사항은 라이선스 요구 [사항 에서 찾을 수 있습니다.](minimum-requirements.md#licensing-requirements)
+
+#### <a name="related-links"></a>관련 링크
+
+[PowerShell을 사용하여 Microsoft Defender에 대한 제외 추가](/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#add-exclusions-for-windows-defender-by-using-powershell)

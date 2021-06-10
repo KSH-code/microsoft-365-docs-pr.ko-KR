@@ -4,6 +4,7 @@ keywords: 제어된 폴더 액세스, windows 10, windows defender, 랜섬웨어
 description: 제어된 폴더 액세스를 사용하도록 설정하여 중요한 파일을 보호하는 방법에 대해 자세히 알아보기
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
+ms.topic: article
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
@@ -14,12 +15,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 1d09eaf04999478a0cd0b4907667a522a23fb39f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5a90a12457597fa38c648fd44bf194d2322a26af
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841981"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861226"
 ---
 # <a name="enable-controlled-folder-access"></a>제어된 폴더 액세스 사용
 
@@ -36,7 +37,7 @@ ms.locfileid: "52841981"
 다음 방법 중 한 가지를 사용하여 제어된 폴더 액세스를 사용하도록 설정할 수 있습니다.
 
 * [Windows 보안 앱](#windows-security-app)
-* [Microsoft Intune](#intune)
+* [Microsoft Endpoint Manager ](#endpoint-manager)
 * [MDM(모바일 장치 관리)](#mobile-device-management-mdm)
 * [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
 * [그룹 정책](#group-policy)
@@ -64,24 +65,30 @@ ms.locfileid: "52841981"
 > 해당 도구를 사용하여  기능이 감사 모드로 설정되어 있는 경우 Windows 보안 앱이 상태를 끄기로 **표시됩니다.**
 > 사용자 프로필 데이터를 보호하는 경우 사용자 프로필이 설치 드라이브의 기본 Windows 좋습니다.
 
-## <a name="intune"></a>Intune
+## <a name="endpoint-manager"></a>Endpoint Manager
 
-1. [Azure Portal에 로그인하고](https://portal.azure.com) Intune을 열 수 있습니다.
+1. 끝점 보안 [Endpoint Manager](https://endpoint.microsoft.com) **로그인하고 을 를 습니다.**
 
-2. 장치 구성 **프로필**  >  **프로필**  >  **만들기로 이동하세요.**
+2. 공격 표면 **감소 정책으로**  >  **이동 합니다.**
 
-3. 프로필 이름을 지정하고 Windows 10 **및 끝점 보호** **를 선택하세요.** <br/> ![끝점 보호 프로필 만들기](/microsoft-365/security/defender-endpoint/images/create-endpoint-protection-profile) <br/>
+3. 플랫폼을 **선택하고** Windows 10 **이상을** 선택하고 프로필 공격 표면 감소 규칙 만들기 **를**  >  **선택합니다.**
 
-4. Configure   >  **Windows Defender Exploit Guard**  >  **Controlled folder access**  >  **Enable으로 이동합니다.**
+4.  정책 이름을 지정하고 설명을 추가합니다. **다음** 을 선택합니다.
 
-5. 보호된 폴더에 액세스할 수 있는 각 응용 프로그램의 경로와 보호가 필요한 추가 폴더의 경로를 입력합니다. **추가** 를 선택합니다.<br/> ![Intune에서 제어된 폴더 액세스 사용](/microsoft-365/security/defender-endpoint/images/enable-cfa-intune)<br/>
+5.  아래로 스크롤하여 폴더 보호  사용 드롭다운을 선택하고 사용 을 **선택합니다.**
+
+6.  **보호해야** 하는 추가 폴더 목록을 선택하고 보호해야 하는 폴더를 추가합니다.
+
+7.  보호된 **폴더에 액세스할** 수 있는 앱 목록을 선택하고 보호된 폴더에 액세스할 수 있는 앱을 추가합니다.
+
+8.  공격 **표면 축소** 규칙에서 파일 및 경로 제외를 선택하고 공격 표면 축소 규칙에서 제외해야 하는 파일 및 경로를 추가합니다.
+
+9.  프로필 할당 **을 선택하고** 모든 사용자 및 모든 & **할당하고** 저장을 **선택합니다.**
+
+10.  다음을 **선택하여** 열려 있는 각 블레이드를 저장한 다음 **만들기를 선택합니다.**
 
    > [!NOTE]
-   > 응용 프로그램에는 Wilcard가 지원되지만 폴더에는 지원되지 않습니다. 하위폴더는 보호되지 않습니다. 허용된 앱은 다시 시작할 때까지 이벤트를 계속 트리거합니다.
-
-6. 확인을 **선택하여** 열려 있는 각 블레이드를 저장하고 **만들기 를 선택합니다.**
-
-7. 프로필 **할당을 선택하고** 모든 장치 및 & **할당합니다.** 
+   > 와일드카드는 응용 프로그램에 지원되지만 폴더에는 지원되지 않습니다. 하위폴더는 보호되지 않습니다. 허용된 앱은 다시 시작할 때까지 이벤트를 계속 트리거합니다.
 
 ## <a name="mobile-device-management-mdm"></a>MDM(모바일 장치 관리)
 
