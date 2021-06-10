@@ -19,28 +19,28 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296398"
 ---
-# <a name="contact-support-for-cameroon"></a><span data-ttu-id="e22f9-103">Cameroon 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="e22f9-103">Contact support for Cameroon</span></span>
+# <a name="contact-support-for-cameroon"></a><span data-ttu-id="5c15e-103">Cameroon 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="5c15e-103">Contact support for Cameroon</span></span>
 
-<span data-ttu-id="e22f9-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="e22f9-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="5c15e-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="5c15e-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e22f9-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="e22f9-105">Phone number</span></span>
-<span data-ttu-id="e22f9-106">+225 20 24 24 90</span><span class="sxs-lookup"><span data-stu-id="e22f9-106">+225 20 24 24 90</span></span>
+## <a name="phone-number"></a><span data-ttu-id="5c15e-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="5c15e-105">Phone number</span></span>
+<span data-ttu-id="5c15e-106">+225 20 24 24 90</span><span class="sxs-lookup"><span data-stu-id="5c15e-106">+225 20 24 24 90</span></span>
 
-<span data-ttu-id="e22f9-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="e22f9-107">Select option 9</span></span>
+<span data-ttu-id="5c15e-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="5c15e-107">Select option 9</span></span>
 
-<span data-ttu-id="e22f9-108">코드 7703 입력</span><span class="sxs-lookup"><span data-stu-id="e22f9-108">Enter code 7703</span></span>
+<span data-ttu-id="5c15e-108">코드 7703 입력</span><span class="sxs-lookup"><span data-stu-id="5c15e-108">Enter code 7703</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e22f9-109">시간</span><span class="sxs-lookup"><span data-stu-id="e22f9-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e22f9-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="e22f9-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="5c15e-109">시간</span><span class="sxs-lookup"><span data-stu-id="5c15e-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="5c15e-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="5c15e-110">Billing Support:</span></span>
 
-<span data-ttu-id="e22f9-111">프랑스어: Mon-Fri 오전 8시-오후 4시</span><span class="sxs-lookup"><span data-stu-id="e22f9-111">French: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="5c15e-111">프랑스어: Mon-Fri 오전 8시-오후 4시</span><span class="sxs-lookup"><span data-stu-id="5c15e-111">French: Mon-Fri 8 AM-4 PM</span></span>
 
-<span data-ttu-id="e22f9-112">영어: Mon-Fri 오전 8시-오후 4시</span><span class="sxs-lookup"><span data-stu-id="e22f9-112">English: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="5c15e-112">영어: Mon-Fri 오전 8시-오후 4시</span><span class="sxs-lookup"><span data-stu-id="5c15e-112">English: Mon-Fri 8 AM-4 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e22f9-113">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="e22f9-113">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="5c15e-113">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="5c15e-113">Technical Support:</span></span>
 
-<span data-ttu-id="e22f9-114">프랑스어: Mon-Fri 오전 8시-오후 9시</span><span class="sxs-lookup"><span data-stu-id="e22f9-114">French: Mon-Fri 8 AM-9 PM</span></span>
+<span data-ttu-id="5c15e-114">프랑스어: Mon-Fri 오전 8시-오후 9시</span><span class="sxs-lookup"><span data-stu-id="5c15e-114">French: Mon-Fri 8 AM-9 PM</span></span>
 
-<span data-ttu-id="e22f9-115">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="e22f9-115">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="5c15e-115">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="5c15e-115">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e22f9-116">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="e22f9-116">International call charges apply</span></span>
+<span data-ttu-id="5c15e-116">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="5c15e-116">International call charges apply</span></span>

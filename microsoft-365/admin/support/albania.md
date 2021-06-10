@@ -19,24 +19,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297011"
 ---
-# <a name="contact-support-for-albania"></a><span data-ttu-id="e3fe1-103">알바니아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="e3fe1-103">Contact support for Albania</span></span>
+# <a name="contact-support-for-albania"></a><span data-ttu-id="9d0b2-103">알바니아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="9d0b2-103">Contact support for Albania</span></span>
 
-<span data-ttu-id="e3fe1-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="e3fe1-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="9d0b2-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9d0b2-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e3fe1-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="e3fe1-105">Phone number</span></span>
-<span data-ttu-id="e3fe1-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="e3fe1-106">04 451 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="9d0b2-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="9d0b2-105">Phone number</span></span>
+<span data-ttu-id="9d0b2-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="9d0b2-106">04 451 5151</span></span>
 
-<span data-ttu-id="e3fe1-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="e3fe1-107">Select option 9</span></span>
+<span data-ttu-id="9d0b2-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="9d0b2-107">Select option 9</span></span>
 
-<span data-ttu-id="e3fe1-108">코드 7700 입력</span><span class="sxs-lookup"><span data-stu-id="e3fe1-108">Enter code 7700</span></span>
+<span data-ttu-id="9d0b2-108">코드 7700 입력</span><span class="sxs-lookup"><span data-stu-id="9d0b2-108">Enter code 7700</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e3fe1-109">시간</span><span class="sxs-lookup"><span data-stu-id="e3fe1-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e3fe1-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="e3fe1-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="9d0b2-109">시간</span><span class="sxs-lookup"><span data-stu-id="9d0b2-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="9d0b2-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="9d0b2-110">Billing Support:</span></span>
 
-<span data-ttu-id="e3fe1-111">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="e3fe1-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="9d0b2-111">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="9d0b2-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e3fe1-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="e3fe1-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="9d0b2-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="9d0b2-112">Technical Support:</span></span>
 
-<span data-ttu-id="e3fe1-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="e3fe1-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="9d0b2-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="9d0b2-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e3fe1-114">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="e3fe1-114">Local call charges apply</span></span>
+<span data-ttu-id="9d0b2-114">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d0b2-114">Local call charges apply</span></span>

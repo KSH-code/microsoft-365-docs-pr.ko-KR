@@ -19,20 +19,20 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296831"
 ---
-# <a name="contact-support-for-cambodia"></a><span data-ttu-id="799bf-103">캄보디아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="799bf-103">Contact support for Cambodia</span></span>
+# <a name="contact-support-for-cambodia"></a><span data-ttu-id="e1893-103">캄보디아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="e1893-103">Contact support for Cambodia</span></span>
 
-<span data-ttu-id="799bf-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="799bf-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="e1893-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="e1893-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="799bf-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="799bf-105">Phone number</span></span>
-<span data-ttu-id="799bf-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="799bf-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="e1893-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="e1893-105">Phone number</span></span>
+<span data-ttu-id="e1893-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="e1893-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="799bf-107">시간</span><span class="sxs-lookup"><span data-stu-id="799bf-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="799bf-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="799bf-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="e1893-107">시간</span><span class="sxs-lookup"><span data-stu-id="e1893-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="e1893-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="e1893-108">Billing Support:</span></span>
 
-<span data-ttu-id="799bf-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="799bf-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="e1893-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="e1893-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="799bf-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="799bf-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="e1893-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="e1893-110">Technical Support:</span></span>
 
-<span data-ttu-id="799bf-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="799bf-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="e1893-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="e1893-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="799bf-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="799bf-112">International call charges apply</span></span>
+<span data-ttu-id="e1893-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1893-112">International call charges apply</span></span>

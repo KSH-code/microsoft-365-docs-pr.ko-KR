@@ -19,22 +19,22 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296338"
 ---
-# <a name="contact-support-for-comoros"></a><span data-ttu-id="13741-103">Comoros 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="13741-103">Contact support for Comoros</span></span>
+# <a name="contact-support-for-comoros"></a><span data-ttu-id="88ecc-103">Comoros 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="88ecc-103">Contact support for Comoros</span></span>
 
-<span data-ttu-id="13741-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="13741-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="88ecc-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="88ecc-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="13741-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="13741-105">Phone number</span></span>
-<span data-ttu-id="13741-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="13741-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="88ecc-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="88ecc-105">Phone number</span></span>
+<span data-ttu-id="88ecc-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="88ecc-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="13741-107">시간</span><span class="sxs-lookup"><span data-stu-id="13741-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="13741-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="13741-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="88ecc-107">시간</span><span class="sxs-lookup"><span data-stu-id="88ecc-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="88ecc-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="88ecc-108">Billing Support:</span></span>
 
-<span data-ttu-id="13741-109">프랑스어: Mon-Fri 오전 11시-오후 7시</span><span class="sxs-lookup"><span data-stu-id="13741-109">French: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="88ecc-109">프랑스어: Mon-Fri 오전 11시-오후 7시</span><span class="sxs-lookup"><span data-stu-id="88ecc-109">French: Mon-Fri 11 AM-7 PM</span></span>
 
-<span data-ttu-id="13741-110">영어: Mon-Fri 오전 11시-오후 7시</span><span class="sxs-lookup"><span data-stu-id="13741-110">English: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="88ecc-110">영어: Mon-Fri 오전 11시-오후 7시</span><span class="sxs-lookup"><span data-stu-id="88ecc-110">English: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="13741-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="13741-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="88ecc-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="88ecc-111">Technical Support:</span></span>
 
-<span data-ttu-id="13741-112">프랑스어: Mon-Fri 오전 10시-오후 11시</span><span class="sxs-lookup"><span data-stu-id="13741-112">French: Mon-Fri 10 AM-11 PM</span></span>
+<span data-ttu-id="88ecc-112">프랑스어: Mon-Fri 오전 10시-오후 11시</span><span class="sxs-lookup"><span data-stu-id="88ecc-112">French: Mon-Fri 10 AM-11 PM</span></span>
 
-<span data-ttu-id="13741-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="13741-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="88ecc-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="88ecc-113">English: 24 hours a day, 7 days a week</span></span>

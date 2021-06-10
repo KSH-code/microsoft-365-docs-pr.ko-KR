@@ -19,22 +19,22 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296819"
 ---
-# <a name="contact-support-for-canada"></a><span data-ttu-id="1a586-103">캐나다 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="1a586-103">Contact support for Canada</span></span>
+# <a name="contact-support-for-canada"></a><span data-ttu-id="a1562-103">캐나다 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="a1562-103">Contact support for Canada</span></span>
 
-<span data-ttu-id="1a586-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="1a586-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="a1562-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a1562-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="1a586-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="1a586-105">Phone number</span></span>
-<span data-ttu-id="1a586-106">1 800 865 9408</span><span class="sxs-lookup"><span data-stu-id="1a586-106">1 800 865 9408</span></span>
+## <a name="phone-number"></a><span data-ttu-id="a1562-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="a1562-105">Phone number</span></span>
+<span data-ttu-id="a1562-106">1 800 865 9408</span><span class="sxs-lookup"><span data-stu-id="a1562-106">1 800 865 9408</span></span>
 
-## <a name="hours"></a><span data-ttu-id="1a586-107">시간</span><span class="sxs-lookup"><span data-stu-id="1a586-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="1a586-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="1a586-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="a1562-107">시간</span><span class="sxs-lookup"><span data-stu-id="a1562-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="a1562-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="a1562-108">Billing Support:</span></span>
 
-<span data-ttu-id="1a586-109">영어: Mon-Fri 오전 9시-오후 5시 로컬</span><span class="sxs-lookup"><span data-stu-id="1a586-109">English: Mon-Fri 9 AM-5 PM Local</span></span>
+<span data-ttu-id="a1562-109">영어: Mon-Fri 오전 9시-오후 5시 로컬</span><span class="sxs-lookup"><span data-stu-id="a1562-109">English: Mon-Fri 9 AM-5 PM Local</span></span>
 
-<span data-ttu-id="1a586-110">프랑스어: Mon-Fri 오전 9시-오후 5시 ET</span><span class="sxs-lookup"><span data-stu-id="1a586-110">French: Mon-Fri 9 AM-5 PM ET</span></span>
+<span data-ttu-id="a1562-110">프랑스어: Mon-Fri 오전 9시-오후 5시 ET</span><span class="sxs-lookup"><span data-stu-id="a1562-110">French: Mon-Fri 9 AM-5 PM ET</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="1a586-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="1a586-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="a1562-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="a1562-111">Technical Support:</span></span>
 
-<span data-ttu-id="1a586-112">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="1a586-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="a1562-112">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="a1562-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="1a586-113">프랑스어: Mon-Fri 오전 9시-오후 5시 ET</span><span class="sxs-lookup"><span data-stu-id="1a586-113">French: Mon-Fri 9 AM-5 PM ET</span></span>
+<span data-ttu-id="a1562-113">프랑스어: Mon-Fri 오전 9시-오후 5시 ET</span><span class="sxs-lookup"><span data-stu-id="a1562-113">French: Mon-Fri 9 AM-5 PM ET</span></span>

@@ -19,18 +19,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296807"
 ---
-# <a name="contact-support-for-cayman-islands"></a><span data-ttu-id="bec34-103">케이맨 제도 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="bec34-103">Contact support for Cayman Islands</span></span>
+# <a name="contact-support-for-cayman-islands"></a><span data-ttu-id="5bbe2-103">케이맨 제도 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="5bbe2-103">Contact support for Cayman Islands</span></span>
 
-<span data-ttu-id="bec34-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="bec34-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="5bbe2-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="5bbe2-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="bec34-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="bec34-105">Phone number</span></span>
-<span data-ttu-id="bec34-106">1 877 308 6465</span><span class="sxs-lookup"><span data-stu-id="bec34-106">1 877 308 6465</span></span>
+## <a name="phone-number"></a><span data-ttu-id="5bbe2-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="5bbe2-105">Phone number</span></span>
+<span data-ttu-id="5bbe2-106">1 877 308 6465</span><span class="sxs-lookup"><span data-stu-id="5bbe2-106">1 877 308 6465</span></span>
 
-## <a name="hours"></a><span data-ttu-id="bec34-107">시간</span><span class="sxs-lookup"><span data-stu-id="bec34-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="bec34-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="bec34-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="5bbe2-107">시간</span><span class="sxs-lookup"><span data-stu-id="5bbe2-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="5bbe2-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="5bbe2-108">Billing Support:</span></span>
 
-<span data-ttu-id="bec34-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="bec34-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="5bbe2-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="5bbe2-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="bec34-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="bec34-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="5bbe2-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="5bbe2-110">Technical Support:</span></span>
 
-<span data-ttu-id="bec34-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="bec34-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="5bbe2-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="5bbe2-111">English: 24 hours a day, 7 days a week</span></span>

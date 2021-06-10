@@ -19,20 +19,20 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296879"
 ---
-# <a name="contact-support-for-botswana"></a><span data-ttu-id="0e35d-103">보츠와나 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="0e35d-103">Contact support for Botswana</span></span>
+# <a name="contact-support-for-botswana"></a><span data-ttu-id="82402-103">보츠와나 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="82402-103">Contact support for Botswana</span></span>
 
-<span data-ttu-id="0e35d-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="0e35d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="82402-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="82402-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="0e35d-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="0e35d-105">Phone number</span></span>
-<span data-ttu-id="0e35d-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="0e35d-106">+27 21 427 3315</span></span>
+## <a name="phone-number"></a><span data-ttu-id="82402-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="82402-105">Phone number</span></span>
+<span data-ttu-id="82402-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="82402-106">+27 21 427 3315</span></span>
 
-## <a name="hours"></a><span data-ttu-id="0e35d-107">시간</span><span class="sxs-lookup"><span data-stu-id="0e35d-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="0e35d-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="0e35d-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="82402-107">시간</span><span class="sxs-lookup"><span data-stu-id="82402-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="82402-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="82402-108">Billing Support:</span></span>
 
-<span data-ttu-id="0e35d-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="0e35d-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="82402-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="82402-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="0e35d-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="0e35d-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="82402-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="82402-110">Technical Support:</span></span>
 
-<span data-ttu-id="0e35d-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="0e35d-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="82402-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="82402-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="0e35d-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="0e35d-112">International call charges apply</span></span>
+<span data-ttu-id="82402-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="82402-112">International call charges apply</span></span>

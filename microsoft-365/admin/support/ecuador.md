@@ -19,22 +19,22 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296290"
 ---
-# <a name="contact-support-for-ecuador"></a><span data-ttu-id="cf2b2-103">에쿠아도르 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="cf2b2-103">Contact support for Ecuador</span></span>
+# <a name="contact-support-for-ecuador"></a><span data-ttu-id="503ce-103">에쿠아도르 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="503ce-103">Contact support for Ecuador</span></span>
 
-<span data-ttu-id="cf2b2-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="cf2b2-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="503ce-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="503ce-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="cf2b2-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="cf2b2-105">Phone number</span></span>
-<span data-ttu-id="cf2b2-106">1 800 225 528</span><span class="sxs-lookup"><span data-stu-id="cf2b2-106">1 800 225 528</span></span>
+## <a name="phone-number"></a><span data-ttu-id="503ce-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="503ce-105">Phone number</span></span>
+<span data-ttu-id="503ce-106">1 800 225 528</span><span class="sxs-lookup"><span data-stu-id="503ce-106">1 800 225 528</span></span>
 
-<span data-ttu-id="cf2b2-107">전화 걸기 후 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="cf2b2-107">After dialing, enter</span></span>
+<span data-ttu-id="503ce-107">전화 걸기 후 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="503ce-107">After dialing, enter</span></span>
 
-<span data-ttu-id="cf2b2-108">877 663 5075</span><span class="sxs-lookup"><span data-stu-id="cf2b2-108">877 663 5075</span></span>
+<span data-ttu-id="503ce-108">877 663 5075</span><span class="sxs-lookup"><span data-stu-id="503ce-108">877 663 5075</span></span>
 
-## <a name="hours"></a><span data-ttu-id="cf2b2-109">시간</span><span class="sxs-lookup"><span data-stu-id="cf2b2-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="cf2b2-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="cf2b2-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="503ce-109">시간</span><span class="sxs-lookup"><span data-stu-id="503ce-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="503ce-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="503ce-110">Billing Support:</span></span>
 
-<span data-ttu-id="cf2b2-111">스페인어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="cf2b2-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="503ce-111">스페인어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="503ce-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="cf2b2-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="cf2b2-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="503ce-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="503ce-112">Technical Support:</span></span>
 
-<span data-ttu-id="cf2b2-113">스페인어: 연 24시간, 주 7일</span><span class="sxs-lookup"><span data-stu-id="cf2b2-113">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="503ce-113">스페인어: 연 24시간, 주 7일</span><span class="sxs-lookup"><span data-stu-id="503ce-113">Spanish: 24 hours a day, 7 days a week</span></span>

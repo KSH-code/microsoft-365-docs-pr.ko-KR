@@ -19,28 +19,28 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296927"
 ---
-# <a name="contact-support-for-belgium"></a><span data-ttu-id="d065f-103">벨기에 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="d065f-103">Contact support for Belgium</span></span>
+# <a name="contact-support-for-belgium"></a><span data-ttu-id="00d62-103">벨기에 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="00d62-103">Contact support for Belgium</span></span>
 
-<span data-ttu-id="d065f-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="d065f-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="00d62-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="00d62-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="d065f-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="d065f-105">Phone number</span></span>
-<span data-ttu-id="d065f-106">0800 81174</span><span class="sxs-lookup"><span data-stu-id="d065f-106">0800 81174</span></span>
+## <a name="phone-number"></a><span data-ttu-id="00d62-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="00d62-105">Phone number</span></span>
+<span data-ttu-id="00d62-106">0800 81174</span><span class="sxs-lookup"><span data-stu-id="00d62-106">0800 81174</span></span>
 
-## <a name="hours"></a><span data-ttu-id="d065f-107">시간</span><span class="sxs-lookup"><span data-stu-id="d065f-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="d065f-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="d065f-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="00d62-107">시간</span><span class="sxs-lookup"><span data-stu-id="00d62-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="00d62-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="00d62-108">Billing Support:</span></span>
 
-<span data-ttu-id="d065f-109">네덜란드어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="d065f-109">Dutch: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="00d62-109">네덜란드어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="00d62-109">Dutch: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="d065f-110">프랑스어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="d065f-110">French: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="00d62-110">프랑스어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="00d62-110">French: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="d065f-111">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="d065f-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="00d62-111">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="00d62-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="d065f-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="d065f-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="00d62-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="00d62-112">Technical Support:</span></span>
 
-<span data-ttu-id="d065f-113">프랑스어: Mon-Fri 오전 8시-오후 9시</span><span class="sxs-lookup"><span data-stu-id="d065f-113">French: Mon-Fri 8 AM-9 PM</span></span>
+<span data-ttu-id="00d62-113">프랑스어: Mon-Fri 오전 8시-오후 9시</span><span class="sxs-lookup"><span data-stu-id="00d62-113">French: Mon-Fri 8 AM-9 PM</span></span>
 
-<span data-ttu-id="d065f-114">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="d065f-114">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="00d62-114">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="00d62-114">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="d065f-115">대체 전화 번호: 02 200 88 84</span><span class="sxs-lookup"><span data-stu-id="d065f-115">Alternative Phone Number: 02 200 88 84</span></span>
+<span data-ttu-id="00d62-115">대체 전화 번호: 02 200 88 84</span><span class="sxs-lookup"><span data-stu-id="00d62-115">Alternative Phone Number: 02 200 88 84</span></span>
 
-<span data-ttu-id="d065f-116">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="d065f-116">Local call charges apply</span></span>
+<span data-ttu-id="00d62-116">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="00d62-116">Local call charges apply</span></span>

@@ -19,24 +19,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296662"
 ---
-# <a name="contact-support-for-andorra"></a><span data-ttu-id="3620c-103">안도라 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="3620c-103">Contact support for Andorra</span></span>
+# <a name="contact-support-for-andorra"></a><span data-ttu-id="73cc0-103">안도라 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="73cc0-103">Contact support for Andorra</span></span>
 
-<span data-ttu-id="3620c-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="3620c-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="73cc0-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="73cc0-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="3620c-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="3620c-105">Phone number</span></span>
-<span data-ttu-id="3620c-106">+1 312 843 5144</span><span class="sxs-lookup"><span data-stu-id="3620c-106">+1 312 843 5144</span></span>
+## <a name="phone-number"></a><span data-ttu-id="73cc0-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="73cc0-105">Phone number</span></span>
+<span data-ttu-id="73cc0-106">+1 312 843 5144</span><span class="sxs-lookup"><span data-stu-id="73cc0-106">+1 312 843 5144</span></span>
 
-## <a name="hours"></a><span data-ttu-id="3620c-107">시간</span><span class="sxs-lookup"><span data-stu-id="3620c-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="3620c-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="3620c-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="73cc0-107">시간</span><span class="sxs-lookup"><span data-stu-id="73cc0-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="73cc0-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="73cc0-108">Billing Support:</span></span>
 
-<span data-ttu-id="3620c-109">스페인어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="3620c-109">Spanish: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="73cc0-109">스페인어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="73cc0-109">Spanish: Mon-Fri 10 AM-6 PM</span></span>
 
-<span data-ttu-id="3620c-110">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="3620c-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="73cc0-110">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="73cc0-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="3620c-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="3620c-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="73cc0-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="73cc0-111">Technical Support:</span></span>
 
-<span data-ttu-id="3620c-112">스페인어: Mon-Fri 오전 9시-오후 10시</span><span class="sxs-lookup"><span data-stu-id="3620c-112">Spanish: Mon-Fri 9 AM-10 PM</span></span>
+<span data-ttu-id="73cc0-112">스페인어: Mon-Fri 오전 9시-오후 10시</span><span class="sxs-lookup"><span data-stu-id="73cc0-112">Spanish: Mon-Fri 9 AM-10 PM</span></span>
 
-<span data-ttu-id="3620c-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="3620c-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="73cc0-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="73cc0-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="3620c-114">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="3620c-114">International call charges apply</span></span>
+<span data-ttu-id="73cc0-114">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="73cc0-114">International call charges apply</span></span>

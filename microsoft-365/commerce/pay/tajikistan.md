@@ -20,16 +20,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537754"
 ---
-# <a name="payment-information-for-tajikistan"></a><span data-ttu-id="fec96-103">타지키스탄 결제 정보</span><span class="sxs-lookup"><span data-stu-id="fec96-103">Payment information for Tajikistan</span></span>
+# <a name="payment-information-for-tajikistan"></a><span data-ttu-id="db255-103">타지키스탄 결제 정보</span><span class="sxs-lookup"><span data-stu-id="db255-103">Payment information for Tajikistan</span></span>
 
-<span data-ttu-id="fec96-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="fec96-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="db255-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="db255-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="fec96-105">미화로만 결제하고 송장 번호를 송장 번호로 결제하십시오.</span><span class="sxs-lookup"><span data-stu-id="fec96-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="db255-105">미화로만 결제하고 송장 번호를 송장 번호로 결제하십시오.</span><span class="sxs-lookup"><span data-stu-id="db255-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="fec96-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="fec96-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="db255-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="db255-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="fec96-107">**은행:** Citibank, London</span><span class="sxs-lookup"><span data-stu-id="fec96-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="fec96-108">**SWIFT 코드:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="fec96-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="fec96-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="fec96-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="fec96-110">**계정 번호:** 12510049</span><span class="sxs-lookup"><span data-stu-id="fec96-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="fec96-111">**계정 이름:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="fec96-111">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="db255-107">**은행:** Citibank, London</span><span class="sxs-lookup"><span data-stu-id="db255-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="db255-108">**SWIFT 코드:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="db255-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="db255-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="db255-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="db255-110">**계정 번호:** 12510049</span><span class="sxs-lookup"><span data-stu-id="db255-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="db255-111">**계정 이름:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="db255-111">**Account Name:** MICROSOFT</span></span>

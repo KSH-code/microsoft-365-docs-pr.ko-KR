@@ -19,18 +19,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296530"
 ---
-# <a name="contact-support-for-bermuda"></a><span data-ttu-id="3aa17-103">버뮤다 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="3aa17-103">Contact support for Bermuda</span></span>
+# <a name="contact-support-for-bermuda"></a><span data-ttu-id="09bef-103">버뮤다 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="09bef-103">Contact support for Bermuda</span></span>
 
-<span data-ttu-id="3aa17-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="3aa17-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="09bef-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="09bef-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="3aa17-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="3aa17-105">Phone number</span></span>
-<span data-ttu-id="3aa17-106">1 877 639 9636</span><span class="sxs-lookup"><span data-stu-id="3aa17-106">1 877 639 9636</span></span>
+## <a name="phone-number"></a><span data-ttu-id="09bef-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="09bef-105">Phone number</span></span>
+<span data-ttu-id="09bef-106">1 877 639 9636</span><span class="sxs-lookup"><span data-stu-id="09bef-106">1 877 639 9636</span></span>
 
-## <a name="hours"></a><span data-ttu-id="3aa17-107">시간</span><span class="sxs-lookup"><span data-stu-id="3aa17-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="3aa17-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="3aa17-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="09bef-107">시간</span><span class="sxs-lookup"><span data-stu-id="09bef-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="09bef-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="09bef-108">Billing Support:</span></span>
 
-<span data-ttu-id="3aa17-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="3aa17-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="09bef-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="09bef-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="3aa17-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="3aa17-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="09bef-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="09bef-110">Technical Support:</span></span>
 
-<span data-ttu-id="3aa17-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="3aa17-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="09bef-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="09bef-111">English: 24 hours a day, 7 days a week</span></span>
