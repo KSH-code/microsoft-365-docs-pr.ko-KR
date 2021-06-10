@@ -23,64 +23,64 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52771024"
 ---
-# <a name="delete-indicator-api"></a><span data-ttu-id="3b80a-104">표시기 삭제 API</span><span class="sxs-lookup"><span data-stu-id="3b80a-104">Delete Indicator API</span></span>
+# <a name="delete-indicator-api"></a><span data-ttu-id="6cd79-104">표시기 삭제 API</span><span class="sxs-lookup"><span data-stu-id="6cd79-104">Delete Indicator API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="3b80a-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="3b80a-105">**Applies to:**</span></span>
-- [<span data-ttu-id="3b80a-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="3b80a-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="3b80a-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="3b80a-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="6cd79-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="6cd79-105">**Applies to:**</span></span>
+- [<span data-ttu-id="6cd79-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="6cd79-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="6cd79-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="6cd79-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="3b80a-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="3b80a-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="3b80a-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="3b80a-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)  
+> <span data-ttu-id="6cd79-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="6cd79-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="6cd79-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="6cd79-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)  
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-## <a name="api-description"></a><span data-ttu-id="3b80a-110">API 설명</span><span class="sxs-lookup"><span data-stu-id="3b80a-110">API description</span></span>
-<span data-ttu-id="3b80a-111">ID로 [Indicator](ti-indicator.md) 엔터티를 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="3b80a-111">Deletes an [Indicator](ti-indicator.md) entity by ID.</span></span>
+## <a name="api-description"></a><span data-ttu-id="6cd79-110">API 설명</span><span class="sxs-lookup"><span data-stu-id="6cd79-110">API description</span></span>
+<span data-ttu-id="6cd79-111">ID로 [Indicator](ti-indicator.md) 엔터티를 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="6cd79-111">Deletes an [Indicator](ti-indicator.md) entity by ID.</span></span>
 
 
-## <a name="limitations"></a><span data-ttu-id="3b80a-112">제한 사항</span><span class="sxs-lookup"><span data-stu-id="3b80a-112">Limitations</span></span>
-1. <span data-ttu-id="3b80a-113">이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.</span><span class="sxs-lookup"><span data-stu-id="3b80a-113">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
+## <a name="limitations"></a><span data-ttu-id="6cd79-112">제한 사항</span><span class="sxs-lookup"><span data-stu-id="6cd79-112">Limitations</span></span>
+1. <span data-ttu-id="6cd79-113">이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.</span><span class="sxs-lookup"><span data-stu-id="6cd79-113">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
 
 
-## <a name="permissions"></a><span data-ttu-id="3b80a-114">사용 권한</span><span class="sxs-lookup"><span data-stu-id="3b80a-114">Permissions</span></span>
-<span data-ttu-id="3b80a-115">이 API를 호출하려면 다음 권한 중 하나가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="3b80a-115">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="3b80a-116">사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="3b80a-116">To learn more, including how to choose permissions, see [Get started](apis-intro.md)</span></span>
+## <a name="permissions"></a><span data-ttu-id="6cd79-114">사용 권한</span><span class="sxs-lookup"><span data-stu-id="6cd79-114">Permissions</span></span>
+<span data-ttu-id="6cd79-115">이 API를 호출하려면 다음 권한 중 하나가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="6cd79-115">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="6cd79-116">사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="6cd79-116">To learn more, including how to choose permissions, see [Get started](apis-intro.md)</span></span>
 
-<span data-ttu-id="3b80a-117">사용 권한 유형</span><span class="sxs-lookup"><span data-stu-id="3b80a-117">Permission type</span></span> |   <span data-ttu-id="3b80a-118">사용 권한</span><span class="sxs-lookup"><span data-stu-id="3b80a-118">Permission</span></span>  |   <span data-ttu-id="3b80a-119">사용 권한 표시 이름</span><span class="sxs-lookup"><span data-stu-id="3b80a-119">Permission display name</span></span>
+<span data-ttu-id="6cd79-117">사용 권한 유형</span><span class="sxs-lookup"><span data-stu-id="6cd79-117">Permission type</span></span> |   <span data-ttu-id="6cd79-118">사용 권한</span><span class="sxs-lookup"><span data-stu-id="6cd79-118">Permission</span></span>  |   <span data-ttu-id="6cd79-119">사용 권한 표시 이름</span><span class="sxs-lookup"><span data-stu-id="6cd79-119">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="3b80a-120">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="3b80a-120">Application</span></span> |   <span data-ttu-id="3b80a-121">Ti.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="3b80a-121">Ti.ReadWrite</span></span> |  <span data-ttu-id="3b80a-122">'TI 지표 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="3b80a-122">'Read and write TI Indicators'</span></span>
-<span data-ttu-id="3b80a-123">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="3b80a-123">Application</span></span> |   <span data-ttu-id="3b80a-124">Ti.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="3b80a-124">Ti.ReadWrite.All</span></span> |  <span data-ttu-id="3b80a-125">'읽기 및 쓰기 표시기'</span><span class="sxs-lookup"><span data-stu-id="3b80a-125">'Read and write Indicators'</span></span>
+<span data-ttu-id="6cd79-120">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="6cd79-120">Application</span></span> |   <span data-ttu-id="6cd79-121">Ti.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="6cd79-121">Ti.ReadWrite</span></span> |  <span data-ttu-id="6cd79-122">'TI 지표 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="6cd79-122">'Read and write TI Indicators'</span></span>
+<span data-ttu-id="6cd79-123">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="6cd79-123">Application</span></span> |   <span data-ttu-id="6cd79-124">Ti.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="6cd79-124">Ti.ReadWrite.All</span></span> |  <span data-ttu-id="6cd79-125">'읽기 및 쓰기 표시기'</span><span class="sxs-lookup"><span data-stu-id="6cd79-125">'Read and write Indicators'</span></span>
 
 
-## <a name="http-request"></a><span data-ttu-id="3b80a-126">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="3b80a-126">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="6cd79-126">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="6cd79-126">HTTP request</span></span>
 ```
 Delete https://api.securitycenter.microsoft.com/api/indicators/{id}
 ```
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-## <a name="request-headers"></a><span data-ttu-id="3b80a-127">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="3b80a-127">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="6cd79-127">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="6cd79-127">Request headers</span></span>
 
-<span data-ttu-id="3b80a-128">이름</span><span class="sxs-lookup"><span data-stu-id="3b80a-128">Name</span></span> | <span data-ttu-id="3b80a-129">유형</span><span class="sxs-lookup"><span data-stu-id="3b80a-129">Type</span></span> | <span data-ttu-id="3b80a-130">설명</span><span class="sxs-lookup"><span data-stu-id="3b80a-130">Description</span></span>
+<span data-ttu-id="6cd79-128">이름</span><span class="sxs-lookup"><span data-stu-id="6cd79-128">Name</span></span> | <span data-ttu-id="6cd79-129">유형</span><span class="sxs-lookup"><span data-stu-id="6cd79-129">Type</span></span> | <span data-ttu-id="6cd79-130">설명</span><span class="sxs-lookup"><span data-stu-id="6cd79-130">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="3b80a-131">권한 부여</span><span class="sxs-lookup"><span data-stu-id="3b80a-131">Authorization</span></span> | <span data-ttu-id="3b80a-132">String</span><span class="sxs-lookup"><span data-stu-id="3b80a-132">String</span></span> | <span data-ttu-id="3b80a-133">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="3b80a-133">Bearer {token}.</span></span> <span data-ttu-id="3b80a-134">**필수입니다**.</span><span class="sxs-lookup"><span data-stu-id="3b80a-134">**Required**.</span></span>
+<span data-ttu-id="6cd79-131">권한 부여</span><span class="sxs-lookup"><span data-stu-id="6cd79-131">Authorization</span></span> | <span data-ttu-id="6cd79-132">String</span><span class="sxs-lookup"><span data-stu-id="6cd79-132">String</span></span> | <span data-ttu-id="6cd79-133">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="6cd79-133">Bearer {token}.</span></span> <span data-ttu-id="6cd79-134">**필수입니다**.</span><span class="sxs-lookup"><span data-stu-id="6cd79-134">**Required**.</span></span>
 
 
-## <a name="request-body"></a><span data-ttu-id="3b80a-135">요청 본문</span><span class="sxs-lookup"><span data-stu-id="3b80a-135">Request body</span></span>
-<span data-ttu-id="3b80a-136">비어 있음</span><span class="sxs-lookup"><span data-stu-id="3b80a-136">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="6cd79-135">요청 본문</span><span class="sxs-lookup"><span data-stu-id="6cd79-135">Request body</span></span>
+<span data-ttu-id="6cd79-136">비어 있음</span><span class="sxs-lookup"><span data-stu-id="6cd79-136">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="3b80a-137">응답</span><span class="sxs-lookup"><span data-stu-id="3b80a-137">Response</span></span>
-<span data-ttu-id="3b80a-138">Indicator가 존재하고 삭제된 경우 - 콘텐츠가 없는 204 OK.</span><span class="sxs-lookup"><span data-stu-id="3b80a-138">If Indicator exist and deleted successfully - 204 OK without content.</span></span>
-<span data-ttu-id="3b80a-139">지정한 ID가 있는 Indicator를 찾을 수 없는 경우 - 404 찾을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3b80a-139">If Indicator with the specified id was not found - 404 Not Found.</span></span>
+## <a name="response"></a><span data-ttu-id="6cd79-137">응답</span><span class="sxs-lookup"><span data-stu-id="6cd79-137">Response</span></span>
+<span data-ttu-id="6cd79-138">Indicator가 존재하고 삭제된 경우 - 콘텐츠가 없는 204 OK.</span><span class="sxs-lookup"><span data-stu-id="6cd79-138">If Indicator exist and deleted successfully - 204 OK without content.</span></span>
+<span data-ttu-id="6cd79-139">지정한 ID가 있는 Indicator를 찾을 수 없는 경우 - 404 찾을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6cd79-139">If Indicator with the specified id was not found - 404 Not Found.</span></span>
 
-## <a name="example"></a><span data-ttu-id="3b80a-140">예시</span><span class="sxs-lookup"><span data-stu-id="3b80a-140">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6cd79-140">예시</span><span class="sxs-lookup"><span data-stu-id="6cd79-140">Example</span></span>
 
-<span data-ttu-id="3b80a-141">**요청**</span><span class="sxs-lookup"><span data-stu-id="3b80a-141">**Request**</span></span>
+<span data-ttu-id="6cd79-141">**요청**</span><span class="sxs-lookup"><span data-stu-id="6cd79-141">**Request**</span></span>
 
-<span data-ttu-id="3b80a-142">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="3b80a-142">Here is an example of the request.</span></span>
+<span data-ttu-id="6cd79-142">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="6cd79-142">Here is an example of the request.</span></span>
 
 ```http
 DELETE https://api.securitycenter.microsoft.com/api/indicators/995
