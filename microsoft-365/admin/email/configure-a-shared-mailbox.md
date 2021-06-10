@@ -28,124 +28,124 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2021
 ms.locfileid: "52635513"
 ---
-# <a name="configure-shared-mailbox-settings"></a><span data-ttu-id="c0346-103">공유 사서함 설정 구성</span><span class="sxs-lookup"><span data-stu-id="c0346-103">Configure shared mailbox settings</span></span>
+# <a name="configure-shared-mailbox-settings"></a><span data-ttu-id="4e95b-103">공유 사서함 설정 구성</span><span class="sxs-lookup"><span data-stu-id="4e95b-103">Configure shared mailbox settings</span></span>
 
-<span data-ttu-id="c0346-104">공유 [사서함을](create-a-shared-mailbox.md)만든 후 전자 메일 전달 및 자동 응답과 같은 사서함 사용자에 대한 일부 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-104">After you have [created a shared mailbox](create-a-shared-mailbox.md), you'll want to configure some settings for the mailbox users, such as email forwarding and automatic replies.</span></span> <span data-ttu-id="c0346-105">나중에 사서함 이름, 구성원 또는 구성원 권한과 같은 다른 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-105">Later, you might want to change other settings, such as the mailbox name, members, or member permissions.</span></span> 
+<span data-ttu-id="4e95b-104">공유 [사서함을](create-a-shared-mailbox.md)만든 후 전자 메일 전달 및 자동 응답과 같은 사서함 사용자에 대한 일부 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-104">After you have [created a shared mailbox](create-a-shared-mailbox.md), you'll want to configure some settings for the mailbox users, such as email forwarding and automatic replies.</span></span> <span data-ttu-id="4e95b-105">나중에 사서함 이름, 구성원 또는 구성원 권한과 같은 다른 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-105">Later, you might want to change other settings, such as the mailbox name, members, or member permissions.</span></span> 
 
-## <a name="change-the-name-or-email-alias-of-a-shared-mailbox-or-change-the-primary-email-address"></a><span data-ttu-id="c0346-106">공유 사서함의 이름 또는 전자 메일 별칭을 변경하거나 기본 전자 메일 주소 변경</span><span class="sxs-lookup"><span data-stu-id="c0346-106">Change the name or email alias of a shared mailbox, or change the primary email address</span></span>
+## <a name="change-the-name-or-email-alias-of-a-shared-mailbox-or-change-the-primary-email-address"></a><span data-ttu-id="4e95b-106">공유 사서함의 이름 또는 전자 메일 별칭을 변경하거나 기본 전자 메일 주소 변경</span><span class="sxs-lookup"><span data-stu-id="4e95b-106">Change the name or email alias of a shared mailbox, or change the primary email address</span></span>
 
-1. <span data-ttu-id="c0346-107">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-107">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
+1. <span data-ttu-id="4e95b-107">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-107">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
 
-2. <span data-ttu-id="c0346-108">편집할 공유 사서함을 선택한 다음  이름, 전자 메일, 전자 메일 별칭 옆에 있는 **편집을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-108">Select the shared mailbox you want to edit, and then select **Edit** next to **Name, Email, Email aliases**.</span></span>
+2. <span data-ttu-id="4e95b-108">편집할 공유 사서함을 선택한 다음  이름, 전자 메일, 전자 메일 별칭 옆에 있는 **편집을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-108">Select the shared mailbox you want to edit, and then select **Edit** next to **Name, Email, Email aliases**.</span></span>
 
-3. <span data-ttu-id="c0346-109">새 이름을 입력하거나 다른 별칭을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-109">Enter a new name, or add another alias.</span></span> <span data-ttu-id="c0346-110">기본 전자 메일 주소를 변경하려면 사서함에 전자 메일 별칭이 두 개 이상 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-110">If you want to change the primary email address, your mailbox must have more than one email alias.</span></span>
+3. <span data-ttu-id="4e95b-109">새 이름을 입력하거나 다른 별칭을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-109">Enter a new name, or add another alias.</span></span> <span data-ttu-id="4e95b-110">기본 전자 메일 주소를 변경하려면 사서함에 전자 메일 별칭이 두 개 이상 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-110">If you want to change the primary email address, your mailbox must have more than one email alias.</span></span>
 
-4. <span data-ttu-id="c0346-111">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-111">Select **Save**.</span></span>
+4. <span data-ttu-id="4e95b-111">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-111">Select **Save**.</span></span>
 
-## <a name="forward-emails-that-are-sent-to-a-shared-mailbox"></a><span data-ttu-id="c0346-112">공유 사서함으로 전송되는 전자 메일 전달</span><span class="sxs-lookup"><span data-stu-id="c0346-112">Forward emails that are sent to a shared mailbox</span></span>
+## <a name="forward-emails-that-are-sent-to-a-shared-mailbox"></a><span data-ttu-id="4e95b-112">공유 사서함으로 전송되는 전자 메일 전달</span><span class="sxs-lookup"><span data-stu-id="4e95b-112">Forward emails that are sent to a shared mailbox</span></span>
 
-<span data-ttu-id="c0346-113">공유 사서함으로 전송된 전자 메일을 전달하기 위해 공유 사서함에 라이선스를 할당할 필요는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-113">You do not need to assign a license to the shared mailbox in order to forward email that's sent to it.</span></span> <span data-ttu-id="c0346-114">메시지를 유효한 전자 메일 주소 또는 메일로 전달할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-114">You can forward the messages to any valid email address or distribution list.</span></span>
+<span data-ttu-id="4e95b-113">공유 사서함으로 전송된 전자 메일을 전달하기 위해 공유 사서함에 라이선스를 할당할 필요는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-113">You do not need to assign a license to the shared mailbox in order to forward email that's sent to it.</span></span> <span data-ttu-id="4e95b-114">메시지를 유효한 전자 메일 주소 또는 메일로 전달할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-114">You can forward the messages to any valid email address or distribution list.</span></span>
 
-1. <span data-ttu-id="c0346-115">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-115">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
+1. <span data-ttu-id="4e95b-115">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-115">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
 
-2. <span data-ttu-id="c0346-116">편집할 공유 사서함을 선택한 다음 전자 메일 전달 **편집 을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-116">Select the shared mailbox you want to edit, then select **Email forwarding** \> **Edit**.</span></span>
+2. <span data-ttu-id="4e95b-116">편집할 공유 사서함을 선택한 다음 전자 메일 전달 **편집 을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-116">Select the shared mailbox you want to edit, then select **Email forwarding** \> **Edit**.</span></span>
     
-3. <span data-ttu-id="c0346-117">토글을 **으로 설정하고** 메시지를 전달할 전자 메일 주소를 하나 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-117">Set the toggle to **On**, and enter one email address to forward the messages to.</span></span> <span data-ttu-id="c0346-118">유효한 전자 메일 주소일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-118">It can be any valid email address.</span></span> <span data-ttu-id="c0346-119">여러 주소로 전달하려면 주소에 대한 메일 그룹을 만든 다음 이 상자에 그룹의 이름을 입력해야 합니다. [](/office365/admin/setup/create-distribution-lists)</span><span class="sxs-lookup"><span data-stu-id="c0346-119">To forward to multiple addresses, you need to [create a distribution group](/office365/admin/setup/create-distribution-lists) for the addresses, and then enter the name of the group in this box.</span></span>
+3. <span data-ttu-id="4e95b-117">토글을 **으로 설정하고** 메시지를 전달할 전자 메일 주소를 하나 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-117">Set the toggle to **On**, and enter one email address to forward the messages to.</span></span> <span data-ttu-id="4e95b-118">유효한 전자 메일 주소일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-118">It can be any valid email address.</span></span> <span data-ttu-id="4e95b-119">여러 주소로 전달하려면 주소에 대한 메일 그룹을 만든 다음 이 상자에 그룹의 이름을 입력해야 합니다. [](/office365/admin/setup/create-distribution-lists)</span><span class="sxs-lookup"><span data-stu-id="4e95b-119">To forward to multiple addresses, you need to [create a distribution group](/office365/admin/setup/create-distribution-lists) for the addresses, and then enter the name of the group in this box.</span></span>
     
-4. <span data-ttu-id="c0346-120">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-120">Select **Save**.</span></span>
+4. <span data-ttu-id="4e95b-120">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-120">Select **Save**.</span></span>
 
-## <a name="send-automatic-replies-from-a-shared-mailbox"></a><span data-ttu-id="c0346-121">공유 사서함에서 자동 회신 보내기</span><span class="sxs-lookup"><span data-stu-id="c0346-121">Send automatic replies from a shared mailbox</span></span>
+## <a name="send-automatic-replies-from-a-shared-mailbox"></a><span data-ttu-id="4e95b-121">공유 사서함에서 자동 회신 보내기</span><span class="sxs-lookup"><span data-stu-id="4e95b-121">Send automatic replies from a shared mailbox</span></span>
 
-1. <span data-ttu-id="c0346-122">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-122">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
+1. <span data-ttu-id="4e95b-122">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-122">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
 
-2. <span data-ttu-id="c0346-123">편집할 공유 사서함을 선택한 다음 자동 답장 편집 **을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-123">Select the shared mailbox you want to edit, then select **Automatic replies** \> **Edit**.</span></span>
+2. <span data-ttu-id="4e95b-123">편집할 공유 사서함을 선택한 다음 자동 답장 편집 **을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-123">Select the shared mailbox you want to edit, then select **Automatic replies** \> **Edit**.</span></span>
     
-3. <span data-ttu-id="c0346-124">토글을 **으로 설정하고** 조직 내부 또는 조직 외부의 사용자에 대한 회신을 보낼지 여부를 선택하십시오.</span><span class="sxs-lookup"><span data-stu-id="c0346-124">Set the toggle to **On**, and choose whether to send the reply to people inside your organization or outside your organization.</span></span>
+3. <span data-ttu-id="4e95b-124">토글을 **으로 설정하고** 조직 내부 또는 조직 외부의 사용자에 대한 회신을 보낼지 여부를 선택하십시오.</span><span class="sxs-lookup"><span data-stu-id="4e95b-124">Set the toggle to **On**, and choose whether to send the reply to people inside your organization or outside your organization.</span></span>
 
-4. <span data-ttu-id="c0346-p105">조직 내부 및 사용자에게 보내려는 회신을 입력합니다. 이미지는 추가할 수 없으며 텍스트만 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-p105">Enter the reply you want to send to people inside your organization. You can't add images, only text.</span></span>
+4. <span data-ttu-id="4e95b-p105">조직 내부 및 사용자에게 보내려는 회신을 입력합니다. 이미지는 추가할 수 없으며 텍스트만 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-p105">Enter the reply you want to send to people inside your organization. You can't add images, only text.</span></span>
 
-5. <span data-ttu-id="c0346-127">조직 *외부의* 사용자들에게도 회신을 보내고 싶은 경우, 확인란을 선택하고 회신을 받을 대상을 선택하고 텍스트를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-127">If you want to *also* send a reply to people outside your organization, select the check box, who you want to get the reply, and type the text.</span></span> <span data-ttu-id="c0346-128">조직 외부 사용자에게만 보내는 방법은 없지만, 조직 내부 사용자에게만 보낼 수는 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-128">There's no way to only send to people outside your organization but not to people inside your organization.</span></span>
+5. <span data-ttu-id="4e95b-127">조직 *외부의* 사용자들에게도 회신을 보내고 싶은 경우, 확인란을 선택하고 회신을 받을 대상을 선택하고 텍스트를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-127">If you want to *also* send a reply to people outside your organization, select the check box, who you want to get the reply, and type the text.</span></span> <span data-ttu-id="4e95b-128">조직 외부 사용자에게만 보내는 방법은 없지만, 조직 내부 사용자에게만 보낼 수는 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-128">There's no way to only send to people outside your organization but not to people inside your organization.</span></span>
 
-6. <span data-ttu-id="c0346-129">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-129">Select **Save**.</span></span>
+6. <span data-ttu-id="4e95b-129">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-129">Select **Save**.</span></span>
 
-## <a name="allow-everyone-to-see-the-sent-email-the-replies"></a><span data-ttu-id="c0346-130">모든 사람이 보낸 전자 메일(회신)을 볼 수 있도록 허용</span><span class="sxs-lookup"><span data-stu-id="c0346-130">Allow everyone to see the Sent email (the replies)</span></span>
+## <a name="allow-everyone-to-see-the-sent-email-the-replies"></a><span data-ttu-id="4e95b-130">모든 사람이 보낸 전자 메일(회신)을 볼 수 있도록 허용</span><span class="sxs-lookup"><span data-stu-id="4e95b-130">Allow everyone to see the Sent email (the replies)</span></span>
 
-<span data-ttu-id="c0346-p107">기본적으로 공유 사서함에서 보낸 메시지는 공유 사서함의 보낸 편지함 폴더에 저장되지 않습니다. 대신, 메시지를 보낸 사람의 보낸 편지함 폴더에 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-p107">By default, messages sent from the shared mailbox aren't saved to the Sent Items folder of the shared mailbox. Instead, they are saved to the Sent Items folder of the person who sent the message.</span></span>
+<span data-ttu-id="4e95b-p107">기본적으로 공유 사서함에서 보낸 메시지는 공유 사서함의 보낸 편지함 폴더에 저장되지 않습니다. 대신, 메시지를 보낸 사람의 보낸 편지함 폴더에 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-p107">By default, messages sent from the shared mailbox aren't saved to the Sent Items folder of the shared mailbox. Instead, they are saved to the Sent Items folder of the person who sent the message.</span></span>
 
-<span data-ttu-id="c0346-133">모든 사용자가 보낸 전자 메일을 볼 수 있도록 허용하려면 관리 센터에서 공유 사서함 설정을 편집하고 보낸 항목 **편집 을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-133">If you want to allow everyone to see the Sent email, in the admin center, edit the shared mailbox settings, and select **Sent items** \> **Edit**.</span></span>
-
-
-## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a><span data-ttu-id="c0346-134">공유 사서함이 Microsoft 전자 메일에 액세스하는 데 사용할 수 있는 앱 선택</span><span class="sxs-lookup"><span data-stu-id="c0346-134">Choose the apps that a shared mailbox can use to access Microsoft email</span></span>
-
-1. <span data-ttu-id="c0346-135">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-135">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
-
-2. <span data-ttu-id="c0346-136">편집할 공유 사서함을 선택한 다음 전자 메일 앱 편집 **을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-136">Select the shared mailbox you want to edit, then select **Email apps** \> **Edit**.</span></span>
-
-3. <span data-ttu-id="c0346-137">구성원이 공유 사서함에 액세스하는 데 사용할 수 있도록 할 모든 앱에 대해 토글을 으로 설정하십시오. </span><span class="sxs-lookup"><span data-stu-id="c0346-137">Set the toggle to **On** for all of the apps you want members to be able to use to access the shared mailbox.</span></span> <span data-ttu-id="c0346-138">사용하지 않는 모든  앱에 대해 토글을 끄기로 설정하세요.</span><span class="sxs-lookup"><span data-stu-id="c0346-138">Set the toggle to **Off** for any apps you don't want them to use.</span></span> 
-
-4. <span data-ttu-id="c0346-139">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-139">Select **Save**.</span></span>
+<span data-ttu-id="4e95b-133">모든 사용자가 보낸 전자 메일을 볼 수 있도록 허용하려면 관리 센터에서 공유 사서함 설정을 편집하고 보낸 항목 **편집 을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-133">If you want to allow everyone to see the Sent email, in the admin center, edit the shared mailbox settings, and select **Sent items** \> **Edit**.</span></span>
 
 
-## <a name="put-a-shared-mailbox-on-litigation-hold"></a><span data-ttu-id="c0346-140">공유 사서함에 소송 보류</span><span class="sxs-lookup"><span data-stu-id="c0346-140">Put a shared mailbox on litigation hold</span></span>
+## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a><span data-ttu-id="4e95b-134">공유 사서함이 Microsoft 전자 메일에 액세스하는 데 사용할 수 있는 앱 선택</span><span class="sxs-lookup"><span data-stu-id="4e95b-134">Choose the apps that a shared mailbox can use to access Microsoft email</span></span>
 
-<span data-ttu-id="c0346-141">소송 보유에 대한 자세한 내용은 [Create a Litigation Hold를 참조합니다.](../../compliance/create-a-litigation-hold.md)</span><span class="sxs-lookup"><span data-stu-id="c0346-141">To learn more about litigation hold, see [Create a Litigation Hold](../../compliance/create-a-litigation-hold.md).</span></span>
+1. <span data-ttu-id="4e95b-135">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-135">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
 
-1. <span data-ttu-id="c0346-142">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-142">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
+2. <span data-ttu-id="4e95b-136">편집할 공유 사서함을 선택한 다음 전자 메일 앱 편집 **을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-136">Select the shared mailbox you want to edit, then select **Email apps** \> **Edit**.</span></span>
 
-2. <span data-ttu-id="c0346-143">편집할 공유 사서함을 선택한 다음 소송 보류 편집 **을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-143">Select the shared mailbox you want to edit, then select **Litigation hold** \> **Edit**.</span></span>
+3. <span data-ttu-id="4e95b-137">구성원이 공유 사서함에 액세스하는 데 사용할 수 있도록 할 모든 앱에 대해 토글을 으로 설정하십시오. </span><span class="sxs-lookup"><span data-stu-id="4e95b-137">Set the toggle to **On** for all of the apps you want members to be able to use to access the shared mailbox.</span></span> <span data-ttu-id="4e95b-138">사용하지 않는 모든  앱에 대해 토글을 끄기로 설정하세요.</span><span class="sxs-lookup"><span data-stu-id="4e95b-138">Set the toggle to **Off** for any apps you don't want them to use.</span></span> 
 
-3. <span data-ttu-id="c0346-144">토글을 **으로 설정**</span><span class="sxs-lookup"><span data-stu-id="c0346-144">Set the toggle to **On**.</span></span> 
-
-4. <span data-ttu-id="c0346-145">선택적으로 기간, s 보류에 대한 메모 및 추가 정보가 있는 URL을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-145">Optionally, enter a duration, s note about the hold, and a URL with more information.</span></span>  
-
-5. <span data-ttu-id="c0346-146">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-146">Select **Save**.</span></span>
+4. <span data-ttu-id="4e95b-139">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-139">Select **Save**.</span></span>
 
 
-## <a name="add-or-remove-members"></a><span data-ttu-id="c0346-147">구성원 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="c0346-147">Add or remove members</span></span>
+## <a name="put-a-shared-mailbox-on-litigation-hold"></a><span data-ttu-id="4e95b-140">공유 사서함에 소송 보류</span><span class="sxs-lookup"><span data-stu-id="4e95b-140">Put a shared mailbox on litigation hold</span></span>
 
-1. <span data-ttu-id="c0346-148">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-148">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
+<span data-ttu-id="4e95b-141">소송 보유에 대한 자세한 내용은 [Create a Litigation Hold를 참조합니다.](../../compliance/create-a-litigation-hold.md)</span><span class="sxs-lookup"><span data-stu-id="4e95b-141">To learn more about litigation hold, see [Create a Litigation Hold](../../compliance/create-a-litigation-hold.md).</span></span>
 
-2. <span data-ttu-id="c0346-149">편집할 공유 사서함을 선택한 다음 구성원 편집 **을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-149">Select the shared mailbox you want to edit, then select **Members** \> **Edit**.</span></span>
+1. <span data-ttu-id="4e95b-142">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-142">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
 
-3. <span data-ttu-id="c0346-150">다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-150">Do one of the following:</span></span>
-   - <span data-ttu-id="c0346-151">구성원을 추가하려면 구성원 **추가를** 선택하고 추가할 구성원을 검색하거나 선택한 다음 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-151">To add members, select **Add members**, search for or select a member to add, and then select **Save**.</span></span>
-   - <span data-ttu-id="c0346-152">구성원을 제거하려면 검색 상자를 사용하여 필요한 경우 구성원을 검색하고 구성원 이름 **옆의 X를** 선택한 다음 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-152">To remove members, use the Search box to search for the member if necessary, select the **X** next to the member's name, and then select **Save**.</span></span> 
+2. <span data-ttu-id="4e95b-143">편집할 공유 사서함을 선택한 다음 소송 보류 편집 **을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-143">Select the shared mailbox you want to edit, then select **Litigation hold** \> **Edit**.</span></span>
 
-4. <span data-ttu-id="c0346-153">저장을 **다시** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-153">Select **Save** again.</span></span>
+3. <span data-ttu-id="4e95b-144">토글을 **으로 설정**</span><span class="sxs-lookup"><span data-stu-id="4e95b-144">Set the toggle to **On**.</span></span> 
 
-## <a name="add-or-remove-permissions-of-members"></a><span data-ttu-id="c0346-154">구성원의 사용 권한 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="c0346-154">Add or remove permissions of members</span></span>
+4. <span data-ttu-id="4e95b-145">선택적으로 기간, s 보류에 대한 메모 및 추가 정보가 있는 URL을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-145">Optionally, enter a duration, s note about the hold, and a URL with more information.</span></span>  
 
-1. <span data-ttu-id="c0346-155">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-155">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
+5. <span data-ttu-id="4e95b-146">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-146">Select **Save**.</span></span>
 
-2. <span data-ttu-id="c0346-156">편집할 공유 사서함을 선택한 다음 구성원 **권한** 사용자 \> **지정 을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-156">Select the shared mailbox you want to edit, then select **Members** \> **Customize permissions**.</span></span>
 
-3. <span data-ttu-id="c0346-157">**구성원에** 대해 변경할 권한 옆의 편집을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-157">Select **Edit** next to the permission you want to change for a member.</span></span> 
+## <a name="add-or-remove-members"></a><span data-ttu-id="4e95b-147">구성원 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="4e95b-147">Add or remove members</span></span>
 
-4. <span data-ttu-id="c0346-158">다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-158">Do one of the following:</span></span>
-   - <span data-ttu-id="c0346-159">추가 구성원에게 해당 권한을 부여하려면 사용 권한 **추가를** 선택하고 추가할 구성원을 검색하거나 선택한 다음 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-159">To give that permission to an additional member, select **Add permissions**, search for or select a member to add, and then select **Save**.</span></span>
-   - <span data-ttu-id="c0346-160">구성원에서 사용 권한을 제거하려면 필요한 경우 검색 상자를 사용하여 구성원을 검색하고 구성원 이름 옆의 **X를** 선택한 다음 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-160">To remove the permission from a member, use the Search box to search for the member if necessary,  select the **X** next to the member's name, and then select **Save**.</span></span> 
+1. <span data-ttu-id="4e95b-148">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-148">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
 
-4. <span data-ttu-id="c0346-161">저장을 **다시** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-161">Select **Save** again.</span></span>
+2. <span data-ttu-id="4e95b-149">편집할 공유 사서함을 선택한 다음 구성원 편집 **을** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-149">Select the shared mailbox you want to edit, then select **Members** \> **Edit**.</span></span>
 
-## <a name="show-or-hide-a-shared-mailbox-in-the-global-address-list"></a><span data-ttu-id="c0346-162">전체 주소 목록에서 공유 사서함 표시 또는 숨기기</span><span class="sxs-lookup"><span data-stu-id="c0346-162">Show or hide a shared mailbox in the global address list</span></span>
+3. <span data-ttu-id="4e95b-150">다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-150">Do one of the following:</span></span>
+   - <span data-ttu-id="4e95b-151">구성원을 추가하려면 구성원 **추가를** 선택하고 추가할 구성원을 검색하거나 선택한 다음 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-151">To add members, select **Add members**, search for or select a member to add, and then select **Save**.</span></span>
+   - <span data-ttu-id="4e95b-152">구성원을 제거하려면 검색 상자를 사용하여 필요한 경우 구성원을 검색하고 구성원 이름 **옆의 X를** 선택한 다음 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-152">To remove members, use the Search box to search for the member if necessary, select the **X** next to the member's name, and then select **Save**.</span></span> 
 
-<span data-ttu-id="c0346-163">전체 주소 목록에 공유 사서함을 표시하지 않는 경우 사서함은 조직의 주소 목록에 나타나지 않지만 해당 사서함으로 전송된 전자 메일을 계속 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-163">If you choose not to show the shared mailbox in the global address list, the mailbox won't appear in your organization's address list, but it will still receive email sent to it.</span></span> 
+4. <span data-ttu-id="4e95b-153">저장을 **다시** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-153">Select **Save** again.</span></span>
 
-1. <span data-ttu-id="c0346-164">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-164">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
+## <a name="add-or-remove-permissions-of-members"></a><span data-ttu-id="4e95b-154">구성원의 사용 권한 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="4e95b-154">Add or remove permissions of members</span></span>
 
-2. <span data-ttu-id="c0346-165">편집할 공유 사서함을 선택한 다음 전체 주소 목록 편집에서 **표시를** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c0346-165">Select the shared mailbox you want to edit, then select **Show in global address list** \> **Edit**.</span></span>
+1. <span data-ttu-id="4e95b-155">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-155">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
 
-3. <span data-ttu-id="c0346-166">토글을 설정 **또는 해제로** **설정**</span><span class="sxs-lookup"><span data-stu-id="c0346-166">Set the toggle to **On**  or **Off**.</span></span> 
+2. <span data-ttu-id="4e95b-156">편집할 공유 사서함을 선택한 다음 구성원 **권한** 사용자 \> **지정 을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-156">Select the shared mailbox you want to edit, then select **Members** \> **Customize permissions**.</span></span>
 
-4. <span data-ttu-id="c0346-167">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-167">Select **Save**.</span></span>
+3. <span data-ttu-id="4e95b-157">**구성원에** 대해 변경할 권한 옆의 편집을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-157">Select **Edit** next to the permission you want to change for a member.</span></span> 
+
+4. <span data-ttu-id="4e95b-158">다음 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-158">Do one of the following:</span></span>
+   - <span data-ttu-id="4e95b-159">추가 구성원에게 해당 권한을 부여하려면 사용 권한 **추가를** 선택하고 추가할 구성원을 검색하거나 선택한 다음 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-159">To give that permission to an additional member, select **Add permissions**, search for or select a member to add, and then select **Save**.</span></span>
+   - <span data-ttu-id="4e95b-160">구성원에서 사용 권한을 제거하려면 필요한 경우 검색 상자를 사용하여 구성원을 검색하고 구성원 이름 옆의 **X를** 선택한 다음 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-160">To remove the permission from a member, use the Search box to search for the member if necessary,  select the **X** next to the member's name, and then select **Save**.</span></span> 
+
+4. <span data-ttu-id="4e95b-161">저장을 **다시** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-161">Select **Save** again.</span></span>
+
+## <a name="show-or-hide-a-shared-mailbox-in-the-global-address-list"></a><span data-ttu-id="4e95b-162">전체 주소 목록에서 공유 사서함 표시 또는 숨기기</span><span class="sxs-lookup"><span data-stu-id="4e95b-162">Show or hide a shared mailbox in the global address list</span></span>
+
+<span data-ttu-id="4e95b-163">전체 주소 목록에 공유 사서함을 표시하지 않는 경우 사서함은 조직의 주소 목록에 나타나지 않지만 해당 사서함으로 전송된 전자 메일을 계속 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-163">If you choose not to show the shared mailbox in the global address list, the mailbox won't appear in your organization's address list, but it will still receive email sent to it.</span></span> 
+
+1. <span data-ttu-id="4e95b-164">관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-164">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Shared mailboxes</a> page.</span></span>
+
+2. <span data-ttu-id="4e95b-165">편집할 공유 사서함을 선택한 다음 전체 주소 목록 편집에서 **표시를** \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4e95b-165">Select the shared mailbox you want to edit, then select **Show in global address list** \> **Edit**.</span></span>
+
+3. <span data-ttu-id="4e95b-166">토글을 설정 **또는 해제로** **설정**</span><span class="sxs-lookup"><span data-stu-id="4e95b-166">Set the toggle to **On**  or **Off**.</span></span> 
+
+4. <span data-ttu-id="4e95b-167">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-167">Select **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c0346-168">주소 목록에서 공유 사서함을 숨기면 새 공유 사서함 구성원이 주소 목록에 공유 사서함이 다시 표시될 때까지 Outlook 프로필에 숨겨진 사서함을 추가할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c0346-168">Hiding a shared mailbox from address list will make it impossible for new shared mailbox members to add the hidden mailbox to their Outlook profile until the shared mailbox is again shown in the address list.</span></span> 
+> <span data-ttu-id="4e95b-168">주소 목록에서 공유 사서함을 숨기면 새 공유 사서함 구성원이 주소 목록에 공유 사서함이 다시 표시될 때까지 Outlook 프로필에 숨겨진 사서함을 추가할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4e95b-168">Hiding a shared mailbox from address list will make it impossible for new shared mailbox members to add the hidden mailbox to their Outlook profile until the shared mailbox is again shown in the address list.</span></span> 
 
-## <a name="related-content"></a><span data-ttu-id="c0346-169">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="c0346-169">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="4e95b-169">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="4e95b-169">Related content</span></span>
 
-<span data-ttu-id="c0346-170">[공유 사서함(문서)\](about-shared-mailboxes.md)</span><span class="sxs-lookup"><span data-stu-id="c0346-170">[About shared mailboxes](about-shared-mailboxes.md) (article)\</span></span>
-<span data-ttu-id="c0346-171">[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)</span><span class="sxs-lookup"><span data-stu-id="c0346-171">[Create a shared mailbox](create-a-shared-mailbox.md) (article)</span></span>\
-<span data-ttu-id="c0346-172">[사용자 사서함을 공유 사서함으로](convert-user-mailbox-to-shared-mailbox.md) 변환(문서)</span><span class="sxs-lookup"><span data-stu-id="c0346-172">[Convert a user mailbox to a shared mailbox](convert-user-mailbox-to-shared-mailbox.md) (article)</span></span>\
-<span data-ttu-id="c0346-173">[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)</span><span class="sxs-lookup"><span data-stu-id="c0346-173">[Remove a license from a shared mailbox](remove-license-from-shared-mailbox.md) (article)</span></span>\
-<span data-ttu-id="c0346-174">[공유 사서함 문제 해결](resolve-issues-with-shared-mailboxes.md)(문서)</span><span class="sxs-lookup"><span data-stu-id="c0346-174">[Resolve issues with shared mailboxes](resolve-issues-with-shared-mailboxes.md) (article)</span></span>
+<span data-ttu-id="4e95b-170">[공유 사서함 정보](about-shared-mailboxes.md)(문서)</span><span class="sxs-lookup"><span data-stu-id="4e95b-170">[About shared mailboxes](about-shared-mailboxes.md) (article)</span></span>\
+<span data-ttu-id="4e95b-171">[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)</span><span class="sxs-lookup"><span data-stu-id="4e95b-171">[Create a shared mailbox](create-a-shared-mailbox.md) (article)</span></span>\
+<span data-ttu-id="4e95b-172">[사용자 사서함을 공유 사서함으로 변환](convert-user-mailbox-to-shared-mailbox.md)(문서)</span><span class="sxs-lookup"><span data-stu-id="4e95b-172">[Convert a user mailbox to a shared mailbox](convert-user-mailbox-to-shared-mailbox.md) (article)</span></span>\
+<span data-ttu-id="4e95b-173">[공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)(문서)</span><span class="sxs-lookup"><span data-stu-id="4e95b-173">[Remove a license from a shared mailbox](remove-license-from-shared-mailbox.md) (article)</span></span>\
+<span data-ttu-id="4e95b-174">[공유 사서함 문제 해결](resolve-issues-with-shared-mailboxes.md)(문서)</span><span class="sxs-lookup"><span data-stu-id="4e95b-174">[Resolve issues with shared mailboxes](resolve-issues-with-shared-mailboxes.md) (article)</span></span>
