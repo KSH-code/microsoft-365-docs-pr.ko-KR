@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender에서 사용자 지정 검색 규칙 만들기 및 관리
+title: Defender에서 사용자 지정 검색 규칙 Microsoft 365 관리
 description: 고급 헌팅 쿼리를 기반으로 사용자 지정 검색 규칙을 만들고 관리하는 방법을 배우기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, Microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, 규칙, schema, kusto, RBAC, 사용 권한, 끝점용 Microsoft Defender
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, 규칙, schema, kusto, RBAC, 사용 권한, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -42,14 +42,14 @@ ms.locfileid: "51952563"
 
 사용자 지정 검색을 관리하려면 다음 역할 중 하나를 할당해야 합니다.
 
-- **보안 관리자**- [이 Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 역할이 있는 사용자는 Microsoft 365 보안 센터 및 기타 포털 및 서비스에서 보안 설정을 관리할 수 있습니다.
+- **보안 관리자**-이 역할이 [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 사용자는 보안 센터 및 기타 포털 및 Microsoft 365 보안 설정을 관리할 수 있습니다.
 
-- **보안 운영자**- 이 [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 역할이 있는 사용자는 경고를 관리하고 Microsoft 365 보안 센터의 모든 정보를 포함하여 보안 관련 기능에 대한 전역 읽기 전용 액세스를 사용할 수 있습니다. 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
+- **보안 운영자**— [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 이 Azure Active Directory 역할이 있는 사용자는 경고를 관리하고 보안 관련 기능에 대한 전역 읽기 전용 액세스 권한을 가지며, 보안 센터의 모든 정보를 Microsoft 365 있습니다. 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
 
 필요한 사용 권한을 관리하려면 전역 **관리자가 다음을 할 수** 있습니다.
 
-- 역할 보안 **관리자** 아래 [Microsoft 365](https://admin.microsoft.com/) 관리 센터에서 보안 관리자 또는 보안 운영자 역할을   >  **할당합니다.**
-- 설정 사용 권한 역할에서 Microsoft Defender 보안 센터의  [끝점용 Microsoft Defender에](https://securitycenter.windows.com/) 대한 RBAC  >    >  **설정을 확인합니다.** 해당 역할을 선택하여 보안 설정 관리 **권한을 할당합니다.**
+- 역할 **보안 관리자의** **Microsoft 365** 관리 [센터에서](https://admin.microsoft.com/) 보안 관리자 또는 보안 운영자 역할을  >  **할당합니다.**
+- 사용 권한 역할에서 Microsoft Defender for [Endpoint에 Microsoft Defender 보안 센터](https://securitycenter.windows.com/) RBAC **설정**  >    >  **확인합니다.** 해당 역할을 선택하여 보안 설정 관리 **권한을 할당합니다.**
 
 > [!NOTE]
 > 사용자 지정 검색을 **관리하려면** RBAC가 켜져 있는 경우 보안 운영자가 끝점용 Microsoft Defender의 보안 설정 관리 권한이 필요합니다. 
@@ -57,7 +57,7 @@ ms.locfileid: "51952563"
 ## <a name="create-a-custom-detection-rule"></a>사용자 지정 검색 규칙 만들기
 ### <a name="1-prepare-the-query"></a>1. 쿼리를 준비합니다.
 
-Microsoft 365 보안 센터에서  고급 헌팅으로 이동하여 기존 쿼리를 선택하거나 새 쿼리를 생성합니다. 새 쿼리를 사용할 때 쿼리를 실행하여 오류를 식별하고 가능한 결과를 파악합니다.
+보안 Microsoft 365 고급 헌팅으로  이동하여 기존 쿼리를 선택하거나 새 쿼리를 만드면 됩니다. 새 쿼리를 사용할 때 쿼리를 실행하여 오류를 식별하고 가능한 결과를 파악합니다.
 
 >[!IMPORTANT]
 >서비스가 너무 많은 경고를 반환하지 않도록 각 규칙은 실행 시 100개의 경고만 생성하는 것으로 제한됩니다. 규칙을 만들기 전에 일반적인 일과 활동에 대한 경고가 표시되지 않도록 쿼리를 조정하십시오.
@@ -145,7 +145,7 @@ DeviceEvents
 이러한 작업은 쿼리 결과의 `DeviceId` 열에 있는 장치에 적용됩니다.
 - **장치 격리**- 끝점용 Microsoft Defender를 사용하여 전체 네트워크 격리 적용을 통해 장치가 응용 프로그램 또는 서비스에 연결하지 못하게 합니다. [끝점 컴퓨터의 Microsoft Defender에 대해 자세히 알아보시고](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
 - **조사 패키지 수집**- ZIP 파일에 장치 정보를 수집합니다. [Endpoint용 Microsoft Defender 조사 패키지에 대해 자세히 알아보시겠습니다.](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
-- **바이러스 백신 검사 실행**-장치에서 Windows Defender 바이러스 백신 검사 수행
+- **바이러스 백신 검사 실행**- 장치에서 Windows Defender 바이러스 백신 전체 검사 수행
 - **조사 시작**- 디바이스에서 [자동화된](m365d-autoir.md) 조사 시작
 - **앱 실행 제한**- Microsoft에서 발급한 인증서로 서명된 파일만 실행할 수 있도록 장치에 대한 제한을 설정합니다. [끝점용 Microsoft Defender의 앱 제한에 대해 자세히 알아보시고](/microsoft-365/security/defender-endpoint/respond-machine-alerts#restrict-app-execution)
 
@@ -153,10 +153,10 @@ DeviceEvents
 이 옵션을 선택하면 쿼리 결과의 , , 또는 열에 있는 파일에 대해 **Quarantine** 파일 `SHA1` `InitiatingProcessSHA1` 작업을 `SHA256` `InitiatingProcessSHA256` 적용하기로 선택할 수 있습니다. 이 작업은 현재 위치에서 파일을 삭제하고 복사본을 검사에 저장합니다.
 
 #### <a name="actions-on-users"></a>사용자에 대한 작업
-이 옵션을  선택하면 쿼리 결과의 , 또는 열에서 사용자에게 손상된 것으로 표시 작업이 `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` 수행됩니다. 이 작업은 Azure Active Directory에서 사용자 위험 수준을 "높음"으로 설정하여 해당 ID 보호 [정책을 트리거합니다.](/azure/active-directory/identity-protection/overview-identity-protection)
+이 옵션을  선택하면 쿼리 결과의 , 또는 열에서 사용자에게 손상된 것으로 표시 작업이 `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` 수행됩니다. 이 작업은 에서 사용자 위험 수준을 "높음"으로 Azure Active Directory ID 보호 정책을 [트리거합니다.](/azure/active-directory/identity-protection/overview-identity-protection)
 
 > [!NOTE]
-> 사용자 지정 검색 규칙에 대한 허용 또는 차단 작업은 현재 Microsoft 365 Defender에서 지원되지 않습니다.
+> 사용자 지정 검색 규칙에 대한 허용 또는 차단 작업은 현재 Defender에서 Microsoft 365 않습니다.
 
 ### <a name="5-set-the-rule-scope"></a>5. 규칙 범위를 설정합니다.
 범위를 설정하여 규칙에서 다루는 장치를 지정합니다. 이 범위는 장치를 검사하는 규칙에 영향을 주며 사서함과 사용자 계정 또는 ID만 검사하는 규칙에는 영향을 주지 않습니다.
@@ -181,7 +181,7 @@ DeviceEvents
 기존 사용자 지정 검색 규칙 목록을 보고, 이전 실행을 확인하고, 트리거된 경고를 검토할 수 있습니다. 필요한 경우 규칙을 실행하고 수정할 수도 있습니다.
 
 >[!TIP]
-> 사용자 지정 검색으로 발생된 경고는 경고 및 인시던트 API를 통해 사용할 수 있습니다. 자세한 내용은 지원되는 [Microsoft 365 Defender API를 참조하세요.](api-supported.md)
+> 사용자 지정 검색으로 발생된 경고는 경고 및 인시던트 API를 통해 사용할 수 있습니다. 자세한 내용은 Supported [Microsoft 365 Defender API를 참조하세요.](api-supported.md)
 
 ### <a name="view-existing-rules"></a>기존 규칙 보기
 
@@ -222,7 +222,7 @@ DeviceEvents
 >정보를 빠르게 보고 표의 항목에 대한 작업을 수행하기 위해 표 왼쪽에 있는 [&#10003;] 열을 사용하세요.
 
 >[!NOTE]
->이 문서의 일부 열은 Microsoft Defender for Endpoint에서 사용할 수 없습니다. [Microsoft 365 Defender를 켜서](m365d-enable.md) 더 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 Microsoft Defender의 고급 헌팅 쿼리 마이그레이션의 단계에 따라 끝점용 [Microsoft Defender에서 Microsoft](advanced-hunting-migrate-from-mde.md)365 Defender로 고급 헌팅 워크플로를 이동할 수 있습니다.
+>이 문서의 일부 열은 Microsoft Defender for Endpoint에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 - [사용자 지정 검색 개요](custom-detections-overview.md)

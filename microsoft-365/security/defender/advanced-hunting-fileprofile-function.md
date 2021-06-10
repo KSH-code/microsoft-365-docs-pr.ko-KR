@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender에 대한 고급 헌팅의 FileProfile() 기능
+title: Defender에 대한 고급 헌팅의 FileProfile() Microsoft 365 기능
 description: FileProfile()을 사용하여 고급 헌팅 쿼리 결과의 파일에 대한 정보를 강화하는 방법에 대해 자세히 알아보기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마 참조, kusto, FileProfile, 파일 프로필, 기능, 향상
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, FileProfile, 파일 프로필, 기능, 향상
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -74,7 +74,7 @@ invoke FileProfile(x,y)
 
 ## <a name="examples"></a>예제
 
-### <a name="project-only-the-sha1-column-and-enrich-it"></a>SHA1 열만 프로젝트하고 강화
+### <a name="project-only-the-sha1-column-and-enrich-it"></a>Project SHA1 열만 추가하고 강화
 
 ```kusto
 DeviceFileEvents

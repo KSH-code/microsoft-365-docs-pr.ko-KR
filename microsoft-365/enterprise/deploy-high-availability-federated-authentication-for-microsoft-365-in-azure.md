@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Ent_Solutions
 ms.assetid: 34b1ab9c-814c-434d-8fd0-e5a82cd9bff6
-description: '요약: Microsoft Azure에서 Microsoft 365 구독에 대한 고가용성 페더전 인증을 구성합니다.'
+description: '요약: Microsoft 365 구독에 대해 고가용성 페더타 인증을 Microsoft Azure.'
 ms.openlocfilehash: 3989ebb06b4ac5dfa1cded5e07c086c4778f94e7
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.locfileid: "50919155"
 ---
 # <a name="deploy-high-availability-federated-authentication-for-microsoft-365-in-azure"></a>Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포
 
-이 문서에는 이러한 가상 컴퓨터를 사용하여 Azure 인프라 서비스에서 Microsoft 365용 고가용성 페더링 인증을 배포하기 위한 단계별 지침에 대한 링크가 있습니다.
+이 문서에는 이러한 가상 컴퓨터를 사용하는 Azure 인프라 서비스에서 Microsoft Microsoft 365 인증을 배포하기 위한 단계별 지침에 대한 링크가 있습니다.
   
 - 웹 응용 프로그램 프록시 서버 2개
     
@@ -42,7 +42,7 @@ ms.locfileid: "50919155"
   
 **Azure의 Microsoft 365 인프라에 대한 고가용성 페더전 인증**
 
-![Azure의 고가용성 Microsoft 365 페더전 인증 인프라의 최종 구성](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
+![Azure의 페더 Microsoft 365 인프라에 대한 고가용성 구성](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
   
 모든 가상 컴퓨터는 단일 프레미스 간 Azure VNet(가상 네트워크)에 있습니다. 
   
@@ -54,7 +54,7 @@ ms.locfileid: "50919155"
 > [!NOTE]
 > 이 VNet이 온-프레미스 네트워크에 연결되어 있으므로 이 구성에는 jumpbox 또는 관리 서브넷의 가상 컴퓨터 모니터링이 포함되지 않습니다. 자세한 내용은 [N 계층 아키텍처에 대해 Windows VM 실행](/azure/guidance/guidance-compute-n-tier-vm)을 참조하세요. 
   
-이 구성의 결과로 모든 Microsoft 365 사용자에 대해 페더전된 인증을 사용할 수 있습니다. 그러면 사용자가 Microsoft 365 계정 대신 AD DS 자격 증명을 사용하여 로그인할 수 있습니다. 페더레이션 인증 인프라는 온-프레미스 경계 네트워크 대신 Azure 인프라 서비스에 더욱 쉽게 배포되는 중복 서버 집합을 사용합니다.
+이 구성의 결과로 모든 Microsoft 365 사용자에 대해 페더전된 인증을 사용할 수 있습니다. 그러면 사용자가 AD DS 자격 증명을 사용하여 해당 Microsoft 365 대신 로그인할 수 있습니다. 페더레이션 인증 인프라는 온-프레미스 경계 네트워크 대신 Azure 인프라 서비스에 더욱 쉽게 배포되는 중복 서버 집합을 사용합니다.
   
 ## <a name="bill-of-materials"></a>제품 구성 정보(BOM)
 
@@ -96,15 +96,15 @@ ms.locfileid: "50919155"
     
 - [4단계: 웹 응용 프로그램 프록시 구성](high-availability-federated-authentication-phase-4-configure-web-application-pro.md). 2개의 웹 응용 프로그램 프록시 서버를 만들고 구성합니다.
     
-- [5단계: Microsoft 365에](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)대한 페더전 인증 구성 Microsoft 365 구독에 대한 페더전 인증을 구성합니다.
+- [5단계: 에서](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)에 대해 페더 Microsoft 365. 사용자 구독에 대한 페더 Microsoft 365 구성합니다.
     
-이러한 문서에서는 Azure 인프라 서비스에서 Microsoft 365용 고가용성 페더레이드 인증을 만들기 위한 미리 정의된 아키텍처에 대한 단계적 징계 가이드를 제공합니다. 다음 사항에 유의해야 합니다.
+이러한 문서에서는 Azure 인프라 서비스에서 사용할 수 있는 고가용성 페더레이드 인증을 만들기 위한 미리 정의된 아키텍처에 대한 단계 Microsoft 365 제공합니다. 다음 사항에 유의해야 합니다.
   
 - 숙련된 AD FS 구현자인 경우 3~4단계의 지침을 적용하고 본인의 요구에 가장 적합한 서버 집합을 구축합니다.
     
 - 기존 프레미스 간 가상 네트워크와 함께 기존 Azure 하이브리드 클라우드 배포가 이미 있는 경우에는 1-2단계의 지침을 적용하거나 건너뛰고, 적절한 서브넷에 AD FS 및 웹 응용 프로그램 프록시 서버를 배치합니다.
     
-개발/테스트 환경 또는 이 구성의 개념 증명을 빌드하려면 [Microsoft 365 개발/테스트 환경의 페더티드 ID를 참조합니다.](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+개발/테스트 환경 또는 이 구성의 개념 증명을 구축하려면 Microsoft 365/테스트 환경의 페더티드 [ID를 참조합니다.](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 ## <a name="next-step"></a>다음 단계
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Defender의 사용자 지정 검색 개요
+title: Defender의 사용자 지정 Microsoft 365 개요
 description: 고급 헌팅을 사용하여 사용자 지정 검색을 만들고 경고를 생성하는 방법 이해
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto
 search.product: eADQiWindows 10XVcnh

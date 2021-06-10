@@ -20,7 +20,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 74d327e5-755f-4135-b9a5-7b79578c1bf9
-description: JavaScript를 사용하여 이미지 및 필수가 아닌 JavaScript의 로드를 지연하여 SharePoint Online 페이지의 로드 시간을 줄이는 방법을 학습합니다.
+description: JavaScript를 사용하여 이미지 및 필수가 아닌 JavaScript의 로드를 SharePoint 온라인 페이지의 로드 시간을 줄이는 방법을 배워야 합니다.
 ms.openlocfilehash: 86b93c4e1e102132bb0c1bfb9a413233529adecb
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -30,13 +30,13 @@ ms.locfileid: "50919167"
 ---
 # <a name="delay-loading-images-and-javascript-in-sharepoint-online"></a>SharePoint Online에서 이미지 및 JavaScript 로드 지연
 
-이 문서에서는 JavaScript를 사용하여 이미지 로드를 지연하고 페이지를 로드할 때까지 필수가 아닌 JavaScript를 로드할 때까지 기다려 SharePoint Online 페이지의 로드 시간을 줄이는 방법을 설명합니다.
+이 문서에서는 JavaScript를 사용하여 이미지 로드를 지연하고 페이지를 로드할 때까지 필수가 아닌 JavaScript를 로드할 때까지 기다리는 등 SharePoint Online 페이지의 로드 시간을 줄이는 방법을 설명합니다.
   
-이미지는 SharePoint Online의 페이지 로드 속도에 부정적인 영향을 줄 수 있습니다. 기본적으로 대부분의 최신 인터넷 브라우저는 HTML 페이지를 로드할 때 이미지를 미리 페치합니다. 이로 인해 사용자가 아래로 스크롤할 때까지 이미지가 화면에 표시되지 않는 경우 페이지 로드 속도가 불필요하게 느려질 수 있습니다. 이미지는 브라우저에서 페이지의 표시되는 부분을 로드하지 차단할 수 있습니다. 이 문제를 해결하려면 JavaScript를 사용하여 먼저 이미지 로드를 건너뛸 수 있습니다. 또한 필수가 아닌 JavaScript를 로드하면 SharePoint 페이지에서 다운로드 시간이 느려질 수 있습니다. 이 항목에서는 SharePoint Online에서 JavaScript를 사용하여 페이지 로드 시간을 개선하는 데 사용할 수 있는 몇 가지 방법에 대해 설명합니다.
+이미지는 온라인에서 페이지 로드 속도에 부정적인 영향을 SharePoint 있습니다. 기본적으로 대부분의 최신 인터넷 브라우저는 HTML 페이지를 로드할 때 이미지를 미리 페치합니다. 이로 인해 사용자가 아래로 스크롤할 때까지 이미지가 화면에 표시되지 않는 경우 페이지 로드 속도가 불필요하게 느려질 수 있습니다. 이미지는 브라우저에서 페이지의 표시되는 부분을 로드하지 차단할 수 있습니다. 이 문제를 해결하려면 JavaScript를 사용하여 먼저 이미지 로드를 건너뛸 수 있습니다. 또한 필수가 아닌 JavaScript를 로드하면 앱 페이지의 다운로드 SharePoint 느려질 수 있습니다. 이 항목에서는 SharePoint Online에서 JavaScript를 사용하여 페이지 로드 시간을 개선하는 데 사용할 수 SharePoint 있습니다.
   
-## <a name="improve-page-load-times-by-delaying-image-loading-in-sharepoint-online-pages-by-using-javascript"></a>JavaScript를 사용하여 SharePoint Online 페이지에서 이미지 로드를 지연하여 페이지 로드 시간 개선
+## <a name="improve-page-load-times-by-delaying-image-loading-in-sharepoint-online-pages-by-using-javascript"></a>JavaScript를 사용하여 온라인 SharePoint 이미지 로드를 지연하여 페이지 로드 시간 개선
 
-JavaScript를 사용하여 웹 브라우저에서 이미지를 미리 페치하지 못하게 할 수 있습니다. 그러면 전체 문서 렌더링 속도가 향상됩니다. 이렇게하려면 태그에서 src 특성 값을 제거하고 데이터 특성의 파일 \<img\> 경로(예: data-src)로 바니다. 예를 들어 다음과 같습니다.
+JavaScript를 사용하여 웹 브라우저에서 이미지를 미리 페치하지 못하게 할 수 있습니다. 그러면 전체 문서 렌더링 속도가 향상됩니다. 이렇게하려면 태그에서 src 특성 값을 제거하고 데이터 특성의 파일 \<img\> 경로(예: data-src)로 바니다. 예:
   
 ```html
 <img src="" data-src="/sites/NavigationBySearch/_catalogs/masterpage/media/microsoft-white-8.jpg" />
@@ -97,15 +97,15 @@ $('#s4-workspace').on("scroll", function () {
 });
 ```
 
-텍스트 파일을 확장명 .js와 함께 JavaScript 파일로 delayLoadImages.js.
+텍스트 파일을 확장명을 사용하여 JavaScript 파일로 .js 예로 delayLoadImages.js.
   
-콘텐츠 작성을 delayLoadImages.js SharePoint Online의 마스터 페이지에 파일의 내용을 추가할 수 있습니다. 이 작업을 위해 마스터 페이지의 헤더에 스크립트 링크를 추가합니다. 마스터 페이지에 있는 경우 JavaScript가 해당 마스터 페이지 레이아웃을 사용하는 SharePoint Online 사이트의 모든 페이지에 적용됩니다. 또는 사이트의 한 페이지에서만 사용하려는 경우 스크립트 편집기 웹 파트를 사용하여 페이지에 JavaScript를 넣습니다. 자세한 내용은 다음 항목을 참조하세요.
+콘텐츠 작성을 마쳤으면 delayLoadImages.js Online의 마스터 페이지에 파일의 내용을 추가할 SharePoint 있습니다. 이 작업을 위해 마스터 페이지의 헤더에 스크립트 링크를 추가합니다. 마스터 페이지에 있는 경우 해당 마스터 페이지 레이아웃을 사용하는 SharePoint Online 사이트의 모든 페이지에 JavaScript가 적용됩니다. 또는 사이트의 한 페이지에서만 사용하려는 경우 스크립트 편집기 웹 파트를 사용하여 페이지에 JavaScript를 넣습니다. 자세한 내용은 다음 항목을 참조하세요.
   
-- [방법: SharePoint 2013에서 사이트에 마스터 페이지 적용](/sharepoint/dev/general-development/how-to-apply-a-master-page-to-a-site-in-sharepoint)
+- [How to: Apply a master page to a site in SharePoint 2013](/sharepoint/dev/general-development/how-to-apply-a-master-page-to-a-site-in-sharepoint)
 
-- [방법: SharePoint 2013에서 페이지 레이아웃 만들기](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)
+- [How to: Create a page layout in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)
 
-### <a name="example-referencing-the-javascript-delayloadimagesjs-file-from-a-master-page-in-sharepoint-online"></a>예제: SharePoint Online의 delayLoadImages.js 페이지에서 JavaScript 파일 참조
+### <a name="example-referencing-the-javascript-delayloadimagesjs-file-from-a-master-page-in-sharepoint-online"></a>예제: delayLoadImages.js Online의 마스터 페이지에서 JavaScript SharePoint 참조
   
 이 작업을 위해서는 마스터 페이지에서 jQuery도 참조해야 합니다. 다음 예제에서는 초기 페이지 로드에서 로드된 이미지가 하나뿐이지만 페이지에 이미지가 여러 개 더 있는 경우를 볼 수 있습니다.
   
@@ -119,12 +119,12 @@ JavaScript를 사용하여 이미지 로드를 지연하는 것이 성능을 높
   
 ## <a name="github-code-sample-injecting-javascript-to-improve-performance"></a>GitHub 코드 샘플: 성능을 향상하기 위해 JavaScript 삽입
 
-GitHub에 제공된 [JavaScript](https://go.microsoft.com/fwlink/p/?LinkId=524759) 삽입에 대한 문서 및 코드 샘플을 놓치지 마세요.
+JavaScript 삽입에서 제공되는 [문서](https://go.microsoft.com/fwlink/p/?LinkId=524759) 및 코드 샘플을 GitHub.
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 2013 및 엔터프라이즈용 Microsoft 365 앱의 지원되는 브라우저](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
+[2013 및 Office 지원되는 엔터프라이즈용 Microsoft 365 앱](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
   
-[방법: SharePoint 2013에서 사이트에 마스터 페이지 적용](/sharepoint/dev/general-development/how-to-apply-a-master-page-to-a-site-in-sharepoint)
+[How to: Apply a master page to a site in SharePoint 2013](/sharepoint/dev/general-development/how-to-apply-a-master-page-to-a-site-in-sharepoint)
   
-[방법: SharePoint 2013에서 페이지 레이아웃 만들기](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)
+[How to: Create a page layout in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)

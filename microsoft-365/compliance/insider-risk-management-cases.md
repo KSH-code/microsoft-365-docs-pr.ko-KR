@@ -1,7 +1,7 @@
 ---
 title: 내부자 위험 관리 사례
 description: 내부자 위험 관리 사례에 대해 Microsoft 365
-keywords: Microsoft 365, 내부자 위험 관리, 위험 관리, 규정 준수
+keywords: Microsoft 365, 내부 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -206,7 +206,7 @@ ms.locfileid: "51939256"
 4. 알림 필드를 검토하고 적절하게 업데이트합니다. 여기에 입력한 값은 템플릿의 값을 다시 정의합니다.
 5. 사용자에게  통지를 보내기 위해 보내기 를 선택하거나 사용자에게 통지를 보내지 않고 대화 상자 닫기 취소를 선택합니다.  보낸 모든 알림은 사례 메모 대시보드의 사례 메모 **큐에 추가됩니다.**
 
-### <a name="escalate-for-investigation"></a>조사를 위한 에스컬레이션
+### <a name="escalate-for-investigation"></a>조사를 위해 에스컬레이션
 
 사용자의 위험 활동에 대해 추가 법적 검토가 필요한 상황에서 사용자 조사 사례를 에스컬레이터합니다. 이 에스컬레이션은 Microsoft 365 조직의 새로운 Advanced eDiscovery 케이스를 엽니다. Advanced eDiscovery는 조직의 내부 및 외부 법률 조사에 대응하는 컨텐츠를 보존, 수집, 검토, 분석 및 내보낼 수 있는 엔드 투 엔드 워크플로우를 제공합니다. 또한 법률 팀이 전체 법적 보류 알림 워크플로를 관리하여 사건에 관련된 관리자와 통신할 수 있도록 합니다. 내부자 위험 관리 케이스에서 생성된 Advanced eDiscovery 케이스에서 검토자를 관리자로 할당하면 법률 팀이 적절한 조치를 취하고 콘텐츠 보존을 관리하는 데 도움이 됩니다. Advanced eDiscovery 케이스에 대한 자세한 내용은 [Microsoft 365의 Advanced eDiscovery 개요](overview-ediscovery-20.md)를 참조하세요.
 

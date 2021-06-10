@@ -70,7 +70,7 @@ Microsoft Defender 바이러스 백신 시작 시 또는 클라우드 제공 보
 Set-MpPreference -CheckForSignaturesBeforeRunningScan
 ```
 
-자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet을 구성 및 실행을 참조하세요.](/powershell/module/defender/index)
+자세한 내용은 [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)과 [Defender cmdlet](/powershell/module/defender/index)을 참조하세요.
 
 ### <a name="use-windows-management-instruction-wmi-to-check-for-protection-updates-before-running-a-scan"></a>WMI(Windows 관리 명령)를 사용하여 검사를 실행하기 전에 보호 업데이트를 확인합니다.
 
@@ -166,4 +166,4 @@ Microsoft Defender AV는 클라우드 제공 보호를 기반으로 보호를 �
 - [보호 업데이트를 다운로드하고 적용해야 하는 경우 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md)
 - [최신이 지난 끝점에 대한 업데이트 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 - [모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

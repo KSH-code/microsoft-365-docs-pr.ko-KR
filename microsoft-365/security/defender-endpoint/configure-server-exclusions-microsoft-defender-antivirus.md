@@ -62,7 +62,7 @@ Windows Server 2016 및 Windows Server 2019에서 보안 인텔리전스 업데�
 
 ### <a name="use-group-policy-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>그룹 정책을 사용하여 Windows Server 2016 Server 2019에서 Windows 사용하지 않도록 설정
 
-1. 그룹 정책 관리 컴퓨터에서 그룹 정책 관리 [콘솔 을 니다.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11)) 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집 을 **클릭합니다.**
+1. 그룹 정책 관리 컴퓨터에서 [그룹 정책 관리 콘솔](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11))을 엽니다. 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집 을 **클릭합니다.**
 2. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동한** 다음 관리 템플릿 **을 클릭합니다.**
 3. 트리를 확장하여 **Windows 구성 요소 Microsoft Defender 바이러스 백신**  >    >  **확장합니다.**
 4. 자동 **제외** 해제를 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 그런 다음 **확인** 을 클릭합니다. 
@@ -342,4 +342,4 @@ DisableAutoExclusions
 - [프로세스에서 연 파일에 대한 제외 구성 및 유효성 검사](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 - [제외 정의 시 피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)
 - [사용자 지정, 시작 및 재구성 결과 Microsoft Defender 바이러스 백신 검토](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

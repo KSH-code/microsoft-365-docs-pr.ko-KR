@@ -35,7 +35,7 @@ ms.locfileid: "51939651"
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhuntingref-abovefoldlink)
 
-고급 `DeviceAlertEvents` 헌팅 [Schema의](advanced-hunting-overview.md) 표에는 Microsoft Defender 보안 센터의 경고에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 `DeviceAlertEvents` 헌팅 [schema의](advanced-hunting-overview.md) 표에는 헌팅의 경고에 대한 정보가 Microsoft Defender 보안 센터. 이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스마의 다른 표에 대한 자세한 내용은 고급 헌팅 스마 [참조 를 참조하세요.](advanced-hunting-schema-reference.md)
 

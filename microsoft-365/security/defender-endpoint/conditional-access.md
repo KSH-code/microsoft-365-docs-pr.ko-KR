@@ -41,7 +41,7 @@ ms.locfileid: "51166200"
 
 장치 및 응용 프로그램이 실행되고 네트워크의 정보에 액세스할 수 있는 보안 조건을 정의하려면 장치가 규격 상태로 돌아올 때까지 응용 프로그램 실행을 중지하는 정책을 적용합니다. 
 
-끝점용 Defender의 조건부 액세스 구현은 Microsoft Intune(Intune) 장치 준수 정책 및 Azure AD(Azure Active Directory) 조건부 액세스 정책을 기반으로 합니다. 
+끝점용 Defender의 조건부 액세스 구현은 Microsoft Intune(Intune) 장치 준수 정책 및 Azure AD(Azure Active Directory 액세스 정책)를 기반으로 합니다. 
 
 준수 정책은 조건부 액세스와 함께 하나 이상의 장치 준수 정책 규칙을 충족하는 장치만 응용 프로그램에 액세스할 수 있도록 허용하는 데 사용됩니다. 
 

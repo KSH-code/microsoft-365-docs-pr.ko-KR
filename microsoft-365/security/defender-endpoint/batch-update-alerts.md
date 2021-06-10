@@ -69,8 +69,8 @@ POST /api/alerts/batchUpdate
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
-Content-Type | 문자열 | application/json. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
+Content-Type | String | application/json. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -81,17 +81,17 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 속성 | 유형 | 설명
 :---|:---|:---
 alertIds | 목록 &lt; 문자열&gt;| 업데이트할 경고의 IDS 목록입니다. **필수**
-status | 문자열 | 지정한 경고의 업데이트된 상태를 지정합니다. 속성 값은 'New', 'InProgress' 및 'Resolved'입니다.
-assignedTo | 문자열 | 지정된 경고의 소유자
-classification | 문자열 | 지정한 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
-determination | 문자열 | 지정한 경고의 결정에 대해 지정합니다. 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
-comment | 문자열 | 지정한 경고에 추가할 설명입니다.
+status | String | 지정한 경고의 업데이트된 상태를 지정합니다. 속성 값은 'New', 'InProgress' 및 'Resolved'입니다.
+assignedTo | String | 지정된 경고의 소유자
+classification | String | 지정한 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
+determination | String | 지정한 경고의 결정에 대해 지정합니다. 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
+comment | String | 지정한 경고에 추가할 설명입니다.
 
 ## <a name="response"></a>응답
 성공하면 이 메서드는 응답 본문이 비어 있는 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender의 고급 헌팅 쿼리 결과 사용
-description: Microsoft 365 Defender에서 고급 헌팅을 통해 반환된 쿼리 결과를 가장 많이 사용합니다.
+title: Defender에서 고급 헌팅 쿼리 결과 Microsoft 365 작업
+description: Defender에서 고급 헌팅에서 반환된 쿼리 결과를 Microsoft 365 만들기
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto, 시각화, 차트, 필터, 드릴다운
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -122,7 +122,7 @@ AppFileEvents
 ## <a name="export-tables-and-charts"></a>표 및 차트 내보내기
 쿼리를 실행한 후 내보내기 를 **선택하여** 결과를 로컬 파일에 저장합니다. 선택한 보기에 따라 결과가 내보내는 방식이 결정됩니다.
 
-- **테이블 보기** - 쿼리 결과가 Microsoft Excel 통합 문서로 테이블 형식 형태로 내보내집니다.
+- **테이블 보기** - 쿼리 결과가 테이블 형식의 통합 문서로 Microsoft Excel
 - **모든 차트** - 쿼리 결과가 렌더링된 차트의 JPEG 이미지로 내보내집니다.
 
 ## <a name="drill-down-from-query-results"></a>쿼리 결과에서 드릴다운
@@ -155,7 +155,7 @@ AppFileEvents
 필터를 적용하여 쿼리를 수정한 다음 쿼리를 실행하면 그에 따라 결과가 업데이트됩니다.
 
 >[!NOTE]
->이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Microsoft 365 Defender를 켜서](m365d-enable.md) 더 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 Microsoft Defender의 고급 헌팅 쿼리 마이그레이션의 단계에 따라 끝점용 [Microsoft Defender에서 Microsoft](advanced-hunting-migrate-from-mde.md)365 Defender로 고급 헌팅 워크플로를 이동할 수 있습니다.
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

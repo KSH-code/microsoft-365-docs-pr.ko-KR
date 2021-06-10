@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 ms.custom: seo-marvel-apr2020
-description: 항목을 사용자의 보관 사서함으로 자동으로 이동하는 Microsoft 365에서 보관 및 삭제 정책을 만드는 방법을 학습합니다.
+description: 항목을 사용자의 보관 사서함으로 자동으로 Microsoft 365 보관 및 삭제 정책을 만드는 방법을 배워야 합니다.
 ms.openlocfilehash: ae48335203968b25a00fda61bfe65ffde85649ad
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "50919534"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>조직에서 사서함에 대한 보관 및 삭제 정책 설정하기
 
-Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 자동으로 이동하고 사서함에서 항목을 자동으로 삭제하는 보관 및 삭제 정책을 만들 수 있습니다. 관리자는 사서함에 할당된 보존 정책을 만들고 일정 기간 후에 항목을 사용자의 보관 사서함으로 이동하고 특정 보존 기간에 도달한 후 사서함의 항목도 삭제합니다. 이동 또는 삭제되는 항목과 이러한 경우를 결정하는 실제 규칙을 보존 태그라고 합니다. 보존 태그는 보존 정책에 연결되어 사용자 사서함에 차례로 할당됩니다. 보존 태그는 사용자 사서함의 개별 메시지 및 폴더에 보존 설정을 적용합니다. 사서함에 메시지가 남아 있는 기간과 메시지가 지정된 보존 기간에 도달할 때 수행되는 작업을 정의합니다. 메시지가 보존 기간에 도달하면 사용자의 보관 사서함으로 이동되거나 삭제됩니다.
+관리자는 Microsoft 365 사서함으로 항목을 자동으로 이동하고 사서함에서 항목을 자동으로 삭제하는 보관 및 삭제 정책을 만들 수 있습니다. 관리자는 사서함에 할당된 보존 정책을 만들고 일정 기간 후에 항목을 사용자의 보관 사서함으로 이동하고 특정 보존 기간에 도달한 후 사서함의 항목도 삭제합니다. 이동 또는 삭제되는 항목과 이러한 경우를 결정하는 실제 규칙을 보존 태그라고 합니다. 보존 태그는 보존 정책에 연결되어 사용자 사서함에 차례로 할당됩니다. 보존 태그는 사용자 사서함의 개별 메시지 및 폴더에 보존 설정을 적용합니다. 사서함에 메시지가 남아 있는 기간과 메시지가 지정된 보존 기간에 도달할 때 수행되는 작업을 정의합니다. 메시지가 보존 기간에 도달하면 사용자의 보관 사서함으로 이동되거나 삭제됩니다.
   
 이 문서의 단계에서는 Alpine House라는 사실에 대한 보관 및 보존 정책을 설정할 것입니다. 이 정책을 설정하는 작업에는 다음 작업이 포함됩니다.
   
@@ -54,7 +54,7 @@ Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 �
 
 - 새 사용자 계정을 만들고 사용자에게 Exchange Online 라이선스를 할당하면 사용자에 대한 사서함이 자동으로 만들어집니다. 사서함을 만들면 기본 MRM 정책이라는 기본 보존 정책이 자동으로 할당됩니다. 이 문서에서는 새 보존 정책을 만든 다음 사용자 사서함에 할당하여 기본 MRM 정책을 대체합니다. 사서함에는 한 번만 보존 정책이 할당될 수 있습니다.
 
-- Exchange Online의 보존 태그 및 보존 정책에 대한 자세한 내용은 보존 태그 [및 보존 정책을 참조하세요.](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
+- 보존 태그 및 보존 정책에 대한 자세한 내용은 Exchange Online 및 [보존 정책을 참조합니다.](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 
 ## <a name="step-1-enable-archive-mailboxes-for-users"></a>1단계: 사용자에 대해 보관 사서함 사용
 
@@ -98,7 +98,7 @@ Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 �
 
 - Alpine House Deleted Items 5 Years Delete and Allow Recovery (custom tag for the Deleted Items folder)
 
-새 보존 태그를 만들하려면 Exchange Online 조직에서 EAC(Exchange 관리 센터)를 사용하게 됩니다. EAC의 클래식 버전을 사용해야 합니다.
+새 보존 태그를 만들기 위해 조직에서 Exchange 관리 센터(EAC)를 Exchange Online 있습니다. EAC의 클래식 버전을 사용해야 합니다.
   
 1. 으로 [https://admin.protection.outlook.com/ecp/](https://admin.protection.outlook.com/ecp/) 이동한 후 자격 증명을 사용하여 로그인합니다.
   
@@ -114,7 +114,7 @@ Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 �
 
 2. 전체 **사서함에 자동으로** 적용된 새 태그(기본값) 페이지에서 다음 필드를 입력합니다. 
 
-    ![새 보관함 기본 정책 태그를 만들기 위한 설정](../media/41c0a43c-9c72-44e0-8947-da0831896432.png)
+    ![설정 기본 정책 태그를 만들 수 있습니다.](../media/41c0a43c-9c72-44e0-8947-da0831896432.png)
   
    1. **이름** 새 보존 태그의 이름을 입력합니다. 
 
@@ -136,7 +136,7 @@ Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 �
 
 2. 전체 **사서함에 자동으로** 적용된 새 태그(기본값) 페이지에서 다음 필드를 입력합니다. 
 
-    ![새 지우기 기본 정책 태그를 만드는 설정](../media/f1f0ff62-eec9-4824-8e7c-d93dcfb09a79.png)
+    ![설정 기본 정책 태그를 새로 만들 수 있습니다.](../media/f1f0ff62-eec9-4824-8e7c-d93dcfb09a79.png)
   
    1. **이름** 새 보존 태그의 이름을 입력합니다. 
 
@@ -158,7 +158,7 @@ Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 �
 
 2. 기본 폴더 페이지에 자동으로 적용된 새 **태그에서** 다음 필드를 입력합니다.
 
-    ![지우기 항목 폴더에 대한 새 보존 정책 태그를 만드는 설정](../media/6f3104bd-5edb-48ac-884d-5fe13d81dd1d.png)
+    ![설정 폴더에 대한 새 보존 정책 태그를 만들 수 있습니다.](../media/6f3104bd-5edb-48ac-884d-5fe13d81dd1d.png)
   
    1. **이름** 새 보존 태그의 이름을 입력합니다. 
 
@@ -231,11 +231,11 @@ Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 �
 
 ## <a name="optional-step-5-run-the-managed-folder-assistant-to-apply-the-new-settings"></a>(선택 사항) 5단계: 관리되는 폴더 도우미를 실행하여 새 설정 적용
 
-4단계에서 사서함에 새 보존 정책을 적용한 후 Exchange Online에서 새 보존 설정을 사서함에 적용하는 데 최대 7일이 걸릴 수 있습니다. 관리되는 폴더 도우미라는 프로세스가 적어도 *7일마다* 한 번씩 사서함을 처리하기 때문에 그 이유는 바로 관리되는 폴더 도우미입니다. 관리되는 폴더 도우미가 실행될 때까지 기다리는 대신 Exchange Online PowerShell에서 **Start-ManagedFolderAssistant** cmdlet을 실행하여 이 일이 강제로 발생하게 할 수 있습니다.
+4단계에서 사서함에 새 보존 정책을 적용한 후 사서함에 새 보존 Exchange Online 적용하는 데 최대 7일이 걸릴 수 있습니다. 관리되는 폴더 도우미라는 프로세스가 적어도 *7일마다* 한 번씩 사서함을 처리하기 때문에 그 이유는 바로 관리되는 폴더 도우미입니다. 관리되는 폴더 도우미가 실행될 때까지 기다리지 않고 PowerShell에서 **Start-ManagedFolderAssistant** cmdlet을 실행하여 이 Exchange Online 있습니다.
 
  **관리되는 폴더 도우미를 실행하면 어떻게 하나요?** 사서함의 항목을 검사하고 보존이 적용되는지 여부를 확인하여 보존 정책의 설정을 적용합니다. 그런 다음 적절한 보존 태그를 사용하여 보존이 적용된 항목을 스탬프 처리한 다음 보존 기간이 지난 항목에 대해 지정된 보존 작업을 취합니다.
   
-다음은 Exchange Online PowerShell에 연결한 다음 조직의 모든 사서함에서 관리되는 폴더 도우미를 실행하기 위한 단계입니다.
+다음은 PowerShell을 사용하여 Exchange Online 연결한 다음 조직의 모든 사서함에서 관리되는 폴더 도우미를 실행하기 위한 단계입니다.
 
 1. [Exchange Online PowerShell에 연결합니다](/powershell/exchange/connect-to-exchange-online-powershell).
   
@@ -256,7 +256,7 @@ Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 �
   
 ## <a name="optional-step-6-make-the-new-retention-policy-the-default-for-your-organization"></a>(선택 사항) 6단계: 새 보존 정책을 조직의 기본값으로 설정
 
-4단계에서는 기존 사서함에 새 보존 정책을 할당해야 합니다. 하지만 새 보존 정책이 향후 만들어지도록 Exchange Online을 구성할 수 있습니다. 이 작업을 위해 Exchange Online PowerShell을 사용하여 조직의 기본 사서함 계획을 업데이트합니다. 사서함 *계획은* 새 사서함의 속성을 자동으로 구성하는 템플릿입니다.  이 선택적 단계에서 사서함 계획에 할당된 현재 보존 정책(기본 MRM 정책)을 3단계에서 만든 보존 정책으로 바꿀 수 있습니다. 사서함 계획을 업데이트하면 새 보존 정책이 새 사서함에 할당됩니다.
+4단계에서는 기존 사서함에 새 보존 정책을 할당해야 합니다. 그러나 새 보존 Exchange Online 새 사서함에 할당하도록 새 보존 정책을 구성할 수 있습니다. 이렇게 하는 Exchange Online PowerShell을 사용하여 조직의 기본 사서함 계획을 업데이트합니다. 사서함 *계획은* 새 사서함의 속성을 자동으로 구성하는 템플릿입니다.  이 선택적 단계에서 사서함 계획에 할당된 현재 보존 정책(기본 MRM 정책)을 3단계에서 만든 보존 정책으로 바꿀 수 있습니다. 사서함 계획을 업데이트하면 새 보존 정책이 새 사서함에 할당됩니다.
 
 1. [Exchange Online PowerShell에 연결합니다](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -294,6 +294,6 @@ Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 �
     |삭제 안 하게  <br/> |이 태그는 보존 정책에 의해 항목이 삭제되지 않도록 합니다.  <br/> |기본 제공  <br/> |개인; 이 태그는 사용자가 적용할 수 있습니다.  <br/> |
     |개인 1년 후 보관함으로 이동  <br/> |1년 후에 항목을 보관 사서함으로 이동합니다.  <br/> |기본 제공  <br/> |개인; 이 태그는 사용자가 적용할 수 있습니다.  <br/> |
 
-    > <sup>\*</sup> 사용자는 Outlook 및 웹용 Outlook(이전의 Outlook Web App)에서 지진된 항목 복구 도구를 사용하여 삭제된 항목 보존 기간(기본적으로 Exchange Online에서 14일)의 삭제된 항목을 복구할 수 있습니다. 관리자는 이 Windows PowerShell 사용하여 삭제된 항목 보존 기간을 최대 30일로 늘일 수 있습니다. 자세한 내용은 다음을 참조하십시오. [Recover deleted items in Outlook for Windows](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) 및 Change the [deleted item retention period for a mailbox in Exchange Online](https://www.microsoft.com/?ref=go)
+    > <sup>\*</sup>사용자는 웹의 Outlook 및 Outlook(이전의 Outlook Web App)에서 지운 항목 복구 도구를 사용하여 삭제된 항목 보존 기간(기본적으로 14일)을 복구할 수 Exchange Online. 관리자는 이 파일을 사용하여 Windows PowerShell 보존 기간을 최대 30일로 늘일 수 있습니다. 자세한 내용은 다음을 참조하세요. [Outlook](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) Windows 사서함의 삭제된 항목 보존 기간 변경을 Exchange Online [](https://www.microsoft.com/?ref=go)
   
 - 복구할 수 있는 항목 **14일** 이동 보존 태그를 사용하면 사용자의 기본 사서함에 있는 복구 가능한 항목 폴더의 저장소 공간을 비우는 데 도움이 됩니다. 이는 사용자의 사서함이 보류 상태일 때, 즉 사용자의 사서함이 영구적으로 삭제되지 않는 경우 유용합니다. 항목을 보관 사서함으로 이동하지 않으면 기본 사서함의 복구 가능한 항목 폴더에 대한 저장소 할당량에 도달할 수 있습니다. 이를 방지하는 방법에 대한 자세한 내용은 보류된 사서함에 대한 복구 가능한 항목 할당량 [늘리기 를 참조하세요.](./increase-the-recoverable-quota-for-mailboxes-on-hold.md)

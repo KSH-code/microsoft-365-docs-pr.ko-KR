@@ -34,7 +34,7 @@ ms.locfileid: "52842401"
 
 Microsoft 365 Business Premium 위협 방지, 데이터 보호 및 장치 관리 기능을 제공하면 온라인 위협 및 무단 액세스로부터 회사를 보호하고 휴대폰, 태블릿 및 컴퓨터에서 회사 데이터를 보호하고 관리할 수 있습니다.
 
-|![위협 방지](../media/m365-business-security-threat-protection.png)<br/>[위협 방지](#threat-protection)|![클라이언트와 공동 작업](../media/m365-business-security-data-protection.png) <br/>[데이터 보호](#data-protection) | ![장치 관리](../media/m365-business-security-device-management.png) <br/>[장치 관리](#device-management) |
+|![위협 방지](../media/m365-business-security-threat-protection.png)<br/>[위협 방지](#threat-protection)|![클라이언트와 공동 작업](../media/m365-business-security-data-protection.png) <br/>[데이터 보호](#data-protection) | ![디바이스 관리](../media/m365-business-security-device-management.png) <br/>[장치 관리](#device-management) |
 |--|--|--|
 
 ## <a name="threat-protection"></a>위협 방지

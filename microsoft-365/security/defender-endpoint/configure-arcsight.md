@@ -1,6 +1,6 @@
 ---
 title: 엔드포인트 감지를 위해 Microsoft Defender를 끌어오도록 마이크로 포커스 ArcSight 구성
-description: Microsoft Defender 보안 센터에서 검색을 수신하고 끌어오도록 마이크로 포커스 ArcSight 구성
+description: 마이크로 포커스 ArcSight를 구성하여 검색된 정보를 수신하고 끌어오도록 Microsoft Defender 보안 센터
 keywords: Micro Focus ArcSight 구성, 보안 정보 및 이벤트 관리 도구, arcsight 구성
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -42,11 +42,11 @@ ms.locfileid: "51166188"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-마이크로 포커스 ArcSight 커넥터 도구를 구성하려면 AAD(Azure Active Directory) 응용 프로그램에서 검색을 끌어와 구문 분석하는 데 필요한 몇 가지 구성 파일이 필요합니다.
+Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSight Connector) 응용 프로그램에서 검색을 끌어 Azure Active Directory 구성 파일이 필요합니다.
 
 이 섹션에서는 필요한 구성 파일을 올바르게 설정하고 사용하는 데 필요한 정보를 안내합니다.
 
-- 설정 메뉴에서 SIEM 통합 기능을 사용하도록 **설정해야** 합니다. 자세한 내용은 [Endpoint용 Defender에서 SIEM 통합 사용 을 참조하세요.](enable-siem-integration.md)
+- 사용자 설정 메뉴에서 SIEM 통합 기능을 사용하도록 **설정해야 설정** 합니다. 자세한 내용은 [Endpoint용 Defender에서 SIEM 통합 사용 을 참조하세요.](enable-siem-integration.md)
 
 - SIEM 통합 기능을 사용하도록 설정하여 저장한 파일을 준비합니다. 다음 값을 얻게 됩니다.
   - OAuth 2.0 토큰 새로 고침 URL
@@ -57,7 +57,7 @@ ms.locfileid: "51166188"
   - WDATP-connector.properties
   - WDATP-connector.jsonparser.properties
 
-    조직에서 사용하는 SIEM 유형으로 Micro Focus ArcSight를 선택한 경우 이러한 두 파일이 포함된 .zip 파일을 저장한 것입니다.
+    조직에서 사용하는 SIEM .zip 마이크로 포커스 ArcSight를 선택한 경우 이러한 두 파일이 포함된 파일 형식을 저장한 것입니다.
 
 - 다음 토큰을 생성하고 준비해야 합니다.
   - 액세스 토큰
@@ -69,7 +69,7 @@ ms.locfileid: "51166188"
 
 다음 단계에서는 시작하기 전에의 모든 필수 단계를 [완료했다고 가정합니다.](#before-you-begin)
 
-1. 최신 32비트 Windows FlexConnector 설치 관리자를 설치합니다. HPE 소프트웨어 센터에서 찾을 수 있습니다. 이 도구는 일반적으로 다음과 같은 기본 위치에 `C:\Program Files\ArcSightFlexConnectors\current\bin` 설치됩니다. .</br></br>C: \current\bin과 같은 도구를 저장할 위치를 선택할 수 \\ *있습니다folder_location*\current\bin은 folder_location 위치를 나타내는 위치입니다. 
+1. FlexConnector 설치 Windows 최신 32비트 버전을 설치합니다. HPE 소프트웨어 센터에서 찾을 수 있습니다. 이 도구는 일반적으로 다음과 같은 기본 위치에 `C:\Program Files\ArcSightFlexConnectors\current\bin` 설치됩니다. .</br></br>C: \current\bin과 같은 도구를 저장할 위치를 선택할 수 \\ *있습니다folder_location*\current\bin은 folder_location 위치를 나타내는 위치입니다. 
 
 2. 다음 작업을 수행하여 설치 마법사를 수행합니다.
    - 소개
@@ -105,7 +105,7 @@ ms.locfileid: "51166188"
     </tr>
     <tr>
     <td>구성 파일</td>
-    <td>클라이언트 속성 파일의 이름을 입력합니다. 이름은 다운로드한 .zip에 제공된 파일과 일치해야 합니다.
+    <td>클라이언트 속성 파일의 이름을 입력합니다. 이름은 다운로드한 파일에서 제공한 .zip 일치해야 합니다.
 예를 들어 flexagent 디렉터리의 구성 파일 이름이 &quot; &quot; &quot; onparser.properties에WDATP-Connector.js경우 &quot; &quot; WDATP-Connector를 클라이언트 속성 파일의 이름으로 &quot; 입력해야 합니다.</td>
     </tr>
     <td>이벤트 URL</td>
@@ -116,7 +116,7 @@ ms.locfileid: "51166188"
     <td>OAuth 2</td>
     </tr>
     <td>OAuth 2 클라이언트 속성 파일</td>
-    <td><em>wdatp-connector.properties</em> 파일의 위치로 이동하십시오. 이름은 다운로드한 .zip에 제공된 파일과 일치해야 합니다.</td>
+    <td><em>wdatp-connector.properties</em> 파일의 위치로 이동하십시오. 이름은 다운로드한 파일에서 제공한 .zip 일치해야 합니다.</td>
     <tr>
     <td>새로 고침 토큰</td>
     <td><b>SIEM</b> 설정 페이지에서 새로 고침 토큰을 생성하거나 restutil 도구를 사용하여 두 가지 방법으로 새로 고침 토큰을 얻을 수 있습니다. <br><br> 기본 설정에서 새로 고침 토큰을 생성하는 데 대한 자세한 내용은 <a href="enable-siem-integration.md" data-raw-source="[Enable SIEM integration in Defender for Endpoint](enable-siem-integration.md)">Enable SIEM integration in Defender for Endpoint을 참조하세요.</a> <b></b> </br> </br><b>restutil 도구를 사용하여 새로 고침 토큰을 얻다.</b> </br> a. 명령 프롬프트를 엽니다. C:\ folder_location<em></em>\current\bin으로 folder_location <em></em> 도구를 설치한 위치를 나타내는 위치입니다. </br></br> b. Bin <code>arcsight restutil token -config</code> 디렉터리에서 입력합니다. 예를 들어 <b>arcsight restutil boxtoken -proxy</b> proxy.location.hp.com:8080 브라우저 창이 열립니다. </br> </br>c. 자격 증명을 입력한 다음 암호 필드를 클릭하여 페이지가 리디렉션될 수 있도록 합니다. 로그인 프롬프트에 자격 증명을 입력합니다. </br> </br>d. 새로 고침 토큰이 명령 프롬프트에 표시됩니다. </br></br> e. 복사하여 새로 고침 토큰 <b>필드에 붙여 넣습니다.</b>
@@ -177,11 +177,11 @@ ms.locfileid: "51166188"
 
 9. 활성 채널 **집합 새**  >  **조건 장치** 장치  >    >  **제품으로 이동합니다.**
 
-10. 장치 **제품 설정 = Microsoft Defender ATP**. 이벤트가 도구로 흐르고 있는 것이 확인되면 프로세스를 다시 중지하고 Windows 서비스로 이동하여 ArcSight FlexConnector REST를 시작하십시오.
+10. 장치 **제품 설정 = Microsoft Defender ATP.** 이벤트가 도구로 흐르고 있는 것이 확인되면 프로세스를 다시 중지하고 Windows 서비스로 이동하고 ArcSight FlexConnector REST를 시작하십시오.
 
 이제 마이크로 포커스 ArcSight 콘솔에서 쿼리를 실행할 수 있습니다.
 
-끝점 검색에 대한 Defender는 공급업체로 "Microsoft"를, 장치 이름으로 "Windows Defender ATP"를 사용하여 불연연한 이벤트로 표시됩니다.
+끝점 검색에 대한 Defender는 공급업체로 "Microsoft"를, 장치 이름으로 "Windows Defender ATP"로 표시됩니다.
 
 
 ## <a name="troubleshooting-micro-focus-arcsight-connection"></a>마이크로 포커스 ArcSight 연결 문제 해결

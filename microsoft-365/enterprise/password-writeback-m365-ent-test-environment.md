@@ -27,11 +27,11 @@ ms.locfileid: "50921483"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 쓰기 저장
 
-*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 테스트 환경에만 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 테스트 환경에 Microsoft 365 사용할 수 있습니다.*
 
-사용자는 암호 쓰기 저장을 사용하여 Azure AD(Azure Active Directory)를 통해 암호를 업데이트한 다음 로컬 AD DS(Active Directory 도메인 서비스)로 복제할 수 있습니다. 암호 쓰기 저장을 사용하는 경우 사용자는 원래 사용자 계정이 저장되어 있는 사내 AD DS를 통해 암호를 업데이트할 수 없습니다. 이렇게 하면 원격 액세스 연결이 없는 로밍 또는 원격 사용자가 자신의 On-프레미스 네트워크에 연결됩니다.
+사용자는 암호 쓰기 저장을 사용하여 Azure Active Directory(Azure AD)를 통해 암호를 업데이트할 수 있습니다. 이 암호는 로컬 AD DS(Active Directory 도메인 서비스)로 복제됩니다. 암호 쓰기 저장을 사용하는 경우 사용자는 원래 사용자 계정이 저장되어 있는 사내 AD DS를 통해 암호를 업데이트할 수 없습니다. 이렇게 하면 원격 액세스 연결이 없는 로밍 또는 원격 사용자가 자신의 On-프레미스 네트워크에 연결됩니다.
 
-이 문서에서는 암호 쓰기 저장을 위해 Microsoft 365 테스트 환경을 구성하는 방법을 설명합니다.
+이 문서에서는 암호 쓰기 저장을 위해 Microsoft 365 환경을 구성하는 방법에 대해 설명합니다.
 
 암호 쓰기 저장을 위해 테스트 환경을 구성하는 단계는 다음 두 단계로 구성됩니다.
 - [1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성](#phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment)
@@ -40,7 +40,7 @@ ms.locfileid: "50921483"
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵은 [엔터프라이즈용 Microsoft 365 테스트](../downloads/Microsoft365EnterpriseTLGStack.pdf)랩 가이드 스택으로 이동하세요.
+> 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 자세한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성
 
@@ -109,9 +109,9 @@ ms.locfileid: "50921483"
 
 4. 추가 **작업 페이지에서** 동기화 옵션 사용자 지정을 **선택하고** 다음 을 **선택합니다.**
 
-5. Azure **AD에 연결 페이지에서** 전역 관리자 계정 자격 증명을 입력하고 다음 을 **선택합니다.**
+5. Azure **커넥트** 로그인 페이지에서 전역 관리자 계정 자격 증명을 입력하고 다음 을 **선택합니다.**
 
-6. Connect **directories** and **Domain/OU filtering** 페이지에서 Next(다음)를 **선택합니다.**
+6. 커넥트  및 **도메인/OU** 필터링 페이지에서 다음 을 **선택합니다.**
 
 7. 선택적 **기능 페이지에서** 암호 쓰기 **저장을** 선택하고 다음 을 **선택합니다.**
 
@@ -127,7 +127,7 @@ ms.locfileid: "50921483"
 
 이 구성은 다음으로 이루어집니다.
 
-- DNS 도메인 TESTLAB이 있는 Microsoft 365 E5 평가판 또는 유료 구독\<*your domain name*> 유료 구독.
+- DNS Microsoft 365 E5 테스트 랩이 있는 평가판 또는 유료 구독입니다.\<*your domain name*> 유료 구독.
 - 인터넷에 연결된 간소화된 조직 인트라넷으로, Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다.
 - Azure AD Connect는 Microsoft 365 구독의 Azure AD 테넌트에 있는 계정 및 그룹 목록을 TESTLAB AD DS 도메인과 동기화하기 위해 APP1에서 실행됩니다.
 - 암호 쓰기 저장 기능은 사용자가 간소화된 인트라넷에 연결하지 않고도 Azure AD를 통해 암호를 변경할 수 있도록 합니다.

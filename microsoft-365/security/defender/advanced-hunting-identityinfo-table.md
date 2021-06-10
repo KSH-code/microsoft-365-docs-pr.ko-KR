@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스위마의 IdentityInfo 테이블
 description: 고급 헌팅 스위마의 IdentityInfo 표에서 사용자 계정 정보에 대해 자세히 알아보기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마 참조, kusto, 표, 열, 데이터 형식, 설명, AccountInfo, IdentityInfo, 계정
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, AccountInfo, IdentityInfo, 계정
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -35,7 +35,7 @@ ms.locfileid: "51935824"
 **적용 대상:**
 - Microsoft 365 Defender
 
-고급 `IdentityInfo` 헌팅 [계획의](advanced-hunting-overview.md) 표에는 Azure Active Directory를 비롯한 다양한 서비스에서 얻은 사용자 계정에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 `IdentityInfo` 헌팅 [계획의](advanced-hunting-overview.md) 표에는 고급 헌팅을 비롯한 다양한 서비스에서 얻은 사용자 계정에 대한 Azure Active Directory. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!NOTE]
 >이 테이블의 이름을 에서 `AccountInfo` 으로했습니다. 이름을 변경하는 동안 포털에 저장된 모든 쿼리가 자동으로 업데이트됩니다. 다른 곳에 저장한 쿼리를 검사합니다.

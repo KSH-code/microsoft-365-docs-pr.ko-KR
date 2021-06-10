@@ -56,7 +56,7 @@ GET /api/machines/find(timestamp={time},key={IP})
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 
 ## <a name="request-body"></a>요청 본문
@@ -67,7 +67,7 @@ GET /api/machines/find(timestamp={time},key={IP})
 찾을 수 있는 컴퓨터가 없는 경우 - 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

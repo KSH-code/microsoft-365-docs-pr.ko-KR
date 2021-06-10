@@ -1,5 +1,5 @@
 ---
-title: Linux에서 끝점용 Microsoft Defender 업데이트 배포
+title: Microsoft Defender for Endpoint(iOS용)에 대한 업데이트 배포
 ms.reviewer: ''
 description: 엔터프라이즈 환경에서 Linux에서 끝점용 Microsoft Defender 업데이트를 배포하는 방법에 대해 설명
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 업데이트, 배포
@@ -26,7 +26,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52274727"
 ---
-# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender 업데이트 배포
+# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender for Endpoint(iOS용)에 대한 업데이트 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

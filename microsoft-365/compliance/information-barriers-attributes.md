@@ -1,6 +1,6 @@
 ---
 title: 정보 장벽 정책의 속성
-description: 이 문서는 정보 장벽 세그먼트를 정의하는 데 사용할 수 있는 Azure Active Directory 사용자 계정 특성에 대한 참조입니다.
+description: 이 문서는 정보 장벽 세그먼트를 정의하는 Azure Active Directory 사용자 계정 특성에 대한 참조입니다.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -22,13 +22,13 @@ ms.locfileid: "50919734"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 속성
 
-Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 수 있습니다. 세그먼트가 정의되고 나면 이러한 세그먼트를 정보 장벽 정책에 대한 필터로 사용할 수 있습니다. 예를 들어 **Department를** 사용하여 조직 내의 부서별로 사용자 세그먼트를 정의할 수 있습니다(한 번의 직원이 두 부서에 동시에 작업하지 않을 경우).
+사용자 세그먼트화에 Azure Active Directory 특성을 사용할 수 있습니다. 세그먼트가 정의되고 나면 이러한 세그먼트를 정보 장벽 정책에 대한 필터로 사용할 수 있습니다. 예를 들어 **Department를** 사용하여 조직 내의 부서별로 사용자 세그먼트를 정의할 수 있습니다(한 번의 직원이 두 부서에 동시에 작업하지 않을 경우).
 
 이 문서에서는 정보 장벽이 있는 특성을 사용하는 방법을 설명하고 사용할 수 있는 특성 목록을 제공합니다. 정보 장벽에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [정보 장벽](information-barriers.md)
-- [Microsoft Teams에서 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
-- [정보 장벽 정책 편집(또는 제거)](information-barriers-edit-segments-policies.md)
+- [정보 장벽에 대한 정책을 Microsoft Teams](information-barriers-policies.md)
+- [정보 장벽 정책 편집(또는 제거) ](information-barriers-edit-segments-policies.md)
 
 ## <a name="how-to-use-attributes-in-information-barrier-policies"></a>정보 장벽 정책에서 특성을 사용하는 방법
 
@@ -38,9 +38,9 @@ Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 �
 
 2. 사용자 계정에 1단계에서 선택한 특성에 대해 값이 채워진지 확인 사용자 계정 세부 정보를 보고 필요한 경우 사용자 계정을 편집하여 특성 값을 포함합니다. 
 
-    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [Office 365 PowerShell을](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)사용하여 사용자 계정 속성 구성을 참조하세요.
+    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [PowerShell을](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)사용하여 사용자 계정 속성 Office 365 참조하세요.
 
-    - 단일 계정을 편집하려면 Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 [업데이트를 참조하세요.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+    - 단일 계정을 편집하려면 [를](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)사용하여 사용자 프로필 정보 추가 또는 Azure Active Directory.
 
 3. [다음 예제와 유사한 PowerShell을](information-barriers-policies.md#define-segments-using-powershell)사용하여 세그먼트를 정의합니다.
 
@@ -57,7 +57,7 @@ Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 �
 
 다음 표에는 정보 장벽에 사용할 수 있는 특성이 나열됩니다.
 
-|**Azure Active Directory 속성 <br/> 이름(LDAP 표시 이름)**|**Exchange 속성 이름**|
+|**Azure Active Directory <br/> 이름(LDAP 표시 이름)**|**Exchange 이름**|
 |:---------------------------------------------------------------|:-------------------------|
 | Co | Co |
 | Company | Company |
@@ -83,7 +83,7 @@ Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 �
 | MSExchExtensionCustomAttribute4 | ExtensionCustomAttribute4 |
 | MSExchExtensionCustomAttribute5 | ExtensionCustomAttribute5 |
 | MailNickname | 별칭 |
-| PhysicalDeliveryOfficeName | 사무실 |
+| PhysicalDeliveryOfficeName | Office |
 | PostalCode | PostalCode |
 | ProxyAddresses | EmailAddresses |
 | StreetAddress | StreetAddress |
@@ -96,6 +96,6 @@ Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 �
 
 ## <a name="resources"></a>리소스
 
-- [Microsoft Teams에서 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
+- [정보 장벽에 대한 정책을 Microsoft Teams](information-barriers-policies.md)
 - [정보 장벽 문제 해결](information-barriers-troubleshooting.md)
 - [정보 장벽](information-barriers.md)

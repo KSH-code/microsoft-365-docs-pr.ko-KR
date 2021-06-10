@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 docs 탐색 팁
-description: Microsoft 365 기술 설명서를 이동하는 팁과 트릭 - 허브 페이지, 콘텐츠 표, 헤더, 이동 경로 사용 방법 및 버전 필터 사용 방법에 대해 설명
+title: Microsoft 365 탐색 팁
+description: 팁 및 트릭을 사용하여 Microsoft 365 기술 설명서를 참조하세요. 허브 페이지, 목차, 헤더, 이동 경로 사용 방법 및 버전 필터 사용 방법에 대해 설명
 ms.date: 08/12/2020
 ms.prod: sql
 ms.technology: release-landing
@@ -16,21 +16,21 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50922427"
 ---
-# <a name="microsoft-365-docs-navigation-guide"></a>Microsoft 365 docs 탐색 가이드
+# <a name="microsoft-365-docs-navigation-guide"></a>Microsoft 365 설명서 탐색 가이드
 
-이 항목에서는 Microsoft 365 기술 문서 공간을 여행하기 위한 몇 가지 팁과 요령을 제공합니다.  
+이 항목에서는 기술 문서 공간의 주요 정보를 Microsoft 365 팁과 트릭을 제공합니다.  
 
 ## <a name="hub-page"></a>허브 페이지
 
-Microsoft 365 허브 페이지는 관련 Microsoft 365 콘텐츠를 찾기 위한 [https://aka.ms/microsoft365docs](./index.yml) 진입점입니다.
+Microsoft 365 허브 페이지는 관련 콘텐츠 찾기를 위한 [https://aka.ms/microsoft365docs](./index.yml) 진입점 Microsoft 365 있습니다.
 
-Microsoft **365** 기술 설명서 집합 내의 모든 페이지 맨 위에 있는 헤더에서 Microsoft 365를 선택하여 항상 이 페이지로 돌아갈 수 있습니다.
+기술 설명서 집합 내의 모든 페이지 **맨 위에** 있는 머리 Microsoft 365 를 선택하여 항상 이 페이지로 Microsoft 365 있습니다.
 
-![헤더의 Microsoft 365](media/m365-header-cursor.png)
+![Microsoft 365](media/m365-header-cursor.png)
 
 ## <a name="offline-documentation"></a>오프라인 설명서
 
-오프라인 시스템에서 Microsoft 365 설명서를 보시고자 하는 경우 Microsoft 365 기술 설명서의 어디에서나 PDF를 만들 수 있습니다.
+오프라인 시스템에서 Microsoft 365 설명서를 보시고자 하는 경우 기술 설명서의 어느 곳에나 PDF를 Microsoft 365 있습니다.
 
 PDF를 만들 경우 모든 콘텐츠 테이블의 맨 아래에 있는 **PDF** 다운로드 링크를 선택합니다.
 
@@ -42,9 +42,9 @@ PDF를 만들 경우 모든 콘텐츠 테이블의 맨 아래에 있는 **PDF** 
 ![필터 상자 사용](media/m365-filter-by-title.png)
 
 ## <a name="version-filter"></a>버전 필터
-Microsoft 365 기술 설명서는 21 Vianet(중국)에서 운영하는 Office 365 Germany 및 Office 365를 비롯한 추가 제품에 대한 콘텐츠를 제공합니다. 기능은 이러한 버전마다 다를 수 있으며, 따라서 콘텐츠 자체가 다를 수 있습니다.
+기술 Microsoft 365 설명서는 독일 Office 365 21 Vianet(중국)에서 운영하는 Office 365 추가 제품에 대한 콘텐츠를 제공합니다. 기능은 이러한 버전마다 다를 수 있으며, 따라서 콘텐츠 자체가 다를 수 있습니다.
 
-버전 필터를 사용하여 적절한 버전의 Microsoft 365에 대한 콘텐츠가 표시되도록 할 수 있습니다.
+버전 필터를 사용하여 적절한 버전의 버전에 대한 콘텐츠가 표시되도록 할 수 Microsoft 365.
 
 ![Microsoft 365 버전 필터](media/m365-version-filter.png)
 
@@ -66,7 +66,7 @@ Microsoft 365 기술 설명서는 21 Vianet(중국)에서 운영하는 Office 36
 
 ![Git 문제 콘텐츠 피드백](media/m365-article-feedback.png)
 
-## <a name="contribute-to-microsoft-365-documentation"></a>Microsoft 365 설명서에 참여
+## <a name="contribute-to-microsoft-365-documentation"></a>문서 Microsoft 365 기여
 
 직접 콘텐츠를 편집할 수 docs.microsoft.com 있나요? 이렇게 하면 설명서가 개선될 뿐만 아니라 페이지에 기여한 크레딧도 제공됩니다. 시작을 위해 다음을 참조합니다.
 
@@ -74,4 +74,4 @@ Microsoft 365 기술 설명서는 21 Vianet(중국)에서 운영하는 Office 36
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Microsoft 365 기술 설명서를 시작하세요.](index.yml)
+- 기술 설명서를 Microsoft 365 [시작하세요.](index.yml)

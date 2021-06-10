@@ -27,11 +27,11 @@ ms.locfileid: "50921495"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 재설정
 
-*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 테스트 환경에만 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 테스트 환경에 Microsoft 365 사용할 수 있습니다.*
 
 Azure AD(Azure Active Directory) SSPR(셀프 서비스 암호 재설정)을 사용하면 사용자가 암호 또는 계정을 다시 설정하거나 잠금을 해제할 수 있습니다.
 
-이 문서에서는 Microsoft 365 테스트 환경에서 암호 재설정을 구성하고 테스트하는 방법을 설명합니다.
+이 문서에서는 테스트 환경에서 암호 재설정을 구성하고 테스트하는 Microsoft 365 설명합니다.
 
 SSPR 설정에는 다음 세 단계가 있습니다.
 - [1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성](#phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment)
@@ -41,7 +41,7 @@ SSPR 설정에는 다음 세 단계가 있습니다.
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵은 [엔터프라이즈용 Microsoft 365 테스트](../downloads/Microsoft365EnterpriseTLGStack.pdf)랩 가이드 스택으로 이동하세요.
+> 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 자세한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성
 
@@ -70,11 +70,11 @@ SSPR 설정에는 다음 세 단계가 있습니다.
 먼저, 특정 Azure AD 그룹에서 계정에 대해 암호 재설정을 사용하도록 설정합니다.
 
 1. 브라우저의 비공개 인스턴스에서 [https://portal.azure.com](https://portal.azure.com)을 열고 전역 관리자 계정의 자격 증명으로 로그인합니다.
-2. Azure Portal에서 **Azure Active Directory** 그룹 새  >  **그룹을**  >  **선택합니다.**
+2. Azure Portal에서 그룹 **Azure Active Directory**  >    >  **그룹을 선택합니다.**
 3. **그룹 유형** 을 **보안** 으로, **그룹 이름** 을 **PWReset** 으로, **구성원 자격 유형** 을 **할당됨** 으로 설정합니다.
 4. 구성원을 **선택하고** 사용자 **3을 찾아 선택하고** 선택 을 선택한 다음 만들기를  **선택합니다.**
 5. **그룹** 창을 닫습니다.
-6. Azure Active Directory 창의 왼쪽 **탐색** 창에서 암호 재설정을 선택합니다.
+6. 왼쪽 Azure Active Directory 창에서 암호 **재설정을** 선택합니다.
 7. **암호 재설정 속성** 창의 옵션 **셀프 서비스 암호 재설정이 사용하도록 설정됨** 에서 **선택됨** 을 선택합니다.
 8. 그룹 **선택을 선택하고** **PWReset** 그룹을 선택한 다음 **저장을**  >  **선택합니다.**
 9. 비공개 브라우저 인스턴스를 닫습니다.

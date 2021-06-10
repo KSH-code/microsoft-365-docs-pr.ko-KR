@@ -61,7 +61,7 @@ GET /testwdatppreview/cvekbmap
 ## <a name="response"></a>응답
 성공 및 지도가 있는 경우 - 200 OK.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

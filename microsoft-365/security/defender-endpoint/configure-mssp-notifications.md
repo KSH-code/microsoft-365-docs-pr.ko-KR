@@ -49,6 +49,6 @@ ms.locfileid: "51166056"
 
 
 ## <a name="related-topics"></a>관련 항목
-- [포털에 대한 MSSP 액세스 권한 부여](grant-mssp-access.md)
-- [MSSP 고객 포털 액세스](access-mssp-portal.md)
+- [MSSP 액세스를 포털에 부여](grant-mssp-access.md)
+- [MSSP 고객 포털에 액세스](access-mssp-portal.md)
 - [고객 테넌트에서 경고 페치](fetch-alerts-mssp.md)

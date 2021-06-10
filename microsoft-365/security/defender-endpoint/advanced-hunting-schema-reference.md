@@ -54,11 +54,11 @@ ms.locfileid: "51939639"
 
 다음 참조에는 고급 헌팅 스마의 모든 테이블이 나열됩니다. 각 표 이름은 해당 표의 열 이름을 설명하는 페이지에 연결됩니다.
 
-표 및 열 이름은 Microsoft Defender 보안 센터의 고급 헌팅 화면의 Schema 표현에도 나열됩니다.
+표 및 열 이름도 고급 헌팅 Microsoft Defender 보안 센터 표시에 표시됩니다.
 
 | 테이블 이름 | 설명 |
 |------------|-------------|
-| **[DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)** | Microsoft Defender 보안 센터에 대한 알림 |
+| **[DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)** | 알림에 대한 Microsoft Defender 보안 센터 |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | OS 정보를 포함한 장치 정보 |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | 어댑터, IP 및 MAC 주소, 연결된 네트워크 및 도메인을 비롯한 장치의 네트워크 속성 |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | 프로세스 생성 및 관련 이벤트 |
@@ -67,7 +67,7 @@ ms.locfileid: "51939639"
 | **[DeviceRegistryEvents](advanced-hunting-deviceregistryevents-table.md)** | 레지스트리 항목 생성 및 수정 |
 | **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | 로그인 및 기타 인증 이벤트 |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | DLL 로딩 이벤트 |
-| **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Microsoft Defender 바이러스 백신 및 익스플로잇 보호와 같은 보안 컨트롤에 의해 트리거되는 이벤트를 포함하여 여러 이벤트 유형 |
+| **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | 보안 제어에 의해 트리거되는 이벤트(예: Microsoft Defender 바이러스 백신 및 악용 방지 포함) |
 | **[DeviceFileCertificateInfo](advanced-hunting-devicefilecertificateinfo-table.md)** | 끝점의 인증서 확인 이벤트에서 얻은 서명된 파일의 인증서 정보 |
 | **[DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md)** | 버전 정보 및 지원 종료 상태를 포함하여 장치에 설치된 소프트웨어 인벤토리 |
 | **[DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md)** | 장치에서 발견되는 소프트웨어 취약성 및 각 취약점을 해결하기 위한 사용 가능한 보안 업데이트 목록 |
@@ -76,8 +76,8 @@ ms.locfileid: "51939639"
 | **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md)** | 위협 및 취약성 관리에서 장치를 평가하기 위해 사용하는 다양한 보안 구성에 대한 기술 자료. 다양한 표준과 벤치 마크에 대한 매핑 포함 |
 
 >[!TIP]
->[Microsoft 365 Defender의](/microsoft-365/security/defender/advanced-hunting-overview) 고급 헌팅을 사용하여 Endpoint용 Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 ID에 대한 Microsoft Defender의 데이터를 사용하여 위협을 헌팅합니다. [Microsoft 365 Defender 켜기](/microsoft-365/security/defender/m365d-enable)<br><br>
-Endpoint용 Microsoft Defender에서 Microsoft Defender에서 Microsoft 365 Defender로 고급 헌팅 워크플로를 이동하는 방법에 대한 자세한 내용은 [Endpoint용 Microsoft Defender에서](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)고급 헌팅 쿼리 마이그레이션에서 자세히 알아보하세요.
+>Microsoft 365 [Defender의](/microsoft-365/security/defender/advanced-hunting-overview) 고급 헌팅을 사용하여 Endpoint용 Defender, Office 365, Microsoft Cloud App Security, ID에 대한 Microsoft Defender의 데이터를 사용하여 위협을 헌팅합니다. [Microsoft 365 Defender 켜기](/microsoft-365/security/defender/m365d-enable)<br><br>
+Endpoint용 Microsoft Defender에서 고급 헌팅 워크플로를 끝점용 Microsoft Defender에서 Microsoft 365 헌팅 쿼리 마이그레이션에서 고급 헌팅 워크플로를 헌팅으로 이동하는 방법에 대해 [자세히 알아보고 끝점용 Microsoft Defender에서](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)고급 헌팅 쿼리를 마이그레이션하세요.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

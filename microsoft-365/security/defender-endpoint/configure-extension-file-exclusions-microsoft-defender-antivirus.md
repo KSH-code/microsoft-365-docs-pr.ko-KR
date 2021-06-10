@@ -150,7 +150,7 @@ cmdlet의 형식은 다음과 같습니다.
 Add-MpPreference -ExclusionExtension ".test"
 ```
 
-자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet을 구성 및 실행을 참조하세요.](/powershell/module/defender/)
+자세한 내용은 [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)과 [Defender cmdlet](/powershell/module/defender/)을 참조하세요.
 
 ### <a name="use-windows-management-instruction-wmi-to-configure-file-name-folder-or-file-extension-exclusions"></a>WMI(Windows Management Instruction)를 사용하여 파일 이름, 폴더 또는 파일 확장명 제외 구성
 
@@ -313,7 +313,7 @@ Get-MpPreference
 
 ![다른 기본 설정과 함께 Get-MpPreference 목록을 표시하는 PowerShell 출력](images/defender/wdav-powershell-get-exclusions-all.png)
 
-자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet을 구성 및 실행을 참조하세요.](/powershell/module/defender/)
+자세한 내용은 [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)과 [Defender cmdlet](/powershell/module/defender/)을 참조하세요.
 
 ### <a name="retrieve-a-specific-exclusions-list-by-using-powershell"></a>PowerShell을 사용하여 특정 제외 목록 검색
 
@@ -329,7 +329,7 @@ $WDAVprefs.ExclusionPath
 
 ![제외 목록의 항목만 표시하는 PowerShell 출력](images/defender/wdav-powershell-get-exclusions-variable.png)
 
-자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet을 구성 및 실행을 참조하세요.](/powershell/module/defender/)
+자세한 내용은 [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)과 [Defender cmdlet](/powershell/module/defender/)을 참조하세요.
 
 <a id="validate"></a>
 

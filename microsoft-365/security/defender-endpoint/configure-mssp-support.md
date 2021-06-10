@@ -23,7 +23,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51165252"
 ---
-# <a name="configure-managed-security-service-provider-integration"></a>관리되는 보안 서비스 공급자 통합 구성
+# <a name="configure-managed-security-service-provider-integration"></a>관리형 보안 서비스 공급자 통합 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -44,20 +44,20 @@ ms.locfileid: "51165252"
 
 통합을 통해 MSSP는 다음 작업을 수행할 수 있습니다.
 
-- MSSP 고객의 Microsoft Defender 보안 센터 포털에 액세스
+- MSSP 고객의 사이트 포털에 Microsoft Defender 보안 센터 액세스
 - 전자 메일 알림 및 
 - SIEM(보안 정보 및 이벤트 관리) 도구를 통해 경고 페치
 
 MSSP에서 이러한 작업을 수행하려면 MSSP 고객이 MSSP가 포털에 액세스할 수 있도록 끝점 테넌트에 대한 Defender에 대한 액세스 권한을 부여해야 합니다. 
  
 
-일반적으로 MSSP 고객은 초기 구성 단계를 수행하여 MSSP에 보안 중앙 테넌트에 대한 Windows Defender 권한을 부여합니다. 액세스 권한이 부여된 후 다른 구성 단계는 MSSP 고객 또는 MSSP에서 수행될 수 있습니다.
+일반적으로 MSSP 고객은 초기 구성 단계를 수행하여 MSSP에 보안 중앙 테넌트에 Windows Defender 권한을 부여합니다. 액세스 권한이 부여된 후 다른 구성 단계는 MSSP 고객 또는 MSSP에서 수행될 수 있습니다.
 
 
 일반적으로 다음 구성 단계를 수행해야 합니다.
 
 
-- **MICROSOFT Defender 보안 센터에 대한 MSSP 액세스 권한 부여** <br>
+- **MSSP에 액세스 권한을 Microsoft Defender 보안 센터** <br>
 이 작업은 MSSP 고객이 수행해야 합니다. 끝점 테넌트에 대한 MSSP 고객의 Defender 액세스 권한을 MSSP에 부여합니다.
  
 
@@ -75,8 +75,8 @@ MSSP에서 이러한 작업을 수행하려면 MSSP 고객이 MSSP가 포털에 
 
 
 ## <a name="related-topics"></a>관련 항목
-- [포털에 대한 MSSP 액세스 권한 부여](grant-mssp-access.md)
-- [MSSP 고객 포털 액세스](access-mssp-portal.md)
+- [MSSP 액세스를 포털에 부여](grant-mssp-access.md)
+- [MSSP 고객 포털에 액세스](access-mssp-portal.md)
 - [경고 알림 구성](configure-mssp-notifications.md)
 - [고객 테넌트에서 경고 페치](fetch-alerts-mssp.md)
 

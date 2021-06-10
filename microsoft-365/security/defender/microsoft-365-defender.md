@@ -92,7 +92,7 @@ Microsoft 365 Defender 제품 간 기능은 다음과 같습니다.
 - **제품** 간 위협 헌팅 - 보안 팀은 다양한 보호 제품에서 수집한 원시 데이터에 대해 자체 사용자 지정 쿼리를 만들어 고유한 조직 지식을 활용하여 손상 징후를 찾을 수 있습니다. Microsoft 365 Defender는 30일 동안의 기록 원시 신호 및 경고 데이터에 대한 쿼리 기반 액세스를 제공합니다. 끝점에서 경고 데이터와 데이터 보호를 위한 Microsoft Defender Office 365 제공합니다. 
 
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 Microsoft 365 의 Microsoft 365 보안 센터에서 서비스를 사용하도록 설정하려면 먼저 Defender 라이선스 요구 사항을 [security.microsoft.com.](https://security.microsoft.com) 자세한 내용은 다음을 참조하십시오.
 - [라이선스 요구 사항](prerequisites.md#licensing-requirements)
 - [Microsoft 365 Defender 켜기](m365d-enable.md)

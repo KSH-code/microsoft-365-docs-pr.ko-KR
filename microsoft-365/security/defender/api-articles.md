@@ -38,7 +38,7 @@ ms.locfileid: "51935752"
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-다음 리소스는 Microsoft 365 Defender API 이외에 다른 Microsoft 보안 솔루션에 사용할 수 있는 API에 대한 자세한 정보를 제공합니다.
+다음 리소스는 다른 Microsoft 보안 솔루션에 사용할 수 있는 API에 대한 자세한 정보를 제공하고, 추가 Microsoft 365 제공합니다.
 
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
 - [Office 365용 Microsoft Defender](/office/office-365-management-api/)
