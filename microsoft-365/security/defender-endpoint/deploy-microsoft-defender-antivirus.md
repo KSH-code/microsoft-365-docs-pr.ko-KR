@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender 바이러스 백신 배포 및 사용
-description: Microsoft Intune, Microsoft Endpoint Configuration Manager, 그룹 정책, PowerShell cmdlet 또는 WMI를 통해 끝점 보호를 위해 Microsoft Defender 바이러스 백신을 배포합니다.
+description: Microsoft Defender 바이러스 백신, 그룹 정책, Microsoft Endpoint Configuration Manager, PowerShell cmdlet 또는 WMI를 Microsoft Intune 끝점 보호를 위해 배포합니다.
 keywords: 배포, 사용, Microsoft Defender 바이러스 백신
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -23,25 +23,25 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52274499"
 ---
-# <a name="deploy-and-enable-microsoft-defender-antivirus"></a><span data-ttu-id="5d6dd-104">Microsoft Defender 바이러스 백신 배포 및 사용</span><span class="sxs-lookup"><span data-stu-id="5d6dd-104">Deploy and enable Microsoft Defender Antivirus</span></span>
+# <a name="deploy-and-enable-microsoft-defender-antivirus"></a><span data-ttu-id="9ba13-104">Microsoft Defender 바이러스 백신 배포 및 사용</span><span class="sxs-lookup"><span data-stu-id="9ba13-104">Deploy and enable Microsoft Defender Antivirus</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="5d6dd-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="5d6dd-105">**Applies to:**</span></span>
+<span data-ttu-id="9ba13-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="9ba13-105">**Applies to:**</span></span>
 
-- [<span data-ttu-id="5d6dd-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="5d6dd-106">Microsoft Defender for Endpoint</span></span>](/microsoft-365/security/defender-endpoint/)
+- [<span data-ttu-id="9ba13-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="9ba13-106">Microsoft Defender for Endpoint</span></span>](/microsoft-365/security/defender-endpoint/)
 
-<span data-ttu-id="5d6dd-107">사용하는 관리 도구에 따라 Microsoft Defender 바이러스 백신 보호를 사용하도록 설정하거나 구성해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5d6dd-107">Depending on the management tool you are using, you may need to specifically enable or configure Microsoft Defender Antivirus protection.</span></span> 
+<span data-ttu-id="9ba13-107">사용 하는 관리 도구에 따라 특별히 사용 하도록 설정 또는 구성 해야 할 Microsoft Defender 바이러스 백신 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ba13-107">Depending on the management tool you are using, you may need to specifically enable or configure Microsoft Defender Antivirus protection.</span></span> 
 
-<span data-ttu-id="5d6dd-108">Microsoft Intune, Microsoft Endpoint Configuration Manager, 그룹 정책, Active Directory, Microsoft Azure, PowerShell cmdlet 및 WMI(Windows Management Instruction)를 사용하여 보호를 사용하도록 설정하는 방법에 대한 지침은 [Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md#ref2) 바이러스 백신 배포, 관리 및 보고의 표를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="5d6dd-108">See the table in [Deploy, manage, and report on Microsoft Defender Antivirus](deploy-manage-report-microsoft-defender-antivirus.md#ref2) for instructions on how to enable protection with Microsoft Intune, Microsoft Endpoint Configuration Manager, Group Policy, Active Directory, Microsoft Azure, PowerShell cmdlets, and Windows Management Instruction (WMI).</span></span>
+<span data-ttu-id="9ba13-108">Microsoft Intune, Microsoft Defender 바이러스 백신 [](deploy-manage-report-microsoft-defender-antivirus.md#ref2) Microsoft Endpoint Configuration Manager, 그룹 정책, Active Directory, Microsoft Azure, PowerShell cmdlet 및 WMI(Windows Management Instruction)를 사용하여 보호를 사용하도록 설정하는 방법에 대한 지침은 배포, 관리 및 보고의 표를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9ba13-108">See the table in [Deploy, manage, and report on Microsoft Defender Antivirus](deploy-manage-report-microsoft-defender-antivirus.md#ref2) for instructions on how to enable protection with Microsoft Intune, Microsoft Endpoint Configuration Manager, Group Policy, Active Directory, Microsoft Azure, PowerShell cmdlets, and Windows Management Instruction (WMI).</span></span>
 
-<span data-ttu-id="5d6dd-109">일부 시나리오에서는 VDI(가상 데스크톱 인프라) 환경과 같은 Microsoft Defender 바이러스 백신 보호를 성공적으로 배포하거나 구성하는 방법에 대한 추가 지침이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="5d6dd-109">Some scenarios require more guidance on how to successfully deploy or configure Microsoft Defender Antivirus protection, such as Virtual Desktop Infrastructure (VDI) environments.</span></span>
+<span data-ttu-id="9ba13-109">일부 시나리오에서는 VDI(가상 데스크톱 인프라) 환경과 같은 Microsoft Defender 바이러스 백신 보호를 성공적으로 배포하거나 구성하는 방법에 대한 추가 지침이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="9ba13-109">Some scenarios require more guidance on how to successfully deploy or configure Microsoft Defender Antivirus protection, such as Virtual Desktop Infrastructure (VDI) environments.</span></span>
 
-<span data-ttu-id="5d6dd-110">이 섹션의 나머지 문서에서는 VDI 또는 [RDS(원격](deployment-vdi-microsoft-defender-antivirus.md)데스크톱 서비스) 환경에서 VM(가상 컴퓨터)에 Microsoft Defender 바이러스 백신을 설정하는 데 대한 종단적인 조언과 모범 사례를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="5d6dd-110">The remaining article in this section provides end-to-end advice and best practices for [setting up Microsoft Defender Antivirus on virtual machines (VMs) in a VDI or Remote Desktop Services (RDS) environment](deployment-vdi-microsoft-defender-antivirus.md).</span></span>
+<span data-ttu-id="9ba13-110">이 섹션의 나머지 문서에서는 VDI 또는 [RDS(원격](deployment-vdi-microsoft-defender-antivirus.md)데스크톱 서비스) 환경에서 VM(가상 Microsoft Defender 바이러스 백신)을 설정하기 위한 전체적인 조언과 모범 사례를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="9ba13-110">The remaining article in this section provides end-to-end advice and best practices for [setting up Microsoft Defender Antivirus on virtual machines (VMs) in a VDI or Remote Desktop Services (RDS) environment](deployment-vdi-microsoft-defender-antivirus.md).</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="5d6dd-111">관련 문서</span><span class="sxs-lookup"><span data-stu-id="5d6dd-111">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="9ba13-111">관련 문서</span><span class="sxs-lookup"><span data-stu-id="9ba13-111">Related articles</span></span>
 
-- [<span data-ttu-id="5d6dd-112">Windows 10의 Microsoft Defender 바이러스 백신</span><span class="sxs-lookup"><span data-stu-id="5d6dd-112">Microsoft Defender Antivirus in Windows 10</span></span>](microsoft-defender-antivirus-in-windows-10.md)
-- [<span data-ttu-id="5d6dd-113">Microsoft Defender 바이러스 백신 배포, 업데이트 관리 및 보고</span><span class="sxs-lookup"><span data-stu-id="5d6dd-113">Deploy, manage updates, and report on Microsoft Defender Antivirus</span></span>](deploy-manage-report-microsoft-defender-antivirus.md)
-- [<span data-ttu-id="5d6dd-114">VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드</span><span class="sxs-lookup"><span data-stu-id="5d6dd-114">Deployment guide for Microsoft Defender Antivirus in a virtual desktop infrastructure (VDI) environment</span></span>](deployment-vdi-microsoft-defender-antivirus.md)
+- [<span data-ttu-id="9ba13-112">Windows 10의 Microsoft Defender 바이러스 백신</span><span class="sxs-lookup"><span data-stu-id="9ba13-112">Microsoft Defender Antivirus in Windows 10</span></span>](microsoft-defender-antivirus-in-windows-10.md)
+- [<span data-ttu-id="9ba13-113">업데이트 배포, 관리 및 보고서 Microsoft Defender 바이러스 백신</span><span class="sxs-lookup"><span data-stu-id="9ba13-113">Deploy, manage updates, and report on Microsoft Defender Antivirus</span></span>](deploy-manage-report-microsoft-defender-antivirus.md)
+- [<span data-ttu-id="9ba13-114">VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드</span><span class="sxs-lookup"><span data-stu-id="9ba13-114">Deployment guide for Microsoft Defender Antivirus in a virtual desktop infrastructure (VDI) environment</span></span>](deployment-vdi-microsoft-defender-antivirus.md)

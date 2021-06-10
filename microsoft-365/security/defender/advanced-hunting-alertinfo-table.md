@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스위마의 AlertInfo 테이블
 description: 고급 헌팅 스커마의 AlertInfo 표에서 경고 생성 이벤트에 대해 자세히 알아보시다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, Microsoft 365, m365, 검색, 쿼리, 원격 분석,chema reference, kusto, 테이블, 열, 데이터 형식, 설명, AlertInfo, 경고, 심각도, 범주, MITRE, ATT&CK, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security, MCAS 및 ID용 Microsoft Defender
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, AlertInfo, 경고, 심각도, 범주, MITRE, ATT&CK, Endpoint용 Microsoft Defender, Office 365, Microsoft Cloud App Security, MCAS 및 ID용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -27,35 +27,35 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933700"
 ---
-# <a name="alertinfo"></a><span data-ttu-id="8e750-104">AlertInfo</span><span class="sxs-lookup"><span data-stu-id="8e750-104">AlertInfo</span></span>
+# <a name="alertinfo"></a><span data-ttu-id="6239d-104">AlertInfo</span><span class="sxs-lookup"><span data-stu-id="6239d-104">AlertInfo</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="8e750-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="8e750-105">**Applies to:**</span></span>
-- <span data-ttu-id="8e750-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="8e750-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="6239d-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="6239d-105">**Applies to:**</span></span>
+- <span data-ttu-id="6239d-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="6239d-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="8e750-107">고급 `AlertInfo` 헌팅 schema의 표에는 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 ID용 Microsoft Defender의 경고에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="8e750-107">The `AlertInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about alerts from Microsoft  Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security, and Microsoft Defender for Identity.</span></span> <span data-ttu-id="8e750-108">이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="8e750-108">Use this reference to construct queries that return information from this table.</span></span>
+<span data-ttu-id="6239d-107">고급 헌팅 schema의 표에는 끝점용 Microsoft Defender, microsoft Defender for Office 365, Microsoft Cloud App Security 및 `AlertInfo` Id용 Microsoft [](advanced-hunting-overview.md) Defender의 경고에 대한 정보가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6239d-107">The `AlertInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about alerts from Microsoft  Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security, and Microsoft Defender for Identity.</span></span> <span data-ttu-id="6239d-108">이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="6239d-108">Use this reference to construct queries that return information from this table.</span></span>
 
-<span data-ttu-id="8e750-109">고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="8e750-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
+<span data-ttu-id="6239d-109">고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6239d-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
 
-| <span data-ttu-id="8e750-110">열 이름</span><span class="sxs-lookup"><span data-stu-id="8e750-110">Column name</span></span> | <span data-ttu-id="8e750-111">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="8e750-111">Data type</span></span> | <span data-ttu-id="8e750-112">설명</span><span class="sxs-lookup"><span data-stu-id="8e750-112">Description</span></span> |
+| <span data-ttu-id="6239d-110">열 이름</span><span class="sxs-lookup"><span data-stu-id="6239d-110">Column name</span></span> | <span data-ttu-id="6239d-111">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="6239d-111">Data type</span></span> | <span data-ttu-id="6239d-112">설명</span><span class="sxs-lookup"><span data-stu-id="6239d-112">Description</span></span> |
 |-------------|-----------|-------------|
-| `Timestamp` | <span data-ttu-id="8e750-113">datetime</span><span class="sxs-lookup"><span data-stu-id="8e750-113">datetime</span></span> | <span data-ttu-id="8e750-114">이벤트가 기록된 날짜와 시간</span><span class="sxs-lookup"><span data-stu-id="8e750-114">Date and time when the event was recorded</span></span> |
-| `AlertId` | <span data-ttu-id="8e750-115">문자열</span><span class="sxs-lookup"><span data-stu-id="8e750-115">string</span></span> | <span data-ttu-id="8e750-116">경고의 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="8e750-116">Unique identifier for the alert</span></span> |
-| `Title` | <span data-ttu-id="8e750-117">문자열</span><span class="sxs-lookup"><span data-stu-id="8e750-117">string</span></span> | <span data-ttu-id="8e750-118">경고의 제목입니다.</span><span class="sxs-lookup"><span data-stu-id="8e750-118">Title of the alert</span></span> |
-| `Category` | <span data-ttu-id="8e750-119">문자열</span><span class="sxs-lookup"><span data-stu-id="8e750-119">string</span></span> | <span data-ttu-id="8e750-120">경고로 식별되는 위협 표시기 또는 위반 활동 유형</span><span class="sxs-lookup"><span data-stu-id="8e750-120">Type of threat indicator or breach activity identified by the alert</span></span> |
-| `Severity` | <span data-ttu-id="8e750-121">문자열</span><span class="sxs-lookup"><span data-stu-id="8e750-121">string</span></span> | <span data-ttu-id="8e750-122">경고로 식별되는 위협 표시기 또는 위반 활동의 잠재적인 영향(높음, 중간 또는 낮음)을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="8e750-122">Indicates the potential impact (high, medium, or low) of the threat indicator or breach activity identified by the alert</span></span> |
-| `ServiceSource` | <span data-ttu-id="8e750-123">문자열</span><span class="sxs-lookup"><span data-stu-id="8e750-123">string</span></span> | <span data-ttu-id="8e750-124">경고 정보를 제공한 제품 또는 서비스</span><span class="sxs-lookup"><span data-stu-id="8e750-124">Product or service that provided the alert information</span></span> |
-| `DetectionSource` | <span data-ttu-id="8e750-125">문자열</span><span class="sxs-lookup"><span data-stu-id="8e750-125">string</span></span> | <span data-ttu-id="8e750-126">중요한 구성 요소 또는 활동을 식별한 감지 기술 또는 센서</span><span class="sxs-lookup"><span data-stu-id="8e750-126">Detection technology or sensor that identified the notable component or activity</span></span> |
-| `AttackTechniques` | <span data-ttu-id="8e750-127">문자열</span><span class="sxs-lookup"><span data-stu-id="8e750-127">string</span></span> | <span data-ttu-id="8e750-128">MITRE ATT&트리거한 활동과 관련된 CK 기술입니다.</span><span class="sxs-lookup"><span data-stu-id="8e750-128">MITRE ATT&CK techniques associated with the activity that triggered the alert</span></span> |
+| `Timestamp` | <span data-ttu-id="6239d-113">datetime</span><span class="sxs-lookup"><span data-stu-id="6239d-113">datetime</span></span> | <span data-ttu-id="6239d-114">이벤트가 기록된 날짜와 시간</span><span class="sxs-lookup"><span data-stu-id="6239d-114">Date and time when the event was recorded</span></span> |
+| `AlertId` | <span data-ttu-id="6239d-115">문자열</span><span class="sxs-lookup"><span data-stu-id="6239d-115">string</span></span> | <span data-ttu-id="6239d-116">경고의 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="6239d-116">Unique identifier for the alert</span></span> |
+| `Title` | <span data-ttu-id="6239d-117">문자열</span><span class="sxs-lookup"><span data-stu-id="6239d-117">string</span></span> | <span data-ttu-id="6239d-118">경고의 제목입니다.</span><span class="sxs-lookup"><span data-stu-id="6239d-118">Title of the alert</span></span> |
+| `Category` | <span data-ttu-id="6239d-119">문자열</span><span class="sxs-lookup"><span data-stu-id="6239d-119">string</span></span> | <span data-ttu-id="6239d-120">경고로 식별되는 위협 표시기 또는 위반 활동 유형</span><span class="sxs-lookup"><span data-stu-id="6239d-120">Type of threat indicator or breach activity identified by the alert</span></span> |
+| `Severity` | <span data-ttu-id="6239d-121">문자열</span><span class="sxs-lookup"><span data-stu-id="6239d-121">string</span></span> | <span data-ttu-id="6239d-122">경고로 식별되는 위협 표시기 또는 위반 활동의 잠재적인 영향(높음, 중간 또는 낮음)을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="6239d-122">Indicates the potential impact (high, medium, or low) of the threat indicator or breach activity identified by the alert</span></span> |
+| `ServiceSource` | <span data-ttu-id="6239d-123">문자열</span><span class="sxs-lookup"><span data-stu-id="6239d-123">string</span></span> | <span data-ttu-id="6239d-124">경고 정보를 제공한 제품 또는 서비스</span><span class="sxs-lookup"><span data-stu-id="6239d-124">Product or service that provided the alert information</span></span> |
+| `DetectionSource` | <span data-ttu-id="6239d-125">문자열</span><span class="sxs-lookup"><span data-stu-id="6239d-125">string</span></span> | <span data-ttu-id="6239d-126">중요한 구성 요소 또는 활동을 식별한 감지 기술 또는 센서</span><span class="sxs-lookup"><span data-stu-id="6239d-126">Detection technology or sensor that identified the notable component or activity</span></span> |
+| `AttackTechniques` | <span data-ttu-id="6239d-127">문자열</span><span class="sxs-lookup"><span data-stu-id="6239d-127">string</span></span> | <span data-ttu-id="6239d-128">MITRE ATT&트리거한 활동과 관련된 CK 기술입니다.</span><span class="sxs-lookup"><span data-stu-id="6239d-128">MITRE ATT&CK techniques associated with the activity that triggered the alert</span></span> |
 
-## <a name="related-topics"></a><span data-ttu-id="8e750-129">관련 항목</span><span class="sxs-lookup"><span data-stu-id="8e750-129">Related topics</span></span>
-- [<span data-ttu-id="8e750-130">지능형 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="8e750-130">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="8e750-131">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="8e750-131">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="8e750-132">공유 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="8e750-132">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="8e750-133">장치, 전자 메일, 앱 및 ID를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="8e750-133">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="8e750-134">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="8e750-134">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="8e750-135">쿼리 모범 사례 적용</span><span class="sxs-lookup"><span data-stu-id="8e750-135">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+## <a name="related-topics"></a><span data-ttu-id="6239d-129">관련 항목</span><span class="sxs-lookup"><span data-stu-id="6239d-129">Related topics</span></span>
+- [<span data-ttu-id="6239d-130">지능형 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="6239d-130">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="6239d-131">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="6239d-131">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="6239d-132">공유 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="6239d-132">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="6239d-133">장치, 전자 메일, 앱 및 ID를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="6239d-133">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="6239d-134">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="6239d-134">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="6239d-135">쿼리 모범 사례 적용</span><span class="sxs-lookup"><span data-stu-id="6239d-135">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
