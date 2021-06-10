@@ -29,7 +29,7 @@ ms.locfileid: "51599514"
 > [!NOTE]
 > 이 문서에서 설명하는 기능은 현재 미리 보기로 제공되어 있으며 모든 사람이 사용할 수 있으며 변경될 수 있습니다.
 
-사용자는 [EOP에서](find-and-release-quarantined-messages-as-a-user.md)사용자로 검색 및 릴리스에 설명된 바와 같이 받는 사람 중 한 에 있는 분리된 메시지를 관리할 수 있습니다. 그러나 Exchange Online의 공유 사서함에 설명된 바와 같이 사용자에게 사서함에 대한 모든 권한 및 다른 사람으로 보내기 또는 대신 보내기 권한이 있는 공유 사서함은 어떻게 [될까요?](/exchange/collaboration-exo/shared-mailboxes)
+사용자는 [EOP에서](find-and-release-quarantined-messages-as-a-user.md)사용자로 검색 및 릴리스에 설명된 바와 같이 받는 사람 중 한 에 있는 분리된 메시지를 관리할 수 있습니다. 그러나 사용자가 사서함의 공유 사서함에 설명된 모든 권한 및 다른 사람으로 보내기 또는 대신 보내기 권한이 있는 공유 사서함은 [Exchange Online?](/exchange/collaboration-exo/shared-mailboxes)
 
 이전에는 사용자가 공유 사서함에 전송된 분리된 메시지를 관리할 수 있는 기능을 사용하려면 관리자가 공유 사서함에 대해 automapping을 사용하도록 설정(관리자가 다른 사서함에 대한 액세스 권한을 사용자에게 부여할 때 기본적으로 사용하도록 설정)을 유지해야 합니다. 그러나 사용자가 액세스할 수 있는 사서함의 크기와 수에 따라 Outlook에서 사용자가 액세스할 수  있는 모든 사서함을 열려고 할 때 성능이 아날 수 있습니다. 이러한 이유로 많은 관리자가 공유 [사서함에 대한 automapping을 제거하기로 선택했습니다.](/outlook/troubleshoot/profiles-and-accounts/remove-automapping-for-shared-mailbox)
 
@@ -53,7 +53,7 @@ ms.locfileid: "51599514"
 
 - 공유 사서함에 대한 검지 작업과 관련하여 중첩된 보안 그룹을 사용하여 공유 사서함에 대한 액세스 권한을 부여하는 경우 중첩된 그룹의 수준은 두 개를 넘지하는 것이 좋습니다. 예를 들어 그룹 A는 그룹 C의 구성원인 그룹 B의 구성원입니다. 공유 사서함에 사용 권한을 할당하려면 그룹을 A에 추가한 다음 그룹 C를 공유 사서함에 할당하지 않습니다.  
 
-- [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)공유 사서함에 대해 quarantined messages를 관리하려면 최종 사용자가 _RecipientAddress_ 매개 변수 값에 대해 공유 사서함 전자 메일 주소와 [함께 Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) cmdlet을 사용하여 메시지를 식별해야 합니다. 예시:
+- Exchange Online [PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)공유 사서함에 대해 quarantined messages를 관리하려면 최종 사용자는 _RecipientAddress_ 매개 변수 값에 대해 공유 사서함 전자 메일 주소와 함께 [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) cmdlet을 사용하여 메시지를 식별해야 합니다. 예:
 
   ```powershell
   Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com

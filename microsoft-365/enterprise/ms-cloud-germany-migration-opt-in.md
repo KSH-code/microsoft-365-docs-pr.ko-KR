@@ -26,7 +26,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51592075"
 ---
-# <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로의 새 마이그레이션에 옵트인(opt in)하는 방법
+# <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 새 독일 데이터 센터 Office 365 서비스로의 새 마이그레이션에 옵트인(opt in)하는 방법
 
 > [!NOTE]
 > 이 문서는 독일 Microsoft 클라우드(독일 Microsoft 클라우드) 고객에게만 적용됩니다.
@@ -34,13 +34,13 @@ ms.locfileid: "51592075"
 
 ## <a name="how-to-request-migration"></a>마이그레이션을 요청하는 방법
 
-Microsoft 클라우드 독일(도이치클란드 Microsoft 클라우드)에 프로비전된 서비스를 제공하는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 Microsoft 365 관리 센터의 페이지를 통해 마이그레이션을 옵트인(opt in)할 수 있습니다.
+Microsoft 클라우드 독일(도이치란드 Microsoft 클라우드)에 프로비전된 서비스를 제공하는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 Microsoft 365 관리 센터의 페이지에서 마이그레이션을 옵트인(opt in)할 수 있습니다.
 
-페이지에 액세스하려면 왼쪽 **탐색** 창에서 설정을 확장한 다음 조직 프로필 **을 클릭합니다.**
+페이지에 액세스하려면 왼쪽 **설정** 창에서 페이지를 확장한 다음 조직 프로필 **을 클릭합니다.**
 
 **조직 프로필** 페이지에서, 아래로 스크롤하여 **독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 신규 독일 데이터 센터 지역으로의 마이그레이션** 섹션으로 갑니다.
 
-독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 서비스를 마이그레이션하려면 옵트인을 **클릭합니다.**
+독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 Office 365 서비스로 마이그레이션하려면 옵트인(Opt-in)을 **클릭합니다.**
  
 ![옵트인 소개](../media/ms-cloud-germany-migration-opt-in/tenant-migration.png)
 
@@ -48,7 +48,7 @@ Microsoft 클라우드 독일(도이치클란드 Microsoft 클라우드)에 프�
  
 ![옵트인 수락](../media/ms-cloud-germany-migration-opt-in/tenant-migration-new-regions.png)
 
-테넌트 대신 옵트인(opt in)한 경우 모든 관리자는 옵트인 날짜를 포함하여 독일 **Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 Office 365** 서비스로 마이그레이션 섹션에서 확인을 볼 수 있습니다. 또한 관리자는 Microsoft 365 관리 센터의 메시지 센터에서 확인을 받게 됩니다. 
+테넌트 대신 옵트인(opt in)한 경우 모든 관리자는 옵트인 날짜를 포함하여 독일 **Microsoft 클라우드(도이치란드 Microsoft** 클라우드)에서 Office 365 서비스로 마이그레이션 섹션에서 확인을 볼 수 있습니다. 관리자는 또한 관리자 센터의 메시지 센터에서 Microsoft 365 받게 됩니다. 
  
 ![옵트인 확인](../media/ms-cloud-germany-migration-opt-in/tenant-migration2.png)
 
@@ -72,7 +72,7 @@ Microsoft 주도 접근 방식에 옵트인(opt in)한 조직에 대한 마이�
 
 시작:
 
-- [독일 Microsoft 클라우드에서 새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션](ms-cloud-germany-transition.md)
+- [독일 Microsoft 클라우드에서 새 독일 Office 365 서비스로 마이그레이션](ms-cloud-germany-transition.md)
 - [Microsoft Cloud Deutschland 마이그레이션 지원](https://aka.ms/germanymigrateassist)
 - [마이그레이션 중의 고객 환경](ms-cloud-germany-transition-experience.md)
 

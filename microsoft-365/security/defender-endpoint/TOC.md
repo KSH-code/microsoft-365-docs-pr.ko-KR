@@ -242,6 +242,8 @@
 
 ### [네트워크 장치](network-devices.md)
 
+### [엔드포인트용 Microsoft Defender 호스트 방화벽 보고](host-firewall-reporting.md)
+
 ### [공격 표면 감소]()
 #### [공격 표면 감소 개요](overview-attack-surface-reduction.md)
 #### [공격 표면 감소 기능 구성](configure-attack-surface-reduction.md)
@@ -278,6 +280,8 @@
 #### [바이러스 백신 및 맬웨어 방지 업데이트 다운로드](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [보호 업데이트를 다운로드하여 적용해야 하는 경우에 대한 예약 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+#####  [Microsoft Defender 업데이트를 위한 점차적인 롤아웃 절차 관리](updates.md)
+#####  [Microsoft Defender 업데이트를 위한 점차적인 롤아웃 절차 구성](configure-updates.md)
 ##### [Microsoft Defender 바이러스 백신 업데이트 및 만료된 엔드포인트에 대한 검사 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [이벤트 기반 강제 업데이트 관리](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -351,6 +355,7 @@
 ##### [USB 장치 제어](control-usb-devices-using-intune.md)
 ##### [이동식 저장소 보호](device-control-removable-storage-protection.md)
 ##### [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)
+##### [장치 제어 프린터 보호](printer-protection.md)
 
 #### [동작 차단 및 제약]()
 ##### [동작 차단 및 제약](behavioral-blocking-containment.md)

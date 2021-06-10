@@ -46,7 +46,7 @@ ms.locfileid: "52572108"
 
 이렇게하려면 관리자 [권한이](../add-users/about-admin-roles.md) 있어야 합니다. 
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 활성 **사용자 페이지에서** 사용자 이름 및 전자 메일 > **사용자를 선택합니다.** 사용자에게 할당된 라이선스가 없는 경우 이 옵션이 표시됩니다. 
     

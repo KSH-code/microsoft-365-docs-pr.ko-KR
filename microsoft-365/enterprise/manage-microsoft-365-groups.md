@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Microsoft 365 그룹을 관리하는 방법에 대해 자세히 알아보습니다.
+description: 그룹 관리 방법에 대해 Microsoft 365 자세히 알아보아야 합니다.
 ms.openlocfilehash: 529bdb874661329497b103a1207b90625ad33a4b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -33,11 +33,11 @@ ms.locfileid: "50911010"
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-구성에 따라 여러 가지 방법으로 Microsoft 365 그룹을 관리할 수 있습니다. [Microsoft 365](../admin/add-users/index.yml)관리 센터, PowerShell, AD DS(Active Directory 도메인 서비스) 또는 [Azure AD(Azure Active Directory)](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)관리 센터에서 사용자 계정을 관리할 수 있습니다. 
+구성에 Microsoft 365 여러 가지 방법으로 그룹 그룹을 관리할 수 있습니다. Microsoft 365 관리 센터, PowerShell, AD [DS(Active](../admin/add-users/index.yml)Directory 도메인 서비스) 또는 Azure Active Directory(Azure AD) 관리 센터에서 사용자 [계정을 관리할 수 있습니다.](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-groups"></a>그룹 관리 위치 및 방법 계획
 
-사용자 계정을 관리하는 위치와 방법은 Microsoft 365에 사용하려는 ID 모델에 따라 다릅니다. 두 가지 전체 모델은 클라우드 전용 및 하이브리드입니다.
+사용자 계정을 관리하는 위치 및 방법은 사용자 계정의 ID 모델에 따라 Microsoft 365. 두 가지 전체 모델은 클라우드 전용 및 하이브리드입니다.
   
 ### <a name="cloud-only"></a>클라우드 전용
 
@@ -49,7 +49,7 @@ ms.locfileid: "50911010"
     
 ### <a name="hybrid"></a>하이브리드
 
-AD DS 그룹은 AD DS에서 Microsoft 365와 동기화되어 있으므로 이러한 그룹을 관리하려면 사내 AD DS 도구를 사용해야 합니다.
+AD DS 그룹은 AD DS의 Microsoft 365 동기화되어 있으므로 이러한 그룹을 관리하려면 사내 AD DS 도구를 사용해야 합니다.
 
 AD DS 그룹과는 별개이지만 AD DS의 사용자 및 그룹을 포함할 수 있는 Azure AD 그룹을 만들고 관리할 수도 있습니다. 이 경우 다음을 사용할 수 있습니다.
 

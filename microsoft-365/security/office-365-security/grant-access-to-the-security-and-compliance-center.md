@@ -1,5 +1,5 @@
 ---
-title: 사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여
+title: 사용자에게 보안 및 규정 준수 센터에 대한 액세스 권한 부여
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,7 +16,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: 사용자는 보안 또는 규정 준수 기능을 관리하기 전에 Microsoft 365 보안 & 규정 준수 센터에서 사용 권한을 할당해야 합니다.
+description: 보안 또는 규정 준수 기능을 관리하려면 Microsoft 365 & 준수 센터에서 사용 권한을 할당해야 합니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51599926"
 ---
-# <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여
+# <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 규정 준수 센터에 대한 액세스 권한 부여
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -40,13 +40,13 @@ ms.locfileid: "51599926"
 
 보안 및 준수 센터에서 사용자에게 부여할 수 있는 다양한 사용 권한에 대한 자세한 내용은 & 규정 준수 센터의 사용 권한을 [& 참조하십시오.](permissions-in-the-security-and-compliance-center.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 이 문서의 단계를 완료하려면 Security & Compliance Center에서 전역 관리자 또는 OrganizationManagement 역할 그룹의 구성원일 수 있습니다.
 
-- Security & 준수 센터의 역할 그룹 이름은 Exchange Online의 역할 그룹과 유사할 수 있지만 동일하지는 않습니다.
+- 보안 & 준수 센터의 역할 그룹은 Exchange Online 역할 그룹과 유사할 수 있지만 동일하지는 않습니다.
 
-- 역할 그룹 구성원 자격은 Exchange Online과 Security & 공유되지 않습니다.
+- 역할 그룹 구성원 자격은 보안 및 준수 Exchange Online 간에 & 않습니다.
 
 - AOBO(관리 위임된 액세스 권한) 권한이 있는 DAP(위임된 액세스 권한) 파트너는 보안 및 준수 센터에 액세스할 & 없습니다.
 

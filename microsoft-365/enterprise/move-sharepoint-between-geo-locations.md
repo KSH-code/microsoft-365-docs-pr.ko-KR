@@ -13,7 +13,7 @@ ms.collection:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: SharePoint 사이트를 Multi-Geo 환경 내의 다른 지리적 위치로 이동하고 사용자에게 변경에 대한 기대치를 전달하는 방법에 대해 알아보습니다.
+description: 다중 위치 SharePoint 다른 지리적 위치로 이동하고 사용자에게 변경에 대한 기대치를 전달하는 방법에 대해 알아보고
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: eed323b2e2b8f68a4a603052657e17495bb17690
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -74,13 +74,13 @@ SharePoint 사이트 지리적 이동 일정을 나중으로 예약하려면 이
 
 SharePoint 사이트 지리적 이동을 수행하려면 사이트가 있는 지리적 위치의 SharePoint 관리자 URL에서 연결 후 이동을 해야 합니다.
 
-예를 들어 사이트 URL이 인 경우 <https://contosohealthcare.sharepoint.com/sites/Turbines> 에서 SharePoint 관리 URL에 <https://contosohealthcare-admin.sharepoint.com> 연결합니다.
+예를 들어 사이트 URL이 인 경우 에서 SharePoint <https://contosohealthcare.sharepoint.com/sites/Turbines> 관리 URL에 연결합니다. <https://contosohealthcare-admin.sharepoint.com>
 
 ```powershell
 Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
 ```
 
-![SharePoint Online 관리 셸 창에 Connect-SPOService 표시](../media/move-onedrive-between-geo-locations-image1.png)
+![SharePoint 온라인 관리 셸 창에 Connect-SPOService 표시](../media/move-onedrive-between-geo-locations-image1.png)
 
 ### <a name="validating-the-environment"></a>환경 유효성 검사
 

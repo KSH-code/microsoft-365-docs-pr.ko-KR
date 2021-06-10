@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 ID 거버넌스 관리
+title: ID Microsoft 365 관리
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Microsoft 365 ID 거버넌스 기능을 사용하는 방법에 대해 자세히 알아보습니다.
+description: ID 거버넌스 기능을 사용하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: 6a97ca24c609724a2cab93feec9e90f25d3361e3
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,11 +29,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50910957"
 ---
-# <a name="manage-microsoft-365-identity-governance"></a>Microsoft 365 ID 거버넌스 관리
+# <a name="manage-microsoft-365-identity-governance"></a>ID Microsoft 365 관리
 
 ID 거버넌스는 직원 생산성을 보장하면서 중요한 자산에 대한 액세스를 보호, 모니터링 및 감사하는 것입니다. 예를 들어 ID 거버넌스를 사용하는 경우 올바른 사용자에게 올바른 리소스에 대한 올바른 액세스 권한이 있는지 확인하고, 해당 액세스 권한이 시간에 따라 변경되는지 확인할 수 있습니다.
 
-자세한 내용은 Azure AD(Azure Active Directory)에 대한 ID [거버넌스 개요를 참조하세요.](/azure/active-directory/governance/identity-governance-overview)
+자세한 내용은 Azure [AD(Azure AD)의 ID 거버넌스 개요를 Azure Active Directory 참조하세요.](/azure/active-directory/governance/identity-governance-overview)
 
 ## <a name="set-up-azure-ad-access-reviews"></a>Azure AD 액세스 검토 설정
 
@@ -59,6 +59,6 @@ Wiht Azure AD 권리 부여 관리를 사용하면 액세스 요청 워크플로
 
 직원은 작업을 수행하기 위해 다양한 그룹, 응용 프로그램 및 사이트에 액세스해야 합니다. 요구 사항이 변경되거나, 새 응용 프로그램이 추가되거나, 사용자에게 추가 액세스 권한이 필요하기 때문에 이 액세스를 관리하는 것은 어려울 수 있습니다. 다른 조직과 공동 작업할 때 다른 조직의 사용자가 조직의 리소스에 액세스해야 하는지 알 수 없는 경우, 외부 사용자는 조직에서 사용하는 응용 프로그램, 그룹 또는 사이트를 알 수 없습니다.
 
-Azure AD 권리 부여 관리를 사용하면 내부 및 외부 사용자를 위해 그룹, 응용 프로그램 및 SharePoint 사이트에 대한 액세스를 보다 효율적으로 관리할 수 있습니다.
+Azure AD 권리 부여 관리를 사용하면 내부 및 외부 사용자를 위한 그룹, 응용 프로그램 및 SharePoint 액세스 권한을 보다 효율적으로 관리할 수 있습니다.
  
 자세한 내용은 Azure AD 권리 관리 [개요를 참조하세요.](/azure/active-directory/governance/entitlement-management-overview)

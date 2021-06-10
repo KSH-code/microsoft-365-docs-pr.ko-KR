@@ -1,5 +1,5 @@
 ---
-title: 게스트 및 외부 사용자 B2B 액세스를 허용하기 위한 ID 및 장치 액세스 정책 - 엔터프라이즈용 Microsoft 365 | Microsoft Docs
+title: 게스트 및 외부 사용자 B2B 액세스를 허용하기 위한 ID 및 장치 액세스 정책 - 엔터프라이즈 Microsoft 365 대한 | Microsoft Docs
 description: 게스트 및 외부 사용자의 액세스를 보호하기 위한 권장 조건부 액세스 및 관련 정책에 대해 설명
 ms.prod: m365-security
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "51615498"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>게스트 액세스 및 B2B 외부 사용자 액세스를 허용하기 위한 정책
 
-이 문서에서는 Azure AD(Azure Active Directory) B2B(Business-to-Business) 계정이 있는 게스트 및 외부 사용자에 대한 액세스를 허용하도록 권장되는 장치 및 ID 액세스 정책을 조정하는 데 대해 설명합니다. 이 지침은 공통 ID 및 장치 액세스 [정책 을 빌드합니다.](identity-access-policies.md)
+이 문서에서는 Azure AD(Azure AD) B2B(Business-to-Business) 계정이 있는 게스트 및 외부 사용자에 대한 액세스를 Azure Active Directory 권장 장치 및 ID 액세스 정책을 조정하는 데 대해 설명합니다. 이 지침은 공통 ID 및 장치 액세스 [정책 을 빌드합니다.](identity-access-policies.md)
 
 이러한 권장 사항은 기준 보호 **계층에** 적용하도록 디자인됩니다. 그러나 민감하고 높은 규제 대상 보호에 대한 특정 요구 사항에 따라 **권장** 사항을 **조정할 수도** 있습니다.
 
@@ -54,9 +54,9 @@ B2B 계정이 Azure AD 테넌트에 인증하는 경로를 제공해도 이러�
 
 ## <a name="more-information"></a>추가 정보
 
-### <a name="guests-and-external-user-access-with-microsoft-teams"></a>Microsoft Teams를 통해 게스트 및 외부 사용자 액세스
+### <a name="guests-and-external-user-access-with-microsoft-teams"></a>게스트 및 외부 사용자와의 Microsoft Teams
 
-Microsoft Teams는 다음 사용자를 정의합니다.
+Microsoft Teams 다음 사용자를 정의합니다.
 
 - **게스트 액세스는** 팀의 구성원으로 추가하고 팀의 커뮤니케이션 및 리소스에 액세스할 수 있는 Azure AD B2B 계정을 사용합니다.
 
@@ -64,7 +64,7 @@ Microsoft Teams는 다음 사용자를 정의합니다.
 
 자세한 내용은 게스트와 팀의 외부 사용자 액세스 간 [비교를 참조하세요.](/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)
 
-Teams의 ID 및 장치 액세스 정책 보안에 대한 자세한 내용은 Teams 채팅, 그룹 및 파일 보안에 대한 정책 권장 사항을 [참조하세요.](teams-access-policies.md)
+사용자에 대한 ID 및 장치 액세스 정책 보호에 대한 자세한 내용은 Teams, 그룹 및 파일 보호를 위한 정책 Teams 권장 [사항을 참조하세요.](teams-access-policies.md)
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>게스트 및 외부 사용자에 대해 MFA가 항상 필요
 
@@ -82,7 +82,7 @@ Teams의 ID 및 장치 액세스 정책 보안에 대한 자세한 내용은 Tea
 
 ## <a name="next-step"></a>다음 단계
 
-![4단계: Microsoft 365 클라우드 앱 및 Microsoft Cloud App Security에 대한 정책](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![4단계: 클라우드 Microsoft 365 및 앱에 대한 Microsoft Cloud App Security](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 조건부 액세스 정책 구성:
 

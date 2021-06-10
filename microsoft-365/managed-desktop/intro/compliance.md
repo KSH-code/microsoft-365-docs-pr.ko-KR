@@ -1,6 +1,6 @@
 ---
 title: 규정 준수
-description: 이 문서에는 Microsoft Managed Desktop과 관련된 규정 준수 표준이 나열됩니다.
+description: 이 문서에는 정책과 관련된 규정 Microsoft Managed Desktop.
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -18,11 +18,11 @@ ms.locfileid: "50918433"
 ---
 # <a name="compliance"></a>규정 준수
 
-Microsoft Managed Desktop을 사용하는 경우 Microsoft는 포괄적인 규정 준수 제품 집합을 제공합니다. 이러한 노력은 조직이 다양한 규정 준수 요구 사항을 준수하는 데 도움이 됩니다.
+Microsoft는 사용자 Microsoft Managed Desktop 포괄적인 규정 준수 제품 집합을 제공합니다. 이러한 노력은 조직이 다양한 규정 준수 요구 사항을 준수하는 데 도움이 됩니다.
 
 ## <a name="compliance-coverage"></a>규정 준수 범위
 
-Microsoft Managed Desktop은 다음과 같은 인증을 획득했습니다.
+Microsoft Managed Desktop 인증을 획득했습니다.
 
 - [ISO 27001 ISMS(정보 보안 관리 표준)](/compliance/regulatory/offering-ISO-27001)
 - [ISO 27701 PIMS(개인 정보 관리 시스템)](/compliance/regulatory/offering-iso-27701)
@@ -42,10 +42,10 @@ Microsoft Managed Desktop은 다음과 같은 인증을 획득했습니다.
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>감사자 보고서 및 준수 인증서
 
-제어 및 기술 요구 사항을 비롯한 관련 정보는 Microsoft 클라우드 서비스 서비스에 대한 중앙 저장소인 [STP(Service Trust](https://servicetrust.microsoft.com/)Portal)에서 찾을 수 있습니다. STP의 감사 보고서 섹션에서 감사 보고서, [](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) 준수 인증서를 다운로드할 수 있습니다.
+제어 및 기술 요구 사항을 비롯한 관련 정보는 서비스 신뢰 [포털(STP)의](https://servicetrust.microsoft.com/)중앙 리포지토리에서 Microsoft Cloud Service 있습니다. STP의 감사 보고서 섹션에서 감사 보고서, [](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) 준수 인증서를 다운로드할 수 있습니다.
 
 > [!NOTE]
-> Microsoft Managed Desktop은 Azure에서 실행되고 있기 때문에 관련 문서에는 일반적으로 "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스"과 같은 파일 이름이 있습니다. 이러한 문서에서 일반적으로 "Microsoft Online Services" 또는 "모니터링 + 관리" 범주에서 Microsoft Managed Desktop을 찾을 수 있습니다.
+> Azure에서 Microsoft Managed Desktop 때문에 관련 문서에는 일반적으로 "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스"과 같은 파일 이름이 있습니다. 이러한 문서에서는 일반적으로 "Microsoft Managed Desktop" 또는 "모니터링 + 관리" Microsoft Online Services 찾을 수 있습니다.
 
 ## <a name="shared-responsibility"></a>공유 책임
 

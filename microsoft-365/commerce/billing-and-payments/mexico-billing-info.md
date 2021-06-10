@@ -1,5 +1,5 @@
 ---
-title: 멕시코의 비즈니스용 Microsoft 365에 대한 청구 정보
+title: 멕시코의 비즈니스용 Microsoft 365 대금 청구 정보
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,7 +14,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 search.appverid: MET150
-description: 멕시코의 비즈니스용 Microsoft 365에 대한 정보에 대해 자세히 알아보습니다.
+description: 특히 멕시코의 비즈니스용 Microsoft 365 정보를 자세히 알아보는 방법을 배워야 합니다.
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
@@ -27,16 +27,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/12/2021
 ms.locfileid: "52331997"
 ---
-# <a name="billing-information-for-microsoft-365-for-business-in-mexico"></a>멕시코의 비즈니스용 Microsoft 365에 대한 청구 정보
+# <a name="billing-information-for-microsoft-365-for-business-in-mexico"></a>멕시코의 비즈니스용 Microsoft 365 대금 청구 정보
 
-## <a name="1-where-can-i-get-an-invoice-for-my-microsoft-365-for-business-purchase"></a>1. 비즈니스용 Microsoft 365 구매에 대한 송장은 어디에서 얻을 수 있나요?
+## <a name="1-where-can-i-get-an-invoice-for-my-microsoft-365-for-business-purchase"></a>1. 비즈니스용 내 송장은 어디에서 Microsoft 365 수 있나요?
 
-송장은 구매가 확인된 후 24시간 후에 등록된 청구 알림 전자 메일 주소로 전송됩니다. Microsoft 365 관리 센터에서 송장을 다운로드하려면 청구 청구서 &  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">페이지로</a> 이동합니다.
+송장은 구매가 확인된 후 24시간 후에 등록된 청구 알림 전자 메일 주소로 전송됩니다. Microsoft 365 관리 센터에서 송장을 다운로드하려면 청구 청구서 &  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">페이지로 이동합니다.</a>
 
 > [!IMPORTANT]
 > 송장에 RFC를 포함하려면 구매 확인 전에 추가해야 합니다.
 
-## <a name="2-how-can-i-add-my-rfc-registro-federal-de-contribuyentes-to-the-invoice-i-get-for-the-purchase-of-microsoft-365-for-business"></a>2. 비즈니스용 Microsoft 365 구매를 위해 내 RFC(Registro Federal de Contribuyentes)를 송장에 추가하는 방법
+## <a name="2-how-can-i-add-my-rfc-registro-federal-de-contribuyentes-to-the-invoice-i-get-for-the-purchase-of-microsoft-365-for-business"></a>2. 비즈니스용 MICROSOFT 365 구입하기 위해 내 RFC(Registro Federal de Contribuyentes)를 송장에 추가하는 방법
 
 ### <a name="during-the-purchase-process-checkout"></a>구매 프로세스 중(체크 아웃)
 
@@ -44,14 +44,14 @@ ms.locfileid: "52331997"
 
 ### <a name="for-your-future-purchases"></a>향후 구매
 
-향후 비즈니스용 Microsoft 365 구매 시 정보가 반영될 수 있도록 RFC를 추가하거나 수정할 수 있습니다. RFC를 추가하거나 수정하려면 청구 청구 계정  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">페이지로 이동합니다.</a>
+RFC를 추가하거나 수정하여 향후 비즈니스 구매를 위해 정보가 Microsoft 365 수 있습니다. RFC를 추가하거나 수정하려면 청구 청구 계정  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">페이지로 이동합니다.</a>
 
 > [!NOTE]
 > 월간 또는 연 1회 재발 청구 구독에 있는 경우 RFC의 추가 또는 수정이 다음 청구의 송장에 반영됩니다.
 
 ## <a name="3-can-i-add-or-modify-my-rfc-to-an-invoice-that-was-already-generated"></a>3. 이미 생성된 송장에 RFC를 추가하거나 수정할 수 있나요?
 
-구매하기 전에 RFC를 추가하거나 수정하는 것이 중요합니다. 비즈니스용 Microsoft 365 송장을 생성한 후 RFC 정보를 추가하거나 수정할 수 없습니다.
+구매하기 전에 RFC를 추가하거나 수정하는 것이 중요합니다. 비즈니스용 Microsoft 365 생성한 후 RFC 정보를 추가하거나 수정할 수 없습니다.
 
 ## <a name="4-why-dont-i-get-a-cfdi-comprobante-fiscal-digital-por-internet"></a>4. CFDI(Comprobante Fiscal Digital por Internet)가 없는 이유는 무엇입니까?
 
@@ -64,4 +64,4 @@ ms.locfileid: "52331997"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)(문서)\
-[비즈니스용 Microsoft 365의](understand-your-invoice2.md) 청구서 또는 송장 이해(문서)
+[비즈니스용 청구서 또는](understand-your-invoice2.md) 송장 Microsoft 365 이해(문서)

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender 보안 센터 설정 구성
+title: 구성 Microsoft Defender 보안 센터 구성
 description: 설정 페이지를 사용하여 일반 설정, 사용 권한, api 및 규칙을 구성합니다.
 keywords: 설정, 일반 설정, 사용 권한, api, 규칙
 search.product: eADQiWindows 10XVcnh
@@ -23,17 +23,17 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/07/2021
 ms.locfileid: "51604348"
 ---
-# <a name="configure-microsoft-defender-security-center-settings"></a>Microsoft Defender 보안 센터 설정 구성
+# <a name="configure-microsoft-defender-security-center-settings"></a>구성 Microsoft Defender 보안 센터 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-prefsettings-abovefoldlink)
 
-설정 **메뉴를** 사용하여 일반 설정, 고급 기능을 수정하고 미리 보기 환경, 전자 메일 알림 및 사용자 지정 위협 인텔리전스 기능을 사용하도록 설정할 수 있습니다.
+설정 메뉴를 사용하여 일반 설정, **고급** 기능을 수정하고 미리 보기 환경, 전자 메일 알림 및 사용자 지정 위협 인텔리전스 기능을 사용하도록 설정할 수 있습니다.
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 

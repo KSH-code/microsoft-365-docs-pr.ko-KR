@@ -17,7 +17,7 @@ search.appverid:
 ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서의 PowerShell 스크립트를 사용하여 Office 365 또는 Microsoft 365의 준수 센터에서 기존 콘텐츠 검색을 빠르게 복제할 수 있습니다.
+description: 이 문서의 PowerShell 스크립트를 사용하여 규정 준수 센터의 기존 콘텐츠 검색을 Office 365 Microsoft 365.
 ms.openlocfilehash: c64cec2415819dc53f30c303c241e3902f34017d
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "50918064"
 ---
 # <a name="clone-a-content-search"></a>콘텐츠 검색 복제
 
-Office 365 또는 Microsoft 365의 준수 센터에서 많은 사서함 또는 SharePoint 및 비즈니스용 OneDrive 사이트를 검색하는 콘텐츠 검색을 만드는 데 시간이 걸릴 수 있습니다. URL을 잘못 입력한 경우 검색할 사이트를 지정하면 오류가 발생할 수 있습니다. 이러한 문제를 방지하기 위해 이 문서의 Windows PowerShell 스크립트를 사용하여 기존 콘텐츠 검색을 빠르게 복제할 수 있습니다. 검색을 복제하면 원래 검색과 동일한 속성(예: 콘텐츠 위치 및 검색 쿼리)이 포함된 새 검색이 만들어집니다. 그런 다음 키워드 쿼리 또는 날짜 범위를 변경하여 새 검색을 편집하고 실행할 수 있습니다.
+많은 사서함 또는 Office 365 및 Microsoft 365 검색하는 Office 365 또는 SharePoint 비즈니스용 OneDrive 센터에서 콘텐츠 검색을 만드는 데 시간이 걸릴 수 있습니다. URL을 잘못 입력한 경우 검색할 사이트를 지정하면 오류가 발생할 수 있습니다. 이러한 문제를 방지하기 위해 이 문서의 Windows PowerShell 스크립트를 사용하여 기존 콘텐츠 검색을 빠르게 복제할 수 있습니다. 검색을 복제하면 원래 검색과 동일한 속성(예: 콘텐츠 위치 및 검색 쿼리)이 포함된 새 검색이 만들어집니다. 그런 다음 키워드 쿼리 또는 날짜 범위를 변경하여 새 검색을 편집하고 실행할 수 있습니다.
   
 콘텐츠 검색을 복제하는 이유
   
@@ -61,7 +61,7 @@ Office 365 또는 Microsoft 365의 준수 센터에서 많은 사서함 또는 S
     
 검색을 복제하는 경우:
   
-1. 파일 이름 접미사 .ps1을 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장합니다. 예를 들면 `CloneSearch.ps1` 입니다.
+1. 파일 이름 접미사로 Windows PowerShell 스크립트 파일에 다음 텍스트를 .ps1. 예를 들면 `CloneSearch.ps1` 입니다.
     
   ```powershell
   # This PowerShell script clones an existing content search in the Security &amp; Compliance Center.

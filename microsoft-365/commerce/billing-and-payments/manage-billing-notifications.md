@@ -43,7 +43,7 @@ ms.locfileid: "52332141"
 
 청구 알림 전자 메일은 조직의 기본 설정 언어로 전송됩니다. 기본 언어를 변경하기 위해 다음 단계를 수행합니다.
 
-1. Microsoft 365 관리 센터에서 청구 청구 알림  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">페이지로</a> 이동합니다.
+1. Microsoft 365 관리 센터에서 청구 청구 알림   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">페이지로</a> 이동합니다.
 2. 청구 **알림 설정 섹션에서** 알림 설정 **편집을 선택합니다.**
 3. 청구 **알림 설정** 창의 기본  설정에서 사용할 언어를 선택한 다음 저장을 **선택합니다.**
 
@@ -103,7 +103,7 @@ To stop receiving the invoice attachment at any time, follow the steps above and
 
 청구 프로필이 있는 경우 이 문서에 설명된 일부 단계는 일부 구독과 약간 다를 수 있습니다. 이 섹션에서는 이러한 차이점에 대해 설명합니다. [청구 프로필이 있는 경우 어떻게 알 수 있나요?](manage-billing-profiles.md)
 
-### <a name="who-receives-billing-notifications"></a>청구 알림을 받는 사람
+### <a name="who-receives-billing-notifications"></a>Who 알림을 받을 수 있나요?
 
 청구 알림 전자 메일은 다음 역할 중 하나에 할당된 사용자의 기본 및 대체 전자 메일 주소로 전송됩니다.
 
@@ -130,5 +130,5 @@ To stop receiving the invoice attachment at any time, follow the steps above and
 ## <a name="related-content"></a>관련 콘텐츠
 
 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)(문서)\
-[비즈니스용 Microsoft 365의](understand-your-invoice2.md) 청구서 또는 송장 이해(문서)\
+[비즈니스용 Microsoft 365 청구서](understand-your-invoice2.md) 또는 송장 이해(문서)\
 [사용자 추가 및](../../admin/add-users/add-users.md) 동시에 라이선스 할당(문서)

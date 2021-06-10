@@ -1,5 +1,5 @@
 ---
-title: Advanced eDiscovery에서 지원되는 파일 형식
+title: 지원되는 Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,7 +14,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Advanced eDiscovery의 OCR 기능에서 지원하는 이미지 파일 형식을 포함하여 Microsoft 365 Advanced eDiscovery에서 지원되는 파일 형식 목록입니다.
+description: OCR 기능에서 지원하는 이미지 파일 형식을 Microsoft 365 Advanced eDiscovery 파일 형식을 포함하여 Advanced eDiscovery.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 719a0474d45825114cf4ea3fbd19082bb8df7622
 ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
@@ -23,9 +23,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51599833"
 ---
-# <a name="supported-file-types-in-advanced-ediscovery"></a>Advanced eDiscovery에서 지원되는 파일 형식
+# <a name="supported-file-types-in-advanced-ediscovery"></a>지원되는 Advanced eDiscovery
 
-Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합니다. 지원 파일 형식에 대한 설명은 이 문서의 다음 표에 설명되어 있습니다. 이 목록은 마무리되지 않은 것으로, 유효성 검사 테스트를 계속할 때 새 파일 형식을 추가할 것입니다. 다음 표는 기본 뷰어에서 볼 수 있는 텍스트 추출(및 이미지 파일에 대한 광학 문자 인식 또는 OCR 텍스트 추출)에 대해 파일 형식이 지원되는지와 Advanced eDiscovery의 주석 뷰어에서 지원되는지 나타냅니다.
+Advanced eDiscovery 다양한 수준에서 많은 파일 형식을 지원할 수 있습니다. 지원 파일 형식에 대한 설명은 이 문서의 다음 표에 설명되어 있습니다. 이 목록은 마무리되지 않은 것으로, 유효성 검사 테스트를 계속할 때 새 파일 형식을 추가할 것입니다. 다음 표는 기본 뷰어에서 볼 수 있는 텍스트 추출(및 이미지 파일에 대한 광학 문자 인식 또는 OCR 텍스트 추출)에 대해 파일 형식이 지원되는지와 파일 형식의 Annotate 뷰어에서 지원할지 Advanced eDiscovery.
 
 ## <a name="archive--container"></a>보관/컨테이너
 

@@ -102,7 +102,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 :::image type="content" source="../../media/default-theme-colors.png" alt-text="Screenshot: Colors tab showing default theme colors for your organization":::
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="my-organization-already-has-a-theme-for-all-employees-how-will-this-change"></a>조직에 이미 모든 직원에 대한 테마가 있습니다. 이 변경은 어떻게 될까요?
 

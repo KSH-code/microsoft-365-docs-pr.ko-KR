@@ -31,14 +31,14 @@ Microsoft 준수 관리자는 유럽 연합 [GDPR(일반](/compliance/regulatory
 이 문서에서는 데이터 개인 정보 보호를 위해 이 도구를 사용하는 방법에 대한 지침을 제공합니다.
 
 >[!Note]
->준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다. 규제 환경당 고객 제어의 효율성을 평가하고 유효성을 검사하는 것은 귀하의 의 의의입니다. 이러한 서비스는 온라인 서비스 약관의 사용 [약관을 따라야 합니다.](https://go.microsoft.com/fwlink/?linkid=2108910) 보안 및 규정 준수에 대한 [Microsoft 365 라이선싱 지침도 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
+>준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다. 규제 환경당 고객 제어의 효율성을 평가하고 유효성을 검사하는 것은 귀하의 의 의의입니다. 이러한 서비스는 온라인 서비스 약관의 사용 [약관을 따라야 합니다.](https://go.microsoft.com/fwlink/?linkid=2108910) 보안 및 Microsoft 365 대한 [라이선스 지침도 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 >
 
 ## <a name="getting-started-with-compliance-manager"></a>준수 관리자 시작
 
 #### <a name="what-is-compliance-manager"></a>준수 관리자
 
-[준수 관리자는](../compliance/compliance-manager.md) Microsoft 클라우드 서비스와 관련된 규정 준수 활동을 관리하기 위한 Microsoft 365 규정 준수 센터의 워크플로 기반 위험 평가 도구입니다. 준수 관리자는 Microsoft 365 또는 Azure AD(Azure Active Directory) 구독의 일부로 Microsoft 클라우드 서비스에 대한 공유 책임 모델 내에서 규정 준수를 관리할 수 있도록 도움을 제공합니다.
+[준수 관리자는](../compliance/compliance-manager.md) Microsoft 클라우드 서비스와 관련된 규정 준수 활동을 관리하기 위한 Microsoft 365 규정 준수 센터의 워크플로 기반 위험 평가 도구입니다. Azure AD(Microsoft 365 또는 Azure Active Directory) 구독의 일부로 준수 관리자는 Microsoft 클라우드 서비스에 대한 공유 책임 모델 내에서 규정 준수를 관리하는 데 도움이 됩니다.
 
 **평가 사용 준비**
 
@@ -66,7 +66,7 @@ Microsoft 준수 관리자는 유럽 연합 [GDPR(일반](/compliance/regulatory
     - 평가의 컨트롤을 완료하기 위해 개선 작업에 대한 구현 및 테스트 작업 수행
     - 다양한 작업이 준수 점수에 미치는 영향 이해
 - [확장: 고급 기능을 사용하여 사용자 지정 요구 사항 충족](../compliance/compliance-manager-quickstart.md#scaling-up-use-advanced-functionality-to-meet-your-custom-needs)
-    - 비 Microsoft 365 제품을 추적하기 위한 사용자 지정 평가 만들기
+    - 비영리 제품을 추적하기 위한 사용자 지정 Microsoft 365 만들기
     - 기존 템플릿을 수정하여 컨트롤 추가 또는 제거
     - 개선 작업의 자동화된 테스트 설정
 

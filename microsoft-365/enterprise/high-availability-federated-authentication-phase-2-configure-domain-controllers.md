@@ -13,7 +13,7 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 6b0eff4c-2c5e-4581-8393-a36f7b36a72f
-description: '요약: Microsoft Azure에서 Microsoft 365에 대한 고가용성 페더전 인증을 위한 도메인 컨트롤러 및 디렉터리 동기화 서버를 구성합니다.'
+description: '요약: 도메인 컨트롤러 및 디렉터리 동기화 서버를 구성하여 2016년 8월 1일부로의 고가용성 Microsoft 365 Microsoft Azure.'
 ms.openlocfilehash: 751d332ce5f5606fe5f833182f002a1f4b6f29ad
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -23,12 +23,12 @@ ms.locfileid: "50909813"
 ---
 # <a name="high-availability-federated-authentication-phase-2-configure-domain-controllers"></a>고가용성 페더레이션 인증 2단계: 도메인 컨트롤러 구성
 
-Azure 인프라 서비스에서 Microsoft 365 페더링 인증에 대한 고가용성을 배포하는 이 단계에서는 Azure Virtual Network에서 도메인 컨트롤러 두 개와 디렉터리 동기화 서버를 구성합니다. 그런 다음 사이트 대 사이트 VPN 연결을 통해 해당 인증 트래픽을 사내 네트워크에 보내는 대신 Azure Virtual Network에서 인증을 위한 클라이언트 웹 요청을 인증할 수 있습니다.
+Azure 인프라 서비스에서 Microsoft 365 페더링 인증에 대한 고가용성을 배포하는 이 단계에서는 Azure Virtual Network에서 두 개의 도메인 컨트롤러와 디렉터리 동기화 서버를 구성합니다. 그런 다음 사이트 대 사이트 VPN 연결을 통해 해당 인증 트래픽을 사내 네트워크에 보내는 대신 Azure Virtual Network에서 인증을 위한 클라이언트 웹 요청을 인증할 수 있습니다.
   
 > [!NOTE]
-> AD FS(Active Directory Federation Services)는 AD DS(Active Directory 도메인 서비스) 도메인 컨트롤러 대신 Azure AD(Active Directory)를 사용할 수 없습니다. 
+> AD FS(Active Directory Federation Services)는 ad Azure Active Directory(Active Directory 도메인 서비스) 도메인 컨트롤러 대신 Azure AD(Active Directory Federation Services)를 사용할 수 없습니다. 
   
-Phase [3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md)로 이동하기 전에 이 단계를 완료해야 합니다. 모든 [단계는 Azure에서 Microsoft 365에](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 대한 고가용성 페더타 인증 배포를 참조하세요.
+Phase [3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md)로 이동하기 전에 이 단계를 완료해야 합니다. 모든 [단계는 Azure에서](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 고가용성 Microsoft 365 인증 배포를 참조하세요.
   
 ## <a name="create-the-domain-controller-virtual-machines-in-azure"></a>Azure에서 도메인 컨트롤러 가상 컴퓨터 만들기
 
@@ -44,7 +44,7 @@ Phase [3: Configure AD FS servers](high-availability-federated-authentication-ph
 |6.  <br/> |![라인](../media/Common-Images/TableLine.png) (첫 번째 웹 응용 프로그램 프록시 서버, 예: WEB1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
 |7.  <br/> |![라인](../media/Common-Images/TableLine.png) (두 번째 웹 응용 프로그램 프록시 서버, 예: WEB2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
    
- **테이블 M - Azure의 Microsoft 365에 대한 고가용성 페더전 인증용 가상 컴퓨터**
+ **테이블 M - Azure의 사용자에 대한 고가용성 페더 Microsoft 365 대한 가상 컴퓨터**
   
 가상 컴퓨터 크기의 전체 목록은 [가상 컴퓨터 크기](/azure/virtual-machines/virtual-machines-windows-sizes)를 참조하세요.
   
@@ -65,12 +65,12 @@ Phase [3: Configure AD FS servers](high-availability-federated-authentication-ph
 Phase 1: Configure Azure에서 테이블 R, V, S, I 및 A를 [정의했다는 점에 유의하세요.](high-availability-federated-authentication-phase-1-configure-azure.md)
   
 > [!NOTE]
-> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell 시작을 참조하세요.](/powershell/azure/get-started-azureps) 
+> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. 에서 [시작을 Azure PowerShell.](/powershell/azure/get-started-azureps) 
   
 올바른 값을 모두 제공하면 Azure PowerShell 프롬프트나 로컬 컴퓨터의 PowerShell ISE(통합 스크립트 환경)에서 결과 블록을 실행합니다.
   
 > [!TIP]
-> 사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 Microsoft Excel 구성 통합 문서 [를 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> 사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 구성 통합 [Microsoft Excel 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up variables common to both virtual machines
@@ -219,7 +219,7 @@ Restart-AzVM -ResourceGroupName $adrgName -Name $secondDCName
 
 이제 온-프레미스 DNS 서버가 DNS 서버로 구성되지 않도록 두 도메인 컨트롤러를 다시 시작합니다. 모두 DNS 서버이므로 도메인 컨트롤러로 수준을 올리면 온-프레미스 DNS 서버가 DNS 전달자로 자동 구성됩니다.
   
-다음으로 Azure Virtual Network의 서버가 로컬 도메인 컨트롤러를 사용하도록 Active Directory 복제 사이트를 만들어야 합니다. 도메인 관리자 계정을 사용하여 도메인 컨트롤러에 연결하고 관리자 수준 관리자 권한 프롬프트에서 Windows PowerShell 실행합니다.
+다음으로 Azure Virtual Network의 서버가 로컬 도메인 컨트롤러를 사용하도록 Active Directory 복제 사이트를 만들어야 합니다. 커넥트 계정이 있는 도메인 컨트롤러로 연결하고 관리자 수준 관리자 권한 프롬프트에서 다음 명령을 Windows PowerShell 실행합니다.
   
 ```powershell
 $vnet="<Table V - Item 1 - Value column>"
@@ -232,7 +232,7 @@ New-ADReplicationSubnet -Name $vnetSpace -Site $vnet
 
 선택한 원격 데스크톱 클라이언트를 사용하여 디렉터리 동기화 서버 가상 머신에 대한 원격 데스크톱 연결을 만들 수 있습니다. 인트라넷 DNS나 컴퓨터 이름 및 로컬 관리자 계정의 자격 증명을 사용합니다.
   
-그런 다음 메시지의 다음 명령을 사용하여 적절한 AD DS 도메인에 Windows PowerShell 합니다.
+그런 다음 프롬프트에서 다음 명령을 사용하여 적절한 AD DS 도메인에 Windows PowerShell 합니다.
   
 ```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
@@ -245,7 +245,7 @@ Restart-Computer
   
 **2단계: Azure의 고가용성 페더전 인증 인프라에 대한 도메인 컨트롤러 및 디렉터리 동기화 서버**
 
-![도메인 컨트롤러를 사용하는 Azure의 고가용성 Microsoft 365 페더전 인증 인프라 2단계](../media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
+![도메인 컨트롤러를 사용하는 Azure의 Microsoft 365 인증 인프라의 고가용성 2단계](../media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
   
 ## <a name="next-step"></a>다음 단계
 
@@ -255,6 +255,6 @@ Restart-Computer
 
 [Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Microsoft 365 개발/테스트 환경에 대한 페더러티드 ID](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Microsoft 365/테스트 환경에 대한 페더티드 ID](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 [Microsoft 365 솔루션 및 아키텍처 센터](../solutions/index.yml)
