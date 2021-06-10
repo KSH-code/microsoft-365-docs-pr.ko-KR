@@ -27,17 +27,17 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51580645"
 ---
-# <a name="create-a-website"></a><span data-ttu-id="029db-103">웹 사이트 만들기</span><span class="sxs-lookup"><span data-stu-id="029db-103">Create a website</span></span>
+# <a name="create-a-website"></a><span data-ttu-id="d1cf7-103">웹 사이트 만들기</span><span class="sxs-lookup"><span data-stu-id="d1cf7-103">Create a website</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/4839abc6-9323-4cbf-a79d-2907235f9ebb?autoplay=false]
 
-## <a name="try-it"></a><span data-ttu-id="029db-104">사용해 보세요!</span><span class="sxs-lookup"><span data-stu-id="029db-104">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="d1cf7-104">사용해 보세요!</span><span class="sxs-lookup"><span data-stu-id="d1cf7-104">Try it!</span></span>
 
-<span data-ttu-id="029db-105">Microsoft 365에는 비즈니스용 공개 웹 사이트가 포함되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="029db-105">Microsoft 365 does not include a public website for your business.</span></span> <span data-ttu-id="029db-106">하나를 설정하기 위해 GoDaddy, Wix 또는 WordPress와 같은 웹 호스팅 회사를 사용하는 것이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="029db-106">To set one up, consider using a web hosting company like GoDaddy, Wix, or WordPress.</span></span>
+<span data-ttu-id="d1cf7-105">Microsoft 365 비즈니스에 대한 공개 웹 사이트가 포함되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d1cf7-105">Microsoft 365 does not include a public website for your business.</span></span> <span data-ttu-id="d1cf7-106">하나를 설정하기 위해 GoDaddy, Wix 또는 WordPress와 같은 웹 호스팅 회사를 사용하는 것이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d1cf7-106">To set one up, consider using a web hosting company like GoDaddy, Wix, or WordPress.</span></span>
 
-1. <span data-ttu-id="029db-107">웹 사이트를 빌드할 수 있는 웹 호스팅 공급자를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="029db-107">Search for a web hosting provider where you can build your website.</span></span>
+1. <span data-ttu-id="d1cf7-107">웹 사이트를 빌드할 수 있는 웹 호스팅 공급자를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="d1cf7-107">Search for a web hosting provider where you can build your website.</span></span>
 
-     <span data-ttu-id="029db-108">도메인 이름이 등록된 동일한 회사에서 웹 사이트 작성기 선택이 가장 쉬울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="029db-108">You may find it easiest to choose the website builder at the same company where your domain name is registered.</span></span>
-1. <span data-ttu-id="029db-109">비즈니스 로고, 비즈니스 목적, 텍스트, 이미지 및 링크를 포함해야 하는 비즈니스 웹 사이트를 디자인합니다.</span><span class="sxs-lookup"><span data-stu-id="029db-109">Design your business website, making sure to include your business logo, business purpose, text, images, and links.</span></span>
-1. <span data-ttu-id="029db-110">웹 사이트를 Microsoft 365와 통합하려면 비즈니스 전자 메일을 웹 사이트에 추가하고 Microsoft Teams, SharePoint 또는 기타 공동 작업 도구에 대한 링크를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="029db-110">To integrate the website with Microsoft 365, you can add your business email to the website and a link to Microsoft Teams, SharePoint, or other collaboration tool.</span></span>
-1. <span data-ttu-id="029db-111">Microsoft 365에서 전자 메일에도&#39;웹 사이트를 도메인 이름에 연결해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="029db-111">Make sure to connect your website to your domain name, which you&#39;re also using for email on Microsoft 365.</span></span>
+     <span data-ttu-id="d1cf7-108">도메인 이름이 등록된 동일한 회사에서 웹 사이트 작성기 선택이 가장 쉬울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d1cf7-108">You may find it easiest to choose the website builder at the same company where your domain name is registered.</span></span>
+1. <span data-ttu-id="d1cf7-109">비즈니스 로고, 비즈니스 목적, 텍스트, 이미지 및 링크를 포함해야 하는 비즈니스 웹 사이트를 디자인합니다.</span><span class="sxs-lookup"><span data-stu-id="d1cf7-109">Design your business website, making sure to include your business logo, business purpose, text, images, and links.</span></span>
+1. <span data-ttu-id="d1cf7-110">웹 사이트를 웹 사이트와 Microsoft 365 웹 사이트에 추가하고 웹 사이트, Microsoft Teams 또는 기타 공동 작업 SharePoint 링크를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d1cf7-110">To integrate the website with Microsoft 365, you can add your business email to the website and a link to Microsoft Teams, SharePoint, or other collaboration tool.</span></span>
+1. <span data-ttu-id="d1cf7-111">웹 사이트를 도메인 이름에 연결해야 합니다.&#39;전자 메일에도 사용할 수 Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="d1cf7-111">Make sure to connect your website to your domain name, which you&#39;re also using for email on Microsoft 365.</span></span>
