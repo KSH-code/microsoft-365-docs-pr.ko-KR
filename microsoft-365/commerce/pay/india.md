@@ -20,8 +20,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52536649"
 ---
-# <a name="payment-information-for-india"></a><span data-ttu-id="dc829-103">인도의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="dc829-103">Payment information for India</span></span>
+# <a name="payment-information-for-india"></a><span data-ttu-id="6b065-103">인도의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="6b065-103">Payment information for India</span></span>
 
-<span data-ttu-id="dc829-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="dc829-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="6b065-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="6b065-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="dc829-105">송장 및 송장 송장 번호 참조에 대한 결제 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="dc829-105">Please follow payment instructions on your invoice and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="6b065-105">송장 및 송장 송장 번호 참조에 대한 결제 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="6b065-105">Please follow payment instructions on your invoice and reference invoice number(s) on your payment remittance.</span></span>

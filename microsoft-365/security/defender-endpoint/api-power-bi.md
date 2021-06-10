@@ -24,38 +24,38 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52843785"
 ---
-# <a name="create-custom-reports-using-power-bi"></a><span data-ttu-id="e2508-104">사용자 지정 보고서를 사용하여 Power BI</span><span class="sxs-lookup"><span data-stu-id="e2508-104">Create custom reports using Power BI</span></span>
+# <a name="create-custom-reports-using-power-bi"></a><span data-ttu-id="68eaf-104">사용자 지정 보고서를 사용하여 Power BI</span><span class="sxs-lookup"><span data-stu-id="68eaf-104">Create custom reports using Power BI</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="e2508-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="e2508-105">**Applies to:**</span></span>
-- [<span data-ttu-id="e2508-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="e2508-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="e2508-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="e2508-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="68eaf-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="68eaf-105">**Applies to:**</span></span>
+- [<span data-ttu-id="68eaf-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="68eaf-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="68eaf-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="68eaf-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-- <span data-ttu-id="e2508-108">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="e2508-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="e2508-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="e2508-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- <span data-ttu-id="68eaf-108">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="68eaf-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="68eaf-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="68eaf-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-<span data-ttu-id="e2508-110">이 섹션에서는 끝점 API용 Power BI 보고서 만들기를 배우게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e2508-110">In this section you will learn create a Power BI report on top of Defender for Endpoint APIs.</span></span>
+<span data-ttu-id="68eaf-110">이 섹션에서는 끝점 API용 Power BI 보고서 만들기를 배우게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="68eaf-110">In this section you will learn create a Power BI report on top of Defender for Endpoint APIs.</span></span>
 
-<span data-ttu-id="e2508-111">첫 번째 예제에서는 고급 헌팅 API에 Power BI 방법을 보여 주며, 두 번째 예제에서는 OData API에 대한 연결(예: Machine Actions 또는 Alerts)을 보여 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="e2508-111">The first example demonstrates how to connect Power BI to Advanced Hunting API and the second example demonstrates a connection to our OData APIs, such as Machine Actions or Alerts.</span></span>
+<span data-ttu-id="68eaf-111">첫 번째 예제에서는 고급 헌팅 API에 Power BI 방법을 보여 주며, 두 번째 예제에서는 OData API에 대한 연결(예: Machine Actions 또는 Alerts)을 보여 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="68eaf-111">The first example demonstrates how to connect Power BI to Advanced Hunting API and the second example demonstrates a connection to our OData APIs, such as Machine Actions or Alerts.</span></span>
 
-## <a name="connect-power-bi-to-advanced-hunting-api"></a><span data-ttu-id="e2508-112">커넥트 Power BI 헌팅 API로</span><span class="sxs-lookup"><span data-stu-id="e2508-112">Connect Power BI to Advanced Hunting API</span></span>
+## <a name="connect-power-bi-to-advanced-hunting-api"></a><span data-ttu-id="68eaf-112">커넥트 Power BI 헌팅 API로</span><span class="sxs-lookup"><span data-stu-id="68eaf-112">Connect Power BI to Advanced Hunting API</span></span>
 
-- <span data-ttu-id="e2508-113">Microsoft Power BI</span><span class="sxs-lookup"><span data-stu-id="e2508-113">Open Microsoft Power BI</span></span>
+- <span data-ttu-id="68eaf-113">Microsoft Power BI</span><span class="sxs-lookup"><span data-stu-id="68eaf-113">Open Microsoft Power BI</span></span>
 
-- <span data-ttu-id="e2508-114">데이터 **빈 쿼리**  >  **다운로드를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="e2508-114">Click **Get Data** > **Blank Query**</span></span>
+- <span data-ttu-id="68eaf-114">데이터 **빈 쿼리**  >  **다운로드를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="68eaf-114">Click **Get Data** > **Blank Query**</span></span>
 
     ![빈 쿼리 만들기 이미지](images/power-bi-create-blank-query.png)
 
-- <span data-ttu-id="e2508-116">고급 **편집기를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="e2508-116">Click **Advanced Editor**</span></span>
+- <span data-ttu-id="68eaf-116">고급 **편집기를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="68eaf-116">Click **Advanced Editor**</span></span>
 
     ![고급 편집기 열기 이미지](images/power-bi-open-advanced-editor.png)
 
-- <span data-ttu-id="e2508-118">아래를 복사하여 편집기에 붙여 넣습니다.</span><span class="sxs-lookup"><span data-stu-id="e2508-118">Copy the below and paste it in the editor:</span></span>
+- <span data-ttu-id="68eaf-118">아래를 복사하여 편집기에 붙여 넣습니다.</span><span class="sxs-lookup"><span data-stu-id="68eaf-118">Copy the below and paste it in the editor:</span></span>
 
 ```
     let 
@@ -96,31 +96,31 @@ ms.locfileid: "52843785"
 
 ```
 
-- <span data-ttu-id="e2508-119">완료를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="e2508-119">Click **Done**</span></span>
+- <span data-ttu-id="68eaf-119">완료를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="68eaf-119">Click **Done**</span></span>
 
-- <span data-ttu-id="e2508-120">자격 **증명 편집을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="e2508-120">Click **Edit Credentials**</span></span>
+- <span data-ttu-id="68eaf-120">자격 **증명 편집을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="68eaf-120">Click **Edit Credentials**</span></span>
 
     ![자격 증명 편집 이미지0](images/power-bi-edit-credentials.png)
 
-- <span data-ttu-id="e2508-122">조직 **계정 로그인**  >  **선택**</span><span class="sxs-lookup"><span data-stu-id="e2508-122">Select **Organizational account** > **Sign in**</span></span>
+- <span data-ttu-id="68eaf-122">조직 **계정 로그인**  >  **선택**</span><span class="sxs-lookup"><span data-stu-id="68eaf-122">Select **Organizational account** > **Sign in**</span></span>
 
     ![자격 증명 설정 이미지1](images/power-bi-set-credentials-organizational.png)
 
-- <span data-ttu-id="e2508-124">자격 증명을 입력하고 로그인 대기</span><span class="sxs-lookup"><span data-stu-id="e2508-124">Enter your credentials and wait to be signed in</span></span>
+- <span data-ttu-id="68eaf-124">자격 증명을 입력하고 로그인 대기</span><span class="sxs-lookup"><span data-stu-id="68eaf-124">Enter your credentials and wait to be signed in</span></span>
 
-- <span data-ttu-id="e2508-125">사용자 **커넥트**</span><span class="sxs-lookup"><span data-stu-id="e2508-125">Click **Connect**</span></span>
+- <span data-ttu-id="68eaf-125">사용자 **커넥트**</span><span class="sxs-lookup"><span data-stu-id="68eaf-125">Click **Connect**</span></span>
 
     ![자격 증명 설정 이미지2](images/power-bi-set-credentials-organizational-cont.png)
 
-- <span data-ttu-id="e2508-127">이제 쿼리 결과가 표로 표시될 것이고 그 위에 시각화 빌드를 시작할 수 있습니다!</span><span class="sxs-lookup"><span data-stu-id="e2508-127">Now the results of your query will appear as table and you can start build visualizations on top of it!</span></span>
+- <span data-ttu-id="68eaf-127">이제 쿼리 결과가 표로 표시될 것이고 그 위에 시각화 빌드를 시작할 수 있습니다!</span><span class="sxs-lookup"><span data-stu-id="68eaf-127">Now the results of your query will appear as table and you can start build visualizations on top of it!</span></span>
 
-- <span data-ttu-id="e2508-128">이 테이블을 복제하고 이름을 변경한 다음 내부에서 고급 헌팅 쿼리를 편집하여 원하는 데이터를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e2508-128">You can duplicate this table, rename it and edit the Advanced Hunting query inside to get any data you would like.</span></span>
+- <span data-ttu-id="68eaf-128">이 테이블을 복제하고 이름을 변경한 다음 내부에서 고급 헌팅 쿼리를 편집하여 원하는 데이터를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="68eaf-128">You can duplicate this table, rename it and edit the Advanced Hunting query inside to get any data you would like.</span></span>
 
-## <a name="connect-power-bi-to-odata-apis"></a><span data-ttu-id="e2508-129">커넥트 Power BI OData API에 대한 데이터</span><span class="sxs-lookup"><span data-stu-id="e2508-129">Connect Power BI to OData APIs</span></span>
+## <a name="connect-power-bi-to-odata-apis"></a><span data-ttu-id="68eaf-129">커넥트 Power BI OData API에 대한 데이터</span><span class="sxs-lookup"><span data-stu-id="68eaf-129">Connect Power BI to OData APIs</span></span>
 
-- <span data-ttu-id="e2508-130">위의 예제와 유일한 차이점은 편집기 내부의 쿼리입니다.</span><span class="sxs-lookup"><span data-stu-id="e2508-130">The only difference from the above example is the query inside the editor.</span></span> 
+- <span data-ttu-id="68eaf-130">위의 예제와 유일한 차이점은 편집기 내부의 쿼리입니다.</span><span class="sxs-lookup"><span data-stu-id="68eaf-130">The only difference from the above example is the query inside the editor.</span></span> 
 
-- <span data-ttu-id="e2508-131">아래를 복사하여 편집기에 붙여넣어 조직에서 모든 **컴퓨터** 작업을 끌어오세요.</span><span class="sxs-lookup"><span data-stu-id="e2508-131">Copy the below and paste it in the editor to pull all **Machine Actions** from your organization:</span></span>
+- <span data-ttu-id="68eaf-131">아래를 복사하여 편집기에 붙여넣어 조직에서 모든 **컴퓨터** 작업을 끌어오세요.</span><span class="sxs-lookup"><span data-stu-id="68eaf-131">Copy the below and paste it in the editor to pull all **Machine Actions** from your organization:</span></span>
 
 ```
     let
@@ -133,19 +133,19 @@ ms.locfileid: "52843785"
 
 ```
 
-- <span data-ttu-id="e2508-132">경고 및 컴퓨터 **에** 대해 동일한 작업을 할 수 **있습니다.**</span><span class="sxs-lookup"><span data-stu-id="e2508-132">You can do the same for **Alerts** and **Machines**.</span></span>
+- <span data-ttu-id="68eaf-132">경고 및 컴퓨터 **에** 대해 동일한 작업을 할 수 **있습니다.**</span><span class="sxs-lookup"><span data-stu-id="68eaf-132">You can do the same for **Alerts** and **Machines**.</span></span>
 
-- <span data-ttu-id="e2508-133">쿼리 필터에 OData 쿼리를 사용할 수 있습니다. 자세한 내용은 [OData 쿼리 사용을 참조](exposed-apis-odata-samples.md)</span><span class="sxs-lookup"><span data-stu-id="e2508-133">You also can use OData queries for queries filters, see [Using OData Queries](exposed-apis-odata-samples.md)</span></span>
-
-
-## <a name="power-bi-dashboard-samples-in-github"></a><span data-ttu-id="e2508-134">Power BI 대시보드 샘플을 GitHub</span><span class="sxs-lookup"><span data-stu-id="e2508-134">Power BI dashboard samples in GitHub</span></span>
-<span data-ttu-id="e2508-135">자세한 내용은 보고서 [서식 Power BI 참조하세요.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)</span><span class="sxs-lookup"><span data-stu-id="e2508-135">For more information see the [Power BI report templates](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI).</span></span>
-
-## <a name="sample-reports"></a><span data-ttu-id="e2508-136">예제 보고서</span><span class="sxs-lookup"><span data-stu-id="e2508-136">Sample reports</span></span>
-<span data-ttu-id="e2508-137">보고서 샘플에 대한 Microsoft Defender Power BI 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e2508-137">View the Microsoft Defender for Endpoint Power BI report samples.</span></span> <span data-ttu-id="e2508-138">자세한 내용은 코드 샘플 [찾아보기를 참조하세요.](/samples/browse/?products=mdatp)</span><span class="sxs-lookup"><span data-stu-id="e2508-138">For more information, see [Browse code samples](/samples/browse/?products=mdatp).</span></span>
+- <span data-ttu-id="68eaf-133">쿼리 필터에 OData 쿼리를 사용할 수 있습니다. 자세한 내용은 [OData 쿼리 사용을 참조](exposed-apis-odata-samples.md)</span><span class="sxs-lookup"><span data-stu-id="68eaf-133">You also can use OData queries for queries filters, see [Using OData Queries](exposed-apis-odata-samples.md)</span></span>
 
 
-## <a name="related-topic"></a><span data-ttu-id="e2508-139">관련 항목</span><span class="sxs-lookup"><span data-stu-id="e2508-139">Related topic</span></span>
-- [<span data-ttu-id="e2508-140">끝점 API용 Defender</span><span class="sxs-lookup"><span data-stu-id="e2508-140">Defender for Endpoint APIs</span></span>](apis-intro.md)
-- [<span data-ttu-id="e2508-141">고급 헌팅 API</span><span class="sxs-lookup"><span data-stu-id="e2508-141">Advanced Hunting API</span></span>](run-advanced-query-api.md)
-- [<span data-ttu-id="e2508-142">OData 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="e2508-142">Using OData Queries</span></span>](exposed-apis-odata-samples.md)
+## <a name="power-bi-dashboard-samples-in-github"></a><span data-ttu-id="68eaf-134">Power BI 대시보드 샘플을 GitHub</span><span class="sxs-lookup"><span data-stu-id="68eaf-134">Power BI dashboard samples in GitHub</span></span>
+<span data-ttu-id="68eaf-135">자세한 내용은 보고서 [서식 Power BI 참조하세요.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)</span><span class="sxs-lookup"><span data-stu-id="68eaf-135">For more information see the [Power BI report templates](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI).</span></span>
+
+## <a name="sample-reports"></a><span data-ttu-id="68eaf-136">예제 보고서</span><span class="sxs-lookup"><span data-stu-id="68eaf-136">Sample reports</span></span>
+<span data-ttu-id="68eaf-137">보고서 샘플에 대한 Microsoft Defender Power BI 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="68eaf-137">View the Microsoft Defender for Endpoint Power BI report samples.</span></span> <span data-ttu-id="68eaf-138">자세한 내용은 코드 샘플 [찾아보기를 참조하세요.](/samples/browse/?products=mdatp)</span><span class="sxs-lookup"><span data-stu-id="68eaf-138">For more information, see [Browse code samples](/samples/browse/?products=mdatp).</span></span>
+
+
+## <a name="related-topic"></a><span data-ttu-id="68eaf-139">관련 항목</span><span class="sxs-lookup"><span data-stu-id="68eaf-139">Related topic</span></span>
+- [<span data-ttu-id="68eaf-140">끝점 API용 Defender</span><span class="sxs-lookup"><span data-stu-id="68eaf-140">Defender for Endpoint APIs</span></span>](apis-intro.md)
+- [<span data-ttu-id="68eaf-141">고급 헌팅 API</span><span class="sxs-lookup"><span data-stu-id="68eaf-141">Advanced Hunting API</span></span>](run-advanced-query-api.md)
+- [<span data-ttu-id="68eaf-142">OData 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="68eaf-142">Using OData Queries</span></span>](exposed-apis-odata-samples.md)
