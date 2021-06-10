@@ -68,7 +68,7 @@ ms.locfileid: "52635537"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [공유 사서함](create-a-shared-mailbox.md) 만들기(문서)\
-[공유 사서함](configure-a-shared-mailbox.md) 구성(문서)\
-[사용자 사서함을 공유 사서함으로](convert-user-mailbox-to-shared-mailbox.md) 변환(문서)\
-[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)\
+[공유 사서함 구성](configure-a-shared-mailbox.md)(문서)\
+[사용자 사서함을 공유 사서함으로 변환](convert-user-mailbox-to-shared-mailbox.md)(문서)\
+[공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)(문서)\
 [공유 사서함 문제 해결](resolve-issues-with-shared-mailboxes.md)(문서)

@@ -32,7 +32,7 @@ ms.locfileid: "50912237"
 ---
 # <a name="create-a-communications-site"></a>통신 사이트 만들기
 
-우선 순위를 전달하고, 전략 문서를 공유하고, 예정된 이벤트를 강조 표시하는 좋은 방법은 SharePoint에서 커뮤니케이션 사이트를 사용하는 것입니다. 커뮤니케이션 사이트는 전체 비즈니스 또는 캠페인에서 광범위하게 공유하기 위한 것입니다. 내부 전략 사이트입니다.
+우선 순위를 전달하고, 전략 문서를 공유하고, 예정된 이벤트를 강조 표시하는 좋은 방법은 조직에서 커뮤니케이션 사이트를 SharePoint. 커뮤니케이션 사이트는 전체 비즈니스 또는 캠페인에서 광범위하게 공유하기 위한 것입니다. 내부 전략 사이트입니다.
 
 ## <a name="best-practices"></a>모범 사례
 
@@ -44,11 +44,11 @@ Communications 사이트에 다음 요소를 포함합니다.
 4. 모든 사람이 **다가오는** 기능을 볼 수 있도록 이벤트 웹 파트에 이벤트를 추가합니다.
 5. 이미지 갤러리 웹 파트에 사용하거나 공유할 수 있는 사진을 **추가합니다.**
 
-![캠페인에 필요한 공통 요소에 대한 공간이 있는 SharePoint 통신 페이지의 다이어그램](../media/m365-democracy-comms-site.png)
+![캠페인에 SharePoint 요소를 위한 공간이 있는 통신 페이지의 다이어그램](../media/m365-democracy-comms-site.png)
 
 ## <a name="infographic-create-a-communications-site-infographic"></a>인포그래픽: 커뮤니케이션 사이트 정보 그래픽 만들기
 
-PowerPoint 및 PDF에 대한 다음 링크를 다운로드하고 타블로이드 형식으로 인쇄할 수 있습니다(ledger 11 x 17 또는 A3).
+다음은 PowerPoint PDF에 대한 다음 링크를 다운로드하여 타블로이드 형식으로 인쇄할 수 있습니다(ledger 11 x 17 또는 A3).
 
 [![커뮤니케이션 사이트 인포그래픽 이미지](../media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
 
@@ -57,11 +57,11 @@ PowerPoint 및 PDF에 대한 다음 링크를 다운로드하고 타블로이드
 ## <a name="set-it-up"></a>설정하기
 
 1. https://Office.com에 로그인합니다.
-2. 페이지의 왼쪽 위 모서리에서 앱 시작 프로그램 아이콘을 선택한 다음 **SharePoint 타일을** 선택합니다. **SharePoint** 타일이 표시되지 않는 경우 사이트  타일을  클릭하거나 SharePoint가 표시되지 않는 경우 모두를 클릭합니다.
-3. SharePoint 홈 페이지 위쪽에서 **+** 사이트 만들기를 클릭하고 커뮤니케이션 사이트 **옵션을** 선택합니다.
+2. 페이지의 왼쪽 위 모서리에서 앱 시작 프로그램 아이콘을 선택한 다음 앱 SharePoint **선택합니다.** 앱 타일이 SharePoint 표시되지 않는 경우 사이트  타일을  클릭하고, SharePoint 표시되지 않는 경우 모두를 클릭합니다. 
+3. At the top of the SharePoint home page, click **+ Create site** and choose the Communication **site** option.
 
-커뮤니케이션 [사이트 및](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) SharePoint Online에서 커뮤니케이션 사이트를 만드는 [방법에 대해 자세히 알아보습니다.](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)
+커뮤니케이션 [사이트 및](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) 온라인 에서 커뮤니케이션 사이트를 만드는 [SharePoint 자세히 알아보습니다.](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)
 
 ## <a name="admin-settings"></a>관리자 설정
 
-**+** 사이트 만들기 링크가 없는 경우 Microsoft 365에서 셀프 서비스 사이트 만들기를 사용할 수 없는 것일 수 있습니다. 팀 사이트를 만들 경우 조직에서 Microsoft 365를 관리하는 담당자에게 문의하세요. Microsoft 365 관리자인 경우 [SharePoint Online에서](/sharepoint/manage-site-creation) 사이트 만들기 관리를 참조하여 조직에 대해 셀프 서비스 사이트 만들기를 사용하도록 설정하거나 새 SharePoint 관리 센터의 사이트 관리를 참조하여 [SharePoint](/sharepoint/manage-sites-in-new-admin-center) Online 관리 센터에서 사이트를 만들 수 있습니다.
+**+** 사이트 만들기 링크가 없는 경우 해당 사이트에서 셀프 서비스 사이트 만들기를 사용할 수 Microsoft 365. 팀 사이트를 만들 수 있도록 조직에서 사이트 관리 Microsoft 365 문의하세요. Microsoft 365 관리자인 경우 조직에 대해 셀프 서비스 사이트 만들기를 사용하도록 설정하려면 [SharePoint Online에서](/sharepoint/manage-site-creation) [](/sharepoint/manage-sites-in-new-admin-center) 사이트 만들기 관리 또는 새 SharePoint 관리 센터의 사이트 관리를 참조하여 SharePoint Online 관리 센터에서 사이트를 만들 수 있습니다.

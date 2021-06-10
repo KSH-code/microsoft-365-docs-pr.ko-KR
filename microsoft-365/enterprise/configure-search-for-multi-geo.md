@@ -12,7 +12,7 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Multi-Geo 환경에서 검색을 구성하는 방법을 학습합니다. 비즈니스용 OneDrive와 같은 일부 클라이언트만 다중 위치 환경에서 결과를 반환할 수 있습니다.
+description: Multi-Geo 환경에서 검색을 구성하는 방법을 학습합니다. 다중 위치 환경의 비즈니스용 OneDrive 클라이언트만 결과를 반환할 수 있습니다.
 ms.openlocfilehash: b3a96b1d0652cb954c58ae410583befa078460d9
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -44,7 +44,7 @@ Multi-Geo 환경이 설정되는 즉시, OneDrive에서 검색하는 사용자�
 
 Multi-Geo 환경이 설정되는 즉시, Delve에서 검색하는 사용자는 모든 지리적 위치에서 결과를 얻습니다.
 
-Delve 피드 및 프로필 카드는 중앙 위치에 저장된 파일의 미리보기만 표시합니다. 위성 위치에 저장된 파일의 경우 파일 유형 아이콘이 대신 표시됩니다.
+Delve 피드 및 프로필 카드는 중앙 위치에 저장된 파일의 미리 보기만 표시합니다. 위성 위치에 저장된 파일의 경우 대신 해당 파일 형식에 대한 아이콘이 표시됩니다.
 
 ### <a name="the-sharepoint-home-page"></a>SharePoint 홈페이지
 
@@ -131,7 +131,7 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 
 모든 검색 클라이언트는 기존 SharePoint 검색 REST API를 사용하여 검색 인덱스와 상호 작용합니다.
 
-![SharePoint 검색 REST API가 검색 인덱스와 상호 작용하는 방식을 보여주는 다이어그램](../media/configure-search-for-multi-geo-image1-1.png)
+![검색 REST SharePoint 인덱스와 상호 작용하는 방법을 보여 주는 다이어그램](../media/configure-search-for-multi-geo-image1-1.png)
 
 1. 검색 클라이언트는 쿼리 속성 EnableMultiGeoSearch가 true인 검색 REST 끝점을 호출합니다.
 2. 쿼리는 테넌트의 모든 지리적 위치로 전송됩니다.
@@ -151,7 +151,7 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 
 3. 설정할 범주를 선택하고 오른쪽 위 모서리에 있는 **설정** 톱니바퀴 아이콘을 클릭한 후 **페이지 편집** 을 클릭합니다. 검색 결과 페이지가 편집 모드에서 열립니다.
 
-   ![설정에서 페이지 선택 편집](../media/configure-search-for-multi-geo-image2.png)
+   ![목록에서 페이지 선택 설정](../media/configure-search-for-multi-geo-image2.png)
 
 4. 검색 결과 웹 파트에서 웹 파트 오른쪽 위 모서리로 포인터를 이동하고 화살표를 클릭한 후 메뉴에서 **웹 파트 편집** 을 클릭합니다. 검색 결과 웹 파트 도구 창은 페이지 오른쪽 위에 있는 리본 아래에 열립니다.
 
@@ -168,7 +168,7 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
 ## <a name="get-custom-search-applications-to-show-results-from-all-or-some-geo-locations"></a>사용자 지정 검색 응용 프로그램에서 전체 또는 일부 지리적 위치의 결과를 표시하도록 지정
 
-사용자 지정 검색 응용 프로그램은 SharePoint 검색 REST API에 대한 요청과 함께 쿼리 매개 변수를 지정하여 전체 또는 일부 지리적 위치에서 결과를 얻습니다. 쿼리 매개 변수에 따라 쿼리는 모든 지리적 위치 또는 일부 지리적 위치로 팬아웃됩니다. 예를 들어 관련 정보를 찾기 위해 지리적 위치의 하위 집합만 쿼리해야 하는 경우 이러한 위치로만 팬아웃을 제어할 수 있습니다. 요청이 성공하면 SharePoint 검색 REST API는 응답 데이터를 반환합니다.
+사용자 지정 검색 응용 프로그램은 SharePoint 검색 REST API에 대한 요청을 통해 쿼리 매개 변수를 지정하여 전체 또는 일부 지리적 위치에서 결과를 가져옵니다. 쿼리 매개 변수에 따라, 쿼리는 모든 지리적 위치 또는 일부 지리적 위치로 팬아웃됩니다. 예를 들어, 관련 정보를 찾기 위해 지리적 위치의 하위 집합만 쿼리하면 될 경우 팬아웃을 이러한 위치로만 제어할 수 있습니다. 요청이 성공하면 SharePoint 검색 REST API가 응답 데이터를 반환됩니다.
 
 ### <a name="requirement"></a>요구 사항
 

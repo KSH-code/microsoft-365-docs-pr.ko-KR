@@ -1,5 +1,5 @@
 ---
-title: 웹용 Outlook에서 계정을 사용하지 않도록 설정한 오류 발생
+title: 웹에서 계정을 사용할 수 Outlook 오류가 발생하나요?
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -24,8 +24,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50914945"
 ---
-# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>웹용 Outlook에서 계정 사용 안 하게 오류 발생
+# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>웹에서 계정 사용 안 Outlook 오류 발생
 
-If you get the error **Your account has been disabled** with when you try to open Outlook on the web (formerly known as `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Outlook Web App), your admin might have disabled your access to Outlook on the web.
+If you get the error **If you have disabled** with when you try to open Outlook on the web (formerly known to `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Outlook Web App), your admin might have disabled your access to Outlook on the web.
 
-관리자는 사서함에 대해 사서함을 사용하도록 설정하거나 사용하지 않도록 설정 항목의 단계를 수행하여 Outlook Web App [수 있습니다.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
+관리자는 사서함에 대해 사서함을 만들거나 사용하지 않도록 설정 항목의 단계를 수행하여 Outlook Web App [수 있습니다.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)

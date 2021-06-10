@@ -1,6 +1,6 @@
 ---
 title: 끝점용 Microsoft Defender의 웹 위협에 대응
-description: 악성 및 원치 않는 웹 사이트와 관련된 경고에 응답합니다. 웹 위협 방지가 최종 사용자에게 웹 브라우저 및 Windows 알림을 통해 알리는 방법 이해
+description: 악성 및 원치 않는 웹 사이트와 관련된 경고에 응답합니다. 웹 위협 방지가 최종 사용자에게 웹 브라우저 및 알림 메시지를 Windows 방법 이해
 keywords: 웹 보호, 웹 위협 방지, 웹 검색, 경고, 응답, 보안, 피싱, 맬웨어, 악용, 웹 사이트, 네트워크 보호, Edge, Internet Explorer, Chrome, Firefox, 웹 브라우저, 알림, 최종 사용자, Windows 알림, 차단 페이지,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -28,7 +28,7 @@ ms.locfileid: "51688480"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
@@ -66,14 +66,14 @@ ms.locfileid: "51688480"
 
 [장치 엔터티 페이지에 대한 자세한 내용은](investigate-machines.md)
 
-## <a name="web-browser-and-windows-notifications-for-end-users"></a>최종 사용자를 위한 웹 브라우저 및 Windows 알림
+## <a name="web-browser-and-windows-notifications-for-end-users"></a>웹 브라우저 및 Windows 사용자에 대한 알림
 
-Endpoint용 Microsoft Defender의 웹 보호를 통해 최종 사용자는 Microsoft Edge 또는 기타 브라우저를 사용하여 악성 또는 원치 않는 웹 사이트를 방문하지 못하게 됩니다. 차단은 네트워크 보호에서 [수행하기](network-protection.md)때문에 웹 브라우저에서 일반 오류가 표시됩니다. 또한 Windows에서 알림이 표시됩니다.
+Endpoint용 Microsoft Defender의 웹 보호를 통해 최종 사용자는 웹 사이트 또는 기타 브라우저를 사용하여 악성 또는 원치 않는 웹 Microsoft Edge 방지할 수 있습니다. 차단은 네트워크 보호에서 [수행하기](network-protection.md)때문에 웹 브라우저에서 일반 오류가 표시됩니다. 또한 사용자로부터 알림이 Windows.
 
-![Microsoft Edge에서 403 오류 및 Windows 알림 웹 위협이 ](images/wtp-browser-blocking-page.png)
- *차단된 Microsoft Edge의 이미지*
+![403 Microsoft Edge 웹 위협이 차단된 Windows 웹 위협을 보여 Microsoft Edge ](images/wtp-browser-blocking-page.png)
+ 
 
-![Chrome에서 보안 연결 경고 및 Windows 알림 웹 위협이 차단된 Chrome 웹 ](images/wtp-chrome-browser-blocking-page.png)
+![보안 연결 경고 및 Chrome에서 차단된 보안 Windows 웹 위협을 표시하는 Chrome 웹 ](images/wtp-chrome-browser-blocking-page.png)
  *브라우저의 이미지*
 
 ## <a name="related-topics"></a>관련 항목

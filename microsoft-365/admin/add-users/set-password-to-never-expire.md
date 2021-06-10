@@ -128,6 +128,6 @@ Run one of the following commands:
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자가 암호를 직접 재설정할 수 있도록](../add-users/let-users-reset-passwords.md) 합니다(문서)\
-[암호 재설정(문서)\](../add-users/reset-passwords.md)
+[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md)(문서)\
+[암호 다시 설정](../add-users/reset-passwords.md)(문서)\
 [조직의 암호 만료 정책](../manage/set-password-expiration-policy.md) 설정(문서)

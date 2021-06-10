@@ -69,7 +69,7 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
 
 ### <a name="network-extension-policy"></a>네트워크 확장 정책
 
-끝점 감지 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
+끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
 >[!NOTE]
 >JAMF에는 콘텐츠 필터링 정책에 대한 기본 제공 지원이 없습니다. 이는 macOS의 끝점용 Microsoft Defender가 장치에 설치하는 네트워크 확장을 사용하도록 설정하기 위한 전제입니다. 또한 JAMF는 배포되는 정책의 콘텐츠를 변경하는 경우도 있습니다.
@@ -170,7 +170,7 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
     $ security cms -S -N "SigningCertificate" -i ~/Documents/com.microsoft.network-extension.mobileconfig -o ~/Documents/com.microsoft.network-extension.signed.mobileconfig
     ```
     
-5. JAMF 포털에서 구성 프로필로 **이동하여** 업로드 **단추를** 클릭합니다. 파일을 `com.microsoft.network-extension.signed.mobileconfig` 입력하라는 메시지가 표시될 때 선택합니다.
+5. JAMF 포털에서 구성 프로필로 **이동한** 후 업로드 **클릭합니다.** 파일을 `com.microsoft.network-extension.signed.mobileconfig` 입력하라는 메시지가 표시될 때 선택합니다.
 
 ## <a name="intune"></a>Intune
 

@@ -78,11 +78,11 @@ landingContent:
     links:
     - text: Mac의 끝점용 Microsoft Defender
       url: microsoft-defender-endpoint-mac.md
-    - text: iOS의 끝점용 Microsoft Defender
+    - text: Microsoft Defender for Endpoint(iOS용)
       url: microsoft-defender-endpoint-ios.md
-    - text: Linux의 끝점용 Microsoft Defender
+    - text: 엔드포인트용 Microsoft Defender(Linux용)
       url: microsoft-defender-endpoint-linux.md
-    - text: Android의 끝점용 Microsoft Defender
+    - text: Microsoft Defender for Endpoint(Android용)
       url: microsoft-defender-endpoint-android.md
 - title: 참조
   linkLists:

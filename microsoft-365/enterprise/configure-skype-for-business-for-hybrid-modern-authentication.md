@@ -15,7 +15,7 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: 보다 안전한 사용자 인증 및 권한 부여를 제공하는 하이브리드 HMA(하이브리드 최신 인증)를 사용하도록 비즈니스용 Skype를 구성하는 방법을 배워야 합니다.
+description: 보다 안전한 사용자 인증 및 비즈니스용 Skype HMA(하이브리드 최신 인증)를 사용하도록 사내에서 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: f3177bafb6eff27053dca61ec576666cae4a97bb
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -28,7 +28,7 @@ ms.locfileid: "50911153"
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-최신 인증은 보다 안전한 사용자 인증 및 권한 부여를 제공하는 ID 관리 방법으로, 비즈니스용 Skype 서버의 사내 및 Exchange 서버의 사내 및 분할 도메인 비즈니스용 Skype 하이브리드에 사용할 수 있습니다.
+최신 인증은 보다 안전한 사용자 인증 및 권한 부여를 제공하는 ID 관리 방법으로, 비즈니스용 Skype 서버의 Exchange 서버와 도메인 분할 하이브리드에 사용할 비즈니스용 Skype 있습니다.
   
  **중요** MA(최신 인증)와 회사 또는 조직에서 이 인증을 사용하는 것을 선호하는 이유에 대해 알아 두시겠습니까? 이 [문서에서](hybrid-modern-auth-overview.md) 개요를 확인할 수 있습니다. MA에서 지원되는 비즈니스용 Skype 토폴로지가 필요한 경우 여기에 설명되어 있습니다.
   
@@ -38,13 +38,13 @@ ms.locfileid: "50911153"
 
 - 하이브리드 최신 인증(HMA)
 
-- EXCH(Exchange On-Premises)
+- Exchange(EXCH)
 
-- EXO(Exchange Online)
+- Exchange Online(EXO)
 
 - 비즈니스용 Skype(SFB)
 
-- 비즈니스용 Skype Online(SFBO)
+- 비즈니스용 Skype 온라인(SFBO)
 
 또한 이 문서의 그래픽에 회색으로 표시되거나 희미해진 개체가 있는 경우  이는 회색으로 표시된 요소가 MA 관련 구성에 포함되지 않음을 나타냅니다.
   
@@ -54,25 +54,25 @@ ms.locfileid: "50911153"
   
 1. 먼저 모든 선행 요구 사항을 충족해야 합니다.
 
-1. 비즈니스용  Skype와 Exchange 모두에 공통적인 많은 선행 조문이 많기 때문에 사전 req 검사 목록의 개요 문서를 [참조하세요.](hybrid-modern-auth-overview.md) 이  *문서의*  단계를 시작하기 전에 이 작업을 수행합니다.
+1. 많은 **사전** 요구 사항들이 비즈니스용 Skype 및 Exchange 일반적이기 때문에 사전 요구 사항 검사 목록의 개요 문서를 [참조하세요.](hybrid-modern-auth-overview.md) 이  *문서의*  단계를 시작하기 전에 이 작업을 수행합니다.
 
-1. 파일 또는 OneNote에 필요한 HMA 관련 정보를 수집합니다.
+1. 파일 또는 파일에서 필요한 HMA 관련 정보를 OneNote.
 
 1. EXO에 대한 최신 인증을 켜기(아직 켜져 있지 않은 경우).
 
 1. SFBO에 대한 최신 인증을 켜기(아직 켜져 있지 않은 경우).
 
-1. Exchange의 하이브리드 최신 인증을 켜고, Exchange의 사내에서 최신 인증을 켜야 합니다.
+1. 하이브리드 최신 인증을 설정하여 Exchange.
 
-1. 비즈니스용 Skype에 대한 하이브리드 최신 인증을 켜기(On Hybrid Modern Authentication for Business on-premises).
+1. 하이브리드 최신 인증을 설정하여 비즈니스용 Skype.
 
 이러한 단계에서는 SFB, SFBO, EXCH 및 EXO에 대해 MA를 켜야 합니다. 즉, SFB 및 SFBO의 HMA 구성에 참여할 수 있는 모든 제품(EXCH/EXO에 대한 종속성 포함) 즉, 사용자가 하이브리드의 일부(EXO + SFBO, EXO + SFB, EXCH + SFBO 또는 EXCH + SFB)에 사서함을 만들거나 있는 경우 완성된 제품은 다음과 같이 표시됩니다.
   
-![혼합 6개의 비즈니스용 Skype HMA 토폴로지에는 가능한 네 개의 모든 위치에 MA가 있습니다.](../media/ab89cdf2-160b-49ac-9b71-0160800acfc8.png)
+![비즈니스 HMA 토폴로지의 Skype 혼합 6개 토폴로지에는 가능한 네 개의 모든 위치에 MA가 있습니다.](../media/ab89cdf2-160b-49ac-9b71-0160800acfc8.png)
   
 MA를 켜는 네 개의 다른 위치가 있습니다! 최상의 사용자 환경을 위해 이러한 네 위치에서 모두 MA를 켜는 것이 좋습니다. 이러한 모든 위치에서 MA를 끄지 못하면 환경에 필요한 위치에서만 MA를 켜게 단계를 조정합니다.
   
-지원되는 [토폴로지의](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported) 경우 MA가 있는 비즈니스용 Skype에 대한 지원 가능성 항목을 참조하세요.
+지원되는 [토폴로지의](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported) 경우 MA를 비즈니스용 Skype 지원 가능성 항목을 참조하세요.
   
  **중요** 시작하기 전에 모든 선행 조문을 충족하는지 다시 한 번 확인 합니다. 이 정보는 하이브리드 최신 인증 개요 및 선행 준비 사항 [에서 찾을 수 있습니다.](hybrid-modern-auth-overview.md)
   
@@ -82,15 +82,15 @@ MA를 켜는 네 개의 다른 위치가 있습니다! 최상의 사용자 환�
   
 - **SIP/SMTP 도메인**
 
-  - 예. contoso.com(Office 365와 페더임)
+  - 예. contoso.com(Office 365)
 
 - **테넌트 ID**
 
-  - Office 365 테넌트(로그인 시)를 나타내는 CONTOSO.ONMICROSOFT.COM.
+  - 사용자 테넌트(Office 365 로그인 시)를 나타내는 GUID contoso.onmicrosoft.com.
 
 - **SFB 2015 CU5 웹 서비스 URL**
 
-배포된 모든 SfB 2015 풀에 대해 내부 및 외부 웹 서비스 URL이 필요합니다. 이러한 정보를 얻기 위해 비즈니스용 Skype 관리 셸에서 다음을 실행합니다.
+배포된 모든 SfB 2015 풀에 대해 내부 및 외부 웹 서비스 URL이 필요합니다. 이러한 정보를 얻었다면 관리 셸에서 비즈니스용 Skype 실행합니다.
   
 ```powershell
 Get-CsService -WebServer | Select-Object PoolFqdn, InternalFqdn, ExternalFqdn | FL
@@ -104,31 +104,31 @@ Standard Edition 서버를 사용하는 경우 내부 URL은 비어 있습니다
   
 ## <a name="turn-on-modern-authentication-for-exo"></a>EXO에 대한 최신 인증 켜기
 
-Exchange Online: 최신 인증을 위해 테넌트를 사용하도록 [설정하는 방법의 지침을 따릅니다.](https://social.technet.microsoft.com/wiki/contents/articles/32711.exchange-online-how-to-enable-your-tenant-for-modern-authentication.aspx)
+지침에 따라 다음을 Exchange Online: 최신 인증을 위해 [테넌트가 사용하도록 설정하는 방법.](https://social.technet.microsoft.com/wiki/contents/articles/32711.exchange-online-how-to-enable-your-tenant-for-modern-authentication.aspx)
   
 ## <a name="turn-on-modern-authentication-for-sfbo"></a>SFBO에 대한 최신 인증 켜기
 
-비즈니스용 Skype [Online: 최신](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)인증을 위해 테넌트 사용의 지침을 따릅니다.
+온라인 비즈니스용 Skype 지침에 따라 최신 인증을 위해 [테넌트 사용](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
   
-## <a name="turn-on-hybrid-modern-authentication-for-exchange-on-premises"></a>Exchange On-premises에 대한 하이브리드 최신 인증 켜기
+## <a name="turn-on-hybrid-modern-authentication-for-exchange-on-premises"></a>하이브리드 최신 인증을 설정하여 Exchange 설정
 
 하이브리드 최신 인증을 사용하도록 Exchange Server 구성하는 방법의 [지침을 따릅니다.](configure-exchange-server-for-hybrid-modern-authentication.md)
   
-## <a name="turn-on-hybrid-modern-authentication-for-skype-for-business-on-premises"></a>비즈니스용 Skype의 하이브리드 최신 인증 켜기
+## <a name="turn-on-hybrid-modern-authentication-for-skype-for-business-on-premises"></a>하이브리드 최신 인증을 설정하여 비즈니스용 Skype 설정
 
-### <a name="add-on-premises-web-service-urls-as-spns-in-azure-active-directory"></a>Azure Active Directory에서 SPNS로 사내 웹 서비스 URL 추가
+### <a name="add-on-premises-web-service-urls-as-spns-in-azure-active-directory"></a>프레미스 웹 서비스 URL을 2016년 12월에 SPNS로 Azure Active Directory
 
 이제 명령을 실행하여 SFBO에서 URL(이전 수집)을 서비스 사용자로 추가해야 합니다.
   
  **참고** SPNS(서비스 사용자 이름)는 웹 서비스를 식별하고 보안 주체(예: 계정 이름 또는 그룹)와 연결하여 서비스가 인증된 사용자를 대신하여 작업할 수 있도록 합니다. 서버에 인증하는 클라이언트는 SPNS에 포함된 정보를 활용합니다.
   
-1. 먼저 다음 지침으로 Azure AD(Azure Active [Directory)에 연결합니다.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+1. 먼저 다음 Azure Active Directory (Azure AD)에 [연결합니다.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
 2. SFB 웹 서비스 URL 목록을 얻습니다.
 
-   AppPrincipalId는 로 `00000004` 시작됩니다. 비즈니스용 Skype Online에 해당합니다.
+   AppPrincipalId는 로 `00000004` 시작됩니다. 이 특성은 비즈니스용 Skype 온라인에 해당합니다.
 
-   SE 및 WS URL을 포함하지만 주로 로 시작하는 SPNS로 구성되는 이 명령의 출력(및 나중에 비교를 위한 스크린샷)을 `00000004-0000-0ff1-ce00-000000000000/` 확인합니다.
+   이 명령의 출력(및 나중에 비교를 위해 스크린샷)을 확인합니다. 이 명령의 출력에는 SE 및 WS URL이 포함되지만 대부분 으로 시작하는 SPNS로 `00000004-0000-0ff1-ce00-000000000000/` 구성됩니다.
 
 ```powershell
 Get-MsolServicePrincipal -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 | Select -ExpandProperty ServicePrincipalNames
@@ -149,7 +149,7 @@ Set-MSOLServicePrincipal -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -S
 
 ### <a name="create-the-evosts-auth-server-object"></a>EvoSTS Auth 서버 개체 만들기
 
-비즈니스용 Skype 관리 셸에서 다음 명령을 실행합니다.
+관리 셸에서 다음 비즈니스용 Skype 실행합니다.
   
 ```powershell
 New-CsOAuthServer -Identity evoSTS -MetadataURL https://login.windows.net/common/FederationMetadata/2007-06/FederationMetadata.xml -AcceptSecurityIdentifierInformation $true -Type AzureAD
@@ -157,7 +157,7 @@ New-CsOAuthServer -Identity evoSTS -MetadataURL https://login.windows.net/common
 
 ### <a name="enable-hybrid-modern-authentication"></a>하이브리드 최신 인증 사용
 
-이는 실제로 MA를 켜는 단계입니다. 클라이언트 인증 흐름을 변경하지 않고도 이전의 모든 단계를 미리 실행할 수 있습니다. 인증 흐름을 변경할 준비가 되면 비즈니스용 Skype 관리 셸에서 이 명령을 실행합니다.
+이는 실제로 MA를 켜는 단계입니다. 클라이언트 인증 흐름을 변경하지 않고도 이전의 모든 단계를 미리 실행할 수 있습니다. 인증 흐름을 변경할 준비가 되면 관리 셸의 비즈니스용 Skype 실행합니다.
 
 ```powershell
 Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity evoSTS
@@ -167,11 +167,11 @@ Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity evoSTS
 
 HMA를 사용하도록 설정하면 클라이언트의 다음 로그인에서 새 인증 흐름을 사용하게 됩니다. HMA를 켜면 클라이언트에 대한 재인식이 트리거되지 않습니다. 클라이언트는 인증 토큰 및/또는 보유한 인증의 수명을 기반으로 다시 인증합니다.
   
-HMA가 활성화된 후 작동하고 있는지 테스트하려면 테스트 SFB Windows 클라이언트에서 로그아웃하고 '내 자격 증명 삭제'를 클릭해야 합니다. 다시 로그인합니다. 이제 클라이언트는 최신 인증 흐름을 사용하게 되기 시작하고 로그인에 클라이언트가 서버에 연결하고 로그인하기 직전에 '직장 또는 학교' 계정에 대한 **Office 365** 프롬프트를 포함합니다.
+HMA가 사용하도록 설정한 후 작동하고 있는지 테스트하려면 테스트 SFB 클라이언트에서 로그아웃하고 Windows '내 자격 증명 삭제'를 클릭해야 합니다. 다시 로그인합니다. 이제 클라이언트는 최신 인증 흐름을 사용하게 되기  때문에 이제 로그인에 클라이언트가 서버에 연결하고 로그인하기 Office 365 바로 전에 '직장 또는 학교' 계정에 대한 Office 365 프롬프트가 포함됩니다.
   
-또한 비즈니스용 Skype 클라이언트의 '구성 정보'에서 'OAuth Authority'를 확인해야 합니다. 클라이언트 컴퓨터에서 이 작업을 실행하려면 Windows 알림 트레이에서 비즈니스용 Skype 아이콘을 마우스 오른쪽 단추로 클릭하는 동시에 Ctrl 키를 눌러야 합니다. 나타나는 **메뉴에서** 구성 정보를 클릭합니다. 바탕 화면에 표시될 '비즈니스용 Skype 구성 정보' 창에서 다음을 검색합니다.
+또한 클라이언트에서 'OAuth 비즈니스용 Skype'에 대한 '구성 정보'를 확인해야 합니다. 클라이언트 컴퓨터에서 이 작업을 실행하려면 Ctrl 키를 눌러서 알림 비즈니스용 Skype 아이콘을 마우스 오른쪽 단추로 Windows 클릭합니다. 나타나는 **메뉴에서** 구성 정보를 클릭합니다. 바탕 화면에 비즈니스용 Skype '구성 정보 확인' 창에서 다음을 찾아 봐야 합니다.
   
-![최신 인증을 사용하는 비즈니스용 Skype 클라이언트의 구성 정보는 Lync 및 EWS OAUTH 기관 URL 을 https://login.windows.net/common/oauth2/authorize 보여줍니다.](../media/4e54edf5-c8f8-4e7f-b032-5d413b0232de.png)
+![최신 인증을 사용하는 비즈니스용 Skype 클라이언트의 구성 정보에는 Lync 및 EWS OAUTH 기관 URL이 https://login.windows.net/common/oauth2/authorize 표시됩니다.](../media/4e54edf5-c8f8-4e7f-b032-5d413b0232de.png)
   
 또한 Outlook 클라이언트(Windows 알림 트레이에서도)의 아이콘을 마우스 오른쪽 단추로 클릭하고 '연결 상태'를 클릭하는 동시에 Ctrl 키를 눌러야 합니다. OAuth에 사용되는 bearer 토큰을 나타내는 'Bearer'의 AuthN 유형에 대해 클라이언트의 SMTP 주소를 \* 찾아야 합니다.
   
@@ -179,4 +179,4 @@ HMA가 활성화된 후 작동하고 있는지 테스트하려면 테스트 SFB 
 
 [최신 인증 개요로 다시 연결합니다.](hybrid-modern-auth-overview.md)
   
-비즈니스용 Skype 클라이언트에 대해 ADAL(최신 인증)을 사용하는 방법을 알아야 하나요? 여기에 단계가 [있습니다.](./hybrid-modern-auth-overview.md)
+클라이언트에 대해 ADAL(최신 인증)을 사용하는 방법을 알아야 비즈니스용 Skype 있나요? 여기에 단계가 [있습니다.](./hybrid-modern-auth-overview.md)

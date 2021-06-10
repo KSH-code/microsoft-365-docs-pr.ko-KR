@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender 보안 센터 표준 시간대 설정
-description: 여기에 포함된 정보를 사용하여 Microsoft Defender 보안 센터 표준 시간대 설정을 구성하고 라이선스 정보를 볼 수 있습니다.
+description: 여기에 포함된 정보를 사용하여 표준 시간대 설정을 Microsoft Defender 보안 센터 라이선스 정보를 볼 수 있습니다.
 keywords: 설정, Microsoft Defender, 사이버 보안 위협 인텔리전스, 끝점용 Microsoft Defender, 표준 시간대, utc, 현지 시간, 라이선스
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -68,12 +68,12 @@ Microsoft Defender for Endpoint는 기본적으로 UTC 시간을 사용 합니�
 3. 표준 **시간대 UTC** 또는 로컬 표준 시간대(예: -7:00)를 선택합니다.
 
 ### <a name="regional-settings"></a>국가별 설정
-끝점용 Microsoft Defender에 다른 날짜 형식을 적용하려면 IE(Internet Explorer) 및 Microsoft Edge(Edge)에 대한 국가별 설정을 사용합니다. Google Chrome과 같은 다른 브라우저를 사용하는 경우 필요한 단계에 따라 해당 브라우저의 시간 및 날짜 설정을 변경합니다. 
+끝점용 Microsoft Defender에 다른 날짜 형식을 적용하려면 IE(Internet Explorer) 및 에지(Edge)에 Microsoft Edge 설정을 사용합니다. Google Chrome과 같은 다른 브라우저를 사용하는 경우 필요한 단계에 따라 해당 브라우저의 시간 및 날짜 설정을 변경합니다. 
 
 
 **Internet Explorer(IE) 및 Microsoft Edge**
 
-IE 및 Microsoft  Edge는 제어판의 **시계,** 언어 및 지역 옵션에 구성된 지역 설정을 사용합니다. 
+IE 및 Microsoft Edge 제어판의 **시계,** 언어 및 지역 옵션에 구성된 지역 설정을 사용합니다.  
 
 
 #### <a name="known-issues-with-regional-formats"></a>지역별 형식의 알려진 문제

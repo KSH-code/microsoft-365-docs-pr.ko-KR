@@ -31,7 +31,7 @@ ms.locfileid: "51688264"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -105,7 +105,7 @@ ms.locfileid: "51688264"
   - 잠재적으로 원치 않는 응용 프로그램(PUA) 보호
   - 실시간 보호
  
-이 섹션의 완화 정보는 위협 및 [](next-gen-threat-and-vuln-mgt.md)취약성 관리의 데이터를 통합하며, 보고서의 다양한 링크에서 자세한 드릴다운 정보도 제공합니다.
+이 섹션의 완화 정보는 보고서의 [](next-gen-threat-and-vuln-mgt.md)다양한 링크에 위협 및 취약성 관리 자세한 드릴다운 정보도 제공하는 위협 및 취약성 관리 데이터를 통합합니다.
 
 ![위협 분석 보고서의 완화 섹션 이미지 위협 분석 보고서 완화 섹션 ](images/ta-mitigations.png)
  
@@ -117,7 +117,7 @@ ms.locfileid: "51688264"
 - 차트에는 추적되는 완화만 반영됩니다. 보고서 개요에서 차트에 나와 있지 않은 추가 완화를 확인할 수 있습니다.
 - 완화는 완전한 탄력을 보장하지 않습니다. 제공된 완화에는 탄력성을 개선하는 데 필요한 최상의 조치가 반영됩니다.
 - 장치가 서비스로 데이터를 전송하지 않은 경우 장치는 "사용할 수 없음"으로 계산됩니다.
-- 바이러스 백신 관련 통계는 Microsoft Defender 바이러스 백신 설정을 기반으로 합니다. 타사 바이러스 백신 솔루션이 있는 장치는 "노출"으로 표시될 수 있습니다.
+- 바이러스 백신 관련 통계는 설정에 Microsoft Defender 바이러스 백신 합니다. 타사 바이러스 백신 솔루션이 있는 장치는 "노출"으로 표시될 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅을 통해 위협을 사전 대응적으로 찾기](advanced-hunting-overview.md) 

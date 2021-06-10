@@ -1,7 +1,7 @@
 ---
 title: 조직의 취약성 - 위협 및 취약성 관리
-description: 조직에서 실행되는 소프트웨어에서 발견되는 취약점의 일반적인 CVE(취약성 및 노출) ID를 나열합니다. Microsoft Defender for Endpoint 위협 및 취약성 관리 기능에 의해 검색됩니다.
-keywords: Microsoft Defender for Endpoint threat & management, threat and vulnerability management, Microsoft Defender for Endpoint tvm vulnerabilites page, finding vulnerabilites through tvm, tvm vulnerability list, vulnerability details in tvm
+description: 조직에서 실행되는 소프트웨어에서 발견되는 취약점의 일반적인 CVE(취약성 및 노출) ID를 나열합니다. Endpoint용 Microsoft Defender에서 검색한 위협 및 취약성 관리 기능입니다.
+keywords: Microsoft Defender for Endpoint threat & 취약성 관리, 위협 및 취약성 관리, Microsoft Defender for Endpoint tvm vulnerabilites page, finding vulnerabilites through tvm, tvm vulnerability list, vulnerability details in tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -31,17 +31,17 @@ ms.locfileid: "51933076"
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-위협 및 취약성 관리는 끝점의 끝점 보호를 위해 Defender의 동일한 신호를 사용하여 취약점을 검색합니다.
+위협 취약성 관리 끝점 보호를 위해 Defender의 동일한 신호를 사용하여 취약점을 검색합니다.
 
 취약점 **페이지에는** CVE(Common Vulnerabilities and Exposures) ID를 나열하여 장치가 노출하는 소프트웨어 취약점이 나열됩니다. 또한 심각도, CVSS(Common Vulnerability Scoring System) 등급, 조직의 보급, 해당 위반, 위협 정보 등도 볼 수 있습니다.
 
 >[!NOTE]
->취약점에 공식 CVE-ID가 할당되지 않은 경우 취약성 이름은 위협 및 취약성 관리에 의해 할당됩니다.
+>취약성에 공식 CVE-ID가 할당되지 않은 경우 취약성 이름은 에 의해 위협 및 취약성 관리.
 
 >[!TIP]
 >새 취약성 이벤트에 대한 전자 메일을 얻습니다. [끝점용 Microsoft Defender에서 취약성](configure-vulnerability-email-notifications.md) 전자 메일 알림 구성을 참조하세요.
@@ -50,12 +50,12 @@ ms.locfileid: "51933076"
 
 몇 가지 다른 방법으로 취약점 페이지에 액세스합니다.
 
-- Microsoft  Defender 보안 센터의 위협 및 취약성 관리 탐색 메뉴에서 [약점 선택](portal-overview.md)
+- 화면의  위협 및 취약성 관리 메뉴에서 약점 [Microsoft Defender 보안 센터](portal-overview.md)
 - 전역 검색
 
 ### <a name="navigation-menu"></a>탐색 메뉴
 
-위협 및 취약성 관리 탐색 메뉴로 이동하고 취약점을 선택하여 CV 목록을 열 수 있습니다. 
+탐색 위협 및 취약성 관리 메뉴로 이동하고 **약점을** 선택하여 CV 목록을 열 수 있습니다.
 
 ### <a name="vulnerabilities-in-global-search"></a>전역 검색의 취약성
 
@@ -97,7 +97,7 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
 
 ### <a name="software-that-isnt-supported"></a>지원되지 않는 소프트웨어
 
-위협 요소 및 취약성 관리에 의해 현재 지원되지 & 소프트웨어의 CV는 취약점 페이지에 여전히 존재합니다. 소프트웨어가 지원되지 않는 경우 제한된 데이터만 사용할 수 있습니다.
+위협 요소에서 현재 지원되지 않는 소프트웨어용 CV는 & 취약성 관리 페이지에 여전히 존재합니다. 소프트웨어가 지원되지 않는 경우 제한된 데이터만 사용할 수 있습니다.
 
 지원되지 않는 소프트웨어가 있는 CV에서는 노출된 장치 정보를 사용할 수 없습니다. "노출된 장치" 섹션에서 "사용할 수 없습니다" 옵션을 선택하여 지원되지 않는 소프트웨어로 필터링합니다.
 
@@ -107,7 +107,7 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
 
 ### <a name="top-vulnerable-software-in-the-dashboard"></a>대시보드에서 가장 취약한 소프트웨어
 
-1. 위협 및 [취약성](tvm-dashboard-insights.md) 관리 대시보드로 이동하여 취약한 최상위 소프트웨어 위젯으로 **아래로 스크롤합니다.** 각 소프트웨어에서 발견되는 취약점의 수와 위협 정보 및 시간이 지날 때마다 디바이스 노출에 대한 높은 수준의 보기가 표시됩니다.
+1. 대시보드로 [위협 및 취약성 관리 아래로](tvm-dashboard-insights.md) 스크롤하여 취약한 최상위 소프트웨어 **위젯으로 스크롤합니다.** 각 소프트웨어에서 발견되는 취약점의 수와 위협 정보 및 시간이 지날 때마다 디바이스 노출에 대한 높은 수준의 보기가 표시됩니다.
 
     ![소프트웨어, 약점, 위협, 노출된 장치 등 네 개의 열로 가장 취약한 소프트웨어 카드입니다.](images/tvm-top-vulnerable-software500.png)
 
@@ -121,7 +121,7 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
 
 장치 페이지에서 관련 약점 정보를 확인합니다.
 
-1. Microsoft Defender 보안 센터 탐색 메뉴 모음으로 이동한 다음 장치 아이콘을 선택합니다. 장치 **목록 페이지가** 열립니다.
+1. 탐색 Microsoft Defender 보안 센터 모음으로 이동한 다음 장치 아이콘을 선택합니다. 장치 **목록 페이지가** 열립니다.
 2. 장치 **목록 페이지에서** 조사할 장치 이름을 선택합니다.
 
     ![조사할 선택한 장치가 있는 장치 목록입니다.](images/tvm_machinetoinvestigate.png)
@@ -137,7 +137,7 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
 
 소프트웨어 증거와 마찬가지로, 이제 디바이스에 적용한 검색 논리를 표시하여 취약하다는 사실도 밝혔습니다. 새 섹션을 "검색 논리"(디바이스 페이지의 검색된 모든 취약성)라고 부르며 검색 논리 및 소스를 보여 주며,
 
-관련 시나리오에서도 "OS 기능" 범주가 표시됩니다. CVE는 특정 OS 구성 요소를 사용하는 경우 취약한 OS를 실행하는 장치에만 영향을 미치게 됩니다. Windows Server 2019의 DNS 구성 요소에 취약점이 있습니다. 이 새로운 기능을 사용하여 OS에서 사용하도록 설정된 DNS 기능을 사용하여 이 CVE를 Windows Server 2019 장치에만 연결합니다.
+관련 시나리오에서도 "OS 기능" 범주가 표시됩니다. CVE는 특정 OS 구성 요소를 사용하는 경우 취약한 OS를 실행하는 장치에만 영향을 미치게 됩니다. Server 2019의 WINDOWS DNS 구성 요소에 취약점이 있습니다. 이 새로운 기능을 사용하여 OS에서 사용하도록 설정된 DNS 기능을 사용하여 Windows Server 2019 장치에만 이 CVE를 연결합니다.
 
 ![검색 논리 장치 및 KB에서 검색된 소프트웨어를 나열하는 예제입니다.](images/tvm-cve-detection-logic.png)
 
@@ -148,7 +148,7 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
 1. 취약점 페이지에서 CVE를 여십시오.
 2. **부정확성** 보고를 선택하면 플라이아웃 창이 열립니다.
 3. 드롭다운 메뉴에서 부정확성 범주를 선택하고 전자 메일 주소와 부정확한 정보를 입력합니다.
-4. **전송** 을 선택합니다. 피드백은 위협 및 취약성 관리 전문가에게 즉시 전송됩니다.
+4. **전송** 을 선택합니다. 피드백은 즉시 전문가에게 위협 및 취약성 관리 전송됩니다.
 
 ## <a name="related-articles"></a>관련 문서
 

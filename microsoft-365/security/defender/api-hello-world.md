@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Defender REST API용 Hello World
-description: 앱을 만들고 토큰을 사용하여 Microsoft 365 Defender API에 액세스하는 방법을 배우기
+description: 앱을 만들고 토큰을 사용하여 앱 Defender API에 액세스하는 Microsoft 365 방법
 keywords: 앱, 토큰, 액세스, aad, 앱, 응용 프로그램 등록, powershell, 스크립트, 전역 관리자, 사용 권한, Microsoft 365 defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -42,20 +42,20 @@ ms.locfileid: "51072756"
 
 이 프로젝트를 완료하는 데 5~10분 정도 걸립니다. 이 예상 기간에는 응용 프로그램을 등록하고 PowerShell 샘플 스크립트의 코드를 적용하는 것이 포함됩니다.
 
-### <a name="register-an-app-in-azure-active-directory"></a>Azure Active Directory에 앱 등록
+### <a name="register-an-app-in-azure-active-directory"></a>앱에 Azure Active Directory
 
 1. 전역 관리자 역할을 사용하여 [사용자로 Azure에](https://portal.azure.com) **로그인합니다.**
 
-2. Azure **Active Directory**  >  **앱 등록 새**  >  **등록으로 이동합니다.**
+2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.**
 
-   ![Microsoft Azure의 이미지 및 응용 프로그램 등록 탐색](../../media/atp-azure-new-app2.png)
+   ![응용 Microsoft Azure 탐색 및 이미지](../../media/atp-azure-new-app2.png)
 
 3. 등록 양식에서 응용 프로그램의 이름을 선택한 다음 등록을 **선택합니다.** 리디렉션 URI는 선택 사항입니다. 이 예제를 완료하는 데는 이 예제가 필요하지 않습니다.
 
-4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 api를 >  >    >   Microsoft **Threat Protection을** 입력하고 **Microsoft Threat Protection을 선택합니다.** 이제 앱이 Microsoft 365 Defender에 액세스할 수 있습니다.
+4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 API를 선택하고 > 를 Microsoft Threat Protection  >    >   를 **Microsoft Threat Protection.**  이제 앱이 Defender에 액세스할 Microsoft 365 있습니다.
 
    > [!TIP]
-   > *Microsoft Threat Protection은* Microsoft 365 Defender의 이전 이름으로, 원래 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
+   > *Microsoft Threat Protection* 은 Microsoft 365 Defender의 이전 이름으로, 원래 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
    ![API 권한 선택 이미지](../../media/apis-in-my-org-tab.PNG)
 
    - 응용 **프로그램 권한**  >  **Incident.Read.All을 선택하고** 사용 권한 **추가를 선택합니다.**
@@ -79,7 +79,7 @@ ms.locfileid: "51072756"
 
 ### <a name="get-a-token-using-the-app-and-use-the-token-to-access-the-api"></a>앱을 사용하여 토큰을 다운로드하고 토큰을 사용하여 API에 액세스
 
-Azure Active Directory 토큰에 대한 자세한 내용은 [Azure AD 자습서를 참조하세요.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+토큰에 대한 Azure Active Directory [Azure AD 자습서를 참조하세요.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 > [!IMPORTANT]
 > 이 데모 앱의 예제에서는 테스트를 위해 비밀 값에 붙여 넣는 것이 까다로우지만 프로덕션에서 실행되는 응용 프로그램에 암호를 하드코드하면 안 됩니다.  제3자에서 해당 비밀을 사용하여 리소스에 액세스할 수 있습니다. Azure Key Vault를 사용하여 앱의 비밀을 안전하게 [유지할 수 있습니다.](/azure/key-vault/general/about-keys-secrets-certificates) 앱을 보호하는 방법에 대한 실제 예제는 Azure Key Vault를 사용하여 서버 앱의 암호 [관리를 참조하세요.](/learn/modules/manage-secrets-with-azure-key-vault/)
@@ -173,9 +173,9 @@ Out-File -FilePath $outputJsonPath -InputObject $incidents
 ## <a name="related-articles"></a>관련 문서
 
 - [Microsoft 365 Defender API 개요](api-overview.md)
-- [Microsoft 365 Defender API 액세스](api-access.md)
-- [사용자 없이 Microsoft 365 Defender에 액세스하는 앱 만들기](api-create-app-web.md)
+- [Microsoft 365 Defender API에 액세스](api-access.md)
+- [사용자 없이 Microsoft 365 액세스하는 앱 만들기](api-create-app-web.md)
 - [사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 앱 만들기](api-create-app-user-context.md)
-- [Microsoft 365 Defender API에 대한 다중 테넌트 파트너 액세스가 있는 앱 만들기](api-partner-access.md)
+- [다중 테넌트 파트너 액세스 권한이 있는 앱 만들기Microsoft 365 Defender API](api-partner-access.md)
 - [Azure Key Vault를 사용하여 서버 앱의 비밀 관리](/learn/modules/manage-secrets-with-azure-key-vault/)
 - [사용자 로그인 및 API 액세스에 대한 OAuth 2.0 권한 부여](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

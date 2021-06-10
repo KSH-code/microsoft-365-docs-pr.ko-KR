@@ -36,7 +36,7 @@ ms.locfileid: "51073012"
 ## <a name="in-this-section"></a>이 섹션의 내용
 항목 | 설명 
 :---|:---
-[경고 큐](alerts-queue-endpoint-detection-response.md)| Microsoft Defender 보안 센터에 표시됩니다.
+[경고 큐](alerts-queue-endpoint-detection-response.md)| 알림에 표시되어 있는 Microsoft Defender 보안 센터.
 [장치 목록](machines-view-overview.md) | 장치 목록을 보고 관리하고, 장치 그룹을 관리하고, 장치 관련 경고를 조사하는 방법을 확인합니다. 
-[대응 조치 수행](respond-machine-alerts.md)| 감지된 공격에 신속하게 대응하고 위협을 포함하기 위해 장치 및 파일에 대한 대응 조치를 취합니다.
+[대응 조치 실행](respond-machine-alerts.md)| 감지된 공격에 신속하게 대응하고 위협을 포함하기 위해 장치 및 파일에 대한 대응 조치를 취합니다.
 [고급 헌팅을 사용하여 데이터 쿼리](advanced-hunting-query-language.md)| 강력한 검색 및 쿼리 도구를 사용하여 조직 전체에서 가능한 위협을 사전 예방적으로 헌팅합니다.

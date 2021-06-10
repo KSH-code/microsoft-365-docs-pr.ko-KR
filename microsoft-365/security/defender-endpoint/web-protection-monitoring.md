@@ -28,12 +28,12 @@ ms.locfileid: "51687426"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-웹 보호를 사용하면 Microsoft Defender 보안 센터의 보고서 및 웹 보호에 > 통해 조직의 웹 **검색** 보안을 모니터링할 수 있습니다. 이 보고서에는 웹 위협 감지 통계를 제공하는 카드가 포함되어 있습니다.
+웹 보호를 사용하면 조직의 웹 검색 보안을 모니터링할 수 있습니다. 보고서 및 웹 보호의 보고서 > 통해 조직의 웹 검색 보안을 Microsoft Defender 보안 센터.  이 보고서에는 웹 위협 감지 통계를 제공하는 카드가 포함되어 있습니다.
 
 - **시간 경과에** 대한 웹 위협 방지 감지 - 이 추세 카드는 선택한 기간(지난 30일, 지난 3개월, 지난 6개월) 동안 유형별로 검색된 웹 위협 수를 표시합니다.
  

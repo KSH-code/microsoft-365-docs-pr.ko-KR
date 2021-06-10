@@ -20,7 +20,7 @@ search.appverid:
 - MOE150
 ms.assetid: 6016b50e-2b6e-4164-b565-2fde401fda3a
 ROBOTS: NOINDEX
-description: 사용자의 Microsoft 365 계정을 삭제하는 동안 이 검사 목록을 따르하세요.
+description: 사용자의 계정을 삭제하는 동안 이 검사 목록을 Microsoft 365 합니다.
 ms.openlocfilehash: de0c69c0a785787491d60f5fe6d17c0129b929db
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "50914765"
 
 따라서 조직에서 사용자를 삭제하기로 결정했습니다. 예를 들어 해당 사용자가 조직을 떠나면 사용자를 삭제할 수 있습니다. 해당 사용자를 삭제하기 전과 후에 몇 가지 작업을 해야 합니다. 이 빠른 검사 목록은 단계에 도움이 됩니다.
   
-## <a name="remove-the-microsoft-365-license-from-the-user"></a>사용자에서 Microsoft 365 라이선스 제거
+## <a name="remove-the-microsoft-365-license-from-the-user"></a>사용자 Microsoft 365 라이선스 제거
 
 홈 페이지 또는 활성 사용자 페이지에서 사용자를 검색한 다음 해당 사용자를  선택하여 사용자에서 라이선스를 제거할 수 있습니다. 라이선스 **및** 앱 탭에서 사용자에서 제거할 라이선스의 확인란의 선택을 취소합니다. [전체 문서 읽기](../manage/remove-licenses-from-users.md).
   
@@ -50,7 +50,7 @@ ms.locfileid: "50914765"
   
 ## <a name="what-to-do-with-the-unassigned-license"></a>미지정 라이선스로 할 일
 
-새 직원이나 조직에 가입하는 사람이 있는 경우 Microsoft 365를 사용할 수 있도록 이 라이선스를 할당할 수 있습니다. 홈 페이지 또는 활성 사용자 페이지에서 사용자를  검색한 다음 선택할 수 있습니다. 라이선스 **및** 앱 탭에서 새 사용자에게 추가할 라이선스의 확인란을 선택합니다. [전체 문서 읽기](../manage/assign-licenses-to-users.md).
+조직에 가입하는 신입 사원이나 사용자가 있는 경우 새 직원이나 조직에서 사용할 수 있도록 이 라이선스를 할당할 Microsoft 365. 홈 페이지 또는 활성 사용자 페이지에서 사용자를  검색한 다음 선택할 수 있습니다. 라이선스 **및** 앱 탭에서 새 사용자에게 추가할 라이선스의 확인란을 선택합니다. [전체 문서 읽기](../manage/assign-licenses-to-users.md).
   
 ## <a name="remove-license-so-you-dont-have-to-pay-for-it"></a>라이선스를 제거하여 비용을 지불하지 않습니다.
 

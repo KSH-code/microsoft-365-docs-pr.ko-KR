@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅chema의 AlertEvidence 테이블
 description: 고급 헌팅 스파이마의 AlertEvidence 표에서 경고와 관련된 정보에 대해 자세히 알아보시다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석,chema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, machine, user, account
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마마 참조, kusto, 표, 열, 데이터 형식, 설명, AlertInfo, 경고, 엔터티, 증거, 파일, IP 주소, 장치, 컴퓨터, 사용자, 계정
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -35,7 +35,7 @@ ms.locfileid: "51932586"
 **적용 대상:**
 - Microsoft 365 Defender
 
-고급 헌팅 계획의 표에는 `AlertEvidence` 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 ID용 Microsoft Defender의 경고와 관련된 다양한 엔터티(파일, IP 주소, URL, 사용자 또는 장치)에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 헌팅 계획의 표에는 끝점용 Microsoft Defender, Office 365, Microsoft Cloud App Security 및 ID용 Microsoft Defender의 경고와 관련된 다양한 엔터티(파일, IP 주소, URL, 사용자 또는 장치)에 대한 정보가 포함되어 `AlertEvidence` 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -58,7 +58,7 @@ ms.locfileid: "51932586"
 | `AccountName` | 문자열 | 계정의 사용자 이름 |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
 | `AccountSid` | 문자열 | 계정의 SID(보안 식별자)입니다. |
-| `AccountObjectId` | 문자열 | Azure Active Directory에서 계정의 고유 식별자 |
+| `AccountObjectId` | 문자열 | 계정의 고유 식별자입니다Azure Active Directory |
 | `AccountUpn` | 문자열 | 계정의 UPN(사용자 계정 이름) |
 | `DeviceId` | 문자열 | 서비스에서 디바이스의 고유 식별자 |
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |

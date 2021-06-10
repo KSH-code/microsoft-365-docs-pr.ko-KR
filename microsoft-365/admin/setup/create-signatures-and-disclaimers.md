@@ -40,7 +40,7 @@ ms.locfileid: "52635657"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>모든 메시지에 적용되는 서명 만들기
 

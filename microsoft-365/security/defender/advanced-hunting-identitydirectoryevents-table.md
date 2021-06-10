@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅Chema의 IdentityDirectoryEvents 테이블
 description: 고급 헌팅 구조의 IdentityDirectoryEvents 테이블에서 도메인 컨트롤러 및 Active Directory 이벤트에 대해 자세히 알아보십시오.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 데이터 형식, kusto, 표, 열, 데이터 형식, 설명, IdentityDirectoryEvents, 도메인 컨트롤러, Active Directory, ID용 Microsoft Defender, ID
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, IdentityDirectoryEvents, domain controller, Active Directory, Microsoft Defender for Identity, ID
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -58,7 +58,7 @@ ms.locfileid: "51933004"
 | `AccountDomain` | 문자열 | 계정의 도메인 |
 | `AccountUpn` | 문자열 | 계정의 UPN(사용자 계정 이름) |
 | `AccountSid` | 문자열 | 계정의 SID(보안 식별자)입니다. |
-| `AccountObjectId` | 문자열 | Azure Active Directory에서 계정의 고유 식별자 |
+| `AccountObjectId` | 문자열 | 계정의 고유 식별자입니다Azure Active Directory |
 | `AccountDisplayName` | 문자열 | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 시작, 성 또는 성의 조합입니다. |
 | `DeviceName` | 문자열 | 장치의 FQDN(FQDN) |
 | `IPAddress` | 문자열 | 통신 중 장치에 할당된 IP 주소 |

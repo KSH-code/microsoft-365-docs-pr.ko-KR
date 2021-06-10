@@ -44,7 +44,7 @@ ms.locfileid: "52635645"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="microsoft-365-document-storage-and-management"></a>Microsoft 365 저장 및 관리
 

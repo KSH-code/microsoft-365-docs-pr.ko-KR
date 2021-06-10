@@ -1,7 +1,7 @@
 ---
-title: 파일럿 Microsoft 365 Defender 프로젝트 결과 요약
-description: 성적표를 완성하고, 보고서 결과를 분석하고, 앞으로 이동하는 방법을 결정하여 파일럿 Microsoft 365 Defender 프로젝트를 완료합니다.
-keywords: Microsoft 365 Defender 파일럿, Microsoft 365 Defender 프로젝트 파일럿 후 다음으로 할 작업 결정, 프로덕션에서 Microsoft 365 Defender 평가 후의 작업, Microsoft 365 Defender 파일럿에서 배포로 전환, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+title: Defender 프로젝트 Microsoft 365 파일럿 결과 요약
+description: 점수표를 완성하고Microsoft 365 결과를 분석하고 앞으로 이동하는 방법을 결정하여 파일럿 프로젝트를 완료합니다.
+keywords: Microsoft 365 Defender 파일럿, 파일럿 Microsoft 365 Defender 프로젝트, 프로덕션에서 Microsoft 365 Defender를 평가한 후의 작업, Microsoft 365 Defender 파일럿에서 배포로 전환, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -28,7 +28,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51932872"
 ---
-# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Microsoft 365 Defender 파일럿 닫기 및 요약  
+# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Defender 파일럿 Microsoft 365 닫기 및 요약  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -45,7 +45,7 @@ ms.locfileid: "51932872"
 
 현재 닫기 및 요약 단계에 있습니다.
 
-도메인 컨트롤러에서 원격으로 코드를 실행하는 고급 메모리 전용 공격 시뮬레이션을 실행했습니다. 끝점용 Microsoft Defender 및 ID용 Microsoft Defender가 도용된 악의적인 활동을 감지하고 경고를 생성하는 방법을 확인했습니다. 또한 Microsoft 365 보안 센터 포털에서 다른 컨텍스트 정보와 함께 여러 원본의 경고가 단일 인시던트로 전달된 방식도 볼 수 있습니다. 이러한 통합을 경험하면 SOC 분석가가 조사하고 필요한 조치를 취할 수 있습니다. 또한 사용자가 첨부 파일을 열거나 저장하고 해당 쿼리를 기반으로 검색을 만든 인바운드 전자 메일을 식별하는 고급 헌팅 쿼리를 만들 수 있습니다.
+도메인 컨트롤러에서 원격으로 코드를 실행하는 고급 메모리 전용 공격 시뮬레이션을 실행했습니다. 끝점용 Microsoft Defender 및 ID용 Microsoft Defender가 도용된 악의적인 활동을 감지하고 경고를 생성하는 방법을 확인했습니다. 또한 여러 원본의 경고가 다른 상황 정보와 함께 보안 센터 포털에서 단일 인시던트로 전달되는 Microsoft 365 있습니다. 이러한 통합을 경험하면 SOC 분석가가 조사하고 필요한 조치를 취할 수 있습니다. 또한 사용자가 첨부 파일을 열거나 저장하고 해당 쿼리를 기반으로 검색을 만든 인바운드 전자 메일을 식별하는 고급 헌팅 쿼리를 만들 수 있습니다.
 
 모든 테스트가 완료된 후 프로세스가 끝났습니다.
 
@@ -60,8 +60,8 @@ ms.locfileid: "51932872"
 이 시뮬레이션을 즐길 수 있습니다. 조직에서 더 큰 규모로 배운 내용을 구현하여 통합된 보안 솔루션을 가장 잘 사용할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
-다음 대화형 가이드를 통해 Microsoft 365 Defender 기조에 대해 자세히 알아보세요.
-- [Office 365용 Microsoft Defender를 사용하여 조직 보호](https://aka.ms/O365ATP-Interactive-Guide)
+다음 대화형 가이드를 Microsoft 365 Defender 기조에 대해 자세히 알아보세요.
+- [Microsoft Defender를 사용하여 조직을 Office 365](https://aka.ms/O365ATP-Interactive-Guide)
 - [Microsoft Defender for Identity를 사용하여 의심스러운 활동과 잠재적인 공격을 감지](https://aka.ms/AATP-Interactive-Guide)
-- [Microsoft Cloud App Security를 사용하여 위협 감지 및 경고 관리](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
+- [위협을 감지하고 경고를 Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
 - [끝점용 Microsoft Defender를 통해 위협 조사 및 수정](https://aka.ms/MDATP-IR-Interactive-Guide)

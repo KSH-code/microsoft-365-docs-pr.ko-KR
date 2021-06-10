@@ -1,6 +1,6 @@
 ---
 title: 파트너가 장치를 등록하기 위한 단계
-description: 파트너가 Microsoft Managed Desktop에서 관리할 수 있도록 장치를 등록하는 방법
+description: 파트너가 디바이스를 등록하여 디바이스를 관리하기 위해 등록하는 Microsoft Managed Desktop
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -21,7 +21,7 @@ ms.locfileid: "51689236"
 # <a name="steps-for-partners-to-register-devices"></a>파트너가 장치를 등록하기 위한 단계
 
 
-이 문서에서는 파트너가 장치를 등록하기 위해 따라야 하는 단계에 대해 설명합니다. 장치를 직접 등록하는 프로세스는 [직접 Microsoft Managed Desktop에서 장치 등록에 설명되어 있습니다.](register-devices-self.md)
+이 문서에서는 파트너가 장치를 등록하기 위해 따라야 하는 단계에 대해 설명합니다. 장치를 직접 등록하는 프로세스는 장치 등록에서 직접 Microsoft Managed Desktop [문서화되어 있습니다.](register-devices-self.md)
 
 
 
@@ -30,7 +30,7 @@ ms.locfileid: "51689236"
 
 
 > [!NOTE]
-> 이 설명서는 파트너 및 OEM에 한해 제공됩니다. 자체 등록 프로세스는 [직접 Microsoft Managed Desktop에서 장치 등록에 설명되어 있습니다.](register-devices-self.md)
+> 이 설명서는 파트너 및 OEM에 한해 제공됩니다. 자체 등록 프로세스는 에서 장치 등록에 [Microsoft Managed Desktop 설명되어 있습니다.](register-devices-self.md)
 
 
 ## <a name="register-devices-by-using-partner-center"></a>파트너 센터를 사용하여 장치 등록
@@ -41,7 +41,7 @@ ms.locfileid: "51689236"
 2. 파트너 **센터** 메뉴에서 고객을 선택한 다음 디바이스를 관리할 고객을 선택합니다.
 3. 고객의 세부 정보 페이지에서 장치를 **선택합니다.**
 4. 장치에 **프로필 적용에서** 장치 **추가를 선택합니다.**
-5. 선택한 장치 프로필에 적절한 그룹 태그를 입력한 다음 찾아보기를 선택하여  고객 목록(.csv 파일 형식)을 파트너 센터에 업로드합니다.
+5. 선택한 장치 프로필에 적절한 그룹 태그를 입력한 다음 찾아보기를 선택하여  고객 목록을 파트너 센터에 업로드합니다(.csv 파일 형식).
 
 |[장치 프로필](../service-description/profiles.md)  |그룹 태그  |
 |---------|---------|
@@ -50,12 +50,12 @@ ms.locfileid: "51689236"
 |Standard     | **Microsoft365Managed \_ Standard**        |
 
 > [!IMPORTANT]
-> 그룹 이름은 대문자 및 특수 문자를 포함하여 표에 나열된 이름과 정확히 일치해야 합니다. 이렇게 하면 새로 등록된 장치를 Microsoft Managed Desktop Autopilot 프로필로 할당할 수 있습니다.
+> 그룹 이름은 대문자 및 특수 문자를 포함하여 표에 나열된 이름과 정확히 일치해야 합니다. 이렇게 하면 새로 등록된 디바이스를 Autopilot 프로필과 함께 Microsoft Managed Desktop 수 있습니다.
 
 >[!NOTE]
-> 디바이스 구매와 함께 이 .csv 파일을 받았을 것입니다. .csv 파일을 받지 못하면 [Windows Autopilot에](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell)장치 추가의 단계에 따라 직접 파일을 만들 수 있습니다. 이 Windows PowerShell 스크립트는 [Microsoft Managed Desktop Admin 포털에 사용되는 스크립트와 다릅니다.](./register-devices-self.md#obtain-the-hardware-hash) 파트너는 [Get-WindowsAutoPilotInfo를](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 사용하여 파트너 센터에서 Microsoft Managed Desktop 장치에 대한 장치를 등록해야 합니다.
+> 디바이스 구매 시 이 .csv 파일을 받았을 것입니다. .csv 파일을 받지 못하면 [Autopilot](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell)에 장치 추가의 단계에 따라 직접 Windows 있습니다. Windows PowerShell 스크립트는 Microsoft Managed Desktop [관리 포털에](./register-devices-self.md#obtain-the-hardware-hash)사용되는 스크립트와 다릅니다. 파트너는 [Get-WindowsAutoPilotInfo를](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 사용하여 파트너 센터에서 Microsoft Managed Desktop 장치를 등록해야 합니다.
 
-.csv 파일을 업로드하는 동안 오류 메시지가 표시되어 있는 경우 파일 형식을 검사합니다. 열 순서가 새 장치에서 [Windows Autopilot](/partner-center/autopilot#add-devices-to-a-customers-account)프로필을 사용하여 고객의 첫 실행 경험을 사용자 지정에 설명된 순서와 일치하는지 확인 장치 추가 옆에 있는 링크에서 제공된 샘플 .csv 파일을 사용하여 장치 목록을 만들 수 있습니다.  
+파일 파일을 업로드하는 동안 오류 메시지가 .csv 파일의 형식을 검사합니다. 열 순서가 새 디바이스의 [Autopilot](/partner-center/autopilot#add-devices-to-a-customers-account)프로필을 사용하여 고객의 첫 번째 경험 사용자 지정에 설명된 Windows 일치하는지 확인 장치 추가 옆에 있는 링크에서 제공된 샘플  .csv 파일을 사용하여 장치 목록을 만들 수 있습니다. 
 
 파트너 시나리오의 Autopilot에 대한 자세한 내용은 고객 계정에 장치 [추가를 참조하세요.](/partner-center/autopilot#add-devices-to-a-customers-account)
 
@@ -74,4 +74,4 @@ ms.locfileid: "51689236"
 |Standard     | **Microsoft365Managed \_ Standard**      |
 
 > [!IMPORTANT]
-> 그룹 태그는 대문자 및 특수 문자를 포함하여 표에 나열된 태그와 정확히 일치해야 합니다. 이렇게 하면 새로 등록된 장치를 Microsoft Managed Desktop Autopilot 프로필로 할당할 수 있습니다.
+> 그룹 태그는 대문자 및 특수 문자를 포함하여 표에 나열된 태그와 정확히 일치해야 합니다. 이렇게 하면 새로 등록된 디바이스를 Autopilot 프로필과 함께 Microsoft Managed Desktop 수 있습니다.

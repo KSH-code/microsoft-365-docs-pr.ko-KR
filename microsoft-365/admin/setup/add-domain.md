@@ -136,7 +136,7 @@ ms.locfileid: "52635681"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인](domains-faq.yml) FAQ(문서)\
+[도메인 FAQ](domains-faq.yml)(문서)\
 [도메인이 무엇인가요?](../get-help-with-domains/what-is-a-domain.md) (기사)\
 [Microsoft 365 도메인](../get-help-with-domains/buy-a-domain-name.md) 이름 구입(문서)\
 [도메인](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) 설정(문서)

@@ -35,10 +35,10 @@ ms.locfileid: "51932968"
 **적용 대상:**
 - Microsoft 365 Defender
 
-[](advanced-hunting-overview.md) Microsoft 365 Defender의 고급 헌팅을 사용하면 다음 전반에 걸쳐 위협을 사전 대응적으로 헌팅할 수 있습니다.
+[Microsoft 365](advanced-hunting-overview.md) Defender의 고급 헌팅을 통해 다음 전반에 걸쳐 위협을 사전 대응적으로 헌팅할 수 있습니다.
 - 끝점용 Microsoft Defender에서 관리하는 장치
-- Microsoft 365에서 처리된 전자 메일
-- Microsoft Cloud App Security 및 Id에 대한 Microsoft Defender에서 추적하는 클라우드 앱 활동, 인증 이벤트 및 도메인 컨트롤러 활동
+- 사용자에 의해 처리된 Microsoft 365
+- 클라우드 앱 활동, 인증 이벤트 및 id에 대한 Microsoft Microsoft Cloud App Security 추적하는 도메인 컨트롤러 활동
 
 이 수준의 가시성을 통해 전자 메일 또는 웹에 도착하는 정교한 침입을 포함하여 네트워크의 섹션을 트래버스하는 위협을 빠르게 찾거나, 로컬 권한을 상승하고, 권한이 부여된 도메인 자격 증명을 획득하고, 장치 전체로 이동하는 위협을 빠르게 검색할 수 있습니다. 
 

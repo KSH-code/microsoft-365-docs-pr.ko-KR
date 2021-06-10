@@ -28,7 +28,7 @@ ms.locfileid: "51691262"
 
 선택한 장치 프로필이 첫 번째 단계에서 선택한 모든 장치에 적용됩니다. 별도의 디바이스를 다른 프로필로 이동하려면 각 장치 프로필에 대해 이 프로세스를 반복해야 합니다. 
 
-1. Microsoft 끝점 관리자의 **** 왼쪽   창에서 장치를 선택합니다. 메뉴의 **Microsoft Managed Desktop** 섹션에서 장치를  **선택합니다.**  
+1. In Microsoft Endpoint Manager, select **Devices**   in the left pane. 메뉴의 **Microsoft Managed Desktop** 섹션에서 장치를  **선택합니다.**  
 2. 수정할 장치의 확인란을 선택합니다. 
 3. 장치 **프로필 변경을 선택합니다.** 플라이 인이 열립니다.
 4. 드롭다운 메뉴를 사용하여 새 장치 프로필을 선택합니다.
