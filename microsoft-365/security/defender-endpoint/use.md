@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender 보안 센터 개요
-description: 경고 작동 방법 및 위반 및 공격을 조사하는 방법에 대한 제안을 포함하여 Microsoft Defender 보안 센터의 기능에 대해 자세히 알아보십시오.
+description: 경고 작동 Microsoft Defender 보안 센터 및 위반 및 공격을 조사하는 방법에 대한 제안을 포함하여 알림의 기능에 대해 자세히 알아보십시오.
 keywords: 대시보드, 경고 큐, 경고 관리, 조사, 경고 조사, 장치 조사, 파일 제출, 심층 분석, 높음, 중간, 낮음, 심각도, ioc, ioa
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -29,13 +29,13 @@ ms.locfileid: "51581097"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-usewdatp-abovefoldlink)
 
-Microsoft Defender 보안 센터는 끝점용 Microsoft Defender 기능에 액세스할 수 있는 포털입니다.
+Microsoft Defender 보안 센터 Microsoft Defender for Endpoint 기능에 액세스할 수 있는 포털입니다.
 
 보안 **작업 대시보드를** 사용하여 네트워크의 장치 및 사용자에 대한 다양한 경고에 대한 정보를 얻을 수 있습니다.
 

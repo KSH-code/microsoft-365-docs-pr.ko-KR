@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 사용 현황 분석에서 보고서 사용자 지정
+title: 사용 현황 분석에서 Microsoft 365 사용자 지정
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
-description: 브라우저 및 Power BI Desktop에서 보고서를 사용자 지정하는 방법을 학습합니다.
+description: 브라우저 및 웹 응용 프로그램을 통해 보고서를 사용자 지정하는 Power BI Desktop.
 ms.openlocfilehash: 0ef2364c82318dfea93e8df4e64d53a66caa8d74
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -27,9 +27,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51580777"
 ---
-# <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석에서 보고서 사용자 지정
+# <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>사용 현황 분석에서 Microsoft 365 사용자 지정
 
-Microsoft 365 사용 현황 분석은 사용자가 Microsoft 365를 채택하고 사용하는 방법에 대한 인사이트를 제공하는 Power BI의 대시보드를 제공합니다. 대시보드는 사용 현황 데이터와 상호 작용하는 시작점입니다. 보고서를 사용자 지정하여 더 개인화된 유용한 정보를 얻을 수 있습니다.
+Microsoft 365 사용 현황 분석은 사용자가 Power BI 사용하는 방법에 대한 인사이트를 제공하는 대시보드를 Microsoft 365. 대시보드는 사용 현황 데이터와 상호 작용하는 시작점입니다. 보고서를 사용자 지정하여 더 개인화된 유용한 정보를 얻을 수 있습니다.
   
 또한 Power BI Desktop을 통해 보고서를 다른 데이터 원본에 연결하여 추가로 사용자 지정하고 비즈니스에 대한 풍부한 통찰력을 얻을 수 있습니다.
   
@@ -43,7 +43,7 @@ Microsoft 365 사용 현황 분석은 사용자가 Microsoft 365를 채택하고
   
 1. 정품 **인증/라이선스 보고서에서** 정품 인증 **탭을** 선택합니다.
     
-2. Power BI 단추의  페이지 더하기 단추를 통해 맨 위에 있는 편집 단추를 선택하여 편집 모드를 ![ ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 입력합니다. 
+2. 단추의 페이지 더하기  단추를 통해 맨 위에 있는 편집 단추를 선택하여 ![ 편집 Power BI ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 입력합니다. 
     
     ![Click Edit report on the top right navigation](../../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
   
@@ -61,11 +61,11 @@ Microsoft 365 사용 현황 분석은 사용자가 Microsoft 365를 채택하고
 
 다음 예에서는 매월 사용자를 새로 정의하기 위해 새 시각적 개체를 만드는 방법을 보여 줍니다.
   
-1. 왼쪽 검색 **창을** 사용하여 제품 사용 현황 보고서로 이동하여 Yammer **선택합니다.**
+1. 왼쪽 검색 **창을** 사용하여 제품 사용 현황 보고서로 이동한 다음 Yammer **선택합니다.**
     
-2. Power BI 및 Edit에서 더 많은 페이지 단추를 선택하여 편집 ![ ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 모드로 **전환합니다.** 
+2. 편집 및 편집에서 더 많은 페이지 단추를 선택하여 ![ Power BI ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) **전환합니다.** 
     
-3. At the bottom of the page, select the ![Power BI의 페이지 추가 단추](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) 새 페이지를 만들 수 있습니다.
+3. At the bottom of the page, select the ![페이지의 페이지 추가 Power BI](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) 새 페이지를 만들 수 있습니다.
   
 4. 오른쪽의  시각화 영역에서 누적  막대형 차트(왼쪽에서 맨 위 행)를 선택하십시오.
 
@@ -89,7 +89,7 @@ Microsoft 365 사용 현황 분석은 사용자가 Microsoft 365를 채택하고
 
     ![선택 Yammer 선택](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
   
-12. 시각화 목록 바로 아래에 있는  Power ![ BI Visualizaions의 서식 아이콘 서식 아이콘을 ](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) 선택합니다.
+12. 시각화 목록 바로 아래에 있는  ![ Visualizaions의 서식 아이콘 서식 아이콘을 Power BI ](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) 선택합니다.
 
 13. 제목을 확장하고 **제목 텍스트** 값을 **First-Time Yammer Users by Month**(월별 Yammer 최초 사용자)로 변경합니다.
     
@@ -105,7 +105,7 @@ Microsoft 365 사용 현황 분석은 사용자가 Microsoft 365를 채택하고
   
 ### <a name="use-the-reporting-apis"></a>보고 API 사용
 
-먼저 Microsoft 365에서 ODATA 보고 API에 직접 연결하여 이러한 보고서를 지원할 수 있습니다.
+이러한 보고서의 전원을 공급하는 ODATA 보고 API에 직접 연결하여 시작할 Microsoft 365 있습니다.
   
 1. **데이터 가져오기** \> **기타** \> **ODATA 피드** \> **연결** 로 이동합니다.
     
@@ -115,9 +115,9 @@ Microsoft 365 사용 현황 분석은 사용자가 Microsoft 365를 채택하고
   
     ![OData feed URL for Power BI desktop](../../media/c0ef967e-a454-4eba-bc8e-61e113170053.png)
   
-3. 메시지가 표시될 때 Microsoft 365(조직 또는 학교) 관리자 자격 증명을 입력하여 Microsoft 365를 인증합니다.
+3. 메시지가 Microsoft 365 인증할 사용자(조직 또는 학교) 관리자 자격 증명을 Microsoft 365 자격 증명을 입력합니다.
     
-    Microsoft 365 채택 템플릿 앱 보고서에 액세스할 수 있는 사용자에 대한 자세한 내용은 [FAQ를](usage-analytics.md#faq) 참조하세요. 
+    채택 템플릿 앱 보고서에 액세스할 수 있는 사용자에 대한 자세한 내용은 [FAQ를](usage-analytics.md#faq) Microsoft 365 참조하세요. 
     
 4. 연결이 승인되면 연결할 수 있는 데이터 집합을 보여주는 탐색 창이 표시됩니다.
     
@@ -127,11 +127,11 @@ Microsoft 365 사용 현황 분석은 사용자가 Microsoft 365를 채택하고
     
     ![보고 API에서 사용할 수 있는 ODATA 값](../../media/545b4d17-dbbd-4cfc-b75a-a8b27283d438.png)
   
-### <a name="use-the-microsoft-365-usage-analytics-template"></a>Microsoft 365 사용 현황 분석 템플릿 사용
+### <a name="use-the-microsoft-365-usage-analytics-template"></a>사용 현황 Microsoft 365 템플릿 사용
 
-Microsoft 365 사용 현황 분석 보고서에 해당하는 Power BI 템플릿 파일을 데이터에 연결하는 시작점으로 사용할 수도 있습니다. pbit 파일을 사용하는 장점은 연결 문자열이 이미 설정되었다는 점입니다. 기본 스키마가 반환하고 추가적으로 빌드하는 데이터의 맨 위에 만들어진 모든 사용자 지정 측정을 활용할 수도 있습니다.
+또한 데이터 연결의 시작점으로 Power BI 사용 현황 분석 보고서에 해당하는 Microsoft 365 서식 파일을 사용할 수도 있습니다. pbit 파일을 사용하는 장점은 연결 문자열이 이미 설정되었다는 점입니다. 기본 스키마가 반환하고 추가적으로 빌드하는 데이터의 맨 위에 만들어진 모든 사용자 지정 측정을 활용할 수도 있습니다.
   
-Power BI 템플릿 파일은 Microsoft 다운로드 센터에서 [다운로드할 수 있습니다.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit) Power BI 템플릿 파일을 다운로드한 후 다음 단계에 따라 시작하세요.
+Microsoft 다운로드 센터에서 Power BI 다운로드할 [수 있습니다.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit) Power BI 파일을 다운로드한 후 다음 단계에 따라 시작하세요.
   
 1. pbit 파일을 엽니다.
     
@@ -139,9 +139,9 @@ Power BI 템플릿 파일은 Microsoft 다운로드 센터에서 [다운로드�
     
     ![Enter your tenant ID to open the pbit file](../../media/071ed0bf-8b9d-49c6-81fc-fd4c6cc85bd3.png)
   
-3. 메시지가 표시될 때 관리자 자격 증명을 입력하여 Microsoft 365에 인증합니다.
+3. 메시지가 표시될 때 관리자 자격 증명을 입력하여 Microsoft 365 인증합니다.
     
-     Microsoft 365 사용 현황 분석 보고서에 액세스할 수 있는 사용자에 대한 자세한 정보를 제공합니다. 
+     사용 현황 분석 보고서에 액세스할 수 있는 Microsoft 365 정보를 제공합니다. 
     
     권한이 부여되면 데이터가 Power BI 파일에서 새로 고쳐집니다.
     

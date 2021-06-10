@@ -32,11 +32,11 @@ ms.locfileid: "51580501"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrWGt?autoplay=false]
 
-Microsoft 365는 JavaScript, 배치 및 실행 파일과 같은 잠재적으로 위험한 파일이 Outlook에서 열리지 못하게 하여 랜섬웨어로부터 비즈니스를 보호합니다. 추가 파일 형식을 차단하거나 경고하는 규칙을 추가하여 이 보호 수준을 높이기 위해 다음 단계를 수행합니다.
+Microsoft 365 JavaScript, 배치 및 실행 파일과 같은 잠재적으로 위험한 파일이 랜섬웨어로부터 비즈니스를 열지 못하게 하여 비즈니스를 Outlook. 추가 파일 형식을 차단하거나 경고하는 규칙을 추가하여 이 보호 수준을 높이기 위해 다음 단계를 수행합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. 의 관리 센터에서 [https://admin.microsoft.com](https://admin.microsoft.com) 관리 센터 **아래 Exchange를** **선택하세요.**
+1. 의 관리 센터에서 [https://admin.microsoft.com](https://admin.microsoft.com) 관리 **Exchange** **를 선택하세요.**
 1. 왼쪽 메뉴에서 메일 흐름 **을 선택합니다.**
 1. 규칙 탭에서 더하기 기호(+) 옆의 화살표를 선택한 다음 새 규칙 만들기 **를 선택합니다.**
 1. 새 **규칙 페이지에서** 규칙의 이름을 입력하고 아래쪽으로 스크롤한 다음 추가 옵션을 **선택합니다.**

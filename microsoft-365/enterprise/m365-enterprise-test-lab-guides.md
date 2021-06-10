@@ -37,17 +37,17 @@ TLG는 모듈식으로 설계됩니다. 이러한 구성은 서로를 토대하�
   
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵을 확인한 경우 다음 그래픽을 확장하거나 [엔터프라이즈용 Microsoft 365 테스트](../downloads/Microsoft365EnterpriseTLGStack.pdf)랩 가이드 스택으로 이동하세요.
+엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 문서에 대한 시각적 맵을 확인한 경우 다음 그래픽을 확장하거나 엔터프라이즈 테스트 랩 Microsoft 365 스택용 그래픽으로 [이동하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 [![Microsoft 365 Enterprise 테스트 랩 가이드 스택](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="base-configuration"></a>기본 구성
 
-먼저 엔터프라이즈용 Microsoft [365의 테스트 환경을 만들어야 합니다.](/microsoft-365-enterprise/) 두 가지 유형의 기본 구성을 만들 수 있습니다.
+먼저 엔터프라이즈용 에 대한 테스트 Microsoft 365 [을 만들어야 합니다.](/microsoft-365-enterprise/) 두 가지 유형의 기본 구성을 만들 수 있습니다.
 
-- [간단한 기본](lightweight-base-configuration-microsoft-365-enterprise.md) 구성 - 클라우드 전용 환경에서 엔터프라이즈용 Microsoft 365 기능을 구성하고 시연하려는 경우 이 기능을 사용하며, 이 환경에는 모든 구성 요소가 포함되어 있지 않습니다.
+- [간단한 기본](lightweight-base-configuration-microsoft-365-enterprise.md) 구성 - 클라우드 전용 환경의 엔터프라이즈 기능 및 Microsoft 365 구성 요소를 포함하지 않는 엔터프라이즈 기능을 구성하고 시연하려는 경우 이 기능을 사용 합니다.
 
-- [시뮬레이트된 엔터프라이즈](simulated-ent-base-configuration-microsoft-365-enterprise.md) 기본 구성 - AD DS(Active Directory 도메인 서비스) 도메인과 같은 사내 구성 요소를 사용하는 하이브리드 클라우드 환경에서 엔터프라이즈용 Microsoft 365 기능을 구성하고 시연하려는 경우 이 기능을 사용하세요.
+- [시뮬레이트된](simulated-ent-base-configuration-microsoft-365-enterprise.md) 엔터프라이즈 기본 구성 - AD DS(Active Directory 도메인 서비스) 도메인과 같은 Microsoft 365 구성 요소를 사용하는 하이브리드 클라우드 환경에서 엔터프라이즈 기능에 대한 기본 설정을 구성하고 시연하려는 경우 이 기능을 사용하세요.
 
 평가판 또는 프로덕션 테스트 환경에 Microsoft 365 E5 라이선스를 추가하지 않고 Office 365 E5에 대한 테스트 환경을 만들 수도 있습니다.
     

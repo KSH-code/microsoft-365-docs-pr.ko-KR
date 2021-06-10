@@ -17,7 +17,7 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 ms.assetid: bb003bdb-3c22-4141-ae3b-f0656fc23b9c
-description: Microsoft 365용 PowerShell을 사용하여 사용자 계정에 라이선스를 할당하고 특정 서비스 계획을 동시에 사용하지 않도록 설정하는 방법을 학습합니다.
+description: PowerShell을 사용하여 사용자 계정에 라이선스를 할당하고 특정 서비스 계획을 동시에 사용하지 않도록 설정하는 방법을 Microsoft 365.
 ms.openlocfilehash: 7486968f6f4822047a1697ee1e05129277fd11a8
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,11 +29,11 @@ ms.locfileid: "50929435"
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 구독은 개별 서비스에 대한 서비스 요금제와 함께 제공합니다. Microsoft 365 관리자는 사용자에게 라이선스를 할당할 때 특정 계획을 사용하지 않도록 설정해야 하는 경우가 종종 있습니다. 이 문서의 지침에 따라 개별 사용자 계정 또는 여러 사용자 계정에 대해 PowerShell을 사용하여 특정 서비스 계획을 사용하지우는 동안 Microsoft 365 라이선스를 할당할 수 있습니다.
+Microsoft 365 구독에는 개별 서비스에 대한 서비스 계획이 함께 제공되어 있습니다. Microsoft 365 사용자에게 라이선스를 할당할 때 특정 계획을 사용하지 않도록 설정해야 하는 경우가 종종 있습니다. 이 문서의 지침에 따라 개별 사용자 계정 또는 여러 사용자 계정에 대해 PowerShell을 사용하여 특정 서비스 계획을 사용하지 Microsoft 365 라이선스를 할당할 수 있습니다.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 
 다음으로, 이 명령을 사용하여 테넌트에 대한 라이선스 계획을 나열합니다.
@@ -67,7 +67,7 @@ Set-AzureADUserLicense -ObjectId $user.ObjectId -AssignedLicenses $LicensesToAss
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 다음으로, 다음 명령을 실행하여 현재 구독을 봐야 합니다.
   
@@ -81,7 +81,7 @@ Get-MsolAccountSku
 
 명령 표시에서  `Get-MsolAccountSku` 다음을 실행합니다.
   
-- **AccountSkuId는** 조직의 \<OrganizationName> 구독(형식)입니다. \<Subscription> 는 Microsoft 365에 등록할 때 제공한 \<OrganizationName> 값으로, 조직에 고유합니다. 값은 \<Subscription> 특정 구독에 대한 것입니다. 예를 들어 litwareinc:ENTERPRISEPACK의 경우 조직 이름은 litwareinc, 구독 이름은 ENTERPRISEPACK(Office 365 Enterprise E3)입니다.
+- **AccountSkuId는** 조직의 \<OrganizationName> 구독(형식)입니다. \<Subscription> 는 조직에 등록할 때 제공한 Microsoft 365 \<OrganizationName> 고유합니다. 값은 \<Subscription> 특정 구독에 대한 것입니다. 예를 들어 litwareinc:ENTERPRISEPACK의 경우 조직 이름은 litwareinc, 구독 이름은 ENTERPRISEPACK(Office 365 Enterprise E3)입니다.
     
 - **ActiveUnits는** 구독을 위해 구입한 라이선스 수입니다.
     
@@ -89,9 +89,9 @@ Get-MsolAccountSku
     
 - **ConsumedUnits는** 구독에 대해 사용자에게 할당한 라이선스 수입니다.
     
-라이선스를 부여할 사용자가 포함된 Microsoft 365 구독의 AccountSkuId를 기록해 두시습니다. 또한 할당할 수 있는 라이선스가 충분한지 **확인(ActiveUnits에서 ConsumedUnits 빼기).** 
+라이선스를 부여할 사용자가 Microsoft 365 구독의 AccountSkuId를 참고하십시오. 또한 할당할 수 있는 라이선스가 충분한지 **확인(ActiveUnits에서 ConsumedUnits 빼기).** 
   
-다음으로, 이 명령을 실행하여 모든 구독에서 사용할 수 있는 Microsoft 365 서비스 계획에 대한 세부 정보를 봐야 합니다.
+다음으로, 다음 명령을 실행하여 모든 구독에서 사용할 수 있는 Microsoft 365 서비스 계획에 대한 세부 정보를 봐야 합니다.
   
 ```powershell
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
@@ -99,9 +99,9 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 
 이 명령이 표시되어 있는 경우 사용자에게 라이선스를 할당할 때 사용하지 않도록 설정할 서비스 계획을 결정해야 합니다.
   
-다음은 서비스 계획 및 해당 Microsoft 365 서비스의 일부 목록입니다.
+다음은 서비스 계획 및 해당 서비스 계획의 일부 Microsoft 365 있습니다.
 
-다음 표에는 Microsoft 365 서비스 계획과 가장 일반적인 서비스에 대한 이름이 표시됩니다. 서비스 계획 목록이 다를 수도 있습니다. 
+다음 표에는 서비스 Microsoft 365 가장 일반적인 서비스에 대한 이름 및 서비스 계획이 표시됩니다. 서비스 계획 목록이 다를 수도 있습니다. 
   
 |**서비스 계획**|**설명**|
 |:-----|:-----|
@@ -109,9 +109,9 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 | `TEAMS1` <br/> |Microsoft Teams  <br/> |
 | `YAMMER_ENTERPRISE` <br/> |Yammer  <br/> |
 | `RMS_S_ENTERPRISE` <br/> |RMS(Azure 권한 관리)  <br/> |
-| `OFFICESUBSCRIPTION` <br/> |엔터프라이즈용 Microsoft 365 *앱(이전 명명된 Office 365 ProPlus)*  <br/> |
+| `OFFICESUBSCRIPTION` <br/> |*엔터프라이즈용 Microsoft 365 앱(이전에는 Office 365 ProPlus)*  <br/> |
 | `MCOSTANDARD` <br/> |비즈니스용 Skype Online  <br/> |
-| `SHAREPOINTWAC` <br/> |사무실   <br/> |
+| `SHAREPOINTWAC` <br/> |Office   <br/> |
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
 | `EXCHANGE_S_ENTERPRISE` <br/> |Exchange Online 계획 2  <br/> |
    
@@ -186,7 +186,7 @@ $users | Get-MsolUser | Select UserPrincipalName, Islicensed,Usagelocation | Exp
     
 ## <a name="see-also"></a>참고 항목
 
-[PowerShell을 통해 Microsoft 365 서비스에 액세스하지 않도록 설정](disable-access-to-services-with-microsoft-365-powershell.md)
+[PowerShell을 Microsoft 365 서비스에 액세스하지 않도록 설정](disable-access-to-services-with-microsoft-365-powershell.md)
   
 [PowerShell을 통해 Sway에 액세스하지 않도록 설정](disable-access-to-sway-with-microsoft-365-powershell.md)
   

@@ -1,5 +1,5 @@
 ---
-title: 사용자 계정에 Microsoft 365 라이선스 할당
+title: 사용자 Microsoft 365 라이선스 할당
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -25,7 +25,7 @@ search.appverid:
 - MOE150
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
-description: 개별적으로 또는 그룹 구성원 자격에 따라 사용자 계정에 Microsoft 365 라이선스를 할당하는 방법에 대해 설명
+description: 개별적으로 또는 그룹 멤버 자격에 따라 Microsoft 365 계정에 라이선스를 할당하는 방법에 대해 설명
 ms.openlocfilehash: 2fe1e2f959fae8b0bc82a7dcd4f65f33b21c368a
 ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51051535"
 ---
-# <a name="assign-microsoft-365-licenses-to-user-accounts"></a>사용자 계정에 Microsoft 365 라이선스 할당
+# <a name="assign-microsoft-365-licenses-to-user-accounts"></a>사용자 Microsoft 365 라이선스 할당
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-클라우드 전용 ID 모델의 경우 만든 방법에 따라 사용자 계정에 Microsoft 365 라이선스를 할당할 수 있습니다.
+클라우드 전용 ID 모델의 경우 사용자 Microsoft 365 만드는 방법에 따라 사용자 계정에 라이선스를 할당할 수 있습니다.
 
-하이브리드 ID 모델의 경우 AD DS(Active Directory 도메인 서비스) 사용자 계정이 처음으로 동기화될 때 위치 또는 Microsoft 365 라이선스가 자동으로 할당되지 않습니다. **라이선스 할당 전 또는 할당과 함께 사용자 위치로 각 사용자 계정을 구성해야 합니다.**
+하이브리드 ID 모델의 경우 AD DS(Active Directory 도메인 서비스) 사용자 계정이 처음으로 동기화될 때 위치 또는 Microsoft 365 할당되지 않습니다. **라이선스 할당 전 또는 할당과 함께 사용자 위치로 각 사용자 계정을 구성해야 합니다.**
 
-두 경우 모두 사용자가 전자 메일 및 Microsoft Teams와 같은 Microsoft 365 서비스에 액세스할 수 있도록 사용자 계정에 라이선스를 할당해야 합니다.
+두 경우 모두 사용자가 전자 메일 및 메일과 같은 Microsoft 365 서비스에 액세스할 수 있도록 사용자 계정에 라이선스를 할당해야 Microsoft Teams.
 
 그룹 구성원 자격을 통해 개별적으로 또는 자동으로 사용자 계정에 라이선스를 할당할 수 있습니다.
 
-개별 사용자 계정에 Microsoft 365 라이선스를 할당하기 위해 다음을 사용할 수 있습니다.
+개별 Microsoft 365 라이선스를 할당하기 위해 다음을 사용할 수 있습니다.
 
 - [Microsoft 365 관리 센터](../admin/manage/assign-licenses-to-users.md)
 - [PowerShell](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
@@ -68,6 +68,6 @@ Azure AD에서 보안 그룹을 구성하여 구독 집합의 라이선스를 �
 라이선스가 할당된 적절한 사용자 계정 집합을 통해 이제 다음을 할 준비가 된 것입니다.
 
 - [보안 구현](../security/defender-365-security/security-roadmap.md)
-- [Microsoft 365 앱과 같은 클라이언트 소프트웨어 배포](/DeployOffice/deployment-guide-microsoft-365-apps)
+- [클라이언트 소프트웨어 배포(예: Microsoft 365 앱](/DeployOffice/deployment-guide-microsoft-365-apps)
 - [장치 관리 설정](device-management-roadmap-microsoft-365.md)
 - [서비스 및 응용 프로그램 구성](configure-services-and-applications.md)

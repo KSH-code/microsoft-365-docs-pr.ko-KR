@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
-description: '사용 현황 분석이 API에 연결하는 방법을 알아보고 다양한 Microsoft 365 서비스의 월별 사용 추세를 제공합니다.  '
+description: '사용 현황 분석이 API에 연결되는 방법을 알아보고 다양한 Microsoft 365 서비스의 월별 사용 추세를 제공합니다.  '
 ms.openlocfilehash: 877ad005e3ff7f7537247963fafcab5fb1ff6c74
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -30,16 +30,16 @@ ms.locfileid: "51580753"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 사용 현황 분석 데이터 모델
 
-## <a name="data-for-the-microsoft-365-usage-analytics-tables"></a>Microsoft 365 사용 현황 분석 테이블에 대한 데이터
+## <a name="data-for-the-microsoft-365-usage-analytics-tables"></a>사용 현황 Microsoft 365 테이블에 대한 데이터
 
-Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는 API에 연결합니다. Microsoft 365 사용 현황 분석에서 데이터를 생성하는 데 사용하는 API는 일반적으로 사용할 수 있는 다양한 Graph API에서 제공됩니다. Microsoft 365 사용 현황 분석 API 자체의 기능은 일반적으로 사용할 수 없습니다.
+Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는 API에 연결합니다. 사용 현황 Microsoft 365 사용하여 데이터를 생성하는 데 사용하는 API는 일반적으로 사용할 수 있는 다양한 API를 Graph 있습니다. 사용 현황 Microsoft 365 API 자체의 기능은 일반적으로 사용할 수 없습니다.
   
 > [!NOTE]
-> 자세한 내용은 [Microsoft Graph에서 Microsoft 365 사용 현황 보고서 작업을 참조하세요.](/graph/api/resources/report) 
+> 자세한 내용은 Microsoft Microsoft 365 사용 현황 보고서 [작업을 Graph.](/graph/api/resources/report) 
   
-이 API는 다양한 Microsoft 365 서비스의 월별 사용 추세에 대한 정보를 제공합니다. API에서 반환되는 정확한 데이터의 경우 다음 섹션의 표를 참조하세요.
+이 API는 다양한 서비스에서 월별 사용량 추세에 대한 정보를 Microsoft 365 제공합니다. API에서 반환되는 정확한 데이터의 경우 다음 섹션의 표를 참조하세요.
   
-## <a name="data-tables-returned-by-the-microsoft-365-reporting-api"></a>Microsoft 365 보고 API에서 반환된 데이터 테이블
+## <a name="data-tables-returned-by-the-microsoft-365-reporting-api"></a>보고 API에서 Microsoft 365 테이블
 
 |**표 이름**|**테이블에 있는 정보**|**날짜 범위**|
 |:-----|:-----|:-----|
@@ -50,8 +50,8 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |테넌트 클라이언트 사용 현황  <br/> |Exchange Online, 비즈니스용 Skype 및 Yammer에 연결하기 위해 특정 클라이언트/장치를 적극적으로 사용하는 사용자 수에 대한 데이터를 포함합니다.  <br/> |이번 달 부분 데이터를 포함하여 현시점에서 과거 12개월 동안 집계된 월별 데이터를 포함합니다.  <br/> |
 |테넌트 SharePoint 온라인 사용 현황  <br/> |사이트 총 수, 사이트의 문서 수, 활동 유형별 파일 수 및 사용된 저장소와 같은 팀 또는 그룹 사이트를 다루는 SharePoint 사이트에 대한 데이터를 포함합니다.  <br/> |현재 월의 일부를 포함하여 롤링된 12개월 기간의 월말 상태 데이터를 포함  <br/> |
 |테넌트 비즈니스용 OneDrive 사용 현황  <br/> |계정 수, OneDrive 문서 수, 사용된 저장소, 활동 유형별 파일 수와 같은 OneDrive 계정에 대한 데이터를 포함합니다.  <br/> |현재 월의 일부를 포함하여 롤링된 12개월 기간의 월말 상태 데이터를 포함  <br/> |
-|테넌트 Microsoft 365 그룹 사용 현황  <br/> |사서함, SharePoint 및 사서함을 비롯한 Microsoft 365 그룹 사용에 대한 Yammer.  <br/> |현재 월의 일부를 포함하여 롤링된 12개월 기간의 월말 상태 데이터를 포함  <br/> |
-|테넌트 Office 정품 인증  <br/> |Office 구독 정품 인증 수, 장치당 정품 인증 수(Android/iOS/Mac/PC), 서비스 계획의 정품 인증(예: 엔터프라이즈용 Microsoft 365 앱, Visio, Project)에 대한 데이터가 들어 있습니다.  <br/> |현재 월의 일부를 포함하여 롤링된 12개월 기간의 월말 상태 데이터를 포함  <br/> |
+|테넌트 Microsoft 365 그룹 사용 현황  <br/> |사서함, Microsoft 365 및 사서함을 비롯한 SharePoint 그룹 사용에 대한 Yammer.  <br/> |현재 월의 일부를 포함하여 롤링된 12개월 기간의 월말 상태 데이터를 포함  <br/> |
+|테넌트 Office 정품 인증  <br/> |Office 구독 정품 인증 수, 장치당 정품 인증 수(Android/iOS/Mac/PC), 서비스 계획의 정품 인증(예: 엔터프라이즈용 Microsoft 365 앱, Visio, Project.  <br/> |현재 월의 일부를 포함하여 롤링된 12개월 기간의 월말 상태 데이터를 포함  <br/> |
 |사용자 상태  <br/> |사용자 표시 이름, 할당된 제품, 위치, 부서, 제목, 회사 등의 사용자에 대한 메타데이터를 포함합니다. 이 데이터는 지난달에 라이선스가 할당된 사용자에 대한 정보입니다. 모든 사용자는 사용자 ID로 고유하게 표현됩니다.  <br/> |이 데이터는 지난달에 할당된 라이선스를 보유했던 사용자에 대한 정보입니다.  <br/> |
 |사용자 활동  <br/> |라이선스가 부여된 사용자가 수행한 활동에 대한 사용자별 수준 정보를 포함합니다.  <br/> 이 데이터 테이블에서 반환되는 제품 내의 활동에 대한 정보는 [활성 사용자 정의](active-user-in-usage-reports.md)를 참조하세요.  <br/> |이 데이터는 지난달에 모든 서비스에서 활동을 수행한 사용자에 대한 정보입니다.  <br/> |
    
@@ -67,13 +67,13 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |시간 범위  <br/> |이 테이블에 데이터가 있는 월 값입니다.  <br/> |
 |UPN  <br/> |사용자 계정 이름은 다른 외부 데이터 소스와 결합할 수 있는 사용자를 고유하게 식별합니다.  <br/> |
 |DisplayName  <br/> |사용자의 표시 이름입니다.  <br/> |
-|IDType  <br/> |사용자가 Microsoft 365 ID를 사용하여 Yammer ID를 사용하여 연결하는 Yammer 사용자인 경우 ID Yammer 1로 설정됩니다.  <br/> 값이 1이면 이 사용자가 Microsoft 365 ID가 아닌 Yammer YAMMER ID로 연결됩니다.  <br/> |
+|IDType  <br/> |ID 유형은 사용자가 Yammer ID를 사용하여 연결하는 Yammer 사용자인 경우 1로 설정됩니다Yammer ID를 사용하여 Yammer 연결하면 Microsoft 365.  <br/> 값이 1이면 이 사용자가 Yammer ID가 아닌 Yammer ID로 Microsoft 365 있습니다.  <br/> |
 |HasLicenseEXO  <br/> |사용자에게 라이선스가 할당되고 Exchange를 사용할 수 있는 경우 true로 설정됩니다.  <br/> |
 |HasLicenseODB  <br/> |사용자에게 라이선스가 할당되고 비즈니스용 OneDrive를 사용할 수 있는 경우 true로 설정됩니다.  <br/> |
 |HasLicenseSPO  <br/> |사용자에게 라이선스가 할당되고 SharePoint Online을 사용할 수 있는 경우 true로 설정됩니다.  <br/> |
 |HasLicenseYAM  <br/> |사용자에게 라이선스가 할당되고 Yammer를 사용할 수 있는 경우 true로 설정됩니다.  <br/> |
 |HasLicenseSFB  <br/> |사용자에게 라이선스가 할당되고 비즈니스용 Skype를 사용할 수 있는 경우 true로 설정됩니다.  <br/> |
-|HasLicenseTeams  <br/> |사용자에게 라이선스가 할당되어 Microsoft Teams를 사용할 수 있도록 설정하면 true로 설정됩니다.  <br/> |
+|HasLicenseTeams  <br/> |사용자에게 라이선스가 할당되어 사용자가 라이선스를 사용할 수 있도록 설정하면 true로 Microsoft Teams.  <br/> |
 |회사  <br/> |이 사용자의 Azure Active Directory에 표시되는 회사 데이터입니다.  <br/> |
 |부서  <br/> |이 사용자의 Azure Active Directory에 표시되는 부서 데이터입니다.  <br/> |
 |LocationCity  <br/> |이 사용자의 Azure Active Directory에 표시되는 구/군/시 데이터입니다.  <br/> |
@@ -81,8 +81,8 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |LocationState  <br/> |이 사용자의 Azure Active Directory에 표시되는 상태 데이터입니다.  <br/> |
 |LocationOffice  <br/> |사용자의 사무실입니다.  <br/> |
 |제목  <br/> |이 사용자의 Azure Active Directory에 표시되는 제목 데이터입니다.  <br/> |
-|삭제됨  <br/> |True이면 사용자가 지난달에 Microsoft 365에서 삭제된 것입니다.  <br/> |
-|DeletedDate  <br/> |사용자가 Microsoft 365에서 삭제된 날짜입니다.  <br/> |
+|삭제됨  <br/> |True이면 사용자가 지난달에 Microsoft 365 삭제된 것입니다.  <br/> |
+|DeletedDate  <br/> |사용자가 사용자 계정에서 삭제된 Microsoft 365.  <br/> |
 |YAM_State  <br/> |Yammer, 활성, 삭제 또는 일시 중단될 수 있는 사용자 상태입니다.  <br/> |
 |YAM_ActivationDate  <br/> |사용자가 입력한 Yammer에서 활성 상태인 날짜입니다.  <br/> |
 |YAM_DeletionDate  <br/> |사용자가 입력한 Yammer에서 삭제 상태인 날짜입니다.  <br/> |
@@ -95,7 +95,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |**열 이름**|**열 설명**|
 |:-----|:-----|
 |UserID  <br/> |사용자를 나타내고 데이터 집합 내의 다른 데이터 테이블과의 조인을 가능하게 하는 고유 사용자 ID입니다.  <br/> |
-|IDType  <br/> |사용자가 Microsoft 365 ID를 사용하여 Yammer ID를 사용하여 연결하는 Yammer 사용자인 경우 ID Yammer 1로 설정됩니다.  <br/> 값이 1이면 이 사용자가 Microsoft 365 ID가 아닌 Yammer YAMMER ID로 연결됩니다.  <br/> |
+|IDType  <br/> |ID 유형은 사용자가 Yammer ID를 사용하여 연결하는 Yammer 사용자인 경우 1로 설정됩니다Yammer ID를 사용하여 Yammer 연결하면 Microsoft 365.  <br/> 값이 1이면 이 사용자가 Yammer ID가 아닌 Yammer ID로 Microsoft 365 있습니다.  <br/> |
 |시간 범위  <br/> |이 테이블이 데이터를 나타내는 월 값입니다.  <br/> |
 |EXO_EmailSent  <br/> |보낸 전자 메일 수입니다.  <br/> |
 |EXO_EmailReceived  <br/> |받은 전자 메일 수입니다.  <br/> |
@@ -107,7 +107,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |EXO_MeetingSent  <br/> |전송된 모임 수입니다.  <br/> |
 |ODB_FileViewedModified  <br/> |이 사용자가 비즈니스용 OneDrive에서 상호 작용한(예: 만들기, 업데이트, 삭제, 조회 또는 다운로드 작업 수행) 파일 수입니다.  <br/> |
 |ODB_FileSynched  <br/> |이 사용자가 비즈니스용 OneDrive에서 동기화한 파일 수입니다.  <br/> |
-|ODB_FileSharedInternally  <br/> |이 사용자가 비즈니스용 OneDrive 또는 그룹 내의 사용자(외부 사용자를 포함할 수 있는 사용자)에서 내부적으로 공유한 파일 수입니다.  <br/> |
+|ODB_FileSharedInternally  <br/> |이 사용자가 모든 사용자 또는 그룹 내의 비즈니스용 OneDrive(외부 사용자를 포함할 수 있는)에서 내부적으로 공유한 파일 수입니다.  <br/> |
 |ODB_FileSharedExternally  <br/> |이 사용자가 비즈니스용 OneDrive에서 외부적으로 공유한 파일 수입니다.  <br/> |
 |ODB_AccessByOwner  <br/> |이 사용자가 상호 작용한 사용자의 비즈니스용 OneDrive에 있는 파일 수입니다.  <br/> |
 |ODB_AccessOthers  <br/> |이 사용자가 상호 작용한 다른 사용자의 비즈니스용 OneDrive에 있는 파일 수입니다.  <br/> |
@@ -133,7 +133,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |Teams_ChannelMessage  <br/> |채널에 게시된 메시지 수입니다.  <br/> |
 |Teams_CallParticipate  <br/> |사용자가 참여한 통화 수입니다.  <br/> |
 |Teams_MeetingParticipate  <br/> |사용자가 참가한 모임 수입니다.  <br/> |
-|Teams_HasOtherAction  <br/> |사용자가 Microsoft Teams에서 다른 작업을 수행한 경우 부울 값입니다.  <br/> |
+|Teams_HasOtherAction  <br/> |사용자가 2013에서 다른 작업을 수행한 경우 부울 Microsoft Teams.  <br/> |
 |YAM_MessagePost  <br/> |이 Yammer 게시한 메시지 수입니다.  <br/> |
 |YAM_MessageLiked  <br/> |이 사용자가 Yammer 메시지 수입니다.  <br/> |
 |YAM_MessageRead  <br/> |이 Yammer 읽은 메시지 수입니다.  <br/> |
@@ -146,11 +146,11 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
    
 ### <a name="data-table---tenant-product-usage"></a>데이터 테이블 - 테넌트 제품 사용 현황
 
-이 표에서는 Microsoft 365 내의 각 제품에 대한 사용, 활성, 반환 및 최초 사용자 측면에서 월별 채택 데이터를 제공합니다. Microsoft 365 값은 두 제품 중 하나에서 활성 사용을 나타냅니다.
+이 표에서는 각 제품의 사용, 활성, 반환 및 최초 사용자와 관련한 월별 채택 데이터를 Microsoft 365. 이 Microsoft 365 두 제품 중 하나에서 활성 사용을 나타냅니다.
   
 |**열 이름**|**열 설명**|
 |:-----|:-----|
-|제품  <br/> |사용 현황 정보가 요약된 제품의 이름입니다. 제품 열의 Microsoft 365 값은 모든 제품의 활동을 나타났습니다.  <br/> |
+|제품  <br/> |사용 현황 정보가 요약된 제품의 이름입니다. Microsoft 365 열의 값은 모든 제품의 활동을 나타내는 값입니다.  <br/> |
 |시간 범위  <br/> |월 값입니다. 이번 달 일부를 포함하여 지난 12개월 동안의 월별 제품당 하나의 행이 있습니다.  <br/> |
 |EnabledUsers  <br/> |기간 값에 제품을 사용하도록 설정된 사용자 수입니다. 사용자가 특정 달의 일부를 사용하도록 설정된 경우 여전히 계산됩니다.  <br/> |
 |ActiveUsers  <br/> |시간 프레임 값에 대해 제품에서 의도적인 활동을 수행한 사용자 수입니다.  <br/> 사용자가 제품의 주요 활동 중 하나를 수행한 경우 특정 달의 제품에 대해 활성으로 집계됩니다. 주요 활동은 **테넌트 제품 활동** 테이블에서 확인할 수 있습니다.  <br/> |
@@ -166,7 +166,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |**열 이름**|**열 설명**|
 |:-----|:-----|
 |시간 범위  <br/> |월 값입니다. 이번 달 일부를 포함하여 지난 12개월 동안의 월별 제품당 하나의 행이 있습니다.  <br/> |
-|제품  <br/> |사용 현황 데이터를 사용할 수 있는 Microsoft 365 내의 제품 이름입니다.  <br/> |
+|제품  <br/> |사용 현황 데이터를 사용할 Microsoft 365 내의 제품 이름입니다.  <br/> |
 |활동  <br/> |제품의 활성 사용을 보여주는 데 사용되는 제품의 활동 이름입니다.  <br/> |
 |ActivityCount  <br/> |모든 활성 사용자가 제품 내에서 수행한 각 활동에 대해 집계된 총 작업 수입니다.  <br/> **참고:** SharePoint Online 및 비즈니스용 OneDrive의 경우 이 값은 사용자가 상호 작용하는 고유 문서 수를 나타냅니다.  <br/> |
 |ActiveUserCount  <br/> |제품 내에서 활동을 수행한 사용자 수입니다.  <br/> |
@@ -175,11 +175,11 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
    
 ### <a name="data-table---tenant-mailbox-usage"></a>데이터 테이블 - 테넌트 사서함 사용 현황
 
-이 표는 사용자 사서함이 있는 모든 사용이 허가된 Exchange Online 사용자의 요약 데이터로 구성됩니다. 모든 사용자 사서함의 월말 상태가 포함됩니다. 이 테이블의 데이터는 여러 달에 추가되지 않습니다. 이 테이블의 최신 월 데이터는 가장 최근의 상태를 나타냅니다.
+이 표는 사용자 사서함이 있는 모든 라이선스 Exchange Online 요약 데이터로 구성됩니다. 모든 사용자 사서함의 월말 상태가 포함됩니다. 이 테이블의 데이터는 여러 달에 추가되지 않습니다. 이 테이블의 최신 월 데이터는 가장 최근의 상태를 나타냅니다.
   
 |**열 이름**|**열 설명**|
 |:-----|:-----|
-|TotalMailboxes  <br/> |Microsoft 365 구독의 사용자 사서함 수입니다.  <br/> |
+|TotalMailboxes  <br/> |구독에 대한 사용자 Microsoft 365 수입니다.  <br/> |
 |IssueWarningQuota  <br/> |모든 사용자의 사서함에서 경고를 발행하기 위한 총 할당량입니다.  <br/> |
 |ProhibitSendQuota  <br/> |모든 사용자 사서함에서 보내기를 금지하는 총 할당량입니다.  <br/> |
 |ProhibitSendReceiveQuota  <br/> |모든 사용자 사서함에서 보내기/받기 할당량을 금지하는 총 할당량입니다.  <br/> |
@@ -194,11 +194,11 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
    
 ### <a name="data-table---tenant-client-usage"></a>데이터 테이블 - 테넌트 클라이언트 사용 현황
 
-이 표에서는 사용자가 Exchange Online, 비즈니스용 Skype 및 비즈니스용 Skype에 연결하는 데 사용하는 클라이언트에 대한 월별 요약 데이터를 Yammer. 이 테이블에는 아직 SharePoint Online 및 비즈니스용 OneDrive용 클라이언트 사용 데이터는 없습니다.
+이 표에서는 사용자가 Exchange Online, 비즈니스용 Skype 및 클라이언트에 연결하는 데 사용하는 클라이언트에 대한 월별 비즈니스용 Skype Yammer. 이 테이블에는 아직 SharePoint Online 및 비즈니스용 OneDrive용 클라이언트 사용 데이터는 없습니다.
   
 |**열 이름**|**열 설명**|
 |:-----|:-----|
-|제품  <br/> |클라이언트 사용 현황 데이터를 사용할 수 있는 Microsoft 365 내의 제품 이름입니다.  <br/> |
+|제품  <br/> |클라이언트 사용 현황 데이터를 사용할 Microsoft 365 내의 제품 이름입니다.  <br/> |
 |ClientId  <br/> |제품에 연결하는 데 사용되는 각 장치의 이름입니다.  <br/> |
 |UserCount  <br/> |각 제품에 대한 각 클라이언트를 사용한 사용자 수입니다.  <br/> |
 |시간 범위  <br/> |월 값  <br/> |
@@ -206,7 +206,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
    
 ### <a name="data-table---tenant-sharepoint-online-usage"></a>데이터 테이블 - 테넌트 SharePoint 온라인 사용 현황
 
-이 표는 SharePoint Online 사이트의 사용 또는 활동에 대한 월별 요약 데이터로 구성됩니다. 팀 사이트 및 그룹 사이트에만 해당합니다. SharePoint Online 사이트의 월말 상태가 이 열에 표시됩니다. 예를 들어 사용자가 5개의 문서를 만든 후 총 저장소에 10MB를 사용한 다음 일부 파일을 삭제한 다음 파일을 더 추가하여 파일의 월말 상태는 5MB의 저장소를 사용하는 총 7개의 저장소 상태인 경우 이 표에 나타났다의 값은 월말 상태가 됩니다. 이 테이블은 중복된 집계 수를 방지하기 위해 숨겨져 있으며 두 개의 참조 테이블을 만드는 원본으로 사용됩니다.
+이 표는 온라인 사이트의 사용 또는 활동에 대한 월별 요약 SharePoint 구성됩니다. 팀 사이트 및 그룹 사이트에만 해당합니다. SharePoint Online 사이트의 월말 상태는 이 열에 표시됩니다. 예를 들어 사용자가 5개의 문서를 만든 후 총 저장소에 10MB를 사용한 다음 일부 파일을 삭제한 다음 파일을 더 추가하여 파일의 월말 상태는 5MB의 저장소를 사용하는 총 7개의 저장소 상태인 경우 이 표에 나타났습니다. 이 테이블은 중복된 집계 수를 방지하기 위해 숨겨져 있으며 두 개의 참조 테이블을 만드는 원본으로 사용됩니다.
   
 |**열 이름**|**열 설명**|
 |:-----|:-----|
@@ -230,7 +230,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |SiteType  <br/> |값은 "OneDrive" 입니다.  <br/> |
 |TotalSites  <br/> |종료 시간에 존재한 비즈니스용 OneDrive 계정 수입니다.  <br/> |
 |DocumentCount  <br/> |종료 시간에 모든 비즈니스용 OneDrive 계정에 존재한 총 문서 수입니다.  <br/> |
-|Diplansed  <br/> |종료 시간 끝에 모든 OneDrive 계정으로 합계된 사용된 총 저장소입니다.  <br/> |
+|Diplansed  <br/> |종료 시 모든 OneDrive 전체에 합계된 사용된 총 저장소입니다.  <br/> |
 |ActivityType  <br/> |다양한 파일 활동(전체/활성 파일/공유된 파일 EXT/INT/동기화된 파일)을 기록한 계정 수입니다.  <br/> 모든 값은 파일 활동이 수행되었음을 나타냅니다.  <br/> |
 |SitesWithOwnerActivities  <br/> |계정 소유자가 자신의 고유 계정에서 특정 파일 활동을 수행한 비즈니스용 OneDrive용 활성 계정 수입니다.  <br/> |
 |SitesWithNonOwnerActivities  <br/> |계정 소유자 이외의 사용자가 파일 작업을 수행한 비즈니스용 OneDrive 계정의 수입니다.  <br/> |
@@ -240,7 +240,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
    
 ### <a name="data-table---tenant-microsoft-365-groups-usage"></a>데이터 테이블 - 테넌트 Microsoft 365 그룹 사용 현황
 
-이 표에서는 조직 전체에서 Microsoft 365 그룹을 사용하는 방법에 대한 데이터를 제공합니다.
+이 표에서는 조직 전체에서 그룹 Microsoft 365 방법에 대한 데이터를 제공합니다.
   
 ****
 
@@ -255,20 +255,20 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |MBX_TotalActivities  <br/> |사서함 활동 수입니다.  <br/> |
 |MBX_TotalItems  <br/> |사서함 항목 수입니다.  <br/> |
 |MBX_StorageUsed  <br/> |사용된 사서함 저장소의 수량입니다.  <br/> |
-|SPO_TotalGroups  <br/> |SharePoint 그룹 수입니다.  <br/> |
-|SPO_ActiveGroups  <br/> |활성 SharePoint 그룹 수입니다.  <br/> |
-|SPO_FileAccessedActiveGroups  <br/> |파일에 액세스한 활동이 있는 SharePoint 그룹 수입니다.  <br/> |
-|SPO_FileSyncedActiveGroups  <br/> |파일 동기화 활동이 있는 SharePoint 그룹 수입니다.  <br/> |
-|SPO_FileSharedInternallyActiveGroups  <br/> |내부적으로 또는 그룹(외부 사용자를 포함할 수 있는)을 통해 공유되는 SharePoint 그룹 수입니다.  <br/> |
-|SPO_FileSharedExternallyActiveGroups  <br/> |외부 활동을 공유한 SharePoint 그룹 수입니다.  <br/> |
-|SPO_TotalActivities  <br/> |SharePoint 활동 수입니다.  <br/> |
-|SPO_FileAccessedActivities  <br/> |액세스한 SharePoint 파일 활동 수입니다.  <br/> |
-|SPO_FileSyncedActivities  <br/> |동기화된 SharePoint 파일 활동 수입니다.  <br/> |
-|SPO_FileSharedInternallyActivities  <br/> |내부적으로 또는 외부 구성원을 포함할 수 있는 그룹과의 SharePoint 파일 공유 작업 수입니다.  <br/> |
-|SPO_FileSharedExternallyActivities  <br/> |외부 활동을 공유하는 SharePoint 파일 수입니다.  <br/> |
-|SPO_TotalFiles  <br/> |SharePoint 파일 수입니다.  <br/> |
-|SPO_ActiveFiles  <br/> |활성 SharePoint 파일 수입니다.  <br/> |
-|SPO_StorageUsed  <br/> |사용된 SharePoint 저장소의 수량입니다.  <br/> |
+|SPO_TotalGroups  <br/> |그룹 SharePoint 수입니다.  <br/> |
+|SPO_ActiveGroups  <br/> |활성 그룹 SharePoint 수입니다.  <br/> |
+|SPO_FileAccessedActiveGroups  <br/> |파일에 SharePoint 액세스한 그룹 수입니다.  <br/> |
+|SPO_FileSyncedActiveGroups  <br/> |파일 SharePoint 동기화된 그룹 수입니다.  <br/> |
+|SPO_FileSharedInternallyActiveGroups  <br/> |내부적으로 SharePoint 또는 그룹(외부 사용자를 포함할 수 있는)을 공유하는 그룹 수입니다.  <br/> |
+|SPO_FileSharedExternallyActiveGroups  <br/> |외부 활동을 SharePoint 그룹 수입니다.  <br/> |
+|SPO_TotalActivities  <br/> |작업 SharePoint 수입니다.  <br/> |
+|SPO_FileAccessedActivities  <br/> |액세스한 SharePoint 수입니다.  <br/> |
+|SPO_FileSyncedActivities  <br/> |파일 SharePoint 작업 수입니다.  <br/> |
+|SPO_FileSharedInternallyActivities  <br/> |내부적으로 SharePoint 또는 그룹(외부 구성원을 포함할 수 있는)의 파일 공유 활동 수입니다.  <br/> |
+|SPO_FileSharedExternallyActivities  <br/> |외부 SharePoint 공유되는 파일 수입니다.  <br/> |
+|SPO_TotalFiles  <br/> |파일 SharePoint 수입니다.  <br/> |
+|SPO_ActiveFiles  <br/> |활성 파일 SharePoint 수입니다.  <br/> |
+|SPO_StorageUsed  <br/> |사용된 SharePoint 수량입니다.  <br/> |
 |YAM_TotalGroups  <br/> |그룹 Yammer 수입니다.  <br/> |
 |YAM_ActiveGroups  <br/> |활성 그룹 Yammer 수입니다.  <br/> |
 |YAM_LikedActiveGroups  <br/> |활동이 Yammer 그룹 수입니다.  <br/> |
@@ -281,7 +281,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
    
 ### <a name="data-table---tenant-office-activation"></a>데이터 테이블 - 테넌트 Office 정품 인증
 
-이 표에서는 Microsoft 365 Apps for Enterprises, Visio, Project와 같은 서비스 계획의 Office 구독 정품 인증 수에 대한 데이터를 제공합니다. 장치(Android/iOS/Mac/PC)당 정품 인증 수에 대한 데이터도 제공합니다.
+이 표에서는 서비스 계획의 Office 구독 정품 인증 수에 대한 데이터를 제공합니다(예: 기업용, Microsoft 365 앱, Visio Project. 장치(Android/iOS/Mac/PC)당 정품 인증 수에 대한 데이터도 제공합니다.
   
 |**열 이름**|**열 설명**|
 |:-----|:-----|

@@ -14,7 +14,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
-description: Microsoft 365 데이터 및 서비스에 대한 사용자 및 장치 액세스를 보호하고 데이터 손실을 방지하는 방법을 학습합니다.
+description: 데이터 및 서비스에 대한 사용자 및 장치 Microsoft 365 보호하고 데이터 손실을 방지하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 9ff7bd2ff8b4b333eb30a6cc82797a8968941e0b
 ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
@@ -25,7 +25,7 @@ ms.locfileid: "51051700"
 ---
 # <a name="protect-user-and-device-access"></a>사용자 및 장치 액세스 보호
 
-Microsoft 365 데이터 및 서비스에 대한 액세스를 보호하는 것은 사이버 공격으로부터 보호하고 데이터 손실을 방지하는 데 중요합니다. 환경의 다른 SaaS 응용 프로그램과 Azure Active Directory 응용 프로그램 프록시를 사용하여 게시된 사내 응용 프로그램에도 동일한 보호를 적용할 수 있습니다.
+데이터 및 서비스에 Microsoft 365 보호하는 것은 사이버 공격으로부터 보호하고 데이터 손실을 방지하는 데 중요합니다. 환경의 다른 SaaS 응용 프로그램과 응용 프로그램 프록시를 사용하여 게시된 사내 응용 프로그램에도 동일한 보호를 적용할 Azure Active Directory 있습니다.
   
 ## <a name="step-1-review-recommendations"></a>1단계: 권장 사항 검토
 
@@ -34,13 +34,13 @@ Azure AD 애플리케이션 프록시를 사용하여 게시한 온-프레미스
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=55032)
   
 ## <a name="step-2-protect-administrator-accounts-and-access"></a>2단계: 관리자 계정 및 액세스 보호
-Microsoft 365 환경을 관리하는 데 사용하는 관리 계정에는 상승된 권한이 포함됩니다. 이는 해커와 사이버 공격자에 대한 중요한 대상입니다. 
+사용자 환경 관리에 사용하는 관리 계정에는 Microsoft 365 권한이 포함됩니다. 이는 해커와 사이버 공격자에 대한 중요한 대상입니다. 
 
 먼저 관리자 계정에만 관리합니다. 관리자는 관리가 아닌 일반 사용에 대해 별도의 사용자 계정이 필요하며, 필요한 경우 해당 작업 기능과 관련된 작업을 완료하는 데만 관리 계정을 사용해야 합니다.
 
 다단계 인증 및 조건부 액세스를 통해 관리자 계정을 보호합니다. 자세한 내용은 관리자 계정 [보호를 참조하세요.](../security/defender-365-security/identity-access-prerequisites.md#protecting-administrator-accounts) 
 
-다음으로, Office 365에서 권한 있는 액세스 관리를 구성합니다. 권한이 부여된 액세스 관리를 사용하면 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어가 허용됩니다. 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스 권한이 있는 기존 권한 있는 관리자 계정을 사용할 수 있는 침해로부터 조직을 보호하는 데 도움이 될 수 있습니다.
+다음으로, 2016에서 권한 있는 액세스 관리를 Office 365. Privileged access management를 사용하면 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어를 제공합니다. 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스 권한이 있는 기존 권한 있는 관리자 계정을 사용할 수 있는 침해로부터 조직을 보호하는 데 도움이 될 수 있습니다.
 
 - [권한 있는 액세스 관리 개요](privileged-access-management-overview.md)
 - [권한이 부여된 액세스 관리 구성](privileged-access-management-configuration.md)
@@ -61,9 +61,9 @@ MFA(다단계 인증) 및 조건부 액세스 정책은 손상된 계정 및 무
 
 Intune 장치 준수를 구현하려면 장치 등록이 필요합니다. 장치를 관리하면 해당 장치가 환경의 리소스에 액세스할 수 있도록 허용하기 전에 정상 및 규정 준수를 보장할 수 있습니다. [Intune에서 관리를 위해](/intune-classic/deploy-use/enroll-devices-in-microsoft-intune) 장치 등록을 참조
 
-## <a name="step-4-configure-sharepoint-device-access-policies"></a>4단계: SharePoint 장치 액세스 정책 구성
+## <a name="step-4-configure-sharepoint-device-access-policies"></a>4단계: SharePoint 액세스 정책 구성
 
-장치 액세스 제어를 사용하여 중요하고 높은 규제 대상 콘텐츠를 사용하여 SharePoint 사이트의 콘텐츠를 보호하는 것이 좋습니다. 자세한 내용은 SharePoint 사이트 및 파일 보안에 대한 정책 [권장 사항을 참조하세요.](../security/defender-365-security/sharepoint-file-access-policies.md)
+장치 액세스 제어를 사용하여 SharePoint 높은 규제 대상 콘텐츠를 사용하여 사이트 내 콘텐츠를 보호하는 것이 좋습니다. 자세한 내용은 사이트 및 파일 보호를 [위한 SharePoint 권장 사항을 참조하세요.](../security/defender-365-security/sharepoint-file-access-policies.md)
 
 
 

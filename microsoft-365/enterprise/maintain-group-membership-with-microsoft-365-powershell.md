@@ -17,7 +17,7 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
-description: PowerShell을 사용하여 Microsoft 365 그룹의 구성원 자격을 유지 관리하는 방법을 학습합니다.
+description: PowerShell을 사용하여 그룹에서 구성원을 유지 관리하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: 9696c9093ae6f24a2edaf544e80794bde45d18d1
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,14 +29,14 @@ ms.locfileid: "50909577"
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 관리 센터 대신 Microsoft 365용 PowerShell을 사용하여 Microsoft 365의 보안 그룹 구성원을 유지할 수 있습니다. 
+Microsoft 365 관리 센터의 대안으로 PowerShell을 사용하여 Microsoft 365 그룹 구성원 자격을 Microsoft 365. 
 
 >[!Note]
->Microsoft 365 관리 센터를 통해 [Microsoft 365](../admin/create-groups/add-or-remove-members-from-groups.md) 그룹 구성원을 유지 관리하는 방법을 학습합니다. 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
+>[Microsoft 365](../admin/create-groups/add-or-remove-members-from-groups.md) 관리 센터에서 그룹 구성원을 유지 관리하는 Microsoft 365 대해 자세히 알아보습니다. 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ### <a name="add-or-remove-user-accounts-as-members-of-a-group"></a>사용자 계정을 그룹의 구성원으로 추가 또는 제거
 
@@ -94,7 +94,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
-먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 
 ### <a name="add-or-remove-user-accounts-as-members-of-a-group"></a>사용자 계정을 그룹의 구성원으로 추가 또는 제거

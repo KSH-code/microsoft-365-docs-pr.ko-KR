@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 채팅 시작 및 고정
+title: 채팅 시작 및 고정 Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -19,7 +19,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft Teams에서 채팅을 시작하고 고정하는 방법을 배워야 합니다.
+description: 채팅 시작 및 고정 방법을 Microsoft Teams.
 ms.openlocfilehash: 8755abfa3e961ef5408ab612f6712dbeef948074
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT

@@ -37,6 +37,6 @@ Microsoft 파트너 및 [FastTrack에서](https://www.microsoft.com/fasttrack/mi
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
-이 키트는 Windows 10 Enterprise 및 엔터프라이즈용 Microsoft 365 앱을 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 유효성 검사하는 데 도움이 됩니다. 이 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot을 사용하는 방법을 다 사용합니다.
+이 키트는 사용자 지정 및 배포를 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 Windows 10 Enterprise 엔터프라이즈용 Microsoft 365 앱. 이 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, autopilot Windows 사용에 대해 다 사용합니다.
 
-자세한 [내용은 Windows 및 Office 배포 랩 키트를](modern-desktop-deployment-and-management-lab.md) 참조합니다.
+자세한 [Windows Office 및 배포 랩 키트를](modern-desktop-deployment-and-management-lab.md) 참조합니다.

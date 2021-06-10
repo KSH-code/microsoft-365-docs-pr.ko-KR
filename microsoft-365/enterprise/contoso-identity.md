@@ -23,7 +23,7 @@ ms.locfileid: "51051523"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Contoso Corporation의 ID
 
-Microsoft는 Azure AD(Azure Active Directory)를 통해 클라우드 서비스 전반에 걸쳐 IDaaS(Identity as a Service)를 제공합니다. 엔터프라이즈용 Microsoft 365를 채택하기 위해 Contoso IDaaS 솔루션은 해당 사내 ID 공급자를 사용하며 기존의 신뢰할 수 있는 타사 ID 공급자와의 페더임 인증을 포함해야 합니다.
+Microsoft는 Azure AD(Azure AD)를 통해 클라우드 서비스 전반에 걸쳐 IDaaS(identity as a service)를 Azure Active Directory 제공합니다. 엔터프라이즈용 Microsoft 365 채택하기 위해 Contoso IDaaS 솔루션은 해당 사내 ID 공급자를 사용하며 기존의 신뢰할 수 있는 타사 ID 공급자와의 페더임 인증을 포함해야 합니다.
 
 ## <a name="the-contoso-active-directory-domain-services-forest"></a>Contoso Active Directory 도메인 서비스 포리스트
 
@@ -33,7 +33,7 @@ Contoso는 7개의 하위 도메인이 있는 contoso com에 대해 단일 AD DS
 
 ![Contoso의 전 세계 포리스트 및 도메인](../media/contoso-identity/contoso-identity-fig1.png)
  
-Contoso는 Microsoft 365 워크로드 및 서비스에 대한 인증 및 권한 부여를 위해 contoso com 포리스트의 계정 및 그룹을 \. 사용하기로 결정했습니다.
+Contoso는 contoso com 포리스트의 계정 및 그룹을 사용하여 해당 워크로드 및 서비스에 대한 인증 \. 및 Microsoft 365 사용하기로 결정했습니다.
 
 ## <a name="the-contoso-federated-authentication-infrastructure"></a>Contoso 페더전 인증 인프라
 
@@ -52,13 +52,13 @@ Contoso는 이 인프라를 보관하고 고객 및 파트너 인증에 전담�
 
 ## <a name="hybrid-identity-with-password-hash-synchronization-for-cloud-based-authentication"></a>클라우드 기반 인증을 위해 암호 해시 동기화를 사용하는 하이브리드 ID
 
-Contoso는 Microsoft 365 클라우드 리소스에 대한 인증을 위해 해당 사내 AD DS 포리스트를 사용했습니다. PHS(암호 해시 동기화)를 사용하기로 결정했습니다.
+Contoso는 클라우드 리소스에 대한 인증을 위해 해당 Microsoft 365 원했습니다. PHS(암호 해시 동기화)를 사용하기로 결정했습니다.
 
-PHS는 엔터프라이즈용 Microsoft 365 구독의 Azure AD 테넌트와 사내 AD DS 포리스트를 동기화하여 사용자 및 그룹 계정 및 해시된 버전의 사용자 계정 암호를 복사합니다.
+PHS는 사용자 및 그룹 계정과 해시된 버전의 사용자 계정 암호를 복사하여 Microsoft 365 엔터프라이즈 구독의 Azure AD 테넌트와 동기화합니다.
 
-디렉터리 동기화를 위해 Contoso는 파리 데이터 센터의 서버에 Azure AD Connect 도구를 배포했습니다.
+디렉터리 동기화를 위해 Contoso는 파리 데이터 센터의 서버에 Azure AD 커넥트 도구를 배포했습니다.
 
-다음은 Azure AD Connect를 실행하는 서버가 Contoso AD DS 포리스트에서 변경 내용을 폴링한 다음 해당 변경 내용을 Azure AD 테넌트와 동기화하는 것입니다.
+다음은 Azure AD 2013을 실행하는 커넥트 Contoso AD DS 포리스트에서 변경 내용을 폴링한 다음 Azure AD 테넌트와 동기화하는 것입니다.
 
 ![Contoso PHS 디렉터리 동기화 인프라](../media/contoso-identity/contoso-identity-fig4.png)
  
@@ -76,7 +76,7 @@ Contoso ID 및 장치 조건부 액세스 정책의 결과 집합은 다음과 �
  
 ## <a name="next-step"></a>다음 단계
 
-Contoso에서 Microsoft Endpoint Configuration Manager 인프라를 사용하여 조직 전체에서 최신 [Windows 10 Enterprise를](contoso-win10.md) 배포하고 유지하는 방법을 알아보습니다.
+Contoso가 해당 Microsoft Endpoint Configuration Manager 인프라를 사용하여 조직 전체에서 최신 Windows 10 Enterprise [방법을](contoso-win10.md) 알아보습니다.
 
 ## <a name="see-also"></a>참고 항목
 

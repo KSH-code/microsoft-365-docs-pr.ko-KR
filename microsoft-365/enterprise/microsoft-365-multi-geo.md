@@ -50,7 +50,7 @@ Multi-Geo 환경에서 Microsoft 365 테넌트는 중앙 위치(Microsoft 365 �
 
 ## <a name="licensing"></a>라이선싱
 
-Microsoft 365 Multi-Geo는 테넌트에 최소 250대의 Microsoft 365 사용자 수가 있는 기업계약 고객을 위한 다음 Microsoft 365 구독 계획에 대한 추가 기능으로 사용할 수 있으며, 이러한 사용자 중 최소 5%는 Multi-Geo를 사용하세요. 사용자 구독 라이선스는 Multi-Geo Services 라이선스와 기업계약 라이선스에 있어야 합니다. 자세한 내용은 Microsoft 계정 팀에 문의하시기 바랍니다.
+Microsoft 365 Multi-Geo는 테넌트에 최소 Microsoft 365 사용자 수가 250명 이상인 기업계약 고객을 위한 다음 Microsoft 365 구독 계획에 대한 추가 기능으로 사용할 수 있으며, 이러한 사용자 중 최소 5%는 Multi-Geo를 사용하세요. 사용자 구독 라이선스는 Multi-Geo Services 기업계약 동일한 라이선스에 있어야 합니다. 자세한 내용은 Microsoft 계정 팀에 문의하시기 바랍니다.
 
 - Microsoft 365 F1, F3, E3 또는 E5
 - Office 365 F3, E1, E3 또는 E5
@@ -70,7 +70,7 @@ Multi-Geo를 시작하려면 이러한 단계를 따르세요.
 
 1. 계정 팀과 협의하여 _Microsoft 365의 Multi-Geo 기능_ 서비스 계획을 추가합니다. 계정 팀이 필요한 라이센스 수를 추가할 수 있도록 안내합니다. Multi-Geo 기능은 Microsoft 365 구독을 250개 이상 보유한 EA 고객에게 제공됩니다.
 
-   Microsoft 365 Multi-Geo를 사용하여 시작하기 전에 Microsoft에서는 Multi-Geo 지원을 위해 Exchange Online 테넌트를 구성해야 합니다. 이 일회성 구성 프로세스는 *Microsoft 365의 Multi-Geo 기능* 서비스 계획을 주문하고 테넌트에 라이선스가 표시된 후에 실행됩니다. 테넌트가 각 워크로드에 대한 구성 프로세스를 완료하면 [Microsoft 365](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) 메시지 센터에서 작업별 알림을 받게 되면 Microsoft 365 Multi-Geo 기능 구성 및 사용을 시작할 수 있습니다. Multi-Geo 지원을 위해 테넌트를 구성하는 데 필요한 시간은 테넌트마다 다르지만 대부분의 테넌트는 기능 라이센스를 받은 후 한 달 내에 끝납니다. 더 크거나 더 복잡한 테넌트는 구성 프로세스를 완료하는 데 더 많은 시간이 필요할 수 있습니다. 필요한 경우 특정 테넌트에 대한 자세한 내용은 계정 팀에 문의하세요.
+   Microsoft 365 Multi-Geo를 사용하여 시작하기 전에 Microsoft에서는 Multi-Geo 지원을 위해 Exchange Online 테넌트를 구성해야 합니다. 이 일회성 구성 프로세스는 *Microsoft 365의 Multi-Geo 기능* 서비스 계획을 주문하고 테넌트에 라이선스가 표시된 후에 실행됩니다. 테넌트가 각 워크로드에 대한 구성 [프로세스를](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) 완료하고 나면 Microsoft 365 메시지 센터에서 작업별 알림을 받게 되면 Microsoft 365 Multi-Geo 기능 구성 및 사용을 시작할 수 있습니다. Multi-Geo 지원을 위해 테넌트를 구성하는 데 필요한 시간은 테넌트마다 다르지만 대부분의 테넌트는 기능 라이센스를 받은 후 한 달 내에 끝납니다. 더 크거나 더 복잡한 테넌트는 구성 프로세스를 완료하는 데 더 많은 시간이 필요할 수 있습니다. 필요한 경우 특정 테넌트에 대한 자세한 내용은 계정 팀에 문의하세요.
 
 2. [Multi-Geo 환경 계획](plan-for-multi-geo.md)을 읽으세요.
 

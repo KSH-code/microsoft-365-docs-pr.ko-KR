@@ -17,7 +17,7 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
-description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 Microsoft 365를 테스트하기 위한 간단한 테스트 환경을 만들 수 있습니다.
+description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 테스트를 위한 간단한 테스트 Microsoft 365 만들 수 있습니다.
 ms.openlocfilehash: 2de0760cef7339f62229575b1e0a54b3c67a4e9f
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,35 +27,35 @@ ms.locfileid: "50909709"
 ---
 # <a name="the-lightweight-base-configuration"></a>간단한 기본 구성
 
-*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 및 Office 365 Enterprise 테스트 환경에 모두 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 및 엔터프라이즈용 Microsoft 365 둘 다에 사용할 Office 365 Enterprise 있습니다.*
 
-이 문서에서는 Microsoft 365 E5 구독 및 Windows 10 Enterprise를 실행하는 컴퓨터를 사용하여 간소화된 환경을 만드는 방법을 설명합니다.
+이 문서에서는 Microsoft 365 E5 실행 중인 컴퓨터와 함께 간소화된 환경을 만드는 Windows 10 Enterprise.
 
 ![간단한 Microsoft 365 Enterprise 테스트 환경](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
 간단한 테스트 환경을 만드는 데는 다음 다섯 단계가 필요합니다.
-- [1단계: Microsoft 365 E5 구독 만들기](#phase-1-create-your-microsoft-365-e5-subscription)
+- [1단계: Microsoft 365 E5 만들기](#phase-1-create-your-microsoft-365-e5-subscription)
 - [2단계: Office 365 평가판 구독 구성](#phase-2-configure-your-office-365-trial-subscription)
 - [3단계: Microsoft 365 E5 평가판 구독 추가.](#phase-3-add-a-microsoft-365-e5-trial-subscription)
 - [4단계: Windows 10 Enterprise 컴퓨터 만들기](#phase-4-create-a-windows-10-enterprise-computer)
 - [5단계: Azure AD에 Windows 10 컴퓨터 가입](#phase-5-join-your-windows-10-computer-to-azure-ad)
 
-결과 환경을 사용하여 [엔터프라이즈용 Microsoft 365의 기능을 테스트합니다.](https://www.microsoft.com/microsoft-365/enterprise)
+결과 환경을 사용하여 엔터프라이즈 에디터스 에디터스 에디 [Microsoft 365 테스트합니다.](https://www.microsoft.com/microsoft-365/enterprise)
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵은 [엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
+> 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵은 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 >[!NOTE]
 >이 문서를 인쇄하여 30일 동안의 Office 365 평가판 구독 기간 동안 환경에 필요한 특정 정보를 기록할 수 있습니다. 추가 30일 동안 평가판 구독을 쉽게 연장할 수 있습니다. 영구 테스트 환경의 경우 별도의 Azure AD 테넌트와 소수의 라이선스를 사용해서 유료 구독을 새로 만듭니다.
 
-## <a name="phase-1-create-your-microsoft-365-e5-subscription"></a>1단계: Microsoft 365 E5 구독 만들기
+## <a name="phase-1-create-your-microsoft-365-e5-subscription"></a>1단계: Microsoft 365 E5 만들기
 
-Microsoft 365 E5 평가판 구독으로 시작한 다음 Microsoft 365 E5 구독을 추가합니다.
+평가판 Microsoft 365 E5 시작한 다음 평가판 구독을 Microsoft 365 E5 추가합니다.
 
 >[!NOTE]
->테스트 환경에 현재 있는 유료 구독과 별도의 Azure AD 테넌트가 있도록 Office 365의 평가판 구독을 만드는 것이 좋습니다. 이러한 분리는 프로덕션 구독에 영향을 주지 않고 테스트 테넌트에서 사용자 및 그룹을 추가하고 제거할 수 있습니다.
+>테스트 환경에 현재 있는 유료 구독과 별도의 Azure AD 테넌트가 Office 365 수 있도록 평가판 구독을 만드는 것이 좋습니다. 이러한 분리는 프로덕션 구독에 영향을 주지 않고 테스트 테넌트에서 사용자 및 그룹을 추가하고 제거할 수 있습니다.
 
 Microsoft 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름 및 새 Microsoft 계정이 필요합니다.
   
@@ -71,7 +71,7 @@ Microsoft 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이
 
 1. 브라우저에서 로 [https://aka.ms/e5trial](https://aka.ms/e5trial) 이동하세요.
     
-2. **Office 365 E5를** 선택해 주셔서 감사합니다 페이지의 1단계에서 새 전자 메일 계정 주소를 입력합니다.
+2. E5를 선택해 주셔서 **Office 365 1단계에서** 새 전자 메일 계정 주소를 입력합니다.
 3. 내보라 구독 프로세스의 2단계에서 요청된 정보를 입력한 다음 확인을 수행하십시오.
 4. 3단계에서 조직 이름을 입력한 다음 구독의 전역 관리자가 될 계정 이름을 입력합니다.
 5. 4단계에서 여기에 로그인 페이지를 기록합니다(선택 후 복사). ![Line](../media/Common-Images/TableLine.png)
@@ -79,7 +79,7 @@ Microsoft 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이
    입력한 암호를 안전한 위치에 기록합니다.
    이 값은 **전역 관리자 이름** 으로 사용됩니다.
 7. 설치로 **이동을 선택합니다.**
-8. Office 365 E5 설치에서 조직 **.onmicrosoft.com** 및 로그인에 계속을 선택하고 종료를 선택하고 나중에 **계속을 선택합니다.**
+8. E5 Office 365 에서 조직 **.onmicrosoft.com** 계속 사용 및 로그인을 선택한 다음 종료를 선택하고 나중에 **계속합니다.**
 
 Microsoft 365 관리 센터가 나타납니다.
     
@@ -87,7 +87,7 @@ Microsoft 365 관리 센터가 나타납니다.
 
 이 단계에서는 추가 사용자로 구독을 구성하고 Office 365 E5 라이선스를 할당합니다.
   
-컴퓨터에서 그래프 모듈용 Azure Active Directory PowerShell을 사용하여 구독에 연결하려면 [PowerShell을 사용하여 Microsoft 365에](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)연결의 지침을 사용합니다.
+컴퓨터에서 Azure Active Directory 모듈용 Azure Active Directory PowerShell을 사용하여 구독에 연결하려면 커넥트 [PowerSh Graph ell을](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)사용하여 Microsoft 365 지침을 사용합니다.
     
 자격 **증명 Windows PowerShell** 대화 상자에 전역 관리자 이름(예: jdoe@contosotoycompany.onmicrosoft.com) 및 암호를 입력합니다.
   
@@ -157,9 +157,9 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
    
 ### <a name="using-an-office-365-test-environment"></a>Office 365 테스트 환경 사용
 
-Office 365 테스트 환경만 필요한 경우 이 문서의 나머지 내용을 읽을 필요가 없습니다.
+테스트 환경만 Office 365 경우 이 문서의 나머지 내용을 읽을 필요가 없습니다.
 
-Office 365 및 Microsoft 365에 적용되는 추가 테스트 랩 가이드는 [엔터프라이즈용 Microsoft 365 테스트 랩 가이드를 참조하세요.](m365-enterprise-test-lab-guides.md)
+엔터프라이즈 테스트 랩 가이드와 Office 365 Microsoft 365 추가 테스트 랩 가이드는 Microsoft 365 테스트 랩 [가이드를 참조하세요.](m365-enterprise-test-lab-guides.md)
   
 ## <a name="phase-3-add-a-microsoft-365-e5-trial-subscription"></a>3단계: Microsoft 365 E5 평가판 구독 추가.
 
@@ -167,19 +167,19 @@ Office 365 및 Microsoft 365에 적용되는 추가 테스트 랩 가이드는 [
   
 우선, Microsoft 365 E5 평가판 구독을 추가하고 전역 관리자 계정에 새로운 Microsoft 365 라이선스를 할당합니다.
   
-1. 인터넷 브라우저 개인 창에서 전역 관리자 계정 자격 증명을 사용하여 의 Microsoft 365 관리 센터에 [https://admin.microsoft.com](https://admin.microsoft.com) 로그인합니다.
+1. 인터넷 브라우저 개인 창에서 전역 관리자 계정 자격 증명을 사용하여 의 Microsoft 365 센터에 [https://admin.microsoft.com](https://admin.microsoft.com) 로그인합니다.
     
-2. Microsoft **365** 관리 센터 페이지의 왼쪽 탐색에서 청구 서비스 > **선택합니다.**
+2. Microsoft 365 **관리** 센터 페이지의 왼쪽 탐색에서 청구 서비스 > **선택합니다.**
     
-3. 서비스 **구매 페이지에서** **Microsoft 365 E5를** 선택한 다음 무료 평가판 **을 선택합니다.**
+3. 서비스 **구매 페이지에서** Microsoft 365 E5 **선택한** 다음 무료 평가판 **을 선택합니다.**
 
-4. Microsoft **365 E5 평가판** 페이지에서 문자 메시지 또는 전화 통화를 받고 전화 번호를  입력한 다음 문자 받기 또는 전화 **받기를 선택합니다.** 인증을 수행합니다.
+4. Microsoft 365 E5  평가판 페이지에서 문자 메시지 또는 전화 통화를 받거나 전화 번호를 입력한  다음 문자 받기 또는 전화 **받기를 선택합니다.** 인증을 수행합니다.
 
 5. 주문 **확인 페이지에서** 지금 **시도를 선택합니다.**
 
 6. 주문 **확인 페이지에서** 계속을 **선택합니다.**
 
-7. Microsoft 365 관리 센터에서 활성 사용자 및 **> 선택합니다.**
+7. Microsoft 365 관리 센터에서 활성 사용자 **> 선택합니다.**
 
 8. 활성 **사용자에서** 관리자 계정을 선택합니다.
 
@@ -192,14 +192,14 @@ Office 365 및 Microsoft 365에 적용되는 추가 테스트 랩 가이드는 [
 다음, 다른 모든 계정 (사용자 2, 사용자 3, 사용자 4 및 사용자 5)에 대해 이전 절차의 8단계에서 11단계를 반복합니다.
   
 > [!NOTE]
-> Microsoft 365 E5 평가판 구독 기간은 30일입니다. 영구 테스트 환경의 경우 소수의 라이선스를 사용해서 이 평가판 구독을 유료 구독으로 전환합니다.
+> 평가판 Microsoft 365 E5 기간은 30일입니다. 영구 테스트 환경의 경우 소수의 라이선스를 사용해서 이 평가판 구독을 유료 구독으로 전환합니다.
   
 이제 테스트 환경에는 다음이 구현됩니다.
   
 - Microsoft 365 E5 평가판 구독.
 - 모든 해당 사용자 계정(전역 관리자만 또는 5개의 사용자 계정 모두)이 Microsoft 365 E5를 사용하도록 설정됩니다.
     
-Microsoft 365 E5를 추가하는 결과 구성은 다음과 같습니다.
+구성 결과 구성은 다음과 Microsoft 365 E5 추가됩니다.
   
 ![Microsoft 365 Enterprise 테스트 환경 3단계](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
@@ -209,11 +209,11 @@ Microsoft 365 E5를 추가하는 결과 구성은 다음과 같습니다.
   
 ### <a name="physical-computer"></a>실제 컴퓨터
 
-개인 컴퓨터에 Windows 10 Enterprise를 설치합니다. 여기에서 Windows 10 Enterprise 평가판을 다운로드할 수 [있습니다.](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)
+개인 컴퓨터에 설치 Windows 10 Enterprise. 여기에서 Windows 10 Enterprise 다운로드할 수 [있습니다.](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)
   
 ### <a name="virtual-machine"></a>가상 컴퓨터
 
-선택한 하이퍼바이너를 사용하여 가상 머신을 만든 다음 Windows 10 Enterprise를 설치합니다. 여기에서 Windows 10 Enterprise 평가판을 다운로드할 수 [있습니다.](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)
+선택한 하이퍼바이너를 사용하여 가상 머신을 만든 다음 가상 컴퓨터에 Windows 10 Enterprise 설치합니다. 여기에서 Windows 10 Enterprise 다운로드할 수 [있습니다.](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)
   
 ### <a name="virtual-machine-in-azure"></a>Azure의 가상 머신
 
@@ -288,11 +288,11 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
   
 다음으로, WIN10 컴퓨터를 Microsoft 365 E5 구독의 Azure AD 테넌트에 가입합니다.
   
-1. WIN10 컴퓨터의 바탕 화면에서 Start **> Settings > Accounts > Access work or school > 선택합니다.**
+1. WIN10 컴퓨터의 바탕 화면에서 시작 > 설정 > 계정 > 또는 학교 액세스 를 **> 커넥트.**
     
-2. 직장 **또는 학교 계정** 설정 대화 상자에서 Azure Active Directory에 이 **장치 가입을 선택합니다.**
+2. Set **up a work or school account(직장** 또는 학교 계정 설정) 대화 상자에서 **Join this device to Azure Active Directory.**
     
-3. 직장 **또는 학교 계정에서** Microsoft 365 E5 구독의 전역 관리자 계정 이름을 입력하고 다음 을 **선택합니다.**
+3. 직장 **또는 학교 계정** 에서 Microsoft 365 E5 구독의 전역 관리자 계정 이름을 입력하고 다음을 **선택합니다.**
     
 4. 암호 **입력에서** 전역 관리자 계정의 암호를 입력한 다음 로그인 **을 선택합니다.**
     
@@ -300,15 +300,15 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
     
 6. 설정 창을 닫습니다.
     
-다음으로 WIN10 컴퓨터에 엔터프라이즈용 Microsoft 365 앱을 설치합니다.
+그런 다음 WIN10 엔터프라이즈용 Microsoft 365 앱 다음을 설치합니다.
   
-1. Microsoft Edge 브라우저를 열고 전역 관리자 계정 자격 증명을 사용하여 [Microsoft 365](https://admin.microsoft.com) 관리 센터에 로그인합니다.
+1. Microsoft Edge 브라우저를 열고 전역 관리자 [](https://admin.microsoft.com) 계정 Microsoft 365 사용하여 Microsoft 365 센터에 로그인합니다.
     
-2. 홈 **Microsoft Office Office** **설치를 선택합니다.**
+2. 홈 **Microsoft Office 에서** 설치를 **Office.**
     
 3. 실행할 작업을 묻는 메시지가 표시될 때 **실행을** 선택한 다음 사용자 **계정** 컨트롤에 대해 예를 **선택합니다.**
     
-4. Office 설치가 완료될 때까지 기다렸다가 모두 설정되어 있습니다! 가 **표시되어 있는 경우** **닫기 를** 두 번 선택합니다.
+4. 설치가 Office 때까지 기다렸다가 모두 설정되어 있습니다! 가 **표시되어 있는 경우** **닫기 를** 두 번 선택합니다.
     
 결과 환경은 다음과 같습니다.
 
@@ -318,9 +318,9 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
 
 - Microsoft 365 E5 구독의 Azure AD 테넌트에 가입했습니다.
 - Microsoft Intune(EMS)에서 Azure AD 장치로 등록합니다.
-- 엔터프라이즈용 Microsoft 365 앱이 설치되어 있습니다.
+- 엔터프라이즈용 Microsoft 365 앱 설치됩니다.
   
-이제 엔터프라이즈용 [Microsoft 365의](https://www.microsoft.com/microsoft-365/enterprise)추가 기능을 실험할 준비가 완료되었습니다.
+이제 엔터프라이즈용 에디터스 에디터의 추가 [기능을 Microsoft 365 준비가 완료되었습니다.](https://www.microsoft.com/microsoft-365/enterprise)
   
 ## <a name="next-steps"></a>다음 단계
 
