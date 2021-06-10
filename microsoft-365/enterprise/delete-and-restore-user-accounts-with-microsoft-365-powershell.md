@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 통해 Microsoft 365 사용자 계정 삭제
+title: PowerShell을 Microsoft 365 사용자 계정 삭제
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - O365ITProTrain
 - seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
-description: PowerShell에서 다른 모듈을 사용하여 Microsoft 365 사용자 계정을 삭제하는 방법을 학습합니다.
+description: PowerShell에서 다른 모듈을 사용하여 사용자 계정을 삭제하는 Microsoft 365 방법을 알아보습니다.
 ms.openlocfilehash: 32081d1ce0cbc7aac89b337cf8b5d08bc8e43dfa
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,104 +27,104 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50919143"
 ---
-# <a name="delete-microsoft-365-user-accounts-with-powershell"></a><span data-ttu-id="4065a-103">PowerShell을 통해 Microsoft 365 사용자 계정 삭제</span><span class="sxs-lookup"><span data-stu-id="4065a-103">Delete Microsoft 365 user accounts with PowerShell</span></span>
+# <a name="delete-microsoft-365-user-accounts-with-powershell"></a><span data-ttu-id="30d75-103">PowerShell을 Microsoft 365 사용자 계정 삭제</span><span class="sxs-lookup"><span data-stu-id="30d75-103">Delete Microsoft 365 user accounts with PowerShell</span></span>
 
-<span data-ttu-id="4065a-104">Microsoft 365용 PowerShell을 사용하여 사용자 계정을 삭제하고 복원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-104">You can use PowerShell for Microsoft 365 to delete and restore user accounts.</span></span>
+<span data-ttu-id="30d75-104">PowerShell을 사용하여 사용자 Microsoft 365 복원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-104">You can use PowerShell for Microsoft 365 to delete and restore user accounts.</span></span>
 
 >[!Note]
-><span data-ttu-id="4065a-105">Microsoft 365 관리 센터를 사용하여 사용자 계정을 복원하는 방법을 학습합니다. [](../admin/add-users/restore-user.md)</span><span class="sxs-lookup"><span data-stu-id="4065a-105">Learn how to [restore a user account](../admin/add-users/restore-user.md) by using the Microsoft 365 admin center.</span></span>
+><span data-ttu-id="30d75-105">Microsoft 365 관리 [](../admin/add-users/restore-user.md) 센터를 사용하여 사용자 계정을 복원하는 방법에 대해 자세히 알아보습니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-105">Learn how to [restore a user account](../admin/add-users/restore-user.md) by using the Microsoft 365 admin center.</span></span>
 >
-><span data-ttu-id="4065a-106">추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)</span><span class="sxs-lookup"><span data-stu-id="4065a-106">For a list of additional resources, see [Manage users and groups](../admin/add-users/index.yml).</span></span>
+><span data-ttu-id="30d75-106">추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)</span><span class="sxs-lookup"><span data-stu-id="30d75-106">For a list of additional resources, see [Manage users and groups](../admin/add-users/index.yml).</span></span>
 >   
    
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="4065a-107">Graph 모듈용 Azure Active Directory PowerShell 사용하기</span><span class="sxs-lookup"><span data-stu-id="4065a-107">Use the Azure Active Directory PowerShell for Graph module</span></span>
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="30d75-107">Graph 모듈용 Azure Active Directory PowerShell 사용하기</span><span class="sxs-lookup"><span data-stu-id="30d75-107">Use the Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="4065a-108">먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)</span><span class="sxs-lookup"><span data-stu-id="4065a-108">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
+<span data-ttu-id="30d75-108">먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)</span><span class="sxs-lookup"><span data-stu-id="30d75-108">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
 
-<span data-ttu-id="4065a-109">연결한 후 다음 구문을 사용하여 개별 사용자 계정을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-109">After you connect, use the following syntax to remove an individual user account:</span></span>
+<span data-ttu-id="30d75-109">연결한 후 다음 구문을 사용하여 개별 사용자 계정을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-109">After you connect, use the following syntax to remove an individual user account:</span></span>
   
 ```powershell
 Remove-AzureADUser -ObjectID <sign-in name>
 ```
 
-<span data-ttu-id="4065a-110">이 예제에서는 사용자 계정 *fabricec 을 \@ litwareinc.com.*</span><span class="sxs-lookup"><span data-stu-id="4065a-110">This example removes the user account *fabricec\@litwareinc.com*.</span></span>
+<span data-ttu-id="30d75-110">이 예제에서는 사용자 계정 *fabricec 을 \@ litwareinc.com.*</span><span class="sxs-lookup"><span data-stu-id="30d75-110">This example removes the user account *fabricec\@litwareinc.com*.</span></span>
   
 ```powershell
 Remove-AzureADUser -ObjectID fabricec@litwareinc.com
 ```
 
 > [!NOTE]
-> <span data-ttu-id="4065a-111">**Remove-AzureADUser** cmdlet의 *-ObjectID* 매개 변수는 계정의 로그인 이름(사용자 계정 이름 또는 계정의 개체 ID)을 허용합니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-111">The *-ObjectID* parameter in the **Remove-AzureADUser** cmdlet accepts either the account's sign-in name, also known as the User Principal Name or the account's object ID.</span></span>
+> <span data-ttu-id="30d75-111">**Remove-AzureADUser** cmdlet의 *-ObjectID* 매개 변수는 계정의 로그인 이름(사용자 계정 이름 또는 계정의 개체 ID)을 허용합니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-111">The *-ObjectID* parameter in the **Remove-AzureADUser** cmdlet accepts either the account's sign-in name, also known as the User Principal Name or the account's object ID.</span></span>
   
-<span data-ttu-id="4065a-112">사용자 이름을 기준으로 계정 이름을 표시하려면 다음 명령을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-112">To display the account name based on the user's name, use the following commands:</span></span>
+<span data-ttu-id="30d75-112">사용자 이름을 기준으로 계정 이름을 표시하려면 다음 명령을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-112">To display the account name based on the user's name, use the following commands:</span></span>
   
 ```powershell
 $userName="<User name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-<span data-ttu-id="4065a-113">이 예에서는 *사용자 Caleb Sills의 계정 이름을 표시합니다.*</span><span class="sxs-lookup"><span data-stu-id="4065a-113">This example displays the account name for the user *Caleb Sills*.</span></span>
+<span data-ttu-id="30d75-113">이 예에서는 *사용자 Caleb Sills의 계정 이름을 표시합니다.*</span><span class="sxs-lookup"><span data-stu-id="30d75-113">This example displays the account name for the user *Caleb Sills*.</span></span>
   
 ```powershell
 $userName="Caleb Sills"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-<span data-ttu-id="4065a-114">사용자 표시 이름을 기준으로 계정을 제거하려면 다음 명령을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-114">To remove an account based on the user's display name, use the following commands:</span></span>
+<span data-ttu-id="30d75-114">사용자 표시 이름을 기준으로 계정을 제거하려면 다음 명령을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-114">To remove an account based on the user's display name, use the following commands:</span></span>
   
 ```powershell
 $userName="<display name>"
 Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="4065a-115">Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기</span><span class="sxs-lookup"><span data-stu-id="4065a-115">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="30d75-115">Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기</span><span class="sxs-lookup"><span data-stu-id="30d75-115">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
 
-<span data-ttu-id="4065a-116">Microsoft Azure Active Directory 모듈을 통해 사용자 계정을 Windows PowerShell 계정은 영구적으로 삭제되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-116">When you delete a user account through the Microsoft Azure Active Directory Module for Windows PowerShell, the account isn't permanently deleted.</span></span> <span data-ttu-id="4065a-117">30 일 이내에 삭제 한 사용자 계정은 복원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-117">You can restore the deleted user account within 30 days.</span></span>
+<span data-ttu-id="30d75-116">Microsoft Azure Active Directory Module을 통해 사용자 계정을 Windows PowerShell 계정은 영구적으로 삭제되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-116">When you delete a user account through the Microsoft Azure Active Directory Module for Windows PowerShell, the account isn't permanently deleted.</span></span> <span data-ttu-id="30d75-117">30 일 이내에 삭제 한 사용자 계정은 복원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-117">You can restore the deleted user account within 30 days.</span></span>
 
-<span data-ttu-id="4065a-118">먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)</span><span class="sxs-lookup"><span data-stu-id="4065a-118">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
+<span data-ttu-id="30d75-118">먼저 [테넌트 Microsoft 365 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)</span><span class="sxs-lookup"><span data-stu-id="30d75-118">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
 
-<span data-ttu-id="4065a-119">사용자 계정을 삭제 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-119">To delete a user account, use the following syntax:</span></span>
+<span data-ttu-id="30d75-119">사용자 계정을 삭제 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-119">To delete a user account, use the following syntax:</span></span>
   
 ```powershell
 Remove-MsolUser -UserPrincipalName <sign-in name>
 ```
 
 >[!Note]
-><span data-ttu-id="4065a-120">PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-120">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="4065a-121">Windows PowerShell에서 이러한 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-121">Run these cmdlets from Windows PowerShell.</span></span>
+><span data-ttu-id="30d75-120">PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-120">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="30d75-121">Windows PowerShell에서 이러한 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-121">Run these cmdlets from Windows PowerShell.</span></span>
 >
 
-<span data-ttu-id="4065a-122">이 예에서는 의 사용자 계정을 *BelindaN@litwareinc.com.*</span><span class="sxs-lookup"><span data-stu-id="4065a-122">This example deletes the user account *BelindaN@litwareinc.com*.</span></span>
+<span data-ttu-id="30d75-122">이 예에서는 의 사용자 계정을 *BelindaN@litwareinc.com.*</span><span class="sxs-lookup"><span data-stu-id="30d75-122">This example deletes the user account *BelindaN@litwareinc.com*.</span></span>
   
 ```powershell
 Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
 ```
 
-<span data-ttu-id="4065a-123">30 일 유예 기간 동안 삭제 된 사용자 계정을 복원 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-123">To restore a deleted user account within the 30-day grace period, use the following syntax:</span></span>
+<span data-ttu-id="30d75-123">30 일 유예 기간 동안 삭제 된 사용자 계정을 복원 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-123">To restore a deleted user account within the 30-day grace period, use the following syntax:</span></span>
   
 ```powershell
 Restore-MsolUser -UserPrincipalName <sign-in name>
 ```
 
-<span data-ttu-id="4065a-124">이 예에서는 삭제된 계정 *BelindaN \@* 을 litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="4065a-124">This example restores the deleted account *BelindaN\@litwareinc.com*.</span></span>
+<span data-ttu-id="30d75-124">이 예에서는 삭제된 계정 *BelindaN \@* 을 litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="30d75-124">This example restores the deleted account *BelindaN\@litwareinc.com*.</span></span>
   
 ```powershell
 Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
 ```
 
 >[!Note]
-> <span data-ttu-id="4065a-125">복원할 수 있는 삭제된 사용자 목록을 보려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-125">To see the list of deleted users that can be restored, run the following command:</span></span>
+> <span data-ttu-id="30d75-125">복원할 수 있는 삭제된 사용자 목록을 보려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-125">To see the list of deleted users that can be restored, run the following command:</span></span>
 >    
 > ```powershell
 > Get-MsolUser -All -ReturnDeletedUsers
 > ```
 >
-> <span data-ttu-id="4065a-126">사용자 계정의 원본 사용자 계정 이름이 다른 계정에서 사용된 경우에, 사용자 계정을 복원할 때 다른 사용자 계정 이름을 지정하려면 _UserPrincipalName_ 대신에 _NewUserPrincipalName_ 매개 변수를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="4065a-126">If the user account's original user principal name is used by another account, use the _NewUserPrincipalName_ parameter instead of _UserPrincipalName_ to specify a different user principal name when you restore the user account.</span></span>
+> <span data-ttu-id="30d75-126">사용자 계정의 원본 사용자 계정 이름이 다른 계정에서 사용된 경우에, 사용자 계정을 복원할 때 다른 사용자 계정 이름을 지정하려면 _UserPrincipalName_ 대신에 _NewUserPrincipalName_ 매개 변수를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="30d75-126">If the user account's original user principal name is used by another account, use the _NewUserPrincipalName_ parameter instead of _UserPrincipalName_ to specify a different user principal name when you restore the user account.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="4065a-127">참고 항목</span><span class="sxs-lookup"><span data-stu-id="4065a-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30d75-127">참고 항목</span><span class="sxs-lookup"><span data-stu-id="30d75-127">See also</span></span>
 
-[<span data-ttu-id="4065a-128">PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="4065a-128">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[<span data-ttu-id="30d75-128">PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="30d75-128">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="4065a-129">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="4065a-129">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="30d75-129">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="30d75-129">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="4065a-130">Microsoft 365용 PowerShell 시작</span><span class="sxs-lookup"><span data-stu-id="4065a-130">Get started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
+[<span data-ttu-id="30d75-130">Microsoft 365용 PowerShell 시작</span><span class="sxs-lookup"><span data-stu-id="30d75-130">Get started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)

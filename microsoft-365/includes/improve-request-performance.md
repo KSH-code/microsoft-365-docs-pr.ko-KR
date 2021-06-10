@@ -22,7 +22,7 @@ ms.lasthandoff: 03/23/2021
 ms.locfileid: "51166751"
 ---
 >[!TIP]
-><span data-ttu-id="fafdc-104">성능을 향상하기 위해 지리적 위치에 더 가까운 서버를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fafdc-104">For better performance, you can use server closer to your geo location:</span></span>
-> - <span data-ttu-id="fafdc-105">api-us.securitycenter.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="fafdc-105">api-us.securitycenter.microsoft.com</span></span>
-> - <span data-ttu-id="fafdc-106">api-eu.securitycenter.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="fafdc-106">api-eu.securitycenter.microsoft.com</span></span>
-> - <span data-ttu-id="fafdc-107">api-uk.securitycenter.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="fafdc-107">api-uk.securitycenter.microsoft.com</span></span>
+><span data-ttu-id="69b39-104">성능을 향상하기 위해 지리적 위치에 더 가까운 서버를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="69b39-104">For better performance, you can use server closer to your geo location:</span></span>
+> - <span data-ttu-id="69b39-105">api-us.securitycenter.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="69b39-105">api-us.securitycenter.microsoft.com</span></span>
+> - <span data-ttu-id="69b39-106">api-eu.securitycenter.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="69b39-106">api-eu.securitycenter.microsoft.com</span></span>
+> - <span data-ttu-id="69b39-107">api-uk.securitycenter.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="69b39-107">api-uk.securitycenter.microsoft.com</span></span>
