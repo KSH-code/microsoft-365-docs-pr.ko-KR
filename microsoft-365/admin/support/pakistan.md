@@ -19,22 +19,22 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297911"
 ---
-# <a name="contact-support-for-pakistan"></a><span data-ttu-id="29ac4-103">파키스탄 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="29ac4-103">Contact support for Pakistan</span></span>
+# <a name="contact-support-for-pakistan"></a><span data-ttu-id="92397-103">파키스탄 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="92397-103">Contact support for Pakistan</span></span>
 
-<span data-ttu-id="29ac4-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="29ac4-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="92397-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="92397-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="29ac4-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="29ac4-105">Phone number</span></span>
-<span data-ttu-id="29ac4-106">021 111 674 357</span><span class="sxs-lookup"><span data-stu-id="29ac4-106">021 111 674 357</span></span>
+## <a name="phone-number"></a><span data-ttu-id="92397-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="92397-105">Phone number</span></span>
+<span data-ttu-id="92397-106">021 111 674 357</span><span class="sxs-lookup"><span data-stu-id="92397-106">021 111 674 357</span></span>
 
-<span data-ttu-id="29ac4-107">옵션 3 선택</span><span class="sxs-lookup"><span data-stu-id="29ac4-107">Select option 3</span></span>
+<span data-ttu-id="92397-107">옵션 3 선택</span><span class="sxs-lookup"><span data-stu-id="92397-107">Select option 3</span></span>
 
-## <a name="hours"></a><span data-ttu-id="29ac4-108">시간</span><span class="sxs-lookup"><span data-stu-id="29ac4-108">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="29ac4-109">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="29ac4-109">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="92397-108">시간</span><span class="sxs-lookup"><span data-stu-id="92397-108">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="92397-109">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="92397-109">Billing Support:</span></span>
 
-<span data-ttu-id="29ac4-110">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="29ac4-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="92397-110">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="92397-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="29ac4-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="29ac4-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="92397-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="92397-111">Technical Support:</span></span>
 
-<span data-ttu-id="29ac4-112">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="29ac4-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="92397-112">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="92397-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="29ac4-113">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="29ac4-113">Local call charges apply</span></span>
+<span data-ttu-id="92397-113">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="92397-113">Local call charges apply</span></span>

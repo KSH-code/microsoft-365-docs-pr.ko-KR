@@ -19,20 +19,20 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297956"
 ---
-# <a name="contact-support-for-norfolk-island"></a><span data-ttu-id="9560e-103">노폴크 섬 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="9560e-103">Contact support for Norfolk Island</span></span>
+# <a name="contact-support-for-norfolk-island"></a><span data-ttu-id="c0e59-103">노폴크 섬 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="c0e59-103">Contact support for Norfolk Island</span></span>
 
-<span data-ttu-id="9560e-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9560e-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="c0e59-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="c0e59-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9560e-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="9560e-105">Phone number</span></span>
-<span data-ttu-id="9560e-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="9560e-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="c0e59-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="c0e59-105">Phone number</span></span>
+<span data-ttu-id="c0e59-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="c0e59-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9560e-107">시간</span><span class="sxs-lookup"><span data-stu-id="9560e-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="9560e-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="9560e-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="c0e59-107">시간</span><span class="sxs-lookup"><span data-stu-id="c0e59-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="c0e59-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="c0e59-108">Billing Support:</span></span>
 
-<span data-ttu-id="9560e-109">영어: Mon-Fri 오후 12시-8시</span><span class="sxs-lookup"><span data-stu-id="9560e-109">English: Mon-Fri 12 PM-8 PM</span></span>
+<span data-ttu-id="c0e59-109">영어: Mon-Fri 오후 12시-8시</span><span class="sxs-lookup"><span data-stu-id="c0e59-109">English: Mon-Fri 12 PM-8 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="9560e-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="9560e-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="c0e59-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="c0e59-110">Technical Support:</span></span>
 
-<span data-ttu-id="9560e-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="9560e-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="c0e59-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="c0e59-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="9560e-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="9560e-112">International call charges apply</span></span>
+<span data-ttu-id="c0e59-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="c0e59-112">International call charges apply</span></span>

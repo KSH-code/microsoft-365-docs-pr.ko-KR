@@ -19,24 +19,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297995"
 ---
-# <a name="contact-support-for-namibia"></a><span data-ttu-id="ccd59-103">나미비아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="ccd59-103">Contact support for Namibia</span></span>
+# <a name="contact-support-for-namibia"></a><span data-ttu-id="9d3e7-103">나미비아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="9d3e7-103">Contact support for Namibia</span></span>
 
-<span data-ttu-id="ccd59-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="ccd59-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="9d3e7-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9d3e7-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="ccd59-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="ccd59-105">Phone number</span></span>
-<span data-ttu-id="ccd59-106">061 292 5016</span><span class="sxs-lookup"><span data-stu-id="ccd59-106">061 292 5016</span></span>
+## <a name="phone-number"></a><span data-ttu-id="9d3e7-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="9d3e7-105">Phone number</span></span>
+<span data-ttu-id="9d3e7-106">061 292 5016</span><span class="sxs-lookup"><span data-stu-id="9d3e7-106">061 292 5016</span></span>
 
-<span data-ttu-id="ccd59-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="ccd59-107">Select option 9</span></span>
+<span data-ttu-id="9d3e7-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="9d3e7-107">Select option 9</span></span>
 
-<span data-ttu-id="ccd59-108">코드 7705 입력</span><span class="sxs-lookup"><span data-stu-id="ccd59-108">Enter code 7705</span></span>
+<span data-ttu-id="9d3e7-108">코드 7705 입력</span><span class="sxs-lookup"><span data-stu-id="9d3e7-108">Enter code 7705</span></span>
 
-## <a name="hours"></a><span data-ttu-id="ccd59-109">시간</span><span class="sxs-lookup"><span data-stu-id="ccd59-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="ccd59-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="ccd59-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="9d3e7-109">시간</span><span class="sxs-lookup"><span data-stu-id="9d3e7-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="9d3e7-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="9d3e7-110">Billing Support:</span></span>
 
-<span data-ttu-id="ccd59-111">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="ccd59-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="9d3e7-111">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="9d3e7-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="ccd59-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="ccd59-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="9d3e7-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="9d3e7-112">Technical Support:</span></span>
 
-<span data-ttu-id="ccd59-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="ccd59-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="9d3e7-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="9d3e7-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="ccd59-114">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="ccd59-114">Local call charges apply</span></span>
+<span data-ttu-id="9d3e7-114">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="9d3e7-114">Local call charges apply</span></span>

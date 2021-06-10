@@ -19,24 +19,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298845"
 ---
-# <a name="contact-support-for-french-polynesia"></a><span data-ttu-id="317dd-103">프랑스령 폴리네시아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="317dd-103">Contact support for French Polynesia</span></span>
+# <a name="contact-support-for-french-polynesia"></a><span data-ttu-id="a863b-103">프랑스령 폴리네시아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="a863b-103">Contact support for French Polynesia</span></span>
 
-<span data-ttu-id="317dd-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="317dd-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="a863b-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a863b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="317dd-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="317dd-105">Phone number</span></span>
-<span data-ttu-id="317dd-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="317dd-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="a863b-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="a863b-105">Phone number</span></span>
+<span data-ttu-id="a863b-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="a863b-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="317dd-107">시간</span><span class="sxs-lookup"><span data-stu-id="317dd-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="317dd-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="317dd-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="a863b-107">시간</span><span class="sxs-lookup"><span data-stu-id="a863b-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="a863b-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="a863b-108">Billing Support:</span></span>
 
-<span data-ttu-id="317dd-109">프랑스어: Sun-Fri 오후 10시-6시</span><span class="sxs-lookup"><span data-stu-id="317dd-109">French: Sun-Fri 10 PM-6 AM</span></span>
+<span data-ttu-id="a863b-109">프랑스어: Sun-Fri 오후 10시-6시</span><span class="sxs-lookup"><span data-stu-id="a863b-109">French: Sun-Fri 10 PM-6 AM</span></span>
 
-<span data-ttu-id="317dd-110">영어: Sun-Fri 오후 10시-6시</span><span class="sxs-lookup"><span data-stu-id="317dd-110">English: Sun-Fri 10 PM-6 AM</span></span>
+<span data-ttu-id="a863b-110">영어: Sun-Fri 오후 10시-6시</span><span class="sxs-lookup"><span data-stu-id="a863b-110">English: Sun-Fri 10 PM-6 AM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="317dd-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="317dd-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="a863b-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="a863b-111">Technical Support:</span></span>
 
-<span data-ttu-id="317dd-112">프랑스어: Mon-Fri 오후 9시-10분</span><span class="sxs-lookup"><span data-stu-id="317dd-112">French: Mon-Fri 9 PM-10 AM</span></span>
+<span data-ttu-id="a863b-112">프랑스어: Mon-Fri 오후 9시-10분</span><span class="sxs-lookup"><span data-stu-id="a863b-112">French: Mon-Fri 9 PM-10 AM</span></span>
 
-<span data-ttu-id="317dd-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="317dd-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="a863b-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="a863b-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="317dd-114">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="317dd-114">International call charges apply</span></span>
+<span data-ttu-id="a863b-114">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="a863b-114">International call charges apply</span></span>

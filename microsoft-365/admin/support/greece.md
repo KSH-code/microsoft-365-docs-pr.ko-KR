@@ -19,18 +19,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298797"
 ---
-# <a name="contact-support-for-greece"></a><span data-ttu-id="b21ea-103">그리스 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="b21ea-103">Contact support for Greece</span></span>
+# <a name="contact-support-for-greece"></a><span data-ttu-id="fa051-103">그리스 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="fa051-103">Contact support for Greece</span></span>
 
-<span data-ttu-id="b21ea-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="b21ea-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="fa051-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="fa051-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="b21ea-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="b21ea-105">Phone number</span></span>
-<span data-ttu-id="b21ea-106">00800 4414 2831</span><span class="sxs-lookup"><span data-stu-id="b21ea-106">00800 4414 2831</span></span>
+## <a name="phone-number"></a><span data-ttu-id="fa051-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="fa051-105">Phone number</span></span>
+<span data-ttu-id="fa051-106">00800 4414 2831</span><span class="sxs-lookup"><span data-stu-id="fa051-106">00800 4414 2831</span></span>
 
-## <a name="hours"></a><span data-ttu-id="b21ea-107">시간</span><span class="sxs-lookup"><span data-stu-id="b21ea-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="b21ea-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="b21ea-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="fa051-107">시간</span><span class="sxs-lookup"><span data-stu-id="fa051-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="fa051-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="fa051-108">Billing Support:</span></span>
 
-<span data-ttu-id="b21ea-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="b21ea-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="fa051-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="fa051-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="b21ea-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="b21ea-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="fa051-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="fa051-110">Technical Support:</span></span>
 
-<span data-ttu-id="b21ea-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="b21ea-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="fa051-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="fa051-111">English: 24 hours a day, 7 days a week</span></span>

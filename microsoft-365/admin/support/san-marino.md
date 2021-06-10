@@ -19,24 +19,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297767"
 ---
-# <a name="contact-support-for-san-marino"></a><span data-ttu-id="a65ac-103">San Marino 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="a65ac-103">Contact support for San Marino</span></span>
+# <a name="contact-support-for-san-marino"></a><span data-ttu-id="e1471-103">San Marino 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="e1471-103">Contact support for San Marino</span></span>
 
-<span data-ttu-id="a65ac-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a65ac-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="e1471-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="e1471-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="a65ac-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="a65ac-105">Phone number</span></span>
-<span data-ttu-id="a65ac-106">+1 312 843 5154</span><span class="sxs-lookup"><span data-stu-id="a65ac-106">+1 312 843 5154</span></span>
+## <a name="phone-number"></a><span data-ttu-id="e1471-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="e1471-105">Phone number</span></span>
+<span data-ttu-id="e1471-106">+1 312 843 5154</span><span class="sxs-lookup"><span data-stu-id="e1471-106">+1 312 843 5154</span></span>
 
-## <a name="hours"></a><span data-ttu-id="a65ac-107">시간</span><span class="sxs-lookup"><span data-stu-id="a65ac-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="a65ac-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="a65ac-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="e1471-107">시간</span><span class="sxs-lookup"><span data-stu-id="e1471-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="e1471-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="e1471-108">Billing Support:</span></span>
 
-<span data-ttu-id="a65ac-109">이탈리아어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="a65ac-109">Italian: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="e1471-109">이탈리아어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="e1471-109">Italian: Mon-Fri 10 AM-6 PM</span></span>
 
-<span data-ttu-id="a65ac-110">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="a65ac-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="e1471-110">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="e1471-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="a65ac-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="a65ac-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="e1471-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="e1471-111">Technical Support:</span></span>
 
-<span data-ttu-id="a65ac-112">이탈리아어: Mon-Fri 오전 9시-오후 10시</span><span class="sxs-lookup"><span data-stu-id="a65ac-112">Italian: Mon-Fri 9 AM-10 PM</span></span>
+<span data-ttu-id="e1471-112">이탈리아어: Mon-Fri 오전 9시-오후 10시</span><span class="sxs-lookup"><span data-stu-id="e1471-112">Italian: Mon-Fri 9 AM-10 PM</span></span>
 
-<span data-ttu-id="a65ac-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="a65ac-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="e1471-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="e1471-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="a65ac-114">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="a65ac-114">International call charges apply</span></span>
+<span data-ttu-id="e1471-114">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1471-114">International call charges apply</span></span>

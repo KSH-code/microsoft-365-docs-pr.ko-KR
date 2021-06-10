@@ -19,18 +19,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297983"
 ---
-# <a name="contact-support-for-nepal"></a><span data-ttu-id="19c73-103">네팔 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="19c73-103">Contact support for Nepal</span></span>
+# <a name="contact-support-for-nepal"></a><span data-ttu-id="418ee-103">네팔 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="418ee-103">Contact support for Nepal</span></span>
 
-<span data-ttu-id="19c73-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="19c73-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="418ee-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="418ee-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="19c73-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="19c73-105">Phone number</span></span>
-<span data-ttu-id="19c73-106">전화 지원을 사용할 수 없습니다. 온라인 지원만 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="19c73-106">Telephone support not available; only online support.</span></span>
+## <a name="phone-number"></a><span data-ttu-id="418ee-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="418ee-105">Phone number</span></span>
+<span data-ttu-id="418ee-106">전화 지원을 사용할 수 없습니다. 온라인 지원만 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="418ee-106">Telephone support not available; only online support.</span></span>
 
-## <a name="hours"></a><span data-ttu-id="19c73-107">시간</span><span class="sxs-lookup"><span data-stu-id="19c73-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="19c73-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="19c73-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="418ee-107">시간</span><span class="sxs-lookup"><span data-stu-id="418ee-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="418ee-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="418ee-108">Billing Support:</span></span>
 
-<span data-ttu-id="19c73-109">휴대폰에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="19c73-109">Not available by phone</span></span>
+<span data-ttu-id="418ee-109">휴대폰에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="418ee-109">Not available by phone</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="19c73-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="19c73-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="418ee-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="418ee-110">Technical Support:</span></span>
 
-<span data-ttu-id="19c73-111">휴대폰에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="19c73-111">Not available by phone</span></span>
+<span data-ttu-id="418ee-111">휴대폰에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="418ee-111">Not available by phone</span></span>

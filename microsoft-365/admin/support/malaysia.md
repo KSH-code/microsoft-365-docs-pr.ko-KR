@@ -19,22 +19,22 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298145"
 ---
-# <a name="contact-support-for-malaysia"></a><span data-ttu-id="bb074-103">말레이시아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="bb074-103">Contact support for Malaysia</span></span>
+# <a name="contact-support-for-malaysia"></a><span data-ttu-id="47386-103">말레이시아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="47386-103">Contact support for Malaysia</span></span>
 
-<span data-ttu-id="bb074-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="bb074-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="47386-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="47386-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="bb074-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="bb074-105">Phone number</span></span>
-<span data-ttu-id="bb074-106">1800 22 0030</span><span class="sxs-lookup"><span data-stu-id="bb074-106">1800 22 0030</span></span>
+## <a name="phone-number"></a><span data-ttu-id="47386-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="47386-105">Phone number</span></span>
+<span data-ttu-id="47386-106">1800 22 0030</span><span class="sxs-lookup"><span data-stu-id="47386-106">1800 22 0030</span></span>
 
-## <a name="hours"></a><span data-ttu-id="bb074-107">시간</span><span class="sxs-lookup"><span data-stu-id="bb074-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="bb074-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="bb074-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="47386-107">시간</span><span class="sxs-lookup"><span data-stu-id="47386-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="47386-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="47386-108">Billing Support:</span></span>
 
-<span data-ttu-id="bb074-109">영어: Mon-Fri 오전 9시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="bb074-109">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="47386-109">영어: Mon-Fri 오전 9시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="47386-109">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="bb074-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="bb074-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="47386-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="47386-110">Technical Support:</span></span>
 
-<span data-ttu-id="bb074-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="bb074-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="47386-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="47386-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="bb074-112">대체 전화 번호: 03 6207 4606</span><span class="sxs-lookup"><span data-stu-id="bb074-112">Alternative Phone Number: 03 6207 4606</span></span>
+<span data-ttu-id="47386-112">대체 전화 번호: 03 6207 4606</span><span class="sxs-lookup"><span data-stu-id="47386-112">Alternative Phone Number: 03 6207 4606</span></span>
 
-<span data-ttu-id="bb074-113">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="bb074-113">Local call charges apply</span></span>
+<span data-ttu-id="47386-113">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="47386-113">Local call charges apply</span></span>

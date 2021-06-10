@@ -19,20 +19,20 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298472"
 ---
-# <a name="contact-support-for-kosovo"></a><span data-ttu-id="da21b-103">Kosovo 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="da21b-103">Contact support for Kosovo</span></span>
+# <a name="contact-support-for-kosovo"></a><span data-ttu-id="9e3d3-103">Kosovo 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="9e3d3-103">Contact support for Kosovo</span></span>
 
-<span data-ttu-id="da21b-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="da21b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="9e3d3-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9e3d3-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="da21b-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="da21b-105">Phone number</span></span>
-<span data-ttu-id="da21b-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="da21b-106">+1 312 843 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="9e3d3-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="9e3d3-105">Phone number</span></span>
+<span data-ttu-id="9e3d3-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="9e3d3-106">+1 312 843 5151</span></span>
 
-## <a name="hours"></a><span data-ttu-id="da21b-107">시간</span><span class="sxs-lookup"><span data-stu-id="da21b-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="da21b-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="da21b-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="9e3d3-107">시간</span><span class="sxs-lookup"><span data-stu-id="9e3d3-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="9e3d3-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="9e3d3-108">Billing Support:</span></span>
 
-<span data-ttu-id="da21b-109">영어: Mon-Fri 오전 11시-오후 7시</span><span class="sxs-lookup"><span data-stu-id="da21b-109">English: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="9e3d3-109">영어: Mon-Fri 오전 11시-오후 7시</span><span class="sxs-lookup"><span data-stu-id="9e3d3-109">English: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="da21b-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="da21b-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="9e3d3-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="9e3d3-110">Technical Support:</span></span>
 
-<span data-ttu-id="da21b-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="da21b-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="9e3d3-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="9e3d3-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="da21b-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="da21b-112">International call charges apply</span></span>
+<span data-ttu-id="9e3d3-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="9e3d3-112">International call charges apply</span></span>

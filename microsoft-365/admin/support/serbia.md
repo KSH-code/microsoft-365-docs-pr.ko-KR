@@ -19,18 +19,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297743"
 ---
-# <a name="contact-support-for-serbia"></a><span data-ttu-id="73776-103">세르비아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="73776-103">Contact support for Serbia</span></span>
+# <a name="contact-support-for-serbia"></a><span data-ttu-id="61b84-103">세르비아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="61b84-103">Contact support for Serbia</span></span>
 
-<span data-ttu-id="73776-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="73776-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="61b84-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="61b84-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="73776-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="73776-105">Phone number</span></span>
-<span data-ttu-id="73776-106">0800 190 095</span><span class="sxs-lookup"><span data-stu-id="73776-106">0800 190 095</span></span>
+## <a name="phone-number"></a><span data-ttu-id="61b84-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="61b84-105">Phone number</span></span>
+<span data-ttu-id="61b84-106">0800 190 095</span><span class="sxs-lookup"><span data-stu-id="61b84-106">0800 190 095</span></span>
 
-## <a name="hours"></a><span data-ttu-id="73776-107">시간</span><span class="sxs-lookup"><span data-stu-id="73776-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="73776-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="73776-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="61b84-107">시간</span><span class="sxs-lookup"><span data-stu-id="61b84-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="61b84-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="61b84-108">Billing Support:</span></span>
 
-<span data-ttu-id="73776-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="73776-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="61b84-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="61b84-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="73776-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="73776-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="61b84-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="61b84-110">Technical Support:</span></span>
 
-<span data-ttu-id="73776-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="73776-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="61b84-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="61b84-111">English: 24 hours a day, 7 days a week</span></span>
