@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 직장 또는 학교 계정이 있는 사용자는 엔터프라이즈 수준의 보안 약속을 Microsoft 365 환경의 Cortana를 Office 365 수 있습니다.
-ms.openlocfilehash: f626ba0d0295655dcdb3d4df2b332dcf05f1a6b5
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e4b934a8991837637869074d43df89e70b09924d
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635801"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866622"
 ---
 # <a name="cortana-in-microsoft-365"></a>Microsoft 365
 
@@ -89,19 +89,17 @@ Teams 모바일 앱 및 Microsoft Teams 디바이스의 Cortana 음성 지원을
 
 **관리자 컨트롤**
 
-Cortana 음성 지원은 테넌트에 대해 기본적으로 사용하도록 설정됩니다. 관리자는 정책(TeamsCortanaPolicy)을 통해 테넌트에서 Cortana 음성 지원을 Teams 수 있습니다. 이 정책은 사용자 계정 수준 또는 테넌트 수준에서 설정할 수 있습니다. 관리자는 이 정책 컨트롤 내의 CortanaVoiceInvocationMode 필드를 사용하여 Cortana가 사용하지 않도록 설정되어 있는지, 푸시 단추 호출만 사용할지 또는 절전 모드 해제 단어 호출을 사용할지(예: Microsoft Teams 디스플레이와 같은 디바이스에 적용 가능) 여부를 확인할 수 있습니다. 영어로 Microsoft 365 Enterprise 사용자를 위한 초기 릴리스 당시에 Teams 모바일 앱은 기상 단어 활성화를 지원하지 않지만 향후 지원될 예정입니다.
+Cortana 음성 지원은 테넌트에 대해 기본적으로 사용하도록 설정됩니다. 관리자는 정책(TeamsCortanaPolicy)을 통해 테넌트에서 Cortana 음성 지원을 Teams 수 있습니다. 이 정책은 사용자 계정 수준 또는 테넌트 수준에서 설정할 수 있습니다. 관리자는 이 정책 컨트롤 내의 CortanaVoiceInvocationMode 필드를 사용하여 Cortana가 사용하지 않도록 설정되어 있는지, 푸시 단추 호출만 사용할지 또는 절전 모드 해제 단어 호출을 사용할지(예: Microsoft Teams 디스플레이와 같은 디바이스에 적용 가능) 여부를 확인할 수 있습니다. 
 
 **사용자 컨트롤**
 
-개별 사용자는 마이크 단추를 클릭하여 Teams 모바일 앱에서 Cortana 음성 지원을 사용해 볼 수 있습니다. &#8220;Cortana.&#8221; 말하기만 하여 Microsoft Teams 디스플레이 디바이스에서 Cortana 음성 지원을 사용해 볼 수 있습니다Teams 또한 Teams 모바일 앱 또는 Microsoft Teams 디스플레이의 설정을 통해 디바이스에 대해 Cortana를 사용할 수 있는지 여부를 제어할 수 있습니다. 
+개별 사용자는 마이크 단추를 클릭하여 Teams 모바일 앱에서 Cortana 음성 지원을 사용해 볼 수 있습니다. Cortana.Microsoft Teams Cortana를 호출하는 &#8220;말로만 Cortana 음성 지원을 시도할 수 &#8221; Cortana가 기상 단어 호출에 응답하는지 여부를 제어할 수 있습니다. 
 
-1. 모바일 Teams 열거나 화면 표시의 주변(홈) 화면으로 Microsoft Teams 합니다.
+1.  모바일 Teams 열기
+2.  이동하여 설정
+3.  Cortana 선택
+4.  음성 활성화 토글 전환
 
-2. 모바일 Teams 에서 으로 **설정.** 사용자 Microsoft Teams 표시에서 사용자 아바타를 선택한 다음 설정. Cortana를 사용하도록 설정한 경우(&#8220;Cortana) 설정.&#8221;
-
-3. **Cortana를 선택합니다.**
-
-4. 디바이스에서 Cortana 음성 지원을 원하는지 여부에 따라 토글을 **설정** 또는 끄기로 전환합니다.
 
 [자세한 내용은 2016년 8월 Cortana 음성 Teams](/microsoftteams/cortana-in-teams)
 

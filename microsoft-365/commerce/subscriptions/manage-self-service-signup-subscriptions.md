@@ -34,7 +34,7 @@ ms.locfileid: "52536073"
 
 ## <a name="view-a-list-of-self-service-sign-up-subscriptions"></a>셀프 서비스 등록 구독 목록 보기
 
-1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
 2. 제품 **탭에서** 필터 아이콘을 선택한 다음 무료 를 **선택합니다.** 모든 셀프 서비스 등록 구독 목록이 표시됩니다.
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>이러한 구독은 셀프 서비스 구매 구독과 어떻게 다른가요?
@@ -50,7 +50,7 @@ ms.locfileid: "52536073"
 > [!IMPORTANT]
 > 셀프 서비스 등록 구독을 삭제하면 모든 사용자가 데이터 및 전자 메일에 액세스하지 못하게 차단하고 모든 데이터와 전자 메일을 삭제합니다.
 
-1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
 2. 제품 **탭에서** 필터 아이콘을 선택한 다음 무료 를 **선택합니다.**
 3. 삭제할 셀프 서비스 등록 구독을 선택합니다. 
 4. 구독 세부 정보 페이지의 구독  및 결제 설정 섹션에서 구독 **삭제를 선택합니다.**

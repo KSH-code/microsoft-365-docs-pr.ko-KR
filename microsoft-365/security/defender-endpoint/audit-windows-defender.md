@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 06/02/2021
 ms.topic: article
-ms.openlocfilehash: 10351d97ba72945f929e042dc72a37724a1df291
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: e78b21b751aa398ed4449fb398f12b60f1929873
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769608"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866682"
 ---
 # <a name="test-attack-surface-reduction-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 공격 표면 감소 테스트
 
@@ -46,7 +46,7 @@ ms.locfileid: "52769608"
 > [!TIP]
 > 또한 Windows Defender Testground 웹 사이트를 방문하여 [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) demo.wd.microsoft.com 작동을 확인하고 작동 방법을 확인할 수 있습니다.
 
- **감사 옵션** | **감사 모드를 사용하도록 설정하는 방법** | **이벤트를 보는 방법**
+| 감사 옵션 | 감사 모드를 사용하도록 설정하는 방법 | 이벤트를 보는 방법 |
 |---------|---------|---------|
 | 감사는 모든 이벤트에 적용됩니다. | [제어된 폴더 액세스 사용](enable-controlled-folders.md) | [제어된 폴더 액세스 이벤트](evaluate-controlled-folder-access.md#review-controlled-folder-access-events-in-windows-event-viewer)
 | 감사는 개별 규칙에 적용됩니다. | [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md) | [공격 표면 감소 규칙 이벤트](evaluate-attack-surface-reduction.md#review-attack-surface-reduction-events-in-windows-event-viewer)

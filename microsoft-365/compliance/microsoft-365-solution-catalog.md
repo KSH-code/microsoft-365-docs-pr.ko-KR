@@ -78,7 +78,7 @@ ms.locfileid: "52114426"
 
 Microsoft 365 카탈로그를 방문하여 전역 관리자, 준수 관리자 또는 규정 준수 데이터 관리자로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인합니다. 화면 **왼쪽의** 탐색 창에서 카탈로그를 선택하여 카탈로그 홈 페이지를 열 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **솔루션 카탈로그가 Microsoft 365 없는 이유는 무엇입니까?**
 

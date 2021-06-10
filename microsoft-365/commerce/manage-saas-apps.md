@@ -19,18 +19,16 @@ ms.custom:
 search.appverid: MET150
 description: Microsoft 365 관리 센터에서 타사 앱을 활성화하고 관리하는 방법에 대해 자세히 알아보습니다.
 ms.date: 04/15/2021
-ms.openlocfilehash: 5a486dba03fbd34fe2e409bba8ba41c1f9873141
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: f061137270416d13db1f1cd32aa17f50f2f8c5d2
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331625"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866610"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직의 타사 앱 구독 관리
 
 새 관리 센터에서 타사 앱에 대한 라이선스 및 청구를 관리할 Microsoft 365 있습니다. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
-
-미리 보기 모드가 켜져 있는 Microsoft 365 관리 센터에서 타사 앱에 대한 라이선스 및 청구를 관리할 수 있습니다. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>서비스로 소프트웨어 앱을 다운로드하는 방법
 
@@ -104,7 +102,7 @@ ms.locfileid: "52331625"
 
 ## <a name="manage-payment-methods"></a>결제 방법 관리
 
-As-a-Service 앱에는 각각 청구 프로필이 할당되어 있습니다. 청구 프로필을 사용하면 송장에 포함된 제품과 송장 결제 방법을 사용자 지정할 수 있습니다. 여기에는 다음이 포함됩니다.
+As-a-Service 앱에는 각각 청구 프로필이 할당되어 있습니다. 청구 프로필을 사용하면 송장에 포함된 제품과 송장 결제 방법을 사용자 지정할 수 있습니다. 다음이 포함됩니다.
 
 - **결제 방법** - 신용 카드 또는 수표/송금
 - **연락처 정보** - 청구 주소 및 연락처 이름

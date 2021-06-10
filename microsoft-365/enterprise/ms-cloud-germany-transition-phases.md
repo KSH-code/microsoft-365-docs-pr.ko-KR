@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 28d5eebbe63db13edfb1bfc297bdd6ad0c13536c
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 3a5b95bac74ae405f4e1d6fa91ba4ab51e4a9d05
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861256"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796045"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -315,11 +315,6 @@ Microsoft Azure 테넌트가 전 세계로의 마이그레이션을 완료하는
 | Azure AD 응용 프로그램 끝점 업데이트 | 응용 프로그램의 인증, Azure Active Directory(Azure AD) Graph 및 MS Graph 끝점을 Microsoft Worldwide 서비스의 끝점으로 업데이트해야 합니다. | 마이그레이션이 완료된 후 30일이 지난 후 Microsoft 클라우드 도이클랜드 끝점은 요청의 존중을 중지합니다. 클라이언트 또는 응용 프로그램 트래픽이 실패합니다. |
 | Azure Workloads 마이그레이션 | Azure 서비스 고객은 Azure 서비스에 대한 새 전 세계 구독을 프로비전하고 Azure 마이그레이션 플레이북당 [마이그레이션을 실행해야 합니다.](/azure/germany/germany-migration-main) | 전 세계 서비스로 완전히 전환하면(10단계) 고객은 더 이상 Microsoft 클라우드 도이치랜드 Azure 포털에 있는 Azure 워크로드에 액세스할 수 없습니다. |
 ||||
-
-**다음에 적용됩니다.** Azure AD 등록 또는 가입 장치를 사용 하는 고객
-
-9단계가 완료되면 Azure AD 등록 및 가입된 장치를 새 독일 데이터 센터 지역의 전환된 Azure AD 인스턴스에 연결해야 합니다.
-Azure AD에 다시 가입되지 않은 장치는 10단계가 끝나면 더 이상 작동하지 않을 수 있습니다. 자세한 지침과 자세한 내용은 장치에 대한 추가 [정보를 참조하세요.](ms-cloud-germany-transition-add-devices.md)
 
 ### <a name="azure-ad-connect"></a>Azure AD Connect
 **다음에 적용됩니다.** Id를 Azure AD Connect와 동기화하는 모든 고객

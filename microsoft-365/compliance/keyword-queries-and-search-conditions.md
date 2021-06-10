@@ -21,13 +21,13 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
-description: eDiscovery 검색 도구를 사용하여 검색할 수 있는 전자 메일 및 파일 속성에 대해 Microsoft 365.
-ms.openlocfilehash: 390477012c6a2a57c5e305641ba5b79ff10f4ea7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: eDiscovery 검색 도구를 사용하여 검색할 수 있는 전자 메일 및 문서 속성에 대해 Microsoft 365.
+ms.openlocfilehash: 1e6612d658ff2fbcbee36b64dab9d352663f75b2
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538438"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866706"
 ---
 # <a name="keyword-queries-and-search-conditions-for-ediscovery"></a>eDiscovery에 대한 키워드 쿼리 및 검색 조건
 
@@ -61,7 +61,7 @@ ms.locfileid: "52538438"
 |:-----|:-----|:-----|:-----|
 |AttachmentNames|전자 메일 메시지에 첨부되는 파일의 이름입니다.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> `attachmentnames:.pptx` |annualreport.ppt라는 파일이 첨부된 메시지입니다. 두 번째 예제에서는 와일드카드 문자( * )를 사용하여 첨부 파일의 파일 이름에 "annual"이라는 단어가 있는 메시지를 반환합니다. 세 번째 예제에서는 pptx 파일 확장명을 가지는 모든 첨부 파일을 반환합니다.|
 |Bcc|전자 메일 메시지의 Bcc 필드입니다. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|모든 예제는 숨은 참조 필드에 Pilar Pinilla가 포함된 메시지를 반환합니다.|
-|범주| 검색할 범주입니다. 범주는 웹용 웹 응용 Outlook 또는 웹 Outlook 사용하여 정의할 수 Outlook Web App. 가능한 값은 다음과 같습니다.  <br/><br/>  파랑  <br/>  녹색  <br/>  orange  <br/>  자주  <br/>  빨강  <br/>  노란색|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
+|Category| 검색할 범주입니다. 범주는 웹용 웹 응용 Outlook 또는 웹 Outlook 사용하여 정의할 수 Outlook Web App. 가능한 값은 다음과 같습니다.  <br/><br/>  파랑  <br/>  녹색  <br/>  orange  <br/>  자주  <br/>  빨강  <br/>  노란색|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
 |Cc|전자 메일 메시지의Cc 필드입니다. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|두 예제 모두 참조 필드에 Pilar Pinilla가 지정된 메시지입니다.|
 |Folderid|특정 사서함 폴더의 폴더 ID(GUID)입니다. 이 속성을 사용하는 경우 지정된 폴더가 있는 사서함을 검색해야 합니다. 지정된 폴더만 검색됩니다. 폴더의 하위 폴더는 검색되지 않습니다. 하위 폴더를 검색하려면 검색할 하위 폴더에 Folderid 속성을 사용해야 합니다.  <br/> Folderid 속성을 검색하고 스크립트를 사용하여 특정 사서함의 폴더ID를 얻는 데 대한 자세한 내용은 [Use Content search for targeted collections을 참조하십시오.](use-content-search-for-targeted-collections.md)|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정한 사서함 폴더의 모든 항목을 반환합니다. 두 번째 예에서는 지정된 사서함 폴더에서 사서함 폴더에서 보내거나 받은 모든 항목을 garthf@contoso.com.|
 |시작|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|
@@ -99,7 +99,7 @@ ms.locfileid: "52538438"
   
 검색할 수 있는 SharePoint 속성의 전체 목록은 overview [of crawled and managed properties in SharePoint.](/SharePoint/technical-reference/crawled-and-managed-properties-overview) 쿼리 가능 열에  **예로** 표시된 속성을 검색할 수 있습니다.
   
-| 속성 | 속성 설명 | 예제 | 예제에서 반환된 검색 결과 |
+| 속성 | 속성 설명 | 예시 | 예제에서 반환된 검색 결과 |
 |:-----|:-----|:-----|:-----|
 |만든 이|문서를 복사하는 경우 유지되는 Office 문서의 만든 이 필드입니다. 예를 들어 사용자가 문서를 만든 후 다른 사람에게 전자 메일로 전자 메일을 보내면 문서가 SharePoint 원래 작성자가 유지됩니다. 이 속성에는 사용자의 표시 이름을 사용해야 합니다.|`author:"Garth Fort"`|Garth Fort가 만든 모든 문서입니다.|
 |ContentType|항목 SharePoint, 문서 또는 비디오와 같은 항목의 콘텐츠 형식을 저장합니다.|`contenttype:document`|모든 문서가 반환됩니다.|
@@ -252,7 +252,7 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 |제목|문서의 제목입니다. Title 속성은 Office 문서에 지정된 메타데이터입니다. 문서의 파일 이름과 다릅니다.|
 |만든 날짜|문서를 만든 날짜입니다.|
 |마지막으로 수정한 날짜|문서를 마지막으로 변경한 날짜입니다.|
-|파일 형식|파일의 확장명입니다. 예를 들어 docx, 1, pptx 또는 xlsx입니다. FileExtension 사이트 속성과 같은 속성입니다.|
+|파일 형식|파일의 확장명입니다. 예를 들어 docx, 1, pptx 또는 xlsx입니다. FileExtension 사이트 속성과 같은 속성입니다. <br/><br/> **참고:** 검색 쿼리에서 **같음** 또는 같음  연산자를 사용하여 파일 형식 조건을 포함하면 파일 형식 끝에 와일드카드 문자( * )를 포함하여 파일 형식의 모든 버전을 반환할 수 없습니다. 이 경우 와일드카드가 무시됩니다. 예를 들어 조건을 포함하면 확장명을 가지는 파일만 `Equals any of doc*` `.doc` 반환됩니다. 확장명을 인 `.docx` 파일은 반환되지 않습니다. 파일 형식의 모든 버전을 반환하기 위해 키워드 쿼리에 *property:value* 쌍을 사용했습니다. 예를 들면 `filetype:doc*` 입니다.|
 |||
   
 ### <a name="operators-used-with-conditions"></a>조건과 함께 사용되는 연산자
@@ -283,21 +283,21 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 
 검색 조건을 사용할 때 다음에 유의하세요.
   
-- 조건은 **AND** 연산자를 사용하여 키워드 쿼리(키워드 상자에 지정)에 논리적으로 연결됩니다. 즉, 결과에 포함되려면 항목이 키워드 쿼리와 조건을 모두 만족해야 합니다. 조건은 이런 방식으로 결과 범위를 좁히는 데 도움이 됩니다. 
-    
-- 검색 쿼리에 두 개 이상의 고유한 조건(서로 다른 속성을 지정하는 조건)을 추가하는 경우 해당 조건은 AND 연산자에 의해 논리적으로 **연결됩니다.** 즉, 모든 조건(및 키워드 쿼리)을 만족하는 항목만 반환됩니다. 
-    
+- 조건은 **AND** 연산자를 사용하여 키워드 쿼리(키워드 상자에 지정)에 논리적으로 연결됩니다. 즉, 결과에 포함되려면 항목이 키워드 쿼리와 조건을 모두 만족해야 합니다. 조건은 이런 방식으로 결과 범위를 좁히는 데 도움이 됩니다.
+  
+- 검색 쿼리에 두 개 이상의 고유한 조건(서로 다른 속성을 지정하는 조건)을 추가하는 경우 해당 조건은 AND 연산자에 의해 논리적으로 **연결됩니다.** 즉, 모든 조건(및 키워드 쿼리)을 만족하는 항목만 반환됩니다.
+  
 - 동일한 속성에 대해 둘 이상의 조건을 추가하면 해당 조건은 **OR** 연산자에 의해 논리적으로 연결됩니다. 즉, 키워드 쿼리와 조건 중 하나를 만족하는 항목이 반환됩니다. 따라서 동일한 조건 그룹이 **OR** 연산자에 의해 서로 연결된 후 고유한 조건 집합이 **AND** 연산자로 연결됩니다. 
-    
+  
 - 단일 조건에 여러 값을 추가하는 경우(콤보 또는 세미 콜론으로 구분) 해당 값은 OR 연산자로 **연결됩니다.** 즉, 조건의 속성에 대해 지정된 값을 하나라도 포함하는 항목이 반환됩니다. 
-    
-- 키워드 상자 및 조건을 사용하여 만든 검색 쿼리는 선택한  검색의 세부 정보 창에 검색 페이지에 표시됩니다. 쿼리에서 표시의 오른쪽에 있는 모든 항목은 쿼리에 추가된 조건을  `(c:c)` 나타냅니다. 
-    
-- 조건은 검색 쿼리에 속성만 추가하고 연산자는 추가하지 않습니다. 이 때문에 세부 정보 창에 표시된 쿼리에 해당 표시 오른쪽에 연산자가  `(c:c)` 표시되지 않습니다. KQL은 쿼리를 실행할 때 논리 연산자를 추가합니다(이전에 설명한 규칙을 따름). 
-    
+  
+- 키워드 상자 및 조건을 사용하여 만든 검색 쿼리는 선택한  검색의 세부 정보 창에 검색 페이지에 표시됩니다. 쿼리에서 표시의 오른쪽에 있는 모든 항목은 쿼리에 추가된 조건을  `(c:c)` 나타냅니다.
+  
+- 조건은 검색 쿼리에 속성만 추가하고 연산자는 추가하지 않습니다. 이 때문에 세부 정보 창에 표시된 쿼리에 해당 표시 오른쪽에 연산자가  `(c:c)` 표시되지 않습니다. KQL은 쿼리를 실행할 때 논리 연산자를 추가합니다(이전에 설명한 규칙을 따름).
+  
 - 끌어서 놓기 컨트롤을 사용하여 조건 순서를 다시 순서대로 할 수 있습니다. 조건에 대한 컨트롤을 클릭하고 해당 조건을 업 또는 아래로 이동합니다.
-    
-- 앞서 설명한 일부 조건 속성을 사용하면 세미 콜론으로 구분하여 여러 값을 입력할 수 있습니다. 각 값은 **OR** 연산자에 의해 논리적으로 연결되고 쿼리가 `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)` 됩니다. 다음 그림에서는 값이 여러 개 있는 조건의 예를 보여 주며,
+  
+- 앞서 설명한 일부 조건 속성을 사용하면 세미 콜론으로 구분하여 여러 값을 입력할 수 있습니다. 각 값은 **OR** 연산자에 의해 논리적으로 연결되고 쿼리가 `(filetype=docx) OR (filetype=pptx) OR (filetype=xlsx)` 됩니다. 다음 그림에서는 값이 여러 개 있는 조건의 예를 보여 주며,
 
     ![메시지는 규칙의 모든 조건과 일치해야 합니다. 하나의 조건 또는 다른 조건과 일치해야 하는 경우 각 조건에 대해 별도의 규칙을 사용합니다. 예를 들어 패턴과 일치하는 콘텐츠가 있는 메시지 및 첨부 파일이 있는 메시지에 동일한 고지 사항을 추가하려면 각 조건에 대해 하나의 규칙을 만듭니다. 규칙은 쉽게 복사할 수 있습니다.](../media/SearchConditions1.png)
   

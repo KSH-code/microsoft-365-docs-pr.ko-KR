@@ -107,7 +107,7 @@ Microsoft 365 메일, Exchange 사이트, SharePoint 계정 및 OneDrive 그룹�
 
 ### <a name="activity-explorer"></a>활동 탐색기
 활동 탐색기는 다음을 통해 분류되고 레이블이 지정된 중요한 항목으로 수행되는 작업 모니터링을 제공합니다.
-- SharePoint를 입력하세요.
+- SharePoint
 - Exchange
 - OneDrive
 

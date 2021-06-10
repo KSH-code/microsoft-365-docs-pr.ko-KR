@@ -212,7 +212,7 @@ Set-RetentionCompliancePolicy -Identity <retention policy GUID without prefix or
 
 - **비활성 사서함은 보류가 제거된 직후 영구적으로 삭제하나요?** 이전의 비활성 사서함은 183일 동안 소프트 삭제 상태로 사용할 수 있습니다. 183일이 지난 후 사서함은 영구 삭제로 표시됩니다.
 
-- **보류가 제거된 후 비활성 사서함에 대한 정보를 표시하는 방법** 보류가 제거되고 비활성 사서함이 소프트 삭제된 사서함으로 되돌아가면 **Get-Mailbox** cmdlet과 *함께 InactiveMailboxOnly* 매개 변수를 사용하여 반환되지 않습니다. 그러나 **Get-Mailbox -SoftDeletedMailbox** 명령을 사용하여 사서함에 대한 정보를 표시할 수 있습니다. 예를 들면 다음과 같습니다.
+- **보류가 제거된 후 비활성 사서함에 대한 정보를 표시하는 방법** 보류가 제거되고 비활성 사서함이 소프트 삭제된 사서함으로 되돌아가면 **Get-Mailbox** cmdlet과 *함께 InactiveMailboxOnly* 매개 변수를 사용하여 반환되지 않습니다. 그러나 **Get-Mailbox -SoftDeletedMailbox** 명령을 사용하여 사서함에 대한 정보를 표시할 수 있습니다. 예:
 
   ```text
   Get-Mailbox -SoftDeletedMailbox -Identity pilarp | FL Name,Identity,LitigationHoldEnabled,In

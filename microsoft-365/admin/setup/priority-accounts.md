@@ -73,7 +73,7 @@ ms.locfileid: "52535809"
 
 활성 사용자 페이지에서 우선 순위 계정을 추가합니다.
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
 
 2. 사용자 활성 **사용자로** 이동하여 페이지 맨 위에 있는 세 개의 점(추가 작업)을  >   선택합니다. 우선 **순위 계정 관리를 선택합니다.**
 

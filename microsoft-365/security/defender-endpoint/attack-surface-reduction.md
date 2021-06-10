@@ -16,16 +16,14 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 55b06ca25047fe615bd0011528fbdbe5112a4533
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: f157a03d9a56aa0bbca695a27be57391e6b92360
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844985"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866634"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 

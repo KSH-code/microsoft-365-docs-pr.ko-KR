@@ -133,7 +133,7 @@ Microsoft 365 5개의 사전 학습된 분류자와 함께 사용할 수 있습�
 
 ![분류자 재조정 워크플로](../media/classifier-retraining-workflow.png)
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 - [보존 레이블](retention.md)
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)

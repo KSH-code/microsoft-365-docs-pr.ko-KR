@@ -82,7 +82,7 @@ ms.locfileid: "52536109"
 
 ### <a name="reassign-a-license-for-one-user"></a>한 사용자에 대한 라이선스 다시 배포
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 활성 **사용자 페이지에서** 라이선스를 할당할 사용자를 선택합니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "52536109"
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>여러 사용자에 대한 라이선스를 한 번씩 다시 배정
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 기존 라이선스를 바꿀 사용자의 이름 옆에 있는 원을 선택합니다.
 

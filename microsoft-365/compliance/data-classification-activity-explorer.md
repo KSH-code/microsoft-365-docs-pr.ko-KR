@@ -114,5 +114,5 @@ ms.locfileid: "52114010"
 
 - [민감도 레이블에 대해 알아보기](sensitivity-labels.md)
 - [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)
-- [중요한 정보 유형에 대해 자세히 알아보기](sensitive-information-type-learn-about.md)
+- [중요한 정보 유형에 대해 알아보기](sensitive-information-type-learn-about.md)
 - [데이터 분류에 대한 자세한 정보](data-classification-overview.md)
