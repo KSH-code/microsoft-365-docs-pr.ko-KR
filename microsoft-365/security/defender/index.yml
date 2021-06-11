@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: b10d9eebf8ed98e06e98c1e73722f7b3b0d7ba87
-  ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
+  ms.openlocfilehash: 68909caf8844b5ea4d20029a04d1b7d81ca25e66
+  ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/25/2021
-  ms.locfileid: "52639394"
+  ms.lasthandoff: 06/10/2021
+  ms.locfileid: "52878451"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -59,31 +59,31 @@ landingContent:
   - linkListType: overview
     links:
     - text: ID용 Microsoft Defender란?
-      url: /azure-advanced-threat-protection/what-is-atp
+      url: /defender-for-identity/what-is
     - text: ID 아키텍처용 Microsoft Defender
-      url: /azure-advanced-threat-protection/atp-architecture
+      url: /defender-for-identity/architecture
 - title: Office 365용 Microsoft Defender
   linkLists:
   - linkListType: overview
     links:
     - text: Office 365용 Defender란 무엇인가요?
-      url: /office-365-security/defender-for-office-365
+      url: ../office-365-security/defender-for-office-365.md
     - text: Office 365용 Defender 서비스 설명
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
     - text: Office 365 Defender의 Microsoft 365 Defender
-      url: /defender/microsoft-365-security-center-mdo
+      url: microsoft-365-security-center-mdo.md
     - text: Defender에서 Office 365 Defender Microsoft 365 리디렉션
-      url: /defender/microsoft-365-security-mdo-redirection
+      url: microsoft-365-security-mdo-redirection.md
 - title: 엔드포인트용 Microsoft Defender
   linkLists:
   - linkListType: overview
     links:
     - text: 엔드포인트용 Microsoft Defender란 무엇인가요?
-      url: /defender-endpoint/microsoft-defender-endpoint
+      url: ../defender-endpoint/microsoft-defender-endpoint.md
     - text: Defender의 끝점 Microsoft 365 Defender
-      url: /defender/microsoft-365-security-cente
+      url: microsoft-365-security-center-mde.md
     - text: Defender에서 끝점에 대한 Defender Microsoft 365 리디렉션
-      url: /defender/microsoft-365-security-mde-redirection
+      url: ../defender/microsoft-365-security-mde-redirection.md
 - title: Microsoft 365 보안 센터
   linkLists:
   - linkListType: overview

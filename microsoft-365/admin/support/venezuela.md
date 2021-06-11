@@ -19,18 +19,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297443"
 ---
-# <a name="contact-support-for-venezuela"></a><span data-ttu-id="3ae6c-103">베네수엘라 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="3ae6c-103">Contact support for Venezuela</span></span>
+# <a name="contact-support-for-venezuela"></a><span data-ttu-id="84f78-103">베네수엘라 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="84f78-103">Contact support for Venezuela</span></span>
 
-<span data-ttu-id="3ae6c-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="3ae6c-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="84f78-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="84f78-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="3ae6c-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="3ae6c-105">Phone number</span></span>
-<span data-ttu-id="3ae6c-106">0800 100 8763</span><span class="sxs-lookup"><span data-stu-id="3ae6c-106">0800 100 8763</span></span>
+## <a name="phone-number"></a><span data-ttu-id="84f78-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="84f78-105">Phone number</span></span>
+<span data-ttu-id="84f78-106">0800 100 8763</span><span class="sxs-lookup"><span data-stu-id="84f78-106">0800 100 8763</span></span>
 
-## <a name="hours"></a><span data-ttu-id="3ae6c-107">시간</span><span class="sxs-lookup"><span data-stu-id="3ae6c-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="3ae6c-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="3ae6c-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="84f78-107">시간</span><span class="sxs-lookup"><span data-stu-id="84f78-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="84f78-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="84f78-108">Billing Support:</span></span>
 
-<span data-ttu-id="3ae6c-109">스페인어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="3ae6c-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="84f78-109">스페인어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="84f78-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="3ae6c-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="3ae6c-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="84f78-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="84f78-110">Technical Support:</span></span>
 
-<span data-ttu-id="3ae6c-111">스페인어: 연 24시간, 주 7일</span><span class="sxs-lookup"><span data-stu-id="3ae6c-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="84f78-111">스페인어: 연 24시간, 주 7일</span><span class="sxs-lookup"><span data-stu-id="84f78-111">Spanish: 24 hours a day, 7 days a week</span></span>

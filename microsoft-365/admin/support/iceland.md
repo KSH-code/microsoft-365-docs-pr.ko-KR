@@ -19,18 +19,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296074"
 ---
-# <a name="contact-support-for-iceland"></a><span data-ttu-id="641fb-103">아이슬란드 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="641fb-103">Contact support for Iceland</span></span>
+# <a name="contact-support-for-iceland"></a><span data-ttu-id="87536-103">아이슬란드 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="87536-103">Contact support for Iceland</span></span>
 
-<span data-ttu-id="641fb-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="641fb-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="87536-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="87536-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="641fb-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="641fb-105">Phone number</span></span>
-<span data-ttu-id="641fb-106">800 9609</span><span class="sxs-lookup"><span data-stu-id="641fb-106">800 9609</span></span>
+## <a name="phone-number"></a><span data-ttu-id="87536-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="87536-105">Phone number</span></span>
+<span data-ttu-id="87536-106">800 9609</span><span class="sxs-lookup"><span data-stu-id="87536-106">800 9609</span></span>
 
-## <a name="hours"></a><span data-ttu-id="641fb-107">시간</span><span class="sxs-lookup"><span data-stu-id="641fb-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="641fb-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="641fb-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="87536-107">시간</span><span class="sxs-lookup"><span data-stu-id="87536-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="87536-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="87536-108">Billing Support:</span></span>
 
-<span data-ttu-id="641fb-109">영어: Mon-Fri 오전 8시-오후 4시</span><span class="sxs-lookup"><span data-stu-id="641fb-109">English: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="87536-109">영어: Mon-Fri 오전 8시-오후 4시</span><span class="sxs-lookup"><span data-stu-id="87536-109">English: Mon-Fri 8 AM-4 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="641fb-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="641fb-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="87536-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="87536-110">Technical Support:</span></span>
 
-<span data-ttu-id="641fb-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="641fb-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="87536-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="87536-111">English: 24 hours a day, 7 days a week</span></span>

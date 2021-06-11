@@ -19,24 +19,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296002"
 ---
-# <a name="contact-support-for-jordan"></a><span data-ttu-id="62376-103">요르단 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="62376-103">Contact support for Jordan</span></span>
+# <a name="contact-support-for-jordan"></a><span data-ttu-id="ad695-103">요르단 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="ad695-103">Contact support for Jordan</span></span>
 
-<span data-ttu-id="62376-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="62376-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="ad695-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="ad695-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="62376-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="62376-105">Phone number</span></span>
-<span data-ttu-id="62376-106">18 800 000</span><span class="sxs-lookup"><span data-stu-id="62376-106">18 800 000</span></span>
+## <a name="phone-number"></a><span data-ttu-id="ad695-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="ad695-105">Phone number</span></span>
+<span data-ttu-id="ad695-106">18 800 000</span><span class="sxs-lookup"><span data-stu-id="ad695-106">18 800 000</span></span>
 
-<span data-ttu-id="62376-107">전화 걸기 후 877 663 5075를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="62376-107">After dialing, enter 877 663 5075</span></span>
+<span data-ttu-id="ad695-107">전화 걸기 후 877 663 5075를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="ad695-107">After dialing, enter 877 663 5075</span></span>
 
-## <a name="hours"></a><span data-ttu-id="62376-108">시간</span><span class="sxs-lookup"><span data-stu-id="62376-108">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="62376-109">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="62376-109">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="ad695-108">시간</span><span class="sxs-lookup"><span data-stu-id="ad695-108">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="ad695-109">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="ad695-109">Billing Support:</span></span>
 
-<span data-ttu-id="62376-110">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="62376-110">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="ad695-110">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="ad695-110">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="62376-111">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="62376-111">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="ad695-111">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="ad695-111">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="62376-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="62376-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="ad695-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="ad695-112">Technical Support:</span></span>
 
-<span data-ttu-id="62376-113">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="62376-113">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="ad695-113">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="ad695-113">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="62376-114">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="62376-114">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="ad695-114">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="ad695-114">English: 24 hours a day, 7 days a week</span></span>

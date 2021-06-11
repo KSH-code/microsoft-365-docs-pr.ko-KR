@@ -16,7 +16,7 @@ metadata:
   ms.collection:
   - M365-security-compliance
   - m365initiative-defender-office365
-  description: 관리자는 EOP(Exchange Online Protection)에서 스푸핑 방지 보호에 대한 질문과 대답을 볼 수 있습니다.
+  description: 관리자는 EOP(EOP)에서 스푸핑 방지 보호에 대한 질문과 대답을 Exchange Online Protection 있습니다.
   ms.technology: mdo
   ms.prod: m365-security
   ms.openlocfilehash: cab4af2dd359b878cdf417a2378c05d2aa706107
@@ -39,7 +39,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  이 문서에서는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에 대한 스푸핑 방지 보호에 대한 질문과 대답을 제공합니다.
+  이 문서에서는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 사서함이 없는 독립 실행형 EOP(독립 실행형 Exchange Online Protection) 조직에 대한 스푸핑 방지 Exchange Online 질문과 대답을 제공합니다.
 
 
   스팸 방지 보호에 대한 질문과 대답은 스팸 방지 보호 [FAQ 를 참조하세요.](anti-spam-protection-faq.yml)
@@ -61,9 +61,9 @@ sections:
 
       Microsoft 자체는 고객에게 배포하기 몇 주 전에 먼저 새로운 전자 메일 인증 요구 사항을 채택했습니다. 처음에는 혼란이 있었지만 점차적으로 감소했습니다.
   - question: >
-      Office 365용 Defender 없이 Microsoft 365 고객이 스푸핑 인텔리전스를 사용할 수 있나요?
+      스푸핑 인텔리전스를 Microsoft 365 Defender 없이도 사용할 수 Office 365?
     answer: >
-      예. 2018년 10월부터 Exchange Online 사서함이 있는 모든 조직과 Exchange Online 사서함이 없는 독립 실행형 EOP 조직에서는 스푸핑 인텔리전스를 사용할 수 있습니다.
+      예. 2018년 10월 현재 스푸핑 인텔리전스는 사서함이 있는 모든 조직 및 Exchange Online 사서함이 없는 독립 실행형 EOP Exchange Online 사용할 수 있습니다.
   - question: >
       스팸 또는 비스팸 메시지를 Microsoft에 다시 보고하려면 어떻게 합니까?
     answer: >

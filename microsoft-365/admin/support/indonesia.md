@@ -19,24 +19,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296062"
 ---
-# <a name="contact-support-for-indonesia"></a><span data-ttu-id="d3544-103">인도네시아 고객 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="d3544-103">Contact support for Indonesia</span></span>
+# <a name="contact-support-for-indonesia"></a><span data-ttu-id="d14d1-103">인도네시아 고객 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="d14d1-103">Contact support for Indonesia</span></span>
 
-<span data-ttu-id="d3544-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="d3544-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="d14d1-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="d14d1-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="d3544-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="d3544-105">Phone number</span></span>
-<span data-ttu-id="d3544-106">007 803 011 0882(Telkom)</span><span class="sxs-lookup"><span data-stu-id="d3544-106">007 803 011 0882 (Telkom)</span></span>
+## <a name="phone-number"></a><span data-ttu-id="d14d1-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="d14d1-105">Phone number</span></span>
+<span data-ttu-id="d14d1-106">007 803 011 0882(Telkom)</span><span class="sxs-lookup"><span data-stu-id="d14d1-106">007 803 011 0882 (Telkom)</span></span>
 
-<span data-ttu-id="d3544-107">001 803 442 304(Indosat)</span><span class="sxs-lookup"><span data-stu-id="d3544-107">001 803 442 304 (Indosat)</span></span>
+<span data-ttu-id="d14d1-107">001 803 442 304(Indosat)</span><span class="sxs-lookup"><span data-stu-id="d14d1-107">001 803 442 304 (Indosat)</span></span>
 
-## <a name="hours"></a><span data-ttu-id="d3544-108">시간</span><span class="sxs-lookup"><span data-stu-id="d3544-108">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="d3544-109">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="d3544-109">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="d14d1-108">시간</span><span class="sxs-lookup"><span data-stu-id="d14d1-108">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="d14d1-109">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="d14d1-109">Billing Support:</span></span>
 
-<span data-ttu-id="d3544-110">바하사 인도네시아: Mon-Fri 오전 8시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="d3544-110">Bahasa Indonesia: Mon-Fri 8 AM-5 PM</span></span>
+<span data-ttu-id="d14d1-110">바하사 인도네시아: Mon-Fri 오전 8시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="d14d1-110">Bahasa Indonesia: Mon-Fri 8 AM-5 PM</span></span>
 
-<span data-ttu-id="d3544-111">영어: Mon-Fri 오전 9시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="d3544-111">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="d14d1-111">영어: Mon-Fri 오전 9시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="d14d1-111">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="d3544-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="d3544-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="d14d1-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="d14d1-112">Technical Support:</span></span>
 
-<span data-ttu-id="d3544-113">바하사 인도네시아: Mon-Fri 오전 8시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="d3544-113">Bahasa Indonesia: Mon-Fri 8 AM-5 PM</span></span>
+<span data-ttu-id="d14d1-113">바하사 인도네시아: Mon-Fri 오전 8시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="d14d1-113">Bahasa Indonesia: Mon-Fri 8 AM-5 PM</span></span>
 
-<span data-ttu-id="d3544-114">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="d3544-114">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="d14d1-114">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="d14d1-114">English: 24 hours a day, 7 days a week</span></span>
