@@ -566,6 +566,8 @@
               href: configure-edge-to-export-search-results.md
             - name: 여러 콘텐츠 검색 일괄 편집
               href: bulk-edit-content-searches.md
+            - name: 감사 로그에서 eDiscovery 활동 검색
+              href: search-for-ediscovery-activities-in-the-audit-log.md
         - name: 컨텐츠 검색 PowerShell 스크립트
           items:
             - name: 대상 지정 컬렉션을 위해 콘텐츠 검색 사용

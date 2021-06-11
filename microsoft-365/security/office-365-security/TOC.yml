@@ -14,7 +14,7 @@
           href: office-365-evaluation.md
         - name: Office 365용 Defender의 새로운 기능
           href: whats-new-in-defender-for-office-365.md
-        - name: Microsoft 365 보안 센터의 Office 365용 Defender
+        - name: Microsoft 365 Defender 포털의 Office 365용 Defender
           href: ../defender/microsoft-365-security-center-mdo.md
         - name: Exchange Online Protection
           items:
@@ -26,7 +26,7 @@
               href: quarantine-email-messages.md
         - name: 'SharePoint, OneDrive 및 Microsoft Teams를 위한 안전한 첨부 파일'
           href: turn-on-mdo-for-spo-odb-and-teams.md
-        - name: Microsoft 365 보안 센터 개요
+        - name: Microsoft 365 Defender 포털 개요
           href: ../defender/overview-security-center.md
         - name: 전자 메일 엔터티 페이지
           href: mdo-email-entity-page.md
@@ -66,7 +66,7 @@
           href: protect-against-threats.md
         - name: Office 365용 Defender와 엔드포인트용 Defender 통합
           href: integrate-office-365-ti-with-mde.md
-        - name: Microsoft 365 보안 센터의 사용 권한
+        - name: Microsoft 365 Defender 포털 사용 권한
           href: permissions-microsoft-365-security-center.md
         - name: 보안 및 규정 준수 센터의 사용 권한
           href: permissions-in-the-security-and-compliance-center.md
