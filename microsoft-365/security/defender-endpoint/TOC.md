@@ -273,7 +273,10 @@
 #### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
 #### [그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)
 #### [Microsoft Defender 바이러스 백신 검색에 대한 수정 구성](configure-remediation-microsoft-defender-antivirus.md)
-#### [예약된 빠른 또는 전체 Microsoft Defender 바이러스 백신 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
+#### [Microsoft Defender 바이러스 백신 검사 구성](schedule-antivirus-scans.md)
+##### [그룹 정책을 사용하여 바이러스 백신 검사 예약](schedule-antivirus-scans-group-policy.md)
+##### [PowerShell을 사용하여 바이러스 백신 검사 예약](schedule-antivirus-scans-powershell.md)
+##### [WMI(WMI(Windows Management Instrumentation))를 사용하여 바이러스 백신 검사 예약](schedule-antivirus-scans-wmi.md)
 #### [Microsoft Defender 바이러스 백신에서 제한된 주기적 검사 사용](limited-periodic-scanning-microsoft-defender-antivirus.md)
 #### [다른 보안 제품과의 호환성](microsoft-defender-antivirus-compatibility.md)
 
@@ -468,6 +471,8 @@
 ###### [응용 프로그램 컨텍스트를 사용하여 액세스](exposed-apis-create-app-webapp.md)
 ###### [사용자 컨텍스트를 사용하여 액세스](exposed-apis-create-app-nativeapp.md)
 ###### [파트너 응용 프로그램에 액세스하기](exposed-apis-create-app-partners.md)
+
+
 ##### [엔드포인트용 Microsoft Defender API 스키마]() 
 ###### [지원되는 엔드포인트용 Microsoft Defender API](exposed-apis-list.md) 
 ###### [일반적인 REST API 오류 코드](common-errors.md)
@@ -520,6 +525,7 @@
 ####### [IP 관련 경고 가져오기](get-ip-related-alerts.md)
 ####### [IP 통계 가져오기](get-ip-statistics.md)
 
+
 ###### [컴퓨터]()
 ####### [컴퓨터 방법 및 속성](machine.md)
 ####### [컴퓨터 목록](get-machines.md)
@@ -535,19 +541,23 @@
 ####### [누락된 KB 가져오기](get-missing-kbs-machine.md)
 ####### [장치 값 설정](set-device-value.md)
 
+
 ###### [컴퓨터 작업]()
 ####### [컴퓨터 작업 방법 및 속성](machineaction.md)
 ####### [컴퓨터 작업 목록](get-machineactions-collection.md)
 ####### [컴퓨터 작업 가져오기](get-machineaction-object.md)
 ####### [조사 패키지 수집](collect-investigation-package.md)
 ####### [조사 패키지 SAS URI 가져오기](get-package-sas-uri.md)
+####### [라이브 응답 결과 가져오기](get-live-response-result.md)
 ####### [컴퓨터 격리](isolate-machine.md)
 ####### [컴퓨터 격리 해제](unisolate-machine.md)
 ####### [앱 실행 제한](restrict-code-execution.md)
 ####### [앱 제한 제거](unrestrict-code-execution.md)
 ####### [바이러스 백신 검사 실행](run-av-scan.md)
+####### [실시간 응답 실행](run-live-response.md) 
 ####### [컴퓨터 오프보딩](offboard-machine-api.md)
 ####### [파일을 중지하고 격리](stop-and-quarantine-file.md)
+####### [컴퓨터 작업 취소](cancel-machine-action.md)
 
 ###### [권장 사항]()
 ####### [권장 방법 및 속성](recommendation.md)

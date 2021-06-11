@@ -23,12 +23,12 @@ ms.custom:
 - commerce_billing
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: 3c41e52803c78cc687134c6c68899466236ceca3
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 7e37e296f37583e1fc0b2fc3474609e11c5a5e1f
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331913"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888352"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
@@ -105,4 +105,5 @@ ms.locfileid: "52331913"
 
 [송장, 신용 카드 또는 은행 계좌로 결제](pay-for-your-subscription.md)(문서) \
 [결제 방법 관리](manage-payment-methods.md) (문서) \
+[멕시코 비즈니스용 Microsoft 365 청구 정보](/microsoft-365/commerce/billing-and-payments/mexico-billing-info)(문서) \
 [Minecraft: Education Edition 결제 옵션](/education/windows/school-get-minecraft) (문서)
