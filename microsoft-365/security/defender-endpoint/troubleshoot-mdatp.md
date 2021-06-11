@@ -23,69 +23,69 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52538354"
 ---
-# <a name="troubleshoot-service-issues"></a><span data-ttu-id="a4a83-104">서비스 문제 해결</span><span class="sxs-lookup"><span data-stu-id="a4a83-104">Troubleshoot service issues</span></span>
+# <a name="troubleshoot-service-issues"></a><span data-ttu-id="5df88-104">서비스 문제 해결</span><span class="sxs-lookup"><span data-stu-id="5df88-104">Troubleshoot service issues</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="a4a83-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="a4a83-105">**Applies to:**</span></span>
-- [<span data-ttu-id="a4a83-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="a4a83-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="a4a83-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="a4a83-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="5df88-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="5df88-105">**Applies to:**</span></span>
+- [<span data-ttu-id="5df88-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="5df88-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="5df88-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="5df88-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="a4a83-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="a4a83-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="a4a83-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> <span data-ttu-id="5df88-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="5df88-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="5df88-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
-<span data-ttu-id="a4a83-110">이 섹션에서는 Microsoft Defender for Endpoint 서비스를 사용할 때 발생할 수 있는 문제를 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-110">This section addresses issues that might arise as you use the Microsoft Defender for Endpoint service.</span></span>
+<span data-ttu-id="5df88-110">이 섹션에서는 Microsoft Defender for Endpoint 서비스를 사용할 때 발생할 수 있는 문제를 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-110">This section addresses issues that might arise as you use the Microsoft Defender for Endpoint service.</span></span>
 
-## <a name="server-error---access-is-denied-due-to-invalid-credentials"></a><span data-ttu-id="a4a83-111">서버 오류 - 잘못된 자격 증명으로 인해 액세스가 거부되었습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-111">Server error - Access is denied due to invalid credentials</span></span>
-<span data-ttu-id="a4a83-112">서비스에 액세스하려고 할 때 서버 오류가 발생하는 경우 브라우저 쿠키 설정을 변경해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-112">If you encounter a server error when trying to access the service, you’ll need to change your browser cookie settings.</span></span>
-<span data-ttu-id="a4a83-113">쿠키를 허용하도록 브라우저를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-113">Configure your browser to allow cookies.</span></span>
+## <a name="server-error---access-is-denied-due-to-invalid-credentials"></a><span data-ttu-id="5df88-111">서버 오류 - 잘못된 자격 증명으로 인해 액세스가 거부되었습니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-111">Server error - Access is denied due to invalid credentials</span></span>
+<span data-ttu-id="5df88-112">서비스에 액세스하려고 할 때 서버 오류가 발생하는 경우 브라우저 쿠키 설정을 변경해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-112">If you encounter a server error when trying to access the service, you’ll need to change your browser cookie settings.</span></span>
+<span data-ttu-id="5df88-113">쿠키를 허용하도록 브라우저를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-113">Configure your browser to allow cookies.</span></span>
 
-## <a name="elements-or-data-missing-on-the-portal"></a><span data-ttu-id="a4a83-114">포털에 누락된 요소 또는 데이터</span><span class="sxs-lookup"><span data-stu-id="a4a83-114">Elements or data missing on the portal</span></span>
-<span data-ttu-id="a4a83-115">일부 요소 또는 데이터가 누락된 Microsoft Defender 보안 센터 프록시 설정으로 차단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-115">If some elements or data is missing on Microsoft Defender Security Center it’s possible that proxy settings are blocking it.</span></span>
+## <a name="elements-or-data-missing-on-the-portal"></a><span data-ttu-id="5df88-114">포털에 누락된 요소 또는 데이터</span><span class="sxs-lookup"><span data-stu-id="5df88-114">Elements or data missing on the portal</span></span>
+<span data-ttu-id="5df88-115">일부 요소 또는 데이터가 누락된 Microsoft Defender 보안 센터 프록시 설정으로 차단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-115">If some elements or data is missing on Microsoft Defender Security Center it’s possible that proxy settings are blocking it.</span></span>
 
-<span data-ttu-id="a4a83-116">프록시 허용 `*.securitycenter.windows.com` 목록에 포함해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-116">Make sure that `*.securitycenter.windows.com` is included the proxy allowlist.</span></span>
+<span data-ttu-id="5df88-116">프록시 허용 `*.securitycenter.windows.com` 목록에 포함해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-116">Make sure that `*.securitycenter.windows.com` is included the proxy allowlist.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="a4a83-117">다음 끝점을 추가할 때 HTTPS 프로토콜을 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-117">You must use the HTTPS protocol when adding the following endpoints.</span></span>
+> <span data-ttu-id="5df88-117">다음 끝점을 추가할 때 HTTPS 프로토콜을 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-117">You must use the HTTPS protocol when adding the following endpoints.</span></span>
 
-## <a name="microsoft-defender-for-endpoint-service-shows-event-or-error-logs-in-the-event-viewer"></a><span data-ttu-id="a4a83-118">끝점용 Microsoft Defender 서비스에서 이벤트 뷰어에 이벤트 또는 오류 로그 표시</span><span class="sxs-lookup"><span data-stu-id="a4a83-118">Microsoft Defender for Endpoint service shows event or error logs in the Event Viewer</span></span>
+## <a name="microsoft-defender-for-endpoint-service-shows-event-or-error-logs-in-the-event-viewer"></a><span data-ttu-id="5df88-118">끝점용 Microsoft Defender 서비스에서 이벤트 뷰어에 이벤트 또는 오류 로그 표시</span><span class="sxs-lookup"><span data-stu-id="5df88-118">Microsoft Defender for Endpoint service shows event or error logs in the Event Viewer</span></span>
 
-<span data-ttu-id="a4a83-119">Microsoft Defender [for](event-error-codes.md) Endpoint 서비스에서 보고하는 이벤트 ID 목록은 이벤트 뷰어를 사용하여 이벤트 및 오류 검토를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="a4a83-119">See [Review events and errors using Event Viewer](event-error-codes.md) for a list of event IDs that are reported by the Microsoft Defender for Endpoint service.</span></span> <span data-ttu-id="a4a83-120">이 문서에는 이벤트 오류에 대한 문제 해결 단계도 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-120">The article also contains troubleshooting steps for event errors.</span></span>
+<span data-ttu-id="5df88-119">Microsoft Defender [for](event-error-codes.md) Endpoint 서비스에서 보고하는 이벤트 ID 목록은 이벤트 뷰어를 사용하여 이벤트 및 오류 검토를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="5df88-119">See [Review events and errors using Event Viewer](event-error-codes.md) for a list of event IDs that are reported by the Microsoft Defender for Endpoint service.</span></span> <span data-ttu-id="5df88-120">이 문서에는 이벤트 오류에 대한 문제 해결 단계도 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-120">The article also contains troubleshooting steps for event errors.</span></span>
 
-## <a name="microsoft-defender-for-endpoint-service-fails-to-start-after-a-reboot-and-shows-error-577"></a><span data-ttu-id="a4a83-121">다시 시작한 후 끝점용 Microsoft Defender 서비스가 시작되지 못하고 오류 577이 표시</span><span class="sxs-lookup"><span data-stu-id="a4a83-121">Microsoft Defender for Endpoint service fails to start after a reboot and shows error 577</span></span>
+## <a name="microsoft-defender-for-endpoint-service-fails-to-start-after-a-reboot-and-shows-error-577"></a><span data-ttu-id="5df88-121">다시 시작한 후 끝점용 Microsoft Defender 서비스가 시작되지 못하고 오류 577이 표시</span><span class="sxs-lookup"><span data-stu-id="5df88-121">Microsoft Defender for Endpoint service fails to start after a reboot and shows error 577</span></span>
 
-<span data-ttu-id="a4a83-122">장치 온보딩이 성공적으로 완료되지만 다시 시작한 후 끝점용 Microsoft Defender가 시작되지 않는 경우 오류 577이 표시될 경우 정책에 Windows Defender 사용하지 않도록 설정되어 있지 않은지 검사합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-122">If onboarding devices successfully completes but Microsoft Defender for Endpoint does not start after a reboot and shows error 577, check that Windows Defender is not disabled by a policy.</span></span>
+<span data-ttu-id="5df88-122">장치 온보딩이 성공적으로 완료되지만 다시 시작한 후 끝점용 Microsoft Defender가 시작되지 않는 경우 오류 577이 표시될 경우 정책에 Windows Defender 사용하지 않도록 설정되어 있지 않은지 검사합니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-122">If onboarding devices successfully completes but Microsoft Defender for Endpoint does not start after a reboot and shows error 577, check that Windows Defender is not disabled by a policy.</span></span>
 
-<span data-ttu-id="a4a83-123">자세한 내용은 [정책에 Microsoft Defender 바이러스 백신 사용하지 않도록 설정되어 있지 않은지 확인을 참조하세요.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)</span><span class="sxs-lookup"><span data-stu-id="a4a83-123">For more information, see [Ensure that Microsoft Defender Antivirus is not disabled by policy](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy).</span></span>
+<span data-ttu-id="5df88-123">자세한 내용은 [정책에 Microsoft Defender 바이러스 백신 사용하지 않도록 설정되어 있지 않은지 확인을 참조하세요.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)</span><span class="sxs-lookup"><span data-stu-id="5df88-123">For more information, see [Ensure that Microsoft Defender Antivirus is not disabled by policy](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy).</span></span>
 
-## <a name="known-issues-with-regional-formats"></a><span data-ttu-id="a4a83-124">지역별 형식의 알려진 문제</span><span class="sxs-lookup"><span data-stu-id="a4a83-124">Known issues with regional formats</span></span>
+## <a name="known-issues-with-regional-formats"></a><span data-ttu-id="5df88-124">지역별 형식의 알려진 문제</span><span class="sxs-lookup"><span data-stu-id="5df88-124">Known issues with regional formats</span></span>
 
-<span data-ttu-id="a4a83-125">**날짜 및 시간 형식**</span><span class="sxs-lookup"><span data-stu-id="a4a83-125">**Date and time formats**</span></span><br>
-<span data-ttu-id="a4a83-126">시간 및 날짜 형식에 몇 가지 알려진 문제가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-126">There are some known issues with the time and date formats.</span></span> 
+<span data-ttu-id="5df88-125">**날짜 및 시간 형식**</span><span class="sxs-lookup"><span data-stu-id="5df88-125">**Date and time formats**</span></span><br>
+<span data-ttu-id="5df88-126">시간 및 날짜 형식에 몇 가지 알려진 문제가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-126">There are some known issues with the time and date formats.</span></span> 
 
-<span data-ttu-id="a4a83-127">지원되는 날짜 형식은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-127">The following date formats are supported:</span></span>
-- <span data-ttu-id="a4a83-128">MM/dd/yyyy</span><span class="sxs-lookup"><span data-stu-id="a4a83-128">MM/dd/yyyy</span></span>
-- <span data-ttu-id="a4a83-129">dd/MM/yyyy</span><span class="sxs-lookup"><span data-stu-id="a4a83-129">dd/MM/yyyy</span></span>
+<span data-ttu-id="5df88-127">지원되는 날짜 형식은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-127">The following date formats are supported:</span></span>
+- <span data-ttu-id="5df88-128">MM/dd/yyyy</span><span class="sxs-lookup"><span data-stu-id="5df88-128">MM/dd/yyyy</span></span>
+- <span data-ttu-id="5df88-129">dd/MM/yyyy</span><span class="sxs-lookup"><span data-stu-id="5df88-129">dd/MM/yyyy</span></span>
 
-<span data-ttu-id="a4a83-130">다음 날짜 및 시간 형식은 현재 지원되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-130">The following date and time formats are currently not supported:</span></span>
-- <span data-ttu-id="a4a83-131">날짜 형식 yyyy/MM/dd</span><span class="sxs-lookup"><span data-stu-id="a4a83-131">Date format yyyy/MM/dd</span></span>
-- <span data-ttu-id="a4a83-132">날짜 형식 dd/MM/yy</span><span class="sxs-lookup"><span data-stu-id="a4a83-132">Date format dd/MM/yy</span></span>
-- <span data-ttu-id="a4a83-133">날짜 형식(yy)</span><span class="sxs-lookup"><span data-stu-id="a4a83-133">Date format with yy.</span></span> <span data-ttu-id="a4a83-134">yyyy만 표시</span><span class="sxs-lookup"><span data-stu-id="a4a83-134">Will only show yyyy.</span></span>
-- <span data-ttu-id="a4a83-135">시간 형식 HH:mm:ss는 지원되지 않습니다(12시간 AM/PM 형식은 지원되지 않습니다).</span><span class="sxs-lookup"><span data-stu-id="a4a83-135">Time format HH:mm:ss is not supported (the 12 hour AM/PM format is not supported).</span></span> <span data-ttu-id="a4a83-136">24시간 형식만 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-136">Only the 24-hour format is supported.</span></span>
+<span data-ttu-id="5df88-130">다음 날짜 및 시간 형식은 현재 지원되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-130">The following date and time formats are currently not supported:</span></span>
+- <span data-ttu-id="5df88-131">날짜 형식 yyyy/MM/dd</span><span class="sxs-lookup"><span data-stu-id="5df88-131">Date format yyyy/MM/dd</span></span>
+- <span data-ttu-id="5df88-132">날짜 형식 dd/MM/yy</span><span class="sxs-lookup"><span data-stu-id="5df88-132">Date format dd/MM/yy</span></span>
+- <span data-ttu-id="5df88-133">날짜 형식(yy)</span><span class="sxs-lookup"><span data-stu-id="5df88-133">Date format with yy.</span></span> <span data-ttu-id="5df88-134">yyyy만 표시</span><span class="sxs-lookup"><span data-stu-id="5df88-134">Will only show yyyy.</span></span>
+- <span data-ttu-id="5df88-135">시간 형식 HH:mm:ss는 지원되지 않습니다(12시간 AM/PM 형식은 지원되지 않습니다).</span><span class="sxs-lookup"><span data-stu-id="5df88-135">Time format HH:mm:ss is not supported (the 12 hour AM/PM format is not supported).</span></span> <span data-ttu-id="5df88-136">24시간 형식만 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-136">Only the 24-hour format is supported.</span></span>
 
-<span data-ttu-id="a4a83-137">**0000**</span><span class="sxs-lookup"><span data-stu-id="a4a83-137">**Use of comma to indicate thousand**</span></span><br>
-<span data-ttu-id="a4a83-138">숫자에서 구분으로 콤보를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-138">Support of use of comma as a separator in numbers are not supported.</span></span> <span data-ttu-id="a4a83-139">숫자가 1000을 나타내는 콤보로 구분되는 지역은 점만 구분 구분선으로만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-139">Regions where a number is separated with a comma to indicate a thousand, will only see the use of a dot as a separator.</span></span> <span data-ttu-id="a4a83-140">예를 들어 15,5K는 15.5K로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-140">For example, 15,5K is displayed as 15.5K.</span></span>
+<span data-ttu-id="5df88-137">**0000**</span><span class="sxs-lookup"><span data-stu-id="5df88-137">**Use of comma to indicate thousand**</span></span><br>
+<span data-ttu-id="5df88-138">숫자에서 구분으로 콤보를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-138">Support of use of comma as a separator in numbers are not supported.</span></span> <span data-ttu-id="5df88-139">숫자가 1000을 나타내는 콤보로 구분되는 지역은 점만 구분 구분선으로만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-139">Regions where a number is separated with a comma to indicate a thousand, will only see the use of a dot as a separator.</span></span> <span data-ttu-id="5df88-140">예를 들어 15,5K는 15.5K로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-140">For example, 15,5K is displayed as 15.5K.</span></span>
 
-><span data-ttu-id="a4a83-141">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="a4a83-141">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="a4a83-142">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-142">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troubleshoot-belowfoldlink)
+><span data-ttu-id="5df88-141">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="5df88-141">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="5df88-142">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-142">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troubleshoot-belowfoldlink)
 
-## <a name="microsoft-defender-for-endpoint-tenant-was-automatically-created-in-europe"></a><span data-ttu-id="a4a83-143">Microsoft Defender for Endpoint 테넌트가 유럽에서 자동으로 생성되었습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-143">Microsoft Defender for Endpoint tenant was automatically created in Europe</span></span>
-<span data-ttu-id="a4a83-144">Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트용 Microsoft Defender가 자동으로 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-144">When you use Azure Defender to monitor servers, a Microsoft Defender for Endpoint tenant is automatically created.</span></span> <span data-ttu-id="a4a83-145">끝점용 Microsoft Defender 데이터는 기본적으로 유럽에 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4a83-145">The Microsoft Defender for Endpoint data is stored in Europe by default.</span></span>
-
-
+## <a name="microsoft-defender-for-endpoint-tenant-was-automatically-created-in-europe"></a><span data-ttu-id="5df88-143">Microsoft Defender for Endpoint 테넌트가 유럽에서 자동으로 생성되었습니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-143">Microsoft Defender for Endpoint tenant was automatically created in Europe</span></span>
+<span data-ttu-id="5df88-144">Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트용 Microsoft Defender가 자동으로 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-144">When you use Azure Defender to monitor servers, a Microsoft Defender for Endpoint tenant is automatically created.</span></span> <span data-ttu-id="5df88-145">끝점용 Microsoft Defender 데이터는 기본적으로 유럽에 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="5df88-145">The Microsoft Defender for Endpoint data is stored in Europe by default.</span></span>
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="a4a83-146">관련 항목</span><span class="sxs-lookup"><span data-stu-id="a4a83-146">Related topics</span></span>
-- [<span data-ttu-id="a4a83-147">끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결</span><span class="sxs-lookup"><span data-stu-id="a4a83-147">Troubleshoot Microsoft Defender for Endpoint onboarding issues</span></span>](troubleshoot-onboarding.md)
-- [<span data-ttu-id="a4a83-148">이벤트 뷰어를 사용하여 이벤트 및 오류 검토</span><span class="sxs-lookup"><span data-stu-id="a4a83-148">Review events and errors using Event Viewer</span></span>](event-error-codes.md)
+
+
+## <a name="related-topics"></a><span data-ttu-id="5df88-146">관련 항목</span><span class="sxs-lookup"><span data-stu-id="5df88-146">Related topics</span></span>
+- [<span data-ttu-id="5df88-147">끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결</span><span class="sxs-lookup"><span data-stu-id="5df88-147">Troubleshoot Microsoft Defender for Endpoint onboarding issues</span></span>](troubleshoot-onboarding.md)
+- [<span data-ttu-id="5df88-148">이벤트 뷰어를 사용하여 이벤트 및 오류 검토</span><span class="sxs-lookup"><span data-stu-id="5df88-148">Review events and errors using Event Viewer</span></span>](event-error-codes.md)
