@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 보안 센터의 사용 권한
+title: Microsoft 365 Defender 포털 사용 권한
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,18 +15,18 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 관리자는 보안과 관련된 모든 작업에 대해 Microsoft 365 보안 센터에서 권한을 관리하는 방법을 배울 수 있습니다.
+description: 관리자는 Microsoft 365 Defender 포털에서 보안과 관련된 모든 작업에 대한 사용 권한을 관리하는 법을 배웁니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9c2d28510c25290921084e6a238fa8c781c35624
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: e810b0146803d22246db6d4248d7d4a6a203834b
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772577"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879027"
 ---
-# <a name="permissions-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 사용 권한
+# <a name="permissions-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털 사용 권한
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -37,33 +37,36 @@ ms.locfileid: "52772577"
 
 모든 Microsoft 365 서비스를 포괄하는 보안 시나리오를 관리해야 합니다. 또한 조직의 적절한 사람에게 적절한 관리자 권한을 부여할 수 있는 유연성이 필요합니다.
 
-<https://security.microsoft.com>의 Microsoft 365 보안 센터는 Microsoft 365에서 보안 작업을 수행하는 사용자의 권한을 직접 관리할 수 ​​있도록 지원합니다. 보안 센터를 사용하여 권한을 관리하면 보안과 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 ​​있습니다.
+<https://security.microsoft.com>의 Microsoft 365 Defender 포털은 Microsoft 365에서 보안 작업을 수행하는 사용자의 사용 권한을 직접 관리할 수 ​​있도록 지원합니다. Microsoft 365 Defender 포털을 사용하여 사용 권한을 관리하면 보안과 관련된 모든 작업에 대한 사용 권한을 중앙에서 관리할 수 ​​있습니다.
 
-보안 센터에서 권한을 관리하려면 **권한 및 역할** 또는 <https://security.microsoft.com/securitypermissions>(으)로 이동하세요. **전역 관리자** 이거나 보안 센터에서 **조직 관리** 역할 그룹의 구성원이어야 합니다. 특히 **역할 관리** 역할을 통해 사용자는 보안 센터에서 역할 그룹을 보고, 만들고, 수정할 수 있으며, 기본적으로 해당 역할은 **조직 관리** 역할 그룹에만 할당됩니다.
+Microsoft 365 Defender 포털에서 사용 권한을 관리하려면 **권한 및 역할** 또는 <https://security.microsoft.com/securitypermissions>(으)로 이동합니다. 이 작업을 수행하려면 Microsoft 365 Defender 포털의 **전역 관리자** 이거나 **조직 관리** 역할 그룹의 구성원이어야 합니다. 특히 **역할 관리** 역할을 통해 사용자는 Microsoft 365 Defender 포털에서 역할 그룹을 보고, 만들고, 수정할 수 있으며, 기본적으로 이 역할은 **조직 관리** 역할 그룹에만 할당됩니다.
+
+> [!NOTE]
+> Microsoft 365 규정 준수 센터 사용 권한에 관한 자세한 내용은 [Microsoft 365 규정 준수 센터 사용 권한](../../compliance/microsoft-365-compliance-center-permissions.md)을 참조하세요.
 
 ## <a name="relationship-of-members-roles-and-role-groups"></a>구성원, 역할 및 역할 그룹의 관계
 
-보안 센터의 사용 권한은 RBAC(역할 기반 액세스 제어) 사용 권한 모델을 기반으로 합니다. RBAC는 대부분의 Microsoft 365 서비스에서 사용하는 것과 동일한 권한 모델이므로 이러한 서비스의 권한 구조에 익숙하다면 보안 센터에서 권한을 부여하는 작업이 매우 익숙할 것입니다.
+Microsoft 365 Defender 포털의 사용 권한은 RBAC(역할 기반 액세스 제어) 사용 권한 모델을 기반으로 합니다. RBAC는 대부분 Microsoft 365 서비스에서 사용하는 것과 동일한 사용 권한 모델이므로 이러한 서비스의 사용 권한 구조에 익숙하다면 Microsoft 365 Defender 포털에서 사용 권한을 부여하는 작업이 매우 익숙하게 느껴질 것입니다.
 
 **역할** 은 일련의 작업을 수행할 수 있는 권한을 부여합니다.
 
-**역할 그룹** 은 사람들이 보안 센터에서 작업을 수행할 수 있도록 하는 역할 집합입니다. 예를 들어, 공격 시뮬레이터 관리자 역할 그룹에는 공격 시뮬레이션 교육의 모든 측면을 만들고 관리하는 공격 시뮬레이터 관리자 역할이 포함됩니다.
+**역할 그룹** 은 사람들이 Microsoft 365 Defender 포털에서 작업을 수행할 수 있도록 하는 역할 집합입니다. 예를 들어, 공격 시뮬레이터 관리자 역할 그룹에는 공격 시뮬레이션 교육의 모든 측면을 만들고 관리하는 공격 시뮬레이터 관리자 역할이 포함됩니다.
 
-보안 센터에는 가장 일반적인 작업 및 기능에 대한 기본 역할 그룹이 포함됩니다. 일반적으로 개별 사용자를 기본 역할 그룹에 **구성원** 으로 추가하는 것이 좋습니다.
+Microsoft 365 Defender 포털에는 사용자가 할당해야 할 가장 일반적인 작업과 기능에 대한 기본 역할 그룹이 포함되어 있습니다. 일반적으로 개별 사용자를 기본 역할 그룹에 **구성원** 으로 추가하는 것이 좋습니다.
 
 ![역할 그룹에 역할 및 멤버의 관계를 보여 주는 다이어그램](../../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
 
-## <a name="roles-and-role-groups-in-the-security-center"></a>보안 센터의 역할 및 역할 그룹
+## <a name="roles-and-role-groups-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 역할 및 역할 그룹
 
-보안 센터의 **권한 및 역할** 에서 다음 유형의 역할 및 역할 그룹을 사용할 수 있습니다.
+Microsoft 365 Defender 포털의 **권한 및 역할** 에서는 다음과 같은 역할 및 역할 그룹 유형을 사용할 수 있습니다.
 
-- **Azure AD 역할**: 역할 및 할당된 사용자를 볼 수 있지만 보안 센터에서 직접 관리할 수는 없습니다. Azure AD 역할은 **모든** Microsoft 365 서비스에 대한 권한을 할당하는 중앙 역할입니다.
+- **Azure AD 역할**: 역할과 할당된 사용자는 볼 수 있지만 Microsoft 365 Defender 포털에서 직접 관리할 수는 없습니다. Azure AD 역할은 **모든** Microsoft 365 서비스에 대한 사용 권한을 할당하는 중앙 역할입니다.
 
-- **이메일 및 공동 작업 역할**: 보안 및 준수 센터에서 사용할 수 있는 동일한 역할 그룹이지만 보안 센터에서 직접 관리할 수 ​​있습니다. 여기에서 할당하는 권한은 Microsoft 365 보안 센터, Microsoft 365 준수 센터 및 보안 및 준수 센터에 고유하며 다른 Microsoft 365 워크로드에 필요한 모든 권한을 다루지는 않습니다.
+- **이메일 및 공동 작업 역할**: 보안 및 준수 센터에서 제공되는 역할과 동일한 역할 그룹이지만 이 역할은 Microsoft 365 Defender 포털에서 직접 관리할 수 ​​있습니다. 여기에서 할당하는 사용 권한은 Microsoft 365 Defender 포털과 Microsoft 365 규정 준수 센터, 보안 및 준수 센터에 고유하며, 다른 Microsoft 365 워크로드에 필요한 모든 사용 권한에는 적용되지 않습니다.
 
-![Microsoft 365 보안 센터의 사용 권한 및 역할 페이지](../../media/m365-sc-permissions-and-roles-page.png)
+![Microsoft 365 Defender 포털의 사용 권한 및 역할 페이지](../../media/m365-sc-permissions-and-roles-page.png)
 
-### <a name="azure-ad-roles-in-the-security-center"></a>보안 센터의 Azure AD 역할
+### <a name="azure-ad-roles-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 Azure Active Directory 역할
 
 **이메일 및 공동 작업 역할** \> **권한 및 역할** \> **Azure AD 역할** \> **역할**(또는 직접 <https://security.microsoft.com/aadpermissions>)(으)로 이동하면 이 섹션에서 설명하는 Azure AD 역할이 표시됩니다.
 
@@ -90,15 +93,15 @@ ms.locfileid: "52772577"
 |**공격 페이로드 작성자**|공격 페이로드를 생성하지만 실제로 시작하거나 예약하지는 않습니다. 자세한 내용은 [공격 페이로드 작성자](/azure/active-directory/roles/permissions-reference#attack-payload-author)를 참조하세요.|
 |
 
-### <a name="email--collaboration-roles-in-the-security-center"></a>보안 센터에서 이메일 및 협업 역할
+### <a name="email--collaboration-roles-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 이메일 및 공동 작업 역할
 
 **이메일 및 공동 작업 역할** \> **권한 및 역할** \> **이메일 및 공동 작업 역할** \> **역할**(또는 <https://security.microsoft.com/emailandcollabpermissions>로 직접) 보안 및 준수 센터에서 사용할 수 있는 동일한 역할 그룹을 볼 수 있습니다.
 
 해당 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-#### <a name="modify-email--collaboration-role-membership-in-the-security-center"></a>보안 센터에서 이메일 및 협업 역할 멤버십 수정
+#### <a name="modify-email--collaboration-role-membership-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 이메일 및 공동 작업 역할 멤버십 수정
 
-1. 보안 센터에서 **이메일 및 공동 작업 역할** \> **권한 및 역할** \> **이메일 및 공동 작업 역할** \> **역할** 로 이동합니다.
+1. Microsoft 365 Defender 포털에서 **이메일 및 공동 작업 역할** \> **사용 권한 및 역할** \> **이메일 및 공동 작업 역할** \> **역할** 로 이동합니다.
 
 2. 열리는 **권한** 페이지의 목록에서 수정할 역할 그룹을 선택합니다. **이름** 열 헤더를 클릭하여 이름별로 목록을 정렬하거나 **검색** ![검색 아이콘](../../media/m365-cc-sc-search-icon.png)을 클릭하여 역할 그룹을 찾을 수 있습니다.
 

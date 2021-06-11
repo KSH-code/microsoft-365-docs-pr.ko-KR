@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 데이터를 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: fc7debbe2fe1d59d4d172fd23587d0b2a1e6705e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 328bf7bdac3a8de23820d861932ee20d71e911b4
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244627"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878187"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -181,6 +181,9 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 이 단추를 선택하면 포함할 레이블과 레이블 설정을 편집할 수 있는 **정책 만들기** 마법사가 시작됩니다. 마법사를 완료하면 변경 내용이 선택된 사용자 및 서비스로 자동 복제됩니다.
 
 Windows, MacOS, iOS 및 Android에서 Office 앱에 대한 기본 제공 레이블을 사용하면 브라우저를 새로 고치면 4시간 내에, 웹에서 Word, Excel 및 PowerPoint에 대해 1시간 이내에 새 레이블이 표시됩니다. 그러나 변경 내용이 모든 앱과 서비스에 복제되려면 최대 24시간이 소요됩니다.
+
+> [!NOTE]
+> 민감도 레이블을 지원하는 기타 앱과 서비스는 정책 업데이트를 위한 자체 업데이트 일정과 트리거를 보유하고 있어 24시간보다 더 자주 업데이트할 수 있습니다. 설명서에서 세부 정보를 확인하세요. 예를 들어 Azure Information Protection의 통합 레이블 지정 클라이언트의 경우, [Azure Information Protection 클라이언트용 자세한 비교](/azure/information-protection/rms-client/use-client#detailed-comparisons-for-the-azure-information-protection-clients) 표의 **정책 업데이트** 줄을 확인합니다.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
 

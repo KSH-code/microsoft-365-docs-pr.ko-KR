@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: 보존 정책 및 보존 레이블 정책에 대한 정책당 최대 정책 및 항목 수 이해
-ms.openlocfilehash: 1ee2d07a42aaf4dff45ae22e9dfc005b3c4593d9
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: 2dac852342c080c4f8334562dc76449d6963facc
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698967"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878055"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 제한 사항
 
@@ -82,3 +82,13 @@ SharePoint 예제
 - **솔루션**: 100개의 특정 사이트를 포함하는 10년의 보존 기간으로 SharePoint용 20개 보존 정책을 생성하고, 100개의 특정 사이트를 포함하는 4년의 보존 기간으로 SharePoint용 80개 보존 정책을 생성합니다.
     
     모든 SharePoint 사이트를 보유할 필요는 없으므로 특정 사이트를 지정하는 보존 정책을 생성해야 합니다. 보존 정책은 100개 이상의 지정된 사이트를 지원하지 않으므로 두 보존 기간에 대해 여러 정책을 생성해야 합니다. 이러한 보존 정책에는 최대 개수의 사이트가 포함되므로 보존해야 하는 다음 새 사이트에는 보존 기간에 관계없이 새 보존 정책이 필요합니다.
+
+## <a name="maximum-number-of-items-for-disposition"></a>처리용 최대 항목 수
+
+[콘텐츠 처리](disposition.md)에는 몇 가지 유의해야 할 한도가 있습니다.
+
+- 각 보존 레이블의 스테이지당 처리 보류 항목 1,000,000개
+
+- 항목이 처리되고 난 후 최대 7년간 처리 증거(해당 기간의 보존 레이블당 최대 한도 항목 1,000,000개). 
+    
+    이 레코드로 표시된 항목의 최대 한도인 1,000,000개 이상에 대한 처리 증거가 필요하다면 [Microsoft 지원](../business-video/get-help-support.md)에 문의해 주세요.

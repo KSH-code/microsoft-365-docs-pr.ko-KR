@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 42ac45fcea72d0ccdae69f6b7315cf31d38121d7
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 5c54b9c9b9046a1c410418a9ae5a922bdad9c442
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730249"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878079"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -196,8 +196,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
     ![사용자에게 필수 레이블을 적용하도록 요구하는 Outlook 메시지](../media/sensitivity-labels-mandatory-prompt-aipv2-outlook.PNG)
     
-    > [!NOTE]
-    > 일부 앱 또는 일부 플랫폼에서는 문서 및 전자 메일에 대한 필수 레이블을 사용할 수 없습니다. 자세한 정보는 [사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents)를 참조하세요.
+    문서와 전자 메일에 대한 의무 레이블 지정에 관한 자세한 정보는 [사용자가 전자 메일과 문서에 레이블을 적용하게 요구](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents)를 참조해 주세요.
     
     컨테이너의 경우에는 그룹이나 사이트를 만들 때 레이블이 지정되어야 합니다.
     

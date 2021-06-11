@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하거나 사용자가 구성한 설정에 따라 레코드로 표시된 항목이 자동으로 삭제되는 경우에 대한 콘텐츠 폐기 작업을 모니터링하고 관리합니다.
-ms.openlocfilehash: 99ab789b99385af9ad2677995606d21ece54705c
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 577cf25ffc8735be19434496bd16202a8e383761
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594076"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878127"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
@@ -38,7 +38,7 @@ Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 페이지�
 
 ## <a name="prerequisites-for-viewing-content-dispositions"></a>콘텐츠 처리를 보기 위한 필수 구성 요소
 
-처리 검토를 관리하고 레코드가 삭제되었는지 확인하려면 충분한 권한이 필요하고 감사를 사용하도록 설정해야 합니다.
+처리 검토를 관리하고 레코드가 삭제되었는지 확인하려면 충분한 권한이 필요하고 감사를 사용하도록 설정해야 합니다. 처리 [한도](retention-limits.md#maximum-number-of-items-for-disposition)를 감안하는 것도 잊지 마세요.
 
 ### <a name="permissions-for-disposition"></a>처리 권한
 
@@ -215,8 +215,6 @@ If you need additional information, visit the helpdesk website (https://support.
 이러한 항목에는 **유형** 열에 **처리된 레코드** 를 표시합니다. 예를 들면 다음과 같습니다.
 
 ![처리 검토가 없이 처리된 항목](../media/records-disposed2.png)
-
-**처리된 항목** 탭에 표시되는 항목은 항목이 처리된 후 최대 7년간 유지되고, 해당 기간에 대한 레코드 당 100만 항목의 제한을 둡니다. **계산** 수가 이 100만의 제한에 근접하고 레코드에 대한 처리 증거가 필요한 경우, [Microsoft 지원](../business-video/get-help-support.md)에 문의하세요.
 
 > [!NOTE]
 > 이 기능은 [통합 감사 로그](search-the-audit-log-in-security-and-compliance.md)의 정보를 사용하며, 따라서 해당 이벤트를 캡처할 수 있도록 감사를 [사용하도록 설정하고 검색 가능하도록](turn-audit-log-search-on-or-off.md) 해야 합니다.

@@ -19,12 +19,12 @@ search.appverid:
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0976c0d1c0c8d3ebb25ebf423f1d9df2f71fc852
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 05d31ac36fbdc687c60ec3c03efac9be43da9c39
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538282"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878487"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -50,20 +50,15 @@ DLP(데이터 손실 방지) 정책을 만든 후에는 의도한 대로 작동�
 DLP 보고서를 사용하여 다음을 수행할 수 있습니다.
 
 - 특정 기간에 초점을 맞추고 스파이크 및 추세의 이유를 이해합니다.
-
 - 조직의 DLP 정책을 위반하는 비즈니스 프로세스를 검색합니다.
-
 - DLP 정책이 비즈니스에 미치는 영향을 이해합니다.
-
 - 사용자가 정책을 재정의하거나 가양성을 보고하여 정책 팁을 확인할 때 제출한 근거를 봅니다.
-
 - 해당 정책에 대한 일치 항목을 표시하여 특정 DLP 정책에 대한 준수를 확인합니다.
-
 - 세부 정보 창에서 DLP 정책과 일치하는 중요한 데이터가 포함된 파일의 목록을 봅니다.
 
 또한 DLP 보고서를 사용하여 테스트 모드에서 실행하면서 DLP 정책을 미세 조정할 수 있습니다.
 
-DLP 보고서는 보안 센터 및 규정 준수 센터에 있습니다. 보고서 \> 보고서 보기로 이동합니다. DLP(데이터 손실 방지)에서 DLP 정책 및 규칙 일치 또는 DLP 가양성 및 재정의로 이동합니다.
+DLP 보고서는 Microsoft 365 규정 준수 센터에 있습니다. **보고서** \> **조직 데이터** 구역으로 이동해서 **DLP 정책 일치**, **DLP 인시던트**, **DLP 가양성 및 재정의** 보고서를 확인하세요.
 
 자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](../../compliance/view-the-dlp-reports.md)를 참조하세요.
 
@@ -73,10 +68,9 @@ DLP 보고서는 보안 센터 및 규정 준수 센터에 있습니다. 보고�
 
 감사 로그에는 Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Directory, Microsoft Teams, Power BI, Sway 및 기타 서비스의 이벤트가 포함되어 있습니다.
 
-보안 센터 및 규정 준수 센터에서는 감사 로그에 대한 보고서를 모니터링하고 보고하는 두 가지 방법을 제공합니다.
+Microsoft 365 Defender 포털과 Microsoft 365 규정 준수 센터에서 감사 로그를 모니터링하고 보고하는 방법에는 두 가지 방법이 있습니다.
 
-- 경고 정책 설정, 경고 보기 및 추세 모니터링 — 보안 센터 또는 규정 준수 센터에서 새 경고 정책 및 알림 대시보드 도구를 사용합니다.
-
+- Microsoft 365 Defender 포털과 Microsoft 365 규정 준수 센터 중 한 곳에서 경고 정책과 경고 대시보드 도구를 사용해 경고 정책을 설정하고, 경고를 확인하고, 추세를 모니터링하세요.
 - 감사 정책 직접 검색 - 지정한 날짜 범위의 모든 이벤트를 검색하거나, 작업을 수행한 사용자 작업 또는 대상 개체와 같은 특정 기준에 따라 결과를 필터링합니다.
 
 정보 규정 준수 및 보안 팀은 이러한 도구를 사용하여 서비스에서 최종 사용자 및 관리자가 수행한 활동을 사전에 검토할 수 있습니다. 특정 사이트 모음에 대해 특정 활동이 수행될 때, 특히 GDPR 관련 정보를 포함하는 것으로 알려진 사이트에서 콘텐츠가 공유될 때 전자 메일 알림을 전송하도록 자동 경고를 구성할 수 있습니다. 이를 통해 해당 팀은 사용자에 대해 후속 조치를 취하여 회사 보안 정책이 준수되도록 하거나 추가 교육을 제공할 수 있습니다.
@@ -88,15 +82,10 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 경고 정책 및 감사 로그 검색에 대한 자세한 정보:
 
 - [Microsoft 365의 알림 정책](../../compliance/alert-policies.md)
-
 - [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md)(소개)
-
 - [감사 로그 검색 켜기 또는 끄기](../../compliance/turn-audit-log-search-on-or-off.md)
-
 - [감사 로그 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md)
-
 - [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog)(cmdlet)
-
 - [감사 로그의 자세한 속성](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
@@ -124,16 +113,15 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 아직 Cloud App Security를 사용하지 않은 경우 먼저 시작하세요. Cloud App Security에 액세스하려면 <https://portal.cloudappsecurity.com>으로 이동하세요.
 
-참고: Cloud App Security를 시작할 때 또는 레이블을 할당하기 전에 '파일에서 Azure Information Protection 분류 레이블 자동 검색’(일반 설정)을 사용하도록 설정해야 합니다. 설정 후에는 Cloud App Security가 기존 파일이 수정될 때까지 다시 검색하지 않습니다.
+> [!NOTE]
+> Cloud App Security를 시작하거나 레이블 할당을 시작하기 전에 반드시 Azure Information Protection 분류 레이블용 파일 자동 스캔’을 사용 설정해 주세요. 설정 후에는 파일을 수정하지 않는 한 Cloud App Security가 기존 파일을 다시 스캔하지 않습니다.
 
 ![경고에 대한 정보를 표시하는 대시보드](../../media/Monitor-for-leaks-of-personal-data-image4.png)
 
 추가 정보:
 
 - [Cloud App Security 배포](/cloud-app-security/getting-started-with-cloud-app-security)
-
 - [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/cloud-platform/cloud-app-security)
-
 - [Microsoft Cloud App Security 프록시를 사용하여 중요한 정보 다운로드 차단](/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>개인 데이터의 공유를 감지하는 예제 파일 및 활동 정책
@@ -141,6 +129,8 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 ### <a name="detect-sharing-of-files-containing-pii--credit-card-number"></a>PII를 포함하는 파일 공유 감지 - 신용 카드 번호
 
 신용 카드 번호를 포함하는 파일이 승인된 클라우드 앱에서 공유될 때 경고합니다.
+
+<br>
 
 ****
 
@@ -170,6 +160,8 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 - Box 모니터링을 사용하려면 API Connector SDK를 사용하여 커넥터를 구성해야 합니다.
 - 이 정책에는 현재 비공개 미리 보기 상태인 기능이 필요합니다.
+
+<br>
 
 ****
 
