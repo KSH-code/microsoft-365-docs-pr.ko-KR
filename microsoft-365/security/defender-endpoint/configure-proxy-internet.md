@@ -24,7 +24,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/21/2021
 ms.locfileid: "52594100"
 ---
-# <a name="configure-device-proxy-and-internet-connectivity-settings"></a>장치 프록시 및 인터넷 연결 설정 구성
+# <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -161,10 +161,10 @@ netsh winhttp reset proxy
 
 |에이전트 리소스|포트 |Direction |HTTPS 검사 무시|
 |------|---------|--------|--------|   
-|*.ods.opinsights.azure.com |포트 443 |아웃바운드|예 |  
-|*.oms.opinsights.azure.com |포트 443 |아웃바운드|예 |  
-|*.blob.core.windows.net |포트 443 |아웃바운드|예 |
-|*.azure-automation.net |포트 443 |아웃바운드|예 |  
+|*.ods.opinsights.azure.com |포트 443 |아웃바운드|네. |  
+|*.oms.opinsights.azure.com |포트 443 |아웃바운드|네. |  
+|*.blob.core.windows.net |포트 443 |아웃바운드|네. |
+|*.azure-automation.net |포트 443 |아웃바운드|네. |  
 
 
 > [!NOTE]

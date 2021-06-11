@@ -12,7 +12,7 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
-description: Security & Compliance Center의 콘텐츠 검색 eDiscovery 도구를 사용하여 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치의 문서 및 비즈니스용 Skype의 인스턴트 메시징 대화에서 전자 메일을 빠르게 찾을 수 있습니다.
+description: 보안 & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용하여 Exchange 사서함, SharePoint 사이트의 문서 및 OneDrive 위치 및 인스턴트 메시징 대화에서 전자 메일을 비즈니스용 Skype.
 ms.openlocfilehash: 80234a512d13deda29a61073bec62990d135f30e
 ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "52333689"
 ---
 # <a name="search-for-content-using-the-content-search-tool"></a>콘텐츠 검색 도구를 사용하여 콘텐츠 검색
 
-Security & Compliance Center의 콘텐츠 검색 도구를 사용하여 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치의 문서, 비즈니스용 Skype의 인스턴트 메시징 대화에서 전자 메일을 빠르게 찾을 수 있습니다. 콘텐츠 검색 도구를 사용하여 Microsoft Teams 및 Microsoft 365 그룹과 같은 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 검색할 수 있습니다.
+보안 & 준수 센터의 콘텐츠 검색 도구를 사용하여 Exchange 사서함, SharePoint 사이트의 문서 및 OneDrive 위치 및 인스턴트 메시징 대화에서 전자 메일을 비즈니스용 Skype. 콘텐츠 검색 도구를 사용하여 그룹 및 그룹과 같은 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 Microsoft Teams Microsoft 365 있습니다.
   
 ## <a name="search-for-content"></a>콘텐츠 검색
 
@@ -38,11 +38,11 @@ Security & Compliance Center의 콘텐츠 검색 도구를 사용하여 Exchange
 
 - [ID 목록 검색을 실행하여](csv-file-for-an-id-list-content-search.md) 특정 전자 메일 메시지 검색 
 
-- [](search-cloud-based-mailboxes-for-on-premises-users.md) Microsoft 365에서 클라우드 기반 사서함 검색
+- [프레미스 사서함에서](search-cloud-based-mailboxes-for-on-premises-users.md) 클라우드 기반 사서함을 검색합니다Microsoft 365
 
 - [검색 결과에](view-keyword-statistics-for-content-search.md) 대한 키워드 통계 보기 및 필요한 경우 쿼리 구체화
 
-- [조직에서](use-content-search-to-search-third-party-data-that-was-imported.md) Microsoft 365로 가져온 타사 데이터 검색
+- [조직에서](use-content-search-to-search-third-party-data-that-was-imported.md) 데이터 원본으로 가져온 타사 데이터를 Microsoft 365
 
 - [여러 검색에](bulk-edit-content-searches.md) 대한 쿼리 및 콘텐츠 위치 일괄 편집
 
@@ -64,7 +64,7 @@ Security & Compliance Center의 콘텐츠 검색 도구를 사용하여 Exchange
 
 콘텐츠 검색은 쉽게 사용할 수 있지만 강력한 도구입니다. 뒤에서 많은 진행이 진행됩니다. 더 잘 알고 있으며 해당 동작과 제한을 이해할수록 조직의 검색 및 조사 요구에 더 성공적으로 사용할 수 있습니다. 다음에 대해 자세히 알아보시다.
   
-- [Exchange 및 SharePoint의](partially-indexed-items-in-content-search.md) 부분적으로 인덱싱된 항목 및 검색 결과를 내보내고 다운로드할 때 항목을 포함하거나 제외하는 방법
+- 검색 결과를 내보내고 [다운로드할](partially-indexed-items-in-content-search.md) 때 Exchange SharePoint 및 항목의 부분적으로 인덱싱된 항목 및 항목을 포함하거나 제외하는 방법
 
 - [부분적으로 인덱싱된](investigating-partially-indexed-items-in-ediscovery.md) 항목을 조사하고 조직에 대한 조직의 노출 확인
 
@@ -80,7 +80,7 @@ Security & Compliance Center의 콘텐츠 검색 도구를 사용하여 Exchange
   
 - [사례에 응답하는](use-content-search-for-targeted-collections.md) 항목이 해당 폴더에 있다는 확신이 있는 경우 특정 사서함 및 사이트 폴더(*대상 컬렉션이라고도 함)를 검색합니다.
 
-- 사용자 목록의 사서함 및 [OneDrive](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) 위치 검색 
+- [사서함 및 사용자 OneDrive](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) 위치 검색 
 
 - [여러 검색을](create-report-on-and-delete-multiple-content-searches.md) 만들고 보고하고 삭제하여 검색 데이터를 빠르고 효율적으로 식별하고 선회 
 

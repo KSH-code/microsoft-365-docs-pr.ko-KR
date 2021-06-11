@@ -40,7 +40,7 @@ ms.locfileid: "52331697"
 사용자가 사용할 수 있는 모든 제품에 대해 다음을 사용할 수 있습니다.
 
 - Office 제품군 및 독립 실행형 제품
-- Enterprise 및 Mobility 제품
+- Enterprise 및 모바일 제품
 - Dynamics 365 제품
 
 다음 제품은 사용 시에 사용할 수 없습니다.

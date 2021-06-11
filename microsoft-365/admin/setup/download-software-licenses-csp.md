@@ -1,5 +1,5 @@
 ---
-title: CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 소프트웨어 및 제품 라이선스 키 다운로드
+title: CSP(소프트웨어 및 제품 라이선스 키) 프로그램을 통해 구입한 클라우드 솔루션 공급자 다운로드
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -17,7 +17,7 @@ search.appverid: MET150
 ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
-description: CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 정품 소프트웨어에 대한 소프트웨어 및 제품 라이선스 키를 다운로드하는 방법을 알아보십시오.
+description: CSP(소프트웨어 라이선스) 프로그램을 통해 구입한 정품 소프트웨어에 대한 소프트웨어 및 클라우드 솔루션 공급자 다운로드하는 방법을 배워야 합니다.
 ms.date: 01/27/2021
 ms.openlocfilehash: 85dfdb8952278b8c1c3dd23a2ceca7481a683989
 ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
@@ -28,7 +28,7 @@ ms.locfileid: "52332405"
 ---
 # <a name="download-perpetual-software-and-product-license-keys"></a>정품 소프트웨어 및 제품 라이선스 키 다운로드
 
-이 문서에서는 CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 정품 소프트웨어에 대한 소프트웨어 및 제품 라이선스 키를 다운로드하는 방법에 대해 설명하고 있습니다.
+이 문서에서는 CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 소프트웨어에 대한 소프트웨어 및 제품 라이선스 키를 다운로드하는 방법에 대해 설명하고 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 

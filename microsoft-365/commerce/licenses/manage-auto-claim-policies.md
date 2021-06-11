@@ -40,7 +40,7 @@ ms.locfileid: "52331649"
 - [정책 보고서 보기](#view-an-auto-claim-policy-report)
 
 > [!IMPORTANT]
-> 자동 클레임 정책은 현재 Microsoft Teams에서만 사용할 수 있습니다. 향후에 더 많은 제품을 사용할 수 있습니다.
+> 자동 클레임 정책은 현재 해당 정책에 대해 Microsoft Teams. 향후에 더 많은 제품을 사용할 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -59,7 +59,7 @@ ms.locfileid: "52331649"
 
 전역 관리자만 자동 클레임 정책 설정을 해제할 수 있습니다.
 
-1. 관리 센터에서 설정 구성  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">설정 페이지로 이동합니다.</a>
+1. 관리 센터에서 설정  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">설정 페이지로</a> 이동합니다.
 2. 표 아래쪽에서 사용자 소유 앱 및 **서비스를 선택합니다.**
 3. 오른쪽 창에서 사용자가 처음 로그인할 때 라이선스를 자동 클레임할 수 있도록 합니다. 상자의 **선택을 취소합니다.**
 

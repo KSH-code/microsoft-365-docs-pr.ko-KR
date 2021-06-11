@@ -1,5 +1,5 @@
 ---
-title: OneDrive 학습 도구 상호 사용
+title: 사용 OneDrive 도구 상호 연산
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,7 +12,7 @@ f1.keywords:
 ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-description: 새 OneDrive 학습 도구 상호 관리 앱을 사용하여 과제를 만들고 등급을 지정하고, 과정 콘텐츠를 작성 및 구성하고, 실시간으로 파일을 공동 작업합니다.
+description: 과제를 만들고 등급을 지정하고, 과정 콘텐츠를 작성 및 구성하고, 새로운 학습 도구 상호 OneDrive 앱을 사용하여 실시간으로 파일을 공동으로 작업합니다.
 ms.openlocfilehash: 97baf3e524e483e879d00f5e0c8495b450e13c92
 ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
@@ -20,16 +20,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/11/2021
 ms.locfileid: "52327742"
 ---
-# <a name="use-microsoft-onedrive-with-your-learning-management-system"></a>학습 관리 시스템에 Microsoft OneDrive 사용
+# <a name="use-microsoft-onedrive-with-your-learning-management-system"></a>학습 Microsoft OneDrive 시스템과 함께 사용
 
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-LMS(학습 관리 시스템)와 함께 Microsoft OneDrive를 사용할 때의 이점에 대해 자세히 알아보아야 합니다.
+LMS(학습 관리 시스템Microsoft OneDrive 함께 사용할 경우의 이점에 대해 자세히 알아보아야 합니다.
 
-**워크플로에 Microsoft Office 365로 바로 연결**
+**워크플로에 Microsoft Office 365 직접 연결**
 
-Microsoft LTI(OneDrive Learning Tools Interoperability) 앱은 LMS와 통합되어 Microsoft OneDrive 및 Microsoft Office 365를 다음이 포함된 가장 중요한 워크플로로 바로 가져올 수 있습니다.
+LTI(Microsoft OneDrive Learning Tools Interoperability) 앱은 LMS와 통합되어 다음을 Microsoft OneDrive Microsoft Office 365 워크플로에 직접 통합할 수 있습니다.
 
 - 리소스 연결 및 콘텐츠 구성
 - 공동 작업 문서 시작
@@ -37,37 +37,37 @@ Microsoft LTI(OneDrive Learning Tools Interoperability) 앱은 LMS와 통합되�
 
 **최신 LTI 표준을 안전하고 완벽하게 준수**
 
-Microsoft OneDrive LTI 앱은 LTI 1.3 및 LTI Advantage와 호환됩니다. 이러한 이점을 통해 보안이 강화되고 긴밀하게 통합된 사용자 환경을 사용할 수 있습니다.
+이 Microsoft OneDrive LTI 앱은 LTI 1.3 및 LTI 이점과 호환됩니다. 이러한 이점을 통해 보안이 강화되고 긴밀하게 통합된 사용자 환경을 사용할 수 있습니다.
 
 **현대적이고 풍부한 사용자 환경**
 
-Microsoft OneDrive LTI 앱은 Microsoft의 최고의 LMS 환경을 제공합니다. Microsoft는 새로운 확장된 Microsoft OneDrive 파일 선택기 및 Office 파일에 대한 풍부한 편집 환경을 통해 보다 최신 사용자 환경을 제공하여 LMS의 기존 Office 365 통합을 개선하고 있습니다. 또한 Microsoft는 앞으로 Microsoft OneDrive LTI 앱을 완전히 소유합니다. 즉, 항상 Microsoft에서 최신 및 가장 멋진 앱을 자동으로 다운로드할 수 있습니다.
+LTI Microsoft OneDrive LMS 환경으로 Microsoft의 최고를 제공합니다. LMS의 기존 Office 365 통합을 개선하고 있으며, 새로운 확장된 Microsoft OneDrive 파일 선택기 및 Office 파일을 위한 더 풍부한 편집 환경을 제공합니다. 또한 Microsoft는 앞으로 Microsoft OneDrive LTI 앱을 완전히 소유합니다. 즉, 항상 Microsoft에서 최신 및 가장 좋은 앱을 자동으로 다운로드할 수 있습니다.
 
-Microsoft OneDrive LTI 앱을 사용하여 다음을 할 수 있습니다.
+LTI Microsoft OneDrive 사용하여 다음을 할 수 있습니다.
 
-- Word 문서, PowerPoint 프레젠테이션 및 Excel을 비롯한 Office 365 파일을 리치 콘텐츠 편집기에서 첨부합니다.
+- Word Office 365, 프레젠테이션, 프레젠테이션 PowerPoint 등의 Excel 파일을 첨부합니다.
 
-- Office 365 클라우드 할당을 배포합니다.
+- 클라우드 Office 365 배포합니다.
 
-- 개인 및 과정 Microsoft OneDrive 파일을 보고 구성합니다.
+- 개인 및 과정 파일을 보고 Microsoft OneDrive 구성합니다.
 
 - 과정 구성원이 공유 문서에서 실시간으로 공동 작업할 수 있는 공동 작업을 만들 수 있습니다.
 
-- 개인 및 학교 계정을 포함하여 여러 Microsoft OneDrive 계정에 액세스합니다.
+- 개인 및 Microsoft OneDrive 계정을 포함하여 여러 사용자 계정에 액세스합니다.
 
-- Office 365 파일을 과정 모듈과 통합합니다.
+- 교육 Office 365 모듈과 통합합니다.
 
 - LMS와의 Single Sign-On에 Microsoft 계정을 사용하세요.
 
 ## <a name="integrate-with-canvas"></a>Canvas와 통합
 
-이 통합을 수행하는 사용자는 Canvas의 관리자이자 Microsoft 365 테넌트의 관리자입니다.
+이 통합을 수행하는 사용자는 Canvas의 관리자이자 테넌트의 Microsoft 365 합니다.
 
-1. 테넌트 관리자 계정으로 Microsoft Azure Portal에 로그인합니다. Azure 테넌트 관리자에게도 그룹 관리자 역할이 있습니다.
+1. 테넌트 관리자 계정으로 Microsoft Azure 포털에 로그인합니다. Azure 테넌트 관리자에게도 그룹 관리자 역할이 있습니다.
 
     ![그룹 관리자가 강조 표시](../media/lti-media/lti-group-admin.png)
 
-2. Microsoft [OneDrive LTI 포털에 로그인합니다.](https://odltiappnl.azurewebsites.net/admin)
+2. Microsoft OneDrive [LTI 포털에 로그인합니다.](https://odltiappnl.azurewebsites.net/admin)
 
 3. 로그인을 완료하려면 사용 권한을 수락합니다.
 
@@ -110,9 +110,9 @@ Microsoft OneDrive LTI 앱을 사용하여 다음을 할 수 있습니다.
    ![오프 모드에서 생성된 개발자 키](../media/lti-media/lti-copy-developer-keys.png)
 
 4. 강조 표시된 텍스트를 복사합니다.
-    이는 Microsoft OneDrive LTI 포털의 클라이언트 ID 역할을 합니다.
+    이 ID는 LTI 포털에서 Microsoft OneDrive 역할을 합니다.
 
-5. Microsoft OneDrive LTI 포털의 클라이언트 **ID** 필드에 텍스트를 붙여넣고 다음 을 **선택합니다.**
+5. LTI 포털의 클라이언트 **ID** 필드에 텍스트를 Microsoft OneDrive 다음 을 **선택합니다.**
 
 6. **저장** 을 선택합니다.
 
