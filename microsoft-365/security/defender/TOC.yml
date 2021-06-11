@@ -336,6 +336,8 @@
                       href: api-list-incidents.md
                     - name: 인시던트 업데이트
                       href: api-update-incidents.md
+                    - name: 인시던트 발생
+                      href: api-get-incident.md
     - name: Office 365용 Microsoft Defender
       href: ../office-365-security/index.yml
     - name: 엔드포인트용 Microsoft Defender
