@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 368de770f772dc75a366b2120c8824fda6a7ba11
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1cd29c3a631334ee3a2791cca3c7ac1c83a1692f
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933592"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903831"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender에서 가양성/가음성 처리
 
@@ -41,7 +41,7 @@ ms.locfileid: "51933592"
 
 ![끝점용 Defender의 가짓 긍정 및 음수 정의](images/false-positives-overview.png)
 
-다행히 이러한 종류의 문제를 해결하고 줄이기 위한 단계를 수행하면 됩니다. 사용자 설정에 가음성/부정이 Microsoft Defender 보안 센터 [다음](../defender/microsoft-365-security-center-mde.md)프로세스를 사용하여 보안 운영에서 이를 해결하기 위한 단계를 취할 수 있습니다.
+다행히 이러한 종류의 문제를 해결하고 줄이기 위한 단계를 수행하면 됩니다. Microsoft 365 [Defender(이전의](microsoft-defender-security-center.md) Microsoft Defender 보안 센터)에 가음성/부정이 표시될 경우 보안 운영에서 다음 프로세스를 사용하여 이를 해결하기 위한 단계를 취할 수 있습니다.
 
 1.  [경고 검토 및 분류](#part-1-review-and-classify-alerts) 
 2.  [수행된 수정 작업 검토](#part-2-review-remediation-actions)
@@ -66,7 +66,7 @@ ms.locfileid: "51933592"
 
 경고를 분류하거나 표시하지 말고 경고가 정확한지, 가음성인지 또는 양성인지 여부를 결정해야 합니다.
 
-1. Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) ()로 이동하여 로그인합니다.
+1. Defender Microsoft 365 ()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
 
 2. 탐색 창에서 경고 큐 **를 선택 합니다.**
 
@@ -82,9 +82,9 @@ ms.locfileid: "51933592"
 
 ### <a name="classify-an-alert"></a>경고 분류
 
-알림은 알림에서 가음성 또는 참 긍정으로 분류될 Microsoft Defender 보안 센터. 경고를 분류하면 시간이 지날수록 더 많은 참 경고와 더 적은 거짓 경고를 볼 수 있도록 끝점에 대해 Microsoft Defender를 교육하는 데 도움이 됩니다.
+경고는 Defender에서 가짓 긍정 또는 참 긍정으로 Microsoft 365 있습니다. 경고를 분류하면 시간이 지날수록 더 많은 참 경고와 더 적은 거짓 경고를 볼 수 있도록 끝점에 대해 Microsoft Defender를 교육하는 데 도움이 됩니다.
 
-1. Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) ()로 이동하여 로그인합니다.
+1. Defender Microsoft 365 ()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
 
 2. 경고 **큐 를** 선택한 다음 경고를 선택합니다.
 
@@ -97,9 +97,9 @@ ms.locfileid: "51933592"
 
 ### <a name="suppress-an-alert"></a>경고 표시 안
 
-가음성 또는 참 긍정이지만 미미한 이벤트에 대한 경고가 있는 경우 경고를 표시하지 Microsoft Defender 보안 센터. 경고를 표시하지는 것은 보안 작업 대시보드에서 노이즈를 줄이는 데 도움이 됩니다. 
+가음성 또는 참 긍정이지만 미미한 이벤트에 대한 경고가 있는 경우 Microsoft 365 Defender에서 해당 경고를 표시하지 Microsoft 365 있습니다. 경고를 표시하지는 것은 보안 작업 대시보드에서 노이즈를 줄이는 데 도움이 됩니다. 
 
-1. Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) ()로 이동하여 로그인합니다.
+1. Defender Microsoft 365 ()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
 
 2. 탐색 창에서 경고 큐 **를 선택합니다.**
 
@@ -135,7 +135,7 @@ ms.locfileid: "51933592"
 
 ### <a name="review-completed-actions"></a>완료된 작업 검토
 
-1. Go to the Action center ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) and sign in. 
+1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in. 
 
 2. 사용 기록 **탭을** 선택하여 수행된 작업 목록을 볼 수 있습니다.  
 
@@ -143,7 +143,7 @@ ms.locfileid: "51933592"
 
 ### <a name="restore-a-quarantined-file-from-the-action-center"></a>작업 센터에서 고지된 파일 복원
 
-1. Go to the Action center ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) and sign in.
+1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in. 
 
 2. 사용 **기록 탭에서** 실행 취소할 작업을 선택합니다.
 
@@ -151,7 +151,7 @@ ms.locfileid: "51933592"
 
 ### <a name="undo-multiple-actions-at-one-time"></a>한 번씩 여러 작업 취소
 
-1. Go to the Action center ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) and sign in.
+1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in. 
 
 2. 사용 **기록 탭에서** 취소할 작업을 선택합니다.
 
@@ -162,7 +162,7 @@ ms.locfileid: "51933592"
 > [!div class="mx-imgBorder"]
 > ![파일 격리](images/autoir-quarantine-file-1.png)
 
-1. Go to the Action center ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) and sign in.
+1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in. 
 
 2. 사용 기록 **탭에서** 작업 유형이 **Quarantine** file인 파일을 선택합니다.
 
@@ -184,15 +184,12 @@ ms.locfileid: "51933592"
     "ProgramFiles%\Windows Defender\MpCmdRun.exe" –Restore –Name EUS:Win32/CustomEnterpriseBlock –All
     ```
 
-    > [!NOTE]
-    > 일부 시나리오에서는 **ThreatName이** 로 표시될 수 `EUS:Win32/
-CustomEnterpriseBlock!cl` 있습니다. Endpoint용 Defender는 지난 30일 동안 이 장치에서 차단된 모든 사용자 지정 차단 파일을 복원합니다.
-
     > [!IMPORTANT]
+    > 일부 시나리오에서는 **ThreatName이** 로 표시될 수 `EUS:Win32/
+      CustomEnterpriseBlock!cl` 있습니다. Endpoint용 Defender는 지난 30일 동안 이 장치에서 차단된 모든 사용자 지정 차단 파일을 복원합니다.
     > 잠재적인 네트워크 위협으로 고지된 파일은 복구할 수 없습니다. 사용자가 파일을 검지 후에 복원하려고 시도하면 해당 파일에 액세스할 수 없습니다. 시스템에 파일에 액세스하기 위한 네트워크 자격 증명이 더 이상 필요하기 때문일 수 있습니다. 일반적으로 시스템 또는 공유 폴더에 일시적으로 로그온하고 액세스 토큰이 만료된 결과입니다.
 
 3. 화면 오른쪽 창에서 이 파일의 X **추가** 인스턴스에 적용을 선택한 다음 실행 **취소를 선택합니다.** 
-
 
 ## <a name="part-3-review-or-define-exclusions"></a>3부: 제외 검토 또는 정의
 
@@ -212,7 +209,7 @@ CustomEnterpriseBlock!cl` 있습니다. Endpoint용 Defender는 지난 30일 동
 일반적으로는 사용자에 대한 제외를 정의할 필요가 Microsoft Defender 바이러스 백신. 제외는 반드시 정의해야 합니다. 그리고 가을의 결과로 생성되는 파일, 폴더, 프로세스 및 프로세스에서 연 파일만 포함해야 합니다. 또한 정의된 제외를 정기적으로 검토해야 합니다. 바이러스 백신 제외 [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) 정의하거나 편집하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
 
 > [!TIP]
-> 바이러스 백신 제외에 대한 도움이 필요하세요? 자세한 [내용은 Configure and validate exclusions for Microsoft Defender 바이러스 백신 참조.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)
+> 바이러스 백신 제외에 대한 도움이 필요하세요? 자세한 [내용은 Configure and validate exclusions for Microsoft Defender 바이러스 백신 참조.](configure-exclusions-microsoft-defender-antivirus.md)
 
 #### <a name="use-microsoft-endpoint-manager-to-manage-antivirus-exclusions-for-existing-policies"></a>이 Microsoft Endpoint Manager 사용하여 바이러스 백신 제외 관리(기존 정책의 경우)
 
@@ -250,7 +247,7 @@ CustomEnterpriseBlock!cl` 있습니다. Endpoint용 Defender는 지난 30일 동
 
 [지표(특히](/microsoft-365/security/defender-endpoint/manage-indicators) 손상 표시기 또는 IoC)를 사용하면 보안 운영 팀이 엔터티의 검색, 방지 및 제외를 정의할 수 있습니다. 예를 들어 끝점용 Microsoft Defender의 검사 및 수정 작업에서 생략할 특정 파일을 지정할 수 있습니다. 또는 표시기를 사용하여 특정 파일, IP 주소 또는 URL에 대한 알림을 생성할 수 있습니다.
 
-엔터티를 끝점용 Microsoft Defender에 대한 제외로 지정하기 위해 해당 엔터티에 대한 "허용" 표시기를 생성합니다. 끝점용 Microsoft Defender의 이러한 "허용" 표시기는 차세대 [](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) [보호,](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)끝점 감지 및 대응 및 자동화된 조사 & [적용됩니다.](/microsoft-365/security/defender-endpoint/automated-investigations)
+엔터티를 끝점용 Microsoft Defender에 대한 제외로 지정하기 위해 해당 엔터티에 대한 "허용" 표시기를 생성합니다. 끝점용 Microsoft Defender의 이러한 "허용" 표시기는 차세대 [](overview-endpoint-detection-response.md) [보호,](microsoft-defender-antivirus-in-windows-10.md)끝점 감지 및 대응 및 자동화된 조사 & [적용됩니다.](/microsoft-365/security/defender-endpoint/automated-investigations)
 
 다음에 대해 "허용" 표시기를 만들 수 있습니다.
 
@@ -279,14 +276,15 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 - 맬웨어 방지 클라이언트 버전은 4.18.1906.x 이상입니다. 
 - 디바이스가 Windows 10 버전 1709 이상이 실행되고 있습니다. 
 
-사용자 지정 네트워크 표시기가 사용자 지정 [Microsoft Defender 보안 센터(고급 기능 참조)](/microsoft-365/security/defender-endpoint/advanced-features)   
+사용자 지정 네트워크 표시기가 [Defender의 Microsoft 365 켜져 있습니다.](microsoft-defender-security-center.md) 자세한 내용은 고급 기능을 [참조합니다.](/microsoft-365/security/defender-endpoint/advanced-features)
 
 #### <a name="indicators-for-application-certificates"></a>응용 프로그램 인증서 표시기 
 
 응용 프로그램 [인증서에 대한 "허용"](/microsoft-365/security/defender-endpoint/indicator-certificates)표시기를 만들면 조직에서 사용하는 응용 프로그램(예: 내부 개발 응용 프로그램)이 차단되지 않도록 방지할 수 있습니다. `.CER` 또는 `.PEM` 파일 확장명을 지원합니다.   
 
 응용 프로그램 인증서에 대한 표시기를 만들기 전에 다음 요구 사항을 충족하는지 확인합니다.
-- Microsoft Defender 바이러스 백신 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+
+- Microsoft Defender 바이러스 백신 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](deploy-manage-report-microsoft-defender-antivirus.md)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다. 
 - 디바이스에서 Windows 10 버전 1703 이상이 실행되고 있습니다. Windows Server 2016; 또는 Windows Server 2019 
 - 바이러스 및 위협 방지 정의가 최신입니다.  
@@ -444,7 +442,7 @@ PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집�
 
 이 문서의 모든 단계를 수행한 후 여전히 도움이 필요한 경우 기술 지원에 문의하세요.
 
-1. Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) ()로 이동하여 로그인합니다.
+1. Microsoft 365 Defender( [https://security.microsoft.com](https://security.microsoft.com) )로 이동하고 로그인합니다.
 
 2. 오른쪽 위 모서리에서 물음표(**?**)를 선택한 다음 Microsoft 지원 **을 선택합니다.**
 
@@ -454,4 +452,4 @@ PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집�
 
 [끝점용 Microsoft Defender 관리](manage-atp-post-migration.md)
 
-[Microsoft Defender 보안 센터 개요](/microsoft-365/security/defender-endpoint/use) 
+[Defender Microsoft 365 개요](/microsoft-365/security/defender-endpoint/use) 

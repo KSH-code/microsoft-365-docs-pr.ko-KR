@@ -18,129 +18,76 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스에 대한 추가 장치 정보입니다.'
-ms.openlocfilehash: 27426a26befab85bf62a0a143861e447dd722724
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: cdb3278e1d96b2ebdced122ab53db716c3195d8c
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861309"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903877"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 추가 장치 정보
 
-도이치클랜드 Microsoft 클라우드에 연결된 Azure AD 가입 및 등록된 장치는 9단계 및 10단계 이전으로 마이그레이션해야 합니다. 장치 마이그레이션은 장치 유형, 운영 체제 및 AAD 관계에 따라 다릅니다. 
+도이치클랜드 Microsoft 클라우드에 연결된 Azure AD 가입 및 등록된 장치는 9단계 및 10단계 이전으로 마이그레이션해야 합니다. 디바이스의 마이그레이션은 장치 유형, 운영 체제 및 Azure AD 관계에 따라 다릅니다. 
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
-
-**조직이 영향을 받는지 어떻게 알 수 있나요?**
-
-관리자는 등록된 장치 또는 Azure AD에 가입된 장치가 있는지 `https://portal.microsoftazure.de` 여부를 확인해야 합니다. 조직에서 장치를 등록한 경우 영향을 받을 수 있습니다.
-
-**사용자에게 어떤 영향이 있나요?**
-
-등록된 장치의 사용자는 마이그레이션 [10단계가](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization) 완료되고 도이치란드 Microsoft 클라우드의 끝점을 사용하지 않도록 설정한 후에 더 이상 로그인할 수 없습니다.  
-
-조직이 도이치란드 Microsoft 클라우드에서 연결이 끊어지기 전에 모든 장치가 전 세계 끝점에 등록되어 있도록 합니다.
-  
-**사용자가 언제 장치를 다시 등록하나요?**
-
-[9단계가](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization) 완료된 후에만 장치를 등록을 등록을 해지하고 다시 등록하는 것은 성공에 중요합니다. 10단계가 시작되기 전에 다시 등록을 완료해야 합니다. 그렇지 않으면 장치에 대한 액세스 권한이 손실될 수 있습니다.
-
-**마이그레이션 후 장치 상태를 복원하려면 어떻게 해야 합니까?**
-
-Azure AD에 등록된 회사 소유의 Windows 디바이스의 경우 관리자는 원격으로 트리거된 워크플로를 통해 이전 장치 상태의 등록을 등록하지 않는 워크플로를 통해 이러한 디바이스의 마이그레이션을 관리할 수 있습니다.
-  
-Azure AD에 등록된 개인 Windows 장치를 비롯한 다른 모든 장치의 경우 최종 사용자는 이러한 단계를 수동으로 수행해야 합니다. Azure AD에 가입된 장치의 경우 사용자는 등록을 하지 않은 후 장치를 다시 등록하려면 로컬 관리자 계정이 필요합니다.
-
-아래에서 장치 상태로 복원하는 방법에 대한 자세한 지침을 참조하세요. 
- 
-**모든 장치가 공용 클라우드에 등록되어 있는 것을 어떻게 알 수 있나요?**
-
-장치가 공용 클라우드에 등록되어 있는지 확인하려면 Azure AD 포털에서 장치 목록을 내보내고 앱 스프레드시트로 Excel 합니다. 그런 다음 도이치랜드 [Microsoft](ms-cloud-germany-transition.md#how-is-the-migration-organized) 클라우드와 별개의 마이그레이션 단계 후 _registeredTime_ 열을 사용하여 등록된 장치를 필터링합니다.
-
-## <a name="additional-considerations"></a>추가 고려 사항
-장치 등록은 테넌트 마이그레이션 후 비활성화되어 활성화하거나 사용하지 않도록 설정할 수 없습니다. 
-
-Intune이 사용되지 않는 경우 구독에 로그인하고 다음 명령을 실행하여 옵션을 다시 활성화합니다.
-
-```powershell
-Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
-```
-**중요:** Intune 서비스 보안 주체는 상거래 마이그레이션 후 활성화됩니다. 이는 Azure AD 장치 등록의 활성화를 암시합니다. 마이그레이션 전에 Azure AD 장치 등록을 차단한 경우 Azure AD 포털에서 Azure AD 장치 등록을 다시 사용하지 않도록 설정하려면 PowerShell을 사용하여 Intune 서비스 계정을 사용하지 않도록 설정해야 합니다. 이 명령을 사용하여 Intune 서비스 주체는 Azure Active Directory PowerShell for Graph 있습니다.
-
-```powershell
-Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
-```
-
-
-## <a name="azure-ad-join"></a>Azure AD 가입
-이는 디바이스에 Windows 10 적용됩니다. 
-
-디바이스가 Azure AD에 가입된 경우 Azure AD에서 연결을 끊고 다시 연결해야 합니다. 
+## <a name="azure-ad-joined-windows-10-devices"></a>Azure AD 가입 Windows 10 장치
+Azure Windows 10 디바이스가 연결된 경우 Azure AD에서 연결을 끊고 다시 연결해야 합니다. 
 
 [![Azure AD 장치 Re-Join Flow ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 
-사용자가 디바이스의 관리자인 Windows 10 Azure AD에서 디바이스 등록을 등록을 해지하고 다시 가입할 수 있습니다. 관리자 권한이 없는 사용자는 이 컴퓨터의 로컬 관리자 계정 자격 증명이 필요합니다. 
-
-
-관리자는 다음 구성 경로에 따라 디바이스에서 로컬 관리자 계정을 만들 수 있습니다.
-
-*설정 > 계정 > Microsoft > 없는 사용자 > > 자격 증명을 사용할 수 없음*
+사용자가 Windows 10 디바이스의 관리자인 경우 사용자는 Azure AD에서 디바이스 등록을 등록을 해지하고 3단계로 다시 가입할 수 있습니다. 
 
 ### <a name="step-1-determine-if-the-device-is-azure-id-joined"></a>1단계: 디바이스가 Azure ID에 가입된지 확인
-1.  사용자 전자 메일 및 암호로 로그인합니다.
-2.  Go to 설정 > Accounts > Access Work or School. 
-3.  에 연결된 사용자 **목록에서 사용자를 찾아야 합니다. 의 Azure AD.** 
-4.  연결된 사용자가 있는 경우 2단계를 진행합니다. 그렇지 않은 경우 추가 작업이 필요하지 않습니다.
+1.  회사 계정으로 로그인합니다.
+2.  계정 **설정**  >    >  **또는 학교 액세스로 이동하십시오.** 
+3.  **목록에서 [...]에 연결된 계정을 찾아야 합니다. s Azure AD**. 
+4.  연결된 계정이 있는 경우 2단계를 진행합니다. 
 ### <a name="step-2-disconnect-the-device-from-azure-ad"></a>2단계: Azure AD에서 장치 연결 끊기
-1.  연결된 **직장** 또는 학교 계정에서 연결 끊기를 탭합니다. 
+1.  연결된 **직장** 또는 학교 계정에서 연결 끊기를 클릭합니다. 
 2.  연결이 끊어진 것을 두 번 확인 합니다. 
 3.  로컬 관리자 사용자 이름과 암호를 입력합니다. 디바이스의 연결이 끊어집니다.
 4.  장치를 다시 시작합니다.
 ### <a name="step-3-join-the-device-to-azure-ad"></a>3단계: 디바이스를 Azure AD에 연결
-1.  사용자가 로컬 관리자의 자격 증명으로 로그인합니다.
-2.  다음으로 **설정** **계정으로** 이동한 다음 직장 **또는 학교에 액세스**
-3.  탭 **커넥트**
-4.  **중요:** **Azure AD에 가입을 탭합니다.**
-5.  사용자의 전자 메일 주소와 암호를 입력합니다. 디바이스가 연결되어 있습니다.
-6.  장치 다시 시작 
-7.  전자 메일 주소 및 암호로 서명
+1.  로컬 관리자의 자격 증명으로 로그인합니다.
+2.  계정 **설정**  >    >  **또는 학교 액세스로 이동하십시오.**
+3.  **연결** 을 클릭합니다.
+4.  **중요:** **Azure AD에 가입을 클릭합니다.**
+5.  직장 계정의 전자 메일 주소와 암호를 입력합니다. 장치가 연결되어 있습니다.
+6.  장치를 다시 시작합니다.
+7.  직장 계정의 전자 메일 주소와 암호로 로그인합니다.
 
-## <a name="azure-ad-registered-company-owned"></a>Azure AD 등록(회사 소유)
+사용자가 디바이스 관리자가 아닌 경우 Azure AD 전역 관리자는 이 구성 경로에 따라 디바이스에서 로컬 관리자 계정을 만들고 디바이스에 연결을 언니어할 수 있습니다.
 
-장치 Windows 10 Azure AD가 등록되어 있는지 확인하려면 장치에서 다음 명령을 실행합니다.
+*설정 > 계정 > Microsoft > 없는 사용자 > > 자격 증명을 사용할 수 없음*
 
-```console
-%SystemRoot%\system32\dsregcmd.exe /status
-```
+다시 가입하기 위해 이 단계에서 조직의 모든 작업 계정의 자격 증명을 사용할 수 있습니다. 
 
-디바이스가 Azure AD 등록된 경우 다음 출력이 표시됩니다.
+디바이스에 가입하는 데 사용되는 작업 계정이 자동으로 디바이스 관리자로 승격됩니다.
+조직의 다른 모든 작업 계정은 장치에 로그인할 수 있지만 관리자 권한이 없습니다.
 
-```console
-+----------------------------------------------------------------------+
-| User State                                                           |
-+----------------------------------------------------------------------+
-           WorkplaceJoined : YES
-          WamDefaultSet : NO
-          WamDefaultAuthority : organizations
-```
+## <a name="azure-ad-registered-workplace-joined-windows-10-devices"></a>Azure AD 등록(회사 가입) Windows 10 장치
+Azure Windows 10 등록된 경우 Azure AD에서 연결을 끊고 다시 연결해야 합니다.
 
-장치에서 기존 Azure AD 등록 계정을 제거하려면
+[![Azure AD 장치 Re-Registration Flow ](../media/ms-cloud-germany-migration-opt-in/AAD-ReRegistration-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
-- 장치에서 Azure AD 등록 계정을 제거하려면 여기에서 다운로드할 수 있는 도구인 CleanupWPJ를 [CleanupWPJ.zip. ](https://download.microsoft.com/download/8/e/f/8ef13ae0-6aa8-48a2-8697-5b1711134730/WPJCleanUp.zip)
+### <a name="step-1-determine-if-the-device-is-azure-id-registered"></a>1단계: 장치가 Azure ID로 등록되어 있는지 확인
+1.  사용자와 함께 로그인합니다.
+2.  계정 **설정**  >    >  **또는 학교 액세스로 이동하십시오.** 
+3.  목록에서 직장 계정을 검색하고 [...]에 연결되어 있는지 **확인 s Azure AD**.
 
-- ZIP 파일을 추출하고 **WPJCleanup.cmd를 실행합니다.** 이 도구는 디바이스의 버전에 따라 올바른 실행 Windows 실행됩니다.
+    직장 계정이 목록에 있지만 Azure AD에 연결되지 않은 경우 2단계를 진행합니다.
 
-- 관리자는 그룹 정책과 같은 메커니즘을 사용하여 디바이스에 로그인한 사용자의 컨텍스트에서 디바이스에서 명령을 실행할 수 있습니다.
+    그렇지 않으면 디바이스가 Azure AD 가입 장치이기 때문에 Azure AD 가입 장치 를 [Windows 10 합니다.](#azure-ad-joined-windows-10-devices)
 
-Azure AD에서 디바이스를 등록하라는 웹 계정 관리자 프롬프트를 사용하지 않도록 설정하려면 다음 레지스트리 값을 추가합니다. 
-
-- 위치: HKLM\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin
-- 형식: DWORD(32비트)
-- 이름: BlockAADWorkplaceJoin
-- 값 데이터: 1
-
-이 레지스트리 값이 있는 경우 작업 공간 조인을 차단하고 사용자에게 디바이스에 가입하라는 메시지가 표시되지 않도록 해야 합니다.
+### <a name="step-2-disconnect-the-device-from-azure-ad"></a>2단계: Azure AD에서 장치 연결 끊기
+1.  작업 계정을 클릭합니다. 정보 및 *연결 끊기* *단추가* 나타납니다.
+2.  연결 **끊기를 클릭합니다.** 
+3.  예를 클릭하여 장치에서 계정 제거를 **확인합니다.**
+### <a name="step-3-connect-the-device-to-azure-ad"></a>3단계: 커넥트 Azure AD에 연결
+1.  **연결** 을 클릭합니다.
+2.  직장 계정의 전자 메일 주소를 입력하고 다음 을 **클릭합니다.**
+3.  직장 계정의 암호를 입력하고 **로그인을 클릭합니다.**
+4.  완료 를 클릭하여 **확인** 직장 계정이 다시 나열됩니다.
 
 ## <a name="android"></a>Android
 
@@ -195,6 +142,29 @@ iOS 장치에서는 캐시된 계정을 장치에서 수동으로 제거하고, 
 ### <a name="step-3-sign-out-from-individual-apps-if-necessary"></a>3단계: 필요한 경우 개별 앱에서 서명
 
 사용자는 앱, 앱 Outlook, Teams 및 OneDrive 앱으로 이동하고 해당 앱에서 계정을 제거할 수 있습니다.
+
+## <a name="frequently-asked-questions"></a>자주하는 질문
+
+**조직이 영향을 받는지 어떻게 알 수 있나요?**
+
+관리자는 Azure AD가 등록되어 있는지 또는 Azure AD에 가입되어 `https://portal.microsoftazure.de` 있는지를 확인해야 합니다. 조직에 Azure AD가 등록되거나 Azure AD 가입 장치가 있는 경우 조직은 이 페이지의 지침을 따라야 합니다.
+
+**사용자가 언제 장치를 다시 등록하나요?**
+
+[9단계가](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization) 완료된 후에만 장치를 등록을 등록을 해지하고 다시 등록하는 것은 성공에 중요합니다. 10단계가 시작되기 전에 다시 등록을 완료해야 합니다. 그렇지 않으면 장치에 대한 액세스 권한이 손실될 수 있습니다.
+
+**모든 장치가 공용 클라우드에 등록되어 있는 것을 어떻게 알 수 있나요?**
+
+장치가 공용 클라우드에 등록되어 있는지 확인하려면 Azure AD 포털에서 장치 목록을 내보내고 앱 스프레드시트로 Excel 합니다. 그런 다음 조직에서 마이그레이션 프로세스의 9단계를 통과한 날짜 이후에 _registeredTime_ 열을 사용하여 등록된 장치를 [필터링합니다.](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization)
+
+## <a name="additional-considerations"></a>추가 고려 사항
+
+> [!IMPORTANT]
+> Intune 서비스 주체는 Azure AD 장치 등록의 활성화를 암시하는 마이그레이션 [프로세스의 3단계](ms-cloud-germany-transition-phases.md#phase-3-subscription-transfer)후에 활성화됩니다. 마이그레이션 전에 Azure AD 장치 등록을 차단한 경우 Azure AD 포털에서 Azure AD 장치 등록을 다시 사용하지 않도록 설정하려면 PowerShell을 사용하여 Intune 서비스 계정을 사용하지 않도록 설정해야 합니다. 이 명령을 사용하여 Intune 서비스 주체는 Azure Active Directory PowerShell for Graph 있습니다.
+
+```powershell
+Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
+```
 
 ## <a name="more-information"></a>추가 정보
 

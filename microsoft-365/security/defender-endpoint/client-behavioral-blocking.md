@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 4e416aa9484f251280649035247a59dcc82ce750
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: fcf2310929937d1dacfc9c101d3e14414bad262b
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52795961"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903747"
 ---
 # <a name="client-behavioral-blocking"></a>클라이언트 동작 차단
 
@@ -32,7 +32,7 @@ ms.locfileid: "52795961"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="overview"></a>개요
 
@@ -46,7 +46,7 @@ ms.locfileid: "52795961"
 
 [Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md) 의심스러운 동작, 악성 코드, 파일 없는 및 메모리 내 공격을 장치에서 감지할 수 있습니다. 의심스러운 동작이 감지되면 Microsoft Defender 바이러스 백신 의심스러운 동작과 프로세스 트리를 모니터링하여 클라우드 보호 서비스로 전송합니다. 기계 학습은 악성 응용 프로그램과 좋은 동작을 밀리초 내에 차별화하고 각 아티팩트를 분류합니다. 거의 실시간으로 아티팩트가 악성으로 발견되는 즉시 디바이스에서 차단됩니다. 
 
-의심스러운 동작이 감지될 때마다 경고가 [](alerts-queue.md) 생성되고 경고()에 [https://securitycenter.windows.com](https://securitycenter.windows.com) Microsoft Defender 보안 센터.
+의심스러운 동작이 감지될 때마다 경고가 [](alerts-queue.md) 생성되고 Microsoft 365 [Defender(이전의](microsoft-defender-security-center.md) Microsoft Defender 보안 센터 ( ))에 [https://securitycenter.windows.com](https://securitycenter.windows.com) 표시됩니다.
 
 클라이언트 동작 차단은 공격이 시작되지 않도록 하는 데 도움이 될 뿐만 아니라 실행을 시작한 공격을 중지하는 데 도움이 될 수 있기 때문에 효과적입니다. 또한 [피드백](feedback-loop-blocking.md) 루프 차단(동작 차단 및 방지의 또 다른 기능)을 사용하여 조직의 다른 디바이스에서 공격을 방지할 수 있습니다.
 

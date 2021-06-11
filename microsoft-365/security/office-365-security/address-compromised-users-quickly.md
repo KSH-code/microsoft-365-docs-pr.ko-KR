@@ -11,20 +11,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-ms.date: 02/25/2020
+ms.date: 06/10/2021
 description: Microsoft Defender for Office 365 계획에서 자동화된 조사 및 응답 기능을 통해 손상된 사용자 계정을 검색하고 처리하는 프로세스를 Office 365 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c500221a10c00cc3b8d9d99c102ce8ec54fa2a48
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: cd84617230e774b92902ef3d11a365c1965ac814
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934696"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904143"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동화된 조사 및 응답을 통해 손상된 사용자 계정 해결
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
@@ -71,7 +69,7 @@ ms.locfileid: "51934696"
 
 제한된 사용자 목록으로의 몇 가지 옵션을 사용할 수 있습니다. 예를 들어 보안 및 준수 & 위협 관리 검토  제한된 \>  \> **사용자로 이동하면 됩니다.** 다음 절차에서는 트리거될 수 있는 다양한 종류의 경고를 볼 수 있는 좋은 방법인 **Alerts** 대시보드를 사용하여 탐색에 대해 설명합니다.
 
-1. <https://protection.office.com>으로 이동하여 로그인합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다.
 
 2. 탐색 창에서 경고 **대시보드 를** \> **선택합니다.**
 

@@ -16,16 +16,14 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 55b06ca25047fe615bd0011528fbdbe5112a4533
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 58c2230d3a2e3323f7b9a315ca5d2a049f5f44fb
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844985"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903855"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 
@@ -97,7 +95,7 @@ Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 �
 
 또한 특정 공격 표면 감소 규칙이 트리거되면 경고가 생성됩니다.
 
-알림 및 생성된 경고는 Microsoft Defender 보안 센터( ) 및 Microsoft 365 보안 [https://securitycenter.windows.com](https://securitycenter.windows.com) 센터()에서 볼 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다.
+알림 및 생성된 경고는 Microsoft 365 Defender 포털()(이전의 Microsoft Defender 보안 센터)에서 볼 [https://security.microsoft.com](https://security.microsoft.com) [수 있습니다.](microsoft-defender-security-center.md)
 
 ## <a name="advanced-hunting-and-attack-surface-reduction-events"></a>고급 헌팅 및 공격 표면 축소 이벤트
 
@@ -116,13 +114,13 @@ Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 �
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 않습니다. [E5를](/windows/deployment/deploy-enterprise-licenses)Windows 고급 관리 기능을 사용할 수 있습니다. 이러한 기능은 Windows E5에서만 사용할 수 있는 기능으로는 [Endpoint용 Defender에서](microsoft-defender-endpoint.md)사용할 수 있는 모니터링, 분석 및 워크플로와 Microsoft 365 보안 센터의 보고 [및 구성 기능이 포함됩니다.](/microsoft-365/security/defender/overview-security-center) 이러한 고급 기능은 E3 라이선스 또는 Windows Professional 사용할 Windows 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 로그를 사용하여 Microsoft Defender 바이러스 백신 축소 규칙 이벤트를 검토할 수 있습니다.
+공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 않습니다. [E5를](/windows/deployment/deploy-enterprise-licenses)Windows 고급 관리 기능을 사용할 수 있습니다. 이러한 기능은 Windows E5에서만 사용할 수 있는 기능으로는 [Endpoint용 Defender에서](microsoft-defender-endpoint.md)사용할 수 있는 모니터링, 분석 및 워크플로뿐 아니라 Microsoft 365 [Defender의](/microsoft-365/security/defender/overview-security-center)보고 및 구성 기능이 포함됩니다. 이러한 고급 기능은 E3 라이선스 또는 Windows Professional 사용할 Windows 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 로그를 사용하여 Microsoft Defender 바이러스 백신 축소 규칙 이벤트를 검토할 수 있습니다.
 
-## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a>공격 표면 감소 이벤트를 Microsoft Defender 보안 센터
+## <a name="review-attack-surface-reduction-events-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 공격 표면 감소 Microsoft 365 검토
 
 Endpoint용 Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 차단합니다.
 
-고급 헌팅을 사용하여 Defender에서 끝점 데이터를 [쿼리할 수 있습니다.](advanced-hunting-query-language.md) 감사 모드를 실행하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 공격 표면 감소 규칙이 환경에 미칠 수 있는 영향을 이해할 수 있습니다.
+고급 헌팅을 사용하여 Microsoft 365 [Defender에서](microsoft-defender-security-center.md) 끝점 데이터를 [쿼리할 수 있습니다.](advanced-hunting-query-language.md) 감사 모드를 실행하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 공격 표면 감소 규칙이 환경에 미칠 수 있는 영향을 이해할 수 있습니다.
 
 다음은 쿼리의 예입니다.
 
@@ -136,9 +134,13 @@ DeviceEvents
 다음과 같은 Windows 로그를 검토하여 공격 표면 감소 규칙에 의해 생성된 이벤트를 볼 수 있습니다.
 
 1. 평가 [패키지를](https://aka.ms/mp7z2w) 다운로드하고  디바이스에서cfa-events.xml쉽게 액세스할 수 있는 위치에 파일을 추출합니다.
+
 2. 시작 메뉴에 이벤트 *뷰어* 단어를 입력하여 이벤트 뷰어를 Windows 를 넣습니다.
+
 3. **작업에서** 사용자 지정 보기 **가져오기... 를 선택합니다.**
+
 4. 추출된 *cfa-events.xml* 파일을 선택합니다. 또는 [XML을 직접 복사합니다.](event-views.md)
+
 5. **확인** 을 선택합니다.
 
 이벤트를 필터로 지정하여 제어된 폴더 액세스와 관련된 다음 이벤트만 표시하는 사용자 지정 보기를 만들 수 있습니다.
@@ -503,7 +505,7 @@ GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`
 규칙은 랜섬웨어를 방지하기 위해 신중하게 진행되는 경향이 있습니다.
 
 > [!NOTE]
-> 이 규칙을 [사용하려면](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 클라우드 제공 보호를 사용하도록 설정해야 합니다.
+> 이 규칙을 [사용하려면](enable-cloud-protection-microsoft-defender-antivirus.md) 클라우드 제공 보호를 사용하도록 설정해야 합니다.
 
 이 규칙은
 
@@ -518,9 +520,4 @@ Configuration Manager 이름: `Use advanced protection against ransomware`
 
 GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
 
-## <a name="see-also"></a>참고 항목
 
-- [공격 표면 감소 FAQ](attack-surface-reduction-faq.md)
-- [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
-- [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
-- [다른 Microsoft Defender 바이러스 백신/맬웨어 방지 솔루션과의 호환성](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)

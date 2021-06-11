@@ -11,18 +11,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 audience: ITPro
-ms.date: 02/03/2021
+ms.date: 06/10/2021
 ms.reviewer: v-maave
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 7c471dc99a5deafcc60177812f60f1f884b10ee1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c60620d2a589c8473764b810d1fcb0e24f674451
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845573"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904059"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스로 중요한 폴더 보호
 
@@ -89,9 +89,9 @@ Windows 폴더는 기본적으로 몇 가지 다른 폴더와 함께 보호됩�
 
 제어된 폴더 액세스를 사용하려면 실시간 Microsoft Defender 바이러스 백신 [활성화해야 합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
-## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>폴더에서 제어된 폴더 액세스 이벤트를 Microsoft Defender 보안 센터
+## <a name="review-controlled-folder-access-events-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 제어된 폴더 액세스 Microsoft 365 검토
 
-Endpoint용 Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 [차단합니다.](investigate-alerts.md)
+Endpoint용 Defender는 이벤트에 대한 자세한 보고를 [](investigate-alerts.md) 제공하며, Microsoft 365 Defender 포털에서 경고 조사 시나리오의 일부로 차단합니다. [(Defender의 끝점에 대한 Microsoft Defender를 Microsoft 365 참조).](../defender/microsoft-365-security-center-mde.md)
 
 고급 헌팅을 사용하여 Microsoft Defender에서 끝점 데이터를 [쿼리할 수 있습니다.](/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection) 감사 모드를 사용하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 제어된 폴더 액세스 설정이 사용하도록 설정된 경우 환경에 어떤 영향을 주는지 볼 수 있습니다. [](advanced-hunting-overview.md)
 
@@ -135,8 +135,4 @@ DeviceEvents
 > [!NOTE]
 > [Windows 시스템](#windows-system-folders-are-protected-by-default) 폴더는 기본적으로 보호되어 있으며 목록에서 제거할 수 없습니다.
 
-## <a name="see-also"></a>참고 항목
 
-- [제어된 폴더 액세스 평가](evaluate-controlled-folder-access.md)
-- [제어된 폴더 액세스 사용자 지정](customize-controlled-folders.md)
-- [더 많은 폴더 보호](customize-controlled-folders.md#protect-additional-folders)

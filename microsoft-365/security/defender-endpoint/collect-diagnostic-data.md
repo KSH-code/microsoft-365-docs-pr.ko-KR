@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ccf6da0e1bc91a29865868305b5333f7ef9c47cc
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 7686f28646135986a78b4c269e41e2fc3a70dff9
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274787"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904047"
 ---
 # <a name="collect-microsoft-defender-av-diagnostic-data"></a>Microsoft Defender AV 진단 데이터 수집
 
@@ -43,9 +43,9 @@ ms.locfileid: "52274787"
 
     a. 시작 **메뉴를** 열 수 있습니다.
 
-    b. **cmd 를 입력합니다.** 명령 프롬프트를 **마우스 오른쪽 단추로 클릭하고** **관리자 권한으로 실행을 클릭합니다.**
+    b. **cmd 를 입력합니다.** 명령 프롬프트를 **마우스 오른쪽 단추로 클릭한** 다음 **관리자 권한으로 실행을 선택합니다.**
 
-    c. 관리자 자격 증명을 입력하거나 프롬프트를 승인합니다.
+    c. 관리자 자격 증명을 지정하거나 프롬프트를 승인합니다.
 
 2. Microsoft Defender 디렉터리로 이동합니다. 기본적으로 는 `C:\Program Files\Windows Defender` 입니다.
 

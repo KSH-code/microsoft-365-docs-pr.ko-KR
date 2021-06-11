@@ -16,23 +16,21 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 2aaf3d1c650713a7f6cfb7b9abb9f2232013d6db
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 9fbe2b624bec6bbe17bcf6bc8d3f842ba1e43ad7
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274799"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903735"
 ---
-# <a name="collect-update-compliance-diagnostic-data-for-microsoft-defender-av-assessment"></a>Microsoft Defender AV 평가에 대한 업데이트 준수 진단 데이터 수집
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+# <a name="collect-update-compliance-diagnostic-data-for-microsoft-defender-antivirus-assessment"></a>테스트 평가를 위한 업데이트 Microsoft Defender 바이러스 백신 데이터 수집
 
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-이 문서에서는 업데이트 준수 추가 기능의 Microsoft Defender AV 평가 섹션을 사용할 때 발생할 수 있는 문제를 해결하기 위해 Microsoft 지원 및 엔지니어링 팀에서 사용할 수 있는 진단 데이터를 수집하는 방법을 설명합니다.
+이 문서에서는 업데이트 준수 추가 기능의 Microsoft Defender 바이러스 백신 평가 섹션을 사용할 때 발생할 수 있는 문제를 해결하기 위해 Microsoft 지원 및 엔지니어링 팀에서 사용할 수 있는 진단 데이터를 수집하는 방법에 대해 설명합니다.
 
 이 프로세스를 시도하기 전에 Troubleshoot [troubleshoot Microsoft Defender 바이러스 백신 reporting](troubleshoot-reporting.md), met all require prerequisites을 충족하고 다른 제안된 문제 해결 단계를 수행해야 합니다.
 
@@ -42,9 +40,9 @@ ms.locfileid: "52274799"
         
     a. 시작 **메뉴를** 열 수 있습니다.
 
-    b. **cmd 를 입력합니다.** 명령 프롬프트를 **마우스 오른쪽 단추로 클릭하고** **관리자 권한으로 실행을 클릭합니다.**
+    b. **cmd 를 입력합니다.** 명령 프롬프트를 **마우스 오른쪽 단추로 클릭한** 다음 **관리자 권한으로 실행을 선택합니다.**
 
-    c. 관리자 자격 증명을 입력하거나 프롬프트를 승인합니다.
+    c. 관리자 자격 증명을 지정하거나 프롬프트를 승인합니다.
         
 2. 사용자 디렉터리로 Windows Defender 이동합니다. 기본적으로 는 `C:\Program Files\Windows Defender` 입니다.
 
@@ -58,7 +56,7 @@ ms.locfileid: "52274799"
 
 5. 이러한 .cab 파일을 Microsoft 지원에서 액세스할 수 있는 위치에 복사합니다. 예를 들어 사용자와 공유할 수 있는 암호로 OneDrive 폴더를 예로 들 수 있습니다.
 
-6. 업데이트 준수 지원 <a href="mailto:ucsupport@microsoft.com?subject=WDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a"></a>전자 메일 서식 파일을 사용하여 전자 메일을 보내고 다음 정보를 사용하여 서식 파일을 작성합니다.
+6. 업데이트 준수 지원 <a href="mailto:ucsupport@microsoft.com?subject=MDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a"></a>전자 메일 서식 파일을 사용하여 전자 메일을 보내고 다음 정보를 사용하여 서식 파일을 작성합니다.
   
     ```
     I am encountering the following issue when using Microsoft Defender Antivirus in Update Compliance:

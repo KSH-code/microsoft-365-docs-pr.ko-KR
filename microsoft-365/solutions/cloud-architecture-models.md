@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 73e29109a429d8a3fffc69b79939c8dff7ecb087
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 29d52ea4b40cb876c6e8b314ab2f3b07c3123c05
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769272"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904023"
 ---
 # <a name="microsoft-cloud-for-it-architects-illustrations"></a>IT 설계자용 Microsoft 클라우드 그림
 
@@ -68,7 +68,7 @@ Microsoft 서비스 및 플랫폼용 하이브리드 클라우드와 관련하�
 
 |**항목**|**설명**|
 |:-----|:-----|
-|[![Microsoft 클라우드 테넌트와 테넌트 마이그레이션을 위한 축소판 이미지](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>2021년 2월에 업데이트되었습니다.    |이 모델에는 다음이 포함됩니다. <ul><li>아키텍처 접근 방식에 대한 비즈니스 시나리오 매핑</li><li>디자인 고려 사항</li><li>단일 이벤트 마이그레이션 흐름 예</li><li>단계적 마이그레이션 흐름 예</li><li>테넌트 이동 또는 분할 흐름 예제</li></ul>|
+|[![Microsoft 클라우드 테넌트와 테넌트 마이그레이션을 위한 축소판 이미지](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| 2021년 2월에 업데이트되었습니다.    |이 모델에는 다음이 포함됩니다. <ul><li>아키텍처 접근 방식에 대한 비즈니스 시나리오 매핑</li><li>디자인 고려 사항</li><li>단일 이벤트 마이그레이션 흐름 예</li><li>단계적 마이그레이션 흐름 예</li><li>테넌트 이동 또는 분할 흐름 예제</li></ul>|
 
 <a name="attacks"></a>
 ### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>일반적인 공격 및 조직을 보호하는 Microsoft 기능

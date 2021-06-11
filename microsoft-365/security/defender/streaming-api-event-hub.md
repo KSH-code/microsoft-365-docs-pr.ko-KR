@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c62f175fc8227f64b9f18de78a2a793b2201691c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 6f5d04d35c8c4fec18e1a689c51ecbc32d416adf
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782372"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903819"
 ---
 # <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-azure-event-hub"></a>Azure Microsoft 365 허브로 고급 헌팅 이벤트를 스트리밍하도록 Microsoft 365 Defender 구성
 
@@ -42,9 +42,12 @@ ms.locfileid: "52782372"
 3. 이벤트 허브 네임스페이스를 만들고  이벤트 허브 네임스페이스로 이동하여 > 계층, 처리력 단위 및 예상 부하에 적합한 자동 Inflate을 선택합니다. 자세한 내용은 [가격 책정 - 이벤트 허브 | Microsoft Azure.](https://azure.microsoft.com/en-us/pricing/details/event-hubs/)  
 
 ### <a name="add-contributor-permissions"></a>참가자 권한 추가 
-이벤트 허브 네임스페이스가 생성되면 앱 등록 서비스 사용자를 읽기 프로그램, Azure 이벤트 허브 데이터 수신기로 추가하고 Microsoft 365 Defender에 참가자로 로그인할 사용자를 추가해야 합니다(리소스 그룹 또는 구독 수준에서도 이 작업을 수행 할 수 있습니다). 
+이벤트 허브 네임스페이스가 생성되면 다음을 해야 합니다.
+1. Defender에 로그인할 사용자를 참가자로 Microsoft 365 정의합니다.
 
-**IAM(액세스 제어)** > 이벤트 허브 네임스페이스로 이동하여 > 할당 아래에서 추가 및 **확인을 진행합니다.**
+2. 응용 프로그램에 연결하는 경우 앱 등록 서비스 계정을 읽기 프로그램, Azure 이벤트 허브 데이터 수신기로 추가합니다(리소스 그룹 또는 구독 수준에서도 이행할 수 있습니다). 
+
+    **IAM(액세스 제어)** > 이벤트 허브 네임스페이스로 이동하여 > 할당 아래에서 추가 및 **확인을 진행합니다.**
 
 ## <a name="enable-raw-data-streaming"></a>원시 데이터 스트리밍 사용
 
@@ -70,7 +73,7 @@ ms.locfileid: "52782372"
 
 ## <a name="the-schema-of-the-events-in-azure-event-hub"></a>Azure 이벤트 허브의 이벤트 스마마
 
-```
+```JSON
 {
     "records": [
                     {
@@ -103,7 +106,7 @@ ms.locfileid: "52782372"
 
 2. 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다.
  
-   ```
+   ```kusto
    {EventType}
    | getschema
    | project ColumnName, ColumnType 

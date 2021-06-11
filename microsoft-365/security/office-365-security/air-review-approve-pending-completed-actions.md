@@ -18,13 +18,13 @@ ms.collection:
 description: Microsoft Defender for Office 365 계획의 자동화된 조사 및 대응 기능의 수정 조치에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.date: 01/29/2021
-ms.openlocfilehash: 525f6cf922f80067219f6c33a2c11559e9e58a39
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.date: 06/10/2021
+ms.openlocfilehash: 7894a9aa38239bf661c809cce96ea2a2a96c3725
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878775"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904131"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>관리 센터에서 재구성 작업을 검토하고 Office 365
 
@@ -52,16 +52,16 @@ ms.locfileid: "52878775"
    - **승인을** 선택하여 보류 중인 작업을 초기화합니다.
    - 보류 **중인** 작업이 수행되지 않도록 방지하려면 거부를 선택합니다.
 
-## <a name="undo-one-remediation-action"></a>한 가지 수정 작업 실행 취소
+## <a name="change-or-undo-one-remediation-action"></a>한 가지 수정 작업 변경 또는 실행 취소
 
 1. Go to the Action center ( <https://security.microsoft.com/action-center> ) and sign in.
-2. 사용 **기록 탭에서** 실행 취소할 작업을 선택합니다.
+2. 사용 **기록 탭에서** 변경하거나 실행 취소할 작업을 선택합니다.
 3. 화면 오른쪽 창에서 **취소를 선택합니다.**
 
-## <a name="undo-multiple-remediation-actions"></a>여러 수정 작업 취소
+## <a name="change-or-undo-multiple-remediation-actions"></a>여러 수정 작업 변경 또는 취소
 
 1. Go to the Action center ( <https://security.microsoft.com/action-center> ) and sign in.
-2. 사용 **기록 탭에서** 취소할 작업을 선택합니다. 동일한 작업 유형이 있는 항목을 선택해야 합니다. 플라이아웃 창이 열립니다.
+2. 사용 **기록 탭에서** 변경하거나 취소할 작업을 선택합니다. 동일한 작업 유형이 있는 항목을 선택해야 합니다. 플라이아웃 창이 열립니다.
 3. 플라이아웃 창에서 취소를 선택합니다.
 
 ## <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>여러 장치에서 파일을 검지에서 제거하려면
