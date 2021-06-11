@@ -3,7 +3,7 @@ title: 도메인 관리
 summary: 일반적인 도메인 작업을 사용하여 이러한 리소스를 확인하거나 전체 목록을 확인하려면 왼쪽의 탐색 창을 참조하세요.
 metadata:
   title: 도메인 관리
-  description: Microsoft 365에서 도메인의 모든 측면을 관리합니다.
+  description: 도메인의 모든 측면을 관리 Microsoft 365.
   ms.service: O365-administration
   ms.topic: landing-page
   author: pebaum
@@ -38,7 +38,7 @@ landingContent:
     links:
     - text: Microsoft에서 다른 호스트로 도메인 전송
       url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host
-- title: Microsoft 365 파일럿
+- title: 파일럿 Microsoft 365
   linkLists:
   - linkListType: how-to-guide
     links:

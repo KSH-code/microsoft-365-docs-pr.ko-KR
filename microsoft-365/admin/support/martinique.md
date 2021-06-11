@@ -19,24 +19,24 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295846"
 ---
-# <a name="contact-support-for-martinique"></a><span data-ttu-id="6d499-103">마르티니크 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="6d499-103">Contact support for Martinique</span></span>
+# <a name="contact-support-for-martinique"></a><span data-ttu-id="56ed7-103">마르티니크 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="56ed7-103">Contact support for Martinique</span></span>
 
-<span data-ttu-id="6d499-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="6d499-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="56ed7-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="56ed7-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="6d499-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="6d499-105">Phone number</span></span>
-<span data-ttu-id="6d499-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="6d499-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="56ed7-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="56ed7-105">Phone number</span></span>
+<span data-ttu-id="56ed7-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="56ed7-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="6d499-107">시간</span><span class="sxs-lookup"><span data-stu-id="6d499-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="6d499-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="6d499-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="56ed7-107">시간</span><span class="sxs-lookup"><span data-stu-id="56ed7-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="56ed7-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="56ed7-108">Billing Support:</span></span>
 
-<span data-ttu-id="6d499-109">프랑스어 Mon-Fri 오전 6시</span><span class="sxs-lookup"><span data-stu-id="6d499-109">French Mon-Fri 6 AM-noon</span></span>
+<span data-ttu-id="56ed7-109">프랑스어 Mon-Fri 오전 6시</span><span class="sxs-lookup"><span data-stu-id="56ed7-109">French Mon-Fri 6 AM-noon</span></span>
 
-<span data-ttu-id="6d499-110">영어: Mon-Fri 오전 6시-1시</span><span class="sxs-lookup"><span data-stu-id="6d499-110">English: Mon-Fri 6 AM-1 PM</span></span>
+<span data-ttu-id="56ed7-110">영어: Mon-Fri 오전 6시-1시</span><span class="sxs-lookup"><span data-stu-id="56ed7-110">English: Mon-Fri 6 AM-1 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="6d499-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="6d499-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="56ed7-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="56ed7-111">Technical Support:</span></span>
 
-<span data-ttu-id="6d499-112">프랑스어: Mon-Fri 오전 6시-1시</span><span class="sxs-lookup"><span data-stu-id="6d499-112">French: Mon-Fri 6 AM-1 PM</span></span>
+<span data-ttu-id="56ed7-112">프랑스어: Mon-Fri 오전 6시-1시</span><span class="sxs-lookup"><span data-stu-id="56ed7-112">French: Mon-Fri 6 AM-1 PM</span></span>
 
-<span data-ttu-id="6d499-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="6d499-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="56ed7-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="56ed7-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="6d499-114">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d499-114">International call charges apply</span></span>
+<span data-ttu-id="56ed7-114">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="56ed7-114">International call charges apply</span></span>

@@ -19,30 +19,30 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295930"
 ---
-# <a name="contact-support-for-lebanon"></a><span data-ttu-id="e38ac-103">레바논 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="e38ac-103">Contact support for Lebanon</span></span>
+# <a name="contact-support-for-lebanon"></a><span data-ttu-id="f658e-103">레바논 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="f658e-103">Contact support for Lebanon</span></span>
 
-<span data-ttu-id="e38ac-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="e38ac-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="f658e-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="f658e-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e38ac-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="e38ac-105">Phone number</span></span>
-<span data-ttu-id="e38ac-106">01 97 40 81</span><span class="sxs-lookup"><span data-stu-id="e38ac-106">01 97 40 81</span></span>
+## <a name="phone-number"></a><span data-ttu-id="f658e-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="f658e-105">Phone number</span></span>
+<span data-ttu-id="f658e-106">01 97 40 81</span><span class="sxs-lookup"><span data-stu-id="f658e-106">01 97 40 81</span></span>
 
-<span data-ttu-id="e38ac-107">옵션 2 선택</span><span class="sxs-lookup"><span data-stu-id="e38ac-107">Select option 2</span></span>
+<span data-ttu-id="f658e-107">옵션 2 선택</span><span class="sxs-lookup"><span data-stu-id="f658e-107">Select option 2</span></span>
 
-<span data-ttu-id="e38ac-108">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="e38ac-108">Select option 9</span></span>
+<span data-ttu-id="f658e-108">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="f658e-108">Select option 9</span></span>
 
-<span data-ttu-id="e38ac-109">코드 7702 입력</span><span class="sxs-lookup"><span data-stu-id="e38ac-109">Enter code 7702</span></span>
+<span data-ttu-id="f658e-109">코드 7702 입력</span><span class="sxs-lookup"><span data-stu-id="f658e-109">Enter code 7702</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e38ac-110">시간</span><span class="sxs-lookup"><span data-stu-id="e38ac-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e38ac-111">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="e38ac-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="f658e-110">시간</span><span class="sxs-lookup"><span data-stu-id="f658e-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="f658e-111">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="f658e-111">Billing Support:</span></span>
 
-<span data-ttu-id="e38ac-112">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="e38ac-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="f658e-112">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="f658e-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="e38ac-113">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="e38ac-113">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="f658e-113">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="f658e-113">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e38ac-114">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="e38ac-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="f658e-114">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="f658e-114">Technical Support:</span></span>
 
-<span data-ttu-id="e38ac-115">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="e38ac-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="f658e-115">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="f658e-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="e38ac-116">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="e38ac-116">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="f658e-116">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="f658e-116">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e38ac-117">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="e38ac-117">Local call charges apply</span></span>
+<span data-ttu-id="f658e-117">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="f658e-117">Local call charges apply</span></span>

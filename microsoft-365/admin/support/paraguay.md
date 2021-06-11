@@ -19,18 +19,18 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295562"
 ---
-# <a name="contact-support-for-paraguay"></a><span data-ttu-id="d979d-103">파라과이 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="d979d-103">Contact support for Paraguay</span></span>
+# <a name="contact-support-for-paraguay"></a><span data-ttu-id="aba87-103">파라과이 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="aba87-103">Contact support for Paraguay</span></span>
 
-<span data-ttu-id="d979d-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="d979d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="aba87-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="aba87-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="d979d-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="d979d-105">Phone number</span></span>
-<span data-ttu-id="d979d-106">009 800 441 0088</span><span class="sxs-lookup"><span data-stu-id="d979d-106">009 800 441 0088</span></span>
+## <a name="phone-number"></a><span data-ttu-id="aba87-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="aba87-105">Phone number</span></span>
+<span data-ttu-id="aba87-106">009 800 441 0088</span><span class="sxs-lookup"><span data-stu-id="aba87-106">009 800 441 0088</span></span>
 
-## <a name="hours"></a><span data-ttu-id="d979d-107">시간</span><span class="sxs-lookup"><span data-stu-id="d979d-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="d979d-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="d979d-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="aba87-107">시간</span><span class="sxs-lookup"><span data-stu-id="aba87-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="aba87-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="aba87-108">Billing Support:</span></span>
 
-<span data-ttu-id="d979d-109">스페인어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="d979d-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="aba87-109">스페인어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="aba87-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="d979d-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="d979d-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="aba87-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="aba87-110">Technical Support:</span></span>
 
-<span data-ttu-id="d979d-111">스페인어: 연 24시간, 주 7일</span><span class="sxs-lookup"><span data-stu-id="d979d-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="aba87-111">스페인어: 연 24시간, 주 7일</span><span class="sxs-lookup"><span data-stu-id="aba87-111">Spanish: 24 hours a day, 7 days a week</span></span>
