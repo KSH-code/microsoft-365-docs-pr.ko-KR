@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 95471f444117e1a44abe8de76c95cda52d5f7930
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3629df6dd88176f66ec6e0f1eeedb78771cc36ec
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842606"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879231"
 ---
 # <a name="microsoft-defender-for-office-365-in-microsoft-365-defender"></a>Microsoft Defender for Office 365 Defender Microsoft 365 Defender
 
@@ -78,7 +78,7 @@ Office 365 보안 및 준수 포털(protection.office.com)에 익숙한 경우 �
 |영역|변경 설명|
 |---|---|
 |[전자 메일 엔터티 페이지](../office-365-security/mdo-email-entity-page.md)|이 페이지는 여러 페이지나 보기에 흩어진 전자 메일 정보를 **통합** 합니다. 위협과 추세 조사가 *중앙화* 됩니다. 헤더 정보 및 전자 메일 미리 보기는 같은 전자 메일 페이지에서 다른 유용한 전자 메일 관련 정보와 함께 액세스할 수 있습니다. 마찬가지로 악성 파일 첨부 파일 또는 URL에 대한 데토네이션 상태는 같은 페이지의 탭에서 찾을 수 있습니다. 전자 메일 엔터티 페이지를 통해 관리자와 보안 운영 팀이 전자 메일 위협과 해당 상태를 빠르게 파악한 다음 처리를 신속하게 결정할 수 있습니다.|
-|[조사](../office-365-security/office-365-air.md#changes-are-coming-soon-in-your-security-center)|[Office 365용 Defender](/microsoft-365/security/office-365-security/defender-for-office-365) 및 [엔드포인트용 Defender](../defender-endpoint/automated-investigations.md)의 AIR 기능을 결합합니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀에서는 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.|
+|[조사](../office-365-security/office-365-air.md#changes-are-coming-soon-in-your-microsoft-365-defender-portal)|[Office 365용 Defender](/microsoft-365/security/office-365-security/defender-for-office-365) 및 [엔드포인트용 Defender](../defender-endpoint/automated-investigations.md)의 AIR 기능을 결합합니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀에서는 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.|
 |[경고 보기](../../compliance/alert-policies.md)|이제 **보안 및** 준수 센터의 경고 보기 플라이아웃 Office Defender에 대한 링크가 Microsoft 365 있습니다. 경고 페이지 **열기** 링크를 클릭하고 defender가 Microsoft 365 클릭합니다. 경고 큐에서 Office 365 경고를 클릭하여 **경고보기** 페이지에 액세스할 수 있습니다.|
 |[공격 시뮬레이션 교육](../office-365-security/attack-simulation-training-insights.md)|공격 시뮬레이션 교육을 사용하여 조직에서 현실적인 공격 시나리오를 실행합니다. 이렇게 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 인력을 교육하는 데 도움이 될 수 있습니다. 공격 시뮬레이션 교육에는 추가 옵션, 향상된 보고서 및 향상된 교육 흐름이 포함되어 공격 시뮬레이션 및 교육 시나리오를 더 쉽게 전달하고 관리할 수 있도록 지원합니다.|
 |

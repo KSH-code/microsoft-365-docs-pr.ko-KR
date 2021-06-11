@@ -114,7 +114,7 @@ Outlook 웹 Project Stream SharePoint Planner Microsoft Teams Yammer
 |:---|:---|:---|:---|:---|
 |Azure AD|멤버 자격, 그룹 컨트롤, 게스트|예|예|예|
 |Exchange|일정, 사서함|예|예|예|
-|양식|폼|예|아니요|아니요|
+|Forms|폼|예|아니요|아니요|
 |OneNote|전자 필기장|예|아니요|아니요|
 |Planner|작업 보드|아니요|예|예|
 |Power Apps 앱|앱|예|아니요|아니요|
@@ -236,7 +236,7 @@ Exchange Online, 일정, 연락처 및 관련 기능을 제공합니다. Group�
 
 예, Exchange 사서함을 삭제하면 그룹 및 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
 
-## <a name="forms"></a>양식
+## <a name="forms"></a>Forms
 
 양식은 웹 기반 설문 조사 및 퀴즈를 제공합니다.
 

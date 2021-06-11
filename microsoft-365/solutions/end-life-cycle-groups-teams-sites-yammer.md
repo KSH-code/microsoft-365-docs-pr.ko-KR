@@ -34,7 +34,7 @@ Microsoft 365 그룹 및 Microsoft Teams 연결된 여러 서비스에서 작업
 |서비스|콘텐츠 형식|
 |:------|:---------------|
 |Teams|채널 대화, 채널의 파일|
-|양식|설문 조사 구조 및 결과|
+|Forms|설문 조사 구조 및 결과|
 |OneNote|전자 필기장|
 |Outlook|메일 및 일정|
 |Planner|Project 및 작업 정보 표시|
@@ -107,7 +107,7 @@ Teams 콘텐츠는 주로 대화 형식입니다.
 - Stream에서 비디오를 업로드, 수정 및 삭제할 수 있습니다.
 - 흐름을 Power Automate, 수정, 삭제 및 계속 실행할 수 있습니다. 그러나 보관된 팀의 채널에 메시지를 게시해야 하는 경우 실패합니다.
 
-## <a name="forms"></a>양식
+## <a name="forms"></a>Forms
 
 폼을 개별 계정에서 그룹으로 이동할 수 있는 경우 한 그룹에서 다른 그룹으로 양식을 이동하거나 복사할 수 없습니다. 팀이 삭제될 때 양식에 사용할 수 있는 세 가지 옵션이 있습니다.
 
@@ -198,7 +198,7 @@ Power BI 및 작업 영역은 그룹 및 팀과 독립적으로 작동할 수 �
 
 대신 보고서를 더 이상 활성 상태일 필요는 없지만 데이터를 보존해야 하는 경우 에서 으로 [내보낼 수 Excel.](/power-bi/visuals/power-bi-visualization-export-data)
 
-## <a name="project"></a>프로젝트
+## <a name="project"></a>Project
 
 웹용 Project 프로젝트 및 로드맵은 Microsoft 365 그룹과 연결되어 있으며 오프보드(off-boarding)와 유사한 Power BI.
 

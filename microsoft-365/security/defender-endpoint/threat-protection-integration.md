@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8973a78787345532055161507e2d30f75b3b2cf1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: aeb6d93017f138ce898d25f7d76e05cdcf3e90c5
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844973"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878571"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>끝점용 Microsoft Defender 및 기타 Microsoft 솔루션
 
@@ -66,9 +66,9 @@ Microsoft Cloud App Security 끝점용 Microsoft Defender 끝점 신호를 활�
 비즈니스용 Skype 통합을 통해 분석가가 포털에서 간단한 단추를 통해 잠재적으로 손상된 사용자 또는 장치 소유자와 통신할 수 있습니다.
 
 ## <a name="microsoft-365-defender"></a>Microsoft 365 Defender
-Microsoft 365 Defender를 통해 엔드포인트용 Microsoft Defender 및 다양한 Microsoft 보안 솔루션은 엔드포인트, ID, 전자 메일 및 응용 프로그램 전반에 걸쳐 통합되는 통합 사전 및 사후 침해 엔터프라이즈 방어 제품군을 구성하여 정교한 공격을 감지, 방지, 조사 및 자동으로 대응합니다. 
+Microsoft 365 Defender, Endpoint용 Microsoft Defender 및 다양한 Microsoft 보안 솔루션은 엔드포인트, ID, 전자 메일 및 응용 프로그램 전반에 걸쳐 통합되는 통합 사전 및 사후 침해 엔터프라이즈 방어 제품군을 형성하여 정교한 공격을 감지, 방지, 조사 및 자동으로 대응합니다. 
  
-[Defender에 대한 Microsoft 365 자세히 알아보시고](/microsoft-365/security/defender/microsoft-threat-protection)
+[Defender에 대한 Microsoft 365 자세히 알아보시고](/microsoft-365/security/defender/microsoft-365-defender)
 
 
 ## <a name="related-topics"></a>관련 항목

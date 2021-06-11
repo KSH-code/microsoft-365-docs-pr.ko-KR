@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3bab9d0248a2ed8e83807f3c38215e653cba26eb
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 23a9b99a71d700bdeddb3398c592eeb778ceef23
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843557"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879267"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender
 
@@ -74,7 +74,7 @@ Endpoint용 Defender는 기본 제공된 다음과 같은 Windows 10 Microsoft�
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0] 
 
 > [!TIP]
-> - Endpoint용 Defender의 최신 향상된 기능: [끝점용 Microsoft Defender의 새로운 기능에 대해 자세히 알아보습니다.](https://cloudblogs.microsoft.com/microsoftsecure/2018/11/15/whats-new-in-windows-defender-atp/)
+> - Endpoint용 Defender의 최신 향상된 기능: [끝점용 Microsoft Defender의 새로운 기능에 대해 자세히 알아보습니다.](whats-new-in-microsoft-defender-atp.md)
 > - Endpoint용 Microsoft Defender는 최근 MITRE 평가에서 업계를 선도하는 광학 및 감지 기능을 입증했습니다. 읽기: [MITRE ATT의 인사이트&CK 기반 평가.](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)
 
 <a name="tvm"></a>

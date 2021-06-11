@@ -19,12 +19,12 @@ ms.collection:
 description: 보안 설정에 대한 EOP(Exchange Online Protection) 및 Defender에 대한 모범 Office 365 무엇입니까? 표준 보호를 위한 현재 권장 사항은 무엇입니까? 더 엄격하게 사용하려는 경우 어떻게 해야 하나요? 또한 2016년 8월에 Defender를 사용하는 경우 어떤 추가 Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f00e1e2356839e70acafb0f98a5424a1311082e7
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 6c126a777d50fae93efdc618a8ac474dcee7ed75
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793223"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878991"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Microsoft Defender 보안에 대한 Office 365 설정
 
@@ -44,7 +44,7 @@ ms.locfileid: "52793223"
 > [!NOTE]
 > 필터링이 제대로 작동하려면 사서함에서 정크 메일 규칙을 사용하도록 설정해야 합니다. 기본적으로 사용하도록 설정되어 있지만 필터링이 작동하지 않는지 확인해야 합니다. 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
 
-이 문서에서는 기본 설정과 사용자를 보호하는 데 도움이 되는 권장 표준 및 엄격한 설정에 대해 설명합니다. 표에는 Microsoft 365 사서함이 없는 조직을 위한 Microsoft 365 PowerShell 또는 Exchange Online PowerShell을 Exchange Online Protection PowerShell의 설정이 Exchange Online 있습니다.
+이 문서에서는 기본 설정과 사용자를 보호하는 데 도움이 되는 권장 표준 및 엄격한 설정에 대해 설명합니다. 표에는 Microsoft 365 사서함이 없는 조직을 위한 Exchange Online PowerShell 또는 독립 실행형 PowerShell Exchange Online Protection PowerShell용 Exchange Online 설정이 포함되어 있습니다.
 
 > [!TIP]
 > PowerShell에 Office 365 ORCA(Advanced Threat Protection 권장 구성 분석기) 모듈을 통해 이러한 설정의 현재 값을 찾을 수 있습니다. 특히 **Get-ORCAReport** cmdlet은 스팸 방지, 피싱 방지 및 기타 메시지 예방조치 설정에 대한 평가를 생성합니다. 에서 ORCA 모듈을 다운로드할 수 <https://www.powershellgallery.com/packages/ORCA/> 있습니다.
@@ -138,7 +138,7 @@ ms.locfileid: "52793223"
 
 |보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
-|**메시지가 맬웨어로 차단된 경우 받는 사람에게 알림** <p> _작업_|아니요. <p> _DeleteMessage_|아니요. <p> _DeleteMessage_|아니요. <p> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색된 경우 메시지는 검지되고 관리자만 릴리스할 수 있습니다.|
+|**메시지가 맬웨어로 차단된 경우 받는 사람에게 알림** <p> _작업_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색된 경우 메시지는 검지되고 관리자만 릴리스할 수 있습니다.|
 |**공통 첨부 파일 필터 사용** <p> _EnableFileFilter_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정은 첨부 파일 콘텐츠에 관계없이 파일 형식에 따라 실행 파일이 포함된 메시지를 검지합니다.|
 |**맬웨어에 대해 제로 아워 자동 제거 사용** <p> _ZapEnabled_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**메시지가 맬웨어로 검색된 경우 내부 보낸 사람에 알림** <p> _EnableInternalSenderNotifications_|사용 안 함 <p> `$false`|사용 안 함 <p> `$false`|사용 안 함 <p> `$false`||

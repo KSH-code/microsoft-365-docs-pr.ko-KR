@@ -19,16 +19,21 @@ description: Microsoft Defender for Office 365 계획의 자동화된 조사 및
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: f0c42bef1b090412a7a6422fe029323b645e90df
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 525f6cf922f80067219f6c33a2c11559e9e58a39
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275075"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878775"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>관리 센터에서 재구성 작업을 검토하고 Office 365
 
+**적용 대상**
+- [Office 365용 Microsoft Defender 플랜 2](defender-for-office-365.md)
+- [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+
 전자 메일에 대한 자동화된 조사가 & 공동 작업 콘텐츠로  인해 악성 또는 의심스러운 등의 결과가 생성되면 특정 수정 작업이 만들어집니다. Microsoft Defender for Office 365 수정 작업에는 다음이 포함됩니다.
+
 - URL 차단(클릭 시간)
 - 전자 메일 메시지 또는 클러스터 소프트 삭제
 - 전자 메일 또는 전자 메일 첨부 파일 Quarantining
@@ -36,13 +41,9 @@ ms.locfileid: "52275075"
 
 이러한 수정 작업은 보안 운영 팀이 승인하지 않는 한 수행되지 않습니다. 자동화된 조사가 제시간에 완료될 수 있도록 가능한 한 빨리 보류 중인 작업을 검토하고 승인하는 것이 좋습니다. 경우에 따라 수정 작업을 실행 취소할 수 있습니다.
 
-**적용 대상**
-- [Office 365용 Microsoft Defender 플랜 2](defender-for-office-365.md)
-- [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
-
 ## <a name="approve-or-reject-pending-actions"></a>보류 중인 작업 승인(또는 거부)
 
-1. 보안 Microsoft 365()로 이동하여 <https://security.microsoft.com> 로그인합니다.
+1. Defender Microsoft 365 ()로 이동하여 <https://security.microsoft.com> 로그인합니다.
 2. 탐색 창에서 작업 센터 **를 선택합니다.**
 3. 보류 **중인 탭에서** 승인을 대기 중인 작업 목록을 검토합니다.
 4. 목록에서 항목을 선택합니다. 플라이아웃 창이 열립니다. 

@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 036ef1c97788f310c5b906ae5f80076ca2359cdb
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 287bd9cd4dda6ccb152e93908a409e036eab9cc7
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275087"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878883"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화된 조사 및 응답 기능에서 가짓 긍정/부정을 보고하는 방법
 
@@ -68,17 +68,21 @@ Microsoft Defender에서 전자 메일 Office 365, 전자 메일 첨부 파일, 
 
 위협 탐색기를 사용하여 보안 운영 팀은 작업의 영향을 받는 전자 메일을 찾아 작업을 실행 취소할 수 있습니다.
 
+<br>
+
+****
+
 |시나리오|옵션 취소|자세히 알아보기|
 |---|---|---|
-|전자 메일 메시지가 사용자의 정크 메일 폴더로 라우팅되었습니다.|- 메시지를 사용자의 지우기 항목 폴더로 이동<br/>- 메시지를 사용자의 받은 편지함으로 이동<br/>- 메시지 삭제|[전자 메일에서 배달된 악성 전자 메일을 찾아 Office 365](investigate-malicious-email-that-was-delivered.md)|
-|전자 메일 메시지 또는 파일이 고지된 경우|- 전자 메일 또는 파일 해제<br/>- 전자 메일 또는 파일 삭제|[관리자로 quarantined messages 관리](manage-quarantined-messages-and-files.md)|
+|전자 메일 메시지가 사용자의 정크 메일 폴더로 라우팅되었습니다.|<ul><li>메시지를 사용자의 지우기 항목 폴더로 이동</li><li>메시지를 사용자의 받은 편지함으로 이동</li><li>메시지 삭제</li></ul>|[전자 메일에서 배달된 악성 전자 메일을 찾아 Office 365](investigate-malicious-email-that-was-delivered.md)|
+|전자 메일 메시지 또는 파일이 고지된 경우|<ul><li>전자 메일 또는 파일 릴리스</li><li> 전자 메일 또는 파일 삭제</li></ul>|[관리자로 quarantined messages 관리](manage-quarantined-messages-and-files.md)|
 |
 
 ### <a name="undo-an-action-in-the-action-center"></a>동작 센터에서 작업 실행 취소
 
 관리 센터에서 수행된 수정 작업을 보고 작업을 실행 취소할 수 있습니다.
 
-1. 보안 Microsoft 365()로 <https://security.microsoft.com> 이동하십시오.
+1. Defender Microsoft 365 ()로 <https://security.microsoft.com> 이동하십시오.
 2. 탐색 창에서 작업 센터 **를 선택합니다.**
 3. 완료된 **작업 목록을** 표시하려면 사용 기록 탭을 선택합니다.
 4. 항목을 선택합니다. 플라이아웃 창이 열립니다.

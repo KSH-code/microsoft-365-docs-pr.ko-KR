@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 공격 시뮬레이터를 사용하여 계획 2 조직용 Microsoft Defender 또는 Microsoft 365 E5 Microsoft Defender에서 시뮬레이션된 피싱 Office 365 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 73ad3501ed9818261c9fbec6ba12b4dc884da84f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 03e6c0077f13c85bfd20ac0583b64ce29e2535a1
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624828"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878679"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 공격 시뮬레이터를 Office 365
 
@@ -37,9 +37,9 @@ ms.locfileid: "52624828"
 
 > [!NOTE]
 >
-> 이 문서에 설명된 공격 시뮬레이터는 이제 읽기 전용으로, 보안  센터의 전자 메일 & 공동 작업 노드에서 공격 시뮬레이션 [Microsoft 365 대체했습니다.](https://security.microsoft.com)  자세한 내용은 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
+> 이 문서에 설명된 공격 시뮬레이터는 이제 읽기 전용으로, &  Defender 포털의 전자 메일 & 공동 작업 노드에서 공격 시뮬레이션 Microsoft 365  <https://security.microsoft.com> 대체했습니다. 자세한 내용은 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
 >
-> 이 버전의 공격 시뮬레이터에서 새 시뮬레이션을 시작 하는 기능을 사용할 수 없습니다. 그러나 2021년 1월 24일 이후 최대 90일 동안 보고서에 액세스할 수 있습니다.
+> 이 버전의 공격 시뮬레이터에서 새 시뮬레이션을 시작 하는 기능을 사용할 수 없습니다. 그러나 2021년 4월 24일까지는 보고서에 액세스할 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 

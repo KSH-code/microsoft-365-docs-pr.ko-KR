@@ -20,25 +20,27 @@ ms.custom:
 description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 계획 2 조직용 Microsoft Defender에서 시뮬레이션된 피싱 및 암호 Office 365 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c5d4b77204f207c31f2014df797f6209b92c9ccb
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 182d3d3c1d3b7c0c43caa8a809e993933707af00
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822337"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878787"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>공격의 신나는 교육 사용 시작
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-조직에 위협 Microsoft 365 E5 및 대응 기능이 포함된 Office 365 계획 2용 [](office-365-ti.md)Microsoft Defender 또는 Microsoft Defender가 있는 경우 Microsoft 보안 센터의 공격 시뮬레이션 교육을 사용하여 조직에서 실제 공격 시나리오를 실행할 수 있습니다. 이러한 시뮬레이션된 공격은 실제 공격이 아래쪽에 영향을 미치기 전에 취약한 사용자를 식별하고 찾는 데 도움이 될 수 있습니다. 자세한 내용은 이 문서를 읽어 보아야 합니다.
+**Microsoft** [Defender for Office 365 요금제 2에 적용](defender-for-office-365.md)
+
+조직에 위협 Microsoft 365 E5 및 대응 기능이 포함된 Office 365 Plan 2용 [](office-365-ti.md)Microsoft Defender 또는 Microsoft Defender가 있는 경우 Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육을 사용하여 조직에서 실제 공격 시나리오를 실행할 수 있습니다. 이러한 시뮬레이션된 공격은 실제 공격이 아래쪽에 영향을 미치기 전에 취약한 사용자를 식별하고 찾는 데 도움이 될 수 있습니다. 자세한 내용은 이 문서를 읽어 보아야 합니다.
 
 > [!NOTE]
 > 공격 시뮬레이션 교육은 Microsoft Defender for Office 365 공격 시뮬레이터에 설명된 이전 공격 시뮬레이터 v1 환경을 [Office 365.](attack-simulator.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- Microsoft 보안 센터를 열기 위해 로 이동 <https://security.microsoft.com> 합니다. 공격 시뮬레이션 교육은 전자 **메일** 및 공동 작업 공격 시뮬레이션 \> **교육에서 사용할 수 있습니다.** 공격 시뮬레이션 교육으로 직접 이동하기 위해 를 를 를 <https://security.microsoft.com/attacksimulator> 습니다.
+- Defender Microsoft 365 열기 위해 로 이동 <https://security.microsoft.com> 합니다. 공격 시뮬레이션 교육은 전자 **메일** 및 공동 작업 공격 시뮬레이션 \> **교육에서 사용할 수 있습니다.** 공격 시뮬레이션 교육으로 직접 이동하기 위해 를 를 를 <https://security.microsoft.com/attacksimulator> 습니다.
 
 - 여러 Microsoft 365 구독의 공격 시뮬레이션 교육 가용성에 대한 자세한 내용은 Microsoft [Defender for Office 365 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
@@ -52,7 +54,7 @@ ms.locfileid: "52822337"
 
 - 공격 시뮬레이션 및 교육 관련 데이터는 다른 고객 데이터와 함께 Microsoft 365 저장됩니다. 자세한 내용은 데이터 [Microsoft 365 참조하세요.](../../enterprise/o365-data-locations.md) 공격 시뮬레이션은 NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN 및 KOR 지역에서 사용할 수 있습니다.
 
-- 2021년 6월 15일 현재, 공격 시뮬레이션 교육은 GCC. 조직에서 정부용 G5 Office 365 GCC 또는 Microsoft Defender for Office 365(계획 2)가 있는 경우 이 문서에 설명된 바와 같이 Microsoft 보안 센터에서 공격 시뮬레이션 교육을 사용하여 조직의 실제 공격 시나리오를 실행할 수 있습니다. 공격 시뮬레이션 교육은 High 또는 DoD 환경에서는 GCC 없습니다.
+- 2021년 6월 15일 현재, 공격 시뮬레이션 교육은 GCC. 조직에서 정부용 G5 Office 365 GCC 또는 Microsoft Defender for Office 365(계획 2)를 사용하는 경우 Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육을 사용하여 이 문서에 설명된 바와 같이 조직에서 실제 공격 시나리오를 실행할 수 있습니다. 공격 시뮬레이션 교육은 High 또는 DoD 환경에서는 GCC 없습니다.
 
 > [!NOTE]
 > 공격 시뮬레이션 교육은 평가판으로 E3 고객에게 일부 기능을 제공합니다. 평가판 제품에는 자격 증명 수집 페이로드를 사용하는 능력과 'ISA 피싱' 또는 '대량 시장 피싱' 교육 환경을 선택하는 능력이 포함되어 있습니다. 다른 기능은 E3 평가판 제공에 참여하지는 합니다.

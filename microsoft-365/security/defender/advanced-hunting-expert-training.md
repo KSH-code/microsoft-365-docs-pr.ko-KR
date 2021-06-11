@@ -38,7 +38,7 @@ ms.locfileid: "52538858"
 
 새로운 보안 분석가와 경험 많은 위협 헌터를 위한 웹캐스트 시리즈인 사적 추적을 통해 고급 헌팅에 대한 지식을 빠르게 향상합니다. 시리즈는 복잡한 쿼리를 만드는 모든 방법을 기본으로 안내합니다. 기본 사항에 대한 첫 번째 비디오로 시작하거나 환경 수준에 맞는 고급 비디오로 이동하세요.
 
-| 제목 | 설명 | 감시 | 쿼리 | 
+| 제목 | 설명 | 시청 | 쿼리 | 
 |--|--|--|--|
 | 에피소드 1: KQL 기본 사항 | 이 에피소드는 Defender에서 고급 헌팅의 기본 Microsoft 365 다를 수 있습니다. 사용 가능한 고급 헌팅 데이터와 기본 KQL 구문 및 연산자에 대해 자세히 알아보습니다. | [](https://youtu.be/0D9TkGjeJwM?t=351) YouTube(54:14) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.txt) |
 | 에피소드 2: 참가 | 고급 헌팅의 데이터와 테이블을 함께 조인하는 방법에 대해 계속 학습합니다. , `inner` `outer` , `unique` 및 `semi` 조인에 대해 알아보고 기본 Kusto 조인의 미주를 `innerunique` 이해합니다. | [](https://youtu.be/LMrO6K5TWOU?t=297) YouTube(53:33) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.txt) |
@@ -48,7 +48,7 @@ ms.locfileid: "52538858"
 
 *L33TSP3AK를* 사용한 더 많은 전문 교육: Microsoft 365 Defender의 고급 헌팅은 Microsoft 365 Defender에서 고급 헌팅을 사용하여 보안 조사를 수행하기 위한 기술 지식 및 실용적인 기술을 확장하기 위한 분석가를 위한 웹캐스트 시리즈입니다. 
 
-| 제목 | 설명 | 감시 | 쿼리 | 
+| 제목 | 설명 | 시청 | 쿼리 | 
 |--|--|--|--|
 | 에피소드 1  | 이 에피소드에서는 고급 헌팅 쿼리를 실행하는 다양한 모범 사례를 배우게 됩니다. 이 항목 중에는 쿼리를 최적화하고, 랜섬웨어에 고급 헌팅을 사용하며, JSON을 동적 유형으로 처리하고, 외부 데이터 연산자를 사용하는 방법도 있습니다. | [](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) YouTube(56:34) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.txt) |
 | 에피소드 2 | 이 에피소드에서는 받은 편지함 전달 규칙을 통해 의심스러우거나 비정상적인 로그온 위치 및 데이터 유출을 조사하고 이에 대응하는 방법을 배우게 됩니다. 클라우드 보안 CxE의 선임 프로그램 관리자인 Sebastien Molendijk는 고급 헌팅을 사용하여 데이터로 다단계 인시던트를 조사하는 Microsoft Cloud App Security 공유합니다. | [](https://www.youtube.com/watch?v=QaUxdtNfbd8) YouTube(57:07) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/MCAS%20-%20The%20Hunt.txt)

@@ -19,7 +19,7 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 잠재적으로 위험하거나 원치 않는 메시지를 보유하는 EOP(Exchange Online Protection)의 검역에 대해 배울 수 있습니다.
+description: 관리자는 잠재적으로 위험하거나 원치 않는 메시지를 보유하는 EOP(Exchange Online Protection)에서 검사에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: b2a11f5f9e1e730a3b0cc09625ec8e8cb592d869
@@ -38,7 +38,7 @@ ms.locfileid: "52333809"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 잠재적으로 위험하거나 원치 않는 메시지를 보유할 수 있습니다.
+Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Exchange Online Protection) 조직에서 Exchange Online 조직에서는 잠재적으로 위험하거나 원치 않는 메시지를 보유할 수 있습니다.
 
 맬웨어 방지 정책은 첨부 파일이  맬웨어를 포함하는 것으로 확인된 경우 메시지를 자동으로 검지합니다. 자세한 내용은 EOP에서 맬웨어 [방지 정책 구성을 참조하세요.](configure-anti-malware-policies.md)
 

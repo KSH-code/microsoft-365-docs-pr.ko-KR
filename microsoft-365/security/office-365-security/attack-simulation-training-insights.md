@@ -10,20 +10,22 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 관리자는 보안 센터의 공격 시뮬레이션 교육이 직원에게 Microsoft 365 시뮬레이션 및 교육 결과를 통해 통찰력을 얻을 수 있는 방법을 배울 수 있습니다.
+description: 관리자는 Microsoft 365 Defender 포털의 공격 시뮬레이션 교육이 직원에게 어떤 영향을 주는지 알아보고 시뮬레이션 및 교육 결과를 통해 통찰력을 얻을 수 있습니다.
 ms.technology: mdo
-ms.openlocfilehash: 0fcb88406558f73b587d8452375c33dbbec1c78b
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: e189864a42d025bb5ce720a6edb6c1c2c8c84623
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51600010"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878379"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 교육 활용
 
+**Microsoft** [Defender for Office 365 요금제 2에 적용](defender-for-office-365.md)
+
 공격 시뮬레이션 교육 내에서 Microsoft는 직원이 진행한 시뮬레이션 및 교육 결과를 기반으로 하는 인사이트를 제공합니다. 이러한 인사이트를 통해 직원의 위협 준비 진행 상황을 계속 파악하고 다음 단계를 권장하여 직원과 환경을 공격에 대비할 수 있습니다.
 
-당사는 사용할 수 있는 인사이트를 확장하기 위해 지속적으로 작업하고 있습니다. 동작 영향 및 권장 작업은 현재 사용할 수 있습니다. 시작을 위해 보안 센터의 공격 시뮬레이션 [Microsoft 365 진행합니다.](https://security.microsoft.com/attacksimulator?viewid=overview)
+당사는 사용할 수 있는 인사이트를 확장하기 위해 지속적으로 작업하고 있습니다. 동작 영향 및 권장 작업은 현재 사용할 수 있습니다. 시작을 위해 Microsoft 365 Defender 포털에서 공격 시뮬레이션 [교육을 진행합니다.](https://security.microsoft.com/attacksimulator?viewid=overview)
 
 ## <a name="behavior-impact-on-compromise-rate"></a>손상율에 대한 동작 영향
 

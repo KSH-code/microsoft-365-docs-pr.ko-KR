@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365를 사용하여 안전한 공동 작업 설정
+title: Microsoft 365와 안전한 협업 설정
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars

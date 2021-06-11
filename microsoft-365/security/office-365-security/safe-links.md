@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서 관리자는 피싱 및 악의적인 URL을 사용하는 Office 365 공격으로부터 조직을 보호하기 위해 Defender의 안전한 링크 보호에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d42d7563b5267f805756125d1764d506f1700e13
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 406450752085817cb49e3cf08a90c0087af3d94b
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793031"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879291"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 안전한 Office 365
 
@@ -220,7 +220,7 @@ Office 365 앱의 안전한 링크 보호는 전자 메일 메시지의 링크�
 
 - **사용자가 원래 URL에** 대한 안전한 링크를 클릭할 수 있도록 허용 [](#warning-pages-from-safe-links) 안 하세요. 사용자가 경고 페이지를 클릭하여 데스크톱 버전의 Word, Excel, PowerPoint 및 원본 URL로 이동하지 못하게 Visio. 기본값 및 권장 값은 **On입니다.**
 
-앱의 안전한 링크 설정을 Office 365 앱에 대해 안전한 링크 [보호 구성을 Office 365 참조하세요.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security-center)
+앱의 안전한 링크 설정을 Office 365 앱에 대해 안전한 링크 [보호 구성을 Office 365 참조하세요.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal)
 
 표준 및 엄격한 정책 설정의 권장 값에 대한 자세한 내용은 안전 링크에 대한 전역 [설정을 참조하세요.](recommended-settings-for-eop-and-office365.md#global-settings-for-safe-links)
 
@@ -257,7 +257,7 @@ Office 365 앱의 안전한 링크 보호는 전자 메일 메시지의 링크�
 
 활성 안전 링크 정책의 사용자가 지원되는 앱에서 차단된 링크를 클릭하면 차단된 [URL](#blocked-url-warning) 경고 페이지로 이동됩니다.
 
-안전한 링크에 대한 전역 설정에서 URL 목록을 구성합니다. 자세한 내용은 [Configure the "Block the following URLs" list을 참조하십시오.](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security-center)
+안전한 링크에 대한 전역 설정에서 URL 목록을 구성합니다. 자세한 내용은 [Configure the "Block the following URLs" list을 참조하십시오.](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal)
 
 **참고:**
 

@@ -19,12 +19,12 @@ ms.collection:
 description: Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04e3d76271e95d36d73dd473076029cb60c06900
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: ba619c5341913190bfb84dbc34b938deee8f42ca
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779472"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879135"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "52779472"
 **적용 대상**
 - [Office 365용 Microsoft Defender 플랜 2](defender-for-office-365.md)
 
-캠페인 보기는 Microsoft Defender for Office 365 계획 2의 기능입니다(예: Microsoft 365 E5 요금제 2 추가 기능에 대한 Defender가 Office 365 조직). 보안 센터의 캠페인 Microsoft 365 서비스에서 피싱 공격을 식별하고 분류합니다. 캠페인 보기를 통해 다음을 수행할 수 있습니다.
+캠페인 보기는 Microsoft Defender for Office 365 계획 2의 기능입니다(예: Microsoft 365 E5 요금제 2 추가 기능에 대한 Defender가 Office 365 조직). Microsoft 365 Defender 포털의 캠페인 보기는 서비스에서 피싱 공격을 식별하고 분류합니다. 캠페인 보기를 통해 다음을 수행할 수 있습니다.
 
 - 피싱 공격을 효과적으로 조사하고 이에 대처합니다.
 - 공격의 범위를 더 잘 이해 합니다.
@@ -54,11 +54,11 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 
 캠페인은 수명이 짧거나 활성 및 비활성 기간이 있는 며칠, 몇 주 또는 몇 달에 걸쳐 있을 수 있습니다. 특정 조직에 대해 캠페인이 시작되거나 조직이 여러 회사에서 대규모 캠페인에 참여할 수 있습니다.
 
-## <a name="campaign-views-in-the-security-center"></a>보안 센터의 캠페인 보기
+## <a name="campaign-views-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 캠페인 보기
 
-캠페인 보기는 전자 [메일](https://security.microsoft.com) Microsoft 365 공동  작업 캠페인의 & 또는 에서 직접 사용할 수 \>  <https://security.microsoft.com/campaigns> 있습니다.
+캠페인 보기는 에서 Microsoft 365 Defender 포털( ) 또는 전자 메일 & 캠페인에서 사용할 수 있습니다. 또는 에서 직접 사용할 수 <https://security.microsoft.com>  \>  <https://security.microsoft.com/campaigns> 있습니다.
 
-![보안 센터의 캠페인 Microsoft 365 개요](../../media/campaigns-overview.png)
+![Microsoft 365 Defender 포털의 캠페인 개요](../../media/campaigns-overview.png)
 
 다음에서 캠페인 보기를 볼 수 있습니다.
 
@@ -67,7 +67,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 - **전자 메일 & 공동 작업** \> **탐색기** \> **보기** \> **피싱** \> **캠페인** 탭
 - **전자 메일 & 공동 작업** \> **탐색기** \> **보기** \> **맬웨어** \> **캠페인** 탭
 
-캠페인 보기에 액세스하려면 보안 센터에서 조직 **관리,** 보안  관리자 또는 보안 읽기 권한자 역할 그룹의 구성원이면 됩니다.  자세한 내용은 Microsoft 365 및 보안 센터의 사용 [Microsoft 365 참조하세요.](permissions-microsoft-365-security-center.md)
+캠페인 보기에 액세스하려면 Microsoft 365 Defender 포털에서 조직 관리,  보안 관리자 또는 보안 읽기 권한자 역할 그룹의 구성원 Microsoft 365 합니다.  자세한 내용은 [Defender 포털의 Microsoft 365 참조하세요.](permissions-microsoft-365-security-center.md)
 
 ## <a name="campaigns-overview"></a>캠페인 개요
 

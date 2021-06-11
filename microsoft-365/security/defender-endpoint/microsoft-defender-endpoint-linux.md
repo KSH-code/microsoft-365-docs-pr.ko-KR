@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bd9d42ed85e9a489107a72ccbe841537a7e524d4
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4175d3bedff86dc7f8cdafc1ff2366ca1c9cffc4
+ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843521"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52893743"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
@@ -43,7 +43,7 @@ ms.locfileid: "52843521"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 설치하는 방법
 
-### <a name="prerequisites"></a>필수 구성 요소
+### <a name="prerequisites"></a>전제 조건
 
 - 검색 포털에 Microsoft Defender 보안 센터 액세스
 - 시스템 [관리자를](https://systemd.io/) 사용하여 Linux 배포
@@ -101,7 +101,9 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 
 - /opt/microsoft/mdatp/sbin/wdavdaemon에는 실행 권한이 필요합니다. 자세한 내용은 Linux의 끝점용 Microsoft Defender 설치 문제 해결에서 "디먼이 실행 가능한 권한을 가지는지 [확인"을 참조하세요.](/microsoft-365/security/defender-endpoint/linux-support-install)
 
-- 메모리: 1GB
+- 코어: 최소 2개, 기본 설정 4개
+
+- 메모리: 최소 1GB, 기본 설정 4개
 
     > [!NOTE]
     > /var에 디스크 공간이 있는지 확인하시기 바랍니다.

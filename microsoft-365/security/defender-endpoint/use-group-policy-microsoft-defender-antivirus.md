@@ -60,9 +60,9 @@ ms.locfileid: "52302103"
 | 위치 | 설정 | 문서 |
 |:---|:---|:---|
 | 클라이언트 인터페이스 | 헤드리스 UI 모드 사용 | [사용자가 사용자 인터페이스를 보거나 상호 작용하지 Microsoft Defender 바이러스 백신 방지](prevent-end-user-interaction-microsoft-defender-antivirus.md) |
-| 클라이언트 인터페이스 | 작업을 수행해야 하는 경우 클라이언트에 추가 텍스트 표시 | [끝점에 나타나는 알림 구성](configure-notifications-microsoft-defender-antivirus.md) |
-| 클라이언트 인터페이스 | 모든 알림 표시 안 | [끝점에 나타나는 알림 구성](configure-notifications-microsoft-defender-antivirus.md) |
-| 클라이언트 인터페이스 | 재부팅 알림을 표시하지 않습니다. | [끝점에 나타나는 알림 구성](configure-notifications-microsoft-defender-antivirus.md) |
+| 클라이언트 인터페이스 | 작업을 수행해야 하는 경우 클라이언트에 추가 텍스트 표시 | [엔드포인트에 표시되는 알림 구성](configure-notifications-microsoft-defender-antivirus.md) |
+| 클라이언트 인터페이스 | 모든 알림 표시 안 | [엔드포인트에 표시되는 알림 구성](configure-notifications-microsoft-defender-antivirus.md) |
+| 클라이언트 인터페이스 | 재부팅 알림을 표시하지 않습니다. | [엔드포인트에 표시되는 알림 구성](configure-notifications-microsoft-defender-antivirus.md) |
 | 제외 | 확장 제외 | [검사에서 제외 구성 Microsoft Defender 바이러스 백신 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md) |
 | 제외 | 경로 제외 | [검사에서 제외 구성 Microsoft Defender 바이러스 백신 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md) |
 | 제외 | 프로세스 제외 | [검사에서 제외 구성 Microsoft Defender 바이러스 백신 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md) | 
@@ -94,7 +94,7 @@ ms.locfileid: "52302103"
 | 수정 | 재구성 완료를 위해 예약된 전체 검색을 실행하도록 하루 중 시간의 로컬 설정 재지정 구성 | [사용자가 정책 설정을 로컬로 수정하지 못하도록 차단 또는 허용](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | 수정 | 재구성 완료를 위해 예약된 전체 검사 실행을 위해 주중 날짜 지정 | [예약된 Microsoft Defender 바이러스 백신 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | 수정 | 재구성 완료를 위해 예약된 전체 검사 실행 시간을 지정합니다. | [예약된 Microsoft Defender 바이러스 백신 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
-| 보고 | 향상된 알림 끄기 | [끝점에 나타나는 알림 구성](configure-notifications-microsoft-defender-antivirus.md)
+| 보고 | 향상된 알림 끄기 | [엔드포인트에 표시되는 알림 구성](configure-notifications-microsoft-defender-antivirus.md)
 | 루트 | 끄기 Microsoft Defender 바이러스 백신 | 사용되지 않습니다(설치된 타사  바이러스 백신 앱이 올바르게 작동하도록 이 설정을 구성되지 않도록 설정해야 합니다.
 | 루트 | 프록시 서버를 무시할 주소 정의 | 사용되지 않음 |
 | 루트 | 네트워크에 연결하기 위한 프록시 자동 구성(.pac) 정의 | 사용되지 않음 |

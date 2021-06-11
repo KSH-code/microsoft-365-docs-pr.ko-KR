@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 센터에서 정책에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: deb29b768c136c9c952d2abe791b310f2fd1dbdd
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 75e767b0ea5ebe4940af5ee0fbfa85f858f65e9c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878247"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538709"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -38,9 +38,6 @@ ms.locfileid: "52878247"
 이 토픽에서 [인식해야 할 잠재적인 유효성 검사 문제](#potential-validation-issues-to-be-aware-of)를 참조하세요.
 
 텍스트 처리에 사용되는 Boost.RegEx(이전에는 RegEx++라고 함) 엔진에 대한 자세한 내용은 [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/)을 참조하세요.
-
-> [!NOTE]
-> 사용자 지정 중요한 정보 유형에서 키워드의 일부로 앰퍼and 문자(&)를 사용하는 경우 알려진 문제가 있습니다. 문자가 올바르게 식별되었는지 확인하려면 문자 주위에 공백이 있는 추가 용어를 추가해야 합니다(예: L & P _&_ P).
 
 ## <a name="sample-xml-of-a-rule-package"></a>규칙 패키지의 샘플 XML
 

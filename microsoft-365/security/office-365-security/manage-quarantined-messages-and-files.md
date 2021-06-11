@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(전자 메일 그룹)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 Exchange Online Protection 있습니다. Microsoft Defender for Office 365 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 파일에서 비즈니스용 OneDrive 관리할 Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7b484cc3a8462115b5151b34ba93ba0c041e16b4
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 01d5011248d1c0fc0daab0d04e1cca39e26e34bd
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822301"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878895"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -41,11 +41,11 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 Microsoft Defender for Office 365 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 파일에서 분리된 파일을 보고 다운로드하고 삭제할 Microsoft Teams.
 
-Microsoft 365 보안 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직의 경우 Exchange Online PowerShell, 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 Exchange Online 메시지를 보고 관리합니다.
+Microsoft 365 Defender 포털 또는 PowerSh Exchange Online ell(Microsoft 365 사서함이 있는 Microsoft 365 조직의 경우 Exchange Online, 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 Exchange Online 메시지를 보고 관리합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 보안 센터를 열기 위해 로 이동 <https://security.microsoft.com> 합니다. 격리 페이지를 바로 열려면 <https://security.microsoft.com/quarantine>으로 이동하세요.
+- Defender Microsoft 365 열기 위해 로 이동 <https://security.microsoft.com> 합니다. 격리 페이지를 바로 열려면 <https://security.microsoft.com/quarantine>(으)로 이동합니다.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -68,11 +68,11 @@ Microsoft 365 보안 센터 또는 PowerShell(Exchange Online 사서함이 있�
 
   메시지가 검지에서 만료되면 복구할 수 없습니다.
 
-## <a name="use-the-security-center-to-manage-quarantined-email-messages"></a>보안 센터를 사용하여 고지된 전자 메일 메시지 관리
+## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-email-messages"></a>Defender Microsoft 365 사용하여 고지된 전자 메일 메시지 관리
 
 ### <a name="view-quarantined-email"></a>quarantined email 보기
 
-1. 보안 센터에서 전자 메일 및 공동 작업 **&** \>  \> **검토로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 전자 메일 & **검토** \>  \> **으로 이동하세요.**
 
 2. **Quarantine** 페이지에서 **View quarantined가** 기본값 전자 메일로 설정되어 있는지 **확인하십시오.**
 
@@ -195,7 +195,7 @@ Microsoft 365 보안 센터 또는 PowerShell(Exchange Online 사서함이 있�
 
 작업을 마쳤으면 **닫기** 를 클릭합니다.
 
-## <a name="use-the-security-center-to-manage-quarantined-files-in-defender-for-office-365"></a>보안 센터를 사용하여 2016년 8월에 대한 Defender에서 quarantined Office 365
+## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365"></a>Microsoft 365 Defender 포털을 사용하여 2016년 10월에 대한 Defender에서 quarantined files를 Office 365
 
 > [!NOTE]
 > 이 섹션의 quarantined files에 대한 절차는 Microsoft Defender for Office 365 Plan 1 및 Plan 2 구독자만 사용할 수 있습니다.
@@ -204,7 +204,7 @@ Defender for Office 365 조직에서 관리자는 SharePoint Online, 비즈니�
 
 ### <a name="view-quarantined-files"></a>quarantined files(Quarantined Files 보기)
 
-1. 보안 센터에서 전자 메일 및 공동 작업 **&** \>  \> **검토로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 전자 메일 & **검토** \>  \> **으로 이동하세요.**
 
 2. **Quarantine** 페이지에서 값 **파일로 quarantined 보기를** **변경합니다.** 사용 가능한 열 헤더를 클릭하여 필드를 정렬할 수 있습니다.
 

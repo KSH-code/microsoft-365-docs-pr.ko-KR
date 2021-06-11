@@ -17,12 +17,12 @@ ms.custom: ''
 description: 관리자는 EOP(Exchange Online Protection)의 고급 배달 정책을 사용하여 지원되는 특정 시나리오(타사 피싱 시뮬레이션 및 SecOps(보안 작업) 사서함으로 배달된 메시지)에서 필터링하지 말아야 하는 메시지를 식별하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a9c1c6f7635b87e25adcb121db79f67d4ec1988f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: deaad11b6397cd53017c0972a624b67a9623887f
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789002"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879111"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>사용자에 대한 타사 피싱 시뮬레이션 및 필터되지 않은 메시지의 SecOps 사서함 배달 구성
 
@@ -60,22 +60,22 @@ ms.locfileid: "52789002"
 - [끝점용 Microsoft Defender의 고급 헌팅](../defender-endpoint/advanced-hunting-overview.md)
 - [캠페인 보기](campaigns.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- <https://security.microsoft.com>에서 보안 센터를 엽니다. 고급 배달 페이지로 직접 **이동하기 위해** 를 를 니다. <https://security.microsoft.com/advanceddelivery>
+- 에서 Microsoft 365 Defender 포털을 열 수 <https://security.microsoft.com> 있습니다. 고급 배달 페이지로 직접 **이동하기 위해** 를 를 니다. <https://security.microsoft.com/advanceddelivery>
 
 - 이 문서의 절차를 수행하려면 먼저 사용 권한을 할당해야 합니다.
-  - 고급 배달 정책에서 구성된 설정을 만들거나 수정하거나 제거하려면 보안 센터에서 **보안** 관리자 역할  **그룹의** 구성원이자  조직 관리 역할 그룹의 구성원인 Exchange Online.  
+  - 고급 배달 정책에서 구성된 설정을 만들거나 수정하거나 제거하려면 **Microsoft 365 Defender** 포털에서 보안 관리자 역할 그룹의 구성원이자 **Exchange Online.**    
   - 고급 배달 정책에 대한 읽기 전용 액세스 권한을 사용하려면  전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 해야 합니다.
 
-  자세한 내용은 Microsoft 365 [보안](permissions-microsoft-365-security-center.md) 센터의 사용 권한 및 [Exchange Online.](/exchange/permissions-exo/permissions-exo)
+  자세한 내용은 Microsoft 365 [Defender 포털의](permissions-microsoft-365-security-center.md) 사용 권한 및 [Exchange Online.](/exchange/permissions-exo/permissions-exo)
 
   > [!NOTE]
-  > 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 센터에서 필요한  사용 권한과 보안 센터의 다른 기능에 대한 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  > 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 Microsoft 365 Defender 포털에서 필요한 사용  권한과 해당 역할의 다른 기능에 대한 사용 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
-## <a name="use-the-security-center-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>보안 센터를 사용하여 고급 배달 정책에서 SecOps 사서함 구성
+## <a name="use-the-microsoft-365-defender-portal-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Microsoft 365 Defender 포털을 사용하여 고급 배달 정책에서 SecOps 사서함 구성
 
-1. 보안 센터에서 전자 메일 & **공동** 작업 정책 & 규칙 규칙 \>  \>  \>  섹션 \> **고급 배달로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 & **정책** & 규칙 위협 정책 규칙 섹션 \>  \>  \>  \> **고급 배달으로 이동하세요.**
 
 2. 고급 배달 **페이지에서** **SecOps** 사서함 탭이 선택되어 있는지 확인한 후 다음 단계 중 하나를 수행합니다.
    - 편집 ![ 아이콘 편집 ](../../media/m365-cc-sc-edit-icon.png) **을 클릭합니다.**
@@ -93,9 +93,9 @@ ms.locfileid: "52789002"
 
 구성한 SecOps 사서함 항목이 **SecOps** 사서함 탭에 표시됩니다. 변경하려면 탭에서 ![ 편집 아이콘 ](../../media/m365-cc-sc-edit-icon.png) **편집을** 클릭합니다.
 
-## <a name="use-the-security-center-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>보안 센터를 사용하여 고급 배달 정책에서 타사 피싱 시뮬레이션 구성
+## <a name="use-the-microsoft-365-defender-portal-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Microsoft 365 Defender 포털을 사용하여 고급 배달 정책에서 타사 피싱 시뮬레이션 구성
 
-1. 보안 센터에서 전자 메일 & **공동** 작업 정책 & 규칙 규칙 \>  \>  \>  섹션 \> **고급 배달로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 & **정책** & 규칙 위협 정책 규칙 섹션 \>  \>  \>  \> **고급 배달으로 이동하세요.**
 
 2. 고급 배달 **페이지에서** 피싱  시뮬레이션 탭을 선택하고 다음 단계 중 하나를 수행합니다.
    - 편집 ![ 아이콘 편집 ](../../media/m365-cc-sc-edit-icon.png) **을 클릭합니다.**

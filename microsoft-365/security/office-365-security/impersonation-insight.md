@@ -19,12 +19,12 @@ description: 관리자는 가장 인사이트의 작동 방식에 대해 배울 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b539cc50d3cf6ad637a749faa9d2cb5b2033b81
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: e1b99590d7ae96ad8371eb2a2fab5fb7e8f94d07
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821331"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879039"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Defender for Office 365
 
@@ -46,27 +46,27 @@ ms.locfileid: "52821331"
 
 가장 보호는 Microsoft Defender에서만 사용할 수 있는 피싱 방지 정책 설정의 Office 365. 이러한 설정에 대한 자세한 내용은 Microsoft Defender for Office 365 피싱 방지 정책의 가장 [설정을 Office 365.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
-Microsoft 365 보안 센터의 가장 정보를 사용하여 가장 보호를 위해 구성한 가장된 보낸 사람 또는 보낸 사람 도메인의 메시지를 빠르게 식별할 수 있습니다.
+Microsoft 365 Defender 포털에서 가장 정보를 사용하여 가장 보호를 위해 구성한 가장된 보낸 사람 또는 보낸 사람 도메인의 메시지를 빠르게 식별할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- <https://security.microsoft.com>에서 보안 센터를 엽니다. 피싱 방지 페이지에서 가장 인사이트로 직접 이동하기 위해 를  사용하세요. <https://security.microsoft.com/antiphishing> 가장 인사이트 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/impersonationinsight> 사용하세요.
+- 에서 Microsoft 365 Defender 포털을 열 수 <https://security.microsoft.com> 있습니다. 피싱 방지 페이지에서 가장 인사이트로 직접 이동하기 위해 를  사용하세요. <https://security.microsoft.com/antiphishing> 가장 인사이트 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/impersonationinsight> 사용하세요.
 
-- 이 문서의 절차를 수행하려면 먼저 보안 센터에서 사용 권한을 할당해야 합니다.
+- 이 문서의 절차를 수행하려면 Microsoft 365 Defender 포털에서 사용 권한을 할당해야 합니다.
   - **조직 관리**
   - **보안 관리자**
   - **보안 읽기 권한자**
   - **전역 읽기 권한자**
 
-  자세한 내용은 보안 센터의 [사용 권한을 참조하세요.](permissions-in-the-security-and-compliance-center.md)
+  자세한 내용은 [Defender 포털의 Microsoft 365 참조하세요.](permissions-in-the-security-and-compliance-center.md)
 
-  **참고:** Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 센터에서  필요한 사용 권한과 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  **참고:** Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 Defender 포털에서 필요한 사용 권한과 Microsoft 365.  자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 - Microsoft Defender에서 피싱 방지 정책에서 가장 보호를 사용하도록 설정하고 구성할 수 Office 365. 가장 보호는 기본적으로 사용하도록 설정되어 있지 않습니다. 자세한 내용은 [Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 Office 365.
 
-## <a name="open-the-impersonation-insight-in-the-security-center"></a>보안 센터에서 가장 정보 열기
+## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 가장 Microsoft 365 열기
 
-1. 보안 센터에서 전자 메일 **&** 정책 및 규칙 위협 정책 & 피싱 방지 \>  \>  \>  \> **섹션으로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책& 규칙 위협 정책 섹션으로 이동하여 피싱 방지 \>  \>  \>  \> **를 참조하세요.**
 
 2. 피싱 **방지** 페이지에서 가장 인사이트는 다음과 같이 표시됩니다.
 

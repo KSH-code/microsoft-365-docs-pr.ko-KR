@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 06/04/2021
+ms.date: 06/10/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: fdca059633ab0993e07b5b1be0c6f33cfe327fcf
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 3ee37d7220527c9032b630e02258c684b6c860b3
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789174"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878811"
 ---
 # <a name="configure-and-run-on-demand-microsoft-defender-antivirus-scans"></a>요청 기반 Microsoft Defender 바이러스 백신 검사 구성 및 실행
 
@@ -29,28 +29,22 @@ ms.locfileid: "52789174"
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-개별 끝점에서 필요한 경우 검색을 실행할 수 있습니다. 이러한 검사는 즉시 시작하며 위치 또는 유형과 같은 검사에 대한 매개 변수를 정의할 수 있습니다.
+개별 끝점에서 필요한 경우 검색을 실행할 수 있습니다. 이러한 검사는 즉시 시작하며 위치 또는 유형과 같은 검사에 대한 매개 변수를 정의할 수 있습니다. 검색을 실행할 때 빠른 검사, 전체 검사 및 사용자 지정 검사의 세 가지 유형 중에서 선택할 수 있습니다. 대부분의 경우 빠른 검색을 사용 합니다. 빠른 검사는 레지스트리 키 및 알려진 시작 폴더와 같이 시스템으로 시작하기 위해 등록된 맬웨어가 있을 수 있는 모든 Windows 검색합니다. 
 
-## <a name="quick-scan-versus-full-scan"></a>빠른 검사와 전체 검사
-
-빠른 검사는 레지스트리 키 및 알려진 시작 폴더와 같이 시스템으로 시작하기 위해 등록된 맬웨어가 있을 수 있는 Windows 검색합니다.
+파일을 열고 닫을 때 그리고 사용자가 폴더를 탐색할 때마다 파일을 검토하는 실시간 보호와 함께 빠른 검사가 시스템 및 커널 수준 맬웨어로 시작되는 맬웨어를 강력한 보호하는 데 도움이 됩니다. 대부분의 경우 빠른 검사만으로 충분하며 예약된 검사 또는 요구 시 검사에 권장되는 옵션입니다.  [검사 유형에 대해 자세히 알아보시다.](schedule-antivirus-scans.md#quick-scan-full-scan-and-custom-scan)
 
 > [!IMPORTANT]
 > Microsoft Defender 바이러스 백신 로컬 검색을 수행할 때 [LocalSystem](/windows/win32/services/localsystem-account) 계정의 컨텍스트에서 실행됩니다. 네트워크 검사의 경우 디바이스 계정의 컨텍스트를 사용합니다. 도메인 장치 계정에 공유에 액세스할 수 있는 적절한 권한이 없는 경우 검사가 작동하지 않습니다. 디바이스에 액세스 네트워크 공유에 대한 사용 권한이 있는지 확인합니다.
 
-항상 [실시간 보호](configure-real-time-protection-microsoft-defender-antivirus.md)기능과 결합된 빠른 검사는 시스템으로 시작되는 맬웨어와 커널 수준 맬웨어에 대해 강력한 범위를 제공합니다. 항상 실시간 보호는 파일을 열고 닫을 때, 그리고 사용자가 폴더로 이동할 때마다 파일을 검토합니다. 기본적으로 빠른 검사는 USB 드라이브와 같은 탑재된 이동식 장치에서 실행됩니다. 대부분의 경우 빠른 검사는 실시간 보호로 선택되지 않은 맬웨어를 찾는 데 적합합니다.
-
-전체 검사는 끝점에서 맬웨어 위협이 보고될 때 유용할 수 있습니다. 검사는 보다 철저한 정리가 필요한 비활성 구성 요소가 있는지 여부를 식별할 수 있습니다. 그러나 Microsoft는 일반적으로 전체 검사 대신 빠른 검색을 사용하는 것이 좋습니다. 전체 검사는 검사해야 하는 데이터의 양과 유형에 따라 완료하는 데 몇 시간 또는 며칠이 걸릴 수 있습니다. 
-
-> [!TIP]
-> 빠른 검사와 전체 검사의 차이점에 대한 자세한 내용은 빠른 검사와 전체 검사 및 사용자 지정 검사 를 [참조합니다.](scheduled-catch-up-scans-microsoft-defender-antivirus.md#quick-scan-versus-full-scan-and-custom-scan)
-
 ## <a name="use-microsoft-endpoint-manager-to-run-a-scan"></a>검색 Microsoft Endpoint Manager 실행
 
 1. Microsoft Endpoint Manager 관리 센터()로 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 이동하여 로그인합니다.
+
 2. 끝점 **보안 바이러스 백신**  >  **을 선택 합니다.**
+
 3. 탭 목록에서 Windows 10 **끝점을 선택합니다.**
-4. 제공된 작업 목록에서 빠른 검사 또는 **전체** 검사 **를 선택합니다.**
+
+4. 제공된 작업 목록에서  빠른 검사(권장) 또는 전체 검사 **를 선택합니다.**
 
 [![이미지 ](images/mem-antivirus-scan-on-demand.png)](images/mem-antivirus-scan-on-demand.png#lightbox)
 
@@ -70,8 +64,10 @@ mpcmdrun.exe -scan -scantype 1
 ## <a name="use-microsoft-intune-to-run-a-scan"></a>검색 Microsoft Intune 사용하여 검사 실행
 
 1. Microsoft Endpoint Manager 관리 센터()로 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 이동하여 로그인합니다.
-2. 사이드바에서 장치 > **디바이스를 선택하고** 스캔할 장치를 선택합니다.
-3. **...를 선택합니다. 추가 .** 옵션에서 빠른 검사 **또는 전체** 검사 **를 선택합니다.**
+
+2. 사이드바에서 장치 **모든** 장치를 선택하고 스캔할  >   장치를 선택합니다.
+
+3. **...를 선택합니다. 추가 .** 옵션에서 빠른  검사(권장) 또는 전체 **검사 를 선택합니다.**
 
 ## <a name="use-the-windows-security-app-to-run-a-scan"></a>앱 Windows 보안 사용하여 검사 실행
 
@@ -93,8 +89,3 @@ PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 Micro
 
 허용되는 매개 변수에 대한 자세한 내용은 [WMIv2](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal) API Windows Defender 참조하세요.
 
-## <a name="related-articles"></a>관련 문서
-
-- [Microsoft Defender 바이러스 백신 검사 옵션 구성](configure-advanced-scan-types-microsoft-defender-antivirus.md)
-- [예약된 Microsoft Defender 바이러스 백신 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
-- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
