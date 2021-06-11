@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Microsoft Defender for Office 365 E5 및 P1 및 P2 고객은 이제 전자 메일 엔터티 페이지가 있는 각 전자 메일을 360도로 볼 수 있습니다.
-ms.openlocfilehash: aa5d7effb66c4805f6983fa1afac19255bc996e4
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: c45b45101c27e92dd0fa8776ca5d8ee9eb3af5b7
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539098"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878463"
 ---
 # <a name="the-email-entity-page"></a>전자 메일 엔터티 페이지
 
@@ -34,12 +34,17 @@ Microsoft Defender for Office 365(또는 MDO) E5 및 MDO P1 및 P2의 관리자�
 
 ## <a name="reach-the-email-entity-page"></a>전자 메일 엔터티 페이지로 이동
 
-기존 보안 & 준수 센터(protection.office.com) 또는 새로운 Microsoft 365 보안 센터(security.microsoft.com)를 통해 전자 메일 엔터티 페이지를 보고 사용할 수 있습니다.
+기존 보안 & 규정 준수 센터 또는 새로운 Microsoft 365 Defender 포털을 통해 전자 메일 엔터티 페이지를 보고 사용할 수 있습니다.
+
+<br>
+
+****
 
 |가운데|URL|탐색|
 |---|---|---|
-|보안 및 규정 준수 |protection.office.com|위협 관리 \> 탐색기|
-|Microsoft 365 보안 센터 |security.microsoft.com|전자 메일 & 공동 \> 작업 탐색기|
+|보안 및 준수 센터|<https://protection.office.com>|위협 관리 \> 탐색기|
+|Microsoft 365 Defender 포털|<https://security.microsoft.com>|전자 메일 & 공동 \> 작업 탐색기|
+|
 
 위협 탐색기에서 조사할 전자 메일의 제목을 선택합니다. 해당 메일에 대한 전자 메일 플라이아웃의 맨 위에 골드 막대가 표시됩니다. 새 페이지에 대한 이 초대는 '강화된 데이터를 사용하여 새 전자 메일 엔터티 페이지 사용해 보시다...'를 읽습니다. 새 페이지를 표시하려면 선택합니다.
 
@@ -89,17 +94,20 @@ Microsoft Defender for Office 365(또는 MDO) E5 및 MDO P1 및 P2의 관리자�
 
 ### <a name="detonation-details"></a>데토톤 세부 정보
 
-이러한 세부 정보는 전자 메일 첨부 파일 및 URL과 관련이 있습니다.
+이러한 세부 정보는 전자 메일 첨부 파일 및 URL과 관련이 있습니다. 사용자는 탐색기로 이동한 후 파일  검색 또는 URL 검색에 검색 기술 필터 집합을 적용하여 이러한 세부 정보를 볼 수 있습니다. 파일 검색을 위해 필터링된 전자 메일에는 검색 세부 정보가 포함된 악성 파일이 포함되어 있으며, URL에 대해 필터링된 전자 메일에는 악성 URL 및 해당 검색 세부 정보가 포함되어 있습니다.
 
-사용자에게는 고객이 첨부 파일 또는 URL이 악의적인 것으로 확인된 이유를 이해하는 데 도움이 되는 데 도움이 되는 알려진 악성 첨부 파일 또는 하이퍼링크에 대한 강화된 데스토인트 세부 정보를 볼 수 있습니다.
+특정 테넌트에 대해 확인된 알려진 악성 첨부 파일 또는 URL에 대한 강화된 검색 세부 정보가 전자 메일에 표시될 것입니다. 이 문서는 고객이 첨부 파일 또는 URL이 악의적인 것으로 생각하고 확인된 이유를 이해하는 데 도움이 되는 데 데스토니아 체인, 데토톤 요약, 스크린샷 및 관찰된 동작 세부 정보로 구성됩니다.
 
-- *데토톤 체인:* 단일 파일 또는 URL을 사용하여 여러 개의 확인을 트리거할 수 있습니다. 데스토네이트 체인은 판정을 유발한 원래 악성 파일 또는 URL, 기타 모든 파일 또는 URL을 포함하여 검색 경로를 추적합니다. 이러한 URL 또는 첨부된 파일은 전자 메일에 직접 존재하지 않을 수 있지만 해당 분석을 포함하면 파일 또는 URL이 악의적인 것으로 확인된 이유를 파악하는 데 중요합니다.
-- *Detonation summary*: This gives information on:
-  - 데토나이트 시간 범위입니다.
-  - 첨부된 파일 또는 URL의 판정입니다.
-  - 관련 정보(파일 번호, URL, IP 또는 도메인)는 검색 중에 검사되는 다른 엔터티입니다.
-- *데스토니아 스크린샷:* 이 스크린샷은 데스토린 프로세스 중에 촬영된 스크린샷을 보여줍니다.
-- *Detonation details:* 이러한 세부 정보는 데이타 동안 진행된 각 프로세스의 정확한 동작 세부 정보입니다.
+1. *데토톤 체인*. 단일 파일 또는 URL을 사용하여 여러 개의 확인을 트리거할 수 있습니다. 데스토네이트 체인은 판정을 유발한 원래 악성 파일 또는 URL, 기타 모든 파일 또는 URL을 포함하여 검색 경로를 추적합니다. 이러한 URL 또는 첨부된 파일은 전자 메일에 직접 존재하지 않을 수 있지만 해당 분석을 포함하면 파일 또는 URL이 악의적인 것으로 확인된 이유를 파악하는 데 중요합니다.  
+    > [!NOTE]
+    > 이 항목은 해당 엔터티에 연결된 엔터티가 문제가 있는 것으로 확인되거나 확인되지 않았다면 최상위 항목만 표시될 수 있습니다.
+
+1.  데스토네이트 요약에는 분석 *시간,* 보고 발생 시간, OS 및 응용 프로그램, 운영 체제 및 응용 프로그램, 파일 크기, 결과 이유 등의 기본 요약이 표시됩니다.
+1. *Screenshots* shows the screenshots captured during detonation. 데토톤 중에 스크린샷이 여러 개 있을 수 있습니다. 스크린샷이 캡처하지 않습니다.
+    - 컨테이너 형식 파일(.zip 또는 .rar.
+    - URL이 파일을 직접 다운로드하는 링크로 열리면 그러나 다운로드한 파일이 데스토니아 체인에 표시됩니다.
+1. *동작 세부* 정보는 검색 중에 발생된 정확한 이벤트와 같은 동작 세부 정보 및 검색 중에 발견된 URL, IP, 도메인 및 파일이 포함된 관찰 가능 파일(문제가 발생하거나 양성일 수 있습니다.)을 표시하는 내보내기입니다. 다음에 대한 동작 세부 정보가 없는 경우도 있습니다.
+    - 다른 파일을 .zip .rar 컨테이너 파일입니다.
 
 :::image type="content" source="../../media/email-entities-6-detonation-page.png" alt-text="Screenshot of the detonation summary showing the chain, summary, detonation details, and screenshot under the heading *Deep Analysis*.":::
 

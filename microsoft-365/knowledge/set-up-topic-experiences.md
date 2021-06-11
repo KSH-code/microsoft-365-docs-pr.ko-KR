@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목을 설정하는 방법 학습
-ms.openlocfilehash: 19395cf3a9ecc991f08f375425803cb81a2a1d35
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c6997e5f5a6793468dfe3392ffc2037b319844ad
+ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930224"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52893767"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva 항목 설정
 
@@ -60,8 +60,10 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 
 ## <a name="set-up-topics"></a>주제 설정
 
-항목을 설정하기 위해
+> [!Note]
+> 항목을 처음 검색할 수 있도록 설정한 경우 제안된 모든 항목을 항목 관리 보기에 표시하는 데 최대 2주가 걸릴 수 있습니다. 콘텐츠에 대한 새 콘텐츠 또는 업데이트가 진행될 때 항목 검색이 계속됩니다. Viva 항목에서 새 정보를 평가할 때 조직에서 제안된 항목 수가 변동되는 것은 일반적입니다.
 
+항목을 설정하기 위해
 1. Microsoft 365 [관리 센터에서](https://admin.microsoft.com)설치 를 선택한 다음 파일 및 **콘텐츠 섹션을** 를 니다. 
 2. 파일 **및 콘텐츠 섹션에서** 정보를 **커넥트 클릭합니다.**
 
@@ -69,7 +71,7 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 
 3. 사용자 **커넥트** 페이지에서 시작을 클릭하여 설정  프로세스를 진행합니다.
 
-    ![시작하기](../media/k-get-started.png) 
+    ![시작](../media/k-get-started.png) 
 
 4. **Viva 항목을 찾는 방법** 선택 페이지에서 항목 검색을 구성합니다. 검색 **SharePoint** 원본 선택 섹션에서 SharePoint 항목의 원본으로 크롤링할 사이트를 선택합니다. 다음 중 선택:
     - **모든 사이트**: 조직의 모든 SharePoint 사이트입니다. 여기에는 현재 사이트와 향후 사이트가 포함됩니다.
@@ -103,7 +105,7 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 
     파일 파일을 완료하고 .csv 찾아보기를 선택하여  찾아보기를 선택합니다.
     
-    **다음** 을 선택합니다.
+    **다음** 을 선택하세요.
 
 6. 항목 **Who** 볼 수 있는 위치 페이지에서 항목 표시를 구성합니다. 항목 **Who** 수 있습니다. 설정에서 강조 표시된 항목, 항목 카드, 검색의 항목 답변 및 항목 페이지와 같은 항목 세부 정보에 액세스할 수 있는 사용자 선택 다음을 선택할 수 있습니다.
     - **조직의 모든 사용자**
@@ -128,11 +130,11 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 
     ![항목 관리에 대한 사용 권한](../media/km-setup-create-edit-topics.png) 
 
-    **다음** 을 선택합니다.
+    **다음** 을 선택하세요.
 
 9. 항목 **센터 만들기 페이지에서** 항목 페이지를 보고 항목을 관리할 수 있는 항목 센터 사이트를 만들 수 있습니다. 사이트 **이름 상자에** 항목 센터의 이름을 입력합니다. 필요한 경우 설명 상자에 간단한 설명을 입력할 **수** 있습니다. 
 
-   **다음** 을 선택합니다.
+   **다음** 을 선택하세요.
 
    ![기술 센터 만들기](../media/ksetup4.png)  
 
@@ -143,8 +145,6 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 12. You'll be returned to your **커넥트 people to knowledge** page. 이 페이지에서 **관리** 를 선택하여 구성 설정을 변경할 수 있습니다. 
 
     ![설정 적용](../media/ksetup7.png)    
-
-처음 항목 검색을 사용하도록 설정한 경우 제안된 모든 항목을 항목 관리 보기에 표시하는 데 최대 2주가 걸릴 수 있습니다. 콘텐츠에 대한 새 콘텐츠 또는 업데이트가 진행될 때 항목 검색이 계속됩니다. Viva 항목에서 새 정보를 평가할 때 조직에서 제안된 항목 수가 변동되는 것은 일반적입니다.
 
 ## <a name="manage-topic-experiences"></a>항목 환경 관리
 

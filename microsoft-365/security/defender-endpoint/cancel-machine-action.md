@@ -1,0 +1,108 @@
+---
+title: 컴퓨터 작업 취소 API
+description: 이미 시작된 컴퓨터 작업을 취소하는 방법 학습
+keywords: api, 그래프 api,
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+f1.keywords:
+- NOCSH
+ms.author: macapara
+author: mjcaparas
+localization_priority: normal
+manager: dansimp
+audience: ITPro
+ms.collection:
+- M365-security-compliance
+- m365initiative-m365-defender
+ms.topic: article
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 490ee91d5f2d2c02174be94c52fc83fd0ec0fc5e
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879758"
+---
+#   <a name="cancel-machine-action-api"></a>컴퓨터 작업 취소 API 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**적용 대상:**
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+
+[!include[Prerelease information](../../includes/prerelease.md)]
+
+>끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+
+[!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
+
+[!include[Improve request performance](../../includes/improve-request-performance.md)]
+
+## <a name="api-description"></a>API 설명
+
+아직 최종 상태가 아닌 이미 시작된 컴퓨터 작업 취소(완료, 취소, 실패)
+
+## <a name="limitations"></a>제한 사항
+
+1.  이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
+
+## <a name="permissions"></a>사용 권한
+
+이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
+
+|     사용 권한 유형     |     사용 권한     |    사용 권한 표시 이름     |
+|-|-|-|
+|    <br>응용 프로그램    |    <br>Machine.CollectForensic<br>   Machine.Isolate   <br>Machine.RestrictExecution<br>   Machine.Scan<br>   Machine.Offboard<br>   Machine.StopAndQuarantine<br>   Machine.LiveResponse    |    포렌식 수집   <br>컴퓨터 격리<br>코드 실행 제한<br>  컴퓨터 검사<br>  컴퓨터 오프보드<br>   중지 및 Quarantine<br>   특정 컴퓨터의 실시간 응답 실행    |
+|    <br>위임(직장 또는 학교 계정)    |    Machine.CollectForensic<br>   Machine.Isolate    <br>Machine.RestrictExecution<br>   Machine.Scan<br>   Machine.Offboard<br>   Machine.StopAndQuarantineMachine.LiveResponse    |    포렌식 수집<br>   컴퓨터 격리<br>  코드 실행 제한<br> 컴퓨터 검사<br>컴퓨터 오프보드<br> 중지 및 Quarantine<br> 특정 컴퓨터의 실시간 응답 실행    |
+
+
+## <a name="http-request"></a>HTTP 요청
+
+```
+POST https://api.securitycenter.microsoft.com/api/machineactions/<machineactionid>/cancel  
+```
+
+
+## <a name="request-headers"></a>요청 헤더
+
+| 이름      | 유형 | 설명                 |
+|---------------|----------|---------------------------------|
+| 권한 부여 | String   | Bearer {token}. 필수 특성입니다.   |
+| Content-Type  | 문자열   | application/json. 필수 특성입니다. |
+
+## <a name="request-body"></a>요청 본문
+
+| 매개 변수 | 유형 | 설명                        |
+|---------------|----------|----------------------------------------|
+| Comment       | String   | 취소 작업과 연결되는 설명입니다.  |
+
+## <a name="response"></a>응답
+
+성공하면 이 메서드는 Machine Action 엔터티가 있는 200, 확인 응답 코드를 반환합니다. 지정된 ID가 있는 컴퓨터 작업 엔터티를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
+
+## <a name="example"></a>예시
+
+**요청**
+
+다음은 요청의 예입니다.
+
+```HTTP
+POST
+https://api.securitycenter.microsoft.com/api/machineactions/988cc94e-7a8f-4b28-ab65-54970c5d5018/cancel
+```
+
+
+```JSON
+{
+    "Comment": "Machine action was canceled by automation"
+}
+```
+
+## <a name="related-topic"></a>관련 항목
+
+- [컴퓨터 작업 API를 얻습니다.](get-machineaction-object.md)

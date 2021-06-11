@@ -431,6 +431,8 @@
               href: archive-webexteams-data.md
             - name: 웹 페이지
               href: archive-webpagecapture-data.md
+            - name: 웹 페이지
+              href: archive-webpagecapture-data.md
             - name: Facebook의 작업 영역
               href: archive-workplacefromfacebook-data.md
             - name: XIP
@@ -457,6 +459,8 @@
               href: archive-telus-network-data.md
             - name: Verizon Network
               href: archive-verizon-network-data.md
+            - name: WeChat(미리 보기)
+              href: archive-wechat-data.md
             - name: WhatsApp
               href: archive-whatsapp-data.md
         - name: 타사 데이터를 저장하는 데 파트너와 협력
