@@ -1,5 +1,5 @@
 ---
-title: Microsoft Managed Desktop 보관 장치
+title: Microsoft Managed Desktop 보관된 장치
 description: 아직 등록할 수 있지만 지원 기간이 단축되는 은퇴할 예정인 장치
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -18,23 +18,23 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/25/2021
 ms.locfileid: "51218739"
 ---
-# <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
+# <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관된 장치
 
-최상의 사용자 환경을 보장하기 위해 Microsoft Managed Desktop은 특정 시점에 장치에 대한 지원을 중지합니다. 이 문서에서는 "보관"이라고 하는 몇 년 후 은퇴할 예정인 장치를 나열합니다. 이미 있는 장치를 사용하여 Microsoft Managed Desktop을 시작하는 경우 이 목록을 주의 깊게 검사해야 합니다.
+최상의 사용자 환경을 보장하기 위해 Microsoft Managed Desktop 디바이스에 대한 지원을 중지해야 합니다. 이 문서에서는 "보관"이라고 하는 몇 년 후 은퇴할 예정인 장치를 나열합니다. 이미 있는 장치를 사용하여 Microsoft Managed Desktop 시작하는 경우 이 목록을 주의 깊게 검사해야 합니다.
 
 >[!IMPORTANT]
->지금도 이러한 장치를 등록할 수 있지만 Microsoft Managed Desktop을 사용하면 서비스 수명이 짧아지게 됩니다. 새 장치를 구입하는 경우 활성 장치 목록의 모델을 [사용해야 합니다.](./device-list.md)
+>지금도 이러한 장치를 등록할 수 있지만 이러한 장치를 등록하면 장치 수명이 Microsoft Managed Desktop. 새 장치를 구입하는 경우 활성 장치 목록의 모델을 [사용해야 합니다.](./device-list.md)
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나일 수 있으며 RAM, 프로세서 패밀리 및 디스크 공간에 대한 나열된 사양을 충족하거나 초과해야 합니다. 다른 사용자 지정은 지원되지 않습니다.
+디바이스에 등록하려면 Microsoft Managed Desktop 중 하나일 수 있으며 RAM, 프로세서 패밀리 및 디스크 공간에 대한 나열된 사양을 충족하거나 초과해야 합니다. 다른 사용자 지정은 지원되지 않습니다.
 
 
 
 >[!NOTE]
->이 표에서 "사용 중지 날짜"는 Microsoft Managed Desktop에서 이 모델을 더 이상 지원하지 않는 날짜입니다. 이 날짜에 이 모델의 등록된 모든 장치가 등록된 경우와 상관없이 Microsoft Managed Desktop에서 제거됩니다.
+>이 표에서 "사용 중지 날짜"는 이 모델이 더 이상 지원되지 Microsoft Managed Desktop 날짜입니다. 이 날짜에 이 모델의 등록된 모든 디바이스가 등록된 Microsoft Managed Desktop 상관없이 해당 장치에서 제거됩니다.
 
-#### <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
+#### <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관된 장치
 
 | 모델  | 최소 사양  | 추가 요구 사항   | 사용 중지 날짜 |
 |---------|---------|---------|---------|
@@ -69,16 +69,16 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 |HP ZBook Firefly 14/15 G7 Mobile Workstation |256GB/Intel i5/8GB RAM |9MZ22AV가 있는 SKU, IR 카메라 필요| **2024년 11월 30일** |
 |Surface Book 2| 256GB/Intel i5/8GB RAM | 없음 | **2022년 11월 16일** |
 |Surface Go| 128GB/Intel 4415Y/8GB RAM | 없음 | **2023년 8월 2일** |
-|Surface 노트북| 256GB/Intel i5/8GB RAM | 없음 | **2022년 5월 20일** |
-|Surface 노트북 2| 128GB/Intel i5/8GB RAM | 없음 | **2023년 10월 16일** |
+|Surface Laptop| 256GB/Intel i5/8GB RAM | 없음 | **2022년 5월 20일** |
+|Surface Laptop 2| 128GB/Intel i5/8GB RAM | 없음 | **2023년 10월 16일** |
 |Surface Pro| 256GB/Intel i5/8GB RAM | 없음 | **2022년 6월 15일** |
 |Surface Pro 6| 128GB/Intel i5/8GB RAM | 없음 | **2023년 10월 16일** |
 
 또한 디바이스는 다음도 해야 합니다.
 
-- Microsoft Managed Desktop에서 승인한 이미지가 있습니다. 디바이스를 주문할 때 Microsoft Managed Desktop에서 사용 중이라 지정해야 합니다.
-- Windows 첫 실행 환경을 완료하지 않은 경우
-- 장치 등록 기능을 사용하여 Microsoft Managed [Desktop에 등록](../get-started/register-devices-self.md)
+- 이미지가 승인된 Microsoft Managed Desktop. 디바이스를 주문할 때 장치와 함께 사용 중이라 지정해야 Microsoft Managed Desktop.
+- 첫 실행 Windows 완료하지 않은 경우
+- 장치 등록 기능을 사용하여 Microsoft Managed Desktop [등록](../get-started/register-devices-self.md)
 
 #### <a name="more-help"></a>추가 도움말
 

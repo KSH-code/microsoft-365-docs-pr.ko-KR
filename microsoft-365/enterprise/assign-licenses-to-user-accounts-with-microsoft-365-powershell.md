@@ -117,7 +117,7 @@ Get-MsolUser -All | where {$_.UsageLocation -eq $null}
 Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>
 ```
 
-예제:
+예:
 
 ```powershell
 Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US

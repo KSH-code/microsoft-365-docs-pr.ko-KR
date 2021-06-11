@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: 청구 알림 전자 메일 및 송장 첨부 파일을 받는 사람 관리 방법에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: d4083dc5a9d70eb8c20b4107389ec5fec65749ad
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 75c75175930434619a01886b1096757bf04111c5
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332141"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888364"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>청구 알림 및 송장 첨부 파일 관리
 
@@ -130,5 +130,6 @@ To stop receiving the invoice attachment at any time, follow the steps above and
 ## <a name="related-content"></a>관련 콘텐츠
 
 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)(문서)\
+[멕시코의 비즈니스용 Microsoft 365 대금](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) 청구 정보(문서) \
 [비즈니스용 Microsoft 365 청구서](understand-your-invoice2.md) 또는 송장 이해(문서)\
 [사용자 추가 및](../../admin/add-users/add-users.md) 동시에 라이선스 할당(문서)

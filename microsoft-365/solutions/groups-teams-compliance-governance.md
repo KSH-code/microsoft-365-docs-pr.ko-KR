@@ -37,7 +37,7 @@ Microsoft 365 사용자는 공동 작업을 할 때 규정 준수를 유지하�
 |정보 분류|||
 ||그룹 및 팀 분류|[민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](../compliance/sensitivity-labels-teams-groups-sites.md)|
 ||중요한 콘텐츠 자동 분류|[민감도 레이블을 콘텐츠에 자동으로 적용](../compliance/apply-sensitivity-label-automatically.md)|
-||중요한 콘텐츠 암호화|[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](../compliance/encryption-sensitivity-labels.md)|
+||중요한 콘텐츠 암호화|[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠에 대한 액세스 제한](../compliance/encryption-sensitivity-labels.md)|
 |정보 보호|||
 ||중요한 정보 손실 방지|[데이터 손실 방지에 대해 알아보기](../compliance/dlp-learn-about-dlp.md)|
 ||채팅에서 중요한 정보를 보호합니다.|[데이터 손실 방지 및 Microsoft Teams](../compliance/dlp-microsoft-teams.md)|
@@ -83,7 +83,7 @@ Microsoft 365 그룹에 대한 보존 정책을 구성하면 그룹 사서함 �
 
 민감도 레이블을 사용하여 파일을 암호화할 수 있으며, 사용 권한이 있는 레이블만 암호를 해독하고 읽을 수 있습니다.
 
-- [민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](../compliance/encryption-sensitivity-labels.md)
+- [민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠에 대한 액세스 제한](../compliance/encryption-sensitivity-labels.md)
 
 - [보안 격리를 사용하여 팀 구성하기](./secure-teams-security-isolation.md)
 

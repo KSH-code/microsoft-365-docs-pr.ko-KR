@@ -23,7 +23,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572348"
 ---
-# <a name="configure-the-notifications-that-appear-on-endpoints"></a>끝점에 나타나는 알림 구성
+# <a name="configure-the-notifications-that-appear-on-endpoints"></a>엔드포인트에 표시되는 알림 구성
 
 **적용 대상:**
 

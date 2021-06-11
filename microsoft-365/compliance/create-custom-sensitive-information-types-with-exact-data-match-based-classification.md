@@ -17,18 +17,18 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff190fa85e631562a07dcecc1f75713ecacdf07e
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 6839401bc1dd00acc45992f902a6360eb7f20120
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822120"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878199"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
 
 
-[사용자 지정 중요한 정보 유형](sensitive-information-type-learn-about.md)은 중요한 항목을 식별하는 데 도움을 주어 해당 항목이 실수로 또는 부적절하게 공유되는 것을 방지할 수 있습니다. 다음을 기반으로 사용자 지정 중요한 정보 유형을 정의합니다.
+[사용자 지정 중요한 정보 유형](sensitive-information-type-learn-about.md)은 중요한 항목을 식별하는 데 도움을 주어 해당 항목이 실수로 또는 부적절하게 공유되는 것을 방지할 수 있습니다. 다음을 기반으로 사용자 지정 SIT(중요한 정보 유형)를 정의합니다.
 
 - 패턴
 - *직원*, *배지* 또는 *ID* 와 같은 키워드 증명 정보
@@ -93,21 +93,22 @@ EDM 기반 분류가 이 구독에 포함되어 있습니다
 
 EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
 
-1. [Csv 형식으로 중요한 데이터 저장](#save-sensitive-data-in-csv-format)
+1. [중요한 데이터를 .csv .tsv 형식으로 저장](#save-sensitive-data-in-csv-or-tsv-format)
 2. [중요한 정보 데이터베이스 스키마 정의](#define-the-schema-for-your-database-of-sensitive-information)
 3. [규칙 패키지 만들기](#set-up-a-rule-package)
 
 
-#### <a name="save-sensitive-data-in-csv-format"></a>.csv 형식으로 중요한 데이터 저장
+#### <a name="save-sensitive-data-in-csv-or-tsv-format"></a>중요한 데이터를 .csv .tsv 형식으로 저장
 
-1. 사용하려는 중요한 정보를 식별합니다. Microsoft Excel과 같은 앱에 데이터를 내보내고 .csv 형식으로 파일을 저장합니다. 데이터 파일에는 최대 다음을 포함할 수 있습니다.
+1. 사용하려는 중요한 정보를 식별합니다. 데이터를 앱에 내보낼 수 Microsoft Excel 텍스트 파일에 저장합니다. 이 파일은 파일 형식(.csv), .tsv(탭으로 구분된 값) 또는 파이프 구분(|) 형식으로 저장할 수 있습니다. 데이터 값에 주소와 같은 콤보가 포함될 수 있는 경우 .tsv 형식을 지정하는 것이 좋습니다.
+데이터 파일에는 최대 다음을 포함할 수 있습니다.
       - 최대 1억 개의 중요한 데이터 행
       - 데이터 원본당 최대 32개의 열(필드)
       - 검색 가능으로 표시된 최대 5개의 열(필드)
 
-2. 첫 번째 행에 EDM 기반 분류에 사용한 필드의 이름이 포함되도록 .csv 파일에 중요한 데이터를 구성합니다. .csv 파일에는 "ssn", "birthdate", "firstname", "lastname"와 같은 필드 이름이 있을 수 있습니다. 열 머리글 이름에는 공백이나 밑줄이 포함될 수 없습니다. 예를 들어, 이 문서에서 사용하는 샘플 .csv 파일은 *PatientRecords.csv* 라고 하며, 해당 열에는 *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* 등이 포함되어 있습니다.
+2. 첫 번째 행에 EDM 기반 분류에 사용되는 필드 이름이 .csv 또는 .tsv 파일의 중요한 데이터를 구조화합니다. 파일에 "ssn", "birthdate", "firstname", "lastname" 등의 필드 이름이 있을 수 있습니다. 열 머리글 이름에는 공백이나 밑줄이 포함될 수 없습니다. 예를 들어, 이 문서에서 사용하는 샘플 .csv 파일은 *PatientRecords.csv* 라고 하며, 해당 열에는 *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* 등이 포함되어 있습니다.
 
-3. 중요한 데이터 필드의 형식에 유의하세요. 특히, 내용에 쉼표(예: 값에 “Seoul, Korea”가 포함된 주소)가 포함된 필드는 EDM 도구로 구문 분석할 때 두 개의 개별 필드로 구문 분석됩니다. 이를 방지하기 위해 중요한 데이터 표에서 이런 필드는 작은 따옴표 또는 큰 따옴표 안에 넣어야 합니다. 쉼표가 있는 필드에 공백도 포함되는 경우, 해당 형식(예: 쉼표와 공백이 포함된 여러 단어 문자열)과 일치하는 사용자 지정 중요한 정보 유형을 만들어 문서가 스캔될 때 문자열이 올바르게 일치하는지 확인해야 합니다.
+3. 중요한 데이터 필드의 형식에 유의하세요. 특히 콘텐츠에 콤보가 포함될 수 있는 필드(예: "Seattle,WA" 값이 포함된 주소)는 구문 분석할 때 .csv 필드로 구문 분석됩니다. 이를 방지하기 위해 .tsv 형식을 사용하거나 중요한 데이터 테이블에서 값이 들어 있는 콤보를 두 번 따옴표로 둘러싸습니다. 값을 포함하는 콤보에 공백도 포함되어 있는 경우 해당 형식과 일치하는 사용자 지정 SIT를 만들어야 합니다. 예를 들어 콤보 및 공백이 있는 여러 단어 문자열을 검색하는 SIT입니다.
 
 #### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>중요한 정보 데이터베이스의 스키마 정의
 
@@ -205,7 +206,7 @@ EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
 
 1. 다음 예제와 같이 in XML 형식(유니코드 인코딩 사용)에 규칙 패키지를 생성하세요. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
 
-      규칙 패키지를 설정하는 경우 .csv 파일과 **edm.xml** 파일을 정확하게 참조하도록 하세요. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
+      규칙 패키지를 설정할 때 .csv .tsv 파일을 올바르게 참조하고 파일을edm.xml **합니다.** (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
 
       - **RulePack ID & ExactMatch ID**:[New-GUID](/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를 사용하여 GUID를 생성합니다.
 
@@ -385,7 +386,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 - EDMUploadAgent 실행을 위한 .NET 버전 4.6.2가있는 Windows 10 또는 Windows Server 2016 시스템
 - 다음에 대한 업로드 컴퓨터의 디렉토리 :
     -  EDMUploadAgent
-    - 예제의 csv 형식 **PatientRecords.csv** 의 중요한 항목 파일
+    - 예제에 설명된 .csv 또는 .tsv 형식의PatientRecords.csv파일 
     -  및 출력 해시 및 솔트 파일
     - **edm.xml** 파일의 데이터 저장소 이름(이 예에서는 `PatientRecords`)
 - [정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사](sit-edm-wizard.md)를 사용한 경우 ****다운로드해야만*** 합니다.
@@ -404,7 +405,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 > 이 절차를 시작하기 전에 본인이 **EDM\_DataUploaders** 보안 그룹의 구성원인지 확인하세요.
 
 > [!TIP]
-> 선택적으로 다음을 실행하여 업로드하기 전에 csv 파일에 대해 유효성 검사를 실행할 수 있습니다.
+> 원하는 경우 업로드하기 전에 .csv .tsv 파일에 대해 유효성 검사를 실행할 수 있습니다.
 >
 >`EdmUploadAgent.exe /ValidateData /DataFile [data file] /Schema [schema file]`
 >
@@ -443,11 +444,12 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 4. 중요한 데이터를 해시하고 업로드하려면 명령 프롬프트 창에서 다음 명령을 실행하세요.
 
-   `EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file]`
+   `EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /ColumnSeparator ["{Tab}"|"|"]`
 
    예: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
 
-   보안 강화를 위해 임의로 생성된 솔트 값을 해시에 자동으로 추가합니다. 선택에 따라, 고유한 솔트 값을 사용하려면 **/Salt <saltvalue>** 를 명령에 추가하세요. 이 값은 길이가 64자여야 하며 a-z 문자와 0-9만 포함할 수 있습니다.
+   중요한 데이터 파일의 기본 형식은 콤보로 구분된 값입니다. /ColumnSeparator 매개 변수를 사용하여 "{Tab}" 옵션을 지정하여 탭으로 구분된 파일을 지정하거나 "|" 옵션을 지정하여 파이프로 구분된 파일을 지정할 수 있습니다.  
+   이 명령은 보안을 강화하기 위해 임의로 생성된 솔트 값을 해시에 자동으로 추가합니다. 선택에 따라, 고유한 솔트 값을 사용하려면 **/Salt <saltvalue>** 를 명령에 추가하세요. 이 값은 길이가 64자여야 하며 a-z 문자와 0-9만 포함할 수 있습니다.
 
 5. 다음 명령을 실행하여 업로드 상태를 확인하세요.
 
@@ -477,7 +479,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
    - .EdmHash
    - .EdmSalt
 
-2. 중요한 항목 csv 파일(PatientRecords)을 테넌트에 업로드하는 데 사용할 컴퓨터에 이러한 파일을 안전한 방식으로 복사하세요.
+2. 테넌트에 중요한 항목.csv .tsv 파일(PatientRecords)을 업로드하는 데 사용할 컴퓨터에 안전한 .csv 파일을 복사합니다.
 
    해시된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
 
@@ -508,10 +510,10 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 1. 중요한 정보 데이터베이스를 새로 고치는 빈도(매일 또는 매주)와 프로세스를 판별합니다.
 
-2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다. [중요한 데이터 해시 및 업로드](#part-2-hash-and-upload-the-sensitive-data)에 설명된 단계를 따를 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.
+2. 중요한 데이터를 앱으로 다시 내보내고(예: Microsoft Excel) 파일을 .csv .tsv 형식으로 저장합니다. [중요한 데이터 해시 및 업로드](#part-2-hash-and-upload-the-sensitive-data)에 설명된 단계를 따를 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.
 
       > [!NOTE]
-      > .csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
+      > .csv 또는 .tsv 파일의 구조(필드 이름)가 변경되지 않은 경우 데이터를 새로 고칠 때 데이터베이스 체계 파일을 변경할 필요가 없습니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
 
 3. [작업 스케줄러](/windows/desktop/TaskSchd/task-scheduler-start-page)를 사용하여 [중요한 데이터 해시 및 업로드](#part-2-hash-and-upload-the-sensitive-data) 절차의 2단계와 3단계를 자동화합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
 
@@ -535,7 +537,7 @@ $edminstallpath = 'C:\\Program Files\\Microsoft\\EdmUploadAgent\\'
 $edmuploader = $edminstallpath + 'EdmUploadAgent.exe'
 $csvext = '.csv'
 $schemaext = '.xml'
-\# Assuming CSV file name is same as data store name
+\# Assuming file name is same as data store name and file is in .csv format
 $dataFile = "$fileLocation\\$dataStoreName$csvext"
 \# Assuming location to store hash file is same as the location of csv file
 $hashLocation = $fileLocation
@@ -571,7 +573,7 @@ $edmuploader = $edminstallpath + 'EdmUploadAgent.exe'
 $csvext = '.csv'
 $edmext = '.EdmHash'
 $schemaext = '.xml'
-\# Assuming CSV file name is same as data store name
+\# Assuming file name is same as data store name and file is in .csv format
 $dataFile = "$fileLocation\\$dataStoreName$csvext"
 $hashFile = "$fileLocation\\$dataStoreName$edmext"
 \# Assuming Schema file name is same as data store name

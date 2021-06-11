@@ -75,7 +75,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 
 |요구 사항  |세부 정보  |
 |---------|---------|
-|권한 |에서 할당된 전역 관리자 [또는 보안 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) 기본 [사용 권한을 참조합니다.](basic-permissions.md) |
+|사용 권한 |에서 할당된 전역 관리자 [또는 보안 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) 기본 [사용 권한을 참조합니다.](basic-permissions.md) |
 |운영 체제     |다음 버전 중 하나 <br/>- Windows 10(모든 릴리스) <br/>- Windows Server, 버전 1803 이상 <br/>- Windows Server 2019 <br/>- Windows Server 2016(Microsoft Defender 바이러스 백신 모드에 있는 경우만)     |
 |Windows E5 등록     |Windows E5는 다음 구독에 포함됩니다. <br/>- Microsoft 365 E5 <br/>- Microsoft 365 E3 Id 및 위협 방지 & 함께 사용할 수 있습니다. <br/><br/>각 [계획의](/microsoft-365/enterprise/microsoft-365-overview#components) 구성 요소 및 [기능을 참조합니다.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)       |
 |Windows Defender 바이러스 백신  |Microsoft Defender 바이러스 백신 모드 또는 수동 모드에서 설치 및 실행해야 합니다. Microsoft가 아닌 바이러스 백신 Microsoft Defender 바이러스 백신 함께 사용할 수 있습니다. [활성 Microsoft Defender 바이러스 백신 수동 모드에 있는지 확인](#how-do-i-confirm-microsoft-defender-antivirus-is-in-active-or-passive-mode) |

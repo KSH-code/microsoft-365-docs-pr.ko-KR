@@ -20,12 +20,12 @@ ms.custom:
 description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4913d0c6fc34d912474bcceac8b1785c4a7e07b3
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 60b319b81362b9d88afcd734021db227969b04d0
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821298"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877875"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 
@@ -51,11 +51,11 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 |피싱(높은 신뢰도 피싱은 해당 안 됨)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
 |
 
-Microsoft 365 보안 센터 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)(관리자가 설정한 경우)에서 격리된 메시지를 보고 관리합니다.
+Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)(관리자가 설정한 경우)에서 격리된 메시지를 보고 관리합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 보안 센터를 열려면 <https://security.microsoft.com>(으)로 이동합니다. 격리 페이지를 바로 열려면 <https://security.microsoft.com/quarantine>(으)로 이동합니다.
+- Microsoft 365 Defender 포털을 열려면 <https://security.microsoft.com>(으)로 이동합니다. 격리 페이지를 바로 열려면 <https://security.microsoft.com/quarantine>(으)로 이동합니다.
 
 - 관리자는 스팸 방지 정책에서 메시지를 영구적으로 삭제하기 전에 얼마 동안 메시지를 격리 상태로 유지할지 구성할 수 있습니다. 격리에서 만료되는 메시지는 복구할 수 없습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
@@ -67,7 +67,7 @@ Microsoft 365 보안 센터 또는 [최종 사용자 스팸 알림](use-spam-not
 
 ## <a name="view-your-quarantined-messages"></a>격리된 메시지 보기
 
-1. 보안 센터에서 **전자 메일 및 공동 작업** \> **검토** \> **격리** 로 이동합니다.
+1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **검토** \> **격리** 로 이동합니다.
 
 2. 사용 가능한 열 헤더를 클릭하여 결과를 정렬할 수 있습니다. **열 수정** 을 클릭하여 최대 7개의 열을 표시합니다. 기본값은 별표(<sup>\*</sup>)로 표시됩니다.
 

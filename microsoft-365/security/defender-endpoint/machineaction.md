@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: da3722294957593fc9cb89abfaec13e45106eefc
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a3b017a9a05964c15411668787b035f1052c68cf
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187388"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878283"
 ---
 # <a name="machineaction-resource-type"></a>MachineAction 리소스 유형
 
@@ -53,6 +53,9 @@ ms.locfileid: "51187388"
 | [바이러스 백신 검사 실행](run-av-scan.md)                              | [컴퓨터 작업](machineaction.md) | 해당되는 경우 Windows Defender 사용하여 AV 스캔을 실행합니다.    |
 | [컴퓨터 오프보딩](offboard-machine-api.md)                       | [컴퓨터 작업](machineaction.md) | [끝점용](machine.md) Microsoft Defender에서 컴퓨터 오프보드. |
 | [파일을 중지하고 격리](stop-and-quarantine-file.md)           | [컴퓨터 작업](machineaction.md) | 컴퓨터의 파일 실행을 중지하고 삭제합니다.        |
+| [라이브 응답 실행](run-live-response.md)                     | [컴퓨터 작업](machineaction.md)  | 디바이스에서 일련의 라이브 응답 명령 실행                       |
+| [라이브 응답 결과 얻기](get-live-response-result.md) | URL 엔터티      | 인덱스로 특정 라이브 응답 명령 결과 다운로드 링크를 검색합니다. |
+|[컴퓨터 작업 취소](cancel-machine-action.md)                                | [컴퓨터 작업](machineaction.md)  | 활성 컴퓨터 작업을 취소합니다.                                            |
 
 <br>
 
@@ -71,6 +74,7 @@ ms.locfileid: "51187388"
 | creationDateTimeUtc | DateTimeOffset | 작업을 만든 날짜 및 시간입니다.                                                                                                                                                                 |
 | lastUpdateTimeUtc   | DateTimeOffset | 작업 상태가 업데이트된 마지막 날짜 및 시간입니다.                                                                                                                                                     |
 | relatedFileInfo     | 클래스          | 두 속성이 들어 있습니다. string , Enum 값으로 ```fileIdentifier``` ```fileIdentifierType``` "Sha1", "Sha256" 및 "Md5"를 지정합니다.                                                                         |
+
 
 
 ## <a name="json-representation"></a>Json 표현

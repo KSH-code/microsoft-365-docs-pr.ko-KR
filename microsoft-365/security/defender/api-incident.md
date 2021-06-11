@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 587d6107b0c09b2178311d8da6606968e7fda083
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 0c0c2e280f63076687a0854e25c47577b050a8f7
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730933"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888436"
 ---
 # <a name="microsoft-365-defender-incidents-api-and-the-incidents-resource-type"></a>Microsoft 365 Defender 인시던트 API 및 인시던트 리소스 유형
 
@@ -56,6 +56,7 @@ HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 
 -|-|-
 [인시던트 열거](api-list-incidents.md) | [인시던트](api-incident.md) 목록 | 인시던트 목록을 얻습니다.
 [인시던트 업데이트](api-update-incidents.md) | [인시던트](api-incident.md) | 특정 인시던트 업데이트
+[인시던트 발생](api-get-incident.md) | [인시던트](api-incident.md) | 인시던트 하나만 얻습니다.
 
 ## <a name="request-body-response-and-examples"></a>요청 본문, 응답 및 예제
 

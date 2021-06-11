@@ -23,12 +23,12 @@ ms.custom:
 description: Office 365 Online, Office 365 및 SharePoint 파일용 Microsoft Defender에 대해 비즈니스용 OneDrive Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cc4157d9f3d2114375d4136fec694250e8fbeb64
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: a74a75f12a758b9b116a3f752624df38f338d0d1
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821358"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878223"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams를 위한 안전한 첨부 파일
 
@@ -66,7 +66,7 @@ SharePoint 온라인 관리자는 사용자가 악성 파일을 다운로드하�
 
 SharePoint, OneDrive 및 Microsoft Teams 안전한 첨부 파일로 식별된 파일은 Office 365 및 탐색기(및 실시간 검색)에 [대한 Microsoft Defender에](view-reports-for-mdo.md) 대한 보고서에 [나타납니다.](threat-explorer.md)
 
-2018년 5월을 현재, 파일, SharePoint, OneDrive 및 Microsoft Teams 안전한 첨부 파일로 식별된 파일은 또한 검사에서 사용할 수 있습니다. 자세한 내용은 보안 센터를 사용하여 에 대한 [Defender에서 quarantined files를 Office 365.](manage-quarantined-messages-and-files.md#use-the-security-center-to-manage-quarantined-files-in-defender-for-office-365)
+2018년 5월을 현재, 파일, SharePoint, OneDrive 및 Microsoft Teams 안전한 첨부 파일로 식별된 파일은 또한 검사에서 사용할 수 있습니다. 자세한 내용은 Microsoft 365 Defender 포털을 사용하여 에 대한 [Defender에서 quarantined files를 Office 365.](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)
 
 ## <a name="keep-these-points-in-mind"></a>다음의 사항을 염두에 둡니다.
 

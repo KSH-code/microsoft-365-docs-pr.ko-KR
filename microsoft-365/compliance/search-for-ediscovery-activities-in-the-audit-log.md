@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: eDiscovery 권한이 할당된 사용자가 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery 준수 센터에서 작업을 수행할 때 로깅되는 Microsoft 365 설명합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b1f3f235f3411e2f637e4e32104c6179643757d
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: cca0cdc02e2c23231637acf6eba2b07144266e36
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657696"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888412"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 
@@ -48,7 +48,7 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
   
 1. 으로 <https://compliance.microsoft.com> 이동하여 직장 또는 학교 계정을 사용하여 로그인합니다.
 
-2. 규정 준수 센터의 왼쪽 탐색 Microsoft 365 모두 표시를 **클릭한** 다음 감사를 **클릭합니다.**
+2. 규정 준수 센터의 왼쪽 탐색 Microsoft 365 감사를 **클릭합니다.**
 
 3. 활동 **드롭다운** 목록의 **eDiscovery** 활동 또는 Advanced eDiscovery 활동에서 검색할 활동을 하나 이상 클릭합니다.
 
@@ -71,10 +71,10 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 
 ## <a name="ediscovery-activities"></a>eDiscovery 활동
 
-다음 표에서는 관리자 또는 eDiscovery 관리자가 준수 센터를 사용하여 또는 Security & Compliance Center PowerShell에서 해당 cmdlet을 실행하여 eDiscovery 관련 활동을 수행할 때 기록되는 콘텐츠 검색 및 핵심 eDiscovery 활동에 대해 설명하고 있습니다. 또한 이 목록에서 Advanced eDiscovery 검색할 때 일부 활동이 반환될 수 있습니다.
+다음 표에서는 관리자 또는 eDiscovery 관리자가 Microsoft 365 준수 센터를 사용하여 eDiscovery 관련 활동을 수행할 때 기록되는 콘텐츠 검색 및 핵심 eDiscovery 활동에 대해 설명하고 있습니다. 이 목록에서 Advanced eDiscovery 검색할 때 일부 활동이 반환될 수 있습니다.
   
 > [!NOTE]
-> 이 섹션에 설명된 eDiscovery 활동은 다음 섹션에 설명된 eDiscovery cmdlet 활동과 유사한 정보를 제공합니다. 이 섹션에 설명된 eDiscovery 활동은 30분 이내에 감사 로그 검색 결과에 표시될 것이기 때문에 사용하는 것이 좋습니다. eDiscovery cmdlet 활동이 감사 로그 검색 결과에 표시될 경우 최대 24시간이 소요됩니다.
+> 이 섹션에 설명된 eDiscovery 활동은 다음 섹션에 설명된 eDiscovery cmdlet 활동과 유사한 정보를 제공합니다. 이 섹션에 설명된 eDiscovery 활동은 30분 이내에 감사 로그 검색 결과에 표시될 것이기 때문에 사용하는 것이 좋습니다. eDiscovery cmdlet 활동이 감사 로그 검색 결과에 표시될 경우 최대 24시간이 걸릴 수 있습니다.
   
 |**친숙한 이름**|**작업**|**해당 cmdlet**|**설명**|
 |:-----|:-----|:-----|:-----|
@@ -86,7 +86,7 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 |검색 권한 필터 변경  <br/> |SearchPermissionUpdated  <br/> |Set-ComplianceSecurityFilter  <br/> |검색 권한 필터가 변경된 경우  <br/> |
 |eDiscovery 사례 보류에 대한 검색 쿼리가 변경되었습니다.  <br/> |HoldUpdated  <br/> |Set-CaseHoldRule  <br/> |eDiscovery 사례와 연결된 쿼리 기반 보류가 변경되었습니다. 가능한 변경 내용에는 쿼리 기반 보류에 대한 쿼리 또는 날짜 범위 편집이 포함됩니다.  <br/> |
 |다운로드한 콘텐츠 검색 미리 보기 항목  <br/> |PreviewItemDownloaded  <br/> |해당 없음  <br/> |사용자가 검색 결과를 미리 볼 때 원래 항목  다운로드 링크를 클릭하여 로컬 컴퓨터에 항목을 다운로드했습니다.  <br/> |
-|나열된 콘텐츠 검색 미리 보기 항목  <br/> |PreviewItemListed  <br/> |해당 없음  <br/> |사용자가 검색  결과 미리 보기를 클릭하여 콘텐츠 검색 결과에서 최대 1,000개 항목을 나열하는 미리 보기 검색 결과 페이지를 표시합니다.  <br/> |
+|나열된 콘텐츠 검색 미리 보기 항목  <br/> |PreviewItemListed  <br/> |해당 없음  <br/> |사용자가 검색  결과 미리 보기를 클릭하여 검색 결과에서 최대 1,000개 항목을 나열하는 미리 보기 검색 결과 페이지를 표시합니다.  <br/> |
 |콘텐츠 검색 미리 보기 항목 보기  <br/> |PreviewItemRendered  <br/> |해당 없음  <br/> |eDiscovery 관리자는 검색 결과를 미리 볼 때 해당 항목을 클릭하여 항목을 보게 됩니다.  <br/> |
 |콘텐츠 검색 생성  <br/> |SearchCreated  <br/> |New-ComplianceSearch  <br/> |새 콘텐츠 검색이 만들어졌습니다.  <br/> |
 |eDiscovery 관리자 생성  <br/> |CaseAdminAdded  <br/> |Add-eDiscoveryCaseAdmin  <br/> |사용자가 조직에서 eDiscovery 관리자로 추가되었습니다.  <br/> |
@@ -108,14 +108,14 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 |콘텐츠 검색에 수행된 삭제 작업 제거  <br/> |RemovedSearchResultsPurged  <br/> |Remove-ComplianceSearchAction  <br/> |콘텐츠 검색 삭제 작업이 삭제되었습니다.  <br/> |
 |검색 보고서 제거됨  <br/> |SearchReportRemoved  <br/> |Remove-ComplianceSearchAction  <br/> |콘텐츠 검색 내보내기 보고서 작업이 삭제되었습니다.  <br/> |
 |콘텐츠 검색 분석 시작  <br/> |SearchResultsSentToZoom  <br/> |New-ComplianceSearchAction  <br/> |콘텐츠 검색 결과는 콘텐츠 검색에서 분석할 수 Advanced eDiscovery.  <br/> |
-|시작된 콘텐츠 검색  <br/> |SearchStarted  <br/> |Start-ComplianceSearch  <br/> |콘텐츠 검색이 시작된 경우 Microsoft 365 센터 GUI를 사용하여 콘텐츠 검색을 만들거나 변경하면 검색이 자동으로 시작됩니다. **New-ComplianceSearch** 또는 **Set-ComplianceSearch** cmdlet을 사용하여 검색을 만들거나 변경하는 경우 **Start-ComplianceSearch** cmdlet을 실행하여 검색을 시작해야 합니다.  <br/> |
+|시작된 콘텐츠 검색  <br/> |SearchStarted  <br/> |Start-ComplianceSearch  <br/> |콘텐츠 검색이 시작된 경우 준수 센터를 사용하여 콘텐츠 검색을 만들거나 변경하면 Microsoft 365 검색이 자동으로 시작됩니다.<br/> |
 |콘텐츠 검색 내보내기 시작  <br/> |SearchExported  <br/> |New-ComplianceSearchAction  <br/> |사용자가 콘텐츠 검색 결과를 내보낼 수 있습니다.  <br/> |
 |시작된 내보내기 보고서  <br/> |SearchReport  <br/> |New-ComplianceSearchAction  <br/> |사용자가 콘텐츠 검색 보고서를 내보낼 때  <br/> |
 |중지된 콘텐츠 검색  <br/> |SearchStopped  <br/> |Stop-ComplianceSearch  <br/> |사용자가 콘텐츠 검색을 중지한 경우  <br/> |
-|(없음)|CaseViewed|Get-ComplianceCase|사용자가 준수 센터의 **Core eDiscovery** 페이지 또는  Advanced eDiscovery 페이지에서 또는 Get-ComplianceCase cmdlet을 실행하여 사례 목록을 확인했습니다.|
-|(없음)|SearchViewed|Get-ComplianceSearch|사용자가 준수 센터의 콘텐츠 검색(검색 탭에 나열)에서 또는 cmdlet을 실행하여 목록을 보게 됩니다.  또한 이 활동은 사용자가 eDiscovery 사례와 연결된 콘텐츠 검색 목록을 보거나(사례의  검색 탭을 클릭) **Get-ComplianceSearch -Case** 명령을 실행하여 기록됩니다.|
-|(없음)|ViewedSearchExported|Get-ComplianceSearchAction -Export|사용자가 준수 센터에서 또는 cmdlet을 실행하여  콘텐츠 검색 내보내기 작업 목록을 보게 되었습니다(내보내기 탭에 나열). 이 활동은 사용자가 eDiscovery 사례(경우에 따라 내보내기 탭에 나열)에서 내보내기 작업 목록을 보거나 **Get-ComplianceSearchAction -Case -Export** 명령을 실행하여 기록됩니다. |
-|(없음)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|사용자는 준수 센터에서 또는 cmdlet을 실행하여 콘텐츠 검색 결과를 미리 볼 수 있습니다.|
+|(없음)|CaseViewed|Get-ComplianceCase|사용자가 준수 센터에서 핵심 eDiscovery 사례를 보게 됩니다. 이 이벤트에 대한 감사 레코드에는 본 사례의 이름이 포함됩니다. |
+|(없음)|SearchViewed|Get-ComplianceSearch|사용자가 Core eDiscovery 사례의 검색 탭에서  검색에 액세스하거나 콘텐츠 검색 페이지에서 액세스하여 준수 센터에서 콘텐츠 검색을 **보게** 됩니다. 이 이벤트에 대한 감사 레코드에는 본 검색의 ID가 포함됩니다.|
+|(없음)|ViewedSearchExported|Get-ComplianceSearchAction -Export|사용자가 콘텐츠 검색 페이지의 내보내기 탭에서 내보내기 탭에  액세스하여 준수 센터에서 콘텐츠 검색 내보내기를 **보게** 됩니다. 이 활동은 사용자가 Core eDiscovery 사례와 연결된 내보내기 보기 시에도 기록됩니다.|
+|(없음)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|사용자가 준수 센터에서 콘텐츠 검색 결과를 미리 보게 됩니다. 이 활동은 사용자가 Core eDiscovery 사례와 연결된 검색 결과를 미리 볼 때도 기록됩니다.|
 |||||
   
 ## <a name="advanced-ediscovery-activities"></a>고급 eDiscovery 활동
@@ -153,7 +153,7 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 
 다음 표에는 관리자 또는 사용자가 준수 센터를 사용하여 또는 보안 및 준수 센터 PowerShell에서 해당 cmdlet을 실행하여 eDiscovery 관련 활동을 수행할 때 기록되는 cmdlet 감사 로그 레코드가 & 나열되어 있습니다. 감사 로그 레코드의 세부 정보는 이 표에 나열된 cmdlet 활동 및 이전 섹션에서 설명한 eDiscovery 활동에 따라 다릅니다.
   
-앞서 언급했듯이 eDiscovery cmdlet 활동이 감사 로그 검색 결과에 표시될 경우 최대 24시간이 소요됩니다.
+앞서 언급했듯이 eDiscovery cmdlet 활동이 감사 로그 검색 결과에 표시될 경우 최대 24시간이 걸릴 수 있습니다.
   
 > [!TIP]
 > 다음 표의 작업  열에 있는 cmdlet은 TechNet의 해당 cmdlet 도움말 항목에 연결됩니다. 각 cmdlet에 대해 사용 가능한 매개 변수에 대한 설명은 cmdlet 도움말 항목으로 이동하십시오. cmdlet에 사용된 매개 변수 및 매개 변수 값은 기록되는 각 eDiscovery cmdlet 활동에 대한 감사 로그 항목에 포함됩니다. 
@@ -185,6 +185,10 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 |eDiscovery 관리자 생성  <br/> |[Add-eDiscoveryCaseAdmin](/powershell/module/exchange/add-ediscoverycaseadmin) <br/> |사용자가 조직에서 eDiscovery 관리자로 추가되었습니다.  <br/> |
 |eDiscovery 관리자 삭제  <br/> |[Remove-eDiscoveryCaseAdmin](/powershell/module/exchange/remove-ediscoverycaseadmin) <br/> |eDiscovery 관리자가 조직에서 삭제되었습니다.  <br/> |
 |eDiscovery 관리자 구성원 자격 변경  <br/> |[Update-eDiscoveryCaseAdmin](/powershell/module/exchange/update-ediscoverycaseadmin) <br/> |조직의 eDiscovery 관리자 목록이 변경된 경우 이 활동은 eDiscovery 관리자 목록이 새 사용자 그룹으로 대체될 때 기록됩니다. 단일 사용자를 추가하거나 제거하면 **Add-eDiscoveryCaseAdmin** 또는 **Remove-eDiscoveryCaseAdmin** 작업이 기록됩니다.  <br/> |
+|(없음)|[Get-ComplianceCase](/powershell/module/exchange/get-compliancecase) <br/>|이 활동은 사용자가 핵심 eDiscovery 또는 사례의 목록을 볼 Advanced eDiscovery 기록됩니다. 이 활동은 사용자가 Core eDiscovery에서 특정 사례를 볼 때도 기록됩니다. 사용자가 특정 사례를 볼 때 감사 레코드에는 확인된 사례의 ID가 포함됩니다. 사용자가 사례 목록만 본 경우 감사 레코드에는 사례 ID가 포함되지 않습니다.|
+|(없음)|[Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)|이 활동은 사용자가 Core eDiscovery 사례와 연결된 콘텐츠 검색 또는 검색 목록을 볼 때 기록됩니다. 이 활동은 사용자가 특정 콘텐츠 검색을 보거나 Core eDiscovery 사례와 연결된 특정 검색을 볼 때도 기록됩니다. 사용자가 특정 검색을 볼 때 감사 레코드에는 본 검색의 ID가 포함됩니다. 사용자가 검색 목록만 본 경우 감사 레코드에 검색 ID가 포함되지 않습니다.
+|(없음)|[Get-ComplianceSearchAction](/powershell/module/exchange/get-compliancesearchaction)|이 활동은 사용자가 Core eDiscovery 사례와 관련된 준수 검색 작업(예: 내보내기, 미리 보기 또는 제거) 또는 작업 목록을 볼 때 기록됩니다. 이 활동은 사용자가 특정 준수 검색 작업(예: 내보내기)을 보거나 Core eDiscovery 사례와 관련된 특정 작업을 볼 때도 기록됩니다. 사용자가 검색 작업을 볼 때 감사 레코드에는 본 검색 작업의 ID가 포함됩니다. 사용자가 작업 목록만 본 경우 감사 레코드에 작업 ID가 포함되지 않습니다.|
+||||
 
 ## <a name="detailed-properties-for-ediscovery-activities"></a>eDiscovery 활동에 대한 자세한 속성
 
@@ -207,7 +211,7 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 |ExtendedProperties  <br/> |활동이 수행될 때 사용된 개체 GUID 및 해당 cmdlet 및 cmdlet 매개 변수와 같은 콘텐츠 검색, 콘텐츠 검색 작업 또는 eDiscovery 사례에 보유되는 추가 속성  <br/> |
 |Id  <br/> |보고서 항목의 ID입니다. ID는 감사 로그 항목을 고유하게 식별합니다.  <br/> |
 |NonPIIParameters  <br/> |Operation 속성에 식별된 cmdlet과 함께 사용된 매개 변수 목록(값 없이)입니다. 이 속성에 나열된 매개 변수는 Parameters 속성에 나열된 매개 변수와 같습니다.  <br/> |
-|ObjectId  <br/> |Operation 속성에 나열된 활동에서 만들거나 변경하거나 삭제한 개체의 GUID 또는 이름(예: 콘텐츠 검색 또는 eDiscovery 사례)입니다. 이 개체는 감사 로그 검색 결과의 항목 열에서도 식별됩니다.  <br/> |
+|ObjectId  <br/> |Operation 속성에 나열된 활동에 의해 생성, 액세스, 변경 또는 삭제된 개체의 GUID 또는 이름(예: 콘텐츠 검색 또는 Core eDiscovery 사례)입니다. 이 개체는 감사 로그 검색 결과의 항목 열에서도 식별됩니다.  <br/> |
 |ObjectType  <br/> |사용자가 만들거나 삭제하거나 수정한 eDiscovery 개체의 형식입니다. 예를 들어 콘텐츠 검색 작업(미리 보기, 내보내기 또는 제거), eDiscovery 사례 또는 콘텐츠 검색을 예로 들 수 있습니다.  <br/> |
 |작업  <br/> |수행된 eDiscovery 활동에 해당하는 작업의 이름입니다.  <br/> |
 |OrganizationId  <br/> |조직에 대한 Microsoft 365 GUID입니다.  <br/> |
