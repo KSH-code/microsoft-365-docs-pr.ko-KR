@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - m365solution-scenario
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 06/11/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 15902e02156c59ec4edaed94f4ba321094bd42ac
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ce204c1a90e57a651cf9c97974a8b35d405878cc
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843025"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908295"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-group-policy-objects"></a>그룹 정책 개체를 사용하여 끝점용 Microsoft Defender 관리
 
@@ -61,9 +61,7 @@ Azure Active Directory 도메인 서비스의 그룹 정책 개체를 사용하�
 
 ## <a name="configure-your-microsoft-defender-security-center"></a>사용자 Microsoft Defender 보안 센터
 
-아직 수행하지 않은 경우 경고를 보고 위협 방지 **기능을 구성하고 조직의** 전반적인 보안 Microsoft Defender 보안 센터 자세한 정보를 볼 수 있도록 Microsoft Defender 보안 센터( [https://securitycenter.windows.com](https://securitycenter.windows.com) )를 구성합니다. 
-
-또한 최종 사용자가 2013에서 볼 수 있는 기능의 여부와 기능을 Microsoft Defender 보안 센터.
+아직 수행하지 않은 경우 Microsoft 365 Defender 포털을 구성하여 경고를 보고, 위협 방지 기능을 구성하고, 조직의 전반적인 보안 상태와 관련한 자세한 정보를 볼 수 있습니다. 자세한 [내용은 Microsoft Defender 보안 센터.](microsoft-defender-security-center.md) Defender 포털에서 최종 사용자가 볼 수 있는 기능과 Microsoft 365 수 있습니다.
 
 - [개요 Microsoft Defender 보안 센터](/microsoft-365/security/defender-endpoint/use)
 

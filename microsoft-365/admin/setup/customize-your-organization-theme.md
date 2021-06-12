@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 회사 로고 또는 색에 맞게 Microsoft 365 모음 위쪽의 기본 테마를 변경하는 방법을 알아보고 사용자 지정합니다.
-ms.openlocfilehash: 7dc1eb4df22cbd96b2370437991aee936243189e
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 130fda016961433342969c90e309e7d8b6a7051f
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841309"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908164"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직의 Microsoft 365 테마 사용자 지정
 
@@ -89,6 +89,9 @@ You can add or update a default theme that applies to everyone within your org. 
 **저장** 을 선택하여 변경 내용을 저장합니다.
 
 로고는 어떤 경우든 제거할 수 있습니다. 로고 **페이지로 돌아가서** 제거를 **선택합니다.**
+
+> [!NOTE]
+> 기본적으로 대부분의 조직에서 사용하는 로고 선택이 먼저 표시됩니다. 업로드 옵션은 그룹 테마가 아닌 기본 테마에만 적용할 수 있습니다.
   
 ## <a name="colors-choose-theme-colors"></a>색: 테마 색 선택
 
@@ -102,7 +105,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 :::image type="content" source="../../media/default-theme-colors.png" alt-text="Screenshot: Colors tab showing default theme colors for your organization":::
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="my-organization-already-has-a-theme-for-all-employees-how-will-this-change"></a>조직에 이미 모든 직원에 대한 테마가 있습니다. 이 변경은 어떻게 될까요?
 

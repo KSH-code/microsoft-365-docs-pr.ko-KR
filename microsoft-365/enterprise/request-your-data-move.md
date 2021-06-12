@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 기존 Office 365 고객은 해당 국가가 새 지역으로 Microsoft 365 요청을 제출해야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e68feeca842061c43c7be70d9b8b930f068d8e4e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d4421b034c31adc3e8b0b017067b12086d364564
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927315"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908248"
 ---
 # <a name="how-to-request-your-data-move"></a>데이터 이동을 요청하는 방법
 
@@ -74,7 +74,7 @@ Microsoft 365 관리 센터의 페이지에 액세스하려면 왼쪽의 탐색 
 
 [핵심 데이터를 새 Office 365 데이터 센터 지역으로 이동](moving-data-to-new-datacenter-geos.md)
 
-[데이터 이동 일반 FAQ](data-move-faq.md)
+[데이터 이동 일반 FAQ](data-move-faq.yml)
 
 [새 데이터 센터 Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   

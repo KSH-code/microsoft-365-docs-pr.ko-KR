@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 새로운 Office 365 데이터 센터 지역 및 데이터 상주 옵션을 사용하여 핵심 데이터를 새 지역으로 이동하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60e04525843e8e7557eab2f804680d6d5dddd4d8
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 797ac69e2c60c2e4c3ece38b376406027ff65e36
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904095"
+ms.locfileid: "52908308"
 ---
 # <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>핵심 데이터를 새 데이터 Microsoft 365 지역으로 이동
 
@@ -70,7 +70,7 @@ Microsoft는 새 데이터 센터 지역에 고유한 기능 또는 규정 준�
  
 [데이터 이동을 요청하는 방법](request-your-data-move.md)
     
-[데이터 이동 일반 FAQ](data-move-faq.md)
+[데이터 이동 일반 FAQ](data-move-faq.yml)
   
 [새 데이터 센터 Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   

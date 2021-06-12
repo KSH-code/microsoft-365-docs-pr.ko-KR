@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 서비스 관리자와 같은 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
-ms.openlocfilehash: 68a5c92faa6f5cdbbd56678649441a45a600ed04
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 1fea8720b174846dd95d9dd6aeee91f7ecfbc7fa
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809038"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908056"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -100,4 +100,5 @@ Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에�
 
 [관리자 역할 할당](assign-admin-roles.md)(문서)\
 [Microsoft 365 관리 센터의 Azure Active Directory 역할](azure-ad-roles-in-the-mac.md)(문서)\
-[Exchange Online 관리자 역할](about-exchange-online-admin-role.md)(문서)\ [Microsoft 365 관리 센터의 활동 보고서](../activity-reports/activity-reports.md)(문서)
+[Microsoft 365 관리 센터의 활동 보고](../activity-reports/activity-reports.md)(문서)\
+[Exchange Online 관리자 역할](about-exchange-online-admin-role.md)(문서)

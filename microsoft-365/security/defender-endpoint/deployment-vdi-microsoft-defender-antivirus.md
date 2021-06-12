@@ -10,22 +10,19 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 12/28/2020
+ms.date: 06/11/2021
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 4ecd14e055646804d81e22da7c192988cf1e6f6f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ce200ca12bacc3ae8d9f7b48d36274ca54322586
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275255"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908032"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -175,7 +172,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 4. 평소와 같이 그룹 정책 개체를 배포합니다.
 
-알림을 표시하지 Microsoft Defender 바이러스 백신 검사가 수행되거나 수정 작업이 수행될 Windows 10 알림 센터에 알림이 표시되지 않습니다. 그러나 보안 운영 팀의 검색 결과는 [https://securitycenter.windows.com](https://securitycenter.windows.com) Microsoft Defender 보안 센터( ).
+알림을 표시하지 Microsoft Defender 바이러스 백신 검사가 수행되거나 수정 작업이 수행될 Windows 10 알림 센터에 알림이 표시되지 않습니다. 그러나 보안 운영 팀의 검색 결과는 Defender 포털의 Microsoft 365 [표시됩니다.](microsoft-defender-security-center.md)
 
 > [!TIP]
 > 관리 센터를 Windows 10 다음 단계 중 하나를 수행합니다.

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 데이터 이동은 Microsoft가 테넌트의 서비스 및 관련 데이터를 새 데이터 센터 지역으로 이동할 때 발생하는 백 엔드 작업입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d3d44ffc1650989e5c39f5f79cb6a07065f9e9f1
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: c0ea94a80de993d4d1341b8f9b19850d7149583f
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625260"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908116"
 ---
 # <a name="during-and-after-your-data-move"></a>데이터 이동 도중 및 이후
 
@@ -123,7 +123,7 @@ Teams 파일은 SharePoint 온라인에 저장되고 Teams 파일은 온라인 �
  
 [데이터 이동을 요청하는 방법](request-your-data-move.md)
     
-[데이터 이동 일반 FAQ](data-move-faq.md)
+[데이터 이동 일반 FAQ](data-move-faq.yml)
   
 [새 데이터 센터 Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   
