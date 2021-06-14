@@ -21,12 +21,12 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7570a925f4f24148874eada8a835ae473efaeb9
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: eab7cdbed592975739fdcfa1089e6f7d2c25d880
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650353"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904119"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "51650353"
 > [!IMPORTANT]
 > 이 문서는 [Office 365용 Microsoft Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)가 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal을 사용하고 있고 Outlook의 안전한 링크 또는 안전한 첨부 파일에 대한 정보를 찾고 있다면 [Office 365 구독자용 고급 Outlook.com 보안](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
 
-Office 365용 Microsoft Defender는 전자 메일 메시지, 링크 (URL) 및 공동 작업 도구로 인한 악의적인 위협으로부터 조직을 보호합니다. Office 365용 Defender는 다음 사항을 포함합니다.
+Office 365용 Microsoft Defender는 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 인한 악의적인 위협으로부터 조직을 보호합니다. Office 365용 Defender에는 다음이 포함됩니다.
 
 - **[위협 방지 정책](#configure-microsoft-defender-for-office-365-policies)**: 위협 방지 정책을 정의하여 조직에 맞는 적절한 수준의 보호를 설정합니다.
 
@@ -174,7 +174,7 @@ Office 365용 Microsoft Defender는 Microsoft 365 E5, Office 365 E5, Office 365 
 
 Office 365용 Microsoft Defender에는 새로운 기능이 계속해서 추가됩니다. 자세한 내용은 다음 리소스를 참조하세요.
 
-- [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)은 개발 및 출시에 대한 새로운 기능 목록을 제공합니다.
+- [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=Microsoft%2CDefender%2Cfor%2COffice%2C365)은 개발 및 출시에 대한 새로운 기능 목록을 제공합니다.
 
 - [Office 365용 Microsoft Office Defender 서비스 설명](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)은 Office 365용 Defender 플랜의 기능과 가용성에 대해 설명합니다.
 

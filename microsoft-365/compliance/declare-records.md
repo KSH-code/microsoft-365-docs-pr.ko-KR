@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 레코드 선언
-ms.openlocfilehash: fed988d2f880e4c0af1321cfb6ef4a873bd4e7ab
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b5114253c99533e890d66248529b4713700b9016
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730549"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903903"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>보존 레이블을 사용하여 레코드 선언
 
@@ -79,6 +79,18 @@ Microsoft 365 규정 준수 센터의 **레코드 관리** 솔루션에서 보�
 보존 레이블을 사용하여 레코드로 표시된 문서 예제:
 
 ![레코드로 태그가 지정된 문서에 대한 세부 정보 창](../media/recordversioning7.png)
+
+## <a name="searching-the-audit-log-for-labeled-items-that-were-declared-records"></a>레코드로 선언된 레이블이 지정된 항목에 대한 감사 로그 검색
+
+레코드로 항목을 선언하는 레이블 지정 작업은 감사 로그에 기록됩니다.
+
+SharePoint 항목의 경우: 
+- **파일 및 페이지 활동** 에서 **파일의 보존 레이블 변경** 을 선택합니다. 이 감사 이벤트는 항목을 레코드, 규제 레코드로 표시하거나 표준 보존 레이블인 보존 레이블에 대한 이벤트입니다.
+
+Exchange 항목의 경우:
+- **Exchange 사서함 활동** 에서 **레이블이 지정된 메시지를 레코드로** 를 선택합니다. 이 감사 이벤트는 항목을 레코드 또는 규제 레코드로 표시하는 보존 레이블에 대한 이벤트입니다.
+
+이러한 이벤트를 검색하는 방법에 대한 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

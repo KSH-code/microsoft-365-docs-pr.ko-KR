@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: 보존 정책 및 보존 레이블 정책에 대한 정책당 최대 정책 및 항목 수 이해
-ms.openlocfilehash: 2dac852342c080c4f8334562dc76449d6963facc
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 92647911cfc3435c2d88ce5caa0624a34467a60f
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878055"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908104"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 제한 사항
 
@@ -37,7 +37,7 @@ ms.locfileid: "52878055"
 
 이 10,000개의 정책 제한 내에서 워크로드당 보존을 위한 최대 정책 수에 몇 가지 제한도 있습니다.
 
-- Exchange Online(모든 구성): 1,800
+- Exchange(모든 구성): 1,800
 - SharePoint 또는 OneDrive: (모든 사이트가 자동으로 포함됨): 13
 - SharePoint 또는 OneDrive(특정 위치 포함 또는 제외): 2,600
 
@@ -49,10 +49,16 @@ Microsoft Teams 및 Yammer에 대한 보존 정책은 사서함을 사용하여 
 
 보존 정책당 최대 항목 수:
 
-  - 1,000개의 사서함(사용자 사서함 또는 그룹 사서함)
-  - 1,000개의 Microsoft 365 그룹
-  - Teams 비공개 채팅에 참여하는 1,000명의 사용자
-  - 100개의 사이트(OneDrive 또는 SharePoint)
+- Exchange 사서함: 1,000
+- Microsoft 365 그룹: 1,000
+- Teams 채널 메시지: 1,000
+- Teams 채팅: 1,000
+- Yammer 커뮤니티 메시지: 1,000
+- Yammer 사용자 메시지: 1,000
+- SharePoint 사이트: 100
+- OneDrive 계정: 100
+
+비즈니스용 Skype는 특정 사용자로 범위가 지정되어야 하며 정책당 지원되는 최대 수는 1,000개입니다.
 
 이러한 제한 사항은 정책당로 적용되므로 특정 포함 또는 제외를 사용하여 이러한 수를 검토해야 하는 경우 동일한 보존 설정을 가진 추가 정책을 생성할 수 있습니다. 이러한 이유로 여러 보존 정책을 사용하는 일부 [예제 시나리오 및 솔루션](#examples-of-using-multiple-policies-to-avoid-exceeding-maximum-numbers)은 다음 섹션을 참조하십시오.
 
@@ -91,4 +97,4 @@ SharePoint 예제
 
 - 항목이 처리되고 난 후 최대 7년간 처리 증거(해당 기간의 보존 레이블당 최대 한도 항목 1,000,000개). 
     
-    이 레코드로 표시된 항목의 최대 한도인 1,000,000개 이상에 대한 처리 증거가 필요하다면 [Microsoft 지원](../business-video/get-help-support.md)에 문의해 주세요.
+이 레코드로 표시된 항목의 최대 한도인 1,000,000개 이상에 대한 처리 증거가 필요하다면 [Microsoft 지원](../business-video/get-help-support.md)에 문의해 주세요.
