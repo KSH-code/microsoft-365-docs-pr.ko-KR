@@ -17,69 +17,81 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 레코드 선언
-ms.openlocfilehash: fed988d2f880e4c0af1321cfb6ef4a873bd4e7ab
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b5114253c99533e890d66248529b4713700b9016
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730549"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903903"
 ---
-# <a name="declare-records-by-using-retention-labels"></a><span data-ttu-id="0dc6b-103">보존 레이블을 사용하여 레코드 선언</span><span class="sxs-lookup"><span data-stu-id="0dc6b-103">Declare records by using retention labels</span></span>
+# <a name="declare-records-by-using-retention-labels"></a><span data-ttu-id="3d7ab-103">보존 레이블을 사용하여 레코드 선언</span><span class="sxs-lookup"><span data-stu-id="3d7ab-103">Declare records by using retention labels</span></span>
 
-><span data-ttu-id="0dc6b-104">*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*</span><span class="sxs-lookup"><span data-stu-id="0dc6b-104">*[Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*</span></span>
+><span data-ttu-id="3d7ab-104">*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*</span><span class="sxs-lookup"><span data-stu-id="3d7ab-104">*[Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*</span></span>
 
-<span data-ttu-id="0dc6b-105">문서 및 전자 메일을 [레코드](records-management.md#records)로 선언하려면 콘텐츠를 **레코드** 또는 **규제 레코드** 로 표시하는 [보존 레이블](retention.md#retention-labels)을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-105">To declare documents and emails as [records](records-management.md#records), you use [retention labels](retention.md#retention-labels) that mark the content as a **record** or a **regulatory record**.</span></span>
+<span data-ttu-id="3d7ab-105">문서 및 전자 메일을 [레코드](records-management.md#records)로 선언하려면 콘텐츠를 **레코드** 또는 **규제 레코드** 로 표시하는 [보존 레이블](retention.md#retention-labels)을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-105">To declare documents and emails as [records](records-management.md#records), you use [retention labels](retention.md#retention-labels) that mark the content as a **record** or a **regulatory record**.</span></span>
 
-<span data-ttu-id="0dc6b-106">레코드 또는 규제 레코드를 사용할지 확실하지 않은 경우 [허용되거나 차단된 작업에 대한 제한을 비교](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-106">If you're not sure whether to use a record or a regulatory record, see [Compare restrictions for what actions are allowed or blocked](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked).</span></span> <span data-ttu-id="0dc6b-107">규제 레코드를 사용해야 하는 경우 먼저 다음 섹션에 설명된 대로 PowerShell 명령을 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-107">If you need to use regulatory records, you must first run a PowerShell command, as described in the next section.</span></span>
+<span data-ttu-id="3d7ab-106">레코드 또는 규제 레코드를 사용할지 확실하지 않은 경우 [허용되거나 차단된 작업에 대한 제한을 비교](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-106">If you're not sure whether to use a record or a regulatory record, see [Compare restrictions for what actions are allowed or blocked](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked).</span></span> <span data-ttu-id="3d7ab-107">규제 레코드를 사용해야 하는 경우 먼저 다음 섹션에 설명된 대로 PowerShell 명령을 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-107">If you need to use regulatory records, you must first run a PowerShell command, as described in the next section.</span></span>
 
-<span data-ttu-id="0dc6b-108">그런 다음 이러한 레이블을 보존 레이블 정책에 게시하여 사용자와 관리자가 컨텐츠에 적용할 수 있도록 하거나 항목을 레코드(규제 레코드는 아님)로 표시하는 레이블의 경우 레코드를 선언할 컨텐츠에 레이블을 자동으로 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-108">You can then either publish those labels in a retention label policy so that users and administrators can apply them to content, or for labels that mark items as records (but not regulatory records), auto-apply those labels to content that you want to declare a record.</span></span>
+<span data-ttu-id="3d7ab-108">그런 다음 이러한 레이블을 보존 레이블 정책에 게시하여 사용자와 관리자가 컨텐츠에 적용할 수 있도록 하거나 항목을 레코드(규제 레코드는 아님)로 표시하는 레이블의 경우 레코드를 선언할 컨텐츠에 레이블을 자동으로 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-108">You can then either publish those labels in a retention label policy so that users and administrators can apply them to content, or for labels that mark items as records (but not regulatory records), auto-apply those labels to content that you want to declare a record.</span></span>
 
-## <a name="how-to-display-the-option-to-mark-content-as-a-regulatory-record"></a><span data-ttu-id="0dc6b-109">콘텐츠를 규제 레코드로 표시하는 옵션을 표시하는 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-109">How to display the option to mark content as a regulatory record</span></span>
+## <a name="how-to-display-the-option-to-mark-content-as-a-regulatory-record"></a><span data-ttu-id="3d7ab-109">콘텐츠를 규제 레코드로 표시하는 옵션을 표시하는 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-109">How to display the option to mark content as a regulatory record</span></span>
 
 >[!NOTE] 
-> <span data-ttu-id="0dc6b-110">다음 절차는 감사 로그의 [보존 정책 및 보존 레이블 활동](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) 섹션에 있는 **보존 레이블에 대해 사용 설정된 규제 레코드 옵션** 을 로깅하는 감사 작업입니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-110">The following procedure is an auditable action, logging **Enabled regulatory record option for retention labels** in the [Retention policy and retention label activities](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) section of the audit log.</span></span>
+> <span data-ttu-id="3d7ab-110">다음 절차는 감사 로그의 [보존 정책 및 보존 레이블 활동](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) 섹션에 있는 **보존 레이블에 대해 사용 설정된 규제 레코드 옵션** 을 로깅하는 감사 작업입니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-110">The following procedure is an auditable action, logging **Enabled regulatory record option for retention labels** in the [Retention policy and retention label activities](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) section of the audit log.</span></span>
 
-<span data-ttu-id="0dc6b-111">기본적으로 내용을 규제 레코드로 표시하는 보존 레이블 옵션은 보존 레이블 마법사에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-111">By default, the retention label option to mark content as a regulatory record isn't displayed in the retention label wizard.</span></span> <span data-ttu-id="0dc6b-112">이 옵션을 표시하려면 먼저 PowerShell 명령을 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-112">To display this option, you must first run a PowerShell command:</span></span>
+<span data-ttu-id="3d7ab-111">기본적으로 내용을 규제 레코드로 표시하는 보존 레이블 옵션은 보존 레이블 마법사에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-111">By default, the retention label option to mark content as a regulatory record isn't displayed in the retention label wizard.</span></span> <span data-ttu-id="3d7ab-112">이 옵션을 표시하려면 먼저 PowerShell 명령을 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-112">To display this option, you must first run a PowerShell command:</span></span>
 
-1. <span data-ttu-id="0dc6b-113">[Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-113">[Connect to the Office 365 Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).</span></span>
+1. <span data-ttu-id="3d7ab-113">[Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-113">[Connect to the Office 365 Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).</span></span>
 
-2. <span data-ttu-id="0dc6b-114">다음 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-114">Run the following cmdlet:</span></span>
+2. <span data-ttu-id="3d7ab-114">다음 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-114">Run the following cmdlet:</span></span>
     
     ```powershell
     Set-RegulatoryComplianceUI -Enabled $true
     ````
-    <span data-ttu-id="0dc6b-115">확인할 메시지가 없으며 설정이 즉시 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-115">There is no prompt to confirm and the setting takes effect immediately.</span></span>
+    <span data-ttu-id="3d7ab-115">확인할 메시지가 없으며 설정이 즉시 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-115">There is no prompt to confirm and the setting takes effect immediately.</span></span>
 
-<span data-ttu-id="0dc6b-116">보존 레이블 마법사에서 이 옵션을 보는 것에 대한 생각을 변경하면 **false** 값과 동일한 cmdlet을 실행하여 이 옵션을 다시 숨길 수 있습니다. `Set-RegulatoryComplianceUI -Enabled $false`</span><span class="sxs-lookup"><span data-stu-id="0dc6b-116">If you change your mind about seeing this option in the retention label wizard, you can hide it again by running the same cmdlet with the **false** value: `Set-RegulatoryComplianceUI -Enabled $false`</span></span> 
+<span data-ttu-id="3d7ab-116">보존 레이블 마법사에서 이 옵션을 보는 것에 대한 생각을 변경하면 **false** 값과 동일한 cmdlet을 실행하여 이 옵션을 다시 숨길 수 있습니다. `Set-RegulatoryComplianceUI -Enabled $false`</span><span class="sxs-lookup"><span data-stu-id="3d7ab-116">If you change your mind about seeing this option in the retention label wizard, you can hide it again by running the same cmdlet with the **false** value: `Set-RegulatoryComplianceUI -Enabled $false`</span></span> 
 
-## <a name="configuring-retention-labels-to-declare-records"></a><span data-ttu-id="0dc6b-117">레코드를 선언하도록 보존 레이블을 구성하는 중입니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-117">Configuring retention labels to declare records</span></span>
+## <a name="configuring-retention-labels-to-declare-records"></a><span data-ttu-id="3d7ab-117">레코드를 선언하도록 보존 레이블을 구성하는 중입니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-117">Configuring retention labels to declare records</span></span>
 
-<span data-ttu-id="0dc6b-118">Microsoft 365 규정 준수 센터의 **레코드 관리** 솔루션에서 보존 레이블을 생성할 때 항목을 레코드로 표시하는 옵션이 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-118">When you create a retention label from the **Records Management** solution in the Microsoft 365 compliance center, you have the option to mark items as a record.</span></span> <span data-ttu-id="0dc6b-119">이전 섹션에서 PowerShell 명령을 실행한 경우 또는 항목을 규정 레코드로 표시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-119">If you ran the PowerShell command from the previous section, you can alternatively mark items as a regulatory record.</span></span>
+<span data-ttu-id="3d7ab-118">Microsoft 365 규정 준수 센터의 **레코드 관리** 솔루션에서 보존 레이블을 생성할 때 항목을 레코드로 표시하는 옵션이 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-118">When you create a retention label from the **Records Management** solution in the Microsoft 365 compliance center, you have the option to mark items as a record.</span></span> <span data-ttu-id="3d7ab-119">이전 섹션에서 PowerShell 명령을 실행한 경우 또는 항목을 규정 레코드로 표시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-119">If you ran the PowerShell command from the previous section, you can alternatively mark items as a regulatory record.</span></span>
 
-<span data-ttu-id="0dc6b-120">예를 들어 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-120">For example:</span></span>
+<span data-ttu-id="3d7ab-120">예를 들어 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-120">For example:</span></span>
 
 ![콘텐츠를 레코드 또는 규정으로 표시하도록 보존 레이블을 구성합니다.](../media/recordversioning6.png)
 
-<span data-ttu-id="0dc6b-122">이 보존 레이블을 사용하여 필요에 따라 SharePoint 또는 OneDrive 문서 및 Exchange 전자 메일에 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-122">Using this retention label, you can now apply it to SharePoint or OneDrive documents and Exchange emails, as needed.</span></span> 
+<span data-ttu-id="3d7ab-122">이 보존 레이블을 사용하여 필요에 따라 SharePoint 또는 OneDrive 문서 및 Exchange 전자 메일에 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-122">Using this retention label, you can now apply it to SharePoint or OneDrive documents and Exchange emails, as needed.</span></span> 
 
-<span data-ttu-id="0dc6b-123">전체 지침은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-123">For full instructions:</span></span>
+<span data-ttu-id="3d7ab-123">전체 지침은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-123">For full instructions:</span></span>
 
-- [<span data-ttu-id="0dc6b-124">보존 레이블을 만들어 앱에 적용합니다</span><span class="sxs-lookup"><span data-stu-id="0dc6b-124">Create retention labels and apply them in apps</span></span>](create-apply-retention-labels.md)
+- [<span data-ttu-id="3d7ab-124">보존 레이블을 만들어 앱에 적용합니다</span><span class="sxs-lookup"><span data-stu-id="3d7ab-124">Create retention labels and apply them in apps</span></span>](create-apply-retention-labels.md)
 
-- <span data-ttu-id="0dc6b-125">[내용에 보존 레이블을 자동으로 적용합니다](apply-retention-labels-automatically.md)(규제 레코드에 지원되지 않음).</span><span class="sxs-lookup"><span data-stu-id="0dc6b-125">[Apply a retention label to content automatically](apply-retention-labels-automatically.md) (not supported for regulatory records)</span></span>
+- <span data-ttu-id="3d7ab-125">[내용에 보존 레이블을 자동으로 적용합니다](apply-retention-labels-automatically.md)(규제 레코드에 지원되지 않음).</span><span class="sxs-lookup"><span data-stu-id="3d7ab-125">[Apply a retention label to content automatically](apply-retention-labels-automatically.md) (not supported for regulatory records)</span></span>
 
 
-## <a name="applying-the-configured-retention-label-to-content"></a><span data-ttu-id="0dc6b-126">구성된 보존 레이블을 내용에 적용하는 중입니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-126">Applying the configured retention label to content</span></span>
+## <a name="applying-the-configured-retention-label-to-content"></a><span data-ttu-id="3d7ab-126">구성된 보존 레이블을 내용에 적용하는 중입니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-126">Applying the configured retention label to content</span></span>
 
-<span data-ttu-id="0dc6b-127">항목을 기록 또는 규제 레코드로 표시하는 보존 레이블을 앱에서 적용할 수 있는 경우 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-127">When retention labels that mark items as a record or regulatory record are made available for users to apply them in apps:</span></span>
+<span data-ttu-id="3d7ab-127">항목을 기록 또는 규제 레코드로 표시하는 보존 레이블을 앱에서 적용할 수 있는 경우 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-127">When retention labels that mark items as a record or regulatory record are made available for users to apply them in apps:</span></span>
 
-- <span data-ttu-id="0dc6b-128">Exchange의 경우 사서함에 대한 쓰기 권한이 있는 사용자는 이러한 레이블을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-128">For Exchange, any user with write-access to the mailbox can apply these labels.</span></span> 
-- <span data-ttu-id="0dc6b-129">SharePoint 및 OneDrive의 경우 기본 구성원 그룹에 있는 모든 사용자(참가 권한 수준)는 이러한 레이블을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-129">For SharePoint and OneDrive, any user in the default Members group (the Contribute permission level) can apply these labels.</span></span>
+- <span data-ttu-id="3d7ab-128">Exchange의 경우 사서함에 대한 쓰기 권한이 있는 사용자는 이러한 레이블을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-128">For Exchange, any user with write-access to the mailbox can apply these labels.</span></span> 
+- <span data-ttu-id="3d7ab-129">SharePoint 및 OneDrive의 경우 기본 구성원 그룹에 있는 모든 사용자(참가 권한 수준)는 이러한 레이블을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-129">For SharePoint and OneDrive, any user in the default Members group (the Contribute permission level) can apply these labels.</span></span>
 
-<span data-ttu-id="0dc6b-130">보존 레이블을 사용하여 레코드로 표시된 문서 예제:</span><span class="sxs-lookup"><span data-stu-id="0dc6b-130">Example of a document marked as record by using a retention label:</span></span>
+<span data-ttu-id="3d7ab-130">보존 레이블을 사용하여 레코드로 표시된 문서 예제:</span><span class="sxs-lookup"><span data-stu-id="3d7ab-130">Example of a document marked as record by using a retention label:</span></span>
 
 ![레코드로 태그가 지정된 문서에 대한 세부 정보 창](../media/recordversioning7.png)
 
-## <a name="next-steps"></a><span data-ttu-id="0dc6b-132">다음 단계</span><span class="sxs-lookup"><span data-stu-id="0dc6b-132">Next steps</span></span>
+## <a name="searching-the-audit-log-for-labeled-items-that-were-declared-records"></a><span data-ttu-id="3d7ab-132">레코드로 선언된 레이블이 지정된 항목에 대한 감사 로그 검색</span><span class="sxs-lookup"><span data-stu-id="3d7ab-132">Searching the audit log for labeled items that were declared records</span></span>
 
-<span data-ttu-id="0dc6b-133">레코드 관리에서 지원되는 기타 시나리오 목록은 [레코드 관리에 대한 일반적인 시나리오](get-started-with-records-management.md#common-scenarios-for-records-management)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="0dc6b-133">For a list of scenarios supported by records management, see [Common scenarios for records management](get-started-with-records-management.md#common-scenarios-for-records-management).</span></span>
+<span data-ttu-id="3d7ab-133">레코드로 항목을 선언하는 레이블 지정 작업은 감사 로그에 기록됩니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-133">The actions of labeling to declare items as records are logged in the audit log.</span></span>
+
+<span data-ttu-id="3d7ab-134">SharePoint 항목의 경우:</span><span class="sxs-lookup"><span data-stu-id="3d7ab-134">For SharePoint items:</span></span> 
+- <span data-ttu-id="3d7ab-135">**파일 및 페이지 활동** 에서 **파일의 보존 레이블 변경** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-135">From **File and page activities**, select **Changed retention label for a file**.</span></span> <span data-ttu-id="3d7ab-136">이 감사 이벤트는 항목을 레코드, 규제 레코드로 표시하거나 표준 보존 레이블인 보존 레이블에 대한 이벤트입니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-136">This audit event is for retention labels that mark items as records, regulatory records, or that are standard retention labels.</span></span>
+
+<span data-ttu-id="3d7ab-137">Exchange 항목의 경우:</span><span class="sxs-lookup"><span data-stu-id="3d7ab-137">For Exchange items:</span></span>
+- <span data-ttu-id="3d7ab-138">**Exchange 사서함 활동** 에서 **레이블이 지정된 메시지를 레코드로** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-138">From **Exchange mailbox activities**, select **Labeled message as a record**.</span></span> <span data-ttu-id="3d7ab-139">이 감사 이벤트는 항목을 레코드 또는 규제 레코드로 표시하는 보존 레이블에 대한 이벤트입니다.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-139">This audit event is for retention labels that mark items as records or regulatory records.</span></span>
+
+<span data-ttu-id="3d7ab-140">이러한 이벤트를 검색하는 방법에 대한 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-140">For more information about searching for these events, see [Search the audit log in the Security & Compliance Center](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities).</span></span>
+
+## <a name="next-steps"></a><span data-ttu-id="3d7ab-141">다음 단계</span><span class="sxs-lookup"><span data-stu-id="3d7ab-141">Next steps</span></span>
+
+<span data-ttu-id="3d7ab-142">레코드 관리에서 지원되는 기타 시나리오 목록은 [레코드 관리에 대한 일반적인 시나리오](get-started-with-records-management.md#common-scenarios-for-records-management)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3d7ab-142">For a list of scenarios supported by records management, see [Common scenarios for records management](get-started-with-records-management.md#common-scenarios-for-records-management).</span></span>

@@ -75,13 +75,13 @@
         - name: 21Vianet에서 운영하는 Office 365 정보
           href: services-in-china/services-in-china.md
         - name: 구독 구입 또는 체험
-          href: services-in-china/buy-or-try-subscriptions.md
+          href: ../commerce/try-or-buy-microsoft-365.md?view=o365-21vianet
         - name: 21Vianet에서 운영하는 Office 365용 Android Office 앱 다운로드
           href: services-in-china/download-office-app-for-Android.md
         - name: 21Vianet에서 운영하는 Office 365용 iOS Office 앱 다운로드
           href: services-in-china/download-office-app-for-iOS.md
         - name: 청구서 보기 또는 Fapiao 가져오기
-          href: services-in-china/view-your-bill-or-get-a-fapiao.md
+          href: ../commerce/billing-and-payments/view-your-bill-or-invoice.md?view=o365-21vianet
         - name: Fapiao 신청
           href: services-in-china/apply-for-a-fapiao.md
         - name: Azure Information Protection 지원

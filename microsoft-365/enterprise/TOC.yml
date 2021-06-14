@@ -265,7 +265,7 @@
         - name: 데이터 이동 도중 및 이후
           href: during-and-after-your-data-move.md
         - name: 데이터 이동 일반 FAQ
-          href: data-move-faq.md
+          href: data-move-faq.yml
         - name: 고객 데이터가 저장되는 위치
           href: o365-data-locations.md
         - name: 유럽 연합의 데이터 위치
