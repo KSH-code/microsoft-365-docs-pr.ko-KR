@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: 앱 관리 정책을 생성, 편집 또는 삭제하고 Android 또는 iOS 디바이스에서 작업 파일을 보호하는 방법을 학습합니다.
-ms.openlocfilehash: 2e157737990c7aca6e87a676e90f62f0d40ad372
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 92dce1e8761e53b85df85f2a84f30ab307f63e6d
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580297"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925066"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 설정하기
 
@@ -81,10 +81,10 @@ ms.locfileid: "51580297"
 ### <a name="settings-that-protect-work-files"></a>업무 파일을 보호하는 설정
 
 사용자가 장치를 분실하거나 도난당한 경우 다음과 같은 설정을 사용하여 업무 파일을 보호할 수 있습니다.
-  
-|||
-|:-----|:-----|
+
+
 |설정  <br/> |설명  <br/> |
+|:-----|:-----|
 |이 기간이 지난 후 비활성 장치에서 업무 파일 삭제  <br/> |여기서 지정한 일 수 동안 디바이스를 사용하지 않으면 장치에 저장된 모든 작업 파일이 자동으로 삭제됩니다.  <br/> |
 |사용자가 모든 업무 파일을 비즈니스용 OneDrive에 저장하도록 강제 적용  <br/> |이 설정이 **으로** 설정되어 있는 경우 작업 파일에 사용할 수 있는 유일한 저장 위치는 비즈니스용 OneDrive.  <br/> |
 |업무 파일 암호화  <br/> |업무 파일이 암호화로 보호되도록 이 설정을 **켜짐** 으로 둡니다. 장치를 분실하거나 도난당한 경우에도 누구도 회사 데이터를 읽을 수 없습니다.  <br/> |
@@ -92,10 +92,10 @@ ms.locfileid: "51580297"
 ### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>사용자가 모바일 장치에서 Office 파일에 액세스하는 방법을 제어하는 설정
 
 사용자가 Office 작업 파일을 액세스하는 방법을 관리할 때 다음과 같은 설정을 사용할 수 있습니다.
-  
-|||
-|:-----|:-----|
+
+
 |설정  <br/> |설명  <br/> |
+|:-----|:-----|
 |Office 앱 액세스에 PIN 또는 지문 필요  <br/> |이 설정이 **On인** 경우 사용자는 자신의 사용자 이름 및 암호와 함께 다른 형태의 인증을 제공해야 모바일 장치에서 Office 사용할 수 있습니다.<br/> |
 |PIN을 재설정할 로그인 실패 횟수  <br/> |권한 없는 사용자가 PIN을 임의로 추측하는 것을 방지하기 위해 사용자가 지정한 횟수만큼 잘못된 PIN이 입력되면 PIN을 재설정합니다.  <br/> |
 |Office 앱이 이 시간 동안 유휴 상태인 경우 사용자 다시 로그인 필요  <br/> |이 설정은 다시 로그인하라는 메시지가 표시되기 전에 사용자가 유휴일 수 있는 기간을 결정하는 설정입니다.  <br/> |

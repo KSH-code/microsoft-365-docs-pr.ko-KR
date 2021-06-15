@@ -29,12 +29,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 공유를 위해 OneDrive 및 팀 사이트를 Microsoft 365 방법을 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: f94ff8a60b1b4691b36ec2e1bd04088d96b1af8c
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 3ededbf2899ffd45915ad25370d5e5c93906c862
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635645"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924614"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>파일 저장소 및 공유를 Microsoft 365
 
@@ -56,12 +56,12 @@ ms.locfileid: "52635645"
   
 ![Microsoft 365 또는 팀 사이트를 사용하는 OneDrive 다이어그램](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
-다음은 사이트 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 OneDrive 권장 사항입니다.
+다음은 사이트 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 OneDrive 권장 사항입니다.<br/>
+
   
-||||
+|저장소 위치|What's for|저장할 콘텐츠|
 |:-----|:-----|:-----|
-|**저장 위치** <br/> |**용도** <br/> |**저장할 콘텐츠** <br/> |
-|**OneDrive** <br/> |컴퓨터에 OneDrive 저장하는 것은 컴퓨터에 파일을 저장하는 것입니다. 다른 누구도 쉽게 액세스할 수 없습니다.  <br/> 자세한 내용은 What [is 비즈니스용 OneDrive?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) <br/> |다른 팀 구성원은 정기적으로 액세스하거나 공동 작업을 할 필요가 없는 업무용 파일.  <br/> |
+|**OneDrive** |컴퓨터에 OneDrive 저장하는 것은 컴퓨터에 파일을 저장하는 것입니다. 다른 누구도 쉽게 액세스할 수 없습니다.<br/> 자세한 내용은 What [is 비즈니스용 OneDrive?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) <br/> |다른 팀 구성원은 정기적으로 액세스하거나 공동 작업을 할 필요가 없는 업무용 파일.<br/> |
 |**SharePoint 팀 사이트** <br/> |공동 작업. Microsoft 365 그룹(예: Microsoft 365 관리 센터, Outlook 또는 Microsoft Teams에서 팀 만들기)을 만들면 해당 그룹에 대해 SharePoint 팀 사이트가 만들어집니다. 마찬가지로 SharePoint 홈 페이지 또는 새 SharePoint SharePoint 관리 센터에서 새 SharePoint 팀 사이트를 만들면 Microsoft 365 그룹도 만듭니다. 자세한 내용은 온라인에서 팀 [SharePoint란?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) 및 [Create a team site in SharePoint 참조하세요.](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d)  <br/> |소유권이 공유되는 파일입니다. 조직의 각 작업 단위에 대해 팀 사이트를 구분하는 것이 좋습니다. 예를 들어 직원 및 재무 문서를 소규모 팀에 비공개로 유지하기 위해 별도의 팀 사이트를 만들 수 있습니다.  <br/> |
 
 > [!NOTE]

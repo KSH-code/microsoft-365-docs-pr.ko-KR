@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: c1baf7fcd9189973864929550b19ca6e32d499ae
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+description: 관리자 역할은 비즈니스 기능에 매핑되어 관리 센터에서 특정 작업을 수행할 수 있는 권한을 제공합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
+ms.openlocfilehash: 4e2b1db207a2a590855f7fb2d0bf2019d4b57ea5
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706205"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924566"
 ---
 # <a name="get-started-with-the-roles-page"></a>역할 페이지 시작
 
@@ -41,11 +41,12 @@ ms.locfileid: "52706205"
 
 ![관리자 역할 필터링 또는 가져오기](../../media/admin-role-page-options.png)
 
-|||
-|:-----|:-----|
-|  <br/> |관리자 **목록 내보내기 를** 사용하여 조직의 모든 관리자 사용자의 전체 목록을 얻습니다. 목록은 Excel .csv 저장됩니다.   <br/> |
-|  <br/> |**검색을** 사용하여 관리자 역할을 검색하고 해당 역할에 할당된 사용자를 볼 수 있습니다.   <br/> |
-|  <br/> |**Filter를** 사용하여 표시된 관리자 역할의 보기를 변경합니다.   <br/> |
+- 관리자 목록 내보내기 를 사용하여 조직의 모든 관리자 사용자의 전체 목록을 얻습니다. 목록은 Excel .csv 저장됩니다.
+
+- 검색을 사용하여 관리자 역할을 검색하고 해당 역할에 할당된 사용자를 볼 수 있습니다.
+
+- Filter를 사용하여 표시된 관리자 역할의 보기를 변경합니다.
+
 
 ## <a name="get-the-most-out-of-the-roles"></a>역할을 가장 잘
 

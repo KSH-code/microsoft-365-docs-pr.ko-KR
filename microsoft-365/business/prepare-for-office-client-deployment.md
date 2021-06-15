@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Windows 10 컴퓨터에 32비트 Office 앱을 자동으로 설치하고 업데이트된 Windows 10 방법을 배워야 합니다.
-ms.openlocfilehash: 868d06fadfef0f55b41131b7fdfbb368b9128405
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 843be426d817da1173769b3b66dc4c054179f0fd
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580057"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924230"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>비즈니스용 Office 클라이언트 배포를 Microsoft 365 준비
 
@@ -59,14 +59,15 @@ ms.locfileid: "51580057"
     
 - 2016 Windows Installer(MSI) 독립 실행형 앱(예: Visio 또는 Project)을 **보유하지 않은** 경우. Microsoft 365 비즈니스용 업그레이드는 Office 2016의 Click-to-Run 버전으로 Office 2016 MSI 독립 실행형 Office 작동하지 않습니다. 
     
-다음 표에는 비즈니스용 Microsoft 365 콘솔에서 32비트의 32비트 Click-to-Run 버전을 성공적으로 배포하기 위해 최종 사용자/관리자가 시작 상태와 관계없이 Office 수 있는 작업을 보여 줄 수 있습니다.
-  
-|**Office 설치 시작 상태**|**비즈니스용 비즈니스 Microsoft 365 설치하기 Office 작업**|**종료 상태**|
+다음 표에는 비즈니스용 Microsoft 365 콘솔에서 32비트의 32비트 Click-to-Run 버전을 성공적으로 배포하기 위해 최종 사용자/관리자가 시작 상태와 관계없이 Office 수 있는 작업을 보여 줄 수 있습니다.<br/>
+
+
+|Office 설치 시작 상태|비즈니스용 비즈니스 Microsoft 365 설치하기 Office 작업|최종 상태|
 |:-----|:-----|:-----|
 |설치된 Office 제품군이 없는 경우  <br/> |없음  <br/> |Office 사용하여 2016 32비트 설치  <br/> |
 |간편 실행 32비트 버전의 Office(2016 이하)가 있고 독립 실행형 앱이 없는 경우  <br/> |없음  <br/> |Upgraded to the latest 32-bit Click-to-Run version of Office 2016, as needed **\*** <br/> |
 |기존 Click-to-Run 32비트 버전의 Office 및 32비트 또는 64비트 독립 실행형 Office 앱(예: Visio, Project)  <br/> |없음  <br/> |독립 실행형 앱은 영향을 받지 않습니다. 제품군이 간편 실행 32비트 버전의 Office 2016으로 업그레이드됩니다.  <br/> |
-|간편 실행 32비트 버전의 Office 및 32비트 또는 64비트(2016 제외) MSI 독립 실행형 Office 앱이 있는 경우  <br/> |없음  <br/> |독립 실행형 앱은 영향을 받지 않습니다. 제품군이 간편 실행 32비트 버전의 Office 2016으로 업그레이드됩니다.  <br/> ||||
+|간편 실행 32비트 버전의 Office 및 32비트 또는 64비트(2016 제외) MSI 독립 실행형 Office 앱이 있는 경우  <br/> |없음  <br/> |독립 실행형 앱은 영향을 받지 않습니다. 제품군이 간편 실행 32비트 버전의 Office 2016으로 업그레이드됩니다.  <br/> |
 |간편 실행 64비트 버전의 Office가 있는 경우  <br/> |64비트 Office 앱을 32비트 앱으로 바꾸면 됩니다Office 제거  <br/> |Office 64비트 앱이 제거된 경우 간편 실행 32비트 버전의 Office 2016이 설치됩니다.  <br/> |
 |독립 실행형 앱 유무와 상관없이 Office 2016의 MSI 설치가 있는 경우  <br/> |MSI Office 2016을 제거합니다.  <br/> |간편 실행 32비트 버전의 Office 2016이 설치됩니다. 독립 실행형 앱은 변경되지 않습니다.  <br/> |
 |Office 2013(또는 이전 버전)의 MSI 설치 및/또는 독립 실행형 Office 앱이 있는 경우  <br/> |없음  <br/> |기존 MSI Office 설치가 포함된 간편 실행 32비트 버전의 Office 2016과 독립 실행형 앱이 함께 존재합니다.  <br/> |

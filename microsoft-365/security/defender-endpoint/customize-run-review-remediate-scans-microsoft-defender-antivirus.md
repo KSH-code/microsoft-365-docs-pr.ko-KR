@@ -1,5 +1,5 @@
 ---
-title: 예약된 검사 및 필요에 따라 검사 실행 및 사용자 지정
+title: 예약된 검사 및 필요에 따라 스캔을 실행하고 사용자 지정합니다.
 description: 네트워크의 끝점에서 Microsoft Defender 바이러스 백신 사용자 지정 및 시작
 keywords: 검사, 예약, 사용자 지정, 제외, 파일 제외, 수정, 검사 결과, 검지, 위협 제거, 빠른 검사, 전체 검사, Microsoft Defender 바이러스 백신
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 31dbfa2ac6d5537f6d42c0bad612be5ef059368d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: bce3fe1b6490803cb571a1a8a2387c19cc589114
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275279"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926250"
 ---
 # <a name="customize-initiate-and-review-the-results-of-microsoft-defender-antivirus-scans-and-remediation"></a>사용자 지정, 시작 및 재구성 결과 Microsoft Defender 바이러스 백신 검토
 

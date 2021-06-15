@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대한 이러한 보안 권장 Microsoft 365 Business Premium 사용자에게 영향을 미치고 데이터를 보호하는 방법을 알아보습니다.
-ms.openlocfilehash: b8464396887daa408e94cfb6c151d998dd8b1ae2
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: ce64189d721bc3eb356a39f431af01e67973516a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398232"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924258"
 ---
 # <a name="how-these-security-recommendations-affect-your-users"></a>이러한 보안 권장 사항이 사용자에게 미치는 영향
 
@@ -70,9 +70,9 @@ ms.locfileid: "51398232"
 
 **BYOD 및 Mac 장치에서 기본 Windows 10 사용**
 
-| |**Windows 10**|**Mac**|
-|:-----|:-----|:------|
-|보안 기능|장치 BitLocker 켜기<p><p> 계속 Windows Defender 확인 <p>방화벽 Windows 켜기| FileVault를 사용하여 Mac 디스크 암호화 <p><p>신뢰할 수 있는 바이러스 백신 소프트웨어 사용 <p>방화벽 보호 켜기|
+|**Windows 10**|**Mac**|
+|:-----|:------|
+|장치 BitLocker 켜기<p><p> 계속 Windows Defender 확인 <p>방화벽 Windows 켜기| FileVault를 사용하여 Mac 디스크 암호화 <p><p>신뢰할 수 있는 바이러스 백신 소프트웨어 사용 <p>방화벽 보호 켜기|
 
 이러한 권장 사항에 대한 자세한 내용은 해커 및 맬웨어로부터 계정 및 [장치 보호를 참조하세요.](https://support.office.com/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10)
 

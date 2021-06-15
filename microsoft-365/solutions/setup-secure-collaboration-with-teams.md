@@ -17,12 +17,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 민감도에 따라 데이터를 보호하기 위해 Teams 콘텐츠 공동 작업을 설정하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 12c8bfd2c7c59e1cc4dcf149e394d2c7dc456530
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7a5b8f58cc5e4a23d2d143419f99ecdd87b949c1
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539062"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924362"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>보안 및 보안 Microsoft 365 설정 Microsoft Teams
 
@@ -178,7 +178,7 @@ Microsoft Learn의 이러한 교육 모듈은 사용자 및 서비스에서 공�
 |:---|:---|
 |![팀 교육 아이콘 설정 및 사용자 지정](../media/set-up-customize-team-training.png)<br>**[팀 설정 및 사용자 지정](https://support.microsoft.com/office/702a2977-e662-4038-bef5-bdf8ee47b17b)**|![SharePoint 공유 및 동기화 교육 아이콘](../media/sharepoint-share-sync-training.png)<br>**[공유 및 동기화](https://support.microsoft.com/office/98cb2ff2-c27e-42ea-b055-c2d895f8a5de)**|
 |![Teams 파일 업로드 및 찾기 교육 아이콘](../media/smc-teams-upload-find-files-training.png)<br>**[업로드 파일 찾기](https://support.microsoft.com/office/57b669db-678e-424e-b0a0-15d19215cb12)**||
-|![팀 및 채널 아이콘으로 공동 작업](../media/teams-collaborate-channels-training.png)<br>**[팀 및 채널에서 공동 작업](https://support.microsoft.com/office/c3d63c10-77d5-4204-a566-53ddcf723b46)**|||
+|![팀 및 채널 아이콘으로 공동 작업](../media/teams-collaborate-channels-training.png)<br>**[팀 및 채널에서 공동 작업](https://support.microsoft.com/office/c3d63c10-77d5-4204-a566-53ddcf723b46)**||
 
 ## <a name="illustrations"></a>그림
 

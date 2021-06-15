@@ -7,14 +7,16 @@ author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
+manager: laurawi
+ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5961ac4eb16928754849f5f32ecd06d4d2e4650d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6d93bf492f7cfea5a1ff863205085d853c4bbadb
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917719"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925434"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>업데이트가 업데이트에서 처리되는 Microsoft Managed Desktop
 
@@ -38,7 +40,7 @@ Microsoft Managed Desktop 4개의 Azure AD 그룹을 사용하여 업데이트�
 - **광범위:** 기능 및 품질 업데이트를 사용할 수 있는 마지막 그룹입니다. 이 그룹은 테넌트에 있는 대부분의 사용자를 포함하므로 배포 속도보다 안정성을 선호합니다. 환경이 가장 안정적이기에 따라 여기에서 앱 테스트를 완료해야 합니다. 
 
 ### <a name="moving-devices-between-update-groups"></a>업데이트 그룹 간에 장치 이동
-일부 장치에서 마지막으로 업데이트를 받게 하려는 장치와 먼저 이동하려는 디바이스가 있을 수 있습니다. 이러한 장치를 적절한 업데이트 그룹으로 이동하기 위해 [관리자](../working-with-managed-desktop/admin-support.md?view=o365-worldwide) 지원 요청을 제출하고 장치를 자동으로 이동합니다. 
+일부 장치에서 마지막으로 업데이트를 받게 하려는 장치와 먼저 이동하려는 디바이스가 있을 수 있습니다. 이러한 장치를 적절한 업데이트 그룹으로 이동하기 위해 [관리자](../working-with-managed-desktop/admin-support.md) 지원 요청을 제출하고 장치를 자동으로 이동합니다. 
 
 > [!NOTE]
 > 사용자를 다른 업데이트 그룹으로 이동해야 하는 경우 지원 요청을 제출합니다. 업데이트 그룹 간에 장치를 직접 이동하지 마십시오. 장치가 잘못 이동하면 심각한 결과가 발생할 수 있습니다. 장치가 예기치 않게 업데이트될 수 있으며 정책이 충돌하여 장치 구성이 변경될 수 있습니다.

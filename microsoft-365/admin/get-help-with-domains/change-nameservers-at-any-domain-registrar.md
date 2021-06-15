@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 Microsoft 365 같은 서비스가 자체 도메인 이름을 사용할 수 있도록 비즈니스용 Skype 도메인을 추가하고 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 7f1ade6cb3013126fb011fe9232b3b4c2e9a82d4
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 9c26f9afcf17857c4b3b8f05b89253272cf20e56
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683130"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924506"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>도메인 등록 기관에서 이름 Microsoft 365 설정
 
@@ -66,18 +66,17 @@ Microsoft 365에서 사용자 도메인을 사용하려면 먼저 도메인을 �
   
 **TXT 레코드를 만드는 경우 다음 값을 사용합니다.**
     
-|||||
+
+|레코드 유형<br/> |별칭 또는 호스트 이름 <br/> |값 <br/> |TTL<br/> |
 |:-----|:-----|:-----|:-----|
-|**Record Type(레코드 종류)** <br/> |**Alias(별칭)** 또는 **Host Name(호스트 이름)** <br/> |**Value(값)** <br/> |**TTL** <br/> |
 |TXT  <br/> |다음 중 하나를 수행합니다. **@** 을 입력하거나 필드를 비워 두거나 도메인 이름을 입력합니다.      <br/> > [!NOTE]> 이 필드의 경우 각 DNS 호스트마다 요구 사항이 다릅니다.           
-|MS=ms *XXXXXXXX*  <br/> > [!NOTE]> 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다.  <br/> |
+|MS=ms *XXXXXXXX*  <br/>**참고:** 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다.  <br/> |
    
 **MX 레코드를 만드는 경우 다음 값을 사용합니다.**
     
-||||||
+|레코드 유형|별칭 또는 호스트 이름|값|우선 순위|TTL|
 |:-----|:-----|:-----|:-----|:-----|
-|**Record Type(레코드 종류)**|**Alias(별칭)** 또는 **Host Name(호스트 이름)**|**Value(값)**|**Priority(우선 순위)**|**TTL**|
-|MX|**@** 또는 도메인 이름을 입력합니다. |MS=ms *XXXXXXXX* > [!NOTE]> 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |**우선 순위** 의 경우, 메일 흐름에 사용되는 MX 레코드와의 충돌을 피하기 위해 기존 MX 레코드의 우선 순위보다 낮은 우선 순위를 사용합니다. 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다. |
+|MX|**@** 또는 도메인 이름을 입력합니다. |MS=ms *XXXXXXXXX* **참고:** 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |**우선 순위** 의 경우, 메일 흐름에 사용되는 MX 레코드와의 충돌을 피하기 위해 기존 MX 레코드의 우선 순위보다 낮은 우선 순위를 사용합니다. 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다. |
    
 ### <a name="save-the-record"></a>레코드 저장
 
@@ -110,13 +109,12 @@ Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 
 1. 도메인 등록 기관의 웹 사이트에서 도메인 또는 사용자 지정 이름 서비스를 사용할 수 있는 영역의 이름 서비스를 변경할 수 있는 영역을 찾아야 합니다.
     
 2. 이름 서비스 레코드를 만들거나 다음 값과 일치하게 기존 이름 서비스 레코드를 편집합니다.
-    
-|||
-|:-----|:-----|
-|첫 번째 이름 서버  <br/> |ns1.bdm.microsoftonline.com  <br/> |
-|두 번째 이름 서버  <br/> |ns2.bdm.microsoftonline.com  <br/> |
-|세 번째 이름 서버  <br/> |ns3.bdm.microsoftonline.com  <br/> |
-|네 번째 이름 서버  <br/> |ns4.bdm.microsoftonline.com  <br/> |
+
+    - 이름 서비스: ns1.bdm.microsoftonline.com
+    - 두 번째 이름 ns2.bdm.microsoftonline.com
+    - 세 번째 이름 ns3.bdm.microsoftonline.com
+    - 네 번째 이름 ns4.bdm.microsoftonline.com
+      
    
    > [!TIP]
    > 4개의 레코드를 모두 추가하는 것이 가장 되지만 등록 기관에서 두 개의 레코드만 지원하는 경우 를 추가하고 ns1.bdm.microsoftonline.com **ns2.bdm.microsoftonline.com.** 
@@ -133,12 +131,10 @@ Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 
 1. 도메인 등록 기관의 웹 사이트에서 도메인의 이름 서버를 편집할 수 있는 영역을 찾습니다.
     
 2. 이름 서버 레코드를 두 개 만들거나 기존 이름 서버 레코드를 다음 값과 일치하도록 편집합니다.
+
+   - 이름 서비스: ns1.dns.partner.microsoftonline.cn
+   - 두 번째 이름 ns2.dns.partner.microsoftonline.cn
     
-|||
-|:-----|:-----|
-|첫 번째 이름 서버  <br/> |ns1.dns.partner.microsoftonline.cn  <br/> |
-|두 번째 이름 서버  <br/> |ns2.dns.partner.microsoftonline.cn  <br/> |
-   
    > [!TIP]
    > 이름 서비스 레코드를 두 개 이상 사용해야 합니다. 나열된 다른 이름servers가 있는 경우 해당 이름을 삭제하거나 에서 으로 ns3.dns.partner.microsoftonline.cn **ns4.dns.partner.microsoftonline.cn.** 
   

@@ -11,18 +11,18 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.topic: article
 ms.date: 05/17/2021
-ms.openlocfilehash: 2d212bedf9033b0824d32e7f42afea3944d9ca67
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: f6217cccf79b951c3103e1024ac74669d68645cd
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782816"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925938"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -78,10 +78,10 @@ ms.locfileid: "52782816"
 
 | 변조 방지를 사용하도록 설정하는 방법  | MAPS에 대한 종속성(클라우드 제공 보호)    |
 |:----|:----|
-| Microsoft Intune  | 아니요. |
-| Microsoft Endpoint Configuration Manager + 테넌트 첨부  |     아니요.  |
-| Microsoft Defender 보안 센터( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     네. |
-| Microsoft 365 보안 센터( [https://security.microsoft.com](https://security.microsoft.com) )  |     네.  |
+| Microsoft Intune  | 아니요 |
+| Microsoft Endpoint Configuration Manager + 테넌트 첨부  |     아니요  |
+| Microsoft Defender 보안 센터( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     예 |
+| Microsoft 365 보안 센터( [https://security.microsoft.com](https://security.microsoft.com) )  |     예  |
 
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>조직에 대한 변조 방지를 Microsoft Defender 보안 센터
 

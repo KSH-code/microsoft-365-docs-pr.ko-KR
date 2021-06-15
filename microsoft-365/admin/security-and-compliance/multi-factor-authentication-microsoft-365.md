@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: MFA(다단계 인증)는 강력한 암호와 추가 확인 방법을 모두 사용합니다.
-ms.openlocfilehash: 6e1c43bdd66849a0043c0a1a927f48d925e0806e
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: d9af486cf5e53609557b519612f185a20729cf76
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635777"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924734"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Microsoft 365에 대한 다단계 인증 사용
 
@@ -150,7 +150,7 @@ Microsoft 365 관리 센터의 **활성 사용자** 창에서 개별 사용자 �
 
 이 표는 보안 기본값, 조건부 액세스 정책 및 사용자별 계정 설정으로 MFA를 활성화한 결과를 보여줍니다.
 
-||사용|사용 안 함|보조 인증 방법|
+|*항목*|사용|사용 안 함|보조 인증 방법|
 |---|---|---|---|
 |**보안 기본값**|조건부 액세스 정책을 사용할 수 없습니다.|조건부 액세스 정책을 사용할 수 있습니다|Microsoft Authenticator 앱|
 |**조건부 액세스 정책**|사용하도록 설정된 경우 보안 기본값을 사용하도록 설정할 수 없습니다.|상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한 |MFA 등록 중 사용자 지정|

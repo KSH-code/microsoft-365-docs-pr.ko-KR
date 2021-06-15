@@ -1,7 +1,7 @@
 ---
 title: Endpoint 위협 분석을 위한 Microsoft Defender를 사용하여 새로운 위협 추적 및 대응
 ms.reviewer: ''
-description: 새로운 위협 및 공격 기술과 이를 중지하는 방법에 대해 자세히 알아보십시오. 조직에 미치는 영향을 평가하고 조직 탄력성 평가
+description: 새로운 위협 및 공격 기술 및 이를 중지하는 방법을 이해합니다. 조직에 미치는 영향을 평가하고 조직 탄력성 평가
 keywords: 위협 분석, 위험 평가, OS 완화, 마이크로코드 완화, 완화 상태
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 61b6b0c19730045468c77e5f24bf18470aa5dbd5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 63303f9eacd25a8de1c7154ac66c73578bfd495a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688264"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924458"
 ---
-# <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>위협 분석을 사용하여 새로운 위협 추적 및 대응 
+# <a name="track-and-respond-to-emerging-threats-through-threat-analytics"></a>위협 분석을 통해 새로운 위협 추적 및 대응
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

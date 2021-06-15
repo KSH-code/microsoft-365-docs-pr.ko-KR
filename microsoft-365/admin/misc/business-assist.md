@@ -16,12 +16,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 비즈니스 지원 프로그램에 대해 알아보고 비즈니스용 비즈니스용 앱에 대한 향상된 도움말 및 사용법을 통해 조직에 도움이 되는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: ee0884ec1c95795a6a7847dfeaffdfcb2fac4beb
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 1df0be7d53f01b83e76dd70741d043f0a6a1e0e4
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52768984"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924590"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Microsoft 365용 비즈니스 도우미
 
@@ -33,7 +33,7 @@ ms.locfileid: "52768984"
 
 |&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|**빠르게 시작 및 실행** <br> 중소기업 전문가와 함께 비즈니스를 보호하고 Microsoft 365 기능을 설정하고 전문가의 모습을 제공합니다. |**비즈니스 내 모든 사용자 지원** <br> IT 책임자 뿐만 아니라 모든 직원은 보다 빠른 지속적인 지원을 위해 Microsoft 전문가에게 직접 연락할 수 있습니다. |**비즈니스 잠재력 잠금 해제** <br> 사용률이 약한 기능에 대해 알아보고 구독에서 더 많은 가치를 얻을 수 있는 방법에 대한 조언을 얻습니다. |
+|중소기업 전문가와 함께 비즈니스를 보호하고 Microsoft 365 기능을 설정하고 전문가의 모습을 제공합니다. |IT 책임자 뿐만 아니라 모든 직원은 보다 빠른 지속적인 지원을 위해 Microsoft 전문가에게 직접 연락할 수 있습니다. |사용률이 약한 기능에 대해 알아보고 구독에서 더 많은 가치를 얻을 수 있는 방법에 대한 조언을 얻습니다. |
 |**클라우드 마이그레이션 가속화** <br> 모든 현재 파일(전자 메일, 저장소, 문서 및 통신)을 사용자 설정으로 이동하는 데 도움이 Microsoft 365. |**접근성 있는 전문가** <br> 팀에서 마지막으로 남은 대화를 선택하게 됩니다. 추적할 티켓이 없음, 로봇이 아니며, 더 이상 기다리지 않습니다. |**최신 상태로 유지** <br> 새로운 서비스 기능이 추가되어 회사의 요구가 진화함에 따라 최신 정보를 확인할 수 있는 정기적인 체크업입니다. |
 | | | |
 

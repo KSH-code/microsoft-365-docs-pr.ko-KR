@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 피싱, Office 365 및 기타 위협으로부터 중요한 데이터를 보호하고 보호할 수 있는 Microsoft Defender를 설정하십시오.
-ms.openlocfilehash: 4b5142efbf4392f017cd9b96f6a9c36ef2000bb7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: a995063cef6fdc42ad62079d49d58edc9d07b52c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245147"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924322"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -81,8 +81,8 @@ ms.locfileid: "52245147"
 
 6. **저장** 을 선택합니다.
 
-|설정|파일 첨부 파일을 열기 전에 Office 경고||
-|---|---|---|
+|설정|파일 첨부 파일을 열기 전에 Office 경고|
+|---|---|
 |이름|랜섬웨어 방지 규칙: 사용자에게 경고|
 |이 경우 이 규칙을 적용합니다. . .|모든 첨부 파일 . . . 파일 확장명은 을 일치합니다. . .|
 |단어 또는 구 지정|다음 파일 형식을 추가합니다.  <br/> dotm, docm, xlsm, sltm, xla, xlam, xll, pptm, potm, ppam, ppsm, sldm|

@@ -1,6 +1,6 @@
 ---
 title: 끝점 배포를 위한 Microsoft Defender 준비
-description: 끝점용 Microsoft Defender를 배포할 때 이해 관계자 승인, 일정, 환경 고려 사항 및 채택 순서 준비
+description: 끝점용 Microsoft Defender 배포를 위한 이해 관계자 승인, 일정, 환경 고려 사항 및 채택 순서 준비
 keywords: 배포, 준비, 관련자, 타임라인, 환경, 끝점, 서버, 관리, 채택
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 13748662f6e53db86352b903828978729f78e6a8
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: fb10e65258f6264b21851f8325b97b1bad19bf16
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842437"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925654"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 준비
 
@@ -105,7 +105,7 @@ Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지�
 
 비즈니스 사유가 있는 사용자만 끝점용 Defender에 액세스할 수 있도록 RBAC를 활용하는 것이 좋습니다.
 
-사용 권한 지침에 대한 자세한 내용은 에서 찾을 수 [있습니다.](/microsoft-365/security/defender-endpoint/user-roles#create-roles-and-assign-the-role-to-an-azure-active-directory-group)
+사용 권한 지침에 대한 자세한 내용은 역할 만들기 및 역할 할당에서 Azure Active Directory [있습니다.](/microsoft-365/security/defender-endpoint/user-roles#create-roles-and-assign-the-role-to-an-azure-active-directory-group)
 
 다음 예제 표는 환경에 필요한 RBAC 구조를 확인하는 데 도움이 되는 환경의 Cyber Defense Operations Center 구조를 식별하는 데 도움이 됩니다.
 
@@ -135,5 +135,6 @@ Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지�
 
 ## <a name="next-step"></a>다음 단계
 
-![2 단계: 설정](images/setup.png) <br>[2단계: 설치](production-deployment.md) | 끝점 배포를 위한 Microsoft Defender 설정
-
+|||
+|:-------|:-----|
+|![2 단계: 설정](images/setup.png) <br>[2 단계: 설정](production-deployment.md) | 끝점 배포를 위한 Microsoft Defender 설정 |

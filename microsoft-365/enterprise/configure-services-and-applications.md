@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
-ms.topic: deployment
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 'Microsoft 365 Enterprise 서비스 및 응용 프로그램(예: SharePoint, Exchange 및 응용 프로그램을 비즈니스용 Skype.'
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4f4a84d5093ce40004234eadca15c6d838d7e07
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 86033532dfd08e45a10bb5b2d7caf2db139f7e6a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625092"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924954"
 ---
 # <a name="configure-microsoft-365-enterprise-services-and-applications"></a>서비스 Microsoft 365 Enterprise 응용 프로그램 구성
 

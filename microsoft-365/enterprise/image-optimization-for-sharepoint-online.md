@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: c7edb02a-fdab-4f91-9a20-cba01dad28ef
 description: 버전 및 스프라이트를 사용하여 온라인 클래식 게시 사이트에서 이미지 성능을 SharePoint 방법을 학습합니다.
-ms.openlocfilehash: 0f0dd078ce28b86fc998b2f83ac19d04b1a3ab02
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 15885f1d8803332e24e2656a48b796dab28c665f
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907483"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924578"
 ---
 # <a name="image-optimization-for-sharepoint-online-classic-publishing-sites"></a>온라인 클래식 게시 SharePoint 이미지 최적화
 
@@ -35,9 +35,14 @@ ms.locfileid: "50907483"
   
 ## <a name="using-sprites-to-speed-up-image-loading"></a>스프라이트를 사용하여 이미지 로드 속도 향상
 
-|||
-|:-----|:-----|
-| 이미지 스프라이트에는 여러 개의 작은 이미지가 포함되어 있습니다. CSS를 사용하면 절대 위치가 있는 페이지의 특정 부분에 표시할 복합 이미지 부분을 선택합니다. 기본적으로 여러 이미지를 로드하는 대신 페이지 주위에 단일 이미지를 이동하고 스프라이트 이미지의 필수 부분이 최종 사용자에게 표시되는 작은 창을 통해 해당 이미지의 작은 부분을 볼 수 있도록 만듭니다. SharePoint 온라인에서는 스프라이트를 사용하여 스프라이트 화면에 다양한 아이콘을 spcommon.png.  <br/>  여기서 다루는 사항:  <br/>  이미지 압축  <br/>  이미지 최적화  <br/>  SharePoint 이미지 Nditions  <br/> |![spcommon의 스크린샷](../media/cc5cdee1-8e54-4537-9a8a-8854f4ee849f.png)|
+![spcommon의 스크린샷](../media/cc5cdee1-8e54-4537-9a8a-8854f4ee849f.png)
+
+이미지 스프라이트에는 여러 개의 작은 이미지가 포함되어 있습니다. CSS를 사용하면 절대 위치가 있는 페이지의 특정 부분에 표시할 복합 이미지 부분을 선택합니다. 기본적으로 여러 이미지를 로드하는 대신 페이지 주위에 단일 이미지를 이동하고 스프라이트 이미지의 필수 부분이 최종 사용자에게 표시되는 작은 창을 통해 해당 이미지의 작은 부분을 볼 수 있도록 만듭니다. SharePoint 온라인에서는 스프라이트를 사용하여 스프라이트 파일에서 스프라이트 spcommon.png 표시합니다.
+
+여기서 다루는 사항:
+- 이미지 압축
+- 이미지 최적화
+- SharePoint 이미지 Nditions
    
 이 경우 여러 이미지가 아닌 하나의 이미지만 다운로드한 다음 해당 이미지를 캐시하고 다시 사용할 수 있기 때문에 성능이 향상될 수 있습니다. 이미지가 캐시된 상태로 유지되지 않는 경우에도 여러 이미지 대신 단일 이미지를 사용하여 이 메서드를 사용하면 서버에 대한 총 HTTP 요청 수가 줄어들어 페이지 로드 시간이 줄어듭니다. 이는 실제로 이미지 번들링의 한 형태입니다. 이 방법은 위에 제공된 이미지 예제와 같이 이미지가 자주 변경되지 않는 경우(예: 아이콘) SharePoint 유용합니다. 타사 오픈 소스 커뮤니티 기반 [프로젝트인 Web Essentials를](https://vswebessentials.com/)사용하여 이러한 결과를 손쉽게 달성할 수 Microsoft Visual Studio. 자세한 내용은 온라인 에서 [최소화 및 번들 SharePoint 참조하세요.](./minification-and-bundling-in-sharepoint-online.md)
   

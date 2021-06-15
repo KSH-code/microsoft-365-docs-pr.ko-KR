@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 5a90a12457597fa38c648fd44bf194d2322a26af
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: ed0859e6018d171b48aac83d394eacbd2163c37b
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861226"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924686"
 ---
 # <a name="enable-controlled-folder-access"></a>제어된 폴더 액세스 사용
 
@@ -50,7 +50,7 @@ ms.locfileid: "52861226"
 * Microsoft Defender 바이러스 백신 목록에 **대한 로컬 관리자 병합 동작 구성**
 * System Center Endpoint Protection 사용자가 제외 및 오버라이드를 추가할 **수 있도록 허용**
 
-로컬 목록의 선택을 취소하는 데 대한 자세한 내용은 [사용자가 Microsoft Defender AV](/windows/security/threat-protection/microsoft-defender-antivirus/configure-local-policy-overrides-microsoft-defender-antivirus#configure-how-locally-and-globally-defined-threat-remediation-and-exclusions-lists-are-merged)정책 설정을 로컬로 수정하지 못하도록 허용을 참조하세요.
+로컬 목록의 선택을 취소하는 데 대한 자세한 내용은 [사용자가 Microsoft Defender AV](/windows/security/threat-protection/microsoft-defender-antivirus/configure-local-policy-overrides-microsoft-defender-antivirus)정책 설정을 로컬로 수정하지 못하도록 허용을 참조하세요.
 
 ## <a name="windows-security-app"></a>Windows 보안 앱
 
@@ -73,7 +73,7 @@ ms.locfileid: "52861226"
 
 3. 플랫폼을 **선택하고** Windows 10 **이상을** 선택하고 프로필 공격 표면 감소 규칙 만들기 **를**  >  **선택합니다.**
 
-4.  정책 이름을 지정하고 설명을 추가합니다. **다음** 을 선택합니다.
+4.  정책 이름을 지정하고 설명을 추가합니다. **다음** 을 선택하세요.
 
 5.  아래로 스크롤하여 폴더 보호  사용 드롭다운을 선택하고 사용 을 **선택합니다.**
 
@@ -92,7 +92,7 @@ ms.locfileid: "52861226"
 
 ## <a name="mobile-device-management-mdm"></a>MDM(모바일 장치 관리)
 
-[./Vendor/MSFT/Policy/Config/ControlledFolderAccessProtectedFolders](/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders) CSP(구성 서비스 공급자)를 사용하여 앱이 보호된 폴더를 변경할 수 있도록 합니다.
+[./Vendor/MSFT/Policy/Config/ControlledFolderAccessProtectedFolders](/windows/client-management/mdm/policy-csp-defender) CSP(구성 서비스 공급자)를 사용하여 앱이 보호된 폴더를 변경할 수 있도록 합니다.
 
 ## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: df2d2660267c38dccf5ef09fa4955615d3a78141
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 07a49fcdcfa7ea401b16b293b4831244253d2b28
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636269"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925890"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 우선 순위 지정
 
@@ -82,6 +82,23 @@ Microsoft 365 Defender는 상관 관계 분석을 적용하고 다양한 제품�
 | 심각도 | 인시던트의 심각도는 자산에 미칠 수 있는 영향을 나타내는 것입니다. 심각도가 높을수록 영향이 클수록 일반적으로 가장 즉각적인 주의가 필요합니다. |
 | 상태 | 상태에 따라 표시 되는 사고의 목록을 제한하여 활성 또는 해결 완료 된 사고를 확인할 수 있습니다. |
 |||
+
+## <a name="save-defined-filters-as-urls"></a>정의된 필터를 URL로 저장
+
+문제 큐에서 유용한 필터를 구성한 후 브라우저 탭의 URL에 책갈피를 지정하거나 웹 페이지, Word 문서 또는 원하는 장소에 링크로 저장할 수 있습니다. 이렇게 하면 한 번의 클릭으로 인시던트 큐의 주요 보기에 액세스할 수 있습니다.
+
+- 새 인시던트
+- 높은 심각도 인시던트
+- 미지정 인시던트
+- 높은 심각도, 미지정 인시던트
+- 내게 할당된 인시던트
+- 내게 할당된 인시던트 및 끝점용 Microsoft Defender
+- 특정 태그 또는 태그가 있는 인시던트
+- 특정 위협 범주가 있는 인시던트
+- 특정 관련 위협이 있는 인시던트
+- 특정 배우와의 인시던트
+
+유용한 필터 보기 목록을 URL로 컴파일하고 저장한 후 큐의 인시던트 처리 및 우선 순위를 [](manage-incidents.md) 지정하여 후속 분석을 위해 관리할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

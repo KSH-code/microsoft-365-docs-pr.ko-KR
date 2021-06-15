@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목 보안 및 개인 정보 보호를 계획하는 방법에 대해 자세히 알아보기
-ms.openlocfilehash: 587b6a2921e7d1a3cc8d4ab663ff199fdd36871d
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: b8c82b1914df739ea9086a4ce1585733a7b6d854
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114065"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925494"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Microsoft Viva 항목 보안 및 개인 정보
 
@@ -57,6 +57,10 @@ ms.locfileid: "52114065"
 |파일|파일은 소스 콘텐츠에 대한 사용 권한이 있는 사용자에게만 표시됩니다.|
 |페이지|페이지는 소스 콘텐츠에 대한 사용 권한이 있는 사용자에게만 표시됩니다.|
 |사이트|사이트는 소스 콘텐츠에 대한 사용 권한이 있는 사용자에게만 표시됩니다.|
+
+## <a name="users-personal-and-private-data"></a>사용자의 개인 및 개인 데이터
+
+Viva 항목은 지정한 SharePoint 항목만 검색합니다. 개인 메일 또는 사용자와 같은 사용자의 개인 OneDrive 포함되지 않습니다.
 
 ## <a name="best-practices"></a>모범 사례
 

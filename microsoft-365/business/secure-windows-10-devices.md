@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 자신의 직장 또는 학교 계정에 로그인할 때 모든 Windows 10 기본 장치 정책의 설정을 구성하는 방법을 학습합니다.
-ms.openlocfilehash: 86db1c152f9f6ac1fe6093b4a55a74b69fbd8b0f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 3f85549e722c9aa4196cf50fc02bee2e89506017
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579977"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925242"
 ---
 # <a name="secure-windows-10-devices"></a>Windows 10 장치 보안
 
@@ -44,9 +44,10 @@ ms.locfileid: "51579977"
 
 모든 설정은 기본적으로 **켜짐** 으로 되어 있습니다. 다음과 같은 설정을 사용할 수 있습니다.
   
-|||
-|:-----|:-----|
+
+
 |설정  <br/> |설명  <br/> |
+|:-----|:-----|
 |Windows Defender Antivirus를 사용하여 바이러스 및 기타 위협으로부터 PC를 보호하도록 지원  <br/> |인터넷에 연결하여 발생할 수 있는 위험으로부터 PC를 보호하기 위해 Windows Defender Antivirus가 켜져 있어야 합니다.  <br/> |
 |Microsoft Edge에서 웹 기반 위협으로부터 PC를 보호하도록 지원  <br/> |Edge에서 사용자를 악성 사이트와 다운로드로부터 보호하는 설정을 켭니다.  <br/> |
 |BitLocker를 사용하여 PC의 파일 및 폴더를 무단 액세스로부터 보호  <br/> |Bitlocker는 컴퓨터 하드 드라이브를 암호화하여 데이터를 보호하고, 컴퓨터가 분실되거나 도난당한 경우 데이터 노출을 방지합니다. 자세한 내용은 [Bitlocker FAQ 를 참조하세요.](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions)  <br/> |

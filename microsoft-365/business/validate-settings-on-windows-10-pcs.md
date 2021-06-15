@@ -1,5 +1,5 @@
 ---
-title: Windows 10 PC에서 앱 보호 설정 유효성 검사
+title: PC에 대한 앱 보호 Windows 10 유효성 검사
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -26,14 +26,14 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: 비즈니스용 앱 보호 Microsoft 365 설정이 사용자의 디바이스에 영향을 Windows 10 방법을 확인합니다.
-ms.openlocfilehash: fcb463fd98f692f7d4802689e0c03fe4e3e648a1
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 464a246a0da65dcffeb70946287ce4fa0e67ae7c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579845"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925262"
 ---
-# <a name="validate-device-protection-settings-on-windows-10-pcs"></a>PC에서 장치 보호 Windows 10 유효성 검사
+# <a name="validate-device-protection-settings-for-windows-10-pcs"></a>PC에 대한 장치 보호 Windows 10 유효성 검사
 
 ## <a name="verify-that-windows-10-device-policies-are-set"></a>장치 Windows 10 설정되어 있는지 확인
 

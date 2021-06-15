@@ -6,26 +6,25 @@ description: Windows 서버에는 서버 역할에 따라 자동 제외가 포�
 keywords: 제외, 서버, 자동 제외, 자동, 사용자 지정, 검사, Microsoft Defender 바이러스 백신
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
+ms.technology: mde
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
-ms.custom: nextgen
-ms.technology: mde
-ms.date: 02/10/2021
 ms.topic: article
-ms.openlocfilehash: f82da8eb0dcba39404c2b7f191e166aa78357cee
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.custom: nextgen
+ms.date: 02/10/2021
+ms.openlocfilehash: 31d5c22d11a28c9604b2be3145ebd46715a6e5b3
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274763"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925518"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 

@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 53cdb60c-a6b2-4848-b3ff-e7b75dc3fd1f
 description: 이 문서에서는 연결 연결을 모니터링하고 유지 관리하는 데 사용할 수 있는 도구와 기술을 Microsoft 365 있습니다.
-ms.openlocfilehash: dfba158085e6642856049d7894b4156f42353236
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 8fa0820cf9b7778001be5184041e5c96930a29dd
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538810"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924202"
 ---
 # <a name="monitor-microsoft-365-connectivity"></a>Microsoft 365 연결 모니터링
 
@@ -33,7 +33,7 @@ ms.locfileid: "52538810"
   
 ## <a name="monitoring-microsoft-365-connectivity"></a>연결 Microsoft 365 모니터링
 
-|||
+|모니터링 유형 |설명 |
 |:-----|:-----|
 |**새 끝점에 대한 Microsoft 365** <br/> |If you're [Managing Microsoft 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a), you'll want to receive notifications when we publish new endpoints, you can subscribe to our RSS feed using your favorite RSS reader. 다음은 를 통해 [구독하는 Outlook](https://go.microsoft.com/fwlink/p/?LinkId=532416) RSS 피드 업데이트를 전자 메일로 [보낼 수 있는 방법입니다.](https://go.microsoft.com/fwlink/p/?LinkId=532417)  <br/> |
 |**이 System Center 사용하여 모니터링 Microsoft 365** <br/> |Microsoft System Center 사용하는 경우 지금 System Center 관리 팩을 다운로드하여 Office 365 수 Microsoft 365 있습니다. [](https://www.microsoft.com/download/details.aspx?id=43708) 자세한 지침은 관리 팩 작업 가이드를 참조하세요. <br/> |

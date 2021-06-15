@@ -1,20 +1,22 @@
 ---
 title: 사용자들이 장치를 사용할 수 있도록 준비시키기
-description: ''
+description: 사용자가 디바이스를 사용할 준비를 하는 데 도움이 되는 정보입니다.
 keywords: Microsoft Managed Desktop, 디바이스, 시작, Microsoft 365
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
+manager: laurawi
+ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8f0726215c3bad5616882588360703e218bfaab4
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: fd730017a20f121281c0aba2c2ecca4cbd23a8a7
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289450"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925722"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>사용자들이 장치를 사용할 수 있도록 준비시키기
 

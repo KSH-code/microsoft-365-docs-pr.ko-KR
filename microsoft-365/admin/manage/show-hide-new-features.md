@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 관리 센터의 'Office 새로운 기능 Microsoft 365' 기능을 사용하여 사용자가 > 도움말을 선택할 때 표시하거나 숨길 Office 앱 Windows 새로운 기능을 결정하세요.
-ms.openlocfilehash: b9d20e3df4a2de540316dce0e6a6905c07e65176
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 319d5c0aabb0a61b01872acaeeb3ad362b72de37
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915030"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924838"
 ---
 # <a name="manage-which-office-features-appear-in-whats-new"></a>새로운 기능에 Office 기능 관리
 
@@ -60,9 +60,8 @@ Office 관리 센터의 새로운 기능 기능을 사용하여 사용자에게 
 
 새 기능은 다음 일정에 따라 페이지에 표시됩니다.
 
-||||
+|채널|날짜|작업 수행|
 |:-----|:-----|:-----|
-|**채널** <br/> |**날짜** <br/> |**작업 수행** <br/> |
 |**Current** <br/> |달의 15일  <br/> |월별 릴리스 1~3주 전 <br/> |
 |**월 단위 엔터프라이즈** <br/> |첫 번째 달  <br/> |새로운 기능을 선보이는 주요 릴리스 2주 전 |
 |**반기 Enterprise(미리 보기)** <br/> |9월 1일과 3월 1일 <br/> | 새로운 기능을 선보이는 주 릴리스 2주 전|

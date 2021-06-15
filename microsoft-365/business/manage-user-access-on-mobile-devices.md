@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: 사용자가 모바일 장치에서 앱 및 작업 파일에 액세스하는 방법을 Office 보호 정책에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a48aa241c9e70cf087da3f1701e859dae7238024
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7602b712f2dfc3ba369fd76979baaaa8d5da5c5c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578390"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925282"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>사용자가 모바일 장치에서 Office 문서에 액세스하는 방법 관리
 
@@ -43,10 +43,9 @@ ms.locfileid: "51578390"
 ## <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>사용자가 모바일 장치에서 Office 파일을 액세스하는 방법을 제어하는 설정
 
 사용자가 Office 작업 파일을 액세스하는 방법을 관리할 때 다음과 같은 설정을 사용할 수 있습니다.
-  
-|||
-|:-----|:-----|
+
 |설정  <br/> |설명  <br/> |
+|:-----|:-----|
 |Office 앱 액세스에 PIN 또는 지문 필요  <br/> |이 설정이 **으로** 설정되어 있는 경우 사용자는 자신의 사용자 이름 및 암호와 함께 다른 형태의 인증을 제공해야 모바일 장치에서 Office 사용할 수 있습니다.  <br/> |
 |PIN을 재설정할 로그인 실패 횟수  <br/> |권한 없는 사용자가 PIN을 임의로 추측하는 것을 방지하기 위해 사용자가 지정한 횟수만큼 잘못된 PIN이 입력되면 PIN을 재설정합니다.  <br/> |
 |Office 앱이 이 시간 동안 유휴 상태인 경우 사용자 다시 로그인 필요  <br/> |이 설정은 다시 로그인하라는 메시지가 표시되기 전에 사용자가 유휴일 수 있는 기간을 결정하는 설정입니다.  <br/> |
