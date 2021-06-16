@@ -286,12 +286,14 @@
               href: ms-cloud-germany-transition-add-experience.md
             - name: 추가 정보
               items:
-                - name: Azure AD
-                  href: ms-cloud-germany-transition-azure-ad.md
-                - name: 디바이스
-                  href: ms-cloud-germany-transition-add-devices.md
                 - name: AD FS 마이그레이션 단계
                   href: ms-cloud-germany-transition-add-adfs.md
+                - name: Azure AD
+                  href: ms-cloud-germany-transition-azure-ad.md
+                - name: CSP
+                  href: ms-cloud-germany-transition-add-csp.md
+                - name: 디바이스
+                  href: ms-cloud-germany-transition-add-devices.md
                 - name: eDiscovery
                   href: ms-cloud-germany-transition-add-scc.md
 - name: ID
