@@ -21,35 +21,35 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: 설치 가이드를 통해 Microsoft 365 Office 365 계획 및 구성을 가속화합니다.
-ms.openlocfilehash: 6ad00819b172d7cb0cfb5b63a93c0910df5517e6
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: d2e4f29a3f6d484c8586194258c3157bc73fb9e1
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454150"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964623"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 
-Microsoft 365 및 Office 365 설정 가이드에서는 테넌트, 앱 및 서비스를 계획하고 배포하기 위한 맞춤형 지침과 리소스를 제공합니다. 이 가이드는 [FastTrack 온보더링](https://www.microsoft.com/fasttrack/microsoft-365) 전문가가 개별 상호 작용에서 공유하는 Microsoft 365 모범 사례를 사용하여 만들어지며 Microsoft 365 관리 센터 내의 모든 관리자가 사용할 수 있습니다. 제품 설정에 대한 정보를 제공하고, 보안 기능을 사용하도록 설정하고, 공동 작업 도구를 배포하고, 고급 배포 속도를 향상하기 위한 스크립트를 제공합니다.
+Microsoft 365 및 Office 365 설정 가이드에서는 테넌트, 앱 및 서비스를 계획하고 배포하기 위한 맞춤형 지침과 리소스를 제공합니다. 이 가이드는 [온보드](https://www.microsoft.com/fasttrack/microsoft-365) 전문가가 개별 상호 작용에서 공유하는 Microsoft 365 FastTrack 모범 사례를 사용하여 만들어지며, 이 가이드는 온보드 내의 모든 관리자가 사용할 수 Microsoft 365 관리 센터. 제품 설정에 대한 정보를 제공하고, 보안 기능을 사용하도록 설정하고, 공동 작업 도구를 배포하고, 고급 배포 속도를 향상하기 위한 스크립트를 제공합니다.
 
-## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 설정 가이드에 액세스하는 방법
+## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>2013의 설정 가이드에 액세스하는 Microsoft 365 관리 센터
 
-설치 가이드는 Microsoft 365 관리 [](https://aka.ms/setupguidance) 센터의 설치 지침 페이지에서 액세스할 수 있습니다. 진행 상태를 추적할 수 있으며, 가이드를 완료하기 위해 항상 반환할 수 있습니다. 설치 지침 **페이지에 연결하려면 다음을** 실행합니다.
+설치 가이드는 설치 가이드의 설치 지침 페이지에서 액세스할 수 Microsoft 365 관리 센터. [](https://aka.ms/setupguidance) 진행 상태를 추적할 수 있으며, 가이드를 완료하기 위해 항상 반환할 수 있습니다. 설치 지침 **페이지에 연결하려면 다음을** 실행합니다.
 
-1. Microsoft 365 [관리 센터에서](https://admin.microsoft.com/)홈 **페이지로** 이동합니다.
+1. 에서 [Microsoft 365 관리 센터](https://admin.microsoft.com/)홈 **페이지로** 이동합니다.
 
 2. 교육 & **가이드 카드를** 찾아보세요. 
 
-   ![교육 & 센터의 교육 Microsoft 365 카드](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
+   ![교육 & Microsoft 365 관리 센터 가이드 카드](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
 
 3. 사용자 **지정된 설정 지침을 선택합니다.**
 
-   ![Microsoft 365 관리 센터의 설치 지침 Microsoft 365 스크린샷](../media/setup-guides-for-microsoft-365/adminportal-setupguidance.png)
+   ![설치 지침 페이지의 스크린 Microsoft 365 관리 센터샷](../media/setup-guides-for-microsoft-365/adminportal-setupguidance.png)
 
 >[!NOTE]
->테넌트 관리 센터에 액세스하려면 테넌트 Microsoft 365 권한이 필요합니다.
+>테넌트 관리자 권한은 테넌트 액세스에 Microsoft 365 관리 센터.
 
-## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>설치 가이드는 Microsoft 365 어떻게 작동하나요?
+## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>설치 가이드는 Microsoft 365 관리 센터?
 
 각 가이드는 단계별 지침, 리소스, 문서 및 필요한 경우 구성을 변경하는 데 사용할 수 있는 스크립트를 제공합니다. 이 가이드에서는 소규모 및 대규모 조직의 특정 요구 사항을 반영하는 선택 사항을 제공합니다. 또한 이 지침에는 신규 관리자와 더 많은 숙련된 관리자에 대한 지원이 포함되어 있습니다.
 
@@ -96,11 +96,11 @@ Microsoft Edge 세계적 수준의 호환성 및 성능, 자격이 있는 보안
 
 Microsoft Edge [](https://aka.ms/edgeadvisor) 설정 가이드는 Enterprise 사이트 검색을 구성하여 IE 모드를 사용하는 데 필요할 수 있는 사이트를 확인, 중요한 보안 기능을 검토 및 구성하고, 사용자의 요구 사항에 맞게 개인 정보 취급 방침 및 추가 정책을 구성하고, 장치에서 웹 액세스를 관리하는 데 도움이 됩니다. 개별 디바이스에 Microsoft Edge 다운로드할 수 있습니다. 또는 Configuration Manager를 사용하여 또는 구성 관리자를 사용하여 여러 사용자에게 배포하는 방법을 Microsoft Intune. 
 
-### <a name="microsoft-search-setup-guide"></a>Microsoft Search 설치 가이드
+### <a name="microsoft-search-setup-guide"></a>Microsoft Search 설정 가이드
 
-Microsoft Search를 사용하면 조직에서 작업하는 작업을 완료하는 데 필요한 정보를 찾을 수 있습니다. 사용자, 파일, 사이트 또는 일반적인 질문에 대한 답변을 검색하는지 여부에 관계 없는 경우, 작업일 전체에서 Microsoft Search를 사용하여 답변을 얻을 수 있습니다.
+Microsoft Search 작업을 완료하는 데 필요한 정보를 찾는 데 도움이 됩니다. 사용자, 파일, 사이트 또는 일반적인 질문에 대한 답변을 검색하는지 여부에 관계 없는 경우, 작업일 전체에서 Microsoft Search 사용하여 답변을 얻을 수 있습니다.
 
-[Microsoft Search 설정 가이드는](https://aka.ms/MicrosoftSearchSetup) 사용자 그룹에 파일럿하거나 조직 내 모든 사용자에게 배포할지 여부를 Microsoft Search를 구성하는 데 도움이 됩니다. 검색 관리자 및 검색 편집기를 할당한 다음 답변 및 추가 옵션으로 사용자의 검색 환경을 사용자 지정합니다. 예를 들어 Chrome에 Bing 확장명을 추가하거나 기본 검색 엔진으로 Bing 사용자 지정합니다.
+Microsoft Search [](https://aka.ms/MicrosoftSearchSetup) 설정 가이드는 사용자 Microsoft Search 파일럿할지 또는 조직 내 모든 사용자에게 배포할지 여부를 구성하는 데 도움이 됩니다. 검색 관리자 및 검색 편집기를 할당한 다음 답변 및 추가 옵션으로 사용자의 검색 환경을 사용자 지정합니다. 예를 들어 Chrome에 Bing 확장명을 추가하거나 기본 검색 엔진으로 Bing 사용자 지정합니다.
 
 ### <a name="intune-configuration-manager-co-management-setup-guide"></a>Intune Configuration Manager 공동 관리 설정 가이드
 
@@ -157,7 +157,7 @@ Microsoft Intune [](https://aka.ms/intunesetupguide)설정 가이드를 사용�
 
 Microsoft Exchange Online EOP(보호)는 스팸 및 맬웨어로부터 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 제공합니다. 
 
-Exchange Online Protection [](https://aka.ms/EOPguidance) 설정 가이드를 사용하여 세 가지 배포 시나리오 중 조직에 맞는 배포 시나리오, 하이브리드(사내 사서함과 클라우드의 조합) 또는 모든 클라우드 사서함을 선택하여 EOP를 &mdash; 설정할 수 &mdash; 있습니다. 이 가이드에서는 사용자의 라이선스를 설정 및 검토하고, Microsoft 365 관리 센터에서 사용 권한을 할당하고, 보안 및 준수 센터에서 조직의 맬웨어 방지 및 스팸 정책을 구성하기 위한 정보와 & 제공합니다. 
+Exchange Online Protection [](https://aka.ms/EOPguidance) 설정 가이드를 사용하여 세 가지 배포 시나리오 중 조직에 맞는 배포 시나리오, 하이브리드(사내 사서함과 클라우드의 조합) 또는 모든 클라우드 사서함을 선택하여 EOP를 &mdash; 설정할 수 &mdash; 있습니다. 이 가이드에서는 사용자 라이선스를 설정 및 검토하고, Microsoft 365 관리 센터 할당하고, 보안 및 준수 센터에서 조직의 맬웨어 방지 및 스팸 정책을 구성하기 위한 정보와 & 제공합니다. 
 
 ### <a name="microsoft-defender-for-office-365-advisor"></a>Microsoft Defender for Office 365 어드바이저
 
@@ -215,10 +215,5 @@ Office 도구를 사용하여 설치를 사용자 지정하는 기능을 사용�
 
 ### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Configuration Manager를 Microsoft 365 앱 배포 및 업데이트
 
-Configuration Manager를 사용하는 조직의 경우 Configuration [Manager](https://aka.ms/oppinstall) 관리자와 함께 배포 및 업데이트 Microsoft 365 앱 사용하여 FastTrack 엔지니어가 권장하는 모범 사례를 사용하여 Microsoft 365 앱 배포를 자동으로 구성하는 스크립트를 생성할 수 있습니다. 이 가이드를 사용하여 배포 그룹을 빌드하고, Office 앱 및 기능을 사용자 지정하고, 동적 또는 기울이지 않은 설치를 구성한 다음 스크립트를 실행하여 배포 대상으로 지정하는 데 필요한 응용 프로그램, 자동 배포 규칙 및 장치 컬렉션을 만들 수 있습니다. 
+Configuration Manager를 사용하는 조직의 경우 [Configuration Manager](https://aka.ms/oppinstall) 관리자와 함께 배포 및 업데이트 Microsoft 365 앱 사용하여 Microsoft 365 앱 엔지니어가 권장하는 모범 사례를 사용하여 Microsoft 365 앱 스크립트를 생성할 FastTrack 있습니다. 이 가이드를 사용하여 배포 그룹을 빌드하고, Office 앱 및 기능을 사용자 지정하고, 동적 또는 기울이지 않은 설치를 구성한 다음 스크립트를 실행하여 배포 대상으로 지정하는 데 필요한 응용 프로그램, 자동 배포 규칙 및 장치 컬렉션을 만들 수 있습니다. 
 
-### <a name="integrate-a-third-party-cloud-app-with-azure-ad"></a>타사 클라우드 앱을 Azure AD와 통합
-
-타사 앱을 Azure AD(Azure AD)와 통합하여 사용자 환경을 개선하고 추가 보안 Azure Active Directory 제공합니다. 이 종단-종단 환경을 사용하면 이 마법사에서 대부분의 구성을 직접 할 수 있습니다. 해당하는 경우 해당 구성 페이지로 리디렉션됩니다.
-
-타사 클라우드 [앱](https://admin.microsoft.com/Adminportal/Home?#/azureadappintegration) 통합 마법사를 사용하여 타사 클라우드 앱을 Azure AD와 통합합니다.

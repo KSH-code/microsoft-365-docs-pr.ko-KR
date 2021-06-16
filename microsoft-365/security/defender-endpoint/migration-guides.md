@@ -1,6 +1,6 @@
 ---
 title: 끝점용 Microsoft Defender로 전환하기 위한 마이그레이션 가이드
-description: 비보안 Defender 솔루션에서 끝점용 Microsoft Defender로 Microsoft 365 방법을 알아보십시오.
+description: 비보안 솔루션에서 끝점용 Microsoft Defender로 전환하는 Microsoft 365 Defender 방법을 알아보십시오.
 search.appverid: MET150
 author: denisebmsft
 ms.author: deniseb
@@ -17,12 +17,12 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: a0b1f82ae26ba1103ed4cc7eb0be7e9c376b5f52
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 010cea14bebd4e29822b1826c0ec4577d53baca7
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52933038"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964864"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender로 전환
 
@@ -38,9 +38,9 @@ ms.locfileid: "52933038"
 
 | 시나리오 | 지침 |
 |:----|:----|
-| 아직 끝점 보호 솔루션이 준비되지 않았고 Endpoint용 Defender에 대해 더 알고 싶을 것입니다. <p> 환경에서 롤아웃하기 전에 Endpoint용 Defender의 작동 방법을 확인하려는 경우  | [끝점용 Microsoft Defender 평가 랩](evaluation-lab.md)   |
+| 아직 끝점 보호 솔루션이 준비되지 않았고 Endpoint용 Defender에 대해 더 알고 싶을 것입니다. 환경에서 롤아웃하기 전에 Endpoint용 Defender의 작동 방법을 확인하려는 경우  | [끝점용 Microsoft Defender 평가 랩](evaluation-lab.md)   |
 | 끝점에 대한 Defender가 이미 있으며 모든 것을 설정하고 구성하는 데 도움이 될 것입니다.  | [끝점용 Microsoft Defender 배포 가이드](deployment-phases.md)  |
-| Microsoft가 아닌 엔드포인트 보호 솔루션에서 Endpoint용 Defender로 전환하고 Microsoft Defender 바이러스 백신. <p> 마이그레이션 프로세스와 전환 방법을 간략하게 살펴 보아야 합니다. |[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)   |
+| Microsoft가 아닌 엔드포인트 보호 솔루션에서 Endpoint용 Defender로 전환하고 Microsoft Defender 바이러스 백신. 마이그레이션 프로세스와 전환 방법을 간략하게 살펴 보아야 합니다. |[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)   |
 | 끝점용 Defender로 이미 마이그레이션하거나 온보딩한 경우 보안 설정 관리, 추가 기능 구성 또는 보안 정책 미세 조정과 같은 다음 단계에 대한 몇 가지 도움말을 원합니다. | [끝점용 Microsoft Defender 관리, 마이그레이션 후](manage-atp-post-migration.md) |
 
 

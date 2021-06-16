@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a4714ad9a4388654cbf865ed54afe260a67d724f
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: dc5710a73685c67eff17c0f281bd14e48707e60f
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957506"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964791"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>엔드포인트용 Microsoft Defender(Windows가 아닌 플랫폼)
 
@@ -43,15 +43,30 @@ Microsoft는 업계를 선도하는 끝점 보안 기능을 macOS, Linux, Androi
 
 ## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender for Endpoint(macOS용) 
 
-MacOS의 끝점용 Microsoft Defender는 세 가지 최신 릴리스 버전의 macOS에 대한 바이러스 백신 및 EDR 감지 및 응답(EDR) 기능을 제공합니다. 고객은 파트너 및 Jamf를 통해 솔루션을 Microsoft Endpoint Manager 수 있습니다. macOS의 Microsoft Office 응용 프로그램과 마찬가지로 Microsoft 자동 업데이트는 Mac 업데이트에서 끝점용 Microsoft Defender를 관리하는 데 사용됩니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
+MacOS의 끝점용 Microsoft Defender는 세 가지 최신 릴리스 버전의 macOS에 엔드포인트 감지 및 응답 (EDR) 기능을 제공합니다. 고객은 파트너 및 Jamf를 통해 솔루션을 Microsoft Endpoint Manager 수 있습니다. macOS의 Microsoft Office 응용 프로그램과 마찬가지로 Microsoft 자동 업데이트는 Mac 업데이트에서 끝점용 Microsoft Defender를 관리하는 데 사용됩니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
 
 시작하는 방법에 대한 자세한 내용은 macOS 설명서의 Endpoint용 Defender를 [참조하세요.](microsoft-defender-endpoint-mac.md)
+
+>[!NOTE]
+>다음 기능은 현재 macOS 끝점에서 지원되지 않습니다.
+>- 데이터 손실 방지
+>- 라이브 응답
+>- SIEM
+
 
 ## <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
 Linux의 끝점용 Microsoft Defender는 Linux 서버에 대한 예방용(AV) 기능을 제공합니다. 여기에는 에이전트를 구성 및 관리하고, 검색을 시작하고, 위협을 관리하는 전체 명령줄 환경이 포함됩니다. 가장 일반적인 여섯 가지 Linux 서버 배포인 RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS 이상 LTS, SLES 12+, 데비안 9+, Oracle Linux 7.2의 최신 버전을 지원하고 있습니다. Linux의 끝점용 Microsoft Defender는 Puppet, Ansible 또는 기존 Linux 구성 관리 도구를 사용하여 배포 및 구성할 수 있습니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux)
 
 시작하는 방법에 대한 자세한 내용은 Linux 설명서의 Microsoft Defender for Endpoint를 [참조하세요.](microsoft-defender-endpoint-linux.md)
+
+>[!NOTE]
+>다음 기능은 현재 Linux 끝점에서 지원되지 않습니다.
+>- 데이터 손실 방지
+>- 라이브 응답
+>- SIEM
+
+
 
 ## <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
@@ -69,7 +84,7 @@ iOS의 끝점용 Microsoft Defender는 iOS 11.0 이상을 실행하는 장치에
 
 적격 라이선스 사용자는 최대 5개의 동시 장치에서 끝점용 Microsoft Defender를 사용할 수 있습니다. Microsoft Defender for Endpoint는 CSP(Microsoft Defender for Endpoint)에서 클라우드 솔루션 공급자 사용할 수 있습니다.
 
-고객은 독립 실행형 Microsoft Defender for Endpoint 라이선스를 통해 macOS의 끝점용 Microsoft Defender를 Microsoft 365 A5/E5 또는 Microsoft 365 수 있습니다.
+고객은 독립 실행형 Microsoft Defender for Endpoint 라이선스를 통해 macOS의 끝점용 Microsoft Defender를 Microsoft 365 A5/E5 또는 Microsoft 365 있습니다.
 
 최근에 발표된 Android 및 iOS용 끝점용 Microsoft Defender 기능은 적격 라이선스 사용자에 대한 5개의 적격 디바이스의 일부로 위에서 언급한 혜택에 포함되어 있습니다.
 

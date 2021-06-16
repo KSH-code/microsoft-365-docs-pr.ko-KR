@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 205fd5cd40d187eada4f6b87edf64c0d35f7e3b3
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 0a0c7e9ffa37c5154b8a10b9642d484011674d6a
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788418"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964888"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "52788418"
 
 피싱 방지 보호 설정을 구성하는 정책은 Microsoft 365 사서함이 있는 Exchange Online 조직 Exchange Online Protection, Exchange Online 사서함이 없는 독립 실행형 EOP(독립 실행형 Exchange Online) 조직 및 Office 365 조직에서 사용할 수 있습니다.
 
-Microsoft Defender for Office 365 피싱 방지 정책은 사용자용 Defender가 있는 조직에서만 Office 365. 예:
+Microsoft Defender for Office 365 피싱 방지 정책은 사용자용 Defender가 있는 조직에서만 Office 365. 예제:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 Education A5 등
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -143,7 +143,7 @@ Microsoft Defender for Office 365 피싱 방지 정책은 사용자용 Defender�
   - 보낸 사람 사진의 물음표에 대해 SPF 또는 DKIM이 가장 중요합니다.
   - via 태그의 경우 DKIM 서명의 도메인 또는 **MAIL FROM** 주소가 보낸 편지함 주소의 도메인과 일치하는지(또는 해당 도메인의 하위 도메인인 경우) 확인
 
-자세한 내용은 Outlook.com에서 의심스러운 메시지 식별 및 웹 [Outlook 식별을 참조하세요.](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206)
+자세한 내용은 [Outlook.com에서](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206) 의심스러운 메시지 식별 및 웹용 Outlook
 
 ## <a name="exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -209,10 +209,14 @@ Microsoft Defender for Office 365 피싱 방지 정책은 사용자용 Defender�
   - **비정상적인** 문자에 대한 팁 표시 : 보낸 사람 주소에는 보호된 보낸 사람 또는 도메인의 비정상적인 문자 집합(예: 수학 기호 및 텍스트 또는 대문자 및 소문자 혼합)이 포함되어 있습니다.
 
   > [!IMPORTANT]
+  > 가장 보안 팁이 꺼져 있는 경우에도  메일 흐름 규칙(전송 규칙)을 사용하여 메시지에 다음 메시지 헤더를 추가하는 것이 좋습니다.
   >
-  > 가장 보안 팁이 꺼져 있는 경우에도  메일 흐름 규칙(전송 규칙)을 사용하여 **X-MS-Exchange-EnableFirstContactSafetyTip이라는** 메시지 헤더를 메시지에 사용할  수 있는 값으로 추가하는 것이 좋습니다. 보낸 보안 팁 메시지를 처음 받을 때 또는 보낸 사람에게 메시지를 자주 수신하지 않는 경우 받는 사람에게 알릴 수 있습니다. 이 기능을 통해 잠재적인 가장 공격으로부터 보안을 강화할 수 있습니다.
+  > - 헤더 이름: **X-MS-Exchange-EnableFirstContactSafetyTip**
+  > - 헤더 값: **사용**
   >
-  > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="여러 받는 보안 팁 가장 보호를 위한 문서 텍스트입니다.":::
+  > 보낸 보안 팁 메시지를 처음 받을 때 또는 보낸 사람에게 메시지를 자주 수신하지 않는 경우 받는 사람에게 알릴 수 있습니다. 이 기능을 통해 잠재적인 가장 공격으로부터 보안을 강화할 수 있습니다.
+  >
+  > ![여러 받는 보안 팁 가장 보호를 위한 문서 텍스트입니다.](../../media/safety-tip-first-contact-multiple-recipients.png)
 
 - **사서함 인텔리전스:** 자주 연락하는 사용자 전자 메일 패턴을 결정하는 인공 지능(AI)을 활성화하거나 비활성화합니다. 이 설정은 AI가 합법적인 보낸 사람 및 가장된 보낸 사람과 메시지를 구분하는 데 도움이 됩니다.
 

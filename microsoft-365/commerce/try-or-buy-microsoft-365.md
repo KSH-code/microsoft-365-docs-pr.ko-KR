@@ -16,15 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
-search.appverid: MET150
+search.appverid: GEA150
 description: 30일 무료 평가판에 등록하여 Microsoft 365 Business Standard, Microsoft 365 Business Premium 또는 비즈니스용 Microsoft 365 앱.
 ms.date: 08/07/2020
-ms.openlocfilehash: 20ceb683c6224e572a1c532330d45fa8fa5c8416
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: c53f9eb64463eeb7c647bc63123aaac02598fd4c
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583451"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950050"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 사용해 보거나 구입
 
@@ -62,7 +62,7 @@ Microsoft 365 비즈니스용 서비스는 Microsoft가 IT를 대신하는 동�
 
 평가판이 완료되기 전에 구독을 구입하려면 다음 단계를 사용하세요.
 
-1. Microsoft 365 관리 센터에서 청구 제품  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">페이지로</a> 이동합니다.
+1. In the Microsoft 365 관리 센터, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
 2. 제품 **페이지에서** 구입하려는 구독을 찾으십시오.
 3. 라이선스 **섹션에서** 구독 **구매를 선택합니다.**
 4. 구독에 대한 월간 또는 연간 약정을 선택한 다음 체크 아웃 **을 선택합니다.**
@@ -74,7 +74,7 @@ Microsoft 365 비즈니스용 서비스는 Microsoft가 IT를 대신하는 동�
 
 구입하기 전에 비즈니스용 Microsoft 365 사용해보는 데 시간이 더 필요한가요? 평가판 구독이 15일 이내에 만료되며 만료일 이전에 평가판 사용 기간이 연장되지 않은 경우 평가판 사용 기간을 30일 더 연장할 수 있습니다. 연장은 한 번만 가능합니다.
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 2. 제품 **탭에서** 확장할 평가판 구독을 선택합니다.
 3. 구독 세부 정보 페이지의 구독  및 결제 설정 섹션에서 종료 날짜 **연장을 선택합니다.**
 4. 종료 **날짜 연장** 창에서 내선 정보를 검토하고 필요한 경우 결제 방법을 선택합니다. 완료되면 평가판 확장 **을 선택합니다.**
@@ -83,13 +83,13 @@ When you're ready to buy, see [Buy your trial version](#buy-a-subscription-from-
 
 ## <a name="cancel-your-free-trial-subscription"></a>무료 평가판 구독 취소
 
-무료 평가판 기간이 종료되기 전에 평가판 구독을 취소하려면 Microsoft 365 관리 센터로 이동하여 Microsoft 365 청구를 [끄면 됩니다.](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) 평가판은 월이 끝나면 자동으로 만료되며 신용 카드가 \' 청구되지 않습니다.
+무료 평가 기간이 종료되기 전에 평가판 구독을 취소하기로 결정한 경우 평가판으로 이동하여 Microsoft 365 관리 센터 청구를 [끄면 됩니다.](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) 평가판은 월이 끝나면 자동으로 만료되며 신용 카드가 \' 청구되지 않습니다.
 
 ## <a name="try-a-different-subscription"></a>다른 구독 시도
 
-비즈니스용 Microsoft 365 이미 있는 경우 Microsoft 365 관리 센터를 사용하여 다른 구독을 시도할 수 있습니다.
+비즈니스용 Microsoft 365 이미 있는 경우 해당 구독을 사용하여 Microsoft 365 관리 센터 구독을 시도할 수 있습니다.
 
-Microsoft 365 관리 센터를 통해 구독을 추가하면 새 구독이 기존 구독과 동일한 조직(도메인 네임스페이스)과 연결됩니다. 이 연결은 조직의 사용자를 구독 간에 이동하거나 필요한 추가 제품에 대한 라이선스를 할당하기 쉽게 합니다.
+구독을 통해 구독을 Microsoft 365 관리 센터 새 구독은 기존 구독과 동일한 조직(도메인 네임스페이스)에 연결됩니다. 이 연결은 조직의 사용자를 구독 간에 이동하거나 필요한 추가 제품에 대한 라이선스를 할당하기 쉽게 합니다.
 
 1. 관리 센터에서 청구 구매  서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
 2. 서비스 **구매 페이지에** 조직에서 사용할 수 있는 계획이 표시됩니다. 시도할 Microsoft 365 계획을 선택해야 합니다.
@@ -101,7 +101,7 @@ Microsoft 365 관리 센터를 통해 구독을 추가하면 새 구독이 기�
 
 ## <a name="buy-a-different-subscription"></a>다른 구독 구입
 
-비즈니스용 Microsoft 365 이미 있는 경우 Microsoft 365 관리 센터를 통해 조직에 대한 다른 구독을 구입할 수 있습니다.
+비즈니스용 Microsoft 365 이미 있는 경우 조직에 대한 다른 구독을 Microsoft 365 관리 센터 구독을 구입할 수 있습니다.
 
 관리 센터를 통해 다른 구독을 구입하면 새 구독이 기존 구독과 동일한 조직(도메인 이름 공간)과 연결됩니다. 이렇게 하면 조직의 사용자를 구독 간에 이동하거나 필요한 추가 구독에 대한 라이선스를 할당할 수 있습니다.
 

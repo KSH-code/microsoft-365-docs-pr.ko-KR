@@ -10,7 +10,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
-search.appverid: MET150
+search.appverid: GEA150
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -23,12 +23,12 @@ ms.custom:
 - commerce_billing
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: 7e37e296f37583e1fc0b2fc3474609e11c5a5e1f
-ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
+ms.openlocfilehash: a4909a1ff56fb2a3d7fefca1af008abf93015a03
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52888352"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950074"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 

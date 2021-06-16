@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8a811d60af281bb534776736e77c3eb54ab6a760
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: aacd0745ff507356035f8f460ed2b4307e9da6ed
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932968"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964876"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>장치, 전자 메일, 앱 및 ID에 대한 위협 검색
 
@@ -35,7 +35,7 @@ ms.locfileid: "51932968"
 **적용 대상:**
 - Microsoft 365 Defender
 
-[Microsoft 365](advanced-hunting-overview.md) Defender의 고급 헌팅을 통해 다음 전반에 걸쳐 위협을 사전 대응적으로 헌팅할 수 있습니다.
+[고급 헌팅을](advanced-hunting-overview.md) Microsoft 365 Defender 헌팅하면 다음 전반에 걸쳐 위협을 사전 대응적으로 헌팅할 수 있습니다.
 - 끝점용 Microsoft Defender에서 관리하는 장치
 - 사용자에 의해 처리된 Microsoft 365
 - 클라우드 앱 활동, 인증 이벤트 및 id에 대한 Microsoft Microsoft Cloud App Security 추적하는 도메인 컨트롤러 활동
@@ -100,6 +100,90 @@ DeviceInfo
 | join AlertInfo on AlertId
 | project AlertId, Timestamp, Title, Severity, Category 
 ```
+
+
+### <a name="get-file-event-information"></a>파일 이벤트 정보 다운로드
+
+다음 쿼리를 사용하여 파일 관련 이벤트에 대한 정보를 얻습니다. 
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where ClientVersion startswith "20.1"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceFileEvents 
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+
+### <a name="get-network-event-information"></a>네트워크 이벤트 정보 얻기
+
+다음 쿼리를 사용하여 네트워크 관련 이벤트에 대한 정보를 얻습니다.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where ClientVersion startswith "20.1"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceNetworkEvents 
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+### <a name="get-device-agent-version-information"></a>장치 에이전트 버전 정보 다운로드
+
+다음 쿼리를 사용하여 장치에서 실행 중인 에이전트 버전을 확인합니다.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where ClientVersion startswith "20.1"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceNetworkEvents 
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+
+### <a name="example-query-for-macos-devices"></a>macOS 장치에 대한 쿼리 예
+
+다음 예제 쿼리를 사용하여 카탈로니아보다 오래된 버전의 macOS를 실행하는 모든 장치를 볼 수 있습니다.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where OSPlatform == "macOS" and  OSVersion !contains "10.15" and OSVersion !contains "11."
+| summarize by DeviceId
+| join kind=inner (
+    DeviceInfo
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+### <a name="get-device-status-info"></a>장치 상태 정보 보기
+
+다음 쿼리를 사용하여 디바이스의 상태를 확인합니다. 다음 예제에서 쿼리는 장치가 온보더된지 확인합니다.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where OnboardingStatus != "Onboarded"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceInfo
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
 
 ## <a name="hunting-scenarios"></a>헌팅 시나리오
 

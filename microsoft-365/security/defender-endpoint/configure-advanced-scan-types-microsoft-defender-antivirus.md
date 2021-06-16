@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 05/26/2021
 ms.topic: how-to
-ms.openlocfilehash: 34f423222068236271afdda13afb95cffa58b709
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 96e4dab96f8ceb149916c908991079bb2dfa866f
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683814"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964900"
 ---
 # <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Microsoft Defender 바이러스 백신 검사 옵션 구성
 
@@ -31,14 +31,11 @@ ms.locfileid: "52683814"
 
 ## <a name="use-microsoft-intune-to-configure-scanning-options"></a>검색 Microsoft Intune 사용하여 검사 옵션 구성
 
-다음 리소스를 참조하십시오. 
-
-- [장치에서 장치 제한 Microsoft Intune](/intune/device-restrictions-configure) 
-- [Microsoft Defender 바이러스 백신 Intune의 Windows 10 장치 제한 설정](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
+자세한 내용은 [Intune에서](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)Microsoft Intune 및 Microsoft Defender 바이러스 백신 장치 제한 설정 구성을 Windows 10 참조하세요. [](/intune/device-restrictions-configure) 
 
 ## <a name="use-microsoft-endpoint-manager-to-configure-scanning-options"></a>검색 Microsoft Endpoint Manager 사용하여 검사 옵션 구성
 
-맬웨어 방지 정책을 만들고 [배포하는 방법: 검사 설정을 참조하세요.](/configmgr/protect/deploy-use/endpoint-antimalware-policies#scan-settings)
+맬웨어 방지 정책(현재 분기Microsoft Endpoint Manager 구성하는 방법에 대한 자세한 내용은 맬웨어 방지 정책을 만들고 배포하는 [방법: 검사 설정 을 참조하세요.](/configmgr/protect/deploy-use/endpoint-antimalware-policies#scan-settings)
 
 ## <a name="use-group-policy-to-configure-scanning-options"></a>그룹 정책을 사용하여 검사 옵션 구성
 
@@ -49,6 +46,7 @@ ms.locfileid: "52683814"
 3. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 템플릿 **을 클릭합니다.**
 
 4. 트리를 확장하여 Windows **구성** Microsoft Defender 바이러스 백신 를 선택한 다음 위치를  >  선택합니다(이 [문서의](#settings-and-locations) 설정 위치 참조).
+
 
 5. 정책 개체를 편집합니다. 
 
@@ -69,13 +67,15 @@ ms.locfileid: "52683814"
 | 검사하는 동안 최대 CPU 부하를 백분율로 지정합니다. <p> **스캔**  >  **검사 중 CPU 사용률의 최대 백분율 지정** | 50 |  `-ScanAvgCPULoadFactor` <p>**참고:** 최대 CPU 부하는 하드 한도가 아니며 검색 엔진이 평균 최대값을 초과하지 않는 지침입니다. 수동 실행 검사는 이 설정을 무시하고 CPU 제한 없이 실행됩니다. |
 | 검사해야 하는 보관 파일의 최대 크기(킬로바이트)를 지정합니다. <p> **스캔**  >  **검사할 보관 파일의** 최대 크기 지정 | 제한 없음 | 사용할 수 없음 <p>기본값인 0은 제한 없음을 적용합니다. |
 | 예약된 검사에 대해 낮은 CPU 우선 순위 구성 <p> **스캔**  >  **예약된 검사에 대해 낮은 CPU 우선 순위 구성** | 사용 안 함 | 사용할 수 없음 |
+
  
 > [!NOTE]
 > 실시간 보호가 켜져 있는 경우 파일에 액세스하고 실행하기 전에 파일을 검사합니다. 검사 범위에는 USB 드라이브와 같은 탑재된 이동식 미디어의 파일을 비롯한 모든 파일이 포함됩니다. 검색을 수행하는 장치에 실시간 보호 또는 액세스 보호가 켜져 있는 경우 검색에는 네트워크 공유도 포함됩니다.
 
 ## <a name="use-powershell-to-configure-scanning-options"></a>PowerShell을 사용하여 검사 옵션 구성
 
-다음 리소스를 참조하십시오.
+
+PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 Microsoft Defender 바이러스 백신 참조하세요.
 
 - [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 관리](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Defender cmdlet](/powershell/module/defender/)
@@ -99,7 +99,13 @@ Outlook 2003 또는 이전 버전에서 사용하는 PST 파일(보관 유형이
 - 전자 메일 제목
 - 첨부 파일 이름
 
+
+## <a name="scanning-mapped-network-drives"></a>매핑된 네트워크 드라이브 검사
+
+모든 OS에서 시스템 수준에서 매핑된 네트워크 드라이브만 검색됩니다. 사용자 수준 매핑된 네트워크 드라이브는 검색되지 않습니다. 사용자 수준 매핑된 네트워크 드라이브는 사용자가 수동으로 자신의 자격 증명을 사용하여 세션에 매핑하는 드라이브입니다.
+
 ## <a name="see-also"></a>참고 항목
+
 
 - [사용자 지정, 시작 및 재구성 결과 Microsoft Defender 바이러스 백신 검토](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [요청 기반 Microsoft Defender 바이러스 백신 검사 구성 및 실행](run-scan-microsoft-defender-antivirus.md)

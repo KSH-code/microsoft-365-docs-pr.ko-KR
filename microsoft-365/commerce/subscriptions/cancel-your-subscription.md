@@ -19,17 +19,17 @@ ms.custom:
 search.appverid: MET150
 description: 사용자 라이선스가 25개 미만인 경우 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소할 수 있습니다.
 ms.date: 04/08/2021
-ms.openlocfilehash: 5c4ce1c00bfde4a895710d737fab0836998836c6
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 18e7ca5cec91e1614808f2087ce0394f33a45c7a
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929458"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950086"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
 > [!IMPORTANT]
-> 이 문서는 비즈니스용 Microsoft 365 구독에만 적용됩니다. Microsoft 365 Family 또는 Personal이 있는 경우 [Microsoft 365 구독 취소](https://support.microsoft.com/ko-KR/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b)를 참조하세요.
+> 이 문서는 비즈니스용 Microsoft 365 구독에만 적용됩니다. Microsoft 365 Family 또는 Personal이 있는 경우 [Microsoft 365 구독 취소](https://support.microsoft.com/en-us/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b?OCID=M365_DocsCancel_Link)를 참조하세요.
 
 *자격:* : 사용자에게 할당한 라이선스가 25개 미만인 경우 Microsoft 365 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 온라인 구독을 취소할 수 있습니다. 사용자에게 할당된 라이선스가 25개 이상인 경우 25개 미만으로 줄이거나 [지원팀에 문의하여 구독을 취소하세요](../../business-video/get-help-support.md).
 

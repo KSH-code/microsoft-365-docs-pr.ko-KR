@@ -15,21 +15,17 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 05/17/2021
-ms.openlocfilehash: d10343538c995534878196cc57092c37fd2dcf7b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.date: 06/15/2021
+ms.openlocfilehash: f9ca83fcfba4b79898a0fed527e38947a4c230d6
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538066"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950134"
 ---
 # <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>제외 정의 시 피해야 하는 일반적인 실수
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
-검사하지 않는 항목에 대한 제외 목록을 Microsoft Defender 바이러스 백신 있습니다. 이러한 제외된 항목에는 장치를 취약하게 만드는 위협이 포함될 수 있습니다. 
-
-이 문서에서는 제외를 정의할 때 피해야 하는 몇 가지 일반적인 실수에 대해 설명합니다. 
+검사하지 않는 항목에 대한 제외 목록을 Microsoft Defender 바이러스 백신 있습니다. 이러한 제외된 항목에는 장치를 취약하게 만드는 위협이 포함될 수 있습니다. 이 문서에서는 제외를 정의할 때 피해야 하는 몇 가지 일반적인 실수에 대해 설명합니다. 
 
 제외 목록을 정의하기 전에 권장 사항 [정의하기를 참조하세요.](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions)
 
@@ -231,7 +227,9 @@ ms.locfileid: "52538066"
 
 `dbgsvc.exe`  
 
-`dnx.exe`  
+`dnx.exe`
+
+`dotnet.exe`
 
 `fsi.exe`  
 
@@ -272,9 +270,3 @@ Microsoft Defender 바이러스 백신 서비스는 LocalSystem 계정을 사용
 
 제외 [목록에서](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) 와일드카드를 사용하는 방법에 대한 자세한 내용은 파일 이름 및 폴더 경로 또는 확장명 제외 목록에서 와일드카드 사용을 참조하세요.
 
-## <a name="related-articles"></a>관련 문서
-
-- [검사에서 제외 구성 Microsoft Defender 바이러스 백신 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md)
-- [파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
-- [프로세스에서 연 파일에 대한 제외 구성 및 유효성 검사](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성](configure-server-exclusions-microsoft-defender-antivirus.md)

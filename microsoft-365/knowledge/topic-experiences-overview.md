@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva Topics 개요입니다.
-ms.openlocfilehash: 89f35062009372c2a44dddcb4e4d2934e494282f
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 60c276e8850ed1b824810131a13bed19424a87fa
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908328"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950026"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva Topics 개요 
 
-Viva 항목에서는 Microsoft AI 기술, Microsoft 365, Microsoft Graph, 검색 및 기타 구성 요소 및 서비스를 사용하여 Word, PowerPoint SharePoint, 검색 및 검색에서 시작하여 일상적으로 사용하는 Microsoft 365 앱의 사용자에게 지식을 PowerPoint, Outlook 및 Excel.
+Viva 항목에서는 Microsoft AI 기술, Microsoft 365, Microsoft Graph, 검색 및 기타 구성 요소 및 서비스를 사용하여 Word, PowerPoint, Outlook 및 검색에서 SharePoint 최신 페이지, Microsoft Search 및 검색부터 시작하여 일상적으로 사용하는 Microsoft 365 앱의 사용자에게 지식을 Excel.
 
 <br/>
 
@@ -103,7 +103,7 @@ Microsoft 365 환경에서 Viva Topics를 사용하는 경우 사용자는 다�
 
 - 지식 관리자: 주제 수명 주기를 통해 주제를 안내하는 사용자입니다. 지식 관리자는 항목  센터의 항목 관리 페이지를 사용하여 AI 추천 항목을 확인하고, 더 이상 관련이 없는 항목을 제거하고, 기존 항목을 편집하거나 새 항목을 만들 수 있으며, 항목에 액세스할 수 있는 유일한 사용자입니다. 지식 관리자는 Microsoft 365 관리 센터의 Viva Topics 관리 설정을 통해 사용자에게 지식 관리자 권한을 할당합니다. 
 
-- 지식 관리자: 관리자는 Viva 항목을 설정하고 Microsoft 365 관리 센터의 관리자 컨트롤을 통해 관리합니다. 현재 Microsoft 365 전역 또는 SharePoint 관리자는 지식 관리자 역할을 할 수 있습니다.
+- 지식 관리자: 관리자는 Viva 항목을 설정하고 관리자의 관리 컨트롤을 통해 Microsoft 365 관리 센터. 현재 Microsoft 365 전역 또는 SharePoint 관리자는 지식 관리자 역할을 할 수 있습니다.
 
 자세한 내용은 [Viva Topics 역할 을 참조하세요.](topic-experiences-roles.md)
 
@@ -123,7 +123,7 @@ Microsoft 365 환경에서 Viva Topics를 사용하는 경우 사용자는 다�
 
 ## <a name="admin-controls"></a>관리자 컨트롤
 
-Microsoft 365 관리 센터의 관리자 컨트롤을 사용하여 Viva 항목을 관리할 수 있습니다. 관리자 컨트롤을 통해 Microsoft 365 전역 또는 SharePoint 관리자가 다음을 할 수 있습니다.
+관리자 컨트롤의 Microsoft 365 관리 센터 Viva 항목을 관리할 수 있습니다. 관리자 컨트롤을 통해 Microsoft 365 전역 또는 SharePoint 관리자가 다음을 할 수 있습니다.
 
 - SharePoint 최신 페이지 또는 SharePoint 검색 결과에서 주제를 볼 수 있는 조직의 사용자를 제어합니다.
 - 주제를 식별하기 위해 크롤링할 SharePoint 사이트를 제어합니다.
@@ -142,10 +142,8 @@ AI는 사용자 환경이 변함에 따라 계속해서 주제를 개선하기 �
 
 일상 업무에서 주제를 볼 수 있도록 허용하는 사용자에게 해당 주제가 유용한지 물어볼 수 있습니다. 시스템에서 응답을 보고 응답을 사용하여 주제 하이라이트를 개선하고, 주제 요약과 주제 세부 정보에 표시할 항목을 결정할 수 있습니다.
 
-또한, 적절한 권한이 있는 사용자는 주제와 관련된 Yammer 대화와 같은 항목에 태그를 지정하고 항목을 특정 주제에 추가할 수 있습니다. 
-
 자세한 내용은 항목 검색 및 [큐레이터를 참조하세요.](./topic-experiences-discovery-curation.md)
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft Search를 사용하여 Viva 항목에서 항목 찾기](./search.md)
+[Viva Microsoft Search 항목을 찾아보는 데 사용할 수 있습니다.](./search.md)

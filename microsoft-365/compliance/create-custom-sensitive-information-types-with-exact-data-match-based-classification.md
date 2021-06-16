@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6839401bc1dd00acc45992f902a6360eb7f20120
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 05d5889ba690bdf61fd51044b3c059f1476342af
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878199"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964659"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -612,7 +612,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 - Microsoft Teams(대화)
 - SharePoint용 DLP(파일)
 - Microsoft Cloud App Security DLP 정책
-- 서버 쪽 자동 레이블 지정 정책 - 상업용 클라우드 고객에게 제공 <!--, UNCOMMENT THIS ON 6/15 and government cloud customers-->
+- 서버 쪽 자동 레이블 지정 정책 - 상업용 클라우드 고객 및 정부 클라우드 고객이 사용할 수 있습니다.
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>EDM으로 DLP 정책 만들기
 

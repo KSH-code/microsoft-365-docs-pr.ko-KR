@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fb10e65258f6264b21851f8325b97b1bad19bf16
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 7841197594941354b21bd2104cd27ef37a1a25c9
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925654"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964599"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 준비
 
@@ -60,7 +60,7 @@ ms.locfileid: "52925654"
 
 -   I = 이 프로젝트에 대한 정보
 
-| 이름                 | 역할                                                                                                                                                                                                          | 조치 |
+| 이름                 | 역할                                                                                                                                                                                                          | 작업 |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | 이름 및 전자 메일 입력 | **CISO(최고 정보 보안 책임자)** 새 기술 배포를 위해 조직 내부의 후원자 역할을 하는 *임원진 대표입니다.*                                                  | SO     |
 | 이름 및 전자 메일 입력 | **CDOC(Cyber Defense Operations Center)** 책임자 이 변경이 고객 보안 운영 팀의 프로세스와 어떻게 일치할지 정의하는 CDOC 팀의 *담당자입니다.*       | SO     |
@@ -95,7 +95,7 @@ ms.locfileid: "52925654"
 | 인프라 관리자 |       |                             |           |
 | 비즈니스 소유자/이해 관계자   |       |                             |           |
 
-Microsoft는 디렉터리 [Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure) 사용자에 대한 추가 감사, 제어 및 액세스 검토를 제공하기 위해 역할을 관리하는 것이 좋습니다.
+Microsoft에서는 디렉터리 [권한 있는 ID 관리](/azure/active-directory/active-directory-privileged-identity-management-configure) 감사, 제어 및 액세스 검토를 추가로 제공하기 위해 역할을 관리하는 것이 좋습니다.
 
 Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지원합니다.
 
@@ -126,8 +126,8 @@ Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지�
 
 | 구성 요소                               | 설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 채택 순서 순위 |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| 끝점 검색 & 응답(EDR)     | Endpoint 끝점 감지 및 응답 기능에 대한 Defender는 거의 실시간으로 실행 가능한 고급 공격 감지를 제공합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 응답 조치를 취할 수 있습니다. <br> [더 알아보세요.](/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)                                                                                                                                                                                                                                             | 1                   |
-|위협 & 취약성 관리(TVM)|위협 & 취약성 관리는 끝점용 Microsoft Defender의 구성 요소로, 다음을 비롯한 고유한 가치를 보안 관리자 및 보안 운영 팀에 제공합니다. <br> - 끝점 취약성과 상호 관련한 EDR 실시간 끝점 감지 및 대응(EDR) 인사이트 <br> - 인시던트 조사 중에 의미 있는 장치 취약성 컨텍스트 <br> - Microsoft Intune Microsoft 2013을 통한 기본 System Center Configuration Manager <br> [자세히 알아보기](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Introducing-a-risk-based-approach-to-threat-and-vulnerability/ba-p/377845).| 2 |
+| 끝점 검색 & 응답(EDR)     | Endpoint용 Defender 엔드포인트 감지 및 응답 기능은 거의 실시간으로 실행 가능한 고급 공격 감지 기능을 제공합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 응답 조치를 취할 수 있습니다. <br> [더 알아보세요.](/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)                                                                                                                                                                                                                                             | 1                   |
+|위협 & 취약성 관리(TVM)|위협 & 취약성 관리는 끝점용 Microsoft Defender의 구성 요소로, 다음을 비롯한 고유한 가치를 보안 관리자 및 보안 운영 팀에 제공합니다. <br> - 끝점 엔드포인트 감지 및 응답 상호 엔드포인트 감지 및 응답(EDR) 인사이트 <br> - 인시던트 조사 중에 의미 있는 장치 취약성 컨텍스트 <br> - Microsoft Intune Microsoft 2013을 통한 기본 System Center Configuration Manager <br> [자세히 알아보기](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Introducing-a-risk-based-approach-to-threat-and-vulnerability/ba-p/377845).| 2 |
 | NGP(차세대 보호)        | Microsoft Defender 바이러스 백신 맬웨어 방지 솔루션으로, 데스크톱, 휴대용 컴퓨터 및 서버에 대한 차세대 보호 기능을 제공합니다. Windows Defender 바이러스 백신은 다음을 포함합니다. <br> -신규 및 새로운 위협의 거의 즉각적인 감지 및 차단을 위한 클라우드 제공 보호. 기계 학습 및 Intelligent Security Graph와 함께 클라우드 전달 보호 기능은 Microsoft Defender 바이러스 백신을 지원하는 차세대 기술의 일부입니다.   <br> - 고급 파일 및 프로세스 동작 모니터링 및 기타 기억("실시간 보호"라고도 알려지기)를 사용하여 항상 검색합니다. <br> - 기계 학습, 인간 및 자동화된 빅 데이터 분석 및 심층 위협 저항 연구를 기반으로 하는 전용 보호 업데이트. <br> [자세히 알아보기](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
 | ASR(공격 표면 축소)          | Microsoft Defender for Endpoint의 공격 표면 감소 기능은 새로운 위협으로부터 조직의 장치 및 응용 프로그램을 보호하는 데 도움이 됩니다. <br> [더 알아보세요.](/windows/security/threat-protection/windows-defender-atp/overview-attack-surface-reduction)                                                                                                                                                                                                                                                                                                                                                                                       | 4                    |
 | 자동 조사 & 재구성(AIR)  | Microsoft Defender for Endpoint는 자동화된 조사를 사용하여 개별적으로 조사해야 하는 경고의 양을 크게 줄입니다. 자동화된 조사 기능은 다양한 검사 알고리즘과 분석가가 사용하는 프로세스(예: 플레이북)를 활용하여 경고를 검사하고 위반을 해결하기 위해 즉시 수정 조치를 취합니다. 이렇게 하면 경고 수량이 많이 줄어들기 때문에 보안 운영 전문가가 더 복잡한 위협과 기타 높은 가치의 이니셔티브에 집중할 수 있습니다. <br>[더 알아보세요.](/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection) | 해당 사항 없음      |
@@ -135,6 +135,7 @@ Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지�
 
 ## <a name="next-step"></a>다음 단계
 
-|||
-|:-------|:-----|
-|![2 단계: 설정](images/setup.png) <br>[2 단계: 설정](production-deployment.md) | 끝점 배포를 위한 Microsoft Defender 설정 |
+
+![2 단계: 설정](images/setup.png) <br>[2 단계: 설정](production-deployment.md) 
+ 
+끝점 배포를 위한 Microsoft Defender 설정 
