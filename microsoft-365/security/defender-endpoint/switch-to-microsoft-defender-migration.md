@@ -17,29 +17,27 @@ ms.collection:
 - M365-security-compliance
 - m365solution-migratetomdatp
 - m365solution-overview
+- m365solution-mcafeemigrate
+- m365solution-symantecmigrate
 ms.topic: conceptual
 ms.custom: migrationguides
-ms.date: 05/20/2021
+ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 2a2b78089486b432ebf9492de26396b2bb96f94d
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 2953103cb3812103740f98a6db5b8f4d369731e3
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593504"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930310"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 
-Microsoft가 아닌 끝점 보호에서 [끝점용 Microsoft Defender(Endpoint용 Defender)로](microsoft-defender-endpoint.md) 전환하는 것을 생각하고 있는 경우 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.
+Microsoft가 아닌 끝점 보호 솔루션에서 [끝점용 Microsoft Defender(Defender for Endpoint)로](microsoft-defender-endpoint.md) 전환하는 방안을 고민하고 있는 경우 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.
 
 :::image type="content" source="images/nonms-mde-migration.png" alt-text="끝점용 Defender로의 마이그레이션 개요":::
 
-Endpoint용 Defender로 전환할 때 먼저 활성 모드에서 작동하고, 수동 모드에서 끝점용 Defender를 구성하고, Endpoint용 Defender에 온보딩하고, Endpoint용 Defender를 활성 모드로 설정한 다음 Microsoft가 아닌 솔루션을 제거합니다.
-
-> [!TIP]
-> - 현재 McAfee 끝점 보안(McAfee)을 사용 중인 경우 [Migrate from McAfee to Defender for Endpoint를 참조합니다.](mcafee-to-microsoft-defender-migration.md)
-> - 현재 Symantec Endpoint Protection(Symantec)를 사용하는 경우 [Migrate from Symantec to Defender for Endpoint를 참조합니다.](symantec-to-microsoft-defender-endpoint-migration.md)
+Endpoint용 Defender로 전환할 때 Microsoft가 아닌 솔루션이 활성 모드로 작동하게 됩니다. 그런 다음 수동 모드에서 끝점에 대한 Defender를 구성하고 끝점용 Defender에 장치를 온보딩합니다. 다음으로 끝점에 대한 Defender를 활성 모드로 설정합니다. 마지막으로 Microsoft가 아닌 솔루션을 제거합니다.
 
 ## <a name="the-migration-process"></a>마이그레이션 프로세스
 

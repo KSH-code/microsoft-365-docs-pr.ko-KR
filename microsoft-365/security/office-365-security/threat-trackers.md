@@ -18,12 +18,12 @@ ms.collection:
 description: 조직이 보안 문제의 맨 위에 오게 도와주는 새로운 주목할 만한 추적기 등 위협 추적기에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bd658edd12bb3cc88d5adce3a2cd16529833d8d2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6d7585df980fca322a3bc5ce28f2ef2f7f53284e
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206166"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930006"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기 - 신규 및 주목할 만한 요소
 
@@ -50,10 +50,10 @@ ms.locfileid: "51206166"
 
 추적기 기능은 계획 [2용 Microsoft Defender에서](office-365-ti.md)얻을 수 있는 몇 가지 Office 365 있습니다. 위협 추적기에는 [주목할만한](#noteworthy-trackers)추적기, [인기](#trending-trackers)트래커, 추적된 [쿼리](#tracked-queries)및 저장된 [쿼리가 포함됩니다.](#saved-queries)
 
-조직에 대한 위협 추적기 보기 및 사용을 위해 보안 & 준수 센터()로 이동하고 위협 관리 <https://protection.office.com>  \> **위협 추적기 를 선택하십시오.**
+조직에 대한 위협 추적기 보기 및 사용을 위해 Microsoft 365 Defender 포털()으로 이동하여 전자 <https://security.microsoft.com> **메일** & 위협 \> **추적기 를 선택하세요.**
 
 > [!NOTE]
-> 위협 추적기를 사용하려면 전역 관리자, 보안 관리자 또는 보안 읽기 권한자일 수 있습니다. 보안 [및 준수 센터의 & 참조합니다.](permissions-in-the-security-and-compliance-center.md)
+> 위협 추적기를 사용하려면 전역 관리자, 보안 관리자 또는 보안 읽기 권한자일 수 있습니다. Defender [포털의 Microsoft 365 참조합니다.](permissions-in-the-security-and-compliance-center.md)
 
 ### <a name="noteworthy-trackers"></a>주목할 만한 추적기
 
@@ -87,15 +87,15 @@ ms.locfileid: "51206166"
 
 전자 메일, 콘텐츠 또는 Office 활동(출시 예정)을 검토하는지 여부에 관계가 없습니다. 탐색기 및 추적기는 함께 작동하여 보안 위험과 위협을 조사하고 추적하는 데 도움을 줄 수 있습니다. 추적기에서 새로운, 주목할만한 자주 검색되는 문제를 강조 표시하여 사용자를 보호하는 정보를 제공합니다. 클라우드로 전환할 때 비즈니스를 보다 잘 보호할 수 있습니다.
 
-또한 보안 및 준수 센터 개요의 오른쪽 아래 모서리에 있는 피드백  단추를 클릭하여 항상 이 또는 기타 Microsoft 365 보안 기능에 대한 피드백을 제공할 수 & [있습니다.](https://support.microsoft.com/office/a5f2fd18-b029-4257-b5a8-ae83e7768c85)
+또한 오른쪽 아래 모서리에 있는 피드백 단추를 클릭하여 항상 이 또는  기타 Microsoft 365 보안 기능에 대한 피드백을 제공할 수 있습니다.
 
-![보안 및 준수 센터](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
+![Microsoft 365 Defender 포털](../../media/microsoft-365-defender-portal.png)
 
 ## <a name="trackers-and-microsoft-defender-for-office-365"></a>트래커 및 Microsoft Defender for Office 365
 
 취임 후 주목할 만한 위협으로 안전한 첨부 파일에서 감지된 고급 맬웨어 위협을 [강조하고 있습니다.](safe-attachments.md) E5 고객으로 Office 365 Enterprise Microsoft [Defender를](defender-for-office-365.md)Office 365 경우 구독에 포함되어야 합니다. Defender for Office 365 서비스를 사용하여 전자 메일 흐름을 필터링하는 다른 보안 도구가 있는 경우에도 Office 365 제공합니다. 그러나 기본 전자 [](safe-links.md) 메일 보안 솔루션이 스팸 방지 및 안전한 링크 기능을 통해 작동할 Office 365.
 
-![보안 및 준수 Office 365 Microsoft Defender에서 & 수 있습니다.](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
+![Office 365 Defender 포털의 Microsoft Defender Microsoft 365](../../media/policies.png)
 
 오늘날의 위협을 없애는 세계에서 기존의 맬웨어 방지 검사만 실행하면 공격으로부터 충분히 보호되지 않습니다. 오늘날 좀 더 정교한 공격자는 일반적으로 사용할 수 있는 도구를 사용하여 기존의 서명 기반 맬웨어 방지 엔진에서 인식되지 않는 새로운, 난독 또는 지연된 공격을 만들 수 있습니다. 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 사용하여 가상 환경에서 이를 확인하여 안전한지 또는 악성인지를 판단합니다. 이 데이타 프로세스는 가상 컴퓨터 환경에서 각 파일을 연 다음 파일을 연 후 어떤 일이 일어나는지 확인합니다. PDF 및 압축된 파일이든 Office 문서이든, 악성 코드는 파일에 숨겨져 있으며, 사용자가 컴퓨터에서 파일을 열 때만 활성화할 수 있습니다. 전자 메일 흐름에서 파일을 검색하고 분석하여 Office 365 기능의 Defender는 동작, 파일 신뢰도 및 다양한추론 규칙을 기반으로 이러한 위협을 검색합니다.
 
@@ -105,8 +105,8 @@ ms.locfileid: "51206166"
 
 - 조직에 이러한 Office 365 위협 조사 및 대응 기능이 없는 경우 위협 조사 및 대응 Office 365 어떻게 [하나요?를 참조하세요.](office-365-ti.md)
 
-- 보안 팀에 올바른 역할 및 사용 권한이 할당되어 있는지 확인합니다. 전역 관리자 또는 보안 및 준수 센터에서 보안 관리자 또는 검색 및 제거 역할이 & 합니다. 보안 [및 준수 센터의 & 참조합니다.](permissions-in-the-security-and-compliance-center.md)
+- 보안 팀에 올바른 역할 및 사용 권한이 할당되어 있는지 확인합니다. 전역 관리자 또는 전역 Defender 포털에 보안 관리자 또는 검색 및 제거 역할이 Microsoft 365 합니다. Defender [포털의 Microsoft 365 참조합니다.](permissions-in-the-security-and-compliance-center.md)
 
-- 새 추적기에서 새 트래커가 사용자 환경에 Microsoft 365 감시합니다. 사용 가능한 경우 여기에서 추적기 를 찾을 [수 있습니다.](https://protection.office.com/) 위협  관리 \> **위협 추적기 로 이동**
+- 새 추적기에서 새 트래커가 사용자 환경에 Microsoft 365 감시합니다. 사용 가능한 경우 여기에서 추적기 를 찾을 [수 있습니다.](https://https://security.microsoft.com/) 전자 메일 & **위협** \> **추적기 로 이동하세요.**
 
 - 아직 수행하지 않은 경우 안전한 링크 및 안전한 첨부 파일을 포함하여 조직에서 사용할 [](safe-links.md) 수 [Office 365 Microsoft Defender를](defender-for-office-365.md) 구성하세요. [](safe-attachments.md)

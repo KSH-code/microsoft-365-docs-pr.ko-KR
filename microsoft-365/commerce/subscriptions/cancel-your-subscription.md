@@ -19,14 +19,17 @@ ms.custom:
 search.appverid: MET150
 description: 사용자 라이선스가 25개 미만인 경우 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소할 수 있습니다.
 ms.date: 04/08/2021
-ms.openlocfilehash: 583433e2c2cc939724f772c1cd699cc5763cb21c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5c4ce1c00bfde4a895710d737fab0836998836c6
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536121"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929458"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
+
+> [!IMPORTANT]
+> 이 문서는 비즈니스용 Microsoft 365 구독에만 적용됩니다. Microsoft 365 Family 또는 Personal이 있는 경우 [Microsoft 365 구독 취소](https://support.microsoft.com/ko-KR/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b)를 참조하세요.
 
 *자격:* : 사용자에게 할당한 라이선스가 25개 미만인 경우 Microsoft 365 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 온라인 구독을 취소할 수 있습니다. 사용자에게 할당된 라이선스가 25개 이상인 경우 25개 미만으로 줄이거나 [지원팀에 문의하여 구독을 취소하세요](../../business-video/get-help-support.md).
 
@@ -47,7 +50,7 @@ ms.locfileid: "52536121"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 2. 취소하려는 구독을 찾습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
-3. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우, 피드백을 제공하세요.
+3. **구독 취소** 창에서 취소 이유를 선택합니다. 또는 피드백을 입력합니다.
 4. **저장** 을 선택합니다.
 
 이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독을 취소할 경우 나타나는 결과에 대한 자세한 내용은 [내 Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)를 참조하세요.
@@ -70,7 +73,7 @@ ms.locfileid: "52536121"
 
 2. **상품** 탭을 선택합니다.
 3. 취소하려는 구독을 찾습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
-4. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우, 피드백을 제공하세요.
+4. **구독 취소** 창에서 취소 이유를 선택합니다. 또는 피드백을 입력합니다.
 5. **저장** 을 선택합니다.
 
 이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독 취소 결과에 대한 자세한 내용은 [비즈니스용 Microsoft 365 구독이 종료되면 내 데이터와 액세스 권한은 어떻게 되나요?](what-if-my-subscription-expires.md)를 참조하세요.

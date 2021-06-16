@@ -3,7 +3,7 @@ title: Office 365 보안, Office 365용 Microsoft Defender, EOP, MSDO
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 08/13/2020
+ms.date: 06/11/2021
 audience: Admin
 ms.topic: conceptual
 localization_priority: Normal
@@ -16,26 +16,25 @@ ms.collection:
 description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 현재 보유 중인 항목이 무엇이고 이러한 항목을 어떻게 보호할 수 있는지 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: db37718ce2feae9c79ff6b323eb22e30f24e72b2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6ecdfe324ded6224745b0e2eac087e432ac76c83
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205836"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930250"
 ---
-# <a name="office-365-security-overview"></a>Office 365 보안 개요
+# <a name="microsoft-defender-for-office-365-security-overview"></a>Microsoft Defender for Office 365 보안 개요
 
 **적용 대상**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 
-
-이 문서에서는 클라우드의 새로운 보안 속성을 소개합니다. 보안 운영 센터의 일원인지, 해당 공간에 새로 온 보안 관리자인지, 또는 분위기 전환을 원하는지와 관계 없이, 이제 시작하겠습니다.
+이 문서에서는 클라우드의 보안 속성을 Office 365 새로운 Microsoft Defender를 소개합니다. 보안 운영 센터의 일원인지, 해당 공간에 새로 온 보안 관리자인지, 또는 분위기 전환을 원하는지와 관계 없이, 이제 시작하겠습니다.
 
 > [!CAUTION]
 > **Outlook.com**, **Microsoft 365 Family** 또는 **Microsoft 365 Personal** 을 사용 중이고 *안전한 링크* 또는 *안전한 첨부 파일 정보* 가 필요한 경우 이 [Microsoft 365 구독자를위한 고급 Outlook.com 보안](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2) ***링크를 클릭*** 합니다.
 
-## <a name="office-365-security-spelled-out"></a>Office 365 보안 설명
+## <a name="what-is-defender-for-office-365-security"></a>보안에 대한 Defender Office 365
 
 모든 Office 365 구독에는 보안 기능이 함께 제공됩니다. 수행할 수 있는 목표와 작업은 이러한 여러 구독의 포커스에 따라 다릅니다. Office 365 보안에는 구독 유형과 연계된 세 가지 주요 보안 서비스(또는 제품)가 있습니다.
 
@@ -57,8 +56,6 @@ EOP에서 제공하는 핵심 보호를 위한 Office 365 보안 빌드입니다
 
 그러나 아키텍처 측면에서 각 부분을 보안에 중점을 둔 누적 보안 계층으로 생각하여 시작해 봅시다. 다음과 더 비슷합니다.
 
-<!--:::image type="content" source="../../media/tp-EOPATPStack.PNG" alt-text="Placeholder graphic":::-->
-
 :::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="EOP 및 Office 365용 Microsoft Defender와 전자 메일 인증에 대한 참고 사항을 포함하여 서비스에 중점을 둔 상호 관계 ":::
 
 이러한 각 서비스는 보호, 감지, 조사 및 대응 중 목표를 강조하지만 * **모든** _서비스는 보호, 탐지, 조사 및 대응 중_ *_모든_* 목표를 수행할 수 있습니다.
@@ -73,8 +70,6 @@ Office 365 E3 이상이 있는 경우 EOP가 있지만 업그레이드를 통해
 > 구독이 Office 365 E3 또는 E5가 아닌 경우에도 Office 365용 Microsoft Defender P1로 업그레이드 할 수 있는 옵션이 있는지 확인할 수 있습니다. 관심이 있다면 [이 웹 페이지 ](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection#coreui-contentrichblock-x07wids)에 Office 365용 Defender P1 업그레이드에 적합한 구독 목록이 나와 있습니다(자세한 내용은 페이지 끝 부분을 확인하세요).
 
 ## <a name="the-office-365-security-ladder-from-eop-to-microsoft-defender-for-office-365"></a>EOP에서 Office 365용 Microsoft Defender로의 Office 365 보안 사다리
-
-![보호 및 검색에서 조사 및 응답으로 이어지는 EOP 및 Office 365용 Microsoft Defender와 보안 강조 전자 메일 인증 구성(DKIM 및 DMARC 이상)은 EOP 이상에 대해 설정되어야 합니다.](../../media/tp_EOPATPP1P2Take6.gif#lightbox)
 
 > [!IMPORTANT]
 > [Exchange Online Protection ](exchange-online-protection-overview.md) 및 [Office 365용 Defender](defender-for-office-365.md)에서 자세한 내용을 알아보세요.
@@ -117,7 +112,7 @@ Office 365용 Microsoft Defender P1은 조사를 위해 **실시간 감지** 기
 
 따라서 Office 365용 Microsoft Defender P2는 ***조사 및 대응*** 측면을 확장하고 새로운 검색 능력을 추가합니다. 자동화
 
-Office 365용 Microsoft Defender P2에서는 기본 검색 도구를 실시간 감지가 아닌 **위협 탐색기** 이라고 합니다. 보안 센터로 이동할 때 위협 탐색기가 표시되면 Office 365용 Microsoft Defender P2를 사용 중인 것입니다.
+Office 365용 Microsoft Defender P2에서는 기본 검색 도구를 실시간 감지가 아닌 **위협 탐색기** 이라고 합니다. Microsoft 365 Defender 포털로 이동할 때 위협 탐색기가 표시될 경우 P2용 Microsoft Defender에 Office 365 있습니다.
 
 Office 365용 Microsoft Defender P1 및 P2에 대해 자세히 알아보려면 **[이 문서로 이동](defender-for-office-365.md)** 하세요.
 
@@ -159,3 +154,4 @@ Office 365용 Microsoft Defender P1 및 P2에 대해 자세히 알아보려면 *
 [위협 탐색기 또는 실시간 감지 기능 사용](threat-explorer.md)
 
 [Office 365용 Microsoft Defender에서 공격 시뮬레이터](attack-simulator.md) 사용
+

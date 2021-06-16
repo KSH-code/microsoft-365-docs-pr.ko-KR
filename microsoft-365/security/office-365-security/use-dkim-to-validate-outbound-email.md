@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2cd04911e3663bb6b9fa00d4946b26086dc8094d
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 12c7609635d9140f2e8efda3f6f1397619ce4790
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538270"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929908"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -213,18 +213,16 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 1. 회사 또는 학교 계정으로 [Microsoft 365에 로그인](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)합니다.
 
-2. 사용하는 포털에 따라 [protection.office.com](https://protection.office.com) 또는 [security.microsoft.com](https://security.microsoft.com)으로 이동하고 아래 경로를 따르세요.
+2. [security.microsoft.com](https://security.microsoft.com)으로 이동하여 아래 경로를 따릅니다.
 
-|protection.office.com  |security.microsoft.com  |
-|---------|---------|
-| 위협 관리 > 정책 > 추가 정책 > DKIM     | 전자 메일 및 공동 작업 > 정책 및 규칙 > 위협 정책 > 추가 정책 > DKIM        | 
+3. **전자 메일 및 공동 작업 > 정책 및 규칙 > 위협 정책 > DKIM** 으로 이동합니다.
 
-3. DKIM을 활성화 할 도메인을 선택한 다음 **DKIM 서명을 사용하여 이 도메인의 메시지 서명** 에 대해 **활성화** 를 선택합니다. 각 사용자 지정 도메인에 대해 이 단계를 반복합니다.
+4. DKIM을 활성화 할 도메인을 선택한 다음 **DKIM 서명을 사용하여 이 도메인의 메시지 서명** 에 대해 **활성화** 를 선택합니다. 각 사용자 지정 도메인에 대해 이 단계를 반복합니다.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>PowerShell을 사용하여 사용자 지정 도메인에 DKIM 서명 사용
 
 > [!IMPORTANT]
->:::image type="content" source="../../media/DKIMNoKeysSavedForThisDomain.PNG" alt-text="'이 도메인에 대해 저장된 DKIM 키가 없습니다.' 오류가 발생합니다.":::
+>:::image type="content" source="../../media/dkim.png" alt-text="'이 도메인에 대해 저장된 DKIM 키가 없습니다.' 오류가 발생합니다.":::
 > DKIM을 처음 구성하는 경우 '이 도메인에 대해 저장된 DKIM 키가 없습니다' 오류가 표시됩니다. 아래 2단계의 명령을 완료하여(예: *Set-DkimSigningConfig -IDENTITY contoso.com -enabled $true*) 키를 확인합니다.
 
 1. [Exchange Online PowerShell에 연결합니다](/powershell/exchange/connect-to-exchange-online-powershell).

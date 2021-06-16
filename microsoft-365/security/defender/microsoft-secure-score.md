@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 4a2c220cab15751671b9b38c3bb2fda3db12c9e1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 1b03c2671939a3e8e3011b78b8f1484ef02979ea
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245380"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930190"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -78,8 +78,8 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 현재 다음 제품에 대한 권장 사항이 있습니다.
 
 - Microsoft 365(Exchange Online)
-- Azure Active Directory
-- 끝점용 Microsoft Defender
+- Azure Active Directory Domain Services
+- 엔드포인트용 Microsoft Defender
 - ID용 Microsoft Defender
 - 클라우드 앱 보안
 - Microsoft Teams
@@ -111,7 +111,6 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여하려면 보
 * 보안 관리자
 * Exchange 관리자
 * SharePoint 관리자
-* 계정 관리자
 
 ### <a name="read-only-roles"></a>읽기 전용 역할
 
@@ -119,7 +118,7 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여하려면 보
 
 * 헬프데스크 관리자
 * 사용자 관리자
-* 서비스 관리자
+* 서비스 지원 관리자
 * 보안 읽기 권한자
 * 보안 운영자
 * 전역 읽기 권한자

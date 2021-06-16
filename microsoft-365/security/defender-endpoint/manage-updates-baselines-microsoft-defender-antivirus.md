@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/09/2021
-ms.openlocfilehash: 05b2b2af87e423058d18651571d52a97ac387506
-ms.sourcegitcommit: 3584c1fe59d12512d67faf3efc955e1d67e2baa0
+ms.date: 06/14/2021
+ms.openlocfilehash: 1c7ff52398e048aa34fd9c5ab3d8edd1004ea5ec
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52862150"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929446"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -31,17 +31,13 @@ ms.locfileid: "52862150"
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 - Windows Defender 바이러스 백신
 
-최신 업데이트와 관련된 두 가지 유형의 업데이트가 Microsoft Defender 바이러스 백신 있습니다.
+최신 Microsoft Defender 바이러스 백신 유지하는 것은 장치에 새로운 맬웨어 및 공격 기술로부터 보호하는 데 필요한 최신 기술 및 기능을 유지하는 데 중요합니다. 수동 모드에서 실행 중인 경우에도 바이러스 Microsoft Defender 바이러스 백신 [업데이트해야 합니다.](microsoft-defender-antivirus-compatibility.md) 최신 업데이트와 관련된 두 가지 유형의 업데이트가 Microsoft Defender 바이러스 백신 있습니다.
 
 - 보안 인텔리전스 업데이트
 - 제품 업데이트
 
-> [!IMPORTANT]
-> 최신 Microsoft Defender 바이러스 백신 유지하는 것은 장치에 새로운 맬웨어 및 공격 기술로부터 보호하는 데 필요한 최신 기술 및 기능을 유지하는 데 중요합니다.
-> 
-> 수동 모드에서 실행 중인 경우에도 바이러스 Microsoft Defender 바이러스 백신 [업데이트해야 합니다.](./microsoft-defender-antivirus-compatibility.md)
-> 
-> 최신 엔진, 플랫폼 및 서명 날짜를 확인하기 위해 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지에 대한 보안 [인텔리전스 업데이트를 방문하세요.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
+> [!TIP]
+> 최신 엔진, 플랫폼 및 서명 날짜를 확인한 다음 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지에 대한 보안 인텔리전스 업데이트를 [방문하세요.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
 
 ## <a name="security-intelligence-updates"></a>보안 인텔리전스 업데이트
 
@@ -81,7 +77,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 - 성능 개선
 - 서비스성 개선 및 
 - 통합 개선된 기능(클라우드, Microsoft 365 [Defender).](/microsoft-365/security/defender/microsoft-365-defender)
-<br/>
+<br/><br/>
 <details>
 <summary> 2021년 5월(플랫폼: 4.18.2105.4 | 엔진: 1.1.18200.4)</summary>
 

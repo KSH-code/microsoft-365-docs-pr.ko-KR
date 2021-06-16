@@ -19,12 +19,12 @@ description: 조직의 SIEM 서버를 Office 365 관리 API의 microsoft Defende
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca8f86c831df16568ae569e7b21c7e0a33475948
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: f3d6bbacb4a64060ecd03cbb28eee3256f41827e
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205177"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929782"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Microsoft Defender와 SIEM Office 365
 
@@ -67,7 +67,7 @@ SIEM 서버 또는 기타 유사한 시스템은 **audit.general** 작업을 폴
 |
 
 > [!IMPORTANT]
-> Microsoft Defender와의 SIEM 통합을 설정하려면 전역 관리자 또는 보안 및 준수 센터에 & 관리자 역할이 할당되어 있어야 Office 365.
+> Microsoft Defender와의 SIEM 통합을 설정하려면 전역 관리자 또는 Microsoft 365 Defender 포털에 대해 보안 관리자 역할이 할당되어 있어야 Office 365.
 >
 > 사용자 환경에 대해 감사 로깅을 설정해야 Microsoft 365 합니다. 이 문제를 확인하려면 감사 로그 검색 켜기 또는 [끄기 를 참조합니다.](../../compliance/turn-audit-log-search-on-or-off.md)
 

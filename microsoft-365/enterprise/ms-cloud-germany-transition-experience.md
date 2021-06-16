@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 서비스로 Office 365 변경된 내용을 이해합니다.'
-ms.openlocfilehash: 74ad9a662d3ea7a68ef1f82961864eb4468f6098
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: e503df16cfdbe0985e635b07cb6b4a45bc55d367
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591783"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930406"
 ---
 # <a name="what-will-change-after-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션한 후 변경되는 것
 
@@ -32,7 +32,7 @@ ms.locfileid: "51591783"
 
 다음은 독일 Microsoft 클라우드와 독일의 새로운 데이터 센터 Office 365 서비스 간의 주요 차이점입니다.
 
-| Category | 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드) | 신규 독일 데이터 센터 지역에서의 Office 365 서비스 |
+| 범주 | 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드) | 신규 독일 데이터 센터 지역에서의 Office 365 서비스 |
 |:-------|:-----|:-------|
 | 하나의 Office 365 테넌트만으로도 구독 가능한 Microsoft 365 서비스 | 서비스 15개 | 29개 서비스 <br><br> 자세한 내용은 각 클라우드 서비스 제품 간에 사용 가능한 Office 365 [무엇입니까?를 참조하세요.](ms-cloud-germany-transition.md#serv-avail) |
 | 새로운 기능 | 새로운 기능은 사용할 수 없습니다. | 새로운 기능은 모든 서비스와 Office 365 있습니다. |
@@ -42,7 +42,7 @@ ms.locfileid: "51591783"
 | 적용 약관  | [이 추가가 있는](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) 온라인 서비스 [약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=64) | [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
 ||||
 
-## <a name="azure-active-directory"></a>Azure Active Directory
+## <a name="azure-active-directory"></a>Azure Active Directory Domain Services
 
 변경되지 않는 사항:
 
@@ -75,6 +75,12 @@ ms.locfileid: "51591783"
 - 사서함은 백end 프로세스로 마이그레이션됩니다. 조직의 사용자는 전환 중에 독일 Microsoft 클라우드 또는 독일 지역에 있을 수 있으며 동일한 Exchange 조직의 일부입니다(동일한 전체 주소 목록).
 
 - 사서함이 Outlook Web App URL을 사용하여 서비스에 액세스하면 추가 인증 프롬프트가 표시됩니다. 예를 들어 사용자의 사서함이 Office 365 서비스에 있으며 사용자의 Outlook Web App 연결에서 레거시 끝점을 사용하는 경우 사용자는 먼저 에 인증한 다음 에 를 인증합니다. `outlook.office.de` `login.microsoftonline.de` `login.microsoftonline.com` 마이그레이션이 완료되면 사용자는 새 URL( ) 에 액세스할 수 있으며 예상되는 단일 로그인 요청만 `https://outlook.office365.com` 표시됩니다. 
+
+## <a name="sharepoint-online"></a>SharePoint Online
+
+SharePoint Online 및 비즈니스용 OneDrive 사용하여 항목을 공유할 수 Outlook. Outlook 단추를 누르면 공유 가능한 링크가 만들어지며 메시지의 새 메시지로 Outlook Web App.
+
+SharePoint Online 및 비즈니스용 OneDrive Outlook 온라인의 마이그레이션이 완료된 SharePoint 더 이상 작동되지 않습니다. 이 문제는 알려진 문제로 인식하고 있습니다. 그러나 이 Outlook 기능은 사용되지 않는 경로에 있는 것이기 때문에 사용되지 않는 문제가 해결될 때까지는 계획되지 않습니다.
 
 ## <a name="office-services"></a>Office 서비스
 

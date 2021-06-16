@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: ab02559a439899fe25a560aa52718045b730ebd4
-ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
+ms.openlocfilehash: 04c485db5f250dfc852faeeaeae669956b95a8c4
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "52710721"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52932869"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -263,9 +263,16 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
 |처리 검토 | 아니요| 예 |
 |최대 7년 동안 처리 증명 | 아니요 |예, 처리 검토를 사용하거나 항목이 레코드로 표시된 경우|
 |감사 관리 활동| 예 | 예|
+|보존 작업 감사| 아니요 | 예<sup>\*</sup> |
 |보존될 항목 식별: <br /> - 콘텐츠 검색 <br /> - 데이터 분류 페이지, 콘텐츠 탐색기, 활동 탐색기 | <br /> 아니요 <br /> 아니요 | <br /> 예 <br /> 예|
 
-보존 정책과 보존 레이블을 모두 보완 보존 방법으로 사용할 수 있습니다. 예를 들면 다음과 같습니다.
+**각주:**
+
+<sup>\*</sup> 콘텐츠를 레코드 또는 규제 레코드로 표시하지 않는 보존 레이블의 경우 감사 이벤트는 SharePoint의 항목에 적용, 변경 또는 제거된 레이블이 있는 경우로 제한됩니다. 보존 레이블에 대한 감사 세부 정보는 이 페이지의 [감사 보존 작업](#auditing-retention-actions) 섹션을 참조하세요.
+
+### <a name="combining-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 결합
+
+보존 정책만 사용하거나 보존 레이블만 사용할 필요는 없습니다. 두 메서드를 함께 사용할 수 있으며 실제로 이 메서드들은 서로 보완하여 보다 포괄적인 솔루션을 만들 수 있습니다. 예제:
 
 1. 콘텐츠를 마지막으로 수정한 후 5년이 지나면 콘텐츠를 자동으로 삭제하는 보존 정책을 만들고 구성하여, 모든 OneDrive 계정에 정책을 적용합니다.
 
@@ -374,9 +381,31 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 
 유예 기간 동안의 동작으로 인해 정책을 다시 실행하거나 30일 이내에 위치 상태를 다시 켜면 이 기간 동안 영구 데이터 손실 없이 정책이 다시 시작됩니다.
 
-## <a name="auditing-retention-configuration"></a>감사 보존 구성
+## <a name="auditing-retention-configuration-and-actions"></a>보존 구성 및 작업 감사
 
-[감사가 설정되면](turn-audit-log-search-on-or-off.md) 보존 정책과 보존 레이블 관리자 작업이 감사 로그에 저장됩니다. 예를 들어, 보존 정책이나 레이블을 만들고, 구성하고 삭제 할 때 감사 이벤트를 만듭니다. 전체 목록은 [보존 정책 및 보존 레이블 활동](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities)을 참조하세요.
+[감사를 사용하도록 설정](turn-audit-log-search-on-or-off.md)하면 보존에 대한 감사 이벤트가 관리 구성(보존 정책 및 보존 레이블) 및 보존 작업(보존 레이블에만 해당)에 대해 지원됩니다.
+
+### <a name="auditing-retention-configuration"></a>감사 보존 구성
+
+보존 정책 및 보존 레이블에 대한 관리자 구성은 보존 정책 또는 레이블을 만들거나, 다시 구성하거나, 삭제할 때 감사 이벤트로 기록됩니다.
+
+감사 이벤트의 전체 목록은 [보존 정책 및 보존 레이블 활동](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities)을 참조하세요.
+
+### <a name="auditing-retention-actions"></a>보존 작업 감사
+
+감사 이벤트로 기록된 보존 작업은 보존 레이블에만 사용할 수 있으며 보존 정책에는 사용할 수 없습니다.
+
+- 보존 레이블이 SharePoint의 항목에서 적용, 변경 또는 제거되는 경우:
+    - **파일 및 페이지 활동** 에서 **파일의 보존 레이블 변경** 을 선택합니다. 
+
+- SharePoint의 레이블이 지정된 항목이 레코드로 표시되고 사용자에 의해 잠금 해제되거나 잠기는 경우:
+    - **파일 및 페이지 활동** 에서 **레코드 상태를 잠금 해제로 변경함** 및 **레코드 상태를 잠금으로 변경함** 을 선택합니다.
+
+- 콘텐츠를 레코드 또는 규제 레코드로 표시하는 보존 레이블이 Exchange의 항목에 적용되는 경우:
+    - **Exchange 사서함 활동** 에서 **레이블이 지정된 메시지를 레코드로** 를 선택합니다.
+
+- SharePoint 또는 Exchange의 레이블이 지정된 항목이 레코드 또는 규제 레코드로 표시되고 영구적으로 삭제되는 경우:
+    - **파일 및 페이지 활동** 에서 **레코드로 표시된 삭제된 파일** 을 선택합니다.
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블의 PowerShell cmdlet
 

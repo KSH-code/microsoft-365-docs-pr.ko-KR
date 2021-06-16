@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(2013)에서 아웃바운드 스팸 정책을 보고, 만들고, 수정하고, 삭제하는 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 13b25300b6e5b42c860c58546f9c084a244b5f1f
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 9dadea740267225ff2df316b96ba7ccef92fe01e
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878919"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933134"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>EOP에서 아웃바운드 스팸 필터링 구성
 
@@ -66,9 +66,9 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 아웃바운드 스팸 필터링의 효율성을 높이기 위해 특정 사용자 또는 사용자 그룹에 적용되는 더 엄격한 설정을 사용하여 사용자 지정 아웃바운드 스팸 정책을 만들 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 에서 Microsoft 365 Defender 포털을 열 수 <https://security.microsoft.com> 있습니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://security.microsoft.com/antispam>을 사용하세요.
+- <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://security.microsoft.com/antispam>을 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -91,7 +91,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 Microsoft 365 Defender 포털에서 사용자 지정 아웃바운드 스팸 정책을 만들면 스팸 필터 규칙과 연결된 스팸 필터 정책이 동시에 동일한 이름을 사용하여 생성됩니다.
 
-1. Microsoft 365 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
 
 2. 스팸 **방지 정책** 페이지에서 만들기 아이콘 정책 만들기를 클릭한 다음 드롭다운 목록에서 ![ ](../../media/m365-cc-sc-create-icon.png)  아웃바운드를 선택합니다. 
 
@@ -177,7 +177,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 아웃바운드 스팸 정�
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-outbound-spam-policies"></a>Microsoft 365 Defender 포털을 사용하여 아웃바운드 스팸 정책 보기
 
-1. Microsoft 365 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
 
 2. **스팸 방지 정책** 페이지에서 다음 값 중 하나를 찾습니다.
    - 유형 **값은** 사용자 지정 **아웃바운드 스팸 정책입니다.**
@@ -194,7 +194,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 아웃바운드 스팸 정�
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-outbound-spam-policies"></a>Microsoft 365 Defender 포털을 사용하여 아웃바운드 스팸 정책 수정
 
-1. Microsoft 365 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
 
 2. 스팸 **방지 정책 페이지에서** 이름을 클릭하여 목록에서 아웃바운드 스팸 정책을 선택합니다.
    - 유형 열의 값이 사용자 지정  아웃바운드 스팸 정책인 경우 만든 사용자 지정 **정책입니다.**
@@ -210,7 +210,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 아웃바운드 스팸 정�
 
 기본 아웃바운드 스팸 정책은 사용하지 않도록 설정할 수 없습니다.
 
-1. Microsoft 365 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
 
 2. 스팸 **방지 정책 페이지에서** 이름을 클릭하여 목록에서 사용자 지정  **아웃바운드** 스팸 정책 유형 값이 있는 정책을 선택합니다.
 
@@ -228,21 +228,21 @@ Microsoft 365 Defender 포털에서 사용자 지정 아웃바운드 스팸 정�
 
 기본적으로 아웃바운드 스팸 정책에는 만들어진 순서에 따라 우선 순위가 부여됩니다(새 정책은 이전 정책보다 우선 순위가 낮음). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
 
-정책의 우선 순위를 변경하려면 정책  속성에서 우선 순위 늘리기 또는 우선 순위  감소를 클릭합니다(Microsoft 365 Defender 포털에서 우선 순위 번호를 직접 수정할 수 없습니다).  정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
+정책의 우선 순위를 변경하려면 정책 속성에서 **우선 순위를 높이** 거나 **우선 순위를 낮춥** 니다(Microsoft 365 Defender 포털에서 **우선 순위** 번호를 직접 수정할 수 없습니다). 정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
 
  **참고**:
 
 - Microsoft 365 Defender 포털에서 아웃바운드 스팸 정책의 우선 순위를 변경한 후에만 변경할 수 있습니다. PowerShell에서 사용자는 기존 규칙의 우선순위에 영향을 줄 수 있는 스팸 필터 규칙을 만들 때 기본 우선순위를 재정의할 수 있습니다.
 - 아웃바운드 스팸 정책은 표시되는 순서대로 처리됩니다(첫 번째  정책의 우선 순위 값은 0). 기본 아웃바운드 스팸 정책의 우선 순위 값은 **가장** 낮습니다. 이 값은 변경할 수 없습니다.
 
-1. Microsoft 365 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
 
 2. 스팸 **방지 정책** 페이지에서 이름을 클릭하여 목록에서  사용자 지정 **아웃바운드** 스팸 정책 유형 값이 있는 정책 선택을 선택합니다.
 
 3. 표시되는 정책 세부 정보 플라이아웃 맨 위에 현재 우선 순위 값 및 사용자 지정 정책 수를 기준으로 **우선순위 증가** 또는 **우선순위 감소** 가 표시됩니다.
    - 우선 순위 값이 **0인** 아웃바운드 스팸 정책에는 우선 순위 감소 옵션만 사용할 **수** 있습니다. 
    - 우선 순위 값이 가장  낮은 아웃바운드 스팸 정책(예: **3)에는** 우선 순위 늘리기 옵션만 사용할 **수** 있습니다.
-   - 아웃바운드 스팸 정책이 세 개 이상 있는 경우 우선  순위가 가장 높은 값과 가장 낮은 값 사이의 정책에는 우선 순위 늘리기 및 우선 순위 감소 옵션을 모두 사용할 **수** 있습니다.
+   - 아웃바운드 스팸 정책이 세 개 이상 있는 경우 우선 순위가 가장 높은 값과 가장 낮은 값 사이의 정책에는 우선 순위 늘리기 및 우선 순위 감소 옵션을 모두 사용할 **수** 있습니다. 
 
    ![우선순위 아이콘](../../media/m365-cc-sc-increase-icon.png) **우선순위** 또는 ![우선순위 아이콘](../../media/m365-cc-sc-decrease-icon.png) **우선순위** 를 클릭하여 **우선순위** 값을 변경합니다.
 
@@ -252,7 +252,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 아웃바운드 스팸 정�
 
 Microsoft 365 Defender 포털을 사용하여 사용자 지정 아웃바운드 스팸 정책을 제거하면 스팸 필터 규칙과 해당 스팸 필터 정책이 모두 삭제됩니다. 기본 아웃바운드 스팸 정책은 제거할 수 없습니다.
 
-1. Microsoft 365 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
 
 2. 스팸 **방지 정책 페이지에서** 이름을 클릭하여 목록에서 사용자 지정  **아웃바운드** 스팸 정책 유형 값이 있는 정책을 선택합니다. 표시되는 정책 세부 정보 플라이아웃의 맨 위에서 ![추가 작업 아이콘](../../media/m365-cc-sc-more-actions-icon.png)**추가 작업**\>![정책 삭제 아이콘](../../media/m365-cc-sc-delete-icon.png)**정책 삭제** 를 클릭합니다.
 

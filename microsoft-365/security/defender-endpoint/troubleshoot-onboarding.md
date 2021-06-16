@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: b9d6cd374a107a403269bc3babbe4220d69e1cce
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cb4bebe3f6998b81a00d7fd15bc919f70381a933
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844877"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929698"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -307,7 +307,7 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 다음을 확인해야 할 수도 있습니다.
 
-- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예:
+- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예시:
 
     ![Endpoint Service용 Microsoft Defender를 실행하는 프로세스 보기의 이미지](images/atp-task-manager.png)
 
@@ -334,6 +334,8 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 - 최종 사용자가 첫 번째 로그온을 수행하기 전에 장치가 꺼지거나 다시 시작됩니다.
 - 이 시나리오에서는 온보더링 패키지가 배포된 경우에도 SENSE 서비스가 자동으로 시작되지 않습니다.
 
+<div class="alert"><b>참고:</b> Windows SENSE 서비스가 [2021년](https://support.microsoft.com/kb/5001384) 4월 22일 업데이트 롤업이 있는 Windows 10, 버전 1809 또는 Windows Server 2019에서 OOBE 이후의 사용자 로그온을 더 이상 시작할 필요는 없습니다. </br> Windows 10 [2021년 4월](https://support.microsoft.com/kb/5001396) 업데이트 롤업이 적용된 버전 1909 </br> Windows 10 2021년 4월 28일 업데이트 롤업이 있는 버전 [2004/20H2](https://support.microsoft.com/kb/5001391) </div> 
+<br></br>
 > [!NOTE]
 > 다음 단계는 다음 단계를 사용하는 경우만 관련이 Microsoft Endpoint Configuration Manager. 온보딩을 사용하는 온보딩에 대한 자세한 Microsoft Endpoint Configuration Manager [끝점용 Microsoft Defender를 참조합니다.](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection)
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: danbrown
 author: DHB-MSFT
-manager: scotv
+manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 관리 센터의 'Office 새로운 기능 Microsoft 365' 기능을 사용하여 사용자가 > 도움말을 선택할 때 표시하거나 숨길 Office 앱 Windows 새로운 기능을 결정하세요.
-ms.openlocfilehash: 319d5c0aabb0a61b01872acaeeb3ad362b72de37
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 395038bebda407771802a61ba5aefc350c7c5cd1
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924838"
+ms.locfileid: "52929482"
 ---
 # <a name="manage-which-office-features-appear-in-whats-new"></a>새로운 기능에 Office 기능 관리
 

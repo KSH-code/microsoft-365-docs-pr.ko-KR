@@ -1,5 +1,5 @@
 ---
-title: 보안 및 준수 센터의 전자 메일 보안 보고서 보기
+title: Defender 포털에서 Microsoft 365 보안 보고서 보기
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,18 +15,18 @@ search.appverid:
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
-description: 조직에 대한 전자 메일 보안 보고서를 찾아 사용하는 방법에 대해 자세히 알아보습니다. 전자 메일 보안 보고서는 보안 및 준수 & 있습니다.
+description: 조직에 대한 전자 메일 보안 보고서를 찾아 사용하는 방법에 대해 자세히 알아보습니다. 전자 메일 보안 보고서는 Defender 포털의 Microsoft 365 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 11fe6fd76d21b2dbd7a3e651d40efaa79f675a43
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: bb7570722fcc957ca86d68f6b42ef254578d7bd7
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52531025"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930328"
 ---
-# <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
+# <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 Microsoft 365 보안 보고서 보기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,9 +35,9 @@ ms.locfileid: "52531025"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Security & Compliance Center에서는 다양한 보고서를 사용하여 조직의 스팸 [방지,](https://protection.office.com) 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 Microsoft 365 보호하는 방법을 볼 수 있습니다. 필요한 사용 [](#what-permissions-are-needed-to-view-these-reports)권한이 있는 경우 보고서 대시보드로 & 보안 및 준수 센터에서 이러한 보고서를 볼 **수** \> **있습니다.** 보고서 대시보드로 직접 이동하기 위해 를 를 <https://protection.office.com/insightdashboard> 습니다.
+Microsoft 365 Defender 포털에서 다양한 보고서를 사용하여 스팸 [방지,](https://security.microsoft.com) 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 Microsoft 365 보호하는 방법을 볼 수 있습니다. 필요한 권한이 [](#what-permissions-are-needed-to-view-these-reports)있는 경우 보고서 전자 메일 Microsoft 365 공동 작업 전자 메일  공동 작업 전자 메일 & 공동 작업 보고서로 이동하여 & \>  \> **수 있습니다.** 보고서 대시보드로 직접 이동하기 위해 를 를 <https://security.microsoft.com/emailandcollabreport> 습니다.
 
-![보안 및 준수 센터의 & 보고서](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Defender 포털의 Microsoft 365 보고서](../../media/email-collaboration-reports.png)
 
 ## <a name="compromised-users-report"></a>손상된 사용자 보고서
 
@@ -50,7 +50,7 @@ Security & Compliance Center에서는 다양한 보고서를 사용하여 조직
 
 집계 보기는 지난 90일간의 데이터를 표시하고 세부 정보 보기에는 지난 30일간의 데이터가 표시됩니다.
 
-보고서를 표시하려면 보안 및 준수 & 를 열고 [보고서 대시보드로](https://protection.office.com)이동한 후 손상된  \>  **사용자를 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=CompromisedUsers> 습니다.
+보고서를 보려면 Microsoft 365 [Defender](https://security.microsoft.com)포털을 열고 보고서  전자 메일 & 공동 작업 전자 메일 & 공동 작업 보고서로 이동한 다음 손상된 사용자 아래에서 \>  \> **세부 정보** **보기를 클릭합니다.**  보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/CompromisedUsers> 습니다.
 
 필터를 클릭하고 다음 값 중 하나  이상을 선택하여 차트와 세부 정보 테이블을 모두 필터링할 수 있습니다.
 
@@ -72,7 +72,7 @@ Security & Compliance Center에서는 다양한 보고서를 사용하여 조직
 
 ## <a name="encryption-report"></a>암호화 보고서
 
-암호화 **보고서는** EOP에서 사용할 수 있습니다(사서함이 없는 Exchange Online 독립 실행형 EOP Exchange Online). 조직의 보안 팀은 이 보고서의 정보를 사용하여 패턴을 식별하고 중요한 전자 메일 메시지에 대한 정책을 사전 예방적으로 적용하거나 조정할 수 있습니다. 예:
+암호화 **보고서는** EOP에서 사용할 수 있습니다(사서함이 없는 Exchange Online 독립 실행형 EOP Exchange Online). 조직의 보안 팀은 이 보고서의 정보를 사용하여 패턴을 식별하고 중요한 전자 메일 메시지에 대한 정책을 사전 예방적으로 적용하거나 조정할 수 있습니다. 예시:
 
 - 사용자가 암호화한 전자 메일 메시지가 많은 경우 암호화 정책을 추가하여 특정 사용 사례에 대한 암호화를 자동화할 수 있습니다. 자세한 내용은 [Define mail flow rules to encrypt email messages in Microsoft 365.](../../compliance/define-mail-flow-rules-to-encrypt-email.md)
 
@@ -80,7 +80,7 @@ Security & Compliance Center에서는 다양한 보고서를 사용하여 조직
 
 집계 보기를 사용하면 지난 90일 동안 필터링할 수 있는 반면, 세부 정보 보기에서는 10일 동안 필터링을 허용합니다.
 
-보고서를 표시하려면 보안 및 준수 & 를  열고 [보고서 대시보드로](https://protection.office.com)이동한 다음 암호화 \>  **보고서를 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=EncryptionReport> 습니다.
+보고서를 보려면 Microsoft 365 [Defender](https://security.microsoft.com)포털을 열고 보고서  전자 메일 & 공동 작업 전자 메일 & 공동 작업 보고서로 이동한 다음 암호화 보고서에서 세부 \>  \> **정보 보기를** **클릭합니다.**  보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=EncryptionReport> 습니다.
 
 암호화에 대한 자세한 내용은 에서 전자 메일 [암호화를 Microsoft 365.](../../compliance/email-encryption.md)
 
@@ -153,7 +153,7 @@ Security & Compliance Center에서는 다양한 보고서를 사용하여 조직
 
  집계 보기 필터는 90일 동안 허용되는 반면 세부 정보 테이블 필터는 10일 동안만 허용됩니다.
 
-보고서를 확인하려면 보안 및 준수 & 를 열고 보고서 대시보드로 이동한 다음 전자 [메일에서](https://protection.office.com)  \>  **맬웨어 검색을 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=MalwareDetections> 습니다.
+보고서를 보려면 [Microsoft 365 Defender](https://security.microsoft.com)포털을 열고 보고서  전자 메일 & 공동 작업 전자 메일 & 공동 작업 보고서로 이동한 다음 전자 메일에서 검색된 맬웨어 아래에서 세부 정보 보기를 \>  \>  **클릭합니다.**  보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/MalwareDetections> 습니다.
 
 ![보고서 대시보드의 전자 메일 위젯에서 맬웨어 검색](../../media/malware-detections-widget.png)
 
@@ -191,7 +191,7 @@ Security & Compliance Center에서는 다양한 보고서를 사용하여 조직
 
 집계 보기에서는 90일 필터링이 허용되는 반면 세부 정보 표에서는 10일 필터링을 허용합니다.
 
-보고서를 표시하려면 보안 및 준수 & 를 열고 [보고서 대시보드로](https://protection.office.com)이동하여 스팸  \>  **검색을 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=SpamDetections> 습니다.
+보고서를 보려면 [Microsoft 365 Defender](https://security.microsoft.com)포털을 열고 보고서  전자 메일 & 공동 작업 전자 메일 & 공동 작업 보고서로 이동한 다음 스팸 검색에서 세부 \>  \> **정보 보기를** **클릭합니다.**  보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/SpamDetections> 습니다.
 
 ![보고서 대시보드의 스팸 검색 위젯](../../media/spam-detections-report-widget.png)
 
@@ -255,7 +255,7 @@ Security & Compliance Center에서는 다양한 보고서를 사용하여 조직
 
 <sup>\*</sup> 결국 최대 90일의 필터링을 사용할 수 있습니다.
 
-보고서를 표시하려면 보안 및 준수 & 를  열고 [보고서 대시보드로](https://protection.office.com)이동하여 스푸핑 검색을 \>  **선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=SpoofMailReport> 습니다.
+보고서를 보려면 [Microsoft 365 Defender](https://security.microsoft.com)포털을 열고 보고서  전자 메일 & 공동 작업 전자 메일 & 공동 작업 보고서로 이동한 다음 스푸핑 검색에서 세부 \>  \> **정보 보기를** **클릭합니다.**  보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/SpoofMailReport> 습니다.
 
 ![보고서 대시보드의 스푸핑 검색 위젯](../../media/spoof-detections-widget.png)
 
@@ -301,7 +301,7 @@ Security & Compliance Center에서는 다양한 보고서를 사용하여 조직
 
 **참고:** 받는 사람 5명에게 메시지가 전송된 경우 하나의 메시지가 아니라 5개의 다른 메시지로 계산됩니다.
 
-보고서를 확인하려면 보안 및 준수 & 를 열고 보고서 [대시보드로](https://protection.office.com)이동하여 위협 방지  \>  **상태를 선택합니다.** 보고서로 직접 이동하기 위해 다음 URL 중 하나를 열 수 있습니다.
+보고서를 보려면 [Microsoft 365 Defender](https://security.microsoft.com)포털을 열고 보고서  전자 메일 & 공동 작업 전자 메일 & 공동 작업 보고서로 이동한 다음 위협 방지 상태 아래에서 세부 \>  \> **정보 보기를** **클릭합니다.**  보고서로 직접 이동하기 위해 다음 URL 중 하나를 열 수 있습니다.
 
 - Microsoft Defender for Office 365:<https://protection.office.com/reportv2?id=TPSAggregateReportATP>
 - EOP: <https://protection.office.com/reportv2?id=TPSAggregateReport>
@@ -479,7 +479,7 @@ Security & Compliance Center에서는 다양한 보고서를 사용하여 조직
 
 Top **malware report** shows the various kinds of malware that was detected by [anti-malware protection in EOP.](anti-malware-protection.md)
 
-보고서를 표시하려면 보안 및 준수 & 를 열고 보고서 [대시보드로](https://protection.office.com)이동하여 상위 맬웨어를  \>  **선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=TopMalware> 습니다.
+보고서를 보려면 Microsoft 365 [Defender](https://security.microsoft.com)포털을 열고 보고서  전자 메일 & 공동 작업 전자 메일 & 공동 작업 보고서로 이동한 다음 상위 맬웨어 아래의 세부 정보 보기를 \>  \>  **클릭합니다.**  보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/TopMalware> 습니다.
 
 ![보고서 대시보드의 상위 맬웨어 위젯](../../media/top-malware-report-widget.png)
 
@@ -504,31 +504,29 @@ Top **malware report** shows the various kinds of malware that was detected by [
 
 조직에 대해 구성된 스팸 정책 예외 또는 메일 흐름 규칙과 같은 배달 이유를 포함하여 각 메시지에 대한 세부 정보를 사용할 수 있습니다. 세부 정보를 확인하려면 사용자 보고서 목록에서 항목을 선택한 다음 요약  및 세부 정보 탭에서 정보를 **볼** 수 있습니다.
 
-![메시지 User-Reported 메시지 보고서에는 정크 메일이 아닌 정크 메일 또는 피싱 시도로 레이블이 지정된 메시지가 표시됩니다.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
+![사용자 보고 메시지 보고서에는 정크 메일이 아닌 정크 메일 또는 피싱 시도로 레이블이 지정된 메시지가 표시됩니다.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
 
-이 보고서를 보기 위해 보안 & [준수](https://protection.office.com)센터에서 다음 중 하나를 합니다.
+이 보고서를 표시하기 위해 Microsoft 365 [Defender](https://security.microsoft.com)포털에서  보고서 전자 메일 & 공동 작업 전자 메일 & 보고서 사용자가 메시지를 \>  \>  \> **보고했습니다.**
 
-- 위협 **관리** \> **대시보드** \> **사용자가 보고한 메시지로 이동하세요.**
+- 보고서 전자 **메일 및** 공동 & 전자 메일 & 보고서 사용자가 메시지를 \>  \>  \> **보고했습니다.**
 
-- 위협 **관리** \> **검토** \> **사용자가 보고한 메시지 검토로 이동하십시오.**
-
-![보안 및 & 센터에서 위협 관리 \> 검토 \> 사용자가 보고한 메시지를 선택](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
+![Microsoft 365 Defender 포털에서 보고서 전자 메일 & 공동 작업 전자 메일 & 보고서 \> \> 사용자가 \> 보고한 메시지](../../media/user-reported-messages.png)
 
 > [!IMPORTANT]
-> 사용자 보고 메시지 보고서가 제대로 작동하려면  사용자 환경에 대해 감사 로깅을 Office 365 합니다. 이 작업은 일반적으로 감사 로그 역할이 할당된 사용자가 Exchange Online. 자세한 내용은 감사 로그 Microsoft 365 설정 또는 해제를 [참조하세요.](../../compliance/turn-audit-log-search-on-or-off.md)
+> 사용자가 보고한 메시지 보고서가 제대로 작동하려면 사용자 환경의 감사 로깅을 Office 365 합니다.  이 작업은 일반적으로 감사 로그 역할이 할당된 사용자가 Exchange Online. 자세한 내용은 감사 로그 Microsoft 365 설정 또는 해제를 [참조하세요.](../../compliance/turn-audit-log-search-on-or-off.md)
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>이러한 보고서를 보는 데 필요한 사용 권한은 무엇입니까?
 
-이 문서에 설명된 보고서를 보고 사용하려면 Security & Compliance Center에서 다음 역할 그룹 중 하나에 & 합니다.
+이 문서에 설명된 보고서를 보고 사용하려면 Microsoft 365 Defender 포털에서 다음 역할 그룹 중 하나에 Microsoft 365 합니다.
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기 권한자**
-- **전역 읽기 권한자**
+- **보안 읽기**
+- **전역 읽기**
 
-자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+자세한 내용은 [Defender 포털의 Microsoft 365 참조하세요.](permissions-in-the-security-and-compliance-center.md)
 
-**참고:** Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 & 준수 센터에서  필요한 사용 권한과 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+**참고:** Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 Defender 포털에서 필요한 사용 권한과 Microsoft 365.  자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>보고서에 데이터가 표시되지 않는 경우 어떻게 하나요?
 
@@ -538,8 +536,8 @@ Top **malware report** shows the various kinds of malware that was detected by [
 
 [EOP의 스팸 방지 및 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)
 
-[보안 및 준수 센터의 스마트 보고서 및 인사이트](reports-and-insights-in-security-and-compliance.md)
+[Microsoft 365 Defender 포털의 스마트 보고서 및 인사이트](reports-and-insights-in-security-and-compliance.md)
 
-[보안 및 준수 센터에서 & 흐름 보고서 보기](view-mail-flow-reports.md)
+[Defender 포털에서 Microsoft 365 흐름 보고서 보기](view-mail-flow-reports.md)
 
 [Defender for Office 365](view-reports-for-mdo.md)

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동한 후의 마이그레이션 후 활동'
-ms.openlocfilehash: ee8dedf7ffaf6bfc4246b1a8cc2522c15d763cd1
-ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
+ms.openlocfilehash: 3659ce8ffa3424c3521c8f8954be88c7d53d0a51
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899367"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930418"
 ---
 # <a name="post-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 마이그레이션 후 활동
 
@@ -53,7 +53,7 @@ The following table provides an overview about which endpoints will replace the 
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| 도이치클라드 MICROSOFT 클라우드 AD FS에서 신뢰 파티 트러스트 제거 | Azure AD에 대한 컷오버가 완료되면 조직은 Office 365 서비스를 완전히 사용하고 있으며 더 이상 도이클란드 Microsoft 클라우드에 연결되지 않습니다. 이 시점에서 고객은 도이치클라드 Microsoft 클라우드 끝점에 대한 신뢰 파티 트러스트는 제거해야 합니다. Azure AD가 IdP(ID 공급자)로 활용될 때 고객의 응용 프로그램이 도이치클라드 Microsoft 클라우드 끝점을 지점하지만 이행할 수 있습니다. | 페더리드 인증 조직 | 없음 |
+| 도이치클라드 MICROSOFT 클라우드 AD FS에서 신뢰 파티 트러스트 제거 | Azure AD에 대한 컷오버가 완료되면 조직은 Office 365 서비스를 완전히 사용하고 있으며 더 이상 도이클란드 Microsoft 클라우드에 연결되지 않습니다. 이 시점에서 고객은 도이치클라드 Microsoft 클라우드 끝점에 대한 신뢰 파티 트러스트는 제거해야 합니다. Azure AD가 IdP(ID 공급자)로 활용될 때 고객의 응용 프로그램이 도이치클라드 Microsoft 클라우드 끝점을 지점하지만 이행할 수 있습니다. | 페더리드 인증 조직 | 
 ||||
 
 <!--
@@ -68,16 +68,12 @@ The following table provides an overview about which endpoints will replace the 
 | 원래 요청이 승인되지 않은 경우 마이그레이션 전에 지난 30일 동안 Azure AD 그룹에 가입하기 위한 요청을 다시 요청해야 합니다. | 최종 사용자 고객은 마이그레이션 전 지난 30일 동안 해당 요청이 승인되지 않은 경우 액세스 패널을 사용하여 Azure AD 그룹에 가입하기 위한 요청을 다시 제출해야 합니다. |  최종 사용자: <ol><li>액세스 [패널로 이동합니다.](https://account.activedirectory.windowsazure.com/r#/joinGroups)</li><li>마이그레이션 30일 전에 구성원 승인이 보류된 Azure AD 그룹을 찾아야 합니다.</li><li>Azure AD 그룹에 다시 참가를 요청합니다.</li></ol> 마이그레이션 후 다시 요청되지 않는 한 마이그레이션을 승인할 수 없습니다. |
 ||||
 
-<!--
-    Question from ckinder
-    The following paragraph is not clear
--->
 ## <a name="custom-dns-updates"></a>사용자 지정 DNS 업데이트
 **다음에 적용됩니다.**  자체 DNS 영역 관리
 
 | Step(s) | 설명 | 영향 |
 |:------|:-------|:-------|
-| 서비스 끝점에 대한 Office 365 DNS 서비스를 업데이트합니다. | 도이치클라드 Microsoft 클라우드를 지점으로 하는 고객 관리 DNS 항목을 업데이트하여 글로벌 서비스 끝점을 Office 365 합니다. | 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. |
+| 서비스 끝점에 대한 Office 365 DNS 서비스를 업데이트합니다. | 도이치클라드 Microsoft 클라우드를 지점으로 하는 고객 관리 DNS 항목을 업데이트하여 글로벌 서비스 끝점을 Office 365 합니다. Microsoft 365 관리 센터에서 도메인을 [참조하고](https://admin.microsoft.com/Adminportal/Home#/Domains) DNS 구성의 변경 내용을 적용하세요. | 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. |
 ||||
 
 ## <a name="third-party-services"></a>타사 서비스
@@ -87,19 +83,3 @@ The following table provides an overview about which endpoints will replace the 
 |:-------|:-------|:-------|
 | Office 365 끝점에 대한 파트너 및 타사 서비스를 업데이트합니다. | <ul><li>독일을 지점으로 하는 타사 서비스 및 Office 365 서비스 끝점을 Office 365 업데이트해야 합니다. 예: 공급업체 및 파트너에 따라 응용 프로그램의 갤러리 앱 버전(사용 가능한 경우)을 다시 등록합니다. </li><li>에서 으로 Graph 사용자 지정 응용 프로그램을 `graph.microsoft.de` `graph.microsoft.com` 지정합니다. 변경된 끝점이 있는 다른 API도 활용하는 경우 업데이트해야 합니다. </li><li>모든 비제한 엔터프라이즈 응용 프로그램을 변경하여 전 세계 끝점으로 리디렉션합니다. </li></ul>| 필수 작업입니다. 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. |
 ||||
-
-## <a name="sharepoint-online"></a>SharePoint Online
-**적용 사항:** SharePoint 워크플로를 사용하는 고객
-
-| Step(s) | 설명 | 영향 |
-|:-------|:-------|:-------|
-| 2013 SharePoint 다시 게시합니다. | 마이그레이션 전 작업에서는 2013년 워크플로의 수를 SharePoint 수가 줄어듭니다. 이제 마이그레이션이 완료된 후 고객은 워크플로를 다시 게시할 수 있습니다. | 이 작업은 필수 작업입니다. 이렇게 하지 못하면 사용자 혼동 및 지원 센터 통화가 발생될 수 있습니다. |
-| 공유 항목을 통해 Outlook | 테넌트 SharePoint 온라인 및 비즈니스용 OneDrive Outlook 공유는 더 이상 작동하지 않습니다. |<ul><li>SharePoint Online 및 비즈니스용 OneDrive 사용하여 항목을 공유할 수 Outlook. Outlook 단추를 누르면 공유 가능한 링크가 만들어지며 메시지의 새 메시지로 Outlook Web App.</li><li>테넌트가 잘리면 이 공유 방법이 작동하지 않습니다. 이 문제는 알려진 문제로 인식하고 있습니다. 그러나 이 Outlook 기능은 사용되지 않는 경로에 있는 것이기 때문에 사용되지 않는 문제가 해결될 때까지는 계획되지 않습니다. </li></ul>|
-||||
-
-## <a name="exchange-online"></a>Exchange Online
-**적용 사항:** 하이브리드 구성을 사용하는 Exchange
-
-| Step(s) | 설명 | 영향 |
-|:-------|:-------|:-------|
-| 하이브리드 서비스에 대해 HCW(하이브리드 구성 마법사)Office 365 다시 실행합니다. | 기존 HCW 구성은 도이클란드 Microsoft 클라우드를 지원하기 위한 것입니다. 서비스 마이그레이션이 Exchange 도이치란드 Microsoft 클라우드에서 프레미스 구성을 분리합니다. |<ul><li>필수 작업입니다. 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. 사서함 Exchange 시작하기 전에(5일 이상의 알림으로) 사서함의 온보더링 또는 등록 해제 이동을 중지하고 삭제해야 한다고 클라이언트에 알립니다.  그렇지 않은 경우 이동 요청에 오류가 표시됩니다. </li><li>사서함 Exchange 완료한 후 클라이언트가 온보드 및 오프보더 이동을 다시 시작할 수 있도록 알릴 수 있습니다. <br> 도이클란드 Microsoft 클라우드에서 Exchange 서비스로 마이그레이션하는 동안 PowerShell cmdlet인 **Test-MigrationServerAvailabiilty를** Office 365 작동하지 않을 수 있습니다. 그러나 마이그레이션이 완료된 후 제대로 작동합니다. </li><li>사서함이 마이그레이션된 후 클라이언트에서 자격 증명 또는 권한 부여에 문제가 있는 경우 사용자는 를 실행하거나 ECP(제어판)를 사용하여 동일하게 설정하여 마이그레이션 끝점에서 자신의 Exchange 자격 증명을 다시 입력할 수 `Set-MigrationEndpoint endpointName -Credential $(Get-Credential)` 있습니다. </li></ul>|

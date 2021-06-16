@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e621b79d37a2c3a22394bd51e0493334eff461c7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: de24856e8ea7555a96de18cabca5ccadfe71b431
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932884"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930274"
 ---
 # <a name="common-microsoft-365-defender-rest-api-error-codes"></a>일반적인 Microsoft 365 Defender REST API 오류 코드
 
@@ -62,7 +62,7 @@ DisabledFeature | 금지(403) | 테넌트 기능을 사용할 수 없습니다.
 DisallowedOperation | 금지(403) | \<the disallowed operation and the reason\>.
 NotFound | 찾을 수 없습니다(404) | 일반 찾을 수 없는 오류 메시지입니다.
 ResourceNotFound | 찾을 수 없습니다(404) | 리소스를 \<the requested resource\> 찾을 수 없습니다.
-InternalServerError | 내부 서버 오류(500) | *참고: 오류 메시지가 없음, 작업을 다시 시도하거나 해결되지 않은 경우 Microsoft에 문의*
+InternalServerError | 내부 서버 오류(500) | *참고: 오류 메시지가 없음, 작업을 다시 시도하거나 해결되지 않은 [경우 Microsoft에](/microsoft-365/business-video/get-help-support) 문의*
 
 ## <a name="examples"></a>예제
 

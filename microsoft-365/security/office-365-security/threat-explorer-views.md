@@ -13,16 +13,16 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 위협 탐색기 및 실시간 검색 보고서를 사용하여 보안 및 준수 센터에서 위협을 조사하고 대응하는 & 대해 자세히 알아보십시오.
+description: 위협 탐색기 및 실시간 검색 보고서를 사용하여 위협을 조사하고 대응하는 방법에 대해 Microsoft 365 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 78c03b45063f4bc34b47ab003bcf00d2befab886
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1c79cc717a2dbe345627f99830590c674fa02f09
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206419"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929638"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 보기
 
@@ -33,9 +33,9 @@ ms.locfileid: "51206419"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-![위협 탐색기](../../media/ThreatExplorerFirstOpened.png)
+![위협 탐색기](../../media/explorer.png)
 
-[위협](threat-explorer.md) 탐색기(및 실시간 검색 보고서)는 보안 운영 팀이 보안 및 준수 센터에서 위협을 조사하고 대응하는 데 도움이 되는 강력한 거의 실시간 & 도구입니다. 탐색기(및 실시간 검색 보고서)는 조직의 전자 메일 및 파일에서 의심되는 맬웨어 및 피싱Office 365 조직에 대한 기타 보안 위협 및 위험에 대한 정보를 표시합니다.
+[위협](threat-explorer.md) 탐색기(및 실시간 검색 보고서)는 보안 운영 팀이 보안 운영 팀이 보안 Defender 포털에서 위협을 조사하고 대응하는 데 도움이 되는 강력한 거의 Microsoft 365 도구입니다. 탐색기(및 실시간 검색 보고서)는 조직의 전자 메일 및 파일에서 의심되는 맬웨어 및 피싱Office 365 조직에 대한 기타 보안 위협 및 위험에 대한 정보를 표시합니다.
 
 - Microsoft [Defender for Office 365](defender-for-office-365.md) 계획 2가 있는 경우 탐색기가 있습니다.
 - Microsoft Defender for Office 365 계획 1이 있는 경우 실시간 검색이 있습니다.
@@ -58,7 +58,7 @@ ms.locfileid: "51206419"
 
 보기 **메뉴를** 사용하여 표시되는 정보를 변경합니다. 도구tips를 사용하면 사용할 보기를 결정하는 데 도움이 됩니다.
 
-![위협 탐색기 보기 메뉴](../../media/ThreatExplorerViewMenu.png)
+![위협 탐색기 보기 메뉴](../../media/all-email.png)
 
 보기를 선택한 후 필터를 적용하고 추가 분석을 수행하기 위한 쿼리를 설정할 수 있습니다. 다음 섹션에서는 탐색기(또는 실시간 검색)에서 사용할 수 있는 다양한 보기에 대한 간략한 개요를 제공합니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "51206419"
 
 이 보고서를 확인하려면 탐색기(또는 실시간 검색)에서 전자 **메일** 맬웨어 \> **보기를** \> **선택하세요.** 이 보기에는 맬웨어가 포함된 것으로 확인된 전자 메일 메시지에 대한 정보가 표시됩니다.
 
-![맬웨어로 식별된 전자 메일에 대한 데이터 보기](../../media/ExplorerEmailMalwareMenu.png)
+![맬웨어로 식별된 전자 메일에 대한 데이터 보기](../../media/detection-technology.png)
 
 보낸 **사람 을** 클릭하여 보기 옵션 목록을 열 수 있습니다. 이 목록을 사용하여 보낸 사람, 받는 사람, 보낸 사람 도메인, 주제, 검색 기술, 보호 상태 등의 데이터를 볼 수 있습니다.
 
@@ -82,13 +82,13 @@ ms.locfileid: "51206419"
 
 이 보고서를 확인하려면 탐색기(또는 실시간 검색)에서 전자 메일 피싱  \>  \> **보기를 선택하세요.** 이 보기에는 피싱 시도로 식별된 전자 메일 메시지가 표시됩니다.
 
-![피싱 시도로 식별된 전자 메일에 대한 데이터 보기](../../media/ThreatExplorerEmailPhish.png)
+![피싱 시도로 식별된 전자 메일에 대한 데이터 보기](../../media/phish.png)
 
 보낸 **사람 을** 클릭하여 보기 옵션 목록을 열 수 있습니다. 이 목록을 사용하여 보낸 사람, 받는 사람, 보낸 사람 도메인, 보낸 사람 IP, URL 도메인, 판정 클릭 등 데이터를 볼 수 있습니다.
 
 예를 들어 피싱 시도로 식별된 URL을 클릭할 때 수행된 작업을 확인하려면  목록에서 판정 클릭을 선택하고 하나 이상의 옵션을 선택한 다음 새로 고침 단추를 클릭합니다.
 
-![피싱 보고서에 대한 결과 옵션 클릭](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
+![피싱 보고서에 대한 결과 옵션 클릭](../../media/click-verdict.png)
 
 차트 아래에서 특정 메시지, URL 클릭, URL 및 전자 메일 출처에 대한 자세한 정보를 확인합니다.
 
@@ -135,7 +135,7 @@ ms.locfileid: "51206419"
 
 맬웨어 패밀리, 검색 기술(맬웨어가 검색된 방법) 및 작업(OneDrive, SharePoint 또는 Teams.
 
-![검색된 맬웨어에 대한 데이터 보기](../../media/d11dc568-b091-4159-b261-df13d76b520b.png)
+![검색된 맬웨어에 대한 데이터 보기](../../media/malware-family.png)
 
 차트 아래에서 첨부 파일 이름, 작업량, 파일 크기, 파일을 마지막으로 수정한 사람 등 특정 파일에 대한 세부 정보를 들을 수 있습니다.
 

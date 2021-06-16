@@ -15,12 +15,12 @@ ms.custom:
 description: EOP(Exchange Online Protection)가 독립 실행형 및 하이브리드 환경에서 어떻게 프레미스 전자 메일 조직을 보호할 수 있도록 하는지 알아보십시오.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad083e828fbed27cce4b8929c1bee3081c983c17
-ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
+ms.openlocfilehash: a925b251ff79aec5acaa0b2c1da2aee3f5a6d70d
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52707287"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930166"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -34,7 +34,7 @@ ms.locfileid: "52707287"
 Exchange Online Protection(EOP)는 스팸, 맬웨어 및 기타 전자 메일 위협으로부터 조직을 보호하는 클라우드 기반 필터링 서비스입니다. EOP는 사서함이 있는 모든 Microsoft 365 조직에 Exchange Online 포함됩니다.
 
 > [!NOTE]
-> EOP는 자체적으로만 사용할 수 있으며, 하이브리드 환경에서는 사서함을 보호할 수 있으며, 하이브리드 환경에서도 EOP를 통해 사서함을 보호할 Exchange 있습니다. 자세한 내용은 독립 실행형 을 [Exchange Online Protection.](/exchange/standalone-eop/standaonline-eop)
+> EOP는 자체적으로만 사용할 수 있으며, 하이브리드 환경에서는 사서함을 보호할 수 있으며, 하이브리드 환경에서도 EOP를 통해 사서함을 보호할 Exchange 있습니다. 자세한 내용은 독립 실행형 을 [Exchange Online Protection.](/exchange/standalone-eop/standalone-eop)
 
 EOP 보안 기능을 설정하는 단계 및 Microsoft Defender for Office 365 추가된 보안에 대한 비교는 위협으로부터 [보호를 참조하세요.](protect-against-threats.md) EOP 기능에 대한 권장 설정은 EOP 및 보안용 [Microsoft Defender에](recommended-settings-for-eop-and-office365.md)대한 권장 Office 365 있습니다.
 

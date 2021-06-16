@@ -20,12 +20,12 @@ description: SharePoint Online에서 사용자가 업로드하는 파일의 바�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dd38b196c106a36fb1a1bfc0a441620b1c5b8ba5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2ab11d4c1e2a064ad0717e6619f72a38b0cbc831
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205332"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52932833"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>SharePoint Online, OneDrive 및 Microsoft Teams
 
@@ -68,7 +68,7 @@ Microsoft 365 바이러스 검색 엔진은 SharePoint Online 내에서 비동�
 
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>동기화 클라이언트가 OneDrive 파일을 동기화하면 어떻게 하나요?
 
-OneDrive 동기화 클라이언트는 바이러스가 포함된 파일을 다운로드하지 않습니다. 동기화 클라이언트는 파일을 동기화할 수 없는 알림을 표시합니다.
+악성 파일이 OneDrive 맬웨어로 표시되기 전에 로컬 컴퓨터와 동기화됩니다. 맬웨어로 표시된 후 사용자는 로컬 컴퓨터의 동기화된 파일을 더 이상 열 수 없습니다.
 
 ## <a name="extended-capabilities-with-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 

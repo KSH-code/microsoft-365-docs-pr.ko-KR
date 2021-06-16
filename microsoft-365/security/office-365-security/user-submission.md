@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f4337b29e0718e23f43b441526232ec6ef66be1d
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 4827ce149632d0e37dbe9c3dc5fc8325dbfa8afa
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879207"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929878"
 ---
 # <a name="user-submissions-policy"></a>사용자 제출 정책
 
@@ -56,21 +56,21 @@ ms.locfileid: "52879207"
 
 - 사용자 지정 사서함의 메시지에 대해 URL 검색을 끄세요. Defender에서 안전한 링크 정책 Office 365 설정 을 사용하여 메시지의 알  수 없는 악의적인 URL에 대한 작업 선택을 [해제로](set-up-safe-links-policies.md) 설정하여 안전한 링크 정책을 **만들 수 있습니다.**
 
-- 맬웨어 방지 정책을 만들어 맬웨어 제로 아워 자동 제거를 해제합니다. 보안 [및 준수 &](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) 사용하여 맬웨어 방지 정책을 만들어 맬웨어 제로 아워 자동 제거를 끄기로 **설정합니다.** 
+- 맬웨어 방지 정책을 만들어 맬웨어 제로 아워 자동 제거를 해제합니다. 자세한 [내용은 Microsoft 365 Defender](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) 포털을 사용하여 맬웨어 제로 아워 자동 제거를 끄기로 설정하는 스팸 방지 정책 **만들기를** **참조합니다.**
 
-- 스팸 필터 정책을 만들어 사용자 지정 사서함에서 스팸 및 피싱에 대해 ZAP(제로 아워 자동 제거)를 사용하지 않도록 설정합니다. 보안 및 준수 & 사용하여 스팸 방지 정책 만들기를  참조하고 스팸 ZAP 및 [피싱](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) **ZAP에** 대한 On 확인란 선택을 **취소합니다.**
+- 스팸 필터 정책을 만들어 사용자 지정 사서함에서 스팸 및 피싱에 대해 ZAP(제로 아워 자동 제거)를 사용하지 않도록 설정합니다. 자세한 [내용은 Microsoft 365 Defender](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) 포털을 사용하여 스팸 방지 정책  만들기를 참조하고 스팸 ZAP 및 피싱 **ZAP에** 대한 On 확인란 선택을 **취소합니다.**
 
 - 사용자 지정 사서함에서 정크 메일 규칙을 사용하지 않도록 설정 사서함에서 [정크 메일 Exchange Online 구성을 사용하여](configure-junk-email-settings-on-exo-mailboxes.md) 정크 메일 규칙을 사용하지 않도록 설정할 수 있습니다. 이 기능을 사용하지 않도록 설정하면 EOP에서 스팸 필터링 판정 동작에 따라  메시지를 정크 메일 폴더로 이동하거나 사서함의 수신할 수 있는 목록 모음으로 메시지를 이동할 수 없습니다.
 
-사서함이 적용 가능한 모든 선행 요구 사항을 충족하는지 확인한 후 보안 & 준수 센터를 사용하여 사용자 제출 사서함을 구성합니다(이 문서). [](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox)
+사서함이 적용 가능한 모든 선행 요구 사항을 충족하는지 확인한 후 Microsoft 365 Defender 포털을 사용하여 사용자 제출 사서함 구성에 지정된 절차를 [구현합니다.](#use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 사용자 제출 **페이지로** 직접 이동하기 위해 를 <https://protection.office.com/userSubmissionsReportMessage> 사용하세요.
+- <https://security.microsoft.com/>에서 Microsoft 365 Defender 포털을 엽니다. 제출 **페이지로** 직접 이동하기 위해 를 <https://security.microsoft.com/reportsubmission> 사용하세요.
 
 - 사용자 제출에 대한 구성을 수정하려면 다음 역할 그룹 중 하나의 구성원이 되어야 합니다.
 
-  - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
+  - **Microsoft 365** [Defender 포털의 조직](permissions-in-the-security-and-compliance-center.md)관리 또는 보안 관리자 
   - **에서 조직** [Exchange Online.](/Exchange/permissions-exo/permissions-exo#role-groups)
 
 - PowerShell을 사용하려면 Exchange Online 액세스해야 합니다. 사용하려는 계정에 Exchange Online PowerShell에 액세스할 수 없는 경우 제출 사서함을 지정할 때 다음과 같은 오류가 표시됩니다.
@@ -82,9 +82,9 @@ ms.locfileid: "52879207"
   - [PowerShell에 대한 액세스 Exchange Online 사용 또는 사용 안 하도록 설정](/powershell/exchange/disable-access-to-exchange-online-powershell) 
   - [클라이언트 액세스 규칙의 Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
-## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>보안 및 & 센터를 사용하여 사용자 제출 사서함 구성
+## <a name="use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox"></a>Microsoft 365 포털을 사용하여 사용자 제출 사서함 구성
 
-1. 보안 및 & 센터에서 **위협** 관리 정책 \> **사용자** \> **제출으로 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 **정책** & 정책 위협 정책 사용자가 메시지 설정 \>  \>  \> **사용자 제출을 보고했습니다.**
 
 2. 나타나는 **사용자 제출** 페이지에서 다음 옵션 중 하나를 선택합니다.
 

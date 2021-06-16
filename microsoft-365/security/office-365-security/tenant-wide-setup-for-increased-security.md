@@ -20,12 +20,12 @@ ms.custom:
 description: 이 항목에서는 사용자 환경의 보안에 영향을 주는 테넌트 전체 설정에 대한 권장 구성을 Microsoft 365 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fd9d07388386ecc3d5877736e588393cdc38e7bb
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 623ea316d1ad92790b8818504970a1d35401f617
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879219"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929578"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테넌트 구성
 
@@ -63,9 +63,9 @@ Microsoft 365 Defender 포털에는 환경을 보호하는 기능이 포함되�
 > [!NOTE]
 > 비표준 SPF 배포, 하이브리드 배포 및 문제 해결: Microsoft 365 [SPF(Sender Policy Framework)를](how-office-365-uses-spf-to-prevent-spoofing.md)사용하여 스푸핑을 방지하는 방법
 
-## <a name="view-dashboards-and-reports-in-the-security--compliance-center"></a>보안 및 준수 센터에서 대시보드 및 & 보기
+## <a name="view-dashboards-and-reports-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 대시보드 및 Microsoft 365 보기
 
-이러한 보고서 및 대시보드를 방문하여 환경의 상태에 대해 자세히 알아보면 됩니다. 조직에서 서비스를 사용할 때 이러한 보고서의 데이터는 더 Office 365 있습니다. 지금은 모니터링하고 조치를 취할 수 있는 기능을 잘 알고 있습니다. 자세한 내용은 보안 및 준수 [센터의 & 참조하세요.](../../compliance/reports-in-security-and-compliance.md)
+이러한 보고서 및 대시보드를 방문하여 환경의 상태에 대해 자세히 알아보면 됩니다. 조직에서 서비스를 사용할 때 이러한 보고서의 데이터는 더 Office 365 있습니다. 지금은 모니터링하고 조치를 취할 수 있는 기능을 잘 알고 있습니다. 자세한 내용은 [Defender 포털의 Microsoft 365 참조하세요.](../../compliance/reports-in-security-and-compliance.md)
 
 <br>
 

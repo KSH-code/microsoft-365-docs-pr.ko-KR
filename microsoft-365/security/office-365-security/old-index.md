@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안, Office 365용 Microsoft Defender, EOP, MSDO
+title: Office 365 보안 개요, Microsoft Defender for Office 365, EOP, MSDO
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -13,17 +13,18 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 현재 보유 중인 항목이 무엇이고 이러한 항목을 어떻게 보호할 수 있는지 알아보세요.
+description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 가지고 있는 내용을 이해하고 속성을 보호하는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: db37718ce2feae9c79ff6b323eb22e30f24e72b2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8040a6b7758e271d68af872bc2acf9ebac3af9d4
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205860"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926490"
 ---
-# <a name="office-365-security-overview"></a>Office 365 보안 개요
+# <a name="office-365-security"></a>Microsoft 365 보안
+
 
 **적용 대상**
 - [Exchange Online Protection](exchange-online-protection-overview.md)

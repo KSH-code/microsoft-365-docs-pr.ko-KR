@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12139708fc5cde133819713fd7185435e594a1a9
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 4228bb8abb70bbd96605a7d0f021a1a483e8715c
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809182"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929734"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 관리
 
@@ -40,17 +40,17 @@ ms.locfileid: "52809182"
 
 Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Exchange Online Protection) 조직에서 Exchange Online EOP 필터링 판정에 동의하지 않을 수 있습니다. 예를 들어 양호한 메시지는 나쁜 메시지(가음성)로 표시되거나 잘못된 메시지가 통과(거짓 부정)로 표시될 수 있습니다.
 
-보안 및 준수 센터의 테넌트 허용/차단 & 필터링 판정을 수동으로 Microsoft 365 방법을 제공합니다. 테넌트 허용/차단 목록은 메일 흐름 중과 사용자가 클릭할 때 사용됩니다. 다음과 같은 유형의 다시 지정을 지정할 수 있습니다.
+Microsoft 365 Defender 포털의 테넌트 허용/차단 목록은 필터링 Microsoft 365 수동으로 다시 Microsoft 365 방법을 제공합니다. 테넌트 허용/차단 목록은 메일 흐름 중과 사용자가 클릭할 때 사용됩니다. 다음과 같은 유형의 다시 지정을 지정할 수 있습니다.
 
 - 차단할 URL입니다.
 - 차단할 파일입니다.
 - 허용하거나 차단할 스푸핑된 보낸 사람입니다. 스푸핑 인텔리전스 인사이트에서 [](learn-about-spoof-intelligence.md)허용 또는 차단 판정을 다시 설정하면 스푸핑된 보낸 사람이 테넌트 허용/차단 목록의 스푸핑 탭에만 나타나는 수동 허용 또는 차단 항목이 됩니다.  스푸핑 인텔리전스에서 검색되기 전에 여기에 스푸핑된 보낸 사람에 대한 허용 또는 차단 항목을 수동으로 만들 수도 있습니다.
 
-이 문서에서는 보안 & 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 Exchange Online 조직에 대한 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 테넌트 허용/차단 목록의 항목을 구성하는 방법에 대해 설명하고 있습니다.
+이 문서에서는 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell Exchange Online에서 항목을 구성하는 방법에 대해 설명하고 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 테넌트 **허용/차단 목록 페이지로 직접 이동하기** 위해 를 <https://protection.office.com/tenantAllowBlockList> 사용하세요.
+- <https://security.microsoft.com/>에서 Microsoft 365 Defender 포털을 엽니다. 테넌트 **허용/차단** 목록 페이지로 직접 이동하기 위해 를 <https://security.microsoft.com/tenantAllowBlockList> 사용하세요.
 
 - 파일의 SHA256 해시 값을 사용하여 파일을 지정합니다. 파일에서 파일의 SHA256 해시 값을 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
 
@@ -90,9 +90,9 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
   >
   > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
-## <a name="use-the-security--compliance-center-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록에 차단 URL 항목 만들기
+## <a name="use-the-microsoft-365-defender-portal-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록에 차단 URL 항목을 만들 수 있습니다.
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
+1. Microsoft 365 포털에서 정책 & 테넌트  \>  \> **허용/차단 목록으로 이동하세요.**
 
 2. **테넌트 허용/차단 목록** 페이지에서 URL  탭이 선택되어 있는지 확인한 다음 **차단을 클릭합니다.**
 
@@ -112,9 +112,9 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 4. 작업을 마쳤으면 **추가** 를 클릭합니다.
 
-## <a name="use-the-security--compliance-center-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록에 차단 파일 항목 만들기
+## <a name="use-the-microsoft-365-defender-portal-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록에 차단 파일 항목을 만들 수 있습니다.
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
+1. Microsoft 365 포털에서 정책 **및** 규칙 위협 & \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
 
 2. **테넌트 허용/차단 목록 페이지에서**  파일 탭을 선택한 다음 차단을 **클릭합니다.**
 
@@ -134,7 +134,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 4. 작업을 마쳤으면 **추가** 를 클릭합니다.
 
-## <a name="use-the-security--compliance-center-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록에서 스푸핑된 보낸 사람 항목을 만들거나 차단
+## <a name="use-the-microsoft-365-defender-portal-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록에서 스푸핑된 보낸 사람 항목을 만들거나 차단합니다.
 
 **참고:**
 
@@ -142,7 +142,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 - 도메인 쌍에 대해 허용 또는 차단 항목을 구성하면 해당 도메인 쌍의 메시지가 더 이상 스푸핑 인텔리전스 인사이트에 나타나지 않습니다.
 - 스푸핑된 보낸 사람에 대한 항목은 만료되지 않습니다.
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
+1. Microsoft 365 포털에서 정책 **및** 규칙 위협 & \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
 
 2. **테넌트 허용/차단 목록** 페이지에서  스푸핑 탭을 선택한 다음 추가를 **클릭합니다.**
 
@@ -158,9 +158,9 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 4. 작업을 마쳤으면 **추가** 를 클릭합니다.
 
-## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록의 항목 보기
+## <a name="use-the-microsoft-365-defender-portal-to-view-entries-in-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록의 항목 보기
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
+1. Microsoft 365 포털에서 정책 **및** 규칙 위협 & \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
 
 2. 원하는 탭을 선택합니다. 사용 가능한 열은 선택한 탭에 따라 다를 수 있습니다.
 
@@ -220,9 +220,9 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
    완료되면 적용을 **클릭합니다.** 기존 필터를 지우려면 **필터를** 클릭하고 나타나는 필터  플라이아웃에서 필터 **지우기 를 클릭합니다.**
 
-## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록의 항목 수정
+## <a name="use-the-microsoft-365-defender-portal-to-modify-entries-in-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록의 항목 수정
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
+1. Microsoft 365 포털에서 정책 **및** 규칙 위협 & \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
 
 2. 수정할 항목 유형이 포함된 탭을 선택합니다.
    - **URL**
@@ -248,9 +248,9 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 4. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
-## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록에서 항목 제거
+## <a name="use-the-microsoft-365-defender-portal-to-remove-entries-from-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록에서 항목 제거
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하세요.**
+1. Microsoft 365 포털에서 **위협** 관리 정책 테넌트 \>  \> **허용/차단 목록으로 이동하세요.**
 
 2. 제거할 항목 유형이 포함된 탭을 선택합니다.
    - **URL**

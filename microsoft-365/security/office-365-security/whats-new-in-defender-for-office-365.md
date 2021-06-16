@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2895598c8d891b08229f072b7bff6b6549639093
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: 0aa8e10545b43f6e0ee985ac11b161a3b21c3a91
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796069"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929557"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -89,7 +89,7 @@ ms.locfileid: "52796069"
   - 고급 NOT 필터(포함하지 않는 고급 필터링 옵션, 포함하지 않는 등)
   - 세분화 시간 필터(일, 시간, 반시간)
 
-- **인시던트 위젯이** 이제 작업 센터 **위젯이** 됩니다. (보안 위젯을 확인하려면 보안 및 준수 & 위협 **관리로 이동** \> **검토**.) (Microsoft Defender for Office 365 요금제 2)
+- **인시던트 위젯이** 이제 작업 센터 **위젯이** 됩니다. (보안 위젯을 확인하려면 Microsoft 365 Defender 포털에서 전자 메일 & **공동 작업으로 이동하세요.** \> **검토**.) (Microsoft Defender for Office 365 요금제 2)
 
 - [안전 문서의](safe-docs.md) **Microsoft 365(미리 보기)**
 

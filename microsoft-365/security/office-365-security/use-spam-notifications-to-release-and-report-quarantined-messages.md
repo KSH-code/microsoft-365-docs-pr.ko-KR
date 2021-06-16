@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(2016년 8월 2일)의 최종 사용자 스팸 알림에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3f5eafbb51cd0ff32c69fa0cff85729ef95d3d1f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 30f82abc245a2f6022bd1a75b57e9d20e3e32a32
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274991"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929890"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>사용자 스팸 알림을 사용하여 메시지 릴리스 및 보고
 
@@ -58,9 +58,9 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - **보낸 사람 차단:** 이 링크를 클릭하여 사서함의 수신 차단된 보낸 사람 목록에 보낸 사람이 추가됩니다. 자세한 내용은 [메일 보낸 사람 차단](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)을 참조하세요.
 
-- **릴리스:** 스팸(피싱이 아닌) 메시지의 경우 보안 및 준수 센터를 규정하지 않고 여기에서 메시지를 & 있습니다.
+- **릴리스:** 스팸(피싱이 아닌) 메시지의 경우, Defender 포털을 검색한 후 여기에서 메시지를 해제할 Microsoft 365 있습니다.
 
-- **검토:** 이 링크를 클릭하여 보안 & 준수 센터에서 메시지를 보거나, 릴리스하고, 삭제하거나, 보고할 수 있는 보안 & 준수 센터로 이동하세요. 자세한 내용은 EOP에서 사용자로 고지된 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
+- **검토:** 이 링크를 클릭하여 Microsoft 365 Defender 포털에서 메시지를 보거나, 릴리스하고, 삭제하거나, 보고할 수 있는 Microsoft 365 Defender 포털에서 이 링크를 클릭합니다. 자세한 내용은 EOP에서 사용자로 고지된 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
 
 ![최종 사용자 스팸 알림 예](../../media/end-user-spam-notification.png)
 

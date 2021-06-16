@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 3a5b95bac74ae405f4e1d6fa91ba4ab51e4a9d05
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: c80a7cfc4f930011f65a07c4b46cdf4921766c34
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796045"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930454"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -102,8 +102,6 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 
 **적용 사항:** 도이치클라일랜드(MCD)에서 Office 365 테넌트가 있는 모든 고객
 
-파트너 Microsoft 클라우드 도이치랜드 테넌트는 마이그레이션되지 않습니다. CSP 고객은 동일한 파트너의 새 Office 365 서비스 테넌트에서 Office 365 서비스로 마이그레이션됩니다. 고객 마이그레이션 후 파트너는 고객 서비스 테넌트에서만 이 Office 365 있습니다.
-
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
 | 구독이 전송됩니다.| 도이치클라드 Microsoft 클라우드 구독은 해당 전역 서비스 Office 365 마이그레이션됩니다. <ul><li>이 Office 365 전역 서비스 서비스는 Microsoft(제품 _매핑)에 의해 정의됩니다._</li><li> 해당 Office 365 전역 서비스 구독은 Office 365 Microsoft 클라우드 구독에 대한 전역 인스턴스에서 구매합니다.</li><li>레거시 Microsoft 클라우드 도이치클랜드 구독은 완료 시 Office 365 서비스 테넌트에서 제거됩니다.</li></ul>| <ul><li>이 단계에서는 기존 구독에 대한 변경 사항(예: 새 구독 구매 또는 시트 수 변경 없음)이 차단됩니다.</li><li>라이선스 할당 변경이 차단됩니다.</li><li>구독 마이그레이션이 완료되면 Office 365 서비스와 도이치클라드 Microsoft 클라우드 구독이 모두 Office 365 관리자 Portal에 표시될 수 있으며, 상태는 도이프란드 Microsoft 클라우드 구독의 비프로비전 으로 _표시됩니다._ </li><li>도이치클라드 Microsoft 클라우드 구독 또는 SKU GUID에 종속된 모든 고객 프로세스는 손상되어 Office 365 서비스 제공을 통해 수정해야 합니다. </li><li>Office 365 서비스의 새 구독은 새 기간(월별/분기별/년)을 통해 구입하며, 고객은 도이치랜드 Microsoft 클라우드 구독의 미사용 잔액에 대한 비분산 환불을 받게 됩니다. </li></ul> |
@@ -116,6 +114,8 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 
 2단계와 3단계 사이에는 파트너 포털에 액세스할 수 없습니다. 이 시간 동안 파트너는 파트너 포털에서 테넌트 정보에 액세스하지 못하게 될 수 있습니다. 마이그레이션마다 다르기 때문에 내게 필요한 경우의 기간은 시간일 수 있습니다.
 
+클라우드 솔루션 공급자에 대한 추가 정보는 파트너 테넌트 마이그레이션 [에서 사용할 수 있습니다.](ms-cloud-germany-transition-add-csp.md#partner-tenant-migration)
+
 
 ## <a name="phase-4-sharepoint-online"></a>4단계: SharePoint 온라인
 
@@ -126,7 +126,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 | Step(s) | 설명 | 영향 |
 |:-------|:-----|:-------|
 | SharePoint OneDrive 및 전환 | SharePoint 온라인 및 비즈니스용 OneDrive 도이클란드 Microsoft 클라우드에서 이 Office 365 전역 서비스로 마이그레이션됩니다.<br><ul><li>기존 Microsoft 클라우드 네덜란드 URL(예: )이 `contoso.sharepoint.de` 보존됩니다.</li><li>기존 사이트는 보존됩니다.</li><li>도이치랜드 Microsoft 클라우드 또는 Office 365 전역 서비스 인스턴스에서 STS(Security Token Service)에서 발급한 클라이언트 쪽 인증 토큰은 전환 중에 유효합니다.</li></ul>|<ul><li>콘텐츠는 마이그레이션 중에 잠시 동안 읽기 전용으로 설정됩니다. 이 시간 동안 에 "콘텐츠를 편집할 수 없습니다." 배너가 SharePoint.</li><li>검색 인덱스는 보존되지 않습니다. 다시 생성하는 데 최대 10일이 걸릴 수 있습니다.</li><li>SharePoint 온라인 비즈니스용 OneDrive 콘텐츠는 마이그레이션 중에 두 가지 짧은 기간 동안 읽기 전용으로 설정됩니다. 이 시간 동안 사용자에게 "콘텐츠를 편집할 수 없습니다." 배너가 잠시 표시됩니다.</li><li>SharePoint Online 마이그레이션이 완료된 후 인덱스를 다시 SharePoint 온라인 및 비즈니스용 OneDrive 콘텐츠에 대한 검색 결과를 사용할 수 없습니다. 이 기간 동안 검색 쿼리는 전체 결과를 반환하지 않을 수 있습니다. 온라인 뉴스와 같은 검색 인덱스에 종속된 SharePoint 인덱싱이 완료되면 영향을 받을 수 있습니다.</li><li>SharePoint 동안 2013 워크플로가 손상되어 마이그레이션 후에 다시 게시해야 합니다.</li></ul>
-|**SPO 관리자:** 2013 SharePoint 다시 게시| SharePoint Online 관리자는 마이그레이션 후 SharePoint 2013 워크플로를 다시 게시합니다.|SharePoint 2013 워크플로를 사용할 수 있습니다.
+|**SPO 관리자:** 2013 SharePoint 다시 게시| SharePoint Online 관리자는 마이그레이션 후 SharePoint 2013 워크플로를 다시 게시합니다.| 이 작업은 필수 작업입니다. 이렇게 하지 못하면 사용자 혼동, 지원 센터 통화 및 생산성이 저하될 수 있습니다.
 |**PowerShell 사용자:** 새 모듈로 업데이트| SharePoint Online PowerShell 모듈의 모든 사용자는 SharePoint Online 마이그레이션이 완료된 후 모듈/Microsoft.SharePointOnline.CSOM을 버전 16.0.20717.12000 이상으로 업데이트해야 합니다. 완료는 메시지 센터에서 전달됩니다.| SharePoint PowerShell을 통해 온라인으로 또는 클라이언트 쪽 개체 모델이 더 이상 실패하지 않습니다.
 ||||
 
@@ -169,7 +169,7 @@ Office 365 전역 서비스 지역이 기본값으로 설정되어 내부 부하
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예:
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예시:
 
 ```powershell
 New-PSSession 
@@ -189,6 +189,8 @@ PowerShell cmdlet **Set-UserPhoto를** 사용하여 사용자 사서함이 마�
 - 다른 Outlook Web App 공유 사서함에 액세스하는 사용자(예: MCD 환경의 사용자가 전역 환경의 공유 사서함에 액세스)에는 두 번째로 인증하라는 메시지가 표시됩니다. 사용자는 먼저 에서 사서함을 인증하고 액세스한 다음 에 있는 공유 `outlook.office.de` 사서함을 열 수 있어야 `outlook.office365.com` 합니다. 다른 서비스에서 호스팅되는 공유 리소스에 액세스할 때 두 번째 인증을 해야 합니다.
 - 전환하려는 기존 Microsoft 클라우드 고객 또는 전환하는 고객의 경우 파일 Outlook 정보 > **>** 계정 추가를 사용하여 공유 사서함을 > 일정 권한 보기가 실패할 수 있습니다(Outlook 클라이언트가 Rest API를 사용하려고 `https://outlook.office.de/api/v2.0/Me/Calendars` 시도). 일정 권한을 보기 위해 계정을 추가하려는 고객은 사용자 환경 변경 [](https://support.microsoft.com/office/user-experience-changes-for-sharing-a-calendar-in-outlook-5978620a-fe6c-422a-93b2-8f80e488fdec) 사항에서 설명한 레지스트리 키를 추가하여 이 작업이 Outlook 수 있습니다. 이 레지스트리 키는 그룹 정책을 사용하여 조직 전체에 배포할 수 있습니다.
 - 활성 Exchange 하이브리드 구성을 사용하는 모든 고객은 독일 Microsoft 클라우드와 독일의 새 데이터 센터 지역을 Exchange Server Exchange Online 사서함을 이동하지 못합니다. 고객은 5단계 이전에 진행되는 사서함 이동이 완료되고 이 단계가 완료된 후 다시 시작되도록 해야 합니다.
+- 도이클란드 Microsoft 클라우드에서 Exchange 서비스로 마이그레이션하는 동안 `Test-MigrationServerAvailabiilty` PowerShell cmdlet을 Office 365 작동하지 않을 수 있습니다. 그러나 마이그레이션이 완료된 후 제대로 작동합니다.
+- 사서함이 마이그레이션된 후 클라이언트가 자격 증명 또는 권한 부여에 문제가 있는 경우 를 실행하거나 ECP(Exchange 제어판)를 사용하여 마이그레이션 끝점에서 사내 관리자 자격 증명을 `Set-MigrationEndpoint -Identity <endpointName> -Credential $(Get-Credential)` 다시 입력합니다.
 - 장치용 레거시 프로토콜(POP3/IMAP4/SMTP)을 사용하는 모든 사용자가 Exchange 사서함이 새 독일 데이터 센터 지역으로 이동된 후 클라이언트의 끝점을 변경할 준비가 되도록 준비해야 [Exchange Online.](ms-cloud-germany-transition-add-pre-work.md#exchange-online)
 - 사서함이 비즈니스용 Skype 후 Outlook Web App 모임을 더 이상 사용할 수 없습니다. 필요한 경우 사용자는 이 기능을 Outlook 합니다.
 
@@ -315,6 +317,11 @@ Microsoft Azure 테넌트가 전 세계로의 마이그레이션을 완료하는
 | Azure AD 응용 프로그램 끝점 업데이트 | 응용 프로그램의 인증, Azure Active Directory(Azure AD) Graph 및 MS Graph 끝점을 Microsoft Worldwide 서비스의 끝점으로 업데이트해야 합니다. | 마이그레이션이 완료된 후 30일이 지난 후 Microsoft 클라우드 도이클랜드 끝점은 요청의 존중을 중지합니다. 클라이언트 또는 응용 프로그램 트래픽이 실패합니다. |
 | Azure Workloads 마이그레이션 | Azure 서비스 고객은 Azure 서비스에 대한 새 전 세계 구독을 프로비전하고 Azure 마이그레이션 플레이북당 [마이그레이션을 실행해야 합니다.](/azure/germany/germany-migration-main) | 전 세계 서비스로 완전히 전환하면(10단계) 고객은 더 이상 Microsoft 클라우드 도이치랜드 Azure 포털에 있는 Azure 워크로드에 액세스할 수 없습니다. |
 ||||
+
+**다음에 적용됩니다.** Azure AD 등록 또는 가입 장치를 사용 하는 고객
+
+9단계가 완료되면 Azure AD 등록 및 가입된 장치를 새 독일 데이터 센터 지역의 전환된 Azure AD 인스턴스에 연결해야 합니다.
+Azure AD에 다시 가입되지 않은 장치는 10단계가 끝나면 더 이상 작동하지 않을 수 있습니다. 자세한 지침과 자세한 내용은 장치에 대한 추가 [정보를 참조하세요.](ms-cloud-germany-transition-add-devices.md)
 
 ### <a name="azure-ad-connect"></a>Azure AD Connect
 **다음에 적용됩니다.** Id를 Azure AD Connect와 동기화하는 모든 고객

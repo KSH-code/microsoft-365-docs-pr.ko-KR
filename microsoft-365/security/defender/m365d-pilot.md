@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: b1616b39597a90ff8e8f7b4c92f29f75c62fea18
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3219b329c53c32e02cd29acdd41a48cd93b2e8bb
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934432"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930514"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Defender 프로젝트에서 Microsoft 365 실행 
 
@@ -42,7 +42,7 @@ ms.locfileid: "51934432"
 ![Defender 파일럿 실행의 Microsoft 365 단계](../../media/pilotphases.png)
 
 
-파일럿을 실행하면 Defender를 도입하는 이점을 효과적으로 Microsoft 365 있습니다. 프로덕션 환경에서 Microsoft 365 Defender를 사용하도록 설정하고 사용 사례를 시작하기 전에 파일럿 프로젝트에 대해 수행할 작업을 결정하고 성공 기준을 설정하는 것이 가장 좋습니다. 
+파일럿을 실행하면 Defender를 채택할 때의 이점을 효과적으로 Microsoft 365 있습니다. 프로덕션 환경에서 Microsoft 365 Defender를 사용하도록 설정하고 사용 사례를 시작하기 전에 파일럿 프로젝트에 대해 수행할 작업을 결정하고 성공 기준을 설정하는 것이 가장 좋습니다. 
 
 
 ## <a name="how-to-use-this-pilot-playbook"></a>이 파일럿 플레이북을 사용하는 방법

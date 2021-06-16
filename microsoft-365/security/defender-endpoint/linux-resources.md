@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 176ee89c8d60a1515855296e2565f0649f908a33
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: aaf9c0a8eef4e050ca034d1aee69d24c5adb909d
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933328"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930370"
 ---
 # <a name="resources"></a>리소스
 
@@ -31,6 +31,7 @@ ms.locfileid: "51933328"
 
 
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -69,6 +70,7 @@ ms.locfileid: "51933328"
    ```bash
    mdatp log level set --level info
    ```
+
    ```Output
    Log level configured successfully
    ```
@@ -77,7 +79,8 @@ ms.locfileid: "51933328"
 
 설치 중에 오류가 발생하면 설치 관리자에서 일반적인 오류만 보고합니다.
 
-자세한 로그는 에 `/var/log/microsoft/mdatp_install.log` 저장됩니다. 설치 중에 문제가 발생하면 이 파일을 보내 원인을 진단하는 데 도움을 받을 수 있습니다.
+자세한 로그는 에 `/var/log/microsoft/mdatp/install.log` 저장됩니다.
+설치 중에 문제가 발생하면 이 파일을 보내 원인을 진단하는 데 도움을 받을 수 있습니다.
 
 ## <a name="uninstall"></a>제거
 
@@ -104,7 +107,7 @@ Linux에서 끝점용 Defender를 제거하는 방법에는 여러 가지가 있
 |Group                 |시나리오                                                |명령                                                                |
 |----------------------|--------------------------------------------------------|-----------------------------------------------------------------------|
 |구성         |실시간 보호 켜기/끄기                        |`mdatp config real-time-protection --value [enabled\|disabled]`        |
-|구성         |동작 모니터링 켜기/끄기                         |`mdatp config behavior-monitoring --value [enabled\|disabled]` 
+|구성         |동작 모니터링 켜기/끄기                         |`mdatp config behavior-monitoring --value [enabled\|disabled]`
 |구성         |클라우드 보호 켜기/끄기                            |`mdatp config cloud --value [enabled\|disabled]`                       |
 |구성         |제품 진단 켜기/끄기                         |`mdatp config cloud-diagnostic --value [enabled\|disabled]`            |
 |구성         |자동 샘플 제출 켜기/끄기                 |`mdatp config cloud-automatic-sample-submission [enabled\|disabled]`   |

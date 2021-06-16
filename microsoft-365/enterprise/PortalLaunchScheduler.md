@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: bf01f6ae93b424543a6a509f89961a1b7a0c9ad7
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: fb092ea2500aaa139a34e511d224ec4419e04cb5
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841669"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930262"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
@@ -116,7 +116,10 @@ ms.locfileid: "52841669"
 7. 사이트를 바로 보아야 하는 사용자를 결정하고 사용자가 파도에서 제외된 사용자 필드에 정보를 **입력합니다.** 이러한 사용자는 웨이브에서 제외되기 때문에 시작 전, 실행 중 또는 이후에 리디렉션되지 않습니다.
 
     > [!NOTE]
-    > 최대 50개의 고유한 사용자 또는 보안 그룹을 추가할 수 있습니다. 파도가 시작되기 전에 50명 이상의 사용자가 포털에 액세스해야 하는 경우 보안 그룹을 사용 합니다.
+    > 전체 시작에 최대 50개의 고유한 사용자 또는 보안 그룹을 사용할 수 있습니다. 각 시작은 서로 독립적이기 때문에 다른 포털에서 실행을 예약하는 경우 해당 시작에 최대 50명 사용자/보안 그룹을 사용할 수 있습니다. 또한 웨이브당 최대 20개의 고유한 사용자 또는 보안 그룹을 사용할 수 있습니다. 
+
+>포털 시작 스케줄러는 보안 그룹 및 메일 사용이 가능한 보안 그룹을 지원합니다. 
+
 
 8. 포털 시작 세부 정보를 확인하고 일정 을 **선택합니다.** 시작이 예약된 후 SharePoint 포털 홈 페이지에 대한 모든 변경 내용은 포털 시작이 다시 시작되기 전에 정상 진단 결과를 수신해야 합니다.
 
@@ -267,7 +270,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
 
 2. 모든 사용자에 대해 리디렉션이 진행되지 않은지 유효성을 검사합니다.
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [SharePoint Online에서 포털 시작 롤아웃 계획](./planportallaunchroll-out.md)
 

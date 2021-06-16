@@ -18,12 +18,12 @@ ms.custom:
 description: 보안 클라우드 서비스 및 응용 프로그램과 SIEM(보안 정보 및 이벤트 관리) 서버 Microsoft 365 개요를 참조하세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bea8aa3914da4b813f3928eddbb6df9c98ef6605
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 8b9c17ba2dcefa65b60a53ab8bff405de4850fc0
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599950"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929794"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>보안 정보 및 이벤트 관리(SIEM) 서버와 Microsoft 365 통합
 
@@ -69,7 +69,7 @@ SIEM 서버는 다양한 서비스 및 응용 프로그램에서 데이터를 Mi
 
 SIEM 서버 통합을 구성하기 전에 감사 로깅이 설정되어 있는지 확인
 
-- SharePoint Online, 비즈니스용 OneDrive Azure Active Directory 보안 및 준수 센터에서 감사 [로깅이 & 설정됩니다.](../../compliance/turn-audit-log-search-on-or-off.md)
+- SharePoint Online, 비즈니스용 OneDrive 및 Azure Active Directory Defender 포털에서 감사 로깅이 [Microsoft 365 설정됩니다.](../../compliance/turn-audit-log-search-on-or-off.md)
 
 - 자세한 Exchange Online 사서함 감사 [관리를 참조합니다.](../../compliance/enable-mailbox-auditing.md)
 
