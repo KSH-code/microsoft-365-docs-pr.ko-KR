@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0aa8e10545b43f6e0ee985ac11b161a3b21c3a91
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 53e60578f575e94dfb51c1c5f44a3d7ffb91110b
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929557"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52932821"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -42,13 +42,13 @@ ms.locfileid: "52929557"
 > [!TIP]
 > 아직 Microsoft Defender for Office 365 없는가요? [영업 담당자에게 평가판을 시작해 을(를) 시작해 을(를) 평가](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
-## <a name="aprilmay-2021"></a>2021년 4월/5월 
+## <a name="aprilmay-2021"></a>2021년 4월/5월
 
 - [전자 메일 엔터티 페이지:](mdo-email-entity-page.md)위협, 인증 및 감지, 검색 세부 정보 및 새로운 새로운 전자 메일 미리 보기 환경과 관련한 강화된 정보가 있는 전자 메일의 통합된 360도 보기입니다.
 - [Office 365 관리 API:](/office/office-365-management-api/office-365-management-activity-api-schema#email-message-events)배달 작업, 원본 및 최신 배달 위치 및 업데이트된 검색 세부 정보를 추가하기 위한 EmailEvents(RecordType 28)에 대한 업데이트입니다.
-- [Threat Analytics for Defender for Office 365](/microsoft-365/security/defender/threat-analytics): 지속적인 캠페인에 대한 Microsoft 연구원의 광범위한 보고와 함께 활성 위협자, 인기 있는 기술 및 공격 표면을 볼 수 있습니다. 
+- [Threat Analytics for Defender for Office 365](/microsoft-365/security/defender/threat-analytics): 지속적인 캠페인에 대한 Microsoft 연구원의 광범위한 보고와 함께 활성 위협자, 인기 있는 기술 및 공격 표면을 볼 수 있습니다.
 
-## <a name="februarymarch-2021"></a>2021년 2월/3월 
+## <a name="februarymarch-2021"></a>2021년 2월/3월
 
 - 헌팅 환경의 경고 ID 통합(경고 ID [](threat-explorer.md) 및 Alert-Explorer 탐색을 사용하여 검색)
 - 헌팅 환경의 레코드 내보내기 제한을 9990에서 200,000으로 [늘리기](threat-explorer.md)
@@ -89,7 +89,7 @@ ms.locfileid: "52929557"
   - 고급 NOT 필터(포함하지 않는 고급 필터링 옵션, 포함하지 않는 등)
   - 세분화 시간 필터(일, 시간, 반시간)
 
-- **인시던트 위젯이** 이제 작업 센터 **위젯이** 됩니다. (보안 위젯을 확인하려면 Microsoft 365 Defender 포털에서 전자 메일 & **공동 작업으로 이동하세요.** \> **검토**.) (Microsoft Defender for Office 365 요금제 2)
+- **인시던트 위젯이** 이제 작업 센터 **위젯이** 됩니다. (보안 및 준수 센터에서 보안 위젯을 & 위협 **관리로 이동** \> **검토**.) (Microsoft Defender for Office 365 요금제 2)
 
 - [안전 문서의](safe-docs.md) **Microsoft 365(미리 보기)**
 

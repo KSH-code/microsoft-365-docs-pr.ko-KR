@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서 관리자는 피싱 및 악의적인 URL을 사용하는 Office 365 공격으로부터 조직을 보호하기 위해 Defender의 안전한 링크 보호에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9775c67a35d45595f68cd364dc4d70e9985b7e9e
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 240056565d88977aa7019f5a14e2db98a8dbb6db
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930526"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933194"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 안전한 Office 365
 
@@ -294,7 +294,7 @@ Office 365 앱의 안전한 링크 보호는 전자 메일 메시지의 링크�
 
 각 안전한 링크  정책에는 안전 링크 검색에서 다시 덮어 사용하지 않는 URL을 지정하는 데 사용할 수 있는 다음 URL을 다시 덮어 사용하지 않습니다. 목록이 포함되어 있습니다. 즉, 이 목록을 사용하면 정책에 포함된 사용자가 안전한 링크로 차단되는 지정된 URL에 액세스할 수 있습니다. 서로 다른 안전 링크 정책에서 서로 다른 목록을 구성할 수 있습니다. 정책 처리는 사용자에게 첫 번째(가장 높은 우선 순위) 정책이 적용된 후에 중지됩니다. 따라서 활성 **안전** 링크 정책에 포함된 사용자에게는 다음 URL 목록을 다시 덮어치지 않음 목록이 하나만 적용됩니다.
 
-새 링크 정책 또는 기존 안전 링크 정책의 목록에 항목을 추가하려면 Microsoft 365 [Defender](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) 포털을 사용하여 안전한 링크 정책 만들기 또는 Microsoft 365 Defender 포털을 사용하여 안전한 링크 정책 수정을 [참조하세요.](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-modify-safe-links-policies)
+새 링크 정책 또는 기존 안전 링크 정책의 목록에 항목을 추가하려면 [안전](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) 링크 정책 만들기 또는 안전한 링크 정책 [수정을 참조하세요.](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-modify-safe-links-policies)
 
 **참고:**
 

@@ -20,12 +20,12 @@ description: 관리자는 검색된 파일에 대한 경고를 설정하는 방�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 374e67626eab07cc8ab89a52554658a31e661eec
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: a654db40e5dec8d23d07ec7455216fe4e0a8c0e7
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929950"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933014"
 ---
 # <a name="turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일 설정
 
@@ -53,9 +53,13 @@ Microsoft Defender for Office 365 for SharePoint, OneDrive 및 Microsoft Teams �
 
 ## <a name="step-1-use-the-microsoft-365-defender-portal-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>1단계: Microsoft 365 Defender 포털을 사용하여 SharePoint, OneDrive 및 설정에 대한 안전 첨부 Microsoft Teams
 
-1. Microsoft 365 Defender 포털에서 정책 & 규칙 위협 정책 안전한 첨부 **파일로** \>  \> 이동하고 전역 설정을 **클릭합니다.**
+1. Microsoft 365 Defender 포털에서 정책 &  정책 정책 섹션 \>  \>  안전 \> **첨부 파일로 이동하세요.**
 
-2. 전역 **설정** 플라이아웃이 나타나면 에 대한 Office 365, SharePoint 및 OneDrive 설정으로 **Microsoft Teams** 이동합니다. 토글을 오른쪽 토글로 이동하여 SharePoint, OneDrive 및 연결에 대한 안전 첨부 ![ ](../../media/scc-toggle-on.png) 파일을 Microsoft Teams.
+2. 안전한 **첨부 파일 페이지에서** 전역 **설정을 클릭합니다.**
+
+3. 전역 **설정** 플라이아웃이 나타나면 파일 보호 섹션으로 **SharePoint,** OneDrive 및 Microsoft Teams 이동합니다.
+
+   Office 365, **SharePoint,** OneDrive 및 Microsoft Teams에 대한 Defender 켜기 토글을 오른쪽 토글로 이동하여 SharePoint, OneDrive 및 ![ ](../../media/scc-toggle-on.png) Microsoft Teams.
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
 
@@ -71,7 +75,9 @@ Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
 
 ## <a name="step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files"></a>2단계: (권장) SharePoint Online PowerShell을 사용하여 사용자가 악성 파일을 다운로드하지 못하게 방지
 
-기본적으로 사용자는 ATP에서 검색된 악성 파일을 열거나 이동, 복사 또는 공유할 수 없습니다. 그러나 악성 파일을 삭제하고 다운로드할 수 있습니다.
+기본적으로 사용자는 안전 첨부 파일에서 검색된 악성 파일을 열거나 이동, 복사하거나 공유할 수 SharePoint, OneDrive 수 <sup>\*</sup> Microsoft Teams. 그러나 악성 파일을 삭제하고 다운로드할 수 있습니다.
+
+<sup>\*</sup> 사용자가 액세스 **관리로 이동하면** **공유 옵션을** 계속 사용할 수 있습니다.
 
 사용자가 악성 파일을 다운로드하지 못하게 SharePoint [Online PowerShell에 연결하고 다음](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) 명령을 실행합니다.
 
@@ -90,34 +96,31 @@ Set-SPOTenant -DisallowInfectedFileDownload $true
 
 사용자 및 기타 관리자에게 악의적인 파일을 감지하는 경우 사용자 및 기타 관리자에게 안전한 첨부 파일을 SharePoint, OneDrive Microsoft Teams 수 있습니다. 경고에 대한 자세한 내용은 Defender 포털에서 활동 [경고 Microsoft 365 참조합니다.](../../compliance/create-activity-alerts.md)
 
-1. Defender [Microsoft 365 에서](https://security.microsoft.com)정책 정책 & 경고  \> **정책으로 이동하거나 을 을** 을 을 를 열 수 <https://security.microsoft.com/alertpolicies> 있습니다.
+1. Microsoft 365 Defender 포털에서 정책 정책 & **경고** \> **정책으로 이동하거나 을 를** 열 수 <https://security.microsoft.com/alertpolicies> 있습니다.
 
 2. 경고 **정책 페이지에서** 새 경고 **정책 을 클릭합니다.**
 
 3. 새 **경고 정책 마법사가** 플라이아웃에서 열립니다. 경고 **이름 지정 페이지에서** 다음 설정을 구성합니다.
-
    - **이름:** 고유하고 설명적인 이름을 입력합니다. 예를 들어 라이브러리의 악성 파일입니다.
    - **설명:** 선택적 설명을 입력합니다. 예를 들어 SharePoint Online, OneDrive 또는 파일에서 악성 파일이 검색되면 관리자에게 Microsoft Teams.
-   - **심각도**: 기본값을 낮게 **선택된** 그대로 두거나 중간 또는 **높음** 을 **선택합니다.**
-   - **범주:** **위협 관리 를 선택합니다.**
+   - **심각도:** **드롭다운 목록에서 낮음,** 중간 또는 높음을 선택합니다. 
+   - **범주:** 드롭다운 **목록에서** 위협 관리를 선택합니다.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
 4. 경고 **설정 만들기 페이지에서** 다음 설정을 구성합니다.
-
-   - **경고할 사항: 활동은**: **파일에서 검색된 맬웨어를 선택합니다.**
-   - **경고를 트리거하는** 방법: 활동이 규칙과 일치할 때마다 **기본값을 그대로** 떠날 수 있습니다.
+   - **어떤 것을 경고하고 싶나요?** 섹션 \> **활동은** \> 드롭다운 **목록에서** 파일에서 검색된 맬웨어를 선택합니다.
+   - **경고를 트리거하는** 방법 섹션: 활동이 선택한 규칙과 일치할 때마다 **기본값을 그대로** 떠 있습니다.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
 5. 받는 **사람 설정 페이지에서** 다음 설정을 구성합니다.
-
-   - **전자 메일 알림 보내기:** 이 설정이 선택되어 있는지 확인 전자 메일 받는 사람 **상자에서** 악의적인 파일이 감지될 때 알림을 수신해야 하는 전역 관리자, 보안 관리자 또는 보안 독자를 하나 이상 선택합니다.
+   - 전자 **메일 알림 보내기가 선택되어 있는지** 확인 전자 메일 받는 사람 **상자에서** 악의적인 파일이 감지될 때 알림을 수신해야 하는 전역 관리자, 보안 관리자 또는 보안 독자를 하나 이상 선택합니다.
    - **일별 알림 제한:** 기본값 제한 **없음을 선택된 그대로** 떠습니다.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
-6. 설정 **검토 페이지에서** 설정을 검토하고 모든  섹션에서 편집을 클릭하여 변경합니다.
+6. 설정 **검토 페이지에서** 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다. 또는 **뒤로** 를 클릭하거나 마법사에서 특정 페이지를 선택할 수 있습니다.
 
    정책을 **바로** 켜시겠습니까? 섹션에서 기본값 **Yes, turn it on right away selected(기본값 예, 바로 켜기)를 선택된 것으로 떠났습니다.**
 
@@ -139,7 +142,7 @@ New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies ad
 
 - SharePoint, OneDrive 및 Microsoft Teams 안전한 첨부 파일이 설정되어 있는지 확인 Microsoft Teams 다음 단계 중 하나를 수행합니다.
 
-  - Microsoft 365 [Defender](https://security.microsoft.com)포털에서 정책 &  규칙 위협 정책 안전한 첨부 파일로 이동하고 전역 설정을 선택하고 SharePoint, OneDrive 및 Microsoft Teams 설정에 대한 Office 365에 대한 \>  \>  **Defender** 켜기 Microsoft Teams 확인합니다.
+  - Microsoft 365 Defender 포털에서 정책 & **규칙** 위협 정책 섹션 안전 첨부 파일로 이동하고 전역 설정을 선택하고 SharePoint, OneDrive 및 Microsoft Teams 설정에 대한 Office 365에 대한 Defender 켜기 설정을 \>  \>  \>  **확인합니다.** 
 
   - PowerShell을 Exchange Online 다음 명령을 실행하여 속성 설정을 확인 합니다.
 
@@ -158,9 +161,7 @@ New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies ad
   구문과 매개 변수에 대한 자세한 내용은 [Get-SPOTenant 를 참조하십시오.](/powershell/module/sharepoint-online/Set-SPOTenant)
 
 - 검색된 파일에 대해 경고 정책을 성공적으로 구성한지 확인하려면 다음 단계를 수행합니다.
-
   - Microsoft 365 Defender 포털에서 정책 정책  & 규칙 경고 정책으로 이동하여 경고 정책을 선택하고 설정을 \>  \> 확인합니다.
-
   - Defender Microsoft 365 PowerShell에서 경고 정책의 이름으로 바꾸고 다음 명령을 실행하고 속성 값을 \<AlertPolicyName\> 검증합니다.
 
     ```powershell

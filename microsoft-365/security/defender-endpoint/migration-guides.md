@@ -17,14 +17,14 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: 4d10de35358d528f004ee11e931fc6f41ce20482
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: a0b1f82ae26ba1103ed4cc7eb0be7e9c376b5f52
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930502"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933038"
 ---
-# <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Endpoint 및 2013용 Microsoft Defender로 Microsoft Defender 바이러스 백신
+# <a name="make-the-switch-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender로 전환
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -34,14 +34,14 @@ ms.locfileid: "52930502"
 
 ## <a name="migration-guides"></a>마이그레이션 가이드
 
-비영리 Microsoft 365 Defender 솔루션에서 끝점용 Microsoft Defender로 전환하는 Microsoft Defender 바이러스 백신 마이그레이션 지침을 참조하세요. 배포 프로세스에서 가장 적합한 시나리오를 선택하고 지침을 참조하세요.
+끝점용 Defender로 이동을 고려하고 있는 경우 도움이 되는 지침이 있습니다. 다음 표에서 시나리오를 검토합니다. 상황에 가장 적합한 시나리오를 선택하고 권장 지침을 참조하세요.
 
-|시나리오 |지침 |
-|:--|:--|
-|아직 끝점 보호 솔루션이 없는 경우 끝점용 Microsoft Defender가 어떻게 작동하고 & Microsoft Defender 바이러스 백신 합니다.  |[끝점용 Microsoft Defender 평가 랩](evaluation-lab.md)   |
-|끝점용 Microsoft Defender & Microsoft Defender 바이러스 백신 설정하고 구성하는 데 도움이 필요합니다.  |[끝점용 Microsoft Defender 배포 가이드](deployment-phases.md)  |
-|Microsoft가 아닌 끝점 보호 솔루션에서 끝점용 Microsoft Defender 솔루션으로 마이그레이션할 & Microsoft Defender 바이러스 백신. |[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)   |
-|Microsoft Defender for Endpoint & Microsoft Defender 바이러스 백신 마이그레이션한 후 추가 기능 구성 또는 보안 설정 미세 조정과 같은 다음 단계에 대한 도움이 필요합니다. | [끝점용 Microsoft Defender 관리, 마이그레이션 후](manage-atp-post-migration.md) |
+| 시나리오 | 지침 |
+|:----|:----|
+| 아직 끝점 보호 솔루션이 준비되지 않았고 Endpoint용 Defender에 대해 더 알고 싶을 것입니다. <p> 환경에서 롤아웃하기 전에 Endpoint용 Defender의 작동 방법을 확인하려는 경우  | [끝점용 Microsoft Defender 평가 랩](evaluation-lab.md)   |
+| 끝점에 대한 Defender가 이미 있으며 모든 것을 설정하고 구성하는 데 도움이 될 것입니다.  | [끝점용 Microsoft Defender 배포 가이드](deployment-phases.md)  |
+| Microsoft가 아닌 엔드포인트 보호 솔루션에서 Endpoint용 Defender로 전환하고 Microsoft Defender 바이러스 백신. <p> 마이그레이션 프로세스와 전환 방법을 간략하게 살펴 보아야 합니다. |[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)   |
+| 끝점용 Defender로 이미 마이그레이션하거나 온보딩한 경우 보안 설정 관리, 추가 기능 구성 또는 보안 정책 미세 조정과 같은 다음 단계에 대한 몇 가지 도움말을 원합니다. | [끝점용 Microsoft Defender 관리, 마이그레이션 후](manage-atp-post-migration.md) |
 
 
 ## <a name="do-you-have-feedback-for-us"></a>피드백이 있나요?
