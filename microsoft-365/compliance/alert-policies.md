@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 및 규정 준수 센터의 보안 및 준수 Office 365 Microsoft 365 위협, 데이터 손실 및 권한 문제를 모니터링합니다.
-ms.openlocfilehash: 2fe23f3e6d6889c3fc80b94be6a07095e06d3d68
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 4bca7bb15900dbdd7caadb74ce7938b9483be03e
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950122"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964731"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 
@@ -289,7 +289,7 @@ RBAC 사용 권한에 따라 이 디자인을 사용하면 조직의 특정 작�
 
   - 해당 경고 정책의 이름 및 링크입니다.
 
-- **전자 메일 알림을 표시하지 않습니다.** 경고에 대한 플라이아웃 페이지에서 전자 메일 알림을 끄거나 표시하지 않습니다. 전자 메일 알림을 표시하지 않는 경우 Microsoft는 경고 정책의 조건과 일치하는 활동 또는 이벤트가 있는 경우 알림을 보내지 않습니다. 그러나 사용자가 수행한 활동이 경고 정책의 조건과 일치하면 경고가 트리거됩니다. 경고 정책을 편집하여 전자 메일 알림을 해제할 수도 있습니다.
+- **전자 메일 알림을 표시하지 않습니다.** 경고에 대한 플라이아웃 페이지에서 전자 메일 알림을 끄거나 표시하지 않습니다. 전자 메일 알림을 표시하지 않는 경우 경고 정책의 조건과 일치하는 활동 또는 이벤트가 발생할 때 Microsoft에서 알림을 보내지 않습니다. 그러나 사용자가 수행한 활동이 경고 정책의 조건과 일치하면 경고가 트리거됩니다. 경고 정책을 편집하여 전자 메일 알림을 해제할 수도 있습니다.
 
 - **경고를 해결합니다.** 플라이아웃 페이지에서 경고를 해결된 것으로 표시하여 경고 상태를 해결된 경고로 **설정하는 데 사용할 수 있습니다.** 필터를 변경하지 않으면 해결된 알림이 경고 보기 페이지에 **표시되지** 않습니다.
 
