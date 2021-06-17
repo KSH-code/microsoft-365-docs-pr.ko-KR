@@ -16,26 +16,34 @@ manager: dansimp
 ms.topic: article
 ms.technology: mde
 ms.date: 06/02/2021
-ms.openlocfilehash: c2ff6eac3254e855d4858edc218ae5df034352e4
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 23de13e9a2b0fb02b95c9bb367c3fd99e11e89c8
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925662"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985099"
 ---
 # <a name="test-attack-surface-reduction-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 공격 표면 감소 테스트
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-조직의 보안 팀에 참여하는 경우 감사 모드에서 실행하도록 공격 표면 감소 기능을 구성하여 조직에서 어떻게 작동할지 알 수 있습니다. 특히 감사 모드에서 공격 표면 감소 규칙, 악용 방지, 네트워크 보호 및 제어된 폴더 액세스를 사용하도록 설정할 수 있습니다. 감사 모드를 사용하면 기능을 사용하도록  설정한 경우 어떤 일이 일어나는지 기록을 볼 수 있습니다.
+조직의 보안 팀의 일부로 감사 모드에서 실행하도록 공격 표면 감소 기능을 구성하여 작동 방법을 볼 수 있습니다. 감사 모드에서는 다음을 사용하도록 설정할 수 있습니다.
 
-조직에서 기능이 어떻게 작동할지 테스트할 때 감사 모드를 사용하도록 설정할 수 있습니다. 이렇게 하면 업무용 앱이 영향을 받지 않는지 확인하게 됩니다. 또한 특정 기간 동안 의심스러운 파일 수정 시도의 수를 알 수 있습니다.
+- 공격 노출 영역 축소 규칙
+- 악용 방지
+- 네트워크 보호
+- 감사 모드에서 제어된 폴더 액세스
 
-이 기능은 앱, 스크립트 또는 파일이 수정되는 것을 차단하거나 차단하지 않습니다. 그러나 Windows 로그는 기능이 완전히 활성화된 것 같은 이벤트를 기록합니다. 감사 모드를 사용하면 이벤트 로그를 검토하여 기능이 활성화된 경우 기능에 미칠 영향을 볼 수 있습니다.
+감사 모드를 사용하면 기능을 사용하도록  설정한 경우 어떤 일이 일어나는지 기록을 볼 수 있습니다.
+
+기능의 작동 방법을 테스트할 때 감사 모드를 사용하도록 설정할 수 있습니다. 이렇게 하면 업무용 앱이 영향을 받지 않는지 확인하게 됩니다. 또한 특정 기간 동안 의심스러운 파일 수정 시도의 수를 알 수 있습니다.
+
+이 기능은 앱, 스크립트 또는 파일이 수정되는 것을 차단하거나 차단하지 않습니다. 그러나 Windows 로그는 기능이 완전히 활성화된 것 같은 이벤트를 기록합니다. 감사 모드를 사용하면 이벤트 로그를 검토하여 활성화된 기능의 영향을 확인합니다.
 
 감사된 항목을 찾으면 응용 프로그램 및 서비스 Microsoft Windows  >    >    >  **Windows Defender**  >  **로 이동하십시오.**
 
@@ -52,5 +60,3 @@ ms.locfileid: "52925662"
 | 감사는 개별 규칙에 적용됩니다. | [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md) | [공격 표면 감소 규칙 이벤트](evaluate-attack-surface-reduction.md#review-attack-surface-reduction-events-in-windows-event-viewer)
 | 감사는 모든 이벤트에 적용됩니다. | [네트워크 보호 사용](enable-network-protection.md) | [네트워크 보호 이벤트](evaluate-network-protection.md#review-network-protection-events-in-windows-event-viewer)
 | 감사는 개별 완화에 적용됩니다. | [악용 방지 사용](enable-exploit-protection.md) | [Exploit Protection 이벤트](exploit-protection.md#review-exploit-protection-events-in-windows-event-viewer)
-
-

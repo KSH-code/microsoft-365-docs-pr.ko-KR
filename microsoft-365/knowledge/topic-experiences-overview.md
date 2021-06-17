@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva Topics 개요입니다.
-ms.openlocfilehash: 60c276e8850ed1b824810131a13bed19424a87fa
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 785fddb7c951bb6f7c170971f0af4eb7ac8f9a83
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950026"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984907"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva Topics 개요 
 
@@ -39,14 +39,14 @@ Viva Topics는 AI를 사용하여 조직에서 *주제* 를 자동으로 검색�
 
 다음을 통해 사용자에게 항목을 표시합니다.
 
-- [페이지 SharePoint](topic-experiences-overview.md#topic-highlights) 주요 항목
+- [페이지 SharePoint](topic-experiences-overview.md#sharepoint-highlights) 강조 표시된 항목
 - 검색 결과의 [항목 답변](topic-experiences-overview.md#search-results)
 - Office 응용 [프로그램에서 검색](topic-experiences-overview.md#office-application-search)
 - [항목 센터](topic-experiences-overview.md#topic-center) 홈 페이지
 
-### <a name="topic-highlights"></a>주제 하이라이트
+### <a name="sharepoint-highlights"></a>SharePoint 강조 표시
 
-SharePoint 뉴스 및 페이지의 콘텐츠에서 한 주제가 언급된 경우 해당 주제가 강조 표시됩니다. 하이라이트에서 주제 요약을 열 수 있습니다. 요약 제목에서 항목 세부 정보를 열어 전체 항목 페이지를 니다. 언급된 항목은 자동으로 식별되거나 페이지 작성자가 항목에 대한 직접 참조를 통해 페이지에 추가될 수 있습니다. 
+SharePoint 뉴스 및 페이지의 콘텐츠에서 한 주제가 언급된 경우 해당 주제가 강조 표시됩니다. 하이라이트에서 주제 요약을 열 수 있습니다. 요약 제목에서 항목 세부 정보를 열어 전체 항목 페이지를 니다. 언급된 항목을 자동으로 식별하거나 페이지 작성자가 직접 참조할 수 있습니다. 
 
    ![항목을 강조 표시하는 스크린샷.](../media/knowledge-management/saturn.png) 
 

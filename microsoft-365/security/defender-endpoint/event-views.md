@@ -14,18 +14,19 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ff82819f4e168fc57b649411fbe5e9136b0e36f4
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: f8de3d8b2d7c07f8d783ecbe85b7e4a9c612aae5
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769332"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985471"
 ---
 # <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -38,7 +39,7 @@ ms.locfileid: "52769332"
 
 이 문서에서는 모든 이벤트, 관련 기능 또는 설정을 나열하고 특정 이벤트에 대해 필터링하는 사용자 지정 보기를 만드는 방법에 대해 설명합니다.
 
-E5 구독이 있는 경우 이벤트에 대한 자세한 보고를 보고하고 Windows 보안 [Microsoft Defender for Endpoint를](microsoft-defender-endpoint.md)사용하는 경우 이벤트의 일부로 차단합니다.
+E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보고를 Windows 보안 [끝점용 Microsoft Defender를 사용하세요.](microsoft-defender-endpoint.md)
 
 ## <a name="use-custom-views-to-review-attack-surface-reduction-capabilities"></a>사용자 지정 보기를 사용하여 공격 표면 감소 기능 검토
 
@@ -54,11 +55,12 @@ E5 구독이 있는 경우 이벤트에 대한 자세한 보고를 보고하고 
     - 공격 표면 감소 이벤트 사용자 지정 *보기:asr-events.xml*
     - 네트워크/보호 이벤트 사용자 지정 *보기:np-events.xml*
 
-2. 시작 **메뉴에 이벤트 뷰어를** 입력하고 이벤트 **뷰어를 니다.**
+2. 이벤트 **뷰어를** 시작 메뉴 이벤트 **뷰어를 열 수 있습니다.**
 
 3. 작업 **사용자 지정** 보기  >  **가져오기...를 선택합니다.**
 
-    ![Even 뷰어 창 왼쪽의 사용자 지정 보기 가져오기 강조 표시 애니메이션](/windows/security/threat-protection/images/events-import)
+  > [!div class="mx-imgBorder"]
+  > ![Even 뷰어 창 왼쪽의 사용자 지정 보기 가져오기 강조 표시 애니메이션](images/events-import.gif)
 
 4. 원하는 사용자 지정 보기에 대해 XML 파일을 추출한 위치로 이동하여 선택합니다.
 
@@ -68,19 +70,18 @@ E5 구독이 있는 경우 이벤트에 대한 자세한 보고를 보고하고 
 
 ### <a name="copy-the-xml-directly"></a>XML 직접 복사
 
-1. 시작 **메뉴에 이벤트** 뷰어를 입력하고 이벤트 뷰어 Windows **를 니다.**
+1. 이벤트 **뷰어를** 시작 메뉴 이벤트 뷰어 를 Windows **를 열 수 있습니다.**
 
 2. 왼쪽 패널의 **동작에서** 사용자 지정 **보기 만들기...를 선택합니다.**
 
-    ![이벤트 뷰어 창에서 사용자 지정 보기 만들기 옵션을 강조 표시하는 애니메이션](/windows/security/threat-protection/images/events-create)
+  > [!div class="mx-imgBorder"]
+  > ![이벤트 뷰어 창에서 사용자 지정 보기 만들기 옵션을 강조 표시하는 애니메이션](images/events-create.gif)
 
 3. XML 탭으로 이동하여 수동으로 쿼리 **편집을 선택합니다.** XML 옵션을 사용하는 경우 필터 탭을 사용하여  쿼리를 편집할 수 없는 경고가 표시됩니다. **예** 를 선택합니다.
 
 4. 이벤트를 필터링할 기능에 대한 XML 코드를 XML 섹션에 붙여 넣습니다.
 
-5. **확인** 을 선택합니다. 필터의 이름을 지정합니다.
-
-6. 이 보기는 해당 기능과 관련된 이벤트만 표시하기 위해 필터를 지정하는 사용자 지정 보기를 만듭니다.
+5. **확인** 을 선택합니다. 필터의 이름을 지정합니다. 이렇게 하면 해당 기능과 관련된 이벤트만 표시하기 위해 필터를 지정하는 사용자 지정 보기가 생성됩니다.
 
 ### <a name="xml-for-attack-surface-reduction-rule-events"></a>공격 표면 감소 규칙 이벤트에 대한 XML
 
@@ -145,22 +146,22 @@ E5 구독이 있는 경우 이벤트에 대한 자세한 보고를 보고하고 
 2. **Microsoft >** > Windows 응용 프로그램 및 서비스 로그를 확장한 다음 아래 표의 **공급자/원본에** 나열된 폴더로 이동합니다.
 3. 하위 항목을 두 번 클릭하여 이벤트를 볼 수 있습니다. 이벤트를 스크롤하여 원하는 이벤트를 찾으면 됩니다.
 
-   ![이벤트 뷰어를 사용하는 애니메이션](/windows/security/threat-protection/images/event-viewer)
+   ![이벤트 뷰어를 사용하는 애니메이션](images/event-viewer.gif)
 
 기능 | 공급자/원본 | 이벤트 ID | 설명
 :-|:-|:-:|:-
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 1 | ACG 감사
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 2 | ACG 적용
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 3 | 하위 프로세스 감사 허용 안 하도록 허용
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 4  | 하위 프로세스 블록 허용 안 하도록 허용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 3 | 자식 프로세스 감사 허용 안 함
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 4  | 자식 프로세스 블록 허용 안 함
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 5  | 낮은 무결성 이미지 감사 차단
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 6  | 낮은 무결성 이미지 블록 차단
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 7  | 원격 이미지 감사 차단
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 8  | 원격 이미지 차단 차단
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 9  | win32k 시스템 호출 감사를 사용하지 않도록 설정
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 10   | win32k 시스템 호출 차단 사용 안
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 11 | 코드 무결성 보호 감사
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 12  | 코드 무결성 보호 블록
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 8  | 원격 이미지 블록 차단
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 9  | win32k 시스템 호출 감사 사용 안 함
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 10   | Win32k 시스템 호출 블록 사용 안 함
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 11 | 코드 무결성 가드 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 12  | 코드 무결성 가드 블록
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 13 | EAF 감사
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 14  | EAF 적용
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 15 | EAF+ 감사
@@ -173,8 +174,8 @@ E5 구독이 있는 경우 이벤트에 대한 자세한 보고를 보고하고 
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 22 | ROP CallerCheck 적용
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 23 | ROP SimExec 감사
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 24 | ROP SimExec 적용
-악용 방지 | WER-Diagnostics | 5  | CFG 블록
-악용 방지 | Win32K(작동) | 260 | 트러설이 없는 글꼴
+악용 방지 | WER-진단 | 5  | CFG 블록
+악용 방지 | Win32K(작동) | 260 | 신뢰할 수 없는 글꼴
 네트워크 보호 | Windows Defender(작동) | 5007 | 설정이 변경될 때의 이벤트
 네트워크 보호 | Windows Defender(작동) | 1125 | 감사 모드에서 네트워크 보호가 발생하면 이벤트
 네트워크 보호 | Windows Defender(작동) | 1126 | 차단 모드에서 네트워크 보호가 발생하면 이벤트

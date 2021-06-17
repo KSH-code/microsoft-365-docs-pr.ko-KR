@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 58c2230d3a2e3323f7b9a315ca5d2a049f5f44fb
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 409f6d0bbbcf9f8b50119e35bdb7852c4323bbf9
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903855"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984991"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
@@ -38,10 +38,10 @@ ms.locfileid: "52903855"
 공격 표면 감소 규칙은 다음과 같은 특정 소프트웨어 동작을 대상으로 합니다.
 
 - 파일 다운로드 또는 실행을 시도하는 실행 파일 및 스크립트 실행
-- 난동되거나 의심스러운 스크립트 실행 및
-- 앱이 일반적으로 일반적인 일과 중에 시작되지 않는 동작 수행
+- 난동 또는 기타 의심스러운 스크립트 실행
+- 앱이 일반적인 일과의 작업 중에 일반적으로 시작되지 않는 동작 수행
 
-이러한 소프트웨어 동작은 경우에 따라 합법적인 응용 프로그램에서 볼 수 있습니다. 그러나 이러한 동작은 일반적으로 맬웨어를 통해 공격자에 의해 악용되는 위험한 동작으로 간주됩니다. 공격 표면 감소 규칙은 위험한 동작을 제한하고 조직을 안전하게 유지하는 데 도움이 될 수 있습니다.
+이러한 소프트웨어 동작은 경우에 따라 합법적인 응용 프로그램에서 볼 수 있습니다. 그러나 이러한 동작은 일반적으로 맬웨어를 통해 공격자에 의해 악용되는 위험한 동작으로 간주됩니다. 공격 표면 감소 규칙은 소프트웨어 기반의 위험한 동작을 제한하고 조직을 안전하게 유지하는 데 도움이 될 수 있습니다.
 
 공격 표면 감소 규칙을 구성하는 방법에 대한 자세한 내용은 공격 표면 감소 규칙 사용 [을 참조하세요.](enable-attack-surface-reduction.md)
 
@@ -67,7 +67,7 @@ ms.locfileid: "52903855"
 
 경고 모드는 다음 버전의 경고를 실행하는 장치에서 Windows.
 
-- [Windows 10 버전 1809 이상](/windows/whats-new/whats-new-windows-10-version-1809)
+- [Windows 10, 버전 1809](/windows/whats-new/whats-new-windows-10-version-1809) 이상
 - [Windows Server, 버전 1809 이상](/windows-server/get-started/whats-new-in-windows-server-1809)
 
 Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 통해 [실행해야 합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)
@@ -91,11 +91,11 @@ Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 �
 
 ## <a name="notifications-and-alerts"></a>알림 및 알림
 
-공격 표면 감소 규칙이 트리거될 때마다 알림이 장치에 표시됩니다. 회사 세부 [정보 및 연락처](customize-attack-surface-reduction.md#customize-the-notification) 정보로 알림을 사용자 지정할 수 있습니다.
+공격 표면 감소 규칙이 트리거될 때마다 알림이 장치에 표시됩니다. 회사 세부 정보 및 연락처 정보로 [알림을 사용자 지정](customize-attack-surface-reduction.md#customize-the-notification)할 수 있습니다.
 
 또한 특정 공격 표면 감소 규칙이 트리거되면 경고가 생성됩니다.
 
-알림 및 생성된 경고는 Microsoft 365 Defender 포털()(이전의 Microsoft Defender 보안 센터)에서 볼 [https://security.microsoft.com](https://security.microsoft.com) [수 있습니다.](microsoft-defender-security-center.md)
+알림 및 생성된 경고는 Microsoft 365 Defender 포털()(이전의 [https://security.microsoft.com](https://security.microsoft.com) [Microsoft Defender 보안 센터)에서 볼 수 있습니다.](microsoft-defender-security-center.md)
 
 ## <a name="advanced-hunting-and-attack-surface-reduction-events"></a>고급 헌팅 및 공격 표면 축소 이벤트
 
@@ -109,20 +109,25 @@ Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 �
 
 다음 버전 및 버전의 디바이스를 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 Windows.
 
-- Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 10 Pro K 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 10 Enterprise K 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 않습니다. [E5를](/windows/deployment/deploy-enterprise-licenses)Windows 고급 관리 기능을 사용할 수 있습니다. 이러한 기능은 Windows E5에서만 사용할 수 있는 기능으로는 [Endpoint용 Defender에서](microsoft-defender-endpoint.md)사용할 수 있는 모니터링, 분석 및 워크플로뿐 아니라 Microsoft 365 [Defender의](/microsoft-365/security/defender/overview-security-center)보고 및 구성 기능이 포함됩니다. 이러한 고급 기능은 E3 라이선스 또는 Windows Professional 사용할 Windows 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 로그를 사용하여 Microsoft Defender 바이러스 백신 축소 규칙 이벤트를 검토할 수 있습니다.
+공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 않습니다. [E5를](/windows/deployment/deploy-enterprise-licenses)Windows 고급 관리 기능을 사용할 수 있습니다. E5에서만 사용할 수 있는 고급 Windows 포함:
 
-## <a name="review-attack-surface-reduction-events-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 공격 표면 감소 Microsoft 365 검토
+- [Endpoint용 Defender에서](microsoft-defender-endpoint.md) 사용할 수 있는 모니터링, 분석 및 워크플로
+- 의 보고 및 구성 [Microsoft 365 Defender.](/microsoft-365/security/defender/overview-security-center)
+
+이러한 고급 기능은 E3 라이선스 또는 Windows Professional Windows 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 로그를 사용하여 Microsoft Defender 바이러스 백신 축소 규칙 이벤트를 검토할 수 있습니다.
+
+## <a name="review-attack-surface-reduction-events-in-the-microsoft-365-defender-portal"></a>포털에서 공격 표면 감소 Microsoft 365 Defender 검토
 
 Endpoint용 Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 차단합니다.
 
-고급 헌팅을 사용하여 Microsoft 365 [Defender에서](microsoft-defender-security-center.md) 끝점 데이터를 [쿼리할 수 있습니다.](advanced-hunting-query-language.md) 감사 모드를 실행하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 공격 표면 감소 규칙이 환경에 미칠 수 있는 영향을 이해할 수 있습니다.
+고급 헌팅을 사용하여 에서 Defender에서 [끝점 Microsoft 365 Defender](microsoft-defender-security-center.md) [쿼리할 수 있습니다.](advanced-hunting-query-language.md) 감사 모드를 실행하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 공격 표면 감소 규칙이 환경에 미칠 수 있는 영향을 이해할 수 있습니다.
 
-다음은 쿼리의 예입니다.
+다음은 예제 쿼리입니다.
 
 ```kusto
 DeviceEvents
@@ -135,7 +140,7 @@ DeviceEvents
 
 1. 평가 [패키지를](https://aka.ms/mp7z2w) 다운로드하고  디바이스에서cfa-events.xml쉽게 액세스할 수 있는 위치에 파일을 추출합니다.
 
-2. 시작 메뉴에 이벤트 *뷰어* 단어를 입력하여 이벤트 뷰어를 Windows 를 넣습니다.
+2. 이벤트 뷰어를 시작 메뉴 이벤트 뷰어에 Windows 입력합니다. 
 
 3. **작업에서** 사용자 지정 보기 **가져오기... 를 선택합니다.**
 
@@ -181,22 +186,22 @@ DeviceEvents
 
 ### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>악용된 취약한 서명된 드라이버의 남용 차단
 
-이 규칙은 응용 프로그램이 취약한 서명된 드라이버를 디스크에 쓰지 못하게 합니다. 와일드에서 취약한 서명된 드라이버는 커널에 액세스하기에 충분한 권한이 있는 로컬 응용 프로그램에 \-  \- 의해 악용될 수 있습니다. 취약한 서명된 드라이버를 사용하면 공격자가 보안 솔루션을 사용하지 않도록 설정하거나 우회할 수 있습니다. 결과적으로 시스템 손상이 일어날 수 있습니다.
+이 규칙은 응용 프로그램이 디스크에 취약한 서명된 드라이버를 작성하지 못하게 합니다. 와일드에서 취약한 서명된 드라이버는 커널에 액세스하기에 충분한 권한이 있는 로컬 응용 프로그램에 \-  \- 의해 악용될 수 있습니다. 취약한 서명된 드라이버를 사용하면 공격자가 보안 솔루션을 사용하지 않도록 설정하거나 우회할 수 있습니다. 결과적으로 시스템 손상이 일어날 수 있습니다.
 
-이 규칙은 시스템에 이미 있는 드라이버가 로드되는 것을 차단하지 않습니다.
+**악용된** 취약한 드라이버 남용 차단 규칙은 시스템에 이미 있는 드라이버가 로드되는 것을 차단하지 않습니다.
 
 >[!NOTE]
 >
-> 이 규칙은 [MEM OMA-URI](enable-attack-surface-reduction.md#mem) 사용자 지정 규칙 프로시저 정보에 대해 MEM OMA-URI를 사용하여 구성할 수 있습니다.
+> MEM OMA-URI 사용자 지정 규칙의 프로시저 정보에 대해 [MEM OMA-URI를](enable-attack-surface-reduction.md#mem) 사용하여 이 규칙을 구성할 수 있습니다.
 >
-> 이 규칙은 PowerShell 을 사용하여 [구성할 수도 있습니다.](enable-attack-surface-reduction.md#powershell)
+> PowerShell을 사용하여 이 규칙을 [구성할 수 있습니다.](enable-attack-surface-reduction.md#powershell)
 >
-> 이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출할 수 있습니다.](https://www.microsoft.com/en-us/wdsi/driversubmission)
+> 드라이버를 검사하기 위해 이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출합니다.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
 이 규칙은 ASR이 지원되는 모든 버전에서 지원됩니다. 은:
 
-- [Windows 10 Pro 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- [Windows 10 Enterprise 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- [Windows 10 Pro K 버전 1709 이상](/windows/whats-new/whats-new-windows-10-version-1709)
+- [Windows 10 Enterprise K 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - [Windows Server, 버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
@@ -212,7 +217,7 @@ GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
 
 이 규칙은
 
-- [Windows 10 버전 1809](/windows/whats-new/whats-new-windows-10-version-1809)
+- [Windows 10, 버전 1809](/windows/whats-new/whats-new-windows-10-version-1809)
 - [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
@@ -226,7 +231,7 @@ GUID: `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`
 
 이 규칙은 Office 프로세스 만들기를 차단합니다. Office 앱에는 Word, Excel, PowerPoint, OneNote 및 Access가 포함됩니다.
 
-악의적인 자식 프로세스를 만드는 것은 일반적인 맬웨어 전략입니다. 벡터로 Office 악용하는 맬웨어는 VBA 매크로를 실행하고 코드를 악용하여 더 많은 페이로드를 다운로드하고 실행하려고 합니다. 그러나 일부 합법적인 업무용 응용 프로그램은 명령 프롬프트 생성 또는 PowerShell을 사용하여 레지스트리 설정을 구성하는 등 양성 목적으로 자식 프로세스를 생성할 수도 있습니다.
+악의적인 자식 프로세스를 만드는 것은 일반적인 맬웨어 전략입니다. 벡터로 Office 악용하는 맬웨어는 VBA 매크로를 실행하고 코드를 악용하여 더 많은 페이로드를 다운로드하고 실행하려고 합니다. 그러나 일부 합법적인 업무(LINE-OF-BUSINESS) 응용 프로그램에서는 자식 프로세스를 무해한 용도로 생성할 수도 있습니다. 명령 프롬프트를 만들거나 PowerShell을 사용하여 레지스트리 설정을 구성하는 등의 경우
 
 이 규칙은
 
@@ -400,17 +405,17 @@ GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`
 
 ### <a name="block-office-communication-application-from-creating-child-processes"></a>통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단
 
-이 규칙은 Outlook 자식 프로세스를 만들지 못하게 하지만 합법적인 Outlook 합니다.
+이 규칙은 합법적인 Outlook 기능을 허용하면서 Outlook에서 하위 프로세스를 만들지 못하게 합니다.
 
-이 규칙은 사회 엔지니어링 공격으로부터 보호하고 코드 악용을 통해 보안상 취약성을 악용하지 Outlook. 또한 사용자의 자격 [Outlook](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) 공격자가 사용할 수 있는 규칙 및 양식 악용으로부터 보호합니다.
+이 규칙은 사회 엔지니어링 공격으로부터 보호하고 코드 악용이 Outlook의 취약성을 악용하는 것을 방지합니다. 또한 사용자의 자격 증명이 손상될 때 공격자가 사용할 수 있는 [Outlook](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) 규칙 및 양식 악용으로부터 보호합니다.
 
 > [!NOTE]
-> 이 규칙은 규칙에 따라 DLP 정책 팁과 도구 Outlook. 이 규칙은 Outlook Outlook.com에만 적용됩니다. 
+> 이 규칙은 Outlook에서 DLP 정책 팁 및 도구 팁을 차단합니다. 이 규칙은 Outlook 및 Outlook.com 적용됩니다.
 
 이 규칙은
 
 - [Windows 10 버전 1809](/windows/whats-new/whats-new-windows-10-version-1809)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Intune 이름: `Process creation from Office communication products (beta)`
@@ -444,12 +449,12 @@ GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`
 이 규칙은 [PsExec](/sysinternals/downloads/psexec) 및 [WMI를](/windows/win32/wmisdk/about-wmi) 통해 만든 프로세스의 실행을 차단합니다. PsExec과 WMI 모두 코드를 원격으로 실행할 수 있으므로 맬웨어가 명령 및 제어 목적으로 이 기능을 남용하거나 조직의 네트워크 전체에 감염을 전파할 위험이 있습니다.
 
 > [!WARNING]
-> [Intune](/intune) 또는 다른 MDM 솔루션으로 장치를 관리하는 경우 이 규칙만 사용 이 규칙은 Configuration Manager 클라이언트가 올바르게 Microsoft Endpoint Configuration Manager WMI 명령을 차단하기 때문에 이 규칙은 관리자를 [통해](/configmgr) 관리와 비호환합니다.
+> [Intune](/intune) 또는 다른 MDM 솔루션으로 장치를 관리하는 경우 이 규칙만 사용 이 규칙은 Configuration Manager 클라이언트가 올바르게 작동하기 위해 사용하는 WMI 명령을 차단하기 때문에 [Microsoft Endpoint Configuration Manager를](/configmgr) 통한 관리와는 무관합니다.
 
 이 규칙은
 
 - [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Intune 이름: `Process creation from PSExec and WMI commands`
@@ -465,7 +470,7 @@ GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`
 이 규칙은
 
 - [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](/configmgr/core/servers/manage/updates)
 
@@ -475,7 +480,7 @@ Configuration Manager 이름: `Block untrusted and unsigned processes that run f
 
 GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`
 
-### <a name="block-win32-api-calls-from-office-macros"></a>매크로에서 Win32 API Office 차단
+### <a name="block-win32-api-calls-from-office-macros"></a>Office 매크로에서 Win32 API 호출 차단
 
 이 규칙은 VBA 매크로가 Win32 API를 호출하지 못하게 합니다.
 
@@ -484,7 +489,7 @@ Office VBA는 Win32 API 호출을 가능하게 합니다. 맬웨어는 [Win32 AP
 이 규칙은
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](/configmgr/core/servers/manage/updates)
 
@@ -510,7 +515,7 @@ GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`
 이 규칙은
 
 - [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](/configmgr/core/servers/manage/updates)
 
@@ -519,5 +524,3 @@ Intune 이름: `Advanced ransomware protection`
 Configuration Manager 이름: `Use advanced protection against ransomware`
 
 GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
-
-

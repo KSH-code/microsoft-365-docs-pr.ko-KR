@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3a65fb6d5d3e5c6e68e100aa3ea2b4cf896dc281
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 4f2e16acf474d6da8867a6bd392f9e90e0cf166e
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789401"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984847"
 ---
 # <a name="export-software-inventory-assessment-per-device"></a>장치당 소프트웨어 인벤토리 평가 내보내기
 
@@ -34,14 +34,12 @@ ms.locfileid: "52789401"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
->
 >
 다양한 형식의 데이터를 얻기 위해 다른 API 호출이 있습니다. 데이터 양은 매우 크기 때문에 다음 두 가지 방법으로 데이터를 검색할 수 있습니다.
 
 - [소프트웨어 인벤토리 평가 **OData 내보내기**](#1-export-software-inventory-assessment-odata)  API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어들입니다. 이 방법은 _100 K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
 
-- [파일을 통해 소프트웨어 인벤토리 **평가 내보내기**](#2-export-software-inventory-assessment-via-files)  이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다.
+- [파일을 통해 소프트웨어 인벤토리 **평가 내보내기**](#2-export-software-inventory-assessment-via-files)  이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure 저장소 수 있습니다.
 
   - API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.
 

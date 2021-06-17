@@ -14,16 +14,17 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: c03bc2a61ba2dae1b5db34c6b48d623c58c0c613
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 6b9814180df2cad2553c4565ebb65891b5cf9bf5
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782876"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985423"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용자 지정
 
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -37,18 +38,19 @@ ms.locfileid: "52782876"
 파일 및 폴더를 제외하거나 [](#exclude-files-and-folders) 사용자 컴퓨터에 나타나는 알림 [](#customize-the-notification) 경고에 사용자 지정 텍스트를 추가하여 공격 표면 감소 규칙을 사용자 지정하는 방법을 학습합니다.
 
 다음 버전 및 버전의 디바이스를 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 Windows.
-- Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+
+- Windows 10 Pro K 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 10 Enterprise K 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19) 그룹 정책, PowerShell 및 MDM(모바일 장치 관리) CSP(구성 서비스 공급자)를 사용하여 이러한 설정을 구성할 수 있습니다.
 
 ## <a name="exclude-files-and-folders"></a>파일 및 폴더 제외
 
-파일 및 폴더가 공격 표면 축소 규칙에 의해 평가되지 못하게 제외할 수 있습니다. 제외되면 공격 표면 감소 규칙이 파일에 악의적인 동작이 포함되어 있는 것을 감지한 경우에도 파일이 실행되지 않습니다.
+파일 및 폴더가 공격 표면 축소 규칙에 의해 평가되지 못하게 제외할 수 있습니다. 제외된 경우 공격 표면 감소 규칙이 파일에 악의적인 동작이 포함되어 있는 것을 감지한 경우에도 파일이 실행되지 않습니다.
 
 예를 들어 랜섬웨어 규칙을 고려합니다.
 
-랜섬웨어 규칙은 기업 고객이 비즈니스 연속성을 보장하면서 랜섬웨어 공격의 위험을 줄일 수 있도록 고안된 규칙입니다. 기본적으로 랜섬웨어 규칙은 신중하게 오류를 발생하고 아직 충분한 신뢰도와 신뢰를 거치지 않은 파일에 대해 보호합니다. 다시 강조하기 위해 랜섬웨어 규칙은 수백만 고객의 사용 메트릭에 따라 충분히 긍정적인 평판과 보전을 얻지 않은 파일에만 트리거합니다. 일반적으로 각 파일의 "신뢰도 및 신뢰" 값은 문제가 없는 사용이 증가하면 증분적으로 업그레이드하기 때문에 블록이 자체적으로 해결됩니다.
+랜섬웨어 규칙은 기업 고객이 비즈니스 연속성을 보장하면서 랜섬웨어 공격의 위험을 줄일 수 있도록 고안된 규칙입니다. 기본적으로 랜섬웨어 규칙 오류는 신중하게 처리하고 아직 충분한 신뢰도와 신뢰를 거치지 않은 파일에 대해 보호합니다. 다시 강조하기 위해 랜섬웨어 규칙은 수백만 고객의 사용 메트릭에 따라 충분히 긍정적인 평판과 보전을 얻지 않은 파일에만 트리거합니다. 일반적으로 각 파일의 "신뢰도 및 신뢰" 값은 문제가 없는 사용이 증가하면 증분적으로 업그레이드하기 때문에 블록이 자체적으로 해결됩니다.
 
 블록이 제시간에 자체적으로 해결되지 않는 경우 고객은 셀프 서비스 메커니즘 또는 IOC(손상 표시기) 기반 "허용 목록" 기능을 사용하여 파일 차단을 해제할 수 있습니다.   
 
@@ -97,7 +99,7 @@ ms.locfileid: "52782876"
 
 ### <a name="use-powershell-to-exclude-files-and-folders"></a>PowerShell을 사용하여 파일 및 폴더 제외
 
-1. 시작 **메뉴에 powershell을** 입력하고 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
+1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 **단추로** 클릭하고 Windows PowerShell 관리자 권한으로 **실행을 선택합니다.**
 2. 다음 cmdlet을 입력합니다.
 
     ```PowerShell
@@ -119,7 +121,7 @@ ms.locfileid: "52782876"
 
 ## <a name="related-topics"></a>관련 항목
 
-* [공격 표면 감소 규칙을 사용하여 공격 표면 감소](attack-surface-reduction.md)
-* [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
-* [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
-* [공격 표면 감소 FAQ](attack-surface-reduction.md)
+- [공격 표면 감소 규칙을 사용하여 공격 표면 감소](attack-surface-reduction.md)
+- [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
+- [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
+- [공격 표면 감소 FAQ](attack-surface-reduction.md)

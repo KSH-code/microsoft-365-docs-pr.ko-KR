@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 18823db8ca8d4bfa82b8ab6265ee8a0902a13e79
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 65d7647e9000152d2eeb8d6bf36e8d45a0d4fa90
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925895"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984703"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>관리 포털에서 관리자 연락처 추가 및 확인
 
@@ -51,15 +51,11 @@ IT 지원 센터 | 지원 직원이 지원 영역 외부에서 사용자 티켓�
 
 **관리자 연락처 추가하기**
 
-1.  [Microsoft Managed Desktop 관리 포털](https://aka.ms/mwaasportal)에 로그인합니다. 
+1.  에 [로그인하여 Microsoft Endpoint Manager.](https://endpoint.microsoft.com) 
 
-2.  **지원** 에서 **관리자 연락처** 를 선택합니다. 
+2.  **테넌트 관리에서** Microsoft Managed Desktop **섹션을** 검색한 다음 관리자 연락처 **를 선택합니다.** 
 
-    ![지원 메뉴, 상단 근처에서 선택된 관리자 연락처](../../media/admincontacts.png)
-
-3. **추가** 를 선택하세요.
-
-    ![내보내기 및 새로 고침 왼쪽에 관리 포털, 추가 단추](../../media/adminadd.png)
+3. **추가** 를 선택합니다.
 
 4.  **포커스 영역** 을 선택하고 연락처에 대한 정보를 입력합니다. 
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 7b95fc487a8ee3e82e0f215b34aa564e063534af
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 5ca147c9e69168b2f15aa69bba8728567b782fa9
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772080"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984463"
 ---
 # <a name="machine-resource-type"></a>컴퓨터 리소스 유형
 
@@ -55,6 +55,7 @@ ms.locfileid: "52772080"
 [태그별 컴퓨터 찾기](find-machines-by-tag.md) | [machine collection(컴퓨터](machine.md) 컬렉션) | 태그로 컴퓨터를 [검색합니다.](machine-tags.md)
 [누락된 KB 가져오기](get-missing-kbs-machine.md) | KB 컬렉션 | 컴퓨터 ID와 연결된 누락된 KB 목록 표시
 [장치 값 설정](set-device-value.md)| [machine collection(컴퓨터](machine.md) 컬렉션) | 디바이스의 [값을 설정합니다.](tvm-assign-device-value.md)
+[컴퓨터 업데이트](update-machine-method.md) |[machine collection(컴퓨터](machine.md) 컬렉션) | 컴퓨터의 업데이트 상태를 얻습니다.
 
 ## <a name="properties"></a>특성
 

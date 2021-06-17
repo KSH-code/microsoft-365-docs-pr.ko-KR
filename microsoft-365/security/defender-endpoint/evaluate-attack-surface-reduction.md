@@ -14,17 +14,16 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 5d3cd7893af4c91807782c269231a280b413733e
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: a5fa8e46de0a6561d3377ce77e38bd59aa97f3c4
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861227"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984727"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 평가
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -33,19 +32,19 @@ ms.locfileid: "52861227"
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
-공격 표면 감소 규칙은 일반적으로 맬웨어가 장치 또는 네트워크를 손상시킬 때 사용하는 작업을 방지하는 데 도움이 됩니다. 공격 표면 감소 규칙은 맬웨어 및 랜섬웨어에 사용되는 많은 일반적인 진입점을 닫는 데 도움이 됩니다. 
+공격 표면 감소 규칙은 일반적으로 맬웨어가 장치 또는 네트워크를 손상시킬 때 사용하는 작업을 방지하는 데 도움이 됩니다. 공격 표면 감소 규칙은 맬웨어 및 랜섬웨어에 사용되는 많은 일반적인 진입점을 닫는 데 도움이 됩니다.
 
 다음 버전 및 버전의 디바이스를 실행하는 장치에 대해 공격 표면 감소 규칙을 Windows.
 
-- Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 10 Pro K 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 10 Enterprise K 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 > [!WARNING]
 > 공격 서비스 축소 규칙을 Windows Server 2016 예기치 않은 결과가 발생하고 서버 성능에 영향을 줄 수 있습니다. 지원되지 않는 플랫폼에 공격 표면 감소 규칙을 사용하도록 설정하거나 배포하지 않는 것이 좋습니다.
 
-감사 모드를 사용하도록 설정하여 조직에서 기능을 직접 테스트하여 공격 표면 감소 규칙을 평가하는 방법을 알아보십시오.
+감사 모드를 사용하도록 설정하여 [](audit-windows-defender.md) 조직에서 기능을 직접 테스트하여 공격 표면 감소 규칙을 평가하는 방법을 알아보십시오.
 
 > [!TIP]
 > Microsoft Defender for [Endpoint](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 데모 시나리오 웹 사이트(demo.wd.microsoft.com)를 방문하여 기능이 작동하는지 확인하고 작동 방법을 확인할 수 있습니다.
@@ -91,6 +90,6 @@ Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReduct
 
 ## <a name="see-also"></a>참고 항목
 
-* [공격 표면 감소 규칙을 사용하여 공격 표면 감소](attack-surface-reduction.md)
-* [감사 모드를 사용하여 감사 Windows Defender](audit-windows-defender.md)
-* [공격 표면 감소 FAQ](attack-surface-reduction.md)
+- [공격 표면 감소 규칙을 사용하여 공격 표면 감소](attack-surface-reduction.md)
+- [감사 모드를 사용하여 감사 Windows Defender](audit-windows-defender.md)
+- [공격 표면 감소 FAQ](attack-surface-reduction.md)

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 04c485db5f250dfc852faeeaeae669956b95a8c4
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 44761199eea1cf2649a15b6a36ccc08eda99c570
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/15/2021
-ms.locfileid: "52932869"
+ms.locfileid: "52950062"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -268,7 +268,7 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
 
 **각주:**
 
-<sup>\*</sup> 콘텐츠를 레코드 또는 규제 레코드로 표시하지 않는 보존 레이블의 경우 감사 이벤트는 SharePoint의 항목에 적용, 변경 또는 제거된 레이블이 있는 경우로 제한됩니다. 보존 레이블에 대한 감사 세부 정보는 이 페이지의 [감사 보존 작업](#auditing-retention-actions) 섹션을 참조하세요.
+<sup>\*</sup> 콘텐츠를 레코드 또는 규제 레코드로 표시하지 않는 보존 레이블의 경우 감사 이벤트는 SharePoint 또는 OneDrive 항목에 적용, 변경 또는 제거된 레이블이 있는 경우로 제한됩니다. 보존 레이블에 대한 감사 세부 정보는 이 페이지의 [감사 보존 작업](#auditing-retention-actions) 섹션을 참조하세요.
 
 ### <a name="combining-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 결합
 
@@ -395,7 +395,7 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 
 감사 이벤트로 기록된 보존 작업은 보존 레이블에만 사용할 수 있으며 보존 정책에는 사용할 수 없습니다.
 
-- 보존 레이블이 SharePoint의 항목에서 적용, 변경 또는 제거되는 경우:
+- 보존 레이블이 SharePoint 또는 OneDrive의 항목에서 적용, 변경 또는 제거되는 경우:
     - **파일 및 페이지 활동** 에서 **파일의 보존 레이블 변경** 을 선택합니다. 
 
 - SharePoint의 레이블이 지정된 항목이 레코드로 표시되고 사용자에 의해 잠금 해제되거나 잠기는 경우:
@@ -404,7 +404,7 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 - 콘텐츠를 레코드 또는 규제 레코드로 표시하는 보존 레이블이 Exchange의 항목에 적용되는 경우:
     - **Exchange 사서함 활동** 에서 **레이블이 지정된 메시지를 레코드로** 를 선택합니다.
 
-- SharePoint 또는 Exchange의 레이블이 지정된 항목이 레코드 또는 규제 레코드로 표시되고 영구적으로 삭제되는 경우:
+- SharePoint, OneDrive 또는 Exchange의 레이블이 지정된 항목이 레코드 또는 규제 레코드로 표시되고 영구적으로 삭제되는 경우:
     - **파일 및 페이지 활동** 에서 **레코드로 표시된 삭제된 파일** 을 선택합니다.
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블의 PowerShell cmdlet

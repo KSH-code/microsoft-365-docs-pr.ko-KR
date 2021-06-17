@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: fe6a4604852965bdcc563ac0e410ca165bc5a088
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 5742c121b73eb8709e770c9b2c4da6dbfd942276
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789408"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984859"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>장치당 보안 구성 평가 내보내기
 
@@ -34,8 +34,6 @@ ms.locfileid: "52789408"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
->
 >
 장치 기준에 따라 모든 구성 및 구성 상태를 반환합니다.
 
@@ -43,7 +41,7 @@ ms.locfileid: "52789408"
 
 - [보안 구성 평가 **OData 내보내기:**](#1-export-secure-configuration-assessment-odata)API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어 들입니다. 이 방법은 _100 K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
 
-- 파일을 통해 보안 [구성 평가 ](#2-export-secure-configuration-assessment-via-files)내보내기: 이 API 솔루션을 사용하면 더 많은 양의 데이터를 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다.
+- 파일을 통해 보안 [구성 평가 ](#2-export-secure-configuration-assessment-via-files)내보내기: 이 API 솔루션을 사용하면 더 많은 양의 데이터를 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure 저장소 수 있습니다.
 
   - API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.
 

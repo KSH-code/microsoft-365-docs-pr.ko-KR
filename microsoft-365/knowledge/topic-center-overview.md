@@ -1,6 +1,5 @@
 ---
-title: Microsoft Viva 항목의 항목 센터 개요
-description: Microsoft Viva 항목의 항목 센터에 대해 자세히 알아보습니다.
+title: Microsoft Viva Topics
 author: chuckedmonson
 ms.author: chucked
 manager: pamgreen
@@ -14,16 +13,17 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: 073c14f84f4858a1853da062bf87ae9e78c05cbd
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+description: 2016년 8월의 항목 센터에 Microsoft Viva Topics.
+ms.openlocfilehash: f782be90e6cd6fa12e57df87ebb1057e58bdca19
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583595"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984931"
 ---
-# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 항목 센터 개요
+# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Microsoft Viva Topics
 
-Microsoft Viva 항목에서 항목 센터는 조직의 지식 SharePoint 제공하는 최신 사이트입니다. 이 이벤트는 Microsoft 365 관리 센터에서 [Viva Topics를](set-up-topic-experiences.md) 설치하는 동안 만들어집니다.
+이 Microsoft Viva Topics 항목 센터는 조직에 SharePoint 센터 역할을 하는 최신 사이트입니다. 이 설정은 2016년 [8월의 Viva](set-up-topic-experiences.md) 항목 설정 중에 Microsoft 365 관리 센터.
 
 항목 센터에는 사용이 허가된  모든 사용자가 연결이 있는 항목을 볼 수 있는 항목 웹 파트가 있는 기본 홈 페이지가 있습니다. 
 
@@ -34,7 +34,7 @@ Microsoft Viva 항목에서 항목 센터는 조직의 지식 SharePoint 제공�
 항목 센터는 Viva 항목 설정 중에 만들어집니다. 설치가 완료되면 관리자는 항목 센터 관리 페이지에서 [URL을 찾을 수 있습니다.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. Microsoft 365 관리 센터에서 설정 **를** 선택한 다음 **Org 설정을 선택합니다.**
+1. 다음 Microsoft 365 관리 센터 에서 **설정** 선택한 다음, **Org 설정을 선택합니다.**
 2. 서비스 **탭에서** 항목 환경 **을 선택합니다.**
 
     ![커넥트 정보를 알 수 있습니다.](../media/admin-org-knowledge-options-completed.png) 
@@ -69,7 +69,7 @@ Microsoft Viva 항목에서 항목 센터는 조직의 지식 SharePoint 제공�
 
 ## <a name="manage-topics-page"></a>항목 관리 페이지
 
-항목 센터의 **항목** 관리 페이지에서 작업하려면 기술 관리자 역할에 필요한 항목 관리 권한이 필요합니다. 관리자는 지식 관리 설정 중에 [](set-up-topic-experiences.md)사용자에게 이러한 권한을 할당할 [](topic-experiences-knowledge-rules.md) 수 있습니다. 또는 새 사용자는 Microsoft 365 관리 센터를 통해 관리자가 추가할 수 있습니다.
+항목 센터의 **항목** 관리 페이지에서 작업하려면 기술 관리자 역할에 필요한 항목 관리 권한이 필요합니다. 관리자는 [Viva](set-up-topic-experiences.md)항목 설정 중에 사용자에게 이러한 사용 권한을 할당할 [](topic-experiences-knowledge-rules.md) 수 있습니다. 또는 관리자 권한 설정을 통해 관리자가 이후에 새 사용자를 추가할 Microsoft 365 관리 센터.
 
 항목 **관리 페이지의** 항목 대시보드에는 지정된 원본 위치에서 식별된 모든 항목에 대한 액세스 권한이 표시됩니다. 각 항목에는 항목을 검색한 날짜가 표시될 것입니다. Manage topics 권한이 할당된 사용자는 확정되지 않은 항목을 검토하고 다음을 선택할 수 있습니다.
 

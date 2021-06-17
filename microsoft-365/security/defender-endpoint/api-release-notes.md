@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4843894638ccf119c0cadcf003e159e793c18368
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a0191a52c64b32b314d4b2f2f36c85b060226ad6
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843737"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984655"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>끝점용 Microsoft Defender API 릴리스 정보
 
@@ -39,6 +39,10 @@ ms.locfileid: "52843737"
 > ```
 
 ## <a name="release-notes---newest-to-oldest-ddmmyyyy"></a>릴리스 정보 - 가장 오래된 버전(dd.mm.yyyy)
+
+### <a name="06102021"></a>06.10.2021
+
+- 새로운 평가 API 내보내기 방법 추가 - 델타 내보내기 소프트웨어 취약점 _평가(OData)_ 장치당 평가 방법 및 [속성 내보내기.](get-assessment-methods-properties.md)
 
 ### <a name="05252021"></a>05.25.2021
 

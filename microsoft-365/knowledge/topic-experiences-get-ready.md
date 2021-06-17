@@ -1,6 +1,6 @@
 ---
-title: Microsoft Viva 항목을 위한 환경 준비
-description: Microsoft Viva 항목을 사용하여 사용자에게 가능한 많은 콘텐츠를 제공할 수 있도록 환경을 준비합니다.
+title: 사용자 환경 준비를 Microsoft Viva Topics
+description: 사용자들이 사용할 수 있는 콘텐츠를 최대한 많이 제공할 수 있도록 환경을 Microsoft Viva Topics.
 ms.author: samanro
 author: samanro
 manager: pamgreen
@@ -10,26 +10,26 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 2db8654bf7bb1bc5ef4759c1617a84ae2153553a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8e1da50c120d333812014f6720f1168d4afb9741
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917395"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984883"
 ---
-# <a name="get-your-environment-ready-for-microsoft-viva-topics"></a>Microsoft Viva 항목을 위한 환경 준비
+# <a name="get-your-environment-ready-for-microsoft-viva-topics"></a>사용자 환경 준비를 Microsoft Viva Topics
 
 Viva 항목을 최대한 많이 포함하기 위해 사용자가 다양한 주제 집합을 사용할 수 있도록 항목 검색에 가능한 한 많은 콘텐츠를 포함해야 합니다. 그러나 항목 검색에 어떤 콘텐츠를 사용해야 하나요? 제어를 유지하면서 인덱싱되는 콘텐츠를 최대화하는 방법 범위에 콘텐츠가 수록 인공 지능이 검색할 수 있는 인사이트가 더 낫습니다. 이 문서에서는 적절한 콘텐츠를 포함하며 사용자에게 좋은 환경을 만들기 위한 적절한 사용자 및 리소스가 있도록 하는 계획 단계를 단계에 대해 다단계를 수행합니다.
 
 Viva 항목을 계획하려면 다음을 해야 합니다.
 
-![지식 관리로의 온보드 단계를 마이그레이션, 연결, 현대화, 보호 및 식별](../media/knowledge-management/km-adoption-onboarding-checklist.png)
+![Viva 항목으로의 온보드 단계를 마이그레이션, 연결, 현대화, 보호 및 식별합니다.](../media/knowledge-management/km-adoption-onboarding-checklist.png)
 
 1. [콘텐츠 마이그레이션을 SharePoint](#1-migrate-content-to-microsoft-365)
     - 항목 인덱싱에는 사이트의 콘텐츠만 SharePoint 포함됩니다.
       - 가능한 경우 중요한 콘텐츠를 외부 원본에서 SharePoint 온라인으로 마이그레이션합니다.
       - 부정 지식이 높은 콘텐츠 원본의 우선 순위를 지정합니다.
-      - 지식 관리의 이점을 강조 표시하여 사용자가 사이트에서 사이트로 콘텐츠를 OneDrive SharePoint 합니다.
+      - Viva 항목의 이점을 강조 표시하여 사용자가 사이트에서 사이트로 콘텐츠를 OneDrive SharePoint 합니다.
 
 2. [커넥트 Microsoft Graph](#2-connect-information-to-microsoft-graph)
     - 향후에는 외부 콘텐츠를 지식 그래프로 가져와 사용할 수 있습니다.
@@ -73,7 +73,7 @@ Viva 항목을 계획하려면 다음을 해야 합니다.
 
 일부 콘텐츠를 마이그레이션할 수 없는 경우 Microsoft 365에 Graph.
 
-- 콘텐츠 커넥터를 [Graph 고려합니다.](/microsoftsearch/connectors-overview) 커넥터를 사용하여 외부 콘텐츠를 Microsoft Graph 인덱싱할 수 있습니다. 여기서 사용자는 Microsoft Search를 통해 외부 콘텐츠를 검색할 수 있습니다.
+- 콘텐츠 커넥터를 [Graph 고려합니다.](/microsoftsearch/connectors-overview) 커넥터를 사용하여 외부 콘텐츠를 Microsoft Graph 인덱싱할 수 있습니다. 여기서 사용자는 커넥터를 통해 검색할 수 Microsoft Search.
 - 향후 개발을 통해 외부 데이터를 Viva 항목으로 가져올 수 있습니다.
 
 ## <a name="3-modernize-sharepoint-pages"></a>3. 페이지 SharePoint 현대화
@@ -104,7 +104,7 @@ Viva 항목을 계획하려면 다음을 해야 합니다.
 
 사용 권한 외에도 항목을 통해 검색 가능한 항목의 범위를 제어할 수 있습니다. 인덱싱된 기능을 항상 제어할 수 있습니다.
 
-관리자는 관리 센터에서 인덱싱을 Microsoft 365 있습니다. 기술 관리를 설정할 [때 다음을](set-up-topic-experiences.md)할 수 있습니다.
+관리자는 관리 센터에서 인덱싱을 Microsoft 365 관리 있습니다. Viva 항목을 설정할 때 [다음을](set-up-topic-experiences.md)할 수 있습니다.
 
 - 모든 SharePoint 사이트에서 검색을 허용하거나 토픽 원본으로 포함 또는 제외할 사이트를 지정합니다.
 - 중요한 용어가 있는 경우 이름으로 토픽을 제외할 수 있습니다. 예를 들어 중요한 프로젝트 이름이 있는 경우 사용자의 사용 권한에 불구하고 강조 표시나 카드를 표시하지 않는 경우 해당 프로젝트 이름을 제외할 수 있습니다.
@@ -128,9 +128,9 @@ Viva 항목을 계획하려면 다음을 해야 합니다.
 | Viva 항목 설정 | 항목의 관리 및 품질 소유 | 전문 지식에 따라 항목에 기여합니다. |
 | 보안 및 규정 준수 표준이 적용되도록 보장하고 라이선스 계약을 이해합니다.| 항목 만들기, 편집, 삭제 및 거부와 같은 항목 관리 작업을 수행합니다. 작업과 함께 항목 참가자를 지원합니다. | 해당 항목에 고정된 사용자 및 리소스를 포함하여 항목 페이지의 정보 및 콘텐츠를 큐레이터로 제공합니다. |
 
-하이라이트 및 카드는 작업의 컨텍스트에서 사용자에게 표시됩니다(예: 사용자가 앱의 최신 페이지를 탐색할 때 SharePoint. 항목에 대한 최종 사용자 환경을 제어합니다.
+강조 및 카드는 작업 컨텍스트에서 사용자에게 표시됩니다. 예를 들어 사용자가 작업의 최신 페이지를 탐색할 때 SharePoint. 항목에 대한 최종 사용자 환경을 제어합니다.
 
-- Who 항목을 볼 수 있나요? 항목 표시 여부는 Microsoft 365 관리 센터에서 구성됩니다. 항목을 볼 수 있도록 허용할 그룹을 선택하십시오.
+- Who 항목을 볼 수 있나요? 항목 표시 여부는 Microsoft 365 관리 구성됩니다. 항목을 볼 수 있도록 허용할 그룹을 선택하십시오.
   - 조직의 모든 사람. "모든 사용자"는 게스트를 포함하지 않습니다. 디렉터리의 모든 내부 사용자입니다.
   - 선택한 사용자 또는 보안 그룹만(Viva 항목을 계속 롤아웃하는 동안 이 옵션은 좋은 옵션으로, 일부 사용자로 테스트할 수 있습니다). 게스트가 항목을 보게 하려는 경우 "선택한 사람 또는 보안 그룹" 옵션을 사용하여 라이선스를 부여해야 합니다.
   - 해당 사용자 없음.

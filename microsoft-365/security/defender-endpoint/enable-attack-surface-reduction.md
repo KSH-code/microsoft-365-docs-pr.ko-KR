@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 06/02/2021
-ms.openlocfilehash: 5bdb7ed46bdf01d4fb6075f310b98dcdb98a5a7f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b4040a60e59f3256b69f90d33af6f7543e50784e
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771924"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984799"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
 
@@ -37,8 +37,8 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 
 **요구 사항** 다음 버전 및 버전의 디바이스를 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 Windows.
 
-- Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 10 Pro K 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 10 Enterprise K 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
@@ -54,7 +54,7 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 > [!IMPORTANT]
 > 현재 MEM(2013)에서 ASR 규칙을 구성할 때 세 가지 ASR 규칙에 대해 경고 Microsoft Endpoint Manager 지원되지 않습니다. 자세한 내용은 경고 모드가 지원되지 [않는 경우를 참조합니다.](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)
 
-Windows E5 라이선스(또는 유사한 라이선스 SKU)와 함께 ASR 규칙을 사용하여 [끝점용 Microsoft Defender(Endpoint용 Defender)에서](microsoft-defender-endpoint.md) 사용할 수 있는 고급 모니터링 및 보고 기능을 활용하는 것이 좋습니다. 그러나 고급 모니터링 및 보고 기능을 포함하지 않는 Windows Professional 또는 Windows E3와 같은 다른 라이선스가 있는 경우 ASR 규칙이 트리거될 때 각 끝점에서 생성된 이벤트(예: 이벤트 전달) 위에 자체 모니터링 및 보고 도구를 개발할 수 있습니다.
+Windows E5 라이선스(또는 유사한 라이선스 SKU)와 함께 ASR 규칙을 사용하여 [끝점용 Microsoft Defender(Endpoint용 Defender)에서](microsoft-defender-endpoint.md) 사용할 수 있는 고급 모니터링 및 보고 기능을 활용하는 것이 좋습니다. 그러나 고급 모니터링 및 보고 기능을 포함하지 않는 Windows Professional 또는 Windows E3와 같은 다른 라이선스가 있는 경우 ASR 규칙이 트리거될 때 각 끝점에서 생성되는 이벤트(예: 이벤트 전달)에서 자체 모니터링 및 보고 도구를 개발할 수 있습니다.
 
 > [!TIP]
 > 라이선스 라이선스에 대한 Windows 자세한 내용은 [](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) Windows 10 라이선스를 참조하고 에 대한 볼륨 라이선스 [가이드를 Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
@@ -172,9 +172,9 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 >[!NOTE]
 > 충돌 처리:
-> 
+>
 > 디바이스에 두 가지 서로 다른 ASR 정책을 할당하는 경우 충돌이 처리되는 방법은 서로 다른 상태의 규칙이 할당되어 있으며, 충돌 관리가 없는 것이고 그 결과로 오류가 발생합니다.
-> 
+>
 > 충돌하지 않는 규칙은 오류를 발생하지 않습니다. 규칙이 올바르게 적용됩니다. 결과적으로 첫 번째 규칙이 적용되고 이후에 충돌하지 않는 규칙이 정책에 병합됩니다.
 
 ## <a name="mdm"></a>MDM
@@ -251,7 +251,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 > [!WARNING]
 > Intune, Configuration Manager 또는 다른 엔터프라이즈 수준의 관리 플랫폼을 사용하여 컴퓨터 및 장치를 관리하는 경우 관리 소프트웨어가 시작 시 충돌하는 PowerShell 설정을 덮어 덮어 덮어 습니다. 사용자가 PowerShell을 사용하여 값을 정의할 수 있도록 허용하기 위해 관리 플랫폼에서 규칙에 대해 "사용자 정의" 옵션을 사용합니다.
 
-1. 시작 **메뉴에 powershell을** 입력하고 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
+1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
 
 2. 다음 cmdlet을 입력합니다.
 

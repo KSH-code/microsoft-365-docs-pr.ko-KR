@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 도이치란드 Microsoft 클라우드의 마이그레이션과 관련된 클라우드 솔루션 공급자에 대한 추가 정보입니다.'
-ms.openlocfilehash: 7a7c377d8e0b72a0179ff28a93018f88d22a5325
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 843552c55acba57c5c2da4a1a885d65cb4e59d84
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52931056"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984919"
 ---
 # <a name="additional-information-for-cloud-solution-providers"></a>클라우드 솔루션 공급자에 대한 추가 정보
 
@@ -37,6 +37,6 @@ CSP 고객 테넌트는 새 독일 데이터 센터 지역으로 마이그레이
 
 ## <a name="missing-subscriptions-in-azure"></a>Azure에서 구독 누락
 
-구독 [및 라이선스 전환(3단계)이](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization) 완료된 후 클라우드 솔루션 공급자는 더 이상 Azure 구독에 액세스할 수 없습니다.
+구독 [및 라이선스 전환(3단계)이](ms-cloud-germany-transition-phases.md#phase-3-subscription-transfer) 완료된 후 클라우드 솔루션 공급자는 더 이상 Azure 구독에 액세스할 수 없습니다.
 
 액세스를 복구하려면 다음 단계에 따라 모든 Azure 구독 및 관리 그룹을 관리하기 위한 액세스 권한을 [상승합니다.](/azure/role-based-access-control/elevate-access-global-admin)
