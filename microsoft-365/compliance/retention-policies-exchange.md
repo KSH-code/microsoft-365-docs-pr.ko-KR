@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Exchange에서 보존의 작동 방식을 알아봅니다.
-ms.openlocfilehash: efb95b22355bff292ef63c77fb77fb5a15d66722
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 29a07ca9c819939c32f9ec13205a821a45e03883
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861134"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985435"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Exchange의 보존에 대해 자세히 알아보기
 
@@ -34,7 +34,7 @@ Exchange에 관한 정보를 담고 있으므로 이 문서의 정보는 [보존
 
 ## <a name="whats-included-for-retention-and-deletion"></a>보존 및 삭제에 포함된 항목
 
-보존 정책 및 보존 레이블을 사용하여 다음 Exchange 항목을 보존 및 삭제할 수 있습니다.: 첨부 파일이 있는 메일 메시지(초안 포함), 종료 날짜와 노트가 있는 작업 
+보존 정책 및 보존 레이블을 사용하여 사용자 사서함 및 공유 사서함의 다음 Exchange 항목을 보존 및 삭제할 수 있습니다. 첨부 파일이 있는 메일 메시지(받은 메시지, 초안, 보낸 메시지 포함), 종료 날짜와 노트가 있는 작업 
 
 종료 날짜가 있는 일정 항목은 보존 정책에서 지원되지만 보존 레이블에는 지원되지 않습니다.
 

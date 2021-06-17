@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 회사 로고 또는 색에 맞게 Microsoft 365 모음 위쪽의 기본 테마를 변경하는 방법을 알아보고 사용자 지정합니다.
-ms.openlocfilehash: 130fda016961433342969c90e309e7d8b6a7051f
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 908a815346485066b7208d0ff791db813540485f
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908164"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998803"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직의 Microsoft 365 테마 사용자 지정
 
@@ -82,16 +82,13 @@ You can add or update a default theme that applies to everyone within your org. 
 
 로고 **페이지에서** 로고를 추가하고 사용자가 로고를 선택할 때 이동할 URL을 지정할 수 있습니다.
 
-- **기본 로고:** 로고를 지정하는 URL 위치를 추가합니다. URL에서 HTTPS를 사용하는지 확인합니다. 로고를 업로드하는 경우 10kb 미만인지 확인 기본 로고는 JPG, PNG, GIF 또는 SVG 형식일 수 있습니다. SVG 이미지의 경우 세로로 24픽셀에 맞게 크기 조정됩니다. JPG, PNG, GIF 이미지는 200 x 48픽셀에 맞게 조정됩니다.
+- **기본 로고:** 로고를 지정하는 URL 위치를 추가합니다. URL에서 HTTPS를 사용하는지 확인합니다. 익명 액세스를 허용하고 인증이 필요하지 않은 HTTPS 이미지 URL을 추가합니다. 기본 테마의 경우 10kb 미만의 로고 이미지를 업로드하는 옵션도 있습니다. 기본 로고는 JPG, PNG, GIF 또는 SVG 형식일 수 있습니다. SVG 이미지의 경우 세로로 24픽셀에 맞게 크기 조정됩니다. JPG, PNG, GIF 이미지는 200 x 48픽셀에 맞게 조정됩니다. 로고의 측면 비율은 항상 유지됩니다.
 - **대체 로고:** 로고를 지정하는 URL 위치를 추가합니다. 대체 로고는 어두운 테마에서 Office 최적화해야 합니다. 기본 로고와 동일한 요구 사항
 - **On-click link:** Add a URL location that points to your logo. 로고를 회사 웹 사이트와 같은 회사 리소스에 대한 링크로 사용할 수 있습니다.
 
 **저장** 을 선택하여 변경 내용을 저장합니다.
 
 로고는 어떤 경우든 제거할 수 있습니다. 로고 **페이지로 돌아가서** 제거를 **선택합니다.**
-
-> [!NOTE]
-> 기본적으로 대부분의 조직에서 사용하는 로고 선택이 먼저 표시됩니다. 업로드 옵션은 그룹 테마가 아닌 기본 테마에만 적용할 수 있습니다.
   
 ## <a name="colors-choose-theme-colors"></a>색: 테마 색 선택
 
@@ -105,7 +102,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 :::image type="content" source="../../media/default-theme-colors.png" alt-text="Screenshot: Colors tab showing default theme colors for your organization":::
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="my-organization-already-has-a-theme-for-all-employees-how-will-this-change"></a>조직에 이미 모든 직원에 대한 테마가 있습니다. 이 변경은 어떻게 될까요?
 
@@ -140,7 +137,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 ### <a name="why-am-i-receiving-an-error-message-every-time-i-uploadalogo-url"></a>로고 URL을 업로드할 때마다 오류 메시지가 수신되는 이유입니다.  
 
-사용하는 로고가 공개 주소 지정 가능 URL로 지정되어 있는지 확인합니다. [Azure Blob](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) Storage 또는 Office 365 Content Delivery Network Online에 로고를 SharePoint [단계를 따르세요.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
+사용하는 로고가 공개 주소 지정 가능 URL로 지정되어 있는지 확인합니다. [Azure Blob](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) 저장소 또는 Office 365 콘텐츠 배달 네트워크 Online에 로고를 SharePoint [단계를 따르세요.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
 
 ### <a name="why-am-i-receiving-themessagedoesnt-meet-minimum-color-contrast-ratio-of-451"></a>"4.5:1의 최소 색 명암비를 충족하지 않습니다."라는 메시지가 수신된 이유는 무엇입니까?
 

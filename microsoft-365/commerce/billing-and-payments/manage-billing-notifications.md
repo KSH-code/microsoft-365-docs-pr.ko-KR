@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: 청구 알림 전자 메일 및 송장 첨부 파일을 받는 사람 관리 방법에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 75c75175930434619a01886b1096757bf04111c5
-ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
+ms.openlocfilehash: a0c7de8638a227d432ff2c5a0d4839fa8f66582c
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52888364"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998767"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>청구 알림 및 송장 첨부 파일 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "52888364"
 
 청구 알림 전자 메일은 조직의 기본 설정 언어로 전송됩니다. 기본 언어를 변경하기 위해 다음 단계를 수행합니다.
 
-1. Microsoft 365 관리 센터에서 청구 청구 알림   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">페이지로</a> 이동합니다.
+1. In the Microsoft 365 관리 센터, go to the   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Billing Billing notifications</a> page.
 2. 청구 **알림 설정 섹션에서** 알림 설정 **편집을 선택합니다.**
 3. 청구 **알림 설정** 창의 기본  설정에서 사용할 언어를 선택한 다음 저장을 **선택합니다.**
 
@@ -88,9 +88,6 @@ ms.locfileid: "52888364"
 
 ## <a name="receive-your-organizations-invoices-as-email-attachments"></a>전자 메일 첨부 파일로 조직의 송장 받기
 
-> [!NOTE]
-> 청구 관리자는 이 섹션의 단계를 수행 할 수도 있습니다.
-
 새 송장이 준비되면 조직의 송장 복사본을 PDF 파일로 송장 알림 전자 메일에 첨부할 수 있습니다. 다음 단계에 따라 송장을 첨부 파일로 수신합니다.
 
 1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
@@ -130,6 +127,6 @@ To stop receiving the invoice attachment at any time, follow the steps above and
 ## <a name="related-content"></a>관련 콘텐츠
 
 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)(문서)\
-[멕시코의 비즈니스용 Microsoft 365 대금](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) 청구 정보(문서) \
+[멕시코 비즈니스용 Microsoft 365 청구 정보](/microsoft-365/commerce/billing-and-payments/mexico-billing-info)(문서) \
 [비즈니스용 Microsoft 365 청구서](understand-your-invoice2.md) 또는 송장 이해(문서)\
 [사용자 추가 및](../../admin/add-users/add-users.md) 동시에 라이선스 할당(문서)

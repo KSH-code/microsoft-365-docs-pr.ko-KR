@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1f189956d65e6d08d8e00272ba0d8db3ba59f6d4
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 388d71ce4606acabaafdb32ba1baff87286951f1
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844083"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998791"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -82,7 +82,7 @@ ms.locfileid: "52844083"
 
 1. 중지하고 검사할 파일을 선택합니다. 다음 보기에서 파일을 선택하거나 검색 상자를 사용할 수 있습니다.
 
-   - **경고** - 아티팩트 타임라인의 설명 또는 세부 정보에서 해당 링크를 클릭합니다.
+   - **경고** - 경고 스토리 타임라인의 설명 또는 세부 정보에서 해당 링크를 클릭합니다.
    - **검색 상자** - **드롭다운** 메뉴에서 파일을 선택하고 파일 이름을 입력합니다.
 
    > [!NOTE]
@@ -128,14 +128,14 @@ ms.locfileid: "52844083"
 
 2. 다음 명령을 입력하고 **Enter를 누를 수 있습니다.**
 
-   ```powershell
+   ```console
    “%ProgramFiles%\Windows Defender\MpCmdRun.exe” –Restore –Name EUS:Win32/CustomEnterpriseBlock –All
    ```
 
-> [!NOTE]
-> 일부 시나리오에서는 **ThreatName이** EUS:Win32/CustomEnterpriseBlock!cl과 같은 것으로 나타날 수 있습니다.
->
-> Endpoint용 Defender는 지난 30일 동안 이 장치에서 차단된 모든 사용자 지정 차단 파일을 복원합니다.
+   > [!NOTE]
+   > 일부 시나리오에서는 **ThreatName이** EUS:Win32/CustomEnterpriseBlock!cl과 같은 것으로 나타날 수 있습니다.
+   >
+   > Endpoint용 Defender는 지난 30일 동안 이 장치에서 차단된 모든 사용자 지정 차단 파일을 복원합니다.
 
 > [!IMPORTANT]
 > 잠재적인 네트워크 위협으로 고지된 파일은 복구할 수 없습니다. 사용자가 파일을 검지 후에 복원하려고 시도하면 해당 파일에 액세스할 수 없습니다. 시스템에 파일에 액세스하기 위한 네트워크 자격 증명이 더 이상 필요하기 때문일 수 있습니다. 일반적으로 시스템 또는 공유 폴더에 일시적으로 로그온하고 액세스 토큰이 만료된 결과입니다.
@@ -234,15 +234,13 @@ ms.locfileid: "52844083"
 > [!NOTE]
 > Microsoft 보안 센터 포털의 백 엔드 처리 흐름으로 인해 파일 전송과 Endpoint용 Defender의 심층 분석 기능 가용성 사이에 최대 10분이 지연될 수 있습니다.
 
-샘플이 수집될 때 Defender for Endpoint는 안전한 환경에서 파일을 실행합니다. 그런 다음 관찰된 동작 및 관련 아티팩트(예: 장치에 삭제된 파일, IP와의 통신 및 레지스트리 수정)에 대한 자세한 보고서를 만듭니다.
-
 ### <a name="submit-files-for-deep-analysis"></a>심층 분석을 위한 파일 제출
 
 1. 심층 분석을 위해 제출할 파일을 선택합니다. 다음 보기에서 파일을 선택하거나 검색할 수 있습니다.
 
-    - 경고 - 아티팩트 타임라인의 **설명** 또는 **세부 정보에서** 파일 링크 선택
+    - **경고** - 경고 스토리 타임라인의 **설명** 또는 **세부 정보에서** 파일 링크를 선택합니다.
     - **장치 목록** - 조직 내  장치 섹션의 설명 또는 세부 정보 섹션에서 **파일** 링크 **선택**
-    - 검색 상자 - **드롭다운** 메뉴에서 파일을 선택하고 파일 이름을 입력합니다.
+    - **검색 상자** - **드롭다운** 메뉴에서 파일을 선택하고 파일 이름을 입력합니다.
 
 2. 파일 **보기의** 심층 분석 탭에서 제출을 **선택합니다.**
 
@@ -251,7 +249,7 @@ ms.locfileid: "52844083"
    > [!NOTE]
    > PE 파일만 _지원됩니다(파일_ 및.exe _.dll_ 포함).
 
-진행률 표시줄이 표시되고 다양한 분석 단계에 대한 정보를 제공합니다. 그런 다음 분석이 완료되면 보고서를 볼 수 있습니다.
+   진행률 표시줄이 표시되고 다양한 분석 단계에 대한 정보를 제공합니다. 그런 다음 분석이 완료되면 보고서를 볼 수 있습니다.
 
 > [!NOTE]
 > 디바이스 가용성에 따라 샘플 수집 시간이 다를 수 있습니다. 샘플 수집에는 3시간의 시간 제한이 있습니다. 이때 장치 보고를 위해 온라인 Windows 10 컬렉션이 실패하고 작업이 다시 표시됩니다. 심층 분석을 위해 파일을 다시 제출하여 파일에 대한 새 데이터를 얻을 수 있습니다.
@@ -277,11 +275,14 @@ ms.locfileid: "52844083"
 파일을 제출할 때 문제가 발생하면 다음 문제 해결 단계를 각각 시도해 하세요.
 
 1. 해당 파일이 PE 파일인지 확인 PE 파일에는 일반적으로 _.exe_ 또는.dll확장명(실행 프로그램 또는 응용 프로그램)이 있습니다. 
+
 2. 서비스에 파일에 대한 액세스 권한이 있으며, 파일이 여전히 존재하며, 손상되거나 수정되지 않은지 확인
+
 3. 잠시 기다렸다가 파일을 다시 제출합니다. 큐가 가득 차거나 일시적인 연결 또는 통신 오류가 발생했습니다.
+
 4. 샘플 수집 정책이 구성되지 않은 경우 기본 동작은 샘플 수집을 허용하는 것입니다. 구성된 경우 파일을 다시 제출하기 전에 정책 설정에서 샘플 수집을 허용하는지 확인해야 합니다. 샘플 컬렉션이 구성되면 다음 레지스트리 값을 검사합니다.
 
-    ```powershell
+    ```console
     Path: HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection
     Name: AllowSampleCollection
     Type: DWORD
@@ -291,6 +292,7 @@ ms.locfileid: "52844083"
     ```
 
 1. 그룹 정책을 통해 조직 구성 단위를 변경합니다. 자세한 내용은 [그룹 정책으로 구성을 참조하세요.](configure-endpoints-gp.md)
+
 1. 이러한 단계로 문제가 해결되지 않으면 에 [winatp@microsoft.com.](mailto:winatp@microsoft.com)
 
 ## <a name="related-topics"></a>관련 항목

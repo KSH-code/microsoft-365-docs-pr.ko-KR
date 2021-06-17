@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Adm_O365
 ms.custom:
@@ -18,17 +18,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 비즈니스 구독에서 관리자 도움말 또는 온라인 또는 전화 지원을 받을 수 있도록 비즈니스 구독의 관리자 Microsoft 365 Business Premium.
-ms.openlocfilehash: e1250d5c291832e5a337f34e49ce0b7cf68fb08d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
-ms.translationtype: MT
+description: Microsoft 365 Business Premium에서 관리자 도움말 또는 온라인 또는 전화 지원을 받으려면 비즈니스 구독의 관리자여야 합니다.
+ms.openlocfilehash: 254e01894f430bdf6a8f666d1425af8705968647
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635905"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984751"
 ---
 # <a name="get-support"></a>지원 받기
 
-## <a name="watch-get-help-or-support"></a>시청: 도움말 또는 지원하기 
+## <a name="watch-get-help-or-support"></a>시청: 도움말 또는 지원 받기 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
 
@@ -258,6 +258,6 @@ Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[문서 및 교육](find-help-answers.md) 찾기(문서)\
-[직원 빠른](employee-quick-setup.md) 설정(문서)\
-[설치 Microsoft 365 Business Premium](setup-overview.md) 개요(동영상)
+[설명서 및 교육 찾기](find-help-answers.md)(문서)\
+[직원 빠른 설정](employee-quick-setup.md)(문서)\
+[Microsoft 365 Business Premium 설정 개요](setup-overview.md)(비디오)

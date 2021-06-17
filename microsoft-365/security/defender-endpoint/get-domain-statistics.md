@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: d2edc5d429d124412134b466753b65506d2dd7a9
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 50b05b98ba507e120bbd6a3dc09f4633dac3a005
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772188"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998779"
 ---
 # <a name="get-domain-statistics-api"></a>도메인 통계 얻기 API
 
@@ -65,7 +65,7 @@ GET /api/domains/{domain}/stats
 
 ## <a name="request-headers"></a>요청 헤더
 
-머리글 | 값 
+헤더 | 값 
 :---|:---
 권한 부여 | Bearer {token}. **필수입니다**.
 
@@ -101,7 +101,7 @@ GET https://api.securitycenter.microsoft.com/api/domains/example.com/stats?lookB
 {
     "@odata.context": "https://api.securitycenter.microsoft.com/api/$metadata#microsoft.windowsDefenderATP.api.InOrgDomainStats",
     "host": "example.com",
-    "orgPrevalence": "4070",
+    "organizationPrevalence": 4070,
     "orgFirstSeen": "2017-07-30T13:23:48Z",
     "orgLastSeen": "2017-08-29T13:09:05Z"
 }
