@@ -12,15 +12,15 @@ ms.author: deniseb
 ms.reviewer: marcmcc
 manager: dansimp
 ms.custom: nextgen
-ms.date: 06/15/2021
+ms.date: 06/17/2021
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 3a5f766e21afcb29d3503345a49637061b5f0e38
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: a6bcc023571e544819ae7f276e6c3af5c1fc1335
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964703"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007404"
 ---
 # <a name="turn-on-block-at-first-sight"></a>즉각적 차단 켜기
 
@@ -82,7 +82,7 @@ Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사
    - **클라우드에서 파일을 검사하는 시간 확장**: 50
    - **샘플 제출 전 사용자에게 메시지 표시**: 묻지 않고 모든 데이터 보내기
 
-   ![Intune 구성](images/defender/intune-block-at-first-sight.png)
+   :::image type="content" source="../../media/intune-block-at-first-sight.png" alt-text="즉각적 Intune 구성 블록":::
 
 4. 설정을 저장합니다.
 
@@ -136,7 +136,7 @@ Windows 보안 앱을 사용하는 개별 클라이언트 장치에 즉각적 �
 
 2. **바이러스 및 위협 방지** 를 선택한 다음 **바이러스 및 위협 방지 설정** 에서 **설정 관리** 를 선택합니다.
 
-   ![Windows 보안 앱의 바이러스 및 위협 방지 설정 레이블 스크린샷](images/defender/wdav-protection-settings-wdsc.png)
+   :::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="Windows 보안 앱의 바이러스 및 위협 방지 설정 레이블 스크린샷":::
 
 3. **클라우드 제공 보호** 및 **자동 샘플 제출** 이 모두 켜져있는지 확인합니다.
 
