@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 09/28/2020
+ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ec3dd2edc09d504af0ed76b17577130b1cdce1b7
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: bc7c84e089b08c440512f8a8bf7583f41394f2ca
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275375"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007642"
 ---
 # <a name="review-microsoft-defender-antivirus-scan-results"></a>검사 Microsoft Defender 바이러스 백신 검토
 
@@ -47,7 +47,7 @@ ms.locfileid: "52275375"
 Get-MpThreatDetection
 ```
 
-![PowerShell cmdlet 및 출력 스크린샷](images/defender/wdav-get-mpthreatdetection.png)
+:::image type="content" source="../../media/wdav-get-mpthreatdetection.png" alt-text="PowerShell cmdlet 및 출력 스크린샷":::
 
 특정 위협에 대한 검색만 표시하도록 출력을 `-ThreatID` 제한하도록 지정할 수 있습니다.
 
@@ -57,7 +57,7 @@ Get-MpThreatDetection
 Get-MpThreat
 ```
 
-![PowerShell 스크린샷](images/defender/wdav-get-mpthreat.png)
+:::image type="content" source="../../media/wdav-get-mpthreat.png" alt-text="PowerShell 코드":::
 
 PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 [Defender cmdlet을](/powershell/module/defender/) 구성하고 실행을 Microsoft Defender 바이러스 백신.
 

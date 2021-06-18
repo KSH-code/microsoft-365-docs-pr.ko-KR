@@ -10,17 +10,17 @@ localization_priority: normal
 ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
-ms.date: 05/18/2021
+ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: e7b7a0ba5c301829633c27f3add8f7f7daa70dfd
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 694c09c5136f874550fa4a47586f3268ee2d0833
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924710"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007188"
 ---
 # <a name="turn-on-cloud-delivered-protection"></a>클라우드 제공 보호 켜기
 
@@ -146,7 +146,7 @@ SubmitSamplesConsent
 
 2. 바이러스 & **위협** 방지 타일(또는 왼쪽 메뉴 표시줄의 방패 아이콘)을 선택한 다음 바이러스 & **보호 설정 레이블을** 선택합니다.
 
-    ![Windows 보안 앱의 바이러스 및 위협 방지 설정 레이블 스크린샷](images/defender/wdav-protection-settings-wdsc.png)
+    :::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="바이러스 및 위협 방지 & 스크린샷":::
 
 3. 클라우드 **기반** 보호 및  자동 샘플 제출이 켜기 로 전환된지 **확인**
 

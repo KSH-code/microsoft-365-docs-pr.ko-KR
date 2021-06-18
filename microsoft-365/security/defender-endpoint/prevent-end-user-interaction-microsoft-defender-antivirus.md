@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 06ee2f1cb68df0a957818e1fccb45628487c39fd
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ff0e134d38288b12cbc46dc3ca5f103fbf8c7ad9
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274919"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007678"
 ---
 # <a name="prevent-users-from-seeing-or-interacting-with-the-microsoft-defender-antivirus-user-interface"></a>사용자가 사용자 인터페이스를 보거나 상호 작용하지 Microsoft Defender 바이러스 백신 방지
 
@@ -40,18 +40,18 @@ Windows 10 버전 1703에서는 인터페이스를 숨기면 Microsoft Defender 
 
 설정이 **사용으로** 설정된 경우 :
 
-![방패 Windows 보안 및 바이러스 및 위협 방지 섹션이 없는 경우의 스크린샷](images/defender/wdav-headless-mode-1703.png)
+:::image type="content" source="../../media/wdav-headless-mode-1703.png" alt-text="Windows 보안 아이콘 및 바이러스 및 위협 방지 섹션이 없는 경우":::
 
 설정이 사용 안 하도록 **설정되거나** 구성되지 않은 경우:
 
-![방패 Windows 보안 및 바이러스 및 위협 방지 섹션을 보여주는 스크린샷](images/defender/wdav-headless-mode-off-1703.png)
+:::image type="content" source="../../media/wdav-headless-mode-1703.png" alt-text="방패 Windows 보안 및 위협 방지 섹션이 있는 스크린샷":::
 
 >[!NOTE]
 >또한 인터페이스를 숨기면 Microsoft Defender 바이러스 백신 끝점에 알림이 나타나지 않습니다. 끝점용 Microsoft Defender 알림이 계속 표시됩니다. 끝점에 나타나는 알림을 개별적으로 [구성할 수도 있습니다.](configure-notifications-microsoft-defender-antivirus.md)
 
 이전 버전의 Windows 10 클라이언트 인터페이스가 Windows Defender 숨겨지게 됩니다. 사용자가 앱을 열려고 하면 "시스템 관리자가 이 앱에 대한 액세스를 제한했습니다."라는 경고가 표시됩니다.
 
-![1703 이전 버전에서 헤드리스 모드를 Windows 10 경고 메시지](images/defender/wdav-headless-mode-1607.png)
+:::image type="content" source="../../media/wdav-headless-mode-1607.png" alt-text="1703 이전 버전에서 헤드리스 모드를 Windows 10 경고 메시지":::
 
 ## <a name="use-group-policy-to-hide-the-microsoft-defender-av-interface-from-users"></a>그룹 정책을 사용하여 사용자로부터 Microsoft Defender AV 인터페이스 숨기기
 

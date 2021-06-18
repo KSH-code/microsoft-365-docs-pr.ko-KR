@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 389d9ad4a3e5fc876e7bded89389202e95bfda45
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 248e08913e6210fabed26955a1015533e055dcb6
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879123"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007072"
 ---
 # <a name="live-response-command-examples"></a>실시간 대응 명령 예제
 
@@ -118,6 +118,18 @@ getfile c:\Users\user\Desktop\work.txt -auto
 > 이러한 파일 **형식은** [PowerShell에서 지원됩니다.](/powershell/scripting/overview?view=powershell-6/?&preserve-view=true)
 >
 > Live Response 내에서 이 명령을 사용하는 데 문제가 있는 경우 PowerShell을 대신 사용할 수 있습니다.
+
+## <a name="library"></a>library
+
+```console
+# List files in the library
+library
+```
+
+```console
+# Delete a file from the library
+library delete script.ps1
+```
 
 ## <a name="processes"></a>프로세스
 ```console
@@ -238,15 +250,3 @@ undo scheduledtask Microsoft\Windows\Subscription\LicenseAcquisition
 undo file c:\Users\user\Desktop\malware.exe
 ```
 
-
-## <a name="library"></a>library
-
-```console
-# List files in the library
-library
-```
-
-```console
-# Delete a file from the library
-library delete script.ps1
-```

@@ -14,23 +14,21 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 71df43639a719acb9436f64deba6b6c5cc9317f5
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 386e4499fec30bf1c564c1e0dc81cb8aaa5912a5
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924282"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007529"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
-
-
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 > [!IMPORTANT]
-> Microsoft Defender 바이러스 백신 끝점 감지 및 응답(EDR), [ASR(공격](/microsoft-365/security/defender-endpoint/attack-surface-reduction)표면 축소) 규칙 및 제어된 폴더 액세스 등 다른 Microsoft Defender for [Endpoint](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)기능에는 제외가 적용되지 [않습니다.](/microsoft-365/security/defender-endpoint/controlled-folders) 이 문서에 설명된 방법을 사용하여 제외하는 파일은 경고 및 기타 EDR 트리거할 수 있습니다. 파일을 광범위하게 제외하려면 끝점 사용자 지정 표시기용 Microsoft [Defender에 추가합니다.](/microsoft-365/security/defender-endpoint/manage-indicators)
+> Microsoft Defender 바이러스 백신 제외는 엔드포인트 감지 및 응답(EDR), [ASR(공격](/microsoft-365/security/defender-endpoint/attack-surface-reduction)표면 축소) 규칙 및 제어된 폴더 액세스 등 다른 Microsoft Defender for [Endpoint](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)기능에 적용되지 [않습니다.](/microsoft-365/security/defender-endpoint/controlled-folders) 이 문서에 설명된 방법을 사용하여 제외하는 파일은 경고 및 기타 EDR 트리거할 수 있습니다. 파일을 광범위하게 제외하려면 끝점 사용자 지정 표시기용 Microsoft [Defender에 추가합니다.](/microsoft-365/security/defender-endpoint/manage-indicators)
 
 ## <a name="exclusion-lists"></a>제외 목록
 
@@ -44,7 +42,7 @@ ms.locfileid: "52924282"
 
 이 문서에서는 파일 및 폴더에 대한 제외 목록을 구성하는 방법을 설명합니다. 제외 [권장 사항](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) 정의하기 전에 제외를 정의하는 방법을 참조하세요.
 
-| 제외 | 예제 | 제외 목록 |
+| 제외 | 예 | 제외 목록 |
 |:---|:---|:---|
 |특정 확장명을 사용 하는 모든 파일 | 지정된 확장명을 사용 하는 모든 파일, 컴퓨터의 아무 곳이나. <p> 유효한 구문: `.test` 및 `test`  | 확장 제외 |
 |특정 폴더 아래에 있는 모든 파일 | 폴더 아래에 있는 `c:\test\sample` 모든 파일 | 파일 및 폴더 제외 |
@@ -185,7 +183,7 @@ ExclusionPath
 다음 표에서는 와일드카드를 사용하는 방법을 설명하고 몇 가지 예를 제공합니다.
 
 
-|와일드카드  |예제  |
+|와일드카드  |예  |
 |:---------|:---------|
 |`*` (asterisk) <p> 파일 **이름** 및 파일 확장명 포함에서, 추가 기능은 모든 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서는** 단일 폴더를 대체하는 추가 표시가 됩니다. 여러 개의 폴더 슬래시를 사용하여 여러 개의 `*` `\` 중첩된 폴더를 나타냅니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.   | `C:\MyData\*.txt` 포함 `C:\MyData\notes.txt` <p> `C:\somepath\*\Data` 파일 및 해당 하위폴더와 해당 하위폴더를 `C:\somepath\Archives\Data` `C:\somepath\Authorized\Data` 포함합니다. <p> `C:\Serv\*\*\Backup` 파일 및 해당 하위폴더와 해당 `C:\Serv\Primary\Denied\Backup` `C:\Serv\Secondary\Allowed\Backup` 하위폴더를 포함합니다.     |
 |`?` (물음표)  <p> 파일 **이름** 및 파일 확장명 포함에서 물음표는 단일 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서** 물음표는 폴더 이름의 단일 문자를 대체합니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.   |`C:\MyData\my?.zip` 포함 `C:\MyData\my1.zip` <p> `C:\somepath\?\Data` 모든 파일 포함 및 해당 `C:\somepath\P\Data` 하위폴더  <p> `C:\somepath\test0?\Data` 은 모든 파일과 해당 `C:\somepath\test01\Data` 하위폴더를 포함합니다.          |
@@ -310,7 +308,7 @@ Get-MpPreference
 
 다음 예제에서는 목록에 포함된 항목이 `ExclusionExtension` 강조 표시됩니다.
 
-![다른 기본 설정과 함께 Get-MpPreference 목록을 표시하는 PowerShell 출력](images/defender/wdav-powershell-get-exclusions-all.png)
+:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="Get-MpPreference에 대한 PowerShell 출력":::
 
 자세한 내용은 [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)과 [Defender cmdlet](/powershell/module/defender/)을 참조하세요.
 
@@ -326,7 +324,7 @@ $WDAVprefs.ExclusionPath
 
 다음 예제에서는 cmdlet을 사용할 때마다 목록을 새 `Add-MpPreference` 줄로 분할합니다.
 
-![제외 목록의 항목만 표시하는 PowerShell 출력](images/defender/wdav-powershell-get-exclusions-variable.png)
+:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="제외 목록의 항목만 표시하는 PowerShell 출력":::
 
 자세한 내용은 [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)과 [Defender cmdlet](/powershell/module/defender/)을 참조하세요.
 

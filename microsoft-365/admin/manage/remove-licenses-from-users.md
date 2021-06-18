@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 제품 라이선스를 지정하지 않는 데 사용하는 방법은 특정 사용자로부터 라이선스를 지정하지 않는지 또는 특정 제품의 라이선스를 지정하지 않는지 여부에 따라 결정됩니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: f7624432590a5731b57c45c25e7e7dc458a5b8f5
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f79ffecc22fe4531076ccacd83c25e44b81052a6
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623592"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53006976"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 
@@ -117,14 +117,14 @@ ms.locfileid: "52623592"
 ::: moniker-end
 
 2. 라이선스를 배포할 사용자의 이름 옆에 있는 원을 선택합니다.
-3. 맨 위에 있는 3개의 점(추가 작업)을 선택한 다음 **제품 라이선스 관리** 를 선택합니다.
-4. **제품 라이선스 관리** 창에서 **기존 제품 라이선스 할당 바꾸기** \> **다음** 을 선택합니다.
-5. 기존 제품 바꾸기 창의 아래쪽에서  선택한 사용자에서 모든 제품 라이선스 제거 확인란을 선택한 다음 **바꾸기 닫기를**  \> **선택합니다.**
+3. At the top, select **Manage product licenses**.
+4. 제품 **라이선스 관리 창에서** 모든 저장 변경 **내용에** 대한 사용 안  >  **을 선택합니다.**
+5. 창 아래쪽에서 완료 를 **선택합니다.**  
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>라이선스를 제거하면 사용자의 데이터가 어떻게 하나요?
 
 - 사용자에서 라이선스가 제거되면 해당 Exchange 연결된 온라인 데이터는 30일 동안 저장됩니다. 30일의 유예 기간이 경과하면 데이터가 삭제되고 복구할 수 없습니다.
-- 사용자가 비즈니스용 OneDrive 관리 센터에서 삭제되거나 Active Directory 동기화를 통해 제거되지 않는 한 Microsoft 365 파일을 삭제하지 않습니다. 자세한 내용은 보존 [및 OneDrive 참조하세요.](/onedrive/retention-and-deletion)
+- 사용자가 비즈니스용 OneDrive Active Directory 동기화를 통해 제거되지 않으면 Microsoft 365 관리 센터 파일이 삭제되지 않습니다. 자세한 내용은 보존 [및 OneDrive 참조하세요.](/onedrive/retention-and-deletion)
 - 라이선스가 제거되면 콘텐츠 검색 또는 검색과 같은 eDiscovery 도구를 사용하여 사용자의 사서함을 더 이상 검색할 수 Advanced eDiscovery. 자세한 내용은 에서 콘텐츠 검색의 "연결이 끊어지거나 라이선스가 해제된 사서함 [검색"을 Microsoft 365.](../../compliance/content-search.md)
 - E3와 같은 Enterprise Office 365 Enterprise 구독이 있는 경우 Exchange Online 비활성 사서함을 사용하여 삭제된 사용자 계정의 사서함 데이터를 보존할 [수 있습니다.](../../compliance/inactive-mailboxes-in-office-365.md) 자세한 내용은 [에서 비활성 사서함](../../compliance/create-and-manage-inactive-mailboxes.md)만들기 및 관리를 Exchange Online.
 - 라이선스가 제거된 후 사용자의 Microsoft 365 액세스를 차단하는 방법과 그 이후에 데이터에 액세스하는 방법에 대한 자세한 내용은 이전 직원 [제거를 참조합니다.](../add-users/remove-former-employee.md)

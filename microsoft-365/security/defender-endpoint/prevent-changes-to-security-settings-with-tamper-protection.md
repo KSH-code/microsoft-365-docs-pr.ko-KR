@@ -1,6 +1,6 @@
 ---
 title: 무단 보호를 사용하여 보안 설정 보호
-ms.reviewer: shwjha, hayhov
+ms.reviewer: pahuijbr, hayhov, oogunrinde
 manager: dansimp
 description: 변조 방지를 사용하여 악성 앱이 중요한 보안 설정을 변경하지 못하게 합니다.
 keywords: 맬웨어, defender, 바이러스 백신, 변조 방지
@@ -16,13 +16,13 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.date: 05/17/2021
-ms.openlocfilehash: f6217cccf79b951c3103e1024ac74669d68645cd
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.date: 06/17/2021
+ms.openlocfilehash: 7050a1588b71ac106d5364f29c76d379072e9511
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925938"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007420"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -58,7 +58,7 @@ ms.locfileid: "52925938"
 - PowerShell cmdlet을 통해 설정 변경
 - 그룹 정책을 통해 보안 설정 편집 또는 제거
 
-변조 방지는 보안 설정을 볼 수 있도록 방지하지 않습니다. 또한 변조 방지는 타사 바이러스 백신 앱이 앱에 등록되는 Windows 보안 영향을 주지 않습니다. 조직에서 E5를 Windows 10 Enterprise 경우 개별 사용자는 변조 보호 설정을 변경할 수 없습니다. 이러한 경우 변조 보호는 보안 팀에서 관리합니다.
+변조 방지는 보안 설정을 볼 수 있도록 방지하지 않습니다. 또한 변조 방지는 타사 바이러스 백신 앱이 앱에 등록되는 Windows 보안 영향을 주지 않습니다. 조직에서 E5를 Windows 10 Enterprise K 경우 개별 사용자는 변조 보호 설정을 변경할 수 없습니다. 이러한 경우 변조 보호는 보안 팀에서 관리합니다.
 
 ### <a name="what-do-you-want-to-do"></a>무슨 작업을 하고 싶으십니까?
 
@@ -80,8 +80,8 @@ ms.locfileid: "52925938"
 |:----|:----|
 | Microsoft Intune  | 아니요 |
 | Microsoft Endpoint Configuration Manager + 테넌트 첨부  |     아니요  |
-| Microsoft Defender 보안 센터( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     예 |
-| Microsoft 365 보안 센터( [https://security.microsoft.com](https://security.microsoft.com) )  |     예  |
+| Microsoft Defender 보안 센터( [https://securitycenter.windows.com](https://securitycenter.windows.com) )    |     예 |
+| Microsoft 365 Defender 포털( [https://security.microsoft.com](https://security.microsoft.com) )  |     예  |
 
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>조직에 대한 변조 방지를 Microsoft Defender 보안 센터
 
@@ -100,6 +100,7 @@ ms.locfileid: "52925938"
 - 전역 관리자, [](/microsoft-365/security/defender-endpoint/assign-portal-access)보안 관리자 또는 보안 작업과 같은 적절한 권한이 있어야 합니다.
 
 - 사용자 Windows 다음 버전 중 하나를 실행해야 Windows.
+
    - Windows 10
    - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
    - Windows 서버, 버전 [1803](/windows/release-health/status-windows-10-1803) 이상
@@ -147,6 +148,7 @@ ms.locfileid: "52925938"
 2. 장치 **구성**  >  **프로필을 선택합니다.**
 
 3. 다음 설정을 포함하는 프로필을 만들 수 있습니다.
+
     - **플랫폼: Windows 10 이상**
     - **프로필 유형: 끝점 보호**
     - **범주: Microsoft Defender 보안 센터**
@@ -154,17 +156,19 @@ ms.locfileid: "52925938"
 
 4. 프로필을 하나 이상의 그룹에 할당합니다.
 
-### <a name="are-you-using-windows-os-1709-1803-or-1809"></a>OS 1709, Windows 또는 1809를 사용하나요?
+### <a name="are-you-using-windows-server-2016-or-windows-version-1709-1803-or-1809"></a>1709, Windows Server 2016, Windows 또는 1809 버전을 사용하나요?
 
-WINDOWS 10 OS  [1709, 1803](/windows/release-health/status-windows-10-1709)또는 [1809를](/windows/release-health/status-windows-10-1809-and-windows-server-2019)사용하는 경우 앱 앱에 변조 보호가 Windows 보안 않습니다. [](/windows/release-health/status-windows-10-1803) 대신 PowerShell을 사용하여 변조 방지를 사용할지 여부를 결정할 수 있습니다.
-
-#### <a name="use-powershell-to-determine-whether-tamper-protection-is-turned-on"></a>PowerShell을 사용하여 변조 방지가 켜져 있는지 확인
+Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/release-health/status-windows-10-1809-and-windows-server-2019)사용하는 경우 앱 앱에  변조 보호가 Windows 보안 않습니다. 대신 PowerShell을 사용하여 변조 방지를 사용할지 여부를 결정할 수 있습니다. 
+   
+이 Windows Server 2016 경우 설정 변조 방지를 사용하는 경우 앱 앱이 실시간 보호 상태를 정확하게 반영하지 않습니다.
+   
+#### <a name="use-powershell-to-determine-whether-tamper-protection-andor-real-time-protection-are-turned-on"></a>PowerShell을 사용하여 변조 방지 및/또는 실시간 보호가 켜져 있는지 확인
 
 1. 앱 Windows PowerShell 열기
 
 2. [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus?preserve-view=true&view=win10-ps) PowerShell cmdlet을 사용 합니다.
 
-3. 결과 목록에서 를 `IsTamperProtected` 검색합니다. true 값은  변조 방지를 사용할 수 있는 것입니다.
+3. 결과 목록에서 를 `IsTamperProtected` 검색합니다. true 값은  변조 방지를 사용할 수 있는 것입니다. 결과 목록에서 를 `RealTimeProtectionEnabled` 검색합니다. true 값은 변조 방지를 사용할 수 있는 것입니다.
 
 ## <a name="manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006"></a>Configuration Manager 버전 2006을 사용하여 조직의 변조 보호 관리
 
@@ -203,7 +207,7 @@ WINDOWS 10 OS  [1709, 1803](/windows/release-health/status-windows-10-1709)또�
 
 앱 앱에 다음과 같은 Windows 보안 있습니다.
 
-![팜에서 변조 보호가 Windows 10 Home](images/tamperprotectionturnedon.png)
+![팜에서 변조 보호가 Windows 10 Home K](images/tamperprotectionturnedon.png)
 
 1. 시작 **을** 선택하고 보안 입력을 *시작합니다.* 검색 결과에서 를 **Windows 보안.**
 
@@ -219,15 +223,11 @@ WINDOWS 10 OS  [1709, 1803](/windows/release-health/status-windows-10-1709)또�
 
 ![Microsoft Defender 보안 센터](images/tamperattemptalert.png)
 
-[끝점용](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) Microsoft Defender의 엔드포인트 감지 및 응답 및 고급 헌팅 기능을 사용하여 보안 운영 팀은 이러한 시도를 조사하고 해결할 수 있습니다. [](/microsoft-365/security/defender-endpoint/advanced-hunting-overview)
+Microsoft [엔드포인트 감지 및 응답](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) 및 [](/microsoft-365/security/defender-endpoint/advanced-hunting-overview) 고급 헌팅 기능을 사용하여 보안 운영 팀은 이러한 시도를 조사하고 해결할 수 있습니다.
 
 ## <a name="review-your-security-recommendations"></a>보안 권장 사항 검토
 
-변조 방지는 위협 및 [& 관리 기능과 통합됩니다.](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) [보안 권장 사항에는](/microsoft-365/security/defender-endpoint/tvm-security-recommendation) 변조 방지가 설정되어 있는지 확인이 포함됩니다. 예를 들어 다음 이미지와 같이 변조에서 검색할 수 있습니다. 
-
-![변조 방지 결과 보안 권장 사항](/images/securityrecs-tamperprotect.jpg)
-
-결과에서 변조 보호  켜기 를 선택하여 자세한 내용을 알아보고 켜면 됩니다.
+변조 방지는 위협 및 [& 관리 기능과 통합됩니다.](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) [보안 권장 사항에는](/microsoft-365/security/defender-endpoint/tvm-security-recommendation) 변조 방지가 설정되어 있는지 확인이 포함됩니다. 예를 들어 변조에서 *검색할 수 있습니다.* 결과에서 변조 보호  켜기 를 선택하여 자세한 내용을 알아보고 켜면 됩니다.
 
 ![변조 방지 켜기](images/tamperprotectsecurityrecos.png)
 

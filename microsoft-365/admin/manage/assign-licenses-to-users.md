@@ -23,12 +23,12 @@ ms.custom:
 search.appverid: MET150
 description: 제품 라이선스를 특정 사용자에게 할당할지 아니면 사용자 라이선스를 특정 제품에 할당할지 여부에 따라 라이선스를 할당합니다.
 ms.date: 04/26/2021
-ms.openlocfilehash: 707c1c952aa737f0aa91d886e9fa304eabe26321
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: c8e5c6a648f08aaba97fe05e19a5cfa0cada2174
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537538"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007012"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 
@@ -117,7 +117,7 @@ ms.locfileid: "52537538"
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
@@ -129,11 +129,12 @@ ms.locfileid: "52537538"
 
 
 2. 라이선스를 할당하려는 사용자의 이름 옆에 원을 선택합니다.
-3. 맨 위에 있는 3개의 점(추가 작업)을 선택한 다음 **제품 라이선스 관리** 를 선택합니다.
-4. **제품 라이선스 관리** 창에서 **기존 제품 라이선스 할당에 추가** \> **다음** 을 선택합니다.
-5. **기존 제품에 추가** 창에서 선택한 사용자에게 제공하려는 라이선스의 **설정** 위치로 토글합니다.
-    기본적으로 해당 라이선스와 연결된 모든 서비스가 사용자에게 자동으로 할당됩니다. 사용자가 이용할 수 있는 서비스를 제한할 수 있습니다. 사용자에게 제공하지 않으려는 서비스의 **해제** 위치로 토글합니다.
-6. 창의 아래쪽에서 **추가** \> **닫기** 를 선택합니다.  
+3. 맨 위에 있는 **제품 라이선스 관리** 를 선택합니다.
+4. **제품 라이선스 관리** 창에서 **추가 할당: 기존 라이선스를 유지하고 추가 항목 할당** \>**다음** 을 선택합니다.
+5. **라이선스** 에서 선택한 사용자에게 부여할 라이선스 상자를 선택합니다.\
+    기본적으로 해당 라이선스와 연결된 모든 서비스가 사용자에게 자동으로 할당됩니다. 사용자가 이용할 수 있는 서비스를 제한할 수 있습니다. 사용자에게 부여하지 않으려는 서비스의 상자를 선택 취소합니다.
+6. 창 아래쪽에서 **변경 내용 저장** 을 선택합니다.  
+    모든 사용자에게 충분한 라이선스가 없는 경우 추가 라이선스를 구입해야 할 수 있습니다.
 
 
 > [!NOTE]
@@ -143,13 +144,13 @@ ms.locfileid: "52537538"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 

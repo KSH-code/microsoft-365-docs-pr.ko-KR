@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: a25a2ec513cd7c25f9f6ddf3d5e328928837bf2d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: b2a6ee7c3f3ea2fb31b31d2f1db178bfd9847fbc
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275147"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007479"
 ---
 # <a name="run-and-review-the-results-of-a-microsoft-defender-offline-scan"></a>Microsoft Defender 오프라인 검사의 결과 실행 및 검토
 
@@ -69,7 +69,7 @@ Microsoft Defender 오프라인 끝점에서 사용할 수 있는 최신 보호 
 
 프롬프트는 다음과 유사한 알림을 통해 발생할 수 있습니다.
 
-![Windows 실행 요구 사항을 표시하는 Microsoft Defender 오프라인](images/defender/notification.png)
+:::image type="content" source="../../media/notification.png" alt-text="알림 실행 Microsoft Defender 오프라인":::
 
 또한 사용자는 클라이언트 내에서 Windows Defender 알림을 하게 됩니다.
 
@@ -77,7 +77,7 @@ Configuration Manager에서 Monitoring > **Overview > Security > Endpoint Protec
 
 Microsoft Defender 오프라인 검사는 오프라인 검사가  필요하여 맬웨어 수정 **상태 아래에 표시됩니다.**
 
-![Microsoft Endpoint Manager 검사가 Microsoft Defender 오프라인 나타내는 데이터](images/defender/sccm-wdo.png)
+:::image type="content" source="../../media/sccm-wdo.png" alt-text="Microsoft Defender 오프라인 검사 필요":::
 
 ## <a name="configure-notifications"></a>알림 구성
 

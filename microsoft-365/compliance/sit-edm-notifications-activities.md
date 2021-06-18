@@ -1,5 +1,5 @@
 ---
-title: 정확한 데이터 일치 활동에 대한 알림 만들기(미리 보기)
+title: 정확한 데이터 일치 활동에 대한 알림 만들기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,14 +17,14 @@ search.appverid:
 - MET150
 description: 정확한 데이터 일치 활동에 대한 알림을 만드는 방법을 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e2f67ef0f276211483519bd5e246e4e041b2b15
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 15aa8f2bda76d56d3e35af8e884193193bb78d40
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919364"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007564"
 ---
-# <a name="create-notifications-for-exact-data-match-activities-preview"></a>정확한 데이터 일치 활동에 대한 알림 만들기(미리 보기)
+# <a name="create-notifications-for-exact-data-match-activities"></a>정확한 데이터 일치 활동에 대한 알림 만들기
 
 [EDM(정확한 데이터 일치)을 사용하여 중요한 사용자 지정 정보 유형을 만들면](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) [감사 로그](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log)에 여러 활동이 생성됩니다. [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert?view=exchange-ps) PowerShell cmdlet를 사용하여 이러한 활동이 발생할 때 알려주는 알림을 생성합니다.
 
@@ -33,9 +33,6 @@ ms.locfileid: "50919364"
 - RemoveSchema
 - UploadDataFailed
 - UploadDataCompleted
-
-> [!NOTE]
-> EDM 활동에 대한 알림을 생성하는 기능은 World Wide 및 GCC 클라우드에서만 사용할 수 있습니다.
 
 ## <a name="pre-requisites"></a>필수 구성 요소
 

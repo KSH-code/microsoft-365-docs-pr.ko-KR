@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직에서 통신 및 공동 작업을 위해 Microsoft 365 채택하는 방법에 대한 개요를 얻습니다.
-ms.openlocfilehash: db61ed4d4c087b76895d08e43f6b1a2c00ed8172
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: da2ac5f68bedd064e426531a9cd3c6cbc33f8277
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635393"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007168"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 
@@ -60,7 +60,7 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함되어 있습니�
 
 - **공동 작업** &ndash; 조직의 사용자들이 문서를 저장하고 OneDrive SharePoint 사용하여 문서를 저장하고 공동 작업하는 방법과 이러한 추세가 월별로 어떻게 진화하는지 참조합니다. 내부 또는 외부적으로 공유되는 문서 수와 소유자 및 기타 공동 작업자가 SharePoint 사이트 또는 OneDrive 계정의 수를 볼 수도 있습니다.
 
-- **Storage** &ndash; 이 보고서를 사용하여 사서함, 사서함 및 사이트 OneDrive 클라우드 SharePoint 추적할 수 있습니다.
+- **저장소** &ndash; 이 보고서를 사용하여 사서함, 사서함 및 사이트 OneDrive 클라우드 SharePoint 추적할 수 있습니다.
 
 - **모바일** &ndash; 전자 메일, Teams, Skype 또는 전자 메일에 연결하는 데 사용하는 클라이언트 및 Yammer.
 
@@ -105,7 +105,7 @@ Power BI 웹 인터페이스에서 보고서를 사용자 지정하는 것 외�
 
 ### <a name="how-can-i-get-the-pbit-file-that-this-dashboard-is-associated-with"></a>이 대시보드가 연결된 pbit 파일을 어떻게 얻을 수 있습니까?
 
-Microsoft 다운로드 센터에서 pbit 파일에 [액세스할 수 있습니다.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit)
+Microsoft 다운로드 센터에서 pbit 파일에 [액세스할 수 있습니다.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit) 
 
 ### <a name="who-can-view-the-dashboards-and-reports"></a>Who 및 보고서를 볼 수 있나요?
 
@@ -129,7 +129,7 @@ Microsoft 다운로드 센터에서 pbit 파일에 [액세스할 수 있습니�
 
 ### <a name="how-does-the-data-in-the-template-app-differ-from-the-data-in-the-usage-reports"></a>템플릿 앱의 데이터는 사용 현황 보고서의 데이터와 어떻게 다른가요?
 
-템플릿 앱에서 볼 수 있는 기본 데이터는 Microsoft 365 관리 센터의 활동 보고서에 있는 데이터와 일치합니다. 주요 차이점은 관리 센터 데이터의 경우 지난 7/30/90/180일 동안 사용할 수 있는 반면 템플릿 앱은 최대 12개월 동안 월별 기준으로 데이터를 제공한다는 것입니다.
+템플릿 앱에서 볼 수 있는 기본 데이터는 앱의 활동 보고서에 있는 데이터와 Microsoft 365 관리 센터. 주요 차이점은 관리 센터 데이터의 경우 지난 7/30/90/180일 동안 사용할 수 있는 반면 템플릿 앱은 최대 12개월 동안 월별 기준으로 데이터를 제공한다는 것입니다.
 
 또한 템플릿 앱의 사용자 수준 세부 정보는 제품 라이선스가 할당되어 활동을 수행한 사용자에 대해 지난 달에만 사용할 수 있습니다.
 

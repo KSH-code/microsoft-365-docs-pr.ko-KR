@@ -15,17 +15,14 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 48ab72e9700e45cd4eab520a43d6f3d9ef18e227
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: c15e68a74c9bf518822fce211d6c7d5c4dbc3f2c
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926538"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007452"
 ---
 # <a name="microsoft-defender-antivirus-in-the-windows-security-app"></a>Microsoft Defender 바이러스 백신 앱의 Windows 보안
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -36,7 +33,7 @@ Windows 10 버전 1703 이상에서 Windows Defender 앱은 Windows 보안.
 설정 클라이언트 및 Windows Defender 주 Windows 설정 통합되어 기본적으로 Windows 10 버전 1703의 일부로 설치되는 새 앱으로 이동되었습니다.
 
 > [!IMPORTANT]
-> Windows 보안 센터 서비스를 사용하지 않도록 설정하면 Microsoft Defender 바이러스 백신 [Windows Defender 방화벽.](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) 타사 바이러스 백신 또는 방화벽 제품을 설치하고 최신 상태로 유지하면 이러한 기능이 자동으로 사용하지 않도록 설정됩니다.
+> Windows 보안 센터 서비스를 사용하지 않도록 설정하면 방화벽이 Microsoft Defender 바이러스 백신 Windows Defender [않습니다.](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) 타사 바이러스 백신 또는 방화벽 제품을 설치하고 최신 상태로 유지하면 이러한 기능이 자동으로 사용하지 않도록 설정됩니다.
 >
 > Windows 보안 Center 서비스를 사용하지 않도록 설정하거나 연결된 그룹 정책 설정을 구성하여 시작하거나 실행하지 못하도록 하는 경우 Windows 보안 앱은 장치에 설치한 바이러스 백신 또는 방화벽 제품에 대한 부실하거나 부정확한 정보를 표시할 수 있습니다.
 > 또한 이전 또는 Microsoft Defender 바이러스 백신 바이러스 백신이 있는 경우 또는 이전에 설치한 타사 바이러스 백신 제품을 제거한 경우 해당 제품을 사용하지 못하게 할 수도 있습니다.
@@ -48,7 +45,7 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 
 ## <a name="review-virus-and-threat-protection-settings-in-the-windows-security-app"></a>앱의 바이러스 및 위협 방지 Windows 보안 검토
 
-![Windows 보안 앱의 바이러스 및 위협 방지 설정 레이블 스크린샷](images/defender/wdav-protection-settings-wdsc.png)
+:::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="앱의 바이러스 및 위협 Windows 보안 설정":::
 
 1. 작업 표시줄에서 방패 아이콘을 클릭하거나 **Defender의** 시작 메뉴를 검색하여 Windows 보안 앱을 열 수 있습니다.
 
@@ -69,7 +66,7 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 
 ## <a name="review-the-security-intelligence-update-version-and-download-the-latest-updates-in-the-windows-security-app"></a>보안 인텔리전스 업데이트 버전을 검토하고 Windows 보안 업데이트 다운로드
 
-![보안 인텔리전스 버전 번호 정보](images/defender/wdav-wdsc-defs.png)
+:::image type="content" source="../../media/wdav-wdsc-defs.png" alt-text="보안 인텔리전스 버전 번호":::
 
 1. 시작 메뉴에서 보안 Windows 보안 를 검색한 다음 을 선택하여 앱 앱을 **Windows 보안.**
 

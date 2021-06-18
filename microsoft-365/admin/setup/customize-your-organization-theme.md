@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 회사 로고 또는 색에 맞게 Microsoft 365 모음 위쪽의 기본 테마를 변경하는 방법을 알아보고 사용자 지정합니다.
-ms.openlocfilehash: 908a815346485066b7208d0ff791db813540485f
-ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
+ms.openlocfilehash: b042090cf2cac9ac3bed705637bd03d721f76ad5
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52998803"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53006916"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직의 Microsoft 365 테마 사용자 지정
 
@@ -70,7 +70,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 최대 4개의 추가 그룹 테마를 만들 수 있습니다.
 
-1. 일반 **페이지에서** 테마의 이름을 입력합니다.
+1. 일반 **페이지에서** 새 테마의 이름을 입력합니다.
 
 2. 그룹 **아래에서** 기본 테마를 사용하는 Microsoft 365 그룹 테마를 볼 수 있는 최대 5개 그룹 그룹을 선택할 수 있습니다. 또한 사용자가 테마를 다시 지정하지 못하도록 방지하고 사용자의 표시 이름을 표시할 수 있습니다.
 

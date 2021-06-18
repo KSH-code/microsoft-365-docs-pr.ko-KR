@@ -12,20 +12,17 @@ ms.author: deniseb
 ms.reviewer: marcmcc
 manager: dansimp
 ms.custom: nextgen
-ms.date: 04/28/2021
+ms.date: 06/15/2021
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ba0f2184ced21aea60b172d44936e3e2d36e5270
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 3a5f766e21afcb29d3503345a49637061b5f0e38
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274955"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964703"
 ---
 # <a name="turn-on-block-at-first-sight"></a>즉각적 차단 켜기
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -34,7 +31,7 @@ ms.locfileid: "52274955"
 이 문서에서는 "즉각적 차단"으로 불리우는 바이러스 백신/맬웨어 방지 기능을 설명하고 조직에 대해 즉각적 차단을 사용하는 방법을 설명합니다. 
 
 > [!TIP]
-> 이 문서는 조직의 보안 설정을 관리하는 엔터프라이즈 관리자 및 IT 전문가를 대상으로 합니다. 엔터프라이즈 관리자 또는 IT 전문가는 아니지만 즉각적 차단에 대해 질문이 있는 경우 [엔터프라이즈 관리자 또는 IT 전문가가 아니세요?](#not-an-enterprise-admin-or-it-pro)를 참조하세요.
+> 이 문서는 조직의 보안 설정을 관리하는 엔터프라이즈 관리자 및 IT 전문가를 대상으로 합니다. 엔터프라이즈 관리자나 IT 전문가는 아니지만 즉각적 차단에 관한 질문이 있다면 [엔터프라이즈 관리자 또는 IT 전문가가 아니세요?](#not-an-enterprise-admin-or-it-pro) 구역을 참조하세요.
 
 ## <a name="what-is-block-at-first-sight"></a>“즉각적 차단”이란 무엇인가요?
 
@@ -55,7 +52,7 @@ Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사
 ![Microsoft Defender AV 엔진 목록](images/microsoft-defender-atp-next-generation-protection-engines.png)  
 
 > [!TIP]
-> 자세한 내용은 다음 블로그를 참조하세요. [차세대 보호의 핵심에 있는 Endpoint용 Microsoft Defender의 고급 기술 알아보기](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/).
+> 자세한 내용은 [(블로그) 차세대 보호 엔드포인트용 Microsoft Defender의 핵심 고급 기술 알아보기](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)를 참조하세요.
 
 ## <a name="a-few-things-to-know-about-block-at-first-sight"></a>즉각적 차단에 대해 알아야 할 몇 가지
 
@@ -149,7 +146,9 @@ Windows 보안 앱을 사용하는 개별 클라이언트 장치에 즉각적 �
 
 ## <a name="validate-block-at-first-sight-is-working"></a>즉각적 차단이 작동 중인지 확인
 
-기능이 작동하고 있는지 확인하려면 [네트워크와 클라우드 간의 연결 확인](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud)에서 지침을 따르세요.
+기능이 제대로 작동하는지 확인하려면 [즉각적 차단 샘플 파일](https://demo.wd.microsoft.com/Page/BAFS)을 다운로드합니다. 파일을 다운로드하려면 보안 관리자 또는 전역 관리자 역할이 할당된 Azure Active Directory 계정이 필요합니다.
+
+클라우드 지원 보호가 제대로 작동하는지 확인하려면 [네트워크와 클라우드 간 연결 확인](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud) 지침을 따릅니다. 
 
 ## <a name="turn-off-block-at-first-sight"></a>즉각적 차단 끄기
 

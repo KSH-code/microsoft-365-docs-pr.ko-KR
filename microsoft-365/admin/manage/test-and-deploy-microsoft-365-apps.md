@@ -13,34 +13,34 @@ ms.collection: ''
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: Microsoft 365 관리 센터의 통합 앱 포털에서 조직의 사용자 및 그룹에 대한 Microsoft 및 Microsoft 파트너 앱을 Microsoft 365 배포합니다.
-ms.openlocfilehash: da67cbe5f8b6e5f2da42e1f4b57a55d7d4a768fb
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+description: 조직 내 통합 앱 포털에서 조직의 사용자 및 그룹에 대한 Microsoft 및 Microsoft 파트너 앱을 찾고 테스트하고 Microsoft 365 관리 센터.
+ms.openlocfilehash: dcd4a91d9e43c0a740094615cd3dca0b0e8bc0f6
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644479"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007060"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>통합 앱 포털에서 Microsoft 365 앱 테스트 및 배포
 
-Microsoft 365 관리 센터는 단일 위치에서 단일 스토어 앱, 사용자 지정 비즈니스 라인 앱 및 Microsoft 365 파트너 앱을 배포할 수 있는 유연성을 제공합니다. 위치는 통합 앱의 Microsoft 관리 센터에서 > 설정 > 있습니다. 통합 앱 포털에서 Microsoft 파트너가 구매한 앱을 찾고 테스트하고 완전히 배포하는 기능은 조직에서 비즈니스 서비스를 정기적으로 업데이트하고 효율적으로 실행하는 데 필요한 편리성과 이점을 제공합니다.
+이 Microsoft 365 관리 센터 단일 위치에서 단일 스토어 앱, 사용자 지정 비즈니스 라인 앱 및 파트너 Microsoft 365 배포할 수 있는 유연성을 제공합니다. 위치는 Microsoft 관리 센터 설정의 통합 앱에서 액세스할 수 있습니다. 통합 앱 포털에서 Microsoft 파트너가 구매한 앱을 찾고 테스트하고 완전히 배포하는 기능은 조직에서 비즈니스 서비스를 정기적으로 업데이트하고 효율적으로 실행하는 데 필요한 편리성과 이점을 제공합니다.
 
-조직의 파트너가 앱을 구매하고 라이선스를 Microsoft 365 자세한 내용은 Microsoft 365 앱 관리 센터에서 앱 관리 Microsoft 365 [참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-365-blog/manage-and-deploy-microsoft-365-apps-from-the-microsoft-365/ba-p/1194324)
+조직의 파트너가 앱을 구매하고 라이선스를 Microsoft 365 자세한 내용은 조직에서 앱 관리 [및 Microsoft 365 앱 배포를 Microsoft 365 관리 센터.](https://techcommunity.microsoft.com/t5/microsoft-365-blog/manage-and-deploy-microsoft-365-apps-from-the-microsoft-365/ba-p/1194324)
 
 파트너가 이러한 앱을 만드는 방법에 대한 자세한 내용은 상업용 마켓플레이스에 대한 SaaS 제안을 [계획하는 방법을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=2158277)
 
 통합 앱 포털은 전역 관리자만 액세스할 수 있으며 전 세계 고객만 사용할 수 있습니다. 이 기능은 주권 및 정부 클라우드에서는 사용할 수 없습니다.
 
-통합 앱 포털에는 조직에 배포된 파트너의 단일 앱 및 Microsoft 365 앱을 포함하는 앱 목록이 표시됩니다. 웹앱, SPFx, Office 및 Teams 앱만 나열됩니다. 웹앱의 경우 2가지 종류의 앱을 볼 수 있습니다.
+통합 앱 포털에는 조직에 배포된 파트너의 단일 앱 및 Microsoft 365 앱을 포함하는 앱 목록이 표시됩니다. 웹앱, SPFx, Office 및 Teams 앱만 나열됩니다. 웹앱의 경우 두 가지 종류의 앱을 볼 수 있습니다.
 
-- 조직에서 사용할 수 있으며 appsource.microsoft.com 대신 동의하는 관리자가 배포할 수 있는 SaaS 앱입니다.
+- 조직에서 사용할 수 appsource.microsoft.com 관리자가 조직을 대신하여 동의하는 SaaS 앱을 배포할 수 있습니다.
 - Office 추가 기능과 연결된 SAML 갤러리 앱입니다.
 
 ## <a name="manage-apps-in-the-integrated-apps-portal"></a>통합 앱 포털에서 앱 관리
 
 파트너의 구매 및 사용이 허가된 파트너의 테스트 및 배포를 Microsoft 365 앱 있습니다.
 
-1. 관리 센터의 왼쪽 네비게이션에서 를 선택하고 설정 를 선택한 다음 **통합 앱을 선택하세요.** 
+1. 관리 센터에서 를 선택하고 **설정** 통합 **앱을 선택합니다.**
 
 2. Manage(관리)  창을 여는 데 사용할 수 있는 추가 앱의 상태가 있는 **앱을** 선택하세요.  사용 가능한 앱 **수가** 더 많은 상태이면 아직 배포되지 않은 ISV의 통합이 더 많이 있습니다.
 
@@ -76,7 +76,7 @@ Microsoft 365 관리 센터는 단일 위치에서 단일 스토어 앱, 사용�
 
 7. **다음을** 선택하여 사용 권한 요청 **수락 페이지로** 이동합니다. 각 앱의 앱 기능과 사용 권한이 나열됩니다. 앱에 동의가 필요한 경우 사용 **권한 수락을 선택합니다.** 전역 관리자만 동의할 수 있습니다.
 
-8. **다음을** 선택하여 배포를 검토하고 배포 완료 **를 선택합니다.** 개요 탭에서 이  배포 보기를 선택하여 **배포를 볼 수 있습니다.** Microsoft 365 관리 센터에서 배포된 각 앱의 상태와 앱을 배포한 날짜를 확인할 수 있습니다.
+8. **다음을** 선택하여 배포를 검토하고 배포 완료 **를 선택합니다.** 개요 탭에서 이  배포 보기를 선택하여 **배포를 볼 수 있습니다.** 이 Microsoft 365 관리 센터 배포된 각 앱의 상태와 앱을 배포한 날짜를 확인할 수 있습니다.
 
 > [!NOTE]
 > 앱이 이전에 통합 앱 포털이 없는 다른 곳에서 배포된 경우 배포 **유형은** **사용자 지정입니다.**
@@ -89,7 +89,7 @@ Microsoft 365 관리 센터는 단일 위치에서 단일 스토어 앱, 사용�
 - SaaS 혜택은 추가 기능과 연결되지만 Microsoft Graph 통합되지 않고 AAD 앱 ID가 제공되지 않습니다.
 - SaaS 제품은 추가 기능과 연결되지만 Microsoft Graph 통합을 위해 제공된 AAD 앱 ID는 여러 SaaS 제품에서 공유됩니다.
 
-## <a name="upload-custom-line-of-business-apps-for-testing-and-full-deployment"></a>업로드 전체 배포를 위한 사용자 지정 업무용 앱 배포
+## <a name="upload-custom-line-of-business-apps-for-testing-and-full-deployment"></a>업로드 전체 배포를 위한 사용자 지정 업무 앱 배포
 
 1. 관리 센터의 왼쪽 네비게이션에서 설정 통합 **앱을 선택하세요.** 
 
@@ -105,6 +105,190 @@ Microsoft 365 관리 센터는 단일 위치에서 단일 스토어 앱, 사용�
 
 6. **다음을** 선택하여 배포를 검토하고 배포 완료 **를 선택합니다.** 개요 탭에서 이  배포 보기를 선택하여 **배포를 볼 수 있습니다.**
 
+## <a name="prepare-to-deploy-add-ins-in-integrated-apps"></a>통합 앱에서 추가 기능 배포 준비
+
+Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보에 액세스하는 방법을 간소화할 수 있습니다(추가 기능 사용 시작 Office 참조). 
+
+추가 기능은 다음과 같은 이점을 제공합니다. 
+
+- 관련 응용 Office 시작하면 추가 기능에서 자동으로 다운로드됩니다. 추가 기능에서 추가 기능 명령을 지원하는 경우 추가 Office 응용 프로그램 내의 리본에 자동으로 나타납니다. 
+
+- 관리자가 추가 기능을 해제하거나 삭제하거나 사용자가 추가 기능을 Azure Active Directory 그룹에서 제거된 경우 더 이상 추가 기능을 표시하지 않습니다. 
+
+추가 기능은 Mac 및 Windows 앱의 세 가지 데스크톱 플랫폼에서 Office 지원됩니다. iOS 및 Android(모바일 추가 기능 Outlook)에서도 지원됩니다. 
+
+추가 기능을 모든 사용자의 클라이언트에 표시하는 데 최대 24시간이 걸릴 수 있습니다. 
+
+현재 Exchange 관리자와 전역 관리자는 통합 앱에서 추가 기능을 배포할 수 있습니다.   
+
+### <a name="before-you-begin"></a>시작하기 전에
+
+추가 기능을 배포하려면 사용자가 Microsoft 365 Enterprise 라이선스(E3/E5/F3) 또는 Microsoft 365 Business 라이선스(Business Basic, Business Standard, Business Premium)를 사용해야 합니다. 또한 사용자는 자신의 조직 ID를 사용하여 Office 로그인해야 합니다Exchange Online 및 활성 Exchange Online 합니다. 구독 디렉터리가 에 있어야 합니다. 또는 구독 디렉터리에 Azure Active Directory. 
+
+배포는 다음을 지원하지 않습니다. 
+
+- Office 2013에서 Word, Excel 또는 PowerPoint를 대상으로 하는 추가 기능 
+- 온-프레미스 디렉터리 서비스 
+- 추가 기능 사서함에 Exchange 배포 
+- COM(구성 요소 개체 모델) 또는 Visual Studio Tools for Office(VSTO) 추가 기능 배포 
+- 비즈니스용 Microsoft 365 비즈니스용 Exchange Online 비즈니스용 Microsoft 365 앱 등의 Microsoft 365 앱 Enterprise.  
+
+### <a name="office-requirements"></a>Office 요구 사항 
+
+Word, Excel 및 PowerPoint 추가 기능의 경우 사용자가 다음 중 하나를 사용하고 있어야 합니다. 
+- Windows(E3/E5/F3) 또는 Microsoft 365 Business 라이선스(Business Basic, Business Standard, Business Premium)의 버전 170 Microsoft 365 Enterprise 4 이상 
+- Mac 버전 15.34 이상. 
+
+이 Outlook 사용자는 다음 중 하나를 사용하고 있어야 합니다. 
+- 버전 1701 이상Microsoft 365 Enterprise E3/E5/F3) 또는 Microsoft 365 Business 라이선스(Business Basic, Business Standard, Business Premium). 
+- 2019 또는 Office Standard Office Professional Plus 버전 1808 이상 
+- Office Professional Plus 2016(MSI) 또는 Office Standard 2016(MSI)의 버전 16.0.4494.1000 이상입니다.
+    > [!NOTE]
+    > MSI 버전의 Outlook에는 "내 추가 기능" 섹션이 아니라 관리자가 설치한 추가 기능을 해당 Outlook 리본 메뉴에 보여 주게 됩니다.  
+- MSI(Office Professional Plus 2013) 또는 Office Standard 2013(MSI)의 버전 15.0.4937.1000 이상입니다.
+- Mac용 Office 2016 버전 16.0.9318.1000 이상입니다. 
+- iOS용 Outlook 모바일 버전 2.75.0 이상. 
+- Android용 Outlook 모바일 버전 2.2.145 이상 
+
+
+
+### <a name="exchange-online-requirements"></a>Exchange Online 요구 사항 
+Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능을 저장합니다. 추가 기능을 배포하는 관리자와 이러한 추가 기능을 받는 사용자는 OAuth 인증을 지원하는 Exchange Online 버전에 있어야 합니다. 
+
+조직의 Exchange 관리자에게 문의하여 사용 중인 구성을 확인합니다. 사용자당 OAuth 연결은 [Test-OAuthConnectivity](/powershell/module/exchange/test-oauthconnectivity)   PowerShell cmdlet을 사용하여 확인할 수 있습니다. 
+
+### <a name="user-and-group-assignments"></a>사용자 및 그룹 할당
+추가 기능 배포는 현재 Microsoft 365 그룹, 메일 그룹 및 보안 그룹을 포함하여 Azure Active Directory에서 지원하는 대부분의 그룹에 지원됩니다. 배포는 상위 그룹이 없는 최상위 그룹 또는 그룹의 사용자를 지원하지만 상위 그룹이 있는 중첩된 그룹 또는 그룹의 사용자는 지원하지 않습니다. 
+
+> [!NOTE]
+> 비 메일 사용 가능 보안 그룹은 현재 지원되지 않습니다. 
+
+다음 예제에서는 추가 기능으로 Sandra, Sheila 및 Sales Department 그룹을 할당합니다. 서해안 영업부는 중첩된 그룹이므로 현준 및 배식은 추가 기능에 할당되지 않습니다. 
+
+![영업 부서 다이어그램](../../media/683094bb-1160-4cce-810d-26ef7264c592.png)
+
+### <a name="find-out-if-a-group-contains-nested-groups"></a>그룹이 중첩된 그룹을 포함하는지 확인
+
+그룹이 중첩된 그룹을 포함하는지를 검색하는 가장 쉬운 방법은 Outlook 내에서 그룹 연락처 카드를 확인하는 것입니다. 전자 메일의 To 필드에 그룹 이름을 입력한 다음 그룹 이름이 확인될 때 선택하면 그룹 이름이 사용자 또는 중첩된 그룹이 포함되어 있는 경우 ****   표시됩니다. 아래 예제에서는 테스트 **** 그룹에 대한 Outlook 연락처 카드의 구성원 탭에 사용자와 하위 그룹 두 개만   표시됩니다. 
+
+![Outlook 연락처 카드의 구성원 탭](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
+
+그룹이 어떤 그룹의 구성원인지 확인하기 위해 그룹을 확인하여 반대 쿼리를 수행할 수 있습니다. 아래 예제에서는 하위 그룹 1이 테스트 그룹의 구성원인 Outlook 연락처 카드의 구성원 자격 탭에서 볼 <b></b>   수 있습니다. 
+
+![Outlook 연락처 카드의 구성원 자격 탭](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
+
+Azure Active Directory Graph API를 사용하여 쿼리를 실행하여 그룹 내의 그룹 목록을 찾을 수 있습니다. 자세한 내용은 [Operations on groups | 그래프 API 참조입니다.](/previous-versions/azure/ad/graph/api/groups-operations) 
+
+## <a name="recommended-approach-for-deploying-office-add-ins"></a>Office 추가 기능 배포에 권장되는 방법 
+단계적 접근 방식을 사용하여 추가 기능을 롤아웃하기 위해 다음을 사용하는 것이 좋습니다. 
+1. 소수의 업무 관련자 및 IT 부서 구성원에게 추가 기능을 배포합니다. 이 테스트 배포인 경우 **플래그를 켜면 됩니다.** 배포에 성공하면 2단계로 이동하십시오. 
+
+2. 추가 기능을 비즈니스 내 더 많은 개인에게 롤아웃합니다. 다시 결과를 평가하고 성공하면 전체 배포를 계속합니다. 
+
+3. 모든 사용자에게 전체 롤아웃을 수행합니다. Is this a Test deployment 에서 **플래그를 해제합니다.** 
+
+대상 대상의 크기에 따라 롤아웃 단계를 추가하거나 제거할 수 있습니다.  
+
+## <a name="deploy-an-office-add-in-using-the-admin-center"></a>관리 센터를 사용하여 Office 추가 기능 배포 
+
+1. 관리 센터에서 설정 을 선택한 다음 통합 **앱 을 선택합니다.** 
+
+2. 페이지 **맨 위에 있는** 앱 다운로드를 선택합니다. AppSource는 포함된 형식으로 로드됩니다. 추가 기능을 검색하거나 왼쪽 탐색기에서 제품을 클릭하여 추가 기능을 찾을 수 있습니다.  추가 기능을 ISV에서 SaaS 앱 또는 다른 앱 및 추가 기능과 연결한 경우 SaaS 앱이 유료 앱인 경우 라이선스를 구입하거나 배포할 수 있는 대화 상자가 표시됩니다. 라이선스를 구입한지 여부와는 무관하게 배포를 진행할 수 있습니다. **배포** 를 선택하세요.  
+
+3. 모든 앱이  나열되는 구성 페이지가 표시됩니다. 앱 배포에 대한 사용 권한이나 권한이 없는 경우 해당 정보가 강조 표시됩니다. 배포할 앱을 선택할 수 있습니다. 다음 **을 선택하면** 사용자 **페이지가** 표시됩니다. 추가 기능을 ISV에 의해 연결하지 않은 경우 사용자 페이지로 라우팅됩니다. 
+
+4. 모든 **사용자,** **특정 사용자/그룹** 또는 추가 기능을 배포할 대상을 지정하려면 나만을 ****   선택합니다. 검색 상자를 사용하여 특정 사용자 또는 그룹을 찾을 수 있습니다. 추가 기능을 테스트하는 경우 테스트 **배포인가 를 선택합니다.** 
+
+5. **다음** 을 선택합니다. 앱에 Microsoft 365 인증이 있는 경우 모든 앱 기능과 사용 권한이 인증 정보와 함께 단일 창에 표시됩니다. 인증 로고를 선택하면 사용자가 인증에 대한 자세한 정보를 볼 수 있습니다.  
+
+6. 검토한 다음 배포 **완료를 선택합니다.**  
+
+7. 추가 기능을 배포하면 녹색 "틱" 아이콘이 나타납니다. 페이지 지침에 따라 추가 기능을 테스트합니다. 
+
+> [!NOTE]
+> 사용자는 앱 리본 메뉴의 추가 기능 아이콘을 보기 위해 Office를 다시 실행해야 할 수 있습니다. Outlook 추가 기능을 앱 리본 메뉴에 표시하는 데 최대 24시간이 걸릴 수 있습니다. 
+
+배포된 추가 기능을 사용할 수 있도록 사용자 및 그룹에 알리는 것이 좋습니다. 추가 기능을 사용하는 경우와 방법을 설명하는 전자 메일을 보낼 수 있습니다. 추가 기능 관련 문제가 있는 경우 사용자에게 도움이 될 수 있는 콘텐츠 또는 FAQ를 포함하거나 링크를 제공합니다. 
+
+## <a name="considerations-when-assigning-an-add-in-to-users-and-groups"></a>사용자 및 그룹에 추가 기능을 할당할 때 고려 사항 
+
+전역 관리자 및 Exchange 관리자는 모든 사용자 또는 특정 사용자 및 그룹에 추가 기능을 할당할 수 있습니다. 각 옵션은 다음과 같은 영향을 줍니다. 
+
+- **모든 사람**   이 옵션은 조직의 모든 사용자에게 추가 기능을 할당합니다. 이 옵션은 조직에 진정으로 범용인 추가 기능에 대해서만 사용합니다. 
+
+- **사용자**   개별 사용자에게 추가 기능을 할당한 다음 새 사용자에게 추가 기능을 배포하는 경우 먼저 새 사용자를 추가해야 합니다. 
+
+- **그룹**   그룹에 추가 기능을 할당하면 그룹에 추가된 사용자에게 추가 기능의 할당이 자동으로 할당됩니다. 사용자가 그룹에서 제거되면 사용자는 추가 기능 액세스 권한을 잃게 됩니다. 두 경우 모두 관리자에게 추가 작업이 필요하지 않습니다. 
+
+- **나만**   추가 기능을 직접 할당하는 경우 추가 기능 테스트에 적합한 계정에만 추가 기능을 할당합니다. 
+
+조직에 적합한 옵션은 구성에 따라 다릅니다. 그러나 그룹을 사용하여 할당하는 것이 좋습니다. 관리자는 매월 개별 사용자를 할당하는 대신 그룹을 사용하고 해당 그룹의 구성원을 제어하여 추가 기능을 더 쉽게 관리할 수 있습니다. 경우에 따라 사용자를 수동으로 할당하여 특정 사용자에게 할당하여 소수의 사용자 집합에 대한 액세스를 제한할 수 있습니다. 
+
+### <a name="more-about-office-add-ins-security"></a>Office 추가 기능 보안에 대한 자세한 정보 
+Office 추가 기능은 추가 기능에 대한 일부 메타데이터를 포함하지만 무엇보다도 모든 코드와 논리가 포함된 웹 응용 프로그램을 가리키는 XML 매니페스트 파일을 결합합니다. 추가 기능의 기능은 다양할 수 있습니다. 예를 들어 추가 기능은 다음과 같은 작업을 수행할 수 있습니다.
+- 데이터를 표시합니다. 
+- 사용자 문서를 읽어 상황에 맞는 서비스를 제공합니다. 
+- 사용자 문서에서 데이터를 읽고 기록하여 해당 사용자에게 값을 제공합니다.  
+
+Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 Office 추가 기능 플랫폼 개요, 특히 ["Office](/office/dev/add-ins/overview/office-add-ins)추가 기능의 구조" 섹션을 참조하세요. 
+
+사용자의 문서와 상호 작용하려면 추가 기능에서 매니페스트에 필요한 사용 권한을 선언해야 합니다. 5개 수준 JavaScript API 액세스 권한 모델은 작업 창 추가 기능 사용자에 대한 개인 정보 및 보안을 위한 기반을 제공합니다. Office 스토어의 대부분의 추가 기능 수준은 ReadWriteDocument 수준으로, 거의 모든 추가 기능에서 ReadDocument 수준 이상을 지원하고 있습니다. 권한 수준에 대한 자세한 내용은 콘텐츠 및 작업 창 추가 기능에서 API 사용 권한 요청을 [참조하세요.](/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins) 
+
+매니페스트를 업데이트하는 경우 일반적으로 추가 기능의 아이콘과 텍스트가 변경됩니다. 추가 기능 명령이 변경될 때도 있습니다. 그러나 추가 기능에 대한 사용 권한은 변경되지 않습니다. 추가 기능에 대한 모든 코드와 논리가 실행되는 웹 응용 프로그램은 언제든지 변경될 수 있으며, 이것이 웹 응용 프로그램의 특성입니다. 
+
+추가 기능에 대한 업데이트는 다음과 같이 발생합니다. 
+- **업무(LINE-OF-BUSINESS)** 추가 기능: 관리자가 명시적으로 매니페스트를 업로드한 경우 추가 기능을 사용하려면 관리자가 메타데이터 변경을 지원하기 위해 새 매니페스트 파일을 업로드해야 합니다. 다음에 관련 Office 응용 프로그램을 시작하면 추가 기능이 업데이트됩니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다. 
+
+- **Office 스토어** 추가 기능: 관리자가 Office 스토어에서 추가 기능을 선택한 경우 Office 스토어에서 추가 기능을 업데이트하는 경우 다음에 관련 Office 응용 프로그램이 시작되면 추가 기능 업데이트가 진행됩니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다. 
+
+> [!NOTE]
+> Word, Excel 및 PowerPoint의 경우 [SharePoint](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog)앱 카탈로그를 사용하여   Microsoft 365 및/또는 SharePoint 추가 기능 지원이 필요하지 않습니다. Outlook의 경우 Exchange 제어판을 사용하여 Microsoft 365에 연결하지 않고도 사내 환경에 배포합니다.  
+
+## <a name="add-in-states"></a>추가 기능 상태
+추가 기능의 상태는 **On** 또는   Off **상태일 수**   있습니다. 
+
+| 시/도 | 상태가 적용되는 경우 | 영향 |
+|:-----|:-----|:-----|
+|**활성**  <br/> |관리자가 추가 기능을 업로드하고 사용자 또는 그룹에 할당했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹은 관련 클라이언트에서 추가 기능을 볼 수 있습니다.  <br/> |
+|**해제됨**  <br/> |관리자가 추가 기능을 해제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> 추가 기능 상태가 활성으로 변경되면 사용자 및 그룹이 추가 기능에 다시 액세스할 수 있습니다.  <br/> |
+|**삭제됨**  <br/> |관리자가 추가 기능을 삭제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> |
+ 
+더 이상 추가 기능을 사용하는 사용자가 없는 경우 추가 기능을 삭제하는 것이 있습니다. 예를 들어 추가 기능을 해제하면 특정 연도의 특정 시간 동안에만 추가 기능을 사용하는 것이 나을 수 있습니다. 
+
+## <a name="manage-an-office-add-in-using-the-admin-center"></a>관리 Office 추가 기능 관리
+
+배포 후 관리자는 추가 기능의 사용자 액세스를 관리할 수도 있습니다. 
+
+1. 관리 센터에서 를 **선택하고 설정** **통합 앱을 선택합니다.** 
+2. 통합 앱 페이지에는 단일 추가 기능 또는 다른 앱과 연결된 추가 기능 목록이 표시됩니다. 
+3. 관리 창을 **** 여는 데 사용할 수 있는 추가 앱의 상태가 있는    ****    **앱을**   선택합니다. 사용 가능한 앱 **수가** 더 많은 상태이면 아직 배포되지 않은 ISV의 통합이 더 많이   있습니다. 
+4. 개요 **탭에서**   배포를 **선택합니다.** 일부 앱에서는 배포를 선택하기 전에 사용자를 추가해야 합니다. 
+5. 사용자 **를** 선택하고 테스트 배포인 **경우를** 선택한 다음 전체 **조직,** 특정 **사용자/그룹** 또는    **저만 선택합니다.** 전체 **조직에** 앱을 배포할 때까지 기다리는 경우 배포 테스트도 선택할   수 있습니다. 특정 사용자 또는 그룹은 Microsoft 365 그룹, 보안 그룹 또는 메일 그룹일 수 있습니다. 
+6. 업데이트를  **선택한**   다음 완료 를 **선택합니다.** 이제 개요 **탭에서** 배포를 **선택할 수** 있습니다. 
+7. 앱 정보를 검토한 다음 배포를 **선택합니다.**
+8. 배포 **완료** 페이지에서 완료를 선택하고 개요 탭에서 테스트 또는 전체 배포의 세부   정보를   ****   검토합니다. 
+9. 앱이 보류 중인 업데이트 **상태인** 경우 앱을 클릭하여 관리  창을 열고 앱을 업데이트할 수 있습니다. 
+10. 사용자를 업데이트하기만 하려면 사용자 탭을 **선택하고** 적절한 변경을 합니다. 변경한 **후** 업데이트를 선택합니다.  
+
+## <a name="delete-an-add-in"></a>추가 기능 삭제
+
+배포된 추가 기능을 삭제할 수도 있습니다.
+
+1. 관리 센터에서 를 **선택하고 설정** **통합 앱을 선택합니다.**
+2. 관리 창을 표시하려면 행을 선택합니다. 
+3. 구성 **탭을** 선택합니다. 
+4. 삭제할 추가 기능을 선택하고 제거 를 **선택합니다.**  
+
+> [!NOTE]
+>  추가 기능을 다른 관리자가 배포한 경우 제거 단추를 사용할 수 없습니다. 앱을 배포한 관리자 또는 전역 관리자만 추가 기능을 삭제할 수 있습니다.
+
+## <a name="scenarios-where-exchange-admin-cannot-deploy-an-add-in"></a>Exchange 관리자가 추가 기능을 배포할 수 없는 시나리오 
+
+다음 두 가지 경우 Exchange 관리자가 추가 기능을 배포할 수 없습니다.
+- 추가 기능에서 MS Graph 권한이 필요하며 전역 관리자의 동의가 필요한 경우.
+- 추가 기능을 둘 이상의 추가 기능 및 웹앱에 연결하고 이러한 추가 기능 중 하나 이상이 다른 관리자(exchange/global)에 의해 배포되고 사용자 할당이 균일하지 않은 경우 사용자 할당이 이미 배포된 모든 앱에 대해 동일한 경우 추가 기능 배포만 허용합니다.  
+
+
 ## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="which-administrator-role-do-i-need-to-access-integrated-apps"></a>통합 앱에 액세스하려면 어떤 관리자 역할이 필요한가요?
@@ -115,12 +299,12 @@ Microsoft 365 관리 센터는 단일 위치에서 단일 스토어 앱, 사용�
 
 몇 가지 이유가 있을 수 있습니다.
 
-- 로그인한 관리자는 Exchange 관리자입니다.
+- 로그인한 관리자는 관리자 Exchange 합니다.
 - 고객은 아직 주권 클라우드에 있으며, 통합 앱 환경은 아직 주권이 있는 클라우드 고객이 사용할 수 있습니다.
 
 ### <a name="what-apps-can-i-deploy-from-integrated-apps"></a>통합 앱에서 어떤 앱을 배포할 수 있나요?
 
-통합 앱을 사용하면 Web Apps, Teams, Excel, PowerPoint, Word, Outlook 추가 기능 및 SPFx 배포할 수 있습니다. 추가 기능의 경우 통합 앱은 사서함이 아닌 온라인 Exchange 배포를 Exchange 있습니다.
+통합 앱을 사용하면 Web Apps, Teams 앱, Excel, PowerPoint, Word, Outlook 추가 기능 및 SPFx 배포할 수 있습니다. 추가 기능의 경우 통합 앱은 사서함이 아닌 온라인 Exchange 배포를 Exchange 있습니다.
 
 ### <a name="can-administrators-delete-or-remove-apps"></a>관리자가 앱을 삭제하거나 제거할 수 있나요?
 
