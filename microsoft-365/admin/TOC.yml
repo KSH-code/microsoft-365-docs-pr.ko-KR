@@ -255,7 +255,7 @@
           href: manage/pin-apps-to-app-launcher.md
         - name: 사용자를 최신 앱으로 업그레이드합니다.
           href: setup/upgrade-users-to-latest-office-client.md
-        - name: Microsoft 365 관리 센터에서 Microsoft 365 앱 테스트 및 배포
+        - name: 통합 앱
           href: manage/test-and-deploy-microsoft-365-apps.md
         - name: 추가 기능의 중앙 집중식 배포
           items:

@@ -34,6 +34,8 @@
           href: service-description/device-services.md
         - name: 장치 프로필
           href: service-description/profiles.md
+        - name: 디바이스 배포 그룹
+          href: service-description/deployment-groups.md
         - name: 장치 구성
           href: service-description/device-policies.md
         - name: 보안 기술
@@ -157,6 +159,8 @@
           href: working-with-managed-desktop/work-with-app-control.md
         - name: 장치 프로필 변경
           href: working-with-managed-desktop/change-device-profile.md
+        - name: 배포에 디바이스 할당
+          href: working-with-managed-desktop/assign-deployment-group.md
         - name: 장치 제거
           href: working-with-managed-desktop/remove-devices.md
         - name: 구성 가능한 설정
