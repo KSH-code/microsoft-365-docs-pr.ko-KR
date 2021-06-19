@@ -1,6 +1,6 @@
 ---
-title: Defender Microsoft 365 개요
-description: Defender에서 사용 가능한 API에 Microsoft 365
+title: API Microsoft 365 Defender 개요
+description: 2013에서 사용 가능한 API에 대해 Microsoft 365 Defender
 keywords: api, api, 개요, 인시던트, 인시던트, 위협 헌팅, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b19a6072be5f97b90c117f053ccae4593587c43d
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 1ddb6da49e5e9f23aacf73caaeb91302ac9c19c9
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730899"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028970"
 ---
-# <a name="overview-of--microsoft-365-defender-apis"></a>Defender Microsoft 365 개요
+# <a name="overview-of-microsoft-365-defender-apis"></a>API Microsoft 365 Defender 개요
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,9 +38,9 @@ ms.locfileid: "52730899"
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-Microsoft 365 Defender는 통합 준비가 된 플랫폼을 토로합니다.
+Microsoft 365 Defender 준비된 플랫폼을 토대하여 구축됩니다.
 
-Microsoft 365 Defender API를 사용하여 공유 인시던트 및 고급 헌팅 테이블을 기반으로 워크플로를 자동화합니다.
+이 Microsoft 365 Defender API를 사용하여 공유 인시던트 및 고급 헌팅 테이블을 기반으로 워크플로를 자동화합니다.
 
 - **[결합된](api-incident.md)** 인시던트 큐 - 인시던트 API에서 전체 공격 범위 및 영향을 미치는 모든 자산을 그룹화하여 중요한 일에 집중합니다.
 
@@ -49,24 +49,24 @@ Microsoft 365 Defender API를 사용하여 공유 인시던트 및 고급 헌팅
 Streaming [API를](../defender-endpoint/raw-data-export.md) 사용하여 단일 데이터 스트림 내에서 발생하는 실시간 이벤트 및 인스턴스의 경고를 제공합니다.
 
 
-이러한 Microsoft 365 Defender 관련 API와 함께, 다른 각 보안 제품은 [](api-articles.md) 고유한 기능을 활용하는 데 도움이 되는 추가 API를 노출합니다.
+이러한 Microsoft 365 Defender 특정 API와 함께 다른 각 보안 제품은 고유한 [](api-articles.md) 기능을 활용하는 데 도움이 되는 추가 API를 노출합니다.
 
 
 > [!NOTE]
 > 통합 포털로 전환하면 끝점 API용 Microsoft Defender를 기반으로 하는 PowerBi 대시보드에 영향을 주지 않습니다. 대화형 포털 전환에 관계없이 기존 API를 계속 사용할 수 있습니다.
 
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 | **API 액세스 방법 이해** |
 |-|
 | [API 할당량 및 라이선싱에 대해 자세히](api-terms.md) |
-| [Microsoft 365 Defender API에 액세스](api-access.md) |
+| [MICROSOFT 365 DEFENDER API에 액세스](api-access.md) |
 | **앱 빌드** |
 | ['Hello world' 앱 만들기](api-hello-world.md) |
 | [사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 앱 만들기](api-create-app-user-context.md) |
-| [사용자 없이 Microsoft 365 액세스하는 앱 만들기](api-create-app-web.md) |
-| [다중 테넌트 파트너 액세스 권한이 있는 앱 만들기Microsoft 365 Defender API](api-partner-access.md) |
+| [사용자가 없는 앱에 액세스하는 Microsoft 365 Defender 만들기](api-create-app-web.md) |
+| [다중 테넌트 파트너가 액세스하여 테넌트 API에 Microsoft 365 Defender 만들기](api-partner-access.md) |
 | **앱 문제 해결 및 유지 관리** |
 | [API 오류 코드 이해](api-error-codes.md) |
 | [Azure Key Vault를 사용하여 앱에서 비밀 관리](/learn/modules/manage-secrets-with-azure-key-vault/) |

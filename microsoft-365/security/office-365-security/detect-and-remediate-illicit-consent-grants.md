@@ -18,12 +18,12 @@ description: 개인 정보에서 위조 동의 권한 부여 공격을 인식하
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e5675a7a83bb62bae80f20e8e7c86fde38599ec6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4c3c3c06974feb2dab3985a60938fe7d543543c3
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538306"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028922"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>위조 동의 권한 부여 감지 및 수정
 
@@ -50,7 +50,7 @@ ms.locfileid: "52538306"
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>이 공격의 신호를 찾는 단계
 
-1. 에서 **보안 & 준수 센터를** 열 수 <https://protection.office.com> 있습니다.
+1. 에서 **Microsoft 365 Defender** 포털을 열 수 <https://security.microsoft.com> 있습니다.
 
 2. 검색으로 **이동하여** 감사 로그 **검색 을 선택합니다.**
 
@@ -143,7 +143,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 ## <a name="determine-the-scope-of-the-attack"></a>공격 범위 확인
 
-응용 프로그램 액세스 인벤토리 작성을  완료한 후 감사 로그를 검토하여 위반의 전체 범위를 파악합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. 보안 및 준수 **센터에서** 감사 [로그를 & 있습니다.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
+응용 프로그램 액세스 인벤토리 작성을  완료한 후 감사 로그를 검토하여 위반의 전체 범위를 파악합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. 에서 **감사** 로그를 검색할 수 [Microsoft 365 Defender.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
 > [!IMPORTANT]
 > 이 정보를 받으려면 공격 전에 [사서함 감사](../../compliance/enable-mailbox-auditing.md) 및 [관리자 및 사용자 활동에 대한 감사](../../compliance/turn-audit-log-search-on-or-off.md)가 설정되어 있어야 합니다.

@@ -20,12 +20,12 @@ description: 위협 조사 및 대응 기능을 사용하여 악성 전자 메�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 02e396cac060f2b8431b2b70e89c18950596d9c2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ef29493bd68166b88bba3ef5905f0427823b4015
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933376"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028854"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>전자 메일에서 배달된 악성 전자 메일 Office 365
 
@@ -41,7 +41,7 @@ ms.locfileid: "51933376"
 > [!NOTE]
 > 여기에서 수정 문서로 [이동하세요.](remediate-malicious-email-delivered-office-365.md)
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 다음 조건이 충족되었는지 확인하세요.
 
@@ -51,7 +51,7 @@ ms.locfileid: "51933376"
 
 - 조직에는 스팸 방지, 맬웨어 방지, 피싱 방지 등 정책이 정의되어 있습니다. 에서 [위협으로부터 보호를 Office 365.](protect-against-threats.md)
 
-- 전역 관리자 또는 보안 및 준수 센터에서 보안 관리자 또는 검색 및 제거 역할이 & 있습니다. 보안 [및 준수 센터의 & 참조합니다.](permissions-in-the-security-and-compliance-center.md) 일부 작업의 경우 새 미리 보기 역할도 할당해야 합니다.
+- 전역 관리자 또는 보안 관리자 또는 검색 및 제거 역할이 Microsoft 365 Defender. 의 [사용 권한을 Microsoft 365 Defender.](permissions-in-the-security-and-compliance-center.md) 일부 작업의 경우 새 미리 보기 역할도 할당해야 합니다.
 
 ### <a name="preview-role-permissions"></a>역할 권한 미리 보기
 
@@ -61,16 +61,16 @@ ms.locfileid: "51933376"
 
 |활동|역할 그룹|미리 보기 역할이 필요하세요?|
 |---|---|---|
-|위협 탐색기(및 실시간 검색)를 사용하여 위협 분석 |전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요.|
-|위협 탐색기(및 실시간 검색)를 사용하여 전자 메일 메시지에 대한 헤더를 보고, 분리된 전자 메일 메시지 미리 보기 및 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요.|
-|위협 탐색기를 사용하여 헤더 보기, 전자 메일 미리 보기(전자 메일 엔터티 페이지만) 및 사서함에 배달된 전자 메일 메시지 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자 <p> 미리 보기|네.|
+|위협 탐색기(및 실시간 검색)를 사용하여 위협 분석 |전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요|
+|위협 탐색기(및 실시간 검색)를 사용하여 전자 메일 메시지에 대한 헤더를 보고, 분리된 전자 메일 메시지 미리 보기 및 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요|
+|위협 탐색기를 사용하여 헤더 보기, 전자 메일 미리 보기(전자 메일 엔터티 페이지만) 및 사서함에 배달된 전자 메일 메시지 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자 <p> 미리 보기|예|
 |
 
 > [!NOTE]
-> *미리* 보기는 역할 그룹이 아닌 역할입니다. 미리 보기 역할은 의 기존 역할 그룹에 Office 365 <https://protection.office.com> 합니다. 사용 **권한으로 이동한** 다음 기존 역할 그룹을 편집하거나 미리 보기 역할이 할당된 **새** 역할 그룹을 추가합니다.
-> 전역 관리자 역할에는 Microsoft 365 관리 센터( )가 할당되고, 보안 관리자 및 보안 읽기 권한자 역할은 보안 & 준수 <https://admin.microsoft.com> 센터( )에 <https://protection.office.com> 할당됩니다. 역할 및 사용 권한에 대한 자세한 내용은 [Security & Compliance Center의 사용 권한을 참조합니다.](permissions-in-the-security-and-compliance-center.md)
+> *미리* 보기는 역할 그룹이 아닌 역할입니다. 미리 보기 역할은 의 기존 역할 그룹에 Office 365 <https://security.microsoft.com> 합니다. 사용 **권한으로 이동한** 다음 기존 역할 그룹을 편집하거나 미리 보기 역할이 할당된 **새** 역할 그룹을 추가합니다.
+> 전역 관리자 역할에는 Microsoft 365 관리 센터 ( )가 할당되고 보안 관리자 및 보안 읽기 권한자 역할은 <https://admin.microsoft.com> Microsoft 365 Defender( <https://security.microsoft.com> ) 역할 및 사용 권한에 대한 자세한 내용은 에서 [사용 권한을 Microsoft 365 Defender.](permissions-in-the-security-and-compliance-center.md)
 
-전자 메일 미리 보기 및 다운로드는 중요한 활동이기 때문에 감사가 사용하도록 설정되어 있습니다. 관리자가 전자 메일에 대해 이러한 활동을 수행하면 동일한 감사 로그가 생성되어 Office 365 보안 & 규정 준수 센터()에서 볼 수 <https://protection.office.com> 있습니다. 검색 **감사 로그**  >  **검색으로 이동하여** 검색 섹션의 관리자 이름을 필터링합니다. 필터링된 결과에는 **AdminMailAccess 활동이 표시됩니다.** 미리 보거나 다운로드한 전자 메일에 대한 **추가** 정보 섹션에서 세부 정보를 확인하려면 행을 선택합니다.
+전자 메일 미리 보기 및 다운로드는 중요한 활동이기 때문에 감사가 사용하도록 설정되어 있습니다. 관리자가 전자 메일에 대해 이러한 작업을 수행하면 동일한 감사 로그가 생성되어 2016년 1월 2일부로 Office 365 Microsoft 365 Defender <https://security.microsoft.com> 있습니다. 검색 **감사 로그**  >  **검색으로 이동하여** 검색 섹션의 관리자 이름을 필터링합니다. 필터링된 결과에는 **AdminMailAccess 활동이 표시됩니다.** 미리 보거나 다운로드한 전자 메일에 대한 **추가** 정보 섹션에서 세부 정보를 확인하려면 행을 선택합니다.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>배달된 의심스러운 전자 메일 찾기
 
@@ -79,13 +79,11 @@ ms.locfileid: "51933376"
 > [!NOTE]
 > Explorer의 기본 검색에는 현재 Zapped 항목이 없습니다.  이는 모든 보기(예: 맬웨어 또는 피싱 보기)에 적용됩니다. Zapped 항목을 포함하려면 ZAP에서 제거됨을 포함하기 위해 배달 작업  **집합을 추가해야 합니다.** 모든 옵션을 포함하면 Zapped 항목을 포함하여 모든 배달 작업 결과가 표시됩니다.
 
-1. **위협 탐색기로** 이동: 으로 이동한 후 해당 사용자에 대해 직장 또는 학교 계정을 사용하여 <https://protection.office.com> Office 365. 이렇게하면 보안 및 준수 & 수 있습니다.
+1. **위협 탐색기로** 이동: 으로 이동한 후 해당 사용자에 대해 직장 또는 학교 계정을 사용하여 <https://security.microsoft.com> Office 365. 이렇게 하는 경우 이 Microsoft 365 Defender.
 
-2. 왼쪽 탐색 빠른 실행에서 위협 관리 **탐색기 를** \> **선택 합니다.**
+2. 왼쪽 탐색 빠른 실행에서 Email **& collaboration** Explorer \> **를 선택하세요.**
 
-    ![배달 작업 및 배달 위치 필드가 있는 탐색기입니다.](../../media/ThreatExFields.PNG)
-
-    새 특수 작업 **열이 표시될 수** 있습니다. 이 기능은 관리자에게 전자 메일 처리 결과를 알려 주기 위한 것입니다. 배달 **작업** 및 배달 위치와 같은  위치에서 특수 작업 열에 액세스할 **수 있습니다.** 관리자가 헌팅 환경을 개선하기 위한 새로운 기능인 위협 탐색기 전자 메일 타임라인이 끝나면 특수 작업이 업데이트될 수 있습니다.
+      새 특수 작업 **열이 표시될 수** 있습니다. 이 기능은 관리자에게 전자 메일 처리 결과를 알려 주기 위한 것입니다. 배달 **작업** 및 배달 위치와 같은  위치에서 특수 작업 열에 액세스할 **수 있습니다.** 관리자가 헌팅 환경을 개선하기 위한 새로운 기능인 위협 탐색기 전자 메일 타임라인이 끝나면 특수 작업이 업데이트될 수 있습니다.
 
 3. **위협 탐색기에서 보기:** 보기 **메뉴에서** 모든 전자 메일을 **선택합니다.**
 

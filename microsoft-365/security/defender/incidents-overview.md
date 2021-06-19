@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3dac22afb074a58ea2afdf842a9a62c6cee77dcc
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: b6830c77a0c5cc93ea202844a8793c5f69f07650
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022784"
+ms.locfileid: "53028526"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>인시던트 Microsoft 365 Defender
 
@@ -144,9 +144,11 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 보안 분석이 처음인 경우 [](incidents-overview.md) 추가 정보는 첫 번째 인시던트에 응답하는 소개를 참조하고 인시던트 예제를 안내합니다.
 
+Microsoft 제품 전반의 인시던트 대응에 대한 자세한 내용은 이 [문서를 참조하세요.](/security/compass/incident-response-overview)
+
 ## <a name="example-security-operations-for-microsoft-365-defender"></a>보안 작업의 Microsoft 365 Defender
 
-다음은 보안 운영에 대한 보안 작업의 예 Microsoft 365 Defender.
+다음은 보안 작업(SecOps)의 예입니다Microsoft 365 Defender.
 
 :::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="보안 작업의 예로는 Microsoft 365 Defender":::
 
@@ -169,11 +171,19 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 매일, 월별, 분기별 및 연간 작업을 사용하여 프로세스, 정책 및 보안 구성을 업데이트하거나 구체화할 수 있습니다.
 
+### <a name="secops-resources-across-microsoft-products"></a>Microsoft 제품 전반의 SecOps 리소스
+
+Microsoft 제품 전반의 SecOps에 대한 자세한 내용은 다음 리소스를 참조하세요.
+
+- [기능](/security/compass/security-operations-capabilities)
+- [모범 사례](/security/compass/security-operations)
+- [비디오 및 슬라이드](/security/compass/security-operations-videos-and-decks)
+
 ## <a name="next-steps"></a>다음 단계
 
 **보안 분석 및 인시던트** 대응이 새로운 경우:
 
-- 공격의 [](first-incident-overview.md) 예와 함께 Microsoft 365 Defender 포털에서 일반적인 분석, 수정 및 사후 인시던트 검토 과정을 안내하는 첫 번째 인시던트에 응답 안내를 참조하세요.
+- 예제 [](first-incident-overview.md) 공격을 통해 Microsoft 365 Defender 포털에서 일반적인 분석, 수정 및 사후 인시던트 검토 프로세스를 안내하는 안내를 받을 수 있는 첫 번째 인시던트에 응답 안내를 참조하세요.
 
 **보안 분석 및 인시던트** 대응 경험이 있는 경우:
 
@@ -181,7 +191,7 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
   - 심각도 및 기타 [](incident-queue.md) 요인에 따라 우선 순위를 지정해야 하는 사고를 참조합니다. 
 
-  - [인시던트](manage-incidents.md)관리 워크플로를 기반으로 태그 및 설명을 변경, 할당, 분류 및 추가하는 인시던트 관리
+  - [인시던트](manage-incidents.md)관리 워크플로에 따라 태그 및 설명을 변경, 할당, 분류 및 추가하는 인시던트 관리 를 관리합니다.
 
   - [인시던트 조사를](investigate-incidents.md) 수행합니다.
 

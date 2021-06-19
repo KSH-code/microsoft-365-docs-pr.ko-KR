@@ -16,19 +16,18 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 409f6d0bbbcf9f8b50119e35bdb7852c4323bbf9
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 7360087e1863e81e4dc9e8acc2817e1320d6f4d8
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984991"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028790"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="why-attack-surface-reduction-rules-are-important"></a>공격 표면 감소 규칙이 중요한 이유
@@ -160,7 +159,7 @@ DeviceEvents
 
 ## <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
-다음 표 및 하위 섹션에서는 15개 공격 표면 감소 규칙 각각에 대해 설명하고 있습니다. 공격 표면 감소 규칙은 규칙 이름에 따라 사전순으로 나열됩니다.
+다음 표 및 하위 섹션에서는 16개 공격 표면 감소 규칙 각각에 대해 설명하고 있습니다. 공격 표면 감소 규칙은 규칙 이름에 따라 사전순으로 나열됩니다.
 
 그룹 정책 또는 PowerShell을 사용하여 공격 표면 감소 규칙을 구성하는 경우 GUID가 필요합니다. 반면에 사용자 또는 Microsoft Endpoint Manager Microsoft Intune GUID가 필요하지 않습니다.
 

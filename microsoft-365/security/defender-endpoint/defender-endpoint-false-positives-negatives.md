@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 1cd29c3a631334ee3a2791cca3c7ac1c83a1692f
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: b8060952960f89e274361bb6382f03d482346e0d
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903831"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028862"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender에서 가양성/가음성 처리
 
@@ -35,13 +35,13 @@ ms.locfileid: "52903831"
 
 **적용 대상**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806)
 
 끝점 보호 솔루션에서 가짓 긍정은 엔터티가 실제로 위협이 아닌 경우에도 악성으로 검색되고 식별된 파일 또는 프로세스와 같은 엔터티입니다. 거짓 부정은 실제로 악의적이어도 위협으로 검색되지 않은 엔터티입니다. 끝점용 Microsoft Defender를 포함하여 모든 위협 방지 솔루션에서 [가긍성/부정이](microsoft-defender-endpoint.md)발생할 수 있습니다.
 
 ![끝점용 Defender의 가짓 긍정 및 음수 정의](images/false-positives-overview.png)
 
-다행히 이러한 종류의 문제를 해결하고 줄이기 위한 단계를 수행하면 됩니다. Microsoft 365 [Defender(이전의](microsoft-defender-security-center.md) Microsoft Defender 보안 센터)에 가음성/부정이 표시될 경우 보안 운영에서 다음 프로세스를 사용하여 이를 해결하기 위한 단계를 취할 수 있습니다.
+다행히 이러한 종류의 문제를 해결하고 줄이기 위한 단계를 수행하면 됩니다. Microsoft 365 Defender(이전의 Microsoft Defender 보안 센터)에 가음성/부정이 표시될 경우 보안 운영에서 다음 프로세스를 사용하여 이를 해결하기 위한 단계를 취할 수 있습니다. [](microsoft-defender-security-center.md)
 
 1.  [경고 검토 및 분류](#part-1-review-and-classify-alerts) 
 2.  [수행된 수정 작업 검토](#part-2-review-remediation-actions)
@@ -66,7 +66,7 @@ ms.locfileid: "52903831"
 
 경고를 분류하거나 표시하지 말고 경고가 정확한지, 가음성인지 또는 양성인지 여부를 결정해야 합니다.
 
-1. Defender Microsoft 365 ()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
+1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하여 로그인합니다.
 
 2. 탐색 창에서 경고 큐 **를 선택 합니다.**
 
@@ -82,9 +82,9 @@ ms.locfileid: "52903831"
 
 ### <a name="classify-an-alert"></a>경고 분류
 
-경고는 Defender에서 가짓 긍정 또는 참 긍정으로 Microsoft 365 있습니다. 경고를 분류하면 시간이 지날수록 더 많은 참 경고와 더 적은 거짓 경고를 볼 수 있도록 끝점에 대해 Microsoft Defender를 교육하는 데 도움이 됩니다.
+알림은 알림에서 가짓 긍정 또는 참 긍정으로 분류될 Microsoft 365 Defender. 경고를 분류하면 시간이 지날수록 더 많은 참 경고와 더 적은 거짓 경고를 볼 수 있도록 끝점에 대해 Microsoft Defender를 교육하는 데 도움이 됩니다.
 
-1. Defender Microsoft 365 ()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
+1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하여 로그인합니다.
 
 2. 경고 **큐 를** 선택한 다음 경고를 선택합니다.
 
@@ -97,9 +97,9 @@ ms.locfileid: "52903831"
 
 ### <a name="suppress-an-alert"></a>경고 표시 안
 
-가음성 또는 참 긍정이지만 미미한 이벤트에 대한 경고가 있는 경우 Microsoft 365 Defender에서 해당 경고를 표시하지 Microsoft 365 있습니다. 경고를 표시하지는 것은 보안 작업 대시보드에서 노이즈를 줄이는 데 도움이 됩니다. 
+가음성 또는 참 긍정이지만 미미한 이벤트에 대한 경고가 있는 경우 경고를 표시하지 Microsoft 365 Defender. 경고를 표시하지는 것은 보안 작업 대시보드에서 노이즈를 줄이는 데 도움이 됩니다. 
 
-1. Defender Microsoft 365 ()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
+1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하여 로그인합니다.
 
 2. 탐색 창에서 경고 큐 **를 선택합니다.**
 
@@ -247,7 +247,7 @@ ms.locfileid: "52903831"
 
 [지표(특히](/microsoft-365/security/defender-endpoint/manage-indicators) 손상 표시기 또는 IoC)를 사용하면 보안 운영 팀이 엔터티의 검색, 방지 및 제외를 정의할 수 있습니다. 예를 들어 끝점용 Microsoft Defender의 검사 및 수정 작업에서 생략할 특정 파일을 지정할 수 있습니다. 또는 표시기를 사용하여 특정 파일, IP 주소 또는 URL에 대한 알림을 생성할 수 있습니다.
 
-엔터티를 끝점용 Microsoft Defender에 대한 제외로 지정하기 위해 해당 엔터티에 대한 "허용" 표시기를 생성합니다. 끝점용 Microsoft Defender의 이러한 "허용" 표시기는 차세대 [](overview-endpoint-detection-response.md) [보호,](microsoft-defender-antivirus-in-windows-10.md)끝점 감지 및 대응 및 자동화된 조사 & [적용됩니다.](/microsoft-365/security/defender-endpoint/automated-investigations)
+엔터티를 끝점용 Microsoft Defender에 대한 제외로 지정하기 위해 해당 엔터티에 대한 "허용" 표시기를 생성합니다. 끝점용 Microsoft Defender의 이러한 "허용" 표시기는 차세대 [](overview-endpoint-detection-response.md) [보호,](microsoft-defender-antivirus-in-windows-10.md)엔드포인트 감지 및 응답 및 자동화된 조사 & [적용됩니다.](/microsoft-365/security/defender-endpoint/automated-investigations)
 
 다음에 대해 "허용" 표시기를 만들 수 있습니다.
 
@@ -276,7 +276,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 - 맬웨어 방지 클라이언트 버전은 4.18.1906.x 이상입니다. 
 - 디바이스가 Windows 10 버전 1709 이상이 실행되고 있습니다. 
 
-사용자 지정 네트워크 표시기가 [Defender의 Microsoft 365 켜져 있습니다.](microsoft-defender-security-center.md) 자세한 내용은 고급 기능을 [참조합니다.](/microsoft-365/security/defender-endpoint/advanced-features)
+사용자 지정 네트워크 표시기는 의 에서 [Microsoft 365 Defender.](microsoft-defender-security-center.md) 자세한 내용은 고급 기능을 [참조합니다.](/microsoft-365/security/defender-endpoint/advanced-features)
 
 #### <a name="indicators-for-application-certificates"></a>응용 프로그램 인증서 표시기 
 
@@ -442,7 +442,7 @@ PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집�
 
 이 문서의 모든 단계를 수행한 후 여전히 도움이 필요한 경우 기술 지원에 문의하세요.
 
-1. Microsoft 365 Defender( [https://security.microsoft.com](https://security.microsoft.com) )로 이동하고 로그인합니다.
+1. 다음으로 Microsoft 365 Defender [https://security.microsoft.com](https://security.microsoft.com) ( ) 로 이동하고 로그인합니다.
 
 2. 오른쪽 위 모서리에서 물음표(**?**)를 선택한 다음 Microsoft 지원 **을 선택합니다.**
 
@@ -452,4 +452,4 @@ PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집�
 
 [끝점용 Microsoft Defender 관리](manage-atp-post-migration.md)
 
-[Defender Microsoft 365 개요](/microsoft-365/security/defender-endpoint/use) 
+[포털 Microsoft 365 Defender 개요](/microsoft-365/security/defender-endpoint/use) 

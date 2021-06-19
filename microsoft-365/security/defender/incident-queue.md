@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1240fbb8fb24b7231733db25e9a1859b2a84fd41
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 4d793d49d669510b722a72160ae396ee73ab9699
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022739"
+ms.locfileid: "53028514"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>인시던트 우선 순위를 Microsoft 365 Defender
 
@@ -98,7 +98,7 @@ Microsoft 365 Defender 상관 관계 분석을 적용하고 다양한 제품의 
 - 특정 관련 위협이 있는 인시던트
 - 특정 배우와의 인시던트
 
-유용한 필터 보기 목록을 URL로 컴파일하고 저장한 후 큐의 인시던트 처리 및 우선 순위를 [](manage-incidents.md) 지정하여 후속 분석을 위해 관리할 수 있습니다.
+유용한 필터 보기 목록을 URL로 컴파일하고 저장한 후 이를 사용하여 큐의 인시던트 처리 및 우선 [](manage-incidents.md) 순위를 빠르게 지정하고 후속 할당 및 분석을 위해 이를 관리할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

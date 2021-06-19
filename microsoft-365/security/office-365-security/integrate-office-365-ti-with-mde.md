@@ -19,12 +19,12 @@ description: Microsoft Defender를 Office 365 Microsoft Defender for Endpoint를
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 63ae9f8c1136a973e4fccb63ecfbaee2639c3f6f
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: e59f608a6f732f58002dfd2ff34666865ab23f3d
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904083"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028884"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 함께 Office 365 Microsoft Defender 사용
 
@@ -39,16 +39,16 @@ Microsoft Defender for Office 365 Microsoft Defender for Endpoint와 통합하�
 
 ![끝점용 Microsoft Defender를 사용하도록 설정하면 경고가 있는 장치 목록을 볼 수 있습니다.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
 
-이 예에서는 감지된 전자 메일 메시지의 받는 사람에게 4개의 장치가 있으며, 다른 하나는 경고를 표시하는지 볼 수 있습니다. 디바이스에 대한 링크를 클릭하면 Microsoft 365 [Defender(이전의](../defender-endpoint/microsoft-defender-security-center.md) Microsoft Defender 보안 센터) 페이지가 열립니다.
+이 예에서는 감지된 전자 메일 메시지의 받는 사람에게 4개의 장치가 있으며, 다른 하나는 경고를 표시하는지 볼 수 있습니다. 디바이스에 대한 링크를 클릭하면 해당 페이지가 [Microsoft 365 Defender(이전의](../defender-endpoint/microsoft-defender-security-center.md) Microsoft Defender 보안 센터).
 
 > [!TIP]
-> Microsoft 365 Defender 포털은 Microsoft Defender 보안 센터. [Defender의 끝점에 대한 Microsoft Defender를 Microsoft 365 참조합니다.](../defender/microsoft-365-security-center-mde.md)
+> Microsoft 365 Defender 포털이 Microsoft Defender 보안 센터. 에서 [Microsoft Defender for Endpoint를 Microsoft 365 Defender.](../defender/microsoft-365-security-center-mde.md)
 
 ## <a name="requirements"></a>요구 사항
 
-- 조직에 Microsoft Defender for Office 365(또는 E5용)Office 365 Microsoft Defender가 있어야 합니다.
+- 조직에는 Microsoft Defender for Office 365(또는 Office 365 E5) 및 끝점용 Microsoft Defender가 있어야 합니다.
 
-- 전역 관리자 또는 보안 관리자 역할(예: 보안 관리자)이 Microsoft 365. (보안 [및 준수 센터의 & 참조)](permissions-in-the-security-and-compliance-center.md)
+- 전역 관리자 또는 보안 관리자 역할(예: 보안 관리자)이 Microsoft 365. [(의 사용 권한 Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md))
 
 - 탐색기(또는 실시간 [검색)에 액세스할 수 있어야 합니다.](threat-explorer.md)
 
@@ -56,19 +56,17 @@ Microsoft Defender for Office 365 Microsoft Defender for Endpoint와 통합하�
 
 Microsoft Defender for Office 365 끝점용 Microsoft Defender와 통합은 Endpoint용 Defender 및 365용 Defender에서 Office 365.
 
-1. 전역 관리자 또는 보안 관리자로 이동하여 [https://protection.office.com](https://protection.office.com) 로그인합니다. (이 경우 Office 365 보안 & 센터로 진행됩니다.)
+1. 전역 관리자 또는 보안 관리자로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다. 이 경우 Microsoft 365 Defender 포털로 이동됩니다.
 
-2. 탐색 창에서 위협 관리 **탐색기를** \> **선택 합니다.**
+2. 탐색 창에서 전자 메일 전자 메일 &  \> **탐색기 를 선택 합니다.**
 
-   ![위협 관리 메뉴의 탐색기](../../media/ThreatMgmt-Explorer-nav.png)
-
-3. In the upper right corner of the screen, choose **Defender for Endpoint 설정 (MDE 설정)**.
+3. 화면의 오른쪽 위 모서리에서 **MDE** 단추를 설정.
 
 4. 끝점 연결용 Microsoft Defender 대화 상자에서 **끝점용 Microsoft Defender에 커넥트 를 으로 전환합니다.**
 
-   ![끝점 연결용 Microsoft Defender](../../media/Explorer-WDATPConnection-dialog.png)
+    :::image type="content" source="../../media/explorer-mdeconnection-dialognew.png" alt-text="MDE 연결":::
 
-5. Defender Microsoft 365(로 [https://security.microsoft.com](https://security.microsoft.com) 이동).
+5. Microsoft 365 Defender 포털( 로 [https://security.microsoft.com](https://security.microsoft.com) 이동합니다.
 
 6. 탐색 모음에서 를 **설정.** 그런 다음 **일반에서** 고급 기능을 **선택 합니다.**
 

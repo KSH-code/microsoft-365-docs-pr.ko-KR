@@ -19,12 +19,12 @@ description: 관리자는 가장 인사이트의 작동 방식에 대해 배울 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e1b99590d7ae96ad8371eb2a2fab5fb7e8f94d07
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: b6aab20cc9050152b7ba9f86baed887969ad4da0
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879039"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029018"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Defender for Office 365
 
@@ -48,25 +48,26 @@ ms.locfileid: "52879039"
 
 Microsoft 365 Defender 포털에서 가장 정보를 사용하여 가장 보호를 위해 구성한 가장된 보낸 사람 또는 보낸 사람 도메인의 메시지를 빠르게 식별할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 에서 Microsoft 365 Defender 포털을 열 수 <https://security.microsoft.com> 있습니다. 피싱 방지 페이지에서 가장 인사이트로 직접 이동하기 위해 를  사용하세요. <https://security.microsoft.com/antiphishing> 가장 인사이트 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/impersonationinsight> 사용하세요.
+- <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. 피싱 방지 페이지에서 가장 인사이트로 직접 이동하기 위해 를  사용하세요. <https://security.microsoft.com/antiphishing> 가장 인사이트 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/impersonationinsight> 사용하세요.
 
 - 이 문서의 절차를 수행하려면 Microsoft 365 Defender 포털에서 사용 권한을 할당해야 합니다.
+
   - **조직 관리**
   - **보안 관리자**
-  - **보안 읽기 권한자**
-  - **전역 읽기 권한자**
+  - **보안 읽기**
+  - **전역 읽기**
 
-  자세한 내용은 [Defender 포털의 Microsoft 365 참조하세요.](permissions-in-the-security-and-compliance-center.md)
+  자세한 내용은 Microsoft 365 Defender [포털의 사용 권한을 참조하세요.](permissions-in-the-security-and-compliance-center.md)
 
-  **참고:** Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 Defender 포털에서 필요한 사용 권한과 Microsoft 365.  자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  **참고:** Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 관리 센터 포털에서 필요한 사용 권한과 Microsoft 365 Defender 포털의 다른  기능에 대한 사용 권한이 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 - Microsoft Defender에서 피싱 방지 정책에서 가장 보호를 사용하도록 설정하고 구성할 수 Office 365. 가장 보호는 기본적으로 사용하도록 설정되어 있지 않습니다. 자세한 내용은 [Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 Office 365.
 
-## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 가장 Microsoft 365 열기
+## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 가장 Microsoft 365 Defender 열기
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책& 규칙 위협 정책 섹션으로 이동하여 피싱 방지 \>  \>  \>  \> **를 참조하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 및 규칙 위협 정책 & 피싱 방지 \>  \>  \>  \> **섹션으로 이동하세요.**
 
 2. 피싱 **방지** 페이지에서 가장 인사이트는 다음과 같이 표시됩니다.
 
