@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: c87289fc7017e75db3b8a5b84a8af3a42dc16a10
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: 550a1a84df88340de14caff08284ef6a8cadc9e9
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689124"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022489"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -86,7 +86,7 @@ ms.locfileid: "52689124"
 |문서가 암호화된 경우 Office 데스크톱 앱에서 공동 작성 및 자동 저장 사용 | [민감도 레이블로 암호화된 파일에 공동 작성 사용](sensitivity-labels-coauthoring.md)
 |문서 및 전자 메일에 자동으로 민감도 레이블 적용 | [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)|
 |민감도 레이블을 사용하여 Teams와 SharePoint에서 콘텐츠 보호 |[Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 민감도 레이블 사용하기](sensitivity-labels-teams-groups-sites.md)|
-|특정 민감도 레이블로 파일 또는 전자 메일 공유에 대해 사용자 차단 또는 경고 |[민감도 레이블을 DLP 정책의 조건으로 사용(미리 보기)](dlp-sensitivity-label-as-condition.md) |
+|특정 민감도 레이블로 파일 또는 전자 메일 공유에 대해 사용자 차단 또는 경고 |[DLP 정책에서 민감도 레이블을 조건으로 사용](dlp-sensitivity-label-as-condition.md) |
 |온 프레미스에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호 |[파일을 자동으로 분류하고 보호하는 Azure Information Protection 스캐너 배포](/azure/information-protection/deploy-aip-scanner)|
 |클라우드에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호|[클라우드에 저장된 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Power BI에서 레이블을 적용 및 확인하고 서비스 외부에서 데이터를 저장할 때 데이터를 보호합니다.|[Power BI의 민감도 레이블](/power-bi/admin/service-security-sensitivity-label-overview)|

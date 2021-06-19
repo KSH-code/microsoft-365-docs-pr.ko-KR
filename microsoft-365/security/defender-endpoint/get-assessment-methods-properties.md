@@ -1,6 +1,6 @@
 ---
 title: 장치당 평가 방법 및 속성 내보내기
-description: "\"데이터 원본\" 데이터를 끌어오는 위협 및 취약성 관리 정보를 제공합니다. 다양한 형식의 데이터를 얻기 위해 다른 API 호출이 있습니다. 일반적으로 각 API 호출에는 조직의 디바이스에 대한 필요합니다. 데이터 양은 매우 크기 때문에 두 가지 방법으로 검색할 수 있습니다."
+description: "\"데이터 원본\" 데이터를 끌어오는 위협 및 취약성 관리 정보를 제공합니다. 다양한 형식의 데이터를 얻기 위해 다른 API 호출이 있습니다. 일반적으로 각 API 호출에는 조직의 디바이스에 대한 필요합니다."
 keywords: api, api, 내보내기 평가, 장치 평가당, 컴퓨터 평가, 취약성 평가 보고서, 장치 취약점 평가, 장치 취약점 보고서, 보안 구성 평가, 보안 구성 보고서, 소프트웨어 취약점 평가, 소프트웨어 취약성 보고서, 컴퓨터의 취약점 보고서,
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: ace9f55b0b083faaeeb620700a43a1216c4451c2
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 3e5a91a33a4207daa30f1054f03655c846d297ec
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984871"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022441"
 ---
 # <a name="export-assessment-methods-and-properties-per-device"></a>장치당 평가 방법 및 속성 내보내기
 
@@ -54,7 +54,7 @@ ms.locfileid: "52984871"
 
 각 메서드에 대해 서로 다른 형식의 데이터를 얻을 수 있는 다른 API 호출이 있습니다. 데이터 양은 매우 크기 때문에 다음 두 가지 방법으로 데이터를 검색할 수 있습니다.
 
-- **OData**  API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어들입니다. 이 방법은 _100 K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
+- **JSON 응답**  API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 _100 K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
 
 - **파일을 통해** 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure 저장소 수 있습니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "52984871"
 
   - 다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
 
-_OData_ 또는 파일을 통해 수집되는 데이터는 현재 상태의 현재 스냅숏으로 기록 데이터를 포함하지 않습니다. 기록 데이터를 수집하려면 고객은 데이터를 자체 데이터 저장소에 저장해야 합니다.
+_JSON_ 응답 또는 파일을 통해 수집되는 데이터는 현재 상태의 현재 스냅숏으로 기록 데이터가 포함되지 않습니다.  기록 데이터를 수집하려면 고객은 데이터를 자체 데이터 저장소에 저장해야 합니다.
 
 ## <a name="1-export-secure-configurations-assessment"></a>1. 보안 구성 평가 내보내기
 
@@ -72,10 +72,10 @@ _OData_ 또는 파일을 통해 수집되는 데이터는 현재 상태의 현�
 
 메서드 | 데이터 형식 | 설명
 :---|:---|:---
-보안 구성 평가 **내보내기(OData)** | 장치 컬렉션에 따라 보안 구성. 참조: [1.2 속성(OData)](#12-properties-odata) | DeviceId, ConfigurationId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
-파일로 보안 **구성 평가 내보내기** | 장치 컬렉션에 따라 보안 구성. 참조: [1.2 속성(OData)](#12-properties-odata) | DeviceId, ConfigurationId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 1에서 모든 Azure 저장소 다운로드할 수 있습니다.  API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다. 2.  다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
+보안 구성 평가 **내보내기(JSON 응답)** | 장치 컬렉션에 따라 보안 구성. 참조: [1.2 속성(JSON 응답)](#12-properties-json-response) | DeviceId, ConfigurationId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
+파일로 보안 **구성 평가 내보내기** | 장치 컬렉션에 따라 보안 구성. 참조: [1.3 속성(파일을 통해)](#13-properties-via-files) | DeviceId, ConfigurationId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 1에서 모든 Azure 저장소 다운로드할 수 있습니다.  API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다. 2.  다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
 
-### <a name="12-properties-odata"></a>1.2 속성(OData)
+### <a name="12-properties-json-response"></a>1.2 속성(JSON 응답)
 
 속성(ID) | 데이터 형식 | 설명
 :---|:---|:---
@@ -109,10 +109,10 @@ GeneratedTime | 문자열 | 내보내기 생성 시간입니다.
 
 메서드 | 데이터 형식 | 설명
 :---|:---|:---
-OData(소프트웨어 인벤토리 **평가) 내보내기** | 장치 모음의 소프트웨어 인벤토리입니다. 참조: [2.2 속성(OData)](#22-properties-odata) | DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
+소프트웨어 인벤토리 평가 **내보내기(JSON 응답)** | 장치 모음의 소프트웨어 인벤토리입니다. 참조: [2.2 속성(JSON 응답)](#22-properties-json-response) | DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
 파일로 소프트웨어 인벤토리 **평가 내보내기** | 장치 파일로 소프트웨어 인벤토리. 참조: [2.3 속성(파일을 통해)](#23-properties-via-files) | DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 1에서 모든 Azure 저장소 다운로드할 수 있습니다.  API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다. 2.  다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
 
-### <a name="22-properties-odata"></a>2.2 속성(OData)
+### <a name="22-properties-json-response"></a>2.2 속성(JSON 응답)
 
 속성(ID) | 데이터 형식 | 설명
 :---|:---|:---
@@ -146,11 +146,11 @@ GeneratedTime | 문자열 | 내보내기 생성 시간입니다.
 
 메서드 | 데이터 형식 | 설명
 :---|:---|:---
-**OData(소프트웨어 취약점 평가) 내보내기** | 조사 컬렉션 참조: [3.2 속성(OData)](#32-properties-odata) | DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
+소프트웨어 취약점 평가 **내보내기(JSON 응답)** | 조사 컬렉션 참조: [3.2 속성(JSON 응답)](#32-properties-json-response) | DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
 파일로 소프트웨어 취약점 평가 **내보내기** | 조사 엔터티 참조: [3.3 속성(파일을 통해)](#33-properties-via-files) | DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 1에서 모든 Azure 저장소 다운로드할 수 있습니다.  API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다. 2.  다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
-**델타 내보내기** 소프트웨어 취약점 **평가(OData)** | 조사 컬렉션 참조: [3.4 속성 델타 내보내기 OData)](#34-properties-delta-export-odata) | DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId 및 EventTimestamp의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. <br><br> API는 OData 프로토콜에 따라 Json 응답으로 조직의 데이터를 끌어온다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 OData(전체 소프트웨어 취약성 평가)와 달리 델타 내보내기 OData API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 OData API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산하는 데도 사용할 수 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?"  <br><br> 소프트웨어 취약성에 대한 델타 내보내기 OData API 호출은 대상 날짜 범위에 대한 데이터만 반환하기 때문에 전체 _내보내기로 간주되지 않습니다._
+**델타 내보내기** 소프트웨어 취약점 **평가(JSON 응답)** | 조사 컬렉션 참조: [3.4 속성 델타 내보내기(JSON 응답)](#34-properties-delta-export-json-response) | DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId 및 EventTimestamp의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. <br><br> API는 JSON 응답으로 조직의 데이터를 끌어 습니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 전체 소프트웨어 취약점 평가(JSON 응답)와 달리 델타 내보내기 OData API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 OData API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산하는 데도 사용할 수 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?"  <br><br> 소프트웨어 취약성에 대한 델타 내보내기 OData API 호출은 대상 날짜 범위에 대한 데이터만 반환하기 때문에 전체 _내보내기로 간주되지 않습니다._
 
-### <a name="32-properties-odata"></a>3.2 속성(OData)
+### <a name="32-properties-json-response"></a>3.2 속성(JSON 응답)
 
 속성(ID) | 데이터 형식 | 설명
 :---|:---|:---
@@ -181,7 +181,7 @@ VulnerabilitySeverityLevel | 문자열 | CVSS 점수 및 위협 환경의 영향
 파일 내보내기 | array \[ string\]  | 조직의 현재 스냅숏을 저장하는 파일의 다운로드 URL 목록입니다.
 GeneratedTime | 문자열 | 내보내기 생성 시간입니다.
 
-### <a name="34-properties-delta-export-odata"></a>3.4 속성(델타 내보내기 OData)
+### <a name="34-properties-delta-export-json-response"></a>3.4 속성(델타 내보내기 JSON 응답)
 
 속성(ID) | 데이터 형식 | 설명
 :---|:---|:---

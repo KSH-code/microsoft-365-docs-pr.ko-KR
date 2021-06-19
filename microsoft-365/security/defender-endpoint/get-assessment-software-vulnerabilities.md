@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: ea05d37ebcd0953dd109f524775a55cf8d6b3683
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 6243da415c5cc509be33eabffd12516367164bff
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984967"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022873"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>장치당 소프트웨어 취약점 평가 내보내기
 
@@ -39,16 +39,16 @@ ms.locfileid: "52984967"
 
 다양한 형식의 데이터를 얻기 위해 다른 API 호출이 있습니다. 데이터 양은 매우 크기 때문에 다음 두 가지 방법으로 데이터를 검색할 수 있습니다.
 
-1. [소프트웨어 취약점 평가 OData 내보내기](#1-export-software-vulnerabilities-assessment-odata)  API는 OData 프로토콜에 따라 조직의 모든 데이터를 Json 응답으로 끌어들입니다. 이 방법은 _100 K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
+1. [소프트웨어 취약성 평가 **JSON 응답 내보내기**](#1-export-software-vulnerabilities-assessment-json-response)  API는 Json 응답으로 조직의 모든 데이터를 끌어 습니다. 이 방법은 _100 K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
 
-2. [파일을 통해 소프트웨어 취약성 평가 내보내기](#2-export-software-vulnerabilities-assessment-via-files) 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 100 K 장치가 넘는 대규모 조직에서는 Via-files를 권장합니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure 저장소 수 있습니다.
+2. [파일을 통해 소프트웨어 **취약성 평가 내보내기**](#2-export-software-vulnerabilities-assessment-via-files) 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 100 K 장치가 넘는 대규모 조직에서는 Via-files를 권장합니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure 저장소 수 있습니다.
 
    - API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.
 
    - 다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
 
-3. [델타 내보내기 소프트웨어 취약점 평가 OData](#3-delta-export-software-vulnerabilities-assessment-odata)  DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId 및 EventTimestamp의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다.
-API는 OData 프로토콜에 따라 Json 응답으로 조직의 데이터를 끌어온다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. <br><br> 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 OData(전체 소프트웨어 취약성 평가)와 달리 델타 내보내기 OData API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 OData API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산하는 데도 사용할 수 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?" <br><br> 소프트웨어 취약성에 대한 델타 내보내기 OData API 호출은 대상 날짜 범위에 대한 데이터만 반환하기 때문에 전체 _내보내기로 간주되지 않습니다._
+3. [델타 내보내기 소프트웨어 취약성 평가 **JSON 응답**](#3-delta-export-software-vulnerabilities-assessment-json-response)  DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId 및 EventTimestamp의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다.
+API는 Json 응답으로 조직의 데이터를 끌어 습니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. <br><br> 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 전체 "소프트웨어 취약점 평가(JSON 응답)"와 달리 델타 내보내기 OData API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 JSON 응답 API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산할 수도 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?" <br><br> 소프트웨어 취약성에 대한 델타 내보내기 JSON 응답 API 호출은 대상 날짜 범위에 대한 데이터만 반환하기 때문에 전체 _내보내기로 간주되지 않습니다._
 
 _OData_ 또는 파일을 통해 수집되는 데이터는 현재 상태의 현재 스냅숏으로 기록 데이터를 포함하지 않습니다. 기록 데이터를 수집하려면 고객은 데이터를 자체 데이터 저장소에 저장해야 합니다.
 
@@ -56,17 +56,17 @@ _OData_ 또는 파일을 통해 수집되는 데이터는 현재 상태의 현�
 >
 > 다른 설명이 없는 한 나열된 **** 모든 내보내기 평가 방법은 전체 내보내기 및 장치(장치당 **** **_참조)입니다._**
 
-## <a name="1-export-software-vulnerabilities-assessment-odata"></a>1. OData(소프트웨어 취약점 평가) 내보내기
+## <a name="1-export-software-vulnerabilities-assessment-json-response"></a>1. 소프트웨어 취약점 평가 내보내기(JSON 응답)
 
 ### <a name="11-api-method-description"></a>1.1 API 메서드 설명
 
 이 API 응답에는 장치당 설치된 소프트웨어의 모든 데이터가 포함되어 있습니다. DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CVEID의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다.
 
-#### <a name="limitations"></a>제한 사항
+#### <a name="111-limitations"></a>1.1.1 제한 사항
 
->- 최대 페이지 크기는 200,000개입니다.
->
->- 이 API에 대한 속도 제한은 분당 30개 호출과 시간당 1,000개 호출입니다.
+- 최대 페이지 크기는 200,000개입니다.
+
+- 이 API에 대한 속도 제한은 분당 30개 호출과 시간당 1,000개 호출입니다.
 
 ### <a name="12-permissions"></a>1.2 사용 권한
 
@@ -89,15 +89,16 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 - $top - 반환할 결과 수입니다(@odata.nextLink를 반환하지 않습니다. 따라서 모든 데이터를 끌어오지 않습니다.
 
 ### <a name="15-properties"></a>1.5 속성
->
+
 >[!Note]
 >
->- 각 레코드는 약 1KB의 데이터입니다. 올바른 pageSize 매개 변수를 선택할 때 이 문제를 고려해야 합니다.
+>- 각 레코드는 약 1 KB의 데이터입니다. 올바른 pageSize 매개 변수를 선택할 때 이 문제를 고려해야 합니다.
 >
 >- 응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있습니다. 문서화한 열만 사용하시기 바랍니다.
 >
 >- 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
->
+
+<br/>
 
 속성(ID) | 데이터 형식 | 설명 | 반환된 값의 예
 :---|:---|:---|:---
@@ -335,17 +336,17 @@ GET https://api-us.securitycenter.contoso.com/api/machines/SoftwareVulnerabiliti
 }
 ```
 
-## <a name="3-delta-export-software-vulnerabilities-assessment-odata"></a>3. 델타 수출 소프트웨어 취약점 평가(OData)
+## <a name="3-delta-export-software-vulnerabilities-assessment-json-response"></a>3. 델타 수출 소프트웨어 취약점 평가(JSON 응답)
 
 ### <a name="31-api-method-description"></a>3.1 API 메서드 설명
 
-DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 OData 프로토콜에 따라 Json 응답으로 조직의 데이터를 끌어온다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 OData(전체 소프트웨어 취약성 평가)와 달리 델타 내보내기 OData API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 OData API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산하는 데도 사용할 수 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?"
+DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 Json 응답으로 조직의 데이터를 끌어 습니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 전체 소프트웨어 취약점 평가(JSON 응답)와 달리 델타 내보내기 JSON 응답 API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 JSON 응답 API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산할 수도 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?"
 
 >[!NOTE]
 >
->적어도 일주일에 한 번씩 장치 API 호출에 의해 전체 내보내기 소프트웨어 취약성 평가를 사용하는 것이 좋습니다. 이러한 추가 내보내기 소프트웨어 취약성은 장치(델타) API 호출에 따라 변경됩니다.  다른 평가 OData API와 달리 "델타 내보내기"는 전체 내보내기되지 않습니다. 델타 내보내기에는 선택한 날짜와 현재 날짜 사이에 변경된 내용만 포함됩니다("델타" API 호출).
+>적어도 일주일에 한 번씩 장치 API 호출에 의해 전체 내보내기 소프트웨어 취약성 평가를 사용하는 것이 좋습니다. 이러한 추가 내보내기 소프트웨어 취약성은 장치(델타) API 호출에 따라 변경됩니다.  다른 평가 JSON 응답 API와 달리 "델타 내보내기"는 전체 내보내기되지 않습니다. 델타 내보내기에는 선택한 날짜와 현재 날짜 사이에 변경된 내용만 포함됩니다("델타" API 호출).
 
-#### <a name="limitations"></a>제한 사항
+#### <a name="311-limitations"></a>3.1.1 제한 사항
 
 - 최대 페이지 크기는 200,000개입니다.
 
@@ -379,10 +380,10 @@ GET /api/machines/SoftwareVulnerabilityChangesByMachine
 반환되는 각 레코드에는 장치 OData API에 대한 전체 내보내기 소프트웨어 취약점 평가의 모든 데이터와 _**EventTimestamp**_ 및 Status의 두 개의 추가 필드가 _**포함되어 있습니다.**_
 
 >[!NOTE]
->-응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있으므로 문서화한 열만 사용하시기 바랍니다.
+>- 응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있으므로 문서화한 열만 사용하시기 바랍니다.
 >
->-다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
-<br>
+>- 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
+<br><br/>
 
 속성(ID) | 데이터 형식 | 설명 | 반환된 값의 예
 :---|:---|:---|:---
@@ -411,12 +412,12 @@ VulnerabilitySeverityLevel | 문자열 | CVSS 점수 및 위협 환경의 영향
 #### <a name="clarifications"></a>설명
 
 - 소프트웨어가 버전 1.0에서 버전 2.0으로 업데이트된 경우 두 버전이 모두 CVE-A에 노출되면 2개의 개별 이벤트를 받게 됩니다.  
-   a. Fixed – 버전 1.0의 CVE-A가 수정되었습니다.  
-   b. 신규 – 버전 2.0의 CVE-A가 추가되었습니다.
+   1. Fixed – 버전 1.0의 CVE-A가 수정되었습니다.  
+   1. 신규 – 버전 2.0의 CVE-A가 추가되었습니다.
 
 - 버전 1.0이 있는 소프트웨어에서 특정 시간(예: 1월 10일)에 특정 취약성(예: CVE-A)이 처음 발견된 경우 며칠 후에 동일한 CVE-A에 노출된 버전 2.0으로 소프트웨어가 업데이트된 경우 다음 두 개의 분리된 이벤트를 받게 됩니다.  
-   a. Fixed – CVE-X, FirstSeenTimestamp January 10, version 1,0.  
-   b. 신규 – CVE-X, FirstSeenTimestamp 1월 10일 버전 2.0.
+   1. Fixed – CVE-X, FirstSeenTimestamp January 10, version 1,0.  
+   1. 신규 – CVE-X, FirstSeenTimestamp 1월 10일 버전 2.0.
 
 ### <a name="36-examples"></a>3.6 예제
 

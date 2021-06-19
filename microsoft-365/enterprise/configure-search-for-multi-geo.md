@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Multi-Geo 환경에서 검색을 구성하는 방법을 학습합니다. 다중 위치 환경의 비즈니스용 OneDrive 클라이언트만 결과를 반환할 수 있습니다.
-ms.openlocfilehash: b3a96b1d0652cb954c58ae410583befa078460d9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 31e0c4ae3fe73f2f6e113dbc38989726eb1ca590
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911165"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022333"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo 검색 구성
 
@@ -324,5 +324,5 @@ https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client
 var keywordQuery = new KeywordQuery(ctx);
 keywordQuery.QueryText = query.SearchQueryText;
 keywordQuery.ClientType = <enter a string here>;
-keywordQuery["EnableMultiGeoSearch"] = true;
+keywordQuery.Properties["EnableMultiGeoSearch"] = true;
 ```

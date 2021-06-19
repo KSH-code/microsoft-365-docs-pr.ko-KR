@@ -21,12 +21,12 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eab7cdbed592975739fdcfa1089e6f7d2c25d880
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 00dcd5d8f5d18b59de67318049cc1e5807451f14
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904119"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022357"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -122,13 +122,7 @@ Office 365용 Microsoft Defender에는 고급 [보고 대시보드](view-reports
 보고서는 실시간으로 업데이트되어 최신 정보를 제공합니다. 이 보고서는 또한 권장 사항을 제공하고 임박한 위협에 대해 경고합니다. 사전 정의된 보고서에는 다음이 포함됩니다.
 
 - [위협 탐색기 (또는 실시간 검출)](threat-explorer.md)
-
 - [위협 방지 상태 보고서](view-reports-for-mdo.md#threat-protection-status-report)
-
-- [Office 365용 Defender 파일 형식 보고서](view-reports-for-mdo.md#defender-for-office-365-file-types-report)
-
-- [Office 365용 Defender 메시지 처리 보고서](view-reports-for-mdo.md#defender-for-office-365-message-disposition-report)
-
 - ... 그리고 그 외에 몇 가지가 더 있습니다.
 
 ## <a name="use-threat-investigation-and-response-capabilities"></a>위협 조사 및 응답 기능 사용
