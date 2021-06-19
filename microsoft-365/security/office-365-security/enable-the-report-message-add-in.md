@@ -14,219 +14,219 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: 웹, 개별 사용자 또는 전체 조직에 대해 웹에서 Outlook Outlook 보고서 피싱 추가 기능 또는 보고서 피싱 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
+description: Outlook 및 웹용 Outlook, 개별 사용자 또는 전체 조직에 대해 보고서 메시지 또는 피싱 보고 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ff91cf4c99c9552ab5f5fecd7c6d2efee8d2d9a8
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: c7e5136e6d1a118df2e0e91f09a79a9a63e88052
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789259"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028586"
 ---
-# <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a><span data-ttu-id="7ccca-103">보고서 메시지 또는 피싱 보고 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="7ccca-103">Enable the Report Message or the Report Phishing add-ins</span></span>
+# <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a><span data-ttu-id="4f3d4-103">보고서 메시지 또는 피싱 보고 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="4f3d4-103">Enable the Report Message or the Report Phishing add-ins</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-<span data-ttu-id="7ccca-104">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="7ccca-104">**Applies to**</span></span>
-- [<span data-ttu-id="7ccca-105">Exchange Online Protection</span><span class="sxs-lookup"><span data-stu-id="7ccca-105">Exchange Online Protection</span></span>](exchange-online-protection-overview.md)
-- [<span data-ttu-id="7ccca-106">Office 365용 Microsoft Defender 플랜 1 및 플랜 2</span><span class="sxs-lookup"><span data-stu-id="7ccca-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](defender-for-office-365.md)
-- [<span data-ttu-id="7ccca-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="7ccca-107">Microsoft 365 Defender</span></span>](../defender/microsoft-365-defender.md)
+<span data-ttu-id="4f3d4-104">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-104">**Applies to**</span></span>
+- [<span data-ttu-id="4f3d4-105">Exchange Online Protection</span><span class="sxs-lookup"><span data-stu-id="4f3d4-105">Exchange Online Protection</span></span>](exchange-online-protection-overview.md)
+- [<span data-ttu-id="4f3d4-106">Office 365용 Microsoft Defender 플랜 1 및 플랜 2</span><span class="sxs-lookup"><span data-stu-id="4f3d4-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](defender-for-office-365.md)
+- [<span data-ttu-id="4f3d4-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="4f3d4-107">Microsoft 365 Defender</span></span>](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> <span data-ttu-id="7ccca-108">사서함이 있는 Microsoft 365 조직의 관리자인 Exchange Online 보안 및 준수 센터의 제출 포털을 & 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-108">If you're an admin in a Microsoft 365 organization with Exchange Online mailboxes, we recommend that you use the Submissions portal in the Security & Compliance Center.</span></span> <span data-ttu-id="7ccca-109">자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)</span><span class="sxs-lookup"><span data-stu-id="7ccca-109">For more information, see [Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).</span></span>
+> <span data-ttu-id="4f3d4-108">Exchange Online 사서함이 있는 Microsoft 365 조직의 관리자인 경우 Microsoft 365 Defender의 제출 포털을 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-108">If you're an admin in a Microsoft 365 organization with Exchange Online mailboxes, we recommend that you use the Submissions portal in Microsoft 365 Defender.</span></span> <span data-ttu-id="4f3d4-109">자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-109">For more information, see [Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).</span></span>
 
-<span data-ttu-id="7ccca-110">웹에서 Outlook 및 Outlook(이전의 Outlook Web App)에 대한 피싱 보고 추가 기능을 사용하면 사용자가 분석을 위해 Microsoft 및 계열사에 가음성(나쁜 것으로 표시된 좋은 전자 메일) 또는 거짓 부정(잘못된 전자 메일 허용)을 쉽게 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-110">The Report Message and Report Phishing add-ins for Outlook and Outlook on the web (formerly known as Outlook Web App) enable people to easily report false positives (good email marked as bad) or false negatives (bad email allowed) to Microsoft and its affiliates for analysis.</span></span> 
+<span data-ttu-id="4f3d4-110">Outlook 및 웹용 Outlook(이전의 Outlook Web App)에 대한 피싱 보고 추가 기능을 사용하면 사용자가 분석을 위해 Microsoft 및 계열사에 가음성(나쁜 것으로 표시된 양호한 전자 메일) 또는 거짓 부정(잘못된 전자 메일 허용)을 쉽게 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-110">The Report Message and Report Phishing add-ins for Outlook and Outlook on the web (formerly known as Outlook Web App) enable people to easily report false positives (good email marked as bad) or false negatives (bad email allowed) to Microsoft and its affiliates for analysis.</span></span> 
 
-<span data-ttu-id="7ccca-111">Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효율성을 향상합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-111">Microsoft uses these submissions to improve the effectiveness of email protection technologies.</span></span> <span data-ttu-id="7ccca-112">예를 들어 피싱 보고 추가 기능을 사용하여 많은 메시지를 보고하는 사람이 많은 경우를 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-112">For example, suppose that people are reporting many messages using the Report Phishing add-in.</span></span> <span data-ttu-id="7ccca-113">이 정보는 보안 대시보드 및 기타 보고서에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-113">This information surfaces in the Security Dashboard and other reports.</span></span> <span data-ttu-id="7ccca-114">조직의 보안 팀은 이 정보를 피싱 방지 정책을 업데이트해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-114">Your organization's security team can use this information as an indication that anti-phishing policies might need to be updated.</span></span> 
+<span data-ttu-id="4f3d4-111">Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효율성을 향상합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-111">Microsoft uses these submissions to improve the effectiveness of email protection technologies.</span></span> <span data-ttu-id="4f3d4-112">예를 들어 피싱 보고 추가 기능을 사용하여 많은 메시지를 보고하는 사람이 많은 경우를 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-112">For example, suppose that people are reporting many messages using the Report Phishing add-in.</span></span> <span data-ttu-id="4f3d4-113">이 정보는 보안 대시보드 및 기타 보고서에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-113">This information surfaces in the Security Dashboard and other reports.</span></span> <span data-ttu-id="4f3d4-114">조직의 보안 팀은 이 정보를 피싱 방지 정책을 업데이트해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-114">Your organization's security team can use this information as an indication that anti-phishing policies might need to be updated.</span></span> 
 
-<span data-ttu-id="7ccca-115">보고서 메시지 또는 피싱 보고 추가 기능을 설치할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-115">You can install either the Report Message or Report Phishing add-in.</span></span> <span data-ttu-id="7ccca-116">사용자가 스팸 및 피싱 메시지를 모두 보고하게 하려는 경우 조직에 보고서 메시지 추가 기능을 배포합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-116">If you want your users to report both spam and phishing messages, deploy the Report Message add-in in your organization.</span></span> <span data-ttu-id="7ccca-117">자세한 내용은 Enable the Report Message add-in을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="7ccca-117">For more information, see Enable the Report Message add-in.</span></span> 
+<span data-ttu-id="4f3d4-115">보고서 메시지 또는 피싱 보고 추가 기능을 설치할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-115">You can install either the Report Message or Report Phishing add-in.</span></span> <span data-ttu-id="4f3d4-116">사용자가 스팸 및 피싱 메시지를 모두 보고하게 하려는 경우 조직에 보고서 메시지 추가 기능을 배포합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-116">If you want your users to report both spam and phishing messages, deploy the Report Message add-in in your organization.</span></span> <span data-ttu-id="4f3d4-117">자세한 내용은 Enable the Report Message add-in을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-117">For more information, see Enable the Report Message add-in.</span></span> 
 
-<span data-ttu-id="7ccca-118">보고서 메시지 추가 기능은 스팸 및 피싱 메시지를 모두 보고하는 옵션을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-118">The Report Message add-in provides the option to report both spam and phishing messages.</span></span> <span data-ttu-id="7ccca-119">관리자는 조직에 대해 보고서 메시지 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-119">Admins can enable the Report Message add-in for the organization, and individual users can install it for themselves.</span></span> 
+<span data-ttu-id="4f3d4-118">보고서 메시지 추가 기능은 스팸 및 피싱 메시지를 모두 보고하는 옵션을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-118">The Report Message add-in provides the option to report both spam and phishing messages.</span></span> <span data-ttu-id="4f3d4-119">관리자는 조직에 대해 보고서 메시지 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-119">Admins can enable the Report Message add-in for the organization, and individual users can install it for themselves.</span></span> 
 
-<span data-ttu-id="7ccca-120">피싱 보고 추가 기능은 피싱 메시지만 보고하는 옵션을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-120">The Report Phishing add-in provides the option to report only phishing messages.</span></span> <span data-ttu-id="7ccca-121">관리자는 조직에 대해 피싱 보고 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-121">Admins can enable the Report Phishing add-in for the organization, and individual users can install it for themselves.</span></span> 
+<span data-ttu-id="4f3d4-120">피싱 보고 추가 기능은 피싱 메시지만 보고하는 옵션을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-120">The Report Phishing add-in provides the option to report only phishing messages.</span></span> <span data-ttu-id="4f3d4-121">관리자는 조직에 대해 피싱 보고 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-121">Admins can enable the Report Phishing add-in for the organization, and individual users can install it for themselves.</span></span> 
 
-<span data-ttu-id="7ccca-122">개별 사용자인 경우 추가 기능을 모두 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-122">If you're an individual user, you can enable both the add-ins for yourself.</span></span>
+<span data-ttu-id="4f3d4-122">개별 사용자인 경우 추가 기능을 모두 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-122">If you're an individual user, you can enable both the add-ins for yourself.</span></span>
 
-<span data-ttu-id="7ccca-123">전역 관리자 또는 Exchange Online 관리자로서 Exchange OAuth 인증을 사용하도록 구성된 경우 조직에 대해 보고서 메시지 추가 기능 및 피싱 보고 추가 기능을 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-123">If you're a global administrator or an Exchange Online administrator, and Exchange is configured to use OAuth authentication, you can enable the Report Message add-in and the Report Phishing add-in for your organization.</span></span> <span data-ttu-id="7ccca-124">이제 중앙 집중식 배포를 통해 두 추가 [기능을 모두 사용할 수 있습니다.](../../admin/manage/centralized-deployment-of-add-ins.md)</span><span class="sxs-lookup"><span data-stu-id="7ccca-124">Both add-ins are now available through [Centralized Deployment](../../admin/manage/centralized-deployment-of-add-ins.md).</span></span>
+<span data-ttu-id="4f3d4-123">전역 관리자 또는 Exchange Online 관리자인 경우 Exchange가 OAuth 인증을 사용하도록 구성된 경우 조직에 대해 보고서 메시지 추가 기능 및 피싱 보고 추가 기능을 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-123">If you're a global administrator or an Exchange Online administrator, and Exchange is configured to use OAuth authentication, you can enable the Report Message add-in and the Report Phishing add-in for your organization.</span></span> <span data-ttu-id="4f3d4-124">이제 중앙 집중식 배포를 통해 두 추가 [기능을 모두 사용할 수 있습니다.](../../admin/manage/centralized-deployment-of-add-ins.md)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-124">Both add-ins are now available through [Centralized Deployment](../../admin/manage/centralized-deployment-of-add-ins.md).</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="7ccca-125">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="7ccca-125">What do you need to know before you begin?</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="4f3d4-125">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="4f3d4-125">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="7ccca-126">보고서 메시지 추가 기능 및 피싱 보고 추가 기능 모두 대부분의 Microsoft 365 및 다음 제품과 함께 작동합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-126">Both the Report Message add-in and the Report Phishing add-in works with most Microsoft 365 subscriptions and the following products:</span></span>
-  - <span data-ttu-id="7ccca-127">웹용 Outlook</span><span class="sxs-lookup"><span data-stu-id="7ccca-127">Outlook on the web</span></span>
-  - <span data-ttu-id="7ccca-128">Outlook 2013 SP1 이상</span><span class="sxs-lookup"><span data-stu-id="7ccca-128">Outlook 2013 SP1 or later</span></span>
-  - <span data-ttu-id="7ccca-129">Mac용 Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7ccca-129">Outlook 2016 for Mac</span></span>
-  - <span data-ttu-id="7ccca-130">Outlook 앱용 Microsoft 365 포함된 Enterprise</span><span class="sxs-lookup"><span data-stu-id="7ccca-130">Outlook included with Microsoft 365 apps for Enterprise</span></span>
-  - <span data-ttu-id="7ccca-131">Outlook iOS 및 Android용 앱</span><span class="sxs-lookup"><span data-stu-id="7ccca-131">Outlook app for iOS and Android</span></span>
+- <span data-ttu-id="4f3d4-126">보고서 메시지 추가 기능 및 피싱 보고 추가 기능 모두 대부분의 Microsoft 365 구독 및 다음 제품과 함께 작동합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-126">Both the Report Message add-in and the Report Phishing add-in works with most Microsoft 365 subscriptions and the following products:</span></span>
+  - <span data-ttu-id="4f3d4-127">웹용 Outlook</span><span class="sxs-lookup"><span data-stu-id="4f3d4-127">Outlook on the web</span></span>
+  - <span data-ttu-id="4f3d4-128">Outlook 2013 SP1 이상</span><span class="sxs-lookup"><span data-stu-id="4f3d4-128">Outlook 2013 SP1 or later</span></span>
+  - <span data-ttu-id="4f3d4-129">Mac용 Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4f3d4-129">Outlook 2016 for Mac</span></span>
+  - <span data-ttu-id="4f3d4-130">엔터프라이즈용 Microsoft 365 앱에 포함된 Outlook</span><span class="sxs-lookup"><span data-stu-id="4f3d4-130">Outlook included with Microsoft 365 apps for Enterprise</span></span>
+  - <span data-ttu-id="4f3d4-131">iOS 및 Android용 Outlook 앱</span><span class="sxs-lookup"><span data-stu-id="4f3d4-131">Outlook app for iOS and Android</span></span>
 
-- <span data-ttu-id="7ccca-132">두 추가 기능을 모두 공유 사서함 또는 조직에 있는 사서함에 사용할 Exchange 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-132">Both add-ins are not available for shared mailboxes or mailboxes in on-premises Exchange organizations.</span></span>
+- <span data-ttu-id="4f3d4-132">두 추가 기능을 모두 공유 사서함 또는 사내 Exchange 조직의 사서함에 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-132">Both add-ins are not available for shared mailboxes or mailboxes in on-premises Exchange organizations.</span></span>
 
-- <span data-ttu-id="7ccca-133">기존 웹 브라우저는 보고서 메시지와 피싱 보고 추가 기능 둘 다에서 작동해야 합니다. 그러나 추가 기능을 사용할 수 없는 경우 또는 예상대로 작동하지 않는 경우 다른 브라우저를 사용해 보십시오.</span><span class="sxs-lookup"><span data-stu-id="7ccca-133">Your existing web browser should work with both the Report Message and Report Phishing add-ins. But, if you notice the add-in is not available or not working as expected, try a different browser.</span></span>
+- <span data-ttu-id="4f3d4-133">기존 웹 브라우저는 보고서 메시지와 피싱 보고 추가 기능 둘 다에서 작동해야 합니다. 그러나 추가 기능을 사용할 수 없는 경우 또는 예상대로 작동하지 않는 경우 다른 브라우저를 사용해 보십시오.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-133">Your existing web browser should work with both the Report Message and Report Phishing add-ins. But, if you notice the add-in is not available or not working as expected, try a different browser.</span></span>
 
-- <span data-ttu-id="7ccca-134">조직 설치의 경우 OAuth 인증을 사용하도록 조직을 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-134">For organizational installs, the organization needs to be configured to use OAuth authentication.</span></span> <span data-ttu-id="7ccca-135">자세한 내용은 추가 기능의 중앙 집중식 배포가 조직에 [적합한지 확인을 참조하세요.](../../admin/manage/centralized-deployment-of-add-ins.md)</span><span class="sxs-lookup"><span data-stu-id="7ccca-135">For more information, see [Determine if Centralized Deployment of add-ins works for your organization](../../admin/manage/centralized-deployment-of-add-ins.md).</span></span>
+- <span data-ttu-id="4f3d4-134">조직 설치의 경우 OAuth 인증을 사용하도록 조직을 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-134">For organizational installs, the organization needs to be configured to use OAuth authentication.</span></span> <span data-ttu-id="4f3d4-135">자세한 내용은 추가 기능의 중앙 집중식 배포가 조직에 [적합한지 확인을 참조하세요.](../../admin/manage/centralized-deployment-of-add-ins.md)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-135">For more information, see [Determine if Centralized Deployment of add-ins works for your organization](../../admin/manage/centralized-deployment-of-add-ins.md).</span></span>
 
-- <span data-ttu-id="7ccca-136">관리자는 전역 관리자 역할 그룹의 구성원이 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-136">Admins need to be a member of the Global admins role group.</span></span> <span data-ttu-id="7ccca-137">자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="7ccca-137">For more information, see [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+- <span data-ttu-id="4f3d4-136">관리자는 전역 관리자 역할 그룹의 구성원이 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-136">Admins need to be a member of the Global admins role group.</span></span> <span data-ttu-id="4f3d4-137">자세한 내용은 [Microsoft 365 Defender의 사용 권한을 참조하세요.](permissions-in-the-security-and-compliance-center.md)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-137">For more information, see [Permissions in the Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md).</span></span>
 
-- <span data-ttu-id="7ccca-138">보고서 메시지 기능을 사용하여 메시지를 보고하는 방법에 대한 자세한 내용은 report [false positives and false negatives in Outlook.](report-false-positives-and-false-negatives.md)</span><span class="sxs-lookup"><span data-stu-id="7ccca-138">For more information on how to report a message using the Report Message feature, see [Report false positives and false negatives in Outlook](report-false-positives-and-false-negatives.md).</span></span>
+- <span data-ttu-id="4f3d4-138">보고서 메시지 기능을 사용하여 메시지를 보고하는 방법에 대한 자세한 내용은 Outlook에서 가짓 긍정 및 거짓 부정 [보고를 참조하세요.](report-false-positives-and-false-negatives.md)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-138">For more information on how to report a message using the Report Message feature, see [Report false positives and false negatives in Outlook](report-false-positives-and-false-negatives.md).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="7ccca-139">사용자 제출 정책을 사용할 수 Outlook 기본 제공 보고 환경은 사용하지 [않는 것이 좋습니다.](./user-submission.md)</span><span class="sxs-lookup"><span data-stu-id="7ccca-139">We don't recommend the built-in reporting experience in Outlook because it can't use the [user submission policy](./user-submission.md).</span></span> <span data-ttu-id="7ccca-140">대신 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-140">We recommend using the Report Message add-in or the Report Phishing add-in instead.</span></span>
+> <span data-ttu-id="4f3d4-139">사용자 제출 정책을 사용할 수 없는 Outlook의 기본 제공 보고 환경은 [사용하지 않는 것이 좋습니다.](./user-submission.md)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-139">We don't recommend the built-in reporting experience in Outlook because it can't use the [user submission policy](./user-submission.md).</span></span> <span data-ttu-id="4f3d4-140">대신 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-140">We recommend using the Report Message add-in or the Report Phishing add-in instead.</span></span>
 
-## <a name="get-the-report-message-add-in"></a><span data-ttu-id="7ccca-141">보고서 메시지 추가 기능 확인</span><span class="sxs-lookup"><span data-stu-id="7ccca-141">Get the Report Message add-in</span></span>
+## <a name="get-the-report-message-add-in"></a><span data-ttu-id="4f3d4-141">보고서 메시지 추가 기능 확인</span><span class="sxs-lookup"><span data-stu-id="4f3d4-141">Get the Report Message add-in</span></span>
 
-### <a name="get-the-add-in-for-yourself"></a><span data-ttu-id="7ccca-142">직접 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="7ccca-142">Get the add-in for yourself</span></span>
+### <a name="get-the-add-in-for-yourself"></a><span data-ttu-id="4f3d4-142">직접 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="4f3d4-142">Get the add-in for yourself</span></span>
 
-1. <span data-ttu-id="7ccca-143">에서 Microsoft AppSource로 이동하여 보고서 메시지 추가 기능을 <https://appsource.microsoft.com/marketplace/apps> 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-143">Go to the Microsoft AppSource at <https://appsource.microsoft.com/marketplace/apps> and search for the Report Message add-in.</span></span> <span data-ttu-id="7ccca-144">보고서 메시지 추가 기능으로 직접 이동하기 위해 로 <https://appsource.microsoft.com/product/office/wa104381180> 이동하십시오.</span><span class="sxs-lookup"><span data-stu-id="7ccca-144">To go directly to the Report Message add-in, go to <https://appsource.microsoft.com/product/office/wa104381180>.</span></span>
+1. <span data-ttu-id="4f3d4-143">에서 Microsoft AppSource로 이동하여 보고서 메시지 추가 기능을 <https://appsource.microsoft.com/marketplace/apps> 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-143">Go to the Microsoft AppSource at <https://appsource.microsoft.com/marketplace/apps> and search for the Report Message add-in.</span></span> <span data-ttu-id="4f3d4-144">보고서 메시지 추가 기능으로 직접 이동하기 위해 로 <https://appsource.microsoft.com/product/office/wa104381180> 이동하십시오.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-144">To go directly to the Report Message add-in, go to <https://appsource.microsoft.com/product/office/wa104381180>.</span></span>
 
-2. <span data-ttu-id="7ccca-145">지금 **다운로드를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-145">Click **GET IT NOW**.</span></span>
+2. <span data-ttu-id="4f3d4-145">지금 **다운로드를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-145">Click **GET IT NOW**.</span></span>
 
    ![보고서 메시지 - 지금 시작](../../media/ReportMessageGETITNOW.png)
 
-3. <span data-ttu-id="7ccca-147">나타나는 대화 상자에서 사용 약관 및 개인 정보 취급 방침을 검토한 다음 계속을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-147">In the dialog that appears, review the terms of use and privacy policy, and then click **Continue**.</span></span>
+3. <span data-ttu-id="4f3d4-147">나타나는 대화 상자에서 사용 약관 및 개인 정보 취급 방침을 검토한 다음 계속을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-147">In the dialog that appears, review the terms of use and privacy policy, and then click **Continue**.</span></span>
 
-4. <span data-ttu-id="7ccca-148">직장 또는 학교 계정(업무용) 또는 Microsoft 계정(개인용)을 사용하여 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-148">Sign in using your work or school account (for business use) or your Microsoft account (for personal use).</span></span>
+4. <span data-ttu-id="4f3d4-148">직장 또는 학교 계정(업무용) 또는 Microsoft 계정(개인용)을 사용하여 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-148">Sign in using your work or school account (for business use) or your Microsoft account (for personal use).</span></span>
 
-<span data-ttu-id="7ccca-149">추가 기능을 설치하고 사용하도록 설정하면 다음과 같은 아이콘이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-149">After the add-in is installed and enabled, you'll see the following icons:</span></span>
+<span data-ttu-id="4f3d4-149">추가 기능을 설치하고 사용하도록 설정하면 다음과 같은 아이콘이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-149">After the add-in is installed and enabled, you'll see the following icons:</span></span>
 
-- <span data-ttu-id="7ccca-150">이 Outlook 아이콘은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-150">In Outlook, the icon looks like this:</span></span>
-
-  > [!div class="mx-imgBorder"]
-  > <span data-ttu-id="7ccca-151">![보고서 메시지 추가 기능 아이콘을 Outlook](../../media/OutlookReportMessageIcon.png)</span><span class="sxs-lookup"><span data-stu-id="7ccca-151">![Report Message add-in icon for Outlook](../../media/OutlookReportMessageIcon.png)</span></span>
-
-- <span data-ttu-id="7ccca-152">웹 Outlook 아이콘은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-152">In Outlook on the web, the icon looks like this:</span></span>
+- <span data-ttu-id="4f3d4-150">Outlook에서 아이콘은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-150">In Outlook, the icon looks like this:</span></span>
 
   > [!div class="mx-imgBorder"]
-  > <span data-ttu-id="7ccca-153">![Outlook 보고서 메시지 추가 기능 아이콘에 표시됩니다.](../../media/owa-report-message-icon.png)</span><span class="sxs-lookup"><span data-stu-id="7ccca-153">![Outlook on the web Report Message add-in icon](../../media/owa-report-message-icon.png)</span></span>
+  > <span data-ttu-id="4f3d4-151">![Outlook용 보고서 메시지 추가 기능 아이콘](../../media/OutlookReportMessageIcon.png)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-151">![Report Message add-in icon for Outlook](../../media/OutlookReportMessageIcon.png)</span></span>
 
-### <a name="get-the-add-in-for-your-organization"></a><span data-ttu-id="7ccca-154">조직에 대한 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="7ccca-154">Get the add-in for your organization</span></span>
+- <span data-ttu-id="4f3d4-152">웹에서 Outlook에서 아이콘은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-152">In Outlook on the web, the icon looks like this:</span></span>
+
+  > [!div class="mx-imgBorder"]
+  > <span data-ttu-id="4f3d4-153">![웹용 Outlook 보고서 메시지 추가 기능 아이콘](../../media/owa-report-message-icon.png)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-153">![Outlook on the web Report Message add-in icon](../../media/owa-report-message-icon.png)</span></span>
+
+### <a name="get-the-add-in-for-your-organization"></a><span data-ttu-id="4f3d4-154">조직에 대한 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="4f3d4-154">Get the add-in for your organization</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7ccca-155">추가 기능을 조직에 표시하는 데 최대 12시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-155">It could take up to 12 hours for the add-in to appear in your organization.</span></span>
+> <span data-ttu-id="4f3d4-155">추가 기능을 조직에 표시하는 데 최대 12시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-155">It could take up to 12 hours for the add-in to appear in your organization.</span></span>
 
-1. <span data-ttu-id="7ccca-156">Microsoft 365 관리 센터에서 의 설정 추가 기능  페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-156">In the Microsoft 365 admin center, go to the go to the **Settings** \> **Add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>.</span></span> <span data-ttu-id="7ccca-157">추가 기능 페이지가  없는 경우 통합 앱 **페이지 설정** 통합 앱 추가 기능 링크로 \>  \>  이동합니다. </span><span class="sxs-lookup"><span data-stu-id="7ccca-157">If you don't see the **Add-in** Page, go to the **Settings** \> **Integrated apps** \> **Add-ins** link on the top of the **Integrated apps** page.</span></span>
+1. <span data-ttu-id="4f3d4-156">Microsoft 365 관리 센터에서 의 설정 추가  \> **기능 페이지로** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-156">In the Microsoft 365 admin center, go to the **Settings** \> **Add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>.</span></span> <span data-ttu-id="4f3d4-157">추가 기능 페이지가  없는 경우 통합 앱  페이지 맨 위에 있는 설정 통합 앱 추가 기능 \>  \>  **링크로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-157">If you don't see the **Add-in** Page, go to the **Settings** \> **Integrated apps** \> **Add-ins** link on the top of the **Integrated apps** page.</span></span>
 
-2. <span data-ttu-id="7ccca-158">페이지 **맨** 위에 있는 추가 기능 배포를 선택하고 다음 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-158">Select **Deploy Add-in** at the top of the page, and then select **Next**.</span></span>
+2. <span data-ttu-id="4f3d4-158">페이지 **맨** 위에 있는 추가 기능 배포를 선택하고 다음 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-158">Select **Deploy Add-in** at the top of the page, and then select **Next**.</span></span>
 
    ![Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-3. <span data-ttu-id="7ccca-160">새 **추가 기능** 배포 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-160">In the **Deploy a new add-in** flyout that appears, review the information, and then click **Next**.</span></span>
+3. <span data-ttu-id="4f3d4-160">새 **추가 기능** 배포 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-160">In the **Deploy a new add-in** flyout that appears, review the information, and then click **Next**.</span></span>
 
-4. <span data-ttu-id="7ccca-161">다음 페이지에서 **스토어에서 선택을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-161">On the next page, click **Choose from the Store**.</span></span>
+4. <span data-ttu-id="4f3d4-161">다음 페이지에서 **스토어에서 선택을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-161">On the next page, click **Choose from the Store**.</span></span>
 
    ![새 추가 기능 페이지 배포](../../media/NewAddInScreen2.png)
 
-5. <span data-ttu-id="7ccca-163">나타나는 **추가 기능** 선택 페이지에서 검색 상자를 **클릭하고** 보고서 **메시지** 를 입력한 다음 검색 검색 아이콘 **을** ![ ](../../media/search-icon.png) 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-163">In the **Select add-in** page that appears, click in the **Search** box, enter **Report Message**, and then click **Search** ![Search icon](../../media/search-icon.png).</span></span> <span data-ttu-id="7ccca-164">결과 목록에서 보고서 **메시지를 찾은 다음** 추가 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-164">In the list of results, find **Report Message** and then click **Add**.</span></span>
+5. <span data-ttu-id="4f3d4-163">나타나는 **추가 기능** 선택 페이지에서 검색 상자를 **클릭하고** 보고서 **메시지** 를 입력한 다음 검색 검색 아이콘 **을** ![ ](../../media/search-icon.png) 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-163">In the **Select add-in** page that appears, click in the **Search** box, enter **Report Message**, and then click **Search** ![Search icon](../../media/search-icon.png).</span></span> <span data-ttu-id="4f3d4-164">결과 목록에서 보고서 **메시지를 찾은 다음** 추가 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-164">In the list of results, find **Report Message** and then click **Add**.</span></span>
 
    ![추가 기능 검색 결과 선택](../../media/NewAddInScreen3.png)
 
-6. <span data-ttu-id="7ccca-166">나타나는 대화 상자에서 라이선스 및 개인 정보 보호 정보를 검토한 다음 계속을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-166">In the dialog that appears, review the licensing and privacy information, and then click **Continue**.</span></span>
+6. <span data-ttu-id="4f3d4-166">나타나는 대화 상자에서 라이선스 및 개인 정보 보호 정보를 검토한 다음 계속을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-166">In the dialog that appears, review the licensing and privacy information, and then click **Continue**.</span></span>
 
-7. <span data-ttu-id="7ccca-167">나타나는 **추가 기능 구성** 페이지에서 다음 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-167">In the **Configure add-in** page that appears, configure the following settings:</span></span>
+7. <span data-ttu-id="4f3d4-167">나타나는 **추가 기능 구성** 페이지에서 다음 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-167">In the **Configure add-in** page that appears, configure the following settings:</span></span>
 
-   - <span data-ttu-id="7ccca-168">**할당된 사용자:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-168">**Assigned users**: Select one of the following values:</span></span>
+   - <span data-ttu-id="4f3d4-168">**할당된 사용자:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-168">**Assigned users**: Select one of the following values:</span></span>
 
-     - <span data-ttu-id="7ccca-169">**모든** 사용자(기본값)</span><span class="sxs-lookup"><span data-stu-id="7ccca-169">**Everyone** (default)</span></span>
-     - <span data-ttu-id="7ccca-170">**특정 사용자/그룹**</span><span class="sxs-lookup"><span data-stu-id="7ccca-170">**Specific users / groups**</span></span>
-     - <span data-ttu-id="7ccca-171">**저뿐이에요**</span><span class="sxs-lookup"><span data-stu-id="7ccca-171">**Just me**</span></span>
+     - <span data-ttu-id="4f3d4-169">**모든** 사용자(기본값)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-169">**Everyone** (default)</span></span>
+     - <span data-ttu-id="4f3d4-170">**특정 사용자/그룹**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-170">**Specific users / groups**</span></span>
+     - <span data-ttu-id="4f3d4-171">**저뿐이에요**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-171">**Just me**</span></span>
 
-   - <span data-ttu-id="7ccca-172">**배포 방법:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-172">**Deployment method**: Select one of the following values:</span></span>
+   - <span data-ttu-id="4f3d4-172">**배포 방법:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-172">**Deployment method**: Select one of the following values:</span></span>
 
-     - <span data-ttu-id="7ccca-173">**고정(기본값)**: 추가 기능은 지정된 사용자에게 자동으로 배포되며 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-173">**Fixed (Default)**: The add-in is automatically deployed to the specified users and they can't remove it.</span></span>
-     - <span data-ttu-id="7ccca-174">**사용** 가능: 사용자는 홈 추가  기능 추가 기능 관리자가 관리하는 에서 추가 기능을 설치할 \>  \> **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-174">**Available**: Users can install the add-in at **Home** \> **Get add-ins** \> **Admin-managed**.</span></span>
-     - <span data-ttu-id="7ccca-175">**선택** 사항: 추가 기능을 지정된 사용자에게 자동으로 배포하지만 제거를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-175">**Optional**: The add-in is automatically deployed to the specified users, but they can choose to remove it.</span></span>
+     - <span data-ttu-id="4f3d4-173">**고정(기본값)**: 추가 기능은 지정된 사용자에게 자동으로 배포되며 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-173">**Fixed (Default)**: The add-in is automatically deployed to the specified users and they can't remove it.</span></span>
+     - <span data-ttu-id="4f3d4-174">**사용** 가능: 사용자는 홈 추가  기능 추가 기능 관리자가 관리하는 에서 추가 기능을 설치할 \>  \> **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-174">**Available**: Users can install the add-in at **Home** \> **Get add-ins** \> **Admin-managed**.</span></span>
+     - <span data-ttu-id="4f3d4-175">**선택** 사항: 추가 기능을 지정된 사용자에게 자동으로 배포하지만 제거를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-175">**Optional**: The add-in is automatically deployed to the specified users, but they can choose to remove it.</span></span>
 
    ![추가 기능 페이지 구성](../../media/configure-add-in.png)
 
-   <span data-ttu-id="7ccca-177">완료되면 배포를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-177">When you're finished, click **Deploy**.</span></span>
+   <span data-ttu-id="4f3d4-177">완료되면 배포를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-177">When you're finished, click **Deploy**.</span></span>
 
-8. <span data-ttu-id="7ccca-178">보고서 **메시지** 배포 페이지에 나타나는 진행률 보고서와 추가 기능 배포 확인이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-178">In the **Deploy Report Message** page that appears, you'll see a progress report followed by a confirmation that the add-in was deployed.</span></span> <span data-ttu-id="7ccca-179">정보를 읽은 후 다음 을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-179">After you read the information, click **Next**.</span></span>
+8. <span data-ttu-id="4f3d4-178">보고서 **메시지** 배포 페이지에 나타나는 진행률 보고서와 추가 기능 배포 확인이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-178">In the **Deploy Report Message** page that appears, you'll see a progress report followed by a confirmation that the add-in was deployed.</span></span> <span data-ttu-id="4f3d4-179">정보를 읽은 후 다음 을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-179">After you read the information, click **Next**.</span></span>
 
    ![보고서 메시지 배포 페이지](../../media/deploy-report-message-page.png)
 
-9. <span data-ttu-id="7ccca-181">추가 기능 발표 **페이지가** 나타나면 정보를 검토하고 닫기 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-181">On the **Announce add-in** page that appears, review the information, and then click **Close**.</span></span>
+9. <span data-ttu-id="4f3d4-181">추가 기능 발표 **페이지가** 나타나면 정보를 검토하고 닫기 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-181">On the **Announce add-in** page that appears, review the information, and then click **Close**.</span></span>
 
    ![추가 기능 페이지 발표](../../media/announce-add-in-page.png)
 
-## <a name="review-or-edit-settings-for-the-report-message-add-in"></a><span data-ttu-id="7ccca-183">보고서 메시지 추가 기능의 설정 검토 또는 편집</span><span class="sxs-lookup"><span data-stu-id="7ccca-183">Review or edit settings for the Report Message add-in</span></span>
+## <a name="review-or-edit-settings-for-the-report-message-add-in"></a><span data-ttu-id="4f3d4-183">보고서 메시지 추가 기능의 설정 검토 또는 편집</span><span class="sxs-lookup"><span data-stu-id="4f3d4-183">Review or edit settings for the Report Message add-in</span></span>
 
-1. <span data-ttu-id="7ccca-184">Microsoft 365 관리 센터에서 의 설정 추가 기능  페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-184">In the Microsoft 365 admin center, go to the go to the **Settings** \> **Add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>.</span></span> <span data-ttu-id="7ccca-185">추가 기능 페이지가  없는 경우 통합 앱 **페이지 설정** 통합 앱 추가 기능 링크로 \>  \>  이동합니다. </span><span class="sxs-lookup"><span data-stu-id="7ccca-185">If you don't see the **Add-in** Page, go to the **Settings** \> **Integrated apps** \> **Add-ins** link on the top of the **Integrated apps** page.</span></span>
+1. <span data-ttu-id="4f3d4-184">Microsoft 365 관리 센터에서 의 설정  추가 기능 페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-184">In the Microsoft 365 admin center, go to the go to the **Settings** \> **Add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>.</span></span> <span data-ttu-id="4f3d4-185">추가 기능 페이지가  없는 경우 통합 앱  페이지 맨 위에 있는 설정 통합 앱 추가 기능 \>  \>  **링크로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-185">If you don't see the **Add-in** Page, go to the **Settings** \> **Integrated apps** \> **Add-ins** link on the top of the **Integrated apps** page.</span></span>
 
-   ![새 Add-Ins 관리 센터의 서비스 및 Microsoft 365 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![새 Add-Ins Microsoft 365 관리 센터의 서비스 및 서비스 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-2. <span data-ttu-id="7ccca-187">보고서 메시지 **추가** 기능을 찾아 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-187">Find and select the **Report Message** add-in.</span></span>
+2. <span data-ttu-id="4f3d4-187">보고서 메시지 **추가** 기능을 찾아 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-187">Find and select the **Report Message** add-in.</span></span>
 
-3. <span data-ttu-id="7ccca-188">보고서 **메시지 편집** 플라이아웃이 나타나면 조직에 적합한 설정을 검토하고 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-188">In the **Edit Report Message** flyout that appears, review and edit settings as appropriate for your organization.</span></span> <span data-ttu-id="7ccca-189">작업을 마쳤으면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-189">When you're finished, click **Save**.</span></span>
+3. <span data-ttu-id="4f3d4-188">보고서 **메시지 편집** 플라이아웃이 나타나면 조직에 적합한 설정을 검토하고 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-188">In the **Edit Report Message** flyout that appears, review and edit settings as appropriate for your organization.</span></span> <span data-ttu-id="4f3d4-189">작업을 마쳤으면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-189">When you're finished, click **Save**.</span></span>
 
-   ![설정 메시지 추가 기능의 추가 기능 확인](../../media/EditReportMessageAddIn.png)
+   ![보고서 메시지 추가 기능 설정](../../media/EditReportMessageAddIn.png)
 
-## <a name="get-the-report-phishing-add-in"></a><span data-ttu-id="7ccca-191">피싱 보고서 추가 기능 얻기</span><span class="sxs-lookup"><span data-stu-id="7ccca-191">Get the Report Phishing add-in</span></span>
+## <a name="get-the-report-phishing-add-in"></a><span data-ttu-id="4f3d4-191">피싱 보고서 추가 기능 얻기</span><span class="sxs-lookup"><span data-stu-id="4f3d4-191">Get the Report Phishing add-in</span></span>
 
-### <a name="get-the-add-in-for-yourself"></a><span data-ttu-id="7ccca-192">직접 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="7ccca-192">Get the add-in for yourself</span></span>
+### <a name="get-the-add-in-for-yourself"></a><span data-ttu-id="4f3d4-192">직접 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="4f3d4-192">Get the add-in for yourself</span></span>
 
-1. <span data-ttu-id="7ccca-193">에서 Microsoft AppSource로 이동하여 피싱 보고 추가 <https://appsource.microsoft.com/marketplace/apps> 기능을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-193">Go to the Microsoft AppSource at <https://appsource.microsoft.com/marketplace/apps> and search for the Report Phishing add-in.</span></span>
+1. <span data-ttu-id="4f3d4-193">에서 Microsoft AppSource로 이동하여 피싱 보고 추가 <https://appsource.microsoft.com/marketplace/apps> 기능을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-193">Go to the Microsoft AppSource at <https://appsource.microsoft.com/marketplace/apps> and search for the Report Phishing add-in.</span></span>
 
-2. <span data-ttu-id="7ccca-194">지금 **다운로드를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-194">Click **GET IT NOW**.</span></span>
+2. <span data-ttu-id="4f3d4-194">지금 **다운로드를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-194">Click **GET IT NOW**.</span></span>
 
-3. <span data-ttu-id="7ccca-195">나타나는 대화 상자에서 사용 약관 및 개인 정보 취급 방침을 검토한 다음 계속을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-195">In the dialog that appears, review the terms of use and privacy policy, and then click **Continue**.</span></span>
+3. <span data-ttu-id="4f3d4-195">나타나는 대화 상자에서 사용 약관 및 개인 정보 취급 방침을 검토한 다음 계속을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-195">In the dialog that appears, review the terms of use and privacy policy, and then click **Continue**.</span></span>
 
-4. <span data-ttu-id="7ccca-196">직장 또는 학교 계정(업무용) 또는 Microsoft 계정(개인용)을 사용하여 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-196">Sign in using your work or school account (for business use) or your Microsoft account (for personal use).</span></span>
+4. <span data-ttu-id="4f3d4-196">직장 또는 학교 계정(업무용) 또는 Microsoft 계정(개인용)을 사용하여 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-196">Sign in using your work or school account (for business use) or your Microsoft account (for personal use).</span></span>
 
-<span data-ttu-id="7ccca-197">추가 기능을 설치하고 사용하도록 설정하면 다음과 같은 아이콘이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-197">After the add-in is installed and enabled, you'll see the following icons:</span></span>
+<span data-ttu-id="4f3d4-197">추가 기능을 설치하고 사용하도록 설정하면 다음과 같은 아이콘이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-197">After the add-in is installed and enabled, you'll see the following icons:</span></span>
 
-- <span data-ttu-id="7ccca-198">이 Outlook 아이콘은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-198">In Outlook, the icon looks like this:</span></span>
+- <span data-ttu-id="4f3d4-198">Outlook에서 아이콘은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-198">In Outlook, the icon looks like this:</span></span>
 
-  ![보고서 피싱 추가 기능 아이콘에 대한 Outlook](../../media/Outlook-ReportPhishing.png)
+  ![Outlook용 피싱 추가 기능 아이콘 보고](../../media/Outlook-ReportPhishing.png)
 
-- <span data-ttu-id="7ccca-200">웹 Outlook 아이콘은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-200">In Outlook on the web, the icon looks like this:</span></span>
+- <span data-ttu-id="4f3d4-200">웹에서 Outlook에서 아이콘은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-200">In Outlook on the web, the icon looks like this:</span></span>
 
   > [!div class="mx-imgBorder"]
-  > <span data-ttu-id="7ccca-201">![Outlook 피싱 추가 기능 아이콘에 표시](../../media/OWA-ReportPhishing.png)</span><span class="sxs-lookup"><span data-stu-id="7ccca-201">![Outlook on the web Report Phishing add-in icon](../../media/OWA-ReportPhishing.png)</span></span>
+  > <span data-ttu-id="4f3d4-201">![웹용 Outlook 보고서 피싱 추가 기능 아이콘](../../media/OWA-ReportPhishing.png)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-201">![Outlook on the web Report Phishing add-in icon](../../media/OWA-ReportPhishing.png)</span></span>
 
-### <a name="get-the-add-in-for-your-organization"></a><span data-ttu-id="7ccca-202">조직에 대한 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="7ccca-202">Get the add-in for your organization</span></span>
+### <a name="get-the-add-in-for-your-organization"></a><span data-ttu-id="4f3d4-202">조직에 대한 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="4f3d4-202">Get the add-in for your organization</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7ccca-203">추가 기능을 조직에 표시하는 데 최대 12시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-203">It could take up to 12 hours for the add-in to appear in your organization.</span></span>
+> <span data-ttu-id="4f3d4-203">추가 기능을 조직에 표시하는 데 최대 12시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-203">It could take up to 12 hours for the add-in to appear in your organization.</span></span>
 
-1. <span data-ttu-id="7ccca-204">Microsoft 365 관리 센터에서 의 설정 추가 기능  페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-204">In the Microsoft 365 admin center, go to the go to the **Settings** \> **Add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>.</span></span> <span data-ttu-id="7ccca-205">추가 기능 페이지가  없는 경우 통합 앱 **페이지 설정** 통합 앱 추가 기능 링크로 \>  \>  이동합니다. </span><span class="sxs-lookup"><span data-stu-id="7ccca-205">If you don't see the **Add-in** Page, go to the **Settings** \> **Integrated apps** \> **Add-ins** link on the top of the **Integrated apps** page.</span></span>
+1. <span data-ttu-id="4f3d4-204">Microsoft 365 관리 센터에서 의 설정  추가 기능 페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-204">In the Microsoft 365 admin center, go to the go to the **Settings** \> **Add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>.</span></span> <span data-ttu-id="4f3d4-205">추가 기능 페이지가  없는 경우 통합 앱  페이지 맨 위에 있는 설정 통합 앱 추가 기능 \>  \>  **링크로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-205">If you don't see the **Add-in** Page, go to the **Settings** \> **Integrated apps** \> **Add-ins** link on the top of the **Integrated apps** page.</span></span>
 
-2. <span data-ttu-id="7ccca-206">페이지 **맨** 위에 있는 추가 기능 배포를 선택하고 다음 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-206">Select **Deploy Add-in** at the top of the page, and then select **Next**.</span></span>
+2. <span data-ttu-id="4f3d4-206">페이지 **맨** 위에 있는 추가 기능 배포를 선택하고 다음 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-206">Select **Deploy Add-in** at the top of the page, and then select **Next**.</span></span>
 
    ![Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-3. <span data-ttu-id="7ccca-208">새 **추가 기능** 배포 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-208">In the **Deploy a new add-in** flyout that appears, review the information, and then click **Next**.</span></span>
+3. <span data-ttu-id="4f3d4-208">새 **추가 기능** 배포 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-208">In the **Deploy a new add-in** flyout that appears, review the information, and then click **Next**.</span></span>
 
-4. <span data-ttu-id="7ccca-209">다음 페이지에서 **스토어에서 선택을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-209">On the next page, click **Choose from the Store**.</span></span>
+4. <span data-ttu-id="4f3d4-209">다음 페이지에서 **스토어에서 선택을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-209">On the next page, click **Choose from the Store**.</span></span>
 
    ![새 추가 기능 페이지 배포](../../media/NewAddInScreen2.png)
 
-5. <span data-ttu-id="7ccca-211">나타나는 **추가 기능** 선택 페이지에서 검색 상자를 **클릭하고** 피싱 **보고를** 입력한 다음 검색 **검색** 아이콘 을 ![ ](../../media/search-icon.png) 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-211">In the **Select add-in** page that appears, click in the **Search** box, enter **Report Phishing**, and then click **Search** ![Search icon](../../media/search-icon.png).</span></span> <span data-ttu-id="7ccca-212">결과 목록에서 피싱 **보고를 찾은** 다음 추가 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-212">In the list of results, find **Report Phishing** and then click **Add**.</span></span>
+5. <span data-ttu-id="4f3d4-211">나타나는 **추가 기능** 선택 페이지에서 검색 상자를 **클릭하고** 피싱 **보고를** 입력한 다음 검색 **검색** 아이콘 을 ![ ](../../media/search-icon.png) 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-211">In the **Select add-in** page that appears, click in the **Search** box, enter **Report Phishing**, and then click **Search** ![Search icon](../../media/search-icon.png).</span></span> <span data-ttu-id="4f3d4-212">결과 목록에서 피싱 **보고를 찾은** 다음 추가 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-212">In the list of results, find **Report Phishing** and then click **Add**.</span></span>
 
-6. <span data-ttu-id="7ccca-213">나타나는 대화 상자에서 라이선스 및 개인 정보 보호 정보를 검토한 다음 계속을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-213">In the dialog that appears, review the licensing and privacy information, and then click **Continue**.</span></span>
+6. <span data-ttu-id="4f3d4-213">나타나는 대화 상자에서 라이선스 및 개인 정보 보호 정보를 검토한 다음 계속을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-213">In the dialog that appears, review the licensing and privacy information, and then click **Continue**.</span></span>
 
-7. <span data-ttu-id="7ccca-214">나타나는 **추가 기능 구성** 페이지에서 다음 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-214">In the **Configure add-in** page that appears, configure the following settings:</span></span>
+7. <span data-ttu-id="4f3d4-214">나타나는 **추가 기능 구성** 페이지에서 다음 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-214">In the **Configure add-in** page that appears, configure the following settings:</span></span>
 
-   - <span data-ttu-id="7ccca-215">**할당된 사용자:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-215">**Assigned users**: Select one of the following values:</span></span>
+   - <span data-ttu-id="4f3d4-215">**할당된 사용자:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-215">**Assigned users**: Select one of the following values:</span></span>
 
-     - <span data-ttu-id="7ccca-216">**모든** 사용자(기본값)</span><span class="sxs-lookup"><span data-stu-id="7ccca-216">**Everyone** (default)</span></span>
-     - <span data-ttu-id="7ccca-217">**특정 사용자/그룹**</span><span class="sxs-lookup"><span data-stu-id="7ccca-217">**Specific users / groups**</span></span>
-     - <span data-ttu-id="7ccca-218">**저뿐이에요**</span><span class="sxs-lookup"><span data-stu-id="7ccca-218">**Just me**</span></span>
+     - <span data-ttu-id="4f3d4-216">**모든** 사용자(기본값)</span><span class="sxs-lookup"><span data-stu-id="4f3d4-216">**Everyone** (default)</span></span>
+     - <span data-ttu-id="4f3d4-217">**특정 사용자/그룹**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-217">**Specific users / groups**</span></span>
+     - <span data-ttu-id="4f3d4-218">**저뿐이에요**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-218">**Just me**</span></span>
 
-   - <span data-ttu-id="7ccca-219">**배포 방법:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-219">**Deployment method**: Select one of the following values:</span></span>
+   - <span data-ttu-id="4f3d4-219">**배포 방법:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-219">**Deployment method**: Select one of the following values:</span></span>
 
-     - <span data-ttu-id="7ccca-220">**고정(기본값)**: 추가 기능은 지정된 사용자에게 자동으로 배포되며 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-220">**Fixed (Default)**: The add-in is automatically deployed to the specified users and they can't remove it.</span></span>
-     - <span data-ttu-id="7ccca-221">**사용** 가능: 사용자는 홈 추가  기능 추가 기능 관리자가 관리하는 에서 추가 기능을 설치할 \>  \> **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-221">**Available**: Users can install the add-in at **Home** \> **Get add-ins** \> **Admin-managed**.</span></span>
-     - <span data-ttu-id="7ccca-222">**선택** 사항: 추가 기능을 지정된 사용자에게 자동으로 배포하지만 제거를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-222">**Optional**: The add-in is automatically deployed to the specified users, but they can choose to remove it.</span></span>
+     - <span data-ttu-id="4f3d4-220">**고정(기본값)**: 추가 기능은 지정된 사용자에게 자동으로 배포되며 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-220">**Fixed (Default)**: The add-in is automatically deployed to the specified users and they can't remove it.</span></span>
+     - <span data-ttu-id="4f3d4-221">**사용** 가능: 사용자는 홈 추가  기능 추가 기능 관리자가 관리하는 에서 추가 기능을 설치할 \>  \> **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-221">**Available**: Users can install the add-in at **Home** \> **Get add-ins** \> **Admin-managed**.</span></span>
+     - <span data-ttu-id="4f3d4-222">**선택** 사항: 추가 기능을 지정된 사용자에게 자동으로 배포하지만 제거를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-222">**Optional**: The add-in is automatically deployed to the specified users, but they can choose to remove it.</span></span>
 
-   <span data-ttu-id="7ccca-223">완료되면 배포를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-223">When you're finished, click **Deploy**.</span></span>
+   <span data-ttu-id="4f3d4-223">완료되면 배포를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-223">When you're finished, click **Deploy**.</span></span>
 
-8. <span data-ttu-id="7ccca-224">보고서 **피싱** 배포 페이지에 나타나는 진행률 보고서와 추가 기능 배포 확인이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-224">In the **Deploy Report Phishing** page that appears, you'll see a progress report followed by a confirmation that the add-in was deployed.</span></span> <span data-ttu-id="7ccca-225">정보를 읽은 후 다음 을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-225">After you read the information, click **Next**.</span></span>
+8. <span data-ttu-id="4f3d4-224">보고서 **피싱** 배포 페이지에 나타나는 진행률 보고서와 추가 기능 배포 확인이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-224">In the **Deploy Report Phishing** page that appears, you'll see a progress report followed by a confirmation that the add-in was deployed.</span></span> <span data-ttu-id="4f3d4-225">정보를 읽은 후 다음 을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-225">After you read the information, click **Next**.</span></span>
 
-9. <span data-ttu-id="7ccca-226">추가 기능 발표 **페이지가** 나타나면 정보를 검토하고 닫기 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ccca-226">On the **Announce add-in** page that appears, review the information, and then click **Close**.</span></span>
+9. <span data-ttu-id="4f3d4-226">추가 기능 발표 **페이지가** 나타나면 정보를 검토하고 닫기 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-226">On the **Announce add-in** page that appears, review the information, and then click **Close**.</span></span>
 
-## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a><span data-ttu-id="7ccca-227">피싱 보고 추가 기능 설정 검토 또는 편집</span><span class="sxs-lookup"><span data-stu-id="7ccca-227">Review or edit settings for the Report Phishing add-in</span></span>
+## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a><span data-ttu-id="4f3d4-227">피싱 보고 추가 기능 설정 검토 또는 편집</span><span class="sxs-lookup"><span data-stu-id="4f3d4-227">Review or edit settings for the Report Phishing add-in</span></span>
 
-1. <span data-ttu-id="7ccca-228">Microsoft 365 관리 센터에서 의 설정 추가 기능  페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-228">In the Microsoft 365 admin center, go to the go to the **Settings** \> **Add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>.</span></span> <span data-ttu-id="7ccca-229">추가 기능 페이지가  없는 경우 통합 앱 **페이지 설정** 통합 앱 추가 기능 링크로 \>  \>  이동합니다. </span><span class="sxs-lookup"><span data-stu-id="7ccca-229">If you don't see the **Add-in** Page, go to the **Settings** \> **Integrated apps** \> **Add-ins** link on the top of the **Integrated apps** page.</span></span>
+1. <span data-ttu-id="4f3d4-228">Microsoft 365 관리 센터에서 의 설정  추가 기능 페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-228">In the Microsoft 365 admin center, go to the go to the **Settings** \> **Add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>.</span></span> <span data-ttu-id="4f3d4-229">추가 기능 페이지가  없는 경우 통합 앱  페이지 맨 위에 있는 설정 통합 앱 추가 기능 \>  \>  **링크로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="4f3d4-229">If you don't see the **Add-in** Page, go to the **Settings** \> **Integrated apps** \> **Add-ins** link on the top of the **Integrated apps** page.</span></span>
 
-2. <span data-ttu-id="7ccca-230">피싱 **보고 추가** 기능을 찾아 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-230">Find and select the **Report Phishing** add-in.</span></span>
+2. <span data-ttu-id="4f3d4-230">피싱 **보고 추가** 기능을 찾아 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-230">Find and select the **Report Phishing** add-in.</span></span>
 
-3. <span data-ttu-id="7ccca-231">조직에 **적합한** 설정이 나타나는 피싱 보고서 편집 플라이아웃에서 설정을 검토하고 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-231">In the **Edit Report Phishing** flyout that appears, review, and edit settings as appropriate for your organization.</span></span> <span data-ttu-id="7ccca-232">작업을 마쳤으면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="7ccca-232">When you're finished, click **Save**.</span></span>
+3. <span data-ttu-id="4f3d4-231">조직에 **적합한** 설정이 나타나는 피싱 보고서 편집 플라이아웃에서 설정을 검토하고 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-231">In the **Edit Report Phishing** flyout that appears, review, and edit settings as appropriate for your organization.</span></span> <span data-ttu-id="4f3d4-232">작업을 마쳤으면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4f3d4-232">When you're finished, click **Save**.</span></span>
