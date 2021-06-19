@@ -19,12 +19,12 @@ description: 관리자는 보안 및 준수 센터의 보고서 대시보드에�
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fd8f6c3da1c195fbd540638ae73674deccf2762a
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 5f2bdb32d2afde3d0d40261cd3ecf30740dc0ccf
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985507"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029479"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 및 준수 센터의 보고서 대시보드에서 & 흐름 보고서 보기
 
@@ -34,6 +34,9 @@ ms.locfileid: "52985507"
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+
+> [!NOTE]
+> 이 항목에 설명된 대부분의 보고서는 EAC(Exchange 관리 센터)에서 사용할 수 있습니다. 자세한 내용은 새 Exchange 관리 센터의 메일 흐름 [보고서를 참조하세요.](/exchange/monitoring/mail-flow-reports/mail-flow-reports) [Exchange 전송 규칙 보고서는](view-email-security-reports.md#exchange-transport-rule-report) Microsoft 365 Defender 포털에서 사용할 수 있습니다.
 
 보안 & 준수 센터의 메일 흐름 [](mail-flow-insights-v2.md) 대시보드에서 사용할 수 있는 메일 흐름 보고서 외에도 보고서 대시보드에서 다양한 추가 메일 흐름 보고서를 사용하여 Microsoft 365 조직을 모니터링할 수 있습니다.
 
@@ -166,7 +169,7 @@ ms.locfileid: "52985507"
 
 ## <a name="forwarding-report"></a>전달 보고서
 
-전달 **보고서에는** Exchange Online 사서함의 외부 도메인으로 조직의 자동으로 전달된 메시지가 표시됩니다. 전달된 메시지는 보안 또는 규정 준수 위험을 내포할 수 있으며 계정이 손상된 것일 수 있습니다.
+전달 **보고서에는** 조직의 자동 전달된 메시지가 사서함의 외부 도메인으로 Exchange Online 표시됩니다. 전달된 메시지는 보안 또는 규정 준수 위험을 내포할 수 있으며 계정이 손상된 것일 수 있습니다.
 
 보고서를 표시하려면 보안 및 준수 & 를 열고 [보고서 대시보드로](https://protection.office.com)이동한 다음 보고서  \>  **전달을 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=MailFlowForwarding> 습니다.
 
@@ -421,7 +424,9 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 
 ## <a name="sent-and-received-email-report"></a>보낸 전자 메일 보고서 및 받은 전자 메일 보고서
 
-보내고 **받은** 전자 메일 보고서는 스팸 검색, 맬웨어 및 "양호"로 식별된 전자 메일을 포함하여 들어오고 받는 전자 메일에 대한 정보를 표시하는 스마트 보고서입니다. 이 보고서와 [메일](#mailflow-status-report) 흐름 상태 보고서의 차이점은 이 보고서에는 에지 보호로 차단된 메시지에 대한 데이터가 포함되어 없습니다. 받는 사람 5명에게 메시지가 전송된 경우 하나의 메시지로 계산됩니다.
+보내고 **받은** 전자 메일 보고서는 스팸 검색, 맬웨어 및 "양호"로 식별된 전자 메일을 포함하여 들어오고 받는 전자 메일에 대한 정보를 표시하는 스마트 보고서입니다. 이 보고서와 [메일](#mailflow-status-report) 흐름 상태 보고서의 차이점은 이 보고서에는 에지 보호로 차단된 메시지에 대한 데이터가 포함되어 없습니다.
+
+**참고:** 받는 사람 5명에게 메시지가 전송된 경우 메시지를 하나의 메시지로 계산한다는 점에 유의해야 합니다.
 
 보고서의 집계 보기 및 세부 정보 보기는 90일 동안 필터링할 수 있습니다.
 

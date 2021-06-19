@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0a0c7e9ffa37c5154b8a10b9642d484011674d6a
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 846043be72be741e60c09c85fba14dbf291612a1
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964888"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029372"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -62,7 +62,7 @@ Microsoft Defender for Office 365 피싱 방지 정책은 사용자용 Defender�
 
 - [EOP에서 스팸 방지 정책 구성](configure-anti-phishing-policies-eop.md)
 
-- [Microsoft Defender에서 피싱 방지 정책 Office 365](configure-atp-anti-phishing-policies.md)
+- [Microsoft Defender에서 피싱 방지 정책 Office 365](configure-mdo-anti-phishing-policies.md)
 
 이 문서의 나머지부분에서는 EOP 및 피싱 방지 정책에서 사용할 수 있는 설정에 대해 Office 365.
 
@@ -131,9 +131,6 @@ Microsoft Defender for Office 365 피싱 방지 정책은 사용자용 Defender�
 - 인증되지 않은 보낸 사람 물음표(?) 기호 **사용:** 이 설정을 설정하면 메시지가 SPF 또는 DKIM 확인을 통과하지 못하고 메시지가 DMARC  또는 복합 인증을 통과하지 않는 경우 보낸 사람 상자에 보낸 사람 사진에 물음표가 추가됩니다. [](email-validation-and-authentication.md#composite-authentication) 이 설정을 해제하면 보낸 사람 사진에 물음표가 추가되지 않습니다.
 
 - **"via"** 태그 사용 여부 chris@contoso.com: 이 설정을 켜면 보낸 사람 주소(전자 메일 클라이언트에 표시되는 메시지 보낸 사람)의 도메인이 DKIM 서명의 도메인이나 MAIL FROM 주소의 도메인과 다른 경우 보낸 사람(fabrikam.com 을 통해 fabrikam.com)을 보낸 사람 상자에 <sup>\*</sup> <u></u> 추가합니다.  이러한 주소에 대한 자세한 내용은 전자 메일 메시지 표준 [개요를 참조하세요.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
-
-> [!NOTE]
-> 현재 일부 조직에서는 **"via"** 태그 사용 설정을 사용할 수 없습니다. **"via"** 태그 사용 설정이 없는 경우 물음표와 via 태그는 모두 조직에서 확인되지 않은 보낸 사람 물음표(?) 사용 기호로 제어됩니다.  
 
 물음표 또는 태그를 통해 특정 보낸 사람이 보낸 메시지에 추가되지 않도록 설정하기 위해 다음 옵션을 사용할 수 있습니다.
 

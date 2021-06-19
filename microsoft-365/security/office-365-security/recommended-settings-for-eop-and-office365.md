@@ -19,12 +19,12 @@ ms.collection:
 description: 보안 설정에 대한 EOP(Exchange Online Protection) 및 Defender에 대한 모범 Office 365 무엇입니까? 표준 보호를 위한 현재 권장 사항은 무엇입니까? 더 엄격하게 사용하려는 경우 어떻게 해야 하나요? 또한 2016년 8월에 Defender를 사용하는 경우 어떤 추가 Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6c126a777d50fae93efdc618a8ac474dcee7ed75
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 031dd6ffe05c700b65fb56da90a49ed194c17321
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878991"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029516"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Microsoft Defender 보안에 대한 Office 365 설정
 
@@ -44,7 +44,7 @@ ms.locfileid: "52878991"
 > [!NOTE]
 > 필터링이 제대로 작동하려면 사서함에서 정크 메일 규칙을 사용하도록 설정해야 합니다. 기본적으로 사용하도록 설정되어 있지만 필터링이 작동하지 않는지 확인해야 합니다. 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
 
-이 문서에서는 기본 설정과 사용자를 보호하는 데 도움이 되는 권장 표준 및 엄격한 설정에 대해 설명합니다. 표에는 Microsoft 365 사서함이 없는 조직을 위한 Exchange Online PowerShell 또는 독립 실행형 PowerShell Exchange Online Protection PowerShell용 Exchange Online 설정이 포함되어 있습니다.
+이 문서에서는 기본 설정과 사용자를 보호하는 데 도움이 되는 권장 표준 및 엄격한 설정에 대해 설명합니다. 표에는 Microsoft 365 Defender 및 PowerShell(Exchange Online 사서함이 없는 조직용 PowerShell 또는 Exchange Online Protection PowerShell용 독립 실행형 Exchange Online 설정이 포함되어 있습니다.
 
 > [!TIP]
 > PowerShell에 Office 365 ORCA(Advanced Threat Protection 권장 구성 분석기) 모듈을 통해 이러한 설정의 현재 값을 찾을 수 있습니다. 특히 **Get-ORCAReport** cmdlet은 스팸 방지, 피싱 방지 및 기타 메시지 예방조치 설정에 대한 평가를 생성합니다. 에서 ORCA 모듈을 다운로드할 수 <https://www.powershellgallery.com/packages/ORCA/> 있습니다.
@@ -61,7 +61,7 @@ ms.locfileid: "52878991"
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**스팸** 검색 작업 <p> _SpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`||
 |**높은 지수 스팸** 감지 작업 <p> _HighConfidenceSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
@@ -119,7 +119,7 @@ ms.locfileid: "52878991"
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**외부 메시지 제한 설정** <p> _RecipientLimitExternalPerHour_|0|500|400|기본값 0은 서비스 기본값을 사용하는 것입니다.|
 |**내부 메시지 제한 설정** <p> _RecipientLimitInternalPerHour_|0|1000|800|기본값 0은 서비스 기본값을 사용하는 것입니다.|
@@ -136,7 +136,7 @@ ms.locfileid: "52878991"
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**메시지가 맬웨어로 차단된 경우 받는 사람에게 알림** <p> _작업_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색된 경우 메시지는 검지되고 관리자만 릴리스할 수 있습니다.|
 |**공통 첨부 파일 필터 사용** <p> _EnableFileFilter_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정은 첨부 파일 콘텐츠에 관계없이 파일 형식에 따라 실행 파일이 포함된 메시지를 검지합니다.|
@@ -153,7 +153,7 @@ ms.locfileid: "52878991"
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**스푸핑 인텔리전스 사용** <p> _EnableSpoofIntelligence_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**전자 메일이 스푸핑으로 검색된 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 Quarantine the message** <p> `Quarantine`|이 설정은 스푸핑 인텔리전스 인사이트에 표시된 [](learn-about-spoof-intelligence.md) 것 같이 자동으로 차단되거나 테넌트 허용/차단 목록에서 수동으로 차단된 스푸핑된 보낸 [사람에 적용됩니다.](tenant-allow-block-list.md)|
@@ -169,25 +169,25 @@ ms.locfileid: "52878991"
 >
 > - Microsoft Defender for Office 365 피싱 방지 정책은 모든 [](set-up-anti-phishing-policies.md#spoof-settings) 받는 사람에게 스푸핑 보호 및 사서함 인텔리전스를 제공합니다. 그러나 사용 가능한 [](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 다른 가장 보호 [](#advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 기능 및 고급 설정은 기본 정책에서 구성되거나 사용하도록 설정되지 않습니다. 모든 보호 기능을 사용하도록 설정하려면 기본 피싱 방지 정책을 수정하거나 추가 피싱 방지 정책을 만들 수 있습니다.
 >
-> - 조직의 모든 받는 사람을 자동으로 보호하는 기본 안전 링크 정책 또는 안전한 첨부 파일 정책은 없습니다. 보호를 위해 하나 이상의 안전한 링크 정책 및 안전한 첨부 파일 정책을 만들어야 합니다.
+> - 조직의 모든 받는 Safe 자동으로 보호하는 Safe 정책 또는 첨부 파일 정책에 대한 기본 정책은 없습니다. 보호 기능을 사용하려면 하나 이상의 링크 정책 및 첨부 Safe 정책을 Safe 합니다.
 >
-> - [SharePoint,](mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 보호 및 안전한 문서 보호를 위한 [](safe-docs.md) 안전한 첨부 파일은 안전한 링크 정책에 종속되는 것이 없습니다.
+> - [Safe, SharePoint,](mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 보호 및 Safe 문서 보호에 대한 [](safe-docs.md) 첨부 파일은 Safe 링크 정책에 종속됩니다.
 
 구독에 microsoft Defender for Office 365 추가 기능으로 Office 365 Defender를 구매한 경우 다음 표준 또는 엄격 구성을 설정하세요.
 
 ### <a name="anti-phishing-policy-settings-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
-EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지만, Microsoft Defender for Office 365 공격을 방지, 감지 및 수정하는 데 도움이 되는 더 많은 기능과 제어 기능이 포함되어 있습니다. 이러한 정책을 만들고 구성하는 내용은 [Configure anti-phishing policies in Defender for Office 365.](configure-atp-anti-phishing-policies.md)
+EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지만, Microsoft Defender for Office 365 공격을 방지, 감지 및 수정하는 데 도움이 되는 더 많은 기능과 제어 기능이 포함되어 있습니다. 이러한 정책을 만들고 구성하는 내용은 [Configure anti-phishing policies in Defender for Office 365.](configure-mdo-anti-phishing-policies.md)
 
 #### <a name="impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
-이러한 설정에 대한 자세한 내용은 Microsoft Defender for Office 365 피싱 방지 정책의 가장 [설정을 Office 365.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 이러한 설정을 구성하려면 [Configure anti-phishing policies in Defender for Office 365.](configure-atp-anti-phishing-policies.md)
+이러한 설정에 대한 자세한 내용은 Microsoft Defender for Office 365 피싱 방지 정책의 가장 [설정을 Office 365.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 이러한 설정을 구성하려면 [Configure anti-phishing policies in Defender for Office 365.](configure-mdo-anti-phishing-policies.md)
 
 <br>
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |보호된 사용자(보낸 사람): **사용자가 보호할 수 있도록 설정** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|해제 <p> `$false` <p> 없음|켜짐 <p> `$true` <p> \<list of users\>|켜짐 <p> `$true` <p> \<list of users\>|조직에 따라 주요 역할에 사용자(메시지 보낸 사람)를 추가하는 것이 좋습니다. 내부적으로 보호된 보낸 사람이 CEO, CFO 및 기타 고위 리더일 수 있습니다. 외부적으로 보호되는 보낸 사람에는 위원회 구성원이나 해당 이사진이 포함됩니다.|
 |보호된 사용자: **가장된** 사용자로 메시지가 검색된 경우 <p> _TargetedUserProtectionAction_|**어떤 작업도 적용하지 않습니다.** <p> `NoAction`|**메시지 Quarantine the message** <p> `Quarantine`|**메시지 Quarantine the message** <p> `Quarantine`||
@@ -211,7 +211,7 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**스푸핑 인텔리전스 사용** <p> _EnableSpoofIntelligence_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**전자 메일이 스푸핑으로 검색된 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 Quarantine the message** <p> `Quarantine`|이 설정은 스푸핑 인텔리전스 인사이트에 표시된 [](learn-about-spoof-intelligence.md) 것 같이 자동으로 차단되거나 테넌트 허용/차단 목록에서 수동으로 차단된 스푸핑된 보낸 [사람에 적용됩니다.](tenant-allow-block-list.md)|
@@ -221,22 +221,22 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지
 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
-이 설정에 대한 자세한 내용은 Microsoft Defender for [Office 365.](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 이 설정을 구성하는 내용은 [Configure anti-phishing policies in Defender for Office 365.](configure-atp-anti-phishing-policies.md)
+이 설정에 대한 자세한 내용은 Microsoft Defender for [Office 365.](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 이 설정을 구성하는 내용은 [Configure anti-phishing policies in Defender for Office 365.](configure-mdo-anti-phishing-policies.md)
 
 <br>
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**피싱 전자 메일 임계값** <p> _PhishThresholdLevel_|**1 - 표준** <p> `1`|**2 - 적극적** <p> `2`|**3 - 보다 적극적** <p> `3`||
 |
 
-### <a name="safe-links-settings"></a>안전한 링크 설정
+### <a name="safe-links-settings"></a>Safe 링크 설정
 
-Defender for Office 365 안전한 링크에는 활성 안전 링크 정책에 포함된 모든 사용자에게 적용되는 전역 설정과 각 안전 링크 정책과 관련한 설정이 포함되어 있습니다. 자세한 내용은 에 [대한 Defender의](safe-links.md)안전한 Office 365.
+Safe Office 365 Defender의 링크에는 활성 Safe 링크 정책에 포함된 모든 사용자에게 적용되는 전역 설정과 각 Safe 링크 정책에 대한 설정이 포함됩니다. 자세한 내용은 에 [대한 Safe Defender의 링크를 Office 365.](safe-links.md)
 
-#### <a name="global-settings-for-safe-links"></a>안전한 링크에 대한 전역 설정
+#### <a name="global-settings-for-safe-links"></a>링크의 전역 Safe 설정
 
 이러한 설정을 구성하려면 [Configure global settings for Safe Links in Defender for Office 365.](configure-global-settings-for-safe-links.md)
 
@@ -246,44 +246,44 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
-|**안전한 링크 사용: Office 365 앱** <p> _EnableSafeLinksForO365Clients_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|지원되는 데스크톱 및 모바일(iOS Office 365 및 Android) 앱에서 안전한 링크를 사용하세요. 자세한 내용은 앱의 안전한 링크 [Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)|
+|**앱 Safe 링크 사용: Office 365 링크** <p> _EnableSafeLinksForO365Clients_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|지원되는 Safe 데스크톱 및 모바일(iOS 및 Android) 앱에서 Office 365 링크를 사용하세요. 자세한 내용은 Safe 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)|
 |**사용자가 앱의 보호된 링크를 클릭하는 Office 365 추적하지 않습니다.** <p> _TrackClicks_|켜짐 <p> `$false`|해제 <p> `$true`|해제 <p> `$true`|이 설정을 _끄면(TrackClicks를_ 로 설정) 지원되는 앱의 사용자 `$true` 클릭을 Office 365 추적합니다.|
 |**사용자가 앱의 원래 URL을 클릭할 Office 365 안 하세요.** <p> _AllowClickThrough_|켜짐 <p> `$false`|켜짐 <p> `$false`|켜짐 <p> `$false`|이 설정을 _켜면(AllowClickThrough를_ 로 설정) 지원되는 앱의 원래 `$false` URL을 클릭할 Office 365 없습니다.|
 |
 
-#### <a name="safe-links-policy-settings"></a>안전한 링크 정책 설정
+#### <a name="safe-links-policy-settings"></a>Safe 링크 정책 설정
 
 이러한 설정을 구성하려면 [Set up Safe Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
 PowerShell에서는 이러한 설정에 [New-SafeLinksPolicy](/powershell/module/exchange/new-safelinkspolicy) 및 [Set-SafeLinksPolicy](/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용합니다.
 
 > [!NOTE]
-> 앞에서 설명한 대로 기본 안전 링크 정책은 없습니다. 기본값 열의 값은 새로 만드는 안전 링크 정책의 기본값입니다.
+> 앞에서 설명한 대로 기본 링크 정책은 Safe 없습니다. 기본값 열의 값은 새로 만드는 링크 정책의 기본값입니다Safe 정책의 기본값입니다.
 
 <br>
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams** <p> _EnableSafeLinksForTeams_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**파일을 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검사 적용** <p> _ScanUrls_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**메시지를 배달하기 전에 URL 검색이 완료될 때까지 기다렸다가** <p> _DeliverMessageAfterScan_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
-|**조직 내에서 보낸 전자 메일 메시지에 안전한 링크 적용** <p> _EnableForInternalSenders_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**조직 Safe 보낸 전자 메일 메시지에 링크 적용** <p> _EnableForInternalSenders_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**사용자 클릭 추적 안 하도록 설정** <p> _DoNotTrackUserClicks_|해제 <p> `$false`|해제 <p> `$false`|해제 <p> `$false`|이 설정을 _끄면(DoNotTrackUserClicks를_ 로 설정) 사용자 `$false` 클릭이 추적됩니다.|
 |**사용자가 원래 URL을 클릭할 수 있도록 허용 안 하세요.** <p> _DoNotAllowClickThrough_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 _설정(DoNotAllowClickThrough를_ 로 설정)을 설정하면 원래 URL을 클릭할 `$true` 수 없습니다.|
 |
 
-### <a name="safe-attachments-settings"></a>안전한 첨부 파일 설정
+### <a name="safe-attachments-settings"></a>Safe 첨부 파일 설정
 
-Microsoft Defender for Office 365 안전 첨부 파일에는 안전 첨부 파일 정책과 관련이 없는 전역 설정과 각 안전 링크 정책과 관련한 설정이 포함되어 있습니다. 자세한 내용은 에 [대한 Defender의](safe-attachments.md)안전한 첨부 Office 365.
+Safe Microsoft Defender for Office 365 첨부 파일에는 Safe 정책과 관계가 없는 전역 설정과 각 첨부 파일 링크 정책과 Safe 설정이 포함됩니다. 자세한 내용은 에 [대한 Safe Defender의](safe-attachments.md)첨부 파일을 Office 365.
 
-#### <a name="global-settings-for-safe-attachments"></a>안전한 첨부 파일에 대한 전역 설정
+#### <a name="global-settings-for-safe-attachments"></a>첨부 파일 Safe 전역 설정
 
-이러한 설정을 구성하려면 에서 [SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 안전한 문서에 대해 안전한 첨부 [파일 Microsoft 365 E5.](safe-docs.md)
+이러한 설정을 구성하려면 에서 [SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 및 Safe 문서에 대한 Safe 첨부 파일 설정을 [Microsoft 365 E5.](safe-docs.md)
 
 PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/module/exchange/set-atppolicyforo365) cmdlet을 사용합니다.
 
@@ -291,29 +291,29 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기** <p> _EnableATPForSPOTeamsODB_|켜짐 <p> `$true`|켜짐 <p> `$true`||
-|**클라이언트에 대해 안전한 Office 켜기** <p> _EnableSafeDocs_|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정은 Microsoft 365 E5 또는 Microsoft 365 E5 Security 사용할 수 있습니다. 자세한 내용은 Microsoft [Defender for Office 365.](safe-docs.md)|
-|**안전한 문서에서 파일을 악성으로 식별한 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용** <p> _AllowSafeDocsOpen_|해제 <p> `$false`|해제 <p> `$false`|이 설정은 안전한 문서와 관련이 있습니다.|
+|**클라이언트에 Safe 문서 Office 켜기** <p> _EnableSafeDocs_|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정은 Microsoft 365 E5 또는 Microsoft 365 E5 Security 사용할 수 있습니다. 자세한 내용은 microsoft [Defender에서](safe-docs.md)Safe 문서를 Office 365.|
+|**문서에서 파일을 악성으로 식별한 경우에도 Safe 보기를 클릭할 수 있도록 허용** <p> _AllowSafeDocsOpen_|해제 <p> `$false`|해제 <p> `$false`|이 설정은 문서 Safe 관련이 있습니다.|
 |
 
-#### <a name="safe-attachments-policy-settings"></a>안전 첨부 파일 정책 설정
+#### <a name="safe-attachments-policy-settings"></a>Safe 첨부 파일 정책 설정
 
 이러한 설정을 구성하려면 [Set up Safe Attachments policies in Defender for Office 365.](set-up-safe-attachments-policies.md)
 
 PowerShell에서는 이러한 설정에 [New-SafeAttachmentPolicy](/powershell/module/exchange/new-safeattachmentpolicy) 및 [Set-SafeAttachmentPolicy](/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용합니다.
 
 > [!NOTE]
-> 앞에서 설명한 대로 기본 안전 첨부 파일 정책은 없습니다. 기본값 열의 값은 새로 만드는 안전 첨부 파일 정책의 기본값입니다.
+> 앞에서 설명한 대로 첨부 파일 정책의 기본 Safe 없습니다. 기본 열의 값은 새로 만드는 첨부 파일 정책의 Safe 값입니다.
 
 <br>
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
-|**안전한 첨부 파일 알 수 없는 맬웨어 응답** <p> _작업_|차단 <p> `Block`|차단 <p> `Block`|차단 <p> `Block`||
+|**Safe 첨부 파일 알 수 없는 맬웨어 응답** <p> _작업_|차단 <p> `Block`|차단 <p> `Block`|차단 <p> `Block`||
 |**검색 시 첨부 파일 리디렉션:** **리디렉션 사용** <p> _리디렉션_ <p> _RedirectAddress_|꺼지며 전자 메일 주소가 지정되지 않습니다. <p> `$true` <p> 없음|을 사용하여 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|을 사용하여 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에게 메시지를 리디렉션합니다.|
 |**첨부 파일에 대한 맬웨어 검색이 시간 외 또는 오류가 발생하는 경우 위의 선택을 적용합니다.** <p> _ActionOnError_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |

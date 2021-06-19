@@ -19,12 +19,12 @@ description: 관리자는 Microsoft 365 Defender 포털에서 사용할 수 있�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f3dcf533c232a89adf0dc1ff3fcc7c2ca4fc5d8f
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: ad5a9f0d87902deb1985daebfa61cd733d22cbec
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022933"
+ms.locfileid: "53029575"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털에서 전자 메일 보안 보고서 보기
 
@@ -157,7 +157,9 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자 메�
 
 ### <a name="type-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 형식 보기
 
-보고서를 열면 유형 **탭이** 기본적으로 선택됩니다. 기본적으로 이 보기에는 차트 및 다음 필터로 구성된 세부 정보 테이블이 포함되어 있습니다.
+![메일 흐름 상태 보고서에 보기 입력](../../media/mail-flow-status-report-type-view.png)
+
+메일 흐름 **상태 보고서** 페이지에서  유형 탭이 기본적으로 선택되어 있습니다. 기본적으로 이 보기에는 차트 및 다음 필터로 구성된 세부 정보 테이블이 포함되어 있습니다.
 
 - **날짜(UTC)** 지난 7일
 - **메일 방향**:
@@ -175,7 +177,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자 메�
 
 차트는 종류 값으로 **구성됩니다.**
 
-필터를 클릭하거나 차트  범례에서 값을 클릭하여 이러한 필터를 변경할 수 있습니다.
+필터 를 클릭하여 이러한 필터를 변경할 수 **있습니다.**
 
 그래프 아래의 세부 정보 표에는 다음 정보가 나와 있습니다.
 
@@ -200,9 +202,9 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자 메�
 
 내보낼 각 .csv 행은 150,000개로 제한됩니다. 해당 일의 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
-![메일 흐름 상태 보고서에 보기 입력](../../media/mail-flow-status-report-type-view.png)
-
 ### <a name="direction-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 방향 보기
+
+![메일 흐름 상태 보고서의 방향 보기](../../media/mail-flow-status-report-direction-view.png)
 
 방향 탭을 **클릭하면** 유형 보기의 동일한 기본 **필터가** 사용됩니다.
 
@@ -220,11 +222,11 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자 메�
 
 내보낼 각 .csv 행은 150,000개로 제한됩니다. 해당 일의 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
-![메일 흐름 상태 보고서의 방향 보기](../../media/mail-flow-status-report-direction-view.png)
-
 ### <a name="funnel-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 유입경로 보기
 
 **Funnel** 보기는 Microsoft의 전자 메일 위협 방지 기능이 조직에서 받는 전자 메일과 보내기 전자 메일을 필터링하는 방법을 보여줍니다. 전체 전자 메일 수와 에지 보호, 맬웨어 방지, 피싱 방지, 스팸 방지 및 스푸핑 방지를 포함하여 구성된 위협 방지 기능이 이 수에 미치는 영향을 자세히 제공합니다.
+
+![메일 흐름 상태 보고서의 유입경로 보기](../../media/mail-flow-status-report-funnel-view.png)
 
 유정  탭을 클릭하면 기본적으로 이 보기에는 차트와 다음 필터로 구성된 세부 정보 테이블이 포함되어 있습니다.
 
@@ -289,8 +291,6 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 **날짜에서** 범위를 선택한 다음 적용을 **클릭합니다.** 현재 필터에 대한 데이터는 파일로 .csv 내보낼 수 있습니다.
 
 내보낼 각 .csv 행은 150,000개로 제한됩니다. 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
-
-![메일 흐름 상태 보고서의 유입경로 보기](../../media/mail-flow-status-report-funnel-view.png)
 
 ### <a name="tech-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 기술 보기
 
@@ -460,14 +460,23 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 제출 **페이지에서** 필터를 클릭하고 다음 값 중 하나 이상을  선택하여 차트와 세부 정보 테이블을 필터링할 수 있습니다.
 
 - **보고된 날짜:** **시작 시간** 및 **종료 시간**
-- **제출 유형:** **전자 메일,** **URL** 또는 **파일**
+- **제출 유형**:
+  - **전자 메일**
+  - **URL**
+  - **파일**
 - **제출 ID**
 - **네트워크 메시지 ID**
 - **보낸 사람**
 - **이름**
 - **제출한 인원**
-- **제출 이유:** **정크** 메일 아님, **피싱,** **맬웨어** 또는 **스팸**
-- **다시 검색 상태:** **보류 중 또는** **완료**
+- **제출 이유:**
+  - **정크 아님**
+  - **피싱**
+  - **맬웨어**
+  - **스팸**
+- **상태 다시 검색:**
+  - **보류 중**
+  - **완료**
 
 그래프 아래의 세부 정보 표에는 동일한 정보가  표시되어  있으며 전자 메일  및 공동 작업 제출의 분석 제출 탭에서와 동일한 **그룹 또는 & 옵션이** \> **있습니다.** 자세한 내용은 Microsoft에 대한 [관리자 제출 보기를 참조하세요.](admin-submission.md#view-admin-submissions-to-microsoft)
 
@@ -772,7 +781,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ## <a name="url-threat-protection-report"></a>URL 위협 방지 보고서
 
-**URL 위협 방지 보고서는** Microsoft Defender for Office 365. 자세한 내용은 [URL 위협 방지 보고서를 참조하세요.](view-reports-for-mdo.md#url-threat-protection-report)
+**URL 위협 방지 보고서는** Microsoft Defender에서만 사용할 수 Office 365. 자세한 내용은 [URL 위협 방지 보고서를 참조하세요.](view-reports-for-mdo.md#url-threat-protection-report)
 
 ## <a name="user-reported-messages-report"></a>사용자가 보고한 메시지 보고서
 

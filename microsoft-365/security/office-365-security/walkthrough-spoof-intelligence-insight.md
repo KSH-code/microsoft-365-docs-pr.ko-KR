@@ -19,12 +19,12 @@ description: 관리자는 스푸핑 인텔리전스 정책 및 스푸핑 인텔�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0e5c83bc50197e30c12f8f7aeedc83930d7ff5e
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: a683ed93e4e483e63fe01281b32661f0b803d1ce
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793211"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029300"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>EOP에서 스푸핑 인텔리전스 정책 및 스푸핑 인텔리전스 인사이트를 사용하여 스푸핑된 보낸 사람 관리
 
@@ -67,7 +67,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 - 피싱 방지 정책에서 스푸핑 인텔리전스 설정을 사용하도록 설정, 비활성화 및 구성할 수 있습니다. 구독에 기반한 지침은 다음 항목 중 하나를 참조하세요.
 
   - [EOP에서 피싱 방지 정책을 구성합니다.](configure-anti-phishing-policies-eop.md)
-  - [Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책을 Office 365.
+  - [Microsoft Defender에서](configure-mdo-anti-phishing-policies.md)피싱 방지 정책을 Office 365.
 
 - 스푸핑 인텔리전스에 대한 권장 설정은 EOP 피싱 방지 정책 [설정을 참조하세요.](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)
 
@@ -184,7 +184,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
 1. 보안 및 & 센터에서 위협 관리 **대시보드로** \> **이동하세요.**
 
-2. **Insights 행에서** 다음 항목 중 하나를 찾아야 합니다.
+2. Insights **행에서** 다음 항목 중 하나를 찾아야 합니다.
 
    - **지난 7일** 동안의 스푸핑된 도메인 가능성 : 이 인사이트는 스푸핑 인텔리전스가 활성화되어 있는 것으로 나타냅니다(기본적으로 사용 가능).
    - **스푸핑** 보호 사용 : 이 인사이트는 스푸핑 인텔리전스가 사용되지 않도록 설정되어 있으며, 정보를 클릭하면 스푸핑 인텔리전스를 사용하도록 설정할 수 있습니다.

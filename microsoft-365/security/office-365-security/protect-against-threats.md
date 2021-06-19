@@ -1,5 +1,5 @@
 ---
-title: 위협으로부터 보호
+title: 위협에 대한 보호
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -20,14 +20,14 @@ description: 관리자는 조직의 위협 방지에 대해 Microsoft 365 조직
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5d61b17fc4575249bb592fc4ca865c34a628361a
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 407838c815a85ce7c73322a0de176970ee93e537
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878331"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029612"
 ---
-# <a name="protect-against-threats"></a>위협으로부터 보호
+# <a name="protect-against-threats"></a>위협에 대한 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -61,8 +61,8 @@ ms.locfileid: "52878331"
 |피싱 방지 보호 기능|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |스팸 방지 보호 기능|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |제로 아워 자동 제거(전자 메일용)|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|전자 메일 및 전자 메일의 악의적인 URL 및 Office 보호(안전한 링크 및 안전한 첨부 파일)|[Office 365용 Microsoft Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|작업 부하, SharePoint, OneDrive 및 Microsoft Teams 설정|[Office 365용 Microsoft Defender](turn-on-mdo-for-spo-odb-and-teams.md)|
+|전자 메일 및 전자 메일 문서의 악의적인 URL 및 Office 파일 보호(Safe 링크 및 Safe 첨부 파일)|[Office 365용 Microsoft Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|작업 Safe, SharePoint, OneDrive 및 Microsoft Teams 설정|[Office 365용 Microsoft Defender](turn-on-mdo-for-spo-odb-and-teams.md)|
 |지능형 피싱 방지 보호|[Office 365용 Microsoft Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
@@ -139,11 +139,12 @@ ms.locfileid: "52878331"
        - **사서함 인텔리전스에서** 가장된 사용자를 검색하는 경우 : 받는 사람의 정크 메일 폴더로 메시지 이동(표준) 또는 메시지 검역(엄격)을 <sup>\*</sup> 선택합니다.  
        - **메시지가 스푸핑으로** 검색된 경우  : 받는 사람의 정크 메일 폴더로 메시지  이동(표준) 또는 메시지 검량(엄격)을 선택합니다.
      - **안전 팁 & 표시기** 섹션: 다음 설정을 구성합니다.
+       - **첫 번째 연락처 보안 팁**: 선택(켜기)을 선택합니다.
        - **사용자 가장 표시** 보안 팁 <sup>\*</sup> : 선택(켜기)을 선택합니다.
        - **도메인 가장 표시** <sup>\*</sup> 보안 팁 : 선택(켜기)을 선택합니다.
        - **사용자 가장 비정상 문자** 보안 팁 <sup>\*</sup> : 선택(켜기)을 선택합니다.
        - **스푸핑에** 대해 확인되지 않은 보낸 사람에 대한 표시(?) : 선택(켜기)을 선택합니다.
-       - **"via" 태그 표시**: 이 설정을 사용할 수 있는 경우 선택(켜기)합니다.
+       - **"via" 태그 표시**: 선택(켜기)입니다.
 
      작업을 마쳤으면 **저장** 을 클릭합니다.
 
@@ -151,7 +152,7 @@ ms.locfileid: "52878331"
 
 4. **저장을** 클릭한 다음 **닫기 클릭**
 
-피싱 방지 정책을 구성하는 방법에 대한 자세한 내용은 [EOP에서](configure-anti-phishing-policies-eop.md) 피싱 방지 정책 구성 및 Microsoft [Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 Office 365.
+피싱 방지 정책을 구성하는 방법에 대한 자세한 내용은 [EOP에서](configure-anti-phishing-policies-eop.md) 피싱 방지 정책 구성 및 Microsoft [Defender에서](configure-mdo-anti-phishing-policies.md)피싱 방지 정책 구성을 Office 365.
 
 ## <a name="part-3---anti-spam-protection-in-eop"></a>3부 - EOP의 스팸 방지 보호 기능
 
@@ -169,22 +170,22 @@ ms.locfileid: "52878331"
 
 스팸 방지 정책을 구성하는 방법에 대한 자세한 내용은 [EOP에서 스팸 방지 정책 구성을 참조하세요.](configure-your-spam-filter-policies.md)
 
-## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365"></a>4부 - 악의적인 URL 및 파일로부터 보호(안전한 링크 및 안전한 첨부 파일 for Office 365)
+## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365"></a>4부 - 악의적인 URL 및 파일로부터 보호(Safe Defender의 링크 및 Safe 첨부 Office 365 파일)
 
-악성 URL 및 파일로부터 클릭 시간 보호는 Microsoft [Defender for](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)Office 365. 안전한 첨부 파일 및 [안전한](safe-attachments.md) 링크 [정책을 통해 설정됩니다.](safe-links.md)
+악성 URL 및 파일로부터 클릭 시간 보호는 Microsoft [Defender for](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)Office 365. 첨부 파일 및 링크 Safe [정책을](safe-attachments.md) [통해 Safe](safe-links.md) 설정됩니다.
 
-### <a name="safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
+### <a name="safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Safe Microsoft Defender for Office 365
 
-안전한 첨부 파일을 [설정하기 위해](safe-attachments.md)하나 이상의 안전한 링크 정책을 만드시다.
+첨부 파일을 [Safe](safe-attachments.md)하나 이상의 링크 정책을 Safe.
 
-1. 보안 및 [& 센터에서](https://protection.office.com) **위협** 관리 정책 ATP 안전한 첨부 파일을 선택한 \>  \> 다음 만들기를 **클릭합니다.**
+1. 보안 및 [& 센터에서](https://protection.office.com)위협  관리 정책 ATP 및 첨부 Safe 를 선택한 다음 \>  \> 만들기를 **클릭합니다.**
 
-2. 나타나는 **새 안전** 첨부 파일 정책 마법사에서 다음 설정을 구성합니다.
+2. 나타나는 **새** Safe 첨부 파일 정책 마법사에서 다음 설정을 구성합니다.
 
    - 이름 **상자에** `Block malware` 를 입력하고 다음 을 **클릭합니다.**
 
    - 설정 **페이지에서** 다음 설정을 구성합니다.
-     - 안전한 첨부 **파일 알 수 없는 맬웨어 응답 섹션에서** 차단 을 선택 **합니다.**
+     - 첨부 Safe 알 수 **없는 맬웨어 응답 섹션에서** 차단 을 **선택하세요.**
      - 첨부 파일 **리디렉션 섹션에서** 리디렉션 사용 **옵션을 선택합니다.** 검색된 파일을 검토할 조직의 보안 관리자 또는 운영자의 전자 메일 주소를 지정합니다.
 
      **다음** 을 클릭합니다.
@@ -193,21 +194,21 @@ ms.locfileid: "52878331"
 
 4. 설정을 검토하고 마친 을 **클릭합니다.**
 
-### <a name="safe-links-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
+### <a name="safe-links-policies-in-microsoft-defender-for-office-365"></a>Safe Microsoft Defender for Office 365
 
-안전한 링크를 [설정하려면](safe-links.md)안전한 링크에 대한 전역 설정을 검토 및 편집하고 안전한 링크 정책을 하나 이상 만들 수 있습니다.
+링크 Safe [설정하려면](safe-links.md)Safe 링크에 대한 전역 설정을 검토하고 편집하고 하나 이상의 Safe 만들 수 있습니다.
 
-1. 보안 및 [&](https://protection.office.com)센터에서 **위협** 관리 정책 ATP 안전한 링크를 선택하고 전역 설정을 클릭한 후 다음 설정을 \>  \> 구성합니다. 
+1. 보안 & 준수 [센터에서](https://protection.office.com)위협  관리 정책 ATP Safe 링크를 선택하고 전역 설정을 클릭한 후 다음 설정을 \>  \> 구성합니다. 
 
-   - 다음에서 안전한 링크 사용 **확인: Office 365** 응용 프로그램이 켜져 있는지 확인: ![ 을 토글합니다. ](../../media/scc-toggle-on.png)
-   - 사용자가 안전한 링크를 **클릭하는** 경우 추적하지 않습니다. 사용자 클릭을 추적하려면 이 설정을 해제합니다. ![ 토글 끄기. ](../../media/scc-toggle-off.png)
+   - 다음에서 **Safe 사용 확인:** Office 365 응용 프로그램이 켜져 있습니다. ![ 토글합니다. ](../../media/scc-toggle-on.png)
+   - **사용자가 링크를 클릭하는 Safe** 추적하지 않습니다. 사용자 클릭을 추적하려면 이 설정을 해제합니다. ![ 토글 끄기. ](../../media/scc-toggle-off.png)
    - **사용자가 원래 URL에 대한 안전한** 링크를 클릭할 수 없습니다. 이 설정이 켜져 있는지 확인합니다. ![ 토글합니다. ](../../media/scc-toggle-on.png)
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
 
-2. 기본 안전한 링크 페이지에서 만들기를 **클릭합니다.**
+2. 기본 Safe 페이지로 돌아가서 만들기를 **클릭합니다.**
 
-3. 나타나는 **안전한** 링크 만들기 정책 마법사에서 다음 설정을 구성합니다.
+3. 나타나는 **링크 Safe** 만들기 정책 마법사에서 다음 설정을 구성합니다.
 
    - 이름 **상자에** 과 같은 이름을 입력하고 `Safe Links` 다음 을 **클릭합니다.**
 
@@ -227,18 +228,18 @@ ms.locfileid: "52878331"
 
 자세한 내용은 [안전한 링크 정책 설정](set-up-safe-links-policies.md)을 참조하세요.
 
-## <a name="part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>5부 - 설정되어 있는 SharePoint, OneDrive 및 Microsoft Teams 첨부 파일 확인
+## <a name="part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>5부 - Safe, SharePoint, OneDrive 및 Microsoft Teams 첨부 파일이 켜져 있는지 확인
 
 SharePoint, OneDrive 및 Teams 작업은 공동 작업을 위해 구축됩니다. 팀 사이트에 Defender를 Office 365 팀 사이트 및 문서 라이브러리에서 악성으로 식별된 파일을 차단하고 검색하는 데 도움이 됩니다. 작동 방식에 대한 자세한 내용은 을(를) 읽어 [볼 수 있습니다.](mdo-for-spo-odb-and-teams.md)
 
 > [!IMPORTANT]
 > **이 절차를 시작하기** 전에 사용자 환경 에 대해 감사 로깅이 Microsoft 365 합니다. 이 작업은 일반적으로 감사 로그 역할이 할당된 사용자가 Exchange Online. 자세한 내용은 감사 로그 검색 켜기 또는 [끄기!를 참조하세요.](../../compliance/turn-audit-log-search-on-or-off.md)
 
-1. 보안 및 [& 센터에서](https://protection.office.com) **위협** 관리 정책 \>  \> **ATP 안전한** 첨부 파일을 선택한 다음 전역 설정을 **클릭합니다.**
+1. 보안 및 [& 센터에서](https://protection.office.com)위협  관리 정책 ATP Safe 첨부 파일을 선택한 다음 \>  \> **전역** 설정을 **클릭합니다.**
 
 2. Office 365, SharePoint, OneDrive 및 Microsoft Teams 토글에 대한 **Defender** 켜기 설정이 오른쪽에 있는지 확인: ![ 을 토글하고 ](../../media/scc-toggle-on.png) 저장을 **클릭합니다.**
 
-3. 조직의 안전 첨부 파일 정책 및 안전한 [](set-up-safe-attachments-policies.md) 링크 정책을 검토하고 적절하게 [편집합니다.](set-up-safe-links-policies.md)
+3. 조직의 첨부 파일 정책 및 Safe 정책 [](set-up-safe-attachments-policies.md) 및 링크 정책을 Safe [검토합니다(적절한 경우 편집).](set-up-safe-links-policies.md)
 
 4. (권장) 전역 관리자 또는 SharePoint Online 관리자로서 _DisallowInfectedFileDownload_ 매개 변수를 로 설정하여 **[Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant)** cmdlet을 실행합니다. `$true`
 
@@ -278,7 +279,7 @@ SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft Teams 파일이 악
 > 구성이 완료되면 다음 링크를 사용하여 작업 조사를 시작하세요.
 >
 >- [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
->- [Microsoft 365 Defender 포털을 사용하여 2016년 10월에 대한 Defender에서 quarantined files를 Office 365](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)
+>- [Microsoft 365 Defender 포털을 사용하여 Defender for Office 365](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)
 >- [SharePoint Online, OneDrive 또는 Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
 >- [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
 

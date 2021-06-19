@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 14033ffeb3d08efad7f45eb4c319ac0401b7df09
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 7891d61de7581a896a6599004eae91a4e47e1581
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028476"
+ms.locfileid: "53029948"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>서비스 Microsoft 365 Defender 문제 해결
 
@@ -56,5 +56,3 @@ ms.locfileid: "53028476"
 ## <a name="how-do-i-create-an-exception-for-my-fileurl"></a>내 파일/URL에 대한 예외를 만드는 방법
 
 가짓 긍정은 악성으로 검색되지만 위협이 아닌 파일 또는 URL입니다. 표시기를 만들고 제외를 정의하여 차단을 해제하고 특정 파일/URL을 허용할 수 있습니다. [끝점에 대한 Defender에서 가짓 긍정/부정 주소를 참조하세요.](/microsoft-365/security/defender-endpoint/defender-endpoint-false-positives-negatives)
-
-

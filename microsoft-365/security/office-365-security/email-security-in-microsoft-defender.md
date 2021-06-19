@@ -16,12 +16,12 @@ description: 맬웨어 피싱 시도를 보고 조사합니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 917ad3caf96a982df8b88058ff1c394b3d21dd75
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: eb62961bb26b079c508cbd5bc559a95d172cff86
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028559"
+ms.locfileid: "53029888"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -32,11 +32,11 @@ ms.locfileid: "53028559"
 - [자동화된 조사 및 대응 시작](#start-automated-investigation-and-response)
 
 > [!NOTE]
-> 이 문서는 위협 탐색기(탐색기) **,** 전자 메일 보안 및 **탐색기** 및 실시간 검색 기본(예: 도구 간 차이점 및 작동에 필요한 사용 권한)에 대한 **3개** 문서 시리즈의 일부입니다.  이 시리즈의 다른 두 문서는 위협 탐색기 및 [위협](threat-hunting-in-threat-explorer.md) 탐색기에서 위협 헌팅 및 실시간 검색 기본 [입니다.](real-time-detections.md) 
+> 이 문서는 위협 탐색기(탐색기) **,** 전자 메일 보안 및 **탐색기** 및 실시간 검색 기본(예: 도구 간 차이점 및 작동에 필요한 사용 권한)에 대한 **3개** 문서 시리즈의 일부입니다.  이 시리즈의 다른 두 문서는 위협 탐색기 및 [위협](threat-hunting-in-threat-explorer.md) 탐색기에서 위협 헌팅 및 실시간 검색 기본 [입니다.](real-time-detections.md)
 
-이 문서에서는 보안 기능을 통해 전자 메일에서 감지된 맬웨어 및 피싱 시도를 보고 Microsoft 365 방법을 설명합니다. 
+이 문서에서는 보안 기능을 통해 전자 메일에서 감지된 맬웨어 및 피싱 시도를 보고 Microsoft 365 방법을 설명합니다.
 
-**적용 대상**
+**적용 대상:**
 
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
@@ -45,45 +45,42 @@ ms.locfileid: "53028559"
 
 전자 메일에서 검색된 맬웨어를 Microsoft 365 탐색기(또는 실시간 검색)의 전자 메일 > 맬웨어 보기를 사용합니다. [](threat-explorer-views.md#email--malware) 맬웨어는 기본 보기이기 때문에 탐색기를 여는 즉시 선택될 수 있습니다.
 
-1. in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ), choose Email & **collaboration** \> **Explorer** (or **Real-time detections**). (이 예제에서는 Explorer를 사용합니다.) 수렴형 Microsoft 365 Defender 포털에 있는 경우 전자 메일 & https://security.microsoft.com/) **탐색기 로**  >  **스크롤합니다.**
+1. in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ), choose Email & **collaboration** \> **Explorer** (or **Real-time detections**; 이 예제에서는 Explorer를 사용합니다.
 
    여기에서 보기에서 시작하여 조사할 특정 시간 프레임(필요한 경우)을 선택하고 탐색기에서 진행하는 에 따라 필터에 [집중합니다.](threat-hunting-in-threat-explorer.md#threat-explorer-walk-through)
 
-2. 보기 **메뉴에서** 전자 **메일에서 맬웨어를** **선택합니다.**
+2. 보기 **드롭다운** 목록에서 전자  메일 맬웨어가 \>  선택되어 있는지 확인 합니다.
 
-3. 보낸 **사람 을** 클릭한 다음 **기본** 검색 기술을 \> **클릭합니다.**
+3. 보낸 **사람 을** 클릭한 다음 **드롭다운** 목록에서 기본 검색 기술을 \>  선택합니다.
 
-   
    :::image type="content" source="../../media/exploreremailmalwaredetectiontech-newimg.png" alt-text="맬웨어 감지 기술":::
 
    이제 검색 기술을 보고서의 필터로 사용할 수 있습니다.
 
-4. 옵션을 선택합니다. 그런 다음 새로 **고침 단추를** 선택하여 해당 필터를 적용합니다.
+4. 옵션을 선택한 다음 새로 고침을 **클릭하여** 해당 필터를 적용합니다(브라우저 창을 새로 고치지 않습니다).
 
-   :::image type="content" source="../../media/exploreremailmalwaredetectiontech2-new.png" alt-text="선택한 검색 기술"::: 
+   :::image type="content" source="../../media/exploreremailmalwaredetectiontech2-new.png" alt-text="선택한 검색 기술":::
 
-   보고서가 새로 고쳐서 선택한 기술 옵션을 사용하여 전자 메일에서 맬웨어가 검색된 결과를 보여 주며, 여기에서 추가 분석을 진행할 수 있습니다. 
+   보고서가 새로 고쳐서 선택한 기술 옵션을 사용하여 전자 메일에서 맬웨어가 검색된 결과를 보여 주며, 여기에서 추가 분석을 진행할 수 있습니다.
 
 ## <a name="view-phishing-url-and-click-verdict-data"></a>피싱 URL 보기 및 판정 데이터 클릭
 
 허용, 차단 및 재지정된 URL 목록을 포함하여 전자 메일의 URL을 통해 피싱 시도를 볼 수 있습니다. 클릭한 URL을 식별하려면 링크 Safe [구성해야](safe-links.md) 합니다. 클릭 시간 보호 [](set-up-safe-links-policies.md) 및 Safe 링크로 클릭 판정 로깅에 대한 링크 정책을 Safe 합니다.
 
-메시지의 피싱 URL을 검토하고 피싱 메시지의 URL을 클릭하려면 탐색기 또는 실시간 검색의 전자 메일 [   >  **피싱**](threat-explorer-views.md#email--phish) 보기를 사용합니다.
+1. in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ), choose Email & **collaboration** \> **Explorer** (or **Real-time detections**; 이 예제에서는 Explorer를 사용합니다.
 
-1. in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ), choose Email & **collaboration** \> **Explorer** (or **Real-time detections**). (이 예제에서는 Explorer를 사용합니다.)
-
-2. 보기 **메뉴에서** 전자 **메일** \> **피싱 을 선택합니다.**
+2. 보기 **드롭다운** 목록에서 전자 **메일** \> **피싱 을 선택합니다.**
 
    > [!div class="mx-imgBorder"]
    > ![피싱 컨텍스트에서 탐색기 메뉴 보기](../../media/ExplorerViewEmailPhishMenu.png)
 
-3. 보낸 **사람 을**  클릭한 다음 URL 확인 \> **클릭 을 클릭합니다.**
+3. 보낸 **사람 을** 클릭한 다음 **드롭다운** 목록에서 URL \> **클릭** 판정을 선택합니다.
 
-4. 차단 및 다시 설정 차단과 같은 하나 이상의 옵션을 선택한  다음 해당 필터를 적용할 옵션과 같은 줄에서 새로 고침 단추를 선택합니다.  (브라우저 창을 새로 고치지 않습니다.)
+4. 나타나는 옵션에서 차단 및 다시 설정 차단과 같은 하나 이상의 옵션을 선택한  다음 새로 고침을 클릭합니다(브라우저 창을 새로 고치지 않습니다). 
 
     :::image type="content" source="../../media/threatexploreremailphishclickverdict-new.png" alt-text="URL 및 클릭 판정":::
 
-   보고서가 새로 고쳐지며 보고서 아래에 있는 URL 탭에 두 개의 서로 다른 URL 테이블이 표시됩니다.
+   보고서가 새로 고쳐지며 보고서 아래에 있는 URL 탭에 두 개의 서로 **다른** URL 테이블이 표시됩니다.
 
    - **상위 URL은** 필터링한 메시지의 URL과 각 URL에 대한 전자 메일 배달 작업 수입니다. 피싱 전자 메일 보기에서 이 목록에는 일반적으로 합법적인 URL이 포함되어 있습니다. 공격자는 메시지에 좋은 URL과 잘못된 URL을 혼합하여 배달하려고 시도하지만 악의적인 링크가 더 흥미로워 보이게 합니다. URL 표는 총 전자 메일 수를 통해 정렬되지만 보기를 단순화하기 위해 이 열은 숨겨집니다.
 

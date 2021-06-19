@@ -17,12 +17,12 @@ ms.collection:
 description: Outlook 및 웹용 Outlook, 개별 사용자 또는 전체 조직에 대해 보고서 메시지 또는 피싱 보고 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c7e5136e6d1a118df2e0e91f09a79a9a63e88052
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 8949322b0b691d59e59e5f7b80d2b9650e4115d5
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028586"
+ms.locfileid: "53029912"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>보고서 메시지 또는 피싱 보고 추가 기능 사용
 
@@ -34,17 +34,17 @@ ms.locfileid: "53028586"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> Exchange Online 사서함이 있는 Microsoft 365 조직의 관리자인 경우 Microsoft 365 Defender의 제출 포털을 사용하는 것이 좋습니다. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
+> Exchange Online 사서함이 있는 Microsoft 365 조직의 관리자인 경우 Microsoft 365 Defender 포털에서 제출 포털을 사용하는 것이 좋습니다. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
 
-Outlook 및 웹용 Outlook(이전의 Outlook Web App)에 대한 피싱 보고 추가 기능을 사용하면 사용자가 분석을 위해 Microsoft 및 계열사에 가음성(나쁜 것으로 표시된 양호한 전자 메일) 또는 거짓 부정(잘못된 전자 메일 허용)을 쉽게 보고할 수 있습니다. 
+Outlook 및 웹용 Outlook(이전의 Outlook Web App)에 대한 피싱 보고 추가 기능을 사용하면 사용자가 분석을 위해 Microsoft 및 계열사에 가음성(나쁜 것으로 표시된 양호한 전자 메일) 또는 거짓 부정(잘못된 전자 메일 허용)을 쉽게 보고할 수 있습니다.
 
-Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효율성을 향상합니다. 예를 들어 피싱 보고 추가 기능을 사용하여 많은 메시지를 보고하는 사람이 많은 경우를 가정해 보겠습니다. 이 정보는 보안 대시보드 및 기타 보고서에 표시됩니다. 조직의 보안 팀은 이 정보를 피싱 방지 정책을 업데이트해야 할 수 있습니다. 
+Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효율성을 향상합니다. 예를 들어 피싱 보고 추가 기능을 사용하여 많은 메시지를 보고하는 사람이 많은 경우를 가정해 보겠습니다. 이 정보는 보안 대시보드 및 기타 보고서에 표시됩니다. 조직의 보안 팀은 이 정보를 피싱 방지 정책을 업데이트해야 할 수 있습니다.
 
-보고서 메시지 또는 피싱 보고 추가 기능을 설치할 수 있습니다. 사용자가 스팸 및 피싱 메시지를 모두 보고하게 하려는 경우 조직에 보고서 메시지 추가 기능을 배포합니다. 자세한 내용은 Enable the Report Message add-in을 참조하십시오. 
+보고서 메시지 또는 피싱 보고 추가 기능을 설치할 수 있습니다. 사용자가 스팸 및 피싱 메시지를 모두 보고하게 하려는 경우 조직에 보고서 메시지 추가 기능을 배포합니다. 자세한 내용은 Enable the Report Message add-in을 참조하십시오.
 
-보고서 메시지 추가 기능은 스팸 및 피싱 메시지를 모두 보고하는 옵션을 제공합니다. 관리자는 조직에 대해 보고서 메시지 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다. 
+보고서 메시지 추가 기능은 스팸 및 피싱 메시지를 모두 보고하는 옵션을 제공합니다. 관리자는 조직에 대해 보고서 메시지 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다.
 
-피싱 보고 추가 기능은 피싱 메시지만 보고하는 옵션을 제공합니다. 관리자는 조직에 대해 피싱 보고 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다. 
+피싱 보고 추가 기능은 피싱 메시지만 보고하는 옵션을 제공합니다. 관리자는 조직에 대해 피싱 보고 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다.
 
 개별 사용자인 경우 추가 기능을 모두 사용하도록 설정할 수 있습니다.
 
@@ -65,7 +65,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 - 조직 설치의 경우 OAuth 인증을 사용하도록 조직을 구성해야 합니다. 자세한 내용은 추가 기능의 중앙 집중식 배포가 조직에 [적합한지 확인을 참조하세요.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
-- 관리자는 전역 관리자 역할 그룹의 구성원이 해야 합니다. 자세한 내용은 [Microsoft 365 Defender의 사용 권한을 참조하세요.](permissions-in-the-security-and-compliance-center.md)
+- 관리자는 전역 관리자 역할 그룹의 구성원이 해야 합니다. 자세한 내용은 [Microsoft 365 Defender 포털의 사용 권한을 참조하세요.](permissions-microsoft-365-security-center.md)
 
 - 보고서 메시지 기능을 사용하여 메시지를 보고하는 방법에 대한 자세한 내용은 Outlook에서 가짓 긍정 및 거짓 부정 [보고를 참조하세요.](report-false-positives-and-false-negatives.md)
 
@@ -74,7 +74,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 ## <a name="get-the-report-message-add-in"></a>보고서 메시지 추가 기능 확인
 
-### <a name="get-the-add-in-for-yourself"></a>직접 추가 기능 사용
+### <a name="get-the-report-message-add-in-for-yourself"></a>직접 보고서 메시지 추가 기능 확인
 
 1. 에서 Microsoft AppSource로 이동하여 보고서 메시지 추가 기능을 <https://appsource.microsoft.com/marketplace/apps> 검색합니다. 보고서 메시지 추가 기능으로 직접 이동하기 위해 로 <https://appsource.microsoft.com/product/office/wa104381180> 이동하십시오.
 
@@ -98,7 +98,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
   > [!div class="mx-imgBorder"]
   > ![웹용 Outlook 보고서 메시지 추가 기능 아이콘](../../media/owa-report-message-icon.png)
 
-### <a name="get-the-add-in-for-your-organization"></a>조직에 대한 추가 기능 사용
+### <a name="get-the-report-message-add-in-for-your-organization"></a>조직에 대한 보고서 메시지 추가 기능 확인
 
 > [!NOTE]
 > 추가 기능을 조직에 표시하는 데 최대 12시간이 걸릴 수 있습니다.
@@ -124,13 +124,11 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 7. 나타나는 **추가 기능 구성** 페이지에서 다음 설정을 구성합니다.
 
    - **할당된 사용자:** 다음 값 중 하나를 선택합니다.
-
      - **모든** 사용자(기본값)
      - **특정 사용자/그룹**
      - **저뿐이에요**
 
    - **배포 방법:** 다음 값 중 하나를 선택합니다.
-
      - **고정(기본값)**: 추가 기능은 지정된 사용자에게 자동으로 배포되며 제거할 수 없습니다.
      - **사용** 가능: 사용자는 홈 추가  기능 추가 기능 관리자가 관리하는 에서 추가 기능을 설치할 \>  \> **수 있습니다.**
      - **선택** 사항: 추가 기능을 지정된 사용자에게 자동으로 배포하지만 제거를 선택할 수 있습니다.
@@ -161,7 +159,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 ## <a name="get-the-report-phishing-add-in"></a>피싱 보고서 추가 기능 얻기
 
-### <a name="get-the-add-in-for-yourself"></a>직접 추가 기능 사용
+### <a name="get-the-report-phishing-add-in-for-yourself"></a>직접 피싱 보고 추가 기능 사용
 
 1. 에서 Microsoft AppSource로 이동하여 피싱 보고 추가 <https://appsource.microsoft.com/marketplace/apps> 기능을 검색합니다.
 
@@ -182,7 +180,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
   > [!div class="mx-imgBorder"]
   > ![웹용 Outlook 보고서 피싱 추가 기능 아이콘](../../media/OWA-ReportPhishing.png)
 
-### <a name="get-the-add-in-for-your-organization"></a>조직에 대한 추가 기능 사용
+### <a name="get-the-report-phishing-add-in-for-your-organization"></a>조직의 피싱 보고 추가 기능 확인
 
 > [!NOTE]
 > 추가 기능을 조직에 표시하는 데 최대 12시간이 걸릴 수 있습니다.
@@ -206,13 +204,11 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 7. 나타나는 **추가 기능 구성** 페이지에서 다음 설정을 구성합니다.
 
    - **할당된 사용자:** 다음 값 중 하나를 선택합니다.
-
      - **모든** 사용자(기본값)
      - **특정 사용자/그룹**
      - **저뿐이에요**
 
    - **배포 방법:** 다음 값 중 하나를 선택합니다.
-
      - **고정(기본값)**: 추가 기능은 지정된 사용자에게 자동으로 배포되며 제거할 수 없습니다.
      - **사용** 가능: 사용자는 홈 추가  기능 추가 기능 관리자가 관리하는 에서 추가 기능을 설치할 \>  \> **수 있습니다.**
      - **선택** 사항: 추가 기능을 지정된 사용자에게 자동으로 배포하지만 제거를 선택할 수 있습니다.

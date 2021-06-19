@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fa61e2fd0591d375a17bad6e166a76c1ca40862e
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 656387e60bac90c7e9de4852779948dabce0efe3
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028898"
+ms.locfileid: "53029660"
 ---
 # <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 Microsoft 365 Defender 헌팅 이벤트를 사용자 계정으로 저장소 구성
 
@@ -33,46 +33,46 @@ ms.locfileid: "53028898"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-
-## <a name="before-you-begin"></a>시작하기 전에 다음을 수행해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 1. [테넌트에서 저장소 계정을](/azure/storage/common/storage-account-overview) 만들 수 있습니다.
 
 2. [Azure](https://ms.portal.azure.com/)테넌트에 로그인하고, **Microsoft.>** 구독 > 리소스 공급자로 >.Insights.
 
-## <a name="enable-raw-data-streaming"></a>원시 데이터 스트리밍을 사용하도록 설정:
+## <a name="enable-raw-data-streaming"></a>원시 데이터 스트리밍 사용
 
-1. * Microsoft 365 Defender [](https://security.microsoft.com) 보안 센터에 ***전역** 관리자 _ 또는 _* 보안 관리자 **로 _로그인합니다._
+1. * Microsoft 365 Defender 포털( )에 * 전역 관리자 _ 또는 _* 보안 <https://security.microsoft.com> 관리자 **로 _로그인합니다._
 
-2. 에서 [데이터 내보내기 설정](https://security.microsoft.com/settings/mtp_settings/raw_data_export) 페이지로 Microsoft Defender 보안 센터.
+2. 스트리밍 **API 설정** \> **Microsoft 365 Defender** \> **로 이동 합니다.** 스트리밍 API 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/settings/mtp_settings/raw_data_export> 사용하세요.
 
-3. 데이터 **내보내기 설정 추가를 클릭합니다.**
+3. **추가** 를 클릭합니다.
 
-4. 새 설정의 이름을 선택합니다.
+4. 새 **스트리밍 API 설정** 추가 플라이아웃이 나타나면 다음 설정을 구성합니다.
+   1. **이름:** 새 설정의 이름을 선택합니다.
+   2. 에 **전달 이벤트를 Azure 저장소.**
+   3. 나타나는 **저장소 계정** 리소스 ID 상자에 저장소 계정 리소스 **ID 를 입력합니다.** 계정 **저장소 ID를** 얻려면 에서 Azure Portal을 열고 저장소 계정이 속성 탭으로 이동하여 계정 리소스 ID의 저장소 <https://portal.azure.com>  \> \> **복사합니다.**
 
-5. 에 **전달 이벤트를 Azure 저장소.**
+      ![이벤트 허브 리소스 ID1의 이미지](../defender-endpoint/images/storage-account-resource-id.png)
 
-6. 저장소 **계정 리소스 ID를 입력합니다.** 계정 리소스 **ID를 저장소하려면** Azure > [Portal](https://ms.portal.azure.com/) 저장소 속성 탭의 저장소 계정 페이지로 이동하고 > 계정 리소스 ID 아래에 있는 저장소 **복사합니다.**
+   4. 새 스트리밍 **API 설정** 추가 플라이아웃으로 돌아가서 스트리밍할 이벤트 유형을 선택합니다. 
 
-   ![이벤트 허브 리소스 ID1의 이미지](../defender-endpoint/images/storage-account-resource-id.png)
+   완료되면 제출을 **클릭합니다.**
 
-7. 스트리밍할 이벤트를 선택하고 저장을 **클릭합니다.**
+## <a name="the-schema-of-the-events-in-the-storage-account"></a>이벤트 계정의 이벤트 저장소
 
-## <a name="the-schema-of-the-events-in-the-storage-account"></a>이벤트 계정의 이벤트 저장소:
-
-- 각 이벤트 유형에 대해 Blob 컨테이너가 만들어집니다. 
+- 각 이벤트 유형에 대해 Blob 컨테이너가 만들어집니다.
 
   ![이벤트 허브 리소스 ID2의 이미지](../defender-endpoint/images/storage-account-event-schema.png)
 
-- Blob에 있는 각 행의 Schema는 다음과 같은 JSON입니다. 
+- Blob에 있는 각 행의 Schema는 다음과 같은 JSON입니다.
 
-  ```
+  ```JSON
   {
           "time": "<The time Microsoft 365 Defender received the event>"
           "tenantId": "<Your tenant ID>"
           "category": "<The Advanced Hunting table name with 'AdvancedHunting-' prefix>"
           "properties": { <Microsoft 365 Defender Advanced Hunting event as Json> }
-  }               
+  }
   ```
 
 - 각 Blob에는 여러 행이 포함되어 있습니다.
@@ -81,26 +81,26 @@ ms.locfileid: "53028898"
 
 - 이벤트의 SCHEMA에 대한 자세한 내용은 Microsoft 365 Defender [헌팅 개요를 참조하세요.](../defender/advanced-hunting-overview.md)
 
-
 ## <a name="data-types-mapping"></a>데이터 형식 매핑
 
 이벤트 속성에 대한 데이터 형식을 얻기 위해 다음을 합니다.
 
-1. 보안 센터에 [Microsoft 365 고급](https://security.microsoft.com) 헌팅 [페이지로 이동합니다.](https://security.microsoft.com/hunting-package)
+1. Microsoft 365 Defender 포털()에 <https://security.microsoft.com> 로그인하고 헌팅 고급 헌팅으로  \> **이동합니다.** 고급 헌팅 **페이지로** 직접 이동하기 위해 헌팅 <security.microsoft.com/advanced-hunting>.
 
-2. 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다. 
+2. 쿼리 **탭에서** 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다.
 
-   ```
+   ```text
    {EventType}
    | getschema
-   | project ColumnName, ColumnType 
+   | project ColumnName, ColumnType
    ```
 
-- 장치 정보 이벤트의 예는 다음과 같습니다. 
+- 장치 정보 이벤트의 예는 다음과 같습니다.
 
   ![이벤트 허브 리소스 ID3의 이미지](../defender-endpoint/images/machine-info-datatype-example.png)
 
 ## <a name="related-topics"></a>관련 항목
+
 - [고급 헌팅 개요](../defender/advanced-hunting-overview.md)
 - [Microsoft 365 Defender 스트리밍 API](streaming-api.md)
 - [Azure Microsoft 365 Defender 이벤트 스트림](streaming-api-storage.md)

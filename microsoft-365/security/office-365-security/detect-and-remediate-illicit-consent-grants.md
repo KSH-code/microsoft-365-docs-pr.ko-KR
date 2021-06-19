@@ -14,16 +14,16 @@ ms.collection:
 localization_priority: Normal
 search.appverid:
 - MET150
-description: 개인 정보에서 위조 동의 권한 부여 공격을 인식하고 수정하는 Microsoft Office 365.
+description: 개인 정보에서 위조 동의 권한 부여 공격을 인식하고 수정하는 Microsoft 365.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4c3c3c06974feb2dab3985a60938fe7d543543c3
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: c0041c473f196dace893122c5c0543a06c1e6ff8
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028922"
+ms.locfileid: "53029864"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>위조 동의 권한 부여 감지 및 수정
 
@@ -33,9 +33,9 @@ ms.locfileid: "53028922"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-**요약** Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
+**요약**  개인 정보에서 위조 동의 권한 부여 공격을 인식하고 수정하는 Microsoft 365.
 
-## <a name="what-is-the-illicit-consent-grant-attack-in-office-365"></a>Office 365에서 불법 동의 권한 부여 공격은 무엇인가요?
+## <a name="what-is-the-illicit-consent-grant-attack-in-microsoft-365"></a>2016년 8월 1일부로 공개된 공격은 Microsoft 365?
 
 불법 동의 권한 부여 공격에는 공격자가 연락처 정보, 전자 메일 또는 문서 등의 데이터에 대한 액세스를 요청하는 Azure 등록 응용 프로그램을 만듭니다. 그런 다음 공격자는 최종 사용자가 피싱 공격을 통해 또는 신뢰할 수있는 웹 사이트에 불법 코드를 주입하여 해당 응용 프로그램에 데이터 액세스 권한을 부여하도록 속임수를 씁니다. 불법 응용 프로그램에 대한 동의가 부여되면 조직 계정이 없어도 데이터에 대한 계정 수준의 액세스 권한을 갖습니다. 침해된 계정에 대한 암호를 재설정하거나 계정에 MFA(다단계 인증)을 요구하는 등의 일반적인 조치 단계는 이러한 응용 프로그램이 타사 응용 프로그램이므로 조직 외부에 있기 때문에 이 유형의 공격에 효과적이지 않습니다.
 
@@ -44,21 +44,23 @@ ms.locfileid: "53028922"
 > [!IMPORTANT]
 > 현재 앱에서의 부적격 동의 권한 부여에 문제가 발생하고 있는 것으로 의심하나요? Microsoft Cloud App Security(MCAS)에는 OAuth 앱을 검색, 조사 및 수정하는 도구가 있습니다. 이 MCAS 문서에는 위험한 OAuth 앱 조사 방법을 간략하게 [설명하는 자습서가 있습니다.](/cloud-app-security/investigate-risky-oauth) [OAuth](/cloud-app-security/app-permission-policy) 앱 정책을 설정하여 앱 요청 권한을 조사하고, 사용자가 이러한 앱을 승인하고, 이러한 사용 권한 요청을 광범위하게 승인하거나 금지할 수도 있습니다.
 
-## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>불법 동의 권한 부여는 Office 365에서 어떻게 보이나요?
+## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-microsoft-365"></a>이 경우의 부적격 동의 권한 부여 공격은 어떤 Microsoft 365?
 
 감사 로그를 **검색하여** 이 공격의 IOC(손상 표시기)라고도 하는 기호를 찾아야 합니다. 여러 Azure 등록 응용 프로그램 및 대규모 사용자를 포함하는 조직의 경우 가장 좋은 방법은 주 단위로 조직 동의 권한 부여를 검토하는 것입니다.
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>이 공격의 신호를 찾는 단계
 
-1. 에서 **Microsoft 365 Defender** 포털을 열 수 <https://security.microsoft.com> 있습니다.
+1. 에서 **Microsoft 365 Defender** <https://security.microsoft.com> 열고 감사 를 **선택합니다.**
 
-2. 검색으로 **이동하여** 감사 로그 **검색 을 선택합니다.**
+2. 감사 **페이지가** 열리면 검색  탭이 선택되어 있는지 확인한 후 다음 설정을 구성합니다.
+   - **날짜 및 시간 범위**
+   - **활동:** 모든 활동에 대한 **결과 표시가 선택되어 있는지** 확인
 
-3. 검색(모든 활동 및 모든 사용자)을 검색하고 시작 날짜와 종료 날짜(필요한 경우)를 입력한 다음 검색을 **클릭합니다.**
+   완료되면 검색을 **클릭합니다.**
 
-4. 결과 **필터링을 클릭하고** 활동 필드에 응용 프로그램에 **동의를 입력합니다.**
+3. 작업 **열을** 클릭하여 결과를 정렬하고 응용 프로그램에 대한 **동의를 검색합니다.**
 
-5. 결과를 클릭하여 활동의 세부 정보를 봐야 합니다. 자세한 **정보를 클릭하여** 활동에 대한 세부 정보를 얻습니다. IsAdminContent가 True로 설정되어 있는지 검사합니다.
+4. 활동 세부 정보를 확인하려면 목록에서 항목을 선택합니다. IsAdminContent가 True로 설정되어 있는지 검사합니다.
 
 > [!NOTE]
 >
@@ -73,9 +75,7 @@ ms.locfileid: "53028922"
 위에 나와 있는 IOCs의 인스턴스가 하나 이상 있는 경우 공격이 발생했음을 확실하게 확인하도록 추가 조사를 수행해야 합니다. 다음 세 가지 방법 중 한 가지를 사용하여 공격을 확인할 수 있습니다.
 
 - Azure Active Directory 포털을 사용하는 인벤터리 응용 프로그램과 해당 사용 권한 이 방법은 철저하지만 한번에 한 명의 사용자만 검사할 수 있어 검사할 사용자가 많은 경우에는 막대한 시간이 소요됩니다.
-
 - PowerShell을 사용하는 인벤터리 응용 프로그램과 해당 사용 권한 이 방법은 최소한의 오버 헤드를 사용하는 가장 빠르고 철저한 방법입니다.
-
 - 사용자가 앱과 권한을 개별적으로 확인하고 조치를 위해 그 결과를 관리자에게 다시 보고합니다.
 
 ## <a name="inventory-apps-with-access-in-your-organization"></a>조직에서 액세스 권한이 있는 인벤터리 앱
@@ -84,23 +84,19 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 ### <a name="steps-for-using-the-azure-active-directory-portal"></a>Azure Active Directory 포털 사용 단계
 
-[Azure Active Directory 포털](https://portal.azure.com/)를 사용하여 개별 사용자에게 사용 권한을 부여한 응용 프로그램을 찾을 수 있습니다.
+개별 사용자가 사용 권한을 부여한 응용 프로그램은 의 Azure Active Directory <https://portal.azure.com> 있습니다.
 
 1. 관리자 권한으로 Azure Portal에 로그인합니다.
-
 2. Azure Active Directory 블레이드를 선택합니다.
-
 3. **사용자** 를 선택합니다.
-
 4. 검토할 사용자를 선택합니다.
-
 5. **응용 프로그램** 을 선택합니다.
 
 그러면 사용자에게 할당된 앱과 응용 프로그램에 대한 사용 권한이 표시됩니다.
 
 ### <a name="steps-for-having-your-users-enumerate-their-application-access"></a>사용자가 응용 프로그램에 액세스를 열거하도록 하는 단계
 
-사용자가 https://myapps.microsoft.com(으)로 이동하여 해당 응용 프로그램에 대한 액세스를 검토할 수 있도록 합니다. 액세스 권한이 있는 모든 앱을 확인하고, 세부 정보를 볼 수 있습니다(액세스 범위 포함). 또는 의심스러운 앱이나 불법 앱에 대한 사용 권한을 해지할 수 있습니다.
+사용자가 <https://myapps.microsoft.com>(으)로 이동하여 해당 응용 프로그램에 대한 액세스를 검토할 수 있도록 합니다. 액세스 권한이 있는 모든 앱을 확인하고, 세부 정보를 볼 수 있습니다(액세스 범위 포함). 또는 의심스러운 앱이나 불법 앱에 대한 사용 권한을 해지할 수 있습니다.
 
 ### <a name="steps-for-doing-this-with-powershell"></a>PowerShell로 이 작업을 수행하기 위한 단계
 
@@ -109,9 +105,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 #### <a name="pre-requisites"></a>필수 구성 요소
 
 - Azure AD PowerShell 라이브러리가 설치됨
-
 - 스크립트를 실행할 테넌트에 대한 전역 관리자 권한
-
 - 스크립트를 실행할 컴퓨터의 로컬 관리자
 
 > [!IMPORTANT]
@@ -121,7 +115,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 2. 스크립트를Get-AzureADPSPermissions.ps1[폴더로](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) GitHub 스크립트를 다운로드하거나 복사합니다. 이 폴더는 "permissions.csv" 출력 파일이 작성되는 폴더와 동일합니다.
 
-3. PowerShell 인스턴스를 관리자로 열고 스크립트를 저장한 폴더를 엽니다.
+3. 관리자 권한으로 PowerShell 세션을 열고 스크립트를 저장한 폴더를 열어 습니다.
 
 4. [Connect-AzureAD](/powershell/module/azuread/connect-azuread) cmdlet을 사용하여 디렉터리에 연결합니다.
 
@@ -153,14 +147,10 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 불법 사용 권한이 있는 응용 프로그램을 식별한 후 해당 액세스를 제거하는 방법에는 여러 가지가 있습니다.
 
 - 다음과 같은 방법으로 Azure Active Directory 포털에서 응용 프로그램의 사용 권한을 해지할 수 있습니다.
-
-  - **Azure Active Directory 사용자** 블레이드에서 영향을 받는 사용자로 이동합니다.
-
-  - **응용 프로그램** 을 선택합니다.
-
-  - 불법 응용 프로그램을 선택합니다.
-
-  - 드릴 다운에서 **제거** 를 클릭합니다.
+  1. **Azure Active Directory 사용자** 블레이드에서 영향을 받는 사용자로 이동합니다.
+  2. **응용 프로그램** 을 선택합니다.
+  3. 불법 응용 프로그램을 선택합니다.
+  4. 드릴 다운에서 **제거** 를 클릭합니다.
 
 - [Remove-AzureADOAuth2PermissionGrant](/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant)에 나와 있는 단계를 따라 PowerShell에서 OAuth 승인 부여를 해지할 수 있습니다.
 
@@ -175,19 +165,13 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수 있는 강력한 보안 기능이 함께 제공됩니다. [Microsoft 365 보안 로드맵 - 최초 30일, 90일 및 그 이후의 최우선 순위](security-roadmap.md)를 사용하여 Microsoft에서 권장하는 Microsoft 365 테넌트 보안을 구현합니다.
 
 - 처음 30일 이내에 수행 할 작업 이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
-
 - 90일 이내에 수행해야 할 작업 이러한 작업들은 계획하고 구현하는 데 다소 시간이 걸리지만 보안 태세를 갖추는 데 큰 도움이 됩니다.
-
 - 90일 초과 이러한 향상된 기능은 처음 90일간의 작업에서 구축됩니다.
 
-## <a name="see-also"></a>참고 항목:
+## <a name="see-also"></a>참고 항목
 
 - [내 응용 프로그램 목록에 예기치 않은 응용 프로그램](/azure/active-directory/application-access-unexpected-application)은 데이터에 대한 액세스 권한이 있는 예기치 않은 응용 프로그램이 있다는 사실을 인식한 후 관리자가 수행할 수 있는 다양한 작업을 안내합니다.
-
 - [Azure Active Directory와 응용 프로그램 통합](/azure/active-directory/active-directory-apps-permissions-consent)은 동의 및 사용 권한에 대한 개요입니다.
-
 - [내 응용 프로그램 개발 문제](/azure/active-directory/active-directory-application-dev-development-content-map)는 다양한 동의 관련 문서의 링크를 제공합니다.
-
 - [Azure AD(Active Directory)의 응용 프로그램 및 서비스 주체 개체](/azure/active-directory/develop/active-directory-application-objects)는 응용 프로그램 모델의 핵심인 응용 프로그램 및 서비스 주체 개체에 대한 개요를 제공합니다.
-
 - [앱 액세스 관리](/azure/active-directory/active-directory-managing-access-to-apps)는 관리자가 앱에 대한 사용자 액세스를 관리해야 하는 기능에 대한 개요입니다.

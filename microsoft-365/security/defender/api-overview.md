@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1ddb6da49e5e9f23aacf73caaeb91302ac9c19c9
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 2ca601c3c68df9f9f1cc4fb90bcfbe907850ce91
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028970"
+ms.locfileid: "53029732"
 ---
 # <a name="overview-of-microsoft-365-defender-apis"></a>API Microsoft 365 Defender 개요
 
@@ -48,13 +48,10 @@ Microsoft 365 Defender 준비된 플랫폼을 토대하여 구축됩니다.
 
 Streaming [API를](../defender-endpoint/raw-data-export.md) 사용하여 단일 데이터 스트림 내에서 발생하는 실시간 이벤트 및 인스턴스의 경고를 제공합니다.
 
-
 이러한 Microsoft 365 Defender 특정 API와 함께 다른 각 보안 제품은 고유한 [](api-articles.md) 기능을 활용하는 데 도움이 되는 추가 API를 노출합니다.
-
 
 > [!NOTE]
 > 통합 포털로 전환하면 끝점 API용 Microsoft Defender를 기반으로 하는 PowerBi 대시보드에 영향을 주지 않습니다. 대화형 포털 전환에 관계없이 기존 API를 계속 사용할 수 있습니다.
-
 
 ## <a name="learn-more"></a>자세한 정보
 

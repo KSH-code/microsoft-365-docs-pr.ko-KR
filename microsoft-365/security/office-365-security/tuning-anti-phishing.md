@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 피싱 메시지가 전자 메일에서 수신되는 이유와 방법을 파악하고 Microsoft 365 향후 더 많은 피싱 메시지를 방지하는 방법에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8d8f3f93b3fe1643467a12f90123b839addad2ed
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5093981c5f0166d3f53c3b6c7d24371312633c99
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537850"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029348"
 ---
 # <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 
@@ -40,11 +40,11 @@ Microsoft 365 사용하도록 설정된 다양한 피싱 방지 기능이 제공
 
 구독에 Microsoft Defender for Office 365 포함된 경우 Office 365 [위협](office-365-ti.md) 인텔리전스를 사용하여 피싱 메시지를 받은 다른 사용자를 식별할 수 있습니다. 피싱 메시지를 차단하는 추가 옵션이 있습니다.
 
-- [Microsoft Defender의 안전한 Office 365](set-up-safe-links-policies.md)
+- [Safe Microsoft Defender for Office 365](set-up-safe-links-policies.md)
 
-- [Microsoft Defender의 안전한 첨부 Office 365](set-up-safe-attachments-policies.md)
+- [Safe Microsoft Defender for Office 365](set-up-safe-attachments-policies.md)
 
-- [Microsoft Defender](configure-atp-anti-phishing-policies.md)for Office 365. 정책의 고급 피싱  임계값을 **일시적으로 Standard에서** **적극적,** 보다 적극적 또는 가장 적극적인 으로 늘 수 **있습니다.**
+- [Microsoft Defender](configure-mdo-anti-phishing-policies.md)for Office 365. 정책의 고급 피싱  임계값을 **일시적으로 Standard에서** **적극적,** 보다 적극적 또는 가장 적극적인 으로 늘 수 **있습니다.**
 
 이러한 Defender에서 Office 365 기능이 켜져 있는지 확인해야 합니다.
 
@@ -66,7 +66,7 @@ Microsoft 365 사용하도록 설정된 다양한 피싱 방지 기능이 제공
 
 - 스푸핑된 보낸 사람이 보낸 전자 메일(메시지의 보낸 사람 주소가 메시지 원본과 일치하지 않는 경우)은 365용 Defender에서 피싱으로 Office 365. 경우에 따라 스푸핑이 양성일 수 있으며, 사용자가 스푸핑된 특정 보낸 사람이 보낸 메시지를 분리하지 않는 경우도 있습니다. 사용자에게 미치는 영향을 최소화하기 위해 스푸핑 인텔리전스  [정보,](learn-about-spoof-intelligence.md)테넌트 [허용/차단](tenant-allow-block-list.md)목록의 스푸핑 탭 및 스푸핑 검색 보고서를 주기적으로 [검토합니다.](view-email-security-reports.md#spoof-detections-report) 스푸핑된 보낸 사람 허용 및 차단을 검토하고 필요한 모든 재지정을 한 [](set-up-anti-phishing-policies.md#spoof-settings) 후 의심스러운 메시지를 사용자의 정크 메일  폴더로 배달하는 대신 피싱 방지 정책에서 스푸핑 인텔리전스를 구성할 수 있습니다.
 
-- Microsoft Defender for Office 365. 가장 보고서는 **위협** 관리 대시보드 \>  \> **인사이트 아래에 있습니다.**
+- Microsoft Defender for Office 365. 가장 보고서는 위협 관리  대시보드의 에 \>  \> **Insights.**
 
 - 위협 방지 상태 보고서를 [정기적으로 검토합니다.](view-reports-for-mdo.md#threat-protection-status-report)
 

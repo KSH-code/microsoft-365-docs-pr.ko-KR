@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 290f5f7797d987fb65a99e3f9e656bfec4cf83f3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0e1539153282f14a13ddd9066350cbcdca2a074a
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538342"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029240"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>2016년 8월의 피싱 방지 Microsoft 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "52538342"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-*피싱* 은 메시지에 포함된 중요한 정보를 훔치려고 하는 합법적인 발신자 또는 신뢰할 수 있는 발신자가 보낸 것 같은 전자 메일 공격입니다. 특정 범주의 피싱이 있습니다. 예:
+*피싱* 은 메시지에 포함된 중요한 정보를 훔치려고 하는 합법적인 발신자 또는 신뢰할 수 있는 발신자가 보낸 것 같은 전자 메일 공격입니다. 특정 범주의 피싱이 있습니다. 예제:
 
 - **스피어 피싱은** 대상 받는 사람(일반적으로 공격자가 받는 사람을 정정한 후)에 맞게 특별히 조정된 포커스가 있는 사용자 지정 콘텐츠를 사용 합니다.
 
@@ -65,7 +65,7 @@ EOP(Microsoft 365 Microsoft Defender for Office 365 없는 조직)에는 피싱 
 
 Office 365용 Microsoft Defender에는 피싱 방지 기능이 추가로 포함되어 있습니다.
 
-- **Microsoft Defender for Office 365** 피싱 방지 정책: 특정 메시지 보낸 사람 및 보낸 사람 도메인, 사서함 인텔리전스 설정 및 조정 가능한 고급 피싱 임계값에 대한 가장 보호 설정을 구성합니다. 자세한 내용은 [Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 Office 365. EOP의 피싱 방지 정책과 Defender for Office 365 피싱 방지 정책 간의 차이점에 대한 자세한 내용은 [Microsoft 365.](set-up-anti-phishing-policies.md)
+- **Microsoft Defender for Office 365** 피싱 방지 정책: 특정 메시지 보낸 사람 및 보낸 사람 도메인, 사서함 인텔리전스 설정 및 조정 가능한 고급 피싱 임계값에 대한 가장 보호 설정을 구성합니다. 자세한 내용은 [Microsoft Defender에서](configure-mdo-anti-phishing-policies.md)피싱 방지 정책 구성을 Office 365. EOP의 피싱 방지 정책과 Defender for Office 365 피싱 방지 정책 간의 차이점에 대한 자세한 내용은 [Microsoft 365.](set-up-anti-phishing-policies.md)
 
 - **캠페인 보기:** 기계 학습 및 기타추론은 전체 서비스 및 조직에 대한 피싱 공격과 관련된 메시지를 식별하고 분석합니다. 자세한 내용은 Microsoft [Defender for Office 365.](campaigns.md)
 
