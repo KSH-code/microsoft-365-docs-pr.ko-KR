@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 4215e6618c1cc6359755c2af1e7b9e93ca07b58d
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 49f50b99d6c1b46394e26447bd33b6bf93e2917f
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984811"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029006"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -369,3 +369,17 @@ New-AutoSensitivityLabelRule -Policy <AutoLabelingPolicyName> -Name <AutoLabelin
 - [Remove-AutoSensitivityLabelRule](/powershell/module/exchange/remove-autosensitivitylabelrule)
 - [Set-AutoSensitivityLabelPolicy](/powershell/module/exchange/set-autosensitivitylabelpolicy)
 - [Set-AutoSensitivityLabelRule](/powershell/module/exchange/set-autosensitivitylabelrule)
+
+## <a name="tips-to-increase-labeling-reach"></a>레이블 지정 범위를 늘리기 위한 팁
+
+자동 레이블 지정은 조직에서 소유하는 Office 파일을 분류, 레이블 지정 및 보호하는 가장 효율적인 방법 중 하나이지만 레이블 지정 범위를 늘리기 위해 추가 방법으로 자동 레이블 지정을 보완할 수 있는지 확인하세요.
+
+- [Azure Information Protection 통합 레이블 지정 클라이언트](/azure/information-protection/rms-client/aip-clientv2)를 사용하는 경우:
+    
+    - 네트워크 공유 및 SharePoint Server 라이브러리와 같은 온-프레미스 데이터 저장소의 파일의 경우: [스캐너](/azure/information-protection/deploy-aip-scanner)를 사용하여 이러한 파일에서 중요한 정보를 검색하고 레이블을 적절하게 지정합니다. 이러한 파일을 Microsoft 365 SharePoint로 마이그레이션하거나 업로드하려는 경우 스캐너를 사용하여 파일을 클라우드로 이동하기 전에 레이블을 지정합니다.
+    
+    - 민감도 레이블을 사용하기 전에 다른 레이블 지정 솔루션을 사용한 경우: PowerShell 및 [고급 설정을 사용하여 이러한 솔루션의 레이블을 다시 사용](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#migrate-labels-from-secure-islands-and-other-labeling-solutions)합니다.
+
+- 사용자에게 적용할 민감도 레이블 교육을 제공한 후 [수동 레이블 지정](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)을 권장합니다. 사용자가 적용할 레이블을 이해하고 있다고 확신하는 경우 기본 레이블 및 필수 레이블을 [정책 설정](sensitivity-labels.md#what-label-policies-can-do)으로 구성하는 것이 좋습니다. 
+
+또한 하나 이상의 DLP 정책이 파일의 콘텐츠를 검색할 때까지 게스트가 새로 추가된 파일에 액세스하지 못하도록 하려면 SharePoint에서 [새 파일을 기본적으로 중요한 것으로 표시](/sharepoint/sensitive-by-default)하는 것이 좋습니다.

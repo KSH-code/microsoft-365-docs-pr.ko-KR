@@ -19,12 +19,12 @@ ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4f680cfb30de5b6904e5fa489cca368550195b4f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ba0eb1e3ff0539f9aec6993fb25fe576f08f84d5
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205980"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028778"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 
@@ -33,7 +33,7 @@ ms.locfileid: "51205980"
 **적용 대상**
 
 - [Office 365용 Microsoft Defender 플랜 2](defender-for-office-365.md)
-- 
+
  **요약:** 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다. 
    
 이 문서의 지침을 사용하여 [정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) 솔루션에 대한 4가지 다른 유형의 SharePoint Online 팀 사이트가 포함된 개발/테스트 환경을 만듭니다. 이러한 사이트는 **SharePoint 및 비즈니스용 OneDrive** 제목의 항목 10에 자세히 설명되어 있습니다.
@@ -374,7 +374,7 @@ ms.locfileid: "51205980"
 
 다음으로, 아래 단계에 따라 보호 및 권한에 대한 새 범위 지정 정책 및 하위 레이블을 사용하여 Azure Information Protection을 구성합니다.
 
-1. 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
 
 2. 브라우저의 별도 탭에서 Azure Portal(<https://portal.azure.com>)로 이동합니다.
 

@@ -21,12 +21,12 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 00dcd5d8f5d18b59de67318049cc1e5807451f14
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 8bdb1e16c20b623934bb4fb994fcb8c6ef5f5ff0
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022357"
+ms.locfileid: "53028473"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -96,7 +96,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Office 365용 Microsoft Defender 정책 구성
 
-Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 및 준수 센터에서 정책을 정의하여 보호를 구성할 수 있습니다.(<https://protection.office.com> \> **위협 관리** \> **정책** 으로 이동하세요.)
+Office 365용 Microsoft Defender를 사용하면 조직의 보안 팀이 Microsoft 365 Defender에서 정책을 정의하여 보호 기능을 구성할 수 있습니다(<https://security.microsoft.com> \> **전자 메일 및 공동 작업** \> **정책 및 규칙** 으로 이동합니다).
 
 [이 비디오](https://www.youtube.com/watch?v=vivvTmWJ_3c)를 시청하여 자세히 확인하세요. 
 
@@ -117,7 +117,7 @@ Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 �
 
 ## <a name="view-microsoft-defender-for-office-365-reports"></a>Office 365용 Microsoft Defender 보고서 보기
 
-Office 365용 Microsoft Defender에는 고급 [보고 대시보드](view-reports-for-mdo.md)가 포함되어 있으며 이를 통해 Office 365용 Defender 성능을 모니터링할 수 있습니다. 보안 및 준수 센터의 **보고서** \> **대시보드** 에서 액세스할 수 있습니다.
+Office 365용 Microsoft Defender에는 고급 [보고 대시보드](view-reports-for-mdo.md)가 포함되어 있으며 이를 통해 Office 365용 Defender 성능을 모니터링할 수 있습니다. Microsoft 365 Defender 포털의 **보고서** \> **대시보드** 에서 액세스할 수 있습니다.
 
 보고서는 실시간으로 업데이트되어 최신 정보를 제공합니다. 이 보고서는 또한 권장 사항을 제공하고 임박한 위협에 대해 경고합니다. 사전 정의된 보고서에는 다음이 포함됩니다.
 
@@ -141,16 +141,16 @@ Office 365용 Microsoft Defender 플랜 2에는 조직의 보안팀이 악의적
 
 ## <a name="permissions-required-to-use-microsoft-defender-for-office-365-features"></a>Office 365용 Microsoft Defender 기능을 사용하는 데 필요한 사용 권한
 
-보안 및 준수 센터의 Office 365용 Microsoft Defender 기능에 액세스하려면 적절한 역할을 할당받아야 합니다. 다음 표에 몇 가지 예제가 나와 있습니다.
+Microsoft 365 Defender의 Office 365용 Microsoft Defender 기능에 액세스하려면 적절한 역할을 할당 받아야 합니다. 다음 표에 몇 가지 예제가 나와 있습니다.
 
 |역할 또는 역할 그룹|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
-|전역 관리자(Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)|
-|보안 관리자 (Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
+|전역 관리자(Azure Active Directory 또는 Microsoft 365 Defender에서 할당할 수 있습니다)|[Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)|
+|보안 관리자(Azure Active Directory 또는 Microsoft 365 Defender에서 할당할 수 있습니다)|[Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Microsoft 365 Defender의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
 |Exchange Online 조직 관리(Exchange Online에서 할당합니다.)|[Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)|
-|검색 및 제거(보안 & 규정 준수 센터에서만 할당합니다.)|[보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
+|검색 및 제거(이 항목은 Microsoft 365 Defender에서만 할당됨)|[Microsoft 365 Defender의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
 
-자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+자세한 내용은 [Microsoft 365 Defender의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 ## <a name="get-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 다운로드
 
@@ -176,4 +176,5 @@ Office 365용 Microsoft Defender에는 새로운 기능이 계속해서 추가�
 
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-- [Microsoft 365 Defender의 자동화된 조사 및 대응(AIR)](../defender/m365d-autoir.md)1
+- [Microsoft 365 Defender의 자동화된 조사 및 대응(AIR)](../defender/m365d-autoir.md)
+

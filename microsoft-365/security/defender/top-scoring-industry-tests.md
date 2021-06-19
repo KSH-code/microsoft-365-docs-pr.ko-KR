@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: a49fb83f9186541094910ec8842a09b5121ffb5b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d7625c5a577ff01544a2602092c4ee34875efdb6
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934396"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028502"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 테스트에서 최고 점수 기록
 
@@ -43,7 +43,7 @@ MITRE의 테스트 접근 방식의 핵심은 실제 공격을 모방하여 솔�
 
 - Microsoft 365 Defender의 ATT&CK 기반 평가 - 2020년 5월: [실제 감지 부문의 선두](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
-    Microsoft 365 Defender는 공격 체인 단계에서 거의 100%의 커버리지를 제공했습니다. 이 프로그램은 공격자 활동에 대한 즉각적인 가시성을 제공합니다. 가시성을 통해 특정 구성 변경에 의존했던 보안 운영 센터 및 공급업체 솔루션의 수동 작업을 크게 줄일 수 있습니다. 또한 Microsoft 365 Defender는 가시성 차이가 가장 적었으며, 공격자가 감지되지 않은 상태에서 작동할 수 있는 능력을 낮췄습니다.
+ Microsoft 365 Defender는 공격 체인 단계에서 거의 100%의 커버리지를 제공했습니다. 이 프로그램은 공격자 활동에 대한 즉각적인 가시성을 제공합니다. 가시성을 통해 특정 구성 변경에 의존했던 보안 운영 센터 및 공급업체 솔루션의 수동 작업을 크게 줄일 수 있습니다. 또한 Microsoft 365 Defender는 가시성 차이가 가장 적었으며, 공격자가 감지되지 않은 상태에서 작동할 수 있는 능력을 낮췄습니다.
 
 ## <a name="next-generation-protection"></a>차세대 보호
 
@@ -89,7 +89,7 @@ SE Lab은 제품 및 서비스에서 공격을 탐지 및/또는 방지하기 �
 
 - 엔터프라이즈 Endpoint Protection 2020년 10월 - 12월: [AAA 수상](https://selabs.uk/reports/enterprise-endpoint-protection-2020-q4/)<sup>**최신**</sup>
 
-    Microsoft의 차세대 보호 제품은 모든 공개 및 표적 공격을 차단했습니다. Microsoft Defender 바이러스 백신은 악의적인 URL을 차단하고 악용 케이스를 처리하며 합법적인 응용 프로그램과 웹 사이트를 올바르게 분류하는 기능을 통해 이러한 우수한 결과를 얻었습니다.
+    Microsoft의 차세대 보호 제품이 모든 공개 및 대상 공격을 중지했습니다. Microsoft Defender 바이러스 백신은 악의적인 URL을 차단하고 악용 케이스를 처리하며 합법적인 응용 프로그램과 웹 사이트를 올바르게 분류하는 기능을 통해 이러한 우수한 결과를 얻었습니다.
 
 - 엔터프라이즈 엔드포인트 보호 2020년 7월 - 9월: [AAA 수상](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/)
 
