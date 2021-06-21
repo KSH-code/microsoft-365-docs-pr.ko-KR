@@ -530,6 +530,8 @@
 ####### [태그별 컴퓨터 찾기](find-machines-by-tag.md)
 ####### [누락된 KB 가져오기](get-missing-kbs-machine.md)
 ####### [장치 값 설정](set-device-value.md)
+####### [컴퓨터 업데이트](update-machine-method.md)
+
 
 
 ###### [컴퓨터 작업]()
