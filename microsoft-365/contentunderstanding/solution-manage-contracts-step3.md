@@ -12,46 +12,46 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: 사용자 계정을 사용하여 Power Automate 솔루션을 사용하여 계약을 처리하기 위한 흐름을 만드는 Microsoft 365 알아보십시오.
-ms.openlocfilehash: 0ddcbeff6c8bd119850e3e4ea45db2513e774433
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e6c1d1e53363f996241efb2394189853d840c6c2
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636257"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054476"
 ---
-# <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a><span data-ttu-id="7ea34-104">3단계.</span><span class="sxs-lookup"><span data-stu-id="7ea34-104">Step 3.</span></span> <span data-ttu-id="7ea34-105">이 Power Automate 사용하여 계약 처리 흐름 만들기</span><span class="sxs-lookup"><span data-stu-id="7ea34-105">Use Power Automate to create your flow to process your contracts</span></span>
+# <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a><span data-ttu-id="9ff5c-104">3단계.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-104">Step 3.</span></span> <span data-ttu-id="9ff5c-105">이 Power Automate 사용하여 계약 처리 흐름 만들기</span><span class="sxs-lookup"><span data-stu-id="9ff5c-105">Use Power Automate to create your flow to process your contracts</span></span>
 
-<span data-ttu-id="7ea34-106">계약 관리 채널을 만들며 문서 라이브러리에 SharePoint 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-106">You've created your Contract Management channel and have attached your SharePoint document library.</span></span> <span data-ttu-id="7ea34-107">다음 단계는 Syntex 모델이 식별하고 분류하는 Power Automate 처리하기 위한 SharePoint 흐름을 만드는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-107">The next step is to create a Power Automate flow to process your contracts that your SharePoint Syntex model identifies and classifies.</span></span> <span data-ttu-id="7ea34-108">이 단계는 문서 라이브러리에서 Power Automate 흐름을 만들어 [SharePoint 있습니다.](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)</span><span class="sxs-lookup"><span data-stu-id="7ea34-108">You can do this step by [creating a Power Automate flow in your SharePoint document library](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01).</span></span>
+<span data-ttu-id="9ff5c-106">계약 관리 채널을 만들며 문서 라이브러리에 SharePoint 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-106">You've created your Contract Management channel and have attached your SharePoint document library.</span></span> <span data-ttu-id="9ff5c-107">다음 단계는 Power Automate 모델이 식별하고 분류하는 계약을 SharePoint Syntex 흐름을 만드는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-107">The next step is to create a Power Automate flow to process your contracts that your SharePoint Syntex model identifies and classifies.</span></span> <span data-ttu-id="9ff5c-108">이 단계는 문서 라이브러리에서 Power Automate 흐름을 만들어 [SharePoint 있습니다.](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)</span><span class="sxs-lookup"><span data-stu-id="9ff5c-108">You can do this step by [creating a Power Automate flow in your SharePoint document library](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01).</span></span>
 
-<span data-ttu-id="7ea34-109">계약 관리 솔루션의 경우 다음과 같은 작업을 Power Automate 흐름을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-109">For your contracts management solution, you want to create a Power Automate flow to do the following actions:</span></span>
+<span data-ttu-id="9ff5c-109">계약 관리 솔루션의 경우 다음과 같은 작업을 Power Automate 흐름을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-109">For your contracts management solution, you want to create a Power Automate flow to do the following actions:</span></span>
 
--  <span data-ttu-id="7ea34-110">SharePoint 모델에 의해 계약이 분류된 후 계약 상태를 검토 중으로 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ea34-110">After a contract has been classified by your SharePoint Syntex model, change the contract status to **In review**.</span></span>
-- <span data-ttu-id="7ea34-111">그러면 계약이 검토된 후 승인되거나 거부됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-111">The contract is then reviewed and is either approved or rejected.</span></span>
-- <span data-ttu-id="7ea34-112">승인된 계약의 경우 계약 정보는 결제 처리를 위해 탭에 게시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-112">For approved contracts, the contract information is posted to a tab for payment processing.</span></span>
-- <span data-ttu-id="7ea34-113">거부된 계약의 경우 팀에서 추가 분석을 위해 통보됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-113">For rejected contracts, the team is notified for further analysis.</span></span> 
+-  <span data-ttu-id="9ff5c-110">SharePoint Syntex 모델에 의해 계약이 분류된 후 계약 상태를 검토 중으로 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="9ff5c-110">After a contract has been classified by your SharePoint Syntex model, change the contract status to **In review**.</span></span>
+- <span data-ttu-id="9ff5c-111">그러면 계약이 검토된 후 승인되거나 거부됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-111">The contract is then reviewed and is either approved or rejected.</span></span>
+- <span data-ttu-id="9ff5c-112">승인된 계약의 경우 계약 정보는 결제 처리를 위해 탭에 게시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-112">For approved contracts, the contract information is posted to a tab for payment processing.</span></span>
+- <span data-ttu-id="9ff5c-113">거부된 계약의 경우 팀에서 추가 분석을 위해 통보됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-113">For rejected contracts, the team is notified for further analysis.</span></span> 
 
-<span data-ttu-id="7ea34-114">다음 다이어그램은 계약 관리 Power Automate 대한 흐름을 보여 주며,</span><span class="sxs-lookup"><span data-stu-id="7ea34-114">The following diagram shows the Power Automate flow for the contract management solution.</span></span>
+<span data-ttu-id="9ff5c-114">다음 다이어그램은 계약 관리 Power Automate 대한 흐름을 보여 주며,</span><span class="sxs-lookup"><span data-stu-id="9ff5c-114">The following diagram shows the Power Automate flow for the contract management solution.</span></span>
 
 ![Flow 전체 솔루션을 보여 주어 다이어그램을 작성합니다.](../media/content-understanding/flow-entire-process.png)
 
-## <a name="prepare-your-contract-for-review"></a><span data-ttu-id="7ea34-116">검토를 위한 계약 준비</span><span class="sxs-lookup"><span data-stu-id="7ea34-116">Prepare your contract for review</span></span>
+## <a name="prepare-your-contract-for-review"></a><span data-ttu-id="9ff5c-116">검토를 위한 계약 준비</span><span class="sxs-lookup"><span data-stu-id="9ff5c-116">Prepare your contract for review</span></span>
 
-<span data-ttu-id="7ea34-117">SharePoint Syntex 문서 이해 모델에 의해 계약이 식별 및 분류되면 Power Automate 흐름은 먼저 상태를 검토 중으로 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ea34-117">When a contract is identified and classified by your SharePoint Syntex document understanding model, the Power Automate flow will first change the status to **In review**.</span></span>
+<span data-ttu-id="9ff5c-117">사용자 문서 이해 모델을 통해 계약을 식별하고 SharePoint Syntex 경우 Power Automate 흐름은 먼저 상태를 검토 중으로 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="9ff5c-117">When a contract is identified and classified by your SharePoint Syntex document understanding model, the Power Automate flow will first change the status to **In review**.</span></span>
 
 ![업데이트 상태.](../media/content-understanding/flow-overview.png)
 
-<span data-ttu-id="7ea34-119">파일을 체크 아웃한 후 상태 값을 검토 중으로 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="7ea34-119">After checking out the file, change the status value to **In review**.</span></span>
+<span data-ttu-id="9ff5c-119">파일을 체크 아웃한 후 상태 값을 검토 중으로 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="9ff5c-119">After checking out the file, change the status value to **In review**.</span></span>
 
 ![검토 상태입니다.](../media/content-understanding/in-review.png)
 
-<span data-ttu-id="7ea34-121">다음 단계는 계약이 검토를 기다리고 계약 관리 채널에 게시할 수 있는 적응형 카드를 만드는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-121">The next step is to create an adaptive card stating that the contract is waiting for review and posting it to the Contract Management channel.</span></span>
+<span data-ttu-id="9ff5c-121">다음 단계는 계약이 검토를 기다리고 계약 관리 채널에 게시할 수 있는 적응형 카드를 만드는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-121">The next step is to create an adaptive card stating that the contract is waiting for review and posting it to the Contract Management channel.</span></span>
 
 ![계약 검토 게시물.](../media/content-understanding/contract-approval-post.png)
 
 
 ![검토할 적응형 카드를 만들 수 있습니다.](../media/content-understanding/adaptive-card.png)
 
-<span data-ttu-id="7ea34-124">다음 코드는 Power Automate 흐름에서 이 단계에 사용되는 JSON입니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-124">The following code is the JSON used for this step in the Power Automate flow.</span></span>
+<span data-ttu-id="9ff5c-124">다음 코드는 Power Automate 흐름에서 이 단계에 사용되는 JSON입니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-124">The following code is the JSON used for this step in the Power Automate flow.</span></span>
 
 ```JSON
 {
@@ -127,40 +127,53 @@ ms.locfileid: "52636257"
 ```
 
 
-## <a name="conditional"></a><span data-ttu-id="7ea34-125">조건부</span><span class="sxs-lookup"><span data-stu-id="7ea34-125">Conditional</span></span>
+## <a name="conditional-context"></a><span data-ttu-id="9ff5c-125">조건부 컨텍스트</span><span class="sxs-lookup"><span data-stu-id="9ff5c-125">Conditional context</span></span>
 
-<span data-ttu-id="7ea34-126">흐름에서 다음으로 계약이 승인되거나 거부되는 조건을 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-126">In your flow, next you need to create a condition in which your contract will be either  approved or rejected.</span></span>
+<span data-ttu-id="9ff5c-126">흐름에서 다음으로 계약이 승인되거나 거부되는 조건을 [만들어야 합니다.](#if-the-contract-is-rejected) [](#if-the-contract-is-approved)</span><span class="sxs-lookup"><span data-stu-id="9ff5c-126">In your flow, next you need to create a condition in which your contract will be either  [approved](#if-the-contract-is-approved) or [rejected](#if-the-contract-is-rejected).</span></span>
 
 ![조건부.](../media/content-understanding/condition.png)
 
-## <a name="if-the-contract-is-approved"></a><span data-ttu-id="7ea34-128">계약이 승인된 경우</span><span class="sxs-lookup"><span data-stu-id="7ea34-128">If the contract is approved</span></span>
+## <a name="if-the-contract-is-approved"></a><span data-ttu-id="9ff5c-128">계약이 승인된 경우</span><span class="sxs-lookup"><span data-stu-id="9ff5c-128">If the contract is approved</span></span>
 
-<span data-ttu-id="7ea34-129">계약이 승인되면 다음과 같은 상황이 발생합니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-129">When a contract has been approved, the following things occur:</span></span>
+<span data-ttu-id="9ff5c-129">계약이 승인되면 다음과 같은 상황이 발생합니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-129">When a contract has been approved, the following things occur:</span></span>
 
-- <span data-ttu-id="7ea34-130">계약 **탭에서** 계약 카드의 상태가 **승인됨으로 변경됩니다.**</span><span class="sxs-lookup"><span data-stu-id="7ea34-130">On the **Contracts** tab, the status in the contract card will change to **Approved**.</span></span>
+- <span data-ttu-id="9ff5c-130">계약 **탭에서** 계약 카드의 상태가 **승인됨으로 변경됩니다.**</span><span class="sxs-lookup"><span data-stu-id="9ff5c-130">On the **Contracts** tab, the status in the contract card will change to **Approved**.</span></span>
 
    ![카드 상태가 승인되었습니다.](../media/content-understanding/approved-contracts-tab.png)
 
-- <span data-ttu-id="7ea34-132">흐름에서 상태가 **승인됨으로 변경됩니다.**</span><span class="sxs-lookup"><span data-stu-id="7ea34-132">In your flow, the status is changed to **Approved**.</span></span>
+- <span data-ttu-id="9ff5c-132">흐름에서 상태가 **승인됨으로 변경됩니다.**</span><span class="sxs-lookup"><span data-stu-id="9ff5c-132">In your flow, the status is changed to **Approved**.</span></span>
 
    ![Flow 상태 승인됨.](../media/content-understanding/status-approved.png)
 
-- <span data-ttu-id="7ea34-134">이 솔루션에서는 지급을 관리할 수  있도록 계약 데이터가 지급용 탭에 추가됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-134">In this solution, the contract data will be added to the **For Payout** tab so that the payouts can be managed.</span></span> <span data-ttu-id="7ea34-135">이 프로세스를 확장하여 흐름이 타사 금융 응용 프로그램(예: Dynamics CRM)의 결제 계약을 제출할 수 있도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-135">This process can be extended to allow the flow to submit the contracts for payment by a third-party financial application (for example, Dynamics CRM).</span></span>
+- <span data-ttu-id="9ff5c-134">이 솔루션에서는 지급을 관리할 수  있도록 계약 데이터가 지급용 탭에 추가됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-134">In this solution, the contract data will be added to the **For Payout** tab so that the payouts can be managed.</span></span> <span data-ttu-id="9ff5c-135">이 프로세스를 확장하여 흐름이 타사 금융 응용 프로그램(예: Dynamics CRM)의 결제 계약을 제출할 수 있도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-135">This process can be extended to allow the flow to submit the contracts for payment by a third-party financial application (for example, Dynamics CRM).</span></span>
 
    ![계약이 지급으로 이동](../media/content-understanding/for-payout.png)
 
-- <span data-ttu-id="7ea34-137">흐름에서 다음 항목을 만들어 승인된 계약을 지급용 **탭으로** 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-137">In the flow, you create the following item to move approved contracts to the **For Payout** tab.</span></span>
+- <span data-ttu-id="9ff5c-137">흐름에서 다음 항목을 만들어 승인된 계약을 지급용 **탭으로** 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-137">In the flow, you create the following item to move approved contracts to the **For Payout** tab.</span></span>
 
    ![Flow 항목에서 결제로 이동할 수 있습니다.](../media/content-understanding/ready-for-payout.png)
 
-- <span data-ttu-id="7ea34-139">계약이 승인된 적응형 카드가 생성되고 계약 관리 채널에 게시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-139">An adaptive card stating that the contract has been approved is created and posted to the Contract Management channel.</span></span>
+    <span data-ttu-id="9ff5c-139">카드에서 필요한 정보에 대한 식을 Teams 표에 나와 있는 값을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-139">To get the expressions for the information needed from the Teams card, use the values shown in the following table.</span></span>
+ 
+    |<span data-ttu-id="9ff5c-140">이름</span><span class="sxs-lookup"><span data-stu-id="9ff5c-140">Name</span></span>     |<span data-ttu-id="9ff5c-141">Expression</span><span class="sxs-lookup"><span data-stu-id="9ff5c-141">Expression</span></span> |
+    |---------|-----------|
+    | <span data-ttu-id="9ff5c-142">승인 상태</span><span class="sxs-lookup"><span data-stu-id="9ff5c-142">Approval state</span></span>  | <span data-ttu-id="9ff5c-143">body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['submitActionId']</span><span class="sxs-lookup"><span data-stu-id="9ff5c-143">body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?['submitActionId']</span></span>         |
+    | <span data-ttu-id="9ff5c-144">승인자</span><span class="sxs-lookup"><span data-stu-id="9ff5c-144">Approved by</span></span>     | <span data-ttu-id="9ff5c-145">body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responder'] ['displayName']</span><span class="sxs-lookup"><span data-stu-id="9ff5c-145">body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?['responder']['displayName']</span></span>        |
+    | <span data-ttu-id="9ff5c-146">승인 날짜</span><span class="sxs-lookup"><span data-stu-id="9ff5c-146">Approval date</span></span>     | <span data-ttu-id="9ff5c-147">body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responseTime']</span><span class="sxs-lookup"><span data-stu-id="9ff5c-147">body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?['responseTime']</span></span>         |
+    | <span data-ttu-id="9ff5c-148">댓글</span><span class="sxs-lookup"><span data-stu-id="9ff5c-148">Comment</span></span>     | <span data-ttu-id="9ff5c-149">body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['data'] ['acComments']</span><span class="sxs-lookup"><span data-stu-id="9ff5c-149">body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?['data']['acComments']</span></span>         |
+    
+    <span data-ttu-id="9ff5c-150">다음은 수식 상자를 사용하여 식을 Power Automate 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-150">The following example shows how to use the formula box in Power Automate to write an expression.</span></span>
+
+   ![식 수식을 Power Automate 스크린샷.](../media/content-understanding/expression-formula-power-automate.png)    
+
+- <span data-ttu-id="9ff5c-152">계약이 승인된 적응형 카드가 생성되고 계약 관리 채널에 게시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-152">An adaptive card stating that the contract has been approved is created and posted to the Contract Management channel.</span></span>
 
    ![계약 승인 게시.](../media/content-understanding/adaptive-card-approval.png)
 
    ![적응형 카드 승인.](../media/content-understanding/adaptive-card.png)
 
 
-   <span data-ttu-id="7ea34-142">다음 코드는 Power Automate 흐름에서 이 단계에 사용되는 JSON입니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-142">The following code is the JSON used for this step in the Power Automate flow.</span></span>
+   <span data-ttu-id="9ff5c-155">다음 코드는 Power Automate 흐름에서 이 단계에 사용되는 JSON입니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-155">The following code is the JSON used for this step in the Power Automate flow.</span></span>
 
 ```JSON
 { 
@@ -240,23 +253,23 @@ ms.locfileid: "52636257"
 }
 ```
 
-## <a name="if-the-contract-is-rejected"></a><span data-ttu-id="7ea34-143">계약이 거부된 경우</span><span class="sxs-lookup"><span data-stu-id="7ea34-143">If the contract is rejected</span></span>
+## <a name="if-the-contract-is-rejected"></a><span data-ttu-id="9ff5c-156">계약이 거부된 경우</span><span class="sxs-lookup"><span data-stu-id="9ff5c-156">If the contract is rejected</span></span>
 
-<span data-ttu-id="7ea34-144">계약이 거부된 경우 다음과 같은 상황이 발생합니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-144">When a contract has been rejected, the following things occur:</span></span>
+<span data-ttu-id="9ff5c-157">계약이 거부된 경우 다음과 같은 상황이 발생합니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-157">When a contract has been rejected, the following things occur:</span></span>
 
-- <span data-ttu-id="7ea34-145">계약 **탭에서** 계약 카드의 상태가 거부 **으로 변경됩니다.**</span><span class="sxs-lookup"><span data-stu-id="7ea34-145">On the **Contracts** tab, the status in the contract card will change to **Rejected**.</span></span>
+- <span data-ttu-id="9ff5c-158">계약 **탭에서** 계약 카드의 상태가 거부 **으로 변경됩니다.**</span><span class="sxs-lookup"><span data-stu-id="9ff5c-158">On the **Contracts** tab, the status in the contract card will change to **Rejected**.</span></span>
 
    ![카드 상태가 거부됩니다.](../media/content-understanding/rejected-contracts-tab.png)
 
-- <span data-ttu-id="7ea34-147">흐름에서 계약 파일을 체크 아웃하고 상태를 거부된 것으로 변경한 다음 파일을 다시 체크 인합니다. </span><span class="sxs-lookup"><span data-stu-id="7ea34-147">In your flow, you check out the contract file, change the status to **Rejected**, and then check the file back in.</span></span>
+- <span data-ttu-id="9ff5c-160">흐름에서 계약 파일을 체크 아웃하고 상태를 거부된 것으로 변경한 다음 파일을 다시 체크 인합니다. </span><span class="sxs-lookup"><span data-stu-id="9ff5c-160">In your flow, you check out the contract file, change the status to **Rejected**, and then check the file back in.</span></span>
 
-   ![Flow 상태가 거부됩니다.](../media/content-understanding/reject-flow.png)
+   ![Flow 파일에서 상태가 거부됩니다.](../media/content-understanding/reject-flow.png)
 
-- <span data-ttu-id="7ea34-149">흐름에서 계약이 거부된 적응형 카드를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-149">In your flow, you create an adaptive card stating that the contract has been rejected.</span></span>
+- <span data-ttu-id="9ff5c-162">흐름에서 계약이 거부된 적응형 카드를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-162">In your flow, you create an adaptive card stating that the contract has been rejected.</span></span>
 
-   ![Flow 상태가 거부됩니다.](../media/content-understanding/reject-flow-item.png)
+   ![Flow 상태는 적응형 카드에서 거부된 것으로 표시됩니다.](../media/content-understanding/reject-flow-item.png)
 
-<span data-ttu-id="7ea34-151">다음 코드는 Power Automate 흐름에서 이 단계에 사용되는 JSON입니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-151">The following code is the JSON used for this step in the Power Automate flow.</span></span>
+<span data-ttu-id="9ff5c-164">다음 코드는 Power Automate 흐름에서 이 단계에 사용되는 JSON입니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-164">The following code is the JSON used for this step in the Power Automate flow.</span></span>
 
 ```JSON
 { 
@@ -336,6 +349,6 @@ ms.locfileid: "52636257"
 }
 ```
 
-- <span data-ttu-id="7ea34-152">카드가 계약 관리 채널에 게시됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ea34-152">The card is posted in the Contract Management channel.</span></span>
+- <span data-ttu-id="9ff5c-165">카드가 계약 관리 채널에 게시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ff5c-165">The card is posted in the Contract Management channel.</span></span>
 
    ![Flow 적응형 카드를 거부합니다.](../media/content-understanding/rejected.png)
