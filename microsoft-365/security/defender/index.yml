@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft 365 Defender
-summary: 공격 표면에서 엔터프라이즈를 더 잘 보호할 수 있도록 Microsoft 365 Defender의 강력한 보안 솔루션에 대해 자세히 알아보십시오.
+summary: 공격 표면에서 엔터프라이즈를 더 Microsoft 365 Defender 수 있도록 보안 솔루션의 강력한 보안 솔루션에 대해 자세히 알아보십시오.
 metadata:
   title: Microsoft 365 Defender 설명서
-  description: 공격 표면에서 엔터프라이즈를 더 잘 보호할 수 있도록 Microsoft 365 Defender의 강력한 보안 솔루션에 대해 자세히 알아보십시오.
+  description: 공격 표면에서 엔터프라이즈를 더 Microsoft 365 Defender 수 있도록 보안 솔루션의 강력한 보안 솔루션에 대해 자세히 알아보십시오.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -13,22 +13,24 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 68909caf8844b5ea4d20029a04d1b7d81ca25e66
-  ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+  ms.openlocfilehash: d4fa7ecef5bb132ca23084b5f46af230a3d181aa
+  ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/10/2021
-  ms.locfileid: "52878451"
+  ms.lasthandoff: 06/22/2021
+  ms.locfileid: "53053134"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
     - text: Microsoft 365 Defender란 무엇인가요?
-      url: ../defender/microsoft-365-defender.md
+      url: microsoft-365-defender.md
+    - text: 개요 Microsoft 365 Defender
+      url: overview-security-center.md
   - linkListType: whats-new
     links:
-    - text: Defender의 새로운 Microsoft 365
+    - text: 새로운 Microsoft 365 Defender
       url: ../defender/whats-new.md
   - linkListType: video
     links:
@@ -70,9 +72,9 @@ landingContent:
       url: ../office-365-security/defender-for-office-365.md
     - text: Office 365용 Defender 서비스 설명
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-    - text: Office 365 Defender의 Microsoft 365 Defender
+    - text: Microsoft 365 Defender의 Office 365용 Defender
       url: microsoft-365-security-center-mdo.md
-    - text: Defender에서 Office 365 Defender Microsoft 365 리디렉션
+    - text: 2016년 Office 365 Defender 리디렉션 Microsoft 365 Defender
       url: microsoft-365-security-mdo-redirection.md
 - title: 엔드포인트용 Microsoft Defender
   linkLists:
@@ -80,20 +82,10 @@ landingContent:
     links:
     - text: 엔드포인트용 Microsoft Defender란 무엇인가요?
       url: ../defender-endpoint/microsoft-defender-endpoint.md
-    - text: Defender의 끝점 Microsoft 365 Defender
+    - text: Microsoft 365 Defender의 엔드포인트용 Defender
       url: microsoft-365-security-center-mde.md
-    - text: Defender에서 끝점에 대한 Defender Microsoft 365 리디렉션
+    - text: 2013에서 끝점에 대한 Defender Microsoft 365 Defender
       url: ../defender/microsoft-365-security-mde-redirection.md
-- title: Microsoft 365 보안 센터
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: Microsoft 365 보안 센터 개요
-      url: overview-security-center.md
-    - text: Microsoft 365 끝점용 Microsoft Defender
-      url: microsoft-365-security-center-mde.md
-    - text: Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
-      url: ../defender/microsoft-365-security-center-mdo.md
 - title: Microsoft Cloud App Security
   linkLists:
   - linkListType: overview
@@ -110,7 +102,7 @@ landingContent:
       url: investigate-incidents.md
     - text: 새로운 위협 추적 및 대응
       url: threat-analytics.md
-    - text: 자동화된 조사 및 응답
+    - text: 자동 조사 및 응답
       url: m365d-autoir.md
     - text: 위협에 대한 헌팅
       url: advanced-hunting-overview.md
