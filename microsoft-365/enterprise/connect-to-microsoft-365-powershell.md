@@ -3,7 +3,6 @@ title: PowerShell을 사용하여 Microsoft 365에 연결
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -17,12 +16,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 테넌트에 연결하여 명령줄에서 관리 센터 작업을 수행합니다.
-ms.openlocfilehash: 70d6aa1373daf2322319d21e385fc1498af3351e
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 6b8f98441c7d727984bde8775dea496a9324d50c
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782804"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053062"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>PowerShell을 사용하여 Microsoft 365에 연결
 
@@ -36,6 +35,11 @@ Microsoft 365 및 관리자 계정, 그룹 및 라이선스에 연결하는 데 
 - Windows PowerShell용 Microsoft Azure AD 모듈(cmdlet의 이름에 *Msol* 포함)
 
 현재, Azure Active Directory PowerShell for Graph 모듈이 사용자, 그룹 및 라이선스 관리를 위한 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 완전히 대체하는 것은 아닙니다. 어떤 경우에는, 두 버전을 모두 사용해야 합니다. 동일한 컴퓨터에 두 버전을 안전하게 설치할 수 있습니다.
+
+>[!Note]
+>Microsoft 365 관리 센터에서 [Azure Cloud Shell](#connect-with-the-azure-cloud-shell)로 연결할 수도 있습니다.
+>
+
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
@@ -188,6 +192,14 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
    ```powershell
      (dir "C:\Program Files\WindowsPowerShell\Modules\MSOnline").Name
    ```
+
+## <a name="connect-with-the-azure-cloud-shell"></a>Azure Cloud Shell에 연결
+
+Microsoft 365 관리 센터에서 Azure Cloud Shell에 연결하여 사용하려면 작업 표시줄의 오른쪽 위 모서리에서 PowerShell 창 아이콘을 선택합니다. **Azure Cloud Shell 시작** 창에서 **PowerShell** 을 선택합니다.
+
+Microsoft 365 구독에 연결된 조직에 대한 활성 Azure 구독이 필요합니다. 해당 구독이 아직 없는 경우 만들 수 있습니다. Azure 구독이 있으면 PowerShell 명령 및 스크립트를 실행할 수 있는 PowerShell 창이 열립니다.
+
+자세한 내용은 [Azure Cloud Shell](/azure/cloud-shell/overview)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

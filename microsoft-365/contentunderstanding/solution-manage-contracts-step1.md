@@ -1,5 +1,5 @@
 ---
-title: 1단계. Syntex를 SharePoint 사용하여 계약 파일을 식별하고 데이터 추출
+title: 1단계. 사용자 SharePoint Syntex 사용하여 계약 파일을 식별하고 데이터 추출
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -11,17 +11,17 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: ''
-description: Syntex를 사용하여 SharePoint 솔루션을 사용하여 계약 파일을 식별하고 데이터를 추출하는 Microsoft 365 대해 알아보십시오.
-ms.openlocfilehash: b4b11b1bdb980b0ee7629af0cbecbb126a5ae5e5
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: 서비스 응용 SharePoint Syntex 사용하여 계약 파일을 식별하고 솔루션 솔루션을 사용하여 데이터를 추출하는 Microsoft 365 방법을 알아보십시오.
+ms.openlocfilehash: c66e46aaaacd5000f1e0d18aa07df527ca8ab7dd
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636209"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054493"
 ---
-# <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>1단계. Syntex를 SharePoint 사용하여 계약 파일을 식별하고 데이터 추출
+# <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>1단계. 사용자 SharePoint Syntex 사용하여 계약 파일을 식별하고 데이터 추출
 
-조직에서는 받은 많은 파일에서 모든 계약 문서를 식별하고 분류하는 방법이 필요합니다. 또한 식별된 각 계약 파일의 여러 주요 요소(예: *클라이언트,* 계약자 및 수수료 금액)를 빠르게 볼 *수 있습니다.* 이 작업을 위해 [Syntex를](index.md) SharePoint 문서 이해 모델을 만들어 문서 라이브러리에 적용할 수 있습니다.
+조직에서는 받은 많은 파일에서 모든 계약 문서를 식별하고 분류하는 방법이 필요합니다. 또한 식별된 각 계약 파일의 여러 주요 요소(예: *클라이언트,* 계약자 및 수수료 금액)를 빠르게 볼 *수 있습니다.* 이 작업을 위해 문서 이해 [모델을](index.md) SharePoint Syntex 라이브러리에 적용하면 됩니다.
 
 ## <a name="overview-of-the-process"></a>프로세스 개요
 
@@ -29,7 +29,7 @@ ms.locfileid: "52636209"
 
 1. 먼저 식별하려는 콘텐츠 형식(계약)에 특정한 특성을 검색하기 위해 모델을 "학습"하는 데 사용할 수 있는 5개 이상의 예제 파일을 찾아야 합니다. 
 
-2. Syntex를 SharePoint 새 문서 이해 모델을 만들어야 합니다. 예제 파일을 사용하여 분류자 [를 만들어야 합니다.](create-a-classifier.md) 분류자에 예제 파일을 교육하여 회사 계약에서 볼 수 있는 특징을 검색하도록 교육합니다. 예를 들어 서비스 계약, 계약 조건 및 보상과 같이 계약에 있는 특정 문자열을 검색하는 ["설명"을](create-a-classifier.md#create-an-explanation) *만들 수 있습니다.* 문서의 특정 섹션에서 또는 다른 문자열 옆에 있는 이러한 문자열을 검색하도록 설명을 교육할 수도 있습니다. 필요한 정보를 사용하여 분류자 교육을 했다고 생각되는 경우 예제 파일 예제 집합에서 모델을 테스트하여 효율성을 볼 수 있습니다. 테스트 후 필요한 경우 설명을 보다 효율적으로 변경하기 위해 변경할 수 있습니다. 
+2. 이 SharePoint Syntex 사용하여 새 문서 이해 모델을 만들 수 있습니다. 예제 파일을 사용하여 분류자 [를 만들어야 합니다.](create-a-classifier.md) 분류자에 예제 파일을 교육하여 회사 계약에서 볼 수 있는 특징을 검색하도록 교육합니다. 예를 들어 서비스 계약, 계약 조건 및 보상과 같이 계약에 있는 특정 문자열을 검색하는 ["설명"을](create-a-classifier.md#create-an-explanation) *만들 수 있습니다.* 문서의 특정 섹션에서 또는 다른 문자열 옆에 있는 이러한 문자열을 검색하도록 설명을 교육할 수도 있습니다. 필요한 정보를 사용하여 분류자 교육을 했다고 생각되는 경우 예제 파일 예제 집합에서 모델을 테스트하여 효율성을 볼 수 있습니다. 테스트 후 필요한 경우 설명을 보다 효율적으로 변경하기 위해 변경할 수 있습니다. 
 
 3. 모델에서 각 계약에서 특정 데이터 조각을 끌어오는 추출기 만들기를 만들 수 있습니다. [](create-an-extractor.md) 예를 들어 각 계약에 대해 가장 우려되는 정보는 클라이언트의 사용자, 계약자 이름 및 총 비용입니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "52636209"
 
    ![문서 라이브러리의 계약](../media/content-understanding/doc-lib-solution.png)
 
-5. 계약에 대한 보존 요구 사항이 있는 경우 모델을 [](apply-a-retention-label-to-a-model.md) 사용하여 지정된 기간 동안 계약이 삭제되지 않도록 하는 보존 레이블을 적용할 수도 있습니다.
+5. 계약에 대한 보존 또는 보안 요구 사항이 있는 경우 모델을 [](apply-a-retention-label-to-a-model.md) 사용하여 보존 [](apply-a-sensitivity-label-to-a-model.md) 레이블 또는 민감도 레이블을 적용하여 지정된 기간 동안 계약이 삭제되지 않도록 방지하거나 계약에 액세스할 수 있는 사용자도 제한할 수 있습니다.
 
 ## <a name="steps-to-create-and-train-your-model"></a>모델을 만들고 교육하는 단계
 
@@ -198,6 +198,11 @@ ms.locfileid: "52636209"
 6. 모델 > **계약** 페이지의 이 모델이 있는 라이브러리 섹션에 나열된 모델 사이트의 URL이 SharePoint 표시됩니다. 
 
     ![Screenshot of the Contract home page showing the Libraries with this model section.](../media/content-understanding/contract-libraries-with-this-model.png)
+
+7. 라이브러리 **설정**  >  **아래에서**:
+
+   - 상태라는 **열을 추가하고** **선택을** 열 유형으로 선택합니다.
+   - 검토 **중,** **승인됨** 및 **거부된 값을 적용합니다.**
 
 이 모델을 문서 라이브러리에 적용한 후 사이트에 문서 업로드를 시작하고 결과를 볼 수 있습니다.
 

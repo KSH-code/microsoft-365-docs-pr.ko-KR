@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 description: 하드웨어 기반의 최신 고리형을 다운로드합니다. 악용 또는 악의적인 링크와 같은 현재 및 새로운 공격이 직원 생산성과 엔터프라이즈 보안을 방해하지 않도록 방지합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d0fa6ad884c6b21457c8359cf82e32e4b8c100ba
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: 39d6a9c3a3c3a5e2c736025a26c22588f9f08bb0
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488314"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055268"
 ---
 # <a name="application-guard-for-office-for-admins"></a>관리자를 위한 Office Application Guard
 
@@ -83,7 +83,7 @@ Microsoft Defender Application Guard (Office Application Guard for Office)를 �
 
 이 단계를 통해 문제를 식별하고 해결하는 데 필요한 데이터가 Microsoft에 도달하는지 확인할 수 있습니다. 디바이스에서 진단을 사용하도록 설정하려면 다음 Windows 수행합니다.
 
-1. 시작 **설정** 열기
+1. 창에서 **설정** 열 시작 메뉴.
 
    ![시작 메뉴](../../media/ag05-diagnostic.png)
 
@@ -120,7 +120,6 @@ Microsoft Defender Application Guard (Office Application Guard for Office)를 �
 ## <a name="configure-application-guard-for-office"></a>사용자에 대해 Application Guard Office
 
 Office 응용 프로그램에 대해 Application Guard의 기능을 구성할 수 있도록 다음 정책을 Office. 이러한 정책은 그룹 정책 또는 클라우드 정책 서비스 를 통해 Office [수 있습니다.](/DeployOffice/overview-office-cloud-policy-service)
-User Configuration **\\ Administrative Templates Microsoft Office \\ 2016 Security 설정 Application Guard에서 그룹 정책 설정을 검토하여 관리자가 설정한 구성을 \\ \\ \\ 참조하세요.**
 
 
 > [!NOTE]
@@ -189,7 +188,7 @@ User Configuration **\\ Administrative Templates Microsoft Office \\ 2016 Securi
 
 Application Guard for Office Microsoft Defender for Endpoint와 통합되어 격리된 환경에서 발생하는 악의적인 활동에 대한 모니터링 및 경고를 제공합니다.
 
-[Microsoft E365 E5의](/microsoft-365/security/office-365-security/safe-docs) 안전한 문서는 Microsoft Defender for Endpoint를 사용하여 Application Guard에서 열 수 있는 문서를 검색하는 Office. 추가 보호 계층을 위해 사용자는 검사 결과가 결정될 때까지 Office 응용 프로그램 보호를 떠날 수 없습니다.
+[금고 Microsoft E365 E5의](/microsoft-365/security/office-365-security/safe-docs) 문서는 Microsoft Defender for Endpoint를 사용하여 Application Guard에서 열 수 있는 문서를 검색하는 Office. 추가 보호 계층을 위해 사용자는 검사 결과가 결정될 때까지 Office 응용 프로그램 보호를 떠날 수 없습니다.
 
 끝점용 Microsoft Defender는 엔터프라이즈 네트워크가 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 하도록 설계된 보안 플랫폼입니다. 이 플랫폼에 대한 자세한 내용은 [끝점용 Microsoft Defender를 참조합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) 이 플랫폼에 장치 온보딩에 대한 자세한 내용은 [끝점 서비스용 Microsoft Defender에](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure)장치 온보딩을 참조합니다.
 
@@ -234,6 +233,9 @@ Application Guard는 가상화된 컨테이너를 사용하여 시스템에서 �
 ## <a name="known-issues"></a>알려진 문제
 
 * 웹 링크(또는 )를 선택하면 `http` `https` 브라우저가 열립니다.
-* 현재 Application Guard를 사용하여 연 문서에 RTF(서식 있는 텍스트) Office 이미지를 붙여 넣는 것은 지원되지 않습니다.
-* 지원되지 않는 파일 형식 보호 정책의 기본 설정은 IRM(정보 권한 관리), CSV 또는 HTML의 지원되지 않는 지원되지 않는 파일 형식 열기 차단입니다.
+* 복사-붙여넣기 보호 정책의 기본 설정은 텍스트에만 클립보드 액세스를 사용하도록 설정하는 것입니다.
+* 지원되지 않는 파일 형식 보호 정책의 기본 설정은 암호화되거나 IRM(정보 권한 관리)을 설정한 것으로, 지원되지 않는 지원되지 않는 파일 형식을 열지 못하게 하는 것입니다. 여기에는 암호화를 Microsoft Information Protection 민감도 레이블이 있는 파일이 포함됩니다(기밀 또는 기밀).
+* CSV 및 HTML 파일은 현재 지원되지 않습니다.
+* 현재 NTFS Office 볼륨에 대한 Application Guard가 작동하지 않습니다. "오류"가 ERROR_VIRTUAL_DISK_LIMITATION 볼륨 압축을 다.
 * .NET을 업데이트하면 Application Guard에서 파일이 열리지 못할 수 있습니다. 이 해결로 사용자는 이 오류가 발생하면 장치를 다시 시작할 수 있습니다. 자세한 내용은 샌드박스 또는 샌드박스를 열 때 오류 Windows Defender Application Guard [Windows 합니다.](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)
+* 자세한 내용은 [질문과 대답 - Microsoft Defender Application Guard 참조하세요.](/windows/security/threat-protection/microsoft-defender-application-guard/faq-md-app-guard) 

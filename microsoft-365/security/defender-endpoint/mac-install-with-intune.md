@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5aeffdaff39c2f10dfa5164764bff38e99c00010
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 077411e5af5825efcf81d19ce8cb72ef850ae17b
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684222"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054321"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포
 
@@ -101,12 +101,12 @@ Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/
     > [!div class="mx-imgBorder"]
     > ![사용자 지정 구성 프로필 만들기](images/mdatp-6-systemconfigurationprofiles-1.png)
 
-1. 프로필의 이름(예: "macOS용 MDATP")을 선택하세요. **다음** 을 클릭합니다.
+1. 프로필의 이름(예: "macOS용 MDE 온보드")을 선택하세요. **다음** 을 클릭합니다.
 
     > [!div class="mx-imgBorder"]
     > ![사용자 지정 구성 프로필 - 이름](images/mdatp-6-systemconfigurationprofiles-2.png)
 
-1. 구성 프로필 이름(예: "macOS용 MDATP 이름")을 선택하세요.
+1. 구성 프로필 이름(예: "macOS용 MDE 온보드")을 선택하세요.
 1. 위 온보드 패키지에서 추출한 intune/WindowsDefenderATPOnboarding.xml 프로필 파일로 선택합니다.
 
     > [!div class="mx-imgBorder"]
@@ -172,7 +172,7 @@ Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/
 
 GitHub 리포지토리에서 [**fulldisk.mobileconfig를**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) [다운로드합니다.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-"MDATP 전체 디스크 액세스"를 프로필 이름으로 사용하고 구성 프로필 이름으로 **fulldisk.mobileconfig를** 다운로드하여 위의 온보드 [Blob에](#onboarding-blob) 대한 지침을 따릅니다.
+"MDE Full Disk Access"를 프로필 이름으로 사용하고 configuration profile name(구성 프로필 이름으로 **fulldisk.mobileconfig)을** 다운로드하여 위의 [Blob을](#onboarding-blob) 온보더링하기 위한 지침을 따릅니다.
 
 ### <a name="network-filter"></a>네트워크 필터
 
@@ -180,7 +180,7 @@ GitHub 리포지토리에서 [**fulldisk.mobileconfig를**](https://raw.githubus
 
 GitHub 저장소에서 [**netfilter.mobileconfig를**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) [다운로드합니다.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-"MDATP 네트워크 필터"를 프로필 이름으로 사용하고, 구성 프로필 이름으로 **netfilter.mobileconfig를** 다운로드하여 위의 [Blob](#onboarding-blob) 온보드에 대한 지침을 따릅니다.
+"MDE 네트워크 필터"를 프로필 이름으로 사용하고, 구성 프로필 이름으로 **netfilter.mobileconfig를** 다운로드하여 위의 [Blob](#onboarding-blob) 온보드에 대한 지침을 따릅니다.
 
 ### <a name="notifications"></a>알림
 
@@ -188,7 +188,7 @@ GitHub 저장소에서 [**netfilter.mobileconfig를**](https://raw.githubusercon
 
 GitHub 리포지토리에서 [notif.mobileconfig를 다운로드합니다.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles) [](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig)
 
-"MDATP 네트워크 필터"를 프로필 이름으로 사용하고 구성 프로필 이름으로 **notif.mobileconfig를** 다운로드하여 위의 [Blob에](#onboarding-blob) 대한 지침을 따릅니다.
+위의 [Blob](#onboarding-blob) 등록 지침에 따라 "MDE 알림"을 프로필 이름으로 사용하고 구성 프로필 이름으로 **notif.mobileconfig를** 다운로드합니다.
 
 ### <a name="view-status"></a>상태 보기
 

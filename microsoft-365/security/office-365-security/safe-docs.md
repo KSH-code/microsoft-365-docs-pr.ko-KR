@@ -13,15 +13,15 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: 자세한 내용은 Microsoft 365 E5 또는 Microsoft 365 E5 Security.
+description: 금고 문서 또는 Microsoft 365 E5 문서에 대해 Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1186c7856d0b979c483cf6dd1c0a010ab582e2ce
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 1049543b11ad14eeeed596367228f025cc8edd65
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644755"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054435"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -30,21 +30,21 @@ ms.locfileid: "51644755"
 **적용 대상**
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-안전한 문서는 Microsoft 365 E5 또는 Microsoft 365 E5 Security [Microsoft Defender for Endpoint를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기 또는 [Application Guard에서](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)열 수 있는 문서 및 파일을 검사하는 Office. [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
+금고 문서는 Microsoft 365 E5 또는 Microsoft 365 E5 Security [Microsoft Defender for Endpoint를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기 또는 [Application Guard에서](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)열 수 있는 문서 및 파일을 검사하는 Office. [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 안전한 문서는 라이선스가 있는 사용자만 사용할 *Microsoft 365 E5* *Microsoft 365 E5 Security* 있습니다. 이러한 라이선스는 Microsoft Defender for Office 365 포함되어 있지 않습니다.
+- 금고 문서는 라이선스가 없는  사용자만 사용할 *Microsoft 365 E5* Microsoft 365 E5 Security 있습니다. 이러한 라이선스는 Microsoft Defender for Office 365 포함되어 있지 않습니다.
 
-- 안전한 문서는 엔터프라이즈용 Microsoft 365 앱(Office 365 ProPlus) 버전 2004 이상에서 지원됩니다.
+- 금고 문서는 엔터프라이즈용 Microsoft 365 앱(Office 365 ProPlus) 버전 2004 이상에서 지원됩니다.
 
-- <https://protection.office.com>에서 보안 및 준수 센터를 엽니다. ATP 안전한 첨부 파일 페이지로 직접 **이동하기** 위해 를 를 니다. <https://protection.office.com/safeattachmentv2>
+- <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. 첨부 파일 **페이지로** 직접 금고 를 <https://security.microsoft.com/safeattachmentv2> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-- 이 게시물의 절차를 수행하려면 먼저 **Exchange Online** 에서 사용 권한을 할당받아야 합니다.
-  - 안전한 문서 설정을 구성하려면 조직 관리 또는  보안 관리자 역할 그룹의 **구성원이** 되어야 합니다.
-  - 안전 문서 설정에 대한 읽기 전용 액세스의 경우 전역  읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되어야 합니다.
+- 이 문서의 절차를 **Exchange Online** 수행하려면 먼저 사용 권한이 필요합니다.
+  - 문서 금고 구성하려면 조직 관리 또는 보안 관리자 역할  그룹의 **구성원이** 되어야 합니다.
+  - 문서 설정에 금고 읽기 전용으로 액세스하려면 전역 읽기 그룹 또는  보안 읽기 읽기 권한이 있는 역할 그룹의 **구성원이** 되어야 합니다.
 
   자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
@@ -56,25 +56,25 @@ ms.locfileid: "51644755"
 
 ### <a name="how-does-microsoft-handle-your-data"></a>Microsoft는 데이터를 어떻게 처리하나요?
 
-보호를 유지하기 위해 안전한 문서는 분석을 위해 [Microsoft Defender for Endpoint 클라우드로](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 파일을 전송합니다. 끝점용 Microsoft Defender가 데이터를 처리하는 방법에 대한 자세한 내용은 Endpoint 데이터 저장소 및 개인 정보 [보호용 Microsoft Defender에서](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)찾을 수 있습니다.
+보호를 유지하기 위해 금고 문서를 분석하기 위해 [Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 클라우드로 파일을 전송합니다. 끝점용 Microsoft Defender가 데이터를 처리하는 방법에 대한 자세한 내용은 Endpoint 데이터 저장소 및 개인 정보 [보호용 Microsoft Defender에서](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)찾을 수 있습니다.
 
-안전한 문서에서 보낸 파일은 분석에 필요한 시간(일반적으로 24시간 미만)이 지난 시간 동안 Defender에 보존되지 않습니다.
+금고 전송된 파일은 분석에 필요한 시간(일반적으로 24시간 미만)이 지난 시간 동안 Defender에 보존되지 않습니다.
 
-## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>보안 및 & 센터를 사용하여 안전한 문서 구성
+## <a name="use-the-microsoft-365-defender-to-configure-safe-documents"></a>다음 Microsoft 365 Defender 사용하여 문서 금고 구성
 
-1. 보안 & 준수 센터에서 위협  관리 정책 \>  \> **ATP 안전한** 첨부 파일로 이동한 다음 전역 설정을 **클릭합니다.**
+1. Microsoft 365 Defender 포털을 열고 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 \>  \>  \>  \> **섹션(첨부 금고 로 이동하세요.**
 
-2. 전역 **설정** 플라이아웃이 나타나면 다음 설정을 구성합니다.
+2. 첨부 **금고 페이지에서** 전역 설정을 **클릭합니다.**
 
-   - **클라이언트에** 대해 안전한 Office 켜기 : 토글을 오른쪽으로 이동하여 기능을 ![ 켜기: ](../../media/scc-toggle-on.png) 토글합니다.
-
-   - **안전한 문서에서** 파일을 악성으로 식별하는 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용 : 이 옵션을 해제한 후(토글을 왼쪽으로 유지: 토글 해제) 하는 것이 ![ 좋습니다. ](../../media/scc-toggle-off.png)
+3. 전역 **설정** 플라이아웃이 나타나면 다음 설정을 구성합니다.
+   - **금고** 클라이언트에 대한 Office 설정 : 토글을 오른쪽으로 이동하여 기능을 ![ 켜기: ](../../media/scc-toggle-on.png) 토글합니다.
+   - **파일을 악성으로** 식별한 문서가 금고 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용 : 이 옵션을 해제한 후(토글을 왼쪽으로 두기: 토글 해제) 하는 것이 ![ 좋습니다. ](../../media/scc-toggle-off.png)
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
 
-   ![안전한 첨부 파일 페이지에서 전역 설정을 선택한 후의 안전한 문서 설정입니다.](../../media/safe-docs.png)
+   ![금고 첨부 파일 페이지에서 전역 설정을 선택한 금고 문서화합니다.](../../media/safe-docs-global-settings.png)
 
-### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>PowerShell Exchange Online 사용하여 안전한 문서 구성
+### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>PowerShell Exchange Online 사용하여 문서 금고 구성
 
 다음 구문을 사용합니다.
 
@@ -82,10 +82,10 @@ ms.locfileid: "51644755"
 Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true | $false>
 ```
 
-- _EnableSafeDocs 매개_ 변수는 전체 조직에 대해 안전한 문서를 사용하도록 설정하거나 사용하지 않도록 합니다.
+- _EnableSafeDocs_ 매개 변수는 전체 조직에 대해 금고 또는 사용하지 않도록 설정합니다.
 - _AllowSafeDocsOpen_ 매개 변수는 문서가 악의적인 것으로 확인된 경우 사용자가 보호된 보기(즉, 문서를 여는 경우)를 허용하거나 허용하지 않습니다.
 
-이 예에서는 전체 조직에 대해 안전한 문서를 사용할 수 있도록 하여 사용자가 보호된 보기에서 악의적인 것으로 확인된 문서를 열지 못하게 합니다.
+이 예에서는 금고 문서에 대해 문서를 저장하고 사용자가 보호된 보기에서 악의적인 것으로 확인된 문서를 열지 못하게 합니다.
 
 ```powershell
 Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
@@ -95,15 +95,15 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 
 ### <a name="onboard-to-the-microsoft-defender-for-endpoint-service-to-enable-auditing-capabilities"></a>감사 기능을 사용하도록 설정하기 위해 끝점 서비스용 Microsoft Defender에 온보딩
 
-끝점용 Microsoft Defender를 배포하려면 다양한 배포 단계를 거치야 합니다. 온보드 후 보안 및 준수 센터에서 감사 기능을 & 수 있습니다.
+끝점용 Microsoft Defender를 배포하려면 다양한 배포 단계를 거치야 합니다. 온보드 후 사이트 포털에서 감사 기능을 구성할 Microsoft 365 Defender 있습니다.
 
-자세한 내용은 [끝점 서비스용 Microsoft Defender에 온보딩을 참조합니다.](/microsoft-365/security/defender-endpoint/onboarding) 추가 도움이 필요한 경우 끝점 온보딩 문제에 [대한 Microsoft Defender 문제 해결을 참조하시기 바랍니다.](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)
+자세한 내용은 [끝점 서비스용 Microsoft Defender에 온보딩을 참조합니다.](/microsoft-365/security/defender-endpoint/onboarding) 추가 도움이 필요한 경우 Endpoint 온보딩 문제에 [대한 Microsoft Defender 문제 해결을 참조합니다.](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)
 
 ### <a name="how-do-i-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
 
-안전한 문서를 사용하도록 설정하고 구성하는지 확인하기 위해 다음 단계를 수행합니다.
+문서를 사용하도록 설정하고 구성한 금고 다음 단계를 수행합니다.
 
-- 보안 & 준수 센터에서 위협 관리  정책 \>  \> **ATP 안전한**   첨부 파일로 이동하고,  전역 설정을 클릭하고, Office 클라이언트에 대해 안전한 문서 사용 및 안전한 문서가 파일을 악성 설정으로 식별하는 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용을 확인합니다.
+- Microsoft 365 Defender 포털에서 전자 메일 **& 공동** 작업 정책 & 규칙 위협 정책 정책 \>  \>  \>  \> **섹션금고** \>    첨부 파일 전역 설정으로 이동한 후 Office 클라이언트에 대해 금고 문서 켜기 및 문서에서 파일을 악성 설정으로 식별한 경우에도 사용자가 금고 보기를 클릭할 수 있도록 허용을 확인합니다.
 
 - PowerShell에서 Exchange Online 명령을 실행하고 속성 값을 검증합니다.
 
@@ -111,7 +111,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
   Get-AtpPolicyForO365 | Format-List *SafeDocs*
   ```
 
-- 다음 파일을 통해 안전한 문서 보호를 테스트할 수 있습니다. 이러한 문서는 맬웨어 방지 EICAR.TXT 바이러스 백신 솔루션을 테스트하기 위한 파일과 유사합니다. 파일이 해로운 것은 아니며 안전한 문서 보호를 트리거합니다.
+- 다음 파일은 문서 보호를 테스트하는 금고 있습니다. 이러한 문서는 맬웨어 방지 EICAR.TXT 바이러스 백신 솔루션을 테스트하기 위한 파일과 유사합니다. 파일은 해로운 파일은 아니며 문서 보호를 금고 트리거합니다.
 
   - [SafeDocsDemo.docx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.docx)
   - [SafeDocsDemo.pptx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.pptx)

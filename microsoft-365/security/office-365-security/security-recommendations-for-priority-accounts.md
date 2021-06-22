@@ -20,12 +20,12 @@ ms.collection:
 description: 관리자는 보안 설정을 높이고 조직에서 우선 순위 계정에 대한 보고서, 경고 및 조사를 사용하는 방법을 Microsoft 365 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 73be3832b2391b6f47e4c796daf76c884a17dcdd
-ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
+ms.openlocfilehash: e7617dd5af6a7e3b66fb33818208f01c8d8a338e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51632224"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055251"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>2016년 8월의 우선 순위 계정에 대한 보안 Microsoft 365
 
@@ -36,6 +36,8 @@ ms.locfileid: "51632224"
 Microsoft 365 및 Microsoft Defender for Office 365 계정에 추가 보안 계층을 제공하는 몇 가지 주요 기능이 포함되어 있습니다. 이 문서에서는 이러한 기능과 이러한 기능을 사용하는 방법에 대해 설명합니다.
 
 ![아이콘 양식의 보안 권장 사항 요약](../../media/security-recommendations-for-priority-users.png)
+
+<br>
 
 ****
 
@@ -61,7 +63,7 @@ Microsoft 365 및 Microsoft Defender for Office 365 계정에 추가 보안 계�
 
 - 인증 [정책](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) 및 [](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) 클라이언트 액세스 규칙을 Exchange Online POP3, IMAP4 및 인증된 SMTP와 같은 기본 인증 및 레거시 인증 프로토콜을 차단하거나 허용할 수 있습니다.
 
-- 개별 사서함에서 POP3 및 IMAP4 액세스를 사용하지 않도록 설정할 수 있습니다. 조직 수준에서 인증된 SMTP를 사용하지 않도록 설정하고 여전히 필요한 특정 사서함에서 사용하도록 설정할 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.
+- 개별 사서함에서 POP3 및 IMAP4 액세스를 사용하지 않도록 설정할 수 있습니다. 조직 수준에서 인증된 SMTP를 사용하지 않도록 설정하고 여전히 필요한 특정 사서함에서 사용하도록 설정할 수 있습니다. 자세한 내용은 다음 문서를 참조하세요.
   - [사용자에 대해 POP3 또는 IMAP4 액세스 사용 또는 사용 안 하도록 설정](/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
   - [인증된 클라이언트 SMTP 전송 사용 또는 사용 안 하도록 설정(SMTP AUTH)](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)
 
@@ -77,7 +79,7 @@ Microsoft 365 및 Microsoft Defender for Office 365 계정에 추가 보안 계�
 
 미리 설정한 보안 정책은 EOP 및 보안용 Defender의 모든 보호에 대해 권장되는 Strict 정책 설정을 적용할 수 있는 편리하고 중앙 Office 365. 자세한 내용은 EOP에서 보안 정책 미리 설정 및 Microsoft [Defender for Office 365.](preset-security-policies.md)
 
-Strict 정책 설정이 기본 및 표준 정책 설정과 어떻게 다른지 자세한 내용은 EOP 및 Microsoft [Defender for Office 365 설정을 참조하세요.](recommended-settings-for-eop-and-office365.md)
+Strict 정책 설정이 기본 및 표준 정책 설정과 어떻게 다른지 자세한 내용은 보안에 대한 EOP 및 Microsoft Defender에 대한 권장 [Office 365 참조하세요.](recommended-settings-for-eop-and-office365.md)
 
 ## <a name="apply-user-tags-to-priority-accounts"></a>우선 순위 계정에 사용자 태그 적용
 
@@ -85,7 +87,7 @@ Office 365 계획 2용 Microsoft Defender의 사용자 태그(Microsoft 365 E5 �
 
 우선 순위 **계정은** 우선 순위 계정과 관련된 인시던트 및 알림을 식별하는 데 사용할 수 있는 기본 제공 사용자 태그(시스템 태그라고도 하는) 유형입니다. 우선 순위 계정에 대한 **자세한 내용은** 우선 순위 계정 관리 [및 모니터링을 참조하세요.](../../admin/setup/priority-accounts.md)
 
-사용자 지정 태그를 만들어 우선 순위 계정을 더 식별하고 분류할 수도 있습니다. 자세한 내용은 [사용자 태그를 참조하세요.](user-tags.md) 사용자 지정 사용자 **태그와** 동일한 인터페이스에서 우선 순위 계정(시스템 태그)을 관리할 수 있습니다.
+사용자 지정 태그를 만들어 우선 순위 계정을 더 식별하고 분류할 수도 있습니다. 자세한 내용은 [사용자 태그를 참조하세요.](user-tags.md) 사용자 지정 **사용자** 태그와 동일한 인터페이스에서 우선 순위 계정(시스템 태그)을 관리할 수 있습니다.
 
 ## <a name="monitor-priority-accounts-in-alerts-reports-and-detections"></a>경고, 보고서 및 검색에서 우선 순위 계정 모니터링
 
@@ -97,8 +99,8 @@ Office 365 계획 2용 Microsoft Defender의 사용자 태그(Microsoft 365 E5 �
 
 |기능|설명|
 |---|---|
-|경고|영향을 받는 사용자의 사용자 태그는 보안 및 준수  센터의 경고 보기 페이지에서 표시되어 & 있습니다. 자세한 내용은 [경고 보기를 참조하세요.](../../compliance/alert-policies.md#viewing-alerts)|
-|위협 탐색기 <p> 실시간 탐지|위협 **탐색기(Office 365** 계획 2용 Microsoft Defender) 또는 실시간 검색(Office 365 계획 1용 Microsoft Defender)에서는 전자 메일 그리드 보기 및 전자 메일 세부 정보 플라이아웃에 사용자 태그가 표시됩니다.  사용자 태그는 필터링 가능한 속성으로도 사용할 수 있습니다. 자세한 내용은 [위협 탐색기에서 태그를 참조하세요.](threat-explorer.md#tags-in-threat-explorer)|
+|경고|영향을 받는 사용자의 사용자 태그는 알림 포털의 알림  페이지에서 표시되어 필터로 Microsoft 365 Defender 있습니다. 자세한 내용은 [경고 보기를 참조하세요.](../../compliance/alert-policies.md#viewing-alerts)|
+|탐색기 <p> 실시간 탐지|탐색기(Office 365 계획 2용 Defender)  또는 실시간 검색(Office 365 계획 1용 Defender)에서는 전자 메일 그리드 보기 및 전자 메일 세부 정보 플라이아웃에 사용자 태그가 표시됩니다.  사용자 태그는 필터링 가능한 속성으로도 사용할 수 있습니다. 자세한 내용은 [탐색기에서 태그를 참조하세요.](threat-explorer.md#tags-in-threat-explorer)|
 |캠페인 보기|사용자 태그는 Microsoft Defender for Office 365 필터링할 수 있는 속성 중 하나입니다. 자세한 내용은 캠페인 [보기를 참조하세요.](campaigns.md)|
 |위협 방지 상태 보고서|위협 방지 상태 보고서의 거의 모든 보기 및 세부 정보 테이블에서 **우선** 순위 계정 을 사용하여 결과를 **필터링할 수 있습니다.** 자세한 내용은 위협 방지 상태 [보고서를 참조하세요.](view-email-security-reports.md#threat-protection-status-report)|
 |우선 순위 계정 보고서에 대한 전자 메일 문제|**EAC(Exchange** 관리 센터)의 우선 순위 계정 보고서에 대한 전자 메일 문제에는 우선 순위 계정에 대한 미확인 및 지연된 메시지에 대한 **정보가 포함되어 있습니다.** 자세한 내용은 우선 순위 계정 [보고서에 대한 전자 메일 문제를 참조하세요.](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report)|
@@ -119,7 +121,7 @@ Microsoft 365 조직의 사용자에게 알리는 데 도움이 되는 다음 �
 |개념|리소스|설명|
 |---|---|---|
 |Microsoft 365|[사용자 지정 가능한 학습 경로](/office365/customlearning/)|이러한 리소스는 조직의 사용자를 위한 교육을 구성하는 데 도움이 될 수 있습니다.|
-|Microsoft 365 보안|[학습 모듈: 기본 제공 지능형 보안으로 조직을 Microsoft 365](/learn/modules/security-with-microsoft-365)|이 모듈에서는 보안 기능이 함께 Microsoft 365 방법을 설명하고 이러한 보안 기능의 이점을 설명할 수 있습니다.|
+|Microsoft 365 보안|[Learning 모듈: 기본 제공 지능형 보안 기능으로 조직을 Microsoft 365](/learn/modules/security-with-microsoft-365)|이 모듈에서는 보안 기능이 함께 Microsoft 365 방법을 설명하고 이러한 보안 기능의 이점을 설명할 수 있습니다.|
 |다단계 인증|[2단계 인증: 추가 확인 페이지란?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time)|이 문서는 최종 사용자가 다단계 인증이 무엇일지와 조직에서 사용되는 이유를 이해하는 데 도움이 됩니다.|
 |공격 시뮬레이션 교육|[공격의 신나는 교육 사용 시작](attack-simulation-training-get-started.md)|Office 365 계획 2용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 관리자는 특정 사용자 그룹에 대해 시뮬레이션된 피싱 공격을 구성, 실행 및 추적할 수 있습니다.|
 

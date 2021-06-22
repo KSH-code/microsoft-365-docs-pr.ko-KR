@@ -12,17 +12,17 @@ ms.collection: m365solution-managecontracts m365solution-overview
 search.appverid: ''
 localization_priority: None
 ROBOTS: ''
-description: Syntex, Microsoft 365 목록, SharePoint 및 SharePoint 솔루션을 사용하여 계약을 관리하는 Microsoft Teams 방법을 Power Automate.
-ms.openlocfilehash: 352ebd1b9170aaf7829c414e87f7a79c4f17a1df
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+description: Microsoft 365, 목록, SharePoint 및 SharePoint Syntex 솔루션으로 계약을 Microsoft Teams 방법을 Power Automate.
+ms.openlocfilehash: d3be12dbddabbcddc41f7c9d882db5473350266e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843773"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054766"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Microsoft 365 솔루션을 사용하여 계약 관리
 
-이 문서에서는 조직의 Syntex 및 구성 요소를 사용하여 조직에 SharePoint 관리 솔루션을 만드는 Microsoft 365. 또한 고유한 비즈니스 요구에 맞는 솔루션을 계획하고 만드는 데 도움이 되는 프레임워크를 제공합니다. 이 솔루션이 비즈니스 요구에 전체적으로 적합하지 않은 경우에도 사용자 지정 계약 관리 솔루션을 만들기 위한 계획에서 솔루션의 일부를 채택할 수 있습니다.
+이 문서에서는 조직의 구성 요소 및 구성 요소를 사용하여 조직에 SharePoint Syntex 관리 솔루션을 만드는 Microsoft 365. 또한 고유한 비즈니스 요구에 맞는 솔루션을 계획하고 만드는 데 도움이 되는 프레임워크를 제공합니다. 이 솔루션이 비즈니스 요구에 전체적으로 적합하지 않은 경우에도 사용자 지정 계약 관리 솔루션을 만들기 위한 계획에서 솔루션의 일부를 채택할 수 있습니다.
 
 *이 콘텐츠 집합은 Microsoft의 최신 Microsoft 365 솔루션 전략 팀과 함께 Thomas Molbach가 개발한 새로운 솔루션에 대해 문서화합니다.*
 
@@ -40,11 +40,11 @@ ms.locfileid: "52843773"
 
 ## <a name="overview-of-the-solution"></a>솔루션 개요
 
-  ![Syntex, SharePoint 목록, SharePoint 및 Teams 사용하는 솔루션 Power Automate.](../media/content-understanding/syntex-solution-manage-contracts-setup-steps.png)
+  ![목록, SharePoint Syntex, SharePoint 및 Teams 사용하는 솔루션 Power Automate.](../media/content-understanding/syntex-solution-manage-contracts-setup-steps.png)
 
 이 계약 관리 솔루션 지침에는 다음과 같은 네 가지 구성 요소가 Microsoft 365.
 
-- **Microsoft SharePoint Syntex:** 모델을 만들어 계약 파일을 식별하고 분류한 다음 계약 파일에서 적절한 데이터를 추출합니다.
+- **Microsoft SharePoint Syntex**: 모델을 만들어 계약 파일을 식별하고 분류한 다음 계약 파일에서 적절한 데이터를 추출합니다.
 
 - **Microsoft SharePoint 목록:** 최신 SharePoint 사용할 수 있는 서식을 사용하여 비즈니스에 친숙한 형식으로 계약을 제공합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "52843773"
 
   ![문서를 업로드하고, 데이터를 추출하고, 이해 관계자에게 알리고, 계약을 승인하거나 거부하는 워크플로를 보여주는 솔루션 다이어그램입니다.](../media/content-understanding/syntex-solution-manage-contracts-overview.png)
 
-1. 문서가 문서 라이브러리에 SharePoint 업로드됩니다. 문서 SharePoint 라이브러리에 Syntex 문서 이해 모델이 적용되었습니다. 각 파일을 검사하여 검색할 수 있는 "계약" 콘텐츠 형식과 일치하는지 확인할 수 있습니다. 일치하는 파일을 찾으면 해당 파일을 "계약"으로 분류하고 문서의 콘텐츠 형식을 업데이트합니다.
+1. 문서가 문서 라이브러리에 SharePoint 업로드됩니다. 문서 SharePoint Syntex 이해 모델이 문서 라이브러리에 적용되었습니다. 각 파일을 검사하여 검색할 수 있는 "계약" 콘텐츠 형식과 일치하는지 확인할 수 있습니다. 일치하는 파일을 찾으면 해당 파일을 "계약"으로 분류하고 문서의 콘텐츠 형식을 업데이트합니다.
 
 2. 또한 이 모델은 클라이언트, 계약자 및 수수료 금액과 같이 이해 관계자가 관심을 가지는 각 계약 파일에서 특정 데이터를 *끌어오기도 합니다.*
 
@@ -86,6 +86,6 @@ ms.locfileid: "52843773"
 
 다음 섹션에서는 계약 관리 솔루션을 구성하는 방법에 대해 자세히 설명합니다. 이 단계는 다음 세 단계로 나뉘어 있습니다.
 
-- [1단계. Syntex를 SharePoint 사용하여 계약 파일을 식별하고 데이터 추출](solution-manage-contracts-step1.md)
+- [1단계. 사용자 SharePoint Syntex 사용하여 계약 파일을 식별하고 데이터 추출](solution-manage-contracts-step1.md)
 - [2단계. 이 Microsoft Teams 사용하여 계약 관리 채널 만들기](solution-manage-contracts-step2.md)
 - [3단계. 이 Power Automate 사용하여 계약 처리 흐름 만들기](solution-manage-contracts-step3.md)

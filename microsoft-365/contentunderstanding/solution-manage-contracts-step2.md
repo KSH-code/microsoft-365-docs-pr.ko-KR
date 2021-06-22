@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Microsoft Teams 솔루션을 사용하여 계약 관리 채널을 만드는 Microsoft 365 대해 자세히 알아보십시오.
-ms.openlocfilehash: 073ef1651ea5470594bfce0ffce65e849f9e063a
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 099487279482385760e05d9b166ae80c665d931e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841177"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054751"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>2단계. 이 Microsoft Teams 사용하여 계약 관리 채널 만들기
 
@@ -31,15 +31,16 @@ ms.locfileid: "52841177"
 
      ![게시물 탭.](../media/content-understanding/posts.png)
 
-- **결제를 위해 제출할 수 있는 경우를 알 수 있는 승인된 계약을 구성원에게 볼 수 있는 위치가 있습니다.** 이 Teams 결제 채널을 만들어  결제로 제출해야 하는 모든 계약을 나열할 수 있습니다. 이 솔루션을 쉽게 확장하여 이 정보를 타사 금융 응용 프로그램(예: Dynamics CRM)에 직접 작성할 수 있습니다.
+- **결제를 위해 제출할 수 있는 경우를 알 수 있는 승인된 계약을 구성원에게 볼 수 있는 위치가 있습니다.** 이 SharePoint 지급 목록을 만들고 **클라이언트,** 계약자 및 수수료 금액에 대한 열을 포함해야 합니다.  단 한 줄 텍스트를 열 유형으로 선택합니다.  계약 관리 채널에서  지급액 목록을 계약 탭에 Teams 탭으로 [ **추가해야** 합니다.](solution-manage-contracts-step2.md#attach-your-sharepoint-document-library-to-the-contracts-tab) 지급용 **탭에는** 지급을 위해 제출해야 하는 모든 계약이 나열됩니다. 이 솔루션을 쉽게 확장하여 이 정보를 타사 금융 응용 프로그램(예: Dynamics CRM)에 직접 작성할 수 있습니다. 
+
 
 ## <a name="attach-your-sharepoint-document-library-to-the-contracts-tab"></a>계약 탭에 SharePoint 문서 라이브러리 연결
 
-계약 관리  채널에서 계약 탭을 만든 후 문서 라이브러리에 SharePoint [연결해야 합니다.](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) 첨부할 SharePoint 문서 라이브러리는 이전 섹션에서 SharePoint 문서 이해 모델을 적용한 라이브러리입니다.
+계약 관리  채널에서 계약 탭을 만든 후 문서 라이브러리에 SharePoint [연결해야 합니다.](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) 첨부할 SharePoint 문서 라이브러리는 이전 섹션에서 SharePoint Syntex 문서 이해 모델을 적용한 라이브러리입니다.
 
 문서 SharePoint 연결한 후 기본 목록 보기를 통해 분류된 계약을 볼 수 있습니다.
 
-   ![목록 보기.](../media/content-understanding/list-view.png)
+   ![목록 라이브러리의 SharePoint 보기입니다.](../media/content-understanding/list-view.png)
 
 ## <a name="customize-your-contracts-tab-tile-view"></a>계약 탭 타일 보기 사용자 지정
 
@@ -48,13 +49,13 @@ ms.locfileid: "52841177"
 
 타일 Teams 보기에서 계약을 볼 수 있도록 하는 동안 계약 카드에 표시하려는 계약 데이터를 보게 계약 데이터를 사용자 지정할 수 있습니다. 예를 들어 계약  탭의 경우 구성원은 계약 카드에서 클라이언트, 계약자 및 수수료 금액을 보는 것이 중요합니다. 이러한 필드는 모두 문서 라이브러리에 적용된 SharePoint Syntex 모델을 통해 각 계약에서 추출되었습니다. 또한 구성원이 승인 프로세스에서 계약의 위치를 쉽게 확인할 수 있도록 각 상태에 대해 타일 헤더 막대를 다른 색으로 변경할 수 있습니다. 예를 들어 승인된 모든 계약에는 파란색 헤더 표시줄이 있습니다.
 
-   ![목록 보기.](../media/content-understanding/tile.png)
+   ![라이브러리의 SharePoint 보기입니다.](../media/content-understanding/tile.png)
 
 사용하는 사용자 지정 타일 보기를 사용하려면 현재 타일 보기의 서식을 지정하는 데 사용되는 JSON 파일을 변경해야 합니다. 파일에서 카드 보기를 만드는 데 사용되는 JSON 파일을 [ 참조할ContractTileFormatting.js](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 있습니다. 다음 섹션에서는 계약 카드에 있는 기능에 대한 코드의 특정 섹션을 볼 수 있습니다.
 
 Teams 채널의 보기에 대한 JSON 코드를 보거나 변경하려면 Teams 채널에서 보기 드롭다운 메뉴를 선택한 다음 현재 보기 서식을 **선택합니다.**
 
-   ![json 형식](../media/content-understanding/jason-format.png)
+   ![screenshot of json format in Teams channel.](../media/content-understanding/jason-format.png)
 
 ## <a name="card-size-and-shape"></a>카드 크기 및 모양
 
@@ -105,7 +106,7 @@ in the [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/
 
 ## <a name="extracted-fields"></a>추출된 필드
 
-각 계약 카드에는 각 계약에 대해 추출된 세 개의 필드(클라이언트,계약자 및 수수료 금액)가 *표시됩니다.* 또한 파일을 식별하는 데 사용된 SharePoint 파일을 분류한 시간/날짜도 표시해야 합니다.
+각 계약 카드에는 각 계약에 대해 추출된 세 개의 필드(클라이언트,계약자 및 수수료 금액)가 *표시됩니다.* 또한 파일을 식별하는 데 사용되는 SharePoint Syntex/날짜를 표시해야 합니다.
 
 파일 [ContractTileFormatting.js](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 다음 섹션에서는 이러한 각 섹션을 정의합니다.
 

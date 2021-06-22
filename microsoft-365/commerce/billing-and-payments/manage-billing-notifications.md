@@ -21,25 +21,22 @@ search.appverid:
 - MET150
 description: 청구 알림 전자 메일 및 송장 첨부 파일을 받는 사람 관리 방법에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: a0c7de8638a227d432ff2c5a0d4839fa8f66582c
-ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
+ms.openlocfilehash: f41d93835fed1715803052f1cf79b46f43a1d200
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52998767"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054578"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>청구 알림 및 송장 첨부 파일 관리
 
 청구 **알림 페이지에서는** 조직의 청구 알림 전자 메일을 받는 사람도 관리할 수 있습니다. 이 페이지에서는 조직의 송장을 전자 메일 첨부 파일로 받는 [옵션도 제공합니다.](#receive-your-organizations-invoices-as-email-attachments)
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 이 문서에 설명된 단계를 수행하려면 전역 관리자 되어야 합니다. 대금 청구 관리자는 아래 섹션에 설명된 일부 변경을 할 수 있습니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 ## <a name="change-the-language-you-receive-email-in"></a>전자 메일을 받는 언어 변경
-
-> [!NOTE]
-> 청구 관리자는 이 섹션의 단계를 수행 할 수도 있습니다.
 
 청구 알림 전자 메일은 조직의 기본 설정 언어로 전송됩니다. 기본 언어를 변경하기 위해 다음 단계를 수행합니다.
 
@@ -87,6 +84,9 @@ ms.locfileid: "52998767"
 3. 오른쪽 창에 사용할 전자 메일 주소를 입력한 다음 저장을 **선택합니다.**
 
 ## <a name="receive-your-organizations-invoices-as-email-attachments"></a>전자 메일 첨부 파일로 조직의 송장 받기
+
+> [!NOTE]
+> 청구 관리자는 이 섹션의 단계를 수행 할 수도 있습니다.
 
 새 송장이 준비되면 조직의 송장 복사본을 PDF 파일로 송장 알림 전자 메일에 첨부할 수 있습니다. 다음 단계에 따라 송장을 첨부 파일로 수신합니다.
 

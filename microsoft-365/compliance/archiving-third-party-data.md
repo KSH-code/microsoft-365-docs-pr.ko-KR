@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: a51b298b934431a1be8a416dac1f831ddaca5ffe
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: a0c4505d3fbd593f5703f4abfb5cba1870c037c5
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861206"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054775"
 ---
 # <a name="archive-third-party-data"></a>타사 데이터 보관
 
@@ -35,7 +35,7 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 
 ## <a name="third-party-data-connectors"></a>타사 데이터 커넥터
 
-다음 표에는 규정 준수 센터에서 사용할 수 있는 타사 Microsoft 365 나열되어 있습니다. 또한 이 표에는 타사 데이터를 가져와 보관한 후 타사 데이터에 적용할 수 있는 규정 준수 솔루션이 Microsoft 365. 각 규정 [준수 솔루션에](#overview-of-compliance-solutions-that-support-third-party-data) 대한 자세한 설명과 타사 데이터에 도움이 될 수 있는 방법에 대한 자세한 내용은 다음 섹션을 참조하세요.
+다음 표에는 데이터 원본에서 사용할 수 있는 타사 데이터 커넥터가 Microsoft 365 규정 준수 센터. 또한 이 표에는 타사 데이터를 가져와 보관한 후 타사 데이터에 적용할 수 있는 규정 준수 솔루션이 Microsoft 365. 각 규정 [준수 솔루션에](#overview-of-compliance-solutions-that-support-third-party-data) 대한 자세한 설명과 타사 데이터에 도움이 될 수 있는 방법에 대한 자세한 내용은 다음 섹션을 참조하세요.
 
 > [!TIP]
 > 타사 데이터 열의 링크를 클릭하여 해당 데이터 형식에 대한 커넥터를 만들기 위한 단계별 지침으로 이동하십시오. 
@@ -69,8 +69,11 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 |[Reuters FX <sup>2</sup>](archive-reutersfx-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Salesforce Chatter <sup>2</sup>](archive-salesforcechatter-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
 |[ServiceNow <sup>2</sup>](archive-servicenow-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[신호 <sup>1</sup>](archive-signal-archiver-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[비즈니스용 Skype <sup>2</sup>](archive-skypeforbusiness-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Slack eDiscovery <sup>2</sup>](archive-slack-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Symphony <sup>2</sup>](archive-symphony-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Telegram <sup>1</sup>](archive-telegram-archiver-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[TELUS 네트워크 <sup>1</sup>](archive-telus-network-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[텍스트로 나타선 <sup>2</sup>](archive-text-delimited-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
 |[Twitter](archive-twitter-data-with-sample-connector.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
@@ -135,11 +138,11 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 |:---------|:---------|:---------|:---------|
 |Android Archiver | 예 | 아니요 | 아니요 |
 |AT&T SMS/MMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
-|Bell SMS/MMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
+|Bell SMS/MMS 네트워크 보관기 | 예 | 아니요 | 아니요 |
 |Enterprise Number Archiver | 예 | 아니요 | 아니요 |
-|O2 SMS 및 음성 네트워크 보관함 | 예         | 아니요 | 아니요 |
-|TELUS SMS Network Archiver | 예 | 아니요 | 아니요 |
-|Verizon SMS/MMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
+|O2 SMS 및 음성 네트워크 보관 | 예         | 아니요 | 아니요 |
+|TELUS SMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
+|Verizon SMS/MMS 네트워크 보관기 | 예 | 아니요 | 아니요 |
 |WeChat Archiver | 예 | 아니요 | 아니요 |
 |WhatsApp Archiver | 예 | 아니요 | 아니요 |
 |||||

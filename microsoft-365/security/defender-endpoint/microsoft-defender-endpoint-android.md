@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 499ac9a6ee81bacb79cd83993d510f87e11c62c6
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ceccd9e3c8a8137f672e7be519675034a84c7881
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844721"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055109"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
@@ -72,7 +72,8 @@ ms.locfileid: "52844721"
 
 ### <a name="system-requirements"></a>시스템 요구 사항
 
--   Android 6.0 이상을 실행하는 Android 장치.
+-   Android 6.0 이상을 실행하는 휴대폰. **Android를 실행하는 태블릿 및 기타 모바일 장치는 현재 지원되지 않습니다.** 
+
 -   Intune 회사 포털 [Google Play에서](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) 다운로드하여 설치합니다. Intune 장치 준수 정책을 적용하려면 장치 등록이 필요합니다.
 
 ### <a name="installation-instructions"></a>설치 지침

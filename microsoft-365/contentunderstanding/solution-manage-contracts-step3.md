@@ -12,20 +12,20 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: 사용자 계정을 사용하여 Power Automate 솔루션을 사용하여 계약을 처리하기 위한 흐름을 만드는 Microsoft 365 알아보십시오.
-ms.openlocfilehash: 0ddcbeff6c8bd119850e3e4ea45db2513e774433
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e6c1d1e53363f996241efb2394189853d840c6c2
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636257"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054476"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>3단계. 이 Power Automate 사용하여 계약 처리 흐름 만들기
 
-계약 관리 채널을 만들며 문서 라이브러리에 SharePoint 있습니다. 다음 단계는 Syntex 모델이 식별하고 분류하는 Power Automate 처리하기 위한 SharePoint 흐름을 만드는 것입니다. 이 단계는 문서 라이브러리에서 Power Automate 흐름을 만들어 [SharePoint 있습니다.](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)
+계약 관리 채널을 만들며 문서 라이브러리에 SharePoint 있습니다. 다음 단계는 Power Automate 모델이 식별하고 분류하는 계약을 SharePoint Syntex 흐름을 만드는 것입니다. 이 단계는 문서 라이브러리에서 Power Automate 흐름을 만들어 [SharePoint 있습니다.](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)
 
 계약 관리 솔루션의 경우 다음과 같은 작업을 Power Automate 흐름을 만들 수 있습니다.
 
--  SharePoint 모델에 의해 계약이 분류된 후 계약 상태를 검토 중으로 **변경합니다.**
+-  SharePoint Syntex 모델에 의해 계약이 분류된 후 계약 상태를 검토 중으로 **변경합니다.**
 - 그러면 계약이 검토된 후 승인되거나 거부됩니다.
 - 승인된 계약의 경우 계약 정보는 결제 처리를 위해 탭에 게시됩니다.
 - 거부된 계약의 경우 팀에서 추가 분석을 위해 통보됩니다. 
@@ -36,7 +36,7 @@ ms.locfileid: "52636257"
 
 ## <a name="prepare-your-contract-for-review"></a>검토를 위한 계약 준비
 
-SharePoint Syntex 문서 이해 모델에 의해 계약이 식별 및 분류되면 Power Automate 흐름은 먼저 상태를 검토 중으로 **변경합니다.**
+사용자 문서 이해 모델을 통해 계약을 식별하고 SharePoint Syntex 경우 Power Automate 흐름은 먼저 상태를 검토 중으로 **변경합니다.**
 
 ![업데이트 상태.](../media/content-understanding/flow-overview.png)
 
@@ -127,9 +127,9 @@ SharePoint Syntex 문서 이해 모델에 의해 계약이 식별 및 분류되�
 ```
 
 
-## <a name="conditional"></a>조건부
+## <a name="conditional-context"></a>조건부 컨텍스트
 
-흐름에서 다음으로 계약이 승인되거나 거부되는 조건을 만들어야 합니다.
+흐름에서 다음으로 계약이 승인되거나 거부되는 조건을 [만들어야 합니다.](#if-the-contract-is-rejected) [](#if-the-contract-is-approved)
 
 ![조건부.](../media/content-understanding/condition.png)
 
@@ -152,6 +152,19 @@ SharePoint Syntex 문서 이해 모델에 의해 계약이 식별 및 분류되�
 - 흐름에서 다음 항목을 만들어 승인된 계약을 지급용 **탭으로** 이동합니다.
 
    ![Flow 항목에서 결제로 이동할 수 있습니다.](../media/content-understanding/ready-for-payout.png)
+
+    카드에서 필요한 정보에 대한 식을 Teams 표에 나와 있는 값을 사용합니다.
+ 
+    |이름     |Expression |
+    |---------|-----------|
+    | 승인 상태  | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['submitActionId']         |
+    | 승인자     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responder'] ['displayName']        |
+    | 승인 날짜     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responseTime']         |
+    | 댓글     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['data'] ['acComments']         |
+    
+    다음은 수식 상자를 사용하여 식을 Power Automate 예제입니다.
+
+   ![식 수식을 Power Automate 스크린샷.](../media/content-understanding/expression-formula-power-automate.png)    
 
 - 계약이 승인된 적응형 카드가 생성되고 계약 관리 채널에 게시됩니다.
 
@@ -250,11 +263,11 @@ SharePoint Syntex 문서 이해 모델에 의해 계약이 식별 및 분류되�
 
 - 흐름에서 계약 파일을 체크 아웃하고 상태를 거부된 것으로 변경한 다음 파일을 다시 체크 인합니다. 
 
-   ![Flow 상태가 거부됩니다.](../media/content-understanding/reject-flow.png)
+   ![Flow 파일에서 상태가 거부됩니다.](../media/content-understanding/reject-flow.png)
 
 - 흐름에서 계약이 거부된 적응형 카드를 생성합니다.
 
-   ![Flow 상태가 거부됩니다.](../media/content-understanding/reject-flow-item.png)
+   ![Flow 상태는 적응형 카드에서 거부된 것으로 표시됩니다.](../media/content-understanding/reject-flow-item.png)
 
 다음 코드는 Power Automate 흐름에서 이 단계에 사용되는 JSON입니다.
 
