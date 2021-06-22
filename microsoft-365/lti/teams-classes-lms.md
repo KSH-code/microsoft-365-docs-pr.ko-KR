@@ -12,20 +12,20 @@ f1.keywords:
 ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-description: 학습 Microsoft Teams 클래스 통합
-ms.openlocfilehash: 287b9f1cadfdcf3adafdca91f4a351865bbcf3bc
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+description: Microsoft Teams 관리 시스템에 Learning 클래스 통합
+ms.openlocfilehash: 047f640befa967b78597c5eba93f9c64f22ec1c2
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821274"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053254"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard"></a>Blackboard에서 Microsoft Teams 클래스 사용
 
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-Microsoft Teams 클래스는 교사와 학생이 LMS(학습 관리 시스템) 및 LMS(학습 관리 시스템)를 쉽게 탐색하는 데 도움이 되는 LTI(학습 도구 상호 운영성) Teams. 사용자는 LMS 내에서 직접 과정과 연결된 수업 팀에 액세스할 수 있습니다.
+Microsoft Teams 클래스는 교사와 학생이 LMS(Learning Management System) 및 LMS(Learning 관리 시스템) 사이를 쉽게 탐색하는 데 도움이 되는 LTI(Learning 도구 상호 운영성) 앱입니다Teams. 사용자는 LMS 내에서 직접 과정과 연결된 수업 팀에 액세스할 수 있습니다.
 
 ## <a name="approve-the-app-in-the-microsoft-azure-tenant"></a>테넌트에서 앱 Microsoft Azure 승인
 
@@ -37,7 +37,7 @@ Blackboard Learn Ultra 내의 통합을 관리하기 전에 Microsoft Office 365
 
 2. 다음 예에 따라 Microsoft Identity Platform 관리자 동의 끝점을 리디렉션합니다.
 
-   `https://login.microsoftonline.com/{tenant}/adminconsent?client\_id=2d94989f-457a-47c1-a637-e75acdb11568`
+   `https://login.microsoftonline.com/{tenant}/adminconsent?client_id=2d94989f-457a-47c1-a637-e75acdb11568`
 
    > [!NOTE]
    > {tenant}를 조직의 Microsoft 테넌트 ID로 대체합니다.

@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용하도록 SharePoint OneDrive.
-ms.openlocfilehash: d4c0f9b4c280394dd63820320ba7ca30e349c361
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: e123dbd523bdaa648ee66b6ef56ee071b917fd86
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878043"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53052978"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
+>*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 지원되는 Office 파일에 [](sensitivity-labels-office-apps.md#office-file-types-supported) 대해 기본 제공 레이블 지정을 SharePoint OneDrive 사용하여 사용자가 해당 파일에서 민감도 레이블을 적용할 수 웹용 Office. [](sensitivity-labels.md) 이 기능을 사용하도록 설정하면 레이블을 적용할 수 있도록 리본 메뉴에 민감도 단추가 표시되고 상태 표시줄에 적용된 레이블 이름이 표시됩니다. 
 
@@ -68,7 +68,7 @@ IRM(SharePoint Information Rights Management)을 사용하여 SharePoint 문서�
 
 이러한 새로운 기능은 민감도 [레이블에만 작동됩니다.](sensitivity-labels.md) 현재 Azure Information Protection 레이블이 있는 경우 먼저 민감도 레이블로 마이그레이션하여 업로드하는 새 파일에 대해 이러한 기능을 사용하도록 설정할 수 있습니다. 자세한 내용은 [Azure Information Protection 레이블을 통합 민감도 레이블로 마이그레이션하는 방법](/azure/information-protection/configure-policy-migrate-labels)을 참조하세요.
 
-Mac에서 OneDrive 버전 19.002.0121.0008 이상 및 Windows 버전 19.002.0107.0008 이상을 사용하세요. 이 두 버전은 2019년 1월 28일 릴리스된 후 현재 모든 링에 릴리스됩니다. 자세한 내용은 릴리스 OneDrive [참조하세요.](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) Office 및 SharePoint OneDrive 파일에 대해 민감도 레이블을 사용하도록 설정하면 이전 버전의 동기화 앱을 실행한 사용자에게 업데이트하라는 메시지가 표시됩니다.
+Mac에서 OneDrive 동기화 버전 19.002.0121.0008 이상을 Windows 버전 19.002.0107.0008 이상을 사용하세요. 이 두 버전은 2019년 1월 28일 릴리스된 후 현재 모든 링에 릴리스됩니다. 자세한 내용은 릴리스 OneDrive [참조하세요.](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) Office 및 SharePoint OneDrive 파일에 대해 민감도 레이블을 사용하도록 설정하면 이전 버전의 동기화 앱을 실행한 사용자에게 업데이트하라는 메시지가 표시됩니다.
 
 ## <a name="limitations"></a>제한 사항
 
@@ -78,7 +78,7 @@ Mac에서 OneDrive 버전 19.002.0121.0008 이상 및 Windows 버전 19.002.0107
 
 - SharePoint 및 OneDrive Azure Information Protection 레이블을 사용하여 이미 암호화한 기존 파일에 민감도 레이블을 자동으로 적용하지 않습니다. 대신, Office 파일에 대해 민감도 레이블을 사용하도록 설정한 후 기능이 SharePoint OneDrive 작업을 완료합니다.
     
-    1. Azure Information [Protection](/azure/information-protection/configure-policy-migrate-labels) 레이블을 민감도 레이블로 마이그레이션하고 [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) 규정 준수 센터에서 Microsoft 365 합니다.
+    1. Azure Information [Protection](/azure/information-protection/configure-policy-migrate-labels) 레이블을 민감도 레이블로 마이그레이션하고 [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) 해당 레이블을 해당 레이블에서 Microsoft 365 규정 준수 센터.
     2. 레이블이 붙은 파일을 다운로드한 다음 레이블이 지정되어 있는 파일의 원래 위치에 SharePoint OneDrive.
 
 - SharePoint 및 OneDrive 적용된 레이블에 다음과 같은 암호화 구성이 있는 경우 암호화된 파일을 [처리하지 못합니다.](encryption-sensitivity-labels.md#configure-encryption-settings)
@@ -103,8 +103,6 @@ Mac에서 OneDrive 버전 19.002.0121.0008 이상 및 Windows 버전 19.002.0107
 
 - 관리자가 사용자의 동기화 클라이언트에 다운로드된 파일에 이미 적용된 게시된 레이블의 설정을 변경하는 경우 사용자가 파일 변경 내용을 파일 동기화 폴더에 저장하지 못할 OneDrive 있습니다. 이 시나리오는 암호화로 레이블이 지정되는 파일에 적용될 수 있으며, 레이블 변경이 암호화를 적용하는 레이블에 암호화를 적용하지 않은 레이블에서 변경된 경우도 적용됩니다. 흰색 십자 아이콘 오류가 있는 빨간색 원이 표시되고 새 변경 내용을 별도의 복사본으로 저장해야 합니다. [](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3) 대신 파일을 닫았다가 다시 열거나 파일을 다시 열 수 웹용 Office.
 
-- 레이블이 지정한 문서를 SharePoint 또는 OneDrive 서비스 사용자 이름의 계정을 사용하여 레이블이 암호화를 적용한 경우 해당 문서는 웹용 Office. 예제 시나리오에는 Microsoft Cloud App Security 전자 메일로 전송된 Teams 포함됩니다.
-
 - 사용자는 오프라인으로 전환한 후 또는 절전 모드로 전환한 후 웹용 Office Word, Excel 또는 앱용 데스크톱 및 모바일 앱을 PowerPoint. 이러한 사용자의 경우 Office 앱 세션을 다시 시작하고 변경 내용을 저장하려고 하면 원본 파일을 저장하는 대신 복사본을 저장하는 옵션이 있는 업로드 실패 메시지가 표시됩니다. 
 
 - 다음과 같은 방법으로 암호화된 문서는 다음 방법으로 열 수 웹용 Office.
@@ -120,13 +118,13 @@ Mac에서 OneDrive 버전 19.002.0121.0008 이상 및 Windows 버전 19.002.0107
 
 ## <a name="how-to-enable-sensitivity-labels-for-sharepoint-and-onedrive-opt-in"></a>옵트인(opt in)에 대해 민감도 레이블을 SharePoint OneDrive 방법
 
-규정 준수 센터 또는 PowerShell을 사용하여 Microsoft 365 기능을 사용하도록 설정할 수 있습니다. SharePoint 및 OneDrive 모든 테넌트 수준 구성 변경과 OneDrive 변경 내용을 적용하는 데 15분 정도 걸립니다.
+새 기능을 사용하도록 설정하려면 Microsoft 365 규정 준수 센터 PowerShell을 사용하여 설정할 수 있습니다. SharePoint 및 OneDrive 모든 테넌트 수준 구성 변경과 OneDrive 변경 내용을 적용하는 데 15분 정도 걸립니다.
 
 ### <a name="use-the-compliance-center-to-enable-support-for-sensitivity-labels"></a>규정 준수 센터를 사용하여 민감도 레이블에 대한 지원을 사용하도록 설정
 
 이 옵션은 SharePoint 및 OneDrive 레이블을 사용하도록 설정하는 가장 쉬운 방법이지만 테넌트에 대한 전역 관리자로 로그인해야 합니다.
 
-1. 전역 관리자로 Microsoft 365 [규정](https://compliance.microsoft.com/) 준수 센터에 로그인하고 솔루션 정보  >  **보호로 이동합니다.**
+1. 전역 관리자로 Microsoft 365 규정 준수 센터 [로그인하고](https://compliance.microsoft.com/) 솔루션 정보   >  **보호로 이동합니다.**
     
     이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시** 를 선택합니다. 
 
@@ -246,7 +244,7 @@ InformationProtectionLabelId:8faca7b8-8d20-48a3-8ea2-0f96310a848e
 
 대신 전역 관리자 또는 [](/sharepoint/sharepoint-admin-role) SharePoint 관리자가 민감도 레이블과 암호화를 모두 제거하는 [Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 실행할 수 있습니다. 이 cmdlet은 관리자가 사이트 또는 파일에 대한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행됩니다. 
 
-예:
+예를 들어 다음과 같습니다.
 
 ```powershell
 Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"

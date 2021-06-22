@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f9a4b7679a33d6722336ee5412e4992389ba915f
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 40ec3887cd37ddb412df3ae78300c1f9e9c60ecc
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694416"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053050"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -53,7 +53,7 @@ ms.locfileid: "52694416"
 
 또한 해당 테넌트 ID를 얻기 위해 신뢰할 수 있는 파트너 회사(사서함을 이동하는 Microsoft 365 통신해야 합니다. 이 테넌트 ID는 조직 관계 필드에 `DomainName` 사용됩니다.
 
-구독의 테넌트 ID를 얻습니다. Microsoft 365 관리 센터에 로그인하고 로 [https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 이동하세요. 테넌트 ID 속성의 복사 아이콘을 클릭하여 클립보드에 복사합니다.
+구독의 테넌트 ID를 얻습니다. 구독에 로그인하여 Microsoft 365 관리 센터 로 [https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 이동하세요. 테넌트 ID 속성의 복사 아이콘을 클릭하여 클립보드에 복사합니다.
 
 다음은 프로세스의 작동 방식입니다.
 
@@ -122,6 +122,7 @@ ms.locfileid: "52694416"
 6. 이 스크립트는 일시 중지된 후 이 프로세스 중에 만들어진 Exchange 사서함 마이그레이션 응용 프로그램에 동의하거나 동의할 것을 요청합니다. 예를 들면 다음과 같습니다.
 
     ```powershell
+    PS C:\PowerShell\> # Note: the below User.Invite.All permission is optional, and will only be used to retrieve access token to send invitation email to source tenant
     PS C:\PowerShell\> .\SetupCrossTenantRelationshipForTargetTenant.ps1 -ResourceTenantDomain contoso.onmicrosoft.com -ResourceTenantAdminEmail admin@contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ResourceTenantId ksagjid39-ede2-4d2c-98ae-874709325b00 -SubscriptionId e4ssd05d-a327-49ss-849a-sd0932439023 -ResourceGroup "Cross-TenantMoves" -KeyVaultName "Cross-TenantMovesVault" -CertificateName "Contoso-Fabrikam-cert" -CertificateSubject "CN=Contoso_Fabrikam" -AzureResourceLocation "Brazil Southeast" -AzureAppPermissions Exchange, MSGraph -UseAppAndCertGeneratedForSendingInvitation -KeyVaultAuditStorageAccountName "t2tstorageaccount" -KeyVaultAuditStorageResourceGroup "Demo"
 
     cmdlet Get-Credential at command pipeline position 1
@@ -134,7 +135,7 @@ ms.locfileid: "52694416"
     Pay-As-You-Go (ewe23423-a3327-34232-343... Admin@fabrikam... Pay-As-You-Go                           AzureCloud                              dsad938432-dd8e-s9034-bf9a-83984293n43
     Auditing setup successfully for Cross-TenantMovesVault
     Exchange application given access to KeyVault Cross-TenantMovesVault
-    Application fabrikam_Friends_contoso_2520 created successfully in fabrikam.onmicrosoft.com tenant with following permissions. MSGraph - Directory.ReadWrite.All. Exchange - Mailbox.Migration
+    Application fabrikam_Friends_contoso_2520 created successfully in fabrikam.onmicrosoft.com tenant with following permissions. MSGraph - User.Invite.All. Exchange - Mailbox.Migration
     Admin consent URI for fabrikam.onmicrosoft.com tenant admin is -
     https://login.microsoftonline.com/fabrikam.onmicrosoft.com/adminconsent?client_id=6fea6ere-0dwe-404d-ad35-c71a15cers5c&redirect_uri=https://office.com
     Admin consent URI for contoso.onmicrosoft.com tenant admin is -
@@ -716,7 +717,7 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
    | 정보 장벽                              |
    | Office 365 보호 - Premium   |
    | Office 365 보호 - 표준  |
-   | MyAnalytics의 인사이트                           |
+   | Insights By MyAnalytics                           |
    | Microsoft 365 고급 감사                   |
    | Microsoft Bookings                                |
    | Microsoft 비즈니스 센터                         |

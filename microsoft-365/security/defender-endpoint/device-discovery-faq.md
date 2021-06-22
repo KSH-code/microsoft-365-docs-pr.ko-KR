@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1c61e69b5c8d414ab229fa8bf64eb657a6e40304
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b2c0b986ef6dbb54cd34e9b4413711cd3e5f9c6d
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245963"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053158"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>장치 검색에 자주 묻는 질문
 
@@ -65,7 +65,7 @@ ms.locfileid: "52245963"
  기본적으로 Windows 10 버전 1809 이상에서 실행되는 모든 온보드 장치는 ARP, CDP, DHCP, DHCPv6, IP(헤더), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP(헤더), UDP(헤더), WSD 프로토콜을 캡처하고 분석합니다.
 
 ## <a name="which-protocols-do-you-use-for-active-probing-in-standard-discovery"></a>표준 검색에서 활성 프로비전에 어떤 프로토콜을 사용하나요?
- 장치가 표준 검색을 실행하도록 구성된 경우 노출된 서비스는 ARP, FTP, HTTP, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL을 사용하여 프로브되고 있습니다.
+ 장치가 표준 검색을 실행하도록 구성된 경우 노출된 서비스는 ARP, FTP, HTTP, HTTPS, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL, RPC, mDNS, DHCP, AFP, CrestonCIP, IphoneSync 프로토콜을 사용하여 프로브되고 있습니다.
 
 ## <a name="how-can-i-exclude-targets-from-being-probed-with-standard-discovery"></a>표준 검색을 사용하여 대상이 프로브되지 못하게 제외하는 방법
  네트워크에 적극적으로 프로브하지 말아야 하는 장치가 있는 경우 제외 목록을 정의하여 검사하지 못하게 할 수도 있습니다. 구성은 장치 검색 설정 페이지에서 사용할 수 있습니다.
@@ -91,4 +91,5 @@ ms.locfileid: "52245963"
 ## <a name="can-i-onboard-unmanaged-devices-that-were-found"></a>찾은 관리되지 않는 장치를 온보드할 수 있나요?
  예. 네트워크에서 관리되지 않는 끝점은 네트워크에 취약성 및 위험을 도입합니다. 서비스를 온보더링하면 서비스에 대한 보안 가시성을 강화할 수 있습니다. 
 
-
+## <a name="ive-noticed-that-unmanaged-device-health-state-is-always-active-why-is-that"></a>관리되지 않는 장치 상태는 항상 "활성"입니다. 그 이유는 무엇입니까?
+일시적으로 관리되지 않는 장치 상태는 실제 상태와 관계없이 장치 인벤토리의 표준 보존 기간 동안 "활성"입니다.

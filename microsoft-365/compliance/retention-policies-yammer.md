@@ -17,19 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Yammer에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: a8d047845b986029d393816982e6bede3db71485
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: d4988eee419a38497d4fa35cdb3e2f7fec103688
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861566"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53052930"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Yammer의 보존에 대한 자세한 정보
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
+>*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> 이 기능은 미리 보기 상태이기 때문에 일부 고객은 아직 사용할 수 없습니다.
+> 미리 보기에 이 기능이 있으며, 변경될 수 있습니다.
 
 Yammer에 관한 정보를 담고 있으므로 이 문서의 정보는 [보존 정책에 대해 자세히 알아보기](retention.md)를 보완합니다.
 

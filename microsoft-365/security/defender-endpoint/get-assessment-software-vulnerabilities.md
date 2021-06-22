@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 6243da415c5cc509be33eabffd12516367164bff
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 87fb5c62b520168a686cc0b95a321becdd4656ba
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022873"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53052966"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>장치당 소프트웨어 취약점 평가 내보내기
 
@@ -41,16 +41,16 @@ ms.locfileid: "53022873"
 
 1. [소프트웨어 취약성 평가 **JSON 응답 내보내기**](#1-export-software-vulnerabilities-assessment-json-response)  API는 Json 응답으로 조직의 모든 데이터를 끌어 습니다. 이 방법은 _100 K_ 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적이기 때문에 응답의 odata.nextLink 필드를 사용하여 다음 결과를 \@ 내보일 수 있습니다.
 
-2. [파일을 통해 소프트웨어 **취약성 평가 내보내기**](#2-export-software-vulnerabilities-assessment-via-files) 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 100 K 장치가 넘는 대규모 조직에서는 Via-files를 권장합니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure 저장소. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure 저장소 수 있습니다.
+2. [파일을 통해 소프트웨어 **취약성 평가 내보내기**](#2-export-software-vulnerabilities-assessment-via-files) 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 100 K 장치가 넘는 대규모 조직에서는 Via-files를 권장합니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다.
 
    - API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.
 
    - 다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
 
 3. [델타 내보내기 소프트웨어 취약성 평가 **JSON 응답**](#3-delta-export-software-vulnerabilities-assessment-json-response)  DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId 및 EventTimestamp의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다.
-API는 Json 응답으로 조직의 데이터를 끌어 습니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. <br><br> 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 전체 "소프트웨어 취약점 평가(JSON 응답)"와 달리 델타 내보내기 OData API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 JSON 응답 API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산할 수도 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?" <br><br> 소프트웨어 취약성에 대한 델타 내보내기 JSON 응답 API 호출은 대상 날짜 범위에 대한 데이터만 반환하기 때문에 전체 _내보내기로 간주되지 않습니다._
+API는 Json 응답으로 조직의 데이터를 끌어 습니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. <br><br> 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 전체 "소프트웨어 취약점 평가(JSON 응답)"와 달리 델타 내보내기 API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 JSON 응답 API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산할 수도 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?" <br><br> 소프트웨어 취약성에 대한 델타 내보내기 JSON 응답 API 호출은 대상 날짜 범위에 대한 데이터만 반환하기 때문에 전체 _내보내기로 간주되지 않습니다._
 
-_OData_ 또는 파일을 통해 수집되는 데이터는 현재 상태의 현재 스냅숏으로 기록 데이터를 포함하지 않습니다. 기록 데이터를 수집하려면 고객은 데이터를 자체 데이터 저장소에 저장해야 합니다.
+_Json_ 응답 또는 파일을 통해 수집되는 데이터는 현재 상태의 현재 스냅숏으로 기록 데이터가 포함되지 않습니다.  기록 데이터를 수집하려면 고객은 데이터를 자체 데이터 저장소에 저장해야 합니다.
 
 > [!Note]
 >
@@ -377,7 +377,7 @@ GET /api/machines/SoftwareVulnerabilityChangesByMachine
 
 ### <a name="35-properties"></a>3.5 속성
 
-반환되는 각 레코드에는 장치 OData API에 대한 전체 내보내기 소프트웨어 취약점 평가의 모든 데이터와 _**EventTimestamp**_ 및 Status의 두 개의 추가 필드가 _**포함되어 있습니다.**_
+반환된 각 레코드에는 장치 API에 대한 전체 내보내기 소프트웨어 취약성 평가의 모든 데이터와 _**EventTimestamp**_ 및 Status의 두 개의 추가 필드가 _**포함되어 있습니다.**_
 
 >[!NOTE]
 >- 응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있으므로 문서화한 열만 사용하시기 바랍니다.
