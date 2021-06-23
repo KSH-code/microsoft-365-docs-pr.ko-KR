@@ -16,12 +16,12 @@ description: 맬웨어 피싱 시도를 보고 조사합니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eb62961bb26b079c508cbd5bc559a95d172cff86
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: cebe76536c5ed309ca16777e85c5cdf919d0fb5c
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029888"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082999"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -43,7 +43,7 @@ ms.locfileid: "53029888"
 
 ## <a name="view-malware-detected-in-email"></a>전자 메일에서 검색된 맬웨어 보기
 
-전자 메일에서 검색된 맬웨어를 Microsoft 365 탐색기(또는 실시간 검색)의 전자 메일 > 맬웨어 보기를 사용합니다. [](threat-explorer-views.md#email--malware) 맬웨어는 기본 보기이기 때문에 탐색기를 여는 즉시 선택될 수 있습니다.
+전자 메일에서 검색된 맬웨어를 Microsoft 365 탐색기(또는 실시간 검색)의 전자 메일 맬웨어 보기를 사용합니다. [**\>**](threat-explorer-views.md#email--malware) 맬웨어는 기본 보기이기 때문에 탐색기를 여는 즉시 선택될 수 있습니다.
 
 1. in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ), choose Email & **collaboration** \> **Explorer** (or **Real-time detections**; 이 예제에서는 Explorer를 사용합니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "53029888"
 
 ## <a name="view-phishing-url-and-click-verdict-data"></a>피싱 URL 보기 및 판정 데이터 클릭
 
-허용, 차단 및 재지정된 URL 목록을 포함하여 전자 메일의 URL을 통해 피싱 시도를 볼 수 있습니다. 클릭한 URL을 식별하려면 링크 Safe [구성해야](safe-links.md) 합니다. 클릭 시간 보호 [](set-up-safe-links-policies.md) 및 Safe 링크로 클릭 판정 로깅에 대한 링크 정책을 Safe 합니다.
+허용, 차단 및 재지정된 URL 목록을 포함하여 전자 메일의 URL을 통해 피싱 시도를 볼 수 있습니다. 클릭된 URL을 식별하려면 링크 금고 [구성해야](safe-links.md) 합니다. 클릭 시간 보호 [](set-up-safe-links-policies.md) 및 금고 링크를 통해 클릭 판정 로깅에 대한 링크 금고 있는지 금고 합니다.
 
 1. in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ), choose Email & **collaboration** \> **Explorer** (or **Real-time detections**; 이 예제에서는 Explorer를 사용합니다.
 
@@ -84,7 +84,7 @@ ms.locfileid: "53029888"
 
    - **상위 URL은** 필터링한 메시지의 URL과 각 URL에 대한 전자 메일 배달 작업 수입니다. 피싱 전자 메일 보기에서 이 목록에는 일반적으로 합법적인 URL이 포함되어 있습니다. 공격자는 메시지에 좋은 URL과 잘못된 URL을 혼합하여 배달하려고 시도하지만 악의적인 링크가 더 흥미로워 보이게 합니다. URL 표는 총 전자 메일 수를 통해 정렬되지만 보기를 단순화하기 위해 이 열은 숨겨집니다.
 
-   - **위쪽 클릭은** Safe 총 클릭 수별로 정렬된 링크로 래핑된 URL입니다. 보기를 단순화하기 위해 이 열도 표시되지 않습니다. 열당 총 개수는 클릭한 각 URL에 Safe 링크 클릭 결과 수를 나타냅니다. 피싱 전자 메일 보기에서 이러한 URL은 일반적으로 의심스러우거나 악의적인 URL입니다. 그러나 보기에는 위협이 아닌 피싱 메시지에 있는 URL이 포함되어 있을 수 있습니다. Url clicks on unwrapped links don't show up here.
+   - **위쪽 클릭은** 금고 총 클릭 수별로 정렬된 링크로 래핑된 URL의 수입니다. 보기를 단순화하기 위해 이 열도 표시되지 않습니다. 열당 총 개수는 클릭한 각 URL에 금고 링크 클릭 결과 수를 나타냅니다. 피싱 전자 메일 보기에서 이러한 URL은 일반적으로 의심스러우거나 악의적인 URL입니다. 그러나 보기에는 위협이 아닌 피싱 메시지에 있는 URL이 포함되어 있을 수 있습니다. Url clicks on unwrapped links don't show up here.
 
    두 URL 테이블에는 배달 작업 및 위치로 피싱 전자 메일 메시지의 상위 URL이 표시됩니다. 표에는 경고에도 불구하고 차단되거나 방문한 URL 클릭이 표시 있으므로 사용자에게 제공된 잠재적인 잘못된 링크와 사용자가 클릭한 잠재적인 링크를 볼 수 있습니다. 여기에서 추가 분석을 진행할 수 있습니다. 예를 들어 차트 아래에서 조직의 환경에서 차단된 전자 메일 메시지의 상위 URL을 볼 수 있습니다.
 

@@ -19,12 +19,12 @@ ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 보안 기능을 구현하여 보안 환경을 보호하기 위한 Microsoft 사이버 보안 팀의 Microsoft 365 권장 사항입니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 67febc328706121360b2b34e054ae8e208355b89
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 05ea4103abecb10d4eedddf8d5043e339b58804c
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879259"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083155"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위
 
@@ -63,7 +63,7 @@ ms.locfileid: "52879259"
 
 |영역|작업|
 |---|---|
-|보안 관리|<ul><li>보안 점수를 확인하고 현재 점수()를 기록해 <https://securescore.office.com> 넣습니다.</li><li>사용자에 대한 감사 로깅을 Office 365. 감사 [로그 검색을 참조합니다.](../../compliance/search-the-audit-log-in-security-and-compliance.md)</li><li>[보안 Microsoft 365 구성합니다.](tenant-wide-setup-for-increased-security.md)</li><li>Microsoft 365 Defender 포털에서 대시보드 및 보고서를 정기적으로 Cloud App Security.</li></ul>|
+|보안 관리|<ul><li>보안 점수를 확인하고 현재 점수()를 기록해 <https://securescore.office.com> 넣습니다.</li><li>사용자에 대한 감사 로깅을 Office 365. 감사 [로그 검색을 참조합니다.](../../compliance/search-the-audit-log-in-security-and-compliance.md)</li><li>[보안 Microsoft 365 구성합니다.](tenant-wide-setup-for-increased-security.md)</li><li>Microsoft 365 Defender 포털에서 대시보드 및 보고서를 Cloud App Security.</li></ul>|
 |위협 방지|[커넥트 Microsoft 365 Microsoft Cloud App Security](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) 기본 위협 감지 정책을 사용하여 모니터링을 시작할 수 있습니다. 이상 검색을 위한 기준을 작성하는 데 7일이 소요됩니다. <p>  관리자 계정에 대한 보호를 구현합니다.<ul><li>관리자 활동에 전용 관리자 계정을 사용하세요.</li><li>관리자 계정에 대해 MFA(다단계 인증)를 적용합니다.</li><li>관리자 [활동에는 Windows 10 보안이](/windows-hardware/design/device-experiences/oem-highly-secure) 유지되는 디바이스를 사용합니다.</li></ul>|
 |ID 및 액세스 관리|<ul><li>[ID Azure Active Directory 사용.](/azure/active-directory/active-directory-identityprotection-enable)</li><li>페더전된 ID 환경의 경우 계정 보안(암호 길이, 기간, 복잡성 등)을 적용합니다.</li></ul>|
 |정보 보호|예제 정보 보호 권장 사항을 검토합니다. 정보 보호를 위해서는 조직 전체에서 조율해야 합니다. 다음 리소스를 사용해서 시작하세요.<ul><li>[GDPR에 대한 Office 365 정보 보호](/compliance/regulatory/gdpr)</li><li>[3계층](../../solutions/configure-teams-three-tiers-protection.md) Teams(공유, 분류, 데이터 손실 방지 및 Azure Information Protection 포함) 구성</li></ul>|
@@ -78,7 +78,7 @@ ms.locfileid: "52879259"
 
 |영역|작업|
 |---|---|
-|보안 관리|<ul><li>보안 점수를 확인하여 환경에 권장되는 작업()을 확인할 수 <https://securescore.office.com> 있습니다.</li><li>Microsoft 365 Defender 포털, Cloud App Security SIEM 도구에서 대시보드 및 보고서를 정기적으로 검토합니다.</li><li>소프트웨어 업데이트를 찾아 구현합니다.</li><li>공격 시뮬레이터(위협 인텔리전스에 포함)를 사용하여 스피어 [피싱,](office-365-ti.md)암호 분사 및 무차별 암호 대시(brute-force) 공격에 대한 공격 시뮬레이션을 Office 365 합니다. [](attack-simulator.md)</li><li>조사 탭의 Cloud App Security 기본 제공 보고서를 검토하여 공유 위험을 찾아야 합니다.</li><li>준수 [관리자를](../../compliance/compliance-manager.md) 확인하여 조직에 적용되는 규정의 상태(예: GDPR, NIST 800-171)를 검토합니다.</li></ul>|
+|보안 관리|<ul><li>보안 점수를 확인하여 환경에 권장되는 작업()을 확인할 수 <https://securescore.office.com> 있습니다.</li><li>Microsoft 365 Defender 포털, Cloud App Security SIEM 도구에서 대시보드 및 보고서를 정기적으로 검토합니다.</li><li>소프트웨어 업데이트를 찾아 구현합니다.</li><li>공격 시뮬레이션 교육(위협 인텔리전스에 포함)을 사용하여 스피어 [피싱,](office-365-ti.md)암호 분사 및 무차별 암호 대시(brute-force) 공격에 대한 공격 시뮬레이션을 Office 365 합니다. [](attack-simulation-training.md)</li><li>조사 탭의 Cloud App Security 기본 제공 보고서를 검토하여 공유 위험을 찾아야 합니다.</li><li>준수 [관리자를](../../compliance/compliance-manager.md) 확인하여 조직에 적용되는 규정의 상태(예: GDPR, NIST 800-171)를 검토합니다.</li></ul>|
 |위협 방지|관리자 계정에 대한 향상된 보호를 구현합니다. <ul><li>관리자 활동에 대해 PAW(Privileged [Access Workstation)를](/security/compass/privileged-access-devices) 구성합니다.</li><li>[Azure AD Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure)구성합니다.</li><li>AD FS를 비롯한 Office 365, Cloud App Security 서비스에서 로깅 데이터를 수집하도록 SIEM(보안 정보 및 이벤트 관리) 도구를 구성합니다. 감사 로그는 90일 동안만 데이터를 저장합니다. SIEM 도구에서 이 데이터를 캡처하면 데이터를 더 오랫동안 저장할 수 있습니다.</li></ul>|
 |ID 및 액세스 관리|<ul><li>모든 사용자에 대해 MFA를 사용하도록 설정하고 적용합니다.</li><li>조건부 액세스 [및 관련 정책 집합을 구현합니다.](microsoft-365-policies-configurations.md)</li></ul>|
 |정보 보호| 정보 보호 정책을 조정하고 구현합니다. 이러한 리소스에는 예제가 포함됩니다. <ul><li>[GDPR에 대한 Office 365 정보 보호](/compliance/regulatory/gdpr)</li><li>[3 계층 보안으로 Teams 구성](../../solutions/configure-teams-three-tiers-protection.md)</li></ul> <p> 데이터 손실 방지 정책 및 모니터링 도구는 Microsoft 365 대신 Microsoft 365 데이터를 Cloud App Security. <p> 데이터 Cloud App Security 외의 Microsoft 365 기능을 사용할 수 있습니다.|

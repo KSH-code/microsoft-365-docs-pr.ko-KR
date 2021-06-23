@@ -14,15 +14,15 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: Outlook 및 웹용 Outlook, 개별 사용자 또는 전체 조직에 대해 보고서 메시지 또는 피싱 보고 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
+description: 개별 사용자 또는 전체 조직에 대해 보고서 메시지 또는 Outlook 및 웹용 Outlook 피싱 보고 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8949322b0b691d59e59e5f7b80d2b9650e4115d5
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: d5e336dcab9e3787d8c5245cdbe32855c59021f7
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029912"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082771"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>보고서 메시지 또는 피싱 보고 추가 기능 사용
 
@@ -34,9 +34,9 @@ ms.locfileid: "53029912"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> Exchange Online 사서함이 있는 Microsoft 365 조직의 관리자인 경우 Microsoft 365 Defender 포털에서 제출 포털을 사용하는 것이 좋습니다. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
+> 사서함이 있는 Microsoft 365 조직의 관리자는 Exchange Online 포털의 제출 페이지를 사용하는 Microsoft 365 Defender 좋습니다.  자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
 
-Outlook 및 웹용 Outlook(이전의 Outlook Web App)에 대한 피싱 보고 추가 기능을 사용하면 사용자가 분석을 위해 Microsoft 및 계열사에 가음성(나쁜 것으로 표시된 양호한 전자 메일) 또는 거짓 부정(잘못된 전자 메일 허용)을 쉽게 보고할 수 있습니다.
+Outlook 및 웹용 Outlook(이전의 Outlook Web App)에 대한 피싱 보고 추가 기능을 사용하면 사용자가 분석을 위해 Microsoft 및 계열사에 가음성(나쁜 것으로 표시된 좋은 전자 메일) 또는 거짓 부정(잘못된 전자 메일 허용)을 쉽게 보고할 수 있습니다.
 
 Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효율성을 향상합니다. 예를 들어 피싱 보고 추가 기능을 사용하여 많은 메시지를 보고하는 사람이 많은 경우를 가정해 보겠습니다. 이 정보는 보안 대시보드 및 기타 보고서에 표시됩니다. 조직의 보안 팀은 이 정보를 피싱 방지 정책을 업데이트해야 할 수 있습니다.
 
@@ -48,29 +48,29 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 개별 사용자인 경우 추가 기능을 모두 사용하도록 설정할 수 있습니다.
 
-전역 관리자 또는 Exchange Online 관리자인 경우 Exchange가 OAuth 인증을 사용하도록 구성된 경우 조직에 대해 보고서 메시지 추가 기능 및 피싱 보고 추가 기능을 사용하도록 설정할 수 있습니다. 이제 중앙 집중식 배포를 통해 두 추가 [기능을 모두 사용할 수 있습니다.](../../admin/manage/centralized-deployment-of-add-ins.md)
+전역 관리자 또는 Exchange Online 관리자로서 Exchange OAuth 인증을 사용하도록 구성된 경우 조직에 대해 보고서 메시지 추가 기능 및 피싱 보고 추가 기능을 사용하도록 설정할 수 있습니다. 이제 중앙 집중식 배포를 통해 두 추가 [기능을 모두 사용할 수 있습니다.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
-- 보고서 메시지 추가 기능 및 피싱 보고 추가 기능 모두 대부분의 Microsoft 365 구독 및 다음 제품과 함께 작동합니다.
+- 보고서 메시지 추가 기능 및 피싱 보고 추가 기능 모두 대부분의 Microsoft 365 및 다음 제품과 함께 작동합니다.
   - 웹용 Outlook
   - Outlook 2013 SP1 이상
   - Mac용 Outlook 2016
-  - 엔터프라이즈용 Microsoft 365 앱에 포함된 Outlook
-  - iOS 및 Android용 Outlook 앱
+  - Outlook 앱용 Microsoft 365 포함된 Enterprise
+  - Outlook iOS 및 Android용 앱
 
-- 두 추가 기능을 모두 공유 사서함 또는 사내 Exchange 조직의 사서함에 사용할 수 없습니다.
+- 두 추가 기능을 모두 공유 사서함 또는 조직에 있는 사서함에 사용할 Exchange 없습니다.
 
 - 기존 웹 브라우저는 보고서 메시지와 피싱 보고 추가 기능 둘 다에서 작동해야 합니다. 그러나 추가 기능을 사용할 수 없는 경우 또는 예상대로 작동하지 않는 경우 다른 브라우저를 사용해 보십시오.
 
 - 조직 설치의 경우 OAuth 인증을 사용하도록 조직을 구성해야 합니다. 자세한 내용은 추가 기능의 중앙 집중식 배포가 조직에 [적합한지 확인을 참조하세요.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
-- 관리자는 전역 관리자 역할 그룹의 구성원이 해야 합니다. 자세한 내용은 [Microsoft 365 Defender 포털의 사용 권한을 참조하세요.](permissions-microsoft-365-security-center.md)
+- 관리자는 전역 관리자 역할 그룹의 구성원이 해야 합니다. 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
-- 보고서 메시지 기능을 사용하여 메시지를 보고하는 방법에 대한 자세한 내용은 Outlook에서 가짓 긍정 및 거짓 부정 [보고를 참조하세요.](report-false-positives-and-false-negatives.md)
+- 보고서 메시지 기능을 사용하여 메시지를 보고하는 방법에 대한 자세한 내용은 report [false positives and false negatives in Outlook.](report-false-positives-and-false-negatives.md)
 
 > [!IMPORTANT]
-> 사용자 제출 정책을 사용할 수 없는 Outlook의 기본 제공 보고 환경은 [사용하지 않는 것이 좋습니다.](./user-submission.md) 대신 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하는 것이 좋습니다.
+> 사용자 제출 정책을 사용할 수 Outlook 기본 제공 보고 환경은 사용하지 [않는 것이 좋습니다.](./user-submission.md) 대신 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하는 것이 좋습니다.
 
 ## <a name="get-the-report-message-add-in"></a>보고서 메시지 추가 기능 확인
 
@@ -88,12 +88,12 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 추가 기능을 설치하고 사용하도록 설정하면 다음과 같은 아이콘이 표시됩니다.
 
-- Outlook에서 아이콘은 다음과 같습니다.
+- 이 Outlook 아이콘은 다음과 같습니다.
 
   > [!div class="mx-imgBorder"]
-  > ![Outlook용 보고서 메시지 추가 기능 아이콘](../../media/OutlookReportMessageIcon.png)
+  > ![보고서 메시지 추가 기능 아이콘을 Outlook](../../media/OutlookReportMessageIcon.png)
 
-- 웹에서 Outlook에서 아이콘은 다음과 같습니다.
+- 이 웹용 Outlook 아이콘은 다음과 같습니다.
 
   > [!div class="mx-imgBorder"]
   > ![웹용 Outlook 보고서 메시지 추가 기능 아이콘](../../media/owa-report-message-icon.png)
@@ -103,11 +103,11 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 > [!NOTE]
 > 추가 기능을 조직에 표시하는 데 최대 12시간이 걸릴 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 의 설정 추가  \> **기능 페이지로** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다. 추가 기능 페이지가  없는 경우 통합 앱  페이지 맨 위에 있는 설정 통합 앱 추가 기능 \>  \>  **링크로 이동합니다.**
+1. In the Microsoft 365 관리 센터, go to the **설정** \> **Add-ins** page <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> at. 추가 기능 페이지가  없는 경우 통합 앱 **페이지 설정** 통합 앱 추가 기능 링크로 \>  \>  이동합니다. 
 
 2. 페이지 **맨** 위에 있는 추가 기능 배포를 선택하고 다음 을 **선택합니다.**
 
-   ![Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![서비스 및 추가 기능 페이지의 Microsoft 365 관리 센터](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 3. 새 **추가 기능** 배포 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**
 
@@ -147,15 +147,15 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>보고서 메시지 추가 기능의 설정 검토 또는 편집
 
-1. Microsoft 365 관리 센터에서 의 설정  추가 기능 페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다. 추가 기능 페이지가  없는 경우 통합 앱  페이지 맨 위에 있는 설정 통합 앱 추가 기능 \>  \>  **링크로 이동합니다.**
+1. In the Microsoft 365 관리 센터, go to the go to the **설정** \> **Add-ins** page <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> at. 추가 기능 페이지가  없는 경우 통합 앱 **페이지 설정** 통합 앱 추가 기능 링크로 \>  \>  이동합니다. 
 
-   ![새 Add-Ins Microsoft 365 관리 센터의 서비스 및 서비스 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![새 Add-Ins 센터의 서비스 및 Microsoft 365 관리 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 2. 보고서 메시지 **추가** 기능을 찾아 선택합니다.
 
 3. 보고서 **메시지 편집** 플라이아웃이 나타나면 조직에 적합한 설정을 검토하고 편집합니다. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
-   ![보고서 메시지 추가 기능 설정](../../media/EditReportMessageAddIn.png)
+   ![설정 메시지 추가 기능의 추가 기능 확인](../../media/EditReportMessageAddIn.png)
 
 ## <a name="get-the-report-phishing-add-in"></a>피싱 보고서 추가 기능 얻기
 
@@ -171,25 +171,25 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 추가 기능을 설치하고 사용하도록 설정하면 다음과 같은 아이콘이 표시됩니다.
 
-- Outlook에서 아이콘은 다음과 같습니다.
+- 이 Outlook 아이콘은 다음과 같습니다.
 
-  ![Outlook용 피싱 추가 기능 아이콘 보고](../../media/Outlook-ReportPhishing.png)
+  ![보고서 피싱 추가 기능 아이콘에 대한 Outlook](../../media/Outlook-ReportPhishing.png)
 
-- 웹에서 Outlook에서 아이콘은 다음과 같습니다.
+- 이 웹용 Outlook 아이콘은 다음과 같습니다.
 
   > [!div class="mx-imgBorder"]
-  > ![웹용 Outlook 보고서 피싱 추가 기능 아이콘](../../media/OWA-ReportPhishing.png)
+  > ![웹용 Outlook 피싱 추가 기능 아이콘 보고](../../media/OWA-ReportPhishing.png)
 
 ### <a name="get-the-report-phishing-add-in-for-your-organization"></a>조직의 피싱 보고 추가 기능 확인
 
 > [!NOTE]
 > 추가 기능을 조직에 표시하는 데 최대 12시간이 걸릴 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 의 설정  추가 기능 페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다. 추가 기능 페이지가  없는 경우 통합 앱  페이지 맨 위에 있는 설정 통합 앱 추가 기능 \>  \>  **링크로 이동합니다.**
+1. In the Microsoft 365 관리 센터, go to the go to the **설정** \> **Add-ins** page <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> at. 추가 기능 페이지가  없는 경우 통합 앱 **페이지 설정** 통합 앱 추가 기능 링크로 \>  \>  이동합니다. 
 
 2. 페이지 **맨** 위에 있는 추가 기능 배포를 선택하고 다음 을 **선택합니다.**
 
-   ![Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![서비스 및 추가 기능 페이지의 Microsoft 365 관리 센터](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 3. 새 **추가 기능** 배포 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**
 
@@ -221,7 +221,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 ## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>피싱 보고 추가 기능 설정 검토 또는 편집
 
-1. Microsoft 365 관리 센터에서 의 설정  추가 기능 페이지로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 이동합니다. 추가 기능 페이지가  없는 경우 통합 앱  페이지 맨 위에 있는 설정 통합 앱 추가 기능 \>  \>  **링크로 이동합니다.**
+1. In the Microsoft 365 관리 센터, go to the go to the **설정** \> **Add-ins** page <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> at. 추가 기능 페이지가  없는 경우 통합 앱 **페이지 설정** 통합 앱 추가 기능 링크로 \>  \>  이동합니다. 
 
 2. 피싱 **보고 추가** 기능을 찾아 선택합니다.
 

@@ -20,12 +20,12 @@ description: 관리자는 검색 포털에서 사용할 수 있는 Office 365 De
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5b9279614571c123ad92f1684f86175b410c6c5c
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: f7eab856f22ac1c2282e83897db6e3f93d4d97e6
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022844"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083515"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>검색 포털에서 Office 365 대한 Microsoft 365 Defender 보기
 
@@ -45,15 +45,15 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 >
 > 메일 흐름과 관련된 보고서는 이제 EAC(Exchange 관리 센터)에 있습니다. 이러한 보고서에 대한 자세한 내용은 새 Exchange 관리 센터의 [메일 흐름 보고서를 참조하세요.](/exchange/monitoring/mail-flow-reports/mail-flow-reports)
 
-## <a name="safe-attachments-file-types-report"></a>Safe 첨부 파일 형식 보고서
+## <a name="safe-attachments-file-types-report"></a>금고 첨부 파일 형식 보고서
 
 > [!NOTE]
-> 첨부 **Safe 파일 형식 보고서는** 결국 사용되지 않습니다. 위협 방지 상태 보고서에서 동일한 [정보를 사용할 수 있습니다.](#threat-protection-status-report)
+> 첨부 **금고 파일 형식 보고서가** 삭제됩니다. 위협 방지 상태 보고서에서 동일한 [정보를 사용할 수 있습니다.](#threat-protection-status-report)
 
-## <a name="safe-attachments-message-disposition-report"></a>Safe 첨부 파일 메시지 처리 보고서
+## <a name="safe-attachments-message-disposition-report"></a>금고 첨부 파일 메시지 처리 보고서
 
 > [!NOTE]
-> Safe 메시지 처리 **보고서는** 결국 삭제됩니다. 위협 방지 상태 보고서에서 동일한 [정보를 사용할 수 있습니다.](#threat-protection-status-report)
+> 첨부 **금고 메시지 처리 보고서는** 결국 삭제됩니다. 위협 방지 상태 보고서에서 동일한 [정보를 사용할 수 있습니다.](#threat-protection-status-report)
 
 ## <a name="mail-latency-report"></a>메일 대기 시간 보고서
 
@@ -103,7 +103,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ## <a name="url-threat-protection-report"></a>URL 위협 방지 보고서
 
-**URL 위협 방지 보고서는** 검색된 위협에 대한 요약 및 추세 보기와 URL 클릭에 대해 링크의 [일부로 Safe 제공합니다.](safe-links.md) 이 보고서에는 사용자 클릭 추적 안 하도록 옵션을 선택한 Safe 링크 정책이 적용된 사용자의 클릭 데이터가 **없습니다.**
+**URL 위협 방지 보고서는** 검색된 위협에 대한 요약 및 추세 보기와 URL 클릭에 대해 링크의 [일부로 금고 제공합니다.](safe-links.md) 이 보고서에는 사용자 클릭 추적 안 하도록 옵션을 선택한 금고 링크 정책이 적용된 사용자의 클릭 데이터가 **없습니다.**
 
 보고서를 보시고 Microsoft 365 Defender [포털을](https://security.microsoft.com)열고 보고서  전자 메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동 작업 보고서** 페이지에서 URL 보호 페이지를 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/URLProtectionActionReport> 습니다.
 
@@ -125,7 +125,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 - **차단 및 클릭:** 사용자가 URL로 계속 이동하도록 선택
 - **검사 중 클릭:** 검사가 완료되기 전에 사용자가 링크를 클릭한 경우
 
-클릭은 사용자가 악의적인 웹 사이트로 차단 페이지를 클릭했다는 것을 나타냅니다(관리자는 링크 정책에서 클릭을 Safe 수 있습니다).
+클릭은 사용자가 악성 웹 사이트로 차단 페이지를 클릭했다는 것을 나타냅니다(관리자는 링크 정책에서 클릭을 금고 수 있습니다).
 
 필터를 **클릭하면** 나타나는 플라이아웃에서 다음 값 중 하나 이상을 선택하여 보고서 및 세부 정보 테이블을 수정할 수 있습니다.
 
@@ -152,7 +152,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ![URL 위협 방지 보고서의 응용 프로그램 보기로 URL 클릭](../../media/url-threat-protection-report-url-click-by-application-view.png)
 
-응용 **프로그램 보기에서 URL로 데이터** 보기를 클릭하면 링크가 지원되는 앱의 URL 클릭 Safe 표시됩니다.
+응용 **프로그램 보기에서 URL로 데이터** 보기를 클릭하면 링크가 지원되는 앱의 URL 클릭 금고 표시됩니다.
 
 - **전자 메일 클라이언트**
 - **PowerPoint**
@@ -193,7 +193,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 |**탐색기(Office 365** 계획 2용 Microsoft Defender) 또는 실시간 검색(Office 365 계획 1용 Microsoft Defender) |[위협 탐색기 (실시간 검출)](threat-explorer.md)|
 |**전자 메일 보안 보고서(** 예: 상위 보낸 사람 및 받는 사람 보고서, 스푸핑 메일 보고서 및 스팸 검색 보고서)|[전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기](view-email-security-reports.md)|
 |**메일 흐름 보고서(** 예: 전달 보고서, 메일 흐름 상황 보고서 및 최상위 보낸 사람 및 받는 사람 보고서)|[새 관리 센터의 메일 흐름 Exchange 보고서](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
-|**링크에 대한 URL** Safe(PowerShell만 해당). 이 cmdlet의 출력은 지난 7일 동안의 Safe 링크 작업의 결과를 보여줍니다.|[Get-UrlTrace](/powershell/module/exchange/get-urltrace)|
+|**링크에 금고 URL** 추적(PowerShell에만 해당). 이 cmdlet의 출력은 지난 7일 동안의 금고 링크 작업의 결과를 보여줍니다.|[Get-UrlTrace](/powershell/module/exchange/get-urltrace)|
 |**EOP 및 Microsoft Defender for Office 365** 메일 트래픽 결과(PowerShell에만 해당) 이 cmdlet의 출력에는 Domain, Date, Event Type, Direction, Action 및 Message Count에 대한 정보가 포함되어 있습니다.|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport)|
 |**전자 메일 검색에 대한 EOP 및 Defender에 대한 Office 365 보고서입니다(PowerShell에만** 해당). 이 cmdlet의 출력에는 악성 파일 또는 URL, 피싱 시도, 가장 및 전자 메일 또는 파일의 기타 잠재적 위협에 대한 세부 정보가 포함되어 있습니다.|[Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
 |
@@ -207,13 +207,13 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 - **보안 읽기**
 - **전역 읽기**
 
-자세한 내용은 Microsoft 365 Defender [포털의 사용 권한을 참조하세요.](permissions-in-the-security-and-compliance-center.md)
+자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
 **참고:** Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 관리 센터 포털에서 필요한 사용 권한과 Microsoft 365 Defender 포털의 다른  기능에 대한 사용 권한이 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>보고서에 데이터가 표시되지 않는 경우 어떻게 하나요?
 
-보고서에 대한 Defender에 Office 365 없는 경우 정책이 올바르게 설정되어 있는지 다시 한 번 확인합니다. 조직에서 보호 기능을 [Safe](set-up-safe-links-policies.md) 수 [](set-up-safe-attachments-policies.md) 있도록 Safe 링크 정책 및 Office 365 정책이 정의되어 있어야 합니다. 또한 스팸 [방지 및 맬웨어 방지 보호를 참조합니다.](anti-spam-and-anti-malware-protection.md)
+보고서에 대한 Defender에 Office 365 없는 경우 정책이 올바르게 설정되어 있는지 다시 한 번 확인합니다. 조직에서 보호 기능을 [금고](set-up-safe-links-policies.md) 수 [](set-up-safe-attachments-policies.md) 있도록 금고 링크 정책 및 금고 첨부 파일 정책이 Office 365 있어야 합니다. 또한 스팸 [방지 및 맬웨어 방지 보호를 참조합니다.](anti-spam-and-anti-malware-protection.md)
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: daa85b406b0fcb56dee55d9f49d39e247d0b6264
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 48a51b8ec880726bdd2121f2eaf0d78f5cd6b3e0
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583703"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083467"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>여러 사용자에 대해 위협 방지 Microsoft 365
 
@@ -31,8 +31,7 @@ ms.locfileid: "52583703"
 
 [MFA(다단계](/azure/active-directory/authentication/concept-mfa-howitworks) 인증)를 사용하려면 사용자가 전화 통화 또는 인증자 앱을 사용하여 ID를 확인해야 합니다. [조건부 액세스 정책은](/azure/active-directory/conditional-access/overview) 사용자가 해당 정책의 앱 및 데이터에 액세스하기 위해 충족해야 하는 특정 요구 사항을 Microsoft 365. MFA 및 조건부 액세스 정책은 함께 작동하여 조직을 보호합니다. 예를 들어 누군가 MFA를 사용할 수 없는 계정을 사용하여 모바일 장치에서 로그인을 시도하고 조건부 액세스 정책에 MFA가 적용되어야 하는 경우 해당 사용자는 로그인할 수 없습니다.  
 
-Microsoft는 모든 SaaS 응용 프로그램, 특히 모든 SaaS 응용 프로그램에 대한 액세스를 보호하기 위한 특정 조건부 액세스 및 관련 정책 집합을 테스트하고 Microsoft 365. 정책은 기준, 중요 및 높은 규제 보호에 권장됩니다. 먼저 기준 보호에 대한 정책을 구현합니다. 
-
+Microsoft는 모든 SaaS 응용 프로그램, 특히 모든 SaaS 응용 프로그램에 대한 액세스를 보호하기 위한 특정 조건부 액세스 및 관련 정책 집합을 테스트하고 Microsoft 365. 정책은 기준, 중요 및 높은 규제 보호에 권장됩니다. 먼저 기준 보호에 대한 정책을 구현합니다.
 
 [ ![ ID 및 장치 액세스 구성에](../media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)대한 일반적인 정책 이 이미지의 더 
  [큰 버전을 참조하세요.](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)
@@ -55,6 +54,7 @@ Microsoft는 모든 SaaS 응용 프로그램, 특히 모든 SaaS 응용 프로�
 [Id에 대한 Microsoft Defender는](/defender-for-identity/what-is) 조직에 지시된 고급 위협, ID 손상 및 악의적인 내부자 작업을 식별, 감지 및 조사하기 위해 AD DS(Active Directory 도메인 서비스) 신호와 함께 작동하는 클라우드 기반 보안 솔루션입니다.
 
 Microsoft Defender for Identity를 사용하면 하이브리드 환경에서 고급 공격을 감지하는 데 어려움을 겪는 보안 운영(SecOps) 분석가 및 보안 전문가가 사용할 수 있습니다.
+
 - 학습 기반 분석을 사용하여 사용자, 엔터티 동작 및 활동을 모니터링합니다.
 - Active Directory에 저장된 사용자 ID와 자격 증명을 보호합니다.
 - 킬체인에서 수상한 사용자 활동과 고급 공격을 식별하고 조사합니다.
@@ -74,32 +74,36 @@ Microsoft Defender for Identity를 사용하면 하이브리드 환경에서 고
 - [비디오: ID용 Microsoft Defender 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
 - [Microsoft Defender for Identity 배포](/azure-advanced-threat-protection/what-is-atp#whats-next)
 
-## <a name="step-3-turn-on-microsoft-365-defender"></a>3단계: Defender Microsoft 365 켜기
+## <a name="step-3-turn-on-microsoft-365-defender"></a>3단계: 설정 Microsoft 365 Defender
 
-[Microsoft 365 Defender는](../security/defender/microsoft-365-defender.md) 신호를 결합하고 기능을 단일 솔루션으로 오케스트레이션합니다. 통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 이러한 각 제품이 수신하는 위협 신호를 통합하고 위협의 전체 범위와 영향을 확인할 수 있습니다. 환경이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향 Microsoft 365 Defender는 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 고치기 위한 자동 조치를 취합니다.
+[Microsoft 365 Defender](../security/defender/microsoft-365-defender.md) 신호를 결합하고 기능을 단일 솔루션으로 오케스트레이션합니다. 통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 이러한 각 제품이 수신하는 위협 신호를 통합하고 위협의 전체 범위와 영향을 확인할 수 있습니다. 환경이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향 Microsoft 365 Defender 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자동으로 조치를 취합니다.
 
-Microsoft 365 Defender는 경고, 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 유리 환경 창으로 통합합니다. 새로운 기능은 Defender에 Microsoft 365 추가됩니다. 미리 보기 기능을 받기 위해 옵트인(opt in)을 고려합니다.
+Microsoft 365 Defender 경고, 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 유리 환경 창으로 통합합니다. 새로운 기능은 지속적으로 추가됩니다Microsoft 365 Defender. 미리 보기 기능을 받기 위해 옵트인(opt in)을 고려합니다.
 
-### <a name="to-set-up-microsoft-365-defender"></a>Defender를 Microsoft 365 설정
+### <a name="to-set-up-microsoft-365-defender"></a>다음을 설정 Microsoft 365 Defender
 
-![Defender 배포 Microsoft 365 프로세스](../media/deploy-threat-protection/deploy-mtp-steps.png) 
+![배포 프로세스 Microsoft 365 Defender](../media/deploy-threat-protection/deploy-mtp-steps.png) 
 
 1. [선행 준비를 검토합니다.](../security/defender/prerequisites.md)
-2. [Defender Microsoft 365 를 켜야합니다.](../security/defender/m365d-enable.md)
+2. [를 Microsoft 365 Defender.](../security/defender/m365d-enable.md)
 3. [미리 보기 기능을 옵트인(opt in)합니다.](../security/defender/preview.md)
 
-### <a name="more-information-about-microsoft-365-defender"></a>Defender에 대한 Microsoft 365 정보
+### <a name="more-information-about-microsoft-365-defender"></a>자세한 내용은 Microsoft 365 Defender
 
-- [Microsoft 365 Defender란?](../security/defender/microsoft-365-defender.md)
+- [Microsoft 365 Defender란 무엇인가요?](../security/defender/microsoft-365-defender.md)
 - [Microsoft 365 Defender의 새로운 기능](../security/defender/whats-new.md)
 
 ## <a name="step-4-configure-microsoft-defender-for-office-365"></a>4단계: 사용자에 대해 Microsoft Defender Office 365
 
 [Microsoft Defender for Office 365](../security/office-365-security/defender-for-office-365.md) 전자 메일 메시지(첨부 파일 및 URL), 문서 및 공동 작업 도구에서 악의적인 위협을 Office 보호합니다. 다음 표에는 Microsoft Defender for Office 365 포함된 Microsoft 365 E5.
 
+<br>
+
+****
+
 |구성, 보호 및 검색 기능|자동화, 조사, 수정 및 교육 기능|
-|:---|:---|
-|[안전한 첨부 파일](../security/office-365-security/safe-attachments.md)<br/>[안전한 링크](../security/office-365-security/safe-links.md)<br/>[안전한 문서](../security/office-365-security/safe-docs.md)<br/>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](../security/office-365-security/mdo-for-spo-odb-and-teams.md)<br/> [2016년 8월의 피싱 방지 Microsoft 365](../security/office-365-security/anti-phishing-protection.md)|[위협 트래커](../security/office-365-security/threat-trackers.md)<br/>[위협 탐색기](../security/office-365-security/threat-explorer.md)<br/>[자동화된 조사 및 응답](../security/office-365-security/office-365-air.md)<br/>[공격 시뮬레이터](../security/office-365-security/attack-simulator.md)|
+|---|---|
+|[안전한 첨부 파일](../security/office-365-security/safe-attachments.md) <p> [안전한 링크](../security/office-365-security/safe-links.md) <p> [안전한 문서](../security/office-365-security/safe-docs.md) <p> [SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](../security/office-365-security/mdo-for-spo-odb-and-teams.md) <p> [2016년 8월의 피싱 방지 Microsoft 365](../security/office-365-security/anti-phishing-protection.md)|[위협 트래커](../security/office-365-security/threat-trackers.md) <p> [위협 탐색기](../security/office-365-security/threat-explorer.md) <p> [자동화된 조사 및 응답](../security/office-365-security/office-365-air.md) <p> [공격 시뮬레이션 교육](../security/office-365-security/attack-simulation-training.md)|
 |
 
 Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일 콘텐츠 및 문서의 위협 방지를 통해 보다 안전하게 통신하고 Office 수 있습니다.
@@ -119,8 +123,7 @@ Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일
 
 ## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>5단계: 끝점용 Microsoft Defender 구성
 
-[끝점용 Microsoft Defender는](/windows/security/threat-protection) 사이버 위협, 고급 공격 및 데이터 위반으로부터 조직 장치(끝점이라고도 지칭)를 보호합니다. 보안 팀은 끝점의 보안을 보다 효율적으로 관리할 수 있습니다. 강력한 도구는 조직이 위협 및 취약성 관리에서 취약점 감지를 사용하여 패치가 없는 시스템을 [유지하는 데 도움이 됩니다.](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) 공격 표면 감소, 차세대 보호, [](/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)끝점 감지 및 대응, [](/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)자동화된 조사 및 [](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 수정과 같은 자동화된 감지 및 수정 기능은 장치를 맬웨어로부터 안전하게 유지하는 데 도움이 됩니다. [](/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) 이러한 기능을 통해 고객은 옵트인 관리 헌팅 서비스의 일부로 사전 알림을 받고 Microsoft 위협 전문가 수 있습니다. 
-
+[끝점용 Microsoft Defender는](/windows/security/threat-protection) 사이버 위협, 고급 공격 및 데이터 위반으로부터 조직 장치(끝점이라고도 지칭)를 보호합니다. 보안 팀은 끝점의 보안을 보다 효율적으로 관리할 수 있습니다. 강력한 도구는 조직이 위협 및 취약성 관리에서 취약점 감지를 사용하여 패치가 없는 시스템을 [유지하는 데 도움이 됩니다.](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) 공격 표면 감소, 차세대 보호, [](/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)끝점 감지 및 대응, [](/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)자동화된 조사 및 [](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 수정과 같은 자동화된 감지 및 수정 기능은 장치를 맬웨어로부터 안전하게 유지하는 데 도움이 됩니다. [](/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) 이러한 기능을 통해 고객은 옵트인 관리 헌팅 서비스의 일부로 사전 알림을 받고 Microsoft 위협 전문가 수 있습니다.
 
 ### <a name="set-up-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender 설정
 
@@ -156,11 +159,12 @@ Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일
 
 ## <a name="step-7-monitor-status-and-take-actions"></a>7단계: 상태 모니터링 및 작업 수행
 
-위협 방지 서비스 및 기능을 설정하고 배포한 후 다음 단계는 위협 감지를 모니터링하고 적절한 조치를 취하는 것입니다. 가장 좋은 시작 지점은 Microsoft 365 보안 센터( )입니다. 여기서 Microsoft ID, 데이터, 장치, 앱 및 인프라에서 보안을 모니터링하고 관리할 [https://security.microsoft.com](https://security.microsoft.com) 수 있습니다. 
+위협 방지 서비스 및 기능을 설정하고 배포한 후 다음 단계는 위협 감지를 모니터링하고 적절한 조치를 취하는 것입니다. 가장 좋은 시작 지점은 Microsoft 365 보안 센터( )입니다. 여기서 Microsoft ID, 데이터, 장치, 앱 및 인프라에서 보안을 모니터링하고 관리할 [https://security.microsoft.com](https://security.microsoft.com) 수 있습니다.
 
 ![Microsoft 365 보안 센터](../media/solutions-architecture-center/m365-security-center.png)
 
 보안 Microsoft 365 보안 센터는 보안 관리자 및 보안 운영 팀을 위한 것입니다. 보안 Microsoft 365 센터에서 다음을 할 수 있습니다.
+
 - 보안 점수를 통해 조직의 전반적인 보안 [상태 보기](/microsoft-365/security/defender/microsoft-secure-score)
 - [ID,](../security/defender-endpoint/threat-protection-reports.md) 데이터, 장치, 앱 및 인프라의 상태에 대한 보고서를 모니터링하고 볼 수 있습니다.
 - 커넥트 를 통해 경고에 대한 점을 [표시합니다.](/microsoft-365/security/defender/incident-queue)
@@ -183,17 +187,24 @@ Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일
 
 Microsoft 365 조직의 사용자에게 알리는 데 도움이 되는 다음 리소스를 제공합니다.
 
-|개념  |리소스  |
-|---------|---------|
-|Microsoft 365     |[사용자 지정 가능한 학습 경로](/office365/customlearning/) <p>이러한 리소스는 조직의 최종 사용자를 위한 교육을 구성하는 데 도움이 될 수 있습니다.        |
-|Microsoft 365 보안 |[학습 모듈: 기본 제공 지능형 보안으로 조직을 Microsoft 365](/learn/modules/security-with-microsoft-365) <p>이 모듈에서는 보안 기능이 함께 Microsoft 365 방법을 설명하고 이러한 보안 기능의 이점을 설명할 수 있습니다. |
-|다단계 인증     | [2단계 인증: 추가 확인 페이지란?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서는 최종 사용자가 다단계 인증이 무엇일지와 조직에서 사용되는 이유를 이해하는 데 도움이 됩니다.    |
+<br>
+
+****
+
+|개념|리소스|
+|---|---|
+|Microsoft 365|[사용자 지정 가능한 학습 경로](/office365/customlearning/) <p> 이러한 리소스는 조직의 최종 사용자를 위한 교육을 구성하는 데 도움이 될 수 있습니다.|
+|Microsoft 365 보안|[Learning 모듈: 기본 제공 지능형 보안 기능으로 조직을 Microsoft 365](/learn/modules/security-with-microsoft-365) <p> 이 모듈에서는 보안 기능이 함께 Microsoft 365 방법을 설명하고 이러한 보안 기능의 이점을 설명할 수 있습니다.|
+|다단계 인증|[2단계 인증: 추가 확인 페이지란?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p> 이 문서는 최종 사용자가 다단계 인증이 무엇일지와 조직에서 사용되는 이유를 이해하는 데 도움이 됩니다.|
+|
 
 이 지침 외에도 사용자는 이 문서에 설명된 작업을 수행하여 해커와 맬웨어로부터 계정 및 장치를 [보호하는 것이 좋습니다.](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx) 이러한 작업은 다음과 같습니다.
+
 - 강력한 암호 사용
-- 장치 보호 
+- 장치 보호
 - 관리되지 않는 Windows 10 및 Mac PC에서 보안 기능 사용
-    
+
 또한 다음 문서에서 권장하는 작업을 수행하여 사용자가 개인 전자 메일 계정을 보호하는 것이 좋습니다.
+
 - [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 - [2단계 인증을 사용하여 Gmail 계정 보호](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)

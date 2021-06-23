@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 Plan 2용 Microsoft Defender에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 Office 365 있습니다. 태그 필터링은 Microsoft Defender의 경고, 보고서 및 조사에서 사용할 수 있으며, Office 365 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 105e927e50f7b1d1217587587b8d7ee3b7d6bd4c
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 3ac53891e0eb106ab3681251cc4cb8c969b51f8a
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904107"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083119"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -48,34 +48,34 @@ ms.locfileid: "52904107"
 - [캠페인 보기](campaigns.md)
 - 우선 순위 계정의 경우 [](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) EAC(Exchange 관리 센터)의 우선 순위 계정 보고서에 전자 메일 문제를 사용할 수 있습니다.
 
-이 문서에서는 Defender 포털에서 사용자 태그를 Microsoft 365 방법을 설명합니다. 사용자 태그를 관리하기 위한 Microsoft 365 수 있는 cmdlet이 없습니다.
+이 문서에서는 사이트 포털에서 사용자 태그를 구성하는 Microsoft 365 Defender 설명합니다. 사용자 태그를 관리하는 Microsoft 365 Defender cmdlet이 없습니다.
 
 사용자 태그가 영향력이 큰 사용자 계정을 보호하는 데 도움이 되는 전략의 일부인 방법을 자세한 내용은 에서 우선 순위 계정에 [대한 보안 권장 사항을 Microsoft 365.](security-recommendations-for-priority-accounts.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 에서 Microsoft 365 Defender 포털을 열 수 <https://security.microsoft.com/> 있습니다. 사용자 태그 페이지로 직접 **이동하기** 위해 를 를 <https://security.microsoft.com/securitysettings/userTags> 니다.
+- <https://security.microsoft.com/>에서 Microsoft 365 Defender 포털을 엽니다. 사용자 태그 페이지로 직접 **이동하기** 위해 를 를 <https://security.microsoft.com/securitysettings/userTags> 니다.
 
 - 이 문서의 절차를 수행하려면 Microsoft 365 Defender 포털에서 사용 권한을 할당해야 합니다.
   - 사용자 태그를 만들고 수정하고 삭제하려면 **조직** 관리 또는 보안 관리자 역할 그룹의 **구성원이** 되거나 삭제해야 합니다.
   - 기존 사용자 태그에서 구성원을 추가 및 제거하려면 **조직** **관리,** 보안 관리자 또는 보안 운영자 역할 그룹의 **구성원이** 되거나,
   - 사용자 태그에 대한 읽기 전용 액세스의 경우 전역  읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나 해야 합니다.
 
-  자세한 내용은 [Defender 포털의 Microsoft 365 참조하세요.](permissions-in-the-security-and-compliance-center.md)
+  자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
   > [!NOTE]
   >
-  > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 Defender 포털에서 필요한 사용 권한과 Microsoft 365.  자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  > - Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 관리 센터 포털에서 필요한 사용 권한 및 Microsoft 365 Defender 포털의  다른 기능에 대한 사용 권한이 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   >
   > - 사용자 태그 관리는 태그 판독기 및 **태그** 관리자 **역할에 의해** 제어됩니다.
 
-- 또한 중앙 관리 센터에서 우선 순위 계정을 관리하고 Microsoft 365 있습니다. 자세한 내용은 우선 순위 [계정 관리 및 모니터링을 참조하세요.](../../admin/setup/priority-accounts.md)
+- 또한 사용자 계정에서 우선 순위 계정을 관리하고 모니터링할 Microsoft 365 관리 센터. 자세한 내용은 우선 순위 [계정 관리 및 모니터링을 참조하세요.](../../admin/setup/priority-accounts.md)
 
 - 권한 있는 계정(관리자 계정)의 보안에 대한 자세한 내용은 이 [항목을 참조하세요.](/azure/architecture/framework/security/critical-impact-accounts) 
 
 ## <a name="use-the-microsoft-365-defender-portal-to-create-user-tags"></a>Microsoft 365 Defender 포털을 사용하여 사용자 태그 만들기
 
-1. Microsoft 365 Defender 포털에서 설정 전자  메일 & \>  \> **사용자 태그로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 설정 전자 메일  & \>  \> **사용자 태그로 이동하세요.**
 
 2. 사용자 **태그 페이지에서** 태그 만들기 ![ 아이콘 태그 ](../../media/m365-cc-sc-create-icon.png) **만들기를 클릭합니다.**
 
@@ -105,38 +105,38 @@ ms.locfileid: "52904107"
 
    완료되면 제출을 **클릭하고** 완료를 **클릭합니다.**
 
-## <a name="use-the-microsoft-365-defender-portal-to-view-user-tags"></a>Defender Microsoft 365 사용하여 사용자 태그 보기
+## <a name="use-the-microsoft-365-defender-portal-to-view-user-tags"></a>Microsoft 365 Defender 포털을 사용하여 사용자 태그 보기
 
-1. Microsoft 365 Defender 포털에서 설정 전자  메일 & \>  \> **사용자 태그로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 설정 전자 메일  & \>  \> **사용자 태그로 이동하세요.**
 
 2. 사용자 **태그 페이지에는** 사용자 태그 목록에 다음 속성이 표시됩니다.
 
    - **Tag**: 사용자 태그의 이름입니다. 여기에는 기본 제공 우선 순위 계정 **시스템 태그가** 포함됩니다.
    - **적용된 구성원** 수
    - **마지막으로 수정한 날짜**
-   - **에서 생성**
+   - **만든 날짜**
 
 3. 이름을 클릭하여 사용자 태그를 선택하면 세부 정보가 플라이아웃에 표시됩니다.
 
-## <a name="use-the-microsoft-365-defender-portal-to-modify-user-tags"></a>Defender Microsoft 365 사용하여 사용자 태그 수정
+## <a name="use-the-microsoft-365-defender-portal-to-modify-user-tags"></a>Microsoft 365 Defender 포털을 사용하여 사용자 태그 수정
 
-1. Microsoft 365 Defender 포털에서 설정 전자  메일 & \>  \> **사용자 태그로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 설정 전자 메일  & \>  \> **사용자 태그로 이동하세요.**
 
 2. 사용자 **태그 페이지에서** 목록에서 사용자 태그를 선택한 다음 태그 아이콘 편집 태그 ![ ](../../media/m365-cc-sc-edit-icon.png) **편집을 클릭합니다.**
 
-3. 나타나는 세부 정보 플라이아웃에서 이 문서 앞부분의 Microsoft 365 [Defender](#use-the-microsoft-365-defender-portal-to-create-user-tags) 포털을 사용하여 사용자 태그 만들기 섹션에 설명된 대로 동일한 마법사 및 설정을 사용할 수 있습니다.
+3. 나타나는 세부 정보 플라이아웃에서 이 문서 앞부분의 Microsoft 365 Defender [](#use-the-microsoft-365-defender-portal-to-create-user-tags) 포털을 사용하여 사용자 태그 만들기 섹션에 설명된 대로 동일한 마법사 및 설정을 사용할 수 있습니다.
 
    **참고:**
 
    - 태그 **정의 페이지는** 기본 제공 우선  순위 계정 시스템 태그에 사용할 수 없습니다. 따라서 이 태그의 이름을 바꾸거나 설명을 변경할 수 없습니다.
    - 사용자 지정 태그의 이름을 바꿀 수 없지만 설명을 변경할 수 있습니다.
 
-## <a name="use-the-microsoft-365-defender-portal-to-remove-user-tags"></a>Defender Microsoft 365 사용하여 사용자 태그 제거
+## <a name="use-the-microsoft-365-defender-portal-to-remove-user-tags"></a>사용자 Microsoft 365 Defender 포털을 사용하여 사용자 태그 제거
 
 > [!NOTE]
 > 기본 제공 우선 순위 계정 시스템 태그는 **제거할** 수 없습니다.
 
-1. Microsoft 365 Defender 포털에서 설정 전자  메일 & \>  \> **사용자 태그로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 설정 전자 메일  & \>  \> **사용자 태그로 이동하세요.**
 
 2. 사용자 **태그 페이지에서** 목록에서 사용자 태그를 선택한 다음 태그 삭제 ![ 아이콘 삭제 태그 ](../../media/m365-cc-sc-delete-icon.png) **를 클릭합니다.**
 

@@ -16,12 +16,12 @@ ms.collection:
 description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 현재 보유 중인 항목이 무엇이고 이러한 항목을 어떻게 보호할 수 있는지 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6ecdfe324ded6224745b0e2eac087e432ac76c83
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: db458f0a3a3ac2cc4a06d0827844e156798f6505
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930250"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083659"
 ---
 # <a name="microsoft-defender-for-office-365-security-overview"></a>Microsoft Defender for Office 365 보안 개요
 
@@ -125,7 +125,7 @@ Office 365용 Microsoft Defender P1 및 P2에 대해 자세히 알아보려면 *
 
 |Office 365용 Defender 플랜 1|Office 365용 Defender 플랜 2|
 |---|---|
-|구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](safe-attachments.md)</li><li>[안전한 링크](safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender의 피싱 방지 보호 기능](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 감지](threat-explorer.md)</li></ul>|Office 365용 Defender 플랜 1 기능 <p> --- 추가 --- <p> 자동화, 조사, 수정 및 교육 기능: <ul><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이터](attack-simulator.md)</li></ul>|
+|구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](safe-attachments.md)</li><li>[안전한 링크](safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender의 피싱 방지 보호 기능](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 감지](threat-explorer.md)</li></ul>|Office 365용 Defender 플랜 1 기능 <p> --- 추가 --- <p> 자동화, 조사, 수정 및 교육 기능: <ul><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이션 교육](attack-simulation-training.md)</li></ul>|
 |
 
 - Office 365용 Microsoft Defender 플랜 2는 Office 365 E5, Office 365 A5 및 Microsoft 365 E5에 포함되어 있습니다.
@@ -153,5 +153,4 @@ Office 365용 Microsoft Defender P1 및 P2에 대해 자세히 알아보려면 *
 
 [위협 탐색기 또는 실시간 감지 기능 사용](threat-explorer.md)
 
-[Office 365용 Microsoft Defender에서 공격 시뮬레이터](attack-simulator.md) 사용
-
+공격 [시뮬레이션 교육 사용](attack-simulation-training.md)

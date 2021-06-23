@@ -18,12 +18,12 @@ description: 개인 정보에서 위조 동의 권한 부여 공격을 인식하
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c0041c473f196dace893122c5c0543a06c1e6ff8
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: cb3ccfbb921c106b671c4409bb95bd200f0efb55
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029864"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083011"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>위조 동의 권한 부여 감지 및 수정
 
@@ -50,9 +50,9 @@ ms.locfileid: "53029864"
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>이 공격의 신호를 찾는 단계
 
-1. 에서 **Microsoft 365 Defender** <https://security.microsoft.com> 열고 감사 를 **선택합니다.**
+1. 에서 **Microsoft 365 Defender 포털을** <https://security.microsoft.com> 열고 감사 를 **선택합니다.** 또는 감사 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/auditlogsearch> 사용하세요.
 
-2. 감사 **페이지가** 열리면 검색  탭이 선택되어 있는지 확인한 후 다음 설정을 구성합니다.
+2. 감사 **페이지에서** 검색 탭이  선택되어 있는지 확인한 후 다음 설정을 구성합니다.
    - **날짜 및 시간 범위**
    - **활동:** 모든 활동에 대한 **결과 표시가 선택되어 있는지** 확인
 
@@ -137,7 +137,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 ## <a name="determine-the-scope-of-the-attack"></a>공격 범위 확인
 
-응용 프로그램 액세스 인벤토리 작성을  완료한 후 감사 로그를 검토하여 위반의 전체 범위를 파악합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. 에서 **감사** 로그를 검색할 수 [Microsoft 365 Defender.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
+응용 프로그램 액세스 인벤토리 작성을  완료한 후 감사 로그를 검토하여 위반의 전체 범위를 파악합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. 감사 **로그는** 포털 에서 [검색할 Microsoft 365 Defender 있습니다.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
 > [!IMPORTANT]
 > 이 정보를 받으려면 공격 전에 [사서함 감사](../../compliance/enable-mailbox-auditing.md) 및 [관리자 및 사용자 활동에 대한 감사](../../compliance/turn-audit-log-search-on-or-off.md)가 설정되어 있어야 합니다.
@@ -165,8 +165,8 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수 있는 강력한 보안 기능이 함께 제공됩니다. [Microsoft 365 보안 로드맵 - 최초 30일, 90일 및 그 이후의 최우선 순위](security-roadmap.md)를 사용하여 Microsoft에서 권장하는 Microsoft 365 테넌트 보안을 구현합니다.
 
 - 처음 30일 이내에 수행 할 작업 이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
-- 90일 이내에 수행해야 할 작업 이러한 작업들은 계획하고 구현하는 데 다소 시간이 걸리지만 보안 태세를 갖추는 데 큰 도움이 됩니다.
-- 90일 초과 이러한 향상된 기능은 처음 90일간의 작업에서 구축됩니다.
+- 90일 이내에 수행할 작업입니다. 이러한 작업들은 계획하고 구현하는 데 다소 시간이 걸리지만 보안 태세를 갖추는 데 큰 도움이 됩니다.
+- 90일을 초과합니다. 이러한 향상된 기능은 처음 90일간의 작업에서 구축됩니다.
 
 ## <a name="see-also"></a>참고 항목
 

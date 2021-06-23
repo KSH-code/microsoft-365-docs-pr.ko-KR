@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 위협 탐색기 또는 실시간 Microsoft 365 Defender 포털을 사용하여 위협을 효율적으로 조사하고 대응합니다.
+description: 위협 탐색기 또는 실시간 Microsoft 365 Defender 사용하여 위협을 효율적으로 조사하고 대응합니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 71052cc5a3874da250772bfa628417824ba51c63
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 2b0c0c36cb481aac64b55467da4aaf9e3cf7a493
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930115"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083563"
 ---
 # <a name="threat-hunting-in-threat-explorer-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Microsoft Defender의 위협 탐색기에서 위협 Office 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "52930115"
 
 조직에 microsoft [Defender for Office 365](defender-for-office-365.md)권한이 있는 경우 [](#required-licenses-and-permissions)탐색기 또는  실시간  검색을 사용하여 위협을 감지하고 치료할 수 있습니다. 
 
-Microsoft 365 **포털에서** 전자 메일 & **공동 작업으로** 이동한 다음 탐색기 를 **선택하세요.**
+Microsoft 365 Defender **포털에서** 전자 메일 & **공동 작업으로** 이동한 다음 탐색기 를 **선택하십시오.**
 
 <br>
 
@@ -68,7 +68,7 @@ Microsoft Defender for Office 365 요금제에는 플랜 1과 계획 2의 두 �
 
 Defender for Office 365 Plan 1은 계획 2의 위협 탐색기(탐색기라고도 하는 탐색기) 헌팅 도구의 하위 집합인 실시간 검색을 사용합니다.   이 문서 시리즈에서는 대부분의 예제가 전체 위협 탐색기를 사용하여 작성되었습니다. 관리자는 실시간 검색의 모든 단계를 테스트하여 적용 위치를 표시해야 합니다.
 
-탐색기 도구를 열기 위해 Microsoft 365 **전자** 메일 &  >  **탐색기 로**  >  **이동하세요.** 기본적으로 맬웨어 페이지에 도착하지만 보기 드롭다운을 사용하여 옵션에 익숙해지게 됩니다.   피싱을 헌팅하거나 위협 캠페인을 찾은 경우 해당 보기를 선택하세요.
+탐색기 도구를 열기 위해 Microsoft 365 Defender **전자** 메일 &  >    >  **탐색기 로 이동하세요.** 기본적으로 맬웨어 페이지에 도착하지만 보기 드롭다운을 사용하여 옵션에 익숙해지게 됩니다.   피싱을 헌팅하거나 위협 캠페인을 찾은 경우 해당 보기를 선택하세요.
 
 > [!div class="mx-imgBorder"]
 > ![위협 탐색기에서 보기 드롭다운](../../media/view-drop-down.png)
@@ -267,7 +267,7 @@ Defender for Office 365 Plan 1은 계획 2의 위협 탐색기(탐색기라고�
 
 역할 및 사용 권한에 대한 자세한 내용은 다음 리소스를 참조합니다.
 
-- [Microsoft 365 Defender 포털 사용 권한](permissions-in-the-security-and-compliance-center.md)
+- [Microsoft 365 Defender 포털 사용 권한](permissions-microsoft-365-security-center.md)
 - [Exchange Online의 기능 사용 권한](/exchange/permissions-exo/feature-permissions)
 - [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)
 

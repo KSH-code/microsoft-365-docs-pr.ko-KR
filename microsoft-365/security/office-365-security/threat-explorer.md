@@ -19,12 +19,12 @@ description: 보안 센터의 탐색기 및 실시간 Microsoft 365 사용하여
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a7e3620859dfbc5f3d55501a880cef233e0a0be3
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 4a9a364f82b7f7836c2f0177dfbde80171b9c36f
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029588"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083227"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -186,7 +186,7 @@ ms.locfileid: "53029588"
 
 ### <a name="system-overrides"></a>시스템 오버라이드
 
-*시스템 다시 설정을 사용하면* 메시지의 의도된 배달 위치에 대한 예외를 만들 수 있습니다. 필터링 스택에서 식별된 위협 및 기타 검색에 따라 시스템에서 제공하는 배달 위치를 다시 의합니다. 시스템 오버라이드는 테넌트 또는 사용자 정책을 통해 설정하여 정책에서 제안한 메시지를 배달할 수 있습니다. 다시 설정은 사용자가 설정한 보낸 사람 정책과 같이 구성 간격으로 인해 의도하지 않은 악성 메시지 Safe 식별할 수 있습니다. 이러한 값은 다음이 될 수 있습니다.
+*시스템 다시 설정을 사용하면* 메시지의 의도된 배달 위치에 대한 예외를 만들 수 있습니다. 필터링 스택에서 식별된 위협 및 기타 검색에 따라 시스템에서 제공하는 배달 위치를 다시 의합니다. 시스템 오버라이드는 테넌트 또는 사용자 정책을 통해 설정하여 정책에서 제안한 메시지를 배달할 수 있습니다. 다시 설정은 사용자가 설정한 보낸 사람 정책과 같이 구성 간격으로 인해 의도하지 않은 악성 메시지 금고 식별할 수 있습니다. 이러한 값은 다음이 될 수 있습니다.
 
 - 사용자 정책에서 허용: 사용자는 사서함 수준에서 도메인 또는 보낸 사람이 허용하는 정책을 만듭니다.
 
@@ -448,7 +448,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 ## <a name="view-phishing-url-and-click-verdict-data"></a>피싱 URL 보기 및 판정 데이터 클릭
 
-허용, 차단 및 재지정된 URL 목록을 포함하여 전자 메일의 URL을 통한 피싱 시도를 확인하려는 경우를 가정해 봐야 합니다. 클릭한 URL을 식별하려면 링크 Safe [구성해야](safe-links.md) 합니다. 클릭 시간 보호 [](set-up-safe-links-policies.md) 및 Safe 링크로 클릭 판정 로깅에 대한 링크 정책을 Safe 합니다.
+허용, 차단 및 재지정된 URL 목록을 포함하여 전자 메일의 URL을 통한 피싱 시도를 확인하려는 경우를 가정해 봐야 합니다. 클릭된 URL을 식별하려면 링크 금고 [구성해야](safe-links.md) 합니다. 클릭 시간 보호 [](set-up-safe-links-policies.md) 및 금고 링크를 통해 클릭 판정 로깅에 대한 링크 금고 있는지 금고 합니다.
 
 메시지의 피싱 URL을 검토하고 피싱 메시지의 URL을 클릭하려면 탐색기 또는 실시간 검색의 전자 메일 [   >  **피싱**](threat-explorer-views.md#email--phish) 보기를 사용합니다.
 
@@ -470,7 +470,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
    - **상위 URL은** 필터링한 메시지의 URL과 각 URL에 대한 전자 메일 배달 작업 수입니다. 피싱 전자 메일 보기에서 이 목록에는 일반적으로 합법적인 URL이 포함되어 있습니다. 공격자는 메시지에 좋은 URL과 잘못된 URL을 혼합하여 배달하려고 시도하지만 악의적인 링크가 더 흥미로워 보이게 합니다. URL 표는 총 전자 메일 수를 통해 정렬되지만 보기를 단순화하기 위해 이 열은 숨겨집니다.
 
-   - **위쪽 클릭은** Safe 총 클릭 수별로 정렬된 링크로 래핑된 URL입니다. 보기를 단순화하기 위해 이 열도 표시되지 않습니다. 열당 총 개수는 클릭한 각 URL에 Safe 링크 클릭 결과 수를 나타냅니다. 피싱 전자 메일 보기에서 이러한 URL은 일반적으로 의심스러우거나 악의적인 URL입니다. 그러나 보기에는 위협이 아닌 피싱 메시지에 있는 URL이 포함되어 있을 수 있습니다. Url clicks on unwrapped links don't show up here.
+   - **위쪽 클릭은** 금고 총 클릭 수별로 정렬된 링크로 래핑된 URL의 수입니다. 보기를 단순화하기 위해 이 열도 표시되지 않습니다. 열당 총 개수는 클릭한 각 URL에 금고 링크 클릭 결과 수를 나타냅니다. 피싱 전자 메일 보기에서 이러한 URL은 일반적으로 의심스러우거나 악의적인 URL입니다. 그러나 보기에는 위협이 아닌 피싱 메시지에 있는 URL이 포함되어 있을 수 있습니다. Url clicks on unwrapped links don't show up here.
 
    두 URL 테이블에는 배달 작업 및 위치로 피싱 전자 메일 메시지의 상위 URL이 표시됩니다. 표에는 경고에도 불구하고 차단되거나 방문한 URL 클릭이 표시 있으므로 사용자에게 제공된 잠재적인 잘못된 링크와 사용자의 클릭을 볼 수 있습니다. 여기에서 추가 분석을 진행할 수 있습니다. 예를 들어 차트 아래에서 조직의 환경에서 차단된 전자 메일 메시지의 상위 URL을 볼 수 있습니다.
 
@@ -534,11 +534,11 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
-탐색기 또는 실시간 검색을 사용하려면 [Office 365용 Microsoft Defender가](defender-for-office-365.md) 있어야 합니다.
+탐색기 또는 실시간 Office 365 사용하려면 [Microsoft Defender가](defender-for-office-365.md) 있어야 합니다.
 
-- Explorer는 Office 365 계획 2용 Defender에 포함되어 있습니다.
-- 실시간 검색 보고서는 Defender for Office 365 계획 1에 포함되어 있습니다.
-- Office 365용 Defender에서 보호해야 하는 모든 사용자에 대한 라이선스를 할당할 계획입니다. 탐색기 및 실시간 검색은 사용이 허가된 사용자에 대한 검색 데이터를 보여 주며,
+- Explorer는 Plan 2용 Defender에 Office 365 포함되어 있습니다.
+- 실시간 검색 보고서는 Plan 1의 Defender에 Office 365 포함되어 있습니다.
+- Defender에서 보호해야 하는 모든 사용자에 대해 라이선스를 할당할 Office 365. 탐색기 및 실시간 검색은 사용이 허가된 사용자에 대한 검색 데이터를 보여 주며,
 
 탐색기 또는 실시간 검색을 보고 사용하려면 보안 관리자 또는 보안 읽기 권한자에 부여된 권한과 같은 적절한 권한이 있어야 합니다.
 
@@ -548,7 +548,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
   - 보안 관리자(Azure Active Directory 관리 센터에서 할당할 수 있습니다. <https://aad.portal.azure.com> )
   - 보안 읽기 권한자
 
-- Exchange Online의 경우 Exchange 관리 센터( ) 또는 Exchange Online <https://admin.protection.outlook.com/ecp/> [PowerShell에서](/powershell/exchange/exchange-online-powershell)다음 역할 중 하나를 할당해야 합니다.
+- Exchange Online 경우 Exchange 관리 센터( ) 또는 <https://admin.protection.outlook.com/ecp/> [PowerShell에서](/powershell/exchange/exchange-online-powershell)다음 Exchange Online 할당해야 합니다.
 
   - 조직 관리
   - 보기 전용 조직 관리
@@ -557,15 +557,15 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 역할 및 사용 권한에 대한 자세한 내용은 다음 리소스를 참조합니다.
 
-- [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
+- [Microsoft 365 Defender 포털 사용 권한](permissions-microsoft-365-security-center.md)
 - [Exchange Online의 기능 사용 권한](/exchange/permissions-exo/feature-permissions)
 
 ## <a name="differences-between-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색 간의 차이점
 
-- 실시간 *검색 보고서는* Defender for Office 365 계획 1에서 사용할 수 있습니다. *위협 탐색기는* Defender for Office 365 계획 2에서 사용할 수 있습니다.
+- 실시간 *검색 보고서는* Defender for Office 365 있습니다. *위협 탐색기는* Defender for Office 365 있습니다.
 - 실시간 검색 보고서를 사용하면 검색을 실시간으로 볼 수 있습니다. 위협 탐색기에서도 이 기능을 하지만 주어진 공격에 대한 추가 세부 정보도 제공합니다.
 - 모든 *전자 메일* 보기는 위협 탐색기에서 사용할 수 있지만 실시간 검색 보고서에서는 사용할 수 없습니다.
-- 위협 탐색기에는 더 많은 필터링 기능과 사용 가능한 작업이 포함되어 있습니다. 자세한 내용은 [Office 365용 Microsoft Defender 서비스 설명: Office 365 계획용 Defender의 기능 가용성을 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
+- 위협 탐색기에는 더 많은 필터링 기능과 사용 가능한 작업이 포함되어 있습니다. 자세한 내용은 [Microsoft Defender for Office 365 Service Description: Feature availability across Defender for Office 365 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
 
 ## <a name="other-articles"></a>기타 문서
 

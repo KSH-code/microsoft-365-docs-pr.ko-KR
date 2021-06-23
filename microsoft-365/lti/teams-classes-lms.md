@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft Teams 관리 시스템에 Learning 클래스 통합
-ms.openlocfilehash: 047f640befa967b78597c5eba93f9c64f22ec1c2
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 940c5c695d602ddce6ea49b1f914f2345fbeb7e5
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053254"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083246"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard"></a>Blackboard에서 Microsoft Teams 클래스 사용
 
@@ -63,8 +63,6 @@ Blackboard Learn Ultra admin, you'll need to register 2 LTI 1.3 integration apps
 3. **LTI1.3/Advantage 도구 등록을 선택합니다.**
 
 4. 제공된 클라이언트 ID 중 첫 번째(Blackboard 또는 Microsoft)를 입력하고 제출 을 **선택합니다.**
-
-   ![클라이언트 ID를 입력할 필드가 있는 LTI 등록 도구](../media/lti-media/register-tool.png)
 
 5. 미리 채워진 설정을 검토하고 도구 상태가 승인됨으로 표시되어 있는지 확인합니다.
 

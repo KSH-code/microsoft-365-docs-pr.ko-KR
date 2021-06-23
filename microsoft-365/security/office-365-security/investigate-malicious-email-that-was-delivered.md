@@ -20,12 +20,12 @@ description: 위협 조사 및 대응 기능을 사용하여 악성 전자 메�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e99cda906e97db72a440c3daf509a767181e5342
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: e49963d1ffaeb7bce20f21f82f37fd3675b9cdd3
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029800"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083359"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-microsoft-365"></a>전자 메일에서 배달된 악성 전자 메일 Microsoft 365
 
@@ -41,7 +41,7 @@ ms.locfileid: "53029800"
 > [!NOTE]
 > 여기에서 수정 문서로 [이동하세요.](remediate-malicious-email-delivered-office-365.md)
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 다음 조건이 충족되었는지 확인하세요.
 
@@ -51,7 +51,7 @@ ms.locfileid: "53029800"
 
 - 조직에는 스팸 방지, 맬웨어 방지, 피싱 방지 등 정책이 정의되어 있습니다. 에서 [위협으로부터 보호를 Office 365.](protect-against-threats.md)
 
-- 전역 관리자 또는 보안 관리자 또는 검색 및 제거 역할이 Microsoft 365 Defender 있습니다. 자세한 내용은 Microsoft 365 Defender [포털의 사용 권한을 참조하세요.](permissions-microsoft-365-security-center.md) 일부 작업의 경우 미리 보기 역할도 할당해야 합니다.
+- 전역 관리자 또는 보안 관리자 또는 검색 및 제거 역할이 Microsoft 365 Defender 있습니다. 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요. 일부 작업의 경우 미리 보기 역할도 할당해야 합니다.
 
 ### <a name="preview-role-permissions"></a>역할 권한 미리 보기
 
@@ -73,7 +73,7 @@ ms.locfileid: "53029800"
 >
 > 전역 관리자 역할에는 Microsoft 365 관리 센터 ( )가 할당되고 보안 관리자 및 보안 읽기 권한자 역할은 <https://admin.microsoft.com> Microsoft 365 Defender( <https://security.microsoft.com> ) 역할 및 사용 권한에 대한 자세한 내용은 Microsoft 365 Defender [포털의 사용 권한을 참조합니다.](permissions-microsoft-365-security-center.md)
 
-전자 메일 미리 보기 및 다운로드는 중요한 활동이기 때문에 감사가 사용하도록 설정되어 있습니다. 관리자가 전자 메일에 대해 이러한 활동을 수행하면 동일한 감사 로그가 생성되어 Office 365 보안 & 규정 준수 센터()에서 볼 수 <https://protection.office.com> 있습니다. 검색 **감사 로그**  >  **검색으로 이동하여** 검색 섹션의 관리자 이름을 필터링합니다. 필터링된 결과에는 **AdminMailAccess 활동이 표시됩니다.** 미리 보거나 다운로드한 전자 메일에 대한 **추가** 정보 섹션에서 세부 정보를 확인하려면 행을 선택합니다.
+전자 메일 미리 보기 및 다운로드는 중요한 활동이기 때문에 감사가 사용하도록 설정되어 있습니다. 관리자가 전자 메일에 대해 이러한 작업을 수행하면 동일한 감사 로그가 생성되어 Microsoft 365 Defender 포털()에서 볼 수 <https://security.microsoft.com> 있습니다. 검색 **감사** \> **탭으로** 이동하여 사용자 상자의 관리자 이름을 **필터링합니다.** 필터링된 결과에는 **AdminMailAccess 활동이 표시됩니다.** 미리 보거나 다운로드한 전자 메일에 대한 **추가** 정보 섹션에서 세부 정보를 확인하려면 행을 선택합니다.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>배달된 의심스러운 전자 메일 찾기
 

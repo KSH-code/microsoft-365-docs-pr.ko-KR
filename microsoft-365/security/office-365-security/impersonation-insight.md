@@ -19,12 +19,12 @@ description: 관리자는 가장 인사이트의 작동 방식에 대해 배울 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 53baecd100851eb5ab05fe79751961baef3acd5c
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: cebccf09c30264d1b7c94185eb4ad28a1b1cf75e
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029672"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083407"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Defender for Office 365
 
@@ -58,7 +58,7 @@ Microsoft 365 Defender 포털에서 가장 정보를 사용하여 가장 보호�
   - **보안 읽기**
   - **전역 읽기**
 
-  자세한 내용은 Microsoft 365 Defender [포털의 사용 권한을 참조하세요.](permissions-in-the-security-and-compliance-center.md)
+  자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
   **참고:** Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 관리 센터 포털에서 필요한 사용 권한과 Microsoft 365 Defender 포털의 다른  기능에 대한 사용 권한이 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 

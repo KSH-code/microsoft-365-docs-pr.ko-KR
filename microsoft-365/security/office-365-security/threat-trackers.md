@@ -18,12 +18,12 @@ ms.collection:
 description: 조직이 보안 문제의 맨 위에 오게 도와주는 새로운 주목할 만한 추적기 등 위협 추적기에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6d7585df980fca322a3bc5ce28f2ef2f7f53284e
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 0a5db47ccd3e1686b6b49174cb9b3c24256b8cbd
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930006"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083047"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기 - 신규 및 주목할 만한 요소
 
@@ -50,10 +50,10 @@ ms.locfileid: "52930006"
 
 추적기 기능은 계획 [2용 Microsoft Defender에서](office-365-ti.md)얻을 수 있는 몇 가지 Office 365 있습니다. 위협 추적기에는 [주목할만한](#noteworthy-trackers)추적기, [인기](#trending-trackers)트래커, 추적된 [쿼리](#tracked-queries)및 저장된 [쿼리가 포함됩니다.](#saved-queries)
 
-조직에 대한 위협 추적기 보기 및 사용을 위해 Microsoft 365 Defender 포털()으로 이동하여 전자 <https://security.microsoft.com> **메일** & 위협 \> **추적기 를 선택하세요.**
+조직에 대한 위협 추적기 보기 및 사용을 위해 Microsoft 365 Defender 포털()으로 이동하여 전자 메일 <https://security.microsoft.com> & **위협** \> **추적기 를 선택하세요.**
 
 > [!NOTE]
-> 위협 추적기를 사용하려면 전역 관리자, 보안 관리자 또는 보안 읽기 권한자일 수 있습니다. Defender [포털의 Microsoft 365 참조합니다.](permissions-in-the-security-and-compliance-center.md)
+> 위협 추적기를 사용하려면 전역 관리자, 보안 관리자 또는 보안 읽기 권한자일 수 있습니다. 웹 [사이트 포털의 Microsoft 365 Defender 참조합니다.](permissions-microsoft-365-security-center.md)
 
 ### <a name="noteworthy-trackers"></a>주목할 만한 추적기
 
@@ -93,20 +93,20 @@ ms.locfileid: "52930006"
 
 ## <a name="trackers-and-microsoft-defender-for-office-365"></a>트래커 및 Microsoft Defender for Office 365
 
-취임 후 주목할 만한 위협으로 안전한 첨부 파일에서 감지된 고급 맬웨어 위협을 [강조하고 있습니다.](safe-attachments.md) E5 고객으로 Office 365 Enterprise Microsoft [Defender를](defender-for-office-365.md)Office 365 경우 구독에 포함되어야 합니다. Defender for Office 365 서비스를 사용하여 전자 메일 흐름을 필터링하는 다른 보안 도구가 있는 경우에도 Office 365 제공합니다. 그러나 기본 전자 [](safe-links.md) 메일 보안 솔루션이 스팸 방지 및 안전한 링크 기능을 통해 작동할 Office 365.
+취임 후의 주목할 만한 위협으로, 첨부 파일 에서 검색된 고급 [맬웨어 위협을 금고 있습니다.](safe-attachments.md) E5 고객으로 Office 365 Enterprise Microsoft [Defender를](defender-for-office-365.md)Office 365 경우 구독에 포함되어야 합니다. Defender for Office 365 서비스를 사용하여 전자 메일 흐름을 필터링하는 다른 보안 도구가 있는 경우에도 Office 365 제공합니다. 그러나 스팸 방지 [](safe-links.md) 및 금고 링크 기능은 기본 전자 메일 보안 솔루션을 통해 작업할 때 가장 Office 365.
 
-![Office 365 Defender 포털의 Microsoft Defender Microsoft 365](../../media/policies.png)
+![microsoft Defender for Office 365 포털에서 Microsoft 365 Defender 수 있습니다.](../../media/policies.png)
 
-오늘날의 위협을 없애는 세계에서 기존의 맬웨어 방지 검사만 실행하면 공격으로부터 충분히 보호되지 않습니다. 오늘날 좀 더 정교한 공격자는 일반적으로 사용할 수 있는 도구를 사용하여 기존의 서명 기반 맬웨어 방지 엔진에서 인식되지 않는 새로운, 난독 또는 지연된 공격을 만들 수 있습니다. 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 사용하여 가상 환경에서 이를 확인하여 안전한지 또는 악성인지를 판단합니다. 이 데이타 프로세스는 가상 컴퓨터 환경에서 각 파일을 연 다음 파일을 연 후 어떤 일이 일어나는지 확인합니다. PDF 및 압축된 파일이든 Office 문서이든, 악성 코드는 파일에 숨겨져 있으며, 사용자가 컴퓨터에서 파일을 열 때만 활성화할 수 있습니다. 전자 메일 흐름에서 파일을 검색하고 분석하여 Office 365 기능의 Defender는 동작, 파일 신뢰도 및 다양한추론 규칙을 기반으로 이러한 위협을 검색합니다.
+오늘날의 위협을 없애는 세계에서 기존의 맬웨어 방지 검사만 실행하면 공격으로부터 충분히 보호되지 않습니다. 오늘날 좀 더 정교한 공격자는 일반적으로 사용할 수 있는 도구를 사용하여 기존의 서명 기반 맬웨어 방지 엔진에서 인식되지 않는 새로운, 난독 또는 지연된 공격을 만들 수 있습니다. 금고 첨부 파일 기능은 전자 메일 첨부 파일을 사용하여 가상 환경에서 이를 확인하여 안전한지 또는 악성인지를 확인할 수 있습니다. 이 데이타 프로세스는 가상 컴퓨터 환경에서 각 파일을 연 다음 파일을 연 후 어떤 일이 일어나는지 확인합니다. PDF 및 압축된 파일이든 Office 문서이든, 악성 코드는 파일에 숨겨져 있으며, 사용자가 컴퓨터에서 파일을 열 때만 활성화할 수 있습니다. 전자 메일 흐름에서 파일을 검색하고 분석하여 Office 365 기능의 Defender는 동작, 파일 신뢰도 및 다양한추론 규칙을 기반으로 이러한 위협을 검색합니다.
 
-새로운 주목할 만한 위협 필터는 안전 첨부 파일을 통해 최근에 검색된 항목을 강조합니다. 이러한 검색은 전자 메일 흐름 또는 다른 고객의 전자 메일에서 이전에 Microsoft 365 새로운 악성 파일인 항목을 나타내고 있습니다. Noteworthy Threat Tracker의 항목에 주의를 기울여 대상을 지정한 대상을 확인한 다음 고급 분석 탭에 표시되는 검색 세부 정보를 검토합니다(탐색기에서 전자 메일의 제목을 클릭하여 찾음). 참고 안전한 첨부 파일 기능에서 검색된 전자 메일에서만 이 탭을 찾을 수 있습니다. 이 주목할 만한 추적기에는 해당 필터가 포함되어 있지만 탐색기에서 다른 검색에 해당 필터를 사용할 수도 있습니다.
+새로운 주목할 만한 위협 필터는 첨부 파일에서 최근에 금고 강조 표시됩니다. 이러한 검색은 전자 메일 흐름 또는 다른 고객의 전자 메일에서 이전에 Microsoft 365 새로운 악성 파일인 항목을 나타내고 있습니다. Noteworthy Threat Tracker의 항목에 주의를 기울여 대상을 지정한 대상을 확인한 다음 고급 분석 탭에 표시되는 검색 세부 정보를 검토합니다(탐색기에서 전자 메일의 제목을 클릭하여 찾음). 참고 금고 첨부 파일 기능에서 검색된 전자 메일에서만 이 탭을 찾을 수 있습니다. 이 주목할 만한 추적기는 해당 필터를 포함하지만 탐색기에서 다른 검색에 해당 필터를 사용할 수도 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 - 조직에 이러한 Office 365 위협 조사 및 대응 기능이 없는 경우 위협 조사 및 대응 Office 365 어떻게 [하나요?를 참조하세요.](office-365-ti.md)
 
-- 보안 팀에 올바른 역할 및 사용 권한이 할당되어 있는지 확인합니다. 전역 관리자 또는 전역 Defender 포털에 보안 관리자 또는 검색 및 제거 역할이 Microsoft 365 합니다. Defender [포털의 Microsoft 365 참조합니다.](permissions-in-the-security-and-compliance-center.md)
+- 보안 팀에 올바른 역할 및 사용 권한이 할당되어 있는지 확인합니다. 전역 관리자 또는 보안 관리자 또는 검색 및 제거 역할이 Microsoft 365 Defender 합니다. 웹 [사이트 포털의 Microsoft 365 Defender 참조합니다.](permissions-microsoft-365-security-center.md)
 
 - 새 추적기에서 새 트래커가 사용자 환경에 Microsoft 365 감시합니다. 사용 가능한 경우 여기에서 추적기 를 찾을 [수 있습니다.](https://https://security.microsoft.com/) 전자 메일 & **위협** \> **추적기 로 이동하세요.**
 
-- 아직 수행하지 않은 경우 안전한 링크 및 안전한 첨부 파일을 포함하여 조직에서 사용할 [](safe-links.md) 수 [Office 365 Microsoft Defender를](defender-for-office-365.md) 구성하세요. [](safe-attachments.md)
+- 아직 수행하지 않은 경우 조직에서 사용할 수 있도록 [Microsoft Defender를](defender-for-office-365.md) Office 365 링크 [](safe-links.md) 및 첨부 금고 금고 [합니다.](safe-attachments.md)

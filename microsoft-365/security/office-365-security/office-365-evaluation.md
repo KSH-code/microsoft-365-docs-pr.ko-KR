@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ab0f05c45afa6a4ad66c9fc1bf58e69505632171
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 89562a5fd7c2d869f8a060e7ceda1c32a093c175
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624996"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083671"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender에서 Office 365
 
@@ -37,22 +37,22 @@ ms.locfileid: "52624996"
 
 microsoft Defender for Office 365 평가 환경은 장치 및 환경 구성의 복잡한 문제를 없애기 위해 디자인되어 사용자에 대한 Microsoft [Defender의](defender-for-office-365.md) 기능을 평가하는 데 집중할 수 Office 365. 평가 모드에서는 MX 레코드가 Microsoft를 Exchange Online 사서함으로 전송된 모든 메시지를 평가할 수 있습니다. 이 기능은 전자 메일 보호에만 적용될 뿐Office Word, SharePoint 또는 Teams.
 
-microsoft Defender for Office 365 지원하는 라이선스가 아직 없는 경우 무료 [30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 Office 365 보안 및 준수 센터(&에서 기능을 테스트할 수 있습니다. https://protection.office.com/homepage) 빠른 설치를 즐길 수 있으며 필요한 경우 쉽게 해제할 수 있습니다.
+Microsoft Defender for Office 365 지원하는 라이선스가 없는 경우 [무료 30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 의 Microsoft 365 Defender 포털에서 기능을 테스트할 수 <https://security.microsoft.com> 있습니다. 빠른 설치를 즐길 수 있으며 필요한 경우 쉽게 해제할 수 있습니다.
 
 > [!NOTE]
-> 통합 Microsoft 365 보안 포털(security.microsoft.com)에 있는 경우 전자 메일 Office 365 & Collaboration > Policies & Rules > Threat Policies > 추가 정책에서 Office 365 평가용 Defender를 시작할 수 있습니다.
+> Microsoft 365 Defender 포털()에 있는 경우 전자 메일 Office 365 공동 작업 정책& 규칙 위협 정책 기타 & 평가 모드 에서 평가용 <https://security.microsoft.com> Defender를 시작할  \>  \>  \>  \> **수 있습니다.**
 
 ## <a name="how-the-evaluation-works"></a>평가 작동 방식
 
 평가 모드에서 Office 365 Defender는 맬웨어와 같은 Office 365 기록하지만 메시지에 대해 행동하지 않는 전자 메일 정책에 대한 Defender를 만듭니다. MX 레코드 구성을 변경할 필요는 없습니다.
 
-평가 모드에서는 [안전](safe-attachments.md)첨부 파일, [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)  [안전한](safe-links.md)링크 및 사서함 인텔리전스 기반 가장 정책이 사용자 대신 설정됩니다. 모든 Office 365 정책은 백그라운드에서 적용되지 않은 모드로 만들어지며 표시되지 않습니다.
+평가 모드에서는 금고 [,](safe-attachments.md)금고 [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)  [링크](safe-links.md)및 사서함 인텔리전스 기반 가장 정책이 사용자 대신 설정됩니다. 모든 Office 365 정책은 백그라운드에서 적용되지 않은 모드로 만들어지며 표시되지 않습니다.
 
 설치의 일부로 평가 모드는 커넥터에 대한 향상된 [필터링도 구성합니다.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) IP 주소 및 보낸 사람 정보를 보존하여 필터링 정확도를 향상시킵니다. 그렇지 않으면 메일이 ESG(전자 메일 보안 게이트웨이)를 통과할 때 전자 메일 주소 및 보낸 사람 정보가 Office 365. 또한 커넥터에 대한 향상된 필터링은 기존 EOP(스팸 방지) Exchange Online Protection 및 피싱 방지 정책에 대한 필터링 정확도를 향상시킵니다.
 
-사용 커넥터에 대해 향상된 필터링을 사용하면 필터링 정확도가 향상되지만 현재 EOP 필터링을 무시하지 않는 ESG가 Office 365 ESG가 있는 경우 특정 메시지의 결과물이 변경될 수 있습니다. 영향은 EOP 정책으로 제한됩니다. 평가의 일부로 MDO 정책 설정은 적용되지 않은 모드로 만들어집니다. 잠재적인 프로덕션 영향을 최소화하기 위해 SCL(스팸 지수)을 -1로 설정하는 전송 규칙을 만들어 모든 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 EAC를 사용하여 메시지의 SCL을](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)설정하는 메일 흐름 규칙   만들기를 참조합니다.
+향상된 커넥터 필터링은 필터링 정확도를 향상시킵니다. 그러나 현재 EOP 필터링을 무시하지 않는 ESG가 Office 365 ESG가 있는 경우 특정 메시지에 대한 배달성이 변경될 수 있습니다. 영향은 EOP 정책으로 제한됩니다. 평가의 일부로 설정된 MDO 정책은 적용되지 않은 모드로 만들어집니다. 잠재적인 프로덕션 영향을 최소화하기 위해 메일 흐름 규칙(전송 규칙)을 만들어 메시지의 SCL(스팸 지수)을 -1로 설정하여 모든 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 Use mail flow rules to set the spam confidence level (SCL) in messages in Exchange Online을](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)   참조하세요.
 
-평가 모드를 설정하면 정책이 구현된 경우 차단될 메시지를 수량화하는 최대 90일의 데이터로 매일 보고서가 업데이트됩니다(예: 삭제, 정크 메일 보내기, 검지). 보고서는 모든 Defender 및 EOP Office 365 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 주문형 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 위협 탐색기를 사용하여 심층 분석 메시지를 만들 수 있습니다.
+평가 모드를 설정하면 정책이 구현된 경우 차단될 메시지를 수량화하는 최대 90일의 데이터로 매일 보고서가 업데이트됩니다(예: 삭제, 정크 메일 보내기, 검지). 보고서는 모든 Defender 및 EOP Office 365 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 주문형 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 탐색기를 사용하여 심층 검색 메시지를 만들 수 있습니다.
 
 간소화된 설정 환경을 통해 다음에 집중할 수 있습니다.
 
@@ -78,7 +78,7 @@ microsoft Defender for Office 365 지원하는 라이선스가 아직 없는 경
 
 Microsoft Defender for Office 365 평가판 라이선스를 얻기 위해  청구 관리자 역할 또는 전역 관리자 역할이 **필요합니다.** 전역 관리자 역할이 있는 사람에게 권한을 요청합니다. [구독 및 라이선스에 대한 자세한 내용은](../../commerce/licenses/subscriptions-and-licenses.md)
 
-적절한 역할이 있는 경우 청구 서비스 구매로 Microsoft 365 관리 센터에서 microsoft Defender for Office 365(계획 2)에 대한 평가판 라이선스를 > 것이 좋습니다. 평가판에는 25개 라이선스에 대한 30일 무료 평가판이 포함되어 있습니다. [Microsoft Defender for Office 365 평가판을 다운로드합니다(계획 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
+적절한 역할이 있는 경우 청구 서비스 구매로 Office 365(계획 2)에 대한 Microsoft Defender 평가판 Microsoft 365 관리 센터 라이선스를 > 것이 좋습니다. 평가판에는 25개 라이선스에 대한 30일 무료 평가판이 포함되어 있습니다. [Microsoft Defender for Office 365 평가판을 다운로드합니다(계획 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
 고급 위협을 모니터링하고 보고하는 평가가 있는 30일 기간이 있습니다. 유료 구독의 전체 Defender 기능을 원하는 경우 유료 구독을 구입할 Office 365 있습니다.
 
@@ -141,11 +141,11 @@ Microsoft Defender for Office 365 평가판 라이선스를 얻기 위해  청�
 
 ## <a name="get-started-with-the-evaluation"></a>평가 시작
 
-Office 365 보안 및 준수 센터(Office 365 액세스 지점에서 & 평가용 Microsoft Defender 셋업 카드를 https://protection.office.com/homepage) 찾아야 합니다.
+Microsoft 365 Defender 포털()에서 Office 365 평가용 Microsoft Defender 셋업 카드를 찾으면 다음 세 가지 <https://security.microsoft.com> 액세스 포인트에서 찾을 수 있습니다.
 
-- 대시보드에서 > 관리
-- 위협 관리 > 정책
-- 보고서 > 대시보드
+- **끝점** \> **취약성 관리** \> **대시보드(** <https://security.microsoft.com/tvm_dashboard> )
+- **전자 메일 & 공동 작업** \> **정책 & 규칙** \> **위협 정책(** <https://security.microsoft.com/threatpolicy> )
+- **보고서** \> **전자 메일 & 공동 작업** \> **전자 & 공동 작업 보고서(** <https://security.microsoft.com/emailandcollabreport> )
 
 ## <a name="setting-up-the-evaluation"></a>평가 설정
 
@@ -159,9 +159,9 @@ Office 365 보안 및 준수 센터(Office 365 액세스 지점에서 & 평가�
 
 Microsoft Defender for Office 365 평가 보고서는 매일 한 번 생성됩니다. 데이터가 채워지는 데 최대 24시간이 걸릴 수 있습니다.
 
-### <a name="exchange-rules-optional"></a>Exchange 규칙(선택 사항)
+### <a name="exchange-mail-flow-rules-optional"></a>Exchange 흐름 규칙(선택 사항)
 
-기존 게이트웨이가 있는 경우 평가 모드를 사용하도록 설정하면 커넥터에 대한 향상된 필터링이 활성화됩니다. 그러면 수신되는 보낸 사람 IP 주소를 변경하여 필터링 정확도가 향상됩니다. 이 경우 필터 판정이 변경될 수 있으며 이 확인란을 무시하지 않는 Exchange Online Protection 메시지의 배달 가능성도 변경될 수 있습니다. 이 경우 필터링을 일시적으로 무시하여 영향을 분석할 수 있습니다. 우회하려면 Exchange 관리 센터로 이동하여 SCL -1의 정책을 생성합니다(아직 없는 경우). 규칙 구성 요소 및 규칙의 작동 방식에 대한 자세한 내용은 규칙의 메일 흐름 규칙(전송 규칙)을 Exchange Online.
+기존 게이트웨이가 있는 경우 평가 모드를 사용하도록 설정하면 커넥터에 대한 향상된 필터링이 활성화됩니다. 이 기능은 수신되는 보낸 사람 IP 주소를 변경하여 필터링 정확도를 향상시킵니다. 이 기능은 필터 판정을 변경할 수 있으며, 이 기능을 무시하지 않는 Exchange Online Protection 특정 메시지의 결과물이 변경될 수 있습니다. 이 경우 필터링을 일시적으로 무시하여 영향을 분석할 수 있습니다. 필터링을 무시하려면 에서 Exchange 관리 센터(EAC)를 열고 <https://admin.exchange.microsoft.com> 메시지의 SCL을 -1로 설정하는 메일 흐름 규칙을 만들 수 있습니다(아직 메시지 SCL이 없는 경우). 자세한 내용은 [Use mail flow rules to set the spam confidence level (SCL) in messages in Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)
 
 ## <a name="evaluate-capabilities"></a>기능 평가
 

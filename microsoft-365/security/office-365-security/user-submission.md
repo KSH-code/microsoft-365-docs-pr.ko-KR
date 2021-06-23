@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e990721dacaa373b6782ee916f051e4753f3edfd
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: f59548a1f36e067d8b649f7fe22149362d6fe9c6
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055117"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083539"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -68,7 +68,7 @@ ms.locfileid: "53055117"
 
 - 사용자 제출에 대한 구성을 수정하려면 다음 역할 그룹 중 하나의 구성원이 되어야 합니다.
 
-  - **조직 포털의** 조직 [관리 또는 보안 Microsoft 365 Defender.](permissions-in-the-security-and-compliance-center.md) 
+  - **조직** **포털의** 사용 권한에 있는 [조직 관리 또는 보안 Microsoft 365 Defender.](permissions-microsoft-365-security-center.md)
   - **에서 조직** [Exchange Online.](/Exchange/permissions-exo/permissions-exo#role-groups)
 
 - PowerShell을 사용하려면 Exchange Online 액세스해야 합니다. 사용하려는 계정에 Exchange Online PowerShell에 액세스할 수 없는 경우 제출 사서함을 지정할 때 다음과 같은 오류가 표시됩니다.

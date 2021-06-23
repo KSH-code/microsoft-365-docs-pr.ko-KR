@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender에서 공격 시뮬레이터를 Office 365
+title: 보안 및 준수 센터의 & 시뮬레이터
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 공격 시뮬레이터를 사용하여 계획 2 조직용 Microsoft Defender 또는 Microsoft 365 E5 Microsoft Defender에서 시뮬레이션된 피싱 Office 365 방법을 배울 수 있습니다.
+description: 관리자는 보안 & Complance Center의 공격 시뮬레이터를 사용하여 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조직에서 시뮬레이션된 피싱 및 암호 공격을 Office 365 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 03e6c0077f13c85bfd20ac0583b64ce29e2535a1
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: aa10c30644562a156964ebaa1d63145047ca9264
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878679"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082867"
 ---
-# <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 공격 시뮬레이터를 Office 365
+# <a name="attack-simulator-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 시뮬레이터
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "52878679"
 
 > [!NOTE]
 >
-> 이 문서에 설명된 공격 시뮬레이터는 이제 읽기 전용으로, &  Defender 포털의 전자 메일 & 공동 작업 노드에서 공격 시뮬레이션 Microsoft 365  <https://security.microsoft.com> 대체했습니다. 자세한 내용은 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
+> 이 문서에 설명된 공격 시뮬레이터는 이제 읽기 전용으로, 의  전자 메일 & 공동 작업 노드에서 공격 시뮬레이션 Microsoft 365 Defender  <https://security.microsoft.com> 대체했습니다. 자세한 내용은 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
 >
 > 이 버전의 공격 시뮬레이터에서 새 시뮬레이션을 시작 하는 기능을 사용할 수 없습니다. 그러나 2021년 4월 24일까지는 보고서에 액세스할 수 있습니다.
 

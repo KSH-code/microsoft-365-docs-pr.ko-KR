@@ -15,18 +15,18 @@ search.appverid:
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Microsoft 365 Defender 포털에서 사용할 수 있는 전자 메일 보안 보고서를 찾아 사용하는 방법을 배울 수 있습니다.
+description: 관리자는 전자 메일 포털에서 사용할 수 있는 전자 메일 보안 보고서를 찾아 Microsoft 365 Defender 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad5a9f0d87902deb1985daebfa61cd733d22cbec
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 2ad90038ac818f9759768d0d00019393205b03f3
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029575"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083527"
 ---
-# <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털에서 전자 메일 보안 보고서 보기
+# <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,20 +35,20 @@ ms.locfileid: "53029575"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Microsoft 365의 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 조직을 보호하는 방법을 볼 수 있도록 Microsoft 365 Defender 포털에서 다양한 보고서를 사용할 수 <https://security.microsoft.com> 있습니다. 필요한 권한이 [](#what-permissions-are-needed-to-view-these-reports)있는 경우 보고서 전자 메일 및 공동 작업 전자 메일 공동  작업 전자 메일 & 공동 작업 보고서로 이동하여 Microsoft 365 Defender \>  \> **포털에서 & 수 있습니다.** 전자 메일 및 공동 작업 **& 페이지로** 직접 이동하기 위해 를 를 를 열 수 <https://security.microsoft.com/emailandcollabreport> 있습니다.
+의 Microsoft 365 Defender 포털에서 다양한 보고서를 사용하여 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 Microsoft 365 보호하는 방법을 볼 <https://security.microsoft.com> 수 있습니다. 필요한 권한이 [](#what-permissions-are-needed-to-view-these-reports)있는 경우 보고서 전자 메일 Microsoft 365 Defender 공동 작업 전자  메일 & 공동 작업 보고서로 이동하여 & \>  \> **수 있습니다.** 전자 메일 및 공동 작업 **& 페이지로** 직접 이동하기 위해 를 를 를 열 수 <https://security.microsoft.com/emailandcollabreport> 있습니다.
 
-![Microsoft & 365 Defender 포털의 전자 메일 공동 작업 보고서 페이지](../../media/email-collaboration-reports.png)
+![& 포털의 전자 메일 Microsoft 365 Defender 공동 작업 보고서 페이지](../../media/email-collaboration-reports.png)
 
 > [!NOTE]
 >
-> Email & collaboration **reports** 페이지의 일부 보고서에는 Office 365용 Microsoft Defender가 필요합니다. 이러한 보고서에 대한 자세한 내용은 [Microsoft 365 Defender 포털에서 Office 365용 Defender 보고서 보기를 참조하세요.](view-reports-for-mdo.md)
+> Email & **공동** 작업 보고서 페이지의 일부 보고서에는 Microsoft Defender가 Office 365. 이러한 보고서에 대한 자세한 내용은 view [Defender for Office 365 reports in the Microsoft 365 Defender 참조하세요.](view-reports-for-mdo.md)
 >
-> 메일 흐름과 관련된 보고서는 이제 EAC(Exchange 관리 센터)에 있습니다. 이러한 보고서에 대한 자세한 내용은 새 Exchange 관리 센터의 메일 흐름 [보고서를 참조하세요.](/exchange/monitoring/mail-flow-reports/mail-flow-reports)
+> 메일 흐름과 관련된 보고서는 이제 EAC(Exchange 관리 센터)에 있습니다. 이러한 보고서에 대한 자세한 내용은 새 Exchange 관리 센터의 [메일 흐름 보고서를 참조하세요.](/exchange/monitoring/mail-flow-reports/mail-flow-reports)
 
 ## <a name="compromised-users-report"></a>손상된 사용자 보고서
 
 > [!NOTE]
-> 이 보고서는 Exchange Online 사서함이 있는 Microsoft 365 조직에서 사용할 수 있습니다. 독립 실행형 EOP(Exchange Online Protection) 조직에서는 사용할 수 없습니다.
+> 이 보고서는 사서함이 있는 Microsoft 365 조직에서 Exchange Online 있습니다. 독립 실행형 EOP(독립 실행형 Exchange Online Protection 조직에서는 사용할 수 없습니다.
 
 손상된 **사용자 보고서에는** 지난 7일 이내에  의심 또는 제한으로  표시된 사용자 계정 수가 표시됩니다. 이러한 상태 중 하나에 있는 계정이 문제가 발생하거나 손상될 수도 있습니다. 자주 사용하는 경우 보고서를 사용하여 의심스러우거나 제한된 계정에서 스파이크 및 추세를 파악할 수 있습니다. 손상된 사용자에 대한 자세한 내용은 손상된 전자 메일 계정에 응답을 [참조하세요.](responding-to-a-compromised-email-account.md)
 
@@ -56,7 +56,7 @@ Microsoft 365의 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 
 
 집계 보기는 지난 90일간의 데이터를 표시하고 세부 정보 보기에는 지난 30일간의 데이터가 표시됩니다.
 
-Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자 메일 &  공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 손상된 사용자를 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/CompromisedUsers> 습니다.
+Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 손상된 사용자를 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/CompromisedUsers> 습니다.
 
 손상된  사용자 페이지에서 필터를 클릭하고 플라이아웃에 나타나는 다음  값 중 하나 이상을 선택하여 차트와 세부 정보 테이블을 필터링할 수 있습니다.
 
@@ -77,27 +77,27 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자 메�
 
 ## <a name="exchange-transport-rule-report"></a>Exchange 전송 규칙 보고서
 
-**Exchange 전송 규칙 보고서는** 메일 흐름 규칙(전송 규칙)이 조직에서 들어오는 메시지와 보내고 있는 메시지에 대한 영향을 보여줍니다.
+Exchange **전송** 규칙 보고서는 조직에서 들어오고 오는 메시지에 대한 메일 흐름 규칙(전송 규칙)의 영향을 보여줍니다.
 
-Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자 메일 &  공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동 작업 보고서** 페이지에서 Exchange 전송 규칙을 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/ETRRuleReport> 습니다.
+Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 **& 공동** 작업 보고서 페이지에서 Exchange 전송 규칙을 찾은 다음 세부 정보 **보기를** **클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/ETRRuleReport> 습니다.
 
-![전자 메일 및 공동 작업 보고서 & Exchange 전송 규칙 위젯](../../media/transport-rule-report-widget.png)
+![Exchange 공동 작업 보고서 페이지의 전자 메일 & 규칙 위젯](../../media/transport-rule-report-widget.png)
 
-Exchange 전송 **규칙 보고서 페이지에서** 사용 가능한 차트 및 데이터는 다음 섹션에 설명되어 있습니다.
+전송 **Exchange** 보고서 페이지에서 사용 가능한 차트 및 데이터는 다음 섹션에 설명되어 있습니다.
 
 ### <a name="chart-breakdown-by-direction"></a>방향별 차트 분석
 
-![Exchange 전송 규칙 보고서의 Exchange 전송 규칙에 대한 방향 보기](../../media/transport-rule-report-etr-direction-view.png)
+![전송 규칙 Exchange 전송 규칙에 대한 방향 Exchange 보기](../../media/transport-rule-report-etr-direction-view.png)
 
 방향별 **차트 분석 을 선택하면** 다음 차트를 사용할 수 있습니다.
 
-- **Exchange 전송 규칙으로** 데이터 보기: 메일  흐름 규칙의 영향을 받은 인바운드 및 아웃바운드 메시지 수입니다. 
-- DLP Exchange 전송 규칙으로 데이터  보기:  **DLP(데이터** 손실 방지) 메일 흐름 규칙의 영향을 받은 인바운드 및 아웃바운드 메시지 수입니다.
+- **전송 규칙 Exchange** 데이터 보기: 메일  흐름 규칙의 영향을 받은 인바운드 및 아웃바운드 메시지 수입니다. 
+- **DLP 전송 규칙 Exchange** 데이터 보기: DLP(데이터  손실 방지) 메일 흐름 규칙의 영향을 받은 인바운드 및 아웃바운드 메시지 수입니다. 
 
 그래프 아래의 세부 정보 표에는 다음 정보가 나와 있습니다.
 
 - **날짜**
-- **DLP 정책(DLP** Exchange 전송 **규칙으로만** 데이터 보기)
+- **DLP 정책(DLP** 정책으로 데이터 **Exchange 전송 규칙만** 해당)
 - **전송 규칙**
 - **제목**
 - **보낸 사람 주소**
@@ -115,18 +115,18 @@ Exchange 전송 **규칙 보고서 페이지에서** 사용 가능한 차트 및
 
 ### <a name="chart-breakdown-by-severity"></a>심각도별 차트 분석
 
-![Exchange 전송 규칙 보고서의 Exchange 전송 규칙에 대한 심각도 보기](../../media/transport-rule-report-etr-severity-view.png)
+![전송 규칙 보고서의 Exchange 전송 규칙에 대한 Exchange 보기](../../media/transport-rule-report-etr-severity-view.png)
 
 심각도별 차트 분석 **을** 선택하면 다음 차트를 사용할 수 있습니다.
 
-- **Exchange 전송 규칙으로** 데이터 보기: 높은 심각도, 중간 심각도 및 낮은 심각도 메시지 **수입니다.**  심각도 수준을 규칙의 작업으로 설정할 수 있습니다(**심각도** 수준 또는 _SetAuditSeverity로_ 이 규칙 감사). 자세한 내용은 [Exchange Online의 메일 흐름 규칙 작업을 참조하세요.](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
+- **전송 규칙 Exchange** 보기: 높은 심각도, 중간 심각도 및 낮은 심각도 메시지  **수입니다.** 심각도 수준을 규칙의 작업으로 설정할 수 있습니다(**심각도** 수준 또는 _SetAuditSeverity로_ 이 규칙 감사). 자세한 내용은 에서 [메일 흐름 규칙 작업을 Exchange Online.](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-- **DLP Exchange** 전송 규칙으로 데이터 보기: DLP 메일 흐름 규칙의 영향을 받은 높은 심각도, 보통 심각도 및 낮은 심각도 메시지 수입니다.  
+- **DLP** 전송 규칙 Exchange 데이터 보기: DLP 메일 흐름 규칙의 영향을  받은 높은 심각도, 보통 심각도 및 낮은 심각도 메시지의 수입니다.
 
 그래프 아래의 세부 정보 표에는 다음 정보가 나와 있습니다.
 
 - **날짜**
-- **DLP 정책(DLP** Exchange 전송 **규칙으로만** 데이터 보기)
+- **DLP 정책(DLP** 정책으로 데이터 **Exchange 전송 규칙만** 해당)
 - **전송 규칙**
 - **제목**
 - **보낸 사람 주소**
@@ -149,9 +149,9 @@ Exchange 전송 **규칙 보고서 페이지에서** 사용 가능한 차트 및
 
 ## <a name="mailflow-status-report"></a>메일 흐름 상태 보고서
 
-**메일 흐름** 상태 보고서는 수신 및 보낸 전자 메일, 스팸 검색, 맬웨어, "양호"로 식별된 전자 메일 및 에지에서 허용되거나 차단된 전자 메일에 대한 정보를 표시하는 스마트 보고서입니다. 이 보고서는 에지 보호 정보를 포함하는 유일한 보고서로, EOP(Exchange Online Protection)에서 평가하기 위해 서비스에 허용되기 전에 차단되는 전자 메일의 수만 보여줍니다. 받는 사람 5명에게 메시지가 전송된 경우 하나의 메시지가 아니라 5개의 다른 메시지로 계산됩니다.
+**메일 흐름** 상태 보고서는 수신 및 보낸 전자 메일, 스팸 검색, 맬웨어, "양호"로 식별된 전자 메일 및 에지에서 허용되거나 차단된 전자 메일에 대한 정보를 표시하는 스마트 보고서입니다. 이 보고서는 에지 보호 정보를 포함하는 유일한 보고서로, EOP(에지 보호)의 평가를 위해 서비스에 허용되기 전에 차단되는 전자 메일의 Exchange Online Protection 표시됩니다. 받는 사람 5명에게 메시지가 전송된 경우 하나의 메시지가 아니라 5개의 다른 메시지로 계산됩니다.
 
-Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자 메일 &  공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 메일 흐름 상태 요약을 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/mailflowStatusReport> 습니다.
+Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 메일 흐름 상태 요약을 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/mailflowStatusReport> 습니다.
 
 ![메일 흐름 상태 요약 위젯 전자 메일 & 공동 작업 보고서 페이지의](../../media/mail-flow-status-report-widget.png)
 
@@ -275,8 +275,8 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
   - **사용자 가장:** 피싱 방지 정책의 가장 보호 설정에 정의된 사용자(메시지 보낸 사람)를 가장하려는 시도로 인해 필터링된 메시지입니다.
   - **도메인 가장:** 피싱 방지 정책의 가장 보호 설정에 정의된 도메인을 가장하려고 시도하여 필터링된 메시지입니다.
 - **파일 및 URL 확인(Office 365)**:
-  - **파일 검색:** 첨부 파일 Safe 필터링된 메시지입니다.
-  - **URL 검색:** 링크 정책에 의해 Safe 메시지입니다.
+  - **파일 검색:** 첨부 파일 금고 필터링된 메시지입니다.
+  - **URL 검색:** 링크 정책에 의해 금고 메시지입니다.
 - **사후 배달 보호 및 ZAP(ATP) 또는 EOP(ZAP)**: 맬웨어, 스팸 및 피싱에 대한 ZAP(제로 아워 자동 제거)입니다.
 
 세부 정보 표에서 행을 선택하면 플라이아웃에 전자 메일 수에 대한 추가 분석이 표시됩니다.
@@ -314,11 +314,11 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 - **총 전자 메일**
 - **Edge 허용** 및 **Edge 필터링**
 - **전송 규칙 허용** 및 **전송 규칙 필터링(메일** 흐름 규칙)
-- **맬웨어가** 아닌 경우 **Safe 검색** <sup>\*</sup> 및 맬웨어 방지 엔진 **검색**
+- **맬웨어가** 아닌 **경우, 금고** 검색 <sup>\*</sup> 및 맬웨어 방지 엔진 **검색**
 - **피싱이 아닌** 경우,  **DMARC 실패,** 가장 <sup>\*</sup> 검색, **스푸핑 검색** 및 **피싱 감지**
 - **URL 검색 및 URL** 검색을 통해 검색 **안 하세요.**<sup>\*</sup>
 - **스팸 및**  **스팸 아미기**
-- **악성이 아닌 전자** **메일, Safe 링크** 검색 및 <sup>\*</sup> **ZAP**
+- **악성이 아닌 전자** **메일, 금고 링크** 검색 및 <sup>\*</sup> **ZAP**
 
 <sup>\*</sup>Defender for Office 365
 
@@ -330,13 +330,13 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 - **총 전자 메일**
 - **Edge 필터링**
 - **규칙 메시지:** 메일 흐름 규칙(전송 규칙)으로 인해 필터링된 메시지입니다.
-- **맬웨어 방지 엔진**, **Safe 첨부 파일** <sup>\*</sup> :
+- **맬웨어 방지 엔진**, **금고 첨부 파일** <sup>\*</sup> :
 - **DMARC, 가장,** <sup>\*</sup> **스푸핑,** **피싱 필터링 :**
   - **DMARC: DMARC** 인증 검사에 실패한 메시지로 인해 필터링된 메시지입니다.
 - **URL 검색**<sup>\*</sup>
 - **스팸 방지 필터링**
 - **ZAP 제거됨**
-- **링크로 Safe 검색**<sup>\*</sup>
+- **링크로 금고 검색**<sup>\*</sup>
 
 <sup>\*</sup>Defender for Office 365
 
@@ -484,9 +484,9 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
-**위협 방지 상태 보고서는** EOP 및 Defender에서 모두 사용할 수 Office 365. 그러나 보고서에는 다른 데이터가 포함되어 있습니다. 예를 들어 EOP 고객은 전자 메일에서 검색된 맬웨어에 대한 정보를 볼 수 있지만, 전자 메일, Safe 및 에 대한 첨부 파일에서 검색된 악성 파일에 대한 SharePoint, OneDrive [Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
+**위협 방지 상태 보고서는** EOP 및 Defender에서 모두 사용할 수 Office 365. 그러나 보고서에는 다른 데이터가 포함되어 있습니다. 예를 들어 EOP 고객은 전자 메일에서 검색된 맬웨어에 대한 정보를 볼 수 있지만, 전자 메일, 금고 및 에 대한 첨부 파일에서 검색된 악성 파일에 대한 SharePoint [OneDrive](mdo-for-spo-odb-and-teams.md)Microsoft Teams.
 
-이 보고서는 맬웨어 방지 엔진에 의해 차단된 파일 또는 웹 사이트 주소(URL), [ZAP(제로](zero-hour-auto-purge.md)아워 자동 제거) 및 피싱 방지 정책의 Safe [링크,](safe-links.md) [](safe-attachments.md)Safe 첨부 파일 및 가장 보호 기능과 같은 Office 365 기능에 대한 Defender와 같은 악성 콘텐츠가 있는 전자 메일 메시지 수를 [제공합니다.](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 이 정보를 사용하여 추세를 식별하거나 조직 정책에 조정이 필요한지 여부를 확인할 수 있습니다.
+이 보고서는 맬웨어 방지 엔진에 의해 차단된 파일 또는 웹 사이트 주소(URL) 및 피싱 방지 정책의 Office 365 [링크,](safe-links.md)금고 첨부 파일 및 가장 보호 기능과 같은 [](safe-attachments.md)Office 365 금고 기능에 [](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)대한 Defender와 같은 악성 콘텐츠가 있는 전자 메일 메시지 수를 제공합니다. [](zero-hour-auto-purge.md) 이 정보를 사용하여 추세를 식별하거나 조직 정책에 조정이 필요한지 여부를 확인할 수 있습니다.
 
 **참고:** 받는 사람 5명에게 메시지가 전송된 경우 하나의 메시지가 아니라 5개의 다른 메시지로 계산됩니다.
 
@@ -580,7 +580,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 전자 메일 **맬웨어로 \> 데이터** 보기 및 검색 기술별 **차트** 분석 보기에서 차트에 다음 정보가 표시됩니다.
 
-- **파일 검색:** 첨부 Safe <sup>\*</sup> 검색.
+- **파일 검색:** 첨부 금고 <sup>\*</sup> 검색.
 - **파일 디버터 신뢰도:** 모든 악성 파일 신뢰도에서 Office 365 <sup>\*</sup> 생성합니다.
 - **파일 신뢰도**
 - **맬웨어 방지 엔진:** <sup>\*</sup> 맬웨어 방지 엔진에서 검색됩니다.
@@ -622,7 +622,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 정책 **유형별** 차트 분석 및 전자 메일 피싱 또는 전자 메일 맬웨어 보기로 데이터 보기에서 차트에 표시되는 정보는 다음과 같습니다. **\>** **\>**
 
 - **맬웨어 방지**
-- **Safe 첨부 파일**<sup>\*</sup>
+- **금고 첨부 파일**<sup>\*</sup>
 - **피싱 방지**
 - **스팸 방지**
 - **메일 흐름 규칙(전송** 규칙으로도 알려지기)
@@ -701,7 +701,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 콘텐츠 **맬웨어로 \> 데이터** 보기 보기에서 조직의 Microsoft Defender에 대한 차트에 다음 Office 365 표시됩니다.
 
 - **맬웨어** 방지 엔진 : Sharepoint, OneDrive 및 에서 Microsoft Teams 기본 제공 바이러스 검색에 의해 검색된 악성 [Microsoft 365.](virus-detection-in-spo.md)
-- **파일 검색:** Safe, 파일 및 Safe 파일에서 검색된 악성 [SharePoint,](mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.
+- **파일 검색:** 금고, 파일 및 금고 첨부 파일에서 검색된 악성 [SharePoint,](mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.
 
 차트 아래의 세부 정보 표에서 다음 정보를 사용할 수 있습니다.
 
@@ -730,8 +730,8 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **조직 허용 도메인**
 - **ZAP를 사용할 수 없습니다.**
 - **정크 메일 폴더를 사용할 수 없습니다.**
-- **사용자 Safe 보낸 사람**
-- **사용자 Safe 도메인**
+- **사용자 금고 보낸 사람**
+- **사용자 금고 도메인**
 
 차트 아래의 세부 정보 표에서 다음 정보를 사용할 수 있습니다.
 
@@ -848,7 +848,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **보안 읽기**
 - **전역 읽기**
 
-자세한 내용은 Microsoft 365 Defender [포털의 사용 권한을 참조하세요.](permissions-in-the-security-and-compliance-center.md)
+자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
 **참고:** Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 관리 센터 포털에서 필요한 사용 권한과 Microsoft 365 Defender 포털의 다른  기능에 대한 사용 권한이 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 

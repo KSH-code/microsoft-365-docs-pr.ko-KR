@@ -1,11 +1,11 @@
 ---
-title: ZAP(제로 아워 자동 제거)
+title: Microsoft Defender for Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: ''
+ms.date: 06/22/2021
 audience: Admin
 ms.topic: conceptual
 localization_priority: Normal
@@ -19,15 +19,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 ZAP(제로 아워 자동 제거)가 배달된 메시지를 Exchange Online 메일 폴더로 이동하거나 스팸 또는 피싱으로 확인된 정크 메일 폴더 또는 검역소로 이동하는 방법을 알 수 있습니다.
+description: ZAP(제로 아워 자동 제거)는 Exchange Online 사서함에 있는 배달된 메시지를 정크 메일 폴더 또는 배달 후 스팸 또는 피싱으로 확인된 검역소로 이동합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9612f6267a0786b6f81f1c9a3f2ac270e344d0a8
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: fdfc39b8bd18d33f95b85028e3661008a17a1209
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730681"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083503"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>ZAP(제로 아워 자동 Exchange Online
 
@@ -38,8 +38,7 @@ ms.locfileid: "52730681"
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
-## <a name="basic-features-of-zap"></a>ZAP의 기본 기능
+## <a name="zero-hour-auto-purge-zap-basics"></a>ZAP(제로 아워 자동 제거) 기본
 
 Microsoft 365 사서함이 있는 Exchange Online 조직에서 ZAP(제로 아워 자동 제거)는 이미 Exchange Online 사서함으로 배달된 악의적인 피싱, 스팸 또는 맬웨어 메시지를 소급적으로 감지하고 중화하는 전자 메일 보호 기능입니다.
 
@@ -51,15 +50,15 @@ ZAP는 사서함을 보호하는 독립 실행형 Exchange Online Protection(EOP
 
 ZAP 작업은 사용자에게 매끄럽게 수행됩니다. 메시지가 검색되고 이동된 경우 알림을 수신하지 않습니다.
 
-[수신이 가능한 보낸](create-safe-sender-lists-in-office-365.md)사람 목록, 메일 흐름 규칙(전송 규칙), 받은 편지함 규칙 또는 추가 필터가 ZAP보다 우선합니다. 메일 흐름에서 발생하는 경우와 마찬가지로, 이는 서비스에서 배달된 메시지에 ZAP가 필요하다고 판단하는 경우에도 수신이 안전한 보낸 사람 구성으로 인하여 메시지가 처리되지 않습니다. 이는 필터링을 무시할 메시지를 구성할 때 주의해야 하는 또 다른 이유입니다.
+[금고](create-safe-sender-lists-in-office-365.md)목록, 메일 흐름 규칙(전송 규칙), 받은 편지함 규칙 또는 추가 필터가 ZAP보다 우선합니다. 메일 흐름에서 발생하는 경우와 마찬가지로, 이는 서비스에서 배달된 메시지에 ZAP가 필요하다고 판단하는 경우에도 수신이 안전한 보낸 사람 구성으로 인하여 메시지가 처리되지 않습니다. 이는 필터링을 무시할 메시지를 구성할 때 주의해야 하는 또 다른 이유입니다.
 
-### <a name="zap-for-malware"></a>맬웨어에 대한 ZAP
+### <a name="zero-hour-auto-purge-zap-for-malware"></a>맬웨어에 대한 ZAP(제로 아워 자동 제거)
 
 배달 **후** 맬웨어가 포함된 것으로 확인된 읽거나 읽지 않은 메시지의 경우 ZAP는 맬웨어 첨부 파일이 포함된 메시지를 차단합니다. 관리자만이 맬웨어 메시지를 확인 및 관리할 수 있습니다.
 
 맬웨어에 대한 ZAP는 맬웨어 방지 정책에서 기본적으로 사용됩니다. 자세한 내용은 EOP에서 맬웨어 [방지 정책 구성을 참조하세요.](configure-anti-malware-policies.md)
 
-### <a name="zap-for-phishing"></a>피싱용 ZAP
+### <a name="zero-hour-auto-purge-zap-for-phishing"></a>피싱에 대한 ZAP(제로 아워 자동 제거)
 
 배달 **후** 피싱으로 식별된 읽거나 읽지 않은 메시지의 경우 ZAP 결과는 해당  스팸 방지 정책에서 피싱 전자 메일 필터링 결과에 대해 구성된 동작에 따라 결정됩니다. 피싱에 대해 사용 가능한 필터링 결과 작업 및 가능한 ZAP 결과에 대한 설명은 다음 목록에 설명되어 있습니다.
 
@@ -73,13 +72,13 @@ ZAP 작업은 사용자에게 매끄럽게 수행됩니다. 메시지가 검색�
 
 스팸 필터링 판정을 구성하는 데 대한 자세한 내용은 [Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
 
-### <a name="zap-for-high-confidence-phishing"></a>높은 신뢰도의 피싱을 위한 ZAP 
+### <a name="zero-hour-auto-purge-zap-for-high-confidence-phishing"></a>높은 신뢰도의 피싱을 위한 ZAP(제로 아워 자동 제거)
 
-배달 **후** 높은 신뢰도 피싱으로 식별된 읽거나 읽지 않은 메시지의 경우 ZAP는 메시지를 검지합니다. 관리자만이 검지에서 높은 신뢰도의 피싱 메시지를 보고 관리할 수 있습니다. 
+배달 **후** 높은 신뢰도 피싱으로 식별된 읽거나 읽지 않은 메시지의 경우 ZAP는 메시지를 검지합니다. 관리자만이 검지에서 높은 신뢰도의 피싱 메시지를 보고 관리할 수 있습니다.
 
 높은 신뢰도 피싱에 대한 ZAP는 기본적으로 사용하도록 설정되어 있습니다. 자세한 내용은 에서 기본적으로 보안 [을 Office 365.](secure-by-default.md)
 
-### <a name="zap-for-spam"></a>스팸용 ZAP
+### <a name="zero-hour-auto-purge-zap-for-spam"></a>스팸에 대한 ZAP(제로 아워 자동 제거)
 
 배달 **후** 스팸으로 식별되는 읽을 수 없는 메시지의 경우 ZAP 결과는 해당  스팸 방지 정책에서 스팸 필터링 결과에 대해 구성된 동작에 따라 결정됩니다. 스팸에 대해 사용 가능한 필터링 결과 작업 및 가능한 ZAP 결과에 대한 설명은 다음 목록에 설명되어 있습니다.
 
@@ -93,15 +92,15 @@ ZAP 작업은 사용자에게 매끄럽게 수행됩니다. 메시지가 검색�
 
 스팸 필터링 판정을 구성하는 데 대한 자세한 내용은 [Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
 
-### <a name="zap-considerations-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
+### <a name="zero-hour-auto-purge-zap-considerations-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
-ZAP는 안전 첨부 파일 검색에서 동적 배달을 [](safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) 진행하는 중이나 EOP 맬웨어 필터링이 첨부 파일을 이미 맬웨어 경고 파일로 대체한 메시지를 Text.txt **않습니다.** 이러한 유형의 메시지에 대해 피싱 또는 스팸 신호가 수신되고 스팸 방지 정책의 필터링 판정이 메시지에 대해 일부 작업(정크 메일, 리디렉션, 삭제 또는 Quarantine으로 이동)으로 설정되어 있는 경우 ZAP는 기본적으로 '정크로 이동' 작업으로 설정됩니다.
+ZAP는 금고 첨부 파일 검색에서 동적 배달을 [](safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) 진행하는 중이나 EOP 맬웨어 필터링이 첨부 파일을 맬웨어 경고 파일로 이미 대체한 메시지를 Text.txt **않습니다.** 이러한 유형의 메시지에 대해 피싱 또는 스팸 신호가 수신되고 스팸 방지 정책의 필터링 판정이 메시지에 대해 일부 작업(정크 메일, 리디렉션, 삭제 또는 Quarantine으로 이동)으로 설정되어 있는 경우 ZAP는 기본적으로 '정크로 이동' 작업으로 설정됩니다.
 
 ## <a name="how-to-see-if-zap-moved-your-message"></a>ZAP에서 메시지를 이동한 경우를 표시하는 방법
 
 ZAP가 메시지를 이동한지 확인하려면 [위협](view-email-security-reports.md#threat-protection-status-report) 방지 상태 보고서 또는 위협 탐색기(및 실시간 검색)를 사용할 [수 있습니다.](threat-explorer.md) 시스템 작업으로 ZAP는 사서함 감사 로그에 Exchange 않습니다.
 
-## <a name="zap-faq"></a>ZAP FAQ
+## <a name="zero-hour-auto-purge-zap-faq"></a>ZAP(제로 아워 자동 제거) FAQ
 
 ### <a name="what-happens-if-a-legitimate-message-is-moved-to-the-junk-email-folder"></a>합법적인 메시지가 정크 메일 폴더로 이동하면 어떻게 하나요?
 
@@ -113,18 +112,18 @@ ZAP는 이 문서의 앞부분에서 설명한 대로 스팸 방지 정책의 �
 
 ### <a name="what-if-im-using-safe-senders-mail-flow-rules-or-allowedblocked-sender-lists"></a>수신 허용 - 보낸 사람, 메일 흐름 규칙 또는 허용/차단된 보낸 사람 목록을 사용하는 경우 어떻게 하나요?
 
-수신 허용 - 보낸 사람, 메일 흐름 규칙 또는 차단 및 허용 조직 설정이 우선합니다. 서비스가 사용자가 구성한 작업을 수행 중이기 때문에 이러한 메시지는 ZAP에서 제외됩니다. 이는 필터링을 무시할 메시지를 구성할 때 주의해야 하는 또 다른 이유입니다.
+금고, 메일 흐름 규칙 또는 차단 및 허용 조직 설정이 우선합니다. 서비스가 사용자가 구성한 작업을 수행 중이기 때문에 이러한 메시지는 ZAP에서 제외됩니다. 이는 필터링을 무시할 메시지를 구성할 때 주의해야 하는 또 다른 이유입니다.
 
-### <a name="what-are-the-licensing-requirements-for-zap-to-work"></a>ZAP가 작동하기 위한 라이선스 요구 사항은 무엇입니까?
+### <a name="what-are-the-licensing-requirements-for-zero-hour-auto-purge-zap-to-work"></a>ZAP(제로 아워 자동 제거)가 작동하기 위한 라이선스 요구 사항은 무엇입니까?
 
 라이선스에는 제한이 없습니다. ZAP는 온라인에서 호스트되는 모든 Exchange 작동합니다. ZAP는 사서함을 보호하는 독립 실행형 Exchange Online Protection(EOP) 환경에서는 Exchange 않습니다.
 
 ### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>메시지가 다른 폴더(예: 받은 편지함 규칙)로 이동하면 어떻게 하나요?
 
-ZAP는 메시지가 삭제되지 않은 경우 또는 동일한 또는 더 강력한 작업이 아직 적용되지 않은 한 계속 작동합니다. 예를 들어 피싱 방지 정책이 quarantine으로 설정되어 있으며 메시지가 이미 정크 메일에 있는 경우 ZAP는 메시지를 검사하기 위한 조치를 취합니다.
+제로 아워 자동 제거는 메시지가 삭제되지 않은 경우 또는 동일한 또는 더 강력한 작업이 아직 적용되지 않은 한 계속 작동합니다. 예를 들어 피싱 방지 정책이 quarantine으로 설정되어 있으며 메시지가 이미 정크 메일에 있는 경우 ZAP는 메시지를 검사하기 위한 조치를 취합니다.
 
 ### <a name="how-does-zap-affect-mailboxes-on-hold"></a>ZAP는 보류된 사서함에 어떤 영향을 미치나요?
 
-ZAP는 보류된 사서함의 메시지를 검지합니다. ZAP는 스팸 방지 정책에서 스팸 또는 피싱 판정에 대해 구성된 작업을 기반으로 메시지를 정크 메일 폴더로 이동할 수 있습니다.
+제로 아워 자동 제거는 보류된 사서함의 메시지를 검역합니다. ZAP는 스팸 방지 정책에서 스팸 또는 피싱 판정에 대해 구성된 작업을 기반으로 메시지를 정크 메일 폴더로 이동할 수 있습니다.
 
 보류에 대한 자세한 Exchange Online 에서 [In-Place Hold and Litigation Hold in Exchange Online.](/Exchange/security-and-compliance/in-place-and-litigation-holds)
