@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: MIP(Microsoft Information Protection)를 구현하여 중요한 정보를 어디에서나 보호할 수 있습니다.
-ms.openlocfilehash: 2de9b1e4a3901477df883287a1ee350885de5513
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1d8e0340e518bcc66399dcc667e030efca89316a
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683694"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055096"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 Microsoft Information Protection
 
@@ -77,7 +77,7 @@ MIP 기능은 Microsoft 365 규정 준수에 포함되어 있으며, [데이터 
 |:------|:------------|:---------------------|
 |[데이터 손실 방지](dlp-learn-about-dlp.md)| 중요한 항목의 의도하지 않은 공유를 방지하는 데 도움이 됩니다. | [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)|
 |[끝점 데이터 손실 방지](endpoint-dlp-learn-about.md)| DLP 기능을 Windows 10 컴퓨터에서 사용 및 공유되는 항목으로 확장합니다. | [끝점 데이터 손실 방지 시작](endpoint-dlp-getting-started.md)|
-|[Microsoft 규정 준수 확장(미리 보기)](dlp-chrome-learn-about.md) | Chrome 브라우저로 DLP 기능 확장 | [Microsoft 규정 준수 확장 시작(미리 보기)](dlp-chrome-get-started.md)|
+|[Microsoft 규정 준수 확장](dlp-chrome-learn-about.md) | Chrome 브라우저로 DLP 기능 확장 | [Microsoft 규정 준수 확장 시작](dlp-chrome-get-started.md)|
 |[Microsoft 365 데이터 손실 방지 온-프레미스 스캐너(미리 보기)](dlp-on-premises-scanner-learn.md)|파일 활동과 해당 파일에 대한 보호 작업 모니터링을 온-프레미스 파일 공유와 SharePoint 폴더 및 문서 라이브러리로 확대시킵니다.|[Microsoft 365 데이터 손실 방지 온-프레미스 스캐너로 시작하기(미리 보기)](dlp-on-premises-scanner-get-started.md)|
 |[Microsoft Teams 대화 및 채널 메시지에서 중요한 정보를 보호합니다](dlp-microsoft-teams.md) | Teams 채팅 및 채널 메시지로 일부 DLP 기능 확장 | [Microsoft Teams의 기본 데이터 손실 방지 정책에 대한 자세한 정보(미리 보기)](dlp-teams-default-policy.md)|
 

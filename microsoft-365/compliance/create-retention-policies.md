@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 9f550aa2e0a79170c4651f29c23a8ed0c8c9b3a4
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 2ddc95b5e614fb321ccc5472bc6031f570218528
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769428"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053074"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -116,7 +116,7 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되�
 ### <a name="retention-policy-for-yammer-locations"></a>Yammer 위치에 대한 보존 정책
 
 > [!NOTE]
-> Yammer에 대한 보존 정책이 미리 보기에서 롤아웃됩니다. 아직 Yammer의 새 위치가 보이지 않으면 몇 주 후에 다시 시도합니다.
+> Yammer에 대한 보존 정책은 미리 보기로 제공됩니다.
 >
 > 이 기능을 사용하려면 Yammer 네트워크가 하이브리드 모드가 아니라 [기본 모드](/yammer/configure-your-yammer-network/overview-native-mode)여야 합니다.
 
@@ -127,8 +127,6 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되�
 3. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요. 
     
     삭제하지 않고 콘텐츠를 유지하거나 지정된 기간 후에 콘텐츠를 유지한 다음 삭제하거나 지정된 기간 후에 콘텐츠를 삭제하는 보존 정책을 만들 수 있습니다. 자세한 내용은 이 페이지에서 [콘텐츠를 보존하고 삭제하기 위한 설정](#settings-for-retaining-and-deleting-content)을 참조하세요.
-    
-    이 옵션은 Yammer 위치에 지원되지 않으므로 **고급 보존 설정 사용** 을 선택하지 않습니다. 
 
 4. **위치 선택** 페이지에 대해 **특정 위치 선택** 를 선택합니다. 그런 다음 Yammer에 대한 위치 중 하나 또는 둘 모두를 전환합니다. **Yammer 커뮤니티 메시지** 및 **Yammer 사용자 메시지**.
     

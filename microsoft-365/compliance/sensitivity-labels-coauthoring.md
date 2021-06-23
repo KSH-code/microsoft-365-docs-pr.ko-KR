@@ -13,23 +13,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: 926f8aa188aeb1dbc7bb7b042d0a402acc49f7a3
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: bd197a55e5a119263bd9c67716c38010a86e5263
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796057"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062189"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
 >*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> 미리 보기에 이 기능이 있으며, 변경될 수 있습니다. 
->
-> 프로덕션 테넌트가 아닌 테스트 테넌트에서 이 기능을 사용하게 하는 이유는 다음과 같습니다.
-> - 이 기능은 레이블 지정 메타데이터를 변경하며, 현재 모든 플랫폼의 모든 앱이 이 변경을 지원하는 것은 아닙니다.
-> - 이 기능을 사용하도록 설정한 후에는 사용자가 이를 실행 중지할 수 없습니다.
+> 미리 보기에 이 기능이 있으며, 변경될 수 있습니다.
 
 Office 데스크톱 앱에 [공동 작성](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4)을 지원하도록 설정을 하면, 문서가 [민감도 레이블](sensitivity-labels.md)로 분류되어 암호화될 때 여러 사용자가 동시에 이러한 문서를 편집할 수 있습니다.
 
@@ -37,7 +33,7 @@ Office 데스크톱 앱에 [공동 작성](https://support.office.com/article/ee
 
 또한 이 기능을 사용하도록 설정하면, 레이블이 지정되고 암호화된 파일에 [자동 저장](https://support.office.com/article/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) 기능이 지원됩니다.
 
-릴리스 공지 사항을 읽으려면 [Microsoft Information Protection으로 암호화된 문서 및 레이블 지정 업데이트에 관한 공동 작성 발표](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-co-authoring-on-microsoft-information-protection/ba-p/2164162) 블로그 게시물을 참조하세요.
+첫 릴리스 공지 사항을 읽으려면 [Microsoft Information Protection으로 암호화된 문서 및 레이블 지정 업데이트에 관한 공동 작성 발표](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-co-authoring-on-microsoft-information-protection/ba-p/2164162) 블로그 게시물을 참조하세요.
 
 ## <a name="metadata-changes-for-sensitivity-labels"></a>민감도 레이블의 메타데이터 변경 내용
 
@@ -76,15 +72,13 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 
 이 기능을 켜기 전에 다음 필수 구성 요소를 이해해야만 합니다.
 
-- 이 미리 보기에 테스트 테넌트를 사용해야 합니다.
-
 - 이 기능을 사용하려면 전역 관리자여야 합니다.
 
 - [SharePoint의 Office 파일 및 테넌트의 OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)에 민감도 레이블을 사용해야 합니다. 아직 이 기능을 활성화하지 않은 경우, 민감도 레이블이 있는 파일에 공동 작성 설정을 선택하면 이 기능이 자동으로 활성화됩니다.
 
 - 엔터프라이즈용 Microsoft 365 앱
-    - **Windows**: 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)
-    - **macOS**: 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)
+    - **Windows**: 최소 버전 2105: 6월 18일
+    - **macOS**: 최소 버전 16.50
     - **iOS**: 아직 지원되지 않음
     - **Android**: 아직 지원되지 않음
 
@@ -142,34 +136,26 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 ## <a name="how-to-enable-co-authoring-for-files-with-sensitivity-labels"></a>민감도 레이블이 있는 파일에 공동 작성을 사용하는 방법
 
 > [!CAUTION]
-> 이 설정은 한 번 켜고 나면 다시 끌 수 없습니다. 기능이 미리 보기에 있는 동안에는 비프로덕션 환경에서만 해당 기능을 테스트하고, 이 페이지에서 설명하는 메타데이터 변경 내용, 필수 구성 요소, 제한 사항 및 알려진 문제를 읽고 이해한 후에만 설정을 변경해 주세요.
+> 이 설정은 한 번 켜고 나면 다시 끌 수 없습니다. 기능이 미리 보기에 있는 동안에는 이 페이지에서 설명하는 메타데이터 변경 내용, 필수 구성 요소, 제한 사항 및 알려진 문제를 읽고 이해한 후에만 설정을 변경해 주세요.
 
-Microsoft 365 규정 준수 센터에서 이 설정에 액세스하려면, 미리 보기 중에 특정 URL을 사용해야 합니다.
+1. 테넌트의 전역 관리자로서 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에 로그인합니다.
 
-1. 테스트 테넌트의 전역 관리자로서 다음 링크로 Microsoft 365 규정 준수 센터에 로그인합니다.
+2. 탐색 창에서 **설정** > **민감도 레이블이 있는 파일 공동 작성** 을 선택합니다.
+
+2. **민감도 레이블이 있는 파일 공동 작성(미리 보기)** 페이지에서 요약 설명과 필수 구성 요소, 예상 내용, 이 설정을 켠 후에는 해제할 수 없다는 경고를 읽습니다.
     
-    ```http
-    https://compliance.microsoft.com/co-authoring_for_files_with_sensitivity_labels
-    ```
-    이 링크를 통해 직접 **민감도 레이블이 있는 파일의 공동 작성** 테넌트 설정으로 이동할 수 있습니다.
-
-    > [!IMPORTANT]
-    > 계속하기 전에 사용자에게 영향을 미치지 않는 테스트 테넌트에 로그인했는지 확인합니다. 
-    >
-    > 규정 준수 센터 오른쪽 상단에서 계정 이니셜이 있는 원을 선택하고, 테넌트 이름에 원하는 테스트 테넌트가 표시되는지 살펴봅니다.
-    
-2. 이 설정을 켠 후에는 이 설정을 해제할 수 없다는 요약 설명, 필수 구성 요소, 예상 내용 및 경고를 읽어봅니다. 그런 다음 **민감도 레이블이 있는 파일에 공동 작성을 사용** 하도록 설정을 선택하여 **적용** 합니다.
+    그런 다음 **민감도 레이블이 있는 파일에 공동 작성을 사용** 하도록 설정을 선택하여 **적용** 합니다.
     
     ![민감도 레이블이 있는 파일에 공동 작성을 사용하는 옵션](../media/co-authoring-tenant-option-for-sensitivity-labels.png)
 
-3. 이 설정이 환경 전체에 복제될 때까지 24시간 기다린 후 공동 작성을 위해 새 기능을 테스트합니다.
+3. 공동 작성을 위한 새 기능을 사용하기 전에 24시간 동안 이 설정이 환경 전체에 복제되기를 기다립니다.
 
 ## <a name="contact-support-if-you-need-to-disable-this-feature"></a>이 기능을 실행 중지해야 한다면, 고객 지원에 문의하세요.
 
 > [!IMPORTANT]
 > 이 기능을 실행 중지해야 하는 경우 레이블 지정 정보가 손실될 수 있습니다.
 
-테넌트에 대한 민감도 레이블이 있는 파일에 공동 작성을 사용한 후에는 이 설정을 직접 실행 중지할 수 없습니다. 따라서 이 설정을 사용하기에 앞서 필수 구성 요소, 결과 및 한계를 확인하고 이해하는 것이 중요합니다. 이러한 이유로 프로덕션 테넌트가 아닌 테스트 테넌트로 이 기능을 테스트하는 것이 좋습니다.
+테넌트에 대한 민감도 레이블이 있는 파일에 공동 작성을 사용한 후에는 이 설정을 직접 실행 중지할 수 없습니다. 따라서 이 설정을 사용하기에 앞서 필수 구성 요소, 결과 및 한계를 확인하고 이해하는 것이 중요합니다.
 
 ![민감도 레이블에 공동 작성 사용을 설정한 것을 나타내는 옵션](../media/co-authoring-tenant-option-set-for-sensitivity-labels.png)
 

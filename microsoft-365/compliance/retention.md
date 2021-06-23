@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 65c9216e30c2db04b1981a17d73b3a9f0b5f1594
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: e39f4e65d5c4bdf4235e7ae2d8aa207c986c76c8
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007504"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055049"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -224,17 +224,12 @@ Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을
 
 #### <a name="monitoring-retention-labels"></a>보존 레이블 모네터링
 
-Microsoft 365 규정 준수 센터에서 **데이터 분류** > **개요** 를 사용하여 보존 레이블이 테넌트에게 어떻게 사용되고 있는지 모니터링 하고 레이블 항목의 위치를 식별합니다. 필수 구성 요소를 비롯한 더 자세한 내용은 [데이터 알기 - 데이터 분류 개요](data-classification-overview.md)를 참조하세요.
+Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페이지를 선택하여 보존 레이블이 테넌트에게 어떻게 사용되고 있는지 모니터링 하고 레이블 항목의 위치를 식별합니다. 필수 구성 요소를 비롯한 더 자세한 내용은 [데이터 분류에 대한 자세한 정보](data-classification-overview.md)를 참조하세요.
 
 그런 다음 [콘텐츠 탐색기](data-classification-content-explorer.md) 및 [활동 탐색기](data-classification-activity-explorer.md)를 사용하여 세부 정보로 드릴 다운할 수 있습니다.
 
 > [!TIP]
 >훈련가능한 분류자 및 민감한 정보 유형 등 다른 데이터 분류 인사이트를 사용하여 보존하거나 삭제 혹은 기록으로 관리해야 하는 콘텐츠를 식별 하는 것이 좋습니다.
-
-Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대시보드** 및 **정보 거버넌스** > **레이블 활동 탐색기** 에서 더 자세한 정보에 보존 레이블에 해당하는 개요 정보가 있습니다. 이 오래 된 관리 센터에서 보존 레이블을 모니터링 하는 방법에 대한 자세한 내용은 다음 문서를 참조하세요.
-- [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
-- [데이터 분류 시작하기](data-classification-overview.md)
-- [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
 
 #### <a name="using-content-search-to-find-all-content-with-a-specific-retention-label"></a>콘텐츠 검색을 사용하여 특정 보존 레이블을 사용하는 모든 콘텐츠 찾기
 
