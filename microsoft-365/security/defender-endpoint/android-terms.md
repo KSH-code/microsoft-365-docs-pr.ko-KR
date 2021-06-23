@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: d73ddb3a8defb7697a995c2593d6a240a59c9cfe
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 7a5aa5e049159761c46e2103f7b1ecdd1499f3cd
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934624"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061642"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Android 응용 프로그램 사용 조건의 끝점용 Microsoft Defender
 
@@ -56,7 +56,7 @@ ms.locfileid: "51934624"
 
 1.  **INSTALLATION AND USE RIGHTS.**
 
-    1.  **설치 및 사용.** You may install and use any number of copies of this application on Android enabled device or devices that you own or control. 이 응용 프로그램을 회사의 유효한 끝점용 Microsoft Defender 구독 또는 끝점용 Microsoft Defender 기능이 포함된 온라인 서비스에서 사용할 수 있습니다.
+    1.  **설치 및 사용.** You may install and use any number of copies of this application on Android enabled device or devices that you own or control. 
 
     2.  **업데이트.** 전체 기능을 사용하려면 끝점용 Microsoft Defender로 업데이트하거나 업그레이드해야 할 수 있습니다. 일부 기능은 일부 국가에서는 사용할 수 없습니다.
 

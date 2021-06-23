@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 ms.custom: seo-marvel-apr2020
 description: 항목을 사용자의 보관 사서함으로 자동으로 Microsoft 365 보관 및 삭제 정책을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: ae48335203968b25a00fda61bfe65ffde85649ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 16a9191268cb83b5377e8f55d3d4d20522c223cb
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919534"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062171"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>조직에서 사서함에 대한 보관 및 삭제 정책 설정하기
 
@@ -294,6 +294,6 @@ ms.locfileid: "50919534"
     |삭제 안 하게  <br/> |이 태그는 보존 정책에 의해 항목이 삭제되지 않도록 합니다.  <br/> |기본 제공  <br/> |개인; 이 태그는 사용자가 적용할 수 있습니다.  <br/> |
     |개인 1년 후 보관함으로 이동  <br/> |1년 후에 항목을 보관 사서함으로 이동합니다.  <br/> |기본 제공  <br/> |개인; 이 태그는 사용자가 적용할 수 있습니다.  <br/> |
 
-    > <sup>\*</sup>사용자는 웹의 Outlook 및 Outlook(이전의 Outlook Web App)에서 지운 항목 복구 도구를 사용하여 삭제된 항목 보존 기간(기본적으로 14일)을 복구할 수 Exchange Online. 관리자는 이 파일을 사용하여 Windows PowerShell 보존 기간을 최대 30일로 늘일 수 있습니다. 자세한 내용은 다음을 참조하세요. [Outlook](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) Windows 사서함의 삭제된 항목 보존 기간 변경을 Exchange Online [](https://www.microsoft.com/?ref=go)
+    > <sup>\*</sup>사용자는 Outlook 및 웹용 Outlook(이전의 Outlook Web App)에서 지진된 항목 복구 도구를 사용하여 삭제된 항목 보존 기간(기본적으로 14일)을 복구할 수 Exchange Online. 관리자는 이 파일을 사용하여 Windows PowerShell 보존 기간을 최대 30일로 늘일 수 있습니다. 자세한 내용은 다음을 참조하세요. [Outlook](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) Windows 사서함의 삭제된 항목 보존 기간 변경을 Exchange Online [](/exchange/recipients-in-exchange-online/manage-user-mailboxes/change-deleted-item-retention)
   
 - 복구할 수 있는 항목 **14일** 이동 보존 태그를 사용하면 사용자의 기본 사서함에 있는 복구 가능한 항목 폴더의 저장소 공간을 비우는 데 도움이 됩니다. 이는 사용자의 사서함이 보류 상태일 때, 즉 사용자의 사서함이 영구적으로 삭제되지 않는 경우 유용합니다. 항목을 보관 사서함으로 이동하지 않으면 기본 사서함의 복구 가능한 항목 폴더에 대한 저장소 할당량에 도달할 수 있습니다. 이를 방지하는 방법에 대한 자세한 내용은 보류된 사서함에 대한 복구 가능한 항목 할당량 [늘리기 를 참조하세요.](./increase-the-recoverable-quota-for-mailboxes-on-hold.md)

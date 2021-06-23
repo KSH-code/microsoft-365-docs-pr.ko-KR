@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: bf607890fcae34e95da15954349e7190bdbb19ac
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 134c5426e428372670a50c76301a9e9e0c10b343
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878103"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061665"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
@@ -77,9 +77,6 @@ Endpoint DLP의 데이터는 [활동 탐색기](data-classification-activity-exp
 - 준수 관리자
 - 보안 관리자
 - 준수 데이터 관리자
-- 전역 읽기 권한자
-- 보안 읽기 권한자
-- 보고서 읽기 권한자
 
 ### <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 

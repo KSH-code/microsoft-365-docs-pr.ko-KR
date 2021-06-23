@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이전 직원의 로그인을 차단하고 Microsoft 365 차단합니다.
-ms.openlocfilehash: cdba6dcaf239e94cf33f3bf88e7f217b4793bfd6
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: f2258b165c3d61f809288003f4a536ffe160ea59
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840853"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061819"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>1단계 - 이전 직원이 로그인하지 못하게 방지하고 Microsoft 365 액세스 차단
 
@@ -38,15 +38,15 @@ ms.locfileid: "52840853"
 > [!NOTE]
 > 다른 관리자에 대한 로그인을 시작하려면 전역 관리자로 설정해야 합니다. 관리자가 아닌 사용자의 경우 사용자 관리자 또는 헬프데스크 관리자 사용자를 사용하여 이 작업을 수행할 수 있습니다. [관리자 역할에 대해 자세히 알아보시고](about-admin-roles.md)
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 2. 사용자 이름 옆의 상자를 선택한 다음 암호 다시 설정을 **선택합니다.**
 3. 새 암호를 입력한 다음 다시 설정을 **선택합니다.** (보내지 않습니다.)
-4. 사용자의 이름을 선택하여 속성 창으로 이동하고 계정 탭에서 로그인 시작 **을 선택합니다.** 
+4. 사용자의 이름을 선택하여 속성 창으로 이동하고 계정 탭에서 모든 세션에서 **서명을 선택합니다.** 
 
 1시간 이내에 또는 현재 Microsoft 365 페이지에서 나면 다시 로그인하라는 메시지가 표시됩니다. 액세스 토큰은 한 시간 동안 양호하기 때문에 시간 표시 막대는 해당 토큰에 남아 있는 시간 및 현재 웹 페이지를 탐색하는지 여부에 따라 결정됩니다.
   
 > [!IMPORTANT]
-> 사용자가 웹에서 Outlook 있는 경우 사서함을 클릭하기만 하면 즉시 시작되지 않을 수 있습니다. 다른 타일(예: OneDrive)을 선택하거나 브라우저를 새로 고치자마자 로그인이 시작됩니다.
+> 사용자가 사서함에 있는 웹용 Outlook 사서함을 클릭하는 것만이 즉시 시작되지 않을 수 있습니다. 다른 타일(예: OneDrive)을 선택하거나 브라우저를 새로 고치자마자 로그인이 시작됩니다.
   
 PowerShell을 사용하여 사용자를 즉시 로그인하기 위해 [Revoke-AzureADUserAllRefreshToken](/powershell/module/azuread/revoke-azureaduserallrefreshtoken) cmdlet을 참조하세요.
   
@@ -57,7 +57,7 @@ PowerShell을 사용하여 사용자를 즉시 로그인하기 위해 [Revoke-Az
 > [!IMPORTANT]
  > 계정을 차단하는 데 최대 24시간이 걸릴 수 있습니다. 사용자의 로그인 액세스를 즉시 차단해야 하는 경우 위의 단계를 수행하고 암호를 다시 설정하세요.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 2. 차단할 직원의 이름을 선택하고 사용자 이름에서 이 사용자 차단의 **기호를 선택합니다.**
 3. 사용자가 로그인할 수 **없습니다.를** 선택한 다음 저장 을 **선택합니다.**
 

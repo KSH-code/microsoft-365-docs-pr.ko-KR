@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bbf90f52127e96e08f1c176a23d5f5ab1d6d86c4
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: dd69e00b0e8929752341bf3d2b0abde88921066b
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054543"
+ms.locfileid: "53061885"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 피싱 방지 정책 Office 365
 
@@ -230,7 +230,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
        - **메시지 Quarantine the message**
 
    - **안전 팁 & 표시기:** 다음 설정을 구성합니다.
-     - 첫 번째 연락처 보안 팁 **표시:** 이 보안 팁 메시지에 사용 값으로 **X-MS-Exchange-EnableFirstContactSafetyTip이라는** 헤더를 추가하는 메일 흐름 규칙(전송  규칙)을 만들 필요가 없습니다.
+     - **첫 번째 연락처 보안 팁** 표시 : 자세한 내용은 첫 번째 연락처 [보안 팁.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
      - **사용자 가장** 표시 보안 팁 : 이 설정은 이전 페이지에서 사용자가 보호할 수 있도록 설정을 선택한 **경우만** 사용할 수 있습니다.
      - **도메인 가장** 표시 보안 팁 : 이 설정은 이전 페이지에서 도메인을 보호하도록 설정을 **선택한** 경우만 사용할 수 있습니다.
      - **사용자 가장 비정상 문자** 표시 보안 팁 이 설정은 사용자가 이전  페이지에서 보호할  수 있도록 설정 또는 도메인을 보호할 수 있도록 설정을 선택한 경우만 사용할 수 있습니다.

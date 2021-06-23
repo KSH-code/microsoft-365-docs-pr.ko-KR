@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 참조 자료
-ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 5c01b6419a9af100cfaedccbd5a9c4923ca3e42f
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572564"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061789"
 ---
 # <a name="data-loss-prevention-reference"></a>데이터 손실 방지 참조
  
@@ -110,9 +110,6 @@ Exchange에서 특정 메일 그룹을 포함하도록 선택하는 경우 DLP �
 특정 SharePoint 사이트를 포함하거나 제외하도록 선택하는 경우 DLP 정책은 이러한 포함 항목 및 제외 항목을 100개까지 포함할 수 있습니다. 해당 제한 사항에도 불구하고 조직 전체의 정책이나 전체 위치에 적용되는 정책을 적용하여 해당 제한 사항을 극복할 수 있습니다.
 
 특정 OneDrive 계정 또는 그룹을 포함하거나 제외하도록 선택하는 경우 DLP 정책에는 100개 이상의 사용자 계정 또는 50개 그룹을 포함하거나 제외로 포함할 수 있습니다.
-
-> [!NOTE]
-> 계정 또는 그룹을 사용한 비즈니스 정책 범위 지정용 OneDrive는 공개 미리 보기로 제공됩니다. 이 단계가 진행되는 동안 사용자 계정 및 그룹을 DLP 정책의 일부로 포함하거나 제외할 수 있습니다. 동일한 정책의 일부로 포함 및 제외는 모두 지원되지 않습니다.
   
 ### <a name="rules"></a>규칙
 
@@ -542,7 +539,7 @@ Microsoft Teams를 위치로 포함하는 DLP 정책을 만드는 경우 해당 
  
 ## <a name="permissions"></a>사용 권한
 
-DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 해당 위치에 액세스할 수 있으며, 테넌트 관리자의 사용 권한을 모두 주지 않으면서 준수 관리자 및 기타 사용자에게 보안 &amp; 준수 센터에 대한 액세스 권한을 부여할 수 있습니다. 이를 위해, 다음의 단계가 권장됩니다:
+기본적으로 전역 관리자, 보안 관리자 및 규정 준수 관리자는 DLP 정책을 만들고 적용할 수 있습니다. DLP 정책을 만들 규정 준수 팀의 다른 구성원에게는 보안 및 준수 센터에 대한 &amp; 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 규정 준수 관리자 및 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지 않고도 보안 및 준수 센터에 대한 액세스 권한을 부여할 &amp; 수 있습니다. 이렇게 하여 다음을 하는 것이 좋습니다.
   
 1. Microsoft 365에서 그룹을 생성하고 규정 준수 책임자를 추가하십시오.
     

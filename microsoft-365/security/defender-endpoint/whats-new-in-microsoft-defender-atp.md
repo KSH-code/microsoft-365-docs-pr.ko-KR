@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e87a7423d6d69968bdf4224938e10799dcb89d1b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ceca8ac76f63ef7da34f4222312e9e03a3b0e23a
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844193"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062247"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -45,6 +45,16 @@ ms.locfileid: "52844193"
 > ```https
 > /api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
+
+## <a name="june-2021"></a>2021년 6월
+
+- [장치 검색](device-discovery.md) <br> 추가 어플라이언스 또는 번거로운 프로세스 변경 없이도 회사 네트워크에 연결된 관리되지 않는 장치를 찾을 수 있습니다. 온보드 장치를 사용하여 네트워크에서 관리되지 않는 장치를 찾고 취약성 및 위험을 평가할 수 있습니다. 그런 다음 검색된 장치를 온보드하여 네트워크에 관리되지 않는 끝점이 있는 경우와 관련된 위험을 줄일 수 있습니다.
+
+   > [!IMPORTANT]
+   > 표준 검색은 2021년 7월 19부터 모든 고객의 기본 모드가 됩니다. 설정 페이지를 통해 기본 모드를 유지할 수 있습니다. 
+
+
+- [이제 장치 그룹 정의에](/microsoft-365/security/defender-endpoint/machine-groups) 각 조건에 대한 여러 값을 포함할 수 있습니다. 여러 태그, 장치 이름 및 도메인을 단일 장치 그룹의 정의로 설정할 수 있습니다.
 
 ## <a name="march-2021"></a>2021년 3월
 - [다음을 사용하여 변조 방지 Microsoft Defender 보안 센터](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) <br> 테넌트 연결 이라는 방법을 사용하여 Windows 10, Windows Server 2016 및 Windows Server 2019에서 변조 보호 설정을 *관리할 수 있습니다.* 

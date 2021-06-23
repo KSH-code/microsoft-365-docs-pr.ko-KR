@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 사서함을 사용하거나 사서함이 없는 EOP(Exchange Online Protection 조직)에서 사용할 수 있는 피싱 방지 정책을 만들고 수정하고 삭제하는 Exchange Online 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8633644ab0380cf2adcf30c006a7d6d141a6040a
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 1dcfba32a5c76915c8c905d55b69712162efac48
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054565"
+ms.locfileid: "53062226"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성
 
@@ -126,11 +126,14 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
      - **받는 사람의 정크 메일 폴더로 메시지 이동**
      - **메시지 Quarantine the message**
 
-   - **안전 팁 &** 표시기: 이 설정은 이전 페이지에서 스푸핑 **인텔리전스** 사용을 선택한 경우만 사용할 수 있습니다.
-     - 스푸핑을 위해 인증되지 않은 보낸 사람에 대한 표시(?) : 메시지가 SPF 또는 DKIM 확인을 통과하지 못하고 메시지가 DMARC 또는  복합 인증을 통과하지 않는 경우 Outlook의 보낸 사람 상자에 보낸 사람 사진에 물음표를 추가합니다. [](email-validation-and-authentication.md#composite-authentication)
-     - **"via"** 태그 표시 : DKIM 서명의 도메인 또는 MAIL FROM 주소의 도메인과 다른 경우 보낸 chris@contoso.com(fabrikam.com 통해 fabrikam.com)를 보낸사전 주소에 **추가합니다.**
+   - **안전 팁 & 표시기**:
+     - **첫 번째 연락처 보안 팁** 표시 : 자세한 내용은 첫 번째 연락처 [보안 팁.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
+     - 스푸핑을 위해 인증되지 않은 보낸 사람에 대한 **표시(?)**: 메시지가 SPF 또는 DKIM 확인을 통과하지 못하고 메시지가 DMARC 또는 복합 인증을 통과하지 않는 경우 Outlook의 보낸 사람 상자에 보낸 사람 사진에 물음표를 <sup>\*</sup> 추가합니다.  [](email-validation-and-authentication.md#composite-authentication)
+     - **"via"** 태그 표시 : DKIM 서명의 도메인 또는 MAIL FROM 주소의 도메인과 다른 경우 보낸 chris@contoso.com(fabrikam.com 통해)를 보낸 주소에 <sup>\*</sup> 추가합니다. 
 
      설정을 켜기 위해 확인란을 선택합니다. 끄기 위해 확인란의 선택을 취소합니다.
+
+     <sup>\*</sup>이 설정은 이전 페이지에서  스푸핑 인텔리전스 사용 을 선택한 경우만 사용할 수 있습니다. 자세한 내용은 [Unauthenticated sender 을 참조하십시오.](set-up-anti-phishing-policies.md#unauthenticated-sender)
 
    작업을 마친 후 **다음** 을 클릭합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: 장치 검색 개요
-description: Microsoft 365 Defender에서 끝점 검색을 활용하여 네트워크에서 관리되지 않는 디바이스를 찾는 방법에 대해 자세히 알아보기
+description: 네트워크에서 관리되지 않는 장치를 찾기 위해 Microsoft 365 Defender 끝점 검색을 활용하는 방법에 대해 자세히 알아보기
 keywords: 장치 검색, 검색, 수동, 사전, 네트워크, 표시 여부, 서버, Workstation, 온보드, 관리되지 않는 장치
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ed4e0c477bd2a8840e920b337f05c8730965bcff
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 16baaa6fd9865140d42c0ca3a566427f761a28c2
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636245"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062218"
 ---
 # <a name="device-discovery-overview"></a>장치 검색 개요
 
@@ -35,7 +35,6 @@ ms.locfileid: "52636245"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
 
 환경을 보호하려면 네트워크에 있는 장치의 인벤토리를 보유해야 합니다. 그러나 네트워크에서 디바이스 매핑은 비용이 많이 들고, 어렵고, 시간이 많이 소요될 수 있습니다. 
 

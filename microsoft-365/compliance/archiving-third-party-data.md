@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: a0c4505d3fbd593f5703f4abfb5cba1870c037c5
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 5e1eab67019184e337b7e5404bf96bdf26d0446d
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054775"
+ms.locfileid: "53061724"
 ---
 # <a name="archive-third-party-data"></a>타사 데이터 보관
 
@@ -143,7 +143,6 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 |O2 SMS 및 음성 네트워크 보관 | 예         | 아니요 | 아니요 |
 |TELUS SMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
 |Verizon SMS/MMS 네트워크 보관기 | 예 | 아니요 | 아니요 |
-|WeChat Archiver | 예 | 아니요 | 아니요 |
 |WhatsApp Archiver | 예 | 아니요 | 아니요 |
 |||||
 

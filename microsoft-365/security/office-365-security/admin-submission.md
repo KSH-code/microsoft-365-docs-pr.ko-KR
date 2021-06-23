@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 Microsoft 365 Defender 포털에서 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 전자 메일 첨부 파일을 다시 검색하기 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b671ce5a44c7be61331a121b49e96658cf14bab1
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: ab25757c79b7978400e98fa36d48163e1681e7c1
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964804"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062000"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -91,7 +91,8 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 5. 완료되면 제출 **단추를** 클릭합니다.
 
-   ![새 URL 제출 예제](../../media/submission-flyout-email.PNG)
+> [!div class="mx-imgBorder"]
+> ![새 URL 제출 예제](../../media/submission-flyout-email.png)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>의심되는 URL을 Microsoft로 보내기
 
@@ -105,7 +106,8 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 4. 완료되면 제출 **단추를** 클릭합니다.
 
-   ![새 전자 메일 제출 예제](../../media/submission-url-flyout.png)
+> [!div class="mx-imgBorder"]
+> ![새 전자 메일 제출 예제](../../media/submission-url-flyout.png)
 
 ### <a name="submit-a-suspected-email-attachment-to-microsoft"></a>의심되는 전자 메일 첨부 파일을 Microsoft에 제출
 
@@ -119,7 +121,8 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 4. 완료되면 제출 **단추를** 클릭합니다.
 
-   ![새 첨부 파일 제출 예제](../../media/submission-file-flyout.PNG)
+> [!div class="mx-imgBorder"]
+> ![새 첨부 파일 제출 예제](../../media/submission-file-flyout.png)
 
 ## <a name="view-admin-submissions-to-microsoft"></a>Microsoft에 대한 관리자 제출 보기
 
@@ -157,7 +160,8 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
      완료되면 적용을 **클릭합니다.**
 
-     ![관리자 제출에 대한 새 필터 옵션](../../media/admin-submission-email-filter-options.png)
+     > [!div class="mx-imgBorder"]
+     > ![관리자 제출에 대한 새 필터 옵션](../../media/admin-submission-filters.png)
 
    - 항목을 그룹화하려면 그룹을 **클릭하고** 드롭다운 목록에서 다음 값 중 하나를 선택합니다.
      - **없음**
@@ -170,7 +174,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 ### <a name="admin-submission-rescan-details"></a>관리자 제출 세부 정보 다시 검색
 
-관리자 제출에 제출된 메시지는 다시 검색된 후 제출 세부 정보 플라이아웃에 표시됩니다.
+관리자 제출에 제출된 메시지는 검토 및 결과 제출 세부 정보 플라이아웃에 표시됩니다.
 
 - 전송 시 보낸 사람의 전자 메일 인증에 오류가 있는 경우입니다.
 - 메시지의 평가 결과에 영향을 주거나 재정의할 수 있는 정책 조회에 대한 정보입니다.
@@ -214,7 +218,8 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
      완료되면 적용을 **클릭합니다.**
 
-    ![사용자 제출에 대한 새 필터 옵션](../../media/user-submissions-filter-options.png)
+     > [!div class="mx-imgBorder"]
+     > ![사용자 제출에 대한 새 필터 옵션](../../media/admin-submission-reported-messages.png)
 
    - 항목을 그룹화하려면 그룹을 **클릭하고** 드롭다운 목록에서 다음 값 중 하나를 선택합니다.
      - **없음**
@@ -245,4 +250,5 @@ Microsoft로 메시지를 보내지 않고 사용자가 보고한 메시지를 �
 - **스팸 보고**
 - **조사 트리거**
 
-![동작 단추의 새 옵션](../../media/user-submission-custom-mailbox-action-button.png)
+> [!div class="mx-imgBorder"]
+> ![동작 단추의 새 옵션](../../media/admin-submission-main-action-button.png)

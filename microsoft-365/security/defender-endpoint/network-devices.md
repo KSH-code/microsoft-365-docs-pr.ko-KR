@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: da15519211599bfc248c20c36cfab456c1661caa
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 86b8a37fd6b2d6f9906321b5d74de0e21c45fca3
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862070"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062142"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>네트워크 장치 검색 및 취약성 관리
 
@@ -34,11 +34,6 @@ ms.locfileid: "51862070"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-
-> [!IMPORTANT]
-> **네트워크 장치 검사 및 관리는 현재 공개 미리 보기에 있습니다.**<br>
-> 이 미리 보기 버전은 서비스 수준 계약 없이 제공하며 프로덕션 워크로드에는 권장되지 않습니다. 일부 기능은 지원되지 않을 수도, 기능이 제한될 수도 있습니다.
-> 자세한 내용은 끝점 미리 보기 [기능용 Microsoft Defender를 참조하세요.](preview.md)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 

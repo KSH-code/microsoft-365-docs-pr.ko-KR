@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e26bb85fc74b6be49a9f8116792a7f28e8fa7e05
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: b6c2c9fe82486030814e89a0ff655d8f631064e4
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842269"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062300"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
 
@@ -90,8 +90,8 @@ ms.locfileid: "52842269"
 3. 다음 세부 정보를 입력합니다.
 
    **일반**
-   - 이름: MDATP macOS용 온보드
-   - 설명: MDATP EDR macOS용 온보더링
+   - 이름: macOS용 MDATP 온보드
+   - 설명: macOS용 EDR MDATP 관리
    - 범주: 없음
    - 배포 방법: 자동으로 설치
    - 수준: 컴퓨터 수준
@@ -106,32 +106,31 @@ ms.locfileid: "52842269"
 
     ![파일 업로드 속성 목록 파일의 이미지](images/jamfpro-plist-file.png)
 
-7. 열기 **를** 선택하고 온보더링 파일을 선택합니다.
+6. 열기 **를** 선택하고 온보더링 파일을 선택합니다.
 
     ![온보더링 파일의 이미지](images/jamfpro-plist-file-onboard.png)
 
-8. 를 **업로드.** 
+7. 를 **업로드.** 
 
     ![plist 파일 업로드 이미지](images/jamfpro-upload-plist.png)
 
-
-9. 범위 **탭을** 선택합니다.
+8. 범위 **탭을** 선택합니다.
 
     ![범위 탭의 이미지](images/jamfpro-scope-tab.png)
 
-10. 대상 컴퓨터를 선택합니다.
+9. 대상 컴퓨터를 선택합니다.
 
     ![대상 컴퓨터의 이미지](images/jamfpro-target-computer.png)
 
     ![대상 이미지](images/jamfpro-targets.png) 
 
-11. **저장** 을 선택합니다.
+10. **저장** 을 선택합니다.
 
     ![배포 대상 컴퓨터의 이미지](images/jamfpro-deployment-target.png)
 
     ![대상 컴퓨터의 이미지 선택](images/jamfpro-target-selected.png)
 
-12. **완료** 를 선택합니다.
+11. **완료** 를 선택합니다.
 
     ![대상 그룹 컴퓨터의 이미지](images/jamfpro-target-group.png)
 
@@ -139,11 +138,72 @@ ms.locfileid: "52842269"
 
 ## <a name="step-3-configure-microsoft-defender-for-endpoint-settings"></a>3단계: 끝점 설정에 맞게 Microsoft Defender 구성
 
-1.  끝점 구성 설정에 대해 다음 Microsoft Defender를 사용합니다.
+JAMF Pro GUI를 사용하여 Microsoft Defender 구성의 개별 설정을 편집하거나 텍스트 편집기에서 구성 Plist를 만들고 JAMF 2013에 업로드하여 레거시 메서드를 Pro.
+
+기본 설정 도메인과 정확히 일치해야 합니다. Microsoft Defender는 이 이름만 사용하며 관리되는 설정을 `com.microsoft.wdav`  `com.microsoft.wdav.ext` 로드합니다.
+
+GUI 메서드를 사용하려면 드물게 버전이 사용될 수 있지만 아직 Schema에 추가되지 않은 설정을 구성해야 `com.microsoft.wdav.ext` 합니다.
+
+### <a name="gui-method"></a>GUI 메서드
+
+1. Defender schema.js저장소에서 [](https://github.com/microsoft/mdatp-xplat/tree/master/macos/schema) 파일에 GitHub 다운로드하고 로컬 파일에 저장합니다.
+
+    ```bash
+    curl -o ~/Documents/schema.json https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/schema/schema.json
+    ```
+
+2. 컴퓨터 -> 구성 프로필 아래에 새 구성 프로필을 만들고 일반 탭에 다음 세부 **정보를 입력합니다.**
+
+    ![New profile](images/644e0f3af40c29e80ca1443535b2fe32.png)
+
+    - 이름: MDATP MDAV 구성 설정
+    - 설명:\<blank\>
+    - 범주: 없음(기본값)
+    - 수준: 컴퓨터 수준(기본값)
+    - 배포 방법: 자동으로 설치(기본값)
+
+3. **아래로 스크롤하여 Application & 사용자** 설정 탭으로 이동한 다음  외부 응용 프로그램을 선택하고 **사용자** 지정 **Schema를** 원본으로 사용하여 기본 설정 도메인에 사용합니다.
+
+    ![사용자 지정 스마마 추가](images/4137189bc3204bb09eed3aabc41afd78.png)
+
+4. 기본 `com.microsoft.wdav` 설정 도메인으로 입력하고,  1단계에서 다운로드한 업로드 schema.js추가를 클릭합니다.  **저장** 을 클릭합니다.
+
+    ![업로드 Schema](images/a6f9f556037c42fabcfdcb1b697244cf.png)
+
+5. 기본 설정 도메인 속성 아래에서 지원되는 모든 Microsoft Defender 구성 **설정을 볼 수 있습니다.** 속성 **추가/제거를** 클릭하여 관리하려는 설정을 선택하고 확인을  클릭하여 변경 내용을 저장합니다. (설정 선택하지 않은 왼쪽은 관리 구성에 포함되지 않을 경우 최종 사용자는 자신의 컴퓨터의 해당 설정을 구성할 수 있습니다.)
+
+    ![관리 설정 선택](images/817b3b760d11467abe9bdd519513f54f.png)
+
+6. 설정 값을 원하는 값으로 변경합니다. 추가 정보를 **클릭하여** 특정 설정에 대한 설명서를 얻을 수 있습니다. Plist 미리 보기를 클릭하여 구성 **plist의** 모양을 검사할 수 있습니다. 양식 **편집기를 클릭하여** 시각적 편집기로 돌아온다.
+
+    ![설정 값 변경](images/a14a79efd5c041bb8974cb5b12b3a9b6.png)
+
+7. 범위 **탭을** 선택합니다.
+
+    ![구성 프로필 범위](images/9fc17529e5577eefd773c658ec576a7d.png)
+
+8. **Contoso의 컴퓨터 그룹을 선택합니다.**
+
+9. **추가를** 선택한 다음 **저장을 선택합니다.**
+
+    ![구성 설정 - 추가](images/cf30438b5512ac89af1d11cbf35219a6.png)
+
+    ![구성 설정 - 저장](images/6f093e42856753a3955cab7ee14f12d9.png)
+
+10. **완료** 를 선택합니다. 새 구성 **프로필이 표시됩니다.**
+
+    ![구성 설정 - 완료](images/dd55405106da0dfc2f50f8d4525b01c8.png)
+
+Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러한 새 설정은 새 버전이 Github에 게시됩니다.
+업데이트하기만 하면 업데이트된 스마마를 다운로드하고, 기존 구성 프로필을 편집하고, **Application & 사용자** 지정 설정만하면 됩니다. 
+
+### <a name="legacy-method"></a>레거시 메서드
+
+1. 끝점 구성 설정에 대해 다음 Microsoft Defender를 사용합니다.
 
     - enableRealTimeProtection
     - passiveMode
-    
+
     >[!NOTE]
     >macOS용 타사 AV를 실행하기 위해 계획하는 경우 기본적으로 켜져 있지 않습니다. 를 로 `true` 설정
 
@@ -153,10 +213,10 @@ ms.locfileid: "52842269"
     - excludedFileName
     - exclusionsMergePolicy
     - allowedThreats
-    
+
     >[!NOTE]
     >EICAR이 샘플에 있습니다. 개념 증명을 진행하는 경우 EICAR을 테스트하는 경우 EICAR을 제거합니다.
-        
+
     - disallowedThreatActions
     - potentially_unwanted_application
     - archive_bomb
@@ -164,7 +224,7 @@ ms.locfileid: "52842269"
     - automaticSampleSubmission
     - tags
     - hideStatusMenuIcon
-    
+
      자세한 내용은 [Jamf 구성 프로필의 속성 목록을 참조하세요.](mac-preferences.md#property-list-for-jamf-configuration-profile)
 
      ```XML
@@ -270,10 +330,9 @@ ms.locfileid: "52842269"
 
 2. 파일을 로 `MDATP_MDAV_configuration_settings.plist` 저장합니다.
 
+3. Jamf Pro 대시보드에서 **컴퓨터** 를 열고 구성 **프로필이 있습니다.** **New()를* 클릭하고 **일반 탭으로** 전환합니다.
 
-3.  Jamf Pro 대시보드에서 일반 을 **선택합니다.**
-
-    ![새 Jamf Pro 이미지](images/644e0f3af40c29e80ca1443535b2fe32.png)
+    ![New profile](images/644e0f3af40c29e80ca1443535b2fe32.png)
 
 4. 다음 세부 정보를 입력합니다.
 
@@ -285,7 +344,7 @@ ms.locfileid: "52842269"
     - 배포 방법: 자동으로 설치(기본값)
     - 수준: 컴퓨터 수준(기본값)
 
-    ![MDAV MDATP 설정의 이미지](images/3160906404bc5a2edf84d1d015894e3b.png)
+    ![MDATP MDAV 구성 설정의 이미지](images/3160906404bc5a2edf84d1d015894e3b.png)
 
 5. 응용 **프로그램 & 사용자 지정 설정** 구성을 **선택합니다.**
 
@@ -344,7 +403,6 @@ ms.locfileid: "52842269"
 
     ![구성 설정 구성 프로필 이미지 이미지](images/dd55405106da0dfc2f50f8d4525b01c8.png)
 
-
 ## <a name="step-4-configure-notifications-settings"></a>4단계: 알림 설정 구성
 
 이러한 단계는 macOS 10.15(카탈로니아) 이상에서 적용할 수 있습니다.
@@ -354,7 +412,7 @@ ms.locfileid: "52842269"
 2. 새로 **추가를** 클릭하고 옵션에 대해 다음 세부 정보를 **입력합니다.**
     
     - Tab **일반**: 
-        - **이름:** MDATP MDAV 알림 설정 지정
+        - **이름:** MDATP MDAV 알림 설정
         - **설명:** macOS 10.15(카탈로니아) 이상
         - **범주:** *없음(기본값)*
         - **배포 방법:** 자동으로 *설치(기본값)*
@@ -430,7 +488,7 @@ ms.locfileid: "52842269"
     **일반** 
     
     - 이름: MDATP MDAV MAU 설정
-    - 설명: macOS용 MDATP Microsoft 자동 업데이트 설정
+    - 설명: MacOS용 MDATP에 대한 Microsoft 자동 업데이트 설정
     - 범주: 없음(기본값)
     - 배포 방법: 자동으로 설치(기본값)
     - 수준: 컴퓨터 수준(기본값)
@@ -491,7 +549,7 @@ ms.locfileid: "52842269"
 3. 다음 세부 정보를 입력합니다.
 
     **일반** 
-    - 이름: MDATP MDAV - EDR 및 AV에 대한 모든 디스크 액세스 권한 부여
+    - 이름: MDATP MDAV - 모든 디스크 액세스 권한을 EDR 및 AV
     - 설명: macOS 카탈로니아 이상에서 새로운 개인 정보 기본 설정 정책 컨트롤
     - 범주: 없음
     - 배포 방법: 자동으로 설치
@@ -585,7 +643,7 @@ ms.locfileid: "52842269"
     **일반** 
     
     - 이름: MDATP MDAV 커널 확장
-    - 설명: MDATP 확장명(kext)
+    - 설명: MDATP 커널 확장(kext)
     - 범주: 없음
     - 배포 방법: 자동으로 설치
     - 수준: 컴퓨터 수준
@@ -637,7 +695,7 @@ ms.locfileid: "52842269"
     **일반**
     
     - 이름: MDATP MDAV 시스템 확장
-    - 설명: MDATP 확장
+    - 설명: MDATP 시스템 확장
     - 범주: 없음
     - 배포 방법: 자동으로 설치
     - 수준: 컴퓨터 수준
@@ -697,7 +755,7 @@ ms.locfileid: "52842269"
         - **수준:** 컴퓨터 *수준(기본값)*
 
     - 탭 **콘텐츠 필터**:
-        - **필터 이름**: Microsoft Defender ATP 필터
+        - **필터 이름:** Microsoft Defender ATP 콘텐츠 필터
         - **식별자**: `com.microsoft.wdav`
         - 서비스 **주소,** **조직,** **사용자 이름,** **암호,** **인증서** 비워 두기(포함이 *선택되지* 않았습니다.
         - **필터 순서:** 검사기
@@ -770,7 +828,7 @@ ms.locfileid: "52842269"
     
     ![컴퓨터 화면의 스크린샷 자동으로 생성되는 설명](images/1aa5aaa0a387f4e16ce55b66facc77d1.png)
 
-7. **열기** 를 선택합니다. 표시 이름을 **으로** **Microsoft Defender Advanced Threat Protection Microsoft Defender 바이러스 백신.**
+7. **열기** 를 선택합니다. 표시 **이름을** **Microsoft Defender Advanced Threat Protection으로 설정하고** Microsoft Defender 바이러스 백신.
 
     **매니페스트 파일은** 필요하지 않습니다. 끝점용 Microsoft Defender는 매니페스트 파일 없이 작동합니다.
     
@@ -799,7 +857,7 @@ ms.locfileid: "52842269"
 
 11. **일반에서** 다음 세부 정보를 입력합니다.
 
-    - 표시 이름: MDATP Contoso 200329 v100.86.92 이상
+    - 표시 이름: MDATP 온보드 Contoso 200329 v100.86.92 이상
 
     ![구성 설정mdatponboard의 이미지 ](images/625ba6d19e8597f05e4907298a454d28.png)
 
@@ -814,9 +872,9 @@ ms.locfileid: "52842269"
  
     ![구성 설정 팩 구성 이미지](images/8fb4cc03721e1efb4a15867d5241ebfb.png)
 
-15. 추가 **단추를** 선택하고 Microsoft Defender Advanced Threat Protection **단추를 Microsoft Defender 바이러스 백신.**
+15. Microsoft  **Defender Advanced Threat Protection** 옆에 있는 추가 단추를 선택하고 Microsoft Defender 바이러스 백신.
 
-    ![구성 설정 및 MDA MDATP 이미지](images/526b83fbdbb31265b3d0c1e5fbbdc33a.png)
+    ![구성 설정의 이미지 MDATP 및 MDA 추가](images/526b83fbdbb31265b3d0c1e5fbbdc33a.png)
 
 16. **저장** 을 선택합니다.
 

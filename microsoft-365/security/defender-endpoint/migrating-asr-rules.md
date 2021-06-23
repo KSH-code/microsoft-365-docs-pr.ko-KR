@@ -15,12 +15,12 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: de65c134560ecca219de9174ff222d31dd578d31
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fd7c6a217c1bc1ce3b278afb911988b94a6951e0
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933784"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062158"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>타사 HIPS에서 ASR 규칙으로 마이그레이션
 
@@ -148,6 +148,6 @@ ms.locfileid: "51933784"
 
 참고 항목
 
-- [공격 표면 감소 FAQ](attack-surface-reduction-faq.md)
+- [공격 표면 감소 FAQ](attack-surface-reduction-faq.yml)
 - [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
 - [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)

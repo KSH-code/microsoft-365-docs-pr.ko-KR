@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 53e60578f575e94dfb51c1c5f44a3d7ffb91110b
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 0eaf34e6950e265514b14ff1fd0aa1c7bb9ab6b1
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52932821"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062204"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -42,6 +42,14 @@ ms.locfileid: "52932821"
 > [!TIP]
 > 아직 Microsoft Defender for Office 365 없는가요? [영업 담당자에게 평가판을 시작해 을(를) 시작해 을(를) 평가](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
+## <a name="june-2021"></a>2021년 6월
+
+- 피싱 방지 보안 팁 새 첫 번째 연락처 연락처 설정입니다. 이 보안 팁 보낸 사람이 보낸 전자 메일을 처음 받거나 보낸 사람의 전자 메일을 받지 않는 경우 표시됩니다. 이 설정 및 구성 방법에 대한 자세한 내용은 다음 문서를 참조하세요.
+
+- [첫 번째 보안 팁](set-up-anti-phishing-policies.md#first-contact-safety-tip)
+- [EOP에서 스팸 방지 정책 구성](configure-anti-phishing-policies-eop.md)
+- [Microsoft Defender에서 피싱 방지 정책 Office 365](configure-mdo-anti-phishing-policies.md)
+
 ## <a name="aprilmay-2021"></a>2021년 4월/5월
 
 - [전자 메일 엔터티 페이지:](mdo-email-entity-page.md)위협, 인증 및 감지, 검색 세부 정보 및 새로운 새로운 전자 메일 미리 보기 환경과 관련한 강화된 정보가 있는 전자 메일의 통합된 360도 보기입니다.
@@ -54,6 +62,7 @@ ms.locfileid: "52932821"
 - 헌팅 환경의 레코드 내보내기 제한을 9990에서 200,000으로 [늘리기](threat-explorer.md)
 - 헌팅 환경의 평가판 테넌트에 대한 탐색기(및 실시간 검색) 데이터 보존 및 검색 제한을 7일(이전 제한)에서 30일로 [확장](threat-explorer.md)
 - 탐색기 내에서 가장된  도메인 및 가장된 사용자라는 새로운 헌팅 피벗을 사용하여 보호된 사용자 또는 도메인에 대한 가장 공격을 검색합니다.  자세한 내용은 세부 [정보를 참조하세요.](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains) (Microsoft Defender for Office 365 요금제 1 또는 계획 2)
+- 새 첫 보안 팁 받는 사람이 보낸 사람의 전자 메일을 처음 받거나 보낸 사람의 전자 메일을 자주 받지 않는 경우를 위한 연락처입니다. 이 설정과 메일 흐름 규칙(전송 규칙)을 Exchange 구성하는 방법에 대한 자세한 내용은 첫 번째 연락처 [보안 팁.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
 
 ## <a name="december-2020"></a>2020년 12월
 
@@ -91,7 +100,7 @@ ms.locfileid: "52932821"
 
 - **인시던트 위젯이** 이제 작업 센터 **위젯이** 됩니다. (보안 및 준수 센터에서 보안 위젯을 & 위협 **관리로 이동** \> **검토**.) (Microsoft Defender for Office 365 요금제 2)
 
-- [안전 문서의](safe-docs.md) **Microsoft 365(미리 보기)**
+- [금고 문서의](safe-docs.md) **Microsoft 365(미리 보기)**
 
 ## <a name="december-2019"></a>2019년 12월
 
