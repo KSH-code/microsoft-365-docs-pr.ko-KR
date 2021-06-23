@@ -241,7 +241,7 @@
 #### [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
 #### [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
 #### [공격 표면 감소 규칙 사용자 지정](customize-attack-surface-reduction.md)
-#### [공격 표면 감소 FAQ](attack-surface-reduction-faq.md)
+#### [공격 표면 감소 FAQ](attack-surface-reduction-faq.yml)
 #### [공격 표면 감소 이벤트 보기](event-views.md)
 #### [공격 노출 영역 감소에 감사 모드 사용](audit-windows-defender.md)
 
