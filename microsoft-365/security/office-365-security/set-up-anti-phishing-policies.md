@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9e5cd60915699cd2adb42e575c25912f5f164a5b
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 850756acacc757526352b9249c0e9efbe82fac8d
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055128"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096804"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -141,9 +141,11 @@ ms.locfileid: "53055128"
 첫 **번째 보안 팁** 표시 Office 365 조직에 대해 EOP 및 Defender에서 사용할 수 있으며 스푸핑 인텔리전스 또는 가장 보호 설정에 종속되지 않습니다. 이 보안 팁 다음 시나리오에서 받는 사람에게 표시됩니다.
 
 - 보낸 사람으로부터 메시지를 처음 받을 때
-- 보낸 사람으로부터 메시지를 자주 수신하지 않는 경우.
+- 보낸 사람으로부터 메시지를 받을 수 없는 경우가 자주 있습니다.
 
-![여러 받는 보안 팁 가장 보호를 위한 문서 텍스트입니다.](../../media/safety-tip-first-contact-multiple-recipients.png)
+![첫 번째 보안 팁 받는 사람이 한 명인 메시지에 대한 연락처입니다.](../../media/safety-tip-first-contact-one-recipient.png)
+
+![첫 번째 보안 팁 받는 사람이 있는 메시지에 대한 연락처입니다.](../../media/safety-tip-first-contact-multiple-recipients.png)
 
 이 기능을 사용하면 잠재적인 가장 공격으로부터 보안을 강화할 수 있으므로 이 기능을 설정하는 것이 좋습니다.
 

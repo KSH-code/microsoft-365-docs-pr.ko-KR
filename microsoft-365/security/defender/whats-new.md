@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 582116047900fc5f28d5580398cf5c065e6a3e23
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 21f6947074f6a14e6ed1af3968ee94e403f0d0cd
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053026"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096819"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -38,6 +38,8 @@ RSS 피드: 다음 URL을 복사하여 피드 읽기에 붙여 넣는 방법을 
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
+## <a name="june-2021"></a>2021년 6월
+- 위협 분석 보고서의 [Microsoft 365 Defender 태그](threat-analytics.md) <br> 위협 태그를 사용하면 특정 위협 범주에 집중하고 가장 관련성이 높은 보고서를 검토할 수 있습니다. 
 
 ## <a name="april-2021"></a>2021년 4월
 - Microsoft 365 Defender<br> 이제 [향상된](https://security.microsoft.com) Microsoft 365 Defender 포털을 사용할 수 있습니다. 이 새로운 환경은 Endpoint용 Defender, Office 365, ID용 Defender 등 여러 정보를 단일 포털로 통합합니다. 보안 제어를 관리하는 새로운 홈입니다. [새로운 기능에 대해 알아보세요](./overview-security-center.md).

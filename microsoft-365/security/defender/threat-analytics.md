@@ -2,7 +2,7 @@
 title: 위협 분석을 사용하여 새로운 위협 추적 및 대응
 ms.reviewer: ''
 description: 새로운 위협 및 공격 기술과 이를 중지하는 방법에 대해 자세히 알아보십시오. 조직에 미치는 영향을 평가하고 조직 탄력성 평가
-keywords: 위협 분석, 위험 평가, Microsoft 365 Defender, M365D, 완화 상태, 보안 구성, Office 365용 Microsoft Defender, Office 365 위협 분석용 Microsoft Defender, MDO 위협 분석, MDE 및 MDO 위협 분석 통합, 위협 분석 데이터 통합, 통합 Microsoft 365 Defender 위협 분석
+keywords: 위협 분석, 위험 평가, Microsoft 365 Defender, M365D, 완화 상태, 보안 구성, Office 365용 Microsoft Defender, Office 365 위협 분석용 Microsoft Defender, MDO 위협 분석, MDE 및 MDO 위협 분석 통합, 위협 분석 데이터 통합, 통합된 Microsoft 365 Defender 위협 분석
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b87d1963b8ffa3751c13cea532c8d6436f69fbb9
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: d07a7210b8426349f18a2305069c4ed0a08ce660
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501210"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096846"
 ---
 # <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>위협 분석을 사용하여 새로운 위협 추적 및 대응 
 
@@ -116,6 +116,24 @@ _위협 분석 보고서의 개요 섹션_
 - **보안 구성 상태**- 잘못 구성된 보안 설정이 있는 장치 수를 보여줍니다. 권장 보안 설정을 적용하여 위협을 완화합니다. 추적된 **모든** 설정을 적용한 장치는 보안으로 간주됩니다. 
 - **취약성 패치 상태**- 취약한 디바이스의 수를 보여줍니다. 보안 업데이트 또는 패치를 적용하여 위협에 악용된 취약점을 해결합니다.
 
+#### <a name="view-reports-per-threat-tags"></a>위협 태그당 보고서 보기
+위협 보고서 목록을 필터링하고 특정 위협 태그(범주) 또는 보고서 유형에 따라 가장 관련성이 높은 보고서를 볼 수 있습니다. 
+- **위협 태그**- 특정 위협 범주에 따라 가장 관련성이 높은 보고서를 볼 수 있도록 합니다. 예를 들어 랜섬웨어와 관련된 모든 보고서입니다.
+- **보고서 유형**- 특정 보고서 유형에 따라 가장 관련성이 높은 보고서를 볼 수 있도록 합니다. 예를 들어 도구 및 기술을 다루는 모든 보고서입니다. 
+- **필터**- 위협 보고서 목록을 효율적으로 검토하고 특정 위협 태그 또는 보고서 유형을 기준으로 보기를 필터링하는 데 도움이 됩니다. 예를 들어 랜섬웨어 범주와 관련된 모든 위협 보고서 또는 취약점을 다루는 위협 보고서를 검토합니다.
+
+##### <a name="how-does-it-work"></a>작동 방식
+Microsoft 위협 인텔리전스 팀에서 각 위협 보고서에 위협 태그를 추가했습니다.
+- 이제 4개의 위협 태그를 사용할 수 있습니다.
+  - 랜섬웨어
+  - 피싱
+  - 취약성
+  - 활동 그룹
+- 위협 태그는 위협 분석 페이지의 맨 위에 표시하고 각 태그 아래에 사용 가능한 보고서 수에 대한 카운터를 제공합니다.
+    ![위협 태그](../../media/threat-analytics/ta-threattags-mtp.png)
+- 목록은 위협 태그: 목록별로 정렬할   ![ 수도 있습니다.](../../media/threat-analytics//ta-taglist-mtp.png)
+- 필터는 위협 태그 및 보고서 유형별로 사용할 수 있습니다.   ![ filters](../../media/threat-analytics/ta-threattag-filters-mtp.png)
+
 ### <a name="analyst-report-get-expert-insight-from-microsoft-security-researchers"></a>분석가 보고서: Microsoft 보안 연구원으로부터 전문가 인사이트 얻기
 분석가 **보고서 섹션에서** 자세한 전문가 쓰기를 읽어 읽습니다. 대부분의 보고서는 MITRE ATT&CK 프레임워크에 매핑된 전략 및 기술, 권장 사항의 전체 목록 및 강력한 위협 헌팅 지침을 포함하여 공격 체인에 대한 자세한 [설명을](advanced-hunting-overview.md) 제공합니다.
 
@@ -167,7 +185,7 @@ _위협 분석 보고서의 완화 섹션_
 >통합 보안 환경의 일부로, 위협 분석은 끝점용 Microsoft Defender 뿐만 아니라 Microsoft Defender for Office 사용할 수 있습니다.
 >Microsoft 365 보안 포털(Microsoft 365 Defender)을 사용하지 않는 경우 Microsoft Defender 보안 센터 포털(끝점용 Microsoft Defender)에서 보고서 세부 정보(Office 데이터에 대한 Microsoft Defender 없이)를 볼 수 있습니다. 
 
-위협 분석 보고서에 액세스하려면 특정 역할 및 사용 권한이 필요합니다. 자세한 내용은 역할 기반 액세스 [제어의 Microsoft 365 Defender를](custom-roles.md) 참조합니다.
+위협 분석 보고서에 액세스하려면 특정 역할 및 사용 권한이 필요합니다. 자세한 내용은 역할 기반 액세스 [제어의](custom-roles.md) 사용자 지정 Microsoft 365 Defender 참조합니다.
   - 경고, 인시던트 또는 영향을 미치는 자산 데이터를 보기 위해 Microsoft Defender에 대한 사용 권한을 Office 또는 끝점 경고 데이터용 Microsoft Defender에 대한 사용 권한이 Office 또는 둘 다에 대한 권한이 필요합니다.
   - 금지된 전자 메일 시도를 확인하려면 헌팅 데이터에 대한 Microsoft Defender에 Office 필요합니다. 
   - 완화를 보기 위해 끝점용 Microsoft Defender에서 데이터를 위협 및 취약성 관리 권한이 필요합니다.
@@ -178,7 +196,7 @@ _위협 분석 보고서의 완화 섹션_
 - 장치가 서비스로 데이터를 전송하지 않은 경우 장치는 "사용할 수 없음"으로 계산됩니다.
 - 바이러스 백신 관련 통계는 설정에 Microsoft Defender 바이러스 백신 합니다. 타사 바이러스 백신 솔루션이 있는 장치는 "노출"으로 표시될 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅을 통해 위협을 사전 대응적으로 찾기](advanced-hunting-overview.md) 
 - [분석가 보고서 섹션 이해](threat-analytics-analyst-reports.md)
 - [보안 약점 및 노출 평가 및 해결](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

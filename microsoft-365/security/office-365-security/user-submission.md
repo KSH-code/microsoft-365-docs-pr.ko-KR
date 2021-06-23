@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f59548a1f36e067d8b649f7fe22149362d6fe9c6
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 2dded27d87ee5db0d1e71b643fe8244408ef1a24
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083539"
+ms.locfileid: "53096159"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -134,24 +134,19 @@ ms.locfileid: "53083539"
 
 원래 첨부된 메시지를 올바르게 식별하려면 사용자 지정 사서함으로 전송되는 메시지에 특정 서식이 필요합니다. 메시지가 이 형식을 사용하지 않는 경우 원래 첨부된 메시지는 항상 피싱 전송으로 식별됩니다.
 
-원래 첨부된 메시지를 올바르게 식별하려면 사용자 지정 사서함으로 전송되는 메시지는 제목(봉투 제목)에 대해 다음 구문을 사용해야 합니다.
+원래 첨부된 메시지에 대해 보고된 이유를 지정하려면 사용자 지정 사서함으로 전송된 메시지(첨부 파일을 수정하지 않고)는 제목(봉투 제목)의 다음 주소 중 하나에서 시작해야 합니다.
 
-`SafetyAPIAction|NetworkMessageId|SenderIp|FromAddress|(Message Subject)`
+- 1| 또는 정크:
+- 2| 또는 정크 아님
+- 3| 또는 피싱
 
-여기서 SafetyAPIAction은 다음 정수 값 중 하나입니다.
+예를 들어 다음과 같습니다.
 
-- 1: 정크
-- 2: 정크 아님
-- 3: 피싱
+`3|This part is ignored by the system` <br>
+`Not Junk:This part of the subject is ignored as well`
 
-이 예제에서는 다음 값을 사용합니다.
+- 이러한 메시지는 모두 제목에 따라 정크 메일 아님으로 보고됩니다.
+- 나머지는 무시됩니다.
 
-- 메시지가 피싱으로 보고되고 있습니다.
-- 네트워크 메시지 ID는 49871234-6dc6-43e8-abcd-08d797f20abe입니다.
-- 보낸 사람 IP는 167.220.232.101입니다.
-- From 주소가 test@contoso.com.
-- 메시지의 제목 줄이 "테스트 피싱 제출"입니다.
-
-`3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phishing submission)`
 
 이 형식을 따르지 않는 메시지는 제출 포털에 제대로 표시되지 않습니다.

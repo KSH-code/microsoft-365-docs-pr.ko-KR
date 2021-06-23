@@ -22,77 +22,141 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 5e1eab67019184e337b7e5404bf96bdf26d0446d
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: de4c3c6454809cc1b7f78c0e5790fcbe8b3887c0
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061724"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096171"
 ---
-# <a name="archive-third-party-data"></a>타사 데이터 보관
+# <a name="archive-third-party-data-in-microsoft-365"></a>타사 데이터를 데이터 저장소에 Microsoft 365
 
 Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 조직 내 사서함으로 가져오고 보관할 Microsoft 365 있습니다. 데이터 커넥터를 사용하여 타사 데이터를 가져오고 Microsoft 365 한 가지 주요 이점은 가져온 후 다양한 Microsoft 365 규정 준수 솔루션을 적용할 수 있는 것입니다. 이렇게 하면 조직의 비 Microsoft 데이터가 조직에 영향을 주는 규정 및 표준을 준수하는지 보장할 수 있습니다.
 
 ## <a name="third-party-data-connectors"></a>타사 데이터 커넥터
 
-다음 표에는 데이터 원본에서 사용할 수 있는 타사 데이터 커넥터가 Microsoft 365 규정 준수 센터. 또한 이 표에는 타사 데이터를 가져와 보관한 후 타사 데이터에 적용할 수 있는 규정 준수 솔루션이 Microsoft 365. 각 규정 [준수 솔루션에](#overview-of-compliance-solutions-that-support-third-party-data) 대한 자세한 설명과 타사 데이터에 도움이 될 수 있는 방법에 대한 자세한 내용은 다음 섹션을 참조하세요.
+이 Microsoft 365 규정 준수 센터 Microsoft의 네이티브 타사 데이터 커넥터를 사용하여 LinkedIn, Instant Bloomberg, Twitter 등의 다양한 데이터 원본과 내부자 위험 관리 솔루션을 지원하는 데이터 커넥터에서 데이터를 가져올 수 있습니다. Microsoft는 이러한 데이터 커넥터 외에도 다음 파트너와 협력하여 데이터 커넥터에 더 많은 세 번째 부분 데이터 커넥터를 Microsoft 365 규정 준수 센터. 조직은 조직에서 해당 데이터 커넥터를 만들기 전에 이러한 파트너와 협력하여 보관 서비스를 Microsoft 365 규정 준수 센터.
 
-> [!TIP]
-> 타사 데이터 열의 링크를 클릭하여 해당 데이터 형식에 대한 커넥터를 만들기 위한 단계별 지침으로 이동하십시오. 
+- [Veritas](#veritas-data-connectors)
+
+- [TeleMessage](#telemessage-data-connectors)
+
+- [17a-4 LLC](#17a-4-data-connectors)
+
+- [CellTrust](#celltrust-data-connectors)
+
+다음 섹션에 나열된 타사 데이터(Microsoft 365 내부자 위험 관리 솔루션에 사용되는 HR 데이터 및 물리적 배지 데이터 제외)는 사용자 사서함으로 가져오기됩니다. 타사 Microsoft 365 지원하는 규정 준수 솔루션은 데이터가 저장되는 사용자 사서함에 적용됩니다.
+
+### <a name="microsoft-data-connectors"></a>Microsoft 데이터 커넥터
+
+다음 표에는 타사에서 사용할 수 있는 기본 타사 데이터 커넥터가 Microsoft 365 규정 준수 센터. 또한 이 표에는 타사 데이터를 가져오고 보관한 후에 적용할 수 있는 규정 준수 솔루션이 요약되어 Microsoft 365. 각 준수 [솔루션에](#overview-of-compliance-solutions-that-support-third-party-data) 대한 자세한 설명과 타사 데이터를 지원하는 방법에 대한 자세한 내용은 타사 데이터를 지원하는 규정 준수 솔루션 개요 섹션을 참조하세요.
+
+타사 데이터 열의 링크를 클릭하여 해당 데이터 형식에 대한 커넥터를 만들기 위한 단계별 지침으로 이동하십시오. 
 
 |타사 데이터  |소송 보류|eDiscovery  |보존 설정  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[Android <sup>1</sup>](archive-android-archiver-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[AT&T 네트워크 <sup>1</sup>](archive-att-network-archiver-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[종 네트워크 <sup>1</sup>](archive-bell-network-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[블룸버그 메시지](archive-bloomberg-message-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[CellTrust <sup>2</sup>](archive-celltrust-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[MS SQL <sup>2의</sup> Cisco Jabber](archive-ciscojabberonmssql-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Oracle <sup>2의</sup> Cisco Jabber](archive-ciscojabberonoracle-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[PostgreSQL <sup>2의</sup> Cisco Jabber](archive-ciscojabberonpostgresql-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[EML <sup>2</sup>](archive-eml-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[Enterprise 숫자 <sup>1</sup>](archive-enterprise-number-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Facebook](archive-facebook-data-with-sample-connector.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[FX 커넥트 <sup>2</sup>](archive-fxconnect-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[인사(인사)](import-hr-data.md) ||||||![확인 표시](../media/checkmark.png)
 |[ICE 채팅](archive-icechat-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Instant Bloomberg](archive-instant-bloomberg-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Jive <sup>2</sup>](archive-jive-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[LinkedIn](archive-linkedin-data.md)   |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[MS SQL Database <sup>2</sup>](archive-mssqldatabaseimporter-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[O2 네트워크 <sup>1</sup>](archive-o2-network-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[물리적 배지](import-physical-badging-data.md) ||||||![확인 표시](../media/checkmark.png)|
-|[피벗 <sup>2</sup>](archive-pivot-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Redtail Speak <sup>2</sup>](archive-redtailspeak-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[<sup>2를</sup> 다루는 Reuters](archive-reutersdealing-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Reuters Eikon <sup>2</sup>](archive-reuterseikon-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Reuters FX <sup>2</sup>](archive-reutersfx-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Salesforce Chatter <sup>2</sup>](archive-salesforcechatter-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[ServiceNow <sup>2</sup>](archive-servicenow-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[신호 <sup>1</sup>](archive-signal-archiver-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[비즈니스용 Skype <sup>2</sup>](archive-skypeforbusiness-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Slack eDiscovery <sup>2</sup>](archive-slack-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Symphony <sup>2</sup>](archive-symphony-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Telegram <sup>1</sup>](archive-telegram-archiver-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[TELUS 네트워크 <sup>1</sup>](archive-telus-network-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[텍스트로 나타선 <sup>2</sup>](archive-text-delimited-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
 |[Twitter](archive-twitter-data-with-sample-connector.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[Verizon Network <sup>1</sup>](archive-verizon-network-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Webex Teams <sup>2</sup>](archive-webexteams-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[웹 페이지 <sup>2</sup>](archive-webpagecapture-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[WeChat <sup>1</sup>](archive-wechat-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[WhatsApp <sup>1</sup>](archive-whatsapp-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[Facebook <sup>2의</sup> Workplace](archive-workplacefromfacebook-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[XIP <sup>2</sup>](archive-xip-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[XSLT/XML <sup>2</sup>](archive-xslt-xml-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[Yieldbroker <sup>2</sup>](archive-yieldbroker-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[확대/축소 모임 <sup>2</sup>](archive-zoommeetings-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 ||||||||
 
-> [!NOTE]
-> <sup>1</sup> TeleMessage에서 제공하는 데이터 커넥터입니다. 조직에 데이터를 Microsoft 365 조직에 대한 보관 서비스를 설정하기 위해 TeleMessage와 함께 작업해야 합니다. 자세한 내용은 이 데이터 형식에 대한 단계별 지침의 선행 단계 섹션을 참조하세요. TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있습니다. 자세한 내용은 이 문서의 [미국 정부](#data-connectors-in-the-us-government-cloud) 클라우드의 데이터 커넥터 섹션을 참조하세요. <br/><br/><sup>2</sup> Veritas에서 제공하는 데이터 커넥터입니다. 조직의 데이터를 보관할 Microsoft 365 조직에 대한 보관 서비스를 설정하기 위해 Veritas와 함께 작업해야 합니다. 자세한 내용은 이 데이터 형식에 대한 단계별 지침의 선행 단계 섹션을 참조하세요.
+### <a name="veritas-data-connectors"></a>Veritas 데이터 커넥터
 
-이전 표에 나열된 타사 데이터(HR 데이터 및 물리적 배지 데이터 제외)는 사용자 사서함으로 가져오기됩니다. 타사 데이터를 지원하는 해당 준수 솔루션은 데이터가 저장되는 사용자 사서함에 적용됩니다.
+이 섹션의 표에는 Veritas와 함께 사용할 수 있는 타사 데이터 커넥터가 나열됩니다. 또한 이 표에는 타사 데이터를 가져와 보관한 후 타사 데이터에 적용할 수 있는 규정 준수 솔루션이 요약되어 Microsoft 365. 각 준수 [솔루션에](#overview-of-compliance-solutions-that-support-third-party-data) 대한 자세한 설명과 타사 데이터를 지원하는 방법에 대한 자세한 내용은 타사 데이터를 지원하는 규정 준수 솔루션 개요 섹션을 참조하세요.
+
+타사 데이터를 조직에 보관하기 Microsoft 365 먼저 Veritas와 함께 조직에 대한 보관 *서비스(Merge1)를* 설정해야 합니다. 자세한 내용은 타사 데이터 열의 링크를 클릭하여 해당 데이터 형식에 대한 커넥터를 만들기 위한 단계별 지침으로 이동하십시오. 
+
+|타사 데이터  |소송 보류|eDiscovery  |보존 설정  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[CellTrust](archive-celltrust-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[MS SQL의 Cisco Jabber](archive-ciscojabberonmssql-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Oracle의 Cisco Jabber](archive-ciscojabberonoracle-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[PostgreSQL의 Cisco Jabber](archive-ciscojabberonpostgresql-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[EML](archive-eml-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[FX 연결](archive-fxconnect-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Jive](archive-jive-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[MS SQL Database](archive-mssqldatabaseimporter-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[Pivot](archive-pivot-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Redtail Speak](archive-redtailspeak-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Reuters Dealing](archive-reutersdealing-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Reuters Eikon](archive-reuterseikon-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Reuters FX](archive-reutersfx-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Salesforce Chatter](archive-salesforcechatter-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[ServiceNow](archive-servicenow-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[Slack eDiscovery](archive-slack-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Symphony](archive-symphony-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[텍스트 구분](archive-text-delimited-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[Webex Teams](archive-webexteams-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[웹 페이지](archive-webpagecapture-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[Facebook의 작업 영역](archive-workplacefromfacebook-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[XIP](archive-xip-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[XSLT/XML](archive-xslt-xml-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[Yieldbroker](archive-yieldbroker-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Zoom 모임](archive-zoommeetings-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+||||||||
+
+### <a name="telemessage-data-connectors"></a>TeleMessage 데이터 커넥터
+
+이 섹션의 표에는 TeleMessage와 함께 사용할 수 있는 타사 데이터 커넥터가 나열됩니다. 또한 이 표에는 타사 데이터를 가져와 보관한 후 타사 데이터에 적용할 수 있는 규정 준수 솔루션이 요약되어 Microsoft 365. 각 준수 [솔루션에](#overview-of-compliance-solutions-that-support-third-party-data) 대한 자세한 설명과 타사 데이터를 지원하는 방법에 대한 자세한 내용은 타사 데이터를 지원하는 규정 준수 솔루션 개요 섹션을 참조하세요.
+
+타사 데이터를 보관할 수 Microsoft 365 조직에 대한 보관 서비스를 설정하기 위해 TeleMessage와 함께 작업해야 합니다. 자세한 내용은 타사 데이터 열의 링크를 클릭하여 해당 데이터 형식에 대한 커넥터를 만들기 위한 단계별 지침으로 이동하십시오. 
+
+TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있습니다. 자세한 내용은 이 문서의 미국 정부 클라우드의 데이터 커넥터 섹션을 참조하세요.
+
+|타사 데이터  |소송 보류|eDiscovery  |보존 설정  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[Android ](archive-android-archiver-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[AT&T 네트워크 ](archive-att-network-archiver-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[종 네트워크 ](archive-bell-network-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Enterprise 숫자](archive-enterprise-number-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[O2 네트워크 ](archive-o2-network-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[TELUS 네트워크 ](archive-telus-network-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Verizon Network ](archive-verizon-network-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[WeChat ](archive-wechat-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[WhatsApp ](archive-whatsapp-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+||||||||
+
+### <a name="17a-4-data-connectors"></a>17a-4 데이터 커넥터
+
+이 섹션의 표에는 17a-4 LLC와 함께 사용할 수 있는 타사 데이터 커넥터가 나열됩니다. 또한 이 표에는 타사 데이터를 가져와 보관한 후 타사 데이터에 적용할 수 있는 규정 준수 솔루션이 요약되어 Microsoft 365. 각 준수 [솔루션에](#overview-of-compliance-solutions-that-support-third-party-data) 대한 자세한 설명과 타사 데이터를 지원하는 방법에 대한 자세한 내용은 타사 데이터를 지원하는 규정 준수 솔루션 개요 섹션을 참조하세요.
+
+타사 데이터를 보관할 수 Microsoft 365 먼저 Veritas와 함께 조직에 대한 보관 *서비스(DataParser)를* 설정해야 합니다. 자세한 내용은 타사 데이터 열의 링크를 클릭하여 해당 데이터 형식에 대한 커넥터를 만들기 위한 단계별 지침으로 이동하십시오. 
+
+|타사 데이터  |소송 보류|eDiscovery  |보존 설정  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[BlackBerry](archive-17a-4-blackberry-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Bloomberg ](archive-17a-4-bloomberg-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Cisco Jabber ](archive-17a-4-cisco-jabber-data.md)   |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Cisco Webex ](archive-17a-4-webex-teams-data.md)   |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[FactSet ](archive-17a-4-factset-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Fuze ](archive-17a-4-fuze-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[FX 커넥트](archive-17a-4-fxconnect-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[ICE 채팅](archive-17a-4-ice-im-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[InvestEdge ](archive-17a-4-investedge-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[LivePerson 대화 클라우드 ](archive-17a-4-liveperson-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Quip ](archive-17a-4-quip-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Refinitiv Eikon Messenger](archive-17a-4-refinitiv-messenger-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[ServiceNow ](archive-17a-4-servicenow-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Slack ](archive-17a-4-slack-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Symphony ](archive-17a-4-symphony-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[확대/축소 ](archive-17a-4-zoom-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+||||||||
+
+### <a name="celltrust-data-connectors"></a>CellTrust 데이터 커넥터
+
+이 섹션의 표에는 CellTrust와 함께 사용할 수 있는 타사 데이터 커넥터가 나열됩니다. 또한 이 표에는 타사 데이터를 가져와 보관한 후 타사 데이터에 적용할 수 있는 규정 준수 솔루션이 요약되어 Microsoft 365. 각 준수 [솔루션에](#overview-of-compliance-solutions-that-support-third-party-data) 대한 자세한 설명과 타사 데이터를 지원하는 방법에 대한 자세한 내용은 타사 데이터를 지원하는 규정 준수 솔루션 개요 섹션을 참조하세요.
+
+타사 데이터를 보관할 수 Microsoft 365 조직에 대한 보관 서비스(CellTrust SL2)를 설정하기 위해 *CellTrust와* 함께 작업해야 합니다. 자세한 내용은 **타사** 데이터 열의 링크를 클릭하여 CellTrust SL2 커넥터를 만들기 위한 단계별 지침으로 이동하세요.
+
+|타사 데이터  |소송 보류|eDiscovery  |보존 설정  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[CellTrust SL2](archive-data-from-celltrustsl2.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+||||||||
 
 ## <a name="overview-of-compliance-solutions-that-support-third-party-data"></a>타사 데이터를 지원하는 규정 준수 솔루션 개요
 
