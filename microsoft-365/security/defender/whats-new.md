@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 0068d5aeef1289d8775dcefd0b4f60cb8f8ed0de
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: 78783ab98c50252115c28008680197256bfd7aa5
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105407"
+ms.locfileid: "53114740"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -38,6 +38,8 @@ RSS 피드: 다음 URL을 복사하여 피드 읽기에 붙여 넣는 방법을 
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
+## <a name="june-2021"></a>2021년 6월
+- 위협 분석 보고서의 [Microsoft 365 Defender 태그](threat-analytics.md) <br> 위협 태그를 사용하면 특정 위협 범주에 집중하고 가장 관련성이 높은 보고서를 검토할 수 있습니다. 
 
 ## <a name="may-2021"></a>2021년 5월
 

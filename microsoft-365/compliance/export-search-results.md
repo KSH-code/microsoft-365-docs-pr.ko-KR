@@ -20,14 +20,14 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
-description: 준수 센터의 콘텐츠 검색에서 Microsoft 365 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 전자 메일 결과는 PST 파일로 내보낼 수 있습니다. 사이트 SharePoint 비즈니스용 OneDrive 콘텐츠는 기본 Office 내보낼 수 있습니다.
+description: 콘텐츠 검색의 검색 결과를 로컬 Microsoft 365 규정 준수 센터 내보낼 수 있습니다. 전자 메일 결과는 PST 파일로 내보낼 수 있습니다. 사이트 SharePoint 비즈니스용 OneDrive 콘텐츠는 기본 Office 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b39bb52457599090f2898da222c71a3a56889290
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: d3ae14fc0ac31e50d579668c7fafba5390c5b8fc
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653538"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114767"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -90,7 +90,7 @@ ms.locfileid: "52653538"
 
 첫 번째 단계는 검색 결과의 내보내기를 준비하는 것입니다. 결과를 준비하면 Microsoft 클라우드의 Microsoft Azure Storage 위치에 업로드됩니다. 사서함 및 사이트의 콘텐츠는 시간당 최대 2GB의 속도로 업로드됩니다.
   
-1. 준수 Microsoft 365 센터에서 결과를 내보낼 콘텐츠 검색을 선택합니다.
+1. 다음 Microsoft 365 규정 준수 센터 검색에서 결과를 내보낼 콘텐츠 검색을 선택합니다.
   
 2. **플라이아웃** 페이지의 아래쪽에 있는 작업 메뉴에서 결과 **내보내기 를 클릭합니다.**
 
@@ -133,6 +133,8 @@ ms.locfileid: "52653538"
    2. 모든 버전의 파일을 **SharePoint 파일** 포함 확인란을 선택하여 모든 버전의 SharePoint 내보낼 수 있습니다. 이 옵션은 검색의 콘텐츠 원본에 사이트 또는 사이트가 포함된 SharePoint 비즈니스용 OneDrive 표시됩니다.
   
    3. 압축된(zip) 폴더에서 파일 **내보내기를 선택합니다. 검색 결과를** 압축된 폴더로 내보내기 위한 개별 메시지와 SharePoint 확인란만 포함합니다. 이 옵션은 개별 메시지로 Exchange 내보낼 때 그리고 검색 결과에 문서 또는 문서의 SharePoint OneDrive 표시됩니다. 이 옵션은 주로 항목을 내보낼 때 파일 경로 Windows 260자 제한을 사용하는 데 사용됩니다. 자세한 내용은 추가 정보 섹션에서 "내보낼 항목의 [파일 이름"을 참조하세요.](#more-information)
+   > [!IMPORTANT]
+   > 압축된(압축된) 폴더에 파일을 내보내면 내보내기 시간도 늘어날 수 있습니다.
   
 6. 내보내기 **를** 클릭하여 내보내기 프로세스를 시작합니다. 검색 결과는 다운로드할 수 있습니다. 즉, 원래 콘텐츠 위치에서 수집된 다음 Microsoft 클라우드의 Azure Storage 위치로 업로드됩니다. 이 작업에는 몇 분이 걸릴 수 있습니다.
 
@@ -142,7 +144,7 @@ ms.locfileid: "52653538"
 
 다음 단계는 검색 결과를 로컬 컴퓨터로 Azure Storage 다운로드하는 것입니다.
   
-1. 준수 **센터의** 콘텐츠 Microsoft 365 **내보내기 탭을** 선택합니다.
+1. 콘텐츠 **검색 페이지의** Microsoft 365 규정 준수 센터 **내보내기 탭을** 선택합니다.
   
    새로 고침을 **클릭하여** 만든 내보내기 작업이 표시될 수 있도록 내보내기 작업 목록을 업데이트해야 할 수 있습니다. 내보내기 작업의 이름은 검색 이름에  추가된 _Export 검색과 동일합니다.
   
@@ -173,7 +175,7 @@ ms.locfileid: "52653538"
 
 7. **시작** 을 클릭하여 컴퓨터에 검색 결과를 다운로드합니다.
   
-    **eDiscovery 내보내기 도구** 는 다운로드할 남은 항목의 예상 개수(크기)를 포함하여 내보내기 프로세스에 대한 상태 정보를 표시합니다. 내보내기 프로세스가 완료되면 다운로드된 위치에 있는 파일에 액세스할 수 있습니다.
+    **eDiscovery 내보내기 도구** 는 다운로드할 남은 항목의 예상 개수(크기)를 포함하여 내보내기 프로세스에 대한 상태 정보를 표시합니다. 내보내기 프로세스가 완료되면 다운로드된 위치에서 파일에 액세스할 수 있습니다.
 
 ## <a name="more-information"></a>추가 정보
 

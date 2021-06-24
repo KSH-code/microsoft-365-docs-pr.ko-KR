@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
-description: Microsoft 365 준수 센터의 콘텐츠 검색을 사용하여 특정 사서함 또는 사이트 폴더의 항목을 검색하는 대상 컬렉션을 수행할 수 있습니다.
-ms.openlocfilehash: cf0364d39a78e1bbbc062d85ce750d190fbbda5a
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+description: 검색 창의 콘텐츠 Microsoft 365 규정 준수 센터 사용하여 특정 사서함 또는 사이트 폴더의 항목을 검색하는 대상 컬렉션을 수행할 수 있습니다.
+ms.openlocfilehash: 925a6e5e0e56c63cde8bfa1b39cca6e64abcd016
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311907"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114755"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>대상 컬렉션에 콘텐츠 검색 사용
 
-Microsoft 365 준수 센터의 콘텐츠 검색 도구는 사서함 또는 Exchange 및 SharePoint 사이트의 특정 폴더를 검색하는 직접적인 비즈니스용 OneDrive 없습니다. 그러나 실제 검색 쿼리 구문에서 사이트의 전자 메일 또는 경로(DocumentLink) 속성에 대한 폴더 ID 속성을 지정하여 특정 폴더(대상 컬렉션이라고도 합니다.)를 검색할 수 있습니다. 콘텐츠 검색을 사용하여 대상 컬렉션을 수행하면 사례 또는 권한 있는 항목에 응답하는 항목이 특정 사서함 또는 사이트 폴더에 있다는 확신이 있는 경우 유용합니다. 이 문서의 스크립트를 사용하여 사서함 폴더의 폴더 ID를 얻을 수도 있으며, 사서함 폴더 및 폴더의 경로(DocumentLink)를 SharePoint 비즈니스용 OneDrive 있습니다. 그런 다음 검색 쿼리의 폴더 ID 또는 경로를 사용하여 폴더에 있는 항목을 반환할 수 있습니다.
+Microsoft 365 규정 준수 센터 콘텐츠 검색 도구는 UI에서 특정 폴더를 검색하는 직접적인 Exchange 사서함 또는 SharePoint 비즈니스용 OneDrive 없습니다. 그러나 실제 검색 쿼리 구문에서 사이트의 전자 메일 또는 경로(DocumentLink) 속성에 대한 폴더 ID 속성을 지정하여 특정 폴더(대상 컬렉션이라고도 합니다.)를 검색할 수 있습니다. 콘텐츠 검색을 사용하여 대상 컬렉션을 수행하면 사례 또는 권한 있는 항목에 응답하는 항목이 특정 사서함 또는 사이트 폴더에 있다는 확신이 있는 경우 유용합니다. 이 문서의 스크립트를 사용하여 사서함 폴더의 폴더 ID를 얻을 수도 있으며, 사서함 폴더 및 폴더의 경로(DocumentLink)를 SharePoint 비즈니스용 OneDrive 있습니다. 그런 다음 검색 쿼리의 폴더 ID 또는 경로를 사용하여 폴더에 있는 항목을 반환할 수 있습니다.
 
 > [!NOTE]
 > 이 항목의 스크립트는 SharePoint 비즈니스용 OneDrive 폴더에 있는 콘텐츠를 반환하기 위해 Path 속성 대신 DocumentLink 관리 속성을 사용합니다. DocumentLink 속성은 폴더의 모든 콘텐츠를 반환하기 때문에 Path 속성보다 강력하고 Path 속성은 일부 미디어 파일을 반환하지 않습니다.
@@ -216,17 +216,19 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
 
 ## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>2단계: 폴더 ID 또는 문서 링크를 사용하여 대상 컬렉션 수행
 
-스크립트를 실행하여 특정 사용자에 대한 폴더 ID 또는 문서 링크 목록을 수집한 후 Microsoft 365 준수 센터로 이동하여 특정 폴더를 검색하는 새 콘텐츠 검색을 만들어야 합니다. 콘텐츠 검색 키워드 상자에서 구성한 검색 쿼리에서 or property:value 쌍을 사용하거나 `folderid:<folderid>` `documentlink:<path>` **New-ComplianceSearch** cmdlet을 사용하는 경우 *ContentMatchQuery* 매개 변수의 값으로 사용합니다. 또는 속성을 다른 검색 매개 변수  `folderid`  `documentlink` 또는 검색 조건과 결합할 수 있습니다. 쿼리에 or 속성만 포함하면 지정한 폴더에 있는 모든 항목이  `folderid`  `documentlink` 검색에 반환됩니다.
+스크립트를 실행하여 특정 사용자에 대한 폴더 ID 또는 문서 링크 목록을 수집한 후 다음 단계로 이동하여 특정 폴더를 Microsoft 365 규정 준수 센터 새 콘텐츠 검색을 만들어야 합니다. 콘텐츠 검색 키워드 상자에서 구성한 검색 쿼리에서 or property:value 쌍을 사용하거나 `folderid:<folderid>` `documentlink:<path>` **New-ComplianceSearch** cmdlet을 사용하는 경우 *ContentMatchQuery* 매개 변수의 값으로 사용합니다. 또는 속성을 다른 검색 매개 변수  `folderid`  `documentlink` 또는 검색 조건과 결합할 수 있습니다. 쿼리에 or 속성만 포함하면 지정한 폴더에 있는 모든 항목이  `folderid`  `documentlink` 검색에 반환됩니다.
 
 1. 1단계에서 스크립트를 실행하기 위해 사용한 계정 및 자격 증명으로 <https://compliance.microsoft.com> 이동하여 로그인합니다.
 
 2. 준수 센터의 왼쪽 창에서 모든 콘텐츠 검색 표시를 클릭한 다음  >  새 검색 **을 클릭합니다.**
 
-3. 키워드 **상자에** 1단계의 스크립트에서 반환된 또는 값을 `folderid:<folderid>`  `documentlink:<path>` 붙여 넣습니다.
+3. 키워드 **상자에** 1단계의 스크립트에서 반환된 또는 값을 `folderid:<folderid>`  `documentlink:<path>/*` 붙여 넣습니다.
 
     예를 들어 다음 스크린샷의 쿼리는 사용자의 복구 가능한 항목 폴더에 있는 제거 하위 폴더의 항목을 검색합니다. 제거 하위 폴더의 속성 값은 1단계의 스크린샷에 표시됩니다. `folderid`
 
     ![검색 쿼리의 키워드 상자에 folderid 또는 documentlink를 붙여 넣습니다.](../media/FolderIDSearchQuery.png)
+    > [!IMPORTANT]
+    > documentlink 검색에는 후행 을 사용해야  `asterisk '/*'` 합니다.  
 
 4. 위치 **아래에서** 특정 **위치를 선택한** 다음 수정을 **클릭합니다.**
 
@@ -259,13 +261,13 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
 - 이 예제에서는 사이트 폴더와 모든 하위 폴더에서 제목에 "NDA"라는 문자가 포함된 문서를 검색합니다.
 
   ```powershell
-  documentlink:<path> AND filename:nda
+  documentlink:"<path>/*" AND filename:nda
   ```
 
 - 이 예제에서는 사이트 폴더와 모든 하위 폴더에서 날짜 범위 내에서 변경된 문서를 검색합니다.
 
   ```powershell
-  documentlink:<path> AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
+  documentlink:"<path>/*" AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
   ```
 
 ## <a name="more-information"></a>추가 정보
