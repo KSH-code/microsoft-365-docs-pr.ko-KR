@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e9aa3a72a36a146d121c9302a4b6cb126e765671
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 9aa67d7875bb7f81c6569b56704d221b57378962
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082783"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108502"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -198,7 +198,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 1. [직장 또는 학교 계정을 사용](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)하여 Microsoft 365 Defender 포털을 엽니다.
 
-2. **Email & collaboration**(전자 메일 및 공동 작업) \> **Policies & rules**(정책 및 규칙) \> **Threat policies**(정책 위협) \> **규칙** 섹션 \> **DKIM** 으로 이동합니다. 또는 <https://security.microsoft.com/dkimv2> 페이지를 통해 DKIM 페이지로 직접 이동할 수 있습니다.
+2. **Email & collaboration**(전자 메일 및 공동 작업) \> **Policies & rules**(정책 및 규칙) \> **Threat policies**(정책 위협) 페이지 \> **규칙** 섹션 \> **DKIM** 으로 이동합니다. 또는 <https://security.microsoft.com/dkimv2> 페이지를 통해 DKIM 페이지로 직접 이동할 수 있습니다.
 
 3. **DKIM** 페이지에서 이름을 클릭하여 도메인을 선택합니다.
 
