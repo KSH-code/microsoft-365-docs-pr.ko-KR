@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c5dc14c71c344bf508cda8d39f892d740781ac87
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 6dca58070d21271ffc832bcd628679303736f99e
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933124"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108142"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-linux-for-static-proxy-discovery"></a>정적 프록시 검색을 위해 Linux에서 끝점에 대한 Microsoft Defender 구성
 
@@ -73,6 +73,9 @@ Microsoft Defender for Endpoint는 환경 변수를 사용하여 프록시 서�
 ## <a name="post-installation-configuration"></a>설치 후 구성
   
 설치 후 `HTTPS_PROXY` 환경 변수는 Endpoint 서비스용 Defender 파일에 정의되어야 합니다. 이렇게 하도록 루트 사용자로 실행 하는 동안 텍스트 `/lib/systemd/system/mdatp.service` 편집기에서 를 여는 합니다. 그런 다음 다음 두 가지 방법 중 하나를 사용하여 변수를 서비스에 전파할 수 있습니다.
+
+    > [!NOTE]
+    > On CentOS or RedHat Linux distributions the location of the Endpoint service file is `/usr/lib/systemd/system/mdatp.service`.
 
 - 줄의 줄의 줄을 `#Environment="HTTPS_PROXY=http://address:port"` 지우고 정적 프록시 주소를 지정합니다.
 

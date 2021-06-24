@@ -1,5 +1,5 @@
 ---
-title: Defender for Office 365
+title: Defender for 금고 링크 설정에 대한 전역 Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Microsoft Defender for Office 365 링크에 대한 전역 설정('다음 URL 차단' 목록 및 Office 365 앱 보호)을 보고 구성하는 방법을 Office 365.
+description: 관리자는 Microsoft Defender for 금고 링크에 대한 전역 설정("다음 URL 차단" 목록 및 Office 365 앱 보호)을 보고 구성하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5b1bcdaf92412b17b231e3f4849bae8aab72f292
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 46bafd89400dfa551641c055f6f0e208c0ecd49f
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878535"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108046"
 ---
-# <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 안전한 링크에 대한 전역 Office 365
+# <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 링크에 대한 전역 설정 Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,28 +36,28 @@ ms.locfileid: "52878535"
 > [!IMPORTANT]
 > 이 문서는 [Office 365용 Microsoft Defender](defender-for-office-365.md)가 있는 비즈니스 고객을 대상으로 합니다. 사용자 계정의 Safelinks에 대한 정보를 찾는 가정용 사용자인 Outlook [고급 Outlook.com 보안 을 참조하세요.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
 
-안전한 링크는 메일 흐름에서 [인바운드 전자 Office 365](defender-for-office-365.md) URL 검색을 제공하는 Microsoft Defender for Office 365 기능으로, 전자 메일 메시지 및 기타 위치에서 URL 및 링크 확인을 클릭하는 시간을 제공합니다. 자세한 내용은 Microsoft [Defender for Office 365.](safe-links.md)
+금고 링크는 메일 흐름에서 [인바운드](defender-for-office-365.md) 전자 Office 365 URL 검색을 제공하는 Microsoft Defender for Office 365 기능으로, 전자 메일 메시지 및 기타 위치에서 URL 및 링크 확인을 클릭하는 시간을 제공합니다. 자세한 내용은 microsoft [Defender에서](safe-links.md)금고 링크를 참조하세요Office 365.
 
-안전한 링크 정책에서 대부분의 안전한 링크 설정을 구성합니다. 자세한 내용은 [Set up Safe Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
+링크 정책에서 대부분의 금고 링크 금고 구성합니다. 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
-그러나 안전한 링크는 안전한 링크 정책 외부에서 구성하는 다음과 같은 전역 설정도 사용합니다.
+그러나 금고 링크는 링크 정책 자체 외부에서 구성하는 금고 전역 설정도 사용합니다.
 
-- 다음 **URL 차단 목록** 이 설정은 활성 안전 링크 정책에 포함된 모든 사용자에게 적용됩니다. 자세한 내용은 [안전한 링크에 대한 "다음 URL 차단" 목록을 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
-- 앱에 대한 안전한 Office 365 보호합니다. 이러한 설정은 사용자가 활성 안전 링크 정책에 포함되어 있는지 여부에 관계없이 Office 365 대한 Defender 사용이 허가된 조직의 모든 사용자에게 적용됩니다. 자세한 내용은 앱의 안전한 링크 [Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)
+- 다음 **URL 차단 목록** 이 설정은 모든 활성 링크 정책에 포함된 모든 금고 적용됩니다. 자세한 내용은 링크에 대한 "다음 URL [차단" 금고 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
+- 금고 앱에 대한 Office 365 보호합니다. 이러한 설정은 사용자가 활성 링크 정책에 포함되어 있는지 여부에 관계없이 Office 365 대한 Defender 사용이 허가된 조직의 금고 적용됩니다. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)
 
-Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 전역 안전 링크 설정을 구성할 수 있습니다(Exchange Online 사서함이 있는 적격 Microsoft 365 조직, Exchange Online 사서함이 없는 조직용 독립 실행형 EOP PowerShell, Office 365 추가 기능 구독의 경우 Microsoft Defender를 사용하여 구성할 수 있습니다.
+Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 전역 Exchange Online 링크 설정을 구성할 수 있습니다. Exchange Online 사서함이 있는 적격 Microsoft 365 조직의 경우, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell은 Office 365 추가 기능 구독용 Microsoft Defender를 사용하여 구성할 수 있습니다. 금고
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
-- 기본 제공 또는 기본 안전 링크 정책이 아니기 때문에 다음 URL 차단 목록이 활성화될 수 있도록 하나 이상의 안전 링크 정책을 만들어야 합니다.  자세한 내용은 [Set up Safe Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
+- 기본 제공 또는 기본 금고 링크 정책이 있으므로 다음 URL 차단 목록이 금고 링크 정책을 하나  이상 만들어야 합니다. 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
-- 에서 Microsoft 365 Defender 포털을 열 수 <https://security.microsoft.com> 있습니다. 안전한 링크 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/safelinksv2> 사용하세요.
+- <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. 링크 페이지로 직접 금고 **를** <https://security.microsoft.com/safelinksv2> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 이 게시물의 절차를 수행하려면 먼저 **Exchange Online** 에서 사용 권한을 할당받아야 합니다.
-  - 안전한 링크에 대한 전역 설정을 구성하려면 조직 관리  또는 보안 관리자 역할 그룹의 **구성원이** 해야 합니다.
-  - 안전한 링크에 대한 전역 설정에 대한 읽기 전용 액세스의  경우 전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나.
+  - 금고 링크에 대한 전역 설정을 구성하려면 조직 관리 또는  보안 관리자 역할 그룹의 **구성원이** 되어야 합니다.
+  - 금고 링크에 대한 전역 설정에 대한 읽기 전용 액세스 권한을 사용하려면  전역 읽기 그룹 또는 보안 읽기 읽기 권한이 있는 역할 그룹의 **구성원이** 되어야 합니다.
 
   자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
@@ -66,19 +66,19 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
-- 안전한 링크에 대한 전역 설정에 대한 권장 값은 안전한 링크 [설정을 참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-settings)
+- 링크의 전역 설정에 대한 권장 금고 링크 금고 [참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-settings)
 
 - 새 정책 또는 업데이트된 정책을 적용하는 데 최대 30분을 허용합니다.
 
-- [새로운 기능은 계속해서](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365)Microsoft Defender for Office 365. 새 기능이 추가될 때 기존 안전 링크 정책을 조정해야 할 수 있습니다.
+- [새로운 기능은 계속해서](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365)Microsoft Defender for Office 365. 새 기능이 추가될 때 기존 링크 정책에 대한 조정을 금고 있습니다.
 
-## <a name="configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 "다음 URL 차단" Microsoft 365 구성
+## <a name="configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal"></a>웹 사이트 포털에서 "다음 URL 차단" Microsoft 365 Defender 구성
 
-다음 **URL 차단 목록은** 지원되는 앱에서 안전 링크 검색을 통해 항상 차단해야 하는 링크를 식별합니다. 자세한 내용은 [안전한 링크에 대한 "다음 URL 차단" 목록을 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
+다음 **URL 차단 목록은** 지원되는 앱에서 링크 검색을 금고 차단해야 하는 링크를 식별합니다. 자세한 내용은 링크에 대한 "다음 URL [차단" 금고 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 및 규칙 위협 정책 & 링크 \>  \>  \>  \> **섹션으로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 링크 \>  \>  \>  \> **금고 이동합니다.**
 
-2. 안전한 링크 **페이지에서** 전역 **설정을 클릭합니다.** 조직의 **안전 링크 정책** 플라이아웃이 나타나면 다음 URL 차단 **상자로 이동하세요.**
+2. 링크 **금고 페이지에서** 전역 설정을 **클릭합니다.** 조직의 **금고** 링크 정책 플라이아웃이 나타나면 다음 URL 차단 상자로 **이동하세요.**
 
 3. "다음 URL 차단" 목록에 대한 항목 구문에 설명된 하나 이상의 항목을 [구성합니다.](safe-links.md#entry-syntax-for-the-block-the-following-urls-list)
 
@@ -117,15 +117,15 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
   Set-AtpPolicyForO365 -BlockUrls @{Add="adatum.com"; Remove="fabrikam"}
   ```
 
-## <a name="configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal"></a>Office 365 Defender 포털에서 Office 365 Microsoft 365 안전한 링크 보호 구성
+## <a name="configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal"></a>금고 포털에서 Office 365 앱에 대한 Microsoft 365 Defender 링크 보호 구성
 
-모든 앱에 Office 365 안전한 링크 보호는 데스크톱, 모바일 및 웹 Office 지원되는 문서에 적용됩니다. 자세한 내용은 앱의 안전한 링크 [Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)
+금고 앱에 대한 Office 365 보호는 지원되는 데스크톱, 모바일 및 Office 문서에 적용됩니다. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 및 규칙 위협 정책 & 링크 \>  \>  \>  \> **섹션으로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 링크 \>  \>  \>  \> **금고 이동합니다.**
 
-2. 안전한 링크 **페이지에서** 전역 **설정을 클릭합니다.** 조직의 **안전 링크** 정책 플라이아웃이 나타나면 지원되는 설정 앱 섹션의 콘텐츠에 적용되는 다음 설정을 Office 365 **구성합니다.**
+2. 링크 **금고 페이지에서** 전역 설정을 **클릭합니다.** 조직의 **금고** 링크 정책 플라이아웃이 나타나면 지원되는 설정 앱 섹션의 콘텐츠에 적용되는 다음 설정을 Office 365 **구성합니다.**
 
-   - **Office 365** 앱에서 안전한 링크 사용: 지원되는 Office 365 앱에 대해 안전한 링크를 사용하도록 설정하려면 토글이 오른쪽에 있는지 ![ 확인: 을 토글합니다. ](../../media/scc-toggle-on.png)
+   - **금고** Office 365 앱에서 금고 링크 사용: 지원되는 금고 Office 365 앱에 대해 금고 링크를 사용하도록 설정하려면 토글이 오른쪽에 있는지 확인: 를 ![ 토글합니다. ](../../media/scc-toggle-on.png)
 
    - 사용자가 Office 365 앱에서 보호된 링크를 클릭하는 경우 추적하지 **않습니다.** 토글을 왼쪽으로 이동하여 지원되는 Office 365 앱의 차단된 URL과 관련된 사용자 클릭을 추적합니다. ![ 토글 를 해제합니다. ](../../media/scc-toggle-off.png)
 
@@ -133,17 +133,17 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
 
-### <a name="configure-safe-links-protection-for-office-365-apps-in-powershell"></a>PowerShell에서 Office 365 앱에 대한 안전한 링크 보호 구성
+### <a name="configure-safe-links-protection-for-office-365-apps-in-powershell"></a>PowerShell에서 금고 앱에 대한 Office 365 링크 보호 구성
 
-PowerShell을 사용하여 Office 365 앱에 대해 안전한 링크 보호를 구성하는 경우 powerShell 또는 Exchange Online PowerShell에서 Exchange Online Protection 구문을 사용하세요.
+PowerShell을 사용하여 금고 앱에 대한 Office 365 링크 보호를 구성하는 경우 powerShell 또는 Exchange Online PowerShell에서 Exchange Online Protection 구문을 사용하세요.
 
 ```powershell
 Set-AtpPolicyForO365 [-EnableSafeLinksForO365Clients <$true | $false> [-AllowClickThrough <$true | $false>] [-TrackClicks <$true | $false>]
 ```
 
-이 예에서는 앱의 안전 링크 보호에 대해 Office 365 구성합니다.
+이 예제에서는 앱의 금고 링크 보호에 대해 Office 365 구성합니다.
 
-- 앱에 Office 365 안전한 링크가 켜져 _있습니다(EnableSafeLinksForO365Clients_ 매개 변수를 사용하지는 않습니다. 기본값은 $true.
+- 금고 앱에 Office 365 링크가 켜져 _있습니다(EnableSafeLinksForO365Clients_ 매개 변수를 사용하지 않습니다. 기본값은 $true).
 - 지원되는 앱의 차단된 URL과 관련된 사용자 Office 365 추적됩니다.
 - 사용자가 지원되는 Office 365 앱에서 원래 차단된 URL을 클릭할 수 _없습니다(AllowClickThrough_ 매개 변수를 사용하지 않습니다. 기본값은 $false).
 
@@ -155,9 +155,9 @@ Set-AtpPolicyForO365 -TrackClicks $true
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
-안전한 링크에 대한 전역 설정(다음 URL 차단 목록  및 Office 365 앱 보호 설정)을 성공적으로 구성한지 확인하려면 다음 단계를 수행합니다.
+금고 링크에 대한 전역 설정(다음 URL 차단 목록 및  Office 365 앱 보호 설정)을 성공적으로 구성한지 확인하려면 다음 단계를 수행합니다.
 
-- Microsoft 365 Defender 포털에서 전자 메일 **& 공동** 작업 정책 & 규칙 위협 정책 섹션 안전 \>  \>  \>  \> **링크로** \> 이동하여 전역 설정을 클릭하고 플라이아웃에서 나타나는 설정을 확인합니다.
+- Microsoft 365 Defender 포털에서 전자 메일 **&** 공동 작업 정책& 규칙 위협 정책 페이지 정책 섹션금고 링크에서 전역 설정을 클릭하고 플라이아웃에서 나타나는 설정을 \>  \>  \>  \>  \> 확인합니다. 
 
 - PowerShell Exchange Online PowerShell을 Exchange Online Protection 다음 명령을 실행하고 설정을 확인합니다.
 

@@ -19,12 +19,12 @@ description: 관리자는 가장 인사이트의 작동 방식에 대해 배울 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cebccf09c30264d1b7c94185eb4ad28a1b1cf75e
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: b7254dce40f72ecc01dc532f1b6c51f252a2b3ac
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083407"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108634"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Defender for Office 365
 
@@ -66,7 +66,7 @@ Microsoft 365 Defender 포털에서 가장 정보를 사용하여 가장 보호�
 
 ## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 가장 Microsoft 365 Defender 열기
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 및 규칙 위협 정책 & 피싱 방지 \>  \>  \>  \> **섹션으로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책& 규칙 위협 정책 페이지 정책 섹션으로 \>  \>  \>  \> **이동합니다.**
 
 2. 피싱 **방지** 페이지에서 가장 인사이트는 다음과 같이 표시됩니다.
 

@@ -21,12 +21,12 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81a45f6839538118c5413c1f5fc09e0cd19903a0
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 66afaa56efa93faef3fcc6ff8346df24681a0a50
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029876"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083023"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -81,7 +81,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 |Office 365용 Microsoft Defender 플랜 1|Office 365용 Microsoft Defender 플랜 2|
 |---|---|
-|구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](safe-attachments.md)</li><li>[안전한 링크](safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender 보호의 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365용 Microsoft Defender 플랜 1 기능 <br>--- 추가 ---<br> 자동화, 조사, 수정 및 교육 기능:<ul><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이터](attack-simulator.md)</li><li>[캠페인 보기](campaigns.md)</li></ul>|
+|구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](safe-attachments.md)</li><li>[안전한 링크](safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender 보호의 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365용 Microsoft Defender 플랜 1 기능 <br>--- 추가 ---<br> 자동화, 조사, 수정 및 교육 기능:<ul><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이션 교육](attack-simulation-training.md)</li><li>[캠페인 보기](campaigns.md)</li></ul>|
 |
 
 - Office 365용 Microsoft Defender 플랜 2는 Office 365 E5, Office 365 A5, Microsoft 365 E5 Security 및 Microsoft 365 E5에 포함되어 있습니다.
@@ -96,7 +96,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Office 365용 Microsoft Defender 정책 구성
 
-Office 365용 Microsoft Defender를 사용하면 조직의 보안 팀이 Microsoft 365 Defender 포털에서 정책을 정의하여 보호 기능을 구성할 수 있습니다(<https://security.microsoft.com> \> **전자 메일 및 공동 작업** \> **정책 및 규칙** 으로 이동합니다).
+Office 365용 Microsoft Defender를 사용하면 조직의 보안 팀이 Microsoft 365 Defender 포털에서 정책을 정의하여 보호 기능을 구성할 수 있습니다(<https://security.microsoft.com> \> **Email & collaboration**(전자 메일 및 공동 작업) \> **Policies & rules**(정책 및 규칙) \> **Threat policies**(위협 정책)로 이동).
 
 [이 비디오](https://www.youtube.com/watch?v=vivvTmWJ_3c)를 시청하여 자세히 확인하세요.
 
@@ -133,7 +133,7 @@ Office 365용 Microsoft Defender 플랜 2에는 조직의 보안팀이 악의적
 
 - **[위협 탐색기 (또는 실시간 검출)](threat-explorer.md)** (탐색기라고도 함)는 최근 위협을 식별하고 분석할 수있는 실시간 보고서입니다. 사용자 지정 기간에 대한 데이터를 표시하도록 탐색기를 구성할 수 있습니다.
 
-- **[공격 시뮬레이터](attack-simulator.md)** 를 사용하면 사용자 조직에서 실제적인 공격 시나리오를 실행하여 취약성을 식별할 수 있습니다. 스피어 피싱 자격 증명 수집 및 첨부 파일 공격과 비밀번호 분무 및 무차별 비밀번호 대입 공격 등을 포함하여 최근 유형의 공격에 대한 시뮬레이션을 사용할 수 있습니다.
+- **[공격 시뮬레이션 교육](attack-simulation-training.md)** - 사용자 조직에서 실제적인 공격 시나리오를 실행하여 취약성을 식별할 수 있습니다. 스피어 피싱 자격 증명 수집 및 첨부 파일 공격과 비밀번호 분무 및 무차별 비밀번호 대입 공격 등을 포함하여 최근 유형의 공격에 대한 시뮬레이션을 사용할 수 있습니다.
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>자동화된 조사 및 응답으로 시간 절약하기
 
@@ -178,5 +178,4 @@ Office 365용 Microsoft Defender에는 새로운 기능이 계속해서 추가�
 ## <a name="see-also"></a>참고 항목
 
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
-
 - [Microsoft 365 Defender의 자동화된 조사 및 대응(AIR)](../defender/m365d-autoir.md)

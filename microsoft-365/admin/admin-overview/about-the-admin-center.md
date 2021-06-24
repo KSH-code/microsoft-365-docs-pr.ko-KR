@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Microsoft 365 관리 센터에 관리자 권한으로 로그인하여 클라우드에서 조직을 설정하고 사용자 및 구독을 관리합니다.
-ms.openlocfilehash: eff0ab72ef3e4634e7a83d1af825bc42d11686af
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 7817861e79b86a6c43ea26fdb03b037b40a3f564
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52949990"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083056"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 
@@ -57,7 +57,7 @@ ms.locfileid: "52949990"
 
 관리 센터의 왼쪽 탐색 창에는 다음과 같은 기능 및 설정이 있습니다. 관리 작업에 대한 자세한 내용은 [관리자 도움말](../../business-video/admin-center-overview.md)을 참조하세요.
   
-|**메뉴**|**용도**|
+| 메뉴 | 설명 |
 |-----|-----|
 |**홈** <br/> |관리 센터방문 페이지입니다. 사용자, 청구, 서비스 상태 및 보고서를 관리하는 위치가 표시됩니다.  <br/> |
 |**사용자** <br/> |직원이나 학생 같은 조직 내 사용자를 생성 및 관리합니다. 사용 권한 수준을 설정하거나 암호를 재설정할 수도 있습니다.  <br/> |

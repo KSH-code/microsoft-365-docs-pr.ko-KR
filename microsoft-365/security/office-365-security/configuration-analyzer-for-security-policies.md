@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 구성 분석기를 사용하여 표준 보호 및 엄격한 보호 미리 설정 보안 정책 아래에 있는 보안 정책을 찾아 수정하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f98ab9b251894a5821d308d95fd786b496e396e4
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 01a9b3a2b01a3cfc95a3911f75907cbe0ef9d58f
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878667"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108430"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
@@ -50,14 +50,14 @@ Microsoft 365 Defender 포털의 구성 분석기는 설정이 미리 설정된 
     - EOP [](set-up-anti-phishing-policies.md#spoof-settings) 피싱 방지 정책에서 사용할 수 있는 동일한 스푸핑 설정입니다.
     - [가장 설정](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
     - [고급 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
-  - [안전한 링크 정책](set-up-safe-links-policies.md).
-  - [안전한 첨부 파일 정책](set-up-safe-attachments-policies.md).
+  - [금고 링크 정책입니다.](set-up-safe-links-policies.md)
+  - [금고 정책입니다.](set-up-safe-attachments-policies.md)
 
 기준으로  사용되는 **표준** 및 엄격한 정책 설정 값은 EOP 및 Microsoft Defender for [Office 365 설정에 설명되어 있습니다.](recommended-settings-for-eop-and-office365.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 에서 Microsoft 365 Defender 포털을 열 수 <https://security.microsoft.com> 있습니다. 구성 분석기 **페이지로** 직접 이동하려면 를 <https://security.microsoft.com/configurationAnalyzer> 사용하세요.
+- <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. 구성 분석기 **페이지로** 직접 이동하려면 를 <https://security.microsoft.com/configurationAnalyzer> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -65,17 +65,17 @@ Microsoft 365 Defender 포털의 구성 분석기는 설정이 미리 설정된 
   - 구성 분석기를 **사용하여** 보안 정책을 업데이트하려면 조직 관리 또는 보안  관리자 역할 그룹의 **구성원이** 되어야 합니다.
   - 구성 분석기에 대한 읽기 전용 액세스의 경우 전역  읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되어야 합니다.
 
-  자세한 내용은 [Defender 포털의 Microsoft 365 참조하세요.](permissions-microsoft-365-security-center.md)
+  자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
   > [!NOTE]
   >  
-  > - 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 Microsoft 365 Defender 포털에서 필요한 사용  권한과 해당 역할의 다른 기능에 대한 사용 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  > - 해당 Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 Defender 포털에서 필요한 사용 권한과  해당 역할의 다른 기능에 대한 사용 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   >
   > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
-## <a name="use-the-configuration-analyzer-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 구성 Microsoft 365 사용
+## <a name="use-the-configuration-analyzer-in-the-microsoft-365-defender-portal"></a>웹 사이트 포털에서 구성 Microsoft 365 Defender 사용
 
-Microsoft 365 Defender 포털에서 전자 메일 & **정책** & 규칙 템플릿 \>  \>  \> **기반 정책** 섹션 \> **구성 분석기 로 이동하세요.**
+Microsoft 365 Defender 포털에서 전자 메일 **&** 공동 작업 정책& 규칙 위협 정책 페이지 템플릿 기반 \>  \>  \> **정책** 섹션 \> **구성 분석기 로 이동합니다.**
 
 구성 **분석기 페이지에는** 두 개의 기본 탭이 있습니다.
 
@@ -93,8 +93,8 @@ Microsoft 365 Defender 포털에서 전자 메일 & **정책** & 규칙 템플�
 - **스팸 방지**
 - **피싱 방지**
 - **맬웨어 방지**
-- **안전한 첨부** 파일(구독에 Microsoft Defender for Office 365)
-- **안전한** 링크(구독에 Microsoft Defender for Office 365)
+- **금고 첨부** 파일(구독에 Microsoft Defender for Office 365)
+- **금고 링크(구독에** Microsoft Defender for Office 365)
 
 기본 보기에서는 모든 것이 축소됩니다. 각 정책 옆에는 정책(수정할 수 있는)과 표준 또는 엄격한 보호 프로필에 대한 해당 정책의 설정(수정할 수 없는)의 비교 결과가 요약됩니다. 비교할 보호 프로필에 대한 다음 정보가 표시됩니다.
 

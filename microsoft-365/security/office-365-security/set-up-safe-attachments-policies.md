@@ -18,12 +18,12 @@ description: 전자 메일의 악성 금고 보호하기 위해 첨부 파일 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7220140c25ecf457b42514356e41aabdf5481bb
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: e516a16ff28c762e154fd908312df65ea48699bc
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054324"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108226"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 첨부 파일 정책 설정 Office 365
 
@@ -83,7 +83,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책을 만들면 동일한 이름을 사용하여 안전한 첨부 파일 규칙과 연결된 안전한 첨부 파일 정책이 동시에 생성됩니다.
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책 & 정책 정책 섹션에서 첨부 \>  \>  \>  금고 \> **로 이동하십시오.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
 
 2. 첨부 **금고 페이지에서** 만들기 ![ 아이콘 만들기 ](../../media/m365-cc-sc-create-icon.png) **를 클릭합니다.**
 
@@ -135,7 +135,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-safe-attachments-policies"></a>Microsoft 365 Defender 포털을 사용하여 첨부 파일 금고 보기
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책 & 정책 정책 섹션에서 첨부 \>  \>  \>  금고 \> **로 이동하십시오.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
 
 2. 첨부 **금고** 페이지에 다음 속성이 정책 목록에 표시됩니다.
    - **이름**
@@ -146,7 +146,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-safe-attachments-policies"></a>Microsoft 365 Defender 포털을 사용하여 첨부 파일 금고 수정
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책 & 정책 정책 섹션에서 첨부 \>  \>  \>  금고 \> **로 이동하십시오.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
 
 2. 첨부 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
@@ -156,7 +156,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 ### <a name="enable-or-disable-safe-attachments-policies"></a>첨부 파일 금고 사용 또는 사용 안 하도록 설정
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책 & 정책 정책 섹션에서 첨부 \>  \>  \>  금고 \> **로 이동하십시오.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
 
 2. 첨부 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
@@ -182,7 +182,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 정책의 우선 순위를 변경하려면 정책 속성에서 **우선 순위를 높이** 거나 **우선 순위를 낮춥** 니다(Microsoft 365 Defender 포털에서 **우선 순위** 번호를 직접 수정할 수 없습니다). 정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책 & 정책 정책 섹션에서 첨부 \>  \>  \>  금고 \> **로 이동하십시오.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
 
 2. 첨부 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
@@ -197,7 +197,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-attachments-policies"></a>Microsoft 365 Defender 포털을 사용하여 첨부 파일 금고 제거
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책 & 정책 정책 섹션에서 첨부 \>  \>  \>  금고 \> **로 이동하십시오.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
 
 2. 첨부 **금고** 페이지에서 정책 이름을 클릭하여 목록에서 사용자 지정 정책을 선택합니다.
 
@@ -439,7 +439,7 @@ Remove-SafeAttachmentRule -Identity "Marketing Department"
 
 첨부 파일 정책을 만들거나 수정하거나 제거한 금고 다음 단계를 수행합니다.
 
-- Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책 & 정책 정책 섹션에서 첨부 \>  \>  \>  금고 \> **로 이동하십시오.** 정책 목록, 해당 **상태 값** 및 우선 순위 값을 **검증합니다.** 자세한 내용을 보려면 이름을 클릭하여 목록에서 정책을 선택하고 플라이아웃에서 세부 정보를 하세요.
+- Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.** 정책 목록, 해당 **상태 값** 및 우선 순위 값을 **검증합니다.** 자세한 내용을 보려면 이름을 클릭하여 목록에서 정책을 선택하고 플라이아웃에서 세부 정보를 하세요.
 
 - PowerShell Exchange Online PowerShell Exchange Online Protection PowerShell에서 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행하고 설정을 \<Name\> 확인합니다.
 

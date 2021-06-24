@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 89562a5fd7c2d869f8a060e7ceda1c32a093c175
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 0cf2d19b06dc1cce154785d8c42742fdc12d3259
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083671"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108334"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender에서 Office 365
 
@@ -40,7 +40,7 @@ microsoft Defender for Office 365 평가 환경은 장치 및 환경 구성의 �
 Microsoft Defender for Office 365 지원하는 라이선스가 없는 경우 [무료 30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 의 Microsoft 365 Defender 포털에서 기능을 테스트할 수 <https://security.microsoft.com> 있습니다. 빠른 설치를 즐길 수 있으며 필요한 경우 쉽게 해제할 수 있습니다.
 
 > [!NOTE]
-> Microsoft 365 Defender 포털()에 있는 경우 전자 메일 Office 365 공동 작업 정책& 규칙 위협 정책 기타 & 평가 모드 에서 평가용 <https://security.microsoft.com> Defender를 시작할  \>  \>  \>  \> **수 있습니다.**
+> Microsoft 365 Defender 포털()에 있는 경우 전자 메일 Office 365 & 공동 작업 정책 & 규칙 위협 정책 페이지 기타 섹션 평가 모드 에서 Office 365 평가용 <https://security.microsoft.com> Defender를 시작할  \>  \>  \>  \> **수** 있습니다.
 
 ## <a name="how-the-evaluation-works"></a>평가 작동 방식
 

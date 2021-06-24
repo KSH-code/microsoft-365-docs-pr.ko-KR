@@ -15,12 +15,12 @@ ms.date: 06/10/2021
 description: Microsoft Defender for Office 365 계획에서 자동화된 조사 및 응답 기능을 통해 손상된 사용자 계정을 검색하고 처리하는 프로세스를 Office 365 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cd84617230e774b92902ef3d11a365c1965ac814
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: fd1ad6f52114340153f3958441bfb9500db67215
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904143"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108588"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동화된 조사 및 응답을 통해 손상된 사용자 계정 해결
 
@@ -37,9 +37,7 @@ ms.locfileid: "52904143"
 손상된 사용자 보안 플레이북을 사용하면 조직의 보안 팀에서 다음을 할 수 있습니다.
 
 - 손상된 사용자 계정의 검색 속도를 향상합니다.
-
 - 계정이 손상된 경우 위반 범위를 제한합니다. 및
-
 - 손상된 사용자에 대해 보다 효율적이고 효율적으로 대응합니다.
 
 ## <a name="compromised-user-alerts"></a>손상된 사용자 경고
@@ -67,21 +65,17 @@ ms.locfileid: "52904143"
 
 ### <a name="view-and-investigate-restricted-users"></a>제한된 사용자 보기 및 조사
 
-제한된 사용자 목록으로의 몇 가지 옵션을 사용할 수 있습니다. 예를 들어 보안 및 준수 & 위협 관리 검토  제한된 \>  \> **사용자로 이동하면 됩니다.** 다음 절차에서는 트리거될 수 있는 다양한 종류의 경고를 볼 수 있는 좋은 방법인 **Alerts** 대시보드를 사용하여 탐색에 대해 설명합니다.
+제한된 사용자 목록으로의 몇 가지 옵션을 사용할 수 있습니다. 예를 들어 Microsoft 365 Defender 포털에서 전자 메일 & **검토** 제한된 사용자 \>  \> **검토로 이동하면 됩니다.** 다음 절차에서는 트리거될 수 있는 다양한 종류의 경고를 볼 수 있는 좋은 방법인 **Alerts** 대시보드를 사용하여 탐색에 대해 설명합니다.
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다.
+1. Microsoft 365 Defender 포털()을 열고 인시던트 및 & <https://security.microsoft.com>  \> **경고로 이동합니다.** 또는 경고 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/alerts> 사용하세요.
 
-2. 탐색 창에서 경고 **대시보드 를** \> **선택합니다.**
+2. 알림 **페이지에서** 기간 및 전자 메일 보내기에서 **제한된 사용자라는 정책을 사용하여 결과를 필터링합니다.**
 
-3. 기타 **알림 위젯에서** 제한된 사용자 **를 선택 합니다.**
+   ![제한된 사용자에 대해 필터링된 Microsoft 365 Defender 포털의 알림 페이지](../../media/m365-sc-alerts-page-with-restricted-user.png)
 
-   ![기타 알림 위젯](/microsoft-365/media/office365atp-otheralertswidget.jpg)
+3. 이름을 클릭하여 항목을 선택하면 사용자가 검토할  수 있는 추가 세부 정보가 있는 전자 메일 보내기 제한 페이지가 열립니다. 경고 **관리 단추** 옆에 있는 추가 옵션 아이콘 추가 옵션을 클릭한 다음 제한된 사용자 세부 정보 보기를 선택하여 제한된 사용자를 해제할 수 있는 제한된 사용자 페이지로 ![ ](../../media/m365-cc-sc-more-actions-icon.png)  이동합니다.   [](removing-user-from-restricted-users-portal-after-spam.md)
 
-   그러면 제한된 사용자 목록이 열립니다.
-
-   ![사용자의 제한된 Office 365](/microsoft-365/media/office365atp-restrictedusers.jpg)
-
-4. 목록에서 사용자 계정을 선택하여 세부 정보를 보고 제한된 사용자 를 공개하는 등의 작업을 [실행합니다.](removing-user-from-restricted-users-portal-after-spam.md)
+   ![알림 센터에서 전자 메일 보내기 제한 페이지](../../media/m365-sc-alerts-user-restricted-from-sending-email-page.png)
 
 ### <a name="view-details-about-automated-investigations"></a>자동화된 조사에 대한 세부 정보 보기
 

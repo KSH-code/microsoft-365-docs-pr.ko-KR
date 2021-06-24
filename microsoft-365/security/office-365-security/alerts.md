@@ -1,5 +1,5 @@
 ---
-title: 보안 및 준수 & 알림
+title: Microsoft 365 Defender 포털의 알림
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,18 +17,18 @@ ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Office 365 보안 및 준수 센터의 경고 기능을 & 고급 경고 관리를 포함하여 경고를 보고 관리하는 방법에 대해 자세히 알아보습니다.
+description: 고급 경고 관리를 포함하여 Microsoft 365 Defender 포털에서 경고 기능을 사용하여 경고를 보고 관리하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cbc1bfbd1fc1f21035edf34ad743755b0f51018b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 44009ac90dddf9a8f901fdcc5d46496e4bc78338
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205524"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108286"
 ---
-# <a name="alerts-in-the-security--compliance-center"></a>보안 및 준수 & 알림
+# <a name="alerts-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 알림
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,33 +36,19 @@ ms.locfileid: "51205524"
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 
-보안 및 준수 센터의 경고 기능을 & 개요의 일부로 고급 경고 관리를 포함하여 조직의 경고를 보고 [Microsoft Cloud App Security 있습니다.](/cloud-app-security/what-is-cloud-app-security)
+Microsoft 365 Defender [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)포털의 알림 기능을 사용하여 조직에 대한 경고를 보고 관리합니다(고급 경고 관리 포함).
 
 ## <a name="how-to-get-to-the-alerts-features"></a>경고 기능에 대한 방법
 
-경고는 보안 및 준수 & 있습니다. 페이지로 이동하는 방법에는 다음이 있습니다.
+알림은 Microsoft 365 Defender 포털()에 <https://security.microsoft.com> 있습니다. 페이지로 이동하는 방법:
 
-### <a name="to-go-directly-to-the-security--compliance-center"></a>보안 및 준수 센터로 & 이동
-
-1. <https://protection.office.com>으로 이동합니다.
-
-2. 회사 또는 학교 계정을 사용하여 로그인합니다.
-
-3. 왼쪽 창에서 경고를  클릭하여 경고 기능을 봐야 합니다.
-
-### <a name="to-go-to-the-security--compliance-center-using-the-app-launcher"></a>앱 시작 프로그램을 & 보안 및 준수 센터로 이동
-
-1. 회사 또는 학교 계정을 사용하여 로그인합니다.
-
-2. 왼쪽 위 모서리에서 앱 시작 프로그램을 클릭한 다음 보안 및 **준수를 & 클릭합니다.**
-
-   찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱** 을 선택하여 사용 가능한 Office 365 앱의 사전순 목록을 보세요. 거기에서 특정 앱을 검색할 수 있습니다.
-
-3. 왼쪽 창에서 경고를  클릭하여 경고 기능을 봐야 합니다.
+Microsoft 365 Defender **포털에서** **경고로 이동합니다.** 또는 경고 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/alerts> 사용하세요.
 
 ## <a name="alerts-features"></a>경고 기능
 
-다음 표에서는 보안 및 준수  센터의 경고에 & 설명되어 있습니다.
+다음 표에서는 Microsoft 365 Defender 포털의 경고에서 사용할 수 있는 도구에 Microsoft 365 Defender 있습니다. 
+
+<br>
 
 ****
 

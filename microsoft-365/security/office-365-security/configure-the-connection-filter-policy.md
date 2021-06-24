@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 전자 메일 서버에서 전자 메일을 허용하거나 차단하도록 EOP(Exchange Online Protection)에서 연결 필터링을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 416fbd73d8412cf8697577df19f2fd2893b4ce96
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: ce1eddbf1ac788ad57ffc57da2156aae1ae69f6a
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878823"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108394"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
@@ -42,16 +42,16 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 - **IP 차단 목록:** IP 주소 또는 IP 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지를 차단합니다. 들어오는 메시지는 거부되어 스팸으로 표시되지 않습니다. 추가 필터링이 일어나지 않습니다. IP 차단 목록이 전체 수신 차단된 보낸 사람 전략에 적합한 방법에 대한 자세한 내용은 EOP에서 차단 보낸 사람 목록 [만들기를 참조하세요.](create-block-sender-lists-in-office-365.md)
 
-- **안전한 목록:** 안전한 *목록은* 고객 구성이 필요 없는 Microsoft 데이터 센터의 동적 허용 목록입니다. Microsoft는 구독에서 다양한 타사 목록으로의 이러한 신뢰할 수 있는 전자 메일 원본을 식별합니다. 안전한 목록의 사용을 활성화 또는 비활성화합니다. 수신 확인 목록에 원본 전자 메일 서버를 구성할 수 없습니다. 스팸 필터링은 수신 확인 목록의 전자 메일 서버에서 들어오는 메시지에서 건너뜁니다.
+- **금고 목록:** *안전한* 목록은 고객 구성이 필요 없는 Microsoft 데이터 센터의 동적 허용 목록입니다. Microsoft는 구독에서 다양한 타사 목록으로의 이러한 신뢰할 수 있는 전자 메일 원본을 식별합니다. 안전한 목록의 사용을 활성화 또는 비활성화합니다. 수신 확인 목록에 원본 전자 메일 서버를 구성할 수 없습니다. 스팸 필터링은 수신 확인 목록의 전자 메일 서버에서 들어오는 메시지에서 건너뜁니다.
 
-이 문서에서는 Microsoft 365 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online, Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 기본 연결 필터 정책을 구성하는 방법을 설명합니다. EOP에서 연결 필터링을 사용하는 방법에 대한 자세한 내용은 스팸 방지 보호를 [참조하세요.](anti-spam-protection.md)
+이 문서에서는 Microsoft 365 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 기본 연결 필터 정책을 구성하는 방법에 대해 설명하고 있습니다. EOP에서 연결 필터링을 사용하는 방법에 대한 자세한 내용은 스팸 방지 보호를 [참조하세요.](anti-spam-protection.md)
 
 > [!NOTE]
 > IP 허용 목록, 수신 허용 목록 및 IP 차단 목록은 조직의 전자 메일을 허용하거나 차단하는 전체 전략의 일부입니다. 자세한 내용은 [수신이](create-safe-sender-lists-in-office-365.md) 가능한 보낸 사람 목록 만들기 및 수신이 차단된 보낸 [사람 목록 만들기를 참조하세요.](create-block-sender-lists-in-office-365.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 에서 Microsoft 365 Defender 포털을 열 수 <https://security.microsoft.com> 있습니다. **스팸 방지 정책** 페이지로 직접 이동하려면 <https://security.microsoft.com/antispam>을(를) 사용합니다.
+- <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. **스팸 방지 정책** 페이지로 직접 이동하려면 <https://security.microsoft.com/antispam>을(를) 사용합니다.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -72,9 +72,9 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 - IP 허용 목록 및 IP 차단 목록은 각각 하나의 IP 주소, IP 주소 범위 또는 CIDR(Classless InterDomain Routing) IP인 최대 1273 항목을 지원합니다.
 
-## <a name="use-the-microsoft-365-defender-portal-to-modify-the-default-connection-filter-policy"></a>기본 Microsoft 365 포털을 사용하여 기본 연결 필터 정책 수정
+## <a name="use-the-microsoft-365-defender-portal-to-modify-the-default-connection-filter-policy"></a>기본 Microsoft 365 Defender 포털을 사용하여 기본 연결 필터 정책 수정
 
-1. Microsoft 365 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동합니다.**
 
 2. 스팸 **방지 정책 페이지의** 정책  이름을 클릭하여 목록에서 연결 필터 정책(기본값)을 선택합니다.
 
@@ -103,9 +103,9 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 4. 정책 세부 정보 플라이아웃으로 돌아와 **닫기** 를 클릭합니다.
 
-## <a name="use-the-microsoft-365-defender-portal-to-view-the-default-connection-filter-policy"></a>기본 Microsoft 365 포털을 사용하여 기본 연결 필터 정책 보기
+## <a name="use-the-microsoft-365-defender-portal-to-view-the-default-connection-filter-policy"></a>기본 Microsoft 365 Defender 포털을 사용하여 기본 연결 필터 정책 보기
 
-1. Microsoft 365 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동하세요.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동합니다.**
 
 2. 스팸 **방지 정책 페이지에는** 정책 목록에 다음 속성이 표시됩니다.
 
@@ -148,11 +148,11 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-HostedConnectionFilterPolicy를 참조하십시오.](/powershell/module/exchange/set-hostedconnectionfilterpolicy)
 
-## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
+## <a name="how-do-you-know-this-worked"></a>이 작업이 제대로 수행되었는지 어떻게 확인하나요?
 
 기본 연결 필터 정책이 성공적으로 수정되어 있는지 확인하기 위해 다음 단계를 수행합니다.
 
-- Microsoft 365 Defender 포털에서 전자 메일 **& 공동** 작업 정책 & 규칙 위협 정책 섹션 정책 이름을 클릭하여 목록에서 연결 필터 정책(기본값)을 선택하고 설정을 \>  \>  \>  \>  \> 확인합니다. 
+- Microsoft 365 Defender 포털에서 전자 메일 **& 공동** 작업 정책 & 규칙 위협 정책 페이지 정책 섹션 정책 섹션 정책 이름을 클릭하여 목록에서 스팸 방지 연결 필터 정책(기본값)을 선택하고 설정을 \>  \>  \>  \>  \> 확인합니다. 
 
 - PowerShell Exchange Online 독립 실행형 EOP PowerShell에서 다음 명령을 실행하고 설정을 확인합니다.
 
@@ -207,4 +207,4 @@ IP 허용 목록의 전자 메일 서버에서 보낸 메시지는 다음과 같
 
 ****
 
-![LinkedIn Learning의 짧은 아이콘을 ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Microsoft 365?** LinkedIn **Learning에서** 제공한 Microsoft 365 관리자 및 IT 프로를 위한 무료 비디오 과정을 검색합니다.
+![LinkedIn 개체의 Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **아이콘을 Microsoft 365?** LinkedIn 관리자가 제공한 Microsoft 365 **및 IT** 프로를 위한 무료 비디오 과정을 Learning.

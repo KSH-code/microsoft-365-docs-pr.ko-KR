@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 07593fac6ed9a3fbc00d904718380b386f31dba3
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 0e7634177e58b558381fdc230533b55cade9dc13
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893416"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108514"
 ---
 # <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a>라이브 응답을 사용하여 끝점용 Microsoft Defender에서 지원 로그 수집 
 
@@ -63,7 +63,7 @@ ms.locfileid: "51893416"
 
     ```console
     Run MDELiveAnalyzer.ps1
-    GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" -auto
+    GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip"
     ```
 
     [![명령 이미지 ](images/analyzer-commands.png)](images/analyzer-commands.png#lightbox)
@@ -79,7 +79,7 @@ ms.locfileid: "51893416"
 >   ```console
 >   PutFile MDEClientAnalyzerPreview.zip -overwrite
 >   Run MDELiveAnalyzer.ps1
->   GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" -auto
+>   GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" 
 >   ```
 > 
 > - 컴퓨터의 끝점 클라우드 서비스용 Microsoft Defender와 통신하지 않는 경우 또는 끝점용 Microsoft Defender 포털에 예상대로 나타나지 않는 경우 컴퓨터의 데이터를 로컬로 수집하는 데 대한 자세한 내용은 끝점 서비스 [URL에 대한 Microsoft Defender에](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)대한 클라이언트 연결 확인을 참조하세요.
