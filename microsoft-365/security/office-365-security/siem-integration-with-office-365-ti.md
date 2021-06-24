@@ -19,12 +19,12 @@ description: 조직의 SIEM 서버를 Office 365 관리 API의 microsoft Defende
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f3d6bbacb4a64060ecd03cbb28eee3256f41827e
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: e11d1e64b7c8c3b9d5b93516fe05aed3d5937290
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929782"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105635"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Microsoft Defender와 SIEM Office 365
 
@@ -41,12 +41,11 @@ ms.locfileid: "52929782"
 SIEM 통합을 사용하면 SIEM 서버 보고서에서 Microsoft Defender에서 검색한 맬웨어 또는 피싱과 Office 365 볼 수 있습니다.
 
 - Microsoft Defender와 Microsoft Defender의 통합 예를 Office 365 Tech Community: Office 365 및 [O365 관리 API에 대한 Defender로 SOC의](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)효율성 개선을 참조하세요.
-
 - 관리 API에 대한 Office 365 자세한 내용은 Office 365 [관리 API 개요를 참조하세요.](/office/office-365-management-api/office-365-management-apis-overview)
 
 ## <a name="how-siem-integration-works"></a>SIEM 통합의 작동 방식
 
-Office 365 관리 API는 조직의 사용자, 관리자, 시스템 및 정책 작업 및 이벤트에 대한 정보를 조직 Microsoft 365 Azure Active Directory 검색합니다. 조직에 Office 365 계획 1 또는 Office 365 또는 E5용 Microsoft Defender가 Office 365 경우 Microsoft [Defender for Office 365 있습니다.](/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema)
+Office 365 관리 API는 조직의 사용자, 관리자, 시스템 및 정책 작업 및 이벤트에 대한 정보를 조직 Microsoft 365 Azure Active Directory 검색합니다. 조직에 Office 365 계획 1 또는 2에 대한 Microsoft Defender가 Office 365 E5 경우 Microsoft [Defender for Office 365 있습니다.](/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema)
 
 최근에는 Microsoft [Defender for Office 365 계획 2의](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 자동화된 조사 및 응답 기능의 이벤트가 Office 365 관리 활동 API에 추가되었습니다. API에는 ID, 이름 및 상태와 같은 핵심 조사 세부 정보에 대한 데이터를 포함하는 것 외에도 조사 작업 및 엔터티에 대한 높은 수준의 정보가 포함되어 있습니다.
 
@@ -58,16 +57,20 @@ SIEM 서버 또는 기타 유사한 시스템은 **audit.general** 작업을 폴
 
 다음 표에는 이벤트에 대한 Microsoft Defender와 관련된 **AuditLogRecordType의** Office 365 요약되어 있습니다.
 
+<br>
+
+****
+
 |값|멤버 이름|설명|
 |---|---|---|
 |28|ThreatIntelligence|Exchange Online Protection 및 Microsoft Defender for Office 365.|
-|41|ThreatIntelligenceUrl|안전한 링크 차단 및 차단은 Microsoft Defender의 이벤트 Office 365.|
+|41|ThreatIntelligenceUrl|금고 Microsoft Defender에서 차단 시간 및 차단 이벤트를 Office 365.|
 |47|ThreatIntelligenceAtpContent|microsoft Defender for SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams 파일에 대한 피싱 및 맬웨어 Office 365.|
 |64|AirInvestigation|Microsoft Defender for Office 365 계획 2의 조사 세부 정보 및 관련 아티팩트와 같은 자동화된 조사 Office 365 이벤트입니다.|
 |
 
 > [!IMPORTANT]
-> Microsoft Defender와의 SIEM 통합을 설정하려면 전역 관리자 또는 Microsoft 365 Defender 포털에 대해 보안 관리자 역할이 할당되어 있어야 Office 365.
+> Microsoft Defender와의 SIEM 통합을 설정하려면 Microsoft 365 Defender 포털에서 전역 관리자 또는 보안 관리자 역할이 할당되어 있어야 Office 365. 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 >
 > 사용자 환경에 대해 감사 로깅을 설정해야 Microsoft 365 합니다. 이 문제를 확인하려면 감사 로그 검색 켜기 또는 [끄기 를 참조합니다.](../../compliance/turn-audit-log-search-on-or-off.md)
 

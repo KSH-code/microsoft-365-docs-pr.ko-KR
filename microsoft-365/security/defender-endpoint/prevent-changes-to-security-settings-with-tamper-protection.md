@@ -16,13 +16,13 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.date: 06/17/2021
-ms.openlocfilehash: 7050a1588b71ac106d5364f29c76d379072e9511
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.date: 06/23/2021
+ms.openlocfilehash: 2e0724900de30629292cdcdc055d3ad3a1867b20
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007420"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105419"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -52,13 +52,13 @@ ms.locfileid: "53007420"
 
 ### <a name="how-it-works"></a>작동 방법
 
-변조 방지는 기본적으로 Microsoft Defender 바이러스 백신 잠그고 다음과 같은 앱 및 방법을 통해 보안 설정이 변경되지 않도록 합니다.
+변조 방지는 기본적으로 Microsoft Defender 바이러스 백신 기본값으로 잠그고, 다음과 같은 앱과 방법을 통해 보안 설정이 변경되지 않도록 합니다.
 
 - 디바이스의 레지스트리 편집기에서 Windows 구성
 - PowerShell cmdlet을 통해 설정 변경
 - 그룹 정책을 통해 보안 설정 편집 또는 제거
 
-변조 방지는 보안 설정을 볼 수 있도록 방지하지 않습니다. 또한 변조 방지는 타사 바이러스 백신 앱이 앱에 등록되는 Windows 보안 영향을 주지 않습니다. 조직에서 E5를 Windows 10 Enterprise K 경우 개별 사용자는 변조 보호 설정을 변경할 수 없습니다. 이러한 경우 변조 보호는 보안 팀에서 관리합니다.
+변조 방지는 보안 설정을 볼 수 있도록 방지하지 않습니다. 또한 변조 방지는 타사 바이러스 백신 앱이 앱에 등록되는 Windows 보안 영향을 주지 않습니다. 조직에서 E5를 Windows 10 Enterprise 경우 개별 사용자는 변조 보호 설정을 변경할 수 없습니다. 이러한 경우 변조 보호는 보안 팀에서 관리합니다.
 
 ### <a name="what-do-you-want-to-do"></a>무슨 작업을 하고 싶으십니까?
 
@@ -72,11 +72,11 @@ ms.locfileid: "53007420"
 | 보안 권장 사항 검토 | [보안 권장 사항 검토](#review-your-security-recommendations) |
 | FAQ(질문과 대답) 목록 검토 | [FAQ 찾아보기](#view-information-about-tampering-attempts) |
 
-변조 방지를 사용하도록 설정하는 데 사용하는 방법 또는 관리 도구에 따라 MAPS(클라우드 제공 보호)에 종속될 수 있습니다. 
+변조 방지를 사용하도록 설정하는 데 사용하는 방법 또는 관리 도구에 따라 클라우드 제공 보호에 종속될 수 있습니다. 
 
 다음 표에서는 메서드, 도구 및 종속성에 대해 자세히 제공합니다.
 
-| 변조 방지를 사용하도록 설정하는 방법  | MAPS에 대한 종속성(클라우드 제공 보호)    |
+| 변조 방지를 사용하는 방법  | MAPS(클라우드 제공 보호)에 대한 종속성    |
 |:----|:----|
 | Microsoft Intune  | 아니요 |
 | Microsoft Endpoint Configuration Manager + 테넌트 첨부  |     아니요  |
@@ -168,7 +168,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 2. [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus?preserve-view=true&view=win10-ps) PowerShell cmdlet을 사용 합니다.
 
-3. 결과 목록에서 를 `IsTamperProtected` 검색합니다. true 값은  변조 방지를 사용할 수 있는 것입니다. 결과 목록에서 를 `RealTimeProtectionEnabled` 검색합니다. true 값은 변조 방지를 사용할 수 있는 것입니다.
+3. 결과 목록에서 또는 을 `IsTamperProtected` `RealTimeProtectionEnabled` 검색합니다. true 값은  변조 방지를 사용할 수 있는 것입니다.
 
 ## <a name="manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006"></a>Configuration Manager 버전 2006을 사용하여 조직의 변조 보호 관리
 
@@ -181,7 +181,8 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 1. 테넌트 연결 설정 자세한 내용은 테넌트 연결 Microsoft Endpoint Manager 장치 동기화 및 장치 작업을 [참조하세요.](/mem/configmgr/tenant-attach/device-sync-actions)
 
-2. In the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), go to **Endpoint security**  >  **Antivirus**, and then choose + **Create Policy**.<br/> 
+2. In the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), go to **Endpoint security**  >  **Antivirus**, and then choose + **Create Policy**. 
+
    - 플랫폼 **목록에서** Windows 10 및 Windows **서버(ConfigMgr)를 선택합니다.**  
    - 프로필 **목록에서** 환경 **Windows 보안(미리 보기)를 선택합니다.** <br/>
 
@@ -207,7 +208,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 앱 앱에 다음과 같은 Windows 보안 있습니다.
 
-![팜에서 변조 보호가 Windows 10 Home K](images/tamperprotectionturnedon.png)
+![팜에서 변조 보호가 Windows 10 Home](images/tamperprotectionturnedon.png)
 
 1. 시작 **을** 선택하고 보안 입력을 *시작합니다.* 검색 결과에서 를 **Windows 보안.**
 
@@ -223,7 +224,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 ![Microsoft Defender 보안 센터](images/tamperattemptalert.png)
 
-Microsoft [엔드포인트 감지 및 응답](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) 및 [](/microsoft-365/security/defender-endpoint/advanced-hunting-overview) 고급 헌팅 기능을 사용하여 보안 운영 팀은 이러한 시도를 조사하고 해결할 수 있습니다.
+[끝점용](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) Microsoft Defender의 엔드포인트 감지 및 응답 및 고급 헌팅 기능을 사용하여 보안 운영 팀은 이러한 시도를 조사하고 해결할 수 있습니다. [](/microsoft-365/security/defender-endpoint/advanced-hunting-overview)
 
 ## <a name="review-your-security-recommendations"></a>보안 권장 사항 검토
 
@@ -233,7 +234,7 @@ Microsoft [엔드포인트 감지 및 응답](/microsoft-365/security/defender-e
 
 위협 및 취약성 & 대한 자세한 내용은 에서 위협 & 취약성 관리를 [Microsoft Defender 보안 센터.](/microsoft-365/security/defender-endpoint/tvm-dashboard-insights#threat--vulnerability-management-in-microsoft-defender-security-center)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="to-which-windows-os-versions-is-configuring-tamper-protection-is-applicable"></a>어떤 Windows OS 버전에서 변조 보호를 구성할 수 있나요?
 

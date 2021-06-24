@@ -1,5 +1,5 @@
 ---
-title: Defender에서 인시던트 Microsoft 365 조사
+title: 2013에서 인시던트 Microsoft 365 Defender
 description: 장치, 사용자 및 사서함과 관련된 인시던트 조사
 keywords: 인시던트, 인시던트, 분석, 응답, 컴퓨터, 장치, 사용자, ID, 메일, 전자 메일, 사서함, 조사, 그래프, 증거
 search.product: eADQiWindows 10XVcnh
@@ -25,14 +25,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: dcfc3bd0e06e0bdca6c834e947d7d136af47fde3
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: fdfc065aea3549e99de72c968c0fa19412f9e246
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782828"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105359"
 ---
-# <a name="investigate-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 조사
+# <a name="investigate-incidents-in-microsoft-365-defender"></a>2013에서 인시던트 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "52782828"
 
 - Microsoft 365 Defender
 
-Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 경고, 자산, 조사 및 증거를 인시던트에 집계하여 공격의 전체 너비를 포괄적으로 살펴 봐야 합니다.
+Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 자산, 조사 및 증거를 인시던트에 집계하여 공격의 전체 너비를 포괄적으로 살펴 봐야 합니다.
 
 인시던트 내에서 네트워크에 영향을 주는 경고를 분석하고, 경고의 의미를 이해하고, 효과적인 수정 계획을 고안할 수 있도록 증거를 수집합니다.
 
@@ -66,7 +66,7 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 �
 
 :::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="보안 센터의 인시던트에 대한 요약 Microsoft 365 예":::
 
-공격 범주는 킬체인에 대해 공격이 진행된 상황을 시각적 및 숫자로 볼 수 있도록 합니다. 다른 Microsoft 보안 제품과 Microsoft 365 Defender는 [MITRE ATT &trade; ](https://attack.mitre.org/) 및 CK&정렬됩니다.
+공격 범주는 킬체인에 대해 공격이 진행된 상황을 시각적 및 숫자로 볼 수 있도록 합니다. 다른 Microsoft 보안 제품과 Microsoft 365 Defender [MITRE ATT &trade; ](https://attack.mitre.org/) 및 CK&정렬됩니다.
 
 범위 섹션에서는 이 인시던트의 일부인 영향을 받는 상위 자산 목록을 제공합니다. 위험 수준, 조사 우선 순위 및 자산에 대한 태그 지정과 같은 해당 자산에 관한 특정 정보가 있는 경우 이 섹션에도 표시됩니다.
 
@@ -89,7 +89,7 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 �
 
 :::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="인시던트에 대한 경고 페이지 예":::
 
-기본적으로 경고는 시간이 지날 때 인시던트가 어떻게 재생되는지 볼 수 있도록 시간 순서대로 지정됩니다. 인시던트 내에서 경고를 선택하면 Microsoft 365 상황과 관련한 경고 정보가 표시됩니다. 
+기본적으로 경고는 시간이 지날 때 인시던트가 어떻게 재생되는지 볼 수 있도록 시간 순서대로 지정됩니다. 인시던트 내에서 경고를 선택하면 Microsoft 365 Defender 상황과 관련한 경고 정보가 표시됩니다. 
 
 경고의 이벤트, 즉 다른 트리거된 경고로 인해 현재 경고가 발생하고 파일, 사용자 및 사서함을 포함하여 공격에 관련된 모든 엔터티 및 활동을 볼 수 있습니다.
 
@@ -145,9 +145,17 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 �
 
 :::image type="content" source="../../media/investigate-incidents/incident-investigations.png" alt-text="인시던트에 대한 조사 페이지의 예":::
 
-조사를 선택하여 조사 세부 사항 페이지로 이동하고 조사 및 수정 상태에 대한 전체 정보를 확인하세요. 조사의 일부로 승인 보류 중인 작업이 있는 경우 보류 중인 작업 탭에 표시됩니다. 인시던트 수정의 일부로 조치를 취합니다.
+조사를 선택하여 조사 및 수정 상태에 대한 전체 정보를 확인하려면 세부 정보 페이지로 이동합니다. 조사의 일부로 승인 보류 중인 작업이 있는 경우 보류 중인 작업 기록 **탭에** 표시됩니다. 인시던트 수정의 일부로 조치를 취합니다.
 
-자세한 내용은 Defender의 자동화된 조사 [및 Microsoft 365 참조하세요.](m365d-autoir.md)
+조사 그래프 **탭에는** 또한 표시 하는:
+
+- 조직의 영향을 미치는 자산에 대한 경고 연결
+- 경고와 관련된 엔터티 및 해당 경고가 공격에 대한 스토리의 일부인 방식
+- 인시던트에 대한 경고입니다.
+
+조사 그래프를 통해 공격의 일부인 여러 의심스러운 엔터티를 사용자, 장치 및 사서함과 같은 관련 자산에 연결하여 공격의 전체 범위를 빠르게 이해할 수 있습니다. 
+
+자세한 내용은 에서 자동화된 조사 [및 응답을 Microsoft 365 Defender.](m365d-autoir.md)
 
 ## <a name="evidence-and-response"></a>증거 및 응답
 
@@ -155,25 +163,9 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 �
 
 :::image type="content" source="../../media/investigate-incidents/incident-evidence.png" alt-text="인시던트에 대한 증거 및 응답 페이지의 예":::
 
-Microsoft 365 Defender는 경고에서 모든 인시던트 지원 이벤트 및 의심스러운 엔터티를 자동으로 조사하여 중요한 전자 메일, 파일, 프로세스, 서비스, IP 주소에 대한 정보를 제공합니다. 이렇게 하면 인시던트의 잠재적인 위협을 빠르게 감지하고 차단할 수 있습니다.
+Microsoft 365 Defender 모든 인시던트 지원 이벤트 및 의심스러운 엔터티를 경고에서 자동으로 조사하여 중요한 전자 메일, 파일, 프로세스, 서비스, IP 주소에 대한 정보를 제공합니다. 이렇게 하면 인시던트의 잠재적인 위협을 빠르게 감지하고 차단할 수 있습니다.
 
 분석된 각 엔터티는 판정(악성, 의심스러운, 정리)과 수정 상태로 표시됩니다. 이렇게 하면 전체 인시던트의 수정 상태와 다음 단계를 이해하는 데 도움이 됩니다.
-
-## <a name="graph-in-preview"></a>Graph(미리 보기)
-
-새 **Graph** 탭(미리 보기)을 사용하면 다음을 볼 수 있습니다.
-
-- 조직의 영향을 미치는 자산에 대한 경고 연결
-- 경고와 관련된 엔터티 및 해당 경고가 공격에 대한 스토리의 일부인 방식
-- 인시던트에 대한 경고입니다.
-
-다음은 예입니다.
-
-:::image type="content" source="../../media/investigate-incidents/incident-graph.png" alt-text="인시던트에 대한 Graph 페이지의 예":::
-
-인시던트 그래프를 사용하면 공격의 일부인 여러 의심스러운 엔터티를 사용자, 장치 및 사서함과 같은 관련 자산에 연결하여 공격의 전체 범위를 빠르게 이해할 수 있습니다. 
-
-이제 시간이 지날 때 네트워크를 통해 공격이 확산되는 방식, 공격이 시작된 위치 및 공격이 얼마나 진행된지 이해할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

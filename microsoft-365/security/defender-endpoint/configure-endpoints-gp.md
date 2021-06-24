@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: f607e36cef85f30fa1d6e073da871ac1c140684c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 80794a9d5e4da0d2da74fc714ffd1e0ceab34c8f
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841837"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105689"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드 
 
@@ -31,7 +31,7 @@ ms.locfileid: "52841837"
 **적용 대상:**
 
 - 그룹 정책
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsgp-abovefoldlink)
@@ -119,7 +119,7 @@ GP(그룹 정책)를 사용하여 심층 분석 기능에 사용되는 샘플 �
 
 모든 정책은 에 `Computer Configuration\Policies\Administrative Templates` 있습니다.
 
-**정책 위치:** \Windows 구성 요소\Windows Defender SmartScreen*
+**정책 위치:** \Windows 구성 요소\Windows Defender ATP
 
 정책 | 설정 
 :---|:---
@@ -155,7 +155,7 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 
 <br/>
 
-**정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신Scan
+**정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신\검사
 
 이러한 설정은 끝점의 주기적인 검색을 구성합니다. 매주 빠른 검사, 성능 허용을 수행하는 것이 좋습니다.
 
@@ -238,7 +238,7 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 > 디바이스 목록 에 장치가 표시될 때 며칠이 **걸릴 수 있습니다.** 여기에는 정책이 장치에 배포되는 데 걸리는 시간, 사용자가 로그온하는 데 걸리는 시간 및 끝점에서 보고를 시작하는 데 걸리는 시간이 포함됩니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
 - [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)

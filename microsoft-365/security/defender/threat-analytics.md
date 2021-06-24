@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d07a7210b8426349f18a2305069c4ed0a08ce660
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: a6de0cb646eb8c12e4863facdb42c1f9494120f9
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096846"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105659"
 ---
 # <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>위협 분석을 사용하여 새로운 위협 추적 및 대응 
 
@@ -115,24 +115,6 @@ _위협 분석 보고서의 개요 섹션_
 각 보고서에는 조직이 주어진 위협에 대해 얼마나 탄력적인지 간략하게 설명하는 차트가 포함되어 있습니다.
 - **보안 구성 상태**- 잘못 구성된 보안 설정이 있는 장치 수를 보여줍니다. 권장 보안 설정을 적용하여 위협을 완화합니다. 추적된 **모든** 설정을 적용한 장치는 보안으로 간주됩니다. 
 - **취약성 패치 상태**- 취약한 디바이스의 수를 보여줍니다. 보안 업데이트 또는 패치를 적용하여 위협에 악용된 취약점을 해결합니다.
-
-#### <a name="view-reports-per-threat-tags"></a>위협 태그당 보고서 보기
-위협 보고서 목록을 필터링하고 특정 위협 태그(범주) 또는 보고서 유형에 따라 가장 관련성이 높은 보고서를 볼 수 있습니다. 
-- **위협 태그**- 특정 위협 범주에 따라 가장 관련성이 높은 보고서를 볼 수 있도록 합니다. 예를 들어 랜섬웨어와 관련된 모든 보고서입니다.
-- **보고서 유형**- 특정 보고서 유형에 따라 가장 관련성이 높은 보고서를 볼 수 있도록 합니다. 예를 들어 도구 및 기술을 다루는 모든 보고서입니다. 
-- **필터**- 위협 보고서 목록을 효율적으로 검토하고 특정 위협 태그 또는 보고서 유형을 기준으로 보기를 필터링하는 데 도움이 됩니다. 예를 들어 랜섬웨어 범주와 관련된 모든 위협 보고서 또는 취약점을 다루는 위협 보고서를 검토합니다.
-
-##### <a name="how-does-it-work"></a>작동 방식
-Microsoft 위협 인텔리전스 팀에서 각 위협 보고서에 위협 태그를 추가했습니다.
-- 이제 4개의 위협 태그를 사용할 수 있습니다.
-  - 랜섬웨어
-  - 피싱
-  - 취약성
-  - 활동 그룹
-- 위협 태그는 위협 분석 페이지의 맨 위에 표시하고 각 태그 아래에 사용 가능한 보고서 수에 대한 카운터를 제공합니다.
-    ![위협 태그](../../media/threat-analytics/ta-threattags-mtp.png)
-- 목록은 위협 태그: 목록별로 정렬할   ![ 수도 있습니다.](../../media/threat-analytics//ta-taglist-mtp.png)
-- 필터는 위협 태그 및 보고서 유형별로 사용할 수 있습니다.   ![ filters](../../media/threat-analytics/ta-threattag-filters-mtp.png)
 
 ### <a name="analyst-report-get-expert-insight-from-microsoft-security-researchers"></a>분석가 보고서: Microsoft 보안 연구원으로부터 전문가 인사이트 얻기
 분석가 **보고서 섹션에서** 자세한 전문가 쓰기를 읽어 읽습니다. 대부분의 보고서는 MITRE ATT&CK 프레임워크에 매핑된 전략 및 기술, 권장 사항의 전체 목록 및 강력한 위협 헌팅 지침을 포함하여 공격 체인에 대한 자세한 [설명을](advanced-hunting-overview.md) 제공합니다.

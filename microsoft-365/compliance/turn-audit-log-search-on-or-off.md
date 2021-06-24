@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
-description: Microsoft 365 준수 센터에서 감사 로그 검색 기능을 켜거나 끄고 관리자가 감사 로그를 검색할 수 있도록 설정하거나 사용하지 않도록 설정하는 방법
-ms.openlocfilehash: 457f453b001f71a095bc60932c8e0cebf46aa7b1
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+description: 관리자의 감사 로그 검색 기능을 설정하거나 해제하여 Microsoft 365 규정 준수 센터 감사 로그를 검색할 수 있는 기능을 활성화 또는 비활성화하는 방법
+ms.openlocfilehash: 7c55443eda9a99ff4ef153d8564fd9ac43fcc549
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706667"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105311"
 ---
 # <a name="turn-auditing-on-or-off"></a>감사 켜기 또는 끄기
 
@@ -39,7 +39,7 @@ Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 
 - 조직에서 감사를 설정하거나 해제하려면 Exchange Online 감사 로그 역할이 Microsoft 365 합니다. 기본적으로 이 역할은 Exchange 관리 센터의 사용 권한  페이지에서 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 조직의 전역 Microsoft 365 조직 관리 역할 그룹의 구성원입니다Exchange Online. 
 
     > [!NOTE]
-    > 감사를 설정하거나 해제하려면 사용자에게 Exchange Online 권한을 할당해야 합니다. 보안 및 준수 센터의 사용  권한 페이지에서 사용자에게 감사 로그 역할을 & 감사를 설정하거나 해제할 수 없습니다. 이는 PowerShell cmdlet의 Exchange Online cmdlet이기 때문에입니다. 
+    > 감사를 설정하거나 해제하려면 사용자에게 Exchange Online 권한을 할당해야 합니다. 보안 및 준수 센터의 사용  권한 페이지에서 사용자에게 감사 로그 역할을 & 감사를 설정하거나 해제할 수 없습니다. 이는 PowerShell cmdlet의 Exchange Online cmdlet이기 때문에입니다.
 
 - 감사 로그 검색에 대한 단계별 지침은 보안 및 준수 센터에서 감사 [로그 & 참조하세요.](search-the-audit-log-in-security-and-compliance.md) 관리 활동 API의 Microsoft 365 자세한 내용은 Microsoft 365 관리 API [시작을 참조하세요.](/office/office-365-management-api/get-started-with-office-365-management-apis)
 
@@ -59,7 +59,7 @@ Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 
 
 1. <https://compliance.microsoft.com>으로 이동하여 로그인합니다.
 
-2. 규정 준수 센터의 왼쪽 탐색 Microsoft 365 모두 표시를 **클릭한** 다음 감사를 **클릭합니다.**
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 **표시를** 클릭한 다음 감사 를 **클릭합니다.**
 
    조직에 대한 감사가 설정되어 있지 않은 경우 사용자 및 관리자 활동 기록을 시작하라는 배너가 표시됩니다.
 
@@ -103,6 +103,6 @@ Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 
 
       `False` _UnifiedAuditLogIngestionEnabled_ 속성의 값은 감사가 해제되어 있는 것입니다.
 
-    - 규정 준수 **센터의** 감사 Microsoft 365 이동합니다.
+    - 에서 **감사** 페이지로 Microsoft 365 규정 준수 센터.
 
       조직에 대한 감사가 설정되어 있지 않은 경우 사용자 및 관리자 활동 기록을 시작하라는 배너가 표시됩니다.

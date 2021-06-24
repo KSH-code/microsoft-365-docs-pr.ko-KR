@@ -20,12 +20,12 @@ description: 관리자는 조직의 위협 방지에 대해 Microsoft 365 조직
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 31ca7c27e3be20e20c16004490bd2ecd5ca4ae05
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 7e37b67dbed75e3283070ba94321fcb03979a5a6
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083683"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105395"
 ---
 # <a name="protect-against-threats"></a>위협에 대한 보호
 
@@ -95,8 +95,8 @@ ms.locfileid: "53083683"
 
 3. 정책 세부 정보 플라이아웃이 열리면 보호 설정 편집을 **클릭하고** 다음 설정을 구성합니다.
    - **보호 설정** 섹션:
-     - 공통 **첨부 파일 필터** 사용 을 선택하여 공통 첨부 파일 필터를 켜야 합니다. 파일 **형식 사용자 지정을 클릭하여** 파일 형식을 더 추가합니다.
-     - **맬웨어에 대해 0시간** 자동 제거 사용: 이 설정이 선택되어 있는지 확인 맬웨어에 대한 ZAP에 대한 자세한 내용은 맬웨어에 대한 [ZAP(제로 아워 자동 제거)를 참조하세요.](zero-hour-auto-purge.md#zero-hour-auto-purge-zap-for-malware)
+     - **공통 첨부 파일 필터 사용:** 선택(켜기)을 선택합니다. 파일 **형식 사용자 지정을 클릭하여** 파일 형식을 더 추가합니다.
+     - **맬웨어에 대해 0시간 자동 제거** 사용: 이 설정이 선택되어 있는지 확인 맬웨어에 대한 ZAP에 대한 자세한 내용은 맬웨어에 대한 [ZAP(제로 아워 자동 제거)를 참조하세요.](zero-hour-auto-purge.md#zero-hour-auto-purge-zap-for-malware)
    - **알림** 섹션: 알림 설정이 선택되어 있는지 확인합니다.
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
@@ -251,7 +251,7 @@ ms.locfileid: "53083683"
 2. 링크 **금고** 페이지에서 전역 설정을 클릭한 다음 나타나는 플라이아웃에서 다음 설정을 구성합니다.
    - **설정 앱 섹션의** 콘텐츠에 Office 365 적용되는 앱:
      - 금고 앱에서 Office 365 **링크 사용:** 이 설정이 켜져 있는지 확인( ![ 토글합니다. ](../../media/scc-toggle-on.png)
-     - 사용자가 Office 365 앱에서 보호된 링크를 클릭하는 경우 추적하지 **않습니다.** 이 설정은 끄기(토글 ![ 끄기) ](../../media/scc-toggle-off.png)
+     - 사용자가 Office 365 앱에서 보호된 링크를 클릭하는 경우 추적하지 **않습니다.** 이 설정은 끄기(토글 ![ 끄기)입니다. ](../../media/scc-toggle-off.png)
      - 사용자가 Office 365 앱의 원래 URL을 클릭할 수 없습니다. 이 설정이 켜져 있는지 **확인합니다(** ![ 토글 켜기). ](../../media/scc-toggle-on.png)
 
    완료되면 **저장을 클릭합니다.**

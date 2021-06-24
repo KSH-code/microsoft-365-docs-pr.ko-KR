@@ -20,12 +20,12 @@ ms.custom:
 description: 이 항목에서는 사용자 환경의 보안에 영향을 주는 테넌트 전체 설정에 대한 권장 구성을 Microsoft 365 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 623ea316d1ad92790b8818504970a1d35401f617
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: b1bb3f9bf6507e41d8b927137a9ab9ea8803637c
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929578"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105527"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테넌트 구성
 
@@ -42,30 +42,30 @@ ms.locfileid: "52929578"
 
 Office 365 보안 점수는 정기적인 활동 및 보안 설정에 따라 조직의 보안을 분석하고 점수를 할당합니다. 먼저 현재 점수를 기록해 넣습니다. 일부 테넌트 전체 설정을 조정하면 점수가 증가합니다. 목표는 최대 점수를 달성하는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호할 기회를 인식하는 것입니다. [Microsoft 보안 점수를 참조합니다.](../defender/microsoft-secure-score.md)
 
-## <a name="tune-threat-management-policies-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털에서 위협 관리 정책 조정
+## <a name="tune-threat-management-policies-in-the-microsoft-365-defender-portal"></a>보안 포털에서 위협 Microsoft 365 Defender 조정
 
-Microsoft 365 Defender 포털에는 환경을 보호하는 기능이 포함되어 있습니다. 또한 모니터링하고 조치를 취하는 데 사용할 수 있는 보고서 및 대시보드도 포함됩니다. 일부 영역에는 기본 정책 구성이 있습니다. 일부 영역에는 기본 정책이나 규칙이 포함되어 있지 않습니다. 위협 관리에서 이러한 정책을 방문하여 보다 안전한 환경을 위해 위협 관리 설정을 조정합니다.
+Microsoft 365 Defender 포털에는 환경을 보호하는 기능이 포함되어 있습니다. 또한 모니터링하고 조치를 취하는 데 사용할 수 있는 보고서 및 대시보드도 포함됩니다. 일부 영역에는 기본 정책 구성이 있습니다. 일부 영역에는 기본 정책이나 규칙이 포함되어 있지 않습니다. 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책에서 이러한 정책을 방문하여 보다 안전한 환경을 위해 위협 관리 설정을 \>  \>  조정합니다.
 
 <br>
 
 ****
 
-|영역|기본 정책 포함|권장 사항|
+|영역|기본 정책?|권장 사항|
 |---|---|---|
-|**피싱 방지**|예|<ul><li>가장 보호 - Office 365 및 사용자 지정 도메인에 대한 Defender가 있는 경우 기본 피싱 방지 정책에서 가장 보호 설정을 구성하여 CEO와 같은 가장 중요한 사용자의 전자 메일 계정을 보호하고 도메인을 보호합니다. 추가 정보: 피싱 [방지](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 정책 및 가장 정보의 가장 [설정](impersonation-insight.md)</li><li>스푸핑 인텔리전스 - 도메인을 스푸핑하는 보낸 사람 검토 이러한 보낸 사람 차단 또는 허용 추가 정보: [EOP의 스푸핑](learn-about-spoof-intelligence.md) 인텔리전스 인사이트 및 [테넌트 허용/차단](tenant-allow-block-list.md)목록 관리 .</li></ul>|
-|**맬웨어 방지 엔진**|예|기본 정책을 편집합니다. <ul><li>공통 **첨부 파일 필터 사용 선택**</li></ul> <p> 사용자 지정 맬웨어 필터 정책을 만들어 조직의 지정된 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. <p> 추가 정보: <ul><li>[맬웨어 방지 보호 기능](anti-malware-protection.md)</li><li>[맬웨어 방지 정책 구성](configure-anti-malware-policies.md)</li></ul>|
-|**Microsoft Defender의 안전한 첨부 Office 365**|아니요|안전한 첨부 파일에 대한 기본 페이지에서 전역 설정을 클릭하고 **이** 설정을 켜십시오. <ul><li>**SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기**</li></ul> <p> 다음 설정을 사용하여 안전한 첨부 파일 정책을 만들 수 있습니다. <ul><li> **차단:** 알 **수 없는 맬웨어** 응답으로 차단을 선택합니다.</li><li>**리디렉션 사용:** 이 확인란을 확인하고 관리자 또는 계정과 같은 전자 메일 주소를 입력합니다.</li><li>**첨부 파일에 대한 맬웨어** 검색이 시간 외 또는 오류가 발생하는 경우 위의 선택을 적용합니다. 이 확인란을 선택합니다.</li><li>**_적용 대상:_* **받는 사람 도메인이 도메인을** \> 선택합니다.</li></ul> <p> 추가 정보: [SharePoint,](mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 및 안전 첨부 파일 정책 [설정에](set-up-safe-attachments-policies.md) 대한 안전한 첨부 파일|
-|**Microsoft Defender의 안전한 Office 365**|예|안전한 링크의 기본 페이지에서 전역 설정을 **클릭합니다.** <ul><li>**안전한 링크 사용:** Office 365 응용 프로그램: 이 설정이 켜져 있는지 확인</li><li>**사용자가 안전한 링크를 클릭하는** 경우 추적하지 않습니다. 사용자 클릭을 추적하려면 이 설정을 끄면 됩니다.</li></ul> <p> 다음 설정을 사용하여 안전한 링크 정책을 만들 수 있습니다. <ul><li>**메시지에서 알 수 없는 악의적인 URL에** 대한 작업 선택: 이 설정 **으로** 확인</li><li>**에서 알 수 없는 URL** 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams : 이 설정이 사용으로 설정되어 있는지 확인 **합니다.**</li><li>**파일을 지정하는** 의심스러운 링크 및 링크에 대한 실시간 URL 검사를 적용합니다. 이 확인란을 선택합니다.</li><li>**메시지를 배달하기** 전에 URL 검색이 완료될 때까지 기다렸다가 : 이 확인란을 선택합니다.</li><li>**조직 내에서 전송된 전자 메일** 메시지에 안전한 링크 적용: 이 확인란을 선택합니다.</li><li>**사용자가 원래 URL을 클릭할** 수 있도록 허용 안 함: 이 확인란을 선택합니다.</li><li>**적용 대상:** **받는 사람 도메인이 도메인을** \> 선택합니다.</li></ul> <p> 추가 정보: [안전한 링크 정책 설정](set-up-safe-links-policies.md).|
-|**스팸 방지(메일 필터링)**|예| 감시할 사항: 너무 많은 스팸 - 사용자 지정 설정을 선택하고 기본 스팸 필터 정책을 편집합니다. 추가 정보: [Microsoft 365 스팸 방지 보호 를 참조하십시오.](anti-spam-protection.md)|
-|***전자 메일 인증***|예|전자 메일 인증은 DNS(Domain Name System)를 사용하여 전자 메일을 보낸 사람에 대한 확인 가능한 정보를 전자 메일 메시지에 추가합니다. Microsoft 365(onmicrosoft.com)에 대해 전자 메일 인증을 설정하지만 Microsoft 365 사용자 지정 도메인에 대해 전자 메일 인증을 사용할 수도 있습니다. 세 가지 인증 방법이 사용됩니다. <ul><li>보낸 사람 정책 프레임워크(또는 SPF)</li><ul><li>설치에 대한 자세한 내용은 스푸핑을 Microsoft 365 SPF 설정을 [참조합니다.](set-up-spf-in-office-365-to-help-prevent-spoofing.md)</li></ul> <li>DomainKeys 식별 메일(DKIM)</li><ul><li>DKIM을 사용하여 사용자 지정 도메인에서 보낸 [아웃바운드 전자 메일의 유효성 검사를 참조하세요.](use-dkim-to-validate-outbound-email.md)</li><li>DKIM을 구성한 후 Microsoft 365 Defender 포털에서 사용하도록 설정합니다.</li></ul><li>도메인 기반 메시지 인증, 보고 및 적합성(DMARC)</li><ul><li>DMARC 설치의 경우 DMARC를 사용하여 에서 전자 [메일의 유효성을 Microsoft 365.](use-dmarc-to-validate-email.md)</li></ul></ul>|
+|**피싱 방지**|예|EOP에서 피싱 방지 보호 설정 구성 및 에 설명된 기본 피싱 방지 정책을 [Office 365.](protect-against-threats.md#part-2---anti-phishing-protection-in-eop-and-defender-for-office-365) <p> 추가 정보: <ul><li>[2016년 8월의 피싱 Microsoft 365](set-up-anti-phishing-policies.md)</li><li>[Microsoft Defender for Office 365](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)</li><li> [가장 인사이트](impersonation-insight.md)</li><li>[EOP의 스푸핑 인텔리전스 정보](learn-about-spoof-intelligence.md)</li><li>[테넌트 허용/차단 목록을 관리합니다.](tenant-allow-block-list.md)</li></ul>|
+|**맬웨어 방지 엔진**|예|EOP에서 맬웨어 방지 보호 설정 구성에 설명된 기본 맬웨어 방지 정책을 [구성합니다.](protect-against-threats.md#part-1---anti-malware-protection-in-eop) <p> 추가 정보: <ul><li>[맬웨어 방지 보호 기능](anti-malware-protection.md)</li><li>[권장되는 맬웨어 방지 정책 설정](recommended-settings-for-eop-and-office365.md#eop-anti-malware-policy-settings)</li><li>[맬웨어 방지 정책 구성](configure-anti-malware-policies.md)</li></ul>|
+|**Office 365용 Defender의 안전한 첨부 파일**|아니요|금고 첨부 파일에 대한 전역 설정을 구성하고 다음에 설명된 금고 첨부 파일 정책을 만들 수 있습니다. [Configure 금고 Attachments settings in Microsoft Defender for Office 365.](protect-against-threats.md#safe-attachments-policies-in-microsoft-defender-for-office-365) <p> 추가 정보: <ul><li>[권장 금고 첨부 파일 설정](recommended-settings-for-eop-and-office365.md#safe-attachments-settings)</li><li>[금고 Microsoft Defender for Office 365](safe-attachments.md)</li><li>[안전한 첨부 파일 정책 설정](set-up-safe-attachments-policies.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)</li><li>[Microsoft 365 E5에서 안전한 문서](safe-docs.md)</li></ul>|
+|**금고 Microsoft Defender for Office 365**|아니요|금고 링크에 대한 전역 설정을 구성하고 금고 링크에 대한 Microsoft [Defender의](protect-against-threats.md#safe-links-policies-in-microsoft-defender-for-office-365)금고 링크 설정 구성에 설명된 Office 365. <p> 추가 정보: <ul><li>[권장 금고 링크 설정](recommended-settings-for-eop-and-office365.md#safe-links-settings)</li><li>[안전한 링크 정책 설정](set-up-safe-links-policies.md)</li><li>[금고 Microsoft Defender for Office 365](safe-links.md)</li><li>[Microsoft Defender에서 금고 링크에 대한 전역 설정 Office 365](configure-global-settings-for-safe-links.md)</li></ul>|
+|**스팸 방지(메일 필터링)**|예|[EOP에서](protect-against-threats.md#part-3---anti-spam-protection-in-eop) 스팸 방지 보호 설정 구성에 설명된 기본 스팸 방지 정책 구성 <p> 추가 정보: <ul><li>[권장 스팸 방지 정책 설정](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)</li><li>[EOP의 스팸 방지 보호 기능](anti-spam-protection.md)</li><li>[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)</li></ul>|
+|***전자 메일 인증***|예|전자 메일 인증에서는 DNS 레코드를 사용하여 메시지 원본 및 보낸 사람에 대한 확인 가능한 정보를 전자 메일 메시지에 추가합니다. Microsoft 365 기본 도메인(onmicrosoft.com)에 대해 전자 메일 인증을 자동으로 구성하지만 Microsoft 365 사용자 지정 도메인에 대해 전자 메일 인증을 구성할 수도 있습니다. 세 가지 인증 방법이 사용됩니다. <ul><li>보낸 사람 정책 프레임워크(또는 SPF)</li><ul><li>설치에 대한 자세한 내용은 스푸핑을 Microsoft 365 SPF 설정을 [참조합니다.](set-up-spf-in-office-365-to-help-prevent-spoofing.md)</li></ul> <li>DomainKeys 식별 메일(DKIM)</li><ul><li>DKIM을 사용하여 사용자 지정 도메인에서 보낸 [아웃바운드 전자 메일의 유효성 검사를 참조하세요.](use-dkim-to-validate-outbound-email.md)</li><li>DKIM을 구성한 후 Microsoft 365 Defender 포털에서 사용하도록 설정합니다.</li></ul><li>도메인 기반 메시지 인증, 보고 및 적합성(DMARC)</li><ul><li>DMARC 설치의 경우 DMARC를 사용하여 에서 전자 [메일의 유효성을 Microsoft 365.](use-dmarc-to-validate-email.md)</li></ul></ul>|
 |
 
 > [!NOTE]
 > 비표준 SPF 배포, 하이브리드 배포 및 문제 해결: Microsoft 365 [SPF(Sender Policy Framework)를](how-office-365-uses-spf-to-prevent-spoofing.md)사용하여 스푸핑을 방지하는 방법
 
-## <a name="view-dashboards-and-reports-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 대시보드 및 Microsoft 365 보기
+## <a name="view-dashboards-and-reports-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 대시보드 및 Microsoft 365 Defender 보기
 
-이러한 보고서 및 대시보드를 방문하여 환경의 상태에 대해 자세히 알아보면 됩니다. 조직에서 서비스를 사용할 때 이러한 보고서의 데이터는 더 Office 365 있습니다. 지금은 모니터링하고 조치를 취할 수 있는 기능을 잘 알고 있습니다. 자세한 내용은 [Defender 포털의 Microsoft 365 참조하세요.](../../compliance/reports-in-security-and-compliance.md)
+이러한 보고서 및 대시보드를 방문하여 환경의 상태에 대해 자세히 알아보면 됩니다. 조직에서 서비스를 사용할 때 이러한 보고서의 데이터는 더 Office 365 있습니다. 지금은 모니터링하고 조치를 취할 수 있는 기능을 잘 알고 있습니다.
 
 <br>
 
@@ -73,12 +73,11 @@ Microsoft 365 Defender 포털에는 환경을 보호하는 기능이 포함되�
 
 |대시보드|설명|
 |---|---|
-|[위협 관리 대시보드](security-dashboard.md)|Microsoft 365  Defender 포털의 위협 관리 섹션에서 이 대시보드를 사용하여 이미 처리된 위협을 볼 수 있으며, 비즈니스 의사 결정권자가 비즈니스 보안을 위해 이미 수행한 위협 조사 및 대응 기능에 대해 보고할 수 있는 편리한 도구로 사용할 수 있습니다.|
-|[위협 탐색기 (또는 실시간 검출)](threat-explorer.md)|이는 또한 Defender 포털의 위협 관리 Microsoft 365 있습니다.  테넌트에 대한 공격을 조사하거나 경험하는 경우 탐색기(또는 실시간 검색)를 사용하여 위협을 분석합니다. 탐색기(및 실시간 검색 보고서)는 시간이 지날수록 공격의 양을 보여 주며 위협 패밀리, 공격자 인프라 등에서 이 데이터를 분석할 수 있습니다. 인시던트 목록에 의심스러운 전자 메일을 표시할 수도 있습니다.|
-|보고서 - 대시보드|Microsoft 365  Defender 포털의 보고서 섹션에서 온라인 및 SharePoint 조직에 대한 Exchange Online 을 하세요. 또한 보고서 보기 페이지에서 Azure Active Directory(Azure AD) 사용자 로그인 보고서, 사용자 활동 보고서 및 Azure AD 감사 로그에 액세스할 **수도** 있습니다.|
+|전자 메일 보안 보고서|이러한 보고서는 각 보고서에서 Exchange Online Protection. 자세한 내용은 Microsoft 365 Defender 포털에서 전자 [메일 보안 보고서 보기를 참조하세요.](view-email-security-reports.md)|
+|Defender for Office 365 보고서|보고서는 Defender에서만 사용할 수 Office 365. 자세한 내용은 view [Defender for Office 365 portal에서 Microsoft 365 Defender 참조하세요.](view-reports-for-mdo.md)|
+|메일 흐름 보고서 및 인사이트|이러한 보고서 및 인사이트는 EAC(Exchange 관리 센터)에서 사용할 수 있습니다. 자세한 내용은 [메일](/exchange/monitoring/mail-flow-reports/mail-flow-reports) 흐름 보고서 및 메일 흐름 [정보 를 참조하세요.](/exchange/monitoring/mail-flow-insights/mail-flow-insights)|
+|[위협 탐색기 (또는 실시간 검출)](threat-explorer.md)|테넌트에 대한 공격을 조사하거나 경험하는 경우 탐색기(또는 실시간 검색)를 사용하여 위협을 분석합니다. 탐색기(및 실시간 검색 보고서)는 시간이 지날수록 공격의 양을 보여 주며 위협 패밀리, 공격자 인프라 등에서 이 데이터를 분석할 수 있습니다. 인시던트 목록에 의심스러운 전자 메일을 표시할 수도 있습니다.|
 |
-
-![Microsoft 365 Defender 포털 대시보드](../../media/870ab776-36d2-49c7-b615-93b2bc42fce5.png)
 
 ## <a name="configure-additional-exchange-online-tenant-wide-settings"></a>테넌트 Exchange Online 설정 추가 구성
 
@@ -88,10 +87,10 @@ Microsoft 365 Defender 포털에는 환경을 보호하는 기능이 포함되�
 
 ****
 
-|영역|기본 정책 포함|권장 사항|
-|---|---|---|
-|**메일 Flow(전송** 규칙라고도 하는 메일 흐름 규칙)|아니요|매크로가 포함된 파일 형식 및 실행 파일 형식을 차단하여 랜섬웨어를 Office 메일 흐름 규칙을 추가합니다. 자세한 내용은 [Use mail flow rules to inspect message attachments in Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments) <p> 다음 추가 항목을 참조하세요. <ul><li>[랜섬웨어로부터 보호](../../admin/security-and-compliance/secure-your-business-data.md#5-protect-against-ransomware)</li><li>[맬웨어 및 랜섬웨어 Microsoft 365](/compliance/assurance/assurance-malware-and-ransomware-protection)</li><li>[랜섬웨어 공격으로부터 Office 365](recover-from-ransomware.md)</li></ul> <p> 메일 흐름 규칙을 만들어 전자 메일을 외부 도메인으로 자동 전달하지 못하게 합니다. 자세한 내용은 보안 점수를 사용하여 클라이언트 [외부 전달 규칙 완화를 참조하세요.](/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score) <p> 추가 정보: 메일 [흐름 규칙(전송 규칙) Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)|
-|**최신 인증 사용**|아니요|최신 인증은 MFA(다단계 인증)를 사용하기 위한 선행 요소입니다. MFA는 전자 메일을 비롯한 클라우드 리소스에 대한 액세스를 보안하는 데 권장됩니다. <p> 다음 항목을 참조하세요. <ul><li>[Exchange Online에서 최신 인증 사용 여부 설정](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)</li><li>[비즈니스용 Skype 온라인: 최신 인증을 위해 테넌트 사용](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)</li></ul> <p> 최신 인증은 Office, SharePoint Online 및 비즈니스용 OneDrive. <p> 추가 정보: [Office 2013](../../enterprise/modern-auth-for-office-2013-and-2016.md) 및 Office 클라이언트 앱에 대해 최신 인증이 작동하는 방식|
+|영역|권장 사항|
+|---|---|
+|**메일 흐름 규칙(전송** 규칙)|매크로가 포함된 파일 형식 및 실행 파일 형식을 차단하여 랜섬웨어를 Office 메일 흐름 규칙을 추가합니다. 자세한 내용은 [Use mail flow rules to inspect message attachments in Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments) <p> 다음 추가 항목을 참조하세요. <ul><li>[랜섬웨어로부터 보호](../../admin/security-and-compliance/secure-your-business-data.md#5-protect-against-ransomware)</li><li>[맬웨어 및 랜섬웨어 Microsoft 365](/compliance/assurance/assurance-malware-and-ransomware-protection)</li><li>[랜섬웨어 공격으로부터 Office 365](recover-from-ransomware.md)</li></ul> <p> 메일 흐름 규칙을 만들어 전자 메일을 외부 도메인으로 자동 전달하지 못하게 합니다. 자세한 내용은 보안 점수를 사용하여 클라이언트 [외부 전달 규칙 완화를 참조하세요.](/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score) <p> 추가 정보: 메일 [흐름 규칙(전송 규칙) Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)|
+|**최신 인증**|최신 인증은 MFA(다단계 인증)를 사용하기 위한 선행 요소입니다. MFA는 전자 메일을 비롯한 클라우드 리소스에 대한 액세스를 보안하는 데 권장됩니다. <p> 다음 항목을 참조하세요. <ul><li>[Exchange Online에서 최신 인증 사용 여부 설정](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)</li><li>[비즈니스용 Skype 온라인: 최신 인증을 위해 테넌트 사용](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)</li></ul> <p> 최신 인증은 Office, SharePoint Online 및 비즈니스용 OneDrive. <p> 추가 정보: [Office 2013](../../enterprise/modern-auth-for-office-2013-and-2016.md) 및 Office 클라이언트 앱에 대해 최신 인증이 작동하는 방식|
 |
 
 ## <a name="configure-tenant-wide-sharing-policies-in-sharepoint-admin-center"></a>SharePoint 관리 센터에서 테넌트 전체 공유 정책 구성
@@ -132,12 +131,11 @@ SharePoint 센터 및 비즈니스용 OneDrive 센터에 동일한 설정이 포
 그동안 Online 및 SharePoint 다음 방법 중 하나를 비즈니스용 OneDrive.
 
 - PowerShell 사용, ADAL(최신 인증)을 사용하지 않는 [앱 차단을 참조하세요.](/mem/intune/protect/app-modern-authentication-block)
-
 - "장치 액세스" SharePoint 센터에서 "최신 인증을 사용하지 않는 앱의 액세스 제어"에서 이 설정을 구성합니다. 차단을 선택 합니다.
 
 ## <a name="get-started-with-cloud-app-security-or-office-365-cloud-app-security"></a>시작 Cloud App Security 또는 Office 365 Cloud App Security
 
-이 Office 365 Cloud App Security 사용하여 위험을 평가하고 의심스러운 활동에 대해 경고하며 자동으로 조치를 취합니다. E5 Office 365 필요합니다.
+이 Office 365 Cloud App Security 사용하여 위험을 평가하고 의심스러운 활동에 대해 경고하며 자동으로 조치를 취합니다. 계획 Office 365 E5 필요합니다.
 
 또는 Microsoft Cloud App Security 권한을 부여받은 후에도 보다 자세한 가시성을 확보하고, 포괄적 제어를 획득하고, 모든 클라우드 응용 프로그램에 대한 향상된 보호 기능을 Office 365.
 

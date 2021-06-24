@@ -18,12 +18,12 @@ description: 관리자와 최종 사용자는 분석을 위해 Microsoft에 전�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d277df764ce2fb135f11c6320bc990e4d4142d6
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: d0d48c3c6f6d082085390d6e246a088b6d3f6bf0
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929770"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105551"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 수동으로 메시지 전송
 
@@ -35,7 +35,7 @@ ms.locfileid: "52929770"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> 사서함이 있는 조직의 관리자인 Exchange Online Defender 포털의 제출 포털을 Microsoft 365 좋습니다. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
+> 사서함이 있는 조직의 관리자인 Exchange Online 포털의 제출 페이지를 사용하는 Microsoft 365 Defender  좋습니다. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
 
 조직의 사용자가 받은 편지함에서 정크 메시지(스팸) 또는 피싱 메시지를 받거나 정크 메일로 표시되어 합법적인 전자 메일 메시지를 받지 못하면 좌절할 수 있습니다. 스팸 필터의 정확도를 더 정확하게 조정하고 있습니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "52929770"
 ## <a name="submit-false-negatives-to-microsoft"></a>Microsoft에 거짓 부정 제출
 
 > [!TIP]
-> 다음 절차에 따라 거짓 부정을 보고하는 대신 웹 Outlook Outlook(이전의 Outlook Web App)의 사용자는 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용할 수 있습니다. 이러한 도구를 설치하고 사용하는 방법에 대한 자세한 내용은 [보고서](enable-the-report-message-add-in.md) 메시지 추가 기능 사용 및 피싱 보고서 추가 기능 사용을 [참조하세요.](enable-the-report-phish-add-in.md)
+> 다음 절차에 따라 거짓 부정을 보고하는 대신 Outlook 및 웹용 Outlook(이전의 Outlook Web App)의 사용자는 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용할 수 있습니다. 이러한 도구를 설치하고 사용하는 방법에 대한 자세한 내용은 [보고서](enable-the-report-message-add-in.md) 메시지 추가 기능 사용 및 피싱 보고서 추가 기능 사용을 [참조하세요.](enable-the-report-phish-add-in.md)
 
 스팸 필터링을 통과하여 스팸 또는 피싱으로 식별된 메시지를 받은 경우 Microsoft 스팸 분석 및 Microsoft 피싱 분석 팀에 적절하게 메시지를 제출할 수 있습니다. 분석가가 메시지를 검토하고 분류 기준을 충족하는 경우 서비스 전체 필터에 추가합니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "52929770"
 ## <a name="submit-false-positives-to-microsoft"></a>Microsoft에 가짓 긍정 제출
 
 > [!TIP]
-> 다음 절차에 따라 가짓 긍정을 보고하는 대신 웹 Outlook Outlook(이전의 Outlook Web App)의 사용자는 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용할 수 있습니다. 이러한 도구를 설치하고 사용하는 방법에 대한 자세한 내용은 [보고서](enable-the-report-message-add-in.md) 메시지 추가 기능 사용 및 피싱 보고서 추가 기능 사용을 [참조하세요.](enable-the-report-phish-add-in.md)
+> 다음 절차에 따라 가짓 긍정을 보고하는 대신, Outlook 및 웹용 Outlook 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용할 수 있습니다. 이러한 도구를 설치하고 사용하는 방법에 대한 자세한 내용은 [보고서](enable-the-report-message-add-in.md) 메시지 추가 기능 사용 및 피싱 보고서 추가 기능 사용을 [참조하세요.](enable-the-report-phish-add-in.md)
 
 메시지가 스팸으로 잘못 식별된 경우 Microsoft 스팸 분석 팀에 메시지를 제출할 수 있습니다. 분석가가 메시지를 평가하고 분석 결과에 따라 메시지 통과를 허용하도록 서비스 전체 필터를 조정할 수 있습니다.
 

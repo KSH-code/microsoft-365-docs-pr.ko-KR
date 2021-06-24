@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 21f6947074f6a14e6ed1af3968ee94e403f0d0cd
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 0068d5aeef1289d8775dcefd0b4f60cb8f8ed0de
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096819"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105407"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -38,8 +38,12 @@ RSS 피드: 다음 URL을 복사하여 피드 읽기에 붙여 넣는 방법을 
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
-## <a name="june-2021"></a>2021년 6월
-- 위협 분석 보고서의 [Microsoft 365 Defender 태그](threat-analytics.md) <br> 위협 태그를 사용하면 특정 위협 범주에 집중하고 가장 관련성이 높은 보고서를 검토할 수 있습니다. 
+
+## <a name="may-2021"></a>2021년 5월
+
+- [Microsoft 365 Defender 포털의 새 경고 페이지](https://techcommunity.microsoft.com/t5/microsoft-365-defender/easily-find-anomalies-in-incidents-and-alerts/ba-p/2339243) <br> 공격에 대한 컨텍스트에 대한 향상된 정보를 제공합니다. 현재 경고를 유발한 다른 트리거된 경고와 파일, 사용자 및 사서함을 포함하여 공격에 관련된 모든 엔터티 및 활동을 볼 수 있습니다. 자세한 [내용은 경고 조사를](/microsoft-365/security/defender/investigate-alerts) 참조하세요.
+- [추세 포털의 인시던트 및 경고에 대한 Microsoft 365 Defender 그래프](https://techcommunity.microsoft.com/t5/microsoft-365-defender/new-alert-page-for-microsoft-365-defender-incident-detections/ba-p/2350425) <br> 단일 인시던트에 대한 여러 경고가 있는지 또는 조직이 여러 다른 인시던트로 공격을 당하고 있는지를 파악합니다. 자세한 [내용은 인시던트 우선](/microsoft-365/security/defender/incident-queue) 순위 지정을 참조하세요.
+
 
 ## <a name="april-2021"></a>2021년 4월
 - Microsoft 365 Defender<br> 이제 [향상된](https://security.microsoft.com) Microsoft 365 Defender 포털을 사용할 수 있습니다. 이 새로운 환경은 Endpoint용 Defender, Office 365, ID용 Defender 등 여러 정보를 단일 포털로 통합합니다. 보안 제어를 관리하는 새로운 홈입니다. [새로운 기능에 대해 알아보세요](./overview-security-center.md).
