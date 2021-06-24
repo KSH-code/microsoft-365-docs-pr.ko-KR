@@ -395,9 +395,9 @@
               href: archive-celltrust-data.md
             - name: MS SQL의 Cisco Jabber
               href: archive-ciscojabberonmssql-data.md
-            - name: Oracle의 Cisco Jabber(미리 보기)
+            - name: Oracle의 Cisco Jabber
               href: archive-ciscojabberonoracle-data.md
-            - name: PostgreSQL의 Cisco Jabber(미리 보기)
+            - name: PostgreSQL의 Cisco Jabber
               href: archive-ciscojabberonpostgresql-data.md
             - name: EML
               href: archive-eml-data.md
@@ -421,6 +421,8 @@
               href: archive-salesforcechatter-data.md
             - name: ServiceNow
               href: archive-servicenow-data.md
+            - name: 비즈니스용 Skype(미리 보기)
+              href: archive-skypeforbusiness-data.md
             - name: Slack eDiscovery
               href: archive-slack-data.md
             - name: Symphony
@@ -429,8 +431,6 @@
               href: archive-text-delimited-data.md
             - name: Webex Teams
               href: archive-webexteams-data.md
-            - name: 웹 페이지
-              href: archive-webpagecapture-data.md
             - name: 웹 페이지
               href: archive-webpagecapture-data.md
             - name: Facebook의 작업 영역
@@ -455,6 +455,10 @@
               href: archive-enterprise-number-data.md
             - name: O2 Network
               href: archive-o2-network-data.md
+            - name: 신호(미리 보기)
+              href: archive-signal-archiver-data.md
+            - name: Telegram(미리 보기)
+              href: archive-telegram-archiver-data.md
             - name: TELUS Network
               href: archive-telus-network-data.md
             - name: Verizon Network
