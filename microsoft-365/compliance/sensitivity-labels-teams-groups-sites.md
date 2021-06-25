@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 8c19853730376e36ffe7ac136e7fc6036b8b5f12
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 2ffc0350dd61a0064ce2e9891b18a6769a437d2e
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028982"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096759"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -421,9 +421,7 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
 
 이 이벤트에 대한 감사 로그를 검색하려면 **파일 및 페이지 활동** 범주에서 **발견된 문서 감도 불일치** 를 찾습니다.
 
-자동 생성된 전자 메일에는 **호환되지 않는 민감도 레이블이 탐지됨** 이라는 제목이 있고, 전자 메일 메시지에서는 업로드한 문서 및 사이트에 대한 링크와 레이블 불일치를 설명합니다. 또한 사용자가 민감도 레이블을 변경하는 방법을 설명하는 문서 링크가 포함되어 있습니다. 현재로서는 이러한 자동화된 전자 메일을 사용하지 않도록 설정하거나 사용자 지정할 수 없습니다.
-
-자동으로 생성된 전자 메일을 방지하려면 다음과 같은 [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite)의 PowerShell 명령을 사용하세요.
+자동 생성된 전자 메일에는 **호환되지 않는 민감도 레이블이 탐지됨** 이라는 제목이 있고, 전자 메일 메시지에서는 업로드한 문서 및 사이트에 대한 링크와 레이블 불일치를 설명합니다. 또한 사용자가 민감도 레이블을 변경하는 방법을 설명하는 문서 링크가 포함되어 있습니다. 이러한 자동화된 전자 메일은 사용자 지정할 수 없지만 [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant)의 PowerShell 명령을 사용하여 전자 메일이 전송되지 않도록 방지할 수 있습니다.
 
 ```PowerShell
 Set-SPOTenant -BlockSendLabelMismatchEmail $True

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격에 대한 조직의 보안을 강화하고 공통 암호를 금지하고 위험 기반 다단계 인증을 사용하세요.
-ms.openlocfilehash: f580ed957b8231bc68c5f21ea9af990808478382
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 6f79116b1188eaab1b843b2e3fa612c4ed01c488
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53006928"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096627"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
 
@@ -58,7 +58,7 @@ Microsoft 365 암호에 대한 자세한 내용은 다음을 참조 하세요.
 
 더욱 안전한 암호 시스템의 기본 목적은 암호 다양성입니다. 암호 정책에 다양하고 추측하기 어려운 비밀번호를 포함하고 싶을 것입니다. 다음은 조직을 최대한 안전한 상태로 유지하기 위한 몇 가지 권장 사항입니다.
   
-- 최소 8자 이상 길이 요구 사항 유지(길다고 꼭 좋은 것은 아닙니다.)
+- 8자 이상 길이 요구 사항 유지
 
 - 문자 구성 요구 사항은 필요하지 않습니다. 예: \*&amp;(^%$
 
@@ -131,6 +131,8 @@ Microsoft 365 암호에 대한 자세한 내용은 다음을 참조 하세요.
 ## <a name="next-steps"></a>다음 단계
 
 암호 관리에 대해 더 알고 싶으세요? 다음 문서를 읽어보세요.
+
+- [암호는 이제 그만, 암호 없이 사용하기](https://www.microsoft.com/security/business/identity-access-management/passwordless-authentication)
 
 - [Microsoft 암호 지침](https://www.microsoft.com/research/wp-content/uploads/2016/06/Microsoft_Password_Guidance-1.pdf)
 
