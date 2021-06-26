@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 77834c71c7df9f5a460533f1a06878e0e3e38145
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: dbfe9e1eaeff7968328eefd24caeec35e2d72558
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061899"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137778"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -140,6 +140,9 @@ DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 일치 정확
 
 또한 DLP 정책 구성과 마찬가지로 조건이 모든 중요한 정보 유형을 탐지해야 하는지 또는 이러한 정보 유형 중 하나만 탐지해야 하는지 선택할 수 있습니다. 또한 조건을 더 유연하고 복잡하게 만들기 위해 [그룹을 추가하고 그룹 간에 논리 연산자를 사용](data-loss-prevention-policies.md#grouping-and-logical-operators)할 수 있습니다.
 
+> [!NOTE]
+> 중요한 사용자 지정 정보 유형을 기반으로 하는 자동 레이블 지정 정책은 OneDrive 및 SharePoint에서 새로 만들거나 수정한 콘텐츠에만 적용합니다. 
+
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>레이블에 교육 가능한 분류자 구성하기
 
 이 옵션은 현재 미리 보기로 제공됩니다. 이 옵션을 사용하는 경우 자동 레이블 지정과 [중요한 정보 유형 옵션](#configuring-sensitive-info-types-for-a-label)에 구성된 하나 이상의 다른 민감도 레이블을 테넌트에 게시했는지 확인하세요.
@@ -190,7 +193,7 @@ Office 앱의 자동 및 권장 레이블 지정 구현은 Office 기본 제공 
 
 - 데스크톱 버전의 Word에서 권장되는 레이블의 경우 사용자가 권장되는 민감도 레이블을 적용하는 대신, 중요한 콘텐츠를 검토하고 제거할 수 있도록 권장 사항을 트리거한 중요한 콘텐츠에 플래그가 지정됩니다.
 
-- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
+- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/ko-KR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
 
 Azure Information Protection 통합 레이블 지정 클라이언트와 관련된 내용:
 
@@ -215,7 +218,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     - 자동 레이블 지정 정책이 실행될 때 다른 프로세스나 사용자가 파일을 열면 안됩니다. 편집을 위해 체크 아웃된 파일은 이 범주로 분류됩니다.
 
 - 기본 제공 민감도 유형이 아닌 [사용자 지정 민감도 정보 유형](sensitive-information-type-learn-about.md)을 사용하려는 경우: 
-    - 사용자 지정 민감도 정보 유형은 사용자 지정 민감도 정보 유형을 저장한 후 SharePoint 또는 OneDrive에 추가되는 콘텐츠에 대해 평가됩니다. 
+    - 사용자 지정 중요 정보 유형을 시행한 후 SharePoint 또는 OneDrive에서 추가 또는 수정한 콘텐츠에만 사용자 지정 중요 정보 유형을 적용합니다. 
     - 새로운 사용자 지정 민감도 정보 유형을 테스트하려면 자동 레이블 지정 정책을 만들기 전에 해당 유형을 만든 다음 테스트용 샘플 데이터가 포함된 새 문서를 만듭니다.
 
 - 자동 레이블 지정 정책에 대해 선택할 수 있는 하나 이상의 민감도 레이블이 [생성 및 게시](create-sensitivity-labels.md)(적어도 한 명의 사용자에게) 됩니다. 이러한 레이블의 경우:

@@ -2,8 +2,8 @@
 title: Microsoft 준수 관리자 빠른 시작 가이드
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 준수 관리자 빠른 시작 가이드를 사용하여 준수 관리자를 이해하고, 설정하고, 사용하는 여정을 안내합니다.
-ms.openlocfilehash: bb40fe0ace2f4b751e24d77f46dc1fc509eb42f4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8ac4245da95192516c57d51d740531fd4af10647
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906030"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149049"
 ---
 # <a name="compliance-manager-quickstart"></a>준수 관리자 빠른 시작
 
@@ -31,7 +31,7 @@ ms.locfileid: "50906030"
 
 ## <a name="first-visit-get-to-know-compliance-manager"></a>첫 번째 방문: 준수 관리자에 대해 알아가기
 
-준수 관리자는 의 Microsoft 365 규정 준수 센터에 https://compliance.microsoft.com 있습니다. 준수 관리자 사용을 시작하기 전에 [](compliance-manager-setup.md#set-user-permissions-and-assign-roles) 조직의 전역 관리자가 사용자 권한을 설정하고 역할을 할당해야 합니다.
+준수 관리자는 의 Microsoft 365 규정 준수 센터 https://compliance.microsoft.com 있습니다. 준수 관리자 사용을 시작하기 전에 [](compliance-manager-setup.md#set-user-permissions-and-assign-roles) 조직의 전역 관리자가 사용자 권한을 설정하고 역할을 할당해야 합니다.
 
 준수 관리자를 처음 방문하면 조직에 대한 준수 점수가 볼 수 있습니다. 준수 관리자는 데이터 보호 기준에 따라 현재 Microsoft 365 환경을 이미 평가하고 있습니다. 준수 관리자에 익숙해지기 시작하는 가장 좋은 방법은 표시하는 요소, 주요 요소 및 대시보드를 사용자 지정하는 방법을 이해하는 것입니다.
 
@@ -63,8 +63,8 @@ ms.locfileid: "50906030"
 
 또한 개선 작업의 전체 또는 하위 집합에 대한 자동화된 테스트를 설정할 수도 있습니다. 준수 관리자의 고급 기능을 이해하기 위해 아래 링크를 방문하세요.
 
-- [자체 컨트롤 및 개선 작업을 추가하여 준수 관리자 평가 확장](compliance-manager-assessments.md#extend-a-pre-built-assessment)
-- [사용자 지정 평가 만들기](compliance-manager-assessments.md#create-your-own-custom-assessment)
+- [자체 컨트롤 및 개선 작업을 추가하여 준수 관리자 템플릿 확장](compliance-manager-templates.md#extend-an-assessment-template)
+- [사용자 지정 서식 파일 만들기](compliance-manager-templates.md#create-an-assessment-template)
 - [기존 템플릿을 수정하여 컨트롤 및 작업 추가 또는 제거](compliance-manager-templates.md#modify-a-template)
 - [개선 작업의 자동화된 테스트 설정](compliance-manager-setup.md#set-up-automated-testing)
 - [다른 사용자에게 개선 작업 다시 재배치](compliance-manager-setup.md#reassign-improvement-actions-to-another-user)

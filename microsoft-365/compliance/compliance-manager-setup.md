@@ -2,8 +2,8 @@
 title: Microsoft 준수 관리자 시작
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: 8877a9a1e65a624708646c17a2517647c8a72f6a
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 7e29dd0eff7b05cb55a1fb0e071632353dadbdf8
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570560"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148905"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -38,7 +38,7 @@ ms.locfileid: "51570560"
 
 ## <a name="sign-in"></a>로그인
 
-1. 규정 [준수 Microsoft 365 이동하고](https://compliance.microsoft.com/) 전역 관리자 **계정으로** Microsoft 365 로그인합니다.
+1. 사용자 [계정으로 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/) **전역** 관리자 계정으로 Microsoft 365 로그인합니다.
 2. 왼쪽 **탐색 창에서** 준수 관리자를 선택합니다. 준수 관리자 [대시보드에 도착합니다.](#understand-the-compliance-manager-dashboard)
 
 준수 관리자에 액세스하는 직접 링크는 [https://compliance.microsoft.com/compliancemanager](https://compliance.microsoft.com/compliancemanager) 입니다.
@@ -80,7 +80,7 @@ Office 365 보안 및 준수 센터에 액세스할 수 없는 경우 또는 Mic
 
 Azure AD에서 역할을 할당하고 사용 권한을 설정하려면 역할이 있는 사용자에게 관리자 및 비 관리자 역할 [할당을 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
-Office 365 또는 Microsoft 365 구독이 없는 Azure AD ID가 있는 사용자는 Microsoft 365 규정 준수 센터에서 준수 관리자에 액세스할 수 없습니다. 준수 관리자에 액세스하는 데 도움이 필요한 경우 에 [cmresearch@microsoft.com.](mailto:cmresearch@microsoft.com)
+Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구독에서 준수 관리자에 액세스할 수 Microsoft 365 규정 준수 센터. 준수 관리자에 액세스하는 데 도움이 필요한 경우 에 [cmresearch@microsoft.com.](mailto:cmresearch@microsoft.com)
 
 ### <a name="role-types"></a>역할 유형
 
@@ -97,7 +97,7 @@ Office 365 또는 Microsoft 365 구독이 없는 Azure AD ID가 있는 사용자
 
 ## <a name="settings-for-automated-testing-and-user-history"></a>설정 테스트 및 사용자 기록에 대한 자세한 정보를 제공합니다.
 
-Microsoft 365 준수 센터의 준수 관리자 설정을 사용하여 개선 작업의 자동 테스트를 사용하도록 설정하고 사용하지 않도록 설정할 수 있습니다. 또한 이 설정을 사용하면 개선 작업과 관련된 사용자 데이터를 관리할 수 있습니다(개선 작업을 다른 사용자에게 다시 재배치하는 기능 포함).  전역 관리자 또는 준수 관리자 관리자 역할이 있는 사용자만 준수 관리자 설정에 액세스할 수 있습니다.
+이 정책의 준수 관리자 Microsoft 365 규정 준수 센터 개선 작업의 자동 테스트를 사용하도록 설정하고 사용하지 않도록 설정할 수 있습니다. 또한 이 설정을 사용하면 개선 작업과 관련된 사용자 데이터를 관리할 수 있습니다(개선 작업을 다른 사용자에게 다시 재배치하는 기능 포함).  전역 관리자 또는 준수 관리자 관리자 역할이 있는 사용자만 준수 관리자 설정에 액세스할 수 있습니다.
 
 > [!NOTE]
 > 이러한 환경에서는 보안 점수가 제공되지 GCC DoD 환경의 고객은 자동화된 테스트 기능을 사용할 수 없습니다. GCC 높음 및 DoD 고객은 개선 작업을 수동으로 구현하고 테스트해야 합니다.
@@ -112,7 +112,7 @@ Microsoft 365 준수 센터의 준수 관리자 설정을 사용하여 개선 �
 
 #### <a name="to-manage-your-automated-testing-settings"></a>자동화된 테스트 설정을 관리하려면
 
-1. 설정  센터의 아무 곳이나 왼쪽 탐색에 있는 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
+1. 의 **설정** 있는 어디에서나 왼쪽 탐색에 [있는](https://compliance.microsoft.com/)Microsoft 365 규정 준수 센터.
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -134,7 +134,7 @@ Microsoft 365 준수 센터의 준수 관리자 설정을 사용하여 개선 �
 
 **사용자 기록 설정을 찾으면 다음을 입력합니다.**
 
-1. 설정 준수 센터의 아무 곳이나 왼쪽 탐색 창에서 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
+1. 에서 설정 있는 모든 곳에서 왼쪽 탐색의 [Microsoft 365 규정 준수 센터.](https://compliance.microsoft.com/)
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -152,7 +152,7 @@ Microsoft 365 준수 센터의 준수 관리자 설정을 사용하여 개선 �
 
 **아래 단계에 따라 사용자에 따라 보고서를 내보낼 수 있습니다.**
 
-1. 설정  센터의 아무 곳이나 왼쪽 탐색에 있는 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
+1. 의 **설정** 있는 어디에서나 왼쪽 탐색에 [있는](https://compliance.microsoft.com/)Microsoft 365 규정 준수 센터.
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -170,7 +170,7 @@ Microsoft 365 준수 센터의 준수 관리자 설정을 사용하여 개선 �
 
 **다른 사용자에게 개선 작업을 다시 위임하기 위해 아래 단계를 따르세요.**
 
-1. 설정  센터의 아무 곳이나 왼쪽 탐색에 있는 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
+1. 의 **설정** 있는 어디에서나 왼쪽 탐색에 [있는](https://compliance.microsoft.com/)Microsoft 365 규정 준수 센터.
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -197,7 +197,7 @@ Microsoft 365 준수 센터의 준수 관리자 설정을 사용하여 개선 �
 
 사용자 기록을 삭제하려면 다음 단계를 따릅니다.
 
-1. 설정  센터의 아무 곳이나 왼쪽 탐색에 있는 Microsoft 365 [선택합니다.](https://compliance.microsoft.com/)
+1. 의 **설정** 있는 어디에서나 왼쪽 탐색에 [있는](https://compliance.microsoft.com/)Microsoft 365 규정 준수 센터.
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -322,7 +322,7 @@ Microsoft 365 준수 센터의 준수 관리자 설정을 사용하여 개선 �
 
 평가 페이지에는 조직에 [](compliance-manager-assessments.md) 대해 설정한 모든 평가가 나열됩니다. 준수 점수 디노이터는 추적된 모든 평가에 의해 결정됩니다. 평가를 더 추가하면 개선 작업 페이지에 더 많은 개선 작업이 나열되어 준수 점수 디노이터가 증가합니다.
 
-페이지 **위쪽** 근처의 활성화된 템플릿 카운터에는 조직에서 사용할 수 있는 총 서식 파일 수에서 현재 사용 중인 활성 평가 템플릿의 수가 표시됩니다. 자세한 [내용은 템플릿](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) 유형을 참조하세요.
+페이지 **위쪽** 근처의 활성화된 템플릿 카운터에는 조직에서 사용할 수 있는 총 서식 파일 수에서 현재 사용 중인 활성 평가 템플릿의 수가 표시됩니다. 자세한 내용은 서식 파일 [가용성 및 라이선스를](compliance-manager-templates.md#template-availability-and-licensing) 참조하세요.
 
 평가 페이지에는 각 평가에 대한 주요 정보가 요약됩니다.
 
@@ -357,7 +357,7 @@ Microsoft 365 준수 센터의 준수 관리자 설정을 사용하여 개선 �
 
 서식 파일은 규정 준수 관리자에서 평가를 만들기 위한 프레임워크입니다. 평가 서식 파일 페이지에는 서식 파일 및 주요 세부 정보 목록이 표시됩니다. 목록에는 준수 관리자가 제공한 서식 파일과 조직에서 수정하거나 만든 모든 템플릿이 포함됩니다. 필터를 적용하여 인증, 제품 범위, 국가, 산업 및 해당 템플릿을 만든 사용자에 따라 템플릿을 찾을 수 있습니다.
 
-페이지 **위쪽** 근처의 활성화된 템플릿 카운터에는 조직에서 사용할 수 있는 총 서식 파일 수에서 현재 사용 중인 활성 평가 템플릿의 수가 표시됩니다. 자세한 [내용은 템플릿](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) 유형을 참조하세요.
+페이지 **위쪽** 근처의 활성화된 템플릿 카운터에는 조직에서 사용할 수 있는 총 서식 파일 수에서 현재 사용 중인 활성 평가 템플릿의 수가 표시됩니다. 자세한 내용은 서식 파일 [가용성 및 라이선스를](compliance-manager-templates.md#template-availability-and-licensing) 참조하세요.
 
 해당 행에서 템플릿을 선택하여 템플릿에 대한 설명과 인증, 범위 및 컨트롤 세부 정보에 대한 추가 정보가 포함된 세부 정보 페이지를 가져올 수 있습니다. 이 페이지에서 평가를 만들거나 템플릿 데이터를 내보낼 적절한 단추를 선택하거나 템플릿을 Excel 수 있습니다.
 

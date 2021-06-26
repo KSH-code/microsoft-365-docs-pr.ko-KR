@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
 description: 이 문서에는 네트워크 계획, 테스트 및 마이그레이션에 대한 정보로 연결되는 링크가 포함되어 Office 365.
-ms.openlocfilehash: 99bcc1bd0447b192860fc0bcc67fc18d87c2d5fc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aed8bacd4dc08aa6d77ad0c530e721ac9d383bf5
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923591"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149109"
 ---
 # <a name="network-and-migration-planning-for-office-365"></a>Office 365의 네트워크 및 마이그레이션 계획
 
@@ -103,8 +103,6 @@ ms.locfileid: "50923591"
 - [Office 365 서비스의 IPv6 지원](ipv6-support.md)
     
 - [Office 365 네트워크 연결 원칙](./microsoft-365-network-connectivity-principles.md)
-    
-- [Office 365 네트워킹 FAQ(질문과 대답)](office-365-video-networking-faq.md)
     
 - [Office 365 서비스에 연결되는 네트워크 장치 계획](plan-for-network-devices.md)
     

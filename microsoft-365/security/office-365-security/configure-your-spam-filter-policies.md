@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: afcb82789168999f5f061ca0f86ad3c07b54846d
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 81fcfde3442abcb63e04d67df5e6c66a56e3e498
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108238"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137766"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -104,7 +104,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
    동일한 조건의 여러 값은 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 서로 다른 조건은 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
 
-   - **다음 사용자, 그룹 및 도메인 제외**: 정책이 적용되는 내부 받는 사람에 대한 예외를 추가하려면(받는 사람 예외) 이 옵션을 선택하고 예외를 구성합니다. 설정 및 동작은 조건과 정확히 같습니다.
+   - **다음 사용자, 그룹 및 도메인 제외**: 해당 정책의 적용 대상인 내부의 받는 사람에게 예외를 추가하려면(받는 사람 예외) 이 옵션을 선택하고 예외를 구성합니다. 설정 및 동작은 조건과 정확히 같습니다.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
@@ -203,7 +203,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
    >
    > 허용된 도메인 목록에 도메인을 추가하기 전에 신중하게 생각하세요. 자세한 내용은 [EOP에서 안전한 보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조하세요.
    >
-   > 자신의 [허용 도메인](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) 또는 공통 도메인(예: microsoft.com 또는 office.com)을 허용된 도메인 목록에 추가하지 않도록 하세요. 이러한 도메인이 스팸 필터링을 우회할 수 있는 경우 공격자가 조직으로 이메일을 쉽게 보낼 수 있도록 허용합니다.
+   > 자신의 [허용 도메인](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) 또는 공통 도메인(예: microsoft.com 또는 office.com)을 허용된 도메인 목록에 추가하지 않도록 하세요. 이러한 도메인이 스팸 필터링을 우회하도록 허용된다면, 공격자는 손쉽게 이 신뢰할 수 있는 도메인을 스푸핑하는 메시지를 조직에 보낼 수 있습니다.
    >
    > 차단된 도메인 목록에 도메인을 추가하여 수동으로 도메인을 차단하는 것은 위험하지 않지만, 관리 작업 부하가 늘어날 수 있습니다. 자세한 내용은 [EOP에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
    >

@@ -2,8 +2,8 @@
 title: Microsoft 준수 관리자의 새로운
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 관리의 새로운 것 및 새로운 방법을 찾아 찾습니다. 업데이트된 평가, 새 평가 템플릿, 새 작업 등에 대해 읽어 읽습니다.
-ms.openlocfilehash: fe5e8056bd771082436c3cd941cd6f4e602c11a9
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 72390f167e0f573223210a02a4b08e1b0efdf3dd
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52465469"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149025"
 ---
 # <a name="whats-new-in-microsoft-compliance-manager"></a>Microsoft 준수 관리자의 새로운
 
@@ -48,4 +48,4 @@ ms.locfileid: "52465469"
 
 ### <a name="active-and-inactive-templates"></a>활성 및 비활성 템플릿
 
-각 평가 페이지 및 평가 템플릿 페이지에는 활성화된 템플릿 카운터가 있습니다. 이 카운터는 사용권 계약에 따라 사용 대상 서식 파일 수를 보여줍니다. 템플릿 [유형 보기: 포함 및 프리미엄,](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) 활성 및 비활성으로 자세한 내용을 볼 수 있습니다.
+각 평가 페이지 및 평가 템플릿 페이지에는 활성화된 템플릿 카운터가 있습니다. 이 카운터는 사용권 계약에 따라 사용 대상 서식 파일 수를 보여줍니다. 템플릿 [가용성 및 라이선스를](compliance-manager-templates.md#template-availability-and-licensing) 확인하여 자세한 정보를 확인할 수 있습니다.

@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Microsoft Teams 솔루션을 사용하여 계약 관리 채널을 만드는 Microsoft 365 대해 자세히 알아보십시오.
-ms.openlocfilehash: 099487279482385760e05d9b166ae80c665d931e
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 7c7d3ef30d376e14e033243413637cdb51ba548a
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054751"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148977"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>2단계. 이 Microsoft Teams 사용하여 계약 관리 채널 만들기
 
@@ -139,23 +139,23 @@ in the [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/
 이 섹션에서는 카드에 "계약자"가 표시될 방법을 정의하고 특정 계약에 값을 사용 합니다.
 
 ```JSON
-                      {
-                        "elmType": "div",
-                        "style": {
-                          "color": "#767676",
-                          "font-size": "12px"
-                        },
-                        "txtContent": "Client"
-                      },
-                      {
-                        "elmType": "div",
-                        "style": {
-                          "margin-bottom": "12px",
-                          "font-size": "16px",
-                          "font-weight": "600"
-                        },
-                        "txtContent": "[$Client]"
-},
+                        {
+                            "elmType": "div",
+                            "txtContent": "Contractor",
+                            "style": {
+                              "color": "#767676",
+                              "font-size": "12px",
+                              "margin-bottom": "2px"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "margin-bottom": "12px",
+                              "font-size": "14px"
+                            },
+                            "txtContent": "[$Contractor]"
+                          },
 ```
 
 ### <a name="fee-amount"></a>수수료 금액

@@ -2,8 +2,8 @@
 title: 준수 관리자용 Microsoft 준수 구성 분석기
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 구성 분석기를 사용하여 Microsoft 준수 관리자를 사용하여 빠르게 시작하고 실행하는 방법을 이해합니다.
-ms.openlocfilehash: 5d74d9980daf7f6ff7f013578cb11be83d18948e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 36f11597eac1837e3e18885f3c0a5d8dbc89a774
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244639"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148965"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
@@ -101,19 +101,19 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
     ```
   | 입력 |  국가 또는 지역 | 
   | :------------- | :------------: |
-  | 1 | 아시아 태평양 |
-  | 2 | 오스트레일리아 |
-  | 3 | 캐나다 |
+  | 1  | 아시아 태평양 |
+  | 2  | 오스트레일리아 |
+  | 3  | 캐나다 |
   | 4  | 유럽(프랑스 제외) /중동/아프리카 |
   | 5  | 프랑스 |
   | 6  | 인도 |
   | 7  | 일본 |
   | 8  | 한국 |
   | 9  | 북미(캐나다 제외) |
-  | 10   | 남미 |
-  | 11 | 남아프리카 공화국 |
+  | 10  | 남미 |
+  | 11  | 남아프리카 공화국 |
   | 12  | 스위스 |
-  | 13 | 아랍에미리트 |
+  | 13  | 아랍에미리트 |
   | 14  | 영국 |
 
 
@@ -153,7 +153,7 @@ MCCA는 준수 관리자의 권장 개선 작업에 대해 현재 구성을 평�
 
 **개선 상태가 있는 항목**
 
-개선 작업 오른쪽의  개선 레이블 옆에 있는 드롭다운을 선택합니다. 현재 설정에 대한 빠른 요약 및 세부 정보 및 권장 개선 작업이 표시됩니다. 요약에는 준수 관리자에 대한 직접 링크, Microsoft 365 규정 준수 센터의 해당 솔루션 및 관련 설명서가 포함됩니다.
+개선 작업 오른쪽의  개선 레이블 옆에 있는 드롭다운을 선택합니다. 현재 설정에 대한 빠른 요약 및 세부 정보 및 권장 개선 작업이 표시됩니다. 요약에는 준수 관리자에 대한 직접 링크, 준수 관리자의 해당 솔루션 및 Microsoft 365 규정 준수 센터 문서가 포함됩니다.
 
 준수 관리자 링크를 클릭하면 아직 구현하지 않은 해당 솔루션 내의 모든 개선 작업을 필터링된 보기로 볼 수 있습니다. 이 지점에서 준수 점수를 높이기 위해 달성할 [](compliance-score-calculation.md)수 있는 포인트 수와 해당 점수가 적용되는 평가, 적용 가능한 규정 및 인증을 볼 수 있습니다.
 

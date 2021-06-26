@@ -2,8 +2,8 @@
 title: 준수 점수 계산
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Microsoft 준수 관리자가 위험을 해결하고 규정 준수 환경을 개선하기 위해 취한 조치를 기반으로 개인 설정된 점수를 계산하는 방법을 이해합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 756ce207b1e9583bf63f19351e85955950487404
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4e1e3f4b90b0a5e83a1e068cd30f76b3a8c7bb22
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052116"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149169"
 ---
 # <a name="compliance-score-calculation"></a>준수 점수 계산
 
@@ -114,9 +114,9 @@ ms.locfileid: "51052116"
 |:-----|:-----|
 | 예방적 필수 | 27 |
 | 예방적 사용자 지정 | 9  |
-| 감지용 필수 | 3 |
-| 감지적 재량 | 1 |
-| 수정 필수 사항 | 3 |
-| 수정 재량 | 1 |
+| 감지용 필수 | 3  |
+| 감지적 재량 | 1  |
+| 수정 필수 사항 | 3  |
+| 수정 재량 | 1  |
   
 ![준수 관리자 작업 지점 값](../media/compliance-score-action-scoring.png "준수 관리자 작업 지점 값")
