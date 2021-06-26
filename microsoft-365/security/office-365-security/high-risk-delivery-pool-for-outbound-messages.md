@@ -17,12 +17,12 @@ ms.collection:
 description: 배달 풀을 사용하여 데이터 센터에서 전자 메일 서버의 신뢰를 보호하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ac3469150ef5cf5c1040fcddf7f0bc95e7a18805
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 85f200cf226a050762db4ea37255f71241d1f98c
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599914"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137721"
 ---
 # <a name="outbound-delivery-pools"></a>아웃바운드 배달 풀
 
@@ -61,3 +61,24 @@ NDRS의 급증에 대한 가능한 원인은 다음과 같습니다.
 - Rogue 전자 메일 서버.
 
 이러한 모든 문제로 인해 서비스에서 처리되는 NDRS 수가 갑자기 증가할 수 있습니다. 대부분의 경우 이러한 NDRS는 다른 전자 메일 서버 및 서비스(후방 스캐터라고도 하는)에 스팸인 _[것으로 나타납니다.](backscatter-messages-and-eop.md)_
+
+
+### <a name="relay-pool"></a>릴레이 풀
+
+특정 시나리오에서 Microsoft 365 전달되거나 릴레이되는 메시지는 특수 릴레이 풀을 사용하여 전송됩니다. 대상은 실제 보낸 Microsoft 365 고려하지 않습니다. 전자 메일 트래픽을 격리하는 것이 중요합니다. 전자 메일을 전자 메일이 전송되지 않은 경우 자동 전달 또는 릴레이하는 합법적인 잘못된 시나리오가 Microsoft 365. 위험이 높은 배달 풀과 마찬가지로 별도의 IP 주소 풀이 릴레이된 메일에 사용됩니다. 이 주소 풀은 자주 변경될 수 있기 때문에 게시되지 않습니다. 이 주소 풀은 해당 주소 풀에 대해 게시된 SPF 레코드에 Microsoft 365.
+
+Microsoft 365 전달된 메시지를 배달할 수 있도록 원래 보낸 사람이 합법적인지 확인해야 합니다.
+
+릴레이 풀을 사용하지 않도록 전달/릴레이된 메시지는 다음 조건 중 하나를 충족해야 합니다.
+
+- 아웃바운드 보낸 사람이 허용 [도메인에 있습니다.](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
+- SPF는 메시지가 전송되면 Microsoft 365.
+- 보낸 사람 도메인의 DKIM은 메시지가 전송되면 Microsoft 365.
+ 
+아웃바운드 서버 IP(릴레이 풀은 40.95.0.0/16 범위에 해당)를 확인하거나 아웃바운드 서버 이름(이름에 "rly"이 사용)을 확인하여 메시지가 릴레이 풀을 통해 전송된 것으로 알 수 있습니다.
+
+보낸 사람을 인증할 수 있는 경우 SRS(Sender Rewriting Scheme)를 사용하여 받는 사람 전자 메일 시스템에서 전달된 메시지가 신뢰할 수 있는 원본에서 전송된 메시지인지 알 수 있도록 합니다. 보내는 도메인이 의 [SRS(Sender Rewriting Scheme)에서](/office365/troubleshoot/antispam/sender-rewriting-scheme)인증을 통과하도록 하는 데 도움이 되는 작업과 작동 방식에 대해 자세히 Office 365.
+
+DKIM이 작동하려면 도메인 보내기에 DKIM을 사용하도록 설정해야 합니다. 예를 들어 fabrikam.com 조직의 contoso.com 도메인에 정의되어 있습니다. 메시지 보낸 사람이 sender@fabrikam.com DKIM을 사용하도록 설정해야 fabrikam.com. DKIM을 사용하여 사용자 지정 도메인에서 보낸 아웃바운드 전자 메일의 유효성을 검사하는 방법을 읽을 [수 있습니다.](use-dkim-to-validate-outbound-email.md)
+
+사용자 지정 도메인을 추가하려면 [Add a domain to Microsoft 365.](../../admin/setup/add-domain.md)

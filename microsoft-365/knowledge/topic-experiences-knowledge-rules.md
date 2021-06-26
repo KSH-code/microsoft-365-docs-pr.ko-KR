@@ -10,20 +10,20 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목에서 항목 표시를 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: cd6a712687a63c3d131ee678c6c408f516c7b529
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 07679b2de668ba5e0c9fdf206310233ce7af84a4
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107682"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137754"
 ---
 # <a name="manage-topic-visibility-in-microsoft-viva-topics"></a>Microsoft Viva 항목에서 항목 표시 관리
 
-주요 항목, 항목 카드 및 항목 센터를 볼 수 있는 사용자 집합을 Microsoft 365 [있습니다.](https://admin.microsoft.com) 이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
+의 항목 강조, 항목 카드 및 항목 센터를 볼 [수](https://admin.microsoft.com)있는 Microsoft 365 관리 센터. 이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 그룹 관리자 되어야 합니다.
 
-## <a name="to-access-topics-management-settings"></a>항목 관리 설정에 액세스하려면
+## <a name="to-access-topics-management-settings"></a>주제 관리 설정에 액세스하려면 다음을 수행합니다.
 
-1. Microsoft 365 관리 센터에서 설정 **,** **Org 설정을 클릭합니다.**
+1. 다음 Microsoft 365 관리 센터 **를** 클릭하고 설정 **를 클릭합니다.**
 2. 서비스 **탭에서** 항목 환경을 **클릭합니다.**
 
     ![커넥트 정보를 알 수 있습니다.](../media/admin-org-knowledge-options-completed.png) 

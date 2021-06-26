@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: de4c3c6454809cc1b7f78c0e5790fcbe8b3887c0
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: c30be0888a2c92a23c4e5f323235eba671c5ab1d
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096171"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137727"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>타사 데이터를 데이터 저장소에 Microsoft 365
 
@@ -143,6 +143,7 @@ TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있�
 |[Refinitiv Eikon Messenger](archive-17a-4-refinitiv-messenger-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[ServiceNow ](archive-17a-4-servicenow-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Slack ](archive-17a-4-slack-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[SQL](archive-17a-4-sql-database-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Symphony ](archive-17a-4-symphony-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[확대/축소 ](archive-17a-4-zoom-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 ||||||||
@@ -200,14 +201,14 @@ TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있�
 
 |TeleMessage 데이터 커넥터  |GCC  |GCC 높음  |DoD  |
 |:---------|:---------|:---------|:---------|
-|Android Archiver | 예 | 아니요 | 아니요 |
-|AT&T SMS/MMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
-|Bell SMS/MMS 네트워크 보관기 | 예 | 아니요 | 아니요 |
-|Enterprise Number Archiver | 예 | 아니요 | 아니요 |
+|Android 보관 장치 | 예 | 아니요 | 아니요 |
+|AT&T SMS/MMS 네트워크 보관 장치 | 예 | 아니요 | 아니요 |
+|Bell SMS/MMS 네트워크 보관 장치 | 예 | 아니요 | 아니요 |
+|엔터프라이즈 번호 보관 장치 | 예 | 아니요 | 아니요 |
 |O2 SMS 및 음성 네트워크 보관 | 예         | 아니요 | 아니요 |
 |TELUS SMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
-|Verizon SMS/MMS 네트워크 보관기 | 예 | 아니요 | 아니요 |
-|WhatsApp Archiver | 예 | 아니요 | 아니요 |
+|Verizon SMS/MMS 네트워크 보관 장치 | 예 | 아니요 | 아니요 |
+|WhatsApp 보관 장치 | 예 | 아니요 | 아니요 |
 |||||
 
 ## <a name="working-with-a-microsoft-partner-to-archive-third-party-data"></a>Microsoft 파트너와 협력하여 타사 데이터 보관

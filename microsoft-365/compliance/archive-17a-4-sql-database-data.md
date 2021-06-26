@@ -11,14 +11,13 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: noindex,nofollow
 description: DataParser 커넥터를 사용하여 17a-4 SQL 설정하고 사용하여 SQL 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: 17e7da9e064e6d149ebdca0436f9180c8d17ca41
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 51fd433ad072ba5afe0b314d7b61041728337240
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097205"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137670"
 ---
 # <a name="set-up-a-connector-to-archive-sql-data-preview"></a>데이터 보관 커넥터 설정(SQL 미리 보기)
 
