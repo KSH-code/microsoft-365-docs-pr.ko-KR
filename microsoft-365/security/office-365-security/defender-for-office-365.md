@@ -96,7 +96,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Office 365용 Microsoft Defender 정책 구성
 
-Office 365용 Microsoft Defender를 사용하면 조직의 보안 팀이 Microsoft 365 Defender 포털에서 정책을 정의하여 보호 기능을 구성할 수 있습니다(<https://security.microsoft.com> \> **Email & collaboration**(전자 메일 및 공동 작업) \> **Policies & rules**(정책 및 규칙) \> **Threat policies**(위협 정책)로 이동).
+Office 365용 Microsoft Defender를 사용하면 조직의 보안 팀이 Microsoft 365 Defender 포털에서 정책을 정의하여 보호 기능을 구성할 수 있습니다(<https://security.microsoft.com> \> **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** 으로 이동).
 
 [이 비디오](https://www.youtube.com/watch?v=vivvTmWJ_3c)를 시청하여 자세히 확인하세요.
 
@@ -133,7 +133,7 @@ Office 365용 Microsoft Defender 플랜 2에는 조직의 보안팀이 악의적
 
 - **[위협 탐색기 (또는 실시간 검출)](threat-explorer.md)** (탐색기라고도 함)는 최근 위협을 식별하고 분석할 수있는 실시간 보고서입니다. 사용자 지정 기간에 대한 데이터를 표시하도록 탐색기를 구성할 수 있습니다.
 
-- **[공격 시뮬레이션 교육](attack-simulation-training.md)** - 사용자 조직에서 실제적인 공격 시나리오를 실행하여 취약성을 식별할 수 있습니다. 스피어 피싱 자격 증명 수집 및 첨부 파일 공격과 비밀번호 분무 및 무차별 비밀번호 대입 공격 등을 포함하여 최근 유형의 공격에 대한 시뮬레이션을 사용할 수 있습니다.
+- **[공격 시뮬레이션 교육](attack-simulation-training.md)** 은 사용자 조직에서 실제 공격 시나리오를 실행하여 취약성을 식별할 수 있습니다. 스피어 피싱 자격 증명 수집 및 첨부 파일 공격과 비밀번호 분무 및 무차별 비밀번호 대입 공격 등을 포함하여 최근 유형의 공격에 대한 시뮬레이션을 사용할 수 있습니다.
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>자동화된 조사 및 응답으로 시간 절약하기
 

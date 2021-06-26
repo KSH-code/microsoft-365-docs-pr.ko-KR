@@ -497,6 +497,8 @@
               href: archive-17a-4-servicenow-data.md
             - name: Slack DataParser(미리 보기)
               href: archive-17a-4-slack-data.md
+            - name: SQL DataParser(미리 보기)
+              href: archive-17a-4-sql-database-data.md
             - name: Warehouse DataParser(미리 보기)
               href: archive-17a-4-symphony-data.md
             - name: DataParser 확대/축소(미리 보기)
