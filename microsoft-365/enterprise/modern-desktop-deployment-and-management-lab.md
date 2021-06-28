@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: bb73c303e1266a7d19b3578fb01b849b5e96990f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 3f9899726838caca678542e17206dae038c39a3d
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770676"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169571"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 및 Office 365 배포 랩 키트
 
@@ -48,16 +48,18 @@ Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스
 
   - Microsoft 365 E5
   - 엔터프라이즈용 Microsoft 365 앱
-  - Office 365 EMS(Enterprise Mobility + Security E5)
+  - Office 365 E5(ENTERPRISE MOBILITY + SECURITY)
 
 ## <a name="step-by-step-labs"></a>단계별 랩
 
 자세한 랩 가이드는 여러 배포 및 관리 시나리오를 안내합니다. 최신 버전의 Intune 및 Configuration Manager에 대한 랩이 업데이트되었습니다. 
 
 ### <a name="plan-and-prepare-infrastructure"></a>인프라 계획 및 준비 
-- Desktop Analytics 
+
+- 데스크톱 분석 
 - 클라우드 배포 & 클라우드 관리 게이트웨이 
-- 테넌트 연결, 공동 관리 및 전환 워크로드 
+- 새로운 기능! 테넌트 연결 및 공동 관리
+- 새로운 기능! 끝점 분석 
 - VPN(원격 액세스) 
 
 ### <a name="prepare-configuration"></a>구성 준비   
@@ -91,6 +93,7 @@ Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스
 - Enterprise 사용하여 관리되는 배포를 Microsoft Intune  
 - LOB 배포 및 관리 Microsoft Intune
 - 배포 Microsoft Teams
+- 새로운 기능! 배정 필터  
 
 ### <a name="deploy-windows-virtual-desktop"></a>가상 Windows 배포  
 

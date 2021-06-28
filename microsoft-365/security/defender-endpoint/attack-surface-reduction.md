@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 461911a1e14241112f4ff0e8efb0135b4e1a5a25
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: eadca063d50bf1f969f1bb247b6e56d8ec46a6e0
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096735"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169583"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
@@ -51,6 +51,8 @@ ms.locfileid: "53096735"
 :::image type="content" source="images/asrrecommendation.png" alt-text="공격 표면 감소 규칙에 대한 보안 다시코":::
 
 권장 사항 세부 정보 창에서 사용자 영향을 확인하여 생산성에 부정적인 영향을 주지 않으면서 차단 모드에서 규칙을 사용하도록 설정하는 새 정책을 허용할 수 있는 장치의 비율을 결정할 수 있습니다.
+
+[지원되는](enable-attack-surface-reduction.md#requirements) 운영 체제에 대한 자세한 내용은 "공격 표면 감소 규칙 사용" 문서의 요구 사항을 참조하세요.
 
 ## <a name="audit-mode-for-evaluation"></a>평가를 위한 감사 모드
 
