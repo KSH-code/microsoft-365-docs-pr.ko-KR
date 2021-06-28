@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 2ffc0350dd61a0064ce2e9891b18a6769a437d2e
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 844391ee20d2c8e8b94261659b18de0690dee119
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096759"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149193"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -141,6 +141,8 @@ SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 �
 일부 앱은 인증 컨텍스트를 지원하지 않습니다. 지원되지 않는 앱을 지닌 사용자가 인증 컨텍스트에 대해 구성된 사이트에 연결하면 액세스 거부 메시지가 표시되거나 인증하라는 메시지가 표시되지만 거부됩니다.
 
 - 웹용 Outlook이 포함된 웹용 Office
+
+- Windows 및 macOS용 Microsoft Teams(Teams 웹앱 제외)
 
 - Microsoft Planner
 

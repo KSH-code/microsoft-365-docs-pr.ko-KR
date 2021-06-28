@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: f882a9a215f331930de7473d6bf057a3d45bc50e
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 9337bddd87dd24d42b4d06fe77225901701cbdee
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137694"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149181"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -298,7 +298,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
   
 네 가지 원칙에 대한 설명:
   
-1. **삭제보다 보존 우선.** 보존 설정이 있는 컨텐츠도 영구적으로 삭제되지 않습니다. 이 원칙은 규정 준수를 위해 콘텐츠가 유지되도록 보장하지만 삭제 프로세스는 여전히 시작되며 사용자 보기에서 콘텐츠를 제거할 수 있습니다. 예를 들어 SharePoint의 문서는 원본 폴더에서 자료 보존 폴더로 이동합니다. 그러나 영구 삭제는 일시 중단됩니다. 콘텐츠가 보존되는 방법과 위치에 대한 자세한 내용은 각 워크로드에 대해 다음 링크를 사용합니다.
+1. **삭제보다 보존 우선.** 보존 설정이 있는 컨텐츠도 영구적으로 삭제되지 않습니다. 이 원칙은 규정 준수를 위해 콘텐츠가 유지되도록 보장하지만 삭제 프로세스는 여전히 시작되며 사용자 보기 및 검색에서 콘텐츠를 제거할 수 있습니다. 예를 들어 SharePoint의 경우, 문서는 원본 폴더에서 자료 보존 폴더로 이동합니다. 그러나 영구 삭제는 일시 중단됩니다. 콘텐츠가 보존되는 방법과 위치에 대한 자세한 내용은 각 워크로드에 대해 다음 링크를 사용합니다.
     
     - [SharePoint 및 OneDrive에서 보존이 작동하는 방식](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)
     - [Microsoft Teams에서 보존이 작동하는 방식](retention-policies-teams.md#how-retention-works-with-microsoft-teams)
@@ -307,7 +307,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
     
     예: 전자 메일 메시지는 3년 후 항목을 삭제하도록 구성된 Exchange용 보존 정책의 적용을 받으며, 5년 동안 항목을 보존하도록 구성된 보존 레이블도 적용됩니다.
     
-    전자 메일 메시지는 삭제보다 보존 작업이 우선하므로 5년 동안 보존됩니다. 그런 다음 삭제 작업으로 인해 5년 후에 전자 메일 메시지가 영구적으로 삭제됩니다.
+    전자 메일 메시지는 삭제보다 보존 작업이 우선하므로 5년 동안 보존됩니다. 보존 작업이 적용되는 동안 일시 중단된 삭제 작업으로 인해 전자 메일 메시지는 5년 후에 영구적으로 삭제됩니다.
 
 2. **가장 긴 보존 기간 우선.** 콘텐츠가 다른 기간 동안 콘텐츠를 보존하는 여러 보존 설정의 적용을 받는 경우, 가장 긴 보존 기간이 끝날 때까지 콘텐츠는 보존됩니다.
     
