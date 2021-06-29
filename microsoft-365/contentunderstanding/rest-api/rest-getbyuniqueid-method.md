@@ -11,65 +11,65 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 SharePoint Syntex 문서 이해 모델에 대한 정보를 가져오거나 업데이트합니다.
-ms.openlocfilehash: aa97e0fde57c6d5200b437a8f9c7187c0980cc5b
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 306bcd894b6339575f8c91ac3c4fb89f2033f3bc
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904311"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177108"
 ---
-# <a name="getbyuniqueid"></a><span data-ttu-id="c67c3-103">GetByUniqueId</span><span class="sxs-lookup"><span data-stu-id="c67c3-103">GetByUniqueId</span></span>
+# <a name="getbyuniqueid"></a><span data-ttu-id="8fa4d-103">GetByUniqueId</span><span class="sxs-lookup"><span data-stu-id="8fa4d-103">GetByUniqueId</span></span>
 
-<span data-ttu-id="c67c3-104">SharePoint Syntex 문서 이해 모델에 대한 정보를 가져오거나 업데이트합니다([예제](rest-getbyuniqueid-method.md#examples) 참조).</span><span class="sxs-lookup"><span data-stu-id="c67c3-104">Gets or updates information about a SharePoint Syntex document understanding model (see [example](rest-getbyuniqueid-method.md#examples)).</span></span>
+<span data-ttu-id="8fa4d-104">SharePoint Syntex 문서 이해 모델에 대한 정보를 가져오거나 업데이트합니다([예제](rest-getbyuniqueid-method.md#examples) 참조).</span><span class="sxs-lookup"><span data-stu-id="8fa4d-104">Gets or updates information about a SharePoint Syntex document understanding model (see [example](rest-getbyuniqueid-method.md#examples)).</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="c67c3-105">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="c67c3-105">HTTP request</span></span>
-
-```HTTP
-GET /_api/machinelearning/models/getbyuniqueid(‘{modelUniqueId}') HTTP/1.1
-```
-
-<span data-ttu-id="c67c3-106">이 동일한 메서드를 사용하여 모델을 삭제할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c67c3-106">This same method can be used for deleting a model, too.</span></span> 
+## <a name="http-request"></a><span data-ttu-id="8fa4d-105">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="8fa4d-105">HTTP request</span></span>
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbyuniqueid(‘{modelUniqueId}') HTTP/1.1
+GET /_api/machinelearning/models/getbyuniqueid('{modelUniqueId}') HTTP/1.1
 ```
-## <a name="uri-parameters"></a><span data-ttu-id="c67c3-107">URI 매개 변수</span><span class="sxs-lookup"><span data-stu-id="c67c3-107">URI parameters</span></span>
 
-|<span data-ttu-id="c67c3-108">이름</span><span class="sxs-lookup"><span data-stu-id="c67c3-108">Name</span></span> |<span data-ttu-id="c67c3-109">위치</span><span class="sxs-lookup"><span data-stu-id="c67c3-109">In</span></span> |<span data-ttu-id="c67c3-110">필수</span><span class="sxs-lookup"><span data-stu-id="c67c3-110">Required</span></span>|<span data-ttu-id="c67c3-111">유형</span><span class="sxs-lookup"><span data-stu-id="c67c3-111">Type</span></span>|<span data-ttu-id="c67c3-112">설명</span><span class="sxs-lookup"><span data-stu-id="c67c3-112">Description</span></span>|
+<span data-ttu-id="8fa4d-106">이 동일한 메서드를 사용하여 모델을 삭제할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8fa4d-106">This same method can be used for deleting a model, too.</span></span> 
+
+```HTTP
+DELETE /_api/machinelearning/models/getbyuniqueid('{modelUniqueId}') HTTP/1.1
+```
+## <a name="uri-parameters"></a><span data-ttu-id="8fa4d-107">URI 매개 변수</span><span class="sxs-lookup"><span data-stu-id="8fa4d-107">URI parameters</span></span>
+
+|<span data-ttu-id="8fa4d-108">이름</span><span class="sxs-lookup"><span data-stu-id="8fa4d-108">Name</span></span> |<span data-ttu-id="8fa4d-109">In</span><span class="sxs-lookup"><span data-stu-id="8fa4d-109">In</span></span> |<span data-ttu-id="8fa4d-110">필수</span><span class="sxs-lookup"><span data-stu-id="8fa4d-110">Required</span></span>|<span data-ttu-id="8fa4d-111">유형</span><span class="sxs-lookup"><span data-stu-id="8fa4d-111">Type</span></span>|<span data-ttu-id="8fa4d-112">설명</span><span class="sxs-lookup"><span data-stu-id="8fa4d-112">Description</span></span>|
 |-----|---|--------|----|-----------|
-|<span data-ttu-id="c67c3-113">modelUniqueId</span><span class="sxs-lookup"><span data-stu-id="c67c3-113">modelUniqueId</span></span>|<span data-ttu-id="c67c3-114">쿼리</span><span class="sxs-lookup"><span data-stu-id="c67c3-114">query</span></span>|<span data-ttu-id="c67c3-115">True</span><span class="sxs-lookup"><span data-stu-id="c67c3-115">True</span></span>|<span data-ttu-id="c67c3-116">문자열</span><span class="sxs-lookup"><span data-stu-id="c67c3-116">string</span></span>|<span data-ttu-id="c67c3-117">Syntex 모델 파일의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="c67c3-117">ID of the Syntex model file.</span></span>|
+|<span data-ttu-id="8fa4d-113">modelUniqueId</span><span class="sxs-lookup"><span data-stu-id="8fa4d-113">modelUniqueId</span></span>|<span data-ttu-id="8fa4d-114">쿼리</span><span class="sxs-lookup"><span data-stu-id="8fa4d-114">query</span></span>|<span data-ttu-id="8fa4d-115">True</span><span class="sxs-lookup"><span data-stu-id="8fa4d-115">True</span></span>|<span data-ttu-id="8fa4d-116">문자열</span><span class="sxs-lookup"><span data-stu-id="8fa4d-116">string</span></span>|<span data-ttu-id="8fa4d-117">Syntex 모델 파일의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="8fa4d-117">ID of the Syntex model file.</span></span>|
 
-## <a name="request-headers"></a><span data-ttu-id="c67c3-118">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="c67c3-118">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="8fa4d-118">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="8fa4d-118">Request headers</span></span>
 
-| <span data-ttu-id="c67c3-119">헤더</span><span class="sxs-lookup"><span data-stu-id="c67c3-119">Header</span></span> | <span data-ttu-id="c67c3-120">값</span><span class="sxs-lookup"><span data-stu-id="c67c3-120">Value</span></span> |
+| <span data-ttu-id="8fa4d-119">헤더</span><span class="sxs-lookup"><span data-stu-id="8fa4d-119">Header</span></span> | <span data-ttu-id="8fa4d-120">값</span><span class="sxs-lookup"><span data-stu-id="8fa4d-120">Value</span></span> |
 |--------|-------|
-|<span data-ttu-id="c67c3-121">수락</span><span class="sxs-lookup"><span data-stu-id="c67c3-121">Accept</span></span>|<span data-ttu-id="c67c3-122">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="c67c3-122">application/json;odata=verbose</span></span>|
+|<span data-ttu-id="8fa4d-121">수락</span><span class="sxs-lookup"><span data-stu-id="8fa4d-121">Accept</span></span>|<span data-ttu-id="8fa4d-122">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="8fa4d-122">application/json;odata=verbose</span></span>|
 
-## <a name="request-body"></a><span data-ttu-id="c67c3-123">요청 본문</span><span class="sxs-lookup"><span data-stu-id="c67c3-123">Request body</span></span>
+## <a name="request-body"></a><span data-ttu-id="8fa4d-123">요청 본문</span><span class="sxs-lookup"><span data-stu-id="8fa4d-123">Request body</span></span>
 
-<span data-ttu-id="c67c3-124">GET의 경우 요청 본문이 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c67c3-124">For GET, no request body is needed.</span></span>
+<span data-ttu-id="8fa4d-124">GET의 경우 요청 본문이 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="8fa4d-124">For GET, no request body is needed.</span></span>
 
-## <a name="responses"></a><span data-ttu-id="c67c3-125">응답</span><span class="sxs-lookup"><span data-stu-id="c67c3-125">Responses</span></span>
+## <a name="responses"></a><span data-ttu-id="8fa4d-125">응답</span><span class="sxs-lookup"><span data-stu-id="8fa4d-125">Responses</span></span>
 
-| <span data-ttu-id="c67c3-126">이름</span><span class="sxs-lookup"><span data-stu-id="c67c3-126">Name</span></span>   | <span data-ttu-id="c67c3-127">유형</span><span class="sxs-lookup"><span data-stu-id="c67c3-127">Type</span></span>  | <span data-ttu-id="c67c3-128">설명</span><span class="sxs-lookup"><span data-stu-id="c67c3-128">Description</span></span>|
+| <span data-ttu-id="8fa4d-126">이름</span><span class="sxs-lookup"><span data-stu-id="8fa4d-126">Name</span></span>   | <span data-ttu-id="8fa4d-127">유형</span><span class="sxs-lookup"><span data-stu-id="8fa4d-127">Type</span></span>  | <span data-ttu-id="8fa4d-128">설명</span><span class="sxs-lookup"><span data-stu-id="8fa4d-128">Description</span></span>|
 |--------|-------|------------|
-|<span data-ttu-id="c67c3-129">200 OK</span><span class="sxs-lookup"><span data-stu-id="c67c3-129">200 OK</span></span>| |<span data-ttu-id="c67c3-130">성공</span><span class="sxs-lookup"><span data-stu-id="c67c3-130">Success</span></span>|
+|<span data-ttu-id="8fa4d-129">200 OK</span><span class="sxs-lookup"><span data-stu-id="8fa4d-129">200 OK</span></span>| |<span data-ttu-id="8fa4d-130">성공</span><span class="sxs-lookup"><span data-stu-id="8fa4d-130">Success</span></span>|
 
-## <a name="examples"></a><span data-ttu-id="c67c3-131">예제</span><span class="sxs-lookup"><span data-stu-id="c67c3-131">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="8fa4d-131">예제</span><span class="sxs-lookup"><span data-stu-id="8fa4d-131">Examples</span></span>
 
-### <a name="get-the-contoso-contract-model-by-id"></a><span data-ttu-id="c67c3-132">ID로 Contoso 계약 모델 가져오기</span><span class="sxs-lookup"><span data-stu-id="c67c3-132">Get the Contoso Contract model by ID</span></span>
+### <a name="get-the-contoso-contract-model-by-id"></a><span data-ttu-id="8fa4d-132">ID로 Contoso 계약 모델 가져오기</span><span class="sxs-lookup"><span data-stu-id="8fa4d-132">Get the Contoso Contract model by ID</span></span>
 
-<span data-ttu-id="c67c3-133">이 샘플에서는 Contoso 계약 문서 이해 모델의 ID가 `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`입니다.</span><span class="sxs-lookup"><span data-stu-id="c67c3-133">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
+<span data-ttu-id="8fa4d-133">이 샘플에서는 Contoso 계약 문서 이해 모델의 ID가 `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`입니다.</span><span class="sxs-lookup"><span data-stu-id="8fa4d-133">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
 
-#### <a name="sample-request"></a><span data-ttu-id="c67c3-134">샘플 요청</span><span class="sxs-lookup"><span data-stu-id="c67c3-134">Sample request</span></span>
+#### <a name="sample-request"></a><span data-ttu-id="8fa4d-134">샘플 요청</span><span class="sxs-lookup"><span data-stu-id="8fa4d-134">Sample request</span></span>
 
 ```HTTP
-GET /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}') HTTP/1.1
+GET /_api/machinelearning/models/getbyuniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 
-#### <a name="sample-response"></a><span data-ttu-id="c67c3-135">샘플 응답</span><span class="sxs-lookup"><span data-stu-id="c67c3-135">Sample response</span></span>
+#### <a name="sample-response"></a><span data-ttu-id="8fa4d-135">샘플 응답</span><span class="sxs-lookup"><span data-stu-id="8fa4d-135">Sample response</span></span>
 
-<span data-ttu-id="c67c3-136">**상태 코드:** 204</span><span class="sxs-lookup"><span data-stu-id="c67c3-136">**Status code:** 204</span></span>
+<span data-ttu-id="8fa4d-136">**상태 코드:** 200</span><span class="sxs-lookup"><span data-stu-id="8fa4d-136">**Status code:** 200</span></span>
 
 ```HTTP
 {
@@ -100,16 +100,16 @@ GET /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa
     "UniqueId": "7645e69d-21fb-4a24-a17a-9bdfa7cb63dc"
 }
 ```
-### <a name="get-and-delete-the-contoso-contract-model-by-id"></a><span data-ttu-id="c67c3-137">ID로 Contoso 계약 모델 가져오기 및 삭제</span><span class="sxs-lookup"><span data-stu-id="c67c3-137">Get and delete the Contoso Contract model by ID</span></span>
+### <a name="get-and-delete-the-contoso-contract-model-by-id"></a><span data-ttu-id="8fa4d-137">ID로 Contoso 계약 모델 가져오기 및 삭제</span><span class="sxs-lookup"><span data-stu-id="8fa4d-137">Get and delete the Contoso Contract model by ID</span></span>
 
-<span data-ttu-id="c67c3-138">이 샘플에서는 Contoso 계약 문서 이해 모델의 ID가 `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`입니다.</span><span class="sxs-lookup"><span data-stu-id="c67c3-138">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
+<span data-ttu-id="8fa4d-138">이 샘플에서는 Contoso 계약 문서 이해 모델의 ID가 `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`입니다.</span><span class="sxs-lookup"><span data-stu-id="8fa4d-138">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
 
-#### <a name="sample-request"></a><span data-ttu-id="c67c3-139">샘플 요청</span><span class="sxs-lookup"><span data-stu-id="c67c3-139">Sample request</span></span>
+#### <a name="sample-request"></a><span data-ttu-id="8fa4d-139">샘플 요청</span><span class="sxs-lookup"><span data-stu-id="8fa4d-139">Sample request</span></span>
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}') HTTP/1.1
+DELETE /_api/machinelearning/models/getbyuniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 
-## <a name="see-also"></a><span data-ttu-id="c67c3-140">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c67c3-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8fa4d-140">참고 항목</span><span class="sxs-lookup"><span data-stu-id="8fa4d-140">See also</span></span>
 
-[<span data-ttu-id="c67c3-141">Syntex 문서 이해 모델 REST API</span><span class="sxs-lookup"><span data-stu-id="c67c3-141">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)
+[<span data-ttu-id="8fa4d-141">Syntex 문서 이해 모델 REST API</span><span class="sxs-lookup"><span data-stu-id="8fa4d-141">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)
