@@ -1,5 +1,5 @@
 ---
-title: 모델 적용
+title: 모델 일괄 적용
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 하나 이상의 라이브러리에 문서 이해 모델을 적용합니다.
-ms.openlocfilehash: d4cadad3c45dd7af0cdaeb4e1b367426289db870
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 24ea9a480bc3ce5a7745857de17a6fab6ed97685
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904354"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177264"
 ---
-# <a name="apply-model"></a>모델 적용
+# <a name="batch-apply-model"></a>모델 일괄 적용
 
 학습된 문서 이해 모델을 하나 이상의 라이브러리에 적용하거나 동기화합니다([예제](rest-applymodel-method.md#examples)참조).
 
@@ -44,18 +44,45 @@ POST /_api/machinelearning/publications HTTP/1.1
 
 | 이름 | 필수 | 유형 | 설명 |
 |--------|-------|--------|------------|
+|__metadata|예|문자열|SPO에 개체 메타를 설정합니다. 항상 {“type”: “Microsoft.Office.Server.ContentCenter.SPMachineLearningPublicationsEntityData”} 값을 사용합니다.|
+|Publications|예|MachineLearningPublicationEntityData[]|각각 모델 및 대상 문서 라이브러리를 지정하는 MachineLearningPublicationEntityData의 컬렉션입니다.|
+
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| 이름 | 필수 | 유형 | 설명 |
+|--------|-------|--------|------------|
 |ModelUniqueId|예|문자열|모델 파일의 고유 ID입니다.|
-TargetSiteUrl|예|문자열|대상 라이브러리 사이트의 전체 URL입니다.|
-TargetWebServerRelativeUrl|예|문자열|대상 라이브러리에 대한 웹의 서버 상대 URL입니다.|
-TargetLibraryServerRelativeUrl|예|문자열|대상 라이브러리의 서버 상대 URL입니다.|
-ViewOption|아니요|문자열|새 모델 뷰를 라이브러리 기본값으로 설정할지 여부를 지정합니다.|
+|TargetSiteUrl|예|문자열|대상 라이브러리 사이트의 전체 URL입니다.|
+|TargetWebServerRelativeUrl|예|문자열|대상 라이브러리에 대한 웹의 서버 상대 URL입니다.|
+|TargetLibraryServerRelativeUrl|예|문자열|대상 라이브러리의 서버 상대 URL입니다.|
+|ViewOption|아니요|문자열|새 모델 뷰를 라이브러리 기본값으로 설정할지 여부를 지정합니다.|
 
 ## <a name="response"></a>응답
 
 | 이름   | 유형  | 설명|
 |--------|-------|------------|
-|200 OK| |성공|
-|201 생성됨| |이 API는 여러 라이브러리에 모델 적용을 지원하므로 라이브러리 중 하나에 모델을 적용하는 데 오류가 있어도 201이 반환될 수 있습니다. <br>응답 본문을 확인하여 모델이 지정된 모든 라이브러리에 성공적으로 적용되었는지 확인합니다. 자세한 내용은 [요청 본문](rest-applymodel-method.md#request-body)을 참조하세요.|
+|201 생성됨||다중 문서 라이브러리에 모델을 적용하도록 지원하는 사용자 지정 API입니다. 부분적으로 성공하는 경우에도 생성된 201이 반환될 수 있으며, 호출자는 응답 본문을 검사하여 모델이 문서 라이브러리에 성공적으로 적용되었는지 파악해야 합니다.|
+
+## <a name="response-body"></a>응답 본문
+| 이름   | 유형  | 설명|
+|--------|-------|------------|
+|TotalSuccesses|int|문서 라이브러리에 성공적으로 적용된 모델의 총수입니다.|
+|TotalFailures|int|문서 라이브러리에 적용되지 못한 모델의 총수입니다.|
+|세부 정보|MachineLearningPublicationResult[]|각각 문서 라이브러리에 모델을 적용한 자세한 결과를 지정하는 MachineLearningPublicationResult의 컬렉션입니다.|
+
+### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+| 이름   | 유형  | 설명|
+|--------|-------|------------|
+|StatusCode|int|HTTP 상태 코드입니다.|
+|ErrorMessage|문자열|문서 라이브러리에 모델을 적용할 때 무엇이 잘못되었는지 알려 주는 오류 메시지입니다.|
+|Publication|MachineLearningPublicationEntityData|모델 정보 및 대상 문서 라이브러리를 지정합니다.| 
+
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| 이름 | 유형 | 설명 |
+|--------|--------|------------|
+|ModelUniqueId|문자열|모델 파일의 고유 ID입니다.|
+|TargetSiteUrl|문자열|대상 라이브러리 사이트의 전체 URL입니다.|
+|TargetWebServerRelativeUrl|문자열|대상 라이브러리에 대한 웹의 서버 상대 URL입니다.|
+|TargetLibraryServerRelativeUrl|문자열|대상 라이브러리의 서버 상대 URL입니다.|
 
 ## <a name="examples"></a>예제
 
@@ -87,9 +114,9 @@ ViewOption|아니요|문자열|새 모델 뷰를 라이브러리 기본값으로
 
 #### <a name="sample-response"></a>샘플 응답
 
-응답에서 TotalFailures 및 TotalSuccesses는 지정된 라이브러리에 적용되는 모델의 실패 및 성공 횟수를 나타냅니다.
+응답 내 TotalFailures 및 TotalSuccesses는 지정된 라이브러리에 모델을 적용하지 못한 횟수와 성공적으로 적용한 횟수를 나타냅니다.
 
-**상태 코드:** 200
+**상태 코드:** 201
 
 ```JSON
 {
@@ -103,7 +130,7 @@ ViewOption|아니요|문자열|새 모델 뷰를 라이브러리 기본값으로
                 "TargetLibraryServerRelativeUrl": "/sites/repository/contracts",
                 "ViewOption": "NewViewAsDefault"
             },
-            "StatusCode": 200
+            "StatusCode": 201
         }
     ],
     "TotalFailures": 0,
@@ -113,4 +140,4 @@ ViewOption|아니요|문자열|새 모델 뷰를 라이브러리 기본값으로
 
 ## <a name="see-also"></a>참고 항목
 
-[구문 문서 이해 모델 REST API](syntex-model-rest-api.md)
+[Syntex 문서 이해 모델 REST API](syntex-model-rest-api.md)

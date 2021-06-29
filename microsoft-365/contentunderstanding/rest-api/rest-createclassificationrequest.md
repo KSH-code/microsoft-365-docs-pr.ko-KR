@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 학습된 문서 이해 모델을 사용하여 하나 이상의 파일을 분류하는 요청을 만듭니다.
-ms.openlocfilehash: 6a218db181368c2837d570062b6101bc3bacfb05
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 3a796bcdb38a9a6930b51f7d585febb69082732e
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904281"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177084"
 ---
 # <a name="create-classification-request"></a>분류 요청 만들기
 
@@ -45,7 +45,7 @@ POST /_api/machinelearning/workItems HTTP/1.1
 
 |이름    |유형   |설명 |
 |--------|-------|------------|
-|_metadata|문자열 |SPO에 개체 메타를 설정합니다. 항상 값 {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"}를 사용합니다. |
+|_metadata|문자열 |SPO에 개체 메타를 설정합니다. 항상 {“type”: “Microsoft.Office.Server.ContentCenter.SPMachineLearningWorkItemEntityData”} 값을 사용합니다. |
 |TargetSiteId|GUID|분류할 파일이 있는 사이트의 ID입니다.|
 |TargetWebId|GUID|분류할 파일이 있는 웹의 ID입니다.|
 |TargetUniqueId|GUID|분류할 파일의 ID입니다.|
@@ -65,7 +65,7 @@ POST /_api/machinelearning/workItems HTTP/1.1
 ```
 {
     "__metadata": {
-        "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"
+        "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningWorkItemEntityData"
     },
     "TargetSiteId": "f686e63b-aba7-48e5-97c7-68c4c1df292f",
     "TargetWebId": "66d6b64d-6f88-4dd9-b3db-47e6f00c53e8",
@@ -79,4 +79,4 @@ POST /_api/machinelearning/workItems HTTP/1.1
 
 ## <a name="see-also"></a>참고 항목
 
-[구문 문서 이해 모델 REST API](syntex-model-rest-api.md)
+[Syntex 문서 이해 모델 REST API](syntex-model-rest-api.md)

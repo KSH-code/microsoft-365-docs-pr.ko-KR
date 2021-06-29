@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: dbfe9e1eaeff7968328eefd24caeec35e2d72558
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 5fdb3bd963468fb7fdb4de307df8ccda0c69bbb4
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137778"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169619"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -89,6 +89,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 |위치별 제한|아니오 |예 |
 |조건: 훈련 가능한 분류자|예 |아니요 |
 |조건: 전자 메일 공유 옵션 및 추가 옵션|아니요 |예 |
+|조건: 예외|아니요 |예(전자 메일만 해당) |
 |권장 사항, 정책 도구 설명 및 사용자 재정의|예 |아니요 |
 |시뮬레이션 모드|아니요 |예 |
 |조건이 확인된 Exchange 첨부 파일|아니요 | 예|
@@ -297,7 +298,17 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     - 첨부 파일이 암호로 보호됨
     - 전자 메일 첨부 파일의 콘텐츠를 검사할 수 없음
     - 전자 메일 첨부 파일 내용의 검사가 완료되지 않음
-
+    - 헤더가 패턴과 일치
+    - 제목이 패턴과 일치
+    - 받는 사람 주소에 단어가 포함되어 있음
+    - 받는 사람 주소가 패턴과 일치
+    - 보낸 사람 주소가 패턴과 일치
+    - 보낸 사람 도메인은
+    - 받는 사람이 다음의 구성원임
+    - 보낸 사람은
+    
+    이러한 각 조건에 대해 예외를 지정할 수 있습니다.
+    
 8. 이제 이전 선택에 따라 조건 및 예외를 사용하여 새 규칙을 만들 수 있습니다.
     
     민감한 정보 유형의 구성 옵션은 Office 앱에 대한 자동 레이블 지정에 대해 선택한 것과 동일합니다. 자세한 정보가 필요한 경우 [레이블에 민감한 정보 유형 구성](#configuring-sensitive-info-types-for-a-label)을 참조하세요.

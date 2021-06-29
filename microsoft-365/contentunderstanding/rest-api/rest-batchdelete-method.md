@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: 하나 이상의 라이브러리에서 적용된 문서 이해 모델을 제거합니다.
-ms.openlocfilehash: 8c7aeb449da161fe49050631643c63c93268a13f
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: e95c0583b1b0e2f5de08228afbf161c339544047
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904274"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177240"
 ---
 # <a name="batchdelete"></a>BatchDelete
 
@@ -44,18 +44,43 @@ POST /_api/machinelearning/publications/batchdelete HTTP/1.1
 
 | 이름 | 필수 | 유형 | 설명 |
 |--------|-------|--------|------------|
+|Publications|예|MachineLearningPublicationEntityData[]|각각 모델 및 대상 문서 라이브러리를 지정하는 MachineLearningPublicationEntityData의 컬렉션입니다.|
+
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| 이름 | 필수 | 유형 | 설명 |
+|--------|-------|--------|------------|
 |ModelUniqueId|예|문자열|모델 파일의 고유 ID입니다.|
-TargetSiteUrl|예|문자열|대상 라이브러리 사이트의 전체 URL입니다.|
-TargetWebServerRelativeUrl|예|문자열|대상 라이브러리에 대한 웹의 서버 상대 URL입니다.|
-TargetLibraryServerRelativeUrl|예|문자열|대상 라이브러리의 서버 상대 URL입니다.|
-ViewOption|아니요|문자열|새 모델 뷰를 라이브러리 기본값으로 설정할지 여부를 지정합니다.|
+|TargetSiteUrl|예|문자열|대상 라이브러리 사이트의 전체 URL입니다.|
+|TargetWebServerRelativeUrl|예|문자열|대상 라이브러리에 대한 웹의 서버 상대 URL입니다.|
+|TargetLibraryServerRelativeUrl|예|문자열|대상 라이브러리의 서버 상대 URL입니다.|
 
 ## <a name="response"></a>응답
 
 | 이름   | 유형  | 설명|
 |--------|-------|------------|
-|200 OK| |성공|
+|200 OK||다중 문서 라이브러리에서 모델을 제거하도록 지원하는 사용자 지정 API입니다. 부분적으로 성공하는 경우에도 200 OK가 반환될 수 있으며, 호출자는 응답 본문을 검사하여 모델이 문서 라이브러리에서 성공적으로 제거되었는지 파악해야 합니다.|
 
+## <a name="response-body"></a>응답 본문
+| 이름   | 유형  | 설명|
+|--------|-------|------------|
+|TotalSuccesses|int|문서 라이브러리에서 성공적으로 제거한 모델의 총수입니다.|
+|TotalFailures|int|문서 라이브러리에서 제거하지 못한 모델의 총수입니다.|
+|세부 정보|MachineLearningPublicationResult[]|각각 문서 라이브러리에서 모델을 제거한 자세한 결과를 지정하는 MachineLearningPublicationResult의 컬렉션입니다.|
+
+### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+| 이름   | 유형  | 설명|
+|--------|-------|------------|
+|StatusCode|int|HTTP 상태 코드입니다.|
+|ErrorMessage|문자열|문서 라이브러리에 모델을 적용할 때 무엇이 잘못되었는지 알려 주는 오류 메시지입니다.|
+|Publication|MachineLearningPublicationEntityData|모델 정보 및 대상 문서 라이브러리를 지정합니다.| 
+
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| 이름 | 유형 | 설명 |
+|--------|--------|------------|
+|ModelUniqueId|문자열|모델 파일의 고유 ID입니다.|
+|TargetSiteUrl|문자열|대상 라이브러리 사이트의 전체 URL입니다.|
+|TargetWebServerRelativeUrl|문자열|대상 라이브러리에 대한 웹의 서버 상대 URL입니다.|
+|TargetLibraryServerRelativeUrl|문자열|대상 라이브러리의 서버 상대 URL입니다.|
 
 ## <a name="examples"></a>예제
 
@@ -66,28 +91,22 @@ ViewOption|아니요|문자열|새 모델 뷰를 라이브러리 기본값으로
 #### <a name="sample-request"></a>샘플 요청
 
 ```HTTP
-{
-    "__metadata": {
-        "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningPublicationsEntityData"
-    },
-    "Publications": {
-        "results": [
-            {
-                "ModelUniqueId": "7645e69d-21fb-4a24-a17a-9bdfa7cb63dc",
-                "TargetSiteUrl": "https://contoso.sharepoint.com/sites/repository/",
-                "TargetWebServerRelativeUrl": "/sites/repository",
-                "TargetLibraryServerRelativeUrl": "/sites/repository/contracts",
-                "ViewOption": "NewViewAsDefault"
-            }
-        ]
-    }
-}
+{ 
+    "publications": [ 
+        { 
+            "ModelUniqueId": "7645e69d-21fb-4a24-a17a-9bdfa7cb63dc", 
+            "TargetSiteUrl": "https://constco.sharepoint-df.com/sites/docsite", 
+            "TargetWebServerRelativeUrl": "/sites/docsite ", 
+            "TargetLibraryServerRelativeUrl": "/sites/dcocsite/joedcos" 
+        } 
+    ] 
+} 
 ```
 
 
 #### <a name="sample-response"></a>샘플 응답
 
-응답에서 TotalFailures 및 TotalSuccesses는 지정된 라이브러리에 적용되는 모델의 실패 및 성공 횟수를 나타냅니다.
+응답 내 TotalFailures 및 TotalSuccesses는 지정된 라이브러리에서 모델을 제거하지 못한 횟수와 성공적으로 제거한 횟수를 나타냅니다.
 
 **상태 코드:** 200
 
