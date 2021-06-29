@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 5a22996ce9e39dc16191ddddc6aa9393de557bbc
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 0296e8151162ad4f2855fdd29ff2fc0ed4b4d6b2
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579413"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177576"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -65,6 +65,14 @@ Autopilot 프로필이 디바이스를 포함하지 않는 할당된 또는 동�
 **권고**
 
 인증서 커넥터가 하나 이상 있으며 오류가 보고되지 않습니다. 그러나 배포를 준비할 때 장치용 커넥터를 다시 사용할 프로필을 만들어야 Microsoft Managed Desktop 있습니다. 자세한 내용은 [Prepare certificates and network profiles for Microsoft Managed Desktop.](certs-wifi-lan.md)
+
+### <a name="company-portal"></a>회사 포털
+
+Microsoft Managed Desktop 장치를 사용하려면 IT Intune 회사 포털 장치를 설치해야 Microsoft Managed Desktop 합니다. 
+
+**준비되지 않음**
+
+사용자에 대해 회사 포털 설치되지 않았습니다. Intune과 회사 포털 동기화를 강제로 비즈니스용 Microsoft Store. 자세한 내용은 장치에 Intune 회사 포털 [설치를 참조하세요.](../get-started/company-portal.md)
 
 
 ### <a name="conditional-access-policies"></a>조건부 액세스 정책
@@ -218,15 +226,15 @@ Microsoft 계정 담당자에게 Intune으로 마이그레이션할 준비가 �
 
 ### <a name="windows-hello-for-business"></a>비즈니스용 Windows Hello
 
-Microsoft Managed Desktop 사용하려면 Windows Hello를 사용하도록 설정해야 합니다.
+Microsoft Managed Desktop 비즈니스용 Windows Hello 사용하도록 설정해야 합니다.
 
 **준비되지 않음**
 
-Windows 비즈니스용 Hello를 사용할 수 없습니다. Create [a Windows Hello for Business policy의](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy) 단계를 수행하여 사용하도록 설정
+Windows Hello 비즈니스용 서비스를 사용할 수 없습니다. Create [a Windows Hello for Business policy의](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy) 단계를 수행하여 사용하도록 설정
 
 **권고**
 
-Windows 비즈니스용 Hello가 설정되지 않습니다. Create a Windows Hello for Business policy의 단계를 수행하여 사용하도록 [설정하세요.](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
+Windows Hello 비즈니스용 설정이 설정되지 않습니다. Create a Windows Hello [for Business policy의 단계를 수행하여 사용하도록 설정하세요.](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
 
 ### <a name="windows-10-update-rings"></a>Windows 10 업데이트 링

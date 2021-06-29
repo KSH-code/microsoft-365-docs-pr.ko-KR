@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 06/02/2021
-ms.openlocfilehash: eb4819a1dfad5ce94722d3cb283471a52808a4a7
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: cb56872be3cef2e094583e59a702707f79355743
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169607"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177624"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
 
@@ -37,6 +37,8 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 
 ## <a name="requirements"></a>요구 사항
 
+여러 버전에서 공격 Windows 기능
+
 다음 버전 및 버전의 디바이스를 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 Windows.
 
 - Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
@@ -44,7 +46,13 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 않습니다. [E5를](/windows/deployment/deploy-enterprise-licenses)Windows 고급 관리 기능을 사용할 수 있습니다. 이러한 기능은 Windows E5에서만 사용할 수 있는 기능으로는 [Endpoint용 Defender에서](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)사용할 수 있는 모니터링, 분석 및 워크플로와 Microsoft 365 보안 센터의 보고 [및 구성 기능이 포함됩니다.](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true) 이러한 고급 기능은 E3 라이선스 또는 Windows Professional 사용할 Windows 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 로그를 사용하여 Microsoft Defender 바이러스 백신 축소 규칙 이벤트를 검토할 수 있습니다.
+공격 표면 감소 규칙의 전체 기능 집합을 사용하려면 다음이 필요합니다.
+
+- Windows Defender 바이러스 백신 AV로 사용(실시간 보호 기능)
+- [클라우드 배달 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 기능 사용(일부 규칙의 경우
+- Windows 10 Enterprise E5 또는 E3 라이선스 또는 Microsoft 365 라이선스
+
+공격 표면 감소 규칙에는 [Windows E5](/windows/deployment/deploy-enterprise-licenses)라이선스가 필요하지는 않습니다. Windows E5 라이선스가 있는 경우 끝점용 Defender에서 사용 가능한 모니터링, 분석 및 워크플로를 비롯한 고급 관리 기능과 Microsoft 365 보안 센터의 보고 및 구성 기능을 사용할 수 있습니다. E3 라이선스에서는 이러한 고급 기능을 사용할 수 없지만 이벤트 뷰어를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.
 
 각 ASR 규칙에는 다음 네 가지 설정 중 하나가 포함되어 있습니다.
 

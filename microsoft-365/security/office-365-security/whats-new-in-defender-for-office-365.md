@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0eaf34e6950e265514b14ff1fd0aa1c7bb9ab6b1
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 0a9eb63ed4508ff875324cf6fb0b4a8ad59cb29f
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062204"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177552"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -62,7 +62,6 @@ ms.locfileid: "53062204"
 - 헌팅 환경의 레코드 내보내기 제한을 9990에서 200,000으로 [늘리기](threat-explorer.md)
 - 헌팅 환경의 평가판 테넌트에 대한 탐색기(및 실시간 검색) 데이터 보존 및 검색 제한을 7일(이전 제한)에서 30일로 [확장](threat-explorer.md)
 - 탐색기 내에서 가장된  도메인 및 가장된 사용자라는 새로운 헌팅 피벗을 사용하여 보호된 사용자 또는 도메인에 대한 가장 공격을 검색합니다.  자세한 내용은 세부 [정보를 참조하세요.](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains) (Microsoft Defender for Office 365 요금제 1 또는 계획 2)
-- 새 첫 보안 팁 받는 사람이 보낸 사람의 전자 메일을 처음 받거나 보낸 사람의 전자 메일을 자주 받지 않는 경우를 위한 연락처입니다. 이 설정과 메일 흐름 규칙(전송 규칙)을 Exchange 구성하는 방법에 대한 자세한 내용은 첫 번째 연락처 [보안 팁.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
 
 ## <a name="december-2020"></a>2020년 12월
 
@@ -75,6 +74,7 @@ ms.locfileid: "53062204"
 
 ## <a name="septemberoctober-2020"></a>2020년 9월/10월
 
+- 새 첫 보안 팁 받는 사람이 보낸 사람의 전자 메일을 처음 받거나 보낸 사람의 전자 메일을 자주 받지 않는 경우를 위한 연락처입니다. 이 설정과 메일 흐름 규칙(전송 규칙)을 Exchange 구성하는 방법에 대한 자세한 내용은 첫 번째 연락처 [보안 팁.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
 - [구성 분석기를 사용하여 정책 확인](configuration-analyzer-for-security-policies.md)
 - 위협 탐색기에서 상위 대상 [사용자,](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) 전송 규칙 및 커넥터를 포함한 확장된 [기능(위협](threat-explorer.md) 탐색기에서 Office 365 정보에 대한 Defender(테넌트/사용자 정책에 의해 전자 메일이 허용/차단)(Office 365 계획 2용 Defender)
 - 위협 탐색기에서 [](threat-explorer.md#threats-in-urls) URL 위협(맬웨어, 피싱, 스팸 또는 없음)(맬웨어, 피싱, 스팸 또는 없음)(Office 365 계획 2용 Defender)

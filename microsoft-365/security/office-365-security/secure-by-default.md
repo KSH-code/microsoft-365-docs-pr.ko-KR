@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: ''
+ms.date: 06/28/2021
 audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 description: EOP(보안 기본 설정)에 대해 Exchange Online Protection 자세히 알아보시다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f197556426171b867b49781b38ea5f5116f80aa2
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: c737647202e82af0fc217c0eadb3e2573d13a9b1
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861530"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177648"
 ---
 # <a name="secure-by-default-in-office-365"></a>기본적으로 보안은 Office 365
 
@@ -52,7 +52,7 @@ EOP에 대한 자세한 내용은 Exchange Online Protection [개요를 참조�
 Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때문에 일부 테넌트는 맬웨어 또는 높은 신뢰도 피싱에 적용되지 않습니다. 이러한 오버라이드에는 다음이 포함됩니다.
 
 - 허용된 보낸 사람 목록 또는 허용된 도메인 목록(스팸 방지 정책)
-- Outlook 수신이 안전한 보낸 사람
+- Outlook 금고 보낸 사람
 - IP 허용 목록(연결 필터링)
 
 이러한 오버라이드에 대한 자세한 내용은 안전한 보낸 사람 목록 만들기 [에서 찾을 수 있습니다.](create-safe-sender-lists-in-office-365.md)
@@ -68,14 +68,14 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 
 이 데이터는 사용자가 정크 메일 폴더와 Quarantine의 메시지에서 악의적인 링크를 클릭할 가능성이 30배 더 높을 수 있습니다. 또한 이 데이터는 높은 신뢰도의 피싱 메시지에 대한 가음성 비율(양호한 메시지)이 매우 낮고 관리자가 관리자 제출을 통해 가짓 긍정을 해결할 수 있다는 것입니다.
 
-또한 스팸 방지 정책 및 수신 허용 정책의 허용된 보낸 사람 및 허용된 도메인 목록이 Outlook 너무 광범위하여 양호한 것보다 더 많은 손상을 초래하는 것으로 확인되었습니다.
+또한 스팸 방지 정책 및 금고 도메인 목록의 허용된 보낸 사람 및 허용된 도메인 목록이 Outlook 너무 광범위하여 양호한 것보다 더 많은 손상을 일으키는 것으로 확인되었습니다.
 
 또 다른 방법으로 말해서, 보안 서비스로, 사용자가 손상되지 않도록 사용자를 대신하여 행동하고 있습니다.
 
 ## <a name="exceptions"></a>예외
 
 > [!NOTE]
-> 2021년 7월에는 기본적으로 보안이 Exchange 메일 흐름 규칙(전송 규칙)으로 확장됩니다. 메일 흐름 규칙을 사용하여 타사 피싱 시뮬레이션 또는 필터되지 않은 배달을 보안 작업 사서함으로 허용하는 경우 결국 이러한 [](configure-advanced-delivery.md) 규칙을 제거하고 기능을 사용할 수 있는 경우 고급 배달 정책을 사용하여 _전환해야 합니다._
+> 2021년 8월에는 기본적으로 보안이 메일 흐름 규칙(전송 Exchange)으로 확장됩니다. 메일 흐름 규칙을 사용하여 타사 피싱 시뮬레이션 또는 필터되지 않은 배달을 보안 작업 사서함으로 허용하는 경우 결국 이러한 [](configure-advanced-delivery.md) 규칙을 제거하고 기능을 사용할 수 있는 경우 고급 배달 정책을 사용하여 _전환해야 합니다._
 
 높은 신뢰도의 피싱 메시지가 필터링을 무시할 수 있는 유일한 무시는 메일 흐름 규칙입니다. 메일 흐름 규칙을 사용하여 필터링을 무시하는 경우 메일 흐름 규칙을 사용하여 [메시지에서 SCL 설정을 참조합니다.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)
 

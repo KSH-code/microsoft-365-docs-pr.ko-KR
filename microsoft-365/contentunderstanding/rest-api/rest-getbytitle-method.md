@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 모델 제목을 사용하여 SharePoint Syntex 문서 이해 모델에 대한 정보를 가져오거나 업데이트합니다.
-ms.openlocfilehash: a6fbe9ba9d3f5240c7b775613f97b83bfa2caa50
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: b50849d0dc1c9deefa55a5c92303d18f251e2f8b
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904331"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177132"
 ---
 # <a name="getbytitle"></a>GetByTitle
 
@@ -25,18 +25,18 @@ ms.locfileid: "52904331"
 ## <a name="http-request"></a>HTTP 요청
 
 ```HTTP
-GET /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
+GET /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
 이 동일한 메서드를 사용하여 모델을 삭제할 수도 있습니다.
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
+DELETE /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>URI 매개 변수
 
-|이름 |위치 |필수|유형|설명|
+|이름 |In |필수|유형|설명|
 |-----|---|--------|----|-----------|
 |modelFileName|쿼리|True|문자열|Syntex 모델 파일의 이름입니다.|
 
@@ -65,12 +65,12 @@ GET의 경우 요청 본문이 필요하지 않습니다.
 #### <a name="sample-request"></a>샘플 요청
 
 ```HTTP
-GET /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
+GET /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
 #### <a name="sample-response"></a>샘플 응답
 
-**상태 코드:** 204
+**상태 코드:** 200
 
 ```HTTP
 {
@@ -109,7 +109,7 @@ GET /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
 ##### <a name="sample-request"></a>샘플 요청
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
+DELETE /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
 ## <a name="see-also"></a>참고 항목

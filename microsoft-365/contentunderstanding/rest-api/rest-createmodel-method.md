@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 모델 및 관련 콘텐츠 형식을 만듭니다.
-ms.openlocfilehash: 4af980d0733fce63767c6570003342eadb079f26
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 0a1b6ef9b7e38f2c4f52082103530da432e3e855
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904294"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177156"
 ---
 # <a name="create-model"></a>모델 만들기
 
@@ -65,7 +65,7 @@ POST /_api/machinelearning/models HTTP/1.1
         "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"
     },
     "ContentTypeGroup": "Intelligent Document Content Types",
-    "ContentTypeName": "Contoso Contract",
+    "ContentTypeName": "Contoso Contract"
 }
 ```
 

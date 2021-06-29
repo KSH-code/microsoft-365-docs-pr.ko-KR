@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이전 직원 사서함의 콘텐츠를 저장하는 방법에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: d73d7005d2ccea429f66c5b2564220424665439f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: bd24145b6b5162a03dee0338cc0820e5af271ddd
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244228"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177492"
 ---
 # <a name="step-2---save-the-contents-of-a-former-employees-mailbox"></a>2단계 - 이전 직원 사서함의 내용 저장
 
@@ -45,4 +45,4 @@ ms.locfileid: "52244228"
 
     **또는**
 
-2. 이전 직원의 전자 메일 주소를 Outlook 웹앱 버전에 추가한 다음 데이터를 .pst 파일로 내보낼 수 있습니다. 필요에 따라 다른 전자 메일 계정으로 데이터를 가져올 수 있습니다. 6단계 - 다른 직원에게 데이터 및 OneDrive [Outlook 권한을 부여합니다.](remove-former-employee-step-6.md)
+2. 이전 직원의 전자 메일 주소를 Desktop의 Outlook 버전에 추가한 다음 데이터를 .pst 파일로 내보낼 수 있습니다. 필요에 따라 다른 전자 메일 계정으로 데이터를 가져올 수 있습니다. 6단계 - 다른 직원에게 데이터 및 OneDrive [Outlook 권한을 부여합니다.](remove-former-employee-step-6.md)

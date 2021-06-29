@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 모델 및 모델이 적용된 라이브러리에 대한 정보를 가져옵니다.
-ms.openlocfilehash: 6cd61364ed3b360ef235aaba21a2735002fe481e
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 2449084653c6d9af8d774edc306c485e7a466bf6
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904301"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177072"
 ---
 # <a name="get-model-and-library-information"></a>모델 및 라이브러리 정보 가져오기
 
@@ -25,13 +25,13 @@ ms.locfileid: "52904301"
 ## <a name="http-request"></a>HTTP 요청
 
 ```HTTP
-GET /_api/machinelearning/publications/getbyuniqueid(‘{modelUniqueId}’) HTTP/1.1
+GET /_api/machinelearning/publications/getbymodeluniqueid('{modelUniqueId}') HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>URI 매개 변수
 
 | 이름 | In | 필수 | 유형 | 설명 |
-|--------|-------|--------|------------|
+|--------|-------|--------|------------|-----------|
 |ModelUniqueId|쿼리|True|GUID|모델 파일의 고유 ID입니다.|
 
 ## <a name="request-headers"></a>요청 헤더
@@ -41,22 +41,11 @@ GET /_api/machinelearning/publications/getbyuniqueid(‘{modelUniqueId}’) HTTP
 |수락|application/json;odata=verbose|
 
 
-## <a name="request-body"></a>요청 본문
-
-| 이름 | 필수 | 유형 | 설명 |
-|--------|-------|--------|------------|
-|ModelUniqueId|예|문자열|모델 파일의 고유 ID입니다.|
-|TargetSiteUrl|예|문자열|대상 라이브러리 사이트의 전체 URL입니다.|
-|TargetWebServerRelativeUrl|예|문자열|대상 라이브러리에 대한 웹의 서버 상대 URL입니다.|
-|TargetLibraryServerRelativeUrl|예|문자열|대상 라이브러리의 서버 상대 URL입니다.|
-|TargetLibraryRemoved|예|int|대상 라이브러리가 제거되었는지 여부를 나타내는 플래그입니다.|
-
 ## <a name="response"></a>응답
 
 | 이름   | 유형  | 설명|
 |--------|-------|------------|
 |200 OK| |성공|
-|201 생성됨| |이 API는 여러 라이브러리에 모델 적용을 지원하므로 라이브러리 중 하나에 모델을 적용하는 데 오류가 있어도 201이 반환될 수 있습니다. <br>응답 본문을 확인하여 지정된 모든 라이브러리에 모델이 성공적으로 적용되었는지 파악합니다. 자세한 내용은 [요청 본문](rest-getmodelandlibraryinfo.md#request-body)을 참조하세요.|
 
 ## <a name="examples"></a>예제
 
@@ -67,7 +56,7 @@ GET /_api/machinelearning/publications/getbyuniqueid(‘{modelUniqueId}’) HTTP
 #### <a name="sample-request"></a>샘플 요청
 
 ```HTTP
-GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}’) HTTP/1.1
+GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 #### <a name="sample-response"></a>샘플 응답
 
@@ -130,7 +119,7 @@ GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid(‘{7645e
             "ViewOption": "NewViewAsDefault"
         }
     ]
-}```
+}
 ```
 
 ## <a name="see-also"></a>참고 항목

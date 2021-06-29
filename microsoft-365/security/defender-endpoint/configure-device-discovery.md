@@ -1,6 +1,6 @@
 ---
 title: 장치 검색 구성
-description: 기본 검색 또는 표준 검색을 Microsoft 365 Defender에서 장치 검색을 구성하는 방법에 대해 자세히 알아보기
+description: 기본 검색 또는 표준 검색을 사용하여 Microsoft 365 Defender 장치 검색을 구성하는 방법 학습
 keywords: 기본, 표준, 끝점 검색 구성, 장치 검색
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 0d722b4f4bef5b4d178edc5f2142c887690d4c63
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: e1efeff77657e04223b21d639a0a09287f3707cc
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765254"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177588"
 ---
 # <a name="configure-device-discovery"></a>장치 검색 구성
 
@@ -101,7 +101,24 @@ ms.locfileid: "51765254"
 6. 변경하려는지 확인 
 
 
+## <a name="explore-devices-in-the-network"></a>네트워크에서 디바이스 탐색
 
+다음 고급 헌팅 쿼리를 사용하여 네트워크 목록에 설명된 각 네트워크 이름에 대한 더 많은 컨텍스트를 얻을 수 있습니다. 이 쿼리에는 지난 7일 이내에 특정 네트워크에 연결된 모든 온보드 장치가 나열됩니다.
+
+
+
+```kusto
+DeviceNetworkInfo
+| where Timestamp > ago(7d)
+| summarize arg_max(Timestamp, *) by DeviceId
+| where ConnectedNetworks  != ""
+| extend ConnectedNetworksExp = parse_json(ConnectedNetworks)
+| mv-expand bagexpansion = array ConnectedNetworks=ConnectedNetworksExp
+| extend NetworkName = tostring(ConnectedNetworks ["Name"]), Description = tostring(ConnectedNetworks ["Description"]), NetworkCategory = tostring(ConnectedNetworks ["Category"])
+| where NetworkName == "<your network name here>"
+
+
+```
 
 ## <a name="see-also"></a>참고 항목
 - [장치 검색 개요](device-discovery.md)

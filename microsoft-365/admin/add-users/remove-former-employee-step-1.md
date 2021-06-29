@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이전 직원의 로그인을 차단하고 Microsoft 365 차단합니다.
-ms.openlocfilehash: f2258b165c3d61f809288003f4a536ffe160ea59
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 58b65a0a886460e8be01635c857433773cfc9059
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061819"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177120"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>1단계 - 이전 직원이 로그인하지 못하게 방지하고 Microsoft 365 액세스 차단
 
@@ -65,7 +65,7 @@ PowerShell을 사용하여 사용자를 즉시 로그인하기 위해 [Revoke-Az
 
 Microsoft 365 구독의 일부로 전자 메일이 있는 경우 Exchange 관리 센터에 로그인하고 다음 단계에 따라 이전 직원이 전자 메일에 액세스하지 못하게 차단합니다.
   
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
+1. <a href="https://admin.exchange.microsoft.com/" target="_blank">Exchange 관리 센터</a>로 이동합니다.
 2. Exchange 관리 센터에서 **받는 사람** \> **사서함** 으로 이동합니다.
-3. 사용자를 두 번 클릭하고 사서함 기능 **페이지로** 이동합니다. 모바일 **장치에서** 장치 사용 안 **Exchange ActiveSync** 및 **장치용 OWA** 사용 안 을 선택하고 메시지가 표시될 때 모두 예를 선택합니다. 
-4. 전자 **메일 연결에서** 사용 **안** 을 선택하고 메시지가 **표시될** 때 예를 선택합니다.
+3. 사용자를 두 번 클릭하고 전자 메일 앱 아래의 전자 메일 **앱 설정** **관리로 이동합니다.** 모든 **옵션에** 대해 슬라이더를 해제합니다. **모바일(Exchange ActiveSync)** **,** 웹용 Outlook , Outlook **데스크톱(MAPI)**, Exchange 웹 **서비스,** **POP3** 및 **IMAP**.
+4. **저장** 을 선택합니다.

@@ -18,18 +18,18 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 설정하여 원격으로 장치 지우기 등의 작업을 수행하여 사용자의 모바일 장치를 보호하고 관리합니다.
-ms.openlocfilehash: 02ba28deca6286456af5f87841a741262c1a135d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: f1cfa6cdc8d799ba62c687408cb12a4ba453f313
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634295"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177276"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>기본 이동성 및 보안 설정
 
 기본 제공 기본 모바일 및 보안 for Microsoft 365 iPhone, iPad, Androids 및 Windows 휴대폰과 같은 사용자의 모바일 장치를 보호하고 관리할 수 있습니다. 디바이스 보안 정책을 생성하고 관리하며, 원격으로 디바이스를 지우고, 자세한 디바이스 보고서를 볼 수 있습니다.
 
-질문이 있나요? 일반적인 질문을 해결하기 위한 FAQ는 [Basic Mobility and Security FAQ(질문과](frequently-asked-questions.md)대답)를 참조하세요. 위임된 관리자 계정을 사용하여 Basic Mobility and Security를 관리할 수는 없습니다. 자세한 내용은 [파트너: 위임된 관리 제공을 참조하세요.](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e) 
+질문이 있나요? 일반적인 질문을 해결하기 위한 FAQ는 [Basic Mobility and Security FAQ(질문과](frequently-asked-questions.yml)대답)를 참조하세요. 위임된 관리자 계정을 사용하여 Basic Mobility and Security를 관리할 수는 없습니다. 자세한 내용은 [파트너: 위임된 관리 제공을 참조하세요.](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e) 
 
 장치 관리는 보안 & 준수 센터의 일부이기 때문에 기본 이동성 및 보안 설정을 시작해야 합니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "52634295"
 
 사용자 지정 도메인이 Microsoft 365 없는 경우 또는 Windows 장치를 관리하지 않는 경우 이 섹션을 건너뛸 수 있습니다. 그렇지 않으면 DNS 호스트에서 도메인에 대한 DNS 레코드를 추가해야 합니다. 레코드를 이미 추가한 경우 레코드를 사용하여 도메인을 설정하는 Microsoft 365 모두 설정됩니다. 레코드를 추가하고 나면 Microsoft 365 도메인을 사용하는 전자 메일 주소로 Windows 장치에 로그인하는 조직의 사용자가 기본 이동성 및 보안에 등록됩니다.
 
-레코드 설정에 도움이 필요하세요? 도메인 등록 기관을 찾고 등록 기관 이름을 선택하여 도메인에 연결하기 위해 DNS 레코드 추가에 제공된 목록에서 DNS 레코드를 만들기 위한 단계별 [도움말로 이동하세요.](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 이러한 지침을 사용하여 Azure AD 등록 없이 Windows 등록 간소화에 설명된 CNAME 레코드를 [Premium.](/mem/intune/enrollment/windows-enroll#simplify-windows-enrollment-without-azure-ad-premium)
+레코드 설정에 도움이 필요하세요? 도메인 등록 기관을 찾고 등록 기관 이름을 선택하여 도메인에 연결하기 위해 DNS 레코드 추가에 제공된 목록에서 DNS 레코드를 만들기 위한 단계별 [도움말로 이동하세요.](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 이러한 지침을 사용하여 에 설명된 CNAME 레코드를 만들 수 있습니다. Windows 등록을 [Azure AD Premium.](/mem/intune/enrollment/windows-enroll#simplify-windows-enrollment-without-azure-ad-premium)
 
 두 개의 CNAME 레코드를 추가한 후 보안 & 준수 센터로 돌아가 데이터 손실 방지 장치 관리로 이동하여 다음 단계를  >     완료합니다.
 

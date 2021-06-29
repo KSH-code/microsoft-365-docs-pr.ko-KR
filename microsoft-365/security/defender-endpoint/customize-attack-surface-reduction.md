@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 0705ba096c2aefc6bd089bd5fba80b055fd881dc
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 6d2770dec270e2d1c1b9750387a0f07f82b357f9
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055246"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177096"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용자 지정
 
@@ -42,7 +42,11 @@ ms.locfileid: "53055246"
 - Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
-- [Windows Server 2019](/windows-server/get-started-19/whats-new-19) 그룹 정책, PowerShell 및 MDM(모바일 장치 관리) CSP(구성 서비스 공급자)를 사용하여 이러한 설정을 구성할 수 있습니다.
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+
+그룹 정책, PowerShell 및 MDM(모바일 장치 관리) CSP(구성 서비스 공급자)를 사용하여 이러한 설정을 구성할 수 있습니다.
+
+[지원되는](enable-attack-surface-reduction.md#requirements) 운영 체제 및 추가 요구 사항에 대한 자세한 내용은 "공격 표면 감소 규칙 사용" 문서의 요구 사항을 참조하세요.
 
 ## <a name="exclude-files-and-folders"></a>파일 및 폴더 제외
 
@@ -66,21 +70,22 @@ ms.locfileid: "53055246"
 
 | 규칙 설명 | GUID |
 |:----|:----|
+| 악용된 취약한 서명된 드라이버의 남용 차단 | `56a863a9-875e-4185-98a7-b882c64b5ce5` |
+| Adobe Reader에서 하위 프로세스를 만들지 차단 | `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c` |
 | 모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단 | `D4F940AB-401B-4EFC-AADC-AD5F3C50688A` |
-| 잠재적으로 난치될 수 있는 스크립트의 실행 차단 | `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC` |
-| 매크로에서 Win32 API Office 차단 | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` |
-| 응용 Office 콘텐츠 만들기 차단 | `3B576869-A4EC-4529-8536-B80A7769E899` |
-| 응용 Office 코드 삽입 차단 | `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84` |
-| JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단 | `D3E037E1-3EB8-44C8-A917-57927947596D` |
+| 로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단 | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` |
 | 전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단 | `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550` |
 | 실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 조건을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단 | `01443614-cd74-433a-b99e-2ecdc07bfc25` |
-| 랜섬웨어에 대한 고급 보호 사용 | `c1db55ab-c21a-4637-bb3f-a12568109d35` |
-| 로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단 | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` |
+| 잠재적으로 난치될 수 있는 스크립트의 실행 차단 | `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC` |
+| JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단 | `D3E037E1-3EB8-44C8-A917-57927947596D` |
+| 응용 Office 콘텐츠 만들기 차단 | `3B576869-A4EC-4529-8536-B80A7769E899` |
+| 응용 Office 코드 삽입 차단 | `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84` |
+| 통신 Office 자식 프로세스를 만들지 차단 | `26190899-1602-49e8-8b27-eb1d0a1ce869` |
+| WMI 이벤트 구독을 통한 지속성 차단 | `e6db77e5-3df2-4cf1-b95a-636979351e5b` |
 | PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단 | `d1e49aac-8f56-4280-b9ba-993a6d77406c` |
 | USB에서 실행된 무단 및 사인되지 않은 프로세스 차단 | `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4` |
-| 통신 Office 자식 프로세스를 만들지 차단 | `26190899-1602-49e8-8b27-eb1d0a1ce869` |
-| Adobe Reader에서 하위 프로세스를 만들지 차단 | `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c` |
-| WMI 이벤트 구독을 통한 지속성 차단 | `e6db77e5-3df2-4cf1-b95a-636979351e5b` |
+| 매크로에서 Win32 API Office 차단 | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` |
+| 랜섬웨어에 대한 고급 보호 사용 | `c1db55ab-c21a-4637-bb3f-a12568109d35` |
 
 각 [규칙에 대한 자세한](attack-surface-reduction.md) 내용은 공격 표면 축소 항목을 참조하세요.
 
@@ -119,7 +124,7 @@ ms.locfileid: "53055246"
 
 규칙이 트리거되는 경우 알림을 사용자 지정하고 앱 또는 파일을 차단할 수 있습니다. 자세한 [내용은 Windows 보안](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center#customize-notifications-from-the-windows-defender-security-center) 참조하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [공격 표면 감소 규칙을 사용하여 공격 표면 감소](attack-surface-reduction.md)
 - [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
