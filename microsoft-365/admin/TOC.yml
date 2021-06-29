@@ -393,7 +393,7 @@
             - name: 개인 정보 및 보안
               href: basic-mobility-security/privacy-and-security.md
             - name: 질문과 대답
-              href: basic-mobility-security/frequently-asked-questions.md
+              href: basic-mobility-security/frequently-asked-questions.yml
             - name: 모바일 장치 지우기
               href: basic-mobility-security/wipe-mobile-device.md
             - name: 기본 이동성 및 보안 해제
