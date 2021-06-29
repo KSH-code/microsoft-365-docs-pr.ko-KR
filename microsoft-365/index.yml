@@ -1,258 +1,259 @@
 ### YamlMime:Hub
 title: Microsoft 365 설명서
-summary: 회사나 조직을 위해 Microsoft 365를 시작하는 데 필요한 솔루션, 시나리오 및 리소스를 찾아보세요.
+summary: '회사나 조직을 위해 Microsoft 365를 시작하는 데 필요한 솔루션, 시나리오 및 리소스를 찾아보세요.'
 brand: m365
 metadata:
   title: Microsoft 365 설명서
-  description: 회사나 조직을 위해 Microsoft 365를 시작하는 데 필요한 솔루션, 시나리오 및 리소스를 찾아보세요.
-  services: office-365-security-compliance
-  ms.service: O365-seccomp
+  description: '회사나 조직을 위해 Microsoft 365를 시작하는 데 필요한 솔루션, 시나리오 및 리소스를 찾아보세요.'
+  ms.service: o365-solutions
   ms.topic: hub-page
   ms.collection: m365-security-compliance
-  author: robmazz
-  ms.author: robmazz
-  ms.date: 11/08/2019
+  author: samanro
+  ms.author: samanro
+  ms.date: 06/08/2021
   localization_priority: Priority
-  ms.openlocfilehash: 721d017ecdf40ecce020b6298e87a9bddd999256
-  ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
-  ms.translationtype: HT
-  ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/30/2021
-  ms.locfileid: "51418083"
 highlightedContent:
   items:
-  - title: 원격 작업자 권한 부여
-    itemType: how-to-guide
-    url: solutions/empower-people-to-work-remotely.md
-  - title: Microsoft Teams를 통한 원격 학습
-    itemType: get-started
-    url: /MicrosoftTeams/remote-learning-edu
-  - title: Microsoft Learn을 통한 기술 구축
-    itemType: learn
-    url: /learn/m365/
-  - title: Microsoft 365로 소규모 기업 시작
-    itemType: quickstart
-    url: business-video/index.yml
+    - title: 하이브리드 작업을 위한 인프라 설정
+      itemType: how-to-guide
+      url: solutions/empower-people-to-work-remotely.md
+    - title: Microsoft Teams를 통한 원격 학습
+      itemType: get-started
+      url: /MicrosoftTeams/remote-learning-edu
+    - title: Microsoft Learn을 통한 기술 구축
+      itemType: learn
+      url: /learn/m365/
+    - title: Microsoft 365로 소규모 기업 시작
+      itemType: quickstart
+      url: business-video/index.yml
 productDirectory:
   title: Microsoft 365 솔루션 및 시나리오
   items:
-  - title: Microsoft 365 솔루션
-    imageSrc: https://docs.microsoft.com/office/media/icons/secure-document-blue.svg
-    links:
-    - url: solutions/empower-people-to-work-remotely.md
-      text: 원격 작업자 권한 부여
-    - url: solutions/setup-secure-collaboration-with-teams.md
-      text: 안전한 공동 작업 설정
-    - url: solutions/deploy-threat-protection.md
-      text: 위협 방지 배포
-    - url: solutions/information-protection-deploy.md
-      text: 데이터 개인 정보 규정을 위한 정보 보호 배포
-    - url: campaigns/index.md
-      text: 캠페인 용 Microsoft 365 (모든 소규모 기업에 대한 보안 가이드)
-  - title: 모임 및 소통
-    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-blue.svg
-    links:
-    - url: /MicrosoftTeams/quick-start-meetings-live-events
-      text: Microsoft Teams의 모임 및 라이브 이벤트
-    - url: solutions/deploy-voice.md
-      text: Teams 음성 솔루션 계획 및 배포
-    - url: /MicrosoftTeams/business-voice/whats-business-voice
-      text: Microsoft 365 Business Voice
-    - url: /SkypeForBusiness/hybrid/msft-telephony-solutions
-      text: Microsoft 전화 통신 솔루션
-  - title: 팀과 공동 작업
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
-    links:
-    - url: solutions/collaborate-with-people-outside-your-organization.md
-      text: 외부 공유 구성
-    - url: /sharepoint/intelligent-internet-overview
-      text: 지능형 SharePoint 인트라넷 구축
-    - url: /sharepoint/deploy-file-collaboration
-      text: SharePoint에서 파일 공동 작업
-    - url: /onedrive/plan-onedrive-enterprise
-      text: 엔터프라이즈용 OneDrive 가이드
-    - url: solutions/collaboration-governance-overview.md
-      text: 공동 작업 거버넌스
-  - title: 아키텍처 리소스
-    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg
-    links:
-    - url: solutions/productivity-illustrations.md
-      text: Microsoft 365 생산성 일러스트레이션
-    - url: solutions/cloud-architecture-models.md
-      text: Microsoft 클라우드 아키텍처 모델
-    - url: solutions/design-principles.md
-      text: 엔터프라이즈 아키텍처 설계 원칙
-  - title: 조직 보안
-    imageSrc: https://docs.microsoft.com/office/media/icons/security-blue.svg
-    links:
-    - url: security/top-security-tasks-for-remote-work.md
-      text: 재택 근무를 지원하는 보안 팀의 주요 작업
-    - url: solutions/configure-teams-three-tiers-protection.md
-      text: Microsoft Teams의 세 가지 보호 계층 구성
-    - url: security/defender/get-started.md
-      text: Microsoft 365 Defender 시작
-    - url: security/defender-endpoint/deployment-phases.md
-      text: 엔드포인트용 Microsoft Defender 배포
-    - url: security/office-365-security/defender-for-office-365.md
-      text: Office 365용 Microsoft Defender
-    - url: security/office-365-security/microsoft-365-policies-configurations.md
-      text: ID 및 장치 액세스 보호 구성
-  - title: 정보 보호 및 규정 준수
-    imageSrc: https://docs.microsoft.com/office/media/icons/certificate-blue.svg
-    links:
-    - url: compliance/insider-risk-solution-overview.md
-      text: Microsoft 365의 참가자 위험 솔루션
-    - url: compliance/compliance-quick-tasks.md
-      text: Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
-    - url: compliance/information-protection.md
-      text: 정보 보호 관리
-    - url: compliance/manage-information-governance.md
-      text: 정보 거버넌스 관리
-  - title: 데스크톱 및 장치 배포 및 관리
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
-    links:
-    - url: /DeployOffice/plan-microsoft-365-apps
-      text: Microsoft 365 앱 배포
-    - url: /windows/deployment/
-      text: Windows 10 배포
-    - url: ./managed-desktop/index.yml
-      text: Microsoft Managed Desktop
-    - url: /mem/intune/fundamentals/what-is-intune
-      text: Microsoft Intune을 사용한 장치 관리
-  - title: Microsoft 365로 마이그레이션
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
-    links:
-    - url: /MicrosoftTeams/journey-skypeforbusiness-teams
-      text: Microsoft Teams로 마이그레이션
-    - url: /sharepointmigration/migrate-to-sharepoint-online
-      text: SharePoint, OneDrive 및 Teams로 콘텐츠 마이그레이션
-    - url: /Exchange/mailbox-migration/mailbox-migration
-      text: 여러 전자 메일 계정을 Microsoft 365로 마이그레이션
-  - title: 산업별 솔루션 및 시나리오
-    imageSrc: https://docs.microsoft.com/office/media/icons/on-premises-blue.svg
-    links:
-    - url: solutions/financial-services-secure-collaboration.md
-      text: 금융 서비스에 대한 보안 및 규정 준수
-    - url: solutions/energy-secure-collaboration.md
-      text: 에너지 및 공공 서비스에 대한 보안 및 규정 준수
-    - url: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
-      text: 의료 기관용 Teams
-    - url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
-      text: 교육용 Teams
-    - url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
-      text: 정부 기관용 Teams
-    - url: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams
-      text: Microsoft Teams를 사용하여 원격 공무원 지원
+    - title: Microsoft 365 솔루션
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/secure-document-blue.svg'
+      links:
+        - url: solutions/empower-people-to-work-remotely.md
+          text: 하이브리드 작업을 위한 인프라 설정
+        - url: solutions/setup-secure-collaboration-with-teams.md
+          text: 안전한 공동 작업 설정
+        - url: solutions/deploy-threat-protection.md
+          text: 위협 방지 배포
+        - url: solutions/information-protection-deploy.md
+          text: 데이터 개인 정보 규정을 위한 정보 보호 배포
+        - url: campaigns/index.md
+          text: 소규모 기업 및 캠페인을 위한 Microsoft 365
+    - title: 모임 및 소통
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/call-phone-blue.svg'
+      links:
+        - url: /MicrosoftTeams/quick-start-meetings-live-events
+          text: Microsoft Teams의 모임 및 라이브 이벤트
+        - url: solutions/deploy-voice.md
+          text: Teams 음성 솔루션 계획 및 배포
+        - url: /MicrosoftTeams/business-voice/whats-business-voice
+          text: Microsoft 365 Business Voice
+        - url: /SkypeForBusiness/hybrid/msft-telephony-solutions
+          text: Microsoft 전화 통신 솔루션
+    - title: 팀과 공동 작업
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
+      links:
+        - url: solutions/collaborate-with-people-outside-your-organization.md
+          text: 외부 공유 구성
+        - url: /sharepoint/intelligent-internet-overview
+          text: 지능형 SharePoint 인트라넷 구축
+        - url: /sharepoint/deploy-file-collaboration
+          text: SharePoint에서 파일 공동 작업
+        - url: /onedrive/plan-onedrive-enterprise
+          text: 엔터프라이즈용 OneDrive 가이드
+        - url: solutions/collaboration-governance-overview.md
+          text: 공동 작업 거버넌스
+    - title: 아키텍처 리소스
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg'
+      links:
+        - url: solutions/productivity-illustrations.md
+          text: Microsoft 365 생산성 일러스트레이션
+        - url: solutions/cloud-architecture-models.md
+          text: Microsoft 클라우드 아키텍처 모델
+        - url: solutions/design-principles.md
+          text: 엔터프라이즈 아키텍처 설계 원칙
+        - url: solutions/infographics-for-users.md
+          text: 사용자를 위한 인포그래픽
+        - url: solutions/architecture-icons-templates.md
+          text: 아키텍처 아이콘 및 서식 파일
+    - title: 조직 보안
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/security-blue.svg'
+      links:
+        - url: security/top-security-tasks-for-remote-work.md
+          text: 재택 근무를 지원하는 보안 팀의 주요 작업
+        - url: solutions/configure-teams-three-tiers-protection.md
+          text: Microsoft Teams의 세 가지 보호 계층 구성
+        - url: security/defender/get-started.md
+          text: Microsoft 365 Defender 시작
+        - url: security/defender-endpoint/deployment-phases.md
+          text: 엔드포인트용 Microsoft Defender 배포
+        - url: security/office-365-security/defender-for-office-365.md
+          text: Office 365용 Microsoft Defender
+        - url: security/office-365-security/microsoft-365-policies-configurations.md
+          text: ID 및 장치 액세스 보호 구성
+    - title: 정보 보호 및 규정 준수
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/certificate-blue.svg'
+      links:
+        - url: compliance/insider-risk-solution-overview.md
+          text: Microsoft 365의 참가자 위험 솔루션
+        - url: compliance/compliance-quick-tasks.md
+          text: Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
+        - url: compliance/information-protection.md
+          text: 정보 보호 관리
+        - url: compliance/manage-information-governance.md
+          text: 정보 거버넌스 관리
+        - url: compliance/auditing-solutions-overview.md
+          text: 감사 솔루션
+        - url: compliance/overview-ediscovery-20.md
+          text: Microsoft 365 Advanced eDiscovery
+    - title: 데스크톱 및 장치 배포 및 관리
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
+      links:
+        - url: /DeployOffice/plan-microsoft-365-apps
+          text: Microsoft 365 앱 배포
+        - url: /windows/deployment/
+          text: Windows 10 배포
+        - url: ./managed-desktop/index.yml
+          text: Microsoft Managed Desktop
+        - url: /mem/intune/fundamentals/what-is-intune
+          text: Microsoft Intune을 사용한 장치 관리
+    - title: Microsoft 365로 마이그레이션
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
+      links:
+        - url: /MicrosoftTeams/journey-skypeforbusiness-teams
+          text: Microsoft Teams로 마이그레이션
+        - url: /sharepointmigration/migrate-to-sharepoint-online
+          text: 'SharePoint, OneDrive 및 Teams로 콘텐츠 마이그레이션'
+        - url: /Exchange/mailbox-migration/mailbox-migration
+          text: 여러 전자 메일 계정을 Microsoft 365로 마이그레이션
+    - title: 산업별 솔루션 및 시나리오
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/on-premises-blue.svg'
+      links:
+        - url: solutions/financial-services-secure-collaboration.md
+          text: 금융 서비스에 대한 보안 및 규정 준수
+        - url: solutions/energy-secure-collaboration.md
+          text: 에너지 및 공공 서비스에 대한 보안 및 규정 준수
+        - url: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
+          text: 의료 기관용 Teams
+        - url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
+          text: 교육용 Teams
+        - url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
+          text: 정부 기관용 Teams
+        - url: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams
+          text: Microsoft Teams를 사용하여 원격 공무원 지원
 additionalContent:
   sections:
-  - title: 모든 앱 및 서비스
-    summary: Microsoft 365에 포함된 모든 앱 및 제품에 대한 설명서
-    items:
-    - title: Microsoft 365
-      summary: 조직을 위한 Microsoft 365 서비스 설정 및 관리
-      links:
-      - text: Microsoft 365 관리 센터
-        url: admin/index.yml
-      - text: Microsoft 365 Business Premium
-        url: business/index.yml
-      - text: 엔터프라이즈용 Microsoft 365
-        url: enterprise/index.yml
-      - text: Microsoft 365 규정 준수
-        url: compliance/index.yml
-      - text: Microsoft 365 보안
-        url: security/index.yml
-      - text: Microsoft Managed Desktop
-        url: managed-desktop/index.yml
-      - text: 문제 해결 및 지원
-        url: /office/troubleshoot
-    - title: Microsoft Teams
-      links:
-      - text: 관리자 설명서
-        url: /MicrosoftTeams/Teams-overview
-      - text: Teams의 보안 및 규정 준수
-        url: /MicrosoftTeams/security-compliance-overview
-      - text: 비즈니스용 Skype에서 Teams로 업그레이드
-        url: /MicrosoftTeams/journey-skypeforbusiness-teams
-      - text: 추가 정보 >
-        url: /MicrosoftTeams
-    - title: Office 배포
-      links:
-      - text: Microsoft 365 앱
-        url: /DeployOffice/plan-microsoft-365-apps
-      - text: Mac용 Office
-        url: /DeployOffice/mac
-      - text: Office 2019
-        url: /DeployOffice/office2019
-      - text: 추가 정보 >
-        url: /DeployOffice
-    - title: SharePoint
-      links:
-      - text: Microsoft 365의 SharePoint
-        url: /sharepoint/sharepoint-online
-      - text: SharePoint Syntex
-        url: contentunderstanding/index.md
-      - text: SharePoint Server
-        url: /sharepoint/sharepoint-server
-      - text: 하이브리드
-        url: /sharepoint/hybrid/hybrid
-      - text: SharePoint용 PowerShell 참조 자료
-        url: /powershell/sharepoint
-      - text: 추가 정보 >
-        url: /sharepoint
-    - title: OneDrive
-      links:
-      - text: 계획, 배포 및 관리
-        url: /onedrive/onedrive
-      - text: OneDrive 추가 정보 >
-        url: /onedrive
-    - title: Outlook 및 Exchange
-      links:
-      - text: iOS 및 Android용 Outlook
-        url: https://resources.techcommunity.microsoft.com/outlook-mobile-adoption/
-      - text: Exchange Online
-        url: /Exchange/exchange-online
-      - text: Exchange 추가 정보 >
-        url: /Exchange
-    - title: Planner 및 Project
-      links:
-      - text: Planner 관리자 도움말
-        url: /office365/planner
-      - text: 웹용 Project
-        url: /project-for-the-web/projectforweb-admin-home
-      - text: Project 추가 정보 >
-        url: /Project
-    - title: 더 많은 앱 및 서비스
-      links:
-      - text: Microsoft Bookings
-        url: bookings/index.yml
-      - text: Microsoft Kaizala
-        url: /Kaizala
-      - text: Microsoft Stream
-        url: /stream/
-      - text: Yammer
-        url: /yammer/yammer-landing-page
-    - title: 비즈니스용 Skype
-      links:
-      - text: IT 전문가 설명서
-        url: /skypeforbusiness
-    - title: Office Online Server
-      links:
-      - text: 시작
-        url: /officeonlineserver
-  - title: 관련 지침 및 리소스
-    items:
-    - title: 개발자
-      summary: Microsoft 365 개발자 센터에서 개발자를 위한 자습서, 참조 및 기타 리소스를 찾아보세요.
-      url: https://developer.microsoft.com/microsoft-365
-    - title: 최종 사용자
-      summary: support.microsoft.com에서 Microsoft 365 사용자를 위한 교육, 방법 및 도움말 콘텐츠를 찾아보세요.
-      url: https://support.microsoft.com/microsoft-365
-    - title: IT 교육
-      summary: Microsoft 365 Education으로 창의력을 발휘하고 팀워크를 증진하여 안전하고 간편한 환경을 가져보세요.
-      url: /education
-    - title: 강사
-      summary: Microsoft 365 Education을 통해 교사를 위한 교육, 방법 및 도움말 콘텐츠를 찾아보세요.
-      url: https://support.microsoft.com/education
-    - title: 기술 커뮤니티
-      summary: Microsoft 365 기술 커뮤니티에 참여하여 경험을 공유하고 전문가들로부터 배워보세요.
-      url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
+    - title: 모든 앱 및 서비스
+      summary: Microsoft 365에 포함된 모든 앱 및 제품에 대한 설명서
+      items:
+        - title: Microsoft 365
+          summary: 조직을 위한 Microsoft 365 서비스 설정 및 관리
+          links:
+            - text: Microsoft 365 관리 센터
+              url: admin/index.yml
+            - text: Microsoft 365 Business Premium
+              url: business/index.yml
+            - text: 엔터프라이즈용 Microsoft 365
+              url: enterprise/index.yml
+            - text: Microsoft 365 규정 준수
+              url: compliance/index.yml
+            - text: Microsoft 365 보안
+              url: security/index.yml
+            - text: Microsoft Managed Desktop
+              url: managed-desktop/index.yml
+            - text: 문제 해결 및 지원
+              url: /office/troubleshoot
+        - title: Microsoft Teams
+          links:
+            - text: 관리자 설명서
+              url: /MicrosoftTeams/Teams-overview
+            - text: Teams의 보안 및 규정 준수
+              url: /MicrosoftTeams/security-compliance-overview
+            - text: 비즈니스용 Skype에서 Teams로 업그레이드
+              url: /MicrosoftTeams/journey-skypeforbusiness-teams
+            - text: 추가 정보 >
+              url: /MicrosoftTeams
+        - title: Office 배포
+          links:
+            - text: Microsoft 365 앱
+              url: /DeployOffice/plan-microsoft-365-apps
+            - text: Mac용 Office
+              url: /DeployOffice/mac
+            - text: Office 2019
+              url: /DeployOffice/office2019
+            - text: 추가 정보 >
+              url: /DeployOffice
+        - title: SharePoint
+          links:
+            - text: Microsoft 365의 SharePoint
+              url: /sharepoint/sharepoint-online
+            - text: SharePoint Syntex
+              url: contentunderstanding/index.md
+            - text: SharePoint Server
+              url: /sharepoint/sharepoint-server
+            - text: 하이브리드
+              url: /sharepoint/hybrid/hybrid
+            - text: SharePoint용 PowerShell 참조 자료
+              url: /powershell/sharepoint
+            - text: 추가 정보 >
+              url: /sharepoint
+        - title: OneDrive
+          links:
+            - text: '계획, 배포 및 관리'
+              url: /onedrive/onedrive
+            - text: OneDrive 추가 정보 >
+              url: /onedrive
+        - title: Outlook 및 Exchange
+          links:
+            - text: iOS 및 Android용 Outlook
+              url: 'https://resources.techcommunity.microsoft.com/outlook-mobile-adoption/'
+            - text: Exchange Online
+              url: /Exchange/exchange-online
+            - text: Exchange 추가 정보 >
+              url: /Exchange
+        - title: Planner 및 Project
+          links:
+            - text: Planner 관리자 도움말
+              url: /office365/planner
+            - text: 웹용 Project
+              url: /project-for-the-web/projectforweb-admin-home
+            - text: Project 추가 정보 >
+              url: /Project
+        - title: 더 많은 앱 및 서비스
+          links:
+            - text: Microsoft Bookings
+              url: bookings/index.yml
+            - text: Microsoft Kaizala
+              url: /Kaizala
+            - text: Microsoft Stream
+              url: /stream/
+            - text: Yammer
+              url: /yammer/yammer-landing-page
+        - title: 비즈니스용 Skype
+          links:
+            - text: IT 전문가 설명서
+              url: /skypeforbusiness
+        - title: Office Online Server
+          links:
+            - text: 시작
+              url: /officeonlineserver
+    - title: 관련 지침 및 리소스
+      items:
+        - title: 개발자
+          summary: 'Microsoft 365 개발자 센터에서 개발자를 위한 자습서, 참조 및 기타 리소스를 찾아보세요.'
+          url: 'https://developer.microsoft.com/microsoft-365'
+        - title: 최종 사용자
+          summary: 'support.microsoft.com에서 Microsoft 365 사용자를 위한 교육, 방법 및 도움말 콘텐츠를 찾아보세요.'
+          url: 'https://support.microsoft.com/microsoft-365'
+        - title: IT 교육
+          summary: Microsoft 365 Education으로 창의력을 발휘하고 팀워크를 증진하여 안전하고 간편한 환경을 가져보세요.
+          url: /education
+        - title: 강사
+          summary: 'Microsoft 365 Education을 통해 교사를 위한 교육, 방법 및 도움말 콘텐츠를 찾아보세요.'
+          url: 'https://support.microsoft.com/education'
+        - title: 기술 커뮤니티
+          summary: Microsoft 365 기술 커뮤니티에 참여하여 경험을 공유하고 전문가들로부터 배워보세요.
+          url: 'https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365'
