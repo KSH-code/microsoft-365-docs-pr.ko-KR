@@ -25,20 +25,19 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 소규모 기업, 일정 및 정치 캠페인을 포함한 소규모 기업을 위한 Microsoft 365 Business Premium 보안 및 공동 작업 권장 사항입니다.
-ms.openlocfilehash: 6c836f5abb118bb3902ecdfaa37acd759faca1fe
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 34f36a86167ebba2ad80cc0046184b3c1997f845
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245031"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177468"
 ---
-<a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>소규모 기업 및 캠페인을 위한 Microsoft 365
-===========================
+# <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>소규모 기업 및 캠페인을 위한 Microsoft 365
 
 Microsoft 365 Business Premium이 있는 경우 이 라이브러리의 지침은 보안을 설정하고 안전하게 공동 작업을 시작하는 가장 빠른 방법입니다. 현 세계에서는 특히 정치 캠페인, 의료 및 법률 관행, 기타 많은 소규모 비즈니스에서 데이터와 통신의 보안을 유지하는 것이 최우선 과제입니다. 솔루션은 사용자와 데이터를 보호하기 위해 설계된 권장 사항 집합과 함께 제공됩니다. 이 라이브러리에는 비즈니스 유형에 상관없이 이 권장 환경을 설정하고 사용하는 데 도움이 있습니다.
 
 
-![Microsoft 365 Business Premium은 생산성 도구, 공동 작업 도구, 파일 저장소, 전자 메일, 장치 및 ID를 보호합니다.](../media/M365-WhatIsIt-SecurityFocus.png)
+![Microsoft 365 Business Premium은 생산성 도구, 공동 작업 도구, 파일 저장소, 전자 메일, 장치 및 ID를 보호합니다.](../media/M365-WhatIsIt-SecurityFocus.png#lightbox)
 
 이 구성에는 비즈니스 보호를 위한 생산성, 공동 작업, 파일 저장소, 전자 메일, 장치 및 ID에 대한 다음 지침이 포함됩니다.
 
@@ -50,8 +49,7 @@ Microsoft 365 Business Premium이 있는 경우 이 라이브러리의 지침은
 |파일을 안전하게 저장 및 공유 | Microsoft Teams, OneDrive, SharePoint 및 Microsoft Stream의 파일과 비디오를 공유하고 중요한 데이터를 보호합니다.| [파일 및 동영상 공유](share-files-and-videos.md) |
 |관리되는 Windows 10 장치 |주요 직원에게 중앙 관리 장치를 사용하고 이러한 장치를 보호합니다. | [관리되는 장치 설정](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) |
 
-<a name="a-recommended-security-configuration-for-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에 권장되는 보안 구성
-------------------------------------
+## <a name="a-recommended-security-configuration-for-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에 권장되는 보안 구성
 
 Microsoft 365 Business Premium에 대해 권장되는 보안 구성을 통해 다음을 수행할 수 있습니다.
 
@@ -71,8 +69,7 @@ Microsoft 365 Business Premium에 대해 권장되는 보안 구성을 통해 �
 
 포함된 항목에 대한 자세한 내용은 [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business)을 참조하시기 바랍니다.
 
-<a name="get-started"></a>시작하기
---------------------------
+## <a name="get-started"></a>시작하기
 
 시작하려면 다음 단계를 따릅니다.
 
@@ -80,8 +77,7 @@ Microsoft 365 Business Premium에 대해 권장되는 보안 구성을 통해 �
 - 비즈니스용: [Microsoft 365 사용 방법 알아보기](m365-campaigns-users.md)
 - 비즈니스용: [Microsoft 365 설정](microsoft-365-campaigns-setup-overview.md)
 
-<a name="solutions-for-your-business"></a>비즈니스를 위한 솔루션
---------------------------
+## <a name="solutions-for-your-business"></a>비즈니스를 위한 솔루션
 
 보안 Microsoft 365 환경을 설정한 후 다음 솔루션을 사용하여 작업할 수 있습니다.
 
