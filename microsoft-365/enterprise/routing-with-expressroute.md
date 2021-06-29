@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: 이 문서에서는 Azure ExpressRoute 라우팅 요구 사항, 회로 및 라우팅 도메인에 대해 Office 365.
-ms.openlocfilehash: b455ed7e53b3018babb1abd58919a077fb9d0685
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b27e3cfe41af8cf5e444f1221f1cee2e3bbf5826
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687172"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194796"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Office 365용 ExpressRoute를 사용한 라우팅
 
@@ -85,14 +85,6 @@ Microsoft가 이러한 양방향 트래픽 흐름을 위해 네트워크로 다�
 
 Microsoft 피어 라우팅 도메인을 사용하여 피어링 관계를 구성하고 적절한 액세스가 승인되면 ExpressRoute를 통해 사용할 수 있는 모든 PaaS 및 SaaS 서비스를 볼 수 있습니다. ExpressRoute용으로 Office 365 서비스는 [BGP](./bgp-communities-in-expressroute.md) 커뮤니티 또는 경로 필터로 [관리할 수 있습니다.](/azure/expressroute/how-to-routefilter-portal)
   
-비디오와 같은 Office 365 응용 프로그램은 Office 365 응용 프로그램입니다. 그러나 Office 365 비디오는 포털, 스트리밍 서비스 및 콘텐츠 배달 네트워크의 세 가지 구성 요소로 구성됩니다. 포털은 SharePoint Online 내에 있으며, 스트리밍 서비스는 Azure Media Services 내에 있으며, 콘텐츠 배달 네트워크는 Azure CDN. 다음 표에는 이러한 구성 요소가 간략하게 나와 있습니다.
-
-|**구성 요소**|**응용 프로그램**|**온라인 SharePoint BGP 2016에 Community?**|**사용**|
-|:-----|:-----|:-----|:-----|
-|Office 365 비디오 포털  <br/> |SharePoint Online  <br/> |예  <br/> |구성, 업로드  <br/> |
-|Office 365 비디오 스트리밍 서비스  <br/> |Azure Media Services  <br/> |아니요.  <br/> |스트리밍 서비스는 비디오에서 비디오를 사용할 수 없는 경우 CDN  <br/> |
-|Office 365 비디오 콘텐츠 배달 네트워크  <br/> |Azure CDN  <br/> |아니요.  <br/> |비디오 다운로드/스트리밍의 기본 소스입니다. [자세한 내용은 Office 365 네트워킹을 확인합니다.](https://support.office.com/article/Office-365-Video-networking-Frequently-Asked-Questions-FAQ-2bed67a1-4052-49ff-a4ce-b7e6530eb98e)  <br/> |
-
 Microsoft 피어링을 사용하여 사용할 수 있는 각 Office 365 [](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 기능은 응용 프로그램 유형 및 FQDN에 따라 Office 365 끝점 문서에 나열됩니다. 테이블에서 FQDN을 사용하는 이유는 고객이 PAC 파일 또는 기타 프록시 구성을 사용하여 트래픽을 [](./managing-office-365-endpoints.md) 관리할 수 있도록 허용하기 위해 PAC 파일과 같은 Office 365 끝점 관리 가이드를 참조하세요.
   
 경우에 따라 하나 이상의 하위 FQDNS가 상위 수준 와일드카드 도메인과 다르게 보급되는 와일드카드 도메인을 사용했습니다. 일반적으로 와일드카드가 ExpressRoute 및 인터넷에 모두 보급되는 긴 서버 목록을 나타내고 대상의 작은 하위 집합이 인터넷에만 보급되거나 반대로 표시될 때 발생합니다. 차이점이 있는 위치를 이해하기 위해 아래 표를 참조하세요.

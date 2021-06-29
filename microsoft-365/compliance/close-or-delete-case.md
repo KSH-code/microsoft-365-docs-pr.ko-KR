@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery 사례에서 지원되는 조사 또는 법률 사례가 닫히거나 삭제될 때 발생하는 일에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7b11faa2ccdb44fca916b2f602d5120adadf1739
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: efbcbe34e6d7d8b564bcfa0cf9bbd8a1fbb59709
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657654"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194635"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>사례 닫기 또는 Advanced eDiscovery 삭제
 
@@ -36,7 +36,7 @@ Advanced eDiscovery 지원되는 법률 사례 또는 조사가 완료되면 사
 
 - 케이스를 닫으면 케이스와 연결된 보류 항목만 꺼집니다. 다른 보류가 콘텐츠 위치(예: 소송 보류, Core eDiscovery 보류 또는 다른 Advanced eDiscovery 사례의 보류)에 있는 경우에도 해당 보류는 계속 유지 관리됩니다.
 
-- 사례는 여전히 규정 준수 센터의 eDiscovery 페이지에 Microsoft 365 나열됩니다. 닫힌 케이스의 세부 정보, 보류, 검색 및 구성원은 유지됩니다.
+- 사례는 여전히 해당 페이지의 eDiscovery 페이지에 Microsoft 365 규정 준수 센터. 닫힌 케이스의 세부 정보, 보류, 검색 및 구성원은 유지됩니다.
 
 - 사례를 닫은 후 편집할 수 있습니다. 예를 들어 구성원을 추가 또는 제거하고, 검색을 만들고, 검색 결과를 내보내고, 검색 결과에서 분석을 위해 검색 결과를 준비할 Advanced eDiscovery. 활성 케이스와 닫힌 케이스의 주요 차이점은 케이스를 닫을 때 보류가 해제된다는 것입니다.
 
@@ -46,9 +46,9 @@ Advanced eDiscovery 지원되는 법률 사례 또는 조사가 완료되면 사
 
 2. **설정** 탭의 **케이스 정보** 에서 **선택** 을 클릭합니다.
 
-3. 사례 정보 플라이아웃 페이지의 맨 아래에서 ( ... )**를 클릭합니다.**  **추가 옵션** 을 클릭한 다음 대소문자 **닫기 를 클릭합니다.**
+   ![사례 정보 플라이아웃 페이지에 액세스하는 Advanced eDiscovery 있습니다.](..\media\AeDSelectCaseInformation.png) 
 
-   ![다른 옵션 메뉴의 옵션에서 추가 Advanced eDiscovery 닫기](..\Media\CloseAdvancedeDiscoveryCase.png)
+3. 사례 정보 플라이아웃 페이지의 아래쪽에서 동작 **을** 클릭한 다음 사례 **닫기 를 클릭합니다.** 
 
    닫기 프로세스를 완료하는 데 최대 60분 정도 걸릴 수 있습니다.
 
@@ -62,15 +62,13 @@ Advanced eDiscovery 사례를 다시 열면 사례를 닫을 때 수행되던 �
 
 2. **설정** 탭의 **케이스 정보** 에서 **선택** 을 클릭합니다.
 
-3. 사례 정보 플라이아웃 페이지의 맨 아래에서 ( ... )**를 클릭합니다.**  **추가 옵션** 을 클릭한 다음 사례 다시 **열기 를 클릭합니다.**
-
-   ![다른 옵션 메뉴의 옵션에서 사례를 다시 Advanced eDiscovery 옵션](..\Media\ReopenAdvancedeDiscoveryCase.png)
+3. 사례 정보 플라이아웃 페이지의 아래쪽에서 작업 을 **클릭한** 다음 사례 다시 **열기 를 클릭합니다.** 
 
    다시 열기 프로세스를 완료하는 데 최대 60분이 걸릴 수 있습니다.
 
 ## <a name="delete-a-case"></a>사례 삭제
 
-활성 및 닫힌 사례를 모두 삭제할 Advanced eDiscovery 있습니다. 케이스를 삭제하면 보유자, 통신, 검색, 검토 집합 및 내보내기 작업의 목록과 같은 케이스와 연결된 모든 구성 요소가 삭제됩니다. 사례는 규정 준수 센터의 Advanced eDiscovery **사례** 목록에서 Microsoft 365 제거됩니다. 삭제된 사례는 복구하거나 다시 열 수 없습니다.
+활성 및 닫힌 사례를 모두 삭제할 Advanced eDiscovery 있습니다. 케이스를 삭제하면 보유자, 통신, 검색, 검토 집합 및 내보내기 작업의 목록과 같은 케이스와 연결된 모든 구성 요소가 삭제됩니다. 사례는 목록의 Advanced eDiscovery **목록에서** Microsoft 365 규정 준수 센터. 삭제된 사례는 복구하거나 다시 열 수 없습니다.
 
 > [!NOTE]
 > 데이터 유출 시나리오에서 검토 집합의 항목을 제거하는 유일한 방법은 사례를 삭제하는 Advanced eDiscovery 것입니다. 다른 "검색 및 삭제" 메서드는 검토 집합에서 항목을 제거하지 않습니다.
@@ -91,6 +89,5 @@ Advanced eDiscovery 사례를 다시 열면 사례를 닫을 때 수행되던 �
 
 2. **설정** 탭의 **케이스 정보** 에서 **선택** 을 클릭합니다.
 
-3. 사례 정보 플라이아웃 페이지의 맨 아래에서 ( ... )**를 클릭합니다.**  **추가 옵션** 을 클릭한 다음 대소문자 **삭제를 클릭합니다.**
+3. 사례 정보 플라이아웃 페이지의 아래쪽에서 작업 을 **클릭한** 다음 사례 삭제 **를 클릭합니다.** 
 
-   ![다른 옵션 메뉴의 옵션에서 사례를 삭제하는 Advanced eDiscovery](..\Media\DeleteAdvancedeDiscoveryCase.png)

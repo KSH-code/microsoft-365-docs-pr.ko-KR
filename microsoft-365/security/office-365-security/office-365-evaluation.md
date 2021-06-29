@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0cf2d19b06dc1cce154785d8c42742fdc12d3259
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 79d736330a40d33f5334196d165e72f487b6d959
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108334"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194784"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender에서 Office 365
 
@@ -50,7 +50,7 @@ Microsoft Defender for Office 365 지원하는 라이선스가 없는 경우 [�
 
 설치의 일부로 평가 모드는 커넥터에 대한 향상된 [필터링도 구성합니다.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) IP 주소 및 보낸 사람 정보를 보존하여 필터링 정확도를 향상시킵니다. 그렇지 않으면 메일이 ESG(전자 메일 보안 게이트웨이)를 통과할 때 전자 메일 주소 및 보낸 사람 정보가 Office 365. 또한 커넥터에 대한 향상된 필터링은 기존 EOP(스팸 방지) Exchange Online Protection 및 피싱 방지 정책에 대한 필터링 정확도를 향상시킵니다.
 
-향상된 커넥터 필터링은 필터링 정확도를 향상시킵니다. 그러나 현재 EOP 필터링을 무시하지 않는 ESG가 Office 365 ESG가 있는 경우 특정 메시지에 대한 배달성이 변경될 수 있습니다. 영향은 EOP 정책으로 제한됩니다. 평가의 일부로 설정된 MDO 정책은 적용되지 않은 모드로 만들어집니다. 잠재적인 프로덕션 영향을 최소화하기 위해 메일 흐름 규칙(전송 규칙)을 만들어 메시지의 SCL(스팸 지수)을 -1로 설정하여 모든 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 Use mail flow rules to set the spam confidence level (SCL) in messages in Exchange Online을](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)   참조하세요.
+향상된 커넥터 필터링은 필터링 정확도를 향상시킵니다. 그러나 현재 EOP 필터링을 무시하지 않는 ESG가 Office 365 ESG가 있는 경우 특정 메시지에 대한 배달성이 변경될 수 있습니다. 영향은 EOP 정책으로 제한됩니다. 평가의 일부로 Office 365 정책에 대한 Defender가 적용되지 않은 모드로 만들어집니다. 잠재적인 프로덕션 영향을 최소화하기 위해 메일 흐름 규칙(전송 규칙)을 만들어 메시지의 SCL(스팸 지수)을 -1로 설정하여 모든 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 Use mail flow rules to set the spam confidence level (SCL) in messages in Exchange Online을](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)   참조하세요.
 
 평가 모드를 설정하면 정책이 구현된 경우 차단될 메시지를 수량화하는 최대 90일의 데이터로 매일 보고서가 업데이트됩니다(예: 삭제, 정크 메일 보내기, 검지). 보고서는 모든 Defender 및 EOP Office 365 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 주문형 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 탐색기를 사용하여 심층 검색 메시지를 만들 수 있습니다.
 

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 23ff50b9cd0ab0178962f7be9f1cedfbd6a7a1f7
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: be857277d36d95ac1cd974ccb0c87f2048798450
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022345"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194712"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사를 위한 준수 경계 설정
 
@@ -205,7 +205,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
    개념을 단순화하기 위해 **Region** 매개 변수는 데이터 센터 및 데이터 센터에서 콘텐츠를 검색하는 SharePoint OneDrive. 콘텐츠 검색은 데이터 센터의 지리적 위치에 Exchange Exchange 콘텐츠 검색에는 적용되지 않습니다. 또한 동일한 **Region** 매개 변수 값에 따라 내보내기 경로가 라우팅되는 데이터 센터가 지정될 수도 있습니다. 이는 종종 지리적 보드에서 데이터 이동을 제어하는 데 필요합니다.
 
 > [!NOTE]
-> 이 매개 변수를 Advanced eDiscovery **Region** 매개 변수는 데이터를 내보낼 지역을 제어하지 않습니다. 데이터는 조직의 기본 데이터 센터에서 내보낼 수 있습니다. 또한 SharePoint 및 OneDrive 검색은 데이터 센터의 지리적 위치에 의해 바인딩되지 않습니다. 모든 데이터 센터가 검색됩니다. 자세한 내용은 Advanced eDiscovery 의 Advanced eDiscovery [솔루션 개요를 Microsoft 365.](overview-ediscovery-20.md)
+> 이 매개 변수를 Advanced eDiscovery **Region** 매개 변수는 데이터를 내보낼 지역을 제어하지 않습니다. 데이터는 조직의 중앙 위치에서 내보낼 수 있습니다. 또한 SharePoint 및 OneDrive 검색은 데이터 센터의 지리적 위치에 의해 바인딩되지 않습니다. 모든 데이터 센터가 검색됩니다. 자세한 내용은 Advanced eDiscovery 의 Advanced eDiscovery [솔루션 개요를 Microsoft 365.](overview-ediscovery-20.md)
 
 다음은 준수 경계에 대한 검색 권한 필터를 만들 때 **Region** 매개 변수를 사용하는 예입니다. 이 경우 Fourth Coffee 자회사가 북미에 있으며 Coho Winery가 유럽에 있는 것으로 가정합니다. 
   
@@ -225,7 +225,9 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 - SharePoint 및 OneDrive 검색할 때 **Region** 매개 변수는 eDiscovery 관리자가 eDiscovery 조사를 수행하게 될 기본 또는 위성 위치로 검색을 지시합니다. eDiscovery 관리자가 검색 권한 SharePoint OneDrive 영역 외부의 사이트 및 사이트 검색을 검색하면 검색 결과가 반환되지 않습니다.
 
-- 검색 결과를 내보낼 때 콘텐츠 검색 도구를 사용하여 검색할 수 있는 모든 콘텐츠 위치(Exchange, 비즈니스용 Skype, SharePoint, OneDrive 및 기타 서비스)의 콘텐츠가 **Region** 매개 변수에 지정된 데이터 센터의 Azure 저장소 위치에 업로드됩니다. 이렇게 하면 조직이 제어된 테두리에서 콘텐츠를 내보내지 못하도록 하여 규정 준수를 유지하도록 할 수 있습니다. 검색 권한 필터에 지역이 지정되지 않은 경우 콘텐츠가 조직의 기본 데이터 센터에 업로드됩니다.
+- Core eDiscovery에서 검색 결과를 내보낼 때 콘텐츠 검색 도구를 사용하여 검색할 수 있는 모든 콘텐츠 위치(Exchange, 비즈니스용 Skype, SharePoint, OneDrive 및 기타 서비스)의 콘텐츠가 **Region** 매개 변수에 지정된 데이터 센터의 Azure Storage 위치에 업로드됩니다. 이렇게 하면 조직이 제어된 테두리에서 콘텐츠를 내보내지 못하도록 하여 규정 준수를 유지하도록 할 수 있습니다. 검색 권한 필터에 지역이 지정되지 않은 경우 콘텐츠가 조직의 기본 데이터 센터에 업로드됩니다.
+
+  사용자 계정에서 Advanced eDiscovery Region 매개 변수를 사용하여 콘텐츠가 업로드되는 위치를 제어할 **수** 없습니다. 콘텐츠가 조직의 Azure Storage 데이터 센터의 위치로 업로드됩니다. 중앙 위치에 기반한 지리적 위치 목록은 [Multi-Geo eDiscovery Microsoft 365 참조하세요.](../enterprise/multi-geo-ediscovery-configuration.md)
 
 - 다음 명령을 실행하여 기존 검색 권한 필터를 편집하여 지역을 추가하거나 변경할 수 있습니다.
 
@@ -269,19 +271,19 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
 - 사용자에 대해 준수 경계 및 검색 권한 필터를 구현하는 경우 사용자의 사서함을 삭제하지 말고 해당 사용자 사서함을 삭제하지 OneDrive 좋습니다. 즉, 사용자의 사서함을 삭제하는 경우 사용자 사서함에 대해 검색 권한 필터를 적용하는 데 OneDrive 계정도 mailbox_RecipientFilter 계정도 제거해야 OneDrive.
 
-- 규정 준수 경계 및 검색 권한 필터는 Exchange, OneDrive 및 SharePoint의 콘텐츠에 스탬프가 적용된 특성 및 이 스탬프된 콘텐츠의 후속 인덱싱에 따라 달라 습니다.
+- 규정 준수 경계 및 검색 권한 필터는 이 스탬프된 콘텐츠의 Exchange, OneDrive 및 SharePoint 인덱싱에 따라 스탬프가 설정됩니다.
 
 - 콘텐츠 기반 준수 경계에 제외 필터(예: 검색 권한 필터에서 사용)를 사용하지 `-not()` 않는 것이 좋습니다. 최근에 업데이트된 특성이 있는 콘텐츠가 인덱싱되지 않은 경우 제외 필터를 사용하면 예기치 않은 결과가 발생할 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
-**검색 권한 필터를 만들고 관리할 수 있는 사람(New-ComplianceSecurityFilter 및 cmdlet을 Set-ComplianceSecurityFilter 수 있나요?**
+**Who 및 cmdlet을 사용하여 검색 권한 필터를 New-ComplianceSecurityFilter Set-ComplianceSecurityFilter 수 있습니까?**
   
-검색 권한 필터를 만들고 보고 수정하려면 Microsoft 365 규정 준수 센터에서 조직 관리 역할 그룹의 구성원이 됐습니다.
+검색 권한 필터를 만들고 보고 수정하려면 검색 권한 필터에서 Organization Management 역할 그룹의 구성원 Microsoft 365 규정 준수 센터.
   
 **eDiscovery 관리자가 여러 기관에 걸쳐 있는 둘 이상의 역할 그룹에 할당된 경우 한 기관 또는 다른 기관에서 콘텐츠를 검색하는 방법**
   
-eDiscovery 관리자는 검색 쿼리에 특정 기관으로 검색을 제한하는 매개 변수를 추가할 수 있습니다. 예를 들어 조직에서 기관을 차별화하기 위해 **CustomAttribute10** 속성을 지정한 경우 검색 쿼리에 다음을 추가하여 특정 기관의 사서함 및 OneDrive 계정을 검색할 수  `CustomAttribute10:<value>` 있습니다. .
+eDiscovery 관리자는 검색 쿼리에 특정 기관으로 검색을 제한하는 매개 변수를 추가할 수 있습니다. 예를 들어 조직에서 기관을 차별화하기 위해 **CustomAttribute10** 속성을 지정한 경우 검색 쿼리에 다음을 추가하여 특정 기관의 사서함 및 OneDrive 계정을 검색할 수 있습니다. `CustomAttribute10:<value>` .
   
 **검색 권한 필터에서 준수 특성으로 사용되는 특성 값이 변경되는 경우 어떻게 하나요?**
   
@@ -289,16 +291,16 @@ eDiscovery 관리자는 검색 쿼리에 특정 기관으로 검색을 제한하
   
 **eDiscovery 관리자가 두 개의 별도 규정 준수 경계의 콘텐츠를 볼 수 있나요?**
   
-예. 두 기관 모두에 대한 가시성이 있는 역할 그룹에 eDiscovery 관리자를 추가하여 Exchange 사서함을 검색할 때 이 기능을 사용할 수 있습니다. 그러나 SharePoint 사이트 및 OneDrive 계정을 검색할 때 eDiscovery 관리자는 기관이 같은 지역 또는 지리적 위치에 있는 경우 다른 준수 경계에서 콘텐츠를 검색할 수 있습니다. **참고:** SharePoint 및 OneDrive에서 콘텐츠를 검색하는 것은 지리적 위치로 제한되지 않는 고급 eDiscovery에는 이러한 제한이 적용되지 않습니다.
+예, 두 기관을 모두 볼 수 있는 역할 그룹에 eDiscovery 관리자를 Exchange 사서함을 검색할 때 이 기능을 사용할 수 있습니다. 그러나 SharePoint 및 OneDrive 계정을 검색할 때 eDiscovery 관리자는 기관이 같은 지역 또는 지리적 위치에 있는 경우만 서로 다른 준수 경계에서 콘텐츠를 검색할 수 있습니다. **참고:** 사이트와 사이트 Advanced eDiscovery 검색할 때 지리적 위치가 SharePoint OneDrive 제한이 적용되지 않습니다.
   
-**검색 권한 필터가 eDiscovery 사례 보류, Microsoft 365 보존 정책 또는 DLP에 대해 작동합니까?**
+**검색 권한 필터는 eDiscovery 사례 보류, Microsoft 365 또는 DLP에 대해 작동합니까?**
   
 아니요, 현재는 아니요.
   
-**콘텐츠를 내보낼 위치를 제어하는 지역을 지정하지만 해당 지역에 SharePoint 조직이 없는 경우 SharePoint를 검색할 수 있나요?**
+**콘텐츠를 내보낼 위치를 제어하는 지역을 지정하지만 해당 지역에 SharePoint 조직이 없는 경우 해당 지역을 검색할 SharePoint?**
   
 검색 권한 필터에 지정된 영역이 조직에 없는 경우 기본 지역이 검색됩니다.
   
 **조직에서 만들 수 있는 검색 권한 필터의 최대 개수는 무엇입니까?**
   
-조직에서 만들 수 있는 검색 권한 필터의 수에는 제한이 없습니다. 그러나 검색 권한 필터가 100개가 넘는 경우 검색 성능에 영향을 미치게 됩니다. 조직의 검색 권한 필터 수를 최대한 적게 유지하려면 Exchange, SharePoint 및 OneDrive에 대한 규칙을 가능한 한 검색 권한 필터로 결합하는 필터를 만듭니다.
+조직에서 만들 수 있는 검색 권한 필터의 수에는 제한이 없습니다. 그러나 검색 권한 필터가 100개가 넘는 경우 검색 성능에 영향을 미치게 됩니다. 조직의 검색 권한 필터 수를 최대한 적게 유지하려면 가능한 한 단일 검색 권한 필터에 Exchange, SharePoint 및 OneDrive 필터에 대한 규칙을 결합하는 필터를 만듭니다.

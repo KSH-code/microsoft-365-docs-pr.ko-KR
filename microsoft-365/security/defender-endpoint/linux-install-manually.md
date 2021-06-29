@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8d7ac39baabca1496a5d2c22521874cfd60c6208
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: 2b75a9f4446c875e73245aa7d51e8fcc15e8d23c
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105575"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53195024"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -92,7 +92,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
     ```
 
-    또는 선택한 디바이스에서 새로운 기능을 탐색하려는 경우 Linux용 MDE를 내부자 빠른 채널에 *배포할 수* 있습니다.
+    또는 선택한 디바이스에서 새로운 기능을 탐색하려는 경우 Linux의 끝점용 Microsoft Defender를 내부자 빠른 채널에 *배포할 수* 있습니다.
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/insiders-fast.repo
@@ -120,7 +120,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     sudo zypper addrepo -c -f -n microsoft-[channel] https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    예를 들어 SLES 12를 실행 중일 때 프로비전 채널에서 Linux용 MDE를 배포할 *경우* 다음을 실행합니다.
+    예를 들어 SLES 12를 실행 중일 때 프로비전 채널에서 Linux에 끝점용 Microsoft Defender를 배포할 *경우* 다음을 실행합니다.
 
     ```bash
     sudo zypper addrepo -c -f -n microsoft-prod https://packages.microsoft.com/config/sles/12/prod.repo
@@ -400,13 +400,13 @@ Options:
 
 ## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>프로덕션 채널에서 Insiders-Fast 마이그레이션하는 방법
 
-1. Linux용 MDE의 "Insiders-Fast 채널" 버전을 제거합니다.
+1. Linux에서 끝점용 Defender의 "Insiders-Fast 채널" 버전을 제거합니다.
 
     ``
     sudo yum remove mdatp
     ``
 
-1. Linux용 MDE 사용 안 Insiders-Fast 리포지타이  ``
+1. Linux 2016 리포지터에서 끝점에 대한 Defender Insiders-Fast 비활성화  ``
     sudo yum repolist
     ``
 

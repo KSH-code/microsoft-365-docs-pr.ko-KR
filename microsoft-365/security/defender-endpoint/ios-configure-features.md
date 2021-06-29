@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d32d40ac8ce086caedd53e0a69aac2a3025dc702
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 07905cc3f1b3bd4445199d7bddcdf3b45500bd5f
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842257"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194952"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
@@ -65,6 +65,26 @@ iOS에서 끝점용 Defender를 통해 조건부 액세스를 설정하는 방�
 
 Apple iOS는 동시에 활성화하기 위해 여러 장치 전체의 VPN을 지원하지 않습니다. 디바이스에 여러 VPN 프로필이 존재할 수 있는 반면 한 번의 VPN만 활성화할 수 있습니다.
 
+## <a name="configure-microsoft-defender-for-endpoint-risk-signal-in-app-protection-policy-mam"></a>MAM(앱 보호 정책)에서 끝점 위험 신호에 대한 Microsoft Defender 구성
+
+iOS/iPadOS의 APP(App Protection Policies, MAM)에서 사용할 위협 신호를 보내도록 끝점용 Microsoft Defender를 구성할 수 있습니다. 이 기능을 사용하면 끝점용 Microsoft Defender를 사용하여 수집되지 않은 장치에서 회사 데이터에 대한 액세스를 보호할 수 있습니다.
+
+끝점용 Microsoft Defender를 통해 앱 보호 정책을 설정하는 단계는 아래와 같습니다.
+
+1. 테넌트에서 끝점용 Microsoft Defender로의 Microsoft Endpoint Manager 연결을 설정합니다. [Microsoft 끝점](https://go.microsoft.com/fwlink/?linkid=2109431)관리자 관리 센터에서 테넌트 관리 커넥터 및 끝점용 Microsoft Defender(플랫폼 간) 또는 끝점용 Microsoft Defender 보안   >    >  Microsoft **Defender(설치** 아래)로 이동한 다음  >   **iOS용** 앱 보호 정책 설정 에서 토글을 켜야 합니다.
+1. 저장을 선택합니다. 이제 **연결** 상태가 사용으로 설정되어 **있습니다.**
+1. 앱 보호 정책 만들기: 끝점 커넥터에 대한 Microsoft Defender 설정이 완료되면 앱 앱 보호 정책(정책 아래)으로 이동하여 새 정책을 만들거나 기존 정책을   >   업데이트합니다.
+1. 조직에서 정책에 필요한 플랫폼, **앱, 데이터** 보호, 액세스 요구 사항 설정을 선택합니다.
+1. 조건부 **시작**  >  **장치 조건에서** 허용되는 장치 위협 수준 **최대 설정을 찾을 수 있습니다.** 낮음, 중간, 높음 또는 보안으로 구성해야 합니다. 사용할 수 있는 작업은  액세스 차단 또는 데이터 **지우기 입니다.** 이 설정이 적용하기 전에 커넥터를 설정해야 하는 정보 대화 상자가 표시될 수 있습니다. 커넥터가 이미 설정되어 있는 경우 이 대화 상자를 무시할 수 있습니다.
+1. 할당을 완료하고 정책을 저장합니다.
+
+MAM 또는 앱 보호 정책에 대한 자세한 내용은 iOS 앱 보호 정책 설정을 [참조하세요.](https://docs.microsoft.com/mem/intune/apps/app-protection-policy-settings-ios)
+
+### <a name="deploying-microsoft-defender-for-endpoint-for-mam-or-on-unenrolled-devices"></a>MAM용 끝점 또는 미가용 장치에 Microsoft Defender 배포
+
+iOS의 끝점용 Microsoft Defender는 앱 보호 정책 시나리오를 사용할 수 있도록 지원하며 Apple 앱 스토어에서 사용할 수 있습니다.
+
+최종 사용자는 Apple 앱 스토어에서 직접 최신 버전의 앱을 설치해야 합니다.
 
 ## <a name="configure-compliance-policy-against-jailbroken-devices"></a>무단으로 보호된 장치에 대한 규정 준수 정책 구성
 
@@ -86,12 +106,12 @@ Apple iOS는 동시에 활성화하기 위해 여러 장치 전체의 VPN을 지
     > [!div class="mx-imgBorder"]
     > ![정책 설정](images/ios-jb-settings.png)
 
-4. 준수하지 *않는* 작업에 대한 작업 섹션에서 요구 사항에 따라 작업을 선택하고 다음 을 **선택합니다.**
+4. 준수하지 **않는** 작업에 대한 작업 섹션에서 요구 사항에 따라 작업을 선택하고 다음 을 **선택합니다.**
 
     > [!div class="mx-imgBorder"]
     > ![정책 작업](images/ios-jb-actions.png)
 
-5. 할당 *섹션에서* 이 정책에 포함할 사용자 그룹을 선택하고 다음 을 **선택합니다.**
+5. 할당 **섹션에서** 이 정책에 포함할 사용자 그룹을 선택하고 다음 을 **선택합니다.**
 6. **검토+만들기 섹션에서** 입력한 정보가 모두 올바른지 확인한 다음 만들기를 **선택합니다.**
 
 ## <a name="configure-custom-indicators"></a>사용자 지정 표시기 구성

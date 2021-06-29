@@ -13,12 +13,12 @@ localization_priority: Normal
 description: Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e892ebe04887527cf57e4ea44f67c4aaa775b228
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1113d04cabdabe2925242cb18dde78daf9ef6e2c
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683298"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194808"
 ---
 # <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 단계별 위협 방지
 
@@ -51,7 +51,7 @@ Edge 블록은 자동으로 디자인됩니다. 가짓 긍정의 경우 보낸 �
 
 보낸 사람 인텔리전스 기능은 스팸, 대량, 가장 및 허가되지 않은 스푸핑 메시지를 탐지하는 데 중요하며 피싱 검색에도 영향을 미치게 됩니다. 이러한 기능은 대부분 개별적으로 구성할 수 있습니다.
 
-:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase2.png" alt-text="MDO의 필터링 2단계는 보낸 사람 인텔리전스입니다.":::
+:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase2.png" alt-text="Defender for Office 365 2단계는 보낸 사람 인텔리전스입니다.":::
 
 1. **계정 손상 감지** 트리거 및 경고는 계정이 손상과 일관된 변호 동작이 있는 경우 발생됩니다. 경우에 따라 사용자 계정이 차단된 후 조직의 보안 운영 팀에서 문제를 해결할 때까지 추가 전자 메일 메시지를 보낼 수 없습니다.
 
@@ -99,7 +99,7 @@ Edge 블록은 자동으로 디자인됩니다. 가짓 긍정의 경우 보낸 �
 
 8. **콘텐츠 추론은** 기계 학습 모델을 사용하여 메시지 본문 내의 구조 및 단어 빈도에 따라 의심스러운 메시지를 검색할 수 있습니다.
 
-9. **안전한 첨부 파일** 샌드박스는 동적 분석을 사용하여 전에 볼 수 없는 위협을 감지하여 Office 365 고객을 위해 Defender의 모든 첨부 파일을 샌드박스합니다.
+9. **금고 첨부** 파일 샌드박스를 사용하여 Office 365 고객을 위해 Defender의 모든 첨부 파일을 샌드박스하고 동적 분석을 사용하여 전에 볼 수 없는 위협을 감지합니다.
 
 10. **연결된 콘텐츠** 검색에서는 전자 메일의 파일에 대한 모든 URL을 첨부 파일로 취급하고 배달 시 파일을 비동기적으로 샌드박스로 처리합니다.
 
@@ -111,7 +111,7 @@ Edge 블록은 자동으로 디자인됩니다. 가짓 긍정의 경우 보낸 �
 
 :::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase4.png" alt-text="Defender for Office 365 4단계는 배달 후 보호입니다.":::
 
-1. **안전한 링크는** 클릭 Office 365 보호를 위한 Defender입니다. 모든 메시지의 모든 URL은 Microsoft 안전 링크 서버를 지점으로 래핑됩니다. URL을 클릭하면 사용자가 대상 사이트로 리디렉션되기 전에 최신 신뢰도에 대해 확인됩니다. URL은 비동기적으로 샌드박스가 적용되어 신뢰도를 업데이트합니다.
+1. **금고 링크는** 클릭 Office 365 보호를 위한 Defender입니다. 모든 메시지의 모든 URL은 Microsoft 금고 래핑됩니다. URL을 클릭하면 사용자가 대상 사이트로 리디렉션되기 전에 최신 신뢰도에 대해 확인됩니다. URL은 비동기적으로 샌드박스가 적용되어 신뢰도를 업데이트합니다.
 
 2. **피싱** 소급에 대한 ZAP(제로 아워 자동 제거)는 이미 모든 사서함으로 배달된 악성 피싱 메시지를 Exchange Online 중화합니다.
 
@@ -123,9 +123,9 @@ Edge 블록은 자동으로 디자인됩니다. 가짓 긍정의 경우 보낸 �
 
 6. **보고서 메시지** 추가 기능을 사용하면 추가 분석을 위해 가음성(양호한 전자 메일, 잘못 표시된 양호한 전자 *메일)* 또는 거짓 부정(양호한 것으로 표시된 잘못된 전자 메일)을 Microsoft에 쉽게 보고할 수 있습니다. 
 
-7. **Office** 클라이언트에 대한 안전한 링크는 기본적으로 Word, Office 및 클라이언트와 같은 Office 안전한 링크 PowerPoint 제공합니다Excel.
+7. **금고** 클라이언트에 대한 Office 링크는 기본적으로 Word, PowerPoint 및 클라이언트와 같은 Office 클라이언트 내에서 동일한 금고 링크의 클릭 시간 보호를 Excel.
 
-8. **OneDrive,** SharePoint 및 Teams 보호는 기본적으로 OneDrive, SharePoint 및 파일 내부에서 악성 파일에 대해 동일한 안전 첨부 파일 보호를 Microsoft Teams.
+8. **OneDrive,** SharePoint 및 Teams 보호는 OneDrive, SharePoint 및 SharePoint 내부에서 기본적으로 악성 파일에 대해 동일한 금고 첨부 파일 보호를 Microsoft Teams.
 
 9. 배달 후 파일을 지점하는 URL을 선택하면  링크된 콘텐츠 검색에서 파일의 샌드박스가 완료되어 URL이 안전한 것으로 확인될 때까지 경고 페이지를 표시됩니다.
 
@@ -133,7 +133,7 @@ Edge 블록은 자동으로 디자인됩니다. 가짓 긍정의 경우 보낸 �
 
 최종 다이어그램(다이어그램을 구성하는 모든 부분과)은 제품이 커지고 개발함에 따라 변경될 *수 있습니다.* 업데이트 후 요청해야  하는 경우 이 페이지를 책갈피로 설정하고 아래쪽에 있는 피드백 옵션을 사용합니다. 레코드의 경우 모든 단계가 순서대로 스택입니다.
 
-:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase5.png" alt-text="MDO의 모든 필터링 단계는 1에서 4까지 순서대로 진행됩니다.":::
+:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase5.png" alt-text="1에서 4까지의 순서로 Office 365 Defender의 모든 필터링 단계":::
 
 ## <a name="more-information"></a>추가 정보
 

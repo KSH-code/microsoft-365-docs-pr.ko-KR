@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에는 Microsoft에서 테넌트와 같은 클라우드 서비스에서 테넌트 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c5be65186b75f6056a64b776e4f0d25bcd55eb1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b52d936bb00ac0adef0baf428cbc5f9a8f8aba49
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923079"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194652"
 ---
 # <a name="tenant-isolation-in-microsoft-365"></a>테넌트의 테넌트 Microsoft 365
 
@@ -39,7 +39,7 @@ Microsoft 클라우드 서비스는 [신뢰할](https://www.microsoft.com/trust-
 - Microsoft 365 서비스에 대한 각 테넌트 내에서 고객 콘텐츠를 논리적으로 Azure Active Directory 권한 부여 및 역할 기반 액세스 제어를 통해 달성됩니다.
 - SharePoint Online은 저장소 수준에서 데이터 고리 메커니즘을 제공합니다.
 - Microsoft는 엄격한 물리적 보안, 백그라운드 심사 및 다계층 암호화 전략을 사용하여 고객 콘텐츠의 기밀성 및 무결성을 보호합니다. 모든 Microsoft 365 데이터 센터에는 생체 인식 액세스 제어가 있습니다. 물리적 액세스를 얻기 위해 대부분 팜 인쇄가 요구됩니다. 또한 모든 미국 기반 Microsoft 직원은 채용 프로세스의 일부로 표준 배경 검사를 성공적으로 완료해야 합니다. 관리 액세스에 사용되는 컨트롤에 대한 자세한 내용은 Microsoft 365 관리 액세스 [Microsoft 365 참조하세요.](/compliance/assurance/assurance-administrative-access-controls-overview)
-- Microsoft 365, 파일당 암호화, TLS(전송 계층 보안) 및 IPsec(인터넷 프로토콜 보안BitLocker 등 미사용 고객 콘텐츠를 암호화하는 서비스 쪽 기술을 사용합니다. 암호화에 대한 자세한 내용은 Microsoft 365 데이터 암호화 [기술을 Microsoft 365.](../compliance/office-365-encryption-in-the-microsoft-cloud-overview.md)
+- Microsoft 365 BitLocker, 파일당 암호화, TLS(전송 계층 보안) 및 IPsec(인터넷 프로토콜 보안)을 포함하여 미사용 고객 콘텐츠를 암호화하는 서비스 쪽 기술을 사용합니다. 암호화에 대한 자세한 내용은 Microsoft 365 데이터 암호화 [기술을 Microsoft 365.](../compliance/office-365-encryption-in-the-microsoft-cloud-overview.md)
 
 위에 나열된 보호는 물리적으로만 제공된 위협 방지 및 완화 기능을 제공하는 강력한 논리적 차단 컨트롤을 제공합니다.
 
@@ -48,7 +48,6 @@ Microsoft 클라우드 서비스는 [신뢰할](https://www.microsoft.com/trust-
 - [Azure Active Directory에서 격리 및 액세스 제어](microsoft-365-isolation-in-azure-active-directory.md)
 - [Office Graph 및 Delve에서 테넌트 격리](microsoft-365-isolation-in-graph-and-delve.md)
 - [Microsoft 365 검색에서 테넌트 격리](microsoft-365-isolation-in-microsoft-365-search.md)
-- [Office 365 비디오에서 테넌트 격리](microsoft-365-isolation-in-microsoft-365-video.md)
 - [리소스 제한 사항](/compliance/assurance/assurance-resource-limits)
 - [테넌트 경계 모니터링 및 테스트](/compliance/assurance/assurance-monitoring-and-testing)
 - [Microsoft 365에서 격리 및 액세스 제어](microsoft-365-isolation-in-microsoft-365.md)

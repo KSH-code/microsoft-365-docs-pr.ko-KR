@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365
-ms.openlocfilehash: ba01fa45ca9a4e2e5b3597378bf7ddafc8be3f56
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 50060e36a0dd6d82ccbdf6d2bb8a00b2bf5e9d6d
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768749"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53195012"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Microsoft Defender for Office 365 평가판
 
@@ -45,11 +45,11 @@ Defender for Office 365 평가판은 90일 동안 사용할 수 있으며 모든
 
 ## <a name="set-up-a-defender-for-office-365-trial"></a>평가판용 Defender Office 365 설정
 
-평가판을 통해 조직은 평가판 기능을 위해 Defender를 Office 365 수 있습니다. 설치하는 동안 미리 설정한 보안 정책의 표준 템플릿을 [](safe-attachments.md)사용하여 Office 365(특히 안전한 [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)첨부 파일, 안전한 링크 및 스팸 방지 정책의 가장 보호)에 대한 Defender 전용 정책이 [적용됩니다.](preset-security-policies.md) [](safe-links.md)
+평가판을 통해 조직은 평가판 기능을 위해 Defender를 Office 365 수 있습니다. 설치하는 동안 Office 365(특히 금고 첨부 파일, 금고 링크 및 스팸 방지 [](safe-links.md)정책의 가장 보호)에 대한 Defender 전용 정책은 미리 설정한 [](preset-security-policies.md)보안 정책의 표준 템플릿을 사용하여 [적용됩니다.](safe-attachments.md) [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
 기본적으로 이러한 정책의 범위는 조직의 모든 사용자로 지정되지만 관리자는 설치 중에 또는 이후에 정책을 사용자 지정하여 특정 사용자에게만 적용할 수 있습니다.
 
-설치하는 동안 MDO P2 또는 이에 상응하는 MDO 응답 기능도 전체 조직에 대해 설정됩니다. 정책의 스위핑은 필요하지 않습니다.
+설치하는 동안 Office 365 응답 기능에 대한 Defender(Office 365 P2 또는 동등한 기능에 대한 Defender)도 전체 조직에 대해 설정됩니다. 정책의 스위핑은 필요하지 않습니다.
 
 ## <a name="licensing"></a>라이선싱
 
@@ -98,7 +98,7 @@ Office 365 평가판의 Defender는 특정 기준(지리 포함)을 충족하고
 - [위협 탐색기 및 실시간 검색](threat-explorer.md)
 - [Defender for Office 365](view-reports-for-mdo.md)
 - [위협 추적기 - 신규 및 주목할 만한 요소](threat-trackers.md)
-- Microsoft 365 [Defender와의 통합](../defender/microsoft-365-defender.md)
+- 통합 [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 ### <a name="response-and-remediation"></a>대응 및 수정
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2f9d56b7e72befb8acddf6d9f810a7ba5cec1083
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: b82b6993ce9ed5a3f0f3e6e13e8a260a185c9730
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694368"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194976"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender에서 문제를 해결하고 FAQ에 대한 답변 찾기
 
@@ -58,7 +58,7 @@ ms.locfileid: "52694368"
 > [!NOTE]
 > VPN을 사용하지 않도록 설정하면 웹 보호를 사용할 수 없습니다. 웹 보호를 다시 사용하도록 설정하려면 장치에서 끝점용 Microsoft Defender 앱을 열고 VPN 시작 을 클릭하거나 **탭합니다.**
 
-## <a name="issues-with-multiple-vpn-profiles"></a>여러 VPN 프로필 관련 문제
+## <a name="co-existence-with-multiple-vpn-profiles"></a>여러 VPN 프로필과 함께 사용
 
 Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 지원하지 않습니다. 디바이스에 여러 VPN 프로필이 존재할 수 있는 반면 한 번의 VPN만 활성화할 수 있습니다.
 
@@ -74,7 +74,11 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 
 ## <a name="data-usage"></a>데이터 사용 현황
 
-끝점용 Microsoft Defender는 로컬/루프백 VPN을 사용하여 악성 웹 사이트 또는 연결에 대한 웹 트래픽을 확인합니다. 이러한 이유로 끝점 데이터 사용에 대한 Microsoft Defender가 부정확하게 고려될 수 있습니다. Microsoft Defender for Endpoint의 실제 데이터 사용량은 장치의 데이터 사용 현황 설정 더 작고 중요하지 않습니다.
+끝점용 Microsoft Defender는 로컬/루프백 VPN을 사용하여 악성 웹 사이트 또는 연결에 대한 웹 트래픽을 확인합니다. 이러한 이유로 끝점 데이터 사용에 대한 Microsoft Defender가 부정확하게 고려될 수 있습니다. 또한 디바이스가 셀룰러 네트워크에만 있는 경우 서비스 공급자가 보고하는 데이터 사용량은 실제 사용에 매우 근접한 반면 설정 앱에서 Apple은 소비된 실제 데이터의 약 1.5~2배를 보여 줍니다.
+
+다른 VPN 서비스와도 비슷한 관찰을 하여 Apple에 보고했습니다.
+
+또한 더 나은 보호를 제공하기 위해 백 엔드 서비스를 통해 끝점에 대한 Microsoft Defender를 최신으로 설정하는 것이 중요합니다. 그러나 Microsoft Defender for Endpoint의 데이터 사용을 최적화하기 위해 작업 중입니다.
 
 ## <a name="report-unsafe-site"></a>안전하지 않은 사이트 보고
 

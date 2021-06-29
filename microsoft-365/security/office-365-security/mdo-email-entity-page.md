@@ -1,5 +1,5 @@
 ---
-title: MDO(Microsoft Defender for Office 365) 전자 메일 엔터티 페이지
+title: Microsoft Defender for Office 365 전자 메일 엔터티 페이지
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Microsoft Defender for Office 365 E5 및 P1 및 P2 고객은 이제 전자 메일 엔터티 페이지가 있는 각 전자 메일을 360도로 볼 수 있습니다.
-ms.openlocfilehash: d2f5a5b20034ef22b8e3894885079609a9ad5874
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 5621476f8f8f7270d241d642354ab174a25b8b37
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083301"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194994"
 ---
 # <a name="the-email-entity-page"></a>전자 메일 엔터티 페이지
 
@@ -30,11 +30,11 @@ ms.locfileid: "53083301"
 - [전자 메일 엔터티 페이지 탭 사용](#use-email-entity-page-tabs)
 - [전자 메일 엔터티 페이지를 새로 만듭니다.](#new-to-the-email-entity-page)
 
-Microsoft Defender for Office 365(또는 MDO) E5 및 MDO P1 및 P2의 관리자는 전자 메일 엔터티 페이지를 사용하여 전자 메일을 360도로 볼 **수 있습니다.** 이 전자 메일로 이동 페이지는 위협 [탐색기 '전자](threat-explorer-views.md)메일 세부 정보' 플라이아웃에서 전달되는 정보를 향상하기 위해 만들어졌습니다.
+Office 365 E5 Microsoft Defender 및 Office P1 및 P2용 Defender의 관리자는 전자 메일 엔터티 페이지를 사용하여 360도 전자 메일을 볼 **수 있습니다.** 이 전자 메일로 이동 페이지는 위협 [탐색기 '전자](threat-explorer-views.md)메일 세부 정보' 플라이아웃에서 전달되는 정보를 향상하기 위해 만들어졌습니다.
 
 ## <a name="reach-the-email-entity-page"></a>전자 메일 엔터티 페이지로 이동
 
-전자 메일 엔터티 페이지는 전자 메일 Microsoft 365 공동 작업 탐색기에서 & <https://security.microsoft.com> **있습니다.** \>  또는 탐색기 페이지로 직접 **이동하려면** 를 <https://security.microsoft.com/threatexplorer> 사용합니다.
+전자 메일 엔터티 페이지는 Microsoft 365 Defender 포털( <https://security.microsoft.com> )의 전자 메일 & **탐색기에서 사용할 수** \> **있습니다.** 또는 탐색기 페이지로 직접 **이동하려면** 를 <https://security.microsoft.com/threatexplorer> 사용합니다.
 
 **탐색기에서** 조사할 전자 메일의 제목을 선택합니다. 해당 메일에 대한 전자 메일 플라이아웃의 맨 위에 골드 막대가 표시됩니다. 새 페이지에 대한 이 초대는 '강화된 데이터를 사용하여 새 전자 메일 엔터티 페이지 사용해 보시다...'를 읽습니다. 새 페이지를 표시하려면 선택합니다.
 

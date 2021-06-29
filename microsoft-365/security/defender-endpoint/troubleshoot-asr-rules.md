@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c043e97d6c02e4f41d000e9ce8cfea4a0950252a
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 65e3e8d1baef7ca4440824c9a262f0b5f696b657
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246147"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194748"
 ---
 # <a name="report-and-troubleshoot-microsoft-defender-for-atp-asr-rules"></a>ATP ASR 규칙에 대한 Microsoft Defender 보고 및 문제 해결
 
@@ -42,7 +42,7 @@ Microsoft 365 센터에서 현재 ASR 규칙 구성 및 자산의 이벤트를 �
 
 끝점용 Microsoft Defender의 가장 강력한 기능 중 하나는 고급 헌팅입니다. 고급 헌팅에 익숙하지 않은 경우 고급 헌팅을 통해 위협에 대한 사전 예방적 헌팅을 [참조합니다.](advanced-hunting-overview.md)
 
-고급 헌팅은 MDE 끝점 감지 및 응답(EDR)이 모든 컴퓨터로부터 수집하는 캡처된(원시) 데이터의 최대 30일을 탐색할 수 있는 쿼리 기반(Kusto 쿼리 언어) 위협 헌팅 도구입니다. 고급 헌팅을 통해 이벤트를 사전적으로 검사하여 흥미로운 지표와 엔터티를 찾을 수 있습니다. 데이터에 유연하게 액세스하면 알려진 위협과 잠재적 위협 모두에 대한 제약이 없는 헌팅에 도움이 됩니다.
+고급 헌팅은 끝점용 Defender가 장치에서 수집하는 캡처된(원시) 데이터의 최대 30일을 탐색할 수 있는 쿼리 기반(Kusto 쿼리 언어) 위협 헌팅 도구입니다. 고급 헌팅을 통해 이벤트를 사전적으로 검사하여 흥미로운 지표와 엔터티를 찾을 수 있습니다. 데이터에 유연하게 액세스하면 알려진 위협과 잠재적 위협 모두에 대한 제약이 없는 헌팅에 도움이 됩니다.
 
 고급 헌팅을 통해 ASR 규칙 정보를 추출하고, 보고서를 만들고, 특정 ASR 규칙 감사 또는 차단 이벤트의 컨텍스트에 대한 자세한 정보를 얻을 수 있습니다.
 
