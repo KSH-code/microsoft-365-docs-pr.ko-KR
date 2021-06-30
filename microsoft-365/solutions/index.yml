@@ -14,12 +14,12 @@ metadata:
   audience: ITPro
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: c71ba6628ed858311db3d58c144295ff617679dc
-  ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+  ms.openlocfilehash: 053a20e65859fedbd91c9357ccdbd98bdb5109b3
+  ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/06/2021
-  ms.locfileid: "52789210"
+  ms.lasthandoff: 06/29/2021
+  ms.locfileid: "53177396"
 landingContent:
 - title: 기초 솔루션 가이드
   linkLists:
@@ -33,6 +33,8 @@ landingContent:
       url: deploy-threat-protection.md
     - text: 데이터 개인 정보 규정을 위한 정보 보호 배포
       url: information-protection-deploy.md
+    - text: 소규모 기업 및 캠페인을 위한 Microsoft 365
+      url: ../campaigns/index.md
 - title: 아키텍처 일러스트레이션 및 설계 원리
   linkLists:
   - linkListType: architecture
@@ -41,46 +43,50 @@ landingContent:
       url: cloud-architecture-models.md
     - text: Microsoft 365 생산성 일러스트레이션
       url: productivity-illustrations.md
-    - text: Teams 아키텍처 포스터
-      url: /MicrosoftTeams/teams-architecture-solutions-posters?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: 디자인 원칙
       url: design-principles.md
-- title: 워크로드 리소스
+    - text: 사용자를 위한 인포그래픽
+      url: infographics-for-users.md
+    - text: 건축 아이콘 및 템플릿
+      url: architecture-icons-templates.md
+- title: 관리 및 마이그레이션 솔루션 가이드
   linkLists:
-  - linkListType: reference
+  - linkListType: how-to-guide
     links:
-    - text: Contoso 사례 연구
-      url: contoso-case-study-solutions.md
-  - linkListType: tutorial
-    links:
-    - text: 테스트 랩 가이드
-      url: test-lab-guides-overview-solutions.md
+    - text: 테넌트 관리
+      url: tenant-management-overview.md
+    - text: 이전 직원 제거
+      url: ../admin/add-users/remove-former-employee.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: 파일 공유에서 Microsoft 365로 마이그레이션
+      url: /sharepointmigration/mm-get-started.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
 - title: 팀워크 및 공동 작업 솔루션 가이드
   linkLists:
   - linkListType: deploy
     links:
     - text: Teams 음성 솔루션 계획 및 배포
       url: deploy-voice.md
+    - text: 비즈니스에 대한 계약 관리
+      url: ../contentunderstanding/solution-manage-contracts-in-microsoft-365.md
   - linkListType: overview
     links:
+    - text: 지능형 인트라넷
+      url: /sharepoint/intelligent-internet-overview.md
     - text: 공동 작업 거버넌스
       url: collaboration-governance-overview.md
     - text: 파일 공동 작업
       url: /sharepoint/deploy-file-collaboration?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-    - text: 지능형 인트라넷
-      url: /sharepoint/intelligent-internet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: 엔터프라이즈용 OneDrive 가이드
       url: /onedrive/plan-onedrive-enterprise?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-- title: 보안 및 규정 준수 솔루션 가이드
+- title: 규정 준수 솔루션 가이드
   linkLists:
   - linkListType: deploy
     links:
-    - text: 보안팀의 재택 근무 지원용 최상위 작업
-      url: ../security/top-security-tasks-for-remote-work.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-    - text: 비즈니스 의사 결정자(BDM)를 위한 Microsoft 365 보안
-      url: ../security/microsoft-365-security-for-bdm.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-    - text: 엔드포인트용 Microsoft Defender 배포
-      url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: 내부 위험 솔루션
+      url: ../compliance/insider-risk-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: 감사 솔루션
+      url: ../compliance/auditing-solutions-overview.md
+    - text: Microsoft 365 Advanced eDiscovery
+      url: ../compliance/overview-ediscovery-20.md
   - linkListType: reference
     links:
     - text: ISO - 권장 실행 계획
@@ -91,6 +97,44 @@ landingContent:
       url: /compliance/regulatory/ccpa-faq?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: GDPR — 권장 실행 계획
       url: /compliance/regulatory/gdpr?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+- title: 보안 솔루션 가이드
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: 보안팀의 재택 근무 지원용 최상위 작업
+      url: ../security/top-security-tasks-for-remote-work.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: 비즈니스 의사 결정자(BDM)를 위한 Microsoft 365 보안
+      url: ../security/microsoft-365-security-for-bdm.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: ID 및 장치 액세스 구성
+      url: ../security/office-365-security/microsoft-365-policies-configurations.md
+    - text: 엔드포인트용 Microsoft Defender 배포
+      url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases.md
+    - text: Microsoft 365 Defender 평가
+      url: ../security/defender-endpoint/deployment-phases.md
+    - text: 우선 순위 계정에 대한 보안 권장 사항
+      url: ../security/office-365-security/security-recommendations-for-priority-accounts.md
+    - text: Microsoft 365 Defender 평가
+      url: ../security/defender-endpoint/deployment-phases.md
+    - text: 엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
+      url: ../security/defender-endpoint/defender-endpoint-false-positives-negatives.md
+  - linkListType: how-to-guide
+    links:
+    - text: Symantec에서 엔드포인트용 Microsoft Defender로 마이그레이션
+      url: ../security/defender-endpoint/symantec-to-microsoft-defender-endpoint-migration.md
+    - text: McAfee에서 엔드포인트용 Microsoft Defender로 마이그레이션
+      url: ../security/defender-endpoint/mcafee-to-microsoft-defender-migration.md
+    - text: 타사 엔드포인트 보호에서 엔드포인트용 Microsoft Defender로 전환
+      url: ../security/defender-endpoint/switch-to-microsoft-defender-migration.md
+- title: 워크로드 리소스
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Contoso 사례 연구
+      url: contoso-case-study-solutions.md
+  - linkListType: tutorial
+    links:
+    - text: 테스트 랩 가이드
+      url: test-lab-guides-overview-solutions.md
 - title: 산업별 지침
   linkLists:
   - linkListType: overview
