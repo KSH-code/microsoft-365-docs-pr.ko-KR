@@ -21,18 +21,18 @@ search.appverid:
 - MET150
 description: 청구 알림 전자 메일 및 송장 첨부 파일을 받는 사람 관리 방법에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: f41d93835fed1715803052f1cf79b46f43a1d200
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: a49598cd1b361a85af8455b0aff19e11fcf96526
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054578"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203247"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>청구 알림 및 송장 첨부 파일 관리
 
 청구 **알림 페이지에서는** 조직의 청구 알림 전자 메일을 받는 사람도 관리할 수 있습니다. 이 페이지에서는 조직의 송장을 전자 메일 첨부 파일로 받는 [옵션도 제공합니다.](#receive-your-organizations-invoices-as-email-attachments)
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 이 문서에 설명된 단계를 수행하려면 전역 관리자 되어야 합니다. 대금 청구 관리자는 아래 섹션에 설명된 일부 변경을 할 수 있습니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
@@ -127,6 +127,6 @@ To stop receiving the invoice attachment at any time, follow the steps above and
 ## <a name="related-content"></a>관련 콘텐츠
 
 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)(문서)\
-[멕시코 비즈니스용 Microsoft 365 청구 정보](/microsoft-365/commerce/billing-and-payments/mexico-billing-info)(문서) \
+[멕시코 비즈니스용 Microsoft 365 청구 정보](mexico-billing-info.md)(문서) \
 [비즈니스용 Microsoft 365 청구서](understand-your-invoice2.md) 또는 송장 이해(문서)\
 [사용자 추가 및](../../admin/add-users/add-users.md) 동시에 라이선스 할당(문서)

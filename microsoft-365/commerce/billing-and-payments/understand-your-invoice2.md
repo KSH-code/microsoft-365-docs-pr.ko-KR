@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 비즈니스 청구서 또는 송장에 대한 Microsoft 365 청구서 및 결제 정보와 구매 주문 번호를 변경하는 방법을 해석합니다.
 ms.date: 05/04/2021
-ms.openlocfilehash: ba20e390e279d45d56671d49e32250d2db04c220
-ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
+ms.openlocfilehash: 07d8b9fe88849b693388adf4d98813073764676d
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52888376"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203151"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 청구서 또는 송장 이해
 
@@ -110,13 +110,13 @@ ms.locfileid: "52888376"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
@@ -129,7 +129,7 @@ ms.locfileid: "52888376"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [청구서 또는 송장을](view-your-bill-or-invoice.md) 찾아서 보는 방법(문서)\
-[멕시코의 비즈니스용 Microsoft 365 대금](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) 청구 정보(문서) \
+[멕시코 비즈니스용 Microsoft 365 청구 정보](mexico-billing-info.md)(문서) \
 [대금 청구 주소](change-your-billing-addresses.md) 변경(문서)\
 [조직의 주소, 기술](../../admin/manage/change-address-contact-and-more.md) 담당자 전자 메일 및 기타 정보 변경(문서)\
 [비즈니스용 Microsoft 365 요금](pay-for-your-subscription.md) 결제(문서)\

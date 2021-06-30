@@ -9,20 +9,18 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 61b84b3c7b6550a8ce426a3e41630a0d3e269c41
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f9d478412d2a1aac6f3e701aca59fcf74ceacce6
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921957"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203211"
 ---
 # <a name="enable-enterprise-state-roaming"></a>엔터프라이즈 상태 로밍 사용
 
-사용자 환경을 가장 Microsoft Managed Desktop 위해 Enterprise [](/azure/active-directory/devices/enterprise-state-roaming-overview)로밍을 사용하도록 설정하면 사용자가 사용자 및 응용 프로그램 설정 데이터를 클라우드에 안전하게 동기화할 수 있습니다. 즉, 로그인하는 디바이스에 상관없이 동일한 Windows 있습니다. 예를 들어 해당 Microsoft Managed Desktop 장치 중 하나를 새 장치로 바꾸면 마지막 장치와 정확히 동일하게 보이고 작동합니다.
+[Enterprise 상태 로밍을](/azure/active-directory/devices/enterprise-state-roaming-overview) 사용하면 사용자 및 응용 프로그램 설정 데이터를 클라우드와 안전하게 동기화할 수 있습니다. 즉, 로그인하는 디바이스에 상관없이 동일한 Windows 있습니다. 예를 들어 해당 Microsoft Managed Desktop 장치 중 하나를 새 장치로 바꾸면 마지막 장치와 정확히 동일하게 보이고 작동합니다. Enterprise 상태 로밍은 사용자에 대해 구성할 수 있는 Microsoft Managed Desktop 서비스에 대한 선택적 기능으로, Microsoft Managed Desktop.
 
-Enterprise 상태 로밍을 사용하도록 설정하려면 Enterprise 상태 로밍 사용의 단계를 Azure Active Directory [이](/azure/active-directory/devices/enterprise-state-roaming-enable)설명서로 돌아오십시오.
-
-상태 로밍에 문제가 Enterprise 관리자 지원에 [문의하세요.](../working-with-managed-desktop/admin-support.md)
+상태 Enterprise 사용하도록 설정하려면 에서 Enterprise 상태 로밍 사용의 단계를 [Azure Active Directory.](/azure/active-directory/devices/enterprise-state-roaming-enable)
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 

@@ -19,12 +19,12 @@ description: Microsoft 365 Defender 포털에서 탐색기 및 실시간 검색�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bb72c99ae0b80c4091e79801c5515190811324a7
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: ee9c4c63817d9c6860942eb8001b02a0535333b1
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/29/2021
-ms.locfileid: "53195036"
+ms.locfileid: "53203259"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -56,7 +56,8 @@ ms.locfileid: "53195036"
 
 ## <a name="improvements-to-threat-hunting-experience"></a>위협 헌팅 환경 개선
 
-### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections-preview"></a>탐색기/실시간 Office 365 내 경고에 대한 Defender에 대한 경고 ID 소개(미리 보기)
+
+### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections"></a>탐색기/실시간 Office 365 내 경고에 대한 Defender에 대한 경고 ID 소개
 
 현재 경고에서 위협 탐색기로 이동하면 탐색기 내에서 필터링된 보기가 열리며 경고 정책 ID로 필터링된 보기가 표시됩니다(경고 정책의 고유 식별자인 정책 ID).
 위협 탐색기 및 실시간 검색에 경고 ID(아래 경고 ID의 예 참조)를 도입하여 특정 경고 및 전자 메일 수와 관련된 메시지를 볼 수 있도록 이러한 통합을 더욱 관련성이 강화하고 있습니다. 또한 메시지가 경고의 일부이면 해당 메시지에서 특정 경고로 이동할 수 있습니다.
@@ -69,12 +70,12 @@ ms.locfileid: "53195036"
 > [!div class="mx-imgBorder"]
 > ![경고 ID 세부 정보 플라이아웃](../../media/AlertID-DetailsFlyout.png)
 
-### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>평가판 테넌트에 대한 탐색기(및 실시간 검색) 데이터 보존 및 검색 제한 확장(미리 보기)
+### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days"></a>평가판 테넌트에 대한 탐색기(및 실시간 검색) 데이터 보존 및 검색 제한을 7일에서 30일로 확장
 
 이러한 변경의 일부로, Office P1 및 P2 평가판 테넌트에 대한 위협 탐색기/실시간 검색에서 30일(이전 7일보다 증가)에 걸쳐 전자 메일 데이터를 검색하고 필터링할 수 있습니다.
 이는 이미 30일 데이터 보존 및 검색 기능이 있는 P1 및 P2/E5 고객의 프로덕션 테넌트에는 영향을 끼치지 않습니다.
 
-### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>위협 탐색기 레코드 내보내기 제한 업데이트(미리 보기)
+### <a name="updated-limits-for-export-of-records-for-threat-explorer"></a>위협 탐색기 레코드 내보내기 제한 업데이트
 
 이 업데이트의 일부로 위협 탐색기에서 내보낼 수 있는 전자 메일 레코드의 행 수가 9990개에서 200,000개 레코드로 늘어났습니다. 현재 내보낼 수 있는 열 집합은 동일하게 유지되지만 행 수는 현재 제한에서 증가합니다.
 
