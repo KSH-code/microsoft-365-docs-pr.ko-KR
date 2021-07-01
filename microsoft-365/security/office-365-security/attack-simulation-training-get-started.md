@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 계획 2 조직용 Microsoft Defender에서 시뮬레이션된 피싱 및 암호 Office 365 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad86f77399cfa2a3a780d3fed7e483e3c11bc08d
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 1fa10d0d29b76d1631dd349d255b6c386557b5b8
+ms.sourcegitcommit: 2266c2da090bc9a6dc1e01dea07f26901d20d57b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082903"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53222673"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>공격의 신나는 교육 사용 시작
 
@@ -52,7 +52,7 @@ ms.locfileid: "53082903"
 
 - 공격 시뮬레이션 교육을 위한 해당 PowerShell cmdlet은 없습니다.
 
-- 공격 시뮬레이션 및 교육 관련 데이터는 다른 고객 데이터와 함께 Microsoft 365 저장됩니다. 자세한 내용은 데이터 [Microsoft 365 참조하세요.](../../enterprise/o365-data-locations.md) 공격 시뮬레이션은 NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN 및 KOR 지역에서 사용할 수 있습니다.
+- 공격 시뮬레이션 및 교육 관련 데이터는 다른 고객 데이터와 함께 Microsoft 365 저장됩니다. 자세한 내용은 데이터 [Microsoft 365 참조하세요.](../../enterprise/o365-data-locations.md) 공격 시뮬레이션은 NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN, KOR, BRA, LAM 및 CHE 지역에서 사용할 수 있습니다.
 
 - 2021년 6월 15일 현재, 공격 시뮬레이션 교육은 GCC. 조직에서 정부용 G5 Office 365 GCC 또는 Microsoft Defender for Office 365(계획 2)를 사용하는 경우 Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육을 사용하여 이 문서에 설명된 바와 같이 조직에서 실제 공격 시나리오를 실행할 수 있습니다. 공격 시뮬레이션 교육은 High 또는 DoD 환경에서는 GCC 없습니다.
 
