@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0f9f5665345733abafc6e4f2e777958feb4e11b6
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8240b9f4c4402e0e372a5e242d8b200f26f28717
+ms.sourcegitcommit: 5d3086da935d4ddc8caf79ff19e3afda812fd061
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52298638"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53243974"
 ---
 # <a name="contact-support-for-india"></a>인도 지원에 문의
 
@@ -36,7 +36,3 @@ ms.locfileid: "52298638"
 ### <a name="technical-support"></a>기술 지원:
 
 영어: 연중무휴 24시간
-
-대체 전화 번호: 1800 200 2052
-
-현지 무료
