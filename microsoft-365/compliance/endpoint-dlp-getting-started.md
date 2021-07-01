@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 134c5426e428372670a50c76301a9e9e0c10b343
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 8dc57bfe395ad76e6b8aef336aaadb2cb7e42f81
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061665"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226674"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
@@ -44,7 +44,6 @@ Endpoint DLP를 시작하기 전에 [Microsoft 365 구독](https://www.microsoft
 - Microsoft 365 A5 compliance
 - Microsoft 365 E5 Information Protection 및 거버넌스
 - Microsoft 365 A5 Information Protection 및 거버넌스
-
 
 ### <a name="permissions"></a>권한
 
@@ -84,25 +83,26 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 1. Windows 10 x64 빌드 1809 이상을 실행해야 합니다.
 
-2. 맬웨어 방지 클라이언트 버전이 4.18.2009.7 이상입니다. Windows 보안 앱을 열고, 설정 아이콘을 선택한 다음 정보를 선택하여 현재 버전을 확인합니다. 버전 번호는 맬웨어 방지 클라이언트 버전 아래에 나열됩니다. Windows 업데이트 KB4052623을 설치하여 최신 맬웨어 방지 클라이언트 버전으로 업데이트합니다. 
+2. 맬웨어 방지 클라이언트 버전이 4.18.2009.7 이상입니다. Windows 보안 앱을 열고, 설정 아이콘을 선택한 다음 정보를 선택하여 현재 버전을 확인합니다. 버전 번호는 맬웨어 방지 클라이언트 버전 아래에 나열됩니다. Windows 업데이트 KB4052623을 설치하여 최신 맬웨어 방지 클라이언트 버전으로 업데이트합니다.
 
    > [!NOTE]
    > Windows 보안 구성 요소가 활성화되지 않아도 Windows 보안 상태와 독립적으로 끝점 DLP를 실행할 수 있습니다. 그러나 [실시간 보호 및 동작 모니터](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)는 활성화되어야 합니다.
- 
-3. 다음 Windows 업데이트가 설치되어 있습니다. 
- 
+
+3. 다음 Windows 업데이트가 설치되어 있습니다.
+
    > [!NOTE]
    > 참고: 이 업데이트는 장치를 끝점 DLP로 온보딩하기 위한 필수 요건은 아니지만, 중요한 문제에 대한 수정을 포함하므로 제품을 사용하기 전에 설치해야 합니다.
 
-    - Windows 10 1809의 경우 - KB4559003, KB4577069, KB4580390
-    - Windows 10 1903 혹은 1909의 경우 - KB4559004, KB4577062, KB4580386
-    - Windows 10 2004의 경우 - KB4568831, KB4577063
-    - Office 2016(다른 Office 버전이 아님)을 실행하는 장치의 경우 - KB4577063 
+   - Windows 10 1809의 경우 - KB4559003, KB4577069, KB4580390
+   - Windows 10 1903 혹은 1909의 경우 - KB4559004, KB4577062, KB4580386
+   - Windows 10 2004의 경우 - KB4568831, KB4577063
+   - Office 2016(다른 Office 버전이 아님)을 실행하는 장치의 경우 - KB4577063
 
 4. 모든 장치는 다음 중 하나에 해당해야 합니다.
-- [Azure AD(Azure Active Directory) 조인됨](/azure/active-directory/devices/concept-azure-ad-join)
-- [하이브리드 Azure AD 조인됨](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
-- [AAD 등록됨](/azure/active-directory/user-help/user-help-register-device-on-network)
+
+   - [Azure AD(Azure Active Directory) 조인됨](/azure/active-directory/devices/concept-azure-ad-join)
+   - [하이브리드 Azure AD 조인됨](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
+   - [AAD 등록됨](/azure/active-directory/user-help/user-help-register-device-on-network)
 
 5. 엔드 포인트 장치에 Microsoft Chromium Edge 브라우저를 설치하여 클라우드로 업로드 활동에 대한 정책 작업을 적용하세요. [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)를 참조하세요.
 
@@ -124,7 +124,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 1. [Microsoft 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
 
-2. 규정 준수 센터 설정 페이지를 열고 **장치 온보딩** 을 선택합니다. 
+2. 규정 준수 센터 설정 페이지를 열고 **장치 온보딩** 을 선택합니다.
 
    > [!div class="mx-imgBorder"]
    > ![장치 관리를 사용하도록 설정](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
@@ -140,7 +140,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
    > [!div class="mx-imgBorder"]
    > ![배포 방법](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-   
+
 6. [Windows 10 컴퓨터용 온보딩 도구와 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
 
     - 그룹 정책을 사용하여 Windows 10 컴퓨터 온보딩하기
@@ -166,13 +166,12 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
    > [!div class="mx-imgBorder"]
    > ![장치 관리](../media/endpoint-dlp-getting-started-2-device-management.png)
-   
+
 4. 추가 디바이스를 온보딩해야 하는 경우에는 **온보딩** 을 선택합니다.
 
 5. **배포 방법** 목록에서 이러한 추가 장치에 배포할 방법을 선택한 다음 **패키지를 다운로드합니다**.
 
 6. [Windows 10 컴퓨터용 온보딩 도구와 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
-
     - 그룹 정책을 사용하여 Windows 10 컴퓨터 온보딩하기
     - Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩하기
     - 모바일 장치 관리 도구를 사용하여 Windows 10 컴퓨터 온보딩하기
@@ -190,7 +189,6 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 2. 끝점 DLP 정책에 대한 경고를 보려면 [DLP 정책에 대한 경고를 구성하고 보는 방법](dlp-configure-view-alerts-policies.md)에서 절차를 참조하세요.
 
-
 ### <a name="viewing-endpoint-dlp-data-in-activity-explorer"></a>활동 탐색기에서 Endpoint DLP 데이터 보기
 
 1. Microsoft 365 규정 준수 센터에서 도메인에 대한 [데이터 분류 페이지](https://compliance.microsoft.com/dataclassification?viewid=overview)를 열고 활동 탐색기를 선택합니다.
@@ -201,6 +199,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
    > ![엔드포인트 장치에 대한 활동 탐색기 필터](../media/endpoint-dlp-4-getting-started-activity-explorer.png)
 
 ## <a name="next-steps"></a>다음 단계
+
 이제 온보딩된 장치가 있고 활동 탐색기에서 활동 데이터를 볼 수 있으므로 중요한 항목을 보호하는 DLP 정책을 만드는 다음 단계를 진행할 준비가 되었습니다.
 
 - [엔드포인트 데이터 손실 방지 사용](endpoint-dlp-using.md)
@@ -208,7 +207,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 ## <a name="see-also"></a>참고 항목
 
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
-- [끝점 데이터 손실 방지 사용](endpoint-dlp-using.md)
+- [엔드포인트 데이터 손실 방지 사용](endpoint-dlp-using.md)
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)

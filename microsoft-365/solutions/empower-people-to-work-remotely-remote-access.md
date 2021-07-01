@@ -1,5 +1,5 @@
 ---
-title: 2단계. 온-프레미스 앱 및 서비스로의 원격 액세스 제공
+title: '2단계: 온-프레미스 앱 및 서비스에 대한 원격 액세스 제공'
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -16,17 +16,17 @@ ms.collection:
 - m365solution-remotework
 - m365solution-scenario
 ms.custom: ''
-description: Microsoft 365 클라우드 서비스로의 액세스를 최적화하는 동안 원격 작업자는 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
-ms.openlocfilehash: 9fea86bb9c564a37a519d2c7e0ef2e2fd0a59470
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+description: Microsoft 365 클라우드 서비스에 대한 액세스를 최적화하는 동안 원격 작업자가 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
+ms.openlocfilehash: bc446cf26ec99d3e9f81564b5474777c674603bc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029137"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229434"
 ---
-# <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계. 온-프레미스 앱 및 서비스로의 원격 액세스 제공
+# <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계: 온-프레미스 앱 및 서비스에 대한 원격 액세스 제공
 
-조직에서 원격 액세스 VPN 솔루션을 사용하는 경우(일반적으로 사용자 장치에는 네트워크의 가장자리에 VPN 서버와 VPN 클라이언트를 설치), 사용자는 온-프레미스 앱과 서버에 액세스하는 데 원격 액세스 VPN 연결을 사용할 수 있습니다. 하지만 Microsoft 365 클라우드 기반 서비스로의 트래픽을 최적화해야 할 수 있습니다.
+조직에서 원격 액세스 VPN 솔루션을 사용하는 경우(일반적으로 네트워크 에지의 VPN 서버와 사용자 디바이스에 설치된 VPN 클라이언트), 사용자는 온-프레미스 앱과 서버에 액세스하는 데 원격 액세스 VPN 연결을 사용할 수 있습니다. 하지만 Microsoft 365 클라우드 기반 서비스로의 트래픽을 최적화해야 할 수 있습니다.
 
 사용자가 VPN 솔루션을 사용하지 않는 경우에는 Azure AD(Azure Active Directory) 응용 프로그램 프록시 및 Azure 지점 및 사이트 간(P2S) VPN을 사용하여 모든 앱이 웹 기반 인지에 따라 액세스 권한을 제공할 수 있습니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "52029137"
 
 ![터널링이 없는 VPN 클라이언트의 네트워크 트래픽](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-before-tunneling.png)
 
-Microsoft 365 트래픽은 조직을 통해 간접 경로를 가져와야 하며 이는 그 후 VPN 클라이언트의 실제 위치에서 멀리 떨어져 있는 Microsoft 네트워크 진입점으로 전달될 수 있습니다. 이 간접 경로는 네트워크 트래픽에 대기 시간을 더하여 전반적인 성능을 저하시킵니다. 
+Microsoft 365 트래픽은 조직을 통해 간접 경로를 가져와야 하며 이는 그 후 VPN 클라이언트의 물리적 위치에서 멀리 떨어져 있는 Microsoft 네트워크 진입점으로 전달될 수 있습니다. 이 간접 경로는 네트워크 트래픽에 대기 시간을 더하여 전반적인 성능을 저하시킵니다.
 
 분할 터널링을 사용할 경우, 사용자는 특정 유형의 트래픽을 제외하여 VPN 연결을 통해 조직 네트워크에 보내지 않도록 VPN 클라이언트를 구성할 수 있습니다.
 
@@ -67,7 +67,7 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>모든 앱이 웹 앱이고 하이브리드 ID가 있는 경우 원격 액세스 배포
 
-원격 작업자가 기존 VPN 클라이언트를 사용하지 않고 온-프레미스 사용자 계정 및 그룹이 Azure AD와 동기화되어 있는 경우, Azure AD 응용 프로그램 프록시를 사용하여 온-프레미스 서버에 호스트되는 웹 기반 응용 프로그램에 대한 안전한 원격 액세스를 제공할 수 있습니다. 웹 기반 응용 프로그램에는 SharePoint 서버 사이트, Outlook Web Access 서버 또는 기타 웹 기반 기간 업무 비즈니스 응용 프로그램이 포함됩니다. 
+원격 작업자가 기존 VPN 클라이언트를 사용하지 않고 온-프레미스 사용자 계정 및 그룹이 Azure AD와 동기화되어 있는 경우, Azure AD 응용 프로그램 프록시를 사용하여 온-프레미스 서버에 호스트되는 웹 기반 응용 프로그램에 대한 안전한 원격 액세스를 제공할 수 있습니다. 웹 기반 응용 프로그램에는 SharePoint 서버 사이트, Outlook Web Access 서버 또는 기타 웹 기반 기간 업무 비즈니스 응용 프로그램이 포함됩니다.
 
 Azure AD 응용 프로그램 프록시의 구성 요소는 다음과 같습니다.
 
@@ -75,35 +75,32 @@ Azure AD 응용 프로그램 프록시의 구성 요소는 다음과 같습니�
 
 자세한 내용은 이 [Azure AD 응용 프로그램 프록시 개요](/azure/active-directory/manage-apps/application-proxy)를 참조하세요.
 
->[!Note]
->Azure AD 응용 프로그램 프록시는 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
->
+> [!NOTE]
+> Azure AD 응용 프로그램 프록시는 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
 
 ## <a name="deploy-remote-access-when-not-all-your-apps-are-web-apps"></a>모든 앱이 웹 앱이 아닌 경우의 원격 액세스 배포
 
 원격 작업자가 기존 VPN 클라이언트를 사용하고 있지 않고 웹 기반이 아닌 앱이 있는 경우, Azure P2S(지점 및 사이트 간) VPN을 사용할 수 있습니다.
 
-P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치에서 조직 네트워크로의 연결을 안전하게 만듭니다. 
+P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치에서 조직 네트워크로의 연결을 안전하게 만듭니다.
 
 ![Azure P2S VPN의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-p2s-vpn.png)
 
 자세한 내용은 이 [P2S VPN의 개요](/azure/vpn-gateway/point-to-site-about)를 참조하세요.
 
->[!Note]
->Azure P2S VPN은 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
->
+> [!NOTE]
+> Azure P2S VPN은 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
 
-## <a name="deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices"></a>Windows Virtual Desktop을 배포하여 개인 장치를 사용하는 원격 작업자에게 원격 액세스 기능을 제공 
+## <a name="deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices"></a>Windows Virtual Desktop을 배포하여 개인 장치를 사용하는 원격 작업자에게 원격 액세스 기능을 제공
 
-개인 장치 및 관리되지 않는 장치만 사용할 수 있는 원격 작업자를 지원하려면 Azure에서 Windows Virtual Desktop을 사용하여 사용자가 집에서 사용할 가상 데스크톱을 만들고 할당합니다. 가상화된 PC는 조직 네트워크에 연결된 PC와 동일하게 작동합니다.
+개인 디바이스와 관리되지 않는 디바이스만 사용할 수 있는 원격 작업자를 지원하려면 Azure에서 Windows Virtual Desktop을 사용하여 사용자가 집에서 사용할 가상 데스크톱을 만들고 할당합니다. 가상화된 PC는 조직 네트워크에 연결된 PC처럼 작동합니다.
 
 ![Azure Windows Virtual Desktop의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-자세한 내용은 [Windows Virtual Desktop의 개요](/azure/virtual-desktop/overview)를 참조하세요. 
+자세한 내용은 [Windows Virtual Desktop의 개요](/azure/virtual-desktop/overview)를 참조하세요.
 
->[!Note]
+> [!NOTE]
 >Windows Virtual Desktop은 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
->
 
 ## <a name="protect-your-remote-desktop-services-connections-with-the-remote-desktop-services-gateway"></a>원격 데스크톱 서비스 게이트웨이로 원격 데스크톱 서비스 연결 보호
 

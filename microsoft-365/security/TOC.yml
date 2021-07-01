@@ -35,7 +35,7 @@
     - name: 엔드포인트용 Microsoft Defender
       href: ./defender-endpoint/index.yml
     - name: ID용 Microsoft Defender
-      href: 'https://docs.microsoft.com/defender-for-identity'
+      href: /defender-for-identity
     - name: 엔터프라이즈용 Microsoft 365
       href: ../enterprise/index.yml
     - name: 비즈니스용 Microsoft 365

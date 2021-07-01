@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Endpoint DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f2a62b5c7913b6f41c414310a97ab5f072f59642
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 801f3cf4f2215002fb80f7c4d68c2f5b83f5d04d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538618"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226710"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
 
@@ -42,8 +42,8 @@ WinHTTP 구성 설정은 Windows Internet(WinINet) 인터넷 검색 프록시 �
 > 네트워크 토폴로지에서 투명 프록시 또는 WPAD를 사용하는 경우에는 특별한 구성 설정이 필요하지 않습니다. 프록시의 엔드포인트 URL 제외에 대한 Defender에 대한 자세한 내용은 [프록시 서버 ](#enable-access-to-endpoint-dlp-cloud-service-urls-in-the-proxy-server)에서 엔드포인트 DLP 클라우드 서비스 URL 액세스 사용을 참조하십시오.
 
 - 수동 정적 프록시 구성:
-    - 레지스트리 기반 구성
-    - netsh 명령을 사용하여 구성된 WinHTTP – 안정적인 토폴로지의 데스크톱에만 적합합니다(예: 동일한 프록시 뒤에 있는 회사 네트워크의 데스크톱).
+  - 레지스트리 기반 구성
+  - netsh 명령을 사용하여 구성된 WinHTTP – 안정적인 토폴로지의 데스크톱에만 적합합니다(예: 동일한 프록시 뒤에 있는 회사 네트워크의 데스크톱).
 
 ## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>레지스트리 기반 정적 프록시를 사용하여 프록시 서버를 수동으로 구성합니다.
 
@@ -53,21 +53,21 @@ WinHTTP 구성 설정은 Windows Internet(WinINet) 인터넷 검색 프록시 �
 
 1. **관리 템플릿 > Windows 구성 요소 > 데이터 수집 및 미리 보기 빌드 > 연결된 사용자 환경 및 원격 측정 서비스에 대한 인증된 프록시 사용 구성** 을 엽니다.
 
-2. **사용**(으)로 설정하고 **인증 프록시 사용 안 함** 을 선택합니다. 
+2. **사용**(으)로 설정하고 **인증 프록시 사용 안 함** 을 선택합니다.
 
-![그룹 정책 설정 1의 이미지](../media/atp-gpo-proxy1.png)
- 
+   ![그룹 정책 설정 1의 이미지](../media/atp-gpo-proxy1.png)
+
 3. **관리 템플릿 > Windows 구성 요소 > 데이터 수집 및 미리 보기 빌드 > 연결된 사용자 환경 및 원격 메트릭** 을(를) 여십시오.
 
- 프록시 구성
+   프록시 구성
 
-![그룹 정책 설정 2의 이미지](../media/atp-gpo-proxy2.png)
+   ![그룹 정책 설정 2의 이미지](../media/atp-gpo-proxy2.png)
 
-정책은 레지스트리 키 `HKLM\Software\Policies\Microsoft\Windows\DataCollection`에서 레지스트리 값 `TelemetryProxyServer`을(를) REG_SZ로, `DisableEnterpriseAuthProxy`을(를) REG_DWORD로 설정합니다.
+   정책은 레지스트리 키 `HKLM\Software\Policies\Microsoft\Windows\DataCollection`에서 레지스트리 값 `TelemetryProxyServer`을(를) REG_SZ로, `DisableEnterpriseAuthProxy`을(를) REG_DWORD로 설정합니다.
 
-레지스트리 값 TelemetryProxyServer는 이 형식 \<server name or ip\>:\<port\>입니다. 예: **10.0.0.6:8080**
+   레지스트리 값 TelemetryProxyServer는 이 형식 \<server name or ip\>:\<port\>입니다. 예: **10.0.0.6:8080**
 
-레지스트리 값 `DisableEnterpriseAuthProxy`을(를) 1로 설정해야 합니다.
+   레지스트리 값 `DisableEnterpriseAuthProxy`을(를) 1로 설정해야 합니다.
 
 ## <a name="configure-the-proxy-server-manually-using-netsh-command"></a>netsh 명령을 사용하여 프록시 서버를 수동으로 구성합니다.
 
@@ -78,19 +78,19 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 
 1. 승격된 명령줄을 열기:
     1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
-    1. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
-2.  다음 명령을 입력하고 **Enter** 를 누릅니다.
+    2. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-    `netsh winhttp set proxy <proxy>:<port>`
+2. 다음 명령을 입력하고 **Enter** 를 누릅니다.
 
-    예: **netsh winhttp 설정 프록시 10.0.0.6:8080**
+   `netsh winhttp set proxy <proxy>:<port>`
+
+   예: **netsh winhttp 설정 프록시 10.0.0.6:8080**
 
 3. winhttp 프록시를 재설정하려면 다음 명령을 입력하고 **Enter** 를 누릅니다.
 
-     `netsh winhttp reset proxy`
+   `netsh winhttp reset proxy`
 
 자세한 내용은 [Netsh 명령 구문, 컨텍스트 및 포맷](/windows-server/networking/technologies/netsh/netsh-contexts)을 참조하십시오.
-
 
 ## <a name="enable-access-to-endpoint-dlp-cloud-service-urls-in-the-proxy-server"></a>프록시 서버에서 끝점 DLP 클라우드 서비스 URL에 대한 액세스를 활성화합니다.
 
@@ -110,38 +110,44 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 3. 승격된 명령줄을 열기:
     1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
     1. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
-4.  다음 명령을 입력하고 **Enter** 를 누릅니다.
-    
-`HardDrivePath\MDATPClientAnalyzer.cmd`
+4. 다음 명령을 입력하고 **Enter** 를 누릅니다.
 
-예를 들어 *HardDrivePath* 를 MDATPC 클라이언트 Analyzer 도구가 다운로드된 경로로 대체합니다.
-    
-**C:\Work\tools\MDATPClientAnalyzer\MDATPClientAnalyzer.cmd**
+   `HardDrivePath\MDATPClientAnalyzer.cmd`
 
+   예를 들어 *HardDrivePath* 를 MDATPC 클라이언트 Analyzer 도구가 다운로드된 경로로 대체합니다.
 
-5.  _HardDrivePath*에 사용된 폴더의 도구에서 생성한 **MDPCclient AnalyzerResult.zip** _ 파일의 압축을 풉니다.
+   **C:\Work\tools\MDATPClientAnalyzer\MDATPClientAnalyzer.cmd**
 
-6.  **MDATPClient AnalyzerResult.txt** 를 열고 프록시 구성 단계를 수행하여 서버 검색 및 서비스 URL 액세스를 설정했는지 확인합니다.  도구는 엔드포인트용 Defender 클라이언트와 상호 작용하도록 구성된 엔드포인트용 Defender 서비스 URL의 연결을 확인합니다. 그런 다음 엔드포인트용 Defender 서비스와 통신하는 데 잠재적으로 사용될 수있는 각 URL에 대한 결과를 **MDATPClientAnalyzerResult.txt** 파일에 인쇄합니다. 예를 들어 다음과 같습니다.
+5. _HardDrivePath*에 사용된 폴더의 도구에서 생성한 **MDPCclient AnalyzerResult.zip** _ 파일의 압축을 풉니다.
 
-    **URL 테스트: https://xxx.microsoft.com/xxx </br> 1-기본 프록시: 성공 (200) </br> 2-프록시 자동 검색 (WPAD): 성공 (200)</br> 3-프록시 사용 안 함: 성공 (200)</br> 4-명명된 프록시: 존재하지 않음</br> 5-명령줄 프록시: 존재하지 않음**</br>
+6. **MDATPClient AnalyzerResult.txt** 를 열고 프록시 구성 단계를 수행하여 서버 검색 및 서비스 URL 액세스를 설정했는지 확인합니다.  도구는 엔드포인트용 Defender 클라이언트와 상호 작용하도록 구성된 엔드포인트용 Defender 서비스 URL의 연결을 확인합니다. 그런 다음 엔드포인트용 Defender 서비스와 통신하는 데 잠재적으로 사용될 수있는 각 URL에 대한 결과를 **MDATPClientAnalyzerResult.txt** 파일에 인쇄합니다. 예를 들어 다음과 같습니다.
 
+   ```DOS
+   Testing URL: https://xxx.microsoft.com/xxx
+   1 - Default proxy: Succeeded (200)
+   2 - Proxy auto discovery (WPAD): Succeeded (200)
+   3 - Proxy disabled: Succeeded (200)
+   4 - Named proxy: Doesn't exist
+   5 - Command-line proxy: Doesn't exist
+   ```
 
-연결 옵션 중 하나 이상이 (200) 상태를 반환하는 경우 엔드포인트용 Defender 클라이언트는 이 연결 방법을 사용하여 테스트된 URL과 제대로 통신할 수 있습니다. 
+연결 옵션 중 하나 이상이 (200) 상태를 반환하는 경우 엔드포인트용 Defender 클라이언트는 이 연결 방법을 사용하여 테스트된 URL과 제대로 통신할 수 있습니다.
 
 그러나 연결 검사 결과가 오류를 나타내는 경우 HTTP 오류가 표시됩니다(HTTP 상태 코드 참조). 그런 다음 [프록시 서버에서 끝점 DLP 클라우드 서비스 URL에 대한 액세스 활성화](#enable-access-to-endpoint-dlp-cloud-service-urls-in-the-proxy-server)에 표시된 표의 URL을 사용할 수 있습니다. 사용할 URL은 온보드 절차 중에 선택한 영역에 따라 다릅니다.
-[!NOTE] 연결 분석기 도구가 ASR 규칙 [ PSExec 및 WMI 명령 ](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction#attack-surface-reduction-rules)에서 생성된 블록 프로세스 생성과 호환되지 않습니다. 연결 도구를 실행하려면 이 규칙을 일시적으로 비활성화해야 합니다.
 
-[!NOTE] 원격 측정 프록시 서버를 설정할 때 레지스트리 또는 그룹 정책을 통해 엔드포인트에 대한 Defender가 정의된 프록시에 액세스할 수 없는 경우 직접으로 되돌아갑니다.
-관련 항목 • 온보드 Windows 10 장치 • Microsoft 끝점 DLP 온보드 문제 해결
-
-
-
-
+> [!NOTE]
+>
+> 연결 분석기 도구가 ASR 규칙 [PSExec 및 WMI 명령에서 생성된 블록 프로세스 생성](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction#attack-surface-reduction-rules)과 호환되지 않습니다. 연결 도구를 실행하려면 이 규칙을 일시적으로 비활성화해야 합니다.
+>
+> 원격 측정 프록시 서버를 설정할 때 레지스트리 또는 그룹 정책을 통해 엔드포인트용 Defender가 정의된 프록시에 액세스할 수 없는 경우 직접으로 되돌아갑니다. 관련 항목:
+>
+> - Windows 10 디바이스 온보딩
+> - Microsoft 엔드포인트 DLP 온보딩 문제 해결
 
 ## <a name="see-also"></a>참고 항목
 
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
-- [끝점 데이터 손실 방지 사용](endpoint-dlp-using.md)
+- [엔드포인트 데이터 손실 방지 사용](endpoint-dlp-using.md)
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)

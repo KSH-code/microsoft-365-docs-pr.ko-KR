@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 메타데이터를 사용하여 내용을 분류하고 레이블을 자동으로 적용하며 이벤트 기반 보존을 사용하여 보존 기간을 시작하여 SharePoint 에서 문서의 라이프사이클을 관리하는 방법입니다.
-ms.openlocfilehash: 6c58658378fd0def9a56783e7b8b35db3323b135
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 3bc2d6f5baa2f11e7905ccf98e16145fef24d64d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034217"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227606"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리
 
@@ -121,19 +121,19 @@ Microsoft 365 규중 준수 센터를 사용하여 다음 [보존 레이블](ret
 ### <a name="create-an-event-type-when-you-create-a-retention-label"></a>보존 레이블을 생성할 때 이벤트 유형을 생성합니다.
 
 1. 보존 레이블 만들기 마법사의 **보존 설정 정의** 페이지에서 **기준에 따라 보존 기간을 시작한 후** **새 이벤트 유형 만들기** 를 선택합니다.
-    
+
     ![제품 사양 레이블 대화 상자에 대한 새 이벤트 유형을 생성합니다.](../media/SPRetention6.png)
 
 3. **이벤트 유형 이름 지정** 페이지에서 **제품 Cessation** 과 선택적 설명을 입력합니다. 그 후 **다음**, **제출**, 그리고 **완료** 를 선택합니다.
 
 4. **보존 설정 정의** 페이지에서 **기준에 따라 보존 기간을 시작하려면** 드롭다운 상자를 사용하여 사용자가 만든 **제품 중단** 이벤트 유형을 선택합니다.
-    
-    제품 사양 보존 레이블의 설정은 다음과 같습니다. 
-    
+
+    제품 사양 보존 레이블의 설정은 다음과 같습니다.
+
    ![새 제품 사양 레이블 설정](../media/SPRetention7.png)
 
-6. **레이블 만들기** 를 선택하고 다음 페이지에 레이블을 게시, 레이블을 자동으로 적용 혹은 단지 레이블을 저장하는 옵션이 표시되면 **지금은 단지 레이블을 저장** 을 선택한 후 **완료** 를 선택합니다. 
-    
+6. **레이블 만들기** 를 선택하고 다음 페이지에 레이블을 게시, 레이블을 자동으로 적용 혹은 단지 레이블을 저장하는 옵션이 표시되면 **지금은 단지 레이블을 저장** 을 선택한 후 **완료** 를 선택합니다.
+
     > [!TIP]
     > 자세한 단계는 [보존 기간이 이벤트를 기준으로 하는 레이블을 만듭니다.](event-driven-retention.md#step-1-create-a-label-whose-retention-period-is-based-on-an-event)를 참조하십시오.
 
@@ -188,9 +188,9 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 1. **관리형 속성** 필터 상자에서 **_RefinableString00_** 을 입력하고 녹색 화살표를 선택합니다.
 
-2. 결과 목록에서 **RefinableString00** 링크를 선택한 다음 아래로 스크롤하여 **크롤링된 속성에 매핑** 섹션으로 이동합니다.  
+2. 결과 목록에서 **RefinableString00** 링크를 선택한 다음 아래로 스크롤하여 **크롤링된 속성에 매핑** 섹션으로 이동합니다.
 
-3. **매핑 추가** 를 선택하고 **_ows\_문서\_x0020\_유형_*_을_ **크롤링된 속성 선택** 창의* 크롤링된 속성 이름 검색** 에 입력합니다. **찾기** 를 선택합니다.  
+3. **매핑 추가** 를 선택하고 **_ows\_문서\_x0020\_유형_*_을_ **크롤링된 속성 선택** 창의* 크롤링된 속성 이름 검색** 에 입력합니다. **찾기** 를 선택합니다.
 
 4. 결과 목록에서 **ows\_문서\_x0020\_유형** 을 선택한 다음 **확인** 을 선택합니다.
 
@@ -222,19 +222,19 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 2. 자동 레이블 만들기 정책 마법사의 **자동 레이블 지정 정책 이름 지정** 페이지에서 **자동 적용 제품 사양 레이블** 과 같은 이름 및 선택적 설명을 입력합니다. 그런 후 **다음** 을 선택합니다.
 
 3. **이 레이블을 적용하려는 콘텐츠의 유형을 선택** 페이지에서 **특정 단어 또는 구 또는 속성을 포함하는 콘텐츠에 레이블을 적용** 을 선택한 후 **다음** 을 선택합니다.
-    
+
    [ ![특정 단어나 구 또는 속성을 포함하는 콘텐츠에 레이블 적용을 선택합니다.](../media/SPRetention17.png) ](../media/SPRetention17.png#lightbox)
-    
+
    이 옵션은 이전 섹션에서 테스트한 것과 동일한 KQL 검색 쿼리를 제공합니다. 이 쿼리는 상태가 *최종* 인 모든 제품 사양 문서를 반환합니다. 자동 적용 레이블 정책에서 동일한 쿼리를 사용하면 제품 사양 보존 레이블이 일치하는 모든 문서에 자동으로 적용됩니다.
 
 4. **이 쿼리와 일치하는 콘텐츠에 레이블 적용** 페이지에서 **RefinableString00:"Product Specification" AND RefinableString01:Final** 을 입력하고 **다음** 을 선택합니다.
 
    ![키워드 쿼리 편집기 상자에서 쿼리를 지정합니다.](../media/SPRetention19.png)
 
-5. **정책을 적용하려는 위치 선택** 페이지에서 정책을 적용하려는 콘텐츠 위치를 선택합니다. 이 시나리오에서는 모든 프로덕션 문서가 SharePoint 문서 라이브러리에 저장되기 때문에 정책을 SharePoint 위치에만 적용합니다. **Exchange 전자 메일**, **OneDrive 계정** 의 상태를 전환하고, **Microsoft 365 그룹** 을 **해제** 합니다. **다음** 을 선택하기 전에 SharePoint 사이트의 상태가 **켜짐** 으로 설정되어 있는지 확인합니다. 
-    
+5. **정책을 적용하려는 위치 선택** 페이지에서 정책을 적용하려는 콘텐츠 위치를 선택합니다. 이 시나리오에서는 모든 프로덕션 문서가 SharePoint 문서 라이브러리에 저장되기 때문에 정책을 SharePoint 위치에만 적용합니다. **Exchange 전자 메일**, **OneDrive 계정** 의 상태를 전환하고, **Microsoft 365 그룹** 을 **해제** 합니다. **다음** 을 선택하기 전에 SharePoint 사이트의 상태가 **켜짐** 으로 설정되어 있는지 확인합니다.
+
     ![레이블을 자동 적용하려는 특정 사이트를 선택](../media/SPRetentionSPlocations.png)
-    
+
    > [!TIP]
    > 정책을 모든 SharePoint 사이트에 적용하는 대신 **사이트 선택** 을 선택하여 특정 SharePoint 사이트의 URL을 추가할 수 있습니다.
 
@@ -247,9 +247,9 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
     ![레이블을 자동으로 적용하기 위한 설정](../media/SPRetention18.png)
 
 9. 자동 적용 레이블 정책을 생성하려면 **제출** 을 선택합니다.
-    
-   >[!NOTE]
-   >KQL 검색 질의와 일치하는 모든 문서에 제품 사양 레이블을 자동으로 적용하는 데 최대 7일이 걸립니다.
+
+   > [!NOTE]
+   > KQL 검색 질의와 일치하는 모든 문서에 제품 사양 레이블을 자동으로 적용하는 데 최대 7일이 걸립니다.
 
 ### <a name="verify-that-the-retention-label-was-automatically-applied"></a>보존 라벨이 자동으로 적용되었는지 확인합니다.
 
@@ -287,7 +287,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 - **URI**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
 - **헤더**: Key = Content-Type, Value = application/atom+xml
 - **Body**:
-    
+
     ```xml
     <?xml version='1.0' encoding='utf-8' standalone='yes'>
     <entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'>
@@ -324,10 +324,10 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 ![이벤트 세부 정보](../media/SPRetention29.png)
 
-그러나 지연 후 이벤트 상태는 SharePoint 사이트와 SharePoint 문서가 처리되었음을 표시합니다.  
+그러나 지연 후 이벤트 상태는 SharePoint 사이트와 SharePoint 문서가 처리되었음을 표시합니다.
 
 ![이벤트 세부 정보는 문서가 처리되었음을 나타냅니다.](../media/SPRetention31.png)
- 
+
 *처리 생산 회전 위젯* 이벤트의 이벤트 날짜를 기준으로 회전 위젯 제품 문서에 적용된 레이블의 보존 기간이 시작되었음을 나타냅니다. 1일 보존 기간을 구성하여 테스트 환경에서 시나리오를 구현했다고 가정하면 이벤트 생성 며칠 후 제품 문서의 문서 라이브러리로 이동하여 문서가 삭제되었는지(SharePoint의 삭제 작업이 실행된 후) 확인할 수 있습니다.
 
 ### <a name="more-about-asset-ids"></a>자산 ID에 대한 자세한 정보
