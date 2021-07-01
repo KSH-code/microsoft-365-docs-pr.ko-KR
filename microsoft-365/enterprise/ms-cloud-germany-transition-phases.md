@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: c80a7cfc4f930011f65a07c4b46cdf4921766c34
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: abf58930e2f937922733fedec2f13bfc2949fcb8
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930454"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229830"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -134,7 +134,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 
 - 조직에서 여전히 SharePoint 워크플로를 사용하는 경우 2021년 12월 31일 이후에는 더 이상 작동하지 않습니다. SharePoint 2013 워크플로는 2020년 11월 1일부터 시작되는 새 테넌트에 대해 기본적으로 꺼져 있습니다. SharePoint Online 서비스로의 마이그레이션이 완료되면 지원되는 Power Automate 솔루션으로 이동하는 것이 좋습니다.
  - SharePoint Online 인스턴스가 아직 마이그레이션되지 않은 Microsoft 클라우드 도이클랜드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM 버전 16.0.20616.12000 이하를 유지해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 SharePoint 통해 Online에 대한 연결이 실패합니다.
-- 이 단계에서는 URL의 SharePoint IP 주소가 변경됩니다. Office 365 전역 서비스로 전환하고 나면 보존된 테넌트 URL(예: 및 )의 주소가 전 세계 Microsoft 365 URL 및 IP 주소 범위(SharePoint Online 및 `contoso.sharepoint.de` `contoso-my.sharepoint.de` [비즈니스용 OneDrive)로 변경됩니다.](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#sharepoint-online-and-onedrive-for-business)
+- 이 단계에서는 URL의 SharePoint IP 주소가 변경됩니다. Office 365 전역 서비스로 전환하고 나면 보존된 테넌트 URL(예: 및 )의 주소가 전 세계 Microsoft 365 URL 및 IP 주소 범위(SharePoint Online 및 `contoso.sharepoint.de` `contoso-my.sharepoint.de` [비즈니스용 OneDrive)로 변경됩니다.](/microsoft-365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)
 - 서비스 SharePoint OneDrive 전환하는 동안 Office Online이 예상대로 작동하지 않을 수 있습니다. 
 
 > [!NOTE]
@@ -169,7 +169,7 @@ Office 365 전역 서비스 지역이 기본값으로 설정되어 내부 부하
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예시:
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들면 다음과 같습니다.
 
 ```powershell
 New-PSSession 
@@ -231,7 +231,7 @@ Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outl
 - 사용자는 고객 DNS 항목이 완료될 때까지 비즈니스용 Skype 서비스로 전환되는 Office 365 로그인할 수 없습니다.
 - 연락처 및 기존 모임은 계속해서 모임이 비즈니스용 Skype 기능합니다.
 
-베니티 도메인이 구성되면 비즈니스용 Skype DNS 항목을 업데이트해야 합니다. Microsoft 365 관리 센터에서 도메인을 [참조하고](https://admin.microsoft.com/Adminportal/Home#/Domains) DNS 구성의 변경 내용을 적용하세요. 
+베니티 도메인이 구성되면 비즈니스용 Skype DNS 항목을 업데이트해야 합니다. DNS [구성의](https://admin.microsoft.com/Adminportal/Home#/Domains) Microsoft 365 관리 센터 도메인을 참조하고 변경 내용을 적용합니다. 
 
 마이그레이션 9단계가 완료된 비즈니스용 Skype PowerShell을 사용하여 비즈니스용 Skype Online에 연결해야 하는 경우 다음 PowerShell 코드를 사용하여 연결합니다.
 

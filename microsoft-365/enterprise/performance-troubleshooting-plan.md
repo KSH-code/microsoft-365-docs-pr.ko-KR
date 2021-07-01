@@ -22,12 +22,12 @@ ms.collection:
 - M365-security-compliance
 - Ent_O365
 description: 이 문서는 성능 문제의 Office 365 해결하고 가장 일반적인 몇 가지 문제를 해결하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 588a19e86d903a7ab709a7f0d0131da6e2a77f47
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6ef459d6469881c71ea7d1da3a32eb42eb3ead6b
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928239"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229938"
 ---
 # <a name="performance-troubleshooting-plan-for-office-365"></a>Office 365 성능 문제 해결 계획
 

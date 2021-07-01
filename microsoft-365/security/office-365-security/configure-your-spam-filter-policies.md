@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1aa37beef940803a3dd399cec4ff23133a10c5ad
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: 910923e693804c96c109c52606b62d92af51abeb
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203295"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228666"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -140,7 +140,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
      스팸 필터링 결과에 사용 가능한 작업은 다음 표에 설명되어 있습니다.
 
-     - 확인 표시( ![확인 표시](../../media/checkmark.png)) 작업을 사용할 수 있음을 의미합니다(모든 결과에 모든 작업을 사용할 수 있는 것은 아님).
+     - 확인 표시( ![확인 표시](../../media/checkmark.png) ) 작업을 사용할 수 있음을 의미합니다(모든 결과에 모든 작업을 사용할 수 있는 것은 아님).
      - 확인 표시 후 별표(<sup>\*</sup>)는 스팸 필터링 결과에 대한 기본 작업을 나타냅니다.
 
      <br>

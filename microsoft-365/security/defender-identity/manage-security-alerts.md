@@ -1,20 +1,20 @@
 ---
-title: Microsoft Defender for Identity security alerts in Microsoft 365 Defender
-description: Microsoft Defender에서 ID에 대해 Microsoft Defender에서 발행한 보안 경고를 관리하고 검토하는 Microsoft 365 정보
+title: Microsoft Defender for Identity security alerts in <DICT__Microsoft⚐365⚐Defender>Microsoft 365 Defender</DICT__Microsoft⚐365⚐Defender>
+description: Microsoft Defender for Identity에서 발급한 보안 경고를 관리하고 검토하는 방법을 Microsoft 365 Defender
 ms.date: 05/20/2021
 ms.topic: how-to
 author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: 0c48c9076d05cd352229477acc28b32185eef54f
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: c81f14b92b285359bda7e291bd8d3a8b636ae54d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657853"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228966"
 ---
-# <a name="defender-for-identity-security-alerts-in-microsoft-365-defender"></a>Defender의 ID 보안 경고에 대한 Microsoft 365 Defender
+# <a name="defender-for-identity-security-alerts-in-microsoft-365-defender"></a>2013의 ID 보안 경고에 대한 Microsoft 365 Defender
 
 **적용 대상:**
 
@@ -23,20 +23,20 @@ ms.locfileid: "52657853"
 
 이 문서에서는 보안 센터에서 Microsoft [Defender for Identity](/defender-for-identity) 보안 경고를 Microsoft 365 [방법을 설명합니다.](/microsoft-365/security/defender/overview-security-center)
 
-ID 경고에 대한 Defender는 기본적으로 전용 ID [Microsoft 365](https://security.microsoft.com) 페이지 형식으로 보안 센터에 통합됩니다. 이는 Id에 대한 전체 Microsoft Defender 환경을 Microsoft 365 [단계를 표시하는 것입니다.](/defender-for-identity/defender-for-identity-in-microsoft-365-defender)
+ID 경고에 대한 Defender는 기본적으로 전용 ID [Microsoft 365](https://security.microsoft.com) 페이지 형식으로 보안 센터에 통합됩니다. 이는 에 전체 [Microsoft Defender for Identity](/defender-for-identity/defender-for-identity-in-microsoft-365-defender)환경을 도입하는 여정의 첫 번째 Microsoft 365 Defender.
 
 새 ID 경고 페이지에서는 Microsoft Defender for Identity 고객에게 도메인 간 신호 향상 및 새로운 자동화된 ID 응답 기능을 제공합니다. 보안 유지를 보장하고 보안 작업의 효율성을 개선하는 데 도움이 됩니다.
 
-[Microsoft 365 Defender를](/microsoft-365/security/defender/microsoft-365-defender) 통해 경고를 조사할 때의 이점 중 하나는 ID에 대한 Microsoft Defender 경고가 제품군의 각 다른 제품에서 얻은 정보와 추가로 상호 관련되어 있는 것입니다. 이러한 향상된 경고는 Microsoft Defender for Microsoft 365 및 끝점용 [Microsoft Defender에서](/microsoft-365/security/office-365-security) Office 365 Defender 경고 형식과 [일치합니다.](/microsoft-365/security/defender-endpoint) 새 페이지에서는 ID와 관련된 경고를 조사하기 위해 다른 제품 포털로 이동할 필요가 없습니다.
+Microsoft Defender for [Identity](/microsoft-365/security/defender/microsoft-365-defender) 경고는 Microsoft 365 Defender 통해 경고를 조사할 때의 이점 중 하나는 제품군의 각 다른 제품에서 얻은 정보와 추가로 상호 관련이 있습니다. 이러한 향상된 경고는 microsoft Defender for Microsoft 365 Defender 및 [끝점용 Microsoft Defender에서](/microsoft-365/security/office-365-security) Office 365 경고 형식과 [일치합니다.](/microsoft-365/security/defender-endpoint) 새 페이지에서는 ID와 관련된 경고를 조사하기 위해 다른 제품 포털로 이동할 필요가 없습니다.
 
-ID에 대한 [Defender에서](/microsoft-365/security/defender/m365d-autoir) 시작된 경고는 이제 경고를 자동으로 수정하고 의심스러운 활동에 기여할 수 있는 도구 및 프로세스의 완화를 포함하여 Microsoft 365 Defender 자동화된 조사 및 대응(AIR) 기능을 트리거할 수 있습니다.
+ID에 대한 Defender에서 시작된 경고는 이제 경고를 자동으로 수정하고 의심스러운 활동에 기여할 수 있는 도구 및 프로세스의 완화를 포함하여 MICROSOFT 365 DEFENDER 자동화된 조사 및 [대응(AIR)](/microsoft-365/security/defender/m365d-autoir) 기능을 트리거할 수 있습니다.
 
->[!IMPORTANT]
->Microsoft 365 Defender와의 수렴의 일부로 일부 옵션 및 세부 사항은 ID용 Defender 포털의 해당 위치에서 변경됩니다. 익숙한 기능과 새로운 기능을 모두 찾을 수 있는 위치를 확인하시기 바랍니다.
+> [!IMPORTANT]
+> Id와의 수렴의 일부로 Microsoft 365 Defender Id 포털의 해당 위치에서 일부 옵션 및 세부 정보가 변경됩니다. 익숙한 기능과 새로운 기능을 모두 찾을 수 있는 위치를 확인하시기 바랍니다.
 
 ## <a name="review-security-alerts"></a>보안 경고 검토
 
-경고 페이지, 인시던트 페이지,  개별 장치의  페이지 및 고급 헌팅 페이지를 비롯한 여러 위치에서 경고에 액세스할 **수** 있습니다.  이 예제에서는 경고 페이지를 **검토합니다.**  
+경고 페이지, 인시던트 페이지,  개별 장치의  페이지 및 고급 헌팅 페이지를 비롯한 여러 위치에서 경고에 액세스할 **수** 있습니다.  이 예제에서는 경고 페이지를 **검토합니다.**
 
 보안 [Microsoft 365 에서](https://security.microsoft.com/) **인시던트** & 경고로 이동한 다음 **경고로 이동합니다.**
 
@@ -85,9 +85,9 @@ ID에 대한 Defender의 경고를 확인하려면 오른쪽 위에 있는  필�
 
     ![경고 관리](../../media/defender-identity/manage-alert.png)
 
-    >[!NOTE]
-    >이제 Excel 두 개의 링크를 사용할 수 있습니다. **Id에 대한 Microsoft Defender의** 보기 및 Microsoft 365 **Defender의 보기.** 각 링크는 관련 포털로 이동하고 경고에 대한 정보를 제공합니다.
+    > [!NOTE]
+    > 이제 Excel 파일에서 두 개의 링크를 사용할 수 있습니다. **Id에 대한 Microsoft Defender의** 보기 및 **보기의** Microsoft 365 Defender. 각 링크는 관련 포털로 이동하고 경고에 대한 정보를 제공합니다.
 
 ## <a name="see-also"></a>참고 항목
 
-- [Defender에서 경고 Microsoft 365 조사](../defender/investigate-alerts.md)
+- [2013에서 경고 Microsoft 365 Defender](../defender/investigate-alerts.md)

@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목 계획 방법 학습
-ms.openlocfilehash: de7534ce58a7888ac822826ef4ef1b4934ed8cb1
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a407fd6e6919c3b85235e317e5ed3ff103607700
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583115"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229542"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 항목 계획
 
@@ -36,13 +36,15 @@ Viva 항목 뒤에 있는 AI 기술에 대한 자세한 내용은 [Microsoft Viv
 
 ## <a name="requirements"></a>요구 사항
 
-Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 전역 관리자 또는 SharePoint 관리자로서 Microsoft 365 센터에 액세스하고 항목을 설정해야 합니다.
+Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.microsoft.com/microsoft-viva/topics) SharePoint 관리자 또는 Microsoft 365 관리 센터 해야 합니다.
 
 항목을 사용하려면 모든 사용자에게 항목 환경 **라이선스가** 필요합니다. 라이선스 할당은 Microsoft [Viva 항목 설정에서 다를 수 있습니다.](set-up-topic-experiences.md)
 
 ## <a name="topic-discovery"></a>항목 검색
 
-토픽 검색 설정은 토픽의 원본으로 사용되는 SharePoint 사이트를 지정합니다. 모든 SharePoint 사이트, 특정 사이트 목록 또는 사이트 없음을 포함하도록 선택할 수 있습니다. 항목 환경이 사용자에게 많은 좋은 항목을 검색할 수 있도록 모든 사이트를 선택하는 것이 좋습니다.
+토픽 검색 설정은 토픽의 원본으로 사용되는 SharePoint 사이트를 지정합니다. 여기에는 클래식 사이트와 최신 사이트, Microsoft Teams 그룹과 연결된 Microsoft 365 포함됩니다. OneDrive 사이트가 포함되지 않습니다.
+
+모든 SharePoint 사이트, 특정 사이트 목록 또는 사이트 없음을 포함하도록 선택할 수 있습니다. 항목 환경이 사용자에게 많은 좋은 항목을 검색할 수 있도록 모든 사이트를 선택하는 것이 좋습니다.
 
 토픽을 설정할 때 다음 옵션 중에서 선택할 수 있습니다.
 
@@ -128,7 +130,7 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="administration"></a>관리
 
-항목을 설정할 때 설치 프로세스의 일부로 항목 센터가 자동으로 만들어집니다. 항목 센터의 이름을 지정하는 항목과 URL을 지정하려는 항목을 생각해 세요. 설치 프로세스의 일부로 이름과 URL을 설정할 수 있으며 나중에 Microsoft 365 관리 센터에서 이름을 변경할 수 있습니다. 하나의 항목 센터만 사용할 수 있습니다.
+항목을 설정할 때 설치 프로세스의 일부로 항목 센터가 자동으로 만들어집니다. 항목 센터의 이름을 지정하는 항목과 URL을 지정하려는 항목을 생각해 세요. 설치 프로세스의 일부로 이름과 URL을 모두 설정할 수 있으며, 나중에 설치 프로세스의 이름(URL은 아미라)을 변경할 Microsoft 365 관리 센터. 하나의 항목 센터만 사용할 수 있습니다.
 
 ## <a name="setup-checklist"></a>설치 검사 목록
 

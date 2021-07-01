@@ -13,12 +13,12 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Priority
 description: Microsoft 365에서는 에너지 회사가 데이터와 시스템을 계속 안전하게 유지하고 규정을 준수하는 한편, 최신 공동 작업 플랫폼으로 전환하도록 도와줍니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 086cc176190549f2ec8e49ea992744059c5d9005
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: efc9476d2c766aab325977dfe717290ff6c8fb8d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916121"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229326"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>에너지 산업에 대한 주요 규정 준수 및 보안 고려 사항
 ![클라우드를 사용하는 다양한 업계 전체 보기를 위한 실제 사례 비유](../media/solution-arch-center/MSC17_global_016.png)
@@ -38,7 +38,7 @@ Microsoft 클라우드 서비스 및 NERC에 대한 자세한 내용은 다음 �
 - Azure 및 Azure Government는 각각 최고 수준의 FedRAMP 인증을 나타내는 FedRAMP High P-ATO(임시 운영 인증) 승인을 받았습니다. 
 
 Microsoft 클라우드 서비스 및 FedRAMP에 대한 자세한 내용은 다음 리소스를 참조하세요.
-- [Microsoft FedRAMP 개요](/compliance/regulatory/offering-FedRAMP?view=o365-worldwide)
+- [Microsoft FedRAMP 개요](/compliance/regulatory/offering-FedRAMP)
 - [Office 365 FedRAMP 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_FedRAMP_Reports)
 
 
@@ -90,7 +90,7 @@ Microsoft 365는 Office 365 그룹을 기본 멤버 자격 공급자로 사용�
 - 필요하거나 사용하지 않는 Microsoft 팀의 확산
 - 조직에 더 이상 필요하지 않은 데이터 과잉 보유
 
-관리자는 Office 365 그룹의 만료 기간을 90일, 180일 또는 365일과 같이 일 단위로 지정할 수 있습니다. 만료 기간 동안 Office 365 그룹이 지원하는 서비스를 사용하지 않으면 그룹 소유자에게 알림이 전송되고 아무런 조치를 취하지 않으면 Office 365 그룹과 Microsoft Teams를 포함한 그의 모든 관련 서비스가 삭제됩니다. 
+관리자는 Office 365 그룹의 만료 기간(일)(예: 90, 180 또는 365일)을 지정할 수 있습니다. 만료 기간 동안 Office 365 그룹이 지원하는 서비스를 사용하지 않으면 그룹 소유자에게 알림이 전송되고 아무런 조치를 취하지 않으면 Office 365 그룹과 Microsoft Teams를 포함한 그의 모든 관련 서비스가 삭제됩니다. 
 
 Microsoft 팀의 데이터 과잉 보유는 조직에 소송 위험을 제기할 수 있으므로, 만료 정책 사용은 조직을 보호하기 위해 권장되는 방법입니다. Microsoft 365는 기본 제공 보존 레이블 및 정책을 함께 사용하여 조직이 규정 준수 의무를 충족하는 데 필요한 데이터만 보존하도록 지원합니다.
 
@@ -161,7 +161,7 @@ MIP 및 DLP 정책을 조직에 배포하려면 직원이 조직의 데이터 �
 ## <a name="govern-data-by-effectively-managing-records"></a>레코드를 효과적으로 관리하여 데이터 제어
 규정에 따라 많은 조직에서 관리 대상 기업의 보존 일정에 따라 주요 조직 문서 보존을 관리해야 합니다. 조직은 보존 기간 미만으로 데이터를 보관(너무 일찍 삭제됨) 할 경우 규제 준수 위험, 그보다 오래 데이터를 보관(너무 오래 유지함) 할 경우 법률상 위험에 직면할 수 있습니다. 효과적인 기록 관리 전략을 통해 조직의 위험을 최소화하도록 사전에 정한 보존 기간에 따라 조직 문서를 유지할 수 있습니다. 보존 기간은 집중적으로 관리하는 조직 기록 보존 일정에 규정되어 있으며, 각 문서 유형의 특성, 특정 데이터 유형 보존에 관한 규제 준수 요구 사항 및 조직의 정의된 정책에 따라 결정됩니다. 
 
-조직 문서 전체에 기록 보존 기간을 정확히 지정하려면 문서별로 고유한 보존 기간을 지정하는 세부 프로세스가 필요할 수 있습니다. 에너지 산업 조직 내의 방대한 문서 양은, 많은 경우 보존 기간이 조직의 사건(예: 계약이 만료되거나 직원이 조직에서 퇴사함)이 계기가 돼서 일어날 수 있다는 사실과 더불어 많은 조직에서 기록 보존 정책의 대규모 적용을 어렵게 만듭니다.
+조직 문서에 레코드 보존 기간을 정확하게 할당하려면 개별 문서에 고유하게 보존 기간을 할당하는 세분화된 프로세스가 필요할 수 있습니다. 에너지 산업 조직 내의 방대한 문서 양은, 많은 경우 보존 기간이 조직의 사건(예: 계약이 만료되거나 직원이 조직에서 퇴사함)이 계기가 돼서 일어날 수 있다는 사실과 더불어 많은 조직에서 기록 보존 정책의 대규모 적용을 어렵게 만듭니다.
 
 Microsoft 365는 기록 관리 요구 사항을 손쉽게 구현하기 위해 보존 레이블 및 정책을 정하는 기능을 제공합니다. 레코드 관리자가 기존 보존 일정에서 "레코드 유형"을 나타내는 보존 레이블을 정의합니다. 보존 레이블에는 다음 정보를 정의하는 설정이 포함되어 있습니다.
 - 레코드 보존 기간
@@ -192,7 +192,7 @@ Microsoft 365 감독 정책을 사용하면 조직에서 회사 통신에서 괴
 ### <a name="communication-compliance"></a>커뮤니케이션 규정 준수
 조직에 직원들이 사용할 수 있는 통신 채널이 많은 경우 에너지 거래 시장과 같은 규제 대상 업계에서는 커뮤니케이션을 모니터링하거나 감시하는 효과적인 솔루션을 점점 더 필요로 합니다. 최근 출시되어 Microsoft 365에 기본 제공되는 커뮤니케이션 규정 준수 솔루션을 사용하면 조직에서 통신 채널 수 및 메시지 양의 증가와 같은 일반적인 문제뿐만 아니라 정책 위반에 대한 잠재적인 벌금 부담 위험을 극복할 수 있습니다.
 
-커뮤니케이션 규정 준수는 여러 통신 채널을 모니터링하고, 머신 러닝 모델을 사용하여 Office 365 전자 메일, Microsoft Teams, 비즈니스용 Skype Online, Facebook, Twitter, Bloomberg 인스턴트 메시지를 포함한 잠재적인 정책 위반을 식별할 수 있습니다. 커뮤니케이션 규정 준수는 준수 팀이 메시지의 다음 항목 위반 가능성을 효과적 및 효율적으로 검토하는 데 도움이 됩니다.
+커뮤니케이션 규정 준수는 여러 통신 채널을 모니터링하고, 머신 러닝 모델을 사용하여 Office 365 전자 메일, Microsoft Teams, 비즈니스용 Skype Online, Facebook, Twitter, Bloomberg 인스턴트 메시지를 포함한 잠재적인 정책 위반을 식별할 수 있습니다. 커뮤니케이션 규정 준수를 통해 규정 준수 팀은 다음과 같은 잠재적 위반에 대한 메시지를 효과적이고 효율적으로 검토할 수 있습니다.
 - 허용되는 사용, 윤리적 표준 및 회사별 정책과 같은 회사 정책 
 - 예정된 인수, 합병, 수입 공개, 재구성 또는 리더십 팀 변경과 같은 민감한 프로젝트에 대한 무단 통신과 같은 민감성 또는 민감한 비즈니스 공개
 - 조직이 에너지 시장에 대한 FERC 규제를 준수하는 데 사용하는 회사 또는 거래 유형에 대 한 직원 커뮤니케이션 등과 같은 규제 준수 요구 사항

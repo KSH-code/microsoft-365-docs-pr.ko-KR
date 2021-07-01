@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a948604f11064f2c1fefcc441adc4a9792ac918
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 71baf947c5834e2eb4b8ef62af69da77ea5bd090
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108442"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230046"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 피싱 방지 정책 Office 365
 
@@ -125,8 +125,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
 
      > [!NOTE]
      >
-     > - 각 피싱 방지 정책에서 보호되는 사용자(보낸 사람 전자 메일 주소)를 최대 60명까지 지정할 수 있습니다. 동일한 보호된 사용자를 여러 정책에 지정할 수 없습니다.
-     >
+     > - 각 피싱 방지 정책에서 보호되는 사용자(보낸 사람 전자 메일 주소)를 최대 350명까지 지정할 수 있습니다. 동일한 보호된 사용자를 여러 정책에 지정할 수 없습니다.
      > - 보낸 사람 및 받는 사람이 이전에 전자 메일을 통해 통신한 경우 사용자 가장 보호가 작동하지 않습니다. 보낸 사람 및 받는 사람이 전자 메일을 통해 통신한 적이 없는 경우 가장 시도로 메시지가 식별됩니다.
 
      - **사용자가 보호할** 수 있도록 설정 : 기본값이 해제되어 있습니다(선택되지 않았습니다). 이 기능을 켜려면 확인란을 선택한 다음 나타나는 **관리(nn) 보낸** 사람 링크를 클릭합니다.
@@ -246,7 +245,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
 
 7. 표시되는 **검토** 페이지에서 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다. 또는 **뒤로** 를 클릭하거나 마법사에서 특정 페이지를 선택할 수 있습니다.
 
-   완료되면 제출을 **클릭합니다.**
+   작업을 마쳤으면 **제출** 을 클릭합니다.
 
 8. 표시되는 확인 페이지에서 **완료** 를 클릭합니다.
 
@@ -346,7 +345,7 @@ PowerShell에서 피싱 방지 정책을 만드는 과정은 다음 두 단계�
 1. 피싱 방지 정책을 생성합니다.
 2. 규칙이 적용되는 피싱 방지 정책을 지정하는 피싱 방지 규칙을 생성합니다.
 
- **참고:**
+ **참고**:
 
 - 새 피싱 방지 규칙을 만들고 기존의 통합되지 않은 피싱 방지 정책을 할당할 수 있습니다. 피싱 방지 규칙은 두 개 이상의 피싱 방지 정책과 연결될 수 없습니다.
 - 정책을 만든 후까지 Microsoft 365 Defender 포털에서 사용할 수 없는 PowerShell의 새 피싱 방지 정책에 대해 다음 설정을 구성할 수 있습니다.

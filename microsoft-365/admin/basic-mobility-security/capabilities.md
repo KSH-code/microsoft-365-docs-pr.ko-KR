@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 41df5bfba7362d9c2b3a47deca4e4586902bbd98
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: a5f20b2999a1a54070433560904e9535a4d1524a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706181"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228282"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>기본 이동성 및 보안 기능
 
@@ -47,12 +47,12 @@ ms.locfileid: "52706181"
 
 <sup>1</sup> RT Windows 8.1 대한 액세스 제어는 Exchange ActiveSync.
 
-<sup>2</sup> 액세스 제어를 Windows 10 Azure AD Premium 구독이 필요하며 디바이스를 앱에 가입해야 Azure Active Directory.
+<sup>2</sup> 액세스 제어를 Windows 10 제어하려면 Azure AD Premium 포함된 구독이 필요하며 디바이스를 앱에 가입해야 Azure Active Directory.
 
 <sup>3</sup> 2020년 6월 이후의 Android 버전은 Samsung Knox 장치를 제외한 암호 설정을 관리할 수 없습니다.
 
->[!NOTE]
->이전 OS 버전에 이미 등록된 장치는 예고 없이 기능이 변경될 수 있습니다.
+> [!NOTE]
+> 이전 OS 버전에 이미 등록된 장치는 예고 없이 기능이 변경될 수 있습니다.
 
 조직의 사용자가 기본 모바일 및 보안에서 지원되지 않는 모바일 장치를 사용하는 경우 조직의 데이터를 보다 안전하게 Exchange ActiveSync 전자 메일에 Microsoft 365 앱 액세스를 차단할 수 있습니다. 모바일 기능을 차단하는 Exchange ActiveSync 기본 이동성 및 보안에서 장치 액세스 [설정 관리를 참조하세요.](manage-device-access-settings.md)
 
@@ -65,10 +65,11 @@ ms.locfileid: "52706181"
 |**Exchange** Exchange ActiveSync 버전 14.1 이상을 사용하는 TouchDown과 같은 기본 제공 전자 메일 및 타사 Exchange ActiveSync 포함되어 있습니다. |메일 |전자 메일 |
 |**Office**   및  **비즈니스용 OneDrive** |Outlook </br>OneDrive </br>Word </br>Excel </br>PowerPoint|**휴대폰 및 태블릿의 경우**:<br/>Outlook <br/> OneDrive <br/> Word <br/> Excel <br/> PowerPoint <br/> **휴대폰만 해당:** <br/> Office Mobile |
 
->[!NOTE]
-- >iOS 10.0 이상 버전에 대한 지원에는 iPhone 및 iPad 포함됩니다.
-- >BlackBerry OS 디바이스 관리는 기본 보안 및 모바일에서 지원되지 않습니다. BlackBerry의 BBCS(BlackBerry Business Cloud Services)를 사용하여 BlackBerry OS 장치를 관리합니다. Android OS를 실행하는 Blackberry 디바이스는 표준 Android 장치로 지원됩니다.
-- >사용자가 모바일 브라우저를 사용하여 Microsoft 365 SharePoint 사이트, Office Online의 문서 또는 전자 메일에 액세스하는 경우 사용자에게 등록하라는 메시지가 표시되거나 정책 위반에 대해 차단되거나 Outlook Web App.
+> [!NOTE]
+>
+> - iOS 10.0 이상 버전에 대한 지원에는 iPhone 및 iPad 포함됩니다.
+> - BlackBerry OS 디바이스 관리는 기본 보안 및 모바일에서 지원되지 않습니다. BlackBerry의 BBCS(BlackBerry Business Cloud Services)를 사용하여 BlackBerry OS 장치를 관리합니다. Android OS를 실행하는 Blackberry 디바이스는 표준 Android 장치로 지원됩니다.
+> - 사용자가 모바일 브라우저를 사용하여 Microsoft 365 SharePoint 사이트, Office Online의 문서 또는 전자 메일에 액세스하는 경우 사용자에게 등록하라는 메시지가 표시되거나 정책 위반에 대해 차단되거나 Outlook Web App.
 
 다음 다이어그램은 새 장치를 사용하는 사용자가 기본 Mobility and Security를 사용하여 액세스 제어를 지원하는 앱에 로그인할 때 발생하는 일과를 보여줍니다. 사용자가 디바이스를 등록할 때까지 Microsoft 365 리소스에 액세스하지 못하도록 차단됩니다.
 
@@ -79,7 +80,7 @@ ms.locfileid: "52706181"
 
 ## <a name="policy-settings-for-mobile-devices"></a>모바일 장치에 대한 정책 설정
 
-특정 설정이 켜져 있는 액세스를 차단하는 정책을 만들면 [Microsoft 365](capabilities.md)전자 메일 및 문서에 대한 액세스 제어에 나열된 지원되는 앱을 사용할 때 사용자가 Microsoft 365 리소스에 액세스할 수 없습니다. 
+특정 설정이 켜져 있는 액세스를 차단하는 정책을 만들면 [Microsoft 365](capabilities.md)전자 메일 및 문서에 대한 액세스 제어에 나열된 지원되는 앱을 사용할 때 사용자가 Microsoft 365 리소스에 액세스할 수 없습니다.
 
 사용자가 리소스에 액세스하지 Microsoft 365 수 있는 설정은 다음 섹션에 있습니다.
 
@@ -89,7 +90,7 @@ ms.locfileid: "52706181"
 
 - 암호 해독
 
-- 관리되는 전자 메일 프로필  
+- 관리되는 전자 메일 프로필
 
 예를 들어 다음 다이어그램에는 등록된 장치를 사용하는 사용자가 장치에 적용되는 모바일 장치 관리 정책의 보안 설정을 준수하지 않는 경우 수행되는 작업을 보여 줍니다. 사용자는 Basic Mobility and Security를 사용하여 액세스 제어를 지원하는 앱에 로그인합니다. 디바이스가 보안 설정을 준수할 때까지 Microsoft 365 리소스에 액세스하지 못하게 차단됩니다.
 
@@ -116,15 +117,15 @@ ms.locfileid: "52706181"
 |:-----|:-----|:-----|:-----|
 |디바이스<sup>1에서</sup> 데이터 암호화 필요 |아니요|예|예|
 
-<sup>1</sup> Samsung Knox를 사용하면 저장소 카드에 암호화를 요구할 수도 있습니다. 
+<sup>1</sup> Samsung Knox를 사용하면 저장소 카드에 암호화를 요구할 수도 있습니다.
 
-## <a name="jail-broken-setting"></a>암호 해독 설정 
+## <a name="jail-broken-setting"></a>암호 해독 설정
 
 |**설정 이름**|**iOS 7.1 이상**|**Android 5 이상**|**Samsung Knox**|
 |:-----|:-----|:-----|:-----|
 |장치의 암호를 해독하거나 장치를 루트 경로로 지정할 수 없음 |예|예|예|
 
-## <a name="managed-email-profile-option"></a>관리되는 전자 메일 프로필 옵션 
+## <a name="managed-email-profile-option"></a>관리되는 전자 메일 프로필 옵션
 
 다음 옵션은 사용자가 수동으로 만든 전자 메일 Microsoft 365 전자 메일에 액세스하지 못하게 차단할 수 있습니다. 전자 메일에 액세스하려면 iOS 장치의 사용자가 수동으로 만든 전자 메일 프로필을 삭제해야 합니다. 프로필을 삭제하면 디바이스에 새 프로필이 자동으로 만들어집니다. 최종 사용자가 규정을 준수하는 방법에 대한 지침은 기존 전자 메일 계정을 [찾은 을 참조하세요.](/intune-user-help/existing-company-email-account-found)
 
@@ -205,8 +206,8 @@ ms.locfileid: "52706181"
 
 - 암호 기록 저장 및 재사용 금지
 
->[!NOTE]
->암호를 제어하는 다음 설정은 로컬 계정만 Windows 제어합니다. Windows 또는 도메인 가입을 통해 제공된 Azure Active Directory 이러한 설정의 영향을 받지 않습니다.
+> [!NOTE]
+> 암호를 제어하는 다음 설정은 로컬 계정만 Windows 제어합니다. Windows 또는 도메인 가입을 통해 제공된 Azure Active Directory 이러한 설정의 영향을 받지 않습니다.
 
 ### <a name="system-settings"></a>시스템 설정
 

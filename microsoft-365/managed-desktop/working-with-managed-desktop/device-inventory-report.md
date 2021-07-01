@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 3ebbb4359e460c0e8ddd6d353ce70057ed352212
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 0137bef845cace589247c35763bbf4253398cbc6
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245339"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229002"
 ---
 # <a name="device-inventory-report"></a>디바이스 인벤토리 보고서
 
@@ -43,6 +43,6 @@ ms.locfileid: "52245339"
 - TPM 버전
 - 보안 부팅 사용
 - 기본 디스크 유형
-- 총 실제 메모리 
+- 총 실제 메모리
 
-![장치 보기에는 장치 목록 및 관련 세부 정보가 표시됩니다. 활동, 등록 상태에 대한 위쪽 선택 필터 근처의 확인란입니다. 위의 검색 상자입니다. 새 장치를 등록하고, 보기를 새로 고치고, 오류를 내보내고, 데이터를 내보낼 수 있는 탭 ](../../media/mmd-devices-view.png)
+![장치 보기에는 장치 목록 및 관련 세부 정보가 표시됩니다. 활동, 등록 상태에 대한 위쪽 선택 필터 근처의 확인란입니다. 위의 검색 상자입니다. 새 장치를 등록하고, 보기를 새로 고치고, 오류를 내보내고, 데이터를 내보낼 수 있는 탭](../../media/mmd-devices-view.png)

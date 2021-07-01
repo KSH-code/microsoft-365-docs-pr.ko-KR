@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 8e2788fd9163a27b41bd3788facf5fc9623b0543
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 47b25ba541264d79216748753e9f41fb7435fc10
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935668"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229482"
 ---
 # <a name="device-profile-page"></a>디바이스 프로필 페이지
 
@@ -81,7 +81,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 * **바이러스 백신 검사** 실행 - Windows Defender 바이러스 백신 업데이트하고 바이러스 백신 검색을 즉시 실행합니다. 빠른 검사 또는 전체 검사 중 선택할 수 있습니다.
 * **조사 패키지 수집** - 장치에 대한 정보를 수집합니다. 조사가 완료되면 다운로드할 수 있습니다.
 * **라이브 응답** 세션 시작 - 심층 보안 조사를 위해 디바이스에 원격 [셸을 로드합니다.](/microsoft-365/security/defender-endpoint/live-response)
-* **자동화된 조사 시작** - 위협을 자동으로 [조사하고 수정합니다.](../office-365-security/office-365-air.md) 이 페이지에서 자동화된 조사를 수동으로 트리거할 수 있지만 [특정](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) 경고 정책은 자체적인 자동 조사를 트리거합니다.
+* **자동화된 조사 시작** - 위협을 자동으로 [조사하고 수정합니다.](../office-365-security/office-365-air.md) 이 페이지에서 자동화된 조사를 수동으로 트리거할 수 있지만 [특정](../../compliance/alert-policies.md#default-alert-policies) 경고 정책은 자체적인 자동 조사를 트리거합니다.
 * **작업 센터** - 현재 실행 중인 모든 응답 작업에 대한 정보를 표시합니다.
 
 ## <a name="tabs-section"></a>Tabs 섹션

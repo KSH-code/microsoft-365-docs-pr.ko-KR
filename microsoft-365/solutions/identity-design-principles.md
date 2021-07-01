@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: c94b387bbd73e2c4f9b3de243131ae023ddb4cb8
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: b424b4f611f0553de4b7129d2c0b63cefbdeeab3
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222528"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229362"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>ID 및 그 이상을 아우르는 설계자의 관점
 
@@ -50,7 +50,7 @@ ms.locfileid: "51222528"
 Alas, language isn't a precise tool. 종종 동일한 단어를 사용하여 다른 개념을 의미하거나 다른 단어를 사용하여 동일한 개념을 의미합니다. 아래 다이어그램을 사용하여 몇 가지 기준 용어와 "계층 구조 모델"을 설정하는 경우가 종종 있습니다.
 <br><br>
 
-![테넌트, 구독, 서비스 및 데이터의 그림](../media/solutions-architecture-center/Identity-and-beyond-tenant-level.png)  
+![테넌트, 구독, 서비스 및 데이터의 그림](../media/solutions-architecture-center/Identity-and-beyond-tenant-level.png)
 
 <br>
 
@@ -98,7 +98,7 @@ XYZ SaaS는 JIT(Just-In-Time) 프로비저닝을 지원하고 동기화해야 �
 
 [PHS(암호 해시](/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization) 동기화) 및 PTA(통과 인증) [](/azure/active-directory/hybrid/how-to-connect-fed-compatibility)및 페더전 . [](/azure/active-directory/hybrid/how-to-connect-pta-how-it-works)
 
-일반적으로 페더미스에 대한 열렬한 의욕적인 란이 있습니다. [](/azure/active-directory/hybrid/choose-ad-authn) 일반적으로 더 간단하므로 사용하지 않을 이유가 없는 한 PHS를 사용하는 것이 좋습니다. 동일한 테넌트의 여러 DNS 도메인에 대해 서로 다른 인증 방법을 구성할 수도 있습니다. 
+일반적으로 페더미스에 대한 열렬한 의욕적인 란이 있습니다. [](/azure/active-directory/hybrid/choose-ad-authn) 일반적으로 더 간단하므로 사용하지 않을 이유가 없는 한 PHS를 사용하는 것이 좋습니다. 동일한 테넌트의 여러 DNS 도메인에 대해 서로 다른 인증 방법을 구성할 수도 있습니다.
 
 일부 고객은 페더ation + PHS를 주로 사용할 수 있습니다.
 
@@ -132,14 +132,14 @@ Azure AD의 정책 엔진은 조건부 액세스 정책을 [사용하여 구현�
 
 이 확장된 권한 부여 정의에 동의하는 경우 추가 솔루션을 구현해야 합니다. 구현하는 솔루션은 정책의 동적인 방식과 우선 순위를 지정하려는 위협에 따라 결정됩니다. 이러한 시스템의 몇 가지 예는 다음과 같습니다.
 
-- [Azure AD ID 보호](/azure/active-directory/identity-protection/) 
+- [Azure AD ID 보호](/azure/active-directory/identity-protection/)
 - [ID용 Microsoft Defender](/azure-advanced-threat-protection/)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Office 365용 Microsoft Defender](../security/office-365-security/defender-for-office-365.md?view=o365-worldwide)
+- [Office 365용 Microsoft Defender](../security/office-365-security/defender-for-office-365.md)
 - [](/cloud-app-security/) Microsoft Cloud App Security(MCAS)
-- [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md?view=o365-worldwide)
+- [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md)
 - [Microsoft Intune](/mem/intune/)
-- [MIP(Microsoft Information Protection)](../compliance/information-protection.md?view=o365-worldwide)
+- [](../compliance/information-protection.md) Microsoft Information Protection(MIP)
 - [Azure Sentinel](/azure/sentinel/)
 
 물론 Azure AD 외에도 다양한 서비스 및 응용 프로그램에는 자체적인 특정 권한 부여 모델이 있습니다. 이러한 중 일부는 위임 섹션의 나중에 설명합니다.
@@ -154,11 +154,11 @@ Azure AD에는 자세한 감사 [및 보고 기능이](/azure/active-directory/r
 
 ![전자 메일에 파일 첨부](../media/solutions-architecture-center/modern-attachments.png)
 
-Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은 서비스를 볼 수 Exchange. 여기에는 Azure AD, Microsoft Search, 앱, 프로필, 규정 준수 및 Office 365 포함됩니다. 
+Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은 서비스를 볼 수 Exchange. 여기에는 Azure AD, Microsoft Search, 앱, 프로필, 규정 준수 및 Office 365 포함됩니다.
 
 ![Outlook 인터페이스](../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png)
 
-예정된 [Microsoft Fluid Framework](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-blog-microsoft-fluid-framework-preview/ba-p/978268) 미리 보기에 대한 자세한 내용을 읽어 읽습니다. 이제 미리 보기에서 직접 Teams 읽고 회신할 수 Outlook. 실제로 Teams [](https://products.office.com/microsoft-teams/download-app) 클라이언트는 이 전략의 보다 두드러진 예 중 하나입니다. 
+예정된 [Microsoft Fluid Framework](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-blog-microsoft-fluid-framework-preview/ba-p/978268) 미리 보기에 대한 자세한 내용을 읽어 읽습니다. 이제 미리 보기에서 직접 Teams 읽고 회신할 수 Outlook. 실제로 Teams [](https://products.office.com/microsoft-teams/download-app) 클라이언트는 이 전략의 보다 두드러진 예 중 하나입니다.
 
 전반적으로 Microsoft 클라우드의 다른 서비스와 Office 365 명확한 선을 그리는 것이 점점 더 어려워지고 있습니다. 고객이 구성 요소를 하나만 사용 경우에도 모든 작업을 혁신적으로 이행할 수 있는 이점을 고객에게는 큰 혜택으로 보고 있습니다. 매우 멋지며 많은 고객에게는 의미가 있습니다.
 
@@ -182,10 +182,10 @@ Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은
 
 - 서로 다른 엔터티 간에 쉬운 공동 작업이 필요하지 않을 뿐만 아니라 강력한 관리 및 기타 분리 요구가 있는 보유 유형 회사 구조입니다.
 - 인수 후 두 엔터티를 분리하기 위한 비즈니스 결정이 결정됩니다.
-- 고객의 프로덕션 환경을 변경하지 않는 고객 환경 시뮬레이션 
+- 고객의 프로덕션 환경을 변경하지 않는 고객 환경 시뮬레이션
 - 고객을 위한 소프트웨어 개발.
 
-이러한 다중 테넌트 시나리오에서 고객은 일부 구성을 테넌트 전체에서 동일하게 유지하거나 구성 변경 및 변경 내용에 대해 보고하려는 경우가 종종 있습니다. 이는 종종 수동으로 변경한 구성에서 코드로 구성을 이동하는 것입니다. Microsoft 프리미어 지원에서는 이 공용 IP를 기반으로 하여 이러한 유형의 요구 사항에 대한 워크숍을 [https://Microsoft365dsc.com](https://Microsoft365dsc.com) 제공합니다.
+이러한 다중 테넌트 시나리오에서 고객은 일부 구성을 테넌트 전체에서 동일하게 유지하거나 구성 변경 및 변경 내용에 대해 보고하려는 경우가 종종 있습니다. 이는 종종 수동으로 변경한 구성에서 코드로 구성을 이동하는 것입니다. Microsoft 프리미어 지원에서는 이 공용 IP를 기반으로 하여 이러한 유형의 요구 사항에 대한 워크숍을 <https://Microsoft365dsc.com> 제공합니다.
 
 ### <a name="multi-geo"></a>Multi-Geo
 
@@ -195,7 +195,7 @@ Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은
 - GDPR 규정 준수를 위한 [솔루션이 아닙니다.](https://www.microsoft.com/trust-center/privacy/gdpr-overview) GDPR은 데이터 주권 또는 저장소 위치에 초점을 맞추지 않습니다. 이에 대한 다른 규정 준수 프레임워크가 있습니다.
 - 관리 위임(아래 참조) 또는 정보 장벽은 [해결되지 않습니다.](../compliance/information-barriers.md)
 - 다중 테넌트와는 같지 않습니다. 따라서 추가 사용자 프로비전 [워크플로가](https://github.com/MicrosoftDocs/azure-docs-pr/blob/master/articles/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation.md) 필요합니다.
-- 테넌트(Azure AD)를 다른 지리로 이동하지 않습니다. [](../enterprise/moving-data-to-new-datacenter-geos.md) 
+- 테넌트(Azure AD)를 다른 지리로 이동하지 않습니다. [](../enterprise/moving-data-to-new-datacenter-geos.md)
 
 ## <a name="delegation-of-administration"></a>관리 위임
 
@@ -203,15 +203,15 @@ Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은
 
 ### <a name="azure-ad-and-microsoft-365-admin-centers"></a>Azure AD 및 Microsoft 365 센터
 
-길고 성장하는 기본 제공 역할 [목록이 있습니다.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 각 역할은 특정 작업이 수행될 수 있도록 그룹화되는 역할 권한 목록으로 구성됩니다. 이러한 사용 권한은 각 역할 내 "설명" 탭에서 볼 수 있습니다. 또는 관리 센터에서 좀 더 사람이 읽을 수 있는 버전을 Microsoft 365 있습니다. 기본 제공 역할에 대한 정의는 수정할 수 없습니다. 일반적으로 다음 세 가지 범주로 그룹화합니다.
+길고 성장하는 기본 제공 역할 [목록이 있습니다.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 각 역할은 특정 작업이 수행될 수 있도록 그룹화되는 역할 권한 목록으로 구성됩니다. 이러한 사용 권한은 각 역할 내 "설명" 탭에서 볼 수 있습니다. 또는 사용자 센터에서 좀 더 사람이 읽을 수 있는 버전을 Microsoft 365 관리 있습니다. 기본 제공 역할에 대한 정의는 수정할 수 없습니다. 일반적으로 다음 세 가지 범주로 그룹화합니다.
 
-- **전역 관리자:** 이 "모든 강력한" 역할은 다른 시스템에서와 마찬가지로 매우 보호해야 합니다. [](../enterprise/protect-your-global-administrator-accounts.md) 일반적인 권장 사항은 다음과 같습니다. 영구 할당 없음 및 Azure AD PIM(Privileged Identity Management); 강력한 인증 등. 흥미롭게도 이 역할은 기본적으로 모든 데이터에 대한 액세스 권한을 부여하지 않습니다. 일반적으로 나중에 설명하는 규정 준수 액세스 및 Azure 액세스에 대해 혼동을 하게 됩니다. 그러나 이 역할은 항상 테넌트의 다른 서비스에 대한 액세스를 할당할 수 있습니다. 
+- **전역 관리자:** 이 "모든 강력한" 역할은 다른 시스템에서와 마찬가지로 매우 보호해야 합니다. [](../enterprise/protect-your-global-administrator-accounts.md) 일반적인 권장 사항은 다음과 같습니다. 영구 할당 없음 및 Azure AD PIM(Privileged Identity Management); 강력한 인증 등. 흥미롭게도 이 역할은 기본적으로 모든 데이터에 대한 액세스 권한을 부여하지 않습니다. 일반적으로 나중에 설명하는 규정 준수 액세스 및 Azure 액세스에 대해 혼동을 하게 됩니다. 그러나 이 역할은 항상 테넌트의 다른 서비스에 대한 액세스를 할당할 수 있습니다.
 - **특정 서비스 관리자:** 일부 서비스(Exchange, SharePoint, Power BI 등)는 Azure AD의 높은 수준의 관리 역할을 사용 합니다. 이는 모든 서비스에서 일관되지는 못하며 나중에 더 많은 서비스별 역할에 대해 논의합니다.
 - **기능:** 특정 작업(게스트 초대자 등)에 초점을 맞추는 긴(및 성장) 역할 목록이 있습니다. 주기적으로 이러한 추가는 고객의 요구에 따라 추가됩니다.
 
 간격이 줄어들어도 모든 것을 위임할 수 없습니다. 즉, 전역 관리자 역할을 때때로 사용해야 합니다. 이 역할의 구성원 자격 대신 코드로 구성 및 자동화를 고려해야 합니다.
 
-**참고:** Microsoft 365 관리 센터에는 사용자에게 친숙한 인터페이스가 있지만 Azure AD 관리 환경과 비교할 때 기능의 하위 집합이 있습니다. 두 포털 모두 동일한 Azure AD 역할을 사용 하여 동일한 장소에서 변경이 발생하고 있습니다. 팁: 모든 Azure 클러터 없이 ID 관리 중심의 관리 UI를 원할 경우 를 [https://aad.portal.azure.com](https://aad.portal.azure.com) 사용하세요. 
+**참고:** Microsoft 365 관리 센터 인터페이스는 사용자에게 친숙하지만 Azure AD 관리자 환경과 비교할 때 기능의 하위 집합이 있습니다. 두 포털 모두 동일한 Azure AD 역할을 사용 하여 동일한 장소에서 변경이 발생하고 있습니다. 팁: 모든 Azure 클러터 없이 ID 관리 중심의 관리 UI를 원할 경우 를 <https://aad.portal.azure.com> 사용하세요.
 
 이름에 무엇이 있나요? 역할 이름에서 가정하지 않습니다. 언어는 매우 정확한 도구가 아니기도 합니다. 목표는 필요한 역할을 보기 전에 위임해야 하는 작업을 정의하는 것입니다. 누군가를 "보안 독자" 역할에 추가하면 모든 역할에 보안 설정이 표시되지는 않습니다.
 
@@ -221,7 +221,7 @@ Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은
 
 현재 이러한 모든 역할에는 직접 구성원 자격(또는 Azure AD PIM을 사용하는 경우 동적 [할당)이 필요하게 됩니다.](/azure/active-directory/privileged-identity-management/) 즉, 고객은 Azure AD에서 직접 관리해야 하며 이러한 관리는 보안 그룹 구성원 자격을 기반으로 할 수 없습니다. 상승된 권한으로 실행해야 하기 때문에 이러한 스크립트를 관리하기 위해 스크립트를 만드는 것은 팬이 되지 않습니다. 일반적으로 ServiceNow와 같은 프로세스 시스템이나 Saviynt와 같은 파트너 거버넌스 도구를 사용하여 API를 통합하는 것이 좋습니다. 시간이 지날 때 이 문제를 해결하기 위한 엔지니어링 작업도 진행됩니다.
 
-Azure [AD PIM을](/azure/active-directory/privileged-identity-management/) 몇 번 언급했습니다. 해당 Microsoft Identity Manager(MIM) [PAM(Privileged Access Management)](/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services) 솔루션이 있습니다. [PAW(Privileged Access Workstation)](/windows-server/identity/securing-privileged-access/privileged-access-workstations) 및 Azure AD Id 거버넌스를 확인할 [수도 있습니다.](/azure/active-directory/governance/identity-governance-overview) 다양한 타사 도구도 있으며, 이 도구는 Just-In-Time, just-enough 및 동적 역할 상승을 가능하게 할 수 있습니다. 이는 일반적으로 환경 보안에 대한 자세한 논의의 일부입니다. 
+Azure [AD PIM을](/azure/active-directory/privileged-identity-management/) 몇 번 언급했습니다. 해당 Microsoft Identity Manager(MIM) [PAM(Privileged Access Management)](/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services) 솔루션이 있습니다. [PAW(Privileged Access Workstation)](/windows-server/identity/securing-privileged-access/privileged-access-workstations) 및 Azure AD Id 거버넌스를 확인할 [수도 있습니다.](/azure/active-directory/governance/identity-governance-overview) 다양한 타사 도구도 있으며, 이 도구는 Just-In-Time, just-enough 및 동적 역할 상승을 가능하게 할 수 있습니다. 이는 일반적으로 환경 보안에 대한 자세한 논의의 일부입니다.
 
 경우에 따라 역할에 외부 사용자를 추가해야 하는 경우도 있습니다(위의 다중 테넌트 섹션 참조). 이 방식은 괜찮습니다. [Azure AD B2B는](/azure/active-directory/b2b/) 고객이 다른 문서에서 참조할 수 있는 또 다른 크고 재미있는 항목입니다.
 
@@ -231,7 +231,7 @@ Azure [AD PIM을](/azure/active-directory/privileged-identity-management/) 몇 �
 
 의미상, 이러한 역할 그룹 모델은 Exchange 발전된 것입니다. 그러나 Exchange Online 자체 [역할 그룹 관리 인터페이스가](/exchange/permissions-exo) 있습니다. Exchange Online 일부 역할 그룹은 Azure AD 또는 보안 & 준수 센터에서 잠기고 관리되지만 다른 역할 그룹은 이름이 같거나 유사할 수 있으며 Exchange Online(혼란에 추가)에서 관리됩니다. 사용자 인터페이스의 범위가 필요한 Exchange Online 사용자 인터페이스는 사용하지 않는 Exchange 좋습니다.
 
-사용자 지정 역할은 만들 수 없습니다. 역할은 Microsoft에서 만든 서비스에 의해 정의되고 새 서비스가 도입되면 커질 것입니다. 개념상 Azure AD의 응용 프로그램에서 [정의한 역할과](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) 비슷합니다. 새 서비스를 사용하도록 설정한 경우 이러한 서비스에 대한 액세스 권한을 부여하거나 위임하기 위해 새 역할 그룹을 만들어야 하는 경우가 종종 있습니다(예: 내부자 위험 [관리).](../compliance/insider-risk-management-configure.md?view=o365-worldwide)
+사용자 지정 역할은 만들 수 없습니다. 역할은 Microsoft에서 만든 서비스에 의해 정의되고 새 서비스가 도입되면 커질 것입니다. 개념상 Azure AD의 응용 프로그램에서 [정의한 역할과](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) 비슷합니다. 새 서비스를 사용하도록 설정한 경우 이러한 서비스에 대한 액세스 권한을 부여하거나 위임하기 위해 새 역할 그룹을 만들어야 하는 경우가 종종 있습니다(예: 내부자 위험 [관리).](../compliance/insider-risk-management-configure.md)
 
 또한 이러한 역할 그룹에는 직접 구성원 자격이 필요하며 Azure AD 그룹을 포함할 수 없습니다. 안타깝게도 현재 이러한 역할 그룹은 Azure AD PIM에서 지원되지 않습니다. Azure AD 역할과 마찬가지로 API 또는 Saviynt와 같은 파트너 거버넌스 제품을 통해 이러한 관리가 권장됩니다.
 
@@ -243,31 +243,37 @@ Azure [AD PIM을](/azure/active-directory/privileged-identity-management/) 몇 �
 
 앞에서 밝혔듯이 많은 고객은 보다 세분화된 위임 모델을 달성하기를 원합니다. 일반적인 예: "부서 X 사용자 및 위치에 대한 XYZ 서비스만 관리"(또는 다른 차원). 이 작업을 하는 기능은 각 서비스에 따라 달라지며 서비스 및 기능 전체에서 일관되지 않습니다. 또한 각 서비스에는 별도의 고유한 RBAC 모델이 있을 수 있습니다. 이러한 모든 정보를 논의하는 대신(영문일 수 있습니다) 각 서비스에 대한 관련 링크를 추가하고 있습니다. 이 목록은 전체 목록이 아니며 시작할 수 있습니다.
 
-- **Exchange Online** - [https://docs.microsoft.com/exchange/permissions-exo/permissions-exo](/exchange/permissions-exo/permissions-exo) 
-- **SharePoint 온라인** - [https://docs.microsoft.com/sharepoint/manage-site-collection-administrators](/sharepoint/manage-site-collection-administrators) 
-- **Microsoft Teams**  -  [https://docs.microsoft.com/microsoftteams/itadmin-readiness](/microsoftteams/itadmin-readiness)
-- **eDiscovery** - [https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions](../compliance/index.yml) 
-  + **사용 권한 필터링**  -  [https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search](../compliance/index.yml)
-  + **규정 준수 경계**  -  [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries](../compliance/set-up-compliance-boundaries.md)
-  + **Advanced eDiscovery**  -  [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20](../compliance/overview-ediscovery-20.md)
-- **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](/yammer/manage-yammer-users/manage-yammer-admins) 
-- **Multi-Geo** - [https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin](../enterprise/add-a-sharepoint-geo-admin.md) 
-- **Dynamics 365** – [https://docs.microsoft.com/dynamics365/](/dynamics365/) <br>
-  참고: 이 링크는 설명서의 루트에 연결됩니다. 관리자/위임 모델에는 변형이 있는 여러 유형의 서비스가 있습니다.
-- **Power Platform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation](/power-platform/admin/admin-documentation)
-  + **Power Apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security](/power-platform/admin/wp-security) <br>
-    참고: 관리자/위임 모델에는 변형이 있는 여러 유형이 있습니다.
-  + **Power Automate**  -  [https://docs.microsoft.com/power-automate/environments-overview-admin](/power-automate/environments-overview-admin)
-  + **Power BI**  -  [https://docs.microsoft.com/power-bi/service-admin-governance](/power-bi/service-admin-governance) <br>
-참고: 데이터 플랫폼 보안 및 위임(구성 요소인 Power BI)은 복잡한 영역입니다.
-- **MEM/Intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control](/mem/intune/fundamentals/role-based-access-control)
-- **끝점용 Microsoft Defender**  -  [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles](/windows/security/threat-protection/microsoft-defender-atp/user-roles)
-- **Microsoft 365 Defender** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](../security/defender/m365d-permissions.md)
-- **Microsoft Cloud App Security** - [https://docs.microsoft.com/cloud-app-security/manage-admins](/cloud-app-security/manage-admins)
-- **Stream**  -  [https://docs.microsoft.com/stream/assign-administrator-user-role](/stream/assign-administrator-user-role)
-- **정보 장벽**  -  [https://docs.microsoft.com/microsoft-365/compliance/information-barriers](../compliance/information-barriers.md)
+- **Exchange Online** - (/exchange/permissions-exo/permissions-exo)
+- **SharePoint Online** - (/sharepoint/manage-site-collection-administrators)
+- **Microsoft Teams** - (/microsoftteams/itadmin-readiness)
+- **eDiscovery** - (.. /compliance/index.yml)
+  - **사용 권한 필터링** - (.. /compliance/index.yml)
+  - **규정 준수 경계** - (.. /compliance/set-up-compliance-boundaries.md)
+  - **Advanced eDiscovery** - (.. /compliance/overview-ediscovery-20.md)
+- **Yammer** - (/yammer/manage-yammer-users/manage-yammer-admins)
+- **Multi-Geo** - (.. /enterprise/add-a-sharepoint-geo-admin.md)
+- **Dynamics 365** – (/dynamics365/)
 
-나머지의 경우 최근에는 Docs에서 검색이 매우 [https://docs.microsoft.com/](../compliance/information-barriers.md) 양호했습니다. 
+  참고: 이 링크는 설명서의 루트에 연결됩니다. 관리자/위임 모델에는 변형이 있는 여러 유형의 서비스가 있습니다.
+
+- **Power Platform** - (/power-platform/admin/admin-documentation)
+  - **Power Apps** - (/power-platform/admin/wp-security)
+
+    참고: 관리자/위임 모델에는 변형이 있는 여러 유형이 있습니다.
+
+  - **Power Automate** - (/power-automate/environments-overview-admin)
+  - **Power BI** - (/power-bi/service-admin-governance)
+
+    참고: 데이터 플랫폼 보안 및 위임(구성 요소인 Power BI)은 복잡한 영역입니다.
+
+- **MEM/Intune** - (/mem/intune/fundamentals/role-based-access-control)
+- **끝점용 Microsoft Defender** - (/windows/security/threat-protection/microsoft-defender-atp/user-roles)
+- **Microsoft 365 Defender** - (.. /security/defender/m365d-permissions.md)
+- **Microsoft Cloud App Security** - (/cloud-app-security/manage-admins)
+- **Stream** - (/stream/assign-administrator-user-role)
+- **정보 장벽** - (.. /compliance/information-barriers.md)
+
+나머지의 경우 최근에는 Docs에서 검색이 매우 <https://docs.microsoft.com/> 양호했습니다.
 
 ### <a name="activity-logs"></a>활동 로그
 
@@ -278,37 +284,37 @@ Office 365 감사 [로그가 있습니다.](../compliance/search-the-audit-log-i
 - [Azure](/azure/azure-monitor/platform/diagnostic-settings) AD(사용자와 관련되지 않은 Office 365)
 - [Exchange 메시지 추적](/powershell/module/exchange/get-messagetrace)
 - 위에서 설명한 위협/UEBA 시스템(예: Azure AD ID 보호, Microsoft Cloud App Security, 끝점용 Microsoft Defender 등)
-- [Microsoft 정보 보호](../compliance/data-classification-activity-explorer.md?view=o365-worldwide)
+- [Microsoft 정보 보호](../compliance/data-classification-activity-explorer.md)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi) 
 - [Microsoft Graph](https://graph.microsoft.com)
 
-먼저 보안 및 규정 준수 프로그램에 필요한 모든 로그 원본을 식별하는 것이 중요합니다. 또한 로그마다 서로 다른 인라인 보존 제한이 있습니다. 
+먼저 보안 및 규정 준수 프로그램에 필요한 모든 로그 원본을 식별하는 것이 중요합니다. 또한 로그마다 서로 다른 인라인 보존 제한이 있습니다.
 
-관리자 위임 관점에서 볼 때 대부분의 Microsoft 365 로그에는 기본 제공 RBAC 모델이 없습니다. 로그를 볼 수 있는 권한이 있는 경우 로그의 모든 것을 볼 수 있습니다. 고객 요구 사항의 일반적인 예는 "EU 사용자에 대한 활동만 쿼리할 수 있도록 하려는 경우"(또는 다른 차원)입니다. 이 요구 사항을 충족하려면 로그를 다른 서비스로 전송해야 합니다. Microsoft 클라우드에서 [Azure Sentinel](/azure/sentinel/overview) 또는 Log Analytics로 전송하는 [것이 좋습니다.](/azure/azure-monitor/learn/quick-create-workspace) 
+관리자 위임 관점에서 볼 때 대부분의 Microsoft 365 로그에는 기본 제공 RBAC 모델이 없습니다. 로그를 볼 수 있는 권한이 있는 경우 로그의 모든 것을 볼 수 있습니다. 고객 요구 사항의 일반적인 예는 "EU 사용자에 대한 활동만 쿼리할 수 있도록 하려는 경우"(또는 다른 차원)입니다. 이 요구 사항을 충족하려면 로그를 다른 서비스로 전송해야 합니다. Microsoft 클라우드에서 [Azure Sentinel](/azure/sentinel/overview) 또는 Log Analytics로 전송하는 [것이 좋습니다.](/azure/azure-monitor/learn/quick-create-workspace)
 
 높은 수준의 다이어그램:
 
-![보안 및 규정 준수 프로그램의 로그 원본 다이어그램](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
+![보안 및 규정 준수 프로그램의 로그 원본 다이어그램](../media/solutions-architecture-center/identity-beyond-illustration-4.png)
 
 위의 다이어그램은 이벤트 허브 및/또는 Azure Log Analytics 및/또는 Azure Azure Storage 보낼 수 있는 기본 제공 기능을 제공합니다. 모든 시스템에는 이러한 첫 운영 체제가 아직 포함되어 있지 않습니다. 그러나 이러한 로그를 동일한 리포지토리로 보내는 다른 방법도 있습니다. 예를 들어 [Azure Sentinel로 Teams 보호를 참조하세요.](https://techcommunity.microsoft.com/t5/azure-sentinel/protecting-your-teams-with-azure-sentinel/ba-p/1265761)
 
 모든 로그를 하나의 저장소 위치에 결합하면 상호 상관 관계, 사용자 지정 보존 시간, RBAC 모델을 지원하는 데 필요한 데이터로 확장 등의 추가 이점이 포함됩니다. 이 저장소 시스템에 데이터가 있는 경우 적절한 RBAC 모델을 사용하여 Power BI 대시보드(또는 다른 유형의 시각화)를 만들 수 있습니다.
 
-로그를 한 곳으로만 연결하지는 않습니다. 또한 의 사용자 지정 [RBAC](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) 모델이나 Office 365 로그를 통합하는 Microsoft Cloud App Security 유용할 [Power BI.](../admin/usage-analytics/usage-analytics.md?view=o365-worldwide) 리포지토리마다 이점과 대상이 다릅니다.
+로그를 한 곳으로만 연결하지는 않습니다. 또한 의 사용자 지정 [RBAC](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) 모델이나 Office 365 로그를 통합하는 Microsoft Cloud App Security 유용할 [Power BI.](../admin/usage-analytics/usage-analytics.md) 리포지토리마다 이점과 대상이 다릅니다.
 
-Microsoft 365 [Defender라는](../security/defender/microsoft-365-defender.md?view=o365-worldwide)서비스에는 보안, 위협, 취약성 등 다양한 기본 제공 분석 시스템이 Microsoft 365 있습니다.
+이라는 서비스에 보안, 위협, 취약성 등 다양한 기본 제공 분석 [시스템이](../security/defender/microsoft-365-defender.md)Microsoft 365 Defender.
 
 많은 대규모 고객은 이 로그 데이터를 타사 시스템(예: SIEM)으로 전송하기를 원합니다. 이 방법은 서로 다르지만 일반적인 [Azure](/azure/azure-monitor/platform/stream-monitoring-data-event-hubs) [이벤트](/graph/security-integration) 허브 및 Graph 좋은 시작점입니다.
 
 ### <a name="azure"></a>Azure
 
-Azure AD, Azure 및 SaaS 간에 높은 권한 역할을 구분할 수 있는 방법이 있는지(예: Azure의 경우 전역 관리자Office 365 질문이 있습니다.  설마.  완전한 관리 분리가 필요하지만 매우 복잡해진 경우 다중 테넌트 아키텍처가 [필요합니다(위](https://aka.ms/multi-tenant-user) 참조). 이러한 모든 서비스는 동일한 보안/ID 경계에 포함됩니다(위의 계층 구조 모델 살펴보기).  
+Azure AD, Azure 및 SaaS 간에 높은 권한 역할을 구분할 수 있는 방법이 있는지(예: Azure의 경우 전역 관리자Office 365 질문이 있습니다.  설마.  완전한 관리 분리가 필요하지만 매우 복잡해진 경우 다중 테넌트 아키텍처가 [필요합니다(위](https://aka.ms/multi-tenant-user) 참조). 이러한 모든 서비스는 동일한 보안/ID 경계에 포함됩니다(위의 계층 구조 모델 살펴보기).
 
 동일한 테넌트에 있는 다양한 서비스 간의 관계를 이해하는 것이 중요합니다. Azure, Office 365 및 Power Platform에 걸쳐 비즈니스 솔루션을 구축하는 많은 고객과 협력하고 있습니다(또한 종종 사내 및 타사 클라우드 서비스). 한 가지 일반적인 예:
 
 1. 문서/이미지/등 집합에 대해 공동 작업을 하고 싶음(Office 365)
 2. 승인 프로세스(Power Platform)를 통해 각각 보내기
-3.  모든 구성 요소가 승인되면 이러한 구성 요소를 통합 결과물(Azure) Microsoft Graph [API로](/azure/active-directory/develop/microsoft-graph-intro) 어셈블합니다.  불가능하지는 않지만 여러 테넌트에 걸쳐 있는 솔루션을 디자인하는 것이 훨씬 [더 복잡합니다.](/azure/active-directory/develop/single-and-multi-tenant-apps)
+3. 모든 구성 요소가 승인되면 이러한 구성 요소를 통합 결과물(Azure) Microsoft Graph [API로](/azure/active-directory/develop/microsoft-graph-intro) 어셈블합니다.  불가능하지는 않지만 여러 테넌트에 걸쳐 있는 솔루션을 디자인하는 것이 훨씬 [더 복잡합니다.](/azure/active-directory/develop/single-and-multi-tenant-apps)
 
 Azure Role-Based RBAC(액세스 제어)를 사용하면 Azure에 대해 세분화된 액세스 관리를 사용할 수 있습니다. RBAC를 사용하면 사용자에게 작업을 수행하는 데 필요한 몇 가지 권한을 부여하여 리소스에 대한 액세스를 관리할 수 있습니다. 자세한 내용은 이 문서의 범위를 벗어날 수 있지만 RBAC에 대한 자세한 내용은 Azure의 RBAC(역할 기반 액세스 [제어)란?을 참조하세요.](/azure/role-based-access-control/overview) RBAC는 중요하지만 Azure에 대한 거버넌스 고려 사항의 일부일 뿐입니다. [클라우드 채택 프레임워크는](/azure/cloud-adoption-framework/govern/) 자세한 내용을 알아보는 좋은 시작 지점입니다. I like how my friend, Andres Ravinet walks customers step by step though various components to decide on the approach. 다양한 요소에 대한 개성 있는 보기(실제 고객 모델에 대한 프로세스만큼 좋지는 않습니다.)는 같습니다.
 

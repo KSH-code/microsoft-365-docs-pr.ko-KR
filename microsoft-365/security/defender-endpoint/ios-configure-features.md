@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 07905cc3f1b3bd4445199d7bddcdf3b45500bd5f
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 749e03cb9d14476245baea82c21d322d4d726aad
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194952"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230010"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
@@ -78,7 +78,7 @@ iOS/iPadOS의 APP(App Protection Policies, MAM)에서 사용할 위협 신호를
 1. 조건부 **시작**  >  **장치 조건에서** 허용되는 장치 위협 수준 **최대 설정을 찾을 수 있습니다.** 낮음, 중간, 높음 또는 보안으로 구성해야 합니다. 사용할 수 있는 작업은  액세스 차단 또는 데이터 **지우기 입니다.** 이 설정이 적용하기 전에 커넥터를 설정해야 하는 정보 대화 상자가 표시될 수 있습니다. 커넥터가 이미 설정되어 있는 경우 이 대화 상자를 무시할 수 있습니다.
 1. 할당을 완료하고 정책을 저장합니다.
 
-MAM 또는 앱 보호 정책에 대한 자세한 내용은 iOS 앱 보호 정책 설정을 [참조하세요.](https://docs.microsoft.com/mem/intune/apps/app-protection-policy-settings-ios)
+MAM 또는 앱 보호 정책에 대한 자세한 내용은 iOS 앱 보호 정책 설정을 [참조하세요.](/mem/intune/apps/app-protection-policy-settings-ios)
 
 ### <a name="deploying-microsoft-defender-for-endpoint-for-mam-or-on-unenrolled-devices"></a>MAM용 끝점 또는 미가용 장치에 Microsoft Defender 배포
 

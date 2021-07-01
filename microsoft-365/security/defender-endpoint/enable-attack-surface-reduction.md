@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 06/02/2021
-ms.openlocfilehash: cb56872be3cef2e094583e59a702707f79355743
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 65215d15e79ab03611bbf28c153d6882fd1c355d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177624"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229146"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
 
@@ -49,7 +49,7 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 공격 표면 감소 규칙의 전체 기능 집합을 사용하려면 다음이 필요합니다.
 
 - Windows Defender 바이러스 백신 AV로 사용(실시간 보호 기능)
-- [클라우드 배달 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 기능 사용(일부 규칙의 경우
+- [클라우드 배달 보호](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 기능 사용(일부 규칙의 경우
 - Windows 10 Enterprise E5 또는 E3 라이선스 또는 Microsoft 365 라이선스
 
 공격 표면 감소 규칙에는 [Windows E5](/windows/deployment/deploy-enterprise-licenses)라이선스가 필요하지는 않습니다. Windows E5 라이선스가 있는 경우 끝점용 Defender에서 사용 가능한 모니터링, 분석 및 워크플로를 비롯한 고급 관리 기능과 Microsoft 365 보안 센터의 보고 및 구성 기능을 사용할 수 있습니다. E3 라이선스에서는 이러한 고급 기능을 사용할 수 없지만 이벤트 뷰어를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.

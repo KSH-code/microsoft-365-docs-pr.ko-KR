@@ -1,7 +1,7 @@
 ---
-title: Defender Microsoft 365 시뮬레이션 실행
-description: Defender 파일럿 Microsoft 365 대한 공격 시뮬레이션을 실행하여 공격 시뮬레이션을 실행하여 공격이 어떻게 진행되고 신속하게 수정하는지 볼 수 있습니다.
-keywords: Microsoft 365 Defender 파일럿 공격 시뮬레이션, Microsoft 365 Defender 파일럿 공격 시뮬레이션을 실행하고, Microsoft 365 Defender의 공격을 시뮬레이션하고, Microsoft 365 Defender 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+title: 공격 Microsoft 365 Defender 실행
+description: 파일럿 프로젝트에 대한 공격 시뮬레이션을 Microsoft 365 Defender 실행하여 공격이 어떻게 빠르게 진행되고 수정하는지 볼 수 있습니다.
+keywords: Microsoft 365 Defender 파일럿 공격 시뮬레이션을 실행하고, Microsoft 365 Defender 파일럿 공격 시뮬레이션을 실행하고, Microsoft 365 Defender, Microsoft 365 Defender 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅을 시뮬레이션합니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 767a7ea4c4c7604d1d4b227f08e4ca32c62737c5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 18dc8158ef3c806e5dac5a01778adebc6eecc1ce
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934480"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230022"
 ---
-# <a name="run-your-microsoft-365-defender-attack-simulations"></a>Defender Microsoft 365 시뮬레이션 실행
+# <a name="run-your-microsoft-365-defender-attack-simulations"></a>공격 Microsoft 365 Defender 실행
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "51934480"
 
 현재 공격 시뮬레이션 단계에 있습니다.
 
-파일럿 환경을 준비한 후 이제 파일럿 Microsoft 365 자동화된 조사 및 수정 기능을 테스트해야 합니다. 고급 기술을 활용하여 감지에서 숨기는 정교한 공격을 시뮬레이트하는 데 도움을 줄 것입니다. 이 공격은 도메인 컨트롤러에서 연 SMB(서버 메시지 블록) 세션을 열고 사용자의 장치의 최근 IP 주소를 검색합니다. 일반적으로 이 공격 범주에는 피해자의 장치에 삭제된 파일이 포함되어 있는 것이 아니라 메모리에서만 발생합니다. 기존 시스템 및 관리 도구를 사용하여 "육지에서 라이브"한 후 실행을 숨기기 위해 시스템 프로세스에 코드를 삽입합니다. 이러한 동작을 사용하면 검색을 피하고 디바이스에서 유지될 수 있습니다.
+파일럿 환경을 준비한 후 문제 관리 및 자동화된 조사 Microsoft 365 Defender 기능을 테스트해야 합니다. 고급 기술을 활용하여 감지에서 숨기는 정교한 공격을 시뮬레이트하는 데 도움을 줄 것입니다. 이 공격은 도메인 컨트롤러에서 연 SMB(서버 메시지 블록) 세션을 열고 사용자의 장치의 최근 IP 주소를 검색합니다. 일반적으로 이 공격 범주에는 피해자의 장치에 삭제된 파일이 포함되어 있는 것이 아니라 메모리에서만 발생합니다. 기존 시스템 및 관리 도구를 사용하여 "육지에서 라이브"한 후 실행을 숨기기 위해 시스템 프로세스에 코드를 삽입합니다. 이러한 동작을 사용하면 검색을 피하고 디바이스에서 유지될 수 있습니다.
 
 이 시뮬레이션에서는 샘플 시나리오가 PowerShell 스크립트로 시작됩니다. 사용자가 스크립트를 실행하도록 속일 수 있습니다. 또는 스크립트가 이전에 감염된 장치에서 다른 컴퓨터로의 원격 연결(공격자가 네트워크에서 을(를) 이동하려고 시도할 수 있습니다. 관리자가 스크립트를 원격으로 실행하여 다양한 관리 작업을 수행하기도 하여 이러한 스크립트를 검색하기 어려울 수 있습니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "51934480"
 
 준비 단계에서 파일럿 환경을 이미 구성한 것이기 때문에 이 시나리오에 대해 테스트 장치와 도메인 컨트롤러의 두 장치가 있는지 확인합니다.
 
-1. 테넌트에서 [Defender를 사용하도록 Microsoft 365 확인합니다.](m365d-enable.md#confirm-that-the-service-is-on)
+1. 테넌트에서 [를 사용하도록 설정되어 있는지 Microsoft 365 Defender.](m365d-enable.md#confirm-that-the-service-is-on)
 
 2. 테스트 도메인 컨트롤러 구성 확인:
 
@@ -134,7 +134,7 @@ SOC 분석가의 시선으로 전환하면 이제 보안 센터 포털에서 공
 
 ### <a name="investigate-the-attack-as-a-single-incident"></a>단일 인시던트로 공격 조사
 
-Microsoft 365 Defender는 분석을 상관 관계화하고 서로 다른 제품의 모든 관련 경고 및 조사를 하나의 인시던트 엔터티로 집계합니다. 이렇게 하면 Microsoft 365 공격 범위가 넓어지며 SOC 분석가가 복잡한 위협을 이해하고 대응할 수 있습니다.
+Microsoft 365 Defender 서로 연관하고 서로 다른 제품의 모든 관련 경고 및 조사를 하나의 인시던트 엔터티로 집계합니다. 이렇게 하면 Microsoft 365 Defender 공격 범위가 넓어지며 SOC 분석가가 복잡한 위협을 이해하고 대응할 수 있습니다.
 
 이 시뮬레이션 중에 생성된 경고는 동일한 위협과 연결되며 그 결과로 자동으로 단일 인시던트로 집계됩니다.
 
@@ -148,7 +148,7 @@ Microsoft 365 Defender는 분석을 상관 관계화하고 서로 다른 제품�
 
    ![시뮬레이션 중에 생성된 경고가 집계되는 인시던트 페이지의 스크린샷](../../media/mtp/fig4.png)
 
-   대시보드에 표시하는 경고는 ID용 Microsoft Defender, Microsoft Cloud App Security, 끝점용 Microsoft Defender, Microsoft 365 Defender 및 Microsoft Defender for Office 365.
+   대시보드에 표시하는 경고는 ID용 Microsoft Defender, id용 Microsoft Defender, Microsoft Cloud App Security, 끝점용 Microsoft Defender, Microsoft 365 Defender 및 Microsoft Defender for Office 365.
 
 3. **인시던트에 대한** 자세한 정보를 확인하려면 문제 페이지 열기 를 선택합니다.
 
@@ -158,14 +158,14 @@ Microsoft 365 Defender는 분석을 상관 관계화하고 서로 다른 제품�
 
    ![인시던트 관리를 클릭할 위치 스크린샷](../../media/mtp/fig5a.png)
 
-   ![인시던트에 태그를 지정하고, 인시던트에 할당하고, 설명을 추가할 수 있는 문제 관리 패널의 필드 스크린샷 ](../../media/mtp/fig5b.png)
+   ![인시던트에 태그를 지정하고, 인시던트에 할당하고, 설명을 추가할 수 있는 문제 관리 패널의 필드 스크린샷](../../media/mtp/fig5b.png)
 
 ### <a name="review-generated-alerts"></a>생성된 경고 검토
 
 시뮬레이트된 공격 중에 생성되는 몇 가지 경고를 살펴보아 봐야 합니다.
 
 > [!NOTE]
-> 시뮬레이트된 공격 중에 생성된 몇 가지 경고만 진행합니다. 테스트 장치에서 실행되는 Windows 및 Microsoft 365 Defender 제품 버전에 따라 약간 다른 순서로 더 많은 경고가 표시될 수 있습니다.
+> 시뮬레이트된 공격 중에 생성된 몇 가지 경고만 진행합니다. 테스트 장치에서 실행되는 Windows 및 Microsoft 365 Defender 버전에 따라 약간 다른 순서로 더 많은 경고가 표시될 수 있습니다.
 
 ![생성된 경고 스크린샷](../../media/mtp/fig6.png)
 
@@ -279,7 +279,7 @@ SMB(서버 메시지 블록) 프로토콜을 사용하여 열문을 사용하면
 
 이 시나리오에는 단일 내부 사서함 및 장치가 필요합니다. 테스트 메시지를 보내기 위해 외부 전자 메일 계정도 필요합니다.
 
-1. 테넌트가 [Defender 에서 Microsoft 365 확인합니다.](m365d-enable.md#confirm-that-the-service-is-on)
+1. 테넌트에서 [를 사용하도록 설정되어 있는지 Microsoft 365 Defender.](m365d-enable.md#confirm-that-the-service-is-on)
 2. 전자 메일을 받는 데 사용할 대상 사서함을 식별합니다.
     a. 이 사서함은 Microsoft Defender에서 b에 대해 Office 365 합니다. 요구 사항 3의 장치가 이 사서함에 액세스해야 합니다.
 3. 테스트 장치 구성: a. 버전 1903 이상을 Windows 10 있는지 확인
@@ -432,20 +432,20 @@ SMB(서버 메시지 블록) 프로토콜을 사용하여 열문을 사용하면
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>추가 고급 헌팅 연습
 
-고급 헌팅에 대한 자세한 내용을 알아보기 위해 다음 웹캐스트에서는 Microsoft 365 Defender 내에서 고급 헌팅 기능을 통해 상호 기반 쿼리를 만들고 엔터티에 피벗하고 사용자 지정 검색 및 수정 작업을 만드는 방법을 제공합니다.
+고급 헌팅에 대한 자세한 내용을 알아보기 위해 다음 웹캐스트에서는 상호 기반 쿼리를 만들고Microsoft 365 Defender 엔터티에 피벗하고 사용자 지정 검색 및 수정 작업을 만드는 고급 헌팅 기능을 제공합니다.
 
 > [!NOTE]
 > 파일럿 테스트 랩 환경에서 GitHub 쿼리를 실행할 수 있도록 사용자 계정으로 준비하세요.
 
 |제목|설명|MP4 다운로드|YouTube에서 시청|사용할 CSL 파일|
 |---|---|---|---|---|
-|에피소드 1: KQL 기본 사항|Defender의 고급 헌팅 기능에 대한 기본 Microsoft 365 있습니다. 사용 가능한 고급 헌팅 데이터와 기본 KQL 구문 및 연산자에 대해 자세히 알아보습니다.|[MP4](https://aka.ms/MTP15JUL20_MP4)|[YouTube](https://youtu.be/0D9TkGjeJwM)|[에피소드 1: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl)|
+|에피소드 1: KQL 기본 사항|고급 헌팅 기능의 기본 기능에 대해 Microsoft 365 Defender. 사용 가능한 고급 헌팅 데이터와 기본 KQL 구문 및 연산자에 대해 자세히 알아보습니다.|[MP4](https://aka.ms/MTP15JUL20_MP4)|[YouTube](https://youtu.be/0D9TkGjeJwM)|[에피소드 1: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl)|
 |에피소드 2: 참가|고급 헌팅의 데이터와 테이블을 함께 조인하는 방법에 대해 계속 학습할 것입니다. 내부, 외부, 고유 및 세미 조인과 기본 Kusto 내부 유니크 조인의 미주에 대해 자세히 알아보습니다.|[MP4](https://aka.ms/MTP22JUL20_MP4)|[YouTube](https://youtu.be/LMrO6K5TWOU)|[에피소드 2: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl)|
 |에피소드 3: 데이터 요약, 피벗 및 시각화|이제 데이터를 필터링, 조작 및 조인할 수 있습니다. 이제 요약, 수량화, 피벗 및 시각화를 시작할 수 있습니다. 이 에피소드에서는 고급 헌팅 계획의 추가 테이블로 나들이하는 동안 수행할 수 있는 계산과 요약 연산자에 대해 다루게 됩니다. 데이터 집합을 분석을 개선하는 데 도움이 되는 차트로 전환합니다.|[MP4](https://aka.ms/MTP29JUL20_MP4)|[YouTube](https://youtu.be/UKnk9U1NH6Y)|[에피소드 3: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl)|
-|에피소드 4: 헌트해보시고요! 인시던트 추적에 KQL 적용|일부 공격자 활동을 추적하는 시간입니다! 이 에피소드에서는 공격을 추적하기 위해 Microsoft 365 KQL 및 고급 헌팅에 대한 향상된 이해를 사용할 것입니다. 사이버 보안 ABC를 포함하여 공격자 활동을 추적하는 데 사용되는 몇 가지 팁과 트릭과 인시던트 대응에 적용하는 방법을 알아보십시오.|[MP4](https://aka.ms/MTP5AUG20_MP4)|[YouTube](https://youtu.be/2EUxOc_LNd8)|[에피소드 4: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)|
+|에피소드 4: 헌트해보시고요! 인시던트 추적에 KQL 적용|일부 공격자 활동을 추적하는 시간입니다! 이 에피소드에서는 KQL 및 고급 헌팅에 대한 향상된 이해를 사용하여 공격을 Microsoft 365 Defender 것입니다. 사이버 보안 ABC를 포함하여 공격자 활동을 추적하는 데 사용되는 몇 가지 팁과 트릭과 인시던트 대응에 적용하는 방법을 알아보십시오.|[MP4](https://aka.ms/MTP5AUG20_MP4)|[YouTube](https://youtu.be/2EUxOc_LNd8)|[에피소드 4: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)|
 |
 
 ## <a name="next-step"></a>다음 단계
 
-|![닫기 및 요약 단계](../../media/mtp/close.png) <br>[닫기 및 요약 단계](m365d-pilot-close.md)|사용자 Microsoft 365 Defender 파일럿 결과를 분석하여 이해 관계자에게 제시하고 다음 단계를 진행합니다.
+|![닫기 및 요약 단계](../../media/mtp/close.png) <br>[닫기 및 요약 단계](m365d-pilot-close.md)|파일럿 Microsoft 365 Defender 분석하고 이해 관계자에게 제시한 후 다음 단계를 진행합니다.
 |:-----|:-----|

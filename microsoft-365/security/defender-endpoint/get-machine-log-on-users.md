@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 1c81d2978677b751a8085f88b5c4732fd4a5a247
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 634a381ca862dc7580d82168a4b9540acc0cd394
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770052"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229026"
 ---
 # <a name="get-machine-logon-users-api"></a>컴퓨터 로그온 사용자 확인 API
 
@@ -30,7 +30,7 @@ ms.locfileid: "52770052"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -40,26 +40,26 @@ ms.locfileid: "52770052"
 ## <a name="api-description"></a>API 설명
 특정 장치에서 로그온한 사용자 컬렉션을 검색합니다.
 
-
 ## <a name="limitations"></a>제한 사항
 1. 구성된 보존 기간에 따라 마지막으로 업데이트된 경고에 대해 쿼리할 수 있습니다.
 2. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-
 ## <a name="permissions"></a>사용 권한
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형 |사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   User.Read.All | '사용자 프로필 읽기'
+응용 프로그램 |User.Read.All |'사용자 프로필 읽기'
 위임(직장 또는 학교 계정) | User.Read.All | '사용자 프로필 읽기'
 
->[!Note]
+> [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
->- 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다. 자세한 내용은 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
->- 응답에는 장치 그룹 설정에 따라 장치가 사용자에게 표시되는 경우만 포함됩니다. 자세한 내용은 장치 그룹 [만들기 및 관리를 참조하세요.](machine-groups.md)
+>
+> - 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다. 자세한 내용은 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
+> - 응답에는 장치 그룹 설정에 따라 장치가 사용자에게 표시되는 경우만 포함됩니다. 자세한 내용은 장치 그룹 [만들기 및 관리를 참조하세요.](machine-groups.md)
 
 ## <a name="http-request"></a>HTTP 요청
+
 ```http
 GET /api/machines/{id}/logonusers
 ```
@@ -68,19 +68,19 @@ GET /api/machines/{id}/logonusers
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
-
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
+
 비어 있음
 
 ## <a name="response"></a>응답
-성공 및 장치가 있는 경우 - 본문에 [](user.md) 사용자 엔터티 목록이 있는 200 OK. 장치를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
+성공 및 장치가 있는 경우 - 본문에 [](user.md) 사용자 엔터티 목록이 있는 200 OK. 장치를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
 ## <a name="example"></a>예시
 
-**요청**
+### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 
@@ -88,10 +88,9 @@ GET /api/machines/{id}/logonusers
 GET https://api.securitycenter.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2932e418702b84d0cc07/logonusers
 ```
 
-**응답**
+### <a name="response"></a>응답
 
 다음은 응답의 예입니다.
-
 
 ```http
 HTTP/1.1 200 OK

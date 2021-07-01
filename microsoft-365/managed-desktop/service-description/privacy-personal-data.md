@@ -12,12 +12,12 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: 453c26afd176a1282e466a73992ae4abe1542d68
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 0ee214cf7ff5d5998a7fa35688574a23f8b082f0
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177480"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229602"
 ---
 # <a name="overview"></a>개요
 
@@ -68,16 +68,16 @@ Microsoft Windows 10 데이터 수집에 대한 자세한 내용은 Microsoft []
 ## <a name="microsoft-intune"></a>Microsoft Intune
 Microsoft Intune 및 서비스를 지원하기 위해 데이터를 Microsoft Managed Desktop, 프로세스 및 공유합니다. Intune에서 수집된 데이터에 대한 자세한 내용은 [Intune의](/mem/intune/protect/privacy-data-collect) 데이터 수집을 참조하세요. 
 
-데이터 위치에 대한 Microsoft Intune 자세한 내용은 고객 데이터가 [Microsoft 365 위치를 참조하세요.](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide) Intune은 고객 데이터에 대해 관리자가 선택한 저장소 위치를 존중합니다.
+데이터 위치에 대한 Microsoft Intune 자세한 내용은 고객 데이터가 [Microsoft 365 위치를 참조하세요.](/microsoft-365/enterprise/o365-data-locations) Intune은 고객 데이터에 대해 관리자가 선택한 저장소 위치를 존중합니다.
 
 ## <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
-끝점용 Microsoft Defender는 관리, 추적 및 보고를 위해 Microsoft Managed Desktop 등록된 장치에 대한 정보를 수집하고 저장합니다. 수집된 정보에는 파일 데이터(예: 파일 이름, 크기 및 해시), 프로세스 데이터(실행 중인 프로세스, 해시), 레지스트리 데이터, 네트워크 연결 데이터 및 장치 세부 정보(예: 장치 식별자, 장치 이름 및 운영 체제 버전)가 포함됩니다. Endpoint의 데이터 수집 및 저장소 위치에 대한 Microsoft Defender에 대한 자세한 내용은 [Endpoint](/microsoft-365/security/defender-endpoint/data-storage-privacy?view=o365-worldwide#what-data-does-microsoft-defender-atp-collect) 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender를 참조하세요. 
+끝점용 Microsoft Defender는 관리, 추적 및 보고를 위해 Microsoft Managed Desktop 등록된 장치에 대한 정보를 수집하고 저장합니다. 수집된 정보에는 파일 데이터(예: 파일 이름, 크기 및 해시), 프로세스 데이터(실행 중인 프로세스, 해시), 레지스트리 데이터, 네트워크 연결 데이터 및 장치 세부 정보(예: 장치 식별자, 장치 이름 및 운영 체제 버전)가 포함됩니다. Endpoint의 데이터 수집 및 저장소 위치에 대한 Microsoft Defender에 대한 자세한 내용은 [Endpoint](/microsoft-365/security/defender-endpoint/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender를 참조하세요. 
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱 
-엔터프라이즈용 Microsoft 365 앱 데이터를 수집하고 공유하여 Microsoft Managed Desktop 관리되는 미리 정의한 업데이트 채널을 기반으로 최신 버전의 앱을 최신 버전으로 Microsoft Managed Desktop. 데이터 수집 및 저장 위치에 대한 자세한 내용은 Endpoint 데이터 저장소 및 개인 정보 보호를 Microsoft 365 앱 Microsoft [Defender를](/microsoft-365/security/defender-endpoint/data-storage-privacy?view=o365-worldwide#what-data-does-microsoft-defender-atp-collect) 참조하세요.
+엔터프라이즈용 Microsoft 365 앱 데이터를 수집하고 공유하여 Microsoft Managed Desktop 관리되는 미리 정의한 업데이트 채널을 기반으로 최신 버전의 앱을 최신 버전으로 Microsoft Managed Desktop. 데이터 수집 및 저장 위치에 대한 자세한 내용은 Endpoint 데이터 저장소 및 개인 정보 보호를 Microsoft 365 앱 Microsoft [Defender를](/microsoft-365/security/defender-endpoint/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 참조하세요.
 
 ## <a name="major-data-change-notification"></a>주요 데이터 변경 알림
-Microsoft Managed Desktop 통신 프레임워크에 설명된 변경 제어 프로세스를 따르는 것입니다. 보안 인시던트와 서비스에 Microsoft 365 주요 변경 사항을 Microsoft Managed Desktop 및 관리자 포털을 통해 고객에게 알릴 수 있습니다. 수집된 데이터 형식 및 데이터가 저장되는 위치에 대한 변경 내용은 변경된 것으로 간주됩니다. 제품 및 서비스에 대한 표준 사례에 따라 이 변경에 대한 최소 30일의 사전 Microsoft 365 제공합니다. 자세한 내용은 서비스 변경 및 [통신을 참조하세요.](/microsoft-365/managed-desktop/service-description/servicechanges?view=o365-worldwide)
+Microsoft Managed Desktop 통신 프레임워크에 설명된 변경 제어 프로세스를 따르는 것입니다. 보안 인시던트와 서비스에 Microsoft 365 주요 변경 사항을 Microsoft Managed Desktop 및 관리자 포털을 통해 고객에게 알릴 수 있습니다. 수집된 데이터 형식 및 데이터가 저장되는 위치에 대한 변경 내용은 변경된 것으로 간주됩니다. 제품 및 서비스에 대한 표준 사례에 따라 이 변경에 대한 최소 30일의 사전 Microsoft 365 제공합니다. 자세한 내용은 서비스 변경 및 [통신을 참조하세요.](/microsoft-365/managed-desktop/service-description/servicechanges)
 
 ## <a name="compliance"></a>규정 준수
 Microsoft Managed Desktop 감사를 시작하고 포괄적인 규정 준수 제품 집합을 획득했습니다. 자세한 내용은 준수 에서 Microsoft Managed Desktop [있습니다.](/microsoft-365/managed-desktop/intro/compliance) 감사 보고서는 Microsoft Enterprise Online Services의 중앙 리포지토리 역할을 하는 Microsoft Service [Trust Portal에서](https://aka.ms/stp)다운로드할 수 있습니다. 이 Microsoft Managed Desktop "모니터링 및 관리"라는 범주의 문서 내에 나열됩니다. 

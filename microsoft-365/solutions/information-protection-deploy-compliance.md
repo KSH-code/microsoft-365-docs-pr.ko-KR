@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 준수 점수 및 준수 관리자를 사용하여 개인 데이터에 대한 보호 수준을 개선하는 방법을 학습합니다.
-ms.openlocfilehash: 87131ea65661e8285fd7c3b36a87c79b618348d7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 26e9f54ce77869f4f6ef07c18147483628ddc223
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918573"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229302"
 ---
 # <a name="use-compliance-manager-to-manage-improvement-actions"></a>준수 관리자를 사용하여 개선 작업 관리
 
@@ -30,19 +30,18 @@ Microsoft 준수 관리자는 유럽 연합 [GDPR(일반](/compliance/regulatory
 
 이 문서에서는 데이터 개인 정보 보호를 위해 이 도구를 사용하는 방법에 대한 지침을 제공합니다.
 
->[!Note]
->준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다. 규제 환경당 고객 제어의 효율성을 평가하고 유효성을 검사하는 것은 귀하의 의 의의입니다. 이러한 서비스는 온라인 서비스 약관의 사용 [약관을 따라야 합니다.](https://go.microsoft.com/fwlink/?linkid=2108910) 보안 및 Microsoft 365 대한 [라이선스 지침도 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
->
+> [!NOTE]
+> 준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다. 규제 환경당 고객 제어의 효율성을 평가하고 유효성을 검사하는 것은 귀하의 의 의의입니다. 이러한 서비스는 온라인 서비스 약관의 사용 [약관을 따라야 합니다.](https://go.microsoft.com/fwlink/?linkid=2108910) 보안 및 Microsoft 365 대한 [라이선스 지침도 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 
 ## <a name="getting-started-with-compliance-manager"></a>준수 관리자 시작
 
 #### <a name="what-is-compliance-manager"></a>준수 관리자
 
-[준수 관리자는](../compliance/compliance-manager.md) Microsoft 클라우드 서비스와 관련된 규정 준수 활동을 관리하기 위한 Microsoft 365 규정 준수 센터의 워크플로 기반 위험 평가 도구입니다. Azure AD(Microsoft 365 또는 Azure Active Directory) 구독의 일부로 준수 관리자는 Microsoft 클라우드 서비스에 대한 공유 책임 모델 내에서 규정 준수를 관리하는 데 도움이 됩니다.
+[준수 관리자는](../compliance/compliance-manager.md) Microsoft 클라우드 서비스와 관련된 규정 Microsoft 365 규정 준수 센터 관리하기 위한 워크플로 기반 위험 평가 도구입니다. Azure AD(Microsoft 365 또는 Azure Active Directory) 구독의 일부로 준수 관리자는 Microsoft 클라우드 서비스에 대한 공유 책임 모델 내에서 규정 준수를 관리하는 데 도움이 됩니다.
 
 **평가 사용 준비**
 
-준수 관리자는 GDPR 및 [](../compliance/compliance-manager-assessments.md) HIPAA/HITECH와 같은 데이터 개인 정보 관련 규정에 맞춰진 평가를 작성하기 위한 미리 작성된 템플릿을 제공합니다. 템플릿에는 규정 요구 사항을 충족하기 위한 개선 조치를 취할 수 있도록 기본 제공 컨트롤 매핑이 있습니다. 각 평가는 Microsoft에서 관리하는 컨트롤로 나타난 대상 서비스에 대한 각 규정 호출 컨트롤에 대한 정보를 제공합니다. 
+준수 관리자는 GDPR 및 [](../compliance/compliance-manager-assessments.md) HIPAA/HITECH와 같은 데이터 개인 정보 관련 규정에 맞춰진 평가를 작성하기 위한 미리 작성된 템플릿을 제공합니다. 템플릿에는 규정 요구 사항을 충족하기 위한 개선 조치를 취할 수 있도록 기본 제공 컨트롤 매핑이 있습니다. 각 평가는 Microsoft에서 관리하는 컨트롤로 나타난 대상 서비스에 대한 각 규정 호출 컨트롤에 대한 정보를 제공합니다.
 
 미리 작성된 템플릿을 사용하면 위험 평가를 빠르게 시작할 수 있습니다. 준수 관리자를 사용하는 데 더 많은 습관적이면 자체 컨트롤 및 개선 작업을 추가하여 미리 작성된 템플릿을 사용자 지정하거나 조직의 요구에 맞게 사용자 지정 평가를 직접 만들 수 있습니다.
 
@@ -59,7 +58,7 @@ Microsoft 준수 관리자는 유럽 연합 [GDPR(일반](/compliance/regulatory
 - [첫 방문: 준수 관리자에 익숙해지기](../compliance/compliance-manager-quickstart.md#first-visit-get-to-know-compliance-manager)
     - 준수 관리자 대시보드 작업
     - 준수 점수 이해
-    - 개선 작업 학습
+    - Learning 개선 작업에 대한 자세한 정보를
     - 평가 및 템플릿 이해
 - [Ramping up: Configure Compliance Manager to manage your compliance activities](../compliance/compliance-manager-quickstart.md#ramping-up-configure-compliance-manager-to-manage-your-compliance-activities)
     - 첫 번째 평가 구축 및 관리

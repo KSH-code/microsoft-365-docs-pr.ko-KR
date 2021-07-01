@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
 description: 클라우드 전용 또는 하이브리드 ID 모델을 사용하여 Microsoft 365 Azure AD 사용자 ID 서비스를 관리하는 방법을 설명합니다.
-ms.openlocfilehash: b54ccce6ea2a468e02d9db95e7932d847df4e64b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 93a37f39a4d96d7c2e434ed6edf4df588e672a0f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905707"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228498"
 ---
 # <a name="microsoft-365-identity-models-and-azure-active-directory"></a>Microsoft 365 모델 및 Azure Active Directory
 
@@ -46,7 +46,7 @@ Microsoft 365 구독에 Azure Active Directory 클라우드 기반 사용자 ID 
 
 ## <a name="microsoft-365-identity-models"></a>Microsoft 365 ID 모델
 
-사용자 계정을 계획하려면 먼저 사용자 계정의 두 ID 모델을 이해해야 Microsoft 365. 조직의 ID는 클라우드에서만 유지 관리하거나, 사용자가 클라우드 서비스에 액세스할 때 인증에 사용할 수 있는 AD DS(Active Directory 도메인 서비스) ID를 유지 관리하고 Microsoft 365 있습니다.  
+사용자 계정을 계획하려면 먼저 사용자 계정의 두 ID 모델을 이해해야 Microsoft 365. 조직의 ID는 클라우드에서만 유지 관리하거나, 사용자가 클라우드 서비스에 액세스할 때 인증에 사용할 수 있는 AD DS(Active Directory 도메인 서비스) ID를 유지 관리하고 Microsoft 365 있습니다.
 
 다음은 두 가지 유형의 ID와 가장 잘 맞는 이점입니다.
 
@@ -60,16 +60,16 @@ Microsoft 365 구독에 Azure Active Directory 클라우드 기반 사용자 ID 
 
 ## <a name="cloud-only-identity"></a>클라우드 전용 ID
 
-클라우드 전용 ID는 Azure AD에만 있는 사용자 계정을 사용합니다. 클라우드 전용 ID는 일반적으로 사내 서버가 없는 소규모 조직이나 AD DS를 사용하여 로컬 ID를 관리하지 않는 조직에서 사용됩니다. 
+클라우드 전용 ID는 Azure AD에만 있는 사용자 계정을 사용합니다. 클라우드 전용 ID는 일반적으로 사내 서버가 없는 소규모 조직이나 AD DS를 사용하여 로컬 ID를 관리하지 않는 조직에서 사용됩니다.
 
 다음은 클라우드 전용 ID의 기본 구성 요소입니다.
- 
+
 ![클라우드 전용 ID의 기본 구성 요소](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
 사내 및 원격(온라인) 사용자는 모두 Azure AD 사용자 계정 및 암호를 사용하여 클라우드 Microsoft 365 액세스합니다. Azure AD는 저장된 사용자 계정과 암호를 기준으로 사용자 자격 증명을 인증합니다.
 
 ### <a name="administration"></a>관리
-사용자 계정은 Azure AD에만 저장되어 있기 때문에 Microsoft 365 관리 센터 [](../admin/add-users/index.yml) 및 [Windows PowerShell.](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md) 
+사용자 계정은 Azure AD에만 저장되어 있기 때문에 클라우드 ID를 관리하기 위해 [](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)Microsoft 365 관리 센터 [Windows PowerShell.](../admin/add-users/index.yml)
 
 ## <a name="hybrid-identity"></a>하이브리드 ID
 
@@ -77,7 +77,7 @@ Microsoft 365 구독에 Azure Active Directory 클라우드 기반 사용자 ID 
 
 Azure AD 커넥트 계정 동기화를 제공합니다. 이 서버는 사내 서버에서 실행되어 AD DS의 변경 내용을 확인한 다음 Azure AD에 전달합니다. Azure AD 커넥트 동기화할 계정과 PHS(암호 해시 동기화)라고 하는 해시된 버전의 사용자 암호를 동기화할지 여부를 필터링하는 기능을 제공합니다.
 
-하이브리드 ID를 구현하는 경우, 온-프레미스 AD DS가 계정 정보에 대한 권한 있는 원본입니다. 즉, 주로 사내에서 관리 작업을 수행한 다음 Azure AD와 동기화됩니다. 
+하이브리드 ID를 구현하는 경우, 온-프레미스 AD DS가 계정 정보에 대한 권한 있는 원본입니다. 즉, 주로 사내에서 관리 작업을 수행한 다음 Azure AD와 동기화됩니다.
 
 다음은 하이브리드 ID의 구성 요소입니다.
 
@@ -85,22 +85,20 @@ Azure AD 커넥트 계정 동기화를 제공합니다. 이 서버는 사내 서
 
 Azure AD 테넌트에는 AD DS 계정의 복사본이 있습니다. 이 구성에서는 클라우드 서비스에 액세스하는 Microsoft 365 및 원격 사용자가 모두 Azure AD에 대해 인증합니다.
 
->[!Note]
->하이브리드 ID에 대한 사용자 계정을 커넥트 Azure AD 계정을 항상 사용해야 합니다. 라이선스 할당 및 그룹 관리를 수행하고, 사용 권한을 구성하고, 사용자 계정을 구성하는 기타 관리 작업을 수행하려면 Azure AD에서 동기화된 사용자 계정이 필요합니다.
->
+> [!NOTE]
+> 하이브리드 ID에 대한 사용자 계정을 커넥트 Azure AD 계정을 항상 사용해야 합니다. 라이선스 할당 및 그룹 관리를 수행하고, 사용 권한을 구성하고, 사용자 계정을 구성하는 기타 관리 작업을 수행하려면 Azure AD에서 동기화된 사용자 계정이 필요합니다.
 
 ### <a name="administration"></a>관리
 
-원본 및 권한이 있는 사용자 계정은 사내 AD DS에 저장되어 있기 때문에 AD DS를 관리하는 도구와 동일한 도구를 사용하여 ID를 관리합니다. 
+원본 및 권한이 있는 사용자 계정은 사내 AD DS에 저장되어 있기 때문에 AD DS를 관리하는 도구와 동일한 도구를 사용하여 ID를 관리합니다.
 
-Azure AD에서 동기화된 사용자 계정을 관리하기 위해 Microsoft 365 관리 센터 또는 PowerShell을 Microsoft 365 사용하지 않습니다.
+Azure AD에서 동기화된 사용자 Microsoft 365 관리 센터 관리하기 위해 Microsoft 365 PowerShell을 사용하지 않습니다.
 
 ## <a name="next-step"></a>다음 단계
 
 클라우드 전용 ID 모델이 필요한 경우 클라우드 전용 ID [를 참조합니다.](cloud-only-identities.md)
 
 하이브리드 ID 모델이 필요한 경우 하이브리드 ID [를 참조합니다.](plan-for-directory-synchronization.md)
-
 
 ## <a name="see-also"></a>참고 항목
 

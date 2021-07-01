@@ -10,20 +10,20 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목을 설정하는 방법 학습
-ms.openlocfilehash: c6997e5f5a6793468dfe3392ffc2037b319844ad
-ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
+ms.openlocfilehash: 42f84b9b792907d7fe118e0b15c3767674ddf19b
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52893767"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229590"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva 항목 설정
 
-Microsoft 365 관리 센터를 사용하여 항목을 설정하고 [구성할 수 있습니다.](topic-experiences-overview.md) 
+를 사용하여 Microsoft 365 관리 센터 및 [구성할 수 있습니다.](topic-experiences-overview.md) 
 
 환경에서 항목을 설정하고 구성하는 가장 좋은 방법을 계획하는 것이 중요합니다. 이 문서의 절차를 시작하기 전에 [Plan for Microsoft Viva Topics을](plan-topic-experiences.md) 읽어야 합니다.
 
-Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 전역 관리자 또는 SharePoint 관리자로서 Microsoft 365 센터에 액세스하고 항목을 설정해야 합니다.
+Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.microsoft.com/microsoft-viva/topics) SharePoint 관리자 또는 Microsoft 365 관리 센터 해야 합니다.
 
 관리되는 SharePoint 구성한 경우 [](/sharepoint/control-access-from-unmanaged-devices)관리되는 장치에서 항목을 설정해야 합니다.
 
@@ -39,7 +39,7 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 
 ## <a name="assign-licenses"></a>라이선스 할당
 
-항목을 사용할 사용자에 대한 라이선스를 할당해야 합니다. 라이선스가 있는 사용자만 주요 항목, 항목 카드, 항목 페이지 및 항목 센터를 비롯한 항목에 대한 정보를 볼 수 있습니다. 
+항목을 사용할 사용자에 대한 라이선스를 할당해야 합니다. 라이선스가 있는 사용자만 하이라이트, 주제 카드, 주제 페이지 및 주제 센터를 비롯한 주제에 대한 정보를 볼 수 있습니다. 
 
 라이선스를 할당하려면 다음을 수행합니다.
 
@@ -52,7 +52,7 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 4. 앱 **아래에서** **Graph(Viva 항목)** 및 **Viva** 항목을 사용하여 커넥터 검색을 모두 선택해야 합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![Microsoft 365 관리 센터의 Microsoft Viva 항목 라이선스](../media/topic-experiences-licenses.png)
+   > ![Microsoft Viva 항목의 Microsoft 365 관리 센터](../media/topic-experiences-licenses.png)
 
 5. **변경 사항 저장** 를 클릭합니다.
 
@@ -61,10 +61,10 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 ## <a name="set-up-topics"></a>주제 설정
 
 > [!Note]
-> 항목을 처음 검색할 수 있도록 설정한 경우 제안된 모든 항목을 항목 관리 보기에 표시하는 데 최대 2주가 걸릴 수 있습니다. 콘텐츠에 대한 새 콘텐츠 또는 업데이트가 진행될 때 항목 검색이 계속됩니다. Viva 항목에서 새 정보를 평가할 때 조직에서 제안된 항목 수가 변동되는 것은 일반적입니다.
+> 항목을 처음 검색할 수 있도록 설정한 경우 제안된 모든 항목을 항목 관리 보기에 표시하는 데 최대 2주가 걸릴 수 있습니다. 콘텐츠에 대한 새 콘텐츠 또는 업데이트가 진행될 때 항목 검색이 계속됩니다. Viva Topics는 새 정보를 평가하므로 조직에서 제안된 주제 수가 변동되는 것은 일반적입니다.
 
 항목을 설정하기 위해
-1. Microsoft 365 [관리 센터에서](https://admin.microsoft.com)설치 를 선택한 다음 파일 및 **콘텐츠 섹션을** 를 니다. 
+1. 에서 [Microsoft 365 관리 센터](https://admin.microsoft.com) **를 선택한** 다음 파일 및 콘텐츠 **섹션을** 를 니다.
 2. 파일 **및 콘텐츠 섹션에서** 정보를 **커넥트 클릭합니다.**
 
     ![커넥트 정보를 알 수 있습니다.](../media/admin-org-knowledge-options.png) 
@@ -105,7 +105,7 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 
     파일 파일을 완료하고 .csv 찾아보기를 선택하여  찾아보기를 선택합니다.
     
-    **다음** 을 선택하세요.
+    **다음** 을 선택합니다.
 
 6. 항목 **Who** 볼 수 있는 위치 페이지에서 항목 표시를 구성합니다. 항목 **Who** 수 있습니다. 설정에서 강조 표시된 항목, 항목 카드, 검색의 항목 답변 및 항목 페이지와 같은 항목 세부 정보에 액세스할 수 있는 사용자 선택 다음을 선택할 수 있습니다.
     - **조직의 모든 사용자**
@@ -130,11 +130,14 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 
     ![항목 관리에 대한 사용 권한](../media/km-setup-create-edit-topics.png) 
 
-    **다음** 을 선택하세요.
+    **다음** 을 선택합니다.
 
-9. 항목 **센터 만들기 페이지에서** 항목 페이지를 보고 항목을 관리할 수 있는 항목 센터 사이트를 만들 수 있습니다. 사이트 **이름 상자에** 항목 센터의 이름을 입력합니다. 필요한 경우 설명 상자에 간단한 설명을 입력할 **수** 있습니다. 
+9. 항목 **센터 만들기 페이지에서** 항목 페이지를 보고 항목을 관리할 수 있는 항목 센터 사이트를 만들 수 있습니다. 사이트 **이름 상자에** 항목 센터의 이름을 입력합니다. URL을 변경하려면 연필 아이콘을 클릭할 수 있습니다. 선택적으로 설명 상자에 간단한 설명을 **입력합니다.** 
 
-   **다음** 을 선택하세요.
+   > [!Important]
+   > 나중에 사이트 이름을 변경할 수 있지만 마법사를 완료한 후 URL을 변경할 수 없습니다.
+
+   **다음** 을 선택합니다.
 
    ![기술 센터 만들기](../media/ksetup4.png)  
 
@@ -148,7 +151,7 @@ Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 
 
 ## <a name="manage-topic-experiences"></a>항목 환경 관리
 
-항목을 설정한 후 설치 중에 선택한 설정을 Microsoft 365 [있습니다.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) 다음 사항을 참조하세요.
+항목을 설정한 후 의 설치 중에 선택한 설정을 변경할 [Microsoft 365 관리 센터.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) 다음 사항을 참조하세요.
 
 - [Microsoft Viva 항목에서 항목 검색 관리](topic-experiences-discovery.md)
 - [Microsoft Viva 항목에서 항목 표시 관리](topic-experiences-knowledge-rules.md)

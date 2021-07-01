@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 독일 신규 데이터 센터 Office 365 서비스로 전환할 때 사전 작업입니다.'
-ms.openlocfilehash: db4563b4a63dc39ee8171e80fd76ae15b7cd10e9
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 9b7a43789aaa61c03e254275fbf7cc945670ccc2
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844289"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229818"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
@@ -122,8 +122,8 @@ Office 365 "Germany" 지역으로 전환하는 테넌트는 모든 사용자가 
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| 외부 파트너에게 서비스로의 예정된 전환을 Office 365 알릴 수 있습니다. |  고객은 일정 및 가용성 주소 공간 구성 공유를 사용하도록 설정한 파트너에게 알려야 합니다(사용자와 약속이 있는/약속이 있는 정보 Office 365. 가용성 구성은 마이그레이션이 완료될 Office 365 [전](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) 세계 Exchange Online 전환해야 합니다. | 이 작업을 수행하지 못하면 이후 고객 마이그레이션 단계에서 서비스 또는 클라이언트 오류가 발생될 수 있습니다. |
-| 필요한 IMAP4/POP3/SMTP 클라이언트 변경 내용을 사용자에게 알릴 수 있습니다. | 클라이언트 프로토콜 IMAP4, POP3, SMTP에 대한 Microsoft 클라우드 끝점에 대한 장치 연결이 있는 사용자는 클라이언트 장치를 수동으로 업데이트하여 Exchange Online 서버 이름으로 [전환해야 합니다.](/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/pop3-and-imap4#settings-users-use-to-set-up-pop3-or-imap4-access-to-their-exchange-online-mailboxes) | 이러한 프로토콜의 사용자에게 이러한 종속성에 대해 미리 전달하고 이 마이그레이션 중에 모바일 또는 Outlook Outlook 사용하기 위해 전환해야 합니다. 클라이언트 끝점을 업데이트하지 못하면 사용자 사서함이 마이그레이션될 때 도이클란드 Microsoft 클라우드에 대한 클라이언트 연결 오류가 발생합니다. |
+| 외부 파트너에게 서비스로의 예정된 전환을 Office 365 알릴 수 있습니다. |  고객은 일정 및 가용성 주소 공간 구성 공유를 사용하도록 설정한 파트너에게 알려야 합니다(사용자와 약속이 있는/약속이 있는 정보 Office 365. 가용성 구성은 마이그레이션이 완료될 Office 365 [전](/microsoft-365/enterprise/urls-and-ip-address-ranges) 세계 Exchange Online 전환해야 합니다. | 이 작업을 수행하지 못하면 이후 고객 마이그레이션 단계에서 서비스 또는 클라이언트 오류가 발생될 수 있습니다. |
+| 필요한 IMAP4/POP3/SMTP 클라이언트 변경 내용을 사용자에게 알릴 수 있습니다. | 클라이언트 프로토콜 IMAP4, POP3, SMTP에 대한 Microsoft 클라우드 끝점에 대한 장치 연결이 있는 사용자는 클라이언트 장치를 수동으로 업데이트하여 Exchange Online 서버 이름으로 [전환해야 합니다.](/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/pop3-and-imap4#settings-users-use-to-set-up-pop3-or-imap4-access-to-their-exchange-online-mailboxes) | 이러한 프로토콜의 사용자에게 이러한 종속성에 대해 미리 전달하고 마이그레이션 중에 모바일 또는 Outlook 웹용 Outlook 전환해야 합니다. 클라이언트 끝점을 업데이트하지 못하면 사용자 사서함이 마이그레이션될 때 도이클란드 Microsoft 클라우드에 대한 클라이언트 연결 오류가 발생합니다. |
 ||||
 
 ### <a name="exchange-online-hybrid-customers"></a>Exchange Online 하이브리드 고객
@@ -139,7 +139,7 @@ Exchange Online 하이브리드 관리자는 이 전환의 일부로 **HCW(하�
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
 | 독일 설정을 사용하여 HCW Office 365 다시 실행 <br><br> <i>테넌트 마이그레이션이 시작했다는 메시지 센터 알림을 받은 Office 365 바로 이 활동을 시작할 수 있습니다(1단계).</i>| 5단계 이전의 HCW(17.0.5378.0 이상)를 설치하고 다시 실행하면 Microsoft 클라우드 독일 사용자와 독일 Office 365 지역으로 마이그레이션된 사용자와 함께 메일을 보내고 받을 준비가 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 됩니다. <p><li> In the HCW, for the list box below **My Office 365 organization is hosted by**, select Office 365 **Germany.** | 5단계 [Exchange 마이그레이션]이 시작되기 전에 이 작업을 완료하지 못하면 메일에 대한 NDRs가 Exchange 배포 및 Office 365.
-| 공유 사서함 설정 보존 | 일부 하이브리드 고객은 클라우드 사용자 사서함을 클라우드 명령을 사용하여 '공유' 사서함으로 Exchange Online 있습니다. 이 클라우드 사서함 구성은 사서함 및 로컬 Exchange Online 디렉터리에 기록됩니다. 그러나 AAD 사서함을 통해 고객의 Active Directory에 다시 동기화되지 커넥트. 그 결과 RemoteRecipientType 및 RemoteDisplayType 값의 Active Directory 표현과 사서함을 공유로 Exchange Online 간의 불일치가 있습니다. <br><br> 고객은 , 또는 를 사용하여 모든 공유 사서함이 제대로 프로비전되었는지 `New-RemoteMailbox -Shared` `Enable-RemoteMailbox -Shared` `Set-RemoteMailbox -Shared` 확인합니다.  하이브리드 환경에서 사용자 사서함을 변환하는 방법에 대한 자세한 내용은 이 [참조를 참조합니다.](/microsoft-365/admin/email/convert-user-mailbox-to-shared-mailbox?view=o365-worldwide)| 5단계 [Exchange Online 마이그레이션] 전에 이 작업을 완료하지 못하면 공유 사서함에 대한 NDRs가 사용이 허용되지 않은 사서함으로 다시 변환되어 영향을 받는 사서함에 대한 공유 액세스가 손실될 수 있습니다. [공유 사서함은](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes) Exchange 하이브리드 배포에서 디렉터리 동기화가 실행된 후 사용자 사서함으로 예기치 않게 변환됩니다. 마이그레이션이 완료되기 전에 이 문제를 Exchange Online 설명합니다.
+| 공유 사서함 설정 보존 | 일부 하이브리드 고객은 클라우드 사용자 사서함을 클라우드 명령을 사용하여 '공유' 사서함으로 Exchange Online 있습니다. 이 클라우드 사서함 구성은 사서함 및 로컬 Exchange Online 디렉터리에 기록됩니다. 그러나 AAD 사서함을 통해 고객의 Active Directory에 다시 동기화되지 커넥트. 그 결과 RemoteRecipientType 및 RemoteDisplayType 값의 Active Directory 표현과 사서함을 공유로 Exchange Online 간의 불일치가 있습니다. <br><br> 고객은 , 또는 를 사용하여 모든 공유 사서함이 제대로 프로비전되었는지 `New-RemoteMailbox -Shared` `Enable-RemoteMailbox -Shared` `Set-RemoteMailbox -Shared` 확인합니다.  하이브리드 환경에서 사용자 사서함을 변환하는 방법에 대한 자세한 내용은 이 [참조를 참조합니다.](/microsoft-365/admin/email/convert-user-mailbox-to-shared-mailbox)| 5단계 [Exchange Online 마이그레이션] 전에 이 작업을 완료하지 못하면 공유 사서함에 대한 NDRs가 사용이 허용되지 않은 사서함으로 다시 변환되어 영향을 받는 사서함에 대한 공유 액세스가 손실될 수 있습니다. [공유 사서함은](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes) Exchange 하이브리드 배포에서 디렉터리 동기화가 실행된 후 사용자 사서함으로 예기치 않게 변환됩니다. 마이그레이션이 완료되기 전에 이 문제를 Exchange Online 설명합니다.
 ||||
 
 ## <a name="skype-for-business-online"></a>비즈니스용 Skype Online

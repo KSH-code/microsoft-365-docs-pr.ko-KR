@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 테넌트에 대한 올바른 ID 모델을 Microsoft 365 강력한 사용자 로그인을 적용합니다.
-ms.openlocfilehash: 57e84b38715c4fbe29f9aa362e363663b0401f91
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c6b098cf73ef56327448413381d5621dfd4d2b59
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052365"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229074"
 ---
 # <a name="step-3-identity-for-your-microsoft-365-for-enterprise-tenants"></a>3단계. 엔터프라이즈 테넌트의 Microsoft 365 ID
 
@@ -39,7 +39,7 @@ Microsoft 365 테넌트에는 로그인에 대한 ID 및 인증을 Azure Active 
 ||||||
 
 다음은 클라우드 전용 ID의 기본 구성 요소입니다.
- 
+
 ![클라우드 전용 ID의 기본 구성 요소](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
 이 그림에서 사내 및 원격 사용자는 해당 테넌트의 Azure AD 테넌트에 있는 계정으로 Microsoft 365 로그인합니다.
@@ -54,9 +54,8 @@ Microsoft 365 테넌트에는 로그인에 대한 ID 및 인증을 Azure Active 
 
 비즈니스 요구 사항 및 기술 요구 사항에 따라 하이브리드 ID 모델 및 디렉터리 동기화는 비즈니스 요구 사항을 채택하는 엔터프라이즈 고객에게 가장 Microsoft 365. 디렉터리 동기화를 사용하면 AD DS의 ID를 관리할 수 있으며 사용자 계정, 그룹 및 연락처에 대한 모든 업데이트가 Microsoft 365 테넌트의 Azure AD 테넌트와 동기화됩니다.
 
->[!Note]
->AD DS 사용자 계정이 처음으로 동기화되는 경우 사용자에게 Microsoft 365 라이선스가 자동으로 할당되지 Microsoft 365 서비스와 같은 서비스에 액세스할 수 없습니다. 먼저 사용 위치를 할당해야 합니다. 그런 다음 그룹 구성원 자격을 통해 개별적으로 또는 동적으로 이러한 사용자 계정에 라이선스를 할당합니다.
->
+> [!NOTE]
+> AD DS 사용자 계정이 처음으로 동기화되는 경우 사용자에게 Microsoft 365 라이선스가 자동으로 할당되지 Microsoft 365 서비스와 같은 서비스에 액세스할 수 없습니다. 먼저 사용 위치를 할당해야 합니다. 그런 다음 그룹 구성원 자격을 통해 개별적으로 또는 동적으로 이러한 사용자 계정에 라이선스를 할당합니다.
 
 다음은 하이브리드 ID 모델을 사용할 때의 두 가지 인증 유형입니다.
 
@@ -77,7 +76,7 @@ Microsoft 365 테넌트에는 로그인에 대한 ID 및 인증을 Azure Active 
 | 비즈니스용 Windows Hello | 다른 장치에서 로그인할 때 암호를 강력한 2단계 인증으로 Windows 대체합니다. 2단계 인증 요소는 장치에 연결된 새로운 유형의 사용자 자격 증명과 생체 인식 또는 PIN입니다. | [비즈니스용 Windows Hello 개요](/windows/security/identity-protection/hello-for-business/hello-overview) | Microsoft 365 E3 혹은 E5 |
 | Azure AD 암호 보호 | 알려진 약한 암호와 해당 변형을 검색하고 차단하며 조직에 특정한 약한 용어를 추가로 차단할 수도 있습니다. | [Azure AD 암호 보호 구성](/azure/active-directory/authentication/concept-password-ban-bad) | Microsoft 365 E3 혹은 E5 |
 | MFA(다단계 인증) 사용 | MFA를 사용하려면 사용자 로그인 시 사용자 계정 암호 이상의 추가 확인(예: 스마트폰 앱으로 확인 또는 스마트폰으로 전송된 문자 메시지)이 적용될 수 있습니다. 사용자가 [MFA를](https://support.microsoft.com/office/set-up-multi-factor-authentication-in-microsoft-365-business-a32541df-079c-420d-9395-9d59354f7225) 설정하는 방법에 대한 지침은 이 비디오를 참조하세요. | [엔터프라이즈용 Microsoft 365 MFA](../enterprise/microsoft-365-secure-sign-in.md#mfa) | Microsoft 365 E3 혹은 E5 |
-| ID 및 장치 액세스 구성 | 설정 요청이 허용될지 여부 및 조건에 따라 부여할지 여부를 결정하는 조건부 액세스, Intune 및 Azure AD ID 보호 정책과 결합된 권장 선행 조건 기능 및 해당 설정으로 구성된 정책 및 정책입니다.  | [ID 및 장치 액세스 구성](../security/defender-365-security/microsoft-365-policies-configurations.md) | Microsoft 365 E3 혹은 E5 |
+| ID 및 장치 액세스 구성 | 설정 요청이 허용될지 여부 및 조건에 따라 부여할지 여부를 결정하는 조건부 액세스, Intune 및 Azure AD ID 보호 정책과 결합된 권장 선행 조건 기능 및 해당 설정으로 구성된 정책 및 정책입니다.  | [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md) | Microsoft 365 E3 혹은 E5 |
 | Azure AD ID 보호 | 공격자가 조직의 클라우드 서비스 및 데이터에 액세스하기 위해 사용자의 계정 이름과 암호를 확인하는 자격 증명 손상으로부터 보호합니다. | [Azure AD ID 보호](/azure/active-directory/active-directory-identityprotection) | Microsoft 365 E5 Microsoft 365 E3 위협 방지 추가 & 있는 사용자 또는 사용자 |
 |  |  |  |
 
@@ -98,13 +97,13 @@ Microsoft 365 테넌트의 ID에 대해 다음을 결정했습니다.
 
 - DirSync 서버 및 Azure AD 서버를 사용하여 Azure AD 테넌트와 동기화되는 AD DS 커넥트.
 - AD DS 포리스트의 AD DS 사용자 계정 및 기타 개체의 복사본입니다.
-- 사용자 계정을 기반으로 보안 사용자 로그인 및 액세스를 적용하는 조건부 액세스 정책 집합입니다. 
+- 사용자 계정을 기반으로 보안 사용자 로그인 및 액세스를 적용하는 조건부 액세스 정책 집합입니다.
 
 ## <a name="ongoing-maintenance-for-identity"></a>ID에 대한 지속적인 유지 관리
 
 지속적인 기준에 따라 다음을 해야 할 수 있습니다.
 
-- 사용자 계정 및 그룹을 추가하거나 수정합니다. 클라우드 전용 ID의 경우 클라우드 기반 사용자 및 그룹을 azure AD 도구(예: Microsoft 365 관리 센터 또는 PowerShell)로 유지 관리합니다. 하이브리드 ID의 경우 AD DS 도구를 사용하여 사내 사용자 및 그룹을 유지 관리합니다.
+- 사용자 계정 및 그룹을 추가하거나 수정합니다. 클라우드 전용 ID의 경우 클라우드 기반 사용자 및 그룹을 Azure AD 도구(예: Microsoft 365 관리 센터 또는 PowerShell)로 유지 관리합니다. 하이브리드 ID의 경우 AD DS 도구를 사용하여 사내 사용자 및 그룹을 유지 관리합니다.
 - 로그인 보안 요구 사항을 적용하기 위해 ID 및 장치 액세스 구성을 추가하거나 수정합니다.
 
 ## <a name="next-step"></a>다음 단계

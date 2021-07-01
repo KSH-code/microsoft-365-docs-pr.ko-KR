@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 준비하고 배포합니다.
-ms.openlocfilehash: 5a2fa5958117d14715292245924dce2ff63b09a0
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c20381b23a70fdf8e6571af65b74688cc57ea760
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843833"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226962"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장 시작하기
 
@@ -84,11 +84,11 @@ Microsoft 규정 준수 확장 배포는 다단계 프로세스입니다. 한 �
 4. [그룹 정책을 사용하여 배포](#deploy-using-group-policy)
 5. [확장 테스트](#test-the-extension)
 6. [경고 관리 대시보드를 사용하여 Chrome DLP 경고 보기](#use-the-alerts-management-dashboard-to-viewing-chrome-dlp-alerts)
-7. [활동 탐색기에서 Chrome DLP 데이터 보기](#viewing-chrome-dlp-data-in-activity-explorer) 
+7. [활동 탐색기에서 Chrome DLP 데이터 보기](#viewing-chrome-dlp-data-in-activity-explorer)
 
 ### <a name="prepare-infrastructure"></a>인프라 준비
 
-모니터링되는 모든 Windows 10 장치에 Microsoft 규정 준수 확장을 배포하는 경우, 허용되지 않는 앱 및 허용되지 않는 브라우저 목록에서 Google Chrome을 제거해야 합니다. 자세한 내용은 [허용되지 않는 브라우저](endpoint-dlp-using.md#unallowed-browsers)를 참조하세요. 일부 장치에만 배포하는 경우, 허용되지 않은 브라우저 또는 허용되지 않는 앱 목록에 Chrome을 남겨둘 수 있습니다. Microsoft 규정 준수 확장은 앱이 설치된 컴퓨터의 두 목록 모두의 제한을 무시합니다.  
+모니터링되는 모든 Windows 10 장치에 Microsoft 규정 준수 확장을 배포하는 경우, 허용되지 않는 앱 및 허용되지 않는 브라우저 목록에서 Google Chrome을 제거해야 합니다. 자세한 내용은 [허용되지 않는 브라우저](endpoint-dlp-using.md#unallowed-browsers)를 참조하세요. 일부 장치에만 배포하는 경우, 허용되지 않은 브라우저 또는 허용되지 않는 앱 목록에 Chrome을 남겨둘 수 있습니다. Microsoft 규정 준수 확장은 앱이 설치된 컴퓨터의 두 목록 모두의 제한을 무시합니다.
 
 ### <a name="prepare-your-devices"></a>장치 준비
 
@@ -99,13 +99,13 @@ Microsoft 규정 준수 확장 배포는 다단계 프로세스입니다. 한 �
 
 ### <a name="basic-setup-single-machine-selfhost"></a>기본 설정 단일 컴퓨터 셀프호스트
 
-이 방법을 사용하는 것이 좋습니다. 
+이 방법을 사용하는 것이 좋습니다.
 
-1. Microsoft 규정 준수 확장을 설치하려는 Windows 10 컴퓨터에 로그인하고 이 PowerShell 스크립트를 관리자로 실행합니다. 
+1. Microsoft 규정 준수 확장을 설치하려는 Windows 10 컴퓨터에 로그인하고 이 PowerShell 스크립트를 관리자로 실행합니다.
 
    ```powershell
    Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
-   ``` 
+   ```
 
 2.  [Microsoft 규정 준수 확장 - Chrome Web Store(google.com)](https://chrome.google.com/webstore/detail/microsoft-compliance-exte/echcggldkblhodogklpincgchnpgcdco)으로 이동합니다.
 
@@ -158,7 +158,7 @@ Microsoft 규정 준수 확장 배포는 다단계 프로세스입니다. 한 �
 7.  **추가** 를 선택합니다.
 
 8.  다음 정책 정보를 입력합니다.
-    
+
     OMA-URI: `./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist`<br/>
     데이터 형식: `String`<br/>
     값: `<enabled/><data id="ExtensionInstallForcelistDesc" value="1&#xF000; echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx"/>`
@@ -221,34 +221,32 @@ Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용�
 
 ### <a name="test-the-extension"></a>확장 테스트
 
-#### <a name="upload-to-cloud-service-or-access-by-unallowed-browsers-cloud-egress"></a>클라우드 서비스로 업로드 또는 허용되지 않은 브라우저 Cloud Egress에서 액세스  
+#### <a name="upload-to-cloud-service-or-access-by-unallowed-browsers-cloud-egress"></a>클라우드 서비스로 업로드 또는 허용되지 않은 브라우저 Cloud Egress에서 액세스
 
 1. 중요한 항목을 만들거나 가져오고 조직의 제한된 서비스 도메인 중 하나에 파일을 업로드합니다. 중요한 데이터는 기본 제공되는 [중요한 정보 유형](sensitive-information-type-entity-definitions.md) 또는 조직의 중요한 정보 유형 중 하나와 일치해야 합니다. 파일이 열려 있을 경우 이 작업이 허용되지 않는다는 것을 보여주는 DLP 토스트 알림을 테스트하는 장치에서 받게 됩니다.
 
-#### <a name="testing-other-dlp-scenarios-in-chrome"></a>Chrome에서 다른 DLP 테스트 시나리오 
+#### <a name="testing-other-dlp-scenarios-in-chrome"></a>Chrome에서 다른 DLP 테스트 시나리오
 
 이제 허용되지 않는 브라우저/앱 목록에서 Chrome을 제거했으므로 아래 시나리오를 테스트하여 조직의 요구 사항을 충족하는지 확인할 수 있습니다.
 
 - 클립보드를 사용하여 중요한 항목의 데이터를 다른 문서로 복사
-    - 테스트하려면 Chrome 브라우저에서 클립보드 작업에 복사되지 않도록 보호된 파일을 열고 파일에서 데이터를 복사하려고 시도합니다.
-    - 예상 결과: 파일이 열려 있는 경우 이 작업이 허용되지 않는 경우를 보여 주는 DLP 토스트 알림을 받습니다.
+  - 테스트하려면 Chrome 브라우저에서 클립보드 작업에 복사되지 않도록 보호된 파일을 열고 파일에서 데이터를 복사하려고 시도합니다.
+  - 예상 결과: 파일이 열려 있는 경우 이 작업이 허용되지 않는 경우를 보여 주는 DLP 토스트 알림을 받습니다.
 - 문서 인쇄
-    - 테스트하려면 Chrome 브라우저에서 인쇄 작업으로부터 보호되는 파일을 열고 파일을 인쇄합니다.
-    - 예상 결과: 파일이 열려 있는 경우 이 작업이 허용되지 않는 경우를 보여 주는 DLP 토스트 알림을 받습니다.
+  - 테스트하려면 Chrome 브라우저에서 인쇄 작업으로부터 보호되는 파일을 열고 파일을 인쇄합니다.
+  - 예상 결과: 파일이 열려 있는 경우 이 작업이 허용되지 않는 경우를 보여 주는 DLP 토스트 알림을 받습니다.
 - USB 이동식 미디어에 복사
-    - 테스트하려면 파일을 이동식 미디어 저장소에 저장합니다.
-    - 예상 결과: 파일이 열려 있는 경우 이 작업이 허용되지 않는 경우를 보여 주는 DLP 토스트 알림을 받습니다.
+  - 테스트하려면 파일을 이동식 미디어 저장소에 저장합니다.
+  - 예상 결과: 파일이 열려 있는 경우 이 작업이 허용되지 않는 경우를 보여 주는 DLP 토스트 알림을 받습니다.
 - 네트워크 공유 위치에 복사
-    - 테스트하려면 파일을 네트워크 공유 위치에 저장합니다.
-    - 예상 결과: 파일이 열려 있는 경우 이 작업이 허용되지 않는 경우를 보여 주는 DLP 토스트 알림을 받습니다.
-
+  - 테스트하려면 파일을 네트워크 공유 위치에 저장합니다.
+  - 예상 결과: 파일이 열려 있는 경우 이 작업이 허용되지 않는 경우를 보여 주는 DLP 토스트 알림을 받습니다.
 
 ### <a name="use-the-alerts-management-dashboard-to-viewing-chrome-dlp-alerts"></a>경고 관리 대시보드를 사용하여 Chrome DLP 경고 보기
 
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에서 **데이터 손실 방지** 페이지를 열고 **경고** 를 선택합니다.
 
 2. 엔드포인트 DLP 정책에 대한 경고를 보려면 [DLP 정책을 구성하고 경고를 보는 방법](dlp-configure-view-alerts-policies.md)의 절차를 참조하세요.
-
 
 ### <a name="viewing-chrome-dlp-data-in-activity-explorer"></a>활동 탐색기에서 Chrome DLP 데이터 보기
 
@@ -265,6 +263,7 @@ Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용�
 2. Incognito 모드는 지원되지 않으며 사용하지 않도록 설정해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
+
 이제 온보딩된 장치가 있고 활동 탐색기에서 활동 데이터를 볼 수 있으므로 중요한 항목을 보호하는 DLP 정책을 만드는 다음 단계를 진행할 준비가 되었습니다.
 
 - [엔드포인트 데이터 손실 방지 사용](endpoint-dlp-using.md)
@@ -272,7 +271,7 @@ Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용�
 ## <a name="see-also"></a>참고 항목
 
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
-- [끝점 데이터 손실 방지 사용](endpoint-dlp-using.md)
+- [엔드포인트 데이터 손실 방지 사용](endpoint-dlp-using.md)
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)

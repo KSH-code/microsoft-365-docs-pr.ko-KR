@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 사용하여 조직 정보를 보호하는 장치 정책을 만들 수 있습니다.
-ms.openlocfilehash: 5519351db428faa837a63eedb384b42c8d8ee07c
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 62dc2eef87d413a9cb62a01541126860620eec3f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706325"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228258"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 보안 정책 만들기
 
@@ -39,14 +39,14 @@ ms.locfileid: "52706325"
 - 기본 이동성 및 보안 정책을 만들고 배포하려면 Microsoft 365 전역 Microsoft 365 합니다. 자세한 내용은 보안 및 준수 [센터의 & 참조하세요.](../../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 - 정책을 배포하기 전에 조직에 기본 모바일 및 보안에서 장치 등록이 미칠 수 있는 영향을 알 수 있습니다. 정책을 설정하는 방법에 따라 등록된 디바이스에 설치된 응용 프로그램Microsoft 365 사진 및 개인 정보를 포함하여 준수하지 않는 장치가 장치 및 데이터에 액세스하지 못하게 차단할 수 있으며 데이터를 삭제할 수 있습니다.
 
->[!NOTE]
->기본 모바일 및 보안 for Microsoft 365 Business Standard 정책 및 액세스 규칙은 Exchange ActiveSync 관리 센터에서 만든 모바일 Exchange ActiveSync 정책 및 장치 액세스 규칙을 Exchange 합니다. 기본 모바일 및 보안 for Microsoft 365 Business Standard 장치에 등록된 Exchange ActiveSync 모바일 장치 사서함 정책 또는 장치 액세스 규칙은 무시됩니다. 자세한 내용은 Exchange ActiveSync 에서 Exchange ActiveSync [Exchange Online.](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync)
+> [!NOTE]
+> 기본 모바일 및 보안 for Microsoft 365 Business Standard 정책 및 액세스 규칙은 Exchange ActiveSync 관리 센터에서 만든 모바일 Exchange ActiveSync 정책 및 장치 액세스 규칙을 Exchange 합니다. 기본 모바일 및 보안 for Microsoft 365 Business Standard 장치에 등록된 Exchange ActiveSync 모바일 장치 사서함 정책 또는 장치 액세스 규칙은 무시됩니다. 자세한 내용은 Exchange ActiveSync 에서 Exchange ActiveSync [Exchange Online.](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync)
 
 ## <a name="step-1-create-a-device-policy-and-deploy-to-a-test-group"></a>1단계: 장치 정책을 만들고 테스트 그룹에 배포
 
 시작하기 전에 기본 Mobility and Security를 활성화하고 설정해야 합니다. 자세한 내용은 [Overview of Basic Mobility and Security를 참조하십시오.](overview.md)
 
-1. 브라우저에서 를 [https://protection.office.com/devicev2](https://protection.office.com/devicev2) 입력합니다.
+1. 브라우저에서 를 <https://protection.office.com/devicev2> 입력합니다.
 
 2. **정책 만들기** 를 선택합니다.
 
@@ -131,7 +131,7 @@ ms.locfileid: "52706325"
 |앱 스토어에 대한 액세스 차단 |아니요|예|예|Android 홈 페이지에서 앱 스토어 아이콘이 누락되어 Windows, iOS에서 누락됩니다.|
 |앱 스토어에 암호 필요 |아니요|아니요|예|iOS: iTunes 구매에 필요한 암호입니다.|
 |이동식 저장소에 대한 연결 차단 |아니요|예|해당 없음|Android: SD 카드가 설정에서 회색으로 표시되어 Windows, 설치된 앱을 사용할 수 없습니다.|
-|Bluetooth 연결 차단 |참고 사항 보기|참고 사항 보기|네.|Android에서는 BlueTooth를 설정으로 사용하지 않도록 설정할 수 없습니다. 대신 BlueTooth가 필요한 모든 트랜잭션(고급 오디오 배포, 오디오/비디오 원격 제어, 핸즈 프리 디바이스, 헤드셋, 전화 액세스 및 직렬 포트)을 사용하지 않도록 설정합니다. 작은 메시지는 이러한 메시지가 사용될 때 페이지 맨 아래에 표시됩니다.|
+|Bluetooth 연결 차단 |참고 사항 보기|참고 사항 보기|예|Android에서는 BlueTooth를 설정으로 사용하지 않도록 설정할 수 없습니다. 대신 BlueTooth가 필요한 모든 트랜잭션(고급 오디오 배포, 오디오/비디오 원격 제어, 핸즈 프리 디바이스, 헤드셋, 전화 액세스 및 직렬 포트)을 사용하지 않도록 설정합니다. 작은 메시지는 이러한 메시지가 사용될 때 페이지 맨 아래에 표시됩니다.|
 
 ## <a name="what-happens-when-you-delete-a-policy-or-remove-a-user-from-the-policy"></a>정책을 삭제하거나 정책에서 사용자를 제거하면 어떻게 하나요?
 

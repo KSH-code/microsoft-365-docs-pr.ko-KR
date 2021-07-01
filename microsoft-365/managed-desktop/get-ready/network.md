@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 0ebf0571da101884728400be15cd2ddfcfac8e8e
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 6dec1f5c2827018f920a71f8b4e7c8cb111c87cd
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274859"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230082"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 네트워크 구성
 
@@ -56,12 +56,12 @@ Microsoft 지원 및 복구 도우미 | \*.apibasic.diagnostics.office.com  <br>
 
 Microsoft 서비스 | 설명서
 --- | ---
-Windows 10 Enterprise 업데이트 Windows 포함 | [버전 Windows 10 1803에 대한 연결 끝점 관리](/windows/privacy/manage-windows-1803-endpoints)<br><br>[버전 1809의 Windows 10 끝점 관리](/windows/privacy/manage-windows-1809-endpoints)<br><br>[1903 버전 Windows 10 연결 끝점 관리](/windows/privacy/manage-windows-1903-endpoints)<br><br>[버전 2004의 Windows 10 끝점 관리](/windows/privacy/manage-windows-2004-endpoints)
+Windows 10 Enterprise 업데이트 Windows 포함 | [버전 Windows 10 1803에 대한 연결 끝점 관리](/windows/privacy/manage-windows-1803-endpoints)<br><br>[연결에 대한 연결 끝점 Windows 10, 버전 1809](/windows/privacy/manage-windows-1809-endpoints)<br><br>[1903 버전 Windows 10 연결 끝점 관리](/windows/privacy/manage-windows-1903-endpoints)<br><br>[버전 2004의 Windows 10 끝점 관리](/windows/privacy/manage-windows-2004-endpoints)
 배달 최적화 | [업데이트 업데이트에 Windows 10 최적화 구성](/windows/deployment/update/waas-delivery-optimization)
 Microsoft 365 | [Microsoft 365 URL 및 IP 주소 범위](../../enterprise/urls-and-ip-address-ranges.md)
 Azure Active Directory | [하이브리드 ID에는 포트 및 프로토콜이 필요하고](/azure/active-directory/hybrid/reference-connect-ports) [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd772723(v=ws.10)) 
 Microsoft Intune | [Intune 네트워크 구성 요구 사항](/intune/network-bandwidth-use)<br>[네트워크 끝점에 대한 Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
-끝점용 Microsoft Defender | [끝점용 Microsoft Defender 요구 사항](/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
+엔드포인트용 Microsoft Defender | [끝점용 Microsoft Defender 요구 사항](/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 Windows Autopilot | [Windows Autopilot 네트워킹 요구 사항](/windows/deployment/windows-autopilot/windows-autopilot-requirements#networking-requirements)
 
 Microsoft 서비스  | 허용 목록에 필요한 URL | 설명서 원본

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 보안 Microsoft 365 규정 준수 기능을 배포하고 개인 정보를 보호합니다.
-ms.openlocfilehash: 659a5295f8b2973c8efef7a7d77f49b2904accf6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 479774069844964e2e603dee5efbc7b8ef867918
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113441"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229266"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 보호 규정을 준수하는 정보 보호
 
@@ -37,9 +37,8 @@ ms.locfileid: "52113441"
 
 ![데이터 개인 정보 보호 규정에 따라 개인 정보를 보호하기 위한 주요 서비스](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
->[!Note]
->이 솔루션은 데이터 개인 정보 규정을 준수하는 정보를 보호하기 위한 보안 및 규정 준수 기능에 대해 설명합니다. 보안 기능의 전체 목록은 Microsoft 365 [설명서를 Microsoft 365 참조하세요.](../security/index.yml) Microsoft 365 규정 준수 기능의 전체 목록은 Microsoft 365 [참조하세요.](../compliance/index.yml)
->
+> [!NOTE]
+> 이 솔루션은 데이터 개인 정보 규정을 준수하는 정보를 보호하기 위한 보안 및 규정 준수 기능에 대해 설명합니다. 보안 기능의 전체 목록은 Microsoft 365 [설명서를 Microsoft 365 참조하세요.](../security/index.yml) Microsoft 365 규정 준수 기능의 전체 목록은 Microsoft 365 [참조하세요.](../compliance/index.yml)
 
 ## <a name="data-privacy-regulations-that-impact-information-protection-controls"></a>정보 보호 제어에 영향을 미치는 데이터 개인 정보 보호 규정
 
@@ -69,7 +68,7 @@ Microsoft [정보 보호 솔루션에는](../compliance/information-protection.m
 
 - [고객 키를 사용한 서비스 암호화](../compliance/customer-key-overview.md)
 - [중요한 정보 유형(데이터](../compliance/sensitive-information-type-entity-definitions.md) 개인 정보 보호 위험 평가 및 중요한 항목 식별 문서에서 [설명)](information-protection-deploy-assess.md)
-- [민감도 레이블](../compliance/sensitivity-labels.md) 
+- [민감도 레이블](../compliance/sensitivity-labels.md)
   - 서비스/컨테이너 수준
   - 클라이언트 쪽/콘텐츠 수준
   - 미사용 데이터 및 데이터 저장에 SharePoint OneDrive
@@ -116,13 +115,13 @@ Microsoft Information Protection 프레임워크의 민감도 레이블을 사�
 
       전자 메일 보호에 최신 민감도 레이블 지정을 사용하 고 OME와 같은 기존 전자 메일 암호화 방법이 준비되어 있는 경우 공존할 수 있지만 두 방법 중 하나를 적용해야 하는 시나리오를 이해해야 합니다. 최신 Office 365 메시지 암호화 보호와 OME 기반 보호를 비교하는 표가 포함된 [OME(새로운](#office-365-message-encryption-ome-new-capabilities)기능)를 참조합니다.
 
-3. 더 광범위한 정보 보호 체계로의 통합을 계획합니다. OME와의 공존성에 더하여 민감도 레이블을 DLP(데이터 손실 방지) 및 Microsoft 365 같은 동시 Microsoft Cloud App Security. 데이터 [개인 정보](../compliance/information-protection.md) 보호 Microsoft 365 목표를 달성하기 위해 Microsoft Information Protection in Microsoft 365 참조하세요.
+3. 더 광범위한 정보 보호 체계로의 통합을 계획합니다. OME와의 공존성에 더하여 민감도 레이블을 DLP(데이터 손실 방지) 및 Microsoft 365 같은 동시 Microsoft Cloud App Security. 데이터 [Microsoft Information Protection 정보](../compliance/information-protection.md) Microsoft 365 보호 목표를 달성하기 위한 자세한 정보를 참조하세요.
 
 4. 민감도 레이블 분류 및 제어 체계를 개발합니다. 데이터 [분류 및 민감도 레이블 분류를 참조합니다.](https://aka.ms/dataclassificationwhitepaper)
 
 ### <a name="general-guidance"></a>일반 지침
 
-1. **Schema 정의.** 기술 기능을 사용하여 레이블 및 보호를 적용하기 전에 조직 전체에서 분류표를 정의합니다. 개인 데이터를 더 쉽게 추가할 수 있도록 분류 Schema가 이미 있을 수 있습니다. 
+1. **Schema 정의.** 기술 기능을 사용하여 레이블 및 보호를 적용하기 전에 조직 전체에서 분류표를 정의합니다. 개인 데이터를 더 쉽게 추가할 수 있도록 분류 Schema가 이미 있을 수 있습니다.
 2. **시작.** 먼저 구현할 레이블의 수와 이름을 결정해야 합니다. 사용할 기술과 레이블이 적용되는 방식에 대해 걱정하지 않고 이 활동을 합니다. 이 스마마를 조직 전체에 적용합니다(사내 및 다른 클라우드 서비스에 있는 데이터 포함).
 3. **추가 권장 사항** 정책, 레이블 및 조건을 디자인하고 구현할 때 다음 권장 사항을 고려하세요.
 
@@ -131,12 +130,12 @@ Microsoft Information Protection 프레임워크의 민감도 레이블을 사�
    - **시나리오 및 사용 사례를 사용 합니다.** 조직 내에서 일반적인 사용 사례를 식별하고 적용 대상 데이터 개인 정보 규정에서 파생된 시나리오를 사용 합니다. 현재의 레이블 및 분류 구성이 실제로 작동할지 여부를 검증합니다.
    - **새 레이블에 대한 모든 요청에 대해 질문합니다.** 모든 시나리오 또는 사용 사례에 새 레이블이 실제로 필요합니까 아니면 이미 있는 레이블을 사용할 수 있나요? 레이블 수를 최소로 유지하여 채택을 향상합니다.
    - **주요 부서에 하위 레이블을 사용 합니다.** 일부 부서에는 특정 레이블이 필요한 특정 요구가 있습니다. 이러한 레이블을 기존 레이블에 대한 하위 레이블로 정의하고 전역이 아닌 사용자 그룹에 할당된 범위 지정 정책을 사용하는 것이 좋습니다.
-   - **범위가 지정한 정책을 고려합니다.** 사용자 하위 집합을 대상으로 하는 정책은 레이블 오버로드를 방지합니다. 범위가 지정되어 있는 정책을 사용하면 특정 부서에서 일하는 직원에게만 역할 또는 부서별 레이블 또는 하위 레이블을 할당할 수 있습니다. 
+   - **범위가 지정한 정책을 고려합니다.** 사용자 하위 집합을 대상으로 하는 정책은 레이블 오버로드를 방지합니다. 범위가 지정되어 있는 정책을 사용하면 특정 부서에서 일하는 직원에게만 역할 또는 부서별 레이블 또는 하위 레이블을 할당할 수 있습니다.
    - **의미 있는 레이블 이름을 사용 합니다.** 약어, 표준 또는 약어를 레이블 이름으로 사용하지 않습니다. 최종 사용자에게 공명하는 이름을 사용하여 채택을 향상합니다. PII, PCI, HIPAA, LBI, MBI 및 HBI와 같은 레이블을 사용하는 대신, 업무 외, 공개, 일반, 기밀 및 기밀과 같은 이름을 고려하세요.
 
 ### <a name="create-and-deploy-sensitivity-labels-for-sites-groups-and-teams"></a>사이트, 그룹 및 팀에 대한 민감도 레이블 만들기 및 배포
 
-Microsoft 365 규정 [](../compliance/sensitivity-labels-teams-groups-sites.md) 준수 센터에서 민감도 레이블을 만들 때 이러한 컨테이너에 적용할 수 있습니다.
+사용자 [지정에서](../compliance/sensitivity-labels-teams-groups-sites.md) 민감도 레이블을 Microsoft 365 규정 준수 센터 다음 컨테이너에 적용할 수 있습니다.
 
 - Microsoft Teams 사이트
 - Microsoft 365 그룹(이전 Office 365 그룹)
@@ -160,14 +159,14 @@ Microsoft 365 규정 [](../compliance/sensitivity-labels-teams-groups-sites.md) 
 2. **각 레이블이 수행할 수 있는 작업을 정의합니다.** 각 레이블과 연결할 보호 설정을 구성합니다. 예를 들어 민감도가 낮은 콘텐츠(예: "일반" 레이블)에 머리마크나 발자국만 적용하고 민감도가 높은 콘텐츠(예: "기밀" 레이블)에는 워터마크를 적용하고 암호화를 사용하도록 설정해야 할 수 있습니다.
 3. **레이블을 게시합니다.** 민감도 레이블이 구성되 면 레이블 정책을 사용하 여 해당 레이블을 게시합니다. 어떤 사용자와 그룹에 레이블과 정책 설정을 사용할지 결정합니다. 단일 레이블을 다시 사용할 수 있습니다. 한 번 정의한 다음 여러 사용자에게 할당된 여러 레이블 정책에 포함할 수 있습니다.
 
-Microsoft 365 규정 준수 센터에서 민감도 레이블을 게시하면 사용자가 만들거나 편집할 때 콘텐츠를 분류하고 [보호할](../compliance/sensitivity-labels-office-apps.md) Office 앱에 표시됩니다.
+앱에서 민감도 레이블을 게시하면 Microsoft 365 규정 준수 센터 만들거나 편집할 [](../compliance/sensitivity-labels-office-apps.md) 때 콘텐츠를 분류하고 보호할 수 있도록 Office 앱에 표시됩니다.
 
 ![민감도 레이블 배포 흐름의 Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-label-flow.png)
 
 데이터 개인 정보 보호를 위해 중요한 개인 정보를 포함하는 전자 메일 또는 콘텐츠에 암호화 및 기타 규칙을 사용하여 민감도 레이블을 수동으로 적용합니다.
 
->[!Note]
->전자 메일에 암호화가 적용된 민감도 레이블에는 OME와 일부 겹치는 기능이 있습니다. OME 및 민감도 [레이블과의 보안 전자 메일 시나리오 비교를 참조하세요.](#secure-email-scenarios-comparison-with-ome-and-sensitivity-labels)
+> [!NOTE]
+> 전자 메일에 암호화가 적용된 민감도 레이블에는 OME와 일부 겹치는 기능이 있습니다. OME 및 민감도 [레이블과의 보안 전자 메일 시나리오 비교를 참조하세요.](#secure-email-scenarios-comparison-with-ome-and-sensitivity-labels)
 
 ### <a name="client-side-auto-labeling-when-users-edit-documents-or-compose-emails"></a>사용자가 문서를 편집하거나 전자 메일을 작성하는 경우 클라이언트 쪽 자동 레이블 지정
 
@@ -190,14 +189,14 @@ Microsoft 365 규정 준수 센터에서 민감도 레이블을 게시하면 사
 ### <a name="service-side-auto-labeling-when-content-is-already-saved"></a>콘텐츠가 이미 저장된 경우 서비스 쪽 자동 레이블 지정
 
 이 방법을 민감도 레이블이 있는 자동 분류라고 합니다. 미사용 데이터(SharePoint 및 OneDrive 문서의 경우) 및 전송되는 데이터(Exchange)에 대한 자동 레이블 지정이라고도 들 수 있습니다. 이 Exchange 휴지통의 전자 메일은 포함하지 않습니다.
- 
+
 이 레이블 지정은 사용자 응용 프로그램이 아닌 서비스 자체에서 적용하기 때문에 사용자가 사용하는 앱과 버전에 대해 걱정할 필요가 없습니다. 따라서 이 기능은 조직 전체에서 즉시 사용할 수 있으며 대규모로 레이블을 지정하는 데 적합합니다. 자동 레이블 지정 정책은 사용자가 레이블 지정 프로세스와 상호 작용하지 않기 때문에 권장되는 레이블 지정을 지원하지 않습니다. 대신 관리자가 시뮬레이션 모드에서 정책을 실행하여 실제로 레이블을 적용하기 전에 콘텐츠의 올바른 레이블을 확인합니다.
 
 구성 지침은 에 대한 자동 레이블 지정 정책을 구성하는 [SharePoint,](../compliance/apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)OneDrive 및 Exchange.
 
 우려되는 사이트 내의 데이터 개인 정보 보호를 위해 중요한 개인 정보를 포함하는 콘텐츠의 자동 암호화를 위해 민감도 레이블을 푸시합니다.
 
-## <a name="data-loss-prevention"></a>데이터 손실 방지 
+## <a name="data-loss-prevention"></a>데이터 손실 방지
 
 데이터 손실 [방지(DLP)를](../compliance/dlp-learn-about-dlp.md) 사용하여 Microsoft 365, 부적절하거나 부적절한 공유(예: 개인 정보를 포함하는 데이터 공유)를 내부 및 외부적으로 감지, 경고 및 차단할 수 있습니다.
 
@@ -210,7 +209,7 @@ DLP를 사용하면 다음을 할 수 있습니다.
 
 ### <a name="supported-workloads-for-dlp"></a>DLP에 지원되는 워크로드
 
-Microsoft 365 규정 준수 센터의 DLP 정책을 사용하면 Exchange Online, SharePoint, OneDrive 및 사용자와 같은 Microsoft 365 여러 위치에서 중요한 항목을 식별, 모니터링 및 자동으로 Microsoft Teams.
+Microsoft 365 규정 준수 센터 DLP 정책을 사용하면 Exchange Online, SharePoint, OneDrive, OneDrive 등 Microsoft 365 여러 위치에서 중요한 항목을 식별, 모니터링 및 자동으로 보호할 수 Microsoft Teams.
 
 예를 들어 모든 OneDrive 사이트에 저장된 신용 카드 번호가 포함된 문서를 식별하거나 특정 OneDrive 사이트만 모니터링할 수 있습니다.
 
@@ -228,7 +227,7 @@ DLP는 상태 레코드가 포함된 문서 또는 전자 메일을 식별한 �
 
 ### <a name="planning-for-dlp"></a>DLP 계획
 
-DLP 정책 계획: 
+DLP 정책 계획:
 
 - 비즈니스 요구 사항
 
@@ -272,9 +271,8 @@ DLP [정책을 만들고](../compliance/create-test-tune-dlp-policy.md) 적용�
 
 첫 번째 구성인 인식을 시작점 및 최소 수준의 보호로 사용하여 데이터 개인 정보 보호 규정에 대한 규정 준수 요구 사항을 해결할 수 있습니다.
 
->[!Note]
->보호 수준이 증가하면 사용자가 정보를 공유하고 액세스할 수 있는 능력이 감소하여 일상적인 작업을 완료하는 생산성이나 능력에 영향을 줄 수 있습니다.
-
+> [!NOTE]
+> 보호 수준이 증가하면 사용자가 정보를 공유하고 액세스할 수 있는 능력이 감소하여 일상적인 작업을 완료하는 생산성이나 능력에 영향을 줄 수 있습니다.
 
 보호 수준을 높이면 직원들이 보다 안전한 환경에서 계속 생산성을 유지하게 도와주기 위해 시간을 내어 새로운 보안 정책 및 절차에 대해 교육하고 교육합니다.
 
@@ -314,7 +312,7 @@ DLP [정책을 만들고](../compliance/create-test-tune-dlp-policy.md) 적용�
 
 메일 흐름 규칙을 정의하여 이 보호를 적용할 수도 있습니다. 예를 들어 특정 받는 사람에게 주소가 지정되는 모든 메시지의 암호화가 필요하거나 제목 줄에 특정 키워드 단어가 포함된 규칙을 만들고 받는 사람이 메시지 내용을 복사하거나 인쇄할 수 있도록 지정할 수도 있습니다.
 
-또한 OME [고급](../compliance/ome-advanced-message-encryption.md) 메시지 암호화는 외부 받는 사람에 대한 보다 유연한 제어 및 암호화된 전자 메일에 대한 액세스가 필요한 준수 의무를 충족하는 데 도움이 됩니다. OME 고급 메시지 암호화를 Microsoft 365 중요한 정보 유형을 감지하는 자동 정책을 사용하여 조직 외부에서 공유되는 중요한 전자 메일을 제어할 수 있습니다. 
+또한 OME [고급](../compliance/ome-advanced-message-encryption.md) 메시지 암호화는 외부 받는 사람에 대한 보다 유연한 제어 및 암호화된 전자 메일에 대한 액세스가 필요한 준수 의무를 충족하는 데 도움이 됩니다. OME 고급 메시지 암호화를 Microsoft 365 중요한 정보 유형을 감지하는 자동 정책을 사용하여 조직 외부에서 공유되는 중요한 전자 메일을 제어할 수 있습니다.
 
 데이터 개인 정보 보호를 위해 외부 사용자와 전자 메일을 공유해야 하는 경우 만료 날짜를 지정하고 메시지를 취소할 수 있습니다. 외부 받는 사람에게 보낸 메시지의 만료 날짜만 해지하고 설정할 수 있습니다.
 

@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ec8c2a1a5c4480ffd36b77fe9e9accc91214c6a3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: bf95c26a9bf724aaddae8321022ecdfceae82d1a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538210"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229062"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 
@@ -38,9 +38,9 @@ ms.locfileid: "52538210"
 
 |옵션|정보|
 |:------|:-----------|
-|SPO, OneDrive 및 Teams용 안전 첨부 파일|[안전 첨부 파일](../security/office-365-security/safe-attachments.md)<br>[Office 365용 Defender - SharePoint, OneDrive 및 Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)|
+|SPO, OneDrive 및 Teams용 안전 첨부 파일|[안전 첨부 파일](../security/office-365-security/safe-attachments.md) <p> [Office 365용 Defender - SharePoint, OneDrive 및 Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)|
 |안전 문서|[Office 365용 Microsoft Defender의 안전 문서](../security/office-365-security/safe-docs.md)|
-|Teams용 안전 링크|[Teams의 Office 365 안전한 링크](../security/office-365-security/safe-links.md)<br>[안전 링크](../security/office-365-security/safe-links.md)|
+|Teams용 안전 링크|[Teams의 Office 365 안전한 링크](../security/office-365-security/safe-links.md) <p> [안전 링크](../security/office-365-security/safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Teams 게스트 공유
 

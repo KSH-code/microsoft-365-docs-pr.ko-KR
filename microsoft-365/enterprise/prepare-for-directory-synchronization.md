@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: 디렉터리 동기화를 사용하여 사용자를 프로비전할 수 있도록 준비하는 Microsoft 365 이 방법을 사용하는 경우의 장기적인 이점에 대해 설명
-ms.openlocfilehash: 7f701bf0a8b165323f7fd61b50b41fb5e18268a6
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: ee6cfe9adfe029e620d2465f08a3fbe1e9290503
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259562"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229770"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a> Microsoft 365로 디렉터리 동기화 준비
 
@@ -180,7 +180,7 @@ Active Directory는 조직의 최종 사용자가 **sAMAccountName** 또는 **us
 
 사용자의 회사 자격 증명을 사용자 회사 자격 증명과 연결하기 위해 대체 UPN 접미어를 Microsoft 365 있습니다. UPN 접미사는 UPN에서 @ 문자 오른쪽에 있는 부분입니다. Single Sign-On에 사용되는 UPN에는 문자, 숫자, 마침표, 대시 및 밑줄을 포함할 수 있으며 다른 유형의 문자는 포함할 수 없습니다.
 
-Active Directory에 대체 UPN 접미사 추가 방법에 대한 자세한 내용은 디렉터리 동기화 [준비를 참조하세요.]( https://go.microsoft.com/fwlink/p/?LinkId=525430)
+Active Directory에 대체 UPN 접미사 추가 방법에 대한 자세한 내용은 디렉터리 동기화 [준비를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=525430)
 
 ## <a name="5-match-the-ad-ds-upn-with-the-microsoft-365-upn"></a>5. AD DS UPN과 UPN Microsoft 365 일치
 

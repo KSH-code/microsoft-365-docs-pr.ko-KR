@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
-ms.openlocfilehash: fa111197dfd68cfcca40ce8a39befe20b97d1be8
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: fcc7d96f51121824550128e89186074e1ebc3ce0
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939639"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228882"
 ---
 # <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 고급 헌팅 스마 이해
 
@@ -76,8 +76,8 @@ ms.locfileid: "51939639"
 | **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md)** | 위협 및 취약성 관리에서 장치를 평가하기 위해 사용하는 다양한 보안 구성에 대한 기술 자료. 다양한 표준과 벤치 마크에 대한 매핑 포함 |
 
 >[!TIP]
->Microsoft 365 [Defender의](/microsoft-365/security/defender/advanced-hunting-overview) 고급 헌팅을 사용하여 Endpoint용 Defender, Office 365, Microsoft Cloud App Security, ID에 대한 Microsoft Defender의 데이터를 사용하여 위협을 헌팅합니다. [Microsoft 365 Defender 켜기](/microsoft-365/security/defender/m365d-enable)<br><br>
-Endpoint용 Microsoft Defender에서 고급 헌팅 워크플로를 끝점용 Microsoft Defender에서 Microsoft 365 헌팅 쿼리 마이그레이션에서 고급 헌팅 워크플로를 헌팅으로 이동하는 방법에 대해 [자세히 알아보고 끝점용 Microsoft Defender에서](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)고급 헌팅 쿼리를 마이그레이션하세요.
+>고급 [헌팅을](/microsoft-365/security/defender/advanced-hunting-overview) Microsoft 365 Defender 끝점용 Defender, microsoft Defender for Office 365, Microsoft Cloud App Security Id에 대한 Microsoft Defender의 데이터를 사용하여 위협을 헌팅합니다. [Microsoft 365 Defender 켜기](/microsoft-365/security/defender/m365d-enable)<br><br>
+끝점용 Microsoft Defender에서 고급 헌팅 워크플로를 끝점용 Microsoft [Defender로](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)이동하는 Microsoft 365 Defender Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션에서 자세히 알아보하세요.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

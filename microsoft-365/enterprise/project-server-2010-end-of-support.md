@@ -18,12 +18,12 @@ search.appverid:
 - PJU120
 - PJW120
 description: 2021년 4월 13일 Project Server 2010에 대한 지원이 종료됩니다. 이 문서를 가이드로 사용하여 Project Online 또는 최신 버전의 Project 서버로 업그레이드할 수 있습니다.
-ms.openlocfilehash: f57fa15da3cabc4b326a52359a29c652fcbe9e7f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 0ca37d00ee670a8a3f7c83d75864b5af19587951
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842233"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229758"
 ---
 # <a name="project-server-2010-end-of-support-roadmap"></a>Project Server 2010 지원 종료 로드맵
 
@@ -157,11 +157,11 @@ Project Server 2010에서 Project Server 2013으로 업그레이드하는 자세
 
 - [Project Server 2013의](/project/what-s-new-in-project-server-2013-upgrade) 새로운 업그레이드에는 다음을 비롯한 이 버전에 대한 중요한 변경 내용이 다수되어 있습니다.
 
-   - 2013 Server 2013에는 현재 Project 없습니다. 데이터베이스 연결 방법은 Project Server 2013에서 Project 방법입니다.
+  - 2013 Server 2013에는 현재 Project 없습니다. 데이터베이스 연결 방법은 Project Server 2013에서 Project 방법입니다.
 
-   - 업그레이드 프로세스에서는 Project Server 2010 데이터를 Project Server 2013 형식으로 변환할 뿐만 아니라 4개의 Project Server 2010 데이터베이스를 단일 Project Web App 데이터베이스로 통합합니다.
+  - 업그레이드 프로세스에서는 Project Server 2010 데이터를 Project Server 2013 형식으로 변환할 뿐만 아니라 4개의 Project Server 2010 데이터베이스를 단일 Project Web App 데이터베이스로 통합합니다.
 
-   - SharePoint Server 2013과 Project Server 2013은 모두 이전 버전에서 클레임 기반 인증으로 변경되었습니다. 클래식 인증을 사용하는 경우 업그레이드할 때 이를 고려해야 합니다. 자세한 내용은 [Migrate from classic-mode to claims-based authentication in SharePoint]( /sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013).
+  - SharePoint Server 2013과 Project Server 2013은 모두 이전 버전에서 클레임 기반 인증으로 변경되었습니다. 클래식 인증을 사용하는 경우 업그레이드할 때 이를 고려해야 합니다. 자세한 내용은 [Migrate from classic-mode to claims-based authentication in SharePoint](/sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013).
 
 주요 리소스:
 
@@ -213,9 +213,9 @@ Project Server 2016 Server 2019로 업그레이드하기 위해 Project 필요�
 
 - [Server 2019 업그레이드에 대해 Project 알아야 할 것](/project/plan-for-upgrade-to-project-server-2016)<br/><br/>다음을 포함해 이 버전으로의 업그레이드를 위한 중요한 변경 내용에 대해 자세히 알아보습니다.
 
-   - 업그레이드 프로세스는 데이터를 Project Server 2016 콘텐츠 데이터베이스로 SharePoint Server 2019 마이그레이션합니다.  Project 서버 2019는 더 이상 Project 서버 팜에 자체 SharePoint 만듭니다.
+  - 업그레이드 프로세스는 데이터를 Project Server 2016 콘텐츠 데이터베이스로 SharePoint Server 2019 마이그레이션합니다.  Project 서버 2019는 더 이상 Project 서버 팜에 자체 SharePoint 만듭니다.
 
-   - 업그레이드 후에 변경된 몇 가지 사항을 Project Web App.  자세한 내용은 [What's new in Project Server 2019을 참조합니다.](/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges)
+  - 업그레이드 후에 변경된 몇 가지 사항을 Project Web App.  자세한 내용은 [What's new in Project Server 2019을 참조합니다.](/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges)
 
 **기타 리소스:**
 

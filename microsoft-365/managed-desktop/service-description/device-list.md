@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 636d32f47c4fd9fdd5c0409a4ebbc2d9e79a166d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 6e5e6b87f17fd4b13945b155bd7e521881242345
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245939"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230058"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치
 
@@ -22,13 +22,13 @@ ms.locfileid: "52245939"
 
 Microsoft Managed Desktop 서비스에 포함될 장치를 정기적으로 평가합니다. 이 문서에는 현재 지원되는 특정 장치가 나열됩니다. 장치 요구 사항에 대한 일반적인 설명은 장치 요구 [사항을 참조하세요.](device-requirements.md)
 
-자세한 내용은 Microsoft Managed Desktop 및 리소스를 [Microsoft Managed Desktop 참조하세요.](../index.yml) 
+자세한 내용은 Microsoft Managed Desktop 및 리소스를 [Microsoft Managed Desktop 참조하세요.](../index.yml)
 
 [새 디바이스 선택 및 유효성 검사](../get-started/validate-device.md)
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-디바이스에 등록하려면 Microsoft Managed Desktop 중 하나일 수 있으며 RAM, 프로세서 패밀리 및 디스크 공간에 대한 나열된 사양을 충족하거나 초과해야 합니다. 
+디바이스에 등록하려면 Microsoft Managed Desktop 중 하나일 수 있으며 RAM, 프로세서 패밀리 및 디스크 공간에 대한 나열된 사양을 충족하거나 초과해야 합니다.
 
 여기에 있는 장치에 대한 링크는 참조 전용입니다. 디바이스를 주문하려면 상업용 채널 연락처와 함께 올바른 구성을 선택해야 합니다. 이 표에서  보관 날짜는 이러한 모델의 서비스 수명이 더 짧게 Microsoft Managed Desktop 날짜입니다. 이 날짜 이후에 온보드된 이러한 장치는 해당 장치에서 3년 동안의 전체 지원 기간을 Microsoft Managed Desktop. 보관된 장치는 보관된 Microsoft Managed Desktop [나열됩니다.](archived-device-list.md) *사용 중지 날짜는* 이 모델이 더 이상 지원되지 Microsoft Managed Desktop 날짜입니다. 이 날짜에 이 모델의 등록된 모든 디바이스가 등록된 Microsoft Managed Desktop 상관없이 해당 장치에서 제거됩니다.
 
@@ -79,9 +79,9 @@ Microsoft Managed Desktop 서비스에 포함될 장치를 정기적으로 평�
 | [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128GB/Intel i5/8GB RAM | 없음 | 2021년 10월 22일 | 2024년 10월 22일 |
 | **\*[Surface Pro 7+](https://www.microsoft.com/p/surface-pro-7-for-business/8p43n3k93409?activetab=pivot%3aoverviewtab)** | 128GB/Intel i5/8GB RAM | 없음 | 2022년 1월 15일 | 2025년 1월 15일 |
 
-또한 장치는 다음 기준을 충족해야 합니다.     
+또한 장치는 다음 기준을 충족해야 합니다.
 
-- 특정 SKU가 장치 요구 사항에 나열되어 있는 경우 주문 시 해당 SKU를 사용하는지 확인합니다. 이렇게 하면 장치가 소프트웨어 요구 사항을 Microsoft Managed Desktop 보장합니다. 
+- 특정 SKU가 장치 요구 사항에 나열되어 있는 경우 주문 시 해당 SKU를 사용하는지 확인합니다. 이렇게 하면 장치가 소프트웨어 요구 사항을 Microsoft Managed Desktop 보장합니다.
 - 첫 실행 Windows 완료하지 않은 경우
 - 장치 등록 기능을 사용하여 Microsoft Managed Desktop [등록](../get-started/register-devices-self.md)
 

@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 850756acacc757526352b9249c0e9efbe82fac8d
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 9abed7f9601872eeb14ceb294c54a1cb54f63c2f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096804"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229110"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -175,7 +175,7 @@ ms.locfileid: "53096804"
 
   > [!NOTE]
   >
-  > - 각 피싱 방지 정책에서 보호되는 사용자(보낸 사람 전자 메일 주소)를 최대 60명까지 지정할 수 있습니다. 동일한 보호된 사용자를 여러 정책에 지정할 수 없습니다. 따라서 받는 사람에게 적용되는 정책의 수에 관계없이 각 개별 받는 사람에 대해 보호되는 사용자(보낸 사람 전자 메일 주소)의 최대 수는 60개입니다. 정책 우선 순위 및 첫 번째 정책이 적용된 후 정책 처리가 중지되는 방법에 대한 자세한 내용은 전자 메일 보호의 순서 및 우선 [순위를 참조하세요.](how-policies-and-protections-are-combined.md)
+  > - 각 피싱 방지 정책에서 보호되는 사용자(보낸 사람 전자 메일 주소)를 최대 350명까지 지정할 수 있습니다. 동일한 보호된 사용자를 여러 정책에 지정할 수 없습니다. 따라서 받는 사람에게 적용되는 정책의 수에 관계없이 각 개별 받는 사람에 대해 보호되는 사용자(보낸 사람 전자 메일 주소)의 최대 수는 350개입니다. 정책 우선 순위 및 첫 번째 정책이 적용된 후 정책 처리가 중지되는 방법에 대한 자세한 내용은 전자 메일 보호의 순서 및 우선 [순위를 참조하세요.](how-policies-and-protections-are-combined.md)
   > - 보낸 사람 및 받는 사람이 이전에 전자 메일을 통해 통신한 경우 사용자 가장 보호가 작동하지 않습니다. 보낸 사람 및 받는 사람이 전자 메일을 통해 통신한 적이 없는 경우 가장 시도로 메시지가 식별됩니다.
 
   기본적으로 사용자가 보호할 가장 보호를 위해 보낸 사람 전자 메일 주소는 **구성되지 않습니다.** 따라서 기본적으로 기본 정책이나 사용자 지정 정책에서 보낸 사람 전자 메일 주소에 가장 보호가 적용되지 않습니다.

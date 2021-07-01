@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Endpoint Device Control 이동식 저장소 액세스 제어
+title: Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 description: 끝점용 Microsoft Defender에 대한 Walk-through
 keywords: 이동식 저장소 미디어
 search.product: eADQiWindows 10XVcnh
@@ -16,18 +16,18 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cb23987600a5f87a99449510f7651c4fdcd45f66
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 8b32ab5162e0022d9500f7ddba2fe5bbca1017e7
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028406"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229578"
 ---
-# <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 저장소 액세스 제어
+# <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
 
-Microsoft Defender for Endpoint Device Control 이동식 저장소 액세스 제어를 사용하여 다음 작업을 할 수 있습니다.
+Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어를 사용하여 다음 작업을 할 수 있습니다.
 - 제외 또는 제외 없이 이동식 저장소에 대한 읽기, 쓰기 또는 실행 액세스 허용 또는 차단
 
 |권한 |사용 권한  |
@@ -41,7 +41,7 @@ Microsoft Defender for Endpoint Device Control 이동식 저장소 액세스 제
 
 ## <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
-이동식 저장소 맬웨어 방지 Windows 10 **버전이 4.18.2103.3** 이상인 Windows 10 장치에 액세스 제어를 배포합니다.
+이동식 Storage 맬웨어 방지 Windows 10 **버전이 4.18.2103.3** 이상인 Windows 10 장치에 액세스 제어를 배포합니다.
 
 - **4.18.2104** 이상 : SerialNumberId 추가, VID_PID, 파일 경로 기반 GPO 지원, ComputerSid
 
@@ -50,7 +50,7 @@ Microsoft Defender for Endpoint Device Control 이동식 저장소 액세스 제
 :::image type="content" source="images/powershell.png" alt-text="PowerShell 인터페이스":::
 
 > [!NOTE]
-> 모든 Windows 보안 구성 요소를 활성화할 필요는 없습니다. 상태와는 독립적으로 이동식 저장소 실행할 Windows 보안 있습니다.
+> 모든 Windows 보안 활성화할 필요는 없습니다. 상태와는 독립적으로 이동식 Storage 제어를 실행할 Windows 보안 있습니다.
 
 ## <a name="policy-properties"></a>정책 속성
 
@@ -172,15 +172,15 @@ Microsoft Defender for Endpoint Device Control 이동식 저장소 액세스 제
   - 6: 쓰기 및 실행
   - 7: 읽기 및 쓰기 및 실행
 
-## <a name="common-removable-storage-access-control-scenarios"></a>일반적인 이동식 저장소 액세스 제어 시나리오
+## <a name="common-removable-storage-access-control-scenarios"></a>일반적인 이동식 Storage 액세스 제어 시나리오
 
-Microsoft Defender for Endpoint 이동식 저장소 액세스 제어에 익숙해지기 위해 따라야 할 몇 가지 일반적인 시나리오를 준비했습니다.
+Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해지기 위해 따라야 할 몇 가지 일반적인 시나리오를 준비했습니다.
 
 ### <a name="scenario-1-prevent-write-and-execute-access-to-all-but-allow-specific-approved-usbs"></a>시나리오 1: 모든 웹 에 대한 쓰기 및 실행 액세스를 방지하지만 승인된 특정 USB는 허용
 
 1. 그룹 만들기
 
-    1. 그룹 1: 모든 이동식 저장소 및 CD/DVD. 이동식 저장소 및 CD/DVD의 예로는 그룹 **9b28fae8-72f7-4267-a1a5-685f747a7146** 샘플의 모든 이동식 저장소 및 [CD-DVD](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Group.xml파일이 있습니다.
+    1. 그룹 1: 모든 이동식 저장소 및 CD/DVD. 이동식 저장소 및 CD/DVD의 예로는 그룹 **9b28fae8-72f7-4267-a1a5-685f747a7146** 샘플의 모든 이동식 Storage 및 [CD-DVD](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Group.xml파일이 있습니다.
     
     2. 그룹 2: 장치 속성에 따라 승인된 USB. 이 사용 사례의 예로는 예제 승인된 USB 파일에서 인스턴스 ID – 그룹 **65fa649a-a111-4912-9294-fb6337a25038** [Group.xml이](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) 있습니다.
 
@@ -197,7 +197,7 @@ Microsoft Defender for Endpoint 이동식 저장소 액세스 제어에 익숙�
 
 1. 그룹 만들기
 
-    1. 그룹 1: 모든 이동식 저장소 및 CD/DVD. 이 사용 사례의 예로는 그룹 **9b28fae8-72f7-4267-a1a5-685f747a7146** 샘플의 모든 이동식 저장소 및 [CD-DVD](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Group.xml파일이 있습니다.
+    1. 그룹 1: 모든 이동식 저장소 및 CD/DVD. 이 사용 사례의 예는 샘플 Any Removable Storage [및 CD-DVD](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Group.xml파일의 Group **9b28fae8-72f7-4267-a1a5-685f747a7146입니다.**
     
     2. 그룹 2: 장치 속성에 따라 승인되지 않은 USB(예: 공급업체 ID/ 제품 ID, 식별 이름 – 그룹 **65fa649a-a111-4912-9294-fb6337a25038)** 샘플에서 승인되지 않은 [USB](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Group.xml. 
 
@@ -212,11 +212,11 @@ Microsoft Defender for Endpoint 이동식 저장소 액세스 제어에 익숙�
 
 ## <a name="deploying-and-managing-policy-via-group-policy"></a>그룹 정책을 통해 정책 배포 및 관리
 
-이동식 저장소 액세스 제어 기능을 사용하면 그룹 정책을 통해 사용자 또는 장치 또는 둘 다에 정책을 적용할 수 있습니다.
+이동식 Storage 액세스 제어 기능을 사용하면 그룹 정책을 통해 사용자 또는 장치 또는 둘 다에 정책을 적용할 수 있습니다.
 
 ### <a name="licensing"></a>라이선싱
 
-이동식 액세스 제어를 저장소 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 제어에 액세스하고 저장소 액세스 제어를 사용하려면 Microsoft 365 E3 또는 Microsoft 365 E5.
+이동식 액세스 제어를 Storage 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 Storage 액세스 제어에 액세스하고 사용하려면 액세스 Microsoft 365 E3 또는 Microsoft 365 E5.
 
 ### <a name="deploying-policy-via-group-policy"></a>그룹 정책을 통해 정책 배포
 
@@ -242,11 +242,11 @@ Microsoft Defender for Endpoint 이동식 저장소 액세스 제어에 익숙�
 
 ## <a name="deploying-and-managing-policy-via-intune-oma-uri"></a>Intune OMA-URI를 통해 정책 배포 및 관리
 
-이동식 저장소 액세스 제어 기능을 사용하면 OMA-URI를 통해 사용자 또는 장치 또는 둘 다에 정책을 적용할 수 있습니다.
+이동식 Storage 액세스 제어 기능을 사용하면 OMA-URI를 통해 사용자 또는 장치 또는 둘 다에 정책을 적용할 수 있습니다.
 
 ### <a name="licensing"></a>라이선싱
 
-이동식 액세스 제어를 저장소 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 제어에 액세스하고 저장소 액세스 제어를 사용하려면 Microsoft 365 E3 또는 Microsoft 365 E5.
+이동식 액세스 제어를 Storage 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 Storage 액세스 제어에 액세스하고 사용하려면 액세스 Microsoft 365 E3 또는 Microsoft 365 E5.
 
 ### <a name="permission"></a>사용 권한
 
@@ -291,9 +291,9 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 
 이 기능(Microsoft Endpoint Manager 관리 센터( https://endpoint.microsoft.com/) > Devices > Configuration profiles > Create profile > Platform: Windows 10 and later & Profile: Device Control)은 아직 사용할 수 없습니다. 
 
-## <a name="view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 장치 저장소 이동식 액세스 제어 데이터 보기
+## <a name="view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 장치 Storage 이동식 액세스 제어 데이터 보기
 
-보안 Microsoft 365 포털에는 액세스 제어를 통해 장치 제어 이동식 연결로 차단된 이동식 저장소 표시됩니다. Microsoft 365 보안에 액세스하려면 다음 구독이 있어야 합니다.
+보안 Microsoft 365 포털에는 액세스 제어를 통해 장치 제어 이동식 이동식 액세스 제어에 의해 Storage 저장소가 표시됩니다. Microsoft 365 보안에 액세스하려면 다음 구독이 있어야 합니다.
 
 - Microsoft 365 E5 보고용 보고서
 
@@ -321,14 +321,14 @@ DeviceEvents
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면":::
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 **최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?**
 
 100,000 미디어(최대 7MB) 크기의 USB 그룹 하나를 확인했습니다. 이 정책은 성능 문제 없이 Intune 및 GPO에서 모두 작동합니다.
 
 **정책이 작동하지 않는 이유는 무엇입니까?**
 
-가장 일반적인 이유는 필수 맬웨어 방지 클라이언트 [버전이 없습니다.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control?view=o365-worldwide#prepare-your-endpoints)
+가장 일반적인 이유는 필수 맬웨어 방지 클라이언트 [버전이 없습니다.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control#prepare-your-endpoints)
 
 예를 들어 XML 파일의 "&" 문자에 올바른 표시 형식을 사용하지 않는 등 XML 파일의 형식이 올바르게 지정되지 않은 경우 또는 텍스트 편집기에서 파일 시작부에 BOM(0xEF 0xBB 0xBF 순서 표시)을 추가하여 XML 구문 분석이 작동하지 않을 수 있습니다. 한 가지 간단한 해결 [](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) 방법은 샘플 파일을 다운로드한 **다음(원시를** 선택한 **다음** 다른 로 저장)을 다운로드한 다음 업데이트하는 것입니다.
 

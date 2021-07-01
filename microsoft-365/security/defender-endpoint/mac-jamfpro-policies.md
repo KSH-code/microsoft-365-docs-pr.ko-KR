@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b6c2c9fe82486030814e89a0ff655d8f631064e4
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 577eea6e678b6a5d60e5bb8f2fbaaae25d239577
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062300"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230070"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
 
@@ -63,7 +63,7 @@ ms.locfileid: "53062300"
 
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>1단계: 끝점용 Microsoft Defender 온보딩 패키지 다운로드
 
-1. 에서 [Microsoft Defender 보안 센터](https://securitycenter.microsoft.com )에서 **온보 설정 > 로 이동합니다.** 
+1. 에서 [Microsoft Defender 보안 센터](https://securitycenter.microsoft.com)에서 **온보 설정 > 로 이동합니다.**
 
 2. 운영 체제로 macOS를 선택하고 배포 방법으로 모바일 Microsoft Intune/를 선택합니다.
 
@@ -82,7 +82,7 @@ ms.locfileid: "53062300"
 
    ![WindowsDefenderATPOnboarding 파일의 이미지](images/plist-onboarding-file.png)
 
- 
+
 2. Jamf Pro 대시보드에서 새로 만들 를 **선택합니다.**
 
     ![새 Jamf Pro 이미지](images/jamf-pro-configure-profile.png)
@@ -100,7 +100,7 @@ ms.locfileid: "53062300"
 
     ![앱 및 사용자 지정 설정 구성 이미지](images/jamfpro-mac-profile.png)
 
-5. 기본 **업로드 파일(PLIST 파일)을** 선택한 다음 기본 설정 **도메인에** 다음을 입력합니다. `com.microsoft.wdav.atp` . 
+5. 기본 **업로드 파일(PLIST 파일)을** 선택한 다음 기본 설정 **도메인에** 다음을 입력합니다. `com.microsoft.wdav.atp` .
 
     ![jamfpro plist 업로드 파일의 이미지](images/jamfpro-plist-upload.png)
 
@@ -110,7 +110,7 @@ ms.locfileid: "53062300"
 
     ![온보더링 파일의 이미지](images/jamfpro-plist-file-onboard.png)
 
-7. 를 **업로드.** 
+7. 를 **업로드.**
 
     ![plist 파일 업로드 이미지](images/jamfpro-upload-plist.png)
 
@@ -122,7 +122,7 @@ ms.locfileid: "53062300"
 
     ![대상 컴퓨터의 이미지](images/jamfpro-target-computer.png)
 
-    ![대상 이미지](images/jamfpro-targets.png) 
+    ![대상 이미지](images/jamfpro-targets.png)
 
 10. **저장** 을 선택합니다.
 
@@ -337,7 +337,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 4. 다음 세부 정보를 입력합니다.
 
     **일반**
-    
+
     - 이름: MDATP MDAV 구성 설정
     - 설명:\<blank\>
     - 범주: 없음(기본값)
@@ -377,7 +377,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     >![구성 설정 intune 파일 업로드 이미지](images/8e69f867664668796a3b2904896f0436.png)
 
 
-11. **저장** 을 선택합니다. 
+11. **저장** 을 선택합니다.
 
     ![구성 설정 이미지 저장 이미지](images/1b6b5a4edcb42d97f1e70a6a0fa48e3a.png)
 
@@ -391,7 +391,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![구성 설정 범위의 이미지](images/9fc17529e5577eefd773c658ec576a7d.png)
 
-14. **Contoso의 컴퓨터 그룹을 선택합니다.** 
+14. **Contoso의 컴퓨터 그룹을 선택합니다.**
 
 15. **추가를** 선택한 다음 **저장을 선택합니다.**
 
@@ -410,8 +410,8 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 1. Jamf Pro 대시보드에서 **컴퓨터,** 구성 **프로필을 선택합니다.**
 
 2. 새로 **추가를** 클릭하고 옵션에 대해 다음 세부 정보를 **입력합니다.**
-    
-    - Tab **일반**: 
+
+    - Tab **일반**:
         - **이름:** MDATP MDAV 알림 설정
         - **설명:** macOS 10.15(카탈로니아) 이상
         - **범주:** *없음(기본값)*
@@ -443,12 +443,12 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![구성 설정 범위 추가 이미지](images/441aa2ecd36abadcdd8aed03556080b5.png)
 
-4. **Contoso의 컴퓨터 그룹을 선택합니다.** 
+4. **Contoso의 컴퓨터 그룹을 선택합니다.**
 
 5. **추가를** 선택한 다음 **저장을 선택합니다.**
-    
+
     ![구성 설정 contoso 컴퓨터 grp 저장 이미지](images/09a275e321268e5e3ac0c0865d3e2db5.png)
-    
+
     ![구성 설정 추가 저장 이미지](images/4d2d1d4ee13d3f840f425924c3df0d51.png)
 
 6. **완료** 를 선택합니다. 새 구성 **프로필이 표시됩니다.**
@@ -479,14 +479,14 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
 2. 으로 `MDATP_MDAV_MAU_settings.plist` 저장합니다.
 
-3. Jamf Pro 대시보드에서 일반 을 **선택합니다.** 
+3. Jamf Pro 대시보드에서 일반 을 **선택합니다.**
 
     ![구성 설정 일반 이미지 이미지](images/eaba2a23dd34f73bf59e826217ba6f15.png)
 
 4. 다음 세부 정보를 입력합니다.
 
-    **일반** 
-    
+    **일반**
+
     - 이름: MDATP MDAV MAU 설정
     - 설명: MacOS용 MDATP에 대한 Microsoft 자동 업데이트 설정
     - 범주: 없음(기본값)
@@ -499,7 +499,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
 6. 파일 **업로드(PLIST 파일)를 선택합니다.**
 
-    ![구성 설정 plist의 이미지](images/1213872db5833aa8be535da57653219f.png)  
+    ![구성 설정 plist의 이미지](images/1213872db5833aa8be535da57653219f.png)
 
 7. 기본 **설정 도메인에** 다음을 입력한 다음 `com.microsoft.autoupdate2` **PLIST 업로드 선택합니다.**
 
@@ -523,11 +523,11 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     ![구성 설정 saveimg의 이미지](images/253274b33e74f3f5b8d475cf8692ce4e.png)
 
 12. 범위 **탭을** 선택합니다.
-   
+
      ![구성 설정 범위 지정 이미지](images/10ab98358b2d602f3f67618735fa82fb.png)
 
 13. **추가** 를 선택합니다.
-    
+
     ![구성 설정 addimg1의 이미지](images/56e6f6259b9ce3c1706ed8d666ae4947.png)
 
     ![구성 설정 addimg2의 이미지](images/38c67ee1905c4747c3b26c8eba57726b.png)
@@ -535,7 +535,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     ![구성 설정 addimg3의 이미지](images/321ba245f14743c1d5d51c15e99deecc.png)
 
 14. **완료** 를 선택합니다.
-    
+
     ![구성 설정 완료 이미지](images/ba44cdb77e4781aa8b940fb83e3c21f7.png)
 
 ## <a name="step-6-grant-full-disk-access-to-microsoft-defender-for-endpoint"></a>6단계: 끝점용 Microsoft Defender에 대한 전체 디스크 액세스 권한 부여
@@ -544,11 +544,11 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![구성 설정 구성 프로필의 이미지](images/264493cd01e62c7085659d6fdc26dc91.png)
 
-2. **+ 새로 고치기 를 선택합니다.** 
+2. **+ 새로 고치기 를 선택합니다.**
 
 3. 다음 세부 정보를 입력합니다.
 
-    **일반** 
+    **일반**
     - 이름: MDATP MDAV - 모든 디스크 액세스 권한을 EDR 및 AV
     - 설명: macOS 카탈로니아 이상에서 새로운 개인 정보 기본 설정 정책 컨트롤
     - 범주: 없음
@@ -613,18 +613,18 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![구성 설정 추가 이미지](images/57cef926d1b9260fb74a5f460cee887a.png)
 
-14. 그룹 **이름 >** 컴퓨터  그룹 > **Contoso의 MachineGroup을 선택합니다.** 
+14. 그룹 **이름 >** 컴퓨터  그룹 > **Contoso의 MachineGroup을 선택합니다.**
 
     ![구성 설정 contoso machinegrp의 이미지](images/368d35b3d6179af92ffdbfd93b226b69.png)
 
-15. **추가** 를 선택합니다. 
+15. **추가** 를 선택합니다.
 
-16. **저장** 을 선택합니다. 
-    
+16. **저장** 을 선택합니다.
+
 17. **완료** 를 선택합니다.
-    
+
     ![구성 설정 donimg의 이미지](images/809cef630281b64b8f07f20913b0039b.png)
-    
+
     ![구성 설정 donimg2의 이미지](images/6c8b406ee224335a8c65d06953dc756e.png)
 
 또는 Jamf 2013을 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [fulldisk.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 Pro| 방법 2: 업로드 프로필을 Jamf](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)Pro.
@@ -640,8 +640,8 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
 2. 다음 세부 정보를 입력합니다.
 
-    **일반** 
-    
+    **일반**
+
     - 이름: MDATP MDAV 커널 확장
     - 설명: MDATP 커널 확장(kext)
     - 범주: 없음
@@ -654,7 +654,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![승인된 구성 설정 커널 ext 이미지](images/30be88b63abc5e8dde11b73f1b1ade6a.png)
 
-   
+
 4. 승인된 **커널 확장에** 다음 세부 정보를 입력합니다.
 
     - 표시 이름: Microsoft Corp.
@@ -693,7 +693,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 2. 다음 세부 정보를 입력합니다.
 
     **일반**
-    
+
     - 이름: MDATP MDAV 시스템 확장
     - 설명: MDATP 시스템 확장
     - 범주: 없음
@@ -747,7 +747,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
 2. 새로 **추가를** 클릭하고 옵션에 대해 다음 세부 정보를 **입력합니다.**
 
-    - Tab **일반**: 
+    - Tab **일반**:
         - **이름:** Microsoft Defender ATP 네트워크 확장
         - **설명:** macOS 10.15(카탈로니아) 이상
         - **범주:** *없음(기본값)*
@@ -812,7 +812,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![구성 설정 compmgmt의 이미지](images/b6d671b2f18b89d96c1c8e2ea1991242.png)
 
-5. 패키지에서 **+ 새로 고치기 를 선택합니다.**  
+5. 패키지에서 **+ 새로 고치기 를 선택합니다.** 
     ![새가 포함된 그림 설명 자동으로 생성된 패키지 새로 추가](images/57aa4d21e2ccc65466bf284701d4e961.png)
 
 6. 새 **패키지에** 다음 세부 정보를 입력합니다.
@@ -825,25 +825,25 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     ![구성 설정 일반 탭의 이미지](images/21de3658bf58b1b767a17358a3f06341.png)
 
     파일을 열고 또는 을(를) `wdav.pkg` 지점으로 `wdav_MDM_Contoso_200329.pkg` 합니다.
-    
+
     ![컴퓨터 화면의 스크린샷 자동으로 생성되는 설명](images/1aa5aaa0a387f4e16ce55b66facc77d1.png)
 
 7. **열기** 를 선택합니다. 표시 **이름을** **Microsoft Defender Advanced Threat Protection으로 설정하고** Microsoft Defender 바이러스 백신.
 
     **매니페스트 파일은** 필요하지 않습니다. 끝점용 Microsoft Defender는 매니페스트 파일 없이 작동합니다.
-    
+
     **옵션 탭**<br> 기본값을 유지 합니다.
 
     **제한 사항 탭**<br> 기본값을 유지 합니다.
-    
+
      ![구성 설정 제한 탭의 이미지](images/56dac54634d13b2d3948ab50e8d3ef21.png)
-   
-8. **저장** 을 선택합니다. 패키지가 Jamf 2013에 Pro. 
+
+8. **저장** 을 선택합니다. 패키지가 Jamf 2013에 Pro.
 
    ![구성 설정 팩 upl jamf pro의 이미지](images/33f1ecdc7d4872555418bbc3efe4b7a3.png)
 
    패키지를 배포하는 데 몇 분 정도 걸릴 수 있습니다.
-   
+
    ![구성 설정 팩 업L 이미지](images/1626d138e6309c6e87bfaab64f5ccf7b.png)
 
 9. 정책 **페이지로** 이동합니다.
@@ -859,17 +859,17 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     - 표시 이름: MDATP 온보드 Contoso 200329 v100.86.92 이상
 
-    ![구성 설정mdatponboard의 이미지 ](images/625ba6d19e8597f05e4907298a454d28.png)
+    ![구성 설정mdatponboard의 이미지](images/625ba6d19e8597f05e4907298a454d28.png)
 
-12. 재발 **체크 인 을 선택합니다.** 
-    
+12. 재발 **체크 인 을 선택합니다.**
+
     ![구성 설정 재발 검사의 이미지](images/68bdbc5754dfc80aa1a024dde0fce7b0.png)
 
-  
-13. **저장** 을 선택합니다. 
- 
+
+13. **저장** 을 선택합니다.
+
 14. 패키지를 **> 구성합니다.**
- 
+
     ![구성 설정 팩 구성 이미지](images/8fb4cc03721e1efb4a15867d5241ebfb.png)
 
 15. Microsoft  **Defender Advanced Threat Protection** 옆에 있는 추가 단추를 선택하고 Microsoft Defender 바이러스 백신.
@@ -880,7 +880,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![구성 설정savimg의 이미지](images/9d6e5386e652e00715ff348af72671c6.png)
 
-17. 범위 **탭을** 선택합니다.  
+17. 범위 **탭을** 선택합니다.
 
     ![구성 설정 scptab의 이미지](images/8d80fe378a31143db9be0bacf7ddc5a3.png)
 
@@ -889,18 +889,18 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     ![구성 설정 tgtcomp의 이미지](images/6eda18a64a660fa149575454e54e7156.png)
 
     **범위**
-    
+
     **추가** 를 선택합니다.
-    
+
     ![구성 설정 ad1img의 이미지](images/1c08d097829863778d562c10c5f92b67.png)
 
     ![구성 설정 ad2img의 이미지](images/216253cbfb6ae738b9f13496b9c799fd.png)
 
     **셀프 서비스**
-    
+
     ![구성 설정 셀프 서비스 이미지](images/c9f85bba3e96d627fe00fc5a8363b83a.png)
 
-19. **완료** 를 선택합니다. 
+19. **완료** 를 선택합니다.
 
     ![구성 설정 do1img의 이미지](images/99679a7835b0d27d0a222bc3fdaf7f3b.png)
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 테넌트에 대한 네트워크 Microsoft 365 최적화합니다.
-ms.openlocfilehash: 5eac0793d2afc924a919671ffa105362ea1866d9
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: cf9591d2ec027c42f5ef9e7abac6dc9b06744a81
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407195"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229182"
 ---
 # <a name="step-2-optimal-networking-for-your-microsoft-365-for-enterprise-tenants"></a>2단계. 엔터프라이즈 테넌트에 Microsoft 365 최적의 네트워킹
 
@@ -31,7 +31,7 @@ Microsoft 365 엔터프라이즈용 앱에는 Teams 및 Exchange Online, Microso
 
 - Microsoft 전역 네트워크에 가장 가까운 위치와의 경로를 최적화합니다.
 - 원격 액세스 VPN 솔루션을 사용하는 원격 사용자를 위해 Microsoft 전역 네트워크에 대한 액세스를 최적화합니다.
-- 네트워크 인사이트를 사용하여 사무실 위치의 네트워크 경계를 디자인합니다.
+- 네트워크 Insights 사용하여 사무실 위치의 네트워크 경계를 디자인합니다.
 - 사용자 지정을 통해 사이트 SharePoint 호스트되는 특정 자산에 대한 액세스를 Office 365 CDN.
 - 끝점 목록이 있는 신뢰할 수 있는 트래픽에 Microsoft 365 처리를 무시하도록 프록시 및 네트워크 에지 장치를 구성하고 변경이 적용될 때 목록 업데이트를 자동화합니다.
 
@@ -94,7 +94,7 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 
 자세한 내용과 지침은 [VPN 분산 터널링을 사용한 원격 근무자의 Office 365 연결 최적화](../enterprise/microsoft-365-vpn-split-tunnel.md)를 참조하세요. 
 
-## <a name="using-network-insights-preview"></a>네트워크 인사이트 사용(미리 보기)
+## <a name="using-network-insights-preview"></a>네트워크 Insights 사용(미리 보기)
 
 네트워크 인사이트는 사무실 위치의 네트워크 경계를 디자인하는 데 도움이 되는 Microsoft 365 테넌트에서 수집된 성능 메트릭입니다. 각 인사이트는 사내 사용자가 테넌트에 액세스하는 각 지리적 위치에 대해 지정된 문제의 성능 특성에 대한 실시간 세부 정보를 제공합니다.
 
@@ -112,10 +112,10 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 - [정문에서 낮은 SharePoint 다운로드](../enterprise/office-365-network-mac-perf-insights.md#low-download-speed-from-sharepoint-front-door)
 - [중국 사용자 최적의 네트워크 유출](../enterprise/office-365-network-mac-perf-insights.md#china-user-optimal-network-egress)
 
->[!IMPORTANT]
->Microsoft 365 관리 센터의 네트워크 정보, 성능 권장 사항 및 평가는 현재 미리 보기 상태입니다. 기능 미리 보기 프로그램에 Microsoft 365 테넌트에만 사용할 수 있습니다.
+> [!IMPORTANT]
+> Microsoft 365 관리 센터의 네트워크 정보, 성능 권장 사항 및 평가는 현재 미리 보기 상태입니다. 기능 미리 보기 프로그램에 Microsoft 365 테넌트에만 사용할 수 있습니다.
 
-자세한 내용은 네트워크 [Microsoft 365 정보를 참조하세요.](../enterprise/office-365-network-mac-perf-insights.md)
+자세한 내용은 네트워크 Microsoft 365 [를 Insights.](../enterprise/office-365-network-mac-perf-insights.md)
 
 ## <a name="sharepoint-performance-with-the-office-365-cdn"></a>SharePoint 성능 Office 365 CDN
 
@@ -152,7 +152,7 @@ PowerShell, Python 또는 기타 언어를 사용하여 시간이 지날 때 끝
 - 모든 지점에 인터넷 연결을 추가하고 네트워크 헤어피를 제거하여 사내 사용자의 네트워크 성능을 최적화하는 방법
 - 지속적인 업데이트를 포함하여 클라이언트 기반 PAC 파일 및 네트워크 장치 및 서비스에 대해 자동화된 신뢰할 수 있는 끝점 목록을 구현하는 방법(엔터프라이즈 네트워크에 가장 적합)
 - 원격 작업자의 액세스를 지원하기 위해 사내 리소스에 대한 액세스 권한을 지원하는 방법
-- 네트워크 인사이트를 사용하는 방법
+- 네트워크 응용 Insights
 - 배포 방법 Office 365 CDN.
 
 다음은 최적의 네트워킹을 통해 엔터프라이즈 조직 및 해당 테넌트의 예입니다.

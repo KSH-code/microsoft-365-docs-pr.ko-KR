@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2231a4fc1f8bb58a83c639c8e60ad790af0df236
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3272ef182c4b08142490e8a1ac21c208023c50f5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845633"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228726"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>엔드포인트용 Microsoft Defender 지원 문의
 
@@ -34,39 +34,38 @@ ms.locfileid: "52845633"
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 지원 프로세스를 최근에 업그레이드했습니다. 
+Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 지원 프로세스를 최근에 업그레이드했습니다.
 
 새 위젯을 통해 고객은 다음을 할 수 있습니다.
+
 - 일반적인 문제에 대한 해결 방법 찾기
 - Microsoft 지원 팀에 지원 사례 제출
 
 ## <a name="prerequisites"></a>필수 구성 요소
+
 지원 사례를 열 수 있는 권한이 있는 특정 역할을 알아야 합니다.
 
 최소한 서비스 지원 관리자 또는  헬프데스크 관리자 역할이 있어야 합니다.
 
-
 사용 권한이 있는 역할에 대한 자세한 내용은 [Security Administrator permissions을 참조하십시오.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator-permissions) 작업이 포함된 역할은 `microsoft.office365.supportTickets/allEntities/allTasks` 사례를 제출할 수 있습니다.
 
-관리자 역할에 대한 일반 정보는 관리자 역할 [정보를 참조하세요.](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
-
+관리자 역할에 대한 일반 정보는 관리자 역할 [정보를 참조하세요.](/microsoft-365/admin/add-users/about-admin-roles)
 
 ## <a name="access-the-widget"></a>위젯에 액세스
 새 지원 위젯에 액세스하는 방법은 다음 두 가지 중 하나일 수 있습니다.
 
-1.  포털 오른쪽 상단에서 물음표를 클릭한 다음 "Microsoft 지원"을 클릭합니다.
+1. 포털 오른쪽 상단에서 물음표를 클릭한 다음 "Microsoft 지원"을 클릭합니다.
 
     ![물음표가 선택된 경우 위젯 이미지](images/support-widget.png)
 
 2. 도움이 **필요하세요? 클릭**  단추를 누른 다음 Microsoft Defender 보안 센터.
 
-
     ![도움이 필요 단추의 이미지](images/need-help.png)
 
 위젯에는 다음 두 가지 옵션이 제공됩니다.
 
-- 일반적인 문제에 대한 해결 방법 찾기    
-- 서비스 요청 열기  
+- 일반적인 문제에 대한 해결 방법 찾기
+- 서비스 요청 열기
 
 ## <a name="find-solutions-to-common-problems"></a>일반적인 문제에 대한 해결 방법 찾기
 이 옵션에는 질문과 관련이 있을 수 있는 문서가 포함되어 있습니다. 검색 상자에 질문을 입력하기만 하면 검색과 관련된 문서가 표시됩니다.
@@ -77,23 +76,24 @@ Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 �
 
 ## <a name="open-a-service-request"></a>서비스 요청 열기
 
-Endpoint 지원에 대한 Defender에 문의하여 지원 티켓을 여는 방법을 자세히 알아보습니다. 
+Endpoint 지원에 대한 Defender에 문의하여 지원 티켓을 여는 방법을 자세히 알아보습니다.
 
 > [!Note]
 > Microsoft와의 지원 계약이 있는 경우 위젯에 프리미어 태그가 표시됩니다. 그렇지 않은 경우 Microsoft 계정 관리자에게 문의하세요.
 
 ### <a name="contact-support"></a>지원 센터 문의
+
 이 옵션은 헤드셋처럼 보이는 아이콘을 클릭하여 사용할 수 있습니다. 그러면 다음 페이지를 통해 지원 사례를 제출합니다.
 
 ![서비스 요청 위젯 열기 이미지](images/Support4.png)
 
-1. 직면하고 있는 문제의 제목과 설명과 전화 번호 및 전자 메일 주소를 입력합니다. 
+1. 직면하고 있는 문제의 제목과 설명과 전화 번호 및 전자 메일 주소를 입력합니다.
 
-2. (선택 사항) 지원 사례에 대한 추가 컨텍스트를 제공하기 위해 문제와 관련된 첨부 파일을 최대 5개까지 포함합니다. 
+2. (선택 사항) 지원 사례에 대한 추가 컨텍스트를 제공하기 위해 문제와 관련된 첨부 파일을 최대 5개까지 포함합니다.
 
 3. 해당되는 경우 표준 시간대 및 대체 언어를 선택합니다. 요청이 Microsoft 지원 팀으로 전송됩니다. 팀이 서비스 요청에 곧 응답합니다.
 
-
 ## <a name="related-topics"></a>관련 항목
+
 - [서비스 문제 해결](troubleshoot-mdatp.md)
 - [서비스 상태 확인](service-status.md)

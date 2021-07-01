@@ -17,19 +17,19 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: fb092ea2500aaa139a34e511d224ec4419e04cb5
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: a0ba40849b47af93f45bcc9c77f2ba6d8f715dc5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930262"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229554"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
 포털은 트래픽이 많은 인트라넷의 SharePoint 커뮤니케이션 사이트로, 몇 주 동안 10,000~10만 명 이상의 뷰어가 있는 사이트입니다. 포털 시작 스케줄러를 사용하여 포털을 시작하여 사용자가 새 웹 사이트 포털에 액세스할 때 원활한 보기 SharePoint 합니다.
 <br>
 <br>
-포털 시작 스케줄러는 뷰어를 단계적으로 일괄 처리하고 새 포털에 대한 URL 리디렉션을 관리하여 단계적 롤아웃 방식을 따르는 데 도움이 하도록 디자인됩니다. 각 웨이브가 시작되는 동안 사용자 피드백을 수집하고, 포털 성능을 모니터링하고, 실행을 일시 중지하여 다음 단계로 진행하기 전에 문제를 해결할 수 있습니다. 에서 포털 시작을 계획하는 방법에 대해 [SharePoint.](/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide)
+포털 시작 스케줄러는 뷰어를 단계적으로 일괄 처리하고 새 포털에 대한 URL 리디렉션을 관리하여 단계적 롤아웃 방식을 따르는 데 도움이 하도록 디자인됩니다. 각 웨이브가 시작되는 동안 사용자 피드백을 수집하고, 포털 성능을 모니터링하고, 실행을 일시 중지하여 다음 단계로 진행하기 전에 문제를 해결할 수 있습니다. 에서 포털 시작을 계획하는 방법에 대해 [SharePoint.](/microsoft-365/Enterprise/Planportallaunchroll-out)
 
 **리디렉션에는 두 가지 유형이 있습니다.**
 
@@ -127,7 +127,7 @@ ms.locfileid: "52930262"
 
 사용자가 10만 명 이상인 포털을 시작해야 하는 경우 아래 나열된 단계에 따라 지원 요청을 제출합니다. 요청된 모든 정보를 포함해야 합니다.
 
-**다음 단계를 따르세요.**
+**아래 단계를 수행하세요.**
 
 1. <https://admin.microsoft.com>으로 이동합니다.
 2. 새 관리 센터 미리 보기를 사용하고 있는지 확인
@@ -270,7 +270,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
 
 2. 모든 사용자에 대해 리디렉션이 진행되지 않은지 유효성을 검사합니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [SharePoint Online에서 포털 시작 롤아웃 계획](./planportallaunchroll-out.md)
 

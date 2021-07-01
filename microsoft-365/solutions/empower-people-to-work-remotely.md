@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 재택근무, 재택근무, 하이브리드, 원격근무, 하이브리드 근무, 원격직원, 하이브리드 연결, 원격접속, 재택근무, 재택근무, 재택근무, 원격근무, 원격근무, 원격근무, 유연한 근무 장소
 description: 하이브리드 직원이 온-프레미스 및 Microsoft 365 리소스에 안전하게 액세스할 수 있도록 인프라 계층으로 이동합니다.
-ms.openlocfilehash: 55f1cf5c922166e1fe3932b6fe89fbdfcbfba466
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: fed23a4607cfb47049a6540dfb592d9a8baf9d21
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788886"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229374"
 ---
 # <a name="set-up-your-infrastructure-for-hybrid-work-with-microsoft-365"></a>Microsoft 365를 사용하여 하이브리드 작업을 위한 인프라 설정
 
@@ -40,9 +40,8 @@ Microsoft 365에는 하이브리드 직원이 현장이나 원격으로 작업�
 
 ![Microsoft 365를 사용하여 하이브리드 작업자의 역량 강화하기](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
->[!Note]
->Microsoft 365를 처음 사용하는 경우, [다음 리소스](https://www.microsoft.com/microsoft-365)를 참조하세요.
->
+> [!NOTE]
+> Microsoft 365를 처음 사용하는 경우, [다음 리소스](https://www.microsoft.com/microsoft-365)를 참조하세요.
 
 이 비디오를 시청하고 배포 프로세스에 대한 개요를 확인하세요.
 <br>
@@ -53,9 +52,9 @@ Microsoft 365에는 하이브리드 직원이 현장이나 원격으로 작업�
 
 - 연결
 
-  작업자는 전 세계 어디서나 언제든지 다음 항목에 액세스할 수 있습니다. 
+  작업자는 전 세계 어디서나 언제든지 다음 항목에 액세스할 수 있습니다.
 
-  - Microsoft 365 구독의 클라우드 기반 서비스 및 데이터 
+  - Microsoft 365 구독의 클라우드 기반 서비스 및 데이터
 
   - 온-프레미스 응용 프로그램 데이터 센터에서 제공하는 그러한 조직 리소스
 
@@ -71,11 +70,11 @@ Microsoft 365에는 하이브리드 직원이 현장이나 원격으로 작업�
 
   하이브리드 작업자는 다음과 같이 매우 협력적인 방식으로 온-프레미스 환경에서처럼 생산적으로 작업할 수 있습니다.
 
-  - Teams를 통한 온라인 팀 회의 및 채팅 
+  - Teams를 통한 온라인 팀 회의 및 채팅
 
   - SharePoint 및 OneDrive를 통한 전역 접근성과 실시간 공동 작업이 가능한 클라우드 기반 파일 저장소를 위한 공유 작업 영역
 
-  - 작업을 분할하고 완료하기 위한 공유 작업 및 워크플로 
+  - 작업을 분할하고 완료하기 위한 공유 작업 및 워크플로
 
 원활하게 로그인하려면 온-프레미스 Active Directory 도메인 서비스(AD DS) 사용자 계정을 Azure Active Directory(Azure AD)와 동기화해야 합니다. Windows 10 장치를 보호하려면 Intune에서 장치를 등록해야 합니다. 다음은 인프라의 개괄적인 보기입니다.
 
@@ -86,15 +85,15 @@ Microsoft 365에는 하이브리드 직원이 현장이나 원격으로 작업�
 | 기능 또는 특징 | 설명 | 라이선싱 |
 |:-------|:-----|:-------|
 | 보안 기본값을 사용하여 MFA 실행   | 로그인에 대한 보조 인증을 요구함으로써 손상된 ID와 장치로부터 보호합니다. 보안 기본값은 모든 사용자 계정에 대해 MFA를 요구합니다.   | Microsoft 365 E3 혹은 E5 |
-| 조건부 액세스로 MFA 실행| 조건부 액세스 정책을 포함한 로그인 속성을 기반으로 하는 MFA가 필요합니다.    | Microsoft 365 E3 혹은 E5 | 
-| 위험 기반 조건부 액세스로 MFA 실행   | ID용 Microsoft Defender와 함께 사용자 로그인의 위험을 기반으로 하는 MFA가 필요합니다. | Azure AD Premium P2 라이선스를 포함한 Microsoft 365 E5 또는 E3 | 
+| 조건부 액세스로 MFA 실행| 조건부 액세스 정책을 포함한 로그인 속성을 기반으로 하는 MFA가 필요합니다.    | Microsoft 365 E3 혹은 E5 |
+| 위험 기반 조건부 액세스로 MFA 실행   | ID용 Microsoft Defender와 함께 사용자 로그인의 위험을 기반으로 하는 MFA가 필요합니다. | Azure AD Premium P2 라이선스를 포함한 Microsoft 365 E5 또는 E3 |
 | 셀프 서비스 암호 재설정(SSPR)    | 사용자가 암호 또는 계정을 다시 설정하거나 잠금 해제할 수 있습니다.  | Microsoft 365 E3 혹은 E5 |
 | Azure AD 응용 프로그램 프록시    | 인트라넷 서버에서 호스트되는 웹 기반 응용 프로그램에 대한 보안 원격 액세스를 제공합니다.   | 별도의 유료 Azure 구독 필요 |
 | Azure 지점 및 사이트 간 VPN   | Azure 가상 네트워크를 통해 원격 작업자의 장치에서 인트라넷으로의 연결을 안전하게 만듭니다.   | 별도의 유료 Azure 구독 필요 |
 | Windows Virtual Desktop   | 가상 데스크톱이 Azure에서 실행되는 관리되지 않는 개인 장치만 사용할 수 있는 원격 작업자를 지원합니다. | 별도의 유료 Azure 구독 필요 |
-| 원격 데스크톱 서비스(RDS) | 직원이 인트라넷의 Windows 기반 컴퓨터에 연결하도록 허용합니다. | Microsoft 365 E3 혹은 E5 | 
+| 원격 데스크톱 서비스(RDS) | 직원이 인트라넷의 Windows 기반 컴퓨터에 연결하도록 허용합니다. | Microsoft 365 E3 혹은 E5 |
 | 원격 데스크톱 서비스 게이트웨이   | 통신을 암호화하고 RDS 호스트가 인터넷에 직접 노출되지 않도록 합니다. | 별도의 Windows Server 라이선스 필요 |
-| Microsoft Intune | 장치 및 응용 프로그램을 관리합니다.   | Microsoft 365 E3 혹은 E5 | 
+| Microsoft Intune | 장치 및 응용 프로그램을 관리합니다.   | Microsoft 365 E3 혹은 E5 |
 | 기능이며 | 장치의 소프트웨어 설치, 업데이트 및 설정 관리 | 별도의 Configuration Manager 라이선스 필요 |
 | Desktop Analytics | Windows 클라이언트의 업데이트 준비 상태를 확인합니다.   | 별도의 Configuration Manager 라이선스 필요 |
 | Windows Autopilot | 새 Windows 10 장치를 업무용으로 사용하도록 설정하고 사전 구성합니다.   | Microsoft 365 E3 혹은 E5 |

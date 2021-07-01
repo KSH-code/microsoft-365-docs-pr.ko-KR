@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: 다중 위치 SharePoint 저장소 할당량과 온라인 관리자가 할당량 관리 방법을 SharePoint 대해 자세히 알아보십시오.
-ms.openlocfilehash: ec736a6bd6061f8b028fca7a1c34d5278a84db89
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0843407e7926027e28cdd1f5893c4aafec4e1cd5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692910"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230094"
 ---
 # <a name="sharepoint-storage-quotas-in-multi-geo-environments"></a>다중 지역 환경에서 SharePoint 저장소 할당량
 
@@ -32,22 +32,30 @@ SharePoint 지역 저장소 할당량 설정을 사용하면 각 위치별로 �
 
 ## <a name="configure-a-storage-quota-for-a-geo-location"></a>지리적 위치에 대한 저장소 할당량 구성
 
-[Microsoft SharePoint Online 모듈](https://www.microsoft.com/download/details.aspx?id=35588 )을 사용하고 중앙 위치에 연결하여 지리적 위치에 대한 저장소 할당량을 할당합니다. 
+[Microsoft SharePoint Online 모듈](https://www.microsoft.com/download/details.aspx?id=35588)을 사용하고 중앙 위치에 연결하여 지리적 위치에 대한 저장소 할당량을 할당합니다.
 
 한 위치에 저장소 할당량을 할당하려면 cmdlet을 실행합니다.
 
-`Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB <value>`
+```powershell
+Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB <value>
+```
 
 현재 지리적 위치에 대한 저장소 할당량을 보려면 다음을 실행하세요.
 
-`Get-SPOGeoStorageQuota`
+```powershell
+Get-SPOGeoStorageQuota
+```
 
 ![Get-SPOGeoStorageQuota cmdlet이 표시된 PowerShell 창의 스크린 샷](../media/multi-geo-storage-quota.png)
 
 모든 지리적 위치에 대한 저장소 할당량을 보려면 다음을 실행하세요.
 
-`Get-SPOGeoStorageQuota -AllLocations`
+```powershell
+Get-SPOGeoStorageQuota -AllLocations
+```
 
 지리적 위치에 할당된 저장소 할당량을 제거하려면 다음을 설정하세요. `StorageQuota value = 0`
 
-`Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB 0`
+```powershell
+Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB 0
+```
