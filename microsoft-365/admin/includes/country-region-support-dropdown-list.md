@@ -156,7 +156,7 @@
 > - [네팔](../support/nepal.md)
 > - [네덜란드](../support/netherlands.md)
 > - [뉴칼레도니아](../support/new-caledonia.md)
-> - [뉴질랜드 ](../support/new-zealand.md)
+> - [뉴질랜드](../support/new-zealand.md)
 > - [니카라과](../support/nicaragua.md)
 > - [니우에](../support/niue.md)
 > - [니제르](../support/niger.md)

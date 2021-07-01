@@ -17,107 +17,106 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f49b4d24-9aa0-48a6-95dd-6bae9cf53d2c
 description: '요약: PowerShell을 사용하여 Microsoft 365 테넌트에 대체 도메인 이름을 추가합니다.'
-ms.openlocfilehash: b6a40f387f9fc7e513137cda4253a62be2455aad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3bcdb40e2c72e5aac8103b0b55ff6fccfe6a9fcc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905575"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229086"
 ---
-# <a name="add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-permission-dap-partners"></a><span data-ttu-id="1da26-103">DAP(위임된 액세스 권한) 파트너용 Windows PowerShell을 사용하여 클라이언트 테넌트에 도메인 추가</span><span class="sxs-lookup"><span data-stu-id="1da26-103">Add a domain to a client tenancy with Windows PowerShell for Delegated Access Permission (DAP) partners</span></span>
+# <a name="add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-permission-dap-partners"></a><span data-ttu-id="4956d-103">DAP(위임된 액세스 권한) 파트너용 Windows PowerShell을 사용하여 클라이언트 테넌트에 도메인 추가</span><span class="sxs-lookup"><span data-stu-id="4956d-103">Add a domain to a client tenancy with Windows PowerShell for Delegated Access Permission (DAP) partners</span></span>
 
-<span data-ttu-id="1da26-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="1da26-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="4956d-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="4956d-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="1da26-105">PowerShell을 사용하여 새 도메인을 만들고 고객 테넌트와 연결하여 Microsoft 365 관리 센터를 사용하는 Microsoft 365 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-105">You can create and associate new domains with your customer's tenancy with PowerShell for Microsoft 365 faster than using the Microsoft 365 admin center.</span></span>
-  
-<span data-ttu-id="1da26-106">DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-106">Delegated Access Permission (DAP) partners are Syndication and Cloud Solution Providers (CSP) Partners.</span></span> <span data-ttu-id="1da26-107">이러한 공급자는 다른 회사의 네트워크 또는 전자 통신 공급자인 경우가 많습니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-107">They are frequently network or telecom providers to other companies.</span></span> <span data-ttu-id="1da26-108">또한 Microsoft 365 서비스에 구독을 번들로 묶습니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-108">They bundle Microsoft 365 subscriptions into their service offerings to their customers.</span></span> <span data-ttu-id="1da26-109">Microsoft 365 구독을 판매하는 경우 고객 테넌트에 대한 AOBO(관리 대신 관리) 권한이 자동으로 부여되어 고객 테넌트에 대해 관리하고 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-109">When they sell a Microsoft 365 subscription, they are automatically granted Administer On Behalf Of (AOBO) permissions to the customer tenancies so they can administer and report on the customer tenancies.</span></span>
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="1da26-110">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="1da26-110">What do you need to know before you begin?</span></span>
+<span data-ttu-id="4956d-105">PowerShell을 사용하여 새 도메인을 만들고 고객 테넌트와 연결하여 새 도메인을 Microsoft 365 보다 빠르게 Microsoft 365 관리 센터.</span><span class="sxs-lookup"><span data-stu-id="4956d-105">You can create and associate new domains with your customer's tenancy with PowerShell for Microsoft 365 faster than using the Microsoft 365 admin center.</span></span>
 
-<span data-ttu-id="1da26-111">이 항목의 절차를 수행하려면 [PowerShell을](connect-to-microsoft-365-powershell.md)사용하여 커넥트 Microsoft 365 연결해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-111">The procedures in this topic require you to connect to [Connect to Microsoft 365 with PowerShell](connect-to-microsoft-365-powershell.md).</span></span>
-  
-<span data-ttu-id="1da26-112">파트너 테넌트 관리자 자격 증명도 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-112">You also need your partner tenant administrator credentials.</span></span>
-  
-<span data-ttu-id="1da26-113">다음 정보도 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-113">You also need the following information:</span></span>
-  
-- <span data-ttu-id="1da26-114">고객이 원하는 FQDN(정규화된 도메인 이름)이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-114">You need the fully qualified domain name (FQDN) that your customer wants.</span></span>
-    
-- <span data-ttu-id="1da26-115">고객의 **TenantId** 가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-115">You need the customer's **TenantId**.</span></span>
-    
-- <span data-ttu-id="1da26-p102">FQDN은 GoDaddy 등의 DNS(인터넷 도메인 이름 서비스) 등록 기관으로 등록해야 합니다. 도메인 이름을 공개적으로 등록하는 방법에 대한 자세한 내용은 [도메인 이름 구입 방법](../admin/get-help-with-domains/buy-a-domain-name.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="1da26-p102">The FQDN must be registered with an Internet domain name service (DNS) registrar, such as GoDaddy. For more information on how to publically register a domain name, see [How to buy a domain name](../admin/get-help-with-domains/buy-a-domain-name.md).</span></span>
-    
-- <span data-ttu-id="1da26-118">DNS 등록 기관에 대해 TXT 레코드를 등록된 DNS 영역에 추가하는 방법을 알아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-118">You need to know how to add a TXT record to the registered DNS zone for your DNS registrar.</span></span> <span data-ttu-id="1da26-119">TXT 레코드를 추가하는 방법에 대한 자세한 내용은 도메인에 연결하기 위해 DNS 레코드 [추가를 참조하세요.](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)</span><span class="sxs-lookup"><span data-stu-id="1da26-119">For more information on how to add a TXT record, see [Add DNS records to connect your domain](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).</span></span> <span data-ttu-id="1da26-120">이러한 절차가 작동하지 않으면 DNS 등록 기관에 대한 절차를 찾아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-120">If those procedures don't work for you, you will need to find the procedures for your DNS registrar.</span></span>
-    
-## <a name="create-domains"></a><span data-ttu-id="1da26-121">도메인 만들기</span><span class="sxs-lookup"><span data-stu-id="1da26-121">Create domains</span></span>
+<span data-ttu-id="4956d-106">DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-106">Delegated Access Permission (DAP) partners are Syndication and Cloud Solution Providers (CSP) Partners.</span></span> <span data-ttu-id="4956d-107">이러한 공급자는 다른 회사의 네트워크 또는 전자 통신 공급자인 경우가 많습니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-107">They are frequently network or telecom providers to other companies.</span></span> <span data-ttu-id="4956d-108">또한 Microsoft 365 서비스에 구독을 번들로 묶습니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-108">They bundle Microsoft 365 subscriptions into their service offerings to their customers.</span></span> <span data-ttu-id="4956d-109">Microsoft 365 구독을 판매하는 경우 고객 테넌트에 대한 AOBO(관리 대신 관리) 권한이 자동으로 부여되어 고객 테넌트에 대해 관리하고 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-109">When they sell a Microsoft 365 subscription, they are automatically granted Administer On Behalf Of (AOBO) permissions to the customer tenancies so they can administer and report on the customer tenancies.</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="4956d-110">시작하기 전에 알아야 할 내용</span><span class="sxs-lookup"><span data-stu-id="4956d-110">What do you need to know before you begin?</span></span>
 
- <span data-ttu-id="1da26-p104">고객이 기본<domain>.onmicrosoft.com도메인을 회사 ID로 표시할 기본 도메인으로 원하지 않으므로 테넌트와 연결할 추가 도메인 만들기를 문의할 수 있습니다. 이 절차를 통해 고객의 테넌트와 연관된 새 도메인 만들기가 진행됩니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-p104">Your customers will likely ask you to create additional domains to associate with their tenancy because they don't want the default <domain>.onmicrosoft.com domain to be the primary one that represents their corporate identities to the world. This procedure walks you through creating a new domain associated with your customer's tenancy.</span></span>
-  
+<span data-ttu-id="4956d-111">이 항목의 절차를 수행하려면 [PowerShell을](connect-to-microsoft-365-powershell.md)사용하여 커넥트 Microsoft 365 연결해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-111">The procedures in this topic require you to connect to [Connect to Microsoft 365 with PowerShell](connect-to-microsoft-365-powershell.md).</span></span>
+
+<span data-ttu-id="4956d-112">파트너 테넌트 관리자 자격 증명도 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-112">You also need your partner tenant administrator credentials.</span></span>
+
+<span data-ttu-id="4956d-113">다음 정보도 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-113">You also need the following information:</span></span>
+
+- <span data-ttu-id="4956d-114">고객이 원하는 FQDN(정규화된 도메인 이름)이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-114">You need the fully qualified domain name (FQDN) that your customer wants.</span></span>
+
+- <span data-ttu-id="4956d-115">고객의 **TenantId** 가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-115">You need the customer's **TenantId**.</span></span>
+
+- <span data-ttu-id="4956d-p102">FQDN은 GoDaddy 등의 DNS(인터넷 도메인 이름 서비스) 등록 기관으로 등록해야 합니다. 도메인 이름을 공개적으로 등록하는 방법에 대한 자세한 내용은 [도메인 이름 구입 방법](../admin/get-help-with-domains/buy-a-domain-name.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="4956d-p102">The FQDN must be registered with an Internet domain name service (DNS) registrar, such as GoDaddy. For more information on how to publically register a domain name, see [How to buy a domain name](../admin/get-help-with-domains/buy-a-domain-name.md).</span></span>
+
+- <span data-ttu-id="4956d-118">DNS 등록 기관에 대해 TXT 레코드를 등록된 DNS 영역에 추가하는 방법을 알아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-118">You need to know how to add a TXT record to the registered DNS zone for your DNS registrar.</span></span> <span data-ttu-id="4956d-119">TXT 레코드를 추가하는 방법에 대한 자세한 내용은 도메인에 연결하기 위해 DNS 레코드 [추가를 참조하세요.](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)</span><span class="sxs-lookup"><span data-stu-id="4956d-119">For more information on how to add a TXT record, see [Add DNS records to connect your domain](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).</span></span> <span data-ttu-id="4956d-120">이러한 절차가 작동하지 않으면 DNS 등록 기관에 대한 절차를 찾아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-120">If those procedures don't work for you, you will need to find the procedures for your DNS registrar.</span></span>
+
+## <a name="create-domains"></a><span data-ttu-id="4956d-121">도메인 만들기</span><span class="sxs-lookup"><span data-stu-id="4956d-121">Create domains</span></span>
+
+ <span data-ttu-id="4956d-p104">고객이 기본<domain>.onmicrosoft.com도메인을 회사 ID로 표시할 기본 도메인으로 원하지 않으므로 테넌트와 연결할 추가 도메인 만들기를 문의할 수 있습니다. 이 절차를 통해 고객의 테넌트와 연관된 새 도메인 만들기가 진행됩니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-p104">Your customers will likely ask you to create additional domains to associate with their tenancy because they don't want the default <domain>.onmicrosoft.com domain to be the primary one that represents their corporate identities to the world. This procedure walks you through creating a new domain associated with your customer's tenancy.</span></span>
+
 > [!NOTE]
-> <span data-ttu-id="1da26-124">이러한 작업 중 일부를 수행하려면 로그인한 파트너 관리자 계정이 Microsoft 365  관리 센터의 관리자 계정 세부 정보에서 찾을 수 있는 지원 회사에 대한 관리 액세스 할당 설정의 전체 관리로 설정해야 합니다. </span><span class="sxs-lookup"><span data-stu-id="1da26-124">To perform some of these operations, the partner administrator account you sign in with must be set to **Full administration** for the **Assign administrative access to companies you support** setting found in the details of the admin account in the Microsoft 365 admin center.</span></span> <span data-ttu-id="1da26-125">파트너 관리자 역할 관리에 대한 자세한 내용은 파트너: 위임된 관리 [제공을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=532435)</span><span class="sxs-lookup"><span data-stu-id="1da26-125">For more information on managing partner administrator roles, see [Partners: Offer delegated administration](https://go.microsoft.com/fwlink/p/?LinkId=532435).</span></span> 
-  
-### <a name="create-the-domain-in-azure-active-directory"></a><span data-ttu-id="1da26-126">Azure Active Directory에서 도메인 만들기</span><span class="sxs-lookup"><span data-stu-id="1da26-126">Create the domain in Azure Active Directory</span></span>
+> <span data-ttu-id="4956d-124">이러한 작업 중 일부를 수행하려면 로그인한 파트너 관리자 계정이 조직의  관리자 계정 세부 정보에서 찾을 수 있는 지원 회사에 대한 관리 액세스 할당 설정의 전체 관리로 Microsoft 365 관리 센터. </span><span class="sxs-lookup"><span data-stu-id="4956d-124">To perform some of these operations, the partner administrator account you sign in with must be set to **Full administration** for the **Assign administrative access to companies you support** setting found in the details of the admin account in the Microsoft 365 admin center.</span></span> <span data-ttu-id="4956d-125">파트너 관리자 역할 관리에 대한 자세한 내용은 파트너: 위임된 관리 [제공을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=532435)</span><span class="sxs-lookup"><span data-stu-id="4956d-125">For more information on managing partner administrator roles, see [Partners: Offer delegated administration](https://go.microsoft.com/fwlink/p/?LinkId=532435).</span></span>
 
-<span data-ttu-id="1da26-127">이 명령은 Azure Active Directory에서 도메인을 만들지만 공개적으로 등록된 도메인으로 연결하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-127">This command creates the domain in Azure Active Directory but does not associate it with the publicly registered domain.</span></span> <span data-ttu-id="1da26-128">엔터프라이즈용 Microsoft 365에 공개적으로 등록된 도메인을 소유하고 Microsoft 365 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-128">That comes when you prove that you own the publicly registered domain to Microsoft Microsoft 365 for enterprises.</span></span>
-  
+### <a name="create-the-domain-in-azure-active-directory"></a><span data-ttu-id="4956d-126">Azure Active Directory에서 도메인 만들기</span><span class="sxs-lookup"><span data-stu-id="4956d-126">Create the domain in Azure Active Directory</span></span>
+
+<span data-ttu-id="4956d-127">이 명령은 Azure Active Directory에서 도메인을 만들지만 공개적으로 등록된 도메인으로 연결하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-127">This command creates the domain in Azure Active Directory but does not associate it with the publicly registered domain.</span></span> <span data-ttu-id="4956d-128">엔터프라이즈용 Microsoft 365에 공개적으로 등록된 도메인을 소유하고 Microsoft 365 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-128">That comes when you prove that you own the publicly registered domain to Microsoft Microsoft 365 for enterprises.</span></span>
+
 ```powershell
 New-MsolDomain -TenantId <customer TenantId> -Name <FQDN of new domain>
 ```
 
->[!Note]
-><span data-ttu-id="1da26-129">PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol** 이 있는 cmdlet을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-129">PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name.</span></span> <span data-ttu-id="1da26-130">이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-130">To continue using these cmdlets, you must run them from Windows PowerShell.</span></span>
->
+> [!NOTE]
+> <span data-ttu-id="4956d-129">PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol** 이 있는 cmdlet을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-129">PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name.</span></span> <span data-ttu-id="4956d-130">이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-130">To continue using these cmdlets, you must run them from Windows PowerShell.</span></span>
 
-### <a name="get-the-data-for-the-dns-txt-verification-record"></a><span data-ttu-id="1da26-131">DNS TXT 확인 레코드에 대한 데이터 가져오기</span><span class="sxs-lookup"><span data-stu-id="1da26-131">Get the data for the DNS TXT verification record</span></span>
+### <a name="get-the-data-for-the-dns-txt-verification-record"></a><span data-ttu-id="4956d-131">DNS TXT 확인 레코드에 대한 데이터 가져오기</span><span class="sxs-lookup"><span data-stu-id="4956d-131">Get the data for the DNS TXT verification record</span></span>
 
- <span data-ttu-id="1da26-132">Microsoft 365 DNS TXT 확인 레코드에 저장해야 하는 특정 데이터를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-132">Microsoft 365 will generate the specific data that you need to place into the DNS TXT verification record.</span></span> <span data-ttu-id="1da26-133">데이터를 가져오려면 이 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-133">To get the data, run this command.</span></span>
-  
+ <span data-ttu-id="4956d-132">Microsoft 365 DNS TXT 확인 레코드에 저장해야 하는 특정 데이터를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-132">Microsoft 365 will generate the specific data that you need to place into the DNS TXT verification record.</span></span> <span data-ttu-id="4956d-133">데이터를 가져오려면 이 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-133">To get the data, run this command.</span></span>
+
 ```powershell
 Get-MsolDomainVerificationDNS -TenantId <customer TenantId> -DomainName <FQDN of new domain> -Mode DnsTxtRecord
 ```
 
-<span data-ttu-id="1da26-134">이는 다음과 같은 출력을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-134">This will give you output like:</span></span>
-  
- `Label: domainname.com`
-  
- `Text: MS=ms########`
-  
- `Ttl: 3600`
-  
-> [!NOTE]
-> <span data-ttu-id="1da26-135">공개적으로 등록된 DNS 영역에서 TXT 레코드를 만들려면 이 텍스트가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-135">You will need this text to create the TXT record in the publicly registered DNS zone.</span></span> <span data-ttu-id="1da26-136">텍스트를 복사하고 저장해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-136">Be sure to copy and save it.</span></span> 
-  
-### <a name="add-a-txt-record-to-the-publically-registered-dns-zone"></a><span data-ttu-id="1da26-137">TXT 레코드를 공개적으로 등록된 DNS 영역에 추가</span><span class="sxs-lookup"><span data-stu-id="1da26-137">Add a TXT record to the publically registered DNS zone</span></span>
+<span data-ttu-id="4956d-134">이는 다음과 같은 출력을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-134">This will give you output like:</span></span>
 
-<span data-ttu-id="1da26-138">Microsoft 365 공개적으로 등록된 도메인 이름으로 연결되는 트래픽을 수락하기 전에 도메인에 대한 관리자 권한을 소유하고 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-138">Before Microsoft 365 will start accepting traffic that is directed to the publicly registered domain name, you must prove that you own and have administrator permissions to the domain.</span></span> <span data-ttu-id="1da26-139">도메인에서 TXT 레코드를 생성하여 도메인 소유를 증명합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-139">You prove you own the domain by creating a TXT record in the domain.</span></span> <span data-ttu-id="1da26-140">TXT 레코드는 도메인에서 아무 작업도 수행하지 않으며 도메인 소유권이 설정되고 나면 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-140">A TXT record doesn't do anything in your domain, and it can be deleted after your ownership of the domain is established.</span></span> <span data-ttu-id="1da26-141">TXT 레코드를 만들하려면 DNS 레코드 추가의 절차에 [따라 도메인을 연결합니다.](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)</span><span class="sxs-lookup"><span data-stu-id="1da26-141">To create the TXT records, follow the procedures at [Add DNS records to connect your domain](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).</span></span> <span data-ttu-id="1da26-142">이러한 절차가 작동하지 않으면 DNS 등록 기관에 대한 절차를 찾아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-142">If those procedures don't work for you , you need to find the procedures for your DNS registrar.</span></span>
-  
-<span data-ttu-id="1da26-p111">nslookup을 통해 TXT 레코드가 만들어졌음을 확인합니다. 이 구문을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-p111">Confirm the successful creation of the TXT record via nslookup. Follow this syntax.</span></span>
-  
+ `Label: domainname.com`
+
+ `Text: MS=ms########`
+
+ `Ttl: 3600`
+
+> [!NOTE]
+> <span data-ttu-id="4956d-135">공개적으로 등록된 DNS 영역에서 TXT 레코드를 만들려면 이 텍스트가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-135">You will need this text to create the TXT record in the publicly registered DNS zone.</span></span> <span data-ttu-id="4956d-136">텍스트를 복사하고 저장해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-136">Be sure to copy and save it.</span></span>
+
+### <a name="add-a-txt-record-to-the-publically-registered-dns-zone"></a><span data-ttu-id="4956d-137">TXT 레코드를 공개적으로 등록된 DNS 영역에 추가</span><span class="sxs-lookup"><span data-stu-id="4956d-137">Add a TXT record to the publically registered DNS zone</span></span>
+
+<span data-ttu-id="4956d-138">Microsoft 365 공개적으로 등록된 도메인 이름으로 연결되는 트래픽을 수락하기 전에 도메인에 대한 관리자 권한을 소유하고 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-138">Before Microsoft 365 will start accepting traffic that is directed to the publicly registered domain name, you must prove that you own and have administrator permissions to the domain.</span></span> <span data-ttu-id="4956d-139">도메인에서 TXT 레코드를 생성하여 도메인 소유를 증명합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-139">You prove you own the domain by creating a TXT record in the domain.</span></span> <span data-ttu-id="4956d-140">TXT 레코드는 도메인에서 아무 작업도 수행하지 않으며 도메인 소유권이 설정되고 나면 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-140">A TXT record doesn't do anything in your domain, and it can be deleted after your ownership of the domain is established.</span></span> <span data-ttu-id="4956d-141">TXT 레코드를 만들하려면 DNS 레코드 추가의 절차에 [따라 도메인을 연결합니다.](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)</span><span class="sxs-lookup"><span data-stu-id="4956d-141">To create the TXT records, follow the procedures at [Add DNS records to connect your domain](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).</span></span> <span data-ttu-id="4956d-142">이러한 절차가 작동하지 않으면 DNS 등록 기관에 대한 절차를 찾아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-142">If those procedures don't work for you , you need to find the procedures for your DNS registrar.</span></span>
+
+<span data-ttu-id="4956d-p111">nslookup을 통해 TXT 레코드가 만들어졌음을 확인합니다. 이 구문을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-p111">Confirm the successful creation of the TXT record via nslookup. Follow this syntax.</span></span>
+
 ```console
 nslookup -type=TXT <FQDN of registered domain>
 ```
 
-<span data-ttu-id="1da26-145">이는 다음과 같은 출력을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-145">This will give you output like:</span></span>
-  
- `Non-authoritative answer:`
-  
- `FQDN of the registered domain`
-  
- `text=MS=ms########`
-  
-### <a name="validate-domain-ownership-in-microsoft-365"></a><span data-ttu-id="1da26-146">도메인에서 도메인 소유권 Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="1da26-146">Validate domain ownership in Microsoft 365</span></span>
+<span data-ttu-id="4956d-145">이는 다음과 같은 출력을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-145">This will give you output like:</span></span>
 
-<span data-ttu-id="1da26-147">이 마지막 단계에서는 공개적으로 등록된 Microsoft 365 도메인을 소유하는지 검사합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-147">In this last step, you validate to Microsoft 365 that you own the publically registered domain.</span></span> <span data-ttu-id="1da26-148">이 단계를 Microsoft 365 새 도메인 이름으로 라우팅된 트래픽 수락을 시작하게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-148">After this step, Microsoft 365 will begin accepting traffic routed to the new domain name.</span></span> <span data-ttu-id="1da26-149">도메인 만들기 및 등록 프로세스를 완료하려면 이 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-149">To complete the domain creation and registration process, run this command.</span></span> 
-  
+ `Non-authoritative answer:`
+
+ `FQDN of the registered domain`
+
+ `text=MS=ms########`
+
+### <a name="validate-domain-ownership-in-microsoft-365"></a><span data-ttu-id="4956d-146">도메인에서 도메인 소유권 Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="4956d-146">Validate domain ownership in Microsoft 365</span></span>
+
+<span data-ttu-id="4956d-147">이 마지막 단계에서는 공개적으로 등록된 Microsoft 365 도메인을 소유하는지 검사합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-147">In this last step, you validate to Microsoft 365 that you own the publically registered domain.</span></span> <span data-ttu-id="4956d-148">이 단계를 Microsoft 365 새 도메인 이름으로 라우팅된 트래픽 수락을 시작하게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-148">After this step, Microsoft 365 will begin accepting traffic routed to the new domain name.</span></span> <span data-ttu-id="4956d-149">도메인 만들기 및 등록 프로세스를 완료하려면 이 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-149">To complete the domain creation and registration process, run this command.</span></span>
+
 ```powershell
 Confirm-MsolDomain -TenantId <customer TenantId> -DomainName <FQDN of new domain>
 ```
 
-<span data-ttu-id="1da26-150">이 명령은 출력을 반환하지 않으므로 이 작업을 확인하려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-150">This command won't return any output, so to confirm that this worked, run this command.</span></span>
-  
+<span data-ttu-id="4956d-150">이 명령은 출력을 반환하지 않으므로 이 작업을 확인하려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-150">This command won't return any output, so to confirm that this worked, run this command.</span></span>
+
 ```powershell
 Get-MsolDomain -TenantId <customer TenantId> -DomainName <FQDN of new domain>
 ```
 
-<span data-ttu-id="1da26-151">그러면 다음과 같이 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="1da26-151">This will return something like this</span></span>
+<span data-ttu-id="4956d-151">그러면 다음과 같이 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="4956d-151">This will return something like this</span></span>
 
 ```console
 Name                   Status      Authentication
@@ -125,9 +124,9 @@ Name                   Status      Authentication
 FQDN of new domain     Verified    Managed
 ```
 
-   
-## <a name="see-also"></a><span data-ttu-id="1da26-152">참고 항목</span><span class="sxs-lookup"><span data-stu-id="1da26-152">See also</span></span>
 
-#### 
+## <a name="see-also"></a><span data-ttu-id="4956d-152">참고 항목</span><span class="sxs-lookup"><span data-stu-id="4956d-152">See also</span></span>
 
-[<span data-ttu-id="1da26-153">파트너를 위한 도움말</span><span class="sxs-lookup"><span data-stu-id="1da26-153">Help for partners</span></span>](https://go.microsoft.com/fwlink/p/?LinkID=533477)
+####
+
+[<span data-ttu-id="4956d-153">파트너를 위한 도움말</span><span class="sxs-lookup"><span data-stu-id="4956d-153">Help for partners</span></span>](https://go.microsoft.com/fwlink/p/?LinkID=533477)
