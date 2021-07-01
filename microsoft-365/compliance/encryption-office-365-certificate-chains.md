@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: 전체 루트 인증서 및 CAS(인증 기관)의 전체 목록을 Microsoft 365.
-ms.openlocfilehash: c5b00a3a663c2ae4862cfa3d11f92015c0331e59
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3bb48bf82f3f00223d3a913280e34fe4f0686426
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907722"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226758"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Microsoft 365 암호화 체인
 
@@ -30,8 +30,8 @@ Microsoft 365 다양한 인증서 공급자를 활용합니다. 다음에서는 
 
 Last updated: **10/16/2020**
 
->[!NOTE]
->**DOD** 및 높은 고객에게 적용되는 인증서 GCC 자세한 내용은 Microsoft 365 암호화 체인 - DOD 및 GCC [높음 을 참조하세요.](encryption-office-365-certificate-chains-itar.md)
+> [!NOTE]
+> **DOD** 및 높은 고객에게 적용되는 인증서 GCC 자세한 내용은 Microsoft 365 암호화 체인 - DOD 및 GCC [높음 을 참조하세요.](encryption-office-365-certificate-chains-itar.md)
 
 | **인증서 형식** | **P7b 다운로드** | **CRL 끝점** | **OCSP 끝점** | **AIA 끝점** |
 | --- | --- | --- | --- | --- |

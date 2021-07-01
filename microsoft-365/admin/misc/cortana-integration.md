@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 직장 또는 학교 계정이 있는 사용자는 엔터프라이즈 수준의 보안 약속을 Cortana Microsoft 365 환경을 Office 365 수 있습니다.
-ms.openlocfilehash: 45e6f46fa753096c535add9daf486ef6a9f1bff0
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: a740c4ce2b89244cc84494349e962fb665fa2d73
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054597"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227898"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana Microsoft 365
 
@@ -39,7 +39,7 @@ Cortana 도우미는 AI 기반 환경을 제공하여 시간을 절약하고 가
 
 - 다른 Office 365 서비스와 Cortana 엔터프라이즈 서비스는 [OST(온라인](https://www.microsoft.com/licensing/product-licensing/products)서비스 약관)에 반영된 동일한 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수 약속을 충족합니다.
 
-- 브리핑 Microsoft 365 내 전자 메일 재생과 같은 새로운 사용자 환경은 Cortana 엔터프라이즈 서비스를 사용하여 사용할 수 있으며 이러한 약속을 완전히 준수합니다. 이러한 기능은 현재 전 세계(표준 다중 테넌트)에서 사용할 수 있습니다. 사용 위치를 찾는 데 대한 자세한 내용은 계정에 대한 추가 [속성 값 보기를 방문하세요.](../../enterprise/view-user-accounts-with-microsoft-365-powershell.md?view=o365-worldwide#view-additional-property-values-for-accounts)
+- 브리핑 Microsoft 365 내 전자 메일 재생과 같은 새로운 사용자 환경은 Cortana 엔터프라이즈 서비스를 사용하여 사용할 수 있으며 이러한 약속을 완전히 준수합니다. 이러한 기능은 현재 전 세계(표준 다중 테넌트)에서 사용할 수 있습니다. 사용 위치를 찾는 데 대한 자세한 내용은 계정에 대한 추가 [속성 값 보기를 방문하세요.](../../enterprise/view-user-accounts-with-microsoft-365-powershell.md#view-additional-property-values-for-accounts)
 
 - Cortana(Windows 10 버전 1909 이하)의 기존 소비자 환경은 [Microsoft](https://www.microsoft.com/licensing/product-licensing/products) 서비스 계약 및 [Microsoft](https://privacy.microsoft.com/privacystatement) 개인정보처리방침(아래 "소비자를 위한 기존 서비스" 섹션 참조)에 따라 관리됩니다. 또한 이 약관은 소비자 Cortana 로그인할 때 사용자에게 제공되는 엔터프라이즈 서비스도 관리합니다.
 
@@ -179,7 +179,7 @@ Cortana 수행된 것으로 표시하거나 포커스 시간을 예약하여 수
 
 2. 조직의 사용자 대신 Microsoft에서 호스팅하는 데이터에 액세스하여 Cortana Windows 10(버전 **1909** 이전 버전) 및 iOS 및 Android의 Cortana 앱 허용 확인란의 선택을 해제하여 Cortana 연결된 환경을 사용하지 않도록 설정하십시오.
 
-3. **변경 내용 저장** 을 선택합니다.
+3. **변경 사항 저장** 을 선택합니다.
 
 Microsoft 서비스 계약 및 [Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=2109174) 개인정보처리방침이 제어하는 서비스의 경우 [Microsoft는](https://privacy.microsoft.com/privacystatement)데이터 컨트롤러입니다. 데이터 컨트롤러인 Microsoft는 Microsoft 개인 정보 취급 방침에 따라 데이터를 사용하여 제품 및 서비스를 [개선합니다.](https://privacy.microsoft.com/privacystatement)
 

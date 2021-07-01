@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 중앙 집중식 배포에 대한 질문과 대답을 Microsoft 365 관리 센터에서 검토합니다.
-ms.openlocfilehash: 60d7a91da738803976b6823009450124d7b57814
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 중앙 집중식 배포에 대한 질문과 대답을 검토하여 Microsoft 365 관리 센터.
+ms.openlocfilehash: 0da9ec9595fd433abe1e2e2ae3f2e3a0c6b3b9b5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579305"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228009"
 ---
 # <a name="centralized-deployment-faq"></a>중앙 집중식 배포 FAQ
 
@@ -44,7 +44,7 @@ ms.locfileid: "51579305"
 
 보다 쉽게 관리하기 위해 개별 사용자 할당 대신 그룹 할당을 사용하는 것이 좋습니다.
  
-자세한 내용은 사용자 및 그룹 [할당을 참조합니다.](./centralized-deployment-of-add-ins.md?view=o365-worldwide#user-and-group-assignments)  
+자세한 내용은 사용자 및 그룹 [할당을 참조합니다.](./centralized-deployment-of-add-ins.md#user-and-group-assignments)  
    
 ## <a name="how-long-does-it-take-for-add-ins-to-show-up-for-all-users"></a>추가 기능을 모든 사용자에게 표시하는 데 얼마나 걸릴까요?  
 
@@ -94,8 +94,8 @@ ms.locfileid: "51579305"
     
 ## <a name="which-admin-role-do-i-need-to-manage-add-ins-for-my-organization"></a>조직의 추가 기능을 관리하려면 어떤 관리자 역할이 필요한가요?  
 
-전역 관리자는 추가 기능 관리 수명 주기에 대한 모든 액세스 권한을 가진 권장 역할입니다. 다른 관리자 역할은 추가 기능 배포 수명 주기에 제한적인 액세스 권한을 가합니다. 비즈니스용 구독을 Microsoft 365 사용자가면 전역 관리자입니다. 
+전역 관리자는 추가 기능 관리 수명 주기에 대한 모든 액세스 권한을 가진 권장 역할입니다. 비즈니스용 구독을 구매한 Microsoft 365 전역 관리자입니다. 
  
-구독에는 조직의 다른 사용자에게 할당할 수 있는 관리자 역할 집합이 함께 제공됩니다. 각 관리자 역할은 일반적인 비즈니스 기능에 매핑되어 있으며 조직의 사용자에게 Microsoft 365 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.  
+구독에는 조직의 다른 사용자에게 할당할 수 있는 관리자 역할 집합이 함께 제공됩니다. 각 관리자 역할은 일반적인 비즈니스 기능에 매핑되어 있으며 조직의 사용자에게 조직 내 특정 작업을 수행할 수 있는 권한을 Microsoft 365 관리 센터.  
  
-자세한 내용은 관리자 역할 [할당을 참조하세요.](../add-users/assign-admin-roles.md?view=o365-worldwide) 
+자세한 내용은 관리자 역할 [할당을 참조하세요.](../add-users/assign-admin-roles.md) 

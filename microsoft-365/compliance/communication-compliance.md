@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 9d9c439704b6837cec086b390cde9c480d2d69ba
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 2bf40f5b1d89b7a232f86c1e186ca660db9f8bbc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860399"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227286"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>정보 통신 규정 준수에 대해 Microsoft 365
 
@@ -103,7 +103,7 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 
 - **사전 인텔리전트 알림**: 즉시 주의가 필요한 정책 일치 알림에는 심각도별로 정렬된 보류 항목에 대한 새 대시보드와 지정된 검토자에게 전송되는 새로운 자동 전자 메일 알림이 포함됩니다.
 - **대화형 대시보드**: 새 대시보드에 정책 일치, 보류 중인 작업 및 해결된 작업, 사용자 및 정책별 추세가 표시됩니다.
-- **감사 지원:** 감사 검토 요청을 지원하기 위해 Microsoft 365 및 검토 활동의 전체 로그를 정책 및 검토 센터에서 쉽게 내보낼 수 있습니다.
+- **감사 지원:** 감사 검토 요청을 지원하기 위해 정책 및 검토 활동의 Microsoft 365 규정 준수 센터 로그를 쉽게 내보낼 수 있습니다.
 
 ## <a name="integration-with-microsoft-365-services"></a>서비스 Microsoft 365 통합
 
@@ -129,8 +129,8 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 
 이 워크플로 단계에서는 규정 준수 요구 사항을 식별하고 해당 통신 준수 정책을 구성합니다. 정책 템플릿은 새 규정 준수 정책을 신속하게 구성할 뿐만 아니라 요구 사항이 변경될 때 정책을 빠르게 수정하고 업데이트하는 좋은 방법입니다. 예를 들어 조직의 모든 사용자에 대한 정책을 구성하기 전에 소규모 사용자 그룹의 통신에 대한 공격적인 언어 및 괴롭힘 방지 정책을 빠르게 테스트해야 할 수 있습니다.
 
->[!Important]
->기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 통신 준수 기능에 대한 사용 권한을 사용하도록 설정하려면 조직에서 통신 규정 준수를 사용할 [수 있도록 설정을 참조합니다.](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance)
+> [!IMPORTANT]
+> 기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 통신 준수 기능에 대한 사용 권한을 사용하도록 설정하려면 조직에서 통신 규정 준수를 사용할 [수 있도록 설정을 참조합니다.](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance)
 
 Microsoft 365 규정 준수 센터에서 다음의 정책 템플릿 중에서 선택할 수 있습니다.
 
@@ -142,7 +142,7 @@ Microsoft 365 규정 준수 센터에서 다음의 정책 템플릿 중에서 �
 
 ### <a name="investigate"></a>조사하기
 
-이 단계에서는 커뮤니케이션 규정 준수 정책과 일치하는 것으로 감지된 문제를 더욱 상세하게 확인합니다. 이 단계에서는 준수 센터에서 사용할 수 있는 Microsoft 365 포함됩니다.
+이 단계에서는 커뮤니케이션 규정 준수 정책과 일치하는 것으로 감지된 문제를 더욱 상세하게 확인합니다. 이 단계에서는 다음 작업을 수행할 수 Microsoft 365 규정 준수 센터.
 
 - **경고:** 메시지가 정책 조건과 일치하면 경고가 자동으로 생성됩니다. 각 경고에 대해 상태, 심각도, 검색된 시간 및 사례가 할당된 Advanced eDiscovery 상태를 확인할 수 있습니다. 새 경고는 커뮤니케이션 규정 준수 홈  페이지 및 경고 페이지에 표시되고 심각도 순서대로 나열됩니다.
 - **문제 관리**: 각 경고에 대해 메시지에서 검색된 문제를 수정하기 위해 조사 작업을 수행할 수 있습니다.
@@ -150,7 +150,7 @@ Microsoft 365 규정 준수 센터에서 다음의 정책 템플릿 중에서 �
 - **사용자 활동** 기록 검토: 정책 일치에 대한 사용자 메시지 활동 및 수정 작업 기록(예: 지난 알림 및 에스컬레이터)을 볼 수 있습니다.
 - **필터:** 보낸 사람, 받는 사람, 날짜 및 제목과 같은 필터를 사용하여 검토할 메시지 경고의 범위를 빠르게 좁힐 수 있습니다.
 
-### <a name="remediate"></a>수정하기
+### <a name="remediate"></a>수정
 
 다음 단계는 다음 옵션을 사용하여 조사한 통신 준수 문제를 수정하는 것입니다.
 

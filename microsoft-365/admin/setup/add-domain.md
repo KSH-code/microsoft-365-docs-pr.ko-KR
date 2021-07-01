@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: DNS 호스트에서 DNS 레코드를 추가하여 Microsoft 365 관리 Microsoft 365 추가하려면 설정 마법사를 사용하여 도메인을 추가합니다.
-ms.openlocfilehash: 152144737b0ff8cb8b0c27db2a4fc1051fb2a8a7
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: 설치 마법사를 사용하여 DNS 호스트에 DNS 레코드를 Microsoft 365 Microsoft 365 관리 센터 도메인을 추가합니다.
+ms.openlocfilehash: 547a3bf242130993522b00f53819908b10c9e4d1
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635681"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227838"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 
@@ -45,7 +45,7 @@ ms.locfileid: "52635681"
 
 ::: moniker range="o365-worldwide"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 
 ::: moniker-end
 ::: moniker range="o365-germany"
@@ -80,8 +80,6 @@ ms.locfileid: "52635681"
 7. *DNS* 레코드를 직접 추가하기로  선택한 경우 다음을 선택하면 도메인을 설정하기 위해 등록 기관 웹 사이트에 추가해야 하는 모든 레코드가 있는 페이지가 표시됩니다. 
 
     포털에서 등록 기관을 인식하지 못하는 경우에는 [이러한 일반 지침을 따르면](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) 됩니다.
-    
-    호스트를 찾으려면 [호스트 별 지침](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) 목록을 확인하고 다음 단계에 따라 필요한 모든 레코드를 추가합니다. 
     
     사용 중인 도메인의 DNS 호스팅 공급자 또는 도메인 등록 기관을 모르는 경우 [도메인 등록자 또는 DNS 호스팅 공급자 찾기](../get-help-with-domains/find-your-domain-registrar.md)를 참조하세요.
     
@@ -139,4 +137,3 @@ ms.locfileid: "52635681"
 [도메인 FAQ](domains-faq.yml)(문서)\
 [도메인이 무엇인가요?](../get-help-with-domains/what-is-a-domain.md) (기사)\
 [Microsoft 365 도메인](../get-help-with-domains/buy-a-domain-name.md) 이름 구입(문서)\
-[도메인](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) 설정(문서)

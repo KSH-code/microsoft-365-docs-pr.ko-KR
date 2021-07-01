@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft가 아닌 클라우드 앱에 대해 dlp 정책을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: ca522b5accbd2c08e80b0ce63871179ff64bbcc8
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 3c3c687bd1362182d35891ed1ebbfae12416d5d4
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149157"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226842"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용(미리 보기)
 
@@ -59,8 +59,8 @@ DLP 정책을 Microsoft가 아닌 특정 클라우드 앱에 사용하려면 앱
 
 클라우드 앱에 연결한 Cloud App Security DLP 정책을 Microsoft 365 수 있습니다.
 
->[!NOTE]
->Microsoft 클라우드 앱에 대한 DLP 정책을 Microsoft Cloud App Security 수 있습니다. 그러나 Microsoft 클라우드 앱에 대한 DLP 정책을 Microsoft 365 관리하기 위해 이 정책을 사용하는 것이 좋습니다.
+> [!NOTE]
+> Microsoft 클라우드 앱에 대한 DLP 정책을 Microsoft Cloud App Security 수 있습니다. 그러나 Microsoft 클라우드 앱에 대한 DLP 정책을 Microsoft 365 관리하기 위해 이 정책을 사용하는 것이 좋습니다.
 
 ## <a name="create-a-dlp-policy-to-a-non-microsoft-cloud-app"></a>Microsoft가 아닌 클라우드 앱에 대한 DLP 정책 만들기
 
@@ -81,12 +81,12 @@ DLP 정책에서 규칙을 만들 때 Microsoft가 아닌 클라우드 앱에 �
 
 ![타사 앱 제한](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
 
->[참고] Microsoft 앱이 아닌 앱에 적용되는 DLP 정책은 Microsoft Cloud App Security. Microsoft가 아닌 앱에 대한 DLP 정책을 만들면 해당 앱에서 동일한 정책이 Microsoft Cloud App Security.
+> [참고] Microsoft 앱이 아닌 앱에 적용되는 DLP 정책은 Microsoft Cloud App Security. Microsoft가 아닌 앱에 대한 DLP 정책을 만들면 해당 앱에서 동일한 정책이 Microsoft Cloud App Security.
 
-DLP 정책을 만들고 구성하는 데 대한 자세한 내용은 [Create test and tune a DLP policy 를 참조하십시오.](./create-test-tune-dlp-policy.md?view=o365-worldwide)
+DLP 정책을 만들고 구성하는 데 대한 자세한 내용은 [Create test and tune a DLP policy 를 참조하십시오.](./create-test-tune-dlp-policy.md)
 
 ## <a name="see-also"></a>참고 항목
 
-- [테스트 만들기 및 DLP 정책 조정](./create-test-tune-dlp-policy.md?view=o365-worldwide)
-- [기본 DLP 정책을 사용하여 시작](./get-started-with-the-default-dlp-policy.md?view=o365-worldwide)
-- [서식 파일에서 DLP 정책 만들기](./create-a-dlp-policy-from-a-template.md?view=o365-worldwide)
+- [테스트 만들기 및 DLP 정책 조정](./create-test-tune-dlp-policy.md)
+- [기본 DLP 정책을 사용하여 시작](./get-started-with-the-default-dlp-policy.md)
+- [서식 파일에서 DLP 정책 만들기](./create-a-dlp-policy-from-a-template.md)

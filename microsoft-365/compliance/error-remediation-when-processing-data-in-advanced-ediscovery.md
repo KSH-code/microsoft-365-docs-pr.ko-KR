@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 오류 수정을 사용하여 콘텐츠의 적절한 처리를 Advanced eDiscovery 데이터 문제를 수정하는 방법을 알아보겠습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2067831a85e3b3a506917fac5b93acfa0b174db
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 891e8292fca629669a48684e95f522c08838d3aa
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906986"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226662"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
@@ -32,8 +32,8 @@ ms.locfileid: "50906986"
 
 ## <a name="create-an-error-remediation-session-to-remediate-files-with-processing-errors"></a>오류 수정 세션을 만들어 처리 오류로 파일을 수정합니다.
 
->[!NOTE]
->다음 절차 중에 오류 수정 마법사가 닫히면 보기 드롭다운 메뉴에서 수정을 선택하여 처리 탭에서  오류 수정 세션으로  돌아올 수 있습니다. 
+> [!NOTE]
+> 다음 절차 중에 오류 수정 마법사가 닫히면 보기 드롭다운 메뉴에서 수정을 선택하여 처리 탭에서  오류 수정 세션으로  돌아올 수 있습니다. 
 
 1. Advanced eDiscovery  사례의 처리 탭에서 보기 드롭다운 메뉴에서  오류를 선택한 다음 범위 드롭다운 메뉴에서 검토 집합 또는 전체 사례를 선택합니다.   이 섹션에는 특정 검토 집합의 사례 또는 오류가 모두 표시됩니다.
 
@@ -51,13 +51,13 @@ ms.locfileid: "50906986"
 
     ![파일 다운로드](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
 
-5. 파일을 다운로드하려면 **다운로드 대상 경로** 를 지정합니다. 이는 로컬 컴퓨터의 상위 폴더에 대한 경로로, 파일이 이곳으로 다운로드됩니다.  기본 경로인 %USERPROFILE%\Downloads\errors는 로그인한 사용자의 다운로드 폴더를 지정합니다. 원하는 경우 이 경로를 변경할 수 있습니다. 변경하는 경우 최상의 성능을 위해 로컬 파일 경로를 사용하는 것이 좋습니다. 원격 네트워크 경로를 사용하지 않습니다. 예를 들어 **C:\Remediation 경로를 사용할 수 있습니다.** 
+5. 파일을 다운로드하려면 **다운로드 대상 경로** 를 지정합니다. 이는 로컬 컴퓨터의 상위 폴더에 대한 경로로, 파일이 이곳으로 다운로드됩니다.  기본 경로인 %USERPROFILE%\Downloads\errors는 로그인한 사용자의 다운로드 폴더를 지정합니다. 원하는 경우 이 경로를 변경할 수 있습니다. 변경하는 경우 최상의 성능을 위해 로컬 파일 경로를 사용하는 것이 좋습니다. 원격 네트워크 경로를 사용하지 않습니다. 예를 들어 **C:\Remediation 경로를 사용할 수 있습니다.**
 
    부모 폴더의 경로는 자동으로 AzCopy 명령에 **/Dest** 매개 변수 값으로 추가됩니다.
 
-6. **클립보드로 복사** 를 클릭하여 미리 정의된 명령을 복사합니다. 명령 프롬프트를 Windows 열고 AzCopy 명령을 붙여 넣은 다음 **Enter 를 누를 수 있습니다.**  
+6. **클립보드로 복사** 를 클릭하여 미리 정의된 명령을 복사합니다. 명령 프롬프트를 Windows 열고 AzCopy 명령을 붙여 넣은 다음 **Enter 를 누를 수 있습니다.**
 
-    ![오류 수정 준비](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)    
+    ![오류 수정 준비](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
     > [!NOTE]
     > 파일 다운로드 페이지에 제공된 명령을 사용하려면 AzCopy v8.1을 **사용해야** 합니다. 또한 AzCopy v8.1을 사용하여 10단계에서 파일을 업로드해야 합니다. 이 버전의 AzCopy를 설치하려면 에서 [AzCopy v8.1을](/previous-versions/azure/storage/storage-use-azcopy)사용하여 데이터 Windows. 제공된 AzCopy 명령이 실패하면 에서 [AzCopy 문제 해결을 Advanced eDiscovery.](troubleshooting-azcopy.md)
@@ -97,7 +97,7 @@ ms.locfileid: "50906986"
 
 11. AzCopy 명령을 실행한 후 **다음: 파일 처리를 클릭합니다.**
 
-    처리가 완료되면 집합을 검토하여 수정된 파일을 볼 수 있습니다. 
+    처리가 완료되면 집합을 검토하여 수정된 파일을 볼 수 있습니다.
 
 ## <a name="remediating-errors-in-container-files"></a>컨테이너 파일의 오류 수정
 
@@ -109,7 +109,7 @@ ms.locfileid: "50906986"
 
 ## <a name="what-happens-when-files-are-remediated"></a>파일이 수정되는 경우 발생하는 일
 
-수정된 파일이 업로드될 때 다음 필드를 제외하고 원래 메타데이터가 보존됩니다. 
+수정된 파일이 업로드될 때 다음 필드를 제외하고 원래 메타데이터가 보존됩니다.
 
 - ExtractedTextSize
 - HasText

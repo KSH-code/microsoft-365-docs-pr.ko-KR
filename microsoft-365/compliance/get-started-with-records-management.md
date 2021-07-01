@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 법률, 비즈니스 또는 규제 의무를 위해 고부가가치 콘텐츠를 관리하는 Microsoft 365용 레코드 관리 솔루션이 필요하지만, 어디서부터 시작해야 할지 잘 모르겠나요? 시작하려면 몇 가지 실무 지침을 읽어보세요.
-ms.openlocfilehash: 0382c1419654e4c1d2c809b3a9c32252fd50f554
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 173086799e4ae7cec3192f95248f0a7f26a10552
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244347"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226578"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 
@@ -30,14 +30,14 @@ ms.locfileid: "52244347"
 
 Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니스 또는 규제 의무에 대한 조직의 높은 가치의 콘텐츠 관리를 시작할 준비가 되었나요? 시작하려면 다음 지침을 사용하세요.
 
-1. **레코드 관리 솔루션** 과 문서 및 전자 메일을 레코드로 선언할 때 허용되거나 차단되는 작업을 이해합니다. [레코드 관리에 대해 자세히 알아보세요.](records-management.md) 
+1. **레코드 관리 솔루션** 과 문서 및 전자 메일을 레코드로 선언할 때 허용되거나 차단되는 작업을 이해합니다. [레코드 관리에 대해 자세히 알아보세요.](records-management.md)
 
 2. 레코드를 선언하는 데 보존 레이블이 사용되므로 **보존 레이블과 SharePoint 및 Exchange에 대한 보존 작동 방식을 이해합니다.** [보존 정책 및 보존 레이블에 대해 자세히 알아보세요.](retention.md)
 
-3. 기존 계획이 있는 경우 **해당 계획을 가져와** [보존 설정 및 작업에 대한 파일 계획을 만들거나](file-plan-manager.md#import-retention-labels-into-your-file-plan ) [레코드를 선언하는 새 보존 레이블을 만듭니다.](declare-records.md)
+3. 기존 계획이 있는 경우 **해당 계획을 가져와** [보존 설정 및 작업에 대한 파일 계획을 만들거나](file-plan-manager.md#import-retention-labels-into-your-file-plan) [레코드를 선언하는 새 보존 레이블을 만듭니다.](declare-records.md)
 
-4. **보존 레이블을 게시하고 적용합니다.** 보존 레이블은 여러 정책에서 사용될 수 있으며 사용자 워크플로에 통합될 수 있는 재사용 가능한 빌딩 블록입니다. 
-    
+4. **보존 레이블을 게시하고 적용합니다.** 보존 레이블은 여러 정책에서 사용될 수 있으며 사용자 워크플로에 통합될 수 있는 재사용 가능한 빌딩 블록입니다.
+
     - [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
     - [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)
 
@@ -49,9 +49,9 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 ## <a name="permissions-required-for-records-management"></a>레코드 관리에 필요한 사용 권한
 
-레코드 관리에 대해 책임이 있는 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지 않고도 액세스 권한을 부여할 수 있습니다. 이러한 제한된 관리에 대한 권한을 부여하려면 [처리 검토 및 확인](disposition.md)을 포함하여 레코드 관리와 관련된 모든 기능에 대한 권한을 부여하는 **레코드 관리** 의 관리 역할 그룹에 사용자를 추가하는 것이 좋습니다. 
+레코드 관리에 대해 책임이 있는 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지 않고도 액세스 권한을 부여할 수 있습니다. 이러한 제한된 관리에 대한 권한을 부여하려면 [처리 검토 및 확인](disposition.md)을 포함하여 레코드 관리와 관련된 모든 기능에 대한 권한을 부여하는 **레코드 관리** 의 관리 역할 그룹에 사용자를 추가하는 것이 좋습니다.
 
-읽기 전용 역할의 경우 새 역할 그룹을 생성하고 **보기 전용 레코드 관리** 역할을 이 그룹에 추가할 수 있습니다. 
+읽기 전용 역할의 경우 새 역할 그룹을 생성하고 **보기 전용 레코드 관리** 역할을 이 그룹에 추가할 수 있습니다.
 
 역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
 

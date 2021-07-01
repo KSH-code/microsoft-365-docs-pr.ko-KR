@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: 사용자 지정 도메인에 대한 DNS 레코드를 관리하기 위해 Microsoft를 설정한 경우 트래픽을 Microsoft 외부에 호스트된 기존 공개 웹 사이트로 라우팅하는 방법을 학습합니다.
-ms.openlocfilehash: 2a1559bbb902375bbc363180cdb4f98ec2b3a939
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: d54aa4583862ce19907a3b8494a333bbb925e436
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572144"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228126"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>DNS 레코드를 업데이트하여 현재 호스팅 공급자에 웹 사이트 유지
 
@@ -34,7 +34,7 @@ ms.locfileid: "52572144"
   
  **Microsoft에서 DNS** 레코드 를 관리하는 경우 Microsoft 외부에 호스트된 기존 공개 웹 사이트로 트래픽을 라우팅하려면 Microsoft에 도메인을 추가한 후 다음을 합니다. 
   
-## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 DNS 레코드 업데이트
+## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>서버의 DNS 레코드를 Microsoft 365 관리 센터
 1. I관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인</a> 페이지로 이동하십시오.
 
 1. On the **Domains** page, select the domain and then choose **DNS Records**.
@@ -65,6 +65,6 @@ ms.locfileid: "52572144"
     
 끝으로 다음을 실행합니다.
   
-[Microsoft를 지점으로 도메인의 NS](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) 레코드를 업데이트합니다. 
+[Microsoft를 지점으로 도메인의 NS](../setup/add-domain.md) 레코드를 업데이트합니다. 
   
 NS 레코드가 Microsoft를 지점으로 업데이트하면 도메인이 모두 설정됩니다. 전자 메일이 Microsoft로 라우팅되고, 웹 사이트 주소에 대한 트래픽이 현재 웹 사이트 호스트로 계속 이동됩니다.

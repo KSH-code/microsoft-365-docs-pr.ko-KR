@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: 2013에서 규정 준수를 빠르게 시작하는 데 도움이 되는 작업에 대해 Microsoft 365.
-ms.openlocfilehash: 3f93eb31800d158a33b1f3c0acdd48d650b2153e
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 61a057c3666faae51a012dd9db2d4c63ded0f77a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113394"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227262"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
 
@@ -30,7 +30,7 @@ ms.locfileid: "52113394"
 
 ## <a name="task-1-configure-compliance-permissions"></a>작업 1: 준수 권한 구성
 
-콘텐츠를 보고 관리 작업을 수행하기 위해 조직에서 조직에서 Microsoft 365 액세스할 수 있는 사용자 관리가 중요합니다. Microsoft 365 준수 센터에 포함된 도구를 사용하고 규정 준수와 관련한 관리 Microsoft 365 제공합니다.
+조직에서 콘텐츠를 보고 관리 작업을 수행하기 위해 조직에서 사용자 Microsoft 365 규정 준수 센터 관리해야 합니다. Microsoft 365 정책은 규정 준수와 관련한 관리 역할을 제공하며 해당 정책에 포함된 도구를 Microsoft 365 규정 준수 센터.
 
 먼저 조직 내 사용자에게 규정 준수 권한을 할당하여 이러한 작업을 수행할 수 있도록 하고 권한이 없는 사용자가 업무 외의 영역에 액세스하지 못하도록 합니다. 사용자에게 포함된 규정 준수 솔루션을 구성하고 구현하기 전에  규정 준수  데이터 관리자 및 준수 관리자 관리자 역할에 적절한 인원을 할당해야 Microsoft 365. 또한 준수 관리자에서 데이터를 보기 위해 Azure Active Directory 전역 읽기 프로그램 역할에 사용자를 할당해야 합니다.
 
@@ -44,10 +44,10 @@ ms.locfileid: "52113394"
 
 준수 관리자를 시작하는 단계별 지침은 준수 관리자 [시작을 참조하세요.](compliance-manager-setup.md)
 
->[!IMPORTANT]
->보안 및 규정 준수는 대부분의 조직에 긴밀하게 통합되어 있습니다. 조직에서 기본 보안, 위협 방지 및 ID 및 액세스 관리 영역을 해결하여 보안 및 규정 준수에 대한 심층 방어를 제공하는 것이 중요합니다.
+> [!IMPORTANT]
+> 보안 및 규정 준수는 대부분의 조직에 긴밀하게 통합되어 있습니다. 조직에서 기본 보안, 위협 방지 및 ID 및 액세스 관리 영역을 해결하여 보안 및 규정 준수에 대한 심층 방어를 제공하는 것이 중요합니다.
 >
->Microsoft 365 [보안](../security/defender/microsoft-secure-score.md) 센터에서 Microsoft 365 보안 점수를 확인하고 다음 문서에 설명된 작업을 완료합니다.
+> Microsoft 365 [보안](../security/defender/microsoft-secure-score.md) 센터에서 Microsoft 365 보안 점수를 확인하고 다음 문서에 설명된 작업을 완료합니다.
 >
 > - [보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위](../security/office-365-security/security-roadmap.md)
 > - [보안 팀이 집에서 작업할 수 있는 상위 12개 작업](../security/top-security-tasks-for-remote-work.md)
@@ -56,7 +56,7 @@ ms.locfileid: "52113394"
 
 조직의 현재 상태와 규정 준수 기능을 관리할 수 있는 사용자를 결정한 다음에는 규정 준수 조사를 수행하고 조직에서 네트워크 및 사용자 활동에 대한 보고서를 생성할 수 있는 데이터가 있는지 확인합니다. 감사를 사용하도록 설정하는 것은 이 문서 의 부분에서 다루는 규정 준수 솔루션의 중요한 선행 요구 요소입니다.
 
-감사 로그에서 제공하는 인사이트는 개선이 필요한 규정 준수 영역을 관리하고 모니터링하는 데 도움이 되는 솔루션에 대한 규정 준수 요구 사항을 충족하는 데 도움이 되는 중요한 도구입니다. 활동이 기록되기 전에 감사 로깅을 사용하도록 설정해야 감사 로그를 검색할 수 있습니다. 사용하도록 설정하면 조직의 사용자 및 관리자 활동이 감사 로그에 기록되고 90일 동안, 사용자에게 할당된 라이선스에 따라 최대 1년 동안 보존됩니다.
+Insights 로그에서 제공하는 정보는 개선이 필요한 규정 준수 영역을 관리하고 모니터링하는 데 도움이 되는 솔루션에 대한 규정 준수 요구 사항을 충족하는 데 도움이 되는 중요한 도구입니다. 활동이 기록되기 전에 감사 로깅을 사용하도록 설정해야 감사 로그를 검색할 수 있습니다. 사용하도록 설정하면 조직의 사용자 및 관리자 활동이 감사 로그에 기록되고 90일 동안, 사용자에게 할당된 라이선스에 따라 최대 1년 동안 보존됩니다.
 
 감사를 켜는 단계별 지침은 감사 로그 검색 켜기 또는 [끄기 를 참조하세요.](turn-audit-log-search-on-or-off.md)
 

@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: 도메인 및 사용자 추가, Microsoft 365 Business Premium 정책 설정 등을 포함하여 사용자 지정에 대한 설정 단계를 검색합니다.
-ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 74a98e915577cf86ec32a706bd3b8f558f49db95
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624392"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227642"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 Microsoft 365 Business Premium 설정
 
@@ -69,7 +69,7 @@ ms.locfileid: "52624392"
     ![Screenshot of the Personalize your sign-in page.](../media/adddomain.png)
 
     
-4. 마법사의 단계에 따라 도메인을 소유하고 Microsoft 365 DNS 호스팅 공급자에서 [DNS](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 레코드 만들기를 수행합니다. 도메인 호스트를 알고 있는 경우 [호스트 관련 지침](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)을 참조하세요.
+4. 마법사의 단계에 따라 도메인을 소유하고 Microsoft 365 DNS 호스팅 공급자에서 [DNS](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 레코드 만들기를 수행합니다. 도메인 호스트를 알고 있는 경우 에 도메인 추가를 [Microsoft 365.](/microsoft-365/admin/setup/add-domain)
 
     호스팅 공급자가 GoDaddy이거나 [도메인 연결](/office365/admin/get-help-with-domains/domain-connect)을 사용하는 다른 호스트를 사용하는 경우에는 프로세스가 간단하며, 자동으로 로그인하라는 메시지가 표시되고 Microsoft가 사용자를 대신하여 인증하도록 합니다.
 
@@ -135,4 +135,4 @@ ms.locfileid: "52624392"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 교육용 비디오(링크](../business-video/index.yml) 페이지)
+[Microsoft 365 Business 교육 비디오](../business-video/index.yml)(링크 페이지)

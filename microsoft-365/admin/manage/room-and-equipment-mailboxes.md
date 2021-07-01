@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: '회의실 또는 장비 사서함을 만들었으면 조직의 누구나 Outlook을 사용하여 모임이나 행사용으로 예약할 수 있습니다. '
-ms.openlocfilehash: 6960f93e8c1978f94776f067dcd0f502f0665718
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0d999cb04161b1284025aa1b587fe7368c25eb4f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915173"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227934"
 ---
 # <a name="room-and-equipment-mailboxes"></a>회의실 및 장비 사서함
 
@@ -89,7 +89,7 @@ ms.locfileid: "50915173"
 6. 변경한 경우 **저장** 을 선택한 다음 **닫기** 를 선택합니다.
 
 > [!Note]
-> 회의실 및 장비 사서함을 안전하게 보호하려면 사서함에 대해 로그인을 차단합니다. 자세한 내용은 [공유 사서함 계정에 대한 로그인 차단](/office365/admin/email/create-a-shared-mailbox?view=o365-worldwide#block-sign-in-for-the-shared-mailbox-account)을 참조하세요.
+> 회의실 및 장비 사서함을 안전하게 보호하려면 사서함에 대해 로그인을 차단합니다. 자세한 내용은 [공유 사서함 계정에 대한 로그인 차단](/office365/admin/email/create-a-shared-mailbox#block-sign-in-for-the-shared-mailbox-account)을 참조하세요.
 
 ## <a name="common-questions-about-room-and-equipment-mailboxes"></a>회의실 및 장비 사서함에 대한 일반적인 질문
 

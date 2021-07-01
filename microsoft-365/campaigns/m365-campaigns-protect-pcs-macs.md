@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리되지 않는 장치 또는 BYOD(Bring Your Own Devices)를 Microsoft 365.
-ms.openlocfilehash: 430f5446f86c26cb1f0fd1c7f34613cddec473b2
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: 40e94e2f961ab34827de4ce5e43e100af53a7340
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398256"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227502"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>관리되지 않는 Windows 10 PC 및 Mac 보호
 
@@ -54,7 +54,7 @@ ms.locfileid: "51398256"
 
 장치 암호화는 다양한 Windows 디바이스에서 사용할 수 있으며 데이터를 암호화하여 보호하는 데 도움이 됩니다. 장치 암호화를 켜면 권한이 부여된 개인만 장치 및 데이터에 액세스할 수 있습니다. 지침은 [장치 암호화](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) 켜기 를 참조하세요.
 
- 장치에서 장치 암호화를 사용할 수 없는 경우 표준 [](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) 암호화를 BitLocker 수 있습니다. (BitLocker 버전에서는 사용할 Windows 10 Home 없습니다.) 
+ 장치에서 장치 암호화를 사용할 수 없는 경우 표준 [BitLocker](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) 암호화를 대신 켜면 됩니다. BitLocker는 Windows 10 Home 없습니다. 
 
 **장치로 Windows 보안**<p>
 If you have Windows 10, you'll get the latest antivirus protection with Windows 보안. 처음으로 Windows 10 시작하면 Windows 보안(악성 소프트웨어), 바이러스 및 보안 위협을 검사하여 PC를 보호하는 데 적극적으로 도움을 주게 됩니다. Windows 보안 실시간 보호를 사용하여 PC에서 다운로드하거나 실행되는 모든 것을 검색할 수 있습니다.
@@ -72,7 +72,7 @@ Windows 업데이트는 Windows 보안에 대한 업데이트를 자동으로 �
 디스크 암호화는 장치를 분실하거나 도난당한 경우 데이터를 보호합니다. FileVault 전체 디스크 암호화를 사용하면 시작 디스크의 정보에 대한 무단 액세스를 방지할 수 있습니다. 지침은 [FileVault를 사용하여 Mac의](https://support.apple.com/HT204837) 시작 디스크 암호화를 참조하세요.
 
 **맬웨어로부터 mac 보호**<p>
-Microsoft는 Mac에 신뢰할 수 있는 바이러스 백신 소프트웨어를 설치하고 사용하는 것이 좋습니다. 선택 목록은 다음 문서를 참조하세요. [Best Mac antivirus 2019 ](https://www.macworld.co.uk/feature/mac-software/mac-antivirus-3672182/).
+Microsoft는 Mac에 신뢰할 수 있는 바이러스 백신 소프트웨어를 설치하고 사용하는 것이 좋습니다. 선택 목록은 다음 문서를 참조하세요. [Best Mac antivirus 2019](https://www.macworld.co.uk/feature/mac-software/mac-antivirus-3672182/).
 
 신뢰할 수 있는 원본에서만 소프트웨어를 사용하여 맬웨어의 위험을 줄일 수 있습니다. 보안 및 개인 & 설정을 사용하면 Mac에 설치된 소프트웨어 원본을 지정할 수 있습니다. 자세한 내용은 [맬웨어로부터 Mac 보호를 참조하세요.](https://support.apple.com/kb/PH25087)
 

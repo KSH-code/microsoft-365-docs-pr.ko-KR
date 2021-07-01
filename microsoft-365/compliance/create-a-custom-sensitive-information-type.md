@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정하고, 제거하고, 테스트하는 & 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 911d2dc3a4adeb79e2b41f3a450bbc446feee916
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 451b5b222b06ba1ec9770a5e49cc66c5c0f68719
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683846"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227154"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -45,7 +45,7 @@ ms.locfileid: "52683846"
     - [함수](what-the-dlp-functions-look-for.md)
     - [신뢰 수준](sensitive-information-type-learn-about.md#more-on-confidence-levels)
  
-- 사용자 지정 정보 유형을 UI를 통해 작성하고, 테스트하고 배포하려면 전역 관리자 또는 준수 관리자 권한이 있어야 합니다. Office 365에서 [관리자 역할 정보](/office365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
+- 사용자 지정 정보 유형을 UI를 통해 작성하고, 테스트하고 배포하려면 전역 관리자 또는 준수 관리자 권한이 있어야 합니다. Office 365에서 [관리자 역할 정보](/office365/admin/add-users/about-admin-roles)를 참조하세요.
 
 - 조직에 DLP(데이터 손실 방지)를 포함하는 구독(예: Office 365 Enterprise)이 있어야 합니다. [메시징 정책 및 규정 준수 서비스 설명](/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc)을 참조하세요. 
 

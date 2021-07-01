@@ -23,19 +23,19 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: 전자 메일 전달을 사용하면 조직 내부 또는 외부의 다른 사서함으로 Microsoft 365 전자 메일 메시지를 전달할 수 있습니다.
-ms.openlocfilehash: dfea738f5d786b6e476dd02dc92fd0aef452d62f
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: e0043fe75eefe224c63fd23f352d4bd3ddf2c326
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730141"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228054"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>전자 메일 전달 구성 Microsoft 365
 
 조직의 관리자는 사용자 사서함에 대한 전자 메일 전달을 설정해야 하는 회사 요구 사항이 있을 수 있습니다. 전자 메일 전달을 사용하면 사용자 사서함으로 전송된 전자 메일 메시지를 조직 내부 또는 외부의 다른 사용자의 사서함으로 전달할 수 있습니다.
 
 > [!IMPORTANT]
-> 아웃바운드 스팸 필터 정책을 사용하여 외부 받는 사람에게 자동 전달을 제어할 수 있습니다. 자세한 내용은 에서 자동 외부 전자 메일 전달 [제어를 Microsoft 365.](/microsoft-365/security/office-365-security/external-email-forwarding?view=o365-worldwide&preserve-view=true#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)
+> 아웃바운드 스팸 필터 정책을 사용하여 외부 받는 사람에게 자동 전달을 제어할 수 있습니다. 자세한 내용은 에서 자동 외부 전자 메일 전달 [제어를 Microsoft 365.](/microsoft-365/security/office-365-security/external-email-forwarding#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)
 
 ## <a name="configure-email-forwarding"></a>전자 메일 전달 구성
 
@@ -55,7 +55,7 @@ ms.locfileid: "52730141"
 
 3. 메일 **탭에서** 전자 메일 전달 **관리를 선택합니다.**
 
-4. 전자 메일 전달 페이지에서 이 사서함에 전송된 모든 전자 메일 전달을 선택하고 전달 주소를 입력하고 전달된 전자 메일의 복사본을 유지할지 여부를 선택합니다. 이 옵션이 없는 경우 사용자 계정에 라이선스가 할당되어 있는지 확인 합니다. **변경 내용 저장** 을 선택합니다.
+4. 전자 메일 전달 페이지에서 이 사서함에 전송된 모든 전자 메일 전달을 선택하고 전달 주소를 입력하고 전달된 전자 메일의 복사본을 유지할지 여부를 선택합니다. 이 옵션이 없는 경우 사용자 계정에 라이선스가 할당되어 있는지 확인 합니다. **변경 사항 저장** 을 선택합니다.
 
     여러 전자 메일 **주소로** 전달하기 위해 사용자에게 주소로 전달할 규칙을 Outlook 수 있습니다. 
     

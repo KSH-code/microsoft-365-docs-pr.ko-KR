@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 제공 기본 이동성 및 보안을 사용하여 등록된 장치에서 정보를 제거합니다.
-ms.openlocfilehash: 8c873923505fe527f5a44df0e8b15d290e92023b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: c3cc547ce5e135ccdabf9a09b0d572f1b2530f47
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706145"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228150"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 모바일 장치 지우기
 
@@ -45,7 +45,7 @@ ms.locfileid: "52706145"
 
 ## <a name="wipe-a-mobile-device"></a>모바일 장치 지우기
 
-1. Microsoft 365 [관리 센터로 이동하세요.](../../admin/admin-overview/about-the-admin-center.md)
+1. 으로 [이동하여 Microsoft 365 관리 센터.](../../admin/admin-overview/about-the-admin-center.md)
 
 2. 검색 필드에 모바일 장치 관리를 입력하고 결과 목록에서 **모바일** 장치 관리를 선택합니다.
 
@@ -86,5 +86,6 @@ ms.locfileid: "52706145"
 |Microsoft 365 Intune 앱 보호 정책에 의해 보호되는 경우 앱 데이터가 지워지기만 합니다. 앱이 제거되지 않습니다. MAM(모바일 응용 프로그램 관리) 정책으로 보호되지 않는 장치의 경우 Outlook OneDrive 캐시된 데이터는 제거되지 않습니다.<br/>**참고** Intune 앱 보호 정책을 적용하려면 Intune 라이선스가 있어야 합니다.|예|예|
 |기본 모바일 및 보안에서 장치에 적용한 정책 설정은 더 이상 적용되지 않습니다. 사용자는 설정을 변경할 수 있습니다.|예|예|
 |기본 Mobility and Security에서 만든 전자 메일 프로필이 제거되고 장치에서 캐시된 전자 메일이 삭제됩니다.|예|해당 없음|
->[!NOTE]
->회사 포털 앱은 iOS용 앱 스토어 및 Android용 Play 스토어 디바이스에서 사용할 수 있습니다.
+
+> [!NOTE]
+> 회사 포털 앱은 iOS용 앱 스토어 및 Android용 Play 스토어 디바이스에서 사용할 수 있습니다.

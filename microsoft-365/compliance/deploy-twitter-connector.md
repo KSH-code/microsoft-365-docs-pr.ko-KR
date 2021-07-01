@@ -15,16 +15,16 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Twitter 데이터를 가져오고 보관할 네이티브 커넥터를 설정하여 기본 Microsoft 365. 이 데이터를 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 Twitter 데이터의 거버넌스를 관리할 수 있습니다.
-ms.openlocfilehash: 0dd996802964b2a2fc58d26e23af57193c89ee8c
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.openlocfilehash: 0a0ebb18cb39b7dd7416f2d03dcb5b4d21332c9b
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49619914"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227058"
 ---
 # <a name="deploy-a-connector-to-archive-twitter-data"></a>Twitter 데이터를 보관하는 커넥터 배포
 
-이 문서에는 가져오기 서비스를 사용하여 Office 365 Twitter 계정의 데이터를 가져오는 커넥터를 배포하는 단계별 프로세스가 포함되어 Microsoft 365. 이 프로세스에 대한 개략적인 개요와 Twitter 커넥터를 배포하는 데 필요한 필수 구성 항목 목록은 [Set up a connector to archive Twitter data을 참조하세요. ](archive-twitter-data-with-sample-connector.md) 
+이 문서에는 가져오기 서비스를 사용하여 Office 365 Twitter 계정의 데이터를 가져오는 커넥터를 배포하는 단계별 프로세스가 포함되어 Microsoft 365. 이 프로세스에 대한 개략적인 개요와 Twitter 커넥터를 배포하는 데 필요한 필수 구성 항목 목록은 [Set up a connector to archive Twitter data을 참조하세요. ](archive-twitter-data-with-sample-connector.md)
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>1단계: 앱에서 앱 Azure Active Directory
 
@@ -42,7 +42,7 @@ ms.locfileid: "49619914"
 
 4. 응용 프로그램을 등록합니다. URI **리디렉션(선택 사항)의** 응용 프로그램 유형 드롭다운 목록에서 웹을 선택한 다음  `https://portal.azure.com` URI의 상자에 입력합니다.
 
-   ![리디렉션 https://portal.azure.com URI 유형 ](../media/TCimage04.png)
+   ![리디렉션 https://portal.azure.com URI 유형](../media/TCimage04.png)
 
 5. 응용 **프로그램(클라이언트) ID** 및 **디렉터리(테넌트) ID를** 복사하여 텍스트 파일 또는 기타 안전한 위치에 저장합니다. 이러한 ID는 이후 단계에서 사용할 수 있습니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "49619914"
 
    ![새 클라이언트 비밀 만들기](../media/TCimage06.png)
 
-7. 새 비밀을 만드시다. 설명 상자에 비밀을 입력한 다음 만료 기간을 선택합니다. 
+7. 새 비밀을 만드시다. 설명 상자에 비밀을 입력한 다음 만료 기간을 선택합니다.
 
    ![비밀을 입력하고 만료 기간 선택](../media/TCimage08.png)
 
@@ -72,15 +72,15 @@ ms.locfileid: "49619914"
    ![리소스 만들기 및 저장소 계정 유형 클릭](../media/FBCimage12.png)
 
     - **구독:** Twitter 커넥터 웹 서비스를 배포할 Azure 구독을 선택합니다.
-    
+
     - **리소스 그룹:** 새 리소스 그룹을 선택하거나 만들 수 있습니다. 리소스 그룹은 Azure 솔루션에 대한 관련 리소스를 보유하는 컨테이너입니다.
 
     - **위치:** 위치를 선택하십시오.
 
     - **웹앱 이름:** 커넥터 웹앱에 고유한 이름을 제공합니다. Th 이름은 3-18자 사이입니다. 이 이름은 Azure 앱 서비스 URL을 만드는 데 사용됩니다. 예를 들어 **twitterconnector의** 웹 앱 이름을 제공하는 경우 Azure 앱 서비스 URL은 에 **twitterconnector.azurewebsites.net.**
-    
+
     - **tenantId:** 1단계에서 Microsoft 365 Azure Active Directory에서 Facebook 커넥터 앱을 만들고 복사한 조직의 테넌트 ID입니다.
-    
+
    - **APISecretKey:** 모든 값을 비밀로 입력할 수 있습니다. 5단계에서 커넥터 웹앱에 액세스하는 데 사용됩니다.
 
 3. 배포가 성공하면 페이지는 다음 스크린샷과 유사하게 표시됩니다.
@@ -93,7 +93,7 @@ ms.locfileid: "49619914"
 
    ![으로 https://developer.twitter.com 이동하여 로그인](../media/TCimage25-5.png)
 2. 앱 **만들기를 클릭합니다.**
-   
+
    ![앱 페이지로 이동하여 앱 만들기](../media/TCimage26.png)
 
 3. 앱 **세부 정보에서** 응용 프로그램에 대한 정보를 추가합니다.
@@ -101,11 +101,11 @@ ms.locfileid: "49619914"
    ![앱에 대한 정보 입력](../media/TCimage27.png)
 
 4. Twitter 개발자 대시보드에서 방금 만든 앱을 선택하고 세부 **정보를 클릭합니다.**
-   
+
    ![앱 ID 복사 및 저장](../media/TCimage28.png)
 
 5. 키 및 **토큰** 탭의 소비자 API 키 아래에서 **API** 키와 API 비밀 키를 모두 복사하여 텍스트 파일 또는 다른 저장소 위치에 저장합니다. 그런 다음 **만들기를** 클릭하여 액세스 토큰 및 액세스 토큰 비밀을 생성하고 이를 텍스트 파일 또는 다른 저장소 위치에 복사합니다.
-   
+
    ![API 비밀 키 복사 및 저장](../media/TCimage29.png)
 
    그런 다음 **만들기를** 클릭하여 액세스 토큰 및 액세스 토큰 비밀을 생성하고 이를 텍스트 파일 또는 다른 저장소 위치에 복사합니다.
@@ -121,14 +121,14 @@ ms.locfileid: "49619914"
 8. 다음 작업을 수행합니다.
 
    - 커넥터 앱이 Twitter에 로그인할 수 있도록 허용하려면 확인란을 선택합니다.
-   
+
    - **\<connectorserviceuri> /Views/TwitterOAuth** 형식을 사용하여 OAuth 리디렉션 Uri를 추가합니다. 여기서 *connectorserviceuri* 값은 조직의 Azure 앱 서비스 URL입니다(예: https://twitterconnector.azurewebsites.net/Views/TwitterOAuth ).
 
     ![커넥터 앱이 Twitter에 로그인하고 OAuth 리디렉션 Uri를 추가하도록 허용](../media/TCimage32.png)
 
 이제 Twitter 개발자 앱을 사용할 준비가 완료되었습니다.
 
-## <a name="step-4-configure-the-connector-web-app"></a>4단계: 커넥터 웹앱 구성 
+## <a name="step-4-configure-the-connector-web-app"></a>4단계: 커넥터 웹앱 구성
 
 1. \<AzureAppResourceName>.https:// .azurewebsites.net(여기서 **AzureAppResourceName은** 4단계에서 명명한 Azure 앱 리소스의 이름)로 이동하십시오. 예를 들어 이름이 **twitterconnector이면** 로 https://twitterconnector.azurewebsites.net 이동하세요. 앱의 홈 페이지는 다음 스크린샷과 같습니다.
 
@@ -142,23 +142,23 @@ ms.locfileid: "49619914"
 
    ![테넌트 ID 및 API 비밀 키를 사용하여 로그인](../media/TCimage35.png)
 
-4. 다음 구성 설정을 입력합니다. 
+4. 다음 구성 설정을 입력합니다.
 
    - **Twitter Api 키:** 3단계에서 만든 Twitter 응용 프로그램의 API 키입니다.
-   
+
    - **Twitter Api 비밀 키:** 3단계에서 만든 Twitter 응용 프로그램의 API 비밀 키입니다.
-   
+
    - **Twitter 액세스 토큰:** 3단계에서 만든 액세스 토큰입니다.
-   
+
    - **Twitter 액세스 토큰 비밀:** 3단계에서 만든 액세스 토큰 비밀입니다.
-   
+
    - **AAD 응용 프로그램 ID:** 1단계에서 Azure Active Directory 앱의 응용 프로그램 ID
-   
+
    - **AAD 응용 프로그램 비밀:** 1단계에서 만든 APISecretKey 비밀의 값입니다.
 
 5. **저장을** 클릭하여 커넥터 설정을 저장합니다.
 
-## <a name="step-5-set-up-a-twitter-connector-in-the-microsoft-365-compliance-center"></a>5단계: Microsoft 365 규정 준수 센터에서 Twitter 커넥터 설정
+## <a name="step-5-set-up-a-twitter-connector-in-the-microsoft-365-compliance-center"></a>5단계: 계정에서 Twitter 커넥터 Microsoft 365 규정 준수 센터
 
 1. 으로 이동한 다음 왼쪽 [https://compliance.microsoft.com](https://compliance.microsoft.com) **네비게이트에서 데이터** 커넥터를 클릭합니다.
 
@@ -173,11 +173,11 @@ ms.locfileid: "49619914"
    ![커넥터 앱 자격 증명 입력](../media/TCimage38.png)
 
     - 이름 **상자에** Twitter 도움말 핸들과 같은 **커넥터의 이름을 입력합니다.**
-    
+
     - 커넥터 **URL 상자에** Azure 앱 서비스 URL을 입력하거나 붙여넣습니다. 예를 들면 `https://twitterconnector.azurewebsites.net` 입니다.
-    
+
     - 암호 **상자에** 2단계에서 만든 APISecretKey 값을 입력하거나 붙여넣습니다.
-    
+
     - Azure **앱 ID** 상자에 1단계에서 획득한 Azure 응용 프로그램 앱 ID(클라이언트 ID라고도함)의 값을 입력하거나 붙여넣습니다. 
 
 6. 연결의 유효성이 검사된 후 다음 을 **클릭합니다.**

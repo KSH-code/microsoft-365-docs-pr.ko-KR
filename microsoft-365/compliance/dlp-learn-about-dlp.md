@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 데이터 손실 방지 정책 및 도구를 사용하여 Microsoft 365 보호하는 방법을 알아보고 DLP 수명 주기를 둘러보는 방법을 알아보고 있습니다.
-ms.openlocfilehash: 9b449886e0856f7407fcd49b83192dd0c01474bd
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 291a9ab09d14e24d58604644d77381d7f41214d6
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108262"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226854"
 ---
 # <a name="learn-about-data-loss-prevention"></a>데이터 손실 방지에 대해 알아보기
 
@@ -35,7 +35,7 @@ ms.locfileid: "53108262"
 - On-premises file shares and on-premises file shares and on-premises SharePoint.
 
 Microsoft 365 단순한 텍스트 검색이 아니라 심층 콘텐츠 분석을 사용하여 중요한 항목을 검색할 수 있습니다. 콘텐츠는 키워드와의 기본 데이터 일치, 정규식 평가, 내부 함수 유효성 검사 및 기본 데이터 일치와 근접한 보조 데이터 일치를 통해 분석됩니다. 또한 DLP는 기계 학습 알고리즘 및 기타 방법을 사용하여 DLP 정책과 일치하는 콘텐츠를 검색합니다.
-  
+
 ## <a name="dlp-is-part-of-the-larger-microsoft-365-compliance-offering"></a>DLP는 더 큰 Microsoft 365 규정 준수 제공의 일부입니다.
 
 Microsoft 365 DLP는 거주하거나 여행하는 모든 Microsoft 365 보호하는 데 사용할 수 있는 규정 준수 도구 중 하나에 불과합니다. 규정 준수 도구 집합의 다른 도구와 Microsoft 365 상호 연결하고 함께 작업하는 방법을 이해해야 합니다.  정보 보호 [Microsoft 365 대한 자세한](protect-information.md) 내용은 준수 도구를 참조하세요.
@@ -69,7 +69,7 @@ Microsoft 365 DLP 모니터링 및 보호는 사용자가 매일 사용하는 �
 
 **DLP에 대한 기술 계획**
 
-기술로 DLP는 미사용 데이터, 사용 중 데이터, Microsoft 365 서비스, Windows 10 장치, Windows 10 파일 공유 및 사내 장치 전체에서 이동되는 데이터를 모니터링하고 보호할 수 SharePoint. 다양한 위치, 모니터링 및 보호하려는 데이터의 유형, 정책 일치 시 수행할 작업에 대한 계획이 있습니다.  
+기술로 DLP는 미사용 데이터, 사용 중 데이터, Microsoft 365 서비스, Windows 10 장치, Windows 10 파일 공유 및 사내 장치 전체에서 이동되는 데이터를 모니터링하고 보호할 수 SharePoint. 다양한 위치, 모니터링 및 보호하려는 데이터의 유형, 정책 일치 시 수행할 작업에 대한 계획이 있습니다.
 
 **DLP에 대한 비즈니스 프로세스 계획**
 
@@ -121,7 +121,7 @@ DLP 정책은 전자 메일을 통해 중요한 정보를 부적절하게 공유
 
 #### <a name="enable-the-control-and-tune-your-policies"></a>제어를 사용하도록 설정하고 정책 조정
 
-정책이 모든 목표를 충족하면 켜야 합니다. 정책 응용 프로그램의 결과를 계속 모니터링하고 필요한 경우 조정합니다. 일반적으로 정책은 켜진 후 1시간 정도 적용됩니다. 
+정책이 모든 목표를 충족하면 켜야 합니다. 정책 응용 프로그램의 결과를 계속 모니터링하고 필요한 경우 조정합니다. 일반적으로 정책은 켜진 후 1시간 정도 적용됩니다.
 
 <!--See, LINK TO topic for SLAs for location specific  details-->
 
@@ -133,7 +133,7 @@ DLP 정책을 만들고 구성하는 방법에는 유연성이 있습니다. 미
     - 미리 정의한 정책 템플릿: 재무 데이터, 의료 및 의료 데이터, 다양한 국가 및 지역에 대한 개인 정보 보호 데이터.
     - 사용 가능한 중요한 정보 유형, 보존 레이블 및 민감도 레이블을 사용하는 사용자 지정 정책입니다.
 2. **모니터링할** 위치 선택 - DLP에서 중요한 정보를 모니터링할 위치를 하나 이상 선택할 수 있습니다. 다음을 모니터링할 수 있습니다.
-    
+
 위치 | 포함/제외 기준|
 |---------|---------|
 |Exchange 전자 메일| 메일 그룹|
@@ -154,7 +154,7 @@ DLP 정책을 만들고 구성하는 방법에는 유연성이 있습니다. 미
 
 - SharePoint/Exchange/OneDrive: 조직 외부의 사람이 콘텐츠에 액세스하는 것을 차단합니다. 사용자에게 팁을 표시하고 DLP 정책에 의해 금지된 작업을 수행하고 있는 전자 메일 알림을 전송합니다.
 - Teams 채팅 및 채널: 채팅 또는 채널에서 중요한 정보가 공유되지 못하게 차단
-- Windows 10 장치: 중요한 항목을 제거 가능한 USB 장치로 복사 감사 또는 제한 
+- Windows 10 장치: 중요한 항목을 제거 가능한 USB 장치로 복사 감사 또는 제한
 - Office 앱: 사용자에게 위험한 동작에 참여하고 있으며 이를 차단하거나 차단하지만 이를 허용하도록 알리는 팝업을 표시하세요.
 - On-premises file shares: move the file from where it is stored to a quarantine folder
 
@@ -166,18 +166,18 @@ DLP 정책을 만들고 구성하는 방법에는 유연성이 있습니다. 미
 All DLP policies are created and maintained in the Microsoft 365 Compliance center. See, INSERT LINK TO ARTICLE THAT WILL START WALKING THEM THROUGH THE POLICY CREATION PROCEDURES for more information.-->
 
 준수 센터에서 DLP 정책을 만든 후 중앙 정책 저장소에 저장되어 다음을 비롯한 다양한 콘텐츠 원본과 동기화됩니다.
-  
+
 - Exchange Online, 웹용 Outlook 및 Outlook.
 - 비즈니스용 OneDrive 사이트.
 - SharePoint Online 사이트.
 - Office 데스크톱 프로그램 (Excel, PowerPoint 및 Word).
 - Microsoft Teams 채널 및 채팅 메시지.
-    
+
 정책이 올바른 위치와 동기화된 후 콘텐츠를 평가하고 작업을 적용하기 시작합니다.
 
 ## <a name="viewing-policy-application-results"></a>정책 응용 프로그램 결과 보기
 
-DLP는 모니터링, 정책 일치 Microsoft 365 작업 및 사용자 활동에서 광범위한 정보를 보고합니다. 중요한 항목에 대해 수행된 정책 및 선고 작업을 조정하기 위해 해당 정보를 사용 및 조치를 취해야 합니다. 원격 분석은 Microsoft 365 준수 [](search-the-audit-log-in-security-and-compliance.md#search-the-audit-log-in-the-compliance-center) 센터 감사 로그로 이동하고, 처리된 후 다른 보고 도구로 이동됩니다. 각 보고 도구의 용도는 다릅니다.  
+DLP는 모니터링, 정책 일치 Microsoft 365 작업 및 사용자 활동에서 광범위한 정보를 보고합니다. 중요한 항목에 대해 수행된 정책 및 선고 작업을 조정하기 위해 해당 정보를 사용 및 조치를 취해야 합니다. 원격 분석은 Microsoft 365 준수 [](search-the-audit-log-in-security-and-compliance.md#search-the-audit-log-in-the-compliance-center) 센터 감사 로그로 이동하고, 처리된 후 다른 보고 도구로 이동됩니다. 각 보고 도구의 용도는 다릅니다.
 
 ### <a name="dlp-alerts-dashboard"></a>DLP 경고 대시보드
 
@@ -203,7 +203,7 @@ DLP가 중요한 항목에 대해 작업을 수행하면 구성 가능한 경고
 
 DLP 페이지의 활동 탐색기 탭에는 활동 필터가 *DLPRuleMatch로 미리 설정되어 있습니다.*  이 도구를 사용하여 중요한 정보를 포함하거나 레이블이 적용된 콘텐츠와 관련된 활동을 검토할 수 있습니다(예: 변경된 레이블, 파일이 수정된 후 규칙과 일치).
 
-![DLPRuleMatch 범위 활동 탐색기 스크린샷 ](../media/dlp-activity-explorer.png)
+![DLPRuleMatch 범위 활동 탐색기 스크린샷](../media/dlp-activity-explorer.png)
 
 자세한 내용은 활동 탐색기 [시작을 참조하세요.](data-classification-activity-explorer.md)
 

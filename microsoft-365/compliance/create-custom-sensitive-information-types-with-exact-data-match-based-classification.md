@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d5889ba690bdf61fd51044b3c059f1476342af
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: e8f6c075d706da46d7163705f6aa9d0ca6cad1a2
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964659"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227130"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -385,15 +385,15 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 - **EDM\_DataUploaders** 보안 그룹에 추가될 Microsoft 365용 회사 또는 학교 계정
 - EDMUploadAgent 실행을 위한 .NET 버전 4.6.2가있는 Windows 10 또는 Windows Server 2016 시스템
 - 다음에 대한 업로드 컴퓨터의 디렉토리 :
-    -  EDMUploadAgent
-    - 예제에 설명된 .csv 또는 .tsv 형식의PatientRecords.csv파일 
-    -  및 출력 해시 및 솔트 파일
-    - **edm.xml** 파일의 데이터 저장소 이름(이 예에서는 `PatientRecords`)
+  - EDMUploadAgent
+  - 예제에 설명된 .csv 또는 .tsv 형식의PatientRecords.csv파일 
+  - 출력 해시 및 솔트 파일
+  - **edm.xml** 파일의 데이터 저장소 이름(이 예에서는 `PatientRecords`)
 - [정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사](sit-edm-wizard.md)를 사용한 경우 ****다운로드해야만*** 합니다.
 
 #### <a name="set-up-the-security-group-and-user-account"></a>보안 그룹 및 사용자 계정 설정
 
-1. 전역 관리자로서 [구독에 대한 적절한 링크](#portal-links-for-your-subscription)를 사용하여 관리 센터로 이동하고 **EDM\_ DataUploaders** 라는 [보안 그룹을 만듭니다](/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide).
+1. 전역 관리자로서 [구독에 대한 적절한 링크](#portal-links-for-your-subscription)를 사용하여 관리 센터로 이동하고 **EDM\_ DataUploaders** 라는 [보안 그룹을 만듭니다](/office365/admin/email/create-edit-or-delete-a-security-group).
 
 2. 한 명 이상의 사용자를 **EDM\_DataUploaders** 보안 그룹에 추가합니다. (이러한 사용자가 중요한 정보 데이터베이스를 관리합니다.)
 
@@ -401,18 +401,17 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 이 컴퓨터는 Microsoft 365 테넌트에 직접 액세스할 수 있어야 합니다.
 
->[!NOTE]
+> [!NOTE]
+>
 > 이 절차를 시작하기 전에 본인이 **EDM\_DataUploaders** 보안 그룹의 구성원인지 확인하세요.
-
-> [!TIP]
+>
 > 원하는 경우 업로드하기 전에 .csv .tsv 파일에 대해 유효성 검사를 실행할 수 있습니다.
 >
->`EdmUploadAgent.exe /ValidateData /DataFile [data file] /Schema [schema file]`
+> `EdmUploadAgent.exe /ValidateData /DataFile [data file] /Schema [schema file]`
 >
->모든 EdmUploadAgent.exe >에서 지원되는 매개 변수에 대한 자세한 내용은 다음을 실행합니다
+> 모든 EdmUploadAgent.exe >에서 지원되는 매개 변수에 대한 자세한 내용은 다음을 실행합니다
 >
 > `EdmUploadAgent.exe /?`
-
 
 #### <a name="links-to-edm-upload-agent-by-subscription-type"></a>구독 유형별 EDM 업로드 에이전트에 대한 링크
 

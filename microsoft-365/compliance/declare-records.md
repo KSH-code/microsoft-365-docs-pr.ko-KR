@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 레코드 선언
-ms.openlocfilehash: b5114253c99533e890d66248529b4713700b9016
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: ba0587619609adba2d7746a45a3b24008a4a00be
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903903"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226998"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>보존 레이블을 사용하여 레코드 선언
 
@@ -36,7 +36,7 @@ ms.locfileid: "52903903"
 
 ## <a name="how-to-display-the-option-to-mark-content-as-a-regulatory-record"></a>콘텐츠를 규제 레코드로 표시하는 옵션을 표시하는 방법입니다.
 
->[!NOTE] 
+> [!NOTE]
 > 다음 절차는 감사 로그의 [보존 정책 및 보존 레이블 활동](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) 섹션에 있는 **보존 레이블에 대해 사용 설정된 규제 레코드 옵션** 을 로깅하는 감사 작업입니다.
 
 기본적으로 내용을 규제 레코드로 표시하는 보존 레이블 옵션은 보존 레이블 마법사에 표시되지 않습니다. 이 옵션을 표시하려면 먼저 PowerShell 명령을 실행해야 합니다.
@@ -44,13 +44,14 @@ ms.locfileid: "52903903"
 1. [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.
 
 2. 다음 cmdlet을 실행합니다.
-    
+
     ```powershell
     Set-RegulatoryComplianceUI -Enabled $true
     ````
+
     확인할 메시지가 없으며 설정이 즉시 적용됩니다.
 
-보존 레이블 마법사에서 이 옵션을 보는 것에 대한 생각을 변경하면 **false** 값과 동일한 cmdlet을 실행하여 이 옵션을 다시 숨길 수 있습니다. `Set-RegulatoryComplianceUI -Enabled $false` 
+보존 레이블 마법사에서 이 옵션을 보는 것에 대한 생각을 변경하면 **false** 값과 동일한 cmdlet을 실행하여 이 옵션을 다시 숨길 수 있습니다. `Set-RegulatoryComplianceUI -Enabled $false`
 
 ## <a name="configuring-retention-labels-to-declare-records"></a>레코드를 선언하도록 보존 레이블을 구성하는 중입니다.
 
@@ -60,7 +61,7 @@ Microsoft 365 규정 준수 센터의 **레코드 관리** 솔루션에서 보�
 
 ![콘텐츠를 레코드 또는 규정으로 표시하도록 보존 레이블을 구성합니다.](../media/recordversioning6.png)
 
-이 보존 레이블을 사용하여 필요에 따라 SharePoint 또는 OneDrive 문서 및 Exchange 전자 메일에 적용할 수 있습니다. 
+이 보존 레이블을 사용하여 필요에 따라 SharePoint 또는 OneDrive 문서 및 Exchange 전자 메일에 적용할 수 있습니다.
 
 전체 지침은 다음과 같습니다.
 
@@ -73,7 +74,7 @@ Microsoft 365 규정 준수 센터의 **레코드 관리** 솔루션에서 보�
 
 항목을 기록 또는 규제 레코드로 표시하는 보존 레이블을 앱에서 적용할 수 있는 경우 다음을 수행합니다.
 
-- Exchange의 경우 사서함에 대한 쓰기 권한이 있는 사용자는 이러한 레이블을 적용할 수 있습니다. 
+- Exchange의 경우 사서함에 대한 쓰기 권한이 있는 사용자는 이러한 레이블을 적용할 수 있습니다.
 - SharePoint 및 OneDrive의 경우 기본 구성원 그룹에 있는 모든 사용자(참가 권한 수준)는 이러한 레이블을 적용할 수 있습니다.
 
 보존 레이블을 사용하여 레코드로 표시된 문서 예제:
@@ -84,7 +85,7 @@ Microsoft 365 규정 준수 센터의 **레코드 관리** 솔루션에서 보�
 
 레코드로 항목을 선언하는 레이블 지정 작업은 감사 로그에 기록됩니다.
 
-SharePoint 항목의 경우: 
+SharePoint 항목의 경우:
 - **파일 및 페이지 활동** 에서 **파일의 보존 레이블 변경** 을 선택합니다. 이 감사 이벤트는 항목을 레코드, 규제 레코드로 표시하거나 표준 보존 레이블인 보존 레이블에 대한 이벤트입니다.
 
 Exchange 항목의 경우:

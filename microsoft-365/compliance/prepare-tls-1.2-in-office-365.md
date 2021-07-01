@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: cbd1ff5f2baf17e9a45a64e46d2e9f9f02e1fb68
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 331dd1ea510983e57c069f8d142aa0f7d3f7062e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007432"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226086"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Office 365 및 Office 365 GCC에서 TLS 1.2 준비
 
@@ -70,7 +70,7 @@ Microsoft Teams Rooms 및 Surface Hub 제품에서 TLS 1.2를 지원하려면 �
 다음 리소스에서는 클라이언트가 TLS 1.2 이상 버전을 사용하고 TLS 1.0 및 1.1을 비활성화하는 데 도움이 되는 지침을 제공합니다.
 
 - Office 365에 연결하는 Windows 7 클라이언트의 경우 Windows의 WinHTTP에서 TLS 1.2가 기본 보안 프로토콜인지 확인하세요. 자세한 내용은 [KB 3140245 - Windows의 WinHTTP에서 기본 보안 프로토콜로 TLS 1.1 및 TLS 1.2를 사용하도록 업데이트](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in)를 참조하십시오.
-- [지원되는 TLS 암호 Office 365](/microsoft-365/compliance/technical-reference-details-about-encryption?view=o365-worldwide#tls-cipher-suites-supported-by-office-365)
+- [지원되는 TLS 암호 Office 365](/microsoft-365/compliance/technical-reference-details-about-encryption#tls-cipher-suites-supported-by-office-365)
 - TLS 1.0 및 1.1 종속성을 제거하여 취약한 TLS 사용을 해결하려면 [Microsoft의 TLS 1.2 지원](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)을 참조하십시오.
 - [새로운 IIS 기능](https://cloudblogs.microsoft.com/microsoftsecure/2017/09/07/new-iis-functionality-to-help-identify-weak-tls-usage/)을 사용하면 취약한 보안 프로토콜로 서비스에 연결하는 [Windows Server 2012 R2](https://support.microsoft.com/help/4025335/windows-8-1-windows-server-2012-r2-update-kb4025335) 및 [Windows Server 2016](https://support.microsoft.com/help/4025334/windows-10-update-kb4025334)에서 클라이언트를 쉽게 찾을 수 있습니다.
 - [TLS 1.0](https://www.microsoft.com/download/details.aspx?id=55266)문제를 해결하는 방법에 대한 자세한 정보를 얻습니다.

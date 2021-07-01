@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 30363b544d9016b10dd9aad463d33c40065da0f3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1864c34f1e7bb17decfaeb2057dfff463a33b37c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919814"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226350"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>내부자 위험 관리에 대해 Microsoft 365
 
@@ -118,7 +118,7 @@ Microsoft 365의 내부자 위험 관리를 통해 내부 위험 활동 및 규�
 
 또한 새로운 감사 [로그(미리](insider-risk-management-audit-log.md) 보기)를 사용하면 내부자 위험 관리 기능에 대해 수행된 작업에 대한 정보를 계속 알 수 있습니다. 이 리소스를 사용하면 하나 이상의 내부자 위험 관리 역할 그룹에 할당된 사용자가 수행한 작업을 독립적으로 검토할 수 있습니다.
 
-### <a name="action"></a>조치
+### <a name="action"></a>작업
 
 사례를 조사한 후 검토자는 신속하게 사례를 해결하거나 조직의 다른 위험 이해 관계자와 공동 작업을 할 수 있습니다. 사용자가 실수로 또는 실수로 정책 조건을 위반하는 경우 조직에 맞게 사용자 지정할 수 있는 알림 서식 파일에서 간단한 미리 알림이 사용자에게 전송될 수 있습니다. 이러한 알림은 간단한 미리 알림으로 제공되거나 사용자에게 교육 또는 지침을 새로 고쳐서 미래의 위험한 행동을 방지하도록 할 수 있습니다. 자세한 내용은 [내부 위험 관리 알림 템플릿](insider-risk-management-notices.md)을 참조하세요.
 
@@ -127,8 +127,8 @@ Microsoft 365의 내부자 위험 관리를 통해 내부 위험 활동 및 규�
 - **Advanced eDiscovery:** 조사를 위해 사례를 에스컬레이터하면 사례의 데이터 및 관리를 해당 사례에 Advanced eDiscovery Microsoft 365. Advanced eDiscovery는 조직의 내부 및 외부 법률 조사에 대응하는 내용을 보존, 수집, 검토, 분석 및 내보낼 수 있는 엔드투엔드 워크플로를 제공합니다. 이를 통해 법률 팀이 법적 보존 알림 워크플로 전반을 관리할 수 있습니다. Advanced eDiscovery 케이스에 대한 자세한 내용은 [Microsoft 365의 Advanced eDiscovery 개요](overview-ediscovery-20.md)를 참조하세요.
 - **Office 365 관리 API** 통합(미리 보기) : 내부자 위험 관리는 Office 365 관리 API를 통해 보안 정보 및 이벤트 관리(SIEM) 서비스로 경고 정보를 내보낼 수 있습니다. 플랫폼의 경고 정보에 액세스할 수 있는 권한이 조직의 위험 프로세스에 가장 잘 맞는지 확인하면 위험 활동에 대한 작업 방법을 보다 유연하게 할 수 있습니다. 관리 API를 통해 경고 정보를 내보내는 Office 365 자세한 내용은 [경고 내보내기 를 참조하세요.](insider-risk-management-settings.md#export-alerts-preview)
 
->[!NOTE]
->ServiceNow 커넥터 미리 보기를 하는 동안 피드백과 지원에 감사드립니다. ServiceNow 커넥터의 미리 보기를 종료하고 2020년 11월 30일 내부자 위험 관리에서 지원을 중단하기로 결정했습니다. 내부자 위험 관리에서 ServiceNow 통합을 고객에게 제공하기 위한 대체 방법을 적극적으로 평가하고 있습니다.
+> [!NOTE]
+> ServiceNow 커넥터 미리 보기를 하는 동안 피드백과 지원에 감사드립니다. ServiceNow 커넥터의 미리 보기를 종료하고 2020년 11월 30일 내부자 위험 관리에서 지원을 중단하기로 결정했습니다. 내부자 위험 관리에서 ServiceNow 통합을 고객에게 제공하기 위한 대체 방법을 적극적으로 평가하고 있습니다.
 
 ## <a name="scenarios"></a>시나리오
 

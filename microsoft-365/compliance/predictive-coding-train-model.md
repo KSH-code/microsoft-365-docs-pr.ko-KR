@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: ef6d1cf23d6cca58f4226696bc63c1dea5816cc1
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 84bb34f8ec1b935dc30072e16f57b5f5665c3546
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822618"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226218"
 ---
 # <a name="train-a-predictive-coding-model-preview"></a>예측 코딩 모델 교육(미리 보기)
 
@@ -29,11 +29,11 @@ Advanced eDiscovery 예측 코딩 모델을 만든 후 다음 단계는 첫 번�
 
 ## <a name="before-you-train-a-model"></a>모델을 교육하기 전에
 
-- 교육 라운드 중에 문서의  콘텐츠 관련성에 따라 관련성 또는 관련이 없는 항목으로 레이블을 지정합니다.  메타데이터 필드의 값에 따라 결정하지 않습니다. 예를 들어 전자 메일 메시지 또는 Teams 대화의 경우 메시지 참가자에 대한 레이블 지정 결정에 기반하지 않습니다. 
+- 교육 라운드 중에 문서의  콘텐츠 관련성에 따라 관련성 또는 관련이 없는 항목으로 레이블을 지정합니다.  메타데이터 필드의 값에 따라 결정하지 않습니다. 예를 들어 전자 메일 메시지 또는 Teams 대화의 경우 메시지 참가자에 대한 레이블 지정 결정에 기반하지 않습니다.
 
 ## <a name="train-a-model-for-the-first-time"></a>처음으로 모델 교육
 
-1. 규정 Microsoft 365 센터에서 Advanced eDiscovery 사례를 열고 검토 집합 **탭을** 선택합니다.
+1. 이 Microsoft 365 규정 준수 센터 사례를 Advanced eDiscovery 검토 집합 **탭을** 선택합니다.
 
 2. 검토 집합을 열고 **분석** 예측 코딩 관리(미리  >  **보기)를 클릭합니다.**
 
@@ -63,10 +63,10 @@ Advanced eDiscovery 예측 코딩 모델을 만든 후 다음 단계는 첫 번�
 
 - 교육 집합에서 40개 항목에 레이블을 지정한 방식에 따라 모델이 레이블 지정을 통해 학습하고 자체적으로 더 정확하게 업데이트합니다.
 
-- 그런 다음 모델은 전체 검토 집합의 각 항목을 처리하고 **0(관련되지 않은)에서** **1(관련성)** 사이의 예측 점수를 할당합니다.  
+- 그런 다음 모델은 전체 검토 집합의 각 항목을 처리하고 **0(관련되지 않은)에서** **1(관련성)** 사이의 예측 점수를 할당합니다.
 
 - 이 모델은 교육 라운드 중에 레이블을 지정한 컨트롤 집합의 10개 항목에 예측 점수를 할당합니다. 이 모델은 이러한 10개 항목의 예측 점수와 교육 라운드 중에 항목에 할당한 실제 레이블을 비교합니다. 이 비교에 따라 모델은 다음 분류(Control *set confusion* matrix)를 식별하여 모델의 예측 성능을 평가합니다.
-  
+
   |          |Model predicts item is relevant |Model predicts item is not relevant |
   |:---------|:---------|:---------|
   |**관련성 있는 검토자 레이블 항목**| 참 긍정| 가양성 |

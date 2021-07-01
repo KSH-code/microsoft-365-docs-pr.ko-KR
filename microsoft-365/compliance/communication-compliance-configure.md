@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e258a7fec21bd3499553fe726730ac685ff990b5
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: d76bc36ca8c79d318e1b632517e2a182857627ff
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821382"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227346"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -40,7 +40,7 @@ ms.locfileid: "52821382"
 - Microsoft 365 E3 + Microsoft 365 E5 내부자 위험 관리 추가 기능
 - Microsoft 365 A5 구독(유료 또는 평가판)
 - Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
-- Microsoft 365 A3 구독 + Microsoft 365 A5 내부자 위험 관리 추가 기능
+- Microsoft 365 A3 + Microsoft 365 A5 내부자 위험 관리 추가 기능
 - Microsoft 365 G5 구독(유료 또는 평가판)
 - Microsoft 365 G5 구독 + Microsoft 365 G5 준수 추가 기능
 - Microsoft 365 G5 구독 + Microsoft 365 G5 내부자 위험 관리 추가 기능
@@ -50,17 +50,17 @@ ms.locfileid: "52821382"
 
 통신 준수 정책에 포함된 사용자에게 위의 라이선스 중 하나를 할당해야 합니다.
 
->[!IMPORTANT]
->Office 365 Advanced Compliance 독립 실행형 구독으로 더 이상 판매하지 않습니다. 현재 구독이 만료되면 고객은 동일한 또는 추가 규정 준수 기능을 포함하는 위의 구독 중 하나로 전환해야 합니다.
+> [!IMPORTANT]
+> Office 365 Advanced Compliance 독립 실행형 구독으로 더 이상 판매하지 않습니다. 현재 구독이 만료되면 고객은 동일한 또는 추가 규정 준수 기능을 포함하는 위의 구독 중 하나로 전환해야 합니다.
 
 기존 Office 365 Enterprise E5 요금제가 없는 경우 통신 규정 준수를 시도하려는 경우 기존 구독에 Microsoft 365 [](https://www.microsoft.com/microsoft-365/enterprise) 구독을 추가하거나 E5의 평가판을 등록할 Office 365 Enterprise 있습니다. [](/office365/admin/try-or-buy-microsoft-365)
 
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>1단계(필수): 통신 규정 준수에 대한 사용 권한 사용
 
->[!Important]
->기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당된 역할은 통신 준수 기능에 액세스하기 전에 필요합니다. 역할 그룹을 구성한 후 역할 그룹 사용 권한을 조직 전체의 할당된 사용자에게 적용하는 데 최대 30분이 걸릴 수 있습니다.
+> [!IMPORTANT]
+> 기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당된 역할은 통신 준수 기능에 액세스하기 전에 필요합니다. 역할 그룹을 구성한 후 역할 그룹 사용 권한을 조직 전체의 할당된 사용자에게 적용하는 데 최대 30분이 걸릴 수 있습니다.
 
-통신 준수 기능을 관리하기 위한 사용 권한을 구성하는 데 사용되는 5개의 역할 그룹이 있습니다. 통신 **규정** 준수를 Microsoft 365 규정 준수 센터에서 메뉴 옵션으로 사용할 수 있도록 설정하고  이러한 구성 단계를 계속하려면 통신 준수 또는 통신 준수 관리자 역할 그룹에 *할당해야* 합니다. 초기 구성 후 통신 준수 기능에 액세스하고 관리하려면 사용자가 하나 이상의 통신 준수 역할 그룹의 구성원이 되어야 합니다.
+통신 준수 기능을 관리하기 위한 사용 권한을 구성하는 데 사용되는 5개의 역할 그룹이 있습니다. 통신 **규정** 준수를 Microsoft 365 규정 준수 센터 메뉴 옵션으로 사용할 수 있도록 설정하고 이러한 구성 단계를  계속하려면 통신 준수 또는 통신 준수 관리자 역할 그룹에 *할당해야* 합니다. 초기 구성 후 통신 준수 기능에 액세스하고 관리하려면 사용자가 하나 이상의 통신 준수 역할 그룹의 구성원이 되어야 합니다.
 
 통신 정책 및 경고를 관리하는 방법에 따라 사용자를 특정 역할 그룹에 할당해야 합니다. 커뮤니케이션 규정 준수 기능의 다른 영역을 관리하기 위해 특정 역할 그룹에 다른 준수 책임이 있는 사용자를 할당할 수 있습니다. 또는 지정된 관리자, 분석가, 조사자 및 뷰어에 대한 모든 사용자 계정을 *통신* 준수 역할 그룹에 할당할 수 있습니다. 단일 역할 그룹 또는 여러 역할 그룹을 사용하여 규정 준수 관리 요구 사항에 가장 잘 맞도록 합니다.
 
@@ -130,7 +130,7 @@ ms.locfileid: "52821382"
 |:-----|:-----|:-----|
 |감독된 사용자 <br> 제외된 사용자 | 메일 그룹 <br> Microsoft 365 그룹 | 동적 메일 그룹 <br> 중첩된 메일 그룹 <br> 메일 사용 가능 보안 그룹 <br> Microsoft 365 구성원으로 그룹화 |
 | 검토자 | 없음 | 메일 그룹 <br> 동적 메일 그룹 <br> 중첩된 메일 그룹 <br> 메일 사용 가능 보안 그룹 |
-  
+
 정책에서 메일 그룹을 할당하면 정책은 메일 그룹의 각 사용자의 모든 전자 메일 Teams 모니터링합니다. 정책에서 Microsoft 365 그룹을 할당하면 정책은 각 그룹 구성원이 수신한 개별 전자 메일 및 Teams 아닌 해당 그룹에 전송된 모든 전자 메일 및 Teams 채팅을 모니터링합니다.
 
 Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사용자의 Microsoft Teams 채팅을 모니터링하려는 경우 모니터링할 메일 그룹을 만들어야 합니다. 이 단계의 나중에 이 메일 그룹을  정책 마법사에서 감독된 사용자 및 그룹 선택으로 할당합니다. 클라우드 기반 저장소를 사용하도록 설정하기 위한 요구 사항 및 제한 사항에 대한 자세한 내용은 Teams 사용자에 대한 Teams 채팅 데이터 검색을 [참조하세요.](search-cloud-based-mailboxes-for-on-premises-users.md)
@@ -154,11 +154,11 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
     ```PowerShell
     $Mbx = (Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited -Filter {CustomAttribute9 -eq $Null})
     $i = 0
-    ForEach ($M in $Mbx) 
+    ForEach ($M in $Mbx)
     {
       Write-Host "Adding" $M.DisplayName
       Add-DistributionGroupMember -Identity <your group name> -Member $M.DistinguishedName -ErrorAction SilentlyContinue
-      Set-Mailbox -Identity $M.Alias -<your custom attribute name> SRAdded 
+      Set-Mailbox -Identity $M.Alias -<your custom attribute name> SRAdded
       $i++
     }
     Write-Host $i "Mailboxes added to supervisory review distribution group."
@@ -179,14 +179,14 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
 - [Microsoft 365 기본 모드에 사용할 Yammer 네트워크 구성](/yammer/configure-your-yammer-network/native-mode)
 
 ## <a name="step-5-required-create-a-communication-compliance-policy"></a>5단계(필수): 통신 준수 정책 만들기
-  
->[!Important]
->PowerShell을 사용하여 커뮤니케이션 규정 준수 정책을 만들고 관리하는 것은 지원되지 않습니다. 이러한 정책을 만들고 관리하려면 통신 규정 준수 솔루션의 정책 관리 [Microsoft 365 합니다.](https://compliance.microsoft.com/supervisoryreview)
 
-1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com](https://compliance.microsoft.com) 증명을 사용하여 Microsoft 365 로그인합니다.
+> [!IMPORTANT]
+> PowerShell을 사용하여 커뮤니케이션 규정 준수 정책을 만들고 관리하는 것은 지원되지 않습니다. 이러한 정책을 만들고 관리하려면 통신 규정 준수 솔루션의 정책 관리 [Microsoft 365 합니다.](https://compliance.microsoft.com/supervisoryreview)
 
-2. Microsoft 365 준수 센터에서 통신 준수 **를 선택합니다.**
-  
+1. 조직에서 관리자 계정의 자격 <https://compliance.microsoft.com> 증명을 사용하여 Microsoft 365 로그인합니다.
+
+2. 다음 Microsoft 365 규정 준수 센터 통신 준수 **를 선택합니다.**
+
 3. **정책** 탭을 선택합니다.
 
 4. 정책 **만들기를** 선택하여 템플릿에서 새 정책을 만들고 구성하거나 사용자 지정 정책을 만들고 구성합니다.
@@ -201,8 +201,8 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
 
     - 제한된 조건 필드(일반적으로 정책에 적용할 중요한 정보 유형 또는 키워드 사전)를 선택하십시오.
 
-    >[!NOTE]
-    >[OCR(광학](communication-compliance-feature-reference.md#optical-character-recognition-ocr) 문자 인식)을 사용하여 메시지에 포함된 이미지나 첨부된 이미지를 정책 조건과 일치하는 인쇄 또는 필기 텍스트로 스캔하려면 정책 조건 및 백분율 사용자 지정을 선택하고 평가를 위해 이미지에서 인쇄 또는 필기 텍스트 추출을 사용하도록 설정을  >   선택합니다. 
+    > [!NOTE]
+    > [OCR(광학](communication-compliance-feature-reference.md#optical-character-recognition-ocr) 문자 인식)을 사용하여 메시지에 포함된 이미지나 첨부된 이미지를 정책 조건과 일치하는 인쇄 또는 필기 텍스트로 스캔하려면 정책 조건 및 백분율 사용자 지정을 선택하고 평가를 위해 이미지에서 인쇄 또는 필기 텍스트 추출을 사용하도록 설정을  >   선택합니다. 
 
     정책 마법사를 사용하여 사용자 지정 정책을 만들면 다음을 실행합니다.
 
@@ -240,7 +240,7 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
 
 1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com](https://compliance.microsoft.com) 증명을 사용하여 Microsoft 365 로그인합니다.
 
-2. Microsoft 365 규정 준수 센터에서 통신 규정 **준수 로 이동합니다.**
+2. 다음 Microsoft 365 규정 준수 센터 통신 준수 **로 이동합니다.**
 
 3. 사용자 이름에 대한 동의어를 구성하려면 개인 정보 **탭을** 선택합니다.
 

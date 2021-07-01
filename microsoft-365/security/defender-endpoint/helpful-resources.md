@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5ecee4a71ef0b6f607a284766163a90f16bc27dc
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5e92cd8b15a744301755dcd17633616e3061292c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843073"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53225978"
 ---
 # <a name="helpful-microsoft-defender-for-endpoint-resources"></a>엔드포인트 리소스에 대한 유용한 Microsoft Defender
 
@@ -32,7 +32,7 @@ ms.locfileid: "52843073"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 블로그 링크 및 끝점용 Microsoft Defender와 관련된 기타 리소스와 같은 유용한 리소스에 액세스합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "52843073"
 
 - [골든 아워 리마크 - 성공적인 보안 작업을 위한 메트릭 정의](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/The-Golden-Hour-remake-Defining-metrics-for-a-successful/ba-p/782014)
 
-- [끝점 평가용 Defender 평가 랩을 공개 미리 보기에서 사용할 수 있습니다.   ](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/Microsoft-Defender-ATP-Evaluation-lab-is-now-available-in-public/ba-p/770271)
+- [끝점 평가용 Defender 평가 랩을 공개 미리 보기에서 사용할 수 있습니다.](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/Microsoft-Defender-ATP-Evaluation-lab-is-now-available-in-public/ba-p/770271)
 
 - [자동화가 보안 팀에 가치를 가져다주는 방법](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/How-automation-brings-value-to-your-security-teams/ba-p/729297)
 

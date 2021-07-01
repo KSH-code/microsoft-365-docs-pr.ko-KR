@@ -1,7 +1,7 @@
 ---
-title: Defender 고급 헌팅 Microsoft 365 데이터 테이블
+title: 고급 헌팅 Microsoft 365 Defender 데이터 테이블
 description: 고급 헌팅 스키마의 표에 대해 알아보고 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석,
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마 참조, kusto, 표, 데이터
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 데이터
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3c8c65d012467317bf8335f47c3f686a5d7255d1
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 50a221a65c8264d816de958ec74fa99e9e6db762
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470583"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53225995"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>고급 헌팅 스키마 이해
 
@@ -48,9 +48,9 @@ ms.locfileid: "52470583"
 - **예제 쿼리**- 테이블을 활용하는 방법을 특징으로 하는 쿼리 예제입니다.
 
 ### <a name="access-the-schema-reference"></a>Schema 참조 액세스
-스마마 참조에 빠르게 액세스하려면  해당 Schema 표현에서 테이블 이름 옆에 있는 참조 보기 작업을 선택합니다. 또한 **Schema 참조를 선택하여** 테이블을 검색할 수도 있습니다.   
+스마마 참조에 빠르게 액세스하려면  해당 Schema 표현에서 테이블 이름 옆에 있는 참조 보기 작업을 선택합니다. 또한 **Schema 참조를 선택하여** 테이블을 검색할 수도 있습니다.
 
-![포털 내 Schema 참조에 액세스하는 방법을 보여주는 이미지 ](../../media/mtp-ah/ah-reference.png) 
+![포털 내 Schema 참조에 액세스하는 방법을 보여주는 이미지](../../media/mtp-ah/ah-reference.png)
 
 ## <a name="learn-the-schema-tables"></a>Schema 테이블에 대해 자세히 알아보기
 다음 참조는 스키마에서 모든 표를 나열합니다. 각 표 이름은 해당 표의 열 이름을 설명하는 페이지에 연결됩니다. 표 및 열 이름은 고급 헌팅 화면의 Schema 표현의 일부로 보안 센터에도 나열됩니다.

@@ -15,19 +15,19 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: 비즈니스용 원격 작업을 위한 최신 방법 정보, 팁, 리소스 및 지침을 Microsoft 365.
-ms.openlocfilehash: 5bdff59f3d07c59951c6da87d7b28432fb7c5878
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: fb261fbb5b52e81861fde16f6effc12b0a232e80
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023740"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227922"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>원격 작업을 통해 소기업의 역량 강화
 
 기업은 사람들이 원격으로 작업하고 고객과 가상으로 연결해야 하는 필요성이 증가하고 있는 요구에 맞춰 이 사이트가 최신 방법 정보, 팁, 리소스 및 비즈니스용 원격 작업 지침으로 Microsoft 365.
 
->[!TIP]
->사용되지 Microsoft_Teams? 6개월 동안 Microsoft Teams Office 무료로 다운로드할 수 있습니다(1년 등록 시). 이 문서에 설명된 기술을 제안의 일부로 얻습니다. 자세한 내용은 [1개월 무료 시도를 참조합니다.](https://aka.ms/SMBTeamsOffer)
+> [!TIP]
+> 사용되지 Microsoft_Teams? 6개월 동안 Microsoft Teams Office 무료로 다운로드할 수 있습니다(1년 등록 시). 이 문서에 설명된 기술을 제안의 일부로 얻습니다. 자세한 내용은 [1개월 무료 시도를 참조합니다.](https://aka.ms/SMBTeamsOffer)
 
 ## <a name="remote-work-for-your-small-business-video"></a>중소기업을 위한 원격 작업(동영상)
 
@@ -43,7 +43,7 @@ COVID-19(Novel Coronavirus) 발생에 비하면 많은 비즈니스 소유자가
 
 ## <a name="connect-with-employees-and-customers"></a>커넥트 및 고객과의 서비스 제공
 
-대면할 수 없는 경우에도 직원, 고객, 클라이언트 및 파트너와 계속 연결할 수 있습니다. 비즈니스 Microsoft Teams 고객과의 연결을 계속할 수 있습니다. 
+대면할 수 없는 경우에도 직원, 고객, 클라이언트 및 파트너와 계속 연결할 수 있습니다. 비즈니스 Microsoft Teams 고객과의 연결을 계속할 수 있습니다.
 
 ### <a name="meet-up-in-teams"></a>Teams
 
@@ -75,19 +75,19 @@ COVID-19(Novel Coronavirus) 발생에 비하면 많은 비즈니스 소유자가
 
 ### <a name="secure-your-devices"></a>장치 보안
 
-PC 및 휴대폰을 원격으로 관리하고 보호하고 최신으로 보호합니다. 필요한 Microsoft 365 Business.
+PC 및 휴대폰을 원격으로 관리하고 보호하고 최신으로 보호합니다. 비즈니스 Microsoft 365 필요합니다.
 
 자세한 내용은 장치 [관리를 참조하세요.](../../business-video/secure-win-10-pro-devices.md)
 
 ### <a name="more-for-admins-and-partners"></a>관리자 및 파트너에 대한 추가
 
-보안용 기술 Microsoft 365 Business 새로운 보안 원격 작업 지침으로 업데이트되었습니다.
+Microsoft 365 비즈니스용 기술 설명서 허브가 새로운 보안 원격 작업 지침으로 업데이트되었습니다.
 
-자세한 내용은 Microsoft 365 Business [참조합니다.](https://docs.microsoft.com/microsoft-365/business)
+자세한 내용은 비즈니스 리소스 [Microsoft 365 참조합니다.](/microsoft-365/business)
 
-## <a name="need-to-ask-a-question"></a>질문해야 하나요? 
+## <a name="need-to-ask-a-question"></a>질문해야 하나요?
 
 Teams [또는](https://answers.microsoft.com/msteams/forum) Office [포럼에 문의하세요.](https://answers.microsoft.com)
 
 > [!NOTE]
-> 이 문서 및 비디오의 대부분의 작업은 구독을 통해 수행할 수 있지만(Microsoft 365 Business Basic 이전의 Office 365 Business Essentials) 프리미엄 구독이 필요한 경우도 있습니다. 
+> 이 문서 및 비디오의 대부분의 작업은 구독을 통해 수행할 수 있지만(Microsoft 365 Business Basic 이전의 Office 365 Business Essentials) 프리미엄 구독이 필요한 경우도 있습니다.

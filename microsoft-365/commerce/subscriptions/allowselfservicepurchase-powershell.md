@@ -21,12 +21,12 @@ search.appverid:
 description: AllowSelfServicePurchase PowerShell cmdlet을 사용하여 셀프 서비스 구매를 켜거나 끄는 방법을 학습합니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 03/18/2021
-ms.openlocfilehash: 012874a8794e006d97c4f74014e92e1f7f3c2709
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: fbba7f4385684a8a34f9feebc28a27e8e867bacb
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536133"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227478"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용
 
@@ -150,7 +150,7 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 ### <a name="solution"></a>솔루션
 
-TLS 1.2로 업그레이드: [https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](/mem/configmgr/core/plan-design/security/enable-tls-1-2)
+TLS 1.2로 업그레이드: (/mem/configmgr/core/plan-design/security/enable-tls-1-2)
 
 <!--
 ## Uninstall the MSCommerce module

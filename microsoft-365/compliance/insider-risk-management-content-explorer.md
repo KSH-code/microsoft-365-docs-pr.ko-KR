@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 44a17471f1e2ba92d0099f62b95dec8d0e56a224
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: 3ff3c652d5446167ac3c2bf78a2405c21929ea11
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957495"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226470"
 ---
 # <a name="insider-risk-management-content-explorer"></a>내부자 위험 관리 콘텐츠 탐색기
 
@@ -29,8 +29,8 @@ ms.locfileid: "51957495"
 
 콘텐츠에 정보 권한 관리 권한이 포함되어 있는 경우 복사된 콘텐츠에 대해 이러한  사용 권한이 유지 관리되는 것이고, 파일을 열고 보아야 하는 경우 내부자 위험 관리 조사자 역할이 할당된 사용자에게는 이러한 사용 권한 및 권한이 필요합니다. 각 파일 및 메시지에는 관리 목적으로 내부자 위험 관리 사례에서 고유한 파일 ID가 자동으로 할당됩니다. 장치 표시기 활동과 관련된 문서는 콘텐츠 탐색기에서 포함되지 않습니다.
 
->[!Note]
->콘텐츠 탐색기에는 파일과 관련된 활동이 Microsoft Office 포함됩니다. 사이트가 삭제되거나 사이트 권한이 SharePoint 등의 사이트 수준 활동은 콘텐츠 탐색기에 포함되지 않습니다.
+> [!NOTE]
+> 콘텐츠 탐색기에는 파일과 관련된 활동이 Microsoft Office 포함됩니다. 사이트가 삭제되거나 사이트 권한이 SharePoint 등의 사이트 수준 활동은 콘텐츠 탐색기에 포함되지 않습니다.
 
 ## <a name="column-options"></a>열 옵션
 

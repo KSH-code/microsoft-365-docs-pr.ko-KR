@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 9337bddd87dd24d42b4d06fe77225901701cbdee
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 1aca97f12fe75dd74467007f35858c72caa38606
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149181"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226110"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -433,7 +433,7 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
 
 - [Remove-RetentionCompliancePolicy](/powershell/module/exchange/remove-retentioncompliancepolicy)
 
-- [Set-RecordReviewNotificationTemplateConfig](/powershell/module/exchange/set-recordreviewnotificationtemplateconfig )
+- [Set-RecordReviewNotificationTemplateConfig](/powershell/module/exchange/set-recordreviewnotificationtemplateconfig)
 
 - [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy)
 
@@ -494,7 +494,7 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
     
 - [현재 위치 레코드 관리 구성](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a) (보존만 해당) 
     
-- [사이트 폐쇄 및 삭제에 대한 정책 사용](https://support.microsoft.com/ko-KR/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (삭제만 해당)
+- [사이트 폐쇄 및 삭제에 대한 정책 사용](https://support.microsoft.com/en-us/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (삭제만 해당)
     
 - [정보 관리 정책](intro-to-info-mgmt-policies.md) (삭제만 해당)
      

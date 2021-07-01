@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 손실된 고객 키를 복구하는 데 사용되는 가용성 키에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4f4dfdff0aa1c7ebe6dd1266c82c6fd290913a3e
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: a4db6eab78feebd171dbfd5c8b45252837f229d0
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345097"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227082"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>고객 키에 대한 가용성 키 알아보기
 
@@ -155,8 +155,8 @@ Microsoft 365 상황에서만 가용성 키를 트리거합니다. 이러한 상
 
        - 이 경우 가용성 키는 사용자 작업, 사용자 요청 실패 및 오류 메시지 수신이 아닌 시스템 작업에만 사용됩니다.
 
->[!IMPORTANT]
->Microsoft 365 서비스 코드는 항상 고객 데이터를 이유에 따라 유효한 로그인 토큰을 사용하여 부가 가치 클라우드 서비스를 제공합니다. 따라서 가용성 키가 삭제될 때까지 이 키는 검색 인덱스 만들기 또는 사서함 이동과 같이 Exchange Online 및 내부에서 시작한 작업에 Exchange Online 비즈니스용 Skype 사용할 수 있습니다. 이는 Azure Key Vault에 대한 일시적인 ERRORS 및 ACCESS DENIED 요청에 모두 적용됩니다.
+> [!IMPORTANT]
+> Microsoft 365 서비스 코드는 항상 고객 데이터를 이유에 따라 유효한 로그인 토큰을 사용하여 부가 가치 클라우드 서비스를 제공합니다. 따라서 가용성 키가 삭제될 때까지 이 키는 검색 인덱스 만들기 또는 사서함 이동과 같이 Exchange Online 및 내부에서 시작한 작업에 Exchange Online 비즈니스용 Skype 사용할 수 있습니다. 이는 Azure Key Vault에 대한 일시적인 ERRORS 및 ACCESS DENIED 요청에 모두 적용됩니다.
 
 ### <a name="triggers-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>SharePoint Online, 비즈니스용 OneDrive 및 Teams 트리거
 

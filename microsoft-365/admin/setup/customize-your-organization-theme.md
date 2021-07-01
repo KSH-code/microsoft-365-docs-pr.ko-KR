@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 회사 로고 또는 색에 맞게 Microsoft 365 모음 위쪽의 기본 테마를 변경하는 방법을 알아보고 사용자 지정합니다.
-ms.openlocfilehash: b042090cf2cac9ac3bed705637bd03d721f76ad5
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 03d62af47e750f9ca8eacc4391d134c48216e691
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53006916"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227802"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직의 Microsoft 365 테마 사용자 지정
 
@@ -41,12 +41,12 @@ You can add or update a default theme that applies to everyone within your org. 
 
 2. 조직 **프로필 탭에서** 사용자 지정 **테마 를 선택합니다.**
 
-다음 탭을 사용하여 모든 테마를 사용자 정의할 수 있습니다.
+다음 탭을 사용하여 모든 조직 테마를 사용자 정의할 수 있습니다.
 
 |**탭**|**어떻게 해야 하나요?**|
 |:-----|:-----|
 |[일반](#general-modify-a-theme) <br/> |테마 이름을 수정하고 최대 5개 그룹에 할당합니다(해당하는 경우).  <br/> |
-|[로고](#logos-specify-your-theme-logos) <br/> |어두운 테마 및 모바일 옵션을 포함하여 Office 로고를 추가합니다.  <br/> |
+|[로고](#logos-specify-your-theme-logos) <br/> |어두운 테마에 대한 대체 로고를 포함하여 조직 로고를 추가합니다.  <br/> |
 |[색](#colors-choose-theme-colors) <br/> |탐색 모음, 강조색, 텍스트 및 아이콘 색을 지정하여 색 구성표를 사용자 지정합니다. <br/> |
 
 ## <a name="general-modify-a-theme"></a>일반: 테마 수정
@@ -64,7 +64,7 @@ You can add or update a default theme that applies to everyone within your org. 
 > [!IMPORTANT]
 > 기본 테마는 고유하며 이름을 변경할 수 없습니다. 조직 내의 모든 사용자에 적용됩니다. 기본 테마를 삭제하려면 먼저 다른 모든 테마를 삭제해야 합니다.
 
-:::image type="content" source="../../media/default-theme-general.png" alt-text="Screenshot: General tab showing the default theme for your organization":::
+:::image type="content" source="../../media/Default_Theme_Panel1.png" alt-text="Screenshot: General tab showing the default theme for your organization":::
 
 ### <a name="create-a-group-theme"></a>그룹 테마 만들기
 
@@ -76,7 +76,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 3. **저장** 을 선택합니다.
 
-:::image type="content" source="../../media/default-theme-general-users.png" alt-text="Screenshot: General tab showing the default theme for a group of users in your organization":::
+:::image type="content" source="../../media/default-theme-general-users1.png" alt-text="Screenshot: General tab showing the default theme for a group of users in your organization":::
 
 ## <a name="logos-specify-your-theme-logos"></a>로고: 테마 로고 지정
 
@@ -84,9 +84,11 @@ You can add or update a default theme that applies to everyone within your org. 
 
 - **기본 로고:** 로고를 지정하는 URL 위치를 추가합니다. URL에서 HTTPS를 사용하는지 확인합니다. 익명 액세스를 허용하고 인증이 필요하지 않은 HTTPS 이미지 URL을 추가합니다. 기본 테마의 경우 10kb 미만의 로고 이미지를 업로드하는 옵션도 있습니다. 기본 로고는 JPG, PNG, GIF 또는 SVG 형식일 수 있습니다. SVG 이미지의 경우 세로로 24픽셀에 맞게 크기 조정됩니다. JPG, PNG, GIF 이미지는 200 x 48픽셀에 맞게 조정됩니다. 로고의 측면 비율은 항상 유지됩니다.
 - **대체 로고:** 로고를 지정하는 URL 위치를 추가합니다. 대체 로고는 어두운 테마에서 Office 최적화해야 합니다. 기본 로고와 동일한 요구 사항
-- **On-click link:** Add a URL location that points to your logo. 로고를 회사 웹 사이트와 같은 회사 리소스에 대한 링크로 사용할 수 있습니다.
+- **On-click link:** Add a URL location that points to your logo. 로고를 회사 웹 사이트와 같은 회사 리소스에 대한 링크로 사용할 수 있습니다. 로고에 대한 URL 위치를 선택하지 않는 경우 기본 위치는 Office 페이지입니다.
 
 **저장** 을 선택하여 변경 내용을 저장합니다.
+
+:::image type="content" source="../../media/Logos_Tab.png" alt-text="Screenshot: Logos tab showing the logo options":::
 
 로고는 어떤 경우든 제거할 수 있습니다. 로고 **페이지로 돌아가서** 제거를 **선택합니다.**
   
@@ -98,9 +100,8 @@ You can add or update a default theme that applies to everyone within your org. 
 - **텍스트 및 아이콘 색:** 위쪽 탐색 모음의 텍스트 및 아이콘에 사용할 색을 선택합니다.
 - **강조색:** 흰색 또는 밝은 배경에 잘 표시될 색을 선택 합니다. 강조색은 흰색 또는 밝은 배경에 일부 링크와 단추의 색을 표시하는 데 사용됩니다. 예를 들어 악센트 색은 사용자의 받은 편지함 및 해당 Office.com 포털 페이지에 있는 요소에 색을 Office 사용됩니다.
 - **색 다시 설정:** 이 링크를 선택하여 색을 기본 색으로 다시 설정합니다.
-- **어떤 로고를 사용해야 하나요?**: 직접 만든 기본 로고 또는 기타 로고를 선택합니다.
 
-:::image type="content" source="../../media/default-theme-colors.png" alt-text="Screenshot: Colors tab showing default theme colors for your organization":::
+:::image type="content" source="../../media/default-theme-colors1.png" alt-text="Screenshot: Colors tab showing default theme colors for your organization":::
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 
@@ -137,7 +138,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 ### <a name="why-am-i-receiving-an-error-message-every-time-i-uploadalogo-url"></a>로고 URL을 업로드할 때마다 오류 메시지가 수신되는 이유입니다.  
 
-사용하는 로고가 공개 주소 지정 가능 URL로 지정되어 있는지 확인합니다. [Azure Blob](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) 저장소 또는 Office 365 콘텐츠 배달 네트워크 Online에 로고를 SharePoint [단계를 따르세요.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
+사용하는 로고가 공개 주소 지정 가능 URL로 지정되어 있는지 확인합니다. [Azure Blob](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) Storage 또는 Office 365 Content Delivery Network Online에 로고를 SharePoint [단계를 따르세요.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
 
 ### <a name="why-am-i-receiving-themessagedoesnt-meet-minimum-color-contrast-ratio-of-451"></a>"4.5:1의 최소 색 명암비를 충족하지 않습니다."라는 메시지가 수신된 이유는 무엇입니까?
 

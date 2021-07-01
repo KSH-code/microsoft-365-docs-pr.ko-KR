@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: b5aa6c737bc54129ce49378a7dcaf81e9d5c612f
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 39474f54440ba33c8d7140981c1495a5c46bf0fc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114106"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226686"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Microsoft 365 끝점 데이터 손실 방지 알아보기
 
@@ -34,7 +34,7 @@ Microsoft 365 DLP(데이터 손실 방지)를 사용하여 중요한 항목에 �
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>모니터링 및 조치 가능한 끝점 활동
 
-Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사용자가 중요한 항목에 대해 수행하는 다음 유형의 활동을 감사하고 관리할 수 있습니다. 
+Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사용자가 중요한 항목에 대해 수행하는 다음 유형의 활동을 감사하고 관리할 수 있습니다.
 
 |활동 |설명  | 감사/통제|
 |---------|---------|---------|
@@ -48,7 +48,7 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 |항목 만들기|사용자가 항목을 만들 때 이를 감지합니다.| 감사|
 |항목 이름 바꾸기|사용자가 항목 이름을 바꿀 때 이를 감지합니다.| 감사|
 
- ## <a name="monitored-files"></a>모니터링된 파일
+## <a name="monitored-files"></a>모니터링된 파일
 
 끝점 DLP는 다음 파일 형식의 모니터링을 지원합니다.
 
@@ -66,10 +66,10 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 - cs 파일
 - h 파일
 - java 파일
- 
+
 기본적으로 끝점 DLP는 정책 일치가 없는 경우에도 이러한 파일 유형에 대한 작업을 감사합니다. 정책 일치의 데이터만 모니터링하려는 경우 끝점 DLP 전역 설정에서 **장치의 항상 감사 파일 활동** 을 해제할 수 있습니다. 이 설정이 켜져 있으면 장치가 정책에 의해 대상이 지정되지 않더라도 Word, PowerPoint, Excel, PDF 및 .csv 파일의 작업이 항상 감사됩니다.
 
-끝점 DLP는 활동 기반의 Om MIME 유형을 모니터링하므로 파일 확장명이 변경되더라도 활동은 캡처됩니다. 
+끝점 DLP는 활동 기반의 Om MIME 유형을 모니터링하므로 파일 확장명이 변경되더라도 활동은 캡처됩니다.
 
 ## <a name="whats-different-in-endpoint-dlp"></a>끝점 DLP의 다양한 기능
 
@@ -153,8 +153,8 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 
 이제 끝점 DLP에 대해 살펴보았으므로 다음 단계는 다음과 같습니다.
 
-1) [Microsoft 끝점 데이터 손실 방지(미리 보기) 시작하기](endpoint-dlp-getting-started.md)
-2) [Microsoft 끝점 데이터 손실 방지(미리 보기) 사용하기](endpoint-dlp-using.md)
+1. [Microsoft 끝점 데이터 손실 방지(미리 보기) 시작하기](endpoint-dlp-getting-started.md)
+2. [Microsoft 끝점 데이터 손실 방지(미리 보기) 사용하기](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>참고 항목
 

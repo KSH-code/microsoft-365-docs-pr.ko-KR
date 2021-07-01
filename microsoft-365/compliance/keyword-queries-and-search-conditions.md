@@ -21,17 +21,17 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
-description: eDiscovery 검색 도구를 사용하여 검색할 수 있는 전자 메일 및 파일 속성에 대해 Microsoft 365.
-ms.openlocfilehash: 390477012c6a2a57c5e305641ba5b79ff10f4ea7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: eDiscovery 검색 도구를 사용하여 검색할 수 있는 전자 메일 및 문서 속성에 대해 Microsoft 365.
+ms.openlocfilehash: bb87125b8cb4091121c6a389bcba8d69be7cc71e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538438"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226362"
 ---
 # <a name="keyword-queries-and-search-conditions-for-ediscovery"></a>eDiscovery에 대한 키워드 쿼리 및 검색 조건
 
-이 항목에서는 Exchange Online의 전자 메일 항목 및 Microsoft Teams 채팅 대화에서 검색할 수 있는 전자 메일 및 문서 속성과 SharePoint 및 비즈니스용 OneDrive 준수 센터의 eDiscovery 검색 도구를 사용하여 SharePoint 및 비즈니스용 OneDrive 사이트에 저장된 문서에 대해 Microsoft 365 있습니다. 여기에는 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery(Advanced eDiscovery eDiscovery 검색을 *컬렉션이라고 합니다.* Security & Compliance Center PowerShell에서 **\* -ComplianceSearch** cmdlet을 사용하여 이러한 속성을 검색할 수도 있습니다. 이 항목에서는 다음에 대한 설명도 제공합니다.
+이 항목에서는 Exchange Online의 전자 메일 항목 및 Microsoft Teams 채팅 대화에서 검색할 수 있는 전자 메일 및 문서 속성과 SharePoint 및 비즈니스용 OneDrive 사이트의 eDiscovery 검색 도구를 사용하여 Microsoft 365 규정 준수 센터. 여기에는 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery(Advanced eDiscovery eDiscovery 검색을 *컬렉션이라고 합니다.* Security & Compliance Center PowerShell에서 **\* -ComplianceSearch** cmdlet을 사용하여 이러한 속성을 검색할 수도 있습니다. 이 항목에서는 다음에 대한 설명도 제공합니다.
   
 - 부울 검색 연산자, 검색 조건 및 기타 검색 쿼리 기술을 사용하여 검색 결과를 구체화합니다.
 
@@ -48,11 +48,11 @@ ms.locfileid: "52538438"
 - [컬렉션에서 초안 컬렉션 Advanced eDiscovery](create-draft-collection.md)
 
 > [!NOTE]
-> eDiscovery는 Microsoft 365 준수 센터에서 검색하고 Security & Compliance Center PowerShell의 해당 **\* -ComplianceSearch** cmdlet은 KQL(키워드 쿼리 언어)을 사용합니다. 자세한 내용은 키워드 쿼리 언어 [구문 참조 를 참조하세요.](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+> eDiscovery 검색은 Microsoft 365 규정 준수 센터 및 Security & Compliance Center PowerShell의 **\* 해당 -ComplianceSearch** cmdlet은 KQL(키워드 쿼리 언어)을 사용합니다. 자세한 내용은 키워드 쿼리 언어 [구문 참조 를 참조하세요.](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
   
 ## <a name="searchable-email-properties"></a>검색 가능한 전자 메일 속성
 
-다음 표에는 Microsoft 365 준수 센터의 eDiscovery 검색 도구를 사용하여 검색하거나 **New-ComplianceSearch 또는 Set-ComplianceSearch** cmdlet을 사용하여 검색할 수 있는 전자 메일 메시지 속성이 나열되어 있습니다.  이 표에는 각 속성에 대한  _property:value_ 구문의 예와 예제에서 반환된 검색 결과에 대한 설명이 포함되어 있습니다. eDiscovery 검색의 키워드 상자에 이러한  `property:value` 쌍을 입력할 수 있습니다. 
+다음 표에는 Microsoft 365 규정 준수 센터 또는 **New-ComplianceSearch 또는 Set-ComplianceSearch** cmdlet을 사용하여 검색할 수 있는 전자  메일 메시지 속성이 나열되어 있습니다. 이 표에는 각 속성에 대한  _property:value_ 구문의 예와 예제에서 반환된 검색 결과에 대한 설명이 포함되어 있습니다. eDiscovery 검색의 키워드 상자에 이러한  `property:value` 쌍을 입력할 수 있습니다. 
 
 > [!NOTE]
 > 전자 메일 속성을 검색할 때 지정한 속성이 비어 있거나 비어 있는 항목을 검색할 수 없습니다. 예를 들어 *property:value* pair of **subject:""를** 사용하여 제목 줄이 비어 있는 전자 메일 메시지를 검색하면 결과가 반환됩니다. 사이트 및 연락처 속성을 검색할 때도 적용됩니다.
@@ -61,7 +61,7 @@ ms.locfileid: "52538438"
 |:-----|:-----|:-----|:-----|
 |AttachmentNames|전자 메일 메시지에 첨부되는 파일의 이름입니다.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> `attachmentnames:.pptx` |annualreport.ppt라는 파일이 첨부된 메시지입니다. 두 번째 예제에서는 와일드카드 문자( * )를 사용하여 첨부 파일의 파일 이름에 "annual"이라는 단어가 있는 메시지를 반환합니다. 세 번째 예제에서는 pptx 파일 확장명을 가지는 모든 첨부 파일을 반환합니다.|
 |Bcc|전자 메일 메시지의 Bcc 필드입니다. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|모든 예제는 숨은 참조 필드에 Pilar Pinilla가 포함된 메시지를 반환합니다.|
-|Category| 검색할 범주입니다. 범주는 웹용 웹 응용 Outlook 또는 웹 Outlook 사용하여 정의할 수 Outlook Web App. 가능한 값은 다음과 같습니다.  <br/><br/>  파랑  <br/>  녹색  <br/>  orange  <br/>  자주  <br/>  빨강  <br/>  노란색|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
+|범주| 검색할 범주입니다. 범주는 Outlook 또는 웹용 Outlook(이전의 Outlook Web App)를 사용하여 정의할 수 있습니다. 가능한 값은 다음과 같습니다.  <br/><br/>  파랑  <br/>  녹색  <br/>  orange  <br/>  자주  <br/>  빨강  <br/>  노란색|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
 |Cc|전자 메일 메시지의Cc 필드입니다. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|두 예제 모두 참조 필드에 Pilar Pinilla가 지정된 메시지입니다.|
 |Folderid|특정 사서함 폴더의 폴더 ID(GUID)입니다. 이 속성을 사용하는 경우 지정된 폴더가 있는 사서함을 검색해야 합니다. 지정된 폴더만 검색됩니다. 폴더의 하위 폴더는 검색되지 않습니다. 하위 폴더를 검색하려면 검색할 하위 폴더에 Folderid 속성을 사용해야 합니다.  <br/> Folderid 속성을 검색하고 스크립트를 사용하여 특정 사서함의 폴더ID를 얻는 데 대한 자세한 내용은 [Use Content search for targeted collections을 참조하십시오.](use-content-search-for-targeted-collections.md)|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정한 사서함 폴더의 모든 항목을 반환합니다. 두 번째 예에서는 지정된 사서함 폴더에서 사서함 폴더에서 보내거나 받은 모든 항목을 garthf@contoso.com.|
 |시작|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|
@@ -149,9 +149,9 @@ ms.locfileid: "52538438"
 
 ## <a name="searchable-sensitive-data-types"></a>검색 가능한 중요한 데이터 형식
 
-Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 SharePoint 및 비즈니스용 OneDrive 사이트의 문서에 저장된 신용 카드 번호 또는 주민등용 번호와 같은 중요한 데이터를 검색할 수 있습니다. 키워드 쿼리에서 중요한 정보 유형의 속성과 이름(또는 ID)을 사용하여 이 `SensitiveType` 작업을 할 수 있습니다. 예를 들어 쿼리는 신용 카드 번호가 포함된 문서를 `SensitiveType:"Credit Card Number"` 반환합니다. 이 쿼리는 미국 사회 보장 번호가 포함된 문서를  `SensitiveType:"U.S. Social Security Number (SSN)"` 반환합니다.
+Microsoft 365 규정 준수 센터 eDiscovery 검색 도구를 사용하여 Microsoft 365 규정 준수 센터 사이트의 문서에 저장된 신용 카드 번호 또는 주민등증 번호와 같은 중요한 데이터를 SharePoint 비즈니스용 OneDrive 있습니다. 키워드 쿼리에서 중요한 정보 유형의 속성과 이름(또는 ID)을 사용하여 이 `SensitiveType` 작업을 할 수 있습니다. 예를 들어 쿼리는 신용 카드 번호가 포함된 문서를 `SensitiveType:"Credit Card Number"` 반환합니다. 이 쿼리는 미국 사회 보장 번호가 포함된 문서를  `SensitiveType:"U.S. Social Security Number (SSN)"` 반환합니다.
 
-검색할 수 있는 중요한 정보 유형 목록을 확인한  다음, Microsoft 365 규정 준수 센터의 데이터 분류 중요한 \>  정보 유형으로 이동하세요. 또는 Security & Compliance Center PowerShell에서 **Get-DlpSensitiveInformationType** cmdlet을 사용하여 중요한 정보 유형 목록을 표시할 수 있습니다.
+검색할 수 있는 중요한 정보 유형 목록을 확인한  후 검색 목록의 데이터 분류 중요한 정보 \>  유형으로 Microsoft 365 규정 준수 센터. 또는 Security & Compliance Center PowerShell에서 **Get-DlpSensitiveInformationType** cmdlet을 사용하여 중요한 정보 유형 목록을 표시할 수 있습니다.
   
 속성을 사용하여 쿼리를 만드는 데 대한 자세한 내용은 사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 `SensitiveType` [작성을 참조하세요.](form-a-query-to-find-sensitive-data-stored-on-sites.md)
 
@@ -189,7 +189,7 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 |\>=|property \> =value|검색되는 속성이 특정 값보다 크거나 같음 <sup>1</sup>|
 |..|property:value1.. value2|검색되는 속성이 value1보다 크거나 같고 value2보다 작거나 같음 <sup>1</sup>|
 |"  "|"fair value"  <br/> subject:"Quarterly Financials"|키워드 및 검색 쿼리에서 정확한 구나 용어를 검색하는 데는 두 번의 인용  `property:value` 부호(" ")를 사용할 수 있습니다.|
-|\*|cat\*  <br/> subject:set\*|키워드 또는 쿼리에서 단어 끝에 와일드카드 문자( *)가 배치되는 위치의 *Prefix searches(즉, prefix* matching)입니다. `property:value` prefix searches에서 검색은 단어가 포함된 단어와 0자 이상의 문자가 포함된 결과를 반환합니다. 예를 들어 문서 제목에 `title:set*` "set", "setup" 및 "setting"(및 "set"로 시작하는 다른 단어)이 포함된 문서를 반환합니다.  <br/><br/> **참고:** 도우미 검색만 사용할 수 있습니다. 예를 들어 **cat _ 또는 \* *_* \* *_set입니다. 접미사 검색(_* \* cat** ), 접두사 검색(c **\* t**), 하위 스트링 검색(cat)은 **\* \*** 지원되지 않습니다.<br/><br/>또한 기간(\)을 추가합니다. )를 사용하여 반환되는 결과를 변경합니다. 마라미스가 중지 단어로 처리될 때 그 이유는 바로 그 이유는 마주보는 단어입니다. 예를 들어 cat _을 검색하고 **\* *_* \* cat을** 검색하면 다른 결과가 반환됩니다. 사전 검색에서는 기간을 사용하지 않는 것이 좋습니다. |
+|\*|cat\*  <br/> subject:set\*|키워드 또는 쿼리에서 단어 끝에 와일드카드 문자( *)가 배치되는 위치의 *Prefix searches(즉, prefix* matching)입니다. `property:value` prefix searches에서 검색은 단어가 포함된 단어와 0자 이상의 문자가 포함된 결과를 반환합니다. 예를 들어 문서 제목에 `title:set*` "set", "setup" 및 "setting"(및 "set"로 시작하는 다른 단어)이 포함된 문서를 반환합니다.  <br/><br/> **참고:** 도우미 검색만 사용할 수 있습니다. 예를 들어 **cat _ 또는 \* *_* \* *_set입니다. 접미사 검색(_* \* cat**), 접두사 검색(c **\* t**), 하위 스트링 검색(cat)은 **\* \*** 지원되지 않습니다.<br/><br/>또한 기간(\)을 추가합니다. )를 사용하여 반환되는 결과를 변경합니다. 마라미스가 중지 단어로 처리될 때 그 이유는 바로 그 이유는 마주보는 단어입니다. 예를 들어 cat _을 검색하고 **\* *_* \* cat을** 검색하면 다른 결과가 반환됩니다. 사전 검색에서는 기간을 사용하지 않는 것이 좋습니다. |
 |(  )| (fair OR free) AND (from:contoso.com)  <br/>  (IPO OR initial) AND (stock OR shares)  <br/>  (quarterly financials)|괄호는 부울 구, 항목 및 키워드를  `property:value` 그룹화합니다. 예를 들어 분기별 및 재무 단어가 포함된  `(quarterly financials)` 항목을 반환합니다.|
 |||||
    
@@ -252,7 +252,7 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 |제목|문서의 제목입니다. Title 속성은 Office 문서에 지정된 메타데이터입니다. 문서의 파일 이름과 다릅니다.|
 |만든 날짜|문서를 만든 날짜입니다.|
 |마지막으로 수정한 날짜|문서를 마지막으로 변경한 날짜입니다.|
-|파일 형식|파일의 확장명입니다. 예를 들어 docx, 1, pptx 또는 xlsx입니다. FileExtension 사이트 속성과 같은 속성입니다.|
+|파일 형식|파일의 확장명입니다. 예를 들어 docx, 1, pptx 또는 xlsx입니다. FileExtension 사이트 속성과 같은 속성입니다. <br/><br/> **참고:** 검색 쿼리에서 **같음** 또는 같음  연산자를 사용하여 파일 형식 조건을 포함하면 파일 형식 끝에 와일드카드 문자( * )를 포함하여 파일 형식의 모든 버전을 반환할 수 없습니다. 이 경우 와일드카드가 무시됩니다. 예를 들어 조건을 포함하면 확장명을 가지는 파일만 `Equals any of doc*` `.doc` 반환됩니다. 확장명을 인 `.docx` 파일은 반환되지 않습니다. 파일 형식의 모든 버전을 반환하기 위해 키워드 쿼리에 *property:value* 쌍을 사용했습니다. 예를 들면 `filetype:doc*` 입니다.|
 |||
   
 ### <a name="operators-used-with-conditions"></a>조건과 함께 사용되는 연산자
@@ -283,21 +283,21 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 
 검색 조건을 사용할 때 다음에 유의하세요.
   
-- 조건은 **AND** 연산자를 사용하여 키워드 쿼리(키워드 상자에 지정)에 논리적으로 연결됩니다. 즉, 결과에 포함되려면 항목이 키워드 쿼리와 조건을 모두 만족해야 합니다. 조건은 이런 방식으로 결과 범위를 좁히는 데 도움이 됩니다. 
-    
-- 검색 쿼리에 두 개 이상의 고유한 조건(서로 다른 속성을 지정하는 조건)을 추가하는 경우 해당 조건은 AND 연산자에 의해 논리적으로 **연결됩니다.** 즉, 모든 조건(및 키워드 쿼리)을 만족하는 항목만 반환됩니다. 
-    
+- 조건은 **AND** 연산자를 사용하여 키워드 쿼리(키워드 상자에 지정)에 논리적으로 연결됩니다. 즉, 결과에 포함되려면 항목이 키워드 쿼리와 조건을 모두 만족해야 합니다. 조건은 이런 방식으로 결과 범위를 좁히는 데 도움이 됩니다.
+  
+- 검색 쿼리에 둘 이상의 고유한 조건(다양한 속성을 지정하는 조건)을 추가하는 경우 해당 조건이 **AND** 연산자에 의해 논리적으로 연결됩니다. 즉, 모든 조건(및 키워드 쿼리)을 만족하는 항목만 반환됩니다.
+  
 - 동일한 속성에 대해 둘 이상의 조건을 추가하면 해당 조건은 **OR** 연산자에 의해 논리적으로 연결됩니다. 즉, 키워드 쿼리와 조건 중 하나를 만족하는 항목이 반환됩니다. 따라서 동일한 조건 그룹이 **OR** 연산자에 의해 서로 연결된 후 고유한 조건 집합이 **AND** 연산자로 연결됩니다. 
-    
-- 단일 조건에 여러 값을 추가하는 경우(콤보 또는 세미 콜론으로 구분) 해당 값은 OR 연산자로 **연결됩니다.** 즉, 조건의 속성에 대해 지정된 값을 하나라도 포함하는 항목이 반환됩니다. 
-    
-- 키워드 상자 및 조건을 사용하여 만든 검색 쿼리는 선택한  검색의 세부 정보 창에 검색 페이지에 표시됩니다. 쿼리에서 표시의 오른쪽에 있는 모든 항목은 쿼리에 추가된 조건을  `(c:c)` 나타냅니다. 
-    
-- 조건은 검색 쿼리에 속성만 추가하고 연산자는 추가하지 않습니다. 이 때문에 세부 정보 창에 표시된 쿼리에 해당 표시 오른쪽에 연산자가  `(c:c)` 표시되지 않습니다. KQL은 쿼리를 실행할 때 논리 연산자를 추가합니다(이전에 설명한 규칙을 따름). 
-    
+  
+- 단일 조건에 여러 값을 추가하면(쉼표나 세미콜론으로 구분) 해당 값이 **OR** 연산자로 연결됩니다. 즉, 조건의 속성에 대해 지정된 값을 하나라도 포함하는 항목이 반환됩니다. 
+  
+- 키워드 상자 및 조건을 사용하여 만든 검색 쿼리는 선택한  검색의 세부 정보 창에 검색 페이지에 표시됩니다. 쿼리에서 표시의 오른쪽에 있는 모든 항목은 쿼리에 추가된 조건을  `(c:c)` 나타냅니다.
+  
+- 조건은 검색 쿼리에 속성만 추가하고 연산자는 추가하지 않습니다. 이 때문에 세부 정보 창에 표시된 쿼리에 해당 표시 오른쪽에 연산자가  `(c:c)` 표시되지 않습니다. KQL은 쿼리를 실행할 때 논리 연산자를 추가합니다(이전에 설명한 규칙을 따름).
+  
 - 끌어서 놓기 컨트롤을 사용하여 조건 순서를 다시 순서대로 할 수 있습니다. 조건에 대한 컨트롤을 클릭하고 해당 조건을 업 또는 아래로 이동합니다.
-    
-- 앞서 설명한 일부 조건 속성을 사용하면 세미 콜론으로 구분하여 여러 값을 입력할 수 있습니다. 각 값은 **OR** 연산자에 의해 논리적으로 연결되고 쿼리가 `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)` 됩니다. 다음 그림에서는 값이 여러 개 있는 조건의 예를 보여 주며,
+  
+- 앞서 설명한 일부 조건 속성을 사용하면 세미 콜론으로 구분하여 여러 값을 입력할 수 있습니다. 각 값은 **OR** 연산자에 의해 논리적으로 연결되고 쿼리가 `(filetype=docx) OR (filetype=pptx) OR (filetype=xlsx)` 됩니다. 다음 그림에서는 값이 여러 개 있는 조건의 예를 보여 주며,
 
     ![메시지는 규칙의 모든 조건과 일치해야 합니다. 하나의 조건 또는 다른 조건과 일치해야 하는 경우 각 조건에 대해 별도의 규칙을 사용합니다. 예를 들어 패턴과 일치하는 콘텐츠가 있는 메시지 및 첨부 파일이 있는 메시지에 동일한 고지 사항을 추가하려면 각 조건에 대해 하나의 규칙을 만듭니다. 규칙은 쉽게 복사할 수 있습니다.](../media/SearchConditions1.png)
   

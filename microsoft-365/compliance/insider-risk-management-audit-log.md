@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: bda9633ab37fd21fd66b3a8a53d4dd522e48ced1
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: b7eb225f04f531c3b6de71bf72df0f8062a8c93d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820281"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226506"
 ---
 # <a name="insider-risk-management-audit-log"></a>내부자 위험 관리 감사 로그
 
@@ -32,14 +32,14 @@ ms.locfileid: "50820281"
 - 정책
 - 사례
 - 경고
-- 설정
+- Settings
 - 사용자
 - 알림 템플릿
 
 감사 로그에서 데이터를 보고 내보내기하려면 사용자를 내부자 위험 관리 또는 내부자 위험 관리 감사자 역할 그룹에 *할당해야* 합니다.  내부자 위험 관리 역할 그룹에 대한 자세한 내용은 내부자 위험 관리 1단계: 사용 권한 사용 [시작을 참조합니다.](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management)
 
->[!NOTE]
->내부자 위험 관리 감사 로그는 Microsoft 365 감사 로그와 연결되지 않습니다. 이러한 로그는 독립적인 감사 시스템으로, 별도의 활동에 대한 정보를 캡처합니다. 감사를 Microsoft 365 내부자 위험 관리 내의 활동 감사에는 영향을주지 않습니다.
+> [!NOTE]
+> 내부자 위험 관리 감사 로그는 Microsoft 365 감사 로그와 연결되지 않습니다. 이러한 로그는 독립적인 감사 시스템으로, 별도의 활동에 대한 정보를 캡처합니다. 감사를 Microsoft 365 내부자 위험 관리 내의 활동 감사에는 영향을주지 않습니다.
 
 ## <a name="view-activity-in-the-insider-risk-audit-log"></a>내부자 위험 감사 로그에서 활동 보기
 

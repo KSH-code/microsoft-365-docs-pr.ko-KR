@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365 사서함 감사 또는 사서함 감사라고도 합니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행한 특정 작업이 사서함 감사 로그에 자동으로 기록되며, 사서함에서 수행되는 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 0fd15ffd26ad28b9e8b4f2b627ff26206983f21e
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 56207a21d9a13edb04a07234764257d3c27f2d0f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108094"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226782"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -64,7 +64,7 @@ False **값은** 기본적으로 사서함 감사가 조직에 대해 사용하�
 
 ****
 
-|사서함 유형|지원됨|
+|사서함 유형|지원|
 |---|:---:|
 |사용자 사서함|![확인 표시](../media/checkmark.png)|
 |공유 사서함|![확인 표시](../media/checkmark.png)|
@@ -92,7 +92,7 @@ False **값은** 기본적으로 사서함 감사가 조직에 대해 사용하�
 
 다음 표에서는 사용자 사서함 및 공유 사서함에 대한 사서함 감사 로깅에서 사용할 수 있는 사서함 작업에 대해 설명되어 있습니다.
 
-- 확인 표시( ![확인 표시](../media/checkmark.png))는 로그온 유형에 대해 사서함 작업을 기록할 수 있습니다(모든 로그온 유형에 대해 일부 작업을 사용할 수 있는 것은 아 아함).
+- 확인 표시(![확인 표시](../media/checkmark.png))는 로그온 유형에 대해 사서함 작업을 기록할 수 있습니다(모든 로그온 유형에 대해 일부 작업을 사용할 수 있는 것은 아 아함).
 - 확인 표시 다음에 추가()는 사서함 작업이 로그온 유형에 대해 기본적으로 기록되어 있는 <sup>\*</sup> 것입니다.
 - 사서함에 대한 모든 액세스 권한이 있는 관리자는 대리인으로 간주됩니다.
 

@@ -21,16 +21,16 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: 이 문서를 사용하여 해당 문서에서 권한이 부여된 액세스 관리를 사용하도록 설정하고 구성하는 방법을 Office 365.
-ms.openlocfilehash: 0b8d79c3012ecd321d7b00c1566aa557077d55f1
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 13b600c60e1b9c88285ee58efcf80a7ff5ea17fe
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126535"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226122"
 ---
 # <a name="get-started-with-privileged-access-management"></a>권한이 부여된 액세스 관리 시작
 
-이 항목에서는 조직에서 권한이 부여된 액세스 관리를 사용하도록 설정하고 구성하는 방법을 안내합니다. 관리 센터 또는 Microsoft 365 PowerShell을 사용하여 Exchange 액세스 권한을 관리하고 사용할 수 있습니다.
+이 항목에서는 조직에서 권한이 부여된 액세스 관리를 사용하도록 설정하고 구성하는 방법을 안내합니다. 관리 PowerShell 또는 Microsoft 365 관리 센터 PowerShell을 Exchange 권한 있는 액세스를 관리하고 사용할 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -38,17 +38,17 @@ ms.locfileid: "50126535"
 
 - Microsoft 365 E5 구독(유료 또는 평가판)
 - Microsoft 365 E3 구독(또는 Office 365 E3 구독 + Enterprise Mobility and Security E3 구독) + Microsoft 365 E5 Compliance 추가 기능
-- 모든 Microsoft 365, Office 365, Exchange, SharePoint 또는 비즈니스용 OneDrive 구독 + Microsoft 365 E5 내부자 위험 관리 추가 기능  
+- 모든 Microsoft 365, Office 365, Exchange, SharePoint 또는 비즈니스용 OneDrive 구독 + Microsoft 365 E5 내부자 위험 관리 추가 기능
 - Microsoft 365 A5 구독(유료 또는 평가판)
-- Microsoft 365 A3 구독(또는 Office 365 A3 + Enterprise Mobility and Security A3 구독) + Microsoft A5 준수 추가 기능
+- Microsoft 365 A3 구독(또는 Office 365 A3 구독 + Enterprise Mobility and Security A3 구독) + Microsoft A5 준수 추가 기능
 - 모든 Microsoft 365, Office 365, Exchange, SharePoint 또는 OneDrive for Education 구독 + Microsoft 365 A5 내부자 위험 관리 추가 기능
 - Office 365 Enterprise E5 구독(유료 또는 평가판)
 - Office 365 Enterprise E3 구독 + Office 365 Advanced Compliance 추가 기능(새 구독에서 더 이상 사용할 수 없음, 참고 참조)
 
 권한이 부여된 액세스 관리 요청을 제출하고 응답하는 사용자에게 위의 라이선스 중 하나를 할당해야 합니다.
 
->[!IMPORTANT]
->Office 365 Advanced Compliance 독립 실행형 구독으로 더 이상 판매하지 않습니다. 현재 구독이 만료되면 고객은 동일한 또는 추가 규정 준수 기능을 포함하는 위의 구독 중 하나로 전환해야 합니다.
+> [!IMPORTANT]
+> Office 365 Advanced Compliance 독립 실행형 구독으로 더 이상 판매하지 않습니다. 현재 구독이 만료되면 고객은 동일한 또는 추가 규정 준수 기능을 포함하는 위의 구독 중 하나로 전환해야 합니다.
 
 기존 Office 365 Enterprise E5 계획이 없는 경우 권한 있는 액세스 관리를 시도하려는 경우 [](/office365/admin/try-or-buy-microsoft-365) 기존 Microsoft 365 구독에 Office 365 추가하거나 Microsoft 365 Enterprise [](https://www.microsoft.com/microsoft-365/enterprise) E5 평가판을 등록할 수 있습니다.
 
@@ -72,16 +72,16 @@ ms.locfileid: "50126535"
 
     권한이 부여된 경우 권한 있는 액세스에는 연결된 승인 정책이 정의된 모든 작업에 대한 승인이 필요합니다. 승인 정책에 포함된 작업의 경우 사용자는 작업을 실행하는 데 필요한 권한을 가지기 위해 액세스 승인을 요청하고 액세스 승인을 부여해야 합니다.
 
-승인이 허가된 후 요청 사용자가 원하는 작업을 실행할 수 있으며 권한 있는 액세스 권한은 사용자를 대신하여 작업을 승인하고 실행합니다. 요청된 기간(기본 기간은 4시간)에 대해 승인이 계속 유효하고 요청한 사용자가 의도한 작업을 여러 번 실행할 수 있습니다. 이러한 모든 실행이 기록되어 보안 및 규정 준수 감사에 사용할 수 있습니다. 
+승인이 허가된 후 요청 사용자가 원하는 작업을 실행할 수 있으며 권한 있는 액세스 권한은 사용자를 대신하여 작업을 승인하고 실행합니다. 요청된 기간(기본 기간은 4시간)에 대해 승인이 계속 유효하고 요청한 사용자가 의도한 작업을 여러 번 실행할 수 있습니다. 이러한 모든 실행이 기록되어 보안 및 규정 준수 감사에 사용할 수 있습니다.
 
->[!NOTE]
->Exchange Management PowerShell을 사용하여 권한 있는 액세스를 사용하도록 설정하고 구성하려면 커넥트 [to Exchange Online PowerSh Office 365 ell을](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) 사용하여 Exchange Online 자격 증명을 사용하여 Exchange Online PowerShell에 연결합니다. 조직에서 PowerShell에 연결하는 동안 권한 있는 액세스를 사용하도록 설정하는 단계를 사용하기 위해 다단계 인증을 사용하도록 설정할 Exchange Online 없습니다. 다단계 인증을 사용하여 연결하면 요청 서명에 권한이 부여된 액세스에서 사용하는 OAuth 토큰이 생성됩니다.
+> [!NOTE]
+> Exchange Management PowerShell을 사용하여 권한 있는 액세스를 사용하도록 설정하고 구성하려면 커넥트 [to Exchange Online PowerSh Office 365 ell을](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) 사용하여 Exchange Online 자격 증명을 사용하여 Exchange Online PowerShell에 연결합니다. 조직에서 PowerShell에 연결하는 동안 권한 있는 액세스를 사용하도록 설정하는 단계를 사용하기 위해 다단계 인증을 사용하도록 설정할 Exchange Online 없습니다. 다단계 인증을 사용하여 연결하면 요청 서명에 권한이 부여된 액세스에서 사용하는 OAuth 토큰이 생성됩니다.
 
 <a name="step1"> </a>
 
 ## <a name="step-1-create-an-approvers-group"></a>1단계: 승인자 그룹 만들기
 
-1. 조직의 관리자 [Microsoft 365](https://admin.microsoft.com) 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
+1. 조직의 관리자 [Microsoft 365 관리 센터](https://admin.microsoft.com) 자격 증명을 사용하여 로그인합니다.
 
 2. 관리 센터에서 그룹 그룹  >  **추가로 이동하세요.**
 
@@ -99,7 +99,7 @@ ms.locfileid: "50126535"
 
 ### <a name="in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서
 
-1. 조직의 관리자 [Microsoft 365](https://admin.microsoft.com) 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
+1. 조직의 관리자 [Microsoft 365 관리](https://admin.microsoft.com) 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
 
 2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >    >  **로 이동하세요.**
 
@@ -123,8 +123,8 @@ Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccou
 Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', 'sys2@fabrikamorg.onmicrosoft.com')
 ```
 
->[!NOTE]
->조직 내의 특정 자동화가 권한 있는 액세스에 종속되지 않고 작동할 수 있도록 시스템 계정 기능을 사용할 수 있습니다. 그러나 이러한 제외는 예외적인 것이 며 허용되는 자동화는 정기적으로 승인 및 감사해야 합니다.
+> [!NOTE]
+> 조직 내의 특정 자동화가 권한 있는 액세스에 종속되지 않고 작동할 수 있도록 시스템 계정 기능을 사용할 수 있습니다. 그러나 이러한 제외는 예외적인 것이 며 허용되는 자동화는 정기적으로 승인 및 감사해야 합니다.
 
 <a name="step3"> </a>
 
@@ -134,7 +134,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 ### <a name="in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서
 
-1. 조직의 관리자 [Microsoft 365](https://admin.microsoft.com) 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
+1. 조직의 관리자 [Microsoft 365 관리](https://admin.microsoft.com) 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
 
 2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >    >  **로 이동하세요.**
 
@@ -143,7 +143,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 4. 정책 **구성을** 선택하고 정책 **추가 를 선택합니다.**
 
 5. 드롭다운 필드에서 조직에 적합한 값을 선택합니다.
-    
+
     **정책 유형**: 작업, 역할 또는 역할 그룹
 
     **정책 범위**: Exchange
@@ -220,7 +220,7 @@ New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting t
 
 #### <a name="in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터
 
-1. 자격 증명으로 [Microsoft 365 관리 센터에](https://admin.microsoft.com) 로그인합니다.
+1. 자격 증명으로 [Microsoft 365 관리 센터](https://admin.microsoft.com) 로그인합니다.
 
 2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  **&**  >  **로 이동하세요.**
 
@@ -248,7 +248,7 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 
 #### <a name="in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터
 
-1. 자격 증명으로 [Microsoft 365 관리 센터에](https://admin.microsoft.com) 로그인합니다.
+1. 자격 증명으로 [Microsoft 365 관리 센터](https://admin.microsoft.com) 로그인합니다.
 
 2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  **&**  >  **로 이동하세요.**
 
@@ -290,7 +290,7 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 ### <a name="in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터
 
-1. 조직의 관리자 [Microsoft 365](https://admin.microsoft.com) 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
+1. 조직의 관리자 [Microsoft 365 관리 센터](https://admin.microsoft.com) 자격 증명을 사용하여 로그인합니다.
 
 2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  **&**  >  **로 이동하세요.**
 
@@ -316,7 +316,7 @@ Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you w
 
 ### <a name="in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터
 
-1. 조직의 관리자 [Microsoft 365](https://admin.microsoft.com) 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
+1. 조직의 관리자 [Microsoft 365 관리 센터](https://admin.microsoft.com) 자격 증명을 사용하여 조직에 로그인합니다.
 
 2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >    >  **로 이동하세요.**
 
