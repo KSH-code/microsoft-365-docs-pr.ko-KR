@@ -66,7 +66,7 @@
 #### [Microsoft Defender for Endpoint(macOS용)]()
 ##### [macOS의 Microsoft Defender for Endpoint 개요](microsoft-defender-endpoint-mac.md)
 ##### [새로운 기능](mac-whatsnew.md)
- 
+
 ##### [배포]()
 ###### [Microsoft Intune 기반 배포](mac-install-with-intune.md)
 ###### [JAMF Pro 기반 배포]()
@@ -75,11 +75,11 @@
 ####### [장치 그룹 설정](mac-jamfpro-device-groups.md)
 ####### [정책 설정](mac-jamfpro-policies.md)
 ####### [장치 등록](mac-jamfpro-enroll-devices.md)
- 
+
 ###### [다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포](mac-install-with-other-mdm.md)
 ###### [수동 배포](mac-install-manually.md)
 ##### [업데이트](mac-updates.md)
- 
+
 ##### [구성]()
 ###### [제외 구성 및 유효성 검사](mac-exclusions.md)
 ###### [기본 설정](mac-preferences.md)
@@ -89,14 +89,14 @@
 ####### [JAMF 예제](mac-device-control-jamf.md)
 ####### [Intune 예제](mac-device-control-intune.md)
 ###### [검색 예약](mac-schedule-scan.md)
- 
+
 ##### [문제 해결]()
 ###### [설치 문제 해결](mac-support-install.md)
 ###### [성능 문제 해결](mac-support-perf.md)
 ###### [클라우드 연결 문제 해결](troubleshoot-cloud-connect-mdemac.md)
 ###### [커널 확장 문제 해결](mac-support-kext.md)
 ###### [라이선스 문제 해결](mac-support-license.md)
- 
+
 ##### [개인 정보](mac-privacy.md)
 ##### [리소스](mac-resources.md)
 
@@ -104,10 +104,10 @@
 #### [Microsoft Defender for Endpoint(iOS용)]()
 ##### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-ios.md)
 ##### [새로운 기능](ios-whatsnew.md)
- 
+
 ##### [배포]()
 ###### [Intune을 통해 Microsoft Defender for Endpoint(iOS용) 배포](ios-install.md)
- 
+
 ##### [구성]()
 ###### [iOS 기능 구성](ios-configure-features.md)
 
@@ -115,8 +115,8 @@
 ###### [FAQ 및 문제 해결](ios-troubleshoot.md)
 
 ##### [개인 정보](ios-privacy.md)
- 
- 
+
+
 #### [Microsoft Defender for Endpoint(Linux용)]()
 ##### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-linux.md)
 ##### [새로운 기능](linux-whatsnew.md)
@@ -127,7 +127,7 @@
 ###### [Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포](linux-deploy-defender-for-endpoint-with-chef.md)
 
 ##### [업데이트](linux-updates.md)
- 
+
 ##### [구성]()
 ###### [제외 구성 및 유효성 검사](linux-exclusions.md)
 ###### [정적 프록시 구성](linux-static-proxy-configuration.md)
@@ -136,29 +136,29 @@
 ###### [Microsoft Defender for Endpoint(Linux용) 검사 예약](linux-schedule-scan-atp.md)
 ###### [엔드포인트용 Microsoft Defender(Linux) 업데이트 예약](linux-update-MDE-Linux.md)
 
- 
+
 ##### [문제 해결]()
 ###### [설치 문제 해결](linux-support-install.md)
 ###### [에이전트 상태 문제 조사](health-status.md)
 ###### [클라우드 연결 문제 해결](linux-support-connectivity.md)
 ###### [성능 문제 해결](linux-support-perf.md)
 ###### [누락된 이벤트 문제 해결](linux-support-events.md)
- 
+
 ##### [개인 정보](linux-privacy.md)
 ##### [리소스](linux-resources.md)
- 
+
 #### [Microsoft Defender for Endpoint(Android용)]()
 ##### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-android.md)
- 
+
 ##### [배포]()
 ###### [Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포](android-intune.md)
- 
+
 ##### [구성]()
 ###### [Microsoft Defender for Endpoint(Android용) 기능 구성](android-configure.md)
- 
+
 ##### [개인 정보]()
 ###### [Microsoft Defender for Endpoint(Android용) - 개인 정보](android-privacy.md)
- 
+
 ##### [문제 해결]()
 ###### [문제 해결](android-support-signin.md)
 
@@ -321,13 +321,13 @@
 ##### [악용 방지 사용](enable-exploit-protection.md)
 ##### [악용 방지 사용자 지정](customize-exploit-protection.md)
 ##### [악용 보호 구성 가져오기, 내보내기 및 배포하기](import-export-exploit-protection-emet-xml.md)
-##### [악용 방지 참고자료](exploit-protection-reference.md )
+##### [악용 방지 참고자료](exploit-protection-reference.md)
 
 #### [네트워크 보호]()
 ##### [네트워크 보호](network-protection.md)
 ##### [네트워크 보호 평가](evaluate-network-protection.md)
 ##### [네트워크 보호 설정 켜기](enable-network-protection.md)
- 
+
 #### [웹 보호]()
 ##### [웹 보호 개요](web-protection-overview.md)
 ##### [웹 위협 방지]()
@@ -335,7 +335,7 @@
 ###### [웹 보안 모니터링](web-protection-monitoring.md)
 ###### [웹 위협에 대응](web-protection-response.md)
 ##### [웹 컨텐츠 필터링](web-content-filtering.md)
- 
+
 #### [제어된 폴더 액세스]()
 ##### [폴더 보호](controlled-folders.md)
 ##### [제어된 폴더 액세스 평가](evaluate-controlled-folder-access.md)
@@ -371,7 +371,7 @@
 ##### [인시던트 큐 보기 및 구성](view-incidents-queue.md)
 ##### [인시던트 관리](manage-incidents.md)
 ##### [인시던트 조사](investigate-incidents.md)
- 
+
 #### [경고 큐]()
 ##### [경고 큐 보기 및 구성](alerts-queue.md)
 ##### [경고 검토](review-alerts.md)
@@ -383,12 +383,12 @@
 ##### [도메인 조사](investigate-domain.md)
 ###### [전달 프록시 뒤에 발생하는 연결 이벤트 조사](investigate-behind-proxy.md)
 ##### [사용자 계정 조사](investigate-user.md)
- 
+
 #### [장치 목록]()
 ##### [장치 목록 보기 및 구성](machines-view-overview.md)
 ##### [장치 타임라인 이벤트 플래그](device-timeline-event-flag.md)
 ##### [장치 그룹 및 태그 관리](machine-tags.md)
- 
+
 #### [대응 조치 실행]()
 ##### [장치에 대해 대응 조치 실행]()
 ###### [장치에 대한 대응 조치](respond-machine-alerts.md)
@@ -547,7 +547,7 @@
 ####### [앱 실행 제한](restrict-code-execution.md)
 ####### [앱 제한 제거](unrestrict-code-execution.md)
 ####### [바이러스 백신 검사 실행](run-av-scan.md)
-####### [실시간 응답 실행](run-live-response.md) 
+####### [실시간 응답 실행](run-live-response.md)
 ####### [컴퓨터 오프보딩](offboard-machine-api.md)
 ####### [파일을 중지하고 격리](stop-and-quarantine-file.md)
 ####### [컴퓨터 작업 취소](cancel-machine-action.md)
@@ -661,7 +661,7 @@
 ##### [비활성 장치](fix-unhealthy-sensors.md#inactive-devices)
 ##### [잘못 구성된 장치](fix-unhealthy-sensors.md#misconfigured-devices)
 ##### [이벤트 뷰어로 컴퓨터에서 센서 이벤트 및 오류 검토](event-error-codes.md)
-  
+
 #### [엔드포인트용 Microsoft Defender 서비스 문제 해결]()
 ##### [서비스 문제 해결](troubleshoot-mdatp.md)
 ##### [서비스 상태 확인](service-status.md)
@@ -669,8 +669,8 @@
 
 #### [실시간 대응 문제 해결](troubleshoot-live-response.md)
 
-#### [LiveAnalyzer를 사용하여 지원 로그 수집 ](troubleshoot-collect-support-log.md)
- 
+#### [LiveAnalyzer를 사용하여 지원 로그 수집](troubleshoot-collect-support-log.md)
+
 #### [공격 표면 축소 문제 해결]()
 ##### [네트워크 보호](troubleshoot-np.md)
 ##### [공격 표면 감소 규칙](troubleshoot-asr.md)
@@ -678,4 +678,4 @@
 
 # [Microsoft 365 Defender](../defender/index.yml)
 # [Office 365용 Defender](../office-365-security/index.yml)
-# [ID용 Defender](https://docs.microsoft.com/defender-for-identity/)
+# [ID용 Defender](/defender-for-identity/)
