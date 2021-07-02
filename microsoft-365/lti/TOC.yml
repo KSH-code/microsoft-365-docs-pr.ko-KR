@@ -1,0 +1,8 @@
+- name: M365 Office LTI(미리 보기)
+  href: index.md
+- name: Canvas와 Microsoft OneDrive LTI 사용(미리 보기)
+  href: onedrive-lti.md
+- name: Canvas에서 Microsoft Teams 클래스 사용(미리 보기)
+  href: teams-classes-with-canvas.md
+- name: Canvas에서 Microsoft Teams 모임 사용(미리 보기)
+  href: teams-meetings-with-canvas.md
