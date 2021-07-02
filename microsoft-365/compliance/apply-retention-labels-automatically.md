@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 0324f988402d407e30d10a725aa5acebb0a69964
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: fa1d88271593f0278266004d4a170a807e1cbc32
+ms.sourcegitcommit: 2266c2da090bc9a6dc1e01dea07f26901d20d57b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788403"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53222685"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -164,7 +164,7 @@ KQL(키워드 쿼리 언어)에 대한 자세한 내용은 [KQL(키워드 쿼리
 
 - SharePoint, OneDrive 및 Exchange에 대해 새 항목, 수정된 항목 및 기존 항목이 자동 레이블로 지정됩니다.
 
-- SharePoint의 경우 이러한 KQL 쿼리에 대해 탐색된 속성 및 사용자 지정 속성이 지원되지 않으므로 미리 정의된 관리 속성만 사용해야 합니다. 그러나 기본적으로 리파이너로 사용하도록 설정된 미리 정의된 관리 속성((RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09 및 RefinableDouble00-09)으로 테넌트 수준에서 매핑을 사용할 수 있습니다. 자세한 내용은 [SharePoint 서버](/SharePoint/technical-reference/crawled-and-managed-properties-overview)에서 탐색 및 관리 속성에 대한 개요를 참조하고, 지침은 [새 관리 속성](/sharepoint/manage-search-schema#create-a-new-managed-property)을(를) 참조합니다.
+- SharePoint의 경우 이러한 KQL 쿼리에 대해 크롤링된 속성과 사용자 지정 속성이 지원되지 않으므로 문서에 미리 정의된 관리 속성만 사용해야 합니다. 그러나 기본적으로 리파이너로 사용하도록 설정된 미리 정의된 관리 속성((RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09 및 RefinableDouble00-09)으로 테넌트 수준에서 매핑을 사용할 수 있습니다. 자세한 내용은 [SharePoint 서버](/SharePoint/technical-reference/crawled-and-managed-properties-overview)에서 탐색 및 관리 속성에 대한 개요를 참조하고, 지침은 [새 관리 속성](/sharepoint/manage-search-schema#create-a-new-managed-property)을(를) 참조합니다.
 
 - 사용자 지정 속성을 고정 속성 중 하나에 매핑하는 경우 KQL 쿼리에서 보존 레이블에 사용하기 전에 24시간을 기다립니다.
 
