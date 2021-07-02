@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: bd3904b480f757c1cf684e15afaae9c19559e1ea
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b44977252b18c29a5f05a67f4ffbdb7dc85a8188
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227402"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256786"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구 - Contoso는 통신에 대한 공격적인 언어 Microsoft Teams, Exchange Yammer 구성합니다.
 
@@ -91,7 +91,7 @@ Contoso는 통신 준수  역할 그룹을 사용하여 모든 통신 준수 관
 | **커뮤니케이션 규정 준수 조사자** | 이 그룹을 사용하여 커뮤니케이션 준수 조사자 역할을 할 사용자에게 사용 권한을 할당합니다. 이 역할 그룹에 할당된 사용자는 메시지 메타데이터 및 콘텐츠를 보고, 추가 검토자로 에스컬레이터하고, Advanced eDiscovery 사례로 에스컬레이터하고, 사용자에게 알림을 보내고, 경고를 해결할 수 있습니다. |
 | **커뮤니케이션 규정 준수 뷰어** | 이 그룹을 사용하여 통신 보고서를 관리할 사용자에게 사용 권한을 할당합니다. 이 역할 그룹에 할당된 사용자는 통신 준수 홈 페이지의 모든 보고 위젯에 액세스할 수 있으며 모든 통신 준수 보고서를 볼 수 있습니다. |
 
-1. Contoso IT 관리자는 **Office 365 Security & Compliance Center** 권한 [ https://protection.office.com/permissions)](https://protection.office.com/permissions) 페이지(전역 관리자 계정에 대한 자격 증명을 사용하여 로그인하고 전역 관리자 계정에서 역할을 보고 관리하기 위한 링크를 Microsoft 365.
+1. Contoso IT 관리자는 **Office 365 Security & Compliance Center** 권한 [ https://compliance.microsoft.com/permissions)](https://compliance.microsoft.com/permissions) 페이지(전역 관리자 계정에 대한 자격 증명을 사용하여 로그인하고 전역 관리자 계정에서 역할을 보고 관리하기 위한 링크를 Microsoft 365.
 2. 보안 & **규정** 준수 센터에서 사용  권한으로 이동하여 보안 센터에서 역할을 보고 관리하기 위한 링크를 Office 365.
 3. 관리자는 통신 준수 역할 *그룹을* 선택한 다음 역할 그룹 **편집 을 선택합니다.**
 4. 관리자는 왼쪽 **탐색** 창에서 구성원 선택을 선택한 다음 편집 을 **선택합니다.**

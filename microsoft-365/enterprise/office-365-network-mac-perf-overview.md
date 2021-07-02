@@ -15,21 +15,21 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Microsoft 365 관리 센터의 네트워크 연결 개요
-ms.openlocfilehash: 75451a73ed56dade796f6de288f7f4acfb147960
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 8ad589ede747975ca9dcd3c81e661a2147fc1b88
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470669"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53277004"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 네트워크 연결
 
-Microsoft 365 관리 센터에는 이제 Microsoft 365 테넌트에서 수집된 집계된 네트워크 연결 메트릭이 포함되고 테넌트의 관리 사용자만 볼 수 있습니다.
+Microsoft 365 관리 센터에는 Microsoft 365 테넌트에서 수집된 집계된 네트워크 연결 메트릭이 포함되고 테넌트의 관리 사용자만 볼 수 있습니다.
 
 > [!div class="mx-imgBorder"]
 > ![네트워크 연결 테스트 도구](../media/m365-mac-perf/m365-mac-perf-admin-center.png)
 
-**네트워크 평가** 및 네트워크 인사이트는 Microsoft 365 관리 센터의 상태 관리  **센터에 | 네트워크 연결 .**
+**네트워크 평가** 및 네트워크 인사이트는 상태 Microsoft 365 관리  **센터에 | 네트워크 연결 .**
 
 > [!div class="mx-imgBorder"]
 > ![네트워크 성능 페이지](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
@@ -37,7 +37,7 @@ Microsoft 365 관리 센터에는 이제 Microsoft 365 테넌트에서 수집된
 >[!NOTE]
 >관리 센터의 네트워크 연결은 WW Commercial 및 Germany의 테넌트는 지원하지만 보통, GCC, GCC, DoD 또는 중국의 테넌트는 지원하지 않습니다.
 
-네트워크 성능 페이지로 처음 이동할 때 전역 네트워크 성능의 맵, 전체 테넌트로 범위가 지정되는 네트워크 평가, 원격으로 작업하는 사용자의 비율 및/또는 추가 조사를 위해 조치를 취할 현재 문제 목록을 확인하도록 위치를 구성해야 합니다. 개요 창에서 드릴다운하여 위치별 특정 네트워크 성능 메트릭 및 문제를 볼 수 있습니다. 자세한 내용은 Microsoft 365 관리 센터의 [네트워크 성능 개요를 참조하세요.](#network-connectivity-overview-in-the-microsoft-365-admin-center)
+네트워크 성능 페이지로 처음 이동할 때 전역 네트워크 성능의 맵, 전체 테넌트로 범위가 지정되는 네트워크 평가, 원격으로 작업하는 사용자의 비율 및/또는 추가 조사를 위해 조치를 취할 현재 문제 목록을 확인하도록 위치를 구성해야 합니다. 개요 창에서 드릴다운하여 위치별 특정 네트워크 성능 메트릭 및 문제를 볼 수 있습니다. 자세한 내용은 Microsoft 365 관리 [센터의 네트워크 성능 개요를 참조하세요.](#network-connectivity-overview-in-the-microsoft-365-admin-center)
 
 조직을 대신하여 이 기능에 대한 공개 미리 보기에 참여해야 할 수 있습니다. 수락은 일반적으로 즉시 발생하고 그 후에 네트워크 연결 페이지가 표시됩니다.
 
@@ -75,7 +75,10 @@ Windows 위치 서비스는 컴퓨터의 동의를 얻어야 합니다. 앱 앱�
 
 테스트 보고서는 LAN 서브넷 정보와 함께 추가된 위치에 연결됩니다. 그렇지 않으면 도시 위치에만 표시됩니다.
 
-테스트 보고서가 완료된 후 2~3분 후에 측정 샘플 및 사무실 위치가 나타나기 시작해야 합니다. 자세한 내용은 Microsoft 365 네트워크 연결 [테스트(미리 보기)를 참조하세요.](office-365-network-mac-perf-onboarding-tool.md)
+테스트 보고서가 완료된 후 2~3분 후에 측정 샘플 및 사무실 위치가 나타나기 시작해야 합니다. 자세한 내용은 네트워크 [연결 Microsoft 365 을 참조하세요.](office-365-network-mac-perf-onboarding-tool.md)
+
+> [!NOTE]
+> 사무실 위치를 Microsoft 365 네트워크 연결에 추가할 Microsoft 365 관리 센터 LAN 서브넷에 IPv4 또는 IPv6 주소를 제공할 수 있습니다. Egress IP 주소는 IPv4를 사용해야 합니다.
 
 ## <a name="how-do-i-use-this-information"></a>이 정보는 어떻게 사용하나요?
 
@@ -97,7 +100,7 @@ Windows 위치 서비스는 컴퓨터의 동의를 얻어야 합니다. 앱 앱�
 
 ## <a name="how-we-can-solve-these-challenges"></a>이러한 문제를 해결하는 방법
 
-엔터프라이즈는 Office 365 원칙에 따라 관리 센터 [](./microsoft-365-network-connectivity-principles.md) 네트워크 연결 기능을 사용하여 일반 사용자 환경을 Microsoft 365 환경을 보호할 수 있습니다. 대부분의 경우 이러한 일반적인 원칙에 따라 최종 사용자 대기 시간, 서비스 안정성 및 전반적인 서비스 성능에 큰 영향을 Microsoft 365.
+기업에서는 Office 365 센터 네트워크 연결 기능을 [](./microsoft-365-network-connectivity-principles.md) 사용하여 일반 사용자 환경을 개선하고 환경을 Microsoft 365 관리 수 있습니다. 대부분의 경우 이러한 일반적인 원칙에 따라 최종 사용자 대기 시간, 서비스 안정성 및 전반적인 서비스 성능에 큰 영향을 Microsoft 365.
 
 Microsoft는 경우에 따라 대기업 고객을 위한 Microsoft 365 네트워크 성능 문제를 조사해야 하며, 이러한 문제로 인해 고객의 네트워크 경계 인프라와 관련된 근본적인 원인이 자주 있습니다. 고객 네트워크 경계 문제의 일반적인 근본 원인이 발견되는 경우 이를 식별하는 간단한 테스트 측정을 식별하기 위해 노력합니다. 특정 문제를 식별하는 측정 임계값이 있는 테스트는 모든 위치에서 동일한 측정을 테스트하고 이 근본 원인이 있는지 여부를 알려 관리자와 네트워크 인사이트로 공유할 수 있기 때문에 매우 소중합니다.
 
@@ -105,7 +108,7 @@ Microsoft는 경우에 따라 대기업 고객을 위한 Microsoft 365 네트워
 
 ## <a name="network-connectivity-overview-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 네트워크 연결 개요
 
-Microsoft는 여러 데스크톱 및 웹 클라이언트에서 Office 측정한 기존 네트워크 측정값을 Microsoft 365. 이러한 측정값은 이제 관리 센터의 네트워크 연결 페이지에 표시되는 네트워크  아키텍처 디자인 인사이트와 네트워크 평가를 제공하는 Microsoft 365 사용됩니다.
+Microsoft는 여러 데스크톱 및 웹 클라이언트에서 Office 측정한 기존 네트워크 측정값을 Microsoft 365. 이러한 측정값은 이제 Microsoft 365 관리 센터의 네트워크 연결 페이지에 표시되는 네트워크  아키텍처 디자인 인사이트 및 네트워크 평가를 제공하는 데 사용됩니다.
 
 기본적으로 네트워크 측정값과 관련된 대략적인 위치 정보는 클라이언트 장치가 있는 도시를 식별합니다. 각 위치의 네트워크 평가는 색으로 표시되고 각 위치의 상대 사용자 수는 원의 크기로 표시됩니다.
 
@@ -220,7 +223,7 @@ Microsoft 365 서비스 프런트 도어는 Microsoft 전역 네트워크의 진
 
 ### <a name="what-license-is-needed-for-this-capability"></a>이 기능에 필요한 라이선스는 무엇입니까?
 
-관리 센터에 대한 액세스를 제공하는 Microsoft 365 필요합니다.
+앱에 대한 액세스를 제공하는 라이선스가 Microsoft 365 관리 센터.
 
 ## <a name="related-topics"></a>관련 항목
 

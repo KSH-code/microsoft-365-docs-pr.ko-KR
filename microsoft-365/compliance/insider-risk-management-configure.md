@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 50273fabc85ecedc92b9c3ec379d3b82a63dd6e1
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 8bcd9577308e31eb4bd48a5b1e0ad5748ef738e9
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226446"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256330"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -74,7 +74,7 @@ ms.locfileid: "53226446"
 
 다음 단계를 완료하여 내부자 위험 관리 역할 그룹에 사용자를 추가합니다.
 
-1. 조직에서 관리자 계정의 자격 [https://protection.office.com/permissions](https://protection.office.com/permissions) 증명을 사용하여 Microsoft 365 로그인합니다.
+1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) 증명을 사용하여 Microsoft 365 로그인합니다.
 
 2. 보안 및 &amp; 준수 센터에서 사용 **권한 으로 이동 합니다.** 웹에서 역할을 보고 관리하려면 링크를 Office 365.
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 자세한 내용은 Advanced eDiscovery 솔루션에 대해 Microsoft 365. 이 문서에서는 내부 및 외부 Advanced eDiscovery 관리하는 Microsoft 365 도구인 2016의 개요를 제공합니다. 또한 법적 조사를 관리하는 데 Advanced eDiscovery 비즈니스 이유에 대한 프레임을 틀 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16f597fdbbbad89116af73fdd0a607f3f03116ad
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4fe94aed10a7b9e981e2a9d46e992d5557e35dcb
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840841"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256462"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>개요 Microsoft 365 Advanced eDiscovery
 
@@ -95,7 +95,7 @@ Advanced eDiscovery는 높은 수준에서 다음과 같은 방식으로 EDRM �
 
 라이선스를 Advanced eDiscovery 조직 구독 및 사용자당 라이선스가 필요합니다.
 
-- **조직 구독:** 조직 Advanced eDiscovery Microsoft 365 센터에 액세스하려면 조직에 다음 중 하나가 있어야 합니다.
+- **조직 구독:** 조직의 Advanced eDiscovery 액세스하려면 Microsoft 365 규정 준수 센터 다음 중 하나만 있어야 합니다.
 
   - Microsoft 365 E5 또는 Office 365 E5 구독
   
@@ -111,7 +111,7 @@ Advanced eDiscovery는 높은 수준에서 다음과 같은 방식으로 EDRM �
 
   - Microsoft 365: 사용자에게 Microsoft 365 E5 라이선스, E5 준수 추가 기능 라이선스 또는 E5 eDiscovery 및 감사 추가 기능 라이선스가 할당되어야 합니다. Microsoft 365 Education 사용자에게 A5 라이선스가 할당되어야 합니다.
 
-  - Office 365: 사용자에게 E5 또는 Office 365 A5 Office 365 Education 할당되어야 합니다.
+  - Office 365: 사용자에게 A5 Office 365 E5 Office 365 Education 할당되어야 합니다.
 
    라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
@@ -141,3 +141,7 @@ Advanced eDiscovery는 높은 수준에서 다음과 같은 방식으로 EDRM �
 [PDF 파일로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf)
 
 [파일로 Visio 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)
+
+## <a name="training"></a>교육
+
+조직의 기본에 따라 IT 관리자, eDiscovery 관리자 및 규정 준수 조사 팀을 교육하면 Advanced eDiscovery eDiscovery 도구를 사용하여 조직을 보다 Microsoft 365 수 있습니다. Microsoft 365 eDiscovery를 시작하는 데 도움이 되는 다음 리소스를 제공합니다. 조직의 [eDiscovery](/learn/modules/describe-ediscovery-capabilities-of-microsoft-365)및 감사 기능에 대해 Microsoft 365.

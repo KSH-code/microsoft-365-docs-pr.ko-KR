@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: c8c83724d17acff52d588331b3b854e180d5466c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3d0b0f1adac589b910b5fabf2c22d08cbd65f142
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841285"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276932"
 ---
 # <a name="device-images"></a>장치 이미지
 
@@ -25,7 +25,7 @@ ms.locfileid: "52841285"
 새 [디바이스를](#new-devices) 주문하거나 [](#existing-devices) 기존 장치를 재사용하는 경우 디바이스의 이미지가 장치 요구 사항을 충족하는지 보장하는 몇 가지 [옵션이 있습니다.](device-requirements.md#check-hardware-requirements)
 
 ## <a name="new-devices"></a>새 장치
-승인된 제조업체에서 새 [](device-requirements.md#minimum-requirements)장치를 주문할 때 다음 단계에 따라 올바른 이미지 및 소프트웨어 구성으로 장치를 Microsoft Managed Desktop 확인합니다.
+승인된 제조업체에서 새 [](device-requirements.md#minimum-requirements)장치를 주문할 때 다음 단계에 따라 올바른 이미지 및 소프트웨어 구성으로 장치를 Microsoft Managed Desktop 확인합니다. 서비스에 특정 장치 모델을 처음 등록할 계획이면 언제든지 예제를 테스트하여 원하는 사용자 환경을 제공할 수 있도록 해야 합니다. 자세한 내용은 새 장치 [유효성 검사를 참조하세요.](/microsoft-365/managed-desktop/get-started/validate-device)
 
 ### <a name="dell"></a>Dell
 Dell 영업 담당자와 직접 작업합니다. 이 담당자가 승인한 이미지가 Microsoft Managed Desktop 장치에 적용해야 합니다. Dell 장치, 이미지 및 주문 프로세스에 대한 자세한 내용은 에 문의 MMD_at_dell@dell.com.

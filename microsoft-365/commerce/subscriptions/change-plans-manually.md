@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 새 구독을 구입하고 두 구독이 모두 나열되어 활성화되어 있도록 하여 구독을 수동으로 변경합니다.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: f5a44b7a3c01883ed42ca4ed203b63ccf77f9b72
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5db328cb1545279faa1332c144c7a8b60a50fa05
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536109"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256774"
 ---
 # <a name="change-plans-manually"></a>수동으로 계획 변경
 
@@ -57,7 +57,7 @@ ms.locfileid: "52536109"
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>3단계: 새 구독 및 라이선스 확인
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 2. **두 구독이 모두 나열 및 활성 상태인지 확인** 사용자를 이동하는 구독과 사용자를 이동하는 구독이 함께 나열되어야 합니다. 새 구독을 처음 확인할 때 해당 구독이 없는 경우 나중에 다시 시도하세요. 두 구독이 모두 활성 상태인지 검사합니다. 새 구독이 목록에 없는 경우 [또는 활성화되지 않습니다.](#the-new-subscription-isnt-listed-or-isnt-active)
 
@@ -80,9 +80,11 @@ ms.locfileid: "52536109"
 
 ## <a name="step-4-reassign-licenses"></a>4단계: 라이선스 재할당
 
+Office 365 계획에서 Microsoft 365 계획으로 업그레이드할 때 모든 사용자에 대한 라이선스 할당을 변경해야 합니다. 계획을 수동으로 변경할 때 라이선스가 자동으로 할당되지 않습니다.
+
 ### <a name="reassign-a-license-for-one-user"></a>한 사용자에 대한 라이선스 다시 배포
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. 활성 **사용자 페이지에서** 라이선스를 할당할 사용자를 선택합니다.
 
@@ -90,7 +92,7 @@ ms.locfileid: "52536109"
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>여러 사용자에 대한 라이선스를 한 번씩 다시 배정
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. 기존 라이선스를 바꿀 사용자의 이름 옆에 있는 원을 선택합니다.
 

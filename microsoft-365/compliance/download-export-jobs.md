@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-mar2020
 description: 검토 집합에서 문서를 Azure Storage 계정으로 내보은 다음 Azure Storage Explorer 사용하여 로컬 컴퓨터에 다운로드합니다.
-ms.openlocfilehash: dfb3892f31e857d4744f6da337c924efaa87ab11
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: b7638e33a40a2ac46f4bb69b869e4c2cf6d48f65
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574730"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256510"
 ---
 # <a name="export-documents-in-a-review-set-to-an-azure-storage-account"></a>검토 집합의 문서를 Azure Storage 계정으로 내보내기
 
@@ -41,7 +41,7 @@ Advanced eDiscovery 검토 집합에서 문서를 내보낼 때 조직에서 관
 
 첫 번째 단계는 검토 집합에서 문서를 내보내는 내보내기 작업을 만드는 것입니다. 모든 내보내기 옵션에 대한 자세한 지침은 검토 집합에서 문서 [내보내기 를 참조하세요.](export-documents-from-review-set.md) 다음 절차에서는 문서를 조직의 계정으로 내보내기 위한 설정을 Azure Storage 있습니다.
 
-1. 준수 Microsoft 365 센터에서 Advanced eDiscovery 사례를 열고 검토 집합  탭을 선택한 다음 내보낼 검토 집합을 선택합니다.
+1. 다음 Microsoft 365 규정 준수 센터 사례를 Advanced eDiscovery 검토 집합 탭을 선택한  다음 내보낼 검토 집합을 선택합니다.
 
 2. 검토 집합에서 작업 **내보내기 를**  >  **클릭합니다.**
 

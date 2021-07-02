@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 도메인을 Microsoft 365 DNS 레코드를 만드는 데 필요한 값/정보를 수집합니다.
-ms.openlocfilehash: e65d53269f5fb8625b12c4eb22f78516818045be
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: def9fbe201e158f1e071a67caeaf29ed26732f97
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635729"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256846"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>DNS 레코드를 만드는 데 필요한 정보 수집
 
@@ -38,29 +38,29 @@ ms.locfileid: "52635729"
 
 ::: moniker range="o365-worldwide"
 
-1. Microsoft 365 관리 센터에서 설치 도메인  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">페이지로</a> 이동합니다.
+1. In the Microsoft 365 관리 센터, go to the **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 설치 도메인  > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">페이지로</a> 이동합니다.
+1. I관리 센터에서 **설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"> 도메인</a> 페이지로 이동하십시오.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 설치 도메인  > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">페이지로</a> 이동합니다.
+1. I관리 센터에서 **설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank"> 도메인</a> 페이지로 이동하십시오.
 
 ::: moniker-end
     
 2. On the **Domains** page, select your domain, then select **Start setup**. 추가해야 하는 특정 값을 확인하려면 도메인 설정 마법사로 이동합니다.
     
-3. 도메인 **확인 페이지에서** 대신 **TXT 레코드** 추가를 선택하고 다음 을 **선택합니다.**
+3. 도메인 확인 **페이지에서** 도메인의 DNS 레코드에 **TXT 레코드** 추가를 선택하고 계속을 **선택합니다.**
     
 4. 표시된 **TXT 값을 복사합니다.** **MS=msXXXXXXXXX는** 다음과 같습니다. 
     
-5. 모든 [DNS](create-dns-records-at-any-dns-hosting-provider.md)호스팅 공급자에서 DNS 레코드 만들기로 이동하고 등록자 목록에서 DNS 호스트를 선택하여 단계별 지침을 참조하세요.
+5. 도메인을 [연결하려면 DNS](create-dns-records-at-any-dns-hosting-provider.md)레코드 추가로 이동한 다음 단계에 따라 DNS 호스트의 웹 사이트에서 레코드를 추가합니다.
     
 6. DNS 호스트에서 TXT 레코드(또는 MX 레코드)를 만들기 위한 단계를 수행한 다음 도메인이 DNS 호스트에서 다시 Microsoft 365.
 
@@ -70,32 +70,32 @@ ms.locfileid: "52635729"
 
 ::: moniker range="o365-worldwide"
 
-1. Microsoft 365 관리 센터에서 설치 도메인  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">페이지로</a> 이동합니다.
+1. In the Microsoft 365 관리 센터, go to the **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.
 
 ::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 설치 도메인  > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">페이지로</a> 이동합니다.
+1. I관리 센터에서 **설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"> 도메인</a> 페이지로 이동하십시오.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 설치 도메인  > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">페이지로</a> 이동합니다.
+1. I관리 센터에서 **설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank"> 도메인</a> 페이지로 이동하십시오.
 
 ::: moniker-end
     
-2. **도메인** 페이지에서 도메인을 선택합니다. 
+2. **도메인** 페이지에서 도메인을 선택합니다.
     
-3. **필수 DNS 설정** 에서 추가할 DNS 레코드를 볼 수 있습니다.
+3. CHOOSE **Manage DNS**, select More **Options** Add your  >  **own DNS** and select **Continue** to see the DNS records to add.
     
     DNS 호스트에서 변경하는 동안 이 정보를 사용할 수 있도록 유지하여 값을 복사하고 붙여 넣을 수 있습니다.
     
     이 페이지에 나열되는 DNS 레코드 그룹은 **도메인 용도** 아래에 나열된 선택 사항에 따라 달라집니다.
     
-4. DNS 호스팅 공급자에서 [DNS](create-dns-records-at-any-dns-hosting-provider.md)레코드 만들기로 이동한 다음 등록자 목록에서 DNS 호스트를 선택하여 해당 DNS 호스트의 웹 사이트에서 레코드를 추가하는 단계별 지침을 확인하세요.
-    
+4. 도메인을 [연결하려면 DNS](create-dns-records-at-any-dns-hosting-provider.md)레코드 추가로 이동한 다음 단계에 따라 DNS 호스트의 웹 사이트에서 레코드를 추가합니다.
+
 5. DNS 호스트에서 레코드를 만들기 위한 단계를 따릅니다.
 
 ## <a name="related-content"></a>관련 콘텐츠

@@ -18,16 +18,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 형식의 다양한 처리에 대한 개요를 Advanced eDiscovery.
-ms.openlocfilehash: d7969b1ef77fc161cccc85a8dee020ebe21acdb0
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: ad723195ab0ae8a8d1200428bde00e2fcb0094ae
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751515"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256306"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>2016년 8월 오류 처리 Advanced eDiscovery
 
-*처리는* 이미지 파일의 파일 식별, 포함된 문서 및 첨부 파일 확장, 텍스트 추출 및 OCR(광학 문자 인식) 및 해당 콘텐츠의 후속 인덱싱 프로세스입니다.  
+*처리는* 파일 식별, 포함된 문서 및 첨부 파일의 확장, 텍스트 추출, 이미지 파일의 OCR(광학 문자 인식) 및 해당 콘텐츠의 후속 인덱싱 프로세스입니다.  
 
 원본 탭의 사례에 보호자 및 비관리자 데이터 원본을 추가하면  모든 부분적으로 인덱싱된 항목은 Microsoft 365 완전히 검색할 수 있도록 처리됩니다. 마찬가지로 콘텐츠가 Microsoft 365 데이터 원본이 아닌 데이터 원본에서 검토 집합에 Microsoft 365 콘텐츠도 처리됩니다.
 

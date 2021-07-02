@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: acd7f9ee838308b277f725e5b7d80c69c6407b59
-ms.sourcegitcommit: 5d3086da935d4ddc8caf79ff19e3afda812fd061
+ms.openlocfilehash: 76df1ffa7afdeeda9a35744e9e4bfffae4576ca9
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53243962"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276956"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>타사 데이터를 데이터 저장소에 Microsoft 365
 
@@ -107,7 +107,7 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 
 타사 데이터를 보관할 수 Microsoft 365 조직에 대한 보관 서비스를 설정하기 위해 TeleMessage와 함께 작업해야 합니다. 자세한 내용은 타사 데이터 열의 링크를 클릭하여 해당 데이터 형식에 대한 커넥터를 만들기 위한 단계별 지침으로 이동하십시오. 
 
-TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있습니다. 자세한 내용은 이 문서의 미국 정부 클라우드의 데이터 커넥터 섹션을 참조하세요.
+TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있습니다. 자세한 내용은 이 문서의 [미국 정부](#data-connectors-in-the-us-government-cloud) 클라우드의 데이터 커넥터 섹션을 참조하세요.
 
 |타사 데이터  |소송 보류|eDiscovery  |보존 설정  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|

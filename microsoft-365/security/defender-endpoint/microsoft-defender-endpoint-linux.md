@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4175d3bedff86dc7f8cdafc1ff2366ca1c9cffc4
-ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
+ms.openlocfilehash: 008263bfb948d1a2c52031635d074aca323e6764
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52893743"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256894"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
@@ -43,7 +43,7 @@ ms.locfileid: "52893743"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 설치하는 방법
 
-### <a name="prerequisites"></a>전제 조건
+### <a name="prerequisites"></a>필수 조건
 
 - 검색 포털에 Microsoft Defender 보안 센터 액세스
 - 시스템 [관리자를](https://systemd.io/) 사용하여 Linux 배포
@@ -70,7 +70,8 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
   - 타사 관리 도구:
     - [Puppet 구성 관리 도구를 사용하여 배포](linux-install-with-puppet.md)
     - [Ansible 구성 관리 도구를 사용하여 배포](linux-install-with-ansible.md)
-
+    - [구성 관리 도구를 사용하여 배포](linux-deploy-defender-for-endpoint-with-chef.md)
+    
 설치 오류가 발생하면 [Linux의 끝점용 Microsoft Defender에서](linux-support-install.md)설치 실패 문제 해결을 참조하세요.
 
 

@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: 사용자 구독에 파일 Microsoft 365 추가합니다. 추가 파일 저장소를 사용하면 추가 콘텐츠를 온라인 및 SharePoint 저장할 수 OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 14b688e850f62a06c39e4a315d871202e57d70d6
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: dee7debfbd2b624f3bf82bd573c81e7e1373b31e
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635861"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256822"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>구독에 대한 저장소 공간 추가
 
@@ -71,7 +71,7 @@ SharePoint Online 사이트 모음의 저장소 공간이 부족해지면 해당
 
 Office 365 Extra File Storage 추가 기능을 통해 추가 파일  저장소를 이미 구입한 경우 다음 단계를 사용하여 구독에 대한 추가 저장소 공간을 늘리거나 줄이면 됩니다. 저장소를 1기가바이트까지 줄일 수 있습니다. 추가 저장소 공간을 모두 제거하려면 고객 [지원에 문의합니다.](../business-video/get-help-support.md)
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 2. 제품 **탭에서** 추가 기능을 포함하는  Office 365 Extra File Storage 선택합니다.
 3. 제품 세부 정보 페이지의 추가 기능 **섹션에서** 추가 기능 **관리를 선택합니다.**
 4. 추가 기능 관리 **창의** 추가 기능  목록에서 추가 **Office 365 Extra File Storage.**
@@ -87,6 +87,8 @@ Office 365 추가 파일 저장소는 다음 구독에서 사용할 수 있습�
 - Office 365 Enterprise E3
 - Office 365 Enterprise E4
 - Office 365 Enterprise E5
+- Office 365 A3(교직원)
+- Office 365 A5(교직원)
 - 웹용 Office 계획 SharePoint 있는 경우
 - 웹용 Office 계획 SharePoint 있는 경우
 - SharePoint Online 요금제 1

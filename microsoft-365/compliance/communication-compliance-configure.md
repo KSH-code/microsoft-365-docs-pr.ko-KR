@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d76bc36ca8c79d318e1b632517e2a182857627ff
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f099d7bd180843530d23d0bbcee89dc8ae35cdbb
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227346"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256738"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -76,7 +76,7 @@ ms.locfileid: "53227346"
 
 ### <a name="option-1-assign-all-compliance-users-to-the-communication-compliance-role-group"></a>옵션 1: 모든 준수 사용자를 통신 준수 역할 그룹에 할당
 
-1. 조직에서 관리자 계정의 자격 [https://protection.office.com/permissions](https://protection.office.com/permissions) 증명을 사용하여 Microsoft 365 로그인합니다.
+1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) 증명을 사용하여 Microsoft 365 로그인합니다.
 
 2. 보안 및 &amp; 준수 센터에서 사용 **권한 으로 이동 합니다.** 웹에서 역할을 보고 관리하려면 링크를 Office 365.
 
@@ -94,7 +94,7 @@ ms.locfileid: "53227346"
 
 이 옵션을 사용하여 특정 역할 그룹에 사용자를 할당하여 조직의 여러 사용자 사이에서 통신 준수 액세스 및 책임을 구분할 수 있습니다.
 
-1. 조직에서 관리자 계정의 자격 [https://protection.office.com/permissions](https://protection.office.com/permissions) 증명을 사용하여 Microsoft 365 로그인합니다.
+1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) 증명을 사용하여 Microsoft 365 로그인합니다.
 
 2. 보안 및 &amp; 준수 센터에서 사용 **권한 으로 이동 합니다.** 웹에서 역할을 보고 관리하려면 링크를 Office 365.
 

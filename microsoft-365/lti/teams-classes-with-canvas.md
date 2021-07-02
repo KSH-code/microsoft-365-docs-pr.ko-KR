@@ -3,7 +3,7 @@ title: Canvas에서 Microsoft Teams 클래스 사용
 ms.author: v-cichur
 author: cichur
 manager: serdars
-ms.reviewer: amitman
+ms.reviewer: sovaish
 audience: admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Canvas Microsoft Teams 클래스 통합
-ms.openlocfilehash: 8e28cc8401dbf37d6e780b8f56dc300982abd0cc
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 50e4e8ef912a8f19f379bba29b328a5a27358b5c
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137682"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256906"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Canvas에서 Microsoft Teams 클래스 사용
 
@@ -32,18 +32,18 @@ Microsoft Teams 클래스는 교사와 학생이 LMS(Learning Management System)
 Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canvas 관리자 설정을 완료하기 전에 캔버스의 **Microsoft-Teams-Sync-for-Canvas** Azure 앱을 Microsoft Office 365 Microsoft Azure 테넌트에서 승인해야 합니다.
 
 1. Canvas에 로그인합니다.
- 
+
 2. 전역 **탐색에서** 관리자 링크를 선택한 다음 계정을 선택합니다.
 
-3. 관리자 탐색에서 설정 **링크를** 선택한 다음 **통합 탭을** 선택합니다. 
+3. 관리자 탐색에서 설정 **링크를** 선택한 다음 **통합 탭을** 선택합니다.
 
 4. 토글을 Microsoft Teams 동기화를 사용하도록 설정
 
    ![teams-sync](media/teams-sync.png)
 
-5. Microsoft 테넌트 이름 및 로그인 특성을 입력합니다. 
+5. Microsoft 테넌트 이름 및 로그인 특성을 입력합니다.
 
-   Login 특성은 Canvas 사용자를 사용자와 연결하기 위해 Azure Active Directory 사용됩니다. 
+   Login 특성은 Canvas 사용자를 사용자와 연결하기 위해 Azure Active Directory 사용됩니다.
 
 6. 한 **번 설정** 업데이트를 선택합니다.
 
@@ -52,7 +52,7 @@ Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canva
    ![사용 권한](media/permissions.png)
 
 8. **수락을 선택합니다.**
- 
+
 ## <a name="canvas-admin"></a>Canvas Admin
 
 LTI Microsoft Teams 1.3 통합을 설치합니다.
@@ -63,8 +63,8 @@ Canvas 관리자는 사용자 환경 내에 Microsoft Teams 클래스 LTI 앱을
 
 1. 관리자 **설정 앱에**  >  **액세스합니다.**
 
-2. **+ 앱을 선택하여** LTI Teams 추가합니다. 
- 
+2. **+ 앱을 선택하여** LTI Teams 추가합니다.
+
    ![external-apps](media/external-apps.png)
 
 3. 구성 **유형으로 클라이언트 ID를** 선택합니다.
@@ -72,8 +72,8 @@ Canvas 관리자는 사용자 환경 내에 Microsoft Teams 클래스 LTI 앱을
    ![앱 추가](media/add-app.png)
 
 4. 제공된 클라이언트 ID를 입력한 다음 제출을 **선택합니다.**
-   
-   확인을 위해 클라이언트 Microsoft Teams 클래스 LTI 앱 이름을 알 수 있습니다. 
+
+   확인을 위해 클라이언트 Microsoft Teams 클래스 LTI 앱 이름을 알 수 있습니다.
 
 5. **설치** 를 선택합니다.
 

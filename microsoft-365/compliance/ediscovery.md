@@ -1,5 +1,5 @@
 ---
-title: eDiscovery
+title: Microsoft 365 eDiscovery 솔루션
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -7,86 +7,173 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: hub-page
+ms.topic: article
 ms.service: O365-seccomp
+ms.collection:
+- m365-security-compliance
+- m365solution-aed
+- m365initiative-compliance
+- m365solution-overview
 localization_priority: Normal
 search.appverid:
 - SPO160
 - MOE150
 - MET150
-ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
-description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 및 비즈니스용 Skype 대화와 같은 여러 위치에서 찾은 콘텐츠를 검색하고 보유하는 데 사용할 수 있는 다양한 eDiscovery 도구를 제공합니다.
-ms.openlocfilehash: a7f8a4a7de6c03d37ffa7ac1c66113da63a13775
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 및 비즈니스용 Skype 대화와 같은 여러 위치에서 찾은 콘텐츠를 검색하고 내보내는 데 사용할 수 있는 세 가지 eDiscovery 도구가 있습니다. 핵심 eDiscovery 및 Advanced eDiscovery 조사를 관리하는 데 도움이 되는 다양한 추가 기능을 제공합니다.
+ms.openlocfilehash: dc332e1a399588e4a1e969af45da6cff92008461
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925584"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256355"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>Microsoft 365
 
-전자 검색 또는 eDiscovery는 법률 소송에서 증거로 사용할 수 있는 전자 정보를 식별하고 전달하는 프로세스입니다. Microsoft 365 eDiscovery 도구를 사용하여 Exchange Online 사서함, Microsoft 365 그룹, Microsoft Teams, SharePoint Online 및 비즈니스용 OneDrive 사이트, 비즈니스용 Skype 대화 및 Yammer 팀에서 콘텐츠를 검색할 수 있습니다. 콘텐츠 검색 도구를 사용하여 동일한 eDiscovery 검색에서 사서함 및 사이트를 검색할 수 있습니다. 또한 핵심 eDiscovery 사례를 사용하여 사서함 및 사이트에서 찾은 콘텐츠를 식별, 보류 및 내보낼 수 있습니다. 조직에 Office 365 E5 또는 Microsoft 365 E5 구독(또는 관련 E5 추가 기능 구독)이 있는 경우 조직의 Advanced eDiscovery 솔루션을 사용하여 보호자 및 콘텐츠를 분석할 수 Microsoft 365.
-  
-Microsoft 365 제공하는 eDiscovery 도구는 다음과 같습니다.
-  
-- [콘텐츠 검색](#content-search)
+전자 검색 또는 eDiscovery는 법률 소송에서 증거로 사용할 수 있는 전자 정보를 식별하고 전달하는 프로세스입니다. Microsoft 365 eDiscovery 도구를 사용하여 Exchange Online, 비즈니스용 OneDrive, SharePoint Online, Microsoft Teams, Microsoft 365 그룹 및 Yammer 검색할 수 있습니다. 동일한 eDiscovery 검색에서 사서함 및 사이트를 검색한 다음 검색 결과를 내보낼 수 있습니다. Core eDiscovery 사례를 사용하여 사서함 및 사이트에 있는 콘텐츠를 식별, 보류 및 내보낼 수 있습니다. 조직에 Office 365 E5 또는 Microsoft 365 E5 구독(또는 관련 E5 추가 기능 구독)이 있는 경우 Advanced eDiscovery 기능이 풍부한 Advanced eDiscovery 솔루션을 사용하여 콘텐츠를 추가로 관리하고 콘텐츠를 분석할 수 Microsoft 365.
 
-- [핵심 eDiscovery](#core-ediscovery)
+## <a name="ediscovery-solutions"></a>eDiscovery 솔루션
 
-- [고급 eDiscovery](#advanced-ediscovery)
+Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDiscovery 솔루션을 Advanced eDiscovery.
 
-## <a name="content-search"></a>콘텐츠 검색
+![eDiscovery Microsoft 365 주요 기능](..\media\m365-ediscovery-solution-graphic.png)
 
-다음 표에는 콘텐츠 검색 도구를 사용하는 데 도움이 되는 문서의 링크가 포함되어 있습니다.
-  
-|**문서**|**설명**|
-|:-----|:-----|
-|[검색 실행](content-search.md) <br/> |콘텐츠 검색 도구를 사용하여 사서함, 공용 폴더, Microsoft 365 그룹, Microsoft Teams, SharePoint Online 사이트, 비즈니스용 One Drive 위치 및 단일 검색으로 조직의 비즈니스용 Skype 대화를 검색하는 방법을 확인합니다.  <br/> |
-|[키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md) <br/> |조직의 사서함 및 사이트에서 콘텐츠를 검색하는 데 사용할 수 있는 전자 메일 및 파일 속성 및 검색 조건에 대해 자세히 알아보겠습니다.  <br/> |
-|[검색 결과에 대한 키워드 통계 보기](view-keyword-statistics-for-content-search.md) <br/> |검색 통계를 사용하여 하나 이상의 콘텐츠 검색에 대한 통계를 표시 및 비교하고, 검색 쿼리에서 각 키워드에 대한 통계를 반환하도록 새 검색과 기존 검색을 구성하는 방법을 배워야 합니다.  <br/> |
-|[검색 결과 내보내기](export-search-results.md) <br/> |콘텐츠 검색 결과를 내보내는 방법에 대해 자세히 알아보겠습니다.  <br/> |
-|[콘텐츠 검색에 대한 사용 권한 필터링 구성](permissions-filtering-for-content-search.md) <br/> |사용 권한 필터링을 사용하여 eDiscovery 관리자가 조직의 사서함 및 사이트의 하위 집합만 검색할 수 있도록 하는 방법을 배워야 합니다.  <br/> |
-|[검색 보고서 내보내기](export-a-content-search-report.md) <br/> |실제 검색 결과를 내보낼 필요 없이 내보내기 보고서를 다운로드하는 방법을 학습합니다.  <br/> |
-|[콘텐츠 검색 제한](limits-for-content-search.md) <br/> |한 번 실행할 수 있는 최대 검색 수와 같은 콘텐츠 검색 도구의 제한에 대해 자세히 알아보겠습니다.  <br/> |
-|[콘텐츠 검색에서 인덱서되지 않은 항목](partially-indexed-items-in-content-search.md) <br/> |검색을 실행할 때 Exchange 및 SharePoint 검색 결과 통계에 포함할 수 있는 인덱서되지 않은 항목에 대해 자세히 알아보습니다. 검색 결과를 내보낼 때 인덱서되지 않은 항목을 포함할 수도 있습니다.  <br/> |
-|[전자 메일 메시지 검색 및 삭제](search-for-and-delete-messages-in-your-organization.md) <br/> |콘텐츠 검색을 사용하여 조직의 모든 사서함에서 전자  메일 메시지를 검색하고 삭제하는 방법을 학습합니다. 이렇게 하여 유해하거나 위험이 높은 전자 메일을 찾아서 제거하는 데 도움이 될 수 있습니다.  <br/> |
-|[사서함 및 OneDrive 계정에서 사용자 목록 검색](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) <br/> |스크립트를 사용하여 사용자 그룹에 대해 사서함 및 비즈니스용 One Drive 사이트를 검색하는 방법을 학습합니다. 콘텐츠 검색을 만들고 [실행할 때](/onedrive/list-onedrive-urls) 원본 콘텐츠 위치에 사용할 수 있는 전자 메일 주소 목록을 빠르게 생성하는 방법에 대한 단계는 모든 OneDrive 위치 목록 만들기를 참조하세요.  <br/> |
-|[대상 컬렉션에 콘텐츠 검색 사용](use-content-search-for-targeted-collections.md) <br/> |이 문서의 Windows PowerShell 스크립트를 사용하여 콘텐츠 검색을 사용하여 대상 컬렉션을 수행하는 방법을 알아보겠습니다. 대상 컬렉션은 사례(또는 권한 있는 항목)에 응답하는 항목이 해당 폴더에 있다는 것을 확신하기 때문에 특정 폴더를 검색하려는 것을 의미합니다. 이 문서의 스크립트를 사용하여 검색할 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 얻을 수 있습니다.  <br/> |
-|||
-  
-## <a name="core-ediscovery"></a>핵심 eDiscovery
+- **콘텐츠 검색**. 콘텐츠 검색 도구를 사용하여 여러 데이터 Microsoft 365 검색한 다음 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다.
 
-다음 표에는 Core eDiscovery 사례를 사용하는 데 도움이 되는 항목에 대한 링크가 포함되어 있습니다. Core eDiscovery 사례를 사용하여 사례에 액세스할 수 있는 eDiscovery 관리자를 추가하고, 사례와 관련된 콘텐츠 위치에 eDiscovery 보류를 두고, 콘텐츠를 검색하고, 사례에서 검색 결과를 내보낼 수 있습니다.
-  
-|**문서**|**설명**|
-|:-----|:-----|
-|[핵심 eDiscovery 시작](get-started-core-ediscovery.md) |eDiscovery 권한을 할당하고 Core eDiscovery 사례를 만드는 방법에 대해 자세히 알아보습니다. 이 항목에서는 Core eDiscovery 워크플로에 대한 개요도 제공합니다.<br/> |
-|[eDiscovery 권한 할당](assign-ediscovery-permissions.md)|사용자가 콘텐츠를 검색하고, 콘텐츠 위치를 보류하고, Core eDiscovery 사례에서 다른 eDiscovery 관련 작업을 수행할 수 있도록 사용자에게 권한을 할당하는 방법을 설명합니다.|
-|[Core eDiscovery에 대한 준수 경계 설정](set-up-compliance-boundaries.md)|준수 경계를 사용하여 eDiscovery 관리자가 검색할 수 있는 콘텐츠 위치를 제어하는 조직 내에서 논리적 경계를 만드는 방법을 학습합니다.|
-|[eDiscovery 보류 만들기](create-ediscovery-holds.md)|조사하는 사례와 관련된 콘텐츠를 보존하기 위해 Core eDiscovery 사례와 연결된 eDiscovery 보류를 만드는 방법을 알아보겠습니다.|
-|[사례에서 콘텐츠 검색](search-for-content-in-core-ediscovery.md)|사례와 관련된 콘텐츠를 검색하는 방법을 알아보겠습니다. 보류된 콘텐츠 위치를 검색하는 검색을 빠르게 만들 수 있습니다.|
-|[사례에서 콘텐츠 내보내기](export-content-in-core-ediscovery.md)|Core eDiscovery 사례에서 콘텐츠를 내보내고 다운로드하는 방법을 학습합니다.|
-|[사례 닫기, 다시 열기 및 삭제](close-reopen-delete-core-ediscovery-cases.md)|Core eDiscovery 사례의 수명 주기를 관리하는 방법을 학습합니다.|
-|||
-  
-## <a name="advanced-ediscovery"></a>Advanced eDiscovery
+- **Core eDiscovery**. 핵심 eDiscovery는 콘텐츠 검색의 기본 검색 및 내보내기 기능을 토대하여 eDiscovery 사례 및 해당 구성원만 액세스할 수 있는 eDiscovery 관리자를 만들 수 있도록 합니다. Core eDiscovery를 사용하면 검색 및 내보내기 기능을 사례와 연결하고 사례와 관련된 콘텐츠 위치에 eDiscovery 보류를 할 수 있습니다.
 
-Advanced eDiscovery 솔루션(Microsoft 365 *v2.0)은* Advanced eDiscovery eDiscovery 및 분석 기능을 Microsoft 365. 이 eDiscovery 솔루션은 조직의 내부 및 외부 조사에 응답하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공합니다. 또한 법률 팀에서 보유자 및 전체 법적 보유 알림 워크플로를 관리하여 사례에 관련된 보유자와 통신할 수 있습니다.
+- **Advanced eDiscovery**. 이 Advanced eDiscovery 도구는 Core eDiscovery의 기존 사례 관리, 보존, 검색 및 내보내기 기능을 빌드합니다. Advanced eDiscovery 조직의 내부 및 외부 조사에 응답하는 콘텐츠를 식별, 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공합니다. 이를 통해 법률 팀은 보유자 및 법적 보유 알림 워크플로를 관리하여 사례에 관련된 보유자와 통신할 수 있습니다. 이를 통해 라이브 서비스의 데이터를 검토 집합으로 수집하고 복사할 수 있습니다. 워크플로에서 가장 관련성이 높은 콘텐츠를 식별하고 집중할 수 있도록 추가 검토에서 관련이 없는 콘텐츠를 필터링, 검색 및 태그할 수 있습니다. Advanced eDiscovery 분석 및 기계 학습 기반 예측 코딩 모델을 제공하면 조사 범위가 가장 관련성이 높은 콘텐츠로 범위를 좁힐 수 있습니다.
 
-|**문서**|**설명**|
-|:-----|:-----|
-|[Advanced eDiscovery 개요](overview-ediscovery-20.md)|이 문서에서는 Advanced eDiscovery, 이 도구를 사용하는 비즈니스 사유에 대해 간략하게 설명하고, Advanced eDiscovery 아키텍처를 소개하고, 이 문서의 기본 제공 워크플로에 대한 간략한 개요를 Advanced eDiscovery.|
-|[Advanced eDiscovery 설정](get-started-with-advanced-ediscovery.md)|필요한 라이선스 및 필요한 eDiscovery 권한을 Advanced eDiscovery 사용하여 시작하는 방법을 학습합니다.|
-|[사례 만들기 및 관리](create-and-manage-advanced-ediscoveryv2-case.md)|이 문서에서는 사례를 만드는 방법을 보여 Advanced eDiscovery 워크플로에 대한 Advanced eDiscovery 제공합니다.|
-|[보유자 관리](managing-custodians.md)|Advanced eDiscovery. 이 항목은 사례에 관리인을 추가하고, 사례의 관리하고, 감사 로그를 검색하여 Microsoft 365 정보를 보는 단계별 지침으로 연결됩니다.|
-|[보유자 커뮤니케이션 관리](managing-custodian-communications.md)|법적 보유 알림 프로세스 관리에 대해 Advanced eDiscovery. 여기에는 알림 워크플로 만들기 및 자동화와 사용자가 보류 알림을 인정한 방식이 포함됩니다.
-|[처리 오류 관리](processing-data-for-case.md)|고급 인덱싱과 관리 및 비관리 콘텐츠 위치(예: Exchange 사서함, SharePoint 사이트 및 OneDrive 콘텐츠의 인덱싱 오류를 수정하는 방법에 대해 자세히 알아보겠습니다. 오류를 대량으로 수정한 다음 수정된 파일을 검토 집합에 업로드하거나 검토 집합 내의 개별 처리 오류를 재구성할 수 있습니다.|
-|[사례 데이터 수집](collecting-data-for-ediscovery.md)|콘텐츠 위치의 콘텐츠를 검색한 다음 관련 사례 데이터를 검토 집합에 추가하는 방법을 자세히 알아보겠습니다. 콘텐츠를 검토 집합에 복사하면 데이터가 원본 콘텐츠 위치에서 Microsoft에서 제공한 Azure Storage 위치로 복사됩니다. 이렇게 하면 검토 프로세스에 대한 정적 문서 집합이 제공됩니다.|
-|[검토 집합 관리](managing-review-sets.md)|검토 집합에서 사례 데이터를 검토하는 방법을 자세히 알아보습니다. 여기에는 검토 집합의 문서 보기, 쿼리, 필터링 및 태그 지정이 포함됩니다.
-|[검토 집합의 데이터 분석](analyzing-data-in-review-set.md)|검토 집합의 문서에 대한 분석 실행에 대해 자세히 알아보습니다. 실행 중인 분석 결과에는 거의 중복 검색, 전자 메일 스레딩 및 테마 식별이 포함됩니다.|
-|[사례 데이터 내보내기](exporting-data-ediscover20.md)|외부 검토를 위해 사례에서 데이터를 내보내는 방법을 자세히 알아보습니다.|
-|||
+## <a name="comparison-of-key-capabilities"></a>주요 기능 비교
+
+다음 표에서는 콘텐츠 검색, Core eDiscovery 및 콘텐츠 검색에서 사용할 수 있는 주요 기능을 Advanced eDiscovery.
+
+|기능|콘텐츠 검색|핵심 eDiscovery|Advanced eDiscovery|
+|:------|:-------------|:-------------|:-------------|
+|콘텐츠 검색|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
+|키워드 쿼리 및 검색 조건|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
+|검색 통계|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
+|검색 결과 내보내기|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
+|역할 기반 사용 권한|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
+|사례 관리||![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
+|콘텐츠 위치를 법적 보유로 두기||![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
+|Custodian management|||![지원](../media/check-mark.png)|
+|법적 보유 알림|||![지원](../media/check-mark.png)|
+|고급 인덱싱|||![지원](../media/check-mark.png)|
+|오류 수정|||![지원](../media/check-mark.png)|
+|검토 집합|||![지원](../media/check-mark.png)|
+|클라우드 첨부 파일 및 SharePoint 지원|||![지원](../media/check-mark.png)|
+|광학 문자 인식|||![지원](../media/check-mark.png)|
+|대화 스레딩|||![지원](../media/check-mark.png)|
+|컬렉션 통계 및 보고서|||![지원](../media/check-mark.png)|
+|집합 필터링 검토|||![지원](../media/check-mark.png)|
+|태그 지정|||![지원](../media/check-mark.png)|
+|분석|||![지원](../media/check-mark.png)|
+|예측 코딩 모델|||![지원](../media/check-mark.png)|
+|계산된 문서 메타데이터|||![지원](../media/check-mark.png)|
+|장기 실행 작업의 투명성|||![지원](../media/check-mark.png)|
+|고객 소유의 위치로 Azure Storage 내보낼 수 있습니다.|||![지원](../media/check-mark.png)|
+|||||
+
+다음은 각 eDiscovery 기능에 대한 설명입니다.
+
+- **콘텐츠를 검색합니다.** Exchange 사서함, 비즈니스용 One Drive 계정, SharePoint 사이트, Microsoft Teams, Microsoft 365 그룹에 저장된 콘텐츠를 Yammer Teams. 여기에는 사서함 및 사이트에 데이터를 Microsoft 365 다른 앱에 의해 생성된 콘텐츠가 포함됩니다.
+
+- **키워드 쿼리 및 검색 조건**. KQL 키워드 검색 쿼리를 만들어 쿼리 조건과 일치하는 콘텐츠를 검색합니다. 검색 범위를 좁히는 조건을 포함할 수도 있습니다.
+
+- **검색 통계**. 검색을 실행한 후 검색 조건과 일치하는 항목의 총 수 및 크기와 같은 예상 검색 결과의 통계를 볼 수 있습니다. 다른 통계에는 검색 결과가 포함된 상위 콘텐츠 위치와 검색 쿼리의 서로 다른 부분과 일치하는 항목 수가 포함됩니다.
+
+- **검색 결과를 내보낼 수 있습니다.** 2단계 프로세스에서 검색 결과를 조직의 로컬 컴퓨터로 내보낼 수 있습니다. 검색 결과를 내보내면 항목이 Microsoft에서 제공한 Microsoft 365 위치로 Azure Storage 복사됩니다. 그런 다음 로컬 컴퓨터에 해당 항목을 다운로드할 수 있습니다.
+
+- **역할 기반 권한**. RBAC(역할 기반 액세스) 권한을 사용하여 서로 다른 사용자가 수행할 수 있는 eDiscovery 관련 작업을 제어합니다. 사용자가 기본 제공 eDiscovery 관련 역할 그룹을 만들거나 특정 eDiscovery 권한을 할당하는 사용자 지정 역할 그룹을 만들 수 있습니다.
+
+- **사례 관리**. Core eDiscovery 및 Advanced eDiscovery eDiscovery 사례를 사용하여 특정 검색 및 내보내기 기능을 특정 조사에 연결합니다. 사례에 구성원을 할당하여 사례에 액세스하고 사례 내용을 볼 수 있는 사용자도 제어할 수 있습니다.
+
+- **콘텐츠 위치를 법적 보유로 하여 을(를) 을(를) 보유합니다.** 사례의 콘텐츠 위치에 법적 보존을 배치하여 조사와 관련된 콘텐츠를 보존합니다. 이렇게 하면 조사하는 동안 의도하지(또는 의도적으로) 의도적으로 저장된 정보를 안전하게 보호할 수 있습니다.
+
+- **Custodian management**. 사례에서 관심 있는 사람으로 식별한 사람(관리인)과 관리인과 연결되지 않을 수 있는 기타 데이터 원본을 관리합니다.  보유자 및 비관리 데이터 원본을 사례에 추가할 때 이러한 데이터 원본에 대해 법적 보유를 설정하고, 법적 보유 알림 프로세스를 사용하여 보유자와 통신하고, 보유자 및 비관리 데이터 원본을 검색하여 해당 사례와 관련된 콘텐츠를 수집할 수 있습니다.
+
+- **법적 보유 알림**. 사례 관리인과의 통신 프로세스를 관리합니다. 법적 보존 알림은 보유자에게 사례와 관련된 콘텐츠를 보존하도록 지시합니다. 수장들이 수신하고, 읽고, 인정한 통지를 추적할 수 있습니다. Advanced eDiscovery 통신 워크플로를 사용하면 보유자에 대해 보류 알림을 Advanced eDiscovery 경우 초기 알림, 미리 알림 및 에스컬레이터를 만들고 보낼 수 있습니다.
+
+- **고급 인덱싱**. 사례에 양도 및 비관리 데이터 원본을 추가하면 관련 콘텐츠 위치가 다시 인덱싱되어(고급 인덱싱이라는 프로세스) 일부로 인덱싱된 것으로 확인된 모든 콘텐츠는 조사를 위해 데이터를 수집할 때 완전히 검색할 수 있도록 다시 처리됩니다.
+
+- **오류 수정**. 오류 수정 이라는 프로세스를 사용하여 처리 *오류를 수정합니다.* 오류 수정을 통해 고급 인덱싱 중에 콘텐츠가 제대로 처리되지 Advanced eDiscovery 데이터 문제를 수정할 수 있습니다. 예를 들어 암호로 보호된 파일은 잠기거나 암호화된 파일을 처리하지 못합니다. 오류 수정을 사용하여 오류가 있는 파일을 다운로드하고 암호 보호를 제거한 다음 수정된 파일을 업로드할 수 있습니다.
+
+- **검토 집합**. 검토 집합에 관련 데이터를 추가합니다. 검토 집합은 Microsoft 클라우드에서 microsoft에서 제공하는 안전한 Azure Storage 위치입니다. 검토 집합에 데이터를 추가하면 수집된 항목이 원래 콘텐츠 위치에서 검토 집합으로 복사됩니다. 검토 집합은 예측 코딩 모델을 사용하여 관련성 검색, 필터링, 태그, 분석 및 예측할 수 있는 알려진 정적 콘텐츠 집합을 제공합니다. 또한 검토 집합에 추가되는 콘텐츠를 추적하고 보고할 수 있습니다.
+
+- **클라우드 첨부 파일 및** SharePoint 지원. 검토 집합에 콘텐츠를 추가할 때 클라우드 첨부 파일 또는 연결된 파일을 포함할 수 있습니다. 즉, 클라우드 첨부 파일 또는 연결된 파일의 대상 파일이 검토 집합에 추가됩니다. 또한 검토 집합에 문서의 모든 SharePoint 추가할 수 있습니다.
+
+- **OCR(광학 문자 인식)**. 콘텐츠가 검토 집합에 추가되는 경우 OCR 기능은 이미지에서 텍스트를 추출하고 검토 집합에 추가된 콘텐츠와 함께 이미지 텍스트를 포함합니다. 이렇게 하면 검토 집합의 콘텐츠를 쿼리할 때 이미지 텍스트를 검색할 수 있습니다.
+
+- **대화 스레딩**. 사용자 및 Teams Yammer 대화가 검토 집합에 추가될 때 전체 대화 스레드를 수집할 수 있는 옵션이 제공됩니다. 즉, 컬렉션 조건과 일치하는 항목이 포함된 전체 채팅 대화가 검토 집합에 추가됩니다. 이렇게 하면 대화의 컨텍스트에서 채팅 항목을 검토할 수 있습니다.
+
+- **컬렉션 통계 및 보고서입니다.** 초안 컬렉션을 만들거나 검토 집합에 컬렉션을 커밋한 후 검색 조건과 일치하는 항목이 가장 많은 콘텐츠 위치, 검색 쿼리에서 반환된 항목 수 등 검색된 항목에 대한 다양한 통계 집합을 볼 수 있습니다. 결과의 하위 집합을 미리 볼 수 있습니다. 또한 상위 항목에서 추출되어 검토 집합에 별도의 항목으로 추가된 자식 항목의 수가 포함됩니다.
+
+- **집합 필터링을 검토합니다.** 검토 집합에 콘텐츠를 추가한 후 필터를 적용하여 필터링 조건과 일치하는 항목 집합만 표시할 수 있습니다. 그런 다음 필터 집합을 쿼리로 저장하여 저장된 필터를 빠르게 다시 적용할 수 있습니다. 집합 필터링 및 저장된 쿼리를 검토하면 조사와 가장 관련이 있는 항목으로 콘텐츠를 빠르게 선회할 수 있습니다.
+
+- **태그 지정**. 또한 태그는 관련이 없는 콘텐츠를 선형화하고 가장 관련성이 높은 콘텐츠를 식별하는 데 도움이 됩니다. 전문가, 변호사 또는 기타 사용자가 검토 집합의 콘텐츠를 검토할 때 콘텐츠와 관련된 의견은 태그를 사용하여 캡처할 수 있습니다. 예를 들어 불필요한 콘텐츠를 선회하기 위한 경우 사용자는 "응답하지 않는" 등의 태그가 있는 문서에 태그를 지정합니다. 콘텐츠를 검토하고 태그를 지정한 후 검토 집합 쿼리를 만들어 "응답하지 않는" 것으로 태그가 지정된 모든 콘텐츠를 제외할 수 있습니다. 이 프로세스는 eDiscovery 워크플로의 후속 단계에서 응답하지 않는 콘텐츠를 제거합니다.
+
+- **분석**. Advanced eDiscovery 집합 문서를 분석하여 문서를 체계적으로 구성하고 검토할 문서의 양을 줄이는 데 도움이 되는 도구를 제공합니다. *중복에 가까운* 검색 그룹은 텍스트적으로 유사한 문서를 함께 사용하여 검토 프로세스의 효율성을 높입니다. *전자 메일 스레딩은* 전자 메일 스레드에서 대화의 전체 컨텍스트를 지정하는 특정 전자 메일 메시지를 식별합니다. *테마* 기능은 검토 집합 문서에 설명된 테마를 분석하고 관련 테마가 있는 문서를 검토할 수 있도록 문서에 테마를 할당하려고 시도합니다. 이러한 분석 기능은 검토자는 수집된 문서의 일부를 검토할 수 있도록 검토 프로세스의 효율성을 향상하는 데 도움이 됩니다.
+
+- **예측 코딩 모델**. 예측 코딩 모델을 사용하여 대량의 사례 콘텐츠를 검토에 우선 순위를 지정할 수 있는 관련 항목 집합으로 줄이면 됩니다. 이 작업을 수행하기 위해 검토 집합에서 가장 관련성이 높은 항목의 검토 우선 순위를 지정하는 데 도움이 되는 자체 예측 코딩 모델을 만들고 교육할 수 있습니다. 시스템은 교육을 사용하여 검토 집합의 모든 항목에 예측 점수를 적용합니다. 이렇게 하면 예측 점수에 따라 항목을 필터링할 수 있습니다. 이를 통해 가장 관련성 있는(또는 관련이 없는) 항목을 먼저 검토할 수 있습니다.
+
+- **계산된 문서 메타데이터입니다.** 고급 Advanced eDiscovery, 대화 스레딩, 분석 및 예측 코딩과 같은 많은 기능이 집합 문서를 검토하기 위해 메타데이터 속성을 추가합니다. 이 메타데이터에는 특정 기능을 수행한 기능과 관련된 정보가 포함되어 있습니다. 문서를 검토할 때 메타데이터 속성을 필터링하여 필터 조건과 일치하는 문서를 표시할 수 있습니다. 이 메타데이터는 검토 집합 문서를 내보냈을 때 타사 검토 응용 프로그램으로 가져올 수 있습니다.
+
+- **장기 실행 작업의 투명성입니다.** Advanced eDiscovery 작업은 일반적으로 사례에 관리자 추가, 검토 집합에 콘텐츠 추가, 분석 실행, 예측 코딩 모델 교육과 같은 사용자 작업으로 트리거되는 장기 실행 프로세스입니다. MS 지원으로 문제를 에스컬레이터해야 하는 경우 이러한 작업의 상태를 추적하고 지원 정보를 얻을 수 있습니다.
+
+- **고객 소유의 Azure Storage 위치로 내보낼 수 있습니다.** 검토 집합에서 문서를 내보낼 때 조직에서 관리하는 Azure Storage 계정으로 내보낼 수 있습니다. 또한 내보낼 Advanced eDiscovery 사용자 지정할 수 있습니다. 여기에는 PDF 파일에 저장된 파일 메타데이터, 네이티브 파일, 텍스트 파일, 태그 및 편집된 문서 내보내기가 포함됩니다.
+
+## <a name="ediscovery-subscription-comparison"></a>eDiscovery 구독 비교
+
+다음 섹션에서는 콘텐츠 검색, Core eDiscovery 및 콘텐츠 검색에 대한 최소 구독 요구 사항을 Advanced eDiscovery. Core eDiscovery를 지원하는 구독도 콘텐츠 검색을 지원합니다. 또한 콘텐츠를 지원하는 Advanced eDiscovery 콘텐츠 검색 및 Core eDiscovery도 지원됩니다.
+
+### <a name="content-search"></a>콘텐츠 검색
+
+- Microsoft 365 E1 구독
+- Microsoft 365 G1 구독
+- Office 365 Education A1 구독
+
+### <a name="core-ediscovery"></a>핵심 eDiscovery
+
+- Microsoft 365 E3 구독
+- Microsoft 365 G3 구독
+- Microsoft 365 Education A3 또는 Office 365 Education A3 구독
+
+### <a name="advanced-ediscovery"></a>Advanced eDiscovery
+
+- Microsoft 365 E5 또는 Office 365 E5 구독
+- E5 Compliance 추가 기능이 포함된 Microsoft 365 E3 구독
+- Microsoft 365 E3 E5 eDiscovery 및 추가 기능 감사 구독
+- Microsoft 365 G5 구독
+- Microsoft 365 G5 준수 추가 기능을 통해 G5 구독
+- Microsoft 365 G5 eDiscovery 및 추가 기능 감사를 통해 G5 구독
+- Microsoft 365 Education A5 또는 Office 365 Education A5 구독
+
+## <a name="get-started-with-ediscovery"></a>eDiscovery 시작
+
+다음 문서를 참조하여 자세한 내용을 알아보고 eDiscovery 솔루션 사용법을 Microsoft 365.
+
+### <a name="content-search"></a>콘텐츠 검색
+
+- [콘텐츠 검색을 사용하여 콘텐츠 검색](search-for-content.md)
+
+- [검색 만들기](content-search.md)
+
+### <a name="core-ediscovery"></a>핵심 eDiscovery
+
+- [핵심 eDiscovery 시작](get-started-core-ediscovery.md)
+
+### <a name="advanced-ediscovery"></a>Advanced eDiscovery
+
+- [Advanced eDiscovery 개요](overview-ediscovery-20.md)
+
+- [Advanced eDiscovery 설정](get-started-with-advanced-ediscovery.md)
+
+- [사례 만들기 및 Advanced eDiscovery 관리](create-and-manage-advanced-ediscoveryv2-case.md)
 
 ## <a name="ediscovery-roadmap"></a>eDiscovery 로드맵
 
 실행, 롤아웃 또는 개발 중 어떤 eDiscovery 기능을 실행하고 [Microsoft 365 로드맵을 참조합니다.](https://aka.ms/eDiscoRoadMap)
+
+## <a name="training"></a>교육
+
+콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery 기본에서 IT 관리자, eDiscovery 관리자 및 규정 준수 조사 팀을 교육하면 조직이 eDiscovery 도구를 사용하여 더 Microsoft 365 시작할 수 있습니다. Microsoft 365 eDiscovery를 시작하는 데 도움이 되는 다음 리소스를 제공합니다. 조직의 [eDiscovery](/learn/modules/describe-ediscovery-capabilities-of-microsoft-365)및 감사 기능에 대해 Microsoft 365.

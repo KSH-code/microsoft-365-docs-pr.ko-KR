@@ -1,5 +1,5 @@
 ---
-title: ServiceNow 데이터를 보관할 커넥터를 Microsoft 365
+title: ServiceNow 17a-4 DataParser 데이터를 보관할 커넥터를 Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 ServiceNow DataParser 커넥터를 설정하고 사용하여 17a-4에서 ServiceNow 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: 9faa5fb1bf03bb7ab1e97b0bbd24aad4c38e91ae
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 992f34864f0de7ddff1f8159e9970157bcffb964
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097165"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276968"
 ---
 # <a name="set-up-a-connector-to-archive-servicenow-data-preview"></a>ServiceNow 데이터를 보관할 커넥터 설정(미리 보기)
 

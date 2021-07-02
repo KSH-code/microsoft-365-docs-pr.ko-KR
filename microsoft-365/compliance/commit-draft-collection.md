@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 초안 컬렉션을 만들고 이 컬렉션을 다시 작성한 후 검토 집합으로 커밋할 수 있습니다. 초안 컬렉션을 커밋하면 수집된 항목이 사례의 검토 집합에 추가됩니다. 수집된 항목이 검토 집합에 들어오면 분석, 검토 및 내보낼 수 있습니다.
-ms.openlocfilehash: e28592e7aac289bfc0cc29d312963fa21d9f8fd4
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: dceb661d9586e324482dc4f56bce12fafaf9b251
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838889"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276980"
 ---
 # <a name="commit-a-draft-collection-to-a-review-set-in-advanced-ediscovery"></a>초안 컬렉션을 임시 검토 집합에 Advanced eDiscovery
 
@@ -29,7 +29,7 @@ ms.locfileid: "50838889"
 
 ## <a name="commit-a-draft-collection-to-a-review-set"></a>검토 집합에 초안 컬렉션 사용
 
-1. 준수 Microsoft 365 센터에서 Advanced eDiscovery 사례를 연 다음 컬렉션 탭을  선택하여 해당 사례의 컬렉션 목록을 표시합니다.
+1. 이 Microsoft 365 규정 준수 센터 사례를 Advanced eDiscovery 컬렉션 탭을 선택하여 해당 사례의 컬렉션 목록을 표시합니다. 
 
    ![사례의 컬렉션 목록](../media/CommitDraftCollections1.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "50838889"
 
    1. 항목 **수집을 선택하고 검토 집합에 추가를 선택합니다.**
 
-   2. 컬렉션을 제출한 후 새로 작성된 검토 집합에 컬렉션을 추가할지 아니면 기존 검토 집합에 추가할지 여부를 결정하십시오. 결정에 따라 이 섹션을 완료합니다.
+   2. 컬렉션을 제출한 후 새 검토 집합에 컬렉션을 추가할지 아니면 기존 검토 집합에 추가할지 여부를 결정하십시오. 결정에 따라 이 섹션을 완료합니다.
 
    3. 추가 컬렉션 설정을 구성합니다.
 
@@ -73,6 +73,8 @@ ms.locfileid: "50838889"
 ## <a name="what-happens-after-you-commit-a-draft-collection"></a>초안 컬렉션을 커밋한 후 발생하는 일
 
 초안 컬렉션을 검토 집합에 커밋하면 다음과 같은 상황이 발생하게 됩니다.
+
+- 컬렉션을 커밋하기 위해 새 검토 집합을 만든 경우 검토 집합이 만들어지며 이 경우 검토 집합 **탭에** 표시됩니다. 새 검토 집합의 상태는 준비 **입니다.** 이 상태 값은 검토 집합이 만들어졌다는 의미입니다. 컬렉션이 검토 집합에 추가된 것은 아니며, 컬렉션의 항목을 검토 집합에 추가하는 상태가 컬렉션 **탭에** 표시됩니다.
 
 - 컬렉션 검색 쿼리가 다시 실행됩니다. 즉, 검토 집합에 복사된 실제 검색 결과는 컬렉션 검색이 마지막으로 실행될 때 반환된 예상 결과와 다를 수 있습니다.
 

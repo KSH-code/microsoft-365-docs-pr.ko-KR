@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6d92cbacba72210c6accbbb1e5ecf25de660fc3c
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b56a18e1b35b65629318ab29f2189ef1f73373f5
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730537"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256918"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 지표 만들기
 
@@ -80,10 +80,13 @@ ms.locfileid: "52730537"
 
 >[!IMPORTANT]
 >- 일반적으로 파일 블록은 몇 분 이내에 적용 및 제거되지만 30분까지 걸릴 수 있습니다.
->- 충돌하는 파일 표시기 정책이 있는 경우 보다 안전한 정책의 적용 정책이 적용됩니다. 예를 들어 두 해시 유형이 동일한 파일을 정의하는 경우 SHA-256 파일 해시 표시기 정책이 MD5 파일 해시 표시기 정책보다 우선합니다.
->- EnableFileHashComputation 그룹 정책을 사용하지 않도록 설정하면 IoC 파일의 차단 정확도가 줄어듭니다. 그러나 EnableFileHashComputation을 사용하도록 설정하면 장치 성능에 영향을 줄 수 있습니다.
->    - 예를 들어 네트워크 공유에서 로컬 장치(특히 VPN 연결을 통해)에 큰 파일을 복사하면 장치 성능에 영향을 미치게 됩니다.
->    - EnableFileHashComputation 그룹 정책에 대한 자세한 내용은 [Defender CSP를 참조하세요.](/windows/client-management/mdm/defender-csp)
+> 
+>- 적용 유형과 대상이 동일한 충돌하는 파일 IoC 정책이 있는 경우 보다 안전한 해시 정책이 적용됩니다. SHA-256 파일 해시 IoC 정책은 SHA-1 파일 해시 IoC 정책을 통해 이기며, 해시 유형이 동일한 파일을 정의하는 경우 MD5 파일 해시 IoC 정책에서 이기게 됩니다. 이는 장치 그룹에 관계없이 항상 해당됩니다. 
+>   다른 모든 경우 적용 대상이 동일한 충돌하는 파일 IoC 정책이 모든 장치 및 디바이스 그룹에 적용될 경우 디바이스 그룹의 정책이 이기게 됩니다. 
+>   
+>- EnableFileHashComputation 그룹 정책을 사용하지 않도록 설정하면 IoC 파일의 차단 정확도가 줄어듭니다. 그러나 사용하도록 `EnableFileHashComputation` 설정하면 장치 성능에 영향을 줄 수 있습니다. 예를 들어 네트워크 공유에서 로컬 장치(특히 VPN 연결을 통해)에 큰 파일을 복사하면 장치 성능에 영향을 미치게 됩니다.
+>
+>   EnableFileHashComputation 그룹 정책에 대한 자세한 내용은 [Defender CSP를 참조하세요.](/windows/client-management/mdm/defender-csp)
 
 ## <a name="policy-conflict-handling"></a>정책 충돌 처리  
 
@@ -103,7 +106,7 @@ Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 
 적용 유형과 대상이 동일한 충돌하는 파일 IoC 정책이 있는 경우 더 안전한(더 긴) 해시 정책이 적용됩니다. 예를 들어 두 해시 유형이 동일한 파일을 정의하는 경우 SHA-256 파일 해시 IoC 정책이 MD5 파일 해시 IoC 정책에서 이기게 됩니다.
 
-취약한 위협 및 취약성 관리 차단 기능은 적용을 위해 IoC 파일을 사용하며 위의 충돌 처리 순서를 따르게 됩니다.
+위협 및 취약성 관리 응용 프로그램 차단 기능은 적용을 위해 IoC 파일을 사용하며 위의 충돌 처리 순서를 따르게 됩니다.
 
 ### <a name="examples"></a>예제
 
@@ -111,8 +114,8 @@ Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 |--|--|--|--|
 |공격 표면 축소 파일 경로 제외 |허용 |차단 |차단
 |공격 표면 감소 규칙 |차단 |허용 |허용
-|Windows Defender Application Control |허용 |차단 |허용 |
-|Windows Defender Application Control |차단 |허용 |차단
+|Windows Defender 응용 프로그램 제어 |허용 |차단 |허용 |
+|Windows Defender 응용 프로그램 제어 |차단 |허용 |차단
 |Microsoft Defender 바이러스 백신 제외 |허용 |차단 |허용
 
 ## <a name="see-also"></a>참고 항목

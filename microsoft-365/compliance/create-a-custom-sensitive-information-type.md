@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정하고, 제거하고, 테스트하는 & 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 451b5b222b06ba1ec9770a5e49cc66c5c0f68719
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: e067bc502267e918bd355d9bf8a1982795255846
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227154"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256726"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -182,10 +182,16 @@ Luhn 알고리즘을 전달해야 하는 정규식을 포함하는 사용자 지
 
 
 > [!NOTE]
-> Microsoft 365 Information Protection은 다음에 대해 미리 보기 더블 바이트 문자 집합 언어를 지원합니다.
+> Microsoft 365 정보 보호는 다음에 대해 더블 Byte 문자 집합 언어를 지원합니다.
 > - 중국어(간체)
 > - 중국어(번체)
 > - 한국어
 > - 일본어
 >
 >이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
+
+> [!TIP]
+> 중국어/일본어 문자와 단일 Byte 문자를 포함하는 패턴을 검색하거나 중국어/일본어 및 영어가 포함된 패턴을 검색하기 위해 키워드 또는 regex의 두 변형을 정의합니다. 예를 들어 "机密的document"라는 키워드를 검색하기 위해 키워드의 두 변형을 사용하세요. 한 텍스트는 일본어와 영어 텍스트 사이에 공백이 있으며, 다른 텍스트는 일본어와 영어 텍스트 사이에 공백이 없습니다. 따라서 SIT에 추가할 키워드는 "机密的" 및 "机密的 문서"입니다. 마찬가지로 ," 구문을 검색하기 위해 두 가지 변형을 사용할 수 있습니다. "リリリリンリ 2020" 및 "囗圛
+> 이중 하이픈 또는 더블 하이픈을 사용하여 regex를 만드는 동안 같은 두 문자를 모두 이스케이프하면 하이픈이나 마침차가 regex에서 이스케이프됩니다. 참조를 위한 샘플 regex는 다음과 같습니다.
+    - (?<!\d) ([4][0-9] {3} [ \- ?\-\t]*[0-9]{4}
+> 키워드 목록에서 단어 일치 대신 문자열 일치를 사용하는 것이 좋습니다.

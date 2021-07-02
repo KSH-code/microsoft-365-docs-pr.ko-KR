@@ -19,13 +19,13 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 description: 비즈니스용 구독에 대한 사용자 라이선스 요청을 검토하고 승인하거나 거부하는 Microsoft 365 방법을 알아보습니다.
-ms.date: 08/07/2020
-ms.openlocfilehash: 6cbfd81f4f6deba642729f1fef0b826b07a99f56
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.date: 06/07/2021
+ms.openlocfilehash: 23258d21ebb413c56323aa4dab25cee60baf2be0
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535677"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256810"
 ---
 # <a name="manage-license-requests"></a>라이선스 요청 관리
 
