@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 보안 Microsoft 365 규정 준수 기능을 배포하고 개인 정보를 보호합니다.
-ms.openlocfilehash: 479774069844964e2e603dee5efbc7b8ef867918
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 7325aad0392d559703199c81f2544a582d7eadcb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229266"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287750"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 보호 규정을 준수하는 정보 보호
 
@@ -66,7 +66,6 @@ Microsoft 365 정보 보호 체계를 시작하는 데 도움이 되는 다음 �
 
 Microsoft [정보 보호 솔루션에는](../compliance/information-protection.md) 다양한 통합 기능이 Microsoft 365, Microsoft Azure 및 Microsoft Windows. 이 Microsoft 365 정보 보호 솔루션에는 다음이 포함됩니다.
 
-- [고객 키를 사용한 서비스 암호화](../compliance/customer-key-overview.md)
 - [중요한 정보 유형(데이터](../compliance/sensitive-information-type-entity-definitions.md) 개인 정보 보호 위험 평가 및 중요한 항목 식별 문서에서 [설명)](information-protection-deploy-assess.md)
 - [민감도 레이블](../compliance/sensitivity-labels.md)
   - 서비스/컨테이너 수준

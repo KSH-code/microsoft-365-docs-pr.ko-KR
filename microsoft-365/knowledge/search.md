@@ -1,7 +1,7 @@
 ---
-title: Microsoft Search를 사용하여 Microsoft Viva 항목에서 항목 찾기
-ms.author: chuckedmonson
-author: chucked
+title: Microsoft Microsoft Search 사용하여 Microsoft Viva 항목의 항목 찾기
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -10,16 +10,16 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Microsoft Viva에서 항목을 검색하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3bd247bfacc6a85bb19c8f4eeedb5aad8662e60e
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: a60d1e04c67eb42573bb566a5667f35227def2ad
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908068"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287260"
 ---
-# <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Search를 사용하여 Microsoft Viva 항목에서 항목 찾기
+# <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Microsoft Search 사용하여 Microsoft Viva 항목의 항목 찾기
 
-Viva 항목 사용자는 자신의 SharePoint 항목을 통해 항목을 찾을 수 있는 반면, Microsoft Search를 통해 항목을 찾을 수도 있습니다. 
+Viva 항목 사용자는 자신의 SharePoint 주제를 통해 항목을 찾을 수 있는 반면, 사용자는 해당 항목을 통해 항목을 찾을 Microsoft Search. 
 
 ## <a name="topic-answer"></a>항목 답변
 
@@ -41,13 +41,13 @@ Word, PowerPoint, Outlook 및 Excel 검색 결과가 발견될 때 항목 응답
 
 ## <a name="acronyms"></a>머리글자어
 
-Viva 항목에서는 항목을 수동으로 편집하여 이 항목의 약어를 대체 이름으로 *포함할 수 있습니다.* 이렇게 하면 항목의 약어로만 검색하는 사용자가 Microsoft Search를 통해 항목 답변을 찾을 수 있습니다.
+Viva 항목에서는 항목을 수동으로 편집하여 이 항목의 약어를 대체 이름으로 *포함할 수 있습니다.* 이렇게 하면 항목의 약어로만 검색하는 사용자가 검색을 통해 항목의 답변을 찾을 수 Microsoft Search.
 
-[약어 답변은](/microsoftsearch/manage-acronyms) Microsoft Search를 통해 제공되는 기능으로 Viva 항목과는 별도로 관리됩니다.
+[약어 대답은](/microsoftsearch/manage-acronyms) 이 기능을 통해 제공되고 Microsoft Search Viva 항목과는 별도로 관리됩니다.
 
 ## <a name="bookmarks-and-topics"></a>책갈피 및 항목
 
-[책갈피는](/microsoftsearch/manage-bookmarks) 검색만 사용하여 중요한 사이트와 도구를 빠르게 찾을 수 있도록 하는 Microsoft 검색 기능입니다(예: Microsoft 365 테넌트 외부의 외부 사이트에 있는 여행 예약 도구). 검색 관리자는 Microsoft 365 관리 센터에서 만들어집니다. 
+[책갈피는](/microsoftsearch/manage-bookmarks) 검색만 Microsoft Search 중요한 사이트 및 도구를 빠르게 찾을 수 있도록 하는 주요 기능입니다(예: Microsoft 365 테넌트 외부의 외부 사이트에 있는 여행 예약 도구). 검색 관리자는 검색 관리자를 통해 Microsoft 365 관리 센터. 
 
 출장 예약에 대한 정보를 찾고 있는 사용자의 경우:
 

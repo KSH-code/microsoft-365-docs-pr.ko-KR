@@ -13,16 +13,16 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Microsoft 365, 목록, SharePoint 및 SharePoint Syntex 솔루션으로 계약을 Microsoft Teams 방법을 Power Automate.
-ms.openlocfilehash: d3be12dbddabbcddc41f7c9d882db5473350266e
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: bc2570b08add2fa93637b9f64931c5903795a079
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054766"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287320"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Microsoft 365 솔루션을 사용하여 계약 관리
 
-이 문서에서는 조직의 구성 요소 및 구성 요소를 사용하여 조직에 SharePoint Syntex 관리 솔루션을 만드는 Microsoft 365. 또한 고유한 비즈니스 요구에 맞는 솔루션을 계획하고 만드는 데 도움이 되는 프레임워크를 제공합니다. 이 솔루션이 비즈니스 요구에 전체적으로 적합하지 않은 경우에도 사용자 지정 계약 관리 솔루션을 만들기 위한 계획에서 솔루션의 일부를 채택할 수 있습니다.
+이 문서에서는 조직의 구성 요소 및 구성 요소를 사용하여 조직에 SharePoint Syntex 관리 솔루션을 만드는 Microsoft 365. 또한 고유한 비즈니스 요구에 맞는 솔루션을 계획하고 만드는 데 도움이 되는 프레임워크를 제공합니다. 이 솔루션이 계약 관리에 대해 설명하는 경우에도 작업 또는 송장의 설명과 같은 다른 문서 관리 솔루션을 만들 수 있습니다.
 
 *이 콘텐츠 집합은 Microsoft의 최신 Microsoft 365 솔루션 전략 팀과 함께 Thomas Molbach가 개발한 새로운 솔루션에 대해 문서화합니다.*
 
@@ -65,10 +65,10 @@ ms.locfileid: "53054766"
       ![계약의 예입니다.](../media/content-understanding/contract.png)
 
 3. Microsoft Teams 모든 이해 관계자는 문서 라이브러리의 모든 계약이 승인 또는 거부를 위해 표시되는 보안 Teams 채널의 구성원입니다. 이 Teams 사용하여 새 계약을 검토해야 하는 경우 모든 이해 관계자에게 알림을 제공합니다.
- 
-4. 이 Power Automate 사용하여 계약은 Teams 채널의 승인 프로세스를 통해 이동됩니다. 구성원이 계약을 승인하면 계약 상태가 승인으로 변경되고, 모든 구성원이 Teams 게시를 통해 알림을 하게 되고, 계약이 지급될 준비가 됐는지 표시하는 품목이 만들어집니다. 이 프로세스를 확장하여 결제를 위해 타사 금융 응용 프로그램에 직접 쓸 수 있습니다.
 
-5.  구성원이 계약을 거부하면 상태가 거부로 변경되고 모든 구성원은 해당 게시물을 통해 Teams 않습니다.
+4. 이 Power Automate 사용하여 계약은 Teams 채널의 승인 프로세스를 통해 이동됩니다. 구성원이 계약을 승인하면 계약 상태가 승인됨으로 변경되고, 모든 구성원은 Teams 게시를 통해 알림을 하게 되고, 계약이 지급 준비가 됨을 보여 줄 품목이 만들어집니다. 이 프로세스를 확장하여 결제를 위해 타사 금융 응용 프로그램에 직접 쓸 수 있습니다.
+
+5. 구성원이 계약을 거부하면 상태가 거부로 변경되고 모든 구성원은 해당 게시물을 통해 Teams 않습니다.
 
 6. 이 솔루션의 최종 결과는 조직에 대한 자동화된 비즈니스 프로세스입니다. 직원은 문서의 승인 워크플로를 시작하고 Teams 사용자 지정 타일 보기를 쉽게 사용할 수 있습니다. 
 
@@ -78,9 +78,9 @@ ms.locfileid: "53054766"
 
 이 솔루션은 Microsoft 365 Enterprise(E1, E3, E5, F3) 또는 비즈니스(기본, 표준 또는 Premium) 라이선스의 일부로 사용할 수 있는 다음 기능을 사용 합니다.
 
--   Microsoft SharePoint Syntex
--   Microsoft Teams
--   Power Automate
+- Microsoft SharePoint Syntex
+- Microsoft Teams
+- Power Automate
 
 ## <a name="create-the-solution"></a>솔루션 만들기
 

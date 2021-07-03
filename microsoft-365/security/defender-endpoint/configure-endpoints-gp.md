@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 80794a9d5e4da0d2da74fc714ffd1e0ceab34c8f
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: 24b24c634eac7ee125810d96587c9c1e209b6491
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105689"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286960"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드 
 
@@ -36,28 +36,25 @@ ms.locfileid: "53105689"
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsgp-abovefoldlink)
 
-
 > [!NOTE]
 > GP(그룹 정책) 업데이트를 사용하여 패키지를 배포하려면 Windows Server 2008 R2 이상에 있어야 합니다.
-> 
+>
 > Windows Server 2019의 경우 그룹 정책 기본 설정에서 만드는 XML 파일의 NT AUTHORITY\Well-Known-System-Account를 NT AUTHORITY\SYSTEM으로 대체해야 할 수 있습니다.
 
 ## <a name="onboard-devices-using-group-policy"></a>그룹 정책을 사용하여 장치 온보딩
 
 [![다양한 배포 경로를 보여 주며 PDF 이미지](images/onboard-gp.png)](images/onboard-gp.png#lightbox)
 
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다. 
-
-
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
 1. 서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 에서 패키지를 얻을 [Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
- 
+
     1. 탐색 창에서 **온보 설정**  >  **선택합니다.**
 
     1. 운영 Windows 10 로 실행을 선택합니다.
-    
+
     1. 배포 **방법 필드에서** 그룹 정책 **을 선택합니다.**
-    
+
     1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
 2. 디바이스에서 액세스할 수 있는 .zip 읽기 전용 공유 위치로 파일 콘텐츠의 추출 *OptionalParamsPolicy라는* 폴더와 *WindowsDefenderATPOnboardingScript.cmd* 파일이 있습니다.
@@ -76,7 +73,7 @@ ms.locfileid: "53105689"
 
 9. 확인을 **클릭하고** 열려 있는 GPMC 창을 닫습니다.
 
->[!TIP]
+> [!TIP]
 > 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 Endpoint 디바이스용 Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
 ## <a name="additional-defender-for-endpoint-configuration-settings"></a>끝점 구성 설정에 대한 추가 Defender
@@ -85,31 +82,31 @@ ms.locfileid: "53105689"
 GP(그룹 정책)를 사용하여 심층 분석 기능에 사용되는 샘플 공유 설정과 같은 설정을 구성할 수 있습니다.
 
 ### <a name="configure-sample-collection-settings"></a>샘플 수집 설정 구성
-1.  GP 관리 장치에서 구성 패키지에서 다음 파일을 복사합니다.
+
+1. GP 관리 장치에서 구성 패키지에서 다음 파일을 복사합니다.
 
     - _AtpConfiguration.admx를_ _C: Windows \\ 정책 \\ 정의에 복사_
 
     - _AtpConfiguration.adml을_ _C: Windows \\ \\ PolicyDefinitions \\ en-US에 복사_
 
     그룹 정책 관리 템플릿에 대한 중앙 저장소를 사용하는 경우 [구성](https://support.microsoft.com/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra)패키지에서 다음 파일을 복사합니다.
-    
+
     - _AtpConfiguration.admx를_ _\\ \\ \<forest.root\> \\ SysVol \\ \<forest.root\> \\ 정책 \\ 정책데 정의에 복사_
 
     - _AtpConfiguration.adml을_ _\\ \\ \<forest.root\> \\ SysVol \\ \<forest.root\> \\ 정책 \\ 정책데 정의itions \\ en-US에 복사_
 
-2.  그룹 정책 [관리 콘솔을 열고](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11)구성할 GPO를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
+2. 그룹 정책 [관리 콘솔을 열고](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11)구성할 GPO를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
 
-3.  그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하십시오.**
+3. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하십시오.**
 
-4.  **정책,** 관리 **템플릿을 클릭합니다.**
+4. **정책,** 관리 **템플릿을 클릭합니다.**
 
-5.  구성 **Windows 클릭한** 다음 **SmartScreen Windows Defender 클릭합니다.**
+5. 구성 **Windows 클릭한** 다음 **SmartScreen Windows Defender 클릭합니다.**
 
-6.  장치에서 샘플 공유를 사용하도록 설정하거나 사용하지 않도록 선택하십시오.
+6. 장치에서 샘플 공유를 사용하도록 설정하거나 사용하지 않도록 선택하십시오.
 
->[!NOTE]
+> [!NOTE]
 > 값을 설정하지 않은 경우 기본값은 샘플 컬렉션을 사용하도록 설정하는 것입니다.
-
 
 ## <a name="other-recommended-configuration-settings"></a>기타 권장 구성 설정
 
@@ -121,39 +118,39 @@ GP(그룹 정책)를 사용하여 심층 분석 기능에 사용되는 샘플 �
 
 **정책 위치:** \Windows 구성 요소\Windows Defender ATP
 
-정책 | 설정 
+정책 | 설정
 :---|:---
-샘플 컬렉션 사용\사용 안 하도록 설정|   사용 - "컴퓨터의 샘플 수집 사용" 확인
+샘플 컬렉션 사용\사용 안 하도록 설정| 사용 - "컴퓨터의 샘플 수집 사용" 확인
 
-<br/>
+<br>
 
 **정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신
 
-정책 | 설정 
+정책 | 설정
 :---|:---
 잠재적으로 원치 않는 응용 프로그램에 대한 검색 구성 | 사용, 차단
 
-<br/>
+<br>
 
 **정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신\MAPS
 
-정책 | 설정 
+정책 | 설정
 :---|:---
 Microsoft MAPS에 가입 | 사용, 고급 지도
 추가 분석이 필요한 경우 파일 샘플 보내기 | 사용, 안전한 샘플 보내기
 
-<br/>
+<br>
 
 **정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신\실시간 보호
 
-정책 | 설정 
+정책 | 설정
 :---|:---
 실시간 보호 끄기|사용 안 함
 동작 모니터링 켜기|사용
 다운로드한 모든 파일 및 첨부 파일 검색|사용
 컴퓨터에서 파일 및 프로그램 활동 모니터링|사용
 
-<br/>
+<br>
 
 **정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신\검사
 
@@ -163,8 +160,7 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 :---|:---
 예약된 검사를 실행하기 전에 최신 바이러스 및 스파이웨어 보안 인텔리전스 확인 |사용
 
-
-<br/>
+<br>
 
 **정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신\Microsoft Defender Exploit Guard\공격 표면 감소
 
@@ -182,15 +178,12 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 
    ![공격 표면 축소 구성 이미지](images/asr-guid.png)
 
-
-
-정책 | 설정 
+정책 | 설정
 :---|:---
 제어된 폴더 액세스 구성| 사용, 감사 모드
 
-
-
 ## <a name="offboard-devices-using-group-policy"></a>그룹 정책을 사용하여 디바이스 오프보드
+
 보안상의 이유로, 오프보드 장치에 사용된 패키지는 다운로드한 날짜 30일 후에 만료됩니다. 장치에 전송된 만료된 오프보더 패키지는 거부됩니다. 오프보더 패키지를 다운로드할 때 패키지 만료 날짜에 대한 알림을 하게 되고 패키지 이름에도 포함됩니다.
 
 > [!NOTE]
@@ -201,7 +194,7 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
     1. 탐색 창에서 **오프보더 설정**  >  **선택합니다.**
 
     1. 운영 Windows 10 로 실행을 선택합니다.
-    
+
     1. 배포 **방법 필드에서** 그룹 정책 **을 선택합니다.**
 
     1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
@@ -225,11 +218,12 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 > [!IMPORTANT]
 > 오프보더링을 통해 디바이스가 포털에 센서 데이터 전송을 중지하지만, 디바이스에서 전송한 모든 경고에 대한 참조를 포함하여 장치의 데이터는 최대 6개월 동안 보존됩니다.
 
-
 ## <a name="monitor-device-configuration"></a>장치 구성 모니터링
+
 그룹 정책을 사용하는 경우 디바이스에서 정책 배포를 모니터링할 수 있는 옵션이 없습니다. 모니터링은 포털에서 직접 수행하거나 다른 배포 도구를 사용하여 수행될 수 있습니다.
 
 ## <a name="monitor-devices-using-the-portal"></a>포털을 사용하여 장치 모니터링
+
 1. 으로 [Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
 2. 장치 **목록을 클릭합니다.**
 3. 장치가 나타나는지 확인
@@ -237,8 +231,8 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 > [!NOTE]
 > 디바이스 목록 에 장치가 표시될 때 며칠이 **걸릴 수 있습니다.** 여기에는 정책이 장치에 배포되는 데 걸리는 시간, 사용자가 로그온하는 데 걸리는 시간 및 끝점에서 보고를 시작하는 데 걸리는 시간이 포함됩니다.
 
+## <a name="related-topics"></a>관련 항목
 
-## <a name="related-topics"></a>관련 주제
 - [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
 - [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)

@@ -19,49 +19,33 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8817ed09673ec23d0a41d680942276bcb1fe297d
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: a6989d8f57123a35e64b89cfe9148cae33c5758e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809146"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287506"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
 사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 그렇다면 Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Microsoft 365에서 다음과 같은 유형의 [사용자 및 관리자 활동](#audited-activities)을 검색할 수 있기 때문입니다.
 
 - SharePoint Online 및 비즈니스용 OneDrive의 사용자 활동
-
 - Exchange Online(Exchange 사서함 감사 로깅)의 사용자 활동
-
 - SharePoint Online의 관리 활동
-
 - Azure Active Directory(Microsoft 365용 디렉터리 서비스)의 관리자 활동
-
 - Exchange Online(Exchange 관리자 감사 로깅)의 관리자 활동
-
 - 보안 및 준수 센터에서 eDiscovery 활동
-
 - Power BI의 사용자 및 관리자 활동
-
 - Microsoft Teams의 사용자 및 관리자 활동
-
 - Dynamics 365의 사용자 및 관리자 활동
-
 - Yammer의 사용자 및 관리자 활동
-
 - Microsoft Power Automate의 사용자 및 관리자 활동
-
 - Microsoft Stream의 사용자 및 관리자 활동
-
 - Microsoft Workplace Analytics의 분석가 및 관리자 활동
-
 - Microsoft Power Apps의 사용자 및 관리자 활동
-
 - Microsoft Forms의 사용자 및 관리자 활동
-
 - SharePoint Online 또는 Microsoft Teams를 사용하는 사이트의 민감도 레이블에 대한 사용자 및 관리자 활동
-
 - 브리핑 전자 메일 및 MyAnalytics의 관리자 활동
 
 ## <a name="requirements-to-search-the-audit-log"></a>감사 로그를 검색하는 데 필요한 요구 사항
@@ -73,6 +57,7 @@ ms.locfileid: "52809146"
   ```powershell
   Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
   ```
+
   *UnifiedAuditLogIngestionEnabled* 에 대한 `True` 값은 로그 검색이 켜져 있는 것을 나타냅니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
 - 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 참고 Office 365 및 Microsoft 365의 전역 관리자는 자동으로 Exchange Online 서비스에서 조직 관리 역할 그룹의 구성원이 됩니다. 최소 권한 수준을 사용하여 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고, 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음, 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
@@ -114,8 +99,12 @@ ms.locfileid: "52809146"
 
 - 감사 로그 검색 결과에 해당 감사 로그 레코드가 반환되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다. 다음 표에는 Office 365의 여러 서비스가 표시되는 데 걸리는 시간이 나와 있습니다.
 
+  <br>
+
+  ****
+
   |Microsoft 365 서비스 또는 기능|30분|24시간|
-  |:-----|:-----:|:-----:|
+  |---|:---:|:---:|
   |Office 365용 Defender 및 위협 인텔리전스|![확인 표시](../media/checkmark.png)||
   |Azure Active Directory(사용자 로그인 이벤트)||![확인 표시](../media/checkmark.png)|
   |Azure Active Directory(관리 이벤트)||![확인 표시](../media/checkmark.png)|
@@ -133,9 +122,9 @@ ms.locfileid: "52809146"
   |민감도 레이블||![확인 표시](../media/checkmark.png)|
   |SharePoint Online 및 비즈니스용 OneDrive|![확인 표시](../media/checkmark.png)||
   |Workplace Analytics|![확인 표시](../media/checkmark.png)||
-  |Yammer||![확인 표시](../media/checkmark.png)||
-  |Microsoft Forms|![확인 표시](../media/checkmark.png)|
-  ||||
+  |Yammer||![확인 표시](../media/checkmark.png)|
+  |Microsoft Forms|![확인 표시](../media/checkmark.png)||
+  |
 
 - Azure A (azure Active Directory)는 Office 365의 디렉터리 서비스입니다. 통합 감사 로그에는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](/azure/active-directory/reports-monitoring/concept-audit-logs)를 참조하세요.
 

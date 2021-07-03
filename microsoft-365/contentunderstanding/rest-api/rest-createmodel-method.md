@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 모델 및 관련 콘텐츠 형식을 만듭니다.
-ms.openlocfilehash: 0a1b6ef9b7e38f2c4f52082103530da432e3e855
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 1c5bd84c777774edc1aa0c2419181f7b84aa4707
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177156"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287248"
 ---
 # <a name="create-model"></a>모델 만들기
 
@@ -24,7 +24,7 @@ ms.locfileid: "53177156"
 
 ## <a name="http-request"></a>HTTP 요청
 
-```
+```http
 POST /_api/machinelearning/models HTTP/1.1
 ```
 ## <a name="uri-parameters"></a>URI 매개 변수
@@ -59,7 +59,7 @@ POST /_api/machinelearning/models HTTP/1.1
 
 #### <a name="sample-request"></a>샘플 요청
 
-```
+```json
 {
     "__metadata": {
         "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"

@@ -1,6 +1,6 @@
 ---
 title: 인시던트 API 업데이트
-description: Defender API를 사용하여 인시던트 업데이트 Microsoft 365 방법 학습
+description: API를 사용하여 인시던트 업데이트 Microsoft 365 Defender 정보
 keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b50fe4672dd4cd721464c7414297efcc4a4921b7
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 60f1209331862eb21d3b1949265f0873dcf2e5a7
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861506"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287822"
 ---
 # <a name="update-incidents-api"></a>인시던트 업데이트 API
 
@@ -51,7 +51,7 @@ ms.locfileid: "52861506"
 
 ## <a name="permissions"></a>사용 권한
 
-이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 [Access the Microsoft 365 Defender API 를 참조합니다.](api-access.md)
+이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 Access the Microsoft 365 Defender [참조합니다.](api-access.md)
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 -|-|-
@@ -71,8 +71,8 @@ PATCH /api/incidents/{id}
 
 이름 | 유형 | 설명
 -|-|-
-권한 부여 | String | Bearer {token}. **필수입니다**.
-Content-Type | String | application/json. **필수입니다**.
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -91,7 +91,7 @@ comment | 문자열 | 인시던트에 추가할 설명입니다.
 
 성공하면 이 메서드는 `200 OK` 를 반환합니다. 응답 본문에는 업데이트된 속성이 있는 인시던트 엔터티가 포함되어 있습니다. 지정한 ID가 있는 인시던트가 발견되지 않으면 메서드는 를 `404 Not Found` 반환합니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 **요청**
 
@@ -127,7 +127,7 @@ comment | 문자열 | 인시던트에 추가할 설명입니다.
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Microsoft 365 Defender API에 액세스](api-access.md)
+- [MICROSOFT 365 DEFENDER API에 액세스](api-access.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)
 - [인시던트 API](api-incident.md)

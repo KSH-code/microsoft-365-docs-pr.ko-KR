@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365 사서함 감사 또는 사서함 감사라고도 합니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행한 특정 작업이 사서함 감사 로그에 자동으로 기록되며, 사서함에서 수행되는 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 56207a21d9a13edb04a07234764257d3c27f2d0f
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f74cb23a029d4710a19aeb18999169f6adc636a4
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226782"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287032"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -111,7 +111,7 @@ False **값은** 기본적으로 사서함 감사가 조직에 대해 사용하�
 |**MailboxLogin**|사용자가 사서함에 로그인한 경우|||![확인 표시](../media/checkmark.png)|
 |**MailItemsAccessed**|**참고:** 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 [Set up Advanced Audit in Microsoft 365.](set-up-advanced-audit.md) <p> 메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스합니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**MessageBind**|**참고:** 이 값은 E3 사용자(E5 또는 E5 준수 추가 기능 구독이 없는 사용자)에만 사용할 수 있습니다. <p> 미리 보기 창에서 메시지를 보거나 관리자가 연 경우|![확인 표시](../media/checkmark.png)|||
-|**ModifyFolderPermissions**|이 값은 사서함 작업으로 수락되어도 **이미 UpdateFolderPermissions** 동작에 포함되어 있으며 별도로 감사되지 않습니다. 즉, 이 값을 사용하지 않습니다.|||||
+|**ModifyFolderPermissions**|이 값은 사서함 작업으로 수락되어도 **이미 UpdateFolderPermissions** 동작에 포함되어 있으며 별도로 감사되지 않습니다. 즉, 이 값을 사용하지 않습니다.||||
 |**이동**|메시지가 다른 폴더로 이동했습니다.|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
 |**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**RecordDelete**|레코드로 레이블이 지정되는 항목이 소프트 삭제되었습니다(복구 가능한 항목 폴더로 이동). 레코드로 레이블이 붙은 항목은 영구적으로 삭제할 수 없습니다(복구 가능한 항목 폴더에서 제거).|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
@@ -311,7 +311,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직의 사서함 감사 기본 사용이 켜져 있으면 특정 사서함에 대한 사서함 감사를 사용하지 않도록 설정할 수 없습니다. 예를 들어 *AuditEnabled* 사서함 속성을 **False로** 설정하면 무시됩니다.
 
-그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여 작업이 수행되는 위치와 관계없이 지정된 사용자의 모든 사서함 작업이 기록되지 않도록 할 수 있습니다.  예를 들면 다음과 같습니다.
+그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여 작업이 수행되는 위치와 관계없이 지정된 사용자의 모든 사서함 작업이 기록되지 않도록 할 수 있습니다.  예를 들어 다음과 같습니다.
 
 - 무시된 사용자가 수행한 사서함 소유자 작업은 기록되지 않습니다.
 - 다른 사용자의 사서함(공유 사서함 포함)에서 무시된 사용자가 수행한 위임 작업은 기록되지 않습니다.
@@ -338,10 +338,10 @@ True **값으로** 설정하면 사용자에 대해 사서함 감사 로깅이 �
   E5 라이선스가 없는 사용자의 사서함 감사 로그 항목을 검색하려면 다음을 할 수 있습니다.
 
   - 개별 사서함에 대해 사서함 감사를 수동으로 사용하도록 설정(명령을 `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true` 실행합니다.) 이렇게 한 후 보안 및 준수 센터에서 감사 로그 검색을 & 관리 활동 API를 통해 Office 365 수 있습니다.
-  
+
     > [!NOTE]
     > 사서함 감사가 이미 사서함에서 사용하도록 설정된 것으로 보이지만 검색에서 결과가 반환되지 않았다면 _AuditEnabled_ 매개 변수의 값을 로 변경한 다음 로 `$false` 다시 `$true` 변경합니다.
-  
+
   - PowerShell에서 다음 cmdlet을 Exchange Online 있습니다.
     - [Search-MailboxAuditLog](/powershell/module/exchange/search-mailboxauditlog) - 특정 사용자에 대한 사서함 감사 로그를 검색합니다.
     - [New-MailboxAuditLogSearch](/powershell/module/exchange/new-mailboxauditlogsearch) - 특정 사용자에 대한 사서함 감사 로그를 검색하고 지정된 받는 사람에게 전자 메일을 통해 결과를 전송하도록 합니다.

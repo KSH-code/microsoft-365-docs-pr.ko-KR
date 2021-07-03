@@ -19,19 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 직장 또는 학교 계정이 있는 사용자는 엔터프라이즈 수준의 보안 약속을 Cortana Microsoft 365 환경을 Office 365 수 있습니다.
-ms.openlocfilehash: a740c4ce2b89244cc84494349e962fb665fa2d73
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 6887032e62d397659dc73475418f52b0c1246a2f
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227898"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286696"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana Microsoft 365
 
 Cortana 도우미는 AI 기반 환경을 제공하여 시간을 절약하고 가장 중요한 일에 집중할 수 있도록 합니다. Cortana 전자 메일, 파일, 채팅 등 Office 365 데이터를 안전하고 안전하게 처리하고 이유를 제공하는 기능을 제공하도록 디자인되어 시간을 절약하고 효율성을 높이며 사용자의 생산성을 향상시킵니다.
 
-유효한 직장 또는 학교 계정으로 로그인하면 사용자는 엔터프라이즈 수준의 개인 정보Cortana 보안 및 규정 준수 약속("Cortana 엔터프라이즈 서비스")을 충족하는 Microsoft 365 Office 365 환경의 클라우드 기반 지원 서비스를 받을 **수** 있습니다. 
-
+유효한 직장 또는 학교 계정으로 로그인하면 사용자는 엔터프라이즈 수준의 개인 정보Cortana 보안 및 규정 준수 약속("Cortana 엔터프라이즈 서비스")을 충족하는 Microsoft 365 Office 365 환경의 클라우드 기반 지원 서비스를 받을 **수** 있습니다.
 
 - **Cortana 엔터프라이즈** 서비스에는 Cortana(Windows 10 버전 2004 이상), iOS 및 Android용 Outlook, iOS 및 Android용 Microsoft Teams 모바일 앱 및 Microsoft Teams [표시됩니다.](/microsoftteams/devices/teams-displays)
 
@@ -88,19 +87,18 @@ Windows 10 버전 2004부터 Cortana Windows 미리 설치한 UWP(유니버설 W
 
 Cortana 모바일 앱 및 Teams 음성 Microsoft Teams 디바이스에서 음성 지원을 사용하면 Microsoft 365 Enterprise 자연어를 사용하여 통신, 공동 작업 및 모임 관련 작업을 간소화할 수 있습니다. 사용자는 Cortana 모바일 앱의 오른쪽 위에 있는 마이크 단추를 선택하거나 Teams 화면에서 &#8220;Cortana&#8221; 말하여 Microsoft Teams 있습니다. 핸즈프리 팀과 빠르게 연결하기 위해 이동 중에는 사용자가 Megan &#8220;전화와 같은 쿼리를&#8221; &#8220;다음 모임에 메시지를 보낼 수&#8221;. 또한 사용자는 다음 모임에 참가하고&#8220;음성 지원을 사용하여 파일을 공유하고 일정을 확인하고&#8221; 말하여 모임에 참가할 수 있습니다. 이러한 음성 지원 환경은 [OST(Cortana](https://www.microsoft.com/licensing/product-licensing/products)서비스 약관)에 Office 365, 보안 및 규정 준수 약속을 완전히 준수하는 엔터프라이즈급 서비스를 사용하여 전달됩니다.
 
-**관리자 컨트롤**
+#### <a name="admin-control"></a>관리자 컨트롤
 
 Cortana 음성 지원은 기본적으로 테넌트에 대해 사용하도록 설정됩니다. 관리자는 정책(TeamsCortanaPolicy)을 통해 테넌트의 Cortana 음성 지원을 사용할 Teams 제어할 수 있습니다. 이 정책은 사용자 계정 수준 또는 테넌트 수준에서 설정할 수 있습니다. 관리자는 이 정책 컨트롤 내의 CortanaVoiceInvocationMode 필드를 사용하여 Cortana 비활성화, 푸시 단추 호출만 사용 또는 절전 모드 해제 단어 호출을 사용하도록 설정할지 여부를 결정할 수 있습니다(Microsoft Teams 디스플레이와 같이 지원하는 장치에도 해당). 
 
-**사용자 컨트롤**
+#### <a name="user-control"></a>사용자 컨트롤
 
 개별 사용자는 Cortana 단추를 클릭하여 Teams 모바일 앱에서 음성 지원을 사용해 볼 수 있습니다. 또한 Cortana &#8220;Cortana.&#8221; 호출에 응답하는지 여부를 제어하기만 Microsoft Teams 디바이스에서 Cortana 음성 지원을 사용해 볼 수 있습니다. 
 
-1.  모바일 Teams 열기
-2.  이동하여 설정
-3.  선택 Cortana
-4.  음성 활성화 토글 전환
-
+1. 모바일 Teams 열기
+2. 이동하여 설정
+3. 선택 Cortana
+4. 음성 활성화 토글 전환
 
 [자세한 내용은 Cortana 음성 지원을 Teams](/microsoftteams/cortana-in-teams)
 
@@ -123,7 +121,6 @@ Microsoft AI 기술에 기반한 자연어, 음성 인식, 기계 학습 및 언
 내 전자 메일 재생(Outlook 모바일을 통해 연결)은 사용자가 집중된 받은 편지함에서 새 메시지를 듣고 휴대폰, 헤드폰 또는 연결된 오디오 장치의 스피커를 통해 해당 날로 변경되는 음성 기반의 핸즈프리 환경입니다. 사용자는 최근 Cortana 소리 내어 읽을 것을 요청하고 메시지 플래그, 보관Cortana 삭제 및 건너뛰기 등의 작업을 수행해달고 요청할 수 있습니다. 이 기능은 통근, 멀티태스킹 또는 이동 중 전자 메일을 따라가기 위해 특히 유용합니다. 사용자가 내 전자 메일 Cortana 말하면 음성 오디오 요청이 Cortana 엔터프라이즈 서비스로 직접 전달됩니다. 사용자 전자 메일의 텍스트 음성 읽기는 클라우드 내에서 Office 365 처리됩니다. 이 프로세스 중에 Office 365 모바일 장치에서는 데이터가 처리되지 않습니다. 전자 메일 데이터는 저장되지 않습니다. 음성 명령(예: "읽은 것으로 표시", "다음", "플래그" 등)의 전사는 Microsoft [Online Services](https://www.microsoft.com/licensing/product-licensing/products)약관의 데이터 보호 약관에 따라 보존될 수 있습니다.
 
 Cortana 보호된 전자 메일은 호출하고 메시지를 읽기 전에 잠시 일시 중지하여 재생을 일시 중지하거나 다음 메시지로 건너뛸 수 있는 충분한 시간을 제공합니다. 개인 전화 통화와 마찬가지로 사용자는 기밀 정보가 잠재적으로 과부하될 수 있는 위치에서 재생을 시작할 때 주의해야 합니다. 이러한 경우 조직의 직원은 모바일에서 내 전자 메일 재생을 사용할 때 적절한 환경에서 헤드폰을 Outlook 좋습니다.
-
 
 ### <a name="how-to-opt-out-of-play-my-emails"></a>내 전자 메일 재생을 옵트아웃하는 방법
 
@@ -183,10 +180,8 @@ Cortana 수행된 것으로 표시하거나 포커스 시간을 예약하여 수
 
 Microsoft 서비스 계약 및 [Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=2109174) 개인정보처리방침이 제어하는 서비스의 경우 [Microsoft는](https://privacy.microsoft.com/privacystatement)데이터 컨트롤러입니다. 데이터 컨트롤러인 Microsoft는 Microsoft 개인 정보 취급 방침에 따라 데이터를 사용하여 제품 및 서비스를 [개선합니다.](https://privacy.microsoft.com/privacystatement)
 
-
 ## <a name="related-content"></a>관련 콘텐츠
 
 [Cortana 음성](/microsoftteams/cortana-in-teams) Teams(문서)\
 [웹 Cortana 구성](/windows/configuration/cortana-at-work/cortana-at-work-overview) Windows 10(문서)\
 [내 전자 메일 재생을 사용하여 어떻게 할 Cortana?](https://support.microsoft.com/help/4558256)
-

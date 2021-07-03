@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 21b0062a337dbeb3c7dec8b715971dbbc4917db1
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: ed254234109bc5ff9865ff49ed3fa0fff8770ab0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893278"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286912"
 ---
 # <a name="register-existing-devices-yourself"></a>직접 기존의 장치 등록
 
@@ -75,13 +75,13 @@ Active Directory `Get-WindowsAutoPilotInfo` 환경에서는 PowerShell cmdlet을
 - 디바이스에서 원격으로 실행할 수 있는 권한이 있는 도메인 자격 증명 매개 변수가 있는지 확인
 - 방화벽에서 Windows WMI에 액세스할 수 있는지 확인 이렇게 하여 다음 단계를 수행합니다.
 
-    1. Windows Defender 방화벽 **제어판을** 열고 를 통해 앱 또는 기능 **허용을 Windows Defender 방화벽.**
-    
+    1. Windows Defender **방화벽 제어판을** 열고 방화벽을 통해 앱 또는 **기능 Windows Defender 선택합니다.**
+
     2. 목록에서 **Windows WMI(관리** 계측)를 찾고 개인 및 공용 모두에 대해 사용하도록 **설정한** 다음 확인 을 **선택합니다.**
 
-1.  관리 권한으로 PowerShell 프롬프트를 열 수 있습니다.
+1. 관리 권한으로 PowerShell 프롬프트를 열 수 있습니다.
 
-2.  다음 *스크립트 중* 하나를 실행합니다.
+2. 다음 *스크립트 중* 하나를 실행합니다.
 
     ```powershell
     Install-script -name Get-WindowsAutoPilotInfo 
@@ -94,7 +94,7 @@ Active Directory `Get-WindowsAutoPilotInfo` 환경에서는 PowerShell cmdlet을
     Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo.ps1 -credential Domainname\<accountname> -Name Machine1,Machine2,Machine3
     ```
 
-3. 장치에 대한 항목이 있을 수 있는 모든 Director에 액세스합니다. 서버 Active Directory  도메인 서비스 및 Windows 디렉터리를 포함하여 모든 디렉터리에서 각 장치에 대한 항목을 Azure Active Directory. 제거를 완전히 처리하는 데 몇 시간이 걸릴 수 있습니다.
+3. 장치에 대한 항목이 있을 수 있는 모든 Director에 액세스합니다. 도메인 서비스 및  도메인 서비스를 포함하여 모든 Windows Server Active Directory 장치 항목을 Azure Active Directory. 제거를 완전히 처리하는 데 몇 시간이 걸릴 수 있습니다.
 
 4. 장치에 대한 항목이 있을 수 있는 액세스 관리 서비스입니다. Autopilot, Microsoft Endpoint Configuration Manager, Microsoft Intune 등의 모든 관리 서비스에서 각 Windows 제거합니다.  제거를 완전히 처리하는 데 몇 시간이 걸릴 수 있습니다.
 
@@ -102,9 +102,9 @@ Active Directory `Get-WindowsAutoPilotInfo` 환경에서는 PowerShell cmdlet을
 
 #### <a name="manual-powershell-script-method"></a>수동 PowerShell 스크립트 방법
 
-1.  관리 권한으로 PowerShell 프롬프트를 열 수 있습니다.
-2.  실행 `Install-Script -Name Get-WindowsAutoPilotInfo`
-3.  실행 `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+1. 관리 권한으로 PowerShell 프롬프트를 열 수 있습니다.
+2. 실행 `Install-Script -Name Get-WindowsAutoPilotInfo`
+3. 실행 `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
 4. [해시 데이터를 병합합니다.](#merge-hash-data)
 
 #### <a name="flash-drive-method"></a>플래시 드라이브 방법
@@ -120,10 +120,8 @@ Active Directory `Get-WindowsAutoPilotInfo` 환경에서는 PowerShell cmdlet을
 9. USB 드라이브를 제거한 다음 를 실행하여 디바이스를 종료합니다. `shutdown -s -t 0`
 10. [해시 데이터를 병합합니다.](#merge-hash-data)
 
->[!IMPORTANT]
->등록을 완료할 때까지 다시 등록하는 디바이스에 전원을 들이지 않습니다. 
-
-
+> [!IMPORTANT]
+> 등록을 완료할 때까지 다시 등록하는 디바이스에 전원을 들이지 않습니다. 
 
 ### <a name="merge-hash-data"></a>해시 데이터 병합
 
@@ -135,18 +133,15 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 
 해시 데이터가 하나의 CSV 파일에 병합되어 이제 장치를 [등록할 수 있습니다.](#register-devices-by-using-the-admin-portal)
 
-
 ## <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용하여 장치 등록
 
 In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devices** in the left navigation pane. 메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop 작업 영역에서 **+** 장치 등록을 선택합니다. 이 경우 플라이인을 열어 새 장치를 등록합니다.
 
 <!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
-
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
-
-다음 단계를 따르세요.
+다음 단계를 따릅니다.
 
 1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
 2. 드롭다운 [메뉴에서](../service-description/profiles.md) 장치 프로필을 선택합니다.
@@ -187,12 +182,3 @@ In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devic
 > 사용자에게 장치를 제공하려면 먼저 해당 사용자에게 적절한 라이선스를 획득하고 [적용해야](../get-ready/prerequisites.md) 합니다.
 
 모든 라이선스가 적용된 경우 [](get-started-devices.md)사용자가 디바이스를 사용할 수 있도록 준비할 수 있습니다. 그러면 사용자가 디바이스를 시작하고 설치 환경을 Windows 수 있습니다.
-
-
-
-
-
-
-
-
-

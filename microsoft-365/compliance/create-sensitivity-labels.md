@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 데이터를 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 328bf7bdac3a8de23820d861932ee20d71e911b4
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: ac87608a2a7c4913811c090ae3c2befadaf2327e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878187"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286624"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -41,36 +41,36 @@ ms.locfileid: "52878187"
 ## <a name="create-and-configure-sensitivity-labels"></a>민감도 레이블 생성 및 구성
 
 1. 레이블 관리 센터에서 민감도 레이블로 이동합니다.
-    
+
     - Microsoft 365 규정 준수 센터: 
         - **솔루션** > **정보 보호**
-        
+
         이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시** 를 선택합니다. 
-    
+
     - 보안 및 준수 센터:
         - **분류** > **민감도 레이블**
 
 2. **레이블** 페이지에서 **+레이블 만들기** 를 선택하여 새 민감도 레이블 마법사를 시작합니다. 
-    
+
     예를 들어, Microsoft 365 규정 준수 센터에서 다음을 수행합니다.
-    
+
     ![민감도 레이블 만들기](../media/create-sensitivity-label-full.png)
-    
+
     > [!NOTE]
     > 기본적으로 테넌트에는 레이블이 없으며 레이블을 만들어야 합니다. 예제 그림에 나와 있는 레이블에 [Azure Information Protection에서 마이그레이션된](/azure/information-protection/configure-policy-migrate-labels) 기본 레이블이 표시됩니다.
 
 3. **이 레이블에 대한 범위 정의** 페이지에서 선택한 옵션은 구성할 수 있는 설정에 대한 레이블 범위와 게시될 때 표시되는 위치를 결정합니다.
-    
+
     ![민감도 레이블 범위](../media/sensitivity-labels-scopes.png)
-    
+
     - **파일 및 전자 메일** 이 선택된 경우, 이 마법사에서 Office Word 및 Outlook과 같은 민감도 레이블을 지원하는 앱에 적용되는 설정을 구성할 수 있습니다. 이 옵션이 선택되지 않은 경우, 마법사는 해당 설정의 첫 번째 페이지를 표시하지만 사용자는 설정을 구성할 수 없으며 레이블은 이들 앱에서 사용자들이 선택하도록 제공되지 않습니다.
-    
+
     - **그룹 및 사이트** 가 선택된 경우, 이 마법사에서 Microsoft 365 그룹 및 Teams와 SharePoint용 사이트에 적용되는 설정을 구성할 수 있습니다. 이 옵션이 선택되지 않은 경우, 마법사는 해당 설정의 첫 번째 페이지를 표시하지만 사용자는 설정을 구성할 수 없으며 레이블은 그룹 및 사이트에 대해 사용자들이 선택하도록 제공되지 않습니다.
-    
+
     **Azure Purview 자산(미리 보기)** 범위에 대한 자세한 내용은 [Azure Purview에서 내용에 자동으로 레이블을 지정](/azure/purview/create-sensitivity-label)을 참조하세요.
 
 4. 화면에 나타나는 레이블 설정 마법사 메시지를 따릅니다.
-    
+
     레이블 설정에 대한 자세한 정보는 개요 정보에서 [민감도 레이블이 수행하는 작업](sensitivity-labels.md#what-sensitivity-labels-can-do)을 참조하고 개별 설정 마법사의 도움말을 사용하세요.
 
 5. 이 단계를 반복하여 레이블을 더 만듭니다. 그러나 하위 레이블을 만들고자 하는 경우 먼저 상위 레이블을 선택하고 **추가 작업** 에서 **...** 을 선택한 다음 **하위 레이블 추가** 를 선택합니다.
@@ -113,7 +113,6 @@ ms.locfileid: "52878187"
 
 PowerShell에서 명령을 실행하기 전에 먼저 [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)해야 합니다.
 
-
 ```powershell
 $Languages = @("fr-fr","it-it","de-de")
 $DisplayNames=@("Publique","Publico","Oeffentlich")
@@ -135,42 +134,42 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 ## <a name="publish-sensitivity-labels-by-creating-a-label-policy"></a>레이블 정책을 만들어 민감도 레이블 게시
 
 1. 레이블 관리 센터에서 민감도 레이블로 이동합니다.
-    
+
     - Microsoft 365 규정 준수 센터: 
         - **솔루션** > **정보 보호**
-        
+
         이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시** 를 선택합니다. 
-    
+
     - 보안 및 준수 센터:
         - **분류** > **민감도 레이블**
 
 2. **레이블 정책** 탭을 선택한 다음 **레이블 게시** 를 선택하여 정책 만들기 마법사를 시작합니다.
-    
+
     예를 들어, Microsoft 365 규정 준수 센터에서 다음을 수행합니다.
-        
+
     ![레이블 게시](../media/publish-sensitivity-labels-full.png)
-    
+
     > [!NOTE]
     > 기본적으로 테넌트에는 레이블 정책이 없으며 레이블 정책을 만들어야 합니다. 
 
 3. 마법사에서 **민감도 레이블을 선택하여 게시** 를 선택합니다. 앱과 서비스에서 사용할 수 있도록 설정할 레이블을 선택한 다음 **추가** 를 선택합니다.
-    
+
     > [!IMPORTANT]
     > 하위 레이블을 선택한 경우 해당 상위 레이블도 선택해야 합니다.
-    
+
 4. 선택한 레이블을 검토하 고 내용을 변경하려면 **편집** 을 선택합니다. 그렇지 않으면 **다음** 을 선택합니다.
 
 5. 화면에 나타나는 메시지에 따라 정책 설정을 구성합니다.
-    
+
     표시되는 정책 설정은 선택한 레이블의 범위와 일치 합니다. 예를 들어 **파일 및 전자 메일** 범위만을 포함하는 레이블을 선택한 경우, **기본적으로 그룹 및 사이트에 이 레이블 적용** 및 **사용자가 그룹 및 사이트에 레이블을 적용하도록 요구** 정책 설정은 표시되지 않습니다.
-    
+
     정책 설정에 대한 자세한 정보는 개요 정보에서 [레이블 정책이 수행하는 작업](sensitivity-labels.md#what-label-policies-can-do)을 참조하고 개별 설정 마법사의 도움말을 사용하세요.
-    
+
     **Azure Purview 자산에 (미리 보기)** 대해 구성된 레이블의 경우: 이러한 레이블에는 연결된 정책 설정이 없습니다.
 
-7. 다양한 사용자나 위치에 대해 다양한 정책 설정이 필요한 경우에는 이 단계를 반복합니다. 예를 들어 사용자 그룹에 대한 추가 레이블이나 사용자 하위 집합에 대한 다른 기본 레이블을 원하는 경우가 해당됩니다. 또는 레이블이 다양한 범위를 갖도록 구성한 경우가 해당됩니다.
+6. 다양한 사용자나 위치에 대해 다양한 정책 설정이 필요한 경우에는 이 단계를 반복합니다. 예를 들어 사용자 그룹에 대한 추가 레이블이나 사용자 하위 집합에 대한 다른 기본 레이블을 원하는 경우가 해당됩니다. 또는 레이블이 다양한 범위를 갖도록 구성한 경우가 해당됩니다.
 
-8. 사용자에 충돌이 발생할 수 있는 레이블 정책을 여러 개 만드는 경우에는 정책 순서를 검토하고 필요한 경우 해당 항목을 위나 아래로 이동합니다. 레이블 정책 순서를 변경하려면 **추가 작업** 에 대해 **...** 를 선택한 다음 **위로 이동** 또는 **아래로 이동** 을 선택합니다. 자세한 내용은 개요 정보에서 [레이블 정책 우선 순위(순서가 중요함)](sensitivity-labels.md#label-policy-priority-order-matters)를 참조하세요.
+7. 사용자에 충돌이 발생할 수 있는 레이블 정책을 여러 개 만드는 경우에는 정책 순서를 검토하고 필요한 경우 해당 항목을 위나 아래로 이동합니다. 레이블 정책 순서를 변경하려면 **추가 작업** 에 대해 **...** 를 선택한 다음 **위로 이동** 또는 **아래로 이동** 을 선택합니다. 자세한 내용은 개요 정보에서 [레이블 정책 우선 순위(순서가 중요함)](sensitivity-labels.md#label-policy-priority-order-matters)를 참조하세요.
 
 마법사를 완료하면 자동으로 레이블 정책이 게시됩니다. 게시된 정책을 변경하려면 정책을 편집하기만 하면 됩니다. 사용자가 선택할 특정 게시 또는 재게시 작업이 없습니다.
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9d3f4431825193d189f7ea1d73b6a99163cac428
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 718a043fec34abb17eb45ffba2c9efa46a1b538a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843701"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287272"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-apis"></a>엔드포인트용 Microsoft Defender API에 액세스 
 
@@ -38,25 +38,25 @@ ms.locfileid: "52843701"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
-
-
 Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 통해 워크플로를 자동화하고 끝점용 Defender 기능을 기반으로 혁신할 수 있습니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
-끝점 API용 Defender에 대한 간략한 개요는 이 비디오를 시청하세요. 
+끝점 API용 Defender에 대한 간략한 개요는 이 비디오를 시청하세요.
+
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4d73M]
 
 일반적으로 API를 사용하려면 다음 단계를 수행해야 합니다.
+
 - [AAD 응용 프로그램 만들기](/microsoft-365/security/defender-endpoint/exposed-apis-create-app-nativeapp)
 - 이 응용 프로그램을 사용하여 액세스 토큰 얻기
 - 토큰을 사용하여 Endpoint API용 Defender 액세스
 
-
 응용 프로그램 컨텍스트 또는 사용자  컨텍스트를 사용하여 Endpoint API용 Defender에 **액세스할 수 있습니다.**
 
-- **응용 프로그램 컨텍스트: (권장)** <br>
-    로그인한 사용자가 없는 실행 앱에서 사용됩니다. 예를 들어 백그라운드 서비스 또는 데몬으로 실행된 앱입니다.
+- **응용 프로그램 컨텍스트: (권장)**
 
-    응용 프로그램 컨텍스트를 통해 Endpoint API용 Defender에 액세스하는 데 필요한 단계:
+  로그인한 사용자가 없는 실행 앱에서 사용됩니다. 예를 들어 백그라운드 서비스 또는 데몬으로 실행된 앱입니다.
+
+  응용 프로그램 컨텍스트를 통해 Endpoint API용 Defender에 액세스하는 데 필요한 단계:
 
   1. AAD 웹 응용 프로그램을 만들 수 있습니다.
   2. 원하는 사용 권한을 응용 프로그램에 할당합니다(예: '경고 읽기', '컴퓨터 격리'). 
@@ -66,11 +66,11 @@ Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와
 
      자세한 내용은 응용 프로그램 [컨텍스트를 통해 액세스 를 참조하세요.](exposed-apis-create-app-webapp.md)
 
+- **사용자 컨텍스트:**
 
-- **사용자 컨텍스트:** <br>
-    사용자를 대신하여 API에서 작업을 수행하는 데 사용됩니다.
+  사용자를 대신하여 API에서 작업을 수행하는 데 사용됩니다.
 
-    응용 프로그램 컨텍스트를 통해 Endpoint API용 Defender에 액세스하기 위해 수행해야 하는 단계:
+  응용 프로그램 컨텍스트를 통해 Endpoint API용 Defender에 액세스하기 위해 수행해야 하는 단계:
 
   1. AAD 네이티브 응용 프로그램을 만들 수 있습니다.
   2. 원하는 사용 권한을 응용 프로그램에 할당합니다(예: '경고 읽기', '컴퓨터 격리' 등). 
@@ -79,8 +79,8 @@ Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와
 
      자세한 내용은 [사용자 컨텍스트를 통해 액세스 를 참조하세요.](exposed-apis-create-app-nativeapp.md)
 
-
 ## <a name="related-topics"></a>관련 항목
+
 - [끝점 API용 Microsoft Defender](exposed-apis-list.md)
 - [응용 프로그램 컨텍스트를 통해 끝점용 Microsoft Defender 액세스](exposed-apis-create-app-webapp.md)
 - [사용자 컨텍스트를 통해 끝점용 Microsoft Defender 액세스](exposed-apis-create-app-nativeapp.md)

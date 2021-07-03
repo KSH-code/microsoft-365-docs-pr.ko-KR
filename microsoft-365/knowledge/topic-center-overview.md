@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva Topics
+title: Microsoft Viva 항목의 항목 센터 개요
 author: chuckedmonson
 ms.author: chucked
 manager: pamgreen
@@ -13,21 +13,21 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-description: 2016년 8월의 항목 센터에 Microsoft Viva Topics.
-ms.openlocfilehash: f782be90e6cd6fa12e57df87ebb1057e58bdca19
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+description: Microsoft Viva 항목의 항목 센터에 대해 자세히 알아보습니다.
+ms.openlocfilehash: bd3bdbc368ca95b1c795043c5c083aaebfcf5742
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984931"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287284"
 ---
-# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Microsoft Viva Topics
+# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 항목 센터 개요
 
-이 Microsoft Viva Topics 항목 센터는 조직에 SharePoint 센터 역할을 하는 최신 사이트입니다. 이 설정은 2016년 [8월의 Viva](set-up-topic-experiences.md) 항목 설정 중에 Microsoft 365 관리 센터.
+Microsoft Viva 항목에서 항목 센터는 조직의 지식 SharePoint 제공하는 최신 사이트입니다. 이 설정은 2016년 [8월의 Viva](set-up-topic-experiences.md) 항목 설정 중에 Microsoft 365 관리 센터.
 
-항목 센터에는 사용이 허가된  모든 사용자가 연결이 있는 항목을 볼 수 있는 항목 웹 파트가 있는 기본 홈 페이지가 있습니다. 
+항목 센터에는 사용이 허가된  모든 사용자가 연결이 있는 항목을 볼 수 있는 항목 웹 파트가 있는 기본 홈 페이지가 있습니다.
 
-항목을 볼 수 있는 모든 사용이 허가된 사용자는 항목 센터에 액세스할 수 있는 반면, 기술 관리자는 항목 관리 페이지를 통해 항목을 관리할 **수** 있습니다. 항목 **관리 탭은** 항목 관리 권한이 있는 사용자에게만 표시됩니다. 
+항목을 볼 수 있는 모든 사용이 허가된 사용자는 항목 센터에 액세스할 수 있는 반면, 기술 관리자는 항목 관리 페이지를 통해 항목을 관리할 **수** 있습니다. 항목 **관리 탭은** 항목 관리 권한이 있는 사용자에게만 표시됩니다.
 
 ## <a name="where-is-my-topic-center"></a>내 항목 센터 위치
 
@@ -37,35 +37,31 @@ ms.locfileid: "52984931"
 1. 다음 Microsoft 365 관리 센터 에서 **설정** 선택한 다음, **Org 설정을 선택합니다.**
 2. 서비스 **탭에서** 항목 환경 **을 선택합니다.**
 
-    ![커넥트 정보를 알 수 있습니다.](../media/admin-org-knowledge-options-completed.png) 
+    ![커넥트 정보를 알 수 있습니다.](../media/admin-org-knowledge-options-completed.png)
 
 3. 항목 **센터 탭을** 선택합니다. 사이트 **주소 아래에는** 항목 센터에 대한 링크가 있습니다.
 
-    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png) 
-
-
+    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png)
 
 ## <a name="home-page"></a>홈페이지
 
 </br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LAhZ]  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LAhZ]
 
 </br>
-
 
 항목 센터 홈 페이지에서 연결이 있는 조직의 항목을 볼 수 있습니다.
 
 - 제안된 연결 - 이러한 항목에 나열된 아래에 나열된 **항목을 볼 수 있습니다. 올바른 시작이 했나요?** 다음은 AI를 통해 항목에 대한 연결을 제안한 항목입니다. 예를 들어 관련 파일이나 사이트의 작성자일 수 있습니다. 항목에 대한 관련 사람으로 나열되어야 하는지 확인이 요청됩니다.
 
-   ![제안된 연결](../media/knowledge-management/my-topics.png) 
- 
+   ![제안된 연결](../media/knowledge-management/my-topics.png)
+
 - 확정된 연결 - 항목 페이지에 고정되거나 항목에 대한 제안된 연결을 확인한 항목입니다. 제안된 연결을 확인하면 항목은 제안된 섹션에서 확인된 섹션으로 이동됩니다.
- 
-   ![확인된 항목](../media/knowledge-management/my-topics-confirmed.png) 
+
+   ![확인된 항목](../media/knowledge-management/my-topics-confirmed.png)
 
 사용자가 항목에 대한 연결을 확인하면 사용자는 항목 페이지를 편집하여 연결을 큐레이터로 만들 수 있습니다. 예를 들어 항목에 대한 연결에 대한 자세한 정보를 제공할 수 있습니다.
-
 
 ## <a name="manage-topics-page"></a>항목 관리 페이지
 
@@ -76,8 +72,8 @@ ms.locfileid: "52984931"
 - Confirm the topic: Indicates to users that an AI suggested topic has been validated by a human curator.
 
 - 항목 게시: 항목 정보를 편집하여 처음 식별된 항목의 품질을 개선하고 항목에 대한 보기 권한이 있는 모든 사용자에게 해당 항목을 강조합니다.
- 
-- Remove the topic: Makes the topic undiscoverable to end users. 항목은 제거됨  탭으로 이동되고 필요한 경우 나중에 확인할 수 있습니다. 
+
+- Remove the topic: Makes the topic undiscoverable to end users. 항목은 제거됨  탭으로 이동되고 필요한 경우 나중에 확인할 수 있습니다.
 
 항목 관리 페이지에서 항목을 관리하는 방법에  대한 자세한 내용은 [항목 관리를 참조하세요.](manage-topics.md)
 
@@ -89,8 +85,6 @@ ms.locfileid: "52984931"
 
 - [새 항목 만들기:](create-a-topic.md)검색을 통해 찾을 수 없는 항목이나 AI 도구에서 항목을 만들 수 있는 충분한 증거를 찾지 못하면 새 항목을 만들 수 있습니다.
 
-
 ## <a name="see-also"></a>참고 항목
 
-[주제 센터에서 주제 관리](manage-topics.md)
-
+[항목 센터에서 항목 관리](manage-topics.md)

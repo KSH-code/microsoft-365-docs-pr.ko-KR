@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 인증서 기반 인증에 Microsoft 365 클라이언트 앱 지원에 대한 세부 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5ebef7c10aa61ba28c8fb841468be244f6e8542
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bef1a684ba1ebe2eaba90677cd726cc190e342db
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905000"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286576"
 ---
 # <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Microsoft 365 클라이언트 앱 지원: 인증서 기반 인증
 
@@ -46,12 +46,11 @@ ADAL(Active Directory 인증 라이브러리) 또는 MSAL(Microsoft 인증 라�
 
 [!INCLUDE [Certificate-based authentication services support table](../includes/microsoft-365-client-support-certificate-based-authentication-include.md)]
 
->[!NOTE]
->iOS 및 Android용 Edge는 계정 추가 흐름 중에 인증서 기반 인증을 지원합니다. iOS 및 Android용 에지에서는 일반적으로 인트라넷 사이트인 웹 사이트에 대해 인증을 수행할 때 인증서 기반 인증을 지원하지 않습니다. <br><br>  이 시나리오에서는 사용자가 웹 사이트(일반적으로 인트라넷)로 이동하여 사용자가 인증서를 통해 인증해야 하는 웹 사이트로 이동합니다. 이는 최신 인증과 관련이 없는 것이 아니며 Microsoft 인증 라이브러리를 활용하지 않습니다. 이는 iOS의 제한 때문에: iOS는 타사 앱이 인증서가 저장된 시스템 키채인에 액세스하지 못하게 합니다(Apple 앱과 [Safari webview 컨트롤러만](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) 시스템 키체인에 액세스할 수 있습니다). <br><br> Edge는 웹 사이트 렌더링을 위해 [WebKit](https://developer.apple.com/documentation/webkit) 프레임워크를 사용하게 됐기 때문에 Edge는 시스템 키채인에 액세스하여 사용자에게 인증서를 선택할 수 없습니다. 안타깝게도 Apple의 아키텍처로 인해 디자인되었습니다.
+> [!NOTE]
+> iOS 및 Android용 Edge는 계정 추가 흐름 중에 인증서 기반 인증을 지원합니다. iOS 및 Android용 에지에서는 일반적으로 인트라넷 사이트인 웹 사이트에 대해 인증을 수행할 때 인증서 기반 인증을 지원하지 않습니다. <br><br>  이 시나리오에서는 사용자가 웹 사이트(일반적으로 인트라넷)로 이동하여 사용자가 인증서를 통해 인증해야 하는 웹 사이트로 이동합니다. 이는 최신 인증과 관련이 없는 것이 아니며 Microsoft 인증 라이브러리를 활용하지 않습니다. 이는 iOS의 제한 때문에: iOS는 타사 앱이 인증서가 저장된 시스템 키채인에 액세스하지 못하게 합니다(Apple 앱과 [Safari webview 컨트롤러만](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) 시스템 키체인에 액세스할 수 있습니다). <br><br> Edge는 웹 사이트 렌더링을 위해 [WebKit](https://developer.apple.com/documentation/webkit) 프레임워크를 사용하게 됐기 때문에 Edge는 시스템 키채인에 액세스하여 사용자에게 인증서를 선택할 수 없습니다. 안타깝게도 Apple의 아키텍처로 인해 디자인되었습니다.
 
 ## <a name="supported-powershell-modules"></a>지원되는 PowerShell 모듈
 
-- [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0)
+- [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview)
 - [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)
 - [SharePoint 온라인 PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-

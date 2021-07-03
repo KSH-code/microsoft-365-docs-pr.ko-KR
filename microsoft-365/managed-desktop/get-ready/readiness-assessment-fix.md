@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 0296e8151162ad4f2855fdd29ff2fc0ed4b4d6b2
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 9d2f9a95b3d5d90b79122d55477284083ea8332e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177576"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286888"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -262,14 +262,13 @@ Windows 10 Azure AD 조직의 디바이스에서 Intune에 자동으로 등록�
 
 **MDM 사용자** 범위가 없음이 아닌 **일부** 또는 **모두로** 설정되어 있는지 **확인** 일부 **를** 선택한 경우 등록 후 돌아와서 모든 사용자  그룹을 대상으로 하는 그룹 또는 동등한 그룹에 대한 최신 작업 공간 **-all** Azure AD Microsoft Managed Desktop 선택합니다.  자세한 [내용은 Set up enrollment for Windows by using Microsoft Intune.](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
 
-
 ### <a name="ad-hoc-subscriptions"></a>애드 호 구독
 
 "false"로 설정하면 상태 로밍이 제대로 Enterprise 수 있는 설정을 검사하는 방법에 대해 조언합니다.
 
 **권고**
 
-**AllowAdHocSubscriptions가** True로 설정되어 **있는지 확인** 그렇지 않으면 Enterprise 로밍이 작동하지 않을 수 있습니다. 자세한 내용은 [Set-MsolCompanySettings를 참조하세요.](/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)
+**AllowAdHocSubscriptions가** True로 설정되어 **있는지 확인** 그렇지 않으면 Enterprise 로밍이 작동하지 않을 수 있습니다. 자세한 내용은 [Set-MsolCompanySettings를 참조하세요.](/powershell/module/msonline/set-msolcompanysettings)
 
 
 ### <a name="enterprise-state-roaming"></a>Enterprise State Roaming

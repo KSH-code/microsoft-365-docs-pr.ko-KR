@@ -20,24 +20,29 @@ search.appverid: MET150
 ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
 description: 이 문서에서는 미국 정부 및 고가 요금제로 Office 365 끝점에 GCC 있습니다.
 hideEdit: true
-ms.openlocfilehash: da721d7d0a8965c4dea9bc812df755f19e69ea55
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 2febfec744dfb527dd99b205f3b2b78f5b9af4e7
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730165"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286360"
 ---
 # <a name="office-365-us-government-gcc-high-endpoints"></a>Office 365 미국 정부 GCC High 엔드포인트
 
- *적용 사항: Office 365 관리자*
+*적용 사항: Office 365 관리자*
 
-Office 365 인터넷에 연결해야 합니다. The endpoints below should be reachable for customers using Office 365 U.S. Government GCC High plans only.
+Office 365은 인터넷을 연결해야 합니다. The endpoints below should be reachable for customers using Office 365 U.S. Government GCC High plans only.
   
- **Office 365 끝점:** [전 세계(GCC 포함)](urls-and-ip-address-ranges.md) | [21vianet에서 운영하는 Microsoft Office 365](urls-and-ip-address-ranges-21vianet.md)  | [Microsoft Office 365 Germany](microsoft-365-germany-endpoints.md)   |  [Office 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) | *Office 365 U.S. Government GCC High* |
-  
-|||
-|:-----|:-----|
-|**마지막 업데이트:** 2021/05/28 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**다운로드:** [JSON 형식의 전체 목록](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
+ **Office 365 끝점:** 미국 GCC Office 365 [](urls-and-ip-address-ranges.md) \| [21 Vianet](urls-and-ip-address-ranges-21vianet.md) \| [Office 365 Germany](microsoft-365-germany-endpoints.md) Office 365 미국 정부 \| [DoD](microsoft-365-u-s-government-dod-endpoints.md) Office 365 미국 정부 GCC \| *High에서* 운영하는 전 세계(GCC 포함)
+
+<br>
+
+****
+
+|참고|다운로드|
+|---|---|
+|**마지막 업데이트:** 2021/05/28 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**다운로드:** [JSON 형식의 전체 목록](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
+|
 
  이 데이터를 사용하여 네트워크 연결을 관리하기 위한 권장 사항을 이해하려면 [Office 365 끝점 관리](managing-office-365-endpoints.md)에서 시작하세요. 끝점 데이터는 활성화되기 30일 전에 게시된 새 IP 주소와 URL을 사용하여 매월 초에 필요한 경우 업데이트됩니다. 따라서 아직 자동화된 업데이트가 없는 고객은 새 연결이 필요하기 전에 프로세스를 완료할 수 있습니다. 지원 에스컬레이션, 보안 인시던트 또는 기타 즉각적인 운영 요구 사항을 해결해야 하는 경우 끝점은 해당 월 중에 업데이트될 수도 있습니다. 이 페이지에 아래에 표시된 데이터는 모두 REST 기반 웹 서비스에서 생성됩니다. 스크립트나 네트워크 장치를 사용하여 이 데이터에 액세스하는 경우 직접 [웹 서비스로](microsoft-365-ip-web-service.md) 이동해야 합니다.
 
@@ -54,9 +59,9 @@ Office 365 인터넷에 연결해야 합니다. The endpoints below should be re
 - **ER**:  끝점 집합이 Azure ExpressRoute에서 지원되는 경우 예입니다Office 365. 표시된 경로 prefix가 포함된 BGP 커뮤니티는 나열된 서비스 영역에 맞춰 정렬됩니다. ER이 **아니요인** 경우 이는 ExpressRoute가 이 끝점 집합에 지원되지 않는다는 의미입니다. 그러나 ER이 아니요인 끝점 집합에 대해 보급되는 경로가 없다고 가정하면 **안 됩니다.** Azure AD 커넥트 사용하려면 특수 고려 사항 [](/azure/active-directory/hybrid/reference-connect-instances#microsoft-azure-government) 섹션을 읽고 적절한 Azure AD 구성을 커넥트 합니다.
 
 - **주소**: 끝점 집합의 FQDN 또는 와일드카드 도메인 이름 및 IP 주소 범위를 보여줍니다. IP 주소 범위가 CIDR 형식이며 특정 네트워크에서 여러 개의 개별 IP 주소를 포함할 수 있다는 점에 유의하시기 바랍니다.
- 
+
 - **포트**: 네트워크 끝점을 형성하기 위해 주소와 결합된 TCP 또는 UDP 포트를 나열합니다. 다른 포트가 나열된 IP 주소 범위에서 일부 중복을 볼 수 있습니다.
- 
+
 [!INCLUDE [Office 365 U.S. Government GCC High endpoints](../includes/office-365-u.s.-government-gcc-high-endpoints.md)]
 
 이 표에 대한 참고 사항

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 한 Microsoft 365 분류자 는 다양한 유형의 콘텐츠를 볼 수 있는 샘플을 제공하여 인식하는 데 사용할 수 있는 도구입니다. 이 문서에서는 사용자 지정 분류기를 만들고 교육하는 방법과 정확도를 높이기 위해 분류기를 다시 학습하는 방법을 보여집니다.
-ms.openlocfilehash: 90e47ec94528bbadeb98dc9eb590929e25ae6ff1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3053e5154fb4e1ff39ce7db366ce4679bbb8911d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918182"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286636"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>학습 가능한 분류자 시작
 
@@ -40,7 +40,7 @@ ms.locfileid: "50918182"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyGL7]
 
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 ### <a name="licensing-requirements"></a>라이선스 요구사항
 
@@ -108,7 +108,7 @@ UI에서 분류자에 액세스하는 경우:
    > [!TIP]
    > 시드 데이터에 대한 새 사이트 및 폴더를 만드는 경우 해당 시드 데이터를 사용할 학습 가능한 분류기를 만들기 전에 해당 위치가 인덱싱될 수 있도록 적어도 1시간을 허용합니다.
 
-3. 준수 관리자 또는 Microsoft 365 관리 역할 액세스로 Microsoft 365 규정  준수 센터에 로그인하고 Microsoft 365 또는 Microsoft 365 데이터 분류를 **하세요.**  >  
+3. 준수 관리자 또는 Microsoft 365 규정 준수 센터 관리자 역할 액세스로 로그인하고  보안 Microsoft 365 규정 준수 센터 또는 Microsoft 365 데이터 분류를   >  **를 하세요.**
 
 4. 학습 가능한 **분류자 탭을** 선택합니다.
 

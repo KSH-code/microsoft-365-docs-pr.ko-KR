@@ -24,16 +24,16 @@ search.appverid:
 - BCS160
 - MET150
 description: 몇 단계만 Microsoft 365 Active-Directory에 가입된 Windows 10 보호할 수 있도록 설정하는 방법을 알아보십시오.
-ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: eb95c437030ae13a44f5e8043b3544d5846001c2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636089"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287698"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>도메인에 가입된 Windows 10 장치를 관리하도록 Microsoft 365 Business Premium
 
-조직에서 Windows Server Active Directory Windows 사용하는 경우 로컬 인증이 필요한 Windows 10 리소스에 대한 액세스는 유지 관리하면서 Microsoft 365 Business Premium 장치를 보호하도록 Windows 10 설정할 수 있습니다.
+조직에서 Windows Server Active Directory 사용하는 경우 Microsoft 365 Business Premium 장치를 보호하는 동시에 로컬 인증이 필요한 Windows 10 리소스에 대한 액세스는 유지 관리하도록 설정할 수 있습니다.
 이 보호를 설정하기 위해 하이브리드 Azure AD 가입 장치를 **구현할 수 있습니다.** 이러한 디바이스는 사용자 장치와 사용자 프레미스 Active Directory 모두에 Azure Active Directory.
 
 ## <a name="watch-configure-hybrid-azure-active-directory-join"></a>시청: 하이브리드 하이브리드 Azure Active Directory 구성
@@ -109,13 +109,13 @@ PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device
 
 기본 Azure AD 자격 증명을 사용하여 자동 **MDM** 등록 사용 정책이 표시되지 않는 경우, Windows 10 버전 1803 이상에 대해 ADMX가 설치되지 않은 것일 수 있습니다. 이 문제를 해결하기 위해 다음 단계를 수행합니다(참고: 최신 MDM.admx는 역과 호환됨).
 
-1.  다운로드: [2020년 10월 업데이트(Windows 10)에 대한 관리 템플릿(.admx)입니다.](https://www.microsoft.com/download/102157)
-2.  도메인 컨트롤러에 패키지를 설치합니다.
-3.  관리 템플릿 버전에 따라 **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 2020 Update (20H2)** 폴더로 이동합니다.
-4.  위의 경로에 있는 **정책** 정의 폴더의 이름을 **PolicyDefinitions로 다시 지정합니다.**
-5.  기본적으로 **C:\Windows\SYSVOL\domain\Policies에** 있는 **PolicyDefinitions** 폴더를 SYSVOL 공유에 복사합니다. 
-    -   전체 도메인에 대해 중앙 정책 저장소를 사용하려면 PolicyDefinitions의 콘텐츠를 추가합니다.
-6.  도메인 컨트롤러가 여러 개 있는 경우 정책을 사용할 수 있도록 SYSVOL이 복제될 때까지 기다렸다가 이 절차는 향후 버전의 관리 템플릿도 사용할 수 있습니다.
+1. 다운로드: [2020년 10월 업데이트(Windows 10)에 대한 관리 템플릿(.admx)입니다.](https://www.microsoft.com/download/102157)
+2. 도메인 컨트롤러에 패키지를 설치합니다.
+3. 관리 템플릿 버전에 따라 **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 2020 Update (20H2)** 폴더로 이동합니다.
+4. 위의 경로에 있는 **정책** 정의 폴더의 이름을 **PolicyDefinitions로 다시 지정합니다.**
+5. 기본적으로 **C:\Windows\SYSVOL\domain\Policies에** 있는 **PolicyDefinitions** 폴더를 SYSVOL 공유에 복사합니다.
+   - 전체 도메인에 대해 중앙 정책 저장소를 사용하려면 PolicyDefinitions의 콘텐츠를 추가합니다.
+6. 도메인 컨트롤러가 여러 개 있는 경우 정책을 사용할 수 있도록 SYSVOL이 복제될 때까지 기다렸다가 이 절차는 향후 버전의 관리 템플릿도 사용할 수 있습니다.
 
 이제 사용 가능한 기본 Azure AD 자격 증명을 사용하여 자동 **MDM** 등록 사용 정책을 볼 수 있습니다.
 

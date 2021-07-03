@@ -17,23 +17,23 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 385227dc67039fb3666d3b9518af5be8eb01dc7a
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 843fe093a2cfb8c328c51676e55f15ae732f7869
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769764"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286024"
 ---
-# <a name="microsoft-defender-for-endpoint-api---hello-world"></a>Endpoint API용 Microsoft Defender API - Hello World 
+# <a name="microsoft-defender-for-endpoint-api---hello-world"></a>Endpoint API용 Microsoft Defender API - Hello World
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-**적용 대상:** 
+**적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -54,7 +54,7 @@ ms.locfileid: "52769764"
 
 1. 전역 관리자 [사용자로 Azure에](https://portal.azure.com) **로그온합니다.**
 
-2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.** 
+2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.**
 
    ![응용 Microsoft Azure 탐색 및 이미지](images/atp-azure-new-app2.png)
 
@@ -82,13 +82,13 @@ ms.locfileid: "52769764"
 
 5. 동의 **부여를 클릭합니다.**
 
-    - **참고:** 권한을 추가할 때마다 새  사용 권한을 적용하기 위해 동의 부여를 클릭해야 합니다.
+   - **참고:** 권한을 추가할 때마다 새  사용 권한을 적용하기 위해 동의 부여를 클릭해야 합니다.
 
-    ![권한 부여 이미지](images/grant-consent.png)
+   ![권한 부여 이미지](images/grant-consent.png)
 
 6. 응용 프로그램에 비밀을 추가합니다.
 
-    - 인증서를 **&,** 비밀에 설명을 추가하고 추가를 **클릭합니다.**
+   - 인증서를 **&,** 비밀에 설명을 추가하고 추가를 **클릭합니다.**
 
     **중요:** 추가를 클릭한 후 생성된 **비밀 값을 복사합니다.** 나가면 검색할 수 없습니다!
 
@@ -100,96 +100,95 @@ ms.locfileid: "52769764"
 
    ![생성된 앱 ID의 이미지](images/app-and-tenant-ids.png)
 
-
 완료! 응용 프로그램을 성공적으로 등록했습니다.
 
 ### <a name="step-2---get-a-token-using-the-app-and-use-this-token-to-access-the-api"></a>2단계 - 앱을 사용하여 토큰을 다운로드하고 이 토큰을 사용하여 API에 액세스합니다.
 
--   아래 스크립트를 PowerShell ISE 또는 텍스트 편집기로 복사하고 **"** Get-Token.ps1"
--   이 스크립트를 실행하면 토큰이 생성되고 ""라는 이름의 작업 **폴더에Latest-token.txt.**
+- 아래 스크립트를 PowerShell ISE 또는 텍스트 편집기로 복사하고 **"** Get-Token.ps1"
+- 이 스크립트를 실행하면 토큰이 생성되고 ""라는 이름의 작업 **폴더에Latest-token.txt.**
 
-```
-# That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
-# Paste below your Tenant ID, App ID and App Secret (App key).
+   ```powershell
+   # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
+   # Paste below your Tenant ID, App ID and App Secret (App key).
 
-$tenantId = '' ### Paste your tenant ID here
-$appId = '' ### Paste your Application ID here
-$appSecret = '' ### Paste your Application secret here
+   $tenantId = '' ### Paste your tenant ID here
+   $appId = '' ### Paste your Application ID here
+   $appSecret = '' ### Paste your Application secret here
 
-$resourceAppIdUri = 'https://api.securitycenter.microsoft.com'
-$oAuthUri = "https://login.microsoftonline.com/$TenantId/oauth2/token"
-$authBody = [Ordered] @{
-    resource = "$resourceAppIdUri"
-    client_id = "$appId"
-    client_secret = "$appSecret"
-    grant_type = 'client_credentials'
-}
-$authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
-$token = $authResponse.access_token
-Out-File -FilePath "./Latest-token.txt" -InputObject $token
-return $token
-```
+   $resourceAppIdUri = 'https://api.securitycenter.microsoft.com'
+   $oAuthUri = "https://login.microsoftonline.com/$TenantId/oauth2/token"
+   $authBody = [Ordered] @{
+       resource = "$resourceAppIdUri"
+       client_id = "$appId"
+       client_secret = "$appSecret"
+       grant_type = 'client_credentials'
+   }
+   $authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
+   $token = $authResponse.access_token
+   Out-File -FilePath "./Latest-token.txt" -InputObject $token
+   return $token
+   ```
 
--   다음을 검사합니다.<br>
-스크립트를 실행합니다.<br>
-브라우저에서 다음으로 이동하세요. https://jwt.ms/ <br>
-토큰(Latest-token.txt 복사합니다.<br>
-위쪽 상자에 붙여 넣습니다.<br>
-"역할" 섹션을 찾아 봐야 합니다. Alert.Read.All 역할을 찾아야 합니다.
+- 다음을 검사합니다.
+  - 스크립트를 실행합니다.
+  - 브라우저에서 다음으로 이동하세요. <https://jwt.ms/>
+  - 토큰(Latest-token.txt 복사합니다.
+  - 위쪽 상자에 붙여 넣습니다.
+  - "역할" 섹션을 찾아 봐야 합니다. Alert.Read.All 역할을 찾아야 합니다.
 
-![이미지 jwt.ms](images/api-jwt-ms.png)
+  ![이미지 jwt.ms](images/api-jwt-ms.png)
 
 ### <a name="lets-get-the-alerts"></a>경고를 받을 수 있습니다!
 
--   아래 스크립트는 **Get-Token.ps1** API에 액세스하고 지난 48시간 동안의 알림을 받을 것입니다.
--   이전 스크립트 파일을 저장한 폴더에 이 스크립트를 **Get-Token.ps1.** 
--   스크립트는 스크립트와 동일한 폴더에 데이터를 사용하여 두 개의 파일(json 및 csv)을 만듭니다.
+- 아래 스크립트는 **Get-Token.ps1** API에 액세스하고 지난 48시간 동안의 알림을 받을 것입니다.
+- 이전 스크립트 파일을 저장한 폴더에 이 스크립트를 **Get-Token.ps1.**
+- 스크립트는 스크립트와 동일한 폴더에 데이터를 사용하여 두 개의 파일(json 및 csv)을 만듭니다.
 
-```
-# Returns Alerts created in the past 48 hours.
+  ```powershell
+  # Returns Alerts created in the past 48 hours.
 
-$token = ./Get-Token.ps1       #run the script Get-Token.ps1  - make sure you are running this script from the same folder of Get-Token.ps1
+  $token = ./Get-Token.ps1       #run the script Get-Token.ps1  - make sure you are running this script from the same folder of Get-Token.ps1
 
-# Get Alert from the last 48 hours. Make sure you have alerts in that time frame.
-$dateTime = (Get-Date).ToUniversalTime().AddHours(-48).ToString("o")       
+  # Get Alert from the last 48 hours. Make sure you have alerts in that time frame.
+  $dateTime = (Get-Date).ToUniversalTime().AddHours(-48).ToString("o")
 
-# The URL contains the type of query and the time filter we create above
-# Read more about other query options and filters at   Https://TBD- add the documentation link
-$url = "https://api.securitycenter.microsoft.com/api/alerts?`$filter=alertCreationTime ge $dateTime"
+  # The URL contains the type of query and the time filter we create above
+  # Read more about other query options and filters at   Https://TBD- add the documentation link
+  $url = "https://api.securitycenter.microsoft.com/api/alerts?`$filter=alertCreationTime ge $dateTime"
 
-# Set the WebRequest headers
-$headers = @{ 
-    'Content-Type' = 'application/json'
-    Accept = 'application/json'
-    Authorization = "Bearer $token" 
-}
+  # Set the WebRequest headers
+  $headers = @{
+      'Content-Type' = 'application/json'
+      Accept = 'application/json'
+      Authorization = "Bearer $token"
+  }
 
-# Send the webrequest and get the results. 
-$response = Invoke-WebRequest -Method Get -Uri $url -Headers $headers -ErrorAction Stop
+  # Send the webrequest and get the results.
+  $response = Invoke-WebRequest -Method Get -Uri $url -Headers $headers -ErrorAction Stop
 
-# Extract the alerts from the results. 
-$alerts =  ($response | ConvertFrom-Json).value | ConvertTo-Json
+  # Extract the alerts from the results.
+  $alerts =  ($response | ConvertFrom-Json).value | ConvertTo-Json
 
-# Get string with the execution time. We concatenate that string to the output file to avoid overwrite the file
-$dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}    
+  # Get string with the execution time. We concatenate that string to the output file to avoid overwrite the file
+  $dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}
 
-# Save the result as json and as csv
-$outputJsonPath = "./Latest Alerts $dateTimeForFileName.json"     
-$outputCsvPath = "./Latest Alerts $dateTimeForFileName.csv"
+  # Save the result as json and as csv
+  $outputJsonPath = "./Latest Alerts $dateTimeForFileName.json"
+  $outputCsvPath = "./Latest Alerts $dateTimeForFileName.csv"
 
-Out-File -FilePath $outputJsonPath -InputObject $alerts
-($alerts | ConvertFrom-Json) | Export-CSV $outputCsvPath -NoTypeInformation 
-```
+  Out-File -FilePath $outputJsonPath -InputObject $alerts
+  ($alerts | ConvertFrom-Json) | Export-CSV $outputCsvPath -NoTypeInformation
+  ```
 
 모두 완료했습니다! 다음을 성공적으로 완료했습니다.
--   생성 및 등록 및 응용 프로그램
--   경고를 읽을 수 있는 해당 응용 프로그램에 대한 사용 권한 부여
--   API 연결
--   PowerShell 스크립트를 사용하여 지난 48시간 동안 생성된 경고 반환
 
-
+- 생성 및 등록 및 응용 프로그램
+- 경고를 읽을 수 있는 해당 응용 프로그램에 대한 사용 권한 부여
+- API 연결
+- PowerShell 스크립트를 사용하여 지난 48시간 동안 생성된 경고 반환
 
 ## <a name="related-topic"></a>관련 항목
+
 - [끝점 API용 Microsoft Defender](exposed-apis-list.md)
 - [응용 프로그램 컨텍스트를 통해 끝점용 Microsoft Defender 액세스](exposed-apis-create-app-webapp.md)
 - [사용자 컨텍스트를 통해 끝점용 Microsoft Defender 액세스](exposed-apis-create-app-nativeapp.md)

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: 데이터 보호, Microsoft 365 전자 메일을 포함하여 GDPR 및 캘리포니아 소비자 개인 정보 보호법(CCPA)과 같은 데이터 개인 정보 보호 규정에 Microsoft Teams SharePoint 구성합니다.
-ms.openlocfilehash: 76bac526dbf648b402c14b3304e32a308219bf02
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: c0ffe7cf850ec6e7ae8c974f983ce43668bf6f30
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229206"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287714"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>데이터 개인 정보 보호 규정에 대한 정보 보호를 Microsoft 365
 
@@ -33,6 +33,11 @@ Microsoft 365 유형의 예로는 Microsoft Teams, Exchange 전자 메일 및 Sh
 ![데이터 개인 정보 보호 규정에 대한 정보 보호](../media/information-protection-deploy/information-protection-data-privacy-regulations-overview.png#lightbox)
 
 데이터 개인 정보 요구에 대한 Microsoft 365, 장치 및 위협 방지 컨트롤을 사용하는 경우 추가 정보가 제공됩니다.
+
+이 비디오를 시청하고 배포 프로세스에 대한 개요를 확인하세요.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4NHCQ]
 
 이러한 Microsoft 365 및 기능은 정보 보호 기준을 충족하는 데 도움이 됩니다.
 
@@ -105,3 +110,26 @@ Microsoft 365 데이터 개인 정보 규정 준수를 준수하는 데 사용�
 이러한 기능을 사용하는 프로세스, 절차 및 기타 설명서는 규제 기관의 규정 준수를 입증하는 데 중요할 수 있습니다.
 
 자세한 내용은 조직의 데이터 개인 정보 인시던트 모니터링 및 [대응을 참조하세요.](information-protection-deploy-monitor-respond.md)
+
+## <a name="training-for-administrators"></a>관리자 교육
+
+Microsoft Learn의 이러한 교육 모듈은 정보 보호에 중요한 기능을 알아보는 데 도움이 될 수 있습니다.
+
+
+#### <a name="information-protection"></a>정보 보호
+
+|교육:|Microsoft 365를 사용하여 엔터프라이즈 정보 보호|
+|:---|:---|
+|![Teams 정보 보호 교육 아이콘](../media/protect-enterprise-information-microsoft-365.svg)|조직의 정보를 보호하고 보안을 유지하는 것이 어느 때보다 어려워졌습니다. Microsoft 365로 엔터프라이즈 정보 보호 학습 경로는 우발적인 과도한 공유 또는 오용으로부터 중요한 정보를 보호하는 방법, 데이터를 검색하고 분류하는 방법, 민감도 레이블을 사용하여 중요한 정보를 보호하는 방법 및 중요한 정보가 손실되지 않도록 보호하기 위해 모니터링하고 분석하는 방법에 대해 설명합니다. 이 학습 경로를 통해 인증된 Microsoft 365: 보안 관리자 연결 및 인증: Microsoft 365 인증: 관리 전문가 인증을 Enterprise 수 있습니다.<br><br>1 hr - Learning 경로 - 5개 모듈|
+
+> [!div class="nextstepaction"]
+> [시작 >](/learn/modules/m365-security-info-overview/introduction/)
+
+#### <a name="identity-and-access"></a>ID 및 액세스
+
+|교육:|Azure Active Directory로 ID 보호|
+|:---|:---|
+|![ID 및 액세스 교육 아이콘](../media/protect-identity-and-access-with-microsoft-365.svg)|ID 및 Access 학습 경로에는 최신 ID 및 액세스 기술, 인증 강화 도구 및 조직 내 ID 보호에 대한 지침이 포함되어 있습니다. Microsoft의 액세스 및 ID 기술을 사용하면 온-프레미스 또는 클라우드에 있는 조직의 ID를 보호할 수 있으며, 사용자가 어느 위치에서나 안전하게 작업하도록 할 수 있습니다. 이 학습 경로를 통해 Microsoft 365 인증: 보안 관리자 학위 및 Microsoft 365 인증: 엔터프라이즈 관리 전문가 인증서를 준비할 수 있습니다.<br><br>2시간 52분 - Learning 경로 - 6개 모듈|
+
+> [!div class="nextstepaction"]
+> [시작 >](/learn/modules/m365-identity-overview/introduction/)

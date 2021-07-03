@@ -8,12 +8,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b1111f0867ff9a49ba670cdd8b48d10d158fd3ed
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 07d4632c6ce775d98d9606f9edc4566aa48d9d8e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917773"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287810"
 ---
 # <a name="security-technologies-in-microsoft-managed-desktop"></a>보안 기술의 Microsoft Managed Desktop
 
@@ -21,12 +21,12 @@ ms.locfileid: "50917773"
 
 Microsoft Managed Desktop Microsoft 기술을 사용하여 관리되는 장치 및 데이터를 보호합니다. 또한 Microsoft Managed Desktop 보안 운영 센터는 이러한 [](security-operations.md) 기술과 함께 다양한 프로세스를 사용합니다.
 
-특히 다음 사항에 유의합니다. 
+특히 다음 사항에 유의합니다.
 
 - [장치 보안](#device-security) - 디바이스의 보안 Microsoft Managed Desktop 보호
 - [ID 및 액세스 관리](#identity-and-access-management) – ID 서비스를 통해 장치를 안전하게 Azure Active Directory 관리
 - [네트워크 보안](#network-security) – VPN 정보 및 권장 Microsoft Managed Desktop 설정
-- [정보 보안](#information-security) - 중요한 정보를 추가로 보호하기 위한 선택적 사용 가능한 서비스 
+- [정보 보안](#information-security) - 중요한 정보를 추가로 보호하기 위한 선택적 사용 가능한 서비스
 
 데이터 저장소, 사용 현황 및 보안 사례에 대한 자세한 내용은 Microsoft Managed Desktop 백서()를 [https://aka.ms/mmd-data](https://aka.ms/mmd-data) 참조하세요.
 
@@ -38,21 +38,21 @@ Microsoft Managed Desktop 관리되는 장치를 모두 보호하고 다음 서�
 서비스 | 설명
 --- | ---
 바이러스 검사 | Microsoft Defender AV 설치 및 구성<br>Microsoft Defender AV 정의가 최신입니다.
-전체 볼륨 암호화 |    Windows BitLocker 장치용 볼륨 Microsoft Managed Desktop 솔루션입니다.<br><br>조직이 서비스에 온보드되고 나면 장치가 절전 모드 또는 꺼진 Windows BitLocker 로컬 데이터에 대한 무단 액세스를 방지하기 위해 기본 제공 TPM(트러스트 플랫폼 모듈)을 사용하여 장치를 암호화합니다. 
-모니터링 |    끝점용 Microsoft Defender는 모든 디바이스에서 보안 위협을 모니터링하는 Microsoft Managed Desktop 사용됩니다. Endpoint용 Defender를 사용하면 엔터프라이즈 고객이 회사 네트워크에서 고급 위협을 감지, 조사 및 대응할 수 있습니다. 자세한 내용은 [끝점용 Microsoft Defender를 참조하세요.](/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 
-운영 체제 업데이트 |  Microsoft Managed Desktop 장치를 항상 최신 보안 업데이트로 보호합니다.
-보안 장치 구성 |   Microsoft Managed Desktop Microsoft 보안 기준을 구현합니다. 자세한 내용은 보안 기준 [Windows 참조하세요.](/windows/security/threat-protection/windows-security-baselines)
+전체 볼륨 암호화 | Windows BitLocker는 장치용 Microsoft Managed Desktop 솔루션입니다.<br><br>조직이 서비스에 온보드되고 나면 장치가 절전 모드에 있을 때 또는 꺼질 때 로컬 데이터에 대한 무단 액세스를 방지하기 위해 기본 제공 TPM(트러스트 플랫폼 모듈)이 있는 Windows BitLocker를 사용하여 장치가 암호화됩니다.
+모니터링 | 끝점용 Microsoft Defender는 모든 디바이스에서 보안 위협을 모니터링하는 Microsoft Managed Desktop 사용됩니다. Endpoint용 Defender를 사용하면 엔터프라이즈 고객이 회사 네트워크에서 고급 위협을 감지, 조사 및 대응할 수 있습니다. 자세한 내용은 [끝점용 Microsoft Defender를 참조하세요.](/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
+운영 체제 업데이트 | Microsoft Managed Desktop 장치를 항상 최신 보안 업데이트로 보호합니다.
+보안 장치 구성 | Microsoft Managed Desktop Microsoft 보안 기준을 구현합니다. 자세한 내용은 보안 기준 [Windows 참조하세요.](/windows/security/threat-protection/windows-security-baselines)
 
 
 
 ## <a name="identity-and-access-management"></a>ID 및 액세스 관리
 
-ID 및 액세스 관리는 회사 자산 및 업무상 중요한 데이터를 보호합니다. Microsoft Managed Desktop Azure AD(관리 ID)에서 안전하게 Azure Active Directory 장치를 구성합니다. Azure AD 테넌트에서 정확한 정보를 유지 관리하는 것은 고객의 책임입니다. 
+ID 및 액세스 관리는 회사 자산 및 업무상 중요한 데이터를 보호합니다. Microsoft Managed Desktop Azure AD(관리 ID)에서 안전하게 Azure Active Directory 장치를 구성합니다. Azure AD 테넌트에서 정확한 정보를 유지 관리하는 것은 고객의 책임입니다.
 
 서비스 | 설명
 --- | ---
-생체 인식 인증 |  Windows Hello를 사용하면 사용자가 얼굴이나 PIN을 사용하여 로그인할 수 있어 암호를 잊어버리거나 도용하기가 더 어려워질 수 있습니다. 고객은 하이브리드 구성에서 이 서비스를 사용하기 위해 해당 On-프레미스 Active Directory에 필요한 필수 구성을 구현할 책임이 있습니다. 자세한 내용은 hello를 [Windows 참조하세요.](/windows-hardware/design/device-experiences/windows-hello) 
-표준 사용자 권한 |  시스템을 보호하고 보안을 더 안전하게 유지하려면 사용자에게 표준 사용자 권한이 할당됩니다. 이 사용 권한은 Autopilot 첫 Windows 환경의 일부로 할당됩니다.
+생체 인식 인증 | Windows Hello 사용하면 사용자가 얼굴이나 PIN을 사용하여 로그인할 수 있어 암호를 잊어버리거나 도용하기가 더 어려워질 수 있습니다. 고객은 하이브리드 구성에서 이 서비스를 사용하기 위해 해당 On-프레미스 Active Directory에 필요한 필수 구성을 구현할 책임이 있습니다. 자세한 내용은 [Windows Hello.](/windows-hardware/design/device-experiences/windows-hello) 
+표준 사용자 권한 | 시스템을 보호하고 보안을 더 안전하게 유지하려면 사용자에게 표준 사용자 권한이 할당됩니다. 이 사용 권한은 Autopilot 첫 Windows 환경의 일부로 할당됩니다.
 
 
 
@@ -71,5 +71,5 @@ VPN | 고객은 제한된 회사 리소스를 인트라넷 외부에 노출할 �
 
 서비스 | 설명
 --- | ---
-데이터 복구  | 디바이스의 키 폴더에 저장된 정보는 백업되어 비즈니스용 OneDrive. Microsoft Managed Desktop 데이터와 동기화되지 않은 데이터는 비즈니스용 OneDrive. 
-Windows Information Protection |    높은 수준의 정보 보안이 필요한 회사에서는 정보 보호 [Windows](/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) [Azure Information Protection을 구성하는 것이 좋습니다.](https://www.microsoft.com/cloud-platform/azure-information-protection)
+데이터 복구  | 디바이스의 키 폴더에 저장된 정보는 백업되어 비즈니스용 OneDrive. Microsoft Managed Desktop 데이터와 동기화되지 않은 데이터는 비즈니스용 OneDrive.
+Windows Information Protection | 높은 수준의 정보 보안이 필요한 회사에서는 정보 보호 및 Azure [Windows 하는](/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) [것이 좋습니다.](https://www.microsoft.com/cloud-platform/azure-information-protection)

@@ -1,6 +1,6 @@
 ---
-title: Defender의 인시던트 Microsoft 365 API 나열
-description: Defender에서 인시던트 API를 나열하는 Microsoft 365 방법
+title: 인시던트 목록 API를 Microsoft 365 Defender
+description: 인시던트 API를 목록화하는 방법을 Microsoft 365 Defender
 keywords: 목록, 인시던트, 인시던트, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 833bc1d8284829323cc2f0c391e42f4e563a6948
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 038879e77dfa26d82add20d043a32de117f95b19
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730885"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287834"
 ---
-# <a name="list-incidents-api-in-microsoft-365-defender"></a>Defender의 인시던트 Microsoft 365 API 나열
+# <a name="list-incidents-api-in-microsoft-365-defender"></a>인시던트 목록 API를 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,7 +38,6 @@ ms.locfileid: "52730885"
 
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
-
 
 ## <a name="api-description"></a>API 설명
 
@@ -57,7 +56,7 @@ API는 다음 **OData 연산자를** 지원합니다.
 
 ## <a name="permissions"></a>사용 권한
 
-이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 Access Microsoft 365 [Defender API를 참조합니다.](api-access.md)
+이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 Access Microsoft 365 Defender [참조](api-access.md)
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 -|-|-
@@ -82,7 +81,7 @@ GET /api/incidents
 
 이름 | 유형 | 설명
 -|-|-
-권한 부여 | String | Bearer {token}. **필수**
+권한 부여 | 문자열 | Bearer {token}. **필수**
 
 
 ## <a name="request-body"></a>요청 본문
@@ -125,7 +124,7 @@ lastUpdatedTime | 백엔드에서 경고가 마지막으로 업데이트된 시�
 resolvedTime | 경고가 해결된 시간입니다. | 2020-09-10T05:22:59Z
 firstActivity | 활동이 백엔드에서 업데이트된 것으로 처음 보고된 시간입니다.| 2020-09-04T05:22:59Z
 title | 각 경고에 사용할 수 있는 간략한 식별 문자열 값입니다. | 랜섬웨어 활동
-설명 | 각 경고를 설명하는 문자열 값입니다. | 사용자 Test User2(testUser2@contoso.com)가 99개 파일을 조작하고 여러 확장명은 희미한 *확장명인 herunterladen으로 끝났습니다.* 이는 비정상적인 파일 조작 수로 잠재적인 랜섬웨어 공격을 나타내는 것입니다.
+description | 각 경고를 설명하는 문자열 값입니다. | 사용자 Test User2(testUser2@contoso.com)가 99개 파일을 조작하고 여러 확장명은 희미한 *확장명인 herunterladen으로 끝났습니다.* 이는 비정상적인 파일 조작 수로 잠재적인 랜섬웨어 공격을 나타내는 것입니다.
 category | 킬체인을 따라 공격이 얼마나 진행된 지의 시각적 및 숫자 보기입니다. [MITRE ATT CK&프레임워크에 ™ 정렬됩니다.](https://attack.mitre.org/) | 영향
 status | 경고를 새로, 활성 또는 해결된 경고로 *분류합니다.* 경고에 대한 응답을 구성하고 관리하는 데 도움이 될 수 있습니다. | 신규
 심각도 | 자산에 미칠 수 있는 영향을 나타냅니다. 심각도가 높을수록 영향이 커집니다. 일반적으로 심각도 항목이 높을수록 가장 즉각적인 주의가 필요합니다.<br>정보, 낮음, *중간 및 *높음* 값 중 하나 | 보통
@@ -186,19 +185,19 @@ securityGroupId | entityType이 *SecurityGroup인 경우 사용할 수 있습니
 securityGroupName | entityType이 *SecurityGroup인 경우 사용할 수 있습니다.* | 네트워크 구성 연산자
 registryHive | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | HKEY \_ 로컬 \_ 컴퓨터 |
 registryKey | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
-registryValueType | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | String
+registryValueType | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | 문자열
 registryValue | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | 31-00-00-00
 deviceId | 엔터티와 관련된 장치의 ID(있는 경우)입니다. | 986e5df8b73dacd43c8917d17e523e76b13c75cd
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
-**요청**
+### <a name="request"></a>요청
 
 ```HTTP
 GET https://api.security.microsoft.com/api/incidents
 ```
 
-**응답**
+### <a name="response"></a>응답
 
 ```json
 {
@@ -724,7 +723,7 @@ GET https://api.security.microsoft.com/api/incidents
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Microsoft 365 Defender API에 액세스](api-access.md)
+- [MICROSOFT 365 DEFENDER API에 액세스](api-access.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)
 - [인시던트 개요](incidents-overview.md)

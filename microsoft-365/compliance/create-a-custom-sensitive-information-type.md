@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정하고, 제거하고, 테스트하는 & 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e067bc502267e918bd355d9bf8a1982795255846
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: f346a32da6f47cadc0ded6d7d045a833bb3b60b0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256726"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287542"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -128,12 +128,14 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 ### <a name="checksum-validator"></a>Checksum 유효성 검사기
 
 정규식의 숫자에 체크 아웃을 실행해야 하는 경우 체크 um *유효성 검사기 를 사용할 수 있습니다.* 예를 들어 마지막 숫자가 mod 9 계산을 사용하여 유효성을 검사하는 체크 um 숫자인 8자리 라이선스 번호에 대한 SIT를 만들어야 된다고 합니다. 체크 um 알고리즘을 설정했습니다.
- 
+
 Sum = digit = digit 1 * Weight 1 + digit 2 * weight 2 + digit 3 * weight 3 + digit 4 * weight 4 + digit 5 * weight 5 + digit 6 * weight 6 + digit 7 * weight 7 + digit 8 * weight 8 Mod value = Sum % 9 If Mod value == digit 8 Account number is valid If Mod value != digit 8 Account number is invalid
 
 1. 이 정규식을 사용하여 기본 요소를 정의합니다.
 
-`\d{8}`
+   ```console
+   \d{8}
+   ```
 
 2. 그런 다음 체크 um 유효성 검사를 추가합니다.
 3. 가중치 값, 검사 숫자의 위치 및 Mod 값으로 구분하여 추가합니다. Modulo 작업에 대한 자세한 내용은 [Modulo 작업을 참조하십시오.](https://en.wikipedia.org/wiki/Modulo_operation)
@@ -145,11 +147,13 @@ Sum = digit = digit 1 * Weight 1 + digit 2 * weight 2 + digit 3 * weight 3 + dig
 
 ### <a name="date-validator"></a>날짜 유효성 검사기
 
-정규식에 포함된 날짜 값이 새로 만드는 패턴의 일부인 경우 날짜  유효성 검사기에서 조건을 충족하는지 테스트할 수 있습니다. 예를 들어 9자리 직원 ID 번호에 대한 SIT를 만들라고 합니다. 처음 6자리 숫자는 DDMMYY 형식의 채용 날짜로, 마지막 3자리는 임의로 생성된 숫자입니다. 처음 6자리 숫자가 올바른 형식의지 확인합니다. 
+정규식에 포함된 날짜 값이 새로 만드는 패턴의 일부인 경우 날짜  유효성 검사기에서 조건을 충족하는지 테스트할 수 있습니다. 예를 들어 9자리 직원 ID 번호에 대한 SIT를 만들라고 합니다. 처음 6자리 숫자는 DDMMYY 형식의 채용 날짜로, 마지막 3자리는 임의로 생성된 숫자입니다. 처음 6자리 숫자가 올바른 형식의지 확인합니다.
 
 1. 이 정규식을 사용하여 기본 요소를 정의합니다.
 
-`\d{9}`
+   ```console
+   \d{9}
+   ```
 
 2. 그런 다음 날짜 유효성 검사기 를 추가합니다.
 3. 날짜 형식과 시작 오프셋을 선택합니다. 날짜 문자열은 처음 6자리 숫자이기 때문에 오프셋은 `0` 입니다.

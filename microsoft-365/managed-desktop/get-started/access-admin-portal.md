@@ -10,12 +10,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 2facd506497cbdab42f2d8b051fbd50f82432927
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 345ae56a1c328dad7b777468dd03bcab40f9b4e1
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770604"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286876"
 ---
 # <a name="access-the-admin-portal"></a>관리 포털 액세스
 
@@ -61,12 +61,12 @@ Azure Active Directory 할당하는 데 도움이 필요한 경우 에서 관리
 ### <a name="assigning-built-in-roles-to-user"></a>사용자에게 기본 제공 역할 할당
 
 기본 제공 역할을 쉽게 관리하기 위해 "최신 작업 공간 역할 _-_ 역할 이름"(예: "최신 작업 공간 역할 - 보안 관리자")으로 각 사용자 지정 역할에 대한 보안 그룹이 있습니다. 사용자를 이러한 보안 그룹 중 하나에 할당하기 위해 다음 단계를 수행합니다.
-1.  Microsoft Endpoint Manager 포털로 이동합니다.
-2.  **왼쪽에서** 그룹을 선택합니다.
-3.  최신 작업 **공간 역할을 검색한** 다음 할당할 역할과 연결된 그룹을 선택합니다. 
-4.  왼쪽에서 **구성원을** 선택한 다음 명령 표시줄에서 **+ 구성원** 추가를 선택합니다.
-5.  추가할 사람의 전자 메일을 입력합니다. 게스트인 경우 그룹을 할당하려면 먼저 게스트를 초대해야 합니다.
-6.  **아래쪽에서** 선택을 선택합니다.
+1. Microsoft Endpoint Manager 포털로 이동합니다.
+2. **왼쪽에서** 그룹을 선택합니다.
+3. 최신 작업 **공간 역할을 검색한** 다음 할당할 역할과 연결된 그룹을 선택합니다. 
+4. 왼쪽에서 **구성원을** 선택한 다음 명령 표시줄에서 **+ 구성원** 추가를 선택합니다.
+5. 추가할 사람의 전자 메일을 입력합니다. 게스트인 경우 그룹을 할당하려면 먼저 게스트를 초대해야 합니다.
+6. **아래쪽에서** 선택을 선택합니다.
 
 > [!NOTE]
 > 역할 할당을 위한 중첩 보안 그룹은 현재 지원되지 않습니다. 
@@ -74,6 +74,7 @@ Azure Active Directory 할당하는 데 도움이 필요한 경우 에서 관리
 ### <a name="assigning-built-in-roles-to-groups"></a>그룹에 기본 제공 역할 할당
 
 기본 제공 역할을 기존 그룹에 하나 이상 할당해야 하는 경우 다음 단계를 수행합니다.
+
 1. 으로 [portal.azure.com.](https://portal.azure.com/)
 2. 응용 프로그램을 **검색하고 Enterprise 를 열 수 있습니다.**
 3. 응용 프로그램 유형 **필터를** _Microsoft 응용 프로그램으로 변경한_ 다음 적용 을 **선택합니다.**

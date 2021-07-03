@@ -20,30 +20,30 @@ ms.custom:
 search.appverid: MET150
 description: Power Apps Microsoft Microsoft 365, Microsoft Flow 및 Dynamics 365 for Finance와 같은 셀프 서비스 등록 및 사용 가능한 셀프 서비스 프로그램에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: f3427294a94875e21a5e6b99a09056617a7dea99
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 7aec03abce468342cfeb23da490b1f950ecd7050
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332381"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286588"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 
 셀프 서비스 등록을 사용하면 조직의 사용자가 Microsoft의 온라인 서비스에 쉽게 등록할 수 있습니다. 이 등록 프로세스를 "셀프 서비스 등록"이라고 합니다. 사용자가 구독에서 결제한 서비스를 사용하기 위해 등록하거나, 사용자를 대신하여 작업을 수행하지 않고 무료 서비스를 사용할 수 있기 때문에 이 프로세스를 "셀프 서비스 등록"이라고 합니다.
-  
+
 ## <a name="how-self-service-sign-up-works"></a>셀프 서비스 등록 작동 방식
 
 다음 예제에서는 학교에서 셀프 등록이 작동하는 방식에 대해 설명합니다. 테넌트에서 셀프 서비스 프로그램이 활성화된 조직에는 동일한 프로세스가 작동합니다.
-  
+
 1. 학생 및 교직원에게는 해당 기관과 연관된 학교 전자 메일 주소가 있습니다. 예를 들어 전자 메일 jakob@uw.edu 워싱턴 대학의 학생을 나타낼 수 있습니다.
 2. 학생과 교직원은 웹 사이트로 이동하여 전자 메일 주소를 사용하여 조직에서 제공하는 서비스(예: 사이트)에 엔터프라이즈용 Microsoft 365 앱. [](https://go.microsoft.com/fwlink/p/?LinkId=536628) 또한 서비스에서 제공하는 다른 무료 서비스에 등록할 수도 있습니다.
 3. 전자 메일 주소의 유효성을 검사한 후 바로 Microsoft 365, Power BI 서비스를 사용할 수 있습니다.
-4. 비즈니스 관리자는 Microsoft 365 관리 센터의 라이선스 페이지에서 구독을 선택하여 구독에  등록한 Microsoft 365 있습니다. 이렇게 하면 테넌트에 서비스에 대한 새 라이선스 또는 인식할 수 없는 라이선스가 있는 경우를 볼 수 있습니다. 사용자가 셀프 서비스 구독에 등록할 수 있는지 여부를 제어하려면 **AllowAdHocSubscriptions** 매개 변수와 함께 [Set-MsolCompanySettings](/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0&preserve-view=true) PowerShell cmdlet을 사용합니다. 자세한 내용은 [셀프 서비스 설정을 제어하는 방법을 참조하세요.](/azure/active-directory/users-groups-roles/directory-self-service-signup#how-do-i-control-self-service-settings)
+4. 비즈니스 관리자는 라이선스 페이지의 라이선스 페이지에서 구독을 선택하여 구독에 등록한  Microsoft 365 관리 센터. 이렇게 하면 테넌트에 서비스에 대한 새 라이선스 또는 인식할 수 없는 라이선스가 있는 경우를 볼 수 있습니다. 사용자가 셀프 서비스 구독에 등록할 수 있는지 여부를 제어하려면 **AllowAdHocSubscriptions** 매개 변수와 함께 [Set-MsolCompanySettings](/powershell/module/msonline/set-msolcompanysettings) PowerShell cmdlet을 사용합니다. 자세한 내용은 [셀프 서비스 설정을 제어하는 방법을 참조하세요.](/azure/active-directory/users-groups-roles/directory-self-service-signup#how-do-i-control-self-service-settings)
 
 ## <a name="available-self-service-programs"></a>사용 가능한 셀프 서비스 프로그램
 
 다음은 현재 사용 가능한 셀프 서비스 프로그램입니다. 이 목록은 새 프로그램이 추가될 때 업데이트됩니다.
-  
+
 | 프로그램 <br/> | 설명 <br/> | 추가 정보 <br/> | 셀프 서비스 등록 웹 사이트 <br/> |
 |:-----|:-----|:-----|:-----|
 |Office 365 A1**** <br/> |학생 또는 교사는 학교 전자 메일 주소를 사용하여 무료 Office 365 등록하고 웹용 Office 앱, 수업, 팀 및 프로젝트 사이트의 경우 OneDrive 클라우드 저장소 SharePoint Online을 다운로드할 수 있습니다.  <br/> |[Office 365 Education 기술 FAQ](/microsoft-365/education/deploy/office-365-education-self-sign-up) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |

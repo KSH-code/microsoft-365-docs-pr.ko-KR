@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: 비즈니스에 큰 영향을 미치는 계정으로 보내거나 보낸 전자 메일로 전송된 실패 및 지연된 전자 메일 메시지를 모니터링합니다.
-ms.openlocfilehash: 2a58f4090244fc6d68be69cf6b3c8ab6e00874fa
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 86e01e591823c94d8279f975ed7de24cc65776dc
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535809"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286144"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>우선 순위 계정 관리 및 모니터링
 
@@ -41,11 +41,11 @@ ms.locfileid: "52535809"
 
 이 **항목에 설명된** 우선 순위 계정 보호 기능은 다음 요구 사항을 충족하는 조직에서만 사용할 수 있습니다.
 
-- Microsoft Defender for Office 365 요금제 2에는 E3, Office 365 E5, Office 365, Microsoft 365 E5 또는 Microsoft 365 E5 Security.
+- Microsoft Defender for Office 365 Plan 2(Office 365 E3, Office 365 E5, Microsoft 365 E5 또는 Microsoft 365 E5 Security.
 
 이 **Premium 메일** Flow 모니터링 기능은 다음 요구 사항을 충족하는 조직에서만 사용할 수 있습니다.
 
-- 조직에 라이선스 수가 10,000개 이상(예: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. 예를 들어 조직에는 3,000개 Office 365 E3 라이선스와 8500개 Microsoft 365 E5 수 있으며, 적격 제품의 총 라이선스 수가 11,500개일 수 있습니다.
+- 조직에서는 라이선스 수가 5,000개 이상(예: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. 예를 들어 조직에서는 적격 제품 총 5,500개의 라이센스에 대해 3,000개의 Office 365 E3 라이선스 및 2,500개의 Microsoft 365 E5 라이선스를 보유할 수 있습니다.
 - 조직에는 매월 최소 50명의 활성 Exchange Online 사용자가 있어야 합니다.
 
 > [!NOTE]
@@ -57,7 +57,7 @@ ms.locfileid: "52535809"
 
 설치 페이지에서 우선 순위 **계정을 추가합니다.**
 
-1. 에서 Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 이동하세요.
+1. 의 Microsoft 365 관리 센터 로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>
 
 2. 조직 정보  >  **설정으로 이동하여** **가장** 중요한 계정 **모니터링에서 보기를 선택하십시오.**
 
@@ -83,7 +83,7 @@ ms.locfileid: "52535809"
 
 ## <a name="remove-a-user-from-the-priority-accounts-list"></a>우선 순위 계정 목록에서 사용자 제거
 
-1. 에서 Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 이동하세요.
+1. 의 Microsoft 365 관리 센터 로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>
 
 2. 조직 정보  >  **설정으로 이동하여** **가장** 중요한 계정 **모니터링에서 보기를 선택하십시오.**
 

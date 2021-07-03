@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce387799a2f9e6d6cdffe063d3adf7310d7e7757
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: eec4869c5ff0b4caeedc52891a56d604c4b54348
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842725"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286036"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -38,8 +38,8 @@ ms.locfileid: "52842725"
 - 사용자 계정 특성은 Azure Active Directory(또는 Exchange Online)에서 정의합니다. 이러한 특성에는 부서, 직위, 위치, 팀 이름 및 기타 직무 프로필 세부 정보가 포함됩니다. 
 - 세그먼트는 선택한 사용자 계정 특성을 & 보안 및 준수 센터에 정의된 **사용자 집합입니다.** ([지원되는 특성 목록](information-barriers-attributes.md)을 참조)
 - 정보 장벽 정책은 통신 한도 또는 제한을 결정합니다. 정보 장벽 정책을 정의할 경우, 두 가지 정책 중에서 선택할 수 있습니다.
-    - "차단" 정책은 한 세그먼트가 다른 세그먼트와 통신하지 못하게 합니다.
-    - "허용" 정책을 사용하면 한 세그먼트가 다른 특정 세그먼트와만 통신할 수 있습니다.
+  - "차단" 정책은 한 세그먼트가 다른 세그먼트와 통신하지 못하게 합니다.
+  - "허용" 정책을 사용하면 한 세그먼트가 다른 특정 세그먼트와만 통신할 수 있습니다.
 - 정책 적용은 모든 정보 장벽 정책이 정의되고 조직에 적용할 준비가 된 후에 이루어집니다.
 
 ## <a name="the-work-flow-at-a-glance"></a>워크플로 한 눈에 보기
@@ -53,7 +53,7 @@ ms.locfileid: "52842725"
 | (필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md) | - 세그먼트 편집<br/>- 정책 편집 또는 제거<br/>- 정책 응용 프로그램 다시 실행<br/>- 정책 상태 보기 |
 | (필요한 경우) [문제 해결](information-barriers-troubleshooting.md)| - 작업이 예상대로 작동하지 않는 경우 작업 수행|
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 필요한 라이선스 [및](information-barriers.md#required-licenses-and-permissions)사용 권한 외에도 다음 요구 사항을 충족하는지 확인합니다.
 
@@ -71,8 +71,8 @@ ms.locfileid: "52842725"
 - 주소장 정책 없음 - 정보 장벽 정책을 정의하고 적용하기 전에 주소 Exchange 정책이 적용되어 있는지 확인하지 않습니다. 정보 장벽은 주소록 정책을 기반으로 하지만 두 종류의 정책은 호환되지 않습니다. 이러한 정책이 있는 경우 먼저 주소부 정책을 [제거해야](/exchange/address-books/address-book-policies/remove-an-address-book-policy) 합니다. 정보 장벽 정책을 사용하도록 설정하고 계층적 주소 예약을 사용하도록  설정하면 정보 장벽 세그먼트에 포함되지 [](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 않은 모든 사용자에게는 온라인 Exchange 표시됩니다.
 
 - PowerShell - 현재 정보 장벽 정책은 PowerShell cmdlet을 사용하여 Office 365 보안 & 규정 준수 센터에서 정의되고 관리됩니다. 이 문서에서는 몇 가지 예제를 제공하겠지만 PowerShell cmdlet 및 매개 변수에 익숙해야 합니다. 또한 이 모듈은 Azure PowerShell 필요합니다.
-    - [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)
-    - [Azure PowerShell 모듈 설치](/powershell/azure/install-az-ps?view=azps-2.3.2)
+  - [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)
+  - [Azure PowerShell 모듈 설치](/powershell/azure/install-az-ps)
 
 - Microsoft Teams 정보 장벽에 대한 관리자 동의 - IB 정책이 설정되어 있는 경우 그룹(즉, 그룹을 기반으로 하는 Teams 채널)에서 IB가 아닌 사용자를 제거할 수 있습니다. 이 구성은 조직이 정책 및 규정을 준수하는지 보장하는 데 도움이 됩니다. 다음 절차에 따라 정보 장벽 정책이 해당 정책에서 예상대로 작동하도록 Microsoft Teams.
 
@@ -91,10 +91,9 @@ ms.locfileid: "52842725"
    1. 메시지가 표시될 때 사용자 계정으로 직장 또는 학교 계정을 사용하여 Office 365.
 
    1. 요청한 **사용** 권한 대화 상자에서 정보를 검토한 다음 수락을 **선택합니다.** 앱에서 요청한 사용 권한은 아래에 제공됩니다.
-      
+
       > [!div class="mx-imgBorder"]
       > ![이미지](https://user-images.githubusercontent.com/8932063/107690955-b1772300-6c5f-11eb-9527-4235de860b27.png)
-
 
 모든 선행 구성이 충족될 경우 다음 섹션으로 진행합니다.
 
@@ -132,7 +131,7 @@ ms.locfileid: "52842725"
 
 1. 사용할 특성에 해당하는 **UserGroupFilter** 매개 변수와 함께 **New-OrganizationSegment** cmdlet을 사용합니다. [](information-barriers-attributes.md)
 
-    | 구문 | 예시 |
+    | 구문 | 예제 |
     |:---------|:----------|
     | `New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"` |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>이 예에서 *HR이라는* 세그먼트는 Department 특성의 *값인 HR을* *사용하여 정의됩니다.* cmdlet의 **-eq** 부분은 "같음"을 참조합니다. 또는 **-ne를 사용하여 "not** equals"를 의미할 수 있습니다. 세그먼트 [정의에서 "같음" 및 "같지 않은" 사용을 참조합니다.](#using-equals-and-not-equals-in-segment-definitions) |
 
@@ -149,19 +148,19 @@ ms.locfileid: "52842725"
 
 다음 예제에서는 "Department가 HR과 같음"을 정의합니다. 
 
-| 예시 | 참고 |
+| 예제 | 참고 |
 |:----------|:-------|
 |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` | 이 예제에서 세그먼트 정의에는 **-eq로** 지칭된 "equals" 매개 변수가 포함되어 있습니다. |
 
 다음 표와 같이 **-ne로** 표시된 "같지 않은" 매개 변수를 사용하여 세그먼트를 정의할 수도 있습니다.
 
-| 구문 | 예시 |
+| 구문 | 예제 |
 |:---------|:----------|
 | `New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"` | 이 예제에서는 Sales에 없는 모든 사람을 포함하는 *NotSales라는* 세그먼트를 *정의했습니다.* cmdlet의 **-ne** 부분은 "같지 않습니다."를 참조합니다. |
 
 "같음" 또는 "같지 않은" 매개 변수를 사용하여 세그먼트를 정의하는 것 외에도 "같음" 및 "같지 않은" 매개 변수를 모두 사용하여 세그먼트를 정의할 수 있습니다. 논리 AND 및 OR 연산자를 사용하여 복잡한 *그룹* *필터를 정의할 수도* 있습니다.
 
-| 구문 | 예시 |
+| 구문 | 예제 |
 |:---------|:----------|
 | `New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" -and "Position -ne 'Temporary'"` | 이 예제에서는 로컬에 있으며 해당 위치가 임시로 나열되지 않는 사람이 포함된 *LocalFTE라는* 세그먼트를 *정의했습니다.* |
 | `New-OrganizationSegment -Name "Segment1" -UserGroupFilter "MemberOf -eq 'group1@contoso.com'' -and MemberOf -ne 'group3@contoso.com'"`| 이 예제에서는 *Segment1이라는* 세그먼트를 정의하여 이 세그먼트의 구성원이 아닌 group1@contoso.com 구성원인 group3@contoso.com. |
@@ -193,13 +192,13 @@ ms.locfileid: "52842725"
 
 1. 첫 번째 차단 정책을 정의하기 위해 **SegmentsBlocked** 매개 변수와 함께 **New-InformationBarrierPolicy** cmdlet을 사용합니다.
 
-    | 구문 | 예시 |
+    | 구문 | 예제 |
     |:--------|:----------|
     | `New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsBlocked "segment2name"` | `New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p> 이 예제에서는 Sales라는 세그먼트에 대해 *Sales-Research라는* 정책을 *정의했습니다.* 이 정책을 활성화하고 적용하면 Sales의 사용자가 *Research라는* 세그먼트의 사용자와 통신할 수 *없습니다.* |
 
 2. 두 번째 차단 세그먼트를 정의하기 위해 세그먼트가 반대인 **SegmentsBlocked** 매개 변수와 함께 **New-InformationBarrierPolicy** cmdlet을 다시 사용합니다.
 
-    | 예시 | 참고 |
+    | 예제 | 참고 |
     |:----------|:-------|
     |`New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` | 이 예에서는 *Research-Sales라는* 정책을 정의하여 *Research가 Sales와* 통신하지 못하게 *합니다.* |
 
@@ -212,13 +211,13 @@ ms.locfileid: "52842725"
 
 1. 한 세그먼트가 다른 세그먼트와만 통신할 수 있도록 허용하기 위해 **SegmentsAllowed** 매개 변수와 함께 **New-InformationBarrierPolicy** cmdlet을 사용합니다.
 
-    | 구문 | 예시 |
+    | 구문 | 예제 |
     |:----------|:----------|
     | `New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name","segment1name"` | `New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p> 이 예에서는 Manufacturing이라는 세그먼트에 대해 *Manufacturing-HR이라는* 정책을 *정의했습니다.* 이 정책을 활성화하고 적용하면 *제조업* 사용자가 *HR이라는* 세그먼트의 사용자와만 통신할 수 있습니다. (이 경우 *제조는* HR에 참여하지 않는 사용자와 *통신할 수 없습니다.)* |
 
     **필요한 경우 다음 예제와 같이 이 cmdlet을 사용하여 여러 세그먼트를 지정할 수 있습니다.**
 
-    | 구문 | 예시 |
+    | 구문 | 예제 |
     |:---------|:----------|
     | `New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"` | `New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p> 이 예제에서는 리서치 세그먼트가  *HR* 및 제조와만 통신할 수 있도록 하는 정책을 *정의했습니다.* |
 
@@ -239,7 +238,7 @@ ms.locfileid: "52842725"
 
 2. 정책을 활성 상태로 설정하기 위해 **Identity** 매개 변수와 **함께 Set-InformationBarrierPolicy** cmdlet을 사용하고 State 매개 변수를 **Active로** **설정하십시오.** 
 
-    | 구문 | 예시 |
+    | 구문 | 예제 |
     |:---------|:----------|
     | `Set-InformationBarrierPolicy -Identity GUID -State Active` | `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -State Active` <p> 이 예에서는 *GUID가 43c37853-ea10-4b90-a23d-ab8c93772471인* 정보 장벽 정책을 활성 상태로 설정했습니다. |
 
