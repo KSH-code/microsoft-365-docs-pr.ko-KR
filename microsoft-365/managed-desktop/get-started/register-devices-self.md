@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 850d7e6692d3ccbfda6e15c8d5ca95301bd4d094
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: a66ad53faf1b38c3db4ab4446dbc1d175fbd99e4
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245615"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289538"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -50,11 +50,10 @@ Microsoft Managed Desktop 해시를 참조하여 각 장치를 고유하게 식�
 
 PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) PowerShell 스크립트를 사용할 수 있습니다. 장치 식별 및 하드웨어 해시에 대한 자세한 내용은 Autopilot 에 장치 [Windows 참조하세요.](/mem/autopilot/add-devices#device-identification)
 
-1.  관리 권한으로 PowerShell 프롬프트를 열 수 있습니다.
-2.  실행 `Install-Script -Name Get-WindowsAutoPilotInfo`
-3.  실행 `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
-4.  이후의 무제한 스크립트가 실행되지 `powershell -ExecutionPolicy restricted` 않도록 를 실행합니다.
-
+1. 관리 권한으로 PowerShell 프롬프트를 열 수 있습니다.
+2. 실행 `Install-Script -Name Get-WindowsAutoPilotInfo`
+3. 실행 `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+4. 이후의 무제한 스크립트가 실행되지 `powershell -ExecutionPolicy restricted` 않도록 를 실행합니다.
 
 #### <a name="flash-drive-method"></a>플래시 드라이브 방법
 
@@ -68,9 +67,8 @@ PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgaller
 8. 실행 `.\Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
 9. USB 드라이브를 제거한 다음 를 실행하여 디바이스를 종료합니다. `shutdown -s -t 0`
 
->[!IMPORTANT]
->등록을 완료할 때까지 다시 등록하는 디바이스에 전원을 들이지 않습니다. 
-
+> [!IMPORTANT]
+> 등록을 완료할 때까지 다시 등록하는 디바이스에 전원을 들이지 않습니다. 
 
 ### <a name="merge-hash-data"></a>해시 데이터 병합
 
@@ -78,18 +76,15 @@ PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgaller
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
-
 ### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용하여 장치 등록
 
 In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devices** in the left navigation pane. 메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop 작업 영역에서 **+** 장치 등록을 선택합니다. 이 경우 플라이인을 열어 새 장치를 등록합니다.
 
 <!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
-
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
-
-다음 단계를 따르세요.
+다음 단계를 따릅니다.
 
 1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
 2. 드롭다운 [메뉴에서](../service-description/profiles.md) 장치 프로필을 선택합니다.

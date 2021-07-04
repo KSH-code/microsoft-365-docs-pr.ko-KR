@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 하나 이상의 라이브러리에 문서 이해 모델을 적용합니다.
-ms.openlocfilehash: 24ea9a480bc3ce5a7745857de17a6fab6ed97685
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 04f1dfdb0c16110c9ba7de12f5f0735d498d50cf
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177264"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286540"
 ---
 # <a name="batch-apply-model"></a>모델 일괄 적용
 
@@ -48,6 +48,7 @@ POST /_api/machinelearning/publications HTTP/1.1
 |Publications|예|MachineLearningPublicationEntityData[]|각각 모델 및 대상 문서 라이브러리를 지정하는 MachineLearningPublicationEntityData의 컬렉션입니다.|
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | 이름 | 필수 | 유형 | 설명 |
 |--------|-------|--------|------------|
 |ModelUniqueId|예|문자열|모델 파일의 고유 ID입니다.|
@@ -63,6 +64,7 @@ POST /_api/machinelearning/publications HTTP/1.1
 |201 생성됨||다중 문서 라이브러리에 모델을 적용하도록 지원하는 사용자 지정 API입니다. 부분적으로 성공하는 경우에도 생성된 201이 반환될 수 있으며, 호출자는 응답 본문을 검사하여 모델이 문서 라이브러리에 성공적으로 적용되었는지 파악해야 합니다.|
 
 ## <a name="response-body"></a>응답 본문
+
 | 이름   | 유형  | 설명|
 |--------|-------|------------|
 |TotalSuccesses|int|문서 라이브러리에 성공적으로 적용된 모델의 총수입니다.|
@@ -70,6 +72,7 @@ POST /_api/machinelearning/publications HTTP/1.1
 |세부 정보|MachineLearningPublicationResult[]|각각 문서 라이브러리에 모델을 적용한 자세한 결과를 지정하는 MachineLearningPublicationResult의 컬렉션입니다.|
 
 ### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+
 | 이름   | 유형  | 설명|
 |--------|-------|------------|
 |StatusCode|int|HTTP 상태 코드입니다.|
@@ -77,6 +80,7 @@ POST /_api/machinelearning/publications HTTP/1.1
 |Publication|MachineLearningPublicationEntityData|모델 정보 및 대상 문서 라이브러리를 지정합니다.| 
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | 이름 | 유형 | 설명 |
 |--------|--------|------------|
 |ModelUniqueId|문자열|모델 파일의 고유 ID입니다.|

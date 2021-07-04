@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f49b4d24-9aa0-48a6-95dd-6bae9cf53d2c
 description: '요약: PowerShell을 사용하여 Microsoft 365 테넌트에 대체 도메인 이름을 추가합니다.'
-ms.openlocfilehash: 3bcdb40e2c72e5aac8103b0b55ff6fccfe6a9fcc
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 5ebbe11da9a93669945e7e3b096ce7afa18b5d3a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229086"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288434"
 ---
 # <a name="add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-permission-dap-partners"></a>DAP(위임된 액세스 권한) 파트너용 Windows PowerShell을 사용하여 클라이언트 테넌트에 도메인 추가
 
@@ -124,9 +124,6 @@ Name                   Status      Authentication
 FQDN of new domain     Verified    Managed
 ```
 
-
 ## <a name="see-also"></a>참고 항목
-
-####
 
 [파트너를 위한 도움말](https://go.microsoft.com/fwlink/p/?LinkID=533477)

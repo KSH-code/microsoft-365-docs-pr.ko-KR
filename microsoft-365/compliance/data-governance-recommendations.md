@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Microsoft 365 보안 센터 및 Microsoft 365 규정 준수 센터에서는 조직의 현재 설정을 기반으로 데이터 거버넌스 권장 사항을 제공하며, 몇 번의 클릭으로 설정을 완료할 수 있습니다. 이 권장 사항의 일부는 조직 내의 특정 콘텐츠를 검색한 후 해당 콘텐츠를 관리하는 단계별 방법을 권장합니다. 예를 들어, 권장 사항이 비즈니스 측면에서 중요한 콘텐츠(예: 비공개 유지 권한 또는 NDA 정보)가 포함된 항목을 검색할 수 있으며, 사용자는 해당 항목에 보존 레이블을 자동으로 적용하여 필요에 따라 해당 항목을 분류하고 보존할 수 있습니다. 이 항목에는 사용자가 확인할 수 있는 데이터 거버넌스 권장 사항이 나열되어 있으며, 각 권장 사항을 표시하기 위해 어떤 콘텐츠가 검색되는지 설명합니다.'
-ms.openlocfilehash: 9a022369fb783a498971c91664fa6532472d8589
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 42956e72bf377a02adde3e4253bd9221bb84ff3e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922612"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288530"
 ---
 # <a name="how-content-is-identified-for-data-governance-recommendations"></a>데이터 거버넌스 권장 사항을 표시하기 위해 콘텐츠가 식별되는 방법
 
@@ -32,22 +32,22 @@ Microsoft 365 보안 센터 및 Microsoft 365 규정 준수 센터에서는 조�
 
 ## <a name="clean-up-voicemail"></a>음성 사서함 정리
 
-‘음성 메일’ 메시지 유형으로 식별된 전자 메일 메시지가 사용자의 사서함에서 감지되었을 때 이 권장 사항이 표시됩니다. [Exchange에서의 메시지 속성](/exchange/policy-and-compliance/ediscovery/message-properties-and-search-operators?view=exchserver-2019#searchable-properties-in-exchange)에 대해 자세히 알아보세요.
+‘음성 메일’ 메시지 유형으로 식별된 전자 메일 메시지가 사용자의 사서함에서 감지되었을 때 이 권장 사항이 표시됩니다. [Exchange에서의 메시지 속성](/exchange/policy-and-compliance/ediscovery/message-properties-and-search-operators#searchable-properties-in-exchange)에 대해 자세히 알아보세요.
 
-## <a name="label-attorney-client-privilege-content"></a>비공개 유지 권한 콘텐츠 레이블 지정 
+## <a name="label-attorney-client-privilege-content"></a>비공개 유지 권한 콘텐츠 레이블 지정
 
 다음 중 한 가지 조건이 충족되면 이 권장 사항이 표시됩니다.
 
 - 전자 메일 메시지의 본문에서 다음 키워드 조합이 검색되는 경우:
-    - ACP
-    - 비공개 유지 권한
-    - 비공개 유지 권한
-    - 비공개 유지 권한
+  - ACP
+  - 비공개 유지 권한
+  - 비공개 유지 권한
+  - 비공개 유지 권한
 
 - SharePoint 또는 OneDrive 파일에서 다음 키워드 조합이 검색되는 경우:
-    - ACP
-    - 비공개 유지 권한*
-    - AC 권한
+  - ACP
+  - 비공개 유지 권한*
+  - AC 권한
 
 ## <a name="retain-audio-files"></a>오디오 파일 보존
 
@@ -126,18 +126,18 @@ SharePoint 또는 OneDrive에서 다음 파일 형식이 검색되면 이 권장
 - .PNM
 - .WEBP
 
-## <a name="retain-nda-content"></a>NDA 콘텐츠 보존 
+## <a name="retain-nda-content"></a>NDA 콘텐츠 보존
 
 다음 중 한 가지 조건이 충족되면 이 권장 사항이 표시됩니다.
 
 - 전자 메일 메시지의 본문에서 다음 키워드 조합이 검색되는 경우:
-    - NDA
-    - “비밀 유지 계약”
-    - “비밀 유지 계약”
+  - NDA
+  - “비밀 유지 계약”
+  - “비밀 유지 계약”
 
 - SharePoint 또는 OneDrive의 .PDF 또는 .DOC 파일에서 다음 키워드 조합이 검색되는 경우:
-    - NDA
-    - 비밀 유지 계약
+  - NDA
+  - 비밀 유지 계약
 
 ## <a name="retain-software-development-files"></a>소프트웨어 개발 파일 보존
 

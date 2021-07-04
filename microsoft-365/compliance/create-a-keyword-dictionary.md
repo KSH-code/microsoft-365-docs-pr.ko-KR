@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 보안 및 준수 센터에서 키워드 사전을 만드는 기본 단계에 대해 알아봅니다.
-ms.openlocfilehash: 1e1aa45c3bf4d31e4c969b0bc0949109fa716467
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 661ca9e227e8583bb6b601792e178c1c366132cb
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841165"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256714"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
@@ -174,10 +174,16 @@ Get-DlpKeywordDictionary -Name "Diseases"
 ```
 
 > [!NOTE]
-> Microsoft 365 Information Protection은 다음에 대해 미리 보기 더블 바이트 문자 집합 언어를 지원합니다.
+> Microsoft 365 Information Protection은 다음의 더블 바이트 문자 집합 언어를 지원합니다.
 > - 중국어(간체)
 > - 중국어(번체)
 > - 한국어
 > - 일본어
 >
 >이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
+
+> [!TIP]
+> 중국어/일본어 문자와 단일 바이트 문자가 포함된 패턴을 검색하거나 중국어/일본어 및 영어가 포함된 패턴을 검색하려면 키워드 또는 regex의 두 가지 변형을 정의합니다. 예를 들어 "机密的document"와 같은 키워드를 검색하려면 해당 키워드의 두 변형을 사용합니다. 일본어와 영어 텍스트 사이에 공백이 있고 일본어 텍스트와 영어 텍스트 사이에 공백이 없는 다른 텍스트가 있습니다. 따라서 SIT에 추가할 키워드는 "机密的 document" 및 "机密的document"여야 합니다. 마찬가지로 "東京オリンピック2020"라는 구를 검색하려면 두 가지 변형("東京オリンピック 2020" 및 "東京オリンピック2020")을 사용해야 합니다.
+> 더블 바이트 하이픈 또는 더블 바이트 마침표로 regex를 만드는 동안 regex에서 하이픈이나 마침표가 이스케이프되는 것처럼 두 문자를 모두 이스케이프해야 합니다. 참조를 위한 샘플 regex는 다음과 같습니다.
+    - (?<!\d)([４][０-９]{3}[\-?\－\t]*[０-９]{4}
+> 키워드 목록에서 단어 일치 대신 문자열 일치를 사용하는 것이 좋습니다.

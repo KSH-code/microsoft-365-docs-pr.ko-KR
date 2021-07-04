@@ -11,8 +11,7 @@ ms.author: dansimp
 author: dansimp
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
+ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid:
 - MOE150
@@ -21,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 8b321fc8883cf490cb5b2814d5c2b617a52dbb29
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c4d4958c03bee7301465c16fef2cd4ff8adb1722
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246400"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288458"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Microsoft 보안 점수를 통해 보안 환경 평가
 
@@ -36,9 +35,9 @@ Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, �
 
 필요한 정보를 더 빠르게 찾을 수 있도록 Microsoft 개선 작업은 그룹으로 구성됩니다.
 
-* ID(Azure Active Directory 계정 & 역할)
-* Device (Microsoft Defender for Endpoint, known [as Microsoft Secure Score for Devices)](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)
-* 앱(전자 메일 및 클라우드 앱(Office 365 및 Microsoft Cloud App Security)
+- ID(Azure Active Directory 계정 & 역할)
+- Device (Microsoft Defender for Endpoint, known [as Microsoft Secure Score for Devices)](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)
+- 앱(전자 메일 및 클라우드 앱(Office 365 및 Microsoft Cloud App Security)
 
 >[!NOTE]
 >Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되어 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 Graph 있습니다. [자세히 보기](microsoft-secure-score-whats-new.md)
@@ -106,7 +105,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 
 이라는 **섹션은** 범주, 범주가 보호할 수 있는 공격 및 제품을 한눈에 알 수 있습니다.
 
-**사용자 영향** 개선 작업이 제정된 경우 사용자가 경험할  수 있으며 영향을 받는 사용자는 영향을 받는 사용자입니다.
+**사용자 영향** 개선 작업이 제정된 경우 사용자에게 미치는 영향은 영향을 받는 사용자입니다. 
 
 ### <a name="implement-the-improvement-action"></a>개선 작업 구현
 

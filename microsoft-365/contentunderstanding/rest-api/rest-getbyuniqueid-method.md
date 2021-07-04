@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 SharePoint Syntex 문서 이해 모델에 대한 정보를 가져오거나 업데이트합니다.
-ms.openlocfilehash: 306bcd894b6339575f8c91ac3c4fb89f2033f3bc
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 12078242adabe3912bf5c52b8b889dc7f419074d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177108"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288794"
 ---
 # <a name="getbyuniqueid"></a>GetByUniqueId
 
@@ -100,6 +100,7 @@ GET /_api/machinelearning/models/getbyuniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb
     "UniqueId": "7645e69d-21fb-4a24-a17a-9bdfa7cb63dc"
 }
 ```
+
 ### <a name="get-and-delete-the-contoso-contract-model-by-id"></a>ID로 Contoso 계약 모델 가져오기 및 삭제
 
 이 샘플에서는 Contoso 계약 문서 이해 모델의 ID가 `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`입니다.

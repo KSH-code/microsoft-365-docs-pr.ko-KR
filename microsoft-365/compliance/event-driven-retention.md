@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
-ms.openlocfilehash: 83f1be417b706fdb66b1df71ba351ce16d5ad485
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: e5b3b1f5d3af8185c424abede2f31675ab854f4a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226626"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287530"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>이벤트가 발생할 때 보존 시작
 
@@ -238,7 +238,7 @@ REST API를 호출하는 샘플 코드:
 - **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
 - **헤더**: Key = Content-Type, Value = application/atom+xml
 - **Body**:
-    
+
     ```xml
     <?xml version='1.0' encoding='utf-8' standalone='yes'?>
     
@@ -270,7 +270,7 @@ REST API를 호출하는 샘플 코드:
     
     </entry>
     ```
-    
+
 - **인증**: 기본
 - **사용자 이름**: "Complianceuser"
 - **암호**: "Compliancepassword"
@@ -309,7 +309,6 @@ REST API를 호출하는 샘플 코드:
 - **사용자 이름**: "Complianceuser"
 
 - **암호**: "Compliancepassword"
-
 
 ###### <a name="response-codes"></a>응답코드
 
@@ -358,7 +357,6 @@ REST API를 호출하는 샘플 코드:
 - **사용자 이름**: "Complianceuser"
 
 - **암호**: "Compliancepassword"
-
 
 ###### <a name="response-codes"></a>응답코드
 
@@ -450,5 +448,4 @@ $event = Invoke-RestMethod -Body $body -Method 'POST' -Uri $url -ContentType "ap
 }
 
 $event | fl *
-
 ```

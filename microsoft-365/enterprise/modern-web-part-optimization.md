@@ -21,26 +21,26 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: 페이지 진단을 사용하여 온라인 최신 사이트 페이지에서 웹 파트의 SharePoint 방법을 알아보십시오.
-ms.openlocfilehash: 2a72ecd8bc1f6dee4166809f72ce5f9bce422dc9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fab5b0bc9d0b04ede0815856af7366e277dbf909
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929063"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288902"
 ---
 # <a name="optimize-web-part-performance-in-sharepoint-online-modern-site-pages"></a>SharePoint Online 최신 사이트 페이지에서 웹 파트 성능 최적화
 
 SharePoint Online 최신 사이트 페이지에는 전체 페이지 로드 시간을 유발할 수 있는 웹 파트가 포함되어 있습니다. 이 문서는 페이지의 웹 파트가 어떻게 사용자가 인식하는 대기 시간에 미치는 영향을 미치는지와 일반적인 문제를 해결하는 방법을 이해하는데 도움을 줄 것입니다.
 
->[!NOTE]
->SharePoint Online 최신 포털의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)을 참조하세요.
+> [!NOTE]
+> SharePoint Online 최신 포털의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)을 참조하세요.
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts"></a>SharePoint 용 페이지 진단 도구를 사용한 웹 파트
 
 SharePoint용 페이지 진단 도구는 새 Microsoft Edge에 대한 브라우저 확장입니다. (SharePoint Online 최신 포털 및 클래식 게시 사이트 페이지를 분석하는 https://www.microsoft.com/edge) 및 Chrome 브라우저) 이 도구는 정의된 성능 기준의 집합 대비 페이지 수행 방식을 보여주는 분석된 각 페이지에 대한 보고서를 제공합니다. Sharepoint용 페이지 진단 도구에 대해 배우고 설치하려면[Sharepoint Online에 페이지 진단 도구 사용](page-diagnostics-for-spo.md)을 참조하세요.
 
->[!NOTE]
->페이지 진단 도구는 SharePoint Online에서만 사용할 수 있으며 SharePoint 시스템 페이지에서는 사용할 수 없습니다.
+> [!NOTE]
+> 페이지 진단 도구는 SharePoint Online에서만 사용할 수 있으며 SharePoint 시스템 페이지에서는 사용할 수 없습니다.
 
 Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페이지를 분석 시 _진단 테스트_ 창의 페이지 **로드 시간 에 영향을 미치는 웹 파트** 결과에서 기준치를 초과하는 웹 파트에 대한 정보를 확인할 수 있습니다.
 
@@ -62,10 +62,13 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 - **모듈 로드에는** 확장 JavaScript 및 CSS 파일을 다운로드, 평가 및 로드하는 데 들이는 시간이 표시됩니다. 그런 다음 Init 프로세스가 시작됩니다.
 - **지연 로드에는** 페이지의 기본 섹션에 없는 웹 파트의 지연된 로드 시간이 표시됩니다. 렌더링할 웹 파트가 너무 많고 페이지 로드 시간을 최소화하기 위해 렌더링할 수 있는 특정 조건이 있습니다.
 - **초기화는** 웹 파트가 데이터를 초기화하는 데 들이는 시간을 보여줍니다.
-    이 호출은 비동기 호출로, 반환된 약속이 해결될 때 onInit 함수에 대한 시간을 계산하는 것입니다.
+
+  이 호출은 비동기 호출로, 반환된 약속이 해결될 때 onInit 함수에 대한 시간을 계산하는 것입니다.
+
 - **렌더링은** 모듈 로드 및 Init가 완료되면 UI(사용자 인터페이스)를 렌더링하는 데 걸립니다.
-    문서(page)에 DOM을 탑재하는 것은 JavaScript 실행 시간입니다.
-    이미지와 같은 비동기 리소스 렌더링을 완료하는 데 추가 시간이 걸릴 수 있습니다.
+
+  문서(page)에 DOM을 탑재하는 것은 JavaScript 실행 시간입니다.
+  이미지와 같은 비동기 리소스 렌더링을 완료하는 데 추가 시간이 걸릴 수 있습니다.
 
 이 정보는 디자이너 및 개발자가 문제를 해결하는데 도움을 주기 위해 제공됩니다. 이 정보는 디자인 및 개발 팀에 제공해야 합니다.
 

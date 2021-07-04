@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 조직의 사용자와 관리자의 활동을 감사하는 방법에 대해 알아 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8686a2cd7b1fc6e9082e85b18ba352c1fd7f830
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: d4a753a640b98125bc6ad02bd6043f28336e29b7
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538521"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256762"
 ---
 # <a name="auditing-solutions-in-microsoft-365"></a>Microsoft 365의 감사 솔루션
 
@@ -165,4 +165,4 @@ Microsoft 365의 감사 솔루션 사용을 시작하려면 다음 설정 지침
 
 ## <a name="training"></a>교육
 
-기본 감사 및 고급 감사에서 보안 운영 팀, IT 관리자 및 규정 준수 조사 팀을 교육하면 감사 기능을 사용하여 조사를 보다 신속하게 시작할 수 있습니다. Microsoft 365는 조직의 이러한 사용자가 감사를 시작하는 데 도움이 되는 다음과 같은 리소스를 제공합니다. [Microsoft 365의 감사 기능에 대해 설명합니다](/learn/modules/describe-audit-capabilities-microsoft-365).
+기본 감사 및 고급 감사의 기본 사항에서 보안 운영 팀, IT 관리자 및 규정 준수 조사 팀을 교육하면 감사 기능을 사용하여 조사를 보다 신속하게 시작할 수 있습니다. Microsoft 365는 조직의 이러한 사용자가 감사를 시작하는 데 도움이 되는 다음과 같은 리소스를 제공합니다. [Microsoft 365의 eDiscovery 및 감사 기능에 대해 설명합니다](/learn/modules/describe-ediscovery-capabilities-of-microsoft-365).

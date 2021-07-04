@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 17ad28121935adfc958629f7999311c11a8d784e
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 7ee431c88430916fcba60266a3a3a5180d830c0d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771452"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289262"
 ---
 # <a name="advanced-hunting-using-python"></a>Python을 사용하는 지능형 헌팅
 
@@ -30,7 +30,7 @@ ms.locfileid: "52771452"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -40,14 +40,13 @@ Python을 사용하여 고급 쿼리를 실행합니다. 고급 헌팅 [API를 �
 
 이 섹션에서는 Python 샘플을 공유하여 토큰을 검색하고 이를 사용하여 쿼리를 실행합니다.
 
->**선행 작업:** 먼저 앱을 [만들어야 합니다.](apis-intro.md)
+> **선행 작업:** 먼저 앱을 [만들어야 합니다.](apis-intro.md)
 
 ## <a name="get-token"></a>토큰을 얻다
 
 - 다음의 명령을 실행합니다.
 
-```
-
+```python
 import json
 import urllib.request
 import urllib.parse
@@ -73,10 +72,10 @@ req = urllib.request.Request(url, data)
 response = urllib.request.urlopen(req)
 jsonResponse = json.loads(response.read())
 aadToken = jsonResponse["access_token"]
-
 ```
 
 여기서
+
 - tenantId: 쿼리를 실행하려는 테넌트의 ID입니다(즉, 이 테넌트의 데이터에 대해 쿼리가 실행됩니다).
 - appId: Azure AD 앱의 ID(앱에 끝점용 Microsoft Defender에 대한 '고급 쿼리 실행' 권한이 있어야 합니다.
 - appSecret: Azure AD 앱의 비밀
@@ -85,7 +84,7 @@ aadToken = jsonResponse["access_token"]
 
  다음 쿼리를 실행합니다.
 
-```
+```python
 query = 'RegistryEvents | limit 10' # Paste your own query here
 
 url = "https://api.securitycenter.microsoft.com/api/advancedqueries/run"
@@ -102,7 +101,6 @@ response = urllib.request.urlopen(req)
 jsonResponse = json.loads(response.read())
 schema = jsonResponse["Schema"]
 results = jsonResponse["Results"]
-
 ```
 
 - schema contains the schema of the results of your query
@@ -112,7 +110,7 @@ results = jsonResponse["Results"]
 
 복잡한 쿼리(또는 여러 줄 쿼리)를 실행하려는 경우 쿼리를 파일에 저장하고 위의 예제의 첫 번째 줄 대신 다음 명령을 실행합니다.
 
-```
+```python
 queryFile = open("D:\\Temp\\myQuery.txt", 'r') # Replace with the path to your file
 query = queryFile.read()
 queryFile.close()
@@ -124,18 +122,15 @@ queryFile.close()
 
 결과를 이행하기 위해 아래를 참조하세요.
 
-```
+```python
 for result in results:
     print(result) # Prints the whole result
     print(result["EventTime"]) # Prints only the property 'EventTime' from the result
-
-
 ```
-
 
 파일 형식의 CSV 형식으로 쿼리 결과를 출력 file1.csv 다음을 수행하십시오.
 
-```
+```python
 import csv
 
 outputFile = open("D:\\Temp\\file1.csv", 'w')
@@ -149,14 +144,14 @@ outputFile.close()
 
 아래 작업을 수행하여 파일 형식의 JSON file1.js결과를 출력합니다.
 
-```
+```python
 outputFile = open("D:\\Temp\\file1.json", 'w')
 json.dump(results, outputFile)
 outputFile.close()
 ```
 
-
 ## <a name="related-topic"></a>관련 항목
+
 - [끝점 API용 Microsoft Defender](apis-intro.md)
 - [고급 헌팅 API](run-advanced-query-api.md)
 - [PowerShell을 사용하는 지능형 헌팅](run-advanced-query-sample-powershell.md)

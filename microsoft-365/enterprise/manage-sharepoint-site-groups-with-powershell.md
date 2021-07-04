@@ -20,22 +20,22 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: 이 문서에서는 PowerShell을 사용하여 온라인 사이트 Microsoft 365 관리하기 위한 SharePoint 있습니다.
-ms.openlocfilehash: bcc7a00a6114a6fa2ba8aa02520267bd03a0abf5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 383536a6ad5ac5742cf1e38081a9be984ce4806b
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909541"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289082"
 ---
 # <a name="manage-sharepoint-online-site-groups-with-powershell"></a>PowerShell을 SharePoint 온라인 사이트 그룹 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 관리 센터를 사용할 수 있는 경우 PowerShell을 사용하여 Microsoft 365 온라인 SharePoint 관리할 수도 있습니다.
+이 기능을 사용하여 Microsoft 365 관리 센터 수 있습니다. PowerShell을 사용하여 Microsoft 365 온라인 사이트 SharePoint 관리할 수도 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-이 문서의 절차를 수행하려면 SharePoint 온라인에 연결해야 합니다. 자세한 내용은 커넥트 [PowerShell을 SharePoint 참조하세요.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+이 문서의 절차를 수행하려면 SharePoint 온라인에 연결해야 합니다. 자세한 내용은 커넥트 [PowerShell을 SharePoint 참조하세요.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 ## <a name="view-sharepoint-online-with-powershell-for-microsoft-365"></a>PowerShell을 SharePoint Online Microsoft 365 보기
 
@@ -84,22 +84,22 @@ foreach ($y in $x)
         $z = Get-SPOSiteGroup -Site $y.Url
         foreach ($a in $z)
             {
-                 $b = Get-SPOSiteGroup -Site $y.Url -Group $a.Title 
+                 $b = Get-SPOSiteGroup -Site $y.Url -Group $a.Title
                  Write-Host $b.Title -ForegroundColor "Cyan"
                  $b | Select-Object -ExpandProperty Users
                  Write-Host
             }
     }
 ```
-    
+
 ## <a name="see-also"></a>참고 항목
 
-[커넥트 PowerShell을 SharePoint 수 있습니다.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+[커넥트 PowerShell을 SharePoint 수 있습니다.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 [PowerShell을 SharePoint 온라인 사이트 만들기 및 사용자 추가](create-sharepoint-sites-and-add-users-with-powershell.md)
 
 [PowerShell을 사용하여 SharePoint 온라인 사용자 및 그룹 관리](manage-sharepoint-users-and-groups-with-powershell.md)
 
 [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)
-  
+
 [Microsoft 365 용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)

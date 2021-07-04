@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f0eb20d59f1708bc1e3bd56e56ada40cd7058dca
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 6a4321f48ba5b8e012d1a3a4fd67dd4f05566048
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924850"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287906"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Microsoft Managed Desktop 장치 서비스
 
@@ -28,12 +28,13 @@ Microsoft는 이러한 서비스를 Microsoft Managed Desktop 있습니다. 권�
 지원 | 지원 에이전트는 장치 기능과 직접 관련된 질문에 대답하고 장치 문제를 진단합니다.
 인벤토리 | 인벤토리 및 상태 추적을 위해 Microsoft Managed Desktop 관리 포털에서 모든 장치를 추적합니다.
 펌웨어/드라이버 업데이트 | 기본적으로 Microsoft Managed Desktop 업데이트에서 펌웨어 및 드라이버 업데이트를 받는 Windows 있습니다. 모든 하드웨어 파트너가 업데이트 업데이트를 통해 Windows 않습니다. 자동으로 게시되지 않은 업데이트에는 예외가 필요하며 고객이 배포해야 합니다.
-액세서리 | 장치와 함께 제공된 액세서리에는 장치 자체와 동일한 서비스가 적용되지만 보증 조건이 다를 수 있습니다. 장치를 선택할 때 선택한 보증 조건을 참조합니다. 장치 설정 | 디바이스는 현재 버전의 디바이스로 미리 Windows 클라우드를 통해 앱 및 구성을 수신합니다. 
+액세서리 | 장치와 함께 제공된 액세서리에는 장치 자체와 동일한 서비스가 적용되지만 보증 조건이 다를 수 있습니다. 장치를 선택할 때 선택한 보증 조건을 참조합니다. 장치 설정 | 디바이스는 현재 버전의 디바이스로 미리 Windows 클라우드를 통해 앱 및 구성을 수신합니다.
 
 장치 교체, 업그레이드 및 지원 약관에 대한 자세한 내용은 장치 공급자와의 계약 및 보증 조건을 참조하세요.
 
 Surface 보증 및 복구에 대한 자세한 내용은
-- [비즈니스용 Surface 도움말 센터](https://support.microsoft.com/hub/4339296/surface-for-business-help)
+
+- [비즈니스용Surface 도움말 센터](https://support.microsoft.com/hub/4339296/surface-for-business-help)
 - [장치에 대한 보증, 확장된 서비스 계획 및 사용 약관](https://support.microsoft.com/help/4040687/info-about-warranties-extended-service-plans-and-terms-conditions)
 
 

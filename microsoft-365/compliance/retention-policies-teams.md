@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 908c6a1482761815995330b71f0d2d2f96677b64
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: b459665d9b92705bd575a7a79a4d4d6adc2a3f68
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908272"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256318"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -44,8 +44,10 @@ ms.locfileid: "52908272"
 ## <a name="whats-included-for-retention-and-deletion"></a>보존 및 삭제에 포함된 항목
 
 Teams 채팅 메시지 및 채널 메시지는 Teams 보존 정책을 사용하여 삭제될 수 있으며, 메시지의 텍스트 외에도 다음의 Teams 항목(포함된 이미지, 표, 하이퍼텍스트 링크, 다른 Teams 메시지 및 파일, [카드 콘텐츠](/microsoftteams/platform/task-modules-and-cards/what-are-cards)에 연결된 링크)을 규정 준수를 위해 보존할 수 있습니다. 채팅 메시지에는 채팅에 속한 모든 사람의 이름이 포함되어 있고, 채널 메시지에는 팀 이름과 메시지 제목이 포함되어 있습니다(제공되는 경우). 
+> [!NOTE]
+> 비공개 채널의 메시지에 대한 지원은 현재 미리 보기로 배포되고 있습니다.
 
-현재 개인 채널의 Teams 메시지는 보존 정책에 대해 지원되지 않습니다. Teams에 대한 보존 정책을 사용할 때 코드 조각, Teams 모바일 클라이언트에서 녹음된 목소리 메모, 미리 보기, 알림 이미지, 이모티콘 형태로 표현된 다른 사용자의 응답은 보존되지 않습니다.
+Teams에 대한 보존 정책을 사용할 때 코드 조각, Teams 모바일 클라이언트에서 녹음된 목소리 메모, 미리 보기, 알림 이미지, 이모티콘 형태로 표현된 다른 사용자의 응답은 보존되지 않습니다.
 
 Teams에서 사용하는 전자 메일 및 파일은 Teams의 보존 정책에 포함되지 않습니다. 이 항목에는 자체 보존 정책이 있습니다.
 
@@ -59,7 +61,7 @@ Teams에서 사용하는 전자 메일 및 파일은 Teams의 보존 정책에 �
 
 - **UserMailbox**: 이러한 사서함은 클라우드 기반 Teams 사용자를 위한 메시지 데이터를 저장합니다.
 - **MailUser**: 이러한 사서함은 [온-프레미스 Teams 사용자](search-cloud-based-mailboxes-for-on-premises-users.md)를 위한 메시지 데이터를 저장합니다.
-- **GroupMailbox**: 이러한 사서함은 Teams 채널의 메시지 데이터를 저장합니다.
+- **GroupMailbox**: 이러한 사서함은 Teams 표준 채널의 메시지 데이터를 저장합니다.
 
 Teams 회의실에 사용되는 RoomMailbox와 같은 다른 사서함 유형은 Teams 보존 정책에 대해 지원되지 않습니다.
 

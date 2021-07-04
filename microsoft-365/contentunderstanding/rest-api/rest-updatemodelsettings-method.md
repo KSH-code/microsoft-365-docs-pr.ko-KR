@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API 사용하여 SharePoint Syntex 문서 이해 모델에 사용할 수 있는 모델 설정을 업데이트합니다.
-ms.openlocfilehash: cd288812044f3b02839c3c11c321947bd02cccaa
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: c75f669913f16233c6015230a60643cf86f33f5a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177168"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288650"
 ---
 # <a name="updatemodelsettings"></a>UpdateModelSettings
 

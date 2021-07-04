@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 3e5fec9117a0ce63b80b700c8771cf092b44a69e
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: a9b348d51f147d5f228e6dbb643b7bedd2eb8c8e
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169595"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256534"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -70,13 +70,14 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 
 2. **새 보존 정책** 을 선택하여 보존 정책 만들기 마법사를 시작하고 새 보존 정책의 이름을 지정합니다.
 
-3. **정책을 적용하기 위한 위치 선택** 페이지에서, Teams에 대한 하나 혹은 양쪽 위치를 선택합니다. **Teams 채널 메시지** 및 **Teams 채팅**.
-
-   **Teams 채널 메시지** 의 경우, 표준 채널이지만 [비공개 채널](/microsoftteams/private-channels)의 메시지는 포함되지 않습니다. 현재 개인 채널은 보존 정책에서 지원되지 않습니다.
-
+3. **정책을 적용할 위치 선택** 페이지의 경우 Teams의 위치 중 일부 또는 전부를 선택합니다.
+    - **Teams 채널 메시지**: 표준 채널 채팅 및 표준 채널 모임의 메시지이지만 자체 정책 위치가 있는 [비공개 채널](/microsoftteams/private-channels)에서 보낸 메시지는 아닙니다.
+    - **Teams 채팅**: 비공개 1:1 채팅, 그룹 채팅 및 모임 채팅의 메시지입니다.
+    - **Teams 비공개 채널 메시지**: 비공개 채널 채팅 및 비공개 채널 모임의 메시지입니다. 이 옵션은 현재 미리 보기로 배포되고 있으며 표시되지 않으면 며칠 후에 다시 시도하세요.
+    
    기본적으로 [모든 팀과 모든 사용자가 선택되어 있지만](#a-policy-that-applies-to-entire-locations), [**선택** 및 **배제** 옵션](#a-policy-with-specific-inclusions-or-exclusions)을 선택하여 이를 구체화할 수 있습니다. 그러나 기본값을 변경하기 전에 포함 또는 제외되도록 구성할 때 메시지를 삭제하는 보존 정책의 다음과 같은 결과에 유의해야 합니다.
     
-    - 그룹 채팅의 경우 메시지 복사본이 채팅에 포함된 각 사용자의 사서함에 저장되어 있기 때문에 정책을 할당하지 않은 사용자의 메시지 복사본이 eDiscovery 결과에 계속 반환됩니다.
+    - 그룹 채팅 메시지 및 비공개 채널 메시지의 경우 메시지 복사본이 채팅에 포함된 각 사용자의 사서함에 저장되므로 정책이 할당되지 않은 사용자의 eDiscovery 결과에 메시지 복사본이 계속 반환됩니다.
     - 정책을 할당하지 않은 사용자의 경우 삭제된 메시지가 Teams 검색 결과에 반환되지만 사용자에게 할당된 정책에서 영구적으로 삭제한 결과 메시지 내용은 표시되지 않습니다.
 
 4. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요.
@@ -182,11 +183,15 @@ SharePoint 사이트 또는 OneDrive 계정에 적용된 보존 정책은 해당
 
 #### <a name="configuration-information-for-exchange-email-and-exchange-public-folders"></a>Exchange 전자 메일 및 Exchange 공용 폴더에 대한 구성 정보
 
-**Exchange 전자 메일** 위치는 사서함 수준에서 보존 설정을 적용하여 사용자의 전자 메일, 일정 및 기타 사서함 항목에 대한 보존을 지원합니다.
+**Exchange 전자 메일** 위치는 사서함 수준에서 보존 설정을 적용하여 사용자의 전자 메일, 일정 및 기타 사서함 항목에 대한 보존을 지원합니다. 공유 사서함도 지원됩니다.
 
-Exchange에 대한 보존 설정을 구성할 때 포함되고 제외되는 항목에 대한 자세한 내용은 [보존 및 삭제에 포함되는 항목](retention-policies-exchange.md#whats-included-for-retention-and-deletion)을 참조하세요.
+보존 설정을 **모든 받는 사람** 에 적용하면 [비활성 사서함](create-and-manage-inactive-mailboxes.md)이 포함됩니다. 그러나 이 기본값을 변경하고 [특정 포함 또는 제외](#a-policy-with-specific-inclusions-or-exclusions)를 구성하는 경우 비활성 사서함은 지원되지 않으며 해당 사서함에 대해 보존 설정이 적용되거나 제외되지 않습니다.
 
-Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. 이러한 사서함의 콘텐츠를 보존하려면 **Microsoft 365 그룹** 위치를 선택하세요.
+또한 리소스 사서함 및 Microsoft 365 그룹 사서함은 **모든 받는 사람** 기본값 또는 특정 포함 또는 제외에 대해 지원되지 않습니다. Microsoft 365 그룹 사서함의 경우 대신 **Microsoft 365 그룹** 위치를 선택합니다.
+
+포함하거나 제외할 받는 사람을 선택하는 경우 메일 그룹 및 전자 메일 사용이 가능한 보안 그룹을 선택할 수 있습니다. 내부적으로 이러한 그룹은 구성 시 자동으로 확장되어 그룹에 있는 사용자의 사서함을 선택합니다. 해당 그룹의 멤버십이 나중에 변경되면 기존 보존 정책이 자동으로 업데이트되지 않습니다.
+
+Exchange에 대한 보존 설정을 구성할 때 포함 및 제외되는 사서함 항목에 대한 자세한 내용은 [보존 및 삭제에 포함된 항목](retention-policies-exchange.md#whats-included-for-retention-and-deletion)을 참조하세요.
 
 **Exchange 공용 폴더** 위치는 보존 설정을 모든 공용 폴더에 적용하며 폴더 또는 사서함 수준에서 적용될 수 없습니다.
 

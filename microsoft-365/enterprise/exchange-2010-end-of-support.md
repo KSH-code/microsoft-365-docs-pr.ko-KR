@@ -12,12 +12,12 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010의 지원이 종료됩니다. 이 계획 로드맵을 사용하여 Exchange Online 또는 최신 버전의 Exchange Server 준비합니다.
-ms.openlocfilehash: f3531802283368e533ba6646415d4acc019687bd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bbc7fb83537621a47a866bf0ca129a38e21f055e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926997"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289130"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Exchange 2010 지원 종료 로드맵
 
@@ -68,7 +68,7 @@ Exchange Server 2010년 **10월 13일** 지원이 종료됩니다. Exchange 2010
 - Microsoft Teams.
 - Power BI.
 - 포커스가 있는 받은 편지함.
-- MyAnalytics
+- MyAnalytics.
 
 Microsoft 365 기능 및 환경을 먼저 사용할 수 있으므로 조직에서 바로 사용할 수 있습니다. 또한 다음에 대해 걱정할 필요가 없습니다.
 
@@ -81,17 +81,23 @@ Microsoft 365 기능 및 환경을 먼저 사용할 수 있으므로 조직에�
 ### <a name="how-should-i-migrate-to-microsoft-365"></a>마이그레이션하려면 어떻게 Microsoft 365?
 
 조직에 따라 몇 가지 옵션을 사용하여 조직에 Microsoft 365. 먼저 다음과 같은 몇 가지를 고려해야 합니다.
+
 - 이동해야 하는 시트 또는 사서함의 수입니다.
 - 마이그레이션을 지속할 기간입니다.
 - 마이그레이션 중에는 사내 설치와 프레미스 설치 Microsoft 365 원활하게 통합해야 하는지 여부
- 
+
 이 표에는 마이그레이션 옵션과 사용할 방법을 결정하는 가장 중요한 요소가 표시됩니다.
+
+<br>
+
+****
 
 |마이그레이션 옵션|조직 크기|기간|
 |---|---|---|
 |단독 마이그레이션|시트 수가 150명 미만|1주 이하|
 |최소 하이브리드 마이그레이션|시트 수가 150명 미만|몇 주 이하|
 |전체 하이브리드 마이그레이션|시트 수가 150명 이상인 경우|몇 주 이상|
+|
 
 다음 섹션에서는 이러한 메서드에 대한 개요를 제공합니다. 자세한 내용은 마이그레이션 경로 [결정 을 참조하세요.](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27)
 
@@ -173,6 +179,10 @@ Microsoft 365 기능 및 환경을 먼저 사용할 수 있으므로 조직에�
 
 Exchange 2016에는 이전 릴리스의 모든 기능이 Exchange. 일부 기능은 Microsoft 365 사용 가능한 환경과 가장 Microsoft 365. 누락된 몇 가지 사항만 확인해 보아야 합니다.
 
+<br>
+
+****
+
 |Exchange 릴리스|기능|
 |---|---|
 |**Exchange 2013**|간소화된 아키텍처에서는 서버 역할 수를 3개(사서함, 클라이언트 액세스, Edge 전송)로 줄입니다.|
@@ -183,24 +193,29 @@ Exchange 2016에는 이전 릴리스의 모든 기능이 Exchange. 일부 기능
 ||향상된 DLP와 통합된 SharePoint|
 ||향상된 데이터베이스 탄력성|
 ||온라인 문서 공동 작업|
+|
+
+<br>
+
+****
 
 |고려 사항|추가 정보|
 |---|---|
-|지원 종료 날짜|Exchange 2010과 마찬가지로 각 Exchange 자체 지원 종료 날짜가 있습니다.<br/><br/>Exchange 2013년 4월 - 2023년 4월<br/>Exchange 2016년 10월 - 2025년 10월<br/><br/>지원 종료 날짜가 이르면 더 빨리 다른 마이그레이션을 수행해야 합니다. 2023년 4월이 생각보다 훨씬 더 가까워지고 있습니다.|
-|2013 또는 Exchange 마이그레이션 경로|마이그레이션 경로는 Exchange 2010에서 최신 버전으로의 마이그레이션 경로는 2013 또는 Exchange 2016에 Exchange 동일합니다.<br/><br/>기존 Exchange 2010 조직에 2013 또는 2016을 Exchange 설치합니다.<br/>서비스 및 기타 인프라를 2013 Exchange 2016으로 이동<br/>사서함 및 공용 폴더를 Exchange 2013 또는 2016년 2010 서버의 나머지 Exchange 해제합니다.|
+|지원 종료 날짜|Exchange 2010과 마찬가지로 각 Exchange 자체 지원 종료 날짜가 있습니다. <p> Exchange 2013년 4월 - 2023년 4월 <p> Exchange 2016년 10월 - 2025년 10월 <p> 지원 종료 날짜가 이르면 더 빨리 다른 마이그레이션을 수행해야 합니다. 2023년 4월이 생각보다 훨씬 더 가까워지고 있습니다.|
+|2013 또는 Exchange 마이그레이션 경로|마이그레이션 경로는 Exchange 2010에서 최신 버전으로의 마이그레이션 경로는 2013 또는 Exchange 2016에 Exchange 동일합니다. <p> 기존 Exchange 2010 조직에 2013 또는 2016을 Exchange 설치합니다. <p> 서비스 및 기타 인프라를 2013 Exchange 2016으로 이동 <p> 사서함 및 공용 폴더를 Exchange 2013 또는 2016년 2010 서버의 나머지 Exchange 해제합니다.|
 |버전 동시 사용|Exchange 2013 또는 Exchange 2016으로 마이그레이션할 때 기존 Exchange 2010 조직에 버전을 설치할 수 있습니다. 이렇게 하면 하나 이상의 Exchange 2013 또는 Exchange 서버를 설치하고 마이그레이션을 할 수 있습니다.|
-|서버 하드웨어|서버 하드웨어 요구 사항은 2010년 Exchange 변경되었습니다. 하드웨어가 호환되는지 확인 각 버전에 대한 하드웨어 요구 사항에 대한 자세한 내용은 다음을에서 확인합니다.<br/><br/>[Exchange 2016 시스템 요구 사항](/Exchange/plan-and-deploy/system-requirements?view=exchserver-2016)<br/>[Exchange 2013 시스템 요구 사항](/Exchange/exchange-2013-system-requirements-exchange-2013-help)<br/><br/>새로운 서버에서 Exchange 성능 및 저장소 용량이 크게 향상되어 동일한 수의 사서함을 지원하기 위해 더 적은 수의 서버가 필요할 수 있습니다.|
-|운영 체제 버전|각 버전에 대해 지원되는 최소 운영 체제 버전은 다음입니다.<br/><br/>Exchange 2016 - Windows Server 2012<br/>Exchange 2013 - Windows Server 2008 R2 SP1<br/><br/>운영 체제 지원에 대한 자세한 내용은 지원 가능성 [매트릭스 Exchange 있습니다.](/exchange/plan-and-deploy/supportability-matrix)|
-|Active Directory 포리스트 기능 수준|각 버전에 대해 지원되는 최소 Active Directory 포리스트 기능 수준은 다음입니다.<br/><br/>Exchange - Windows Server 2008 R2 SP1<br/>Exchange 2013 - Windows Server 2003<br/><br/>포리스트 기능 수준 지원에 대한 자세한 내용은 지원 가능성 [매트릭스 Exchange 있습니다.](/exchange/plan-and-deploy/supportability-matrix)|
-|Office 클라이언트 버전|각 버전에 대해 Office 지원되는 최소 클라이언트 버전은 다음입니다.<br/><br/>Exchange 2016 - Office 2010(최신 업데이트 사용)<br/>Exchange 2013 - Office 2007 SP3<br/><br/>클라이언트 지원에 대한 Office 자세한 내용은 Exchange [매트릭스를 참조하십시오.](/exchange/plan-and-deploy/supportability-matrix)||| 
-
+|서버 하드웨어|서버 하드웨어 요구 사항은 2010년 Exchange 변경되었습니다. 하드웨어가 호환되는지 확인 각 버전에 대한 하드웨어 요구 사항에 대한 자세한 내용은 다음을에서 확인합니다. <p> [Exchange 2016 시스템 요구 사항](/Exchange/plan-and-deploy/system-requirements?view=exchserver-2016&preserve-view=true) <p> [Exchange 2013 시스템 요구 사항](/Exchange/exchange-2013-system-requirements-exchange-2013-help) <p> 새로운 서버에서 Exchange 성능 및 저장소 용량이 크게 향상되어 동일한 수의 사서함을 지원하기 위해 더 적은 수의 서버가 필요할 수 있습니다.|
+|운영 체제 버전|각 버전에 대해 지원되는 최소 운영 체제 버전은 다음입니다. <p> Exchange 2016 - Windows Server 2012 <p> Exchange 2013 - Windows Server 2008 R2 SP1 <p> 운영 체제 지원에 대한 자세한 내용은 지원 가능성 [매트릭스 Exchange 있습니다.](/exchange/plan-and-deploy/supportability-matrix)|
+|Active Directory 포리스트 기능 수준|각 버전에 대해 지원되는 최소 Active Directory 포리스트 기능 수준은 다음입니다. <p> Exchange - Windows Server 2008 R2 SP1 <p> Exchange 2013 - Windows Server 2003 <p> 포리스트 기능 수준 지원에 대한 자세한 내용은 지원 가능성 [매트릭스 Exchange 있습니다.](/exchange/plan-and-deploy/supportability-matrix)|
+|Office 클라이언트 버전|각 버전에 대해 Office 지원되는 최소 클라이언트 버전은 다음입니다. <p> Exchange 2016 - Office 2010(최신 업데이트 사용) <p> Exchange 2013 - Office 2007 SP3 <p> 클라이언트 지원에 대한 Office 자세한 내용은 Exchange [매트릭스를 참조하십시오.](/exchange/plan-and-deploy/supportability-matrix)|
+|
 
 다음 리소스를 사용하여 마이그레이션에 도움을 줄 수 있습니다.
 
 - [Exchange 배포 도우미](/exchange/exchange-deployment-assistant)
-- Exchange [2016,](/exchange/plan-and-deploy/active-directory/ad-schema-changes?view=exchserver-2016) [2013의](/Exchange/exchange-2013-active-directory-schema-changes-exchange-2013-help) Active Directory schema changes
-- Exchange [2016,](/exchange/plan-and-deploy/system-requirements?view=exchserver-2016) [2013에](/Exchange/exchange-2013-system-requirements-exchange-2013-help) 대한 시스템 요구 사항
-- Exchange [2016,](/exchange/plan-and-deploy/prerequisites?view=exchserver-2016) [2013의](/Exchange/exchange-2013-prerequisites-exchange-2013-help) 선행 준비
+- Exchange [2016,](/exchange/plan-and-deploy/active-directory/ad-schema-changes?view=exchserver-2016&preserve-view=true) [2013의](/Exchange/exchange-2013-active-directory-schema-changes-exchange-2013-help) Active Directory schema changes
+- Exchange [2016,](/exchange/plan-and-deploy/system-requirements?view=exchserver-2016&preserve-view=true) [2013에](/Exchange/exchange-2013-system-requirements-exchange-2013-help) 대한 시스템 요구 사항
+- Exchange [2016,](/exchange/plan-and-deploy/prerequisites?view=exchserver-2016&preserve-view=true) [2013의](/Exchange/exchange-2013-prerequisites-exchange-2013-help) 선행 준비
 
 ## <a name="summary-of-options-for-office-2010-client-and-servers-and-windows-7"></a>Office 2010 클라이언트 및 서버 및 Windows 옵션 요약
 

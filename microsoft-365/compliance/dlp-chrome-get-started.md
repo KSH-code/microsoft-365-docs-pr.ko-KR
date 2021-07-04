@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 준비하고 배포합니다.
-ms.openlocfilehash: c20381b23a70fdf8e6571af65b74688cc57ea760
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: a76a4b1ab5b92a1e237663f65002b99d792b13bb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226962"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288374"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장 시작하기
 
@@ -107,35 +107,34 @@ Microsoft 규정 준수 확장 배포는 다단계 프로세스입니다. 한 �
    Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
    ```
 
-2.  [Microsoft 규정 준수 확장 - Chrome Web Store(google.com)](https://chrome.google.com/webstore/detail/microsoft-compliance-exte/echcggldkblhodogklpincgchnpgcdco)으로 이동합니다.
+2. [Microsoft 규정 준수 확장 - Chrome Web Store(google.com)](https://chrome.google.com/webstore/detail/microsoft-compliance-exte/echcggldkblhodogklpincgchnpgcdco)으로 이동합니다.
 
-3.  Chrome Web Store 페이지의 지침을 사용하여 확장을 설치합니다.
+3. Chrome Web Store 페이지의 지침을 사용하여 확장을 설치합니다.
 
 ### <a name="deploy-using-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 사용하여 배포
 
 조직 전체 배포에 이 설정 방법을 사용합니다.
 
-
 ##### <a name="enabling-required-registry-key-via-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 통해 필수 레지스트리 키 사용
 
-1.  다음 내용으로 PowerShell 스크립트를 만듭니다.
+1. 다음 내용으로 PowerShell 스크립트를 만듭니다.
 
     ```powershell
     Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
     ```
 
-2.  [Microsoft Endpoint Manager 관리 센터](https://endpoint.microsoft.com)에 로그인합니다.
+2. [Microsoft Endpoint Manager 관리 센터](https://endpoint.microsoft.com)에 로그인합니다.
 
-3.  **장치** > **스크립트** 로 이동한 다음 **추가** 를 선택합니다.
+3. **장치** > **스크립트** 로 이동한 다음 **추가** 를 선택합니다.
 
-4.  메시지가 표시되면 만든 스크립트의 위치로 이동합니다.
+4. 메시지가 표시되면 만든 스크립트의 위치로 이동합니다.
 
-5.  다음 설정을 선택합니다.
+5. 다음 설정을 선택합니다.
     1. 로그인된 자격 증명을 사용하여 이 스크립트를 실행: 예
     1. 스크립트 서명 검사 강제: 아니요
     1. 64비트 PowerShell 호스트에서 스크립트 실행: 예
 
-6.  적절한 장치 그룹을 선택하고 정책을 적용합니다.
+6. 적절한 장치 그룹을 선택하고 정책을 적용합니다.
 
 #### <a name="microsoft-endpoint-manager-force-install-steps"></a>Microsoft Endpoint Manager 강제 설치 단계
 
@@ -143,27 +142,27 @@ Microsoft 규정 준수 확장 배포는 다단계 프로세스입니다. 한 �
 
  ADMX를 입수한 후 아래 단계를 따라 이 확장에 대한 구성 프로필을 만들 수 있습니다.
 
-1.  Microsoft Endpoint Manager 관리 센터(https://endpoint.microsoft.com))에 로그인합니다.
+1. Microsoft Endpoint Manager 관리 센터(https://endpoint.microsoft.com))에 로그인합니다.
 
-2.  구성 프로필로 이동합니다.
+2. 구성 프로필로 이동합니다.
 
-3.  **프로필 만들기** 를 선택합니다.
+3. **프로필 만들기** 를 선택합니다.
 
-4.  **Windows 10** 을 플랫폼으로 선택합니다.
+4. **Windows 10** 을 플랫폼으로 선택합니다.
 
-5.  **사용자 지정** 을 사용자 유형으로 선택합니다.
+5. **사용자 지정** 을 사용자 유형으로 선택합니다.
 
-6.  **설정** 탭을 선택합니다.
+6. **설정** 탭을 선택합니다.
 
-7.  **추가** 를 선택합니다.
+7. **추가** 를 선택합니다.
 
-8.  다음 정책 정보를 입력합니다.
+8. 다음 정책 정보를 입력합니다.
 
     OMA-URI: `./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist`<br/>
     데이터 형식: `String`<br/>
     값: `<enabled/><data id="ExtensionInstallForcelistDesc" value="1&#xF000; echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx"/>`
 
-9.  만들기를 클릭합니다.
+9. 만들기를 클릭합니다.
 
 ### <a name="deploy-using-group-policy"></a>그룹 정책을 사용하여 배포
 
@@ -171,25 +170,25 @@ Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용�
 
 1. 장치는 그룹 정책을 통해 관리할 수 있어야 하며 모든 Chrome ADMX를 그룹 정책 중앙 저장소로 가져와야 합니다. 자세한 내용은 [Windows의 그룹 정책 관리 서식 파일에 대한 중앙 저장소를 만들고 관리하는 방법](/troubleshoot/windows-client/group-policy/create-and-manage-central-store)을 참조하세요.
 
-2.  다음 PowerShell 명령을 사용하여 PowerShell 스크립트를 작성합니다.
+2. 다음 PowerShell 명령을 사용하여 PowerShell 스크립트를 작성합니다.
 
     ```powershell
     Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
     ```
 
-3.  **그룹 정책 관리 콘솔** 을 열고 OU(조직 구성 단위)로 이동합니다.
+3. **그룹 정책 관리 콘솔** 을 열고 OU(조직 구성 단위)로 이동합니다.
 
-4.  마우스 오른쪽 단추를 클릭하고 **이 도메인에 GPO를 만들고 여기에 연결** 을 선택합니다. 메시지가 표시되면 이 GPO(그룹 정책 개체)에 설명 이름을 지정하고 만들기를 완료합니다.
+4. 마우스 오른쪽 단추를 클릭하고 **이 도메인에 GPO를 만들고 여기에 연결** 을 선택합니다. 메시지가 표시되면 이 GPO(그룹 정책 개체)에 설명 이름을 지정하고 만들기를 완료합니다.
 
-5.  GPO를 마우스 오른쪽 단추로 클릭하고 **편집** 을 선택합니다.
+5. GPO를 마우스 오른쪽 단추로 클릭하고 **편집** 을 선택합니다.
 
-6.  **컴퓨터 구성** > **기본 설정** > **제어판 설정** > **예약된 작업** 으로 이동합니다.
+6. **컴퓨터 구성** > **기본 설정** > **제어판 설정** > **예약된 작업** 으로 이동합니다.
 
-7.  마우스 오른쪽 단추를 클릭하고 **새로 만들기** > **즉시 작업(최소 Windows 7)** 을 선택하고 새 즉시 작업을 만듭니다.
+7. 마우스 오른쪽 단추를 클릭하고 **새로 만들기** > **즉시 작업(최소 Windows 7)** 을 선택하고 새 즉시 작업을 만듭니다.
 
-8.  작업에 이름 및 설명을 지정합니다.
+8. 작업에 이름 및 설명을 지정합니다.
 
-9.  해당 계정을 선택하여 즉시 작업을 실행합니다(예: NT Authority).
+9. 해당 계정을 선택하여 즉시 작업을 실행합니다(예: NT Authority).
 
 10. **가장 높은 수준의 권한으로 실행** 을 선택합니다.
 
@@ -203,21 +202,21 @@ Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용�
 
 #### <a name="adding-the-chrome-extension-to-the-forceinstall-list"></a>ForceInstall 목록에 Chrome 확장을 추가합니다.
 
-1.  그룹 정책 관리 편집기에서 OU로 이동합니다.
+1. 그룹 정책 관리 편집기에서 OU로 이동합니다.
 
-2.  다음 경로를 확장합니다. **컴퓨터/사용자 구성** > **정책** > **관리 서식 파일** > **클래식 관리 서식 파일** > **Google** > **Google Chrome** > **확장**. 이 경로는 구성에 따라 다를 수 있습니다.
+2. 다음 경로를 확장합니다. **컴퓨터/사용자 구성** > **정책** > **관리 서식 파일** > **클래식 관리 서식 파일** > **Google** > **Google Chrome** > **확장**. 이 경로는 구성에 따라 다를 수 있습니다.
 
-3.  **강제로 설치된 확장 목록을 구성** 을 선택합니다.
+3. **강제로 설치된 확장 목록을 구성** 을 선택합니다.
 
-4.  마우스 오른쪽 단추를 클릭하고 **편집** 을 선택합니다.
+4. 마우스 오른쪽 단추를 클릭하고 **편집** 을 선택합니다.
 
-5.  **사용하도록 설정** 을 선택합니다.
+5. **사용하도록 설정** 을 선택합니다.
 
-6.  **표시** 를 선택합니다.
+6. **표시** 를 선택합니다.
 
-7.  **값** 에서 다음 입력을 추가합니다. `echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx`
+7. **값** 에서 다음 입력을 추가합니다. `echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx`
 
-8.  **확인**, **적용** 을 차례로 선택합니다.
+8. **확인**, **적용** 을 차례로 선택합니다.
 
 ### <a name="test-the-extension"></a>확장 테스트
 

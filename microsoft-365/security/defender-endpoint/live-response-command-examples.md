@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 248e08913e6210fabed26955a1015533e055dcb6
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 82052634b79bf433731d0afdab45e3d75e6497e0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007072"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289334"
 ---
 # <a name="live-response-command-examples"></a>실시간 대응 명령 예제
 
@@ -38,8 +38,7 @@ ms.locfileid: "53007072"
 
 부여된 역할에 따라 기본 또는 고급 라이브 응답 명령을 실행할 수 있습니다. 기본 및 고급 명령에 대한 자세한 내용은 라이브 응답을 사용하여 디바이스에서 엔터티 [조사를 참조하세요.](live-response.md)
 
-
-## <a name="analyze"></a>analyze 
+## <a name="analyze"></a>analyze
 
 ```console
 # Analyze the file malware.txt
@@ -110,12 +109,12 @@ getfile c:\Users\user\Desktop\work.txt -auto
 >
 > 다음 파일 형식은 **Live** Response 내에서 이 명령을 사용하여 다운로드할 수 없습니다.
 >
-> * [지점 파일 재분석](/windows/desktop/fileio/reparse-points/)
-> * [스파스 파일](/windows/desktop/fileio/sparse-files/)
-> * 빈 파일
-> * 가상 파일 또는 로컬에 완전히 존재하지 않는 파일
+> - [지점 파일 재분석](/windows/desktop/fileio/reparse-points/)
+> - [스파스 파일](/windows/desktop/fileio/sparse-files/)
+> - 빈 파일
+> - 가상 파일 또는 로컬에 완전히 존재하지 않는 파일
 >
-> 이러한 파일 **형식은** [PowerShell에서 지원됩니다.](/powershell/scripting/overview?view=powershell-6/?&preserve-view=true)
+> 이러한 파일 **형식은** [PowerShell에서 지원됩니다.](/powershell/scripting/overview)
 >
 > Live Response 내에서 이 명령을 사용하는 데 문제가 있는 경우 PowerShell을 대신 사용할 수 있습니다.
 
@@ -132,6 +131,7 @@ library delete script.ps1
 ```
 
 ## <a name="processes"></a>프로세스
+
 ```console
 # Show all processes
 processes
@@ -210,11 +210,12 @@ run script.ps1
 # Run PowerShell script from the library with arguments
 run get-process-by-name.ps1 -parameters "-processName Registry"
 ```
+
 >[!NOTE]
 >
 > '**run**' 또는 '**getfile**'과 같은 장기 실행 명령의 경우 명령 끝에 ' 기호를 사용하여 백그라운드에서 해당 작업을 수행할 **&** 수 있습니다.
 > 이렇게 하면 **'fg'** 기본 명령을 사용하여 컴퓨터 조사를 계속하고 백그라운드 명령으로 [돌아갈 수 있습니다.](live-response.md#basic-commands)
->
+
 ## <a name="scheduledtask"></a>scheduledtask
 
 ```console
@@ -232,7 +233,6 @@ scheduledtasks Microsoft\Windows\Subscription\LicenseAcquisition
 scheduledtasks "Microsoft\Configuration Manager\Configuration Manager Health Evaluation"
 ```
 
-
 ## <a name="undo"></a>취소
 
 ```console
@@ -249,4 +249,3 @@ undo scheduledtask Microsoft\Windows\Subscription\LicenseAcquisition
 # Restore remediated file
 undo file c:\Users\user\Desktop\malware.exe
 ```
-

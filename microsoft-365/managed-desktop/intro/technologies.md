@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8a2a3f83995bf4248b2cb72a848a1def83ae9c50
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: d70bb133904a7bcc9c30721d3f723b0fd8b88512
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203271"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287966"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Microsoft Managed Desktop 기술
 
@@ -28,17 +28,17 @@ Microsoft 365 Enterprise 사용자에 대해 라이선스가 Microsoft Managed D
 이 문서에서는 필요한 Enterprise 라이선스에 포함된 구성 요소를 요약하고 서비스에서 각 구성 요소를 장치와 함께 사용하는 Microsoft Managed Desktop 설명을 제공합니다. 각 영역에 대한 특정 역할 및 책임은 각 영역 설명서에서 Microsoft Managed Desktop 자세히 설명되어 있습니다. 
 
 ## <a name="office-365-e3-or-e5"></a>Office 365 E3 또는 E5
+
 | 제품 |정보 |
 --- |--- 
 엔터프라이즈용 Microsoft 365 앱(64비트) | 이러한 Office 응용 프로그램은 Word, Excel, PowerPoint, Outlook, Publisher, Access, 비즈니스용 Skype, OneNote.<br><br>64비트 버전의 Microsoft Project Microsoft Visio 버전은 포함되지 않습니다. 그러나 이러한 응용 프로그램의 설치는 엔터프라이즈용 Microsoft 365 앱 설치에 따라 달라지기 때문에 Microsoft Managed Desktop 기본 Microsoft Intune 배포 및 보안 그룹을 만들었다가 사용이 허가된 사용자에게 이러한 응용 프로그램을 배포하는 데 사용할 수 있습니다. 자세한 내용은 장치에서 Microsoft Project 또는 Microsoft Visio [설치를 Microsoft Managed Desktop 참조하세요.](../get-started/project-visio.md)
 OneDrive |Azure Active Directory Single Sign-On은 사용자가 처음 로그인할 때 사용할 수 OneDrive.<br><br>"데스크톱", "문서" 및 "그림" 폴더에 대한 알려진 폴더 리디렉션이 포함됩니다. 를 사용하도록 설정하고 Microsoft Managed Desktop.
-스토어 앱 |    Microsoft Sway 및 Power BI 함께 배송되지 않습니다. 이러한 앱은 앱에서 다운로드할 수 Microsoft Store.
-Win32 응용 프로그램 |    Teams 함께 제공되지 않지만 Microsoft에서 패키지로 Microsoft Managed Desktop 장치용입니다. Azure Information Protection 클라이언트는 디바이스와 함께 제공되지 않지만 배포를 위해 패키지로 만들 수 있습니다.
-웹 응용 프로그램 |  Yammer Office 브라우저, Delve, Flow, StaffHub, PowerApps 및 Planner는 디바이스와 함께 배송되지 않습니다. 사용자는 브라우저를 사용하여 이러한 응용 프로그램의 웹 버전에 액세스할 수 있습니다.
-
-
+스토어 앱 | Microsoft Sway 및 Power BI 함께 배송되지 않습니다. 이러한 앱은 앱에서 다운로드할 수 Microsoft Store.
+Win32 응용 프로그램 | Teams 함께 제공되지 않지만 Microsoft에서 패키지로 Microsoft Managed Desktop 장치용입니다. Azure Information Protection 클라이언트는 디바이스와 함께 제공되지 않지만 배포를 위해 패키지로 만들 수 있습니다.
+웹 응용 프로그램 | Yammer Office 브라우저, Delve, Flow, StaffHub, PowerApps 및 Planner는 디바이스와 함께 배송되지 않습니다. 사용자는 브라우저를 사용하여 이러한 응용 프로그램의 웹 버전에 액세스할 수 있습니다.
 
 ## <a name="windows-10-enterprise-e5-or-e3-with-microsoft-defender-for-endpoint"></a>Windows 10 Enterprise 끝점용 Microsoft Defender를 통해 E5 또는 E3
+
 IT 관리자는 다음 설정을 구성하는 것이 좋습니다. 이러한 설정은 기본 설정의 일부로 포함되거나 Microsoft Managed Desktop.
 
 제품  |정보
@@ -47,11 +47,10 @@ IT 관리자는 다음 설정을 구성하는 것이 좋습니다. 이러한 설
 Application Virtualization | Intune Win32 앱 관리 클라이언트를 사용하여 App-V(Application Virtualization) 패키지를 배포할 수 있습니다. 자세한 내용은 [Application Virtualization 을 참조하세요.](/windows/application-management/app-v/appv-technical-reference)
 Microsoft 365 손실 방지 | 중요한 Microsoft 365 항목에 대해 수행되는 작업을 모니터링하고 해당 항목의 의도하지 않은 공유를 방지하는 데 도움이 되는 데이터 손실 방지 기능을 구현해야 합니다. 자세한 내용은 데이터 [손실 Microsoft 365 참조하세요.](../../compliance/endpoint-dlp-learn-about.md)
 
-
 다음의 일부로 포함되고 관리되는 Microsoft Managed Desktop.
 
 제품 |정보
---- |--- 
+--- |---
 BitLocker 드라이브 암호화 | BitLocker 드라이브 암호화는 모든 시스템 드라이브를 암호화하는 데 사용됩니다. 자세한 내용은 [BitLocker 드라이브 암호화를 참조하세요.](/windows/security/information-protection/bitlocker/bitlocker-overview)
 Windows Defender System Guard | 시작할 때 시스템의 무결성을 보호하고 시스템 무결성이 참으로 유지 관리되고 있는지 유효성을 검사합니다. 자세한 내용은 System [Guard Windows Defender 참조하세요.](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
 Windows Defender Credential Guard | Windows Defender Credential Guard는 권한 있는 시스템 소프트웨어만 액세스할 수 있도록 가상화 기반 보안을 사용하여 비밀을 격리합니다. 자세한 내용은 System [Guard Windows Defender 참조하세요.](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
@@ -72,8 +71,8 @@ Windows Defender 고급 보안이 있는 방화벽 | 장치에 대한 호스트 
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security E5
 
-제품 |정보 
+제품 |정보
  --- | ---
-Enterprise Mobility + Security E3<br>Azure Active Directory Premium P2 |    MDM 디바이스를 관리하기 위해 Enterprise Mobility + Security E3 기능을 사용할 수 있습니다. 선택적 기능으로 Azure Active Directory Premium P2 사용할 수 Microsoft Managed Desktop.
-Microsoft Cloud App Security |  이 선택적 기능을 사용자와 함께 사용할 Microsoft Managed Desktop.
+Enterprise Mobility + Security E3<br>Azure Active Directory Premium P2 | MDM 디바이스를 관리하기 위해 Enterprise Mobility + Security E3 기능을 사용할 수 있습니다. 선택적 기능으로 Azure Active Directory Premium P2 사용할 수 Microsoft Managed Desktop.
+Microsoft Cloud App Security | 이 선택적 기능을 사용자와 함께 사용할 Microsoft Managed Desktop.
 Azure Information Protection P2  | 이 선택적 기능을 사용자와 함께 사용할 Microsoft Managed Desktop.

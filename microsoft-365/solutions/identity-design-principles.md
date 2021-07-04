@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: b424b4f611f0553de4b7129d2c0b63cefbdeeab3
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b22a3b8fc73ca1825f07dda5b84c85e2d2a68805
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229362"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289742"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>ID 및 그 이상을 아우르는 설계자의 관점
 
@@ -164,7 +164,7 @@ Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은
 
 현재 많은 고객 IT 그룹이 "제품"을 중심으로 구성됩니다. 각 특정 제품에 대한 전문가가 필요하기 때문에 이 방식은 사내에 논리적입니다. 그러나 이러한 서비스가 클라우드로 이동되어 Active Directory 또는 Exchange 데이터베이스를 다시 디버그할 수 없습니다. 자동화(클라우드 종류)는 특정 반복적인 수동 작업을 제거합니다(팩터리에 어떤 일이 발생했습니다. 그러나 이러한 요구 사항은 서비스 간 상호 작용, 영향, 비즈니스 요구 사항 등 이해하기 위한 보다 복잡한 요구 사항으로 대체되었습니다. 원하는 경우 클라우드 [](/learn/)변환을 통해 사용할 수 있는 좋은 기회가 있습니다. 기술로 이동하기 전에 IT 기술 및 팀 구조의 변경 관리에 대해 고객에게 자주 이야기합니다.
 
-모든 SharePoint 팬과 개발자에게 "온라인에서 XYZ를 어떻게 해야 SharePoint?" 를 중지하세요. [워크플로에](/power-automate/) Power Automate(또는 Flow)를 사용하는 것이 훨씬 더 강력한 플랫폼입니다. [Azure Bot Framework를](/azure/bot-service/?view=azure-bot-service-4.0) 사용하여 500 K 항목 목록에 대한 더 나은 UX를 만들 수 있습니다. CSOM Graph [Microsoft](https://developer.microsoft.com/graph/) 2013을 사용하여 시작하세요. [Microsoft Teams](/MicrosoftTeams/Teams-overview) 포함된 SharePoint 세계도 포함됩니다. 나열할 수 있는 다른 많은 예제가 있습니다. 이 공간에는 방대하고 멋진 은하수도 있습니다. 문을 열고 [탐색을 시작해 을 탐색합니다.]()
+모든 SharePoint 팬과 개발자에게 "온라인에서 XYZ를 어떻게 해야 SharePoint?" 를 중지하세요. [워크플로에](/power-automate/) Power Automate(또는 Flow)를 사용하는 것이 훨씬 더 강력한 플랫폼입니다. [Azure Bot Framework를](/azure/bot-service/) 사용하여 500 K 항목 목록에 대한 더 나은 UX를 만들 수 있습니다. CSOM Graph [Microsoft](https://developer.microsoft.com/graph/) 2013을 사용하여 시작하세요. [Microsoft Teams](/MicrosoftTeams/Teams-overview) 포함된 SharePoint 세계도 포함됩니다. 나열할 수 있는 다른 많은 예제가 있습니다. 이 공간에는 방대하고 멋진 은하수도 있습니다. 문을 열고 [탐색을 시작해 을 탐색합니다.]()
 
 다른 일반적인 영향은 규정 준수 영역에 있습니다. 이 서비스 간 접근 방식은 많은 규정 준수 정책을 완전히 혼동하는 것으로 보입니다. "모든 전자 메일 통신을 eDiscovery 시스템으로 저널링해야 합니다."라는 조직을 계속 보고 있습니다. 전자 메일이 더 이상 전자 메일이 아니라 다른 서비스에 대한 창이면 어떤 의미입니까? Office 365 규정 준수에 대한 포괄적인 접근 방식이 [있지만,](../compliance/index.yml)사람 및 프로세스 변경은 기술보다 훨씬 더 어려운 경우가 종종 있습니다.
 

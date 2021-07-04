@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: SharePoint Online 최신 사이트 페이지에서 사용자 지정 확장 성능을 최적화하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 05d9b9cd9ad70630169595dc42080c718b39dbc8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: af3645274b800a4eb8090957fc62397465022343
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923063"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288950"
 ---
 # <a name="optimize-custom-extension-performance-in-sharepoint-online-modern-site-pages"></a>SharePoint Online 최신 사이트 페이지에서 사용자 지정 확장 성능 최적화
 
@@ -55,7 +55,8 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 - **Total은** 모듈 로드 및 초기화에 대한 확장의 총 시간을 보여줍니다. 확장이 페이지에서 실행하기 위해 시작부터 끝까지의 총 상대 시간입니다.
 - **모듈 로드에는** 확장 JavaScript 및 CSS 파일을 다운로드, 평가 및 로드하는 데 들이는 시간이 표시됩니다. 그런 다음 Init 프로세스가 시작됩니다.
 - **초기화는** 확장이 데이터를 초기화하는 데까지의 시간을 보여줍니다.
-    이 호출은 비동기 호출로, 반환된 약속이 해결될 때 onInit 함수에 대한 시간을 계산하는 것입니다.
+
+  이 호출은 비동기 호출로, 반환된 약속이 해결될 때 onInit 함수에 대한 시간을 계산하는 것입니다.
 
 이 정보는 디자이너 및 개발자가 문제를 해결하는데 도움을 주기 위해 제공됩니다. 이 정보는 디자인 및 개발 팀에 제공해야 합니다.
 

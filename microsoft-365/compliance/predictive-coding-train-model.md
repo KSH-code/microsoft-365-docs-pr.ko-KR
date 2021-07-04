@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: 84bb34f8ec1b935dc30072e16f57b5f5665c3546
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 84ec1ad42f2cec2487debe7160a3f24e09bdd830
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226218"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288194"
 ---
 # <a name="train-a-predictive-coding-model-preview"></a>예측 코딩 모델 교육(미리 보기)
 
@@ -67,11 +67,15 @@ Advanced eDiscovery 예측 코딩 모델을 만든 후 다음 단계는 첫 번�
 
 - 이 모델은 교육 라운드 중에 레이블을 지정한 컨트롤 집합의 10개 항목에 예측 점수를 할당합니다. 이 모델은 이러한 10개 항목의 예측 점수와 교육 라운드 중에 항목에 할당한 실제 레이블을 비교합니다. 이 비교에 따라 모델은 다음 분류(Control *set confusion* matrix)를 식별하여 모델의 예측 성능을 평가합니다.
 
-  |          |Model predicts item is relevant |Model predicts item is not relevant |
-  |:---------|:---------|:---------|
-  |**관련성 있는 검토자 레이블 항목**| 참 긍정| 가양성 |
-  |**관련이 없는 검토자 레이블 항목**| 거짓 부정 |True 음수 |
-  ||||
+  <br>
+
+  ****
+
+  |Label|Model predicts item is relevant|Model predicts item is not relevant|
+  |---|---|---|
+  |**관련성 있는 검토자 레이블 항목**|참 긍정|가양성|
+  |**관련이 없는 검토자 레이블 항목**|거짓 부정|True 음수|
+  |
 
   이러한 비교에 따라 모델에서는 F-점수, 정밀도 및 회수 메트릭의 값과 각 메트릭에 대한 오류 여백을 파생합니다. 이러한 모델 성능 메트릭에 대한 점수는 교육 라운드의 플라이아웃 페이지에 표시됩니다. 이러한 메트릭에 대한 설명은 [예측 코딩 참조를 참조하세요.](predictive-coding-reference.md)
 

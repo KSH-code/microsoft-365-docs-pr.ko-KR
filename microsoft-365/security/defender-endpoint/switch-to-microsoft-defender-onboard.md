@@ -23,12 +23,12 @@ ms.custom: migrationguides
 ms.topic: article
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 832414e9b2a88114cafafbba78e22ea656cc7949
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 8fcf0491629a068f1ebc97e226a2c9b05e306cbf
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930466"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289514"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Endpoint용 Microsoft Defender로 전환 - 3단계: 온보딩
 
@@ -103,7 +103,7 @@ Microsoft Defender 바이러스 백신 Server, Windows 1803 이상 또는 Window
 1. 레지스트리 편집기를 열고 다음으로 이동합니다. <br/>
    `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 
-2. **ForcePassiveMode라는** DWORD 항목을 편집하거나 만들고 다음 설정을 지정합니다.
+2. **ForceDefenderPassiveMode라는** DWORD 항목을 편집하거나 만들고 다음 설정을 지정합니다.
    - DWORD 값을 **1로 설정**
    - **기본에서** 16진수 **를 선택합니다.**
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: 전체 루트 인증서 및 CAS(인증 기관)의 전체 목록을 Microsoft 365.
-ms.openlocfilehash: 3bb48bf82f3f00223d3a913280e34fe4f0686426
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: ab4ca6f92407659b96e177161e0fd0c2847a890c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226758"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288806"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Microsoft 365 암호화 체인
 
@@ -321,7 +321,7 @@ Last updated: **10/16/2020**
 | **CRL URL** | http://crl.digicert.cn/DigiCertGlobalRootCA.crl |
 | **OCSP URL** | http://ocsp.digicert.cn |
 
-### <a name="digicert-cloud-services-ca-1"></a>**DigiCert Cloud Services CA-1**
+### <a name="digicert-cloud-services-ca-1-older"></a>**DigiCert 클라우드 서비스 CA-1(이전)**
 
 | **제목** | CN=DigiCert Cloud Services CA-1<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
@@ -352,7 +352,7 @@ Last updated: **10/16/2020**
 | **주체 키 식별자** | dd:51:d0:a2:31:73:a9:73:ae:8f:b4:01:7e:5d:8c:57:cb:9f:f0:f7 |
 | **기관 키 식별자** | 03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **지문(SHA-1)** | B3F6B64A07BB9611F47174407841F564FB991F29 |
-| **지문(SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DD44 | -
+| **지문(SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DD44 |
 | **핀(SHA-256)** | UgpUVparimk8QCjtWQaUQ7EGrtrykc/L8N66EhFY3VE= |
 | **CRL URL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
 | **OCSP URL** | http://ocsp.digicert.com
@@ -516,7 +516,7 @@ Last updated: **10/16/2020**
 | **CRL URL** | http://crl.globalsign.com/root-r3.crl |
 | **OCSP URL** | http://ocsp2.globalsign.com/rootr3 |
 
-### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**GlobalSign 조직 유효성 검사 CA - SHA256 - G2**
+### <a name="globalsign-organization-validation-ca---sha256---g2-older"></a>**GlobalSign 조직 유효성 검사 CA - SHA256 - G2(이전)**
 
 | **제목** | CN=GlobalSign 조직 유효성 검사 CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
 | --- | --- |

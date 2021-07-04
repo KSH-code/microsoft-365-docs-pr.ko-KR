@@ -1,6 +1,6 @@
 ---
-title: 'Microsoft SharePoint 도입: 시작'
-description: 비즈니스 문제를 해결하는 데 SharePoint 조직에서 Syntex를 사용 및 구현하는 방법을 학습합니다.
+title: 'Microsoft SharePoint Syntex 도입: 시작'
+description: 조직에서 비즈니스 문제를 SharePoint Syntex 사용하여 구현하는 방법을 배워야 합니다.
 ms.author: samanro
 author: samanro
 manager: pamgreen
@@ -14,26 +14,26 @@ ms.collection:
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 62e65f9be25e2c482cca78577048d504ee93097a
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: 8a5442fcf8dd50cdee6be97ba7c9bbf5e21408a3
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698979"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288158"
 ---
-# <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint 도입: 시작
+# <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex 도입: 시작
 
-Syntex에서 사용할 수 있는 지능형 콘텐츠 SharePoint 다음 세 부분으로 구성됩니다.
+다음 세 부분으로 구성되는 것으로 SharePoint Syntex 지능형 콘텐츠 서비스를 사용할 수 있습니다.
 
 - **콘텐츠 이해:** 코드 없는 AI 모델을 만들어 콘텐츠에서 정보를 분류하고 추출하여 지식 검색 및 재사용을 위한 메타데이터를 자동으로 적용합니다. 콘텐츠 [이해에 대해 자세히 알아보겠습니다.](document-understanding-overview.md)
 - **콘텐츠 처리:** 콘텐츠 캡처, 수집 및 분류를 자동화하고 콘텐츠를 사용하여 콘텐츠 중심 프로세스를 Power Automate. 콘텐츠 처리에 [대해 자세히 알아보겠습니다.](form-processing-overview.md)
-- **콘텐츠 준수:** Microsoft Information Protection에 통합된 보안 및 거버넌스를 개선하기 위해 콘텐츠를 제어하고 관리합니다.
+- **콘텐츠 준수:** 콘텐츠를 제어하고 관리하여 보안 및 거버넌스를 사용자와 통합하여 Microsoft Information Protection.
 
-새로운 AI 서비스 및 기능을 사용하여 콘텐츠 이해 및 분류 앱을 Syntex를 사용하여 콘텐츠 관리 흐름에 직접 SharePoint 수 있습니다. 콘텐츠를 이해하는 방법에는 두 가지가 있습니다. 사용하는 모델 형식은 파일 형식 및 사용 사례를 기반으로 합니다.
+새로운 AI 서비스 및 기능을 사용하여 콘텐츠 이해 및 분류 앱을 콘텐츠 관리 흐름에 직접 빌드할 수 SharePoint Syntex. 콘텐츠를 이해하는 방법에는 두 가지가 있습니다. 사용하는 모델 형식은 파일 형식 및 사용 사례를 기반으로 합니다.
 
 | 양식 처리 | 문서 이해 |
 |:-------|:-------|
-| 문서 라이브러리에서 만들어집니다. | Syntex의 일부인 콘텐츠 센터에서 SharePoint 생성됩니다. |
+| 문서 라이브러리에서 만들어집니다. | 콘텐츠 센터의 일부인 콘텐츠 센터에서 SharePoint Syntex. |
 | AI 작성기에서 만든 모델입니다. | 네이티브 인터페이스에서 만든 모델입니다. |
 | 반구조적 파일 형식에 사용됩니다. | 구조화되지 않은 파일 형식에 사용됩니다. |
 | Settable 분류자입니다. | 선택적 추출기를 사용할 수 있는 학습 가능한 분류자입니다. |
@@ -44,12 +44,12 @@ Syntex에서 사용할 수 있는 지능형 콘텐츠 SharePoint 다음 세 부�
 
 ## <a name="identify-pilot-business-scenarios-to-optimize"></a>최적화할 파일럿 비즈니스 시나리오 확인
 
-조직에서 SharePoint Syntex 사용을 준비하려면 먼저 유용한 시나리오를 이해해야 합니다. "이유"는 필요한 모델과 모델이 적용되는 위치를 기준으로 조직을 구성하는 방법을 결정하는 데 도움이 됩니다. 다음은 문서 이해가 조직에 도움이 될 수 있는 몇 가지 시나리오입니다.
+조직에서 SharePoint Syntex 사용할 수 있도록 준비하려면 먼저 유용한 시나리오를 이해해야 합니다. "이유"는 필요한 모델과 모델이 적용되는 위치를 기준으로 조직을 구성하는 방법을 결정하는 데 도움이 됩니다. 다음은 문서 이해가 조직에 도움이 될 수 있는 몇 가지 시나리오입니다.
 
 - **콘텐츠 처리:** 계약서, 작업 설명 및 기타 양식과 같은 문서를 처리합니다. 양식을 조정하고 필드를 이해하고 매핑하기 위해 모델을 교육한 다음 양식을 실행하여 데이터를 자동으로 수집합니다. 자세한 내용은 양식 처리 [개요를 참조하세요.](form-processing-overview.md)
 - **송장 분석:** 송장에서 관련 세부 정보를 끌어오고 정책이 준수되고 있는지 또는 적절하게 처리되고 있는지 확인
 
-Syntex가 조직에 SharePoint 수 있는 방법을 생각해 보아야 합니다.
+조직에 도움이 되는 SharePoint Syntex 방법을 생각해 보아야 합니다.
 
 - 비즈니스 프로세스 자동화
 - 검색 정확도 향상
@@ -64,7 +64,7 @@ Syntex가 조직에 SharePoint 수 있는 방법을 생각해 보아야 합니�
 
 영향 및 구현 용이성을 기반으로 시나리오 우선 순위를 지정합니다. 초기 포커스 영역을 쉽게 구현할 수 있는 더 큰 영향 시나리오로 만들어야 합니다. 구현하기 어려운 낮은 영향 시나리오의 우선 순위를 낮게 지정합니다.
 
-예제 시나리오 및 사용 [사례를](adoption-scenarios.md) 사용하여 조직에서 Syntex를 사용하는 SharePoint 아이디어를 묻습니다.
+예제 시나리오 및 사용 [사례를](adoption-scenarios.md) 사용하여 조직에서 시나리오를 사용하는 방법에 대한 SharePoint Syntex 합니다.
 
 ## <a name="identify-roles--responsibilities"></a>역할 및 & 식별
 
@@ -86,7 +86,7 @@ Syntex가 조직에 SharePoint 수 있는 방법을 생각해 보아야 합니�
 
 ## <a name="strategic-positioning"></a>전략적 위치
 
-이해 관계자와 협의하여 이해 관계자가 Syntex를 사용하는 전략에 SharePoint 합니다. 이 위치 관리에 도움이 되는 다음 리소스를 조사하고 제공합니다.
+이해 관계자와 협의하여 이해 관계자가 비즈니스용 전략에 부합하는지 SharePoint Syntex. 이 위치 관리에 도움이 되는 다음 리소스를 조사하고 제공합니다.
 
 - 비즈니스 결과:
   - 잠재적 회계 결과
@@ -116,7 +116,7 @@ Syntex가 조직에 SharePoint 수 있는 방법을 생각해 보아야 합니�
 
 ## <a name="readiness-checklist"></a>준비 검사 목록
 
-Syntex를 구현하기 SharePoint 준비하려면 다음을 해야 합니다.
+사용자에 대한 구현을 준비하려면 SharePoint Syntex 다음을 해야 합니다.
 
 ![콘텐츠 이해를 위한 준비](../media/content-understanding/cu-adoption-readinesschecklist.png)
 
@@ -132,7 +132,7 @@ Syntex를 구현하기 SharePoint 준비하려면 다음을 해야 합니다.
     - 기존 콘텐츠 형식이 모델에 대해 좋은 후보인가요?
     - 메타데이터를 통해 개선할 기존 프로세스는 무엇입니까?
 3. 디자인
-    - 정보 아키텍처, 관리되는 메타데이터 및 콘텐츠 형식에 대한 접근 방식 디자인
+    - 정보 아키텍처, 관리되는 메타데이터 및 콘텐츠 형식에 대한 접근 방식을 디자인합니다.
     - 정의, 만들기, 관리 프로세스를 디자인합니다.
 
 ## <a name="engage-your-organization"></a>조직 참여
@@ -146,4 +146,4 @@ Syntex를 구현하기 SharePoint 준비하려면 다음을 해야 합니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[Syntex의 시나리오 및 SharePoint 사례](adoption-scenarios.md)
+[사용자에 대한 시나리오 및 SharePoint Syntex](adoption-scenarios.md)

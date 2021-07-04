@@ -11,12 +11,12 @@ ms.service: ''
 ms.collection: enabler-strategic
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 734edbb462193291b6bd2fb4a8e6afc3a0b709cb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8a1b61088d0a1594bf1a71542158ade389cce2ab
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928251"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288518"
 ---
 # <a name="import-a-term-set-using-a-skos-based-format"></a>SKOS 기반 형식을 사용하여 용어 집합 가져오기
 
@@ -29,16 +29,16 @@ SKOS 기반 형식을 사용하여 용어 집합을 가져올 수 있습니다. 
 2. 용어 집합을 가져올 용어 그룹을 선택합니다.
 
 3. 명령 모음에서 **용어 집합 가져오기** 를 클릭합니다.
- 
-4.  서식 파일로 사용 할 샘플 파일을 다운로드 하려는 경우 **sample-metadata.ttl** 을 클릭하여 SKOS 기반 형식을 사용하는 샘플 파일을 가져옵니다.
- 
-5.  가져올 용어 및 용어 집합이 포함 된 가져오기 파일을 만듭니다.
 
-6.  **파일 형식** 에서 **SKOS(*.ttl)** 을 선택합니다.
+4. 서식 파일로 사용 할 샘플 파일을 다운로드 하려는 경우 **sample-metadata.ttl** 을 클릭하여 SKOS 기반 형식을 사용하는 샘플 파일을 가져옵니다.
 
-7.  **찾아보기** 를 클릭하여 가져오기 파일을 탐색하고 추가합니다.
+5. 가져올 용어 및 용어 집합이 포함 된 가져오기 파일을 만듭니다.
 
-8.  **가져오기** 를 클릭합니다. 가져오기가 완료 될 때까지 패널을 닫지 마세요.
+6. **파일 형식** 에서 **SKOS(*.ttl)** 을 선택합니다.
+
+7. **찾아보기** 를 클릭하여 가져오기 파일을 탐색하고 추가합니다.
+
+8. **가져오기** 를 클릭합니다. 가져오기가 완료 될 때까지 패널을 닫지 마세요.
 
 파일 가져오기가 완료되면 성공 메시지가 표시되고, 용어 저장소가 새로고침 되면 새로 만들어진 용어 집합으로 이동할 수 있습니다.
 

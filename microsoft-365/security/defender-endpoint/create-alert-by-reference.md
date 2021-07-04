@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8b05dde015bc96e1ccd3f80e25c416a371e03199
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 7f8d3b10cee0b3c4a561dfd1f7567fa9818e7686
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772392"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289466"
 ---
 # <a name="create-alert-api"></a>경고 API 만들기
 
@@ -39,35 +39,37 @@ ms.locfileid: "52772392"
 
 
 ## <a name="api-description"></a>API 설명
-이벤트 의 [맨](alerts.md) 위에 새 **경고를 만듭니다.**
-<br>**경고를 생성하려면 Microsoft Defender for Endpoint** 이벤트가 필요합니다.
-<br>요청에서 이벤트의 매개 변수 3개(이벤트 **시간,** 컴퓨터 ID 및 **보고서 ID)를 제공해야 합니다.**  아래 예제를 참조하세요.
-<br>고급 헌팅 API 또는 포털에 있는 이벤트를 사용할 수 있습니다.
-<br>동일한 Title을 사용하여 동일한 디바이스에 열려 있는 경고가 기존에 있는 경우 새로 만든 경고가 해당 경고와 병합됩니다.
-<br>API를 통해 생성된 경고에 대한 자동 조사가 자동으로 시작됩니다.
 
+이벤트 의 [맨](alerts.md) 위에 새 **경고를 만듭니다.**
+
+- **경고를 생성하려면 Microsoft Defender for Endpoint** 이벤트가 필요합니다.
+- 요청에서 이벤트의 매개 변수 3개(이벤트 **시간,** 컴퓨터 ID 및 **보고서 ID)를 제공해야 합니다.**  아래 예제를 참조하세요.
+- 고급 헌팅 API 또는 포털에 있는 이벤트를 사용할 수 있습니다.
+- 동일한 Title을 사용하여 동일한 디바이스에 열려 있는 경고가 기존에 있는 경우 새로 만든 경고가 해당 경고와 병합됩니다.
+- API를 통해 생성된 경고에 대한 자동 조사가 자동으로 시작됩니다.
 
 ## <a name="limitations"></a>제한 사항
-1. 이 API에 대한 속도 제한은 분당 15개 호출입니다.
 
+1. 이 API에 대한 속도 제한은 분당 15개 호출입니다.
 
 ## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Alerts.ReadWrite.All |  '모든 경고 읽기 및 쓰기'
+응용 프로그램 | Alerts.ReadWrite.All | '모든 경고 읽기 및 쓰기'
 위임(직장 또는 학교 계정) | Alert.ReadWrite | '경고 읽기 및 쓰기'
 
->[!Note]
+> [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
->- 사용자에게 최소한 '경고 조사'와 같은 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
->- 사용자는 장치 그룹 설정에 따라 경고와 연결된 장치에 액세스할 수 있습니다(자세한 내용은 장치 그룹 만들기 및 [관리](machine-groups.md) 참조).
+>
+> - 사용자에게 최소한 '경고 조사'와 같은 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
+> - 사용자는 장치 그룹 설정에 따라 경고와 연결된 장치에 액세스할 수 있습니다(자세한 내용은 장치 그룹 만들기 및 [관리](machine-groups.md) 참조).
 
 ## <a name="http-request"></a>HTTP 요청
 
-```
+```http
 POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
 ```
 
@@ -75,8 +77,8 @@ POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
-Content-Type | String | application/json. **필수입니다**.
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -85,21 +87,21 @@ Content-Type | String | application/json. **필수입니다**.
 속성 | 유형 | 설명
 :---|:---|:---
 eventTime | DateTime(UTC) | 고급 헌팅에서 얻은 이벤트의 정확한 시간(문자열)입니다. 예: 필수 ```2018-08-03T16:45:21.7115183Z``` .
-reportId | String | 고급 헌팅에서 얻은 이벤트의 reportId입니다. **필수입니다**.
-machineId | String | 이벤트를 식별한 장치의 ID입니다. **필수입니다**.
-심각도 | String | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
-title | String | 경고의 제목입니다. **필수입니다**.
-설명 | String | 경고에 대한 설명입니다. **필수입니다**.
-recommendedAction| String | 경고를 분석할 때 보안 담당자가 권장하는 작업입니다. **필수입니다**.
-category| String | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**
+reportId | 문자열 | 고급 헌팅에서 얻은 이벤트의 reportId입니다. **필수입니다**.
+machineId | 문자열 | 이벤트를 식별한 장치의 ID입니다. **필수입니다**.
+심각도 | 문자열 | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
+title | 문자열 | 경고의 제목입니다. **필수입니다**.
+description | 문자열 | 경고에 대한 설명입니다. **필수입니다**.
+recommendedAction| 문자열 | 경고를 분석할 때 보안 담당자가 권장하는 작업입니다. **필수입니다**.
+category| 문자열 | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**
 
 ## <a name="response"></a>응답
 
 성공하면 이 메서드는 200 OK를 [](alerts.md) 반환하고 응답 본문에 새 경고 개체를 반환합니다. 지정된 _속성(reportId,_ _eventTime_ 및 _machineId)이_ 있는 이벤트를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
-**요청**
+### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 

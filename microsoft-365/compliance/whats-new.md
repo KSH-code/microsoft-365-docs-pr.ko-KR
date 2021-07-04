@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cd82e66a0b01f4cd329d846cf43581759dec0b6
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: aec9135a00b53f504d19a80e428d52f21b92cf9c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228462"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288134"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 

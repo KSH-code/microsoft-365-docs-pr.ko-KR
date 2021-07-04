@@ -16,12 +16,12 @@ ms.reviewer: tewchen, pahuijbr
 manager: dansimp
 ms.technology: mde
 ms.date: 05/08/2021
-ms.openlocfilehash: e4675626e9debf3ef3a295f7c797ac254e82395f
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: f03fab3f296f98b448693c6a5d0886f409201703
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926022"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288482"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender 바이러스 백신 호환성
 
@@ -79,7 +79,7 @@ Windows Server, 버전 1803 이상 또는 Windows Server 2019를 사용하는 �
 - 값: `1`
 
 > [!NOTE]
-> 수동 모드는 수동 모드에서 지원되지 Windows Server 2016. 레지스트리 키는 Windows Server, 버전 1803 이상 또는 Windows Server 2019에서 사용할 수 있지만 `ForcePassiveMode` Windows Server 2016. 
+> 수동 모드는 수동 모드에서 지원되지 Windows Server 2016. 레지스트리 키는 Windows Server, 버전 1803 이상 또는 Windows Server 2019에서 사용할 수 있지만 `ForceDefenderPassiveMode` Windows Server 2016. 
 
 (<a id="fn2">2</a>) Windows Server 2016 Microsoft가 아닌 바이러스 백신 제품을 사용하는 경우 수동 모드 또는 활성 모드에서 Microsoft Defender 바이러스 백신 실행할 수 없습니다. 이러한 경우 서버에 여러 [바이러스 백신 제품을 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md#are-you-using-windows-server-2016) 문제를 방지하기 위해 수동으로 제거하거나 제거합니다.
 
@@ -99,7 +99,7 @@ Microsoft Defender 바이러스 백신 [서버](microsoft-defender-antivirus-on-
 > [!IMPORTANT]
 > 수동 모드에서 또는 차단 모드에서 Microsoft Defender 바이러스 백신 실시간 보호, 클라우드 제공 보호 또는 제한된 주기적 검사와 같은 기능을 끄지 EDR 않습니다. 
 
-|보호 |활성 모드 |수동 모드 |차단 모드의 EDR |사용 안 되거나 제거 |
+|보호 |활성 모드 |수동 모드 |차단 모드에서 EDR |사용 안 되거나 제거 |
 |:---|:---|:---|:---|:---|
 | [실시간 보호 및](configure-real-time-protection-microsoft-defender-antivirus.md) [클라우드 제공 보호](enable-cloud-protection-microsoft-defender-antivirus.md) | 예 | 아니요 <sup> [[3](#fn3)]<sup> | 아니요 | 아니요 |
 | [제한된 주기적 검사 가용성](limited-periodic-scanning-microsoft-defender-antivirus.md) | 아니요 | 아니요 | 아니요 | 예 |

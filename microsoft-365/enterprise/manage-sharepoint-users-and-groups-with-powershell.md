@@ -20,20 +20,20 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: 이 문서에서는 PowerShell을 사용하여 온라인 사용자, 그룹 및 Microsoft 365 관리하기 SharePoint 방법을 학습합니다.
-ms.openlocfilehash: cc977355f1182b18d2f2e90b573683ed69299c1c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 823c5fdc9af178a2e8ea8f0ca4c63fbfa4673dd8
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916729"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289058"
 ---
 # <a name="manage-sharepoint-online-users-and-groups-with-powershell"></a>PowerShell을 사용하여 SharePoint 온라인 사용자 및 그룹 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-대규모 사용자 계정 SharePoint 그룹과 함께 작업하며 보다 쉽게 관리할 수 있는 방법을 원하는 온라인 관리자인 경우 사용자용 PowerShell을 Microsoft 365. 
+대규모 사용자 계정 SharePoint 그룹과 함께 작업하며 보다 쉽게 관리할 수 있는 방법을 원하는 온라인 관리자인 경우 사용자용 PowerShell을 Microsoft 365.
 
-시작하기 전에 이 항목의 절차를 수행하려면 SharePoint 온라인에 연결해야 합니다. 자세한 내용은 온라인 [powerShell을 커넥트 SharePoint 참조하세요.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+시작하기 전에 이 항목의 절차를 수행하려면 SharePoint 온라인에 연결해야 합니다. 자세한 내용은 온라인 [powerShell을 커넥트 SharePoint 참조하세요.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 ## <a name="get-a-list-of-sites-groups-and-users"></a>사이트, 그룹, 사용자 목록 가져오기
 
@@ -115,6 +115,7 @@ $group = "<group name name, such as Auditors>"
 $level = "<permission level, such as View Only>"
 New-SPOSiteGroup -Group $group -PermissionLevels $level -Site https://$tenant.sharepoint.com/sites/$site
 ```
+
 권한 수준과 같은 그룹 속성은 나중에 `Set-SPOSiteGroup` cmdlet을 사용하여 업데이트할 수 있습니다.
 
 예를 들어 보기 전용 권한이 있는 감사자 그룹을 contoso 테넌시의 contosotest 사이트 모음에 추가해 보겠습니다.
@@ -131,7 +132,7 @@ New-SPOSiteGroup -Group $group -PermissionLevels $level -Site https://$tenant.sh
 
 사이트 하나 또는 모든 사이트에서 사용자를 제거해야 하는 경우가 있습니다. 직원이 사업부를 이동하거나 퇴사하는 경우를 예로 들 수 있습니다. 직원이 한 명이라면 UI에서 이 작업을 쉽게 수행할 수 있습니다. 그러나 전체 사업부를 사이트 간에 이동해야 하는 경우에는 쉽지 않습니다.
 
-그러나 온라인 관리 SharePoint CSV 파일을 사용하여 빠르고 쉽게 사용할 수 있습니다. 이 작업에서는 Windows PowerShell을 사용하여 사이트 모음 보안 그룹에서 사용자를 제거합니다. 그런 다음 CSV 파일을 사용해 여러 사이트에서 다수의 사용자를 제거합니다. 
+그러나 온라인 관리 SharePoint CSV 파일을 사용하여 빠르고 쉽게 사용할 수 있습니다. 이 작업에서는 Windows PowerShell을 사용하여 사이트 모음 보안 그룹에서 사용자를 제거합니다. 그런 다음 CSV 파일을 사용해 여러 사이트에서 다수의 사용자를 제거합니다.
 
 명령 구문을 볼 수 있도록 'Remove-SPOUser' cmdlet을 사용하여 사이트 Microsoft 365 그룹에서 단일 사용자만 제거합니다. 이 작업을 위한 구문은 다음과 같습니다.
 
@@ -142,6 +143,7 @@ $user = "<user account name, such as opalc>"
 $group = "<group name name, such as Auditors>"
 Remove-SPOUser -LoginName $user@$tenant.com -Site https://$tenant.sharepoint.com/sites/$site -Group $group
 ```
+
 예를 들어 contoso 테넌시의 contosotest 사이트 모음에 있는 사이트 모음 감사자 그룹에서 Bobby Overby를 제거해 보겠습니다.
 
 ```powershell
@@ -165,9 +167,9 @@ Get-SPOSite | ForEach {Get-SPOSiteGroup –Site $_.Url} | ForEach {Remove-SPOUse
 
 ## <a name="automate-management-of-large-lists-of-users-and-groups"></a>대형 사용자 및 그룹 목록의 관리 자동화
 
-사이트 SharePoint 많은 계정을 추가하고 사용 권한을 부여하려면 Microsoft 365 관리 센터, 개별 PowerShell 명령 또는 PowerShell에 CSV 파일을 사용할 수 있습니다. 이중에서 CSV 파일이 작업을 자동화하는 가장 빠른 방법입니다.
+사이트 SharePoint 많은 계정을 추가하고 사용 권한을 부여하려면 Microsoft 365 관리 센터, 개별 PowerShell 명령 또는 PowerShell을 CSV 파일을 사용할 수 있습니다. 이중에서 CSV 파일이 작업을 자동화하는 가장 빠른 방법입니다.
 
-기본적인 프로세스는 Windows PowerShell 스크립트에 필요한 매개 변수에 해당하는 헤더(열)가 포함된 CSV 파일을 만드는 것입니다. 목록에서 이러한 목록을 Excel CSV 파일로 내보낼 수 있습니다. 그런 다음 Windows PowerShell 스크립트를 사용하여 CSV 파일에서 레코드(행)를 반복해 사용자를 그룹에, 그룹을 사이트에 추가합니다. 
+기본적인 프로세스는 Windows PowerShell 스크립트에 필요한 매개 변수에 해당하는 헤더(열)가 포함된 CSV 파일을 만드는 것입니다. 목록에서 이러한 목록을 Excel CSV 파일로 내보낼 수 있습니다. 그런 다음 Windows PowerShell 스크립트를 사용하여 CSV 파일에서 레코드(행)를 반복해 사용자를 그룹에, 그룹을 사이트에 추가합니다.
 
 예를 들어 사이트 모음, 그룹 및 사용 권한 그룹을 정의하는 CSV 파일을 만들어 보겠습니다. 다음으로는 CSV 파일을 만들어 그룹에 사용자를 채웁니다. 마지막으로 그룹을 만들고 채우는 간단한 Windows PowerShell 스크립트를 만들어 실행합니다.
 
@@ -275,13 +277,13 @@ Get-SPOSite | ForEach {Get-SPOUser –Site $_.Url} | Format-Table -Wrap -AutoSiz
 ```
 
 이 보고서는 매우 단순하므로 코드를 더 추가하여 더 자세한 정보를 포함하는 보고서나 보다 구체적인 보고서를 만들 수도 있습니다. 그러나 이 방법을 통해 SharePoint Online 환경에서 사용자를 관리하는 방법을 SharePoint 있습니다.
-   
+
 ## <a name="see-also"></a>참고 항목
 
-[커넥트 PowerShell을 SharePoint 수 있습니다.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+[커넥트 PowerShell을 SharePoint 수 있습니다.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 [PowerShell로 SharePoint 온라인 관리](create-sharepoint-sites-and-add-users-with-powershell.md)
 
 [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)
-  
+
 [Microsoft 365 용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 콘텐츠의 서식을 지정하는 경우 커뮤니케이션 편집기를 사용하여 텍스트 및 병합 필드 변수를 변경합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6dcfb58dff3a3acf99340895872bb2da9795d9c8
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+ms.openlocfilehash: 26076ff82ba226c2993c7c40e36bca2e08cbf683
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49769163"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288122"
 ---
 # <a name="use-the-communications-editor"></a>커뮤니케이션 편집기 사용
 
@@ -40,11 +40,15 @@ ms.locfileid: "49769163"
 
 ### <a name="list-of-merge-field-variables"></a>병합 필드 변수 목록
 
-| 필드 이름                  | 필드 세부 정보 |
-| :------------------- | :------------------- |
-| 표시 이름  | 보위부의 이름과 성입니다. | 
-| Acknowledgment Link | 각 Custodian의 확인을 기록하기 위한 사용자 지정 링크입니다.|                 |
-| 포털 링크     | 관리인 준수 포털에 대한 사용자 지정된 링크입니다.|                |
-| Issuing Officer                   | 지정한 발행 담당자의 전자 메일 주소입니다.|                   |
-| 발행 날짜                   | 알림이 발행된 날짜(UTC)입니다.              |
-|||
+<br>
+
+****
+
+|필드 이름|필드 세부 정보|
+|---|---|
+|표시 이름|보위부의 이름과 성입니다.|
+|Acknowledgment Link|각 Custodian의 확인을 기록하기 위한 사용자 지정 링크입니다.|
+|포털 링크|관리인 준수 포털에 대한 사용자 지정된 링크입니다.|
+|Issuing Officer|지정한 발행 담당자의 전자 메일 주소입니다.|
+|발행 날짜|알림이 발행된 날짜(UTC)입니다.|
+|

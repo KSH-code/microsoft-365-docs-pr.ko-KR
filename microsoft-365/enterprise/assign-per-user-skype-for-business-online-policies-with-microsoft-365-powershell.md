@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: '요약: PowerShell을 사용하여 Microsoft 365 Online 정책을 사용하여 사용자 비즈니스용 Skype 할당합니다.'
-ms.openlocfilehash: 2d3d953fe0beb74cc63f914137942f068ce90be7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d7f369e96f3db95c741e6d4f2178eaf9032ab0bb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905407"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288086"
 ---
 # <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>PowerShell을 비즈니스용 Skype 온라인 정책을 사용자 Microsoft 365
 
@@ -102,11 +102,10 @@ Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName $Null
 ```
 
 이 명령은 Alex에게 할당된 외부 액세스 정책의 이름을 null 값($Null)으로 $Null. Null은 "nothing"을 의미합니다. 즉, Alex에게 외부 액세스 정책이 할당되지 않습니다. 사용자에게 외부 액세스 정책이 할당되지 않은 경우 해당 사용자는 전역 정책에 의해 관리됩니다.
-  
 
 ## <a name="managing-large-numbers-of-users"></a>많은 수의 사용자 관리
 
-많은 수의 사용자(1,000명 이상)를 관리하려면 [Invoke-Command](/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7) cmdlet을 사용하여 스크립트 블록을 통해 명령을 일괄 처리해야 합니다.  이전 예제에서는 cmdlet이 실행될 때마다 호출을 설정한 다음 결과를 다시 보내기 전에 대기해야 합니다.  스크립트 블록을 사용하는 경우 cmdlet을 원격으로 실행할 수 있으며 완료되면 데이터를 다시 보낼 수 있습니다. 
+많은 수의 사용자(1,000명 이상)를 관리하려면 [Invoke-Command](/powershell/module/microsoft.powershell.core/invoke-command) cmdlet을 사용하여 스크립트 블록을 통해 명령을 일괄 처리해야 합니다.  이전 예제에서는 cmdlet이 실행될 때마다 호출을 설정한 다음 결과를 다시 보내기 전에 대기해야 합니다.  스크립트 블록을 사용하는 경우 cmdlet을 원격으로 실행할 수 있으며 완료되면 데이터를 다시 보낼 수 있습니다.
 
 ```powershell
 $users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500

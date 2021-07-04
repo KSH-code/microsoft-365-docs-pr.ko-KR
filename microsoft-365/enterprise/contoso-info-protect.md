@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 Microsoft 365 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: 3bd778708e30253e53cc465e89f7b783141771de
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bb797fa4f71b699069f8542b8bc7a353a9ee1698
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051499"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288674"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -34,7 +34,7 @@ Contoso는 데이터를 분석하고 다음 분류 수준을 결정했습니다.
 
 | 수준 1: 기본 데이터 | 수준 2: 중요 데이터 | 수준 3: 높은 규제 대상 데이터 |
 |:-------|:-----|:-----|
-| 데이터가 암호화되며 인증된 사용자에게만 제공됩니다.<BR> <BR> 클라우드 기반 저장소 및 워크로드에 저장된 모든 데이터에 대해 제공됩니다. 데이터는 서비스에 있는 동안 그리고 서비스 및 클라이언트 장치 간에 전송되는 동안 암호화됩니다. <BR><BR>수준 1 데이터의 예로는 관리/영업/지원 담당자의 파일 및 일반적인 업무 관련 통신 내용(전자 메일)이 있습니다. | 수준 1의 기능과 함께 높은 수준의 인증 및 데이터 손실 방지 기능을 제공합니다.<BR> <BR> 강력한 인증에는 유효성 검사가 포함된 Azure AD MFA(Multi-Factor Authentication)SMS 포함됩니다. 데이터 손실 방지는 중요하거나 중요한 정보가 Microsoft 클라우드 외부로 이동하지 않도록 합니다.<BR><BR>수준 2 데이터의 예로는 신제품 연구 개발 데이터 및 재무/법률 정보가 있습니다. | 수준 2의 기능과 함께 최고 수준의 암호화, 인증 및 감사 기능 제공<BR><BR>미사용 데이터 및 클라우드의 데이터에 대해 지역별 규정을 준수하는 최고 수준의 암호화 기능이 제공되며, 스마트 카드를 사용하는 MFA와 세분화된 감사/경고 기능도 함께 제공됩니다.<BR> <BR>수준 3 데이터의 예로는 고객 및 파트너 개인 정보, 제품 엔지니어링 사양 및 독점 제조 기술이 있습니다.  |
+| 데이터가 암호화되며 인증된 사용자에게만 제공됩니다.<BR> <BR> 클라우드 기반 저장소 및 워크로드에 저장된 모든 데이터에 대해 제공됩니다. 데이터는 서비스에 있는 동안 그리고 서비스 및 클라이언트 장치 간에 전송되는 동안 암호화됩니다. <BR><BR>수준 1 데이터의 예로는 관리/영업/지원 담당자의 파일 및 일반적인 업무 관련 통신 내용(전자 메일)이 있습니다. | 수준 1의 기능과 함께 높은 수준의 인증 및 데이터 손실 방지 기능을 제공합니다.<BR> <BR> 강력한 인증에는 SMS 유효성 검사가 포함된 Azure AD MFA(Multi-Factor Authentication)가 포함됩니다. 데이터 손실 방지는 중요하거나 중요한 정보가 Microsoft 클라우드 외부로 이동하지 않도록 합니다.<BR><BR>수준 2 데이터의 예로는 신제품 연구 개발 데이터 및 재무/법률 정보가 있습니다. | 수준 2의 기능과 함께 최고 수준의 암호화, 인증 및 감사 기능 제공<BR><BR>미사용 데이터 및 클라우드의 데이터에 대해 지역별 규정을 준수하는 최고 수준의 암호화 기능이 제공되며, 스마트 카드를 사용하는 MFA와 세분화된 감사/경고 기능도 함께 제공됩니다.<BR> <BR>수준 3 데이터의 예로는 고객 및 파트너 개인 정보, 제품 엔지니어링 사양 및 독점 제조 기술이 있습니다.  |
 ||||
 
 ## <a name="contoso-information-policies"></a>Contoso 정보 정책
@@ -64,11 +64,11 @@ Contoso는 다음 단계를 수행하여 정보 보호 요구 사항에 Microsof
 
    Contoso는 암호화, 사용 권한 및 워터마크를 포함하여 높은 규제 대상 레이블을 사용하여 데이터 수준에 맞게 민감도 레이블을 만들었습니다.
 
-4.  사이트 및 파일 공유를 SharePoint 사이트 및 파일 공유에서 새 SharePoint 이동
+4. 사이트 및 파일 공유를 SharePoint 사이트 및 파일 공유에서 새 SharePoint 이동
 
     새 SharePoint 사이트로 마이그레이션된 파일에는 해당 사이트에 할당된 기본 보존 레이블이 상속되었습니다.
 
-5.  직원에게 새 문서에 민감도 레이블을 사용하는 방법, 새 SharePoint 사이트를 만들 때 Contoso IT와 상호 작용하는 방법 및 디지털 자산을 SharePoint 교육
+5. 직원에게 새 문서에 민감도 레이블을 사용하는 방법, 새 SharePoint 사이트를 만들 때 Contoso IT와 상호 작용하는 방법 및 디지털 자산을 SharePoint 교육
 
     잘못된 작업자 정보 저장 습관을 변경하는 것은 종종 클라우드의 정보 보호 전환에서 가장 어려운 부분으로 간주됩니다. Contoso IT 및 경영진은 직원들이 항상 디지털 자산에 레이블을 지정하고 클라우드에 저장하고, 사내 파일 공유를 사용하지 말고, 타사 클라우드 저장소 서비스 또는 USB 드라이브를 사용하지 못하게 하는 데 필요했습니다.
 
@@ -76,9 +76,9 @@ Contoso는 다음 단계를 수행하여 정보 보호 요구 사항에 Microsof
 
 Contoso는 Exchange Online 및 SharePoint 롤아웃의 일환으로 다음과 같은 조건부 액세스 정책 집합을 구성하고 해당 그룹에 적용했습니다.
 
-- [장치 정책에 대한 관리 및 비관리 응용 프로그램 액세스](../security/defender-365-security/identity-access-policies.md)
-- [Exchange Online 액세스 정책](../security/defender-365-security/secure-email-recommended-policies.md)
-- [SharePoint 액세스 정책](../security/defender-365-security/sharepoint-file-access-policies.md)
+- [장치 정책에 대한 관리 및 비관리 응용 프로그램 액세스](../security/office-365-security/identity-access-policies.md)
+- [Exchange Online 액세스 정책](../security/office-365-security/secure-email-recommended-policies.md)
+- [SharePoint 액세스 정책](../security/office-365-security/sharepoint-file-access-policies.md)
 
 정보 보호를 위한 Contoso 정책의 결과 집합은 다음과 있습니다.
 
@@ -117,7 +117,7 @@ Contoso에서 ID 및 액세스 관리Microsoft 365 위협 [방지,](contoso-secu
 
 ## <a name="see-also"></a>참고 항목
 
-[보안 로드맵](../security/defender-365-security/security-roadmap.md)
+[보안 로드맵](../security/office-365-security/security-roadmap.md)
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 

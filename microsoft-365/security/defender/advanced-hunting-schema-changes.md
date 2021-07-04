@@ -1,5 +1,5 @@
 ---
-title: Defender 고급 헌팅 Microsoft 365 이름 변경 사항
+title: 고급 헌팅 Microsoft 365 Defender 이름 변경
 description: 고급 헌팅 스위마의 변경 테이블 및 열 이름 변경 추적 및 검토
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 데이터, 명명 변경, 이름 변경
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a387892dde0fbe96e4a523b2247448a3c7e374b8
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 9406653a2d16c83f974e2a0ce7597b5c4f833252
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470499"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289502"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>고급 헌팅 스마 - 이름 변경
 
@@ -55,22 +55,22 @@ ms.locfileid: "52470499"
 
 | 열 이름 | 원래 값 이름 | 새 값 이름 | 변경 이유
 |--|--|--|--|
-| `DetectionSource` | MCAS |    Microsoft Cloud App Security | Rebranding |
-| `DetectionSource` | WindowsDefenderAtp|   EDR| Rebranding |
+| `DetectionSource` | MCAS | Microsoft Cloud App Security | Rebranding |
+| `DetectionSource` | WindowsDefenderAtp| EDR| Rebranding |
 | `DetectionSource` | WindowsDefenderAv | 바이러스 검사 | Rebranding |
 | `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Rebranding |
-| `DetectionSource` | CustomerTI |  사용자 지정 TI | Rebranding |
+| `DetectionSource` | CustomerTI | 사용자 지정 TI | Rebranding |
 | `DetectionSource` | OfficeATP | Office 365용 Microsoft Defender | Rebranding |
-| `DetectionSource` | MTP   | Microsoft 365 Defender | Rebranding |
-| `DetectionSource` | AzureATP |    ID용 Microsoft Defender | Rebranding |
-| `DetectionSource` | CustomDetection   | 사용자 지정 검색 | Rebranding |
+| `DetectionSource` | MTP | Microsoft 365 Defender | Rebranding |
+| `DetectionSource` | AzureATP | ID용 Microsoft Defender | Rebranding |
+| `DetectionSource` | CustomDetection | 사용자 지정 검색 | Rebranding |
 | `DetectionSource` | AutomatedInvestigation |자동화된 조사 | Rebranding |
 | `DetectionSource` | ThreatExperts | Microsoft 위협 전문가 | Rebranding |
 | `DetectionSource` | 제3자 TI | 제3자 센서 | Rebranding |
-| `ServiceSource` | Microsoft Defender ATP| 끝점용 Microsoft Defender | Rebranding |
-|`ServiceSource` |Microsoft Threat Protection   | Microsoft 365 Defender | Rebranding |
-| `ServiceSource` | Office 365 ATP  |Office 365용 Microsoft Defender | Rebranding |
-| `ServiceSource` |Azure ATP    |ID용 Microsoft Defender | Rebranding |
+| `ServiceSource` | Microsoft Defender ATP| 엔드포인트용 Microsoft Defender | Rebranding |
+|`ServiceSource` |Microsoft Threat Protection | Microsoft 365 Defender | Rebranding |
+| `ServiceSource` | Office 365 ATP |Office 365용 Microsoft Defender | Rebranding |
+| `ServiceSource` |Azure ATP |ID용 Microsoft Defender | Rebranding |
 
 `DetectionSource` 은 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. `ServiceSource` 은 [AlertEvidence](advanced-hunting-alertevidence-table.md) 및 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. 
 

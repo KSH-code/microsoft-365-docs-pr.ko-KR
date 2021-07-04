@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: 하나 이상의 라이브러리에서 적용된 문서 이해 모델을 제거합니다.
-ms.openlocfilehash: e95c0583b1b0e2f5de08228afbf161c339544047
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: bbd3e496b50d3fddb31342fbc07d30984544e744
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177240"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287456"
 ---
 # <a name="batchdelete"></a>BatchDelete
 
@@ -47,6 +47,7 @@ POST /_api/machinelearning/publications/batchdelete HTTP/1.1
 |Publications|예|MachineLearningPublicationEntityData[]|각각 모델 및 대상 문서 라이브러리를 지정하는 MachineLearningPublicationEntityData의 컬렉션입니다.|
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | 이름 | 필수 | 유형 | 설명 |
 |--------|-------|--------|------------|
 |ModelUniqueId|예|문자열|모델 파일의 고유 ID입니다.|
@@ -61,6 +62,7 @@ POST /_api/machinelearning/publications/batchdelete HTTP/1.1
 |200 OK||다중 문서 라이브러리에서 모델을 제거하도록 지원하는 사용자 지정 API입니다. 부분적으로 성공하는 경우에도 200 OK가 반환될 수 있으며, 호출자는 응답 본문을 검사하여 모델이 문서 라이브러리에서 성공적으로 제거되었는지 파악해야 합니다.|
 
 ## <a name="response-body"></a>응답 본문
+
 | 이름   | 유형  | 설명|
 |--------|-------|------------|
 |TotalSuccesses|int|문서 라이브러리에서 성공적으로 제거한 모델의 총수입니다.|
@@ -68,6 +70,7 @@ POST /_api/machinelearning/publications/batchdelete HTTP/1.1
 |세부 정보|MachineLearningPublicationResult[]|각각 문서 라이브러리에서 모델을 제거한 자세한 결과를 지정하는 MachineLearningPublicationResult의 컬렉션입니다.|
 
 ### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+
 | 이름   | 유형  | 설명|
 |--------|-------|------------|
 |StatusCode|int|HTTP 상태 코드입니다.|
@@ -75,6 +78,7 @@ POST /_api/machinelearning/publications/batchdelete HTTP/1.1
 |Publication|MachineLearningPublicationEntityData|모델 정보 및 대상 문서 라이브러리를 지정합니다.| 
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | 이름 | 유형 | 설명 |
 |--------|--------|------------|
 |ModelUniqueId|문자열|모델 파일의 고유 ID입니다.|
@@ -102,7 +106,6 @@ POST /_api/machinelearning/publications/batchdelete HTTP/1.1
     ] 
 } 
 ```
-
 
 #### <a name="sample-response"></a>샘플 응답
 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: 90c76fade54c109fc02e145a49bbe93d11ad8b79
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: ad9bf2ba40ede2d76246c56bf94b90e0e96aeeff
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822587"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288278"
 ---
 # <a name="predictive-coding-reference-preview"></a>예측 코딩 참조(미리 보기)
 
@@ -36,14 +36,18 @@ ms.locfileid: "52822587"
 ## <a name="control-set-confusion-matrix"></a>컨트롤 집합 혼동 행렬
 
 교육 라운드를 완료하면 모델에서는 교육 라운드 중에 레이블을 지정한 컨트롤 집합의 10개 항목에 예측 점수를 할당합니다. 이 모델은 이러한 10개 항목의 예측 점수와 교육 라운드 중에 항목에 할당한 실제 레이블을 비교합니다. 이 비교에 따라 모델은 다음 분류를 식별하여 모델의 예측 성능을 평가합니다.
-  
-  |          |Model predicts item is relevant |Model predicts item is not relevant |
-  |:---------|:---------|:---------|
-  |**관련성 있는 검토자 레이블 항목**| 참 긍정| 가양성 |
-  |**관련이 없는 검토자 레이블 항목**| 거짓 부정 |True 음수 |
-  ||||
 
-  이러한 비교에 따라 모델에서는 F-점수, 정밀도 및 회수 메트릭의 값과 각 메트릭에 대한 오류 여백을 파생합니다. 학습 라운드에 대한 플라이아웃 페이지에 행렬의 각 혼동 유형 수가 표시됩니다.
+<br>
+
+****
+
+|Label|Model predicts item is relevant|Model predicts item is not relevant|
+|---|---|---|
+|**관련성 있는 검토자 레이블 항목**|참 긍정|가양성|
+|**관련이 없는 검토자 레이블 항목**|거짓 부정|True 음수|
+|
+
+이러한 비교에 따라 모델에서는 F-점수, 정밀도 및 회수 메트릭의 값과 각 메트릭에 대한 오류 여백을 파생합니다. 학습 라운드에 대한 플라이아웃 페이지에 행렬의 각 혼동 유형 수가 표시됩니다.
 
 ## <a name="f-score"></a>F-점수
 

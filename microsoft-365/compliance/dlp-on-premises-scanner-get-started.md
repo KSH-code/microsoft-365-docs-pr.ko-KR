@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 설정
-ms.openlocfilehash: b21474f3a9e045bf353d62ef6c7c8d4174801a1b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 0390ac48b351b30b75109a3e3a5d18c80847c9d2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623836"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289202"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>데이터 손실 방지 온-프레미스 스캐너로 시작하기(미리 보기)
 
@@ -115,7 +115,7 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
 
 2. [활동 탐색기 시작하기](data-classification-activity-explorer.md)의 절차를 참조하여 온-프레미스 스캐너 위치에 대한 모든 데이터에 액세스합니다.
 
-3. [규정 준수 센터의 감사 로그](https://security.microsoft.com/auditlogsearch)를 엽니다. 공개 미리 보기 동안 DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) PowerShell을 이용하여 액세스할 수 있습니다. 
+3. [규정 준수 센터의 감사 로그](https://security.microsoft.com/auditlogsearch)를 엽니다. 공개 미리 보기 동안 DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell을 이용하여 액세스할 수 있습니다. 
 
 
 ## <a name="next-steps"></a>다음 단계

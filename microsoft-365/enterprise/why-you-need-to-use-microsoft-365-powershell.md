@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: b3209b1a-40c7-4ede-8e78-8a88bb2adc8a
 description: '요약: PowerShell을 사용하여 PowerShell을 관리해야 하는 이유를 Microsoft 365 경우에 따라 더 효율적으로 관리해야 하는 경우도 있습니다.'
-ms.openlocfilehash: baae3f5682edb65f1bc8114fcc96021b144b93ab
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: cbbceddc98bebaed030f4cff2f183d473d716df6
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228426"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288470"
 ---
 # <a name="why-you-need-to-use-powershell-for-microsoft-365"></a>Microsoft 365 용 PowerShell을 사용해야 하는 이유
 
@@ -236,7 +236,7 @@ Get-SPOSite | ForEach {Remove-SPOUser -Site $_.Url -LoginName "kenmyer@litwarein
 ```
 
 > [!NOTE]
-> 이 명령을 사용하려면 온라인 [PowerShell SharePoint 설치해야 합니다.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+> 이 명령을 사용하려면 온라인 [PowerShell SharePoint 설치해야 합니다.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 이 PowerShell 명령을 해석하면 다음을 실행합니다. 현재 Microsoft 365 구독의 모든 SharePoint **사이트(Get-SPOSite)를** 사용하며 각 사이트에 액세스할 수 있는 사용자 목록에서 Ken Meyer를 제거합니다(**ForEach {Remove-SPOUser -Site $ \_ ). Url -LoginName "kenmyer \@ litwareinc.com"}**).
 
