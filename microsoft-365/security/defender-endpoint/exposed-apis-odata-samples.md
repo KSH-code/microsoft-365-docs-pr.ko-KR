@@ -17,46 +17,46 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a2570aba26d65a573c19777bc70db77f4118e336
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ff13a382f7c59083c217f937b996e63abc2ff52a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771048"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290006"
 ---
-# <a name="odata-queries-with-microsoft-defender-for-endpoint"></a><span data-ttu-id="6721a-104">끝점용 Microsoft Defender를 사용하여 OData 쿼리</span><span class="sxs-lookup"><span data-stu-id="6721a-104">OData queries with Microsoft Defender for Endpoint</span></span>
+# <a name="odata-queries-with-microsoft-defender-for-endpoint"></a><span data-ttu-id="09f4e-104">끝점용 Microsoft Defender를 사용하여 OData 쿼리</span><span class="sxs-lookup"><span data-stu-id="09f4e-104">OData queries with Microsoft Defender for Endpoint</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="6721a-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="6721a-105">**Applies to:**</span></span>
-- [<span data-ttu-id="6721a-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="6721a-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+<span data-ttu-id="09f4e-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="09f4e-105">**Applies to:**</span></span>
+- [<span data-ttu-id="09f4e-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="09f4e-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- <span data-ttu-id="6721a-107">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="6721a-107">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="6721a-108">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="6721a-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- <span data-ttu-id="09f4e-107">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="09f4e-107">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="09f4e-108">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="09f4e-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-<span data-ttu-id="6721a-109">OData 쿼리에 익숙하지 않은 경우 [OData V4 쿼리를 참조합니다.](https://www.odata.org/documentation/)</span><span class="sxs-lookup"><span data-stu-id="6721a-109">If you are not familiar with OData queries, see: [OData V4 queries](https://www.odata.org/documentation/)</span></span>
+<span data-ttu-id="09f4e-109">OData 쿼리에 익숙하지 않은 경우 [OData V4 쿼리를 참조합니다.](https://www.odata.org/documentation/)</span><span class="sxs-lookup"><span data-stu-id="09f4e-109">If you are not familiar with OData queries, see: [OData V4 queries](https://www.odata.org/documentation/)</span></span>
 
-<span data-ttu-id="6721a-110">모든 속성이 필터링할 수 있는 것은 아니며,</span><span class="sxs-lookup"><span data-stu-id="6721a-110">Not all properties are filterable.</span></span>
+<span data-ttu-id="09f4e-110">모든 속성이 필터링할 수 있는 것은 아니며,</span><span class="sxs-lookup"><span data-stu-id="09f4e-110">Not all properties are filterable.</span></span>
 
-## <a name="properties-that-support-filter"></a><span data-ttu-id="6721a-111">다음 속성을 지원하는 $filter.</span><span class="sxs-lookup"><span data-stu-id="6721a-111">Properties that support $filter:</span></span>
-```
-- [Alert](alerts.md): ```alertCreationTime```, ```lastUpdateTime```, ```incidentId```,```InvestigationId```, ```status```, ```severity``` and ```category```.
-- [Machine](machine.md): ```ComputerDnsName```, ```LastSeen```, ```HealthStatus```, ```OsPlatform```, ```RiskScore``` and ```RbacGroupId```.
-- [MachineAction](machineaction.md): ```Status```, ```MachineId```, ```Type```, ```Requestor``` and ```CreationDateTimeUtc```.
-- [Indicator](ti-indicator.md): ```indicatorValue```, ```indicatorType```, ```creationTimeDateTimeUtc```, ```createdBy```, ```severity ``` and ```action ```.
-```
-### <a name="example-1"></a><span data-ttu-id="6721a-112">예 1</span><span class="sxs-lookup"><span data-stu-id="6721a-112">Example 1</span></span>
+## <a name="properties-that-support-filter"></a><span data-ttu-id="09f4e-111">속성을 지원하는 $filter</span><span class="sxs-lookup"><span data-stu-id="09f4e-111">Properties that support $filter</span></span>
 
-<span data-ttu-id="6721a-113">관련 증거가 있는 최신 경고 10개 다운로드:</span><span class="sxs-lookup"><span data-stu-id="6721a-113">Get 10 latest Alerts with related Evidence:</span></span>
+- <span data-ttu-id="09f4e-112">[경고:](alerts.md) `alertCreationTime` , , , , , 및 `lastUpdateTime` `incidentId` `InvestigationId` `status` `severity` `category` .</span><span class="sxs-lookup"><span data-stu-id="09f4e-112">[Alert](alerts.md): `alertCreationTime`, `lastUpdateTime`, `incidentId`,`InvestigationId`, `status`, `severity` and `category`.</span></span>
+- <span data-ttu-id="09f4e-113">[컴퓨터](machine.md): `ComputerDnsName` , , , 및 `LastSeen` `HealthStatus` `OsPlatform` `RiskScore` `RbacGroupId` .</span><span class="sxs-lookup"><span data-stu-id="09f4e-113">[Machine](machine.md): `ComputerDnsName`, `LastSeen`, `HealthStatus`, `OsPlatform`, `RiskScore` and `RbacGroupId`.</span></span>
+- <span data-ttu-id="09f4e-114">[MachineAction](machineaction.md): `Status` , , , 및 `MachineId` `Type` `Requestor` `CreationDateTimeUtc` .</span><span class="sxs-lookup"><span data-stu-id="09f4e-114">[MachineAction](machineaction.md): `Status`, `MachineId`, `Type`, `Requestor` and `CreationDateTimeUtc`.</span></span>
+- <span data-ttu-id="09f4e-115">[표시기:](ti-indicator.md) `indicatorValue` , , , 및 `indicatorType` `creationTimeDateTimeUtc` `createdBy` `severity` `action` .</span><span class="sxs-lookup"><span data-stu-id="09f4e-115">[Indicator](ti-indicator.md): `indicatorValue`, `indicatorType`, `creationTimeDateTimeUtc`, `createdBy`, `severity` and `action`.</span></span>
+
+### <a name="example-1"></a><span data-ttu-id="09f4e-116">예 1</span><span class="sxs-lookup"><span data-stu-id="09f4e-116">Example 1</span></span>
+
+<span data-ttu-id="09f4e-117">관련 증거가 있는 최신 경고 10개 다운로드:</span><span class="sxs-lookup"><span data-stu-id="09f4e-117">Get 10 latest Alerts with related Evidence:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
-<span data-ttu-id="6721a-114">**응답:**</span><span class="sxs-lookup"><span data-stu-id="6721a-114">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="09f4e-118">응답</span><span class="sxs-lookup"><span data-stu-id="09f4e-118">Response</span></span>
 
 ```json
 {
@@ -193,15 +193,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=ev
 }
 ```
 
-### <a name="example-2"></a><span data-ttu-id="6721a-115">예 2</span><span class="sxs-lookup"><span data-stu-id="6721a-115">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="09f4e-119">예 2</span><span class="sxs-lookup"><span data-stu-id="09f4e-119">Example 2</span></span>
 
-<span data-ttu-id="6721a-116">2019-11-22 00:00:00 이후에 마지막으로 업데이트된 모든 경고를 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="6721a-116">Get all the alerts last updated after 2019-11-22 00:00:00:</span></span>
+<span data-ttu-id="09f4e-120">2019-11-22 00:00:00 이후에 마지막으로 업데이트된 모든 경고를 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="09f4e-120">Get all the alerts last updated after 2019-11-22 00:00:00:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$filter=lastUpdateTime+ge+2019-11-22T00:00:00Z
 ```
 
-<span data-ttu-id="6721a-117">**응답:**</span><span class="sxs-lookup"><span data-stu-id="6721a-117">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="09f4e-121">응답</span><span class="sxs-lookup"><span data-stu-id="09f4e-121">Response</span></span>
 
 ```json
 {
@@ -255,15 +255,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$filter=lastUpdate
 }
 ```
 
-### <a name="example-3"></a><span data-ttu-id="6721a-118">예 3</span><span class="sxs-lookup"><span data-stu-id="6721a-118">Example 3</span></span>
+### <a name="example-3"></a><span data-ttu-id="09f4e-122">예 3</span><span class="sxs-lookup"><span data-stu-id="09f4e-122">Example 3</span></span>
 
-<span data-ttu-id="6721a-119">'높음' 'RiskScore'가 있는 모든 장치를 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="6721a-119">Get all the devices with 'High' 'RiskScore':</span></span>
+<span data-ttu-id="09f4e-123">'높음' 'RiskScore'가 있는 모든 장치를 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="09f4e-123">Get all the devices with 'High' 'RiskScore':</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=riskScore+eq+'High'
 ```
 
-<span data-ttu-id="6721a-120">**응답:**</span><span class="sxs-lookup"><span data-stu-id="6721a-120">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="09f4e-124">응답</span><span class="sxs-lookup"><span data-stu-id="09f4e-124">Response</span></span>
 
 ```json
 {
@@ -308,15 +308,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=riskScor
 }
 ```
 
-### <a name="example-4"></a><span data-ttu-id="6721a-121">예 4</span><span class="sxs-lookup"><span data-stu-id="6721a-121">Example 4</span></span>
+### <a name="example-4"></a><span data-ttu-id="09f4e-125">예 4</span><span class="sxs-lookup"><span data-stu-id="09f4e-125">Example 4</span></span>
 
-<span data-ttu-id="6721a-122">'HealthStatus'가 'Active'와 같지 않은 상위 100개 장치를 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="6721a-122">Get top 100 devices with 'HealthStatus' not equals to 'Active':</span></span>
+<span data-ttu-id="09f4e-126">'HealthStatus'가 'Active'와 같지 않은 상위 100개 장치를 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="09f4e-126">Get top 100 devices with 'HealthStatus' not equals to 'Active':</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=healthStatus+ne+'Active'&$top=100 
 ```
 
-<span data-ttu-id="6721a-123">**응답:**</span><span class="sxs-lookup"><span data-stu-id="6721a-123">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="09f4e-127">응답</span><span class="sxs-lookup"><span data-stu-id="09f4e-127">Response</span></span>
 
 ```json
 {
@@ -361,15 +361,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=healthSt
 }
 ```
 
-### <a name="example-5"></a><span data-ttu-id="6721a-124">예 5</span><span class="sxs-lookup"><span data-stu-id="6721a-124">Example 5</span></span>
+### <a name="example-5"></a><span data-ttu-id="09f4e-128">예 5</span><span class="sxs-lookup"><span data-stu-id="09f4e-128">Example 5</span></span>
 
-<span data-ttu-id="6721a-125">2018-10-20 이후에 마지막으로 본 모든 장치를 얻게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6721a-125">Get all the devices that last seen after 2018-10-20:</span></span>
+<span data-ttu-id="09f4e-129">2018-10-20 이후에 마지막으로 본 모든 장치를 얻게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="09f4e-129">Get all the devices that last seen after 2018-10-20:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=lastSeen gt 2018-08-01Z
 ```
 
-<span data-ttu-id="6721a-126">**응답:**</span><span class="sxs-lookup"><span data-stu-id="6721a-126">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="09f4e-130">응답</span><span class="sxs-lookup"><span data-stu-id="09f4e-130">Response</span></span>
 
 ```json
 {
@@ -414,15 +414,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=lastSeen
 }
 ```
 
-### <a name="example-6"></a><span data-ttu-id="6721a-127">예 6</span><span class="sxs-lookup"><span data-stu-id="6721a-127">Example 6</span></span>
+### <a name="example-6"></a><span data-ttu-id="09f4e-131">예 6</span><span class="sxs-lookup"><span data-stu-id="09f4e-131">Example 6</span></span>
 
-<span data-ttu-id="6721a-128">사용자가 끝점용 Microsoft Defender를 사용하여 만든 모든 Analyst@examples.onmicrosoft.com 바이러스 백신 검사 다운로드:</span><span class="sxs-lookup"><span data-stu-id="6721a-128">Get all the Anti-Virus scans that the user Analyst@examples.onmicrosoft.com created using Microsoft Defender for Endpoint:</span></span>
+<span data-ttu-id="09f4e-132">사용자가 끝점용 Microsoft Defender를 사용하여 만든 모든 Analyst@examples.onmicrosoft.com 바이러스 백신 검사 다운로드:</span><span class="sxs-lookup"><span data-stu-id="09f4e-132">Get all the Anti-Virus scans that the user Analyst@examples.onmicrosoft.com created using Microsoft Defender for Endpoint:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machineactions?$filter=requestor eq 'Analyst@contoso.com' and type eq 'RunAntiVirusScan'
 ```
 
-<span data-ttu-id="6721a-129">**응답:**</span><span class="sxs-lookup"><span data-stu-id="6721a-129">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="09f4e-133">응답</span><span class="sxs-lookup"><span data-stu-id="09f4e-133">Response</span></span>
 
 ```json
 json{
@@ -446,29 +446,29 @@ json{
 }
 ```
 
-### <a name="example-7"></a><span data-ttu-id="6721a-130">예 7</span><span class="sxs-lookup"><span data-stu-id="6721a-130">Example 7</span></span>
+### <a name="example-7"></a><span data-ttu-id="09f4e-134">예 7</span><span class="sxs-lookup"><span data-stu-id="09f4e-134">Example 7</span></span>
 
-<span data-ttu-id="6721a-131">특정 장치에 대한 열린 경고 수를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="6721a-131">Get the count of open alerts for a specific device:</span></span>
+<span data-ttu-id="09f4e-135">특정 장치에 대한 열린 경고 수를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="09f4e-135">Get the count of open alerts for a specific device:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines/123321d0c675eaa415b8e5f383c6388bff446c62/alerts/$count?$filter=status ne 'Resolved'
 ```
 
-<span data-ttu-id="6721a-132">**응답:**</span><span class="sxs-lookup"><span data-stu-id="6721a-132">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="09f4e-136">응답</span><span class="sxs-lookup"><span data-stu-id="09f4e-136">Response</span></span>
 
 ```json
 4
 ```
 
-### <a name="example-8"></a><span data-ttu-id="6721a-133">예 8</span><span class="sxs-lookup"><span data-stu-id="6721a-133">Example 8</span></span>
+### <a name="example-8"></a><span data-ttu-id="09f4e-137">예 8</span><span class="sxs-lookup"><span data-stu-id="09f4e-137">Example 8</span></span>
 
-<span data-ttu-id="6721a-134">'computerDnsName'이 'mymachine'으로 시작하는 모든 장치를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="6721a-134">Get all the devices with 'computerDnsName' starting with 'mymachine':</span></span>
+<span data-ttu-id="09f4e-138">'computerDnsName'이 'mymachine'으로 시작하는 모든 장치를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="09f4e-138">Get all the devices with 'computerDnsName' starting with 'mymachine':</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=startswith(computerDnsName,'mymachine')
 ```
 
-<span data-ttu-id="6721a-135">**응답:**</span><span class="sxs-lookup"><span data-stu-id="6721a-135">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="09f4e-139">응답</span><span class="sxs-lookup"><span data-stu-id="09f4e-139">Response</span></span>
 
 ```json
 json{
@@ -513,5 +513,6 @@ json{
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="6721a-136">참고 항목</span><span class="sxs-lookup"><span data-stu-id="6721a-136">See also</span></span>
-- [<span data-ttu-id="6721a-137">끝점 API용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="6721a-137">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
+## <a name="see-also"></a><span data-ttu-id="09f4e-140">참고 항목</span><span class="sxs-lookup"><span data-stu-id="09f4e-140">See also</span></span>
+
+[<span data-ttu-id="09f4e-141">끝점 API용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="09f4e-141">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
