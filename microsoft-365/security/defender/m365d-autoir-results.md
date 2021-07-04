@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 9ee2f0402e8cfd184e59dce5a382f835b706d6aa
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 2cc83e24d4dd81c9d2e972fa274b48fc3946532a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022559"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289730"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동화된 조사의 세부 정보 및 결과
 
@@ -104,14 +104,14 @@ ms.locfileid: "53022559"
 
 | Tab | 설명 |
 |:--------|:--------|
-| **조사 그래프**   | 조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다. <br/>그래프에서 항목을 선택하여 세부 정보를 볼 수 있습니다. 예를 들어 증거  아이콘을 선택하면 검색된 엔터티와 해당 판정을 볼 수 있는 증거 탭으로 이동됩니다.  |
-| **알람**    | 조사와 관련 된 알람목록을 보여줍니다.  경고는 사용자 장치의 위협 방지 기능, Office, 앱 및 기타 Microsoft Cloud App Security 기능에서 Microsoft 365 Defender 있습니다.|
+| **조사 그래프** | 조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다. <br/>그래프에서 항목을 선택하여 세부 정보를 볼 수 있습니다. 예를 들어 증거  아이콘을 선택하면 검색된 엔터티와 해당 판정을 볼 수 있는 증거 탭으로 이동됩니다.  |
+| **알람** | 조사와 관련 된 알람목록을 보여줍니다.  경고는 사용자 장치의 위협 방지 기능, Office, 앱 및 기타 Microsoft Cloud App Security 기능에서 Microsoft 365 Defender 있습니다.|
 | **장치** | 조사에 포함된 장치를 수정 수준과 함께 나열합니다. 재구성 수준은 장치 그룹의 [자동화 수준에 해당합니다.](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) |
 | **사서함** |검색된 위협의 영향을 받는 사서함을 나열합니다.  |
 | **사용자**  | 검색된 위협의 영향을 미치는 사용자 계정을 나열합니다. |
 | **증거** | 경고 또는 조사에서 제기된 증거 조각을 나열합니다. *판정(악성,* *의심스러운,* 알 수 없음 또는 위협 *없음)* 및 수정 상태를 포함합니다. |
-| **항목**  | 각 엔터티 유형(악성, 의심스러운 또는 위협이 없음)에 대한 판정을 포함하여 분석된 각 엔터티에 대한 세부 *정보를 제공합니다.* |
-|**로그**    | 경고가 트리거된 후 수행된 모든 조사 작업을 연대적으로 상세하게 볼 수 있습니다.|
+| **항목** | 각 엔터티 유형(악성, 의심스러운 또는 위협이 없음)에 대한 판정을 포함하여 분석된 각 엔터티에 대한 세부 *정보를 제공합니다.* |
+|**로그** | 경고가 트리거된 후 수행된 모든 조사 작업을 연대적으로 상세하게 볼 수 있습니다.|
 | **보류 중인 작업 기록** | 진행 하려면 승인이 필요한 항목을 나열 합니다. 작업 센터()로 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 이동하여 보류 중인 작업을 승인합니다. |
 
 ## <a name="next-steps"></a>다음 단계

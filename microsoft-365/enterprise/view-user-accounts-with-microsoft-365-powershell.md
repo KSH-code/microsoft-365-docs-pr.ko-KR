@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 description: PowerShell을 통해 다양한 방식으로 Microsoft 365 사용자 계정을 보거나, 나열하거나, 표시하는 방법을 학습합니다.
-ms.openlocfilehash: de91195afeb8480bf231d9536e4b3a94502a6da1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 77219fb89430ed257ef2a68a7b24bf9ebac715b2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924651"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290174"
 ---
 # <a name="view-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 보기
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 관리 센터를 사용하여 Microsoft 365 테넌트의 계정을 볼 수 있습니다. PowerShell for Microsoft 365 이 기능을 사용할 수 있지만 추가 기능도 제공합니다.
+를 사용하여 Microsoft 365 관리 센터 테넌트의 계정을 볼 Microsoft 365 있습니다. PowerShell for Microsoft 365 이 기능을 사용할 수 있지만 추가 기능도 제공합니다.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
@@ -104,7 +104,7 @@ Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayNam
 
 사용자 계정에는 다음 두 가지 원본이 있습니다. 
 
-- Windows 서버 AD(Active Directory) - 사내 AD에서 클라우드로 동기화되는 계정입니다.
+- Windows Server Active Directory(AD)는 사내 AD에서 클라우드로 동기화되는 계정입니다.
 
 - Azure Active Directory(Azure AD) AD 계정을 사용하여 클라우드에서 직접 생성됩니다.
 
@@ -148,8 +148,7 @@ Get-AzureADUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  이 예제의 **Where** cmdlet에 대한 구문은 **Where {$ \_ 입니다.** [사용자 계정 속성 이름] [비교 연산자] [value] **}**.> [비교 연산자]는 **-eq가** 같음, **-ne이면** 같지 않습니다. **-lt는** 보다 작음, -gt이면 보다 크면 **-gt입니다.**  [value]는 일반적으로 문자열(문자, 숫자 및 기타 문자 시퀀스), 숫자 값  또는 지정되지 않은 $Null 값입니다. 자세한 내용은 Where 를 [참조하세요.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
-  
+> 이 예제의 **Where** cmdlet에 대한 구문은 **Where {$ \_ 입니다.** [사용자 계정 속성 이름] [비교 연산자] [value] **}**.> [비교 연산자]는 **-eq가** 같음, **-ne이면** 같지 않습니다. **-lt는** 보다 작음, -gt이면 보다 크면 **-gt입니다.**  [value]는 일반적으로 문자열(문자, 숫자 및 기타 문자 시퀀스), 숫자 값  또는 지정되지 않은 $Null 값입니다. 자세한 내용은 Where 를 [참조하세요.](/powershell/module/microsoft.powershell.core/where-object)
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
@@ -241,7 +240,7 @@ Get-MsolUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  이 예제의 **Where** cmdlet에 대한 구문은 **Where {$ \_ 입니다.** [사용자 계정 속성 이름] [비교 연산자] [value] **}**.  [비교 연산자]는 **-eq가** 같음, **-ne이면** 같지 않습니다. **-lt는** 보다 작음, -gt 보다 크면 **-gt입니다.**  [value]는 일반적으로 문자열(문자, 숫자 및 기타 문자 시퀀스), 숫자 값  또는 지정되지 않은 $Null 값입니다. 자세한 내용은 Where 를 [참조하세요.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
+> 이 예제의 **Where** cmdlet에 대한 구문은 **Where {$ \_ 입니다.** [사용자 계정 속성 이름] [비교 연산자] [value] **}**.  [비교 연산자]는 **-eq가** 같음, **-ne이면** 같지 않습니다. **-lt는** 보다 작음, -gt 보다 크면 **-gt입니다.**  [value]는 일반적으로 문자열(문자, 숫자 및 기타 문자 시퀀스), 숫자 값  또는 지정되지 않은 $Null 값입니다. 자세한 내용은 Where 를 [참조하세요.](/powershell/module/microsoft.powershell.core/where-object)
   
 사용자 계정의 차단 상태를 확인하려면 다음 명령을 사용하세요.
   
@@ -254,11 +253,11 @@ Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,Block
 기본적으로 **Get-MsolUser** cmdlet은 사용자 계정의 다음 세 가지 속성을 표시합니다.
   
 - UserPrincipalName
-    
+
 - DisplayName
-    
+
 - isLicensed
-    
+
 사용자가 작업하는 부서 및 Microsoft 365 서비스를 사용하는 국가/지역과 같은 추가 속성이 필요한 경우 **Get-MsolUser를** **Select** cmdlet과 함께 실행하여 사용자 계정 속성 목록을 지정할 수 있습니다. 다음은 예입니다.
   
 ```powershell

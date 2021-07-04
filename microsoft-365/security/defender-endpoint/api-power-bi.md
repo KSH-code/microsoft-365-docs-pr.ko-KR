@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0ddb38e713f08c101639976b9f2c8c1ee32e63a3
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 23d9d61644b4c9adad69a5e467e49ca2b1d92413
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843785"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290234"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>사용자 지정 보고서를 사용하여 Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "52843785"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -49,16 +49,16 @@ ms.locfileid: "52843785"
 
 - 데이터 **빈 쿼리**  >  **다운로드를 클릭합니다.**
 
-    ![빈 쿼리 만들기 이미지](images/power-bi-create-blank-query.png)
+  ![빈 쿼리 만들기 이미지](images/power-bi-create-blank-query.png)
 
 - 고급 **편집기를 클릭합니다.**
 
-    ![고급 편집기 열기 이미지](images/power-bi-open-advanced-editor.png)
+  ![고급 편집기 열기 이미지](images/power-bi-open-advanced-editor.png)
 
 - 아래를 복사하여 편집기에 붙여 넣습니다.
 
 ```
-    let 
+    let
         AdvancedHuntingQuery = "DeviceEvents | where ActionType contains 'Anti' | limit 20",
 
         HuntingUrl = "https://api.securitycenter.microsoft.com/api/advancedqueries",
@@ -93,7 +93,6 @@ ms.locfileid: "52843785"
         Table = Table.TransformColumnTypes(Rows, Table.ToList(TypedSchema, (c) => {c{0}, c{2}}))
 
     in Table
-
 ```
 
 - 완료를 **클릭합니다.**
@@ -118,7 +117,7 @@ ms.locfileid: "52843785"
 
 ## <a name="connect-power-bi-to-odata-apis"></a>커넥트 Power BI OData API에 대한 데이터
 
-- 위의 예제와 유일한 차이점은 편집기 내부의 쿼리입니다. 
+- 위의 예제와 유일한 차이점은 편집기 내부의 쿼리입니다.
 
 - 아래를 복사하여 편집기에 붙여넣어 조직에서 모든 **컴퓨터** 작업을 끌어오세요.
 
@@ -130,22 +129,21 @@ ms.locfileid: "52843785"
         Source = OData.Feed("https://api.securitycenter.microsoft.com/api/" & Query, null, [Implementation="2.0", MoreColumns=true])
     in
         Source
-
 ```
 
 - 경고 및 컴퓨터 **에** 대해 동일한 작업을 할 수 **있습니다.**
-
 - 쿼리 필터에 OData 쿼리를 사용할 수 있습니다. 자세한 내용은 [OData 쿼리 사용을 참조](exposed-apis-odata-samples.md)
 
-
 ## <a name="power-bi-dashboard-samples-in-github"></a>Power BI 대시보드 샘플을 GitHub
+
 자세한 내용은 보고서 [서식 Power BI 참조하세요.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>예제 보고서
+
 보고서 샘플에 대한 Microsoft Defender Power BI 볼 수 있습니다. 자세한 내용은 코드 샘플 [찾아보기를 참조하세요.](/samples/browse/?products=mdatp)
 
+## <a name="related-topics"></a>관련 항목
 
-## <a name="related-topic"></a>관련 항목
 - [끝점 API용 Defender](apis-intro.md)
 - [고급 헌팅 API](run-advanced-query-api.md)
 - [OData 쿼리 사용](exposed-apis-odata-samples.md)

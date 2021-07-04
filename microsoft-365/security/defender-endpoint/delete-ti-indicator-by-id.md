@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: eaef6b25e2db72149a1a1128899d8a79a38a4c60
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 1541e1d6e177416d77d768cef04d2524e6907ab5
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771024"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289922"
 ---
 # <a name="delete-indicator-api"></a>표시기 삭제 API
 
@@ -39,24 +39,25 @@ ms.locfileid: "52771024"
 
 
 ## <a name="api-description"></a>API 설명
+
 ID로 [Indicator](ti-indicator.md) 엔터티를 삭제합니다.
 
-
 ## <a name="limitations"></a>제한 사항
-1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
+이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
 ## <a name="permissions"></a>사용 권한
+
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Ti.ReadWrite |  'TI 지표 읽기 및 쓰기'
-응용 프로그램 |   Ti.ReadWrite.All |  '읽기 및 쓰기 표시기'
-
+응용 프로그램 | Ti.ReadWrite | 'TI 지표 읽기 및 쓰기'
+응용 프로그램 | Ti.ReadWrite.All | '읽기 및 쓰기 표시기'
 
 ## <a name="http-request"></a>HTTP 요청
-```
+
+```http
 Delete https://api.securitycenter.microsoft.com/api/indicators/{id}
 ```
 
@@ -66,19 +67,21 @@ Delete https://api.securitycenter.microsoft.com/api/indicators/{id}
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
-
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
+
 비어 있음
 
 ## <a name="response"></a>응답
+
 Indicator가 존재하고 삭제된 경우 - 콘텐츠가 없는 204 OK.
+
 지정한 ID가 있는 Indicator를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
-**요청**
+### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 

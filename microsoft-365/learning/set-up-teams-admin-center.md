@@ -1,5 +1,5 @@
 ---
-title: Teams 관리 센터에서 Microsoft Viva Learning(미리 보기) 설정
+title: Learning 관리 센터에서 Microsoft Viva Learning(미리 Teams 보기) 설정
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -14,76 +14,75 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
 localization_priority: None
-description: Teams 관리 센터에서 Microsoft Viva Learning(미리 보기)을 구성하는 방법을 자세히 알아보습니다.
-ms.openlocfilehash: 860f16bee7d93f2212072c5d738263402704272f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+description: Learning 관리 센터에서 Microsoft Viva Learning(미리 보기)를 구성하는 Teams 대해 자세히 알아보도록 합니다.
+ms.openlocfilehash: 99e63210e8f8c10e3721c35fb69df7880c7e1929
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789234"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290222"
 ---
-# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Teams 관리 센터에서 Microsoft Viva Learning(미리 보기) 설정
+# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Learning 관리 센터에서 Microsoft Viva Learning(미리 Teams 보기) 설정
 
 > [!NOTE]
 > 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 
 
-Teams 관리자는 특정 단계를 수행하여 테넌트의 사용자에 대해 Viva Learning(미리 보기)을 사용하도록 설정해야 합니다. 이러한 단계는 테넌트가 활성화되는 방식에 따라 달라집니다. [*공개*](set-up-teams-admin-center.md#public-preview-tenants) 미리 보기 또는 비공개 [ *미리* 보기(또는 베타)](set-up-teams-admin-center.md#private-preview-tenants)).
+Teams 관리자는 특정 단계를 수행하여 테넌트의 사용자에 대해 Viva Learning(미리 보기)를 사용하도록 설정해야 합니다. 이러한 단계는 테넌트가 활성화되는 방식에 따라 달라집니다. [*공개*](set-up-teams-admin-center.md#public-preview-tenants) 미리 보기 또는 비공개 [ *미리* 보기(또는 베타)](set-up-teams-admin-center.md#private-preview-tenants)).
 
 ## <a name="public-preview-tenants"></a>공개 미리 보기 테넌트
 
 ### <a name="administrator-steps-for-public-preview-tenants"></a>공개 미리 보기 테넌트에 대한 관리자 단계
 
-Viva Learning(미리 보기)은 아직 일반적이지 않았기 때문에 기능을 사용하도록 설정하고 특정 사용자 또는 그룹에 대한 사용 권한을 설정하려면 특정 단계가 필요합니다. 
+Viva Learning(미리 보기)를 아직 사용할 수 없는 상태이기 때문에 기능을 사용하도록 설정하고 특정 사용자 또는 그룹에 대한 사용 권한을 설정하려면 특정 단계가 필요합니다. 
 
-1. Viva Learning(미리 보기) 사용자에 대해 공개 미리 보기 기능을 사용하도록 설정
+1. Viva(미리 보기) 사용자에 대해 Learning 미리 보기 기능을 사용하도록 설정
 
     a. 공용 Teams 기능을 사용하도록 업데이트 정책을 수정합니다. 공개 [Microsoft Teams 을 참조합니다.](/microsoftteams/public-preview-doc-updates)
 
     b. Viva Learning(미리 보기) 테스트를 수행할 사용자 또는 그룹에 대해 업데이트 정책을 사용하도록 설정하십시오. 사용자 [및 그룹에 정책 할당을 참조합니다.](/microsoftteams/assign-policies-users-and-groups)
 
-2. Viva Learning(미리 보기) 사용자에 대한 앱 권한 정책을 수정합니다.
+2. Viva(미리 보기) 사용자에 대한 Learning 권한 정책을 수정합니다.
 
     a. 현재 글로벌 정책의 일부가 않는 한 앱 사용 권한 정책의 모든 Microsoft 앱을 허용합니다. 에서 [앱 권한 정책 Microsoft Teams.](/microsoftteams/teams-app-permission-policies) 
 
-    b. Viva Learning(미리 보기) 테스트를 수행할 사용자 또는 그룹에 대해 앱 권한 정책을 사용하도록 설정하세요. 사용자 [및 그룹에 정책 할당을 참조합니다.](/microsoftteams/assign-policies-users-and-groups)
+    b. Viva Learning(미리 보기) 테스트를 수행할 사용자 또는 그룹에 대해 앱 권한 정책을 사용하도록 설정할 수 있습니다. 사용자 [및 그룹에 정책 할당을 참조합니다.](/microsoftteams/assign-policies-users-and-groups)
 
-3.  Viva Learning(미리 보기)을 테스트할 사용자에게 빌드 클라이언트를 공개 미리 보기로 전환할 수 있도록 [Teams.](set-up-teams-admin-center.md#user-steps-for-public-preview-tenants)
+3. Viva Learning(미리 보기)를 테스트할 사용자에게 빌드 클라이언트를 공개 미리 보기로 전환할 수 있도록 [Teams.](set-up-teams-admin-center.md#user-steps-for-public-preview-tenants)
 
 > [!IMPORTANT]
-> 공개 미리 보기 테넌트의 경우 최종 제품  릴리스가 될 때까지 Viva Learning(미리 보기)이 Teams 관리 앱에 표시되지 않습니다. 그러나 활성화된 공개 미리 보기 사용자는 Teams 앱 스토어에서 Viva Learning(미리 보기)을 찾아 올바른 정책 및 사용 권한을 설정한 후 사용할 수 있습니다.
+> 공개 미리 보기 테넌트의 경우 최종 제품 릴리스가  Teams 관리 센터의 관리되는 앱에 Viva Learning(미리 보기)가 표시되지 않습니다. 그러나 사용하도록 설정된 공개 미리 보기 사용자는 Teams 앱 스토어에서 Viva Learning(미리 보기)를 찾아서 사용할 수 있습니다( 올바른 정책 및 사용 권한이 설정되면).
 
 ### <a name="user-steps-for-public-preview-tenants"></a>공개 미리 보기 테넌트에 대한 사용자 단계
 
 이전에 설명한 정책을 사용하도록 설정하여 공개 [](set-up-teams-admin-center.md#administrator-steps-for-public-preview-tenants) 미리 보기 테스트를 [](/microsoftteams/public-preview-doc-updates#enable-public-preview) 사용하도록 설정된 사용자는 해당 클라이언트에서 공개 미리 보기로 Teams 합니다.
 
 1. 사용자는 공개 미리 보기 정보에서 > **이미지를**  >  **선택해야 합니다.**
-   
+
     ![사용자 프로필을 Teams 응용 프로그램의 위쪽 탐색](../media/learning/learning-app-select-profile-teams.png)
-    
+
 2. 사용자는 공개 미리 보기 사용 약관에 동의해야 합니다.
 
     ![공개 미리 보기 빌드로 전환](../media/learning/learning-app-switch-to-public-preview.png)
- 
-3. 이제 사용자는 앱 스토어에서 Viva Learning(미리 보기)Teams 사용하여 시작할 수 있습니다.
+
+3. 이제 사용자는 Teams 스토어에서 Viva Learning(미리 보기)를 찾아 사용할 수 있습니다.
 
 ## <a name="private-preview-tenants"></a>비공개 미리 보기 테넌트
 
 ### <a name="administrator-steps-for-private-preview-or-beta-tenants"></a>비공개 미리 보기(또는 베타) 테넌트에 대한 관리자 단계
 
-비공개 미리 보기 테넌트의 경우 사용하도록 설정해야 하는 추가 정책이 없습니다. 그러나 Viva Learning(미리 보기)은 조직의 사용자가 사용할 수 있도록 설정해야 합니다.
+비공개 미리 보기 테넌트의 경우 사용하도록 설정해야 하는 추가 정책이 없습니다. 그러나 Viva Learning(미리 보기)는 조직의 사용자가 사용할 수 있도록 설정해야 합니다.
 
 1. Teams 센터의 왼쪽 탐색 창에서 앱 관리 **Teams 로**  >  **이동하세요.**
 
    ![앱 및 앱 Teams 섹션을 Teams 관리 센터의 왼쪽 탐색입니다.](../media/learning/learning-app-teams-manage-apps-nav.png)
 
-2. 앱 **관리 페이지의** 검색 상자에 Viva Learning 을 입력하고 **Viva Learning(미리 보기)을 선택합니다.** 
+2. 앱 **관리 페이지의** 검색 상자에 *Viva* Learning 를 입력한 다음 **Viva Learning(미리 보기)를 선택합니다.**
 
    ![검색 상자를 표시하는 Teams 관리 센터의 앱 페이지 관리](../media/learning/learning-app-teams-manage-apps-page.png)
 
-3. **Viva Learning(미리 보기)** 페이지의 **상태**  아래에서 Viva Learning(미리 보기)을 켜기 위해 허용을 선택합니다.
+3. **Viva Learning(미리 보기)** 페이지의 **상태** 아래에서  Viva Learning 켜기 허용(미리 보기)을 선택합니다.
 
-   ![상태 및 앱 설정 Teams 관리 센터의 학습 페이지입니다.](../media/learning/learning-app-teams-learning-page.png)
-
+   ![Learning 및 앱 설정 Teams 관리 센터의 페이지로 이동합니다.](../media/learning/learning-app-teams-learning-page.png)
 
 <!---
 The Teams admin installs Viva Learning (Preview) and applies permission policies through the Teams admin center.
@@ -141,4 +140,4 @@ To make Viva Learning (Preview) available for users in your organization, follow
 
 ## <a name="next-step"></a>다음 단계
 
-[Microsoft 365 관리 센터에서 Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 구성](content-sources-365-admin-center.md)
+[Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본을 Microsoft 365 관리 센터](content-sources-365-admin-center.md)

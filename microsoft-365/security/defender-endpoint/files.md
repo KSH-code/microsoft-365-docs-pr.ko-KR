@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c4d392c9c7777a5ab5435d70e36822e11aa39dae
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 83a011e649a7289f62acd6a8d985f020b27b1e10
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771192"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290018"
 ---
 # <a name="file-resource-type"></a>파일 리소스 유형
 
@@ -36,10 +36,10 @@ ms.locfileid: "52771192"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 Defender for Endpoint의 파일 엔터티를 나타냅니다.
 
 ## <a name="methods"></a>메서드
+
 메서드|반환 형식 |설명
 :---|:---|:---
 [파일 다운로드](get-file-information.md) | [file](files.md) | 단일 파일 다운로드 
@@ -49,25 +49,25 @@ Defender for Endpoint의 파일 엔터티를 나타냅니다.
 
 
 ## <a name="properties"></a>특성
-|속성 | 유형    |   설명 |
+
+|속성 | 유형 | 설명 |
 |:---|:---|:---|
-|sha1 | String | 파일 콘텐츠의 Sha1 해시 |
-|sha256 | String | 파일 콘텐츠의 Sha256 해시 |
+|sha1 | 문자열 | 파일 콘텐츠의 Sha1 해시 |
+|sha256 | 문자열 | 파일 콘텐츠의 Sha256 해시 |
 |globalPrevalence | Nullable long | 조직 전체의 파일 보전 |
 |globalFirstObserved | DateTimeOffset | 파일이 처음으로 관찰된 시간 |
 |globalLastObserved | DateTimeOffset | 파일이 마지막으로 관찰된 시간 |
 |size | Nullable long | 파일 크기 |
-|fileType | String | 파일 형식 |
+|fileType | 문자열 | 파일 형식 |
 |isPeFile | 부울 | true이면 파일이 이식 가능한 실행 파일(예: "DLL", "EXE" 등)입니다. |
-|filePublisher | String | 파일 게시자 |
-|fileProductName | String | 제품 이름 |
-|signer | String | 파일 서명자 |
-|발급자 | String | 파일 발급자 |
-|signerHash | String | 서명 인증서의 해시 |
+|filePublisher | 문자열 | 파일 게시자 |
+|fileProductName | 문자열 | 제품 이름 |
+|signer | 문자열 | 파일 서명자 |
+|발급자 | 문자열 | 파일 발급자 |
+|signerHash | 문자열 | 서명 인증서의 해시 |
 |isValidCertificate | 부울 | Microsoft Defender for Endpoint 에이전트에서 인증서 서명이 성공적으로 확인된 경우 |
-|determinationType | String | 파일의 결정 유형 |
-|determinationValue | String | 결정 값 |
-
+|determinationType | 문자열 | 파일의 결정 유형 |
+|determinationValue | 문자열 | 결정 값 |
 
 ## <a name="json-representation"></a>Json 표현
 

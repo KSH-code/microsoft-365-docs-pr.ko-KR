@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a2570aba26d65a573c19777bc70db77f4118e336
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ff13a382f7c59083c217f937b996e63abc2ff52a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771048"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290006"
 ---
 # <a name="odata-queries-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 OData 쿼리
 
@@ -41,13 +41,13 @@ OData 쿼리에 익숙하지 않은 경우 [OData V4 쿼리를 참조합니다.]
 
 모든 속성이 필터링할 수 있는 것은 아니며,
 
-## <a name="properties-that-support-filter"></a>다음 속성을 지원하는 $filter.
-```
-- [Alert](alerts.md): ```alertCreationTime```, ```lastUpdateTime```, ```incidentId```,```InvestigationId```, ```status```, ```severity``` and ```category```.
-- [Machine](machine.md): ```ComputerDnsName```, ```LastSeen```, ```HealthStatus```, ```OsPlatform```, ```RiskScore``` and ```RbacGroupId```.
-- [MachineAction](machineaction.md): ```Status```, ```MachineId```, ```Type```, ```Requestor``` and ```CreationDateTimeUtc```.
-- [Indicator](ti-indicator.md): ```indicatorValue```, ```indicatorType```, ```creationTimeDateTimeUtc```, ```createdBy```, ```severity ``` and ```action ```.
-```
+## <a name="properties-that-support-filter"></a>속성을 지원하는 $filter
+
+- [경고:](alerts.md) `alertCreationTime` , , , , , 및 `lastUpdateTime` `incidentId` `InvestigationId` `status` `severity` `category` .
+- [컴퓨터](machine.md): `ComputerDnsName` , , , 및 `LastSeen` `HealthStatus` `OsPlatform` `RiskScore` `RbacGroupId` .
+- [MachineAction](machineaction.md): `Status` , , , 및 `MachineId` `Type` `Requestor` `CreationDateTimeUtc` .
+- [표시기:](ti-indicator.md) `indicatorValue` , , , 및 `indicatorType` `creationTimeDateTimeUtc` `createdBy` `severity` `action` .
+
 ### <a name="example-1"></a>예 1
 
 관련 증거가 있는 최신 경고 10개 다운로드:
@@ -56,7 +56,7 @@ OData 쿼리에 익숙하지 않은 경우 [OData V4 쿼리를 참조합니다.]
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
-**응답:**
+#### <a name="response"></a>응답
 
 ```json
 {
@@ -201,7 +201,7 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=ev
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$filter=lastUpdateTime+ge+2019-11-22T00:00:00Z
 ```
 
-**응답:**
+#### <a name="response"></a>응답
 
 ```json
 {
@@ -263,7 +263,7 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$filter=lastUpdate
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=riskScore+eq+'High'
 ```
 
-**응답:**
+#### <a name="response"></a>응답
 
 ```json
 {
@@ -316,7 +316,7 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=riskScor
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=healthStatus+ne+'Active'&$top=100 
 ```
 
-**응답:**
+#### <a name="response"></a>응답
 
 ```json
 {
@@ -369,7 +369,7 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=healthSt
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=lastSeen gt 2018-08-01Z
 ```
 
-**응답:**
+#### <a name="response"></a>응답
 
 ```json
 {
@@ -422,7 +422,7 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=lastSeen
 HTTP GET  https://api.securitycenter.microsoft.com/api/machineactions?$filter=requestor eq 'Analyst@contoso.com' and type eq 'RunAntiVirusScan'
 ```
 
-**응답:**
+#### <a name="response"></a>응답
 
 ```json
 json{
@@ -454,7 +454,7 @@ json{
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines/123321d0c675eaa415b8e5f383c6388bff446c62/alerts/$count?$filter=status ne 'Resolved'
 ```
 
-**응답:**
+#### <a name="response"></a>응답
 
 ```json
 4
@@ -468,7 +468,7 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines/123321d0c675eaa4
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=startswith(computerDnsName,'mymachine')
 ```
 
-**응답:**
+#### <a name="response"></a>응답
 
 ```json
 json{
@@ -514,4 +514,5 @@ json{
 ```
 
 ## <a name="see-also"></a>참고 항목
-- [끝점 API용 Microsoft Defender](apis-intro.md)
+
+[끝점 API용 Microsoft Defender](apis-intro.md)

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a506f4913369e53fd2ed4943bb2557935f1d62e5
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: a7a560cb33190105f8df5922e04aeada4d75f398
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105563"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290042"
 ---
 # <a name="create-a-custom-gradual-rollout-process-for-microsoft-defender-updates"></a>Microsoft Defender 업데이트에 대한 사용자 지정 서진 배포 프로세스 만들기
 
@@ -43,7 +43,7 @@ Defender 업데이트에 대한 사용자 지정 서서적 출시 프로세스�
 다음 표에는 업데이트 채널 구성에 사용할 수 있는 그룹 정책 설정이 나열되어 있습니다.
 
 | 제목 설정  | 설명  | 위치  |
-|-|-|-|
+|:---|:---|:---|
 | Microsoft Defender 월별 플랫폼 업데이트 출시 채널 서서히 선택  | 이 정책을 사용하여 장치가 월별 서진 기간 동안 Microsoft Defender 플랫폼 업데이트를 받는 시기를 지정합니다. 베타 채널: 이 채널로 설정된 장치는 새 업데이트를 수신하는 첫 번째 채널입니다. 베타 채널을 선택하여 문제를 식별하고 Microsoft에 보고합니다. Windows 프로그램의 장치는 기본적으로 이 채널을 구독합니다. (수동) 테스트 환경에서만 사용하며 제한된 수의 장치를 사용합니다.  <br><br>  현재 채널(미리 보기): 이 채널로 설정된 장치는 월별 서진 릴리스 주기 동안 가장 빠른 시간 동안 업데이트를 제공합니다. 프로덕션 전/유효성 검사 환경에 권장됩니다.  <br><br>  현재 채널(단계적): 월별 단계별 릴리스 주기 후에 디바이스에 업데이트가 제공됩니다. 생산 인구의 대표적인 소규모(~10%)에 적용하는 것이 좋습니다.  <br><br>  현재 채널(광범위): 디바이스는 서서한 릴리스 주기가 완료된 후에만 업데이트를 제공합니다. 프로덕션 인구의 광범위한 디바이스 집합(~10-100%)에 적용하는 것이 좋습니다.  <br><br>   해당 정책을 사용하지 않도록 설정하거나 구성하지 않는 경우 장치는 서서한 릴리스 주기 동안 자동으로 최신으로 유지됩니다. 대부분의 장치에 적합합니다.  | Windows 구성 요소\Microsoft Defender 바이러스 백신  |
 | Microsoft Defender 월별 엔진 업데이트 출시 채널 서서히 선택  | 이 정책을 사용하여 장치가 월별 서진 기간 동안 Microsoft Defender 엔진 업데이트를 받는 시기를 지정합니다.  <br><br>  베타 채널: 이 채널로 설정된 장치는 새 업데이트를 수신하는 첫 번째 채널입니다. 베타 채널을 선택하여 문제를 식별하고 Microsoft에 보고합니다. Windows 프로그램의 장치는 기본적으로 이 채널을 구독합니다. (수동) 테스트 환경에서만 사용하며 제한된 수의 장치를 사용합니다.  <br><br>  현재 채널(미리 보기): 이 채널로 설정된 장치는 월별 서진 릴리스 주기 동안 가장 빠른 시간 동안 업데이트를 제공합니다. 프로덕션 전/유효성 검사 환경에 권장됩니다.  <br><br>  현재 채널(단계적): 월별 단계별 릴리스 주기 후에 디바이스에 업데이트가 제공됩니다. 생산 인구의 대표적인 소규모(~10%)에 적용하는 것이 좋습니다.  <br><br>  현재 채널(광범위): 디바이스는 서서한 릴리스 주기가 완료된 후에만 업데이트를 제공합니다. 프로덕션 인구의 광범위한 디바이스 집합(~10-100%)에 적용하는 것이 좋습니다.  <br><br>  해당 정책을 사용하지 않도록 설정하거나 구성하지 않는 경우 장치는 서서한 릴리스 주기 동안 자동으로 최신으로 유지됩니다. 대부분의 장치에 적합합니다.  | Windows 구성 요소\Microsoft Defender 바이러스 백신  |
 | Microsoft Defender 일별 정의 업데이트 출시 채널 서서한 선택  | 이 정책을 사용하여 장치가 매일의 서서한 배포 중에 Microsoft Defender 정의 업데이트를 받는 시기를 지정합니다. <br><br> 현재 채널(단계적): 릴리스 주기 후 디바이스에 업데이트가 제공됩니다. 생산 인구의 대표적인 소규모(~10%)에 적용하는 것이 좋습니다. <br><br>   현재 채널(광범위): 디바이스는 서서한 릴리스 주기가 완료된 후에만 업데이트를 제공합니다. 프로덕션 인구의 광범위한 디바이스 집합(~10-100%)에 적용하는 것이 좋습니다. <br><br>   해당 정책을 사용하지 않도록 설정하거나 구성하지 않는 경우 장치는 매일 릴리스 주기 동안 자동으로 최신으로 유지됩니다. 대부분의 장치에 적합합니다.  | Windows 구성 요소\Microsoft Defender 바이러스 백신  |
@@ -76,6 +76,8 @@ Defender 업데이트에 대한 사용자 지정 서서적 출시 프로세스�
 
 [Windows 10 디바이스에 대한 사용자 지정 설정 Microsoft Intune - Azure \| Microsoft Docs](/mem/intune/configuration/custom-settings-windows-10)
 
+서서한 롤아웃 프로세스에 사용되는 Defender CSP에 대한 자세한 내용은 [Defender CSP를 참조하세요.](/windows/client-management/mdm/defender-csp)
+
 ## <a name="powershell"></a>PowerShell
 
 `Set-MpPreference`cmdlet을 사용하여 서진 업데이트의 롤아웃을 구성합니다.
@@ -94,4 +96,4 @@ Set-MpPreference
 
 베타 `Set-MpPreference -PlatformUpdatesChannel Beta` 채널에서 도착하도록 플랫폼 업데이트를 구성하는 데 사용할 수 있습니다.
 
-매개 변수 및 매개 변수를 구성하는 방법에 대한 자세한 내용은 [Set-MpPreference (Defender) | Microsoft Docs.](/powershell/module/defender/set-mppreference?view=windowsserver2019-ps&preserve-view=true)
+매개 변수 및 매개 변수를 구성하는 방법에 대한 자세한 내용은 [Set-MpPreference (Defender) | Microsoft Docs.](/powershell/module/defender/set-mppreference)

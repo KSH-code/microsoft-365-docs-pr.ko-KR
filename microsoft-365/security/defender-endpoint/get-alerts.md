@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4da646a52392871cde99271a17ed6eb9111f51ab
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: dcc8a9214e0a6d0a0ede3b08aa6a019f2f0c4d2c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769254"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289850"
 ---
 # <a name="list-alerts-api"></a>목록 알림 API
 
@@ -59,20 +59,22 @@ Alerts 컬렉션을 검색합니다.
 ## <a name="permissions"></a>사용 권한
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Alert.Read.All |    '모든 경고 읽기'
-응용 프로그램 |   Alert.ReadWrite.All |   '모든 경고 읽기 및 쓰기'
+응용 프로그램 | Alert.Read.All | '모든 경고 읽기'
+응용 프로그램 | Alert.ReadWrite.All | '모든 경고 읽기 및 쓰기'
 위임(직장 또는 학교 계정) | Alert.Read | '경고 읽기'
 위임(직장 또는 학교 계정) | Alert.ReadWrite | '경고 읽기 및 쓰기'
 
->[!Note]
+> [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
->- 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
->- 응답에는 장치 그룹 설정에 따라 사용자가 액세스할 수 있는 장치와 연결된 알림만 포함됩니다(자세한 내용은 장치 그룹 [만들기](machine-groups.md) 및 관리 참조).
+>
+> - 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
+> - 응답에는 장치 그룹 설정에 따라 사용자가 액세스할 수 있는 장치와 연결된 알림만 포함됩니다(자세한 내용은 장치 그룹 [만들기](machine-groups.md) 및 관리 참조).
 
 ## <a name="http-request"></a>HTTP 요청
-```
+
+```http
 GET /api/alerts
 ```
 
@@ -80,19 +82,19 @@ GET /api/alerts
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
-
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
+
 비어 있음
 
 ## <a name="response"></a>응답
-성공하면 이 메서드는 200 OK와 응답 [](alerts.md) 본문의 경고 개체 목록을 반환합니다.
 
+성공하면 이 메서드는 200 OK와 응답 [](alerts.md) 본문의 경고 개체 목록을 반환합니다.
 
 ## <a name="example-1---default"></a>예제 1 - 기본값
 
-**요청**
+### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 
@@ -100,13 +102,12 @@ GET /api/alerts
 GET https://api.securitycenter.microsoft.com/api/alerts
 ```
 
-**응답**
+### <a name="response"></a>응답
 
 다음은 응답의 예입니다.
 
->[!NOTE]
->여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다. 모든 알림은 실제 호출에서 반환됩니다.
-
+> [!NOTE]
+> 여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다. 모든 알림은 실제 호출에서 반환됩니다.
 
 ```json
 {
@@ -162,7 +163,7 @@ GET https://api.securitycenter.microsoft.com/api/alerts
 
 ## <a name="example-2---get-10-latest-alerts-with-related-evidence"></a>예제 2 - 관련 증거가 있는 최신 경고 10개 다운로드
 
-**요청**
+### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 
@@ -170,14 +171,12 @@ GET https://api.securitycenter.microsoft.com/api/alerts
 GET https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
-
-**응답**
+### <a name="response"></a>응답
 
 다음은 응답의 예입니다.
 
->[!NOTE]
->여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다. 모든 알림은 실제 호출에서 반환됩니다.
-
+> [!NOTE]
+> 여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다. 모든 알림은 실제 호출에서 반환됩니다.
 
 ```json
 {
@@ -314,6 +313,6 @@ GET https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 }
 ```
 
-
 ## <a name="see-also"></a>참고 항목
-- [끝점용 Microsoft Defender를 사용하여 OData 쿼리](exposed-apis-odata-samples.md)
+
+[끝점용 Microsoft Defender를 사용하여 OData 쿼리](exposed-apis-odata-samples.md)

@@ -16,12 +16,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 4be9116b83c2ee4eec410f3d8d68c289f3c8b9a5
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 15fd70a2a60da7b0541446a98f0094c73c831d51
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925830"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289826"
 ---
 # <a name="deploy-manage-and-report-on-microsoft-defender-antivirus"></a>배포, 관리 및 Microsoft Defender 바이러스 백신
 
@@ -57,7 +57,7 @@ Microsoft Azure|가상 Microsoft Antimalware 구성 또는 Visual Studio [cmdlet
 
 1. <span id="fn1" />클라우드 제공 보호와 관련된 일부 기능의 가용성은 Microsoft Endpoint Manager(현재 분기)와 2012 Configuration Manager의 System Center 다릅니다. 이 라이브러리에서는 Windows 10, Windows Server 2016 및 Microsoft Endpoint Manager(현재 분기)에 초점을 맞추고 있습니다. 주요 [차이점을](cloud-protection-microsoft-defender-antivirus.md) 설명하는 표는 Microsoft Defender 바이러스 백신 Microsoft 클라우드 제공 보호 사용을 참조합니다. [(테이블로 돌아가기)](#ref2)
   
-2.  <span id="fn2" />이 Windows 10 Microsoft Defender 바이러스 백신 추가 클라이언트 또는 서비스를 설치하거나 배포하지 않고도 사용할 수 있는 구성 요소입니다. 타사 바이러스 백신 제품이 제거되거나 더 이상 사용되지 않는 경우 자동으로 활성화됩니다(타사 바이러스 백신[Windows Server 2016).](microsoft-defender-antivirus-on-windows-server.md) 따라서 기존 배포는 필요하지 않습니다. 여기서 배포란 끝점 또는 서버에서 Microsoft Defender 바이러스 백신 구성 요소를 사용할 수 있도록 하는 것을 참조합니다. [(테이블로 돌아가기)](#ref2)
+2. <span id="fn2" />이 Windows 10 Microsoft Defender 바이러스 백신 추가 클라이언트 또는 서비스를 설치하거나 배포하지 않고도 사용할 수 있는 구성 요소입니다. 타사 바이러스 백신 제품이 제거되거나 더 이상 사용되지 않는 경우 자동으로 활성화됩니다(타사 바이러스 백신[Windows Server 2016).](microsoft-defender-antivirus-on-windows-server.md) 따라서 기존 배포는 필요하지 않습니다. 여기서 배포란 끝점 또는 서버에서 Microsoft Defender 바이러스 백신 구성 요소를 사용할 수 있도록 하는 것을 참조합니다. [(테이블로 돌아가기)](#ref2)
 
 3. <span id="fn3" />제품 및 보호 업데이트 구성을 비롯한 기능 및 보호 구성은 이 라이브러리의 Microsoft Defender 바이러스 백신 [기능](configure-notifications-microsoft-defender-antivirus.md) 구성 섹션에 설명되어 있습니다. [(테이블로 돌아가기)](#ref2)
 

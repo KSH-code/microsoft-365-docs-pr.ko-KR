@@ -21,17 +21,17 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: c593dfe384649b1599d5c0bab8fa6a8204d105dc
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: a10442bc9d92bb6004149180da30b86b646dd5de
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274835"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290162"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>자동화 조사 세부정보 및 결과 보기
 
 **적용 대상:**
-- 끝점용 Microsoft Defender
+- 엔드포인트용 Microsoft Defender
 
 끝점용 Microsoft Defender를 [](automated-investigations.md) 통해 자동화된 조사가 실행되는 경우 자동화된 조사 프로세스 중 및 이후에 조사에 대한 세부 정보를 사용할 수 있습니다. 필수 권한이있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
 
@@ -45,6 +45,7 @@ ms.locfileid: "52274835"
 ## <a name="open-the-investigation-details-view"></a>조사 세부정보 보기 열기 
 
 다음 방법 중 하나를 사용 하여 조사 세부정보 보기를 열 수 있습니다.
+
 - [작업 센터에서 항목 선택](#select-an-item-in-the-action-center)
 - [문제 세부정보 페이지에서 조사 선택](#open-an-investigation-from-an-incident-details-page)
 
@@ -82,17 +83,17 @@ ms.locfileid: "52274835"
 
 | Tab | 설명 |
 |:--------|:--------|
-| **조사 그래프**   | 조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다. <br/>그래프에서 항목을 선택하여 세부 정보를 볼 수 있습니다. 예를 들어 증거  아이콘을 선택하면 검색된 엔터티와 해당 판정을 볼 수 있는 증거 탭으로 이동됩니다.  |
-| **알람**    | 조사와 관련 된 알람목록을 보여줍니다.  경고는 사용자 장치의 위협 방지 기능, Office 앱, Cloud App Security 및 기타 Defender 기능에서 Microsoft 365 있습니다.|
+| **조사 그래프** | 조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다. <br/>그래프에서 항목을 선택하여 세부 정보를 볼 수 있습니다. 예를 들어 증거  아이콘을 선택하면 검색된 엔터티와 해당 판정을 볼 수 있는 증거 탭으로 이동됩니다.  |
+| **알람** | 조사와 관련 된 알람목록을 보여줍니다.  경고는 사용자 장치의 위협 방지 기능, Office, 앱 및 기타 Cloud App Security 기능에서 Microsoft 365 Defender 있습니다.|
 | **장치** | 조사에 포함된 장치를 수정 수준과 함께 나열합니다. 재구성 수준은 장치 그룹의 [자동화 수준에 해당합니다.](automation-levels.md) |
 | **사서함** |검색된 위협의 영향을 받는 사서함을 나열합니다.  |
 | **사용자**  | 검색된 위협의 영향을 미치는 사용자 계정을 나열합니다. |
 | **증거** | 경고/조사에서 제기된 증거 조각을 나열합니다. *판정(악성,* *의심스러운* 또는 위협 *없음)* 및 수정 상태를 포함합니다. |
-| **항목**  | 각 엔터티 유형(악성, 의심스러운 또는 위협이 없음)에 대한 판정을 포함하여 분석된 각 엔터티에 대한 세부 *정보를 제공합니다.* |
-|**로그**    | 경고가 트리거된 후 수행된 모든 조사 작업을 연대적으로 상세하게 볼 수 있습니다.|
+| **항목** | 각 엔터티 유형(악성, 의심스러운 또는 위협이 없음)에 대한 판정을 포함하여 분석된 각 엔터티에 대한 세부 *정보를 제공합니다.* |
+|**로그** | 경고가 트리거된 후 수행된 모든 조사 작업을 연대적으로 상세하게 볼 수 있습니다.|
 | **보류 중인 작업** | 진행 하려면 승인이 필요한 항목을 나열 합니다. 작업 센터()로 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 이동하여 보류 중인 작업을 승인합니다. |
 
 ## <a name="see-also"></a>참고 항목
 
 - [자동화된 조사 후 수정 작업 검토](manage-auto-investigation.md)
-- [끝점 인시던트에 대한 Microsoft Defender 큐 보기 및 구성](view-incidents-queue.md)
+- [엔드포인트용 Microsoft Defender 인시던트 큐 보기 및 구성](view-incidents-queue.md)

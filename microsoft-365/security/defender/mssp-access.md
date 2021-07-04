@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 4b34d3ea20716fb2424d9317b8a51c088a5714a6
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ddc28149ca2ab43b7c14d3bdbaeeecdad1b18387
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935356"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289766"
 ---
 # <a name="provide-managed-security-service-provider-mssp-access"></a>MSSP(관리되는 보안 서비스 공급자) 액세스 제공 
 
@@ -50,10 +50,9 @@ ms.locfileid: "51935356"
 
     이러한 그룹은 보안 센터의 Endpoint용 Defender에서 만든 역할에 Microsoft 365 연결됩니다. 이렇게 하여 고객 AD 테넌트에서 세 개의 그룹을 만드면 됩니다. 이 예제에서는 다음 그룹을 생성합니다.
 
-    - 계층 1 분석가 
-    - 계층 2 분석가 
+    - 계층 1 분석가
+    - 계층 2 분석가
     - MSSP 분석가 승인자  
-
 
 2. 보안 센터 역할 및 그룹의 끝점용 Customer Defender에서 적절한 액세스 수준에 Microsoft 365 끝점 역할에 대한 Defender를 만들 수 있습니다.
 
@@ -73,12 +72,10 @@ ms.locfileid: "51935356"
 
     자세한 내용은 역할 기반 액세스 [제어 사용을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/rbac)
 
-
-
 ## <a name="configure-governance-access-packages"></a>거버넌스 액세스 패키지 구성
 
-1.  **고객 AAD에서 MSSP를 연결된 조직으로 추가: ID 거버넌스**
-    
+1. **고객 AAD에서 MSSP를 연결된 조직으로 추가: ID 거버넌스**
+
     MSSP를 연결된 조직으로 추가하면 MSSP가 프로비전된 액세스를 요청하고 액세스할 수 있습니다. 
 
     이렇게 하려면 고객 AD 테넌트에서 ID 거버넌스: 연결된 조직에 액세스합니다. 새 조직을 추가하고 테넌트 ID 또는 도메인을 통해 MSSP 분석가 테넌트 검색 MSSP 분석가를 위한 별도의 AD 테넌트 만들기를 제안합니다.
@@ -87,12 +84,11 @@ ms.locfileid: "51935356"
 
     리소스 카탈로그는 고객 AD 테넌트에서 만든 액세스 패키지의 논리적 컬렉션입니다.
 
-    이를 위해 고객 AD 테넌트에서 ID 거버넌스: 카탈로그에 액세스하고 새 **카탈로그를 추가합니다.** 이 예제에서는 **MSSP Accesses 를 호출합니다.** 
+    이를 위해 고객 AD 테넌트에서 ID 거버넌스: 카탈로그에 액세스하고 새 **카탈로그를 추가합니다.** 이 예제에서는 **MSSP Accesses 를 호출합니다.**
 
     ![새 카탈로그의 이미지](../../media/goverance-catalog.png)
 
     자세한 내용은 리소스 카탈로그 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-catalog-create)
-
 
 3. **MSSP 리소스 고객 AAD: ID 거버넌스에 대한 액세스 패키지 만들기**
 
@@ -109,28 +105,27 @@ ms.locfileid: "51935356"
 
     자세한 내용은 새 액세스 패키지 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-access-package-create)
 
-
 4. **고객 AAD에서 MSSP 리소스에 대한 액세스 요청 링크 제공: ID 거버넌스**
 
     내 액세스 포털 링크는 MSSP SOC 분석가가 만든 액세스 패키지를 통해 액세스를 요청하는 데 사용됩니다. 링크는 지속형으로, 시간이 지날 때 새 분석가에게 동일한 링크를 사용할 수 있습니다. 분석가 요청은 MSSP 분석가 승인자 의 승인을 **위해 큐로 들어갑니다.**
-
 
     ![액세스 속성의 이미지](../../media/access-properties.png)
 
     링크는 각 액세스 패키지의 개요 페이지에 있습니다.
 
-## <a name="manage-access"></a>액세스 관리 
+## <a name="manage-access"></a>액세스 관리
 
 1. 고객 및/또는 MSSP 내 액세스 요청을 검토하고 권한을 부여합니다.
 
     액세스 요청은 MSSP 분석가 승인자 그룹의 구성원에 의해 고객 내 액세스에서 관리됩니다.
 
-    이렇게 하는 경우 를 사용하여 고객의 myaccess에  `https://myaccess.microsoft.com/@<Customer Domain >` 액세스합니다. 
+    이렇게 하는 경우 를 사용하여 고객의 myaccess에 `https://myaccess.microsoft.com/@<Customer Domain>` 액세스합니다.
 
-    예:  `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`   
+    예: `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`
+
 2. UI의 승인 섹션에서  요청을 승인하거나 거부합니다.
 
-     이 시점에서 분석가 액세스가 프로비전되고 각 분석가가 고객의 Microsoft 365 액세스할 수 있습니다. 
+     이 시점에서 분석가 액세스가 프로비전되고 각 분석가가 고객의 Microsoft 365 액세스할 수 있습니다.
 
     `https://security.microsoft.com/?tid=<CustomerTenantId>` 할당된 사용 권한 및 역할과 함께 사용할 수 있습니다.
 

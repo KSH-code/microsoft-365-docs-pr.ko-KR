@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2d022e903111c498d6f3b7411857748fcb637b64
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e7c208998e436245c53b90905858b7cf7ebe91d6
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844661"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290198"
 ---
 # <a name="use-basic-permissions-to-access-the-portal"></a>기본 권한을 사용하여 포털에 액세스
 
@@ -29,7 +29,7 @@ ms.locfileid: "52844661"
 
 **적용 대상:**
 - Azure Active Directory
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-basicaccess-abovefoldlink)
@@ -54,7 +54,7 @@ ms.locfileid: "52844661"
     > [!NOTE]
     > PowerShell cmdlet은 상승된 명령줄에서 실행해야 합니다.
 
-- 커넥트 Azure Active Directory. 자세한 내용은 [커넥트-MsolService를 참조하십시오.](/powershell/module/msonline/connect-msolservice?view=azureadps-1.0&preserve-view=true)
+- 커넥트 Azure Active Directory. 자세한 내용은 [커넥트-MsolService를 참조하십시오.](/powershell/module/msonline/connect-msolservice)
 
 **모든 액세스** <br>
 모든 권한이 있는 사용자는 로그인하고, 모든 시스템 정보를 보고, 경고를 해결하고, 심층 분석을 위해 파일을 제출하고, 온보더링 패키지를 다운로드할 수 있습니다.
