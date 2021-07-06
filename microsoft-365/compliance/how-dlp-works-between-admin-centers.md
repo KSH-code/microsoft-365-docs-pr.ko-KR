@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: 보안 및 준수 센터의 DLP가 & 관리 센터의 DLP 및 메일 흐름 규칙(전송 규칙)에서 작동하는 Exchange 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 34ddee1c1f0997852b6e59295ab9b630acc3ba3c
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: a7cd4eaafbd334c8886e0e6aa72d8c0e4c53a81e
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177180"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300055"
 ---
 # <a name="how-dlp-works-between-the-microsoft-365-compliance-center-and-exchange-admin-center"></a>DLP가 Microsoft 365 및 Exchange 관리 센터 간의 작동 방식
 
@@ -47,7 +47,7 @@ Exchange 관리 센터에서 DLP 정책을 만든 경우 해당 정책은 보안
   
 - 메일 흐름 규칙에 의해 Exchange 보안 및 준수 센터에서 만든 DLP 규칙에 의해 & 않습니다.
 
-- DLP가 DLP에 의해 검색되지 Exchange 메일 흐름 규칙 또는 기타 필터에 의해 검색되는 메시지
+- 메일 흐름 규칙 또는 기타 필터에 의해 Exchange DLP가 DLP를 검색하지 못하기 전에 실행되는 메시지입니다.
     
 - Exchange 메일 흐름 규칙이 외부 사용자 추가와 같은 보안 및 준수 센터의 D & LP 정책과 일치하도록 하는 방식으로 메시지를 수정하는 경우 DLP 규칙은 이를 검색하고 필요한 경우 정책을 적용합니다.
     

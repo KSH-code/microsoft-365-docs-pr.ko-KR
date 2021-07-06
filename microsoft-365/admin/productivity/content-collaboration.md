@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 콘텐츠 공동 작업의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: cca218d15af98925bf61bbb314cfd4d35aa0711a
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 2921cc738d1325416a0a5a8ab4a8eea9456b3269
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779737"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300088"
 ---
 # <a name="content-collaboration--people-experiences"></a>콘텐츠 공동 작업 - 사람 환경
 
@@ -35,7 +35,7 @@ ms.locfileid: "52779737"
 콘텐츠 공동 작업 인사이트를 시작하려면 조직의 사용자들이 다음에 대한 라이선스를 부여해야 합니다.
 
 - 비즈니스용 OneDrive
-- SharePoint
+- SharePoint를 입력하세요.
 - Exchange Online
 
 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](../manage/assign-licenses-to-users.md)
@@ -112,7 +112,7 @@ Microsoft OneDrive 및 비즈니스용 SharePoint 사용하여 여러 장치 및
 
 :::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="OneDrive 사용자 수를 보여 SharePoint":::
 
-1. **헤더:** 하이라이트 응용 프로그램에서 파일을 Microsoft 365 Office 활성 사용자 비율을 OneDrive SharePoint.
+1. **헤더:** Microsoft 365 Office 응용 프로그램에서 파일을 만드는 사용자 비율을 OneDrive SharePoint.
 2. **본문:** 콘텐츠 생성 및 콘텐츠 생성의 가치에 대한 OneDrive SharePoint.
 3. **시각화:** 시각화의 분석은 다음과 같이 Microsoft Office 앱을 사용하여 OneDrive SharePoint 정도를 나타냅니다.
       - **OneDrive:** 막대의 파랑(색) 부분과 막대의 분수는 다음과 같이 Office 응용 프로그램에서 콘텐츠를 만드는 OneDrive 비율입니다.
@@ -126,9 +126,11 @@ Microsoft OneDrive 및 비즈니스용 SharePoint 사용하여 여러 장치 및
 
 ### <a name="use-of-attachments-in-email"></a>전자 메일에서 첨부 파일 사용
 
+**전자 메일에서 첨부 파일 사용** 클라우드의 콘텐츠에 대한 링크가 아닌 전자 메일에 실제 파일을 첨부하는 사용자의 수를 이해하고 시간이 지날 때 이 수치의 감소를 모니터링합니다.
+
 :::image type="content" source="../../media/emailattachments.png" alt-text="전자 메일 첨부 파일 사용":::
 
-1. **헤더:** 하이라이트 또는 전자 메일에 저장되지 않은 전자 메일에서 첨부 파일을 사용하는 OneDrive SharePoint.
+1. **헤더:** 전자 메일에 첨부 파일을 사용하는 사용자 중 전자 메일에 저장되지 않은 비율을 OneDrive SharePoint.
 2. **본문:** 공동 작업 및 보안 관점에서 온라인 파일에 대한 링크를 공유하는 값에 대한 정보를 제공합니다.
 3. **시각화:** 시각화의 분석은 전자 메일에 콘텐츠를 첨부하는 사람이 서로 다른 모드(OneDrive 또는 SharePoint 파일, 온라인 파일에 대한 링크 및 전자 메일에 포함된 링크)를 사용하는 범위를 나타냅니다.
       - **파일 첨부:** 막대의 파랑(색) 부분과 막대의 분수(숫자/분모)는 전자 메일에서 첨부 파일을 사용하는 비율을 나타내는 비율입니다.
@@ -137,16 +139,13 @@ Microsoft OneDrive 및 비즈니스용 SharePoint 사용하여 여러 장치 및
       - **온라인 파일에 대한 링크:** 막대의 파랑(색) 부분과 막대의 분수(숫자/분모)는 첨부 파일을 사용하고 전자 메일의 파일에 링크를 첨부하는 비율을 나타내고 있습니다.
         - Numerator: 지난 28일 이내에 전자 메일에 온라인 파일(OneDrive 또는 SharePoint)에 링크를 첨부하는 사용자 수입니다.
         - 분모: 지난 28일 이내에 Exchange 및 OneDrive, SharePoint 또는 둘 다에 액세스할 수 있는 사용자 수입니다.
-      - **전자 메일에 링크 포함:** 막대의 파랑(색) 부분과 막대의 분수는 전자 메일 본문에 링크를 포함한 사용자 백분율을 나타내고 있습니다.
-        - Numerator: 지난 28일 이내에 온라인 파일(OneDrive 또는 SharePoint에 저장)에 전자 메일 본문에 링크를 포함한 사용자 수입니다.
-        - 분모: 지난 28일 이내에 Exchange 및 OneDrive, SharePoint 또는 둘 다에 액세스할 수 있는 사용자 수입니다.
 4. **리소스 링크:** 도움말 콘텐츠를 확인하려면 이 링크를 선택합니다.
 
 ### <a name="sharing-of-online-files"></a>온라인 파일 공유
 
 :::image type="content" source="../../media/sharingonlinefiles.png" alt-text="온라인에서 파일을 공유하는 사용자 수를 표시하는 차트입니다.":::
 
-1. **헤더:** 하이라이트 외부에서 파일을 공유하는 사용자 또는 OneDrive SharePoint 사용자 비율을 계산합니다.
+1. **헤더:** 외부에서 파일을 공유하는 사용자 또는 OneDrive SharePoint 사용자 비율을 강조합니다.
 2. **본문:** 조직에서 파일 공유&#39; 변경하여 조직에 가장 적합한 공동 작업 수준을 설정할 수 있는 관리자에 대한 정보를 제공합니다.
 3. **시각화:** 내부 또는 외부에서 파일을 공유하는 OneDrive SharePoint 수 있는 범위를 나타 내외부로 나타내야 합니다.
       - **외부:** 막대의 파랑(색) 부분과 막대의 분수(숫자/분모)는 OneDrive 또는 SharePoint 외부에서 파일을 공유하는 SharePoint 비율을 나타내고 있습니다.
@@ -161,7 +160,7 @@ Microsoft OneDrive 및 비즈니스용 SharePoint 사용하여 여러 장치 및
 
 :::image type="content" source="../../media/intensityofcollab.png" alt-text="가장 많이 공동 작업한 파일 수를 보여주는 차트입니다.":::
 
-1. **헤더:** 하이라이트 파일을 공동 작업하는 OneDrive SharePoint 사용자 또는 사용자에 대한 액세스 권한이 있는 사용자 비율을 계산합니다.
+1. **헤더:** 4개 이상의 파일로 공동 작업하는 사용자 또는 OneDrive SharePoint 사용자 비율을 강조합니다.
 2. **본문:** 사용자가 보다 나은 공동 작업을 위해 온라인 파일을 활용하는 방법에 대한 정보를 제공합니다.
 3. **시각화:** 공동 작업하는 파일 수에 따라 OneDrive SharePoint 사용자 배포를 보여 주며, 이 항목은 다음 4개 범주(각각에 대해 막대의 파란색 부분과 분수는 해당 범주에 속하는 OneDrive 또는 SharePoint 사용자 비율을 나타임)를 통해 표시됩니다.
       - **공동 작업 없음:**
@@ -183,7 +182,7 @@ Microsoft OneDrive 및 비즈니스용 SharePoint 사용하여 여러 장치 및
 
 :::image type="content" source="../../media/networkperfstrength.png" alt-text="네트워크 및 네트워크의 네트워크 OneDrive 보여 SharePoint.":::
 
-1. **헤더:** 하이라이트 네트워크 연결이 좋지 않은 테스트된 장치의 백분율을 OneDrive SharePoint. 
+1. **헤더:** 테스트된 모든 장치에서 네트워크 연결이 불량한 장치의 비율을 OneDrive SharePoint. 
 2. **본문:** 네트워크 연결 성능이 공동 작업에서 중요한 이유에 대한 정보를 제공합니다. 
 3. **시각화:** 네트워크 연결 성능 수준이 서로 다른 장치의 백분율을 OneDrive SharePoint.
       - **81-100(최상)**: 막대의 진한 녹색(색) 부분은 최상의 성능을 나타내는 장치의 백분율을 나타내고 있습니다.

@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 3d0b0f1adac589b910b5fabf2c22d08cbd65f142
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: 211e26035ad8bdf73defde85c33a631af3a193d0
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53276932"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300111"
 ---
 # <a name="device-images"></a>장치 이미지
 
@@ -31,7 +31,7 @@ ms.locfileid: "53276932"
 Dell 영업 담당자와 직접 작업합니다. 이 담당자가 승인한 이미지가 Microsoft Managed Desktop 장치에 적용해야 합니다. Dell 장치, 이미지 및 주문 프로세스에 대한 자세한 내용은 에 문의 MMD_at_dell@dell.com.
 
 ### <a name="hp"></a>HP 
-HP에서 새 장치를 주문하는 경우 쇼핑 Windows 10 Pro 비즈니스 장치 사이트에 있는 각 모델에 [](https://www.microsoft.com/windowsforbusiness/view-all-devices) 대한 추가 요구 사항 섹션에 나열된 특정 SKU를 사용하세요(보기를 필터링하여 Microsoft Managed Desktop 장치 표시).
+HP에서 새 장치를 주문하는 경우 쇼핑 Windows 10 Pro 비즈니스 장치 사이트에 있는 각 모델에 [](https://www.microsoft.com/windowsforbusiness/view-all-devices#view-all-filter) 대한 추가 요구 사항 섹션에 나열된 특정 SKU를 사용하세요(보기를 필터링하여 Microsoft Managed Desktop 장치 표시).
 
 예외로 승인되어 있지만 현재 장치 목록 페이지에 나열되지 않은 장치를 HP에서 주문하는 경우 모델에 사용할 SKU를 요청해야 합니다. [](customizing.md) 예외 요청을 사용하여 HP와 함께 이 정보를 얻게 됩니다. 다음 주소를 사용하여 장치 및 장치 주문 지침에 대한 질문이 있으면 HP에 직접 문의할 수 있습니다.
  
