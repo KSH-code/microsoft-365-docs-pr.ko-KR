@@ -1,0 +1,38 @@
+- name: 테스트 기준 설명서
+  href: index.yml
+- name: 개요
+  items:
+    - name: 테스트 기준이란?
+      href: overview.md
+- name: 빠른 시작
+  items:
+    - name: 테스트 기본 계정 만들기
+      href: createAccount.md
+    - name: 패키지 업로드
+      href: uploadApplication.md
+    - name: 업로드 이진 & 종속성
+      href: binaries.md
+    - name: 테스트 작업 설정
+      href: testtask.md
+    - name: 테스트 옵션 설정
+      href: testoptions.md
+    - name: 검토
+      href: review.md
+    - name: 패키지 지침
+      href: contentguideline.md
+- name: 사용 방법 가이드
+  items:
+    - name: 서버 응용 프로그램 테스트
+      href: server.md
+    - name: 기능 테스트
+      href: functional.md
+    - name: 기능 업데이트 유효성 검사
+      href: feature.md
+    - name: 메모리 회귀 분석
+      href: memory.md
+    - name: CPU 회귀 분석
+      href: cpu.md
+- name: 참조
+  items:
+    - name: FAQ
+      href: faq.md
