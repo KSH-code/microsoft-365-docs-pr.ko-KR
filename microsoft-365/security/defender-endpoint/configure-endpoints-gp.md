@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 24b24c634eac7ee125810d96587c9c1e209b6491
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: b4418cca035710c6b938dad31a2b55423d2ab458
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286960"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314407"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드 
 
@@ -211,7 +211,7 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 
 7. 사용자가 **로그온되어** 있는지 여부에 따라 실행을 선택하고 가장 높은 권한으로 실행 **확인란을** 선택합니다.
 
-8. 작업 **탭으로** 이동하여 새로 **고치기... 를 클릭합니다.** 작업 **필드에서 프로그램** **시작이 선택되어 있도록** 합니다. 공유 파일 이름과 위치를 *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd 파일입니다.*
+8. 작업 **탭으로** 이동하여 새로 **고치기... 를 클릭합니다.** 작업 **필드에서 프로그램** **시작이 선택되어 있도록** 합니다. 공유 *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd 파일의* NetBIOS 경로를 입력합니다.
 
 9. 확인을 **클릭하고** 열려 있는 GPMC 창을 닫습니다.
 

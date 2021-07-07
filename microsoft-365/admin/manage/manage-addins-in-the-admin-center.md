@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 중앙 집중식 추가 기능을 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 학습합니다.
-ms.openlocfilehash: d678755b28daea1578ce2a5d2e387492cf32d368
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ed9086c77cdf10435bae09f76493af6058d2d758
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636061"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314390"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 관리
 
@@ -121,6 +121,9 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 - 웹 - 현재 사용할 수 있습니다.
     
 이렇게 해서 관리자가 중앙 집중식 배포를 사용하여 중앙 저장소에서 추가 기능을 할당하는 Office 않습니다.
+
+> [!NOTE] 
+> Visio 데이터 시각화 도우미, Bing 지도, 사용자 Graph 등의 추가 기능도 관리자가 스토어를 사용하지 않도록 설정한 경우에도 리본 메뉴에 계속 표시됩니다. 이러한 링크를 제거하려면 관리자가 GPO(그룹 정책 개체)를 통해 스토어를 사용하지 않도록 설정해야 합니다.
   
 사용자가 Microsoft 계정으로 로그인하지 못하도록 조직 계정만 사용하도록 로그온을 제한할 수 있습니다. 자세한 내용은 [2016 에서 ID, 인증 및 권한 부여를 Office 참조하세요.](/DeployOffice/security/identity-authentication-and-authorization-in-office)  
 

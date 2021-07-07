@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: b3f86dfbc1ae89eff61c680737061b01998a527b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2f02de4b738d9d61ef9f98cd03d15bd91709339e
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933868"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314431"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운
 
@@ -35,7 +35,13 @@ ms.locfileid: "51933868"
 Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경 사항을 적용해 두었다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 [점수의 출시 예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
 
 Microsoft 보안 점수는 보안 센터의 Microsoft 365 https://security.microsoft.com/securescore [있습니다.](overview-security-center.md)
-    
+
+## <a name="june-2021"></a>2021년 6월
+
+### <a name="remove-improvement-action-related-to-microsoft-cloud-app-security"></a>사용자와 관련된 개선 Microsoft Cloud App Security
+
+- 이 Cloud App Security 동작을 검색합니다.
+
 ## <a name="february-2021"></a>2021년 2월
 
 ### <a name="compatibility-with-graph-api"></a>API와 Graph 호환성

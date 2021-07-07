@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: 사용자 라이선스가 25개 미만인 경우 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소할 수 있습니다.
 ms.date: 04/08/2021
-ms.openlocfilehash: d327a09eba06e9a2bbc92959b6048649b41b72fe
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: e0b23d785a86102891f24cb16419794773d64356
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256798"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300043"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -82,7 +82,7 @@ ms.locfileid: "53256798"
 
 기간이 종료되기 전에 구독을 취소하면 구독 상태가 바로 사용 안 함 상태로 전환됩니다. 대부분의 국가 및 지역에서 대부분의 구독은 사용 안 함 상태가 90일 동안 유지됩니다. 구독이 사용 안 함 상태로 전환되더라도 관리자는 여전히 조직의 데이터에 액세스하고 데이터를 백업할 수 있지만, 관리자는 구독 취소 전에 [데이터를 백업](back-up-data-before-switching-plans.md)하는 것이 좋습니다. 특히 해당 구독이 유일한 구독인 경우 더욱 그렇습니다. 관리자는 사용 안 함 상태에서 구독을 다시 활성화할 수도 있습니다.
 
-90일이 지나면 구독이 삭제된 상태로 이동합니다. 남겨진 모든 데이터는 90일 후에 삭제될 수 있으며, 취소 후 180일 내에 삭제됩니다. 구독이 삭제된 상태에 도달할 때까지 취소된 구독에서 결제 방법을 제거할 수 없습니다.
+90일이 지나면 구독이 삭제된 상태로 이동합니다. 남겨진 모든 데이터는 90일 후에 삭제될 수 있지만, 취소 후 180일 내에 삭제됩니다. 구독이 삭제된 상태에 도달할 때까지 취소된 구독에서 결제 방법을 제거할 수 없습니다.
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>구독을 취소할 경우 관리자와 사용자에 대해 예상되는 결과는 다음과 같습니다.
   

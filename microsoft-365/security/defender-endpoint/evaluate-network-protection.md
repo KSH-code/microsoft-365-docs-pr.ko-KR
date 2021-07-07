@@ -14,12 +14,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 03d05966401c8f3a8bdcec413e85c9a6d2a3ec5c
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 98e4c80c2e0262712885f1e7a2da82886b2ebe80
+ms.sourcegitcommit: b6e63febe24ef1f1793dfb3ecc5ed41a4e730578
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53309370"
 ---
 # <a name="evaluate-network-protection"></a>네트워크 보호 평가
 
@@ -40,7 +40,7 @@ ms.locfileid: "52926574"
 
 감사 모드에서 네트워크 보호를 사용하도록 설정하여 차단된 IP 주소 및 도메인을 확인합니다. 이 앱이 업무 앱에 영향을 주지 않는지 확인하거나 차단이 발생하는 자주에 대해 알 수 있습니다.
 
-1. 시작 **메뉴에 powershell을** 입력하고 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
+1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 **단추로** 클릭하고 Windows PowerShell 관리자 권한으로 **실행을 선택합니다.**
 2. 다음 cmdlet을 입력합니다.
 
     ```PowerShell
@@ -55,7 +55,7 @@ ms.locfileid: "52926574"
 
 네트워크 연결이 허용되고 테스트 메시지가 표시됩니다.
 
-![연결 차단을 표시하는 알림의 예: IT 관리자가 이 네트워크 Windows 보안 차단했습니다. IT 지원 센터에 문의합니다.](/microsoft-365/security/defender-endpoint/images/np-notif)
+![연결 차단을 표시하는 알림의 예: IT 관리자가 이 네트워크 Windows 보안 차단했습니다. IT 지원 센터에 문의합니다.](images/np-notif.png)
 
 ## <a name="review-network-protection-events-in-windows-event-viewer"></a>이벤트 뷰어에서 Windows 이벤트 검토
 

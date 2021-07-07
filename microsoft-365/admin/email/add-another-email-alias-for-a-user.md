@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: '비즈니스용 계정과 연결된 전자 메일 별칭이라는 전자 메일 주소를 두 개 이상 사용할 Microsoft 365 방법을 알아보습니다. '
-ms.openlocfilehash: ec5bc69a42c5183413f11649b7d7ec6baaf40b01
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: e6eac45c3ade3fd737f93c88c29b56ccd497212e
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572108"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314359"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>사용자의 다른 전자 메일 별칭 추가
   
@@ -46,7 +46,7 @@ ms.locfileid: "52572108"
 
 이렇게하려면 관리자 [권한이](../add-users/about-admin-roles.md) 있어야 합니다. 
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. 활성 **사용자 페이지에서** 사용자 이름 및 전자 메일 > **사용자를 선택합니다.** 사용자에게 할당된 라이선스가 없는 경우 이 옵션이 표시됩니다. 
     
@@ -70,7 +70,7 @@ ms.locfileid: "52572108"
     이제 사용자에게 기본 주소와 별칭이 있습니다. 예를 들어 Eliza Hoffman의 기본 주소인 Eliza@NodPublishers.com 및 별칭인 Sales@NodPublishers.com 메일은 모두 지민의 받은 편지함으로 이동됩니다.
     
   
-7. **사용자가 답장할 때 *From* 주소는 사용자의 클라이언트에 Outlook 않습니다. Outlook 웹에서 전자 메일이 수신된 별칭을 사용하게 됩니다(이를 ping-pong 원칙으로 지칭). Outlook 데스크톱에서 기본 전자 메일 별칭을 사용할 것입니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. Eliza가 Outlook 데스크톱을 사용하여 메시지에 응답하면 기본 전자 메일 주소가 Eliza@NodPublishers.com 아닌 Sales@NodPublishers.com.
+7. **사용자가 답장할 때 *From* 주소는 사용자의 클라이언트에 Outlook 않습니다. 웹용 Outlook 받은 별칭을 사용하게 됩니다(이를 ping-pong 원칙으로 지칭). Outlook 데스크톱에서 기본 전자 메일 별칭을 사용할 것입니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. Eliza가 Outlook 데스크톱을 사용하여 메시지에 응답하면 기본 전자 메일 주소가 Eliza@NodPublishers.com 아닌 Sales@NodPublishers.com.
     
 ## <a name="did-you-get-a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"매개 변수 이름 EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다."가 있나요?
 
@@ -83,7 +83,7 @@ GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭�
 
 ## <a name="sending-email-from-the-proxy-address-easily"></a>프록시 주소에서 전자 메일 쉽게 보내기
 
-새로운 기능은 2021년 4월에 출시되는 기능으로, 사용자가 웹에서 해당 기능을 사용할 때 별칭에서 Outlook 수 있습니다. 이 기능이 테넌트 관리자가 cmdlet을 사용하는 테넌시로 롤아웃하면 테넌시 내의 사용자는 각 항목이 해당 Outlook 설정의 별칭에 해당하는 `Set-OrganizationConfig -SendFromAliasEnabled $true` 확인란 목록에 액세스할 수 있습니다. 별칭을 선택하면 작성 양식의 From 드롭다운에 별칭이 표시됩니다.
+새로운 기능은 2021년 7월에 출시되어 사용자가 별칭을 사용하여 쉽게 별칭에서 보낼 수 웹용 Outlook. 이 기능이 테넌트 관리자가 cmdlet을 사용하는 테넌시로 롤아웃하면 테넌시 내의 사용자는 각 항목이 해당 Outlook 설정의 별칭에 해당하는 `Set-OrganizationConfig -SendFromAliasEnabled $true` 확인란 목록에 액세스할 수 있습니다. 별칭을 선택하면 작성 양식의 From 드롭다운에 별칭이 표시됩니다.
   
 ## <a name="related-content"></a>관련 콘텐츠
 

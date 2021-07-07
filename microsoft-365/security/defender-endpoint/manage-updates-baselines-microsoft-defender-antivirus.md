@@ -13,16 +13,16 @@ ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.reviewer: pahuijbr
+ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 06/23/2021
-ms.openlocfilehash: 88be32a2c1e9204629682ec678f80ab6daf701f4
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.date: 07/06/2021
+ms.openlocfilehash: f64c71501a550aabdf16b9de2d7a5db93e48caef
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105335"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314467"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -56,7 +56,7 @@ Microsoft Defender 바이러스 백신 Microsoft Advanced [](cloud-protection-mi
 
 ## <a name="product-updates"></a>제품 업데이트
 
-Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) 업데이트라고도 알려)가 필요하며, 주요 기능 업데이트와 함께 Windows 10 수 있습니다.
+Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데이트(KB4052623)가](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) *필요합니다.*
 
 다음 방법 중 하나를 통해 업데이트 배포를 관리할 수 있습니다. 
 
@@ -67,7 +67,10 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 자세한 내용은 [Manage the sources for Microsoft Defender 바이러스 백신 protection updates를 참조하십시오.](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
 
 > [!NOTE]
-> 월별 업데이트는 단계적으로 릴리스되어 Window Server Update Services에 여러 [패키지가 표시됩니다.](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+> - 월별 업데이트는 단계적으로 릴리스되어 Window Server Update Services에 여러 [패키지가 표시됩니다.](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+> - 이 문서에는 광범위한 릴리스 채널에 포함된 변경 내용이 나열됩니다. [여기에서 최신 광범위 채널 릴리스를 참조하세요.](https://www.microsoft.com/security/encyclopedia/adlpackages.aspx?action=info) 
+> - 단계적 출시 프로세스에 대한 자세한 내용을 알아보고 다음 릴리스에 대한 자세한 내용은 Microsoft Defender 업데이트에 대한 단계적 출시 프로세스 관리를 [참조하세요.](manage-gradual-rollout.md)
+> - 보안 인텔리전스 업데이트에 대한 자세한 내용은 보안 인텔리전스 업데이트 및 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 [방지를 참조하세요.](https://www.microsoft.com/wdsi/defenderupdates) 
 
 ## <a name="monthly-platform-and-engine-versions"></a>월별 플랫폼 및 엔진 버전
 
@@ -77,8 +80,26 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 - 성능 개선
 - 서비스성 개선 및 
 - 통합 개선(클라우드, [](/microsoft-365/security/defender/microsoft-365-defender)Microsoft 365 Defender).
-<br/><br/>
+<br/>
 <details>
+<summary> 2021년 6월(플랫폼: 4.18.2106.5 | 엔진: 1.1.18300.4)</summary>
+
+&ensp;보안 인텔리전스 업데이트 버전: **1.343.17.0**  
+&ensp;릴리스: **2021년 6월 28일**  
+&ensp;플랫폼: **4.18.2106.5**  
+&ensp;엔진: **1.1.18300.4**  
+&ensp;지원 단계: **보안 및 중요 업데이트**
+    
+### <a name="whats-new"></a>새로운 기능
+- Microsoft Defender 업데이트의점적 출시 프로세스를 관리하기 위한 새로운 컨트롤입니다. Microsoft Defender 업데이트에 대한 서진적 출시 프로세스 [관리를 참조하세요.](manage-gradual-rollout.md)
+- 동작 모니터링 엔진 개선
+- 맬웨어 방지 정의의 롤아웃 개선
+- 확장 에지 네트워크 이벤트 검사
+
+### <a name="known-issues"></a>알려진 문제
+알려진 문제 없음  
+<br/>
+</details><details>
 <summary> 2021년 5월(플랫폼: 4.18.2105.4 | 엔진: 1.1.18200.4)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.341.8.0**  
@@ -104,21 +125,26 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
     
 ### <a name="whats-new"></a>새로운 기능
 - 추가 동작 모니터링 논리
-- 커널 모드 키로거 검색 개선
+- 커널 모드 키 로거 검색 개선
 - Microsoft Defender 업데이트의점적 출시 프로세스를 관리하기 위한 새 [컨트롤이 추가되었습니다.](manage-gradual-rollout.md)
 
 
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음  
 <br/>
-</details><details>
+</details>
+
+### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
+
+새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다. 
+<details>
 <summary> 2021년 3월(플랫폼: 4.18.2103.7 | 엔진: 1.1.18000.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.335.36.0**  
 &ensp;릴리스: **2021년 4월 2일**  
 &ensp;플랫폼: **4.18.2103.7**  
 &ensp;엔진: **1.1.18000.5**  
-&ensp;지원 단계: **보안 및 중요 업데이트**
+&ensp;지원 단계: **기술 업그레이드 지원(전용)**
     
 ### <a name="whats-new"></a>새로운 기능
 
@@ -129,13 +155,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음  
 <br/>
-</details>
-
-### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
-
-새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다. 
-<br/><br/>
-<details>
+</details><details>
 <summary> 2021년 2월(플랫폼: 4.18.2102.3 | 엔진: 1.1.17900.7)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.333.7.0**  
