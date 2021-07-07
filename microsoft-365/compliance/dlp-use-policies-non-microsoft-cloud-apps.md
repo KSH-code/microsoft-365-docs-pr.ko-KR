@@ -20,14 +20,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft가 아닌 클라우드 앱에 대해 dlp 정책을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: fbba87fc5bb3bbca7e67ba374e202098a22f4a5c
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: 4bda45a6da6b9626391da37eb9a806b3308c5e7f
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300127"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322320"
 ---
-# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용(미리 보기)
+# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps"></a>Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용
 
 Microsoft가 아닌 클라우드 앱에 대한 DLP(데이터 손실 방지) 정책은 Microsoft 365 DLP 제품군의 일부입니다. 이러한 기능을 사용하여 여러 서비스에서 중요한 항목을 검색하고 보호할 Microsoft 365 있습니다. 모든 Microsoft DLP 제공에 대한 자세한 내용은 데이터 손실 방지에 대한 자세한 [정보를 참조하세요.](dlp-learn-about-dlp.md)
 

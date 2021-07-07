@@ -13,12 +13,12 @@ ms.collection:
 - M365-modern-desktop
 localization_priority: None
 description: M365의 Learning LTI(Learning Tools Interoperability) Office 및 Office 앱을 LMS(Learning Management System)에 통합할 때 교육자들에게 도움이 되는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4fd7b25b6463eec4f681e3090bb65db8b00351a8
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 34956eac57a7e3af44ca1c8cf8ae2714327e3e96
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256685"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322344"
 ---
 # <a name="integrating-microsoft-products-with-your-learning-management-system-lms"></a>LMS(Learning 관리 시스템)와 Microsoft 제품 통합
 
@@ -78,3 +78,5 @@ Microsoft Teams LTI 앱은 관리자가 Teams 교육 기관의 LMS 과정에 통
 Microsoft Teams 클래스 LTI 앱은 강사와 학생이 LMS와 LMS를 탐색하는 데 Teams. 사용자는 LMS 내에서 직접 과정과 연결된 수업 팀에 액세스할 수 있습니다. 구성 단계는 아래에서 찾을 수 있습니다.
 
 - **Teams 클래스 LTI는 Canvas와** [Microsoft Teams 클래스를 사용하세요.](teams-classes-with-canvas.md)
+
+- **Teams 클래스 LTI 블랙보드가** [](teams-classes-with-blackboard.md) 있는 Microsoft Teams 클래스 사용

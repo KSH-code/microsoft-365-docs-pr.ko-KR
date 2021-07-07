@@ -18,19 +18,16 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 65edf54ea0bf5cb0a0210dd306db07c756149f65
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 0ed494cc29eb990430be590e62db5f0365ace494
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062130"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322428"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>끝점 미리 보기 기능용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
->[!IMPORTANT]
->미리 보기 버전은 서비스 수준 계약 없이 제공하며 프로덕션 워크로드에는 권장되지 않습니다. 일부 기능은 지원되지 않을 수도, 기능이 제한될 수도 있습니다.
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -47,6 +44,19 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 >다음 URL을 복사하여 피드 읽기 페이지에 붙여 넣는 방법을 통해 이 페이지가 업데이트될 때 알림을 받을 수 있습니다. `/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
 
 일반적으로 사용할 수 있는 새로운 기능에 대한 자세한 내용은 [Endpoint용 Defender의](whats-new-in-microsoft-defender-atp.md)새로운 기능을 참조하세요.
+
+ ## <a name="what-you-need-to-know"></a>알아야 할 것
+
+공개 미리 보기에서 기능을 사용할 때 다음과 같은 기능을 사용할 수 있습니다.
+
+- 기능이 제한되거나 제한될 수 있습니다. 예를 들어 이 기능은 하나의 플랫폼에만 적용할 수 있습니다.
+- 일반적으로 GA(일반 제공)되기 전에 기능 변경 사항을 거치게 됩니다.
+- Microsoft에서 완전히 지원됩니다.
+- 선택한 지리적 지역 또는 클라우드 환경에서만 사용할 수 있습니다. 예를 들어 이 기능은 정부 클라우드에 존재하지 않을 수 있습니다.
+- 미리 보기의 개별 기능에는 더 많은 사용 및 지원 제한이 있을 수 있습니다. 이 경우 이 정보는 일반적으로 기능 설명서에 기록됩니다.
+- 미리 보기 버전은 표준 지원 수준으로 제공하며 프로덕션 워크로드에 권장됩니다. 
+
+
 
 ## <a name="turn-on-preview-features"></a>미리 보기 기능 설정
 

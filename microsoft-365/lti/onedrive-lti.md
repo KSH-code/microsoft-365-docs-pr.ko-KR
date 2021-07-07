@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 과제를 만들고 등급을 지정하고, 과정 콘텐츠를 작성 및 구성하고, 새로운 Microsoft OneDrive Learning 도구 상호 관리 앱을 사용하여 실시간으로 파일을 공동 작업합니다.
-ms.openlocfilehash: 985a316bac689b9bc6c53ab65782d548fcad0db8
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: bcb374ed1666f23fa5f3d4692f43a4369670e891
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53257022"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322224"
 ---
 # <a name="integrate-microsoft-onedrive-lti-with-canvas"></a>Canvas Microsoft OneDrive LTI 통합
 
@@ -40,7 +40,11 @@ LTI를 Microsoft OneDrive 통합하는 과정은 두 단계로 진행됩니다. 
 
 1. LTI Microsoft OneDrive <a href="https://onedrivelti.microsoft.com/admin" target="_blank">포털에 로그인합니다.</a>
 1. 관리자 **동의 단추를** 선택하고 사용 권한을 수락합니다.
-1. 새 **LTI 테넌트 만들기 단추를** 선택합니다. LTI 등록 페이지에서 드롭다운에서 **캔버스를** 선택하고 Canvas 인스턴스의 기본 URL을 입력합니다.
+
+> [!CAUTION]
+> 이 단계를 수행하지 않은 경우 다음 단계를 수행하면 오류가 발생하고 한 시간 동안 이 단계를 수행할 수 없습니다.
+
+3. 새 **LTI 테넌트 만들기 단추를** 선택합니다. LTI 등록 페이지에서 드롭다운에서 **캔버스를** 선택하고 Canvas 인스턴스의 기본 URL을 입력합니다.
 
 > [!NOTE]
 > Canvas 인스턴스가 ]()인 경우 https://contoso.test.instructure.com https://contoso.test.instructure.com) 전체 URL을 입력해야 합니다.

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Microsoft 365 사용하여 일부 개별 사용자 암호를 만료하지 못하도록 설정하려면 Windows PowerShell.
-ms.openlocfilehash: a0b247f4b736ecccab57398e1e7131f0a06a2958
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: c9f0c245aca0e028183c42f6a257068d74aa563d
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286276"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326726"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>사용자 암호를 만료 기한 제한 없음으로 설정
 
@@ -43,8 +43,6 @@ Microsoft 클라우드 서비스의 전역 관리자는 Azure Active Directory [
 
 이 가이드는 Id 및 디렉터리 서비스에 대해 Azure AD를 Microsoft 365 Intune 및 Microsoft 365 같은 다른 공급자에 적용됩니다. 암호 만료는 변경할 수 있는 정책의 유일한 부분입니다.
 
-> [!NOTE]
-> 디렉터리 동기화를 통해 동기화되지 않은 사용자 계정의 암호만 만료되지되도록 구성할 수 있습니다. 디렉터리 동기화에 대한 자세한 내용은 Azure [AD를 커넥트 AD를 참조하세요.](/azure/active-directory/connect/active-directory-aadconnect)
 
 ## <a name="how-to-check-the-expiration-policy-for-a-password"></a>만료 정책에서 암호를 검사하는 방법
 

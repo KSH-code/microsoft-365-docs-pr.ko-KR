@@ -15,13 +15,13 @@ ms.custom: nextgen
 ms.reviewer: tewchen, pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 05/08/2021
-ms.openlocfilehash: f03fab3f296f98b448693c6a5d0886f409201703
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.date: 07/06/2021
+ms.openlocfilehash: aac84d2e957809d1c9579f25c01006798af2c0a9
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288482"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322416"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender 바이러스 백신 호환성
 
@@ -33,27 +33,27 @@ ms.locfileid: "53288482"
 
 ## <a name="summary"></a>요약
 
-Microsoft Defender 바이러스 백신 실행되는 끝점 및 장치에 자동으로 사용하도록 설정되어 Windows 10. 그러나 다른(Microsoft가 아닌) 바이러스 백신/맬웨어 방지 솔루션이 사용될 경우 어떻게 될까요? 이 방법은 바이러스 백신 보호와 함께 [끝점용 Microsoft Defender를](microsoft-defender-endpoint.md) 사용하는지 여부에 따라 결정됩니다. 이 문서에서는 끝점이 끝점용 Microsoft Defender에 온보딩된 경우 바이러스 백신/맬웨어 방지 솔루션에서 발생하는 문제에 대해 설명합니다.
+Microsoft Defender 바이러스 백신 실행되는 끝점 및 장치에 자동으로 사용하도록 설정되어 Windows 10. 그러나 다른(Microsoft가 아닌) 바이러스 백신/맬웨어 방지 솔루션이 사용될 경우 어떻게 될까요? 다른 바이러스 백신 Microsoft Defender 바이러스 백신 함께 실행할 수 있나요? 답변은 운영 체제와 같은 여러 요소와 바이러스 백신 보호와 함께 [끝점용 Microsoft Defender를](microsoft-defender-endpoint.md) 사용하는지 여부에 따라 결정됩니다. 
 
-## <a name="keep-the-following-points-in-mind"></a>다음에 유의해야 합니다.
+## <a name="important-points-to-keep-in-mind"></a>유의해야 할 중요 지점
 
-- 활성 모드에서는 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용됩니다. Configuration Manager, 그룹 정책, Intune 또는 기타 관리 제품으로 만든 모든 구성이 적용됩니다. 파일을 검색하고 위협을 수정하고 구성 도구(예: Configuration Manager 또는 컴퓨터 자체의 Microsoft Defender 바이러스 백신 앱)에 검색 정보가 보고됩니다.
+- 활성 모드에서는 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용됩니다. 설정, 그룹 정책, Microsoft Intune 또는 기타 관리 제품을 사용하여 구성한 정책이 적용됩니다. 파일을 검색하고 위협을 해결하며 구성 도구(예: 구성 관리자 또는 끝점 자체의 Microsoft Defender 바이러스 백신 앱)에 검색 정보가 보고됩니다.
 
-- 수동 모드에서는 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용되지 않을 뿐만 아니라 위협이 제거되지 Microsoft Defender 바이러스 백신. 파일을 검사하고 끝점용 Microsoft Defender 서비스와 공유되는 위협 감지에 대한 보고서가 제공됩니다. 보안 센터에서 수동 [](microsoft-defender-security-center.md) 모드에 있는 경우에도 Microsoft Defender 바이러스 백신 경고가 표시될 Microsoft Defender 바이러스 백신 있습니다.
+- 수동 모드에서는 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용되지 않을  뿐만 아니라 위협이 제거되지 Microsoft Defender 바이러스 백신. 파일을 검사하고 끝점용 Microsoft Defender 서비스와 공유되는 위협 감지에 대한 보고서가 제공됩니다. 보안 센터에서 수동 [](microsoft-defender-security-center.md) 모드에 있는 경우에도 Microsoft Defender 바이러스 백신 경고가 표시될 Microsoft Defender 바이러스 백신 있습니다.
 
-- 차단 [EDR](edr-in-block-mode.md) 켜져 있으며 Microsoft Defender 바이러스 백신 바이러스 백신 솔루션이 아닌 경우 악의적인 항목을 검색하고 수정합니다. EDR 모드로 설정하려면 Microsoft Defender 바이러스 백신 수동 모드에서 사용하도록 설정해야 합니다.
+- 차단 [EDR](edr-in-block-mode.md) 설정되어 있으며 Microsoft Defender 바이러스 백신 바이러스 백신 솔루션이 아닌 경우 차단 모드에서는 EDR(위반 후)에서 발견된 악성 항목을 감지하고 수정합니다. EDR 모드로 설정하려면 Microsoft Defender 바이러스 백신 수동 모드에서 사용하도록 설정해야 합니다.
 
-- 사용하지 않도록 설정하면 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용되지 않습니다. 파일을 검사하지 않은 경우 위협이 해결되지 않습니다. 일반적으로 Microsoft Defender 바이러스 백신 사용 안 하게/Microsoft Defender 바이러스 백신 권장되지 않습니다. 가능하면 microsoft가 아닌 Microsoft Defender 바이러스 백신/바이러스 백신 솔루션을 사용하는 경우 수동 모드로 유지하세요.
+- 사용하지 않도록 설정하면 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용되지 않습니다. 파일을 검사하지 않은 경우 위협이 해결되지 않습니다. 일반적으로 Microsoft Defender 바이러스 백신 사용 안 하게 또는 Microsoft Defender 바이러스 백신 권장되지 않습니다. 가능하면 microsoft가 아닌 Microsoft Defender 바이러스 백신/바이러스 백신 솔루션을 사용하는 경우 수동 모드로 유지하세요.
 
-- 끝점용 Microsoft Defender에 등록되어 있으며 타사 맬웨어 방지 제품을 사용하는 경우 수동 모드가 사용하도록 설정됩니다. 이 서비스는 침입 시도 및 공격을 Microsoft Defender 바이러스 백신 장치 및 네트워크를 제대로 모니터링하기 위해 Microsoft Defender 바이러스 백신 서비스에서 일반적인 정보 공유가 필요합니다. 자세한 내용은 [Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint와의 호환성을 참조합니다.](defender-compatibility.md) 
+- 끝점용 Microsoft Defender에 등록되어 있으며 Microsoft가 아닌 바이러스 백신/맬웨어 방지 제품을 사용하는 경우 Microsoft Defender 바이러스 백신 모드로 설정됩니다. 끝점용 Defender는 침입 시도 및 Microsoft Defender 바이러스 백신 장치 및 네트워크를 제대로 모니터링하기 위해 사용자로부터 일반적인 정보 공유가 필요합니다. 자세한 내용은 [Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint와의 호환성을 참조합니다.](defender-compatibility.md) 
 
-- 수동 Microsoft Defender 바이러스 백신 경우 에 대한 업데이트를 관리할 [Microsoft Defender 바이러스 백신.](manage-updates-baselines-microsoft-defender-antivirus.md) 그러나 장치에 맬웨어로부터 실시간 보호를 Microsoft Defender 바이러스 백신 Microsoft가 아닌 최신 바이러스 백신 제품이 있는 경우 활성 모드로 전환할 수 없습니다. 보안 계층 방어 및 검색 기능을 최적화하기 위해 [](manage-updates-baselines-microsoft-defender-antivirus.md) 수동 모드에서 실행 중인 경우에도 Microsoft Defender 바이러스 백신 보호(보안 인텔리전스 업데이트, 엔진 및 플랫폼)Microsoft Defender 바이러스 백신 업데이트해야 합니다.
+- 수동 Microsoft Defender 바이러스 백신 경우 에 대한 업데이트를 관리할 [Microsoft Defender 바이러스 백신.](manage-updates-baselines-microsoft-defender-antivirus.md) 그러나 장치에 맬웨어로부터 실시간 보호를 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 제품이 있는 경우 활성 모드로 전환할 수 없습니다. 보안 계층 방어 및 검색 기능을 최적화하기 위해 수동 모드에서 실행 중인 경우에도 바이러스 백신 및 Microsoft Defender 바이러스 백신 업데이트를 다운로드해야 합니다. 자세한 [내용은 Microsoft Defender 바이러스 백신 관리 및 기준 적용을 참조하세요.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
-- 자동 Microsoft Defender 바이러스 백신 사용하지 않도록 설정하면 Microsoft가 아닌 바이러스 백신 제품에서 제공하는 보호가 만료되거나 바이러스, 맬웨어 또는 기타 위협으로부터 실시간 보호를 제공하는 것을 중지하면 자동으로 다시 활성화될 수 있습니다. 자동 다시 사용하도록 설정하면 장치에서 바이러스 백신 보호가 유지 관리됩니다. 또한 기본 바이러스 [](limited-periodic-scanning-microsoft-defender-antivirus.md)백신 앱 외에 Microsoft Defender 바이러스 백신 검사 엔진을 사용하여 위협을 주기적으로 검사하는 제한된 주기적 검사를 사용하도록 설정할 수 있습니다.
+- 자동 Microsoft Defender 바이러스 백신 사용하지 않도록 설정하면 Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 제품이 만료되거나 바이러스, 맬웨어 또는 기타 위협으로부터 실시간 보호를 제공하는 것을 중지하면 자동으로 다시 사용하도록 설정할 수 있습니다. 자동 다시 사용하도록 설정하면 Microsoft Defender 바이러스 백신 끝점에서 바이러스 백신 보호가 유지 관리됩니다. Microsoft가 아닌 [](limited-periodic-scanning-microsoft-defender-antivirus.md)바이러스 백신 앱을 사용하는 경우 Microsoft Defender 바이러스 백신 주기적으로 검사하는 제한된 주기적 검사 를 사용하도록 설정할 수도 있습니다.
 
 ## <a name="microsoft-defender-antivirus-and-non-microsoft-antivirusantimalware-solutions"></a>Microsoft Defender 바이러스 백신 및 비 Microsoft 바이러스 백신/맬웨어 방지 솔루션
 
-다음 표에는 Microsoft가 아닌 Microsoft Defender 바이러스 백신 맬웨어 방지 솔루션이 함께 사용되거나 끝점용 Microsoft Defender가 없는 경우 발생하는 문제가 요약되어 있습니다. 
+운영 체제, 바이러스 백신 제품 및 끝점용 Defender는 Microsoft Defender 바이러스 백신 모드인지, 수동 모드인지 또는 비활성화되어 있는지에 영향을 미치게 됩니다. 다음 표에는 Microsoft가 아닌 Microsoft Defender 바이러스 백신 맬웨어 방지 솔루션이 함께 사용되거나 끝점용 Microsoft Defender가 없는 경우 발생하는 문제가 요약되어 있습니다. 
 
 | Windows 버전   | 바이러스 백신/맬웨어 방지 솔루션  | 온보더드- <br/> Endpoint용 Defender | Microsoft Defender 바이러스 백신 상태     |
 |------|------|-------|-------|
@@ -120,16 +120,25 @@ Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션을 사용하�
 
 작동 방식은 다음과 같습니다.
 
-- 조직의 클라이언트 장치가 Microsoft가 아닌 바이러스 백신/웨어웨어 방지 솔루션으로 보호되는 경우 해당 장치가 Endpoint용 Defender에 온보딩될 때 Microsoft Defender 바이러스 백신 수동 모드로 전환됩니다. 이 경우 위협 감지가 발생하지만 실시간 보호 및 위협은 위협에 의해 해결되지 Microsoft Defender 바이러스 백신. **참고:** 이 특정 시나리오는 Windows 실행되는 끝점에는 적용되지 않습니다.
+- 조직의 클라이언트 장치가 Microsoft가 아닌 바이러스 백신/웨어웨어 방지 솔루션으로 보호되는 경우 해당 장치가 Endpoint용 Defender에 온보딩될 때 Microsoft Defender 바이러스 백신 수동 모드로 전환됩니다. 이 경우 위협 감지가 발생하지만 실시간 보호 및 위협은 위협에 의해 해결되지 Microsoft Defender 바이러스 백신.
+   
+   > [!NOTE]
+   > 이 특정 시나리오는 Windows 실행되는 끝점에는 적용되지 않습니다.
 
-- 조직의 클라이언트 장치가 Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션으로 보호되고 해당 장치가 끝점용 Microsoft Defender에 온보딩되지 않은 경우 Microsoft Defender 바이러스 백신 모드로 자동 전환됩니다. 이 경우 위협이 검색되거나 수정되지 Microsoft Defender 바이러스 백신. **참고:** 이 특정 시나리오는 Windows 실행되는 끝점에는 적용되지 않습니다.
+- 조직의 클라이언트 장치가 Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션으로 보호되고 해당 장치가 끝점용 Microsoft Defender에 온보딩되지 않은 경우 Microsoft Defender 바이러스 백신 모드로 자동 전환됩니다. 이 경우 위협이 검색되거나 수정되지 Microsoft Defender 바이러스 백신.
+   
+   > [!NOTE]
+   > 이 특정 시나리오는 Windows 실행되는 끝점에는 적용되지 않습니다.
 
 - 조직의 끝점이 Windows Server를 실행하고 있으며 해당 끝점이 Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션으로 보호되는 경우 해당 끝점이 Endpoint용 Defender에 온보딩될 때 Microsoft Defender 바이러스 백신 수동 모드 또는 비활성화 모드로 자동 전환되지 않습니다. 이 특정 시나리오에서는 서버 끝점을 Windows 구성해야 합니다. 
 
    - Windows Server, 버전 1803 이상 및 Windows Server 2019에서 수동 모드에서 Microsoft Defender 바이러스 백신 수 있습니다. 
    - 이 Windows Server 2016 Microsoft Defender 바이러스 백신 사용하지 않도록 설정해야 합니다(수동 모드는 Windows Server 2016).
 
-- Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션으로 조직의 끝점을 보호하는 경우 해당 장치가 차단 모드로 [](/microsoft-365/security/defender-endpoint/edr-in-block-mode) 설정된 EDR 끝점용 Defender에 온보딩되면 Endpoint용 Defender는 악성 아티팩트를 차단하고 수정합니다. **참고:** 이 특정 시나리오는 이 시나리오에 적용되지 Windows Server 2016. EDR 모드로 설정하려면 Microsoft Defender 바이러스 백신 수동 모드에서 사용하도록 설정해야 합니다.
+- Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션으로 조직의 끝점을 보호하는 경우 해당 장치가 차단 모드로 [](/microsoft-365/security/defender-endpoint/edr-in-block-mode) 설정된 EDR 끝점용 Defender에 온보딩되면 Endpoint용 Defender는 악성 아티팩트를 차단하고 수정합니다.
+   
+   > [!NOTE]
+   > 이 특정 시나리오는 해당 시나리오에 Windows Server 2016. EDR 모드로 설정하려면 Microsoft Defender 바이러스 백신 수동 모드에서 사용하도록 설정해야 합니다.
 
 
 > [!WARNING]

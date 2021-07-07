@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 9d2f9a95b3d5d90b79122d55477284083ea8332e
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 866d1a2de820fca4c66537583dc5f55098149931
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286888"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327014"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -212,6 +212,13 @@ Azure AD 조직이 있는 국가 중 하나 이상이 조직에서 지원되지 
 
 디바이스에서 제외한 보안 기준 정책이 Microsoft Managed Desktop 합니다. 단계에 대한 자세한 내용은 [Use security baselines to configure Windows 10 devices in Intune을 참조하세요.](/mem/intune/protect/security-baselines) 등록하는 동안 모든 디바이스에 새 보안 기준을 Microsoft Managed Desktop 있습니다. 최신 작업 공간 **장치 - 모든** Azure AD 그룹은 등록할 때 만드는 동적 그룹이기 때문에 Microsoft Managed Desktop 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다. 
 
+### <a name="unlicensed-admins"></a>라이선스가 없는 관리자
+
+Azure AD 조직과 상호 작용할 때 "사용 권한 부족" 오류를 방지하려면 이 설정을 사용하도록 설정해야 합니다. 
+
+**준비되지 않음**
+
+**라이선스가** 없는 관리자에 대한 액세스 허용을 사용하도록 설정해야 합니다. 단계에 대한 자세한 내용은 게스트 계정에 대한 [사전 준비를 참조하세요.](/microsoft-365/managed-desktop/get-ready/guest-accounts)
 
 ### <a name="windows-apps"></a>Windows 앱
 

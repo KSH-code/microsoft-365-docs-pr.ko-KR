@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dc5710a73685c67eff17c0f281bd14e48707e60f
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 4793f3c84ddda0db7f4d67ac96cb31a6e2108c57
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964791"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327002"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>엔드포인트용 Microsoft Defender(Windows가 아닌 플랫폼)
 
@@ -35,7 +35,7 @@ ms.locfileid: "52964791"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Microsoft는 업계를 선도하는 끝점 보안 기능을 macOS, Linux, Android 및 Windows Windows Server로 확장하기 위한 여정을 해오고 있습니다.
+Microsoft는 macOS, Linux, Android 및 iOS로 Windows Windows 업계를 선도하는 엔드포인트 보안 기능을 확장하기 위한 여정을 해오고 있습니다.
 
 조직은 다양한 플랫폼 및 장치에서 위협에 직면해 있습니다. 당사의 팀은 고객이 다른 환경을 보호하고 보호할 수 있도록 *Microsoft* 뿐만 아니라 *Microsoft에서도* 보안 솔루션을 구축하기 위해 최선을 다하고 있습니다. 고객 의견을 경청하고 고객과 긴밀히 협력하여 요구 사항을 충족하는 솔루션을 구축하고 있습니다.
 
@@ -43,7 +43,7 @@ Microsoft는 업계를 선도하는 끝점 보안 기능을 macOS, Linux, Androi
 
 ## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender for Endpoint(macOS용) 
 
-MacOS의 끝점용 Microsoft Defender는 세 가지 최신 릴리스 버전의 macOS에 엔드포인트 감지 및 응답 (EDR) 기능을 제공합니다. 고객은 파트너 및 Jamf를 통해 솔루션을 Microsoft Endpoint Manager 수 있습니다. macOS의 Microsoft Office 응용 프로그램과 마찬가지로 Microsoft 자동 업데이트는 Mac 업데이트에서 끝점용 Microsoft Defender를 관리하는 데 사용됩니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
+MacOS의 끝점용 Microsoft Defender는 세 가지 최신 릴리스 버전의 macOS에 대한 바이러스 백신EDR 엔드포인트 감지 및 응답(취약성 관리) 기능을 제공합니다. 고객은 파트너 및 Jamf를 통해 솔루션을 Microsoft Endpoint Manager 수 있습니다. macOS의 Microsoft Office 응용 프로그램과 마찬가지로 Microsoft 자동 업데이트는 Mac 업데이트에서 끝점용 Microsoft Defender를 관리하는 데 사용됩니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
 
 시작하는 방법에 대한 자세한 내용은 macOS 설명서의 Endpoint용 Defender를 [참조하세요.](microsoft-defender-endpoint-mac.md)
 
@@ -56,7 +56,7 @@ MacOS의 끝점용 Microsoft Defender는 세 가지 최신 릴리스 버전의 m
 
 ## <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
-Linux의 끝점용 Microsoft Defender는 Linux 서버에 대한 예방용(AV) 기능을 제공합니다. 여기에는 에이전트를 구성 및 관리하고, 검색을 시작하고, 위협을 관리하는 전체 명령줄 환경이 포함됩니다. 가장 일반적인 여섯 가지 Linux 서버 배포인 RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS 이상 LTS, SLES 12+, 데비안 9+, Oracle Linux 7.2의 최신 버전을 지원하고 있습니다. Linux의 끝점용 Microsoft Defender는 Puppet, Ansible 또는 기존 Linux 구성 관리 도구를 사용하여 배포 및 구성할 수 있습니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux)
+Linux의 끝점용 Microsoft Defender는 Linux 서버에 대한 예방용(AV), 끝점 EDR 및 응답(취약성 관리) 기능을 제공합니다. 여기에는 에이전트를 구성 및 관리하고, 검색을 시작하고, 위협을 관리하는 전체 명령줄 환경이 포함됩니다. 가장 일반적인 여섯 가지 Linux 서버 배포인 RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS 이상 LTS, SLES 12+, 데비안 9+, Oracle Linux 7.2의 최신 버전을 지원하고 있습니다. Linux의 끝점용 Microsoft Defender는 Puppet, Ansible 또는 기존 Linux 구성 관리 도구를 사용하여 배포 및 구성할 수 있습니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux)
 
 시작하는 방법에 대한 자세한 내용은 Linux 설명서의 Microsoft Defender for Endpoint를 [참조하세요.](microsoft-defender-endpoint-linux.md)
 

@@ -16,18 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8b32ab5162e0022d9500f7ddba2fe5bbca1017e7
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 0b0f7c5a4a75fdc80509dbc02a43d28f7c93fd7c
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229578"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327050"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어를 사용하여 다음 작업을 할 수 있습니다.
+
 - 제외 또는 제외 없이 이동식 저장소에 대한 읽기, 쓰기 또는 실행 액세스 허용 또는 차단
 
 |권한 |사용 권한  |
@@ -47,6 +48,8 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 - **4.18.2105** 이상 : HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId에 대한 와일드카드 지원 추가, 특정 컴퓨터의 특정 사용자 조합, 제거 가능한 SSD(SanDisk Extreme SSD)/UAS(USB 연결된 SCSI) 지원
 
+- **4.18.2107** 이상: WPD(Windows 이동식 장치) 지원 추가(태블릿 등의 모바일 장치용)
+
 :::image type="content" source="images/powershell.png" alt-text="PowerShell 인터페이스":::
 
 > [!NOTE]
@@ -62,15 +65,14 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 **속성 이름: DescriptorIdList**
 
-1. 설명: 그룹에서 다루는 데 사용할 장치 속성을 나열합니다.
-그룹에서 다루는 데 사용할 장치 속성을 나열합니다.
+2. 설명: 그룹에서 다루는 데 사용할 장치 속성을 나열합니다.
 각 장치 속성에 대한 자세한 내용은 위의 **장치 속성** 섹션을 참조하세요.
 
-1. 옵션:
-
-    - 기본 ID
+3. 옵션:
+    - PrimaryId
         - RemovableMediaDevices
         - CdRomDevices
+        - WpdDevices
     - DeviceId
     - HardwareId
     - InstancePathId: InstancePathId는 시스템에서 장치를 고유하게 식별하는 문자열입니다(예: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&). 끝에 있는 번호(예:&**0)는** 사용 가능한 슬롯을 나타내며 디바이스에서 장치로 변경될 수 있습니다. 최상의 결과를 얻기 위해 끝에 와일드카드를 사용 합니다. 예를 들어 USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
@@ -87,7 +89,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 1. 설명: DescriptorIDList에 여러 장치 속성이 사용되는 경우 MatchType은 관계를 정의합니다.
 
-1. 옵션:
+2. 옵션:
 
     - MatchAll: DescriptorIdList의 모든 특성은 **And 관계가** 됩니다. 예를 들어 관리자가 DeviceID와 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 시스템에서 USB가 두 값을 모두 충족하는지 확인합니다.
     - MatchAny: DescriptorIdList의 특성은 **Or 관계가** 됩니다. 예를 들어 관리자가 DeviceID 및 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 USB에 **동일한 DeviceID** 또는 **InstanceID** 값이 있는 한 시스템에서 적용을 실행합니다.
@@ -100,9 +102,9 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 **속성 이름: IncludedIdList**
 
-2. 설명: 정책을 적용할 그룹입니다. 여러 그룹이 추가된 경우 정책은 해당 그룹의 모든 미디어에 적용됩니다.
+1. 설명: 정책을 적용할 그룹입니다. 여러 그룹이 추가된 경우 정책은 해당 그룹의 모든 미디어에 적용됩니다.
 
-3. 옵션: 이 인스턴스에서 그룹 ID/GUID를 사용해야 합니다.
+2. 옵션: 이 인스턴스에서 그룹 ID/GUID를 사용해야 합니다.
 
 다음 예에서는 GroupID의 사용을 보여 줍니다.
 
@@ -135,11 +137,11 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 **속성 이름: Sid**
 
-설명: 특정 사용자 또는 사용자 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 Sid를 사용할 수 있으며 Sid가 없는 항목은 컴퓨터 위에 정책을 적용하는 것입니다.
+설명: AD 개체의 로컬 컴퓨터 Sid 또는 Sid는 특정 사용자 또는 사용자 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 Sid를 사용할 수 있으며 Sid가 없는 항목은 컴퓨터 위에 정책을 적용하는 것입니다.
 
 **속성 이름: ComputerSid**
 
-설명: 특정 컴퓨터 또는 컴퓨터 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 ComputerSid를 최대 하나만 사용할 수 있으며, ComputerSid가 없는 항목은 컴퓨터에 정책을 적용하는 것입니다. 특정 사용자 및 특정 컴퓨터에 Entry를 적용하려면 Sid와 ComputerSid를 모두 동일한 항목에 추가합니다.
+설명: AD 개체의 로컬 컴퓨터 Sid 또는 Sid는 특정 컴퓨터 또는 컴퓨터 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 ComputerSid를 사용할 수 있으며 ComputerSid가 없는 항목은 컴퓨터에 정책을 적용하는 것입니다. 특정 사용자 및 특정 컴퓨터에 Entry를 적용하려면 Sid와 ComputerSid를 모두 동일한 항목에 추가합니다.
 
 **속성 이름: 옵션**
 
@@ -321,7 +323,8 @@ DeviceEvents
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면":::
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
+
 **최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?**
 
 100,000 미디어(최대 7MB) 크기의 USB 그룹 하나를 확인했습니다. 이 정책은 성능 문제 없이 Intune 및 GPO에서 모두 작동합니다.
@@ -347,4 +350,3 @@ DeviceFileEvents
 | summarize dcount(DeviceName) by PlatformVersion // check how many machines are using which platformVersion
 | order by PlatformVersion desc
 ```
-

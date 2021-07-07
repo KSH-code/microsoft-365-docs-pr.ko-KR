@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 센터에서 정책에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: ef63adc5fb4f032b6224e054950f8c40f5e78f5a
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: ab89104804fd1af781ca30ed8893bed60cd29e47
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287614"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322260"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -348,6 +348,86 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
 완료되면 RulePack 요소는 다음과 같습니다.
   
 ![RulePack 요소를 보여 주는 XML 태그](../media/fd0f31a7-c3ee-43cd-a71b-6a3813b21155.png)
+
+## <a name="validators"></a>유효성 검사기
+
+Microsoft 365 일반적으로 사용되는 SITS에 대한 함수 프로세서를 유효성 검사기로 노출합니다. 다음은 해당 목록입니다. 
+
+### <a name="list-of-validators-currently-available"></a>현재 사용할 수 있는 유효성 검사기 목록
+
+- Func_credit_card
+- Func_ssn
+- Func_unformatted_ssn
+- Func_randomized_formatted_ssn
+- Func_randomized_unformatted_ssn
+- Func_aba_routing
+- Func_south_africa_identification_number
+- Func_brazil_cpf
+- Func_iban
+- Func_brazil_cnpj
+- Func_swedish_national_identifier
+- Func_india_aadhaar
+- Func_uk_nhs_number
+- Func_Turkish_National_Id
+- Func_australian_tax_file_number
+- Func_usa_uk_passport
+- Func_canadian_sin
+- Func_formatted_itin
+- Func_unformatted_itin
+- Func_dea_number_v2
+- Func_dea_number
+- Func_japanese_my_number_personal
+- Func_japanese_my_number_corporate
+
+이렇게 하면 자체 regex를 정의하고 유효성을 검사할 수 있습니다. 유효성 검사기 사용을 위해 자체 regex를 정의하고 regex를 정의하는 동안 유효성 검사기 속성을 사용하여 원하는 함수 프로세서를 추가합니다. 일단 정의되고 나면 SIT에서 이 regex를 사용할 수 있습니다. 
+
+아래 예제에서는 신용 카드에 대해 Regex_credit_card_AdditionalDelimiters - 정규식이 정의되어 있습니다. 이 정규식은 신용 카드의 체크 아웃 함수를 사용하여 Func_credit_card 유효성을 검사합니다.
+
+```xml
+<Regex id="Regex_credit_card_AdditionalDelimiters" validators="Func_credit_card"> (?:^|[\s,;\:\(\)\[\]"'])([0-9]{4}[ -_][0-9]{4}[ -_][0-9]{4}[ -_][0-9]{4})(?:$|[\s,;\:\(\)\[\]"'])</Regex>
+<Entity id="675634eb7-edc8-4019-85dd-5a5c1f2bb085" patternsProximity="300" recommendedConfidence="85">
+<Pattern confidenceLevel="85">
+<IdMatch idRef="Regex_credit_card_AdditionalDelimiters" />
+<Any minMatches="1">
+<Match idRef="Keyword_cc_verification" />
+<Match idRef="Keyword_cc_name" />
+<Match idRef="Func_expiration_date" />
+</Any>
+</Pattern>
+</Entity>
+```
+
+Microsoft 365 두 개의 일반 유효성 검사기 제공
+
+### <a name="checksum-validator"></a>Checksum 유효성 검사기
+
+이 예제에서는 EmployeeID에 대한 regex의 유효성을 검사하기 위해 직원 ID에 대한 체크 um 유효성 검사를 정의합니다.
+
+```xml
+<Validators id="EmployeeIDChecksumValidator">
+<Validator type="Checksum">
+<Param name="Weights">2, 2, 2, 2, 2, 1</Param>
+<Param name="Mod">28</Param>
+<Param name="CheckDigit">2</Param> <!-- Check 2nd digit -->
+<Param name="AllowAlphabets">1</Param> <!— 0 if no Alphabets -->
+</Validator>
+</Validators>
+<Regex id="Regex_EmployeeID" validators="ChecksumValidator">(\d{5}[A-Z])</Regex>
+<Entity id="675634eb7-edc8-4019-85dd-5a5c1f2bb085" patternsProximity="300" recommendedConfidence="85">
+<Pattern confidenceLevel="85">
+<IdMatch idRef="Regex_EmployeeID"/>
+</Pattern>
+</Entity>
+```
+
+### <a name="date-validator"></a>날짜 유효성 검사기
+
+이 예제에서는 date의 regex 부분에 대해 날짜 유효성 검사가 정의됩니다.
+
+```xml
+<Validators id="date_validator_1"> <Validator type="DateSimple"> <Param name="Pattern">DDMMYYYY</Param> <!—supported patterns DDMMYYYY, MMDDYYYY, YYYYDDMM, YYYYMMDD, DDMMYYYY, DDMMYY, MMDDYY, YYDDMM, YYMMDD --> </Validator> </Validators>
+<Regex id="date_regex_1" validators="date_validator_1">\d{8}</Regex>
+```
   
 ## <a name="changes-for-exchange-online"></a>Exchange Online의 변경
 
@@ -356,8 +436,6 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
 규정 준수 센터에서 **[New-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage)** cmdlet을 사용하여 규칙 패키지를 업로드할 수 있습니다. (이전에 Exchange 관리 센터에서는 **ClassificationRuleCollection**` cmdlet을 사용했습니다.) 
   
 ## <a name="upload-your-rule-package"></a>규칙 패키지 업로드
-
-
 
 규칙 패키지를 업로드하려면 다음 단계를 수행합니다.
   
@@ -460,121 +538,6 @@ Microsoft 365는 검색 크롤러를 사용하여 사이트 콘텐츠에서 중�
   
 Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청할 수 없으나 사이트 모음, 목록 또는 라이브러리에 대해서는 다시 크롤링을 요청할 수 있습니다. [사이트, 라이브러리 또는 목록의 크롤링 및 다시 인덱싱을 수동으로 요청](/sharepoint/crawl-site-content)을 참조하세요.
   
-## <a name="remove-a-custom-sensitive-information-type"></a>사용자 지정 중요한 정보 유형 제거
-
-> [!NOTE]
-> 사용자 지정 중요한 정보 유형을 제거하기 전에 DLP 정책이나 Exchange 메일 흐름 규칙(전송 규칙이라고도 함)이 중요한 정보 유형을 계속 참조하지 않는 것을 확인합니다.
-
-규정 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형을 제거하는 두 가지 방법이 있습니다.
-
-- **개별 사용자 지정 중요한 정보 유형 제거**: [사용자 지정 중요한 정보 유형 수정](#modify-a-custom-sensitive-information-type)에서 설명하는 방법을 사용합니다. 사용자 지정 중요한 정보 유형을 포함하는 사용자 지정 규칙 패키지를 내보내고 XML 파일에서 중요한 정보 유형을 제거하고 기존 사용자 지정 규칙 패키지에 업데이트된 XML 파일을 다시 가져옵니다.
-
-- **사용자 지정 규칙 패키지 및 여기에 포함된 모든 사용자 지정 중요한 정보 유형 제거**: 이 방법은 이 섹션에 설명되어 있습니다.
-
-1. [규정 준수 센터 PowerShell에 연결하기](/powershell/exchange/exchange-online-powershell)
-
-2. 사용자 지정 규칙 패키지를 제거하려면 [Remove-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/remove-dlpsensitiveinformationtyperulepackage) cmdlet을 사용합니다.
-
-   ```powershell
-   Remove-DlpSensitiveInformationTypeRulePackage -Identity "RulePackageIdentity"
-   ```
-
-   Name 값(모든 언어) 또는 `RulePack id` (GUID) 값을 사용하여 규칙 패키지를 식별할 수 있습니다.
-
-   이 예제에서는 "Employee ID Custom Rule Pack"이라는 규칙 패키지를 제거합니다.
-
-   ```powershell
-   Remove-DlpSensitiveInformationTypeRulePackage -Identity "Employee ID Custom Rule Pack"
-   ```
-
-   구문과 매개 변수에 대한 자세한 내용은 [제거-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/remove-dlpsensitiveinformationtyperulepackage)를 참조하세요.
-
-3. 사용자 지정 중요한 정보 유형을 성공적으로 제거했는지 확인하려면 다음 단계를 수행합니다.
-
-   - [DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage) cmdlet을 실행하고 이 규칙 패키지가 더 이상 나열되지 않는지 확인합니다.
-
-     ```powershell
-     Get-DlpSensitiveInformationTypeRulePackage
-     ```
-
-   - [DlpSensitiveInformationType](/powershell/module/exchange/get-dlpsensitiveinformationtype) cmdlet을 실행하여 제거된 규칙 패키지에서 더 이상 중요한 정보 유형이 나열되지 않는지 확인합니다.
-
-     ```powershell
-     Get-DlpSensitiveInformationType
-     ```
-
-     사용자 지정 중요한 정보 유형의 경우 게시자 속성 값은 Microsoft Corporation이 아닌 다른 값이 됩니다.
-
-   - \<Name\>(을)를 중요한 정보 유형의 이름 값(예: 직원 ID)으로 바꾸고 [Get-DlpSensitiveInformationType](/powershell/module/exchange/get-dlpsensitiveinformationtype) cmdlet을 실행하여 중요한 정보 유형이 더 이상 나열되지 않는지 확인합니다.
-
-     ```powershell
-     Get-DlpSensitiveInformationType -Identity "<Name>"
-     ```
-
-## <a name="modify-a-custom-sensitive-information-type"></a>사용자 지정 중요한 정보 유형 수정
-
-규정 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형을 수정하려면 다음을 수행해야 합니다.
-
-1. XML 파일에 사용자 지정 중요한 정보 유형을 포함하는 기존 규칙 패키지를 내보냅니다. (또는 기존 XML 파일이 있는 경우이를 내보냅니다)
-
-2. 내보낸 XML 파일의 사용자 지정 중요한 정보 유형을 수정합니다.
-
-3. 기존 규칙 패키지에 업데이트된 XML 파일을 다시 가져옵니다.
-
-규정 준수 센터 PowerShell에 연결하려면 [규정 준수 센터 PowerShell에 연결하기](/powershell/exchange/exchange-online-powershell)를 참조하세요.
-
-### <a name="step-1-export-the-existing-rule-package-to-an-xml-file"></a>1단계: XML 파일로 기존 규칙 패키지 내보내기
-
-> [!NOTE]
-> XML 파일의 복사본이 있는 경우(예: XML 파일을 만들고 가져온 경우) 다음 단계로 건너 뛰고 XML 파일을 수정할 수 있습니다.
-
-1. 아직 모르는 경우 [Get-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/get-dlpsensitiveinformationtype) cmdlet을 실행하여 사용자 지정 규칙 패키지의 이름을 찾습니다.
-
-   ```powershell
-   Get-DlpSensitiveInformationTypeRulePackage
-   ```
-
-   > [!NOTE]
-   > 기본 제공 민감한 정보 유형이 들어있는 기본 제공 규칙 패키지의 이름은 Microsoft Rule Package입니다. 규정 준수 센터 UI에서 만든 사용자 지정 중요한 정보 유형이 포함된 규칙 패키지의 이름은 Microsoft.SCCManaged.CustomRulePack입니다.
-
-2. [DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage) cmdlet을 사용하여 사용자 지정 규칙 패키지를 변수에 저장합니다.
-
-   ```powershell
-   $rulepak = Get-DlpSensitiveInformationTypeRulePackage -Identity "RulePackageName"
-   ```
-
-   예를 들어, 규칙 패키지의 이름이 "Employee ID Custom Rule Pack"인 경우 다음 cmdlet을 실행합니다.
-
-   ```powershell
-   $rulepak = Get-DlpSensitiveInformationTypeRulePackage -Identity "Employee ID Custom Rule Pack"
-   ```
-
-3. [Set-Content](/powershell/module/microsoft.powershell.management/set-content) cmdlet을 실행하여 사용자 지정 규칙 패키지를 XML 파일로 내보냅니다.
-
-   ```powershell
-   Set-Content -Path "XMLFileAndPath" -Encoding Byte -Value $rulepak.SerializedClassificationRuleCollection
-   ```
-
-   이 예제에서는 규칙 패키지를 C:\My Documents 폴더의 ExportedRulePackage.xml 파일로 내보냅니다.
-
-   ```powershell
-   Set-Content -Path "C:\My Documents\ExportedRulePackage.xml" -Encoding Byte -Value $rulepak.SerializedClassificationRuleCollection
-   ```
-
-#### <a name="step-2-modify-the-sensitive-information-type-in-the-exported-xml-file"></a>2단계: 내보낸 XML 파일의 중요한 정보 유형 수정
-
-XML 파일의 중요한 정보 유형 및 파일의 기타 요소는 이 항목의 앞부분에 설명되어 있습니다.
-
-#### <a name="step-3-import-the-updated-xml-file-back-into-the-existing-rule-package"></a>3단계: 기존 규칙 패키지에 업데이트된 XML 파일 다시 가져오기
-
-업데이트된 XML을 기존 규칙 패키지로 가져오려면 [Set-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/set-dlpsensitiveinformationtyperulepackage) cmdlet을 사용합니다.
-
-```powershell
-Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Path "C:\My Documents\External Sensitive Info Type Rule Collection.xml" -Encoding Byte -ReadCount 0))
-```
-
-구문과 매개 변수에 대한 자세한 내용은 [설정-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/set-dlpsensitiveinformationtyperulepackage)를 참조하세요.
-
 ## <a name="reference-rule-package-xml-schema-definition"></a>참조: 규칙 패키지 XML 스키마 정의
 
 아래 태그를 복사하여 XSD 파일로 저장하면 규칙 패키지 XML 파일의 유효성 검사를 수행하는 데 사용할 수 있습니다.

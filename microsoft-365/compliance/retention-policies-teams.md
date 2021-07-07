@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: b459665d9b92705bd575a7a79a4d4d6adc2a3f68
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 5d888232d94ccd6634fc6102c26958e20d88fb4d
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256318"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322404"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -196,12 +196,6 @@ Teams 채팅 및 채널 메시지의 이 데이터가 사서함에 저장되어 
 Exchange Online에 사서함이 있는 사용자가 조직을 떠나 Microsoft 365 계정이 삭제된 경우 보존이 적용되는 해당 사용자의 채팅 메시지는 비활성 사서함에 저장됩니다. 채팅 메시지는 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요. 
 
 사용자가 Teams에 저장한 파일이 있다면 SharePoint 및 OneDrive의 경우 [해당 섹션](retention-policies-sharepoint.md#when-a-user-leaves-the-organization)을 참조하세요.
-
-## <a name="limitations"></a>제한 사항
-
-Teams에서 보존 기능을 최적화하기 위해 지속적으로 작업하고 있습니다. 그 동안에는 Teams 채널 메시지 및 채팅에 보존 정책을 사용하는 경우 다음 제한 사항을 유의하세요.
-
-- **Outlook에서 잘못된 표시 문제가 발생했습니다**. Skype 또는 Teams 위치에 대한 보존 정책을 만드는 경우 사용자가 Outlook 데스크톱 클라이언트에서 사서함 폴더의 속성을 볼 때 해당 정책 중 하나가 기본 폴더 정책으로 표시됩니다. 이것은 Outlook의 잘못된 표시 문제이며 [알려진 문제](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies)입니다. 대신 폴더에 적용되는 사서함 보존 정책이 표시됩니다. Skype 또는 Teams 보존 정책은 사용자의 사서함에 적용되지 않습니다.
 
 ## <a name="configuration-guidance"></a>구성 지침
 

@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용하도록 SharePoint OneDrive.
-ms.openlocfilehash: 08ea7c88fffebd4466d81ca18f273281ff74c06a
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 67aa69ef8505290b6fde47c4e523a09870312b97
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286552"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322236"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
->*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 지원되는 Office 파일에 [](sensitivity-labels-office-apps.md#office-file-types-supported) 대해 기본 제공 레이블 지정을 SharePoint OneDrive 사용하여 사용자가 해당 파일에서 민감도 레이블을 적용할 수 웹용 Office. [](sensitivity-labels.md) 이 기능을 사용하도록 설정하면 레이블을 적용할 수 있도록 리본 메뉴에 민감도 단추가 표시되고 상태 표시줄에 적용된 레이블 이름이 표시됩니다. 
 
@@ -241,7 +241,7 @@ InformationProtectionLabelId:8faca7b8-8d20-48a3-8ea2-0f96310a848e
 
 ## <a name="remove-encryption-for-a-labeled-document"></a>레이블이 있는 문서에 대한 암호화 제거
 
-경우에 따라 관리자가 SharePoint 저장된 문서에서 암호화를 제거해야 하는 경우가 SharePoint. 해당 문서에 [](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 대해 권한 관리 사용 권한을 부여하거나 해당 문서에 대해 모든 권한을 할당한 사용자는 Azure Rights Management 서비스에서 적용한 암호화를 Azure Information Protection에서 제거할 수 있습니다. 예를 들어 이러한 사용 권한 중 하나를 사용하는 사용자는 암호화를 적용하는 레이블을 암호화 없이 레이블로 바꿀 수 있습니다. 또는 슈퍼 [](/azure/information-protection/configure-super-users) 사용자는 파일을 다운로드하고 암호화 없이 로컬 복사본을 저장할 수 있습니다.
+경우에 따라 관리자가 SharePoint 저장된 문서에서 암호화를 제거해야 하는 경우가 SharePoint. 해당 문서에 [](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 대해 권한 관리 사용 권한을 부여하거나 해당 문서에 대해 모든 권한을 할당한 사용자는 Azure Rights Management 서비스에서 적용한 암호화를 Azure Information Protection에서 제거할 수 있습니다. 예를 들어 이러한 사용 권한 중 하나를 사용하는 사용자는 암호화를 적용하는 레이블을 암호화 없이 레이블로 바꿀 수 있습니다. 또한 [수퍼 사용자는](/azure/information-protection/configure-super-users) 파일을 다운로드하고 암호화 없이 로컬 복사본을 저장할 수 있습니다.
 
 대신 전역 관리자 또는 [](/sharepoint/sharepoint-admin-role) SharePoint 관리자가 민감도 레이블과 암호화를 모두 제거하는 [Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 실행할 수 있습니다. 이 cmdlet은 관리자가 사이트 또는 파일에 대한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행됩니다.
 
