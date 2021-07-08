@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Microsoft Viva Topics에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 4596f703f86465e4d2d37e2744493bcaef440b7b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7d8a95e924c269660e50355078f4fc9eee9bd333
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538918"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326846"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Microsoft Viva Topics 소개
 
@@ -39,11 +39,11 @@ Viva Topics는 Microsoft 365 정보를 지식으로 변환하는 데 도움이 �
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|Viva Topics에 대한 자세한 정보|[Microsoft Viva Topics 개요](topic-experiences-overview.md)|
+|Viva Topics에 대한 자세한 정보|[Viva 항목 개요](topic-experiences-overview.md)|
 |AI에서 항목을 검색하고 제안하는 방법 배우기|[Microsoft Viva Topics 검색](topic-experiences-discovery.md)|
-|항목 보안에 대한 자세한 정보|[Microsoft Viva 보안 및 개인 정보](topic-experiences-security-privacy.md)|
-|Viva Topics 다운로드 방법 알아 보기|[Microsoft Viva Topics 제품 페이지](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
-|Microsoft Tech 커뮤니티 리소스 센터의 리소스 참조|[Microsoft Viva Topics 기술 커뮤니티](https://resources.techcommunity.microsoft.com/viva-topics/)|
+|항목 보안에 대한 자세한 정보|[Viva 항목 보안 및 개인 정보](topic-experiences-security-privacy.md)|
+|Viva Topics 다운로드 방법 알아 보기|[Viva 항목 제품 페이지](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
+|Microsoft Tech 커뮤니티 리소스 센터의 리소스 참조|[Viva Topics Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/)|
 
 
 
@@ -53,7 +53,8 @@ Viva Topics는 Microsoft 365 정보를 지식으로 변환하는 데 도움이 �
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|Microsoft Viva를 사용하기 위한 계획을 시작하는 방법을 알아봅니다. |[시작](topics-adoption-getstarted.md)<br><br>|  
+|Viva 항목 사용 계획 시작 방법 학습 |[시작](topics-adoption-getstarted.md)|  
+|Viva 항목에 대한 시험 파일럿 프로그램 설정 및 실행 |[평가판 실행](trial-topics.md)|
 
 ## <a name="set-up-and-administration"></a>설정 및 관리
 
@@ -61,7 +62,7 @@ Viva Topics는 Microsoft 365 정보를 지식으로 변환하는 데 도움이 �
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|Microsoft Viva 설정 및 구성 방법 배우기|[Microsoft Viva 설정](set-up-topic-experiences.md)|
+|Viva 항목을 설정 및 구성하는 방법 학습|[Viva 항목 설정](set-up-topic-experiences.md)|
 |사용자 권한을 구성하는 방법 알아 보기|[항목 권한 관리](topic-experiences-user-permissions.md)|
 |항목을 볼 수 있는 사용자 관리 방법 배우기|[주제 가시성 관리](topic-experiences-knowledge-rules.md)|
 |항목 검색 설정을 관리하는 방법 배우기|[항목 검색 관리](topic-experiences-discovery.md)|

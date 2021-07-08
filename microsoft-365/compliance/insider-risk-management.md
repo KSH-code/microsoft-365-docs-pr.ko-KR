@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 1864c34f1e7bb17decfaeb2057dfff463a33b37c
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 0dae2d65e88c8a5ad4bc6c39e8ea540f55d0f822
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226350"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326750"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>내부자 위험 관리에 대해 Microsoft 365
 
@@ -86,7 +86,7 @@ Microsoft 365의 내부자 위험 관리를 통해 내부 위험 활동 및 규�
 
 ### <a name="alerts"></a>경고
 
-경고는 정책 조건과 일치하는 위험 지표에 의해 자동으로 생성되며 경고 [대시보드에 표시됩니다.](insider-risk-management-alerts.md) 대시보드에서는 검토가 필요한 모든 경고, 시간 경과에 따른 진행 중인 경고 및 조직의 경고 통계를 간단하게 확인할 수 있습니다. 모든 정책 알림은 다음 정보와 함께 표시되어 기존 경고 및 조치가 필요한 새 경고의 상태를 빠르게 식별할 수 있습니다.
+경고는 정책 조건과 일치하는 위험 지표에 의해 자동으로 생성되며 경고 [대시보드에 표시됩니다.](insider-risk-management-activities.md#alert-dashboard) 대시보드에서는 검토가 필요한 모든 경고, 시간 경과에 따른 진행 중인 경고 및 조직의 경고 통계를 간단하게 확인할 수 있습니다. 모든 정책 알림은 다음 정보와 함께 표시되어 기존 경고 및 조치가 필요한 새 경고의 상태를 빠르게 식별할 수 있습니다.
 
 - 상태
 - 심각도
@@ -105,6 +105,8 @@ Microsoft 365의 내부자 위험 관리를 통해 내부 위험 활동 및 규�
 ![내부자 위험 관리 평가](../media/insider-risk-triage.png)
 
 ### <a name="investigate"></a>조사
+
+사용자 활동 보고서(미리 보기)를 통해 선택한 사용자의 모든 활동을 [빠르게 조사합니다.](insider-risk-management-activities.md#user-activity-reports-preview) 이러한 보고서를 통해 조직의 조사자는 내부자 위험 관리 정책에 일시적으로 또는 명시적으로 할당하지 않고도 정의된 기간 동안 특정 사용자에 대한 활동을 검사할 수 있습니다. 사용자에 대한 활동을 검사한 후 조사자는 개별 활동을 양성으로 해지하거나, 다른 조사자들과 보고서 링크를 공유하거나 전자 메일을 보내거나, 사용자를 내부자 위험 관리 정책에 일시적으로 또는 명시적으로 할당하도록 선택할 수 있습니다.
 
 [정책](insider-risk-management-cases.md) 일치와 관련한 활동 세부 정보 및 상황의 심층 검토 및 조사가 필요한 경고에 대한 사례가 생성됩니다. **케이스 대시보드** 는 모든 활성 케이스, 시간 경과에 따른 진행 중인 케이스 및 조직의 케이스 통계에 대한 총괄적인 보기를 제공합니다. 검토자는 상태, 사례가 연 날짜 및 사례가 마지막으로 업데이트된 날짜를 통해 사례를 빠르게 필터링할 수 있습니다.
 

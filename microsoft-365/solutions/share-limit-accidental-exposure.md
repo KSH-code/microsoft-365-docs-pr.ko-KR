@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: 파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한하는 방법을 알아보세요.
-ms.openlocfilehash: aed567e503fb2c615b183c6769c69248c149742a
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 1dffa40a0c21f5f611492d5a098a98f8aaa726a5
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539050"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326990"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한
 

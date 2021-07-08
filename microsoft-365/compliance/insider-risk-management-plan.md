@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6884ec3b2bc7c24e4f7f6e62d9b24add3aeee2c0
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: a6a0ebb6ef15a6d4746d72a73feb16e53f89354e
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007348"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326786"
 ---
 # <a name="plan-for-insider-risk-management"></a>내부자 위험 관리 계획
 
@@ -42,9 +42,9 @@ ms.locfileid: "53007348"
 
 ## <a name="plan-for-the-review-and-investigation-workflow"></a>검토 및 조사 워크플로 계획
 
-[Microsoft 365](https://compliance.microsoft.com/)규정 준수 센터에서 정기적인 케이던스에 대한 경고 및 사례를 모니터링하고 검토하려면 전용 이해 관계자를 선택합니다. 내부자 위험 관리에서 사용할 수 있는 다양한 역할 그룹에 서로 다른 관련자를 할당하는 방법을 이해해야 합니다.
+의 정기적인 케이던스에 대한 경고 및 사례를 모니터링하고 검토하려면 전용 이해 [관계자를 Microsoft 365 규정 준수 센터.](https://compliance.microsoft.com/) 내부자 위험 관리에서 사용할 수 있는 다양한 역할 그룹에 서로 다른 관련자를 할당하는 방법을 이해해야 합니다.
 
-규정 준수 관리 팀의 구조에 따라 사용자를 특정 역할 그룹에 할당하여 다양한 내부 위험 관리 기능 세트를 관리할 수 있는 옵션이 있습니다. Office 365 보안 & 준수 센터에서 사용 권한 탭을 보고 역할 그룹을 관리하려면  조직 관리 역할 그룹에 할당하거나 역할 관리 역할을 할당해야 *합니다.*  내부자 위험 관리를 구성할 때 다음 역할 그룹 옵션 중 선택합니다.
+규정 준수 관리 팀의 구조에 따라 사용자를 특정 역할 그룹에 할당하여 다양한 내부 위험 관리 기능 세트를 관리할 수 있는 옵션이 있습니다. Office 365 Security  & Compliance Center에서 사용 권한 탭을 보고 역할 그룹을 관리하려면 조직 관리  역할 그룹에 할당하거나 역할 관리 역할을 할당해야 *합니다.* 내부자 위험 관리를 구성할 때 다음 역할 그룹 옵션 중 선택합니다.
 
 | **역할 그룹** | **역할 권한** |
 | :------------- | :------------------- |
@@ -56,18 +56,18 @@ ms.locfileid: "53007348"
 
 ## <a name="understand-requirements-and-dependencies"></a>요구 사항 및 종속성 이해
 
-내부자 위험 관리 정책을 구현하는 방법에 따라 적절한 Microsoft 365 라이선스 구독이 있으며 일부 솔루션 선행 조건에 대해 이해하고 계획해야 합니다.
+내부자 위험 관리 정책을 구현하는 방법에 따라 적절한 라이선스 구독을 Microsoft 365 몇 가지 솔루션 선행 조건에 대해 이해하고 계획해야 합니다.
 
-**라이선싱:** 내부자 위험 관리는 다양한 Microsoft 365 라이선스 구독의 일부로 사용할 수 있습니다. 자세한 내용은 [내부자](insider-risk-management-configure.md#subscriptions-and-licensing) 위험 관리 시작 문서를 참조하세요.
+**라이선싱:** 내부자 위험 관리는 다양한 라이선스 구독의 일부로 Microsoft 365 있습니다. 자세한 내용은 [내부자](insider-risk-management-configure.md#subscriptions-and-licensing) 위험 관리 시작 문서를 참조하세요.
 
-기존 Microsoft 365 Enterprise E5 요금제가 없는 경우 내부자 위험 관리를 시도하려면 기존 구독에 Microsoft [](https://www.microsoft.com/microsoft-365/enterprise) [365를](/office365/admin/try-or-buy-microsoft-365) 추가하거나 Microsoft 365 Enterprise E5 평가판을 등록할 수 있습니다.
+기존 Microsoft 365 Enterprise E5 요금제가 없는 경우 내부자 위험 관리를 시도하려면 기존 [](/office365/admin/try-or-buy-microsoft-365) 구독에 Microsoft 365 추가하거나 E5 평가판을 등록할 Microsoft 365 Enterprise 있습니다. [](https://www.microsoft.com/microsoft-365/enterprise)
 
 **정책 템플릿 요구 사항:** 선택한 정책 템플릿에 따라 조직에서 내부자 위험 관리를 구성하기 전에 이해하고 계획해야 하는 요구 사항이 있습니다.
 
-- 사용자 템플릿을 종료하여 데이터 도난을 사용하는 경우 조직의 사용자에 대한 해지 및 종료 날짜 정보를 주기적으로 가져오도록 Microsoft 365 HR 커넥터를 구성해야 합니다.  조직의 Microsoft 365 HR 커넥터를 구성하는 단계별 지침은 [HR 커넥터 데이터 가져오기](import-hr-data.md) 문서를 참조하세요.
+- 사용자 템플릿을 종료하여 데이터 도난을 사용하는 경우 조직의 사용자에 대한 Microsoft 365 및 종료 날짜 정보를 주기적으로 가져오도록 Microsoft 365 HR 커넥터를 구성해야 합니다.  조직의 Microsoft 365 HR 커넥터를 구성하는 단계별 지침은 [HR 커넥터 데이터 가져오기](import-hr-data.md) 문서를 참조하세요.
 - 데이터 **누수** 템플릿을 사용할 경우 조직에서 중요한 정보를 정의하고 심각도 DLP 정책 경고에 대한 내부자 위험 경고를 수신하도록 하나 이상의 DLP(데이터 손실 방지) 정책을 구성해야 합니다. 조직의 DLP 정책을 구성하는 단계별 지침은 [ DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md) 문서를 참조하세요.
 - 보안 **정책** 위반 템플릿을 사용할 때 보안 위반 경고를 가져오기 위해 Defender 보안 센터에서 내부자 위험 관리 통합에 대해 끝점용 Microsoft Defender를 사용하도록 설정해야 합니다. 내부자 위험 관리와 끝점 통합을 위해 Defender를 사용하도록 설정하는 단계별 지침은 [Microsoft Defender의](/windows/security/threat-protection/microsoft-defender-atp/advanced-features) 고급 기능 구성 문서를 참조하세요.
-- 불만이 **없는** 사용자 템플릿을 사용하는 경우 조직의 사용자에 대한 성능 또는 강하 상태 정보를 주기적으로 가져오도록 Microsoft 365 HR 커넥터를 구성해야 합니다. 조직의 Microsoft 365 HR 커넥터를 구성하는 단계별 지침은 [HR 커넥터 데이터 가져오기](import-hr-data.md) 문서를 참조하세요.
+- 불만이 **없는** 사용자 템플릿을 사용하는 경우 조직의 사용자에 대한 성능 Microsoft 365 상태 정보를 주기적으로 가져오도록 Microsoft 365 HR 커넥터를 구성해야 합니다. 조직의 Microsoft 365 HR 커넥터를 구성하는 단계별 지침은 [HR 커넥터 데이터 가져오기](import-hr-data.md) 문서를 참조하세요.
 
 ## <a name="test-with-a-small-group-of-users-in-a-production-environment"></a>프로덕션 환경에서 소규모 사용자 그룹으로 테스트
 
@@ -82,7 +82,7 @@ ms.locfileid: "53007348"
 관리 및 수정 워크플로에 포함된 조직의 관련자와 내부자 위험 관리 설명서를 공유합니다.
 
 - [내부자 위험 정책 만들기 및 관리](insider-risk-management-policies.md)
-- [내부자 위험 경고 조사](insider-risk-management-alerts.md)
+- [내부자 위험 활동 조사](insider-risk-management-activities.md)
 - [내부자 위험 사례에 대한 작업 수행](insider-risk-management-cases.md)
 - [내부자 위험 콘텐츠 탐색기를 사용하여 사례 데이터 검토](insider-risk-management-content-explorer.md)
 - [내부자 위험 알림 서식 파일 만들기](insider-risk-management-notices.md)

@@ -13,16 +13,16 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: a3bd14c379425573ee7ad57604cc4cbb706741b8
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 087cf7b21d00cef3711d8e5765161eaa98418437
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149013"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327062"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
-Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이 되는 Microsoft 365 서비스입니다.
+SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이 되는 Microsoft 365 서비스입니다.
 
 - 고급 인공 지능 및 컴퓨터 교육을 사용하여 인간의 경험을 확대
 - 콘텐츠 처리 자동화
@@ -56,7 +56,8 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |SharePoint Syntex를 사용하기 위한 계획을 시작하는 방법을 알아봅니다. |[SharePoint Syntex 채택: 시작](./adoption-getstarted.md)| 
-|조직에서 SharePoint Syntex를 사용하는 방법에 대한 아이디어를 제공하는 예제 시나리오를 참조하세요. |[Microsoft SharePoint Syntex에 대한 시나리오 및 사용 사례](./adoption-scenarios.md)| 
+|조직에서 SharePoint Syntex를 사용하는 방법에 대한 아이디어를 제공하는 예제 시나리오를 참조하세요. |[SharePoint Syntex에 대한 시나리오 및 사용 사례](./adoption-scenarios.md)| 
+|SharePoint Syntex용 평가판 파일럿 프로그램 설정 및 실행 |[평가판 실행](./trial-syntex.md)|
 |SharePoint Syntex를 사용하여 문서 프로세스를 자동화하는 방법 배우기 |[Microsoft 365 솔루션을 사용하여 계약 관리](./solution-manage-contracts-in-microsoft-365.md)| 
 
 ## <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
@@ -65,7 +66,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|SharePoint Syntex 설정 및 구성|[Microsoft SharePoint Syntex 설정](./set-up-content-understanding.md)|
+|SharePoint Syntex 설정 및 구성|[SharePoint Syntex 설정](./set-up-content-understanding.md)|
 |이미지 태그 지정 및 사용 해제 방법에 대 한 자세한 정보|[SharePoint Syntex에서 이미지 태그 지정](./image-tagging.md)|
 
 ## <a name="models"></a>모델
@@ -76,6 +77,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 |:-----|:-----|
 |모델을 사용하여 작업하는 방법 알아보기|[콘텐츠 센터 만들기](./create-a-content-center.md)<br><br>[분류자 만들기](./create-a-classifier.md)<br><br>[추출기 만들기](./create-an-extractor.md)<br><br>[양식 처리 모델 만들기](./create-a-form-processing-model.md)<br><br>[설명 유형](./explanation-types-overview.md)<br><br>[문서 이해 모델 적용](./apply-a-model.md)<br><br>[샘플 모델을 통해 문서 이해 모델에 대해 알아보기](./learn-about-document-understanding-models-through-the-sample-model.md)<br><br>|
 |모델에 보존 레이블 적용|[문서 이해 모델에 보존 레이블 적용](./apply-a-retention-label-to-a-model.md)|
+|모델에 민감도 레이블 적용|[문서 이해 모델에 민감도 레이블 적용](./apply-a-sensitivity-label-to-a-model.md)|
 |추출기를 만들 때 관리되는 메타 데이터 서비스 용어 저장소 분류 사용|[추출기를 만들 때 용어 저장소 분류 활용](./leverage-term-store-taxonomy.md)|
 |모델에 대한 데이터를 확인하는 방법 알아보기|[모델 사용량 분석](./model-usage-analytics.md)|
 |모델을 교육할 때 접근성 모드를 사용하는 방법 알아보기|[SharePoint Syntex 접근성 모드](./accessibility-mode.md)|
@@ -90,4 +92,3 @@ SharePoint Syntex 라이선스는 사용자에게 Microsoft 365 환경에서 추
 |SharePoint 라이브러리 및 목록에서 콘텐츠 형식을 더욱 일관되게 사용하는 방법을 알아봅니다.|[콘텐츠 형식을 허브로 푸시](./push-content-type-to-hub.md)|
 |사용할 수 있는 용어 저장소 보고서에 대한 자세한 정보|[용어 저장소 보고서](./term-store-analytics.md)|
 
-## <a name="see-also"></a>참고 항목

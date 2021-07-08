@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6989d8f57123a35e64b89cfe9148cae33c5758e
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 007881220c3bdf862e75464521733e64f0d6c5c0
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287506"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300139"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -912,11 +912,11 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |이름|작업|설명|
 |:-----|:-----|:-----|
 |메모가 작성됨|CreateComment|양식 소유자가 퀴즈에 메모 또는 점수를 추가합니다.|
-|양식이 만들어짐|CreateForm|양식 소유자가 새 양식을 만듭니다.|
+|양식이 만들어짐|CreateForm|양식 소유자가 새 양식을 만듭니다. <br><br>DataMode:string 속성은 속성 값이 DataSync와 같을 경우 현재 양식이 새 Excel 통합 문서 또는 기존 Excel 통합 문서와 동기화되도록 설정되어 있음을 나타냅니다. ExcelWorkbookLink:string 속성은 현재 양식과 관련된 Excel 통합 문서 ID를 나타냅니다.|
 |양식이 편집됨|EditForm|양식 소유자는 질문을 만들거나, 제거하거나, 편집하는 등 양식을 편집합니다. 속성 *EditOperation:string* 은 편집 작업의 이름을 나타냅니다. 가능한 작업은 다음과 같습니다.<br/>- CreateQuestion<br/>- CreateQuestionChoice <br/>- DeleteQuestion <br/>- DeleteQuestionChoice <br/>- DeleteFormImage <br/>- DeleteQuestionImage <br/>- UpdateQuestion <br/>- UpdateQuestionChoice <br/>- UploadFormImage/Bing/Onedrive <br/>- UploadQuestionImage <br/>- ChangeTheme <br><br>FormImage에는 사용자가 이미지를 업로드할 수 있는 양식 내의 모든 위치(예: 쿼리나 배경 테마)가 포함됩니다.|
-|양식 이동됨|MoveForm|양식 소유자가 양식을 이동합니다. <br><br>속성 DestinationUserId: 문자열은 양식을 이동한 사람의 사용자 ID를 나타냅니다. 속성 NewFormId: 문자열은 새로 복사한 양식의 새 ID입니다.|
+|양식 이동됨|MoveForm|양식 소유자가 양식을 이동합니다. <br><br>속성 DestinationUserId: 문자열은 양식을 이동한 사람의 사용자 ID를 나타냅니다. 속성 NewFormId: 문자열은 새로 복사한 양식의 새 ID입니다. IsDelegateAccess:boolean 속성은 현재 양식 이동 작업이 관리자 대리인 페이지를 통해 수행됨을 나타냅니다.|
 |양식 삭제됨|DeleteForm|양식 소유자가 양식을 삭제합니다. 여기에는 SoftDelete(삭제 옵션이 사용되고 양식은 휴지통으로 이동) 및 HardDelete(휴지통 비워짐)가 포함됩니다.|
-|양식을 확인함(디자인 타임)|ViewForm|양식 소유자가 편집할 기존 양식을 엽니다.|
+|양식을 확인함(디자인 타임)|ViewForm|양식 소유자가 편집할 기존 양식을 엽니다. <br><br>AccessDenied:boolean 속성은 권한 확인으로 인해 현재 양식의 액세스가 거부되었음을 나타냅니다. FromSummaryLink:boolean 속성은 현재 요청이 요약 링크 페이지에서 온 것임을 나타냅니다.|
 |양식을 미리 봄|PreviewForm|양식 소유자가 미리 보기 기능을 사용하여 양식을 미리 봅니다.|
 |양식을 내보냄|ExportForm|양식 소유자가 Excel로 결과를 내보냅니다. <br><br>속성 ExportFormat: 문자열은 Excel 파일이 다운로드인지 온라인인지를 나타냅니다. |
 |공유 양식 복사가 허용됨|AllowShareFormForCopy|양식 소유자는 다른 사용자와 양식을 공유하는 서식 파일 링크를 만듭니다. 이 이벤트는 양식 소유자가 서식 파일 URL을 생성하기 위해 클릭할 때 기록됩니다.|
@@ -935,10 +935,21 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |양식 피싱 상태가 업데이트됨|UpdatePhishingStatus|이 이벤트는 최종 보안 상태가 변경되었는지에 관계없이 내부 보안 상태에 대한 세부 값이 변경될 때마다 기록됩니다(예: 이제 양식이 닫힘 또는 열림). 즉, 최종 보안 상태의 변경이 없는 중복 이벤트를 볼 수 있습니다. 이 이벤트에 대한 가능한 상태 값은 다음과 같습니다.<br/>- 다운시킴 <br/>- 관리자가 다운시킴 <br/>- 관리자가 차단 해제함 <br/>- 자동 차단됨 <br/>- 자동 차단 해제됨 <br/>- 보고된 고객 <br/>- 보고된 고객 초기화|
 |사용자 피싱 상태 업데이트됨|UpdateUserPhishingStatus|이 이벤트는 사용자 보안 상태의 값이 변경되었을 때마다 기록됩니다. 사용자가 Microsoft Online Safety Team에서 다운시킨 피싱 양식을 만들었을 때 감사 레코드에서 사용자의 상태 값이 **피셔로 확인** 됩니다. 관리자가 사용자의 차단을 해제하는 경우, 사용자의 상태 값은 **정규 사용자로 재설정** 됩니다.|
 |Forms Pro 초대가 보내짐|ProInvitation|사용자가 클릭하여 Pro 평가판을 활성화합니다.|
-|양식 설정을 업데이트함|UpdateFormSetting|양식 소유자가 양식 설정을 업데이트합니다. <br><br>속성 FormSettingName: 문자열은 설정의 이름과 새 값을 나타냅니다.|
+|양식 설정을 업데이트함|UpdateFormSetting|양식 소유자는 하나 이상의 양식 설정을 업데이트합니다. <br><br>FormSettingName:string 속성은 업데이트된 중요한 설정의 이름을 나타냅니다. NewFormSettings:string 속성은 업데이트된 설정의 이름과 새 값을 나타냅니다. thankYouMessageContainsLink:boolean 속성은 업데이트된 감사에 URL 링크가 포함되어 있음을 나타냅니다.|
 |사용자 설정이 업데이트됨|UpdateUserSetting|양식 소유자가 사용자 설정을 업데이트합니다. <br><br>속성 UserSettingName: 문자열은 설정의 이름과 새 값을 나타냅니다.|
 |양식이 나열됨|ListForms|양식 소유자가 양식 목록을 보고 있습니다. <br><br>속성 ViewType: 문자열은 모든 양식, 나와 공유된 항목, 그룹 양식과 같이 양식 소유자가 보고 있는 보기 형식을 나타냅니다.|
 |응답이 제출됨|SubmitResponse|사용자가 양식에 응답을 제출합니다. <br><br>속성 IsInternalForm: 부울은 응답자가 양식 소유자와 동일한 조직 내에 있는지를 나타냅니다.|
+|누구나 응답할 수 있게 설정|AllowAnonymousResponse|양식 소유자가 해당 설정을 켜면 양식에 누구나 응답할 수 있게 됩니다.|
+|아무나 응답할 수 없게 설정|DisallowAnonymousResponse|양식 소유자가 해당 설정을 끄면 양식에 누구나 응답할 수 있게 됩니다.|
+|특정 사용자가 응답할 수 있게 설정|EnableSpecificResponse|양식 소유자가 해당 설정을 켜면 현재 조직의 특정 사용자 또는 특정 그룹만 양식에 응답할 수 있게 됩니다.|
+|특정 사용자가 응답할 수 없게 설정|DisableSpecificResponse|양식 소유자가 해당 설정을 끄면 현재 조직의 특정 사용자 또는 특정 그룹만 양식에 응답할 수 있게 됩니다.|
+|특정 응답자 추가됨|AddSpecificResponder|양식 소유자가 특정 응답자 목록에 새로운 사용자 또는 그룹을 추가합니다.|
+|특정 응답자 제거됨|RemoveSpecificResponder|양식 소유자가 특정 응답자 목록에서 사용자 또는 그룹을 제거합니다.|
+|공동 작업 사용 안 함|DisableCollaboration|양식 소유자가 양식에서 공동 작업 설정을 해제합니다.|
+|Office 365 회사 또는 학교 계정 공동 작업 사용|EnableWorkOrSchoolCollaboration|양식 소유자가 해당 설정을 켜면 Office 365 회사 또는 학교 계정이 있는 사용자가 양식을 보고 편집할 수 있게 됩니다.|
+|조직 사용자 공동 작업 사용|EnableSameOrgCollaboration|양식 소유자가 해당 설정을 켜면 현재 조직 내 사용자가 양식을 보고 편집할 수 있게 됩니다.|
+|특정 사용자 공동 작업 활성화|EnableSpecificCollaboaration|양식 소유자가 해당 설정을 켜면 현재 조직의 특정 사용자 또는 특정 그룹만 양식을 보고 편집할 수 있게 됩니다.|
+|Excel 통합 문서에 연결됨|ConnectToExcelWorkbook|양식을 Excel 통합 문서에 연결했습니다. <br><br>ExcelWorkbookLink:string 속성은 현재 양식과 관련된 Excel 통합 문서 ID를 나타냅니다.|
 ||||
 
 #### <a name="forms-activities-performed-by-coauthors-and-anonymous-responders"></a>공동 작성자 및 익명 응답자가 수행하는 Forms 활동

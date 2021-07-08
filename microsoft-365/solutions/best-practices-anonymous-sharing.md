@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: 이 문서에서는 인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례를 알아봅니다.
-ms.openlocfilehash: 7198e2d343f73299bb62ea73863cecd359d90ba2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2c89ca319ba79d6f0463cc6d244c8d91928d6e42
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538234"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327026"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례
 
@@ -43,7 +43,7 @@ ms.locfileid: "52538234"
 조직 전반에서 모든 사용자 링크의 만료 날짜를 설정하려면 다음 작업을 수행합니다.
 
 1. [SharePoint 관리 센터](https://admin.microsoft.com/sharepoint)를 엽니다.
-2. 왼쪽 탐색 창에서 **공유** 를 클릭합니다.
+2. 왼쪽 탐색에서 **정책** 을 확장한 후 **공유** 를 클릭합니다.
 3. **"모든 사용자" 링크 만료 및 사용 권한 옵션 선택** 에서 **이러한 링크는 다음 기간 내에 만료되어야 합니다** 확인란을 선택합니다.</br>
    ![SharePoint 조직 수준 모든 사용자 링크 만료 설정 스크린샷](../media/sharepoint-organization-anyone-link-expiration.png)
 4. 상자에 일 수를 입력한 다음 **저장** 을 클릭합니다.

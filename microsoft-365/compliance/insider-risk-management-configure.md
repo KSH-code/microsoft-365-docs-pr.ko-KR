@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 8bcd9577308e31eb4bd48a5b1e0ad5748ef738e9
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: f9cd78cb41a7cbe5011163d1f5734ff0b3c2261e
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256330"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326798"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -251,4 +251,4 @@ DLP 정책은 다음 정책 템플릿을 사용할 때 필요합니다.
 
 이러한 단계를 완료하여 첫 번째 내부자 위험 관리 정책을 만든 후 약 24시간 후에 활동 표시기에서 경고를 받기 시작할 수 있습니다. 이 문서의 4단계 또는 Create [a new insider risk policy의](insider-risk-management-policies.md#create-a-new-policy)단계를 사용하여 필요한 경우 추가 정책을 구성합니다.
 
-내부자 위험 경고 및 경고 대시보드 조사에 대한 자세한 내용은 [Insider risk management alerts 를 참조하세요.](insider-risk-management-alerts.md)
+내부자 위험 경고 및 경고 대시보드 조사에 대한 자세한 내용은 [Insider risk management activities 를 참조하세요.](insider-risk-management-activities.md#alert-dashboard)

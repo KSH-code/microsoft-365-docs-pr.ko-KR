@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7712ce1ee4c28352861df17c0637a94d99fa2c8a
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 19fd44633f03a7797484ecaa6a15159e24da7fbf
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226530"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326822"
 ---
 # <a name="insider-risk-management-cases"></a>내부자 위험 관리 사례
 
@@ -147,7 +147,7 @@ ms.locfileid: "53226530"
 
 활동 **탐색기** 탭을 사용하면 위험 분석가와 조사자는 위험 경고와 관련된 활동 세부 정보를 검토할 수 있습니다. 예를 들어 사례 관리 작업의 일부로 조사자 및 분석가가 사례와 관련된 모든 위험 활동을 검토하여 자세한 내용을 검토해야 할 수 있습니다. 활동 **탐색기를** 사용하여 검토자는 감지된 위험한 활동의 타임라인을 신속하게 검토하고 경고와 관련된 모든 위험 활동을 식별하고 필터링할 수 있습니다.
 
-활동 탐색기에 대한 자세한 내용은 [Insider risk management alerts 문서를 참조하세요.](insider-risk-management-alerts.md#activity-explorer-preview)
+활동 탐색기에 대한 자세한 내용은 [Insider risk management alerts 문서를 참조하세요.](insider-risk-management-activities.md#activity-explorer-preview)
 
 ### <a name="content-explorer"></a>콘텐츠 탐색기
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 조직에서 위험 평가를 간소화하고 자동화하는 데 도움을 주며 위험을 해결하기 위한 권장 조치를 제안합니다.
-ms.openlocfilehash: cc1919f63716dfa79274a5cf7016ef07f2f36f92
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 536a1c02a820b0ea36fc4fe39ca1d0d31f7bc994
+ms.sourcegitcommit: 48e50a5445c63d397197af2bb7549cbec0bce790
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53148953"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53330944"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft 준수 관리자
 
@@ -35,7 +35,7 @@ ms.locfileid: "53148953"
 준수 점수의 공개 미리 보기로 시작된 기능은 향상된 준수 관리 기능과 더 쉽게 사용할 수 있는 중앙 집중식 도구로 발전했습니다.  GA 릴리스는 규정 준수 활동을 확장하는 데 도움이 하도록 미리 구축된 평가의 더 큰 컬렉션을 제공합니다.
 
 **GA 릴리스에 대해 자세히 알아보시다.**
-- 자주 [묻는 질문은](compliance-manager-faq.md) 진화된 내용을 자세히 설명하는 것입니다.
+- 자주 [묻는 질문은](compliance-manager-faq.yml) 진화된 내용을 자세히 설명하는 것입니다.
 - 이 블로그 게시물의 GA 기능 [향상에 대해 읽어 읽습니다.](https://aka.ms/compliancemanager/GAblog)
 
 아래 비디오를 시청하여 준수 관리자가 조직에서 규정 준수를 관리하는 방법을 간소화하는 방법을 알아보세요.
