@@ -246,7 +246,8 @@
 #### [공격 노출 영역 감소에 감사 모드 사용](audit-windows-defender.md)
 
 ### 차세대 보호
-#### [Microsoft Defender 바이러스 백신 개요](microsoft-defender-antivirus-in-windows-10.md)
+#### [차세대 보호 개요](next-generation-protection.md)
+##### [Microsoft Defender 바이러스 백신 개요](microsoft-defender-antivirus-windows.md)
 ##### [Windows Server의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md)
 ##### [함께 활용: Microsoft Defender 바이러스 백신 및 Microsoft Defender for Endpoint](why-use-microsoft-defender-antivirus.md)
 ##### [함께 활용: Microsoft Defender 바이러스 백신 및 Office 365](office-365-microsoft-defender-antivirus.md)

@@ -54,8 +54,8 @@
           href: insider-risk-management-settings.md
         - name: 내부자 위험 정책 만들기 및 관리
           href: insider-risk-management-policies.md
-        - name: 내부자 위험 경고 조사
-          href: insider-risk-management-alerts.md
+        - name: 내부자 위험 활동 조사
+          href: insider-risk-management-activities.md
         - name: 내부자 위험 사례에 대한 작업 수행
           href: insider-risk-management-cases.md
         - name: 내부자 위험 감사 로그를 사용하여 활동 검토
@@ -118,6 +118,12 @@
           href: create-a-custom-sensitive-information-type.md
         - name: 사용자 지정 중요한 정보 유형 만들기 - PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
+        - name: 사용자 지정 중요한 정보 유형 제거 - PowerShell
+          href: sit-remove-a-custom-sensitive-information-type-in-powershell.md
+        - name: 사용자 지정 중요한 정보 유형 수정 - PowerShell
+          href: sit-modify-a-custom-sensitive-information-type-in-powershell.md
+        - name: 사용자 지정 중요한 정보 유형 필터 참조
+          href: sit-custom-sit-filters.md
         - name: 키워드 사전 만들기
           href: create-a-keyword-dictionary.md
         - name: 키워드 사전 수정
@@ -915,7 +921,7 @@
         - name: 준수 구성 분석기 도구
           href: compliance-manager-mcca.md
         - name: 질문과 대답(FAQ)
-          href: compliance-manager-faq.md
+          href: compliance-manager-faq.yml
         - name: 준수 관리자(기본)
           href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Microsoft 서비스 보안 포털

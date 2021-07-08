@@ -46,6 +46,8 @@
       href: adoption-getstarted.md
     - name: 사용 시나리오 및 사용 사례
       href: adoption-scenarios.md
+    - name: 평가판 실행
+      href: trial-syntex.md
     - name: Microsoft 365에서 계약 관리
       items:
         - name: 개요
