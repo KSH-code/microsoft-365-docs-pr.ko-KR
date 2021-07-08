@@ -48,3 +48,5 @@
   items:
     - name: 채택 추진 시작
       href: topics-adoption-getstarted.md
+    - name: 평가판 실행
+      href: trial-topics.md
