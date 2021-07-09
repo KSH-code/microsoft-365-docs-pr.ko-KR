@@ -19,12 +19,12 @@ ms.assetid: ''
 description: eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 Office 365 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28c092cefbdd8add46d3f36aa118e230d16a918a
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 0b118a97df765321704a995905de797e06a60108
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822241"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339421"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
@@ -99,7 +99,7 @@ SPO 위치를 열고 이 파일이 실제로 해당 위치에 없는지 확인�
 권장되는 해결 방법은 사이트를 수동으로 다시 인덱스하거나 사이트가 자동 백그라운드 프로세스에 의해 다시 인덱스될 때까지 기다리는 것입니다.
 
 
-## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artefact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>오류/문제: 폴더 또는 자체적으로 다운로드할 수 없는 다른 아트 페이지이기 때문에 이 검색 결과가 다운로드되지 않은 경우 폴더 또는 라이브러리의 항목이 다운로드됩니다.
+## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artifact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>오류/문제: 폴더 또는 자체적으로 다운로드할 수 없는 다른 아티팩트이기 때문에 이 검색 결과가 다운로드되지 않은 경우 폴더 또는 라이브러리의 항목이 다운로드됩니다.
 
 온라인 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 SharePoint 오류가 표시될 수 있습니다. 즉, 인덱스에 보고된 항목을 시도하고 내보내려고 했지만 내보낼 수 없는 폴더로 표시되었습니다. 오류에서 설명한 것 처럼 폴더 항목을 내보낼 수 없지만 해당 콘텐츠를 내보낼 수 있습니다.
 
@@ -122,7 +122,7 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 이
 
 ## <a name="errorissue-exporting-search-results-is-slow"></a>오류/문제: 검색 결과 내보내기 속도가 느립니다.
 
-보안 및 준수 센터에서 eDiscovery 또는 콘텐츠 검색에서 검색 결과를 내보낼 때 다운로드 시간이 예상보다 오래 소요됩니다.  다운로드할 데이터의 양을 확인하고 내보내기 속도를 늘일 수 있습니다.
+핵심 eDiscovery 또는 콘텐츠 검색에서 검색 결과를 내보낼 Microsoft 365 규정 준수 센터 다운로드 시간이 예상보다 오래 걸러야 합니다.  다운로드할 데이터의 양을 확인하고 내보내기 속도를 늘일 수 있습니다.
 
 ### <a name="resolution"></a>해결 방법
 
@@ -145,6 +145,16 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 이
 5. 콘텐츠를 내보낼 디렉터리에 있는 trace.log 파일을 확인하여 오류를 확인합니다.
 
 6. 그래도 문제가 있는 경우 많은 결과 집합을 작은 검색으로 반환하는 검색을 나중을 고려합니다. 예를 들어 검색 쿼리에서 날짜 범위를 사용하여 더 빠르게 다운로드할 수 있는 더 작은 결과 집합을 반환할 수 있습니다.
+
+## <a name="errorissue-export-process-not-progressing-or-is-stuck"></a>오류/문제: 내보내기 프로세스가 진행 중이 아니거나 문제가 발생했습니다.
+
+핵심 eDiscovery 또는 콘텐츠 검색에서 검색 결과를 내보낼 Microsoft 365 규정 준수 센터 내보내기 프로세스가 진행 중이 아니거나 빨라진 것으로 나타납니다.
+
+### <a name="resolution"></a>해결 방법
+
+1. 필요한 경우 검색을 다시합니다. 검색이 7일 이상 지난 경우 검색을 다시 시작해야 합니다.
+
+2. 내보내기 작업을 다시 시작합니다.
 
 ## <a name="errorissue-internal-server-error-500-occurred"></a>오류/문제: "내부 서버 오류(500)가 발생했습니다."
 
@@ -222,7 +232,7 @@ eDiscovery 내보내기 도구를 사용하여 검색 결과를 다운로드할 
 
 ### <a name="resolution"></a>해결 방법
 
-이는 클라이언트 쪽 문제로, 이를 수정하기 위해 다음 단계를 시도하세요.
+이는 클라이언트 쪽 문제입니다. 이를 수정하기 위해 다음 단계를 따르세요.
 
 1. 다른 클라이언트/컴퓨터로 다운로드해 하세요.
 

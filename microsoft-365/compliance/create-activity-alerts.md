@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보안 및 준수 센터에서 활동 & 추가 및 관리하여 사용자가 Microsoft 365 수행할 때 전자 메일 알림을 보낼 수 있도록 합니다.
-ms.openlocfilehash: d0daa9249a8ea69c376ef7bbc8b7a90253e411db
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b48093de66fdefa9a298b6cdc0f0324ee720fbbf
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227166"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341607"
 ---
 # <a name="create-activity-alerts"></a>활동 알림 만들기
 
@@ -46,7 +46,7 @@ ms.locfileid: "53227166"
 
 ## <a name="create-an-activity-alert"></a>활동 경고 만들기
 
-1. [https://protection.office.com/managealerts](https://protection.office.com/managealerts)으로 이동합니다.
+1. <https://compliance.microsoft.com/managealerts>으로 이동합니다.
 
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "53227166"
 
 전자 메일 알림을 보내지 못하게 활동 알림을 해제할 수 있습니다. 활동 경고를 끄면 조직의 활동 경고 목록에 계속 표시되고 해당 속성을 볼 수 있습니다.
 
-1. 으로 [https://protection.office.com/managealerts](https://protection.office.com/managealerts) 이동
+1. <https://compliance.microsoft.com/managealerts>으로 이동합니다.
 
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 

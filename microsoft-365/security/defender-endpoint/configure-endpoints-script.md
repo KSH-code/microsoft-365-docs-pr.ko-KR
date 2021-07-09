@@ -1,6 +1,6 @@
 ---
 title: 로컬 스크립트를 사용하여 Windows 10 장치 온보딩
-description: 로컬 스크립트를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보딩합니다.
+description: 로컬 스크립트를 사용하여 디바이스를 서비스에 온보딩할 수 있도록 디바이스에 구성 패키지를 배포합니다.
 keywords: 로컬 스크립트를 사용하여 장치 구성, 장치 관리, 끝점 장치용 Microsoft Defender 구성
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2510fb1a187bbe136669e11bc73103438b51d811
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e15a02753c7a1b346021a4351af24b8fd28315da
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842173"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339649"
 ---
-# <a name="onboard-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 사용하여 Windows 10 장치 온보딩
+# <a name="onboard-the-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 Windows 10 장치 온보딩
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -47,9 +47,9 @@ ms.locfileid: "52842173"
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다. 
 
 
-1.  서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 에서 패키지를 얻을 [Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
+1.  서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. Defender 포털에서 [패키지를 Microsoft 365 있습니다.](https://security.microsoft.com/)
 
-    1. 탐색 창에서 **온보 설정**  >  **선택합니다.**
+    1. 탐색 창에서 **끝점 설정**  >  **관리**  >    >  **온보더링** 을 선택합니다.
 
     1. 운영 Windows 10 로 실행을 선택합니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "52842173"
 
     1.  **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-        ![관리자 권한으로 실행을 설정하는 창 시작 메뉴](images/run-as-admin.png)
+        ![관리자 시작 메뉴 실행을 설정하는 창 창](images/run-as-admin.png)
 
 4.  스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPLocalOnboardingScript.cmd를 입력합니다.*
 
@@ -79,7 +79,7 @@ ms.locfileid: "52842173"
 > 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 [끝점용 Microsoft Defender](run-detection-test.md)끝점에서 검색 테스트 실행을 참조하세요.
 
 ## <a name="configure-sample-collection-settings"></a>샘플 수집 설정 구성
-각 디바이스에 대해 심층 분석을 위해 파일을 제출하기 위해 요청을 할 때 장치에서 샘플을 수집할 수 있는지 여부를 Microsoft Defender 보안 센터 구성 값을 설정할 수 있습니다.
+각 디바이스에 대해 심층 분석을 위해 파일을 제출하기 위해 요청을 할 때 장치에서 샘플을 수집할 수 있는지 여부를 Microsoft 365 Defender 구성 값을 설정할 수 있습니다.
 
 *regedit를* 사용하거나 .reg 파일을 만들고 실행하여 디바이스에서 샘플 공유 설정을 수동으로 *구성할 수* 있습니다.  
 
@@ -105,9 +105,9 @@ Value: 0 or 1
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-1. 에서 오프보더 [패키지를 Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
+1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
 
-    1. 탐색 창에서 **오프보더 설정**  >  **선택합니다.**
+    1. 탐색 창에서 **끝점 설정** 관리  >    >  오프보링  > **을 선택합니다.**
 
     1. 운영 Windows 10 로 실행을 선택합니다.
 
@@ -123,7 +123,7 @@ Value: 0 or 1
 
     1.  **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-        ![관리자 권한으로 실행을 설정하는 창 시작 메뉴](images/run-as-admin.png)
+        ![관리자 시작 메뉴 실행을 설정하는 창 창](images/run-as-admin.png)
 
 4.  스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd를 입력합니다.*
 
@@ -139,9 +139,9 @@ Value: 0 or 1
 모니터링은 포털에서 직접 수행하거나 다른 배포 도구를 사용하여 수행될 수도 있습니다.
 
 ### <a name="monitor-devices-using-the-portal"></a>포털을 사용하여 장치 모니터링
-1. 다음으로 Microsoft Defender 보안 센터.
+1. 검색 포털로 Microsoft 365 Defender.
 
-2. 장치 **목록을 클릭합니다.**
+2. 장치 **인벤토리 를 클릭합니다.**
 
 3. 장치가 나타나는지 확인
 

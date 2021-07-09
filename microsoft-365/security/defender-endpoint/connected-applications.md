@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 06ef716e9deee7b20e8615bd22c93130ee18b77f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4b212acdf4bdf8fa53ef00763463190e204fc1ed
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845585"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339169"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 연결된 응용 프로그램
 
@@ -42,7 +42,7 @@ ms.locfileid: "52845585"
 연결된 응용 프로그램에서 [](/microsoft-365/security/defender-endpoint/apis-intro) API를 사용하려면 다음 단계를 따라야 합니다.
  
 ## <a name="access-the-connected-application-page"></a>연결된 응용 프로그램 페이지에 액세스
-왼쪽 탐색 메뉴에서 **파트너**& API 연결된 AAD 응용  >  **프로그램을 선택합니다.**
+왼쪽 탐색 메뉴에서 **끝점** 파트너 및  >  **API** 연결된 응용  >  **프로그램을 선택합니다.**
 
  
 ## <a name="view-connected-application-details"></a>연결된 응용 프로그램 세부 정보 보기

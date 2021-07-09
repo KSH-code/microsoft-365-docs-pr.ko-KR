@@ -11,7 +11,7 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - m365-security-compliance
-- m365solution-aed
+- m365solution-ediscovery
 - m365initiative-compliance
 - m365solution-overview
 localization_priority: Normal
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 및 비즈니스용 Skype 대화와 같은 여러 위치에서 찾은 콘텐츠를 검색하고 내보내는 데 사용할 수 있는 세 가지 eDiscovery 도구가 있습니다. 핵심 eDiscovery 및 Advanced eDiscovery 조사를 관리하는 데 도움이 되는 다양한 추가 기능을 제공합니다.
-ms.openlocfilehash: dc332e1a399588e4a1e969af45da6cff92008461
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: a62c8a53081a79e4afd98c82bfaca486a6155a6b
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256355"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341715"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>Microsoft 365
 

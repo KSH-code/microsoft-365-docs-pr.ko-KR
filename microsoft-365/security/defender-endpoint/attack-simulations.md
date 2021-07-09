@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/20/2018
 ms.technology: mde
-ms.openlocfilehash: 6ecbf98c81b1f68e42f39269809592fb446e6036
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9a56167f0025ec42f4fd441886f83026c1bf23d6
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934384"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339541"
 ---
 # <a name="experience-microsoft-defender-for-endpoint-through-simulated-attacks"></a>시뮬레이트된 공격을 통해 끝점에 대한 Microsoft Defender 경험 
 
@@ -37,7 +37,7 @@ ms.locfileid: "51934384"
 
 >[!TIP]
 >- 끝점용 Microsoft Defender의 최신 향상된 기능: [엔드포인트용 Defender의](https://cloudblogs.microsoft.com/microsoftsecure/2018/11/15/whats-new-in-windows-defender-atp/)새로운 기능.
->- Endpoint용 Defender는 최근 MITRE 평가에서 업계를 선도하는 광학 및 감지 기능을 보여 주었다. 읽기: [MITRE ATT의 인사이트&CK 기반 평가.](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)
+>- Endpoint용 Defender는 최근 MITRE 평가에서 업계를 선도하는 광학 및 감지 기능을 보여 주었다. 읽기: [Insights MITRE ATT&평가에서 읽어 들이기](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)
 
 서비스에 여러 장치를 온보딩하기 전에 Endpoint용 Defender를 경험할 수 있습니다. 이를 위해 몇 가지 테스트 장치에서 제어된 공격 시뮬레이션을 실행할 수 있습니다. 시뮬레이션된 공격을 실행한 후 Endpoint용 Defender가 악의적인 활동을 어떻게 표면화하는지 검토하고 이를 통해 효율적인 대응을 가능하게 하는 방법을 탐색할 수 있습니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "51934384"
 
 ## <a name="run-a-simulation"></a>시뮬레이션 실행
 
-1. 도움말 **시뮬레이션**& 자습서 에서 시뮬레이션할 사용 가능한 공격 시나리오를  >  선택합니다.
+1. **Endpoints** Evaluation & 자습서 자습서 & 시뮬레이션 에서 시뮬레이션할 사용 가능한 공격 시나리오를  >    >  선택합니다.
 
    - **시나리오 1: 문서 드롭 백도어** - 사회적으로 엔지니어링된 Lure 문서의 배달을 시뮬레이트합니다. 이 문서는 공격자가 제어할 수 있는 특수하게 만들어진 백도어를 실행합니다.
 

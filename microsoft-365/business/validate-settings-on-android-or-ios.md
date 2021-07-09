@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
 description: Android 또는 iOS 장치에서 Microsoft 365 Business Premium 앱 보호 설정의 유효성을 검사하는 방법을 확인합니다.
-ms.openlocfilehash: a0a4a6e6cff59f66a506929e97c99d361472a68b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 43e74b548711550090021c39096b1647cee9e039
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578070"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339333"
 ---
 # <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 유효성 검사
 
@@ -42,7 +42,7 @@ ms.locfileid: "51578070"
   
 먼저 정책이 유효성을 검사할 앱에 적용해야 합니다.
   
-1. Microsoft 365 Business Premium [관리 센터에서](https://portal.office.com)정책 편집  \> **정책으로 이동하세요.**
+1. Microsoft 365 Business Premium [관리 센터에서](https://admin.microsoft.com)정책 편집  \> **정책으로 이동하세요.**
     
 2. 설치 시 만든 설정에 **대해 Android용** 응용 프로그램 정책 또는 만든 다른 정책을 선택하고 응용 프로그램에 Outlook 확인합니다. 
     
@@ -131,7 +131,7 @@ ms.locfileid: "51578070"
   
 먼저 정책이 유효성을 검사할 앱에 적용해야 합니다.
   
-1. Microsoft 365 Business Premium [관리 센터에서](https://portal.office.com)정책 편집  \> **정책으로 이동하세요.**
+1. Microsoft 365 Business Premium [관리 센터에서](https://admin.microsoft.com)정책 편집  \> **정책으로 이동하세요.**
     
 2. 설치 시 만든 설정에 **대한 iOS용** 응용 프로그램 정책 또는 만든 다른 정책을 선택하고 응용 프로그램에 대해 Outlook 확인합니다. 
     

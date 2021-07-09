@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7fd9ec25c21b2d70238bd5b0d6b58b60731088ea
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 2448b95e5c5c5da25a916b659f6b49d04ba8f0c1
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845477"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339577"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -81,7 +81,7 @@ PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 �
 
 ## <a name="autoresolve-remediated-alerts"></a>수정된 경고 자동 해결
 
-Windows 10 버전 1809 이상에서 만들어진 테넌트의 경우 자동화된 분석 결과 상태가 "위협 없음" 또는 "수정"인 경고를 해결하도록 기본적으로 자동화된 조사 및 수정 기능이 구성됩니다.  경고를 자동으로 해결하지 못하게 하려는 경우 기능을 수동으로 해제해야 합니다.
+테넌트가 생성되거나 Windows 10, 버전 1809 자동화된 분석 결과 상태가 "위협 없음" 또는 "수정된 위협 없음"인 경고를 해결하도록 기본적으로 자동화된 조사 및 수정 기능이 구성됩니다.  경고를 자동으로 해결하지 못하게 하려는 경우 기능을 수동으로 해제해야 합니다.
 
 > [!TIP]
 > 해당 버전 이전에 만든 테넌트의 경우 고급 기능 페이지에서 이 기능을 수동으로 [켜야](https://securitycenter.windows.com/preferences2/integration) 합니다.
@@ -102,7 +102,7 @@ Windows 10 버전 1809 이상에서 만들어진 테넌트의 경우 자동화�
 
 파일 허용 **또는 차단을** 설정하려면
 
-1. 탐색 창에서 고급 **기능 설정**  >    >  **허용 또는 차단 을 선택합니다.**
+1. 탐색 창에서 끝점 **일반 설정** 허용 또는 차단 파일을  >    >    >    >  **선택합니다.**
 
 1. 설정과 끄기 **간에 설정을** **전환합니다.**
 
@@ -160,9 +160,9 @@ Id에 대한 Microsoft Defender와의 통합을 통해 다른 Microsoft Id 보�
 
 ## <a name="office-365-threat-intelligence-connection"></a>Office 365 위협 인텔리전스 연결
 
-이 기능은 E5 또는 위협 인텔리전스 추가 Office 365 활성화된 경우만 사용할 수 있습니다. 자세한 내용은 E5 제품 Office 365 Enterprise 참조하세요.
+이 기능은 활성 사용자 또는 위협 인텔리전스 추가 Office 365 E5 있는 경우만 사용할 수 있습니다. 자세한 내용은 E5 제품 Office 365 Enterprise 참조하세요.
 
-이 기능을 켜면 Microsoft Defender의 데이터를 통합하여 Office 365 Microsoft Defender 보안 센터 사서함 및 Microsoft Defender 보안 센터 장치 전반에 걸쳐 Office 365 보안 조사를 Windows 있습니다.
+이 기능을 켜면 Microsoft Defender의 데이터를 통합하여 Office 365 Microsoft 365 Defender 사서함 및 Office 365 장치 전반에 걸쳐 Windows 수 있습니다.
 
 > [!NOTE]
 > 이 기능을 사용하려면 적절한 라이선스가 필요합니다.
@@ -180,7 +180,7 @@ Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 �
 이 설정을 사용하도록 설정하면 끝점용 Defender 신호가 클라우드 응용 Microsoft Cloud App Security 더 심층적으로 표시될 수 있습니다. 전달된 데이터는 사용자 데이터와 동일한 위치에 저장되고 Cloud App Security 처리됩니다.
 
 > [!NOTE]
-> 이 기능은 Enterprise Mobility + Security 버전 1709(Windows 10 OS 빌드 16299.1085(KB4493441의 OS 빌드 16299.1085)에서 Windows 10. 버전 1803(OS 빌드 17134.704 [및 KB4493464](https://support.microsoft.com/help/4493464)), Windows 10, 버전 1809(OS 빌드 17763.379 및 [KB4489899)](https://support.microsoft.com/help/4489899)이상 Windows 10 버전. [](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) [](https://support.microsoft.com/help/4493441)
+> 이 기능은 E5 라이선스와 함께 사용할 수 [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) 실행 중인 Windows 10. 버전 1709(OS 빌드 16299.1085(KB4493441 ), Windows 10, 버전 1803(OS 빌드 17134.704 및 [KB4493464](https://support.microsoft.com/help/4493464)), Windows 10, 버전 1809(OS 빌드 17763.379 및 [KB4489899](https://support.microsoft.com/help/4489899)) 이상 Windows 10 버전. [](https://support.microsoft.com/help/4493441)
 
 ## <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 

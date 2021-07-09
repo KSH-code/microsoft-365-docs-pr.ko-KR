@@ -16,18 +16,22 @@ ms.custom:
 search.appverid:
 - MET150
 description: 비즈니스 지원 프로그램에 대해 알아보고 비즈니스용 비즈니스용 앱에 대한 향상된 도움말 및 사용법을 통해 조직에 도움이 되는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 1df0be7d53f01b83e76dd70741d043f0a6a1e0e4
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 3715fcfcc24c647266bab36a764b3c8711e08bdd
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924590"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338604"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Microsoft 365용 비즈니스 도우미
 
 중소기업 전문가의 전문가의 조언을 통해 구독을 가장 잘 이용하세요.
 
  비즈니스 Microsoft 365 비즈니스 지원은 사용자가 5명 미만인 기업을 위해 고안되어 온보드에서 일상적으로 사용할 수 있는 비즈니스 성장에 따라 사용자와 직원에게 비즈니스 성장에 대한 일상적인 액세스를 제공합니다.
+
+### <a name="watch-business-assist-for-microsoft-365"></a>Watch: Business Assist for Microsoft 365
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFTQl]
 
 ## <a name="business-assist-services"></a>비즈니스 지원 서비스
 
@@ -51,7 +55,7 @@ ms.locfileid: "52924590"
 
 자격이 있는 조직만 비즈니스 지원 구입 옵션을 볼 수 있습니다. 비즈니스 지원 비용은 사용자당 월 5달러입니다. 다음은 비즈니스 지원을 구입하는 방법입니다.
 
-1. Microsoft 365 관리 센터의 간소화된 보기에서 구독 탭으로  이동하여 제품 **추가를 선택합니다.**
+1. 구독의 간소화된 보기에서 Microsoft 365 관리 센터 **탭으로** 이동하여 제품 **추가를 선택합니다.**
 
 2. 서비스 구매 페이지에서 비즈니스  지원에 대한 세부 **Microsoft 365** 선택하고 구매를 완료합니다.
 

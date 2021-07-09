@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Microsoft 365 전역 관리자가 이름이 변경될 때 사용자의 전자 메일 주소와 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: fdba2191449bc3ea5aae5b5bde73fe5294b1f9d3
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 3215044f94d3b4e77860434ab28eed8a36754f12
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228366"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341023"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
@@ -40,7 +40,7 @@ ms.locfileid: "53228366"
 
 이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
-다음 단계를 수행하려면 [전역 관리자](about-admin-roles.md)여야 합니다.
+이 단계를 수행하려면 [전역 관리자](about-admin-roles.md)여야 합니다.
 
 ## <a name="change-a-users-email-address"></a>사용자의 전자 메일 주소 변경
 
@@ -64,9 +64,9 @@ ms.locfileid: "53228366"
 
 1. 사용자 이름을 선택한 다음 **계정** 탭에서 **사용자 이름 관리** 를 선택합니다.
 
-1. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Microsoft 365에 본인의 도메인을 추가한 경우 드롭다운 목록을 사용하여 새로운 전자 메일 별칭의 도메인을 선택합니다.
+1. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Microsoft 365에 본인의 도메인을 추가한 경우 드롭다운 목록을 사용하여 새로운 전자 메일 별칭의 도메인을 선택합니다. [도메인 추가 방법을 알아보세요](../setup/add-domain.md).
 
-1. **변경 내용 저장** 을 선택합니다.
+1. **변경 사항 저장** 을 선택합니다.
 
 > [!IMPORTANT]
 > 오류 메시지가 표시되는 경우 [오류 메시지 해결](#resolve-error-messages)을 참조하세요.
@@ -118,7 +118,7 @@ ms.locfileid: "53228366"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
 
 ::: moniker-end
 
@@ -177,6 +177,7 @@ Windows Server 2003 및 이전 버전의 Active Directory에서 사용자 이름
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[관리자: 한 명 이상의 사용자에 대한 암호 재설정](reset-passwords.md)(문서)\
-[사용자에게 다른 전자 메일 주소 추가](../email/add-another-email-alias-for-a-user.md)(문서)\
-[공유 사서함 만들기](../email/create-a-shared-mailbox.md)(문서)
+[도메인 추가](../setup/add-domain.md)
+[관리자: 한 명 이상의 사용자에 대한 암호 재설정](reset-passwords.md)
+[사용자에게 다른 전자 메일 주소 추가](../email/add-another-email-alias-for-a-user.md)
+[공유 사서함 생성](../email/create-a-shared-mailbox.md)

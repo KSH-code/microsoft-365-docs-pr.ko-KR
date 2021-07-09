@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 도메인 이름을 구입하고 도메인에 tom@fourthcoffee.com 전자 메일 주소와 같은 친숙한 전자 메일 주소로 Microsoft 365.
-ms.openlocfilehash: 1a248cb67bab5d0467cad35dc5be8023b8013a12
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 7fb113c0efd6462c4c703956a20c390f2d555d5f
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635525"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341463"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>사용자 지정 도메인을 사용하도록 전자 메일 주소 변경
 
@@ -56,35 +56,37 @@ Microsoft 365 전자 메일 주소에는 .onmicrosoft.com 포함됩니다(tom@fo
 
 설정하는 동안 도메인의 MX 레코드를 업데이트하여 도메인의 Microsoft 365 변경하면 해당 도메인으로 전송된 모든 전자 메일이 Microsoft 365. MX 레코드를 변경하기 전에 도메인에 전자 메일을 Microsoft 365 사용자를 추가하고 사서함을 만들어야 합니다. 도메인의 모든 사용자가 전자 메일을 전자 메일로 이동하지 Microsoft 365? 대신 몇 가지 전자 [메일 Microsoft 365 사용하여 파일럿을 수행하기](../misc/pilot-microsoft-365-from-my-custom-domain.md)위한 단계를 취할 수 있습니다.
   
-## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용하여 사용자 지정 도메인을 사용하려면 전자 메일 주소 변경
+## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>전자 메일 주소를 변경하여 사용자 지정 도메인을 Microsoft 365 관리 센터
 
-이러한 단계를 수행하려면 전역 관리자 계정이 있어야 합니다. 
+다음 단계를 수행하려면 전역 관리자여야 합니다.
 
 ::: moniker range="o365-worldwide"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
-   
+
 ::: moniker range="o365-germany"
-    
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>의 관리 센터로 이동합니다. 
-    
+
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>의 관리 센터로 이동합니다.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 의 관리 센터로 이동하세요. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a> 
+1. 의 관리 센터로 이동하세요. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>
 
-::: moniker-end 
+::: moniker-end
 
-2. 설치 도메인   >  **페이지로** 이동합니다. 
+2. 설치 도메인   >  **페이지로** 이동합니다.
 
 3. **도메인** 페이지에서 **도메인 추가** 를 선택합니다.
-    
-4. 단계를 따라 도메인 소유 여부를 확인하고 전자 메일 주소를 변경합니다.
-    
-You'll be guided to get everything set up correctly with your domain in Microsoft 365.
+
+4. 단계에 따라 도메인을 소유하고 있는지 확인할 수 있습니다. You'll be guided to get everything set up correctly with your domain in Microsoft 365.
+
+5. 사용자 활성  >  **사용자로 이동 합니다.**
+
+6. 사용자를 선택하여 사용자 이름을 편집하고 방금 추가한 도메인으로 변경합니다.
 
 > [!NOTE]
 > Exchange 라이선스를 사용하지 않는 경우 도메인을 사용하여 Microsoft 365 테넌트에서 전자 메일을 보내거나 받을 수 없습니다.

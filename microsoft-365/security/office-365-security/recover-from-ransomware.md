@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 473591a02b78043153d505dda6dd7ef5ac6e3961
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 6c3664cb2a60a7173e345de4abaddefefea6e2b1
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789054"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341439"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -49,7 +49,7 @@ ms.locfileid: "52789054"
 
 백업이 없는 경우 또는 백업이 랜섬웨어의 영향을 받은 경우 이 단계를 건너뛸 수 있습니다.
 
-## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>2단계: 동기화 Exchange ActiveSync OneDrive 사용 안
+## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>2단계: Exchange ActiveSync 및 OneDrive 동기화
 
 여기서 핵심은 랜섬웨어에 의해 데이터 암호화의 확산을 중지하는 것입니다.
 
@@ -63,7 +63,7 @@ ms.locfileid: "52789054"
 
 - [사용자에 대해 POP3 또는 IMAP4 액세스 사용 또는 사용 안 하도록 설정](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-동기화를 OneDrive 경우 잠재적으로 감염된 장치에 의해 클라우드 데이터가 업데이트되지 못하도록 보호하는 데 도움이 됩니다. 자세한 내용은 에서 동기화 일시 중지 및 다시 시작 방법을 [OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
+이 OneDrive 동기화 사용하면 잠재적으로 감염된 장치에 의해 클라우드 데이터가 업데이트되지 못하도록 보호할 수 있습니다. 자세한 내용은 에서 동기화 일시 중지 및 다시 시작 방법을 [OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>3단계: 영향을 받는 장치에서 맬웨어 제거
 
@@ -81,7 +81,7 @@ ms.locfileid: "52789054"
 
 사용자 환경에서 랜섬웨어 페이로드를 제거하기 위한 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하는 것을 방지) Windows 10 및 Windows 8.1 또는 System Protection의 파일 기록을 Windows 7의 파일 기록을 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다. [](https://support.microsoft.com/help/17128)
 
-**참고:**
+**참고**:
 
 - 일부 랜섬웨어는 또한 백업 버전을 암호화하거나 삭제하기 때문에 파일 기록 또는 시스템 보호를 사용하여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명된 바와 같이 랜섬웨어 또는 랜섬웨어의 영향을 받지 OneDrive 장치에서 백업을 사용해야 합니다.
 
@@ -99,11 +99,11 @@ ms.locfileid: "52789054"
 
 - [Windows용 Outlook에서 삭제된 항목 복구](https://support.microsoft.com/office/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
 
-## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>7단계: 동기화 및 Exchange ActiveSync OneDrive 다시 사용하도록 설정
+## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>7단계: 사용자 Exchange ActiveSync 다시 OneDrive 동기화
 
-컴퓨터와 장치를 정리하고 데이터를 복구한 후 이전에 [2단계에서](#step-2-disable-exchange-activesync-and-onedrive-sync)사용하지 않도록 설정한 Exchange ActiveSync OneDrive 동기화를 다시 사용하도록 설정할 수 있습니다.
+컴퓨터와 장치를 정리하고 데이터를 복구한 후 이전에 [2단계에서](#step-2-disable-exchange-activesync-and-onedrive-sync)사용하지 않도록 Exchange ActiveSync OneDrive 동기화 다시 사용하도록 설정할 수 있습니다.
 
-## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>8단계(선택 사항): 특정 OneDrive 동기화 차단
+## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>8단계(선택 사항): 특정 OneDrive 동기화 확장명에 대한 차단
 
 복구한 후 비즈니스용 OneDrive 클라이언트가 이 랜섬웨어의 영향을 받은 파일 형식을 동기화하지 못하게 할 수 있습니다. 자세한 내용은 [Set-SPOTenantSyncClientRestriction을 참조하세요.](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
@@ -141,30 +141,30 @@ ms.locfileid: "52789054"
 
 여러 방법 중 하나를 사용하여 랜섬웨어가 포함된 피싱 메시지를 보고할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="additional-ransomware-resources"></a>추가 랜섬웨어 리소스
 
-- [랜섬웨어](/windows/security/threat-protection/intelligence/ransomware-malware)
+[휴먼 운영 랜섬웨어 개요](/security/compass/human-operated-ransomware)
 
-- [랜섬웨어 대응 - 지불할지 또는 지불하지 않을 것인가?](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
+[랜섬웨어 및 공격으로부터 빠르게 보호](/security/compass/protect-against-ransomware)
 
-- [Norsk 지수는 투명성을 통해 랜섬웨어 공격에 대응합니다.](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+[최신 Microsoft 보안 인텔리전스 PDF)](https://www.microsoft.com/securityinsights/) ("랜섬웨어"에 대한 검색)
+
+**랜섬웨어:** Microsoft 365 Defender 포털의 위협 분석 노드에 있는  보습 및 지속적인 위협 보고서
+
+Microsoft 365 보호:
 
 - [랜섬웨어 검색 및 복구에서 파일 OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
-
-- [Microsoft 보안 인텔리전스 보고서](https://www.microsoft.com/securityinsights/)
-
 - [파일에서 매크로 사용 또는 Office 사용 안 하도록 설정](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
-
 - [EOP 및 Microsoft Defender 보안에 대한 Office 365 설정](recommended-settings-for-eop-and-office365.md)
 
-- [업그레이드 가치가 있는 업그레이드: 2017년 랜섬웨어 Windows 10 대한 차세대 보안이 입증됩니다.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
+Microsoft 보안 팀 블로그 게시물:
 
-- [No mas, Samas: What's in this ransomware's modus operandi?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
+- [사이버 보안 위험을 이해하여 탄력성 확보: 4부 - 현재 위협을 완화(2021년 5월)](https://www.microsoft.com/security/blog/2021/05/26/becoming-resilient-by-understanding-cybersecurity-risks-part-4-navigating-current-threats/)
 
-- [잠긴 맬웨어, 피하기 다행히](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
+  **랜섬웨어 섹션을 참조하세요.**
 
-- [MSRT 2016년 7월: Cerber 랜섬웨어](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
+- [휴먼 운영 랜섬웨어 공격: 예방 가능한 재해(2020년 3월)](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
+- [랜섬웨어 대응 - 지불할지 또는 지불하지 않을 것인가? (2019년 12월)](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
+- [Norsk 지수는 투명성을 통해 랜섬웨어 공격에 대응합니다(2019년 12월)](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+- [업그레이드 가치가 있는 업그레이드: Windows 10 차세대 보안은 2017년 랜섬웨어 발생에 대한 탄력적인 증명(2018년 1월)](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
-- [Cerberus와 같은 Cerber 랜섬웨어의 세 헤드](https://www.microsoft.com/security/blog/2016/03/09/the-three-heads-of-the-cerberus-like-cerber-ransomware/)
-
-- [(the) Da Vinci 코드의 영향을 미치는 Troldesh 랜섬웨어](https://www.microsoft.com/security/blog/2016/07/13/troldesh-ransomware-influenced-by-the-da-vinci-code/)

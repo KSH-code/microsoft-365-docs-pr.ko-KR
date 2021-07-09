@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6786d423d20ec90c12d2ea712003acc787ed599d
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: d82bffd6eea54256f2c6773f843030a19e27275d
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165252"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339361"
 ---
 # <a name="configure-managed-security-service-provider-integration"></a>관리형 보안 서비스 공급자 통합 구성
 
@@ -44,7 +44,7 @@ ms.locfileid: "51165252"
 
 통합을 통해 MSSP는 다음 작업을 수행할 수 있습니다.
 
-- MSSP 고객의 사이트 포털에 Microsoft Defender 보안 센터 액세스
+- MSSP 고객의 사이트 포털에 Microsoft 365 Defender 액세스
 - 전자 메일 알림 및 
 - SIEM(보안 정보 및 이벤트 관리) 도구를 통해 경고 페치
 
@@ -57,7 +57,7 @@ MSSP에서 이러한 작업을 수행하려면 MSSP 고객이 MSSP가 포털에 
 일반적으로 다음 구성 단계를 수행해야 합니다.
 
 
-- **MSSP에 액세스 권한을 Microsoft Defender 보안 센터** <br>
+- **MSSP에 액세스 권한을 Microsoft 365 Defender** <br>
 이 작업은 MSSP 고객이 수행해야 합니다. 끝점 테넌트에 대한 MSSP 고객의 Defender 액세스 권한을 MSSP에 부여합니다.
  
 

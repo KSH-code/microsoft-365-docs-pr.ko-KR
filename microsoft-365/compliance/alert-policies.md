@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 센터에서 경고 정책을 Microsoft 365 규정 준수 센터 위협, 데이터 손실 및 권한 문제를 모니터링합니다.
-ms.openlocfilehash: a6f9b7dec1a147b9cd9b00b5516c77aea79437e9
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 4ae85f69eea5221945c531b2b63000be7eb43fb7
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054707"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341071"
 ---
 # <a name="alert-policies-in-the-microsoft-365-compliance-center"></a>알림 정책의 Microsoft 365 규정 준수 센터
 
@@ -115,10 +115,10 @@ Microsoft는 관리자 권한 남용, Exchange, 잠재적인 외부 및 내부 �
 | 기본 경고 정책 | 설명 | 범주 | Enterprise 구독 |
 |:-----|:-----|:-----|:-----|
 |**악의적인 URL 클릭이 감지되었습니다.**|조직의 링크로 보호된 사용자가 [](../security/office-365-security/safe-links.md) 금고 링크를 클릭할 때 경고를 생성합니다. 이 이벤트는 MICROSOFT Defender에서 URL Office 365 변경 내용이 식별되거나 사용자가 금고 링크 페이지를 Microsoft 365 비즈니스용 금고 정책에 따라 트리거됩니다. 이 경고 정책에는 **심각도 높은** 설정이 있습니다. Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md) 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 [Set up 금고 Links policies을 참조하십시오.](../security/office-365-security/set-up-safe-links-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
-|**관리자 전송 결과 완료**|관리 제출이 제출된 엔터티의 다시 검색을 완료하면 경고를 생성합니다. [](../security/office-365-security/admin-submission.md) 관리자 제출에서 다시 검색 결과가 렌더링될 때마다 경고가 트리거됩니다. 이러한 알림은 이전 제출의 [](https://protection.office.com/reportsubmission)결과를 검토하고, 사용자가 보고한 메시지를 제출하여 최신 정책 확인을 받아 결과를 다시 검사하고, 조직의 필터링 정책이 의도한 영향을 미치는지 확인하는 데 도움이 하도록 알리기 위한 것입니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리|E1/F1, E3/F3 또는 E5|
+|**관리자 전송 결과 완료**|관리 제출이 제출된 엔터티의 다시 검색을 완료하면 경고를 생성합니다. [](../security/office-365-security/admin-submission.md) 관리자 제출에서 다시 검색 결과가 렌더링될 때마다 경고가 트리거됩니다. 이러한 알림은 이전 제출의 [](https://compliance.microsoft.com/reportsubmission)결과를 검토하고, 사용자가 보고한 메시지를 제출하여 최신 정책 확인을 받아 결과를 다시 검사하고, 조직의 필터링 정책이 의도한 영향을 미치는지 확인하는 데 도움이 하도록 알리기 위한 것입니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리|E1/F1, E3/F3 또는 E5|
 |**관리자가 전자 메일에 대한 수동 조사를 트리거했습니다.**|관리자가 위협 탐색기에서 전자 메일에 대한 수동 조사를 트리거하면 경고를 생성합니다. 자세한 내용은 예제: 보안 [관리자가 위협 탐색기에서 조사를 트리거합니다.를 참조하세요.](../security/office-365-security/automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) 이 경고는 조직에 조사가 시작된 것을 알리는 경고입니다. 경고는 경고를 트리거한 사람에 대한 정보를 제공하며 조사에 대한 링크를 포함합니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리| E5/G5 또는 Microsoft Defender for Office 365 P2 추가 기능 구독| 
 |**전달/리디렉션 규칙 만들기**|조직의 누군가가 메시지를 다른 전자 메일 계정으로 전달하거나 리디렉션하는 사서함에 대한 받은 편지함 규칙을 만들 때 경고를 생성합니다. 이 정책은 PowerShell에서 웹용 Outlook(이전의 Outlook Web App) 또는 Exchange Online 규칙만 추적합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 받은 편지함 규칙을 사용하여 전자 메일을 전달하고 리디렉션하는 웹용 Outlook 다른 계정으로 메시지를 웹용 Outlook 규칙 사용을 [참조하세요.](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
-|**eDiscovery 검색 시작 또는 내보내기**|보안 및 준수 센터에서 콘텐츠 검색 도구를 사용하는 경우 경고를 생성합니다. 다음과 같은 콘텐츠 검색 활동이 수행되면 경고가 트리거됩니다. <br/><br/>* 콘텐츠 검색이 시작된 경우<br/>* 콘텐츠 검색 결과를 내보낼 수 있습니다.<br/>* 콘텐츠 검색 보고서 내보내기<br/><br/>eDiscovery 사례와 함께 이전 콘텐츠 검색 활동을 수행할 때도 경고가 트리거됩니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 콘텐츠 검색 활동에 대한 자세한 내용은 감사 로그에서 [eDiscovery 활동 검색을 참조하세요.](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
+|e **eDiscovery 시작 또는 내보내기**|보안 및 준수 센터에서 콘텐츠 검색 도구를 사용하는 경우 경고를 생성합니다. 다음과 같은 콘텐츠 검색 활동이 수행되면 경고가 트리거됩니다. <br/><br/>* 콘텐츠 검색이 시작된 경우<br/>* 콘텐츠 검색 결과를 내보낼 수 있습니다.<br/>* 콘텐츠 검색 보고서 내보내기<br/><br/>eDiscovery 사례와 함께 이전 콘텐츠 검색 활동을 수행할 때도 경고가 트리거됩니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 콘텐츠 검색 활동에 대한 자세한 내용은 감사 로그에서 [eDiscovery 활동 검색을 참조하세요.](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**관리자 권한 Exchange 권한 상승**|조직에서 다른 사용자에게 관리 권한이 할당된 경우 Exchange Online 생성합니다. 예를 들어 사용자가 조직의 조직 관리 역할 그룹에 Exchange Online. 이 정책의 **심각도는** 낮음 설정입니다.|사용 권한|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**맬웨어가 포함된 전자 메일 메시지가 전달 후 제거됨**|맬웨어가 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md)|위협 관리|E5/G5 또는 Microsoft Defender for Office 365 P2 추가 기능 구독|
 |**피싱 URL이 포함된 전자 메일 메시지가 전달 후 제거됨**|피싱이 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3272ef182c4b08142490e8a1ac21c208023c50f5
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 6d4845163996dcc00ccfcc6c87eb27aff87268fc
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228726"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339195"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>엔드포인트용 Microsoft Defender 지원 문의
 
@@ -58,9 +58,9 @@ Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 �
 
     ![물음표가 선택된 경우 위젯 이미지](images/support-widget.png)
 
-2. 도움이 **필요하세요? 클릭**  단추를 누른 다음 Microsoft Defender 보안 센터.
+2. 도움이 **필요하세요? 클릭**  단추를 클릭하면 Microsoft 365 Defender 있습니다.
 
-    ![도움이 필요 단추의 이미지](images/need-help.png)
+    ![도움이 필요 단추의 이미지](images/need-help-option.png)
 
 위젯에는 다음 두 가지 옵션이 제공됩니다.
 
@@ -70,7 +70,7 @@ Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 �
 ## <a name="find-solutions-to-common-problems"></a>일반적인 문제에 대한 해결 방법 찾기
 이 옵션에는 질문과 관련이 있을 수 있는 문서가 포함되어 있습니다. 검색 상자에 질문을 입력하기만 하면 검색과 관련된 문서가 표시됩니다.
 
-![도움이 필요한 위젯 이미지](images/Support3.png)
+![도움이 필요한 위젯 이미지](images/information-on-help-screen.png)
 
 제안된 문서로 충분하지 않은 경우 서비스 요청을 열 수 있습니다.
 
@@ -85,7 +85,7 @@ Endpoint 지원에 대한 Defender에 문의하여 지원 티켓을 여는 방�
 
 이 옵션은 헤드셋처럼 보이는 아이콘을 클릭하여 사용할 수 있습니다. 그러면 다음 페이지를 통해 지원 사례를 제출합니다.
 
-![서비스 요청 위젯 열기 이미지](images/Support4.png)
+![서비스 요청 위젯 열기 이미지](images/contact-support-screen.png)
 
 1. 직면하고 있는 문제의 제목과 설명과 전화 번호 및 전자 메일 주소를 입력합니다.
 

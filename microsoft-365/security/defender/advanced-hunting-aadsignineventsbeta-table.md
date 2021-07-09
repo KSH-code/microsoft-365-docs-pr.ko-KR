@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: edc9a1e40275631752ca1252a16071f4b07f07f9
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 7fc5e0a37f57928b2ee1318d01e2a10b95a36108
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286336"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341667"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -89,7 +89,6 @@ ms.locfileid: "53286336"
 |`NetworkLocationDetails`|문자열|로그인 이벤트의 인증 프로세서의 네트워크 위치 세부 정보|
 |`RequestId`|문자열|요청의 고유 식별자|
 |`ReportId`|문자열|이벤트의 고유 식별자|
-|
 
 ## <a name="related-articles"></a>관련 문서
 

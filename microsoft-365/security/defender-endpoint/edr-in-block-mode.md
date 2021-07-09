@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 402797b22e94129abbeb17f1a3454f95d5eae8fc
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: ae170ecf0fc0f354c9975300e5f2f7cd014b0c47
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908344"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339694"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드에서 끝점 EDR(응답)
 
@@ -43,7 +43,7 @@ ms.locfileid: "52908344"
 
 EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mgt.md) 조직의 보안 팀은 아직 사용하도록 [](tvm-security-recommendation.md) 설정되지 않은 경우 EDR 모드로 전환하는 보안 권장을 받을 수 있습니다. 
 
-:::image type="content" source="images/edrblockmode-TVMrecommendation.png" alt-text="차단 모드에서 EDR 설정하는 권장":::
+:::image type="content" source="images/enable-edr-in-block-mode.png" alt-text="차단 모드에서 EDR 설정하는 권장":::
 
 > [!NOTE]
 > 최상의 보호를 위해 끝점 **[기준에 대한 Microsoft Defender를 배포해야 합니다.](configure-machines-security-baseline.md)**
@@ -62,14 +62,14 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 > [!IMPORTANT]
 > 차단 [모드로 전환하기](#requirements-for-edr-in-block-mode) 전에 EDR 충족해야 합니다.
 
-1. Microsoft 365 [Defender 포털로 이동하여](microsoft-defender-security-center.md) 로그인합니다. 
+1. Microsoft 365 Defender [포털로 이동하여](microsoft-defender-security-center.md) 로그인합니다. 
 
 2. 고급 **설정**  >  **를 선택 합니다.**
 
 3. 차단 모드에서 **EDR 을 켜야 합니다.**
 
 > [!NOTE]
-> EDR 모드로 설정하면 차단 모드에서만 Microsoft Defender 보안 센터. 레지스트리 키, Intune 또는 그룹 정책을 사용하여 차단 모드에서 레지스트리 EDR 수 없습니다.
+> EDR 포털에서만 차단 모드로 Microsoft 365 Defender 있습니다. 레지스트리 키, Intune 또는 그룹 정책을 사용하여 차단 모드에서 레지스트리 EDR 수 없습니다.
 
 ## <a name="requirements-for-edr-in-block-mode"></a>차단 모드의 EDR 요구 사항
 
@@ -86,7 +86,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 > [!IMPORTANT]
 > 최상의 보호 값을 얻기 위해 정기적인 업데이트 및 필수 기능을 받도록 바이러스 백신 솔루션이 구성되어 있는지, 그리고 제외가 구성되어 [있는지 확인합니다.](configure-exclusions-microsoft-defender-antivirus.md) EDR 모드는 차단 모드에 대해 정의된 제외를 Microsoft Defender 바이러스 백신.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문 
+## <a name="frequently-asked-questions"></a>질문과 대답 
 
 ### <a name="do-i-need-to-turn-edr-in-block-mode-on-even-when-i-have-microsoft-defender-antivirus-running-on-devices"></a>장치에서 실행 중인 EDR 차단 모드에서 Microsoft Defender 바이러스 백신 설정해야 하나요?
 
@@ -115,8 +115,8 @@ EDR 모드에서는 사용자의 장치에서 실행되는 타사 바이러스 �
 
 |메서드  |절차  |
 |---------|---------|
-| PowerShell     | 1. 시작 메뉴를 선택하고 를 입력한 다음 결과에서 Windows PowerShell `PowerShell` 를 열 수 있습니다. <p>2. 를 `Get-MpComputerStatus` 입력합니다. <p>3. 결과 목록의 **AMRunningMode** 행에서 다음 값 중 하나를 검색합니다. <br/>- `Normal` <br/>- `Passive Mode` <br/>- `SxS Passive Mode` <p>자세한 내용은 [Get-MpComputerStatus 를 참조합니다.](/powershell/module/defender/get-mpcomputerstatus)        |
-|명령 프롬프트     | 1. 시작 메뉴를 선택하고 를 입력한 다음 결과에서 명령 `Command Prompt` Windows 열 수 있습니다. <p>2. 를 `sc query windefend` 입력합니다. <p>3. 결과 목록의 **STATE** 행에서 서비스가 실행 중인지 선택합니다.         |
+| PowerShell     | 1. 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 Windows PowerShell `PowerShell` 를 열 수 있습니다. <p>2. 를 `Get-MpComputerStatus` 입력합니다. <p>3. 결과 목록의 **AMRunningMode** 행에서 다음 값 중 하나를 검색합니다. <br/>- `Normal` <br/>- `Passive Mode` <br/>- `SxS Passive Mode` <p>자세한 내용은 [Get-MpComputerStatus 를 참조합니다.](/powershell/module/defender/get-mpcomputerstatus)        |
+|명령 프롬프트     | 1. 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 명령 `Command Prompt` Windows 열 수 있습니다. <p>2. 를 `sc query windefend` 입력합니다. <p>3. 결과 목록의 **STATE** 행에서 서비스가 실행 중인지 선택합니다.         |
 
 ### <a name="how-much-time-does-it-take-for-edr-in-block-mode-to-be-disabled"></a>차단 모드에서 EDR 데 얼마나 걸릴까요?
 

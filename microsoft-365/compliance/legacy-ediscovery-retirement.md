@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery 및 In-Place 보류(및 해당 PowerShell cmdlet)Exchange Online 2020년 상반기에는 사용 중지됩니다. 동일한 Search-Mailbox 기간 내에 Advanced eDiscovery v1.0도 사용 중지됩니다.
-ms.openlocfilehash: 97be285ae348b018866e3f91f92be523b03e6616
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 77a7daf36c86cd302f774e5a4b934148d3dfd5a7
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055077"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53340999"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>eDiscovery 도구의 사용 중지
 
@@ -345,9 +345,9 @@ Advanced eDiscovery v1.0(핵심 eDiscovery 사례에서 사용할 수 있는 Adv
 
 조직에서 v1.0을 Advanced eDiscovery 확인:
 
-1. 보안 및 [Office 365 센터로 &.](https://protection.office.com)
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)로 이동합니다.
 
-2. Security & Compliance Center의 왼쪽 탐색 창에서 **eDiscovery > eDiscovery를 클릭하고 Core eDiscovery** 사례를 여는 것입니다.
+2. 준수 센터의 왼쪽 탐색 창에서 **eDiscovery**> Core를 클릭하고 Core eDiscovery 사례를 열 수 있습니다.
 
 3. 다음으로 전환 **단추가 Advanced eDiscovery** 클릭하면 사용 중지되는 1.0 버전의 Advanced eDiscovery 표시됩니다. Core eDiscovery에서 사례를 만들고 관리하는 능력은 영향을 받지 않습니다. v1.0으로 전환을 클릭하여 Advanced eDiscovery v1.0에서 사례 데이터를 추가하고 분석하는 Advanced eDiscovery **기능만** 사용 중지됩니다.
 

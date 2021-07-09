@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사례 만들기 및 관리를 시작할 수 있도록 Advanced eDiscovery 방법을 설명합니다. 또한 필수 Microsoft 구독 및 라이선싱에 대해 설명합니다. 몇 가지 빠른 단계를 완료하면 Advanced eDiscovery 사용할 수 있습니다.
-ms.openlocfilehash: 6c6aed482da8f203154d94313ec04519d6a330ea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: be5e5aea03950d28889590004bd796455a71c5be
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919751"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341451"
 ---
 # <a name="set-up-microsoft-365-advanced-ediscovery"></a>설정 Microsoft 365 Advanced eDiscovery
 
@@ -46,7 +46,7 @@ Advanced eDiscovery 조직의 Microsoft 365 조사에 응답하는 데이터를 
 
 다음 단계를 완료하여 eDiscovery 관리자 역할 그룹에 사용자를 추가합니다.
 
-1. 으로 이동한 후 조직에서 관리자 계정의 자격 <https://protection.office.com/permissions> 증명을 사용하여 Microsoft 365 로그인합니다.
+1. 으로 이동한 후 조직에서 관리자 계정의 자격 <https://compliance.microsoft.com/permissions> 증명을 사용하여 Microsoft 365 로그인합니다.
 
 2. 사용 **권한 페이지에서** **eDiscovery 관리자 역할 그룹을** 선택합니다.
 

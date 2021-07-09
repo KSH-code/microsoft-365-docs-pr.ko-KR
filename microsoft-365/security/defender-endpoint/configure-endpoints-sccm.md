@@ -1,6 +1,6 @@
 ---
 title: 구성 관리자를 사용하여 Windows 10 장치 온보딩
-description: Configuration Manager를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
+description: Configuration Manager를 사용하여 디바이스가 서비스에 온보드될 수 있도록 디바이스에 구성 패키지를 배포합니다.
 keywords: sccm을 사용하여 장치 온보딩, 장치 관리, 끝점 장치용 Microsoft Defender 구성
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: d827fb89a082286b1b7b77ea0a14e588ce171161
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: d7c319e37fb804ee4dac3b6bff402942bbc2fa79
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842197"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339661"
 ---
-# <a name="onboard-windows-10-devices-using-configuration-manager"></a>구성 관리자를 사용하여 Windows 10 장치 온보딩
+# <a name="onboard-the-windows-10-devices-using-configuration-manager"></a>Configuration Manager를 Windows 10 장치 온보드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -71,9 +71,9 @@ Configuration Manager 버전 2002부터 다음 운영 체제를 온보드할 수
 
 
 
-1. 서비스 온보더링 마법사에서 ** 다운로드한 .zip(WindowsDefenderATPOnboardingPackage.zip)를 구성 관리자 구성 패키지 패키지를 열 수 있습니다. 에서 패키지를 얻을 [Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
+1. 서비스 온보더링 마법사에서 ** 다운로드한 .zip(WindowsDefenderATPOnboardingPackage.zip)를 구성 관리자 구성 패키지 패키지를 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
 
-    1. 탐색 창에서 **온보 설정**  >  **선택합니다.**
+    1. 탐색 창에서 **끝점 설정**  >  **관리**  >    >  **온보더링** 을 선택합니다.
     
     1. 운영 Windows 10 로 실행을 선택합니다.
 
@@ -102,10 +102,10 @@ Configuration Manager 버전 2002부터 다음 운영 체제를 온보드할 수
 
 ### <a name="configure-sample-collection-settings"></a>샘플 수집 설정 구성
 
-각 디바이스에 대해 심층 분석을 위해 파일을 제출하기 위해 요청을 할 때 장치에서 샘플을 수집할 수 있는지 여부를 Microsoft Defender 보안 센터 구성 값을 설정할 수 있습니다.
+각 디바이스에 대해 심층 분석을 위해 파일을 제출하기 위해 요청을 할 때 장치에서 샘플을 수집할 수 있는지 여부를 Microsoft 365 Defender 구성 값을 설정할 수 있습니다.
 
 >[!NOTE]
->이러한 구성 설정은 일반적으로 Configuration Manager를 통해 수행됩니다. 
+>이러한 구성 설정은 일반적으로 Configuration Manager를 통해 수행됩니다.
 
 Configuration Manager에서 구성 항목에 대한 준수 규칙을 설정하여 장치에서 샘플 공유 설정을 변경할 수 있습니다.
 
@@ -179,9 +179,9 @@ Endpoint Configuration Manager 버전 2002 이상을 사용하는 경우 서버 
 
 ### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>System Center 2012 R2 Configuration Manager를 사용하여 장치 오프보드
 
-1. 에서 오프보더 [패키지를 Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
+1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
 
-    1. 탐색 창에서 **오프보더 설정**  >   **선택합니다.**
+    1. 탐색 창에서 **끝점 설정** 관리  >    >  오프보링  >   **을 선택합니다.**
 
     1. 운영 Windows 10 로 실행을 선택합니다.
 

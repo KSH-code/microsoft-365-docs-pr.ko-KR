@@ -1,6 +1,6 @@
 ---
 title: 모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩
-description: 모바일 장치 관리 도구를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
+description: 모바일 장치 관리 도구를 사용하여 디바이스가 서비스에 온보드될 수 있도록 장치에 구성 패키지를 배포합니다.
 keywords: mdm을 사용하여 장치 온보딩, 장치 관리, Endpoint 장치용 Microsoft Defender 온보딩, mdm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 45aa406212fe39f088f58bf311b1aed3fed16498
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: f0a0a35d41d56abfcc7975c9e79ff7d537b72f40
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843437"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338580"
 ---
-# <a name="onboard-windows-10-devices-using-mobile-device-management-tools"></a>모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩
+# <a name="onboard-the-windows-10-devices-using-mobile-device-management-tools"></a>모바일 Windows 10 관리 도구를 사용하여 디바이스 온보드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -70,9 +70,9 @@ Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedTh
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-1. 에서 오프보더 [패키지를 Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
+1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
 
-   1. 탐색 창에서 **오프보더 설정**  >  **선택합니다.**
+   1. 탐색 창에서 **끝점 설정** 관리  >    >  오프보링  >  **을 선택합니다.**
 
    1. 운영 Windows 10 로 실행을 선택합니다.
 

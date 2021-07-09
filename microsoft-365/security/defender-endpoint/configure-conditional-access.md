@@ -1,6 +1,6 @@
 ---
 title: 끝점용 Microsoft Defender에서 조건부 액세스 구성
-description: 조건부 액세스를 구현하기 위해 Intune, Microsoft Defender 보안 센터 및 Azure에서 수행해야 하는 단계에 대해 자세히 알아보십시오.
+description: 조건부 액세스를 구현하기 위해 Intune, Microsoft 365 Defender Azure에서 수행해야 하는 단계에 대해 자세히 알아보십시오.
 keywords: 조건부 액세스, 조건부, 액세스, 장치 위험, 위험 수준, 통합, intune 통합
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ceb69d59dc5208c0908e33d0880d9352562ec140
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 2c9462fa0d4be4d6ff78ba3e5db2cd4fa71fef0b
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843977"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339517"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 조건부 액세스 구성
 
@@ -50,10 +50,10 @@ ms.locfileid: "52843977"
 
 
 
-Intune 포털 및 Azure AD 포털에서 Microsoft Defender 보안 센터 단계가 있습니다.
+Intune 포털, Microsoft 365 Defender Azure AD 포털에서 수행해야 하는 단계가 있습니다.
 
 이러한 포털에 액세스하고 조건부 액세스를 구현하는 데 필요한 역할을 주의해야 합니다.
-- **Microsoft Defender 보안 센터** - 통합을 설정하려면 전역 관리자 역할로 포털에 로그인해야 합니다.
+- **Microsoft 365 Defender** - 통합을 설정하려면 전역 관리자 역할로 포털에 로그인해야 합니다.
 - **Intune** - 관리 권한이 있는 보안 관리자 권한으로 포털에 로그인해야 합니다. 
 - **Azure AD 포털** - 전역 관리자, 보안 관리자 또는 조건부 액세스 관리자로 로그인해야 합니다.
 
@@ -62,7 +62,7 @@ Intune 포털 및 Azure AD 포털에서 Microsoft Defender 보안 센터 단계�
 > Intune 관리 Microsoft Intune Azure AD가 연결된 장치와 함께 Windows 10 필요합니다.
 
 조건부 액세스를 사용하도록 설정하려면 다음 단계를 수행합니다.
-- 1단계: Microsoft Intune 연결 Microsoft Defender 보안 센터
+- 1단계: Microsoft Intune 연결 Microsoft 365 Defender
 - 2단계: Intune에서 끝점에 대한 Defender 통합 켜기
 - 3단계: Intune에서 준수 정책 만들기
 - 4단계: 정책 할당 
@@ -70,15 +70,15 @@ Intune 포털 및 Azure AD 포털에서 Microsoft Defender 보안 센터 단계�
 
 
 ### <a name="step-1-turn-on-the-microsoft-intune-connection"></a>1단계: 연결 Microsoft Intune 켜기
-1. 탐색 창에서 연결 **설정**  >  **고급 Microsoft Intune**  >  **선택합니다.**
+1. 탐색 창에서 연결 **설정**  >  **끝점** 일반 고급 Microsoft Intune  >    >    >  **선택합니다.**
 2. 설정의 Microsoft Intune 으로 **전환합니다.**
 3. 기본 **설정 저장을 클릭합니다.**
 
 
 ### <a name="step-2-turn-on-the-defender-for-endpoint-integration-in-intune"></a>2단계: Intune에서 끝점에 대한 Defender 통합 켜기
 1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
-2. 장치 **준수 를**  >  **Microsoft Defender ATP.**
-3. **커넥트 Windows 10.0.15063+** 장치를 으로 Microsoft Defender Advanced Threat Protection 로 **설정하십시오.**
+2. 장치 **준수**  >  **Microsoft Defender ATP를 선택합니다.**
+3. **커넥트 Windows 10.0.15063+ 장치를 Microsoft Defender Advanced Threat Protection으로** **설정 .**
 4. **저장** 을 클릭합니다.
 
 

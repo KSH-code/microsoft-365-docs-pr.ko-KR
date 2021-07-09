@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: d09967a18848365702f52f65a7f0624d2b2ae3d6
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 555f96dc1f45fb6a406b5993d0b8e4a3745c283b
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843213"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339637"
 ---
-# <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
+# <a name="onboard-the-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -63,9 +63,9 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Windows 10 또는 Windows Server 2019의 경우
 
-1.  서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 에서 패키지를 얻을 [Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
+1.  서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
 
-    1.  탐색 창에서 **온보 설정**  >  **선택합니다.**
+    1. 탐색 창에서 **끝점 설정**  >  **관리**  >    >  **온보더링** 을 선택합니다.
 
     1. 운영 Windows 10 로 실행을 선택합니다.
 
@@ -111,11 +111,11 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
    
       - 각 디바이스에 대한 단일 항목: 
     
-        100분의 1에 있는 항목만 Microsoft Defender 보안 센터.
+        포털에서 하나의 항목만 Microsoft 365 Defender 검사합니다.
 
       - 각 장치에 대한 여러 항목의 경우: 
        
-        여러 항목을 확인하여 Microsoft Defender 보안 센터.
+        포털에서 여러 Microsoft 365 Defender 검사합니다.
 
 6. 탐색 **창에서** 장치 목록을 클릭합니다.
 

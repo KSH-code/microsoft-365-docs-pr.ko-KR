@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: af50e3c2a6db1a09d546bfa06b26c80dcf4481e5
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 6a3bbc46bb5859743d5170451b0d1c68793f93bf
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53290090"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338724"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
@@ -170,7 +170,7 @@ netsh winhttp reset proxy
 
 1. MMA(Microsoft Monitoring Agent)를 통해 이전 운영 체제를 끝점용 Defender에 온보딩합니다(자세한 내용은 [Endpoint용 Defender](https://go.microsoft.com/fwlink/p/?linkid=2010326) 및 Windows 서버에 이전 버전의 Windows [온보딩을 참조하세요.](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016)
 
-2. 컴퓨터의 포털에 보고하는 Microsoft Defender 보안 센터 합니다.
+2. 컴퓨터의 포털에 보고하는 Microsoft 365 Defender 합니다.
 
 3. "C:\Program Files\Microsoft Monitoring Agent\Agent"에서 TestCloudConnection.exe 도구를 실행하여 연결의 유효성을 검사하고 특정 작업 영역의 필수 URL을 확인할 수 있습니다.
 
@@ -178,7 +178,7 @@ netsh winhttp reset proxy
 
     ![조직의 관리자 Windows PowerShell](images/admin-powershell.png)
 
-.ods.opinsights.azure.com, .oms.opinsights.azure.com 및 .agentsvc.azure-automation.net URL 끝점에 사용되는 와일드카드( )를 특정 작업 영역 ID로 바꿀 \* \* 수 \* \* 있습니다. 작업 영역 ID는 환경 및 작업 영역과 관련이 있으며, 작업 영역 포털 내에서 테넌트의 온보드 섹션에서 Microsoft Defender 보안 센터 있습니다.
+.ods.opinsights.azure.com, .oms.opinsights.azure.com 및 .agentsvc.azure-automation.net URL 끝점에 사용되는 와일드카드( )를 특정 작업 영역 ID로 바꿀 \* \* 수 \* \* 있습니다. 작업 영역 ID는 환경 및 작업 영역과 관련이 있으며, 작업 영역 포털 내의 테넌트 온보더링 섹션에서 Microsoft 365 Defender 있습니다.
 
 .blob.core.windows.net URL 끝점을 테스트 결과의 \* "방화벽 규칙: .blob.core.windows.net" 섹션에 표시된 URL로 바꿀 \* 수 있습니다.
 

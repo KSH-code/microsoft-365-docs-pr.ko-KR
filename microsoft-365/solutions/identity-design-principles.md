@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: b22a3b8fc73ca1825f07dda5b84c85e2d2a68805
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: a3be13624c3b3cc9d7be667e28e435c76c513fc3
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289742"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341727"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>ID 및 그 이상을 아우르는 설계자의 관점
 
@@ -272,8 +272,6 @@ Azure [AD PIM을](/azure/active-directory/privileged-identity-management/) 몇 �
 - **Microsoft Cloud App Security** - (/cloud-app-security/manage-admins)
 - **Stream** - (/stream/assign-administrator-user-role)
 - **정보 장벽** - (.. /compliance/information-barriers.md)
-
-나머지의 경우 최근에는 Docs에서 검색이 매우 <https://docs.microsoft.com/> 양호했습니다.
 
 ### <a name="activity-logs"></a>활동 로그
 

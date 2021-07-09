@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ee56ed2949ea72771d8f08570d4352dbe7548d52
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 7125a6953b9be46af9073b50c9268ce65dc0cd30
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286948"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339532"
 ---
 # <a name="configure-device-discovery"></a>장치 검색 구성
 
@@ -43,8 +43,8 @@ ms.locfileid: "53286948"
 표준 검색을 수행하는 데 사용되는 장치 목록을 사용자 지정할 수 있습니다. 이 기능을 지원하는 모든 온보드 디바이스(현재 - Windows 10 장치만 해당)에서 표준 검색을 사용하도록 설정하거나 장치 태그를 지정하여 장치의 하위 집합 또는 하위 집합을 선택할 수 있습니다.
 
 > [!IMPORTANT]
-> 미리 보기의 경우 먼저 2016에서 미리 보기 기능을 켜야 Microsoft Defender 보안 센터.
-> 그런 다음 보안 센터에서 장치 검색 구성에 액세스할 Microsoft 365 있습니다. 관리되지 않는 장치 및 보안 권장 사항 목록은 Microsoft Defender 보안 센터 및 Microsoft 365 보안 센터에서 사용할 수 있으며 대시보드 타일은 Microsoft 365 보안 센터에서만 사용할 수 있습니다.
+> 미리 보기의 경우 먼저 미리 보기에서 미리 보기 기능을 켜야 Microsoft 365 Defender.
+> 그런 다음 보안 센터에서 장치 검색 구성에 액세스할 Microsoft 365 있습니다. 관리되지 않는 장치 및 보안 권장 사항 목록은 Microsoft 365 Defender 및 Microsoft 365 보안 센터에서 사용할 수 있으며 대시보드 타일은 Microsoft 365 보안 센터에서만 사용할 수 있습니다.
 
 보안 센터에서 다음 구성 Microsoft 365 수행합니다.
 

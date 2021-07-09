@@ -1,6 +1,6 @@
 ---
-title: MSSP Microsoft Defender 보안 센터 포털에 액세스
-description: MSSP Microsoft Defender 보안 센터 포털에 액세스
+title: MSSP Microsoft 365 Defender 포털에 액세스
+description: MSSP Microsoft 365 Defender 포털에 액세스
 keywords: 관리되는 보안 서비스 공급자, mssp, 구성, 통합
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 97122decede91e8b4f059b3b66999ac12b300172
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 8583b28adecd892ec6875faa934fd7ab08e5db11
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164860"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339589"
 ---
-# <a name="access-the-microsoft-defender-security-center-mssp-customer-portal"></a>MSSP Microsoft Defender 보안 센터 포털에 액세스
+# <a name="access-the-microsoft-365-defender-mssp-customer-portal"></a>MSSP Microsoft 365 Defender 포털에 액세스
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)

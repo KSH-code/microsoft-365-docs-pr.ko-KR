@@ -23,12 +23,12 @@ ms.collection:
 - Ent_O365
 - SPO_Content
 description: 초기에 새로운 문제를 감지하는 데 도움이 될 수 있도록 클라이언트 컴퓨터 연결의 기록을 검사하는 방법을 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: 87b1d43df560fc7fea5aadfbf1c422eb22883067
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 314b1acea5935bfd6d93d1da3789657e21cd2d57
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928147"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339373"
 ---
 # <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>초기 계획 및 성능 기록을 사용하여 Office 365 성능 조정
 
@@ -54,7 +54,7 @@ Office 365 자동화가 아니라 실제 사용자에 의해서도 꾸준히 모
 
 먼저 발생하는 문제가 서비스 인시던트가 아닌 성능 문제인지 확인해야 합니다. 성능 문제는 2016년 8월의 서비스 인시던트와 Office 365. 이들을 분리하는 방법에는 다음이 있습니다.
   
-서비스 Office 365 문제가 있는 경우 서비스 인시던트입니다. Microsoft 365 관리 센터의 현재  상태 아래에 빨간색 또는 노란색 아이콘이 표시되고 클라이언트 컴퓨터에 연결되는 클라이언트 컴퓨터에서 성능이 Office 365. 예를 들어 현재 상태 보고서에 빨간색  아이콘이 표시되어 있는 경우 Exchange 옆에 조사 중이 표시될 경우 조직 내 사용자로부터 조직 내 사용자로부터 전화를 여러 번 받으면 해당 사서함을 사용하는 클라이언트 사서함이 잘못된 Exchange Online 수 있습니다. 이 경우 서비스 내에서 Exchange Online 성능에 문제가 있는 것으로 가정하는 것이 합리적입니다. 
+서비스 Office 365 문제가 있는 경우 서비스 인시던트입니다. 현재 상태 아래에 빨간색 또는  노란색 아이콘이 표시될 Microsoft 365 관리 센터 클라이언트 컴퓨터에 연결하면 성능이 저하될 수도 Office 365. 예를 들어 현재 상태 보고서에 빨간색  아이콘이 표시되어 있는 경우 Exchange 옆에 조사 중이 표시될 경우 조직 내 사용자로부터 조직 내 사용자로부터 전화를 여러 번 받으면 해당 사서함을 사용하는 클라이언트 사서함이 잘못된 Exchange Online 수 있습니다. 이 경우 서비스 내에서 Exchange Online 성능에 문제가 있는 것으로 가정하는 것이 합리적입니다. 
   
 ![서비스 Office 365 표시하는 작업을 제외한 모든 워크로드가 녹색으로 Exchange 상태 대시보드입니다.](../media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
   
@@ -251,7 +251,7 @@ Office 365 자동화가 아니라 실제 사용자에 의해서도 꾸준히 모
     
 2. 도구(이 경우 PsPing)가 설치된 폴더로 이동한 후 다음 url을 Office 365 테스트합니다.
     
-  - psping portal.office.com:443
+  - psping admin.microsoft.com:443
     
   - psping microsoft-my.sharepoint.com:443
     

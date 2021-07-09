@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 265a7e9093638caa2111c7d1d82e51c8c2437d12
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 777f5f63c4739f277ec24f826bc8a61a226fb65f
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845465"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339673"
 ---
 # <a name="onboard-non-windows-devices"></a>Windows가 아닌 장치 온보딩
 
@@ -38,7 +38,7 @@ ms.locfileid: "52845465"
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-nonwindows-abovefoldlink) 
 
-Endpoint용 Defender는 비보안 플랫폼뿐만 아니라 Windows 중앙 집중식 보안 Windows 환경을 제공합니다. 지원되는 다양한 OS(운영 체제)에서 경고를 보고 조직의 Microsoft Defender 보안 센터 보호할 수 있습니다. 
+Endpoint용 Defender는 비보안 플랫폼뿐만 아니라 Windows 중앙 집중식 보안 Windows 환경을 제공합니다. 조직에서 지원되는 다양한 OS(운영 체제)에서 경고를 Microsoft 365 Defender 조직의 네트워크를 보다 잘 보호할 수 있습니다. 
 
 통합을 위해 Endpoint용 Defender와 호환되는 정확한 Linux 배포판 및 macOS 버전을 알아야 합니다. 자세한 내용은 다음을 참조하세요.
 - [Linux 시스템 요구 사항의 끝점용 Microsoft Defender](microsoft-defender-endpoint-linux.md#system-requirements)  

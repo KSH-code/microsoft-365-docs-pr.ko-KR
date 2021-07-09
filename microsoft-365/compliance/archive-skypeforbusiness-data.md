@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 커넥터에서 커넥터를 설정하고 사용하여 Microsoft 365 규정 준수 센터 가져오고 보관하는 방법을 비즈니스용 Skype Microsoft 365.
-ms.openlocfilehash: 93128af0c7f305cb2bef55efd5520de77555a222
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 4a66ee19530860bd482168297a8c935153442fee
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054867"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339457"
 ---
-# <a name="set-up-a-connector-to-archive-skype-for-business-data-preview"></a>데이터 보관 커넥터 설정(비즈니스용 Skype 미리 보기)
+# <a name="set-up-a-connector-to-archive-skype-for-business-data"></a>데이터 보관을 위한 비즈니스용 Skype 설정
 
 조직의 Veritas 커넥터를 사용하여 Microsoft 365 규정 준수 센터 플랫폼에서 비즈니스용 Skype 사서함으로 데이터를 가져오고 보관할 Microsoft 365 있습니다. Veritas는 타사 [비즈니스용 Skype](https://www.veritas.com/en/au/insights/merge1/skype-for-business) 원본에서 항목을 캡처하고 해당 항목을 원본으로 가져오도록 구성된 Microsoft 365. 커넥터는 사용자 간 메시지, 영구 채팅 및 회의 메시지와 같은 콘텐츠를 비즈니스용 Skype 전자 메일 메시지 형식으로 변환한 다음 사용자의 사서함으로 Microsoft 365.
 

@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2dded27d87ee5db0d1e71b643fe8244408ef1a24
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 4f14f87355181e9b7f6c0b52aa6b122b560c5f23
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096159"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338688"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -69,15 +69,14 @@ ms.locfileid: "53096159"
 - 사용자 제출에 대한 구성을 수정하려면 다음 역할 그룹 중 하나의 구성원이 되어야 합니다.
 
   - **조직** **포털의** 사용 권한에 있는 [조직 관리 또는 보안 Microsoft 365 Defender.](permissions-microsoft-365-security-center.md)
-  - **에서 조직** [Exchange Online.](/Exchange/permissions-exo/permissions-exo#role-groups)
-
+  
 - PowerShell을 사용하려면 Exchange Online 액세스해야 합니다. 사용하려는 계정에 Exchange Online PowerShell에 액세스할 수 없는 경우 제출 사서함을 지정할 때 다음과 같은 오류가 표시됩니다.
 
   > 도메인에서 전자 메일 주소 지정
 
   PowerShell에 대한 액세스를 활성화하거나 Exchange Online 자세한 내용은 다음 항목을 참조하세요.
 
-  - [PowerShell에 대한 액세스 Exchange Online 사용 또는 사용 안 하도록 설정](/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Exchange Online PowerShell에 대한 액세스 설정 또는 해제](/powershell/exchange/disable-access-to-exchange-online-powershell) 
   - [클라이언트 액세스 규칙의 Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox"></a>Microsoft 365 Defender 포털을 사용하여 사용자 제출 사서함 구성

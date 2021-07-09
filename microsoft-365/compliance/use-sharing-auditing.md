@@ -21,12 +21,12 @@ ms.collection:
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: 관리자는 조직 외부의 사용자와 공유되는 리소스를 식별하기 위해 Microsoft 365 감사 로그에서 공유 감사를 사용하는 방법을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d26a8022f8d59aeb56a03c50ae546777c882ef7a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 302ad7665c83ee9061b2e1965ef03ec25d0aab58
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819298"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341511"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>감사 로그에서 공유 감사 사용
 
@@ -96,26 +96,26 @@ ms.locfileid: "44819298"
 
 첫 번째 단계는 감사 로그에서 공유 이벤트를 검색하는 것입니다. 감사 로그 검색에 대한 자세한 내용은 (필요한 사용 권한 포함) 보안 및 준수 센터에서 감사 [로그 & 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
   
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
-    
+1. <https://compliance.microsoft.com>으로 이동합니다.
+
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
-    
-3. 보안 및 규정 준수 센터의 왼쪽 창에서 **검색**  > **감사 로그 검색** 을 클릭하십시오.
-    
-    **감사 로그 검색** 페이지가 표시됩니다. 
-    
+
+3. 창의 왼쪽 창에서 Microsoft 365 규정 준수 센터 **를 클릭합니다.**
+
+    **감사** 페이지가 표시됩니다.
+
 4. **활동에서** 공유 **및** 액세스 요청 활동을 클릭하여 공유 관련 이벤트를 검색합니다. 
-    
+
     ![활동에서 공유 및 액세스 요청 활동 선택](../media/46bb25b7-1eb2-4adf-903a-cc9ab58639f9.png)
   
-5.  날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 공유 이벤트를 찾을 수 있습니다. 
-    
+5. 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 공유 이벤트를 찾을 수 있습니다. 
+
 6. 검색을 **클릭하여** 검색을 실행합니다. 
-    
+
 7. 검색 실행이 완료되고 결과가 표시되면 결과 내보내기 **모든** 결과 \> **다운로드 를 클릭합니다.**
-    
+
     내보내기 옵션을 선택하면 창 아래쪽에 CSV 파일을 열거나 저장하라는 메시지가 표시됩니다.
-    
+
 8. 다른  \> **파일로 저장을** 클릭하고 CSV 파일을 로컬 컴퓨터의 폴더에 저장합니다. 
 
 ### <a name="step-2-use-the-powerquery-editor-to-format-the-exported-audit-log"></a>2단계: PowerQuery 편집기를 사용하여 내보낼 감사 로그 형식 지정

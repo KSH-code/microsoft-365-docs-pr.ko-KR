@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Exchange Online에서 Search-UnifiedAuditLog cmdlet을 실행하여 감사 로그를 검색하는 PowerShell 스크립트를 사용하세요. 이 스크립트는 대량 감사 레코드 집합(최대 50,000개)을 반환하는 데 최적화되어 있습니다. 이 스크립트는 이러한 레코드를 Excel의 Power Query를 사용하여 보거나 변환할 수 있는 CSV 파일로 내보냅니다.
-ms.openlocfilehash: df5e675e5e36603a73078bd5ecf5e64bc7a76f95
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 8abea51bb1e7e1fa7bd513bea78708b06da62def
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939568"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341011"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>PowerShell 스크립트를 사용하여 감사 로그 검색
 
@@ -48,7 +48,7 @@ ms.locfileid: "51939568"
 
   **UnifiedAuditLogIngestionEnabled** 에 대한 `True` 값은 로그 검색이 켜져 있는 것을 나타냅니다.
 
-- 스크립트를 성공적으로 실행하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 사용 권한 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 자세한 내용은 [규정 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log)의 "감사 로그 검색 요구 사항" 섹션을 참조하십시오.
+- 스크립트를 성공적으로 실행하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 사용 권한 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 자세한 내용은 [규정 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#before-you-search-the-audit-log)의 "감사 로그 검색 요구 사항" 섹션을 참조하십시오.
 
 - 스크립트가 완료되는 데 시간이 오래 걸릴 수 있습니다. 실행하는 데 걸리는 시간은 감사 레코드를 검색할 스크립트를 구성하는 간격의 크기 및 날짜 범위에 따라 달라집니다. 날짜 범위가 크고 간격이 작을수록 실행 시간이 길어집니다. 날짜 범위 및 간격에 대한 자세한 내용은 2단계의 표를 참조하십시오.
 

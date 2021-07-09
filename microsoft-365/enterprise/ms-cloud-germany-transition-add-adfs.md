@@ -18,17 +18,17 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 도이치란드 Microsoft 클라우드에서 마이그레이션하기 위한 AD FS(Active Directory Federation Services) 마이그레이션 단계입니다.'
-ms.openlocfilehash: 12465acf5b4afe7e252586ddd076250628b57dd3
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: c8e784c8e582185b4bdebc0cb359cc4c19503d1a
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165660"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339613"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 AD FS 마이그레이션 단계
 
 2단계가 시작되기 전에 이 구성 변경 사항을 적용해야 합니다.
-2단계가 완료되면 구성 변경이 작동하고 을(를) 같은 전역 끝점을 통해 Office 365 수 `https://portal.office.com` 있습니다. 2단계 전에 구성 변경을 구현하는 경우 Office 365 전역 끝점은  아직 작동하지 않지만 새 신뢰 파티 트러스트는 여전히 AD FS(Active Directory Federation Services) 구성의 일부입니다.
+2단계가 완료되면 구성 변경이 작동하고 을(를) 같은 전역 끝점을 통해 Office 365 수 `https://admin.microsoft.com` 있습니다. 2단계 전에 구성 변경을 구현하는 경우 Office 365 전역 끝점은  아직 작동하지 않지만 새 신뢰 파티 트러스트는 여전히 AD FS(Active Directory Federation Services) 구성의 일부입니다.
 
 AD FS(Active Directory Federation Services)에서 페더전된 인증을 사용하는 고객은 마이그레이션 중의 모든 인증에 사용되는 발급자 URIS를 변경하지 말아야 합니다. 발급자 URIS를 변경하면 도메인의 사용자에 대한 인증 오류가 발생합니다. 발급자 URIS는 AD FS에서 직접 변경하거나 도메인이  관리에서  페더러티로 변환되고 그 반대의 경우도 마찬가지입니다. 마이그레이션된 Azure AD 테넌트에서 페더넌트 도메인을 추가, 제거 또는 변환하지 않는 것이 좋습니다. 발급자 URIS는 마이그레이션이 완전히 완료된 후 변경할 수 있습니다.
 

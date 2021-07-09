@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47d57e51eca4950f7a8f4284fbc916e9d030b2c7
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 08fe4314c1461710d83ea7aeba1fdf9a60dd33a8
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844337"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339241"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -38,7 +38,7 @@ ms.locfileid: "52844337"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configserver-abovefoldlink)
 
-Endpoint용 Defender는 Windows 서버 운영 체제를 포함하기 위해 지원을 확장합니다. 이 지원은 보안 콘솔을 통해 고급 공격 감지 및 조사 기능을 Microsoft Defender 보안 센터 제공합니다.
+Endpoint용 Defender는 Windows 서버 운영 체제를 포함하기 위해 지원을 확장합니다. 이 지원은 보안 콘솔을 통해 고급 공격 감지 및 조사 기능을 Microsoft 365 Defender 제공합니다.
 
 라이선스 및 인프라에 필요한 사항을 실제로 설명하는 내용은 [Endpoint용 Defender로 Windows 서버 보호를 참조하세요.](https://techcommunity.microsoft.com/t5/What-s-New/Protecting-Windows-Server-with-Windows-Defender-ATP/m-p/267114#M128)
 
@@ -66,7 +66,7 @@ SCOM(System Center Operations Manager) 또는 Azure 모니터(이전의 OM Micro
 일반적으로 다음 단계를 수행해야 합니다.
 
 1. 시작하기 전에 섹션에 설명된 **온보더링 요구 사항을 이행합니다.**
-2. Microsoft Defender 보안 센터에서 서버 모니터링을 켜기.
+2. 포털에서 서버 Microsoft 365 Defender 켜기.
 3. 서버가 끝점용 Defender에 센서 데이터를 보고하도록 MMA를 설치하고 구성합니다.
 4. 클라이언트를 구성하고 System Center Endpoint Protection 업데이트합니다.
 
@@ -121,7 +121,7 @@ Windows Server 2008 R2 SP1 및 Windows Server 2012 R2의 경우: 클라이언트
 
 ### <a name="option-2-onboard-windows-servers-through-azure-security-center"></a>옵션 2: Azure Windows 서버 온보드
 
-1. 장치 Microsoft Defender 보안 센터 창에서 장치 관리 **설정**  >    >  **를 선택합니다.**
+1. Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을  >    >    >  **선택합니다.**
 
 2. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택합니다.
 
@@ -200,7 +200,7 @@ Endpoint용 Defender는 Azure Defender와 통합하여 포괄적인 서버 Windo
     > 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows [Server 2019 및 WVD(가상 데스크톱)Windows](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
 
 - Windows Azure Defender가 모니터링하는 서버는 Endpoint용 Defender에서도 사용할 수 있습니다. Azure Defender는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다.  또한 Azure Defender 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
-- 서버 조사 - Azure Defender 고객은 액세스하여 Microsoft Defender 보안 센터 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
+- 서버 조사 - Azure Defender 고객은 Microsoft 365 Defender 포털에 액세스하여 자세한 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
 
 > [!IMPORTANT]
 > - Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트에 대한 Defender가 자동으로 만들어집니다(미국 사용자의 경우 유럽 및 영국 사용자용 EU).<br>
@@ -255,7 +255,7 @@ Windows 서버를 오프보딩하기 위해 MMA 에이전트를 Windows 끝점 �
 
 1. 작업 영역 ID를 얻게 합니다.
 
-   1. 탐색 창에서 **온보 설정**  >  **선택합니다.**
+   1. Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을  >    >    >  **선택합니다.**
 
    1. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택하고 작업 영역 ID를 얻습니다.
 

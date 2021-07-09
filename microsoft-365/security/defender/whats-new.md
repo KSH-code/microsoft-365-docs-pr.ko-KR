@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 78783ab98c50252115c28008680197256bfd7aa5
-ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
+ms.openlocfilehash: af5efb669b1f73b4008ac2c3fae251a4d08511dd
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114740"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53340987"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -38,8 +38,10 @@ RSS 피드: 다음 URL을 복사하여 피드 읽기에 붙여 넣는 방법을 
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
-## <a name="june-2021"></a>2021년 6월
-- 위협 분석 보고서의 [Microsoft 365 Defender 태그](threat-analytics.md) <br> 위협 태그를 사용하면 특정 위협 범주에 집중하고 가장 관련성이 높은 보고서를 검토할 수 있습니다. 
+
+## <a name="july-2021"></a>2021년 7월
+- [Professional 서비스 카탈로그](https://sip.security.microsoft.com/interoperability/professional_services)<br>지원되는 파트너 연결을 사용하여 플랫폼의 검색, 조사 및 위협 인텔리전스 기능을 향상합니다.
+    
 
 ## <a name="may-2021"></a>2021년 5월
 

@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 재설정을 구성하고 테스트합니다.'
-ms.openlocfilehash: efcaaf9ed1873c0908bb0e64644b8e10de280a01
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 13169824866e91c1a09d412a875d2f4ce4391fa8
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921495"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339385"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 재설정
 
@@ -90,7 +90,7 @@ SSPR 설정에는 다음 세 단계가 있습니다.
 1. 사용자 3 계정 이름을 입력하고 CAPTCHA의 문자를 입력한 후 다음 을 **선택합니다.**
 1. 확인 **1단계에서** 내 대체 전자 **메일 전자 메일을** 선택한 다음 전자 메일을 **선택합니다.** 전자 메일을 받으면 확인 코드를 입력하고 다음 을 **선택합니다.**
 1. 계정으로 **돌아가기에서** 사용자 3 계정에 대한 새 암호를 입력하고 마친 을 **선택합니다.** 사용자 3 계정의 변경된 암호를 적어놓고 안전한 장소에 저장합니다.
-1. 동일한 브라우저의 별도 탭에서 [https://portal.office.com](https://portal.office.com)으로 이동한 후 사용자 3 계정 이름과 해당 새 암호로 로그인합니다. **Microsoft Office 홈** 페이지가 표시됩니다.
+1. 동일한 브라우저의 별도 탭에서 [https://admin.microsoft.com](https://admin.microsoft.com)으로 이동한 후 사용자 3 계정 이름과 해당 새 암호로 로그인합니다. **Microsoft Office 홈** 페이지가 표시됩니다.
 
 ## <a name="next-step"></a>다음 단계
 

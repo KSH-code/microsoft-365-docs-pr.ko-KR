@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일 계정에 대한 일반적인 Microsoft 365 문제를 해결하는 데 도움이 되는 감사 로그 검색 도구를 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 5f753163b5d4d6c04c121a7ce3fae970690a57b0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 22d511fa2ad538c4ec9729fb051caefad6c3e974
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906096"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341056"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색하여 일반적인 지원 문제 조사
 
@@ -49,18 +49,18 @@ ms.locfileid: "50906096"
 
 이 섹션에서는 감사 로그 검색을 만들고 실행하기 위한 기본에 대해 설명합니다. 이 문서의 각 문제 해결 시나리오에 대한 시작점으로 이러한 지침을 사용하세요. 자세한 단계별 지침은 감사 로그 [검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md#step-1-run-an-audit-log-search)
 
-1. 으로 [https://protection.office.com/unifiedauditlog](https://protection.office.com/unifiedauditlog) 이동하여 직장 또는 학교 계정을 사용하여 로그인합니다.
+1. <https://compliance.microsoft.com/auditlogsearch>으로 이동하여 회사 또는 학교 계정을 사용하여 로그인합니다.
     
-    **감사 로그 검색** 페이지가 표시됩니다. 
+    **감사** 페이지가 표시됩니다. 
     
-    ![조건을 구성한 다음 검색을 선택하여 검색을 실행합니다.](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![조건을 구성한 다음 검색을 선택하여 검색을 실행합니다.](../media/AuditLogSearchPage1.png)
   
 4. 다음 검색 조건을 구성할 수 있습니다. 이 문서의 각 문제 해결 시나리오에서는 이러한 필드를 구성하기 위한 특정 지침을 권장합니다.
     
-    a. **활동:** 검색할 수 있는 활동을 표시하려면 드롭다운 목록을 선택합니다. 검색을 실행하면 선택한 활동에 대한 감사 기록만 표시됩니다. 모든 **활동에 대한 결과 표시를 선택하면** 다른 검색 조건을 충족하는 모든 활동에 대한 결과가 표시됩니다. 또한 일부 문제 해결 시나리오에서는 이 필드를 비워 두어야 합니다.
-    
-    b. **시작 날짜** 및 **종료 날짜:** 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 기본적으로 지난 7일이 선택됩니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다.
+   a. **시작 날짜** 및 **종료 날짜:** 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 기본적으로 지난 7일이 선택됩니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다.    
 
+   b. **활동:** 검색할 수 있는 활동을 표시하려면 드롭다운 목록을 선택합니다. 검색을 실행하면 선택한 활동에 대한 감사 기록만 표시됩니다. 모든 **활동에 대한 결과 표시를 선택하면** 다른 검색 조건을 충족하는 모든 활동에 대한 결과가 표시됩니다. 또한 일부 문제 해결 시나리오에서는 이 필드를 비워 두어야 합니다.
+    
     c. **사용자:** 이 상자를 클릭한 다음 검색 결과를 표시할 사용자를 한명 이상 선택합니다. 이 상자에서 선택한 사용자가 수행한 선택한 활동에 대한 감사 레코드가 결과 목록에 표시됩니다. 조직의 모든 사용자(및 서비스 계정)에 대한 항목을 반환하려면 이 상자를 비워 둡니다.
     
     d. **파일, 폴더 또는 사이트:** 파일 또는 폴더 이름을 일부 또는 모두 입력하여 지정된 키워드가 포함된 폴더 파일과 관련된 활동을 검색합니다. 파일 또는 폴더의 URL을 지정할 수도 있습니다. URL을 사용하는 경우 전체 URL 경로를 입력해야 합니다. 또는 URL의 일부만 입력하는 경우 특수 문자나 공백을 포함하지 않습니다. 조직의 모든 파일 및 폴더에 대한 항목을 반환하려면 이 상자를 비워 둡니다. 이 필드는 이 문서의 모든 문제 해결 시나리오에서 비어 있습니다.
@@ -164,7 +164,7 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 ### <a name="recover-deleted-email-items"></a>삭제된 전자 메일 항목 복구
 
-사용자는 삭제된 항목 보존 기간이 만료되지 않은 경우 소프트 삭제된 항목을 복구할 수 있습니다. Exchange Online 삭제된 항목의 기본 보존 기간은 14일이지만 관리자는 이 설정을 최대 30일로 늘일 수 있습니다. 사용자가 삭제된 항목 복구에 대한 지침을 Outlook 웹 문서에서 삭제된 항목 또는 전자 [메일](https://support.office.com/article/Recover-deleted-items-or-email-in-Outlook-Web-App-C3D8FC15-EEEF-4F1C-81DF-E27964B7EDD4) 복구를 안내합니다.
+사용자는 삭제된 항목 보존 기간이 만료되지 않은 경우 소프트 삭제된 항목을 복구할 수 있습니다. Exchange Online 삭제된 항목의 기본 보존 기간은 14일이지만 관리자는 이 설정을 최대 30일로 늘일 수 있습니다. 삭제된 항목 [복구에](https://support.office.com/article/Recover-deleted-items-or-email-in-Outlook-Web-App-C3D8FC15-EEEF-4F1C-81DF-E27964B7EDD4) 대한 지침은 웹용 Outlook 항목 또는 전자 메일 복구 문서를 안내합니다.
 
 앞서 설명한 것 처럼 관리자는 삭제된 항목 보존 기간이 만료되지 않은 경우 또는 사서함이 보류 상태인 경우 영구 삭제된 항목을 복구할 수 있습니다. 이 경우 보존 기간이 만료될 때까지 항목이 보관됩니다. 콘텐츠 검색을 실행하면 복구 가능한 항목 폴더의 영구 삭제된 항목 및 영구 삭제된 항목이 검색 쿼리와 일치하는 경우 검색 결과에 반환됩니다. 콘텐츠 검색을 실행하는 데 대한 자세한 내용은 에서 [콘텐츠 검색을 Office 365.](content-search.md)
 
@@ -175,7 +175,7 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 사용자가 Exchange Online 사서함에 대한 받은 편지함 규칙을 만들면 해당 감사 레코드가 감사 로그에 저장됩니다. 받은 편지함 규칙에 대한 자세한 내용은 다음을 참조하세요.
 
-- [웹용 Outlook 받은 편지함 규칙 사용](https://support.office.com/article/use-inbox-rules-in-outlook-on-the-web-8400435c-f14e-4272-9004-1548bb1848f2)
+- [받은 편지함 규칙의 웹용 Outlook](https://support.office.com/article/use-inbox-rules-in-outlook-on-the-web-8400435c-f14e-4272-9004-1548bb1848f2)
 - [규칙을 사용하여 Outlook 전자 메일 메시지 관리](https://support.office.com/article/Manage-email-messages-by-using-rules-C24F5DEA-9465-4DF4-AD17-A50704D66C59)
 
 이 시나리오에 대한 감사 로그 검색 쿼리를 구성하는 방법에는 다음이 있습니다.

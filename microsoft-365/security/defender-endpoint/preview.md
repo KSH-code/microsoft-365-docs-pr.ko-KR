@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ed494cc29eb990430be590e62db5f0365ace494
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: 0b6edbdcda61eaf402275ae0b6dc9a38c5fe19f7
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53322428"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339493"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>끝점 미리 보기 기능용 Microsoft Defender
 
@@ -54,7 +54,7 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 - Microsoft에서 완전히 지원됩니다.
 - 선택한 지리적 지역 또는 클라우드 환경에서만 사용할 수 있습니다. 예를 들어 이 기능은 정부 클라우드에 존재하지 않을 수 있습니다.
 - 미리 보기의 개별 기능에는 더 많은 사용 및 지원 제한이 있을 수 있습니다. 이 경우 이 정보는 일반적으로 기능 설명서에 기록됩니다.
-- 미리 보기 버전은 표준 지원 수준으로 제공하며 프로덕션 워크로드에 권장됩니다. 
+- 미리 보기 버전은 표준 지원 수준으로 제공될 수 있으며 프로덕션 환경에 사용할 수 있습니다. 
 
 
 

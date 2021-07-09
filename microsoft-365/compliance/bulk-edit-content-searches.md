@@ -17,12 +17,12 @@ ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 및 준수 센터의 대량 검색 편집기를 사용하여 하나 이상의 콘텐츠 검색에 대한 쿼리 및 콘텐츠 위치를 빠르게 변경합니다.
-ms.openlocfilehash: f6331bad19e95fd1d7039d5da72349906d3614b8
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: be7e37ec22966e16dfa3c6d1f37a34e6441e632a
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227390"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341035"
 ---
 # <a name="bulk-edit-content-searches"></a>콘텐츠 검색 일괄 편집
 
@@ -32,7 +32,7 @@ ms.locfileid: "53227390"
 
 ## <a name="use-the-bulk-search-editor-to-change-queries"></a>대량 검색 편집기를 사용하여 쿼리 변경
 
-1. 로 <https://protection.office.com> 이동한 다음 검색 콘텐츠 **검색** \> **을 선택합니다.**
+1. 로 <https://compliance.microsoft.com> 이동한 다음 콘텐츠 검색 **을 선택합니다.**
 
 2. 검색 목록에서 하나 이상의 검색을 선택한 다음 대량  검색 편집기 대량 검색 ![ 편집기 단추 를 ](../media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png) 선택합니다.
 

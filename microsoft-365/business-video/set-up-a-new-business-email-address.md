@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 새 비즈니스 전자 메일 주소를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: df984cbee8bdd1bdd40ca8d9b87c71222db0f69d
-ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
+ms.openlocfilehash: 004cdd3abf9b8f8dec34dbfe9739102af081c769
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52065186"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341547"
 ---
 # <a name="set-up-a-new-business-email-address"></a>새 비즈니스 전자 메일 주소 설정
 
@@ -55,7 +55,7 @@ ms.locfileid: "52065186"
 
 웹 사이트 주소에 사용 중이든 다른 공급자의 전자 메일 주소에 사용하든 이미 소유하고 있는 도메인 이름을 사용합니다. 
 
-## <a name="try-it"></a>사용해 보세요!
+## <a name="give-it-a-try"></a>한 번 시도해 보세요.
  
 1. 도메인을 호스트하는 웹 사이트에 로그인합니다. 단추를 클릭하여 자동으로 확인하거나 도메인을 수동으로 업데이트합니다. 
 1. 전자 메일 주소를 사용자 지정하거나 그대로 두면 됩니다. 

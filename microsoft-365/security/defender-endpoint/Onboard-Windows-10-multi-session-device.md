@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 5bf9f856e93ae1424373a917490a264c04e07feb
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 9114a825ad011f0b2a17cea4929ab2a09bfa2172
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861182"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339481"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩 
 6분 읽기 
@@ -54,7 +54,7 @@ WVD 호스트 컴퓨터는 여러 가지 방법으로 온보드합니다.
 #### <a name="scenario-1-using-local-group-policy"></a>*시나리오 1: 로컬 그룹 정책 사용*
 이 시나리오에서는 스크립트를 골든 이미지에 배치하고 로컬 그룹 정책을 사용하여 부팅 프로세스 초기에 실행해야 합니다.
 
-비영구적 가상 데스크톱 인프라 VDI 디바이스 [온보드의 지침을 사용하세요.](configure-endpoints-vdi.md#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1)
+비영구적 [VDI(가상 데스크톱 인프라) 장치 온보드의 지침을 사용하세요.](configure-endpoints-vdi.md#onboard-the-non-persistent-virtual-desktop-infrastructure-vdi-devices)
 
 각 디바이스에 대한 단일 항목에 대한 지침을 따릅니다.
 

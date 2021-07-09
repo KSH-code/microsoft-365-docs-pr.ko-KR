@@ -1,6 +1,6 @@
 ---
 title: 끝점 검색 API 필드에 대한 Microsoft Defender
-description: 검색 API 필드가 검색 API 필드의 값에 매핑되는 Microsoft Defender 보안 센터
+description: 검색 API 필드가 검색 API 필드의 값에 매핑되는 Microsoft 365 Defender
 keywords: 검색, 검색 필드, 필드, api, 필드, 검색 끌어오기, rest api, 요청, 응답
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d6d2ad9abe88d0099b58dd2df486120082bb22c1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f9a0d4ddeee5c1dc49c53e324854cabccc5f79e5
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933640"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339553"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>끝점 검색 API 필드에 대한 Microsoft Defender
 
@@ -33,7 +33,7 @@ ms.locfileid: "51933640"
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-apiportalmapping-abovefoldlink)
 
-검색 API의 일부로 노출되는 데이터 필드와 이러한 필드가 검색 API에 매핑되는 방법을 Microsoft Defender 보안 센터.
+검색 API의 일부로 노출되는 데이터 필드와 이러한 필드가 검색 API에 매핑되는 방법을 Microsoft 365 Defender.
 
 >[!Note]
 >- [Endpoint용 Defender 경고는](alerts.md) 하나 이상의 검색으로 구성됩니다.
@@ -52,16 +52,16 @@ ArcSight 필드 열에는 끝점용 Defender 필드와 ArcSight의 기본 제공
 > | 포털 레이블   | SIEM 필드 이름           | ArcSight 필드      | 예제 값                                                                      | 설명                                                                                                                                                                    |
 > |------------------|---------------------------|---------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 > | 1                | AlertTitle                | name                | Microsoft Defender AV에서 'Mikatz' 높은 심각도 맬웨어 검색 | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
-> | 2                | 심각도                  | deviceSeverity      | 높음                                                                             | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
-> | 3                | Category                  | deviceEventCategory | 맬웨어                                                               | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
+> | 2                 | 심각도                  | deviceSeverity      | 높음                                                                             | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
+> | 3                 | 범주                  | deviceEventCategory | 맬웨어                                                               | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
 > | 4                 | 검색 원본                    | sourceServiceName   | 바이러스 검사                                                                 | Microsoft Defender 바이러스 백신 또는 Defender for Endpoint. 모든 검색에 사용할 수 있는 값입니다.                                                                                         |
 > | 5                 | MachineName               | sourceHostName      | desktop-4a5ngd6                                                                           | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
 > | 6                 | FileName                  | fileName            | Robocopy.exe                                                                       | 파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.                                                                                                                      |
 > | 7                 | FilePath                  | filePath            | C:\Windows\System32\Robocopy.exe                                                   | 파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.                                                                                                                     |
 > | 8                 | UserDomain                | sourceNtDomain      | CONTOSO                                                                            | 활동을 실행하는 사용자 컨텍스트의 도메인으로, 끝점 동작 기반 검색을 위해 Defender에 사용할 수 있습니다.                                                           |
 > | 9                 | UserName                  | sourceUserName      | liz.bean                                                                           | 활동을 실행하는 사용자 컨텍스트로, 끝점 동작 기반 검색을 위해 Defender에 사용할 수 있습니다.                                                                           |
-> | 10                 | Sha1                      | fileHash            | 3da065e07b990034e9db7842167f70b63aa5329                                           | 파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.                                                                                                                      |
-> | 11               | Sha256                    | deviceCustomString6 | ebf54f745dc81e1958f75e4ca91dd0ab989fc9787bb6b0bf993e2f5                   | Microsoft Defender AV 감지에 사용할 수 있습니다.                                                                                                                                    |
+> | 10                | Sha1                      | fileHash            | 3da065e07b990034e9db7842167f70b63aa5329                                           | 파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.                                                                                                                      |
+> | 11                | Sha256                    | deviceCustomString6 | ebf54f745dc81e1958f75e4ca91dd0ab989fc9787bb6b0bf993e2f5                   | Microsoft Defender AV 감지에 사용할 수 있습니다.                                                                                                                                    |
 > | 12                | Md5                       | deviceCustomString5 | db979c04a99b96d370988325bb5a8b21                                                   | Microsoft Defender AV 감지에 사용할 수 있습니다.                                                                                                                                    |
 > | 13               | ThreatName                | deviceCustomString1  | HackTool:Win32/Mikatz!dha                                                         | Microsoft Defender AV 감지에 사용할 수 있습니다.                                                                                                                                    |
 > | 14                | IpAddress                 | sourceAddress       | 218.90.204.141                                                                     | 네트워크 이벤트와 관련된 검색에 사용할 수 있습니다. 예를 들어 '악성 네트워크 대상에 대한 통신'을 들 수 있습니다.                                                        |

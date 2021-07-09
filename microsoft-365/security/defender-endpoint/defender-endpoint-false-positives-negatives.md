@@ -1,5 +1,5 @@
 ---
-title: Endpoint용 Microsoft Defender에서 가양성/가음성 처리
+title: 엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 description: 끝점용 Microsoft Defender에서 가짓 긍정 또는 거짓 부정을 처리하는 방법을 학습합니다.
 keywords: antivirus, exception, exclusion, Microsoft Defender for Endpoint, false positive, false negative, blocked file, blocked url
 search.product: eADQiWindows 10XVcnh
@@ -22,20 +22,20 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: d3821f4f1f581da5353ee33bd406af8558c0e903
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 7da28ea308994663549c2c490f53a3e0e75a0857
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029960"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339265"
 ---
-# <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender에서 가양성/가음성 처리
+# <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806) 
 
 끝점 보호 솔루션에서 가짓 긍정은 엔터티가 실제로 위협이 아닌 경우에도 악성으로 검색되고 식별된 파일 또는 프로세스와 같은 엔터티입니다. 거짓 부정은 실제로 악의적이어도 위협으로 검색되지 않은 엔터티입니다. 끝점용 Microsoft Defender를 포함하여 모든 위협 방지 솔루션에서 [가긍성/부정이](microsoft-defender-endpoint.md)발생할 수 있습니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "53029960"
 
 ### <a name="review-completed-actions"></a>완료된 작업 검토
 
-1. Go to the Action center ( <https://security.microsoft.com/action-center> ) and sign in.
+1. 포털의 왼쪽 탐색 창에서 Microsoft 365 Defender **센터를 클릭합니다.**
 
 2. 사용 기록 **탭을** 선택하여 수행된 작업 목록을 볼 수 있습니다.
 
@@ -149,7 +149,7 @@ ms.locfileid: "53029960"
 
 ### <a name="restore-a-quarantined-file-from-the-action-center"></a>작업 센터에서 고지된 파일 복원
 
-1. Go to the Action center ( <https://security.microsoft.com/action-center> ) and sign in.
+1. 포털의 왼쪽 탐색 창에서 Microsoft 365 Defender **센터를 클릭합니다.**
 
 2. 사용 **기록 탭에서** 실행 취소할 작업을 선택합니다.
 
@@ -157,7 +157,7 @@ ms.locfileid: "53029960"
 
 ### <a name="undo-multiple-actions-at-one-time"></a>한 번씩 여러 작업 취소
 
-1. Go to the Action center ( <https://security.microsoft.com/action-center> ) and sign in.
+1. 포털의 왼쪽 탐색 창에서 Microsoft 365 Defender **센터를 클릭합니다.**
 
 2. 사용 **기록 탭에서** 취소할 작업을 선택합니다.
 
@@ -168,7 +168,7 @@ ms.locfileid: "53029960"
 > [!div class="mx-imgBorder"]
 > ![파일 격리](images/autoir-quarantine-file-1.png)
 
-1. Go to the Action center ( <https://security.microsoft.com/action-center> ) and sign in.
+1. 포털의 왼쪽 탐색 창에서 Microsoft 365 Defender **센터를 클릭합니다.**
 
 2. 사용 기록 **탭에서** 작업 유형이 **Quarantine** file인 파일을 선택합니다.
 
@@ -252,7 +252,7 @@ ms.locfileid: "53029960"
 
 [지표(특히](/microsoft-365/security/defender-endpoint/manage-indicators) 손상 표시기 또는 IoC)를 사용하면 보안 운영 팀이 엔터티의 검색, 방지 및 제외를 정의할 수 있습니다. 예를 들어 끝점용 Microsoft Defender의 검사 및 수정 작업에서 생략할 특정 파일을 지정할 수 있습니다. 또는 표시기를 사용하여 특정 파일, IP 주소 또는 URL에 대한 알림을 생성할 수 있습니다.
 
-엔터티를 끝점용 Microsoft Defender에 대한 제외로 지정하기 위해 해당 엔터티에 대한 "허용" 표시기를 생성합니다. 끝점용 Microsoft Defender의 이러한 "허용" 표시기는 차세대 [](overview-endpoint-detection-response.md) [보호,](microsoft-defender-antivirus-in-windows-10.md)엔드포인트 감지 및 응답 및 자동화된 조사 & [적용됩니다.](/microsoft-365/security/defender-endpoint/automated-investigations)
+엔터티를 끝점용 Microsoft Defender에 대한 제외로 지정하기 위해 해당 엔터티에 대한 "허용" 표시기를 생성합니다. 끝점용 Microsoft Defender의 이러한 "허용" 표시기는 차세대 [](overview-endpoint-detection-response.md) [보호,](microsoft-defender-antivirus-in-windows-10.md)끝점 감지 및 대응 및 자동화된 조사 & [적용됩니다.](/microsoft-365/security/defender-endpoint/automated-investigations)
 
 다음에 대해 "허용" 표시기를 만들 수 있습니다.
 

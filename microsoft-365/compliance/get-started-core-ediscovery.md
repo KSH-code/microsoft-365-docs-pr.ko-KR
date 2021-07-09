@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 2016에서 Core eDiscovery를 사용하는 방법을 Microsoft 365. eDiscovery 권한을 할당하고 사례를 만든 후 구성원을 추가하고 eDiscovery 보류를 만든 다음 조사와 관련된 콘텐츠를 검색하고 내보낼 수 있습니다.
-ms.openlocfilehash: 00506c2f072fff6aa30c7d96bffdc18eb5eda20b
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 9466b2e3268a447a4008363e88290d4d02558c76
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311019"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341475"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>2013에서 Core eDiscovery 시작 Microsoft 365
 
@@ -34,19 +34,19 @@ Microsoft 365 핵심 eDiscovery는 조직이 조직에서 검색 및 내보낼 �
 
 Core eDiscovery에 대한 라이선스를 사용하려면 적절한 조직 구독 및 사용자당 라이선스가 필요합니다.
 
-- **조직 구독:** Microsoft 365 규정 준수 센터 또는 Office 365 보안 & 준수 센터에서 Core eDiscovery에 액세스하고 보류 및 내보내기 기능을 사용하려면 조직에 E3 Microsoft 365 E3 또는 Office 365 구독이 있어야 합니다.
+- **조직 구독:** Microsoft 365 규정 준수 센터 또는 Office 365 Security & Compliance Center에서 Core eDiscovery에 액세스하고 보류 및 내보내기 기능을 사용하려면 조직에 Microsoft 365 E3 또는 Office 365 E3 이상이 있어야 합니다.
 
 - **사용자당 라이선스:** 사서함 및 사이트에 eDiscovery를 유지하려면 조직 구독에 따라 사용자에게 다음 라이선스 중 하나를 할당해야 합니다.
 
-  - E3 Microsoft 365 E3 또는 Office 365 이상
+  - A Microsoft 365 E3 또는 Office 365 E3 라이선스 이상
 
    또는
 
-  - Office 365 Exchange Online 계획 2 또는 Exchange Online Archiving 라이선스가 있는 E1 라이선스
+  - Office 365 E1 계획 2 또는 Exchange Online 라이선스가 있는 Exchange Online Archiving 라이선스
 
   그리고
 
-  - Office 365 SharePoint 계획 2 또는 비즈니스용 OneDrive 추가 기능 라이선스가 있는 E1 라이선스
+  - Office 365 E1 Online 계획 2 또는 SharePoint 계획 2 추가 비즈니스용 OneDrive 라이선스가 있는 라이선스
   
   라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](../admin/manage/assign-licenses-to-users.md)
 
@@ -62,7 +62,7 @@ Core eDiscovery에 액세스하거나 Core eDiscovery 사례의 구성원으로 
 
 다음 단계를 완료하여 eDiscovery 관리자 역할 그룹에 사용자를 추가합니다.
 
-1. 으로 이동하여 조직 또는 조직에서 관리자 계정의 자격 [https://protection.office.com/permissions](https://protection.office.com/permissions) 증명을 Microsoft 365 Office 365 로그인합니다.
+1. 으로 이동하여 조직 또는 조직에서 관리자 계정의 자격 <https://compliance.microsoft.com/permissions> 증명을 Microsoft 365 Office 365 로그인합니다.
 
 2. 사용 **권한 페이지에서** **eDiscovery 관리자 역할 그룹을** 선택합니다.
 
@@ -82,7 +82,7 @@ eDiscovery 관리자 역할 그룹에는 두 개의 하위 그룹이 있습니�
 
 - **eDiscovery 관리자:** 작성하거나 구성원인 Core eDiscovery 사례를 보고 관리할 수 있습니다. 다른 eDiscovery 관리자가 사례를 만들어 두 번째 eDiscovery 관리자(Manager)를 해당 사례의 구성원으로 추가하지 않는 경우 두 번째 eDiscovery 관리자는 준수 센터의 Core eDiscovery 페이지에서 사례를 보거나 열 수 없습니다. 일반적으로 조직의 대부분의 사람은 eDiscovery 관리자 하위 조직에 추가할 수 있습니다.
 
-- **eDiscovery 관리자: eDiscovery** 관리자가 수행할 수 있는 모든 사례 관리 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자는 다음과 같은 작업을 수행할 수 있습니다.
+- **eDiscovery 관리자: eDiscovery** 관리자가 수행할 수 있는 모든 사례 관리 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자(Administrator)는 다음과 같은 작업을 수행할 수 있습니다.
 
   - Core eDiscovery 페이지에 나열된 모든 사례를 시청하세요.
   
@@ -100,7 +100,7 @@ eDiscovery 사용 권한에 대한 자세한 내용과 eDiscovery 관리자 역�
 
 1. 으로 이동한 후 적절한 eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 [https://compliance.microsoft.com](https://compliance.microsoft.com) 사용하여 로그인합니다. 조직 관리 역할 그룹의 구성원은 핵심 eDiscovery 사례를 만들 수 있습니다.
 
-2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 모두 표시를 클릭한 다음 **eDiscovery**> 클릭합니다.
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 클릭한 다음 **eDiscovery**> 클릭합니다. 
 
 3. Core **eDiscovery** 페이지에서 사례 만들기 **를 클릭합니다.**
 
@@ -114,7 +114,7 @@ eDiscovery 사용 권한에 대한 자세한 내용과 eDiscovery 관리자 역�
 
 3단계에서 사례를 만들고 사례를 사용할 유일한 사람인 경우 이 단계를 수행할 수 없습니다. 사례를 사용하여 eDiscovery 보류를 만들고, 콘텐츠를 검색하고, 검색 결과를 내보낼 수 있습니다. 다른 사용자(또는 역할 그룹)에게 사례에 대한 액세스 권한을 부여하려는 경우 이 단계를 수행합니다.
 
-1. Microsoft 365 준수 센터의 **Core eDiscovery** 페이지에서 구성원을 추가할 사례의 이름을 클릭합니다.
+1. 핵심 **eDiscovery** 페이지의 Microsoft 365 규정 준수 센터 구성원을 추가할 사례의 이름을 클릭합니다.
 
 2. 사례 홈 페이지에서 설정 **탭을** 선택한 다음 Access & **선택합니다.**
 

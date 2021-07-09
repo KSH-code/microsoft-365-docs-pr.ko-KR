@@ -29,12 +29,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 공유를 위해 OneDrive 및 팀 사이트를 Microsoft 365 방법을 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3ededbf2899ffd45915ad25370d5e5c93906c862
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 5ab0a192cb5706b6aff6cdeb30fa566de74dd510
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924614"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338664"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>파일 저장소 및 공유를 Microsoft 365
 
@@ -44,7 +44,7 @@ ms.locfileid: "52924614"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="microsoft-365-document-storage-and-management"></a>Microsoft 365 저장 및 관리
 
@@ -77,7 +77,7 @@ ms.locfileid: "52924614"
   
 팀의 각 사람이 파일을 설정하고 파일을 OneDrive 방법입니다.
 
-1. Microsoft 365 <a href="https://portal.office.com/ " target="_blank">포털로</a>이동하고 사용자 이름과 암호로 로그인합니다.
+1. 으로 <a href="https://admin.mirosoft.com/ " target="_blank">Microsoft 365 관리 센터</a>으로 이동하고 사용자 이름과 암호로 로그인합니다.
 
 2. 앱 시작기에서 를 **OneDrive.**
 
@@ -208,5 +208,5 @@ ms.locfileid: "52924614"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [구독에 대한 저장소 공간 추가(문서)\](../../commerce/add-storage-space.md)
-[파일 및 폴더를 공유하는](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) Microsoft 365 Business(비디오)\
+[비즈니스용 파일 및 폴더를 Microsoft 365](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) 공유(동영상)\
 [파일 저장 및 공유를 위한](customize-team-site.md) 팀 사이트 사용자 지정(문서)
