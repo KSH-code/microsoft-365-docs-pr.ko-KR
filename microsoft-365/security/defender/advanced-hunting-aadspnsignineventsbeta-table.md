@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f74972bcd5d0ddaab58d82b72a55991fda44e3b1
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 6aa709fe4534bf049c6f8c097bc4bd85a9d6793b
+ms.sourcegitcommit: 93eeaefc0d509c75e4c2210029155298ecca7583
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583547"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53347910"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -48,27 +48,27 @@ ms.locfileid: "52583547"
 
 
 
-| 열 이름     | 데이터 형식 | 설명   |
-| ----- | ----- | ---- |
-| `Timestamp` | datetime      | 레코드 생성 날짜 및 시간                                                                                                     |
-| `Application`          | 문자열        | 기록된 작업을 수행한 응용 프로그램                                                                                                   |
-| `ApplicationId`        | 문자열        | 응용 프로그램의 고유 식별자                                                                                                           |
-| `IsManagedIdentity`    | 부울       | 관리되는 ID에서 로그인을 시작한지 여부를 나타냅니다.                                                                               |
-| `ErrorCode`            | int        | 로그인 오류가 발생하는 경우 오류 코드가 들어 있습니다. 특정 오류 코드에 대한 설명을 찾으면 을 <https://aka.ms/AADsigninsErrorCodes> 방문하세요. |
-| `CorrelationId`        | 문자열        | 로그인 이벤트의 고유 식별자                                                                                                          |
-| `ServicePrincipalName` | 문자열        | 로그인을 시작한 서비스 사용자 이름입니다.                                                                                        |
-| `ServicePrincipalId`   | 문자열        | 로그인을 시작한 서비스 계정의 고유 식별자입니다.                                                                           |
-| `ResourceDisplayName`  | 문자열        | 액세스한 리소스의 표시 이름                                                                                                           |
-| `ResourceId`           | 문자열        | 액세스한 리소스의 고유 식별자                                                                                                      |
-| `ResourceTenantId`     | 문자열        | 액세스한 리소스의 테넌트의 고유 식별자입니다.                                                                                        |
-| `IPAddress`            | 문자열        | 끝점에 할당되어 관련 네트워크 통신 중에 사용되는 IP 주소                                                              |
-| `Country`          | 문자열        | 클라이언트 IP 주소가 지리적으로 위치가 지정되는 국가를 나타내는 두 글자 코드                                                                |
-| `State`                | 문자열        | 로그인이 발생한 위치(사용 가능한 경우)                                                                                                  |
-| `City`                 | 문자열        | 계정 사용자가 있는 구                                                                                                          |
-| `Latitude`             | 문자열        | 로그인 위치의 북-남 좌표                                                                                          |
-| `Longitude`            | 문자열        | 로그인 위치의 동쪽에서 서 좌표까지                                                                                            |
-| `RequestId`            | 문자열        | 요청의 고유 식별자                                                                                                                |
-|`ReportId` | 문자열 | 이벤트의 고유 식별자 | 
+| 열 이름 | 데이터 형식 | 설명 |
+|-----|-----|-----|
+| `Timestamp` | datetime | 레코드 생성 날짜 및 시간 |
+| `Application` | 문자열 | 기록된 작업을 수행한 응용 프로그램 |
+| `ApplicationId` | 문자열 | 응용 프로그램의 고유 식별자 |
+| `IsManagedIdentity`    | 부울       | 관리되는 ID에서 로그인을 시작한지 여부를 나타냅니다. |
+| `ErrorCode`    | int | 로그인 오류가 발생하는 경우 오류 코드가 들어 있습니다. 특정 오류 코드에 대한 설명을 찾으면 을 <https://aka.ms/AADsigninsErrorCodes> 방문하세요. |
+| `CorrelationId`        | 문자열        | 로그인 이벤트의 고유 식별자 |
+| `ServicePrincipalName` | 문자열        | 로그인을 시작한 서비스 사용자 이름입니다.  |
+| `ServicePrincipalId`   | 문자열        | 로그인을 시작한 서비스 계정의 고유 식별자입니다.  |
+| `ResourceDisplayName`  | 문자열        | 액세스한 리소스의 표시 이름  |
+| `ResourceId`           | 문자열        | 액세스한 리소스의 고유 식별자  |
+| `ResourceTenantId`     | 문자열        | 액세스한 리소스의 테넌트의 고유 식별자입니다. |
+| `IPAddress`            | 문자열        | 끝점에 할당되어 관련 네트워크 통신 중에 사용되는 IP 주소  |
+| `Country`          | 문자열        | 클라이언트 IP 주소가 지리적으로 위치가 지정되는 국가를 나타내는 두 글자 코드 |
+| `State`                | 문자열        | 로그인이 발생한 위치(사용 가능한 경우) |
+| `City`                 | 문자열        | 계정 사용자가 있는 구  |
+| `Latitude`             | 문자열        | 로그인 위치의 북-남 좌표 |
+| `Longitude`            | 문자열        | 로그인 위치의 동쪽에서 서 좌표까지 |
+| `RequestId`            | 문자열        | 요청의 고유 식별자 |
+|`ReportId` | 문자열 | 이벤트의 고유 식별자 |
 
  
 

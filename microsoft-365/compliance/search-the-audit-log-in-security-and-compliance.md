@@ -1,5 +1,5 @@
 ---
-title: 보안 및 준수 센터에서 감사 로그 검색
+title: Microsoft 365 규정 준수 센터에서 감사 로그 검색
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 007881220c3bdf862e75464521733e64f0d6c5c0
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: 46f223953df65b75c0ecfe0d2c9fe92514b797ff
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300139"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341655"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -48,11 +48,11 @@ ms.locfileid: "53300139"
 - SharePoint Online 또는 Microsoft Teams를 사용하는 사이트의 민감도 레이블에 대한 사용자 및 관리자 활동
 - 브리핑 전자 메일 및 MyAnalytics의 관리자 활동
 
-## <a name="requirements-to-search-the-audit-log"></a>감사 로그를 검색하는 데 필요한 요구 사항
+## <a name="before-you-search-the-audit-log"></a>감사 로그를 검색하기 전에
 
 감사 로그의 검색을 시작하기 전에 반드시 아래 내용을 읽어보세요.
 
-- Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 감사 로그 검색이 켜져 있습니다. 여기에는 E3/G3 또는 E5/G5 구독이 있는 조직이 포함됩니다. 감사 로그 검색이 켜져 있는지 확인하려면 Exchange Online PowerShell에서 다음 명령을 실행합니다.
+- Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 감사 로그 검색이 켜져 있습니다. 감사 로그 검색이 켜져 있는지 확인하려면 Exchange Online PowerShell에서 다음 명령을 실행합니다.
 
   ```powershell
   Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
@@ -60,10 +60,10 @@ ms.locfileid: "53300139"
 
   *UnifiedAuditLogIngestionEnabled* 에 대한 `True` 값은 로그 검색이 켜져 있는 것을 나타냅니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
-- 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 참고 Office 365 및 Microsoft 365의 전역 관리자는 자동으로 Exchange Online 서비스에서 조직 관리 역할 그룹의 구성원이 됩니다. 최소 권한 수준을 사용하여 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고, 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음, 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
+- 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. Office 365 및 Microsoft 365의 전역 관리자는 자동으로 Exchange Online 서비스에서 조직 관리 역할 그룹의 구성원이 됩니다. 최소 권한 수준을 사용하여 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고, 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음, 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 
   > [!IMPORTANT]
-  > 보안 및 준수 센터의 **사용 권한** 페이지에서 사용자에게 보기 전용 감사 로그 또는 감사 로그 역할을 할당하는 경우 감사 로그를 검색할 수 없습니다. Exchange Online에서 사용 권한을 할당해야 합니다. 감사 로그를 검색하는 데 사용되는 기본 cmdlet이 Exchange Online cmdlet이기 때문입니다.
+  > Microsoft 365 규정 준수 센터의 **사용 권한** 페이지에서 사용자에게 보기 전용 감사 로그 또는 감사 로그 역할을 할당하는 경우 감사 로그를 검색할 수 없습니다. Exchange Online에서 사용 권한을 할당해야 합니다. 감사 로그를 검색하는 데 사용되는 기본 cmdlet이 Exchange Online cmdlet이기 때문입니다.
 
 - 사용자 또는 관리자가 감사되는 활동을 수행하면 감사 레코드가 생성되어 조직의 감사 로그에 저장됩니다. 감사 기록이 보존되는(감사 로그에서 검색 가능한) 시간은 Office 365 또는 Microsoft 365 Enterprise 구독, 그리고 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "53300139"
   - E5 이외의 다른 Office 365 또는 Microsoft 365 라이선스가 할당된 사용자의 경우 감사 레코드가 90일 동안 보존됩니다. 통합 감사 로깅을 지원하는 Office 365 및 Microsoft 365 구독 목록을 확인하려면 [보안 및 규정 준수 센터 서비스 설명](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)을 참조하세요.
 
     > [!NOTE]
-    > 기본적으로 사서함 감사가 설정되어 있더라도 일부 사용자에 대한 사서함 감사 이벤트는 보안 및 준수 센터의 감사 로그 검색에서 발견되지 않거나 Office 365 관리 작업 API를 통해 찾지 못할 수 있습니다. 자세한 내용은 [사서함 감사 로깅에 대한 자세한 정보](enable-mailbox-auditing.md#more-information)를 참조하세요.
+    > 기본적으로 사서함 감사가 설정되어 있더라도 일부 사용자에 대한 사서함 감사 이벤트는 Microsoft 365 규정 준수 센터의 감사 로그 검색에서 발견되지 않거나 Office 365 관리 작업 API를 통해 찾지 못할 수 있습니다. 자세한 내용은 [사서함 감사 로깅에 대한 자세한 정보](enable-mailbox-auditing.md#more-information)를 참조하세요.
 
 - 조직의 감사 로그 검색을 해제하려면 Exchange Online 조직에 연결된 원격 PowerShell에서 다음의 명령을 실행합니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "53300139"
 
   자세한 내용은 [감사 로그 검색 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
-- 이전에 설명한 것처럼, 감사 로그를 검색하는 데 사용되는 기본 cmdlet은 **Search-UnifiedAuditLog** 인 Exchange Online cmdlet입니다. 즉 보안 및 준수 센터의 **감사 로그 검색** 페이지를 사용하는 대신 이 cmdlet을 사용하여 감사 로그를 검색할 수 있습니다. Exchange Online 조직에 연결된 원격 PowerShell에서 이 cmdlet을 실행해야 합니다. 자세한 내용은 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog)를 참조하세요.
+- 이전에 설명한 것처럼, 감사 로그를 검색하는 데 사용되는 기본 cmdlet은 **Search-UnifiedAuditLog** 인 Exchange Online cmdlet입니다. 즉 Microsoft 365 규정 준수 센터의 **감사 로그 검색** 페이지를 사용하는 대신 이 cmdlet을 사용하여 감사 로그를 검색할 수 있습니다. Exchange Online 조직에 연결된 원격 PowerShell에서 이 cmdlet을 실행해야 합니다. 자세한 내용은 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog)를 참조하세요.
 
   **Search-UnifiedAuditLog** cmdlet에서 반환되는 검색 결과를 CSV 파일로 내보내는 방법에 대한 자세한 내용은 [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log)의 "감사 로그 내보내기 및 보기 팁" 섹션을 참조하세요.
 
@@ -118,7 +118,7 @@ ms.locfileid: "53300139"
   |Microsoft Teams|![확인 표시](../media/checkmark.png)||
   |Power Apps||![확인 표시](../media/checkmark.png)|
   |Power BI|![확인 표시](../media/checkmark.png)||
-  |보안 및 준수 센터|![확인 표시](../media/checkmark.png)||
+  |Microsoft 365 규정 준수 센터|![확인 표시](../media/checkmark.png)||
   |민감도 레이블||![확인 표시](../media/checkmark.png)|
   |SharePoint Online 및 비즈니스용 OneDrive|![확인 표시](../media/checkmark.png)||
   |Workplace Analytics|![확인 표시](../media/checkmark.png)||
@@ -132,7 +132,7 @@ ms.locfileid: "53300139"
 
 ## <a name="search-the-audit-log"></a>감사 로그 검색
 
-Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다. 
+Microsoft 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 [1단계: 감사 로그 검색 실행](#step-1-run-an-audit-log-search)
 
@@ -144,48 +144,42 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 ### <a name="step-1-run-an-audit-log-search"></a>1단계: 감사 로그 검색 실행
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+1. <https://compliance.microsoft.com>으로 이동하여 로그인합니다.
 
     > [!TIP]
-    > 비공개 브라우징 세션(일반 세션이 아님)을 사용하여 보안 및 준수 센터에 액세스하면 현재 로그온한 자격 증명을 사용할 수 없으므로 비공개 브라우징 세션을 사용하세요. Internet Explorer 또는 Microsoft Edge에서 InPrivate 브라우징 세션을 열려면 CTRL+SHIFT+P를 누릅니다. Google Chrome에서 비공개 브라우징 세션을 열려면(incognito 창이라고 함) CTRL+SHIFT+N을 누릅니다.
+    > 비공개 브라우징 세션(일반 세션이 아님)을 사용하여 Microsoft 365 규정 준수 센터에 액세스하면 현재 로그온한 자격 증명을 사용할 수 없으므로 비공개 브라우징 세션을 사용하세요. Internet Explorer 또는 Microsoft Edge에서 InPrivate 브라우징 세션을 열려면 CTRL+SHIFT+P를 누릅니다. Google Chrome에서 비공개 브라우징 세션을 열려면(incognito 창이라고 함) CTRL+SHIFT+N을 누릅니다.
 
-2. 회사 또는 학교 계정을 사용하여 로그인합니다.
+2. Microsoft 365 준수 센터의 왼쪽 창에서 **감사** 를 클릭합니다.
 
-3. 보안 및 준수 센터의 왼쪽 창에서 **검색** 을 클릭한 다음 **감사 로그 검색** 을 클릭합니다.
+    **감사** 페이지가 표시됩니다.
 
-    **감사 로그 검색** 페이지가 표시됩니다.
-
-    ![조건을 구성한 다음 검색을 클릭하여 보고서를 실행합니다.](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![조건을 구성한 다음 검색을 클릭하여 보고서를 실행합니다.](../media/AuditLogSearchPage1.png)
 
     > [!NOTE]
-    > 먼저 감사 로깅을 켜야 감사 로그 검색을 실행할 수 있습니다. **사용자 및 관리자 활동 기록 시작** 링크가 표시되면 클릭하여 감사를 켭니다. 이 링크가 표시되지 않으면 조직에 대해 감사가 이미 켜져 있는 것입니다.
+    > **사용자 및 관리자 활동 기록 시작** 링크가 표시되면 클릭하여 감사를 켭니다. 이 링크가 표시되지 않으면 조직에 대해 감사가 켜져 있는 것입니다.
 
-4. 다음과 같은 검색 조건을 구성합니다. 
-
-   1. **활동**: 드롭다운 목록을 클릭하여 검색할 수 있는 활동을 표시합니다. 사용자 및 관리자 활동은 관련 활동 그룹으로 구성되어 있습니다. 특정 활동을 선택하거나, 활동 그룹 이름을 클릭하여 그룹의 모든 활동을 선택할 수 있습니다. 선택한 활동을 클릭하여 선택을 취소할 수도 있습니다. 검색을 실행하면 선택한 활동에 대한 감사 로그 항목만 표시됩니다. **모든 활동에 대한 결과 표시** 를 선택하면 선택한 사용자 또는 사용자 그룹이 수행한 모든 활동에 대한 결과가 표시됩니다.
-
-      100개가 넘는 사용자 및 관리자 활동이 감사 로그에 기록됩니다. 여러 서비스의 각 활동에 대한 설명을 보려면 이 문서의 항목에서 **감사되는 활동** 탭을 클릭합니다.
+3. **검색** 탭에서 다음과 같은 검색 조건을 구성합니다.
 
    1. **시작 날짜** 및 **날짜**: 기본적으로 최근 7일이 선택됩니다. 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 날짜 및 시간은 현지 시간으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다. 선택한 날짜 범위가 90일보다 크면 오류가 표시됩니다.
 
-      > [!TIP]
-      > 최대 날짜 범위인 90일을 사용하는 경우 **시작 날짜** 에 대해 현재 시간을 선택합니다. 그러지 않으면 시작 날짜가 종료 날짜보다 이전이라는 오류가 표시됩니다. 최근 90일 내에 감사를 켠 경우 최대 날짜 범위가 감사를 켠 날짜 이전에 시작할 수 없습니다.
+    > [!TIP]
+    > 최대 날짜 범위인 90일을 사용하는 경우 **시작 날짜** 에 대해 현재 시간을 선택합니다. 그러지 않으면 시작 날짜가 종료 날짜보다 이전이라는 오류가 표시됩니다. 최근 90일 내에 감사를 켠 경우 최대 날짜 범위가 감사를 켠 날짜 이전에 시작할 수 없습니다.
 
-   1. **사용자**: 이 상자 안을 클릭하고 검색 결과를 표시할 사용자를 하나 이상 선택합니다. 이 상자에서 선택한 사용자가 수행한 선택한 활동에 대한 감사 로그 항목이 결과 목록에 표시됩니다. 조직의 모든 사용자(및 서비스 계정)에 대한 항목을 반환하려면 이 상자를 비워 둡니다.
+   2. **활동**: 드롭다운 목록을 클릭하여 검색할 수 있는 활동을 표시합니다. 사용자 및 관리자 활동은 관련 활동 그룹으로 구성되어 있습니다. 특정 활동을 선택하거나, 활동 그룹 이름을 클릭하여 그룹의 모든 활동을 선택할 수 있습니다. 선택한 활동을 클릭하여 선택을 취소할 수도 있습니다. 검색을 실행하면 선택한 활동에 대한 감사 로그 항목만 표시됩니다. **모든 활동에 대한 결과 표시** 를 선택하면 선택한 사용자 또는 사용자 그룹이 수행한 모든 활동에 대한 결과가 표시됩니다.<br/><br/>100개가 넘는 사용자 및 관리자 활동이 감사 로그에 기록됩니다. 여러 서비스의 각 활동에 대한 설명을 보려면 이 문서의 항목에서 **감사되는 활동** 탭을 클릭합니다.
 
-   1. **파일, 폴더 또는 사이트**: 파일이나 폴더 이름의 일부 또는 전체를 입력하여 지정한 키워드를 포함하는 파일이나 폴더와 관련된 활동을 검색합니다. 파일 또는 폴더의 URL을 지정할 수도 있습니다. URL을 사용하는 경우 전체 URL 경로를 입력하거나 URL의 일부만 입력하는 경우 특수 문자나 공백을 포함하지 마세요.
+   3. **사용자**: 이 상자 안을 클릭하고 검색 결과를 표시할 사용자를 하나 이상 선택합니다. 이 상자에서 선택한 사용자가 수행한 선택한 활동에 대한 감사 로그 항목이 결과 목록에 표시됩니다. 조직의 모든 사용자(및 서비스 계정)에 대한 항목을 반환하려면 이 상자를 비워 둡니다.
 
-      조직의 모든 파일 및 폴더에 대한 항목을 반환하려면 이 상자를 비워 둡니다.
+   4. **파일, 폴더 또는 사이트**: 파일이나 폴더 이름의 일부 또는 전체를 입력하여 지정한 키워드를 포함하는 파일이나 폴더와 관련된 활동을 검색합니다. 파일 또는 폴더의 URL을 지정할 수도 있습니다. URL을 사용하는 경우 전체 URL 경로를 입력하거나 URL의 일부만 입력하는 경우 특수 문자나 공백을 포함하지 마세요.<br/><br/>조직의 모든 파일 및 폴더에 대한 항목을 반환하려면 이 상자를 비워 둡니다.
 
-      > [!TIP]
-      >
-      > - **사이트** 와 관련된 모든 활동을 찾으려면 URL 뒤에 와일드 카드 기호 (\*)를 추가하여 해당 사이트의 모든 항목을 반환합니다. 예를 들어 `"https://contoso-my.sharepoint.com/personal*"`이(가) 있습니다.
-      >
-      > - **파일** 과 관련된 모든 활동을 찾으려면 파일 이름 앞에 와일드 카드 기호 (\*)를 추가하여 해당 파일의 모든 항목을 반환하십시오. 예를 들어 `"*Customer_Profitability_Sample.csv"`가 있습니다.
+    > [!TIP]
+    >
+    > - **사이트** 와 관련된 모든 활동을 찾으려면 URL 뒤에 와일드 카드 기호 (\*)를 추가하여 해당 사이트의 모든 항목을 반환합니다. 예를 들어 `"https://contoso-my.sharepoint.com/personal*"`이(가) 있습니다.
+    >
+    > - **파일** 과 관련된 모든 활동을 찾으려면 파일 이름 앞에 와일드 카드 기호 (\*)를 추가하여 해당 파일의 모든 항목을 반환하십시오. 예를 들어 `"*Customer_Profitability_Sample.csv"`가 있습니다.
 
-5. **검색** 을 클릭하여 검색 조건을 사용한 검색을 실행합니다. 
+4. **검색** 을 클릭하여 검색 조건을 사용한 검색을 실행합니다. 
 
-   검색 결과가 로드되고, 잠시 후에 **결과** 에 표시됩니다. 검색이 완료되면 찾은 결과 수가 표시됩니다. **결과** 창에 최대 5000 개의 이벤트가 150 이벤트 단위로 표시 됩니다. 5000개 이상의 이벤트에서 검색 조건을 충족하는 경우에는 최근 5000 이벤트가 표시됩니다.
+   검색 결과가 로드되고, 잠시 후에 새 페이지에 표시됩니다. 검색이 완료되면 찾은 결과 수가 표시됩니다. 최대 5,000개의 이벤트가 150개 이벤트 단위로 표시됩니다. 5000개 이상의 이벤트에서 검색 조건을 충족하는 경우에는 최근 5000 이벤트가 표시됩니다.
 
    ![검색을 완료한 후 결과 수가 표시됩니다.](../media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
 
@@ -868,7 +862,7 @@ Shifts 앱 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 �
 
 ### <a name="microsoft-power-automate-activities"></a>Microsoft Power Automate 활동
 
-Power Automate(이전의 Microsoft Flow)에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 흐름 만들기, 편집, 삭제 및 흐름의 사용 권한 변경이 포함됩니다. Power Automate 활동을 감사하는 방법에 대한 자세한 내용은 [현재 보안 및 준수 센터에서 사용할 수 있는 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)를 블로그에서 참조하세요.
+Power Automate(이전의 Microsoft Flow)에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 흐름 만들기, 편집, 삭제 및 흐름의 사용 권한 변경이 포함됩니다. Power Automate 활동을 감사하는 방법에 대한 자세한 내용은 [현재 Microsoft 365 규정 준수 센터에서 사용할 수 있는 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)를 블로그에서 참조하세요.
 
 ### <a name="microsoft-power-apps-activities"></a>Microsoft Power Apps 활동
 
@@ -1071,7 +1065,7 @@ Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Direc
 
 **이벤트가 발생한 후 감사 레코드를 사용하는 데 시간이 얼마나 걸리나요?**
 
-대부분의 감사 데이터는 30분 이내에 사용 가능하지만 이벤트가 발생한 후 해당 감사 로그 항목이 검색 결과에 표시되기까지 최대 24시간이 걸릴 수 있습니다. 이 문서의 [감사 로그를 검색하는 데 필요한 요구 사항](#requirements-to-search-the-audit-log) 섹션에서 다른 서비스의 이벤트를 사용하는 데 걸리는 시간을 보여 주는 표를 참조하세요.
+대부분의 감사 데이터는 30분 이내에 사용 가능하지만 이벤트가 발생한 후 해당 감사 로그 항목이 검색 결과에 표시되기까지 최대 24시간이 걸릴 수 있습니다. 이 문서의 [감사 로그를 검색하기 전에 ](#before-you-search-the-audit-log) 섹션에서 다른 서비스의 이벤트를 사용하는 데 걸리는 시간을 보여 주는 표를 참조하세요.
 
 **감사 레코드는 얼마나 오래 보존되나요?**
 
@@ -1087,7 +1081,7 @@ Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Direc
 
 **감사 로그를 캡처하려는 각 서비스에서 개별적으로 감사를 사용하도록 설정해야 하나요?**
 
-대부분의 서비스에서(이 문서의 [감사 로그를 검색하는 데 필요한 요구 사항](#requirements-to-search-the-audit-log) 섹션에 설명된 대로) 조직에 대한 감사를 처음 켜면 기본적으로 감사가 사용되도록 설정되어 있습니다.
+대부분의 서비스에서(이 문서의 [감사 로그를 검색하기 전에 ](#before-you-search-the-audit-log) 섹션에 설명된 대로) 조직에 대한 감사를 처음 켜면 기본적으로 감사가 사용되도록 설정되어 있습니다.
 
 **감사 서비스에서 레코드 중복 제거를 지원하나요?**
 
