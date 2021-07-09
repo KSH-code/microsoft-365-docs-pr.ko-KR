@@ -14,12 +14,12 @@ metadata:
   audience: ITPro
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 053a20e65859fedbd91c9357ccdbd98bdb5109b3
-  ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+  ms.openlocfilehash: 686216d3fc0fab740231b7c383e01f8197e12e6e
+  ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/29/2021
-  ms.locfileid: "53177396"
+  ms.lasthandoff: 07/08/2021
+  ms.locfileid: "53338592"
 landingContent:
 - title: 기초 솔루션 가이드
   linkLists:
@@ -58,7 +58,7 @@ landingContent:
     - text: 이전 직원 제거
       url: ../admin/add-users/remove-former-employee.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: 파일 공유에서 Microsoft 365로 마이그레이션
-      url: /sharepointmigration/mm-get-started.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+      url: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
 - title: 팀워크 및 공동 작업 솔루션 가이드
   linkLists:
   - linkListType: deploy
@@ -70,7 +70,7 @@ landingContent:
   - linkListType: overview
     links:
     - text: 지능형 인트라넷
-      url: /sharepoint/intelligent-internet-overview.md
+      url: /sharepoint/intelligent-internet-overview
     - text: 공동 작업 거버넌스
       url: collaboration-governance-overview.md
     - text: 파일 공동 작업
@@ -108,7 +108,7 @@ landingContent:
     - text: ID 및 장치 액세스 구성
       url: ../security/office-365-security/microsoft-365-policies-configurations.md
     - text: 엔드포인트용 Microsoft Defender 배포
-      url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases.md
+      url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases
     - text: Microsoft 365 Defender 평가
       url: ../security/defender-endpoint/deployment-phases.md
     - text: 우선 순위 계정에 대한 보안 권장 사항
