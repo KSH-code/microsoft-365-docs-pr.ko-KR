@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eec4869c5ff0b4caeedc52891a56d604c4b54348
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 08a0b3722bad18b2823b0ba0e5c998d570f3654e
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286036"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362585"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -53,7 +53,7 @@ ms.locfileid: "53286036"
 | (필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md) | - 세그먼트 편집<br/>- 정책 편집 또는 제거<br/>- 정책 응용 프로그램 다시 실행<br/>- 정책 상태 보기 |
 | (필요한 경우) [문제 해결](information-barriers-troubleshooting.md)| - 작업이 예상대로 작동하지 않는 경우 작업 수행|
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 필요한 라이선스 [및](information-barriers.md#required-licenses-and-permissions)사용 권한 외에도 다음 요구 사항을 충족하는지 확인합니다.
 
@@ -83,8 +83,8 @@ ms.locfileid: "53286036"
       ```powershell
       Connect-AzAccount -Tenant "<yourtenantdomain.com>"  //for example: Connect-AzAccount -Tenant "Contoso.onmicrosoft.com"
       $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
-      $sp=Get-AzADServicePrincipal -ServicePrincipalName $appId
-      if ($sp -eq $null) { New-AzADServicePrincipal -ApplicationId $appId }
+      $sp=Get-AzureADServicePrincipal -Filter "appid eq '$($appid)'"
+      if ($sp -eq $null) { New-AzureADServicePrincipal -ApplicationId $appId }
       Start-Process  "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
       ```
 

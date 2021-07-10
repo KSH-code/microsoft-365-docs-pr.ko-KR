@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Yammer에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: d4988eee419a38497d4fa35cdb3e2f7fec103688
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 1398bf385631967d92de760924ef94e2b3c16441
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53052930"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362297"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Yammer의 보존에 대한 자세한 정보
 
->*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > 미리 보기에 이 기능이 있으며, 변경될 수 있습니다.
@@ -41,15 +41,26 @@ Yammer에 관한 정보를 담고 있으므로 이 문서의 정보는 [보존 �
 
 ## <a name="whats-included-for-retention-and-deletion"></a>보존 및 삭제에 포함된 항목
 
-Yammer에 대한 보존 정책을 사용하여 커뮤니티 메시지 및 개인 메시지 Yammer 항목을 보존 및 삭제할 수 있습니다.
+Yammer에 대한 보존 정책을 사용하여 커뮤니티 메시지 및 사용자 메시지 Yammer 항목을 보존 및 삭제할 수 있습니다.
 
 이모티콘 형태의 다른 사람의 반응은 이 메시지에 포함되지 않습니다.
 
 ## <a name="how-retention-works-with-yammer"></a>Yammer를 사용하는 경우의 보존 방식
 
-보존 정책을 사용하여 Yammer에서 커뮤니티 메시지와 비공개 메시지를 보존 하고 삭제할 수 있습니다. 비공개 메시지는 메시지에 포함된 각 사용자의 사서함에 있는 숨겨진 폴더에 저장되고, 커뮤니티 메시지는 커뮤니티의 그룹 사서함에 있는 유사한 숨겨진 폴더에 저장됩니다.
+이 섹션에서는 백엔드 스토리지 및 프로세스를 통해 규정 준수 요구 사항이 충족되는 방법과 현재 Yammer 앱에 표시되는 메시지가 아니라 eDiscovery 도구를 통해 확인해야 하는 방법에 대해 설명합니다.
 
-Yammer 메시지는 사용자 또는 그룹 사서함에 대해 구성된 보존 정책의 영향을받지 않습니다. Yammer 메시지가 Exchange에 저장되어 있어도 이 Yammer 데이터는 **Yammer 커뮤니티 메시지** 및 **Yammer 사용자 메시지** 위치에 대해 구성된 보존 정책에 의해서만 포함됩니다.
+보존 정책을 사용하여 Yammer에서 커뮤니티 메시지 및 사용자 메시지의 데이터를 보존하고 이러한 메시지를 삭제할 수 있습니다. Exchange 사서함은 이러한 메시지에서 복사된 데이터를 저장하는 데 사용됩니다. Yammer 사용자 메시지의 데이터는 사용자 메시지에 포함된 각 사용자의 사서함에 있는 숨겨진 폴더에 저장되며, 그룹 사서함의 숨겨진 유사한 폴더가 커뮤니티 메시지에 사용됩니다.
+
+커뮤니티 메시지의 복사본은 사용자를 @멘션하거나 사용자에게 회신을 알릴 때 사용자 사서함의 숨겨진 폴더에 저장할 수도 있습니다. 이러한 메시지는 커뮤니티 메시지로 시작되지만 Yammer 사용자 메시지에 대한 보존 정책에는 종종 커뮤니티 메시지의 복사본이 포함됩니다.
+
+이러한 숨겨진 폴더는 사용자 또는 관리자가 직접 액세스할 수 있도록 설계되지 않지만 규정 준수 관리자가 eDiscovery 도구를 사용하여 검색할 수 있는 데이터를 저장합니다.
+
+> [!IMPORTANT]
+> 커뮤니티 메시지의 복사본을 사용자 사서함에 저장할 수도 있으므로 Yammer 사용자 메시지에 대한 삭제 작업이 포함된 보존 정책으로 인해 Yammer 앱의 사용자에게 원래 커뮤니티 메시지가 더 이상 표시되지 않을 수 있습니다.
+> 
+> 그러나 원본 메시지의 복사본은 커뮤니티 그룹 사서함의 숨겨진 폴더에서 계속 사용할 수 있으며 eDiscovery를 통해 호환성 검색을 통해 액세스할 수 있습니다.
+
+Yammer 메시지는 Exchange 사서함에 대해 구성된 보존 정책의 영향을받지 않습니다. Yammer 메시지가 Exchange에 저장되어 있어도 이 Yammer 데이터는 **Yammer 커뮤니티 메시지** 및 **Yammer 사용자 메시지** 위치에 대해 구성된 보존 정책에 의해서만 포함됩니다.
 
 > [!NOTE]
 > Yammer 데이터를 보존하는 활성 보존 정책에 사용자가 포함되어 있고 Yammer 데이터를 보존하기 위해 이 정책에 포함된 사용자의 사서함을 삭제하면 사서함이 [비활성 사서함](inactive-mailboxes-in-office-365.md)으로 변환됩니다. 사용자에 대한 이 Yammer 데이터를 유지할 필요가 없는 경우 사서함을 삭제하기 전에 사용자 계정을 보존 정책에서 제외합니다.
@@ -91,7 +102,7 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 ## <a name="messages-and-external-users"></a>메시지 및 외부 사용자
 
-기본적으로 Yammer 사용자 메시지에 대한 보존 정책은 조직의 모든 사용자에게 적용되지만 외부 사용자에게는 적용되지 않습니다. **사용자 선택** 을 사용하고 해당 계정을 지정하는 경우 외부 사용자에게 보존 정책을 적용할 수 있습니다. 
+기본적으로 Yammer 사용자 메시지에 대한 보존 정책은 조직의 모든 사용자에게 적용되지만 외부 사용자에게는 적용되지 않습니다. **포함된 사용자에 대한 옵션 편집** 을 사용하고 해당 계정을 지정하는 경우 외부 사용자에게 보존 정책을 적용할 수 있습니다.
 
 지금은 Azure B2B 게스트 사용자가 지원되지 않습니다.
 
@@ -103,9 +114,9 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 ## <a name="limitations"></a>제한 사항
 
-Yammer 보존 정책은 현재 미리 보기 상태이며 당사는 보존 기능 최적화를 계속 진행하고 있습니다. 그동안 Yammer 커뮤니티 메시지 및 개인 메시지에 대해 보존을 사용할 때 다음 제한 사항에 유의해야 합니다.
+Yammer 보존 정책은 현재 미리 보기 상태이며 당사는 보존 기능 최적화를 계속 진행하고 있습니다. 그동안 Yammer 커뮤니티 메시지 및 사용자 메시지에 대해 보존을 사용할 때 다음 제한 사항에 유의해야 합니다.
 
-- **Yammer 사용자 메시지** 위치에 대해 **사용자 선택** 을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
+- **Yammer 사용자 메시지** 위치에 대해 **편집** 을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
 
 ## <a name="configuration-guidance"></a>구성 지침
 

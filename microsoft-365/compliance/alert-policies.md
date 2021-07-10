@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 센터에서 경고 정책을 Microsoft 365 규정 준수 센터 위협, 데이터 손실 및 권한 문제를 모니터링합니다.
-ms.openlocfilehash: 4ae85f69eea5221945c531b2b63000be7eb43fb7
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 02b5727f0c844fa6b825b4c0c032ea6c2633d6df
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341071"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363994"
 ---
 # <a name="alert-policies-in-the-microsoft-365-compliance-center"></a>알림 정책의 Microsoft 365 규정 준수 센터
 
@@ -63,6 +63,9 @@ ms.locfileid: "53341071"
 
 ![준수 센터에서 정책을 선택하고 경고에서 경고 정책을 선택하여 경고 정책을 보고 생성합니다.](../media/LaunchAlertPoliciesMCC.png)
 
+> [!NOTE]
+> 알림 관리 역할에 View-Only 관리 역할이 할당되어야만 알림 정책이 Microsoft 365 규정 준수 센터. 경고 정책을 만들고 편집하려면 경고 관리 역할을 할당해야 합니다. 자세한 내용은 보안 및 규정 준수 [센터의 사용 권한을 참조하세요.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
+
 경고 정책은 다음과 같은 설정 및 조건으로 구성됩니다.
 
 - **경고가 추적하는 활동입니다.** 활동을 추적하는 정책을 만들거나 경우에 따라 외부 사용자와 파일을 공유하거나 액세스 권한을 할당하거나 익명 링크를 만들어서 파일을 공유하는 등의 몇 가지 관련 활동을 만들 수 있습니다. 사용자가 정책에 정의된 활동을 수행하면 경고 임계값 설정에 따라 경고가 트리거됩니다.
@@ -89,7 +92,7 @@ ms.locfileid: "53341071"
 
   - 메일 흐름
 
-  - 사용 권한
+  - 권한
 
   - 위협 관리
 
@@ -119,7 +122,7 @@ Microsoft는 관리자 권한 남용, Exchange, 잠재적인 외부 및 내부 �
 |**관리자가 전자 메일에 대한 수동 조사를 트리거했습니다.**|관리자가 위협 탐색기에서 전자 메일에 대한 수동 조사를 트리거하면 경고를 생성합니다. 자세한 내용은 예제: 보안 [관리자가 위협 탐색기에서 조사를 트리거합니다.를 참조하세요.](../security/office-365-security/automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) 이 경고는 조직에 조사가 시작된 것을 알리는 경고입니다. 경고는 경고를 트리거한 사람에 대한 정보를 제공하며 조사에 대한 링크를 포함합니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리| E5/G5 또는 Microsoft Defender for Office 365 P2 추가 기능 구독| 
 |**전달/리디렉션 규칙 만들기**|조직의 누군가가 메시지를 다른 전자 메일 계정으로 전달하거나 리디렉션하는 사서함에 대한 받은 편지함 규칙을 만들 때 경고를 생성합니다. 이 정책은 PowerShell에서 웹용 Outlook(이전의 Outlook Web App) 또는 Exchange Online 규칙만 추적합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 받은 편지함 규칙을 사용하여 전자 메일을 전달하고 리디렉션하는 웹용 Outlook 다른 계정으로 메시지를 웹용 Outlook 규칙 사용을 [참조하세요.](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |e **eDiscovery 시작 또는 내보내기**|보안 및 준수 센터에서 콘텐츠 검색 도구를 사용하는 경우 경고를 생성합니다. 다음과 같은 콘텐츠 검색 활동이 수행되면 경고가 트리거됩니다. <br/><br/>* 콘텐츠 검색이 시작된 경우<br/>* 콘텐츠 검색 결과를 내보낼 수 있습니다.<br/>* 콘텐츠 검색 보고서 내보내기<br/><br/>eDiscovery 사례와 함께 이전 콘텐츠 검색 활동을 수행할 때도 경고가 트리거됩니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 콘텐츠 검색 활동에 대한 자세한 내용은 감사 로그에서 [eDiscovery 활동 검색을 참조하세요.](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
-|**관리자 권한 Exchange 권한 상승**|조직에서 다른 사용자에게 관리 권한이 할당된 경우 Exchange Online 생성합니다. 예를 들어 사용자가 조직의 조직 관리 역할 그룹에 Exchange Online. 이 정책의 **심각도는** 낮음 설정입니다.|사용 권한|E1/F1/G1, E3/F3/G3 또는 E5/G5|
+|**관리자 권한 Exchange 권한 상승**|조직에서 다른 사용자에게 관리 권한이 할당된 경우 Exchange Online 생성합니다. 예를 들어 사용자가 조직의 조직 관리 역할 그룹에 Exchange Online. 이 정책의 **심각도는** 낮음 설정입니다.|권한|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**맬웨어가 포함된 전자 메일 메시지가 전달 후 제거됨**|맬웨어가 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md)|위협 관리|E5/G5 또는 Microsoft Defender for Office 365 P2 추가 기능 구독|
 |**피싱 URL이 포함된 전자 메일 메시지가 전달 후 제거됨**|피싱이 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
 |**사용자가 맬웨어 또는 피싱 메일로 보고한 전자 메일**|조직의 사용자가 보고서 메시지 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고하면 경고를 생성합니다. 이 정책의 **심각도는** 낮음 설정입니다. 이 추가 기능의 자세한 내용은 보고서 메시지 추가 기능 [사용을 참조하세요.](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
@@ -224,7 +227,7 @@ RBAC 사용 권한에 따라 이 디자인을 사용하면 조직의 특정 작�
 
 기본 경고 정책이 할당된 범주를 표시하는 경우 기본 경고 정책의 [표를 참조합니다.](#default-alert-policies)
 
-|역할|정보 거버넌스|데이터 손실 방지|메일 흐름|사용 권한|위협 관리|기타|
+|역할|정보 거버넌스|데이터 손실 방지|메일 흐름|권한|위협 관리|기타|
 |:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |감사 로그|||||||
 |사례 관리|||||||

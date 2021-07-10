@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0c08f5d05c42ed8d1e84632377be28e542771c2a
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e70a67f9472dff155b8554d5d6ae26c79d49a67a
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841369"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362620"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -25,7 +25,6 @@ Microsoft Managed Desktop은 [Microsoft 365 Enterprise](../../enterprise/microso
 - 사용자 장치 배포
 - IT 서비스 관리 및 운영
 - 보안 모니터링 및 대응
-- 사용자 지원
 
 Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있는 몇 가지 문제에 대한 솔루션을 제공합니다.
 - 민첩한 소프트웨어 서비스로 전환 하는 것은 어려운 일입니다.
@@ -33,7 +32,7 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 - 현재 사용되는 많은 IT 관리 및 보안 프로세스는 오래 되었으며 시간과 비용이 많이듭니다.
 - 기업은 디지털 인프라를 유지하는 것 보다 고유한 성공을 가져다 줄 것에 집중하고 싶어 합니다.
 
-사용자는 최상의 성능과 신뢰도를 위해 고안되고 철저히 검사된 장치와 소프트웨어를 사용하여 최신 버전의 Windows 10과 엔터프라이즈용 Microsoft 365 앱 등을 사용하게 됩니다. 그리고 이런 소프트웨어가 모든 단계가 철저히 모니터링 되는 정교한 롤아웃 순서에 따라 자동적으로 업데이트 되기 때문에 업데이트에 대해 걱정 할 필요가 없습니다. 그리고 기술 및 보안 문제에 대비하여 등록된 장치는 매일 24시간 모니터링 되기 때문에 문제가 발생 하면 지원이 제공됩니다.
+사용자는 최상의 성능과 신뢰도를 위해 고안되고 철저히 검사된 장치와 소프트웨어를 사용하여 최신 버전의 Windows 10과 엔터프라이즈용 Microsoft 365 앱 등을 사용하게 됩니다. 그리고 이런 소프트웨어가 모든 단계가 철저히 모니터링 되는 정교한 롤아웃 순서에 따라 자동적으로 업데이트 되기 때문에 업데이트에 대해 걱정 할 필요가 없습니다. 그리고 기술 및 보안 문제에 대비하여 등록된 장치는 매일 24시간 모니터링되기 때문에 문제가 발생하면 지원이 제공됩니다.
 
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 고유성

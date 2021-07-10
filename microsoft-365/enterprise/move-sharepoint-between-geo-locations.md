@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 다중 위치 SharePoint 다른 지리적 위치로 이동하고 사용자에게 변경에 대한 기대치를 전달하는 방법에 대해 알아보고
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eed323b2e2b8f68a4a603052657e17495bb17690
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5a49098045dbce94ef1c474497b8da1b397ac0b0
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50910933"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362357"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>SharePoint 사이트를 다른 지리적 위치로 이동
 
@@ -28,7 +28,7 @@ SharePoint 사이트 지리적 이동으로 SharePoint 사이트를 Multi-Geo �
 
 다음과 같은 유형의 사이트를 지리적 위치 간에 이동할 수 있습니다.
 
-- Microsoft 365 그룹에 연결된 사이트
+- Microsoft 365 그룹 연결 사이트(사이트와 연결된 사이트 Microsoft Teams
 - Microsoft 365 그룹과 연결되지 않은 최신 사이트
 - 클래식 SharePoint 사이트
 - 커뮤니케이션 사이트
@@ -177,11 +177,11 @@ SharePoint 사이트 지리적 이동이 진행 중이거나 `Stop-SPOSiteConten
 
 이동하는 동안 그리고 완료된 후, 사이트에 대한 권한이 있는 사용자는 해당 사이트에 계속 액세스할 수 있습니다.
 
-### <a name="sync-client"></a>동기화 클라이언트
+### <a name="sync-app"></a>동기화 앱
 
-사이트 이동이 완료되고 나면 동기화 클라이언트가 자동 검색 후 원활하게 새 사이트 위치와의 동기화를 전송합니다. 사용자가 다시 로그인하거나 다른 조치를 취할 필요가 없습니다. 동기화 클라이언트 버전 17.3.6943.0625 이상이 필요합니다.
+사이트 이동이 완료되면 동기화 앱이 자동으로 검색하여 새 사이트 위치로 동기화를 원활하게 전송합니다. 사용자가 다시 로그인하거나 다른 조치를 취할 필요가 없습니다. (동기화 앱 버전 17.3.6943.0625 이상이 필요합니다.)
 
-이동이 진행되는 동안 사용자가 파일을 업데이트하는 경우 동기화 클라이언트는 이동이 진행되는 동안에는 파일 업로드가 보류된다는 사실을 알려줍니다.
+이동이 진행 중인 동안 사용자가 파일을 업데이트하면 동기화 앱은 이동이 진행 중인 동안 파일 업로드가 보류 중이라 알릴 수 있습니다.
 
 ### <a name="sharing-links"></a>링크 공유
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 682f59729e06c63818491ad7540528d574380c8b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 5cb819daa11a50ef54c758a6aa696a5fc645029c
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877839"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363982"
 ---
 # <a name="device-control-for-macos"></a>macOS용 장치 제어
 
@@ -35,38 +35,14 @@ ms.locfileid: "52877839"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
-
 ## <a name="requirements"></a>요구 사항
 
 macOS용 장치 제어에는 다음과 같은 전제가 있습니다.
 
 >[!div class="checklist"]
 > - 끝점 권리에 대한 Microsoft Defender 권리(평가판일 수 있습니다)
-> - 최소 OS 버전: macOS 10.15.4 이상
-> - 최소 제품 버전: 101.24.59
-> - 디바이스가 시스템 확장을 사용하여 실행되고 있어야 합니다(macOS 11 Big Sur의 기본값). 
-> 
->   다음 명령을 실행하여 장치가 시스템 확장에서 실행되고 있는지 확인하고 콘솔에 인쇄 `endpoint_security_extension` 중인지 확인할 수 있습니다. 
-> 
->   ```bash
->   mdatp health --field real_time_protection_subsystem 
->   ```
-> - 디바이스가 (이전에는 ) Microsoft 자동 업데이트 `Beta` `InsiderFast` 채널에 있어야 합니다. 자세한 내용은 Mac에서 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](mac-updates.md)
-> 
->   다음 명령을 사용하여 업데이트 채널을 확인할 수 있습니다. 
-> 
->    ```bash
->    mdatp health --field release_ring 
->    ```
->
->    위의 명령이 또는 를 인쇄하지 않는 경우 터미널에서 다음 `Beta` `InsiderFast` 명령을 실행합니다. 채널 업데이트는 다음에 제품이 시작될 때(다음 제품 업데이트가 설치되거나 장치가 다시 시작될 때) 적용됩니다. 
-> 
->    ```bash
->    defaults write com.microsoft.autoupdate2 ChannelName -string Beta
->    ```
->
->    또는 관리되는 환경(JAMF 또는 Intune)에 있는 경우 원격으로 업데이트 채널을 구성할 수 있습니다. 자세한 내용은 Mac에서 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](mac-updates.md) 
+> - 최소 OS 버전: macOS 11 이상
+> - 최소 제품 버전: 101.34.20
 
 ## <a name="device-control-policy"></a>장치 제어 정책
 
@@ -100,7 +76,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | navigationTarget |
-| **Data type** | String |
+| **Data type** | 문자열 |
 | **Comments** | 정의되지 않은 경우 제품이 수행한 작업을 설명하는 일반 페이지를 표시하는 기본 URL을 사용합니다. |
 
 ### <a name="allow-or-block-removable-devices"></a>이동식 장치 허용 또는 차단
@@ -142,6 +118,9 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 - `audit` - 이 적용 수준에서 장치에 대한 액세스가 제한되면 사용자에게 알림이 표시되지만 디바이스를 계속 사용할 수 있습니다. 이 적용 수준은 정책의 효과를 평가하는 데 유용할 수 있습니다.
 - `block` - 이 적용 수준에서는 사용자가 장치에서 수행할 수 있는 작업이 정책에 정의된 작업으로 제한됩니다. 또한 사용자에게 알림이 표시됩니다. 
+
+> [!NOTE] 
+> 기본적으로 적용 수준은 로 `audit` 설정됩니다. 
 
 |섹션|값|
 |:---|:---|

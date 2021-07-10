@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft Azure Active Directory(Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 추가 정보입니다.'
-ms.openlocfilehash: 1e3871dc5a8a8a9ecbef29df21431aa3707871d0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0e7abd68945a9b685a33c120ff1e92fda62b2c56
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923853"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362729"
 ---
 # <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이치클라드에서 마이그레이션하기 위한 추가 Azure Active Directory 정보
 
@@ -80,6 +80,10 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 **게시하는 응용 프로그램은 어떻게 하나요?**
 
 테넌트 외부에 있는 사용자가 사용할 수 있는 응용 프로그램을 게시하는 경우 연속성을 보장하기 위해 응용 프로그램 등록을 변경해야 할 수 있습니다. 응용 프로그램을 사용하는 다른 테넌트는 테넌트와 다른 시간으로 이동할 수 있습니다. 응용 프로그램에 대한 액세스 권한을 잃지 않도록 보장하려면 Azure Germany에서 Azure Public으로 동기화되는 앱에 동의해야 합니다.
+
+**마이그레이션 중 새 다중 테넌트 응용 프로그램을 추가하는 경우**
+
+다른 조직(다중 테넌트 응용 프로그램)에서 게시하는 새 응용 프로그램을 사용하려는 경우 마이그레이션 프로세스(2~9단계)에서 해당 응용 프로그램을 추가하지는 제한됩니다.  조직이 9단계를 완료하고 Azure 공용 인스턴스로 완전히 전환될 때 이 작업을 실행할 수 있습니다.
 
 ## <a name="additional-considerations"></a>추가 고려 사항
 

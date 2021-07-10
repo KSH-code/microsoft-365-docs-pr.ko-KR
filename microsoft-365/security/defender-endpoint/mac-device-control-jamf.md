@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b9ce161a472366d11b267824c9bd08ceccf285aa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 21e44090cf21ac8bba29885a2f97242faf3e2164
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933460"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363970"
 ---
 # <a name="examples-of-device-control-policies-for-jamf"></a>JAMF에 대한 장치 제어 정책의 예
 
@@ -34,8 +34,6 @@ ms.locfileid: "51933460"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
-
-[!include[Prerelease information](../../includes/prerelease.md)]
 
 이 문서에는 조직에 맞게 사용자 지정할 수 있는 장치 제어 정책의 예가 포함되어 있습니다. 이러한 예제는 기업에서 JAMF를 사용하여 장치를 관리하는 경우 적용할 수 있습니다.
 

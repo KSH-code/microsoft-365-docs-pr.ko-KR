@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46f223953df65b75c0ecfe0d2c9fe92514b797ff
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: a3c7f88441b05d6c64470f6632b9c63ac67b295c
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341655"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363958"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -620,7 +620,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |지리적 위치 관리자 추가됨|GeoAdminAdded|SharePoint 또는 전역 관리자가 위치에 대한 지리적 관리자로 사용자를 추가했습니다.|
 |사용자가 그룹을 만들 수 있도록 허용됨|AllowGroupCreationSet|사이트 관리자 또는 소유자가 해당 권한이 할당된 사용자가 사이트에 대한 그룹을 만들 수 있도록 허용하는 사용 권한 수준을 사이트에 추가합니다.|
 |사이트 지리적 이동 취소됨|SiteGeoMoveCancelled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 성공적으로 취소했습니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [OneDrive 및 SharePoint Online의 여러 지리 기능](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md)을 참조하세요.|
-|공유 정책 변경됨|SharingPolicyChanged|SharePoint 또는 전역 관리자가 Microsoft 365 관리 포털, SharePoint 관리자 포털 또는 SharePoint Online 관리 셸을 사용하여 SharePoint 공유 정책을 변경했습니다. 조직의 공유 정책 설정에 대한 변경 내용이 모두 기록됩니다. 변경 된 정책은 이벤트 레코드의 자세한 속성에서 **ModifiedProperties** 필드에서 식별됩니다.|
+|공유 정책 변경됨|SharingPolicyChanged|SharePoint 또는 전역 관리자가 Microsoft 365 관리 센터, SharePoint 관리자 센터 또는 SharePoint Online 관리 셸을 사용하여 SharePoint 공유 정책을 변경했습니다. 조직의 공유 정책 설정에 대한 변경 내용이 모두 기록됩니다. 변경 된 정책은 이벤트 레코드의 자세한 속성에서 **ModifiedProperties** 필드에서 식별됩니다.|
 |장치 액세스 정책 변경됨|DeviceAccessPolicyChanged|SharePoint 또는 전역 관리자가 조직의 관리되지 않는 장치 정책을 변경했습니다. 이 정책은 조직에 가입되지 않은 장치에서의 SharePoint, OneDrive, Microsoft 365 액세스를 제어합니다. 이 정책을 구성하려면 Enterprise Mobility + Security 구독이 필요합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요.|
 |예외 사용자 에이전트 변경됨|CustomizeExemptUsers|SharePoint 또는 전역 관리자가 SharePoint 관리 센터의 예외 사용자 에이전트 목록을 사용자 지정했습니다. 인덱스에 전체 웹 페이지를 받을 수 없도록 제외할 사용자 에이전트를 지정할 수 있습니다. 즉, 예외로 지정한 사용자 에이전트가 InfoPath 양식을 발견할 경우 양식이 전체 웹 페이지가 아니라 XML 파일로 반환됩니다. 이렇게 하면 InfoPath 양식을 더 빠르게 인덱싱할 수 있습니다.|
 |네트워크 액세스 정책 변경됨|NetworkAccessPolicyChanged|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 또는 SharePoint PowerShell을 사용하여 위치 기반 액세스 정책(신뢰할 수 있는 네트워크 경계라고도 함)을 변경했습니다. 이 정책 유형은 지정한 권한 있는 IP 주소 범위를 기반으로 조직의 SharePoint 및 OneDrive 리소스에 액세스할 수 있는 사용자를 제어합니다. 자세한 내용은 [네트워크 위치를 기반으로 SharePoint Online 및 OneDrive 데이터에 대한 액세스 제어](/sharepoint/control-access-based-on-network-location)를 참조하세요.|

@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Business CSP 구독을 전환
-description: CSP 구독을 미리 보기에서 GA(일반 Microsoft 365 Business)로 전환하는 방법을 확인하십시오.
+description: 비즈니스 CSP 구독을 미리 보기에서 GA(일반 Microsoft 365)로 전환하는 방법을 확인하십시오.
 author: jasongroce
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ localization_priority: Normal
 audience: microsoft-business
 keywords: Microsoft 365 Business, Microsoft 365, SMB, CSP 구독 전환
 ms.date: 11/01/2017
-ms.openlocfilehash: 3f6c71edb50cc3c5509e61a83efb64185c10648d
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 47b65b2de9db0fd27e29272937bab2041eb67300
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925006"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363822"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Microsoft 365 Business CSP 구독을 전환
 
@@ -36,7 +36,7 @@ Microsoft 365 Business 미리 보기 CSP를 구독 중인 경우 이 가이드�
     ![파트너 센터의 고객 구독](../../media/pc_customer_subscriptions_1.png)
     
 3. 회사의 구독 페이지에서 **구독** **추가를 선택합니다.**
-4. 새 **구독 페이지에서** **중소기업을** 선택한 다음 목록에서 Microsoft 365 Business **선택합니다.**
+4. 새 **구독 페이지에서** 중소기업을 선택한 다음 목록에서 Microsoft 365 **비즈니스를** 선택합니다. 
 5. 라이선스 수를 추가하고 **다음: 검토** 를 선택하여 구독을 검토한 다음 **제출** 을 선택합니다.
 
     ![Microsoft 365 Business에 대한 새 구독을 검토](../../media/pc_customer_reviewnewsubscription.png)
@@ -44,20 +44,20 @@ Microsoft 365 Business 미리 보기 CSP를 구독 중인 경우 이 가이드�
     **라이선스 기준 구독** 에 **Microsoft 365 Business 미리 보기** 및 **Microsoft 365 Business** 가 표시됩니다. 다음에 미리 보기 구독을 일시 중단합니다.
 
 6. **Microsoft 365 Business 미리 보기** 를 선택합니다.
-7. 미리 **Microsoft 365 Business 페이지에서** 일시 중단을  선택하여 미리 보기 구독을 일시 중단합니다.
+7. 비즈니스 **Microsoft 365 미리** 보기 페이지에서  일시 중단을 선택하여 미리 보기 구독을 일시 중단합니다.
 
     ![Microsoft 365 Business 미리 보기 구독 일시 중단](../../media/pc_customer_m365bpreview_suspend.png)
 
 8. **제출** 을 선택하여 확인합니다.
 
-    구독 **페이지에서** 구독 미리 **보기 Microsoft 365 Business** 일시 중단 **으로 표시되어 있는지 확인하십시오.**
+    구독 **페이지에서** 비즈니스 미리 **보기** Microsoft 365 일시 중단 **으로 표시되어 있는지 확인하십시오.**
 
     ![미리 보기 구독이 일시 중단되었는지 확인](../../media/pc_customer_m365bpreview_suspend_confirm.png)
 
 9. 필요에 따라 라이선스 계약을 확인할 수도 있습니다. 이렇게 하려면 다음 단계를 따르세요.
     1. 회사의 **구독** 페이지에서 **사용자 및 라이선스** 를 선택합니다.
     2. 사용자 **및 라이선스 페이지에서** 사용자를 선택합니다.
-    3. 사용자 페이지에서 라이선스 할당 섹션을 확인하고 에 라이선스가 **Microsoft 365 Business.** 
+    3. 사용자 페이지에서 라이선스 할당 섹션을 확인하고 비즈니스 에 **라이선스가 Microsoft 365 합니다.** 
 
         ![Microsoft 365 Business 라이선스가 사용자에게 할당되었는지 확인](../../media/pc_customer_userslicenses_m365b_validate.png)
 
@@ -73,7 +73,7 @@ Microsoft 365 Business 미리 보기 CSP를 구독 중인 경우 이 가이드�
 |-------|-----------------|--------------|---------------|---------------|
 | **상태** | 유예 기간 | 만료됨      | 사용 안 함      | 프로비전 해제됨 |
 | **서비스 영향**                                                        |
-| **Microsoft 365 Business 관리 포털** | 기능에 미치는 영향은 없음 | 기능에 미치는 영향은 없음 | 사용자를 추가/삭제하고, 구독을 구매할 수 있습니다.</br> 라이선스를 할당/해지할 수 없습니다. | 고객의 구독 및 모든 데이터가 삭제됩니다. 관리자는 다른 유료 구독을 관리할 수 있습니다. |
+| **Microsoft 365 관리 센터** | 기능에 미치는 영향은 없음 | 기능에 미치는 영향은 없음 | 사용자를 추가/삭제하고, 구독을 구매할 수 있습니다.</br> 라이선스를 할당/해지할 수 없습니다. | 고객의 구독 및 모든 데이터가 삭제됩니다. 관리자는 다른 유료 구독을 관리할 수 있습니다. |
 | **Office 앱**                         | 최종 사용자 영향 없음 | 최종 사용자 영향 없음 | Office는 제한된 기능 모드로 전환됩니다.</br> 사용자는 파일만 볼 수 있습니다. | Office는 제한된 기능 모드로 전환됩니다.</br> 사용자는 파일만 볼 수 있습니다. |
 | **클라우드 서비스(SharePoint Online, Exchange Online, Skype, Teams 등)** | 최종 사용자 영향 없음 | 최종 사용자 영향 없음 | 최종 사용자 및 관리자가 클라우드에서 데이터에 액세스할 수 없습니다. | 고객의 구독 및 모든 데이터가 삭제됩니다. |
 | **EM+S 구성 요소** | 관리자 영향 없음</br> 최종 사용자 영향 없음 | 관리자 영향 없음</br> 최종 사용자 영향 없음 | 기능이 더 이상 적용되지 않습니다.</br> 자세한 내용은 [구독 만료 시 모바일 장치 영향](#mobile-device-impacts-upon-subscription-expiration) 및 [구독 만료 시 Windows 10 PC 영향](#windows-10-pc-impacts-upon-subscription-expiration)을 참조하십시오. | 기능이 더 이상 적용되지 않습니다.</br> 자세한 내용은 [구독 만료 시 모바일 장치 영향](#mobile-device-impacts-upon-subscription-expiration) 및 [구독 만료 시 Windows 10 PC 영향](#windows-10-pc-impacts-upon-subscription-expiration)을 참조하십시오. |

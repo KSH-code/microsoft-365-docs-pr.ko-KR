@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 지원 사례에 대한 eDiscovery 진단 정보를 수집하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 842f8baf770f178df3298bbfa911de26ce946ed0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b2441e0b7af8a82e24a8acca9e000e954e1c8964
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926558"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362597"
 ---
 # <a name="collect-ediscovery-diagnostic-information"></a>eDiscovery 진단 정보 수집
 
@@ -39,7 +39,7 @@ Core eDiscovery에 대한 진단 정보를 수집하는 것은 cmdlet 기반이�
 생성된 텍스트 파일을 검토하고 중요한 정보를 편집한 후 사례를 작업하는 Microsoft 기술 지원 엔지니어에게 전송합니다.
 
 > [!NOTE]
-> 또한 이 섹션의 명령을 실행하여 준수 센터의 콘텐츠 검색 페이지에 나열된 검색 및 내보내기에 대한 진단 Microsoft 365 있습니다. 
+> 이 섹션의 명령을 실행하여 검색 및 내보내기 검색에 대한 진단  정보를 수집할 수도 Microsoft 365 규정 준수 센터.
 
 ### <a name="collect-information-about-searches"></a>검색에 대한 정보 수집
 
@@ -67,10 +67,10 @@ Get-CaseHoldPolicy "<Case hold policy name>" | %{"--CaseHoldPolicy--";$_|FL;"--C
 
 ### <a name="collect-all-case-information"></a>모든 사례 정보 수집
 
-경우에 따라 Microsoft 지원에서 문제를 조사하는 데 필요한 정보가 분명하지 않은 경우도 있습니다. 이 경우 Core eDiscovery 사례에 대한 모든 진단 정보를 수집할 수 있습니다. 다음 *명령의 Core eDiscovery* 사례 이름은 준수 센터의 **Core eDiscovery** 페이지에 표시되는 사례의 이름과 Microsoft 365 같습니다.
+경우에 따라 Microsoft 지원에서 문제를 조사하는 데 필요한 정보가 분명하지 않은 경우도 있습니다. 이 경우 Core eDiscovery 사례에 대한 모든 진단 정보를 수집할 수 있습니다. 다음 *명령의 Core eDiscovery* 사례 이름은 다음 명령의 **Core eDiscovery** 페이지에 표시되는 사례의 이름과 Microsoft 365 규정 준수 센터.
 
 ```powershell
-Get-ComplianceCase "<Core eDiscovery case name>"| %{"$($_.Name)";"`t==Searches==";Get-ComplianceSearch -Case $_.Name | FL;"`t==Search Actions==";Get-ComplianceSearchAction -Case $_.Name |FL;"`t==Holds==";Get-CaseHoldPolicy -Case $_.Name | %{$_|FL;"`t`t ==$($_.Name) Rules==";Get-CaseHoldRule -Policy $_.Name | FL}} > "eDiscoveryCase.txt"
+Get-ComplianceCase "<Core eDiscovery case name>"| %{$_|fl;"`t==Searches==";Get-ComplianceSearch -Case $_.Name | FL;"`t==Search Actions==";Get-ComplianceSearchAction -Case $_.Name |FL;"`t==Holds==";Get-CaseHoldPolicy -Case $_.Name | %{$_|FL;"`t`t ==$($_.Name) Rules==";Get-CaseHoldRule -Policy $_.Name | FL}} > "eDiscoveryCase.txt"
 ```
 
 ## <a name="collect-diagnostic-information-for-advanced-ediscovery"></a>사용자에 대한 진단 Advanced eDiscovery

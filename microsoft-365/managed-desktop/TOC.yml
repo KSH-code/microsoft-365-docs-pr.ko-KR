@@ -41,8 +41,10 @@
           href: service-description/privacy-personal-data.md
         - name: 업데이트
           href: service-description/updates.md
-        - name: 지원
+        - name: 관리자 지원
           href: service-description/support.md
+        - name: 사용자 지원
+          href: service-description/user-support.md
         - name: 운영 및 모니터링
           href: service-description/operations-and-monitoring.md
         - name: 진단 로그
@@ -115,6 +117,8 @@
                   href: get-started/register-devices-partner.md
             - name: 직접 기존의 장치 등록
               href: get-started/register-reused-devices-self.md
+        - name: 사용자 지원 기능 사용
+          href: get-started/enable-support.md
         - name: 사용자들이 장치를 사용할 수 있도록 준비시키기
           href: get-started/get-started-devices.md
         - name: Autopilot 및 등록 상태 페이지의 첫 실행 환경

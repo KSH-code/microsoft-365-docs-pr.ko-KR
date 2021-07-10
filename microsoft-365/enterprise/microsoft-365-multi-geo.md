@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365 Multi-Geo를 사용하여 Microsoft 365 범위를 여러 지리적 지역으로 확장하는 방법을 알아봅니다.
-ms.openlocfilehash: 2805470f1a35bb5978f3d25c30aa07523ad21afb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 17fc2645f69a0d91c71c91718f321e5932d31bd2
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909553"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362765"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -57,6 +57,8 @@ Microsoft 365 Multi-Geo는 테넌트에 최소 Microsoft 365 사용자 수가 25
 - 온라인 계획 1 또는 계획 2 교환
 - OneDrive for Business 계획 1 또는 계획 2
 - SharePoint Online 계획 1 또는 계획 2
+
+사용자에게 라이선스가 할당되고 나중에 제거되면 Teams 데이터를 중앙 위치로 다시 이동하기 위해 대기열에 옮기게 됩니다. SharePoint Exchange 데이터가 이동되지 않습니다.
 
 ## <a name="microsoft-365-multi-geo-availability"></a>Microsoft 365 Multi-Geo 사용 가능 여부
 

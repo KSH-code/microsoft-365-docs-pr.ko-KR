@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: 사이트 이동을 예약하고 사용자에게 기대치를 전달하는 OneDrive 지역 위치로 이동하는 방법에 대한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 59b3fb47fd195967e7af056c7a71fb4e736471d1
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9e75c8e4102f82d4ab6e0f99ea26e1c0ad8b4bab
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692265"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362249"
 ---
 # <a name="move-a-onedrive-site-to-a-different-geo-location"></a>OneDrive 사이트를 다른 지리적 위치로 이동 
 
@@ -28,7 +28,7 @@ ms.locfileid: "46692265"
 
 OneDrive 서비스는 Azure Blob Storage 사용하여 콘텐츠를 저장합니다. 사용자의 Storage 연결된 OneDrive Blob이 대상 위치로부터 40일 이내에 원본에서 대상 지리적 위치로 OneDrive 이동됩니다. 사용자의 사용자 OneDrive 액세스는 대상 웹 응용 OneDrive 즉시 복원됩니다.
 
-OneDrive 지리적 이동 기간(약 2 ~ 6시간) 동안 사용자의 OneDrive는 읽기 전용으로 설정됩니다. 사용자는 OneDrive 동기화 클라이언트 또는 SharePoint Online의 OneDrive 사이트를 통해 해당 파일에 계속 액세스할 수 있습니다. OneDrive 지리적 이동이 완료되면 사용자는 Microsoft 365 앱 시작 관리자에서 OneDrive로 이동할 때 대상 지리적 위치에 자동으로 연결됩니다. 동기화 클라이언트는 자동으로 새 위치에서 동기화를 시작합니다.
+지리적 OneDrive 이동 창(약 2~6시간)OneDrive 읽기 전용으로 설정됩니다. 사용자는 여전히 OneDrive 동기화 또는 OneDrive Online에서 자신의 파일에 액세스할 SharePoint 있습니다. 지리적 OneDrive 이동이 완료되면 사용자가 OneDrive 앱 시작 OneDrive 위치로 이동할 때 자동으로 대상 지리적 위치에 Microsoft 365 연결됩니다. 동기화 앱은 새 위치에서 자동으로 동기화를 시작됩니다.
 
 이 문서에 나오는 절차를 수행하려면 [Microsoft SharePoint Online PowerShell 모듈](https://www.microsoft.com/download/details.aspx?id=35588)이 필요합니다.
 
@@ -123,8 +123,8 @@ OneDrive cmdlet을 사용하여 연결된 지리적 위치로 이동하거나 Ge
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>상태</strong></th>
-<th align="left"><strong>설명</strong></th>
+<th align="left">상태</th>
+<th align="left">설명</th>
 </tr>
 </thead>
 <tbody>
@@ -161,7 +161,7 @@ OneDrive cmdlet을 사용하여 연결된 지리적 위치로 이동하거나 Ge
 
 OneDrive 사용자는 OneDrive가 다른 지리적 위치로 이동될 경우 최소한의 작업 중단이 발생한다는 것을 알 수 있습니다. 이동하는 동안 잠깐 읽기 전용 상태가 되지만 이동이 완료되면 링크 및 사용 권한은 예상대로 계속 작동합니다.
 
-### <a name="onedrive-for-business"></a>비즈니스용 OneDrive
+### <a name="users-onedrive"></a>사용자의 OneDrive
 
 이동이 진행되는 동안 사용자의 OneDrive 읽기 전용으로 설정됩니다. 이동이 완료되면 사용자가 OneDrive 앱 시작 프로그램 또는 웹 브라우저의 OneDrive 위치로 Microsoft 365 위치로 이동됩니다.
 
@@ -169,11 +169,11 @@ OneDrive 사용자는 OneDrive가 다른 지리적 위치로 이동될 경우 �
 
 콘텐츠를 OneDrive 권한이 있는 사용자는 이동하는 동안과 완료된 후에도 콘텐츠에 계속 액세스할 수 있습니다.
 
-### <a name="onedrive-sync-client"></a>OneDrive 동기화 클라이언트 
+### <a name="onedrive-sync-app"></a>OneDrive 동기화 앱 
 
-OneDrive 동기화 클라이언트는 OneDrive 지리적 이동이 완료되면 새 OneDrive 위치를 자동으로 감지하고, 해당 위치에 대한 동기화로 원활하게 전환합니다. 따라서 사용자가 다시 로그인하거나 다른 작업을 수행할 필요가 없습니다. (동기화 클라이언트 버전 17.3.6943.0625 이상이 필요합니다.)
+이 OneDrive 동기화 지리적 이동이 완료되면 새 OneDrive 동기화를 자동으로 감지하고 OneDrive 전송합니다. 사용자가 다시 로그인하거나 다른 작업을 할 필요가 없습니다.  (동기화 앱 버전 17.3.6943.0625 이상이 필요합니다.)
 
-OneDrive 지리적 이동이 진행되는 동안 사용자가 파일을 업데이트하는 경우 동기화 클라이언트는 이동이 진행 중일 때 파일 업로드가 보류된다는 사실을 알립니다.
+지리적 이동이 진행되는 동안 OneDrive 파일을 업데이트하는 경우 동기화 앱은 이동이 진행되는 동안 파일 업로드가 보류 중이 된다고 알릴 수 있습니다.
 
 ### <a name="sharing-links"></a>링크 공유 
 
@@ -193,7 +193,7 @@ OneNote win32 클라이언트 및 UWP(유니버설) 앱은 OneDrive 지리적 �
 
 OneDrive 지리적 이동이 완료되면, Teams 앱의 해당 OneDrive 파일에 액세스할 수 있게 됩니다. 또한 지리적 이동 적에 해당 OneDrive에서 Teams 앱을 통해 공유한 파일은 이동이 완료된 후에도 계속 작동합니다.
 
-### <a name="onedrive-for-business-mobile-app-ios"></a>비즈니스용 OneDrive 모바일 앱(iOS) 
+### <a name="onedrive-mobile-app-ios"></a>OneDrive 모바일 앱(iOS) 
 
 OneDrive 지리적 이동이 완료되면, 사용자는 iOS 모바일 앱에서 로그아웃했다가 다시 로그인하여 새 OneDrive 위치와 동기화해야 합니다.
 

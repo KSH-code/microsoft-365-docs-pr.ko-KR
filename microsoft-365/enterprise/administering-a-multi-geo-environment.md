@@ -15,16 +15,20 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: 관리자는 다중 위치 환경에서 SharePoint 및 OneDrive 관리하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 213070f2f7a04e15a1e2ac3cd9a3ae697b66a718
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4c5215b855b8ca1840035b39fcfbddde419c13d8
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905603"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362321"
 ---
 # <a name="administering-a-multi-geo-environment"></a>Multi-Geo 환경 관리
 
 Microsoft 365 서비스가 다중 위치 환경에서 작동하는 방식을 살펴봅니다.
+
+## <a name="administrator-experience"></a>관리자 환경
+
+SharePoint [관리](https://admin.microsoft.com/sharepoint) 센터에는 지리적  위치를 보고 관리할 수 있는 지리적 위치 맵이 있는 지리적 위치 탭이 왼쪽 탐색 창에 있습니다. 이 페이지를 사용하여 테넌트의 지리적 위치를 추가하거나 삭제합니다.
 
 ## <a name="audit-log-search"></a>감사 로그 검색
 
@@ -34,7 +38,11 @@ Microsoft 365 서비스가 다중 위치 환경에서 작동하는 방식을 살
 
 BCS, 보안 저장소 및 앱은 모두 각 위성 위치에서 별도의 인스턴스를 유지하므로, SharePoint Online 관리자는 이러한 서비스를 각 위성 위치와는 별도로 관리하고 구성해야 합니다.
 
-## <a name="ediscovery"></a>eDiscovery 
+## <a name="compliance-admin-center"></a>규정 준수 관리 센터
+
+다중 지역 테넌트에 대한 하나의 중앙 준수 센터인 Microsoft 365 [준수 관리 센터가 있습니다.](https://compliance.microsoft.com/)
+
+## <a name="ediscovery"></a>eDiscovery
 
 기본적으로 eDiscovery Manager 또는 다중 지역 테넌트의 관리자는 해당 거주자의 중앙 위치에서만 eDiscovery를 수행할 수 있습니다. Office 365 전역 관리자는 다른 사용자들이 eDiscovery를 수행할 수 있도록 하기 위해 eDiscovery 관리자 권한을 할당해야 하며, 해당 준수 보안 필터에서 “Region” 매개 변수를 할당하여 eDiscovery 수행 지역을 위성 위치로 지정해야 합니다. 그렇지 않으면 해당 위성 위치에 대해 eDiscovery가 수행되지 않습니다. 지역에 대한 준수 보안 필터를 구성하려면 [Office 365 다중 지역 eDiscovery의 구성](multi-geo-ediscovery-configuration.md) 참조하세요.
 
@@ -50,21 +58,13 @@ DLP 정책은 각 지리적 위치에 적용할 수 있는지에 따라 자동�
 
 지리적 위치에 모든 사용자에 대해 정보 보호 및 데이터 손실 방지 정책을 구현하는 방식은 UI에서 사용할 수 있는 옵션이 아니며, 대신 정책에 대해 적용 가능한 계정을 선택하거나 정책을 모든 계정에 전역적으로 적용해야 합니다.
 
-## <a name="microsoft-flow"></a>Microsoft Flow
-
-위성 위치에 대해 만들어진 흐름은 테넌트의 기본 지리적 위치에 있는 끝점을 사용합니다.  Microsoft Flow는 다중 지역 서비스가 아닙니다. 
-
 ## <a name="microsoft-powerapps"></a>Microsoft PowerApps
 
 위성 위치에 대해 만들어진 PowerApp은 테넌트의 중앙 위치에 있는 끝점을 사용합니다. Microsoft PowerApps은 다중 지역 서비스가 아닙니다. 
 
-## <a name="onedrive-administrator-experience"></a>OneDrive 관리자 환경
+## <a name="power-automate"></a>Power Automate
 
-[OneDrive 관리 센터](https://admin.onedrive.com)의 왼쪽 탐색 영역에는 지리적 위치를 보고 관리할 수 있는 지리적 위치 지도를 표시하는 **지리적 위치** 탭이 있습니다. 이 페이지에서 테넌트에 대한 지리적 위치를 추가하거나 삭제합니다.
-
-## <a name="security-and-compliance-admin-center"></a>보안 및 준수 관리 센터
-
-Multi-Geo 테넌트에 대해 하나의 중앙 준수 센터인 [Microsoft 365 보안 및 준수 센터](https://protection.office.com/?rfr=AdminCenter\#/homepage)가 있습니다.
+위성 위치에 대해 만들어진 흐름은 테넌트의 기본 지리적 위치에 있는 끝점을 사용합니다.  Power Automate Multi-Geo 서비스가 아닌 경우 
 
 ## <a name="sharepoint-storage-quota"></a>SharePoint 저장소 할당량
 
@@ -73,6 +73,10 @@ Multi-Geo 테넌트에 대해 하나의 중앙 준수 센터인 [Microsoft 365 �
 ## <a name="sharing"></a>공유
 
 관리자는 각 위치에 대한 공유 정책을 설정하고 관리할 수 있습니다. 각 지리적 위치에 있는 OneDrive 및 SharePoint 사이트는 해당 지리적 특정 공유 설정만 사용합니다. (예를 들어, 중앙 위치에 대한 [외부 공유](https://support.office.com/article/C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85)는 허용하지만 위성 위치의 외부 공유나 그 반대에 대해서는 허용할 수 없습니다.) 공유 설정에서는 지리적 위치간에 공유 제한을 구성할 수 없습니다.
+
+## <a name="stream"></a>Stream
+
+Stream에 업로드된 비디오는 업로드하는 OneDrive 저장됩니다. 모임 녹음/녹화는 모임을 OneDrive 각 참석자 중 하나에 저장됩니다.
 
 ## <a name="taxonomy"></a>분류
 
@@ -87,23 +91,6 @@ Multi-Geo 테넌트에 대해 하나의 중앙 준수 센터인 [Microsoft 365 �
 사용자 정의 프로필 속성이 있으면 지리적 위치 간에 동일한 프로필 스키마를 사용하고 모든 지리적 위치에 또는 필요할 때 사용자 지정 프로필 속성을 채우는 것이 좋습니다. 프로그래밍 방식으로 사용자 프로필 데이터를 채우는 방법에 대한 지침은 [대량 사용자 프로필 업데이트 API](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online)를 참조하세요.
 
 자세한 내용 및 개발자 지침은 [다중 지역 테넌트의 사용자 프로필 작업](/sharepoint/dev/solution-guidance/multigeo-userprofileexperience)를 참조하세요.
-
-## <a name="video-portal"></a>비디오 포털
-
-다중 지역 테넌트의 경우 O365 비디오 포털은 기본 지역에서만 제공되며 모든 사용자는 해당 중앙 포털 URL로 리디렉션됩니다. 따라서 해당 지역의 RMS(원격 미디어 서비스)가 다음과 같이 중앙 위치를 기반으로 사용됩니다.
-
-스트림은 현재 다음 지역에서 사용할 수 있습니다.
-
-- 북아메리카, 미국에서 호스팅 됨. 
-- 유럽
-- 아시아 태평양
-
-그러나 현재 Microsoft 365 비디오가 지원되는 다음 지역에서는 스트림을 아직 사용할 수 없으므로 이러한 로컬 인스턴스의 경우 지원되는 가장 가까운 지역에 있는 RMS를 사용합니다.
-
-- 오스트레일리아
-- 캐나다
-- 인도
-- 영국
 
 ## <a name="yammer"></a>Yammer
 

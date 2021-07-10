@@ -9,69 +9,67 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: abd1b681f3d5900f846fde7922f2f4a2ca5821ef
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 2eea02b0a891f65ccd7e4e993ca719b0f3aa1b8b
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841366"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362609"
 ---
 # <a name="getting-help-for-users"></a>사용자를 위한 도움말
 
-조직의 사용자는 앱 또는 전화 지원의 두 가지 방법으로 Microsoft Managed Desktop  디바이스에 도움말 있습니다. 이러한 두 지원 옵션은 모두 24시간 연 7일 사용자가 사용할 수 있습니다.
+Microsoft에 대한 상승된 장치 [](../service-description/user-support.md) 액세스 또는 에스컬레이터를 요청해야 하는 워크플로 지점에 도달한 경우 다음 단계를 수행합니다.
  
 >[!NOTE]
 >테스트 그룹의 디바이스에서는 이러한 지원 옵션을 사용할 수 없습니다.
 
-## <a name="get-help-app"></a>도움말 앱
+## <a name="elevation-requests"></a>권한 상승 요청
 
-사용자에게 지원을 제공하는 기본 방법은 도움말 기본 제공된 사용하기 쉬운 인터페이스인 도움말 것입니다.  
+장치에 대한 높은 액세스 권한을 요청하기 전에 가장 적합한 작업을 검토하는 것이 가장 좋은 것입니다.
 
-![도움말 앱 아이콘](../../media/get-help.png)
+- **일반적인 작업은** 이 프로세스가 의도한 작업으로, 장치와의 문제를 해결하는 동안 Microsoft Managed Desktop 수행됩니다. 예를 들면 다음과 같습니다.
+    - 기본 제공 시스템 문제 해결사, 명령 프롬프트 또는 Windows PowerShell
+    - 업무용 응용 프로그램 문제 해결
+    - 해결 방법을 사용하여 디자인에 따라 작동해야 하는 기능 수정(예: BitLocker 정품 인증 또는 업데이트되지 않는 시스템 시간)
+    - 업데이트 드라이버, 장치 제거 또는 새 변경 내용 검색과 같은 작업을 위해 장치 관리자 권한 상승
 
-도움말 모든 Microsoft Managed Desktop 설치하고 작업 표시줄에 고정된 응용 프로그램입니다. 
+- **권장되지 않는 작업은** 다음과 같습니다.
+    - 소프트웨어 또는 브라우저 설치
+    - 주변 장치용 드라이버를 Windows 설정 외부에 드라이버 설치
+    - 파일 .msi 또는 .exe 설치
+    - Windows 기능 설치
 
-- 사용자는 제공된 전화 번호에 대한 콜백을 요청하거나 서비스 응답으로 온라인으로 채팅할 수 있습니다.
-- 지원 범위에 Microsoft Managed Desktop 요청은 전화 통화를 통해 로컬 IT 지원 데스크로 리디렉션됩니다.
+- **지원되지 않는 작업은** 다음과 같습니다.
+    - 보안 또는 관리 기능과 충돌하는 소프트웨어 또는 Microsoft Managed Desktop 기능 설치
+    - BitLocker와 같은 Windows 필요한 Microsoft Managed Desktop 기능을 사용 하지 않습니다.
+    - 관리되는 설정 수정
+
+### <a name="to-request-elevation"></a>권한 상승을 요청하는 경우
+
+1. 의 포털로 이동한 후 사용자 자격 증명으로 [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) Azure Active Directory 로그인합니다.
+2. 새 **권한 상승 요청을 선택합니다.**
+3. 다음 세부 정보를 제공합니다.
+    - **자체 지원 티켓** 시스템에서 티켓 ID를 지원합니다.
+    - **장치 이름:** 장치 일련 번호를 입력한 다음 메뉴에서 장치를 선택합니다.
+    - **범주:** 문제와 가장 잘 맞는 범주를 선택합니다. 옵션이 닫히는 것  같은 경우 기타를  선택하고 제목 및 작업 계획 **필드에** 추가 정보를 제공합니다. 가능한 경우 범주를 선택하는 것이 가장 좋습니다.
+    - **하위 목록**: 이슈에 가장 잘 맞는 하위 목록 선택 옵션이 닫히는 것  같은 경우 기타를 선택하고 제목에 간단한 설명을 **제공합니다.** 작업 **계획에서** 권한 상승이 부여된 후 수행하기로 계획한 문제 해결 단계를 제공하세요.
+4. **전송** 을 선택합니다.
+
+
+## <a name="escalation-requests"></a>에스컬레이터 요청
+
+
+Microsoft로 [문제를 에스컬레이터해야](../service-description/user-support.md#escalation-portal) 하는 경우 다음 단계를 수행합니다.
+
+1. 의 포털로 이동한 후 사용자 자격 증명으로 [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) Azure Active Directory 로그인합니다.
+2. **에스컬ation 요청 을** 선택한 다음 새 **에스컬ation 요청을 선택합니다.**
+3. 다음 세부 정보를 제공합니다.
+    - **범주:** 문제와 가장 잘 맞는 범주를 선택합니다.
+    - **제목:** 간단한 설명을 입력합니다.
+    - **설명:** 팀에서 문제를 이해하는 데 도움이 될 수 있는 세부 정보를 추가합니다. 파일을 첨부해야 하는 경우 파일을 제출한 후 요청으로 돌아와서 첨부할 수 있습니다.
+    - **기본 연락처 정보:** 팀과 함께 작업하는 주 담당자에게 연락하는 방법에 대한 정보를 제공합니다.
+4. **전송** 을 선택합니다.
+5. 팀과 상호 작용하기 위해 동일한 포털에서 티켓을 다시 검색합니다.
 
 > [!NOTE]
-> 도움말 설정하거나 장치 설정에서 사용자가 다른 언어를 선택한 경우에도 앱의 표시 언어는 영어로만 표시됩니다. 
-
-### <a name="prerequisites"></a>필수 구성 요소
-사용자가 앱을 통해 도움을 받을 수 있도록 이러한 선행 조문을 충족하는지 확인
-
-- 디바이스는 새 장치 Microsoft Managed Desktop 등록과 같은 Microsoft Managed Desktop 방법 [](../get-started/set-up-devices.md)중 하나를 사용하여 디바이스에 [등록해야 합니다.](../get-started/register-devices-self.md)
-- 디바이스의 표시 언어는 en-us, en-gb, en-au, en-nz 또는 en-ca와 같은 영어 로지로 설정해야 합니다.
-- 앱 도움말 최신해야 합니다. 상태를 확인하기 위해 앱의 앱 업데이트를 Microsoft Store.
-- 특정 [끝점은](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) 장치에서 액세스할 수 있어야 합니다.
-
-> [!NOTE]
-> 이 도움말 완전히 작동하기 위해 장치를 배포한 후 최대 1시간이 걸릴 수 있습니다.
-
-이러한 선행 작업을 확인한 후 도움말 앱이 작동하지 않는 경우 IT 관리자는 지원 요청을 [제출해야 합니다.](admin-support.md)
-
-## <a name="phone-support"></a>전화 지원
-
-또한 Microsoft Managed Desktop 있는 사용자는 전화를 걸 수 있는 무료 전화 번호에 액세스할 수 있습니다. 이 숫자는 사용할 수 없는 도움말 사용됩니다. 예를 들어 장치에 로그인할 수 없는 경우 또는 장치가 손상된 경우입니다. 전화 지원에 대한 전화 번호는 다음과 같습니다.
-
-- 미국: +1 855 425 0216
-- 캐나다(Quebec 제외): +1 855 425 0216
-- 영국: +44 800 026 0698
-- 벨기에: +32 800 58533
-- 룩셈부르크: +352 800 40119
-- 오스트레일리아: +61 180 037 0619
-- 뉴질랜드: +64 988 44380
-- 스웨덴: +46 20 120 3554
-- 노르웨이: +47 800 62584
-- 아이슬란드: +354 800 9006
-- 아일랜드: +353 1 800 832272
-- 덴마크: +45 80 40 04 01
-- 핀란드: +358 800 525088
-
->[!NOTE]
->ID를 확인하려면 전화를 걸 때 조직 전자 메일 주소를 준비해야 합니다. 
-
-## <a name="more-resources"></a>추가 리소스
-- [에 대한 관리자 Microsoft Managed Desktop.](admin-support.md) 
-- [에 대한 Microsoft Managed Desktop.](../service-description/support.md)
-- 이미 Microsoft Managed Desktop 구독한 경우 Microsoft Managed Desktop 관리 가이드의 테넌트 관리 메뉴의 Microsoft Managed Desktop 섹션 아래 온라인 리소스에서 자세한  절차, 프로세스 흐름, 작업  지침 및 FAQ를 [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)
+> 이 경로를 통해 심각도 C 문제만 에스컬레이터할 수 있습니다. 다른 문제가 있는 경우 IT 관리자에게 문의하여 관리 포털을 통해 요청을 제출합니다.

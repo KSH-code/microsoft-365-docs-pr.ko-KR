@@ -174,6 +174,7 @@
 #### [일반]()
 ##### [데이터 저장소 위치 확인 및 데이터 보존 설정 업데이트](data-retention-settings.md)
 ##### [경고 알림 구성](configure-email-notifications.md)
+##### [취약성 전자 메일 알림 구성](configure-vulnerability-email-notifications.md)
 ##### [고급 기능 구성](advanced-features.md)
 
 #### [사용 권한]()

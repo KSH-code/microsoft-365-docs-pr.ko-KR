@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: 전자 메일 전달을 사용하면 조직 내부 또는 외부의 다른 사서함으로 Microsoft 365 전자 메일 메시지를 전달할 수 있습니다.
-ms.openlocfilehash: e0043fe75eefe224c63fd23f352d4bd3ddf2c326
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 9d645c2b36bdac2ab53dcb8af4ff6ebdbd0ee601
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228054"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363794"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>전자 메일 전달 구성 Microsoft 365
 
@@ -49,6 +49,8 @@ ms.locfileid: "53228054"
 
 이러한 단계를 수행하려면 Exchange 관리자 또는 전역 관리자 Microsoft 365 해야 합니다. 자세한 내용은 관리자 역할 [정보를 참조하세요.](../add-users/about-admin-roles.md)
 
+::: moniker range="o365-worldwide"
+
 1. 관리 센터에서 사용자 활성 **사용자** \> **[페이지로](https://go.microsoft.com/fwlink/p/?linkid=834822)** 이동합니다.
 
 2. 전자 메일을 전달할 사용자의 이름을 선택한 다음 속성 페이지를 여십시오.
@@ -59,8 +61,8 @@ ms.locfileid: "53228054"
 
     여러 전자 메일 **주소로** 전달하기 위해 사용자에게 주소로 전달할 규칙을 Outlook 수 있습니다. 
     
-    1.  Outlook **홈**  >  **규칙**  >   **>** **규칙 관리 & 열기**
-    1. 새 **규칙** 목록의 맨 아래에 있는 받은 메시지에 규칙 적용을 선택하고  >   다음 을 **클릭합니다.**
+    1.  Outlook **홈** > **규칙** > **>** **규칙 관리 & 열기**  
+    1. 새 **규칙** 목록의 맨 아래에 있는 받은 메시지에 규칙 적용을 선택하고 >  다음 을 **클릭합니다.**
     1. 메시지가 **표시될** 때 예를 클릭합니다. 이 규칙은 받은 모든 메시지에 적용됩니다. 
     1. 다음 목록에서 작업을 선택하여 사용자 또는 공용 그룹으로 **리디렉션하고** 추가 규칙 **처리를 중지합니다.**
     1. 창의 아래쪽에서  밑조가 있는 구 사람 또는 공용 그룹을 클릭합니다.

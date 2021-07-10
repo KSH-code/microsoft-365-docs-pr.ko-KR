@@ -123,7 +123,7 @@ ID | 범주 | ER | Addresses | 포트
 148 | 기본<BR>필수 | 아니요 | `cdnprod.myanalytics.microsoft.com, myanalytics.microsoft.com, myanalytics-gcc.microsoft.com` | **TCP:** 443, 80
 149 | 기본<BR>필수 | 아니요 | `workplaceanalytics.cdn.office.net` | **TCP:** 443, 80
 150 | 기본<BR>선택<BR>**참고:** 해당 끝점을 차단하면 포털을 통한 Office 365 ProPlus 배포 및 관리 기능에 대한 액세스 가능 여부에 영향을 줍니다. | 아니요 | `*.officeconfig.msocdn.com` | **TCP:** 443
-152 | 기본<BR>선택<BR>**참고:** 해당 끝점을 사용하면 자동화 탭을 통해 Office 클라이언트의 Office 스크립트 기능을 사용할 수 있습니다. Office 365 관리 포털을 통해 해당 기능을 사용하지 않도록 설정할 수도 있습니다. | 아니요 | `*.microsoftusercontent.com` | **TCP:** 443
+152 | 기본<BR>선택<BR>**참고:** 해당 끝점을 사용하면 자동화 탭을 통해 Office 클라이언트의 Office 스크립트 기능을 사용할 수 있습니다. Microsoft 365 관리 센터를 통해 해당 기능을 사용하지 않도록 설정할 수도 있습니다. | 아니요 | `*.microsoftusercontent.com` | **TCP:** 443
 153 | 기본<BR>필수 | 아니요 | `*.azure-apim.net, *.flow.microsoft.com, *.powerapps.com` | **TCP:** 443
 156 | 기본<BR>필수 | 아니요 | `activity.windows.com` | **TCP:** 443
 157 | 기본<BR>필수 | 아니요 | `ocsp.int-x3.letsencrypt.org` | **TCP:** 80

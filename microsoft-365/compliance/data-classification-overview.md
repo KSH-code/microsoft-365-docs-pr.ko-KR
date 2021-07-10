@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 중요한 데이터를 얼마나 많이 찾고 분류했는지 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: d9c53d1f4679fbea9f5a7cded7f4bb6b6eb15b98
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c0343117251d169d0284c2fdb3fc3b8bca5ff0df
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244386"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362561"
 ---
 # <a name="learn-about-data-classification"></a>데이터 분류에 대한 자세한 정보
 
@@ -65,6 +65,9 @@ Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동
 - 준수 관리자
 - 보안 관리자
 - 규정 준수 데이터 관리자
+
+> [!NOTE]
+> 항상 역할을 최소 권한으로 사용하여 Microsoft 365 데이터 분류에 대한 액세스 권한을 부여하는 것이 좋습니다.
 
 ## <a name="sensitive-information-types-used-most-in-your-content"></a>콘텐츠에 가장 많이 사용되는 중요한 정보 유형
 

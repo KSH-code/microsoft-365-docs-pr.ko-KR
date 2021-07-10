@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: Microsoft 365용 Multi-Geo 환경의 SharePoint, OneDrive 및 Exchange 사용자 작업 환경에 대해 알아봅니다.
-ms.openlocfilehash: 558e5a1f7ff2f6f5485a9f32d6e2b43b552b7f17
-ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
+ms.openlocfilehash: 4e752581f4ca692f9fecc5019f8e34543ebf7067
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749578"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362381"
 ---
 # <a name="user-experience-in-a-multi-geo-environment"></a>다중 위치 환경의 사용자 작업 환경
 
@@ -41,15 +41,15 @@ SharePoint 허브 사이트는 직원의 콘텐츠 검색 및 참여를 향상�
 
 ## <a name="office-applications"></a>Office 응용 프로그램
 
-Word, Excel 및 PowerPoint와 같은 Office 응용 프로그램은 각 사용자가 로그인할 때 올바른 비즈니스용 OneDrive 지리적 위치를 자동으로 검색합니다. 사용자는 OneDrive 또는 SharePoint 사이트에 대한 지역별 URL을 입력할 필요가 없습니다.
+Office, Excel 및 PowerPoint 응용 프로그램은 로그인할 때 각 OneDrive 올바른 지리적 위치를 자동으로 검색합니다. 사용자는 OneDrive 또는 SharePoint 사이트에 대한 지역별 URL을 입력할 필요가 없습니다.
 
-## <a name="onedrive-for-business-sync-client"></a>비즈니스용 OneDrive 동기화 클라이언트
+## <a name="onedrive-sync-app"></a>OneDrive 동기화 앱
 
-비즈니스용 OneDrive 동기화 클라이언트(버전 17.3.6943.0625 이상)는 사용자의 올바른 비즈니스용 OneDrive 지리적 위치를 자동으로 검색합니다. 동기화 클라이언트 지원에는 지리적 위치에 관계없이 그룹 기반 사이트를 동기화하는 기능을 포함합니다. 참고로 Groove 동기화 클라이언트는 다중 지역에서 지원되지 않습니다. 
+OneDrive 동기화 앱(버전 17.3.6943.0625 이상)은 사용자의 올바른 지리적 OneDrive 자동으로 검색합니다. 동기화 앱 지원에는 지리적 위치에 관계없이 그룹 기반 사이트를 동기화하는 기능을 포함합니다. 참고로 Groove 동기화 클라이언트는 다중 지역에서 지원되지 않습니다. 
 
-## <a name="onedrive-for-business-location"></a>비즈니스용 OneDrive 위치
+## <a name="onedrive-location"></a>OneDrive 위치
 
-비즈니스용 OneDrive는 기본 설정 데이터 위치에 프로비전됩니다. 사용자가 잘못된 지리적 위치(예: 이전 지리적 위치의 책갈피)가 포함된 OneDrive URL로 이동하면 자동으로 해당 지리적 위치의 OneDrive로 리디렉션됩니다.
+사용자는 기본 설정 데이터 OneDrive 프로비전할 수 있습니다. 사용자가 잘못된 지리적 위치(예: 이전 지리적 위치의 책갈피)가 포함된 OneDrive URL로 이동하면 해당 지리적 위치의 OneDrive 자동으로 해당 위치로 리디렉션됩니다.
 
 ## <a name="onedrive-ios-and-android"></a>OneDrive iOS 및 Android 
 
@@ -63,11 +63,11 @@ OneDrive Mobile Client는 다중 지역을 인식하며 모든 지리적 위치�
 
 ## <a name="search"></a>검색
 
-각 지리적 위치에는 자체의 검색 인덱스와 검색 센터가 있습니다. 사용자가 검색을 하면 쿼리가 모든 지리적 위치로 전송되고 반환된 결과는 병합된 후 순위가 지정되므로 사용자는 통합된 결과를 얻게 됩니다. 사용자가 자신의 지리적 위치에 관계없이 모든 지리적 위치에서 결과를 가져옵니다. 구체적인 내용에 대해서는 [비즈니스용 OneDrive Multi-Geo에 대한 검색 구성](configure-search-for-multi-geo.md)을 참조하세요.
+각 지리적 위치에는 자체 검색 인덱스와 검색 센터가 있습니다. 사용자가 검색을 수행하면 쿼리가 모든 지리적 위치로 전송되고 반환된 결과가 병합된 다음 순위가 지정됩니다. 그러면 사용자가 통합된 결과를 얻을 수 있습니다. 사용자는 자신의 지리적 위치에 관계없이 모든 지리적 위치에서 결과를 얻습니다. 자세한 [내용은 Configure Search for OneDrive Multi-Geo](configure-search-for-multi-geo.md) 참조합니다.
 
 다음과 같은 검색 클라이언트가 지원됩니다.
 
--   비즈니스용 OneDrive
+-   OneDrive
 
 -   Delve
 
@@ -79,7 +79,7 @@ OneDrive Mobile Client는 다중 지역을 인식하며 모든 지리적 위치�
 
 ## <a name="sharepoint-home"></a>SharePoint 홈 
 
-SharePoint Multi-Geo에서 SharePoint 홈은 비즈니스 위치에 대해 OneDrive가 결정한대로 사용자가 거주하는 위치에서 호스팅됩니다. 예를 들어, 사용자가 OneDrive를 유럽 위성 위치에서 호스팅하는 경우 SharePoint 홈은 유럽에서 렌더링됩니다. SharePoint 홈에는 지리적 위치와 상관없이 사용자와 관련된 모든 콘텐츠가 포함됩니다. 
+이 SharePoint Multi-Geo SharePoint 홈은 사용자의 OneDrive 위치로 결정되는 위치에 호스트됩니다. 예를 들어, 사용자가 OneDrive를 유럽 위성 위치에서 호스팅하는 경우 SharePoint 홈은 유럽에서 렌더링됩니다. SharePoint 홈에는 지리적 위치와 상관없이 사용자와 관련된 모든 콘텐츠가 포함됩니다. 
 
 **팔로우한 사이트, 사이트의 뉴스, 최근 사용 사이트, 자주 사용하는 사이트 및 추천 사이트**
 
@@ -96,11 +96,11 @@ SharePoint Mobile Client는 다중 지역을 인식하며 모든 지리적 위�
 
 ## <a name="sharing"></a>공유
 
-사용자 선택 기능은 지리적 위치에 관계없이 모든 사용자를 보여줍니다. 이를 통해 사용자는 동일한 지리적 위치 또는 다른 거주자의 지리적 위치에있는 다른 사용자와 공유 할 수 있습니다. 서로 다른 지리적 위치의 콘텐츠는 사용자의 비즈니스용 OneDrive의 **공유한 항목** 보기에 표시되며 호스팅되는 지리적 위치와 상관없이 Single Sign-On 환경으로 액세스할 수 있습니다.
+사용자 선택 기능은 지리적 위치에 관계없이 모든 사용자를 보여줍니다. 이를 통해 사용자는 동일한 지리적 위치 또는 다른 거주자의 지리적 위치에있는 다른 사용자와 공유 할 수 있습니다. 다른 지리적 위치의 콘텐츠는  사용자의 OneDrive 공유 보기에 표시될 수 있으며, 호스트되는 지리적 위치에 관계없이 단일 Sign-On 환경으로 액세스할 수 있습니다.
 
 ## <a name="teams-experience"></a>팀 환경
 
-Teams은 여러 지역 인식합니다. OneDrive 파일과 최근에 본 파일은 사용자의 위치 정보와 상관없이 표시됩니다. @는 모든 지리적 위치의 사용자와 작업합니다.
+Teams 서비스는 Multi-Geo 서비스입니다. OneDrive 파일과 최근에 본 파일은 사용자의 위치 정보와 상관없이 표시됩니다. @는 모든 지리적 위치의 사용자와 작업합니다.
 
 ## <a name="user-profiles"></a>사용자 프로필
 

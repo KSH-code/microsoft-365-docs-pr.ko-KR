@@ -12,13 +12,13 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Multi-Geo 환경에서 검색을 구성하는 방법을 학습합니다. 다중 위치 환경의 비즈니스용 OneDrive 클라이언트만 결과를 반환할 수 있습니다.
-ms.openlocfilehash: 31e0c4ae3fe73f2f6e113dbc38989726eb1ca590
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+description: Multi-Geo 환경에서 검색을 구성하는 방법을 학습합니다. 다중 위치 환경의 OneDrive 클라이언트만 결과를 반환할 수 있습니다.
+ms.openlocfilehash: dfc9e3dd986132810f363ba47ba18eae45666fc7
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022333"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362273"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo 검색 구성
 
@@ -30,13 +30,13 @@ ms.locfileid: "53022333"
 
 이러한 클라이언트는 모든 지리적 위치의 결과를 반환할 수 있습니다.
 
-- 비즈니스용 OneDrive
+- OneDrive
 - Delve
 - SharePoint 홈페이지
 - 검색 센터
 - SharePoint 검색 API를 사용하는 사용자 지정 검색 응용 프로그램
 
-### <a name="onedrive-for-business"></a>비즈니스용 OneDrive
+### <a name="onedrive"></a>OneDrive
 
 Multi-Geo 환경이 설정되는 즉시, OneDrive에서 검색하는 사용자는 모든 지리적 위치에서 결과를 얻습니다.
 
@@ -65,9 +65,9 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>기능</strong></th>
-<th align="left"><strong>작동 방법</strong></th>
-<th align="left"><strong>해결 방법</strong></th>
+<th align="left">기능</th>
+<th align="left">작동 방법</th>
+<th align="left">해결 방법</th>
 </tr>
 </thead>
 <tbody>
@@ -111,8 +111,8 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>검색 기능</strong></th>
-<th align="left"><strong>참고</strong></th>
+<th align="left">검색 기능</th>
+<th align="left">참고</th>
 </tr>
 </thead>
 <tbody>
@@ -121,8 +121,8 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 <td align="left">앱 전용 인증(서비스의 권한 있는 액세스)은 Multi-Geo 검색에서 지원되지 않습니다.</td>
 </tr>
 <tr class="even">
-<td align="left">게스트 사용자</td>
-<td align="left">게스트 사용자는 검색하는 지리적 위치에서만 결과를 가져옵니다.</td>
+<td align="left">게스트</td>
+<td align="left">게스트는 검색하는 지리적 위치에서만 결과를 얻습니다.</td>
 </tr>
 </tbody>
 </table>
@@ -253,18 +253,22 @@ GET 요청을 사용하여 URL에 쿼리 매개 변수를 지정합니다. POST 
 
 #### <a name="sample-get-request-thats-fanned-out-to-all-geo-locations"></a>**모든** 지리적 위치로 팬아웃되는 샘플 GET 요청
 
-https:// \<tenant\> / \_ api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my \_ client \_ id'
+```http
+https:// \<tenant\>/\_api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my\_client\_id'
+```
 
 #### <a name="sample-get-request-to-fan-out-to-some-geo-locations"></a>**일부** 지리적 위치로 팬아웃할 샘플 GET 요청
 
-https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation \\ :"NAM" \\ ,Endpoint \\ :"https \\ ://contosoNAM.sharepoint.com" \\ ,SourceId \\ :"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"} \\ ,{DataLocation \\ :"CAN" \\ ,Endpoint \\ :"https \\ ://contosoCAN.sharepoint-df.com"}]'
+```http
+https:// \<tenant\>/\_api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation\\:"NAM"\\,Endpoint\\:"https\\://contosoNAM.sharepoint.com"\\,SourceId\\:"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"}\\,{DataLocation\\:"CAN"\\,Endpoint\\:"https\\://contosoCAN.sharepoint-df.com"}]'
+```
 
 > [!NOTE]
 > MultiGeoSearchConfiguration 속성의 지리적 위치 목록에 있는 쉼표와 콜론 앞에는 **백슬래시** 문자가 있습니다. 이는 GET 요청이 콜론을 사용하여 속성과 쉼표를 구분하여 속성 인수를 구분하기 때문입니다. 이스케이프 문자로 백슬래시가 없으면 MultiGeoSearchConfiguration 속성이 잘못 해석됩니다.
 
 #### <a name="sample-post-request-thats-fanned-out-to-all-geo-locations"></a>**모든** 지리적 위치로 팬아웃되는 샘플 POST 요청
 
-```text
+```http
     {
     "request": {
             "__metadata": {
@@ -289,7 +293,7 @@ https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client
 
 #### <a name="sample-post-request-thats-fanned-out-to-some-geo-locations"></a>**일부** 지리적 위치로 팬아웃되는 샘플 POST 요청
 
-```text
+```http
     {
         "request": {
             "Querytext": "SharePoint",
@@ -320,7 +324,7 @@ https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client
 
 다음은 **모든** 지리적 위치로 팬아웃되는 샘플 CSOM 쿼리입니다.
 
-```text
+```CSOM
 var keywordQuery = new KeywordQuery(ctx);
 keywordQuery.QueryText = query.SearchQueryText;
 keywordQuery.ClientType = <enter a string here>;

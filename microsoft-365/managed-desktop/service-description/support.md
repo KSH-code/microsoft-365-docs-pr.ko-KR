@@ -1,5 +1,5 @@
 ---
-title: 지원 Microsoft Managed Desktop
+title: 관리자 지원
 description: 사용자 관리에 대한 사전 및 사후 Microsoft Managed Desktop.
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -9,14 +9,14 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 90787ec28aa2c421df50757fc29bf20b2b5d55f7
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 1c4d94fb89aef76617ebd0995a6849de428afea4
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925506"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362477"
 ---
-# <a name="support-for-microsoft-managed-desktop"></a>지원 Microsoft Managed Desktop
+# <a name="admin-support"></a>관리자 지원
 
 Microsoft는 사전 및 사후 인시던트 관리를 제공합니다. Microsoft는 관리자 포털에서 인시던트 Microsoft Managed Desktop 추적합니다. 심각도 정의에 따라 [분류됩니다.](../working-with-managed-desktop/admin-support.md#sev)
 
@@ -38,7 +38,7 @@ Microsoft Managed Desktop 지원에는 다음이 포함됩니다.
 - Windows 10용 Microsoft Defender와 함께 사용
 - 이러한 엔터프라이즈용 Microsoft 365 앱 앱: Outlook, Word, PowerPoint, Excel, 비즈니스용 Skype 클라이언트, Microsoft Teams 
 - 비즈니스용 Microsoft Store 
-- 비즈니스용 OneDrive 클라이언트 
+- OneDrive 클라이언트 
 
 지원 세부 정보:
 
