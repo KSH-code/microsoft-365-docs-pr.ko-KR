@@ -9,69 +9,67 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: abd1b681f3d5900f846fde7922f2f4a2ca5821ef
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 2eea02b0a891f65ccd7e4e993ca719b0f3aa1b8b
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841366"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362609"
 ---
-# <a name="getting-help-for-users"></a><span data-ttu-id="4ccf7-104">사용자를 위한 도움말</span><span class="sxs-lookup"><span data-stu-id="4ccf7-104">Getting help for users</span></span>
+# <a name="getting-help-for-users"></a><span data-ttu-id="f1921-104">사용자를 위한 도움말</span><span class="sxs-lookup"><span data-stu-id="f1921-104">Getting help for users</span></span>
 
-<span data-ttu-id="4ccf7-105">조직의 사용자는 앱 또는 전화 지원의 두 가지 방법으로 Microsoft Managed Desktop  디바이스에 도움말 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-105">There are two ways that users in your organization can get help with their Microsoft Managed Desktop devices: **Get Help** app, or phone support.</span></span> <span data-ttu-id="4ccf7-106">이러한 두 지원 옵션은 모두 24시간 연 7일 사용자가 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-106">Both of these support options are available to users 24 hours a day, 7 days a week.</span></span>
+<span data-ttu-id="f1921-105">Microsoft에 대한 상승된 장치 [](../service-description/user-support.md) 액세스 또는 에스컬레이터를 요청해야 하는 워크플로 지점에 도달한 경우 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-105">If you've reached the point in the [workflow](../service-description/user-support.md) where you need to request elevated device access or escalation to Microsoft, follow these steps:</span></span>
  
 >[!NOTE]
-><span data-ttu-id="4ccf7-107">테스트 그룹의 디바이스에서는 이러한 지원 옵션을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-107">These support options are not available for devices in the Test group.</span></span>
+><span data-ttu-id="f1921-106">테스트 그룹의 디바이스에서는 이러한 지원 옵션을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-106">These support options are not available for devices in the Test group.</span></span>
 
-## <a name="get-help-app"></a><span data-ttu-id="4ccf7-108">도움말 앱</span><span class="sxs-lookup"><span data-stu-id="4ccf7-108">Get Help app</span></span>
+## <a name="elevation-requests"></a><span data-ttu-id="f1921-107">권한 상승 요청</span><span class="sxs-lookup"><span data-stu-id="f1921-107">Elevation requests</span></span>
 
-<span data-ttu-id="4ccf7-109">사용자에게 지원을 제공하는 기본 방법은 도움말 기본 제공된 사용하기 쉬운 인터페이스인 도움말 것입니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-109">The preferred method for providing support to your users is **Get Help**, an easy-to-use interface built into the user device.</span></span>  
+<span data-ttu-id="f1921-108">장치에 대한 높은 액세스 권한을 요청하기 전에 가장 적합한 작업을 검토하는 것이 가장 좋은 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-108">Before you request elevated access to a device, it's best to review which actions are best suited.</span></span>
 
-![도움말 앱 아이콘](../../media/get-help.png)
+- <span data-ttu-id="f1921-109">**일반적인 작업은** 이 프로세스가 의도한 작업으로, 장치와의 문제를 해결하는 동안 Microsoft Managed Desktop 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-109">**Typical actions** are what this process is intended for and would be performed routinely while troubleshooting problems with Microsoft Managed Desktop devices.</span></span> <span data-ttu-id="f1921-110">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-110">Examples include:</span></span>
+    - <span data-ttu-id="f1921-111">기본 제공 시스템 문제 해결사, 명령 프롬프트 또는 Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="f1921-111">Elevating built-in system troubleshooters, the command prompt, or Windows PowerShell</span></span>
+    - <span data-ttu-id="f1921-112">업무용 응용 프로그램 문제 해결</span><span class="sxs-lookup"><span data-stu-id="f1921-112">Troubleshooting line-of-business applications</span></span>
+    - <span data-ttu-id="f1921-113">해결 방법을 사용하여 디자인에 따라 작동해야 하는 기능 수정(예: BitLocker 정품 인증 또는 업데이트되지 않는 시스템 시간)</span><span class="sxs-lookup"><span data-stu-id="f1921-113">Using a workaround to correct something that should function by design (such as BitLocker activation or system time not updating)</span></span>
+    - <span data-ttu-id="f1921-114">업데이트 드라이버, 장치 제거 또는 새 변경 내용 검색과 같은 작업을 위해 장치 관리자 권한 상승</span><span class="sxs-lookup"><span data-stu-id="f1921-114">Elevating Device Manager to do things like update drivers, uninstall a device, or scan for new changes</span></span>
 
-<span data-ttu-id="4ccf7-111">도움말 모든 Microsoft Managed Desktop 설치하고 작업 표시줄에 고정된 응용 프로그램입니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-111">Get Help is an application that’s installed on all Microsoft Managed Desktop devices and is pinned to the task bar.</span></span> 
+- <span data-ttu-id="f1921-115">**권장되지 않는 작업은** 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-115">**Actions that aren't recommended** include the following:</span></span>
+    - <span data-ttu-id="f1921-116">소프트웨어 또는 브라우저 설치</span><span class="sxs-lookup"><span data-stu-id="f1921-116">Installing software or browsers</span></span>
+    - <span data-ttu-id="f1921-117">주변 장치용 드라이버를 Windows 설정 외부에 드라이버 설치</span><span class="sxs-lookup"><span data-stu-id="f1921-117">Installing drivers outside of Windows settings, including those for peripherals</span></span>
+    - <span data-ttu-id="f1921-118">파일 .msi 또는 .exe 설치</span><span class="sxs-lookup"><span data-stu-id="f1921-118">Installing .msi or .exe files</span></span>
+    - <span data-ttu-id="f1921-119">Windows 기능 설치</span><span class="sxs-lookup"><span data-stu-id="f1921-119">Installing Windows features</span></span>
 
-- <span data-ttu-id="4ccf7-112">사용자는 제공된 전화 번호에 대한 콜백을 요청하거나 서비스 응답으로 온라인으로 채팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-112">Users can request a callback to a provided phone number, or chat online with a service rep.</span></span>
-- <span data-ttu-id="4ccf7-113">지원 범위에 Microsoft Managed Desktop 요청은 전화 통화를 통해 로컬 IT 지원 데스크로 리디렉션됩니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-113">Requests that fall outside of Microsoft Managed Desktop support scope are redirected to the local IT helpdesk via phone call.</span></span>
+- <span data-ttu-id="f1921-120">**지원되지 않는 작업은** 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-120">**Actions that aren't supported** include the following:</span></span>
+    - <span data-ttu-id="f1921-121">보안 또는 관리 기능과 충돌하는 소프트웨어 또는 Microsoft Managed Desktop 기능 설치</span><span class="sxs-lookup"><span data-stu-id="f1921-121">Installing software or features that conflict with Microsoft Managed Desktop security or management capabilities or operations</span></span>
+    - <span data-ttu-id="f1921-122">BitLocker와 같은 Windows 필요한 Microsoft Managed Desktop 기능을 사용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-122">Disabling a Windows feature that is required for Microsoft Managed Desktop, such as BitLocker</span></span>
+    - <span data-ttu-id="f1921-123">관리되는 설정 수정</span><span class="sxs-lookup"><span data-stu-id="f1921-123">Modifying settings managed by your org</span></span>
+
+### <a name="to-request-elevation"></a><span data-ttu-id="f1921-124">권한 상승을 요청하는 경우</span><span class="sxs-lookup"><span data-stu-id="f1921-124">To request elevation</span></span>
+
+1. <span data-ttu-id="f1921-125">의 포털로 이동한 후 사용자 자격 증명으로 [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) Azure Active Directory 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-125">Go to the portal at [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) and sign in with your Azure Active Directory credentials.</span></span>
+2. <span data-ttu-id="f1921-126">새 **권한 상승 요청을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="f1921-126">Select **New elevation request**.</span></span>
+3. <span data-ttu-id="f1921-127">다음 세부 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-127">Provide these details:</span></span>
+    - <span data-ttu-id="f1921-128">**자체 지원 티켓** 시스템에서 티켓 ID를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-128">**Support ticket ID** from your own support ticketing system.</span></span>
+    - <span data-ttu-id="f1921-129">**장치 이름:** 장치 일련 번호를 입력한 다음 메뉴에서 장치를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-129">**Device name**: enter the device serial number and then select the device from the menu.</span></span>
+    - <span data-ttu-id="f1921-130">**범주:** 문제와 가장 잘 맞는 범주를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-130">**Category**: Select the category that best fits your issue.</span></span> <span data-ttu-id="f1921-131">옵션이 닫히는 것  같은 경우 기타를  선택하고 제목 및 작업 계획 **필드에** 추가 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-131">If no option seems close, then select **Other** and provide more info in the **Title** and **Plan of action** fields.</span></span> <span data-ttu-id="f1921-132">가능한 경우 범주를 선택하는 것이 가장 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-132">It's best to select a category if at all possible.</span></span>
+    - <span data-ttu-id="f1921-133">**하위 목록**: 이슈에 가장 잘 맞는 하위 목록 선택</span><span class="sxs-lookup"><span data-stu-id="f1921-133">**Subcategory**: Select the one that best fits the issue.</span></span> <span data-ttu-id="f1921-134">옵션이 닫히는 것  같은 경우 기타를 선택하고 제목에 간단한 설명을 **제공합니다.**</span><span class="sxs-lookup"><span data-stu-id="f1921-134">If no option seems close, then select **Other** and provide a short description in **Title**.</span></span> <span data-ttu-id="f1921-135">작업 **계획에서** 권한 상승이 부여된 후 수행하기로 계획한 문제 해결 단계를 제공하세요.</span><span class="sxs-lookup"><span data-stu-id="f1921-135">In **Plan of action**, provide the troubleshooting steps you plan to take once elevation is granted.</span></span>
+4. <span data-ttu-id="f1921-136">**전송** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-136">Select **Submit**.</span></span>
+
+
+## <a name="escalation-requests"></a><span data-ttu-id="f1921-137">에스컬레이터 요청</span><span class="sxs-lookup"><span data-stu-id="f1921-137">Escalation requests</span></span>
+
+
+<span data-ttu-id="f1921-138">Microsoft로 [문제를 에스컬레이터해야](../service-description/user-support.md#escalation-portal) 하는 경우 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-138">If you need to [escalate](../service-description/user-support.md#escalation-portal) an issue to Microsoft, follow these steps:</span></span>
+
+1. <span data-ttu-id="f1921-139">의 포털로 이동한 후 사용자 자격 증명으로 [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) Azure Active Directory 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-139">Go to the portal at [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) and sign in with your Azure Active Directory credentials.</span></span>
+2. <span data-ttu-id="f1921-140">**에스컬ation 요청 을** 선택한 다음 새 **에스컬ation 요청을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="f1921-140">Select **Escalation requests**, and then select **New escalation request**.</span></span>
+3. <span data-ttu-id="f1921-141">다음 세부 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-141">Provide these details:</span></span>
+    - <span data-ttu-id="f1921-142">**범주:** 문제와 가장 잘 맞는 범주를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-142">**Category**: Select the category that best fits your issue.</span></span>
+    - <span data-ttu-id="f1921-143">**제목:** 간단한 설명을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-143">**Title**: Provide a very brief description.</span></span>
+    - <span data-ttu-id="f1921-144">**설명:** 팀에서 문제를 이해하는 데 도움이 될 수 있는 세부 정보를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-144">**Description**: Add any additional details that could help our team understand the problem.</span></span> <span data-ttu-id="f1921-145">파일을 첨부해야 하는 경우 파일을 제출한 후 요청으로 돌아와서 첨부할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-145">If you need to attach files, you can do that by coming back to the request after you submit it.</span></span>
+    - <span data-ttu-id="f1921-146">**기본 연락처 정보:** 팀과 함께 작업하는 주 담당자에게 연락하는 방법에 대한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-146">**Primary contact information**: Provide info about how to contact the main person responsible for working with our team.</span></span>
+4. <span data-ttu-id="f1921-147">**전송** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-147">Select **Submit**.</span></span>
+5. <span data-ttu-id="f1921-148">팀과 상호 작용하기 위해 동일한 포털에서 티켓을 다시 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-148">Revisit the ticket in the same portal to interact with our team.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4ccf7-114">도움말 설정하거나 장치 설정에서 사용자가 다른 언어를 선택한 경우에도 앱의 표시 언어는 영어로만 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-114">The display language for the Get Help app is English only, even if a user has selected a different language when setting up their device or in device settings.</span></span> 
-
-### <a name="prerequisites"></a><span data-ttu-id="4ccf7-115">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="4ccf7-115">Prerequisites</span></span>
-<span data-ttu-id="4ccf7-116">사용자가 앱을 통해 도움을 받을 수 있도록 이러한 선행 조문을 충족하는지 확인</span><span class="sxs-lookup"><span data-stu-id="4ccf7-116">For your users to be able to get help through the app, make sure these prerequisites are met:</span></span>
-
-- <span data-ttu-id="4ccf7-117">디바이스는 새 장치 Microsoft Managed Desktop 등록과 같은 Microsoft Managed Desktop 방법 [](../get-started/set-up-devices.md)중 하나를 사용하여 디바이스에 [등록해야 합니다.](../get-started/register-devices-self.md)</span><span class="sxs-lookup"><span data-stu-id="4ccf7-117">The device must be registered with Microsoft Managed Desktop using one of the methods in [Set up Microsoft Managed Desktop devices](../get-started/set-up-devices.md), such as [Register new devices yourself](../get-started/register-devices-self.md).</span></span>
-- <span data-ttu-id="4ccf7-118">디바이스의 표시 언어는 en-us, en-gb, en-au, en-nz 또는 en-ca와 같은 영어 로지로 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-118">The display language for the device must be set to any of these English-language locales: en-us, en-gb, en-au, en-nz, or en-ca.</span></span>
-- <span data-ttu-id="4ccf7-119">앱 도움말 최신해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-119">The Get Help app should be up to date.</span></span> <span data-ttu-id="4ccf7-120">상태를 확인하기 위해 앱의 앱 업데이트를 Microsoft Store.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-120">To confirm its status, check for app updates in the Microsoft Store.</span></span>
-- <span data-ttu-id="4ccf7-121">특정 [끝점은](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) 장치에서 액세스할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-121">Certain [endpoints](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) must be accessible from the device.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="4ccf7-122">이 도움말 완전히 작동하기 위해 장치를 배포한 후 최대 1시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-122">The Get Help app can take up to one hour after a device is deployed to fully function.</span></span>
-
-<span data-ttu-id="4ccf7-123">이러한 선행 작업을 확인한 후 도움말 앱이 작동하지 않는 경우 IT 관리자는 지원 요청을 [제출해야 합니다.](admin-support.md)</span><span class="sxs-lookup"><span data-stu-id="4ccf7-123">If you've checked these prerequisites and the Get Help app still isn't working, you as an IT admin should file a [support request](admin-support.md).</span></span>
-
-## <a name="phone-support"></a><span data-ttu-id="4ccf7-124">전화 지원</span><span class="sxs-lookup"><span data-stu-id="4ccf7-124">Phone support</span></span>
-
-<span data-ttu-id="4ccf7-125">또한 Microsoft Managed Desktop 있는 사용자는 전화를 걸 수 있는 무료 전화 번호에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-125">Users with Microsoft Managed Desktop devices also have access to toll-free phone numbers they can call.</span></span> <span data-ttu-id="4ccf7-126">이 숫자는 사용할 수 없는 도움말 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-126">The numbers are meant to be used when Get Help isn’t available.</span></span> <span data-ttu-id="4ccf7-127">예를 들어 장치에 로그인할 수 없는 경우 또는 장치가 손상된 경우입니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-127">For example, if they can’t sign in to the device, or the device is broken.</span></span> <span data-ttu-id="4ccf7-128">전화 지원에 대한 전화 번호는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-128">Here are the phone numbers for phone support:</span></span>
-
-- <span data-ttu-id="4ccf7-129">미국: +1 855 425 0216</span><span class="sxs-lookup"><span data-stu-id="4ccf7-129">United States: +1 855 425 0216</span></span>
-- <span data-ttu-id="4ccf7-130">캐나다(Quebec 제외): +1 855 425 0216</span><span class="sxs-lookup"><span data-stu-id="4ccf7-130">Canada (excluding Quebec): +1 855 425 0216</span></span>
-- <span data-ttu-id="4ccf7-131">영국: +44 800 026 0698</span><span class="sxs-lookup"><span data-stu-id="4ccf7-131">United Kingdom: +44 800 026 0698</span></span>
-- <span data-ttu-id="4ccf7-132">벨기에: +32 800 58533</span><span class="sxs-lookup"><span data-stu-id="4ccf7-132">Belgium: +32 800 58533</span></span>
-- <span data-ttu-id="4ccf7-133">룩셈부르크: +352 800 40119</span><span class="sxs-lookup"><span data-stu-id="4ccf7-133">Luxembourg: +352 800 40119</span></span>
-- <span data-ttu-id="4ccf7-134">오스트레일리아: +61 180 037 0619</span><span class="sxs-lookup"><span data-stu-id="4ccf7-134">Australia: +61 180 037 0619</span></span>
-- <span data-ttu-id="4ccf7-135">뉴질랜드: +64 988 44380</span><span class="sxs-lookup"><span data-stu-id="4ccf7-135">New Zealand: +64 988 44380</span></span>
-- <span data-ttu-id="4ccf7-136">스웨덴: +46 20 120 3554</span><span class="sxs-lookup"><span data-stu-id="4ccf7-136">Sweden: +46 20 120 3554</span></span>
-- <span data-ttu-id="4ccf7-137">노르웨이: +47 800 62584</span><span class="sxs-lookup"><span data-stu-id="4ccf7-137">Norway: +47 800 62584</span></span>
-- <span data-ttu-id="4ccf7-138">아이슬란드: +354 800 9006</span><span class="sxs-lookup"><span data-stu-id="4ccf7-138">Iceland: +354 800 9006</span></span>
-- <span data-ttu-id="4ccf7-139">아일랜드: +353 1 800 832272</span><span class="sxs-lookup"><span data-stu-id="4ccf7-139">Ireland: +353 1 800 832272</span></span>
-- <span data-ttu-id="4ccf7-140">덴마크: +45 80 40 04 01</span><span class="sxs-lookup"><span data-stu-id="4ccf7-140">Denmark: +45 80 40 04 01</span></span>
-- <span data-ttu-id="4ccf7-141">핀란드: +358 800 525088</span><span class="sxs-lookup"><span data-stu-id="4ccf7-141">Finland: +358 800 525088</span></span>
-
->[!NOTE]
-><span data-ttu-id="4ccf7-142">ID를 확인하려면 전화를 걸 때 조직 전자 메일 주소를 준비해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ccf7-142">You'll need to have your organizational email address ready when you call to verify your identity.</span></span> 
-
-## <a name="more-resources"></a><span data-ttu-id="4ccf7-143">추가 리소스</span><span class="sxs-lookup"><span data-stu-id="4ccf7-143">More resources</span></span>
-- <span data-ttu-id="4ccf7-144">[에 대한 관리자 Microsoft Managed Desktop.](admin-support.md)</span><span class="sxs-lookup"><span data-stu-id="4ccf7-144">[Admin support for Microsoft Managed Desktop](admin-support.md).</span></span> 
-- <span data-ttu-id="4ccf7-145">[에 대한 Microsoft Managed Desktop.](../service-description/support.md)</span><span class="sxs-lookup"><span data-stu-id="4ccf7-145">[Support for Microsoft Managed Desktop](../service-description/support.md).</span></span>
-- <span data-ttu-id="4ccf7-146">이미 Microsoft Managed Desktop 구독한 경우 Microsoft Managed Desktop 관리 가이드의 테넌트 관리 메뉴의 Microsoft Managed Desktop 섹션 아래 온라인 리소스에서 자세한  절차, 프로세스 흐름, 작업  지침 및 FAQ를 [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)</span><span class="sxs-lookup"><span data-stu-id="4ccf7-146">If you already subscribe to Microsoft Managed Desktop, you can find detailed procedures, process flows, work instructions, and FAQs in the Microsoft Managed Desktop Admin Guide in the **Online resources** under the Microsoft Managed Desktop section of the **Tenant administration** menu in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).</span></span>
+> <span data-ttu-id="f1921-149">이 경로를 통해 심각도 C 문제만 에스컬레이터할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-149">Only Severity C issues can be escalated through this path.</span></span> <span data-ttu-id="f1921-150">다른 문제가 있는 경우 IT 관리자에게 문의하여 관리 포털을 통해 요청을 제출합니다.</span><span class="sxs-lookup"><span data-stu-id="f1921-150">For other issues, contact your IT admin to file the request through the Admin portal.</span></span>
