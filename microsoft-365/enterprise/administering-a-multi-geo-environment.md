@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: 관리자는 다중 위치 환경에서 SharePoint 및 OneDrive 관리하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 4c5215b855b8ca1840035b39fcfbddde419c13d8
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 9ef22a34881ef5c9c2ed72835bc88c1dbfe835b5
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362321"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363946"
 ---
 # <a name="administering-a-multi-geo-environment"></a>Multi-Geo 환경 관리
 
@@ -72,15 +72,15 @@ DLP 정책은 각 지리적 위치에 적용할 수 있는지에 따라 자동�
 
 ## <a name="sharing"></a>공유
 
-관리자는 각 위치에 대한 공유 정책을 설정하고 관리할 수 있습니다. 각 지리적 위치에 있는 OneDrive 및 SharePoint 사이트는 해당 지리적 특정 공유 설정만 사용합니다. (예를 들어, 중앙 위치에 대한 [외부 공유](https://support.office.com/article/C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85)는 허용하지만 위성 위치의 외부 공유나 그 반대에 대해서는 허용할 수 없습니다.) 공유 설정에서는 지리적 위치간에 공유 제한을 구성할 수 없습니다.
+관리자는 각 위치에 대한 공유 정책을 설정하고 관리할 수 있습니다. 각 OneDrive 및 SharePoint 사이트는 해당 지역별 공유 설정만 적용합니다. (예를 들어, 중앙 위치에 대한 [외부 공유](https://support.office.com/article/C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85)는 허용하지만 위성 위치의 외부 공유나 그 반대에 대해서는 허용할 수 없습니다.) 공유 설정에서는 지리적 위치간에 공유 제한을 구성할 수 없습니다.
 
 ## <a name="stream"></a>Stream
 
-Stream에 업로드된 비디오는 업로드하는 OneDrive 저장됩니다. 모임 녹음/녹화는 모임을 OneDrive 각 참석자 중 하나에 저장됩니다.
+1:1 채팅에서 Stream에 업로드된 비디오는 업로드하는 사람의 OneDrive 저장됩니다. 모임 녹음/녹화는 모임을 OneDrive 각 참석자 중 하나에 저장됩니다.
 
 ## <a name="taxonomy"></a>분류
 
-우리는 지리적 위치에서 엔터프라이즈 관리 메타 데이터에 대한 통합 [분류](/sharepoint/managed-metadata)를 지원하며 마스터는 회사의 중앙 위치에서 호스팅됩니다. 전역 분류를 중앙 위치에서 관리하고 위치 관련 용어만 위성 위치의 분류에 추가하는 것이 좋습니다. 전역 분류 용어는 위성 위치에 동기화됩니다.
+마스터가 회사의 [](/sharepoint/managed-metadata) 중앙 위치에서 호스팅되는 지리적 위치 전반에 걸쳐 엔터프라이즈 관리 메타데이터에 대한 통합된 세분화가 지원됩니다. 전역 분류를 중앙 위치에서 관리하고 위치 관련 용어만 위성 위치의 분류에 추가하는 것이 좋습니다. 전역 분류 용어는 위성 위치에 동기화됩니다.
 
 자세한 내용 및 개발자 지침은 [다중 지역 테넌트의 메타 데이터 관리](/sharepoint/dev/solution-guidance/multigeo-managedmetadata)를 참조하세요.
 
