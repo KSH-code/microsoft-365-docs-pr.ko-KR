@@ -34,6 +34,8 @@
           href: office-365-air.md
         - name: 자동화된 조사 및 대응이 작동하는 방식
           href: automated-investigation-response-office.md
+        - name: 조사 중인 전자 메일 분석
+          href: email-analysis-investigations.md
         - name: 수정 작업
           href: air-remediation-actions.md
         - name: 맬웨어 방지 보호 기능
