@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 Microsoft 365 Defender 포털에서 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 전자 메일 첨부 파일을 다시 검색하기 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eecb635972be85e1a1a4f95c2786f209ee249745
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: 2d18dd7f5dc702f08a722652394aeb0102f100ef
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203283"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409059"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -67,6 +67,9 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 2. 제출 **페이지에서** 분석용 **제출** 탭이 선택되어 있는지 확인한 다음 분석을 위해 Microsoft에 광고 아이콘 ![ ](../../media/m365-cc-sc-create-icon.png) **제출을 클릭합니다.**
 
 3. 다음 **섹션에** 설명된 메시지, URL 또는 전자 메일 첨부 파일을 제출하는 것으로 나타나는 검토 플라이아웃을 위해 Microsoft에 제출을 사용합니다.
+
+   > [!NOTE]
+   > 클라우드에서 데이터가 환경을 떠날 수 없는 경우 파일 및 URL 전송을 사용할 수 없습니다. 파일 또는 URL을 선택할 수 있는 능력은 회색으로 표시됩니다.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Microsoft에 질문이 있는 전자 메일 제출
 

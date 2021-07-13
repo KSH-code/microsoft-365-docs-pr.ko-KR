@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- AdminTemplateSet
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 조직에 여러 도메인이 필요할 수 있으므로 고객이 찾을 수 있습니다. 구독에 다른 도메인을 추가하는 방법을 배워야 합니다.
-ms.openlocfilehash: 13fc3cf73a112945db4372231cce70c1837c1321
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 766d0f6c1e3c68a262bc01ba432e042f0d274ce8
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706433"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394848"
 ---
 # <a name="add-another-domain"></a>다른 도메인 추가
 
@@ -36,7 +37,7 @@ ms.locfileid: "52706433"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. In the Microsoft 365 admin center, choose **Setup**.
+1. In the Microsoft 365 관리 센터, choose **Setup**.
 1. 사용자 **지정 도메인 설정에서** 보기를 **선택합니다.**
 1. 관리 **를** 선택한 다음 도메인 **추가 를 선택 합니다.**
 1. 추가할 새 도메인 이름을 입력하고 다음 을 **선택합니다.**

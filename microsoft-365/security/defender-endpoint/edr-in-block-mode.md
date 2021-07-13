@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: ae170ecf0fc0f354c9975300e5f2f7cd014b0c47
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 835195f0c35ada409ef632b2dbfa1b6de0291351
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339694"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409155"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드에서 끝점 EDR(응답)
 
@@ -68,8 +68,8 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 
 3. 차단 모드에서 **EDR 을 켜야 합니다.**
 
-> [!NOTE]
-> EDR 포털에서만 차단 모드로 Microsoft 365 Defender 있습니다. 레지스트리 키, Intune 또는 그룹 정책을 사용하여 차단 모드에서 레지스트리 EDR 수 없습니다.
+   > [!NOTE]
+   > EDR 포털에서만 차단 모드로 Microsoft 365 Defender 있습니다. 레지스트리 키, Intune 또는 그룹 정책을 사용하여 차단 모드에서 레지스트리 EDR 수 없습니다.
 
 ## <a name="requirements-for-edr-in-block-mode"></a>차단 모드의 EDR 요구 사항
 
@@ -77,7 +77,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 |---------|---------|
 |사용 권한 |에서 할당된 전역 관리자 [또는 보안 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) 기본 [사용 권한을 참조합니다.](basic-permissions.md) |
 |운영 체제     |다음 버전 중 하나 <br/>- Windows 10(모든 릴리스) <br/>- Windows Server, 버전 1803 이상 <br/>- Windows Server 2019 <br/>- Windows Server 2016(Microsoft Defender 바이러스 백신 모드에 있는 경우만)     |
-|Windows E5 등록     |Windows E5는 다음 구독에 포함됩니다. <br/>- Microsoft 365 E5 <br/>- Microsoft 365 E3 Id 및 위협 방지 & 함께 사용할 수 있습니다. <br/><br/>각 [계획의](/microsoft-365/enterprise/microsoft-365-overview#components) 구성 요소 및 [기능을 참조합니다.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)       |
+|Windows E5 등록     |Windows E5는 다음 구독에 포함됩니다. <br/>- Microsoft 365 E5 <br/>- Microsoft 365 E3 추가 Microsoft 365 E5 Security 함께 사용할 수 있습니다. <br/><br/>각 [계획의](/microsoft-365/enterprise/microsoft-365-overview#components) 구성 요소 및 [기능을 참조합니다.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)       |
 |Windows Defender 바이러스 백신  |Microsoft Defender 바이러스 백신 모드 또는 수동 모드에서 설치 및 실행해야 합니다. Microsoft가 아닌 바이러스 백신 Microsoft Defender 바이러스 백신 함께 사용할 수 있습니다. [활성 Microsoft Defender 바이러스 백신 수동 모드에 있는지 확인](#how-do-i-confirm-microsoft-defender-antivirus-is-in-active-or-passive-mode) |
 |클라우드 제공 보호 |클라우드 제공 Microsoft Defender 바이러스 백신 사용하도록 구성해야 [합니다.](enable-cloud-protection-microsoft-defender-antivirus.md) |
 |Microsoft Defender 바이러스 백신 맬웨어 방지 클라이언트 |클라이언트를 최신으로 유지해야 합니다. PowerShell을 사용하여 [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus) cmdlet을 관리자 권한으로 실행합니다. **AMProductVersion** 줄에 **4.18.2001.10 이상이** 표시될 것입니다. |
@@ -86,7 +86,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 > [!IMPORTANT]
 > 최상의 보호 값을 얻기 위해 정기적인 업데이트 및 필수 기능을 받도록 바이러스 백신 솔루션이 구성되어 있는지, 그리고 제외가 구성되어 [있는지 확인합니다.](configure-exclusions-microsoft-defender-antivirus.md) EDR 모드는 차단 모드에 대해 정의된 제외를 Microsoft Defender 바이러스 백신.
 
-## <a name="frequently-asked-questions"></a>질문과 대답 
+## <a name="frequently-asked-questions"></a>자주 묻는 질문 
 
 ### <a name="do-i-need-to-turn-edr-in-block-mode-on-even-when-i-have-microsoft-defender-antivirus-running-on-devices"></a>장치에서 실행 중인 EDR 차단 모드에서 Microsoft Defender 바이러스 백신 설정해야 하나요?
 

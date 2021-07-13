@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e64f17f2bedea89db1190e6c758c514f14fc3a68
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c89de5fbf5d5b4d5d5e53074109bc8884a271eea
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843581"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394896"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Microsoft Defender for Endpoint Devices 목록에서 장치 조사
 
@@ -58,6 +58,10 @@ ms.locfileid: "52843581"
 - 카드(활성 경고, 로그온한 사용자, 보안 평가)
 
 ![장치 보기의 이미지](images/specific-device.png)
+
+> [!NOTE]
+> 제품 제약으로 인해 장치 프로필은 '마지막 본 시간' 기간(장치 페이지에 표시)을 결정할 때 모든 사이버 증거를 고려하지 않습니다.
+> 예를 들어 장치 페이지의 '마지막 표시 시간' 값은 컴퓨터의 타임라인에서 최근 경고 또는 데이터를 사용할 수 있는 경우에도 이전 시간 프레임을 표시될 수 있습니다.
 
 ## <a name="device-details"></a>장치 세부 정보
 
@@ -184,6 +188,8 @@ ms.locfileid: "52843581"
 **로그온한** 사용자 카드에는 지난 30일 동안 로그온한 사용자 수와 가장 자주 또는 가장 자주 로그온한 사용자 수가 표시되어 있습니다. "모든 사용자 보기" 링크를 선택하면 세부 정보 창이 열리며, 세부 정보 창에는 사용자 유형, 로그온 유형, 사용자가 처음 및 마지막으로 본 때와 같은 정보가 표시됩니다. 자세한 내용은 사용자 엔터티 [조사를 참조하세요.](investigate-user.md)
 
 ![사용자 세부 정보 창의 이미지](images/logged-on-users.png)
+> [!NOTE]
+> '가장 자주' 사용자 값은 대화형으로 로그온한 사용자의 증거에만 계산됩니다. 그러나 "모든 사용자" 사이드 창은 모든 종류의 사용자 로그 인을 계산하여 해당 사용자가 대화형이 아 않을 수 있는 경우 측면 창에서 더 자주 사용자에게 표시될 것으로 예상됩니다.
 
 ### <a name="security-assessments"></a>보안 평가
 
@@ -193,7 +199,7 @@ ms.locfileid: "52843581"
 
 ## <a name="related-topics"></a>관련 항목
 
-- [끝점 경고 큐에 대한 Microsoft Defender 보기 및 구성](alerts-queue.md)
+- [엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성](alerts-queue.md)
 - [끝점 경고에 대한 Microsoft Defender 관리](manage-alerts.md)
 - [끝점 경고에 대한 Microsoft Defender 조사](investigate-alerts.md)
 - [끝점 경고에 대한 Defender와 관련된 파일 조사](investigate-files.md)

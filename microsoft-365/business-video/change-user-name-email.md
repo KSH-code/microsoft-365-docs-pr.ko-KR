@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- AdminTemplateSet
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 표시 이름, 별칭 또는 전자 메일 주소를 변경하여 사용자 이름 또는 전자 메일 주소를 변경하는 방법을 학습합니다.
-ms.openlocfilehash: e012923ebe12a04b07c9236f5ebbd30623cd2dd5
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: c7d960daa8b1b83149db90b10b7af4236d535a9d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706421"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394836"
 ---
 # <a name="change-a-users-name-or-email-address"></a>사용자의 이름 또는 전자 메일 주소 변경
 
@@ -40,7 +41,7 @@ ms.locfileid: "52706421"
 
 ### <a name="change-a-users-display-name"></a>사용자의 표시 이름 변경
 
-1. Microsoft 365 관리 센터에서 사용자 **및** 활성 사용자를 **선택합니다.**
+1. 이 Microsoft 365 관리 센터 사용자 **및** 활성 사용자를 **선택합니다.**
 1. 활성 사용자 목록에서 사용자를 선택합니다.
 1. 연락처 **정보 관리를 선택합니다.**
 1. 표시 이름을 변경하고 변경 내용 **저장 을 선택합니다.**
@@ -49,14 +50,14 @@ ms.locfileid: "52706421"
 
 ### <a name="add-an-email-alias"></a>전자 메일 별칭 추가
 
-1. Microsoft 365 관리 센터에서 사용자 **및** 활성 사용자를 **선택합니다.**
+1. 이 Microsoft 365 관리 센터 사용자 **및** 활성 사용자를 **선택합니다.**
 1. 활성 사용자 목록에서 사용자를 선택합니다.
 1. 전자 **메일 별칭 관리를 선택합니다.**
 1. 새 별칭을 입력하고 도메인을 확인하고 변경 **내용 저장 을 선택합니다.**
 
 ### <a name="change-a-username"></a>사용자 이름 변경
 
-1. Microsoft 365 관리 센터에서 사용자 **및** 활성 사용자를 **선택합니다.**
+1. 이 Microsoft 365 관리 센터 사용자 **및** 활성 사용자를 **선택합니다.**
 1. 활성 사용자 목록에서 사용자를 선택합니다.
 1. 사용자 **이름 관리를 선택합니다.**
 1. 새 사용자 이름을 입력하고 도메인을 확인하고 변경 **내용 저장 을 선택합니다.**

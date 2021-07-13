@@ -14,17 +14,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium에서 관리자 도움말 또는 온라인 또는 전화 지원을 받으려면 비즈니스 구독의 관리자여야 합니다.
-ms.openlocfilehash: 254e01894f430bdf6a8f666d1425af8705968647
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: c33506a17ea7c99902025b613e27168606e7ff03
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984751"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394824"
 ---
 # <a name="get-support"></a>지원 받기
 

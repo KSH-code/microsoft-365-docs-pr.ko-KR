@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: aec9135a00b53f504d19a80e428d52f21b92cf9c
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 4e298a9dc8b23e3977db51d5a3b96f7b0723a0d1
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288134"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394944"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -40,6 +40,28 @@ ms.locfileid: "53288134"
 > - [Microsoft 365 Defender의 새로운 기능](../security/defender/whats-new.md)
 >
 > 또한 Microsoft 365 [](https://www.microsoft.com/microsoft-365/roadmap) 로드맵을 방문하여 Microsoft 365, 개발 중, 취소 또는 이전에 릴리스된 Microsoft 365 기능에 대해 자세히 알아보습니다.
+
+## <a name="june-2021"></a>2021년 6월
+
+### <a name="customer-key"></a>고객 키
+
+- [고객 키를 사용하여](customer-key-overview.md) 서비스 암호화(고객 키 테넌트 수준 DEP는 이제 고객에 대한 민감도 레이블 구성을 Microsoft Information Protection.
+
+### <a name="ediscovery"></a>eDiscovery
+
+- [검토 집합의](review-set-search.md) 콘텐츠 쿼리 및 필터링(검토 집합에서 콘텐츠를 필터링하고 검색하는 새로운 UX 형식의 새 쿼리 및 필터링 기능)
+- Advanced eDiscovery 집합의 검토 집합에 문서 태그 [지정(검토](tagging-documents.md) 집합의 문서에 태그를 지정하는 새 태그 기능 및 UX 포함), 쿼리를 사용하고 필터를 사용하여 항목에 태그가 지정되는 방식에 따라 검토 집합 항목을 빠르게 찾거나 제외하는 새로운 기능 포함
+- [eDiscovery](set-up-compliance-boundaries.md) 조사에 대한 준수 경계 설정(Microsoft는 MS 지원에 문의하여 준수 특성이 OneDrive 계정에 동기화됨을 요청해야 하는 요구 사항을 제거했습니다. 이제 사서함 검색 권한 필터를 사용하여 검색에 대한 준수 경계를 OneDrive)
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+
+- 민감도 레이블 정책 마법사는 이제 기본 Outlook 필수 레이블 지정을 PowerShell 고급 설정보다 더 쉬운 구성으로 지원합니다. [](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling)
+- 이제 [](sensitivity-labels-office-apps.md#dynamic-markings-with-variables ) Word, Excel 및 변수를 통해 동적 표시에 대한 지원이 웹용 PowerPoint
+- 사용자에 대한 자동 레이블 [Exchange](apply-sensitivity-label-automatically.md) 레이블이 암호화에 대해 구성된 경우 해당 암호화가 적용되지 않습니다. 또한 Exchange 레이블 지정 정책의 경우 예외와 제목, 받는 사람 주소 또는 보낸 사람 주소가 패턴 일치와 일치하는 새 조건을 구성할 수 있습니다. 받는 사람 주소에 단어가 포함되어 있습니다. 보낸 사람 도메인은 받는 사람이 다음의 구성원입니다. 보낸 사람이 입니다.
+- 팀, 그룹 및 사이트에서 민감도 레이블을 사용하는 경우 blockSendLabelMismatchEmail 매개 변수와 함께 Set-SPOTenant 사용하여 감사 이벤트  감지된 문서 민감도 불일치가 기록될 때 자동으로 생성되는 전자 메일을 방지할 수 있습니다.  자세한 내용은 민감도 레이블 [활동 감사를 참조하세요.](sensitivity-labels-teams-groups-sites.md#auditing-sensitivity-label-activities )
+- 이제 [인증 컨텍스트 설정이](sensitivity-labels-teams-groups-sites.md#more-information-about-the-dependencies-for-the-authentication-context-option) 민감도 레이블에 대한 미리 보기에서 완전히 롤아웃됩니다. 또한 이 구성은 이제 이 구성에서 Microsoft Teams.
+- Microsoft Cloud App Security 등의 서비스 원칙 이름으로 레이블을 지정하고 암호화한 다음 SharePoint 및 OneDrive 에 업로드된 파일은 웹용 Office 및 Office 파일에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정한 경우 SharePoint [및](sensitivity-labels-sharepoint-onedrive-files.md)OneDrive.
+- 공동 [작성](sensitivity-labels-coauthoring.md) 및 자동 작성은 더 이상 테스트 테넌트로 제한되지 않습니다. 버전 2105: Windows 6월 18일, macOS용 버전 16.50+를 사용하는 경우 프로덕션에서 지원됩니다. 이 기능은 iOS 및 Android에서 여전히 지원되지 않고 미리 보기로 남아 있습니다.
 
 ## <a name="may-2021"></a>2021년 5월
 
@@ -269,49 +291,3 @@ Outlook 릴리스 및 업데이트:
 
 - 이제 미국 정부 테넌트(GCC 및 GCC-H)에 대해 민감도 레이블이 지원됩니다.
 - [macOS에 대한 새로운](sensitivity-labels-office-apps.md) 자동 레이블 지정 지원.
-
-## <a name="december-2020"></a>2020년 12월
-
-### <a name="spotlight-new-content-for-insider-risk-solutions"></a>스포트라이트: 내부자 위험 솔루션에 대한 새 콘텐츠
-
-Microsoft 365 규정 준수 콘텐츠 팀은 규정 준수 기능을 함께 사용하여 규정 준수 목표를 달성하는 방법을 홍보하기 위해 '콘텐츠 솔루션' docs를 만들기 위해 노력합니다.
-
-먼저 커뮤니케이션 규정 준수, 내부자 위험 관리, 정보 장벽 및 권한 있는 액세스 관리와 같은 내부자 위험 솔루션을 함께 연계하는 콘텐츠입니다. 다음은 찾을 수 있는 정보를 한 가지 예입니다.
-
-- [내부자 위험 솔루션에 대한 새 방문 페이지입니다.](insider-risk-solution-overview.md) 솔루션이 완화하는 데 도움이 될 수 있는 위험에 대한 세부 정보, 라이선스 요구 사항, 배포 시퀀스, 아키텍처 일러스트레이션, 교육 리소스 등
-- 각 내부자 위험 솔루션에 대한 새로운 개요 문서입니다. 각 솔루션을 학습, 계획, 배포 및 관리하는 데 도움이 되는 문서에 대한 지침 및 링크:
-  - [커뮤니케이션 규정 준수](communication-compliance-solution-overview.md)
-  - [내부자 위험 관리](insider-risk-management-solution-overview.md)
-  - [정보 장벽](information-barriers-solution-overview.md)
-  - [권한이 부여된 액세스 관리](privileged-access-management-solution-overview.md)
-
-곧 더 많은 콘텐츠 솔루션 docs가 제공될 예정입니다!
-
-### <a name="advanced-ediscovery"></a>Advanced eDiscovery
-
-관리인 및 비보조 데이터 원본을 추가하는 워크플로 및 기능이 Advanced eDiscovery 있습니다. [](add-custodians-to-case.md) [](non-custodial-data-sources.md)
-
-### <a name="data-connectors"></a>데이터 커넥터
-
-[4개의 새로운 Veritas](archiving-third-party-data.md#third-party-data-connectors)커넥터가 출시되었습니다. Redtail Speak, Salesforce Chatter, ServiceNow 및 Yieldbroker.
-
-### <a name="encryption"></a>암호화
-
-테넌트 수준에서 [Microsoft 365 고객 키를 소개합니다.](customer-key-tenant-level.md) 제공한 키를 사용하여 DEP(데이터 암호화 정책)를 만들어 테넌트에 할당할 수 있습니다. DEP는 이러한 워크로드에 대해 테넌트 전체의 데이터를 암호화합니다.
-
-- Teams 채팅 메시지(1:1 채팅, 그룹 채팅, 모임 채팅 및 채널 대화)
-- Teams 미디어 메시지(이미지, 코드, 비디오, 위키 이미지)
-- Teams 저장소에 저장된 통화 및 모임 Teams 기록
-- Teams 알림
-- Teams 채팅 제안을 Cortana
-- Teams 메시지 표시
-- 사용자 및 사용자에 대한 Exchange Online
-
-### <a name="records-management"></a>레코드 관리
-
-레코드 [관리 관리 역할 그룹은](get-started-with-records-management.md#permissions-required-for-records-management) 이제 모든 레코드 관리 기능에 대한 사용 권한을 부여합니다(삭제 검토 포함).
-
-### <a name="sensitivity-labels"></a>민감도 레이블
-
-- [Azure Purview(미리](/azure/purview/create-sensitivity-label)보기)에서 자동으로 데이터에 레이블을 지정합니다. 이제 Azure Blob Storage의 파일 및 Azure의 데이터베이스 열과 같은 Azure Purview의 자산에 민감도 레이블을 만들고 자동으로 적용할 수 SQL Server.
-- [사용자에게 항목에 레이블을 적용해야 합니다.](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) '필수 레이블 지정'으로도 알려진 이 새 옵션을 사용하려면 사용자가 특정 시나리오에서 민감도 레이블을 선택하고 적용해야 합니다.

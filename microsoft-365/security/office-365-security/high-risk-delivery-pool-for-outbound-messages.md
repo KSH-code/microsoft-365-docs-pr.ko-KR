@@ -17,12 +17,12 @@ ms.collection:
 description: 배달 풀을 사용하여 데이터 센터에서 전자 메일 서버의 신뢰를 보호하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 85f200cf226a050762db4ea37255f71241d1f98c
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: c5881b20eaed8387988d01b69a4acd022c5924a2
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137721"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409143"
 ---
 # <a name="outbound-delivery-pools"></a>아웃바운드 배달 풀
 
@@ -82,3 +82,6 @@ Microsoft 365 전달된 메시지를 배달할 수 있도록 원래 보낸 사�
 DKIM이 작동하려면 도메인 보내기에 DKIM을 사용하도록 설정해야 합니다. 예를 들어 fabrikam.com 조직의 contoso.com 도메인에 정의되어 있습니다. 메시지 보낸 사람이 sender@fabrikam.com DKIM을 사용하도록 설정해야 fabrikam.com. DKIM을 사용하여 사용자 지정 도메인에서 보낸 아웃바운드 전자 메일의 유효성을 검사하는 방법을 읽을 [수 있습니다.](use-dkim-to-validate-outbound-email.md)
 
 사용자 지정 도메인을 추가하려면 [Add a domain to Microsoft 365.](../../admin/setup/add-domain.md)
+
+도메인의 MX 레코드가 타사 서비스 또는 사내 전자 메일 서버를 지정하는 경우 커넥터에 대해 향상된 필터링을 [사용해야 합니다.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) 향상된 필터링은 인바운드 메일에 대해 SPF 유효성 검사가 올바른지 확인하며 릴레이 풀을 통해 전자 메일을 보내지 않도록 합니다.
+

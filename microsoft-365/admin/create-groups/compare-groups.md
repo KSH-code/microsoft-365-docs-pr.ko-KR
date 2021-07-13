@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Microsoft 365 그룹 구성원은 대화, 파일, 일정 이벤트, Stream 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
-ms.openlocfilehash: 1c9cfb1a1dd65dd72f80b0b0e0f76ccd944b81e2
-ms.sourcegitcommit: 233989a02a3fc6db33c995ad06b1f820f08f8f0a
+ms.openlocfilehash: 12da954beb4d019b7652ef4df2e18cb30ff542ed
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/12/2021
-ms.locfileid: "53383441"
+ms.locfileid: "53393262"
 ---
 # <a name="compare-groups"></a>그룹 비교
 

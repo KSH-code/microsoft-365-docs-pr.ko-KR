@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 캔버스 Microsoft Teams 통합
-ms.openlocfilehash: 946abaec52cb1c5060d5490b409758cf230a4e5a
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 7e13052cb029fef369f6386c2039785e40acc4ff
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256882"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409095"
 ---
 # <a name="use-microsoft-teams-meetings-with-canvas"></a>Canvas에서 Microsoft Teams 모임 사용
 
@@ -78,3 +78,9 @@ Canvas 관리자는 사용자 환경 내에서 Microsoft Teams 모임 LTI 앱을
 5. **설치** 를 선택합니다.
 
    모임 Microsoft Teams LTI 앱이 외부 앱 목록에 추가됩니다.
+   
+## <a name="enable-for-canvas-courses"></a>Canvas 과정 사용
+
+과정 내에서 LTI를 사용하려면 Canvas 과정의 강사는 통합 동기화를 사용하도록 설정해야 합니다. 해당 강사가 각 강의를 사용하도록 설정해야 해당 Teams 수 있습니다. 전역 메커니즘을 만들 수 Teams 않습니다. 이는 원치 않는 사용자가 생성되지 않도록 Teams 않도록 디자인되었습니다.
+
+강사에게 각 [](https://support.microsoft.com/en-us/topic/use-microsoft-teams-classes-in-your-lms-preview-ac6a1e34-32f7-45e6-b83e-094185a1e78a#ID0EBD=Instructure_Canvas) 과정에 대한 LTI를 사용하도록 설정하고 통합 설정을 완료하려면 강사 설명서를 참조하세요.

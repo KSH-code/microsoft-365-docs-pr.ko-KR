@@ -1,0 +1,42 @@
+- name: Microsoft 365 Lighthouse
+  items:
+    - name: 개요 Microsoft 365 Lighthouse
+      href: m365-lighthouse-overview.md
+    - name: 요구 사항 Microsoft 365 Lighthouse
+      href: m365-lighthouse-requirements.md
+- name: 시작하기
+  items:
+    - name: 등록
+      href: m365-lighthouse-sign-up.md
+- name: 보안 Microsoft 365 Lighthouse
+  items:
+    - name: 포털 보안 구성
+      href: m365-lighthouse-configure-portal-security.md
+- name: 기준을 통해 고객 보호
+  items:
+    - name: 기준을 사용하여 표준 테넌트 구성 배포 개요
+      href: m365-lighthouse-deploying-standard-tenant-configurations-overview.md
+    - name: 기준 배포
+      href: m365-lighthouse-deploy-baselines.md
+- name: 테넌트 관리
+  items:
+    - name: 테넌트 목록 개요
+      href: m365-lighthouse-tenant-list-overview.md
+- name: 테넌트 내의 사용자 관리
+  items:
+    - name: 사용자 페이지 개요
+      href: m365-lighthouse-users-page-overview.md
+- name: 장치 관리
+  items:
+    - name: 장치 준수 페이지 개요
+      href: m365-lighthouse-device-compliance-page-overview.md
+- name: 위협 관리
+  items:
+    - name: 위협 관리 페이지 개요
+      href: m365-lighthouse-threat-management-page-overview.md
+- name: 도움말 및 지원하기
+  items:
+    - name: 도움말 및 지원하기
+      href: m365-lighthouse-get-help-and-support.md
+    - name: FAQ(질문과 대답)
+      href: m365-lighthouse-faq.yml
