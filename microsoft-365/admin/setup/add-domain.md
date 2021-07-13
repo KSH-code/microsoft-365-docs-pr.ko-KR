@@ -20,120 +20,121 @@ ms.custom:
 - MSStore_Link
 - okr_smb
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: 설치 마법사를 사용하여 DNS 호스트에 DNS 레코드를 Microsoft 365 Microsoft 365 관리 센터 도메인을 추가합니다.
-ms.openlocfilehash: 547a3bf242130993522b00f53819908b10c9e4d1
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: caec9951fa80d19467623922dffa8551d0b4ad0d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227838"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393586"
 ---
-# <a name="add-a-domain-to-microsoft-365"></a><span data-ttu-id="0f599-103">Microsoft 365에 도메인 추가</span><span class="sxs-lookup"><span data-stu-id="0f599-103">Add a domain to Microsoft 365</span></span>
+# <a name="add-a-domain-to-microsoft-365"></a><span data-ttu-id="dc6a2-103">Microsoft 365에 도메인 추가</span><span class="sxs-lookup"><span data-stu-id="dc6a2-103">Add a domain to Microsoft 365</span></span>
 
- <span data-ttu-id="0f599-104">원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](domains-faq.yml)** 하세요.</span><span class="sxs-lookup"><span data-stu-id="0f599-104">**[Check the Domains FAQ](domains-faq.yml)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="dc6a2-104">원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](domains-faq.yml)** 하세요.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-104">**[Check the Domains FAQ](domains-faq.yml)** if you don't find what you're looking for.</span></span> 
   
- <span data-ttu-id="0f599-105">*도메인을 추가, 수정 또는 제거하려면  **비즈니스** 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경을 할 수 없습니다.*</span><span class="sxs-lookup"><span data-stu-id="0f599-105">*To Add, modify or remove domains you **must** be a **Global Administrator** of a [business or enterprise plan](https://products.office.com/business/office). These changes affect the whole tenant, *Customized administrators* or *regular users* won't be able to make these changes.*</span></span>  
+ <span data-ttu-id="dc6a2-105">*도메인을 추가, 수정 또는 제거하려면  **비즈니스** 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경을 할 수 없습니다.*</span><span class="sxs-lookup"><span data-stu-id="dc6a2-105">*To Add, modify or remove domains you **must** be a **Global Administrator** of a [business or enterprise plan](https://products.office.com/business/office). These changes affect the whole tenant, *Customized administrators* or *regular users* won't be able to make these changes.*</span></span>  
 
- ## <a name="add-a-domain"></a><span data-ttu-id="0f599-106">도메인 추가</span><span class="sxs-lookup"><span data-stu-id="0f599-106">Add a domain</span></span>
+ ## <a name="add-a-domain"></a><span data-ttu-id="dc6a2-106">도메인 추가</span><span class="sxs-lookup"><span data-stu-id="dc6a2-106">Add a domain</span></span>
 
-<span data-ttu-id="0f599-107">다음 단계에 따라 도메인을 추가, 설정 또는 계속합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-107">Follow these steps to add, set up, or continue setting up a domain.</span></span> 
+<span data-ttu-id="dc6a2-107">다음 단계에 따라 도메인을 추가, 설정 또는 계속합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-107">Follow these steps to add, set up, or continue setting up a domain.</span></span> 
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="0f599-108"><a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-108">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
+1. <span data-ttu-id="dc6a2-108"><a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-108">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
 
 ::: moniker-end
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="0f599-109"><a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-109">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span></span>
+1. <span data-ttu-id="dc6a2-109"><a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-109">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="0f599-110"><a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-110">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.</span></span>
+1. <span data-ttu-id="dc6a2-110"><a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-110">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.</span></span>
 
 ::: moniker-end
     
-2. <span data-ttu-id="0f599-111">도메인 **설정**  >  **이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="0f599-111">Go to the **Settings** > **Domains** page.</span></span> 
+2. <span data-ttu-id="dc6a2-111">도메인 **설정**  >  **이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="dc6a2-111">Go to the **Settings** > **Domains** page.</span></span> 
 
-3. <span data-ttu-id="0f599-112">**도메인 추가** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-112">Select **Add domain**.</span></span>
+3. <span data-ttu-id="dc6a2-112">**도메인 추가** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-112">Select **Add domain**.</span></span>
     
-4. <span data-ttu-id="0f599-113">추가할 도메인의 이름을 입력하고 다음 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="0f599-113">Enter the name of the domain you want to add, then select **Next**.</span></span>
+4. <span data-ttu-id="dc6a2-113">추가할 도메인의 이름을 입력하고 다음 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="dc6a2-113">Enter the name of the domain you want to add, then select **Next**.</span></span>
     
-5. <span data-ttu-id="0f599-114">도메인을 소유하고 있는지 확인하는 방법을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-114">Choose how you want to verify that you own the domain.</span></span>
+5. <span data-ttu-id="dc6a2-114">도메인을 소유하고 있는지 확인하는 방법을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-114">Choose how you want to verify that you own the domain.</span></span>
     
-    1. <span data-ttu-id="0f599-115">도메인 등록 기관에서 [Domain 커넥트](#domain-connect-registrars-integrating-with-microsoft-365)사용하는 경우 Microsoft는 등록 기관에 로그인하고 등록 기관에 대한 연결을 확인하여 레코드를 Microsoft 365. [](../get-help-with-domains/domain-connect.md)</span><span class="sxs-lookup"><span data-stu-id="0f599-115">If your domain registrar uses [Domain Connect](#domain-connect-registrars-integrating-with-microsoft-365), Microsoft [will set up your records automatically](../get-help-with-domains/domain-connect.md) by having you sign in to your registrar and confirm the connection to Microsoft 365.</span></span> <span data-ttu-id="0f599-116">You'll be returned to the admin center and Microsoft will automatically verify your domain.</span><span class="sxs-lookup"><span data-stu-id="0f599-116">You'll be returned to the admin center and Microsoft will then automatically verify your domain.</span></span>
-    2. <span data-ttu-id="0f599-117">TXT 레코드를 사용하여 도메인을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-117">You can use a TXT record to verify your domain.</span></span> <span data-ttu-id="0f599-118">이 옵션을 선택하고 **다음을** 선택하여 등록 기관의 웹 사이트에 이 DNS 레코드를 추가하는 방법에 대한 지침을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="0f599-118">Select this and select **Next** to see instructions for how to add this DNS record to your registrar's website.</span></span> <span data-ttu-id="0f599-119">레코드를 추가한 후 확인하는 데 최대 30분이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-119">This can take up to 30 minutes to verify after you've added the record.</span></span> 
-    3. <span data-ttu-id="0f599-120">도메인의 웹 사이트에 텍스트 파일을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-120">You can add a text file to your domain's website.</span></span> <span data-ttu-id="0f599-121">설치 마법사에서 .txt 파일을 선택하고 다운로드한 다음 웹 사이트의 최상위 폴더에 파일을 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-121">Select and download the .txt file from the setup wizard, then upload the file to your website's top level folder.</span></span> <span data-ttu-id="0f599-122">파일의 경로는 다음과 유사해야 `http://mydomain.com/ms39978200.txt` 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-122">The path to the file should look similar to: `http://mydomain.com/ms39978200.txt`.</span></span> <span data-ttu-id="0f599-123">웹 사이트에서 파일을 찾아 도메인을 소유하고 있는 것을 확인할 것입니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-123">We'll confirm you own the domain by finding the file on your website.</span></span>
+    1. <span data-ttu-id="dc6a2-115">도메인 등록 기관에서 [Domain 커넥트](#domain-connect-registrars-integrating-with-microsoft-365)사용하는 경우 Microsoft는 등록 기관에 로그인하고 등록 기관에 대한 연결을 확인하여 레코드를 Microsoft 365. [](../get-help-with-domains/domain-connect.md)</span><span class="sxs-lookup"><span data-stu-id="dc6a2-115">If your domain registrar uses [Domain Connect](#domain-connect-registrars-integrating-with-microsoft-365), Microsoft [will set up your records automatically](../get-help-with-domains/domain-connect.md) by having you sign in to your registrar and confirm the connection to Microsoft 365.</span></span> <span data-ttu-id="dc6a2-116">You'll be returned to the admin center and Microsoft will automatically verify your domain.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-116">You'll be returned to the admin center and Microsoft will then automatically verify your domain.</span></span>
+    2. <span data-ttu-id="dc6a2-117">TXT 레코드를 사용하여 도메인을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-117">You can use a TXT record to verify your domain.</span></span> <span data-ttu-id="dc6a2-118">이 옵션을 선택하고 **다음을** 선택하여 등록 기관의 웹 사이트에 이 DNS 레코드를 추가하는 방법에 대한 지침을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-118">Select this and select **Next** to see instructions for how to add this DNS record to your registrar's website.</span></span> <span data-ttu-id="dc6a2-119">레코드를 추가한 후 확인하는 데 최대 30분이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-119">This can take up to 30 minutes to verify after you've added the record.</span></span> 
+    3. <span data-ttu-id="dc6a2-120">도메인의 웹 사이트에 텍스트 파일을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-120">You can add a text file to your domain's website.</span></span> <span data-ttu-id="dc6a2-121">설치 마법사에서 .txt 파일을 선택하고 다운로드한 다음 웹 사이트의 최상위 폴더에 파일을 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-121">Select and download the .txt file from the setup wizard, then upload the file to your website's top level folder.</span></span> <span data-ttu-id="dc6a2-122">파일의 경로는 다음과 유사해야 `http://mydomain.com/ms39978200.txt` 합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-122">The path to the file should look similar to: `http://mydomain.com/ms39978200.txt`.</span></span> <span data-ttu-id="dc6a2-123">웹 사이트에서 파일을 찾아 도메인을 소유하고 있는 것을 확인할 것입니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-123">We'll confirm you own the domain by finding the file on your website.</span></span>
     
-6. <span data-ttu-id="0f599-124">Microsoft에서 도메인을 사용하는 데 필요한 DNS를 변경하는 방법을 선택하십시오.</span><span class="sxs-lookup"><span data-stu-id="0f599-124">Choose how you want to make the DNS changes required for Microsoft to use your domain.</span></span>
+6. <span data-ttu-id="dc6a2-124">Microsoft에서 도메인을 사용하는 데 필요한 DNS를 변경하는 방법을 선택하십시오.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-124">Choose how you want to make the DNS changes required for Microsoft to use your domain.</span></span>
     
-    1. <span data-ttu-id="0f599-125">등록 **기관에서** [Domain 커넥트](#domain-connect-registrars-integrating-with-microsoft-365)지원하는 경우 Dns 레코드 추가를 선택하면 [Microsoft에서](../get-help-with-domains/domain-connect.md) 등록 기관에 로그인하고 등록 기관에 대한 연결을 확인하여 자동으로 레코드를 Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="0f599-125">Choose **Add the DNS records for me** if your registrar supports [Domain Connect](#domain-connect-registrars-integrating-with-microsoft-365), and Microsoft [will set up your records automatically](../get-help-with-domains/domain-connect.md) by having you sign in to your registrar and confirm the connection to Microsoft 365.</span></span>
-    2. <span data-ttu-id="0f599-126">도메인에 특정 Microsoft 365 서비스만 연결하려는 경우 또는 지금 건너뛰고 나중에 이 작업을 하려는 경우 **DNS** 레코드를 추가합니다.를 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="0f599-126">Choose **I'll add the DNS records myself** if you want to attach only specific Microsoft 365 services to your domain or if you want to skip this for now and do this later.</span></span> <span data-ttu-id="0f599-127">**무엇을 할지 정확히 아는 경우에만 이 옵션을 선택하세요.**</span><span class="sxs-lookup"><span data-stu-id="0f599-127">**Choose this option if you know exactly what you're doing.**</span></span>
+    1. <span data-ttu-id="dc6a2-125">등록 **기관에서** [Domain 커넥트](#domain-connect-registrars-integrating-with-microsoft-365)지원하는 경우 Dns 레코드 추가를 선택하면 [Microsoft에서](../get-help-with-domains/domain-connect.md) 등록 기관에 로그인하고 등록 기관에 대한 연결을 확인하여 자동으로 레코드를 Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-125">Choose **Add the DNS records for me** if your registrar supports [Domain Connect](#domain-connect-registrars-integrating-with-microsoft-365), and Microsoft [will set up your records automatically](../get-help-with-domains/domain-connect.md) by having you sign in to your registrar and confirm the connection to Microsoft 365.</span></span>
+    2. <span data-ttu-id="dc6a2-126">도메인에 특정 Microsoft 365 서비스만 연결하려는 경우 또는 지금 건너뛰고 나중에 이 작업을 하려는 경우 **DNS** 레코드를 추가합니다.를 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-126">Choose **I'll add the DNS records myself** if you want to attach only specific Microsoft 365 services to your domain or if you want to skip this for now and do this later.</span></span> <span data-ttu-id="dc6a2-127">**무엇을 할지 정확히 아는 경우에만 이 옵션을 선택하세요.**</span><span class="sxs-lookup"><span data-stu-id="dc6a2-127">**Choose this option if you know exactly what you're doing.**</span></span>
 
-7. <span data-ttu-id="0f599-128">*DNS* 레코드를 직접 추가하기로  선택한 경우 다음을 선택하면 도메인을 설정하기 위해 등록 기관 웹 사이트에 추가해야 하는 모든 레코드가 있는 페이지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-128">If you chose to *add DNS records yourself*  , select **Next** and you'll see a page with all the records that you need to add to your registrars website to set up your domain.</span></span> 
+7. <span data-ttu-id="dc6a2-128">*DNS* 레코드를 직접 추가하기로  선택한 경우 다음을 선택하면 도메인을 설정하기 위해 등록 기관 웹 사이트에 추가해야 하는 모든 레코드가 있는 페이지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-128">If you chose to *add DNS records yourself*  , select **Next** and you'll see a page with all the records that you need to add to your registrars website to set up your domain.</span></span> 
 
-    <span data-ttu-id="0f599-129">포털에서 등록 기관을 인식하지 못하는 경우에는 [이러한 일반 지침을 따르면](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-129">If the portal doesn't recognize your registrar, you can [follow these general instructions.](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)</span></span>
+    <span data-ttu-id="dc6a2-129">포털에서 등록 기관을 인식하지 못하는 경우에는 [이러한 일반 지침을 따르면](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-129">If the portal doesn't recognize your registrar, you can [follow these general instructions.](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)</span></span>
     
-    <span data-ttu-id="0f599-130">사용 중인 도메인의 DNS 호스팅 공급자 또는 도메인 등록 기관을 모르는 경우 [도메인 등록자 또는 DNS 호스팅 공급자 찾기](../get-help-with-domains/find-your-domain-registrar.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="0f599-130">If you don't know the DNS hosting provider or domain registrar for your domain, see [Find your domain registrar or DNS hosting provider](../get-help-with-domains/find-your-domain-registrar.md).</span></span>
+    <span data-ttu-id="dc6a2-130">사용 중인 도메인의 DNS 호스팅 공급자 또는 도메인 등록 기관을 모르는 경우 [도메인 등록자 또는 DNS 호스팅 공급자 찾기](../get-help-with-domains/find-your-domain-registrar.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-130">If you don't know the DNS hosting provider or domain registrar for your domain, see [Find your domain registrar or DNS hosting provider](../get-help-with-domains/find-your-domain-registrar.md).</span></span>
     
-    <span data-ttu-id="0f599-131">나중에 기다리려면 모든 서비스를 선택하지 않고 계속을 클릭하거나 이전 도메인 연결 단계에서 더  많은 옵션을 선택하고 지금 **건너뛰기 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="0f599-131">If you want to wait for later, either unselect all the services and click **Continue**, or in the previous domain connection step choose **More Options** and select **Skip this for now**.</span></span>
+    <span data-ttu-id="dc6a2-131">나중에 기다리려면 모든 서비스를 선택하지 않고 계속을 클릭하거나 이전 도메인 연결 단계에서 더  많은 옵션을 선택하고 지금 **건너뛰기 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="dc6a2-131">If you want to wait for later, either unselect all the services and click **Continue**, or in the previous domain connection step choose **More Options** and select **Skip this for now**.</span></span>
     
-8. <span data-ttu-id="0f599-132">완료 **-** 완료를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-132">Select **Finish** - you're done!</span></span>
+8. <span data-ttu-id="dc6a2-132">완료 **-** 완료를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-132">Select **Finish** - you're done!</span></span>
 
-## <a name="add-or-edit-custom-dns-records"></a><span data-ttu-id="0f599-133">사용자 지정 DNS 레코드 추가 또는 편집</span><span class="sxs-lookup"><span data-stu-id="0f599-133">Add or edit custom DNS records</span></span>
+## <a name="add-or-edit-custom-dns-records"></a><span data-ttu-id="dc6a2-133">사용자 지정 DNS 레코드 추가 또는 편집</span><span class="sxs-lookup"><span data-stu-id="dc6a2-133">Add or edit custom DNS records</span></span>
 
-<span data-ttu-id="0f599-134">아래 단계에 따라 웹 사이트 또는 제3자 서비스에 대한 사용자 지정 레코드를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-134">Follow the steps below to add a custom record for a website or 3rd party service.</span></span>
+<span data-ttu-id="dc6a2-134">아래 단계에 따라 웹 사이트 또는 제3자 서비스에 대한 사용자 지정 레코드를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-134">Follow the steps below to add a custom record for a website or 3rd party service.</span></span>
 
-1. <span data-ttu-id="0f599-135">에서 Microsoft 관리 센터에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-135">Sign in to the Microsoft admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
+1. <span data-ttu-id="dc6a2-135">에서 Microsoft 관리 센터에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-135">Sign in to the Microsoft admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
 
-2. <span data-ttu-id="0f599-136">도메인 **설정**   >  **이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="0f599-136">Go to the **Settings**  > **Domains** page.</span></span>
+2. <span data-ttu-id="dc6a2-136">도메인 **설정**   >  **이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="dc6a2-136">Go to the **Settings**  > **Domains** page.</span></span>
 
-3. <span data-ttu-id="0f599-137">**도메인** 페이지에서 도메인을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-137">On the **Domains** page, select a domain.</span></span> 
+3. <span data-ttu-id="dc6a2-137">**도메인** 페이지에서 도메인을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-137">On the **Domains** page, select a domain.</span></span> 
     
-4. <span data-ttu-id="0f599-138">**DNS 설정에서** 사용자 지정 **레코드 를 선택합니다.** 그런 다음 새 사용자 **지정 레코드 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="0f599-138">Under **DNS settings**, select **Custom Records**; then select **New custom record**.</span></span>
+4. <span data-ttu-id="dc6a2-138">**DNS 설정에서** 사용자 지정 **레코드 를 선택합니다.** 그런 다음 새 사용자 **지정 레코드 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="dc6a2-138">Under **DNS settings**, select **Custom Records**; then select **New custom record**.</span></span>
 
-5. <span data-ttu-id="0f599-139">추가할 DNS 레코드 유형을 선택하고 새 레코드에 대한 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-139">Select the type of DNS record you want to add and type the information for the new record.</span></span>
+5. <span data-ttu-id="dc6a2-139">추가할 DNS 레코드 유형을 선택하고 새 레코드에 대한 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-139">Select the type of DNS record you want to add and type the information for the new record.</span></span>
     
-6. <span data-ttu-id="0f599-140">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-140">Select **Save**.</span></span>
+6. <span data-ttu-id="dc6a2-140">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-140">Select **Save**.</span></span>
 
-## <a name="registrars-with-domain-connect"></a><span data-ttu-id="0f599-141">도메인 등록자가 있는 커넥트</span><span class="sxs-lookup"><span data-stu-id="0f599-141">Registrars with Domain Connect</span></span>
+## <a name="registrars-with-domain-connect"></a><span data-ttu-id="dc6a2-141">도메인 등록자가 있는 커넥트</span><span class="sxs-lookup"><span data-stu-id="dc6a2-141">Registrars with Domain Connect</span></span>
 
-<span data-ttu-id="0f599-142">[도메인 커넥트](https://www.domainconnect.org/) 등록 기관을 사용하면 몇 분 정도 Microsoft 365 3단계 프로세스에서 도메인을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-142">[Domain Connect](https://www.domainconnect.org/) enabled registrars let you add your domain to Microsoft 365 in a three-step process that takes minutes.</span></span> 
+<span data-ttu-id="dc6a2-142">[도메인 커넥트](https://www.domainconnect.org/) 등록 기관을 사용하면 몇 분 정도 Microsoft 365 3단계 프로세스에서 도메인을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-142">[Domain Connect](https://www.domainconnect.org/) enabled registrars let you add your domain to Microsoft 365 in a three-step process that takes minutes.</span></span> 
   
-<span data-ttu-id="0f599-143">마법사에서 사용자가 도메인을 소유하고 있는 것을 확인한 다음 도메인의 레코드를 자동으로 설정하기만 하여 전자 메일이 도메인과 Microsoft 365 Microsoft 365 서비스와 Teams 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-143">In the wizard, we'll just confirm that you own the domain, and then automatically set up your domain's records, so email comes to Microsoft 365 and other Microsoft 365 services, like Teams, work with your domain.</span></span>
+<span data-ttu-id="dc6a2-143">마법사에서 사용자가 도메인을 소유하고 있는 것을 확인한 다음 도메인의 레코드를 자동으로 설정하기만 하여 전자 메일이 도메인과 Microsoft 365 Microsoft 365 서비스와 Teams 합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-143">In the wizard, we'll just confirm that you own the domain, and then automatically set up your domain's records, so email comes to Microsoft 365 and other Microsoft 365 services, like Teams, work with your domain.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="0f599-144">설정 마법사를 시작하기 전에 브라우저의 팝업 차단 기능을 해제하세요.</span><span class="sxs-lookup"><span data-stu-id="0f599-144">Make sure you disable any popup blockers in your browser before you start the setup wizard.</span></span>
+> <span data-ttu-id="dc6a2-144">설정 마법사를 시작하기 전에 브라우저의 팝업 차단 기능을 해제하세요.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-144">Make sure you disable any popup blockers in your browser before you start the setup wizard.</span></span>
   
-### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a><span data-ttu-id="0f599-145">도메인 커넥트 통합하는 도메인 Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="0f599-145">Domain Connect registrars integrating with Microsoft 365</span></span>
+### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a><span data-ttu-id="dc6a2-145">도메인 커넥트 통합하는 도메인 Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="dc6a2-145">Domain Connect registrars integrating with Microsoft 365</span></span>
 
-- [<span data-ttu-id="0f599-146">1 &amp; 1 IONOS</span><span class="sxs-lookup"><span data-stu-id="0f599-146">1&amp;1 IONOS</span></span>](https://www.1and1.com/)
-- [<span data-ttu-id="0f599-147">EuroDNS</span><span class="sxs-lookup"><span data-stu-id="0f599-147">EuroDNS</span></span>](https://www.eurodns.com/)
-- [<span data-ttu-id="0f599-148">Cloudflare</span><span class="sxs-lookup"><span data-stu-id="0f599-148">Cloudflare</span></span>](https://www.cloudflare.com/)
-- [<span data-ttu-id="0f599-149">GoDaddy</span><span class="sxs-lookup"><span data-stu-id="0f599-149">GoDaddy</span></span>](https://www.godaddy.com/)
-- [<span data-ttu-id="0f599-150">WordPress.com</span><span class="sxs-lookup"><span data-stu-id="0f599-150">WordPress.com</span></span>](https://wordpress.com/)
-- [<span data-ttu-id="0f599-151">Plesk</span><span class="sxs-lookup"><span data-stu-id="0f599-151">Plesk</span></span>](https://www.plesk.com/)
-- [<span data-ttu-id="0f599-152">MediaTemple</span><span class="sxs-lookup"><span data-stu-id="0f599-152">MediaTemple</span></span>](https://mediatemple.net/)
-- <span data-ttu-id="0f599-153">SecureServer 또는 WildWestDomains(SecureServer DNS 호스팅을 사용하는 GoDaddy 리셀러)</span><span class="sxs-lookup"><span data-stu-id="0f599-153">SecureServer or WildWestDomains (GoDaddy resellers using SecureServer DNS hosting)</span></span>
-    - <span data-ttu-id="0f599-154">예제:</span><span class="sxs-lookup"><span data-stu-id="0f599-154">Examples:</span></span>
-        - [<span data-ttu-id="0f599-155">DomainsPricedRight</span><span class="sxs-lookup"><span data-stu-id="0f599-155">DomainsPricedRight</span></span>](https://www.domainspricedright.com/products/domain-registration)
-        - [<span data-ttu-id="0f599-156">DomainRightNow</span><span class="sxs-lookup"><span data-stu-id="0f599-156">DomainRightNow</span></span>](https://www.domainrightnow.com/)
+- [<span data-ttu-id="dc6a2-146">1 &amp; 1 IONOS</span><span class="sxs-lookup"><span data-stu-id="dc6a2-146">1&amp;1 IONOS</span></span>](https://www.1and1.com/)
+- [<span data-ttu-id="dc6a2-147">EuroDNS</span><span class="sxs-lookup"><span data-stu-id="dc6a2-147">EuroDNS</span></span>](https://www.eurodns.com/)
+- [<span data-ttu-id="dc6a2-148">Cloudflare</span><span class="sxs-lookup"><span data-stu-id="dc6a2-148">Cloudflare</span></span>](https://www.cloudflare.com/)
+- [<span data-ttu-id="dc6a2-149">GoDaddy</span><span class="sxs-lookup"><span data-stu-id="dc6a2-149">GoDaddy</span></span>](https://www.godaddy.com/)
+- [<span data-ttu-id="dc6a2-150">WordPress.com</span><span class="sxs-lookup"><span data-stu-id="dc6a2-150">WordPress.com</span></span>](https://wordpress.com/)
+- [<span data-ttu-id="dc6a2-151">Plesk</span><span class="sxs-lookup"><span data-stu-id="dc6a2-151">Plesk</span></span>](https://www.plesk.com/)
+- [<span data-ttu-id="dc6a2-152">MediaTemple</span><span class="sxs-lookup"><span data-stu-id="dc6a2-152">MediaTemple</span></span>](https://mediatemple.net/)
+- <span data-ttu-id="dc6a2-153">SecureServer 또는 WildWestDomains(SecureServer DNS 호스팅을 사용하는 GoDaddy 리셀러)</span><span class="sxs-lookup"><span data-stu-id="dc6a2-153">SecureServer or WildWestDomains (GoDaddy resellers using SecureServer DNS hosting)</span></span>
+    - <span data-ttu-id="dc6a2-154">예제:</span><span class="sxs-lookup"><span data-stu-id="dc6a2-154">Examples:</span></span>
+        - [<span data-ttu-id="dc6a2-155">DomainsPricedRight</span><span class="sxs-lookup"><span data-stu-id="dc6a2-155">DomainsPricedRight</span></span>](https://www.domainspricedright.com/products/domain-registration)
+        - [<span data-ttu-id="dc6a2-156">DomainRightNow</span><span class="sxs-lookup"><span data-stu-id="dc6a2-156">DomainRightNow</span></span>](https://www.domainrightnow.com/)
 
-### <a name="what-happens-to-my-email-and-website"></a><span data-ttu-id="0f599-157">전자 메일 및 웹 사이트는 어떻게 하나요?</span><span class="sxs-lookup"><span data-stu-id="0f599-157">What happens to my email and website?</span></span>
+### <a name="what-happens-to-my-email-and-website"></a><span data-ttu-id="dc6a2-157">전자 메일 및 웹 사이트는 어떻게 하나요?</span><span class="sxs-lookup"><span data-stu-id="dc6a2-157">What happens to my email and website?</span></span>
 
-<span data-ttu-id="0f599-158">설정이 완료되면 도메인의 MX 레코드가 도메인을 Microsoft 365 도메인의 모든 전자 메일이 Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="0f599-158">After you finish setup, the MX record for your domain is updated to point to Microsoft 365 and all email for your domain will start coming to Microsoft 365.</span></span> <span data-ttu-id="0f599-159">도메인에서 전자 메일을 받는 모든 Microsoft 365 사용자를 추가하고 사서함을 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-159">Make sure you've added users and set up mailboxes in Microsoft 365 for everyone who gets email on your domain!</span></span>
+<span data-ttu-id="dc6a2-158">설정이 완료되면 도메인의 MX 레코드가 도메인을 Microsoft 365 도메인의 모든 전자 메일이 Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-158">After you finish setup, the MX record for your domain is updated to point to Microsoft 365 and all email for your domain will start coming to Microsoft 365.</span></span> <span data-ttu-id="dc6a2-159">도메인에서 전자 메일을 받는 모든 Microsoft 365 사용자를 추가하고 사서함을 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-159">Make sure you've added users and set up mailboxes in Microsoft 365 for everyone who gets email on your domain!</span></span>
   
-<span data-ttu-id="0f599-160">업무에 사용하는 웹 사이트가 있는 경우 어디에 있든 작동이 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-160">If you have a website that you use with your business, it will keep working where it is.</span></span> <span data-ttu-id="0f599-161">Domain 커넥트 설정 단계는 웹 사이트에 영향을 주지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0f599-161">The Domain Connect setup steps don't affect your website.</span></span>
+<span data-ttu-id="dc6a2-160">업무에 사용하는 웹 사이트가 있는 경우 어디에 있든 작동이 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-160">If you have a website that you use with your business, it will keep working where it is.</span></span> <span data-ttu-id="dc6a2-161">Domain 커넥트 설정 단계는 웹 사이트에 영향을 주지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="dc6a2-161">The Domain Connect setup steps don't affect your website.</span></span>
 
-## <a name="related-content"></a><span data-ttu-id="0f599-162">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="0f599-162">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="dc6a2-162">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="dc6a2-162">Related content</span></span>
 
-<span data-ttu-id="0f599-163">[도메인 FAQ](domains-faq.yml)(문서)</span><span class="sxs-lookup"><span data-stu-id="0f599-163">[Domains FAQ](domains-faq.yml) (article)</span></span>\
-[<span data-ttu-id="0f599-164">도메인이 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="0f599-164">What is a domain?</span></span>](../get-help-with-domains/what-is-a-domain.md) <span data-ttu-id="0f599-165">(기사)</span><span class="sxs-lookup"><span data-stu-id="0f599-165">(article)</span></span>\
-<span data-ttu-id="0f599-166">[Microsoft 365 도메인](../get-help-with-domains/buy-a-domain-name.md) 이름 구입(문서)</span><span class="sxs-lookup"><span data-stu-id="0f599-166">[Buy a domain name in Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (article)</span></span>\
+<span data-ttu-id="dc6a2-163">[도메인 FAQ](domains-faq.yml)(문서)</span><span class="sxs-lookup"><span data-stu-id="dc6a2-163">[Domains FAQ](domains-faq.yml) (article)</span></span>\
+[<span data-ttu-id="dc6a2-164">도메인이 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="dc6a2-164">What is a domain?</span></span>](../get-help-with-domains/what-is-a-domain.md) <span data-ttu-id="dc6a2-165">(기사)</span><span class="sxs-lookup"><span data-stu-id="dc6a2-165">(article)</span></span>\
+<span data-ttu-id="dc6a2-166">[Microsoft 365 도메인](../get-help-with-domains/buy-a-domain-name.md) 이름 구입(문서)</span><span class="sxs-lookup"><span data-stu-id="dc6a2-166">[Buy a domain name in Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (article)</span></span>\

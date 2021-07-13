@@ -14,151 +14,153 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수가 사용자 및 기술 경험 측정값을 반영하는 방식을 알아보고 비슷한 크기의 조직과 비교해 보세요.
-ms.openlocfilehash: af0e8583bec00b1ddfd62145a4757a4e568108e8
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ddbc1590abc1383035db1852345310bfc8dd196d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789042"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393670"
 ---
-# <a name="microsoft-productivity-score"></a><span data-ttu-id="3cc9c-103">Microsoft 생산성 점수</span><span class="sxs-lookup"><span data-stu-id="3cc9c-103">Microsoft Productivity Score</span></span> 
+# <a name="microsoft-productivity-score"></a><span data-ttu-id="bf0e8-103">Microsoft 생산성 점수</span><span class="sxs-lookup"><span data-stu-id="bf0e8-103">Microsoft Productivity Score</span></span> 
 
-<span data-ttu-id="3cc9c-104">생산성 점수는 조직이 Microsoft 365를 사용하는 방법과 이를 지원하는 기술 경험에 대한 통찰력을 통해 디지털 전환을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-104">Productivity Score supports the journey to digital transformation with insights about how your organization uses Microsoft 365 and the technology experiences that support it.</span></span> <span data-ttu-id="3cc9c-105">조직의 점수는 직원 및 기술 경험의 측정값을 반영하며, 규모와 유사한 조직의 벤치마크와 비교할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-105">Your organization's score reflects people and technology experience measurements and can be compared to benchmarks from organizations similar in size to yours.</span></span>
+<span data-ttu-id="bf0e8-104">생산성 점수는 조직이 Microsoft 365를 사용하는 방법과 이를 지원하는 기술 경험에 대한 통찰력을 통해 디지털 전환을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-104">Productivity Score supports the journey to digital transformation with insights about how your organization uses Microsoft 365 and the technology experiences that support it.</span></span> <span data-ttu-id="bf0e8-105">조직의 점수는 직원 및 기술 경험의 측정값을 반영하며, 규모와 유사한 조직의 벤치마크와 비교할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-105">Your organization's score reflects people and technology experience measurements and can be compared to benchmarks from organizations similar in size to yours.</span></span>
 
-<span data-ttu-id="3cc9c-106">이 점수는 다음과 같은 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-106">It provides:</span></span>
+<span data-ttu-id="bf0e8-106">이 점수는 다음과 같은 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-106">It provides:</span></span>
 
-- <span data-ttu-id="3cc9c-107">디지털 변환 경로의 현재 위치를 확인하는 데 도움이 되는 **메트릭스** 입니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-107">**Metrics** to help you see where you are on your digital transformation journey.</span></span>
-- <span data-ttu-id="3cc9c-108">**데이터에 대해** 를 표시하여 조직의 생산성 및 만족도를 개선할 수 있는 기회를 식별할 수 있도록 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-108">**Insights** about the data to help you identify opportunities to improve productivity and satisfaction in your organization.</span></span>
-- <span data-ttu-id="3cc9c-109">**권장 작업** 을(를) 통해 조직이 Microsoft 365 제품을 효율적으로 사용할 수 있도록 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-109">**Recommended actions** you can take to help your organization use Microsoft 365 products efficiently.</span></span>
+- <span data-ttu-id="bf0e8-107">디지털 변환 경로의 현재 위치를 확인하는 데 도움이 되는 **메트릭스** 입니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-107">**Metrics** to help you see where you are on your digital transformation journey.</span></span>
+- <span data-ttu-id="bf0e8-108">**데이터에 대해** 를 표시하여 조직의 생산성 및 만족도를 개선할 수 있는 기회를 식별할 수 있도록 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-108">**Insights** about the data to help you identify opportunities to improve productivity and satisfaction in your organization.</span></span>
+- <span data-ttu-id="bf0e8-109">**권장 작업** 을(를) 통해 조직이 Microsoft 365 제품을 효율적으로 사용할 수 있도록 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-109">**Recommended actions** you can take to help your organization use Microsoft 365 products efficiently.</span></span>
 
-<span data-ttu-id="3cc9c-110">Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-110">We provide metrics, insights, and recommendations in two areas:</span></span> 
+<span data-ttu-id="bf0e8-110">Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-110">We provide metrics, insights, and recommendations in two areas:</span></span> 
 
-- <span data-ttu-id="3cc9c-111">**사용자의 경험:** 컨텐츠 협업, 이동성, 커뮤니케이션, 모임 및 팀워크와 같은 Microsoft 365 범주를 사용하여 조직의 작동 방식을 수량화합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-111">**People experiences:** Quantifies how the organization works using Microsoft 365 categories like content collaboration, mobility, communication, meetings, and teamwork.</span></span>  
+- <span data-ttu-id="bf0e8-111">**사용자의 경험:** 컨텐츠 협업, 이동성, 커뮤니케이션, 모임 및 팀워크와 같은 Microsoft 365 범주를 사용하여 조직의 작동 방식을 수량화합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-111">**People experiences:** Quantifies how the organization works using Microsoft 365 categories like content collaboration, mobility, communication, meetings, and teamwork.</span></span>  
 
-    <span data-ttu-id="3cc9c-112">언급된 각 범주에 대해, 우리는 공공 연구를 검토하여 조직 효과의 형태로 몇 가지 모범 사례와 관련 편익을 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-112">For each of the mentioned categories, we look at public research to identify some best practices and associated benefits in the form of organizational effectiveness.</span></span> <span data-ttu-id="3cc9c-113">예를 들어 Forrester 조사에 따르면 사용자가 첨부 파일을 전자 메일로 보내는 대신 클라우드에서 협업하고 콘텐츠를 공유할 때 일주일에 최대 100분을 절약할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-113">For example, Forrester research has shown that when people collaborate and share content in the cloud (instead of emailing attachments), they can save up to 100 minutes a week.</span></span> <span data-ttu-id="3cc9c-114">또한 Microsoft는 조직에서 이러한 모범 사례를 사용하여 디지털 전환 과정의 현재 위치를 파악할 수 있도록 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-114">Furthermore, we quantify the use of these best practices in your organization to help you see where you are on your digital transformation journey.</span></span> 
+    <span data-ttu-id="bf0e8-112">언급된 각 범주에 대해, 우리는 공공 연구를 검토하여 조직 효과의 형태로 몇 가지 모범 사례와 관련 편익을 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-112">For each of the mentioned categories, we look at public research to identify some best practices and associated benefits in the form of organizational effectiveness.</span></span> <span data-ttu-id="bf0e8-113">예를 들어 Forrester 조사에 따르면 사용자가 첨부 파일을 전자 메일로 보내는 대신 클라우드에서 협업하고 콘텐츠를 공유할 때 일주일에 최대 100분을 절약할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-113">For example, Forrester research has shown that when people collaborate and share content in the cloud (instead of emailing attachments), they can save up to 100 minutes a week.</span></span> <span data-ttu-id="bf0e8-114">또한 Microsoft는 조직에서 이러한 모범 사례를 사용하여 디지털 전환 과정의 현재 위치를 파악할 수 있도록 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-114">Furthermore, we quantify the use of these best practices in your organization to help you see where you are on your digital transformation journey.</span></span> 
 
-- <span data-ttu-id="3cc9c-115">**기술 경험:** 조직은 신뢰할 수 있고 성능이 우수한 기술과 Microsoft 365의 효율적인 사용에 의존합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-115">**Technology experiences:** Your organization depends on reliable and well-performing technology, as well as the efficient use of Microsoft 365.</span></span> <span data-ttu-id="3cc9c-116">[엔드포인트 분석](https://aka.ms/endpointanalytics)를 사용하면 하드웨어 및 소프트웨어의 성능 및 상태 문제로 인해 조직에 어떤 영향을 미칠 수 있는지 이해할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-116">[Endpoint analytics](https://aka.ms/endpointanalytics) helps you understand how your organization can be impacted by performance and health issues with your hardware and software.</span></span> <span data-ttu-id="3cc9c-117">Microsoft 365 앱 상태를 사용하면 조직의 장치에서 권장 채널에서 Microsoft 365 앱을 실행하고 있는지 여부를 파악할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-117">Microsoft  365 apps health helps you understand whether the devices in your organization are running Microsoft 365 apps on recommended channels.</span></span>
+- <span data-ttu-id="bf0e8-115">**기술 경험:** 조직은 신뢰할 수 있고 성능이 우수한 기술과 Microsoft 365의 효율적인 사용에 의존합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-115">**Technology experiences:** Your organization depends on reliable and well-performing technology, as well as the efficient use of Microsoft 365.</span></span> <span data-ttu-id="bf0e8-116">[엔드포인트 분석](https://aka.ms/endpointanalytics)를 사용하면 하드웨어 및 소프트웨어의 성능 및 상태 문제로 인해 조직에 어떤 영향을 미칠 수 있는지 이해할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-116">[Endpoint analytics](https://aka.ms/endpointanalytics) helps you understand how your organization can be impacted by performance and health issues with your hardware and software.</span></span> <span data-ttu-id="bf0e8-117">Microsoft 365 앱 상태를 사용하면 조직의 장치에서 권장 채널에서 Microsoft 365 앱을 실행하고 있는지 여부를 파악할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-117">Microsoft  365 apps health helps you understand whether the devices in your organization are running Microsoft 365 apps on recommended channels.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="3cc9c-118">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="3cc9c-118">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="bf0e8-118">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="bf0e8-118">Before you begin</span></span>
 
-<span data-ttu-id="3cc9c-119">개요와 필수 구성 요소 세부 사항에 대한 자세한 내용은 [엔드포인트 분석이란](/mem/analytics/overview)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-119">See [What is Endpoint Analytics](/mem/analytics/overview) for an overview and prerequisite details.</span></span> <span data-ttu-id="3cc9c-120">Microsoft 365 네트워크 연결 인사이트에 대한 자세한 내용은 [네트워크 연결 개요](../../enterprise/microsoft-365-networking-overview.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-120">To learn more about Microsoft 365 network connectivity insights, read [the network connectivity overview](../../enterprise/microsoft-365-networking-overview.md).</span></span>
+<span data-ttu-id="bf0e8-119">개요와 필수 구성 요소 세부 사항에 대한 자세한 내용은 [엔드포인트 분석이란](/mem/analytics/overview)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-119">See [What is Endpoint Analytics](/mem/analytics/overview) for an overview and prerequisite details.</span></span> <span data-ttu-id="bf0e8-120">Microsoft 365 네트워크 연결 인사이트에 대한 자세한 내용은 [네트워크 연결 개요](../../enterprise/microsoft-365-networking-overview.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-120">To learn more about Microsoft 365 network connectivity insights, read [the network connectivity overview](../../enterprise/microsoft-365-networking-overview.md).</span></span>
 
-<span data-ttu-id="3cc9c-121">사용자 경험 데이터의 경우 비즈니스용 Microsoft 365 또는 Office 365 enterprise 구독이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-121">For people experiences data, you need a Microsoft 365 for business or Office 365 for enterprise subscription.</span></span> <span data-ttu-id="3cc9c-122">테넌트에 대한 엔드포인트 분석 데이터의 경우 구독에 Microsoft Intune을 추가해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-122">For endpoint analytics data for your tenant, you need to add Microsoft Intune to your subscription.</span></span> <span data-ttu-id="3cc9c-123">Intune을 사용하면 장치와 앱을 관리하여 조직 데이터를 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-123">Intune helps protect your organization's data by managing devices and apps.</span></span> <span data-ttu-id="3cc9c-124">Intune을 설치하면 Intune 환경에서 엔드포인트 분석을 켤 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-124">Once you have Intune, you can turn on endpoint analytics within the Intune experience.</span></span> <span data-ttu-id="3cc9c-125">Microsoft Intune에 대해 자세히 알아보려면 [Microsoft Intune 문서](/mem/intune/)를 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-125">To learn more about Microsoft Intune, see the [Microsoft Intune documentation](/mem/intune/).</span></span> 
-
-> [!NOTE]
-> <span data-ttu-id="3cc9c-126">생산성 점수 기능을 사용하기 위해 Workplace Analytics에 대한 라이선스는 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-126">A license to Workplace Analytics is not required to get the Productivity Score features.</span></span>
-
-<span data-ttu-id="3cc9c-127">생산성 점수는 Microsoft 365 관리 센터에서만 사용할 수 있으며 다음 역할 중 하나를 가진 IT 전문가만 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-127">Productivity Score is only available in the Microsoft 365 admin center and can only be accessed by IT professionals who have one of the following roles:</span></span>  
-
-- <span data-ttu-id="3cc9c-128">전역 관리자</span><span class="sxs-lookup"><span data-stu-id="3cc9c-128">Global admin</span></span>
-- <span data-ttu-id="3cc9c-129">Exchange 관리자</span><span class="sxs-lookup"><span data-stu-id="3cc9c-129">Exchange admins</span></span>
-- <span data-ttu-id="3cc9c-130">SharePoint 관리자</span><span class="sxs-lookup"><span data-stu-id="3cc9c-130">SharePoint admin</span></span>
-- <span data-ttu-id="3cc9c-131">비즈니스용 Skype 관리자</span><span class="sxs-lookup"><span data-stu-id="3cc9c-131">Skype for Business admin</span></span>
-- <span data-ttu-id="3cc9c-132">Teams 관리자</span><span class="sxs-lookup"><span data-stu-id="3cc9c-132">Teams admin</span></span>
-- <span data-ttu-id="3cc9c-133">전역 읽기 권한자</span><span class="sxs-lookup"><span data-stu-id="3cc9c-133">Global Reader</span></span>
-- <span data-ttu-id="3cc9c-134">보고서 읽기 권한자</span><span class="sxs-lookup"><span data-stu-id="3cc9c-134">Reports Reader</span></span>
-- <span data-ttu-id="3cc9c-135">사용 현황 요약 보고서 읽기 권한자</span><span class="sxs-lookup"><span data-stu-id="3cc9c-135">Usage Summary Reports Reader</span></span>
+<span data-ttu-id="bf0e8-121">사용자 경험 데이터의 경우 비즈니스용 Microsoft 365 또는 Office 365 enterprise 구독이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-121">For people experiences data, you need a Microsoft 365 for business or Office 365 for enterprise subscription.</span></span> <span data-ttu-id="bf0e8-122">테넌트에 대한 엔드포인트 분석 데이터의 경우 구독에 Microsoft Intune을 추가해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-122">For endpoint analytics data for your tenant, you need to add Microsoft Intune to your subscription.</span></span> <span data-ttu-id="bf0e8-123">Intune을 사용하면 장치와 앱을 관리하여 조직 데이터를 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-123">Intune helps protect your organization's data by managing devices and apps.</span></span> <span data-ttu-id="bf0e8-124">Intune을 설치하면 Intune 환경에서 엔드포인트 분석을 켤 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-124">Once you have Intune, you can turn on endpoint analytics within the Intune experience.</span></span> <span data-ttu-id="bf0e8-125">Microsoft Intune에 대해 자세히 알아보려면 [Microsoft Intune 문서](/mem/intune/)를 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-125">To learn more about Microsoft Intune, see the [Microsoft Intune documentation](/mem/intune/).</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="3cc9c-136">전역 관리자 역할이 있는 IT 전문가만 생산성 점수를 위해 테넌트에 등록하거나 옵트인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-136">Only an IT professional with the Global Administrator role can sign up or opt in a tenant for Productivity Score.</span></span>
+> <span data-ttu-id="bf0e8-126">생산성 점수 기능을 사용하기 위해 Workplace Analytics에 대한 라이선스는 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-126">A license to Workplace Analytics is not required to get the Productivity Score features.</span></span>
 
-<span data-ttu-id="3cc9c-137">생산성 점수를 위한 역할 기반 액세스 제어 모델을 통해 조직에서 Microsoft 365를 통해 조직 내 IT 전문가에게 역할을 유연하게 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-137">The role-based access control model for Productivity Score helps organizations further digital transformation efforts with Microsoft 365 by providing the flexibility to assign roles to IT professionals within an organization.</span></span>
+<span data-ttu-id="bf0e8-127">생산성 점수는 Microsoft 365 관리 센터에서만 사용할 수 있으며 다음 역할 중 하나를 가진 IT 전문가만 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-127">Productivity Score is only available in the Microsoft 365 admin center and can only be accessed by IT professionals who have one of the following roles:</span></span>  
 
-<span data-ttu-id="3cc9c-138">Microsoft는 개인의 프라이버시를 보호하기 위해 노력하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-138">Microsoft is committed to protecting individual privacy.</span></span> <span data-ttu-id="3cc9c-139">이 [개인정보 보호 문서](privacy.md)에서는 조직의 IT 관리자로서 Microsoft 에서 사용자가 신뢰하는 바를 훼손하지 않으면서 정보를 작업할 수 있도록 하기 위해 Microsoft에서 제공하는 제어 기능에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-139">This [privacy document](privacy.md)  explains the controls we provide you, as your organization's IT administrator, to ensure that the information is actionable while not compromising the trust you place in Microsoft.</span></span>
+- <span data-ttu-id="bf0e8-128">전역 관리자</span><span class="sxs-lookup"><span data-stu-id="bf0e8-128">Global admin</span></span>
+- <span data-ttu-id="bf0e8-129">Exchange 관리자</span><span class="sxs-lookup"><span data-stu-id="bf0e8-129">Exchange admins</span></span>
+- <span data-ttu-id="bf0e8-130">SharePoint 관리자</span><span class="sxs-lookup"><span data-stu-id="bf0e8-130">SharePoint admin</span></span>
+- <span data-ttu-id="bf0e8-131">비즈니스용 Skype 관리자</span><span class="sxs-lookup"><span data-stu-id="bf0e8-131">Skype for Business admin</span></span>
+- <span data-ttu-id="bf0e8-132">Teams 관리자</span><span class="sxs-lookup"><span data-stu-id="bf0e8-132">Teams admin</span></span>
+- <span data-ttu-id="bf0e8-133">전역 읽기 권한자</span><span class="sxs-lookup"><span data-stu-id="bf0e8-133">Global Reader</span></span>
+- <span data-ttu-id="bf0e8-134">보고서 읽기 권한자</span><span class="sxs-lookup"><span data-stu-id="bf0e8-134">Reports Reader</span></span>
+- <span data-ttu-id="bf0e8-135">사용 현황 요약 보고서 읽기 권한자</span><span class="sxs-lookup"><span data-stu-id="bf0e8-135">Usage Summary Reports Reader</span></span>
 
-<span data-ttu-id="3cc9c-140">**보고서** > **생산성 점수** 의 Microsoft 365 관리자 홈에서 경험에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-140">You can access the experience from Microsoft 365 Admin home under **Reports** > **Productivity Score**.</span></span>
+> [!NOTE]
+> <span data-ttu-id="bf0e8-136">전역 관리자 역할이 있는 IT 전문가만 생산성 점수를 위해 테넌트에 등록하거나 옵트인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-136">Only an IT professional with the Global Administrator role can sign up or opt in a tenant for Productivity Score.</span></span>
+
+<span data-ttu-id="bf0e8-137">생산성 점수를 위한 역할 기반 액세스 제어 모델을 통해 조직에서 Microsoft 365를 통해 조직 내 IT 전문가에게 역할을 유연하게 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-137">The role-based access control model for Productivity Score helps organizations further digital transformation efforts with Microsoft 365 by providing the flexibility to assign roles to IT professionals within an organization.</span></span>
+
+<span data-ttu-id="bf0e8-138">Microsoft는 개인의 프라이버시를 보호하기 위해 노력하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-138">Microsoft is committed to protecting individual privacy.</span></span> <span data-ttu-id="bf0e8-139">이 [개인정보 보호 문서](privacy.md)에서는 조직의 IT 관리자로서 Microsoft 에서 사용자가 신뢰하는 바를 훼손하지 않으면서 정보를 작업할 수 있도록 하기 위해 Microsoft에서 제공하는 제어 기능에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-139">This [privacy document](privacy.md)  explains the controls we provide you, as your organization's IT administrator, to ensure that the information is actionable while not compromising the trust you place in Microsoft.</span></span>
+
+<span data-ttu-id="bf0e8-140">**보고서** > **생산성 점수** 의 Microsoft 365 관리자 홈에서 경험에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-140">You can access the experience from Microsoft 365 Admin home under **Reports** > **Productivity Score**.</span></span>
   
-## <a name="how-the-score-is-calculated"></a><span data-ttu-id="3cc9c-141">점수 계산 방법</span><span class="sxs-lookup"><span data-stu-id="3cc9c-141">How the score is calculated</span></span>
+## <a name="how-the-score-is-calculated"></a><span data-ttu-id="bf0e8-141">점수 계산 방법</span><span class="sxs-lookup"><span data-stu-id="bf0e8-141">How the score is calculated</span></span>
 
-<span data-ttu-id="3cc9c-142">생산성 점수는 사용자 및 기술 경험 범주에 대한 총 점수를 기준으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-142">Your Productivity Score is based on the combined scores of your people and technology experiences categories.</span></span> <span data-ttu-id="3cc9c-143">각 범주는 총 100포인트의 동등한 가중치를 가집니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-143">Each category is weighted equally, with a total of 100 points.</span></span> <span data-ttu-id="3cc9c-144">가능한 최대 생산성 점수는 800점입니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-144">The highest possible Productivity Score is 800.</span></span>
+<span data-ttu-id="bf0e8-142">생산성 점수는 사용자 및 기술 경험 범주에 대한 총 점수를 기준으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-142">Your Productivity Score is based on the combined scores of your people and technology experiences categories.</span></span> <span data-ttu-id="bf0e8-143">각 범주는 총 100포인트의 동등한 가중치를 가집니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-143">Each category is weighted equally, with a total of 100 points.</span></span> <span data-ttu-id="bf0e8-144">가능한 최대 생산성 점수는 800점입니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-144">The highest possible Productivity Score is 800.</span></span>
 
-### <a name="score-categories"></a><span data-ttu-id="3cc9c-145">점수 범주</span><span class="sxs-lookup"><span data-stu-id="3cc9c-145">Score categories</span></span> 
+### <a name="score-categories"></a><span data-ttu-id="bf0e8-145">점수 범주</span><span class="sxs-lookup"><span data-stu-id="bf0e8-145">Score categories</span></span> 
 
-- <span data-ttu-id="3cc9c-146">커뮤니케이션(100포인트)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-146">Communication (100 points)</span></span>
-- <span data-ttu-id="3cc9c-147">모임(100포인트)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-147">Meetings (100 points)</span></span>
-- <span data-ttu-id="3cc9c-148">콘텐츠 공동 작업(100포인트)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-148">Content collaboration (100 points)</span></span>
-- <span data-ttu-id="3cc9c-149">팀워크(100포인트)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-149">Teamwork (100 points)</span></span>
-- <span data-ttu-id="3cc9c-150">이동성(100포인트)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-150">Mobility (100 points)</span></span>
-- <span data-ttu-id="3cc9c-151">엔드포인트 분석(100포인트)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-151">Endpoint analytics (100 points)</span></span>
-- <span data-ttu-id="3cc9c-152">네트워크 연결(100포인트)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-152">Network connectivity (100 points)</span></span>
-- <span data-ttu-id="3cc9c-153">Microsoft 365 앱 상태(100포인트)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-153">Microsoft 365 Apps Health (100 points)</span></span>
-- <span data-ttu-id="3cc9c-154">**가능한 총 합계 = 800포인트**</span><span class="sxs-lookup"><span data-stu-id="3cc9c-154">**Total possible = 800 points**</span></span>
+- <span data-ttu-id="bf0e8-146">커뮤니케이션(100포인트)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-146">Communication (100 points)</span></span>
+- <span data-ttu-id="bf0e8-147">모임(100포인트)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-147">Meetings (100 points)</span></span>
+- <span data-ttu-id="bf0e8-148">콘텐츠 공동 작업(100포인트)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-148">Content collaboration (100 points)</span></span>
+- <span data-ttu-id="bf0e8-149">팀워크(100포인트)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-149">Teamwork (100 points)</span></span>
+- <span data-ttu-id="bf0e8-150">이동성(100포인트)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-150">Mobility (100 points)</span></span>
+- <span data-ttu-id="bf0e8-151">엔드포인트 분석(100포인트)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-151">Endpoint analytics (100 points)</span></span>
+- <span data-ttu-id="bf0e8-152">네트워크 연결(100포인트)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-152">Network connectivity (100 points)</span></span>
+- <span data-ttu-id="bf0e8-153">Microsoft 365 앱 상태(100포인트)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-153">Microsoft 365 Apps Health (100 points)</span></span>
+- <span data-ttu-id="bf0e8-154">**가능한 총 합계 = 800포인트**</span><span class="sxs-lookup"><span data-stu-id="bf0e8-154">**Total possible = 800 points**</span></span>
  
-<span data-ttu-id="3cc9c-155">각 점수 범주에서 Microsoft 365를 디지털 혁신으로 전환하는 과정에서 사용하는 방법에 대한 주요 지표를 수량화합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-155">In each score category, we quantify the key indicators for how your organization is using Microsoft 365 in its journey towards digital transformation.</span></span> <span data-ttu-id="3cc9c-156">주요 활동에 대한 28일 및 180일 뷰를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-156">We provide 28-day and 180-day views of the key activities.</span></span> <span data-ttu-id="3cc9c-157">또한 점수 계산에는 포함되지 않지만 해결할 수 있는 기본 사용량 통계 및 구성을 식별하는 데 중요한 지원 메트릭도 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-157">We also provide supporting metrics that are not part of the score calculation, but are important for helping you identify underlying usage statistics and configurations that you can address.</span></span>
+<span data-ttu-id="bf0e8-155">각 점수 범주에서 Microsoft 365를 디지털 혁신으로 전환하는 과정에서 사용하는 방법에 대한 주요 지표를 수량화합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-155">In each score category, we quantify the key indicators for how your organization is using Microsoft 365 in its journey towards digital transformation.</span></span> <span data-ttu-id="bf0e8-156">주요 활동에 대한 28일 및 180일 뷰를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-156">We provide 28-day and 180-day views of the key activities.</span></span> <span data-ttu-id="bf0e8-157">또한 점수 계산에는 포함되지 않지만 해결할 수 있는 기본 사용량 통계 및 구성을 식별하는 데 중요한 지원 메트릭도 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-157">We also provide supporting metrics that are not part of the score calculation, but are important for helping you identify underlying usage statistics and configurations that you can address.</span></span>
 
-### <a name="products-included-in-productivity-score"></a><span data-ttu-id="3cc9c-158">생산성 점수에 포함된 제품</span><span class="sxs-lookup"><span data-stu-id="3cc9c-158">Products included in Productivity Score</span></span> 
+### <a name="products-included-in-productivity-score"></a><span data-ttu-id="bf0e8-158">생산성 점수에 포함된 제품</span><span class="sxs-lookup"><span data-stu-id="bf0e8-158">Products included in Productivity Score</span></span> 
 
-<span data-ttu-id="3cc9c-159">생산성 점수는 Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer 및 Skype의 데이터를 포함합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-159">Productivity Score includes data from Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer, and Skype.</span></span>
+<span data-ttu-id="bf0e8-159">생산성 점수는 Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer 및 Skype의 데이터를 포함합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-159">Productivity Score includes data from Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer, and Skype.</span></span>
 
-<span data-ttu-id="3cc9c-160">조직의 점수는 매일 업데이트되며 지난 28일(현재 포함)에 완료된 사용자 작업을 반영합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-160">Your organization's score is updated daily and reflects user actions completed in the last 28 (including the current day).</span></span>
+<span data-ttu-id="bf0e8-160">조직의 점수는 매일 업데이트되며 지난 28일(현재 포함)에 완료된 사용자 작업을 반영합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-160">Your organization's score is updated daily and reflects user actions completed in the last 28 (including the current day).</span></span>
 
-## <a name="interpreting-your-organizations-productivity-score"></a><span data-ttu-id="3cc9c-161">조직의 생산성 점수 해석</span><span class="sxs-lookup"><span data-stu-id="3cc9c-161">Interpreting your organization's Productivity Score</span></span> 
+## <a name="interpreting-your-organizations-productivity-score"></a><span data-ttu-id="bf0e8-161">조직의 생산성 점수 해석</span><span class="sxs-lookup"><span data-stu-id="bf0e8-161">Interpreting your organization's Productivity Score</span></span> 
 
-<span data-ttu-id="3cc9c-162">생산성 점수 홈페이지에는 조직의 총 점수, 점수 기록, 각 범주에 대한 주요 인사이트가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-162">The Productivity Score home page shows your organization's total score and score history and the primary insight for each category.</span></span>
+<span data-ttu-id="bf0e8-162">생산성 점수 홈페이지에는 조직의 총 점수, 점수 기록, 각 범주에 대한 주요 인사이트가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-162">The Productivity Score home page shows your organization's total score and score history and the primary insight for each category.</span></span>
 
 :::image type="content" source="../../media/prodscore-landing.png" alt-text="보고서의 생산성 점수 페이지.":::
 
-<span data-ttu-id="3cc9c-164">**조직의 점수** 는 퍼센트 값과 포인트로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-164">**Your organization's score** is shown as a percent value and in points.</span></span> <span data-ttu-id="3cc9c-165">분자에서 자신의 점을 볼 수 있고 분모에서 가능한 최대 점을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-165">You can see your points in the numerator and the maximum possible points in the denominator.</span></span>
+<span data-ttu-id="bf0e8-164">**조직의 점수** 는 퍼센트 값과 포인트로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-164">**Your organization's score** is shown as a percent value and in points.</span></span> <span data-ttu-id="bf0e8-165">분자에서 자신의 점을 볼 수 있고 분모에서 가능한 최대 점을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-165">You can see your points in the numerator and the maximum possible points in the denominator.</span></span>
 
-<span data-ttu-id="3cc9c-166">**피어 벤치마크** 를 사용하여 귀사와 비슷한 조직과 점수를 비교할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-166">**Peer benchmarks** allow you to compare your organization's score with organizations like yours.</span></span> <span data-ttu-id="3cc9c-167">사용자 경험 범주의 피어 벤치마크는 유사한 조직 집합 내의 측정값 평균으로 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-167">The peer benchmark for the people experiences categories is calculated as the average of measures within a set of similar organizations.</span></span> <span data-ttu-id="3cc9c-168">조직 집합은 라이선스가 있는 사용자, 라이선스 유형, 산업, Microsoft 365 사용 기간 수가 유사한 귀하 지역의 조직으로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-168">The set of organizations is composed of organizations in your region with a similar number of licensed users, types of licenses, industry, and tenure with Microsoft 365.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="3cc9c-169">Microsoft는 내부 데이터를 사용해 조직이 매핑되는 업계를 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-169">Microsoft uses internal data to determine the industry that an organization maps to.</span></span> <span data-ttu-id="3cc9c-170">부모 조직 아래 테넌트는 부모 조직과 동일한 업계로 매핑됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-170">Tenants under a parent organization get mapped to the same industry as the parent organization.</span></span> <span data-ttu-id="3cc9c-171">조직은 업계 매핑을 보거나 수정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-171">Organizations cannot view or modify industry mappings.</span></span>
-
-<span data-ttu-id="3cc9c-172">엔드포인트 분석 피어 벤치마크에는 장치 시작 성능 및 모든 테넌트의 집계된 중간값 값을 기반으로 권장되는 소프트웨어 구성에 대한 대상이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-172">The endpoint analytics peer benchmark includes targets for device startup performance and recommended software configuration based on aggregated median values across all tenants.</span></span>
-
-<span data-ttu-id="3cc9c-173">네트워크 연결의 경우 권장되는 벤치마크는 80포인트입니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-173">For network connectivity, the recommended benchmark is 80 points.</span></span>
-
-<span data-ttu-id="3cc9c-174">**점수 분석** 섹션에서는 사용자 및 기술 경험 영역별로 벤치마크와 함께 생산성 점수 분석을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-174">The **Score breakdown** section provides a breakdown of your Productivity Score with benchmarks by people and technology experience areas.</span></span>
-
-<span data-ttu-id="3cc9c-175">점수 기록에서는 지난 6개월 동안 각 범주의 점수가 어떻게 변했는지를 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-175">Score history displays how your score in each category has changed in the past six months.</span></span>
-
-<span data-ttu-id="3cc9c-176">**사용자 경험** 과 **기술 경험** 영역에는 해당 영역의 범주에 대한 주요 인사이트가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-176">The **People experiences** and **Technology experiences** areas contain the primary insights for the categories in those areas.</span></span> <span data-ttu-id="3cc9c-177">각 범주를 선택하여 세부 인사이트를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-177">You can select each category to see deeper insights.</span></span>
-
-## <a name="category-details-pages"></a><span data-ttu-id="3cc9c-178">범주 세부 정보 페이지</span><span class="sxs-lookup"><span data-stu-id="3cc9c-178">Category details pages</span></span>
-
-<span data-ttu-id="3cc9c-179">각 범주 세부 정보 페이지에는 주요 인사이트와 지원 메트릭과 함께 조직에서 변경을 촉진하는 데 사용할 수 있는 관련 리서치 및 조치가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-179">Each category details page shows the primary insight and supporting metrics as well as related research and actions you can take to drive change in your organization.</span></span> <span data-ttu-id="3cc9c-180">리서치는 각 범주에 대한 주요 인사이트의 중요성과 근거를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-180">Research supports the importance and rationale behind the primary insights for each category.</span></span> <span data-ttu-id="3cc9c-181">자세한 정보는 [Forrester 보고서를 참조하세요](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PBrb).</span><span class="sxs-lookup"><span data-stu-id="3cc9c-181">For more information, [read the Forrester report](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PBrb).</span></span>
-
-<span data-ttu-id="3cc9c-182">범주 세부 정보 페이지:</span><span class="sxs-lookup"><span data-stu-id="3cc9c-182">The details pages are:</span></span>
-- [<span data-ttu-id="3cc9c-183">콘텐츠 공동 작업 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="3cc9c-183">Content collaboration – people experiences</span></span>](content-collaboration.md)
-- [<span data-ttu-id="3cc9c-184">커뮤니케이션 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="3cc9c-184">Communication – people experiences</span></span>](communication.md)
-- [<span data-ttu-id="3cc9c-185">모임 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="3cc9c-185">Meetings – people experiences</span></span>](meetings.md)
-- [<span data-ttu-id="3cc9c-186">이동성 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="3cc9c-186">Mobility – people experiences</span></span>](mobility.md)
-- [<span data-ttu-id="3cc9c-187">팀워크 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="3cc9c-187">Teamwork – people experiences</span></span>](teamwork.md)
-- [<span data-ttu-id="3cc9c-188">Microsoft 365 Apps 상태 - 기술 경험</span><span class="sxs-lookup"><span data-stu-id="3cc9c-188">Microsoft 365 Apps health – technology experiences</span></span>](apps-health.md)
-- [<span data-ttu-id="3cc9c-189">끝점 분석</span><span class="sxs-lookup"><span data-stu-id="3cc9c-189">Endpoint Analytics</span></span>](/mem/analytics/productivity-score)
-
-## <a name="business-continuity-special-report"></a><span data-ttu-id="3cc9c-190">비즈니스 연속성 특별 보고서</span><span class="sxs-lookup"><span data-stu-id="3cc9c-190">Business continuity special report</span></span>
-
-<span data-ttu-id="3cc9c-191">비즈니스 연속성 보고서는 이 어려운 시기에 조직을 가이드하는 데 도움이 되는 모든 Microsoft 365 고객에게 제공되는 제한된 시간의 작업 공간 인텔리전스 보고서입니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-191">The Business continuity report is a limited-time Workplace Intelligence report available to all Microsoft 365 customers to help them guide their organizations during this challenging time.</span></span>  
-
-<span data-ttu-id="3cc9c-192">이 보고서는 조직이 다음을 이해하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-192">This report helps organizations understand:</span></span> 
-
-- <span data-ttu-id="3cc9c-193">원격 작업으로의 전환에 따라 협업과 통신이 어떻게 영향을 받는지 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-193">How collaboration and communication are affected by the shift to remote work.</span></span> 
-
-- <span data-ttu-id="3cc9c-194">사람들이 집에서 일하는 것에 적응함에 따라 일과 삶의 균형에 미치는 영향입니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-194">The impact on work-life balance as people adjust to working from home.</span></span> 
-
-- <span data-ttu-id="3cc9c-195">원격 모임이 효과적인 의사 결정을 지원하는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-195">Whether remote meetings support effective decision-making.</span></span>
-
-[<span data-ttu-id="3cc9c-196">비즈니스 연속성 보고서에 대한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="3cc9c-196">Learn more about the Business continuity report</span></span>](/Workplace-Analytics/tutorials/bcrps)
-
-[<span data-ttu-id="3cc9c-197">Microsoft Graph에 대한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="3cc9c-197">Learn more about Microsoft Graph</span></span>](/graph/)
+<span data-ttu-id="bf0e8-166">**피어 벤치마크** 를 사용하여 귀사와 비슷한 조직과 점수를 비교할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-166">**Peer benchmarks** allow you to compare your organization's score with organizations like yours.</span></span> <span data-ttu-id="bf0e8-167">사용자 경험 범주의 피어 벤치마크는 유사한 조직 집합 내의 측정값 평균으로 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-167">The peer benchmark for the people experiences categories is calculated as the average of measures within a set of similar organizations.</span></span> <span data-ttu-id="bf0e8-168">조직 집합은 라이선스가 있는 사용자, 라이선스 유형, 산업, Microsoft 365 사용 기간 수가 유사한 귀하 지역의 조직으로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-168">The set of organizations is composed of organizations in your region with a similar number of licensed users, types of licenses, industry, and tenure with Microsoft 365.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="3cc9c-198">또한 사용자는 [MyAnalytics 대시보드](/workplace-analytics/myanalytics/use/dashboard-2)에서 생산성 인사이트를 얻을 수 있는 옵션도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-198">Users also have the option to get productivity insights from the [MyAnalytics dashboard](/workplace-analytics/myanalytics/use/dashboard-2).</span></span>
+> <span data-ttu-id="bf0e8-169">Microsoft는 내부 데이터를 사용해 조직이 매핑되는 업계를 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-169">Microsoft uses internal data to determine the industry that an organization maps to.</span></span> <span data-ttu-id="bf0e8-170">부모 조직 아래 테넌트는 부모 조직과 동일한 업계로 매핑됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-170">Tenants under a parent organization get mapped to the same industry as the parent organization.</span></span> <span data-ttu-id="bf0e8-171">조직은 업계 매핑을 보거나 수정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-171">Organizations cannot view or modify industry mappings.</span></span>
+
+<span data-ttu-id="bf0e8-172">엔드포인트 분석 피어 벤치마크에는 장치 시작 성능 및 모든 테넌트의 집계된 중간값 값을 기반으로 권장되는 소프트웨어 구성에 대한 대상이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-172">The endpoint analytics peer benchmark includes targets for device startup performance and recommended software configuration based on aggregated median values across all tenants.</span></span>
+
+<span data-ttu-id="bf0e8-173">네트워크 연결의 경우 권장되는 벤치마크는 80포인트입니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-173">For network connectivity, the recommended benchmark is 80 points.</span></span>
+
+<span data-ttu-id="bf0e8-174">**점수 분석** 섹션에서는 사용자 및 기술 경험 영역별로 벤치마크와 함께 생산성 점수 분석을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-174">The **Score breakdown** section provides a breakdown of your Productivity Score with benchmarks by people and technology experience areas.</span></span>
+
+<span data-ttu-id="bf0e8-175">점수 기록에서는 지난 6개월 동안 각 범주의 점수가 어떻게 변했는지를 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-175">Score history displays how your score in each category has changed in the past six months.</span></span>
+
+<span data-ttu-id="bf0e8-176">**사용자 경험** 과 **기술 경험** 영역에는 해당 영역의 범주에 대한 주요 인사이트가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-176">The **People experiences** and **Technology experiences** areas contain the primary insights for the categories in those areas.</span></span> <span data-ttu-id="bf0e8-177">각 범주를 선택하여 세부 인사이트를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-177">You can select each category to see deeper insights.</span></span>
+
+## <a name="category-details-pages"></a><span data-ttu-id="bf0e8-178">범주 세부 정보 페이지</span><span class="sxs-lookup"><span data-stu-id="bf0e8-178">Category details pages</span></span>
+
+<span data-ttu-id="bf0e8-179">각 범주 세부 정보 페이지에는 주요 인사이트와 지원 메트릭과 함께 조직에서 변경을 촉진하는 데 사용할 수 있는 관련 리서치 및 조치가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-179">Each category details page shows the primary insight and supporting metrics as well as related research and actions you can take to drive change in your organization.</span></span> <span data-ttu-id="bf0e8-180">리서치는 각 범주에 대한 주요 인사이트의 중요성과 근거를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-180">Research supports the importance and rationale behind the primary insights for each category.</span></span> <span data-ttu-id="bf0e8-181">자세한 정보는 [Forrester 보고서를 참조하세요](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PBrb).</span><span class="sxs-lookup"><span data-stu-id="bf0e8-181">For more information, [read the Forrester report](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PBrb).</span></span>
+
+<span data-ttu-id="bf0e8-182">범주 세부 정보 페이지:</span><span class="sxs-lookup"><span data-stu-id="bf0e8-182">The details pages are:</span></span>
+- [<span data-ttu-id="bf0e8-183">콘텐츠 공동 작업 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="bf0e8-183">Content collaboration – people experiences</span></span>](content-collaboration.md)
+- [<span data-ttu-id="bf0e8-184">커뮤니케이션 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="bf0e8-184">Communication – people experiences</span></span>](communication.md)
+- [<span data-ttu-id="bf0e8-185">모임 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="bf0e8-185">Meetings – people experiences</span></span>](meetings.md)
+- [<span data-ttu-id="bf0e8-186">이동성 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="bf0e8-186">Mobility – people experiences</span></span>](mobility.md)
+- [<span data-ttu-id="bf0e8-187">팀워크 – 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="bf0e8-187">Teamwork – people experiences</span></span>](teamwork.md)
+- [<span data-ttu-id="bf0e8-188">Microsoft 365 Apps 상태 - 기술 경험</span><span class="sxs-lookup"><span data-stu-id="bf0e8-188">Microsoft 365 Apps health – technology experiences</span></span>](apps-health.md)
+- [<span data-ttu-id="bf0e8-189">끝점 분석</span><span class="sxs-lookup"><span data-stu-id="bf0e8-189">Endpoint Analytics</span></span>](/mem/analytics/productivity-score)
+
+## <a name="business-continuity-special-report"></a><span data-ttu-id="bf0e8-190">비즈니스 연속성 특별 보고서</span><span class="sxs-lookup"><span data-stu-id="bf0e8-190">Business continuity special report</span></span>
+
+<span data-ttu-id="bf0e8-191">비즈니스 연속성 보고서는 이 어려운 시기에 조직을 가이드하는 데 도움이 되는 모든 Microsoft 365 고객에게 제공되는 제한된 시간의 작업 공간 인텔리전스 보고서입니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-191">The Business continuity report is a limited-time Workplace Intelligence report available to all Microsoft 365 customers to help them guide their organizations during this challenging time.</span></span>  
+
+<span data-ttu-id="bf0e8-192">이 보고서는 조직이 다음을 이해하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-192">This report helps organizations understand:</span></span> 
+
+- <span data-ttu-id="bf0e8-193">원격 작업으로의 전환에 따라 협업과 통신이 어떻게 영향을 받는지 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-193">How collaboration and communication are affected by the shift to remote work.</span></span> 
+
+- <span data-ttu-id="bf0e8-194">사람들이 집에서 일하는 것에 적응함에 따라 일과 삶의 균형에 미치는 영향입니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-194">The impact on work-life balance as people adjust to working from home.</span></span> 
+
+- <span data-ttu-id="bf0e8-195">원격 모임이 효과적인 의사 결정을 지원하는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-195">Whether remote meetings support effective decision-making.</span></span>
+
+[<span data-ttu-id="bf0e8-196">비즈니스 연속성 보고서에 대한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="bf0e8-196">Learn more about the Business continuity report</span></span>](/Workplace-Analytics/tutorials/bcrps)
+
+[<span data-ttu-id="bf0e8-197">Microsoft Graph에 대한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="bf0e8-197">Learn more about Microsoft Graph</span></span>](/graph/)
+
+> [!NOTE]
+> <span data-ttu-id="bf0e8-198">또한 사용자는 [MyAnalytics 대시보드](/workplace-analytics/myanalytics/use/dashboard-2)에서 생산성 인사이트를 얻을 수 있는 옵션도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-198">Users also have the option to get productivity insights from the [MyAnalytics dashboard](/workplace-analytics/myanalytics/use/dashboard-2).</span></span>
 
 
-## <a name="we-want-to-hear-from-you"></a><span data-ttu-id="3cc9c-199">의견을 보내 주세요.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-199">We want to hear from you</span></span>
+## <a name="we-want-to-hear-from-you"></a><span data-ttu-id="bf0e8-199">의견을 보내 주세요.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-199">We want to hear from you</span></span>
 
-<span data-ttu-id="3cc9c-200">생산성 점수와 개선할 수 있는 방법에 대한 아이디어를 공유하세요.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-200">Share your thoughts about Productivity Score and your ideas about how to improve it.</span></span> <span data-ttu-id="3cc9c-201">제품 내에서 **피드백** 섹션을 사용하거나 prodscorefeedback@microsoft.com의 Productivity Score 팀에 문의합니다.</span><span class="sxs-lookup"><span data-stu-id="3cc9c-201">Use the **Feedback** sections within the product and/or reach out to the Productivity Score team at prodscorefeedback@microsoft.com.</span></span>
+<span data-ttu-id="bf0e8-200">생산성 점수와 개선할 수 있는 방법에 대한 아이디어를 공유하세요.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-200">Share your thoughts about Productivity Score and your ideas about how to improve it.</span></span> <span data-ttu-id="bf0e8-201">제품 내에서 **피드백** 섹션을 사용하거나 prodscorefeedback@microsoft.com의 Productivity Score 팀에 문의합니다.</span><span class="sxs-lookup"><span data-stu-id="bf0e8-201">Use the **Feedback** sections within the product and/or reach out to the Productivity Score team at prodscorefeedback@microsoft.com.</span></span>
 
-## <a name="related-content"></a><span data-ttu-id="3cc9c-202">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="3cc9c-202">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="bf0e8-202">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="bf0e8-202">Related content</span></span>
 
-<span data-ttu-id="3cc9c-203">[보고서를 이용하여 Microsoft 365 활동 모니터링](../../admin/activity-reports/activity-reports.md)(게시물)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-203">[Monitor Microsoft 365 activity by using reports](../../admin/activity-reports/activity-reports.md) (article)\</span></span>
-<span data-ttu-id="3cc9c-204">[Microsoft 365 사용 현황 분석 사용](../../admin/usage-analytics/enable-usage-analytics.md)(게시물)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-204">[Enable Microsoft 365 usage analytics](../../admin/usage-analytics/enable-usage-analytics.md) (article)\</span></span>
-<span data-ttu-id="3cc9c-205">[Microsoft 365 관리 센터 개요](../../business-video/admin-center-overview.md)(동영상)</span><span class="sxs-lookup"><span data-stu-id="3cc9c-205">[Overview of the Microsoft 365 admin center](../../business-video/admin-center-overview.md) (video)</span></span>
+<span data-ttu-id="bf0e8-203">[보고서를 이용하여 Microsoft 365 활동 모니터링](../../admin/activity-reports/activity-reports.md)(게시물)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-203">[Monitor Microsoft 365 activity by using reports](../../admin/activity-reports/activity-reports.md) (article)\</span></span>
+<span data-ttu-id="bf0e8-204">[Microsoft 365 사용 현황 분석 사용](../../admin/usage-analytics/enable-usage-analytics.md)(게시물)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-204">[Enable Microsoft 365 usage analytics](../../admin/usage-analytics/enable-usage-analytics.md) (article)\</span></span>
+<span data-ttu-id="bf0e8-205">[Microsoft 365 관리 센터 개요](../../business-video/admin-center-overview.md)(동영상)</span><span class="sxs-lookup"><span data-stu-id="bf0e8-205">[Overview of the Microsoft 365 admin center](../../business-video/admin-center-overview.md) (video)</span></span>
