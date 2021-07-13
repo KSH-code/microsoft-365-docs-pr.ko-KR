@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 센터의 새로운 Microsoft 365?
+title: 새로운 새로운 Microsoft 365 관리 센터?
 f1.keywords:
 - CSH
 ms.author: kwekua
@@ -17,18 +17,18 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대해 자세히 알아보습니다.
+description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대해 자세히 알아보는 방법을 제공합니다.
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 5bb8377dd45714dcdf25533055159f8964acc558
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 497d1f78b2d0c17cfcaa23571838c4dc363b7017
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841969"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394713"
 ---
-# <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
+# <a name="whats-new-in-the-microsoft-365-admin-center"></a>새로운 Microsoft 365 관리 센터
 
 ::: moniker range="o365-21vianet"
 
@@ -37,22 +37,48 @@ ms.locfileid: "52841969"
 
 ::: moniker-end
 
-We're continuously adding new features to [the Microsoft 365 admin center,](../business-video/admin-center-overview.md)fixing issues we learn, and making changes based on your feedback. 아래에서 현재 사용할 수 있는 것을 확인하세요. 일부 기능은 고객에게 다른 속도로 롤아웃됩니다. 아직 기능이 없는 경우 대상 릴리스에 자신을 [추가해 보세요.](manage/release-options-in-office-365.md)
+We're continuously adding new features to [the](../business-video/admin-center-overview.md)Microsoft 365 관리 센터 , fixing issues we learn, and making changes based on your feedback. 아래에서 현재 사용할 수 있는 것을 확인하세요. 일부 기능은 고객에게 다른 속도로 롤아웃됩니다. 아직 기능이 없는 경우 대상 릴리스에 자신을 [추가해 보세요.](manage/release-options-in-office-365.md)
 
 또한 다른 Microsoft 클라우드 서비스에서 새로운 것을 알고자 하는 경우:
 
 - [새로운 Azure Active Directory](/azure/active-directory/fundamentals/whats-new)
 - [Exchange 관리 센터의 새로운](/Exchange/whats-new)
 - [Microsoft Intune의 새로운 기능](/mem/intune/fundamentals/whats-new)
-- [규정 준수 센터의 새로운 Microsoft 365](/Office365/SecurityCompliance/whats-new)
+- [새로운 Microsoft 365 규정 준수 센터](/Office365/SecurityCompliance/whats-new)
 - [Microsoft 365 Defender의 새로운 기능](../security/mtp/whats-new.md)
 - [SharePoint 관리 센터의 새로운](/sharepoint/what-s-new-in-admin-center)
 - [Office 업데이트](/OfficeUpdates/)
 - [릴리스 상태 Windows 방법](/windows/deployment/update/check-release-health)
 
+## <a name="july-2021"></a>2021년 7월
+
+### <a name="microsoft-365-admin-center-search"></a>Microsoft 365 관리 센터 검색
+
+이제 인시던트 ID를 검색할 수 Microsoft 365 관리 센터. 소셜 미디어, 산업 발행물 또는 다른 관리자의 현재 인시던트에 대해 학습할 수 있습니다. 이제 관리 센터로 이동하여 인시던트에 대한 자세한 정보를 보고 조직에 미치는 영향을 이해할 수 있습니다. 관리 센터에서 문제 ID를 검색하기만 합니다.
+
+:::image type="content" source="../media/incident-id.png" alt-text="Screenshot: Searching for incident ID in the admin center":::
+
+### <a name="support-ticket-insight-for-premier-organizations"></a>프리미어 조직을 위한 지원 티켓 인사이트
+
+지원 볼륨에 대한 시각적  통찰력을  제공하기 위해 제품당 볼륨 추세 및 볼륨 추세라는 2개 그래프를 추가했습니다.
+
+볼륨 추세 탭  아래에 있는 리니어 그래프는 지난 달에 조직의 지원 사례가 증가하거나 감소할 경우 추세를 강조합니다. 그래프를 마우스로 마우스로 표시하여 매월 만들어진 지원 사례 수를 확인할 수 있습니다.
+
+:::image type="content" source="../media/SuppInsight-voltrnd.PNG" alt-text="Screenshot: Graph that highlights the trend if support cases are increasing or decing for your organization month over month":::
+
+제품별 **볼륨 추세 그래프에는** 지원 사례가 가장 많은 매월 상위 3개 제품이 표시됩니다. 표에서 필터링을 사용하도록 설정하고 이제 **제품,** 심각도 및 날짜를 사용하여 결과를 **필터링할** 수 **있습니다.**
+
+:::image type="content" source="../media/SuppInsight-voltrndproduct.PNG" alt-text="Screenshot: Graph shows the top 3 products of each month with the highest support cases":::
+
+또한 티켓에 대한 더 많은 정보를 얻을  수 있도록  서비스 요청 보기 테이블에 2개 새 필드인 심각도 및 마감일이 추가되었습니다. 
+
+:::image type="content" source="../media/SuppInsight-date-sev.PNG" alt-text="Screenshot: Table that shows support ticket sorting by severity and date.":::
+
+서비스에서 이러한 업데이트를 Microsoft 365 관리 센터 왼쪽 탐색 창에서 서비스 보기  >   요청 지원으로 이동하세요.
+
 ## <a name="june-2021"></a>2021년 6월
 
-### <a name="microsoft-365-admin-center-search"></a>Microsoft 365 센터 검색
+### <a name="microsoft-365-admin-center-search"></a>Microsoft 365 관리 센터 검색
 
 검색 기능에 몇 가지 새로운 범주가 추가되었습니다.
 
@@ -60,7 +86,7 @@ We're continuously adding new features to [the Microsoft 365 admin center,](../b
 
 - 이제 전역 검색을 통해 간소화된 설치 환경을 찾을 수 있습니다. 이를 통해 사용자와 팀이 새 기능을 사용하는 방법을 빠르게 시작할 수 있습니다. 예를 들어 만료되지 않는 암호 설정 **을 검색합니다.**
 
-관리 센터에서 검색에 대한 자세한 내용은 Microsoft 365 관리 센터에서 [검색을 참조하세요.](manage/search-in-the-mac.md)
+관리 센터에서 검색에 대한 자세한 내용은 에서 [검색을 Microsoft 365 관리 센터.](manage/search-in-the-mac.md)
 
 ## <a name="may-2021"></a>2021년 5월
 
@@ -142,11 +168,11 @@ Microsoft Ignite에 오신 것을 환영합니다. 첫 번째 온라인 전용 I
 
 ### <a name="monitor-your-most-important-accounts"></a>가장 중요한 계정 모니터링
 
-CEO와 같이 업무에 큰 영향을 미치는 사용자에게 전송된 실패하거나 지연된 전자 메일 메시지를 모니터링하고 추적할 수 있습니다. Microsoft 365 관리 센터의 우선 순위 계정 목록에 사용자를 추가하여 우선 순위 계정을 추적합니다. 중요하거나 높은 우선 순위 정보에 액세스할 수 있는 임원, 리더, 관리자 또는 기타 사용자를 추가합니다.
+CEO와 같이 업무에 큰 영향을 미치는 사용자에게 전송된 실패하거나 지연된 전자 메일 메시지를 모니터링하고 추적할 수 있습니다. 사용자 목록의 우선 순위 계정 목록에 사용자를 추가하여 우선 순위 계정을 Microsoft 365 관리 센터. 중요하거나 높은 우선 순위 정보에 액세스할 수 있는 임원, 리더, 관리자 또는 기타 사용자를 추가합니다.
 
 우선 순위 계정은 다음 두 요구 사항을 모두 충족하는 조직에서만 사용할 수 있습니다.
 
-- Office 365 E3 또는 Microsoft 365 E3 또는 E5 Office 365 또는 Microsoft 365 E5.
+- Office 365 E3 Microsoft 365 E3 또는 Office 365 E5 Microsoft 365 E5.
 - 최소 10,000개 이상의 라이선스와 최소 50개 이상의 월별 활성 Exchange Online.
 
 ![기능 설정 페이지: 가장 중요한 계정 모니터링](../media/MAC-WN-PriorityAccounts.png)
@@ -207,7 +233,7 @@ CEO와 같이 업무에 큰 영향을 미치는 사용자에게 전송된 실패
 - DKIM 설치 문제 해결
 - Intune 사용자 등록 오류 진단
 
-또한 Microsoft 365 관리 센터에 이미 표시되어 있는 새 지원 환경과 향상된 지원 환경을 일부 다른 관리 센터에 롤아웃하고 있습니다. Teams 관리 센터 및 보안 및 규정 준수 관리 센터에는 이미 이 새로운 환경이 있습니다. 또한 Exchange **센터,** SharePoint 관리 센터 및 **Office.com이** 관리자를 위한 새로운 도움말 환경과 함께 업데이트될 예정입니다.
+또한 다른 관리 센터의 일부에 대해 Microsoft 365 관리 센터 새로운 지원 환경과 향상된 지원 환경을 출시하고 있습니다. Teams 관리 센터 및 보안 및 규정 준수 관리 센터에는 이미 이 새로운 환경이 있습니다. 또한 Exchange **센터,** SharePoint 관리 센터 및 **Office.com이** 관리자를 위한 새로운 도움말 환경과 함께 업데이트될 예정입니다.
 
 ### <a name="manage-changes-with-microsoft-planner"></a>Microsoft Planner를 사용하여 변경 내용 관리
 
@@ -269,7 +295,7 @@ Microsoft에서 Ignite의 시기로 이동하고 있으므로 세션 중에 많�
 
 5월 12일, 월별 업데이트 채널에 대한 새 업데이트 채널의 Office: 월별 Enterprise 발표했습니다. 이 업데이트 채널은 월의 두 번째 화요일에 Office 새로운 업데이트 기능을 사용자에게 제공합니다.
 
-사용자가 포털에서 자동 설치를 Office 경우 해당 사용자를 위해 월별 Enterprise 선택할 수 있습니다. 이렇게하려면 Microsoft 365 관리 센터에 로그인하고 모든 설정 서비스 및 소프트웨어 다운로드 Office  >   >    >    >  **표시로 이동합니다.** 한 달에 한 번(월별 Enterprise **채널)을** 선택하면 새 Office 설치는 월별 채널을 사용하도록 Enterprise.
+사용자가 포털에서 자동 설치를 Office 경우 해당 사용자를 위해 월별 Enterprise 선택할 수 있습니다. 이렇게하려면 Microsoft 365 관리 센터 로그인하고 모든 설정 서비스 및 소프트웨어 다운로드 Office  >   >    >    >  **표시로 이동합니다.** 한 달에 한 번(월별 Enterprise **채널)을** 선택하면 새 Office 설치는 월별 채널을 사용하도록 Enterprise.
 
 Monthly Enterprise 채널 릴리스와 함께 기존 업데이트 채널의 이름도 수정하고 있습니다. 예를 들어 월별 채널의 이름을 현재 채널로 다시 설정하는 경우를 예로 들 수 있습니다. 새 이름은 2020년 6월 9일에 적용됩니다.
 
@@ -277,7 +303,7 @@ Monthly Enterprise 채널 릴리스와 함께 기존 업데이트 채널의 이�
 
 ### <a name="new-admin-roles"></a>새 관리자 역할
 
-Azure Active Directory 관리 센터에 새로운 Microsoft 365 추가되었습니다.
+관리자 역할에 새로운 Azure Active Directory 관리자 역할을 Microsoft 365 관리 센터.
 
 - 하이브리드 ID 관리자 역할은 사용자에게 클라우드 프로비전 및 인증 서비스를 관리할 수 있는 권한을 부여합니다.
 - 네트워크 관리자 역할을 사용하면 사용자가 네트워크 위치를 관리하고 소프트웨어 as a service 앱에 Microsoft 365 정보를 검토할 수 있습니다.
@@ -302,7 +328,7 @@ Azure Active Directory 관리 센터에 새로운 Microsoft 365 추가되었습�
 ### <a name="docs-training-and-videos-may"></a>Docs, training, and videos(5월)
 
 - **Microsoft 365** 비디오 시리즈의 새로운 기능: 이번 달에는 Teams 관리자 및 보안 및 준수 센터의 새로운 지원 환경, 메시지 센터와의 Planner 통합 및 새로운 3x3 비디오 레이아웃에 대해 Microsoft Teams. 
-- Microsoft 365 [](./index.yml) 센터 도움말 허브 페이지가 더 빠르게 필요한 정보를 찾을 수 있도록 업데이트되었습니다. 지금 해당 페이지를 살펴보면 중요한 업데이트 및 변경 내용을 알리는 카드가 추가되었습니다.
+- 이 [Microsoft 365 관리 센터 허브](./index.yml) 페이지는 필요한 정보를 더 빠르게 찾을 수 있도록 업데이트되었습니다. 지금 해당 페이지를 살펴보면 중요한 업데이트 및 변경 내용을 알리는 카드가 추가되었습니다.
 
 ## <a name="april-2020"></a>2020년 4월
 
@@ -310,7 +336,7 @@ Azure Active Directory 관리 센터에 새로운 Microsoft 365 추가되었습�
 
 [2020년 4월](#april-2020)
 
-이 경우 통합 역할 환경을 위한 두 번째 단계를 진행하고 있으며 이제 Microsoft 365 관리 센터에서 Intune 역할을 관리할 수 있습니다. 또한 역할을 검색하고 역할 권한을 보는 기능과 같은 기능을 활용할 수 있습니다. 즉, 사용자 및 Intune에 대한 역할을 관리하기 위해 두 가지 별도의 Microsoft 365 필요가 없습니다. Microsoft 365 관리 센터에 로그인하면 역할 페이지에 두 개의 피벗, 즉 Azure AD용과 Intune용 피벗이 있습니다.
+이 경우 통합 역할 환경을 위한 두 번째 단계를 진행하고 있으며 이제 통합 역할에서 Intune 역할을 관리할 Microsoft 365 관리 센터. 또한 역할을 검색하고 역할 권한을 보는 기능과 같은 기능을 활용할 수 있습니다. 즉, 사용자 및 Intune에 대한 역할을 관리하기 위해 두 가지 별도의 Microsoft 365 필요가 없습니다. 로그인하면 역할 페이지에 Microsoft 365 관리 센터 Azure AD용 피벗과 Intune용 피벗이 두 개 있습니다.
 
 ![Intune 피벗이 선택된 역할 페이지](../media/MAC-WN-IntuneRoles.png)
 
@@ -322,11 +348,11 @@ Azure Active Directory 관리 센터에 새로운 Microsoft 365 추가되었습�
 
 ### <a name="need-help-launched-in-teams-admin-center--security-and-compliance-centers"></a>"도움이 필요한가요?" 보안 및 Teams 센터에서 & 시작
 
-Teams 관리 센터, 보안 센터 및 규정 준수 센터는 이제 동일한 "도움이 필요하세요?"를 사용하고 있습니다. Microsoft 365 센터에서 도움말을 찾아 지원에 문의하는 데 사용하는 기능입니다. 동일한 수준의 도움말 및 지원이 필요한 관리자로부터 많은 피드백을 받았고, 이러한 피드백을 환영합니다. 사용해 보세요. 피드백을 보내주세요!
+Teams 관리 센터, 보안 센터 및 규정 준수 센터는 이제 동일한 "도움이 필요하세요?"를 사용하고 있습니다. 도움말을 Microsoft 365 관리 센터 지원에 문의하는 데 사용하는 기능입니다. 동일한 수준의 도움말 및 지원이 필요한 관리자로부터 많은 피드백을 받았고, 이러한 피드백을 환영합니다. 사용해 보세요. 피드백을 보내주세요!
 
 #### <a name="need-chat"></a>채팅이 필요하세요?
 
-지원 에이전트는 집에서 작업하는 동안 고객 사례 및 인터넷 대역폭 제한을 계속 고려하면서 집에서 작업해 오고 있습니다. 지원을 계속하기 위해 Microsoft 365 관리 센터에서 상용 고객을 위한 라이브 채팅 지원 옵션을 Microsoft 365 있습니다.
+지원 에이전트는 집에서 작업하는 동안 고객 사례 및 인터넷 대역폭 제한을 계속 고려하면서 집에서 작업해 오고 있습니다. 지원을 계속하기 위해 현재 서비스에서 상용 고객을 위한 라이브 채팅 지원 옵션을 Microsoft 365 관리 센터.
 
 서비스 요청을 만드는 동안 이제 전화 및 전자 메일 외에도 채팅을 옵션으로 볼 수 있습니다. 기본 통신 채널로 채팅을 선택하고 요청을 생성합니다. 요청을 만든 후 Microsoft 에이전트와 채팅할 준비가 되면 채팅을 시작할 수 있습니다.
 
@@ -393,7 +419,7 @@ Teams 관리 센터, 보안 센터 및 규정 준수 센터는 이제 동일한 
 
 ### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>조직의 모바일 앱 테마 SharePoint 사용자 지정
 
-Microsoft 365 관리 센터를 사용하여 이제 android용 모바일 앱 및 iOS용 SharePoint 앱에서 조직의 테마를 SharePoint 수 있습니다. 이 기능은 이동 중 직원을 위해 SharePoint 온라인과 일치할 수 있는 모바일 인트라넷 앱 환경을 편리하게 제공합니다. 테마 사용자 지정에는 로고 이미지, 탐색 모음 색, 텍스트 및 아이콘 색, 테마 컬러가 포함되어 있어 쉽게 인식할 수 있습니다.
+이제 Microsoft 365 관리 센터 iOS용 모바일 앱 및 Android용 SharePoint 앱의 조직 테마를 SharePoint 수 있습니다. 이 기능은 이동 중 직원을 위해 SharePoint 온라인과 일치할 수 있는 모바일 인트라넷 앱 환경을 편리하게 제공합니다. 테마 사용자 지정에는 로고 이미지, 탐색 모음 색, 텍스트 및 아이콘 색, 테마 컬러가 포함되어 있어 쉽게 인식할 수 있습니다.
 
 ![관리 센터 설정을 모바일 앱에 매핑하는 다이어그램](../media/MAC-WN-CustThemeSP.png)
 
@@ -429,7 +455,7 @@ Microsoft 365 웹 시리즈의 새로운 [기능:](https://go.microsoft.com/fwli
 > [!TIP]
 > 하나 이상의 조직에 대한 공식 파트너인 경우 조직 전환을 표시하기 위해 아무 것도 할 일도 하지 않습니다.
 
-1. Microsoft 365 관리 센터에서 그룹 이름을 선택합니다.
+1. 다음 Microsoft 365 관리 센터에서조그 이름을 선택합니다.
 ![화면 캡처: 전환기 아이콘이 있는 조직 프로필 이름을 표시하는 홈 페이지 위쪽입니다.](../media/MAC-Organization-switcher.png)
 
 2. 조직 전환기에서 관리할 조직을 선택합니다.
@@ -442,7 +468,7 @@ Microsoft 365 웹 시리즈의 새로운 [기능:](https://go.microsoft.com/fwli
 이번 달 그룹 영역의 몇 가지 변경 사항:
 
 - **그룹 이름별로 정렬:** 그룹 이름 열을 선택하여 그룹 목록을 사전순으로 정렬할 **수** 있습니다.
-- **삭제된 Microsoft 365 복원:** 더 이상 Exchange 관리 센터로 이동하여 삭제된 Microsoft 365 복원할 필요가 없습니다. 관리 **Microsoft 365** 그룹 삭제된 그룹으로 이동(목록에서 그룹 \>  \>  \> 선택) \> **그룹 복원으로 이동하세요.** 그룹을 다시 그룹 목록으로 **복원하고** 그룹의 전자 메일, 대화, 전자 필기장, 파일 및 일정을 복원합니다.
+- **삭제된 Microsoft 365 복원:** 더 이상 Exchange 관리 센터로 이동하여 삭제된 Microsoft 365 복원할 필요가 없습니다. 그룹 **Microsoft 365 관리 센터** 그룹으로 이동(목록에서 그룹 \>  \>  \> 선택) \> **그룹 복원으로 이동하세요.** 그룹을 다시 그룹 목록으로 **복원하고** 그룹의 전자 메일, 대화, 전자 필기장, 파일 및 일정을 복원합니다.
 
 ### <a name="videos-training-and-docs-february"></a>비디오, 교육 및 docs(2월)
 

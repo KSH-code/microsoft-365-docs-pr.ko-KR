@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: 사용자 계정을 삭제한 후 30일 이내에 계정 및 모든 데이터를 복원할 수 있으며 사용자는 동일한 계정으로 로그인할 수 있습니다.
-ms.openlocfilehash: f849fe8e403aa9a72eccb4dd65665ec9f33618d1
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: e37f913bcc6a54bdcc1e0f52168fe1aab0c8afdd
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779653"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394270"
 ---
 # <a name="restore-a-user"></a>사용자 복원
    

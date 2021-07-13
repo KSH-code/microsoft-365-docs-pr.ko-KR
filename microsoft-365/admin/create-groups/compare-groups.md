@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Microsoft 365 그룹 구성원은 대화, 파일, 일정 이벤트, Stream 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
-ms.openlocfilehash: 37bead3ab878aac087c5ec16016dc2c8ddce410c
-ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
+ms.openlocfilehash: 1c9cfb1a1dd65dd72f80b0b0e0f76ccd944b81e2
+ms.sourcegitcommit: 233989a02a3fc6db33c995ad06b1f820f08f8f0a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377184"
+ms.locfileid: "53383441"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -50,6 +50,8 @@ Microsoft 365 그룹은 [Azure Active Directory에서 동적 구성원에 대해
 Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바일 앱을 통해 액세스할 수 있습니다.
 
 [관리자에 의해 사용 가능하도록](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md) 설정한 경우 그룹 구성원은 그룹 전자 메일 주소를 보내기 혹은 대신하여 보낼 수 있습니다.
+
+Microsoft 365 그룹은 다른 Microsoft 365 그룹이나 배포 또는 보안 그룹과의 중첩을 지원하지 않습니다.
 
 ## <a name="distribution-groups"></a>메일 그룹
 
@@ -97,5 +99,8 @@ Microsoft 365 그룹으로 공유 사서함을 마이그레이션할 수 없습�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 그룹에 대한 자세한 정보](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)(기사)\
-[Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)(기사)
+[Microsoft 365 그룹에 대해 자세히 알아보세요.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+
+[Outlook에서 배포 목록을 Microsoft 365 그룹으로 업그레이드](/microsoft-365/admin/manage/upgrade-distribution-lists)
+
+[Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)

@@ -13,17 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
-description: 그룹 관리 센터에서 그룹에 구성원을 추가하고, 그룹에서 구성원을 제거하고, 그룹 소유자 상태를 관리하는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: b5b0a398a5ebb47a5f27066f1daea1a822adbff2
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: 그룹에 구성원을 추가하고 그룹에서 구성원을 제거하고 그룹 소유자 상태를 관리하는 방법을 Microsoft 365 관리 센터.
+ms.openlocfilehash: 7eaa74a53ac5f27d801d1cf16c9af035c63c68b1
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635609"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393766"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>관리 센터를 사용하여 Microsoft 365 그룹에서 구성원 추가 또는 제거
 

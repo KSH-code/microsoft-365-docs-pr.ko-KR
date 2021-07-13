@@ -21,17 +21,18 @@ ms.custom:
 - OKR_SMB_Videos
 - seo-marvel-mar
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 고급 보안 및 비즈니스 네트워킹 기능을 활용하기 위해 Windows 장치를 업그레이드하는 Windows 10 Pro 방법을 검색합니다.
-ms.openlocfilehash: 39a7224ea585f8e1fb5052cb6fbb62329bd15656
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: e87a9bc4ebbb4d5437e2174dc9f41c4700346ffd
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227518"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394154"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>업그레이드 Windows 장치로 Windows 10 Pro
 
@@ -39,7 +40,7 @@ ms.locfileid: "53227518"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
 ## <a name="upgrade-to-windows-10-pro"></a>Windows 10 Pro로 업그레이드
 

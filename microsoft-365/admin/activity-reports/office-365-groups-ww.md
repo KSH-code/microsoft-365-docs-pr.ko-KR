@@ -11,7 +11,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -19,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: 그룹 및 Microsoft 365 정보를 얻을 수 있는 그룹 보고서를 얻습니다.
-ms.openlocfilehash: 9426f7a35dea6c0f4a34e78dd8b2c214a0619bdd
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: ed598633205aab83920abef79e766ef16e248f43
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939233"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394138"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 365 그룹
 
@@ -69,5 +71,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365](activity-reports.md) 센터의 보고서(문서) 보안 [](../../compliance/reports-in-security-and-compliance.md) & 준수 센터의 보고서(문서) Microsoft 365 센터의 보고서 [- 활성 사용자(문서)](../../admin/activity-reports/active-users-ww.md)
+[Microsoft 365 센터의](activity-reports.md) 보고서(문서)\
+[보안 및 준수 &](../../compliance/reports-in-security-and-compliance.md) 보고서(문서)\
+[Microsoft 365 센터의](../../admin/activity-reports/active-users-ww.md) 보고서 - 활성 사용자(문서)
 

@@ -18,15 +18,16 @@ ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
 - commerce_licensing
+- AdminTemplateSet
 search.appverid: MET150
 description: 다음 단계에 따라 비즈니스용 구독에 대한 라이선스를 더 구입하거나 라이선스 수를 Microsoft 365 수 있습니다.
 ms.date: 04/07/2021
-ms.openlocfilehash: 144adbd9c21253bd0a8e47205c72e09062fe6552
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 4fa1b08a7a4304d13fb25ec53c5f034eae77ccec
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582707"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394440"
 ---
 # <a name="buy-or-remove-licenses"></a>라이선스 구입 또는 제거
 
@@ -54,18 +55,18 @@ ms.locfileid: "52582707"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 2. 제품 **탭에서** 라이선스를 구입하거나 제거할 구독을 찾아야 합니다. 세 점(추가 작업)을 선택한 다음 라이선스 **구입 을 선택합니다.** [라이선스 구입 또는 라이선스 제거 단추가 없는 경우 어떻게 하나요?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)

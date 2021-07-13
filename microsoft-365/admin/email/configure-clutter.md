@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'PowerShell을 사용하여 조직의 전체 또는 특정 사용자에 대해 클러터 기능을 사용하도록 설정하거나 사용하지 않도록 Exchange 방법을 학습합니다. '
-ms.openlocfilehash: 059fb8e626a0b05e0224fc89931453aaae43be0b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 91098047bdf2ab8190283990bdc6b0292e3e57ba
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706117"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393982"
 ---
 # <a name="configure-clutter-for-your-organization"></a>조직에 대한 클러터 구성
 
@@ -55,12 +57,12 @@ Allie Bellew라는 단일 사용자에 대해 클러터를 끄는 경우:
 
 PowerShell을 사용하여 사용자를 대량으로 만드는 경우 각 사용자의 사서함에 [대해 Set-Clutter를](/powershell/module/exchange/set-clutter) 실행하여 클러터를 관리해야 합니다. 
   
-## <a name="when-does-the-clutter-onoff-switch-appear-to-users-in-outlook-on-the-web"></a>클러터 켜기/끄기 스위치는 웹용 앱의 Outlook 표시하나요?
+## <a name="when-does-the-clutter-onoff-switch-appear-to-users-in-outlook-on-the-web"></a>클러터 켜기/끄기 스위치는 웹용 Outlook?
 <a name="bkmk_onoff"> </a>
 
 관리자는 PowerShell을 사용하여 클러터를 다시 Exchange 있습니다. 이 완료되면 집중 받은 편지함이 꺼지며 클러터가 다시 활성화됩니다. 
   
- **웹에서 Outlook 구독을 사용하는 Microsoft 365 Business Premium:**
+ **구독과 함께 웹용 Outlook 사용하는 Microsoft 365 Business Premium:**
   
 - 사용자가 현재 클러터를 사용하도록 설정한 경우: 
     

@@ -20,12 +20,13 @@ description: 도메인을 확인하고 등록 기관 계정에서 DNS 레코드�
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 62b6793dd97e146b703c82e0ba23f4d7414025b6
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+- AdminTemplateSet
+ms.openlocfilehash: 4b4c09ce6a4161c713490daef46157b5555e124b
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623980"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393922"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS 레코드를 추가하여 도메인 연결하기
 

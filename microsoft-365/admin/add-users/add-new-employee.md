@@ -17,17 +17,18 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: 전자 메일, Microsoft 365 및 비즈니스용 앱에 Skype 직원을 Office 추가합니다.
-ms.openlocfilehash: 2dbdb9cb931b95241b0bd3599fdae154ab72ea24
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 24b31e22423fe7f0d51da5a71c4c14b54f1525f0
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706193"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394114"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>새 직원을 추가하여 Microsoft 365
 

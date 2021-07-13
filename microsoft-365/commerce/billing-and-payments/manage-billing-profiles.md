@@ -18,15 +18,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 search.appverid: MET150
 description: 청구 프로필에서 송장을 지원하는 방법을 알아보세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: e66efe12e05d2aaf286b689c955f17c8401144f1
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ecea09a9ceea12fa92b92eac3e5a7595b2510042
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537334"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394632"
 ---
 # <a name="understand-billing-profiles"></a>청구 프로필 이해하기
 
@@ -34,7 +35,7 @@ ms.locfileid: "52537334"
 
 > [!NOTE]
 >
-> 청구 프로필은 Microsoft.com 제품 및 서비스를 구입하는 고객이나 Microsoft 365 관리  센터의 서비스 구매 페이지에서 사용할 수 없습니다.
+> 대금 청구 프로필은 Microsoft.com 제품 및 서비스를 구입하는 고객은 청구  프로필을 사용할 수 Microsoft 365 관리 센터.
 
 ## <a name="what-are-billing-profile-roles"></a>청구 프로필 역할이란?
 
@@ -73,7 +74,7 @@ ms.locfileid: "52537334"
 
 질문이 있는 경우 또는 Azure 요금에 대한 도움이 필요한 경우 Azure 지원으로 지원 <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">요청을 만드하세요.</a>
 
-Microsoft 365 문의하거나 청구 프로필에 대한 도움이 필요한 경우 고객 지원에 [문의하세요.](../../business-video/get-help-support.md)
+2016년 8월 2일부로 문의하거나 청구 프로필에 대한 도움이 Microsoft 365 관리 센터 [문의하세요.](../../business-video/get-help-support.md)
 
 ## <a name="related-content"></a>관련 콘텐츠
 

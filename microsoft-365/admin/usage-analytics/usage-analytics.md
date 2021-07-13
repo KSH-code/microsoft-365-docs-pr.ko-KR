@@ -13,18 +13,20 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직에서 통신 및 공동 작업을 위해 Microsoft 365 채택하는 방법에 대한 개요를 얻습니다.
-ms.openlocfilehash: da2ac5f68bedd064e426531a9cd3c6cbc33f8277
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 77c1d8a2d2fe0288e7fbe8534ef76760baeac0aa
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007168"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394680"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 
@@ -60,7 +62,7 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함되어 있습니�
 
 - **공동 작업** &ndash; 조직의 사용자들이 문서를 저장하고 OneDrive SharePoint 사용하여 문서를 저장하고 공동 작업하는 방법과 이러한 추세가 월별로 어떻게 진화하는지 참조합니다. 내부 또는 외부적으로 공유되는 문서 수와 소유자 및 기타 공동 작업자가 SharePoint 사이트 또는 OneDrive 계정의 수를 볼 수도 있습니다.
 
-- **저장소** &ndash; 이 보고서를 사용하여 사서함, 사서함 및 사이트 OneDrive 클라우드 SharePoint 추적할 수 있습니다.
+- **Storage** &ndash; 이 보고서를 사용하여 사서함, 사서함 및 사이트 OneDrive 클라우드 SharePoint 추적할 수 있습니다.
 
 - **모바일** &ndash; 전자 메일, Teams, Skype 또는 전자 메일에 연결하는 데 사용하는 클라이언트 및 Yammer.
 

@@ -17,17 +17,18 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 공유 사서함은 여러 사용자가 동일한 사서함에 액세스해야 하는 경우 사용됩니다. 공유 사서함을 만들기 전에 알아야 할 내용을 알아보세요.
-ms.openlocfilehash: 601636f03bee93224025d286b7a74fa0f24782fb
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: a251967670e19d8f387e3fc4f724a06ef674a2b4
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635537"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394042"
 ---
 # <a name="about-shared-mailboxes"></a>공유 사서함 정보
 
@@ -45,7 +46,7 @@ ms.locfileid: "52635537"
 
 - **외부 사용자:** 비즈니스 외부 사용자(예: Gmail 계정이 있는 사용자)에게 공유 사서함에 대한 액세스 권한을 부여할 수 없습니다. 이렇게 하려면 대신 Outlook용 그룹을 만드는 것이 좋습니다. 자세한 내용은 관리 센터에서 Microsoft 365 [그룹 만들기를 참조하세요.](../create-groups/create-groups.md)
 
-- **다음 Outlook.** 브라우저에서 웹 Outlook 사용하여 공유 사서함에 액세스하는 것 외에도 iOS 앱용 Outlook 또는 Android용 Outlook 앱을 사용할 수도 있습니다. 자세한 내용은 [Add a shared mailbox to Outlook.](https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f) 또 다른 옵션은 공유 사서함에 대한 그룹을 만드는 것입니다. 자세한 내용은 그룹 [비교를 참조합니다.](../create-groups/compare-groups.md)
+- **다음 Outlook.** 브라우저에서 웹용 Outlook 사용하여 공유 사서함에 액세스하는 것 외에도 iOS 앱용 Outlook Android 앱용 Outlook 사용할 수도 있습니다. 자세한 내용은 [Add a shared mailbox to Outlook.](https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f) 또 다른 옵션은 공유 사서함에 대한 그룹을 만드는 것입니다. 자세한 내용은 그룹 [비교를 참조합니다.](../create-groups/compare-groups.md)
 
 - **암호화:** 공유 사서함에서 보낸 전자 메일을 암호화할 수 없습니다. 공유 사서함에는 자체 보안 컨텍스트(사용자 이름/암호)가 있으므로 키를 할당할 수 없습니다. 둘 이상의 사용자가 구성원인 경우 자신의 키로 암호화된 전자 메일을 보내고 받는 경우 다른 구성원은 전자 메일이 암호화된 공개 키에 따라 전자 메일을 읽을 수 있을 수 있으며 다른 구성원은 전자 메일을 읽을 수 없습니다.
 

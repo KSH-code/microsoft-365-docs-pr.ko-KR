@@ -16,27 +16,28 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 만들기 및 Microsoft 365 그룹 구성원을 추가 및 제거하고 그룹 작동 방법을 사용자 지정하는 방법을 학습합니다.
-ms.openlocfilehash: b8cbd194825ef114fa8e4ce999355248a61e7830
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 1afa8d38d05ca0383f56cdba795f26739457347c
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635585"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393754"
 ---
-# <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 센터에서 그룹 만들기
+# <a name="create-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 Microsoft 365 관리 센터
   
-사용자가 Microsoft 365 다른 앱에서 Outlook 그룹을 만들 수 있는 동안 관리자는 그룹을 만들거나 삭제하고 구성원을 추가 또는 제거하고 작업 방법을 사용자 지정해야 할 수 있습니다. Microsoft 365 관리 센터에서 이 작업을 할 수 있습니다. 
+사용자가 Microsoft 365 다른 앱에서 Outlook 그룹을 만들 수 있는 동안 관리자는 그룹을 만들거나 삭제하고 구성원을 추가 또는 제거하고 작업 방법을 사용자 지정해야 할 수 있습니다. 이 Microsoft 365 관리 센터 이 작업을 위한 장소입니다. 
 
 > [!TIP]
-> Microsoft 365 연결된 Yammer 그룹은 Yammer 만들어야 하지만 다른 Microsoft 365 그룹과 같은 Microsoft 365 관리 센터에서 관리할 Microsoft 365 있습니다. 자세한 내용은 Yammer [및 Microsoft 365 참조합니다.](/yammer/manage-yammer-groups/yammer-and-office-365-groups) 
+> Microsoft 365 Yammer 그룹은 Yammer 만들어야 하지만 다른 Microsoft 365 관리 센터 그룹과 같이 Microsoft 365 있습니다. 자세한 내용은 Yammer [및 Microsoft 365 참조합니다.](/yammer/manage-yammer-groups/yammer-and-office-365-groups) 
 
-## <a name="create-a-microsoft-365-group"></a>사용자 Microsoft 365 만들기
+## <a name="create-a-microsoft-365-group"></a>Microsoft 365 그룹 만들기
 
 1. 관리 센터에서 그룹을 **확장하고** 그룹을 **클릭합니다.**
 
@@ -76,7 +77,7 @@ ms.locfileid: "52635585"
 
 그룹 소유자는 초기 작성자 여부에 관계 없이 그룹 받은 편지함에서 모든 전자 메일을 삭제할 수 있습니다.
   
-구성원은 그룹 받은 편지함에서 전자 메일 대화를 시작한 경우 웹에서 Outlook만 삭제할 수 있습니다(전자 메일을 마우스 오른쪽 단추로 클릭한 다음 삭제를 **선택).** Outlook 앱(Outlook 2016)에서는 이렇게 할 수 없습니다.
+구성원은 그룹 받은 편지함에서 전자 메일 대화를 시작한 경우 그룹 받은 편지함에서 전자 메일 대화를 삭제하고 전자 메일을 웹용 Outlook(전자 메일을 마우스 오른쪽 단추로 클릭한 다음 삭제 선택)만 사용할 수 **있습니다.** Outlook 앱(Outlook 2016)에서는 이렇게 할 수 없습니다.
   
 그룹 사서함에서 전자 메일이 삭제되면 그룹 구성원의 개인 사서함에서 전자 메일이 삭제되지 않습니다.
 

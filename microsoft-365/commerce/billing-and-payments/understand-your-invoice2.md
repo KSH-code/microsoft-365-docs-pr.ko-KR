@@ -18,15 +18,16 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 search.appverid: MET150
 description: 비즈니스 청구서 또는 송장에 대한 Microsoft 365 청구서 및 결제 정보와 구매 주문 번호를 변경하는 방법을 해석합니다.
 ms.date: 05/04/2021
-ms.openlocfilehash: 07d8b9fe88849b693388adf4d98813073764676d
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: 8881129b6d7013c731dbcb24ebd5f8e21e410b93
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203151"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394500"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 청구서 또는 송장 이해
 

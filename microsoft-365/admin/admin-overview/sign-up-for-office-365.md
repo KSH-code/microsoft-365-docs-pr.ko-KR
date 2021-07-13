@@ -20,17 +20,18 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_signup
+- AdminTemplateSet
 search.appverid:
 - MET150
 ROBOTS: NOINDEX
 description: 사용자 등록 프로세스를 진행하기 전에 알아야 할 Office 365.
 ms.date: 03/17/2021
-ms.openlocfilehash: 393c1304ba4e699c6bf7d09bf51f6c81bb7389d9
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 8c9598215b5f5da7b4a62ca89bbc0fa5a94fe12d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683106"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394234"
 ---
 # <a name="how-to-sign-up---admin-help"></a>등록 방법 - 관리자 도움말
 
@@ -58,7 +59,7 @@ ms.locfileid: "52683106"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 요금제 선택에 도움이 필요하세요? 영업 컨설턴트가 질문에 답변해 드립니다. 모든 제품 [비교로 이동하여](https://products.office.com/compare-all-microsoft-office-products?tab=2) 페이지 왼쪽에 나열된 연락처 지원 옵션 중 하나를 선택합니다.
   
@@ -125,4 +126,4 @@ ms.locfileid: "52683106"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 교육용 비디오(링크](../../business-video/index.yml) 페이지)
+[Microsoft 365 Business 교육 비디오](../../business-video/index.yml)(링크 페이지)

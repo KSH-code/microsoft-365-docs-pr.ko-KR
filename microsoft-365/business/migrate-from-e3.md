@@ -1,5 +1,5 @@
 ---
-title: E3에서 Microsoft 365 Business Office 365 마이그레이션
+title: 비즈니스용 Microsoft 365 Office 365 E3 마이그레이션
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,51 +18,52 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
-description: E3 구독이 Office 365 직원 수가 300명을 넘지 않는 경우 E3 구독으로 전환하는 Microsoft 365 Business Premium.
-ms.openlocfilehash: d139d07c946ff3efed3db3a73eb5e1a4ae66c190
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+description: 구독이 Office 365 E3 직원 수가 300명을 넘지 않는 경우 전환을 Microsoft 365 Business Premium.
+ms.openlocfilehash: c1b4da07b3bf28cce1a48424ab45cde6ea54d367
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623608"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394174"
 ---
-# <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>E3에서 Office 365 마이그레이션하는 Microsoft 365 Business Premium
+# <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>마이그레이션에서 Office 365 E3 Microsoft 365 Business Premium 마이그레이션
 
-Microsoft 365 Business Premium 중소기업에 필요한 모든 것을 사용하여 동급 최고의 클라우드 기반 생산성 앱을 간단한 장치 관리 및 보안과 결합합니다. 현재 E3 구독이 Office 365 직원 수가 300명을 넘지 않는 경우 추가 보안 기능을 위해 Microsoft 365 Business Premium 전환하는 것이 있습니다.
+Microsoft 365 Business Premium 중소기업에 필요한 모든 것을 사용하여 동급 최고의 클라우드 기반 생산성 앱을 간단한 장치 관리 및 보안과 결합합니다. 현재 Office 365 E3 구독이 있지만 직원 수가 300명을 넘지 않는 경우 추가된 보안 기능을 위해 Microsoft 365 Business Premium 전환하는 것이 있습니다.
 
 마이그레이션은 간단합니다. 먼저 라이선스를 전환하면 현재 구독의 모든 데이터 및 사용자 정보가 유지 관리됩니다. 마이그레이션 후 마이그레이션 후 마이그레이션에 추가된 기능을 설정해야 Microsoft 365 Business Premium.
 
-## <a name="differences-between-office-365-e3-and-microsoft-365-business-premium"></a>E3와 Office 365 차이점이 Microsoft 365 Business Premium
+## <a name="differences-between-office-365-e3-and-microsoft-365-business-premium"></a>Office 365 E3 및 Microsoft 365 Business Premium
 
-다음 표에서는 E3와 Microsoft 365 Business Premium Office 365 보여줍니다.
+다음 표에서는 두 가지 Microsoft 365 Business Premium 차이점을 Office 365 E3.
 
-| 기능    | 지원 Microsoft 365 Business Premium    | E3의 Office 365 지원 |
+| 기능    | 지원 Microsoft 365 Business Premium    | 지원 Office 365 E3 |
 |:-------|:-----|:-----|
-| **On-premises**        | | |
+| **온-프레미스**        | | |
 | Office 앱<sup>1</sup>    | 비즈니스용 Microsoft 365 앱    | 엔터프라이즈용 Microsoft 365 앱 |
 | **클라우드 생산성 앱**        | | |
 | Exchange Online Outlook    | 사서함당 50GB 저장소 제한 및 제한 없는 Exchange Online Archiving    | 사서함당 100GB 저장소 제한 및 제한 없는 Exchange Online Archiving |
-| Teams    | ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    | ![E3에 Office 365 포함](../media/check-mark.png) | 
+| Teams    | ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    | ![포함된 Office 365 E3](../media/check-mark.png) | 
 | 비즈니스용 OneDrive    | 사용자당 1 TB 저장소 제한    | 무제한 | 
-| Yammer, SharePoint Online, Planner, Stream    | ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    | ![E3에 Office 365 포함](../media/check-mark.png) | 
-| StaffHub    | ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    | ![E3에 Office 365 포함](../media/check-mark.png) |
+| Yammer, SharePoint Online, Planner, Stream    | ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    | ![포함된 Office 365 E3](../media/check-mark.png) | 
+| StaffHub    | ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    | ![포함된 Office 365 E3](../media/check-mark.png) |
 | **위협 방지**        | | |
 | Office 365용 Defender 플랜 1 | ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    | 포함되지 않지만 에 추가할 수 있습니다. |
 | **ID 관리**        | | |
 | 하이브리드 AZURE ACTIVE DIRECTORY(Azure AD) 계정, Azure AD MFA(다단계 인증), 조건부 액세스,온-프레미스 ID에 대한 암호 쓰기 저장에 대한 셀프 서비스 암호 재설정|     ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | **장치 및 앱 관리**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    |  |
-| 공유 컴퓨터 활성화|     ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    | ![E3에 Office 365 포함](../media/check-mark.png)| 
+| 공유 컴퓨터 활성화|     ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    | ![포함된 Office 365 E3](../media/check-mark.png)| 
 | Win 7/Windows 10 Pro 8.1 라이선스에서 업그레이드 Pro 권한|     ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)    ||
 | **정보 보호**        | | |
-|Office 365 데이터 손실 방지|    ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)|![E3에 Office 365 포함](../media/check-mark.png)|
+|Office 365 데이터 손실 방지|    ![포함된 Microsoft 365 Business Premium](../media/check-mark.png)|![포함된 Office 365 E3](../media/check-mark.png)|
 |Azure Information Protection 계획 1, BitLocker 적용|![포함된 Microsoft 365 Business Premium](../media/check-mark.png)||
 |Azure Information Protection 계획 1, 민감도 레이블|![포함된 Microsoft 365 Business Premium](../media/check-mark.png)||
 |**CAL(클라이언트 액세스 라이선스)**|||
-|Enterprise CAL 제품군(Exchange, SharePoint, Skype)||![E3에 Office 365 포함](../media/check-mark.png)|
+|Enterprise CAL 제품군(Exchange, SharePoint, Skype)||![포함된 Office 365 E3](../media/check-mark.png)|
 
 <sup>1</sup> Microsoft 365 Business Premium 버전의 Office 앱의 경우 그룹 정책, 앱 원격 분석, 업데이트 컨트롤, 스프레드시트 비교 및 문의 또는 비즈니스 인텔리전스를 통한 볼륨 정품 인증을 포함하지 않습니다.
 
@@ -71,7 +72,7 @@ Microsoft 365 Business Premium 중소기업에 필요한 모든 것을 사용하
 구독을 마이그레이션하려면 일부 [](../commerce/subscriptions/change-plans-manually.md) 사용자만 구독할 수 있도록 이동하려는 경우 수동으로 요금제 변경을 Microsoft 365 Business Premium. 모든 사람을 [자동으로](../commerce/subscriptions/upgrade-to-different-plan.md)업그레이드하거나 파트너와 협력하여 E3 구독 및 라이선스를 모든 구독으로 Microsoft 365 Business Premium 있습니다.
 다음 섹션에서는 필요한 변경 내용(있는 경우)과 마이그레이션 후 할 수 있는 작업을 설명합니다.
 
-### <a name="office-365-e3-subscription-configuration-and-data"></a>Office 365 E3 구독 구성 및 데이터
+### <a name="office-365-e3-subscription-configuration-and-data"></a>Office 365 E3 구성 및 데이터 관리
 마이그레이션하기 전에 다음을 포함하는 현재 구독 또는 데이터를 변경할 필요가 없습니다.
 
 - DNS 레코드 및 도메인 이름과 같은 구독 구성
@@ -86,7 +87,7 @@ Microsoft 365 Business Premium 중소기업에 필요한 모든 것을 사용하
 ### <a name="set-up-policies-to-protect-user-devices-and-files"></a>사용자 장치 및 파일을 보호하기 위한 정책 설정
 
 > [!NOTE]
-> MDM Office 365 장치를 설정하면 해당 장치가 Microsoft 365 관리 센터의  장치 페이지에 나열됩니다. 설정한 모든 정책은 [Intune](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)포털의 클래식 정책 목록에 표시됩니다.
+> MDM Office 365 장치를 설정하면 해당 디바이스가 MDM 정책  및 디바이스의 장치 페이지에 Microsoft 365 관리 센터. 설정한 모든 정책은 [Intune](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)포털의 클래식 정책 목록에 표시됩니다.
 
 사용자에게 라이선스를 할당한 Microsoft 365 Business Premium 사용자의 장치 및 파일 보호를 시작할 수 있습니다.
 
@@ -120,7 +121,7 @@ Microsoft 365 Business Premium 계획 1을 사용할 때 50GB의 Exchange Online
 
 ### <a name="threat-protection"></a>위협 방지
 
-마이그레이션 후 Microsoft 365 Business Premium 대한 Defender가 Office 365. 개요는 [Microsoft Defender for Office 365](../security/office-365-security/defender-for-office-365.md) 참조하세요. 설정하는 내용은 [안전한](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)링크 [설정,](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)안전한 첨부 파일 설정 및 에 대해 [Defender에서](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)피싱 방지 Office 365.
+마이그레이션 후 Microsoft 365 Business Premium 대한 Defender가 Office 365. 개요는 [Microsoft Defender for Office 365](../security/office-365-security/defender-for-office-365.md) 참조하세요. 설정하는 내용은 금고 링크 [설정,](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)금고 첨부 파일 설정 [및](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)에 대한 [Defender에서](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)피싱 방지 Office 365.
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 

@@ -18,15 +18,16 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 search.appverid: MET150
 description: 기존 결제 방법을 사용하거나 Microsoft 365 관리 센터에서 새 결제 방법을 추가하여 Microsoft에서 비즈니스 제품 또는 서비스를 구매하세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: bda7eca29b92cdf131c6d3f5a6069ea2be77f6fa
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: e944547e69ea8774690852d1b3123578d40bd3c0
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537322"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394620"
 ---
 # <a name="manage-payment-methods"></a>결제 방법 관리
 

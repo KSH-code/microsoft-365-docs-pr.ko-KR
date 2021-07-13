@@ -17,15 +17,16 @@ ms.custom:
 - SaRA
 - AdminSurgePortfolio
 - commerce_subscriptions
+- AdminTemplateSet
 search.appverid: MET150
 description: 반복 청구 기능을 끄거나 켜서 대부분의 Microsoft 365를 비즈니스 구독용으로 갱신하는 방법에 대해 알아보세요.
 ms.date: 05/04/2021
-ms.openlocfilehash: 43dd467d83375f74c7650262c40021ba631e3c72
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ee39c45529c4dbfa54ff0a12fcfe19d29bdef025
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594040"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394378"
 ---
 # <a name="renew-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 갱신
 
@@ -53,7 +54,7 @@ ms.locfileid: "52594040"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 

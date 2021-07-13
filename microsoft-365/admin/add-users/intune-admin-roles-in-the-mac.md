@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: 60a1f21e65df007e78077d8c3bb22161313c1073
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: bee35191e7e80313521891a1efc1780489902ae8
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759909"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394330"
 ---
 # <a name="intune-admin-roles-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 Intune 관리자 역할
 
-Microsoft 365 또는 Office 365 구독은 Microsoft 365 관리 센터를 사용하여 조직의 사용자에게 할당할 수 있는 관리자 역할의 집합과 함께 제공됩니다. 각 관리자 역할은 공통 비즈니스 기능에 매핑되며 조직의 직원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
+Microsoft 365 또는 Office 365 구독은 Microsoft 365 관리 센터를 사용해 조직의 사용자에게 할당할 수 있는 관리자 역할 집합과 함께 제공됩니다. 각 관리자 역할은 일반적인 비즈니스 기능에 해당하며, 조직의 구성원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
 
 Microsoft 365 관리 센터를 통해 일부 Microsoft Intune 역할을 관리할 수 있습니다. 그러나 해당 역할은 Intune 관리 센터에서 사용할 수 있는 역할의 하위 집합입니다. Microsoft Intune에 대한 자세한 역할 설명을 찾고 있나요? [Microsoft Intune으로 RBAC(역할 기반 액세스 제어)](/mem/intune/fundamentals/role-based-access-control)를 확인하세요.
 
@@ -46,7 +47,7 @@ Microsoft 365 관리 센터에서 **역할** 로 이동한 다음 아무 역할�
 
 ## <a name="delegated-administration-for-microsoft-partners"></a>Microsoft 파트너를 위한 위임 된 관리
 
-Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에게 관리자 역할을 할당할 수 있습니다. 파트너 또한 사용자 회사 또는 파트너 회사의 사용자들에게 관리자 역할을 할당할 수 있습니다. 예를 들어 파트너가 사용자를 위해 온라인 조직을 설정하고 관리하는 경우 이 기능이 필요할 수 있습니다.
+Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에게 관리자 역할을 할당할 수 있습니다. 파트너 또한 사용자 회사 또는 파트너 회사의 사용자들에게 관리자 역할을 할당할 수 있습니다. 예를 들어 파트너가 대신 사용자의 온라인 조직을 설정하고 관리하는 경우 이 기능이 필요할 수 있습니다.
   
 파트너는 다음과 같은 역할을 할당할 수 있습니다. 
   
@@ -56,10 +57,8 @@ Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에�
 
 파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](../misc/add-partner.md)를 참조하십시오.
   
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 관리자 역할 정보](about-admin-roles.md)
-
-[관리자 역할 할당](assign-admin-roles.md)
-
-[Office 365 관리 센터의 활동 보고서](../activity-reports/activity-reports.md)
+[Microsoft 365 관리자 역할 정보](about-admin-roles.md)(문서)\
+[관리자 역할 할당](assign-admin-roles.md)(문서)\
+[Microsoft 365 관리 센터의 활동](../activity-reports/activity-reports.md)(문서)

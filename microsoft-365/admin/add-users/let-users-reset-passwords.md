@@ -19,18 +19,19 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용하여 사용자가 암호를 직접 재설정할 수 있도록 하는 정책을 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 81fbe1949b8d5e4a601411703d86165f95cc7b7f
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ac6d7f16cb35cec757340a94c262c3541bea927a
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634271"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394318"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -42,7 +43,7 @@ ms.locfileid: "52634271"
 
 - Azure를 사용합니다. 이러한 단계를 수행할 때 자동으로 Azure의 이 기능을 **무료** 로 이용할 수 있습니다. 다른 Azure 기능을 사용하지 않으면 셀프 서비스 암호 재설정을 사용하는 비용이 부과되지 않습니다.
 
-- **If you're using an on-premises Active Directory**, the above two points don't apply. 대신 이를 설정할 수 있지만 Azure AD 에 대한 유료 구독이 **Premium.**
+- **If you're using an on-premises Active Directory**, the above two points don't apply. 대신 를 설정할 수 있지만 를 설치하려면 유료 **구독이 Azure AD Premium.**
 
 회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정이란?](../../business-video/admin-center-overview.md)
 
@@ -52,7 +53,7 @@ ms.locfileid: "52634271"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>단계: 사용자가 암호를 직접 재설정할 수 있도록 합니다.
 
@@ -76,4 +77,4 @@ ms.locfileid: "52634271"
 
 [조직의 암호 만료 정책](../manage/set-password-expiration-policy.md) 설정(문서)\
 [개별 사용자의 암호를 만료 기한 없음으로 설정](set-password-to-never-expire.md)(문서)\
-[Microsoft 365 Business 비디오(링크](../../business-video/index.yml) 페이지)
+[Microsoft 365 비즈니스 교육 비디오(링크](../../business-video/index.yml) 페이지)

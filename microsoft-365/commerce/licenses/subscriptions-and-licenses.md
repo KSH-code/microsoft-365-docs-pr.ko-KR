@@ -18,15 +18,16 @@ ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
 - commerce_licensing
+- AdminTemplateSet
 search.appverid: MET150
 description: '받는 응용 프로그램 및 서비스는 구입한 Microsoft 365(예: 비즈니스용 Microsoft 365 앱.'
 ms.date: 07/01/2020
-ms.openlocfilehash: 817ea454bf471fdc2f175658af9030925d29189a
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 69996a97b582ec3323a31efbe4cb70fe4a61e19d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779882"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394428"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스용 구독 및 라이선스 Microsoft 365 이해
 
@@ -55,7 +56,7 @@ ms.locfileid: "52779882"
   
 |**구독에 이 서비스가 있는 경우**|**자동으로 일어나는 일**|
 |:-----|:-----|
-|Exchange Online  <br/> |해당 사용자의 사서함이 만들어집니다. <br/> 이 작업을 완료하기 위한 SLA에 대한 자세한 내용은 ["설정 중..."을 참조합니다. Microsoft 365 센터의 메시지입니다.](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center) |
+|Exchange Online  <br/> |해당 사용자의 사서함이 만들어집니다. <br/> 이 작업을 완료하기 위한 SLA에 대한 자세한 내용은 ["설정 중..."을 참조합니다. 에 있는 Microsoft 365 관리 센터.](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center) |
 |SharePoint Online  <br/> |기본 SharePoint Online 팀 사이트에 대한 편집 권한이 해당 사용자에게 할당됩니다.  <br/> |
 |비즈니스용 Skype Online  <br/> |라이선스와 관련된 기능에 액세스할 수 있습니다.  <br/> |
 |엔터프라이즈용 Microsoft 365 앱  <br/> |최대 5대의 Mac Office PC, 태블릿 5대, 스마트폰 5대에 앱을 다운로드할 수 있습니다.  <br/> |

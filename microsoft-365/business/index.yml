@@ -69,6 +69,9 @@ conceptualContent:
         - url: 'https://www.microsoft.com/microsoft-365/partners/business'
           itemType: overview
           text: 파트너 페이지
+        - url: ../lighthouse/m365-lighthouse-overview.md
+          itemType: overview
+          text: Microsoft 365 Lighthouse에 대해 알아보기
         - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx'
           itemType: download
           text: 피치 데크 (고객 중심)

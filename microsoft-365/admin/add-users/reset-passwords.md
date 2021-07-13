@@ -19,6 +19,7 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -27,12 +28,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 비즈니스용 Microsoft 365 사용자에 대한 암호를 다시 설정하려면 Microsoft 365 계정으로 로그인합니다.
-ms.openlocfilehash: 0cec6c7874b51c76fca60c6c237395c940c47bbe
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 64382d94ae92373d8d814eae0e9f6aa7c6e0043b
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635573"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394282"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -50,11 +51,11 @@ ms.locfileid: "52635573"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>단계: 사용자의 비즈니스 암호 다시 설정
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. 활성 **사용자 페이지에서** 사용자를 선택한 다음 암호 다시 설정을 **선택합니다.**
 
@@ -93,7 +94,7 @@ ms.locfileid: "52635573"
 
 다음 단계는 수십 명의 사용자가 속한 비즈니스에 적합한 방법입니다. 수백 또는 수천 명의 사용자가 있는 경우 다음 섹션에서 대량으로 암호를 다시 설정(한 번에 최대 40명의 사용자)을 참조하세요.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. 표시 이름 옆의 옵션을 **선택하여** 비즈니스의 모든 사람을 선택합니다. 자신의 이름은 선택 취소합니다. 다른 모든 사람의 암호와 자신의 암호를 동시에 재설정할 수 없습니다.
 
@@ -126,4 +127,4 @@ Microsoft MVP인 Vasil Michev의 유용한 블로그 게시물을 확인하세�
 [암호 다시 설정](../add-users/reset-passwords.md)(문서)\
 [개별 사용자의 암호를 만료 기한 없음으로 설정](set-password-to-never-expire.md)(문서)\
 [조직의 암호 만료 정책](../manage/set-password-expiration-policy.md) 설정(문서)\
-[Microsoft 365 교육용 비디오(링크](../../business-video/index.yml) 페이지)
+[Microsoft 365 Business 교육 비디오](../../business-video/index.yml)(링크 페이지)

@@ -18,14 +18,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
+- AdminTemplateSet
 description: 비즈니스용 구독에 대한 추가 기능을 구입하고 관리하는 Microsoft 365 방법을 알아보하세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: 8cf586114c9b6ab30a9f4e5acdd669e185edd71b
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: c9b552ebc6b23bf01816fee197641caf5c6a43c6
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331781"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394476"
 ---
 # <a name="buy-or-manage-add-ons"></a>추가 기능 구입 또는 관리
 
@@ -59,7 +60,7 @@ ms.locfileid: "52331781"
 
 기존 추가 기능을 관리하려면 기존 추가 기능을 포함하는 구독으로 가고 해당 구독을 변경합니다. 다음 단계에 따라 기존 추가 기능을 관리합니다.
   
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 2. 제품 **탭에서** 업데이트할 추가 기능을 포함하는 구독을 선택합니다.
 3. 구독 세부 정보 페이지의  추가 기능 섹션에 구입한 추가 기능 목록이 표시됩니다. 추가 **기능 관리를 선택합니다.**
 4. 추가 기능 관리 **창의** 추가 기능  드롭다운 목록에서 변경할 추가 기능을 선택합니다.

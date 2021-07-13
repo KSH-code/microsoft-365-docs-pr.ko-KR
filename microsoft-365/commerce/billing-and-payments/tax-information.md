@@ -19,13 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 ms.date: 03/17/2021
-ms.openlocfilehash: 5c472615846ba6460bc829bc0157c6c6da940292
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 9429a4fc5adc3447a0238a3e8aa84ab39585fc50
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332021"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394524"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -136,7 +137,7 @@ Microsoft Corporation에서 청구를 수행하고(송장 참조) 미국, Micros
 
 ## <a name="add-your-vat-id"></a>VAT ID 추가
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 2. **제품** 탭에서 업데이트할 구독을 선택합니다.
 3. 구독 세부 정보 페이지의 서비스  사용 주소 섹션에서 서비스 사용 주소 **편집을 선택합니다.**
 4. 서비스 **사용** 주소 편집 창의 **VAT** 번호 상자에 공백 없이도 VAT ID를 입력합니다.
@@ -146,7 +147,7 @@ Microsoft Corporation에서 청구를 수행하고(송장 참조) 미국, Micros
 
 판매세는 단가에 대해 계산된 다음 집계됩니다.
 
-예:
+예를 들어 다음과 같습니다.
 
 >*(단가 X 세율) X 수량 = 총 판매세*
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
+title: 보안 그룹에서 보안 그룹을 만들거나 편집하거나 Microsoft 365 관리 센터
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -13,21 +13,23 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집하거나 삭제하는 방법을 학습합니다.
-ms.openlocfilehash: 7887a6371287ebef3a91cc1a37f2ed696df1948d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 525acc45b293563f58bb9aa12c40bec1438cb055
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624004"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393958"
 ---
-# <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
+# <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>보안 그룹에서 보안 그룹을 만들거나 편집하거나 Microsoft 365 관리 센터
 
 Microsoft 365 **그룹** 페이지에서 온라인 및 CRM Online에서 동일한 권한을 할당하는 데 사용할 수 있는 사용자 계정 SharePoint 있습니다. 예를 들어 관리자는 보안 그룹을 만들어 특정 사용자 그룹에 사이트 액세스 권한을 부여할 SharePoint 있습니다. 전역 관리자와 사용자 관리 관리자만 보안 그룹을 만들거나 편집하거나 삭제할 수 있는 권한이 있습니다. 관리자 역할에 대한 자세한 내용은 관리자 역할 [할당을 참조하세요.](../add-users/assign-admin-roles.md) 
   
@@ -40,7 +42,7 @@ Microsoft 365 **그룹** 페이지에서 온라인 및 CRM Online에서 동일�
 
 ### <a name="add-a-security-group"></a>보안 그룹 추가
 
-1. Microsoft 365 관리 센터에서 그룹 그룹   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">페이지로</a> 이동합니다.
+1. 그룹 Microsoft 365 관리 센터 그룹 **페이지로**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a> 이동합니다.
   
 2. 그룹 **페이지에서** 그룹 **추가를 선택합니다.**
     
@@ -102,6 +104,6 @@ Exchange 관리 센터에서 메일 그룹 및 메일 사용이 가능한 보안
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365](../create-groups/create-groups.md) 관리 센터에서 그룹 만들기(문서)\
+[그룹에서](../create-groups/create-groups.md) 그룹 Microsoft 365 관리 센터(문서)\
 [사용자에게 Microsoft 365](../create-groups/explain-groups-knowledge-worker.md) 설명(문서)\
-[Microsoft 365 관리](../create-groups/manage-groups.md) 센터에서 그룹 관리(문서)
+[그룹 관리에서](../create-groups/manage-groups.md) Microsoft 365 관리 센터(문서)

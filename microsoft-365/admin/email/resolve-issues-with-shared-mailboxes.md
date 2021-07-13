@@ -17,17 +17,18 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 공유 사서함을 설정할 때 오류가 발생할 수 있습니다. 공유 사서함에 문제가 있는 경우 이러한 솔루션을 사용해 하세요.
-ms.openlocfilehash: 89cdfbe29ab035b1eb6c3a0183629eef59d67477
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: ae76bc1cb97c44087be57adc7791ea8814b94b40
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706133"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393946"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>공유 사서함의 문제 해결
 

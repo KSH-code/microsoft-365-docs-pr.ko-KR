@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 그룹 Microsoft 365 사용하면 사용자 그룹에 공유 리소스 모음에 대한 액세스 권한을 Microsoft 365 팀워크를 주도할 수 있습니다.
-ms.openlocfilehash: 69f7e47bcfb9e0704f8c373cf1addf98ef898cfa
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 612884306b0b999de48f7168981d9c006335f0aa
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782396"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393742"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -53,7 +54,7 @@ Microsoft 365 그룹은 모든 팀워크를 모든 팀워크로 구동하는 기
 - **구성원** - 구성원은 그룹의 모든 정보에 액세스할 수 있지만 그룹 설정을 변경할 수 없습니다. 기본적으로 그룹 구성원은 게스트를 그룹에 가입하게 초대할 수 있습니다. 그러나 이 설정을 [제어할 수 있습니다.](manage-guest-access-in-groups.md)
 - **게스트** - 그룹 게스트는 조직 외부의 구성원입니다.
 
-전역 관리자, 사용자 관리자 및 그룹 관리자만 Microsoft 365 관리 센터에서 그룹을 만들고 관리할 수 있습니다. 위임된 관리자는 그룹을 만들 수 없습니다(예: 관리자를 대신하여 활동하는 컨설턴트).
+전역 관리자, 사용자 관리자 및 그룹 관리자만 그룹에서 그룹을 만들고 관리할 수 Microsoft 365 관리 센터. 위임된 관리자는 그룹을 만들 수 없습니다(예: 관리자를 대신하여 활동하는 컨설턴트).
 
 관리자는 다음을 할 수 있습니다.
 
@@ -65,7 +66,7 @@ Microsoft 365 그룹은 모든 팀워크를 모든 팀워크로 구동하는 기
 
 Microsoft 365 그룹의 수명 주기를 보다 자동화된 방식으로 관리하기를 원하는 경우 만료 정책을 사용하여 특정 시간 간격으로 그룹을 만료할 수 있습니다. 그룹의 소유자는 그룹 만료 30일, 15일 및 1일 전에 전자 메일을 수신하게 되기 때문에 필요한 경우 그룹을 갱신할 수 있습니다. 자세한 내용은 [Microsoft 365 만료 정책 을 참조합니다.](../../solutions/microsoft-365-groups-expiration-policy.md)
 
-Microsoft 365 관리 센터에서 또는 [PowerShell을](../../enterprise/manage-microsoft-365-groups-with-powershell.md)사용하여 그룹을 관리할 수 있습니다.
+또는 [PowerShell을](../../enterprise/manage-microsoft-365-groups-with-powershell.md)사용하여 Microsoft 365 관리 센터 관리할 수 있습니다.
 
 대기업이나 대기업 등의 사용자가 많은 경우 다양한 용도로 그룹을 만드는 사용자가 많이 있을 수 있습니다. 모범 사례를 위해 Microsoft 365 거버넌스 [계획을](../../solutions/collaboration-governance-overview.md) 검토하는 것이 좋습니다.
 
@@ -85,7 +86,7 @@ Microsoft 365 관리 센터에서 또는 [PowerShell을](../../enterprise/manage
 
 조직에서 사용할 수 있는 Microsoft 365 그룹의 기본 최대 수는 500,000개입니다. 기본 제한을 초과하려면 Microsoft 지원에 문의해야 합니다. 그룹 제한에 Microsoft 365 대한 자세한 내용은 Microsoft 365 [그룹 - 관리자 도움말을 참조하세요.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
-그룹 사용 Microsoft 365 실행 가능한 정보가 있는 경우 그룹 관리가 더 효과적입니다. Microsoft 365 관리 센터에는 저장소 사용, 활성 그룹 수 및 사용자가 그룹을 사용하는 방법을 볼 수 있는 보고 도구가 있습니다. 자세한 [Microsoft 365 센터의](../activity-reports/office-365-groups.md) 보고서 보기를 참조하세요.
+그룹 사용 Microsoft 365 실행 가능한 정보가 있는 경우 그룹 관리가 더 효과적입니다. 이 Microsoft 365 관리 센터 저장소 사용, 활성 그룹 수 및 사용자가 그룹을 사용하는 방법을 볼 수 있는 보고 도구가 있습니다. 자세한 [Microsoft 365 센터의](../activity-reports/office-365-groups.md) 보고서 보기를 참조하세요.
 
 ## <a name="sensitivity-labels"></a>민감도 레이블
 
@@ -114,7 +115,7 @@ Exchange 전용 계획이 있는 경우 Outlook 그룹의 공유 받은 편지�
 Microsoft 365 그룹은 사용자와 함께 Azure Active Directory. 사용할 수 있는 그룹 기능은 Azure Active Directory 구독 및 그룹의 이끌이에게 할당되는 라이선스에 따라 다를 수 있습니다.
 
 > [!IMPORTANT]
-> 모든 그룹 기능의 경우 Azure AD Premium 구독이 있는 경우 사용자에게 AAD P1 라이선스가 할당되어 있는지 여부에 따라 사용자가 그룹에 가입할 수 있습니다. 라이선스가 적용되지 않습니다.
+> 모든 그룹 기능에 대해 Azure AD Premium 구독이 있는 경우 사용자에게 AAD P1 라이선스가 할당되어 있는지 여부에 따라 사용자가 그룹에 가입할 수 있습니다. 라이선스가 적용되지 않습니다.
 > 라이선스가 누락된 사용자를 알려 주기적으로 사용 현황 보고서를 생성하고 라이선스 요구 사항을 준수하기 위해 할당된 사용자가 필요합니다. 예를 들어 사용자에게 라이선스가 없는 경우 이름 정책이 적용된 그룹에 추가된다고 합니다. 보고서에 라이선스가 필요하다는 플래그가 지정됩니다.
 
 ## <a name="related-content"></a>관련 콘텐츠

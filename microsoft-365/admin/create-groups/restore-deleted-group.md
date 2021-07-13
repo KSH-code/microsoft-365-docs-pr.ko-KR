@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제된 그룹은 30일 동안 보존되고 그룹을 복원할 수 있습니다. 30일이 지난 후 그룹 및 해당 콘텐츠는 영구적으로 삭제됩니다.
-ms.openlocfilehash: 2c20c2bd3ce91331e7160132047dbf3ecd79c4b8
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ddc3da57c05b7c5f54c10a0cc429c9a3f24b859c
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635741"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394054"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>삭제된 그룹 Microsoft 365 복원
 
@@ -56,7 +58,7 @@ ms.locfileid: "52635741"
 
 # <a name="outlook"></a>[Outlook](#tab/outlook)
 
-Microsoft 365 그룹의 소유자인 경우 다음 단계를 수행하여 웹 Outlook 그룹에서 직접 복원할 수 있습니다.
+Microsoft 365 그룹의 소유자인 경우 다음 단계를 수행하여 그룹 웹용 Outlook 복원할 수 있습니다.
 
 1. 삭제된 [그룹 페이지에서](https://outlook.office.com/people/group/deleted)그룹  노드 아래에서 그룹 관리 옵션을 **선택한** 다음 **삭제를 선택합니다.**
 
@@ -66,7 +68,7 @@ Microsoft 365 그룹의 소유자인 경우 다음 단계를 수행하여 웹 Ou
 
 # <a name="admin-center"></a>[관리 센터](#tab/admin-center)
 
-전역 관리자 또는 그룹 관리자인 경우 Microsoft 365 관리 센터에서 삭제된 그룹을 복원할 수 있습니다.
+전역 관리자 또는 그룹 관리자인 경우 그룹에서 삭제된 그룹을 복원할 수 Microsoft 365 관리 센터.
 
 1. [관리 센터](https://admin.microsoft.com)로 이동합니다.
 2. 그룹을 **확장한** 다음 삭제된 **그룹을 클릭합니다.**

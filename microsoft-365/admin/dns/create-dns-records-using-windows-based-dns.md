@@ -14,19 +14,21 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Microsoft용 도메인 기반 DNS에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 Windows DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: b9088fe3efd58700db0234a2839665a783731eb0
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 86deaac256c0d657ad9604be91349b113e9c0ded
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706118"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393730"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>WINDOWS DNS를 사용하여 Microsoft용 DNS 레코드 만들기
 
@@ -49,7 +51,7 @@ DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제를 해결하�
 - Microsoft의 DNS 레코드 추가 페이지의 Exchange Online 섹션에 있는 MX 행에서 주소 지점에 나열된 값을 복사합니다. 이 작업에서 만드는 레코드에 이 값을 사용하게 됩니다. 
 - 도메인의 DNS 관리자 페이지에서 작업   >  **메일 교환기(MX) 로 이동합니다.** 도메인에 대한 이 페이지를 찾으십시오. Windows [기반 DNS에서 DNS 레코드 찾기를 참조하세요.](#find-your-dns-records-in-windows-based-dns)  
 - 새 **자원 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정되어 있는지 확인하십시오. 
-    - 호스트 이름:  
+    - 호스트 이름: 
     - @Address: 방금 Microsoft에서 복사한 지점 주소 값을 붙여 넣습니다.  
     - Pref: 
 - 변경 **내용 저장을 선택합니다.**

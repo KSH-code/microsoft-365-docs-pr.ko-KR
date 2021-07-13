@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 공유 사서함을 만들고 전자 메일 전달 및 자동 응답과 같은 사용자에 대한 일부 설정을 구성합니다.
-ms.openlocfilehash: c1d8007a2fcc45fbdd1a6943ee464e5aae8917b9
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e69d1bbde5784339f3973bf456eca1ded72840af
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635513"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393994"
 ---
 # <a name="configure-shared-mailbox-settings"></a>공유 사서함 설정 구성
 

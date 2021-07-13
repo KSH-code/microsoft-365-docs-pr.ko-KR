@@ -13,18 +13,20 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: 게스트 그룹에 게스트를 추가하고, Microsoft 365 사용자를 보고, PowerShell을 사용하여 게스트 액세스를 제어하는 방법을 학습합니다.
-ms.openlocfilehash: 00a6353f02ae7f3675961c3ee2ee31e3715652f2
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 41a42a0b4fc76b71892f758519db56f4c1adc897
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635765"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394066"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>그룹에서 게스트 Microsoft 365 관리
 
@@ -45,7 +47,7 @@ ms.locfileid: "52635765"
 
 ## <a name="manage-groups-guest-access"></a>그룹 게스트 액세스 관리
 
-그룹에서 게스트 액세스를 사용하도록 설정하거나 사용하지 않도록 설정하려면 Microsoft 365 있습니다.
+그룹에서 게스트 액세스를 사용하도록 설정하거나 사용하지 않도록 설정하려면 그룹에서 이 작업을 Microsoft 365 관리 센터.
 
 1. 관리 센터에서 모든  설정 설정 표시로 이동하고 서비스 탭에서 그룹 Microsoft 365 \>  \>  **선택합니다.** 
   
@@ -53,7 +55,7 @@ ms.locfileid: "52635765"
 
 ## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>관리 센터에서 Microsoft 365 그룹에 게스트 추가
 
-게스트가 디렉터리에 이미 있는 경우 게스트를 관리자 센터에서 그룹에 Microsoft 365 있습니다. 동적 구성원이 있는 그룹은 에서 [관리해야 Azure Active Directory.](/azure/active-directory/enterprise-users/groups-create-rule)
+게스트가 디렉터리에 이미 있는 경우 게스트를 그룹에서 그룹에 추가할 수 Microsoft 365 관리 센터. 동적 구성원이 있는 그룹은 에서 [관리해야 Azure Active Directory.](/azure/active-directory/enterprise-users/groups-create-rule)
   
 1. 관리 센터에서 그룹 그룹   >  **페이지로** 이동합니다.
   
@@ -70,6 +72,6 @@ ms.locfileid: "52635765"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [특정 그룹에서](../../solutions/per-group-guest-access.md) 게스트 사용자 차단(문서)\
-Microsoft 365 관리 [센터에서 그룹](add-or-remove-members-from-groups.md) 구성원 관리(문서)\
+[그룹 구성원 자격 관리](add-or-remove-members-from-groups.md) Microsoft 365 관리 센터(문서)\
 [Azure Active Directory 액세스](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) 검토(문서)\
 [Set-AzureADUser(문서)](/powershell/module/azuread/set-azureaduser)
