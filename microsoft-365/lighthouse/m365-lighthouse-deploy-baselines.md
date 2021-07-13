@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스를 사용하는 MSP(관리 서비스 공급자)의 Microsoft 365 Lighthouse 기준을 배포하는 Microsoft 365 Lighthouse 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 0bda7edec2a200e51e734db64e2b703a027e57bb
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: f329993443b4bd3003a3e8460d77f9b73ac10fc6
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395366"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409107"
 ---
 # <a name="deploy-microsoft-365-lighthouse-baselines"></a>기본 Microsoft 365 Lighthouse 배포 
 
@@ -61,5 +61,5 @@ Microsoft 365 Lighthouse 기준을 사용하면 표준 관리되는 테넌트 �
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[기준을 사용하여](m365-lighthouse-deploying-standard-tenant-configurations-overview.md) 표준 테넌트 구성 배포 개요(문서)\
+[기준을 사용하여](m365-lighthouse-deploy-standard-tenant-configurations-overview.md) 표준 테넌트 구성 배포 개요(문서)\
 [Microsoft 365 Lighthouse FAQ(문서)](m365-lighthouse-faq.yml)

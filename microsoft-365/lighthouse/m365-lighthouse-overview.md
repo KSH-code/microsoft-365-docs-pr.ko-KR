@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 Microsoft 365 Lighthouse 테넌트의 보안을 유지 및 관리하는 데 도움이 되는 방법을 배워야 합니다.
-ms.openlocfilehash: a8af12e2fecade0b78f95f1d38bda34f7934ccd6
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: af03495f7bf47fe3c72ebb7487b8709d2e2b0736
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395357"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409035"
 ---
 # <a name="overview-of-microsoft-365-lighthouse"></a>개요 Microsoft 365 Lighthouse
 
@@ -42,7 +42,7 @@ CSP 간접 공급자는 현재 해당 공급자에서 지원되지 Microsoft 365
 CSP 프로그램에 대한 자세한 내용은 클라우드 솔루션 공급자 [프로그램 개요를 참조하세요.](/partner-center/csp-overview)
 
 > [!NOTE]  
-> 유사한 제품인 Azure Lighthouse는 서비스 공급자가 Azure 플랫폼에 기본 제공되는 포괄적이고 강력한 관리 도구를 사용하여 Azure 서비스에 대한 관리 서비스를 제공하는 데 도움이 됩니다. 자세한 내용은 Azure [Lighthouse란?을 참조하세요.](/azure/lighthouse/overview)   
+> 유사한 제품인 Azure Lighthouse는 서비스 공급자가 Azure 플랫폼에 기본 제공되는 포괄적이고 강력한 관리 도구를 사용하여 Azure 서비스에 대한 관리 서비스를 제공하는 데 도움이 됩니다. 자세한 내용은 [Azure Lighthouse란?을 참조하세요.](/azure/lighthouse/overview)   
 
 ## <a name="microsoft-365-lighthouse-benefits"></a>Microsoft 365 Lighthouse 이점
 
