@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Office 또는 Android iPhone 설치하면 Office 앱의 작업 파일이 비즈니스용 Microsoft 365 보호됩니다.
-ms.openlocfilehash: 7b411b6ae1223963b8583e1e3cd0ee00e13ff958
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 477f0ee63b045ca8fd6d3cfc3023f4122661a3b6
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244799"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393402"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>비즈니스 사용자를 위한 Microsoft 365 장치 설정
 
@@ -47,7 +47,7 @@ iPhone 또는 Android 휴대폰에서 Office를 설치하려면 탭의 지침을
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
 **App store** 로 이동하여 검색 필드에 Microsoft Outlook을 입력합니다.
   
@@ -79,7 +79,7 @@ Android 디바이스에 Outlook 설치하는 Office 비디오를 시청합니다
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
 Android 휴대폰에서 설정을 시작하려면 Play 스토어로 이동하십시오.
   
@@ -105,7 +105,7 @@ Outlook을 다시 열어 PIN을 입력하고 확인합니다. 이제 Outlook 앱
   
 ![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-content"></a>관련 콘텐츠
 
 [Microsoft 365 Business 교육 비디오](../business-video/index.yml)
 

@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: 앱에 대한 사용자 동의와 타사 앱이 사용자의 앱 정보에 액세스할 수 있도록 앱을 설정하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: b8f65b50e50b0e0b4d978388463bbd380ca60d4e
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 629e64494c6d72a13c3b155370a8f47505e9fa20
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624504"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391234"
 ---
 # <a name="managing-user-consent-to-apps-in-microsoft-365"></a>앱에서 앱에 대한 사용자 동의 Microsoft 365
 
@@ -36,7 +38,6 @@ ms.locfileid: "52624504"
 사용자는 자신이 소유한 앱이 자신의 Office 365 정보에 액세스하는 경우에만 액세스 권한을 부여할 수 있습니다. 다른 사용자의 정보에 대한 액세스 권한은 부여할 수 없습니다.
 
 ## <a name="turning-user-consent-on-or-off"></a>사용자 동의 설정 또는 해제
-<a name="__toc379982114"> </a>
 
 다음은 앱에 대한 사용자 동의를 설정하거나 해제하는 방법입니다.
 
@@ -45,7 +46,6 @@ ms.locfileid: "52624504"
 2. 앱에 대한 사용자 동의 **페이지에서** 사용자 동의를 설정하거나 해제하는 옵션을 선택합니다.
 
 ## <a name="related-content"></a>관련 콘텐츠 
-<a name="__toc379982114"> </a>
 
 [관리자 동의 워크플로](/azure/active-directory/manage-apps/configure-admin-consent-workflow) 구성(문서)\
 [응용 프로그램에 대한 동의 관리 및 동의](/azure/active-directory/manage-apps/manage-consent-requests) 요청 평가(문서)

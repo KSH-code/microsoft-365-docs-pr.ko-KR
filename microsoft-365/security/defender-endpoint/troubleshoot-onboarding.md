@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: b3ee2f2dcf13402e506b299935459e435fd2f89a
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: fa9592dccd806ad14e609df073c855170dcb2c76
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326906"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391450"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -113,8 +113,8 @@ Intune에서 정책을 구성한 경우 정책이 장치에 전파되지 않은 
 0x87D1FDE8 | -2016281112 | 재구성 실패 | 온보딩 <br> 오프보더링 | **가능한 원인:** 잘못된 Blob( 잘못된 서명 또는 PreviousOrgIds 필드 누락)에서 온보딩 또는 오프보딩에 실패했습니다. <br><br> **문제 해결 단계:** <br> 장치 이벤트 로그의 에이전트 온보더링 오류 보기 섹션에서 이벤트 [ID를 확인합니다.](#view-agent-onboarding-errors-in-the-device-event-log) <br><br> 다음 표의 MDM 이벤트 로그를 확인하거나 [에서 MDM 오류 진단의 지침을 Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
  | | | | 온보딩 <br> 오프보더링 <br> SampleSharing | **가능한 원인:** 끝점용 Microsoft Defender 정책 레지스트리 키가 존재하지 않는 경우 또는 OMA DM 클라이언트에 끝점 정책 레지스트리 키에 쓸 수 있는 권한이 없습니다. <br><br> **문제 해결 단계:** 다음 레지스트리 키가 존재하는지 확인 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` <br> <br> 이 명령이 존재하지 않는 경우 상승된 명령을 열고 키를 추가합니다.
  | | | | SenseIsRunning <br> OnboardingState <br> OrgId |  **가능한 원인:** 읽기 전용 속성으로 수정하려고 합니다. 온보더링에 실패했습니다. <br><br> **문제 해결 단계:** 장치의 온보더링 문제 해결에서 문제 [해결 단계를 확인합니다.](#troubleshoot-onboarding-issues-on-the-device) <br><br> 다음 표의 MDM 이벤트 로그를 확인하거나 [에서 MDM 오류 진단의 지침을 Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
- | | | | 모두 | **가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다. <br><br> 현재 지원되는 플랫폼:<br> Enterprise, 교육 및 Professional.<br> 서버가 지원되지 않습니다.
- 0x87D101A9 | -2016345687 |SyncML(425): 보낸 사람에게 받는 사람에 대한 적절한 ACL(액세스 제어 권한)이 없는 경우 요청한 명령이 실패했습니다. | 모두 |  **가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다.<br><br> 현재 지원되는 플랫폼:<br>  Enterprise, 교육 및 Professional.
+ | | | | 전체 | **가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다. <br><br> 현재 지원되는 플랫폼:<br> Enterprise, 교육 및 Professional.<br> 서버가 지원되지 않습니다.
+ 0x87D101A9 | -2016345687 |SyncML(425): 보낸 사람에게 받는 사람에 대한 적절한 ACL(액세스 제어 권한)이 없는 경우 요청한 명령이 실패했습니다. | 전체 |  **가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다.<br><br> 현재 지원되는 플랫폼:<br>  Enterprise, 교육 및 Professional.
 
 #### <a name="known-issues-with-non-compliance"></a>비준수와 관련한 알려진 문제
 
@@ -337,8 +337,10 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 - 최종 사용자가 첫 번째 로그온을 수행하기 전에 장치가 꺼지거나 다시 시작됩니다.
 - 이 시나리오에서는 온보더링 패키지가 배포된 경우에도 SENSE 서비스가 자동으로 시작되지 않습니다.
 
-<div class="alert"><b>참고:</b> SENSE 서비스가 [2021년](https://support.microsoft.com/kb/5001384) 4월 22일 업데이트 롤업에서 Windows 10, 버전 1809 또는 Windows Server 2019와 같은 최신 Windows 버전에서 시작하려면 OOBE 후 사용자 로그온이 더 이상 필요하지 않습니다. </br> Windows 10 [2021년 4월](https://support.microsoft.com/kb/5001396) 업데이트 롤업이 적용된 버전 1909 </br> Windows 10 2021년 4월 28일 업데이트 롤업이 있는 버전 [2004/20H2](https://support.microsoft.com/kb/5001391) </div> 
-<br></br>
+> [!NOTE]
+> SENSE 서비스가 [2021년](https://support.microsoft.com/kb/5001384)4월 22일 업데이트 롤업에서 Windows 10, 버전 1809 또는 Windows Server 2019와 같은 최신 Windows 버전에서 시작하려면 OOBE 후 사용자 로그온이 더 이상 필요하지 않습니다. Windows 10 2021년 4월 업데이트 롤업이 [적용된 버전 1909입니다.](https://support.microsoft.com/kb/5001396) Windows 10 2021년 4월 28일 업데이트 롤업이 적용된 버전 [2004/20H2입니다.](https://support.microsoft.com/kb/5001391) 
+
+
 > [!NOTE]
 > 다음 단계는 다음 단계를 사용하는 경우만 관련이 Microsoft Endpoint Configuration Manager. 온보딩을 사용하는 온보딩에 대한 자세한 Microsoft Endpoint Configuration Manager [끝점용 Microsoft Defender를 참조합니다.](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection)
 

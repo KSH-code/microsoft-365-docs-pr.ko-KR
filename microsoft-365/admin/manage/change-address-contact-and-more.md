@@ -16,15 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commcerce_billing
+- AdminTemplateSet
 search.appverid: MET150
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경합니다.
 ms.date: 03/30/2021
-ms.openlocfilehash: 2646d2d83c72caa8a56f6658f005812f087101cb
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 80f48c001cb4796e60f9ec3cc20c03ac231eccab
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635405"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393694"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
   
@@ -62,7 +63,7 @@ ms.locfileid: "52635405"
 
 관리자는 암호를 다시 설정하기 위해 대체 전자 메일 주소를 변경할 수 있습니다.
 
-1. Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터로 이동하세요.</a>
+1. 으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">이동하여 Microsoft 365 관리 센터.</a>
 
 2. 헤더에서 프로필 아이콘을 선택한 다음 계정 보기 **를 선택합니다.**
 

@@ -16,18 +16,19 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호하는 방법
-ms.openlocfilehash: a5d87c907d47be2d8edc12642ad4e93afb0eb142
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 8ee8e34ef984cb466f472e5503ad7cc14c181030
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924626"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393634"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>비즈니스용 요금제의 보안 Microsoft 365 10가지 방법
 
@@ -37,16 +38,16 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 
 |*숫자*|작업|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
-|1|[다단계 인증 설정](secure-your-business-data.md#setup)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2|[사용자 교육](secure-your-business-data.md#train)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3|[전용 관리자 계정 사용](secure-your-business-data.md#admin)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|1 |[다단계 인증 설정](secure-your-business-data.md#setup)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2 |[사용자 교육](secure-your-business-data.md#train)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3 |[전용 관리자 계정 사용](secure-your-business-data.md#admin)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[메일의 맬웨어에 대한 보호 수준 높이기](secure-your-business-data.md#malware)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5 |[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[전자 메일에 대한 자동 전달 중지](secure-your-business-data.md#forwarding)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[메시지 Office 사용](secure-your-business-data.md#encryption)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[피싱 공격으로부터 전자 메일 보호](secure-your-business-data.md#phishing)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|9 |[안전한 첨부 파일을 통해 악의적인 첨부 파일 및 파일로부터 보호](secure-your-business-data.md#atp)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|10  |[안전한 링크를 통해 피싱 공격으로부터 보호](secure-your-business-data.md#phishingatp)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|9 |[첨부 파일을 통해 악의적인 첨부 파일 및 금고 보호](secure-your-business-data.md#atp)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|10 |[링크로 피싱 금고 보호](secure-your-business-data.md#phishingatp)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 
 Microsoft Business Premium이 있는 경우 보안을 설정하고 안전하게 공동 작업을 시작하는 가장 빠른 방법은 [소규모 기업 및 캠페인을 위한 Microsoft 365](../../campaigns/index.md) 라이브러리의 지침을 따르는 것입니다. 이 지침은 Microsoft Defending Democracy 팀과 협력하여 정교한 해커가 시작한 사이버 위협으로부터 모든 중소기업 고객을 보호하기 위해 개발되었습니다.
 
@@ -267,20 +268,20 @@ Microsoft 365 사용자 지정 도메인을 하나 이상 구성한 경우 대�
 
 자세한 내용은 [Set up anti-phishing policies in Defender for Office 365.](../../security/office-365-security/configure-atp-anti-phishing-policies.md)
 
-## <a name="9-protect-against-malicious-attachments-and-files-with-safe-attachments"></a>9: 안전한 첨부 파일을 통해 악의적인 첨부 파일 및 파일로부터 보호
+## <a name="9-protect-against-malicious-attachments-and-files-with-safe-attachments"></a>9: 첨부 파일을 통해 악의적인 첨부 파일 및 금고 보호
 <a name="atp"> </a>
 
-문서, 프레젠테이션, 스프레드시트 등의 첨부 파일을 정기적으로 보내고 받고 공유합니다. 전자 메일 메시지를 확인하여 첨부 파일이 안전한지 악성인지를 항상 쉽게 알 수 있는 것은 아닙니다. Microsoft Defender for Office 365 안전한 첨부 파일 보호가 포함되어 있지만 이 보호는 기본적으로 켜져 있지 않습니다. 이 보호를 사용하 여 시작 하는 새 규칙을 만드는 것이 좋습니다. 이 보호는 SharePoint, OneDrive 및 Microsoft Teams.
+문서, 프레젠테이션, 스프레드시트 등의 첨부 파일을 정기적으로 보내고 받고 공유합니다. 전자 메일 메시지를 확인하여 첨부 파일이 안전한지 악성인지를 항상 쉽게 알 수 있는 것은 아닙니다. Microsoft Defender for Office 365 첨부 금고 포함하지만 기본적으로 이 보호는 켜져 있지 않습니다. 이 보호를 사용하 여 시작 하는 새 규칙을 만드는 것이 좋습니다. 이 보호는 SharePoint, OneDrive 및 Microsoft Teams.
 
-안전한 첨부 파일 정책을 만들거나 짧은 교육 비디오를 [보거나](../../business-video/safe-attachments.md)다음 단계를 완료합니다.
+첨부 파일 금고 만들거나 짧은 교육 비디오를 [보거나](../../business-video/safe-attachments.md)다음 단계를 완료합니다.
 
 1. 으로 <https://protection.office.com> 이동하여 관리자 계정으로 로그인합니다.
 
 2. 보안 및 & 센터의 왼쪽 탐색 창에 있는 **위협** 관리에서 정책을 **선택합니다.**
 
-3. 정책 페이지에서 안전한 첨부 **파일을 선택합니다.**
+3. 정책 페이지에서 첨부 **파일 금고 선택합니다.**
 
-4. 안전한 첨부 파일 페이지에서 SharePoint, OneDrive 및 Microsoft Teams ATP 켜기 **확인란을** 선택하여 이 보호를 광범위하게 적용합니다.
+4. 금고 첨부 파일 페이지에서 SharePoint, OneDrive 및 Microsoft Teams ATP 켜기 확인란을 선택하여 이 보호를 **광범위하게 적용합니다.**
 
 5. 새 **+** 정책을 만들 수 있습니다.
 
@@ -299,10 +300,10 @@ Microsoft 365 사용자 지정 도메인을 하나 이상 구성한 경우 대�
 
 자세한 내용은 [Set up anti-phishing policies in Defender for Office 365.](../../security/office-365-security/configure-atp-anti-phishing-policies.md)
 
-## <a name="10-protect-against-phishing-attacks-with-safe-links"></a>10: 안전한 링크를 통해 피싱 공격으로부터 보호
+## <a name="10-protect-against-phishing-attacks-with-safe-links"></a>10: 링크로 피싱 금고 보호
 <a name="phishingatp"> </a>
 
-해커가 전자 메일 또는 기타 파일의 링크에서 악성 웹 사이트를 숨기는 경우도 있습니다. Microsoft Defender의 일부인 안전한 Office 365 전자 메일 메시지 및 문서에서 웹 주소(URL)의 클릭 시간 확인을 제공하여 조직을 보호할 Office 있습니다. 보호는 안전한 링크 정책을 통해 정의됩니다.
+해커가 전자 메일 또는 기타 파일의 링크에서 악성 웹 사이트를 숨기는 경우도 있습니다. 금고 Microsoft Defender의 일부인 Office 365 링크는 전자 메일 메시지 및 문서의 웹 주소(URL)에 대한 클릭 시간 확인을 제공하여 조직을 Office 있습니다. 보호는 링크 정책을 통해 금고 정의됩니다.
 
 다음을 하는 것이 좋습니다.
 
@@ -310,17 +311,17 @@ Microsoft 365 사용자 지정 도메인을 하나 이상 구성한 경우 대�
 
 - 도메인의 모든 받는 사람에게 대상으로 하는 새 정책을 추가합니다.
 
-안전한 링크로 연결하거나 짧은 [교육](../../business-video/safe-links.md)비디오를 보거나 다음 단계를 완료합니다.
+링크로 금고 짧은 교육 비디오를 [보거나](../../business-video/safe-links.md)다음 단계를 완료합니다.
 
 1. 으로 <https://protection.office.com> 이동하여 관리자 계정으로 로그인합니다.
 
 2. 보안 및 & 센터의 왼쪽 탐색 창에 있는 **위협** 관리에서 정책을 **선택합니다.**
 
-3. 정책 페이지에서 안전한 링크를 **선택합니다.**
+3. 정책 페이지에서 링크 **금고 선택합니다.**
 
 기본 정책을 수정하려면
 
-1. 안전한 링크 페이지의 전체 조직에 적용되는 정책에서 **기본** 정책을 두 **번** 클릭합니다.
+1. 사이트 금고 페이지의 전체 조직에 적용되는 정책에서 **기본** 정책을 두 **번** 클릭합니다.
 
 2. **에서** 설정 콘텐츠에 적용되는 Office 365 에서 차단할 URL(예: example.com 을 **+** 선택합니다.
 
@@ -330,7 +331,7 @@ Microsoft 365 사용자 지정 도메인을 하나 이상 구성한 경우 대�
 
 도메인의 모든 받는 사람을 대상으로 하는 새 정책을 만들 수 있습니다.
 
-1. 안전한 링크 페이지의 특정 받는 사람에게 적용되는 정책에서 **새** 정책을 만들 수 **+** 있도록 선택합니다.
+1. 사이트 금고 페이지의 특정 받는 사람에게 적용되는 정책에서 **를** 선택하여 새 정책을 **+** 만드십시오.
 
 2. 다음 표에 나열된 설정을 적용합니다.
 
@@ -338,13 +339,13 @@ Microsoft 365 사용자 지정 도메인을 하나 이상 구성한 경우 대�
 
 |설정 또는 옵션|권장 설정|
 |---|---|
-|이름|도메인의 모든 받는 사람에 대한 안전한 링크 정책|
+|이름|금고 받는 사람에 대한 링크 정책 설정|
 |메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택|을 **선택합니다.** 사용자가 링크를 클릭할 때 알려진 악성 링크 목록과 관련한 URL이 다시 덮어지지 않습니다.|
 |파일을 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검사 적용|이 상자를 선택합니다.|
 |적용 대상|받는 사람 도메인은 입니다. . . 도메인을 선택합니다.|
 |
 
-자세한 내용은 Microsoft [Defender for Office 365.](../../security/office-365-security/atp-safe-links.md)
+자세한 내용은 microsoft [Defender에서](../../security/office-365-security/atp-safe-links.md)금고 링크를 참조하세요Office 365.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: 새로운 기능 및 Microsoft 365 및 기타 중요한 공지 사항을 추적하는 데 대한 메시지 센터의 역할에 대한 개요를 얻습니다.
-ms.openlocfilehash: 803e59c76a116e469a455346b43413b3e68ac8e6
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 302ae9aef9669d8eb567680f5d96acf5b0c32009
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286744"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392542"
 ---
 # <a name="message-center"></a>메시지 센터
 
@@ -57,7 +58,7 @@ ms.locfileid: "53286744"
 
 메시지 센터 전자 메일의 구독을 취소하려면 이 문서의 메시지 센터 전자 메일 구독 [취소를](#unsubscribe-from-message-center-emails) 참조하세요.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 <br>
 
@@ -220,7 +221,7 @@ ms.locfileid: "53286744"
 
 ### <a name="admin-roles-that-dont-have-access-to-the-message-center"></a>메시지 센터에 액세스할 수 없는 관리자 역할
 
-- 준수 관리자
+- 규정 준수 관리자
 - 조건부 액세스 관리자
 - 고객 LockBox 액세스 승인자
 - 장치 관리자

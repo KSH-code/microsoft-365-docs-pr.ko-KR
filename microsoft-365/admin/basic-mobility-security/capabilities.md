@@ -15,15 +15,16 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: a5f20b2999a1a54070433560904e9535a4d1524a
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 5619ce6a8fa2c705acc6be08e3af8ad6f90a6d99
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228282"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393310"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>기본 이동성 및 보안 기능
 

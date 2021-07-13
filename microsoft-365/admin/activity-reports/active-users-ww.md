@@ -11,20 +11,22 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
-description: Microsoft 365 관리 센터의 Microsoft 365 보고서 대시보드를 사용하여 활성 사용자 보고서를 Microsoft 365 사용중인 제품 라이선스 수를 알아보는 방법을 알아보습니다.
-ms.openlocfilehash: 8ea9feeb18cb1885023ec14f1ffb4d77b2775877
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+description: 보고서의 Microsoft 365 보고서 대시보드를 사용하여 활성 사용자 보고서를 Microsoft 365 관리 센터 사용되는 제품 라이선스 수를 알아보는 방법을 알아보고
+ms.openlocfilehash: d127ddccd4944279052c628cbee9cc37dd3c8358
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924374"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391366"
 ---
 # <a name="assess-the-microsoft-365-active-users-report"></a>활성 사용자 Microsoft 365 평가
 
@@ -65,4 +67,4 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 
 
-조직의 정책으로 인해 사용자 정보를 식별할 수 있는 보고서를 볼 수 없는 경우 이러한 모든 보고서의 개인 정보 설정을 변경할 수 있습니다. Microsoft 365 관리  센터의 활동 보고서에서 사용자 수준 세부 정보를 숨기는 [방법 섹션을 참조하세요.](activity-reports.md)  
+조직의 정책으로 인해 사용자 정보를 식별할 수 있는 보고서를 볼 수 없는 경우 이러한 모든 보고서의 개인 정보 설정을 변경할 수 있습니다. 작업 **보고서의** 사용자 수준 세부 정보를 숨기는 방법 섹션을 [Microsoft 365 관리 센터.](activity-reports.md)  

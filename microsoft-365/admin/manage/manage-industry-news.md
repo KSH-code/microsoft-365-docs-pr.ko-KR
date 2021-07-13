@@ -15,16 +15,16 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 사용자에게 업계에 대한 최신 뉴스 헤드라인과 조직의 정보를 제공하고, 뉴스 서비스를 사용하여 조직에 대해 사용자 지정된 뉴스 피드를 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 4282cb71bd5b2847528d651e0ab94b5fe966cedf
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: dedc39d9c82f66d64660f66be8e77ba954246e09
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650039"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392842"
 ---
 # <a name="manage-industry-news"></a>산업 뉴스 관리
 
-사용자에게 업계에 대한 최신 뉴스 헤드라인과 조직의 정보를 제공하려면 뉴스 서비스를 사용하여 조직에 대해 사용자 지정된 뉴스 피드를 사용하도록 설정하세요. 또한 일별 산업 업데이트 전자 메일을 사용하도록 설정하고 새 탭 페이지(Edge Microsoft Edge 87 Bing 시작)에 대한 Bing 및 새 탭 페이지에 대한 설정을 관리할 수도 있습니다. 
+사용자에게 업계에 대한 최신 뉴스 헤드라인과 조직의 정보를 제공하려면 뉴스 서비스를 사용하여 조직에 대해 사용자 지정된 뉴스 피드를 사용하도록 설정하세요. 또한 일별 산업 업데이트 전자 메일을 사용하도록 설정하고 새 탭 페이지에서 Bing 설정을 관리할 Microsoft Edge 있습니다. 
 
 ## <a name="what-your-users-will-see"></a>사용자에게 표시될 것
 
@@ -44,7 +44,7 @@ Bing 홈페이지로 이동하는 로그인한 사용자는 조직의 개인 설
 
 관리자는 선택한 산업 및 Bing 홈페이지, Microsoft Edge 새 탭 페이지(Edge 87 릴리스부터 시작) 및 전자 메일 환경을 포함하여 조직의 뉴스 피드 설정을 제어합니다. 
 
-1. Microsoft 365 관리 센터에서 설정   >  **서비스**  >  **뉴스로**  >  [**이동합니다.**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) 
+1. In the Microsoft 365 관리 센터, go to **설정**  >  **Org settings**  >  **Services**  >  [**News**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
 
 1. 뉴스 **패널에서** 일반 **탭을** 클릭합니다.
 
@@ -60,7 +60,7 @@ Bing 홈페이지로 이동하는 로그인한 사용자는 조직의 개인 설
 
 관련 업계 소식이 있는 일별 전자 메일 업데이트를 사용자의 받은 편지함으로 보낼 수 있습니다. 사용자에 대한 일별 전자 메일 업데이트를 설정하는 경우: 
 
-1. Microsoft 365 관리 센터에서 설정   >  **서비스**  >  **뉴스로**  >  [**이동합니다.**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) 
+1. In the Microsoft 365 관리 센터, go to **설정**  >  **Org settings**  >  **Services**  >  [**News**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
 
 1. 뉴스 **패널에서** 산업 업데이트 **탭을** 클릭합니다. 
 
@@ -72,7 +72,7 @@ Bing 홈페이지로 이동하는 로그인한 사용자는 조직의 개인 설
 
 업계에 대한 소식을 Bing 홈페이지를 사용자 지정할 수 있습니다. 
 
-1. Microsoft 365 관리 센터에서 설정   >  **서비스**  >  **뉴스로**  >  [**이동합니다.**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) 
+1. In the Microsoft 365 관리 센터, go to **설정**  >  **Org settings**  >  **Services**  >  [**News**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
 
 1. 뉴스 **패널에서** Bing  홈 페이지 탭을 클릭하고 홈 페이지 Bing **선택합니다.** 
 
@@ -81,7 +81,7 @@ Bing 홈페이지로 이동하는 로그인한 사용자는 조직의 개인 설
 ## <a name="microsoft-edge-new-tab-page"></a>Microsoft Edge 탭 페이지 추가 
 사용자가 유효한 직장 또는 학교 계정을 사용하여 Microsoft Edge(릴리스 87 이상)에 로그인하면 조직에 맞게 조정된 뉴스를 볼 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 설정   >  **서비스**  >  **뉴스로**  >  [이동합니다.](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews)
+1. In the Microsoft 365 관리 센터, go to **설정**  >  **Org settings**  >  **Services**  >  [News](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews).
 2. 뉴스 **패널에서** 새 **Microsoft Edge 페이지를 클릭합니다.**
 3. 새 **탭 Office 365 콘텐츠 허용을 선택합니다.** 이 기능을 사용하도록 설정하면 사용자가 새 탭을 사용자 지정하여 권장 파일 및 최근 파일을 비롯한 Office 365 사이트 및 기타 정보와 함께 자주 SharePoint 수 있습니다.
 4. 새 탭 페이지에서 회사 정보 및 **산업 뉴스 표시를 선택합니다.** 조직 및 산업에 대한 뉴스 기사는 새 탭에서 문서를 보게 선택하는 사용자에게 표시됩니다.

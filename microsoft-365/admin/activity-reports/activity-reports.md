@@ -20,16 +20,16 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
-ms.openlocfilehash: 66cb3436fe6903c429e3c1950eee040b21c6dc9d
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 89182ddc317bfefdf0e82632bbe8ec8f78f81ada
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809002"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377220"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
-회사의 사용자가 Microsoft 365 서비스를 사용하는 방식을 쉽게 확인할 수 있습니다. 예를 들어 서비스를 많이 사용하여 할당량에 도달하는 사용자나 Microsoft 365 라이선스가 전혀 필요하지 않은 사용자를 파악할 수 있습니다.
+회사의 사용자가 Microsoft 365 서비스를 사용하는 방식을 쉽게 확인할 수 있습니다. 예를 들어 서비스를 많이 사용하여 할당량에 도달하는 사용자나 Microsoft 365 라이선스가 전혀 필요하지 않은 사용자를 파악할 수 있습니다. 영구 라이선스 모델은 보고서에 포함되지 않습니다. 
   
 지난 7일, 30일, 90일 및 180일에 대한 보고서를 사용할 수 있습니다. 모든 보고 기간에 해당하는 데이터가 바로 준비되지는 않습니다. 보고서는 48시간 내에 사용할 수 있습니다.
   

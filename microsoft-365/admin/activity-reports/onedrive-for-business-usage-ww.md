@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MST160
 - MET150
 - MOE150
 description: '조직에서 비즈니스용 OneDrive 총 파일 및 저장소 수를 확인하려면 사용 현황 보고서를 다운로드합니다. '
-ms.openlocfilehash: 20b9ce6aff01942c23c0f8a98234432ea54d5953
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 92dd18c8e8f6ded655ac6f41d1179e96ef81090b
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52242051"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393346"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Microsoft 365 관리 센터의 보고서 - 비즈니스용 OneDrive 사용 현황
 

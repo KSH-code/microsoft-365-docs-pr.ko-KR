@@ -21,18 +21,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - seo-marvel-mar
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: 보호 정책을 통해 관리되는 장치에서 회사 데이터를 제거하고 장치 Windows 10 공장 설정으로 다시 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 0b757172ed337e9b2b68b4fcbdf5b102a8c76710
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 2bb982d0530c47270b0edb230d08b80b5edc2706
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624288"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393422"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>보호된 장치를 사용하여 Microsoft 365 Business Premium
 

@@ -22,13 +22,14 @@ description: 도메인이 무엇일지와 도메인을 구입하거나 비즈니
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
+- AdminTemplateSet
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b69881d72b91bd2cd36255d87444588166458c8c
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 949bce3c287c9b7764562586e28bc031fd0d56b6
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571880"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393118"
 ---
 # <a name="what-is-a-domain"></a>도메인이란 무엇인가요?
 

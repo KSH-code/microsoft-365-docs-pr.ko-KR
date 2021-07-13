@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: 관리자 암호를 다시 설정하려는 경우 관리 센터에서 관리자 전화 번호와 전자 메일 주소를 업데이트합니다.
-ms.openlocfilehash: ab4e200ae680e40dea7ca7cc4d095be0690ad375
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 1335f5ff7a39fab53e6f45f47bec293db5650336
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624516"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391306"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>관리자 전화 번호 및 전자 메일 주소 업데이트
 
@@ -39,7 +41,7 @@ ms.locfileid: "52624516"
 
 보안 **정보 페이지를 사용하여** 휴대폰 번호 및 대체 전자 메일 주소를 변경합니다. 대체 전자 메일 주소는 컴퓨터 관리자 암호가 아닌 관리자 암호 재설정과 같은 중요한 알림에 사용됩니다. 
   
-1. 관리 센터에서 Microsoft 365 찾아볼 수 있습니다.
+1. 검색 창으로 Microsoft 365 관리 센터.
 
 2. 헤더에서 프로필 아이콘 \> **내 계정 보안** 정보 \> **를 선택합니다.**
 

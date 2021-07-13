@@ -22,17 +22,18 @@ ms.custom:
 - seo-marvel-mar
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 중앙 집중식 Windows 제어를 Windows 10 Pro Microsoft 365 Business Premium 실행되는 디바이스를 설정하십시오.
-ms.openlocfilehash: 7a9c75f6ec14605225d40c103c18e62937e773bf
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: a911414b1a7abef259f4c5fffbdd48e07f9ebfdd
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635877"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393362"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>사용자용 Windows 장치 Microsoft 365 Business Premium 설정
 
@@ -46,11 +47,11 @@ Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드
   
 디바이스가 [Azure AD에](#verify-the-device-is-connected-to-azure-ad) 연결되어 있는지 확인을 참조하여 업그레이드가 있는지 확인하거나 업그레이드가 올바르게 진행된지 확인합니다.
 
-## <a name="watch-connect-your-pc-to-microsoft-365-business"></a>시청: 커넥트 PC를 Microsoft 365 Business
+## <a name="watch-connect-your-pc-to-microsoft-365-business"></a>시청: 커넥트 비즈니스에 PC를 Microsoft 365 수 있습니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 장치를 조직의 Azure AD에 연결
 
@@ -130,4 +131,4 @@ Azure AD에 가입된 Windows 10 디바이스가 Windows 10 Business 구독의 �
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 교육용 비디오(링크](../business-video/index.yml) 페이지)
+[Microsoft 365 Business 교육 비디오](../business-video/index.yml)(링크 페이지)

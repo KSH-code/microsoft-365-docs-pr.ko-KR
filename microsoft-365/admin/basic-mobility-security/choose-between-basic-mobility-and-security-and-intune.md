@@ -15,15 +15,16 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 기본 Microsoft 365 있습니다.
-ms.openlocfilehash: 869968fa46e09fbc7a983957a83a9ad308c9f40c
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 3404d2aeecd047fecec573bf1d60407ad3659efe
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228270"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393298"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>기본 이동성 및 보안 또는 Intune 중 선택
 
@@ -35,7 +36,7 @@ ms.locfileid: "53228270"
 
 | 계획 | 기본 모바일 및 보안 | Microsoft Intune |
 |:-----|:-----|:-----|
-|Microsoft 365 앱|예|아니요|
+|Microsoft 365 Apps|예|아니요|
 |Microsoft 365 Business Basic|예|아니요|
 |Microsoft 365 Business Standard|예|아니요|
 |Office 365 E1 |예|아니요|

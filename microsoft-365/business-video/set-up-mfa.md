@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 휴대폰에서 2단계 인증이라고도 하는 다단계 인증을 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 16997961c4bbe405792c40d1f1d93c511e10e740
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 7709585c21b22ee3fece6daec4660cf87faa6819
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705657"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393478"
 ---
-# <a name="set-up-multi-factor-authentication-on-your-phone"></a>휴대폰에서 다단계 인증 설정
+# <a name="set-up-multifactor-authentication-on-your-phone"></a>휴대폰에서 다단계 인증 설정
 
-## <a name="watch-set-up-multi-factor-authentication-with-a-mobile-device"></a>감시: 모바일 장치를 사용하여 다단계 인증 설정
+## <a name="watch-set-up-multifactor-authentication-with-a-mobile-device"></a>감시: 모바일 장치를 사용하여 다단계 인증 설정
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR?autoplay=false]
 

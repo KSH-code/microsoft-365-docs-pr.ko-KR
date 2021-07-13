@@ -22,15 +22,16 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
-description: 각 받는 사람 이름을 입력하지 않고 Microsoft 365 전자 메일을 보낼 수 있도록 Microsoft 365 관리 센터에서 메일 그룹 또는 목록을 만들 수 있습니다.
-ms.openlocfilehash: 845aa04e5e26beb14fca0fa3bc08c0599077b152
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+- AdminTemplateSet
+description: 각 받는 사람 이름을 입력하지 않고도 Microsoft 365 관리 센터 전자 메일을 보낼 수 있도록 메일 그룹 또는 목록을 만들 수 있습니다.
+ms.openlocfilehash: 87b3f375f5e90ec7fc97332abb801d814bf4939b
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635669"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393574"
 ---
-# <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 메일 그룹 만들기
+# <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>메일 그룹에서 Microsoft 365 관리 센터
   
 개별 받는 사람의 이름을 입력하지 않고도 사용자 그룹에 전자 메일을 보내려면 메일 그룹(메일 그룹)이 특정 토론 주체(예: "마케팅")나 자주 통신해야 하는 공통 작업을 공유하는 사용자가 구성합니다. 또한 전자 메일을 여러 전자 메일 주소로 자동으로 전달하는 방법도 제공합니다.
 
@@ -70,12 +71,12 @@ ms.locfileid: "52635669"
     
 6. 메일 그룹에 사용자를 추가하는 경우 메일 그룹에 사용자 또는 [연락처 추가를 참조하세요.](../email/add-user-or-contact-to-distribution-list.md)
     
-Outlook 2016 및 웹 Outlook 그룹에서 그룹을 사용하는 [방법을](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39)Outlook. 
+Outlook 2016 및 에서 웹용 Outlook 그룹(이전의 메일 [그룹)](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39)사용에서 그룹을 사용하는 Outlook. 
   
 메일 그룹 [문제에 대한 도움말은](/office365/troubleshoot/groups/distribution-list-issues) 메일 그룹 문제를 확인해 하세요. 
 
 ## <a name="related-content"></a>관련 콘텐츠
 
 [사용자 전자 메일](../email/office-365-user-email-settings.md) 설정(문서)\
-Microsoft 365 관리 센터에서 보안 [그룹 만들기Microsoft 365](../email/create-edit-or-delete-a-security-group.md) 편집 또는 삭제\
+[보안 그룹에서](../email/create-edit-or-delete-a-security-group.md) 보안 그룹 만들기, 편집 또는 Microsoft 365 관리 센터(문서)\
 [공유 사서함 만들기](../email/create-a-shared-mailbox.md)(문서)

@@ -21,13 +21,14 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 description: 이제 앱을 설정한 Microsoft 365 Mac, PC 또는 모바일 장치에 개별 Office 응용 프로그램을 설치하는 방법을 배워야 합니다.
-ms.openlocfilehash: 47f6a04e8fe42f03de0cd2008f15fd1f6f5617f3
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: dc32009bd42027890457bee97e19cdd94f49c6b7
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593820"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393526"
 ---
 # <a name="install-office-applications"></a>Office 응용 프로그램 설치
 
@@ -47,7 +48,7 @@ ms.locfileid: "52593820"
 
 ::: moniker range="o365-21vianet"
 
-AADP(Azure Active Directory Premium) 플랜 1 또는 플랜 2를 구매한 경우 Microsoft Identity Manager(MIM). 다운로드 MIM 다운로드 [센터로 이동 합니다.](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498)
+AADP(Azure Active Directory Premium) 플랜 1 또는 플랜 2를 구입한 경우 Microsoft Identity Manager(MIM). 다운로드 MIM 다운로드 [센터로 이동 합니다.](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498)
 
 ::: moniker-end
 

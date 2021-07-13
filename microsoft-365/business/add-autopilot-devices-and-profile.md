@@ -19,18 +19,19 @@ ms.custom:
 - OKR_SMB_M365
 - seo-marvel-mar
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: AutoPilot을 사용하여 Windows 사용할 수 있도록 비즈니스용 Windows 10 디바이스를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: e178e7df220e89605502d9ed400265bcd963e57e
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: f160ddcd1e41bd44c908ecc8bbd30a9819f76902
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636109"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393442"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
@@ -79,7 +80,7 @@ AutoPilot을 Windows 사용하여 비즈니스용  새 Windows 10 디바이스�
     
     기본 기능은 필수로 설정되며 자동으로 설정됩니다. 기본 기능은 다음과 같습니다.
     
-    - Cortana, OneDrive 및 OEM 등록을 건너뜁.
+    - 등록 Cortana, OneDrive 및 OEM 등록을 건너뜁.
     
     - 회사 브랜드의 로그인 환경을 만듭니다.
     

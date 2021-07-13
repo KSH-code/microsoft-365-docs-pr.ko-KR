@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Microsoft 365 그룹 구성원은 대화, 파일, 일정 이벤트, Stream 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
-ms.openlocfilehash: 038c4b9f6d9d28e62c0fb9b8f117db96ac42ddfb
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 37bead3ab878aac087c5ec16016dc2c8ddce410c
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903843"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377184"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -61,6 +61,8 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 
 메일 그룹은 Microsoft Teams에서 팀에 추가할 수 있습니다.
 
+Microsoft 365 그룹은 배포 그룹의 구성원일 수 없습니다.
+
 ## <a name="security-groups"></a>보안 그룹
 
 [보안 그룹](../email/create-edit-or-delete-a-security-group.md)은 SharePoint와 같은 Microsoft 365 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다. 각 리소스에 사용자를 개별적으로 추가하는 것이 아니라 그룹을 관리하기만 하면 되므로 관리를 더 쉽게 수행할 수 있습니다.
@@ -70,6 +72,8 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 보안 그룹은 [Azure Active Directory에서 동적 구성원에 대해 구성](/azure/active-directory/users-groups-roles/groups-change-type)할 수 있습니다. 부서, 위치, 제목 등의 사용자 특성이나 운영 체제 버전 등의 장치 속성을 기반으로 그룹 구성원을 자동으로 추가하거나 제거할 수 있습니다.
 
 보안 그룹을 팀에 추가할 수 있습니다.
+
+Microsoft 365 그룹은 보안 그룹의 구성원일 수 없습니다.
 
 ## <a name="mail-enabled-security-groups"></a>메일 사용 가능 보안 그룹
 

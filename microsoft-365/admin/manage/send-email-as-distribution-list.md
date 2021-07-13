@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: 전자 메일을 메일 Microsoft 365 메일 Microsoft 365 메일 목록에서 보낸 것으로 표시될 때 해당 메시지에 응답할 수 있도록 합니다.
-ms.openlocfilehash: eb5ce4a08fae13ee0d2631499a8df1724ef3ef66
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: c77455b5b990a9c35fc7e47ee81cc9ddef4d0a23
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635717"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392518"
 ---
 # <a name="send-email-as-a-distribution-list"></a>메일로 전자 메일 보내기
 
@@ -40,7 +41,7 @@ ms.locfileid: "52635717"
   
 ## <a name="outlook-on-the-web"></a>웹용 Outlook
 
-1. 웹 Outlook 열고 받은 편지함으로 이동하세요. 
+1. 사용자 웹용 Outlook 열고 받은 편지함으로 이동하세요. 
     
 2. 메일로 전송된 메시지를 열 수 있습니다. 
     
@@ -64,6 +65,6 @@ ms.locfileid: "52635717"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-Microsoft 365 관리 센터에서 보안 [그룹 만들기Microsoft 365](../email/create-edit-or-delete-a-security-group.md) 편집 또는 삭제\
+[보안 그룹에서](../email/create-edit-or-delete-a-security-group.md) 보안 그룹 만들기, 편집 또는 Microsoft 365 관리 센터(문서)\
 [전자 메일 공동](../email/email-collaboration.md) 작업(문서)\
 [메일 그룹에](../email/add-user-or-contact-to-distribution-list.md) 사용자 또는 연락처 추가(문서)

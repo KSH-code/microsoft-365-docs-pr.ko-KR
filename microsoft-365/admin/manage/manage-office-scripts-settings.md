@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid: MET150
 description: 조직의 사용자에 대한 Office 스크립트 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: e0cb52c4a8f48ff2310c83ffce61e08a0236ed59
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: fea50838cf1089b73a6af5bbf86d490293831085
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572312"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392674"
 ---
 # <a name="manage-office-scripts-settings"></a>Office 스크립트 설정 관리
 
-[Office 스크립트를](/office/dev/scripts)사용하면 웹용 스크립트에서 스크립트를 기록, 편집 및 실행하여 작업을 Excel 수 있습니다. Office 스크립트는 Power Automate 사용할 수 있으며 사용자는 Excel Online(비즈니스) 커넥터를 사용하여 통합 문서에서 스크립트를 실행합니다. Microsoft 365 관리 센터에서 Office 스크립트 설정을 관리할 Microsoft 365 있습니다.
+[Office 스크립트를](/office/dev/scripts)사용하면 웹용 스크립트에서 스크립트를 기록, 편집 및 실행하여 작업을 Excel 수 있습니다. Office 스크립트는 Power Automate 사용할 수 있으며 사용자는 Excel Online(비즈니스) 커넥터를 사용하여 통합 문서에서 스크립트를 실행합니다. Microsoft 365 관리자가 관리자의 Office 스크립트 설정을 관리할 수 Microsoft 365 관리 센터.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -43,7 +45,7 @@ ms.locfileid: "52572312"
 
 ## <a name="manage-availability-of-office-scripts-and-sharing-of-scripts"></a>스크립트의 가용성 Office 및 스크립트 공유
 
-1. Microsoft 365 관리 센터에서 설정 설정 서비스  \>  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">탭으로</a> 이동합니다.
+1. 이 Microsoft 365 관리 센터 이동하여 설정  \> **서비스** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">탭으로</a> 이동합니다.
 
 2. 스크립트 **Office 선택합니다.**
 
@@ -94,11 +96,11 @@ ms.locfileid: "52572312"
 
 8. **저장** 을 선택합니다.
 
-    스크립트 설정을 변경하는 데 최대 48시간이 Office 수 있습니다.
+    Office 스크립트 설정에 대한 변경 내용을 적용하는 데 최대 48시간이 걸릴 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-Office 스크립트는 Power Automate 때문에 사용자가 스크립트를 사용하는 동안 조직의 데이터가 보호되도록 기존 DLP(데이터 손실 방지) 정책을 검토하는 Office 좋습니다. 자세한 내용은 [DLP(데이터](/power-automate/prevent-data-loss)손실 방지) 정책을 참조하세요.
+Office 스크립트는 Power Automate 때문에 사용자가 스크립트를 사용하는 동안 조직의 데이터가 보호되도록 기존 DLP(데이터 손실 방지) 정책을 검토하는 Office 좋습니다. 자세한 내용은 [DLP(데이터 손실 방지) 정책](/power-automate/prevent-data-loss)을 참조하세요.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

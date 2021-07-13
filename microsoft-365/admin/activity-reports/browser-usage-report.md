@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft 브라우저 사용 현황 보고서를 다운로드하는 Microsoft 365 관리 센터.
-ms.openlocfilehash: f2d8d8347e7b71375958c56f6649fbb911155d46
-ms.sourcegitcommit: b42dd3e706ebf9638cd893b35f75eaa56dd8fd7e
+ms.openlocfilehash: 2f6f287e5a8642d94c9581fc73525b7bfaafb41b
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53125417"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377208"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 브라우저 사용
 
@@ -36,16 +36,6 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요. 
 2. 대시보드 홈 페이지 Microsoft 브라우저  사용 카드에서 더 보기 단추를 클릭합니다.
-
-## <a name="how-to-notify-users-to-upgrade-their-browser"></a>사용자에게 브라우저 업그레이드를 알리는 방법
-
-![Microsoft 브라우저 사용 현황 보고서 작업 흐름](../../media/1ef4eb08-18b8-4dda-aa15-1aad013ecd70.png)
-
-전역 관리자는 에지 레거시(지원되지 않는) 및 Microsoft 365(지원되지 않는) Internet Explorer 사용자에게 메시지를 보내지 못하도록 옵트인(opt in)할 수 있습니다. 이 대상 지정 메시지는 이러한 브라우저에 대한 지원이 곧 종료될 것 같다고 사용자에게 보내며, 이 메시지는 브라우저를 전환하기 위해 따라야 할 간단한 단계와 Microsoft Edge 정보가 있는 지원 문서로 연결됩니다. 
-
-이 기능은 보고서 페이지에서 찾을 수 있습니다. 메시지를 만든 후 2021년 8월 17일까지 지정된 빈도로 사용자에게 알림을 제공합니다. 사용자에게 알림 보내기 중지를 위해 이 기능을 해제할 수 있습니다. 알림을 다시 보내기 시작하고 기능을 다시 켜야 합니다.
-
-자세한 내용은 학습 [Microsoft Edge 도움말을 & 참조하세요.](https://support.microsoft.com/microsoft-edge)
 
 ## <a name="interpret-the-microsoft-browser-usage-report"></a>Microsoft 브라우저 사용 보고서 해석
 

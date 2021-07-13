@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: 하나 또는 여러 개의 메일 그룹을 Microsoft 365 그룹으로 업그레이드하는 방법과 powerShell을 사용하여 여러 메일 Outlook 동시에 업그레이드하는 방법을 배워야 합니다.
-ms.openlocfilehash: d4686e7f2ec305194130b60fbacab24c9cf7f4e9
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: aef797a2bf052fcc84c9220993c2e6706eae5f61
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698943"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391390"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>메일 그룹을 Microsoft 365 그룹으로 Outlook
 
@@ -142,18 +144,17 @@ Get-DistributionGroup| Foreach-Object{
 
 |**속성**|**적합한가요?**|
 |:-----|:-----|
-|On-premises managed distribution list.  <br/> |아니요.  <br/> |
-|중첩된 메일 그룹. 메일 그룹은 하위 그룹을 들이거나 다른 그룹의 구성원입니다.  <br/> |아니요.  <br/> |
-|**UserMailbox, SharedMailbox,** **TeamMailbox,** **MailUser** 외의 구성원이 **RecipientTypeDetails인** 메일 목록  <br/> |아니요.  <br/> |
-|소유자가 100명 이상인 메일 목록  <br/> |아니요.  <br/> |
-|구성원만 있지만 소유자가 없는 메일 목록  <br/> |아니요.  <br/> |
-|특수 문자를 포함하는 별칭이 있는 메일 목록  <br/> |아니요.  <br/> |
-|메일 목록이 공유 사서함의 전달 주소로 구성되어 있는 경우  <br/> |아니요.  <br/> |
-|DL이 다른 DL에서 **보낸** 사람 제한의 일부인 경우  <br/> |아니요.  <br/> |
-|보안 그룹  <br/> |아니요.  <br/> |
-|동적 메일 그룹  <br/> |아니요.  <br/> |
-|**RoomLists로** 변환된 메일 목록  <br/> |아니요.  <br/> |
-|**MemberJoinRestriction** 및/또는 **MemberDepartRestriction이 닫힌** 메일 **목록**  <br/> |아니요.  <br/> |
+|On-premises managed distribution list.  <br/> |아니요  <br/> |
+|중첩된 메일 그룹. 메일 그룹은 하위 그룹을 들이거나 다른 그룹의 구성원입니다.  <br/> |아니요  <br/> |
+|**UserMailbox, SharedMailbox,** **TeamMailbox,** **MailUser** 외의 구성원이 **RecipientTypeDetails인** 메일 목록  <br/> |아니요  <br/> |
+|소유자가 100명 이상인 메일 목록  <br/> |아니요  <br/> |
+|구성원만 있지만 소유자가 없는 메일 목록  <br/> |아니요  <br/> |
+|특수 문자를 포함하는 별칭이 있는 메일 목록  <br/> |아니요  <br/> |
+|메일 목록이 공유 사서함의 전달 주소로 구성되어 있는 경우  <br/> |아니요  <br/> |
+|DL이 다른 DL에서 **보낸** 사람 제한의 일부인 경우  <br/> |아니요  <br/> |
+|보안 그룹  <br/> |아니요  <br/> |
+|동적 메일 그룹  <br/> |아니요  <br/> |
+|**RoomLists로** 변환된 메일 목록  <br/> |아니요  <br/> |
 
 ### <a name="check-which-dls-are-eligible-for-upgrade"></a>업그레이드할 수 있는 DLS 확인
 
@@ -173,7 +174,7 @@ DL이 적합한지 여부를 확인하려는 경우 다음 명령을 실행할 �
 
 - Outlook: 마이그레이션 후 Microsoft 365 그룹 이름을 입력하여 다른 사용자가 Outlook 전자 메일을 보내면 받는 사람이 그룹이 아닌 메일 그룹으로 확인됩니다. 받는 사람의 연락처 카드는 메일 목록 연락처 카드가 됩니다. 이는 캐시에 있는 받는 사람 캐시 또는 nick 이름 캐시 Outlook. 전자 메일이 그룹에 전송되지만 보낸 사람이 혼동을 일으킬 수 있습니다.<br/>이 문서의 단계인 자동 완료 목록에 대한 Outlook 캐시를 다시 설정하여 이 [문제를](/outlook/troubleshoot/contacts/information-about-the-outlook-autocomplete-list) 해결할 수 있습니다.
 
-- 웹 Outlook: 웹 Outlook 메일 목록 받는 사람이 여전히 캐시에 남아 있습니다. 자동 완성 목록에서 [](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) 제안된 이름 또는 전자 메일 주소 제거의 단계에 따라 캐시를 새로 고쳐 그룹 연락처 카드를 볼 수 있습니다.
+- 웹용 Outlook: 메일 웹용 Outlook 경우 메일 목록 받는 사람은 여전히 캐시에 남아 있습니다. 자동 완성 목록에서 [](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) 제안된 이름 또는 전자 메일 주소 제거의 단계에 따라 캐시를 새로 고쳐 그룹 연락처 카드를 볼 수 있습니다.
 
 ### <a name="do-new-group-members-get-a-welcome-email-in-their-inbox"></a>새 그룹 구성원이 받은 편지함에서 환영 전자 메일을 받을 수 있나요?
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용하도록 SharePoint OneDrive.
-ms.openlocfilehash: 67aa69ef8505290b6fde47c4e523a09870312b97
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: 61b6c366f76c25ab0b35df4314f63491be5ce5e6
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53322236"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377232"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
@@ -90,6 +90,12 @@ Mac에서 OneDrive 동기화 버전 19.002.0121.0008 이상을 Windows 버전 19
     이러한 암호화 구성이 있는 레이블의 경우 레이블이 해당 암호화 구성의 사용자에게 웹용 Office. 또한 이러한 암호화 설정이 이미 있는 레이블이 지정되어 있는 문서에는 새 기능을 사용할 수 없습니다. 예를 들어 이러한 문서는 업데이트된 경우에도 검색 결과에 반환되지 않습니다.
 
 - 성능상의 이유로 문서를 업로드하거나 저장하여 SharePoint 파일의 레이블에 암호화가 적용되지 않는 경우  문서 라이브러리의 민감도 열에 레이블 이름을 표시하는 데 시간이 걸릴 수 있습니다. 이 열의 레이블 이름을 사용하는 스크립트 또는 자동화를 사용하는 경우 이 지연을 고려합니다.
+
+- SharePoint 체크 아웃된 동안 문서에 레이블이 지정되어 있는  경우 문서가 체크 인되어 문서에서 다음에 열 때까지 문서 라이브러리의 민감도 열에 레이블 이름이 SharePoint. [](https://support.microsoft.com/office/check-out-check-in-or-discard-changes-to-files-in-a-library-7e2c12a9-a874-4393-9511-1378a700f6de)
+
+- 서비스 사용자 이름을 사용하는 앱 또는 서비스에서 SharePoint 또는 OneDrive 레이블이 지정되고 암호화된 문서를 다운로드한 다음 다른 암호화 설정을 적용하는 레이블을 사용하여 다시 업로드하면 업로드가 실패합니다. 예를 들어 Microsoft Cloud App Security 민감도 레이블을 **기밀에서** 기밀로 또는 기밀에서 일반으로 변경하는  **시나리오를 들 수 있습니다.**
+    
+    앱 또는 서비스가 레이블이 있는 문서에 대한 암호화 제거 섹션에 설명된 따라 [먼저 Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 실행하면 업로드가 [실패하지](#remove-encryption-for-a-labeled-document) 않습니다. 또는 업로드하기 전에 원본 파일이 삭제되거나 파일 이름이 변경됩니다.
 
 - 암호화를 적용하는 민감도 레이블이 있는 문서에 대해 데스크톱 버전의 Office 사용 시나리오에서 암호화된 문서를 열 수 있는 데 지연이 있을 수 있습니다. 사용자가 위치의 SharePoint OneDrive 선택한 다음 해당 문서를 현재 위치에서 열 웹용 Office. 서비스가 여전히 암호화를 처리하고 있는 경우 사용자는 데스크톱 앱에서 문서를 열 수 있어야 하다는 메시지를 볼 수 있습니다. 몇 분 후 다시 시도하면 문서가 웹용 Office.
 

@@ -14,7 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - GEU150
@@ -22,12 +24,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국에서 Office 365, 안정성 및 확장 가능한 클라우드 서비스에 대한 요구 사항을 충족하도록 설계된 21Vianet에서 운영하는 21Vianet에 의해 운영되는 비즈니스에 대해 자세히 알아보아야 합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 75bf7c7a4d7e453fa2be711c7332878b8a8f1150
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: c8d43c385f44434e9ed4832a094ea4909bf505a4
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924722"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393610"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -123,10 +125,10 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 
 |**On-Premises Exchange Version**|**Exchange 하이브리드 서버 버전**|**하이브리드 구성 마법사 지원 여부**|**지원되는 하이브리드 기능**|
 |:-----|:-----|:-----|:-----|
-| 2016  <br/> | 해당 없음  <br/> | 예  <br/> | 모두  <br/> |
-| 2013 CU5  <br/> | 해당 없음  <br/> | 예  <br/> | 모두  <br/> |
-| 2013 SP1  <br/> | 2013 CU5  <br/> | 예  <br/> | 모두  <br/> |
-| 2013 SP1  <br/> | 2013 SP1  <br/> | 예  <br/> | 모두  <br/> |
+| 2016  <br/> | 해당 없음  <br/> | 예  <br/> | 전체  <br/> |
+| 2013 CU5  <br/> | 해당 없음  <br/> | 예  <br/> | 전체  <br/> |
+| 2013 SP1  <br/> | 2013 CU5  <br/> | 예  <br/> | 전체  <br/> |
+| 2013 SP1  <br/> | 2013 SP1  <br/> | 예  <br/> | 전체  <br/> |
 | 혼합 2013 SP1/2010 SP3  <br/> | 2013 CU5  <br/> | 예  <br/> | 전체를 제외한 전체 eDiscovery/Archiving, OWA 액세스(아래 표 참조)  <br/> |
 | 혼합 2013 SP1/2010 SP3  <br/> | 2013 SP1  <br/> | 예  <br/> | 수동으로 구성된 사용 중/사용 중만  <br/> |
 | 2010 SP3  <br/> | 2010 SP3  <br/> | 아니요  <br/> | 없음  <br/> |

@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e41edb6c2d77a69ee3d4fa28ff86e0e77410caa5
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 61166c78f31a86882ef0e2dc2a79683aea794040
+ms.sourcegitcommit: 233989a02a3fc6db33c995ad06b1f820f08f8f0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108298"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53383465"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
@@ -99,7 +99,9 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
 3. 사용자 지정 보안 정책
 4. 기본 보안 정책
 
-즉, **엄격한** 보호 정책의 설정은 표준 보호 정책의 설정을 오버라데이트합니다. 이 정책은 기본 정책의 설정을 정의하는 사용자 지정 정책의 설정을 정의합니다. 
+즉, **엄격한** 보호 정책의 설정은 표준 보호 정책의 설정을 오버라데이트합니다. 이 정책은 기본 정책의 설정을 정의하는 사용자 지정 정책의 설정을 정의합니다.  
+
+예를 들어 **표준** 보호에 보안 설정이 있는 경우 관리자가 사용자에 대해 **표준** 보호를 사용하도록 설정한 경우 표준 보호 설정은 사용자 지정 정책 또는 기본 정책(동일한 사용자)에서 해당 설정에 대해 구성된 설정 대신 적용됩니다.  특정 요구 사항을 충족하기 위해 조직의 다른 사용자에게 사용자 지정  정책을 적용하는 동안 **표준** 또는 엄격한 보호 정책만 적용하려는 조직의 일부가 있을 수 있습니다.
 
 ## <a name="assign-preset-security-policies-to-users"></a>미리 설정한 보안 정책을 사용자에게 할당
 
@@ -132,7 +134,7 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
 
    사용자 또는 그룹의 경우 대부분의 식별자(이름, 표시 이름, 별칭, 전자 메일 주소, 계정 이름 등)를 사용할 수 있지만 해당 표시 이름은 결과에 표시됩니다. 사용자의 경우 별표(\*)만 입력하여 사용 가능한 모든 값을 확인합니다.
 
-   - **이러한 사용자, 그룹** 및 도메인 제외: 정책이 적용되는 내부 받는 사람(받는 사람 예외)에 대한 예외를 추가하려면 이 옵션을 선택하고 예외를 구성합니다. 설정 및 동작은 조건과 정확히 같습니다.
+   - **다음 사용자, 그룹 및 도메인 제외**: 해당 정책의 적용 대상인 내부의 받는 사람에게 예외를 추가하려면(받는 사람 예외) 이 옵션을 선택하고 예외를 구성합니다. 설정 및 동작은 조건과 정확히 같습니다.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 

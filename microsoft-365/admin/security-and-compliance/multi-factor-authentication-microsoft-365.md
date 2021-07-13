@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에 대한 다단계 인증 사용
+title: 사용자에 대한 다단계 Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -23,18 +24,18 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: MFA(다단계 인증)는 강력한 암호와 추가 확인 방법을 모두 사용합니다.
-ms.openlocfilehash: d9af486cf5e53609557b519612f185a20729cf76
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 9b3347f1a8e7b1f62c9bbfe77a7f14c221ef28b5
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924734"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393646"
 ---
-# <a name="multi-factor-authentication-for-microsoft-365"></a>Microsoft 365에 대한 다단계 인증 사용
+# <a name="multifactor-authentication-for-microsoft-365"></a>사용자에 대한 다단계 Microsoft 365
 
 암호는 컴퓨터 또는 온라인 서비스에 로그인을 인증하는 가장 일반적인 방법입지만 가장 취약하기도 합니다. 사용자는 단순한 암호를 선택 하기도 하고 다른 컴퓨터 및 서비스에서 동일한 암호를 사용하기도 합니다.
 
-로그인에 추가 보안 수준을 제공 하려면 다단계 인증(MFA)을 사용해서 암호와 다음을 기반으로 하는 보다 안전한 추가 인증 방법을 사용해야 합니다.
+로그인에 대한 추가 보안 수준을 제공하려면 강력한 암호와 다음을 기반으로 하는 추가 확인 방법을 모두 사용하는 MFA(다단계 인증)를 사용해야 합니다.
 
 - 사용자가 보유한 것 중 스마트폰과 같이 쉽게 복제할 수 없는 장치입니다.
 - 사용자의 지문, 얼굴 또는 기타 생체 인식 특성과 같이 고유하고 생물학적으로 가지고 있는 것입니다.
@@ -176,5 +177,5 @@ Microsoft 365 관리 센터에서 사용자별 및 서비스 MFA 설정을 구�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[다단계 인증 켜기](../../business-video/turn-on-mfa.md)(비디오)\
-[휴대폰의 다단계 인증 켜기](../../business-video/set-up-mfa.md)(비디오)
+[다단계 인증](../../business-video/turn-on-mfa.md) 켜기(비디오)\
+[휴대폰에 다단계](../../business-video/set-up-mfa.md) 인증 켜기(동영상)

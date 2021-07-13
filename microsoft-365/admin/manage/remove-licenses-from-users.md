@@ -18,15 +18,16 @@ ms.custom:
 - okr_smb
 - manage_licenses
 - commerce_licensing
+- AdminTemplateSet
 search.appverid: MET150
 description: 제품 라이선스를 지정하지 않는 데 사용하는 방법은 특정 사용자로부터 라이선스를 지정하지 않는지 또는 특정 제품의 라이선스를 지정하지 않는지 여부에 따라 결정됩니다.
 ms.date: 06/07/2021
-ms.openlocfilehash: 6220ddc15e7b3381da1d78ad3ac4f3c2204bda78
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 8a67d7e690ff07631f696a97d6ed59925bc871df
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256834"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392494"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 

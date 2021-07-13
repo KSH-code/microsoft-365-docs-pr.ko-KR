@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 서비스 관리자와 같은 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
-ms.openlocfilehash: 073e82971906ea817da9971ba737874711dc43d3
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: cc9f5d019864c82e38bdb7bb061f1491d1ad8a11
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177456"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393322"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 

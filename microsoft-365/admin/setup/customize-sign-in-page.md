@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: 사용자 Microsoft 365 로그인 페이지를 사용자 Azure Active Directory. 로그인 페이지에 그림, 로고 및 텍스트를 추가할 수 있습니다.
-ms.openlocfilehash: 6c873409a06d824c7b63f5ea02e178e22337a345
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 1c805e8f37081b2d09e821b24ce2f83816b23e3d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635941"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393550"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>로그인 페이지에 회사 브랜드 추가
 
