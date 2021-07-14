@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6c3664cb2a60a7173e345de4abaddefefea6e2b1
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 608fac50fc65f20a612b80ed151252eb2a0c2e01
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341439"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415556"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -143,16 +143,19 @@ ms.locfileid: "53341439"
 
 ## <a name="additional-ransomware-resources"></a>추가 랜섬웨어 리소스
 
-[휴먼 운영 랜섬웨어 개요](/security/compass/human-operated-ransomware)
+주요 산업 정보:
 
-[랜섬웨어 및 공격으로부터 빠르게 보호](/security/compass/protect-against-ransomware)
+- [휴먼 운영 랜섬웨어 개요](/security/compass/human-operated-ransomware)
 
-[최신 Microsoft 보안 인텔리전스 PDF)](https://www.microsoft.com/securityinsights/) ("랜섬웨어"에 대한 검색)
+- [랜섬웨어 및 공격으로부터 빠르게 보호](/security/compass/protect-against-ransomware)
 
-**랜섬웨어:** Microsoft 365 Defender 포털의 위협 분석 노드에 있는  보습 및 지속적인 위협 보고서
+- [최신 Microsoft 보안 인텔리전스](https://www.microsoft.com/securityinsights/) 보고서(22-24 페이지 참조)
+
+- **랜섬웨어:** Microsoft 365 Defender 포털의 위협 분석 노드에 있는  보행 및 지속적인 위협 보고서(다음 라이선스 요구 [사항 참조)](/microsoft-365/security/defender/prerequisites#licensing-requirements)
 
 Microsoft 365 보호:
 
+- [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어 검색 및 복구에서 파일 OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 - [파일에서 매크로 사용 또는 Office 사용 안 하도록 설정](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 - [EOP 및 Microsoft Defender 보안에 대한 Office 365 설정](recommended-settings-for-eop-and-office365.md)

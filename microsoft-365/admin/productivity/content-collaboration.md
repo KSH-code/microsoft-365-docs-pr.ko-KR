@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 콘텐츠 공동 작업의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: 2921cc738d1325416a0a5a8ab4a8eea9456b3269
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: d403f533fd69ee47fb48907f11d4752985daea1a
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300088"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415626"
 ---
 # <a name="content-collaboration--people-experiences"></a>콘텐츠 공동 작업 - 사람 환경
 
@@ -35,7 +35,7 @@ ms.locfileid: "53300088"
 콘텐츠 공동 작업 인사이트를 시작하려면 조직의 사용자들이 다음에 대한 라이선스를 부여해야 합니다.
 
 - 비즈니스용 OneDrive
-- SharePoint를 입력하세요.
+- SharePoint
 - Exchange Online
 
 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](../manage/assign-licenses-to-users.md)
@@ -137,7 +137,7 @@ Microsoft OneDrive 및 비즈니스용 SharePoint 사용하여 여러 장치 및
         - Numerator: 지난 28일 이내에 OneDrive SharePoint 전자 메일에 파일을 첨부한 사용자 수입니다.
         - 분노: 지난 28일 이내에 Exchange 및 OneDrive, SharePoint 또는 둘 다에 액세스할 수 있는 사용자 수입니다.
       - **온라인 파일에 대한 링크:** 막대의 파랑(색) 부분과 막대의 분수(숫자/분모)는 첨부 파일을 사용하고 전자 메일의 파일에 링크를 첨부하는 비율을 나타내고 있습니다.
-        - Numerator: 지난 28일 이내에 전자 메일에 온라인 파일(OneDrive 또는 SharePoint)에 링크를 첨부하는 사용자 수입니다.
+        - Numerator: 지난 28일 이내에 온라인 파일에 링크를 첨부한 사용자 수입니다.
         - 분모: 지난 28일 이내에 Exchange 및 OneDrive, SharePoint 또는 둘 다에 액세스할 수 있는 사용자 수입니다.
 4. **리소스 링크:** 도움말 콘텐츠를 확인하려면 이 링크를 선택합니다.
 

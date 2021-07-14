@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: 57db724fe8938d0e258dd1df58fe5016d5e8d2c7
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 41ead8bf4532503cb47623f65a82ca36a616091e
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229230"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409167"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b9a9a6381c93e2d252f75710adc206868c0a5546
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: adb65c82713464da2df4d473d2fd7a055e0dbeb3
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229914"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415581"
 ---
 # <a name="microsoft-365-defender-integration-with-azure-sentinel"></a>Microsoft 365 Defender와 Azure Sentinel 통합
 
@@ -40,7 +40,7 @@ Azure Sentinel용 Microsoft 365 Defender 커넥터(미리 보기)는 모든 Micr
 
 커넥터를 추가하고 나면 Endpoint용 Microsoft Defender, ID용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft Cloud App Security에서 받은 모든 관련 경고, 엔터티 및 관련 정보가 포함된 인시던트가 Azure &mdash; Sentinel에 SIEM(보안 정보 및 이벤트 관리) 데이터로 스트리밍되어 Azure Sentinel을 통해 평가 및 인시던트 대응을 수행할 수 있는 컨텍스트를 &mdash; 제공합니다. Microsoft 365 Defender 
 
-Azure Sentinel에서 인시던트는 Microsoft 365 Defender 양방향으로 동기화된 상태로 유지되므로 인시던트 조사 및 대응을 위해 Azure Portal에서 Microsoft 365 보안 센터 및 Azure Sentinel의 이점을 활용할 수 있습니다.
+Azure Sentinel에서 인시던트는 Microsoft 365 Defender 양방향으로 동기화된 상태로 유지되므로 인시던트 조사 및 대응을 위해 Azure Portal에서 Microsoft 365 Defender 포털 및 Azure Sentinel의 이점을 활용할 수 있습니다.
 
 Azure Sentinel과 Azure Sentinel의 통합에 대한 이 Microsoft 365 Defender(4분)를 시청하세요.
 

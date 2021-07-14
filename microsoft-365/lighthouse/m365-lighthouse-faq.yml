@@ -17,12 +17,12 @@ metadata:
   - M365-Lighthouse
   search.appverid: MET150
   description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 서비스 공급자에 대한 FAQ(질문과 대답)를 Microsoft 365 Lighthouse.
-  ms.openlocfilehash: 05ed433a5f7afb6418cab77c99a401351f3a5565
-  ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+  ms.openlocfilehash: 5f15453f21ef48fcc1f8266d9474fc0cbc4190c2
+  ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/12/2021
-  ms.locfileid: "53395267"
+  ms.lasthandoff: 07/13/2021
+  ms.locfileid: "53415540"
 title: Microsoft 365 Lighthouse 질문과 대답(FAQ)
 summary: >
   > [!NOTE]
@@ -49,6 +49,12 @@ sections:
   - question: 이 기능을 사용하기 위한 요구 사항은 Microsoft 365 Lighthouse?
     answer: >
       현재 요구 사항 목록은 요구 사항을 [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+  - question: 어떤 국가 및 지역을 사용할 Microsoft 365 Lighthouse 있나요?
+    answer: >
+      Microsoft 365 Lighthouse 국가는 중국 및 팔레스타인 자치 정부를 제외한 Microsoft 365 있는 모든 국가에서 사용할 수 있습니다. 그러나 장치 Microsoft 365 Lighthouse 및 위협 관리와 같은 Microsoft Intune 기능은 Azure Active Directory(Azure AD)를 사용하며, Intune 및 Azure AD는 특정 국가 및 지역에서는 사용할 수 없습니다. Azure AD 및 Intune 가용성의 Microsoft 365 목록은 국제 [가용성을 참조하세요.](https://www.microsoft.com/microsoft-365/business/international-availability)
+
+
+      Microsoft 365 Lighthouse 클라우드에서는 사용할 수 없습니다.
   - question: 등록을 위해 등록하는 Microsoft 365 Lighthouse?
     answer: >
       등록을 Microsoft 365 Lighthouse CSP 프로그램에 등록해야 합니다. 현재 간접 공급자를 지원할 수 없습니다. 등록 방법에 대한 [Microsoft 365 Lighthouse](m365-lighthouse-sign-up.md)지침은 등록을 참조하세요. CSP 프로그램에 대한 자세한 내용은 클라우드 솔루션 공급자 [프로그램 개요를 참조하세요.](/partner-center/csp-overview)

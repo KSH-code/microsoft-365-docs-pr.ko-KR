@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 08fe4314c1461710d83ea7aeba1fdf9a60dd33a8
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: ff4c44199e4b6f8f1b3ca4806908813d7e710e4b
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339241"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415614"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -222,6 +222,12 @@ Endpoint용 Defender는 통합된 System Center Endpoint Protection. 통합을 �
 ## <a name="offboard-windows-servers"></a>서버 Windows 오프보드
 
 SAC(Windows Server), Windows Server 2019 및 Windows Server 2019 Core Edition은 클라이언트 장치에서 사용할 수 있는 동일한 방법으로 Windows 10 있습니다.
+
+- [그룹 정책을 사용하여 오프보더](configure-endpoints-gp.md#offboard-devices-using-group-policy)
+- [Configuration Manager를 사용하여 디바이스 오프보드](configure-endpoints-sccm.md#offboard-devices-using-configuration-manager)
+- [모바일 장치 관리 도구를 사용하여 장치 오프보드 및 모니터링](configure-endpoints-mdm.md#offboard-and-monitor-devices-using-mobile-device-management-tools)
+- [로컬 스크립트를 사용하여 디바이스 오프보딩](configure-endpoints-script.md#offboard-devices-using-a-local-script)
+
 
 다른 Windows 서버 버전의 경우 서비스에서 서버 Windows 오프보드할 수 있는 두 가지 옵션이 있습니다.
 
