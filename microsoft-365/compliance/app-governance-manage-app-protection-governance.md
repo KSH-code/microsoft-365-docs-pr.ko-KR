@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 애플리케이션 거버넌스 기능을 구현하여 애플리케이션을 관리합니다.
-ms.openlocfilehash: bc8c739132de52abb69c15479cd851462e9f6ce7
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 63bd6684bc041c3c82ba6b8ddcc28c2600182b26
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420312"
+ms.locfileid: "53430699"
 ---
 # <a name="app-governance-add-on-to-microsoft-cloud-app-security-in-preview"></a>Microsoft Cloud App Security에 대한 애플리케이션 거버넌스 추가 항목(미리 보기)
 
@@ -53,7 +53,7 @@ Microsoft allows developers to build cloud applications using Azure Active Direc
 
 ## <a name="a-first-glimpse-at-app-governance"></a>애플리케이션 거버넌스를 한눈에 확인
 
-애플리케이션 거버넌스 대시보드를 보려면 [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance)(으)로 이동하세요. 앱 거버넌스 데이터를 보려면 로그인 계정에 [ 관리자 역할 ](app-governance-get-started.md#administrator-roles) 중 하나가 있어야 합니다.
+애플리케이션 거버넌스 대시보드를 보려면 [https://aka.ms/appgovernance](https://aka.ms/appgovernance)(으)로 이동하세요. 앱 거버넌스 데이터를 보려면 로그인 계정에 [ 관리자 역할 ](app-governance-get-started.md#administrator-roles) 중 하나가 있어야 합니다.
 
 ## <a name="app-governance-integration-with-azure-ad-and-microsoft-cloud-app-security"></a>애플리케이션 거버넌스를 Azure AD 및 Microsoft Cloud App Security와 통합합니다.
 
@@ -63,7 +63,7 @@ Microsoft allows developers to build cloud applications using Azure Active Direc
 - Azure AD는 앱 로그인에 대한 기본 앱 메타데이터와 세부 정보를 제공합니다.
 - Microsoft Cloud App Security는 앱 위험 정보를 제공합니다.
 
-애플리케이션 거버넌스, Azure AD 및 Microsoft Cloud App Security 전반에서 정보를 공유하면 한 포털에 집계 정보를 표시하고 다른 포털에 연결하여 자세한 정보를 확인할 수 있습니다. 다음은 몇 가지 예입니다.
+앱 거버넌스, Azure AD 및 Microsoft Cloud App Security 전반에서 정보를 공유하면 한 포털에 집계 정보를 표시하고 다른 포털에 연결하여 자세한 정보를 확인할 수 있습니다. 다음은 몇 가지 예입니다.
 
 - 애플리케이션 거버넌스의 애플리케이션 로그인 정보:
 

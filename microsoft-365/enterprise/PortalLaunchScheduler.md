@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: a0ba40849b47af93f45bcc9c77f2ba6d8f715dc5
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: dd2b6bdabae5f4d24882912709d6f16a637a9721
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229554"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430423"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
@@ -117,9 +117,8 @@ ms.locfileid: "53229554"
 
     > [!NOTE]
     > 전체 시작에 최대 50개의 고유한 사용자 또는 보안 그룹을 사용할 수 있습니다. 각 시작은 서로 독립적이기 때문에 다른 포털에서 실행을 예약하는 경우 해당 시작에 최대 50명 사용자/보안 그룹을 사용할 수 있습니다. 또한 웨이브당 최대 20개의 고유한 사용자 또는 보안 그룹을 사용할 수 있습니다. 
-
->포털 시작 스케줄러는 보안 그룹 및 메일 사용이 가능한 보안 그룹을 지원합니다. 
-
+    >
+    > 포털 시작 스케줄러는 보안 그룹 및 메일 사용이 가능한 보안 그룹을 지원합니다. 
 
 8. 포털 시작 세부 정보를 확인하고 일정 을 **선택합니다.** 시작이 예약된 후 SharePoint 포털 홈 페이지에 대한 모든 변경 내용은 포털 시작이 다시 시작되기 전에 정상 진단 결과를 수신해야 합니다.
 
@@ -127,7 +126,14 @@ ms.locfileid: "53229554"
 
 사용자가 10만 명 이상인 포털을 시작해야 하는 경우 아래 나열된 단계에 따라 지원 요청을 제출합니다. 요청된 모든 정보를 포함해야 합니다.
 
-**아래 단계를 수행하세요.**
+> [!NOTE]
+>
+> - 이 프로세스는 다음 요구 사항을 충족하는 경우만 따라야 합니다.
+> - 시작 페이지가 완료되었습니다.
+> - [포털 상태 지침이](https://aka.ms/portalhealth) 따랐습니다.
+> - 시작 날짜는 14일 이내입니다.
+
+**다음 단계를 따릅니다:**
 
 1. <https://admin.microsoft.com>으로 이동합니다.
 2. 새 관리 센터 미리 보기를 사용하고 있는지 확인
@@ -160,7 +166,7 @@ ms.locfileid: "53229554"
 
 2. 그런 다음 **삭제를** 선택하고 아래 메시지가 표시되면 다시 **삭제를** 선택합니다.
 
-   ![포털 시작 스케줄러 도구의 이미지](../media/portal-launch-delete-2.png)
+   ![예약된 실행을 삭제할지 또는 유지할지 묻는 프롬프트 이미지](../media/portal-launch-delete-2.png)
 
 ## <a name="use-the-powershell-portal-launch-scheduler"></a>PowerShell 포털 시작 스케줄러 사용
 
@@ -270,7 +276,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
 
 2. 모든 사용자에 대해 리디렉션이 진행되지 않은지 유효성을 검사합니다.
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [SharePoint Online에서 포털 시작 롤아웃 계획](./planportallaunchroll-out.md)
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0b0f7c5a4a75fdc80509dbc02a43d28f7c93fd7c
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 801d94eb769c6b738a1d4c011b67f8a2a7cf81f1
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327050"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430807"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -39,6 +39,13 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 |GPO 지원    |   예      |
 |사용자 기반 지원     |   예      |
 |컴퓨터 기반 지원    |    예     |
+
+## <a name="licensing"></a>라이선싱
+
+이동식 액세스 제어를 시작하기 전에 Storage [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) 이동식 액세스 Storage 액세스 제어에 액세스하고 사용하려면 다음이 있어야 합니다.
+
+- Microsoft 365 E3/정책 배포에 대한 자세한 정보
+- Microsoft 365 E5 사용할 수 있습니다.
 
 ## <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
@@ -272,8 +279,6 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
       ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b9b28fae8-72f7-4267-a1a5-685f747a7146%7d/GroupData
 
     - 데이터 형식: 문자열(XML 파일)
-    
-      :::image type="content" source="images/xml-data-type-string.png" alt-text="STRING 데이터 형식의 xml 파일":::
 
 2. 각 정책에 대해 OMA-URI도 생성합니다.
 
@@ -287,7 +292,6 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 
     - 데이터 형식: 문자열(XML 파일)
 
-      :::image type="content" source="images/xml-data-type-string-2.png" lightbox="images/xml-data-type-string-2.png" alt-text="STRING 데이터 형식에 대한 XML 파일 표시":::
 
 ## <a name="deploying-and-managing-policy-by-using-intune-user-interface"></a>Intune 사용자 인터페이스를 사용하여 정책 배포 및 관리
 
@@ -323,7 +327,7 @@ DeviceEvents
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면":::
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?**
 

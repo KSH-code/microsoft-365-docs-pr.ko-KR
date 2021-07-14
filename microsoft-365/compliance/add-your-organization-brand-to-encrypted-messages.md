@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: 전역 Office 365 조직의 브랜드를 암호화 포털의 콘텐츠와 함께 암호화된 전자 메일 메시지에 적용하는 & 방법을 알아보겠습니다.
-ms.openlocfilehash: 2898e12ad00d11cd9eb2f3be5d817ef113607e79
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+ms.openlocfilehash: 95320e9f268f19cedd993efe4fa0e68fd75af125
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51394716"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430735"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 메시지 암호화 암호화 Microsoft 365 조직 브랜드 추가
 
@@ -153,9 +153,12 @@ ms.locfileid: "51394716"
 
 ## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>암호화된 Exchange 사용자 지정 브랜더를 적용하는 메일 흐름 규칙 만들기
 
+> [!IMPORTANT]
+> 메일을 검색하고 수정하는 타사 응용 프로그램을 통해 OME 브랜드가 올바르게 적용되지 않을 수 있습니다.
+
 기본 템플릿을 수정하거나 새 브랜더링 템플릿을 만든 후 특정 조건에 Exchange 사용자 지정 브랜더링을 적용하는 메일 흐름 규칙을 만들 수 있습니다. 이러한 규칙은 다음과 같은 시나리오에서 사용자 지정 브랜드를 적용합니다.
 
-- 최종 사용자가 웹에서 Outlook 또는 Outlook 전자 메일을 수동으로 암호화한 경우 Outlook Web App
+- 전자 메일이 이전의 Outlook 또는 웹용 Outlook 사용자가 수동으로 암호화한 Outlook Web App
 
 - 전자 메일이 Exchange 메일 흐름 규칙 또는 데이터 손실 방지 정책에 의해 자동으로 암호화된 경우
 
@@ -165,7 +168,7 @@ ms.locfileid: "51394716"
 
 2. 관리 **타일을** 선택하세요.
 
-3. in the Microsoft 365 admin center, choose **Admin centers** \> **Exchange.**
+3. In the Microsoft 365 관리 센터, choose **Admin centers** \> **Exchange.**
 
 4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
 

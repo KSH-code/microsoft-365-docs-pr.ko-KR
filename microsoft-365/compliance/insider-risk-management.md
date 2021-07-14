@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 0dae2d65e88c8a5ad4bc6c39e8ea540f55d0f822
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: e033142567c0eb33987cae6d840abf5f6422365e
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326750"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430603"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>내부자 위험 관리에 대해 Microsoft 365
 
@@ -29,7 +29,13 @@ ms.locfileid: "53326750"
 아래 비디오를 시청하여 내부자 위험 관리가 조직에서 조직의 가치, 문화 및 사용자 환경의 우선 순위를 지정하는 동안 위험을 방지, 감지 및 포함하는 데 어떻게 도움이 되는지 알아보세요.
 <br>
 <br>
+
+**내부자 위험 관리 솔루션 & 개발**:
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4j9CN]
+<br>
+
+**내부자 위험 관리 워크플로**:
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OUXB]
 
 ## <a name="modern-risk-pain-points"></a>최신 위험의 고민 지점
 

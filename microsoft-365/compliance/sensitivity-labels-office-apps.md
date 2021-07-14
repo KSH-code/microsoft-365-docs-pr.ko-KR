@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1cdfe9d106a55cef79a63b42b47f28b2d9bb9c53
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 2484aed7dd5f70a92b1199f472c983848326db7c
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228594"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430759"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -361,6 +361,8 @@ ${If.App.<application type>}<your visual markings text> ${If.End}
 > [Azure Information Protection 통합 레이블 지정 클라이언트](/azure/information-protection/rms-client/install-unifiedlabelingclient-app)는 필수 레이블 지정이라고도 하는 이 구성을 지원합니다. Office 앱에 기본 제공되는 레이블을 지정하는 경우 최소 버전은 이 페이지의 [기능](#support-for-sensitivity-label-capabilities-in-apps) 섹션의 표를 참조하세요.
 >
 > 문서에는 필수 레이블을 사용하지만 전자 메일은 사용하지 않았다면 다음 섹션에서 Outlook 관련 옵션을 구성하는 방법을 설명하는 지침을 참조하세요.
+> 
+> Power BI 필수 레이블 지정을 사용하려면 [Power BI 필수 레이블 정책](/power-bi/admin/service-security-sensitivity-label-mandatory-label-policy)을 참조하세요.
 
 **사용자가 전자 메일 및 문서에 레이블을 적용해야 함** 정책 설정을 선택하면 정책이 할당된 사용자는 다음 시나리오에서 민감도 레이블을 선택하고 적용해야 합니다.
 

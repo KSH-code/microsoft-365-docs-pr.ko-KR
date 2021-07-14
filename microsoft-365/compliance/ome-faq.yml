@@ -16,17 +16,17 @@ metadata:
   ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
   description: 새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요.
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 9a64866f7956e9b18b9e25c57431bf0855148ec8
-  ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+  ms.openlocfilehash: 386f37e2e6ebff820f4f6385281783daf41243b2
+  ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/16/2021
-  ms.locfileid: "51876773"
+  ms.lasthandoff: 07/14/2021
+  ms.locfileid: "53430447"
 title: 메시지 암호화 FAQ
 summary: >
   새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요. 또한 Azure Information [Protection의](/information-protection/get-started/faqs-rms) 데이터 보호 서비스인 Azure Rights Management에 대한 질문과 대답은 Azure Information Protection의 데이터 보호에 대한 질문과 대답을 살펴보아야 합니다.
 sections:
-- name: Ignored
+- name: 무시됨
   questions:
   - question: OME(Office 365 메시지 암호화란?
     answer: OME는 전자 메일 암호화 및 권한 관리 기능을 결합합니다. 권한 관리 기능은 Azure Information Protection을 통해 지원됩니다.
@@ -44,7 +44,7 @@ sections:
     answer: "아니요. OME 및 Azure Information Protection에서 BYOK라는 자체 암호화 키를 제공하고 제어하는 옵션은 사법 기관 소속에 응답하도록 설계되지 않습니다. Azure Information Protection용 BYOK를 사용하여 OME는 규정 준수 중심 고객을 위해 고안된 것입니다. Microsoft는 고객 데이터에 대한 타사 요청을 심각하게 처리합니다. 클라우드 서비스 공급자는 항상 고객 데이터의 개인 정보 보호를 지지합니다. 소계를 받을 경우 당사는 제3자에 대한 정보를 얻기 위해 고객에게 리디렉션을 시도합니다. (Brad Smith의 블로그: 정부 스누프로부터 고객 데이터 [보호)를 읽어 읽습니다.](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) 당사는 수신하는 요청에 대한 자세한 정보를 주기적으로 게시합니다. 타사 데이터 요청에 대한 자세한 내용은 [](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) Microsoft 보안 센터에서 고객 데이터에 액세스하기 위한 정부 및 사법 기관 요청에 응답을 참조하세요. 또한 온라인 서비스 약관(OST)의 \"고객 데이터 [공개\"를 참조하세요.](https://www.microsoft.com/Licensing/product-licensing/products.aspx)\n  \n"
   - question: >
       이 기능은 OME(레거시 Office 365 메시지 암호화) 및 IRM(정보 권한 관리) 기능과 어떻게 관련이 있나요?
-    answer: "새로운 기능 Office 365 메시지 암호화 IRM 및 레거시 OME 솔루션의 발전된 기능입니다. 다음 표에서는 자세한 내용을 제공합니다.\n  \n**레거시 OME, IRM 및 새로운 OME 기능 비교**\n\n| 기능 | 이전 버전의 OME | IRM | 새로운 OME 기능 |\n|:-----|:-----|:-----|:-----|\n|**암호화된 전자 메일 보내기**|메일 Exchange 규칙을 통해서만|웹용 Outlook, Windows Outlook 또는 웹용 Outlook 최종 사용자 또는 메일 Exchange 규칙을 통해|웹용 Outlook, Windows Outlook 또는 웹용 Outlook 최종 사용자 또는 메일 흐름 규칙을 통해|\n|**권한 관리**|-|전달하지 않는 옵션 및 사용자 지정 서식 파일|전달하지 않는 옵션, 암호화 전용 옵션, 기본 서식 파일 및 사용자 지정 서식 파일|\n|**지원되는 받는 사람 유형**|외부 받는 사람만|내부 받는 사람만|내부 및 외부 받는 사람|\n|**받는 사람에 대한 환경**|외부 받는 사람은 브라우저 또는 다운로드한 모바일 앱에서 다운로드하여 열었다는 HTML 메시지를 수신했습니다.|내부 받는 사람은 Outlook, Windows, Outlook 및 웹용 Outlook 암호화된 전자 메일만 수신했습니다.|내부 및 외부 받는 사람은 Outlook, Windows, Outlook for Mac, Outlook 웹용, Outlook android, iOS용 Outlook 또는 웹 포털을 통해 동일한 조직에 있는지 여부에 관계없이 전자 메일을 받게 됩니다. OME 포털은 별도의 다운로드가 필요 없습니다.|\n|**키 지원 가져오기**|사용할 수 없음|사용할 수 없음| BYOK 지원|\n"
+    answer: "새로운 기능 Office 365 메시지 암호화 IRM 및 레거시 OME 솔루션의 발전된 기능입니다. 다음 표에서는 자세한 내용을 제공합니다.\n  \n**레거시 OME, IRM 및 새로운 OME 기능 비교**\n\n| 기능 | 이전 버전의 OME | IRM | 새로운 OME 기능 |\n|:-----|:-----|:-----|:-----|\n|**암호화된 전자 메일 보내기**|메일 Exchange 규칙을 통해서만|Outlook, mac용 Windows Outlook 또는 웹용 Outlook; 또는 메일 Exchange 규칙을 통해|Outlook, mac용 Windows Outlook 또는 웹용 Outlook; 또는 메일 흐름 규칙을 통해|\n|**권한 관리**|-|전달하지 않는 옵션 및 사용자 지정 서식 파일|전달하지 않는 옵션, 암호화 전용 옵션, 기본 서식 파일 및 사용자 지정 서식 파일|\n|**지원되는 받는 사람 유형**|외부 받는 사람만|내부 받는 사람만|내부 및 외부 받는 사람|\n|**받는 사람에 대한 환경**|외부 받는 사람은 브라우저 또는 다운로드한 모바일 앱에서 다운로드하여 열었다는 HTML 메시지를 수신했습니다.|내부 받는 사람은 Outlook, mac용 Windows Outlook 및 웹용 Outlook 암호화된 전자 메일만 웹용 Outlook.|내부 및 외부 받는 사람은 Outlook, Windows, mac용Outlook, 웹용 Outlook, android용 Outlook 및 iOS용 Outlook 또는 웹 포털을 통해 동일한 조직에 있는지 여부에 관계없이 전자 메일을 받게 됩니다. OME 포털은 별도의 다운로드가 필요 없습니다.|\n|**키 지원 가져오기**|사용할 수 없음|사용할 수 없음| BYOK 지원|\n"
   - question: >
       조직에서 새 OME 기능을 사용하도록 설정하려면 어떻게 해야 합니까?
     answer: "자세한 [내용은 Set up new Office 365 메시지 암호화 capabilities을 참조합니다.](set-up-new-message-encryption-capabilities.md)\n  \n"
@@ -60,15 +60,15 @@ sections:
     answer: "사내 사용자는 메일 흐름 규칙을 사용하여 암호화된 Exchange Online 수 있습니다. 이렇게하려면 전자 메일을 전자 메일을 라우팅해야 Exchange Online. 자세한 내용은 [2부: 전자](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)메일 서버에서 메일 서버로 흐르도록 메일 구성을 Microsoft 365.\n  \n"
   - question: >
       OME 암호화된 메시지를 만들기 위해 어떤 전자 메일 클라이언트를 사용해야 하나요? 보호된 메시지를 보내는 데 지원되는 응용 프로그램은 무엇입니까?
-    answer: "Outlook 2016, Outlook 및 Mac용 Windows 및 웹용 Outlook 보호된 메시지를 만들 수 있습니다. 암호화된 메시지를 보내는 데 대한 자세한 내용은 PC용 에서 암호화된 메시지 보내기, 보기 [및 회신을 Outlook 참조하세요.](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-us&rs=en-us&ad=us)\n  \n"
+    answer: "Outlook 2016, Outlook 2013 for Windows 및 2013에서 보호된 메시지를 만들 수 웹용 Outlook. 암호화된 메시지를 보내는 데 대한 자세한 내용은 PC용 에서 암호화된 메시지 보내기, 보기 [및 회신을 Outlook 참조하세요.](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-us&rs=en-us&ad=us)\n  \n"
   - question: >
       보호된 전자 메일을 읽고 회신할 수 있는 전자 메일 클라이언트는 무엇입니까?
     answer: >
-      Microsoft 365 사용자는 Outlook Windows 및 Mac(2013 및 2016), Outlook 및 모바일(Android 및 iOS)에 대한 Outlook 읽고 응답할 수 있습니다. 조직에서 허용하는 경우 iOS 네이티브 메일 클라이언트를 사용할 수도 있습니다. 사용자가 아닌 Microsoft 365 웹 브라우저를 통해 웹에서 암호화된 메시지를 읽고 회신할 수 있습니다.
+      Microsoft 365 사용자는 Outlook 및 Mac(Windows 2013 및 2016), 웹용 Outlook 및 Outlook 모바일(Android 및 iOS)을 읽고 응답할 수 있습니다. 조직에서 허용하는 경우 iOS 네이티브 메일 클라이언트를 사용할 수도 있습니다. 사용자가 아닌 Microsoft 365 웹 브라우저를 통해 웹에서 암호화된 메시지를 읽고 회신할 수 있습니다.
   - question: >
       암호화 전용 전자 메일을 지원하는 전자 메일 클라이언트는 무엇입니까?
     answer: >
-      Microsoft 365 2019 및 Outlook 및 Microsoft 365 정책을 사용하여 보호된 메일을 만들 수 있습니다.  즉, 새 암호화 전용 정책이 적용된 메시지는 웹용 Outlook, iOS 및 Android용 Outlook 및 PC Outlook 버전에서 직접 읽을 수 Microsoft 365.
+      Microsoft 365 2019 및 Outlook 및 Microsoft 365 정책을 사용하여 보호된 메일을 만들 수 있습니다.  즉, 새 암호화 전용 정책이 적용된 메시지는 iOS 및 Android용 웹용 Outlook Outlook 및 PC 버전 2019 및 Outlook 버전에서 직접 읽을 수 Microsoft 365.
   - question: >
       OME를 사용하여 보낼 수 있는 메시지의 크기 제한이 있나요?
     answer: >
@@ -82,7 +82,7 @@ sections:
       그 대답은 예입니다. 사용하도록 설정한 경우 PDF 암호화를 사용하면 보안 통신 또는 보안 공동 작업을 통해 중요한 PDF 문서를 보호할 수 있습니다. 전자 메일을 보내면 Office 365 파일을 암호화합니다. 클라이언트 Outlook PDF 첨부 파일을 암호화하지 않습니다.
 
 
-      웹 Outlook, iOS용 Outlook 및 Android용 Outlook 경우 더 이상 단계 없이 보내는 PDF를 암호화할 수 있습니다. 이러한 클라이언트는 기본적으로 PDF 암호화를 지원합니다.
+      iOS용 웹용 Outlook, Outlook 및 Android용 Outlook 경우 더 이상 단계 없이 보내는 PDF를 암호화할 수 있습니다. 이러한 클라이언트는 기본적으로 PDF 암호화를 지원합니다.
 
 
       Outlook 데스크톱에서는 기본적으로 PDF 첨부 파일의 암호화를 지원하지 않습니다. 대신 PDF 첨부 파일에 암호화를 Exchange 메일 흐름 규칙 또는 DLP를 설정해야 합니다. 데스크톱에서 PDF 첨부 Outlook 메일을 보낼 때 클라이언트는 첨부 파일이 있는 메시지를 먼저 서비스에 전송합니다. 서비스가 파일을 받으면 서비스에서 DLP(데이터 손실 방지) 정책 또는 메일 흐름 규칙의 OME 보호를 Exchange Online. 다음으로 Exchange Online 첨부 파일이 있는 메시지를 전송합니다.
@@ -98,7 +98,7 @@ sections:
       ```
 
 
-      PDF 암호화를 사용하면 보안 통신 또는 보안 공동 작업을 통해 중요한 PDF 문서를 보호할 수 있습니다. 모든 Outlook 클라이언트의 경우 메시지와 보호되지 않은 PDF 첨부 파일은 데이터 손실 방지(DLP) 정책 또는 메일 흐름 규칙의 OME 보호를 Exchange Online. 또한 웹 Outlook 보호되지 않은 PDF 문서를 첨부하고 메시지에 보호를 적용하는 경우 메시지는 메시지 보호를 상속합니다. 사용자는 보호된 PC를 지원하는 응용 프로그램(예: OME 포털 및 Azure Information Protection 뷰어)에서만 암호화된 첨부 파일을 열 수 있습니다.
+      PDF 암호화를 사용하면 보안 통신 또는 보안 공동 작업을 통해 중요한 PDF 문서를 보호할 수 있습니다. 모든 Outlook 클라이언트의 경우 메시지와 보호되지 않은 PDF 첨부 파일은 데이터 손실 방지(DLP) 정책 또는 메일 흐름 규칙의 OME 보호를 Exchange Online. 또한 보호되지 웹용 Outlook PDF 문서를 첨부하고 메시지에 보호를 적용하는 경우 메시지는 메시지 보호를 상속합니다. 사용자는 보호된 PC를 지원하는 응용 프로그램(예: OME 포털 및 Azure Information Protection 뷰어)에서만 암호화된 첨부 파일을 열 수 있습니다.
 
 
       > [!IMPORTANT]
@@ -110,22 +110,22 @@ sections:
       Not yet. 비즈니스용 OneDrive 지원되지 않는 경우 최종 사용자는 클라우드 서버가 포함된 메일을 암호화할 비즈니스용 OneDrive 없습니다.
   - question: >
       보호된 전자 메일에서 암호화된 첨부 파일 미리 보기를 지원하는 전자 메일 클라이언트는 무엇입니까?
-    answer: "첨부 파일이 보호된 메일로 보호되는 Outlook 클라이언트는 문서를 직접 미리 볼 수 있는 기능을 제공합니다. Outlook Office 문서(docx, xlsx, pptx, doc, xls, ppt)의 미리 보기를 지원할 수 있습니다. Outlook 웹에서는 Office 문서(docx, xlsx, pptx) 및 PDF의 미리 보기가 지원됩니다.  \n"
+    answer: "첨부 파일이 보호된 메일로 보호되는 Outlook 클라이언트는 문서를 직접 미리 볼 수 있는 기능을 제공합니다. Outlook Office 문서(docx, xlsx, pptx, doc, xls, ppt)의 미리 보기를 지원할 수 있습니다. 웹용 Outlook 문서(docx Office xlsx, pptx) 및 PDF의 미리 보기를 지원할 수 있습니다.  \n"
   - question: >
       보호된 전자 메일의 해지가 지원되는 전자 메일 클라이언트는 무엇입니까?
     answer: >
-      Outlook 웹에서 보호된 메일의 해지가 지원됩니다.  자세한 내용은 사용자가 보낸 암호화된 메시지를 [해지하는](revoke-ome-encrypted-mail.md#how-to-revoke-an-encrypted-message-that-you-sent) 방법을 참조합니다.
+      웹용 Outlook 보호된 메일의 해지가 지원됩니다.  자세한 내용은 사용자가 보낸 암호화된 메시지를 [해지하는](revoke-ome-encrypted-mail.md#how-to-revoke-an-encrypted-message-that-you-sent) 방법을 참조합니다.
   - question: >
       정책을 설정하여 메시지를 자동으로 암호화할 수 있나요?
     answer: "예. 특정 조건에 따라 메시지를 Exchange Online 메일 흐름 규칙을 사용하여 메시지를 자동으로 암호화할 수 있습니다. 예를 들어 받는 사람 ID, 받는 사람 도메인 또는 메시지 본문 또는 제목의 콘텐츠에 기반한 정책을 만들 수 있습니다. 에서 전자 메일 메시지를 암호화하는 메일 흐름 규칙 [정의를 Office 365.](define-mail-flow-rules-to-encrypt-email.md)\n  \n"
   - question: >
       받는 메일과 보낸 메일의 암호화를 자동으로 제거할 수 있나요?
     answer: >
-      관리자는 메일 흐름 규칙을 설정하여 보낸 메일에 대한 암호화를 제거할 수 있습니다. 받는 메일에 대한 암호화를 제거하기 위한 규칙을 설정할 수 없습니다.
+      관리자는 메일 흐름 규칙을 설정하여 보낸 메일에 대한 암호화를 제거할 수 있습니다. 조직에서 시작된 받는 메일에 대한 암호화를 제거하는 규칙만 설정할 수 있습니다.
   - question: >
-      보안 준수 센터를 통해 DLP(데이터 손실 방지)에서 정책을 설정하여 메시지를 자동으로 암호화할 &amp; 수 있나요?
+      DLP(데이터 손실 방지)에서 정책을 설정하여 메시지를 자동으로 암호화할 수 Microsoft 365 규정 준수 센터?
     answer: >
-      예! 보안 및 준수 센터에서 Exchange Online DLP를 사용하여 메일 흐름 규칙을 설정할 &amp; 수 있습니다.
+      예! 메일 흐름 규칙은 Exchange Online DLP를 사용하여 설정할 수 Microsoft 365 규정 준수 센터.
   - question: >
       회사 브랜징을 사용하여 암호화된 메시지를 사용자 지정할 수 있나요?
     answer: "예! 전자 메일 메시지 및 OME 포털 사용자 지정에 대한 자세한 내용은 암호화된 메시지에 조직의 브랜드 추가를 참조하세요. 암호화된 메시지에 조직의 [브랜드 추가를 참조합니다.](add-your-organization-brand-to-encrypted-messages.md)\n  \n"
@@ -143,7 +143,7 @@ sections:
   - question: >
       위임된 액세스가 지원하나요?
     answer: >
-      현재는 아니요.
+      현재는 불가능합니다.
   - question: >
       공유 사서함으로 보내고 전자 메일을 암호화할 수 있나요?
     answer: >
@@ -157,7 +157,7 @@ sections:
       - 사용자는 공유 사서함이 메일 그룹의 일부로 보호된 메일을 받은 공유 사서함에서 보호된 메일을 열 수 있습니다.
 
 
-      - 사용자는 mac용, Mac용 및 웹용 Outlook, Windows Outlook 전자 메일을 사용할 때 전자 메일로부터 보호를 상속하는 첨부 파일을 Outlook 수 있습니다.
+      - 사용자는 Outlook, Mac용, Mac용 및 Outlook 전자 메일에 대해 Windows 보호를 Outlook 첨부 파일을 볼 수 웹용 Outlook.
 
 
       다음 표에는 공유 사서함에 대해 지원되는 클라이언트가 나열됩니다.

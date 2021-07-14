@@ -20,19 +20,16 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b852071c3fbfe12aac62e1d309fa130a4cd81e9c
-ms.sourcegitcommit: b42dd3e706ebf9638cd893b35f75eaa56dd8fd7e
+ms.openlocfilehash: 088dbd16c3667331843ff934c80f85aa8d3a837f
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53125401"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430819"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Microsoft 365 Defender 미리 보기 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
-> [!IMPORTANT]
-> 미리 보기 버전은 서비스 수준 계약 없이 제공하며 프로덕션 워크로드에는 권장되지 않습니다. 일부 기능은 지원되지 않을 수도, 기능이 제한될 수도 있습니다.
 
 **적용 대상:**
 - Microsoft 365 Defender
@@ -43,7 +40,20 @@ Microsoft 365 Defender 릴리스의 새로운 기능에 대해 알아보고 미�
 
 일반적으로 사용할 수 있는 새로운 기능에 대한 자세한 내용은 에서 새로운 기능을 [Microsoft 365 Defender.](whats-new.md)
 
-## <a name="required-permissions"></a>필요한 사용 권한
+ ## <a name="what-you-need-to-know"></a>알아야 할 것
+
+공개 미리 보기에서 기능을 사용할 때 다음과 같은 기능을 사용할 수 있습니다.
+
+- 기능이 제한되거나 제한될 수 있습니다. 예를 들어 이 기능은 하나의 플랫폼에만 적용할 수 있습니다.
+- 일반적으로 GA(일반 제공)되기 전에 기능 변경 사항을 거치게 됩니다.
+- Microsoft에서 완전히 지원됩니다.
+- 선택한 지리적 지역 또는 클라우드 환경에서만 사용할 수 있습니다. 예를 들어 이 기능은 정부 클라우드에 존재하지 않을 수 있습니다.
+- 미리 보기의 개별 기능에는 더 많은 사용 및 지원 제한이 있을 수 있습니다. 이 경우 이 정보는 일반적으로 기능 설명서에 기록됩니다.
+- 미리 보기 버전은 표준 지원 수준으로 제공될 수 있으며 프로덕션 환경에 사용할 수 있습니다. 
+
+
+
+## <a name="required-permissions"></a>필수 권한
 
 Azure AD(Azure Active Directory) 역할이 할당된 계정은 미리 보기 Microsoft 365 Defender 수 있습니다.
 

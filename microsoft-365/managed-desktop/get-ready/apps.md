@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 571acc9c240fc0243998050ac3013258a2f85a3e
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 37f533f34753d66d975cb557239b2b168ac78f8e
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028947"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430771"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 앱
 
@@ -31,7 +31,7 @@ Microsoft에는 앱에 참여하는 데 필요한 Microsoft 365 E3 또는 E5 라
 
 ## <a name="apps-provided-by-microsoft"></a>Microsoft에서 제공하는 앱
 
-Microsoft Managed Desktop 라이선스에 포함된 앱의 64비트 버전은 엔터프라이즈용 Microsoft 365 앱 Standard Suite(Word, Excel, PowerPoint, Outlook, Publisher, Access, 비즈니스용 Skype 및 OneNote)입니다. Click-to-Run 버전의 Microsoft Project Visio 기본적으로 포함되지 않지만  추가를 요청할 수 있습니다. 이러한 앱에 대한 자세한 내용은 디바이스에 Microsoft Project 또는 Microsoft Visio [설치를 Microsoft Managed Desktop 참조하세요.](../get-started/project-visio.md)
+Microsoft Managed Desktop 라이선스에 포함된 앱의 64비트 버전은 엔터프라이즈용 Microsoft 365 앱 Standard Suite(Word, Excel, PowerPoint, Outlook, Publisher, Access, Teams 및 OneNote)입니다. Click-to-Run 버전의 Microsoft Project Visio 기본적으로 포함되지 않지만  추가를 요청할 수 있습니다. 이러한 앱에 대한 자세한 내용은 디바이스에 Microsoft Project 또는 Microsoft Visio [설치를 Microsoft Managed Desktop 참조하세요.](../get-started/project-visio.md)
 
 ### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>Microsoft에서 제공하는 앱을 지원하기 위해 Microsoft가 하는 일
 

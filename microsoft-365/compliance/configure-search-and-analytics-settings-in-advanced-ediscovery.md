@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: 모든 Advanced eDiscovery 적용하는 모든 검토 설정을 구성합니다. 여기에는 분석 및 광학 문자 인식에 대한 설정이 포함됩니다.
-ms.openlocfilehash: 11932d2172d797ae1913cf28e713d57805ace122
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: e0ad41354b265016ba67632162a8ead62f11068b
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751305"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430555"
 ---
 # <a name="configure-search-and-analytics-settings-in-advanced-ediscovery"></a>검색 및 분석 설정 구성 Advanced eDiscovery
 
@@ -86,7 +86,7 @@ ms.locfileid: "49751305"
 
 이 설정을 설정하면 이미지 파일에서 OCR 처리가 실행됩니다. OCR 처리는 다음과 같은 상황에서 실행됩니다.
 
-- 보호자 및 비보조 [](non-custodial-data-sources.md) 데이터 원본이 사례에 추가되는 경우 OCR 처리는 고급 인덱싱 프로세스 중에 수행됩니다. 즉, 검색 조건과 일치하는 이미지 파일의 텍스트가 컬렉션 검색에 반환됩니다.
+- 보호자 및 비보조 [](non-custodial-data-sources.md) 데이터 원본이 사례에 추가되는 경우 OCR 처리는 고급 인덱싱 [프로세스 중에 수행됩니다.](indexing-custodian-data.md) OCR은 고급 인덱싱 중에 처리된 항목에만 실행됩니다. 예를 들어 고급 인덱싱 중에 부분적으로 인덱싱되거나 다른 인덱싱 오류가 있는 큰 PDF 파일을 처리하면 파일에 OCR도 적용됩니다. 즉, OCR 처리는 고급 인덱싱 프로세스 중에 다시 인덱싱되는 파일에만 발생합니다. 즉, 보안 주관이 사례에 추가될 때 일부 전자 메일 첨부 파일이 고급 인덱싱 중에 처리되지 않는 경우 OCR에 대해 처리되지 않습니다. OCR이 이미지 파일을 적용하면 해당 이미지 파일의 텍스트를 컬렉션 중에 검색할 수 있습니다.
 
 - 다른 데이터 원본의 콘텐츠(양도인과 연결되지 않은 데이터 원본의 경우 사례에 추가)가 검토 집합에 추가되는 경우.
 

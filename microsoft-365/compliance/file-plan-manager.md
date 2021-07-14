@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획은 보존 라벨에 대한 고급 관리 기능을 제공한다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 920a613cdc3a32267415d42cebe962e62ff6831a
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 6aa47048d9654c46694e8a8eb0626b18b8b52f69
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53419766"
+ms.locfileid: "53430651"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>파일 계획을 사용하여 보존 레이블 관리
 
@@ -39,8 +39,6 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
 - 파일 계획 설명자는 각 레이블에 대한 추가 및 선택적 정보를 지원합니다.
 
 내용을 레코드로 표시하지 않더라도 모든 보존 레이블에 파일 계획을 사용할 수 있습니다.
-
-![파일 계획 페이지](../media/compliance-file-plan.png)
 
 보존 레이블의 정의와 사용 방법에 대한 자세한 내용은 [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)를 참조하세요.
 
@@ -111,9 +109,9 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
 
 ![보존 레이블을 만들거나 편집할 때 수행 하는 파일 계획 설명](../media/file-plan-descriptors.png)
 
-파일 계획 설명자 열에 대한 예시 보기
+이러한 각 선택적 설명자에 대해 **선택** 을 선택하면 기본 제공 값 중 하나를 선택하거나 직접 만든 다음 선택할 수 있습니다. 예를 들어 다음과 같습니다. 
 
-![파일 계획 설명자 열](../media/file-plan-descriptors-on-labels-tab.png)
+![프로비전/인용을 위한 새 파일 플랜 설명자 만들기](../media/file-plan-descriptors-create.png)
 
 ## <a name="export-all-retention-labels-to-analyze-or-enable-offline-reviews"></a>오프라인 검토를 분석하거나 활성화하기 위해 모든 보존 레이블을 내보냅니다.
 
@@ -129,9 +127,7 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
 
 ## <a name="import-retention-labels-into-your-file-plan"></a>파일 계획에 보존 레이블 가져오기
 
-파일 계획에서 특정 형식의 .csv 파일을 사용하여 새 보존 레이블을 대량으로 가져올 수 있습니다. 레이블을 가져온 후에는 .csv 파일을 편집하고 기존 보존 레이블을 보다 쉽게 대량 편집할 수 있도록 파일을 다시 가져올 수 있습니다.
-
-새 보존 레이블을 가져오고 기존 보존 레이블을 수정하려면 다음을 수행합니다. 
+파일 계획에서 특정 형식의 .csv 파일을 사용하여 새 보존 레이블을 대량으로 가져올 수 있습니다. 
 
 1. **파일 계획** 페이지에서 **가져오기** 를 클릭하여 **파일 계획 작성 및 가져오기** 페이지를 사용합니다.
 
@@ -188,7 +184,7 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
     
     - 유효성 검사 통과: **Go Live** 를 선택하여 테넌트에서 보존 레이블을 사용할 수 있도록 할 수 있습니다. 또는 페이지의 닫기 아이콘을 선택하고 **예** 를 눌러 지금 테넌트에서 보존 레이블을 사용할 수 있도록 설정하지 않고 마법사를 닫을지 확인합니다.
 
-가져온 레이블이 테넌트에 추가되면 이제 새 보존 레이블 정책에 추가하거나 자동으로 적용할 수 있습니다. **+ 레이블 생성** 에서 드롭다운을 선택한 다음 **레이블 게시 정책** 또는 **레이블 자동 적용 정책** 을 선택하여 **파일 계획** 에서 에서 이 작업을 수행할 수 있습니다.
+가져온 레이블이 테넌트에 추가되면 이제 사용자가 레이블을 게시하여 사용할 수 있도록 설정하거나 자동으로 적용할 수 있습니다. **레이블 정책** 탭에서 둘 다 수행한 다음 **레이블 게시** 를 선택하거나 **레이블을 자동으로 적용** 할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

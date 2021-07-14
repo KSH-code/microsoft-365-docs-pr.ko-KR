@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 가시성 및 인사이트를 시작합니다.
-ms.openlocfilehash: 12c1a01667b1bda545b619e931d99132e6611e35
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 93be3557c32345e81c7126b669ead8edf8ebac21
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420269"
+ms.locfileid: "53430483"
 ---
 # <a name="get-started-with-visibility-and-insights"></a>가시성 및 인사이트 시작
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-가장 먼저 시작할 곳은 [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance)의 앱 거버넌스 대시보드입니다. 앱 거버넌스 데이터를 보려면 로그인 계정에 [이와 같은 앱 거버넌스 관리자 역할 ](app-governance-get-started.md#administrator-roles) 중 하나가 있어야 합니다.
+가장 먼저 시작할 곳은 [https://aka.ms/appgovernance](https://aka.ms/appgovernance)의 앱 거버넌스 대시보드입니다. 앱 거버넌스 데이터를 보려면 로그인 계정에 [이와 같은 앱 거버넌스 관리자 역할 ](app-governance-get-started.md#administrator-roles) 중 하나가 있어야 합니다.
 
 ![Microsoft 365 준수 센터의 앱 거버넌스 개요 페이지](..\media\manage-app-protection-governance\mapg-cc-overview.png)
 

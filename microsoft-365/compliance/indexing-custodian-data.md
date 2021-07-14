@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Advanced eDiscovery 경우, 부분적으로 인덱싱된 것으로 확인된 모든 콘텐츠는 완전히 검색할 수 있도록 다시 처리됩니다.
-ms.openlocfilehash: 904c8fe626ce8ece8f4b48bd5504e4011e9f4fb2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f510b7e9c0fa2c5c181709c96907610066a4b1cf
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911212"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430510"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>보유자 데이터의 고급 인덱싱
 
-Advanced eDiscovery 경우, 부분적으로 인덱싱된 것으로 확인된 모든 콘텐츠는 완전히 검색할 수 있도록 다시 처리됩니다.  이 프로세스를 고급 *인덱싱이라고 합니다.* 이미지가 존재하거나, 지원되지 않는 파일 형식이나 인덱싱 파일 크기 제한이 발생하는 경우를 포함하여 여러 가지 이유로 콘텐츠를 부분적으로 인덱싱할 수 있습니다.
+Advanced eDiscovery 사례에 추가된 경우 부분적으로 인덱싱되거나 인덱싱 오류가 있는 모든 콘텐츠가 완전히 검색할 수 있도록 다시 인덱싱됩니다.  이 다시 인덱싱 프로세스를 *고급 인덱싱이라고 합니다.* 콘텐츠가 부분적으로 인덱싱되거나 인덱싱 오류가 발생하는 이유는 여러 가지가 있습니다. 여기에는 이미지 파일 또는 파일의 이미지 존재, 지원되지 않는 파일 형식 또는 파일 크기 인덱싱 제한이 포함됩니다. 파일 SharePoint 고급 인덱싱은 부분적으로 인덱싱된 것으로 표시되거나 인덱싱 오류가 있는 항목에서만 실행됩니다. Exchange 첨부 파일이 있는 전자 메일 메시지는 부분적으로 인덱싱되거나 인덱싱 오류가 있는 것으로 표시되지 않습니다. 즉, 이러한 파일은 고급 인덱싱 프로세스에서 다시 인덱싱되지 않습니다.
 
 지원 및 부분적으로 인덱싱된 항목 처리에 대한 자세한 내용은 다음을 참조합니다.
 

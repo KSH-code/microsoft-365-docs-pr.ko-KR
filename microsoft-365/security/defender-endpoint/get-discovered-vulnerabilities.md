@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 73d9803736df546f2381b7a84c9089d2460c4c44
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cd3b1343711a5bed9ad606a6b8dc754f223ed279
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843085"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430783"
 ---
 # <a name="get-discovered-vulnerabilities"></a>발견된 취약성 가져오기
 
@@ -62,7 +62,7 @@ GET /api/machines/{machineId}/vulnerabilities
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -72,7 +72,7 @@ GET /api/machines/{machineId}/vulnerabilities
 
 성공하면 이 메서드는 본문에서 발견된 취약성 정보를 사용하여 200 OK를 반환합니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 ### <a name="request"></a>요청
 
@@ -105,6 +105,7 @@ GET https://api.securitycenter.microsoft.com/api/machines/ac233fa6208e1579620bf4
             "exploitTypes": [],
             "exploitUris": []
         }
+    ]
 }
 ```
 

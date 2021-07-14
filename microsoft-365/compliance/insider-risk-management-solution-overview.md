@@ -16,18 +16,29 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: 3e057677b7d8ef4e74abe705bc3b23e8ea539853
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: bee4c2d01579733ff7b1c5583b00cdd48e437af2
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326762"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430543"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>2016의 내부자 위험 Microsoft 365
 
 점점 더 많은 직원들이 광범위한 플랫폼 및 서비스에서 데이터를 만들고 관리하고 공유할 수 있는 액세스 권한이 증가하고 있습니다. 대부분의 경우 조직은 규정 준수 요구 사항 및 직원 개인 정보 보호 표준을 충족하면서 조직 전체의 위험을 식별하고 완화할 수 있는 제한된 리소스와 도구가 있습니다. 이러한 위험에는 직원을 퇴사하여 데이터 도난 및 실수로 과도하게 공유하거나 악의적인 의도로 조직 외부의 정보가 누출될 수 있습니다.
 
 Microsoft 365 내부자 위험 관리는 모든 서비스 및 제3자 지표를 사용하여 위험한 사용자 활동을 빠르게 식별, 평가 및 작업할 수 있도록 합니다. 내부자 위험 관리는 Microsoft 365 Microsoft Graph 사용하여 위험 지표를 식별하고 이러한 위험을 완화하기 위한 조치를 취할 수 있는 특정 정책을 정의할 수 있습니다.
+
+아래 비디오를 시청하여 내부자 위험 관리가 조직에서 조직의 가치, 문화 및 사용자 환경의 우선 순위를 지정하는 동안 위험을 방지, 감지 및 포함하는 데 어떻게 도움이 되는지 알아보세요.
+<br>
+<br>
+
+**내부자 위험 관리 솔루션 & 개발**:
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4j9CN]
+<br>
+
+**내부자 위험 관리 워크플로**:
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OUXB]
 
 ## <a name="configure-insider-risk-management-for-microsoft-365"></a>사용자에 대한 내부자 위험 관리 Microsoft 365
 
