@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 79c9bf21fe480faffac90b6b5f5f134e72eff119
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: 5fbddbbf65d987817e793233fe3384c0f47fd04f
+  ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50916843"
+  ms.lasthandoff: 07/13/2021
+  ms.locfileid: "53415537"
 landingContent:
 - title: 정보 보호 및 거버넌스 관리
   linkLists:
@@ -76,6 +76,8 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: 제로 트러스트로 데이터 보호
+      url: /security/zero-trust/data
     - text: 데이터 개인 정보 규정을 위한 정보 보호 배포
       url: ../solutions/information-protection-deploy.md
     - text: 정보 보호 및 규정 준수 그림
