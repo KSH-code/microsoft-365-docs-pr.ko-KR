@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 준수 관리자 빠른 시작 가이드를 사용하여 준수 관리자를 이해하고, 설정하고, 사용하는 여정을 안내합니다.
-ms.openlocfilehash: 8ac4245da95192516c57d51d740531fd4af10647
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 59d833c74c0d56d82d3f4ae4170e1bbd32638a49
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149049"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419598"
 ---
 # <a name="compliance-manager-quickstart"></a>준수 관리자 빠른 시작
 
@@ -63,7 +63,7 @@ ms.locfileid: "53149049"
 
 또한 개선 작업의 전체 또는 하위 집합에 대한 자동화된 테스트를 설정할 수도 있습니다. 준수 관리자의 고급 기능을 이해하기 위해 아래 링크를 방문하세요.
 
-- [자체 컨트롤 및 개선 작업을 추가하여 준수 관리자 템플릿 확장](compliance-manager-templates.md#extend-an-assessment-template)
+- [자체 컨트롤 및 개선 작업을 추가하여 준수 관리자 템플릿 확장](compliance-manager-templates.md#extend-microsoft-365-assessment-templates)
 - [사용자 지정 서식 파일 만들기](compliance-manager-templates.md#create-an-assessment-template)
 - [기존 템플릿을 수정하여 컨트롤 및 작업 추가 또는 제거](compliance-manager-templates.md#modify-a-template)
 - [개선 작업의 자동화된 테스트 설정](compliance-manager-setup.md#set-up-automated-testing)

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 개인 정보 관리의 주체 권한 요청 솔루션은 개인 데이터를 찾고 콘텐츠를 검토하고 보고서를 만드는 데 도움이 됩니다.
-ms.openlocfilehash: b1f92aa7b5e6f8117d8e3a4af758f13d6c91fe99
-ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
+ms.openlocfilehash: b266708c97ee4b81af6ba61dfa6716c57ff6026e
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53378533"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419778"
 ---
 # <a name="manage-subject-rights-requests-in-privacy-management-preview"></a>개인 정보 관리에서 주체 권한 요청 관리(미리 보기)
 
@@ -47,7 +47,7 @@ ms.locfileid: "53378533"
 
 ## <a name="create-a-request"></a>요청 만들기
 
-주체 권한 관리 관리자는 개인 정보 관리 마법사를 사용하여 요청을 만들 수 있습니다. 이 마법사는 데이터 주체에 대한 개인 데이터를 찾아 요청을 이행하는 프로세스를 안내합니다.
+주체 권한 관리 관리자는 개인 정보 관리 마법사를 사용하여 요청을 만들 수 있습니다. 마법사는 데이터 주체에 대한 개인 데이터를 찾아 요청을 이행하는 프로세스를 안내합니다.
 
 네 가지 주요 단계는 다음과 같습니다.
 

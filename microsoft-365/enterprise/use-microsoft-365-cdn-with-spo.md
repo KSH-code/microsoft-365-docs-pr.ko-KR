@@ -3,7 +3,7 @@ title: 온라인 Office 365 Content Delivery Network(CDN)를 SharePoint 사용
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 2/19/2020
+ms.date: 07/13/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Office 365 Content Delivery Network(CDN)를 사용하여 온라인 자산의 배달 속도를 SharePoint 방법을 알아보습니다.
-ms.openlocfilehash: 5e9ed00462b7073c7e03f62a5de6bf26f1e586af
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 24b86f059e5a59d3b6dadf989bef0ab38ad8e010
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289454"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419565"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>sharepoint Online을 활용해 Office 365 콘텐츠 배달 네트워크(CDN) 사용하기
 
@@ -37,7 +37,7 @@ ms.locfileid: "53289454"
 
 Office 365 CDN은 여러 위치, 즉 _출발지_ 에 정적 자산을 호스트하고 글로벌 고속 네트워크에서 제공할 수 있는 여러 CDN으로 구성됩니다. Office 365 CDN에서 호스팅하려는 콘텐츠의 종류에 따라 **공개** 출처, **비공개** 출처 또는 둘 다를 추가할 수 있습니다. 공개 [원본과](use-microsoft-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate) 개인 출처 간의 차이점에 대한 자세한 내용은 각 출처가 공개 또는 비공개인지 선택을 참조하세요.
 
-![Office 365 CDN 다이어그램](../media/O365-CDN/o365-cdn-flow-transparent.svg "Office 365 CDN 다이어그램")
+![Office 365 CDN 다이어그램](../media/O365-CDN/o365-cdn-flow-transparent.png "Office 365 CDN 다이어그램")
 
 CDNS 작동 방식에 이미 익숙한 경우 테넌트에 대해 CDNS를 사용하도록 설정하기 위해 몇 Office 365 CDN만 수행하면 됩니다. 이 항목에서는 방법을 설명합니다. 정적 자산 호스팅을 시작하는 방법에 대한 자세한 내용을 읽어 읽습니다.
 
@@ -920,7 +920,7 @@ SharePoint  Online의 게시 기능은 공개 원본에 저장된 자산의 URL�
 
 다음 다이어그램은 워크플로를 보여 SharePoint 원본에서 자산이 포함된 페이지에 대한 요청을 받는 경우 워크플로를 보여 주며,
 
-![워크플로 다이어그램: Office 365 CDN 원본에서 자산 검색](../media/O365-CDN/o365-cdn-public-steps-transparent.svg "워크플로: Office 365 CDN 원본에서 자산 검색")
+![워크플로 다이어그램: Office 365 CDN 원본에서 자산 검색](../media/O365-CDN/o365-cdn-public-steps-transparent.png "워크플로: Office 365 CDN 원본에서 자산 검색")
 
 > [!TIP]
 > 페이지의 특정 URL에 대해 자동 다시 작성을 사용하지 않도록 설정하려는 경우 페이지를 체크 아웃하고 쿼리 문자열 매개 변수를 추가할 수 **있습니다. NoAutoReWrites=true이면** 사용하지 않도록 설정할 각 링크의 끝입니다.
@@ -956,7 +956,7 @@ https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library
 
 다음 다이어그램은 개인 출처의 자산이 SharePoint 페이지를 요청하는 워크플로를 보여 주며,
 
-![워크플로 다이어그램: Office 365 CDN 원본에서 자산 검색](../media/O365-CDN/o365-cdn-private-steps-transparent.svg "워크플로: 개인 Office 365 CDN 자산 검색")
+![워크플로 다이어그램: Office 365 CDN 원본에서 자산 검색](../media/O365-CDN/o365-cdn-private-steps-transparent.png "워크플로: 개인 Office 365 CDN 자산 검색")
 
 #### <a name="token-based-authorization-in-private-origins"></a>비공개 원본의 토큰 기반 권한 부여
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Microsoft 365 관리 센터의 네트워크 연결 개요
-ms.openlocfilehash: 8ad589ede747975ca9dcd3c81e661a2147fc1b88
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: 05247c73bec3a11905890d26db84f8fe1a288a99
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53277004"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419802"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 네트워크 연결
 
@@ -78,7 +78,7 @@ Windows 위치 서비스는 컴퓨터의 동의를 얻어야 합니다. 앱 앱�
 테스트 보고서가 완료된 후 2~3분 후에 측정 샘플 및 사무실 위치가 나타나기 시작해야 합니다. 자세한 내용은 네트워크 [연결 Microsoft 365 을 참조하세요.](office-365-network-mac-perf-onboarding-tool.md)
 
 > [!NOTE]
-> 사무실 위치를 Microsoft 365 네트워크 연결에 추가할 Microsoft 365 관리 센터 LAN 서브넷에 IPv4 또는 IPv6 주소를 제공할 수 있습니다. Egress IP 주소는 IPv4를 사용해야 합니다.
+> 현재 Microsoft 365 네트워크 연결에 사무실 위치를 추가하는 경우 Microsoft 365 관리 센터 LAN 서브넷에 대해 IPv4 주소만 제공할 수 있습니다. Egress IP 주소는 IPv4를 사용해야 합니다.
 
 ## <a name="how-do-i-use-this-information"></a>이 정보는 어떻게 사용하나요?
 
@@ -149,7 +149,7 @@ Microsoft는 여러 데스크톱 및 웹 클라이언트에서 Office 측정한 
 - **SharePoint 최적의** 서비스 프런트 도어 - 이 사무실 SharePoint 사용자가 연결해야 하는 권장 서비스 프런트 도어 중 하나
 - **SharePoint** 최적의 서비스 프런트 도어 - SharePoint 연결되지만 권장되지 않는 서비스 프런트 도어
 - **DNS 재시도 확인자** 서버 - 검색된 DNS 재발성 확인자 중 지리적 IP 데이터베이스의 위치입니다Exchange Online(사용 가능한 경우)
-- **프록시 서버** - 검색된 프록시 서버의 지리적 IP 데이터베이스의 위치(사용 가능한 경우) 
+- **프록시 서버** - 검색된 프록시 서버의 지리적 IP 데이터베이스의 위치(사용 가능한 경우)
 
 사무실 위치 요약 페이지에는 위치의 네트워크 평가, 네트워크 평가 기록, 이 위치의 평가와 동일한 도시에 있는 다른 고객에 대한 비교, 네트워크 성능 및 안정성을 개선하기 위해 이행할 수 있는 특정 인사이트 및 권장 사항 목록이 추가로 표시됩니다.
 
@@ -161,7 +161,6 @@ Microsoft는 여러 데스크톱 및 웹 클라이언트에서 Office 측정한 
 
 > [!div class="mx-imgBorder"]
 > ![위치별 세부 정보](../media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)
-
 
 ## <a name="sharing-network-assessment-data-with-microsoft"></a>Microsoft와 네트워크 평가 데이터 공유
 
@@ -189,9 +188,9 @@ CSV 파일에서 검색된 도시 위치는 userEntered 열에 비어 있는 것
    1. **주소(필수):** 사무실의 실제 주소
    1. **위도(선택** 사항): Bing 주소의 지도에서 채우기
    1. **세로(선택** 사항): 비워 두면 Bing 지도에서 채우기
-   1. Egress IP 주소 범위 **1-5(선택** 사항): 각 범위에 대해 회로 이름과 유효한 IPv4 또는 IPv6 CIDR 주소의 공백으로 구분된 목록을 입력합니다. 이러한 값은 동일한 LAN 서브넷 IP 주소를 사용하는 여러 사무실 위치를 차별화하는 데 사용됩니다. Egress IP 주소 범위는 모두 /24 네트워크 크기 및 /24가 입력에 포함되지 않습니다.
+   1. Egress IP 주소 범위 **1-5(선택** 사항): 각 범위에 대해 회로 이름과 유효한 IPv4 CIDR 주소의 공백으로 구분된 목록을 입력합니다. 이러한 값은 동일한 LAN 서브넷 IP 주소를 사용하는 여러 사무실 위치를 차별화하는 데 사용됩니다. Egress IP 주소 범위는 모두 /24 네트워크 크기 및 /24가 입력에 포함되지 않습니다.
    1. **LanIp(필수):** 이 사무실 위치에서 사용 중인 LAN 서브넷 범위를 나열합니다. LAN 서브넷 IDS에는 네트워크 크기가 /8에서 /29 사이일 수 있는 CIDR 네트워크 크기가 포함되어야 합니다. LAN 서브넷 범위가 여러 개이면 콤보나 세미코론으로 구분할 수 있습니다.
-   
+
 1. 사무실 위치를 추가하고 파일을 저장한 경우  완료된 필드 옆에 **있는** 찾아보기 단추를 업로드 CSV 파일을 선택합니다.
 
 1. 파일의 유효성이 자동으로 검사됩니다. 유효성 검사 오류가 있는 경우 가져오기 파일에 몇 가지 오류가 있습니다. 오류 메시지가 _표시됩니다. 오류를 검토하고 가져오기 파일을 수정한 다음 다시 시도하십시오._ 특정 필드 유효성 검사 **오류** 목록에 대한 오류 세부 정보 열기 링크를 클릭합니다.

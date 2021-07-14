@@ -14,16 +14,20 @@ search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 관리의 새로운 것 및 새로운 방법을 찾아 찾습니다. 업데이트된 평가, 새 평가 템플릿, 새 작업 등에 대해 읽어 읽습니다.
-ms.openlocfilehash: 72390f167e0f573223210a02a4b08e1b0efdf3dd
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 823df0ac274dad0ae278ce981a0dca0f0ad8a9ed
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149025"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419526"
 ---
 # <a name="whats-new-in-microsoft-compliance-manager"></a>Microsoft 준수 관리자의 새로운
 
 **이 문서의 예는** 준수 관리자의 최근 업데이트에 대해 자세히 알아보습니다.
+
+## <a name="july-2021"></a>2021년 7월
+
+템플릿의 새 유니버설 버전을 기반으로 Microsoft 365 제품에 대한 평가를 만드는 기능이 추가되었습니다. 자세한 내용은 평가 템플릿 [작업을 시작하십시오.](compliance-manager-templates.md)
 
 ## <a name="may-2021"></a>2021년 5월
 

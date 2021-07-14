@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 211e26035ad8bdf73defde85c33a631af3a193d0
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: fb3646e2ff339115d3fe6043ed45ea8f2140105a
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300111"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419514"
 ---
 # <a name="device-images"></a>장치 이미지
 
@@ -41,23 +41,7 @@ HP에서 새 장치를 주문하는 경우 쇼핑 Windows 10 Pro 비즈니스 �
 - 전역: mmd@hp.com
 
 ### <a name="lenovo"></a>Lenovo
-Lenovo에서 디바이스를 사용하여 Microsoft Managed Desktop 주문하는 경우 주문의 일부로 포함된 특정 부분 번호를 지정해야 합니다. Lenovo 영업 담당자 또는 Lenovo 채널 파트너에게 문의하여 장치 요구 사항을 충족하는 시스템을 사용하여 *"* 특수한 경매 모델"을 만들 것을 [요청합니다.](device-requirements.md#minimum-requirements) Microsoft Managed Desktop 호환되는 미리 로드된 이미지를 포함하려면 영업 담당자에게 "시스템 문서 블록 부분 번호 *SBB0Q94938 – MMD* 사용"을 참조하도록 요청합니다.
-
-다음 제품은 현재 지원되지 Microsoft Managed Desktop 있습니다.
-
-- L13세대 1
-- L13 원조 1세대
-- L14 Gen 1(Intel)
-- L14 1세대(AMD)
-- L15 Gen 1(Intel)
-- L15 GEN 1(AMD)
-- X1 8세대
-- X1 4세대 4세대
-- T14 Gen 1(Intel)
-- T14 GEN 1(AMD)
-- T15 1세대
-- X13 1세대(Intel)
-
+Lenovo에서 디바이스를 사용하여 Microsoft Managed Desktop 주문하는 경우 주문의 일부로 포함된 특정 부분 번호를 지정해야 합니다. Lenovo 영업 담당자 또는 Lenovo 채널 파트너에게 문의하여 장치 요구 사항을 충족하는 시스템을 사용하여 *"* 특수한 경매 모델"을 만들 것을 [요청합니다.](device-requirements.md#minimum-requirements) Microsoft Managed Desktop 호환되는 미리 로드된 이미지를 포함하려면 영업 담당자에게 "시스템 문서 블록 부분 번호 *SBB0Q94938 – MMD* 사용"을 참조하도록 요청합니다. 권장 서비스, 지원 및 이미징 서비스를 위해 Lenovo 영업 담당자 또는 Lenovo 채널 파트너와 협력하세요.
 
 ### <a name="microsoft"></a>Microsoft
 장치 요구 사항을 충족하는 모든 Microsoft 디바이스에는 장치 요구 사항과 함께 작동하는 이미지가 Microsoft Managed Desktop. 다른 단계는 필요하지 않습니다.

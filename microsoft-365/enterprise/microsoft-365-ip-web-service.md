@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Office 365 IP 주소 및 URL 웹 서비스를 사용하여 Office 365 네트워크 트래픽을 손쉽게 식별하고 구분하는 방법을 알아봅니다.
-ms.openlocfilehash: 0469070ed6d46b7695526697c255e23c0dc009ec
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 4de78934a76a7dba16f79cb9cc6f93a7c935a314
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286420"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419790"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스
 
@@ -63,22 +63,22 @@ Office 365 IP 주소 및 URL 웹 서비스를 사용하면 Office 365 네트워�
 
 다음은 모든 웹 서비스 메서드에서 공통되는 매개 변수입니다.
 
-- **format=<JSON | CSV>** - 기본적으로 반환되는 데이터 형식은 JSON입니다. 이 선택적 매개 변수를 사용하여 쉼표로 구분된 값(CSV) 형식으로 데이터를 반환하십시오.
-- **ClientRequestId=\<guid>** — 클라이언트 연결을 위해 생성해야 하는 필수 GUID입니다. 웹 서비스를 호출하는 각 시스템에 대해 고유한 GUID를 생성합니다(이 페이지에 포함된 스크립트가 GUID를 생성함). 다음 예제에 표시된 GUID는 앞으로 웹 서비스에 의해 차단될 수 있으므로 사용하지 마십시오. GUID 형식은 _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_ 이며 여기서 x는 16진수를 나타냅니다.
+- **format=\<JSON \| CSV\>** — 기본적으로 반환되는 데이터 형식은 JSON입니다. 이 선택적 매개 변수를 사용하여 쉼표로 구분된 값(CSV) 형식으로 데이터를 반환하십시오.
+- **ClientRequestId=\<guid\>** — 클라이언트 연결을 위해 생성해야 하는 필수 GUID입니다. 웹 서비스를 호출하는 각 시스템에 대해 고유한 GUID를 생성합니다(이 페이지에 포함된 스크립트가 GUID를 생성함). 다음 예제에 표시된 GUID는 앞으로 웹 서비스에 의해 차단될 수 있으므로 사용하지 마십시오. GUID 형식은 _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_ 이며 여기서 x는 16진수를 나타냅니다.
 
   GUID를 생성하려면 [New-Guid](/powershell/module/microsoft.powershell.utility/new-guid) PowerShell 명령을 사용하거나 [Online GUID 생성기](https://www.guidgenerator.com/)와 같은 온라인 서비스를 사용할 수 있습니다.
 
 ## <a name="version-web-method"></a>버전 웹 메서드
 
-Microsoft는 매월 마지막에 Office 365 IP 주소와 FQDN 항목을 업데이트합니다. 지원 인시던트, 보안 업데이트 또는 기타 운영 요구 사항으로 인해 대역 외 업데이트가 게시되는 경우도 있습니다.
+Microsoft는 매월 초에 Office 365 IP 주소와 FQDN 항목을 업데이트합니다. 지원 인시던트, 보안 업데이트 또는 기타 운영 요구 사항으로 인해 대역 외 업데이트가 게시되는 경우도 있습니다.
 
 게시된 각 인스턴스의 데이터에는 버전 번호가 할당되며 버전 웹 메소드를 사용하면 각 Office 365 서비스 인스턴스의 최신 버전을 확인할 수 있습니다. 한 시간에 한 번 이하로 버전을 확인하는 것이 좋습니다.
 
 버전 웹 메서드의 매개 변수는 다음과 같습니다.
 
-- **AllVersions = < true | false >** -기본적으로 반환되는 버전은 최신 버전입니다. 이 선택적 매개 변수를 포함하여 웹 서비스가 처음 릴리스된 이후에 모든 게시된 버전을 요청하십시오.
-- **형식 = < JSON | CSV | RSS >** -는 JSON 및 CSV 형식 외에도 버전 웹 메서드로도 RSS를 지원합니다. 이 선택적 매개 변수를 _AllVersions = true_ 매개 변수와 함께 사용하여 Outlook이나 다른 RSS 판독기에서 사용할 수 있는 RSS 피드를 요청할 수 있습니다.
-- **인스턴스=<전세계 | 중국 | 독일 | USGovDoD | USGovGCCHigh>** -이 선택적 매개 변수는 버전을 반환할 인스턴스를 지정합니다. 생략할 경우 모든 인스턴스가 반환됩니다. 유효한 인스턴스는 전세계, 중국, 독일, USGovDoD, USGovGCCHigh입니다.
+- **AllVersions=\<true \| false\>** — 기본적으로 반환되는 버전은 최신 버전입니다. 웹 서비스가 처음 릴리스된 이후 게시된 모든 버전을 요청하려면 이 선택적 매개 변수를 포함하세요.
+- **Format=\<JSON \| CSV \| RSS\>** — JSON 및 CSV 형식 외에도 버전 웹 메서드는 RSS도 지원합니다. 이 선택적 매개 변수를 _AllVersions = true_ 매개 변수와 함께 사용하여 Outlook이나 다른 RSS 판독기에서 사용할 수 있는 RSS 피드를 요청할 수 있습니다.
+- **Instance=\<Worldwide \| China \| Germany \| USGovDoD \| USGovGCCHigh\>** — 이 선택적 매개 변수는 버전을 반환할 인스턴스를 지정합니다. 생략할 경우 모든 인스턴스가 반환됩니다. 유효한 인스턴스는 전세계, 중국, 독일, USGovDoD, USGovGCCHigh입니다.
 
 버전 웹 메서드는 속도가 제한되지 않으며 429 HTTP 응답 코드를 반환하지 않습니다. 버전 웹 메서드에 대한 응답에는 1시간 동안의 데이터 캐시를 권장하는 cache-control 헤더가 포함되어 있습니다. 버전 웹 메서드의 결과는 단일 레코드 또는 레코드의 배열일 수 있습니다. 각 레코드의 요소는 다음과 같습니다.
 
@@ -86,9 +86,9 @@ Microsoft는 매월 마지막에 Office 365 IP 주소와 FQDN 항목을 업데�
 - latest - 지정된 인스턴스 끝점의 최신 버전입니다.
 - versions - 지정된 인스턴스에 대한 모든 이전 버전 목록입니다. 이 요소는 _AllVersions_ 매개 변수가 true인 경우에만 포함됩니다.
 
-### <a name="examples"></a>예제:
+### <a name="version-web-method-examples"></a>버전 웹 메서드 예제
 
-예제 1 요청 URI: [https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+예제 1 요청 URI: <https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 이 URI은 각 Office 365 서비스 인스턴스의 최신 버전을 반환합니다. 예제 결과:
 
@@ -120,7 +120,7 @@ Microsoft는 매월 마지막에 Office 365 IP 주소와 FQDN 항목을 업데�
 > [!IMPORTANT]
 > 이러한 URI의 ClientRequestID 매개 변수에 대한 GUID는 예제에 불과합니다. 웹 서비스 URL을 사용해보려면 자체 GUID를 생성합니다. 이러한 예제에 표시되는 GUID는 앞으로 웹 서비스에 의해 차단될 수 있습니다.
 
-예제 2 요청 URI: [https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+예제 2 요청 URI: <https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 이 URI은 지정된 Office 365 서비스 인스턴스의 최신 버전을 반환합니다. 예제 결과:
 
@@ -131,7 +131,7 @@ Microsoft는 매월 마지막에 Office 365 IP 주소와 FQDN 항목을 업데�
 }
 ```
 
-예제 3 요청 URI: [https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+예제 3 요청 URI: <https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 이 URI는 출력을 CSV 형식으로 표시합니다. 예제 결과:
 
@@ -140,9 +140,9 @@ instance,latest
 Worldwide,2018063000
 ```
 
-예제 4 요청 URI: [https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+예제 4 요청 URI: <https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
-이 URI는 Office 365 Worldwide 서비스 인스턴스에 대해 게시된 모든 이전 버전을 보여 줍니다. 예제 결과:
+이 URI는 Office 365 Worldwide 서비스 인스턴스용으로 게시된 모든 이전 버전을 보여 줍니다. 예제 결과:
 
 ```json
 {
@@ -155,7 +155,7 @@ Worldwide,2018063000
 }
 ```
 
-예제 5 RSS 피드 URI: [https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS)
+예제 5 RSS 피드 URI: <https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS>
 
 이 URI는 각 버전의 변경 내용 목록에 대한 링크를 포함하는 게시된 버전의 RSS 피드를 보여 줍니다. 예제 결과:
 
@@ -180,10 +180,10 @@ Worldwide,2018063000
 
 엔드포인트 웹 메서드의 매개 변수는 다음과 같습니다.
 
-- **ServiceAreas=<공통 | 교환 | SharePoint | Skype>** - 쉼표로 구분 된 서비스 영역 목록입니다. 유효한 항목은 _공통_, _Exchange_, _SharePoint_ 및 _Skype_ 입니다. _공통_ 서비스 영역 항목은 다른 모든 서비스 영역의 전제 조건이므로 웹 서비스에 항상 포함됩니다. 이 매개 변수를 포함하지 않으면 모든 서비스 영역이 반환됩니다.
-- **TenantName=<tenant_name >** - Office 365 테넌트 이름. 웹 서비스는 제공된 이름을 가져와 테넌트 이름이 포함된 URL의 일부에 삽입합니다. 테넌트 이름을 제공하지 않으면 URL의 해당 부분에 와일드 카드 문자(\*)가 있습니다.
-- **NoIPv6=<true | false>** - 네트워크에서 IPv6를 사용하지 않는 경우 출력에서 IPv6 주소를 제외하려면 이 매개 변수를 _true_ 로 설정합니다.
-- **인스턴스=<전세계 | 중국 | 독일 | USGovDoD | USGovGCCHigh>** -이 필수 매개 변수는 끝점을 반환할 인스턴스를 지정합니다. 유효한 인스턴스는 _전세계_, _중국_, _독일_, _USGovDoD_, _USGovGCCHigh_ 입니다.
+- **ServiceAreas=\<Common \| Exchange \| SharePoint \| Skype\>** — 쉼표로 구분된 서비스 영역 목록입니다. 유효한 항목은 _공통_, _Exchange_, _SharePoint_ 및 _Skype_ 입니다. _공통_ 서비스 영역 항목은 다른 모든 서비스 영역의 전제 조건이므로 웹 서비스에 항상 포함됩니다. 이 매개 변수를 포함하지 않으면 모든 서비스 영역이 반환됩니다.
+- **TenantName=\<tenant_name\>** — Office 365 테넌트 이름입니다. 웹 서비스는 제공된 이름을 가져와 테넌트 이름이 포함된 URL의 일부에 삽입합니다. 테넌트 이름을 제공하지 않으면 URL의 해당 부분에 와일드 카드 문자(\*)가 있습니다.
+- **NoIPv6 =\<true \| false\>** — 네트워크에서 IPv6을 사용하지 않는 경우 출력에서 IPv6 주소를 제외하려면 값을 _true_ 로 설정합니다.
+- **Instance=\<Worldwide \| China \| Germany \| USGovDoD \| USGovGCCHigh\>** — 이 필수 매개 변수는 엔드포인트를 반환할 인스턴스를 지정합니다. 유효한 인스턴스는 _전세계_, _중국_, _독일_, _USGovDoD_, _USGovGCCHigh_ 입니다.
 
 끝점 웹 메서드를 동일한 클라이언트 IP 주소에서 너무 많이 호출하면 HTTP 응답 코드 _429(너무 많은 요청)_ 가 수신될 수 있습니다. 이 응답 코드를 받은 경우, 다시 요청을 반복하기까지 1시간을 기다리거나 요청에 대한 새 GUID를 생성합니다. 일반적으로 버전 웹 메서드가 사용 가능한 새 버전이 있음을 표시하면 끝점 웹 메서드 만 호출합니다.
 
@@ -200,9 +200,9 @@ Worldwide,2018063000
 - required - Office 365에 대한 연결이 지원되기 위해 이 끝점 집합이 필요한 경우 _True_ 입니다. 이 끝점 집합이 선택 사항이면 _False_ 입니다.
 - notes - 선택적 끝점의 경우 이 텍스트는 네트워크 계층에서 이 끝점 집합의 IP 주소나 URL에 액세스할 수 없는 경우 사용할 수 없는 Office 365 기능에 대해 설명합니다. 비워 두면 생략됩니다.
 
-### <a name="examples"></a>예제:
+### <a name="endpoints-web-method-examples"></a>엔드포인트 웹 메서드 예제
 
-예제 1 요청 URI: [https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+예제 1 요청 URI: <https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 이 URI은 모든 워크로드에 대한 Office 365 Worldwide 인스턴스에 대한 모든 끝점을 가져옵니다. 출력 일부를 보여 주는 예제 결과는 다음과 같습니다.
 
@@ -278,11 +278,11 @@ Worldwide,2018063000
   — ips- _ips_ 배열에서 제거할 항목입니다.
   — urls -_urls_ l 배열에서 제거할 항목입니다.
 
-### <a name="examples"></a>예제:
+### <a name="changes-web-method-examples"></a>변경 웹 메서드 예제
 
-예제 1 요청 URI: [https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+예제 1 요청 URI: <https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
-Office 365 Worldwide 서비스 인스턴스에 대한 모든 이전 변경 내용을 요청합니다. 예제 결과:
+Office 365 Worldwide 서비스 인스턴스의 모든 이전 변경 내용을 요청합니다. 예제 결과:
 
 ```json
 [
@@ -318,7 +318,7 @@ Office 365 Worldwide 서비스 인스턴스에 대한 모든 이전 변경 내�
      [
 ```
 
-예제 2 요청 URI: [https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+예제 2 요청 URI: <https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Office 365 Worldwide 인스턴스에 대한 지정된 버전 이후의 변경 내용을 요청합니다. 이 경우 지정된 버전은 최신 버전입니다. 예제 결과:
 
