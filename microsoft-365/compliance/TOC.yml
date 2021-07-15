@@ -555,6 +555,44 @@
           href: record-versioning.md
         - name: 규정 요구 사항에 대한 리소스
           href: retention-regulatory-requirements.md
+- name: 앱 거버넌스 관리
+  items:
+    - name: 앱 보호 및 관리
+      href: app-governance-manage-app-protection-governance.md
+    - name: 앱 거버넌스 시작
+      href: app-governance-get-started.md
+    - name: 앱 거버넌스에 대한 피드백 제출
+      href: app-governance-feedback.md
+    - name: 애플리케이션 가시성 및 인사이트
+      items:
+        - name: 가시성 및 인사이트에 대해 알아보기
+          href: app-governance-visibility-insights-overview.md
+        - name: 시작
+          href: app-governance-visibility-insights-get-started.md
+        - name: 앱 보기
+          href: app-governance-visibility-insights-view-apps.md
+        - name: 규정 준수 상태 확인
+          href: app-governance-visibility-insights-compliance-posture.md
+    - name: 앱 정책 구현
+      items:
+        - name: 앱 정책에 대해 알아보기
+          href: app-governance-app-policies-overview.md
+        - name: 시작
+          href: app-governance-app-policies-get-started.md
+        - name: 앱 정책 만들기
+          href: app-governance-app-policies-create.md
+        - name: 앱 정책 관리
+          href: app-governance-app-policies-manage.md
+    - name: 앱 위협 감지 및 수정
+      items:
+        - name: 검색 및 수정에 대해 알아보기
+          href: app-governance-detect-remediate-overview.md
+        - name: 시작
+          href: app-governance-detect-remediate-get-started.md
+        - name: 변칙 검색 경고 조사
+          href: app-governance-anomaly-detection-alerts.md
+        - name: 앱 위협 해결
+          href: app-governance-detect-remediate-detect-threats.md
 - name: eDiscovery 관리
   items:
     - name: Microsoft 365 eDiscovery 솔루션
