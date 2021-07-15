@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: fcd7f192ba0846e3bf3051cde927095088f32d26
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b17585f7449f1151c7a5f5cd75d06b8e723fbe4b
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245795"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438015"
 ---
 # <a name="device-requirements"></a>장치 요구 사항
 
@@ -49,7 +49,9 @@ Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항�
 - 64비트 버전의 엔터프라이즈용 Microsoft 365 앱 
 - 적용 가능한 모든 장치 드라이버
 
-
+> [!NOTE]
+> Windows 11은 일반 공급에 도달한 후 사전 설치한 소프트웨어를 위한 추가 옵션입니다.
+>
 ### <a name="physical-features"></a>물리적 기능
 
 디바이스에는 다음 기능이 있어야 합니다.
@@ -62,7 +64,8 @@ Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항�
 이러한 기능 및 서비스에서 사용하는 기술과 관련된 기술에 대한 자세한 내용은 Microsoft Managed Desktop [참조합니다.](../intro/technologies.md)
 
 > [!NOTE]
-> ARM 프로세서가 지원되지 않습니다.
+>- ARM 프로세서가 지원되지 않습니다.
+>- Windows 11에는 추가 [하드웨어 요구 사항이 있습니다.](/windows/whats-new/windows-11-requirements)
 
 장치는 저장소 및 메모리에 대한 다음 제한을 충족하거나 초과해야 합니다.
 
@@ -70,7 +73,7 @@ Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항�
 - 부팅 드라이브의 용량은 128GB 이상입니다.
 - 내부 장치 메모리(RAM)가 8GB를 초과하거나 같아야 합니다.
 
-디바이스가 2020년 7월 1일 이후에 만들어진 경우 Hello 를 지원하려면 IR 카메라, 지문 판독기 또는 둘 [다가 Windows 합니다.](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
+디바이스가 2020년 7월 1일 이후에 만들어진 경우 를 지원하려면 IR 카메라, 지문 판독기 또는 둘 [다가 Windows Hello.](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
 
 ## <a name="recommended-features"></a>권장 기능
 

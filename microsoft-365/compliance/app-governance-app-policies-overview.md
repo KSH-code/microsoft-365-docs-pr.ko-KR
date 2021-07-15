@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 정책에 관한 자세한 정보입니다.
-ms.openlocfilehash: 6d4ff23ca0e09f5e410d32d6ced144afc0c4bb15
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: b5d36d6597de54d7936bc542d37d91d0fac0ba45
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420360"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437967"
 ---
 # <a name="learn-about-app-policies"></a>정책에 관한 자세한 정보
 
@@ -29,18 +29,7 @@ Microsoft 앱 거버넌스는 Microsoft 365 테넌트에서 비정상적인 앱 
 
 앱 및 사용자 패턴 및 행위에 대한 이러한 정책은 사용자가 비준수 또는 악성 앱을 사용하지 못하도록 보호하고 위험한 앱의 테넌트 데이터에 대한 액세스를 제한합니다.
 
-다음은 앱 정책 관리에 필요한 관리자 역할에 대한 간단한 개요입니다.
-
-| 역할 | 정책 읽기 | 정책 만들기, 업데이트 또는 삭제 |
-|:-------|:-----|:-------|
-| 준수 관리자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |
-| 규정 준수 읽기 권한자 | ![확인 표시](..\media\checkmark.png) |  |
-| 전역 관리자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |
-| 전역 읽기 권한자  | ![확인 표시](..\media\checkmark.png) |  |
-| 보안 관리자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |
-| 보안 읽기 권한자  | ![확인 표시](..\media\checkmark.png) |  |
-| 보안 운영자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |
-||||
+정책을 수정할 수 있는 역할에 대한 자세한 내용은 [관리자 역할](app-governance-get-started.md#administrator-roles)을 참조하세요.
 
 <!--
 How app policies are the method by which MAPG detects app anomolies resulting in detection (alerts) and remediation (manual or automatic) 

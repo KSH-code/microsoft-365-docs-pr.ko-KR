@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 위협 탐지 및 수정을 시작합니다.
-ms.openlocfilehash: 6229d2cf94ec1ba892929f399fe49cf88da608d1
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 77de3676a9a486bbed572a4a16bf62ad4d038406
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420341"
+ms.locfileid: "53430723"
 ---
 # <a name="get-started-with-app-threat-detection-and-remediation"></a>앱 위협 탐지 및 수정 시작
 
@@ -27,7 +27,7 @@ ms.locfileid: "53420341"
 
 Microsoft 앱 거버넌스는 사용자가 만든 활성 앱 정책이 생성하는 악의적인 앱 활동 및 정책 기반 경고를 기반으로 기본 제공 앱 거버넌스 탐지 방법이 생성하는 위협 경고를 수집합니다.
 
-가장 먼저 앱 경고가 표시되는 곳은 [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance)의 앱 거버넌스 대시보드입니다.
+가장 먼저 앱 경고가 표시되는 곳은 [https://aka.ms/appgovernance](https://aka.ms/appgovernance)의 앱 거버넌스 대시보드입니다.
 
 ![탐지 및 정책 경고 섹션이 강조 표시된 Microsoft 365 준수 센터의 앱 거버넌스 개요 페이지](..\media\manage-app-protection-governance\mapg-cc-overview-alerts.png)
 

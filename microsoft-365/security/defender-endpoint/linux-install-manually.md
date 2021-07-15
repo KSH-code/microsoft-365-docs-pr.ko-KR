@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2b75a9f4446c875e73245aa7d51e8fcc15e8d23c
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 3579e9dab975d8776a53d400121d98fe119fe6cc
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53195024"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438075"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -305,7 +305,12 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     mdatp health --field org_id
     ```
 
-2. 다음 MicrosoftDefenderATPOnboardingLinuxServer.py 실행하고 이 명령을 실행하려면 장치에 다음을 `python` 설치해야 합니다.
+2. 실행 MicrosoftDefenderATPOnboardingLinuxServer.py. 
+   
+    >[!NOTE]
+    >이 명령을 실행하려면 장치에 `python` 설치해야 합니다. RHEL 8.x 또는 Ubuntu 20.04 이상을 실행하는 경우 Python 대신 Python 3을 사용해야 합니다.
+
+
 
     ```bash
     python MicrosoftDefenderATPOnboardingLinuxServer.py
