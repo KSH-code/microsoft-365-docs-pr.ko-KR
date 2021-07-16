@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3579e9dab975d8776a53d400121d98fe119fe6cc
-ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
+ms.openlocfilehash: 4c4ed845a31f044e17c97e0b43adfc86dd3f68ba
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/15/2021
-ms.locfileid: "53438075"
+ms.locfileid: "53454808"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -266,13 +266,13 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 
 ## <a name="download-the-onboarding-package"></a>온보더링 패키지 다운로드
 
-다음 사이트에서 온보더링 패키지를 Microsoft Defender 보안 센터.
+다음 포털에서 온보 Microsoft 365 Defender 다운로드합니다.
 
-1. 다음 Microsoft Defender 보안 센터 **온보드 설정 > 장치** 관리 > 로 이동하세요.
-2. 첫 번째 드롭다운 메뉴에서 **운영 체제로 Linux Server를** 선택합니다. 두 번째 드롭다운 메뉴에서 배포 방법으로 로컬 스크립트(최대 **10대의 디바이스)를** 선택합니다.
+1. Microsoft 365 Defender 포털에서 온보 설정 > 장치 관리 > **끝점 > 로 이동하세요.**
+2. 첫 번째 드롭다운 메뉴에서 **운영 체제로 Linux Server를** 선택합니다. 두 번째 드롭다운 메뉴에서 배포 **방법으로 로컬 스크립트를** 선택합니다.
 3. **온보더링 패키지 다운로드를 선택합니다.** 파일을 다른 파일로 WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Microsoft Defender 보안 센터 스크린샷](images/atp-portal-onboarding-linux.png)
+    ![Microsoft 365 Defender 포털 스크린샷](images/atp-portal-onboarding-linux.png)
 
 4. 명령 프롬프트에서 파일이 있는지 확인
     보관함의 내용을 추출합니다.
@@ -359,11 +359,11 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 
 Linux용 EDR 테스트하기 위해 아래 단계에 따라 Linux 서버에서 검색을 시뮬레이트하고 사례를 조사합니다. 
 
-1.  온보드 Linux 서버가 서버에 나타나는지 Microsoft Defender 보안 센터. 컴퓨터의 첫 번째 온보더링인 경우 표시될 때까지 최대 20분이 걸릴 수 있습니다. 
+1.  온보드 Linux 서버가 서버에 나타나는지 Microsoft 365 Defender. 컴퓨터의 첫 번째 온보더링인 경우 표시될 때까지 최대 20분이 걸릴 수 있습니다. 
 
 2.  스크립트 파일을 [](https://aka.ms/LinuxDIY) 다운로드하여 온보딩된 Linux 서버에 추출하고 다음 명령을 실행합니다.`./mde_linux_edr_diy.sh`
 
-3.  몇 분 후에 검색이 Microsoft Defender 보안 센터.
+3.  몇 분 후에 검색이 Microsoft 365 Defender.
 
 4.  경고 세부 정보, 컴퓨터 타임라인을 살펴보고 일반적인 조사 단계를 수행합니다.
 

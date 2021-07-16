@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 Microsoft 365 추가, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 그룹 관리 방법을 학습합니다.
-ms.openlocfilehash: 3ba3dd36ed3929e956ce6359e678d6b684f64bb9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2ec8198b7e28b47bcbbf40818fbe624b2744f0ee
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908713"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454580"
 ---
-# <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 그룹 관리
+# <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 그룹 Microsoft 365 관리 센터
 
 그룹 그룹을 [Microsoft 365 그룹](create-groups.md) 구성원을 추가한 후 그룹을 구성할 수 있습니다. 그룹 이름 또는 설명을 편집하고, 소유자 또는 구성원을 관리하고, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부와 구성원에게 그룹 대화의 복사본을 보낼지 여부를 지정할 수 있습니다.
 
-에서 Microsoft 365 관리 센터로 [https://admin.microsoft.com](https://admin.microsoft.com) 이동하세요.
+의 Microsoft 365 관리 센터 로 이동 [https://admin.microsoft.com](https://admin.microsoft.com)
 
 ## <a name="edit-the-group-name-or-description"></a>그룹 이름 또는 설명 편집
 
@@ -54,7 +54,7 @@ ms.locfileid: "50908713"
 
 ## <a name="send-copies-of-conversations-to-group-members-inboxes"></a>그룹 구성원의 받은 편지함으로 대화 복사본 보내기
   
-관리 센터를 사용하여 그룹을 만들 때 기본적으로 사용자는 받은 편지함으로 전송된 그룹 전자 메일 및 모임 초대의 복사본을 얻지 않습니다. 대화 및 모임을 보기 위해 그룹으로 이동해야 합니다. 관리 센터에서 이 설정을 변경할 수 있습니다.
+관리 센터를 사용하여 그룹을 만들 때 기본적으로 사용자는 받은 편지함으로 전송된 그룹 전자 메일의 복사본을 얻지 못합니다. 그러나 사용자는 받은 편지함으로 전송된 그룹 모임 초대의 복사본을 얻습니다. 대화를 보기 위해 그룹으로 이동해야 합니다. 관리 센터에서 이 설정을 변경할 수 있습니다.
 
 이 설정을 켜면 그룹 구성원은 그룹 받은 편지함으로 전송된 그룹 전자 메일 및 모임 초대의 복사본을 Outlook 됩니다. 전자 메일의 복사본을 읽고 삭제할 수 있으며 다른 사람에게 영향을 주지 않습니다. 그룹 받은 편지함에는 전자 메일 복사본이 남아 있습니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "50908713"
   
 ## <a name="related-articles"></a>관련 문서
 
-[사용자 Microsoft 365 만들기](create-groups.md)
+[Microsoft 365 그룹 만들기](create-groups.md)
 
 [Microsoft 365 그룹에서 게스트 액세스 관리](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 

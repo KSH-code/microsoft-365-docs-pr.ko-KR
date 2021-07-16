@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: 7e29dd0eff7b05cb55a1fb0e071632353dadbdf8
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 4791948f6fe3ca6df620a0e93851dbf4e11edd98
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53148905"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454020"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -49,32 +49,30 @@ ms.locfileid: "53148905"
 
 ### <a name="where-to-set-permissions"></a>사용 권한을 설정할 위치
 
-조직에 대한 전역 관리자 역할을 보유하는 사용자는 준수 관리자에 대한 사용자 권한을 설정할 수 있습니다. 사용 권한은 Office 365 보안 & 및 Azure AD(Azure Active Directory)에서 설정할 수 있습니다.
+조직에 대한 전역 관리자 역할을 보유하는 사용자는 준수 관리자에 대한 사용자 권한을 설정할 수 있습니다. 사용 권한은 Azure AD(Microsoft 365 규정 준수 센터 및 Azure Active Directory 설정할 수 있습니다.
 
 > [!NOTE]
 > 미국 정부 Community(GCC) 높은 및 국방부(DoD) 환경의 고객은 Azure AD에서 준수 관리자에 대한 사용자 권한 및 역할만 설정할 수 있습니다. Azure AD 지침 및 역할 유형 정의는 아래를 참조하세요.
 
-Office 365 Security & 규정 준수 센터에서 사용 권한을 설정하고 역할을 할당하려면 다음 단계를 따릅니다.
+사용 권한을 설정하고 Microsoft 365 규정 준수 센터 다음 단계를 따르세요.
 
-1. Office 365 보안 & [센터로](https://protection.office.com/) 이동하고 왼쪽 탐색에서 **사용** 권한을 선택합니다.
+1. 이동하여 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/compliancemanager) **탐색에** 대한 사용 권한을 선택합니다.
 
-2. 하나 이상의 사용자를 추가할 역할 그룹을 찾고 그룹 이름 왼쪽에 있는 확인란을 선택합니다. (아래 역할 및 관련 [함수 목록을 참조하세요.](#role-types) 역할 그룹 이름은 역할 이름과 모방됩니다.)
+2. 준수 센터 **드롭다운에서** 역할을 **선택합니다.** 
 
-3. 해당 그룹의 플라이아웃 창에서  구성원 헤더에서 **편집을** 선택합니다.
+3. 하나 이상의 사용자를 추가할 역할 그룹을 찾고 그룹 이름 왼쪽에 있는 확인란을 선택합니다. (아래 역할 및 관련 [함수 목록을 참조하세요.](#role-types) 역할 그룹 이름은 역할 이름과 모방됩니다.)
 
-4. 구성원 **선택 을 선택합니다.** 다른 플라이아웃 창이 나타납니다.
+4. 해당 그룹의 플라이아웃 창에서  구성원 헤더에서 **편집을** 선택합니다.
 
-5. **+ 추가를 선택하여** 그룹에 추가할 사용자를 하나 이상 선택합니다.
+5. 구성원 **선택 을 선택합니다.** 다른 플라이아웃 창이 나타납니다.
 
-6. 추가할 이름 옆의 확인란을 선택한 다음 아래쪽의 추가 단추를 선택합니다. 
+6. **+ 추가를 선택하여** 그룹에 추가할 사용자를 하나 이상 선택합니다.
 
-7. 사용자 할당을 완료했면 완료 **를** 선택한 다음 **저장,** **닫기 를 선택합니다.**
+7. 추가할 이름 옆의 확인란을 선택한 다음 아래쪽의 추가 단추를 선택합니다. 
 
-##### <a name="more-about-the-office-365-security--compliance-center"></a>Office 365 보안 & 규정 준수 센터에 대한 자세한 정보
+8. 사용자 할당을 완료했면 완료 **를** 선택한 다음 **저장,** **닫기 를 선택합니다.**
 
-자세한 내용은 Office 365 보안 및 준수 [센터에서 & 합니다.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
-
-Office 365 보안 및 준수 센터에 액세스할 수 없는 경우 또는 Microsoft Service Trust Portal에서 준수 관리자의 클래식 버전에 액세스해야 하는 경우 서비스 보안 포털의 관리 설정을 통해 역할을 할당할 수 있습니다(지침[보기).](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users) 이러한 역할은 기능에서 더 제한적입니다.
+Microsoft Service Trust Portal에서 준수 관리자의 클래식 버전에 액세스해야 하는 경우 Service Trust Portal의 관리 설정을 통해 역할을 할당할 수 있습니다(지침[보기).](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users) 이러한 역할은 기능에서 더 제한적입니다.
 
 ##### <a name="more-about-azure-ad"></a>Azure AD에 대한 자세한 내용은
 
@@ -187,7 +185,7 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 8. 재할당이 완료되면 플라이아웃 창에 이전 사용자의 모든 개선 작업이 새 사용자에게 다시 재할당된 것이 확인 메시지가 표시됩니다. 재할당 실패 알림을 받으면 창을 닫고 다시 시도하십시오. 플라이아웃 창을 닫고 완료를 **선택합니다.**
 
 새 담당자는 개선 작업에 할당된 전자 메일을 받게 됩니다. 전자 메일에는 개선 작업의 세부 정보 페이지에 대한 직접 링크가 포함되어 있습니다.
- 
+
  > [!NOTE]
 > 보류 중인 업데이트가 있는 작업을 다시 재배치하는 경우 재할당 후 업데이트가 수락되면 재할당 전자 메일의 작업으로 직접 연결되는 링크가 중단됩니다. 업데이트가 수락된 후 사용자에게 작업을 다시 할당하여 이 문제를 해결할 수 있습니다. 개선 [작업의 업데이트에 대해 자세히 알아보시겠어요.](compliance-manager-improvement-actions.md#accepting-updates-to-improvement-actions)
 
@@ -215,7 +213,7 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 
 준수 관리자 대시보드는 현재 규정 준수의 현재 입장을 한눈에 볼 수 있도록 디자인됩니다.
 
-![준수 관리자 - 대시보드](../media/compliance-manager-dashboard.png "준수 관리자 대시보드 검토")
+:::image type="content" alt-text="준수 관리자 - 대시보드." source="../media/compliance-manager-dashboard.png" lightbox="../media/compliance-manager-dashboard.png":::
 
 ### <a name="overall-compliance-score"></a>전체 규정 준수 점수
 

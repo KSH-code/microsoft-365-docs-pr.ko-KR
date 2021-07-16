@@ -24,12 +24,12 @@ ms.custom: migrationguides
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 2953103cb3812103740f98a6db5b8f4d369731e3
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: cff0810a4469d3c2d9ff2fe0fe5100b7a37408ae
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930310"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454748"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 
@@ -47,7 +47,7 @@ Endpoint용 Defender로 전환할 때 Microsoft가 아닌 솔루션이 활성 �
 
 |단계 |설명 |
 |--|--|
-|[마이그레이션 준비](switch-to-microsoft-defender-prepare.md) |[준비 **단계 중:**](switch-to-microsoft-defender-prepare.md) <p>1. 조직의 장치를 업데이트합니다. <p>2. 끝점용 Defender를 얻습니다. <p>3. 역할 및 사용 권한을 계획하고 역할에 대한 액세스 권한을 Microsoft Defender 보안 센터. <p>4. 조직의 장치와 Endpoint용 Defender 간의 통신을 사용하도록 장치 프록시 및 인터넷 설정을 구성합니다. |
+|[마이그레이션 준비](switch-to-microsoft-defender-prepare.md) |[준비 **단계 중:**](switch-to-microsoft-defender-prepare.md) <p>1. 조직의 장치를 업데이트합니다. <p>2. 끝점용 Defender를 얻습니다. <p>3. 역할 및 사용 권한을 계획하고 웹 사이트 포털에 대한 Microsoft 365 Defender 부여합니다. <p>4. 조직의 장치와 Endpoint용 Defender 간의 통신을 사용하도록 장치 프록시 및 인터넷 설정을 구성합니다. |
 |[끝점에 대한 Defender 설정](switch-to-microsoft-defender-setup.md) |설치 [ **단계 중:**](switch-to-microsoft-defender-setup.md) <p>1. 설치를 사용하도록 설정/다시 Microsoft Defender 바이러스 백신. <p>2. 끝점에 대한 Defender를 구성합니다. <p>3. 기존 솔루션의 제외 목록에 끝점용 Defender를 추가합니다. <p>4. 기존 솔루션을 기존 솔루션의 제외 목록에 Microsoft Defender 바이러스 백신. <p>5. 장치 그룹, 컬렉션 및 조직 구성 단위를 설치합니다. <p>6. 맬웨어 방지 정책 및 실시간 보호 설정을 구성합니다.|
 |[끝점용 Defender에 온보딩](switch-to-microsoft-defender-onboard.md) |[ **온보더 단계 중:**](switch-to-microsoft-defender-onboard.md) <p>1. 끝점용 Defender에 장치를 온보딩합니다. <p>2. 검색 테스트를 실행합니다. <p>3. 수동 Microsoft Defender 바이러스 백신 실행 중인지 확인 <p>4. 설치에 대한 업데이트를 Microsoft Defender 바이러스 백신. <p>5. 기존 끝점 보호 솔루션을 제거합니다. <p>6. 끝점에 대한 Defender가 제대로 작동하고 있는지 확인합니다. |
 

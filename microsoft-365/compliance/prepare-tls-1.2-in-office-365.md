@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 331dd1ea510983e57c069f8d142aa0f7d3f7062e
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: ca689b846589ffcb1b8aa4d85ea8a0312f8d9d51
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226086"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463976"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Office 365 및 Office 365 GCC에서 TLS 1.2 준비
 
@@ -30,9 +30,11 @@ Microsoft는 고객에게 최고 수준의 암호화를 제공하기 위해 Offi
 
 TLS 1.0 및 1.1 종속성을 제거하는 방법에 대한 자세한 내용은 다음 백서를 참조하세요. [TLS 1.0 문제 해결](https://www.microsoft.com/download/details.aspx?id=55266).
 
+TLS 1.2로 업그레이드한 후 사용 하는 암호 제품군이 Azure Front Door에서 지원 하는지 확인 합니다. Microsoft 365 Azure Front Door는 암호 제품군 지원에 약간의 차이가 있습니다. 자세한 내용은 Azure Front Door에서 지원하는 현재 암호 [제품군은 무엇입니까?를 참조하세요.](/azure/frontdoor/front-door-faq#what-are-the-current-cipher-suites-supported-by-azure-front-door-)
+
 ## <a name="more-information"></a>추가 정보
 
-2020년 1월부터 이미 TLS 1.0과 1.1의 사용 중단이 시작되었습니다. DoD 또는 GCC High 인스턴스에서 TLS 1.0 또는 1.1을 통해 Office 365에 연결되는 모든 클라이언트, 디바이스 또는 서비스는 지원되지 않습니다. Office 365 고객의 경우 TLS 1.0 및 1.1 사용이 2020년 10월 15일부터 시작되고 출시는 다음 주와 몇 개월에 진행됩니다. 
+2020년 1월부터 이미 TLS 1.0과 1.1의 사용 중단이 시작되었습니다. DoD 또는 GCC High 인스턴스에서 TLS 1.0 또는 1.1을 통해 Office 365에 연결되는 모든 클라이언트, 디바이스 또는 서비스는 지원되지 않습니다. Office 365 고객의 경우 TLS 1.0 및 1.1 사용이 2020년 10월 15일부터 시작되고 출시는 다음 주와 몇 개월에 진행됩니다.
 
 모든 클라이언트-서버 및 브라우저-서버 조합에서는 Office 365 서비스 연결을 유지하기 위해 TLS 1.2(이상의 버전)를 사용하는 것이 좋습니다. 특정 클라이언트-서버 및 브라우저-서버 조합을 업데이트해야 할 수 있습니다.
 

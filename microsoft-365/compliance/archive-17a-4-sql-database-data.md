@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: DataParser 커넥터를 사용하여 17a-4 SQL 설정하고 사용하여 SQL 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: 51fd433ad072ba5afe0b314d7b61041728337240
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 67ad3332a05356702df7b0624ee05519ff30bcac
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137670"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454032"
 ---
-# <a name="set-up-a-connector-to-archive-sql-data-preview"></a>데이터 보관 커넥터 설정(SQL 미리 보기)
+# <a name="set-up-a-connector-to-archive-sql-data"></a>데이터 보관을 위한 SQL 설정
 
 17a-4 LLC의 SQL [DataParser를](https://www.17a-4.com/sql-dataparser/) 사용하여 SQL 데이터베이스의 데이터를 Microsoft 365 사서함으로 가져올 수 있습니다. DataParser에는 타사 SQL 원본의 항목을 캡처하고 해당 항목을 가져오도록 구성된 Microsoft 365. 이 SQL DataParser 커넥터는 SQL 데이터를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 전자 메일 메시지의 사용자 사서함으로 Microsoft 365.
 

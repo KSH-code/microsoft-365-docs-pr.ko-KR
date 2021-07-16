@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 Cisco Webex DataParser 커넥터를 설정하고 사용하여 Cisco Webex 데이터를 Microsoft 365.
-ms.openlocfilehash: 055152f2d566f7cfc32dac132a70bbaf63ceb503
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: ca17ffb9313c6c59884d2c7a55d1bc81816acda7
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097175"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453960"
 ---
-# <a name="set-up-a-connector-to-archive-cisco-webex-data-preview"></a>Cisco Webex 데이터를 보관할 커넥터 설정(미리 보기)
+# <a name="set-up-a-connector-to-archive-cisco-webex-data"></a>Cisco Webex 데이터를 보관할 커넥터 설정
 
 17a-4 LLC의 [Cisco Webex DataParser를](https://www.17a-4.com/webex-dataparser/) 사용하여 Cisco Cisco Webex 플랫폼에서 사용자 사서함으로 데이터를 가져와 Microsoft 365 보관합니다. DataParser에는 타사 데이터 원본에서 항목을 캡처하고 해당 항목을 가져오도록 구성된 Cisco Webex 커넥터가 Microsoft 365. Cisco Webex DataParser 커넥터는 Cisco Webex 데이터를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 전자 메일 메시지의 사용자 사서함으로 Microsoft 365.
 

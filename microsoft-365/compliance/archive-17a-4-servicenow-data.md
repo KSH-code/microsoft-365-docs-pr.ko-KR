@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 ServiceNow DataParser 커넥터를 설정하고 사용하여 17a-4에서 ServiceNow 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: 992f34864f0de7ddff1f8159e9970157bcffb964
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: a01e075b6cbf400bc3b7dc38950d87443a46f81c
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53276968"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454424"
 ---
-# <a name="set-up-a-connector-to-archive-servicenow-data-preview"></a>ServiceNow 데이터를 보관할 커넥터 설정(미리 보기)
+# <a name="set-up-a-connector-to-archive-data-from-servicenow"></a>ServiceNow에서 데이터를 보관할 커넥터 설정
 
 17a-4 LLC의 [ServiceNow DataParser를](https://www.17a-4.com/dataparser/) 사용하여 ServiceNow에서 사용자 사서함으로 데이터를 가져오고 Microsoft 365 보관합니다. DataParser에는 타사 데이터 원본의 항목을 캡처하고 해당 항목을 가져오도록 구성된 ServiceNow 커넥터가 Microsoft 365. ServiceNow DataParser 커넥터는 ServiceNow 데이터를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 전자 메일 메시지의 사용자 사서함으로 Microsoft 365.
 

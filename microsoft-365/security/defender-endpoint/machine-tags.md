@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ffe7d13ca0943e8927d0d9ce663527fedf880e48
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 83dd2483b93b2f4fe520973ce05346f59baf2f28
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187592"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453582"
 ---
 # <a name="create-and-manage-device-tags"></a>장치 태그 만들기 및 관리
 
@@ -58,11 +58,11 @@ API를 사용하여 디바이스 태그를 추가하려면 [디바이스 태그 
 
 2. 응답 작업 행에서 **태그 관리** 를 선택하세요.
 
-    ![태그 관리 단추의 이미지](images/manage-tags.png)
+    :::image type="content" alt-text="태그 관리 단추의 이미지입니다." source="images/manage-tags-option.png":::
 
 3. 태그를 찾거나 만들 입력
 
-    ![device1에 태그를 추가하는 이미지](images/new-tags.png)
+    :::image type="content" alt-text="device1에 태그를 추가하는 이미지입니다." source="images/create-new-tag.png":::
 
 태그는 장치 보기에 추가된 후 장치 목록 보기에도 **반영됩니다.** 그런 다음 태그 **필터를** 사용하여 관련 장치 목록을 볼 수 있습니다.
 
@@ -72,7 +72,7 @@ API를 사용하여 디바이스 태그를 추가하려면 [디바이스 태그 
 
 이 보기에서 태그를 삭제할 수도 있습니다.
 
-![device2에 태그를 추가하는 이미지](images/more-manage-tags.png)
+:::image type="content" alt-text="device2에 태그를 추가하는 이미지입니다." source="images/new-tag-label-display.png":::
 
 ## <a name="add-device-tags-by-setting-a-registry-key-value"></a>레지스트리 키 값을 설정하여 장치 태그 추가
 

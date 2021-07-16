@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: 모든 Advanced eDiscovery 적용하는 모든 검토 설정을 구성합니다. 여기에는 분석 및 광학 문자 인식에 대한 설정이 포함됩니다.
-ms.openlocfilehash: e0ad41354b265016ba67632162a8ead62f11068b
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: 2b9c438e28b8d9b84ec8cc29bf85911e5bdc3c8d
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430555"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453900"
 ---
 # <a name="configure-search-and-analytics-settings-in-advanced-ediscovery"></a>검색 및 분석 설정 구성 Advanced eDiscovery
 
@@ -80,13 +80,13 @@ ms.locfileid: "53430555"
 
 ## <a name="ignore-text"></a>텍스트 무시
 
-전자 메일의 콘텐츠에 관계없이 전자 메일 메시지에 추가되는 긴 고지와 같이 특정 텍스트가 분석 품질을 하할 수 있는 상황이 있습니다. 무시해야 하는 텍스트에 대해 알고 있는 경우, 텍스트 문자열과 텍스트에서 제외해야 하는 분석 기능(근사 중복, 전자 메일 스레드, 테마 및 관련성)을 지정하여 분석에서 제외할 수 있습니다. 정규식(RegEx)을 무시된 텍스트로 사용할 수도 있습니다. 
+전자 메일의 콘텐츠에 관계없이 전자 메일 메시지에 추가되는 긴 고지와 같이 특정 텍스트가 분석 품질을 하할 수 있는 상황이 있습니다. 무시해야 하는 텍스트에 대해 알고 있는 경우, 텍스트 문자열과 텍스트에서 제외해야 하는 분석 기능(근사 중복, 전자 메일 스레드, 테마 및 관련성)을 지정하여 분석에서 제외할 수 있습니다. 정규식(RegEx)을 무시된 텍스트로 사용할 수도 있습니다.
 
 ## <a name="optical-character-recognition-ocr"></a>광학 문자 인식(OCR)
 
 이 설정을 설정하면 이미지 파일에서 OCR 처리가 실행됩니다. OCR 처리는 다음과 같은 상황에서 실행됩니다.
 
-- 보호자 및 비보조 [](non-custodial-data-sources.md) 데이터 원본이 사례에 추가되는 경우 OCR 처리는 고급 인덱싱 [프로세스 중에 수행됩니다.](indexing-custodian-data.md) OCR은 고급 인덱싱 중에 처리된 항목에만 실행됩니다. 예를 들어 고급 인덱싱 중에 부분적으로 인덱싱되거나 다른 인덱싱 오류가 있는 큰 PDF 파일을 처리하면 파일에 OCR도 적용됩니다. 즉, OCR 처리는 고급 인덱싱 프로세스 중에 다시 인덱싱되는 파일에만 발생합니다. 즉, 보안 주관이 사례에 추가될 때 일부 전자 메일 첨부 파일이 고급 인덱싱 중에 처리되지 않는 경우 OCR에 대해 처리되지 않습니다. OCR이 이미지 파일을 적용하면 해당 이미지 파일의 텍스트를 컬렉션 중에 검색할 수 있습니다.
+- 보호자 및 비보조 [](non-custodial-data-sources.md) 데이터 원본이 사례에 추가되는 경우 이미지 파일에 OCR을 적용하면 컬렉션 중에 해당 파일의 텍스트를 검색할 수 있습니다. OCR 처리는 고급 인덱싱 [프로세스 중에 수행됩니다.](indexing-custodian-data.md) OCR은 고급 인덱싱 중에 처리된 항목에만 실행됩니다. 예를 들어 고급 인덱싱 중에 부분적으로 인덱싱되거나 다른 인덱싱 오류가 있는 큰 PDF 파일을 처리하면 파일에 OCR도 적용됩니다. 즉, OCR 처리는 고급 인덱싱 프로세스 중에 다시 인덱싱되는 파일에만 발생합니다. 즉, 보안 주관이 사례에 추가되지만 일부 전자 메일 첨부 파일은 고급 인덱싱 중에 처리되지 않는 OCR에 대해 처리되지 않는 상황이 있을 수 있습니다.
 
 - 다른 데이터 원본의 콘텐츠(양도인과 연결되지 않은 데이터 원본의 경우 사례에 추가)가 검토 집합에 추가되는 경우.
 

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스에 대한 추가 장치 정보입니다.'
-ms.openlocfilehash: 684af01b2d90f44b2cda1cf050d1e4db70f92915
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 1eb7b18360cefeeb2d5770c3d77e564d5a757a5e
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289442"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453570"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 추가 장치 정보
 
@@ -153,7 +153,7 @@ iOS 장치에서는 캐시된 계정을 장치에서 수동으로 제거하고, 
 
 사용자는 앱, 앱 Outlook, Teams 및 OneDrive 앱으로 이동하고 해당 앱에서 계정을 제거할 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **조직이 영향을 받는지 어떻게 알 수 있나요?**
 
@@ -166,6 +166,10 @@ iOS 장치에서는 캐시된 계정을 장치에서 수동으로 제거하고, 
 **모든 장치가 공용 클라우드에 등록되어 있는 것을 어떻게 알 수 있나요?**
 
 장치가 공용 클라우드에 등록되어 있는지 확인하려면 Azure AD 포털에서 장치 목록을 내보내고 앱 스프레드시트로 Excel 합니다. 그런 다음 조직에서 마이그레이션 프로세스의 9단계를 통과한 날짜 이후에 _registeredTime_ 열을 사용하여 등록된 장치를 [필터링합니다.](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization)
+
+**아직 Dns 기반 DNS를 사용하여 Microsoft용 DNS 레코드 만들기에 Windows [DNS 이름을 추가해야 하나요?](/microsoft-365/admin/dns/create-dns-records-using-windows-based-dns?view=o365-worldwide#add-two-cname-records-for-mobile-device-management-mdm-for-microsoft)**
+
+이 DNS 항목은 더 이상 장치를 다시 등록할 필요가 없습니다. 
 
 ## <a name="additional-considerations"></a>추가 고려 사항
 

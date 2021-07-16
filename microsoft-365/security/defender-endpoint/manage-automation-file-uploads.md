@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c8935368e4439221f2ce21cfa620e540c02165f8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: b7d330388dd698cb524c1f4a8edaf9039ba4d16e
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185852"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454832"
 ---
 # <a name="manage-automation-file-uploads"></a>자동화 파일 업로드 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "51185852"
 
 ## <a name="add-file-extension-names-and-attachment-extension-names"></a>파일 확장명 이름과 첨부 파일 확장명을 추가합니다.
 
-1. 탐색 창에서 자동화 **설정**  >  **업로드를 선택합니다.** 
+1. 탐색 창에서 **끝점 규칙 설정**  >    >    >  **업로드를 선택합니다.**
 
 2. 설정 및 해제 간에 콘텐츠 분석 **설정을** **전환합니다.**
 

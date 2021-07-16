@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 Symphony DataParser 커넥터를 설정하고 사용하여 Symphony 데이터를 Microsoft 365.
-ms.openlocfilehash: da947c80a296aa4fee8ccabb9bb82eecc1d9b103
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 0dce81b5251612bc3c3ddb467c658bd4a32d56f7
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097178"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453936"
 ---
-# <a name="set-up-a-connector-to-archive-symphony-data-preview"></a>Symphony 데이터를 보관할 커넥터 설정(미리 보기)
+# <a name="set-up-a-connector-to-archive-data-from-symphony"></a>Symphony에서 데이터를 보관할 커넥터 설정
 
 17a-4 LLC의 [Symphony DataParser를 사용하여 Symphony](https://www.17a-4.com/Symphony-dataparser/) 통신 데이터를 Microsoft 365 사서함에 보관합니다. DataParser에는 타사 데이터 원본에서 항목을 캡처하고 해당 항목을 가져오도록 구성된 Symphony 커넥터가 Microsoft 365. Symphony DataParser 커넥터는 Symphony 데이터를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 전자 메일 메시지의 사용자 사서함으로 Microsoft 365.
 

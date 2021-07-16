@@ -1,5 +1,5 @@
 ---
-title: Blackboard Microsoft Teams 클래스 통합
+title: Blackboard Microsoft Teams 클래스 사용
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,13 +12,13 @@ f1.keywords:
 ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-description: Blackboard Microsoft Teams 클래스 통합
-ms.openlocfilehash: da98fae3fa5d6be2513147be58747512bea99e16
-ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+description: Blackboard Microsoft Teams 클래스 사용
+ms.openlocfilehash: a97d5bf56e1e045ccb0ef7cc66ecef7dfba4041a
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314498"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454641"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard-learn-ultra"></a>Blackboard Microsoft Teams 클래스 사용
 
@@ -27,15 +27,15 @@ ms.locfileid: "53314498"
 클래스에는 실시간 대화, 비디오 모임 또는 비동기 조작이 포함되어 있을 수 있습니다. 학생을 위한 파일 공유 및 공동 준비 환경을 한 장소에 모두 추가할 수 있습니다. Microsoft Teams 학습을 통해 교육의 역동성 및 효과적인 학습의 의미를 다시 정합니다.
 
 > [!IMPORTANT]
-> SIS(학생 정보 시스템)에서 기관 전자 메일 필드를 성공적으로 설정해야 합니다. `help.blackboard.com/Learn/Administrator/SaaS/Integrations/Student\_Information\_System/SIS\_Planning`
+> [SIS(학생](https://help.blackboard.com/Learn/Administrator/SaaS/Integrations/Student_Information_System/SIS_Planning) 정보 시스템)에서 기관 전자 메일 필드를 성공적으로 설정해야 합니다.
 >
->Microsoft Teams 클래스 통합은 SIS의 기관 전자 메일 필드를 통해 AAD(Microsoft Azure Active Directory) UPN(사용자 계정 이름)에 매핑됩니다. 기관 전자 메일이 프로비전되지 않은 경우 이 전자 메일은 기본적으로 기존 전자 메일로 설정됩니다. 데이터가 올바르게 동기화되도록 모든 사용자에 대해 이 필드를 설정하고 Microsoft AAD와 Blackboard Learn Ultra 간에 전자 메일 데이터가 충돌하지 않도록 하는 것이 좋습니다.
+>Microsoft Teams 클래스 통합은 SIS의 기관 전자 메일 필드를 통해 AAD(Microsoft Azure Active Directory) [UPN(사용자](/azure/active-directory/hybrid/howto-troubleshoot-upn-changes)원칙 이름)에 매핑됩니다. 기관 전자 메일이 프로비전되지 않은 경우 이 전자 메일은 기본적으로 기존 전자 메일로 설정됩니다. 데이터가 올바르게 동기화되도록 모든 사용자에 대해 이 필드를 설정하고 AAD와 Blackboard Learn Ultra 간에 전자 메일 데이터가 충돌하지 않도록 하는 것이 좋습니다.
 >
 > SIS 매핑에서 이 필드를 적절하게 설정하지 않은 경우 통합이 계속 작동하지만 사용자가 만든 Teams 나타나지 않을 수 있으며 오류가 발생할 수 있습니다.
 
 ## <a name="supporting-institutional-data-mapping--institution-email-sis-field"></a>기관 데이터 매핑 지원 - 기관 전자 메일 SIS 필드
 
-클라우드 공급자 통합의 일부로 Blackboard Learn Ultra는 학생  정보 시스템 프레임워크 통합과 공용 REST API 모두에 새로운 기관 전자 메일 필드를 만들어 기관이 Blackboard Learn Ultra와 Microsoft AAD 간에 데이터 동기화 프로세스를 효과적으로 관리할 수 있도록 합니다.
+클라우드 공급자 통합의 일부로 Blackboard Learn Ultra는 학생  정보 시스템 프레임워크 통합과 공용 REST API 모두에 새로운 기관 전자 메일 필드를 만들어 기관이 Blackboard Learn Ultra와 AAD 간에 데이터 동기화 프로세스를 효과적으로 관리할 수 있도록 합니다.
 
 ### <a name="what-does-the-institution-email-mean-and-what-does-it-support"></a>기관 전자 메일의 의미와 지원 여부
 
@@ -59,6 +59,8 @@ ms.locfileid: "53314498"
 이 Microsoft Teams 통합은 울트라 코스 보기 과정에만 **사용할 수 있습니다.** 해당 기관에서 다음 요구 사항을 충족해야 합니다.
 
 - 초고속 탐색을 사용하도록 설정한 Blackboard가 매우 자세히 학습 SaaS를 사용하도록 설정
+
+  ![이 기능의 예는 과정에서 사용하도록 설정됩니다.](media/feature-availability.png)
 
 - 과정에 사용할 LTI를 사용하도록 설정
 
@@ -157,6 +159,10 @@ LTI 통합을 구성하기 전에 Blackboard Learn Ultra Teams Classes Azure 앱
 > [!NOTE]
 > **{Tenant}를** 특정 기관용 테넌트 Microsoft Azure 대체합니다.
 
+사용자에게 액세스 권한을 Blackboard Learn Ultra에 부여할 수 있는 권한을 설명하는 사용 권한 창이 Microsoft Teams.
+
+![Microsoft 및 Blackboard의 사용 권한 창](media/permissions1.png)
+
 ### <a name="after-configuring-the-lti-applications"></a>LTI 응용 프로그램 구성 후
 
 1. 관리자 **패널에서** 도구  및 유틸리티로 이동하고 통합 **Microsoft Teams 선택합니다.**
@@ -172,3 +178,5 @@ LTI 통합을 구성하기 전에 Blackboard Learn Ultra Teams Classes Azure 앱
    - 동의가 승인되지 않은 경우 설명된 단계에 따라 동의를 위해 URL을 생성하고 승인을 위해 Microsoft 365 전역 관리자에게 전송합니다.
 
 5. 승인을 확인한 후 다시 **시도를** 선택하여 확인한 다음 제출을 **선택합니다.**
+
+   ![액세스가 차단된 것을 나타내는 대화 상자](media/blocked-access.png)

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f2c799d477c400482c16b09b4d8a5cdc01106dfa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 13307d3205818d41e7b2219b4e3a4ed6e9f2d5bb
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934084"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454791"
 ---
 # <a name="microsoft-secure-score-for-devices"></a>장치용 Microsoft Secure Score
 
@@ -41,7 +41,7 @@ ms.locfileid: "51934084"
 >[!NOTE]
 > 구성 점수는 이제 장치용 Microsoft 위협 및 취약성 관리 점수의 일부입니다.
 
-장치에 대한 점수는 디바이스의 위협 및 취약성 관리 [대시보드에](tvm-dashboard-insights.md) Microsoft Defender 보안 센터. 장치에 대한 Microsoft 보안 점수가 높을수록 끝점이 사이버 보안 위협 공격으로부터 더 탄력적입니다. 다음 범주에 걸쳐 디바이스의 전체 보안 구성 상태를 반영합니다.
+디바이스에 대한 점수는 위협 및 취약성 관리 포털의 [Microsoft 365 Defender](tvm-dashboard-insights.md) 표시됩니다. 장치에 대한 Microsoft 보안 점수가 높을수록 끝점이 사이버 보안 위협 공격으로부터 더 탄력적입니다. 다음 범주에 걸쳐 디바이스의 전체 보안 구성 상태를 반영합니다.
 
 - 응용 프로그램
 - 운영 체제
@@ -57,7 +57,7 @@ ms.locfileid: "51934084"
 
 변경 내용을 대시보드에 반영하는 데 최대 몇 시간이 걸릴 수 있습니다.
 
-1. 탐색 창에서 고급 설정   >  **이동** 
+1. 탐색 창에서 끝점 **설정**  >    >  **고급** 기능으로  >  **이동** 
 
 2. **아래로 스크롤하여 Microsoft 보안** 점수로 이동하고 설정을 으로 **전환합니다.**
 
@@ -79,19 +79,21 @@ Microsoft Secure Score for Devices 카드의 데이터는 세세하고 지속적
 
 보안 권장 사항 목록의 문제를 수정하여 보안 구성을 개선합니다. 이렇게 할 때 장치에 대한 Microsoft 보안 점수가 개선될 수 있으며 조직은 사이버 보안 위협 및 취약성에 대해 더 탄력적으로 대응할 수 있습니다.
 
-1. 위협 및 취약성 관리 대시보드의 Microsoft Secure Score for Devices(장치 보안 점수) 카드에서 범주 중 하나를 선택합니다. 해당 범주와 관련된 추천 목록을 볼 수 있습니다. 보안 권장 사항 [**페이지로 이동합니다.**](tvm-security-recommendation.md) 모든 보안 권장 사항을 확인하려는 경우 보안 권장 사항 페이지로 이동한 후 검색 필드를 지우십시오.
+1. 위협 및 취약성 관리 대시보드의 Microsoft 장치 보안 점수 카드에서 범주 중 하나를 선택합니다. 해당 범주와 관련된 추천 목록을 볼 수 있습니다. 보안 권장 사항 [**페이지로 이동합니다.**](tvm-security-recommendation.md) 모든 보안 권장 사항을 확인하려는 경우 보안 권장 사항 페이지로 이동한 후 검색 필드를 지우십시오.
 
 2. 목록에서 항목을 선택합니다. 추천과 관련된 세부 정보가 있는 플라이아웃 패널이 열립니다. 수정 **옵션 을 선택합니다.**
 
-   ![보안 제어 관련 보안 권장 사항](images/tvm_security_controls.png)
+   :::image type="content" alt-text="보안은 관련 보안 권장 사항을 제어합니다." source="images/security-controls.png":::
 
 3. 설명을 읽어 문제의 컨텍스트와 다음에 할 작업을 이해합니다. 기한을 선택하고 메모를 추가하고, 추가 작업 수행을 위해 전자 메일에 첨부할 수 있도록 모든 재구성 활동 데이터를 **CSV로** 내보내기 를 선택합니다.
 
 4. **요청을 제출합니다.** 재구성 작업이 만들어졌다는 확인 메시지가 표시됩니다.
-   ![재구성 작업 생성 확인](images/tvm_remediation_task_created.png)
+
+   :::image type="content" alt-text="재구성 작업 만들기 확인." source="images/remediation-task-created.png":::
 
 5. CSV 파일을 저장합니다.
-   ![csv 파일 저장](images/tvm_save_csv_file.png)
+
+   :::image type="content" alt-text="csv 파일을 저장합니다." source="images/tvm_save_csv_file.png":::
 
 6. IT 관리자에게 후속 전자 메일을 보내고 수정을 위해 시스템에서 전파하도록 허용하는 시간을 허용합니다.
 

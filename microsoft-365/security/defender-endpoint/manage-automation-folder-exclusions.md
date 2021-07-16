@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 37a251acd3b7631cffffaf2eb76bf0f2b4954ee6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 05c103cba051c7d5e7f45e5dd3feb288013ee367
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185840"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454820"
 ---
 # <a name="manage-automation-folder-exclusions"></a>자동화 폴더 제외 관리 
 
@@ -59,7 +59,7 @@ ms.locfileid: "51185840"
 
 
 ## <a name="add-an-automation-folder-exclusion"></a>자동화 폴더 제외 추가
-1. 탐색 창에서 자동화 **설정**  >  **제외를 선택합니다.**  
+1. 탐색 창에서 **끝점** 규칙 설정 폴더 제외를  >    >    >  **선택합니다.**  
 
 2. 새 **폴더 제외 를 클릭합니다.**  
 
@@ -69,7 +69,6 @@ ms.locfileid: "51185840"
     - 확장
     - 파일 이름
     - 설명
-    
 
 4. **저장** 을 클릭합니다.
 
@@ -77,14 +76,14 @@ ms.locfileid: "51185840"
 > 제외된 파일을 수집하거나 검사하기 위해 라이브 응답 명령은 오류와 함께 실패합니다. "파일이 제외됩니다." 또한 자동화된 조사는 제외된 항목을 무시합니다.
 
 ## <a name="edit-an-automation-folder-exclusion"></a>자동화 폴더 제외 편집 
-1. 탐색 창에서 자동화 **설정**  >  **제외를 선택합니다.** 
+1. 탐색 창에서 **끝점** 규칙 설정 폴더 제외를  >    >    >  **선택합니다.** 
 
 2. 폴더 **제외에서** 편집을 클릭합니다.  
 
 3. 규칙의 세부 정보를 업데이트하고 저장을 **클릭합니다.**
 
 ## <a name="remove-an-automation-folder-exclusion"></a>자동화 폴더 제외 제거 
-1. 탐색 창에서 자동화 **설정**  >  **제외를 선택합니다.**  
+1. 탐색 창에서 **끝점** 규칙 설정 폴더 제외를  >    >    >  **선택합니다.**  
 2. 제외 **제거를 클릭합니다.** 
 
 

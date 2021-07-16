@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: it-pro
 description: 테넌트에 대한 테넌트 설정 로드맵을 Microsoft 365.
-ms.openlocfilehash: fb3b6eecd893a5ab9b71bfa7bdfaea53af43470d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4b94540293b86bd922ce4b29f970e52eb1245a01
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909457"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464036"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>테넌트에 대한 Microsoft 365
 
@@ -43,14 +43,14 @@ ms.locfileid: "50909457"
 - [클라이언트 앱 지원 계획](microsoft-365-client-support-certificate-based-authentication.md)
 - [하이브리드 최신 인증 사용 방법 결정](hybrid-modern-auth-overview.md)
 - [Office 2007 및 Office 업그레이드 계획](plan-upgrade-previous-versions-office.md)
-- [테넌트 고리 이해](microsoft-365-tenant-isolation-overview.md)
+- [테넌트 고리 이해](/compliance/assurance/microsoft-365-isolation-controls)
 
 ### <a name="deploy"></a>배포
 
 테넌트 배포: 
 
 - 조직의 [DNS](../admin/setup/add-domain.md) 도메인을 추가합니다.
-- Microsoft 365 관리 [센터의 설정 가이드를 사용하세요.](setup-guides-for-microsoft-365.md)
+- 의 [설치 가이드를 Microsoft 365 관리 센터.](setup-guides-for-microsoft-365.md)
 - ID 인프라를 [구축하고](identity-roadmap-microsoft-365.md) [사용자 로그인을 보호합니다.](microsoft-365-secure-sign-in.md)
 
 ### <a name="move-a-tenants-geographic-locations"></a>테넌트의 지리적 위치 이동

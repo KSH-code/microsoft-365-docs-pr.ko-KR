@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 제어
+title: Microsoft 365 격리 제어
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -17,13 +17,13 @@ f1.keywords:
 description: 서비스가 상호 작동하거나 필요한 Microsoft 365 자율적으로 작동할 수 있도록 하여 제어 내에서의 작동 방식에 대해 알아보습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 514b12e44d9e81a18b691ebf3196a3d21157e71b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.sourcegitcommit: 27addd4dac07926528b788215d2dcd0e46301eb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918945"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464130"
 ---
-# <a name="microsoft-365-isolation-controls"></a>Microsoft 365 제어 
+# <a name="microsoft-365-isolation-controls"></a>Microsoft 365 격리 제어 
 
 Microsoft는 Microsoft의 다중 테넌트 아키텍처가 엔터프라이즈 수준의 보안Microsoft 365 기밀성, 개인 정보 보호, 무결성, 로컬, 국제 및 가용성 표준을 지원하도록 지속적으로 [작업합니다.](https://www.microsoft.com/TrustCenter/Compliance?service=Office#Icons) Microsoft에서 제공하는 서비스의 규모와 범위는 사용자 개입이 많은 서비스를 관리하기 어렵고 Microsoft 365 비가치적입니다. Microsoft 365 서비스는 여러 전역으로 분산된 데이터 센터를 통해 제공되고 각 서비스는 휴먼 터치 또는 고객 콘텐츠에 대한 액세스가 필요한 몇 가지 작업으로 고도로 자동화됩니다. 당사의 직원은 자동화된 도구와 매우 안전한 원격 액세스를 사용하여 이러한 서비스 및 데이터 센터를 지원하고 있습니다. 
 

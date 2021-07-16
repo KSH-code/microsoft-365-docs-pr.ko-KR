@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: e1de507dd5ec9508df0318c8ba2ef30af795e25b
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: 130b264735d00083116a5cf18cc0c4bf6b1a764c
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430795"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453636"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -183,6 +183,9 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 - **레이블이 표시되는 사용자 및 그룹을 선택합니다.** Azure AD에서 레이블은 특정 사용자 또는 전자 메일 사용이 가능한 보안 그룹, 메일 그룹 또는 Microsoft 365 그룹([동적 구성원](/azure/active-directory/users-groups-roles/groups-create-rule)이 될 수 있음)에 게시할 수 있습니다.
 
 - 새 문서, 레이블이 지정되지 않은 이메일 및 새 컨테이너에 대한 **기본 레이블을 지정** 합니다([Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에 대해 민감도 레이블을 활성화](sensitivity-labels-teams-groups-sites.md)한 경우). 세 가지 유형의 항목 모두 또는 다른 레이블에 대해 동일한 레이블을 지정할 수 있습니다. 문서에 대한 기본 레이블을 지정하면 Azure Information Protection 통합 레이블 지정 클라이언트는 레이블이 지정되지 않은 기존 문서에도 이 레이블을 적용합니다. 레이블이 문서 또는 전자 메일에 대한 올바른 레이블이 아닌 경우에는 사용자가 언제든지 기본 레이블을 변경할 수 있습니다.
+    
+    > [!IMPORTANT]
+    > [하위 레이블](#sublabels-grouping-labels)이 있는 경우 부모 레이블을 기본 레이블로 구성하지 않도록 주의해야 합니다.
     
     모든 콘텐츠에 적용할 기본 수준의 보호 설정을 설정하려면 기본 레이블 사용을 고려하십시오. 그러나 사용자 교육 및 기타 컨트롤이 없는 경우 이 설정으로 인해 레이블이 정확하지 않을 수 있습니다. 일반적으로 문서에 대한 기본 레이블로 암호화를 적용하는 레이블을 선택하지 않는 것이 좋습니다. 예를 들어, 많은 조직에서 암호화를 지원하는 앱이 없는 외부 사용자와 문서를 보내고 공유해야 하거나, 권한을 부여할 수 있는 계정을 사용하지 않을 수 있습니다. 이 시나리오에 대한 자세한 내용은 [암호화된 문서를 외부 사용자와 공유하기](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users)를 참조하세요.
 

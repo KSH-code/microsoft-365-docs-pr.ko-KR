@@ -13,17 +13,14 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 캔버스 Microsoft Teams 통합
-ms.openlocfilehash: 7e13052cb029fef369f6386c2039785e40acc4ff
-ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
+ms.openlocfilehash: 54dd3cc2709933ffb7b7d5fecdd181fad2abb42b
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53409095"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454676"
 ---
 # <a name="use-microsoft-teams-meetings-with-canvas"></a>Canvas에서 Microsoft Teams 모임 사용
-
-> [!IMPORTANT]
-> 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
 Microsoft Teams 모임은 교육자 및 학생이 LMS(Learning Management System) 및 LMS(Learning 관리 시스템) 사이를 쉽게 탐색하는 데 도움이 되는 LTI(Learning 도구 상호 운영성) Teams. 사용자는 LMS 내에서 직접 과정과 연결된 수업 팀에 액세스할 수 있습니다.
 

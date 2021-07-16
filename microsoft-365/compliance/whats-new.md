@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4e298a9dc8b23e3977db51d5a3b96f7b0723a0d1
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: acbad7a1c5fa541ee83da668768cc42af7a5afda
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394944"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464012"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -46,6 +46,10 @@ ms.locfileid: "53394944"
 ### <a name="customer-key"></a>고객 키
 
 - [고객 키를 사용하여](customer-key-overview.md) 서비스 암호화(고객 키 테넌트 수준 DEP는 이제 고객에 대한 민감도 레이블 구성을 Microsoft Information Protection.
+
+### <a name="data-connectors"></a>데이터 커넥터
+
+- [17a-4 LLC와 함께 17개](archiving-third-party-data.md#17a-4-data-connectors) 새로운 데이터 커넥터를 출시하고 [CellTrust와](archiving-third-party-data.md#celltrust-data-connectors)협력하여 새 커넥터 1개가 출시되었습니다. 또한 [Veritas](archiving-third-party-data.md#veritas-data-connectors) 및 [TeleMessage와](archiving-third-party-data.md#telemessage-data-connectors)협력하여 추가 데이터 커넥터를 출시했습니다. 현재까지 타사 데이터를 가져와 보관할 수 있는 데이터 커넥터는 총 65개로 Microsoft 365.
 
 ### <a name="ediscovery"></a>eDiscovery
 

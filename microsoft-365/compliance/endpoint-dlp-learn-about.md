@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: c97368dd48515dc787dbac66aa93844889efbdbc
-ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+ms.openlocfilehash: 3da15f1ac35ca448a76638c31f047c6a2132ad7a
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314419"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454008"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Microsoft 365 끝점 데이터 손실 방지 알아보기
 
@@ -53,7 +53,7 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 
 ## <a name="monitored-files"></a>모니터링된 파일
 
-끝점 DLP는 다음 파일 형식의 모니터링을 지원합니다.
+끝점 DLP는 다음 파일 형식의 모니터링을 지원합니다. DLP는 정책 일치가 없는 경우에도 이러한 파일 유형에 대한 작업을 감사합니다. 
 
 - Word 파일
 - PowerPoint 파일
@@ -69,8 +69,11 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 - cs 파일
 - h 파일
 - java 파일
+ 
+정책 일치의 데이터만 모니터링하려는 경우 끝점 DLP 전역 설정에서 **장치의 항상 감사 파일 활동** 을 해제할 수 있습니다.
 
-기본적으로 끝점 DLP는 정책 일치가 없는 경우에도 이러한 파일 유형에 대한 작업을 감사합니다. 정책 일치의 데이터만 모니터링하려는 경우 끝점 DLP 전역 설정에서 **장치의 항상 감사 파일 활동** 을 해제할 수 있습니다. 이 설정이 켜져 있으면 장치가 정책에 의해 대상이 지정되지 않더라도 Word, PowerPoint, Excel, PDF 및 .csv 파일의 작업이 항상 감사됩니다.
+> [!NOTE]
+> **장치에 대한 파일 활동 항상 감사** 설정이 켜져 있으면 장치가 정책에 의해 대상이 지정되지 않더라도 Word, PowerPoint, Excel, PDF 및 .csv 파일의 작업이 항상 감사됩니다.
 
 끝점 DLP는 활동 기반의 Om MIME 유형을 모니터링하므로 파일 확장명이 변경되더라도 활동은 캡처됩니다.
 

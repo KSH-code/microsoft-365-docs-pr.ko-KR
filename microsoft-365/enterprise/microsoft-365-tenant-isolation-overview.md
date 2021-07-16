@@ -17,11 +17,11 @@ f1.keywords:
 description: 이 문서에는 Microsoft에서 테넌트와 같은 클라우드 서비스에서 테넌트 Microsoft 365.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: b52d936bb00ac0adef0baf428cbc5f9a8f8aba49
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.sourcegitcommit: 27addd4dac07926528b788215d2dcd0e46301eb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194652"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464123"
 ---
 # <a name="tenant-isolation-in-microsoft-365"></a>테넌트의 테넌트 Microsoft 365
 

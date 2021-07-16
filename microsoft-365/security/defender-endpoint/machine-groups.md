@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d4f62acde4e7d790c7a7c8635f51c99f0823687d
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 49bd90d8a082f55622e54976cc8fc78229d8c646
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842773"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453540"
 ---
 # <a name="create-and-manage-device-groups"></a>장치 그룹 만들기 및 관리
 
@@ -59,7 +59,7 @@ RBAC(역할 기반 액세스)의 컨텍스트에서 장치 그룹을 만들어 �
 
 ## <a name="create-a-device-group"></a>장치 그룹 만들기
 
-1. 탐색 창에서 장치 **설정**  >  **선택합니다.**
+1. 탐색 창에서 **끝점 사용 설정** 장치 그룹  >  **을**  >    >  **선택합니다.**
 
 2. 장치 **그룹 추가를 클릭합니다.**
 

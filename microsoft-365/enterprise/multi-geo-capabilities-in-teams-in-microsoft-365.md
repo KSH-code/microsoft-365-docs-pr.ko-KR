@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-spintranet
 localization_priority: Normal
 description: Multi-Geo에서 Teams 작동하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9fe9b289b0ffbef12327c4232b9deb6727b6d718
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 7da2032e1106d03178eccf3bcfb4f37fc63780d7
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362669"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453528"
 ---
 # <a name="multi-geo-capabilities-in-microsoft-teams"></a>Microsoft Teams
 
@@ -48,7 +48,7 @@ Get-MultiGeoRegion -EntityType User -EntityId <UPN>
 
 ## <a name="channel-messages"></a>채널 메시지
 
-각 Microsoft 365 그룹에는 관련 데이터를 저장할 지리적 위치를 지정하는 PDL(기본 설정 데이터 위치)이 있습니다. Teams 팀과 연결된 그룹에 대해 PDL을 사용하여 해당 팀의 채널 메시징 데이터를 저장할 위치를 결정할 수 있습니다. 여기에는 채널 모임 내에서 발생하는 채팅이 포함됩니다.
+각 Microsoft 365 그룹에는 관련 데이터를 저장할 지리적 위치를 지정하는 PDL(기본 설정 데이터 위치)이 있습니다. Teams 팀과 연결된 그룹에 대해 PDL을 사용하여 해당 팀의 채널 메시징 데이터를 저장할 위치를 결정할 수 있습니다. 여기에는 채널 모임 내에서 발생하는 채팅뿐만 아니라 비공개 채널도 포함됩니다.
 
 사용자가 새 팀을 만드는 경우 해당 사용자의 PDL은 새 팀 그룹에 할당된 PDL을 Microsoft 365 합니다. 그룹 PDL은 해당 팀의 데이터가 저장되는 위치를 파악합니다. 해당 사용자의 PDL이 나중에 변경될 경우 그룹의 PDL이 변경되지 않습니다.
 

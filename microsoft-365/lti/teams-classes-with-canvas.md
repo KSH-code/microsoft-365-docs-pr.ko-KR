@@ -13,19 +13,24 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Canvas Microsoft Teams 클래스 통합
-ms.openlocfilehash: 50e4e8ef912a8f19f379bba29b328a5a27358b5c
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: e8ab45de84fe8325f6d5b349deb96aa831d54e36
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256906"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454688"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Canvas에서 Microsoft Teams 클래스 사용
 
-> [!IMPORTANT]
-> 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
-
 Microsoft Teams 클래스는 교사와 학생이 LMS(Learning Management System) 및 LMS(Learning 관리 시스템) 사이를 쉽게 탐색하는 데 도움이 되는 LTI(Learning 도구 상호 운영성) 앱입니다Teams. 사용자는 LMS 내에서 직접 과정과 연결된 수업 팀에 액세스할 수 있습니다.
+
+## <a name="prerequisites-before-deployment"></a>배포 전의 선행 구성
+
+> [!NOTE]
+> 현재 클래스 Teams LTI는 Canvas 사용자와 제한된 범위의 AAD(Microsoft Azure Active Directory) 동기화만 지원됩니다. 
+> - 테넌트는 Canvas 필드(전자 메일, 사용자 ID 또는 SIS ID)와 Microsoft AAD의 UPN 간에 정확히 일치해야 합니다. 동기화 기능에 대한 유연성을 확장하기 위해 작업 중이지만, 그 동안 Canvas의 사용자가 AAD의 UPN과 일치하지 않는 사용자는 Canvas와 동기화된 Teams 클래스에 추가되지 않습니다. 
+> - Canvas와 Microsoft 간에 사용자를 매핑하는 데는 단일 Microsoft 테넌트만 사용할 수 있습니다.
+> - 그룹이 중복되는 것을 방지하기 위해 Class Teams LTI를 사용하기 전에 SDS를 해제해야 합니다.
 
 ## <a name="microsoft-office-365-admin"></a>Microsoft Office 365 관리자
 
@@ -78,3 +83,9 @@ Canvas 관리자는 사용자 환경 내에 Microsoft Teams 클래스 LTI 앱을
 5. **설치** 를 선택합니다.
 
    LTI Microsoft Teams 클래스가 외부 앱 목록에 추가됩니다.
+   
+## <a name="enabling-the-lti-app-for-canvas-courses"></a>Canvas에 대한 LTI 앱 사용 과정
+
+과정 내에서 LTI 앱을 사용하려면 Canvas 과정의 강사는 통합 동기화를 사용하도록 설정해야 합니다. 각 강사는 해당 팀을 만들 수 있어야 합니다. 팀을 만들기 위한 전역 메커니즘은 있습니다. 이는 원치 않는 팀이 만들어지지 않도록 예방 조치로 디자인되었습니다.
+
+각 과정에 대해 [](https://support.microsoft.com/topic/use-microsoft-teams-classes-in-your-lms-preview-ac6a1e34-32f7-45e6-b83e-094185a1e78a#ID0EBD=Instructure_Canvas) LTI 앱을 사용하도록 설정하고 통합 설정을 완료하려면 강사 설명서를 참조하세요.

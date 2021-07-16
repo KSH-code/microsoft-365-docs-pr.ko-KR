@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 777f5f63c4739f277ec24f826bc8a61a226fb65f
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 4aff505f9f35b6144360eed5992ac36cf0847617
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339673"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454712"
 ---
 # <a name="onboard-non-windows-devices"></a>Windows가 아닌 장치 온보딩
 
@@ -50,7 +50,7 @@ Endpoint용 Defender는 비보안 플랫폼뿐만 아니라 Windows 중앙 집�
 
    - macOS 장치의 경우 끝점용 Microsoft Defender를 통해 또는 타사 솔루션을 통해 온보딩할 수 있습니다. 자세한 내용은 [Mac의 끝점용 Microsoft Defender를 참조하세요.](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
 
-   - 비영리 Windows 타사 Windows 장치를 **온보드합니다.**   
+   - 타사가 아닌 Windows 장치의 경우 타사 통합을 통해 Windows **비영구 장치 온보드를 선택하십시오.**   
     1. 탐색 창에서 상호 교환 파트너 **를**  >  **선택합니다.** 타사 솔루션이 나열되어 있는지 확인
     2. 파트너 **응용 프로그램 탭에서** 비프로그램 디바이스를 지원하는 Windows 선택합니다.
     3. 파트너 **페이지 열기 를** 선택하여 파트너 페이지를 열 수 있습니다. 페이지에 제공된 지침을 따릅니다.

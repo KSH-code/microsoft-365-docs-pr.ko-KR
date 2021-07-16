@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: CellTrust SL2 데이터 커넥터를 설정하고 사용하여 모바일 통신 데이터를 가져오고 보관하는 방법을 학습합니다.
-ms.openlocfilehash: 0929a92978f9b48d40153b3cc7328e5e05b54fd0
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 191160921c9e949aa7b82520d72dc7a18bfb26ef
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097225"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453975"
 ---
-# <a name="archive-data-from-celltrust-sl2-to-microsoft-365-preview"></a>CellTrust SL2의 데이터를 보관하여 Microsoft 365(미리 보기)
+# <a name="archive-data-from-celltrust-sl2-to-microsoft-365"></a>CellTrust SL2의 데이터를 보관하여 Microsoft 365
 
 CellTrust SL2는 모바일 통신 데이터를 캡처하고 주요 보관 기술과 통합하여 FINRA, HIPAA, FOIA 및 TCPA와 같은 규정에 대한 전자 검색 요구 사항을 충족합니다. SL2 데이터 커넥터는 모바일 통신 항목을 가져오고 Microsoft 365. 이 문서에서는 보관을 위해 CellTrust SL2 Microsoft 365 사용하여 SL2를 통합하는 프로세스에 대해 설명합니다. 이 프로세스를 완료하면 사용자가 CellTrust SL2 서비스를 구독하고 SL2 아키텍처에 익숙한 것으로 가정합니다. SL2에 대한 자세한 내용은 <WWW.CELLTRUST.COM>.
 

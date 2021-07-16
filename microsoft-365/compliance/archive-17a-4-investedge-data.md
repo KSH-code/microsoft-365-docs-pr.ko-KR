@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 InvestEdge DataParser 커넥터를 설정하고 사용하여 17a-4에서 InvestEdge 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: fd384cb25486c4fa072dc17283c5b73e26e514a6
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: b20d9809c4bea113580a62c7a414321ed15da6ad
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097309"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454472"
 ---
-# <a name="set-up-a-connector-to-archive-investedge-data-preview"></a>투자 데이터를 보관할 커넥터 설정(미리 보기)
+# <a name="set-up-a-connector-to-archive-investedge-data"></a>투자 데이터를 보관할 커넥터 설정
 
 17a-4 LLC의 [InvestEdge DataParser를](https://www.17a-4.com/investedge-dataparser/) 사용하여 InvestEdge에서 조직의 사용자 사서함으로 데이터를 Microsoft 365 보관합니다. DataParser에는 타사 데이터 원본의 항목을 캡처하고 해당 항목을 다른 데이터 원본으로 가져오도록 구성된 InvestEdge 커넥터가 Microsoft 365. InvestEdge DataParser 커넥터는 InvestEdge 데이터를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 해당 사서함의 사용자 사서함으로 Microsoft 365.
 

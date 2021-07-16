@@ -20,12 +20,12 @@ description: 관리자는 검색 포털에서 사용할 수 있는 Office 365 De
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f7eab856f22ac1c2282e83897db6e3f93d4d97e6
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: e8bb03202139137adf55c4c10230b1c4e99253ba
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083515"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454724"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>검색 포털에서 Office 365 대한 Microsoft 365 Defender 보기
 
@@ -191,11 +191,24 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 |보고서|항목|
 |---|---|
 |**탐색기(Office 365** 계획 2용 Microsoft Defender) 또는 실시간 검색(Office 365 계획 1용 Microsoft Defender) |[위협 탐색기 (실시간 검출)](threat-explorer.md)|
-|**전자 메일 보안 보고서(** 예: 상위 보낸 사람 및 받는 사람 보고서, 스푸핑 메일 보고서 및 스팸 검색 보고서)|[전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기](view-email-security-reports.md)|
-|**메일 흐름 보고서(** 예: 전달 보고서, 메일 흐름 상황 보고서 및 최상위 보낸 사람 및 받는 사람 보고서)|[새 관리 센터의 메일 흐름 Exchange 보고서](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
-|**링크에 금고 URL** 추적(PowerShell에만 해당). 이 cmdlet의 출력은 지난 7일 동안의 금고 링크 작업의 결과를 보여줍니다.|[Get-UrlTrace](/powershell/module/exchange/get-urltrace)|
-|**EOP 및 Microsoft Defender for Office 365** 메일 트래픽 결과(PowerShell에만 해당) 이 cmdlet의 출력에는 Domain, Date, Event Type, Direction, Action 및 Message Count에 대한 정보가 포함되어 있습니다.|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport)|
-|**전자 메일 검색에 대한 EOP 및 Defender에 대한 Office 365 보고서입니다(PowerShell에만** 해당). 이 cmdlet의 출력에는 악성 파일 또는 URL, 피싱 시도, 가장 및 전자 메일 또는 파일의 기타 잠재적 위협에 대한 세부 정보가 포함되어 있습니다.|[Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
+|보안에 Defender가 필요하지 않은 전자 메일 보안 Office 365|[전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기](view-email-security-reports.md)|
+|EAC(Exchange 관리 센터)의 메일 흐름 보고서|[새 관리 센터의 메일 흐름 Exchange 보고서](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
+|
+
+PowerShell 보고 cmdlet:
+
+<br>
+
+****
+
+|보고서|항목|
+|---|---|
+|상위 보낸 사람 및 받는 사람|[Get-MailTrafficTopReport](/powershell/module/exchange/get-mailtraffictopreport) <p> [Get-MailTrafficSummaryReport](/powershell/module/exchange/get-mailtrafficsummaryreport)|
+|상위 맬웨어|[Get-MailTrafficSummaryReport](/powershell/module/exchange/get-mailtrafficsummaryreport)|
+|메일 트래픽|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport) <p> [Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
+|안전한 링크|[Get-SafeLinksAggregateReport](/powershell/module/exchange/get-safelinksaggregatereport) <p> [Get-SafeLinksDetailReport](/powershell/module/exchange/get-safelinksdetailreport)|
+|손상된 사용자|[Get-CompromisedUserAggregateReport](/powershell/module/exchange/get-compromiseduseraggregatereport) <p> [Get-CompromisedUserDetailReport](/powershell/module/exchange/get-compromiseduserdetailreport)|
+|메일 흐름 상태|[Get-MailflowStatusReport](/powershell/module/exchange/get-mailflowstatusreport)|
 |
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>보고서에 대한 Defender를 보는 데 Office 365 권한은 무엇입니까?
@@ -204,8 +217,8 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기**
-- **전역 읽기**
+- **보안 읽기 권한자**
+- **전역 읽기 권한자**
 
 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
