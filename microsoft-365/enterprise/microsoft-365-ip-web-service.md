@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Office 365 IP 주소 및 URL 웹 서비스를 사용하여 Office 365 네트워크 트래픽을 손쉽게 식별하고 구분하는 방법을 알아봅니다.
-ms.openlocfilehash: 6a8786d99c92fae43113d550b76a87281cde0c5b
-ms.sourcegitcommit: ea8de1b48adb6df92fb9351ea862184a9f16cbbb
+ms.openlocfilehash: 4de78934a76a7dba16f79cb9cc6f93a7c935a314
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53461294"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419790"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스
 
@@ -131,7 +131,7 @@ Microsoft는 매월 초에 Office 365 IP 주소와 FQDN 항목을 업데이트�
 }
 ```
 
-예제 3 요청 URI: <https://endpoints.office.com/version/Worldwide?Format=CSV&ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
+예제 3 요청 URI: <https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 이 URI는 출력을 CSV 형식으로 표시합니다. 예제 결과:
 
@@ -140,7 +140,7 @@ instance,latest
 Worldwide,2018063000
 ```
 
-예제 4 요청 URI: <https://endpoints.office.com/version/Worldwide?AllVersions=true&ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
+예제 4 요청 URI: <https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 이 URI는 Office 365 Worldwide 서비스 인스턴스용으로 게시된 모든 이전 버전을 보여 줍니다. 예제 결과:
 
