@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 규정 준수 상태를 확인합니다.
-ms.openlocfilehash: 3d7cac319c31bac40a3aad2f6b9a4c16303f6a20
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 152f68e8fe0e7d7340d2e048bc73684bc079386f
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420252"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438027"
 ---
 # <a name="determine-your-app-compliance-posture"></a>앱 규정 준수 상태 확인
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-Microsoft 앱 거버넌스를 사용하면 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/appgovernance) 앱 거버넌스 개요 페이지에서 타사 앱의 규정 준수 상태와 Microsoft 365 테넌트에서의 데이터 액세스를 신속하게 평가할 수 있습니다.
+Microsoft 앱 거버넌스를 사용하면 [Microsoft 365 규정 준수 센터](https://aka.ms/appgovernance) 앱 거버넌스 개요 페이지에서 타사 앱의 규정 준수 상태와 Microsoft 365 테넌트에서의 데이터 액세스를 신속하게 평가할 수 있습니다.
 
 ![Microsoft 365 규정 준수 센터의 앱 거버넌스 개요 페이지](..\media\manage-app-protection-governance\mapg-cc-overview.png)
 
@@ -52,9 +52,9 @@ Microsoft 앱 거버넌스를 사용하면 [Microsoft 365 규정 준수 센터](
 
   이 정보에서 경고가 생성되는 빈도와 검색된 경고 및 정책 기반 경고의 상대적 수를 확인할 수 있습니다.
 
-- 데이터 및 리소스 액세스의 경우 다음을 확인할 수 있습니다.
+- 데이터 및 리소스 액세스의 경우:
 
-  - 지난 90일 동안의 애플리케이션 API 데이터 액세스
-  - 지난 90일 동안의 상위 리소스 사용량
+  - 현재 및 이전 3개월간 Graph API를 통해 테넌트의 앱에서 액세스한 총 데이터입니다. (현재 메일 및 파일 업로드와 다운로드 사용량만 포함)
+  - 현재 및 이전 3개월간의 데이터 사용량을 리소스 종류별로 구분한 것입니다. (현재 메일 및 파일 업로드와 다운로드 사용량만 포함)
 
-  이 정보에서 Microsoft 365 테넌트에서 데이터 액세스가 비정상적으로 급증했는지 확인할 수 있습니다.
+  이 정보로 Microsoft 365 테넌트에서 데이터 액세스가 비정상적으로 급증했는지 확인할 수 있습니다.

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 위협 감지 및 수정에 대해 알아봅니다.
-ms.openlocfilehash: 26cd8501fdd8bd828357f8adb7d4e90f96e70114
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 574688e67b7562c8df6aec7d2242e68485239479
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420329"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438051"
 ---
 # <a name="learn-about-app-threat-detection-and-remediation"></a>앱 위협 감지 및 수정에 대해 알아보기
 
@@ -42,27 +42,27 @@ Microsoft 앱 거버넌스를 사용하면 다음을 수행할 수 있습니다.
 
 앱 거버넌스, Azure Active Directory(Azure AD) 및 Microsoft Cloud App Security는 다양한 데이터 집합을 수집하여 제공합니다.
 
+- App Governance는 API 레벨에서 앱의 활동에 대한 자세한 정보를 제공합니다.
 - Azure AD는 앱 로그인에 대한 기본 앱 메타데이터와 세부 정보를 제공합니다.
-- 앱 거버넌스는 API 수준에서 앱의 활동에 대한 자세한 정보를 제공합니다.
 - Microsoft Cloud App Security는 앱 위험 정보를 제공합니다.
 
 앱 거버넌스, Azure AD 및 Microsoft Cloud App Security 전반에서 정보를 공유하면 한 포털에 집계 정보를 표시하고 다른 포털에 연결하여 자세한 정보를 확인할 수 있습니다. 다음은 몇 가지 예입니다.
 
-- 앱 거버넌스의 앱 로그인 정보입니다.
+- 애플리케이션 거버넌스의 애플리케이션 로그인 정보:
 
-  앱 거버넌스 포털에서 각 앱에 대해 집계된 로그인 활동을 확인하고 Azure Active Directory 관리 센터에 다시 연결하여 로그인 이벤트의 세부 정보를 볼 수 있습니다.
+  애플리케이션 거버넌스 포털에서 각 애플리케이션에 대해 집계된 로그인 작업을 확인하고 Azure Active Directory 관리 센터에 다시 연결하여 로그인 이벤트에 대한 세부 정보를 확인할 수 있습니다.
 
 - Azure Active Directory 관리 센터의 앱 API 사용량 정보입니다.
 
   Azure Active Directory 관리 센터에서 집계된 앱 사용량 정보를 확인하고 앱 사용량에 대한 자세한 내용은 앱 거버넌스 포털 링크를 통해 확인할 수 있습니다.
 
-- Microsoft Cloud App Security 포털의 API 사용량 정보입니다. 
+- Microsoft Cloud App Security 포털의 API 사용량 정보: 
 
-  Microsoft Cloud App Security 포털에서 API 사용량 수준과 집계 데이터 전송을 확인할 수 있으며 자세한 내용은 앱 거버넌스 포털 링크를 통해 확인할 수 있습니다.
+  Microsoft Cloud App Security 포털에서 API 사용 수준 및 Aggregate 데이터 전송을 확인하고 애플리케이션 거버넌스 포털에 연결하여 자세한 내용을 확인할 수 있습니다.
 
 다음은 통합에 대한 요약입니다.
 
-![Azure AD 및 Microsoft Cloud App Security 앱 거버넌스 통합](..\media\manage-app-protection-governance\mapg-integration.png)
+![애플리케이션 거버넌스를 Azure AD 및 Microsoft Cloud App Security와 통합합니다.](..\media\manage-app-protection-governance\mapg-integration.png)
 
 또한 앱 거버넌스는 앱 기반 보안 인시던트에 대한 자세한 분석을 위해 경고를 Microsoft Cloud App Security 및 Microsoft 365 Defender에 신호로 보냅니다.
 

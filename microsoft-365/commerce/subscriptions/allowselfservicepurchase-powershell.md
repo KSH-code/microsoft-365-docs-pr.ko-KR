@@ -20,13 +20,13 @@ search.appverid:
 - MET150
 description: AllowSelfServicePurchase PowerShell cmdlet을 사용하여 셀프 서비스 구매를 켜거나 끄는 방법을 학습합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 03/18/2021
-ms.openlocfilehash: fbba7f4385684a8a34f9feebc28a27e8e867bacb
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.date: 07/16/2021
+ms.openlocfilehash: 77cb1c753db22929ea2c3d14226a3927e6406b89
+ms.sourcegitcommit: ea8de1b48adb6df92fb9351ea862184a9f16cbbb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227478"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53461366"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용
 
@@ -103,8 +103,10 @@ Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase
 | Project 플랜 1 | CFQ7TTC0KXND |
 | Project 플랜 3 | CFQ7TTC0KXNC |
 | Visio 플랜 1 | CFQ7TTC0KXN9 |
-| Visio 플랜 2 | CFQ7TTC0KXN8 |
-
+| Visio Plan 2 | CFQ7TTC0KXN8 |
+| Windows 365 Enterprise | CFQ7TTC0HHS9 |
+| Windows 365 Business | CFQ7TTC0J203 |
+| Windows 하이브리드 혜택이 있는 Windows 365 Business | CFQ7TTC0HX99 |
 ## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a>AllowSelfServicePurchase의 상태 보기 또는 설정
 
 셀프 서비스 구매에 사용할 수 있는 제품 목록을 보고 나면 특정 제품의 설정을 보거나 수정할 수 있습니다.
