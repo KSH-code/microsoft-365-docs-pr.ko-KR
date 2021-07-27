@@ -1,9 +1,9 @@
 ---
-title: Office 365 보안, Office 365용 Microsoft Defender, EOP, MSDO
+title: Office 365 Microsoft Defender for Office 365 및 Exchange Online Protection
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 06/11/2021
+ms.date: 07/21/2021
 audience: Admin
 ms.topic: conceptual
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 현재 보유 중인 항목이 무엇이고 이러한 항목을 어떻게 보호할 수 있는지 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: db458f0a3a3ac2cc4a06d0827844e156798f6505
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 5b9db76654e19309816b29e5cfe607c064b8d364
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083659"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542234"
 ---
 # <a name="microsoft-defender-for-office-365-security-overview"></a>Microsoft Defender for Office 365 보안 개요
 

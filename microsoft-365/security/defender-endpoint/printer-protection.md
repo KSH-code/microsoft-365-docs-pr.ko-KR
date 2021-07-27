@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 0f089efedef1e4fb6b146692da3f1a630f2bacac
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 4a91bece49c4e1e12e8f0a2d9d2d6f6cf0e2681a
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289694"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53538892"
 ---
 # <a name="device-control-printer-protection"></a>장치 제어 프린터 보호
 
@@ -138,23 +138,15 @@ CSP 지원 문자열은 `<enabled/>` 입니다.
 
 Microsoft 365 [보안 센터에는](https://security.microsoft.com) 위의 장치 제어 프린터 보호 정책에 의해 차단된 인쇄가 표시됩니다.
 
-```sql
+```kusto
 DeviceEvents
-
-|where ActionType == 'PrintJobBlocked'
-
+| where ActionType == 'PrintJobBlocked'
 | extend parsed=parse_json(AdditionalFields)
-
 | extend PrintedFile=tostring(parsed.JobOrDocumentName)
-
 | extend PrintPortName=tostring(parsed.PortName)
-
 | extend PrinterName=tostring(parsed.PrinterName)
-
 | extend Policy=tostring(parsed.RestrictionReason) 
-
-| project Timestamp, DeviceId, DeviceName, ActionType, InitiatingProcessAccountName,Policy, PrintedFile, PrinterName, PrintPortName, AdditionalFields
-
+| project Timestamp, DeviceId, DeviceName, ActionType, InitiatingProcessAccountName, Policy, PrintedFile, PrinterName, PrintPortName, AdditionalFields
 | order by Timestamp desc
 ```
 

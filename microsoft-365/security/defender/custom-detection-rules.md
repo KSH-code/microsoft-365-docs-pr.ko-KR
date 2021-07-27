@@ -1,5 +1,5 @@
 ---
-title: Defender에서 사용자 지정 검색 규칙 Microsoft 365 관리
+title: 사용자 지정 검색 규칙 만들기 및 Microsoft 365 Defender
 description: 고급 헌팅 쿼리를 기반으로 사용자 지정 검색 규칙을 만들고 관리하는 방법을 배우기
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, 규칙, schema, kusto, RBAC, 사용 권한, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f37cc63c958331f7c03e09689de92c73fd06b4d4
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: e7b48ef5dcd98a948b8af0dc2f6f61ac1bb81f4d
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952563"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542612"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -48,7 +48,7 @@ ms.locfileid: "51952563"
 
 필요한 사용 권한을 관리하려면 전역 **관리자가 다음을 할 수** 있습니다.
 
-- 역할 **보안 관리자의** **Microsoft 365** 관리 [센터에서](https://admin.microsoft.com/) 보안 관리자 또는 보안 운영자 역할을  >  **할당합니다.**
+- 역할 **보안** 관리자 **아래에서** Microsoft 365 관리 센터 [보안](https://admin.microsoft.com/) 관리자 **또는** 보안 운영자 역할을  >  **할당합니다.**
 - 사용 권한 역할에서 Microsoft Defender for [Endpoint에 Microsoft Defender 보안 센터](https://securitycenter.windows.com/) RBAC **설정**  >    >  **확인합니다.** 해당 역할을 선택하여 보안 설정 관리 **권한을 할당합니다.**
 
 > [!NOTE]
@@ -89,6 +89,9 @@ ms.locfileid: "51952563"
 또는 연산자를 사용하여 결과를 사용자 지정하거나 집계하지 않는 쿼리와 같은 단순 쿼리는 일반적으로 이러한 공통 `project` `summarize` 열을 반환합니다.
 
 보다 복잡한 쿼리에서 이러한 열을 반환하는 방법에는 여러 가지가 있습니다. 예를 들어 과 같은 열 아래에서 엔터티별로 집계 및 개수를 계산하고 를 원하는 경우 각 고유 을 포함하는 가장 최근 이벤트에서 를 반환하여 반환할 `DeviceId` `Timestamp` 수 `ReportId` `DeviceId` 있습니다.
+
+> [!IMPORTANT]
+> 열을 사용하여 사용자 지정 검색을 필터링하지 `Timestamp` 않도록 합니다. 사용자 지정 검색에 사용되는 데이터는 검색 빈도에 따라 미리 필터링됩니다.
 
 아래 샘플 쿼리는 바이러스 백신 검색이 있는 고유 장치( )의 수를 계산하고 이 개수를 사용하여 5개가 넘게 검색된 장치만 `DeviceId` 검색합니다. 최신 및 해당 `Timestamp` 을 반환하기 위해 `ReportId` 함수와 함께 `summarize` 연산자를 `arg_max` 사용 합니다.
 
@@ -156,7 +159,7 @@ DeviceEvents
 이 옵션을  선택하면 쿼리 결과의 , 또는 열에서 사용자에게 손상된 것으로 표시 작업이 `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` 수행됩니다. 이 작업은 에서 사용자 위험 수준을 "높음"으로 Azure Active Directory ID 보호 정책을 [트리거합니다.](/azure/active-directory/identity-protection/overview-identity-protection)
 
 > [!NOTE]
-> 사용자 지정 검색 규칙에 대한 허용 또는 차단 작업은 현재 Defender에서 Microsoft 365 않습니다.
+> 사용자 지정 검색 규칙에 대한 허용 또는 차단 작업은 현재 사용자 지정 규칙에서 지원되지 Microsoft 365 Defender.
 
 ### <a name="5-set-the-rule-scope"></a>5. 규칙 범위를 설정합니다.
 범위를 설정하여 규칙에서 다루는 장치를 지정합니다. 이 범위는 장치를 검사하는 규칙에 영향을 주며 사서함과 사용자 계정 또는 ID만 검사하는 규칙에는 영향을 주지 않습니다.
@@ -181,7 +184,7 @@ DeviceEvents
 기존 사용자 지정 검색 규칙 목록을 보고, 이전 실행을 확인하고, 트리거된 경고를 검토할 수 있습니다. 필요한 경우 규칙을 실행하고 수정할 수도 있습니다.
 
 >[!TIP]
-> 사용자 지정 검색으로 발생된 경고는 경고 및 인시던트 API를 통해 사용할 수 있습니다. 자세한 내용은 Supported [Microsoft 365 Defender API를 참조하세요.](api-supported.md)
+> 사용자 지정 검색으로 발생된 경고는 경고 및 인시던트 API를 통해 사용할 수 있습니다. 자세한 내용은 지원되는 [api를 Microsoft 365 Defender 참조하세요.](api-supported.md)
 
 ### <a name="view-existing-rules"></a>기존 규칙 보기
 
@@ -222,7 +225,7 @@ DeviceEvents
 >정보를 빠르게 보고 표의 항목에 대한 작업을 수행하기 위해 표 왼쪽에 있는 [&#10003;] 열을 사용하세요.
 
 >[!NOTE]
->이 문서의 일부 열은 Microsoft Defender for Endpoint에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
+>이 문서의 일부 열은 Microsoft Defender for Endpoint에서 사용할 수 없습니다. [더 많은 Microsoft 365 Defender](m365d-enable.md) 사용하여 위협을 헌팅할 수 있습니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 Defender [Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 쿼리 마이그레이션의 단계를 수행하여 고급 헌팅 워크플로를 끝점으로 이동할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 - [사용자 지정 검색 개요](custom-detections-overview.md)

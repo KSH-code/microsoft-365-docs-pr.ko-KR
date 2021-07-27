@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva 항목 계획
+title: Microsoft Viva 계획
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,15 +9,15 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Viva 항목 계획 방법 학습
-ms.openlocfilehash: a407fd6e6919c3b85235e317e5ed3ff103607700
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+description: Microsoft Viva 계획하는 방법 학습
+ms.openlocfilehash: bd732edf9d206f6d62ed0cb3040b1d077b1948ca
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229542"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542396"
 ---
-# <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 항목 계획
+# <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 계획
 
 조직에서 주제가 어떻게 경험하는지 제어할 수 있습니다. 항목에 대한 계획 결정은 사용자에게 고품질 항목을 표시하고 지식을 소비하고 기여할 수 있는 올바른 권한을 가지게 합니다.
 
@@ -30,15 +30,17 @@ ms.locfileid: "53229542"
 - 항목 센터에서 항목을 만들거나 편집할 수 있는 권한을 부여하려는 사용자
 - 주제 센터에 제공하려는 이름
 
-데이터의 보안 및 개인 정보는 준수하며, 항목 환경은 사용자에게 권한이 없는 파일에 대한 추가 액세스 권한을 부여하지 않습니다. 또한 계획 프로세스의 일부로 [Microsoft Viva 항목](topic-experiences-security-privacy.md) 보안 및 개인 정보 보호를 읽어보는 것이 좋습니다.
+데이터의 보안 및 개인 정보는 준수하며, 항목 환경은 사용자에게 권한이 없는 파일에 대한 추가 액세스 권한을 부여하지 않습니다. 또한 계획 프로세스의 [일부로 Microsoft Viva](topic-experiences-security-privacy.md) 보안 및 개인 정보 보호를 읽어보는 것이 좋습니다.
 
-Viva 항목 뒤에 있는 AI 기술에 대한 자세한 내용은 [Microsoft Viva의 Alexandria 항목:](https://www.microsoft.com/research/blog/alexandria-in-microsoft-viva-topics-from-big-data-to-big-knowledge)큰 데이터에서 큰 지식으로 읽습니다.
+Viva 항목 뒤에 있는 AI 기술에 대한 자세한 내용은 Microsoft Viva 항목: 큰 지식에서부터 큰 지식까지의 [Alexandria를 참조하세요.](https://www.microsoft.com/research/blog/alexandria-in-microsoft-viva-topics-from-big-data-to-big-knowledge)
+
+Viva 항목은 사용자가 매일 사용하는 사이트 및 파일에 액세스해야 합니다. 테스트 또는 개발 환경에서 Viva 항목을 배포하면 유용한 결과가 산출되지 않을 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
 Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.microsoft.com/microsoft-viva/topics) SharePoint 관리자 또는 Microsoft 365 관리 센터 해야 합니다.
 
-항목을 사용하려면 모든 사용자에게 항목 환경 **라이선스가** 필요합니다. 라이선스 할당은 Microsoft [Viva 항목 설정에서 다를 수 있습니다.](set-up-topic-experiences.md)
+항목을 사용하려면 모든 사용자에게 항목 환경 **라이선스가** 필요합니다. 라이선스 할당은 Set [up Microsoft Viva 항목에서 다를 수 있습니다.](set-up-topic-experiences.md)
 
 ## <a name="topic-discovery"></a>항목 검색
 
@@ -94,7 +96,7 @@ Site name,URL
 
 누구도 항목에 참여하지 못하도록 선택할 수 있습니다. 그러나 이는 권장되지 않습니다. 이 옵션을 선택하는 경우 지식 관리자는 여전히 항목을 편집하고 만들 수 있습니다.
 
-*주제 뷰어*
+*항목 뷰어*
 
 항목 뷰어는 항목 페이지에 대한 정보, 검색 결과 및 콘텐츠에서 항목을 강조 표시하는 경우(SharePoint 수 있습니다. 사용자는 항목에서 검색된 파일 및 페이지에 액세스할 수 있는 경우 검색된 항목만 볼 수 있습니다.
 

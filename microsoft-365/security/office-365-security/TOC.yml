@@ -158,8 +158,16 @@
           href: air-custom-reporting.md
         - name: 고급 스팸 필터 (ASF) 설정
           href: advanced-spam-filtering-asf-options.md
-        - name: 테넌트 허용/차단 목록 관리
-          href: tenant-allow-block-list.md
+        - name: 테넌트 허용/차단 목록
+          items:
+            - name: 테넌트 허용/차단 목록 관리
+              href: tenant-allow-block-list.md
+            - name: 테넌트 허용/차단 목록에 블록 추가
+              href: manage-tenant-blocks.md
+            - name: 테넌트 허용/차단 목록에 허용 추가
+              href: manage-tenant-allows.md
+            - name: 테넌트 허용/차단 목록에서 항목 수정 및 제거
+              href: modify-remove-entries-tenant-allow-block.md
         - name: 보안 및 준수 센터의 메시지 추적
           href: message-trace-scc.md
         - name: Microsoft에 메시지와 파일 보고
@@ -186,7 +194,7 @@
               href: real-time-detections.md
         - name: 위협 트래커 사용
           href: threat-trackers.md
-        - name: 경고 보기
+        - name: 알림 정책
           href: ../../compliance/alert-policies.md
         - name: 보안 및 준수 센터의 똑똑한 보고서 및 분석
           href: reports-and-insights-in-security-and-compliance.md

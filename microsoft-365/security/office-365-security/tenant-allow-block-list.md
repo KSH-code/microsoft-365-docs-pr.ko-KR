@@ -13,15 +13,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 구성하는 방법을 배울 수 있습니다.
+description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 관리하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dbd4694a7442b3898d24304dc78fc95c28c9a905
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: a09229eb9c7794742248f857384d138e41313b73
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394956"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53538856"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 관리
 
@@ -35,8 +35,7 @@ ms.locfileid: "53394956"
 > [!NOTE]
 >
 > 이 문서에 설명된 기능은 미리 보기에 있으며 변경될 수 있으며 일부 조직에서는 사용할 수 없습니다.  이 문서에 설명된 스푸핑 기능이 조직에 없는 경우 [EOP에서](walkthrough-spoof-intelligence-insight.md)스푸핑 인텔리전스 정책을 사용하여 스푸핑된 보낸 사람 관리에서 이전 스푸핑 관리 환경을 참조하세요.
->
-> 현재는 **테넌트** 허용/차단 목록에서 허용된 URL 또는 파일 항목을 구성할 수 없습니다.
+
 
 Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Exchange Online Protection) 조직에서 Exchange Online EOP 필터링 판정에 동의하지 않을 수 있습니다. 예를 들어 양호한 메시지는 나쁜 메시지(가음성)로 표시되거나 잘못된 메시지가 통과(거짓 부정)로 표시될 수 있습니다.
 
@@ -45,6 +44,8 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 - 차단할 URL입니다.
 - 차단할 파일입니다.
 - 허용하거나 차단할 스푸핑된 보낸 사람입니다. 스푸핑 인텔리전스 인사이트에서 [](learn-about-spoof-intelligence.md)허용 또는 차단 판정을 다시 설정하면 스푸핑된 보낸 사람이 테넌트 허용/차단 목록의 스푸핑 탭에만 나타나는 수동 허용 또는 차단 항목이 됩니다.  스푸핑 인텔리전스에서 검색되기 전에 여기에 스푸핑된 보낸 사람에 대한 허용 또는 차단 항목을 수동으로 만들 수도 있습니다.
+- 허용할 URL입니다.
+- 허용할 파일입니다. 
 
 이 문서에서는 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 테넌트 허용/차단 목록의 항목을 구성하는 방법에 대해 설명하고 있습니다.
 
@@ -90,64 +91,23 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
   >
   > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
-## <a name="use-the-microsoft-365-defender-portal-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>테넌트 Microsoft 365 Defender 차단 목록에 차단 URL 항목을 만들 수 있습니다.
+## <a name="configure-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 구성
 
-1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
+### <a name="use-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털 사용
 
-2. **테넌트 허용/차단 목록** 페이지에서 URL  탭이 선택되어 있는지 확인한 다음 차단 아이콘 ![ 차단 을 ](../../media/m365-cc-sc-create-icon.png) **클릭합니다.**
+Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
 
-3. 나타나는 **URL 차단** 플라이아웃에서 다음 설정을 구성합니다.
-   - **와일드카드가** 있는 URL 추가: 줄당 하나의 URL을 입력하고 최대 20개까지 입력합니다. URL 항목의 구문에 대한 자세한 내용은 이 문서 부분의 [테넌트 허용/차단](#url-syntax-for-the-tenant-allowblock-list) 목록 섹션에 대한 URL 구문을 참조하십시오.
-   - **만료 안 하세요:** 다음 단계 중 하나를 수행합니다.
-     - 설정이 꺼져 있는지 확인(토글 해제) 및 제거 사용 상자를 사용하여 항목의 만료 ![ ](../../media/scc-toggle-off.png) 날짜를 지정합니다. 
+모든 블록을 추가하기 위해 [테넌트 허용/차단 목록에서 블록 추가를 참조하세요.](manage-tenant-blocks.md)
 
-       또는
+모든 허용을 추가하기 위해 [테넌트 허용/차단 목록에서 허용 추가를 참조하세요.](manage-tenant-allows.md)
 
-     - 토글을 오른쪽으로 이동하여 만료되지 않는 항목을 구성합니다. ![토글 켬](../../media/scc-toggle-on.png).
-   - **선택 사항:** 항목에 대한 설명 텍스트를 입력합니다.
+모든 블록을 수정 및 제거하고 허용하려면 테넌트 허용/차단 목록의 항목 수정 [및 제거를 참조하세요.](modify-remove-entries-tenant-allow-block.md)
 
-4. 작업을 마쳤으면 **추가** 를 클릭합니다.
+### <a name="use-exchange-online-powershell-or-standalone-eop-powershell"></a>PowerShell Exchange Online 독립 실행형 EOP PowerShell 사용
 
-## <a name="use-the-microsoft-365-defender-portal-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록에 차단 파일 항목 만들기
+모든 허용 및 차단을 관리하려면 [테넌트 허용/차단](manage-tenant-blocks.md)목록의 블록 추가, 테넌트 [허용/차단](manage-tenant-allows.md)목록에서 허용 추가 및 테넌트 허용/차단 목록의 항목 수정 및 제거를 [참조하세요.](modify-remove-entries-tenant-allow-block.md)
 
-1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
-
-2. **테넌트 허용/차단 목록 페이지에서**  파일 탭을 선택한 다음 차단 아이콘 ![ 차단 을 ](../../media/m365-cc-sc-create-icon.png) **클릭합니다.**
-
-3. 파일 **차단** 플라이아웃이 나타나면 다음 설정을 구성합니다.
-   - **파일 해시 추가:** 줄당 SHA256 해시 값 하나(최대 20개)를 입력합니다.
-   - **만료 안 하세요:** 다음 단계 중 하나를 수행합니다.
-     - 설정이 꺼져 있는지 확인(토글 해제) 및 제거 사용 상자를 사용하여 항목의 만료 ![ ](../../media/scc-toggle-off.png) 날짜를 지정합니다. 
-
-     또는
-
-     - 토글을 오른쪽으로 이동하여 만료되지 않는 항목을 구성합니다. ![토글 켬](../../media/scc-toggle-on.png).
-   - **선택 사항:** 항목에 대한 설명 텍스트를 입력합니다.
-
-4. 작업을 마쳤으면 **추가** 를 클릭합니다.
-
-## <a name="use-the-microsoft-365-defender-portal-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록에서 스푸핑된 보낸 사람 항목을 만들거나 차단
-
-**참고**:
-
-- _스푸핑된_ 사용자와 도메인  쌍에 정의된 전송 인프라의 조합만 스푸핑을 특별히 허용하거나 차단합니다.
-- 도메인 쌍에 대해 허용 또는 차단 항목을 구성하면 해당 도메인 쌍의 메시지가 더 이상 스푸핑 인텔리전스 인사이트에 나타나지 않습니다.
-- 스푸핑된 보낸 사람에 대한 항목은 만료되지 않습니다.
-
-1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
-
-2. **테넌트 허용/차단 목록** 페이지에서  스푸핑 탭을 선택한 다음 차단 아이콘 추가를 ![ ](../../media/m365-cc-sc-create-icon.png) **클릭합니다.**
-
-3. 나타나는 **새 도메인** 쌍 추가 플라이아웃에서 다음 설정을 구성합니다.
-   - **와일드카드를 통해** 새 도메인 쌍 추가: 한 줄에 도메인 쌍을 하나씩 입력하고 최대 20개까지 입력합니다. 스푸핑된 보낸 사람 항목에 대한 구문에 대한 자세한 내용은 이 문서 의 부분에 있는 테넌트 [허용/차단](#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list) 목록 섹션의 스푸핑된 보낸 사람 항목에 대한 도메인 쌍 구문을 참조하십시오.
-   - **스푸핑 유형:** 다음 값 중 하나를 선택합니다.
-     - **내부:** 스푸핑된 보낸 사람이 조직에 속한 도메인(허용 [도메인)에 있습니다.](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
-     - **외부:** 스푸핑된 보낸 사람이 외부 도메인에 있습니다.
-   - **작업:** 허용 **또는 차단을** **선택합니다.**
-
-4. 작업을 마쳤으면 **추가** 를 클릭합니다.
-
-## <a name="use-the-microsoft-365-defender-portal-to-view-entries-in-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록의 항목 보기
+## <a name="view-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록의 항목 보기
 
 1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
 
@@ -199,74 +159,9 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
    완료되면 적용을 **클릭합니다.** 기존 필터를 지우려면 **필터를** 클릭하고 나타나는 필터  플라이아웃에서 필터 **지우기 를 클릭합니다.**
 
-## <a name="use-the-microsoft-365-defender-portal-to-modify-entries-in-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록의 항목 수정
+4. 작업을 마쳤으면 **추가** 를 클릭합니다.
 
-1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
-
-2. 수정할 항목 유형이 포함된 탭을 선택합니다.
-   - **URL**
-   - **파일**
-   - **스푸핑**
-
-3. 수정할 항목을 선택하고 편집 아이콘 편집 ![ 을 ](../../media/m365-cc-sc-edit-icon.png) **클릭합니다.** 플라이아웃에서 수정할 수 있는 값은 이전 단계에서 선택한 탭에 따라 다를 수 있습니다.
-   - **URL**
-     - **만료 및/또는** 만료 날짜가 없습니다.
-     - **선택 사항 참고 사항**
-   - **파일**
-     - **만료 및/또는** 만료 날짜가 없습니다.
-     - **선택 사항 참고 사항**
-   - **스푸핑**
-     - **작업:** 값을 허용 또는 **차단으로** 변경할 **수 있습니다.**
-4. 작업을 마쳤으면 **저장** 을 클릭합니다.
-
-## <a name="use-the-microsoft-365-defender-portal-to-remove-entries-from-the-tenant-allowblock-list"></a>Microsoft 365 Defender 포털을 사용하여 테넌트 허용/차단 목록에서 항목 제거
-
-1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
-
-2. 제거할 항목 유형이 포함된 탭을 선택합니다.
-   - **URL**
-   - **파일**
-   - **스푸핑**
-
-3. 제거할 항목을 선택하고 삭제 아이콘 삭제 ![ 를 ](../../media/m365-cc-sc-delete-icon.png) **클릭합니다.**
-
-4. 나타나는 경고 대화 상자에서 삭제를 **클릭합니다.**
-
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list"></a>PowerShell Exchange Online 독립 실행형 EOP PowerShell을 사용하여 테넌트 허용/차단 목록 구성
-
-### <a name="use-powershell-to-add-block-file-or-url-entries-to-the-tenant-allowblock-list"></a>PowerShell을 사용하여 테넌트 허용/차단 목록에 차단 파일 또는 URL 항목 추가
-
-테넌트 허용/차단 목록에서 차단 파일 또는 URL 항목을 추가하기 위해 다음 구문을 사용합니다.
-
-```powershell
-New-TenantAllowBlockListItems -ListType <FileHash | Url> -Block -Entries "Value1","Value2",..."ValueN" <-ExpirationDate Date | -NoExpiration> [-Notes <String>]
-```
-
-이 예제에서는 만료되지 않는 지정된 파일에 대한 차단 파일 항목을 추가합니다.
-
-```powershell
-New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
-```
-
-이 예제에서는 contoso.com, contoso.com, www.contoso.com 및 하위 xyz.abc.contoso.com. ExpirationDate 또는 NoExpiration 매개 변수를 사용하지 않았기 때문에 항목이 30일 후에 만료됩니다.
-
-```powershell
-New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
-```
-
-구문과 매개 변수에 대한 자세한 내용은 [New-TenantAllowBlockListItems를 참조하십시오.](/powershell/module/exchange/new-tenantallowblocklistitems)
-
-### <a name="use-powershell-to-add-allow-or-block-spoofed-sender-entries-to-the-tenant-allowblock-list"></a>PowerShell을 사용하여 테넌트 허용/차단 목록에 스푸핑된 보낸 사람 항목 추가 또는 차단
-
-테넌트 허용/차단 목록에 스푸핑된 보낸 사람 항목을 추가하기 위해 다음 구문을 사용하세요.
-
-```powershell
-New-TenantAllowBlockListSpoofItems -SpoofedUser <Domain | EmailAddress | *> -SendingInfrastructure <Domain | IPAddress/24> -SpoofType <External | Internal> -Action <Allow | Block>
-```
-
-구문과 매개 변수에 대한 자세한 내용은 [New-TenantAllowBlockListSpoofItems를 참조하십시오.](/powershell/module/exchange/new-tenantallowblocklistspoofitems)
-
-### <a name="use-powershell-to-view-block-file-or-url-entries-in-the-tenant-allowblock-list"></a>PowerShell을 사용하여 테넌트 허용/차단 목록에서 차단 파일 또는 URL 항목 보기
+## <a name="view-block-file-or-url-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 차단 파일 또는 URL 항목 보기
 
 테넌트 허용/차단 목록에서 차단 파일 또는 URL 항목을 보고 다음 구문을 사용합니다.
 
@@ -288,7 +183,7 @@ Get-TenantAllowBlockListItems -ListType Url -Block
 
 구문과 매개 변수에 대한 자세한 내용은 [Get-TenantAllowBlockListItems를 참조하십시오.](/powershell/module/exchange/get-tenantallowblocklistitems)
 
-### <a name="use-powershell-to-view-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>PowerShell을 사용하여 테넌트 허용/차단 목록에서 스푸핑된 보낸 사람 항목 보기 또는 차단
+## <a name="view-spoofed-sender-entries"></a>스푸핑된 보낸 사람 항목 보기
 
 테넌트 허용/차단 목록에서 스푸핑된 보낸 사람 항목을 보고 다음 구문을 사용하세요.
 
@@ -315,64 +210,6 @@ Get-TenantAllowBlockListSpoofItems -Action Block -SpoofType External
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [Get-TenantAllowBlockListSpoofItems를 참조하십시오.](/powershell/module/exchange/get-tenantallowblocklistspoofitems)
-
-### <a name="use-powershell-to-modify-block-file-and-url-entries-in-the-tenant-allowblock-list"></a>PowerShell을 사용하여 테넌트 허용/차단 목록에서 차단 파일 및 URL 항목 수정
-
-테넌트 허용/차단 목록에서 차단 파일 및 URL 항목을 수정하려면 다음 구문을 사용합니다.
-
-```powershell
-Set-TenantAllowBlockListItems -ListType <FileHash | Url> -Ids <"Id1","Id2",..."IdN"> [<-ExpirationDate Date | -NoExpiration>] [-Notes <String>]
-```
-
-이 예에서는 지정한 블록 URL 항목의 만료 날짜를 변경합니다.
-
-```powershell
-Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -ExpirationDate "5/30/2020"
-```
-
-구문과 매개 변수에 대한 자세한 내용은 [Set-TenantAllowBlockListItems를 참조하십시오.](/powershell/module/exchange/set-tenantallowblocklistitems)
-
-### <a name="use-powershell-to-modify-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>PowerShell을 사용하여 테넌트 허용/차단 목록에서 스푸핑된 보낸 사람 항목 허용 또는 차단
-
-테넌트 허용/차단 목록에서 스푸핑된 보낸 사람 항목을 허용하거나 차단하려면 다음 구문을 사용하세요.
-
-```powershell
-Set-TenantAllowBlockListSpoofItems -Ids <"Id1","Id2",..."IdN"> -Action <Allow | Block>
-```
-
-이 예에서는 스푸핑된 보낸 사람 항목을 허용에서 차단으로 변경합니다.
-
-```powershell
-Set-TenantAllowBlockListItems -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -Action Block
-```
-
-구문과 매개 변수에 대한 자세한 내용은 [Set-TenantAllowBlockListSpoofItems를 참조하십시오.](/powershell/module/exchange/set-tenantallowblocklistspoofitems)
-
-### <a name="use-powershell-to-remove-url-or-file-entries-from-the-tenant-allowblock-list"></a>PowerShell을 사용하여 테넌트 허용/차단 목록에서 URL 또는 파일 항목 제거
-
-테넌트 허용/차단 목록에서 파일 및 URL 항목을 제거하려면 다음 구문을 사용합니다.
-
-```powershell
-Remove-TenantAllowBlockListItems -ListType <FileHash | Url> -Ids <"Id1","Id2",..."IdN">
-```
-
-이 예에서는 테넌트 허용/차단 목록에서 지정된 차단 URL 항목을 제거합니다.
-
-```powershell
-Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSPAAAA0"
-```
-
-구문과 매개 변수에 대한 자세한 내용은 [Remove-TenantAllowBlockListItems를 참조하십시오.](/powershell/module/exchange/remove-tenantallowblocklistitems)
-
-### <a name="use-powershell-to-remove-allow-or-block-spoofed-sender-entries-from-the-tenant-allowblock-list"></a>PowerShell을 사용하여 테넌트 허용/차단 목록에서 스푸핑된 보낸 사람 항목 허용 또는 차단
-
-테넌트 허용/차단 목록에서 스푸핑 보낸 사람 항목을 허용하거나 차단하려면 다음 구문을 사용하세요.
-
-```powershell
-Remove-TenantAllowBlockListSpoofItems -Ids <"Id1","Id2",..."IdN">
-```
-
-구문과 매개 변수에 대한 자세한 내용은 [Remove-TenantAllowBlockListSpoofItems를 참조하십시오.](/powershell/module/exchange/remove-tenantallowblocklistspoofitems)
 
 ## <a name="url-syntax-for-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에 대한 URL 구문
 
@@ -402,10 +239,6 @@ Remove-TenantAllowBlockListSpoofItems -Ids <"Id1","Id2",..."IdN">
   - 오른쪽 와일드카드는 슬래시(/)를 따라 경로를 지정해야 합니다.
 
     예를 들어 `contoso.com/*` 허용되거나 `contoso.com*` `contoso.com/ab*` 허용되지 않습니다.
-
-  - 모든 하위 경로는 올바른 와일드카드로 암시되지 않습니다.
-
-    예를 들어 `contoso.com/*` 를 포함하지 `contoso.com/a` 않습니다.
 
   - `*.com*` 가 잘못되었습니다(확인 가능한 도메인이 아니며 오른쪽 와일드카드가 슬래시를 따르지 않습니다).
 

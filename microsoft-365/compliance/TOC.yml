@@ -477,43 +477,43 @@
               href: archive-whatsapp-data.md
         - name: 17a-4 데이터 커넥터
           items:
-            - name: BlackBerry DataParser(미리 보기)
+            - name: BlackBerry DataParser
               href: archive-17a-4-blackberry-data.md
-            - name: 팩터리 DataParser(미리 보기)
+            - name: Bloomberg DataParser
               href: archive-17a-4-bloomberg-data.md
-            - name: Cisco Jabber DataParser(미리 보기)
+            - name: Cisco Jabber DataParser
               href: archive-17a-4-cisco-jabber-data.md
-            - name: Cisco Webex DataParser(미리 보기)
+            - name: Cisco Webex DataParser
               href: archive-17a-4-webex-teams-data.md
-            - name: FactSet DataParser(미리 보기)
+            - name: FactSet DataParser
               href: archive-17a-4-factset-data.md
-            - name: Fuze DataParser(미리 보기)
+            - name: Fuze DataParser
               href: archive-17a-4-fuze-data.md
-            - name: FX Connect DataParser(미리 보기)
+            - name: FX Connect DataParser
               href: archive-17a-4-fxconnect-data.md
-            - name: ICE DataParser(미리 보기)
+            - name: ICE DataParser
               href: archive-17a-4-ice-im-data.md
-            - name: InvestEdge DataParser(미리 보기)
+            - name: InvestEdge DataParser
               href: archive-17a-4-investedge-data.md
-            - name: LivePerson Conversational Cloud DataParser(미리 보기)
+            - name: LivePerson Conversational Cloud DataParser
               href: archive-17a-4-liveperson-data.md
-            - name: Quip DataParser(미리 보기)
+            - name: Quip DataParser
               href: archive-17a-4-quip-data.md
-            - name: Refinitiv Eikon Messenger DataParser(미리 보기)
+            - name: Refinitiv Eikon Messenger DataParser
               href: archive-17a-4-refinitiv-messenger-data.md
-            - name: ServiceNow DataParser(미리 보기)
+            - name: ServiceNow DataParser
               href: archive-17a-4-servicenow-data.md
-            - name: Slack DataParser(미리 보기)
+            - name: Slack DataParser
               href: archive-17a-4-slack-data.md
-            - name: SQL DataParser(미리 보기)
+            - name: SQL DataParser
               href: archive-17a-4-sql-database-data.md
-            - name: Warehouse DataParser(미리 보기)
+            - name: Symphony DataParser
               href: archive-17a-4-symphony-data.md
-            - name: DataParser 확대/축소(미리 보기)
+            - name: Zoom DataParser
               href: archive-17a-4-zoom-data.md
         - name: CellTrust 커넥터
           items:
-            - name: CellTrust SL2(미리 보기)
+            - name: CellTrust SL2
               href: archive-data-from-celltrustsl2.md
         - name: 타사 데이터를 저장하는 데 파트너와 협력
           href: work-with-partner-to-archive-third-party-data.md
@@ -995,3 +995,5 @@
   href: ../security/index.yml
 - name: 비즈니스용 Microsoft 365 앱
   href: /office365/admin/admin-home
+- name: 문제 해결
+  href: /office365/troubleshoot/microsoft-365-compliance-welcome

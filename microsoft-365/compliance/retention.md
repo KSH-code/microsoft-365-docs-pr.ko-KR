@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 1aca97f12fe75dd74467007f35858c72caa38606
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: eb30e3d553435c76bcf8f7cc1efc0f5524c0b966
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226110"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53538940"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -115,6 +115,7 @@ ms.locfileid: "53226110"
 - Exchange 공용 폴더
 - Teams 채널 메시지
 - Teams 채팅
+- Teams 비공개 채널 메시지
 - Yammer 커뮤니티 메시지
 - Yammer 사용자 메시지
 
@@ -309,7 +310,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
     
     전자 메일 메시지는 삭제보다 보존 작업이 우선하므로 5년 동안 보존됩니다. 보존 작업이 적용되는 동안 일시 중단된 삭제 작업으로 인해 전자 메일 메시지는 5년 후에 영구적으로 삭제됩니다.
 
-2. **가장 긴 보존 기간 우선.** 콘텐츠가 다른 기간 동안 콘텐츠를 보존하는 여러 보존 설정의 적용을 받는 경우, 가장 긴 보존 기간이 끝날 때까지 콘텐츠는 보존됩니다.
+2. **가장 긴 보존 기간 우선.** 콘텐츠가 다른 기간 동안 콘텐츠를 보존하는 여러 보존 설정의 적용을 받는 경우, 항목에 대한 가장 긴 보존 기간이 끝날 때까지 콘텐츠는 보존됩니다.
     
     예: 마케팅 SharePoint 사이트의 문서는 두 가지 보존 정책을 따릅니다. 첫 번째 보존 정책은 모든 SharePoint 사이트에 대해 5년 동안 항목을 보존하도록 구성됩니다. 두 번째 보존 정책은 특정 SharePoint 사이트에 대해 10년 동안 항목을 보존하도록 구성됩니다.
     
@@ -335,7 +336,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
         
         이 문서를 영구적으로 삭제하는 시기는 두 보존 정책의 범위가 모두 지정되었으므로 이 수준에서 확인할 수 없습니다.
 
-4. **가장 짧은 삭제 기간이 적용됩니다.** 보존 정책에서 항목이 삭제되고 이전 수준에서 결과를 확인할 수 없는 경우에 결정하는 데 적용됩니다. 콘텐츠는 가장 짧은 보존 기간이 끝날 때 영구적으로 삭제됩니다.
+4. **가장 짧은 삭제 기간이 적용됩니다.** 보존 정책에서 항목이 삭제되고 이전 수준에서 결과를 확인할 수 없는 경우에 결정하는 데 적용됩니다. 콘텐츠는 항목에 대한 가장 짧은 보존 기간이 끝날 때 영구적으로 삭제됩니다.
     
     예: 사용자의 OneDrive 계정에 있는 문서는 두 개의 보존 정책을 따릅니다. 첫 번째 보존 정책은 이 사용자의 OneDrive 계정을 포함하도록 범위가 지정되며 10년 후 삭제 작업이 수행됩니다. 두 번째 보존 정책은 이 사용자의 OneDrive 계정을 포함하도록 범위가 지정되며 7년 후 삭제 작업이 수행됩니다.
     
@@ -494,7 +495,7 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
     
 - [현재 위치 레코드 관리 구성](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a) (보존만 해당) 
     
-- [사이트 폐쇄 및 삭제에 대한 정책 사용](https://support.microsoft.com/en-us/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (삭제만 해당)
+- [사이트 폐쇄 및 삭제에 대한 정책 사용](https://support.microsoft.com/ko-KR/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (삭제만 해당)
     
 - [정보 관리 정책](intro-to-info-mgmt-policies.md) (삭제만 해당)
      

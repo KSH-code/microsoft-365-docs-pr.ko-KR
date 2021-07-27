@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft Azure Active Directory(Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 추가 정보입니다.'
-ms.openlocfilehash: 0e7abd68945a9b685a33c120ff1e92fda62b2c56
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 88a151b61a93b4b65e16bbd100a126d44282e513
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362729"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578448"
 ---
 # <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이치클라드에서 마이그레이션하기 위한 추가 Azure Active Directory 정보
 
-Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료하기 위해 OIDC(OpenID 커넥트) 끝점에서 상업용 클라우드 끝점 보고를 시작할 때 응용 프로그램의 인증 끝점, Azure Active Directory(Azure AD) Graph 및 MS Graph 끝점을 상업용 클라우드의 끝점으로 업데이트하는 것이 `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` 좋습니다. 
+Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료하기 위해 OIDC(OpenID 커넥트) 끝점에서 상업용 클라우드 끝점 보고를 시작할 때 응용 프로그램의 인증 끝점, Azure Active Directory(Azure AD) Graph 및 MS Graph 끝점을 상업용 클라우드의 끝점으로 업데이트하는 것이 `https://login.microsoftonline.com/<TenantIdOrDomain>/.well-known/openid-configuration` 좋습니다. 
  
 **언제 변경해야 하나요?**
 
@@ -35,7 +35,7 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
  
 로그인 기관을 업데이트하는 데는 세 가지 사전이 있습니다.
 
- - 테넌트의 OIDC 검색 `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` 끝점은 Azure AD 공용 클라우드 끝점을 반환합니다.
+ - 테넌트의 OIDC 검색 `https://login.microsoftonline.com/<TenantIdOrDomain>/.well-known/openid-configuration` 끝점은 Azure AD 공용 클라우드 끝점을 반환합니다.
 
  - 테넌트가 페더넌트에 대해 설정된 경우 AD FS(Active Directory Federation Services)가 Azure AD Public과 동기화될 수 있도록 업데이트됩니다. 이 변경에 대한 Azure AD 커넥트 지침에 따라 업데이트할 수 있습니다.
 
@@ -66,7 +66,7 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 
 2. Azure AD Graph 끝점을 로 `https://graph.windows.net` 업데이트합니다.
 
-3. MS Graph 끝점을 로 `https://graph.microsoft.com` 업데이트합니다.
+3. Microsoft Graph 끝점을 로 `https://graph.microsoft.com` 업데이트합니다.
 
 4. 응용 프로그램이 공용 클라우드로 사용하는 독일 클라우드 끝점(예: Exchange Online SharePoint Online용 끝점)을 업데이트합니다.
 

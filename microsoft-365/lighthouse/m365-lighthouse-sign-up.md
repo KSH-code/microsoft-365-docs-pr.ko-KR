@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 서비스 공급자에 등록하는 Microsoft 365 Lighthouse.
-ms.openlocfilehash: 41482a97a7e940fab61b5b4884431ca7b385c3c0
-ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
+ms.openlocfilehash: e87757f22cc76bf681058ab453bdfdf60c6c64c9
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53438003"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542372"
 ---
 # <a name="sign-up-for-microsoft-365-lighthouse"></a>등록을 Microsoft 365 Lighthouse
 
@@ -30,13 +30,13 @@ ms.locfileid: "53438003"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 사용자 및 고객 테넌트가 요구 사항 에 나열된 요구 [사항을 Microsoft 365 Lighthouse 확인합니다.](m365-lighthouse-requirements.md)
+- Microsoft 365 Lighthouse 고객 테넌트뿐만 아니라 파트너 테넌트에 배포되지만 사용자 및 고객 테넌트가 파트너 요구 사항 에 나열된 요구 사항을 &mdash; [Microsoft 365 Lighthouse 확인합니다.](m365-lighthouse-requirements.md)
 
 - 로그인하는 파트너 테넌트의 전역 관리자 되어야 합니다.
 
 ## <a name="steps-to-sign-up-for-microsoft-365-lighthouse"></a>등록하는 Microsoft 365 Lighthouse
 
-1. 의 Microsoft 365 관리 센터 로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 
+1. 의 Microsoft 365 관리 센터 이동하여 파트너 테넌트 자격 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 증명을 사용하여 로그인합니다. 
 
 1. 청구 **구매**  >  **서비스 기타**  >  **서비스로 이동하십시오.**
 

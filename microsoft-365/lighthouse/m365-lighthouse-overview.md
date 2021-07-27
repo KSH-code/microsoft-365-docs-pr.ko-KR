@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 Microsoft 365 Lighthouse 테넌트의 보안을 유지 및 관리하는 데 도움이 되는 방법을 배워야 합니다.
-ms.openlocfilehash: af03495f7bf47fe3c72ebb7487b8709d2e2b0736
-ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
+ms.openlocfilehash: 5bc5fdce2c1133def04472e04f21e33ff331dd2a
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53409035"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542384"
 ---
 # <a name="overview-of-microsoft-365-lighthouse"></a>개요 Microsoft 365 Lighthouse
 
@@ -34,7 +34,7 @@ Microsoft 365 Lighthouse SMB 고객에 맞게 보안 구성 기준을 권장하�
 
 서비스 및 연결된 장치를 관리하기 위해 Microsoft 365 Lighthouse 추가 Microsoft 365 관련이 없습니다. Microsoft 365 Lighthouse 현재 미리 보기에 있으며 CSP(클라우드 솔루션 공급자) 프로그램에 등록된 MSP가 SMB 고객에게 Microsoft 365 Business Premium 사용할 수 있습니다.
 
-CSP 간접 공급자는 현재 해당 공급자에서 지원되지 Microsoft 365 Lighthouse. 
+고객이 Microsoft 365 Lighthouse Microsoft CSP 채널 파트너가 해당 채널을 Microsoft 365 Business Premium 지원됩니다. 여기에는 Microsoft와 직접 거래하는 CSP 파트너와 간접 공급자(배포자)를 통해 거래하는 CSP 파트너가 포함됩니다. 
 
 > [!IMPORTANT] 
 > 이 Microsoft 365 Lighthouse 사용하려면 MSP 및 해당 고객 테넌트가 Microsoft 365 Lighthouse 요구 [사항 에 나열된 요구 사항을 충족해야 합니다.](m365-lighthouse-requirements.md)     

@@ -1,0 +1,201 @@
+### YamlMime:FAQ
+metadata:
+  title: 제품 키 질문과 대답
+  ms.author: cmcatee
+  author: cmcatee-MSFT
+  manager: scotv
+  ms.reviewer:
+  - Rani Chegondi
+  - Armando Valenzuela
+  ms.date: 07/22/2021
+  audience: Admin
+  ms.topic: article
+  ms.service: bookings
+  ms.custom: commerce_licensing
+  localization_priority: Normal
+  description: 제품 키 질문과 대답
+  ms.openlocfilehash: 472b49dbd105c50658270e9ffa6e0ab73570bbca
+  ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 07/23/2021
+  ms.locfileid: "53542534"
+title: 제품 키 질문과 대답
+summary: ''
+sections:
+- name: 일반
+  questions:
+  - question: >
+      제품 키란?
+    answer: >
+      제품 키를 사용하면 특정 볼륨 라이선스 프로그램에서 사용이 허가된 소프트웨어 제품을 사용할 수 있습니다. 조직에 나열된 Microsoft 365 관리 센터 키는 볼륨 라이선스 제품에서만 사용하며 조직에서만 사용하기 위한 것입니다.
+
+
+      OSA(온라인 서비스 정품 인증) 키는 단일 구독을 활성화하는 데 사용되는 일회용 Microsoft Online Services 키입니다.
+
+
+      자세한 내용은 온라인 서비스 활성화에서 프로그램 [열기 FAQ를 참조하세요.](/licensing/online-service-activation-faq)
+  - question: >
+      2013에서 제품 키를 찾으 Microsoft 365 관리 센터?
+    answer: "1.  로그인한 Microsoft 365 관리 센터. \n2.  제품에서 **청구** 제품 볼륨 라이선싱 다운로드 & 키 > 마우스로  >    >    >   이동하고 **키 보기를 선택합니다.**\n\n각 제품에 대한 제품 키 정보, 라이선스 유형(볼륨 라이선스 키, 키 관리 서비스(KMS) 및 MAK(복수 정품 인증 키) 및 사용 가능한 MAK 정품 인증 수를 확인할 수 있습니다.\n\n모든 **제품 키 다운로드를 선택하여** 라이선스에 대해 표시된 키를 로컬 드라이브에 다운로드합니다.\n"
+  - question: >
+      제품 키를 찾는 SQL Server 방법
+    answer: >
+      SQL 라이선스 키는 관리 센터에 표시되지 않고 소프트웨어의 정품 인증 마법사에 포함되어 있으며 설치 중에 자동으로 검색됩니다. 자세한 내용은 [SQL Server 설치 가이드](/sql/database-engine/install-windows/install-sql-server)를 참조하세요.
+
+
+      또한 관리 센터의 SQL ISO 파일을 다운로드하여 키를 찾을 >. \x64 폴더 > DefaultSetup.ini 파일입니다. 에디션을 설치하거나 업그레이드하기 전에 기존 버전을 SQL 합니다. 제품 설치 또는 온라인 서비스 정품 인증 중에 기술 문제를 해결하는 데 도움이 필요한 경우 기술 지원 요청을 제출하여 Microsoft 기술 지원 서비스에 [문의하세요.](https://support.microsoft.com/oas)
+  - question: >
+      볼륨 라이선스 구매를 위한 제품 키를 찾는 방법
+    answer: "계약에서 키가 필요한 제품에 대한 액세스 권한을 부여하는 경우 청구 제품 볼륨 라이선스 다운로드 키로 &  >    >    >  **있습니다.** \n\n그러나 일부 제품에는 제품 키가 필요하지 않습니다. 이 정보는 다운로드 및 키 카탈로그의 제품 설명에 나열되어 있습니다.\n\n제품에 키가 필요한지 확인하려면 제품 정품 인증 및 키 [정보 로 이동하세요.](https://licensingapps.microsoft.com/product-activation) 제품 찾기에서 제품을 선택하거나 제품 이름을 검색합니다.\n"
+  - question: >
+      설치 키란?
+    answer: >
+      각 제품/버전 조합에 대해 설치 키가 정품 인증을 무시하여 제품의 잠금을 해제하는 데 사용됩니다. 다음 두 가지 방법 중 하나를 사용하여 설치 키를 얻을 수 있습니다.
+
+        - **물리적 이행** 물리적 이행을 통해 획득한 제품의 경우 설치 키가 미디어 용지에 인쇄됩니다.
+        - **다운로드 이행** 관리 센터에서 다운로드하여 구매한 제품의 경우 설치 키가 다운로드 화면에 표시되고 다운로드에 사용할 수 있는 일부 제품에는 설치 키가 필요합니다. 제품 설치 중에 필요한 설치 키를 유의합니다. 설치 키에 대한 자세한 내용은 클라이언트 [KMS 키를 참조합니다.](/windows-server/get-started/kmsclientkeys)
+  - question: >
+      내 계약과 연관된 제품 키를 결정하는 결정은 무엇입니까?
+    answer: >
+      볼륨 라이선스 제품 키는 Microsoft 관계 요약에 나열된 각 라이선스 [ID에 대해 제공됩니다.](/licensing/license-faq) 이 관계 요약은 볼륨 라이선스 서비스 센터에 있습니다. 자세한 내용은 [라이선스 ID 를 참조하세요.](/licensing/license-faq#what-is-a-licensing-id) 여러 라이선스 ID가 있을 수 있습니다.
+
+        - 기업계약(EA) 및 Select Plus 고객은 제품 풀당 제품 키(시스템, 서버 및 응용 프로그램)를 받게 됩니다.
+        - Select Agreement customers receive product keys per product pool (Systems, Servers, and Applications) based on their purchasing forecasts.
+        - Open License customers and Open Value customers receive applicable product keys based on their license purchases.
+
+      자세한 내용은 라이선스 요약 [FAQ 를 참조하세요.](/licensing/license-faq)
+
+
+      **참고** 모든 고객은 다시 이미징 및 다운그레이드를 위해 제품 키를 사용할 수 있는 권리가 있습니다. 더하기, 기업계약(EA) 및 선택 고객에게 교육 및 백업에 대한 제한된 평가 권리가 있습니다.를 선택합니다. 자세한 내용은 제품 라이선스 [개요를 참조하세요.](/licensing/learn-more/volume-licensing-briefs)
+- name: 볼륨 정품 인증
+  questions:
+  - question: >
+      볼륨 정품 인증이란?
+    answer: >
+      볼륨 정품 인증은 볼륨 라이선스 프로그램에서 사용이 허가된 Windows 컴퓨터에서 제품 정품 인증 프로세스를 자동화하고 관리하는 데 도움이 되는 구성 가능한 솔루션입니다. 볼륨 정품 인증은 볼륨 라이선스 계약에 따라 판매되는 Office 볼륨 정품 인증을 지원하는 Microsoft의 다른 소프트웨어에도 사용됩니다. 자세한 내용은 다음을 참조하세요.
+        - [볼륨 정품 인증을 관리하는 Office](/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office)
+        - [볼륨 정품 인증을 Windows 10](/windows/deployment/volume-activation/volume-activation-windows-10)
+
+      볼륨 정품 인증은 볼륨 라이선스 프로그램에서 다루는 시스템에만 적용하며 정품 인증을 위한 도구로 엄격하게 사용됩니다. 라이선스 인보이스 또는 청구와는 무관합니다.
+
+
+      볼륨 정품 인증은 볼륨 정품 인증을 완료하는 두 가지 방법을 제공합니다. 고객이 조직에서 시스템을 정품 인증하는 데 다음 두 가지 키 유형 중 하나 또는 두 가지를 모두 사용할 수 있습니다.
+        - 키 관리 서비스 (KMS)를 사용하면 조직이 자체 네트워크 내에서 시스템을 정품 인증할 수 있습니다.
+        - MAK(복수 정품 인증 키)는 Microsoft에서 호스팅하는 정품 인증 서비스를 사용하여 시스템을 일회성으로 정품 인증합니다.
+  - question: >
+      What is the 키 관리 서비스 (KMS)?
+    answer: >
+      KMS 정품 인증을 위해 개별 컴퓨터가 Microsoft에 연결할 필요가 제거하여 조직이 자체 네트워크 내에서 시스템을 정품 인증할 수 있도록 하는 정품 인증 서비스입니다. 전용 시스템이 필요하지는 않습니다. 다른 서비스를 제공하는 시스템에서 공동으로 호스팅할 수 있습니다.
+
+
+      KMS 환경에서는 최소 수의 물리적 또는 가상 컴퓨터가 필요합니다. 이러한 최소(정품 인증 임계값)는 고객이 쉽게 충족할 수 있도록 Enterprise 설정합니다.
+
+        - 인증에 대한 정품 인증 Windows
+          - 조직에서 서버를 실행하는 서버를 정품 인증하려면 컴퓨터가 5대 이상 Windows 합니다.
+          - 조직에서 실행되는 클라이언트 시스템을 정품 인증하려면 컴퓨터가 25대 이상 Windows.
+        - 인증에 대한 정품 인증 Office
+          - 조직에서 에디션을 사용하여 설치된 Office 제품을 정품 인증하려면 조직에 5대 이상의 컴퓨터가 Office 있어야 KMS.
+
+      정품 인증 임계값에 대한 자세한 내용은 볼륨 정품 인증 계획 [가이드 를 참조하세요.](/windows/deployment/volume-activation/volume-activation-windows-10)
+  - question: >
+      호스트 KMS란?
+    answer: >
+      KMS 키는 Microsoft 정품 인증 서버를 사용하여 KMS 호스트 컴퓨터를 정품 인증하는 데 사용하며 호스트당 정품 인증이 10개인 KMS 호스트를 최대 6개 정품 인증할 수 있습니다. 각 KMS 호스트는 무제한으로 컴퓨터를 정품 인증할 수 있습니다.
+  - question: >
+      Open License KMS 사용자에 대해 Microsoft 365 관리 센터 키가 표시되지 않습니다.
+    answer: "KMS MAK(복수 정품 인증 키)를 사용하는 것이 정품 인증을 위한 기본 방식이기 때문에 열기 계약에 더 이상 키가 미리 할당되지 않습니다.\n\nKSM 키는 예외적으로 클라이언트 서버, OS 및 운영 체제에 대한 최소 KMS 정품 인증 임계값을 충족하는 Windows 할당할 수 Office. 예외를 요청하기 위해 Microsoft 지원에 웹 양식 요청을 제출합니다.\n\n예외를 요청하려면 VLSC 관리자, 키 관리자 또는 키 뷰어 권한이 있어야하며 다음 정보를 제공해야 합니다.\n  \n  - 계약/등록 번호 또는 라이선스 ID 및 권한 부여.\n  - 제품 이름(버전 및 버전 포함)\n  - 제품 키의 마지막 5자\n  - 필요한 호스트 정품 인증 수입니다.\n  - 업무 정당성 또는 배포 사유입니다.\n"
+  - question: >
+      추가 호스트가 필요한 KMS 어떻게 하나요?
+    answer: "6개가 KMS 호스트를 정품 인증하기 위해 추가 KMS 필요한 경우 웹 양식 요청을 제출하여 Microsoft 365 관리 센터 제출합니다. \n\n예외를 요청하려면 VLSC 관리자, 키 관리자 또는 키 뷰어 권한이 있어야하며 다음 정보를 제공해야 합니다.\n  \n  - 계약/등록 번호 또는 라이선스 ID 및 권한 부여.\n  - 제품 이름(버전 및 버전 포함)\n  - 제품 키의 마지막 5자\n  - 필요한 호스트 정품 인증 수입니다.\n  - 업무 정당성 또는 배포 사유입니다.\n"
+  - question: >
+      MAK(복수 정품 인증 키)란?
+    answer: >
+      MAK(복수 정품 인증 키)는 Microsoft 정품 인증 서버와의 연결이 필요한 Microsoft에서 호스팅하는 정품 인증 서비스를 사용하여 시스템을 일회성으로 정품 인증합니다. 일단 컴퓨터가 정품 인증되면 Microsoft와 추가로 통신할 필요는 없습니다.
+
+
+      **중요** 허용되는 MAK 정품 인증 수는 볼륨 라이선스 계약을 기반으로 합니다.
+  - question: >
+      제공된 MAK 정품 인증 수가 구입한 라이선스 수와 일치하지 않는 이유는 무엇입니까?
+    answer: >
+      MAK(복수 정품 인증 KMS 정품 인증 키)를 사용하는 것이 좋습니다. KMS 배포에 대한 기본 정품 인증 방법입니다. 구입한 라이선스, 고객 구매 가격 수준 및 볼륨 라이선스 프로그램을 포함하여 각 MAK와 연결된 정품 인증 수가 결정되는 요인은 여러 가지가 있습니다.
+
+
+      제품에 사용할 수 있는 정품 인증 수가 구매한 라이선스 수와 항상 일치하지는 않습니다. 일반적으로 일부 제품을 다시 설치하고 정품 인증해야 하는 경우 더 많은 정품 인증을 받게 됩니다. 계약의 라이선스 요약 섹션을 확인하여 라이선스 수를 확인할 수 있습니다.
+  - question: >
+      MAK 정품 인증 제한에 대한 증가를 요청하는 방법
+    answer: "MAK 정품 인증 수량 증가는 웹 양식을 통해 요청할 수 있으며 예외에 의해 부여됩니다. 캐나다 및 미국의 경우 볼륨 라이선스 지원 [요청을 제출합니다.](https://support.microsoft.com/supportrequestform/2afa6f15-b710-db46-909a-8346017c802f) 다른 모든 국가에 대해 지원 웹 [양식을 제출합니다.](/licensing/contact-us) \n\nMAK 정품 인증 제한을 요청하려면 VLSC 관리자, 키 관리자 또는 키 뷰어 권한이 있어야하며 다음 정보를 제공해야 합니다.\n\n  - 계약/등록 번호 또는 라이선스 ID 및 권한 부여.\n  - 제품 이름(버전 및 버전 포함)\n  - 제품 키의 마지막 5자\n  - 필요한 호스트 정품 인증 수입니다.\n  - 업무 정당성 또는 배포 사유입니다.\n"
+  - question: >
+      MAK(복수 정품 인증 키)를 사용하여 라이선스를 정품 인증하려면 어떻게 해야 합니까?
+    answer: >
+      MAK를 사용하는 두 가지 방법 중 하나를 사용하여 라이선스를 정품 인증할 수 있습니다.
+
+        - MAK Independent Activation 각 컴퓨터가 웹 또는 전화를 사용하여 Microsoft에 개별적으로 연결하여 정품 인증을 완료합니다.
+        - MAK 프록시 정품 인증 Microsoft 온라인 또는 전화로 단일 연결을 사용하는 여러 컴퓨터를 대신하여 중앙 집중식 정품 인증 요청이 수행됩니다. 이 메서드는 WAIK(볼륨 정품 인증 관리 도구 VAMT)의 일부인 Windows(Windows)를 사용합니다. VAMT 통해 IT 전문가는 MAK를 사용하여 볼륨 정품 인증 프로세스를 자동화하고 중앙에서 관리할 수 있으며 MAK의 정품 인증 수에 대한 확인을 포함합니다.
+  - question: >
+      What is the 볼륨 정품 인증 관리 도구 (VAMT)?
+    answer: >
+      볼륨 정품 인증 관리 도구 (VAMT)는 네트워크 관리자 및 기타 IT 전문가가 Windows, Microsoft Office 및 기타 Microsoft 제품에 대한 볼륨 정품 인증 프로세스를 자동화하고 중앙에서 관리할 수 있도록 하는 도구입니다. VAMT MAK(복수 정품 인증 키) 또는 매크로(정품 인증 키)를 사용하여 볼륨 정품 인증을 Windows 키 관리 서비스(KMS). VAMT MMC(Microsoft Management Console) 3.0이 필요한 표준 MMC(Microsoft Management Console) 스냅인입니다.
+
+
+      자세한 내용은 VAMT 참조하세요.
+
+        - [볼륨 정품 인증 관리 도구(VAMT) 기술 참조](/windows/deployment/volume-activation/volume-activation-management-tool)
+        - [관리 볼륨 정품 인증 관리 도구(VAMT)](/previous-versions/tn-archive/ff686876(v=technet.10))
+        - 다운로드 [볼륨 정품 인증 관리 도구(VAMT)](https://www.microsoft.com/download/details.aspx?id=11936)
+  - question: >
+      Windows Server를 KMS 클라이언트를 정품 인증하는 Windows 알아야 하나요?
+    answer: "Windows(키 관리 서비스)를 사용하여 KMS 배포하는 경우 다음에 유의하십시오.\n  \n  - Windows 서버를 활성화하기 위한 KMS 호스트로 지원되지 Windows.\n  - Windows 클라이언트 KMS 정품 인증을 허용하려면 Windows 키가 필요합니다. 최신 패치에 대한 자세한 [내용은 Configure a KMS host computer to activate volume licensed versions of Office.](/deployoffice/vlactivation/configure-a-kms-host-computer-for-office) \n\nWindows Server를 KMS 경우 다음을 할 수 있습니다.\n  \n  - KMS 호스트 컴퓨터의 업그레이드를 Windows 서버로 업그레이드합니다.\n  - 서버를 서버 2003으로 Windows 다운그레이드합니다.\n  - 볼륨 에디션 KMS 호스트를 Windows 실행합니다.\n  - 서버 Windows 실행합니다.\n"
+  - question: >
+      Office, Project 및 볼륨 정품 인증에 대해 알아야 할 Visio?
+    answer: >
+      다음과 같은 볼륨 정품 인증 변경 사항은 Office, Project 및 Visio.
+        - Office KMS 호스트는 모든 Office 응용 프로그램을 활성화합니다.
+        - 하나의 Office KMS 키만 설치하고 정품 인증에 사용해야 합니다.
+
+      정품 인증 Office(키 관리 서비스(KMS)를 사용하여 배포하는 경우 다음에 유의하십시오.
+        - Windows 호스트로 사용하는 경우 Office KMS 활성화할 KMS 없습니다.
+        - 클라이언트의 정품 인증을 허용하기 위해 패치를 사용할 Office 없습니다.
+
+      Windows Server 2008을 KMS 경우 다음을 할 수 있습니다.
+        - KMS 호스트 컴퓨터의 업그레이드를 Windows 서버로 업그레이드합니다.
+        - 이전 버전의 Windows 서버로 다운그레이드합니다.
+        - KMS PC에서 Windows 실행합니다.
+        - 최신 Windows 서버에서 Windows 가상 머신을 실행합니다.
+  - question: >
+      Windows 터미널 RDS(원격 데스크톱 서비스)를 활성화하려면 어떻게 해야 합니까?
+    answer: >
+      VLSC에서 서버 미디어를 다운로드한 후 제품 정품 인증 마법사를 사용하여 정품 인증할 수 있습니다. VLSC에서 볼륨 라이선스 키 또는 제품 설정 키를 찾을 필요가 없습니다. 모든 활성화 마법사 단계를 완료하면 서버에서 인터넷을 통해 Microsoft Clearing House에 연결하여 데이터 유효성을 검사하라는 메시지가 전송됩니다. 또는 오프라인 서버의 경우 정품 인증 마법사가 전화 또는 웹 정품 인증을 제공합니다.
+
+
+      시작하려면 서버에 대한 원격 데스크톱 라이선스 역할(관리 도구 서버 관리자 시작)을 할당한 다음 원격 데스크톱 라이선스 관리자에서  >    >  RDS 서비스를 활성화합니다. 관리 **도구**  >    >  **원격 데스크톱 서비스 시작을 선택한** 다음 원격 데스크톱/터미널 라이선스 관리자 **를 선택합니다.**
+
+
+      정품 인증 중에 라이선스 프로그램 및 계약 번호를 선택해야 합니다. Open License 고객의 경우 권한 부여 번호를 입력합니다. MPSA의 경우 MPSA 계약 번호가 아닌 구매 계정 번호를 입력합니다. CAL 라이선스를 구입하는 데 사용되는 라이선스 ID의 프로그램 유형이 모를 경우 **VLSC 관계** 요약으로 이동하여 상위 프로그램 **열을 참조합니다.**
+
+
+      터미널 서버 라이선스에 대한 자세한 내용은 터미널 서버 라이선스 [를 참조하세요.](/troubleshoot/windows-server/remote/terminal-server-licensing) 원격 데스크톱 라이선스 역할을 설치하고 라이선스 서버를 활성화하는 방법에 대한 자세한 내용은 [Activate the Remote Desktop Services license server](/windows-server/remote/remote-desktop-services/rds-activate-license-server) 및  [Cannot connect to RDS because no RD Licensing servers are available을](/troubleshoot/windows-server/remote/cannot-connect-rds-no-license-server)참조하십시오.
+  - question: >
+      동일한 소유권 구조 내의 조직이 동일한 키를 사용하여 제품을 배포할 수 있나요?
+    answer: >
+      라이선스 준수 및 자산 관리는 키 정품 인증과는 독립적입니다. 고객은 특정 라이선스 ID(계약, 등록, 계열사 또는 라이선스)에 따라 제공된 키를 사용하지 않고도 됩니다. 부모 조직이 개별 계약을 체결한 경우 동일한 키를 사용하여 상위 조직과 자식 조직에 제품을 배포할 수 있습니다. 이러한 유연성을 통해 고객은 계약/라이선스와 관련한 키 또는 모든 키 집합을 사용하여 배포 이미지를 중앙에서 관리할 수 있습니다.
+  - question: >
+      볼륨 라이선스 키를 사용하여 이미징 권한을 행사할 수 있나요?
+    answer: >
+      예. 다시 이미징 권한은 모든 Microsoft 볼륨 라이선스 고객에게 부여됩니다. 이러한 권리에 따라 고객은 볼륨 라이선스 미디어에서 만든 복사본이 원래 라이선스 제품과 동일한 경우 계약에 따라 제공된 미디어를 사용하여 OEM(Original Equipment Manufacturer) 또는 FPP(Full Packaged Product) 라이선스 복사본을 다시 이미지로 만들 수 있습니다. 볼륨 라이선스 고객은 제품 키 페이지에서 볼륨 라이선스 키를 찾거나 Microsoft 정품 인증 센터를 통해 키를 요청할 [수 있습니다.](https://licensingapps.microsoft.com/product-activation)
+
+
+      **참고** 오픈 라이선스 고객인 경우 제품 미디어에 대한 액세스 권한을 획득하고 제품 키를 받으기 위해 이미지를 다시하려는 제품 단위를 하나 이상 구입해야 합니다.
+
+
+      다시 이미징 권한에 대한 자세한 내용은 제품 라이선스 [브리핑을 참조하세요.](/licensing/learn-more/volume-licensing-briefs)
+  - question: >
+      키를 로컬 파일에 다운로드하려면 어떻게 해야 합니까?
+    answer: "이 Microsoft 365 관리 센터 로컬 파일에 제품 키를 다운로드하여 나중에 사용할 수 있는 옵션을 제공합니다. 다운로드 및 키 페이지에서 제품 키를 다운로드하면 관리 센터 프로필의 계약과 연결된 모든 볼륨 라이선스 키가 파일에 포함되어 있습니다. 그러나 관계 요약 페이지의 라이선스 ID 보기에서 키를 다운로드하는 경우 파일에는 보고 있는 라이선스 ID와 연결된 키만 포함되어 있습니다.\n\n다운로드 가능한 제품 키 파일은 탭으로 Excel 열거나 텍스트 편집기에서 열 수 있습니다. 파일에 포함된 열은 라이선스 **ID,** 상위 **프로그램,** **조직,** **제품,** **제품** 키, **유형** 및 **MAK Activations-Used/Available, Seats and OSA Status입니다.** \n\n다운로드한 파일을 Excel 다음 단계를 완료합니다.\n  1.    열기 Microsoft Excel.\n  2.    파일   >  **열기 를** 선택한 다음 다운로드한 CSV 파일을 선택합니다.\n  3.    구분(기본값)을 선택한 다음 **탭으로** 구분하여 한 열에 모든 데이터가 표시되지 않도록 합니다. \n  4.    **완료** 를 선택합니다. \n\n이 .CSV 열리면 Excel 열에 데이터가 표시됩니다.\n"
+- name: 지원
+  questions:
+  - question: >
+      지원에 문의하는 방법
+    answer: >
+      Microsoft 365 관리 센터 또는 웹 양식을 통해 지원에 문의할 수 있습니다. Microsoft는 24시간 이내에 웹 양식 전송에 응답합니다. 고객 지원에 문의는 [문의처를 참조 하시기 바랍니다.](/licensing/contact-us)
+additionalContent: "\n## <a name=\"additional-resources\"></a>추가 리소스\n\n- [다운로드 FAQ](downloads-faq.yml)\n\n- [프로그램 열기에 대한 온라인 서비스 활성화 FAQ](online-service-activation-faq.yml)"

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 중앙 집중식 추가 기능을 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 학습합니다.
-ms.openlocfilehash: aad68d37fb23c26ef1a1ca1ba7dfc5d4e2a40bfe
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: a27fc3744ab0dfc9256afbb6e08e881d2d35fb48
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53392866"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578376"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 관리
 
@@ -56,7 +56,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 1. 관리 센터에서 설정 서비스 &  >  **페이지로 이동합니다.**
 
     > [!NOTE]
-    > 관리 센터가 통합 앱으로 배포 환경으로 업데이트되고 있습니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
+    > 통합 앱을 통해 관리 센터에서 추가 기능을 [배포할 수도 있습니다.](test-and-deploy-microsoft-365-apps.md) 통합 앱은 전역 관리자 및 관리자에게 Exchange 표시됩니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
 
 2. 배포된 추가 기능을 선택합니다.
 
@@ -71,7 +71,8 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 1. 관리 센터에서 설정 서비스 &  >  **페이지로 이동합니다.**
 
     > [!NOTE]
-    > 관리 센터가 통합 앱으로 배포 환경으로 업데이트되고 있습니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
+    > 통합 앱을 통해 관리 센터에서 추가 기능을 [배포할 수도 있습니다.](test-and-deploy-microsoft-365-apps.md) 통합 앱은 전역 관리자 및 관리자에게 Exchange 표시됩니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
+
 
 2. 배포된 추가 기능을 선택합니다.
 
@@ -91,7 +92,8 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 1. 관리 센터 미리 보기에서 **설정** \> [서비스 &amp; 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=2053743) 페이지로 이동합니다.
 
     > [!NOTE]
-    > 관리 센터가 통합 앱을 사용하여 배포 환경으로 업데이트되고 있습니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
+    > 통합 앱을 통해 관리 센터에서 추가 기능을 [배포할 수도 있습니다.](test-and-deploy-microsoft-365-apps.md) 통합 앱은 전역 관리자 및 관리자에게 Exchange 표시됩니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
+
     
 3. **사용자 소유 애플리케이션 및 서비스** 를 선택하세요.
     
@@ -142,7 +144,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
   
 배포된 추가 기능에서 추가 기능 명령을 지원하지 않는 경우 또는 배포된 모든 추가 기능을 보거나 내 추가 기능을 통해 볼 **수 있습니다.** 
   
-### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a>Word 2016, Excel 2016 또는 PowerPoint 2016
+### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a>Word 2016, Excel 2016 또는 PowerPoint 2016의 경우
 
 1. 내 **추가 \> 기능 삽입을 선택합니다.** 
     
@@ -152,7 +154,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 
     ![추가 기능 Office 관리 탭](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
   
-### <a name="in-outlook"></a>Outlook에서
+### <a name="in-outlook"></a>Outlook의 경우
 
 1. 홈 **리본에서** 추가 기능 **사용 을 선택합니다.**
 

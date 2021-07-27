@@ -16,12 +16,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b141c9b745e560b3c2236a9d073a7b2f3500623c
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 9fd224d325c2210f0928e6999dc11510550531d1
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926046"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542264"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-scans-for-endpoints-that-are-out-of-date"></a>Microsoft Defender 바이러스 백신 업데이트 및 만료된 엔드포인트에 대한 검사 관리
 
@@ -44,16 +44,16 @@ Microsoft Defender 바이러스 백신 끝점에서 업데이트를 피할 수 �
 
 ### <a name="use-configuration-manager-to-configure-catch-up-protection-updates"></a>Configuration Manager를 사용하여 추가 보호 업데이트 구성
 
-1.  Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
+1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
 
-2.  보안 **인텔리전스 업데이트 섹션으로 이동하여** 다음 설정을 구성합니다.
+2. 보안 **인텔리전스 업데이트 섹션으로 이동하여** 다음 설정을 구성합니다.
 
     1. 클라이언트 **컴퓨터가** 두 개 이상의 연속으로 예약된 업데이트에 대해 오프라인 상태일 경우 보안 인텔리전스 업데이트 강제 적용을 **예로 설정하세요.**
     2. Configuration  **Manager를** 보안 인텔리전스 업데이트의 원본으로 사용하는 경우... 의 경우 Configuration Manager에서 제공한 보호 업데이트를 최신 시간으로 간주할 시간을 지정합니다. 이렇게 하면 정의된 폴백 원본 순서에 따라 다음 업데이트 [위치가 사용됩니다.](manage-protection-updates-microsoft-defender-antivirus.md#fallback-order)
 
 3. **확인** 을 클릭합니다.
 
-4.  [평소와 같이 업데이트된 정책을 배포합니다.](/sccm/protect/deploy-use/endpoint-antimalware-policies#deploy-an-antimalware-policy-to-client-computers)
+4. [평소와 같이 업데이트된 정책을 배포합니다.](/sccm/protect/deploy-use/endpoint-antimalware-policies#deploy-an-antimalware-policy-to-client-computers)
 
 ### <a name="use-group-policy-to-enable-and-configure-the-catch-up-update-feature"></a>그룹 정책을 사용하여 추가 업데이트 기능을 사용하도록 설정 및 구성
 
@@ -88,8 +88,8 @@ SignatureUpdateCatchupInterval
 ```
 
 자세한 정보 및 허용되는 매개 변수는 다음을 참조하세요.
-- [Windows Defender WMIv2 API](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 
+- [Windows Defender WMIv2 API](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 
 ## <a name="set-the-number-of-days-before-protection-is-reported-as-out-of-date"></a>보호가 기한이 지난 것으로 보고되기 전까지의 일 수 설정
 
@@ -97,22 +97,21 @@ SignatureUpdateCatchupInterval
 
 ### <a name="use-group-policy-to-specify-the-number-of-days-before-protection-is-considered-out-of-date"></a>그룹 정책을 사용하여 보호가 기한이 지난 것으로 간주될 날짜 수 지정
 
-1.  그룹 정책 관리 컴퓨터의 [](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
+1. 그룹 정책 관리 컴퓨터의 [](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
 
-3.  그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하십시오.**
+2. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하십시오.**
 
-4.  정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
+3. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-5.  트리를 확장하여 서명 Windows 구성 > Microsoft Defender 바이러스 백신 > 구성 **요소를 확장하고** 다음 설정을 구성합니다.
+4. 트리를 확장하여 서명 Windows 구성 > Microsoft Defender 바이러스 백신 > 구성 **요소를 확장하고** 다음 설정을 구성합니다.
 
-    1.  스파이웨어  정의가 기한이 지난 것으로 간주될 날짜까지의 기간(일) 정의를 두 번 클릭하고 옵션을 사용으로 **설정합니다.** Microsoft Defender AV에서 스파이웨어 보안 인텔리전스가 최신이 아 없다고 고려할 날짜 수를 입력합니다.
+    1. 스파이웨어  정의가 기한이 지난 것으로 간주될 날짜까지의 기간(일) 정의를 두 번 클릭하고 옵션을 사용으로 **설정합니다.** Microsoft Defender AV에서 스파이웨어 보안 인텔리전스가 최신이 아 없다고 고려할 날짜 수를 입력합니다.
 
     2. **확인** 을 클릭합니다.
 
-    3.  바이러스 정의가 기한이 지난 것으로 간주될 날짜까지의 기간(일) 정의를 두 번 클릭하고 옵션을 사용으로 **설정합니다.**  Microsoft Defender AV에서 바이러스 보안 인텔리전스가 최신이 아 없다고 고려할 날짜 수를 입력합니다.
+    3. 바이러스 정의가 기한이 지난 것으로 간주될 날짜까지의 기간(일) 정의를 두 번 클릭하고 옵션을 사용으로 **설정합니다.**  Microsoft Defender AV에서 바이러스 보안 인텔리전스가 최신이 아 없다고 고려할 날짜 수를 입력합니다.
 
     4. **확인** 을 클릭합니다.
-
 
 ## <a name="set-up-catch-up-scans-for-endpoints-that-have-not-been-scanned-for-a-while"></a>한 동안 검색되지 않은 끝점에 대한 업데이트 검사 설정
 
@@ -128,19 +127,19 @@ SignatureUpdateCatchupInterval
 
 ### <a name="use-group-policy-to-enable-and-configure-the-catch-up-scan-feature"></a>그룹 정책을 사용하여 추가 검사 기능 사용 및 구성
 
-1.  예약된 검색을 하나 이상 설정해야 합니다.
+1. 예약된 검색을 하나 이상 설정해야 합니다.
 
-2.  그룹 정책 관리 컴퓨터의 [](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
+2. 그룹 정책 관리 컴퓨터의 [](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
 
-3.  그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하십시오.**
+3. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하십시오.**
 
-4.  정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
+4. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-5.  트리를 **확장하여** Windows 구성 > Microsoft Defender 바이러스 백신 > 설정을 구성합니다.
+5. 트리를 **확장하여** Windows 구성 > Microsoft Defender 바이러스 백신 > 설정을 구성합니다.
 
-    1.  예약된 빠른 검색을 설정한 경우 빠른  검색 켜기 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 
+    1. 예약된 빠른 검색을 설정한 경우 빠른  검색 켜기 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.**
     2. 예약된 전체 검색을 설정한 경우 전체  검사 켜기 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** **확인** 을 클릭합니다.
-    3. 추가 검사가  강제로 실행되는 일 수 정의 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 
+    3. 추가 검사가  강제로 실행되는 일 수 정의 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.**
     4. 다음에 사용자가 PC에 로그온할 때 검사가 자동으로 실행되기 전에 누락될 수 있는 검사 수를 입력합니다. 실행되는 검사 유형은 예약된  검사에 사용할 검사 유형 지정(Schedule [scans](scheduled-catch-up-scans-microsoft-defender-antivirus.md) 항목 참조)에 따라 결정됩니다. **확인** 을 클릭합니다.
 
 > [!NOTE]
@@ -168,18 +167,18 @@ DisableCatchupQuickScan
 ```
 
 자세한 정보 및 허용되는 매개 변수는 다음을 참조하세요.
-- [Windows Defender WMIv2 API](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 
+- [Windows Defender WMIv2 API](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 
 ### <a name="use-configuration-manager-to-configure-catch-up-scans"></a>Configuration Manager를 사용하여 추가 검사 구성
 
-1.  Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
+1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
 
-2.  예약된 검사 **섹션으로 이동하고** 클라이언트 컴퓨터가 오프라인 상태인 경우 선택한 검사 유형을 강제로 **검사...를** **예로 합니다.** 
+2. 예약된 검사 **섹션으로 이동하고** 클라이언트 컴퓨터가 오프라인 상태인 경우 선택한 검사 유형을 강제로 **검사...를** **예로 합니다.**
 
 3. **확인** 을 클릭합니다.
 
-4.  [평소와 같이 업데이트된 정책을 배포합니다.](/sccm/protect/deploy-use/endpoint-antimalware-policies#deploy-an-antimalware-policy-to-client-computers)
+4. [평소와 같이 업데이트된 정책을 배포합니다.](/sccm/protect/deploy-use/endpoint-antimalware-policies#deploy-an-antimalware-policy-to-client-computers)
 
 ## <a name="related-articles"></a>관련 문서
 

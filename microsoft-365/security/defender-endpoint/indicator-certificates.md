@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b75a8cf1d2681281555a3b7bb80deadfc11ee44c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 08a500dd548eb960d813d9bc693fa8b8dd871170
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845455"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542300"
 ---
 # <a name="create-indicators-based-on-certificates"></a>인증서를 기반으로 표시기 만들기
 
@@ -62,18 +62,20 @@ ms.locfileid: "52845455"
 >[!IMPORTANT]
 > 인증서 IoC를 만들고 제거하는 데 최대 3시간이 걸릴 수 있습니다.
 
-1. 탐색 창에서 **표시기 설정**  >  **선택합니다.**  
+1. 탐색 창에서 **끝점 설정(규칙** 아래)를  >    > 
+  **선택합니다.**  
+
 
 2. 인증서 **탭을** 선택합니다.
 
-3. 표시기 **추가를 선택합니다.**
+3. 항목 **추가를 선택합니다.**
 
 4. 다음 세부 정보를 지정합니다.
    - Indicator - 엔터티 세부 정보를 지정하고 표시기 만료를 정의합니다.
    - 작업 - 수행될 작업을 지정하고 설명을 입력합니다.
    - 범위 - 컴퓨터 그룹의 범위를 정의합니다.
 
-5. 요약 탭에서 세부 정보를 검토한 다음 저장을 **클릭합니다.**
+5. 요약 탭에서 세부 **정보를 검토한** 다음 저장을 **클릭합니다.**
 
 ## <a name="related-topics"></a>관련 항목
 - [지표 만들기](manage-indicators.md)

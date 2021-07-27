@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Exchange에서 보존의 작동 방식을 알아봅니다.
-ms.openlocfilehash: 29a07ca9c819939c32f9ec13205a821a45e03883
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 1ec89ee838c73c0ba0eb50361f8c457a697bd9bb
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985435"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53538868"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Exchange의 보존에 대해 자세히 알아보기
 
@@ -84,6 +84,8 @@ Exchange에 관한 정보를 담고 있으므로 이 문서의 정보는 [보존
 ## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
 
 조직에서 나간 사용자의 사서함이 보존 정책에 포함되어 있는 경우, 사용자의 Microsoft 365 계정이 삭제되면 해당 사서함이 비활성화됩니다. 비활성화된 사서함의 콘텐츠 또한 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요.
+
+데이터가 영구적으로 삭제되었거나 보존 기간이 만료되어 보존 설정이 더 이상 적용되지 않는 경우 Exchange 관리자는 이제 [사서함을 삭제](delete-an-inactive-mailbox.md)할 수 있습니다. 이 시나리오에서는 비활성 사서함이 자동으로 삭제되지 않습니다.
 
 ## <a name="configuration-guidance"></a>구성 지침
 

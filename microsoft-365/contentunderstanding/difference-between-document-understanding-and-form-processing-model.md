@@ -3,7 +3,7 @@ title: 문서 이해와 양식 처리 모델의 차이
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
-ms.reviewer: lauriellis
+ms.reviewer: lauris
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -12,13 +12,13 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-description: 문서 이해 모델과 양식 처리 모델의 주요 차이를 설명합니다.
-ms.openlocfilehash: f19017ce8b748644177ac00f4daf7cb29ad522c6
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+description: 문서 이해 모델과 양식 처리 모델의 주요 차이에 대해 알아봅니다.
+ms.openlocfilehash: 929d7f248607b052aa8f41d08a2fbdee7a53fa6f
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706513"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578460"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>문서 이해와 양식 처리 모델의 차이 
 
@@ -55,6 +55,10 @@ Microsoft SharePoint Syntex의 콘텐츠 이해를 통해 SharePoint 문서 라�
 양식 처리 모델은 PowerApp [AI Builder](/ai-builder/overview)에서 만들어지지만, 생성은 SharePoint 문서 라이브러리에서 직접 시작됩니다. 사용자가 양식 처리 모델을 만들려면 문서 라이브러리에서 양식 처리 모델 생성을 사용하도록 설정해야 합니다. 관리자는 관리 설정을 이해하는 콘텐츠에서 양식 처리 모델 만들기를 사용하도록 설정할 수 있습니다. 양식 처리 모델은 PowerAutomate 흐름을 사용하여 파일을 문서 라이브러리에 업로드할 때 파일을 처리합니다.
 
 문서 이해 모델을 생성할 때 SharePoint 컨텐츠 유형 갤러리에 저장되는 새 [SharePoint 컨텐츠 유형](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978)을 생성합니다. 또는 필요한 경우 기존 콘텐츠 유형을 사용하여 모델을 정의할 수 있습니다.
+
+콘텐츠 형식이 만들어지고 모델과 연결되면 **사이트 콘텐츠 형식** 속성 패널에서 해당 모델을 참조할 수도 있습니다.
+
+![강조 표시된 문서 이해 모델을 보여 주는 사이트 콘텐츠 형식 패널의 스크린샷.](../media/content-understanding/site-content-type-panel.png)
 
 양식 처리 모델도 새 [SharePoint 컨텐츠 유형](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978)을 생성하고 SharePoint 컨텐츠 유형 갤러리에도 저장됩니다.
 

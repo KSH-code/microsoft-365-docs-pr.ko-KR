@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7bb231049815da12ef6e5e48c88d79f5263f8708
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: 9fa03a11a548cfd60e9b9911eb2a87be0af37015
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53277016"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542636"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -62,8 +62,8 @@ ms.locfileid: "53277016"
 - [이제 장치 그룹 정의에](/microsoft-365/security/defender-endpoint/machine-groups) 각 조건에 대한 여러 값을 포함할 수 있습니다. 여러 태그, 장치 이름 및 도메인을 단일 장치 그룹의 정의로 설정할 수 있습니다.
 
 ## <a name="march-2021"></a>2021년 3월
+- [다음을 사용하여 변조 방지 Microsoft Defender 보안 센터](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal) <br> 테넌트 연결 이라는 방법을 사용하여 Windows 10, Windows Server 2016 및 Windows Server 2019에서 변조 보호 설정을 *관리할 수 있습니다.*
 
-- [다음을 사용하여 변조 방지 Microsoft Defender 보안 센터](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) <br> 테넌트 연결 이라는 방법을 사용하여 Windows 10, Windows Server 2016 및 Windows Server 2019에서 변조 보호 설정을 *관리할 수 있습니다.*
 
 ## <a name="january-2021"></a>2021년 1월
 
@@ -106,7 +106,7 @@ ms.locfileid: "53277016"
 
  - [위협 & 관리 역할 기반 액세스 제어](user-roles.md#create-roles-and-assign-the-role-to-an-azure-active-directory-group) <BR>새 사용 권한을 사용하여 권한이 부여된 사용자만 특정 데이터에 액세스하여 작업을 수행할 수 있도록 SecOps 중심 역할, 위협 & 취약성 관리 중심 역할 또는 하이브리드 역할을 만들 수 있습니다. 또한 위협 & 취약성 관리 역할이 취약성 관련 데이터만 볼 수 있는지 또는 수정 및 예외를 만들고 관리할 수 있는지 여부를 지정하여 더욱 세부적으로 관리할 수 있습니다.
 
-- [장치 상태 및 준수 보고서](machine-reports.md) <br/> 장치 상태 및 준수 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다.
+- [디바이스 상태 및 규정 준수 보고서](machine-reports.md) <br/> 장치 상태 및 준수 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다.
 
 ## <a name="october-2019"></a>2019년 10월
 

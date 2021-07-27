@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7243e8f6fad225e6c4570184736e8d6588466d0a
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: c30e65a154e582ee843bcae4fa233f81964aca13
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194964"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542330"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포
 
@@ -63,13 +63,13 @@ ms.locfileid: "53194964"
 
 ## <a name="download-the-onboarding-package"></a>온보더링 패키지 다운로드
 
-다음 사이트에서 온보더링 패키지를 Microsoft Defender 보안 센터.
+다음 포털에서 온보 Microsoft 365 Defender 다운로드합니다.
 
-1. 다음 Microsoft Defender 보안 센터 장치 관리 **온보** 설정  >  **로**  >  **이동하세요.**
+1. Microsoft 365 Defender 포털에서 **끝점 설정** 관리 온보더링으로  >    >    >  **이동하세요.**
 
 2. 운영 체제를 **macOS로** 설정하고 배포 방법을 모바일 장치 관리 **/Microsoft Intune.**
 
-    ![등록 설정 스크린샷](images/atp-mac-install.png)
+    ![등록 설정 스크린샷](images/macos-install-with-intune.png)
 
 3. **온보더링 패키지 다운로드를 선택합니다.** 동일한 _디렉터리에_ WindowsDefenderATPOnboardingPackage.zip저장합니다.
 
@@ -176,7 +176,7 @@ GitHub 리포지토리에서 [**fulldisk.mobileconfig를**](https://raw.githubus
 
 ### <a name="network-filter"></a>네트워크 필터
 
-끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
+끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft 365 Defender 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
 GitHub 저장소에서 [**netfilter.mobileconfig를**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) [다운로드합니다.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 

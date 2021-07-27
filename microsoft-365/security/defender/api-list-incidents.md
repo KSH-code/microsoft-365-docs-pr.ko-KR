@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 038879e77dfa26d82add20d043a32de117f95b19
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: c83d5994ab93799536796c153dfd878e3e2dd6d0
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287834"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542708"
 ---
 # <a name="list-incidents-api-in-microsoft-365-defender"></a>인시던트 목록 API를 Microsoft 365 Defender
 
@@ -106,6 +106,7 @@ lastUpdateTime | 인시던트가 백엔드에서 마지막으로 업데이트된
 assignedTo | 인시던트의 소유자 또는 소유자가 할당되지 않은 경우 *null입니다.* | secop2@contoso.com
 classification | 인시던트에 대한 사양입니다. 속성 값은 *알* 수 없음, *FalsePositive,* *TruePositive입니다.* | 알 수 없음
 determination | 인시던트 결정 속성 값은 *NotAvailable*, *Apt,* *Malware,* *SecurityPersonnel,* *SecurityTesting,* *UnwantedSoftware*, *Other입니다.* | NotAvailable
+detectionSource | 검색 원본을 지정합니다. | MCAS
 status | 인시던트(활성 또는 *해결된* 인시던트)를 *분류합니다.* 인시던트에 대한 대응을 구성하고 관리하는 데 도움이 될 수 있습니다. | 활성
 심각도 | 자산에 미칠 수 있는 영향을 나타냅니다. 심각도가 높을수록 영향이 커집니다. 일반적으로 심각도 항목이 높을수록 가장 즉각적인 주의가 필요합니다.<br /><br />정보, 낮음, *중간 및 *높음* 값 중 하나 | 보통
 tags | 인시던트와 연결된 사용자 지정 태그의 배열입니다. 예를 들어 공통 특성이 있는 인시던트 그룹에 플래그를 지정합니다. | \[\]
@@ -124,7 +125,7 @@ lastUpdatedTime | 백엔드에서 경고가 마지막으로 업데이트된 시�
 resolvedTime | 경고가 해결된 시간입니다. | 2020-09-10T05:22:59Z
 firstActivity | 활동이 백엔드에서 업데이트된 것으로 처음 보고된 시간입니다.| 2020-09-04T05:22:59Z
 title | 각 경고에 사용할 수 있는 간략한 식별 문자열 값입니다. | 랜섬웨어 활동
-description | 각 경고를 설명하는 문자열 값입니다. | 사용자 Test User2(testUser2@contoso.com)가 99개 파일을 조작하고 여러 확장명은 희미한 *확장명인 herunterladen으로 끝났습니다.* 이는 비정상적인 파일 조작 수로 잠재적인 랜섬웨어 공격을 나타내는 것입니다.
+설명 | 각 경고를 설명하는 문자열 값입니다. | 사용자 Test User2(testUser2@contoso.com)가 99개 파일을 조작하고 여러 확장명은 희미한 *확장명인 herunterladen으로 끝났습니다.* 이는 비정상적인 파일 조작 수로 잠재적인 랜섬웨어 공격을 나타내는 것입니다.
 category | 킬체인을 따라 공격이 얼마나 진행된 지의 시각적 및 숫자 보기입니다. [MITRE ATT CK&프레임워크에 ™ 정렬됩니다.](https://attack.mitre.org/) | 영향
 status | 경고를 새로, 활성 또는 해결된 경고로 *분류합니다.* 경고에 대한 응답을 구성하고 관리하는 데 도움이 될 수 있습니다. | 신규
 심각도 | 자산에 미칠 수 있는 영향을 나타냅니다. 심각도가 높을수록 영향이 커집니다. 일반적으로 심각도 항목이 높을수록 가장 즉각적인 주의가 필요합니다.<br>정보, 낮음, *중간 및 *높음* 값 중 하나 | 보통

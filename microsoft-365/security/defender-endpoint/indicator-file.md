@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b56a18e1b35b65629318ab29f2189ef1f73373f5
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: e119898a457be2ceb6dd78ca7831e26dc93ee85f
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256918"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542684"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 지표 만들기
 
@@ -59,7 +59,8 @@ ms.locfileid: "53256918"
 
 ## <a name="create-an-indicator-for-files-from-the-settings-page"></a>설정 페이지에서 파일에 대한 표시기 만들기
 
-1. 탐색 창에서 **표시기 설정 > 선택합니다.**
+1. 탐색 창에서 **끝점 설정(규칙** 아래)를  >    > 
+  **선택합니다.**
 
 2. 파일 **해시 탭을**   선택합니다.
 

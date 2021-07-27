@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 설명합니다.
-ms.openlocfilehash: 88613e593f3c8375073865ebe9b7e417c6b3f06f
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 1bf7ea6bfc0aabe5f6c9418dcdf905681dd5375c
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53392854"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578388"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 배포
 
@@ -62,7 +62,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 2. 페이지 **맨** 위에 있는 추가 기능 배포를 선택하고 다음 을 **선택합니다.**
 
     > [!NOTE]
-    > 관리 센터가 통합 앱을 사용하여 배포 환경으로 업데이트되고 있습니다. 통합 앱은 전역 관리자에게만 표시되지만 다른 사용자의 경우 이전 환경은 여전히 존재합니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
+    > 통합 앱을 통해 관리 센터에서 추가 기능을 [배포할 수도 있습니다.](test-and-deploy-microsoft-365-apps.md) 통합 앱은 전역 관리자 및 관리자에게 Exchange 표시됩니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
 
 3. 옵션을 선택하고 지침을 따릅니다.
   
@@ -78,7 +78,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
     > [!NOTE]
     > 추가 기능에 적용되는 다른 상태는 추가 기능 상태 를 [참조합니다.](./manage-addins-in-the-admin-center.md)
   
-6. **배포** 를 선택하세요.
+6. **배포** 를 선택합니다.
   
 7. 추가 기능을 배포하면 녹색 틱이 나타납니다. 페이지 지침에 따라 추가 기능을 테스트합니다.
 

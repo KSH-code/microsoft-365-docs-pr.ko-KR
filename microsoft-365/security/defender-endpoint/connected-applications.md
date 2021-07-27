@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4b212acdf4bdf8fa53ef00763463190e204fc1ed
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 1595ea8e76eb6b4c929419ea11dba06e6158d30c
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339169"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542360"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 연결된 응용 프로그램
 
@@ -41,9 +41,7 @@ ms.locfileid: "53339169"
  
 연결된 응용 프로그램에서 [](/microsoft-365/security/defender-endpoint/apis-intro) API를 사용하려면 다음 단계를 따라야 합니다.
  
-## <a name="access-the-connected-application-page"></a>연결된 응용 프로그램 페이지에 액세스
-왼쪽 탐색 메뉴에서 **끝점** 파트너 및  >  **API** 연결된 응용  >  **프로그램을 선택합니다.**
-
+왼쪽 탐색 메뉴에서  파트너 & **API(끝점** 아래) > **선택합니다.**
  
 ## <a name="view-connected-application-details"></a>연결된 응용 프로그램 세부 정보 보기
 연결된 응용 프로그램 페이지에서는 조직의 끝점용 Microsoft Defender에 연결된 Azure AD 응용 프로그램에 대한 정보를 제공합니다. 마지막으로 확인한 응용 프로그램, 지난 24시간 동안의 요청 수 및 지난 30일 동안의 추세 요청과 같은 연결된 응용 프로그램의 사용을 검토할 수 있습니다.

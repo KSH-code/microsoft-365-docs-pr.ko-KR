@@ -16,12 +16,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6bf84d00d11bdb948b234d9a9c6f1b4fa7f14461
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: c0c3e87644b7666c006f2eaf0632827173f5362f
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275399"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542648"
 ---
 # <a name="better-together-microsoft-defender-antivirus-and-office-365"></a>함께 활용: Microsoft Defender 바이러스 백신 및 Office 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "52275399"
 
 - **Microsoft Defender 바이러스 백신 바이러스, 맬웨어 및 스파이웨어와 같은** 소프트웨어 위협으로부터 Windows 10 장치를 보호합니다. Microsoft Defender 바이러스 백신 완벽한 지속적인 보호 기능으로 기본 제공되고 Windows 10 준비되어 있습니다. [Microsoft Defender 바이러스 백신 차세대 보호입니다.](./microsoft-defender-antivirus-in-windows-10.md) 
 
-- Office 365, 스파이웨어 방지 및 맬웨어 방지 **보호가 포함되어 있습니다.** Office 365 구독을 사용하면 모든 디바이스에서 프리미엄 전자 메일 및 일정, Office 앱, 1 TB의 클라우드 저장소(OneDrive) 및 고급 보안을 얻을 수 있습니다. 가정용 및 비즈니스 사용자도 마찬가지입니다. 또한 비즈니스 사용자인 경우 조직에서 Office 365 E5를 사용하는 경우 Microsoft Defender를 통해 Office 365 를 사용하여 위협으로부터 보호할 수 [Office 365.](/microsoft-365/security/office-365-security/protect-against-threats)
+- Office 365, 스파이웨어 방지 및 맬웨어 방지 **보호가 포함되어 있습니다.** Office 365 구독을 사용하면 모든 디바이스에서 프리미엄 전자 메일 및 일정, Office 앱, 1 TB의 클라우드 저장소(OneDrive) 및 고급 보안을 얻을 수 있습니다. 가정용 및 비즈니스 사용자도 마찬가지입니다. 또한 비즈니스 사용자인 경우 조직에서 Office 365 E5 를 사용하여 위협으로부터 보호를 Office 365 Microsoft Defender를 통해 훨씬 더 많은 [보호를 Office 365.](/microsoft-365/security/office-365-security/protect-against-threats)
 
 - OneDrive 포함된 Office 365 를 사용하면 파일 및 폴더를 온라인으로 저장하고 에 맞는 폴더를 공유할 **수 있습니다.** 사용자와 함께 작업할 수 있으며(직장이나 즐거움을 위해) 다른 사용자와 함께 작업할 수 있으며, 공동 OneDrive. 모든 장치(PC, 휴대폰 및 태블릿)에서 파일에 액세스할 수도 있습니다. [에서 공유를 OneDrive.](/OneDrive/manage-sharing)
 
@@ -73,7 +73,7 @@ Microsoft Defender for Office 365 Microsoft Defender for Endpoint와 통합하�
 
     SO
 
-- 통합이 사용하도록 설정되면 보안 운영 팀은 검색된 URL 또는 전자 메일 메시지의 받는 사람이 사용하는 장치 목록과 해당 장치에 대한 최근 알림과 함께 Microsoft Defender 보안 센터()를 볼 수 있습니다. [https://securitycenter.windows.com](https://securitycenter.windows.com)
+- 통합을 사용하도록 설정하면 보안 운영 팀은 검색된 URL 또는 전자 메일 메시지의 받는 사람이 사용하는 장치 목록과 해당 장치에 대한 최근 알림과 함께 Microsoft 365 Defender 포털()에서 볼 수 있습니다. [https://security.microsoft.com](https://security.microsoft.com)
 
 아직 통합하지 않은 경우 Microsoft [Defender for Office 365 끝점용 Microsoft Defender와 통합합니다.](/microsoft-365/security/office-365-security/integrate-office-365-ti-with-wdatp)
 

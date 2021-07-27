@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Exchange Online 사서함에 배치할 수 있는 다양한 유형의 보류를 식별하는 Microsoft 365.
-ms.openlocfilehash: 0fdfbd4503a4ddffd2ce2dd97c6af42684aea293
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1b7c8d2db782ca811e02783115b621ccba772066
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917538"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578436"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -74,13 +74,13 @@ Get-Mailbox <username> | FL LitigationHoldEnabled,InPlaceHolds
 
 다음 표에서는 **Get-Mailbox** cmdlet을 실행할 때 *InPlaceHolds* 속성의 값에 따라 서로 다른 유형의 보류를 식별하는 방법에 대해 설명하고 있습니다.
 
-|보류 유형  |예제 값  |보류를 식별하는 방법  |
-|---------|---------|---------|
-|소송 대기     |    `True`     |     *LitigationHoldEnabled* 속성을 로 설정하면 사서함에 대해 소송 보류가 사용하도록 `True` 설정됩니다.    |
-|eDiscovery 보류     |  `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`       |   *InPlaceHolds* 속성에는 보안 및 준수 센터의 eDiscovery 사례와 연결된 모든 보류의 GUID가 포함되어 있습니다. GUID는 통합 보류를 나타남으로 시작하기 때문에 이 보류는 eDiscovery 보류라고 `UniH` 알 수 있습니다.      |
-|원본 위치 유지     |     `c0ba3ce811b6432a8751430937152491` <br/> 또는 <br/> `cld9c0a984ca74b457fbe4504bf7d3e00de`  |     *InPlaceHolds* 속성에는 사서함에 In-Place Hold의 GUID가 포함되어 있습니다. GUID가 In-Place 시작하지 않는 경우 또는 이 GUID가 prefix로 시작하기 때문에 보류 중 하나라고 알 `cld` 수 있습니다.     |
-|Microsoft 365 특별히 적용된 보존 정책     |    `mbxcdbbb86ce60342489bff371876e7f224:1` <br/> 또는 <br/> `skp127d7cf1076947929bf136b7a2a8c36f:3`     |     InPlaceHolds 속성에는 사서함에 적용되는 특정 위치 보존 정책의 GUID가 포함되어 있습니다. GUID는 또는 prefix로 시작하기 때문에 보존 정책을 `mbx` `skp` 식별할 수 있습니다. 이 prefix는 보존 정책이 사용자 비즈니스용 Skype 대화에 `skp` 적용된 것일 수 있습니다.    |
-|조직 전체의 보존 정책에서 Microsoft 365 제외     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     사서함이 조직 전체의 Microsoft 365 보존 정책에서 제외되는 경우 사서함이 제외된 보존 정책의 GUID가 InPlaceHolds 속성에 표시되고 이 GUID는 `-mbx` Prefix로 식별됩니다.    |
+| 보류 유형                                                          | 예제 값                                                                                  | 보류를 식별하는 방법                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 소송 대기                                                    | `True`                                                                                         | *LitigationHoldEnabled* 속성을 로 설정하면 사서함에 대해 소송 보류가 사용하도록 `True` 설정됩니다.                                                                                                                                                                                                                                         |
+| eDiscovery 보류                                                    | `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`                                                     | *InPlaceHolds* 속성에는 보안 및 준수 센터의 eDiscovery 사례와 연결된 모든 보류의 GUID가 포함되어 있습니다. GUID는 통합 보류를 나타남으로 시작하기 때문에 이 보류는 eDiscovery 보류라고 `UniH` 알 수 있습니다.                                                                                   |
+| 원본 위치 유지                                                      | `c0ba3ce811b6432a8751430937152491` <br/> 또는 <br/> `cld9c0a984ca74b457fbe4504bf7d3e00de`        | *InPlaceHolds* 속성에는 사서함에 In-Place Hold의 GUID가 포함되어 있습니다. GUID가 In-Place 시작하지 않는 경우 또는 이 GUID가 prefix로 시작하기 때문에 보류 중 하나라고 알 `cld` 수 있습니다.                                                                                                               |
+| Microsoft 365 특별히 적용된 보존 정책 | `mbxcdbbb86ce60342489bff371876e7f224:1` <br/> 또는 <br/> `skp127d7cf1076947929bf136b7a2a8c36f:3` | InPlaceHolds 속성에는 사서함에 적용되는 특정 위치 보존 정책의 GUID가 포함되어 있습니다. GUID는 또는 prefix로 시작하기 때문에 보존 정책을 `mbx` `skp` 식별할 수 있습니다. 이 prefix는 보존 정책이 사용자 비즈니스용 Skype 대화에 `skp` 적용된 것일 수 있습니다. |
+| 조직 전체의 보존 정책에서 Microsoft 365 제외  | `-mbxe9b52bf7ab3b46a286308ecb29624696`                                                         | 사서함이 조직 전체의 Microsoft 365 보존 정책에서 제외되는 경우 사서함이 제외된 보존 정책의 GUID가 InPlaceHolds 속성에 표시되고 이 GUID는 `-mbx` Prefix로 식별됩니다.                                                                                                     |
 
 ### <a name="get-organizationconfig"></a>Get-OrganizationConfig
 **Get-Mailbox** cmdlet을 실행할 때 *InPlaceHolds* 속성이 비어 있는 경우 사서함에 적용된 보존 정책이 조직 전체에 Microsoft 365 있을 수 있습니다. PowerShell에서 Exchange Online 명령을 실행하여 조직 전체의 보존 정책에 Microsoft 365.
@@ -94,10 +94,10 @@ Get-OrganizationConfig | FL InPlaceHolds
 
 다음 표에서는 조직 전체 보류의 다양한 유형과 **Get-OrganizationConfig** cmdlet을 실행할 때 *InPlaceHolds* 속성에 포함된 GUID에 따라 각 유형을 식별하는 방법에 대해 설명하고 있습니다.
 
-|보류 유형  |예제 값  |설명  |
-|---------|---------|---------|
-|Microsoft 365 사서함, Exchange 공용 폴더 및 Exchange 채팅에 적용되는 Teams 보존 정책    |      `mbx7cfb30345d454ac0a989ab3041051209:2`   |   Exchange 사서함, Exchange 공용 폴더 및 1xN 채팅에 적용되는 조직 전체 보존 정책은 Microsoft Teams 시작되는 GUID로 `mbx` 식별됩니다. 참고 1xN 채팅은 개별 채팅 참가자의 사서함에 저장됩니다.      |
-|Microsoft 365 및 Microsoft 365 채널 메시지에 Teams 보존 정책 적용     |   `grp1a0a132ee8944501a4bb6a452ec31171:3`      |    Microsoft 365 그룹 및 채널 메시지에 적용되는 조직 전체 보존 정책은 Microsoft Teams 시작되는 GUID로 `grp` 식별됩니다. 참고 채널 메시지는 Microsoft 팀과 연결된 그룹 사서함에 저장됩니다.     |
+| 보류 유형                                                                                                | 예제 값                           | 설명                                                                                                                                                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Microsoft 365 사서함, Exchange 공용 폴더 및 Exchange 채팅에 적용되는 Teams 보존 정책 | `mbx7cfb30345d454ac0a989ab3041051209:2` | Exchange 사서함, Exchange 공용 폴더 및 1xN 채팅에 적용되는 조직 전체 보존 정책은 Microsoft Teams 시작되는 GUID로 `mbx` 식별됩니다. 참고 1xN 채팅은 개별 채팅 참가자의 사서함에 저장됩니다.  |
+| Microsoft 365 및 Microsoft 365 채널 메시지에 Teams 보존 정책 적용                | `grp1a0a132ee8944501a4bb6a452ec31171:3` | Microsoft 365 그룹 및 채널 메시지에 적용되는 조직 전체 보존 정책은 Microsoft Teams 시작되는 GUID로 `grp` 식별됩니다. 참고 채널 메시지는 Microsoft 팀과 연결된 그룹 사서함에 저장됩니다. |
 
 사용자에 적용된 보존 정책에 Microsoft Teams 자세한 내용은 에 대한 보존 정책 [Microsoft Teams.](retention-policies-teams.md)
 
@@ -113,11 +113,11 @@ InPlaceHolds 속성의 항목을 Microsoft 365 보존 정책으로 식별하는 
 
 다음 표에서는 세 가지 가능한 보존 작업을 정의합니다.
 
-|값  |설명  |
-|---------|---------|
-|**1**     | 보존 정책이 항목을 삭제하도록 구성되어 있는지 나타냅니다. 정책은 항목을 보존하지 않습니다.        |
-|**2**    |    보존 정책이 항목을 보류하도록 구성되어 있는지 나타냅니다. 보존 기간이 만료된 후 정책은 항목을 삭제하지 않습니다.     |
-|**3**     |   보존 정책이 항목을 보존한 다음 보존 기간이 만료된 후 삭제하도록 구성되어 있는지 나타냅니다.      |
+| 값 | 설명                                                                                                                          |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **1** | 보존 정책이 항목을 삭제하도록 구성되어 있는지 나타냅니다. 정책은 항목을 보존하지 않습니다.                                  |
+| **2** | 보존 정책이 항목을 보류하도록 구성되어 있는지 나타냅니다. 보존 기간이 만료된 후 정책은 항목을 삭제하지 않습니다. |
+| **3** | 보존 정책이 항목을 보존한 다음 보존 기간이 만료된 후 삭제하도록 구성되어 있는지 나타냅니다.             |
 
 보존 작업에 대한 자세한 내용은 특정 기간 동안 콘텐츠 보존 [섹션을 참조하세요.](create-retention-policies.md#retaining-content-for-a-specific-period-of-time)
    
@@ -186,7 +186,7 @@ Get-Mailbox <username> |FL ComplianceTagHoldApplied
 
 사서함에서 모든 유형의 보류를 제거하면 지연 *보류가* 적용됩니다. 즉, 데이터가 사서함에서 영구적으로 삭제(제거)되지 않도록 보류의 실제 제거가 30일 동안 지연됩니다. 이렇게 하면 관리자가 보류가 제거된 후 제거될 사서함 항목을 검색하거나 복구할 수 있습니다. 다음에 관리되는 폴더 도우미가 사서함을 처리하고 보류가 제거된 경우 사서함에 지연 보류가 적용됩니다. 특히 관리되는 폴더 도우미가 다음 사서함 속성 중 하나를 True로 설정하면 사서함에 지연 보류가 **적용됩니다.**
 
-- **DelayHoldApplied:** 이 속성은 사용자 사서함에 저장된 전자 메일 관련 콘텐츠(웹에서 Outlook Outlook 사용자에 의해 생성)에 적용됩니다.
+- **DelayHoldApplied:** 이 속성은 사용자 사서함에 저장된 전자 메일 관련 콘텐츠(Outlook 및 웹용 Outlook 사용하여 생성)에 적용됩니다.
 
 - **DelayReleaseHoldApplied:** 이 속성 Outlook은 사용자 사서함에 저장된 클라우드 기반 콘텐츠(Microsoft Teams, Microsoft Forms 및 Microsoft Yammer와 같은 비영구 앱에 의해 생성)에 적용됩니다. Microsoft 앱에서 생성된 클라우드 데이터는 일반적으로 사용자 사서함의 숨겨진 폴더에 저장됩니다.
 
@@ -234,6 +234,53 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 - DelayHoldApplied 또는 DelayReleaseHoldApplied 속성을 **True로** 설정하고 사서함(또는 해당 사용자 계정)이 삭제되면 사서함이 비활성 사서함이 됩니다. 두 속성 중 하나를 **True로** 설정하면 사서함이 보류된 것으로 간주되어 보류된 사서함을 삭제하면 비활성 사서함이 됩니다. 사서함을 삭제하고 비활성 사서함으로 설정하지 않은 경우 두 속성을 **모두 False로 설정해야 합니다.**
 
 - 앞서 말한 것 처럼 DelayHoldApplied 또는 DelayReleaseHoldApplied 속성이 **True로** 설정된 경우 사서함은 무제한 보류 기간 동안 보류된 것으로 간주됩니다. 그러나 사서함의 모든 콘텐츠가 보존되는 것은 아니며,  이 속성은 각 속성에 설정된 값에 따라 다를 수 있습니다. 예를 들어 사서함에서 보류가 제거되어 두 속성이 **모두 True로** 설정되어 있는 경우를 예로 들어 보겠습니다. 그런 다음 *RemoveDelayReleaseHoldApplied* 매개 변수를 사용하여 비클라우드 데이터에 Outlook 지연 보류만 제거합니다. 다음에 관리되는 폴더 도우미가 사서함을 처리하면 제거된 Outlook 항목이 제거됩니다. DelayHoldApplied 속성은 여전히 True로 설정되어 있기 때문에 Outlook 표시된 모든 항목은 **제거되지 않습니다.** 또한 DelayHoldApplied를 **False로** 설정하고 DelayReleaseHoldApplied를 **True로** 설정하면 제거된 Outlook 항목만 제거됩니다.
+
+## <a name="how-to-confirm-that-an-organization-wide-retention-policy-is-applied-to-a-mailbox"></a>조직 전체 보존 정책이 사서함에 적용되는지 확인하는 방법
+
+조직 전체 보존 정책이 사서함에 적용되거나 제거되면 사서함 진단 로그를 내보내면 사서함에 보존 Exchange Online 실제로 적용하거나 제거한 보존 정책을 쉽게 쉽게 만들 수 있습니다. 이 정보를 확인하려면 먼저 [Powershell을](/powershell/exchange/connect-to-exchange-online-powershell)사용하여 몇 가지 Exchange Online 합니다.
+
+### <a name="obtain-the-guids-for-any-retention-policies-explicitly-applied-to-a-mailbox"></a>사서함에 명시적으로 적용된 보존 정책의 GUID 획득
+
+```powershell
+Get-Mailbox <username> | Select-Object -ExpandProperty InPlaceHolds
+```
+
+### <a name="obtain-the-guids-for-any-organization-wide-retention-policies-appled-to-mailboxes"></a>사서함으로 사과된 조직 전체 보존 정책의 GUID 획득
+
+```powershell
+Get-OrganizationConfig | Select-Object -ExpandProperty InPlaceHolds
+```
+
+### <a name="get-the-mailbox-diagnostics-for-holdtracking"></a>HoldTracking에 대한 사서함 진단을 얻습니다.
+
+보류 추적 사서함 진단 로그는 사용자 사서함에 적용된 보류의 기록을 유지 관리합니다.
+
+```powershell
+$ht = Export-MailboxDiagnosticLogs <username> -ComponentName HoldTracking
+$ht.MailboxLog | Convertfrom-Json
+```
+
+### <a name="review-the-results-of-the-mailbox-diagnostics-logs"></a>사서함 진단 로그의 결과 검토
+
+이전 단계에서 데이터를 수집하는 경우 결과 데이터는 다음과 같이 될 수 있습니다.
+
+> **ed** `  : 0001-01-01T00:00:00.0000000` 
+>  **hid** ` : mbx7cfb30345d454ac0a989ab3041051209:1` 
+>  **ht** `  : 4` 
+>  **lsd** ` : 2020-03-23T18:24:37.1884606Z` 
+>  **osd**` : 2020-03-23T18:24:37.1884606Z`
+
+다음 표를 사용하여 진단 로그에 나열된 각 이전 값을 쉽게 이해할 수 있습니다.
+
+| 값   | 설명 |
+|:------- |:----------- |
+| **ed**  | 보존 정책을 사용하지 않도록 설정한 날짜인 종료 날짜를 나타냅니다. MinValue는 정책이 사서함에 여전히 할당되어 있는 것입니다. |
+| **hid** | 보존 정책의 GUID를 나타냅니다. 이 값은 사서함에 할당된 명시적 또는 조직 전체 보존 정책에 대해 수집한 GUID와 관련이 있습니다.|
+| **lsd** | 보존 정책이 사서함에 할당된 마지막 시작 날짜를 나타냅니다.|
+| **osd** | 보존 정책에 대한 정보를 처음 Exchange 원래 시작 날짜를 나타냅니다. |
+|||
+
+보존 정책이 사서함에 더 이상 적용되지는 경우 콘텐츠 삭제를 방지하기 위해 사용자에게 일시적인 지연이 적용됩니다. 명령을 실행하여 지연 보류를 사용하지 않도록 설정할 수 `Set-Mailbox -RemoveDelayHoldApplied` 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

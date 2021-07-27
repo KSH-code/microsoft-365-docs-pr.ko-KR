@@ -34,32 +34,62 @@
           href: data-privacy.md
         - name: Microsoft 보안 포털
           href: portals.md
-    - name: 기능 평가
+    - name: 평가 및 파일럿
       items:
-        - name: 평가판 랩 만들기
+        - name: 개요
+          href: eval-overview.md
+        - name: 평가 환경 만들기
+          href: eval-create-eval-environment.md
+        - name: ID용 Defender
           items:
-            - name: 평가판 랩 개요
-              href: m365d-evaluation.md
-            - name: 준비
-              href: prepare-m365d-eval.md
-            - name: 설정
-              href: setup-m365deval.md
-            - name: Microsoft 365 Defender 기조 및 온보딩 구성
-              href: config-m365d-eval.md
-            - name: 테스트 알림 생성
-              href: generate-test-alert.md
-        - name: 프로덕션에서 파일럿 프로젝트 실행
+            - name: 개요
+              href: eval-defender-identity-overview.md
+            - name: 아키텍처 요구 사항 리뷰
+              href: eval-defender-identity-architecture.md
+            - name: 평가 사용
+              href: eval-defender-identity-enable-eval.md
+            - name: ID용 파일럿 Defender
+              href: eval-defender-identity-pilot.md
+        - name: Office 365용 Defender
           items:
-            - name: 파일럿 개요
-              href: m365d-pilot.md
-            - name: 계획
-              href: m365d-pilot-plan.md
-            - name: 준비
-              href: prepare-m365d-eval.md
+            - name: 개요
+              href: eval-defender-office-365-overview.md
+            - name: 아키텍처 요구 사항 리뷰
+              href: eval-defender-office-365-architecture.md
+            - name: 평가 사용
+              href: eval-defender-office-365-enable-eval.md
+            - name: Office용 파일럿 Defender
+              href: eval-defender-office-365-pilot.md
+        - name: 엔드포인트용 Defender
+          items:
+            - name: 개요
+              href: eval-defender-endpoint-overview.md
+            - name: 아키텍처 요구 사항 리뷰
+              href: eval-defender-endpoint-architecture.md
+            - name: 평가 사용
+              href: eval-defender-endpoint-enable-eval.md
+            - name: 엔드포인트용 파일럿 Defender
+              href: eval-defender-endpoint-pilot.md
+        - name: Microsoft Cloud App Security
+          items:
+            - name: 개요
+              href: eval-defender-mcas-overview.md
+            - name: 아키텍처 요구 사항 리뷰
+              href: eval-defender-mcas-architecture.md
+            - name: 평가 사용
+              href: eval-defender-mcas-enable-eval.md
+            - name: 파일럿 Microsoft Cloud App Security
+              href: eval-defender-mcas-pilot.md
+        - name: 조사 및 대응
+          items:
+            - name: 개요
+              href: eval-defender-investigate-respond.md
             - name: 공격 시뮬레이션
-              href: m365d-pilot-simulate.md
-            - name: 닫기 및 요약
-              href: m365d-pilot-close.md
+              href: eval-defender-investigate-respond-simulate-attack.md
+            - name: 기능 시도
+              href: eval-defender-investigate-respond-additional.md
+        - name: 평가판을 제품으로 승격
+          href: eval-defender-promote-to-production.md
     - name: 시작
       items:
         - name: 개요
@@ -269,9 +299,9 @@
     - name: 사용 방법 가이드
       items:
         - name: 평가판 랩 또는 파일럿 환경 만들기
-          href: m365d-evaluation.md
+          href: eval-overview.md
         - name: 파일럿 플레이북 실행
-          href: m365d-pilot.md
+          href: eval-overview.md
         - name: FAQ 사용 설정
           href: m365d-enable-faq.md
     - name: 참조

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: b7a6a3e7f6f705f322ee3eb1c1b561bc01c55d29
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: c400cc16f5a5174edee360b6bf7b71a4c3a8cd1f
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770892"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542312"
 ---
 # <a name="start-investigation-api"></a>조사 시작 API
 
@@ -43,10 +43,8 @@ ms.locfileid: "52770892"
 디바이스에서 자동화된 조사를 시작하세요.
 <br>자세한 [내용은 자동화된](automated-investigations.md) 조사 개요를 참조하세요.
 
-
 ## <a name="limitations"></a>제한 사항
 1. 이 API에 대한 속도 제한은 시간당 50개 호출입니다.
-
 
 ## <a name="permissions"></a>사용 권한
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
@@ -64,14 +62,14 @@ ms.locfileid: "52770892"
 
 ## <a name="http-request"></a>HTTP 요청
 ```
-POST https://api.securitycenter.microsoft.com/api/machines/{id}/startInvestigation
+POST https://api.security.microsoft.com/api/machines/{id}/startInvestigation
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
 Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
@@ -86,14 +84,14 @@ Comment |   String |    작업과 연결되는 설명입니다. **필수입니�
 성공하면 이 메서드는 응답 본문에 201 - 생성된 응답 코드 및 [조사를](investigation.md) 반환합니다.
 
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 **요청**
 
 다음은 요청의 예입니다.
 
 ```https
-POST https://api.securitycenter.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2932e418702b84d0cc07/startInvestigation
+POST https://api.security.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2932e418702b84d0cc07/startInvestigation
 ```
 
 ```json

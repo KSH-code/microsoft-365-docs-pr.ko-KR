@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9e8b5a2cf26c3ba99b528695c3296f7a83d5bc22
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: d3150caceae82be761d71d60373ccc128b59bcd8
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861086"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542726"
 ---
 # <a name="turn-on-the-preview-experience-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 미리 보기 환경 켜기
 
@@ -36,9 +36,9 @@ ms.locfileid: "51861086"
 
 미리 보기 환경을 설정하여 최초로 예정된 기능을 사용해보세요.
 
-1. 탐색 창에서 고급 **설정**  >  **선택합니다.**
+1. 탐색 창에서 **끝점 고급 설정**  >  **를**  >  **선택합니다.**
 
-    ![설정 및 미리 보기 환경의 이미지](images/atp-preview-features.png)
+    :::image type="content" source="../../media/atp-preview-features-new.png" alt-text="설정 및 미리 보기 환경 이미지":::
 
 
 2. 설정 및 해제  간에 설정을 **전환하고** 기본 설정 **저장을 선택합니다.**

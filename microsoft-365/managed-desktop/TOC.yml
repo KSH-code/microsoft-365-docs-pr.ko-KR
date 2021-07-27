@@ -4,6 +4,8 @@
     - name: Microsoft Managed Desktop이란 무엇인가요?
       href: intro/index.md
       items:
+        - name: Microsoft Managed Desktop 및 Windows 11
+          href: intro/win11-overview.md
         - name: 역할 및 책임
           href: intro/roles-and-responsibilities.md
         - name: Microsoft Managed Desktop의 기술
@@ -169,5 +171,7 @@
               href: working-with-managed-desktop/config-setting-ref.md
             - name: 구성 가능한 설정 배포
               href: working-with-managed-desktop/config-setting-deploy.md
+        - name: Microsoft Managed Desktop을 사용하여 Windows 11 미리 보기 및 테스트
+          href: working-with-managed-desktop/test-win11-mmd.md
     - name: Microsoft Managed Desktop 문서 변경 기록
       href: change-history-managed-desktop.md

@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: bd197a55e5a119263bd9c67716c38010a86e5263
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 494e00187be4d19eb54d0226a02103b8fe20cb98
+ms.sourcegitcommit: ea8de1b48adb6df92fb9351ea862184a9f16cbbb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062189"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53461414"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
@@ -127,7 +127,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 
 - 사용자는 300MB보다 큰 Word, Excel 및 PowerPoint 파일에 대해 웹용 Office에서 레이블을 적용할 수 없습니다. 이러한 파일에는 Office 데스크톱 앱을 사용하여 레이블을 적용할 수 있지만, 해당 파일이 열려 있는 유일한 사용자여야만 가능합니다.
 
-- [민감도 레이블을 조건으로 하는 DLP 정책](dlp-sensitivity-label-as-condition.md)을 사용할 때는 암호화되지 않은 전자 메일 첨부 파일을 지원하지 않습니다.
+- 현재 롤아웃 중: [민감도 레이블을 조건으로 하는 DLP 정책](dlp-sensitivity-label-as-condition.md) 및 암호화되지 않은 전자 메일 첨부 파일 지원입니다.
 
 - 일부 문서는 [암호 보호](https://support.microsoft.com/office/require-a-password-to-open-or-modify-a-workbook-10579f0e-b2d9-4c05-b9f8-4109a6bce643), [공유 통합 문서](https://support.microsoft.com/office/about-the-shared-workbook-feature-49b833c0-873b-48d8-8bf2-c1c59a628534) 또는 ActiveX 컨트롤이 포함된 콘텐츠와 같은 기능으로 인해 민감도 레이블과 호환되지 않습니다. 그 밖의 다른 이유는 [Office의 공동 작성 문제 해결](https://support.microsoft.com/office/troubleshoot-co-authoring-in-office-bd481512-3f3a-4b6d-b7eb-ebf9d3626ae7)에서 확인할 수 있습니다. 이러한 문서의 경우 **UPLOAD FAILED 메시지** 가 표시되고 **변경 내용 취소** 옵션을 선택해야 합니다. 이 문제가 해결될 때까지 이 실패 메시지로 식별되는 문서에 레이블을 지정하지 마세요.
 
