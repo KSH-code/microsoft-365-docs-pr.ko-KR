@@ -1,8 +1,9 @@
 ---
-title: 추출자를 만들 때 용어 저장소 분류 활용
-ms.author: efrene
-author: efrene
+title: Microsoft SharePoint Syntex에서 추출기를 만들 때 용어 저장소 분류/분류법 활용
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -12,14 +13,14 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex의 문서 이해 모델에서 추출기를 만들 때 용어 저장소 분류를 사용하세요.
-ms.openlocfilehash: b8dfc028e0a18f3345fec466ec5e0079ed2d11ce
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ccc6b7d268a91d1febcbd760e8be560304c0e0d7
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925347"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578580"
 ---
-# <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>추출자를 만들 때 용어 저장소 분류 활용
+# <a name="leverage-term-store-taxonomy-when-creating-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기를 만들 때 용어 저장소 분류/분류법 활용
 
 </br>
 
@@ -44,7 +45,6 @@ SharePoint Syntex를 사용하여 문서 이해 모델에서 추출자를 생성
 모델에서 추출기를 만들 때 관리되는 메타데이터 필드를 선택하도록 하려면 [관리되는 메타데이터 사이트 열로 추가](https://support.microsoft.com/office/8fad9e35-a618-4400-b3c7-46f02785d27f)해야 합니다. 사이트 열을 추가한 후 모델에 대한 추출기를 만들 때 선택할 수 있습니다.
 
    ![계약 서비스](../media/content-understanding/contract-services.png)</br>
-
 
 문서 라이브러리에 모델을 적용 한 후 문서가 라이브러리에 업로드 되면 추출자가 동의어 값(*디자인*, *그래픽*, 및 *지형*)을 찾으면 *창의성 서비스* 칼럼이 기본 용어(*창의성*)로 보여집니다.
 

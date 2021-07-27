@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ec8dd97a563edc487008d028a7cdc9f6ef3d17c1
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: b4ed79359d8d535ec47a287292cedf1d0520711e
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689088"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567191"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>제로 데이 취약성 완화 - 위협 및 취약성 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "52689088"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 제로 데이 취약성은 공식 패치 또는 보안 업데이트가 릴리스되지 않은 공개된 취약성입니다. 제로 데이 취약성은 심각도 수준이 높고 적극적으로 악용되는 경우가 종종 있습니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "52689088"
 
 ## <a name="find-information-about-zero-day-vulnerabilities"></a>제로 데이 취약성에 대한 정보 찾기
 
-제로 데이 취약점이 발견된 후 이 취약점에 대한 정보는 제로 데이의 다음 경험을 통해 Microsoft Defender 보안 센터.
+제로 데이 취약점이 발견된 후 이 취약점에 대한 정보는 Microsoft 365 Defender 포털에서 다음 환경을 통해 전달됩니다.
 
 >[!NOTE]
 > 0일 취약성 기능은 현재 모든 제품에서만 Windows 있습니다.
@@ -66,19 +66,19 @@ ms.locfileid: "52689088"
 
 - 이 취약성에 할당된 CVE-ID가 없는 경우 내부의 임시 이름 아래에 "TVM-XXXX-XXXX"처럼 표시됩니다. 공식 CVE-ID가 할당된 후 이름이 업데이트되지만 이전 내부 이름은 계속 검색할 수 있으며 사이드 패널에서 찾을 수 있습니다.
 
-![약점 페이지의 CVE-2020-17087에 대한 제로 데이 예제입니다.](images/tvm-zero-day-weakness-name.png)
+:::image type="content" alt-text="약점 페이지의 CVE-2020-17087에 대한 제로 데이 예제입니다." source="images/tvm-zero-day-weakness-name.png" lightbox="images/tvm-zero-day-weakness-name.png":::
 
 ### <a name="software-inventory-page"></a>소프트웨어 인벤토리 페이지
 
 제로 데이 태그가 있는 소프트웨어를 검색합니다. "제로 데이" 태그로 필터링하여 제로 데이 취약점이 있는 소프트웨어만 볼 수 있습니다.
 
-![소프트웨어 인벤토리 Windows Server 2016 예제입니다.](images/tvm-zero-day-software-inventory.png)
+:::image type="content" alt-text="소프트웨어 인벤토리 Windows Server 2016 예제입니다." source="images/tvm-zero-day-software-inventory.png" lightbox="images/tvm-zero-day-software-inventory.png":::
 
 ### <a name="software-page"></a>소프트웨어 페이지
 
 제로 데이 취약성의 영향을 받은 각 소프트웨어에 대해 제로 데이 태그를 찾아야 합니다.
 
-![소프트웨어 페이지의 Windows Server 2016 예입니다.](images/tvm-zero-day-software-page.png)
+:::image type="content" alt-text="소프트웨어 페이지의 Windows Server 2016 예입니다." source="images/tvm-zero-day-software-page.png" lightbox="images/tvm-zero-day-software-page.png":::
 
 ### <a name="security-recommendations-page"></a>보안 권장 사항 페이지
 
@@ -86,7 +86,7 @@ ms.locfileid: "52689088"
 
 제로 데이 취약성 및 추가 취약점이 있는 소프트웨어가 있는 경우 모든 취약성에 대한 하나의 권장을 받을 수 있습니다.
 
-![보안 권장 사항 Windows Server 2016 예제입니다.](images/tvm-zero-day-security-recommendation.png)
+:::image type="content" alt-text="보안 권장 사항 Windows Server 2016 예제입니다." source="images/tvm-zero-day-security-recommendation.png" lightbox="images/tvm-zero-day-security-recommendation.png":::
 
 ## <a name="addressing-zero-day-vulnerabilities"></a>제로 데이 취약성 해결
 

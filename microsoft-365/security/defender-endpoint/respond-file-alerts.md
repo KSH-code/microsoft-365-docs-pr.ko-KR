@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 388d71ce4606acabaafdb32ba1baff87286951f1
-ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
+ms.openlocfilehash: 1db046d4001c2e8573b1e8bfb2274f9a58aaf3a3
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52998791"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53590782"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -33,7 +33,7 @@ ms.locfileid: "52998791"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-responddile-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-responddile-abovefoldlink)
 
 파일을 중지 및 차단하거나 파일을 차단하여 감지된 공격에 신속하게 대응합니다. 파일에 대한 작업을 수행한 후 작업 센터에서 활동 세부 정보를 확인할 수 있습니다.
 
@@ -53,9 +53,9 @@ ms.locfileid: "52998791"
 
 | 사용 권한             | PE 파일 | PE가 아닌 파일 |
 | :--------------------- | :------: | :----------: |
-| 데이터 보기              |     X    |       X 키      |
-| 경고 조사   | &#x2611; |       X 키      |
-| 실시간 응답 기본    |     X    |       X 키      |
+| 데이터 보기              |     X    |       X      |
+| 경고 조사   | &#x2611; |       X      |
+| 실시간 응답 기본    |     X    |       X      |
 | 실시간 응답 고급 | &#x2611; |   &#x2611;   |
 
 역할에 대한 자세한 내용은 역할 기반 액세스 제어에 대한 역할 [만들기 및 관리를 참조하세요.](user-roles.md)
@@ -144,9 +144,31 @@ ms.locfileid: "52998791"
 
 응답 **작업에서** 파일 다운로드를 선택하면 파일이 포함된 로컬 암호로 보호된 .zip 다운로드할 수 있습니다. 파일을 다운로드하는 이유를 기록하고 암호를 설정할 수 있는 플라이아웃이 나타납니다.
 
-기본적으로는 검지된 파일을 다운로드할 수 없습니다.
+기본적으로는 검지된 파일을 다운로드할 수 있습니다.
 
 ![파일 다운로드 작업의 이미지](images/atp-download-file-action.png)
+
+### <a name="download-quarantined-files"></a>quarantined files 다운로드
+
+사용자 또는 보안 팀에서 Microsoft Defender 바이러스 백신 샘플 제출 구성에 따라 규격 방식으로 [저장되는](enable-cloud-protection-microsoft-defender-antivirus.md)파일입니다. 보안 팀은 "파일 다운로드" 단추를 통해 파일의 세부 정보 페이지에서 직접 파일을 다운로드할 수 있습니다. **이 미리 보기 기능은 기본적으로 '켜기'로 설정되어 있습니다.**
+
+위치는 조직의 지리적 설정(EU, 영국 또는 미국)에 따라 다를 수 있습니다. 분리된 파일은 조직당 한 번만 수집됩니다. Service Trust Portal에서 Microsoft의 데이터 보호에 대한 자세한 내용은 을(를) 통해 자세히 알아보아야 https://aka.ms/STP 합니다.
+
+이 설정을 설정하면 보안 팀이 잠재적으로 잘못된 파일을 검사하고 인시던트의 위험을 덜 위험하게 빠르게 조사하는 데 도움이 될 수 있습니다. 그러나 이 설정을 해제해야 하는 경우 끝점 고급 기능 설정 파일 다운로드로 이동하여 설정을  >    >    >   조정합니다. [고급 기능에 대해 자세히 알아보시다](advanced-features.md)
+
+#### <a name="backing-up-quarantined-files"></a>고지된 파일 백업
+
+샘플 제출 구성에 따라 사용자에게 검사된 파일을 백업하기 전에 명시적 동의를 제공하라는 메시지가 표시될 [수 있습니다.](enable-cloud-protection-microsoft-defender-antivirus.md#use-group-policy-to-turn-on-cloud-delivered-protection)
+
+샘플 제출이 꺼져 있는 경우 이 기능이 작동하지 않습니다. 자동 샘플 제출이 사용자의 사용 권한을 요청하도록 설정되어 있는 경우 사용자가 보내기에 동의한 샘플만 수집됩니다.
+
+>[!IMPORTANT]
+>다음을 통해 quarantined file requirements을 다운로드합니다.
+>- 조직에서 활성 Microsoft Defender 바이러스 백신 사용 
+>- 바이러스 백신 엔진 버전은 1.1.17300.4 이상입니다. 월별 [플랫폼 및 엔진 버전 참조](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
+>- 클라우드 기반 보호를 사용할 수 있습니다. 클라우드 [제공 보호 켜기 참조](enable-cloud-protection-microsoft-defender-antivirus.md)
+>- 샘플 제출이 켜져 있습니다.
+>- 장치에 Windows 10 버전 1703 이상 또는 Windows 서버 2016 또는 2019가 있습니다.
 
 ### <a name="collect-files"></a>파일 수집
 
@@ -189,7 +211,7 @@ ms.locfileid: "52998791"
 
 ## <a name="consult-a-threat-expert"></a>위협 전문가에게 문의
 
-잠재적으로 손상된 장치 또는 이미 손상된 장치에 대한 자세한 내용은 Microsoft 위협 전문가에게 문의하세요. Microsoft 위협 전문가 정확한 응답을 위해 Microsoft Defender 보안 센터 내에서 직접 연결됩니다. 전문가는 잠재적으로 손상된 장치에 대한 인사이트를 제공하고 복잡한 위협 및 대상 공격 알림을 이해하는 데 도움이 됩니다. 또한 포털 대시보드에서 경고 또는 위협 인텔리전스 컨텍스트에 대한 정보를 제공할 수 있습니다.
+잠재적으로 손상된 장치 또는 이미 손상된 장치에 대한 자세한 내용은 Microsoft 위협 전문가에게 문의하세요. Microsoft 위협 전문가 정확한 응답을 위해 Microsoft 365 Defender 포털 내에서 직접 연결됩니다. 전문가는 잠재적으로 손상된 장치에 대한 인사이트를 제공하고 복잡한 위협 및 대상 공격 알림을 이해하는 데 도움이 됩니다. 또한 포털 대시보드에서 경고 또는 위협 인텔리전스 컨텍스트에 대한 정보를 제공할 수 있습니다.
 
 자세한 [내용은 Microsoft Threat Expert를](/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) 참조합니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: af22bac911339de9c2e02df24a77c1889a33d43a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fa9986d9ddab70f050055ce2e3b98357c2ab22c5
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933736"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567155"
 ---
 # <a name="security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항 - 위협 및 취약성 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "51933736"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 조직에서 식별된 사이버 보안 약점은 실행 가능한 보안 권장 사항에 매핑된 후 영향에 따라 우선 순위가 지정됩니다. 우선 순위가 높은 권장 사항은 취약성을 완화하거나 수정하고 규정 준수를 구동하는 데 시간을 단축하는 데 도움이 됩니다.
 
@@ -48,17 +48,17 @@ ms.locfileid: "51933736"
 
 조직의 각 장치는 고객이 올바른 점에 집중할 수 있도록 세 가지 중요한 요인에 따라 점수를 매기게 됩니다.
 
-- **위협** - 조직의 장치에서 취약성 및 악용의 특성 및 위반 기록. 이러한 요인에 따라 보안 권장 사항에 따라 활성 경고, 지속적인 위협 캠페인 및 해당 위협 분석 보고서에 대한 해당 링크가 표시됩니다.
+- **위협**- 조직의 장치에서 취약성 및 악용의 특성 및 위반 기록. 이러한 요인에 따라 보안 권장 사항에 따라 활성 경고, 지속적인 위협 캠페인 및 해당 위협 분석 보고서에 대한 해당 링크가 표시됩니다.
 
-- **위반 가능성** - 위협에 대한 조직의 보안 설정 및 탄력성
+- **위반 가능성**- 위협에 대한 조직의 보안 설정 및 탄력성
 
-- **비즈니스 가치** - 조직의 자산, 중요한 프로세스 및 지적 재산
+- **비즈니스 가치**- 조직의 자산, 중요한 프로세스 및 지적 재산
 
 ## <a name="navigate-to-the-security-recommendations-page"></a>보안 권장 사항 페이지로 이동합니다.
 
 몇 가지 다른 방법으로 보안 권장 페이지에 액세스합니다.
 
-- 위협 및 취약성 관리 탐색 [메뉴의](portal-overview.md) Microsoft Defender 보안 센터
+- 취약성 관리 포털의 위협 및 Microsoft 365 Defender [메뉴](portal-overview.md)
 - 보안 대시보드의 위협 및 취약성 관리 [권장 사항](tvm-dashboard-insights.md)
 
 다음과 같은 위치의 관련 보안 권장 사항을 볼 수 있습니다.
@@ -68,7 +68,7 @@ ms.locfileid: "51933736"
 
 ### <a name="navigation-menu"></a>탐색 메뉴
 
-위협 및 취약성 관리 메뉴로 이동하고 보안 권장 **사항을 선택합니다.** 이 페이지에는 조직에서 발견된 위협 및 취약성에 대한 보안 권장 사항 목록이 포함되어 있습니다.
+취약성 관리 탐색 **메뉴로** 이동하여 를 **권장 사항.** 이 페이지에는 조직에서 발견된 위협 및 취약성에 대한 보안 권장 사항 목록이 포함되어 있습니다.
 
 ### <a name="top-security-recommendations-in-the-threat-and-vulnerability-management-dashboard"></a>보안 대시보드의 주요 위협 및 취약성 관리 권장 사항
 
@@ -100,7 +100,7 @@ ms.locfileid: "51933736"
 
 조사하거나 처리하려는 보안 권장을 선택합니다.
 
-![보안 권장 플라이아웃 페이지의 예입니다.](images/secrec-flyouteolsw.png)
+:::image type="content" alt-text="보안 권장 플라이아웃 페이지의 예입니다." source="images/secrec-flyouteolsw.png" lightbox="images/secrec-flyouteolsw.png":::
 
 플라이아웃에서 다음 옵션을 선택할 수 있습니다.
 

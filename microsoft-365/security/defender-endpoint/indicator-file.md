@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e119898a457be2ceb6dd78ca7831e26dc93ee85f
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 535a729a56c5841eb6591ec34ac934c0446fefbd
+ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542684"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587708"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 지표 만들기
 
@@ -33,7 +33,7 @@ ms.locfileid: "53542684"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 잠재적으로 악의적인 파일 또는 의심되는 맬웨어를 금지하여 조직에서 공격이 추가로 전파되는 것을 방지합니다. 잠재적으로 악의적인 PE(이식 가능한 실행 파일) 파일을 알고 있는 경우 해당 파일을 차단할 수 있습니다. 이 작업을 수행하면 조직의 장치에서 읽고 쓰거나 실행할 수 없습니다.
 
@@ -59,8 +59,7 @@ ms.locfileid: "53542684"
 
 ## <a name="create-an-indicator-for-files-from-the-settings-page"></a>설정 페이지에서 파일에 대한 표시기 만들기
 
-1. 탐색 창에서 **끝점 설정(규칙** 아래)를  >    > 
-  **선택합니다.**
+1. 탐색 창에서  **끝점 설정(규칙** 아래)를 \>  \>  **선택합니다.**
 
 2. 파일 **해시 탭을**   선택합니다.
 
@@ -79,30 +78,26 @@ ms.locfileid: "53542684"
 
 표시기에서 자동으로 차단되는 파일은 파일의 알림 센터에 표시되지 않지만 경고 큐에 계속 표시됩니다.
 
->[!IMPORTANT]
+> [!IMPORTANT]
+>
 >- 일반적으로 파일 블록은 몇 분 이내에 적용 및 제거되지만 30분까지 걸릴 수 있습니다.
-> 
->- 적용 유형과 대상이 동일한 충돌하는 파일 IoC 정책이 있는 경우 보다 안전한 해시 정책이 적용됩니다. SHA-256 파일 해시 IoC 정책은 SHA-1 파일 해시 IoC 정책을 통해 이기며, 해시 유형이 동일한 파일을 정의하는 경우 MD5 파일 해시 IoC 정책에서 이기게 됩니다. 이는 장치 그룹에 관계없이 항상 해당됩니다. 
->   다른 모든 경우 적용 대상이 동일한 충돌하는 파일 IoC 정책이 모든 장치 및 디바이스 그룹에 적용될 경우 디바이스 그룹의 정책이 이기게 됩니다. 
->   
->- EnableFileHashComputation 그룹 정책을 사용하지 않도록 설정하면 IoC 파일의 차단 정확도가 줄어듭니다. 그러나 사용하도록 `EnableFileHashComputation` 설정하면 장치 성능에 영향을 줄 수 있습니다. 예를 들어 네트워크 공유에서 로컬 장치(특히 VPN 연결을 통해)에 큰 파일을 복사하면 장치 성능에 영향을 미치게 됩니다.
+>
+>- 적용 유형과 대상이 동일한 충돌하는 파일 IoC 정책이 있는 경우 보다 안전한 해시 정책이 적용됩니다. SHA-256 파일 해시 IoC 정책은 SHA-1 파일 해시 IoC 정책을 통해 이기며, 해시 유형이 동일한 파일을 정의하는 경우 MD5 파일 해시 IoC 정책에서 이기게 됩니다. 이는 장치 그룹에 관계없이 항상 해당됩니다.
+>  다른 모든 경우 적용 대상이 동일한 충돌하는 파일 IoC 정책이 모든 장치 및 디바이스 그룹에 적용될 경우 디바이스 그룹의 정책이 이기게 됩니다.
+>
+> - EnableFileHashComputation 그룹 정책을 사용하지 않도록 설정하면 IoC 파일의 차단 정확도가 줄어듭니다. 그러나 사용하도록 `EnableFileHashComputation` 설정하면 장치 성능에 영향을 줄 수 있습니다. 예를 들어 네트워크 공유에서 로컬 장치(특히 VPN 연결을 통해)에 큰 파일을 복사하면 장치 성능에 영향을 미치게 됩니다.
 >
 >   EnableFileHashComputation 그룹 정책에 대한 자세한 내용은 [Defender CSP를 참조하세요.](/windows/client-management/mdm/defender-csp)
 
-## <a name="policy-conflict-handling"></a>정책 충돌 처리  
+## <a name="policy-conflict-handling"></a>정책 충돌 처리
 
 Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 
 - 응용 프로그램 제어 및 AppLocker에서 모드 정책/정책을 Windows Defender 파일을 허용하지 않는 경우 **차단**
-
 - 그 외 제외에서 파일을 Microsoft Defender 바이러스 백신 다음 **허용**
-
 - 그렇지 않은 경우 파일이 차단되거나 파일 IoC에 의해 경고된 경우 **차단/경고**
-
 - 파일을 허용 파일 IoC 정책에서 허용하는 경우  허용
-
-- 다른 경우 파일이 ASR 규칙, CFA, AV, SmartScreen, Block에 의해 **차단된 경우**  
-
+- 다른 경우 파일이 ASR 규칙, CFA, AV, SmartScreen, Block에 의해 **차단된 경우**
 - Else **Allow** (passes Windows Defender Application Control & AppLocker policy, no IoC rules apply to it)
 
 적용 유형과 대상이 동일한 충돌하는 파일 IoC 정책이 있는 경우 더 안전한(더 긴) 해시 정책이 적용됩니다. 예를 들어 두 해시 유형이 동일한 파일을 정의하는 경우 SHA-256 파일 해시 IoC 정책이 MD5 파일 해시 IoC 정책에서 이기게 됩니다.
@@ -111,13 +106,13 @@ Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 
 ### <a name="examples"></a>예제
 
-|구성 요소 |구성 요소 적용 |파일 표시기 동작 |결과
-|--|--|--|--|
-|공격 표면 축소 파일 경로 제외 |허용 |차단 |차단
-|공격 표면 감소 규칙 |차단 |허용 |허용
-|Windows Defender 응용 프로그램 제어 |허용 |차단 |허용 |
-|Windows Defender 응용 프로그램 제어 |차단 |허용 |차단
-|Microsoft Defender 바이러스 백신 제외 |허용 |차단 |허용
+|구성 요소|구성 요소 적용|파일 표시기 동작|결과
+|---|---|---|---|
+|공격 표면 축소 파일 경로 제외|허용|차단|차단
+|공격 표면 감소 규칙|차단|허용|허용
+|Windows Defender 응용 프로그램 제어|허용|차단|허용
+|Windows Defender 응용 프로그램 제어|차단|허용|차단
+|Microsoft Defender 바이러스 백신 제외|허용|차단|허용
 
 ## <a name="see-also"></a>참고 항목
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a8039a06dc58c31158f90d39857ffbeba92138d5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 072118551ec64f0b399e27f16d630e89d30342c7
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933076"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567143"
 ---
 # <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>조직의 취약성 - 위협 및 취약성 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "51933076"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 위협 취약성 관리 끝점 보호를 위해 Defender의 동일한 신호를 사용하여 취약점을 검색합니다.
 
@@ -50,12 +50,12 @@ ms.locfileid: "51933076"
 
 몇 가지 다른 방법으로 취약점 페이지에 액세스합니다.
 
-- 화면의  위협 및 취약성 관리 메뉴에서 약점 [Microsoft Defender 보안 센터](portal-overview.md)
+- [Microsoft 365 Defender  포털]의 취약성 관리 탐색 메뉴에서 약점 선택(portal-overview.md) 
 - 전역 검색
 
 ### <a name="navigation-menu"></a>탐색 메뉴
 
-탐색 위협 및 취약성 관리 메뉴로 이동하고 **약점을** 선택하여 CV 목록을 열 수 있습니다.
+취약성 관리 탐색 **메뉴로**  이동하고 취약점을 선택하여 CV 목록을 열 수 있습니다.
 
 ### <a name="vulnerabilities-in-global-search"></a>전역 검색의 취약성
 
@@ -101,7 +101,7 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
 
 지원되지 않는 소프트웨어가 있는 CV에서는 노출된 장치 정보를 사용할 수 없습니다. "노출된 장치" 섹션에서 "사용할 수 없습니다" 옵션을 선택하여 지원되지 않는 소프트웨어로 필터링합니다.
 
- ![노출된 장치 필터.](images/tvm-exposed-devices-filter.png)
+:::image type="content" alt-text="노출된 장치 필터." source="images/tvm-exposed-devices-filter.png":::
 
 ## <a name="view-common-vulnerabilities-and-exposures-cve-entries-in-other-places"></a>다른 위치의 CVE(공통 취약성 및 노출) 항목 보기
 
@@ -112,7 +112,9 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
     ![소프트웨어, 약점, 위협, 노출된 장치 등 네 개의 열로 가장 취약한 소프트웨어 카드입니다.](images/tvm-top-vulnerable-software500.png)
 
 2. 조사할 소프트웨어를 선택하여 드릴다운 페이지로 이동합니다.
+
 3. 검색된 **취약성 탭을** 선택합니다.
+
 4. 취약점 세부 정보에 대한 자세한 내용을 조사할 취약점 선택
 
     ![Windows Server 2019 드릴다운 개요.](images/windows-server-drilldown.png)
@@ -121,15 +123,17 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
 
 장치 페이지에서 관련 약점 정보를 확인합니다.
 
-1. 탐색 Microsoft Defender 보안 센터 모음으로 이동한 다음 장치 아이콘을 선택합니다. 장치 **목록 페이지가** 열립니다.
-2. 장치 **목록 페이지에서** 조사할 장치 이름을 선택합니다.
+1. 탐색 Microsoft 365 Defender 모음으로 이동한 다음 장치 아이콘을 선택합니다. 장치 **인벤토리** 페이지가 열립니다.
+
+2. 장치 **인벤토리 페이지에서** 조사할 장치 이름을 선택합니다.
 
     ![조사할 선택한 장치가 있는 장치 목록입니다.](images/tvm_machinetoinvestigate.png)
 
 3. 조사할 장치에 대한 세부 정보 및 응답 옵션이 있는 장치 페이지가 열립니다.
+
 4. 검색된 **취약성을 선택합니다.**
 
-    ![세부 정보 및 응답 옵션이 있는 장치 페이지입니다.](images/tvm-discovered-vulnerabilities.png)
+   :::image type="content" alt-text="세부 정보 및 응답 옵션이 있는 장치 페이지입니다." source="images/tvm-discovered-vulnerabilities.png" lightbox="images/tvm-discovered-vulnerabilities.png":::
 
 5. 조사할 취약점을 선택하여 CVE 세부 정보(예: 취약성 설명, 위협 정보 및 검색 논리)가 있는 플라이아웃 패널을 열 수 있습니다.
 
@@ -139,7 +143,7 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
 
 관련 시나리오에서도 "OS 기능" 범주가 표시됩니다. CVE는 특정 OS 구성 요소를 사용하는 경우 취약한 OS를 실행하는 장치에만 영향을 미치게 됩니다. Server 2019의 WINDOWS DNS 구성 요소에 취약점이 있습니다. 이 새로운 기능을 사용하여 OS에서 사용하도록 설정된 DNS 기능을 사용하여 Windows Server 2019 장치에만 이 CVE를 연결합니다.
 
-![검색 논리 장치 및 KB에서 검색된 소프트웨어를 나열하는 예제입니다.](images/tvm-cve-detection-logic.png)
+:::image type="content" alt-text="검색 논리 장치 및 KB에서 검색된 소프트웨어를 나열하는 예제입니다." source="images/tvm-cve-detection-logic.png":::
 
 ## <a name="report-inaccuracy"></a>부정확성 보고
 

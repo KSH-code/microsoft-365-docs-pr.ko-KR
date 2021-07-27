@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: eDiscovery Microsoft 365 전자 메일 메시지에 첨부되고 SharePoint 온라인 및 전자 메일 메시지에 저장된 암호화된 문서를 처리하는 비즈니스용 OneDrive.
-ms.openlocfilehash: b87d87b7b0e870d6f396d87dc693fb8f41d5826b
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: 9d3bee507d2add2a6ad1dedadf64c47298ecbab6
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51750030"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567311"
 ---
 # <a name="decryption-in-microsoft-365-ediscovery-tools"></a>eDiscovery Microsoft 365 암호 해독
 
@@ -36,6 +36,9 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 보다 쉽게 관리할 
 ## <a name="supported-encryption-technologies"></a>지원되는 암호화 기술
 
 Microsoft eDiscovery 도구는 Microsoft 암호화 기술로 암호화된 항목을 지원합니다. 이러한 기술은 Azure 권한 관리 및 Microsoft Information Protection(특히 민감도 레이블)입니다. Microsoft 암호화 기술에 대한 자세한 내용은 암호화를 [참조하세요.](encryption.md) 타사 암호화 기술로 암호화된 콘텐츠는 지원되지 않습니다. 예를 들어 Microsoft가 아닌 기술로 암호화된 콘텐츠를 미리 보거나 내보내는 것은 지원되지 않습니다.
+
+> [!NOTE]
+> OME(Office 365 메시지 암호화)로 암호화된 전자 메일 메시지의 암호 해독은 Microsoft eDiscovery 도구에서 지원되지 않습니다.
 
 ## <a name="ediscovery-activities-that-support-encrypted-items"></a>암호화된 항목을 지원하는 eDiscovery 활동
 

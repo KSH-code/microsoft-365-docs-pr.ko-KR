@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 28a332cec68521741bdda62aeecd25440552344a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 820edf268a3062754a4994b6ce6c60c40b9a4312
+ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932742"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587780"
 ---
 # <a name="new-configuration-profiles-for-macos-catalina-and-newer-versions-of-macos"></a>macOS 카탈로니아 및 최신 버전의 macOS용 새 구성 프로필
 
@@ -34,7 +34,7 @@ ms.locfileid: "51932742"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 macOS 업데이트에서 끝점용 Microsoft Defender를 준비하고 있습니다. 이 업데이트는 macOS 카탈로니아어(10.15.4) 및 최신 버전의 macOS에만 적용할 수 있습니다.
 
@@ -42,7 +42,7 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
 
 ## <a name="jamf"></a>JAMF
 
-### <a name="system-extensions-policy"></a>시스템 확장 정책
+### <a name="jamf-system-extensions-policy"></a>JAMF 시스템 확장 정책
 
 시스템 확장을 승인하기 위해 다음 페이로드를 생성합니다.
 
@@ -69,7 +69,7 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
 
 ### <a name="network-extension-policy"></a>네트워크 확장 정책
 
-끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
+끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft 365 Defender 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
 >[!NOTE]
 >JAMF에는 콘텐츠 필터링 정책에 대한 기본 제공 지원이 없습니다. 이는 macOS의 끝점용 Microsoft Defender가 장치에 설치하는 네트워크 확장을 사용하도록 설정하기 위한 전제입니다. 또한 JAMF는 배포되는 정책의 콘텐츠를 변경하는 경우도 있습니다.
@@ -149,13 +149,13 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
     ```bash
     $ plutil -lint ~/Documents/com.microsoft.network-extension.mobileconfig
     ```
-    
+
     명령이 을 출력하는지 `OK` 확인
-        
+
     ```bash
     <PathToFile>/com.microsoft.network-extension.mobileconfig: OK
     ```
-    
+
 3. 이 페이지의 지침에 [따라](https://www.jamf.com/jamf-nation/articles/649/creating-a-signing-certificate-using-jamf-pro-s-built-in-certificate-authority) JAMF의 기본 제공 인증 기관을 사용하여 서명 인증서를 만들 수 있습니다.
 
 4. 인증서를 만들어 장치에 설치한 후 터미널에서 다음 명령을 실행하여 파일에 서명합니다.
@@ -163,18 +163,18 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
     ```bash
     $ security cms -S -N "<CertificateName>" -i <PathToFile>/com.microsoft.network-extension.mobileconfig -o <PathToSignedFile>/com.microsoft.network-extension.signed.mobileconfig
     ```
-    
+
     예를 들어 인증서 이름이 **SigningCertificate인** 경우 서명된 파일이 문서에 저장됩니다.
-    
+
     ```bash
     $ security cms -S -N "SigningCertificate" -i ~/Documents/com.microsoft.network-extension.mobileconfig -o ~/Documents/com.microsoft.network-extension.signed.mobileconfig
     ```
-    
+
 5. JAMF 포털에서 구성 프로필로 **이동한** 후 업로드 **클릭합니다.** 파일을 `com.microsoft.network-extension.signed.mobileconfig` 입력하라는 메시지가 표시될 때 선택합니다.
 
 ## <a name="intune"></a>Intune
 
-### <a name="system-extensions-policy"></a>시스템 확장 정책
+### <a name="intune-system-extensions-policy"></a>Intune 시스템 확장 정책
 
 시스템 확장을 승인합니다.
 
@@ -195,7 +195,7 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
 
 ### <a name="create-and-deploy-the-custom-configuration-profile"></a>사용자 지정 구성 프로필 만들기 및 배포
 
-다음 구성 프로필은 네트워크 확장을 사용할 수 있도록 설정하고 끝점 보안 시스템 확장에 대한 전체 디스크 액세스 권한을 부여합니다. 
+다음 구성 프로필은 네트워크 확장을 사용할 수 있도록 설정하고 끝점 보안 시스템 확장에 대한 전체 디스크 액세스 권한을 부여합니다.
 
 다음 콘텐츠를 다음 **sysext.xml.**
 
@@ -305,10 +305,10 @@ sysext.xml: OK
 
 이 사용자 지정 구성 프로필을 배포하려면
 
-1.  Intune에서 장치 구성  >  **관리를 열고** 프로필 **관리**  >  **프로필**  >  **만들기 를 선택합니다.**
+1. Intune에서 장치 구성  >  **관리를 열고** 프로필 **관리**  >  **프로필**  >  **만들기 를 선택합니다.**
 2. 프로필 이름을 선택하세요. **Platform=macOS** 및 **Profile type=Custom을 변경합니다.** 구성을 **선택합니다.**
-3.  구성 프로필을 열고 **sysext.xml.** 이 파일은 이전 단계에서 만들어졌습니다.
-4.  **확인** 을 선택합니다.
+3. 구성 프로필을 열고 **sysext.xml.** 이 파일은 이전 단계에서 만들어졌습니다.
+4. **확인** 을 선택합니다.
 
     ![Intune의 시스템 확장 스크린샷](images/mac-system-extension-intune.png)
 

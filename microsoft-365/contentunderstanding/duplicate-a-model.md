@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 모델을 복제하는 방법과 이유에 대해 자세히 알 수 있습니다.
-ms.openlocfilehash: 501c33b5309ca4af264a361c80fb0409c08c92e3
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 882340198ec17402caa30d9e1e34b4e37b0096a4
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51446039"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578472"
 ---
 # <a name="duplicate-a-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 모델 복제
 
@@ -48,7 +48,7 @@ ms.locfileid: "51446039"
 
    b. **설명** 에서 새 모델에 대한 설명을 추가하세요.
 
-   c. (선택 사항) **고급 설정** 에서 기존 [콘텐츠 유형 ](/sharepoint/governance/content-type-and-workflow-planning#content-type-overview)을 연결할지 여부를 선택합니다.
+   c. (선택 사항) **고급 설정** 에서 기존 [콘텐츠 유형](/sharepoint/governance/content-type-and-workflow-planning#content-type-overview)을 연결할지 여부를 선택합니다.
 
 5. **복제** 를 선택합니다.
 

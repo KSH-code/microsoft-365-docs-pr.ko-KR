@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c7b39b600af2fed130a0b78a590740a8bc063f50
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 19423b1a52bc02768236e56a73ccefe71cfd7672
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861698"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567083"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -33,11 +33,11 @@ ms.locfileid: "52861698"
 
 > [!IMPORTANT]
 > **웹 콘텐츠 필터링이 현재 공개 미리 보기에 있습니다.**<br>
-> 이 미리 보기 버전은 서비스 수준 계약 없이 제공하며 프로덕션 워크로드에는 권장되지 않습니다. 일부 기능은 지원되지 않을 수도, 기능이 제한될 수도 있습니다.
-> 자세한 내용은 끝점 미리 보기 [기능용 Microsoft Defender를 참조하세요.](preview.md)
+> 이 미리 보기 버전은 서비스 수준 계약 없이 제공되며 프로덕션 워크로드에는 권장되지 않습니다. 특정 기능이 지원되지 않거나 기능이 제한될 수 있습니다.
+> 자세한 내용은 [엔드포인트용 Microsoft Defender 미리 보기 기능](preview.md)을 참조하세요.
 
 > [!TIP]
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
 웹 콘텐츠 필터링은 [](web-protection-overview.md) 끝점용 Microsoft Defender의 웹 보호 기능의 일부입니다. 이를 통해 조직은 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 이러한 웹 사이트 중 상당수는 악의적이지 않은 경우 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 문제가 될 수 있습니다.
 
@@ -55,12 +55,12 @@ ms.locfileid: "52861698"
 
 지원되는 제3자 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 알림을 제공하는 네트워크 보호를 통해 제공됩니다. 보다 사용자에게 친숙한 브라우저 내 환경을 위해 브라우저 내 환경을 Microsoft Edge.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
 이 기능을 시도하기 전에 다음 요구 사항을 충족하는지 확인합니다.
 
 - Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 끝점용 Microsoft Defender 독립 실행형 라이선스. 
-- Microsoft Defender 보안 센터 포털에 https://securitycenter.windows.com) 액세스합니다( .
+- Microsoft 365 Defender 포털에 https://security.microsoft.com) 액세스합니다( .
 - 최신 moCAMP Windows 10 1주년 업데이트(버전 1607) 이상을 실행하는 장치.
 - Windows Defender SmartScreen 및 네트워크 보호를 사용할 수 있습니다.
 
@@ -71,11 +71,11 @@ ms.locfileid: "52861698"
 
 ## <a name="turn-on-web-content-filtering"></a>웹 콘텐츠 필터링 켜기
 
-왼쪽 탐색 메뉴에서 일반 고급 **설정**  >    >  **선택합니다.** 웹 콘텐츠 필터링 항목이 표시될 때까지 아래로 **스크롤합니다.** 토글을 **켜기 및** 저장 기본 **설정으로 전환합니다.**
+왼쪽 탐색 메뉴에서 **끝점 설정** 고급 기능을  >    >    >  **선택합니다.** 웹 콘텐츠 필터링 항목이 표시될 때까지 아래로 **스크롤합니다.** 토글을 **켜기 및** 저장 기본 **설정으로 전환합니다.**
 
 ### <a name="configure-web-content-filtering-policies"></a>웹 콘텐츠 필터링 정책 구성
 
-웹 콘텐츠 필터링 정책은 어떤 장치 그룹에서 차단되는 사이트 범주를 지정합니다. 정책을 관리하기 위해 규칙 **웹 콘텐츠 설정**  >  **로**  >  **이동하세요.**
+웹 콘텐츠 필터링 정책은 어떤 장치 그룹에서 차단되는 사이트 범주를 지정합니다. 정책을 관리하기 위해 **규칙에서 설정**  >  **끝점** 웹 콘텐츠 필터링으로  >   **이동하세요.**
 
 필터를 사용하여 차단된 특정 범주를 포함하거나 특정 장치 그룹에 적용되는 정책을 찾습니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "52861698"
 
 웹 콘텐츠 필터링에서 차단된 범주를 정의하여 사용자 지정 표시기 정책을 만들어 단일 사이트를 허용할 수 있습니다. 사용자 지정 표시기 정책은 해당 디바이스 그룹에 적용될 때 웹 콘텐츠 필터링 정책을 대신합니다.
 
-1. 표시기 URL/도메인 Microsoft Defender 보안 센터 추가로 이동하여 설정 사용자 지정   >    >    >  **표시기를 만드세요.**
+1. 끝점 표시기 URL/도메인 Microsoft 365 Defender 추가로 이동하여 설정  >    >    >    >  **표시기를 만드세요.**
 
 2. 사이트의 도메인을 입력합니다.
 

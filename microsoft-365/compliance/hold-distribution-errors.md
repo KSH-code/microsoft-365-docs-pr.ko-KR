@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Core eDiscovery에서 보유자 및 비관리 데이터 원본에 적용된 법적 보유와 관련된 오류를 해결합니다.
-ms.openlocfilehash: b101bf92c6a304262b3886a4ce0280f427a4a847
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3e5cc6351d5026feda560bee646a1e6a03475ee2
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538474"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578520"
 ---
 # <a name="troubleshoot-ediscovery-hold-errors"></a>eDiscovery 보류 오류 문제 해결
 
@@ -36,7 +36,7 @@ eDiscovery 보류와 관련된 오류 수를 줄이면 다음과 같은 모범 �
 - 보류 정책을 추가로 업데이트하기 전에 보류 중인지 확인합니다. 다음 명령을 실행하거나 PowerShell 스크립트에 저장합니다.
 
     ```powershell
-    $status = Get-CaseHoldPolicy -Identity <policyname> 
+    $status = Get-CaseHoldPolicy -Identity <policyname> -DistributionDetail
     if($status.DistributionStatus -ne "Pending"){
         # policy no longer pending
         Set-CaseHoldPolicy -Identity <policyname> -AddExchangeLocation $user1

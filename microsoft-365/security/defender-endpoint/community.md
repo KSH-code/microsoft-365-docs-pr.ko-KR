@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: ef1076fb5b8bfc38090374671998460190faaba9
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: f97edde712287ef72b9196b11651bc5ce3fbe7a2
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893428"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567239"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>엔드포인트용 Microsoft Defender 커뮤니티에 액세스
 
@@ -32,18 +32,17 @@ ms.locfileid: "51893428"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+>Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 Endpoint용 Defender Community 센터는 커뮤니티 구성원이 제품에 대한 학습, 공동 작업 및 경험을 공유할 수 있는 장소입니다. 
 
 특정 정보에 대해 알아보기 위해 탐색할 수 있는 몇 가지 공간이 있습니다.
-- 공지 사항 
+- 공지 
 - 새로운 기능
 - 위협 인텔리전스
 
-
 앱 센터에 액세스하는 방법에는 여러 가지가 Community 있습니다.
-- 사용자 Microsoft Defender 보안 센터 창에서 Community **선택합니다.**  새 브라우저 탭이 열리면 Endpoint Tech Community 페이지로 이동합니다. 
+- 포털 Microsoft 365 Defender 창에서 Community **선택합니다.**  새 브라우저 탭이 열리면 Endpoint Tech Community 페이지로 이동합니다. 
 - [Microsoft Defender for Endpoint Tech](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced) Community 통해 커뮤니티에 액세스
 
 

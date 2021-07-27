@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: df1a032ffab0490c41edc7d282f0f2cc60608870
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 830a744ff2552cda2e974867920bceab77763e91
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289682"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53590710"
 ---
 # <a name="alert-resource-type"></a>경고 리소스 유형
 
@@ -30,7 +30,7 @@ ms.locfileid: "53289682"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -56,9 +56,9 @@ ms.locfileid: "53289682"
 
 속성 |    유형    |    설명
 :---|:---|:---
-id | 문자열 | 경고 ID입니다.
-title | 문자열 | 경고 제목.
-description | 문자열 | 경고 설명.
+id | String | 경고 ID입니다.
+title | String | 경고 제목.
+설명 | String | 경고 설명.
 alertCreationTime | Nullable DateTimeOffset | 경고가 만들어진 날짜 및 시간(UTC)입니다.
 lastEventTime | Nullable DateTimeOffset | 동일한 장치에서 경고를 트리거한 이벤트의 마지막 발생입니다.
 firstEventTime | Nullable DateTimeOffset | 해당 디바이스에서 경고를 트리거한 이벤트의 첫 번째 발생입니다.
@@ -67,19 +67,19 @@ resolvedTime | Nullable DateTimeOffset | 경고 상태가 '해결'으로 변경�
 incidentId | Nullable Long | 경고의 [인시던트](view-incidents-queue.md) ID입니다.
 investigationId | Nullable Long | [경고와](automated-investigations.md) 관련된 조사 ID입니다.
 investigationState | Nullable Enum | 조사의 현재 [상태입니다.](automated-investigations.md) 가능한 값은 '알 수 없음', 'Terminated', 'SuccessfullyRemediated', 'Benign', 'Failed', 'PartiallyRemediated', 'Running', 'PendingApproval', 'PendingResource', 'PartiallyInvestigated', 'TerminatedByUser', 'TerminatedBySystem', 'Queued', 'InnerFailure', 'PreexistingAlert', 'UnsupportedOs', 'UnsupportedAlertType', 'SuppressedAlert'.
-assignedTo | 문자열 | 경고의 소유자입니다.
+assignedTo | String | 경고의 소유자입니다.
 심각도 | Enum | 경고의 심각도입니다. 가능한 값은 'UnSpecified', 'Informational', 'Low', 'Medium' 및 'High'입니다.
 status | Enum | 경고의 현재 상태를 지정합니다. 가능한 값은 '알 수 없음', '신규', 'InProgress' 및 'Resolved'입니다.
 classification | Nullable Enum | 경고 사양입니다. 가능한 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다.
 determination | Nullable Enum | 경고 결정 가능한 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
-category| 문자열 | 경고 범주입니다.
-detectionSource | 문자열 | 검색 원본.
-threatFamilyName | 문자열 | 위협 패밀리.
-threatName | 문자열 | 위협 이름입니다.
-machineId | 문자열 | 경고와 [연결된](machine.md) 컴퓨터 엔터티의 ID입니다.
-computerDnsName | 문자열 | [컴퓨터의](machine.md) 정식 이름입니다.
-aadTenantId | 문자열 | Azure Active Directory ID입니다.
-detectorId | 문자열 | 경고를 트리거한 감지기 ID입니다.
+category| String | 경고 범주입니다.
+detectionSource | String | 검색 원본.
+threatFamilyName | String | 위협 패밀리.
+threatName | String | 위협 이름입니다.
+machineId | String | 경고와 [연결된](machine.md) 컴퓨터 엔터티의 ID입니다.
+computerDnsName | String | [컴퓨터의](machine.md) 정식 이름입니다.
+aadTenantId | String | Azure Active Directory ID입니다.
+detectorId | String | 경고를 트리거한 감지기 ID입니다.
 설명 | 경고 설명 목록 | Alert Comment 개체에는 주석 문자열, createdBy 문자열 및 createTime 날짜 시간이 포함되어 있습니다.
 증거 | 경고 증거 목록 | 경고와 관련된 증거입니다. 아래 예제를 참조하세요.
 
@@ -123,7 +123,7 @@ GET https://api.securitycenter.microsoft.com/api/alerts/da637472900382838869_136
     ],
     "relatedUser": {
         "userName": "temp123",
-        "domainName": "MIDDLEEAST"
+        "domainName": "DOMAIN"
     },
     "comments": [
         {
@@ -153,8 +153,8 @@ GET https://api.securitycenter.microsoft.com/api/alerts/da637472900382838869_136
             "registryHive": null,
             "registryValueType": null,
             "registryValue": null,
-            "accountName": "eranb",
-            "domainName": "MIDDLEEAST",
+            "accountName": "name",
+            "domainName": "DOMAIN",
             "userSid": "S-1-5-21-11111607-1111760036-109187956-75141",
             "aadUserId": "11118379-2a59-1111-ac3c-a51eb4a3c627",
             "userPrincipalName": "temp123@microsoft.com",

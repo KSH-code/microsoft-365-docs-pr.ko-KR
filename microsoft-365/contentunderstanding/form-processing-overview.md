@@ -1,8 +1,9 @@
 ---
-title: 양식 처리 개요
-ms.author: efrene
-author: efrene
+title: Microsoft SharePoint Syntex의 양식 처리 개요
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -11,15 +12,15 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-description: Microsoft SharePoint Syntex에서 양식 처리 모델 알아보기
-ms.openlocfilehash: e3cf8298a2db9383e5b88dde737efc84e75c7f19
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+description: Microsoft SharePoint Syntex의 양식 처리 모델에 대해 알아봅니다.
+ms.openlocfilehash: d6cd129c3e52287a45bec6f91ddf8ecbda2af758
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222260"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578568"
 ---
-# <a name="form-processing-overview"></a>양식 처리 개요
+# <a name="form-processing-overview-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 양식 처리 개요
 
  ![AI 작성기](../media/content-understanding/ai-builder.png)</br>
 

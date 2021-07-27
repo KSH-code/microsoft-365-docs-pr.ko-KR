@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0d270760cfed965c8190668afcdb1cc25223d2b1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9c31d62933ecb34d75e048101891fa7fa7b4256d
+ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933724"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587700"
 ---
 # <a name="software-inventory---threat-and-vulnerability-management"></a>소프트웨어 인벤토리 - 위협 및 취약성 관리
 
@@ -34,9 +34,9 @@ ms.locfileid: "51933724"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-위협 및 취약성 관리 소프트웨어 인벤토리는 공식 [CPE(Common Platform Enumerations)가](https://nvd.nist.gov/products/cpe)있는 조직의 알려진 소프트웨어 목록입니다. 공식 CPE가 없는 소프트웨어 제품에는 취약성이 게시되지 않았습니다. 또한 공급업체 이름, 약점 수, 위협, 노출된 장치 수 등의 세부 정보도 포함됩니다.
+위협 및 취약성 관리 소프트웨어 인벤토리는 공식 [CPE(Common Platform Enumerations)가](https://nvd.nist.gov/products/cpe)있는 조직의 알려진 소프트웨어 목록입니다. 공식 CPE가 없는 소프트웨어 제품에는 취약점이 게시되지 않습니다. 또한 공급업체 이름, 약점 수, 위협, 노출된 장치 수 등의 세부 정보도 포함됩니다.
 
 ## <a name="how-it-works"></a>작동 방법
 
@@ -46,7 +46,7 @@ ms.locfileid: "51933724"
 
 ## <a name="navigate-to-the-software-inventory-page"></a>소프트웨어 인벤토리 페이지로 이동합니다.
 
-의 위협 및 취약성 관리 탐색 메뉴에서 소프트웨어 인벤토리를 선택하여 소프트웨어 인벤토리 [페이지에 Microsoft Defender 보안 센터.](portal-overview.md) 
+웹 사이트 포털의 위협 및 취약성 관리  메뉴에서 소프트웨어 인벤토리를 선택하여 소프트웨어 [인벤토리 페이지에 Microsoft 365 Defender 액세스합니다.](portal-overview.md)
 
 장치 목록에서 개별 디바이스 페이지의 특정 디바이스에서 소프트웨어를 [볼 수 있습니다.](machines-view-overview.md)
 
@@ -59,7 +59,7 @@ ms.locfileid: "51933724"
 
 소프트웨어에서 발견된 약점, 관련된 위협 및 소프트웨어가 지원 종료에 도달한지 여부와 같은 태그를 기준으로 목록 보기를 필터링할 수 있습니다.
 
-![소프트웨어 인벤토리 방문 페이지의 예입니다.](images/tvm-software-inventory.png)
+:::image type="content" alt-text="소프트웨어 인벤토리 방문 페이지의 예입니다." source="images/tvm-software-inventory.png" lightbox="images/tvm-software-inventory.png":::
 
 조사할 소프트웨어를 선택합니다. 플라이아웃 패널은 페이지에 있는 정보를 보다 컴팩트하게 볼 수 있는 보기로 열립니다. 조사를 더 깊이 진행하고 소프트웨어 페이지 열기를 선택하거나 부정확성 보고를 선택하여 기술 불일치에 플래그를 지정합니다. 
 
@@ -67,7 +67,7 @@ ms.locfileid: "51933724"
 
 위협 요소에 의해 현재 지원되지 & 취약성 관리 소프트웨어 인벤토리 페이지에 있을 수 있습니다. 지원되지 않는 경우 제한된 데이터만 사용할 수 있습니다. "약점" 섹션의 "사용할 수 없는" 옵션을 사용하여 지원되지 않는 소프트웨어로 필터링합니다.
 
-![지원되지 않는 소프트웨어 필터입니다.](images/tvm-unsupported-software-filter.png)
+:::image type="content" alt-text="지원되지 않는 소프트웨어 필터입니다." source="images/tvm-unsupported-software-filter.png" lightbox="images/tvm-unsupported-software-filter.png":::
 
 다음은 소프트웨어가 지원되지 않는다는 것입니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "51933724"
 
 ## <a name="software-inventory-on-devices"></a>장치의 소프트웨어 인벤토리
 
-Microsoft Defender 보안 센터 탐색 패널에서 장치 목록 **[으로 이동하세요.](machines-view-overview.md)** 장치 페이지를 열 장치의 이름(예: Computer1)을  선택한 다음 소프트웨어 인벤토리 탭을 선택하여 장치에 있는 알려진 모든 소프트웨어 목록을 확인합니다. 자세한 정보를 사용하여 플라이아웃을 열기 위해 특정 소프트웨어 항목을 선택합니다.
+포털 Microsoft 365 Defender 패널에서 장치 인벤토리 **[로 이동하세요.](machines-view-overview.md)** 장치 페이지를 열 장치의 이름(예: Computer1)을  선택한 다음 소프트웨어 인벤토리 탭을 선택하여 장치에 있는 알려진 모든 소프트웨어 목록을 확인합니다. 자세한 정보를 사용하여 플라이아웃을 열기 위해 특정 소프트웨어 항목을 선택합니다.
 
 현재 소프트웨어가 디바이스 수준에서 지원되지 않는 경우에도 소프트웨어가 장치 수준에서 표시될 위협 및 취약성 관리. 그러나 제한된 데이터만 사용할 수 있습니다. 소프트웨어가 "취약성" 열에 "사용할 수 없습니다."라고 표시될 것이기 때문에 지원되지 않는지 알 수 있습니다.
 
@@ -92,7 +92,7 @@ CPE가 없는 소프트웨어는 이 장치별 소프트웨어 인벤토리 아�
 
 플라이아웃을 열고 "소프트웨어 증거" 섹션을 찾아보는 소프트웨어 이름을 선택합니다.
 
-![소프트웨어 증거 레지스트리 경로를 Windows 10 장치 목록의 소프트웨어 증거 예제입니다.](images/tvm-software-evidence.png)
+:::image type="content" alt-text="소프트웨어 증거 레지스트리 경로를 Windows 10 장치 목록의 소프트웨어 증거 예제입니다." source="images/tvm-software-evidence.png" lightbox="images/tvm-software-evidence.png":::
 
 ## <a name="software-pages"></a>소프트웨어 페이지
 
@@ -107,12 +107,12 @@ CPE가 없는 소프트웨어는 이 장치별 소프트웨어 인벤토리 아�
 - 공급업체 정보가 있는 사이드 패널, 조직의 소프트웨어 보전(설치된 장치 수, 패치되지 않은 노출된 장치 포함), 사용 가능 여부 및 악용 여부, 노출 점수에 미치는 영향
 - 취약성 및 잘못 구성의 수 및 심각도에 대한 데이터 시각화 또한 노출된 장치 수가 있는 그래프입니다.
 - 정보를 표시하는 탭:
-    - 식별된 취약점에 대한 해당 보안 권장 사항
-    - 검색된 취약성의 명명된 CV
-    - 소프트웨어가 설치된 장치(장치 이름, 도메인, OS 등)입니다.
-    - 소프트웨어 버전 목록(버전이 설치된 장치 수, 검색된 취약성 수 및 설치된 장치의 이름 포함)
+  - 식별된 취약점에 대한 해당 보안 권장 사항
+  - 검색된 취약성의 명명된 CV
+  - 소프트웨어가 설치된 장치(장치 이름, 도메인, OS 등)입니다.
+  - 소프트웨어 버전 목록(버전이 설치된 장치 수, 검색된 취약성 수 및 설치된 장치의 이름 포함)
 
-    ![소프트웨어 세부 Visual Studio, 약점, 노출된 장치 등 2017용 소프트웨어 예제 페이지](images/tvm-software-page-example.png)
+    :::image type="content" alt-text="소프트웨어 세부 Visual Studio, 약점, 노출된 장치 등 2017용 소프트웨어 예제 페이지" source="images/tvm-software-page-example.png" lightbox="images/tvm-software-page-example.png":::
 
 ## <a name="report-inaccuracy"></a>부정확성 보고
 

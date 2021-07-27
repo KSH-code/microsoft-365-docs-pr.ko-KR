@@ -1,8 +1,9 @@
 ---
-title: 추출기 만들기
-ms.author: efrene
-author: efrene
+title: 추출기 Microsoft SharePoint Syntex 만들기
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -12,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 추출기를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e95df00c2601bccc5041f96c745048adc8dfc91f
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: d448458616d7641152e8179c413d4581d4da00fb
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222794"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578508"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기 만들기
 
@@ -59,9 +60,10 @@ ms.locfileid: "51222794"
 5개 파일의 레이블이 지정되면 학습으로 이동하라는 알림 배너가 표시됩니다. 더 많은 문서를 레이블 지정하거나, 다음 교육으로 넘어갈 수 있습니다. 
 
 ### <a name="use-find-to-search-your-file"></a>찾기를 사용하여 파일 검색
-<b>찾기</b> 기능을 사용하여 레이블을 지정하려는 엔터티를 검색할 수 있습니다.
 
-   ![파일에서 찾기](../media/content-understanding/find-feature.png) 
+**찾기** 기능을 사용하여 레이블을 지정하려는 엔터티를 검색할 수 있습니다.
+
+   ![파일에서 찾습니다.](../media/content-understanding/find-feature.png) 
 
 찾기 기능은 큰 문서를 검색하거나 문서에 엔터티의 인스턴스가 여러 개 있는 경우 유용합니다. 인스턴스가 여러 개 있는 경우, 검색 결과에 필요한 인스턴스를 선택하여 뷰어에서 해당 위치로 이동하여 레이블을 지정할 수 있습니다.
 
@@ -103,13 +105,13 @@ ms.locfileid: "51222794"
 
 4. **설명 만들기** 페이지에서 설명 라이브러리의 *날짜* 정보가 필드에 자동으로 채워집니다. **저장** 을 선택합니다.</br>
 
-    ![날짜](../media/content-understanding/date-explanation-library.png) 
+    ![날짜.](../media/content-understanding/date-explanation-library.png) 
 
 ## <a name="train-the-model"></a>모델 학습시키기 
 
 설명을 저장하여 학습 시작하기 사용자의 모델에 레이블 지정된 예제 파일에서 데이터를 추출하기에 충분한 정보가 있을 경우 각 파일에 **일치** 라고 표시됩니다.  
 
-![일치](../media/content-understanding/match2.png) 
+![일치.](../media/content-understanding/match2.png) 
 
 추출하려는 데이터를 찾기에 정보가 불충분할 경우 각 파일에 **불일치** 라고 표시됩니다. **불일치** 된 파일을 클릭하여 불일치된 이유에 대한 자세한 정보를 볼 수 있습니다.
 
@@ -125,7 +127,7 @@ ms.locfileid: "51222794"
 3. *서비스 시작 날짜* 를 값으로 사용합니다.
 4. **저장** 을 선택합니다.
 
-    ![접두사 문자열](../media/content-understanding/prefix-string.png) 
+    ![접두사 문자열.](../media/content-understanding/prefix-string.png) 
 
 ## <a name="train-the-model-again"></a>모델 다시 학습시키기
 
@@ -140,7 +142,7 @@ ms.locfileid: "51222794"
 1. 모델 홈페이지에서 **테스트** 탭을 클릭합니다. 그러면 레이블이 지정되지 않은 샘플 파일에서 모델이 실행됩니다.
 2. **테스트 파일** 목록에서 해당 모델이 필요한 정보를 추출할 수 있는지 여부를 보여 주는 예제 파일이 표시됩니다. 이 정보를 사용하여 문서를 식별하는 데 필요한 분류자의 효율성을 알아낼 수 있습니다.
 
-    ![파일에서 테스트하기](../media/content-understanding/test-filies-extractor.png) 
+    ![파일에서 테스트합니다.](../media/content-understanding/test-filies-extractor.png) 
 
 ## <a name="see-also"></a>참고 항목
 [분류자 만들기](create-a-classifier.md)

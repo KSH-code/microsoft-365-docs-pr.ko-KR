@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b4b770733b9e62b39a07c8699619ac5f7d692ec5
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 0c94f0559a86eed8975f80b96ec3f0ff66a9d8e1
+ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327128"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587768"
 ---
 # <a name="investigate-insider-risk-management-activities"></a>내부자 위험 관리 활동 조사
 
@@ -96,6 +96,18 @@ ms.locfileid: "53327128"
 ## <a name="search-alerts-on-the-alert-dashboard"></a>경고 대시보드에서 경고 검색
 
 경고 이름에 특정 단어가 있는지 검색하려면 **검색** 컨트롤을 선택하고 검색할 단어를 입력합니다. 검색 결과에는 검색에 정의된 단어가 포함된 정책 경고가 표시됩니다.
+
+## <a name="dismiss-multiple-alerts-preview"></a>여러 경고(미리 보기)
+
+분석가와 조사자는 여러 경고를 즉시 즉시 해지하는 데 시간을 절약하는 데 도움이 될 수 있습니다. 알림 **보내기** 명령 표시줄 옵션을 사용하면 대시보드에서 검토 필요  상태가 있는 경고를 하나 이상 선택하고 이러한 경고를 심사 프로세스에서 적절하게 무해한 경고로 신속하게 해지할 수 있습니다. 한 번씩 최대 400개 경고를 선택하여 알림을 해지할 수 있습니다.
+
+내부자 위험 경고를 해지하기 위해 다음 단계를 완료합니다.
+
+1. In the [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com), go to **Insider risk management** and select the **Alerts** tab.
+2. 경고 **대시보드에서** 경고(또는 경고)를 선택하고  검토 상태를 검토해야 합니다.를 선택합니다.
+3. 경고 명령 표시줄에서 경고 **해지 를 선택합니다.**
+4. 알림 **보내기** 세부 정보 창에서 선택한 경고와 연결된 사용자 및 정책 세부 정보를 검토할 수 있습니다.
+5. **경고를** 무해한 것으로 해결하려면 경고 취소를 선택하거나 취소를 선택하여 경고를 취소하지 않고 세부 정보 창을 닫습니다. 
 
 ## <a name="triage-alerts"></a>Triage alerts
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: eed208da92f7e196cc71dab4e9d32e5666f3f6a4
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5f65712fb3d1148d53361b97c75817792bedc198
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844205"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567059"
 ---
 # <a name="web-protection"></a>웹 보호
 
@@ -32,11 +32,11 @@ ms.locfileid: "52844205"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-끝점용 Microsoft Defender의 웹 보호는 웹 [](web-threat-protection.md) 위협 방지 및 웹 콘텐츠 필터링으로 [끝나는 기능입니다.](web-content-filtering.md) 웹 보호를 사용하면 웹 위협으로부터 장치를 보호하고 원치 않는 콘텐츠를 규제하는 데 도움이 됩니다. 보고서 웹 보호 에서 보고서 Microsoft Defender 보안 센터 웹 보호로 > **있습니다.**
+끝점용 Microsoft Defender의 웹 보호는 웹 [](web-threat-protection.md) 위협 방지 및 웹 콘텐츠 필터링으로 [끝나는 기능입니다.](web-content-filtering.md) 웹 보호를 사용하면 웹 위협으로부터 장치를 보호하고 원치 않는 콘텐츠를 규제하는 데 도움이 됩니다. 보고서 및 웹 보호로 이동하여 Microsoft 365 Defender 포털에서 웹 보호 **보고서를 > 있습니다.**
 
-![모든 웹 보호 카드의 이미지](images/web-protection.png)
+:::image type="content" alt-text="모든 웹 보호 카드의 이미지" source="images/web-protection.png" lightbox="images/web-protection.png":::
 
 ## <a name="web-threat-protection"></a>웹 위협 방지
 

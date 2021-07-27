@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Office 365 VPN 분할 터널링 구현 방법
-ms.openlocfilehash: c2195eb9e3af3c591ff59d0b0f87583455b9b119
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 2ec4cd8b3730c93a6de30e59087beaff788992dd
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843653"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578592"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Office 365 VPN 분할 터널링 구현
 
@@ -33,7 +33,7 @@ ms.locfileid: "52843653"
 
 수년 동안 기업은 VPN을 사용하여 사용자에 대한 원격 환경을 지원해 왔습니다. 핵심 작업은 온-프레미스로 유지되었지만, 회사 네트워크의 데이터 센터를 통해 라우팅된 원격 클라이언트의 VPN은 원격 사용자가 회사 리소스에 액세스하는 기본 방법이었습니다. 이러한 연결을 보호하기 위해 기업은 VPN 경로를 따라 네트워크 보안 솔루션 계층을 구축합니다. 이 보안은 내부 인프라를 보호하고 트래픽을 VPN으로 다시 연결한 다음, 내부 프레미스 인터넷 경계를 통해 아웃하여 외부 웹 사이트의 모바일 검색을 보호하도록 구축되었습니다. VPN, 네트워크 경계 및 연결된 보안 인프라는 일반적으로 회사 네트워크 내에서 대부분의 연결이 시작되고 대부분의 연결은 내부 네트워크 경계 내에 유지되는 정의된 트래픽 볼륨에 대해 목적에 따라 구축되고 확장됩니다.
 
-상당 기간, 동시적 원격 사용자의 규모가 적당하고 VPN을 통과하는 트래픽 양이 적은 경우에는원격 사용자 장치의 모든 연결이 온-프레미스 네트워크로 라우팅되는 VPN 모델(**강제 터널링** 으로 알려짐)을 지속할 수 있었습니다.  일부 고객은 응용 프로그램이 회사 경계 내부에서 Office 365와 같은 공용 SaaS 클라우드로 이동한 후에도 VPN 강제 터널링을 계속 사용하였습니다.
+상당 기간, 동시적 원격 사용자의 규모가 적당하고 VPN을 통과하는 트래픽 양이 적은 경우에는원격 사용자 장치의 모든 연결이 온-프레미스 네트워크로 라우팅되는 VPN 모델(_강제 터널링_ 으로 알려짐)을 지속할 수 있었습니다.  일부 고객은 응용 프로그램이 회사 경계 내부에서 Office 365와 같은 공용 SaaS 클라우드로 이동한 후에도 VPN 강제 터널링을 계속 사용하였습니다.
 
 분산 및 성능에 민감한 클라우드 응용 프로그램에 연결하는 데 강제 터널링된 VPN을 사용하는 것은 가장 좋은 일이지만 일부 기업에서는 보안 관점에서 상태 할당을 유지하기 위해 이러한 부정적인 영향을 받아들일 수 있습니다. 이 시나리오의 예제 다이어그램은 다음과 같습니다.
 
@@ -110,7 +110,7 @@ Microsoft는 [Office 365 URL 및 IP 주소 범위](urls-and-ip-address-ranges.md
 - 네트워크의 인라인 대신, 서비스에서 제공되는 필수 보안 요소가 제공될 수 있음
 - Office 365 서비스에 대한 트래픽 양의 약 70-80% 차지
 
-Office 365 끝점과 이를 분류 및 관리 방법에 대한 자세한 내용은 [Office 365 끝점 관리](managing-office-365-endpoints.md) 문서를 참조하세요.
+끝점을 분류하고 Office 365 방법에 대한 자세한 내용은 [Managing Office 365 endpoints를 참조하십시오.](managing-office-365-endpoints.md)
 
 #### <a name="optimize-urls"></a>URL 최적화
 
@@ -128,7 +128,7 @@ Office 365 끝점과 이를 분류 및 관리 방법에 대한 자세한 내용�
 
 #### <a name="optimize-ip-address-ranges"></a>IP 주소 범위 최적화
 
-이러한 끝점에 해당하는 IP 범위를 작성하는 시기는 다음과 같습니다. 이 **예와** 같은 스크립트를 [](https://github.com/microsoft/Office365NetworkTools/tree/master/Scripts/Display%20URL-IPs-Ports%20per%20Category) 사용하여 Office 365 IP 및 [URL](microsoft-365-ip-web-service.md) 웹 서비스 또는 [URL/IP](urls-and-ip-address-ranges.md) 페이지와 같은 스크립트를 사용하여 구성을 적용할 때 업데이트를 확인하고 정기적으로 정책을 적용하는 것이 좋습니다.
+이러한 끝점에 해당하는 IP 주소 범위를 작성하는 시기는 다음과 같습니다. 이 **예와** 같은 스크립트를 [](https://github.com/microsoft/Office365NetworkTools/tree/master/Scripts/Display%20URL-IPs-Ports%20per%20Category) 사용하여 Office 365 IP 및 [URL](microsoft-365-ip-web-service.md) 웹 서비스 또는 [URL/IP](urls-and-ip-address-ranges.md) 페이지와 같은 스크립트를 사용하여 구성을 적용할 때 업데이트를 확인하고 정기적으로 정책을 적용하는 것이 좋습니다.
 
 ```
 104.146.128.0/17
@@ -141,7 +141,6 @@ Office 365 끝점과 이를 분류 및 관리 방법에 대한 자세한 내용�
 132.245.0.0/16
 150.171.32.0/22
 150.171.40.0/22
-191.234.140.0/22
 204.79.197.215/32
 23.103.160.0/20
 40.104.0.0/15
@@ -175,7 +174,7 @@ foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -Inter
 
 ![Route print 출력](../media/vpn-split-tunneling/vpn-route-print.png)
 
-최적화 범주에서 **모든** 현재 IP 주소 범위에 대한 경로를 추가하려면 다음 스크립트 변형을 사용하여 현재 최적화 IP 서브넷 집합에 대해 [Office 365 IP 및 URL 웹 서비스](microsoft-365-ip-web-service.md)를 쿼리하고 이를 라우팅 테이블에 추가할 수 있습니다.
+최적화 범주에서 _모든_ 현재 IP 주소 범위에 대한 경로를 추가하려면 다음 스크립트 변형을 사용하여 현재 최적화 IP 서브넷 집합에 대해 [Office 365 IP 및 URL 웹 서비스](microsoft-365-ip-web-service.md)를 쿼리하고 이를 라우팅 테이블에 추가할 수 있습니다.
 
 #### <a name="example-add-all-optimize-subnets-into-the-route-table"></a>예제: 경로 테이블에 모든 최적화 서브넷 추가
 
@@ -248,7 +247,7 @@ Teams 미디어에 대한 필수 최적화 IP 서브넷이 경로 테이블에 �
 
 - 위의 [Microsoft 365](https://aka.ms/netonboard) 경로를 포함하여 연결 테스트를 실행할 Microsoft 365 연결 테스트를 실행합니다. 또한 추가 인사이트를 제공해야 하는 VPN 테스트도 이 도구에 추가하고 있습니다.
 
-- 분할 터널 범위 내 끝점에 대한 간단한 tracert는 경로를 표시합니다. 예를 들면 다음과 같습니다.
+- 분할 **터널** 범위 내의 끝점에 대한 간단한 추적은 다음과 같은 경로를 표시해야 합니다.
 
   ```powershell
   tracert worldaz.tr.teams.microsoft.com
@@ -276,7 +275,7 @@ Teams 미디어에 대한 필수 최적화 IP 서브넷이 경로 테이블에 �
 
 ## <a name="faq"></a>FAQ
 
-Microsoft 보안 팀은 보안 [](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) 전문가와 IT가 오늘날의 고유한 원격 작업 시나리오에서 최신 보안 제어를 달성할 수 있는 주요 방법을 간략하게 설명하는 문서를 게시했습니다. 또한 다음은 이 주제에 대한 일반적인 고객 질문과 대답입니다.
+Microsoft 보안 팀은 보안 전문가와 [IT가](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)오늘날의 고유한 원격 작업 시나리오에서 최신 보안 제어를 달성할 수 있는 대체 방법을 발표했습니다. 이 블로그 게시물에서는 보안 전문가와 IT가 오늘날의 고유한 원격 작업 시나리오에서 최신 보안 제어를 달성할 수 있는 주요 방법을 간략하게 설명합니다. 또한 다음은 이 주제에 대한 일반적인 고객 질문과 대답입니다.
 
 ### <a name="how-do-i-stop-users-accessing-other-tenants-i-do-not-trust-where-they-could-exfiltrate-data"></a>사용자가 신뢰할 수 없고 데이터를 유출할 수 있는 다른 테넌트에 대한 사용자 액세스를 중지하려면 어떻게 해야 하나요?
 
@@ -316,7 +315,7 @@ Office 365는 [이 문서에서 설명하는](/office365/Enterprise/office-365-m
 
 그러나 Microsoft는 이러한 솔루션을 사용하더라도 최적화 표시된 Office 365 트래픽을 서비스로 직접 보내는 것을 권장합니다.
 
-Azure Virtual Network에 대한 직접 액세스를 허용하는 방법에 대한 지침은 기사 [Azure VPN 게이트웨이 지점-사이트를 사용하여 원격 작업](/azure/vpn-gateway/work-remotely-support) 문서를 참조하세요.
+Azure Virtual Network에 대한 직접 액세스를 허용하는 방법에 대한 지침은 Azure VPN 게이트웨이 지점-사이트 를 사용하여 원격 작업을 [참조하세요.](/azure/vpn-gateway/work-remotely-support)
 
 ### <a name="why-is-port-80-required-is-traffic-sent-in-the-clear"></a>포트 80이 필요한 이유는 무엇인가요? 트래픽이 보안되지 않은 상태로 전송되나요?
 

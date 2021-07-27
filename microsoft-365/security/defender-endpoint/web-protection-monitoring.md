@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ee6388c779d2c5bc09a82f5e9064d1b981e885cb
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 19ce05acaf4e06a97014cea3ff57d7c3d8cabfe7
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687426"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567071"
 ---
 # <a name="monitor-web-browsing-security"></a>웹 검색 보안 모니터링
 
@@ -31,17 +31,17 @@ ms.locfileid: "51687426"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-웹 보호를 사용하면 조직의 웹 검색 보안을 모니터링할 수 있습니다. 보고서 및 웹 보호의 보고서 > 통해 조직의 웹 검색 보안을 Microsoft Defender 보안 센터.  이 보고서에는 웹 위협 감지 통계를 제공하는 카드가 포함되어 있습니다.
+웹 보호를 사용하면 웹 포털의 보고서 및  웹 보호에 > 통해 조직의 웹 검색 보안을 Microsoft 365 Defender 있습니다. 이 보고서에는 웹 위협 감지 통계를 제공하는 카드가 포함되어 있습니다.
 
 - **시간 경과에** 대한 웹 위협 방지 감지 - 이 추세 카드는 선택한 기간(지난 30일, 지난 3개월, 지난 6개월) 동안 유형별로 검색된 웹 위협 수를 표시합니다.
  
-    ![시간이 지날 때 웹 위협 방지 감지를 보여주는 카드 이미지](images/wtp-blocks-over-time.png)
+  :::image type="content" alt-text="시간이 지날 때 웹 위협 방지 감지를 보여주는 카드 이미지" source="images/wtp-blocks-over-time.png" lightbox="images/wtp-blocks-over-time.png":::
 
 - **웹 위협 방지** 요약 - 이 카드는 지난 30일 동안의 총 웹 위협 감지를 표시하여 다양한 유형의 웹 위협에 대한 배포를 표시합니다. 조각을 선택하면 악성 또는 원치 않는 웹 사이트에서 발견된 도메인 목록이 열립니다.
 
-    ![웹 위협 방지 요약을 보여주는 카드 이미지](images/wtp-summary.png)
+  :::image type="content" alt-text="웹 위협 방지 요약을 보여주는 카드 이미지" source="images/wtp-summary.png" lightbox="images/wtp-summary.png":::
 
 >[!Note]
 >블록이 카드 또는 도메인 목록에 반영되기까지 최대 12시간이 걸릴 수 있습니다.

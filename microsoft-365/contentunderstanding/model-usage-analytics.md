@@ -1,8 +1,9 @@
 ---
-title: 문서 이해 모델 사용 분석
-ms.author: efrene
-author: efrene
+title: Microsoft SharePoint Syntex의 모델 사용 현황 분석 문서 이해
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -11,15 +12,15 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-description: 문서 이해 모델에 보존 레이블을 적용하는 방법 알아보기
-ms.openlocfilehash: 92115d8b1985fa84cd72671442aca18f255355de
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+description: 문서 이해 모델에 대한 사용 현황 분석을 찾고 사용하는 방법을 알아봅니다.
+ms.openlocfilehash: 5eca389519dbab7038ef774d8f096e61017d0155
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080440"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578544"
 ---
-# <a name="document-understanding-model-usage-analytics"></a>문서 이해 모델 사용 분석
+# <a name="document-understanding-model-usage-analytics-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 모델 사용 현황 분석 문서 이해
 
 </br>
 
@@ -28,7 +29,7 @@ ms.locfileid: "50080440"
 </br>
 
 
-Microsoft SharePoint Syntex 콘텐츠 센터는 콘텐츠 센터에서 게시 된 모델이 어떻게 사용 되는지에 대한 더 많은 정보를 제공 하기 위해 모델 사용 분석을 제공합니다. 콘텐츠 센터의 <b>최근 30일 동안 모델의 성능</b> 섹션에는 다음 챠트 및 목록에 제공되는 30일 간의 사용 현황 분석 테이터 롤업이 포함되어 있습니다.
+SharePoint Syntex 콘텐츠 센터는 콘텐츠 센터에서 게시 된 모델이 어떻게 사용 되는지에 대한 더 많은 정보를 제공 하기 위해 모델 사용 분석을 제공합니다. 콘텐츠 센터의 <b>최근 30일 동안 모델의 성능</b> 섹션에는 다음 챠트 및 목록에 제공되는 30일 간의 사용 현황 분석 테이터 롤업이 포함되어 있습니다.
 
 - 모델별 분류
 - 라이브러리별 분류
@@ -79,7 +80,7 @@ SharePoint Syntex에서 기본 콘텐츠 센터는 설치 중에 만들어집니
 ## <a name="see-also"></a>참고 항목
 [분류자 만들기](create-a-classifier.md)
 
-[추출자 만들기](create-an-extractor.md)
+[추출기 만들기](create-an-extractor.md)
 
 [문서 이해 개요](document-understanding-overview.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender 보안 센터 표준 시간대 설정
-description: 여기에 포함된 정보를 사용하여 표준 시간대 설정을 Microsoft Defender 보안 센터 라이선스 정보를 볼 수 있습니다.
+title: Microsoft 365 Defender 표준 시간대 설정
+description: 여기에 포함된 정보를 사용하여 표준 시간대 설정을 Microsoft 365 Defender 라이선스 정보를 볼 수 있습니다.
 keywords: 설정, Microsoft Defender, 사이버 보안 위협 인텔리전스, 끝점용 Microsoft Defender, 표준 시간대, utc, 현지 시간, 라이선스
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: df55a1b0e92c24b5f52032330ef95bf19aeb8cb3
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d57d8f8aa361448ccc6c3b39703128a37352111c
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932634"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53568175"
 ---
-# <a name="microsoft-defender-security-center-time-zone-settings"></a>Microsoft Defender 보안 센터 표준 시간대 설정
+# <a name="microsoft-365-defender-time-zone-settings"></a>Microsoft 365 Defender 표준 시간대 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "51932634"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-settings-abovefoldlink)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-settings-abovefoldlink)
 
 표준 시간대 **메뉴** 표준 시간대 설정 아이콘1을 사용하여 표준 시간대를 구성하고 라이선스 ![ 정보를 ](images/atp-time-zone.png) 확인합니다.
 

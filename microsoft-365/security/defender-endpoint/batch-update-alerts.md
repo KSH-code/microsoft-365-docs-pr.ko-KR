@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 80f88b31c1e07d1f40f3f58a1bd21b4a5c58c60b
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 281149429329f23efd828227e3773060106f2d34
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53290210"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53590806"
 ---
 # <a name="batch-update-alerts"></a>일괄 업데이트 경고
 
@@ -29,7 +29,7 @@ ms.locfileid: "53290210"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -72,10 +72,10 @@ POST /api/alerts/batchUpdate
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
-Content-Type | 문자열 | application/json. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
+Content-Type | String | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -88,11 +88,11 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 속성 | 유형 | 설명
 :---|:---|:---
 alertIds | 목록 &lt; 문자열&gt;| 업데이트할 경고의 IDS 목록입니다. **필수**
-status | 문자열 | 지정한 경고의 업데이트된 상태를 지정합니다. 속성 값은 'New', 'InProgress' 및 'Resolved'입니다.
-assignedTo | 문자열 | 지정된 경고의 소유자
-classification | 문자열 | 지정한 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
-determination | 문자열 | 지정한 경고의 결정에 대해 지정합니다. 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
-comment | 문자열 | 지정한 경고에 추가할 설명입니다.
+status | String | 지정한 경고의 업데이트된 상태를 지정합니다. 속성 값은 'New', 'InProgress' 및 'Resolved'입니다.
+assignedTo | String | 지정된 경고의 소유자
+classification | String | 지정한 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
+determination | String | 지정한 경고의 결정에 대해 지정합니다. 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
+comment | String | 지정한 경고에 추가할 설명입니다.
 
 ## <a name="response"></a>응답
 

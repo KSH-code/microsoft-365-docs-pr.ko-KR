@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 비보조 데이터 원본을 Advanced eDiscovery 데이터 원본을 보류할 수 있습니다. 비관리 데이터 원본은 다시 인덱싱되어 부분적으로 인덱싱된 것으로 표시된 모든 콘텐츠는 완전히 빠르고 검색할 수 있도록 다시 처리됩니다.
-ms.openlocfilehash: 467f0e1167bfebe21bd3f2bbd52acd81529b8685
-ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
+ms.openlocfilehash: 097b054bdcc1dc37f74f86703ac8d7061b76ebba
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "49740355"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567263"
 ---
 # <a name="add-non-custodial-data-sources-to-an-advanced-ediscovery-case"></a>비보조 데이터 원본을 사례에 Advanced eDiscovery 추가
 
@@ -43,7 +43,7 @@ Advanced eDiscovery 경우 데이터 원본을 보호자와 Microsoft 365 요구
    - **Exchange** - 편집을 **클릭하여** 사서함을 추가합니다. 사서함 또는 메일 그룹의 검색 상자에 이름 또는 별칭(최소 3자)을 입력합니다. 비구성 데이터 원본으로 추가할 사서함을 선택하고 추가를 **클릭합니다.**
 
    > [!NOTE]
-   > SharePoint 및  Exchange 섹션을  사용하여 팀 또는 Yammer 그룹과 연결된 사이트 및 사서함을 비구성 데이터 원본으로 추가할 수 있습니다. 팀 또는 팀 그룹과 연결된 사서함 및 사이트를 별도로 Yammer 합니다.
+   > SharePoint 및  Exchange 섹션을  사용하여 팀 또는 Yammer 그룹과 연결된 사이트 및 사서함을 비구성 데이터 원본으로 추가할 수 있습니다. 팀 또는 팀 그룹과 연결된 사서함 및 사이트를 별도로 Yammer 합니다.<br/><br/> 또한 루트 사이트 URL(예: 또는 )을 데이터 SharePoint `https://contoso-my.sharepoint.com/personal/` `https://contoso-my.sharepoint.com/` 추가하는 것은 지원되지 않습니다. 특정 사이트를 추가해야 합니다.
 
 4. 비보조 데이터 원본을 추가한 후 해당 위치를 보류 또는 보류할 수 있습니다. 데이터 원본 옆의  보류 확인란을 선택하거나 선택을 선택하여 보류합니다.
 
