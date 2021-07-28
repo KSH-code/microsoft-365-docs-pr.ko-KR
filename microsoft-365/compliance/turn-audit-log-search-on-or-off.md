@@ -20,18 +20,18 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: 관리자의 감사 로그 검색 기능을 설정하거나 해제하여 Microsoft 365 규정 준수 센터 감사 로그를 검색할 수 있는 기능을 활성화 또는 비활성화하는 방법
-ms.openlocfilehash: dd39b883036ce6060aef71c6a927c03f391d827f
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 8da6ba3f8dc9fbc7564b7bd71e71c542cb118057
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341499"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567551"
 ---
 # <a name="turn-auditing-on-or-off"></a>감사 켜기 또는 끄기
 
-Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 감사 로그 검색이 켜져 있습니다. 조직에서 감사를 Microsoft 365 규정 준수 센터 조직의 사용자 및 관리자 활동이 감사 로그에 기록되고 90일 동안 보존되고 사용자에게 할당된 라이선스에 따라 최대 1년 동안 보존됩니다. 그러나 조직에 감사 로그 데이터를 기록하고 보존하지 않을 이유가 있을 수 있습니다. 이러한 경우 전역 관리자는 전역 관리자의 감사를 해제할 Microsoft 365.
+감사 로깅은 엔터프라이즈 조직 및 Microsoft 365 Office 365 설정됩니다. 그러나 조직에서 새 Microsoft 365 Office 365 설정하는 경우 조직의 감사 상태를 확인해야 합니다. 자세한 내용은 이 문서의 [조직에](#verify-the-auditing-status-for-your-organization) 대한 감사 상태 확인 섹션을 참조하세요. 
 
-조직에서 새 Microsoft 365 Office 365 조직의 감사 상태를 확인할 수 있습니다. 자세한 내용은 이 문서의 [조직에](#verify-the-auditing-status-for-your-organization) 대한 감사 상태 확인 섹션을 참조하세요.
+조직에서 감사를 Microsoft 365 규정 준수 센터 조직의 사용자 및 관리자 활동이 감사 로그에 기록되고 90일 동안 보존되고 사용자에게 할당된 라이선스에 따라 최대 1년 동안 보존됩니다. 그러나 조직에 감사 로그 데이터를 기록하고 보존하지 않을 이유가 있을 수 있습니다. 이러한 경우 전역 관리자는 전역 관리자의 감사를 해제할 Microsoft 365.
 
 > [!IMPORTANT]
 > 조직에서 감사를 Microsoft 365 경우 Office 365 관리 활동 API 또는 Azure Sentinel을 사용하여 조직의 감사 데이터에 액세스할 수 없습니다. 이 문서의 단계를 수행하여 감사를 끄면 감사 로그를 사용하여 감사 로그를 검색하거나 Microsoft 365 규정 준수 센터 PowerShell에서 **Search-UnifiedAuditLog** cmdlet을 실행할 때 결과가 Exchange Online 않습니다. 이는 또한 관리 활동 API 또는 Azure Sentinel을 통해 감사 Office 365 사용할 수 없습니다.

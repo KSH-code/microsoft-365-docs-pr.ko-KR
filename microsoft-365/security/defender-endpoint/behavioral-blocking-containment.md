@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 98ea631536bbfa9e1858f70ae3a0ea9de8743572
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 02502269c1f33a0aba6ef0102a87116020026411
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029780"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567383"
 ---
 # <a name="behavioral-blocking-and-containment"></a>동작 차단 및 제약
 
@@ -32,7 +32,7 @@ ms.locfileid: "53029780"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+>Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="overview"></a>개요
 
@@ -54,17 +54,17 @@ ms.locfileid: "53029780"
 
 다음 이미지는 동작 차단 및 포함 기능에 의해 트리거된 경고의 예를 보여줍니다.
 
-:::image type="content" source="images/blocked-behav-alert.png" alt-text="동작 차단 및 포함을 통한 경고의 예":::
+:::image type="content" alt-text="동작 차단 및 포함을 통한 경고의 예" source="images/blocked-behav-alert.png" lightbox="images/blocked-behav-alert.png":::
 
 ## <a name="components-of-behavioral-blocking-and-containment"></a>동작 차단 및 포함의 구성 요소
 
-- **클라이언트에서 정책 기반 공격 [표면 감소 규칙](attack-surface-reduction.md)** 미리 정의한 일반적인 공격 동작은 공격 표면 감소 규칙에 따라 실행되지 않습니다. 이러한 동작이 실행을 시도하면 정보 경고로 Microsoft 365 Defender <https://security.microsoft.com> 수 있습니다. 공격 표면 감소 규칙은 기본적으로 사용하도록 설정되지 않습니다. 에서 정책을 구성할 [Microsoft 365 Defender.](microsoft-defender-security-center.md)
+- **클라이언트에서 정책 기반 공격 [표면 감소 규칙](attack-surface-reduction.md)** 미리 정의한 일반적인 공격 동작은 공격 표면 감소 규칙에 따라 실행되지 않습니다. 이러한 동작이 실행을 시도하면 Microsoft 365 Defender 포털()에서 정보 알림으로 볼 [https://security.microsoft.com](https://security.microsoft.com) 수 있습니다. 공격 표면 감소 규칙은 기본적으로 사용되지 않습니다. Microsoft 365 Defender [포털에서 정책을 구성합니다.](microsoft-defender-security-center.md)
 
 - **[클라이언트 동작 차단](client-behavioral-blocking.md)** 끝점의 위협은 기계 학습을 통해 감지된 다음 자동으로 차단되고 수정됩니다. 클라이언트 동작 차단은 기본적으로 사용하도록 설정됩니다.
 
 - **[피드백 루프](feedback-loop-blocking.md)** 차단(신속한 보호라고도 지칭) 위협 감지는 동작 인텔리전스를 통해 관찰됩니다. 위협이 중지되고 다른 끝점에서 실행되지 않습니다. 피드백 루프 차단은 기본적으로 사용하도록 설정됩니다.
 
-- **[차단 모드의 끝점 EDR 응답(EDR)](edr-in-block-mode.md)** 위반 후 보호를 통해 관찰되는 악의적인 아티팩트 또는 동작은 차단되어 포함되어 있습니다. EDR 기본 바이러스 백신 솔루션이 아니어도 Microsoft Defender 바이러스 백신 모드로 전환됩니다. (EDR 모드로 설정하는 것은 기본적으로 사용하도록 설정되지 않습니다. 기본 설정에서 Microsoft 365 Defender.
+- **[차단 모드의 끝점 EDR 응답(EDR)](edr-in-block-mode.md)** 위반 후 보호를 통해 관찰되는 악의적인 아티팩트 또는 동작은 차단되어 포함되어 있습니다. EDR 기본 바이러스 백신 솔루션이 아니어도 Microsoft Defender 바이러스 백신 모드로 전환됩니다. (EDR 모드에서는 기본적으로 사용하도록 설정되지 않습니다. 이 설정은 Microsoft 365 Defender.
 
 Microsoft는 계속해서 위협 방지 기능과 기능을 개선하기에 따라 동작 차단 및 포함 영역에 더 많은 것이 제공될 것으로 예상합니다. 현재 계획된 계획 및 롤아웃을 보시다시피 Microsoft 365 [로드맵을 방문하세요.](https://www.microsoft.com/microsoft-365/roadmap)
 
@@ -95,7 +95,7 @@ Endpoint용 Defender의 동작 기반 장치 학습 모델은 공격 체인에�
 - 첫 번째 보호 계층에서 악용 동작을 감지했습니다. 클라우드의 장치 학습 분류자는 공격을 차단하라는 지시와 함께 위협을 올바르게 식별하고 즉시 클라이언트 장치에 지시했습니다.
 - 두 번째 보호 계층은 공격이 첫 번째 계층을 넘어가고, 프로세스 공백을 감지하고, 해당 프로세스를 중지하고, 해당 파일(예: Lokibot)을 제거한 경우를 중지하는 데 도움을 주었다.
 
-공격이 감지되고 중지되는 동안 "초기 액세스 [알림"과 같은](microsoft-defender-security-center.md) 경고가 트리거되고 Microsoft 365 Defender 포털(이전의 Microsoft Defender 보안 센터)
+공격이 감지되고 중지되는 동안 "초기 액세스 알림"과 같은 경고가 트리거되고 Microsoft 365 Defender [포털에 표시됩니다.](microsoft-defender-security-center.md)
 
 :::image type="content" source="images/behavblockcontain-initialaccessalert.png" alt-text="사이트 포털의 Microsoft 365 Defender 알림":::
 
@@ -105,15 +105,15 @@ Endpoint용 Defender의 동작 기반 장치 학습 모델은 공격 체인에�
 
 최근 블로그 게시물 동작 차단 및 [포함:](https://www.microsoft.com/security/blog/2020/03/09/behavioral-blocking-and-containment-transforming-optics-into-protection)2020년 1월에 끝점용 Defender가 조직의 장치에서 권한 에스컬레이터 활동을 감지했습니다. "NTLM 릴레이를 사용하여 가능한 권한 에스컬레이터"라는 경고가 트리거됩니다.
 
-:::image type="content" source="images/NTLMalertjuicypotato.png" alt-text="Juicy Malware 맬웨어에 대한 NTLM 경고":::
+:::image type="content" alt-text="Juicy Malware 맬웨어에 대한 NTLM 경고" source="images/NTLMalertjuicypotato.png" lightbox="images/NTLMalertjuicypotato.png":::
 
 위협이 맬웨어로 발견되었습니다. 이 도구는 공격자가 디바이스에서 권한 에스컬레이터를 다운로드하는 데 사용되는 주크로(Juicy)라는 의심스러운 해킹 도구의 새로운 변형으로, 볼 수 없습니다.
 
 경고가 트리거된 후 파일이 분석된 후 악성으로 확인된 시간(분)입니다. 다음 이미지와 같이 프로세스가 중지 및 차단되었습니다.
 
-:::image type="content" source="images/Artifactblockedjuicypotato.png" alt-text="아티팩트 차단":::
+:::image type="content" alt-text="아티팩트 차단" source="images/Artifactblockedjuicypotato.png" lightbox="images/Artifactblockedjuicypotato.png":::
 
-아티팩트가 차단된 후 몇 분 후에 동일한 파일의 여러 인스턴스가 동일한 장치에서 차단되어 추가 공격자 또는 기타 맬웨어가 장치에 배포되지 못하게 합니다.
+아티팩트가 차단된 후 몇 분 후에 동일한 파일의 여러 인스턴스가 동일한 장치에서 차단되어 더 많은 공격자 또는 기타 맬웨어가 디바이스에 배포되지 못하게 합니다.
 
 이 예에서는 동작 차단 및 포함 기능을 통해 위협이 자동으로 감지, 포함 및 차단되는 것으로 보여집니다.
 

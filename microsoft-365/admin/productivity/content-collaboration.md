@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 콘텐츠 공동 작업의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: d403f533fd69ee47fb48907f11d4752985daea1a
-ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
+ms.openlocfilehash: 14d3449faff16893cd74ed1618557092d3347dc5
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53415626"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567491"
 ---
 # <a name="content-collaboration--people-experiences"></a>콘텐츠 공동 작업 - 사람 환경
 
 생산성 점수는 조직의 디지털 변환 여정에 대한 인사이트를 Microsoft 365 지원하는 기술 환경을 제공합니다. 조직의 점수는 사용자 및 기술 환경 측정값을 반영하며 사용자와 비슷한 조직의 벤치마크와 비교할 수 있습니다. 콘텐츠 공동 작업 범주는 사람들이 경험하는 측정의 일부입니다. 자세한 내용은 생산성 점수 개요를 [확인하고](productivity-score.md) Microsoft의 개인 정보 [취급 방침을 참조하세요.](https://privacy.microsoft.com/privacystatement)
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
 콘텐츠 공동 작업 인사이트를 시작하려면 조직의 사용자들이 다음에 대한 라이선스를 부여해야 합니다.
 
@@ -130,11 +130,11 @@ Microsoft OneDrive 및 비즈니스용 SharePoint 사용하여 여러 장치 및
 
 :::image type="content" source="../../media/emailattachments.png" alt-text="전자 메일 첨부 파일 사용":::
 
-1. **헤더:** 전자 메일에 첨부 파일을 사용하는 사용자 중 전자 메일에 저장되지 않은 비율을 OneDrive SharePoint.
+1. **헤더:** 온라인 파일에 저장되지 않은 전자 메일에서 첨부 파일을 사용하는 비율을 강조합니다.
 2. **본문:** 공동 작업 및 보안 관점에서 온라인 파일에 대한 링크를 공유하는 값에 대한 정보를 제공합니다.
-3. **시각화:** 시각화의 분석은 전자 메일에 콘텐츠를 첨부하는 사람이 서로 다른 모드(OneDrive 또는 SharePoint 파일, 온라인 파일에 대한 링크 및 전자 메일에 포함된 링크)를 사용하는 범위를 나타냅니다.
+3. **시각화:** 시각화의 분석은 전자 메일에 콘텐츠를 첨부하는 사람이 서로 다른 모드(온라인 파일에 저장되지 않은 파일, 온라인 파일에 대한 링크)를 사용하는 범위를 나타냅니다.
       - **파일 첨부:** 막대의 파랑(색) 부분과 막대의 분수(숫자/분모)는 전자 메일에서 첨부 파일을 사용하는 비율을 나타내는 비율입니다.
-        - Numerator: 지난 28일 이내에 OneDrive SharePoint 전자 메일에 파일을 첨부한 사용자 수입니다.
+        - Numerator: 지난 28일 이내에 온라인 파일에 저장되지 않은 파일을 전자 메일에 첨부한 사용자 수입니다.
         - 분노: 지난 28일 이내에 Exchange 및 OneDrive, SharePoint 또는 둘 다에 액세스할 수 있는 사용자 수입니다.
       - **온라인 파일에 대한 링크:** 막대의 파랑(색) 부분과 막대의 분수(숫자/분모)는 첨부 파일을 사용하고 전자 메일의 파일에 링크를 첨부하는 비율을 나타내고 있습니다.
         - Numerator: 지난 28일 이내에 온라인 파일에 링크를 첨부한 사용자 수입니다.

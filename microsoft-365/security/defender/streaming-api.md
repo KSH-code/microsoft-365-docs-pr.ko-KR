@@ -1,6 +1,6 @@
 ---
-title: Defender Microsoft 365 스트림
-description: 고급 헌팅 이벤트를 이벤트 허브 Microsoft 365 Azure 저장소 계정으로 스트리밍하도록 Defender를 구성하는 방법을 설명합니다.
+title: Stream Microsoft 365 Defender 이벤트
+description: 고급 헌팅 이벤트를 Microsoft 365 Defender 허브 또는 Azure 저장소 계정으로 스트리밍하도록 구성하는 방법을 설명합니다.
 keywords: 원시 데이터 내보내기, 스트리밍 API, API, 이벤트 허브, Azure 저장소, 저장소 계정, 고급 헌팅, 원시 데이터 공유
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 21a83c4876a90a231eb2a78d10a290be2dca2fa0
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 431fd1271bf826ded53f88818741c5bbaa61e9b5
+ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782480"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53588116"
 ---
 # <a name="streaming-api"></a>스트리밍 API
 
@@ -34,16 +34,16 @@ ms.locfileid: "52782480"
 
 ## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a>고급 헌팅 이벤트를 이벤트 허브 및/또는 Azure 저장소 계정으로 스트리밍합니다.
 
-Microsoft 365 Defender는 고급 헌팅을 통해 [](/azure/event-hubs/) 이벤트 허브 및/또는 Azure 저장소 계정으로 스트리밍 이벤트를 [지원합니다.](/azure/event-hubs/) [](../defender/advanced-hunting-overview.md)
+Microsoft 365 Defender 고급 헌팅을 [](../defender/advanced-hunting-overview.md) 통해 이벤트 [](/azure/event-hubs/) 허브 및/또는 Azure 저장소 계정으로 스트리밍 이벤트를 [지원합니다.](/azure/event-hubs/)
 
-
+스트리밍 API의 Microsoft 365 Defender 자세한 내용은 비디오를 [참조하세요.](https://www.microsoft.com/en-us/videoplayer/embed/RE4r4ga)
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
 항목 | 설명
 :---|:---
-[Azure 이벤트 허브로 이벤트 스트림](streaming-api-event-hub.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 고급 [](../defender/advanced-hunting-overview.md) 헌팅을 이벤트 허브로 Microsoft 365 Defender를 구성합니다.
-[Azure 저장소 계정으로 이벤트 스트림](streaming-api-storage.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 Azure [](advanced-hunting-overview.md) Microsoft 365 고급 헌팅을 스트리밍하도록 Defender를 구성합니다.
+[Azure 이벤트 허브로 이벤트 스트림](streaming-api-event-hub.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 고급 헌팅을 이벤트 Microsoft 365 Defender 스트리밍하도록 구성합니다. [](../defender/advanced-hunting-overview.md)
+[Azure 저장소 계정으로 이벤트 스트림](streaming-api-storage.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 Azure Microsoft 365 Defender 고급 [헌팅을](advanced-hunting-overview.md) 스트리밍하도록 구성합니다.
 
 
 ## <a name="related-topics"></a>관련 항목

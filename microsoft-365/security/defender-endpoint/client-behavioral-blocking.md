@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 83f269a13a54ee38b7e7a464d794d87ddbd7b520
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 9a2fa36d7902c66e1ac40f0ecd07c0db38752e8d
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289934"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567503"
 ---
 # <a name="client-behavioral-blocking"></a>클라이언트 행동적 차단
 
@@ -32,13 +32,13 @@ ms.locfileid: "53289934"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="overview"></a>개요
 
 클라이언트 동작 차단은 끝점용 Defender의 동작 차단 및 포함 기능의 구성 요소입니다. [](behavioral-blocking-containment.md) 의심스러운 동작이 장치(클라이언트 또는 끝점이라고도 지칭)에서 감지되면 아티팩트(예: 파일 또는 응용 프로그램)가 자동으로 차단, 확인 및 수정됩니다. 
 
-:::image type="content" source="images/pre-execution-and-post-execution-detection-engines.png" alt-text="클라우드 및 클라이언트 보호":::
+:::image type="content" alt-text="클라우드 및 클라이언트 보호" source="images/pre-execution-and-post-execution-detection-engines.png" lightbox="images/pre-execution-and-post-execution-detection-engines.png":::
 
 바이러스 백신 보호는 클라우드 보호와 함께 사용할 때 가장 잘 작동합니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "53289934"
 
 [Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md) 의심스러운 동작, 악성 코드, 파일 없는 및 메모리 내 공격을 장치에서 감지할 수 있습니다. 의심스러운 동작이 감지되면 Microsoft Defender 바이러스 백신 의심스러운 동작과 프로세스 트리를 모니터링하여 클라우드 보호 서비스로 전송합니다. 기계 학습은 악성 응용 프로그램과 좋은 동작을 밀리초 내에 차별화하고 각 아티팩트를 분류합니다. 거의 실시간으로 아티팩트가 악성으로 발견되는 즉시 디바이스에서 차단됩니다. 
 
-의심스러운 동작이 감지될 때마다 경고가 [](alerts-queue.md) 생성되고 Microsoft 365 Defender 포털(이전의 [](microsoft-defender-security-center.md) Microsoft Defender 보안 센터)에 표시됩니다.
+의심스러운 동작이 감지될 때마다 경고가 [](alerts-queue.md) 생성되고 Microsoft 365 Defender 포털(이전의 [](microsoft-defender-security-center.md) Microsoft 365 Defender)에 표시됩니다.
 
 클라이언트 동작 차단은 공격이 시작되지 않도록 하는 데 도움이 될 뿐만 아니라 실행을 시작한 공격을 중지하는 데 도움이 될 수 있기 때문에 효과적입니다. 또한 [피드백](feedback-loop-blocking.md) 루프 차단(동작 차단 및 방지의 또 다른 기능)을 사용하여 조직의 다른 디바이스에서 공격을 방지할 수 있습니다.
 
@@ -59,8 +59,8 @@ ms.locfileid: "53289934"
 |초기 액세스 | `Behavior:Win32/InitialAccess.*!ml` |
 |실행 | `Behavior:Win32/Execution.*!ml` |
 |지속성 | `Behavior:Win32/Persistence.*!ml` |
-|권한 에스컬ation | `Behavior:Win32/PrivilegeEscalation.*!ml` |
-|방어 공격 | `Behavior:Win32/DefenseEvasion.*!ml` |
+|권한 상승 | `Behavior:Win32/PrivilegeEscalation.*!ml` |
+|방어 회피 | `Behavior:Win32/DefenseEvasion.*!ml` |
 |자격 증명 액세스 | `Behavior:Win32/CredentialAccess.*!ml` |
 |검색 | `Behavior:Win32/Discovery.*!ml` |
 |측면 이동 | `Behavior:Win32/LateralMovement.*!ml` |

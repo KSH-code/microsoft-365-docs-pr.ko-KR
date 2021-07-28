@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fa9986d9ddab70f050055ce2e3b98357c2ab22c5
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: 6243444c6dca31608512dbe9e6183cc7355ef55a
+ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567155"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53588020"
 ---
 # <a name="security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항 - 위협 및 취약성 관리
 
@@ -35,24 +35,22 @@ ms.locfileid: "53567155"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 조직에서 식별된 사이버 보안 약점은 실행 가능한 보안 권장 사항에 매핑된 후 영향에 따라 우선 순위가 지정됩니다. 우선 순위가 높은 권장 사항은 취약성을 완화하거나 수정하고 규정 준수를 구동하는 데 시간을 단축하는 데 도움이 됩니다.
 
 각 보안 권장에는 실행 가능한 수정 단계가 포함됩니다. 작업 관리를 지원하기 위해 권장되는 작업은 작업 관리 Microsoft Intune 사용하여 보낼 Microsoft Endpoint Configuration Manager. 위협 환경이 변경될 때 환경의 정보를 지속적으로 수집할 때 권장 사항도 변경됩니다.
 
->[!TIP]
->새 취약성 이벤트에 대한 전자 메일을 얻습니다. [끝점용 Microsoft Defender에서 취약성](configure-vulnerability-email-notifications.md) 전자 메일 알림 구성을 참조하세요.
+> [!TIP]
+> 새 취약성 이벤트에 대한 전자 메일을 얻습니다. [끝점용 Microsoft Defender에서 취약성](configure-vulnerability-email-notifications.md) 전자 메일 알림 구성을 참조하세요.
 
 ## <a name="how-it-works"></a>작동 방법
 
 조직의 각 장치는 고객이 올바른 점에 집중할 수 있도록 세 가지 중요한 요인에 따라 점수를 매기게 됩니다.
 
-- **위협**- 조직의 장치에서 취약성 및 악용의 특성 및 위반 기록. 이러한 요인에 따라 보안 권장 사항에 따라 활성 경고, 지속적인 위협 캠페인 및 해당 위협 분석 보고서에 대한 해당 링크가 표시됩니다.
-
-- **위반 가능성**- 위협에 대한 조직의 보안 설정 및 탄력성
-
-- **비즈니스 가치**- 조직의 자산, 중요한 프로세스 및 지적 재산
+- **위협:** 조직의 장치에서 취약성 및 악용의 특성 및 위반 기록. 이러한 요인에 따라 보안 권장 사항에 따라 활성 경고, 지속적인 위협 캠페인 및 해당 위협 분석 보고서에 대한 해당 링크가 표시됩니다.
+- **위반 가능성:** 조직의 보안 설정 및 위협에 대한 탄력성.
+- **비즈니스 가치:** 조직의 자산, 중요한 프로세스 및 지적 재산.
 
 ## <a name="navigate-to-the-security-recommendations-page"></a>보안 권장 사항 페이지로 이동합니다.
 
@@ -84,14 +82,15 @@ ms.locfileid: "53567155"
 
 추세가 변경되면 **노출된 디바이스** 그래프의 색이 변경됩니다. 노출된 디바이스 수가 증가하면 색이 빨강으로 변경됩니다. 노출된 장치 수가 감소하면 그래프의 색이 녹색으로 변경됩니다.
 
->[!NOTE]
->위협 및 취약성 관리 **30일** 전까지 사용 중이던 장치를 보여줍니다. 이는 장치가 7일 이상 사용되지 않은 경우 '비활성' 상태인 끝점용 Microsoft Defender의 나머지와 다릅니다.
+> [!NOTE]
+> 위협 및 취약성 관리 **30일** 전까지 사용 중이던 장치를 보여줍니다. 이는 장치가 7일 이상 사용되지 않은 경우 '비활성' 상태인 끝점용 Microsoft Defender의 나머지와 다릅니다.
 
 ![보안 권장 사항에 대한 방문 페이지의 예입니다.](images/tvmsecrec-updated.png)
 
 ### <a name="icons"></a>아이콘
 
 유용한 아이콘도 빠르게 주의를 끌 수 있습니다.
+
 - ![대상을 타격하는 화살표](images/tvm_alert_icon.png) 가능한 활성 경고
 - ![빨간색 버그](images/tvm_bug_icon.png) 연결된 공용 악용
 - ![전구](images/tvm_insight_icon.png) 권장 정보

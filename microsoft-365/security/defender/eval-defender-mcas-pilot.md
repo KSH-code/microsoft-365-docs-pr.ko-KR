@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: e061bf213ee929f91a48b03c71b9654a7ea76b8c
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 672b01258c68f1cbcbfe3e2315c4b7cbcb36021e
+ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458045"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587948"
 ---
 # <a name="pilot-microsoft-cloud-app-security-with-microsoft-365-defender"></a>파일럿 Microsoft Cloud App Security 파일럿 Microsoft 365 Defender
 
@@ -36,7 +36,7 @@ ms.locfileid: "53458045"
 
 이 문서는 사용자 환경의 평가 환경을 설정하는 프로세스의 [3단계](eval-defender-mcas-overview.md) 중 Microsoft Cloud App Security. 이 프로세스에 대한 자세한 내용은 개요 문서를 [참조하세요.](eval-defender-mcas-overview.md)
 
-다음 단계에 따라 파일럿을 설정하고 구성하여 Microsoft Cloud App Security.
+다음 단계에 따라 파일럿을 설정하고 구성하여 파일럿을 Microsoft Cloud App Security.
 
 
 ![파일럿 Microsoft Cloud App Security](../../media/defender/m365-defender-mcas-pilot-steps.png)
@@ -80,6 +80,8 @@ Microsoft Cloud App Security 사용하여 SaaS 앱을 관리하는 첫 번째 �
 - [중요한 정보 다운로드 차단](/cloud-app-security/use-case-proxy-block-session-aad)
 - [관리자를 통해 파일 보호](/cloud-app-security/use-case-admin-quarantine)
 - [위험한 작업 시 단계별 인증 필요](/cloud-app-security/tutorial-step-up-authentication)
+
+데이터 검색의 고급 헌팅에 Microsoft Cloud App Security 자세한 내용은 비디오를 [참조하세요.](https://www.microsoft.com/en-us/videoplayer/embed/RWFISa)
 
 ## <a name="next-steps"></a>다음 단계
 

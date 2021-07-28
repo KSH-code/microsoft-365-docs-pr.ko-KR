@@ -14,12 +14,12 @@ metadata:
   ms.custom: commerce_licensing
   localization_priority: Normal
   description: 다운로드에 대한 Microsoft 365 관리 센터 질문과 대답입니다.
-  ms.openlocfilehash: a01c46bb4ac8072fe7293abbc016a9b2bb8e377d
-  ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+  ms.openlocfilehash: 406e25fa4d6aac05ecbdaa05f407626cff9d112e
+  ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
   ms.translationtype: MT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 07/23/2021
-  ms.locfileid: "53542550"
+  ms.locfileid: "53567347"
 title: 자주 묻는 질문 다운로드
 summary: ''
 sections:
@@ -96,7 +96,7 @@ sections:
   - question: >
       이 FAQ에서 다루는 항목에 대한 지원은 어디에서 찾을 수 있나요?
     answer: >
-      비디오를 비롯한 추가 교육 리소스는 Microsoft 볼륨 라이선스 서비스 센터 [교육 및 리소스를 참조하세요.](/licensing/existing-customer/vlsc-training-and-resources?activetab=vlsc-tab%3aprimaryr3)
+      비디오를 비롯한 추가 교육 리소스는 Microsoft 볼륨 라이선스 서비스 센터 [교육 및 리소스를 참조하세요.](https://www.microsoft.com/licensing/existing-customer/vlsc-training-and-resources)
   - question: >
       Microsoft 지원에 문의할 수 있는 방법
     answer: >

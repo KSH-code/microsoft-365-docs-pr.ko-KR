@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: c5eebef3e2c6021efc08ff1ed41ba28bacc92487
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 512f08a621487fb2c3f2fd9f6b5d8ac00e49ac5e
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339433"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541076"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>타사 데이터를 데이터 저장소에 Microsoft 365
 
@@ -198,6 +198,56 @@ TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있�
 ### <a name="insider-risk-management"></a>내부자 위험 관리
 
 선택적 HR 데이터와 같은 타사 데이터의 신호를 내부자 [](insider-risk-management.md) 위험 관리 솔루션에서 사용하여 조직의 위험한 활동을 감지, 조사 및 작업할 수 있도록 하여 내부 위험을 최소화할 수 있습니다. 예를 들어 HR 데이터 커넥터에서 가져온 데이터는 퇴사하는 직원 데이터 도용을 감지하는 데 도움이 되는 위험 지표로 사용됩니다.
+
+## <a name="using-ediscovery-tools-to-search-for-third-party-data"></a>eDiscovery 도구를 사용하여 타사 데이터 검색
+
+데이터 커넥터를 사용하여 사용자 사서함에 타사 데이터를 가져오고 보관한 후 Microsoft 365 eDiscovery 도구를 사용하여 타사 데이터를 검색할 수 있습니다. 또한 eDiscovery 도구를 사용하여 Core eDiscovery 및 타사 사례와 연결된 쿼리 기반 보류를 Advanced eDiscovery 타사 데이터를 보존할 수 있습니다. eDiscovery 도구에 대한 자세한 내용은 [eDiscovery solutions in Microsoft 365.](ediscovery.md)
+
+데이터 커넥터를 사용하여 사용자 사서함으로 가져온 모든 유형의 타사 데이터를 검색하거나 보류하기 위해 다음 검색 쿼리를 사용할 수 있습니다. 검색 범위를 사용자 사서함으로 지정해야 합니다.
+
+```powershell
+kind:externaldata
+```
+
+콘텐츠 검색, Core  eDiscovery 사례와 연결된 검색 또는 콘텐츠의 컬렉션에 대해 키워드 상자에서 이 쿼리를 사용할 Advanced eDiscovery.
+
+![타사 데이터를 검색하기 위한 쿼리](..\media\SearchThirdPartyData1.png)
+
+property:value 쌍을 사용하여 검색 범위를 타사 데이터로 `kind:externaldata` 좁힐 수도 있습니다. 예를 들어 가져온 항목의 **Subject** 속성에 *contoso* 단어가 포함된 타사 데이터 원본에서 가져온 항목을 검색하기 위해 키워드 상자에 다음 쿼리를 **사용합니다.**
+
+```powershell
+subject:contoso AND kind:externaldata
+```
+
+또는 메시지 종류 조건을  사용하여 동일한 쿼리를 구성할 수 있습니다.
+
+![메시지 종류 조건을 사용하여 검색 범위를 타사 데이터로 좁히기](..\media\SearchThirdPartyData2.png)
+
+보관된 특정 유형의 타사 데이터를 검색하기 위해 검색 쿼리에서 **itemclass** 사서함 속성을 사용합니다. 다음 속성 값 형식을 사용 합니다.
+
+```powershell
+itemclass:ipm.externaldata.<third-party data type>
+```
+
+타사 데이터 커넥터에서 가져온 모든 항목에는 타사 데이터 형식에 해당하는 값이 있는 **itemclass** 속성이 포함됩니다. 예를 들어 가져온 항목의 Subject 속성에서 *contoso* 이라는 단어가 포함된 **Facebook** 데이터를 검색하기 위해 다음 쿼리를 사용합니다.
+
+```powershell
+subject:contoso AND itemclass:ipm.externaldata.facebook*
+```
+
+다음은 서로 다른 형식의 타사 데이터에 대한 **itemclass** 값에 대한 몇 가지 예입니다.
+
+| **타사 데이터 형식** | **itemclass 속성 값**   |
+|---------------------------|-------------------------------------|
+| 블룸버그 메시지         | ipm.externaldata.bloombergmessage* |
+| CellTrust                 | ipm.externaldata.celltrust*        |
+| Pivot                     | ipm.externaldata.pivot*            |
+| WhatsApp 보관 장치         | ipm.externaldata.whatsapparchiver* |
+|||
+
+*itemclass* 속성의 값은 대소문자 구분이 없습니다. 일반적으로 타사 데이터 형식의 이름(공백 없이)과 와일드카드( * ) 문자를 사용 합니다.
+
+eDiscovery 검색 쿼리를 만드는 데 대한 자세한 내용은 [eDiscovery에](keyword-queries-and-search-conditions.md)대한 키워드 쿼리 및 검색 조건을 참조하세요.
 
 ## <a name="data-connectors-in-the-us-government-cloud"></a>미국 정부 클라우드의 데이터 커넥터
 

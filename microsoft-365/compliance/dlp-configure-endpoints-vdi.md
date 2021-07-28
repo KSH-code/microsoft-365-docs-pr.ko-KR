@@ -14,14 +14,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: VDI(가상 데스크톱 인프라) 장치에 구성 패키지를 배포하여 끝점 데이터 손실 방지 서비스에 Microsoft 365 배포합니다.
-ms.openlocfilehash: 64d9bfed3d1d5600b5843c697e894577f83527fe
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 1e4987ba2d261c715395ed1869f597da91b5cfed
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226878"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567323"
 ---
-# <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
+# <a name="onboard-non-persistent-virtual-desktop-infrastructure-devices"></a>비영구적 가상 데스크톱 인프라 장치 온보드
 
 **적용 대상:**
 - [Microsoft 365 끝점 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
@@ -33,7 +33,7 @@ ms.locfileid: "53226878"
 
 ## <a name="onboard-vdi-devices"></a>VDI 장치 온보드
 
-Microsoft 365 끝점 데이터 손실 방지는 비영구적 VDI 세션 온보더링을 지원합니다.
+Microsoft 365 끝점 데이터 손실 방지는 비영구적 VDI(가상 데스크톱 인프라) 세션 온보더링을 지원합니다.
 
 > [!NOTE]
 > 비영구적 VDI 세션을 온보드하려면 VDI 장치가 1809 이상인 Windows 10 있어야 합니다.

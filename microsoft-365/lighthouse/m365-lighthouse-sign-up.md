@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 서비스 공급자에 등록하는 Microsoft 365 Lighthouse.
-ms.openlocfilehash: e87757f22cc76bf681058ab453bdfdf60c6c64c9
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: d53c95ac636af38d458c1259f8d75c1e59f9d775
+ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542372"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587924"
 ---
 # <a name="sign-up-for-microsoft-365-lighthouse"></a>등록을 Microsoft 365 Lighthouse
 
@@ -49,7 +49,7 @@ ms.locfileid: "53542372"
 1. 구입을 **선택합니다.**
 
     > [!NOTE]
-    > Microsoft 365 Lighthouse 테넌트에 대해 하나의 라이선스가 필요합니다. 사용자당 라이선스가 추가로 필요하지 않습니다. 
+    > Microsoft 365 Lighthouse 테넌트에 대해 하나의 라이선스만 필요합니다. 파트너에 대해 추가 사용자당 라이선스가 필요하지 않습니다. Microsoft 365 Lighthouse 테넌트에는 라이선스가 필요하지 않습니다. 
 
     테넌트에 Microsoft 365 Lighthouse 성공적으로 추가 는 Microsoft 365 Lighthouse 청구 > 제품에서  Microsoft 365 관리 센터.
 

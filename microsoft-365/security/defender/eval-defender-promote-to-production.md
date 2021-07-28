@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: b67f0f493c97b900fa08b10e3eb7a5967560dcfd
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 3204a5453e3b441e2899a347df6d9e5a6cca2808
+ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458750"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53588128"
 ---
 # <a name="promote-your-microsoft-365-defender-evaluation-environment-to-production"></a>프로덕션 Microsoft 365 Defender 환경으로 승격
 
@@ -48,11 +48,11 @@ MDO를 평가하거나 파일럿한 후 전체 프로덕션 환경으로 승격�
 5. 타사 SMTP 게이트웨이를 해제하고 이 릴레이와 연결된 모든 EXO 커넥터를 사용하지 않도록 설정하거나 삭제합니다.
 
 ## <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
-파일럿에서 프로덕션 환경으로의 Microsoft Defender 평가 환경을 승격하기 위해 지원되는 도구 및 방법을 사용하여 서비스에 더 많은 끝점을 [온보딩하기만 합니다.](/defender-endpoint/onboard-configure)
+파일럿에서 프로덕션 환경으로의 Microsoft Defender 평가 환경을 승격하기 위해 지원되는 도구 및 방법을 사용하여 서비스에 더 많은 끝점을 [온보딩하기만 합니다.](../defender-endpoint/onboard-configure.md)
 
 다음 일반 지침을 사용하여 끝점용 Microsoft Defender에 더 많은 장치를 온보딩합니다. 
 
-1. 장치가 최소 요구 사항을 [충족하는지 확인합니다.](/defender-endpoint/minimum-requirements)
+1. 장치가 최소 요구 사항을 [충족하는지 확인합니다.](../defender-endpoint/minimum-requirements.md)
 2. 장치에 따라 끝점 포털용 Defender의 온보딩 섹션에 제공된 구성 단계를 따릅니다.
 3. 장치에 적합한 관리 도구 및 배포 방법을 사용합니다.
 4.  검색 테스트를 실행하여 장치가 제대로 온보드 및 서비스에 보고되었는지 확인합니다.

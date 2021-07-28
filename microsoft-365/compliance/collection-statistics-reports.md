@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보고서의 검토 집합에 커밋된 초안 컬렉션 및 컬렉션에 대해 통계 및 보고서에 액세스하고 사용하는 Advanced eDiscovery.
-ms.openlocfilehash: 5edbd4a3b7212e027c777ed6ce5284f4e9cf595c
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: e9be02f0c1c1d20639c7120bc0f357a381411b31
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838927"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541028"
 ---
 # <a name="collection-statistics-and-reports-in-advanced-ediscovery"></a>컬렉션 통계 및 보고서의 Advanced eDiscovery
 
@@ -106,7 +106,7 @@ ms.locfileid: "50838927"
 
 **새 인덱싱된 항목 입니다.** 검토 집합에 추가되기 전에 새로 인덱싱된 항목 수입니다. 새로 인덱싱된 항목의 예로는 상위 항목에서 추출된 다음 검토 집합에 추가되기 전에 인덱싱된 하위 항목이 있습니다. 또한 이 경우 데이터 원본 탭에 나열된 양도 데이터 원본 및 비관리 콘텐츠  위치에 없는 항목은 검토에 추가되기 전에 인덱싱됩니다. 예를 들어 새로 인덱싱된 항목에는 추가 위치에서 수집된 항목이 포함됩니다.
 
-**인덱싱된 항목이 업데이트되었습니다.** 성공적으로 인덱싱되어 검토 집합에 추가된 부분적으로 인덱싱된 항목 수입니다. 이 경우 양도 및 비관리 콘텐츠 위치의 항목 중 컬렉션이  검토 집합에 커밋될 때 성공적으로 인덱싱된 데이터 원본 탭의 항목이 부분적으로 인덱싱됩니다.
+**인덱싱된 항목이 업데이트되었습니다.** 성공적으로 인덱싱되어 검토 집합에 추가된 부분적으로 인덱싱된 항목 수입니다. 이 통계는 양도 및 비관리 콘텐츠 위치의 부분적으로 인덱싱된  항목을 나타내며, 이 탭은 컬렉션이 검토 집합에 커밋될 때 성공적으로 인덱싱된 데이터 원본 탭을 나타냅니다.
 
 **인덱싱 오류.** 검토 집합에 추가되기 전에 인덱싱할 수 없는 부분적으로 인덱싱된 항목 수입니다. 이러한 항목에는 오류 수정이 필요할 수 있습니다.
 

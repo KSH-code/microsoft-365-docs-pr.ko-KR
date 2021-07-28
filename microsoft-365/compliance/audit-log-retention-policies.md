@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다.
-ms.openlocfilehash: 8df2e240440ad33ac82d926b63cc495d1aaef692
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: ce7ff5158327c7358d921021017382a3a719a809
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925154"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541040"
 ---
 # <a name="manage-audit-log-retention-policies"></a>로그 보존 정책 감사 관리
 
@@ -85,7 +85,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
 ### <a name="view-policies-in-the-dashboard"></a>대시보드에서 정책 보기
 
-감사 로그 보존 정책은 대시보드에 나열되어 있습니다. 대시보드에서 정책을 볼 때의 이점 중 하나는 **우선 순위** 열을 클릭하여 적용되는 우선 순위로 정책을 나열할 수 있다는 것입니다. 이전에 설명한 대로 값이 높을수록 우선 순위가 더 높음을 나타냅니다.
+감사 로그 보존 정책은 대시보드에 나열되어 있습니다. 대시보드에서 정책을 볼 때의 이점 중 하나는 **우선 순위** 열을 클릭하여 적용되는 우선 순위로 정책을 나열할 수 있다는 것입니다. 이전에 설명한 대로 값이 높을수록 우선 순위가 더 낮음을 나타냅니다.
 
 ![감사 보존 정책 대시보드의 우선 순위 열](../media/AuditLogRetentionDashboardPriority.png)
 
