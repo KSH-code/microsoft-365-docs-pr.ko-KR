@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c014447e51e5c5fcb96924e5e98c62f478a32ea7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 43fc03522f1783c74eb5b2874da6125881a3740d
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935032"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53618952"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender 제외 구성 및 유효성 검사
 
@@ -34,37 +34,37 @@ ms.locfileid: "51935032"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 이 문서에서는 요구 시 검사에 적용되는 제외를 정의하는 방법과 실시간 보호 및 모니터링에 대한 정보를 제공합니다.
 
->[!IMPORTANT]
->이 문서에 설명된 제외는 끝점 감지 및 응답(EDR)을 포함하여 Mac의 끝점용 다른 Defender에 적용되지 EDR. 이 문서에 설명된 방법을 사용하여 제외하는 파일은 경고 및 기타 EDR 트리거할 수 있습니다.
+> [!IMPORTANT]
+> 이 문서에 설명된 제외는 끝점 감지 및 응답(EDR)을 포함하여 Mac의 끝점용 다른 Defender에 적용되지 EDR. 이 문서에 설명된 방법을 사용하여 제외하는 파일은 경고 및 기타 EDR 트리거할 수 있습니다.
 
 Mac 검사의 끝점용 Defender에서 특정 파일, 폴더, 프로세스 및 프로세스 열기 파일을 제외할 수 있습니다.
 
 제외는 조직에서 고유하거나 사용자 지정된 파일 또는 소프트웨어에서 잘못된 검색을 방지하는 데 유용할 수 있습니다. Mac의 끝점용 Defender로 인한 성능 문제를 완화하는 데도 유용할 수 있습니다.
 
->[!WARNING]
->제외를 정의할 경우 Mac의 끝점용 Defender에서 제공하는 보호가 낮아질 수 있습니다. 제외 구현과 관련된 위험을 항상 평가해야 합니다. 또한 악의적이지 않다고 확신하는 파일만 제외해야 합니다.
+> [!WARNING]
+> 제외를 정의할 경우 Mac의 끝점용 Defender에서 제공하는 보호가 낮아질 수 있습니다. 제외 구현과 관련된 위험을 항상 평가해야 합니다. 또한 악의적이지 않다고 확신하는 파일만 제외해야 합니다.
 
 ## <a name="supported-exclusion-types"></a>지원되는 제외 유형
 
 다음 표에는 Mac의 끝점용 Defender에서 지원하는 제외 유형이 표시됩니다.
 
-제외 | 정의 | 예제
+제외|정의|예제
 ---|---|---
-파일 확장명 | 컴퓨터의 아무 곳이나 확장명을 통해 모든 파일 | `.test`
-파일 | 전체 경로로 식별된 특정 파일 | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
-폴더 | 지정된 폴더에 있는 모든 파일(재발성) | `/var/log/`<br/>`/var/*/`
-프로세스 | 전체 경로 또는 파일 이름으로 지정된 특정 프로세스 및 이 프로세스에서 연 모든 파일 | `/bin/cat`<br/>`cat`<br/>`c?t`
+파일 확장명|컴퓨터의 아무 곳이나 확장명을 통해 모든 파일|`.test`
+파일|전체 경로로 식별된 특정 파일|`/var/log/test.log` <p> `/var/log/*.log` <p> `/var/log/install.?.log`
+폴더|지정된 폴더에 있는 모든 파일(재발성)|`/var/log/` <p> `/var/*/`
+프로세스|전체 경로 또는 파일 이름으로 지정된 특정 프로세스 및 이 프로세스에서 연 모든 파일|`/bin/cat` <p> `cat` <p> `c?t`
 
 파일, 폴더 및 프로세스 제외는 다음 와일드카드를 지원합니다.
 
-와일드카드 | 설명 | 예제 | 일치 | 일치하지 않습니다.
+와일드카드|설명|예제|일치|일치하지 않습니다.
 ---|---|---|---|---
-\* |    none을 포함한 모든 문자와 일치합니다(경로 내에서 이 와일드카드를 사용하는 경우 폴더 하나만 대체). | `/var/*/*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
-? | 단일 문자와 일치 | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`
+\*|none을 포함한 모든 문자와 일치합니다(경로 내에서 이 와일드카드를 사용하는 경우 폴더 하나만 대체).|`/var/*/*.log`|`/var/log/system.log`|`/var/log/nested/system.log`
+?|단일 문자와 일치|`file?.log`|`file1.log` <p> `file2.log`|`file123.log`
 
 >[!NOTE]
 >제품은 제외를 평가할 때 firmlinks 문제를 해결하려고 합니다. 제외에 와일드카드가 포함되거나 대상 파일(볼륨)이 없는 경우 Firmlink 확인이 `Data` 작동하지 않습니다.

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9d68f879fe8fd9379b286c106ed9229895f91b9a
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ec329a4e8fe22992d155e0564e83e23f1d8d6cac
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841112"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53618982"
 ---
 # <a name="information-protection-in-windows-overview"></a>Windows의 정보 보호 개요
 
@@ -32,22 +32,20 @@ ms.locfileid: "52841112"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 정보 보호는 업무 공간에서 생산성을 Microsoft 365 Enterprise 중요한 데이터를 안전하게 유지하는 지능형 보호 기능을 제공하는 Microsoft 365 Enterprise 제품군의 중요한 부분입니다.
 
-
 >[!TIP]
-> Microsoft Defender for Endpoint가 Microsoft Information Protection과 통합되어 모든 장치에서 중요한 데이터를 검색, 보호 및 모니터링하는 Windows 블로그 [게시물을 읽어 읽습니다.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
+> Microsoft Defender for Endpoint가 통합되어 Microsoft Information Protection 디바이스에서 중요한 데이터를 검색, 보호 및 모니터링하는 방법에 대한 [블로그 Windows 읽어 읽습니다.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
 
 Endpoint용 Defender는 다음 방법을 적용하여 데이터를 검색, 분류 및 보호합니다.
 
 - **데이터 검색** - 위험에 노출된 Windows 중요한 데이터 식별
-- **데이터 분류** - 보안 및 준수 센터에서 관리되는 일반적인 MIP(Microsoft Information Protection) 정책을 Office 365 & 분류합니다. 자동 분류를 사용하면 최종 사용자가 중요한 데이터를 수동으로 분류하지 않은 경우에도 보호할 수 있습니다.
-
+- **데이터 분류** - Office 365 및 준수 센터에서 관리되는 MIP(Microsoft Information Protection) 정책을 기반으로 Office 365 & 분류합니다. 자동 분류를 사용하면 최종 사용자가 중요한 데이터를 수동으로 분류하지 않은 경우에도 보호할 수 있습니다.
 
 ## <a name="data-discovery-and-data-classification"></a>데이터 검색 및 데이터 분류
 
@@ -82,8 +80,8 @@ Windows 장치에서 파일을 만들거나 편집하면 Endpoint용 Defender는
 
 디바이스를 클릭하여 민감도 레이블 및 정보 유형으로 이 디바이스에서 관찰된 파일 목록을 확인합니다.
 
->[!NOTE]
->Azure Information Protection 대시보드 검색에서 검색된 파일을 반영하도록 약 15-20분을 허용하세요.
+> [!NOTE]
+> Azure Information Protection 대시보드 검색에서 검색된 파일을 반영하도록 약 15-20분을 허용하세요.
 
 ## <a name="log-analytics"></a>Log Analytics
 
@@ -95,16 +93,13 @@ Azure Portal에서 Azure Log Analytics를 열고 쿼리 작성기(표준 또는 
 
 끝점 데이터에 대한 Defender를 보기 위해 다음을 포함하는 쿼리를 수행하십시오.
 
-```
+```text
 InformationProtectionLogs_CL
 | where Workload_s == "Windows Defender"
 ```
 
-**선행 준비 사항:**
+### <a name="prerequisites"></a>필수 구성 요소
 
 - 고객은 Azure Information Protection 구독이 있어야 합니다.
 - 다음을 통해 Azure Information Protection 통합을 Microsoft Defender 보안 센터.
-    - Go to **설정** in Microsoft Defender 보안 센터, click on **Advanced 설정** under **General**.
-
-
-
+  - Go to **설정** in Microsoft Defender 보안 센터, click on **Advanced 설정** under **General**.

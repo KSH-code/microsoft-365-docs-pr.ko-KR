@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 게스트가 특정 그룹에 추가되지 않도록 하는 방법에 대해 자세히 알아보기
-ms.openlocfilehash: 1db2055f3e546c05905dbf4c854333387112f06e
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 83fb123a3512e767270cf69f6ff56813e27903d4
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538930"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621742"
 ---
 # <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>게스트가 특정 Microsoft 365 또는 팀에 추가되지 Microsoft Teams 방지
 
@@ -67,7 +67,22 @@ Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
 확인은 다음과 같습니다.
     
 ![게스트 그룹 액세스가 false로 설정되어 있는 PowerShell 창의 스크린샷.](../media/09ebfb4f-859f-44c3-a29e-63a59fd6ef87.png)
-  
+
+특정 그룹에 대한 게스트 액세스를 허용하도록 설정을 다시 전환하려는 경우 다음 스크립트를 실행하여 게스트 액세스를 허용할 그룹의 이름으로 ```<GroupName>``` 변경합니다.
+
+```PowerShell
+$GroupName = "<GroupName>"
+
+Connect-AzureAD
+
+$template = Get-AzureADDirectorySettingTemplate | ? {$_.displayname -eq "group.unified.guest"}
+$settingsCopy = $template.CreateDirectorySetting()
+$settingsCopy["AllowToAddGuests"]=$True
+$groupID= (Get-AzureADGroup -SearchString $GroupName).ObjectId
+$id = (get-AzureADObjectSetting -TargetType groups -TargetObjectId $groupID).id
+Set-AzureADObjectSetting -TargetType Groups -TargetObjectId $groupID -DirectorySetting $settingsCopy -id $id
+```
+
 ## <a name="allow-or-block-guest-access-based-on-their-domain"></a>도메인에 따라 게스트 액세스 허용 또는 차단
 
 특정 도메인을 사용하는 게스트를 허용하거나 차단할 수 있습니다. 예를 들어 비즈니스(Contoso)가 다른 비즈니스(Fabrikam)와 파트너 관계가 있는 경우 사용자가 해당 게스트를 그룹에 추가할 수 있도록 허용 목록에 Fabrikam을 추가할 수 있습니다.
@@ -96,7 +111,7 @@ Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressLis
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 
-[Microsoft 365 관리 센터에서 그룹 구성원 관리](../admin/create-groups/add-or-remove-members-from-groups.md)
+[그룹의 그룹 구성원 Microsoft 365 관리 센터](../admin/create-groups/add-or-remove-members-from-groups.md)
   
 [Azure Active Directory 액세스 검토](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 

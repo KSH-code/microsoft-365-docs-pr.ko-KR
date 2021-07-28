@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dc1e8707dc0810c0986698674a64e969792b5fb8
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 33d4504d6d49eee0170d9250e241f1d6bfb63e91
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311235"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621586"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender 설치 문제 해결
 
@@ -34,7 +34,7 @@ ms.locfileid: "52311235"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 ## <a name="verify-if-installation-succeeded"></a>설치가 성공한지 확인
 

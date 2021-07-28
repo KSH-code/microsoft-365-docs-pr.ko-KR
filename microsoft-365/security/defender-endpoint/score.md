@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 89012dce4aa5b74d09f071b23f7709b4bd0bf03c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 06428df405987236f06eec0c5a4981d7256740dc
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771433"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621766"
 ---
 # <a name="score-resource-type"></a>점수 리소스 유형
 
@@ -32,27 +32,26 @@ ms.locfileid: "52771433"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 ## <a name="methods"></a>메서드
 
-메서드 |반환 형식 |설명
+메서드|반환 형식|설명
 :---|:---|:---
-[노출 점수 가져오기](get-exposure-score.md) | [점수](score.md) | 조직 노출 점수를 얻습니다.
-[장치 보안 점수 가져오기](get-device-secure-score.md) | [점수](score.md) | 조직 장치 보안 점수를 얻습니다.
-[장치 그룹당 노출 점수 나열](get-machine-group-exposure-score.md)| [점수](score.md) | 장치 그룹당 점수를 나열합니다.
+[노출 점수 가져오기](get-exposure-score.md)|[점수](score.md)|조직 노출 점수를 얻습니다.
+[장치 보안 점수 가져오기](get-device-secure-score.md)|[점수](score.md)|조직 장치 보안 점수를 얻습니다.
+[장치 그룹당 노출 점수 나열](get-machine-group-exposure-score.md)|[점수](score.md)|장치 그룹당 점수를 나열합니다.
 
 ## <a name="properties"></a>특성
 
-속성 |  유형    |   설명
+속성|유형|설명
 :---|:---|:---
-점수 | 실수 | 현재 점수입니다.
-시간 | DateTime | 이 API를 호출한 날짜 및 시간입니다.
-RbacGroupName | String | 장치 그룹 이름입니다.
+점수|실수|현재 점수입니다.
+시간|DateTime|이 API를 호출한 날짜 및 시간입니다.
+RbacGroupName|String|장치 그룹 이름입니다.

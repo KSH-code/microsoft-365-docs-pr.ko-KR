@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c89de5fbf5d5b4d5d5e53074109bc8884a271eea
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 6d1c5c1ffa12b300a7a28ad7d38cbda3be24828f
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394896"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53619570"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Microsoft Defender for Endpoint Devices 목록에서 장치 조사
 
@@ -34,7 +34,7 @@ ms.locfileid: "53394896"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatemachines-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatemachines-abovefoldlink)
 
 특정 장치에서 발생한 경고의 세부 정보를 조사하여 경고 또는 잠재적인 위반 범위와 관련이 있을 수 있는 다른 동작 또는 이벤트를 식별합니다.
 

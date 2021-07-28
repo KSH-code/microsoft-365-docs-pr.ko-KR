@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: cb95deb890b52f0f5fde26a3a193181713b8ae5f
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9d204c7ad9aaecd077f2bce462d650a4cfdbf06e
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933832"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53619546"
 ---
 # <a name="investigate-an-ip-address-associated-with-a-microsoft-defender-for-endpoint-alert"></a>끝점 경고에 대한 Microsoft Defender와 연결된 IP 주소 조사
 
@@ -36,7 +36,7 @@ ms.locfileid: "51933832"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 장치와 외부 IP(인터넷 프로토콜) 주소 간의 통신을 검사합니다.
 
@@ -87,7 +87,7 @@ IP가 **있는** 가장 최근에 관찰된 디바이스 섹션에서는 IP 주�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [끝점 경고 큐에 대한 Microsoft Defender 보기 및 구성](alerts-queue.md)
+- [엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성](alerts-queue.md)
 - [끝점 경고에 대한 Microsoft Defender 관리](manage-alerts.md)
 - [끝점 경고에 대한 Microsoft Defender 조사](investigate-alerts.md)
 - [끝점 경고에 대한 Microsoft Defender와 관련된 파일 조사](investigate-files.md)

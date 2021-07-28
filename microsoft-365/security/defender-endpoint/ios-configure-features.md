@@ -1,6 +1,6 @@
 ---
 title: iOS 기능에 대한 끝점용 Microsoft Defender 구성
-description: iOS 기능에 끝점용 Microsoft Defender를 배포하는 방법을 설명
+description: iOS 기능에 끝점용 Microsoft Defender를 배포하는 방법에 대해 설명
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, ios, 구성, 기능, ios
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 749e03cb9d14476245baea82c21d322d4d726aad
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: fdb42bee54521734208eaa73b04a4e7709031066
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53230010"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621610"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
@@ -32,17 +32,19 @@ ms.locfileid: "53230010"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 > [!NOTE]
 > iOS의 끝점용 Defender는 VPN을 사용하여 웹 보호 기능을 제공합니다. 이는 일반 VPN이 아니며 장치 외부에서 트래픽을 취하지 않는 로컬/자체 루프 VPN입니다.
 
-## <a name="conditional-access-with-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Defender를 통해 조건부 액세스  
+## <a name="conditional-access-with-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Defender를 통해 조건부 액세스
+
 iOS의 끝점용 Microsoft Defender 및 Microsoft Intune Azure Active Directory 장치 위험 점수를 기반으로 장치 준수 및 조건부 액세스 정책을 시행할 수 있습니다. Endpoint용 Defender는 Intune을 통해 이 기능을 활용하기 위해 배포할 수 있는 MTD(Mobile Threat Defense) 솔루션입니다.
 
 iOS에서 끝점용 Defender를 통해 조건부 액세스를 설정하는 방법에 대한 자세한 내용은 Endpoint 및 [Intune용 Defender를 참조하세요.](/mem/intune/protect/advanced-threat-protection)
 
 ### <a name="jailbreak-detection-by-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender의 탈옥 감지
+
 끝점용 Microsoft Defender에는 무단으로 보호된 관리되지 않는 장치를 검색하는 기능이 있습니다. 장치가 무단으로 보호된 것으로 감지되면 보안 센터에 높은 **위험** 경고가 보고되고, 조건부 액세스가 장치 위험 점수를 기반으로 설정되어 있는 경우 장치가 회사 데이터에 액세스하지 못하게 차단됩니다.
 
 ## <a name="web-protection-and-vpn"></a>웹 보호 및 VPN
@@ -124,4 +126,3 @@ iOS의 끝점용 Defender를 사용하면 관리자가 iOS 장치에서도 사�
 ## <a name="report-unsafe-site"></a>안전하지 않은 사이트 보고
 
 피싱 웹 사이트는 개인 또는 재무 정보를 얻기 위해 신뢰할 수 있는 웹 사이트를 가장합니다. 피싱 [](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) 사이트일 수 있는 웹 사이트를 보고하려는 경우 네트워크 보호에 대한 피드백 제공 페이지를 방문하세요.
-

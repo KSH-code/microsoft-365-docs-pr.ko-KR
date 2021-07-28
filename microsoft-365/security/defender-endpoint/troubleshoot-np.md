@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 481a8f15d6a41bda8dc866ce40d98c4f3717223d
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4097027d2eec400c92e62e93b7c91b5a224a8dca
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844061"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53618790"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
@@ -31,7 +31,7 @@ ms.locfileid: "52844061"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
 
 네트워크 [보호를 사용하는 경우](network-protection.md) 다음과 같은 문제가 발생할 수 있습니다.

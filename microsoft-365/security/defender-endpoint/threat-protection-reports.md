@@ -1,5 +1,5 @@
 ---
-title: Endpoint용 Microsoft Defender의 위협 방지 보고서
+title: 엔드포인트용 Microsoft Defender의 위협 방지 보고서
 description: 위협 방지 보고서를 사용하여 경고 감지, 범주 및 심각도 추적
 keywords: 경고 검색, 원본, 범주별 경고, 경고 심각도, 경고 분류, 결정
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d32ab04f4acda60f65316719a4607c6c9bbd6447
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 0c9c7dcbdcfb708763646f53ba52f825512e92a9
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688984"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53619414"
 ---
-# <a name="threat-protection-report-in-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender의 위협 방지 보고서
+# <a name="threat-protection-report-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 위협 방지 보고서
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "51688984"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
 위협 방지 보고서는 조직에서 생성된 경고에 대한 높은 수준의 정보를 제공합니다. 이 보고서에는 검색 원본, 범주, 심각도, 상태, 분류 및 시간 경과에 대한 경고 확인을 보여주는 추세 정보가 포함되어 있습니다.
 
@@ -80,9 +80,6 @@ ms.locfileid: "51688984"
 
 - **분류 & 결정**: 해결 시 경고를 분류한 방법, 실제 위협(실제 경고) 또는 잘못된 검색(거짓 경고)으로 분류한 방법을 보여줍니다. 또한 이러한 카드는 확인된 경고의 확인을 보여 주며, 발견된 실제 위협 유형 또는 잘못 감지된 합법적인 활동과 같은 추가 정보를 제공합니다.
 
-
- 
-
 ## <a name="filter-data"></a>데이터 필터링
 
 제공된 필터를 사용하여 특정 특성의 경고를 포함하거나 제외할 수 있습니다.
@@ -92,9 +89,9 @@ ms.locfileid: "51688984"
 
 예를 들어 심각도 높은 경고에 대한 데이터만 표시하는 경우:
 
-1. 필터 **> 심각도에서** 높음 **선택**
+1. **인시던트 및 &** 경고 필터에서 심각도 >  >    >  높음 을 **선택합니다.**
 2. 심각도에 있는 다른 모든 **옵션이** 선택을 하지 않도록 합니다.
-3. **적용** 을 선택합니다. 
+3. **적용** 을 선택합니다.
 
 ## <a name="related-topic"></a>관련 항목
-- [장치 상태 및 준수 보고서](machine-reports.md)
+- [디바이스 상태 및 규정 준수 보고서](machine-reports.md)

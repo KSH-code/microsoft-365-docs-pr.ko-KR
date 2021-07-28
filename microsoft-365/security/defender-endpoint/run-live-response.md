@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 2a7daf18b1a1d791e7b92ded0a6b839bba1fd4c2
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 44047db74744514f9889a329aae992307fb85ac5
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879703"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621790"
 ---
 #  <a name="run-live-response-commands-on-a-device"></a>장치에서 라이브 응답 명령 실행
 
@@ -38,7 +38,7 @@ ms.locfileid: "52879703"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -64,58 +64,53 @@ ms.locfileid: "52879703"
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
-| 사용 권한 유형                    | 사용 권한           | 사용 권한 표시 이름                   |
-|------------------------------------|----------------------|-------------------------------------------|
-| 응용 프로그램                        | Machine.LiveResponse | 특정 컴퓨터의 실시간 응답 실행 |
-| 위임(직장 또는 학교 계정) | Machine.LiveResponse | 특정 컴퓨터의 실시간 응답 실행 |
+|사용 권한 유형|사용 권한|사용 권한 표시 이름|
+|---|---|---|
+|응용 프로그램|Machine.LiveResponse|특정 컴퓨터의 실시간 응답 실행|
+|위임(직장 또는 학교 계정)|Machine.LiveResponse|특정 컴퓨터의 실시간 응답 실행|
 
 ## <a name="http-request"></a>HTTP 요청
 
 ```HTTP
-POST
-https://api.securitycenter.microsoft.com/API/machines/{machine_id}/runliveresponse
+POST https://api.securitycenter.microsoft.com/API/machines/{machine_id}/runliveresponse
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-| 이름      | 유형 | 설명                 |
-|---------------|----------|---------------------------------|
-| 권한 부여 | String   | Bearer\<token>\. 필수 특성입니다.   |
-| Content-Type  | 문자열   | application/json. 필수 특성입니다. |
+|이름|유형|설명|
+|---|---|---|
+|권한 부여|String|Bearer\<token>\. 필수 특성입니다.|
+|Content-Type|문자열|application/json. 필수 특성입니다.|
 
 ## <a name="request-body"></a>요청 본문
 
-| 매개 변수 | 유형 | 설명                                                        |
-|---------------|----------|------------------------------------------------------------------------|
-| Comment       | String   | 작업과 연결되는 설명입니다.                                 |
-| 명령      | 배열    | 실행할 명령입니다. 허용되는 값은 PutFile, RunScript, GetFile입니다. |
+|매개 변수|유형|설명|
+|---|---|---|
+|Comment|String|작업과 연결되는 설명입니다.|
+|명령|배열|실행할 명령입니다. 허용되는 값은 PutFile, RunScript, GetFile입니다.|
 
-명령:
+**명령**:
 
-| 명령 유형 | 매개 변수                                                                          | 설명                                                                                                                      |
-|------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| PutFile      | 키: FileName  <br><br>  값: \<file name\>                                                                          | 라이브러리에서 장치로 파일을 넣습니다. 파일은 작업 폴더에 저장되고 장치가 기본적으로 다시 시작될 때 삭제됩니다.
-| RunScript    | 키: ScriptName<br>값: \<Script from library\> <br><br> 키: Args  <br> 값: \<Script arguments\>                          | 디바이스의 라이브러리에서 스크립트를 실행합니다.    <br><br>  Args 매개 변수는 스크립트로 전달됩니다. <br><br> 10분 후의 시간 제한입니다.     
-| GetFile      | 키: Path <br> 값: \<File path\>                                                        | 장치에서 파일을 수집합니다. 참고: 경로의 백슬래시를 이스케이프해야 합니다.                                                                      |
+|명령 유형|매개 변수|설명|
+|---|---|---|
+|PutFile|키: FileName <p> 값: \<file name\>|라이브러리에서 장치로 파일을 넣습니다. 파일은 작업 폴더에 저장되고 장치가 기본적으로 다시 시작될 때 삭제됩니다.
+|RunScript|키: ScriptName <br> 값: \<Script from library\> <p> 키: Args <br> 값: \<Script arguments\>|디바이스의 라이브러리에서 스크립트를 실행합니다. <p>  Args 매개 변수는 스크립트로 전달됩니다. <p> 10분 후의 시간 제한입니다.|
+|GetFile|키: Path <br> 값: \<File path\>|장치에서 파일을 수집합니다. 참고: 경로의 백슬래시를 이스케이프해야 합니다.|
 
 ## <a name="response"></a>응답
 
--   성공하면 이 메서드는 200, 확인을 반환합니다.
-    작업 엔터티. 지정한 ID가 있는 머신을 찾을 수 없는 경우 - 404 찾을 수 없습니다.
+- 성공하면 이 메서드는 200, 확인을 반환합니다.
 
-## <a name="example"></a>예시
+  작업 엔터티. 지정한 ID가 있는 머신을 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
-**요청**
+## <a name="example"></a>예제
+
+### <a name="request-example"></a>요청 예제
 
 다음은 요청의 예입니다.
 
 ```HTTP
-
-POST
-https://api.securitycenter.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2932e418702b84d0cc07/runliveresponse
-
-```
-**JSON**
+POST https://api.securitycenter.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2932e418702b84d0cc07/runliveresponse
 
 ```JSON
 {
@@ -148,7 +143,7 @@ https://api.securitycenter.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2932e4
 }
 ```
 
-**응답**
+### <a name="response-example"></a>응답 예제
 
 다음은 응답의 예입니다.
 
@@ -206,11 +201,10 @@ HTTP/1.1 200 Ok
         }
     ]
 }
-
-
 ```
 
 ## <a name="related-topics"></a>관련 항목
+
 - [컴퓨터 작업 API를 얻습니다.](get-machineaction-object.md)
-- [라이브 응답 결과 얻기](get-live-response-result.md)
+- [라이브 응답 결과 가져오기](get-live-response-result.md)
 - [컴퓨터 작업 취소](cancel-machine-action.md)

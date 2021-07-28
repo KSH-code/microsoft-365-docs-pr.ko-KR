@@ -18,12 +18,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 7826229ba67384137c033745a5b85e557fc9c4a7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 98e4c781f28f1a89eb3ba9878b65ef57d0e40ea8
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933472"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53619558"
 ---
 # <a name="investigate-a-domain-associated-with-a-microsoft-defender-for-endpoint-alert"></a>끝점 경고에 대한 Microsoft Defender와 연결된 도메인 조사
 
@@ -34,7 +34,7 @@ ms.locfileid: "51933472"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatedomain-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatedomain-abovefoldlink)
 
 도메인을 조사하여 엔터프라이즈 네트워크의 장치와 서버가 알려진 악성 도메인과 통신하고 있는지 확인합니다.
 
@@ -82,7 +82,7 @@ URL 보기에서 다음 섹션의 정보를 볼 수 있습니다.
 5. 장치 이름을 클릭하면 보고된 경고, 동작 및 이벤트를 계속 조사할 수 있는 디바이스 보기로 연결됩니다.
 
 ## <a name="related-topics"></a>관련 항목
-- [끝점 경고 큐에 대한 Microsoft Defender 보기 및 구성](alerts-queue.md)
+- [엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성](alerts-queue.md)
 - [끝점 경고에 대한 Microsoft Defender 관리](manage-alerts.md)
 - [끝점 경고에 대한 Microsoft Defender 조사](investigate-alerts.md)
 - [끝점 경고에 대한 Microsoft Defender와 관련된 파일 조사](investigate-files.md)
