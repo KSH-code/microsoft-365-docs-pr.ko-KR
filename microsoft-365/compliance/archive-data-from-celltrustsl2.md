@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: CellTrust SL2 데이터 커넥터를 설정하고 사용하여 모바일 통신 데이터를 가져오고 보관하는 방법을 학습합니다.
-ms.openlocfilehash: 191160921c9e949aa7b82520d72dc7a18bfb26ef
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: c437df7715e41fc0977142b60356ed4decf62027
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453975"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541136"
 ---
 # <a name="archive-data-from-celltrust-sl2-to-microsoft-365"></a>CellTrust SL2의 데이터를 보관하여 Microsoft 365
 
-CellTrust SL2는 모바일 통신 데이터를 캡처하고 주요 보관 기술과 통합하여 FINRA, HIPAA, FOIA 및 TCPA와 같은 규정에 대한 전자 검색 요구 사항을 충족합니다. SL2 데이터 커넥터는 모바일 통신 항목을 가져오고 Microsoft 365. 이 문서에서는 보관을 위해 CellTrust SL2 Microsoft 365 사용하여 SL2를 통합하는 프로세스에 대해 설명합니다. 이 프로세스를 완료하면 사용자가 CellTrust SL2 서비스를 구독하고 SL2 아키텍처에 익숙한 것으로 가정합니다. SL2에 대한 자세한 내용은 <WWW.CELLTRUST.COM>.
+CellTrust SL2는 모바일 통신 데이터를 캡처하고 주요 보관 기술과 통합하여 FINRA, HIPAA, FOIA 및 TCPA와 같은 규정에 대한 전자 검색 요구 사항을 충족합니다. SL2 데이터 커넥터는 모바일 통신 항목을 가져오고 Microsoft 365. 이 문서에서는 보관을 위해 CellTrust SL2 Microsoft 365 사용하여 SL2를 통합하는 프로세스에 대해 설명합니다. 이 프로세스를 완료하면 사용자가 CellTrust SL2 서비스를 구독하고 SL2 아키텍처에 익숙한 것으로 가정합니다. CellTrust SL2에 대한 자세한 내용은 <https://www.celltrust.com> 을 참조하세요.
 
 데이터 원본의 사용자 사서함으로 데이터를 Microsoft 365 소송 보존, eDiscovery Microsoft 365 보존 정책 및 통신 준수와 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. CellTrust SL2 Data Connector를 사용하여 조직에서 데이터를 가져오고 Microsoft 365 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
@@ -31,7 +31,7 @@ CellTrust의 SL2 플랫폼은 여러 원본의 통신 데이터를 캡처합니�
 
 ![CellTrust SL2 서비스에 대한 보관 워크플로](../media/CellTrustSL2ConnectorWorkflow.png)
 
-1. SL2 사용자는 클라우드의 SL2 서비스와 데이터를 Microsoft Azure 수 있습니다.
+1. SL2 사용자는 해당 서비스의 SL2 서비스와 데이터를 Microsoft Azure.
 
 2. 조직에 CellTrust의 SL2 클라우드 서비스 환경에 SL2 도메인이 있습니다. 도메인에 US(조직 구성 단위)가 하나 이상 있을 수 있습니다. SL2 클라우드 서비스는 데이터를 Microsoft Azure 플랫폼의 높은 보안 영역으로 전송하여 데이터가 데이터 환경을 Microsoft Azure 않습니다. SL2 계획(Enterprise, SMB 또는 정부)에 따라 도메인이 전역 또는 Microsoft Azure 또는 Microsoft Azure 호스트됩니다.
 
