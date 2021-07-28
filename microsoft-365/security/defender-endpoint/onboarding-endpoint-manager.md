@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 397aa8a0e8f0523c9975d40759d39369c221222b
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: cdd188a58bd80885c90b87e3d42c999a2afd14c1
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228978"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622823"
 ---
 # <a name="onboarding-using-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 사용하여 온보딩
 
@@ -34,7 +34,7 @@ ms.locfileid: "53228978"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 이 문서는 배포 가이드의 일부로, 온보더링 방법의 예로 사용할 수 있습니다.
 
@@ -122,9 +122,9 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
 그런 다음 여러 가지 유형의 끝점 보안 정책을 계속 만들게 됩니다.
 
 - [차세대 보호](#next-generation-protection)
-- [공격 표면 감소](#attack-surface-reduction--attack-surface-reduction-rules)
+- [공격 표면 감소](#attack-surface-reduction---attack-surface-reduction-rules)
 
-### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
+### <a name="endpoint-detection-and-response"></a>엔드포인트 탐지 및 대응
 
 1. MEM 포털을 열 수 있습니다.
 
@@ -213,7 +213,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
     > [!div class="mx-imgBorder"]
     > ![Microsoft Endpoint Manager portal18의 이미지](images/38180219e632d6e4ec7bd25a46398da8.png)
 
-### <a name="attack-surface-reduction--attack-surface-reduction-rules"></a>공격 표면 감소 – 공격 표면 감소 규칙
+### <a name="attack-surface-reduction---attack-surface-reduction-rules"></a>공격 표면 감소 - 공격 표면 감소 규칙
 
 1. MEM 포털을 열 수 있습니다.
 
@@ -221,7 +221,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
 
 3. 정책 **만들기 를 선택합니다.**
 
-4. 플랫폼 **- Windows 10 이상 – 프로필 - 만들기에서** 공격 표면 > 선택합니다.
+4. 플랫폼 - Windows 10 이상 - 프로필 - 만들기에서 공격 **표면 > 선택합니다.**
 
     > [!div class="mx-imgBorder"]
     > ![portal19 Microsoft Endpoint Manager 이미지](images/522d9bb4288dc9c1a957392b51384fdd.png)
@@ -261,7 +261,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
     > [!div class="mx-imgBorder"]
     > ![Microsoft Endpoint Manager portal25의 이미지](images/7a631d17cc42500dacad4e995823ffef.png)
 
-### <a name="attack-surface-reduction--web-protection"></a>공격 표면 감소 – 웹 보호
+### <a name="attack-surface-reduction---web-protection"></a>공격 표면 감소 - 웹 보호
 
 1. MEM 포털을 열 수 있습니다.
 
@@ -269,7 +269,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
 
 3. 정책 **만들기 를 선택합니다.**
 
-4. 만들기 Windows 10 이상 – 웹 **보호 > 선택합니다.**
+4. 만들기 Windows 10 이상 - 웹 보호 **> 선택합니다.**
 
     > [!div class="mx-imgBorder"]
     > ![Microsoft Endpoint Manager portal26 이미지](images/cd7b5a1cbc16cc05f878cdc99ba4c27f.png)
@@ -322,22 +322,22 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
 1. MEM 포털을 열고 위의 단계에 표시된 대로 관련 정책으로 이동합니다. 다음 예에서는 차세대 보호 설정을 보여줍니다.
 
     > [!div class="mx-imgBorder"]
-    > [![portal33 ](images/43ab6aa74471ee2977e154a4a5ef2d39.png) Microsoft Endpoint Manager 이미지](images/43ab6aa74471ee2977e154a4a5ef2d39.png#lightbox)
+    > [![포털 Microsoft Endpoint Manager 이미지](images/43ab6aa74471ee2977e154a4a5ef2d39.png)](images/43ab6aa74471ee2977e154a4a5ef2d39.png#lightbox)
 
 2. 정책 **상태를 확인하려면** 구성 정책을 선택합니다.
 
     > [!div class="mx-imgBorder"]
-    > [![portal34 ](images/55ecaca0e4a022f0e29d45aeed724e6c.png) Microsoft Endpoint Manager 이미지](images/55ecaca0e4a022f0e29d45aeed724e6c.png#lightbox)
+    > [![Microsoft Endpoint Manager portal34의 이미지](images/55ecaca0e4a022f0e29d45aeed724e6c.png)](images/55ecaca0e4a022f0e29d45aeed724e6c.png#lightbox)
 
 3. 장치  **상태를 선택하여** 상태를 확인합니다.
 
     > [!div class="mx-imgBorder"]
-    > [![portal35 ](images/18a50df62cc38749000dbfb48e9a4c9b.png) Microsoft Endpoint Manager 이미지](images/18a50df62cc38749000dbfb48e9a4c9b.png#lightbox)
+    > [![포털 Microsoft Endpoint Manager 이미지](images/18a50df62cc38749000dbfb48e9a4c9b.png)](images/18a50df62cc38749000dbfb48e9a4c9b.png#lightbox)
 
 4. 상태를  **확인하려면** 사용자 상태를 선택합니다.
 
     > [!div class="mx-imgBorder"]
-    > [![portal36 ](images/4e965749ff71178af8873bc91f9fe525.png) Microsoft Endpoint Manager 이미지](images/4e965749ff71178af8873bc91f9fe525.png#lightbox)
+    > [![포털 Microsoft Endpoint Manager 이미지](images/4e965749ff71178af8873bc91f9fe525.png)](images/4e965749ff71178af8873bc91f9fe525.png#lightbox)
 
 5. 상태를  **확인하려면** 설정당 상태를 선택합니다.
 
@@ -345,26 +345,26 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
     > 이 보기는 다른 정책과 충돌하는 설정을 식별하는 데 매우 유용합니다.
 
     > [!div class="mx-imgBorder"]
-    > [![포털 Microsoft Endpoint Manager 이미지 ](images/42acc69d0128ed09804010bdbdf0a43c.png)](images/42acc69d0128ed09804010bdbdf0a43c.png#lightbox)
+    > [![포털 Microsoft Endpoint Manager 이미지](images/42acc69d0128ed09804010bdbdf0a43c.png)](images/42acc69d0128ed09804010bdbdf0a43c.png#lightbox)
 
-### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
+### <a name="confirm-endpoint-detection-and-response"></a>끝점 검색 및 응답 확인
 
-1. 구성을 적용하기 전에 Endpoint Protection용 Defender 서비스를 시작하지 말아야 합니다.
+1. 구성을 적용하기 전에 Endpoint Protection Defender for Endpoint Protection 시작하면 안 됩니다.
 
     > [!div class="mx-imgBorder"]
-    > [![서비스 패널 1의 이미지 ](images/b418a232a12b3d0a65fc98248dbb0e31.png)](images/b418a232a12b3d0a65fc98248dbb0e31.png#lightbox)
+    > [![서비스 패널 1의 이미지](images/b418a232a12b3d0a65fc98248dbb0e31.png)](images/b418a232a12b3d0a65fc98248dbb0e31.png#lightbox)
 
 2. 구성이 적용된 후 Endpoint Protection Service용 Defender를 시작해야 합니다.
 
     > [!div class="mx-imgBorder"]
-    > [![서비스 패널 2의 이미지 ](images/a621b699899f1b41db211170074ea59e.png)](images/a621b699899f1b41db211170074ea59e.png#lightbox)
+    > [![서비스 패널 2의 이미지](images/a621b699899f1b41db211170074ea59e.png)](images/a621b699899f1b41db211170074ea59e.png#lightbox)
 
 3. 장치에서 서비스가 실행되고 나면 장치가 Microsoft Defender 보안 센터에 표시됩니다.
 
     > [!div class="mx-imgBorder"]
-    > [![이미지 Microsoft Defender 보안 센터 ](images/df0c64001b9219cfbd10f8f81a273190.png)](images/df0c64001b9219cfbd10f8f81a273190.png#lightbox)
+    > [![이미지 Microsoft Defender 보안 센터](images/df0c64001b9219cfbd10f8f81a273190.png)](images/df0c64001b9219cfbd10f8f81a273190.png#lightbox)
 
-### <a name="next-generation-protection"></a>차세대 보호
+### <a name="confirm-next-generation-protection"></a>차세대 보호 확인
 
 1. 테스트 장치에 정책을 적용하기 전에 아래 표시된 설정을 수동으로 관리할 수 있습니다.
 
@@ -379,7 +379,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
     > [!div class="mx-imgBorder"]
     > ![page2 설정 이미지](images/9341428b2d3164ca63d7d4eaa5cff642.png)
 
-### <a name="attack-surface-reduction--attack-surface-reduction-rules"></a>공격 표면 감소 – 공격 표면 감소 규칙
+### <a name="confirm-attack-surface-reduction---attack-surface-reduction-rules"></a>공격 표면 감소 확인 - 공격 표면 감소 규칙
 
 1. 테스트 장치에 정책을 적용하기 전에 PowerShell 창을 펜으로 처리하고 를 `Get-MpPreference` 입력합니다.
 
@@ -399,7 +399,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
 
     ![명령줄 2의 이미지](images/619fb877791b1fc8bc7dfae1a579043d.png)
 
-### <a name="attack-surface-reduction--web-protection"></a>공격 표면 감소 – 웹 보호
+### <a name="confirm-attack-surface-reduction---web-protection"></a>공격 표면 감소 확인 - 웹 보호
 
 1. 테스트 장치에서 PowerShell 을 열고 Windows `(Get-MpPreference).EnableNetworkProtection` 를 입력합니다.
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 63400295061cd7adc58a4ddebf73f4c82b0cc969
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: dfc2dc56e01ad08aea33ba11e4af5f8c94421ef8
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845237"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624311"
 ---
 # <a name="get-missing-kbs-by-device-id"></a>장치 ID로 누락된 KB 사용
 
@@ -29,7 +29,7 @@ ms.locfileid: "52845237"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -39,13 +39,13 @@ ms.locfileid: "52845237"
 
 ## <a name="http-request"></a>HTTP 요청
 
-```
+```http
 GET /api/machines/{machineId}/getmissingkbs
 ```
 
 ## <a name="request-header"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
 권한 부여 | String | Bearer {token}. **필수입니다**.
 
@@ -57,13 +57,13 @@ GET /api/machines/{machineId}/getmissingkbs
 
 성공하면 이 메서드는 200 OK를 반환하고 지정된 디바이스에 본문에 kb 데이터가 누락됩니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 ### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 
-```
+```http
 GET https://api.securitycenter.microsoft.com/api/machines/2339ad14a01bd0299afb93dfa2550136057bff96/getmissingkbs 
 ```
 

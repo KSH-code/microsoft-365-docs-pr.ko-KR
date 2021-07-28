@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4be0960e8ba868df2acb313b171a08f667c287a7
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 3eb4ebbf9da14e90e812eb28f58ba262a218b207
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651335"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622883"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender 개인 정보
 
@@ -31,7 +31,7 @@ ms.locfileid: "52651335"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 Microsoft는 Linux에서 Endpoint용 Defender를 사용할 때 데이터를 수집하고 사용하는 방법에 대해 선택해야 하는 정보와 컨트롤을 사용자에게 제공하기 위해 최선을 다하고 있습니다.
 
@@ -68,7 +68,7 @@ Microsoft는 Linux에서 Endpoint용 Defender를 사용할 때 데이터를 수�
 샘플 제출을 제어하는 세 가지 수준이 있습니다.
 
 - **없음:** 의심스러운 샘플이 Microsoft에 제출하지 않습니다.
-- **안전**: PII(개인 식별 정보)를 포함하지 않는 의심스러운 샘플만 자동으로 제출됩니다. 이 설정의 기본값입니다.
+- **금고**: PII(개인 식별 정보)를 포함하지 않는 의심스러운 샘플만 자동으로 제출됩니다. 이 설정의 기본값입니다.
 - **모두:** 의심스러운 모든 샘플이 Microsoft에 제출됩니다.
 
 ## <a name="manage-privacy-controls-with-policy-settings"></a>정책 설정을 사용하여 개인 정보 관리

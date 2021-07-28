@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 10/07/2018
-ms.openlocfilehash: 18566025d79f02281c1d2c1509dd98f1e57879c2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b23dfc899d33858baf93c337471470b710426c57
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932778"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621898"
 ---
 # <a name="get-kb-collection-api"></a>KB 컬렉션 API 사용
 
@@ -30,7 +30,7 @@ ms.locfileid: "51932778"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -43,35 +43,38 @@ RBAC 장치 그룹 컬렉션을 검색합니다.
 사용자에게 읽기 권한이 필요합니다.
 
 ## <a name="http-request"></a>HTTP 요청
-```
+
+```http
 GET /testwdatppreview/machinegroups
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-머리글 | 값 
+헤더 | 값 
 :---|:---
 권한 부여 | Bearer {token}. **필수입니다**.
 콘텐츠 형식 | application/json
 
 ## <a name="request-body"></a>요청 본문
+
 비어 있음
 
 ## <a name="response"></a>응답
+
 성공적이면 - 200 OK.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
-**요청**
+### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 
-```
+```http
 GET https://graph.microsoft.com/testwdatppreview/machinegroups
 Content-type: application/json
 ```
 
-**응답**
+### <a name="response-example"></a>응답 예제
 
 다음은 응답의 예입니다.
 필드 ID에는 장치 그룹 **ID가** 포함되어 있으며 디바이스 정보의 **필드 rbacGroupId와** 동일합니다. **그룹화되지 않은** 필드는 그룹에 할당되지 않은 모든 장치에 대해 하나의 그룹에만 true입니다. 이 그룹은 평소와 같이 이름이 "UnassignedGroup"입니다.
@@ -88,6 +91,6 @@ Content-type: application/json
             "name":"UnassignedGroup",
             "description":"",
             "ungrouped":true},
-        …
+        ...
 }
 ```

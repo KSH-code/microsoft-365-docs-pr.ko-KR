@@ -1,9 +1,9 @@
 ---
-title: Microsoft Viva 항목에서 대규모로 항목 관리
-author: chuckedmonson
+title: 항목의 규모에 따라 Microsoft Viva 관리
 ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
-ms.reviewer: lauriellis
+ms.reviewer: lauris
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -13,14 +13,14 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva 항목을 사용하여 조직의 여러 항목을 관리하는 모범 사례에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 613c4ed85a62efd22ba104c810420a2d0af015c5
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 96580df486195af991e446ae6f1bbb4b08013947
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624840"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624359"
 ---
-# <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>Microsoft Viva 항목에서 대규모로 항목 관리
+# <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>항목의 규모에 따라 Microsoft Viva 관리
 
 Viva SharePoint 사이트 또는 전체 조직을 인덱싱할 때 많은 주제가 생성될 수 있습니다. 이 경우 항목 관리 페이지에서 수천 개의 제안된 주제가 표시될 경우 어디서부터 시작해야 할지 알기 어려울 수 있습니다.  이 문서에서는 많은 수의 주제가 있는 대규모 조직에서도 Viva Topics를 통해 정보를 검색하는 사용자에게 표시되는 항목과 정보를 최적화하는 방법에 대해 설명하고 있습니다.
 
@@ -82,7 +82,7 @@ AI에서 항목을 검색하면 항목 관리 페이지와 사용자에게 제�
 
 - 표시된 파일 및 페이지의 경우 시스템에서 문서에서 해당 항목을 언급한 수를 식별하지만 프로젝트 또는 팀과 같은 특정 유형의 항목에 대한 참조를 식별하는 특정 컨텍스트에서도 이 항목을 언급해야 합니다. 이는 AI에 대한 증거로 계산됩니다. 또한 시스템에서는 문서 제목, 문서 유형 및 기타 분석 기능(예: 보기)에 항목 이름이 있는 경우를 고려합니다.
 
-   ![추천 항목 및 Microsoft Viva가 이 항목을 검색한 배너 이미지입니다.](../media/knowledge-management/scale-topics-suggested-you-have-access.png)
+   ![추천 항목 및 이 항목을 검색한 Microsoft Viva 배너의 이미지입니다.](../media/knowledge-management/scale-topics-suggested-you-have-access.png)
 
    ![추천 항목 및 이 페이지 편집으로 이 항목의 참여를 설명하는 배너의 이미지입니다.](../media/knowledge-management/scale-topics-suggested-describe-your-involvement.png)
 
@@ -90,7 +90,7 @@ AI에서 항목을 검색하면 항목 관리 페이지와 사용자에게 제�
 
 이러한 특성은 콘텐츠가 AI에 의해 추가된 경우와 AI가 이를 결정한 방법을 보여줄 수 있습니다.
 
-### <a name="communication"></a>커뮤니케이션
+### <a name="communication"></a>통신
 
 사용자에게 Viva 항목에 대한 정보를 전달할 때 AI에서 제안하는 항목과 콘텐츠와 해당 콘텐츠의 차이점을 명확히 하는 것이 중요합니다.
 
@@ -144,11 +144,11 @@ AI에서 항목을 검색하면 항목 관리 페이지와 사용자에게 제�
 
 ### <a name="search"></a>검색
 
-일반적인 검색 용어는 종종 항목으로 검색됩니다. [Microsoft Search의](/sharepoint/view-search-usage-reports)최상위 쿼리 보고서를 사용하여 조직에서 가장 자주 사용하는 검색어를 식별할 수 있습니다. 이러한 용어에 대한 주제가 발견된 경우 큐레이터에 대한 좋은 후보입니다. 이러한 항목은 Microsoft Search에서 응답 카드로 표시될 수 있습니다.
+일반적인 검색 용어는 종종 항목으로 검색됩니다. 의 [최상위](/sharepoint/view-search-usage-reports)쿼리 보고서를 Microsoft Search 조직에서 가장 자주 사용하는 검색어를 식별할 수 있습니다. 이러한 용어에 대한 주제가 발견된 경우 큐레이터에 대한 좋은 후보입니다. 이러한 항목은 각 항목의 응답 카드로 Microsoft Search.
 
-현재 [Microsoft Search](/microsoftsearch/manage-bookmarks)책갈피를 사용하고 있는 경우 이 중 어떤 항목을 항목으로 바꿀 수 있을지 고려합니다. 책갈피 응답 카드에는 제목, 설명 및 URL이 포함되어 있습니다. 경우에 따라 항목 카드가 사용자에게 더 유용할 수 있으며 항목 카드에는 리소스와 사용자도 표시될 수 있습니다.
+현재 책갈피를 [](/microsoftsearch/manage-bookmarks)사용하고 Microsoft Search 항목으로 대체할 수 있는 책갈피를 고려합니다. 책갈피 응답 카드에는 제목, 설명 및 URL이 포함되어 있습니다. 경우에 따라 항목 카드가 사용자에게 더 유용할 수 있으며 항목 카드에는 리소스와 사용자도 표시될 수 있습니다.
 
-사용자의 검색 환경에서 사용자가 여행과 같은 용어를 검색하면 검색 결과가 Microsoft Search에서 다음 우선 순위 순서로 표시됩니다.
+사용자의 검색 환경에서 사용자가 여행과 같은 용어를 검색하면 검색 결과가 다음 우선 순위 순서로 Microsoft Search.
 
 1.  게시 또는 확인된 항목
 
@@ -172,6 +172,6 @@ AI에서 항목을 검색하면 항목 관리 페이지와 사용자에게 제�
 
 ## <a name="see-also"></a>참고 항목
 
-[주제 센터에서 주제 관리](manage-topics.md)
+[항목 센터에서 항목 관리](manage-topics.md)
 
 [주제 센터 개요](topic-center-overview.md)

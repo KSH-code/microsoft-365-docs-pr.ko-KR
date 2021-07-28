@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: aab9c191e590b0717a0f1be62ed88a699d3b5b57
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ef2ce805eca6e82779eca0ced1c2f03441574cc4
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844052"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621814"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -30,7 +30,7 @@ ms.locfileid: "52844052"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-respondmachine-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-respondmachine-abovefoldlink)
 
 장치를 고르거나 조사 패키지를 수집하여 감지된 공격에 신속하게 대응합니다. 장치에 대한 작업을 수행한 후, 작업 센터에서 활동 세부 정보를 확인할 수 있습니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "52844052"
 - 위협 전문가에게 문의
 - 작업 센터
 
-[![응답 작업의 이미지 ](images/response-actions.png)](images/response-actions.png#lightbox)
+[![응답 작업의 이미지](images/response-actions.png)](images/response-actions.png#lightbox)
 
  다음 보기에서 장치 페이지를 찾을 수 있습니다.
 
@@ -55,8 +55,9 @@ ms.locfileid: "52844052"
 - **장치 목록** - 장치 목록에서 장치 이름의 제목을 선택합니다.
 - **검색 상자** - 드롭다운 메뉴에서 디바이스를 선택하고 디바이스 이름을 입력하세요.
 
->[!IMPORTANT]
-> - 이러한 응답 작업은 버전 1703 이상의 Windows 10 장치에만 사용할 수 있습니다. 
+> [!IMPORTANT]
+>
+> - 이러한 응답 작업은 버전 1703 이상의 Windows 10 장치에만 사용할 수 있습니다.
 > - 비영리 Windows 플랫폼의 경우 응답 기능(예: 장치 고리)은 타사 기능에 따라 달라집니다.
 
 ## <a name="manage-tags"></a>태그 관리
@@ -73,7 +74,7 @@ ms.locfileid: "52844052"
 
 ## <a name="initiate-live-response-session"></a>실시간 응답 세션 시작
 
-실시간 응답은 원격 셸 연결을 사용하여 장치에 즉시 액세스할 수 있는 기능입니다. 이를 통해 조사 작업을 심층적으로 수행하고 즉각적인 대응 조치를 취하여 식별된 위협을 실시간으로 즉시 포함할 수 있습니다.
+실시간 응답은 원격 셸 연결을 사용하여 장치에 즉시 액세스할 수 있는 기능입니다. 이를 통해 심층 조사 작업을 수행하고 즉각적인 대응 조치를 취하여 식별된 위협을 실시간으로 즉시 포함할 수 있습니다.
 
 실시간 대응은 사용자가 법의적 데이터를 수집하고, 스크립트를 실행하고, 분석을 위해 의심스러운 엔터티를 보내고, 위협을 수정하고, 새로운 위협에 대한 사전 대응적 헌팅을 할 수 있도록 하여 조사를 강화하도록 고안된 것입니다.
 
@@ -95,36 +96,42 @@ ms.locfileid: "52844052"
 
     ![센터 단추의 이미지](images/action-center-package-collection.png)
 
-3. Action Center 플라이아웃에서 zip 파일을 **다운로드할** 수 있는 패키지 컬렉션 패키지를 선택합니다.
-  
+2. Action Center 플라이아웃에서 zip 파일을 **다운로드할** 수 있는 패키지 컬렉션 패키지를 선택합니다.
+
     ![다운로드 패키지 단추의 이미지](images/collect-package.png)
 
 패키지에는 다음 폴더가 포함되어 있습니다.
 
-| 폴더 | 설명 |
+<br>
+
+****
+
+|폴더|설명|
 |:---|:---------|
-|자동 런 | 각각 디바이스에서 공격자 지속성을 식별하는 데 도움이 되는 알려진 ASEP(자동 시작 진입점)의 레지스트리 콘텐츠를 나타내는 파일 집합이 포함되어 있습니다. </br></br> <div class="alert"><b>참고:</b> 레지스트리 키를 찾을 수 없는 경우 파일에 "오류: 시스템에서 지정된 레지스트리 키 또는 값을 찾을 수 없습니다."라는 메시지가 표시됩니다.</div>                                                                                                                                |
-|설치된 프로그램 | 이 .CSV 파일에는 장치에 현재 설치된 프로그램을 식별하는 데 도움이 되는 설치된 프로그램 목록이 포함되어 있습니다. 자세한 내용은 클래스 [Win32_Product 참조하세요.](https://go.microsoft.com/fwlink/?linkid=841509)                                                                                  |
-|네트워크 연결 | 이 폴더에는 의심스러운 URL, 공격자 명령 및 제어(C&C) 인프라, 측면 이동 또는 원격 연결에 대한 연결을 식별하는 데 도움이 될 수 있는 연결 정보와 관련된 데이터 포인트 집합이 포함되어 있습니다.</br></br> - ActiveNetConnections.txt - 프로토콜 통계 및 현재 TCP/IP 네트워크 연결을 표시합니다. 프로세스에서 만들어지는 의심스러운 연결을 찾아 볼 수 있는 기능을 제공합니다. </br></br> - Arp.txt - 모든 인터페이스에 대한 현재 ARP(주소 확인 프로토콜) 캐시 테이블을 표시됩니다. </br></br> ARP 캐시는 네트워크에서 내부 공격을 실행하기 위해 사용될 수 있는 손상되거나 의심스러운 네트워크의 추가 호스트를 노출할 수 있습니다.</br></br> - DnsCache.txt - 로컬 호스트 파일에서 미리 로드된 항목과 컴퓨터에서 확인된 이름 쿼리에 대해 최근에 획득한 리소스 레코드를 모두 포함하는 DNS 클라이언트 확인자 캐시의 내용을 표시합니다. 이는 의심스러운 연결을 식별하는 데 도움이 될 수 있습니다. </br></br> - IpConfig.txt - 모든 어댑터에 대한 전체 TCP/IP 구성을 표시됩니다. 어댑터는 설치된 네트워크 어댑터와 같은 물리적 인터페이스나 전화 접속 연결과 같은 논리적 인터페이스를 표현할 수 있습니다. </br></br> - FirewallExecutionLog.txt 및 pfirewall.log                                                                                  |
-| 프리포치 파일| Windows 프리포치 파일은 응용 프로그램 시작 프로세스의 속도를 향상하도록 디자인됩니다. 이 파일을 사용하여 최근에 시스템에서 사용된 모든 파일을 추적하고 삭제된 응용 프로그램에 대한 추적을 찾을 수 있지만 프리포치 파일 목록에서 계속 찾을 수 있습니다. </br></br> - 프리포치 폴더 - 의 프리포치 파일의 `%SystemRoot%\Prefetch` 복사본을 포함 참고: 프리포치 파일을 보기 위해 프리포치 파일 뷰어를 다운로드하는 것이 좋습니다. </br></br> - PrefetchFilesList.txt - 프리피치 폴더에 대한 복사 오류가 발생했다는 기록을 추적하는 데 사용할 수 있는 복사된 모든 파일 목록이 포함되어 있습니다.                                                                                                      |
-| 프로세스| 디바이스에서 .CSV 식별하는 기능을 제공하는 실행 중인 프로세스를 나열하는 파일 목록이 들어 있습니다. 이는 의심스러운 프로세스 및 상태를 식별할 때 유용할 수 있습니다.                                                                                                                                                                                                       |
-| 예약된 작업| 예약된 .CSV 목록이 들어 있습니다. 이 파일은 선택한 장치에서 자동으로 수행되는 루틴을 식별하여 자동으로 실행으로 설정된 의심스러운 코드를 확인하는 데 사용할 수 있습니다.                                                                                                                                                                                                      |
-| 보안 이벤트 로그| 로그인 또는 로그아웃 활동의 레코드 또는 시스템의 감사 정책에 지정된 기타 보안 관련 이벤트를 포함하는 보안 이벤트 로그가 들어 있습니다. </br></br><div class="alert"><b>참고:</b> 이벤트 뷰어를 사용하여 이벤트 로그 파일을 열 수 있습니다.</div>                                                                                    |
-| 서비스| 서비스 및 .CSV 나열하는 파일 포함                                                                                      |
-| Windows SMB(서버 메시지 블록) 세션 | 파일, 프린터 및 직렬 포트에 대한 공유 액세스와 네트워크의 노드 간 기타 통신을 나열합니다. 이는 데이터 유출 또는 측면 이동을 식별하는 데 도움이 될 수 있습니다. </br></br> SMBInboundSessions 및 SMBOutboundSession용 파일이 들어 있습니다. </br></br> <div class="alert"><b>참고:</b> 세션(인바운드 또는 아웃바운드)이 없는 경우 SMB 세션을 찾을 수 없음을 설명하는 텍스트 파일이 표시됩니다.</div>                                                                                                                          |
-| 시스템 정보| OS 버전 SystemInformation.txt 네트워크 카드와 같은 시스템 정보를 나열하는 파일 목록이 들어 있습니다.                                                                                     |
-| Temp Directories| 시스템의 모든 사용자에 대해 %Temp%에 있는 파일을 나열하는 텍스트 파일 집합이 들어 있습니다. </br></br> 이는 공격자가 시스템에 떨어뜨린 의심스러운 파일을 추적하는 데 도움이 될 수 있습니다. </br></br> <div class="alert"><b>참고:</b> 파일에 "시스템에서 지정된 경로를 찾을 수 없습니다."라는 메시지가 포함된 경우 이 사용자의 임시 디렉터리가 없음을 의미하며 사용자가 시스템에 로그인하지 않았기 때문에일 수 있습니다.</div>                                                                                                                                         |
-| 사용자 및 그룹| 각 그룹 및 해당 구성원을 나타내는 파일 목록을 제공합니다.                                                                                                                   |
-|WdSupportLogs| 다음 MpCmdRunLog.txt 및 MPSupportFiles.cab  </br></br> <div class="alert"><b>참고:</b> 이 폴더는 2020년 2월 업데이트 롤업 이상이 설치된 Windows 10 버전 1709 이상에서만 만들어집니다.</br> Win10 1709(RS3) 빌드 16299.1717: [KB4537816](https://support.microsoft.com/en-us/help/4537816/windows-10-update-kb4537816) </br> Win10 1803(RS4) 빌드 17134.1345: [KB4537795](https://support.microsoft.com/en-us/help/4537795/windows-10-update-kb4537795) </br> Win10 1809(RS5) 빌드 17763.1075: [KB4537818](https://support.microsoft.com/en-us/help/4537818/windows-10-update-kb4537818) </br> Win10 1903/1909(19h1/19h2) 빌드 18362.693 및 18363.693 : [KB4535996](https://support.microsoft.com/en-us/help/4535996/windows-10-update-kb4535996) </div>                                                                                                                    |
-| CollectionSummaryReport.xls| 이 파일은 조사 패키지 컬렉션에 대한 요약 파일로, 데이터 포인트 목록, 데이터를 추출하는 데 사용되는 명령, 실행 상태 및 실패 시 오류 코드가 포함되어 있습니다. 이 보고서를 사용하여 패키지에 예상된 데이터가 모두 포함되어 있는지 추적하고 오류가 발생했습니다.를 확인할 수 있습니다. |
+|자동 런|각각 디바이스에서 공격자 지속성을 식별하는 데 도움이 되는 알려진 ASEP(자동 시작 진입점)의 레지스트리 콘텐츠를 나타내는 파일 집합이 포함되어 있습니다. <p> <div class="alert"><b>참고:</b> 레지스트리 키를 찾을 수 없는 경우 파일에 "오류: 시스템에서 지정된 레지스트리 키 또는 값을 찾을 수 없습니다."라는 메시지가 표시됩니다.<div>|
+|설치된 프로그램|이 .CSV 파일에는 장치에 현재 설치된 프로그램을 식별하는 데 도움이 되는 설치된 프로그램 목록이 포함되어 있습니다. 자세한 내용은 클래스 [Win32_Product 참조하세요.](https://go.microsoft.com/fwlink/?linkid=841509)|
+|네트워크 연결|이 폴더에는 의심스러운 URL, 공격자 명령 및 제어(C&C) 인프라, 측면 이동 또는 원격 연결에 대한 연결을 식별하는 데 도움이 될 수 있는 연결 정보와 관련된 데이터 포인트 집합이 포함되어 있습니다. <ul><li>ActiveNetConnections.txt: 프로토콜 통계 및 현재 TCP/IP 네트워크 연결을 표시됩니다. 프로세스에서 만들어지는 의심스러운 연결을 찾아 볼 수 있는 기능을 제공합니다.</li><li>Arp.txt: 모든 인터페이스에 대한 현재 ARP(주소 확인 프로토콜) 캐시 테이블을 표시됩니다. ARP 캐시는 네트워크에서 내부 공격을 실행하기 위해 사용될 수 있는 손상되거나 의심스러운 네트워크의 추가 호스트를 노출할 수 있습니다.</il><li>DnsCache.txt: 로컬 Hosts 파일에서 미리 로드된 항목과 컴퓨터에서 확인된 이름 쿼리에 대해 최근에 획득한 리소스 레코드를 모두 포함하는 DNS 클라이언트 확인자 캐시의 내용을 표시됩니다. 이는 의심스러운 연결을 식별하는 데 도움이 될 수 있습니다.</li><li>IpConfig.txt: 모든 어댑터에 대한 전체 TCP/IP 구성을 표시됩니다. 어댑터는 설치된 네트워크 어댑터와 같은 물리적 인터페이스나 전화 접속 연결과 같은 논리적 인터페이스를 표현할 수 있습니다.</li><li>FirewallExecutionLog.txt 및 pfirewall.log</li></ul>|
+|프리포치 파일|Windows 프리포치 파일은 응용 프로그램 시작 프로세스의 속도를 향상하도록 디자인됩니다. 이 파일을 사용하여 최근에 시스템에서 사용된 모든 파일을 추적하고 삭제된 응용 프로그램에 대한 추적을 찾을 수 있지만 프리포치 파일 목록에서 계속 찾을 수 있습니다. <il><li>프리피치 폴더: 의 프리포치 파일의 복사본을 `%SystemRoot%\Prefetch` 포함 참고: 프리포치 파일을 보기 위해 프리포치 파일 뷰어를 다운로드하는 것이 좋습니다.</li><li>PrefetchFilesList.txt: 프리포치 폴더에 대한 복사 오류가 발생했다면 추적하는 데 사용할 수 있는 복사된 모든 파일 목록이 포함되어 있습니다.</li></ul>|
+|프로세스|디바이스에서 .CSV 식별하는 기능을 제공하는 실행 중인 프로세스를 나열하는 파일 목록이 들어 있습니다. 이는 의심스러운 프로세스 및 상태를 식별할 때 유용할 수 있습니다.|
+|예약된 작업|예약된 .CSV 목록이 들어 있습니다. 이 파일은 선택한 장치에서 자동으로 수행되는 루틴을 식별하여 자동으로 실행으로 설정된 의심스러운 코드를 확인하는 데 사용할 수 있습니다.|
+|보안 이벤트 로그|로그인 또는 로그아웃 활동의 레코드 또는 시스템의 감사 정책에 지정된 기타 보안 관련 이벤트를 포함하는 보안 이벤트 로그가 들어 있습니다. <p><div class="alert"><b>참고:</b> 이벤트 뷰어를 사용하여 이벤트 로그 파일을 열 수 있습니다.</div>|
+|서비스|서비스 및 .CSV 나열하는 파일 포함|
+|Windows SMB(서버 메시지 블록) 세션|파일, 프린터 및 직렬 포트에 대한 공유 액세스와 네트워크의 노드 간 기타 통신을 나열합니다. 이는 데이터 유출 또는 측면 이동을 식별하는 데 도움이 될 수 있습니다. <p> SMBInboundSessions 및 SMBOutboundSession용 파일이 들어 있습니다. <p> <div class="alert"><b>참고:</b> 세션(인바운드 또는 아웃바운드)이 없는 경우 SMB 세션을 찾을 수 없음을 설명하는 텍스트 파일이 표시됩니다.</div>|
+|시스템 정보|OS 버전 SystemInformation.txt 네트워크 카드와 같은 시스템 정보를 나열하는 파일 목록이 들어 있습니다.|
+|Temp Directories|시스템의 모든 사용자에 대해 %Temp%에 있는 파일을 나열하는 텍스트 파일 집합이 들어 있습니다. <p> 이는 공격자가 시스템에 떨어뜨린 의심스러운 파일을 추적하는 데 도움이 될 수 있습니다. <p> <div class="alert"><b>참고:</b> 파일에 "시스템에서 지정된 경로를 찾을 수 없습니다."라는 메시지가 포함된 경우 이 사용자의 임시 디렉터리가 없음을 의미하며 사용자가 시스템에 로그인하지 않았기 때문에일 수 있습니다.</div>|
+|사용자 및 그룹|각 그룹 및 해당 구성원을 나타내는 파일 목록을 제공합니다.|
+|WdSupportLogs|다음 MpCmdRunLog.txt 및 MPSupportFiles.cab  <p> <div class="alert"><b>참고:</b> 이 폴더는 2020년 2월 업데이트 롤업 이상이 설치된 Windows 10 버전 1709 이상에서만 만들어집니다. <ul><li>Win10 1709(RS3) 빌드 16299.1717: [KB4537816](https://support.microsoft.com/help/4537816/windows-10-update-kb4537816)</li><li>Win10 1803(RS4) 빌드 17134.1345: [KB4537795](https://support.microsoft.com/help/4537795/windows-10-update-kb4537795)</li><li>Win10 1809(RS5) 빌드 17763.1075: [KB4537818](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)</li><li>Win10 1903/1909(19h1/19h2) 빌드 18362.693 및 18363.693: [KB4535996](https://support.microsoft.com/help/4535996/windows-10-update-kb4535996)</li></ul> </div>|
+|CollectionSummaryReport.xls|이 파일은 조사 패키지 컬렉션에 대한 요약 파일로, 데이터 포인트 목록, 데이터를 추출하는 데 사용되는 명령, 실행 상태 및 실패 시 오류 코드가 포함되어 있습니다. 이 보고서를 사용하여 패키지에 예상된 데이터가 모두 포함되어 있는지 추적하고 오류가 발생했습니다.를 확인할 수 있습니다.|
+|
 
 ## <a name="run-microsoft-defender-antivirus-scan-on-devices"></a>장치에서 Microsoft Defender 바이러스 백신 실행
 
 조사 또는 응답 프로세스의 일부로 원격으로 바이러스 백신 검색을 시작하여 손상된 장치에 있을 수 있는 맬웨어를 식별하고 수정하는 데 도움을 줄 수 있습니다.
 
->[!IMPORTANT]
->- 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
->- A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
+> [!IMPORTANT]
+>
+> - 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
+> - A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
 
 바이러스 백신 검사 실행을 선택한 경우 실행할 검사 유형(빠른 또는 전체)을 선택하고 스캔을 확인하기 전에 설명을 추가합니다.
 
@@ -132,29 +139,34 @@ ms.locfileid: "52844052"
 
 작업 센터는 검사 정보를 표시하고 장치 타임라인에는 디바이스에 검사 작업이 제출된 경우를 반영하는 새 이벤트가 포함됩니다. Microsoft Defender AV 경고는 검사 중에 발견된 모든 검색을 반영합니다.
 
->[!NOTE]
->Endpoint 응답 작업을 위해 Defender를 사용하여 검색을 트리거할 때 Microsoft Defender 바이러스 백신 'ScanAvgCPULoadFactor' 값은 계속 적용하고 검사의 CPU 영향을 제한합니다.<br> ScanAvgCPULoadFactor가 구성되지 않은 경우 기본값은 검사 중에 최대 CPU 부하의 50% 제한입니다.<br>
->자세한 내용은 [configure-advanced-scan-types-microsoft-defender-antivirus 을 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus)
+> [!NOTE]
+> Endpoint 응답 작업을 위해 Defender를 사용하여 검색을 트리거할 때 Microsoft Defender 바이러스 백신 'ScanAvgCPULoadFactor' 값은 계속 적용하고 검사의 CPU 영향을 제한합니다.
+>
+> ScanAvgCPULoadFactor가 구성되지 않은 경우 기본값은 검사 중에 최대 CPU 부하의 50% 제한입니다.
+>
+> 자세한 내용은 [configure-advanced-scan-types-microsoft-defender-antivirus 을 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus)
 
 ## <a name="restrict-app-execution"></a>앱 실행 제한
 
 악의적인 프로세스를 중지하여 공격을 포함하는 것 외에도 장치를 잠그고 잠재적인 악성 프로그램이 실행되지 않도록 할 수도 있습니다.
 
->[!IMPORTANT]
+> [!IMPORTANT]
+>
 > - 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
 > - 이 기능은 조직에서 이 기능을 사용하는 Microsoft Defender 바이러스 백신.
 > - 이 작업은 응용 프로그램 제어 Windows Defender 정책 형식 및 서명 요구 사항을 충족해야 합니다. 자세한 내용은 코드 무결성 정책 형식 및 [서명을 참조하세요.](/windows/device-security/device-guard/requirements-and-deployment-planning-guidelines-for-device-guard#code-integrity-policy-formats-and-signing)
 
 응용 프로그램의 실행을 제한하기 위해 Microsoft에서 발급한 인증서로 서명한 파일만 실행할 수 있는 코드 무결성 정책이 적용됩니다. 이 제한 방법은 공격자가 손상된 장치를 제어하고 추가 악의적인 활동을 수행하지 못하게 방지하는 데 도움이 될 수 있습니다.
 
->[!NOTE]
->응용 프로그램 제한을 다시 실행하지 못하게 할 수 있습니다. 디바이스 페이지의 단추가 앱 제한 제거로 변경된 다음 앱 실행을 제한하는 단계와 동일한 단계를 수행합니다.
+> [!NOTE]
+> 응용 프로그램 제한을 다시 실행하지 못하게 할 수 있습니다. 디바이스 페이지의 단추가 앱 제한 제거로 변경된 다음 앱 실행을 제한하는 단계와 동일한 단계를 수행합니다.
 
 디바이스 페이지에서  앱 실행 제한을 선택한 후 설명을 입력하고 확인 을 **선택합니다.** 작업 센터에 검사 정보가 표시될 것입니다. 장치 타임라인에는 새 이벤트가 포함됩니다.
 
 ![앱 제한 알림 이미지](images/restrict-app-execution.png)
 
-**장치 사용자에 대한 알림**:</br>
+### <a name="notification-on-device-user"></a>장치 사용자에 대한 알림
+
 앱이 제한되면 사용자에게 앱이 실행되지 못하도록 제한되고 있는 것을 알리기 위해 다음 알림이 표시됩니다.
 
 ![앱 제한 이미지](images/atp-app-restriction.png)
@@ -163,26 +175,28 @@ ms.locfileid: "52844052"
 
 공격의 심각도 및 장치의 민감도에 따라 네트워크에서 장치를 격리할 수 있습니다. 이 작업은 공격자가 손상된 장치를 제어하고 데이터 유출 및 측면 이동과 같은 추가 작업을 수행하지 못하게 방지하는 데 도움이 될 수 있습니다.
 
->[!IMPORTANT]
->- 버전 1703의 장치에서는 Windows 10 수 있습니다.
->- 선택적 고리는 버전 1709 이상에서 Windows 10 디바이스에 사용할 수 있습니다.
->- 장치를 고지할 때 특정 프로세스 및 대상만 허용됩니다. 따라서 장치가 격리된 후 전체 VPN 터널 뒤에 있는 장치는 끝점용 Microsoft Defender 클라우드 서비스에 도달할 수 없습니다. Microsoft Defender for Endpoint 및 클라우드 기반 보호 관련 트래픽에 Microsoft Defender 바이러스 백신 분할 터널링 VPN을 사용하는 것이 좋습니다.
+> [!IMPORTANT]
+>
+> - 버전 1703의 장치에서는 Windows 10 수 있습니다.
+> - 선택적 고리는 버전 1709 이상에서 Windows 10 디바이스에 사용할 수 있습니다.
+> - 장치를 고지할 때 특정 프로세스 및 대상만 허용됩니다. 따라서 장치가 격리된 후 전체 VPN 터널 뒤에 있는 장치는 끝점용 Microsoft Defender 클라우드 서비스에 도달할 수 없습니다. Microsoft Defender for Endpoint 및 클라우드 기반 보호 관련 트래픽에 Microsoft Defender 바이러스 백신 분할 터널링 VPN을 사용하는 것이 좋습니다.
 
 이 장치 분리 기능은 손상된 디바이스를 네트워크에서 분리하는 동시에 디바이스를 계속 모니터링하는 Endpoint용 Defender 서비스에 대한 연결을 유지 관리합니다.
 
 버전 Windows 10 버전 1709 이상에서 네트워크 고리 수준을 추가로 제어할 수 있습니다. 또한 연결, Outlook, Microsoft Teams 및 비즈니스용 Skype('선택적 고리')를 사용하도록 선택할 수도 있습니다.
 
->[!NOTE]
->디바이스를 네트워크에 다시 연결할 수 있습니다. 디바이스 페이지의 단추가 해제 해제로 변경된 후 장치를 해제하는 단계와 동일한 단계를 수행합니다. 
+> [!NOTE]
+> 디바이스를 네트워크에 다시 연결할 수 있습니다. 디바이스 페이지의 단추가 해제 해제로 변경된 후 장치를 해제하는 단계와 동일한 단계를 수행합니다. 
 
 장치 페이지에서 **장치** 격리를 선택한 후 설명을 입력하고 확인 을 **선택합니다.** 작업 센터에 검사 정보가 표시될 것입니다. 장치 타임라인에는 새 이벤트가 포함됩니다.
 
 ![장치 격리 이미지](images/isolate-device.png)
 
->[!NOTE]
->디바이스가 네트워크에서 격리된 경우에도 끝점용 Defender 서비스에 계속 연결됩니다. Outlook 및 비즈니스용 Skype 통신을 사용하도록 선택한 경우 장치가 격리된 동안 사용자에게 통신할 수 있습니다.
+> [!NOTE]
+> 디바이스가 네트워크에서 격리된 경우에도 끝점용 Defender 서비스에 계속 연결됩니다. Outlook 및 비즈니스용 Skype 통신을 사용하도록 선택한 경우 장치가 격리된 동안 사용자에게 통신할 수 있습니다.
 
-**장치 사용자에 대한 알림**:</br>
+### <a name="notification-on-device-user"></a>장치 사용자에 대한 알림
+
 장치가 격리 중이면 디바이스가 네트워크에서 격리되고 있는 것을 사용자에게 알리기 위해 다음 알림이 표시됩니다.
 
 ![네트워크 연결 없음 이미지](images/atp-notification-isolate.png)
@@ -192,7 +206,6 @@ ms.locfileid: "52844052"
 잠재적으로 손상된 장치 또는 이미 손상된 장치와 관련한 자세한 정보를 Microsoft 위협 전문가에게 문의할 수 있습니다. Microsoft 위협 전문가 정확한 응답을 위해 Microsoft Defender 보안 센터 내에서 직접 사용할 수 있습니다. 전문가는 잠재적으로 손상된 장치에 대한 정보 뿐만 아니라 복잡한 위협, 사용자가 수신하는 대상이 지정한 공격 알림 또는 알림에 대한 추가 정보가 필요한 경우 또는 포털 대시보드에서 볼 수 있는 위협 인텔리전스 컨텍스트를 보다 잘 이해하기 위해 정보를 제공합니다.
 
 자세한 [내용은 Microsoft Threat Expert를](/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) 참조합니다.
-
 
 ## <a name="check-activity-details-in-action-center"></a>알림 센터에서 활동 세부 정보 확인
 
@@ -208,5 +221,6 @@ ms.locfileid: "52844052"
 ![정보가 있는 센터 이미지](images/action-center-details.png)
 
 ## <a name="related-topic"></a>관련 항목
+
 - [파일에 대해 대응 조치 실행](respond-file-alerts.md)
 - [부정확성 보고](/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)

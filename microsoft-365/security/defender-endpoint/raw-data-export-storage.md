@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c280baaf3af6f9fcac6059bc2797910eb6c226fd
-ms.sourcegitcommit: f0118e61e490496cb23189cc5c73b23e2ba939be
+ms.custom: api
+ms.openlocfilehash: b914f0db277f92d56b651aa23f840865f029fd7e
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52780180"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623099"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 헌팅 이벤트를 사용자 계정으로 스트리밍하도록 끝점에 대한 Microsoft Defender Storage 구성
 
@@ -31,7 +32,7 @@ ms.locfileid: "52780180"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 

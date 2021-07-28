@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: d58fc87d16bb58199c95933d85752008a08a0e81
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: d5152940bee3637352d61fea6f251144644ca3ae
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879729"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621910"
 ---
 #  <a name="get-live-response-results"></a>라이브 응답 결과 얻기
 
@@ -37,7 +37,7 @@ ms.locfileid: "52879729"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -49,16 +49,16 @@ ms.locfileid: "52879729"
 
 ## <a name="limitations"></a>제한 사항
 
-1.  이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
+1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
 ## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
-| 사용 권한 유형                    | 사용 권한           | 사용 권한 표시 이름                   |
-|------------------------------------|----------------------|-------------------------------------------|
-| 응용 프로그램                        | Machine.LiveResponse | 특정 컴퓨터의 실시간 응답 실행 |
-| 위임(직장 또는 학교 계정) | Machine.LiveResponse | 특정 컴퓨터의 실시간 응답 실행 |
+|사용 권한 유형|사용 권한|사용 권한 표시 이름|
+|---|---|---|
+|응용 프로그램|Machine.LiveResponse|특정 컴퓨터의 실시간 응답 실행|
+|위임(직장 또는 학교 계정)|Machine.LiveResponse|특정 컴퓨터의 실시간 응답 실행|
 
 ## <a name="http-request"></a>HTTP 요청
 
@@ -69,9 +69,9 @@ id}/GetLiveResponseResultDownloadLink(index={command-index})
 
 ## <a name="request-headers"></a>요청 헤더
 
-| 이름      | 유형 | 설명               |
-|---------------|----------|-------------------------------|
-| 권한 부여 | String   | Bearer {token}. 필수 특성입니다. |
+|이름|유형|설명|
+|---|---|---|
+|권한 부여|String|Bearer {token}. 필수 특성입니다.|
 
 ## <a name="request-body"></a>요청 본문
 
@@ -83,25 +83,24 @@ id}/GetLiveResponseResultDownloadLink(index={command-index})
 
 *런스크립트 전사 속성:*
 
-| 속성  | 설명                       |
-|---------------|---------------------------------------|
-| name          | 실행된 스크립트 이름                  |
-| exit_code     | 실행된 스크립트 종료 코드             |
-| script_output | 실행된 스크립트 표준 출력       |
-| script_error  | 실행된 스크립트 표준 오류 출력 |
+|속성|설명|
+|---|---|
+|name|실행된 스크립트 이름|
+|exit_code|실행된 스크립트 종료 코드|
+|script_output|실행된 스크립트 표준 출력|
+|script_error|실행된 스크립트 표준 오류 출력|
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
-**요청**
+### <a name="request-example"></a>요청 예제
 
 다음은 요청의 예입니다.
 
 ```HTTP
-GET
-https://api.securitycenter.microsoft.com/api/machineactions/988cc94e-7a8f-4b28-ab65-54970c5d5018/GetLiveResponseResultDownloadLink(index=0)
+GET https://api.securitycenter.microsoft.com/api/machineactions/988cc94e-7a8f-4b28-ab65-54970c5d5018/GetLiveResponseResultDownloadLink(index=0)
 ```
 
-**응답**
+### <a name="response-example"></a>응답 예제
 
 다음은 응답의 예입니다.
 
@@ -116,7 +115,7 @@ HTTP/1.1 200 Ok
 }
 ```
 
-*파일 콘텐츠:* 
+*파일 콘텐츠:*
 
 ```JSON
 {
@@ -132,4 +131,4 @@ C:\\windows\\TEMP\\OfficeClickToRun.dmp.zip\n51 MB\n\u0000\u0000\u0000",
 
 - [컴퓨터 작업 API를 얻습니다.](get-machineaction-object.md)
 - [컴퓨터 작업 취소](cancel-machine-action.md)
-- [라이브 응답 실행](run-live-response.md) 
+- [실시간 응답 실행](run-live-response.md) 

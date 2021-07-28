@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9b10659f76e5b05bea11f5c6c55ca7c2a34a2db5
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 1d421de1bcdc926fa05fae626c0474d2dce54e41
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772164"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621874"
 ---
 # <a name="list-exposed-devices-of-one-remediation-activity"></a>한 번의 수정 작업이 있는 노출된 장치 목록
 
@@ -32,7 +32,7 @@ ms.locfileid: "52772164"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
@@ -54,21 +54,21 @@ ms.locfileid: "52772164"
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API for details을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 | RemediationTask.Read.All | \'위협 및 취약성 관리 취약성 정보 읽기\'
-위임(직장 또는 학교 계정) | RemediationTask.Read.Read | \'위협 및 취약성 관리 취약성 정보 읽기\'
+응용 프로그램|RemediationTask.Read.All|\'위협 및 취약성 관리 취약성 정보 읽기\'
+위임(직장 또는 학교 계정)|RemediationTask.Read.Read|\'위협 및 취약성 관리 취약성 정보 읽기\'
 
 ## <a name="properties-details"></a>속성 세부 정보
 
-속성(id) | 데이터 형식 | 설명 | 예제
+속성(id)|데이터 형식|설명|예제
 :---|:---|:---|:---
-id | String | 장치 ID | w2957837fwda8w9ae7f023dba081059dw8d94503
-computerDnsName | String | 장치 이름 | PC-SRV2012R2Foo.UserNameVldNet.local
-osPlatform | String | 장치 운영 체제 | WindowsServer2012R2
-rbacGroupName | String | 이 장치가 연결된 장치 그룹의 이름입니다. | 서버
+id|String|장치 ID|w2957837fwda8w9ae7f023dba081059dw8d94503
+computerDnsName|String|장치 이름|PC-SRV2012R2Foo.UserNameVldNet.local
+osPlatform|String|장치 운영 체제|WindowsServer2012R2
+rbacGroupName|String|이 장치가 연결된 장치 그룹의 이름입니다.|서버
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 ### <a name="request-example"></a>요청 예제
 
@@ -117,11 +117,7 @@ GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-ae
 ## <a name="see-also"></a>참고 항목
 
 - [수정 방법 및 속성](get-remediation-methods-properties.md)
-
 - [ID로 수정 작업 1개 가져오기](get-remediation-one-activity.md)
-
 - [모든 수정 작업 나열s](get-remediation-all-activities.md)
-
 - [위험 기반 위협 & 취약성 관리](next-gen-threat-and-vuln-mgt.md)
-
 - [조직의 취약성](tvm-weaknesses.md)

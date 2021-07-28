@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 054db1766cdab3aa5b49da4940dcdddfe6086434
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: fa7d8f267b42e54addec70823f24440147372d3d
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770688"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623915"
 ---
 # <a name="get-package-sas-uri-api"></a>패키지 SAS URI API를 얻습니다.
 
@@ -29,7 +29,7 @@ ms.locfileid: "52770688"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -40,17 +40,19 @@ ms.locfileid: "52770688"
 
 
 ## <a name="permissions"></a>사용 권한
+
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API용 Microsoft Defender 액세스를 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Machine.CollectForensics |  '포렌식 수집'
-위임(직장 또는 학교 계정) | Machine.CollectForensics | '포렌식 수집'
+응용 프로그램|Machine.CollectForensics|'포렌식 수집'
+위임(직장 또는 학교 계정)|Machine.CollectForensics|'포렌식 수집'
 
->[!Note]
+> [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
->- 사용자에게 최소한 '경고 조사'와 같은 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
->- 사용자는 장치 그룹 설정에 따라 장치에 액세스할 수 있습니다(자세한 내용은 장치 그룹 만들기 및 [관리](machine-groups.md) 참조).
+>
+> - 사용자에게 최소한 '경고 조사'와 같은 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
+> - 사용자는 장치 그룹 설정에 따라 장치에 액세스할 수 있습니다(자세한 내용은 장치 그룹 만들기 및 [관리](machine-groups.md) 참조).
 
 ## <a name="http-request"></a>HTTP 요청
 
@@ -60,10 +62,9 @@ GET https://api.securitycenter.microsoft.com/api/machineactions/{machine action 
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
-
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -73,23 +74,21 @@ GET https://api.securitycenter.microsoft.com/api/machineactions/{machine action 
 
 성공하면 이 메서드는 "value" 매개 변수에 패키지에 대한 링크를 보유하는 개체가 있는 200, 확인 응답 코드를 반환합니다. 이 링크는 매우 짧은 시간 동안 유효하며 로컬 저장소에 패키지를 다운로드하는 데 즉시 사용해야 합니다.
 
+## <a name="example"></a>예제
 
-## <a name="example"></a>예시
-
-**요청**
+### <a name="request-example"></a>요청 예제
 
 다음은 요청의 예입니다.
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/machineactions/7327b54fd718525cbca07dacde913b5ac3c85673/GetPackageUri
-
 ```
 
-**응답**
+### <a name="response-example"></a>응답 예제
 
 다음은 응답의 예입니다.
 
-```http
+```json
 HTTP/1.1 200 Ok
 Content-type: application/json
 

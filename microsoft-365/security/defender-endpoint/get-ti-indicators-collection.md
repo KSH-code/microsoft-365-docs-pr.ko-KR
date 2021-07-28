@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: d9ec8610957af0bc7741848e7c7bd4fe850f5e32
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: a94c9e45fca9e7e5be2dde04d48267fb1c453999
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770430"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624287"
 ---
 # <a name="list-indicators-api"></a>목록 표시기 API
 
@@ -29,69 +29,74 @@ ms.locfileid: "52770430"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 ## <a name="api-description"></a>API 설명
-모든 활성 표시기 [컬렉션을 검색합니다.](ti-indicator.md)
-<br>[OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
-<br>OData의 쿼리는 ```$filter``` , , , 및 ```indicatorValue``` ```indicatorType``` ```creationTimeDateTimeUtc``` ```createdBy``` ```action``` 속성에서 ```severity``` 지원됩니다.
-<br>[끝점용 Microsoft Defender를 사용하여 OData 쿼리 예제 보기](exposed-apis-odata-samples.md)
 
+모든 활성 표시기 [컬렉션을 검색합니다.](ti-indicator.md)
+
+[OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
+
+OData의 쿼리는 `$filter` , , , 및 `indicatorValue` `indicatorType` `creationTimeDateTimeUtc` `createdBy` `action` 속성에서 `severity` 지원됩니다.
+
+[끝점용 Microsoft Defender를 사용하여 OData 쿼리 예제 보기](exposed-apis-odata-samples.md)
 
 ## <a name="limitations"></a>제한 사항
+
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다. 
 
-
 ## <a name="permissions"></a>사용 권한
+
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Ti.ReadWrite |  '읽기 및 쓰기 표시기'
-응용 프로그램 |   Ti.ReadWrite.All |  '모든 지표 읽기 및 쓰기'
-위임(직장 또는 학교 계정) |    Ti.ReadWrite |  '읽기 및 쓰기 표시기'
+응용 프로그램|Ti.ReadWrite|'읽기 및 쓰기 표시기'
+응용 프로그램|Ti.ReadWrite.All|'모든 지표 읽기 및 쓰기'
+위임(직장 또는 학교 계정)|Ti.ReadWrite|'읽기 및 쓰기 표시기'
 
 ## <a name="http-request"></a>HTTP 요청
-```
+
+```http
 GET https://api.securitycenter.microsoft.com/api/indicators
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
-
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
+
 비어 있음
 
 ## <a name="response"></a>응답
+
 성공하면 이 메서드는 표시기 엔터티 컬렉션이 있는 200, 확인 응답 [코드를](ti-indicator.md) 반환합니다.
 
->[!Note]
+> [!NOTE]
 > 응용 프로그램에 'Ti.ReadWrite.All' 권한이 있는 경우 모든 지표에 노출됩니다. 그렇지 않으면 만든 표시기에만 노출됩니다.
 
-## <a name="example-1"></a>예제 1:
+## <a name="example-1"></a>예 1
 
-**요청**
+### <a name="example-1-request"></a>예제 1 요청
 
 다음은 모든 지표를 나타내는 요청의 예입니다.
 
-```
+```http
 GET https://api.securitycenter.microsoft.com/api/indicators
 ```
 
-**응답**
+### <a name="example-1-response"></a>예제 1 응답
 
 다음은 응답의 예입니다.
 
-```
+```json
 HTTP/1.1 200 Ok
 Content-type: application/json
 {
@@ -140,21 +145,21 @@ Content-type: application/json
 }
 ```
 
-## <a name="example-2"></a>예제 2:
+## <a name="example-2"></a>예 2
 
-**요청**
+### <a name="example-2-request"></a>예제 2 요청
 
 다음은 'AlertAndBlock' 작업이 있는 모든 지표를 나타내는 요청의 예입니다. 
 
-```
+```http
 GET https://api.securitycenter.microsoft.com/api/indicators?$filter=action+eq+'AlertAndBlock'
 ```
 
-**응답**
+### <a name="example-2-response"></a>예제 2 응답
 
 다음은 응답의 예입니다.
 
-```
+```json
 HTTP/1.1 200 Ok
 Content-type: application/json
 {

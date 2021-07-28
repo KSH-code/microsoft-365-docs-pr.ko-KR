@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1c5b8fa6e0f1fd887c857bd4e6451a5e59b708af
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 352cce0e1342471a39c217c397d1af230b36fddd
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198544"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624383"
 ---
 # <a name="get-user-information-api"></a>사용자 정보 얻기 API
 
@@ -27,53 +27,55 @@ ms.locfileid: "51198544"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 키(사용자 이름)를 사용하여 사용자 엔터티를 검색합니다.
 
 ## <a name="permissions"></a>사용 권한
+
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   User.Read.All | '모든 사용자 프로필 읽기'
+응용 프로그램|User.Read.All|'모든 사용자 프로필 읽기'
 
 ## <a name="http-request"></a>HTTP 요청
-```
+
+```http
 GET /api/users/{id}/
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
 권한 부여 | String | Bearer {token}. **필수입니다**.
 
-
 ## <a name="request-body"></a>요청 본문
+
 비어 있음
 
 ## <a name="response"></a>응답
+
 성공적이고 사용자가 있는 경우 - [](user.md) 본문에 사용자 엔터티가 있는 200 OK. 사용자가 존재하지 않는 경우 - 404 찾을 수 없습니다.
 
+## <a name="example"></a>예제
 
-## <a name="example"></a>예시
-
-**요청**
+### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 
-```
+```http
 GET https://api.securitycenter.microsoft.com/api/users/user1
 Content-type: application/json
 ```
 
-**응답**
+### <a name="response-example"></a>응답 예제
 
 다음은 응답의 예입니다.
 

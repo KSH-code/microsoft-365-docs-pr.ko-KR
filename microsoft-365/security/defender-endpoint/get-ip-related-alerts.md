@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a12ae502702b7fc9f69b01cd67857003258c20f2
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 73ad84587394f5b2748e3cb5f543852cc4cee4fb
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770127"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622955"
 ---
 # <a name="get-ip-related-alerts-api"></a>IP 관련 알림 API를 얻습니다.
 
@@ -31,7 +31,7 @@ ms.locfileid: "52770127"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -46,42 +46,45 @@ ms.locfileid: "52770127"
 
 
 ## <a name="permissions"></a>사용 권한
+
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 끝점 API에 [Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Alert.Read.All |    '모든 경고 읽기'
-응용 프로그램 |   Alert.ReadWrite.All |   '모든 경고 읽기 및 쓰기'
+응용 프로그램|Alert.Read.All|'모든 경고 읽기'
+응용 프로그램|Alert.ReadWrite.All|'모든 경고 읽기 및 쓰기'
 위임(직장 또는 학교 계정) | Alert.Read | '경고 읽기'
 위임(직장 또는 학교 계정) | Alert.ReadWrite | '경고 읽기 및 쓰기'
 
->[!Note]
+> [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
->- 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
+>
+> - 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
 >- 응답에는 장치 그룹 설정에 따라 사용자가 액세스할 수 있는 알림만 포함됩니다(자세한 내용은 장치 그룹 [만들기](machine-groups.md) 및 관리 참조).
 
 ## <a name="http-request"></a>HTTP 요청
-```
+
+```http
 GET /api/ips/{ip}/alerts
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
 권한 부여 | String | Bearer {token}. **필수입니다**.
 
-
 ## <a name="request-body"></a>요청 본문
+
 비어 있음
 
 ## <a name="response"></a>응답
+
 성공 및 IP가 있는 경우 - 본문에 [](alerts.md) 경고 엔터티 목록이 있는 200 OK. IP가 없는 경우 - 404 찾을 수 없습니다.
 
+## <a name="example"></a>예제
 
-## <a name="example"></a>예시
-
-**요청**
+### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 

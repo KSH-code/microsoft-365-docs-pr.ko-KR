@@ -9,28 +9,16 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 4ac12c4ec340bd6bb73418dae75774198190094b
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: de608fa58d0267050b510ef8308d716b608f8e37
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544688"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624443"
 ---
 # <a name="preview-and-test-windows-11-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 사용하여 Windows 11 미리 보기 및 테스트
 
  사용자 환경 내에서 Windows 11 호환성 테스트 프로그램을 등록하고 참여하는 Microsoft Managed Desktop 방법 일반적으로 11 Windows 및 Microsoft Managed Desktop 자세한 내용은 Windows [11](../intro/win11-overview.md)및 Microsoft Managed Desktop. 
-
-## <a name="check-device-eligibility"></a>장치 자격 확인
-
-현재까지 장치 중 95% Microsoft Managed Desktop [11에](/windows/whats-new/windows-11-requirements)대한 자격 기준을 Windows 있습니다. 디바이스의 자격 상태에 대한 세부 정보를 요청할 수 Microsoft Managed Desktop. 요청을 제출하기 위해 다음 단계를 수행합니다.
-
-1. 서비스 엔지니어링 팀과 함께 새 서비스 Microsoft Managed Desktop 를 열 수 있습니다. 요청을 제출하는 방법에 대한 자세한 내용은 관리자 지원을 [참조하세요.](admin-support.md)
-2. 필드에 다음 값을 사용합니다.
-    - 제목: Windows 11 장치 자격
-    - 요청 유형: 정보 요청
-    - 범주: 장치
-    - 하위계정: 기타
-
 
 ## <a name="add-devices-to-the-windows-11-test-group"></a>Windows 11 테스트 그룹에 장치 추가
 

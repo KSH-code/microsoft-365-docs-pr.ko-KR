@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: ead0558bfff90c29ec8717fbb39876afda5c42af
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 430c43636e4db1eb6973b8d8059f53c044b9cb6e
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229458"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622907"
 ---
 # <a name="get-user-related-machines-api"></a>사용자 관련 컴퓨터 사용 API
 
@@ -31,7 +31,7 @@ ms.locfileid: "53229458"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
@@ -49,7 +49,7 @@ ms.locfileid: "53229458"
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |사용 권한|사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
 응용 프로그램 |Machine.Read.All|'모든 컴퓨터 프로필 읽기'
 응용 프로그램 |Machine.ReadWrite.All |'모든 컴퓨터 정보 읽기 및 쓰기'
@@ -72,9 +72,9 @@ GET /api/users/{id}/machines
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -84,7 +84,7 @@ GET /api/users/{id}/machines
 
 성공 및 사용자가 있는 경우 - 본문에 [](machine.md) 컴퓨터 엔터티 목록이 있는 200 OK. 사용자가 존재하지 않는 경우 - 404 찾을 수 없습니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 ### <a name="request"></a>요청
 

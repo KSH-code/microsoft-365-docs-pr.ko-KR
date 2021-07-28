@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: ba4f1b0e4b2e00334dbffb4bf0aa9edb1b8c5622
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: a95ab526d43e6eb243cb3de3a7b7c75e1e82b07f
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286924"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624203"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>관리 포털에서 관리자 연락처 추가 및 확인
 
@@ -22,17 +22,6 @@ Microsoft Managed Desktop 서비스가 고객과 소통하는 방법에는 여�
 
 > [!IMPORTANT]
 > 관리자 포털에서 이미 이 연락처를 추가했을 수 있습니다. 이 경우에는 심각한 문제가 발생할 경우 Microsoft Managed Desktop이 연락할 수 **있어야** 하기 때문에 연락처 목록이 정확한지 다시 한 번 확인하세요.
-
-## <a name="azure-active-directory-access-for-microsoft-managed-desktop-admin-portal"></a>Microsoft Managed Desktop 관리 포털에 대한 Azure Active Directory 액세스
-
-Microsoft Managed Desktop 관리 포털을 사용하려면 포털에 액세스 하는 사용자가 다음 Azure AD(Active Directory) 역할 중 하나를 보유해야 합니다.
-
-- 전역 관리자
-- Intune 서비스 관리자
-- 전역 읽기 권한자
-- 서비스 지원 관리자
-
-전역 관리자는 Microsoft Managed Desktop에 조직을 등록해야 합니다. 모든 5개 역할은 관리자 포털에서 동일한 액세스 권한을 가지며 작업을 시작하고 볼 수 있습니다. Azure AD에서 역할을 할당하는 방법에 대한 자세한 내용은 [Azure Active Directory에서 관리자 역할 사용 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)을 참조하세요.
 
 ## <a name="admin-contact-areas-of-focus"></a>관리자 연락처 포커스 영역
 

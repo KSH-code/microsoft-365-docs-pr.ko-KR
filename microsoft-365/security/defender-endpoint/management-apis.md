@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 471db75102eabd4d7fce14ec42d0a47562007aae
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: fc16297b8c5c61f1dc70a6eb2567cafe4dd2e67f
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229986"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624371"
 ---
 # <a name="overview-of-management-and-apis"></a>관리 및 API 개요
 
@@ -33,7 +33,7 @@ ms.locfileid: "53229986"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mgt-apis-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mgt-apis-abovefoldlink)
 
 
 Endpoint용 Defender는 고객이 플랫폼을 쉽게 채택할 수 있도록 다양한 옵션을 지원합니다.
@@ -68,7 +68,7 @@ Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와
 Endpoint용 Defender는 사용자 또는 SaaS 응용 프로그램의 컨텍스트에서 액세스를 허용하는 표준 Azure AD 기반 인증 및 권한 부여 모델을 통해 노출되는 구조화되어 명확하며 사용하기 쉬운 모델의 데이터와 기능을 노출하는 계층화된 API 모델을 제공합니다. API 모델은 엔터티와 기능을 일관된 형태로 표시하도록 디자인되었습니다.
 
 끝점 API용 Defender에 대한 간략한 개요는 이 비디오를 시청하세요.
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4d73M]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4d73M]
 
 조사 **API는** 계산된 또는 '프로필된' 엔터티(예: 장치, 사용자 및 파일)와 일반적으로 엔터티와 관련된 동작을 설명하는 불연결 이벤트(예: 프로세스 생성 및 파일 만들기)를 노출하여 쿼리 기반 데이터에 대한 액세스를 허용하는 조사 인터페이스를 통해 데이터에 액세스할 수 있도록 하는 엔드포인트용 Defender의 풍부한 기능을 노출합니다. 자세한 내용은 지원되는 [API를 참조하세요.](exposed-apis-list.md)
 

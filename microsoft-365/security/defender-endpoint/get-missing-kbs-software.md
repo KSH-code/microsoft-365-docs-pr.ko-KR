@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: bbb3e5dfe94d5efb026e21a4cbd94fac45f36594
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 963cc32a8fcf5022d5960d04309a50aaac7c5e45
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845225"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624107"
 ---
 # <a name="get-missing-kbs-by-software-id"></a>소프트웨어 ID로 누락된 KB 다운로드
 
@@ -29,7 +29,7 @@ ms.locfileid: "52845225"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -48,13 +48,13 @@ ms.locfileid: "52845225"
 
 ## <a name="http-request"></a>HTTP 요청
 
-```
+```http
 GET /api/Software/{Id}/getmissingkbs
 ```
 
 ## <a name="request-header"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
 권한 부여 | String | Bearer {token}. **필수입니다**.
 
@@ -66,13 +66,13 @@ GET /api/Software/{Id}/getmissingkbs
 
 성공하면 이 메서드는 지정된 소프트웨어에 본문에 kb 데이터가 누락된 200 OK를 반환합니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 ### <a name="request"></a>요청
 
 다음은 요청의 예입니다.
 
-```
+```http
 GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/getmissingkbs
 ```
 

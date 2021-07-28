@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 9c55ca17f4d0fe8cd5911e1d42d1b20588da28ef
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: d0dd39197835574a5982d50486026b713f71e8d5
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542590"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624191"
 ---
 # <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -36,7 +36,7 @@ ms.locfileid: "53542590"
 
 ## <a name="supported-operating-systems"></a>지원되는 운영 체제 
 
-이 표에서 참조되는 운영 체제 버전에 대한 링크는 아래 표에 나와 있습니다.
+다음 표에는 공격 표면 감소 규칙이 사전순으로 나열됩니다. 확인 표시는 해당 열에 나열된 운영 체제에서 규칙이 지원되는 경우를 나타냅니다.
 
 > [!Note]
 >
@@ -63,18 +63,6 @@ ms.locfileid: "53542590"
 |[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros) | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
 |[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware) | ![지원](images/checkmark.png) <br><br> 버전 1803 이상 | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
 | **규칙 이름** |  **&nbsp;Windows 10** | **&nbsp;Windows Server 2019** | **&nbsp;Windows 서버** | **&nbsp;Windows Server 2016** | **&nbsp;Windows Server 2012 R2** |
-
-### <a name="operating-system-version"></a>운영 체제 버전
-
-- [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 10 Pro 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 10 Enterprise 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 10, 버전 1809](/windows/whats-new/whats-new-windows-10-version-1809)
-
-- [Windows 서버, 버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 ## <a name="supported-configuration-management-systems"></a>지원되는 구성 관리 시스템
 
@@ -119,7 +107,7 @@ ms.locfileid: "53542590"
 >
 > PowerShell을 사용하여 이 규칙을 [구성할 수 있습니다.](enable-attack-surface-reduction.md#powershell)
 >
-> 드라이버를 검사하기 위해 이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출합니다.](https://www.microsoft.com/en-us/wdsi/driversubmission)
+> 드라이버를 검사하기 위해 이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출합니다.](https://www.microsoft.com/wdsi/driversubmission)
 
 Intune 이름: `Block abuse of exploited vulnerable signed drivers`
 

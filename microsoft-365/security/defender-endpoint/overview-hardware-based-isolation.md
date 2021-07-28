@@ -16,12 +16,12 @@ ms.topic: conceptual
 ms.author: macapara
 ms.date: 09/07/2018
 ms.technology: mde
-ms.openlocfilehash: b3babf858ac19e70119a2dc6a58b25359f1b05c1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 68a21e832ca81054411a6e3720921edaa6c9301e
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842989"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622811"
 ---
 # <a name="hardware-based-isolation-in-windows-10"></a>Windows 10의 하드웨어 기반 격리
 
@@ -31,7 +31,7 @@ ms.locfileid: "52842989"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 하드웨어 기반의 고르지 Windows 10 시스템 무결성을 보호하고 끝점용 Microsoft Defender와 통합됩니다. 

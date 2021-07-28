@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a73d40e7569f934580b28976b5278b2a972066aa
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 4b9fd7a450ffd52554751cac058a95c938f7ed79
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544604"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622779"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>끝점 미리 보기 기능용 Microsoft Defender
 
@@ -33,19 +33,18 @@ ms.locfileid: "53544604"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
-
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Endpoint용 Defender 서비스는 새로운 기능 향상 및 기능을 포함하기 위해 지속적으로 업데이트되고 있습니다.
 
 Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알아보고 미리 보기 환경을 켜서 예정된 기능을 처음 사용해 볼 수 있습니다.
 
->[!TIP]
->다음 URL을 복사하여 피드 읽기 페이지에 붙여 넣는 방법을 통해 이 페이지가 업데이트될 때 알림을 받을 수 있습니다. `/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
+> [!TIP]
+> 다음 URL을 복사하여 피드 읽기 페이지에 붙여 넣는 방법을 통해 이 페이지가 업데이트될 때 알림을 받을 수 있습니다. `/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
 
 일반적으로 사용할 수 있는 새로운 기능에 대한 자세한 내용은 [Endpoint용 Defender의](whats-new-in-microsoft-defender-atp.md)새로운 기능을 참조하세요.
 
- ## <a name="what-you-need-to-know"></a>알아야 할 것
+## <a name="what-you-need-to-know"></a>알아야 할 것
 
 공개 미리 보기에서 기능을 사용할 때 다음과 같은 기능을 사용할 수 있습니다.
 
@@ -55,8 +54,6 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 - 선택한 지리적 지역 또는 클라우드 환경에서만 사용할 수 있습니다. 예를 들어 이 기능은 정부 클라우드에 존재하지 않을 수 있습니다.
 - 미리 보기의 개별 기능에는 더 많은 사용 및 지원 제한이 있을 수 있습니다. 이 경우 이 정보는 일반적으로 기능 설명서에 기록됩니다.
 - 미리 보기 버전은 표준 지원 수준으로 제공될 수 있으며 프로덕션 환경에 사용할 수 있습니다. 
-
-
 
 ## <a name="turn-on-preview-features"></a>미리 보기 기능 설정
 
@@ -72,9 +69,13 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 
 미리 보기 릴리스에는 다음과 같은 기능이 포함되어 있습니다.
 
-- [웹 콘텐츠 필터링](web-content-filtering.md) <br> 웹 콘텐츠 필터링은 끝점용 Microsoft Defender의 웹 보호 기능의 일부입니다. 이를 통해 조직은 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 이러한 웹 사이트 중 상당수는 악의적이지 않은 경우 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 문제가 될 수 있습니다.
+- [웹 콘텐츠 필터링](web-content-filtering.md)
 
-- [디바이스 상태 및 규정 준수 보고서](machine-reports.md) <br/> 장치 상태 및 준수 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다.
+  웹 콘텐츠 필터링은 끝점용 Microsoft Defender의 웹 보호 기능의 일부입니다. 이를 통해 조직은 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 이러한 웹 사이트 중 상당수는 악의적이지 않은 경우 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 문제가 될 수 있습니다.
 
-> [!TIP] 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-belowfoldlink)  
+- [디바이스 상태 및 규정 준수 보고서](machine-reports.md)
+
+  장치 상태 및 준수 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다.
+
+> [!TIP]
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-belowfoldlink)  

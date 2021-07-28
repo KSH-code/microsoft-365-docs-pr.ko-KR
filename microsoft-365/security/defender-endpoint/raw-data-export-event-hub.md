@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8985a40c99ad4db9710dfbf9805d537a921f6c96
-ms.sourcegitcommit: f0118e61e490496cb23189cc5c73b23e2ba939be
+ms.custom: api
+ms.openlocfilehash: 814eea3a4c24b5706b288840436022a3cecaa6b1
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52780168"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623111"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Azure 이벤트 허브에 고급 헌팅 이벤트를 스트리밍하도록 끝점에 대한 Microsoft Defender 구성
 
@@ -32,7 +33,7 @@ ms.locfileid: "52780168"
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -54,7 +55,7 @@ ms.locfileid: "52780168"
 
 6. 이벤트 **허브** 이름 및 **이벤트 허브 리소스 ID를 입력합니다.**
 
-   이벤트 허브 리소스 **ID를** 얻기 위해 Azure > 속성 탭의 [Azure](https://ms.portal.azure.com/) 이벤트 허브 네임스페이스 페이지로 이동한 > 리소스 ID 아래 텍스트를 **복사합니다.**
+   이벤트 허브 리소스 **ID를** 얻기 위해 Azure > 속성 탭의 [Azure](https://ms.portal.azure.com/) 이벤트 허브 네임스페이스 페이지로 이동하여 리소스 ID 아래 텍스트를 \> **복사합니다.**
 
    ![이벤트 허브 리소스 Id1의 이미지](images/event-hub-resource-id.png)
 
@@ -62,7 +63,7 @@ ms.locfileid: "52780168"
 
 ## <a name="the-schema-of-the-events-in-azure-event-hubs"></a>Azure 이벤트 허브의 이벤트 스마마
 
-```
+```text
 {
     "records": [
                     {
@@ -91,18 +92,19 @@ ms.locfileid: "52780168"
 1. 로그인하여 [](https://securitycenter.windows.com) Microsoft Defender 보안 센터 [헌팅 페이지로 이동합니다.](https://securitycenter.windows.com/hunting-package)
 
 2. 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다.
- 
-   ```
+
+   ```text
    {EventType}
    | getschema
    | project ColumnName, ColumnType 
    ```
 
-- 장치 정보 이벤트의 예는 다음과 같습니다. 
+- 장치 정보 이벤트의 예는 다음과 같습니다.
 
   ![이벤트 허브 리소스 Id2의 이미지](images/machine-info-datatype-example.png)
 
 ## <a name="related-topics"></a>관련 항목
+
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [끝점 스트리밍 API용 Microsoft Defender](raw-data-export.md)
 - [Azure 저장소 계정으로 Endpoint용 Microsoft Defender 이벤트 스트림](raw-data-export-storage.md)

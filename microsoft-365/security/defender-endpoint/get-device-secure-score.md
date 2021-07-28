@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: dd9def688619b6079d947cb76069aa0f77d768de
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 927ba5934a95d20943397a778c74efa081501b3c
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772308"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623327"
 ---
 # <a name="get-device-secure-score"></a>장치 보안 점수 가져오기
 
@@ -33,35 +33,34 @@ ms.locfileid: "52772308"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
-장치에 [대한 Microsoft 보안 점수를 검색합니다.](tvm-microsoft-secure-score-devices.md) 장치에 대한 Microsoft 보안 점수가 높을수록 끝점이 사이버 보안 위협 공격으로부터 더 탄력적입니다. 
+장치에 [대한 Microsoft 보안 점수를 검색합니다.](tvm-microsoft-secure-score-devices.md) 장치에 대한 Microsoft 보안 점수가 높을수록 끝점이 사이버 보안 위협 공격으로부터 더 탄력적입니다.
 
 ## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Score.Read.Alll |   '위협 및 취약성 관리 점수 읽기'
-위임(직장 또는 학교 계정) | Score.Read | '위협 및 취약성 관리 점수 읽기'
+응용 프로그램|Score.Read.All|'위협 및 취약성 관리 점수 읽기'
+위임(직장 또는 학교 계정)|Score.Read|'위협 및 취약성 관리 점수 읽기'
 
 ## <a name="http-request"></a>HTTP 요청
 
-```
+```http
 GET /api/configurationScore
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -71,9 +70,9 @@ GET /api/configurationScore
 
 성공하면 이 메서드는 응답 본문에 장치 보안 점수 데이터를 사용하여 200 OK를 반환합니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
-### <a name="request"></a>요청
+### <a name="request-example"></a>요청 예제
 
 다음은 요청의 예입니다.
 
@@ -81,12 +80,12 @@ GET /api/configurationScore
 GET https://api.securitycenter.microsoft.com/api/configurationScore
 ```
 
-### <a name="response"></a>응답
+### <a name="response-example"></a>응답 예제
 
 다음은 응답의 예입니다.
 
->[!NOTE]
->여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다. 
+> [!NOTE]
+> 여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다.
 
 ```json
 {

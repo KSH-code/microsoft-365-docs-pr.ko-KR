@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 83a011e649a7289f62acd6a8d985f020b27b1e10
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 7a08ecd8b0086596e27a7accbadedf649a353ec2
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53290018"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621970"
 ---
 # <a name="file-resource-type"></a>파일 리소스 유형
 
@@ -30,7 +30,7 @@ ms.locfileid: "53290018"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -52,22 +52,22 @@ Defender for Endpoint의 파일 엔터티를 나타냅니다.
 
 |속성 | 유형 | 설명 |
 |:---|:---|:---|
-|sha1 | 문자열 | 파일 콘텐츠의 Sha1 해시 |
-|sha256 | 문자열 | 파일 콘텐츠의 Sha256 해시 |
+|sha1 | String | 파일 콘텐츠의 Sha1 해시 |
+|sha256 | String | 파일 콘텐츠의 Sha256 해시 |
 |globalPrevalence | Nullable long | 조직 전체의 파일 보전 |
 |globalFirstObserved | DateTimeOffset | 파일이 처음으로 관찰된 시간 |
 |globalLastObserved | DateTimeOffset | 파일이 마지막으로 관찰된 시간 |
 |size | Nullable long | 파일 크기 |
-|fileType | 문자열 | 파일 형식 |
+|fileType | String | 파일 형식 |
 |isPeFile | 부울 | true이면 파일이 이식 가능한 실행 파일(예: "DLL", "EXE" 등)입니다. |
-|filePublisher | 문자열 | 파일 게시자 |
-|fileProductName | 문자열 | 제품 이름 |
-|signer | 문자열 | 파일 서명자 |
-|발급자 | 문자열 | 파일 발급자 |
-|signerHash | 문자열 | 서명 인증서의 해시 |
+|filePublisher | String | 파일 게시자 |
+|fileProductName | String | 제품 이름 |
+|signer | String | 파일 서명자 |
+|발급자 | String | 파일 발급자 |
+|signerHash | String | 서명 인증서의 해시 |
 |isValidCertificate | 부울 | Microsoft Defender for Endpoint 에이전트에서 인증서 서명이 성공적으로 확인된 경우 |
-|determinationType | 문자열 | 파일의 결정 유형 |
-|determinationValue | 문자열 | 결정 값 |
+|determinationType | String | 파일의 결정 유형 |
+|determinationValue | String | 결정 값 |
 
 ## <a name="json-representation"></a>Json 표현
 

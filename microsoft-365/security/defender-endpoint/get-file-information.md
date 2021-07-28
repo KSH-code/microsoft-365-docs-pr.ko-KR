@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: b7877fb2d9b616b487d23befd0f0af35ce2c0753
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 2deccbfe66b7694248104c05cc5e0fdec1400a12
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770297"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624407"
 ---
 # <a name="get-file-information-api"></a>파일 정보 다운로드 API
 
@@ -31,55 +31,57 @@ ms.locfileid: "52770297"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 ## <a name="api-description"></a>API 설명
+
 식별자 [](files.md) Sha1 또는 Sha256으로 파일 검색
 
-
 ## <a name="limitations"></a>제한 사항
+
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-
 ## <a name="permissions"></a>사용 권한
-이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 Use [Microsoft Defender for Endpoint API을 참조합니다.](apis-intro.md)
+
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   File.Read.All | '모든 파일 프로필 읽기'
-위임(직장 또는 학교 계정) | File.Read.All |    '모든 파일 프로필 읽기'
+응용 프로그램|File.Read.All|'모든 파일 프로필 읽기'
+위임(직장 또는 학교 계정)|File.Read.All|'모든 파일 프로필 읽기'
 
->[!Note]
+> [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
->- 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
+>
+> - 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
 
 ## <a name="http-request"></a>HTTP 요청
-```
+
+```http
 GET /api/files/{id}
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
-
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
+
 비어 있음
 
 ## <a name="response"></a>응답
+
 성공적이고 파일이 있는 경우 - 본문에 파일 엔터티가 있는 200 OK. [](files.md) 파일이 없는 경우 - 404 찾을 수 없습니다.
 
+## <a name="example"></a>예제
 
-## <a name="example"></a>예시
-
-**요청**
+### <a name="request-example"></a>요청 예제
 
 다음은 요청의 예입니다.
 
@@ -87,10 +89,9 @@ GET /api/files/{id}
 GET https://api.securitycenter.microsoft.com/api/files/4388963aaa83afe2042a46a3c017ad50bdcdafb3
 ```
 
-**응답**
+### <a name="response-example"></a>응답 예제
 
 다음은 응답의 예입니다.
-
 
 ```json
 {

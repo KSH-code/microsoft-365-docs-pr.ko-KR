@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: 474b8f032d32668eaea3a477da013c2b8e74019b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: db213da7c1859c9f4c9871aea508b225fd9b7b44
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934168"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623159"
 ---
 # <a name="threat-and-vulnerability-management"></a>위협 및 취약점 관리
 
@@ -32,7 +32,7 @@ ms.locfileid: "51934168"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 끝점 약점을 효과적으로 식별, 평가 및 수정하는 것은 건전한 보안 프로그램을 실행하고 조직의 위험을 줄이는 데 중요합니다. 위협과 취약점 관리는 조직 노출을 줄이고, 엔드포인트 노출 영역을 강화하며, 조직 복원력을 높이는 인프라 역할을 합니다.
 
@@ -40,11 +40,11 @@ ms.locfileid: "51934168"
 
 이 비디오를 시청하여 자세한 위협 및 취약성 관리.
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4mLsn]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mLsn]
 
 ## <a name="bridging-the-workflow-gaps"></a>워크플로 간격 브리그링
 
-위협 및 취약성 관리 기본 제공, 실시간 및 클라우드가 지원됩니다. Microsoft 끝점 보안 스택, Microsoft 지능형 보안 Graph 및 응용 프로그램 분석 기술 자료와 완전히 통합되어 있습니다.  
+위협 및 취약성 관리 기본 제공, 실시간 및 클라우드가 지원됩니다. Microsoft 끝점 보안 스택, Microsoft 지능형 보안 Graph 및 응용 프로그램 분석 기술 자료와 완전히 통합되어 있습니다.
 
 취약점 관리는 재구성 프로세스 중에 보안 관리와 IT 관리 간의 격차를 해소하기 위한 업계 첫 번째 솔루션입니다. 보안 작업 및 티켓과 통합하여 보안 Microsoft Intune Microsoft Endpoint Configuration Manager.
 
@@ -54,10 +54,10 @@ ms.locfileid: "51934168"
 
 또한 다음을 제공 합니다.
 
-- **실시간 장치 인벤토리** - Endpoint용 Defender에 온보딩된 장치는 취약점 및 보안 구성 데이터를 대시보드에 자동으로 보고하고 푸시합니다.
-- **소프트웨어 및** 취약점에 대한 가시성 - 조직의 소프트웨어 인벤토리에 대한 광학, 설치, 제거 및 패치와 같은 소프트웨어 변경 새로 발견된 취약성은 제1 및 제3자 응용 프로그램에 대한 실행 가능한 완화 권장 사항으로 보고됩니다.
-- **응용 프로그램 런타임 컨텍스트** - 더 나은 우선 순위 지정 및 의사 결정에 대한 응용 프로그램 사용 패턴 표시
-- **구성 상태** - 조직 보안 구성 또는 잘못 구성을 가시성합니다. 실행 가능한 보안 권장 사항을 사용하여 대시보드에 문제가 보고됩니다.
+- **실시간 디바이스 인벤토리** - 엔드포인트용 Defender에 온보딩된 디바이스는 취약성 및 보안 구성 데이터를 대시보드에 자동으로 보고하고 푸시합니다.
+- **소프트웨어 및 취약성에 대한 가시성** - 조직의 소프트웨어 인벤토리와 설치, 제거 및 패치와 같은 소프트웨어 변경 사항을 파악합니다. 새로 발견된 취약성은 Microsoft와 타사 응용 프로그램에 대한 실행 가능한 완화 권장 사항과 함께 보고됩니다.
+- **응용 프로그램 런타임 컨텍스트** - 우선 순위 지정 및 의사 결정을 향상하기 위한 애플리케이션 사용 패턴을 파악합니다.
+- **구성 상태** - 조직 보안 구성 또는 잘못된 구성을 파악합니다. 문제는 실행 가능한 보안 권장 사항과 함께 대시보드에 보고됩니다.
 
 ### <a name="intelligence-driven-prioritization"></a>인텔리전스 기반 우선 순위 지정
 

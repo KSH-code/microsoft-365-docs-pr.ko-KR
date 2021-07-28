@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: cd3b1343711a5bed9ad606a6b8dc754f223ed279
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: fffe4332b0c84feae54fbed4f21542cfb95eb1a5
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430783"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623315"
 ---
 # <a name="get-discovered-vulnerabilities"></a>발견된 취약성 가져오기
 
@@ -31,7 +31,7 @@ ms.locfileid: "53430783"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -54,15 +54,15 @@ ms.locfileid: "53430783"
 
 ## <a name="http-request"></a>HTTP 요청
 
-```
+```http
 GET /api/machines/{machineId}/vulnerabilities
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

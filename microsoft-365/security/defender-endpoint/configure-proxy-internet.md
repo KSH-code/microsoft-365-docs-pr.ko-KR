@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6a3bbc46bb5859743d5170451b0d1c68793f93bf
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: caefcd7ce19073a10139a9f4d6d84c49e93c392f
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53338724"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623351"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
@@ -32,7 +32,7 @@ ms.locfileid: "53338724"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-configureendpointsscript-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-configureendpointsscript-abovefoldlink)
 
 Endpoint용 Defender 센서를 사용하려면 Microsoft WinHTTP(Windows HTTP)가 센서 데이터를 보고하고 Endpoint용 Defender 서비스와 통신해야 합니다.
 
@@ -44,9 +44,7 @@ Endpoint용 Defender 센서를 사용하려면 Microsoft WinHTTP(Windows HTTP)�
 WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 설정과는 독립적이며 다음 검색 방법을 사용하여 프록시 서버를 검색할 수만 있습니다.
 
 - 자동 검색 방법:
-
   - 투명한 프록시
-
   - WPAD(웹 프록시 자동 검색) 프로토콜
 
     > [!NOTE]
@@ -55,8 +53,7 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 �
 - 수동 정적 프록시 구성:
 
   - 레지스트리 기반 구성
-
-  - netsh 명령을 사용하여 구성된 WinHTTP – 안정적인 토폴로지의 데스크톱에만 적합합니다(예: 동일한 프록시 뒤에 있는 회사 네트워크의 데스크톱).
+  - netsh 명령을 사용하여 구성된 WinHTTP: 안정적인 토폴로지의 데스크톱에만 적합합니다(예: 같은 프록시 뒤에 있는 회사 네트워크의 데스크톱).
 
 ## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>레지스트리 기반 정적 프록시를 사용하여 프록시 서버를 수동으로 구성합니다.
 
@@ -65,10 +62,10 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 �
 > [!NOTE]
 > Windows 10 또는 Windows Server 2019에서 이 옵션을 사용하는 경우 다음(이상) 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.
 >
-> - Windows 10, 버전 1809 Windows Server 2019 -https://support.microsoft.com/kb/5001384
-> - Windows 10 버전 1909 -https://support.microsoft.com/kb/4601380
-> - Windows 10 버전 2004 -https://support.microsoft.com/kb/4601382
-> - Windows 10 버전 20H2 -https://support.microsoft.com/kb/4601382
+> - Windows 10, 버전 1809 Windows Server 2019 -<https://support.microsoft.com/kb/5001384>
+> - Windows 10 버전 1909 -<https://support.microsoft.com/kb/4601380>
+> - Windows 10 버전 2004 -<https://support.microsoft.com/kb/4601382>
+> - Windows 10 버전 20H2 -<https://support.microsoft.com/kb/4601382>
 >
 > 이러한 업데이트는 CnC(명령 및 제어) 채널의 연결 및 안정성을 향상시킵니다.
 
@@ -108,9 +105,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 > - 토폴로지(예: 사무실에서 집으로)를 변경하는 랩톱이 netsh로 오작동합니다. 레지스트리 기반 정적 프록시 구성을 사용합니다.
 
 1. 승격된 명령줄을 엽니다.
-
    1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
-
    1. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
 2. 다음 명령을 입력하고 **Enter** 를 누릅니다.
@@ -135,9 +130,13 @@ netsh winhttp reset proxy
 
 다음 다운로드 가능한 스프레드시트에는 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 또는 해당 URL에 대한 허용 규칙을 만들어야 할 수도 있습니다. 
 
-| 도메인 목록의 스프레드시트 | 설명 |
-|:-----|:-----|
-|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)<br/>  | 서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <br><br>[여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
+<br>
+
+**** 
+|도메인 목록의 스프레드시트|설명|
+|---|---|
+|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> [여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)|
+|
 
 프록시 또는 방화벽에 HTTPS 검색(SSL 검사)이 활성화된 경우 위의 표에 나열된 도메인을 HTTPS 검색에서 제외합니다.
 
@@ -154,12 +153,16 @@ netsh winhttp reset proxy
 
 아래 정보에는 Windows 7 SP1, Windows 8.1, Windows Server 2008 R2, Windows Server 2012 R2 및 이전 버전의 Windows 버전에 대한 Log Analytics 에이전트(Microsoft Monitoring Agent라고도임)와 통신하는 데 필요한 프록시 및 방화벽 구성 정보가 Windows Server 2016.
 
-|에이전트 리소스|포트 |방향 |HTTP 검사 바이패스|
-|------|---------|--------|--------|
-|*.ods.opinsights.azure.com |포트 443 |아웃바운드|예 |  
-|*.oms.opinsights.azure.com |포트 443 |아웃바운드|예 |  
-|*.blob.core.windows.net |포트 443 |아웃바운드|예 |
-|*.azure-automation.net |포트 443 |아웃바운드|예 |  
+<br>
+
+****
+
+|에이전트 리소스|포트|방향|HTTP 검사 바이패스|
+|---|---|---|---|
+|*.ods.opinsights.azure.com|포트 443|아웃바운드|예|
+|*.oms.opinsights.azure.com|포트 443|아웃바운드|예|
+|*.blob.core.windows.net|포트 443|아웃바운드|예|
+|*.azure-automation.net|포트 443|아웃바운드|예|
 
 > [!NOTE]
 > 클라우드 기반 솔루션으로 IP 범위는 변경될 수 있습니다. DNS 확인할 수 있는 설정으로 이동하는 것이 좋습니다.
@@ -189,33 +192,31 @@ netsh winhttp reset proxy
 
 프록시 구성이 성공적으로 완료되었는지 확인합니다. WinHTTP는 사용자 환경의 프록시 서버를 통해 검색할 수 있으며 프록시 서버가 엔드포인트용 Defender 서비스 URL에 대한 트래픽을 허용하는지 여부를 확인할 수 있습니다.
 
-1. 끝점용 Defender 센서가 실행되는 PC에 [MDATP](https://aka.ms/mdatpanalyzer) 클라이언트 분석기 도구를 다운로드합니다.
+1. Endpoint용 Defender 센서가 실행되는 PC에 [Micrsofot Defender for Endpoint](https://aka.ms/mdeanalyzer) 클라이언트 분석기 도구를 다운로드합니다.
 
-2. 장치에서 MDATPC Client Analyzer.zip의 내용을 추출합니다.
+2. 디바이스에서 콘텐츠 MDEClientAnalyzer.zip 추출합니다.
 
 3. 승격된 명령줄을 엽니다.
-
    1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
-
    1. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
 4. 다음 명령을 입력하고 **Enter** 를 누릅니다.
 
     ```PowerShell
-    HardDrivePath\MDATPClientAnalyzer.cmd
+    HardDrivePath\MDEClientAnalyzer.cmd
     ```
 
-    *HardDrivePath를* MDATPClientAnalyzer 도구가 다운로드된 경로로 대체합니다. 예를 들면 다음과 같습니다.
+    *HardDrivePath를* MDEClientAnalyzer 도구가 다운로드된 경로로 바 대체합니다. 예를 들면 다음과 같습니다.
 
     ```PowerShell
-    C:\Work\tools\MDATPClientAnalyzer\MDATPClientAnalyzer.cmd
+    C:\Work\tools\MDEClientAnalyzer\MDEClientAnalyzer.cmd
     ```
 
-5. *HardDrivePath에서* *MDATPClientAnalyzerResult.zip* 도구로 만든 파일 추출
+5. *HardDrivePath에서* *MDEClientAnalyzerResult.zip* 도구로 만든 파일 추출
 
-6. *MDATPClient AnalyzerResult.txt* 를 열고 프록시 구성 단계를 수행하여 서버 검색 및 서비스 URL 액세스를 설정했는지 확인합니다.
+6. 서비스 *MDEClientAnalyzerResult.txt* 열고 프록시 구성 단계를 수행하여 서버 검색 및 서비스 URL 액세스를 사용하도록 설정해야 합니다.
 
-   도구는 엔드포인트용 Defender 클라이언트와 상호 작용하도록 구성된 엔드포인트용 Defender 서비스 URL의 연결을 확인합니다. 그런 다음 엔드포인트용 Defender 서비스와 통신하는 데 잠재적으로 사용될 수있는 각 URL에 대한 결과를 *MDATPClientAnalyzerResult.txt* 파일에 인쇄합니다. 예를 들어 다음과 같습니다.
+   도구는 엔드포인트용 Defender 클라이언트와 상호 작용하도록 구성된 엔드포인트용 Defender 서비스 URL의 연결을 확인합니다. 그런 다음 최종MDEClientAnalyzerResult.txt용  Defender와 통신하는 데 사용할 수 있는 각 URL에 대한 결과를 파일로 출력합니다. 예를 들어 다음과 같습니다.
 
    ```text
    Testing URL : https://xxx.microsoft.com/xxx
@@ -231,7 +232,7 @@ netsh winhttp reset proxy
 그러나 연결 검사 결과가 오류를 나타내는 경우 HTTP 오류가 표시됩니다(HTTP 상태 코드 참조). 그런 다음 프록시 서버 에서 [Defender for Endpoint](#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)서비스 URL에 대한 액세스 사용에 표시된 표의 URL을 사용할 수 있습니다. 사용할 URL은 온보더링 절차 중에 선택한 지역에 따라 다를 수 있습니다.
 
 > [!NOTE]
-> 연결 분석기 도구가 ASR 규칙 [PSExec 및 WMI 명령에서 생성된 블록 프로세스 생성](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction#attack-surface-reduction-rules)과 호환되지 않습니다. 연결 도구를 실행하려면 이 규칙을 일시적으로 비활성화해야 합니다.
+> 연결 분석기 도구 클라우드 연결 검사는 PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단 공격 표면 감소 규칙과 [호환되지 않습니다.](/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules.md#block-process-creations-originating-from-psexec-and-wmi-commands) 연결 도구를 실행하려면 이 규칙을 일시적으로 비활성화해야 합니다. 또는 분석기를 실행하면 [ASR](/microsoft-365/security/defender-endpoint/customize-attack-surface-reduction.md#exclude-files-and-folders) 제외를 일시적으로 추가할 수 있습니다.
 >
 > TelemetryProxyServer가 설정되어 있는 경우 레지스트리 또는 그룹 정책을 통해 끝점에 대한 Defender가 정의된 프록시에 액세스할 수 없는 경우 직접로 변경됩니다.
 

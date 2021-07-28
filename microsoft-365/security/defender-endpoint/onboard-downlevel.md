@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c1809969d37d2e3cfb9279eb8266a65ba098b3c6
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: a336ca847b8244c023fb8228c6405a363e7550aa
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542108"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622835"
 ---
 # <a name="onboard-previous-versions-of-windows"></a>이전 버전의 Windows 온보딩
 
@@ -39,11 +39,12 @@ ms.locfileid: "53542108"
 - Windows 8.1 Enterprise
 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-downlevel-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-downlevel-abovefoldlink)
 
 Endpoint용 Defender는 지원되는 운영 체제 버전에 고급 공격 감지 및 조사 기능을 제공함으로써 지원되는 운영 체제를 포함하기 Windows 확장합니다.
 
 클라이언트 끝점의 Windows 끝점을 Defender에 온보딩하려면 다음을 해야 합니다.
+
 - 클라이언트를 구성하고 System Center Endpoint Protection 업데이트합니다.
 - 아래에 설명된 Microsoft Monitoring Agent 끝점용 Defender에 센서 데이터를 보고하도록 MMA(관리자)를 설치하고 구성합니다.
 
@@ -54,9 +55,10 @@ Endpoint용 Defender는 지원되는 운영 체제 버전에 고급 공격 감�
 > [!IMPORTANT]
 > 이 단계는 조직에서 SCEP(ScEP)를 사용하는 System Center Endpoint Protection 필요합니다.
 
-Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 대한 가시성을 제공하고 잠재적으로 악성 파일이나 의심되는 맬웨어를 금지하여 조직의 공격 전파를 중지하기 위해 통합되었습니다. 
+Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 대한 가시성을 제공하고 잠재적으로 악성 파일이나 의심되는 맬웨어를 금지하여 조직의 공격 전파를 중지하기 위해 통합되었습니다.
 
-이 통합을 사용하려면 다음 단계가 필요합니다. 
+이 통합을 사용하려면 다음 단계가 필요합니다.
+
 - 클라이언트용 맬웨어 방지 플랫폼 [2017년 1월 Endpoint Protection 업데이트 설치](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie) 
 - 고급 설정으로 SCEP 클라이언트 클라우드 보호 서비스 멤버 자격 **구성**
 - 클라우드에 대한 연결을 허용하도록 Microsoft Defender 바이러스 백신 구성합니다. 자세한 내용은 클라우드에 대한 연결 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud)
@@ -64,11 +66,13 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 ## <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>MMA(Microsoft Monitoring Agent)를 설치 및 구성하여 끝점용 Microsoft Defender에 센서 데이터 보고
 
 ### <a name="before-you-begin"></a>시작하기 전에
+
 다음 세부 정보를 검토하여 최소 시스템 요구 사항을 확인합니다.
+
 - [2018년 2월 월별 업데이트 롤업 설치](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
   
   > [!NOTE]
-  > Windows 7 SP1 Enterprise 및 Windows 7 SP1 Pro. 
+  > Windows 7 SP1 Enterprise 및 Windows 7 SP1 Pro.
 
 - 고객 환경 및 진단 원격 [분석에](https://support.microsoft.com/help/3080149/update-for-customer-experience-and-diagnostic-telemetry) 대한 업데이트 설치
 
@@ -80,8 +84,6 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 
 - Azure Log Analytics 에이전트 최소 시스템 요구 사항을 충족합니다. 자세한 내용은 Log Analytics를 사용하여 환경의 컴퓨터에서 데이터 [수집을 참조하세요.](/azure/log-analytics/log-analytics-concept-hybrid#prerequisites)
 
-
-
 1. [64비트](https://go.microsoft.com/fwlink/?LinkId=828603) 에이전트 또는 Windows [32비트](https://go.microsoft.com/fwlink/?LinkId=828604)Windows 설치 파일을 다운로드합니다.
 
 2. 작업 영역 ID를 구합니다.
@@ -90,8 +92,10 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
    - 작업 영역 ID 및 작업 영역 키 복사
 
 3. 작업 영역 ID 및 작업 영역 키를 사용하여 다음 설치 방법 중 원하는 경우 에이전트를 설치합니다.
-    - [설치 프로그램을 사용하여 에이전트를 수동으로 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) <br>
+    - [설치 프로그램을 사용하여 에이전트를 수동으로 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)
+
       에이전트 설정 **옵션 페이지에서** 에이전트를 **커넥트 OMS(Azure Log Analytics)를 선택합니다.**
+
     - [명령줄을 사용하여 에이전트를 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
     - [스크립트를 사용하여 에이전트를 구성합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation)
 
@@ -103,11 +107,12 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 완료되면 1시간 이내에 포털에 온보드 엔드포인트가 표시될 것입니다.
 
 ### <a name="configure-proxy-and-internet-connectivity-settings"></a>프록시 및 인터넷 연결 설정 구성
- 
+
 - 각 Windows 끝점은 HTTPS를 사용하여 인터넷에 연결할 수 있어야 합니다. 이 연결은 프록시를 사용하여 직접 연결하거나 [OMS 게이트웨이를 통해](/azure/log-analytics/log-analytics-oms-gateway)할 수 있습니다.
 - 프록시 또는 방화벽이 기본적으로 모든 트래픽을 차단하고 특정 도메인만 허용하거나 SSL 검사(SSL 검사)를 통해 허용하는 경우 끝점 서비스 URL용 [Defender에](/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)대한 액세스를 사용하도록 설정해야 합니다.
 
 ## <a name="offboard-client-endpoints"></a>오프보드 클라이언트 끝점
-오프보딩을 위해 끝점에서 MMA 에이전트를 제거하거나 끝점 작업 영역용 Defender에 보고에서 이 에이전트를 제거하면 됩니다. 에이전트를 오프보딩한 후 끝점은 더 이상 끝점용 Defender에 센서 데이터를 전송하지 않습니다. 
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-downlevele-belowfoldlink)
+오프보딩을 위해 끝점에서 MMA 에이전트를 제거하거나 끝점 작업 영역용 Defender에 보고에서 이 에이전트를 제거하면 됩니다. 에이전트를 오프보딩한 후 끝점은 더 이상 끝점용 Defender에 센서 데이터를 전송하지 않습니다.
+
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-downlevele-belowfoldlink)

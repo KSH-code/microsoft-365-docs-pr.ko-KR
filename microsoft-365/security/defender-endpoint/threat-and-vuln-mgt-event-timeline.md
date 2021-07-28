@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 64362598ff4b0512eb110917071e6d32abb8ede9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fbcdad37eb76ca871d2b50a2146ba8a4b3b3d115
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933484"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622787"
 ---
 # <a name="event-timeline---threat-and-vulnerability-management"></a>이벤트 타임라인 - 위협 및 취약성 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "51933484"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 이벤트 타임라인은 새로운 취약성 또는 악용을 통해 조직에 위험이 도입된 방법을 해석하는 데 도움이 되는 위험 뉴스 피드입니다. 조직의 위험에 영향을 줄 수 있는 이벤트를 볼 수 있습니다. 예를 들어 도입된 새로운 취약성, 악용될 수 있는 취약성, 악용 키트에 추가된 악용 등도 찾을 수 있습니다.
 

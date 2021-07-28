@@ -16,13 +16,13 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.date: 06/23/2021
-ms.openlocfilehash: f8cd06924e4fc8b2e564e4e850df175ec222b013
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.date: 07/27/2021
+ms.openlocfilehash: 5d11be17cba8683344e631e799df98d3cf11dbf8
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542744"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623126"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -86,7 +86,7 @@ ms.locfileid: "53542744"
 
 테넌트 포털()을 사용하여 테넌트에 대해 변조 보호를 켜거나 Microsoft 365 Defender [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 다음은 유의해야 할 몇 가지 사항입니다.
 
-- 현재 새 배포의 경우 Microsoft 365 Defender 포털에서 변조 방지를 관리하는 옵션이 기본적으로 설정되어 있습니다. 기존 배포의 경우 옵트인(opt in)을 통해 변조 방지를 사용할 수 있습니다. 조만에 기본 방법을 옵트인(opt in)할 계획입니다. (옵트인(opt in)을 위해  Microsoft 365 Defender 포털에서  >  설정 **끝점**  >  **고급 기능**  >  **변조 방지**.) 
+- 현재 새 배포의 경우 Microsoft 365 Defender 포털에서 변조 방지를 관리하는 옵션이 기본적으로 설정되어 있습니다. 기존 배포의 경우 옵트인(opt in)으로 변조 보호를 사용할 수 있습니다. 옵트인(opt in)을 Microsoft 365 Defender 끝점 고급 설정 변조  >    >    >  **보호를 선택 합니다.**
 
 - Microsoft 365 Defender 포털을 사용하여 변조 방지를 관리할 때 Intune 또는 테넌트 연결 방법을 사용할 필요가 없습니다.
 
@@ -104,7 +104,8 @@ ms.locfileid: "53542744"
    - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
    - Windows 서버, 버전 [1803](/windows/release-health/status-windows-10-1803) 이상
    - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
-   - 릴리스에 대한 자세한 내용은 릴리스 [Windows 10 참조하세요.](/windows/release-health/release-information)
+   
+  릴리스에 대한 자세한 내용은 릴리스 [Windows 10 참조하세요.](/windows/release-health/release-information)
 
 - 디바이스를 [끝점용 Microsoft Defender에 온보딩해야 합니다.](/microsoft-365/security/defender-endpoint/onboarding)
 
@@ -114,7 +115,7 @@ ms.locfileid: "53542744"
 
 ### <a name="turn-tamper-protection-on-or-off-in-the-microsoft-365-defender-portal"></a>웹 사이트 포털에서 변조 보호 Microsoft 365 Defender 켜기
 
-::image type="content" source=".. /.. /media/mde-turn-tamperprotect-on-new.png" alt-text="Microsoft 365 Defender portal":::
+:::image type="content" source="../../media/mde-turn-tamperprotectionon.png" alt-text="사이트 포털에서 변조 Microsoft 365 Defender 켜기":::
 
 1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하여 로그인합니다.
 
@@ -161,7 +162,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
    
 이 Windows Server 2016 경우 설정 변조 방지를 사용하는 경우 앱 앱이 실시간 보호 상태를 정확하게 반영하지 않습니다.
    
-#### <a name="use-powershell-to-determine-whether-tamper-protection-andor-real-time-protection-are-turned-on"></a>PowerShell을 사용하여 변조 방지 및/또는 실시간 보호가 켜져 있는지 확인
+#### <a name="use-powershell-to-determine-whether-tamper-protection-and-real-time-protection-are-turned-on"></a>PowerShell을 사용하여 변조 방지 및 실시간 보호가 켜져 있는지 확인
 
 1. 앱 Windows PowerShell 열기
 
@@ -172,8 +173,6 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 ## <a name="manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006"></a>Configuration Manager 버전 2006을 사용하여 조직의 변조 보호 관리
 
 [Configuration Manager 버전 2006을](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2006)사용하는 경우 테넌트 연결 이라는 방법을 사용하여 Windows 10, Windows Server 2016 및 Windows Server 2019에서 변조 보호 설정을 관리할 수 *있습니다.* 테넌트 연결 기능을 사용하면 프레미스 전용 Configuration Manager 장치를 Microsoft Endpoint Manager 관리 센터에 동기화한 다음 끝점 보안 구성 정책을 장치용 & 있습니다.
-
-:::image type="content" source="images/win-security- exp-policy-endpt-security.png" alt-text="Windows 보안 환경 Endpoint Manager":::
 
 > [!NOTE]
 > 이 절차를 사용하여 Server 2019 및 2019에서 실행되는 장치로 변조 Windows 10 Windows 수 있습니다. 이 절차에 언급된 리소스의 선행 절차 및 기타 정보를 검토해야 합니다.
@@ -235,21 +234,21 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
-### <a name="to-which-windows-os-versions-is-configuring-tamper-protection-is-applicable"></a>어떤 Windows OS 버전에서 변조 보호를 구성할 수 있나요?
+### <a name="on-which-versions-of-windows-can-i-configure-tamper-protection"></a>어떤 버전의 변조 Windows 구성할 수 있나요?
 
 Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/windows/release-health/status-windows-10-1803), [1809](/windows/release-health/status-windows-10-1809-and-windows-server-2019)이상과 [끝점용 Microsoft Defender](/microsoft-365/security/defender-endpoint).
 
 테넌트 연결과 함께 Configuration Manager 버전 2006을 사용하는 경우 변조 방지를 Windows 수 있습니다. 테넌트 연결: 관리 센터에서 끝점 보안 바이러스 백신 정책 만들기 및 배포(미리 [보기)를 참조하세요.](/mem/configmgr/tenant-attach/deploy-antivirus-policy)
 
-### <a name="will-tamper-protection-have-any-impact-on-third-party-antivirus-registration"></a>변조 방지는 타사 바이러스 백신 등록에 영향을 미치나요?
+### <a name="will-tamper-protection-affect-non-microsoft-antivirus-registration-in-the-windows-security-app"></a>변조 방지는 앱의 비 Microsoft 바이러스 백신 등록에 Windows 보안 영향을 미치나요?
 
 아니요. 타사 바이러스 백신 제품은 계속 응용 프로그램에 Windows 보안 합니다.
 
 ### <a name="what-happens-if-microsoft-defender-antivirus-is-not-active-on-a-device"></a>장치에서 Microsoft Defender 바이러스 백신 활성화되지 않은 경우 어떻게 하나요?
 
-끝점용 Microsoft Defender에 온보딩된 디바이스는 수동 Microsoft Defender 바이러스 백신 실행됩니다. 변조 보호는 서비스 및 해당 기능을 계속 보호합니다. 
+끝점용 Microsoft Defender에 온보딩된 디바이스는 수동 Microsoft Defender 바이러스 백신 실행됩니다. 이러한 경우 변조 보호는 서비스 및 해당 기능을 계속 보호합니다. 
 
-### <a name="how-can-i-turn-tamper-protection-onoff"></a>변조 보호를 켜고 끄는 방법
+### <a name="how-do-i-turn-tamper-protection-on-or-off"></a>변조 보호를 켜거나 끄는 방법
 
 가정용 사용자인 경우 개별 장치에서 변조 보호 [관리를 참조하세요.](#manage-tamper-protection-on-an-individual-device)
 
@@ -259,15 +258,15 @@ Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/wi
 - [Configuration Manager, 버전 2006을 사용하여 변조 보호 관리](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 - [사이트 포털을 사용하여 변조 Microsoft 365 Defender 관리](#manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal) 
 
-### <a name="how-does-configuring-tamper-protection-in-intune-affect-how-i-manage-microsoft-defender-antivirus-through-my-group-policy"></a>Intune에서 변조 보호를 구성하는 것은 그룹 정책을 통해 Microsoft Defender 바이러스 백신 어떻게 영향을 미치나요?
+### <a name="how-does-configuring-tamper-protection-in-intune-affect-how-i-manage-microsoft-defender-antivirus-with-group-policy"></a>Intune에서 변조 보호를 구성하는 것은 그룹 정책을 사용하여 Microsoft Defender 바이러스 백신 어떻게 영향을 미치나요?
 
-일반 그룹 정책은 변조 방지에 적용되지 않습니다. 변조 방지가 Microsoft Defender 바이러스 백신 설정에 대한 변경 내용은 무시됩니다. 
+변조 방지에는 그룹 정책이 적용되지 않습니다. 변조 방지가 Microsoft Defender 바이러스 백신 설정에 대한 변경 내용은 무시됩니다. 
 
-### <a name="for-microsoft-defender-for-endpoint-is-configuring-tamper-protection-in-intune-targeted-to-the-entire-organization-only"></a>끝점용 Microsoft Defender의 경우 전체 조직을 대상으로 하는 Intune에서 변조 보호를 구성하고 있습니까?
+### <a name="if-we-use-microsoft-intune-to-configure-tamper-protection-does-it-apply-only-to-the-entire-organization"></a>변조 Microsoft Intune 구성하는 경우 전체 조직에만 적용합니까?
 
-Intune 또는 Microsoft Endpoint Manager 변조 보호 구성은 전체 조직 및 특정 장치 및 사용자 그룹을 대상으로 할 수 있습니다.
+Intune을 통해 변조 보호를 유연하게 구성할 수 있습니다. 전체 조직을 대상으로 지정하거나 특정 장치 및 사용자 그룹을 선택할 수 있습니다.
 
-### <a name="can-i-configure-tamper-protection-in-microsoft-endpoint-configuration-manager"></a>팜에서 변조 보호를 구성할 수 Microsoft Endpoint Configuration Manager?
+### <a name="can-i-configure-tamper-protection-with-microsoft-endpoint-configuration-manager"></a>변조 방지를 구성할 수 Microsoft Endpoint Configuration Manager?
 
 테넌트 첨부를 사용하는 경우 테넌트 첨부 파일을 Microsoft Endpoint Configuration Manager. 다음 리소스를 참조하십시오.
 - [Configuration Manager 버전 2006을 사용하여 조직의 변조 보호 관리](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
@@ -289,7 +288,7 @@ Intune 또는 Microsoft Endpoint Manager 변조 보호 구성은 전체 조직 �
 
 장치가 끝점용 Microsoft Defender에서 오프보딩된 경우 변조 방지가 켜져 있습니다. 이는 관리되지 않는 장치의 기본 상태입니다. 
 
-### <a name="will-there-be-an-alert-about-tamper-protection-status-changing-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 변조 보호 상태가 변경되는 Microsoft 365 Defender 있나요?
+### <a name="if-the-status-of-tamper-protection-changes-are-alerts-shown-in-the-microsoft-365-defender-portal"></a>변조 방지 상태가 변경되는 경우 알림이 Microsoft 365 Defender 표시합니까?
 
 예. 경고는 경고 [https://security.microsoft.com](https://security.microsoft.com) **에 표시됩니다.**
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9b809cc82ef6fda3d4153dbf19871801ec59ae75
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 2c2c0ff1cfa84689215272d1fcf5a1f7476ca4d9
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53543428"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621850"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender
 
@@ -34,7 +34,7 @@ ms.locfileid: "53543428"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 이 항목에서는 Mac에서 끝점용 Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
 
@@ -109,13 +109,12 @@ Mac의 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선싱 �
 
 다음 다운로드 가능한 스프레드시트에는 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 또는 해당 URL에 대한 허용 규칙을 만들어야 할 수도 있습니다. 
 
-
-
-|**도메인 목록의 스프레드시트**|**설명**|
-|:-----|:-----|
-|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)<br/>  | 서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <br><br>여기에서 스프레드시트를 [다운로드합니다.mdatp-urls.xlsx. ](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
+|도메인 목록의 스프레드시트|설명|
+|---|---|
+|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> 여기에서 스프레드시트를 [다운로드합니다.mdatp-urls.xlsx. ](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 
 끝점용 Microsoft Defender는 다음 검색 방법을 사용하여 프록시 서버를 검색할 수 있습니다.
+
 - PAC(프록시 자동 구성)
 - WPAD(웹 프록시 자동 검색 프로토콜)
 - 수동 정적 프록시 구성
@@ -127,7 +126,7 @@ Mac의 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선싱 �
 >
 > 보안상의 이유로 SSL 검사 및 가로채기 Proxies도 지원되지 않습니다. MacOS용 끝점용 Microsoft Defender의 데이터를 가로채지 않고 관련 URL로 직접 전달하도록 SSL 검사 및 프록시 서버에 대한 예외를 구성합니다. 전역 저장소에 가로채기 인증서를 추가하면 가로채는 것을 허용하지 않습니다.
 
-연결이 차단되지 않는지 테스트하기 위해 브라우저에서 [https://x.cp.wd.microsoft.com/api/report](https://x.cp.wd.microsoft.com/api/report) [https://cdn.x.cp.wd.microsoft.com/ping](https://cdn.x.cp.wd.microsoft.com/ping) 열립니다.
+연결이 차단되지 않는지 테스트하기 위해 브라우저에서 <https://x.cp.wd.microsoft.com/api/report> <https://cdn.x.cp.wd.microsoft.com/ping> 열립니다.
 
 명령줄을 원하는 경우 터미널에서 다음 명령을 실행하여 연결을 확인할 수도 있습니다.
 
@@ -142,9 +141,10 @@ curl -w ' %{url_effective}\n' 'https://x.cp.wd.microsoft.com/api/report' 'https:
  `OK https://cdn.x.cp.wd.microsoft.com/ping`
 
 > [!CAUTION]
-> 클라이언트 장치에서 SIP(시스템 무결성 [보호)를](https://support.apple.com/en-us/HT204899) 사용하도록 설정하는 것이 좋습니다. SIP는 OS에 대한 낮은 수준의 변조를 방지하는 기본 제공 macOS 보안 기능으로, 기본적으로 사용하도록 설정됩니다.
+> 클라이언트 장치에서 SIP(시스템 무결성 [보호)를](https://support.apple.com/HT204899) 사용하도록 설정하는 것이 좋습니다. SIP는 OS에 대한 낮은 수준의 변조를 방지하는 기본 제공 macOS 보안 기능으로, 기본적으로 사용하도록 설정됩니다.
 
 Endpoint용 Microsoft Defender가 설치되면 터미널에서 다음 명령을 실행하여 연결의 유효성을 검사할 수 있습니다.
+
 ```bash
 mdatp connectivity test
 ```
@@ -164,5 +164,4 @@ MacOS의 진화에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
 ## <a name="resources"></a>리소스
 
 - 로깅, 지우기 또는 기타 항목에 대한 자세한 내용은 [Mac의 끝점용 Microsoft Defender 리소스를 참조하세요.](mac-resources.md)
-
 - [Mac의 끝점용 Microsoft Defender에 대한 개인 정보 .](mac-privacy.md)

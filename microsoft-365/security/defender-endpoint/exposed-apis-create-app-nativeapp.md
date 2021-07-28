@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 876dddf7a68b9844dea6a30ff4ebbbe3c2b75b69
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: f85599109f5ca3a0b9863e778c44bc3b991af7ba
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844553"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624179"
 ---
 # <a name="use-microsoft-defender-for-endpoint-apis"></a>끝점 API에 Microsoft Defender 사용
 
@@ -32,7 +32,7 @@ ms.locfileid: "52844553"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -73,7 +73,7 @@ ms.locfileid: "52844553"
    - **이름** - 앱 사용자에게 표시할 의미 있는 응용 프로그램 이름을 입력합니다.
    - **지원되는 계정 유형** - 응용 프로그램에서 지원할 계정을 선택합니다.
 
-       | 지원되는 계정 유형 | 설명 |
+       | 지원 계정 유형 | 설명 |
        |-------------------------|-------------|
        | **이 조직 디렉터리의 계정만** | LOB(LOB) 응용 프로그램을 구축하는 경우 이 옵션을 선택합니다. 디렉터리에 응용 프로그램을 등록하지 않는 경우 이 옵션을 사용할 수 없습니다.<br><br>이 옵션은 Azure AD 단일 테넌트에만 매핑됩니다.<br><br>디렉터리 외부에서 앱을 등록하지 않는 한 이 옵션이 기본 옵션입니다. 앱이 디렉터리 외부에 등록되는 경우 기본값은 Azure AD 다중 테넌트 및 개인 Microsoft 계정입니다. |
        | **조직 디렉터리의 계정** | 모든 비즈니스 및 교육 고객을 대상으로 지정하려면 이 옵션을 선택합니다.<br><br>이 옵션은 Azure AD 전용 다중 테넌트에 매핑됩니다.<br><br>Azure AD 전용 단일 테넌트로 앱을 등록한 경우 Azure AD 다중 테넌트로 업데이트하고 인증 블레이드를 통해 다시 단일 테넌트로 업데이트할 **수** 있습니다. |

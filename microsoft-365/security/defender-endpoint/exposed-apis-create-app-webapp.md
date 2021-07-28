@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 2d78b7ea31c45220735a8579d728f9c0f7bda181
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 62ff27162cadb154df61ef49f692152d40777246
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842113"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623339"
 ---
 # <a name="create-an-app-to-access-microsoft-defender-for-endpoint-without-a-user"></a>사용자 없이 끝점용 Microsoft Defender에 액세스하는 앱 만들기
 
@@ -31,7 +31,7 @@ ms.locfileid: "52842113"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -69,7 +69,7 @@ ms.locfileid: "52842113"
 
    ![앱 사용 권한](images/application-permissions.png)
 
-     관련 권한을 선택해야 합니다. '모든 경고 읽기'는 예일 뿐입니다. 예를 들면,
+     관련 권한을 선택해야 합니다. '모든 경고 읽기'는 예일 뿐입니다. 예:
 
      - 고급 [쿼리를 실행하려면](run-advanced-query-api.md)'고급 쿼리 실행' 권한을 선택합니다.
      - 장치를 [격리하려면](isolate-machine.md)'컴퓨터 격리' 권한을 선택합니다.

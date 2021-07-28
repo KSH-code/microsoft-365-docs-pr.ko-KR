@@ -2,8 +2,8 @@
 title: 앱 위협 탐지 및 수정 시작
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: v-tophillips
+author: v-tophillips
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 위협 탐지 및 수정을 시작합니다.
-ms.openlocfilehash: 77de3676a9a486bbed572a4a16bf62ad4d038406
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: 7309fba4bbc74736386c6ab384d1cffd8c152b81
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430723"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623063"
 ---
 # <a name="get-started-with-app-threat-detection-and-remediation"></a>앱 위협 탐지 및 수정 시작
 
@@ -57,4 +57,4 @@ Microsoft 앱 거버넌스는 사용자가 만든 활성 앱 정책이 생성하
 
 ## <a name="next-step"></a>다음 단계
 
-[앱 위협을 교정합니다.](app-governance-detect-remediate-detect-threats.md)
+[변칙 검색 경고 조사](app-governance-anomaly-detection-alerts.md)

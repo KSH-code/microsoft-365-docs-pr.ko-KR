@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6ef594d4ccb25f688be21b4e8fe6aac2f024eb1d
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 2062d85d27208f871a96b64a90a457469f83559a
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53419754"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623195"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender의 새로운
 
@@ -33,10 +33,14 @@ ms.locfileid: "53419754"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 > [!IMPORTANT]
 > macOS 11(Big Sur)에서는 끝점용 Microsoft Defender에 추가 구성 프로필이 필요합니다. 이전 버전의 macOS에서 업그레이드하는 기존 고객인 경우 이 페이지에 나열된 추가 구성 프로필을 [배포해야 합니다.](mac-sysext-policies.md)
+
+## <a name="1013428-20121061134280"></a>101.34.28 (20.121061.13428.0)
+
+- 버그 수정
 
 ## <a name="1013427-20121052134270"></a>101.34.27 (20.121052.13427.0)
 
@@ -153,7 +157,7 @@ ms.locfileid: "53419754"
 
 > [!IMPORTANT]
 > 명령줄 도구에 대한 새 구문과 향상된 구문을 `mdatp` 사용 중입니다. 새 구문은 현재 Insider Fast 및 Insider Slow 업데이트 채널에서 기본값입니다. 이 새 구문을 사용하면 됩니다.
-> 
+>
 > 계속해서 새 구문과 함께 이전 구문을 지원할 예정으로, 앞으로 몇 개월 후의 이전 구문에 대한 사용 안 하게 될 계획에 대해 좀 더 많은 통신을 제공할 것입니다.
 
 - SMB 파일 공유에 액세스할 때 가끔 발생하는 커널 패니크 해결
@@ -200,7 +204,7 @@ ms.locfileid: "53419754"
 ## <a name="1008691"></a>100.86.91
 
 > [!CAUTION]
-> To ensure the most complete protection for your macOS devices and in alignment with Apple stopping delivery of macOS native security updates to OS versions older than [current – 2], MDATP for Mac deployment and updates will no longer be supported on macOS Sierra [10.12]. Mac용 MDATP 업데이트 및 향상된 기능은 카탈로나[10.15], Mojave [10.14] 및 High Sierra [10.13]을 실행하는 장치에 제공됩니다. 
+> To ensure the most complete protection for your macOS devices and in alignment with Apple stopping delivery of macOS native security updates to OS versions older than [current - 2], MDATP for Mac deployment and updates will no longer be supported on macOS Sierra [10.12]. Mac용 MDATP 업데이트 및 향상된 기능은 카탈로나[10.15], Mojave [10.14] 및 High Sierra [10.13]을 실행하는 장치에 제공됩니다.
 >
 > If you already have MDATP for Mac deployed to your Sierra [10.12] devices, please upgrade to the latest macOS version to eliminate risks of losing protection.
 
@@ -224,9 +228,11 @@ ms.locfileid: "53419754"
 
 - Mac의 끝점용 Microsoft Defender가 때때로 시간 컴퓨터로 떨어졌다는 문제를 해결했습니다.
 - 백end 서비스와의 연결을 테스트하기 위한 명령줄 유틸리티에 새 스위치가 추가되었습니다.
+
   ```bash
   mdatp connectivity test
   ```
+
 - 사용자 인터페이스에서 전체 위협 기록을 볼 수 있는 기능 추가(보호 기록 보기에서 액세스할 **수** 있습니다.
 - 버그 수정을 & 성능 개선
 

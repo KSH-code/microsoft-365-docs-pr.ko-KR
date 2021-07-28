@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: c5c76553ff3f0b32def5fbafbf2c8f010e49eeb2
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 580a0ff1921c8c947b4a41f3571c367b26e86493
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845425"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624251"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 문제 해결
 
@@ -33,7 +33,7 @@ ms.locfileid: "52845425"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
 
 공격 표면 [감소 규칙을](attack-surface-reduction.md) 사용하는 경우 다음과 같은 문제가 있을 수 있습니다.

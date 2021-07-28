@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 001b8dcf4b0bfd2550f41454fc840602a6e4361f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 8390b6b542c43efd37c065b75b4851702022afa6
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770136"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624131"
 ---
 # <a name="get-investigation-api"></a>조사 API를 얻습니다.
 
@@ -31,7 +31,7 @@ ms.locfileid: "52770136"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -48,34 +48,38 @@ ID로 [특정 조사를](investigation.md) 검색합니다.
 
 
 ## <a name="permissions"></a>사용 권한
+
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Alert.Read.All |    '모든 경고 읽기'
-응용 프로그램 |   Alert.ReadWrite.All |   '모든 경고 읽기 및 쓰기'
+응용 프로그램|Alert.Read.All|'모든 경고 읽기'
+응용 프로그램|Alert.ReadWrite.All|'모든 경고 읽기 및 쓰기'
 위임(직장 또는 학교 계정) | Alert.Read | '경고 읽기'
 위임(직장 또는 학교 계정) | Alert.ReadWrite | '경고 읽기 및 쓰기'
 
->[!Note]
+> [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
->- 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
+>
+> - 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
 
 ## <a name="http-request"></a>HTTP 요청
-```
+
+```http
 GET https://api.securitycenter.microsoft.com/api/investigations/{id}
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
 권한 부여 | String | Bearer {token}. **필수입니다**.
 
-
 ## <a name="request-body"></a>요청 본문
+
 비어 있음
 
 ## <a name="response"></a>응답
+
 성공하면 이 메서드는 [Investigations](investigation.md) 엔터티가 있는 200, 확인 응답 코드를 반환합니다.
 

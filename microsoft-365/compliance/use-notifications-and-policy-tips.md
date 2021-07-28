@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: DLP(데이터 손실 방지) 정책에 정책 팁을 추가하여 사용자에게 DLP 정책과 충돌하는 콘텐츠를 사용 중일 때 이를 알리는 방법을 학습합니다.
-ms.openlocfilehash: 53a4db6cfc37f35422a1efffaeac052370cd5988
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f8b1c4228dcccf82a8dadb8b942d2587f92ba382
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228654"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623051"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시
 
@@ -55,7 +55,7 @@ DLP(데이터 손실 방지) 정책을 사용하여 Office 365에서 중요한 �
 
 DLP 정책을 만들 때 사용자 알림을 **사용하도록 설정할 수 있습니다.** 사용자 알림을 사용하도록 설정하면 Microsoft 365 알림과 정책 팁이 모두 전송됩니다. 알림 전자 메일을 보낸 사용자, 전자 메일 텍스트 및 정책 팁 텍스트를 사용자 지정할 수 있습니다.
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+1. [https://( https://compliance.microsoft.com/permissions ](https://) https://compliance.microsoft.com/permissions) 로 이동하세요.
 
 2. 회사 또는 학교 계정을 사용하여 로그인합니다. 이제 보안 및 준수 &amp; 센터에 있습니다.
 

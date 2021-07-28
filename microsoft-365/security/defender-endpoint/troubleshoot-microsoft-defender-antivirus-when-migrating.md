@@ -15,12 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3eb4d01957383efc8df47e9fee6eb6394c80015a
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 80d8ec3a48ea8388d6c1807f2eccb9df334394de
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924386"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623363"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>타사 솔루션에서 마이그레이션하는 동안 Microsoft Defender 바이러스 백신 문제 해결
 
@@ -37,7 +37,7 @@ ms.locfileid: "52924386"
 
 작업 표시줄에서 검색 아이콘을  선택하고 이벤트 뷰어를 검색하여 이벤트 뷰어 *앱을 열 수 있습니다.*
 
-응용 프로그램에 Microsoft Defender 바이러스 백신 응용 프로그램 및 서비스 로그 Microsoft Windows  >    >  **Windows Defender.**  >   
+응용 프로그램에 Microsoft Defender 바이러스 백신 응용 프로그램 및 서비스 로그 Microsoft Windows  >    >  **Windows Defender.**  >  
 
 이 위치에서 작동 **아래의 열기** 를 **선택합니다.**
 
@@ -49,11 +49,11 @@ ms.locfileid: "52924386"
 
 ### <a name="associated-event-ids"></a>연결된 이벤트 ID
 
- 이벤트 ID | 로그 이름 | 설명 | 원본
--|-|-|-
-15 | 응용 프로그램 | 업데이트된 Windows Defender 상태가 SECURITY_PRODUCT_STATE_OFF. | 보안 센터
-5007 | Microsoft-Windows-Windows Defender/Operational | Windows Defender 바이러스 백신 구성이 변경되었습니다.  이 이벤트가 예기치 않은 이벤트인 경우 맬웨어의 결과일 수 있는 설정을 검토해야 합니다.<br /><br />**이전 값:** Default\IsServiceRunning = 0x0<br />**새 값:** HKLM\SOFTWARE\Microsoft\Windows Defender\IsServiceRunning = 0x1 | Windows Defender
-5010 | Microsoft-Windows-Windows Defender/Operational | Windows Defender 바이러스 백신 소프트웨어 및 사용자 원치 않는 기타 소프트웨어에 대한 검사가 사용되지 않도록 설정됩니다. | Windows Defender
+이벤트 ID|로그 이름|설명|원본
+---|---|---|---
+15|응용 프로그램|업데이트된 Windows Defender 상태가 SECURITY_PRODUCT_STATE_OFF.|보안 센터
+5007|Microsoft-Windows-Windows Defender/Operational|Windows Defender 바이러스 백신 구성이 변경되었습니다.  이 이벤트가 예기치 않은 이벤트인 경우 맬웨어의 결과일 수 있는 설정을 검토해야 합니다. <p> **이전 값:** Default\IsServiceRunning = 0x0 p> **새 값:** HKLM\SOFTWARE\Microsoft\Windows Defender\IsServiceRunning = 0x1|Windows Defender
+5010|Microsoft-Windows-Windows Defender/Operational|Windows Defender 바이러스 백신 소프트웨어 및 사용자 원치 않는 기타 소프트웨어에 대한 검사가 사용되지 않도록 설정됩니다.|Windows Defender
 
 ### <a name="how-to-tell-if-microsoft-defender-antivirus-wont-start-because-a-third-party-antivirus-is-installed"></a>타사 바이러스 백신이 Microsoft Defender 바이러스 백신 프로그램 업데이트가 시작되지 않는지 어떻게 알 수 있습니다.
 
@@ -68,7 +68,7 @@ Windows 10 장치에서 끝점용 Microsoft Defender를 사용하지 않는 경�
 
 서비스 Microsoft Defender 바이러스 백신 대한 정보는 운영 에서 서비스 앱 **Windows Defender**  >  **나열됩니다.** 바이러스 백신 서비스 이름은 Windows Defender 바이러스 백신 *입니다.*
 
-앱을 검사하는 동안 Windows Defender 바이러스 백신 *서비스가* 수동으로 설정되어 있는 것을 볼 수 있지만 이 서비스를 수동으로 시작하려고 시도하면 로컬 컴퓨터에서 Windows Defender 바이러스 백신 서비스 서비스가 시작된 다음 중지됨을 표시하는 경고가 *표시됩니다. 일부 서비스는 다른* 서비스 또는 프로그램에서 사용하지 않는 경우 자동으로 중지됩니다.
+앱을 검사하는 동안 Windows Defender 바이러스 백신 *서비스가* 수동으로 설정되어 있는 것을 볼 수 있지만 이 서비스를 수동으로 시작하려고 시도하면 로컬 컴퓨터의 Windows Defender 바이러스 백신 서비스 서비스가 시작된 다음 중지됨을 표시하는 *경고가 표시됩니다. 일부 서비스는 다른* 서비스 또는 프로그램에서 사용하지 않는 경우 자동으로 중지됩니다.
 
 이는 타사 Microsoft Defender 바이러스 백신 호환성을 유지하기 위해 자동으로 꺼져 있습니다.
 
@@ -88,31 +88,31 @@ GPresult.exe /h gpresult.html
 
 GPResults 보고서의 제목 아래에 Windows *Components/Windows Defender 바이러스 백신*, 다음과 같은 항목이 표시될 수 있습니다. 이 항목은 Microsoft Defender 바이러스 백신 끄는 것입니다.
 
-정책 | 설정 | 더하기 GPO
--|-|-
-끄기 Windows Defender 바이러스 백신 | 사용 | Win10-Workstations
+정책|설정|더하기 GPO
+---|---|---
+끄기 Windows Defender 바이러스 백신|사용|Win10-Workstations
 
 ###### <a name="if-security-settings-are-implemented-via-group-policy-preference-gpp"></a>GPP(그룹 정책 기본 설정)를 통해 보안 설정을 구현하는 경우
 
 레지스트리 항목(키 *경로: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender, 값 이름: DisableAntiSpyware)* 아래에 다음과 같은 항목이 표시되어 Microsoft Defender 바이러스 백신 표시됩니다.
 
-DisableAntiSpyware | -
--|-
-더하기 GPO | Win10-Workstations
-결과: 성공 | 
-**일반** | 
-조치 | 업데이트
-**속성** | 
-Hive | HKEY_LOCAL_MACHINE
-키 경로 | SOFTWARE\Policies\Microsoft\Windows Defender
-값 이름 | DisableAntiSpyware
-값 유형 | REG_DWORD
-값 데이터 | 0x1 (1)
+DisableAntiSpyware|-
+---|---
+더하기 GPO|Win10-Workstations
+결과: 성공|
+**일반**|
+작업|업데이트
+**속성**|
+Hive|HKEY_LOCAL_MACHINE
+키 경로|SOFTWARE\Policies\Microsoft\Windows Defender
+값 이름|DisableAntiSpyware
+값 유형|REG_DWORD
+값 데이터|0x1 (1)
 
 ###### <a name="if-security-settings-are-implemented-via-registry-key"></a>레지스트리 키를 통해 보안 설정이 구현된 경우
 
 보고서에 다음 텍스트가 포함될 수 있습니다. 이 텍스트는 Microsoft Defender 바이러스 백신 해제되어 있습니다.
- 
+
 > 레지스트리(regedit.exe)
 >
 > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender DisableAntiSpyware(dword) 1(16진수)
@@ -137,5 +137,5 @@ Microsoft Defender 바이러스 백신 활성 상태인 다른 바이러스 백�
 
 ### <a name="see-also"></a>참고 항목
 
-* [Microsoft Defender 바이러스 백신 호환성](microsoft-defender-antivirus-compatibility.md)
-* [Microsoft Defender 바이러스 백신 앱의 Windows 보안](microsoft-defender-security-center-antivirus.md)
+- [Microsoft Defender 바이러스 백신 호환성](microsoft-defender-antivirus-compatibility.md)
+- [Microsoft Defender 바이러스 백신 앱의 Windows 보안](microsoft-defender-security-center-antivirus.md)

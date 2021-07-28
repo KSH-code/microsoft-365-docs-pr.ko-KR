@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 626be9e949170fcda1f0bcf2a88e1b9780bbe764
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 53a00625e50081a1af7ba78fbd8fce604ad3ed9c
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841093"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623759"
 ---
 # <a name="investigate-alerts-in-microsoft-defender-for-endpoint"></a>Microsoft Defender에서 끝점에 대한 경고 조사
 
@@ -34,7 +34,7 @@ ms.locfileid: "52841093"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatealerts-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatealerts-abovefoldlink)
 
 네트워크에 영향을 주는 경고를 조사하고 해당 경고의 의미와 경고를 해결하는 방법을 이해합니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "52841093"
 
 
 ## <a name="related-topics"></a>관련 항목
-- [끝점 경고 큐에 대한 Microsoft Defender 보기 및 구성](alerts-queue.md)
+- [엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성](alerts-queue.md)
 - [끝점 경고에 대한 Microsoft Defender 관리](manage-alerts.md)
 - [끝점 경고에 대한 Defender와 관련된 파일 조사](investigate-files.md)
 - [Endpoint 장치용 Defender 목록에서 장치 조사](investigate-machines.md)

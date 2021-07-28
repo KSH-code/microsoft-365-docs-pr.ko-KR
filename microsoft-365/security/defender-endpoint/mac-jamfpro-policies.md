@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 577eea6e678b6a5d60e5bb8f2fbaaae25d239577
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: c73a1a4ca5a85e4c6867cbe2cb79a33cfe0bfac9
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53230070"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623795"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
 
@@ -60,7 +60,6 @@ ms.locfileid: "53230070"
 
 11. [macOS에서 끝점용 Microsoft Defender 배포](#step-11-deploy-microsoft-defender-for-endpoint-on-macos)
 
-
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>1단계: 끝점용 Microsoft Defender 온보딩 패키지 다운로드
 
 1. 에서 [Microsoft Defender 보안 센터](https://securitycenter.microsoft.com)에서 **온보 설정 > 로 이동합니다.**
@@ -81,7 +80,6 @@ ms.locfileid: "53230070"
 1. 이전 `WindowsDefenderATPOnboarding.plist` 섹션에서 파일을 찾습니다.
 
    ![WindowsDefenderATPOnboarding 파일의 이미지](images/plist-onboarding-file.png)
-
 
 2. Jamf Pro 대시보드에서 새로 만들 를 **선택합니다.**
 
@@ -204,8 +202,8 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     - enableRealTimeProtection
     - passiveMode
 
-    >[!NOTE]
-    >macOS용 타사 AV를 실행하기 위해 계획하는 경우 기본적으로 켜져 있지 않습니다. 를 로 `true` 설정
+    > [!NOTE]
+    > macOS용 타사 AV를 실행하기 위해 계획하는 경우 기본적으로 켜져 있지 않습니다. 를 로 `true` 설정
 
     - 제외
     - excludedPath
@@ -214,8 +212,8 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     - exclusionsMergePolicy
     - allowedThreats
 
-    >[!NOTE]
-    >EICAR이 샘플에 있습니다. 개념 증명을 진행하는 경우 EICAR을 테스트하는 경우 EICAR을 제거합니다.
+    > [!NOTE]
+    > EICAR이 샘플에 있습니다. 개념 증명을 진행하는 경우 EICAR을 테스트하는 경우 EICAR을 제거합니다.
 
     - disallowedThreatActions
     - potentially_unwanted_application
@@ -375,7 +373,6 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     >[!NOTE]
     >Intune 파일을 업로드하는 경우 다음 오류가 발생합니다.<br>
     >![구성 설정 intune 파일 업로드 이미지](images/8e69f867664668796a3b2904896f0436.png)
-
 
 11. **저장** 을 선택합니다.
 
@@ -654,7 +651,6 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![승인된 구성 설정 커널 ext 이미지](images/30be88b63abc5e8dde11b73f1b1ade6a.png)
 
-
 4. 승인된 **커널 확장에** 다음 세부 정보를 입력합니다.
 
     - 표시 이름: Microsoft Corp.
@@ -789,10 +785,9 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
 또는 Jamf 구성 프로필을 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [netfilter.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) 다운로드하여 JAMF 구성 프로필에 업로드할 [Pro| 방법 2: 업로드 프로필을 Jamf](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)Pro.
 
-
 ## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>10단계: MacOS의 끝점에 대한 Microsoft Defender 검사 예약
-[MacOS의 끝점에 대한 Microsoft Defender 검사 예약에 대한 지침을 따릅니다.](/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
+[MacOS의 끝점에 대한 Microsoft Defender 검사 예약에 대한 지침을 따릅니다.](/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
 ## <a name="step-11-deploy-microsoft-defender-for-endpoint-on-macos"></a>11단계: macOS에서 끝점용 Microsoft Defender 배포
 
@@ -865,7 +860,6 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![구성 설정 재발 검사의 이미지](images/68bdbc5754dfc80aa1a024dde0fce7b0.png)
 
-
 13. **저장** 을 선택합니다.
 
 14. 패키지를 **> 구성합니다.**
@@ -905,7 +899,3 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     ![구성 설정 do1img의 이미지](images/99679a7835b0d27d0a222bc3fdaf7f3b.png)
 
     ![구성 설정 do2img의 이미지](images/632aaab79ae18d0d2b8e0c16b6ba39e2.png)
-
-
-
-

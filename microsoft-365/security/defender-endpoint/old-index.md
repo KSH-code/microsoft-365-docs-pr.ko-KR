@@ -14,27 +14,28 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 3db1517d87a47aae254d36cfb28f6c057830ef3e
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3c49575e7a1d88c15907fdd7c118b71071949b23
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840997"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622847"
 ---
 # <a name="threat-protection"></a>위협 방지
+
 [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/microsoft-defender-advanced-threat-protection)는 예방적 보호, 침해 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다. Endpoint용 Defender는 사이버 위협으로부터 끝점을 보호하고, 고급 공격 및 데이터 위반을 감지하고, 보안 인시던트를 자동화하며, 보안 입장을 개선합니다.
 
 > [!TIP]
 > 사용자가 클라우드 서비스 및 사내 응용 프로그램에 쉽게 액세스할 수 있도록 지원하고 모든 장치에 대한 최신 관리 기능을 사용할 수 있습니다. 자세한 내용은 원격 인력 [보호를 참조하세요.](/enterprise-mobility-security/remote-work/) 
 
-<center><h2>끝점용 Microsoft Defender</center></h2>
+<center><h2>엔드포인트용 Microsoft Defender</center></h2>
 <table>
 <tr>
 <td><a href="#tvm"><center><img src="images/TVM_icon.png" alt="threat and vulnerability icon"> <br><b>위협 & 취약성 관리</b></center></a></td>
 <td><a href="#asr"><center><img src="images/asr-icon.png" alt="attack surface reduction icon"> <br><b>공격 표면 감소</b></center></a></td>
 <td><center><a href="#ngp"><img src="images/ngp-icon.png" alt="next generation protection icon"><br> <b>차세대 보호</b></a></center></td>
-<td><center><a href="#edr"><img src="images/edr-icon.png" alt="endpoint detection and response icon"><br> <b>끝점 검색 및 응답</b></a></center></td>
-<td><center><a href="#ai"><img src="images/air-icon.png" alt="automated investigation and remediation icon"><br> <b>자동화된 조사 및 수정</b></a></center></td>
+<td><center><a href="#edr"><img src="images/edr-icon.png" alt="endpoint detection and response icon"><br> <b>엔드포인트 감지 및 대응</b></a></center></td>
+<td><center><a href="#ai"><img src="images/air-icon.png" alt="automated investigation and remediation icon"><br> <b>자동 조사 및 수정</b></a></center></td>
 <td><center><a href="#mte"><img src="images/mte-icon.png" alt="microsoft threat experts icon"><br> <b>Microsoft 위협 전문가</b></a></center></td>
 </tr>
 <tr>
@@ -49,16 +50,15 @@ ms.locfileid: "52840997"
 
 <a name="tvm"></a>
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4obJq]
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4obJq]
-
-**[위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)**<br>
-이 기본 제공 기능은 게임이 변화하는 위험 기반 접근 방식을 사용하여 끝점 취약성 및 잘못 구성을 검색, 우선 순위 지정 및 수정합니다.
+**[위협 & 취약성 관리](next-gen-threat-and-vuln-mgt.md)**<br>
+이 기본 제공 기능은 엔드포인트 취약성 및 잘못된 구성의 발견, 우선 순위 지정 및 수정에 판도를 바꾸는 위험 기반 접근 방식을 사용합니다.
 
 - [위협 & 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
 - [시작](tvm-prerequisites.md)
 - [보안 설정 액세스](tvm-dashboard-insights.md)
-- [보안 자세를 개선하고 위험을 줄입니다.](tvm-security-recommendation.md)
+- [보안 자세 개선 및 위험 감소](tvm-security-recommendation.md)
 - [장치의 취약성 이해](tvm-software-inventory.md)
 
 <a name="asr"></a>
@@ -78,7 +78,7 @@ ms.locfileid: "52840997"
 <a name="ngp"></a>
 
 **[차세대 보호](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
-네트워크의 보안 경계를 더욱 강화하기 위해 끝점용 Microsoft Defender는 모든 유형의 새로운 위협을 감지하도록 설계된 차세대 보호를 사용했습니다.
+네트워크의 보안 경계를 더욱 강화하기 위해 엔드포인트용 Microsoft Defender는 모든 유형의 새로운 위협을 포착하도록 설계된 차세대 보호 기능을 사용합니다.
 
 - [동작 모니터링](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 - [클라우드 기반 보호](/windows/security/threat-protection/microsoft-defender-antivirus/configure-protection-features-microsoft-defender-antivirus)
@@ -88,7 +88,7 @@ ms.locfileid: "52840997"
 
 <a name="edr"></a>
 
-**[엔드포인트 검색 및 대응](overview-endpoint-detection-response.md)**<br>
+**[엔드포인트 감지 및 대응](overview-endpoint-detection-response.md)**<br>
 끝점 감지 및 대응 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응하기 위해 사용됩니다. 고급 헌팅을 사용하면 위반을 사전 예방적으로 찾고 사용자 지정 검색을 만들 수 있는 쿼리 기반 위협 헌팅 도구가 있습니다.
 
 - [경고](alerts-queue.md)
@@ -102,7 +102,7 @@ ms.locfileid: "52840997"
 
 <a name="ai"></a>
 
-**[자동화된 조사 및 수정](automated-investigations.md)**<br>
+**[자동 조사 및 수정](automated-investigations.md)**<br>
 Microsoft Defender for Endpoint는 고급 공격에 빠르게 대응할 뿐만 아니라 대규모로 경고 볼륨을 분당 줄이는 데 도움이 되는 자동 조사 및 수정 기능을 제공합니다.
 
 - [자동화된 조사 및 수정](automated-investigations.md)
@@ -116,12 +116,12 @@ Microsoft Defender for Endpoint는 고급 공격에 빠르게 대응할 뿐만 �
 
 - [대상 공격 알림](microsoft-threat-experts.md)
 - [전문가가 요구하는 경우](microsoft-threat-experts.md)
-- [Defender Microsoft 365 헌팅 서비스 구성](configure-microsoft-threat-experts.md)
+- [관리 Microsoft 365 Defender 헌팅 서비스 구성](configure-microsoft-threat-experts.md)
 
 <a name="apis"></a>
 
 **[중앙 집중식 구성 및 관리, API](management-apis.md)**<br>
-끝점용 Microsoft Defender를 기존 워크플로에 통합합니다.
+엔드포인트용 Microsoft Defender를 기존 워크플로에 통합합니다.
 - [온보딩](onboard-configure.md)
 - [API 및 SIEM 통합](configure-siem.md)
 - [노출된 API](apis-intro.md)
@@ -140,4 +140,4 @@ Microsoft Defender for Endpoint는 고급 공격에 빠르게 대응할 뿐만 �
 
 <a name="mtp"></a>
 **[Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)**<br>
- Microsoft 365 Defender를 통해 끝점용 Microsoft Defender 및 다양한 Microsoft 보안 솔루션은 엔드포인트, ID, 전자 메일 및 응용 프로그램 전반에 걸쳐 기본적으로 통합되는 통합 사전 및 사후 침해 엔터프라이즈 방어 제품군을 구성하여 정교한 공격을 감지, 방지, 조사 및 자동으로 대응합니다.
+ Microsoft 365 Defender Microsoft Defender for Endpoint 및 다양한 Microsoft 보안 솔루션은 엔드포인트, ID, 전자 메일 및 응용 프로그램 전반에 걸쳐 통합되는 통합 사전 및 사후 침해 엔터프라이즈 방어 제품군을 구성하여 정교한 공격을 감지, 방지, 조사 및 자동으로 대응합니다.

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 071b0e7597d334fe06d5045e06a5c4d82dd65609
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 99aa5a74daf183788f42cd39765f39eda50472a3
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845393"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621922"
 ---
 # <a name="get-exposure-score"></a>노출 점수 가져오기
 
@@ -31,7 +31,7 @@ ms.locfileid: "52845393"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -53,13 +53,13 @@ ms.locfileid: "52845393"
 
 ## <a name="http-request"></a>HTTP 요청
 
-```
+```http
 GET /api/exposureScore
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
 권한 부여 | String | Bearer {token}. **필수입니다**.
 
@@ -71,7 +71,7 @@ GET /api/exposureScore
 
 성공하면 이 메서드는 응답 본문의 노출 데이터를 사용하여 200 OK를 반환합니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 ### <a name="request"></a>요청
 

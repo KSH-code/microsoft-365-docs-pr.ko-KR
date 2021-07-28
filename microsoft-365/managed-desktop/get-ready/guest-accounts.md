@@ -10,14 +10,16 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: d29b9d6bdc30d981b273d95925ba740bc92304c4
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 2c1878dc9095fc4c4cfbd307154097cc6ff572f1
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694248"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623999"
 ---
 # <a name="prerequisites-for-guest-accounts"></a>게스트 계정에 대한 필수 구성 요소
+
+## <a name="external-collaboration-settings"></a>외부 공동 작업 설정
 
 Microsoft Managed Desktop 액세스하려면 Azure AD 조직에서 다음 설정이 필요합니다. 외부 ID/외부 공동 작업 **설정에서** Azure [Portal에서](https://portal.azure.com) 이러한 설정을 조정할 수 있습니다.
 
@@ -29,6 +31,20 @@ Microsoft Managed Desktop 액세스하려면 Azure AD 조직에서 다음 설정
 
 이러한 설정과 상호 작용하는 제한을 설정하는 경우 최신 작업 공간 서비스 Azure Active Directory **제외해야 합니다.** 예를 들어 게스트 계정이 Intune 포털에 액세스하지 못하게 하는 조건부 액세스 정책이 있는 경우 이 정책에서 최신 **작업** 공간 서비스 계정 그룹을 제외합니다.
 
+## <a name="unlicensed-intune-admin"></a>라이선스가 없는 Intune 관리자
+
+라이선스가 **없는** 관리자에 대한 액세스 허용 설정을 사용하도록 설정해야 합니다. 이 설정을 사용하도록 설정하지 않으면 서비스를 위해 Azure AD 조직에 액세스하려고 할 때 오류가 발생할 수 있습니다. 액세스 범위는 운영 직원을 포함하여 사용자에게 할당된 역할에 의해 정의되어 있는 것이기 때문에 보안에 대한 걱정 없이 이 설정을 안전하게 사용하도록 설정할 수 있습니다.
+
+이 설정을 사용하도록 설정하려면 다음 단계를 수행합니다.
+
+1. Microsoft Endpoint Manager [관리 센터로 이동하세요.](https://go.microsoft.com/fwlink/?linkid=2109431)
+2. **테넌트 관리 역할** 관리자  >    >  **라이선스로 이동합니다.**
+3. 라이선스가 없는 **관리자에** 대한 액세스 허용에서 예를 **선택합니다.**
+
+> [!IMPORTANT]
+> 예를 선택한 후 이 설정을 취소할 수 **없습니다.**
+
+자세한 내용은 에서 라이선스가 없는 [관리자를 Microsoft Intune.](/mem/intune/fundamentals/unlicensed-admins)
 ## <a name="steps-to-get-ready"></a>준비 단계
 
 1. [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)를 감토하세요.

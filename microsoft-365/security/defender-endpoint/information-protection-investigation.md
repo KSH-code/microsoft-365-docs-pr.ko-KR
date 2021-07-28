@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fa5786b547fdbb858251eb7728bb2487ee0139ab
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 8d1598c96c8938b8bb5472a3408bad4b9f5502b0
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53543680"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53623771"
 ---
 # <a name="use-sensitivity-labels-to-prioritize-incident-response"></a>민감도 레이블을 사용하여 인시던트 대응의 우선 순위 지정  
 
@@ -30,7 +30,7 @@ ms.locfileid: "53543680"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 일반적인 고급 영구 위협 수명 주기에는 데이터 유출이 수반됩니다. 보안 인시던트에서 중요한 파일이 위험할 수 있는 조사의 우선 순위를 지정하여 회사 데이터 및 정보가 보호되는 것이 중요합니다.

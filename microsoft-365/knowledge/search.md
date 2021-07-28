@@ -1,5 +1,5 @@
 ---
-title: Microsoft Microsoft Search 사용하여 Microsoft Viva 항목의 항목 찾기
+title: 다음 Microsoft Search 사용하여 Microsoft Viva 항목 찾기
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -9,15 +9,15 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
-description: Microsoft Viva에서 항목을 검색하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a60d1e04c67eb42573bb566a5667f35227def2ad
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+description: 특정 항목에서 항목을 검색하는 Microsoft Viva 방법을 참조하세요.
+ms.openlocfilehash: 0a29bb4578ead314c362959a4e410665114c7fbb
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287260"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624347"
 ---
-# <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Microsoft Search 사용하여 Microsoft Viva 항목의 항목 찾기
+# <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>다음 Microsoft Search 사용하여 Microsoft Viva 항목 찾기
 
 Viva 항목 사용자는 자신의 SharePoint 주제를 통해 항목을 찾을 수 있는 반면, 사용자는 해당 항목을 통해 항목을 찾을 Microsoft Search. 
 
