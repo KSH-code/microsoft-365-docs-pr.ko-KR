@@ -22,12 +22,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c554f7bcedbdb64118639f5a455fd6f6e55daaa6
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 6f8e8ed59c38c00c2158292b343d5ce347ebf297
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458116"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544736"
 ---
 # <a name="try-microsoft-365-defender-incident-response-capabilities-in-a-pilot-environment"></a>파일럿 Microsoft 365 Defender 인시던트 대응 기능 테스트
 
@@ -44,7 +44,7 @@ ms.locfileid: "53458116"
 | [인시던트 관리](#manage-incidents) | 인시던트 속성을 수정하여 올바른 할당을 보장하고 태그 및 설명을 추가하고 인시던트 문제를 해결합니다. |
 | [자동화된 조사 및 응답](#examine-automated-investigation-and-response-with-the-action-center) | 보안 운영 팀이 위협을 보다 효율적으로 해결할 수 있도록 도와주는 자동화된 조사 및 대응(AIR) 기능 알림 센터는 보류 중인 수정 작업 승인과 같은 인시던트 및 경고 작업에 대한 "단일 창 창" 환경입니다. |
 | [지능형 헌팅](#advanced-hunting) | 네트워크에서 이벤트를 사전 검사하고 위협 표시기 및 엔터티를 찾을 수 있는 쿼리 기반 위협 헌팅 도구입니다. 또한 인시던트의 조사 및 수정 중에 고급 헌팅을 사용할 수 있습니다. |
-||||
+
 
 ## <a name="prioritize-incidents"></a>인시던트 우선 순위 지정
 
@@ -131,7 +131,10 @@ ms.locfileid: "53458116"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
 
 
-선택적 파일 없는 [PowerShell](eval-defender-investigate-respond-simulate-attack.md#simulate-an-attack-with-an-isolated-domain-controller-and-client-device-optional) 공격 시뮬레이션이 이미 자격 증명 액세스 단계에 도달한 실제 공격인 경우 조사의 임의 지점에서 고급 헌팅을 사용하여 생성된 경고 및 영향을 받는 엔터티에서 이미 알고 있는 것을 사용하여 네트워크의 이벤트 및 레코드를 능동적으로 검색할 수 있습니다. 예를 들어 지난 30일 동안 외부 IP 주소에 대한 연결을 쿼리할 수 있습니다.
+선택적 파일 없는 [PowerShell](eval-defender-investigate-respond-simulate-attack.md#simulate-an-attack-with-an-isolated-domain-controller-and-client-device-optional) 공격 시뮬레이션이 이미 자격 증명 액세스 단계에 도달한 실제 공격인 경우 조사의 임의 지점에서 고급 헌팅을 사용하여 생성된 경고 및 영향을 받는 엔터티에서 이미 알고 있는 것을 사용하여 네트워크의 이벤트 및 레코드를 능동적으로 검색할 수 있습니다. 
+
+예를 들어 사용자 및 [IP 주소 정비(SMB)](eval-defender-investigate-respond-simulate-attack.md#alert-user-and-ip-address-reconnaissance-smb-source-microsoft-defender-for-identity) 경고의 정보에 따라 이 표를 사용하여 모든 SMB 세션 열00 이벤트를 찾거나 Microsoft Defender for Identity 데이터에서 다른 여러 프로토콜에서 더 많은 검색 활동을 찾을 수 `IdentityDirectoryEvents` `IdentityQueryEvents` 있습니다.
+
 
 ### <a name="hunting-environment-requirements"></a>헌팅 환경 요구 사항
 

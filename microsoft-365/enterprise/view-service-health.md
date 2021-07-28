@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: 지원에 전화하기 전에 Microsoft 365 서비스의 상태를 확인하여 활성 서비스 중단이 있는지 확인하세요.
-ms.openlocfilehash: fd54e888ffa1522e43c5e798ada855f9ca9f7785
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 2b856b7851f569324d1cccabb6b2da2d098b2fbe
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53596257"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543452"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Microsoft 365 서비스 상태를 확인하는 방법
 
@@ -102,7 +102,7 @@ Microsoft 365 서비스에 문제가 있고 **서비스 상태** 페이지에 �
 
 ### <a name="translate-service-health-details"></a>서비스 상태 세부 정보 번역
 
-기계 번역을 사용하여 귀하가 선호하는 언어로 메시지를 자동으로 표시합니다. 언어 설정 방법에 대한 자세한 내용은 [서비스 상태 대시보드에 대한 언어 번역](lang-service-health.md)을 참조하세요.
+기계 번역을 사용하여 귀하가 선호하는 언어로 메시지를 자동으로 표시합니다. 언어 설정 방법에 대한 자세한 내용은 [메시지 센터 게시물의 언어 번역](/microsoft-365/admin/manage/language-translation-for-message-center-posts)을 참조하세요.
 
 ### <a name="definitions"></a>정의
 

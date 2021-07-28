@@ -16,21 +16,21 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 0e7634177e58b558381fdc230533b55cade9dc13
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: c0aa957a3521b55f5c27a88b6e9070959fb21a22
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108514"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544532"
 ---
-# <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a>라이브 응답을 사용하여 끝점용 Microsoft Defender에서 지원 로그 수집 
+# <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a>라이브 응답을 사용하여 끝점용 Microsoft Defender에서 지원 로그 수집
 
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
 
 지원에 문의할 때 끝점용 Microsoft Defender 클라이언트 분석기 도구의 출력 패키지를 제공해야 할 수 있습니다.
@@ -38,14 +38,14 @@ ms.locfileid: "53108514"
 이 항목에서는 Live Response를 통해 도구를 실행하는 방법에 대한 지침을 제공합니다.
 
 1. 적절한 스크립트 다운로드
-    * 끝점용 Microsoft Defender 클라이언트 센서 로그만:LiveAnalyzer.ps1 [스크립트.](https://aka.ms/MDELiveAnalyzer)
-      - 결과 패키지 대략적인 크기: ~100Kb 
-    *  Microsoft Defender for Endpoint 클라이언트 센서 및 바이러스 백신 로그: [LiveAnalyzer+MDAV.ps1 스크립트입니다.](https://aka.ms/MDELiveAnalyzerAV)
-       - 결과 패키지 대략적인 크기: ~10Mb 
- 
-2.  조사해야 [하는](live-response.md#initiate-a-live-response-session-on-a-device) 컴퓨터의 실시간 응답 세션을 시작합니다.
+   - 끝점용 Microsoft Defender 클라이언트 센서 로그만:LiveAnalyzer.ps1 [스크립트.](https://aka.ms/MDELiveAnalyzer)
+      - 결과 패키지 대략적인 크기: ~100Kb
+   - Microsoft Defender for Endpoint 클라이언트 센서 및 바이러스 백신 로그: [LiveAnalyzer+MDAV.ps1 스크립트입니다.](https://aka.ms/MDELiveAnalyzerAV)
+       - 결과 패키지 대략적인 크기: ~10Mb
 
-3.  라이브러리에 **업로드 파일을 선택합니다.**
+2. 조사해야 [하는](live-response.md#initiate-a-live-response-session-on-a-device) 컴퓨터의 실시간 응답 세션을 시작합니다.
+
+3. 라이브러리에 **업로드 파일을 선택합니다.**
 
     ![업로드 파일의 이미지](images/upload-file.png)
 
@@ -55,9 +55,7 @@ ms.locfileid: "53108514"
 
 5. 이름이 MDELiveAnalyzer.ps1 파일을 선택한 다음 확인을 **클릭합니다.**
 
-
    ![파일 선택 단추 2의 이미지](images/analyzer-file.png)
-
 
 6. LiveResponse 세션에서 여전히 아래 명령을 사용하여 분석기를 실행하고 결과 파일을 수집합니다.
 
@@ -66,20 +64,20 @@ ms.locfileid: "53108514"
     GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip"
     ```
 
-    [![명령 이미지 ](images/analyzer-commands.png)](images/analyzer-commands.png#lightbox)
+    [![명령 이미지](images/analyzer-commands.png)](images/analyzer-commands.png#lightbox)
 
-
->[!NOTE]
+> [!NOTE]
+>
 > - MDEClientAnalyzer의 최신 미리 보기 버전은 에서 다운로드할 수 [https://aka.ms/Betamdeanalyzer](https://aka.ms/Betamdeanalyzer) 있습니다. .
-> 
+>
 > - LiveAnalyzer 스크립트는 다음에서 대상 컴퓨터의 문제 해결 패키지를 https://mdatpclientanalyzer.blob.core.windows.net 다운로드합니다.
-> 
+>
 >   컴퓨터의 위 URL에 도달하도록 허용할 수 없는 경우 LiveAnalyzer 스크립트를 실행하기 전에 MDEClientAnalyzerPreview.zip 파일을 라이브러리에 업로드합니다.
 >
 >   ```console
 >   PutFile MDEClientAnalyzerPreview.zip -overwrite
 >   Run MDELiveAnalyzer.ps1
->   GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" 
+>   GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip"
 >   ```
-> 
+>
 > - 컴퓨터의 끝점 클라우드 서비스용 Microsoft Defender와 통신하지 않는 경우 또는 끝점용 Microsoft Defender 포털에 예상대로 나타나지 않는 경우 컴퓨터의 데이터를 로컬로 수집하는 데 대한 자세한 내용은 끝점 서비스 [URL에 대한 Microsoft Defender에](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)대한 클라이언트 연결 확인을 참조하세요.

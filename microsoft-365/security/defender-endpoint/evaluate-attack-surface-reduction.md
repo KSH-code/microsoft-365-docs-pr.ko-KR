@@ -14,12 +14,12 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 918523cdf941ae5f5e79f39fff6bcc2214a3e8ca
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: a4de3325e8c9ecdf2982f289f1da0488d4ddf6d3
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53595957"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542768"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 평가
 
@@ -30,7 +30,7 @@ ms.locfileid: "53595957"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+>끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 공격 표면 감소 규칙은 일반적으로 맬웨어가 장치 또는 네트워크를 손상시킬 때 사용하는 작업을 방지하는 데 도움이 됩니다. 공격 표면 감소 규칙은 맬웨어 및 랜섬웨어에 사용되는 많은 일반적인 진입점을 닫는 데 도움이 됩니다.
 

@@ -23,12 +23,12 @@ ms.custom: migrationguides
 ms.topic: article
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 8fcf0491629a068f1ebc97e226a2c9b05e306cbf
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 8b0065b2d73dd0051c3230e292265676d05498d0
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289514"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544820"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Endpoint용 Microsoft Defender로 전환 - 3단계: 온보딩
 
@@ -52,9 +52,9 @@ ms.locfileid: "53289514"
 
 ## <a name="onboard-devices-to-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에 장치 온보딩
 
-1. Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) ()로 이동하여 로그인합니다.
+1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하여 로그인합니다.
 
-2. 장치 **설정**  >  **온보더링**  >  **을 선택하세요.** 
+2. 끝점 **설정(장치** 관리  >    >   아래)를 **선택하세요.** 
 
 3. **온보더링 프로세스를** 시작할 운영 체제 선택 목록에서 운영 체제를 선택합니다. 
 
@@ -69,7 +69,7 @@ ms.locfileid: "53289514"
 | Windows 10     | [그룹 정책](configure-endpoints-gp.md)<p>[Configuration Manager](configure-endpoints-sccm.md)<p>[모바일 장치 관리(Intune)](configure-endpoints-mdm.md)<p>[로컬 스크립트](configure-endpoints-script.md) <p>**참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.         |
 | Windows 8.1 Enterprise <p>Windows 8.1 Pro <p>Windows 7 SP1 Enterprise <p>Windows 7 SP1 Pro     | [Microsoft Monitoring Agent](onboard-downlevel.md)<p>**참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)        |
 | Windows Server 2019 이상 <p>Windows Server 2019 Core Edition <p>Windows 서버 버전 1803 이상 | [로컬 스크립트](configure-endpoints-script.md) <p>[그룹 정책](configure-endpoints-gp.md) <p>[Configuration Manager](configure-endpoints-sccm.md) <p>[System Center Configuration Manager](configure-endpoints-sccm.md) <p>[비영구 장치에 대한 VDI 온보딩 스크립트](configure-endpoints-vdi.md) <p>**참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.    |
-| Windows Server 2016 <p>Windows Server 2012 R2 <p>Windows Server 2008 R2 SP1  | [Microsoft Defender 보안 센터](configure-server-endpoints.md)<p>[Azure Defender](/azure/security-center/security-center-wdatp) |
+| Windows Server 2016 <p>Windows Server 2012 R2 <p>Windows Server 2008 R2 SP1  | [Microsoft 365 Defender 포털](configure-server-endpoints.md)<p>[Azure Defender](/azure/security-center/security-center-wdatp) |
 | macOS:<p>11.3.1(Big Sur) <p>10.15(카탈로나)<p>10.14(모잡) | [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)  |
 | iOS | [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)  |
 | Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS 이상<p>SLES 12+<p>데비안 9+<p>Oracle Linux 7.2 | [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)  |
@@ -151,5 +151,5 @@ Microsoft Defender 바이러스 백신 Server, Windows 1803 이상 또는 Window
 
 **축하합니다!** 끝점용 [Defender로의 마이그레이션을 완료했습니다!](switch-to-microsoft-defender-migration.md#the-migration-process) 
 
-- [에서 보안 작업](security-operations-dashboard.md) 대시보드를 방문하세요Microsoft Defender 보안 센터. [https://securitycenter.windows.com](https://securitycenter.windows.com) 
+- [Microsoft 365 Defender](security-operations-dashboard.md) 포털에서 보안 작업 대시보드를 [https://security.microsoft.com](https://security.microsoft.com) 방문하세요. 
 - [마이그레이션 후 끝점에 대한 Defender를 관리합니다.](manage-atp-post-migration.md)

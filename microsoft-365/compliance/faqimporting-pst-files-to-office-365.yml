@@ -18,42 +18,89 @@ metadata:
   ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
   ms.custom: seo-marvel-apr2020
   description: 이 문서에는 PST 파일을 가져오는 관리자를 위한 몇 가지 질문과 대답이 포함되어 있습니다. Microsoft 365 가져오기 서비스를 사용하여 PST 파일을 Office 365 있습니다.
-  ms.openlocfilehash: 4340285e6c7cff857e3f3de771ec6e67d4ce010c
-  ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+  ms.openlocfilehash: fe867519cab6899b79ae03ba2304965453918b2c
+  ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/02/2021
-  ms.locfileid: "53276944"
+  ms.lasthandoff: 07/23/2021
+  ms.locfileid: "53544436"
 title: PST 파일 가져오기에 대한 FAQ
-summary: "**이 문서는 관리자를 위한 것입니다. PST 파일을 자신의 사서함으로 가져오시겠습니까? [.pst 파일에서](https://go.microsoft.com/fwlink/p/?LinkID=785075) 전자 메일, 연락처 및 일정 Outlook 참조**\n\n다음은 Office 365 가져오기 서비스를 사용하여 PST 파일을 사서함으로 대량으로 가져오는 Microsoft 365 몇 가지 질문입니다. PST 파일을 가져오는 방법에 대한 자세한 내용은 PST 파일을 [가져오는](./importing-pst-files-to-office-365.md)방법 개요를 Office 365.\n  \n## <a name=\"using-network-upload-to-import-pst-files\"></a>네트워크 업로드를 사용하여 PST 파일 가져오기\n\n단계별 지침은 네트워크 업로드를 사용하여 PST 파일을 로 가져오기 [Office 365.](use-network-upload-to-import-pst-files.md)\n"
+summary: >
+  **이 문서는 관리자를 위한 것입니다. PST 파일을 자신의 사서함으로 가져오시겠습니까? [.pst 파일에서](https://go.microsoft.com/fwlink/p/?LinkID=785075) 전자 메일, 연락처 및 일정 Outlook 참조**
+
+
+  다음은 Office 365 가져오기 서비스를 사용하여 PST 파일을 사서함으로 대량으로 가져오는 Microsoft 365 몇 가지 질문입니다. PST 파일을 가져오는 방법에 대한 자세한 내용은 PST 파일을 [가져오는](./importing-pst-files-to-office-365.md)방법 개요를 Office 365.
+
+
+  ## <a name="using-network-upload-to-import-pst-files"></a>네트워크 업로드를 사용하여 PST 파일 가져오기
+
+
+  단계별 지침은 네트워크 업로드를 사용하여 PST 파일을 로 가져오기 [Office 365.](use-network-upload-to-import-pst-files.md)
 sections:
 - name: 일반
   questions:
   - question: >
       Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 권한은 무엇입니까?
-    answer: "PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 \"역할 그룹에 역할 추가\" 또는 \"역할 그룹 만들기\" 섹션을 참조하세요.\n  \n또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족되어야 합니다.\n  \n- Exchange Online에서 전자 메일 받는 사람 역할을 할당받아야 합니다. 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 기본값으로 할당됩니다.\n    \n    또는\n    \n- 조직의 전역 관리자여야 합니다.\n    \n> [!TIP]\n> Exchange Online에서 PST 파일을 Office 365로 가져오기 위한 새로운 역할 그룹을 만드는 것이 좋습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한만 할당하려면 새 역할 그룹에 사서함 가져오기/내보내기 역할 및 메일 받는 사람 역할을 할당하고 구성원을 추가합니다. \n  \n"
+    answer: >
+      PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
+
+
+      또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족되어야 합니다.
+
+
+      - Exchange Online에서 전자 메일 받는 사람 역할을 할당받아야 합니다. 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 기본값으로 할당됩니다.
+
+          또는
+
+      - 조직의 전역 관리자여야 합니다.
+
+
+      > [!TIP]
+
+      > Exchange Online에서 PST 파일을 Office 365로 가져오기 위한 새로운 역할 그룹을 만드는 것이 좋습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한만 할당하려면 새 역할 그룹에 사서함 가져오기/내보내기 역할 및 메일 받는 사람 역할을 할당하고 구성원을 추가합니다.
   - question: >
       Where is network upload available?
-    answer: "네트워크 업로드는 현재 다음 지역에서 사용할 수 있습니다. 미국, 캐나다, 브라질, 영국, 프랑스, 독일, 스위스, 노르웨이, 유럽, 인도, 동아시아, 동남아시아, 일본, 대한민국, 호주, 아랍에미리트(UAE)입니다. 네트워크 업로드는 더 많은 지역에서 곧 사용할 수 있습니다.\n  \n"
+    answer: >
+      네트워크 업로드는 현재 다음 지역에서 사용할 수 있습니다. 미국, 캐나다, 브라질, 영국, 프랑스, 독일, 스위스, 노르웨이, 유럽, 인도, 동아시아, 동남아시아, 일본, 대한민국, 호주, 아랍에미리트(UAE)입니다. 네트워크 업로드는 더 많은 지역에서 곧 사용할 수 있습니다.
   - question: >
       What is the pricing for importing PST files by using network upload?
-    answer: "Using network upload to import PST files is free.\n  \n또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 Microsoft 365 관리 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 **Office 365로 데이터 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때에는 PST 파일의 목록이 비어 있을 수 있습니다. \n  \n"
+    answer: >
+      Using network upload to import PST files is free.
+
+
+      또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 Microsoft 365 관리 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 **Office 365로 데이터 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때에는 PST 파일의 목록이 비어 있을 수 있습니다.
   - question: >
       What version of the PST file format is supported for importing to Office 365?
-    answer: "There are two versions of the PST file format: ANSI and Unicode. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Office 365로 가져올 수 있습니다. ANSI PST 파일을 가져오는 데 대한 자세한 내용은 Use [network upload to import your organization's PST files to Office 365.](use-network-upload-to-import-pst-files.md#step-4-create-the-pst-import-mapping-file)\n  \n또한 Outlook 2007 이상 버전의 PST 파일도 Office 365로 가져올 수 있습니다.\n  \n"
+    answer: >
+      There are two versions of the PST file format: ANSI and Unicode. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Office 365로 가져올 수 있습니다. ANSI PST 파일을 가져오는 데 대한 자세한 내용은 Use [network upload to import your organization's PST files to Office 365.](use-network-upload-to-import-pst-files.md#step-4-create-the-pst-import-mapping-file)
+
+
+      또한 Outlook 2007 이상 버전의 PST 파일도 Office 365로 가져올 수 있습니다.
   - question: >
       Azure Storage 영역으로 내 PST 파일을 업로드한 후 삭제되기까지 Azure에서 얼마나 보관되나요?
-    answer: "네트워크 업로드 방법을 사용하여 PST 파일을 가져오는 경우 Azure BLOB 컨테이너로 해당 파일을 업로드하는 것입니다.`ingestiondata` 보안 및 준수 센터에서 **PST 파일 가져오기** 페이지의 가져오기 작업이 진행 중이 아니라면 Azure의 `ingestiondata` 컨테이너에 포함된 모든 PST 파일이 보안 및  준수 센터에서 가장 최근에 가져오기 작업이 생성된 날짜로부터 30일 후에 삭제됩니다. 즉, PST 파일을 Azure로 업로드한 후 30일 이내에 보안 & 준수 센터(네트워크 업로드 지침의 5단계에 설명됨)에 새 가져오기 작업을 만들어야 합니다. \n  \n또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 보안 & 준수 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 보안 및 준수 센터에서 **PST 파일 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때는 PST 파일의 목록이 비어 있을 수 있습니다. \n  \n"
+    answer: >
+      네트워크 업로드 방법을 사용하여 PST 파일을 가져오는 경우 Azure BLOB 컨테이너로 해당 파일을 업로드하는 것입니다.`ingestiondata` 보안 및 준수 센터에서 **PST 파일 가져오기** 페이지의 가져오기 작업이 진행 중이 아니라면 Azure의 `ingestiondata` 컨테이너에 포함된 모든 PST 파일이 보안 및  준수 센터에서 가장 최근에 가져오기 작업이 생성된 날짜로부터 30일 후에 삭제됩니다. 즉, PST 파일을 Azure로 업로드한 후 30일 이내에 보안 & 준수 센터(네트워크 업로드 지침의 5단계에 설명됨)에 새 가져오기 작업을 만들어야 합니다.
+
+
+      또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 보안 & 준수 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 보안 및 준수 센터에서 **PST 파일 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때는 PST 파일의 목록이 비어 있을 수 있습니다.
   - question: >
       How long does it take to import a PST file to a mailbox?
-    answer: "트워크 용량에 따라 달라지지만 1TB(테라바이트)의 데이터를 조직의 Azure Storage 영역에 업로드하는 데 일반적으로 몇 시간이 걸립니다. PST 파일을 Azure Storage 영역으로 복사한 후 하루당 24GB 이상의 속도로 PST 파일을 Microsoft 365 사서함으로 가져올 수 있습니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 마이그레이션하는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.\n  \n다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 마찬가지로, 여러 PST 파일을 같은 사서함으로 동시에 가져올 수 있습니다.\n  \n"
+    answer: >
+      트워크 용량에 따라 달라지지만 1TB(테라바이트)의 데이터를 조직의 Azure Storage 영역에 업로드하는 데 일반적으로 몇 시간이 걸립니다. PST 파일을 Azure Storage 영역으로 복사한 후 PST 파일을 하루 약 24GB의 Microsoft 365 사서함으로 가져오게 <sup>\*</sup> 됩니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 마이그레이션하는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
+
+
+      <sup>\*</sup>이 속도는 보장되지 않습니다. 서버 워크로드 및 일시적인 성능 문제로 이 속도가 저하될 수 있습니다.
+
+
+      다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 여러 PST 파일을 동일한 사서함으로 가져오는 경우 동시에 가져오지 않는 일차적인(한 번씩) 가져오기됩니다.
   - question: >
       PST 가져오기 프로세스는 중복 전자 메일 항목을 어떻게 처리합니까?
     answer: >
       PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 또는 대상 아카이브의 대상 폴더에 일치하는 항목이 있는 경우 PST 파일에서 사서함 또는 아카이브로 항목을 복사하지 않습니다. 동일한 PST 파일을 다시 가져오고 이전 가져오기 작업에서 지정한 폴더와 다른 대상 폴더(PST 가져오기 매핑 파일의 TargetRootFolder 속성을 사용하여)를 지정하면 PST 파일의 모든 항목을 다시 가져옵니다.
   - question: >
       Is there a message size limit when importing PST files?
-    answer: "예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 가져오기 프로세스 동안 항목을 가져오지 않고 건너뜁니다. 150MB보다 큰 항목은 Exchange Online의 메시지 크기 제한이 150MB이기 때문에 가져오지 않습니다. 자세한 내용은 [Exchange Online의 메시지 제한](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)을 참조하세요.\n  \n"
+    answer: >
+      예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 가져오기 프로세스 동안 항목을 가져오지 않고 건너뜁니다. 150MB보다 큰 항목은 Exchange Online의 메시지 크기 제한이 150MB이기 때문에 가져오지 않습니다. 자세한 내용은 [Exchange Online의 메시지 제한](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)을 참조하세요.
   - question: >
       PST 파일을 Microsoft 365 사서함으로 가져올 때 메시지를 보내거나 받은 시간, 받는 사람의 목록, 기타 속성 등 메시지 속성이 보존되나요?
     answer: >
@@ -76,23 +123,59 @@ sections:
       아니요, 공용 폴더에 PST 파일을 가져올 수 없습니다.
   - question: >
       네트워크 업로드 가져오기 작업을 만들 때 화면 해상도 요구 사항이 있나요?
-    answer: "로컬 컴퓨터의 화면 해상도가 1366 x 768로 설정된 경우 가져오기 작업을 만드는 데 문제가 있을 수 있습니다. 이 경우 화면 해상도를 다른 설정으로 변경한 다음 새 가져오기 작업을 만드는 것이 좋습니다. We're working to fix this issue.     \n\n\n\n## <a name=\"using-drive-shipping-to-import-pst-files\"></a>드라이브 배송을 사용하여 PST 파일 가져오기\n\n단계별 지침은 드라이브 배송을 사용하여 [PST](use-drive-shipping-to-import-pst-files-to-office-365.md)파일 가져오기 및 Office 365.\n"
+    answer: >
+      로컬 컴퓨터의 화면 해상도가 1366 x 768로 설정된 경우 가져오기 작업을 만드는 데 문제가 있을 수 있습니다. 이 경우 화면 해상도를 다른 설정으로 변경한 다음 새 가져오기 작업을 만드는 것이 좋습니다. We're working to fix this issue.
+
+
+      ## <a name="using-drive-shipping-to-import-pst-files"></a>드라이브 배송을 사용하여 PST 파일 가져오기
+
+
+      단계별 지침은 드라이브 배송을 사용하여 [PST](use-drive-shipping-to-import-pst-files-to-office-365.md)파일 가져오기 및 Office 365.
   - question: >
       Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 권한은 무엇입니까?
-    answer: "PST 파일을 Microsoft 365 사서함으로 가져오려면 사서함 가져오기 내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 \"역할 그룹에 역할 추가\" 또는 \"역할 그룹 만들기\" 섹션을 참조하세요.\n  \n또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족되어야 합니다.\n  \n- Exchange Online에서 전자 메일 받는 사람 역할을 할당받아야 합니다. 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 기본값으로 할당됩니다.\n    \n    또는\n    \n- 조직의 전역 관리자여야 합니다.\n    \n> [!TIP]\n> Exchange Online에서 PST 파일을 Office 365로 가져오기 위한 새로운 역할 그룹을 만드는 것이 좋습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한만 할당하려면 새 역할 그룹에 사서함 가져오기/내보내기 역할 및 메일 받는 사람 역할을 할당하고 구성원을 추가합니다. \n  \n"
+    answer: >
+      PST 파일을 Microsoft 365 사서함으로 가져오려면 사서함 가져오기 내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
+
+
+      또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족되어야 합니다.
+
+
+      - Exchange Online에서 전자 메일 받는 사람 역할을 할당받아야 합니다. 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 기본값으로 할당됩니다.
+
+          또는
+
+      - 조직의 전역 관리자여야 합니다.
+
+
+      > [!TIP]
+
+      > Exchange Online에서 PST 파일을 Office 365로 가져오기 위한 새로운 역할 그룹을 만드는 것이 좋습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한만 할당하려면 새 역할 그룹에 사서함 가져오기/내보내기 역할 및 메일 받는 사람 역할을 할당하고 구성원을 추가합니다.
   - question: >
       Where is drive shipping available?
-    answer: "현재 드라이브 배송은 미국, 캐나다, 브라질, 영국, 유럽, 인도, 동아시아, 동남 아시아, 일본, 대한민국 및 오스트레일리아에서 사용할 수 있습니다. 드라이브 배송을 사용할 수 있는 지역이 곧 더 많아질 예정입니다.\n\n> [!NOTE]\n> 현재 독일 및 스위스에서는 PST 파일을 가져오기 위한 드라이브 배송을 사용할 수 없습니다. 이러한 국가에서 드라이브 배송이 가능한 경우 이 FAQ가 업데이트됩니다.\n  \n"
+    answer: >
+      현재 드라이브 배송은 미국, 캐나다, 브라질, 영국, 유럽, 인도, 동아시아, 동남 아시아, 일본, 대한민국 및 오스트레일리아에서 사용할 수 있습니다. 드라이브 배송을 사용할 수 있는 지역이 곧 더 많아질 예정입니다.
+
+
+      > [!NOTE]
+
+      > 현재 독일 및 스위스에서는 PST 파일을 가져오기 위한 드라이브 배송을 사용할 수 없습니다. 이러한 국가에서 드라이브 배송이 가능한 경우 이 FAQ가 업데이트됩니다.
   - question: >
       What commercial licensing agreements support drive shipping?
     answer: >
       PST 파일을 Microsoft 365로 가져오기 위한 드라이브 배송은 Microsoft EA(Enterprise Agreement)를 통해 가능합니다. MPSA(Microsoft 제품 및 서비스 계약)를 통해서는 드라이브 배송이 가능하지 않습니다.
   - question: >
       파일을 Microsoft 365로 가져오기 위해 드라이브 배송을 사용하는 경우 그 가격은 얼마인가요?
-    answer: "Microsoft 365 사서함으로 PST 파일을 가져오기 위해 드라이브 배송을 사용하는 비용은 1GB의 데이터당 2,000원입니다. 예를 들어 1,000GB(1TB)의 PST 파일이 포함된 하드 드라이브를 배송하는 경우 비용은 2,000,000원입니다. 파트너와 협의하여 가져오기 요금을 지불할 수 있습니다. 파트너를 찾는 방법에 대한 내용은 [Microsoft 파트너 또는 대리점 찾기](../admin/manage/find-your-partner-or-reseller.md)를 참조하세요.\n  \n"
+    answer: >
+      Microsoft 365 사서함으로 PST 파일을 가져오기 위해 드라이브 배송을 사용하는 비용은 1GB의 데이터당 2,000원입니다. 예를 들어 1,000GB(1TB)의 PST 파일이 포함된 하드 드라이브를 배송하는 경우 비용은 2,000,000원입니다. 파트너와 협의하여 가져오기 요금을 지불할 수 있습니다. 파트너를 찾는 방법에 대한 내용은 [Microsoft 파트너 또는 대리점 찾기](../admin/manage/find-your-partner-or-reseller.md)를 참조하세요.
   - question: >
       What kind of hard drives are supported for drive shipping?
-    answer: "2.5인치 SDD(Solid-State Drive) 또는 2.5인치 또는 3.5인치 SATA II/III 내부 하드 드라이브만 Office 365 가져오기 서비스에서 사용할 수 있습니다. 최대 10TB의 하드 드라이브를 사용할 수 있습니다. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리됩니다. 데이터 볼륨은 NTFS 형식으로 포맷되어야 합니다. 하드 드라이브에 데이터를 복사할 때 2.5인치 SSD 또는 2.5인치 또는 3.5인치 SATA II/III 커넥터를 사용하여 직접 첨부하거나 외부 2.5인치 SSD 또는 2.5인치 또는 3.5인치 SATA II/III USB 어댑터를 사용하여 외부에 연결할 수 있습니다.\n  \n> [!IMPORTANT]\n> USB 어댑터가 내장되어 함께 제공되는 외장 하드 드라이브는 Office 365 가져오기 서비스에서 지원하지 않습니다. 또한 외장 하드 드라이브 케이스 내부의 디스크를 사용할 수 없습니다. Please don't ship external hard drives. \n  \n"
+    answer: >
+      2.5인치 SDD(Solid-State Drive) 또는 2.5인치 또는 3.5인치 SATA II/III 내부 하드 드라이브만 Office 365 가져오기 서비스에서 사용할 수 있습니다. 최대 10TB의 하드 드라이브를 사용할 수 있습니다. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리됩니다. 데이터 볼륨은 NTFS 형식으로 포맷되어야 합니다. 하드 드라이브에 데이터를 복사할 때 2.5인치 SSD 또는 2.5인치 또는 3.5인치 SATA II/III 커넥터를 사용하여 직접 첨부하거나 외부 2.5인치 SSD 또는 2.5인치 또는 3.5인치 SATA II/III USB 어댑터를 사용하여 외부에 연결할 수 있습니다.
+
+
+      > [!IMPORTANT]
+
+      > USB 어댑터가 내장되어 함께 제공되는 외장 하드 드라이브는 Office 365 가져오기 서비스에서 지원하지 않습니다. 또한, 외장 하드 드라이브 케이스에 들어 있는 디스크는 사용할 수 없습니다. 외장 하드 드라이브는 발송하지 마시기 바랍니다.
   - question: >
       How many hard drives can I ship for a single import job?
     answer: >
@@ -107,16 +190,25 @@ sections:
       Microsoft 데이터 센터에서 하드 드라이브를 받은 후 PST 파일을 조직의 Azure Storage 영역에 업로드하는 데 영업일로부터 7~10일이 소요됩니다. PST 파일은 `ingestiondata`라고 하는 Azure Blob 컨테이너에 업로드됩니다.
   - question: >
       How long does it take to import a PST file to a mailbox?
-    answer: "PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST 파일의 데이터를 안전한 방법으로 분석하여 항목 경과 시간과 PST 파일에 포함된 다양한 메시지 유형을 식별합니다. 분석이 완료되면 PST 파일의 모든 데이터를 가져오거나 필터를 설정하여 가져온 데이터를 제어할 수 있는 옵션이 나타납니다. 가져오기 작업을 시작하면 하루당 최소 24GB의 속도로 PST 파일을 Microsoft 365 사서함으로 가져옵니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.\n  \n다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 마찬가지로, 여러 PST 파일을 같은 사서함으로 동시에 가져올 수 있습니다.\n  \n"
+    answer: >
+      PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST 파일의 데이터를 안전한 방법으로 분석하여 항목 경과 시간과 PST 파일에 포함된 다양한 메시지 유형을 식별합니다. 분석이 완료되면 PST 파일의 모든 데이터를 가져오거나 필터를 설정하여 가져온 데이터를 제어할 수 있는 옵션이 나타납니다. 가져오기 작업을 시작하면 하루당 최소 24GB의 속도로 PST 파일을 Microsoft 365 사서함으로 가져옵니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
+
+
+      다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 여러 PST 파일을 동일한 사서함으로 가져오는 경우 동시에 가져오지 않는 일차적인(한 번씩) 가져오기됩니다.
   - question: >
       Microsoft에서 Azure에 내 PST 파일을 업로드한 후 삭제되기까지 Azure에서 얼마나 보관되나요?
-    answer: "조직의 Azure Storage 위치(`ingestiondata`라고 하는 Blob 컨테이너)에 있는 모든 PST 파일은 보안 & 준수 센터에서 **PST 파일 가져오기** 페이지의 가장 최근 가져오기 작업이 만들어지고 30일 후에 삭제됩니다.  \n  \n또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 보안 & 준수 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 보안 및 준수 센터에서 **PST 파일 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때는 PST 파일의 목록이 비어 있을 수 있습니다. \n  \n"
+    answer: "조직의 Azure Storage 위치(`ingestiondata`라고 하는 Blob 컨테이너)에 있는 모든 PST 파일은 보안 & 준수 센터에서 **PST 파일 가져오기** 페이지의 가장 최근 가져오기 작업이 만들어지고 30일 후에 삭제됩니다. \n\n또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 보안 & 준수 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 보안 및 준수 센터에서 **PST 파일 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때는 PST 파일의 목록이 비어 있을 수 있습니다.\n"
   - question: >
       Microsoft 365로 가져올 수 있는 PST 파일 형식의 버전은 어떻게 되나요?
-    answer: "PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Microsoft 365로 가져올 수 있습니다. ANSI PST 파일을 가져오는 데 대한 자세한 내용은 Use [drive shipping to import PST files to Office 365.](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file)\n  \n또한 Outlook 2007 이상 버전의 PST 파일도 Office 365로 가져올 수 있습니다.\n  \n"
+    answer: >
+      PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Microsoft 365로 가져올 수 있습니다. ANSI PST 파일을 가져오는 데 대한 자세한 내용은 Use [drive shipping to import PST files to Office 365.](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file)
+
+
+      또한 Outlook 2007 이상 버전의 PST 파일도 Office 365로 가져올 수 있습니다.
   - question: >
       Is there a message size limit when importing PST files?
-    answer: "예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 가져오기 프로세스 동안 항목을 가져오지 않고 건너뜁니다. 150MB보다 큰 항목은 Exchange Online의 메시지 크기 제한이 150MB이기 때문에 가져오지 않습니다. 자세한 내용은 [Exchange Online의 메시지 제한](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)을 참조하세요.\n  \n"
+    answer: >
+      예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 가져오기 프로세스 동안 항목을 가져오지 않고 건너뜁니다. 150MB보다 큰 항목은 Exchange Online의 메시지 크기 제한이 150MB이기 때문에 가져오지 않습니다. 자세한 내용은 [Exchange Online의 메시지 제한](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)을 참조하세요.
   - question: >
       PST 가져오기 프로세스는 중복 전자 메일 항목을 어떻게 처리합니까?
     answer: >
@@ -124,7 +216,7 @@ sections:
   - question: >
       PST 파일을 Microsoft 365 사서함으로 가져올 때 메시지를 보내거나 받은 시간, 받는 사람의 목록, 기타 속성 등 메시지 속성이 보존되나요?
     answer: >
-      예. 가져오기 프로세스 중에는 원본 메시지 메타데이터가 변경되지 않습니다.
+      예. 가져오기 프로세스 중에 원본 메시지 메타데이터가 변경되지 않음
   - question: >
       Is there a limit to the number of levels in a folder hierarchy for a PST file that I want to import to a mailbox?
     answer: >
@@ -164,7 +256,7 @@ sections:
   - question: >
       If I have to ship my hard drive to another country, is there anything I need to do?
     answer: >
-      The hard drive that you ship to Microsoft might have to cross international borders. 이 경우 귀하에게 하드 드라이브와 하드 드라이브에 포함된 데이터를 해당 법규에 따라 가져오거나 내보낼 책임이 있습니다. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.
+      Microsoft에 배송하는 하드 드라이브가 국경을 통과해야 하는 경우도 있습니다. 이 경우 해당 법률에 따라 하드 드라이브와 해당 드라이브에 포함된 데이터를 수입 및/또는 수출 할 책임이 있습니다. 하드 드라이브를 배송하기 전에 관리자에게 문의하여 드라이브 및 데이터가 지정된 Microsoft 데이터 센터로 정상적으로 배송될 수 있는지 확인합니다. 이렇게 하면 적시에 Microsoft로 도착할 수 있습니다.
   - question: >
       드라이브 배송을 위한 가져오기 작업을 만들 때 화면 해상도 요구 사항이 있나요?
     answer: 로컬 컴퓨터의 화면 해상도가 1366 x 768로 설정된 경우 가져오기 작업을 만드는 데 문제가 있을 수 있습니다. 이 경우 화면 해상도를 다른 설정으로 변경한 다음 새 가져오기 작업을 만드는 것이 좋습니다. We're working to fix this issue.

@@ -23,12 +23,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 56a63c09690e28f0ca4990dcbcbcb6cfff7d5eef
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: e2bce4d202c36e0174592fa3dd5e0edee08490ee
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929506"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544544"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>끝점용 Microsoft Defender로 전환 - 1단계: 준비
 
@@ -46,7 +46,7 @@ ms.locfileid: "52929506"
 
 1. [조직 장치에 업데이트 다운로드 및 배포](#get-and-deploy-updates-across-your-organizations-devices)
 2. [끝점용 Defender를 을(를) 얻습니다.](#get-microsoft-defender-for-endpoint)
-3. [에 대한 액세스 권한을 Microsoft Defender 보안 센터.](#grant-access-to-the-microsoft-defender-security-center)
+3. [Microsoft 365 Defender 액세스 권한을 부여합니다.](#grant-access-to-the-microsoft-365-defender-portal)
 4. [장치 프록시 및 인터넷 연결 설정을 구성합니다.](#configure-device-proxy-and-internet-connectivity-settings)
 
 ## <a name="get-and-deploy-updates-across-your-organizations-devices"></a>조직 장치에 업데이트 다운로드 및 배포
@@ -83,16 +83,16 @@ ms.locfileid: "52929506"
 
 4. 조직의 끝점(예: 장치)이 프록시를 사용하여 인터넷에 액세스하는 경우 Endpoint 설치용 [Defender: 네트워크 구성을 참조합니다.](production-deployment.md#network-configuration)
  
-이제 Microsoft Defender 보안 센터()를 사용할 보안 관리자 및 보안 운영자에 대한 액세스 권한을 부여할 준비가 [https://securitycenter.windows.com](https://securitycenter.windows.com) Microsoft Defender 보안 센터. 
+이제 Microsoft 365 Defender 포털()을 사용할 보안 관리자 및 보안 운영자에 대한 액세스 권한을 부여할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 
 
 > [!NOTE]
-> 이 Microsoft Defender 보안 센터 끝점용 Defender 포털이라고도 하며 에서 액세스할 수 [https://securitycenter.windows.com](https://securitycenter.windows.com) 있습니다. 
+> Microsoft 365 Defender 포털을 끝점용 Defender 포털이라고도 하며 에서 액세스할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 
 
-## <a name="grant-access-to-the-microsoft-defender-security-center"></a>사용자 액세스 권한 Microsoft Defender 보안 센터
+## <a name="grant-access-to-the-microsoft-365-defender-portal"></a>웹 사이트 포털에 Microsoft 365 Defender 권한 부여
 
-Microsoft Defender 보안 센터 ()는 끝점용 Defender의 기능에 액세스하고 구성하는 [https://securitycenter.windows.com](https://securitycenter.windows.com) 위치입니다. 자세한 내용은 의 [개요를 Microsoft Defender 보안 센터.](use.md)
+Microsoft 365 Defender 포털()에서는 끝점용 Defender의 기능에 액세스하고 [https://security.microsoft.com](https://security.microsoft.com) 구성할 수 있습니다. 자세한 내용은 포털 [개요를 Microsoft 365 Defender 참조하세요.](use.md)
 
-기본 사용 Microsoft Defender 보안 센터 RBAC(역할 기반 액세스 제어)를 사용하여 사용 권한을 부여할 수 있습니다. 사용 권한을 보다 세밀하게 제어할 수 있도록 RBAC를 사용하는 것이 좋습니다.
+기본 사용 Microsoft 365 Defender RBAC(역할 기반 액세스 제어)를 사용하여 사이트 포털에 대한 사용 권한을 부여할 수 있습니다. 사용 권한을 보다 세밀하게 제어할 수 있도록 RBAC를 사용하는 것이 좋습니다.
 
 1. 보안 관리자 및 보안 운영자에 대한 역할 및 사용 권한을 계획합니다. 역할 [기반 액세스 제어를 참조합니다.](prepare-deployment.md#role-based-access-control)
 
@@ -104,7 +104,7 @@ Microsoft Defender 보안 센터 ()는 끝점용 Defender의 기능에 액세스
     - [고급 그룹 정책 관리](/microsoft-desktop-optimization-pack/agpm)
     - [Windows 관리 센터](/windows-server/manage/windows-admin-center/overview)
 
-3. 앱에 대한 액세스 권한을 Microsoft Defender 보안 센터. (도움이 필요하세요? [RBAC를 사용하여 포털 액세스 관리를 참조합니다.](rbac.md)
+3. 사이트 포털에 대한 Microsoft 365 Defender 부여합니다. (도움이 필요하세요? [RBAC를 사용하여 포털 액세스 관리를 참조합니다.](rbac.md)
 
 ## <a name="configure-device-proxy-and-internet-connectivity-settings"></a>장치 프록시 및 인터넷 연결 설정 구성
 

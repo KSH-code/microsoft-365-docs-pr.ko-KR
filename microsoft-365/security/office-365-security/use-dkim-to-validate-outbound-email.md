@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9aa67d7875bb7f81c6569b56704d221b57378962
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: b5e852e26d1fc336a52255ea8fc7a90ab384c64c
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108502"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544484"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -113,7 +113,7 @@ Get-DkimSigningConfig -Identity <Domain for which the configuration was set> | F
 > [!TIP]
 > 이 새 2048 비트 키는 RotateOnDate에 적용되며그 사이에 1024 비트 키로 전자 메일을 보냅니다. 4 일 후 2048 비트 키 (즉, 두 번째 선택기에 회전이 적용되는 경우)를 사용하여 다시 테스트를 수행할 수 있습니다.
 
-두 번째 선택기를 회전하려면 a) Microsoft 365 서비스가 선택기를 회전시키게 하고 6개월 이내에 2048 비트로 업그레이드하거나 b) 4일 후 2048 비트가 사용되고 있는지 확인한 후 나열된 적절 한 cmdlet을 사용하여 수동으로 두 번째 회전기 키를 회전시킵니다.
+두 번째 선택기로 회전하려면 4일 후 2048비트가 사용 중인지 확인한 후 위에 나열된 적절한 cmdlet을 사용하여 두 번째 선택기 키를 수동으로 회전합니다.
 
 구문 및 매개 변수에 대한 자세한 정보는 다음 문서를 참조하세요.[Rotate-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](/powershell/module/exchange/new-dkimsigningconfig) 및 [Get-DkimSigningConfig](/powershell/module/exchange/get-dkimsigningconfig)
 
@@ -208,6 +208,8 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 5. 각 사용자 지정 도메인마다 이 단계를 반복합니다.
 
+6. DKIM을 처음 구성할 때 '이 도메인에 대해 저장된 DKIM 키 없음' 오류가 나타나면 다음 단계에서 설명한 대로 Windows PowerShell을 사용하여 DKIM 서명을 활성화해야 합니다.
+
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>PowerShell을 사용하여 사용자 지정 도메인에 DKIM 서명 사용
 
 > [!IMPORTANT]
@@ -259,7 +261,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 ## <a name="disabling-the-dkim-signing-policy-for-a-custom-domain"></a>사용자 지정 도메인에 대해 DKIM 서명 정책을 사용 하지 않도록 설정
 <a name="DisableDKIMSigningPolicy"> </a>
 
-서명 정책을 비활성화해도 DKIM이 완전히 비활성화되지는 않습니다. 일정 시간이 지나면 Microsoft 365는 도메인에 대한 기본 Microsoft 365 정책을 자동으로 적용합니다. 자세한 내용은 [DKIM 및 Microsoft 365의 기본 동작](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior)을 참조합니다.
+서명 정책을 비활성화해도 DKIM이 완전히 비활성화되지는 않습니다. 다시 사용하지 않도록 설정하고 일정 시간이 지나면 기본 정책이 계속 사용되는 상태로 설정된 경우, Microsoft 365가 도메인에 대해 기본 정책을 자동으로 적용합니다. DKIM을 완전히 사용하지 않도록 설정하려면 사용자 지정 도메인과 기본 도메인 모두에서 DKIM을 사용하지 않도록 설정해야 합니다. 자세한 내용은 [DKIM 및 Microsoft 365의 기본 동작](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior)을 참조합니다.
 
 ### <a name="to-disable-the-dkim-signing-policy-by-using-windows-powershell"></a>Windows PowerShell을 사용하여 DKIM 서명 정책을 비활성화하려면
 
@@ -294,9 +296,9 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 ## <a name="default-behavior-for-dkim-and-microsoft-365"></a>DKIM 및 Microsoft 365의 기본 동작
 <a name="DefaultDKIMbehavior"> </a>
 
-DKIM을 사용하지 않도록 설정하면 Microsoft 365는 기본 도메인에 대해 1024 비트 DKIM 공개 키와 데이터 센터에 내부적으로 저장되는 관련 개인 키를 자동으로 만듭니다. 기본적으로 Microsoft 365는 정책이 없는 도메인에 대해 기본 서명 구성을 사용합니다. 즉, DKIM을 직접 설정하지 않으면 Microsoft 365는 도메인에 DKIM을 사용하기 위해 만든 기본 정책과 키를 사용합니다.
+DKIM을 사용하지 않도록 설정하면 Microsoft 365는 MOERA(Microsoft 온라인 전자 메일 라우팅 주소)/초기 도메인에 대해 1024 비트 DKIM 공개 키와 데이터 센터에 내부적으로 저장되는 관련 개인 키를 자동으로 만듭니다. 기본적으로 Microsoft 365는 정책이 없는 도메인에 대해 기본 서명 구성을 사용합니다. 즉, DKIM을 직접 설정하지 않으면 Microsoft 365는 도메인에 DKIM을 사용하기 위해 만든 기본 정책과 키를 사용합니다.
 
-또한 DKIM 서명을 사용하도록 설정 한 후 다시 사용하지 않도록 설정할 경우 일정 시간이 지나면 Microsoft 365가 도메인에 대해 Microsoft 365 기본 정책을 자동으로 적용합니다.
+또한 사용자 지정 도메인에서 DKIM 서명을 사용하도록 설정 한 후 다시 사용하지 않도록 설정할 경우 일정 시간이 지나면 Microsoft 365가 사용자 지정 도메인에 대해 MOERA/초기 도메인 정책을 자동으로 적용합니다.
 
 다음 예제에서는 fabrikam.com용 DKIM이 도메인 관리자가 아닌 Microsoft 365에서 활성화되었다고 가정합니다. 이는 필수적인 CNAME이 DNS에 존재하지 않음을 의미합니다. 이 도메인의 전자 메일에 대한 DKIM 서명은 다음과 같습니다.
 

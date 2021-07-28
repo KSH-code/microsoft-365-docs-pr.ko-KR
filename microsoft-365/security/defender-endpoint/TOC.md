@@ -258,7 +258,6 @@
 #### [클라우드 제공 보호 및 Microsoft Defender 바이러스 백신](cloud-protection-microsoft-defender-antivirus.md)
 ##### [클라우드 제공 보호 켜기](enable-cloud-protection-microsoft-defender-antivirus.md)
 ##### [클라우드 제공 보호 수준 지정](specify-cloud-protection-level-microsoft-defender-antivirus.md)
-##### [클라우드 제공 보호 Microsoft Defender 바이러스 백신 샘플 제출](cloud-protection-microsoft-antivirus-sample-submission.md)
 #### [Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)
 #### [무단 보호를 사용하여 보안 설정 보호](prevent-changes-to-security-settings-with-tamper-protection.md)
 #### [즉각적 차단 켜기](configure-block-at-first-sight-microsoft-defender-antivirus.md)
@@ -484,7 +483,6 @@
 ####### [경고 관련 IP 정보 가져오기](get-alert-related-ip-info.md)
 ####### [경고 관련 장치 정보 가져오기](get-alert-related-machine-info.md)
 ####### [경고 관련 사용자 정보 가져오기](get-alert-related-user-info.md)
-####### [Microsoft 365 Defender의 경고 큐](alerts-queue-endpoint-detection-response.md)
 
 ###### [취약성 및 보안 구성 평가]()
 ####### [평가 방법 및 속성 내보내기](get-assessment-methods-properties.md)

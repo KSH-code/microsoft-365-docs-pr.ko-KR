@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: 7589003505aafb480872b14a09c383cfbe0dff40
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 7497d21cc85449ee2141ac1362f82d092f150b4b
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683556"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544712"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -99,7 +99,7 @@ SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있�
 
     **다음** 을 클릭합니다.
 
-5. **콘텐츠 센터 생성** 페이지에서 사용자가 문서 이해 모델을 생성하고 관리할 수 있는 SharePoint 콘텐츠 센터 사이트를 생성할 수 있습니다.
+5. **콘텐츠 센터 생성** 페이지에서 사용자가 문서 이해 모델을 생성하고 관리할 수 있는 SharePoint 콘텐츠 센터 사이트를 생성할 수 있습니다. 이전에 SharePoint 관리 센터에서 콘텐츠 센터를 만든 경우 해당 정보가 여기에 표시되며 **다음** 을 선택하면 됩니다.
 
     1. **사이트 이름** 에 대해 콘텐츠 센터 사이트에 지정할 이름을 입력합니다.
     

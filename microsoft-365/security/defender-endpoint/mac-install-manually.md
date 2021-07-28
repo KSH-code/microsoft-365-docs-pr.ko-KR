@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d8458f1bacc6577d83878a94c24e649371d90038
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d3d09f293924003ea8bf3df0079b31b633e1cc23
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935332"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544641"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 수동 배포
 
@@ -36,6 +36,7 @@ ms.locfileid: "51935332"
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 이 항목에서는 macOS에서 수동으로 끝점용 Microsoft Defender를 배포하는 방법을 설명합니다. 배포를 성공적으로 수행하려면 다음 단계를 모두 완료해야 합니다.
+
 - [설치 및 온보더링 패키지 다운로드](#download-installation-and-onboarding-packages)
 - [응용 프로그램 설치(macOS 10.15 및 이전 버전)](#application-installation-macos-1015-and-older-versions)
 - [응용 프로그램 설치(macOS 11 이상 버전)](#application-installation-macos-11-and-newer-versions)
@@ -47,17 +48,17 @@ ms.locfileid: "51935332"
 
 ## <a name="download-installation-and-onboarding-packages"></a>설치 및 온보더링 패키지 다운로드
 
-다음 사이트에서 설치 및 온보더링 패키지를 Microsoft Defender 보안 센터.
+다음 포털에서 설치 및 온보 Microsoft 365 Defender 다운로드합니다.
 
-1. 다음 Microsoft Defender 보안 센터 **온보드 설정 > 장치** 관리 > 로 이동하세요.
+1. Microsoft 365 Defender 포털에서 장치 관리 설정 > 끝점 > 온보 > **로 이동하세요.**
 2. 페이지의 섹션 1에서 운영 체제를 **macOS로** 설정하고 배포 방법을 **로컬 스크립트로 설정합니다.**
 3. 페이지의 섹션 2에서 설치 패키지 **다운로드를 선택합니다.** 로컬 디렉터리에 wdav.pkg로 저장합니다.
 4. 페이지의 섹션 2에서 **온보더링 패키지 다운로드를 선택합니다.** 동일한 디렉터리에 WindowsDefenderATPOnboardingPackage.zip 저장합니다.
 
-    ![Microsoft Defender 보안 센터 스크린샷](images/atp-portal-onboarding-page.png)
+    ![Microsoft 365 Defender 포털 스크린샷](images/portal-onboarding-macos.png)
 
 5. 명령 프롬프트에서 두 개의 파일이 있는지 확인해야 합니다.
-    
+
 ## <a name="application-installation-macos-1015-and-older-versions"></a>응용 프로그램 설치(macOS 10.15 및 이전 버전)
 
 이 프로세스를 완료하려면 디바이스에 관리자 권한이 있어야 합니다.
@@ -107,11 +108,11 @@ ms.locfileid: "51935332"
 
 5. Mac의 끝점용 Microsoft Defender와 함께 배포된 모든 시스템 확장에 대해 & 4단계를 반복합니다.
 
-6. 끝점 검색 및 응답 기능의 일부로 Mac의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 네트워크 트래픽을 필터링할 수 있는 끝점에 대한 Microsoft Defender 사용 권한을 부여하라는 메시지가 표시될 때 허용을 **선택합니다.**
+6. 끝점 검색 및 응답 기능의 일부로 Mac의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft 365 Defender 포털에 보고합니다. 네트워크 트래픽을 필터링할 수 있는 끝점에 대한 Microsoft Defender 사용 권한을 부여하라는 메시지가 표시될 때 허용을 **선택합니다.**
 
     ![시스템 확장 보안 기본 설정2](images/big-sur-install-4.png)
 
-7. 시스템 **기본 설정** 보안 & 개인 정보 보호를 열고 개인 정보 탭으로 이동합니다. 끝점 보안 확장에 대한 모든 Microsoft Defender ATP Microsoft Defender ATP 권한을  >   **부여합니다.**   
+7. 시스템 **기본 설정** 보안 & 개인 정보 보호 탭으로  >   이동합니다. Microsoft Defender ATP 및 **Microsoft Defender ATP**  끝점 보안 확장에 모든 디스크 액세스 권한을 **부여합니다.** 
 
     ![전체 디스크 액세스](images/big-sur-install-5.png)
 
@@ -138,10 +139,9 @@ ms.locfileid: "51935332"
     ```
 
     설치 후 오른쪽 위 모서리의 macOS 상태 표시줄에 Microsoft Defender 아이콘이 표시됩니다.
-    
+
     > [!div class="mx-imgBorder"]
     > ![상태 표시줄의 Microsoft Defender 아이콘 스크린샷](images/mdatp-icon-bar.png)
-
 
 ## <a name="how-to-allow-full-disk-access"></a>전체 디스크 액세스를 허용하는 방법
 
@@ -174,7 +174,7 @@ ms.locfileid: "51935332"
 
    1. In your browser such as Microsoft Edge for Mac or Safari.
 
-   1. MacOS MDATP 다운로드 DIY.zip https://aka.ms/mdatpmacosdiy 추출합니다.
+   1. MDATP MacOS 다운로드 DIY.zip https://aka.ms/mdatpmacosdiy 추출합니다.
 
       다음 메시지가 표시될 수 있습니다.
 
@@ -185,41 +185,41 @@ ms.locfileid: "51935332"
 
 5. 다운로드 **열기.**
 
-6. MacOS **DIY가 MDATP 있습니다.**
+6. **MDATP MacOS DIY가 표시 됩니다.**
 
    > [!TIP]
    > 두 번 클릭하면 다음 메시지가 표시됩니다.
-   > 
-   > > **개발자가 MDATP 수 없는 "MacOS DIY"를 열 수 없습니다.**<br/>
+   >
+   > > **개발자가 검증자일 수 없는 "MDATP MacOS DIY"를 열 수 없습니다.**<br/>
    > > macOS는 이 앱이 맬웨어에서 무료인지 확인할 수 없습니다.<br/>
-   > > **\[ 휴지통 \] 취소로** **\[ 이동 \]** 
-  
+   > > **\[ 휴지통 \] 취소로** **\[ 이동 \]**
+
 7. 따라서 **취소** 를 클릭합니다.
 
-8. **MacOS DIY를 MDATP 마우스** 오른쪽 단추로 클릭한 다음 **열기 를 클릭합니다.** 
+8. **MDATP MacOS DIY를 마우스** 오른쪽 단추로 클릭한 다음 **열기 를 클릭합니다.**
 
     시스템에 다음 메시지가 표시됩니다.
 
-    > **macOS는 **MacOS DIY의 개발자를 MDATP 수 없습니다.** 열려고 하나요?**<br/>
+    > **macOS는 MDATP MacOS DIY의 개발자를 확인할 수 없습니다. 열려고 하나요?**<br/>
     > 이 앱을 열면 컴퓨터 및 개인 정보를 Mac에 손상을 주거나 개인 정보를 손상시킬 수 있는 맬웨어에 노출될 수 있는 시스템 보안을 다시 정합니다.
 
-10. **열기** 를 클릭합니다. 
+9. **열기** 를 클릭합니다. 
 
     시스템에 다음 메시지가 표시됩니다.
 
     > 끝점용 Microsoft Defender - macOS EDR DIY 테스트 파일<br/>
-    > 해당 알림은 사이트 포털에서 MDATP 있습니다.
+    > 해당 경고는 MDATP 포털에서 사용할 수 있습니다.
 
-11. **열기** 를 클릭합니다. 
+10. **열기** 를 클릭합니다. 
 
     몇 분 후에 "macOS EDR 경고"라는 경고가 발생해야 합니다.
 
-12. 다음으로 https://SecurityCenter.microsoft.com) Microsoft Defender 보안 센터( .
+11. Microsoft 365 Defender 포털(로 https://security.microsoft.com/) 이동).
 
-13. 경고 큐로 이동합니다.
+12. 경고 큐로 이동합니다.
 
     :::image type="content" source="images/b8db76c2-c368-49ad-970f-dcb87534d9be.png" alt-text="심각도, EDR, 검색 원본 및 축소된 작업 메뉴를 표시하는 macOS 테스트 경고의 예입니다.":::
-    
+
     경고 세부 정보 및 장치 타임라인을 보고 정기적인 조사 단계를 수행합니다.
 
 ## <a name="logging-installation-issues"></a>로깅 설치 문제

@@ -14,12 +14,12 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: 9d24ecb807e60733471be60353d12789f19be1b4
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: 2d8e0a8cea68e969df5939691b517ee71e78472d
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53323382"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544460"
 ---
 # <a name="test-base-faq"></a>테스트 기본 FAQ
 
@@ -61,7 +61,7 @@ OOB(첫 실행) 테스트는 응용 프로그램에서 표준화된 원격 분�
 
 **Q: 테스트 기준이 자동화된 테스트를 지원할 수 있나요?**
 
-예, Test Base는 자동화된 테스트를 지원하기는 하지만 현재는 서비스 기능으로 인해 수동 테스트를 지원하지 않습니다.
+**A:** 예, Test Base는 자동화된 테스트를 지원하기는 하지만 현재는 서비스 기능으로 인해 수동 테스트를 지원하지 않습니다.
 
 **Q: 지원할 자동화된 테스트의 언어 및 프레임워크는 무엇입니까?**
 

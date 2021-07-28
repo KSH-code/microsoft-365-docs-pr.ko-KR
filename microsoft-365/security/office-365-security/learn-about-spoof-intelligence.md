@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 EOP(스푸핑 인텔리전스 정보)에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0f2e1b59b1140b4ee5b187329dac51557ef4df87
-ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+ms.openlocfilehash: daec0fe3a667aa92e9c137cdc7e612b6b11fb344
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314395"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544496"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>EOP의 스푸핑 인텔리전스 정보
 
@@ -41,7 +41,7 @@ ms.locfileid: "53314395"
 
 Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Exchange Online Protection) 조직에서 Exchange Online 전자 메일 메시지가 자동으로 스푸핑으로부터 보호됩니다. EOP는 피싱에 **대한** 조직의 전반적인 방어의 일부로 스푸핑 인텔리전스를 사용 합니다. 자세한 내용은 EOP의 스푸핑 방지 보호 [기능을 참조하세요.](anti-spoofing-protection.md)
 
-보낸 사람이 전자 메일 주소를 스푸핑하면 조직의 도메인 중 하나에 있는 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시됩니다. 스팸 또는 피싱 전자 메일을 보내기 위해 보낸 사람 스푸핑하는 공격자는 차단해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑하는 시나리오가 있습니다. 예를 들어 다음과 같습니다.
+보낸 사람이 전자 메일 주소를 스푸핑하면 조직의 도메인 중 하나에 있는 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시됩니다. 스팸 또는 피싱 전자 메일을 보내기 위해 보낸 사람 스푸핑하는 공격자는 차단해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑하는 시나리오가 있습니다. 예를 들면 다음과 같습니다.
 
 - 내부 도메인을 스푸핑하기 위한 합법적인 시나리오:
   - 타사 보낸 사람이 도메인을 사용하여 회사 설문 조사를 위해 직원에게 대량 메일을 보낼 수 있습니다.
@@ -71,7 +71,7 @@ Microsoft 365 Defender 포털에서  스푸핑 인텔리전스 인사이트를 �
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://security.microsoft.com/>에서 Microsoft 365 Defender 포털을 엽니다. 피싱 방지 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/antiphishing> 사용하세요. 스푸핑 인텔리전스 인사이트 **페이지로** 직접 이동하기 위해 를 <https://security.microsoft.com/spoofintelligence> 사용하세요.
+- <https://security.microsoft.com/>에서 Microsoft 365 Defender 포털을 엽니다. 테넌트 **허용/차단** 목록 페이지의 스푸핑 탭으로 직접 이동하기 위해 를  <https://security.microsoft.com/tenantAllowBlockList?viewid=SpoofItem> 사용합니다. 스푸핑 인텔리전스 인사이트 **페이지로** 직접 이동하기 위해 를 <https://security.microsoft.com/spoofintelligence> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -82,6 +82,7 @@ Microsoft 365 Defender 포털에서  스푸핑 인텔리전스 인사이트를 �
   자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
   > [!NOTE]
+  >
   > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
@@ -142,7 +143,7 @@ Microsoft 365 Defender 포털에서  스푸핑 인텔리전스 인사이트를 �
 - 해야 할 일.
 - 주 스푸핑 인텔리전스 페이지의 대부분의 동일한 정보를 포함하는 도메인 요약입니다.
 - 보낸 사람에 대한 데이터입니다.
-- 위협 [탐색기를](threat-explorer.md) 열어 보낸 사람에 대한 추가 세부 정보를 보기 위한 링크(Microsoft Defender for Office 365.
+- 위협 [탐색기를](threat-explorer.md) 열어 Microsoft Defender에서 피싱  보기에서 보낸 사람에 대한 추가 세부 정보를 볼 \>  수 Office 365.
 - 동일한 보낸 사람으로부터 테넌트에 비슷한 메시지가 표시됩니다.
 
 ### <a name="about-allowed-spoofed-senders"></a>허용된 스푸핑된 보낸 사람에 대한
@@ -158,7 +159,7 @@ Microsoft 365 Defender 포털에서  스푸핑 인텔리전스 인사이트를 �
 
 ## <a name="use-the-spoof-intelligence-insight-in-exchange-online-powershell-or-standalone-eop-powershell"></a>PowerShell 또는 독립 실행형 EOP PowerShell에서 Exchange Online 인텔리전스 정보 사용
 
-PowerShell에서 **Get-SpoofIntelligenceInsight** cmdlet을 사용하여  스푸핑 인텔리전스에서 검색된 허용 및 차단된 스푸핑된 보낸 사람 보기 스푸핑된 보낸 사람 수를 수동으로 허용하거나 차단하려면 **New-TenantAllowBlockListSpoofItems** cmdlet을 사용해야 합니다. 자세한 내용은 PowerShell을 사용하여 테넌트 [허용/차단 목록 구성을 참조하세요.](tenant-allow-block-list.md#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list)
+PowerShell에서 **Get-SpoofIntelligenceInsight** cmdlet을 사용하여  스푸핑 인텔리전스에서 검색된 허용 및 차단된 스푸핑된 보낸 사람 보기 스푸핑된 보낸 사람 수를 수동으로 허용하거나 차단하려면 **New-TenantAllowBlockListSpoofItems** cmdlet을 사용해야 합니다. 자세한 내용은 [PowerShell을](tenant-allow-block-list.md)사용하여 테넌트 허용/차단 목록에 대한 스푸핑된 보낸 사람 항목 관리를 참조하세요.
 
 스푸핑 인텔리전스 정보에서 정보를 보시다가 다음 명령을 실행합니다.
 

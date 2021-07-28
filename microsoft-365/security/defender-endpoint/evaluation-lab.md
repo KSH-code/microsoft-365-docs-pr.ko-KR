@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c785dbb759afe77b14f41985b9f451a4ec52e29f
-ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
+ms.openlocfilehash: 111a7b54f865ab8d12fa2730a159b0035d2442e8
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52778236"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544578"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>끝점용 Microsoft Defender 평가 랩
 
@@ -69,9 +69,10 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 
 ## <a name="get-started-with-the-lab"></a>랩 시작
+
 메뉴에서 랩에 액세스할 수 있습니다. 탐색 메뉴에서 평가판 및 자습서> **평가 랩 을 선택합니다.**
 
-![메뉴의 평가 랩 이미지](images/evaluation-lab-menu.png)
+
 
 >[!NOTE]
 >- 선택한 환경 구조의 유형에 따라 정품 인증일로부터 지정된 시간 동안 디바이스를 사용할 수 있습니다.
@@ -82,9 +83,9 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 ## <a name="setup-the-evaluation-lab"></a>평가 랩 설정
 
-1. 탐색 창에서 평가 및 자습서 **평가** 랩  >  을 선택한 다음 설치 **랩 을 선택합니다.**
+1. 탐색 창에서 평가판 & **자습서**  >  **평가** 랩을 선택한 다음 설치 **랩 을 선택합니다.**
 
-    ![평가 랩 시작 페이지의 이미지](images/evaluation-lab-setup.png)
+    :::image type="content" source="../../media/evaluationtutormenu.png" alt-text="평가 랩 시작 페이지 이미지":::
 
 2. 평가 요구에 따라 더 긴 기간 동안 더 적은 장치 또는 더 짧은 기간 동안 더 많은 장치를 사용하여 환경을 설정하기로 선택할 수 있습니다. 기본 설정 랩 구성을 선택한 후 다음 을 **선택합니다.**
 
@@ -118,17 +119,17 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 테스트 장치에 미리 구성된 보안 구성 요소는 다음과 같습니다.
 
-- [공격 표면 감소](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
-- [차단 시 차단](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
-- [제어된 폴더 액세스](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
-- [악용 방지](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
-- [네트워크 보호](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
-- [잠재적으로 원치 않는 응용 프로그램 검색](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [클라우드 제공 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
-- [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
+- [공격 표면 감소](attack-surface-reduction.md)
+- [처음에 차단](configure-block-at-first-sight-microsoft-defender-antivirus.md)
+- [제어된 폴더 액세스](controlled-folders.md)
+- [악용 방지](enable-exploit-protection.md)
+- [네트워크 보호](network-protection.md)
+- [잠재적으로 원치 않는 응용 프로그램 검색](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
+- [클라우드 제공 보호](cloud-protection-microsoft-defender-antivirus.md)
+- [Microsoft Defender SmartScreen](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview)
 
 >[!NOTE]
-> Microsoft Defender 바이러스 백신 설정됩니다(감사 모드 아미기). 사용자가 Microsoft Defender 바이러스 백신 실행을 차단하는 경우 디바이스에서 실시간 보호를 해제할 수 Windows 보안. 자세한 내용은 [Always-On 보호 구성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
+> Microsoft Defender 바이러스 백신 설정됩니다(감사 모드 아미기). 사용자가 Microsoft Defender 바이러스 백신 실행을 차단하는 경우 디바이스에서 실시간 보호를 해제할 수 Windows 보안. 자세한 내용은 [Always-On 보호 구성을 참조하세요.](configure-real-time-protection-microsoft-defender-antivirus.md)
 
 자동화된 조사 설정은 테넌트 설정에 따라 달라집니다. 기본적으로 반자동으로 구성됩니다. 자세한 내용은 자동화된 조사 [개요를 참조하세요.](automated-investigations.md)
 
@@ -139,8 +140,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 2. 추가할 디바이스 유형을 선택하십시오. Server 2019를 추가하거나 Windows 10 Windows 수 있습니다.
 
-    ![디바이스 옵션을 사용하여 랩 설정의 이미지](images/add-machine-options.png)
-
+    :::image type="content" source="../../media/add-machine-optionsnew.png" alt-text="디바이스 옵션을 사용하여 랩 설정":::
 
     >[!NOTE]
     >장치 만들기 프로세스에 문제가 있는 경우 알림을 보게 되고 새 요청을 제출해야 합니다. 장치 만들기가 실패하면 전체 허용 할당량에 대해 계산되지 않습니다. 
@@ -150,7 +150,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
     >[!NOTE]
     >암호는 한 번만 표시됩니다. 나중에 사용하기 위해 저장해야 합니다.
 
-    ![연결 세부 정보를 사용하여 추가된 디바이스의 이미지](images/add-machine-eval-lab.png)
+    :::image type="content" source="../../media/add-machine-eval-labnew.png" alt-text="연결 세부 정보를 사용하여 추가된 디바이스의 이미지":::
 
 4. 디바이스 설정이 시작됩니다. 약 30분 정도 걸릴 수 있습니다. 
 
@@ -187,13 +187,13 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 테스트 장치를 사용하여 연결하여 자체 공격 시뮬레이션을 실행합니다. 
 
 다음을 사용하여 공격 시나리오를 시뮬레이트할 수 있습니다.
-- ["직접" 공격 시나리오](https://securitycenter.windows.com/tutorials)
+- ["직접" 공격 시나리오](https://security.microsoft.com/tutorials/all)
 - 위협 시뮬레이터
 
-고급 [헌팅을](advanced-hunting-query-language.md) 사용하여 데이터 및 [위협](threat-analytics.md) 분석을 쿼리하여 새로운 위협에 대한 보고서를 볼 수 있습니다.
+고급 [헌팅을](advanced-hunting-overview.md) 사용하여 데이터 및 [위협](threat-analytics.md) 분석을 쿼리하여 새로운 위협에 대한 보고서를 볼 수 있습니다.
 
 ### <a name="do-it-yourself-attack-scenarios"></a>직접 공격 시나리오
-미리 만든 시뮬레이션을 찾고 있는 경우 ["직접 실행"](https://securitycenter.windows.com/tutorials)공격 시나리오를 사용할 수 있습니다. 이러한 스크립트는 안전하고 문서화되어 있으며 사용하기 쉽습니다. 이러한 시나리오는 끝점 기능에 대한 Defender를 반영하고 조사 환경을 진행합니다.
+미리 만든 시뮬레이션을 찾고 있는 경우 ["직접 실행"](https://security.microsoft.com/tutorials/all)공격 시나리오를 사용할 수 있습니다. 이러한 스크립트는 안전하고 문서화되어 있으며 사용하기 쉽습니다. 이러한 시나리오는 끝점 기능에 대한 Defender를 반영하고 조사 환경을 진행합니다.
 
 
 >[!NOTE]
@@ -285,7 +285,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 - 생성된 경고
 - 노출 수준에 대한 평가 
 - 관찰된 위협 범주
-- 검색 원본
+- 탐지 소스
 - 자동화된 조사
 
 

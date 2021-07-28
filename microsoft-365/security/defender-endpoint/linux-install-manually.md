@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4c4ed845a31f044e17c97e0b43adfc86dd3f68ba
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: aa653b7f40be232c345f21ec00f7fadb60a4af0a
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454808"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544652"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -165,6 +165,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     ```bash
     sudo mv ./microsoft.list /etc/apt/sources.list.d/microsoft-[channel].list
     ```
+
     예를 들어, 프로비전 *채널을 선택한 경우:*
 
     ```bash
@@ -211,12 +212,14 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     # list all repositories
     yum repolist
     ```
+
     ```Output
     ...
     packages-microsoft-com-prod               packages-microsoft-com-prod        316
     packages-microsoft-com-prod-insiders-fast packages-microsoft-com-prod-ins      2
     ...
     ```
+
     ```bash
     # install the package from the production repository
     sudo yum --enablerepo=packages-microsoft-com-prod install mdatp
@@ -240,7 +243,9 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     XX | packages-microsoft-com-insiders-fast | microsoft-insiders-fast | ...
     XX | packages-microsoft-com-prod | microsoft-prod | ...
     ...
+
     ```
+
     ```bash
     sudo zypper install packages-microsoft-com-prod:mdatp
     ```
@@ -256,10 +261,12 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     ```bash
     cat /etc/apt/sources.list.d/*
     ```
+
     ```Output
     deb [arch=arm64,armhf,amd64] https://packages.microsoft.com/ubuntu/18.04/prod insiders-fast main
     deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.04/prod bionic main
     ```
+
     ```bash
     sudo apt -t bionic install mdatp
     ```
@@ -289,11 +296,11 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     ```bash
     unzip WindowsDefenderATPOnboardingPackage.zip
     ```
+
     ```Output
     Archive:  WindowsDefenderATPOnboardingPackage.zip
     inflating: MicrosoftDefenderATPOnboardingLinuxServer.py
     ```
-
 
 ## <a name="client-configuration"></a>클라이언트 구성
 
@@ -305,12 +312,10 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     mdatp health --field org_id
     ```
 
-2. 실행 MicrosoftDefenderATPOnboardingLinuxServer.py. 
-   
-    >[!NOTE]
-    >이 명령을 실행하려면 장치에 `python` 설치해야 합니다. RHEL 8.x 또는 Ubuntu 20.04 이상을 실행하는 경우 Python 대신 Python 3을 사용해야 합니다.
+2. 실행 MicrosoftDefenderATPOnboardingLinuxServer.py.
 
-
+    > [!NOTE]
+    > 이 명령을 실행하려면 장치에 `python` 설치해야 합니다. RHEL 8.x 또는 Ubuntu 20.04 이상을 실행하는 경우 Python 대신 Python 3을 사용해야 합니다.
 
     ```bash
     python MicrosoftDefenderATPOnboardingLinuxServer.py
@@ -330,9 +335,11 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 
     > [!IMPORTANT]
     > 제품이 처음 시작되면 최신 맬웨어 방지 정의를 다운로드합니다. 인터넷 연결에 따라 이 시간이 몇 분 정도 걸릴 수 있습니다. 이 시간 동안 위의 명령은 의 값을 `false` 반환합니다. 다음 명령을 사용하여 정의 업데이트의 상태를 확인할 수 있습니다.
+    >
     > ```bash
     > mdatp health --field definitions_status
     > ```
+    >
     > 초기 설치를 완료한 후 프록시를 구성해야 할 수도 있습니다. 정적 프록시 검색에 대한 [Linux의 끝점에 대한 Defender 구성: 설치 후 구성을 참조합니다.](/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration)
 
 5. 검색 테스트를 실행하여 장치가 제대로 온보드 및 서비스에 보고되었는지 확인합니다. 새로 온보드된 디바이스에서 다음 단계를 수행합니다.
@@ -357,18 +364,15 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 
 ## <a name="experience-linux-endpoint-detection-and-response-edr-capabilities-with-simulated-attacks"></a>시뮬레이트된 공격으로 Linux 끝점 감지 및 대응(EDR) 기능 경험
 
-Linux용 EDR 테스트하기 위해 아래 단계에 따라 Linux 서버에서 검색을 시뮬레이트하고 사례를 조사합니다. 
+Linux용 EDR 테스트하기 위해 아래 단계에 따라 Linux 서버에서 검색을 시뮬레이트하고 사례를 조사합니다.
 
-1.  온보드 Linux 서버가 서버에 나타나는지 Microsoft 365 Defender. 컴퓨터의 첫 번째 온보더링인 경우 표시될 때까지 최대 20분이 걸릴 수 있습니다. 
+1. 온보드 Linux 서버가 서버에 나타나는지 Microsoft 365 Defender. 컴퓨터의 첫 번째 온보더링인 경우 표시될 때까지 최대 20분이 걸릴 수 있습니다.
 
-2.  스크립트 파일을 [](https://aka.ms/LinuxDIY) 다운로드하여 온보딩된 Linux 서버에 추출하고 다음 명령을 실행합니다.`./mde_linux_edr_diy.sh`
+2. 스크립트 파일을 [](https://aka.ms/LinuxDIY) 다운로드하여 온보딩된 Linux 서버에 추출하고 다음 명령을 실행합니다.`./mde_linux_edr_diy.sh`
 
-3.  몇 분 후에 검색이 Microsoft 365 Defender.
+3. 몇 분 후에 검색이 Microsoft 365 Defender.
 
-4.  경고 세부 정보, 컴퓨터 타임라인을 살펴보고 일반적인 조사 단계를 수행합니다.
-
-
-
+4. 경고 세부 정보, 컴퓨터 타임라인을 살펴보고 일반적인 조사 단계를 수행합니다.
 
 ## <a name="installer-script"></a>설치 관리자 스크립트
 
@@ -407,26 +411,29 @@ Options:
 
 1. Linux에서 끝점용 Defender의 "Insiders-Fast 채널" 버전을 제거합니다.
 
-    ``
+    ```bash
     sudo yum remove mdatp
-    ``
+    ```
 
-1. Linux 2016 리포지터에서 끝점에 대한 Defender Insiders-Fast 비활성화  ``
+1. Linux 2016 리포지터에서 끝점에 대한 Defender Insiders-Fast 비활성화
+
+    ```bash
     sudo yum repolist
-    ``
+    ```
 
     > [!NOTE]
     > 출력에 "packages-microsoft-com-fast-prod"가 표시해야 합니다.
 
-    ``
+    ```bash
     sudo yum-config-manager --disable packages-microsoft-com-fast-prod
-    ``
-1. "프로덕션 채널"을 사용하여 Linux용 MDE를 다시 배포합니다.
+    ```
 
+1. "프로덕션 채널"을 사용하여 Linux용 MDE를 다시 배포합니다.
 
 ## <a name="uninstallation"></a>제거
 
 클라이언트 [장치에서](linux-resources.md#uninstall) Linux에서 Endpoint용 Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.
 
 ## <a name="see-also"></a>참고 항목
+
 - [에이전트 상태 문제 조사](health-status.md)

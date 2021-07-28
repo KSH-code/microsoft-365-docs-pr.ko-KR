@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2d32dd96cd506ebf1752e48d2b7c66208b1abc11
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2cbe41bc06362a14b5e657e6385ec87684871340
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934540"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544616"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender를 통해 잠재적으로 원치 않는 응용 프로그램 검색 및 차단
 
@@ -53,8 +53,8 @@ MacOS의 끝점용 Microsoft Defender는 PUA 파일을 검색하고 보고할 �
 macOS의 끝점용 Microsoft Defender의 PUA 보호는 다음 방법 중 하나에서 구성할 수 있습니다.
 
 - **Off**: PUA 보호를 사용할 수 없습니다.
-- **감사**: PUA 파일이 제품 로그에 보고되지만, PUA 파일에는 Microsoft Defender 보안 센터. 사용자에게 알림이 제공된 것이 아니며 제품에 의해 아무 작업도 수행하지 않습니다.
-- **차단:** PUA 파일이 제품 로그 및 검색된 Microsoft Defender 보안 센터. 사용자에게 알림이 표시된 후 제품에 의해 작업이 수행됩니다.
+- **감사**: PUA 파일이 제품 로그에 보고되지만 포털에 Microsoft 365 Defender 않습니다. 사용자에게 알림이 제공된 것이 아니며 제품에 의해 아무 작업도 수행하지 않습니다.
+- **차단:** PUA 파일이 제품 로그 및 포털에서 Microsoft 365 Defender 보고됩니다. 사용자에게 알림이 표시된 후 제품에 의해 작업이 수행됩니다.
 
 >[!WARNING]
 >기본적으로 PUA 보호는 감사 모드에서 **구성됩니다.**

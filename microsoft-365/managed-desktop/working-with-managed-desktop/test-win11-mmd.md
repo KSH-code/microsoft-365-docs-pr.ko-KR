@@ -1,5 +1,5 @@
 ---
-title: 미리 보기 및 Windows 11을 Microsoft Managed Desktop
+title: Microsoft Managed Desktop을 사용하여 Windows 11 미리 보기 및 테스트
 description: 환경에서 Windows 11을 설정하는 방법
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -9,14 +9,14 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8dee18909d82656bcfb3e63fdc078328c678e660
-ms.sourcegitcommit: ea8de1b48adb6df92fb9351ea862184a9f16cbbb
+ms.openlocfilehash: 4ac12c4ec340bd6bb73418dae75774198190094b
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53461390"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544688"
 ---
-# <a name="preview-and-test-windows-11-with-microsoft-managed-desktop"></a>미리 보기 및 Windows 11을 Microsoft Managed Desktop
+# <a name="preview-and-test-windows-11-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 사용하여 Windows 11 미리 보기 및 테스트
 
  사용자 환경 내에서 Windows 11 호환성 테스트 프로그램을 등록하고 참여하는 Microsoft Managed Desktop 방법 일반적으로 11 Windows 및 Microsoft Managed Desktop 자세한 내용은 Windows [11](../intro/win11-overview.md)및 Microsoft Managed Desktop. 
 
@@ -34,7 +34,7 @@ ms.locfileid: "53461390"
 
 ## <a name="add-devices-to-the-windows-11-test-group"></a>Windows 11 테스트 그룹에 장치 추가
 
-먼저 디바이스 그룹(최신 Workplace Windows **\[ \] 11** 시험판 테스트 장치)에 장치를 추가하여 11을 테스트하고 평가합니다Windows. 이 그룹의 장치는 새로운 Windows 11 빌드 및 Microsoft Managed Desktop 기준 구성을 사용할 수 있으며 안정성 문제를 모니터링합니다.
+요청이 있는 경우 **11을** 테스트하고 평가하기 위한 장치 그룹(최신 작업 공간 - Windows 11 시험판 테스트 장치)을 Windows 있습니다. 이 그룹의 장치는 새로운 Windows 11 빌드 및 Microsoft Managed Desktop 기준 구성을 사용할 수 있으며 안정성 문제를 모니터링합니다.
 
 Windows 11 테스트를 위해 기존 또는 새 장치를 선택할 수 있지만 시험판 빌드에서 결함 또는 호환성 문제가 발생하여 이 그룹에 프로덕션 장치를 등록하면 안 됩니다. 이 그룹에 할당하면 이전 장치 그룹 할당이 제거됩니다.
 

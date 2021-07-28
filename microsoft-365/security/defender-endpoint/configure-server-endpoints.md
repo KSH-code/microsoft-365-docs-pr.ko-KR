@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ff4c44199e4b6f8f1b3ca4806908813d7e710e4b
-ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
+ms.openlocfilehash: c318f063814d9b31e6d07c3bc6c7feea503efe2c
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53415614"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53544845"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -65,10 +65,10 @@ SCOM(System Center Operations Manager) 또는 Azure 모니터(이전의 OM Micro
 
 일반적으로 다음 단계를 수행해야 합니다.
 
-1. 시작하기 전에 섹션에 설명된 **온보더링 요구 사항을 이행합니다.**
-2. 포털에서 서버 Microsoft 365 Defender 켜기.
-3. 서버가 끝점용 Defender에 센서 데이터를 보고하도록 MMA를 설치하고 구성합니다.
-4. 클라이언트를 구성하고 System Center Endpoint Protection 업데이트합니다.
+  1. 시작하기 전에 섹션에 설명된 **온보더링 요구 사항을 이행합니다.**
+  2. 서버에서 서버 모니터링을 Microsoft 365 Defender.
+  3. 서버가 끝점용 Defender에 센서 데이터를 보고하도록 MMA를 설치하고 구성합니다.
+  4. 클라이언트를 구성하고 System Center Endpoint Protection 업데이트합니다.
 
 > [!TIP]
 > 장치를 온보드한 후 검색 테스트를 실행하여 서비스에 올바르게 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 Endpoint 끝점에 대한 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
@@ -121,7 +121,7 @@ Windows Server 2008 R2 SP1 및 Windows Server 2012 R2의 경우: 클라이언트
 
 ### <a name="option-2-onboard-windows-servers-through-azure-security-center"></a>옵션 2: Azure Windows 서버 온보드
 
-1. Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을  >    >    >  **선택합니다.**
+Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을  >    >    >  **선택합니다.**
 
 2. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택합니다.
 
@@ -200,7 +200,8 @@ Endpoint용 Defender는 Azure Defender와 통합하여 포괄적인 서버 Windo
     > 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows [Server 2019 및 WVD(가상 데스크톱)Windows](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
 
 - Windows Azure Defender가 모니터링하는 서버는 Endpoint용 Defender에서도 사용할 수 있습니다. Azure Defender는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다.  또한 Azure Defender 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
-- 서버 조사 - Azure Defender 고객은 Microsoft 365 Defender 포털에 액세스하여 자세한 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
+
+- 서버 조사 - Azure Defender 고객은 액세스하여 Microsoft 365 Defender 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
 
 > [!IMPORTANT]
 > - Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트에 대한 Defender가 자동으로 만들어집니다(미국 사용자의 경우 유럽 및 영국 사용자용 EU).<br>

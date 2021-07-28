@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: b5c2694437333f197f3c9b04fd1f10fb581cd4d2
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 2754303163e608596cb554dfdb44113c6684fcfe
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53596113"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543560"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드에서 끝점 EDR(응답)
 
@@ -35,7 +35,7 @@ ms.locfileid: "53596113"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+>Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="what-is-edr-in-block-mode"></a>차단 EDR 어떤 것이 있나요?
 
@@ -75,7 +75,6 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 2. 끝점 **설정** 고급 기능을  >    >    >  **선택 합니다.**
 
 3. 아래로 스크롤한 다음 차단 모드에서 EDR **을 켜야 합니다.**
-
 
 > [!NOTE]
 > EDR 포털( ) 또는 이전 Microsoft 365 Defender()에서만 차단 [https://security.microsoft.com](https://security.microsoft.com) 모드로 Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) 있습니다. 레지스트리 키, Microsoft Intune 또는 그룹 정책을 사용하여 차단 모드에서 EDR 수 없습니다.
