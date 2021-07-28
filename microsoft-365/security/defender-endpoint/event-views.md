@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: f8de3d8b2d7c07f8d783ecbe85b7e4a9c612aae5
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 342e471c897c6722e9a7d67578e10b85719d5bd8
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985471"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595993"
 ---
 # <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 
@@ -31,7 +31,7 @@ ms.locfileid: "52985471"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 이벤트 뷰어에서 공격 표면 감소 이벤트를 검토하여 작동되는 규칙 또는 설정을 모니터링합니다. 또한 설정이 너무 "시저"되거나 매일 워크플로에 영향을 미치는지 확인할 수 있습니다.
 
@@ -152,14 +152,14 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 :-|:-|:-:|:-
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 1 | ACG 감사
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 2 | ACG 적용
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 3 | 자식 프로세스 감사 허용 안 함
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 3  | 자식 프로세스 감사 허용 안 함
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 4  | 자식 프로세스 블록 허용 안 함
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 5  | 낮은 무결성 이미지 감사 차단
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 6  | 낮은 무결성 이미지 블록 차단
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 7  | 원격 이미지 감사 차단
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 8  | 원격 이미지 블록 차단
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 9  | win32k 시스템 호출 감사 사용 안 함
-악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 10   | Win32k 시스템 호출 블록 사용 안 함
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 10  | Win32k 시스템 호출 블록 사용 안 함
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 11 | 코드 무결성 가드 감사
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 12  | 코드 무결성 가드 블록
 악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 13 | EAF 감사

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7998e878ad03fdfb64c314dc8b7234ece46164ce
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 17915741485919ae85d5e16fbee8de5108b7f2eb
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289496"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543296"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 기본 설정 설정
 
@@ -498,7 +498,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
          }
       ],
       "allowedThreats":[
-         "EICAR-Test-File (not a virus)"
+         "<EXAMPLE DO NOT USE>EICAR-Test-File (not a virus)"
       ],
       "disallowedThreatActions":[
          "allow",

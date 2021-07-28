@@ -17,14 +17,15 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 555f96dc1f45fb6a406b5993d0b8e4a3745c283b
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 99b6e04ac64905290a16d309f0016917927ca870
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339637"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596149"
 ---
-# <a name="onboard-the-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보드
+# <a name="onboarding-non-persistent-virtual-desktop-infrastructure-devices"></a>비영구적 가상 데스크톱 인프라 장치 온보드
+
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -34,16 +35,15 @@ ms.locfileid: "53339637"
 - VDI(가상 데스크톱 인프라) 장치
 - Windows 10 Windows Server 2019, Windows Server 2008R2/2012R2/2016
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configvdi-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configvdi-abovefoldlink)
 
 ## <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
 
 Endpoint용 Defender는 비영구 VDI 세션 온보딩을 지원합니다. 
 
-
 VIS를 온보드할 때 관련 문제가 있을 수 있습니다. 이 시나리오의 일반적인 문제는 다음과 같습니다.
 
-- 실제 프로비저닝 전에 끝점용 Defender에 온보딩해야 하는 짧은 세션의 초기 온보딩을 즉각적으로 진행합니다.
+- 실제 프로비전 전에 Endpoint용 Defender에 온보딩해야 하는 짧은 세션의 즉각적인 초기 온보딩.
 - 일반적으로 장치 이름은 새 세션에 다시 사용합니다.
 
 VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시될 수 있습니다.
@@ -63,7 +63,7 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Windows 10 또는 Windows Server 2019의 경우
 
-1.  서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
+1.  서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 다음 포털에서 패키지를 [Microsoft 365 Defender 있습니다.](https://security.microsoft.com/)
 
     1. 탐색 창에서 **끝점 설정**  >  **관리**  >    >  **온보더링** 을 선택합니다.
 
@@ -89,13 +89,13 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
 4. 구현할 메서드에 따라 적절한 단계를 수행합니다.
 
-   - 각 디바이스에 대한 단일 항목:
+    - 각 디바이스에 대한 단일 항목:
    
-     **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
+         **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
    
-   - 각 장치에 대한 여러 항목의 경우:
+    - 각 장치에 대한 여러 항목의 경우:
    
-     스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
+         스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
 
 5. 솔루션을 테스트합니다.
 
@@ -103,19 +103,20 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
       
    1. 장치에 로그온합니다.
       
-   1. 장치에서 로그프합니다.
+   1. 장치에서 로그오프합니다.
 
    1. 다른 사용자와 함께 장치에 로그온합니다.
       
    1. 구현할 메서드에 따라 적절한 단계를 수행합니다.
-   
-      - 각 디바이스에 대한 단일 항목: 
-    
-        포털에서 하나의 항목만 Microsoft 365 Defender 검사합니다.
 
-      - 각 장치에 대한 여러 항목의 경우: 
-       
-        포털에서 여러 Microsoft 365 Defender 검사합니다.
+   - 각 디바이스에 대한 단일 항목: 
+
+     포털에서 하나의 항목만 Microsoft 365 Defender 검사합니다.
+
+   - 각 장치에 대한 여러 항목의 경우: 
+
+     포털에서 여러 Microsoft 365 Defender 검사합니다.
+
 
 6. 탐색 **창에서** 장치 목록을 클릭합니다.
 
@@ -177,11 +178,11 @@ DISM 명령 및 오프라인 서비스에 대한 자세한 내용은 아래 문�
     PsExec.exe -s cmd.exe
     cd "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Cyber"
     del *.* /f /s /q
-    REG DELETE “HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection" /v senseGuid /f
+    REG DELETE "HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection" /v senseGuid /f
     exit
     ```
 
-5. 평소처럼 골든/마스터 이미지를 다시 봉인합니다.
+5. 평소와 처럼 골든/마스터 이미지를 다시 비우는 것이 가장 까다로워질 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)

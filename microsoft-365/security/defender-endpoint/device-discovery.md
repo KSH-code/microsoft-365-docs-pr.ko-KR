@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 9a21c5d067a0ec27b00ff4b4c9aae90bbb65a062
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 4d44fef395ad7da336e55f4cd0ca6eed46e9393d
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289874"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596293"
 ---
 # <a name="device-discovery-overview"></a>장치 검색 개요
 
@@ -85,10 +85,10 @@ Microsoft Defender for Endpoint는 추가 어플라이언스 또는 번거로운
 
 검색했지만 아직 끝점용 Microsoft Defender에 의해 온보딩 및 보호되지 않은 장치는 끝점 탭의 장치 인벤토리에 나열됩니다. 이제 다음 값을 사용할 수 있는 온보더링 상태라는 장치 인벤토리 목록에서 새 필터를 사용할 수 있습니다.
 
-- 온보딩 – 끝점이 끝점용 Microsoft Defender에 온보딩됩니다.
+- 온보딩: 끝점이 끝점용 Microsoft Defender에 온보딩됩니다.
 - 온보딩할 수 있습니다. 끝점이 네트워크에서 검색되었습니다. 운영 체제는 끝점용 Microsoft Defender에서 지원되는 끝점으로 식별했지만 현재는 온보딩되지 않았습니다. 이러한 장치를 온보드하는 것이 좋습니다.
 - 지원되지 않습니다. 끝점은 네트워크에서 검색했지만 끝점용 Microsoft Defender에서 지원되지 않습니다.
-- 정보 부족 - 시스템에서 장치의 지원 여부를 확인할 수 없습니다. 네트워크의 더 많은 장치에서 표준 검색을 사용하도록 설정하면 검색된 특성을 강화할 수 있습니다.
+- 정보 부족: 시스템에서 장치의 지원 여부를 확인할 수 없습니다. 네트워크의 더 많은 장치에서 표준 검색을 사용하도록 설정하면 검색된 특성을 강화할 수 있습니다.
 
 ![장치 인벤토리 대시보드의 이미지](images/2b62255cd3a9dd42f3219e437b956fb9.png)
 
@@ -120,7 +120,7 @@ DeviceInfo 테이블에서 검색된 끝점에 대한 세부 정보 또는 Devic
 
 다음 예제 쿼리를 시도할 수 있습니다.
 
-```
+```text
 DeviceNetworkEvents
 | where ActionType == "ConnectionAcknowledged" or ActionType == "ConnectionAttempt"
 | take 10

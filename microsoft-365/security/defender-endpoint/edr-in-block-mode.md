@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.custom:
 - next-gen
 - edr
-ms.date: 07/13/2021
+ms.date: 07/20/2021
 ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 1915a57becb1cba14605f4512ff123c1bca846bb
-ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
+ms.openlocfilehash: b5c2694437333f197f3c9b04fd1f10fb581cd4d2
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53415602"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596113"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드에서 끝점 EDR(응답)
 
@@ -35,11 +35,11 @@ ms.locfileid: "53415602"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="what-is-edr-in-block-mode"></a>차단 EDR 어떤 것이 있나요?
 
-[차단 모드의](overview-endpoint-detection-response.md) 끝점 감지 및 응답(EDR)은 기본 바이러스 백신 제품이 Microsoft Defender 바이러스 백신 수동 모드에서 실행되는 경우 악의적인 아티팩트로부터 추가된 보호 기능을 제공합니다. EDR 모드에서는 차단을 사용하여 검색된 악성 아티팩트를 EDR. 이러한 아티팩트는 Microsoft가 아닌 기본 바이러스 백신 제품에서 누락된 것일 수 있습니다. EDR 차단 모드는 디바이스에서 감지된 악성 아티팩트를 수정하기 위해 뒤에서 작동합니다. 
+[차단 모드의](overview-endpoint-detection-response.md) 끝점 감지 및 응답(EDR)은 기본 바이러스 백신 제품이 Microsoft Defender 바이러스 백신 수동 모드에서 실행되는 경우 악의적인 아티팩트로부터 추가된 보호 기능을 제공합니다. EDR 차단 모드에서는 장면 뒤에서 작동하여 모든 기능에서 감지된 악성 아티팩트를 EDR 합니다. 이러한 아티팩트는 Microsoft가 아닌 기본 바이러스 백신 제품에서 누락된 것일 수 있습니다. 
 
 > [!IMPORTANT]
 > EDR 모드에서는 실시간 보호를 사용하도록 설정한 경우 사용할 Microsoft Defender 바이러스 백신 모든 보호가 제공되지는 않습니다. 다음 주요 예제를 Microsoft Defender 바이러스 백신 활성 바이러스 백신 솔루션으로 설정하는 모든 기능이 작동하지 않습니다. 
@@ -74,7 +74,8 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 
 2. 끝점 **설정** 고급 기능을  >    >    >  **선택 합니다.**
 
-3. 아래로 스크롤한 다음 차단 모드에서 EDR **활성화에서 urn을 작성합니다.**
+3. 아래로 스크롤한 다음 차단 모드에서 EDR **을 켜야 합니다.**
+
 
 > [!NOTE]
 > EDR 포털( ) 또는 이전 Microsoft 365 Defender()에서만 차단 [https://security.microsoft.com](https://security.microsoft.com) 모드로 Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) 있습니다. 레지스트리 키, Microsoft Intune 또는 그룹 정책을 사용하여 차단 모드에서 EDR 수 없습니다.
@@ -85,7 +86,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 |---------|---------|
 | 사용 권한 | 에 전역 관리자 또는 보안 관리자 역할이 [할당되어 있어야 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) 자세한 내용은 기본 사용 [권한을 참조하세요.](basic-permissions.md) |
 | 운영 체제     | 장치에서 다음 버전의 디바이스 중 하나를 실행해야 Windows. <br/>- Windows 10(모든 릴리스) <br/>- Windows Server, 버전 1803 이상 <br/>- Windows Server 2019 <br/>- Windows Server 2016(Microsoft Defender 바이러스 백신 모드에 있는 경우만)     |
-| 끝점용 Microsoft Defender     | 끝점용 Defender에 장치를 온보딩해야 합니다. [끝점용 Microsoft Defender에 대한 최소 요구 사항을 참조하세요.](minimum-requirements.md)       |
+| 엔드포인트용 Microsoft Defender     | 끝점용 Defender에 장치를 온보딩해야 합니다. [끝점용 Microsoft Defender에 대한 최소 요구 사항을 참조하세요.](minimum-requirements.md)       |
 | Windows Defender 바이러스 백신  | 장치에는 Microsoft Defender 바이러스 백신 수동 모드로 설치 및 실행되어야 합니다. [활성 Microsoft Defender 바이러스 백신 수동 모드에 있는지 확인](#how-do-i-confirm-microsoft-defender-antivirus-is-in-active-or-passive-mode) |
 | 클라우드 제공 보호 | Microsoft Defender 바이러스 백신 보호를 사용하도록 구성해야 [합니다.](enable-cloud-protection-microsoft-defender-antivirus.md) |
 | Microsoft Defender 바이러스 백신 플랫폼 | 장치를 최신으로 유지해야 합니다. 확인을 위해 PowerShell을 사용하여 [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus) cmdlet을 관리자 권한으로 실행합니다. **AMProductVersion** 줄에 **4.18.2001.10 이상이** 표시될 것입니다. <p> 자세한 내용은 [Microsoft Defender 바이러스 백신 업데이트 관리 및 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)을 참조하세요. |

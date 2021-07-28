@@ -1,8 +1,9 @@
 ---
-title: 모델에 보존 레이블 적용
-ms.author: efrene
-author: efrene
+title: SharePoint Syntex에서 모델에 보존 레이블 적용
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -11,13 +12,13 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Normal
-description: 이 문서는 SharePoint Syntex에서 모델에 보존 레이블을 적용하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 00a8d255b3274af3cd96527e0dcd2ae2644226ac
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+description: 2016년 8월 2일부로 하여금 모델에 보존 레이블을 적용하는 SharePoint Syntex.
+ms.openlocfilehash: 5fa028664f0f981c9a95c31eac256f3a149a250a
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861614"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543188"
 ---
 # <a name="apply-a-retention-label-to-a-model-in-sharepoint-syntex"></a>SharePoint Syntex에서 모델에 보존 레이블 적용
 

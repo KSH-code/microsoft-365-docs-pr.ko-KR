@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4fffbbb519f9c31b5343e665958bcb47436a2d50
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: d575d628907ca417b03010d555d489d3329cd176
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289346"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596341"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>링에서 끝점용 Microsoft Defender 배포
 
@@ -33,7 +33,7 @@ ms.locfileid: "53289346"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 링 기반 배포 방법을 사용하여 끝점에 대한 Microsoft Defender 배포를 완료할 수 있습니다. 
 
@@ -81,8 +81,8 @@ ms.locfileid: "53289346"
 
 | 끝점     | 배포 도구                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br> 참고: 프로덕션 환경에 10개 이상의 장치를 배포하려는 경우 그룹 정책 방법이나 아래에 나열된 다른 지원되는 도구를 대신 사용합니다.<br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md)   |
-| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 디바이스 관리](mac-install-with-other-mdm.md) |
+| **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br> 참고: 프로덕션 환경에 10개 이상의 장치를 배포하려는 경우 그룹 정책 방법이나 아래에 나열된 다른 지원되는 도구를 대신 사용합니다.<br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md) <br> [Azure Defender와 통합](configure-server-endpoints.md#integration-with-azure-defender)  |
+| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
 | **Linux Server** | [로컬 스크립트](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [앱 기반](ios-install.md)                                |
 | **Android**  | [Microsoft Endpoint Manager ](android-intune.md)               |

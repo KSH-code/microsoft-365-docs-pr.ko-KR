@@ -1,8 +1,9 @@
 ---
 title: 문서 라이브러리에 문서 이해 모델 적용
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -11,13 +12,13 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Normal
-description: SharePoint 문서 라이브러리에 게시된 모델을 적용하는 방법 알아보기
-ms.openlocfilehash: cda9de43d0139c52f950527eb75d050602005fd2
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+description: 게시된 모델을 문서 라이브러리에 적용하는 SharePoint 방법을 학습합니다.
+ms.openlocfilehash: 0e1591f5aeb0db0a3cf2ab1aa9e7f6e36633aa1d
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843297"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543200"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 

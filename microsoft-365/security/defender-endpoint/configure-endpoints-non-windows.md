@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4aff505f9f35b6144360eed5992ac36cf0847617
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 266155dca8206e6c3572655fdd88b1ca8bdfde2e
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454712"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596173"
 ---
 # <a name="onboard-non-windows-devices"></a>Windows가 아닌 장치 온보딩
 
@@ -36,9 +36,9 @@ ms.locfileid: "53454712"
 - macOS
 - Linux
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-nonwindows-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-nonwindows-abovefoldlink)
 
-Endpoint용 Defender는 비보안 플랫폼뿐만 아니라 Windows 중앙 집중식 보안 Windows 환경을 제공합니다. 조직에서 지원되는 다양한 OS(운영 체제)에서 경고를 Microsoft 365 Defender 조직의 네트워크를 보다 잘 보호할 수 있습니다. 
+Endpoint용 Defender는 비영리 플랫폼 및 비영리 Windows 중앙 집중식 Windows 환경을 제공합니다. 조직에서 지원되는 다양한 OS(운영 체제)에서 경고를 Microsoft 365 Defender 조직의 네트워크를 보다 잘 보호할 수 있습니다. 
 
 통합을 위해 Endpoint용 Defender와 호환되는 정확한 Linux 배포판 및 macOS 버전을 알아야 합니다. 자세한 내용은 다음을 참조하세요.
 - [Linux 시스템 요구 사항의 끝점용 Microsoft Defender](microsoft-defender-endpoint-linux.md#system-requirements)  
@@ -50,12 +50,11 @@ Endpoint용 Defender는 비보안 플랫폼뿐만 아니라 Windows 중앙 집�
 
    - macOS 장치의 경우 끝점용 Microsoft Defender를 통해 또는 타사 솔루션을 통해 온보딩할 수 있습니다. 자세한 내용은 [Mac의 끝점용 Microsoft Defender를 참조하세요.](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
 
-   - 타사가 아닌 Windows 장치의 경우 타사 통합을 통해 Windows **비영구 장치 온보드를 선택하십시오.**   
-    1. 탐색 창에서 상호 교환 파트너 **를**  >  **선택합니다.** 타사 솔루션이 나열되어 있는지 확인
-    2. 파트너 **응용 프로그램 탭에서** 비프로그램 디바이스를 지원하는 Windows 선택합니다.
-    3. 파트너 **페이지 열기 를** 선택하여 파트너 페이지를 열 수 있습니다. 페이지에 제공된 지침을 따릅니다.
-    4. 계정을 만들거나 파트너 솔루션을 신청한 후 조직의 테넌트 전역 관리자에게 파트너 응용 프로그램의 사용 권한 요청을 수락할지 묻는 단계가 표시됩니다. 사용 권한 요청을 신중하게 읽어 필요한 서비스에 맞춰지십시오. 
-
+   - 비영리 Windows 타사 Windows 장치를 **온보드합니다.**   
+    1. 탐색 창에서 파트너 및 API 파트너 **응용**  >  **프로그램을 선택합니다.** 타사 솔루션이 나열되어 있는지 확인
+    2. 파트너 **응용 프로그램 페이지에서** 비프로그램 디바이스를 지원하는 Windows 선택합니다.
+    3. **보기를** 클릭하여 파트너의 페이지를 열 수 있습니다. 페이지에 제공된 지침을 따릅니다.
+    4. 계정을 만들거나 파트너 솔루션을 신청한 후 조직의 테넌트 전역 관리자에게 파트너 응용 프로그램의 사용 권한 요청을 수락할지 묻는 단계가 표시됩니다. 사용 권한 요청을 신중하게 읽어 필요한 서비스에 맞게 조정해야 합니다. 
         
 2. 타사 솔루션의 지침에 따라 검색 테스트를 실행합니다.
 

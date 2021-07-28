@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 820edf268a3062754a4994b6ce6c60c40b9a4312
-ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
+ms.openlocfilehash: e6a0806aed745687ef943e537c64ad74db3b3480
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587780"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542168"
 ---
 # <a name="new-configuration-profiles-for-macos-catalina-and-newer-versions-of-macos"></a>macOS 카탈로니아 및 최신 버전의 macOS용 새 구성 프로필
 
@@ -34,7 +34,7 @@ ms.locfileid: "53587780"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 macOS 업데이트에서 끝점용 Microsoft Defender를 준비하고 있습니다. 이 업데이트는 macOS 카탈로니아어(10.15.4) 및 최신 버전의 macOS에만 적용할 수 있습니다.
 

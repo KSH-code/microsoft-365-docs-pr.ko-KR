@@ -20,12 +20,12 @@ ms.custom:
 description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c0f95561977c453d7040d84ba0c779c3d33e07f0
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: b54af30ee273680e71a0a3eead433f8f26ebd814
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029828"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542780"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 
@@ -36,7 +36,7 @@ ms.locfileid: "53029828"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP에 격리](quarantine-email-messages.md)를 참조하세요.
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP 격리](quarantine-email-messages.md)를 참조하세요.
 
 격리된 메시지 수신자가 관리자가 아닌 사용자로서 메시지에 할 수 있는 작업이 다음 표에 설명되어 있습니다.
 
@@ -48,7 +48,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 |---|:---:|:---:|:---:|
 |대량|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
 |스팸|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|피싱(높은 신뢰도 피싱은 해당 안 됨)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
+|피싱(높은 신뢰도 피싱은 해당 안 됨)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
 |
 
 Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)(관리자가 설정한 경우)에서 격리된 메시지를 보고 관리합니다.

@@ -9,33 +9,61 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d4e8285bb4d589bc527db8d979a0223d3f64b8ec
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 31446b7f2afd316929443a3aa36cb73addbf9a2c
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287846"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542012"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 관리자 지원
 
 관리자 포털을 사용하여 지원 티켓 또는 피드백 요청을 Microsoft에 Microsoft Managed Desktop 수 있습니다. 지원 요청은 항상 피드백 제출보다 우선합니다. 지원 요청은 심각도 정의 테이블에 설명된 심각도에 따라 조사 및 [관리됩니다.](#sev) 피드백을 검토하고 요청된 경우 응답이 제공됩니다. 
 
-> [!IMPORTANT]
-> 앱 [패키징,](../get-started/add-admin-contacts.md) 장치, 보안 및 기타 요청에 대한 관리자 연락처를 설정해야 합니다. 관리자 연락처를 제공하지 않는 경우 이러한 영역에서 지원 요청을 제출할 수 없습니다.
 
-**지원 요청을 제출합니다.**
+## <a name="open-a-new-support-request"></a>새 지원 요청 열기
 
 1. 로그인하여 [](https://endpoint.microsoft.com/) Microsoft Endpoint Manager 테넌트 관리 **메뉴로** 이동합니다.
 2. Microsoft Managed Desktop 찾아 서비스 요청을 **선택합니다.**
 3. 지원 **요청에서**+ 새 지원 **티켓을 선택합니다.**
 4. 필요한 **도움말과** 일치하는 지원 요청 유형을 선택합니다. 다음 표에는 옵션에 대한 간략한 설명이 나와 있습니다. 
-5. 심각도 **수준을 선택합니다.** 자세한 내용은 지원 요청 [심각도 정의를 참조하세요.](#sev) 
+5. 심각도 **수준을 선택합니다.** 자세한 내용은 지원 요청 [심각도 정의를 참조하세요.](#sev)
+6. 팀이 신속하게 응답할 수 있도록 요청에 대한 정보를 최대한 많이 제공합니다. 요청 유형에 따라 다른 세부 정보를 제공해야 할 수 있습니다.
+7. 정확성을 위해 제공한 모든 정보를 검토합니다. 
+8. 준비가 되었으면 **만들기** 를 선택합니다.
+ 
 
 지원 요청 유형 | 사용해야 하는 경우
 --- | ---
 인시던트 | 예를 들어 Microsoft Managed Desktop 서비스 작동 팀이 조사해야 합니다. 예를 들어 변경이나 서비스 작동이 에 대한 광범위한 영향을 조사해야 합니다.
 정보 요청 | 네트워킹, 프록시 구성, VPN 시스템, 인증서 만료에 대한 변경을 계획 중이거나 서비스에 대한 몇 가지 정보만 필요합니다. 조직 내에서 Microsoft Managed Desktop 통신할 때 조직 운영 팀의 응답을 요청하는 것이 좋습니다.
 변경 요청 | 장치 Microsoft Managed Desktop 그룹 간에 장치를 이동하는 등의 변경 작업을 수행하려면 작업 팀이 필요합니다.
+
+> [!IMPORTANT]
+> 지원 요청을 만들 때 서비스 엔지니어와 협력하여 문제를 해결하거나 요청된 변경에 대한 질문에 답변할 책임이 있는 기본 담당자를 나열해야 합니다. 또한 관련 포커스 [](../get-started/add-admin-contacts.md) 영역에 대한 모든 사례 알림에 복사될 관리자 연락처를 이전에 설정하고 사례의 기본 연락처에 액세스할 수 없는 경우 사례를 인계하도록 요청해야 합니다.
+
+## <a name="manage-an-active-support-request"></a>활성 지원 요청 관리
+사례를 만든 경우 사례의 [](../get-started/add-admin-contacts.md) 기본 연락처(및 해당 포커스 영역의 모든 관리자  담당자)는 사례를 만들 **때,** 조사할 서비스 엔지니어에게 할당 및 해결된 에 대한 전자 메일 알림을 **받게 됩니다.** 어느 시점에서든 사례에 대한 질문이 있는 경우 팀과 연락하는 가장 좋은 방법은 해당 전자 메일 중 하나에 직접 회신하는 것입니다. 요청에 대한 질문이 있는 경우 또는 조치를 취하기 위해 추가 세부 정보가 필요한 경우 지원 요청에 나열된 기본 연락처(모든 관련 관리자 연락처 복사)를 전자 메일로 보내 드립니다.
+
+### <a name="view-all-your-active-cases"></a>모든 활성 사례 보기
+전자 메일은 팀과 상호 작용하는 데 권장되는 방법인 반면 모든 지원 요청의 요약 상태를 확인할 수 있습니다. 포털을 사용하여 지난 6개월 동안 활성 상태인 모든 지원 요청을 볼 수 있습니다.
+
+1.  테넌트 [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 로그인하고 **테넌트 관리 메뉴로** 이동합니다.
+2.  서비스 Microsoft Managed Desktop *를* 찾아 **서비스 요청을 선택합니다.**
+3.  이 보기에서 요약 보기를 내보내거나 사례를 클릭하여 세부 정보를 볼 수 있습니다.
+
+### <a name="edit-case-details"></a>사례 세부 정보 편집
+기본 사례 연락처를 업데이트하는 등 사례의 세부 정보를 편집해야 하는 경우 다음 단계를 따라야 합니다.
+1.  서비스 **요청** 블레이드의  테넌트 관리 [](https://endpoint.microsoft.com/)Microsoft Endpoint Manager 검색 창 또는 필터를 사용하여 편집할 사례를 찾을 수 있습니다.
+2.  사례를 선택하여 요청 세부 정보 열기 
+3.  요청 세부 정보 아래쪽으로 스크롤하고 편집 을 **선택합니다.**
+4.  편집 가능한 정보를 업데이트하거나, 사례에 첨부 파일을 추가하거나, 서비스 엔지니어링 팀에 대한 메모를 추가한 다음 저장을 **선택합니다.**
+
+### <a name="provide-feedback"></a>피드백 제공
+
+사용자 의견을 보내주시고 이를 사용하여 관리자 지원 환경을 개선할 수 있습니다.
+
+지원 요청의 기본 담당자인 경우 문제가 해결된 후 Microsoft Managed Desktop 작업에서 전자 메일을 받게 됩니다. 피드백은 서비스를 개선하고 향후 기능에 우선 순위를 지정하기 위해 적극적으로 모니터링 및 엔지니어링과 공유됩니다. 사용자 경험에 집중하고 피드백 양식에 개인 정보를 포함하지 말아야 합니다. 개인 정보 보호에 대한 자세한 내용은 Microsoft 개인 정보 취급 [방침을 참조하세요.](https://privacy.microsoft.com/privacystatement)
 
 <span id="sev" />
 
@@ -57,13 +85,6 @@ ms.locfileid: "53287846"
 - **응용 프로그램** 호환성 - 응용 프로그램 호환성 문제를 고려하려면 이전 버전과 현재 버전의 응용 프로그램 또는 응용 프로그램 간에 동일한 버전의 Windows 엔터프라이즈용 Microsoft 365 앱. 응용 프로그램 호환성 문제를 해결하려면 작업할 수 있는 담당자가 필요합니다. 담당자는 Fast Track 팀과 직접 작업하여 문제를 조사하고 해결해야 합니다.
 - **고객 응답 시간** 예상된 응답 요구 사항을 충족할 수 없는 경우 요청이 심각도 수준 하나 이상인 최소 심각도 C로 다운그레이드됩니다. 작업 요청에 응답하지 않는 경우 마지막 요청 후 48시간 이내에 지원 요청을 완화하고 닫습니다.
 
-## <a name="provide-feedback"></a>피드백 제공
-
-사용자 의견을 보내주시고 이를 사용하여 관리자 지원 환경을 개선할 수 있습니다.
-
-티켓이 **완화** 또는 해결된 상태이면 해당 특정 문제와 경험에 대한 피드백을 공유할 수 있습니다.  피드백을 공유하기 위해  사이트 포털의 문제 해결 **+** 지원 메뉴에서 서비스 요청 Microsoft Endpoint Manager 이동합니다. 특정 티켓을 선택합니다. 티켓 세부 정보는 오른쪽의 플라이 인에 표시됩니다. 피드백 **탭을** 선택하고 요청된 정보를 제공합니다. 피드백 양식에 개인 정보를 포함하지 않도록 주의하세요. 개인 정보 보호에 대한 자세한 내용은 Microsoft 개인 정보 취급 [방침을 참조하세요.](https://privacy.microsoft.com/privacystatement)
-
-:::image type="content" alt-text="피드백 양식의 예" source="../../media/feedback_form.png" lightbox="../../media/feedback_form.png":::
 
 ## <a name="more-resources"></a>추가 리소스
 

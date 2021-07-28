@@ -1,5 +1,5 @@
 ---
-title: 공격 표면 감소 규칙 사용
+title: 공격 노출 영역 축소 규칙 사용
 description: ASR(공격 표면 축소) 규칙을 사용하도록 설정하여 매크로, 스크립트 및 일반적인 삽입 기술을 사용하는 공격으로부터 장치를 보호합니다.
 keywords: 공격 표면 감소, hips, 호스트 침입 방지 시스템, 보호 규칙, 악용 방지, 악용, 감염 방지, 사용, 켜기
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 06/02/2021
-ms.openlocfilehash: 65215d15e79ab03611bbf28c153d6882fd1c355d
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f08bc688f46d5b68dc7e0cedd68593111231014a
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229146"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596125"
 ---
-# <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
+# <a name="enable-attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙 사용
 
 **적용 대상:**
 
@@ -31,7 +31,7 @@ ms.locfileid: "53229146"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨어가 장치 및 네트워크를 손상하기 위해 자주 남용되는 작업을 방지하는 데 도움이 됩니다.
 
@@ -109,7 +109,7 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
 ## <a name="mem"></a>MEM
 
-MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규칙을 구성할 수 있습니다. 다음 절차에서는 이 예제에 악용된 취약한 드라이버의 [남용](attack-surface-reduction.md#block-abuse-of-exploited-vulnerable-signed-drivers) 차단 규칙을 사용합니다.
+MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규칙을 구성할 수 있습니다. 다음 절차에서는 이 예제에 악용된 취약한 드라이버의 [남용](attack-surface-reduction-rules.md#block-abuse-of-exploited-vulnerable-signed-drivers) 차단 규칙을 사용합니다.
 
 1. MEM(Microsoft Endpoint Manager) 관리 센터를 열 수 있습니다. 홈 **메뉴에서** **장치,** 구성 **프로필을** 선택한 다음 프로필 **만들기를 클릭합니다.**
 
@@ -191,7 +191,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 [./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules](/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductionrules) CSP(구성 서비스 공급자)를 사용하여 각 규칙에 대해 모드를 개별적으로 사용하도록 설정하고 설정할 수 있습니다.
 
-다음은 ASR 규칙에 GUID 값을 사용하는 참조용 [샘플입니다.](attack-surface-reduction.md#attack-surface-reduction-rules)
+다음은 공격 표면 감소 규칙에 GUID 값을 사용하는 참조용 [샘플입니다.](attack-surface-reduction-rules.md)
 
 `OMA-URI path: ./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules`
 

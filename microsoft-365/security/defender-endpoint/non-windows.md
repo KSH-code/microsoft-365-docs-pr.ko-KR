@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4793f3c84ddda0db7f4d67ac96cb31a6e2108c57
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 6e5bb710598e13a47f11a4392985276525760dca
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327002"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542120"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>엔드포인트용 Microsoft Defender(Windows가 아닌 플랫폼)
 
@@ -76,7 +76,7 @@ Android의 끝점용 Microsoft Defender는 Android 6.0 이상을 실행하는 �
 
 ## <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
-iOS의 끝점용 Microsoft Defender는 iOS 11.0 이상을 실행하는 장치에 대한 모바일 위협 방어 솔루션입니다. 감독된 디바이스와 관리되지 않는 장치가 모두 지원됩니다. iOS에서는 피싱 방지, 안전하지 않은 연결 차단 및 사용자 지정 표시기 설정이 포함된 웹 보호 기능을 제공합니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/iOS) 
+iOS의 끝점용 Microsoft Defender는 iOS 11.0 이상을 실행하는 장치에 대한 모바일 위협 방어 솔루션입니다. 고객의 테넌트 내에 등록된 장치(등록 또는 등록되지 않은 장치)가 지원됩니다. 감독되는 등록 장치와 관리되지 않는 등록 장치가 모두 지원됩니다. iOS에서는 피싱 방지, 안전하지 않은 연결 차단, 사용자 지정 표시기 설정, 탈옥 감지를 포함하는 웹 보호 기능을 제공합니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/iOS) 
 
 시작 방법에 대한 자세한 내용은 iOS 설명서의 Microsoft Defender for Endpoint를 [참조하세요.](microsoft-defender-endpoint-ios.md)
 

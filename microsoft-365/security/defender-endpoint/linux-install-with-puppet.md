@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d54732134e91b87b2639634c365556beda5312b0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f935815f7830b8697e1870bde89af8fa056534ff
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934576"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543308"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-puppet"></a>Puppet을 통해 Linux에서 끝점용 Microsoft Defender 배포
 
@@ -51,13 +51,13 @@ ms.locfileid: "51934576"
 
 ## <a name="download-the-onboarding-package"></a>온보더링 패키지 다운로드
 
-다음 사이트에서 온보더링 패키지를 Microsoft Defender 보안 센터.
+다음 포털에서 온보 Microsoft 365 Defender 다운로드합니다.
 
-1. 다음 Microsoft Defender 보안 센터 **온보드 설정 > 장치** 관리 > 로 이동하세요.
+1. Microsoft 365 Defender 포털에서 장치 관리 설정 > 끝점 > 온보 > **로 이동하세요.**
 2. 첫 번째 드롭다운 메뉴에서 **운영 체제로 Linux Server를** 선택합니다. 두 번째 드롭다운 메뉴에서 배포 **방법으로** 기본 Linux 구성 관리 도구를 선택합니다.
 3. **온보더링 패키지 다운로드를 선택합니다.** 파일을 다른 파일로 WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Microsoft Defender 보안 센터 스크린샷](images/atp-portal-onboarding-linux-2.png)
+    ![Microsoft 365 Defender 포털 스크린샷](images/portal-onboarding-linux-2.png)
 
 4. 명령 프롬프트에서 파일이 있는지 확인 
 

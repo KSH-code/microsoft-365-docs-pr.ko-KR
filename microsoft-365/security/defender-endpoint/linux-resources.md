@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: aaf9c0a8eef4e050ca034d1aee69d24c5adb909d
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 9fe35f5bac942cc5a4e9fa95a5eaf9759072d832
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930370"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542192"
 ---
 # <a name="resources"></a>리소스
 
@@ -166,8 +166,8 @@ Linux에서 끝점용 Defender를 제거하는 방법에는 여러 가지가 있
 
 ### <a name="known-issues"></a>알려진 문제
 
-- 제품이 예상대로 작동하고 있도 Microsoft Defender 보안 센터 정보 페이지에 "센서 데이터 없음, 통신 장애가 있습니다."가 표시될 수 있습니다. We are working on addressing this issue.
-- 로그온한 사용자가 로그인 포털에 Microsoft Defender 보안 센터 않습니다.
+- 제품이 예상대로 작동하고 있도 Microsoft 365 Defender 포털의 컴퓨터 정보 페이지에 "센서 데이터 없음, 통신 장애가 있습니다."가 표시될 수 있습니다. We are working on addressing this issue.
+- 로그온한 사용자가 로그인 포털에 Microsoft 365 Defender 않습니다.
 - SUSE 배포에서 *libatomic1* 설치가 실패하면 OS가 등록되어 있는지 유효성을 검사해야 합니다.
 
    ```bash

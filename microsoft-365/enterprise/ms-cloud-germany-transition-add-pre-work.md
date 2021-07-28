@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 독일 신규 데이터 센터 Office 365 서비스로 전환할 때 사전 작업입니다.'
-ms.openlocfilehash: 08774cdfd831556c194b5175879f211efa250632
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 77e3dbd3f819aea15632a0ba069249a44a8663fb
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362741"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542036"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
@@ -119,7 +119,8 @@ Office 365 "Germany" 지역으로 전환하는 테넌트는 모든 사용자가 
 
 |Step(s)|설명|영향|
 |---|---|---|
-|2013 SharePoint 제한, 온라인 마이그레이션 SharePoint 사용하세요.|전환 SharePoint 2013 워크플로를 줄이고 진행 중 워크플로를 완료합니다.|비활성으로 인해 사용자에게 혼동을 주며 지원 센터 통화가 있을 수 있습니다.|
+|2013 SharePoint 제한, 온라인 마이그레이션 SharePoint 사용하세요.|전환 SharePoint 2013 워크플로를 줄이고 진행 중 워크플로를 완료합니다.|비활성으로 인해 사용자에게 혼동을 주며 지원 센터 통화가 있을 수 있습니다.| 
+수정 SharePoint 적용된 경우 검색 구성에서 내보내기 |검색 SharePoint 구성이 마이그레이션되지 않습니다. 검색에 SharePoint 변경 내용이 적용된 경우 변경 내용을 메모하고 검색 구성을 내보내야 합니다. 설정은 전환이 완료된 SharePoint 다시 가져와야 합니다.|수정된 검색chema를 기반으로 하는 모든 사용자 지정 솔루션은 검색 수정 내용을 다시 적용해야 사용할 수 있습니다.|
 
 
 ## <a name="exchange-online"></a>Exchange Online

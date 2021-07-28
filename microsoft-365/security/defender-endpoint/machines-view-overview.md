@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a031a35929f319e87a9ad1a9ca48d6bf95a3ef72
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 87d9d768a81d8e6ddd72753fe7372f18c13254e1
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861578"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542954"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-devices-list"></a>끝점 장치용 Microsoft Defender 목록 보기 및 구성
 
@@ -51,7 +51,7 @@ ms.locfileid: "51861578"
 >[!NOTE]
 > 장치 목록을 내보낼 경우 조직의 모든 장치가 포함되어 있습니다. 조직의 규모에 따라 다운로드하는 데 많은 시간이 걸릴 수 있습니다. 목록을 CSV 형식으로 내보내면 데이터가 필터되지 않은 방식으로 표시됩니다. CSV 파일에는 보기 자체에 적용된 필터링에 관계없이 조직의 모든 장치가 포함됩니다.
 
-![장치 목록이 있는 장치 목록의 이미지](images/device-list.png)
+![장치 목록이 있는 장치 목록의 이미지](images/device-inventory.png)
 
 ## <a name="sort-and-filter-the-device-list"></a>장치 목록 정렬 및 필터링
 

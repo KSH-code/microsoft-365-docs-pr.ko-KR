@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a5590e62e7838bb9f611320b6d0e5c573b2be084
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e24153da80cc5ab1b1b6103e83d6378e210733d9
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841561"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596365"
 ---
 # <a name="optimize-asr-rule-deployment-and-detections"></a>ASR 규칙 배포 및 검색 최적화
 
@@ -31,11 +31,13 @@ ms.locfileid: "52841561"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
 
 [ASR(공격 표면 감소) 규칙은](./attack-surface-reduction.md) 일반적인 맬웨어 악용을 식별하고 방지합니다. 잠재적으로 악성 코드가 실행될 수 있는 경우와 방법을 제어합니다. 예를 들어 JavaScript 또는 VBScript가 다운로드된 실행 파일을 시작하지 못하게 방지하고, Office 매크로에서 Win32 API 호출을 차단하고, USB 드라이브에서 실행되는 프로세스를 차단할 수 있습니다.
 
-![공격 표면 관리 카드](images/secconmgmt_asr_card.png)<br>
+
+:::image type="content" source="../../media/attack-surface-mgmt.png" alt-text="공격 표면 관리 카드":::
+<br>
 *공격 표면 관리 카드*
 
 공격 *표면 관리 카드는* 다음에 사용할 수 있는 Microsoft 365 보안 센터의 도구 진입점입니다.
@@ -44,7 +46,7 @@ ms.locfileid: "52841561"
 * ASR 검색을 검토하고 가능한 잘못된 검색을 식별합니다.
 * 제외의 영향을 분석하고 제외할 파일 경로 목록을 생성합니다.
 
-Go **to attack surface management**  >  **Monitoring & reports > Attack surface reduction rules > Add exclusions 를 선택합니다.** 이 섹션에서 보안 센터의 다른 섹션으로 Microsoft 365 있습니다.
+공격 **표면 관리** 보고서 공격 표면 축소 규칙 제외 추가로  >    >    >  **이동을 선택합니다.** 이 섹션에서 보안 센터의 다른 섹션으로 Microsoft 365 있습니다.
 
 ![보안 센터의 공격 표면 축소 규칙 페이지에서 제외 Microsoft 365 추가](images/secconmgmt_asr_m365exlusions.png)<br>
 보안 ***센터의** 공격 표면 축소 규칙 페이지의 제외 Microsoft 365 탭*

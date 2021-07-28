@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 456507533265bc085adc1008f3264e123569a6ca
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: c1695729a12f9cce74663c35f6a9cd537ac468b6
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770772"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543488"
 ---
 # <a name="fetch-alerts-from-mssp-customer-tenant"></a>MSSP 고객 테넌트에서 경고 페치
 
@@ -49,8 +49,8 @@ SIEM 시스템으로 경고를 페치하려면 다음 단계를 수행해야 합
 
 2단계: 고객의 테넌트에서 토큰 액세스 및 새로 고침
  
-3단계: 응용 프로그램에서 응용 프로그램 허용 Microsoft Defender 보안 센터
- 
+3단계: 응용 프로그램에서 응용 프로그램 허용 Microsoft 365 Defender
+
 ### <a name="step-1-create-an-application-in-azure-active-directory-azure-ad"></a>1단계: Azure AD(Azure Active Directory 응용 프로그램 만들기)
  
 응용 프로그램을 만들고 고객의 끝점 테넌트에 대한 Microsoft Defender에서 알림을 보내기 위한 권한을 부여해야 합니다.
@@ -160,14 +160,14 @@ SIEM 시스템으로 경고를 페치하려면 다음 단계를 수행해야 합
 
 8. PowerShell 창에서 액세스 토큰과 새로 고침 토큰을 받게 됩니다. 새로 고침 토큰을 저장하여 SIEM 커넥터를 구성합니다. 
  
-### <a name="step-3-allow-your-application-on-microsoft-defender-security-center"></a>3단계: 응용 프로그램에서 응용 프로그램 Microsoft Defender 보안 센터
-응용 프로그램에서 만든 응용 프로그램을 허용해야 Microsoft Defender 보안 센터.
+### <a name="step-3-allow-your-application-on-microsoft-365-defender"></a>3단계: 응용 프로그램에서 응용 프로그램 Microsoft 365 Defender
+응용 프로그램에서 만든 응용 프로그램을 허용해야 Microsoft 365 Defender.
  
 응용 프로그램을 **허용하려면** 포털 시스템 설정 관리 권한이 필요합니다. 그렇지 않으면 고객에게 응용 프로그램을 허용하도록 요청해야 합니다.
 
-1. 로 `https://securitycenter.windows.com?tid=<customer_tenant_id>` 이동(고객의 테넌트 \<customer_tenant_id\> ID로 대체).
+1. 로 `https://security.microsoft.com?tid=<customer_tenant_id>` 이동(고객의 테넌트 \<customer_tenant_id\> ID로 대체).
 
-2. SIEM **설정**  >  **클릭합니다.** 
+2. 끝점 **설정**  >    >    >  **SIEM을 클릭합니다.** 
 
 3. **MSSP 탭을** 선택합니다.
 

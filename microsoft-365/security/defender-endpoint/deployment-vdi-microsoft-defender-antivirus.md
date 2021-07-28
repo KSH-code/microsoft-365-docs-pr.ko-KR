@@ -15,12 +15,12 @@ ms.date: 06/11/2021
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 83e37b6d59d7356b53e5024204e39473764cea72
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: baec5e1e35c93213be67df1163113cfe3cb3dd29
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924918"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596269"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드
 
@@ -49,11 +49,13 @@ VIS에서 실행되는 VM에 업데이트를 쉽게 배포할 수 있는 기능�
 성능 테스트 및 자체 VDI에서 바이러스 백신 성능을 테스트하는 방법에 대한 지침과 함께 새로운 공유 보안 [인텔리전스](https://demo.wd.microsoft.com/Content/wdav-testing-vdi-ssu.pdf)업데이트 기능을 Microsoft Defender 바이러스 백신 가상 데스크톱 인프라에서 백서 응용 프로그램을 다운로드할 수도 있습니다.
 
 > [!IMPORTANT]
-> VDI는 Windows Server 2012 또는 Windows Server 2016 호스트할 수 있습니다. 이전 버전의 VDI에서는 사용할 수 없는 보호 기술 및 기능이 늘어나기 때문에 VM(가상 컴퓨터)은 Windows 10 1607 이상을 실행해야 Windows.<br/>Microsoft Defender AV가 Insider Preview, 빌드 18323 이상에서 가상 Windows 10 성능 및 기능이 개선되었습니다. Insider Preview 빌드를 사용하려면 이 가이드에서 확인할 것입니다. 이 버전을 지정하지 않으면 최상의 보호 및 성능을 위해 필요한 최소 버전은 Windows 10 1607입니다.
+> VDI는 Windows Server 2012 또는 Windows Server 2016 호스트할 수 있습니다. 이전 버전의 VDI에서는 사용할 수 없는 보호 기술 및 기능이 늘어나기 때문에 VM(가상 컴퓨터)은 Windows 10 1607 이상을 실행해야 Windows.
+>
+> Microsoft Defender AV가 Insider Preview, 빌드 18323 이상에서 가상 Windows 10 성능 및 기능이 개선되었습니다. Insider Preview 빌드를 사용하려면 이 가이드에서 확인할 것입니다. 이 버전을 지정하지 않으면 최상의 보호 및 성능을 위해 필요한 최소 버전은 Windows 10 1607입니다.
 
 ## <a name="set-up-a-dedicated-vdi-file-share"></a>전용 VDI 파일 공유 설정
 
-Windows 10 버전 1903에서는 호스트 컴퓨터로 다운로드한 보안 인텔리전스 업데이트의 포장을 풀어 개별 컴퓨터의 이전 CPU, 디스크 및 메모리 리소스를 절약하는 공유 보안 인텔리전스 기능을 도입했습니다. 이 기능은 이전 버전 1703 이상에서 Windows 10 기능이 지원되었습니다. 이 기능은 그룹 정책 또는 PowerShell을 사용하여 설정할 수 있습니다.
+Windows 10 버전 1903에서는 다운로드한 보안 인텔리전스 업데이트의 포장을 풀고 호스트 컴퓨터로 오프로드하여 개별 컴퓨터의 이전 CPU, 디스크 및 메모리 리소스를 절약하는 공유 보안 인텔리전스 기능을 도입했습니다. 이 기능은 이전 버전 1703 이상에서 Windows 10 기능이 지원되었습니다. 이 기능은 그룹 정책 또는 PowerShell을 사용하여 설정할 수 있습니다.
 
 ### <a name="use-group-policy-to-enable-the-shared-security-intelligence-feature"></a>그룹 정책을 사용하여 공유 보안 인텔리전스 기능을 사용하도록 설정할 수 있습니다.
 
@@ -100,22 +102,23 @@ Invoke-WebRequest -Uri 'https://go.microsoft.com/fwlink/?LinkID=121721&arch=x64'
 cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 ```
 
-예약된 작업을 하루 한 번 실행하여 패키지를 다운로드하고 패키지를 언팩할 때마다 VM이 새 업데이트를 받게 할 수 있습니다. 하루 한 번부터 시작하는 것이 되지만 영향을 이해하기 위해 빈도를 늘리거나 줄이면서 실험해 보아야 합니다. 
+예약된 작업을 하루 한 번 실행하여 패키지를 다운로드하고 패키지를 언팩할 때마다 VM이 새 업데이트를 받게 할 수 있습니다.
+하루 한 번부터 시작하는 것이 되지만 영향을 이해하기 위해 빈도를 늘리거나 줄이면서 실험해 보아야 합니다.
 
 보안 인텔리전스 패키지는 일반적으로 3~4시간마다 한 번씩 게시됩니다. 빈도를 4시간보다 짧게 설정하면 관리 컴퓨터의 네트워크 오버헤드가 증가하여 이점이 없습니다.
 
 ### <a name="set-a-scheduled-task-to-run-the-powershell-script"></a>PowerShell 스크립트를 실행하기 위해 예약된 작업 설정
 
-1. 관리 컴퓨터의 시작 메뉴를 열고 **작업 스케줄러 를 입력합니다.** 작업을 열고 작업 **만들기... 를 선택합니다.** 을(를) 왼쪽 패널에 표시
+1. 관리 컴퓨터의 관리 시작 메뉴 작업 스케줄러 **를 입력합니다.** 작업을 열고 사이드 패널에서 **작업 만들기...를** 선택합니다.
 
-2. 보안 인텔리전스 **unpacker로 이름을 입력합니다.** 트리거 **탭으로** 이동하십시오. 새로 **추가...를 선택합니다.** > **매일** 을 선택하고 **확인 을 선택합니다.**
+2. 보안 인텔리전스 **unpacker로 이름을 입력합니다.** 트리거 **탭으로** 이동하여 새로 **추가...를 선택합니다.**  >  **매일** 을 선택하고 **확인 을 선택합니다.**
 
-3. 작업 **탭으로** 이동하십시오. 새로 **추가...를 선택합니다.** 프로그램/스크립트 필드에 **PowerShell을** **입력합니다.** 인수 `-ExecutionPolicy Bypass c:\wdav-update\vdmdlunpack.ps1` **추가 필드에 입력합니다.** **확인** 을 선택합니다.
+3. 작업 **탭으로 이동하여** 새로 추가...를 **선택합니다.** 프로그램/스크립트 필드에 **PowerShell을** **입력합니다.** 인수 `-ExecutionPolicy Bypass c:\wdav-update\vdmdlunpack.ps1` **추가 필드에 입력합니다.** **확인** 을 선택합니다.
 
 4. 원하는 경우 추가 설정을 구성하도록 선택할 수 있습니다.
 
 5. **확인을** 선택하여 예약된 작업을 저장합니다.
- 
+
 작업을 마우스 오른쪽 단추로 클릭하고 실행을 클릭하여 수동으로 업데이트를 시작할 **수 있습니다.**
 
 ### <a name="download-and-unpackage-manually"></a>수동으로 다운로드 및 포장 풀기
@@ -126,7 +129,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 2. GUID 이름으로 wdav_update 하위폴더 만들기 `{00000000-0000-0000-0000-000000000000}`
 
-예를 들면 다음과 같습니다. `c:\wdav_update\{00000000-0000-0000-0000-000000000000}`
+   예를 들면 다음과 같습니다. `c:\wdav_update\{00000000-0000-0000-0000-000000000000}`
 
    > [!NOTE]
    > 스크립트에서 GUID의 마지막 12자리 숫자가 매월 새 폴더가 만들어지기 위해 파일을 다운로드한 연도, 월, 일 및 시간으로 설정됩니다. 파일을 매시간 동일한 폴더로 다운로드할 수 있도록 변경할 수 있습니다.
@@ -156,7 +159,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 3. 정책을 **사용으로 설정하고** 옵션 에서 빠른 검사 **를 선택합니다.**
 
-4. **확인** 을 선택합니다. 
+4. **확인** 을 선택합니다.
 
 5. 평소와 같이 그룹 정책 개체를 배포합니다.
 
@@ -166,16 +169,17 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 1. 그룹 정책 편집기에서 클라이언트 **인터페이스의** Windows 구성  >  **Microsoft Defender 바이러스 백신**  >  **로 이동하십시오.**
 
-2. 모든 **알림 표시 안 를 선택한** 다음 정책 설정을 편집합니다. 
+2. 모든 **알림 표시 안 를 선택한** 다음 정책 설정을 편집합니다.
 
 3. 정책을 **사용으로 설정하고** 확인 을 **선택합니다.**
 
 4. 평소와 같이 그룹 정책 개체를 배포합니다.
 
-알림을 표시하지 Microsoft Defender 바이러스 백신 검사가 수행되거나 수정 작업이 수행될 Windows 10 알림 센터에 알림이 표시되지 않습니다. 그러나 보안 운영 팀의 검색 결과는 Defender 포털의 Microsoft 365 [표시됩니다.](microsoft-defender-security-center.md)
+알림을 표시하지 Microsoft Defender 바이러스 백신 검사가 수행되거나 수정 작업이 수행될 Windows 10 알림 센터에 알림이 표시되지 않습니다. 그러나 보안 운영 팀의 검색 결과는 검색 포털에서 Microsoft 365 Defender [표시됩니다.](microsoft-defender-security-center.md)
 
 > [!TIP]
 > 관리 센터를 Windows 10 다음 단계 중 하나를 수행합니다.
+>
 > - 작업 표시줄의 오른쪽 끝에서 작업 센터 아이콘을 선택합니다.
 > - 로고 Windows 단추 + A를 누릅니다.
 > - 터치 스크린 디바이스에서 화면 오른쪽 가장자리에서 스와이프합니다.
@@ -224,7 +228,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 4. **확인** 을 클릭합니다.
 
 5. 일반적으로 그룹 정책 개체를 배포합니다.
- 
+
 이 정책은 조직의 Microsoft Defender 바이러스 백신 사용자 인터페이스 전체를 숨길 수 있습니다.
 
 ## <a name="exclusions"></a>제외
@@ -236,5 +240,5 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 ## <a name="additional-resources"></a>추가 리소스
 
 - [기술 Community 블로그: 비영구 Microsoft Defender 바이러스 백신 VDI 컴퓨터용 구성](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/configuring-microsoft-defender-antivirus-for-non-persistent-vdi/ba-p/1489633)
-- [원격 데스크톱 서비스 및 VDI의 TechNet 포럼](https://social.technet.microsoft.com/Forums/windowsserver/en-US/home?forum=winserverTS)
+- [원격 데스크톱 서비스 및 VDI의 TechNet 포럼](https://social.technet.microsoft.com/Forums/windowsserver/home?forum=winserverTS)
 - [SignatureDownloadCustomTask PowerShell 스크립트](https://www.powershellgallery.com/packages/SignatureDownloadCustomTask/1.4)

@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: c81f14b92b285359bda7e291bd8d3a8b636ae54d
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: cc7fc87a4c9d8bcdcb6c80db6d8725ecb62f24a2
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228966"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542824"
 ---
 # <a name="defender-for-identity-security-alerts-in-microsoft-365-defender"></a>2013의 ID 보안 경고에 대한 Microsoft 365 Defender
 
@@ -21,9 +21,9 @@ ms.locfileid: "53228966"
 - Microsoft 365 Defender
 - ID용 Defender
 
-이 문서에서는 보안 센터에서 Microsoft [Defender for Identity](/defender-for-identity) 보안 경고를 Microsoft 365 [방법을 설명합니다.](/microsoft-365/security/defender/overview-security-center)
+이 문서에서는 에서 [Microsoft Defender for Identity](/defender-for-identity) 보안 경고와 함께 작업하는 방법의 기본 [Microsoft 365 Defender.](/microsoft-365/security/defender/overview-security-center)
 
-ID 경고에 대한 Defender는 기본적으로 전용 ID [Microsoft 365](https://security.microsoft.com) 페이지 형식으로 보안 센터에 통합됩니다. 이는 에 전체 [Microsoft Defender for Identity](/defender-for-identity/defender-for-identity-in-microsoft-365-defender)환경을 도입하는 여정의 첫 번째 Microsoft 365 Defender.
+ID 경고에 대한 Defender는 기본적으로 전용 MICROSOFT 365 DEFENDER [페이지](https://security.microsoft.com) 형식과 통합됩니다. 이는 에 전체 [Microsoft Defender for Identity](/defender-for-identity/defender-for-identity-in-microsoft-365-defender)환경을 도입하는 여정의 첫 번째 Microsoft 365 Defender.
 
 새 ID 경고 페이지에서는 Microsoft Defender for Identity 고객에게 도메인 간 신호 향상 및 새로운 자동화된 ID 응답 기능을 제공합니다. 보안 유지를 보장하고 보안 작업의 효율성을 개선하는 데 도움이 됩니다.
 
@@ -38,7 +38,7 @@ ID에 대한 Defender에서 시작된 경고는 이제 경고를 자동으로 �
 
 경고 페이지, 인시던트 페이지,  개별 장치의  페이지 및 고급 헌팅 페이지를 비롯한 여러 위치에서 경고에 액세스할 **수** 있습니다.  이 예제에서는 경고 페이지를 **검토합니다.**
 
-보안 [Microsoft 365 에서](https://security.microsoft.com/) **인시던트** & 경고로 이동한 다음 **경고로 이동합니다.**
+에서 [Microsoft 365 Defender](https://security.microsoft.com/) **인시던트 알림으로 & 경고로** **이동한 다음 으로 이동합니다.**
 
 ![인시던트 및 경고로 이동한 다음 경고](../../media/defender-identity/incidents-alerts.png)
 

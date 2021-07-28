@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 7f8af16eeadd9fd4c1b438048d50b03dcaef1928
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: 059ebba84f96a24f4ac855d7bb84c3abed64f0c3
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567359"
+ms.locfileid: "53543728"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
@@ -73,7 +73,7 @@ ms.locfileid: "53567359"
 
 Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 통해 [실행해야 합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)
 
-또한 맬웨어 [방지 Microsoft Defender 바이러스 백신 설치해야](/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) 합니다.
+또한 맬웨어 [방지 Microsoft Defender 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) 설치해야 합니다.
 
 - 최소 플랫폼 릴리스 요구 사항: `4.18.2008.9`
 - 최소 엔진 릴리스 요구 사항: `1.1.17400.5`
@@ -88,7 +88,7 @@ Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 �
 - [WMI 이벤트 구독(GUID)을 통한](attack-surface-reduction-rules.md#block-persistence-through-wmi-event-subscription) 지속성 `e6db77e5-3df2-4cf1-b95a-636979351e5b` 차단
 - [랜섬웨어에 대한](attack-surface-reduction-rules.md#use-advanced-protection-against-ransomware) 고급 보호 사용(GUID) `c1db55ab-c21a-4637-bb3f-a12568109d35`
 
-또한 이전 버전의 에지 버전을 실행하는 장치에서는 경고 모드가 지원되지 Windows. 이러한 경우 경고 모드에서 실행하도록 구성된 공격 표면 감소 규칙은 차단 모드에서 실행됩니다.
+또한 이전 버전의 버전을 실행하는 장치에서는 경고 모드가 지원되지 Windows. 이러한 경우 경고 모드에서 실행하도록 구성된 공격 표면 감소 규칙은 차단 모드에서 실행됩니다.
 
 ## <a name="notifications-and-alerts"></a>알림 및 경고
 
@@ -96,7 +96,7 @@ Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 �
 
 또한 특정 공격 표면 감소 규칙이 트리거되면 경고가 생성됩니다.
 
-알림 및 생성된 경고는 Microsoft 365 Defender 포털()(이전의 Microsoft 365 Defender)에서 볼 [https://security.microsoft.com](https://security.microsoft.com) [수 있습니다.](microsoft-defender-security-center.md)
+알림 및 생성된 경고는 Microsoft 365 Defender 포털()(이전의 [https://security.microsoft.com](https://security.microsoft.com) [Microsoft Defender 보안 센터)에서 볼 수 있습니다.](microsoft-defender-security-center.md)
 
 ## <a name="advanced-hunting-and-attack-surface-reduction-events"></a>고급 헌팅 및 공격 표면 축소 이벤트
 

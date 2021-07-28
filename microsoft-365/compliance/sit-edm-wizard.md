@@ -17,19 +17,16 @@ search.appverid:
 - MET150
 description: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fdf289c403d8c09342a1eac1434c4219bb7b13c
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 1cbbb02528e898f775d63bf023b641bdaaeeb07e
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861662"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543608"
 ---
 # <a name="use-the-exact-data-match-schema-and-sensitive-information-type-wizard"></a>정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사 사용
 
 [EDM(정확한 데이터 일치) 기반 분류](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)를 사용하여 사용자 지정 중요한 정보 유형을 생성하려면 여러 단계를 거쳐야 합니다.  이 마법사를 사용하여 프로세스를 간소화하는 데 도움이 되는 Schema 및 SIT(중요한 정보 유형) 패턴(규칙 패키지) 파일을 만들 수 있습니다.
-
-> [!NOTE]
-> 정확한 데이터 일치 스키마 및 중요 정보 유형 마법사는 월드 와이드 및 GCC 클라우드에서만 사용할 수 있습니다.
 
 이 마법사는 다음 대신 사용할 수 있습니다.
 
@@ -42,7 +39,7 @@ ms.locfileid: "52861662"
 
 1. EDM [ 워크플로 한 눈에 보기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#the-work-flow-at-a-glance)를 통해 사용자 지정 중요한 정보 유형을 생성하는 단계를 숙지하세요.
 
-2. [.csv 형식으로 중요한 데이터 저장](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#save-sensitive-data-in-csv-format) 섹션의 단계를 수행하세요.
+2. 중요한 데이터를 파일 또는 [.tsv 형식으로 .csv 단계를 수행합니다.](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#save-sensitive-data-in-csv-or-tsv-format)
 
 ## <a name="use-the-exact-data-match-schema-and-sensitive-information-type-pattern-wizard"></a>정확한 데이터 일치 스키마 및 중요한 정보 유형 패턴 마법사 사용
 

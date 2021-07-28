@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 008263bfb948d1a2c52031635d074aca323e6764
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: b7f834a50156f09cd3fca355bbf1dd8f6a853b2c
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256894"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542132"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
@@ -43,9 +43,9 @@ ms.locfileid: "53256894"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 설치하는 방법
 
-### <a name="prerequisites"></a>필수 조건
+### <a name="prerequisites"></a>필수 구성 요소
 
-- 검색 포털에 Microsoft Defender 보안 센터 액세스
+- Microsoft 365 Defender 액세스
 - 시스템 [관리자를](https://systemd.io/) 사용하여 Linux 배포
 - Linux 및 BASH 스크립팅의 초보자 수준 환경
 - 디바이스의 관리 권한(수동 배포의 경우)
@@ -54,8 +54,6 @@ ms.locfileid: "53256894"
 >  Linux 에이전트의 끝점용 Microsoft Defender는 [OMS 에이전트와 독립적입니다.](/azure/azure-monitor/agents/agents-overview#log-analytics-agent) 끝점용 Microsoft Defender는 자체의 독립적인 원격 분석 파이프라인을 사용 합니다.
 > 
 > Linux의 끝점용 Microsoft Defender는 아직 Azure 보안 센터에 통합되지 않았습니다.
-
-
 
 ### <a name="installation-instructions"></a>설치 지침
 

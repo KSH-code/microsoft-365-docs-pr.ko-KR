@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7ebb37e80cae0e9dd70d01600c47bd1459c122c3
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 1545a44087347544337ca40dee5e95ef7ca6d57d
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194904"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541748"
 ---
 # <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>엔드포인트용 Microsoft Defender(Linux) 업데이트 예약
 
@@ -76,15 +76,15 @@ CRON_TZ=America/Los_Angeles
 
 > #<a name="rhel-and-variants-centos-and-oracle-linux"></a>! RHEL 및 변형(CentOS 및 Oracle Linux)
 
-`06**sun[$(date +\%d) -le 15] sudo yum update mdatp>>~/mdatp_cron_job.log`
+`0 6 * * sun [ $(date +%d) -le 15 ] && sudo yum update mdatp >> ~/mdatp_cron_job.log`
 
 > #<a name="sles-and-variants"></a>! SLES 및 변형
 
-`06**sun[$(date +\%d) -le 15] sudo zypper update mdatp>>~/mdatp_cron_job.log`
+`0 6 * * sun [ $(date +%d) -le 15 ] && sudo zypper update mdatp >> ~/mdatp_cron_job.log`
 
 > #<a name="ubuntu-and-debian-systems"></a>! Ubuntu 및 데비안 시스템
 
-`0 6 * * sun [$(date +\%d) -le 15] sudo apt-get install --only-upgrade mdatp>>~/mdatp_cron_job.log`
+`0 6 * * sun [ $(date +%d) -le 15 ] && sudo apt-get install --only-upgrade mdatp >> ~/mdatp_cron_job.log`
 
 > [!NOTE]
 > 위의 예제에서는 일요일, 모든 월의 하루를 00분, 오후 6시(24시간 형식의 시간)로 설정하고 있습니다. [$(date + \% d) -le 15] == 15일(3주)보다 작거나 같지 않으면 실행되지 않습니다. 즉, 이 매월 3일 일요일(7)은 매일 아침 6시에 실행됩니다. 태평양(UTC -8).

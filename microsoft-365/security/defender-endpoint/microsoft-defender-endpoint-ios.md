@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cbe2fb39221bd9907a3d690503a392edb019d61b
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 822ae68ce75142f9a08dab2cdcce297cf30eec2c
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194856"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542144"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
@@ -85,3 +85,5 @@ iOS에서 끝점용 Microsoft Defender 배포는 MEM(Microsoft Endpoint Manager)
 
 - [iOS에서 끝점용 Microsoft Defender 배포](ios-install.md)
 - [iOS 기능에 대한 끝점용 Microsoft Defender 구성](ios-configure-features.md)
+- [MAM(Endpoint 위험 신호)에 대한 Defender를 포함하도록 앱 보호 정책 구성](ios-install-unmanaged.md)
+- [끝점용 Microsoft Defender의 장치 위험 점수를 기반으로 조건부 액세스 정책 구성](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios)

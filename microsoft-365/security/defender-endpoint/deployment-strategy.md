@@ -1,5 +1,5 @@
 ---
-title: 끝점용 Microsoft Defender 배포 계획
+title: 엔드포인트용 Microsoft Defender 배포 계획
 description: 환경에 가장 적합한 엔드포인트 배포 전략에 대한 Microsoft Defender 선택
 keywords: 배포, 계획, 배포 전략, 클라우드 네이티브, 관리, 온-프레미스, 평가, 온보드, 로컬, 그룹 정책, gp, 끝점 관리자, mem
 search.product: eADQiWindows 10XVcnh
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8cd670e72bbb4ec0abacd4ed053a9ea9af12608b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 34ebbf0369928067322486ba988b7faa07e1b2be
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163578"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596329"
 ---
-# <a name="plan-your-microsoft-defender-for-endpoint-deployment"></a>끝점용 Microsoft Defender 배포 계획 
+# <a name="plan-your-microsoft-defender-for-endpoint-deployment"></a>엔드포인트용 Microsoft Defender 배포 계획 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -30,14 +30,11 @@ ms.locfileid: "51163578"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-secopsdashboard-abovefoldlink) 
-
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-secopsdashboard-abovefoldlink)
 
 제품군 내에서 보안 기능을 최대화하고 사이버 위협으로부터 엔터프라이즈를 보다 잘 보호할 수 있도록 끝점 배포에 대한 Microsoft Defender 배포를 계획합니다.
 
-
 이 솔루션은 환경 아키텍처를 식별하는 방법, 요구에 가장 적합한 배포 도구 유형 선택 및 기능 구성 방법에 대한 지침을 제공합니다.
-
 
 ![배포 흐름의 이미지](images/deployment-guide-plan.png)
 
@@ -53,8 +50,6 @@ ms.locfileid: "51163578"
 |:-----|:-----|
 |[![Endpoint 배포 전략용 Defender의 축소판 이미지](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) | 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
 
-
-
 ## <a name="step-2-select-deployment-method"></a>2단계: 배포 방법 선택
 Endpoint용 Defender는 서비스에 온보딩할 수 있는 다양한 끝점을 지원합니다. 
 
@@ -62,7 +57,7 @@ Endpoint용 Defender는 서비스에 온보딩할 수 있는 다양한 끝점을
 
 | 끝점     | 배포 도구                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md)   |
+| **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md) <br> [Azure Defender와 통합](configure-server-endpoints.md#integration-with-azure-defender)  |
 | **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
 | **Linux Server** | [로컬 스크립트](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [앱 기반](ios-install.md)                                |
@@ -73,7 +68,7 @@ Endpoint용 Defender는 서비스에 온보딩할 수 있는 다양한 끝점을
 ## <a name="step-3-configure-capabilities"></a>3단계: 기능 구성
 끝점을 온보딩한 후 제품군에서 사용할 수 있는 강력한 보안 보호를 최대화할 수 있도록 끝점용 Defender의 보안 기능을 구성합니다. 기능은 다음과 같습니다.
 
-- 엔드포인트 감지 및 응답
+- 엔드포인트 탐지 및 대응
 - 차세대 보호
 - 공격 표면 감소
 

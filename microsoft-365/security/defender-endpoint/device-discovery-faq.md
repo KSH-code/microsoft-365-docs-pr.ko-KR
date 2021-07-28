@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: b2c0b986ef6dbb54cd34e9b4413711cd3e5f9c6d
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: ac2643adaa2e0a30e94434a0fe34e4d6ec2b3b1d
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053158"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542972"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>장치 검색에 자주 묻는 질문
 
@@ -81,7 +81,7 @@ ms.locfileid: "53053158"
 
 
 ## <a name="what-is-the-amount-of-traffic-being-generated-by-the-standard-discovery-active-probe"></a>Standard 검색 활성 프로브에서 생성되는 트래픽의 양은 무엇입니까?
- 활성 프로비전은 모든 프로비전 시도 시 온보더된 장치와 프로브 장치 간에 최대 5K의 트래픽을 생성할 수 있습니다.
+ 활성 프로비전은 모든 프로비전 시도 시 온보드 장치와 프로브 장치 간에 최대 50Kb의 트래픽을 생성할 수 있습니다.
 
 ## <a name="why-is-there-a-discrepancy-between-can-be-onboarded-devices-in-the-device-inventory-and-the-number-of-devices-to-onboard-in-the-dashboard-tile"></a>장치 인벤토리에 "온보드할 수 있는" 장치와 대시보드 타일의 "온보더할 장치" 수가 불일치하는 이유는 무엇입니까?
 장치 인벤토리의 "온보딩할 수 있습니다." 아래에 나열된 장치 수, "끝점용 Microsoft Defender에 온보딩" 보안 권장 및 "온보딩할 장치" 대시보드 위젯의 수가 다를 수 있습니다.

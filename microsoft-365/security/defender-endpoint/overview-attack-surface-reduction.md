@@ -19,12 +19,12 @@ ms.custom: asr
 ms.topic: conceptual
 ms.technology: mde
 ms.date: 06/02/2021
-ms.openlocfilehash: 6b3c88f23d3ceffbca588c80b05266d12147ca39
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 6bb91b24b6e5ecc0d0dba4a1693f4d7278ee489e
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985027"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542912"
 ---
 # <a name="overview-of-attack-surface-reduction-capabilities"></a>공격 표면 감소 기능 개요
 

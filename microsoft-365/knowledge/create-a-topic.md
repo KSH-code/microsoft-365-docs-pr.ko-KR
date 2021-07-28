@@ -1,8 +1,7 @@
 ---
-title: Microsoft Viva 항목에서 새 항목 만들기
-description: Microsoft Viva 항목에서 새 항목을 만드는 방법
-author: efrene
-ms.author: efrene
+title: Microsoft Viva 항목 만들기
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -14,14 +13,15 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 7d1dc1af6e845ccfe2fb0e8f5701a2cd3018c308
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+description: Microsoft Viva 항목을 만드는 방법을 참조하세요.
+ms.openlocfilehash: 5b275741cad759348bc42ebb6bc7fe0d04199ea5
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687534"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596305"
 ---
-# <a name="create-a-new-topic-in-microsoft-viva-topics"></a>Microsoft Viva 항목에서 새 항목 만들기
+# <a name="create-a-new-topic-in-microsoft-viva-topics"></a>Microsoft Viva 항목 만들기
 
 Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에서 이를 주제로 설정할 충분한 증거를 찾지 못하면 새 항목을 만들 수 있습니다.
 
@@ -33,7 +33,7 @@ Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에�
 
 새 항목을 만들하려면 다음을 해야 합니다.
 - Viva Topics 라이선스가 있어야 합니다.
-- 항목을 만들거나 [**편집할 Who 권한이 있습니다.**](./topic-experiences-user-permissions.md) 지식 관리자는 Viva Topics의 항목 사용 권한 설정에서 사용자에게 해당 권한을 부여할 수 있습니다. 
+- 항목을 만들거나 [**편집할 Who 권한이 있습니다.**](./topic-experiences-user-permissions.md) 지식 관리자는 Viva Topics의 항목 사용 권한 설정에서 사용자에게 해당 사용 권한을 부여할 수 있습니다. 
 
 > [!Note] 
 > 항목 센터에서 항목을 관리할 수 있는 권한이 있는 사용자(기술 관리자)에게는 이미 항목을 만들고 편집할 수 있는 권한이 있습니다.

@@ -9,12 +9,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1c5f2a7f60097bb02cb11eaabd66cad88657c505
-ms.sourcegitcommit: 2abc6bf9939b14a427647e88f319dbb70de49ca6
+ms.openlocfilehash: 7a99ca8d5f56fd5614dc27e3a28efe905ba30e46
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53458887"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543008"
 ---
 # <a name="microsoft-managed-desktop-and-windows-11"></a>Microsoft Managed Desktop 및 Windows 11
 
@@ -26,7 +26,7 @@ Microsoft Managed Desktop 디바이스에 Windows 11을 설치하기 위해 따�
 
 Windows 11 preview 빌드는 2021년 6월 28일부터 Windows [프로그램 을 통해](/windows-insider/)사용할 수 있습니다. 2021년 말에 릴리스 빌드를 일반적으로 사용할 수 있을 것으로 예상됩니다.
 
-디바이스에서 미리 보기 빌드를 관리하는지 여부에 Microsoft Managed Desktop 있습니다. 지원이 종료될 때까지 Windows 10 계속 지원할 것입니다.
+디바이스에서 미리 보기 빌드를 관리하는지 여부에 Microsoft Managed Desktop 있습니다. 엔터프라이즈 지원이 종료될 때까지 Windows 10 계속 지원할 계획입니다. 수명 [주기 Windows 10 릴리스](/windows/release-health/release-information) 정보를 참조하세요.
 
 일반적으로 Windows 11을 사용할 수 있는 경우 더 많은 유효성 검사 테스트를 수행하게 됩니다. 표준 배포 그룹을 통해 Windows 11이 Microsoft Managed Desktop 2022년 1월에 제공될 것으로 예상됩니다.
 
@@ -36,7 +36,7 @@ Windows 11 preview 빌드는 2021년 6월 28일부터 Windows [프로그램 을 
 
 Microsoft Managed Desktop 장치의 95% 이상이 Windows 11을 사용할 수 있으므로 프로덕션 배포 전에 테스트 장치에서 업그레이드를 미리 볼 수 있습니다. 11개 Windows 요구 사항에 대한 자세한 내용은 Windows [11 요구 사항 을 참조하세요.](/windows/whats-new/windows-11-requirements) 디바이스의 자격 상태에 대한 세부 정보를 요청할 수 Microsoft Managed Desktop.
 
-Microsoft Managed Desktop 디바이스의 경우 최신 Workplace Windows **\[ \] 11** 시험판 테스트 장치 장치 그룹에 테스트 장치를 추가해 줄 수 있습니다. 이 그룹은 Windows 구성과 함께 11개 미리 보기 Microsoft Managed Desktop 수 있습니다. Microsoft Managed Desktop 11 preview 빌드의 릴리스 Windows 관리하지 않는 경우 이 장치 그룹의 구성원이 장치 그룹보다 더 Windows 10 수 있습니다.
+Microsoft Managed Desktop 디바이스의 경우 최신 작업 공간 - **11** 시험판 테스트 장치 Windows 추가를 요청할 수 있습니다. 이 그룹은 Windows 구성과 함께 11개 미리 보기 Microsoft Managed Desktop 수 있습니다. Microsoft Managed Desktop 11 preview 빌드의 릴리스 Windows 관리하지 않는 경우 이 장치 그룹의 구성원이 장치 그룹보다 더 Windows 10 수 있습니다.
 
 Microsoft Managed Desktop 관리되지 않는 장치의 경우 Windows 프로그램 참여를 통해 [](/windows-insider/) 미리 보기 빌드를 다운로드하고 Windows 11 배포에 대한 지침을 얻을 수 있습니다. 11 pre-release Windows 실행 중이고 나중에 Microsoft Managed Desktop 디바이스를 등록하는 경우 장치로 되돌아가지 Windows 10.
 
@@ -54,8 +54,8 @@ Microsoft Managed Desktop 관리되지 않는 장치의 경우 Windows 프로그
 
 **일반적인 앱:** Microsoft는 11의 빌드에 배포된 가장 일반적인 엔터프라이즈 응용 프로그램 및 제품군을 Windows 있습니다. 테스트 중에 발견된 문제를 해결하기 위해 외부 소프트웨어 게시자 및 내부 제품 팀과 함께 작업합니다. 사전 호환성 테스트 노력에 대한 자세한 내용은 응용 프로그램 호환성 블로그 [를 참조하세요.](https://blogs.windows.com/windowsexperience/2019/01/15/application-compatibility-in-the-windows-ecosystem/)
 
-업무용 **앱:** [](https://www.microsoft.com/testbase) 테스트 기준은 앱 게시자 및 IT 관리자가 보안 Azure 환경에서 Windows 11 빌드를 실행하는 가상 머신에서 Microsoft가 실행되는 앱 및 테스트 사례를 제출하는 데 사용할 수 있는 리소스입니다. 개인 Azure Portal에서 각 테스트 실행에 대한 결과, 테스트 인사이트 및 회귀 분석을 사용할 수 있습니다. Microsoft Managed Desktop 앱 사용 및 안정성 데이터를 기반으로 유효성 검사를 위해 업무용 앱의 우선 순위를 지정하는 데 도움이 됩니다. 테스트 기준에 대한 자세한 내용은 Test [Base for Microsoft 365.](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/test-base-for-microsoft-365-microsoft-ignite-2021-updates/ba-p/2185566)
+업무용 **앱:** [](https://www.microsoft.com/en-us/testbase) 테스트 기준은 앱 게시자 및 IT 관리자가 보안 Azure 환경에서 Windows 11 빌드를 실행하는 가상 머신에서 Microsoft가 실행되는 앱 및 테스트 사례를 제출하는 데 사용할 수 있는 리소스입니다. 개인 Azure Portal에서 각 테스트 실행에 대한 결과, 테스트 인사이트 및 회귀 분석을 사용할 수 있습니다. Microsoft Managed Desktop 앱 사용 및 안정성 데이터를 기반으로 유효성 검사를 위해 업무용 앱의 우선 순위를 지정하는 데 도움이 됩니다. 테스트 기준에 대한 자세한 내용은 Test [Base for Microsoft 365.](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/test-base-for-microsoft-365-microsoft-ignite-2021-updates/ba-p/2185566)
 
 ### <a name="reactive-measures"></a>사후 조치
+테스트 또는 프로덕션 환경에서 앱 호환성 문제가 발생하는 경우 [App Assure](/fasttrack/products-and-capabilities#app-assure) 또는 FastTrack을 사용하여 적절한 비용 지원을 받을 수 있습니다. Windows 11의 경우 여기에는 최신 운영 체제 빌드에서 실행되는 Office, Microsoft Edge, Teams 및 업무(LINE-OF-BUSINESS) 응용 프로그램의 모든 기능이 포함됩니다. App Assure는 앱 게시자를 직접 참여하여 앱 호환성 문제의 우선 순위를 지정하고 해결합니다.
 
-테스트 또는 프로덕션 환경에서 앱 호환성 문제가 발생하는 경우 App [Assure](/fasttrack/products-and-capabilities) 또는 FastTrack을 사용하여 적절하게 지원을 받을 수 있습니다. Windows 11의 경우 최신 운영 체제 빌드에서 실행되는 Office, Microsoft Edge 및 Teams 응용 프로그램의 모든 기능이 포함됩니다. App Assure는 앱 게시자를 직접 참여하여 앱 호환성 문제의 우선 순위를 지정하고 해결합니다.

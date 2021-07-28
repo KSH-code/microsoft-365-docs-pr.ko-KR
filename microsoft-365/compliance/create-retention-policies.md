@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 97b90cc84e2b14e5c63779ea8b941a5ffe64bcd7
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 512bf7ed8eeaf8bea58d0a1a1e54d0ad2315bddc
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362333"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542048"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -53,6 +53,7 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 - Exchange 공용 폴더
 - Teams 채널 메시지
 - Teams 채팅
+- Teams 비공개 채널 메시지
 - Yammer 커뮤니티 메시지
 - Yammer 사용자 메시지
 

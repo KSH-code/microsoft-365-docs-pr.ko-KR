@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3f0527192a55d67df7e23507bed46df446f8b2b7
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: de3fe133611885dd71458a6104b054fe25d0a524
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165168"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596353"
 ---
 # <a name="deployment-phases"></a>배포 단계
 
@@ -33,7 +33,7 @@ ms.locfileid: "51165168"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 엔터프라이즈에서 예방적 보호, 사후 위반 감지, 자동화된 조사 및 대응을 활용할 수 있도록 끝점용 Microsoft Defender를 배포하는 방법을 알아보십시오. 
 
@@ -75,8 +75,8 @@ ms.locfileid: "51165168"
 
 기능 | 설명 
 :---|:---
-엔드포인트 감지 및 응답 | 끝점 감지 및 대응 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응하기 위해 사용됩니다.
-차세대 보호 | 네트워크의 보안 경계를 더욱 강화하기 위해 끝점용 Microsoft Defender는 모든 유형의 새로운 위협을 감지하도록 설계된 차세대 보호를 사용했습니다.
+엔드포인트 탐지 및 대응 | 끝점 감지 및 대응 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응하기 위해 사용됩니다.
+차세대 보호 | 네트워크의 보안 경계를 더욱 강화하기 위해 엔드포인트용 Microsoft Defender는 모든 유형의 새로운 위협을 포착하도록 설계된 차세대 보호 기능을 사용합니다.
 공격 표면 감소 |  스택에서 첫 번째 방어 라인을 제공합니다. 구성 설정이 올바르게 설정되고 악용 완화 기술이 적용되었는지 확인하여 이러한 기능 집합은 공격 및 악용을 저항합니다.
 
 이러한 모든 기능은 끝점용 Microsoft Defender 라이선스 보유자가 사용할 수 있습니다. 자세한 내용은 라이선스 요구 [사항을 참조하세요.](minimum-requirements.md#licensing-requirements)

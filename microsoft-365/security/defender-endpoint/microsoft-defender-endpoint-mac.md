@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 365fed8b5f7c7fc617ea068e324da541f7f1b187
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 9b809cc82ef6fda3d4153dbf19871801ec59ae75
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301779"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543428"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender
 
@@ -56,7 +56,7 @@ ms.locfileid: "52301779"
 
 ### <a name="prerequisites"></a>필수 구성 요소
 
-- 끝점용 Defender 구독 및 Microsoft Defender 보안 센터 포털 액세스
+- 끝점용 Defender 구독 및 Microsoft 365 Defender 포털 액세스
 - macOS 및 BASH 스크립팅의 초보자 수준 환경
 - 디바이스의 관리 권한(수동 배포의 경우)
 
@@ -99,7 +99,7 @@ Mac의 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선싱 �
 - Microsoft 365 E5 Security
 - Microsoft 365 A5(M365 A5)
 - Windows 10 Enterprise E5
-- 끝점용 Microsoft Defender
+- 엔드포인트용 Microsoft Defender
 
 > [!NOTE]
 > 적격 라이선스 사용자는 최대 5개의 동시 장치에서 끝점용 Microsoft Defender를 사용할 수 있습니다.

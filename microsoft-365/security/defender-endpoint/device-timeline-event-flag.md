@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a34efc171d3bb3aa1fcf33e0f56700149885ac2e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 4e95cd275b1bcc5629619c948e56680b73bc7336
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165156"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596245"
 ---
 # <a name="microsoft-defender-for-endpoint-device-timeline-event-flags"></a>끝점용 Microsoft Defender 장치 타임라인 이벤트 플래그
 
@@ -30,7 +30,7 @@ ms.locfileid: "51165156"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 Endpoint 장치 타임라인에 대한 Defender의 이벤트 플래그는 잠재적인 공격을 조사할 때 특정 이벤트를 필터링하고 구성하는 데 도움이 됩니다.
 

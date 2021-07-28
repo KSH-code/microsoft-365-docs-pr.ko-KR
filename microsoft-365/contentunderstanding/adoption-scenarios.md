@@ -1,5 +1,5 @@
 ---
-title: Microsoft SharePoint 시나리오 및 사용 사례
+title: Microsoft SharePoint Syntex에 대한 시나리오 및 사용 사례
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -14,21 +14,21 @@ ms.collection:
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-description: 조직에서 Syntex를 사용하는 SharePoint 시나리오를 찾아보겠습니다.
-ms.openlocfilehash: b28239a304c8fab209436c12e6cdbffe160b7981
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+description: 조직에서 응용 SharePoint Syntex 시나리오를 찾아 봤습니다.
+ms.openlocfilehash: 4714af4c4182c3c57625a82dff0cfdc1d5260785
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52697068"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543212"
 ---
-# <a name="scenarios-and-use-cases-for-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 시나리오 및 사용 사례
+# <a name="scenarios-and-use-cases-for-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에 대한 시나리오 및 사용 사례
 
-다음 예제 시나리오를 사용하여 조직에서 Syntex를 사용하는 방법에 대한 SharePoint 묻습니다.
+다음 예제 시나리오를 사용하여 조직에서 사용자 SharePoint Syntex 방법을 묻습니다.
 
 - [시나리오: 양식 처리를 사용하여 송장에서 데이터 추적](adoption-scenarios.md#scenario-track-data-from-invoices-with-form-processing)
 - [시나리오: 문서 이해를 통해 계약에서 정보 추적](adoption-scenarios.md#scenario-track-information-from-contracts-with-document-understanding)
-- [시나리오: 레코드 관리, 문서 거버넌스 및 Syntex를 기반으로 하는 규정 준수 프로세스로 SharePoint 방지](adoption-scenarios.md#scenario-avoid-risk-with-records-management-document-governance-and-compliance-processes-based-on-sharepoint-syntex)
+- [시나리오: 레코드 관리, 문서 거버넌스 및 규정 준수 프로세스를 기반으로 하는 위험 SharePoint Syntex](adoption-scenarios.md#scenario-avoid-risk-with-records-management-document-governance-and-compliance-processes-based-on-sharepoint-syntex)
 - [시나리오: 이전에는 이 문서에 없는 문서에서 정보 캡처](adoption-scenarios.md#scenario-capture-information-from-previously-inaccessible-documents)
 - [시나리오: 데이터 처리를 개선하여 인사이트 및 분석 제공](adoption-scenarios.md#scenario-improve-data-processing-to-provide-insights-and-analytics)
 - [시나리오: 주문 처리 자동화](adoption-scenarios.md#scenario-automate-order-processing)
@@ -36,7 +36,7 @@ ms.locfileid: "52697068"
 
 ## <a name="scenario-track-data-from-invoices-with-form-processing"></a>시나리오: 양식 처리를 사용하여 송장에서 데이터 추적
 
-예를 들어 송장 추적 및 모니터링을 위해 SharePoint 및 Power Automate 프로세스를 설정할 수 있습니다.
+예를 들어 송장 추적 및 모니터링을 위해 SharePoint Syntex Power Automate 프로세스를 설정할 수 있습니다.
 
 1. 송장 문서를 저장할 라이브러리를 설치합니다.
 1. 문서의 필드를 인식하는 모델을 학습합니다.
@@ -46,7 +46,7 @@ ms.locfileid: "52697068"
     - 송장 기한이 지난 경우
     - 송장은 자동 승인 금액보다 큰 금액에 대한 것입니다.
 
-![Syntex 및 SharePoint 송장을 추적하고 Power Automate](../media/content-understanding/process-invoices-flow.png)
+![송장 추적 및 모니터링 및 SharePoint Syntex Power Automate](../media/content-understanding/process-invoices-flow.png)
 
 이 시나리오를 자동화할 때 다음을 할 수 있습니다.
 
@@ -63,14 +63,14 @@ ms.locfileid: "52697068"
 1. 모델이 완료되면 계약을 업로드할 수 있는 라이브러리에 모델을 적용합니다.
 1. 날짜 필드에 보존 레이블을 적용하여 계약이 필요한 기간 동안 라이브러리에 보존됩니다.
 
-![Syntex 및 SharePoint 레이블과의 계약 추적 및 모니터링](../media/content-understanding/process-contracts-flow.png)
+![보존 레이블과의 SharePoint Syntex 추적 및 모니터링](../media/content-understanding/process-contracts-flow.png)
 
 이 시나리오를 자동화할 때 다음을 할 수 있습니다.
 
 - 수동으로 수행하지 않고 계약에서 데이터를 자동으로 추출하여 시간과 비용을 절약할 수 있습니다.
 - 보존 레이블을 사용하여 계약이 적절하게 보존되도록 하여 규정 준수를 향상합니다.
 
-## <a name="scenario-avoid-risk-with-records-management-document-governance-and-compliance-processes-based-on-sharepoint-syntex"></a>시나리오: 레코드 관리, 문서 거버넌스 및 Syntex를 기반으로 하는 규정 준수 프로세스로 SharePoint 방지
+## <a name="scenario-avoid-risk-with-records-management-document-governance-and-compliance-processes-based-on-sharepoint-syntex"></a>시나리오: 레코드 관리, 문서 거버넌스 및 규정 준수 프로세스를 기반으로 하는 위험 SharePoint Syntex
 
 대부분의 회사에서 위험을 줄이는 것이 일반적인 목표입니다. 다음이 필요할 수 있습니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "52697068"
 - 회사 정책을 준수하기 위해 영수증, 계약 등 감사
 - 프로젝트에 규정 준수에 필요한 모든 설명서가 프로젝트에 있도록 합니다.
 
-더 나은 거버넌스가 필요한 문서 및 양식을 SharePoint 적절히 분류하고, 감사하고, 플래그를 지정하기 위해 Syntex를 준수하기 위한 일부 프로세스를 설정하십시오. 최종 사용자가 수동으로 태그를 SharePoint 대신 Syntex를 사용하여 콘텐츠를 자동 분류하거나 규정 준수 팀에서 거버넌스 규칙 및 보관을 수동으로 적용할 수 있습니다. 또한 간소화된 검색 환경을 사용하도록 설정하고, 데이터 볼륨을 관리하고, 레코드 관리 및 보존 정책을 적용하고, 규정 준수를 보장하고, 모범 사례 보관 및 삭제 방법을 사용할 수 있습니다.
+보다 나은 거버넌스가 필요한 문서 및 양식을 SharePoint Syntex 적절히 분류하고, 감사하고, 플래그를 지정하기 위해 규정 준수를 위한 일부 프로세스를 설정하십시오. 최종 사용자가 수동으로 태그를 SharePoint Syntex 대신 콘텐츠를 자동 분류하거나 준수 팀에서 거버넌스 규칙 및 보관을 수동으로 적용할 수 있습니다. 또한 간소화된 검색 환경을 사용하도록 설정하고, 데이터 볼륨을 관리하고, 레코드 관리 및 보존 정책을 적용하고, 규정 준수를 보장하고, 모범 사례 보관 및 삭제 방법을 사용할 수 있습니다.
 
 이 시나리오를 자동화하면 다음의 안전을 느낄 수 있습니다.
 
@@ -104,7 +104,7 @@ ms.locfileid: "52697068"
 
 ## <a name="scenario-improve-data-processing-to-provide-insights-and-analytics"></a>시나리오: 데이터 처리를 개선하여 인사이트 및 분석 제공
 
-예를 들어 제약 회사에서는 Syntex를 사용하여 FDA SharePoint 정보를 추출하여 리더의 질문에 답변할 수 있습니다. 답변에 보다 쉽게 액세스할 수 있도록 하면 이러한 답변을 생성하는 데 필요한 시간을 줄이고 데이터의 가용성을 높이어 리더십 질문에 대한 보다 정확한 답변을 생성할 수 있습니다.
+예를 들어 제약 회사에서 FDA SharePoint Syntex 정보를 추출하여 리더의 질문에 답변할 수 있습니다. 답변에 보다 쉽게 액세스할 수 있도록 하면 이러한 답변을 생성하는 데 필요한 시간을 줄이고 데이터의 가용성을 높이어 리더십 질문에 대한 보다 정확한 답변을 생성할 수 있습니다.
 
 예를 들어 프로젝트 관리자는 리더십 팀의 제품 관련 질문에 대한 답변을 신속하게 제공해야 합니다. 하나의 통합 대시보드에서 쿼리와 관련된 정보 및 메트릭을 찾아야 합니다. 제품 레이블, 제품 팜플릿 및 기타 자료에서 필요한 정보를 추출하고 리더십 팀에 다시 보고할 때 사용할 수 있는 통합 보고서를 생성하는 솔루션을 찾고 있습니다.
 
@@ -116,7 +116,7 @@ ms.locfileid: "52697068"
 
 ## <a name="scenario-automate-order-processing"></a>시나리오: 주문 처리 자동화
 
-Syntex를 SharePoint 사용하면 고객 주문을 수동으로 처리하는 시간을 줄일 수 있습니다. 예를 들어 OCR 처리를 사용하여 팩스, 전자 메일 또는 용지의 주문을 SharePoint 자동화된 프로세스를 사용하여 주문을 이행할 수 있도록 해당 주문에서 메타데이터를 추출할 수 있습니다.
+이 SharePoint Syntex 통해 고객 주문의 수동 처리 시간을 줄일 수 있습니다. 예를 들어 OCR 처리를 사용하여 팩스, 전자 메일 또는 용지의 주문을 SharePoint 자동화된 프로세스를 사용하여 주문을 이행할 수 있도록 해당 주문에서 메타데이터를 추출할 수 있습니다.
 
 예를 들어 공급망 관리자는 수동 데이터 입력으로 인한 오류를 줄이고자 합니다. 비즈니스 시스템으로 들어오는 오류를 줄이기 위해 인바운드 고객 주문(용지, 팩스 또는 전자 메일)의 수동 검토 및 데이터 입력을 방지하려는 경우 AI 및 기계 학습 기술을 적용하여 들어오는 주문 정보의 유효성을 검사하고 핵심 데이터를 추출한 다음 ERP 시스템에 자동으로 푸시하여 주문 이행 및 조정을 위해 솔루션을 원합니다.
 
@@ -129,7 +129,7 @@ Syntex를 SharePoint 사용하면 고객 주문을 수동으로 처리하는 시
 
 ## <a name="scenario-simplify-visa-renewal-process"></a>시나리오: Visa 갱신 프로세스 간소화
 
-SharePoint Syntex를 사용하면 주요 계약 정보에 대한 미리 알림 및 갱신을 자동화할 수 있습니다. 예를 들어 HR 감독은 직원의 Visas를 최신으로 유지 및/또는 정시에 갱신해야 합니다. 사람들이 Visas를 업데이트하는 간단하고 직관적인 프로세스를 제공하려는 경우 계약에서 갱신 날짜를 추출하고 갱신 날짜가 다가오면 직원에게 미리 알림을 자동으로 보내는 솔루션이 필요합니다.
+SharePoint Syntex 주요 계약 정보에 대한 미리 알림 및 갱신을 자동화하는 데 도움이 될 수 있습니다. 예를 들어 HR 감독은 직원의 Visas를 최신으로 유지 및/또는 정시에 갱신해야 합니다. 사람들이 Visas를 업데이트하는 간단하고 직관적인 프로세스를 제공하려는 경우 계약에서 갱신 날짜를 추출하고 갱신 날짜가 다가오면 직원에게 미리 알림을 자동으로 보내는 솔루션이 필요합니다.
 
 이 시나리오를 자동화할 때 다음을 보장할 수 있습니다.
 
@@ -139,4 +139,4 @@ SharePoint Syntex를 사용하면 주요 계약 정보에 대한 미리 알림 �
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft SharePoint 도입: 시작](adoption-getstarted.md)
+[Microsoft SharePoint Syntex 도입: 시작](adoption-getstarted.md)

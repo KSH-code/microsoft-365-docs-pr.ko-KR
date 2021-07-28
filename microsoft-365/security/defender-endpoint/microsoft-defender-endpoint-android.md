@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ceccd9e3c8a8137f672e7be519675034a84c7881
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 3dbadc6c69c243ef18b80207fc5b64a51d1f993b
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055109"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542156"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
@@ -59,7 +59,7 @@ ms.locfileid: "53055109"
 
 -   **관리자용**
 
-    -   사이트 포털에 Microsoft Defender 보안 센터 액세스합니다.
+    -   사이트 포털에 Microsoft 365 Defender 액세스합니다.
 
         > [!NOTE]
         > Microsoft Intune Android에서 끝점용 Microsoft Defender를 배포하는 데 지원되는 유일한 MDM(모바일 장치 관리) 솔루션입니다. 현재 등록된 장치만 Intune에서 Android 관련 장치 준수 정책에 끝점용 Defender를 적용하는 데 지원됩니다. 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2484aed7dd5f70a92b1199f472c983848326db7c
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: b515ce5f24b93888b138cf0f61cefdf20cf49515
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430759"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543620"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -90,9 +90,9 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |[사용자가 권한을 할당하도록 허용: <br /> - 전달하지 않음](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 권한을 할당하도록 허용: <br /> - 암호화 전용](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ <sup>\*</sup> | 4.2112.0+  | 4.2112.0+ | 예 |
 |[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | 4.2111+            | 4.2111+                | 예                |
-|[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 2011+ | 검토 중 | 검토 중           | 검토 중               | 검토 중 |
+|[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 2011+ | 배포 중: 16.51+ <sup>\*</sup> | 배포 중: 4.2126+ | 배포 중: 4.2126+ | 검토 중 |
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | 검토 중           | 검토 중               | 예 |
-|[기본 레이블 및 필수 레이블에 대한 다른 설정](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 2105+                      | 16.43.1108+ <sup>\*</sup>                   | 4.2111+           | 4.2111+               | 예 |
+|[기본 레이블 및 필수 레이블에 대한 다른 설정](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 2105+                      | 16.43+ <sup>\*</sup>                   | 4.2111+           | 4.2111+               | 예 |
 |
 
 **각주:**
@@ -317,7 +317,7 @@ Office 앱 외부에 민감도 레이블을 적용하는 시나리오에는 다�
 | `${Item.Location}` | 레이블이 지정된 문서의 경로 및 파일 이름 또는 레이블이 지정된 전자 메일에 대한 전자 메일 제목 | **\\\Sales\2020\Q3\Report.docx**|
 | `${User.Name}` | 레이블을 적용하는 사용자의 표시 이름 | **Richard Simone** |
 | `${User.PrincipalName}` | 레이블을 적용하는 사용자의 UPN(Azure AD 사용자 이름) | **rsimone\@contoso.com** |
-| `${Event.DateTime}` | 레이블을 적용하는 사용자의 로컬 표준 시간대에서 콘텐츠 레이블 지정 날짜 및 시간 | **8/10/2020 1:30 PM** |
+| `${Event.DateTime}` | Microsoft 365 앱에서 레이블을 적용하는 사용자의 로컬 표준시 또는 Office Online 및 자동 레이블 지정 정책에 대한 UTC(협정 세계시)에서 콘텐츠에 레이블을 지정하는 날짜 및 시간입니다. | **8/10/2020 1:30 PM** |
 
 > [!NOTE]
 > 이러한 변수의 구문은 대소문자를 구분합니다.

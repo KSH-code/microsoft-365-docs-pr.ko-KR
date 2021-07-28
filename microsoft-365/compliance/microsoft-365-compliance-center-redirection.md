@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: 보안 및 준수 센터 Office 365 자동으로 사용자로 리디렉션하는 방법을 Microsoft 365 규정 준수 센터.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 62fc302f9f065ac7bb0475a6e72dc240a56a1fe1
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 167a38d4f4cd06f98993f401d72f9b6dafa29f40
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339409"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543632"
 ---
 # <a name="redirect-users-from-the-office-365-security-and-compliance-center-to-the-microsoft-365-compliance-center"></a>보안 및 Office 365 센터에서 보안 및 준수 센터로 사용자를 Microsoft 365 규정 준수 센터
 
@@ -24,18 +24,19 @@ ms.locfileid: "53339409"
 
 ## <a name="what-to-expect"></a>예상할 일
 
-자동 리디렉션은 Office 365 및 규정 준수(보안 및 준수)에서 다음 준수 관련 솔루션에 액세스하는 모든 사용자에 대해 기본적으로 protection.office.com.
+자동 리디렉션은 Office 365 및 규정 준수(Office 365)에 액세스하는 모든 사용자에 대해 기본적으로 protection.office.com.
 
-- DLP(데이터 손실 방지)
-- 분류
-- 정보 거버넌스
-- 레코드 관리
-- 커뮤니케이션 규정 준수(이전의 '감독')
+- [고급 eDiscovery](overview-ediscovery-20.md)
+- [커뮤니케이션 규정 준수](communication-compliance.md)
+- [콘텐츠 검색](search-for-content.md)
+- [핵심 eDiscovery](get-started-core-ediscovery.md)
+- [데이터 분류](data-classification-overview.md)
+- [DLP(데이터 손실 방지)](dlp-learn-about-dlp.md)
+- [데이터 주체 요청](/compliance/regulatory/gdpr-manage-gdpr-data-subject-requests-with-the-dsr-case-tool)
+- [정보 거버넌스](manage-information-governance.md)
+- [레코드 관리](records-management.md)
 
 사용자는 Microsoft 365 규정 준수 센터(compliance.microsoft.com) 규정 준수 솔루션으로 자동으로 라우팅됩니다.
-
-> [!NOTE]
-> Office 365 보안 및 준수 센터에 포함된 다른 규정 준수 솔루션의 경우 사용자는 보안 및 준수 센터 또는 Microsoft 365 규정 준수 센터 보안 및 준수 센터에서 Office 365 계속 관리합니다. 이러한 규정 준수 솔루션에 대한 자동 리디렉션은 곧 제공될 예정입니다.
 
 이 기능과 관련 컨트롤은 Microsoft Defender for Office 365. 보안 기능에 대한 리디렉션을 사용하도록 설정하려면 자세한 내용은 [Microsoft Defender에서](/microsoft-365/security/defender/microsoft-365-security-mdo-redirection) Office 365 보안 센터로 Microsoft 365 리디렉션을 참조합니다.
 
@@ -44,7 +45,7 @@ ms.locfileid: "53339409"
 문제가 사용자에게 작동하지 않는 경우 또는 Microsoft 365 규정 준수 센터 포털을 통해 완료할 수 없는 경우 모든 사용자에 대해 자동 리디렉션을 일시적으로 사용하지 않도록 설정할 수 있습니다.
 
 > [!IMPORTANT]
-> 이 Microsoft 365 규정 준수 센터 보안 및 준수 센터에서 현재 관리되는 규정 준수 솔루션의 Office 365 관리 포털입니다. 모든 Microsoft 365 규정 준수 솔루션은 모든 솔루션에서만 Microsoft 365 규정 준수 센터. 사이트로의 리디렉션을 Microsoft 365 규정 준수 센터 단기 솔루션이 여야 합니다.
+> 이 Microsoft 365 규정 준수 센터 보안 및 준수 센터에서 현재 관리되는 규정 준수 솔루션의 Office 365 관리 포털입니다. 모든 Microsoft 365 규정 준수 솔루션은 모든 솔루션에서만 Microsoft 365 규정 준수 센터. 사이트로의 리디렉션을 Microsoft 365 규정 준수 센터 단기 솔루션으로 간주해야 합니다.
 
 모든 사용자에 대해 Office 365 보안 및 준수 센터(protection.microsoft.com)로 다시 전환하기 위해 다음 단계를 완료합니다.
 

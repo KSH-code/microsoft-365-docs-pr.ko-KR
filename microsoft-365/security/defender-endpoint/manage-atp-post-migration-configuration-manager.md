@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 06/11/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 5fde3bfad69a5851dd94b76afb262f8be12d0360
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 58bc187eb1e875e2bb6cf28360c10d45918454f4
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908260"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542936"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-configuration-manager"></a>Configuration Manager를 사용하여 끝점용 Microsoft Defender 관리
 
@@ -53,18 +53,18 @@ ms.locfileid: "52908260"
 |**직원이 인터넷에서** 악성 콘텐츠를 사용하는 앱을 사용하지 못하도록 네트워크 보호를 사용하도록 설정 <br/><br/>*테스트 환경에서 [네트워크](/microsoft-365/security/defender-endpoint/evaluate-network-protection) 보호를 위해 먼저 감사 모드를 사용하여 롤아웃하기 전에 차단되는 앱을 보는 것이 좋습니다.* |[Configuration Manager를 통해 네트워크 보호 켜기](/microsoft-365/security/defender-endpoint/enable-network-protection#microsoft-endpoint-configuration-manager)  |
 |**랜섬웨어로부터 보호하도록** 제어된 폴더 액세스 구성 <br/><br/>*제어된 폴더 액세스를 랜섬웨어 방지 보호라고도 합니다.*   |[끝점 보호: 제어된 폴더 액세스](/mem/intune/protect/endpoint-protection-windows-10#controlled-folder-access) <br/><br/>[Microsoft Endpoint Configuration Manage에서 제어된 폴더 액세스 사용](/microsoft-365/security/defender-endpoint/enable-controlled-folders#microsoft-endpoint-configuration-manager) |
 
-## <a name="configure-your-microsoft-defender-security-center"></a>사용자 Microsoft Defender 보안 센터
+## <a name="configure-your-microsoft-365-defender-portal"></a>사용자 Microsoft 365 Defender 구성
 
-아직 수행하지 않은 경우 Microsoft 365 Defender 포털을 구성하여 경고를 보고, 위협 방지 기능을 구성하고, 조직의 전반적인 보안 상태와 관련한 자세한 정보를 볼 수 있습니다. 자세한 [내용은 Microsoft Defender 보안 센터.](microsoft-defender-security-center.md) Defender 포털에서 최종 사용자가 볼 수 있는 기능과 Microsoft 365 수 있습니다.
+아직 수행하지 않은 경우 경고를 보고Microsoft 365 Defender 위협 방지 기능을 구성하고 조직의 전반적인 보안 상태와 관련한 자세한 정보를 볼 수 있도록 Microsoft 365 Defender 포털을 구성합니다. 포털 [Microsoft 365 Defender 참조합니다.](microsoft-defender-security-center.md) 또한 최종 사용자가 사이트 포털에서 볼 수 있는 기능과 Microsoft 365 Defender 있습니다.
 
-- [개요 Microsoft Defender 보안 센터](/microsoft-365/security/defender-endpoint/use)
+- [개요 Microsoft 365 Defender](/microsoft-365/security/defender-endpoint/use)
 
-- [끝점 보호: Microsoft Defender 보안 센터](/mem/intune/protect/endpoint-protection-windows-10#microsoft-defender-security-center)
+- [끝점 보호: Microsoft 365 Defender](/mem/intune/protect/endpoint-protection-windows-10#microsoft-defender-security-center)
 
 ## <a name="next-steps"></a>다음 단계
 
-- [개요를 위협 및 취약성 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [위협 및 취약성 관리에 대한 개요 보기](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 
-- [보안 Microsoft Defender 보안 센터 대시보드 방문](/microsoft-365/security/defender-endpoint/security-operations-dashboard)
+- [Microsoft 365 Defender 포털 보안 작업 대시보드 방문](/microsoft-365/security/defender-endpoint/security-operations-dashboard)
 
 - [Intune을 사용하여 끝점용 Microsoft Defender 관리](manage-atp-post-migration-intune.md)

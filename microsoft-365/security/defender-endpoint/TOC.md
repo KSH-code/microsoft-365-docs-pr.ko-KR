@@ -107,12 +107,12 @@
 
 ##### [배포]()
 ###### [Intune을 통해 Microsoft Defender for Endpoint(iOS용) 배포](ios-install.md)
+###### [등록되지 않은 장치를 통해 Microsoft 엔드포인트용 Microsoft Defender(iOS용) 배포](ios-install-unmanaged.md)
 
 ##### [구성]()
 ###### [iOS 기능 구성](ios-configure-features.md)
 
-##### [문제 해결]()
-###### [FAQ 및 문제 해결](ios-troubleshoot.md)
+##### [FAQ 및 문제 해결](ios-troubleshoot.md)
 
 ##### [개인 정보](ios-privacy.md)
 
@@ -239,6 +239,7 @@
 #### [공격 표면 감소 개요](overview-attack-surface-reduction.md)
 #### [공격 표면 감소 기능 구성](configure-attack-surface-reduction.md)
 #### [공격 표면 감소 규칙에 대한 자세한 정보](attack-surface-reduction.md)
+#### [공격 표면 감소 규칙](attack-surface-reduction-rules.md)
 #### [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
 #### [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
 #### [공격 표면 감소 규칙 사용자 지정](customize-attack-surface-reduction.md)
@@ -257,6 +258,7 @@
 #### [클라우드 제공 보호 및 Microsoft Defender 바이러스 백신](cloud-protection-microsoft-defender-antivirus.md)
 ##### [클라우드 제공 보호 켜기](enable-cloud-protection-microsoft-defender-antivirus.md)
 ##### [클라우드 제공 보호 수준 지정](specify-cloud-protection-level-microsoft-defender-antivirus.md)
+##### [클라우드 제공 보호 Microsoft Defender 바이러스 백신 샘플 제출](cloud-protection-microsoft-antivirus-sample-submission.md)
 #### [Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)
 #### [무단 보호를 사용하여 보안 설정 보호](prevent-changes-to-security-settings-with-tamper-protection.md)
 #### [즉각적 차단 켜기](configure-block-at-first-sight-microsoft-defender-antivirus.md)
@@ -482,6 +484,7 @@
 ####### [경고 관련 IP 정보 가져오기](get-alert-related-ip-info.md)
 ####### [경고 관련 장치 정보 가져오기](get-alert-related-machine-info.md)
 ####### [경고 관련 사용자 정보 가져오기](get-alert-related-user-info.md)
+####### [Microsoft 365 Defender의 경고 큐](alerts-queue-endpoint-detection-response.md)
 
 ###### [취약성 및 보안 구성 평가]()
 ####### [평가 방법 및 속성 내보내기](get-assessment-methods-properties.md)

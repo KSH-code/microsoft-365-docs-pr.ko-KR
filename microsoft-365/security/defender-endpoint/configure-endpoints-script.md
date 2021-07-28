@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e15a02753c7a1b346021a4351af24b8fd28315da
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 1154c1f1da0c5b4dba026af21e07dd1e7f66abe9
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339649"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596161"
 ---
 # <a name="onboard-the-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 Windows 10 장치 온보딩
 
@@ -30,7 +30,7 @@ ms.locfileid: "53339649"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsscript-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsscript-abovefoldlink)
 
 개별 디바이스를 Endpoint용 Defender에 수동으로 온보딩할 수도 있습니다. 네트워크의 모든 장치를 온보드하기 전에 서비스를 테스트할 때 이 작업을 먼저 수행해야 할 수 있습니다.
 
@@ -86,7 +86,7 @@ ms.locfileid: "53339649"
 구성은 다음 레지스트리 키 항목을 통해 설정됩니다.
 
 ```console
-Path: “HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection”
+Path: "HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection"
 Name: "AllowSampleCollection"
 Value: 0 or 1
 ```
@@ -100,14 +100,14 @@ Value: 0 or 1
 
 
 ## <a name="offboard-devices-using-a-local-script"></a>로컬 스크립트를 사용하여 디바이스 오프보딩
-보안상의 이유로, 오프보드 장치에 사용된 패키지는 다운로드한 날짜 30일 후에 만료됩니다. 장치로 전송된 만료된 오프보더 패키지는 거부됩니다. 오프보더 패키지를 다운로드할 때 패키지 만료 날짜에 대한 알림을 하게 되고 패키지 이름에도 포함됩니다.
+보안상의 이유로, 오프보드 장치에 사용된 패키지는 다운로드한 날짜 30일 후에 만료됩니다. 장치에 전송된 만료된 오프보더 패키지는 거부됩니다. 오프보더 패키지를 다운로드할 때 패키지 만료 날짜에 대한 알림을 하게 되고 패키지 이름에도 포함됩니다.
 
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
 1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
 
-    1. 탐색 창에서 **끝점 설정** 관리  >    >  오프보링  > **을 선택합니다.**
+    1. 탐색 창에서 **끝점 설정** 관리  >    >  오프보링  >  **을 선택합니다.**
 
     1. 운영 Windows 10 로 실행을 선택합니다.
 
@@ -144,7 +144,6 @@ Value: 0 or 1
 2. 장치 **인벤토리 를 클릭합니다.**
 
 3. 장치가 나타나는지 확인
-
 
 ## <a name="related-topics"></a>관련 항목
 - [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)

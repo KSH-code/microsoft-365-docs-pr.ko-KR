@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 5b723f4faef891c04dc78a18de09a469d703c492
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 182d44c8ad46b8c711705c46aabba3393f4e0801
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228894"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595969"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
 
@@ -57,6 +57,6 @@ Microsoft 365 보안 센터는 [ID,](overview-security-center.md) 데이터, 장
 |---|---|---| 
 | Azure Portal | 사용자 및 [](/azure/active-directory/fundamentals/active-directory-whatis) Azure Active Directory 모든 Azure 리소스 [보기 및 관리](/azure/azure-resource-manager/management/overview)  | [portal.azure.com](https://portal.azure.com/) |
 | Microsoft 365 규정 준수 센터 | 데이터 처리 정책 관리 및 규정 [준수 보장](/compliance/regulatory/offering-home) | [compliance.microsoft.com](https://compliance.microsoft.com/) |
-| Microsoft 365 관리 센터 | 서비스 Microsoft 365 구성 역할, 라이선스 관리 및 Microsoft 365 업데이트 추적 | [admin.microsoft.com](https://admin.microsoft.com/) |
+| Microsoft 365 관리 센터 | 서비스 Microsoft 365 구성 역할, 라이선스 관리 및 Microsoft 365 업데이트 추적 | [admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2166757) |
 | Microsoft 끝점 관리자 관리 센터 | 통합 [Microsoft Endpoint Manager](/mem/configmgr/) 사용하여 결합된 Intune 및 Configuration Manager 기능을 사용하여 장치 관리 및 보안 유지 | [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/) |
 | Microsoft Intune 포털 | 장치 [Microsoft Intune](/intune/fundamentals/what-is-intune) 정책을 배포하고 규정 준수를 위해 장치를 모니터링합니다. | [endpoint.microsoft.com](https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/overview)

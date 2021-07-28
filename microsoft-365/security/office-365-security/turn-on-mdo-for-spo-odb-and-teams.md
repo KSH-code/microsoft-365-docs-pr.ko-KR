@@ -20,12 +20,12 @@ description: 관리자는 검색된 파일에 대한 알림을 설정하는 금�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b64b3cfb29b3be999c9e26804e35dc4d02e48fbb
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 80c35b91de046642a7b4ff4c66d1a42f76976c5b
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083095"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543248"
 ---
 # <a name="turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일 설정
 
@@ -85,7 +85,7 @@ Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
 Set-SPOTenant -DisallowInfectedFileDownload $true
 ```
 
-**참고:**
+**참고**:
 
 - 이 설정은 사용자와 관리자 모두에 영향을 미치게 됩니다.
 - 사람들은 여전히 악성 파일을 삭제할 수 있습니다.
@@ -94,7 +94,7 @@ Set-SPOTenant -DisallowInfectedFileDownload $true
 
 ## <a name="step-3-recommended-use-the-microsoft-365-defender-portal-to-create-an-alert-policy-for-detected-files"></a>3단계(권장) Microsoft 365 Defender 포털을 사용하여 검색된 파일에 대한 경고 정책 만들기
 
-첨부 파일에서 악의적인 파일을 감지하는 금고 첨부 파일을 SharePoint OneDrive 관리자에게 알리는 Microsoft Teams 정책을 만들 수 있습니다. 경고에 대한 자세한 내용은 Microsoft 365 Defender 포털에서 활동 [경고 만들기를 참조합니다.](../../compliance/create-activity-alerts.md)
+첨부 파일에서 악의적인 파일을 감지하는 금고 첨부 파일을 SharePoint OneDrive 관리자에게 알리는 Microsoft Teams 정책을 만들 수 있습니다. 경고에 대한 자세한 내용은 경고 정책 [을 참조합니다.](../../compliance/alert-policies.md)
 
 1. Microsoft 365 Defender 포털에서 정책 정책 & **경고** \> **정책으로 이동하거나 을 를** 열 수 <https://security.microsoft.com/alertpolicies> 있습니다.
 

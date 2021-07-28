@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: beaa793420aa839aacf645fd690165d77e2c5fc9
-ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
+ms.openlocfilehash: 47463952bb631f31d20411466bf3469c1ef6ff8d
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53588152"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542984"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -31,19 +31,14 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 - 제외 또는 제외 없이 이동식 저장소에 대한 읽기, 쓰기 또는 실행 액세스 허용 또는 차단
 
-<br>
-
-****
-
-|권한|사용 권한|
-|---|---|
-|Access|읽기, 쓰기, 실행|
-|작업 모드|감사, 허용, 방지|
-|CSP 지원|예|
-|GPO 지원|예|
-|사용자 기반 지원|예|
-|컴퓨터 기반 지원|예|
-|
+|권한 |사용 권한  |
+|---------|---------|
+|Access    |  읽기, 쓰기, 실행       |
+|작업 모드    |    감사, 허용, 방지     |
+|CSP 지원   |   예      |
+|GPO 지원    |   예      |
+|사용자 기반 지원     |   예      |
+|컴퓨터 기반 지원    |    예     |
 
 ## <a name="licensing"></a>라이선싱
 
@@ -71,14 +66,16 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 다음 속성을 사용하여 이동식 저장소 그룹을 만들 수 있습니다.
 
-### <a name="property-name-group-id"></a>속성 이름: 그룹 ID
+**속성 이름: 그룹 ID**
 
 1. 설명: [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier), 고유 ID는 그룹을 나타내며 정책에 사용됩니다.
 
-### <a name="property-name-descriptoridlist"></a>속성 이름: DescriptorIdList
+**속성 이름: DescriptorIdList**
 
-1. 설명: 그룹에서 다루는 데 사용할 장치 속성을 나열합니다. 각 장치 속성에 대한 자세한 내용은 위의 **장치 속성** 섹션을 참조하세요.
-2. 옵션:
+2. 설명: 그룹에서 다루는 데 사용할 장치 속성을 나열합니다.
+각 장치 속성에 대한 자세한 내용은 위의 **장치 속성** 섹션을 참조하세요.
+
+3. 옵션:
     - PrimaryId
         - RemovableMediaDevices
         - CdRomDevices
@@ -94,44 +91,48 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
         - 0751_55E0: 이 정확한 VID/PID 쌍과 일치
         - _55E0: PID=55E0과 모든 미디어 일치
         - 0751_: VID=0751과 모든 미디어 일치
-
-### <a name="property-name-matchtype"></a>속성 이름: MatchType
+        
+**속성 이름: MatchType** 
 
 1. 설명: DescriptorIDList에 여러 장치 속성이 사용되는 경우 MatchType은 관계를 정의합니다.
+
 2. 옵션:
+
     - MatchAll: DescriptorIdList의 모든 특성은 **And 관계가** 됩니다. 예를 들어 관리자가 DeviceID와 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 시스템에서 USB가 두 값을 모두 충족하는지 확인합니다.
     - MatchAny: DescriptorIdList의 특성은 **Or 관계가** 됩니다. 예를 들어 관리자가 DeviceID 및 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 USB에 **동일한 DeviceID** 또는 **InstanceID** 값이 있는 한 시스템에서 적용을 실행합니다.
 
 액세스 제어 정책 속성은 다음과 같습니다.
 
-### <a name="property-name-policyruleid"></a>속성 이름: PolicyRuleId
+**속성 이름: PolicyRuleId**
 
 1. 설명: [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier), 고유한 ID는 정책을 나타내며 보고 및 문제 해결에 사용됩니다.
 
-### <a name="property-name-includedidlist"></a>속성 이름: IncludedIdList
+**속성 이름: IncludedIdList**
 
 1. 설명: 정책을 적용할 그룹입니다. 여러 그룹이 추가된 경우 정책은 해당 그룹의 모든 미디어에 적용됩니다.
+
 2. 옵션: 이 인스턴스에서 그룹 ID/GUID를 사용해야 합니다.
 
 다음 예에서는 GroupID의 사용을 보여 줍니다.
 
 `<IncludedIdList> <GroupId>{EAA4CCE5-F6C9-4760-8BAD-FDCC76A2ACA1}</GroupId> </IncludedIdList>`
 
-### <a name="property-name-excludedidlist"></a>속성 이름: ExcludedIDList
+**속성 이름: ExcludedIDList**
 
 설명: 정책이 적용되지 않는 그룹입니다.
 
 옵션: 이 인스턴스에서 그룹 ID/GUID를 사용해야 합니다.
 
-### <a name="property-name-entry-id"></a>속성 이름: 항목 ID
+**속성 이름: 항목 ID**
 
 1. 설명: 하나의 PolicyRule에는 여러 항목이 있을 수 있습니다. 고유한 GUID가 있는 각 항목은 장치 제어에 한 가지 제한을 알 수 있습니다.
 
-### <a name="property-name-type"></a>속성 이름: Type
+**속성 이름: Type**
 
 1. 설명: IncludedIDList에서 이동식 저장소 그룹에 대한 작업을 정의합니다.
     - 적용: 허용 또는 거부
-    - 감사: AuditAllowed 또는 AuditDenied
+    - 감사: AuditAllowed 또는 AuditDenied 
+
 2. 옵션:
 
     - 허용
@@ -141,15 +142,15 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 동일한 미디어에 대한 충돌 유형이 있는 경우 시스템은 정책의 첫 번째 형식을 적용합니다. 충돌 형식의 예로는 **Allow** 및 **Deny가 있습니다.**
 
-### <a name="property-name-sid"></a>속성 이름: Sid
+**속성 이름: Sid**
 
 설명: AD 개체의 로컬 컴퓨터 Sid 또는 Sid는 특정 사용자 또는 사용자 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 Sid를 사용할 수 있으며 Sid가 없는 항목은 컴퓨터 위에 정책을 적용하는 것입니다.
 
-### <a name="property-name-computersid"></a>속성 이름: ComputerSid
+**속성 이름: ComputerSid**
 
 설명: AD 개체의 로컬 컴퓨터 Sid 또는 Sid는 특정 컴퓨터 또는 컴퓨터 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 ComputerSid를 사용할 수 있으며 ComputerSid가 없는 항목은 컴퓨터에 정책을 적용하는 것입니다. 특정 사용자 및 특정 컴퓨터에 Entry를 적용하려면 Sid와 ComputerSid를 모두 동일한 항목에 추가합니다.
 
-### <a name="property-name-options"></a>속성 이름: 옵션
+**속성 이름: 옵션**
 
 설명: 알림을 표시할지 여부를 정의합니다.
 
@@ -157,29 +158,28 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 옵션: 0-4. 허용 또는 거부 유형이 선택된 경우:
 
-- 0: nothing
-- 4: 이 항목에 **대해 AuditAllowed** 및 **AuditDenied를** 사용하지 않도록 설정 **차단이 발생하고** **AuditDenied가 구성된** 경우에도 시스템에 알림이 표시되지 않습니다.
+   - 0: nothing
+   - 4: 이 항목에 **대해 AuditAllowed** 및 **AuditDenied를** 사용하지 않도록 설정 **차단이 발생하고** **AuditDenied가 구성된** 경우에도 시스템에 알림이 표시되지 않습니다.
 
-**AuditAllowed 또는** **AuditDenied** 유형이 선택된 경우:
+   **AuditAllowed 또는** **AuditDenied** 유형이 선택된 경우:
 
-- 0: nothing
-- 1: 알림 표시
-- 2: 이벤트 보내기
-- 3: 알림 표시 및 이벤트 보내기
+   - 0: nothing
+   - 1: 알림 표시
+   - 2: 이벤트 보내기
+   - 3: 알림 표시 및 이벤트 보내기
 
-### <a name="property-name-accessmask"></a>속성 이름: AccessMask
+**속성 이름: AccessMask**
 
 설명: 액세스를 정의합니다.
 
 옵션 1-7:
-
-- 1: 읽기
-- 2: 쓰기
-- 3: 읽기 및 쓰기
-- 4: 실행
-- 5: 읽기 및 실행
-- 6: 쓰기 및 실행
-- 7: 읽기 및 쓰기 및 실행
+  - 1: 읽기
+  - 2: 쓰기
+  - 3: 읽기 및 쓰기
+  - 4: 실행
+  - 5: 읽기 및 실행
+  - 6: 쓰기 및 실행
+  - 7: 읽기 및 쓰기 및 실행
 
 ## <a name="common-removable-storage-access-control-scenarios"></a>일반적인 이동식 Storage 액세스 제어 시나리오
 
@@ -188,28 +188,35 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 ### <a name="scenario-1-prevent-write-and-execute-access-to-all-but-allow-specific-approved-usbs"></a>시나리오 1: 모든 웹 에 대한 쓰기 및 실행 액세스를 방지하지만 승인된 특정 USB는 허용
 
 1. 그룹 만들기
+
     1. 그룹 1: 모든 이동식 저장소 및 CD/DVD. 이동식 저장소 및 CD/DVD의 예로는 그룹 **9b28fae8-72f7-4267-a1a5-685f747a7146** 샘플의 모든 이동식 Storage 및 [CD-DVD](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Group.xml파일이 있습니다.
-    2. 그룹 2: 장치 속성에 따라 승인된 USB. 이 사용 사례의 예로는 샘플 승인된 USB 파일에서 인스턴스 ID - 그룹 **65fa649a-a111-4912-9294-fb6337a25038** [Group.xml이](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) 있습니다.
+    
+    2. 그룹 2: 장치 속성에 따라 승인된 USB. 이 사용 사례의 예로는 예제 승인된 USB 파일에서 인스턴스 ID – 그룹 **65fa649a-a111-4912-9294-fb6337a25038** [Group.xml이](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) 있습니다.
 
     > [!NOTE]
     > 값으로 `&` `&amp;` 바꾸야 합니다.
 
 2. 정책 생성
+
     1. 정책 1: 쓰기 및 액세스 실행을 차단하지만 승인된 USB는 허용합니다. 이 사용 사례의 예는 예제 시나리오 [1](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) 쓰기 차단 및 실행에서 PolicyRule **c544a991-5786-4402-949e-a032cb790d0e이지만** 승인된 USBs.xml파일을 허용합니다.
+    
     2. 정책 2: 허용된 USB에 대한 쓰기 및 실행 액세스를 감사합니다. 이 사용 사례의 예는 예제 시나리오 [1](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) 감사 쓰기 및 승인된 USBs.xml파일에 대한 액세스 실행의 PolicyRule **36ae1037-a639-4cff-946b-b36c53089a4c입니다.**
 
 ### <a name="scenario-2-audit-write-and-execute-access-to-all-but-block-specific-unapproved-usbs"></a>시나리오 2: 승인되지 않은 특정 USB를 모두 차단하지만 모든 쓰기 및 실행 액세스 감사
 
 1. 그룹 만들기
+
     1. 그룹 1: 모든 이동식 저장소 및 CD/DVD. 이 사용 사례의 예는 샘플 Any Removable Storage [및 CD-DVD](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Group.xml파일의 Group **9b28fae8-72f7-4267-a1a5-685f747a7146입니다.**
-    2. 그룹 2: 장치 속성에 따라 승인되지 않은 USB(예: 공급업체 ID/ 제품 ID, 식별 이름 - 그룹 **65fa649a-a111-4912-9294-fb6337a25038)** 샘플에서 승인되지 않은 [USB](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Group.xml.
+    
+    2. 그룹 2: 장치 속성에 따라 승인되지 않은 USB(예: 공급업체 ID/ 제품 ID, 식별 이름 – 그룹 **65fa649a-a111-4912-9294-fb6337a25038)** 샘플에서 승인되지 않은 [USB](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Group.xml. 
 
     > [!NOTE]
     > 값으로 `&` `&amp;` 바꾸야 합니다.
 
 2. 정책 생성
-    1. 정책 1: 승인되지 않은 특정 USB를 모두 차단하지만 모든에 대한 쓰기 및 실행 액세스를 차단합니다. 이 사용 사례의 예는 예제 시나리오 2 감사 쓰기 및 실행의 예제 시나리오 2에서 PolicyRule **23b8e437-66ac-4b32-b3d7-24044637fc98입니다.** 승인되지 않은 특정 USBs.xml파일에 대한 액세스는 모두 차단합니다. [](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples)
 
+    1. 정책 1: 승인되지 않은 특정 USB를 모두 차단하지만 모든에 대한 쓰기 및 실행 액세스를 차단합니다. 이 사용 사례의 예는 예제 시나리오 2 감사 쓰기 및 실행의 예제 시나리오 2에서 PolicyRule **23b8e437-66ac-4b32-b3d7-24044637fc98입니다.** 승인되지 않은 특정 USBs.xml파일에 대한 액세스는 모두 차단합니다. [](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples)
+    
     2. 정책 2: 다른 사용자에 대한 쓰기 및 실행 액세스를 감사합니다. 이 사용 사례의 예는 예제 시나리오 [others.xml2](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) 감사 쓰기 및 실행 파일에서 PolicyRule **b58ab853-9a6f-405c-a194-740e69422b48입니다.**
 
 ## <a name="deploying-and-managing-policy-via-group-policy"></a>그룹 정책을 통해 정책 배포 및 관리
@@ -222,18 +229,18 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 
 ### <a name="deploying-policy-via-group-policy"></a>그룹 정책을 통해 정책 배포
 
-1. 모든 그룹을 하나의 `<Groups>` `</Groups>` xml 파일로 결합합니다.
+1. 모든 그룹을 하나의 `<Groups>` `</Groups>` xml 파일로 결합합니다. 
 
     다음 이미지는 시나리오 1: 쓰기 금지 및 모든 승인된 USB에 대한 액세스 실행을 허용하는 [예제를 보여 줍니다.](#scenario-1-prevent-write-and-execute-access-to-all-but-allow-specific-approved-usbs)
-
+    
     :::image type="content" source="images/prevent-write-access-allow-usb.png" alt-text="장치에서 승인된 특정 USB를 허용하는 구성 설정을 표시하는 화면":::
-
-2. 모든 규칙을 하나의 `<PolicyRules>` `</PolicyRules>` xml 파일로 결합합니다.
+    
+2. 모든 규칙을 하나의 `<PolicyRules>` `</PolicyRules>` xml 파일로 결합합니다. 
 
     특정 사용자를 제한하려는 경우 Entry에 SID 속성을 사용 합니다. 정책 Entry에 SID가 없는 경우 항목은 컴퓨터의 모든 로그인 인스턴스에 적용됩니다.
-
+    
     다음 이미지는 SID 속성의 사용을 보여 주며 시나리오 [1:](#scenario-1-prevent-write-and-execute-access-to-all-but-allow-specific-approved-usbs)모든 승인된 USB는 허용하지만 모든 사용자에 대해 쓰기 및 실행 액세스 금지의 예를 보여 줍니다.
-
+    
     :::image type="content" source="images/usage-sid-property.png" alt-text="SID 속성 특성의 사용을 나타내는 코드를 표시하는 화면":::
 
 3. 네트워크 공유 폴더에 규칙 및 그룹 XML 파일을 저장하고 네트워크 공유 폴더 경로를 그룹 정책 설정으로 넣습니다. 컴퓨터 구성 -> 관리 템플릿 -> Windows 구성 요소 **-> Microsoft Defender 바이러스 백신 -> 장치 제어: '장치** 제어 정책 그룹 정의' 및 '장치 제어 정책 규칙 정의'
@@ -246,7 +253,7 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 
 이동식 Storage 액세스 제어 기능을 사용하면 OMA-URI를 통해 사용자 또는 장치 또는 둘 다에 정책을 적용할 수 있습니다.
 
-### <a name="licensing-requirements"></a>라이선스 요구사항
+### <a name="licensing"></a>라이선싱
 
 이동식 액세스 제어를 Storage 시작하기 전에 [구독을 Microsoft 365 합니다.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) 이동식 액세스 Storage 액세스 제어에 액세스하고 사용하려면 액세스 Microsoft 365 E3 또는 Microsoft 365 E5.
 
@@ -279,15 +286,16 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 
       ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bFA6BE102-0784-4A2A-B010-A0BEBEBF68E1%7d/RuleData
 
-      예를 들어 예제에서 승인된 **USB** 규칙을 허용하지만 쓰기 차단 및 실행에 대한 링크는 다음과 같습니다.
+      예를 들어 예제에서 승인된 **USB** 규칙을 허용하지만 쓰기 차단 및 실행에 대한 링크는 다음과 같습니다. 
 
       ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bc544a991-5786-4402-949e-a032cb790d0e%7d/RuleData.
 
     - 데이터 형식: 문자열(XML 파일)
 
+
 ## <a name="deploying-and-managing-policy-by-using-intune-user-interface"></a>Intune 사용자 인터페이스를 사용하여 정책 배포 및 관리
 
-이 기능(Microsoft Endpoint Manager 관리 센터에서) 장치 구성 프로필 프로필 만들기 프로필 플랫폼: Windows 10 이상 & 프로필: 장치 <https://endpoint.microsoft.com/> 제어)는 아직 사용할 \> \> 수 \> \> 없습니다.
+Microsoft Endpoint Manager 관리 센터(> Devices > https://endpoint.microsoft.com/) Configuration profiles > Create profile > Platform: Windows 10 and later & Profile: Device Control)은 아직 사용할 수 없습니다. 
 
 ## <a name="view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 장치 Storage 이동식 액세스 제어 데이터 보기
 
@@ -298,22 +306,22 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 ```kusto
 //events triggered by RemovableStoragePolicyTriggered
 DeviceEvents
-| where ActionType == "RemovableStoragePolicyTriggered"
-| extend parsed=parse_json(AdditionalFields)
-| extend RemovableStorageAccess = tostring(parsed.RemovableStorageAccess) 
-| extend RemovableStoragePolicyVerdict = tostring(parsed.RemovableStoragePolicyVerdict) 
-| extend MediaBusType = tostring(parsed.BusType) 
+| where ActionType == "RemovableStoragePolicyTriggered" 
+| extend parsed=parse_json(AdditionalFields) 
+| extend RemovableStorageAccess = tostring(parsed.RemovableStorageAccess)  
+| extend RemovableStoragePolicyVerdict = tostring(parsed.RemovableStoragePolicyVerdict)  
+| extend MediaBusType = tostring(parsed.BusType)  
 | extend MediaClassGuid = tostring(parsed.ClassGuid)
 | extend MediaClassName = tostring(parsed.ClassName)
-| extend MediaDeviceId = tostring(parsed.DeviceId)
-| extend MediaInstanceId = tostring(parsed.DeviceInstanceId)
-| extend MediaName = tostring(parsed.MediaName)
-| extend RemovableStoragePolicy = tostring(parsed.RemovableStoragePolicy) 
-| extend MediaProductId = tostring(parsed.ProductId) 
-| extend MediaVendorId = tostring(parsed.VendorId) 
-| extend MediaSerialNumber = tostring(parsed.SerialNumber) 
-| extend MediaVolume = tostring(parsed.Volume) 
-|project Timestamp, DeviceId, DeviceName, ActionType, RemovableStorageAccess, RemovableStoragePolicyVerdict, MediaBusType, MediaClassGuid, MediaClassName, MediaDeviceId, MediaInstanceId, MediaName, RemovableStoragePolicy, MediaProductId, MediaVendorId, MediaSerialNumber, MediaVolume
+| extend MediaDeviceId = tostring(parsed.DeviceId) 
+| extend MediaInstanceId = tostring(parsed.DeviceInstanceId) 
+| extend MediaName = tostring(parsed.MediaName) 
+| extend RemovableStoragePolicy = tostring(parsed.RemovableStoragePolicy)  
+| extend MediaProductId = tostring(parsed.ProductId)  
+| extend MediaVendorId = tostring(parsed.VendorId)  
+| extend MediaSerialNumber = tostring(parsed.SerialNumber)  
+| extend MediaVolume = tostring(parsed.Volume)  
+| project Timestamp, DeviceId, DeviceName, ActionType, RemovableStorageAccess, RemovableStoragePolicyVerdict, MediaBusType, MediaClassGuid, MediaClassName, MediaDeviceId, MediaInstanceId, MediaName, RemovableStoragePolicy, MediaProductId, MediaVendorId, MediaSerialNumber, MediaVolume 
 | order by Timestamp desc
 ```
 
@@ -321,11 +329,11 @@ DeviceEvents
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
-### <a name="what-is-the-removable-storage-media-limitation-for-the-maximum-number-of-usbs"></a>최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?
+**최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?**
 
 100,000 미디어(최대 7MB) 크기의 USB 그룹 하나를 검증했습니다. 이 정책은 성능 문제 없이 Intune 및 GPO에서 모두 작동합니다.
 
-### <a name="why-does-the-policy-not-work"></a>정책이 작동하지 않는 이유는 무엇입니까?
+**정책이 작동하지 않는 이유는 무엇입니까?**
 
 가장 일반적인 이유는 필수 맬웨어 방지 클라이언트 [버전이 없습니다.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control#prepare-your-endpoints)
 
@@ -333,17 +341,16 @@ DeviceEvents
 
 값이 있는 경우 그룹 정책을 통해 정책을 관리하는 경우 클라이언트 장치가 정책 XML 경로에 액세스할 수 있는지 확인합니다.
 
-### <a name="how-can-i-know-which-machine-is-using-out-of-date-antimalware-client-version-in-the-organization"></a>조직에서 최신 맬웨어 방지 클라이언트 버전을 사용하는 컴퓨터는 어떻게 알 수 있나요?
+**조직에서 최신 맬웨어 방지 클라이언트 버전을 사용하는 컴퓨터는 어떻게 알 수 있나요?**
 
 다음 쿼리를 사용하여 보안 포털에서 맬웨어 방지 클라이언트 버전을 Microsoft 365 있습니다.
-
 ```kusto
 //check the antimalware client version
 DeviceFileEvents
-|where FileName == "MsMpEng.exe"
-|where FolderPath contains @"C:\ProgramData\Microsoft\Windows Defender\Platform\"
-|extend PlatformVersion=tostring(split(FolderPath, "\\", 5))
-//|project DeviceName, PlatformVersion // check which machine is using legacy platformVersion
-|summarize dcount(DeviceName) by PlatformVersion // check how many machines are using which platformVersion
-|order by PlatformVersion desc
+| where FileName == "MsMpEng.exe"
+| where FolderPath contains @"C:\ProgramData\Microsoft\Windows Defender\Platform\"
+| extend PlatformVersion=tostring(split(FolderPath, "\\", 5))
+//| project DeviceName, PlatformVersion // check which machine is using legacy platformVersion
+| summarize dcount(DeviceName) by PlatformVersion // check how many machines are using which platformVersion
+| order by PlatformVersion desc
 ```

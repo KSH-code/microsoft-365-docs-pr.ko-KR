@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 2efb1ad941c06ed3273032eb8ce14d81dd2eb834
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 37c8e1d879bc296b226fb4d616d798d4c38b4a0d
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286156"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542024"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -158,6 +158,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 - SharePoint Online 인스턴스가 아직 마이그레이션되지 않은 Microsoft 클라우드 도이클랜드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM 버전 16.0.20616.12000 이하를 유지해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 SharePoint 통해 Online에 대한 연결이 실패합니다.
 - 이 단계에서는 URL의 SharePoint IP 주소가 변경됩니다. Office 365 전역 서비스로 전환하고 나면 보존된 테넌트 URL(예: 및 )의 주소가 전 세계 Microsoft 365 URL 및 IP 주소 범위(SharePoint Online 및 `contoso.sharepoint.de` `contoso-my.sharepoint.de` [비즈니스용 OneDrive)로 변경됩니다.](/microsoft-365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)
 - 서비스 SharePoint OneDrive 전환하는 동안 Office Online이 예상대로 작동하지 않을 수 있습니다.
+- 사용자 지정 검색 구성이 적용된 경우 전환이 완료된 후 검색 구성을 가져와야 합니다. SharePoint Online에 대한 마이그레이션 전 단계에 설명된 바와 같이 전환 전에 검색 [구성을 내보내야 합니다.](ms-cloud-germany-transition-add-pre-work.md#sharepoint-online)
 
 > [!NOTE]
 > eDiscovery를 사용하는 경우 [eDiscovery](ms-cloud-germany-transition-add-scc.md)마이그레이션 환경을 알고 있어야 합니다.
@@ -196,7 +197,7 @@ CNAME이 을(를) autodiscover-outlook.office.de 있는 기존 DNS 항목은 을
 
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같습니다.
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들면 다음과 같습니다.
 
 ```powershell
 New-PSSession

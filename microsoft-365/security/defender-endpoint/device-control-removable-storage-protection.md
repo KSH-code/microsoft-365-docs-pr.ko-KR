@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c9b97c2157ba8090628af23b2ab54cf38f04d8c6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 8d36d01c0ccedf11e40f980df8c21997a11ad49f
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538390"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596284"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 보호
 
@@ -35,7 +35,8 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호는 사�
 
 **기능** - 다양한 장치 속성에 따라 제외를 포함하거나 제외하지 않고 설치하지 못하게 합니다.
 
-**설명**
+**Windows 10 지원 세부 정보**:
+
 - 컴퓨터 수준에서 적용: 로그온한 사용자에 대해 동일한 정책이 적용됩니다.
 - MEM 및 GPO를 지원합니다.
 - 나열된['장치 속성'이](#device-properties)지원됩니다.
@@ -43,37 +44,42 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호는 사�
 
 **지원되는 플랫폼** - Windows 10
 
-**설명**
+**macOS 지원 세부 정보**:
+
 - 컴퓨터 수준에서 적용: 로그온한 사용자에 대해 동일한 정책이 적용됩니다.
 - macOS 관련 정보는 [macOS용 장치 제어를 참조하세요.](mac-device-control-overview.md)
- 
+
 **지원되는 플랫폼** - macOS 카탈로니아 10.15.4+(시스템 확장 사용 가능)
 
 ### <a name="removable-storage-access-control"></a>이동식 저장소 액세스 제어
 
 **기능**
+
 - *감사* 제외를 포함하거나 제외하지 않고 다양한 장치 속성을 기반으로 이동식 저장소에 대한 액세스를 읽거나 쓰기 또는 실행합니다.
 - *방지* 제외를 포함하거나 제외하지 않고 액세스 읽기 또는 쓰기 또는 실행 - 다양한 장치 속성에 따라 특정 장치를 허용합니다.
 
-**설명**
-- 컴퓨터 또는 사용자 또는 둘 다에서 적용 - 특정 컴퓨터의 특정 이동식 저장소에 대한 읽기/쓰기/실행 액세스를 수행하는 특정 사용자만 허용합니다.
+**Windows 10 지원 세부 정보**:
+
+- 컴퓨터나 사용자 또는 둘 다에서 적용됩니다. 특정 컴퓨터의 특정 이동식 저장소에 대한 읽기/쓰기/실행 액세스를 수행하는 특정 사용자만 허용합니다.
 - MEM OMA-URI 및 GPO를 지원합니다.
 - 나열된['장치 속성'이](#device-properties)지원됩니다.
 - 이 기능의 Windows [이동식 저장소 액세스 제어를 참조합니다.](device-control-removable-storage-access-control.md)
 
 **지원되는 플랫폼** - Windows 10
 
-**설명**
+**macOS 지원 세부 정보**:
+
 - 컴퓨터 수준에서 적용: 로그온한 사용자에 대해 동일한 정책이 적용됩니다.
 - macOS 관련 정보는 [macOS용 장치 제어를 참조하세요.](mac-device-control-overview.md)
- 
+
 **지원되는 플랫폼** - macOS 카탈로니아 10.15.4+(시스템 확장 사용 가능)
 
 ### <a name="windows-portable-device-access-control"></a>Windows 휴대용 장치 액세스 제어
 
 **기능** - 태블릿, 휴대용 장치와 [](/windows-hardware/drivers/portable/)같은 Windows 읽기 또는 쓰기 액세스 iPhone.
 
-**설명**
+**설명**:
+
 - 컴퓨터나 사용자 또는 둘 다에서 적용됩니다.
 - MEM OMA-URI 및 GPO를 지원합니다.
 
@@ -87,13 +93,14 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호는 사�
 
 **지원되는 플랫폼** - Windows 10
 
-### <a name="bitlocker"></a>BitLocker 
+### <a name="bitlocker"></a>BitLocker
 
-**기능**
-- 보호되지 않은 이동식 드라이브에 기록할 데이터를 BitLocker 차단합니다.
+**기능**:
+
+- BitLocker로 보호되지 않는 이동식 드라이브에 기록할 데이터를 차단합니다.
 - 이동식 드라이브에 대한 액세스 차단(조직이 소유한 컴퓨터에서 암호화되지 않은 경우)
- 
-**설명** - 자세한 내용은 Windows - 이동식 [BitLocker 드라이브를 설정.](/mem/intune/protect/endpoint-security-disk-encryption-profile-settings)
+
+**설명** - 에 대한 자세한 Windows [BitLocker - 이동식](/mem/intune/protect/endpoint-security-disk-encryption-profile-settings)드라이브 설정.
 
 **지원되는 플랫폼** - Windows 10
 
@@ -101,19 +108,22 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호는 사�
 
 Microsoft Defender for Endpoint Device Control 이동식 Storage 보호를 사용하면 아래 표에 설명된 속성에 따라 이동식 저장소 액세스를 제한할 수 있습니다.
 
+<br>
 
-|속성 이름  |적용 가능한 정책  |운영 체제에 적용  |설명  |
-|---------|---------|---------|---------|
-|Device Class    |     [끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법](control-usb-devices-using-intune.md)     |   Windows      |  장치 ID 형식에 대한 자세한 내용은 장치 설정 [클래스 를 참조하세요.](/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors) **참고:** 이동식 저장소뿐만 아니라 모든 장치에 장치 설치를 적용할 수 있습니다.       |
-|기본 ID   |     이동식 저장소 액세스 제어    |   Windows      |      기본 ID에는 이동식 저장소 및 CD/DVD가 포함됩니다.   |
-|장치 ID     |  [끝점용 Microsoft Defender를](control-usb-devices-using-intune.md)사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법 이동식 저장소 액세스 제어       |      Windows   |    장치 ID 형식에 대한 자세한 내용은 표준 USB 식별자(예: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07)를 참조하세요. [](/windows-hardware/drivers/install/standard-usb-identifiers)      |
-|하드웨어 ID     |     [끝점용 Microsoft Defender를](control-usb-devices-using-intune.md)사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법 이동식 저장소 액세스 제어    |     Windows    |    시스템에서 장치를 식별한 문자열(예: USBSTOR\DiskGeneric_Flash_Disk______8.07) **참고:** 하드웨어 ID가 고유하지 않습니다. 다른 디바이스가 동일한 값을 공유할 수 있습니다.|
-|인스턴스 ID    | 장치 설치 이동식 저장소 액세스 제어     |     Windows    |   USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0과 같은 문자열은 시스템에서 장치를 고유하게 식별합니다.      |
-|이름     |     이동식 저장소 액세스 제어    |   Windows      |    장치에 연결된 문자열(예: 일반 플래시 디스크 USB 장치)     |
-|공급업체 ID/제품 ID     |  이동식 저장소 액세스 제어       |   Windows Mac      |     공급업체 ID는 USB 위원회가 공급업체에 할당하는 4자리 공급업체 코드입니다. 제품 ID는 공급업체가 장치에 할당하는 4자리 제품 코드입니다. 와일드카드를 지원합니다.    |
-|Serial NumberId     |     이동식 저장소 액세스 제어    |      Windows Mac   |     예: <SerialNumberId>002324B534BCB431B000058A</SerialNumberId>    |
+****
+
+|속성 이름|적용 가능한 정책|운영 체제에 적용|설명|
+|---|---|---|---|
+|Device Class|[끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법](control-usb-devices-using-intune.md)|Windows|장치 ID 형식에 대한 자세한 내용은 장치 설정 [클래스 를 참조하세요.](/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors) **참고:** 이동식 저장소뿐만 아니라 모든 장치에 장치 설치를 적용할 수 있습니다.|
+|기본 ID|이동식 저장소 액세스 제어|Windows|기본 ID에는 이동식 저장소 및 CD/DVD가 포함됩니다.|
+|장치 ID|[끝점용 Microsoft Defender를](control-usb-devices-using-intune.md)사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법 이동식 저장소 액세스 제어|Windows|장치 ID 형식에 대한 자세한 내용은 표준 USB 식별자(예: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07)를 참조하세요. [](/windows-hardware/drivers/install/standard-usb-identifiers)|
+|하드웨어 ID|[끝점용 Microsoft Defender를](control-usb-devices-using-intune.md)사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법 이동식 저장소 액세스 제어|Windows|시스템에서 장치를 식별한 문자열(예: USBSTOR\DiskGeneric_Flash_Disk______8.07) **참고:** 하드웨어 ID가 고유하지 않습니다. 다른 디바이스가 동일한 값을 공유할 수 있습니다.|
+|인스턴스 ID|장치 설치 이동식 저장소 액세스 제어|Windows|USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0과 같은 문자열은 시스템에서 장치를 고유하게 식별합니다.|
+|이름|이동식 저장소 액세스 제어|Windows|장치에 연결된 문자열(예: 일반 플래시 디스크 USB 장치)|
+|공급업체 ID/제품 ID|이동식 저장소 액세스 제어|Windows Mac|공급업체 ID는 USB 위원회가 공급업체에 할당하는 4자리 공급업체 코드입니다. 제품 ID는 공급업체가 장치에 할당하는 4자리 제품 코드입니다. 와일드카드를 지원합니다.|
+|Serial NumberId|이동식 저장소 액세스 제어|Windows Mac|예: <SerialNumberId>002324B534BCB431B000058A</SerialNumberId>|
+|
 
 ## <a name="related-topic"></a>관련 항목
 
 - [Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어](device-control-removable-storage-access-control.md)
-

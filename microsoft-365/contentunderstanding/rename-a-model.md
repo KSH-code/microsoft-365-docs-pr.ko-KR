@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 모델 이름을 변경하는 방법과 그 이유에 대해 알아보세요.
-ms.openlocfilehash: d0d17f040199b2e6b60bfc98d325f18b6de0b7f2
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: d1a96646f507a3124759b2a5865440d4d5621209
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51446001"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595933"
 ---
 # <a name="rename-a-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 모델 이름 변경
 
@@ -49,7 +49,7 @@ ms.locfileid: "51446001"
 
     ![모델 이름 변경 패널을 보여주는 스크린샷입니다.](../media/content-understanding/rename-model-panel.png) </br>
 
-   b. (선택 사항) **고급 설정** 에서 기존 [콘텐츠 유형 ](/sharepoint/governance/content-type-and-workflow-planning#content-type-overview)을 연결할지 여부를 선택합니다. **기존 컨텐츠 유형 사용** 을 선택하면 선택한 컨텐츠 유형과 일치하도록 모델 이름이 변경됩니다.
+   b. (선택 사항) **고급 설정** 에서 기존 [콘텐츠 유형](/sharepoint/governance/content-type-and-workflow-planning#content-type-overview)을 연결할지 여부를 선택합니다. **기존 컨텐츠 유형 사용** 을 선택하면 선택한 컨텐츠 유형과 일치하도록 모델 이름이 변경됩니다.
 
 5. **이름 변경** 을 선택합니다.
 

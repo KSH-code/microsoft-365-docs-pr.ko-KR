@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d0cb4a3d01c1380f4fd06999c8f81a4054e2fd00
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c1809969d37d2e3cfb9279eb8266a65ba098b3c6
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844433"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542108"
 ---
 # <a name="onboard-previous-versions-of-windows"></a>이전 버전의 Windows 온보딩
 
@@ -85,7 +85,7 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 1. [64비트](https://go.microsoft.com/fwlink/?LinkId=828603) 에이전트 또는 Windows [32비트](https://go.microsoft.com/fwlink/?LinkId=828604)Windows 설치 파일을 다운로드합니다.
 
 2. 작업 영역 ID를 구합니다.
-   - 끝점용 Defender 탐색 창에서 **온보딩을 설정 > 장치 관리 > 선택합니다.**
+   - 끝점용 Defender 탐색 창에서 온보딩을 설정 > 끝점 > **끝점을 > 선택합니다.**
    - 운영 **Windows 7 SP1 및 8.1을** 선택합니다.
    - 작업 영역 ID 및 작업 영역 키 복사
 

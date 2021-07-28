@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 문서의 검토 집합에 있는 문서에 대한 메타데이터 필드를 Advanced eDiscovery Microsoft 365.
-ms.openlocfilehash: 42f349bf01d5a777535dd04096b860a0165f1edf
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: e1c81a572e74b965842d9b6888c9242b73a822c5
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769572"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543644"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Advanced eDiscovery의 문서 메타데이터 필드
 
@@ -49,20 +49,20 @@ ms.locfileid: "52769572"
 |복합 경로|CompoundPath|Compound_path|항목의 원본을 설명하는 사람이 읽을 수 있는 경로입니다.|
 |콘텐츠*|콘텐츠||항목의 추출된 텍스트입니다.|
 |Conversation Body|Conversation Body||항목의 대화 본문입니다.|
-|대화 항목|대화 항목||항목의 대화 항목입니다.|
-|대화 ID|ConversationId|Conversation_ID|메시지의 대화 ID입니다.|
+|대화 ID|ConversationId|Conversation_ID|메시지의 대화 ID입니다. Teams 1:1 및 그룹 채팅의 경우 같은 대화 내의 모든 대화 파일과 해당 가족 항목은 동일한 대화 ID를 공유합니다. 자세한 내용은 Advanced eDiscovery [의 콘텐츠에 대한 워크플로 Microsoft Teams.](teams-workflow-in-advanced-ediscovery.md) |
 |대화 인덱스||Conversation_index|메시지의 대화 인덱스입니다.|
+|대화 이름 | |ConversationName|2016의 채널 Teams. 이름 형식은 채널 유형에 따라 다릅니다. <br/>Teams 채팅 및 비공개 채널 채팅: <팀 이름, 채널 채팅의> <br/>Teams 1:1 및 그룹 채팅: 모든 채팅 참가자의 표시 이름 및 전자 메일 주소<br/>Yammer 커뮤니티: Community 이름 + 게시물의 처음 120자<br/>Yammer 개인: 보낸 사람 이름 및 전자 메일 주소 + 메시지의 처음 120자 문자|
 |대화 Pdf 시간|ConversationPdfTime||PDF 버전의 대화가 만들어진 날짜입니다.|
 |대화 재배포 굽기 시간|ConversationRedactionBurnTime||채팅을 위해 대화의 PDF 버전을 만든 날짜입니다.|
+|대화 항목|대화 항목||항목의 대화 항목입니다.|
+|대화 유형| ConversationType|ConversationType| 채팅 대화의 유형입니다. 값은 다음과 같습니다. <br/> Teams 1:1 및 그룹 채팅 및 모든 Yammer 대화: **그룹**<br/>Teams 채널 및 비공개 채널: **채널**|
+|편집된 메시지 포함 |ContainsEditedMessage|ContainsEditedMessage|편집된 Teams 대화 내용에 편집된 메시지가 포함되어 있는지 나타냅니다.
 |||Converted_file_path|변환된 내보내기 파일의 경로입니다. 내부 Microsoft의 경우 전용입니다.|
-|만든 문서 날짜|CreatedTime|Doc_date_created|문서 메타데이터에서 날짜를 생성합니다.|
 |Custodian|Custodian|Custodian|항목이 연결된 수장의 이름입니다.|
-|날짜|날짜|날짜|Date는 파일 형식에 따라 계산된 필드입니다.<br /><br />전자 메일: 보낸 날짜<br />전자 메일 첨부 파일: 문서의 마지막 수정 날짜입니다. 사용할 수 없는 경우 부모의 보낸 날짜<br />포함된 문서: 문서의 마지막 수정 날짜 사용할 수 없는 경우 부모의 마지막 수정 날짜<br />SPO 문서(최신 첨부 파일 포함): SharePoint 마지막으로 수정한 날짜입니다. 사용할 수 없는 경우 문서가 마지막으로 수정된 날짜입니다.<br />비보안 Office 365: 마지막으로 수정한 날짜<br />모임: 모임 시작 날짜<br />VoiceMail: 보낸 날짜<br />IM: 보낸 날짜|
-|기타 경로|Dedupedcompoundpath|Deduped_compound_path|정확히 중복되는 문서의 복합 경로 목록입니다(전자 메일: 콘텐츠 기반, 문서: 해시 기반).|
-|기타 보전자|DedupedCustodians|Deduped_custodians|정확히 중복되는 문서의 보위자 목록입니다(콘텐츠에 따라 전자 메일의 경우, 문서의 경우 해시 기반).|
-|기타 파일 ID|DedupedFileIds|Deduped_file_IDs|정확히 중복되는 문서의 파일 신분증 목록입니다(전자 메일의 경우 콘텐츠 기반, 문서의 경우 해시 기반).|
+|날짜|날짜|날짜|Date는 파일 형식에 따라 계산된 필드입니다.<br /><br />전자 메일: 보낸 날짜<br />전자 메일 첨부 파일: 문서의 마지막 수정 날짜입니다. 사용할 수 없는 경우 부모의 보낸 날짜<br />포함된 문서: 문서의 마지막 수정 날짜 사용할 수 없는 경우 부모의 마지막 수정 날짜<br />SPO 문서(최신 첨부 파일 포함): SharePoint 마지막으로 수정한 날짜입니다. 사용할 수 없는 경우 문서가 마지막으로 수정된 날짜입니다.<br />비보안 Office 365: 마지막으로 수정한 날짜<br />모임: 모임 시작 날짜<br />VoiceMail: 보낸 날짜<br />IM: 보낸 날짜<br />Teams: 보낸 날짜|
 |문서 설명|DocComments|Doc_comments|문서 메타데이터의 설명입니다.|
 |문서 회사||Doc_company|문서 메타데이터의 회사입니다.|
+|만든 문서 날짜|CreatedTime|Doc_date_created|문서 메타데이터에서 날짜를 생성합니다.|
 |DocIndex*|||패밀리의 인덱스입니다. **-1** 또는 **0은** 루트를 의미합니다.|
 |문서 키워드||Doc_keywords|문서 메타데이터의 키워드입니다.|
 |수정한 문서||Doc_modified_by|문서 메타데이터에서 마지막으로 수정한 날짜입니다.|
@@ -89,15 +89,15 @@ ms.locfileid: "52769572"
 |||Extracted_text_path|내보내기에서 추출된 텍스트 파일의 경로입니다.|
 |ExtractedTextLength*||Extracted_text_length|추출된 텍스트의 문자 수입니다.|
 |FamilyDuplicateSet*||Family_duplicate_set|서로 정확히 중복되는 패밀리의 숫자 식별자입니다(동일한 콘텐츠 및 모든 동일한 첨부 파일).|
-|가족 ID|FamilyId|Family_ID|전자 메일의 모든 항목을 그룹화합니다. 여기에는 메시지와 모든 첨부 파일 및 추출된 항목이 포함됩니다.|
+|가족 ID|FamilyId|Family_ID|첨부 파일과 전자 메일에서 추출된 항목을 부모 항목과 그룹화합니다. 여기에는 채팅 또는 전자 메일과 모든 첨부 파일 및 추출된 항목이 포함됩니다.|
 |가족 크기||Family_size|패밀리의 문서 수입니다.|
-|파일 클래스|FileClass|File_class|문서 및 SharePoint 콘텐츠의 OneDrive: **문서**; 의 콘텐츠에 Exchange: **전자 메일** 또는 첨부 파일입니다. |
+|파일 클래스|FileClass|File_class|문서 및 SharePoint 콘텐츠의 OneDrive: **문서입니다.** <br/>전자 메일의 Exchange: **전자 메일** 또는 첨부 **파일입니다.** <br/>또는 Teams 콘텐츠의 Yammer: **대화.** |
 |파일 ID|FileId|File_ID|사례 내에서 고유한 문서 식별자입니다.|
 |만들어진 파일 시스템 날짜||File_system_date_created|파일 시스템에서 만든 날짜입니다(비영구 데이터에만 Office 365 적용).|
 |파일 시스템 날짜 수정||File_system_date_modified|파일 시스템에서 수정된 날짜입니다(비영구 데이터에만 Office 365 적용).|
 |파일 형식|FileType||파일 확장명에 따라 항목의 파일 형식입니다.|
 |그룹 ID|그룹 ID|Group_ID|전자 메일 및 문서의 모든 항목을 그룹화합니다. 전자 메일의 경우 메시지와 모든 첨부 파일 및 추출된 항목이 포함됩니다. 문서의 경우 여기에는 문서와 포함된 항목이 포함됩니다.|
-|첨부 파일 포함|HasAttachment|Email_has_attachment|메시지에 첨부 파일이 있는지 여부를 나타냅니다.|
+|첨부 파일 포함|EmailHasAttachment|Email_has_attachment|메시지에 첨부 파일이 있는지 여부를 나타냅니다.|
 |변호사가 있습니다.|HasAttorney||**True이면** 적어도 한 명 이상의 참가자가 변호사 목록에 있습니다. 그렇지 않으면 값이 **False입니다.**|
 |HasText*||Has_text|항목에 텍스트가 있는지 여부를 나타냅니다. 가능한 값은 **True** 및 **False입니다.**|
 |Immutable ID||Immutable_ID|이 ID는 검토 집합 내에서 문서를 고유하게 식별하는 데 사용됩니다. 이 필드는 검토 집합 검색에 사용할 수 없습니다. ID를 사용하여 해당 기본 위치에 있는 문서에 액세스할 수 없습니다.|
@@ -133,6 +133,9 @@ ms.locfileid: "52769572"
 |O365 만든 날짜||O365_date_created|만든 날짜를 SharePoint.|
 |O365 날짜 수정||O365_date_modified|마지막 수정 날짜(SharePoint.|
 |O365에 의해 수정||O365_modified_by|에서 수정한 SharePoint.|
+|기타 보전자|DedupedCustodians|Deduped_custodians|정확히 중복되는 문서의 보위자 목록입니다(콘텐츠에 따라 전자 메일의 경우, 문서의 경우 해시 기반).|
+|기타 파일 ID|DedupedFileIds|Deduped_file_IDs|정확히 중복되는 문서의 파일 신분증 목록입니다(전자 메일의 경우 콘텐츠 기반, 문서의 경우 해시 기반).|
+|기타 경로|Dedupedcompoundpath|Deduped_compound_path|정확히 중복되는 문서의 복합 경로 목록입니다(전자 메일: 콘텐츠 기반, 문서: 해시 기반).|
 |상위 ID|ParentId|Parent_ID|항목의 부모 ID입니다.|
 |ParentNode||Parent_node|전자 메일 스레드에서 가장 앞의 전자 메일 메시지입니다.|
 |참가자 도메인|ParticipantDomains|Email_participant_domains|메시지 참가자의 모든 도메인 목록입니다.|
@@ -155,7 +158,7 @@ ms.locfileid: "52769572"
 |보낸 사람|보낸 사람|Email_sender|메시지 유형에 대한 보낸 사람(보낸 사람) 필드입니다. 형식은 **DisplayName \<SmtpAddress> 입니다.**|
 |보낸 사람/만든 이|SenderAuthor||항목을 보낸 사람 또는 만든 이로 구성된 계산 필드입니다.|
 |보낸 사람 도메인|SenderDomain|Email_sender_domain|보낸 사람 도메인입니다.|
-|Sent|Sent|Email_date_sent|메시지의 보낸 날짜입니다.|
+|Sent|Sent|Email_date_sent|메시지의 보낸 날짜입니다.<br/>채팅: 대화의 시작 날짜|
 |순서 설정: 우선 포함|SetOrderInclusivesFirst|Set_order_inclusives_first|정렬 필드 - 전자 메일 및 첨부 파일: 연도에 반시적; 문서: 먼저 유사성 점수를 내어 피벗합니다.|
 |ID 설정||Set_ID|동일한 전자 메일 스레드(ND_set) 내의 유사한 콘텐츠(Email_set) 또는 전자 메일의 문서는 동일한 Set_ID.|
 |SimilarityPercent||Similarity_percent|문서가 가까운 중복 집합의 피벗과 얼마나 유사한지 나타냅니다.|
@@ -163,8 +166,9 @@ ms.locfileid: "52769572"
 |제목|제목|Email_subject|메시지의 제목입니다.|
 |제목/제목|SubjectTitle||항목의 제목 또는 제목으로 구성된 계산 필드입니다.|
 |태그|태그|태그|검토 집합에 적용된 태그입니다.|
+|Teams 채널 이름|TeamsChannel|Channel_Name|16진수 채널의 Microsoft Teams.|
 |테마 목록|ThemesList|Themes_list|분석에 대해 계산된 테마 목록입니다.|
-|제목|제목|Doc_title|문서 메타데이터의 제목입니다.|
+|제목|제목|Doc_title|문서 메타데이터의 제목입니다. 문서 메타데이터의 제목입니다. 콘텐츠 Teams Yammer ConversationName 속성의 값입니다.|
 |받는 사람|받는 사람|Email_to|To 메시지 유형에 대한 필드입니다. Format은 **DisplayName입니다. \<SmtpAddress>**|
 |전자 메일 집합의 고유|UniqueInEmailSet||**False이면** 첨부 파일이 전자 메일 집합에 중복되어 있습니다.|
 |버전 그룹 ID||Version_Group_Id|동일한 문서의 서로 다른 버전을 그룹화합니다.|

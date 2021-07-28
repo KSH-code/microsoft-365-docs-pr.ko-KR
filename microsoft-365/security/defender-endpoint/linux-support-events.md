@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7de216c1397a7cc4806af8221257eeedd2290830
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 554767c1db2d4122c7bc77c47a55772e4ddaa0a6
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933316"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542180"
 ---
 # <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 누락된 이벤트 또는 경고 문제 해결
 
@@ -33,7 +33,7 @@ ms.locfileid: "51933316"
 
 - [Microsoft Defender for Endpoint(Linux용)](microsoft-defender-endpoint-linux.md)
 
-이 문서에서는 보안 센터 포털에서 누락된 이벤트 또는 알림을 완화하는 몇 가지 일반적인 [단계를](https://securitycenter.windows.com/) 제공합니다.
+이 문서에서는 사이트 포털 에서 누락된 이벤트 또는 알림을 완화하는 몇 가지 일반적인 [Microsoft 365 Defender 제공합니다.](https://security.microsoft.com/)
 
 **끝점용 Microsoft Defender가** 장치에 올바르게 설치되면  포털에 장치 페이지가 생성됩니다. 디바이스 페이지의 시간 표시 막대 탭 또는 고급 헌팅 페이지에서 기록된 모든 이벤트를 검토할 수 있습니다. 이 섹션에서는 일부 또는 모든 예상 이벤트가 누락된 경우를 해결합니다.
 예를 들어 _모든 CreatedFile_ 이벤트가 누락된 경우입니다.

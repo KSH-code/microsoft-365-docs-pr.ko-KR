@@ -1,8 +1,9 @@
 ---
-title: 분류자 만들기
-ms.author: efrene
-author: efrene
+title: Microsoft SharePoint Syntex에서 분류자 만들기
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -11,13 +12,13 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-description: 분류자를 만드는 방법 알아보기
-ms.openlocfilehash: 13ae099d051ac526dc5b13e4cb55a1dc10eec087
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Microsoft SharePoint Syntex에서 분류자를 만드는 방법을 알아봅니다.
+ms.openlocfilehash: 62c6b985bbc713940e2f140f77daeb2d920982d2
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925359"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53543158"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 분류자 만들기
 
@@ -88,7 +89,7 @@ SharePoint 콘텐츠 유형 갤러리에서 해당 모델을 기존 엔터프라
 2. **모델에 대한 예제 파일 선택** 페이지에서 콘텐츠 센터의 교육 파일 라이브러리에 있는 예제 파일을 선택합니다. 아직 업로드되지 않은 경우에는 **업로드** 를 클릭하여 지금 파일 업로드를 선택하고 교육 파일 라이브러리에 해당 파일을 복사합니다.
 3. 모델을 교육하는 데 사용할 예제 파일을 선택한 후 **추가** 를 클릭합니다.
 
-    ![예제 파일 선택](../media/content-understanding/select-sample.png) 
+    ![예제 파일 선택.](../media/content-understanding/select-sample.png) 
 
 ## <a name="label-your-example-files"></a>예제 파일 레이블 지정
 
@@ -99,13 +100,13 @@ SharePoint 콘텐츠 유형 갤러리에서 해당 모델을 기존 엔터프라
 2. 첫 번째 예제 파일의 맨 위에 있는 뷰어에서 파일이 사용자가 방금 만든 모델의 예제인지 묻는 텍스트를 확인할 수 있습니다. 긍정 예제인 경우 **예** 를 선택합니다. 부정 예제인 경우 **아니요** 를 선택합니다.
 3. 왼쪽에 있는 **레이블이 지정된 예제** 목록에서 예제로 사용하려는 추가 파일을 선택하고 해당 파일에 레이블을 지정합니다. 
 
-    ![분류자 홈페이지](../media/content-understanding/classifier-home-page.png) 
+    ![분류자 홈페이지.](../media/content-understanding/classifier-home-page.png) 
 
 
 > [!NOTE]
 > 5개 이상의 긍정 예제를 레이블 지정합니다. 1개 이상의 부정 예제에도 레이블을 지정해야 합니다. 
 
-## <a name="create-an-explanation"></a>설명을 만듭니다.
+## <a name="create-an-explanation&quot;></a>설명을 만듭니다.
 
 다음 단계에서는 교육 페이지에 대한 설명을 만듭니다. 설명은 모델이 문서를 인식하는 방법을 이해하는 데 도움이 됩니다. 예를 들어 계약 갱신 문서에는 항상 *추가 공개에 대한 요청* 텍스트 문자열이 포함되어 있습니다.
 
@@ -118,22 +119,26 @@ SharePoint 콘텐츠 유형 갤러리에서 해당 모델을 기존 엔터프라
 2. 교육 페이지의 **교육된 파일** 섹션에서 이전에 레이블을 지정한 샘플 파일 목록을 확인할 수 있습니다. 목록에서 긍정 예제 파일 중 하나를 선택하여 뷰어에 표시합니다.
 3. 설명 섹션에서 **새 설명** 을 선택한 다음 **빈 항목** 을 선택합니다.
 4. **설명 만들기** 페이지에서 다음을 수행합니다.</br>
-    a. **이름** 을 입력합니다. (예: "공개 차단")</br>
+    a. **이름** 을 입력합니다. (예: &quot;공개 차단")</br>
     b. **유형** 을 선택합니다. 샘플의 경우 텍스트 문자열을 추가하므로 **구 목록** 을 선택합니다.</br>
     c. **여기에 입력** 상자에 문자열을 입력합니다. 샘플의 경우 "추가 공개 요청"을 추가합니다. 문자열이 대/소문자를 구분해야 하는 경우 **대/소문자 구분** 을 선택할 수 있습니다.</br>
     d. **저장** 을 클릭합니다.
 
-    ![설명 만들기](../media/content-understanding/explanation.png) 
+    ![설명 만들기.](../media/content-understanding/explanation.png) 
     
-5. 이제 콘텐츠 센터는 사용자가 만든 설명이 레이블이 지정된 남은 예제 파일을 긍정 예제 및 부정 예제로 올바르게 식별할 수 있는지 확인할 수 있습니다. 교육된 파일 섹션에서 교육이 완료된 이후 **평가** 열을 점검하여 결과를 확인할 수 있습니다. 파일에는 사용자가 만든 설명이 긍정 또는 부정으로 레이블을 지정한 사항과 일치하는지 여부를 나타내는 **일치** 값이 표시됩니다.
+5. 이제 콘텐츠 센터는 사용자가 만든 설명이 레이블이 지정된 남은 예제 파일을 긍정 예제 및 부정 예제로 올바르게 식별할 수 있는지 확인할 수 있습니다. **교육된 파일** 섹션에서 교육이 완료된 이후 **평가** 열을 점검하여 결과를 확인할 수 있습니다. 파일에는 사용자가 만든 설명이 긍정 또는 부정으로 레이블을 지정한 사항과 일치하는지 여부를 나타내는 **일치** 값이 표시됩니다.
 
-    ![일치 값](../media/content-understanding/match.png) 
+    ![일치 값.](../media/content-understanding/match.png) 
 
-레이블이 지정된 파일에서 **불일치** 를 나타난 경우 모델에 문서 유형을 식별하기 위한 보다 자세한 정보를 제공하여 추가 설명을 만들어야 할 수 있습니다. 이 경우에는 파일을 클릭하여 불일치가 발생한 원인을 보다 자세하게 알아볼 수 있습니다.
+    레이블이 지정된 파일에서 **불일치** 를 나타난 경우 모델에 문서 유형을 식별하기 위한 보다 자세한 정보를 제공하여 추가 설명을 만들어야 할 수 있습니다. 이 경우에는 파일을 클릭하여 불일치가 발생한 원인을 보다 자세하게 알아볼 수 있습니다.
+
+추출기를 학습한 후에는 학습된 추출기를 설명으로 사용할 수 있습니다. **설명** 섹션에서 **모델 참조** 로 표시됩니다.
+
+![모델 참조 형식을 보여 주는 설명 섹션의 스크린샷.](../media/content-understanding/explanations-model-reference.png)
 
 ## <a name="test-your-model"></a>모델 테스트
 
-레이블이 지정된 샘플 파일에 일치가 나타난 경우 이제 해당 모델이 이전에 확인하지 못한 레이블이 지정되지 않은 남은 예제 파일에서 모델을 테스트할 수 있습니다.  이는 선택 사항이지만, 모델을 전에 보지 못한 파일에서 테스트하여 모델 사용 전에 모델의 "적합성"이나 준비 상태를 평가하는 데 유용한 단계입니다.
+레이블이 지정된 샘플 파일에 일치가 나타난 경우 이제 해당 모델이 이전에 확인하지 못한 레이블이 지정되지 않은 남은 예제 파일에서 모델을 테스트할 수 있습니다. 이는 선택 사항이지만, 모델을 전에 보지 못한 파일에서 테스트하여 모델 사용 전에 모델의 "적합성"이나 준비 상태를 평가하는 데 유용한 단계입니다.
 
 1. 모델 홈페이지에서 **테스트** 탭을 선택합니다. 이 경우 레이블이 지정되지 않은 샘플 파일에서 모델이 실행됩니다.
 2. **테스트 파일** 목록에서 예제 파일이 표시되고 모델이 해당 예제 파일을 긍정 예제로 예상하는지 부정 예제로 예상하는지 보여줍니다. 이 정보를 사용하여 문서를 식별하는 데 필요한 분류자 효율성을 결정할 수 있습니다.

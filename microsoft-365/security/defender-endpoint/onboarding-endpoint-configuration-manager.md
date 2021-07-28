@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: eab23ddeb9011e80cf2835b8d38b2d3fad4b7089
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e04535268c94478c862998cfd91df1680eb22fc0
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843509"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53542096"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 
@@ -117,16 +117,16 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 ## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>2단계: 끝점용 Microsoft Defender 기능 구성 
 이 섹션에서는 Microsoft Endpoint Configuration Manager 디바이스에서 다음 기능을 Windows 안내합니다.
 
-- [**엔드포인트 검색 및 대응**](#endpoint-detection-and-response)
+- [**끝점 검색 및 응답**](#endpoint-detection-and-response)
 - [**차세대 보호**](#next-generation-protection)
 - [**공격 표면 감소**](#attack-surface-reduction)
 
 
-### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
+### <a name="endpoint-detection-and-response"></a>엔드포인트 탐지 및 대응
 #### <a name="windows-10"></a>Windows 10
-정책 내에서 Microsoft Defender 보안 센터 '.onboarding' 정책을 다운로드하여 System Center Configuration Manager 정책을 Windows 10 배포할 수 있습니다.
+Microsoft 365 Defender 포털 내에서 정책을 만들고 이 정책을 System Center Configuration Manager 장치에 배포하는 데 사용할 수 있는 '.onboarding' 정책을 다운로드할 Windows 10 있습니다.
 
-1. Microsoft Defender 보안 센터 포털에서 설정 [를 선택한 다음 온보더링을 선택합니다.](https://securitycenter.windows.com/preferences2/onboarding)
+1. Microsoft 365 Defender 포털에서 설정 [를 선택한 다음 온보더링을 선택합니다.](https://security.microsoft.com/preferences2/onboarding)
 
 
 
@@ -139,9 +139,9 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
     ![끝점 온보딩 마법사용 Microsoft Defender의 이미지11](images/mdatp-download-package.png)
 
 4. 접근성 있는 위치에 패키지를 저장합니다.
-5. 다음 Microsoft Endpoint Configuration Manager: 자산 및 준수 정책 개요 > **정책 > Endpoint Protection > Microsoft Defender ATP 이동합니다.**
+5. Microsoft Endpoint Configuration Manager Microsoft Defender ATP 정책에 대한 자산 > 준수 > Endpoint Protection > **개요로 이동합니다.**
 
-6. 정책 Microsoft Defender ATP 마우스 오른쪽 **단추로 클릭하고** **정책 Microsoft Defender ATP 선택합니다.**
+6. **Microsoft Defender ATP 정책을** 마우스 오른쪽 단추로 클릭하고 Microsoft **Defender ATP 정책 만들기를 선택합니다.**
 
     ![Microsoft Endpoint Configuration Manager wizard12의 이미지](images/configmgr-create-policy.png)
 
@@ -181,7 +181,7 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 #### <a name="previous-versions-of-windows-client-windows-7-and-windows-81"></a>이전 버전의 Windows 클라이언트(Windows 7 및 Windows 8.1)
 이전 버전의 작업 영역의 온보딩에 필요한 끝점 작업 영역 ID 및 작업 영역 키에 대한 Defender를 식별하려면 Windows.
 
-1. Microsoft Defender 보안 센터 포털에서 온보 설정 > **선택합니다.**
+1. Microsoft 365 Defender 포털에서 **끝점** 설정(장치 관리 아래)를  >    >   **선택합니다.**
 
 2. 운영 체제에서 Windows **7 SP1 및 8.1 을 선택하십시오.**
 
@@ -267,7 +267,7 @@ Microsoft Defender 바이러스 백신은 데스크톱, 휴대용 컴퓨터 및 
 ### <a name="attack-surface-reduction"></a>공격 표면 감소
 Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 사용할 수 있는 기능 집합이 포함되어 있습니다. ASR(공격 표면 축소) 규칙, 제어된 폴더 액세스, 네트워크 보호 및 Exploit Protection 
 
-이러한 모든 기능은 감사 모드와 차단 모드를 제공합니다. 감사 모드에서는 최종 사용자에게 영향을 미치지 않습니다. 추가 원격 분석만 수집하고 원격 분석에서 사용할 수 Microsoft Defender 보안 센터. 배포의 목표는 단계별 보안 컨트롤을 차단 모드로 이동하는 것입니다.
+이러한 모든 기능은 감사 모드와 차단 모드를 제공합니다. 감사 모드에서는 최종 사용자에게 영향을 미치지 않습니다. 추가 원격 분석만 수집하고 검색 포털에서 사용할 Microsoft 365 Defender 있습니다. 배포의 목표는 단계별 보안 컨트롤을 차단 모드로 이동하는 것입니다.
 
 감사 모드에서 ASR 규칙을 설정하는 경우:
 
@@ -308,7 +308,7 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 다음은 ASR 규칙이 끝점에 올바르게 적용되는지 확인하기 위한 추가 단계입니다. (이 경우 몇 분 정도 걸릴 수 있습니다.)
 
 
-1. 웹 브라우저에서 로 <https://securitycenter.windows.com> 이동합니다.
+1. 웹 브라우저에서 로 <https://security.microsoft.com> 이동합니다.
 
 2.  왼쪽 **메뉴에서** 구성 관리를 선택합니다.
 

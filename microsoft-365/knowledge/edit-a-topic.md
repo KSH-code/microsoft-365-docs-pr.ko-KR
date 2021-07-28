@@ -1,7 +1,7 @@
 ---
-title: Microsoft Viva 항목의 기존 항목 편집
-author: chuckedmonson
+title: Microsoft Viva 항목 편집
 ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
@@ -13,15 +13,15 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-description: Microsoft Viva 항목에서 기존 항목을 편집하는 방법을 배워야 합니다.
-ms.openlocfilehash: 6e1f85737298736a3aafcb30cfe103c28654d1c1
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+description: 기존 항목의 기존 항목을 편집하는 Microsoft Viva 방법을 참조하세요.
+ms.openlocfilehash: 47c9254c91e08cda6dc33c40768689d94e5ceeef
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053222"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596233"
 ---
-# <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 기존 항목 편집 
+# <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a>Microsoft Viva 항목 편집 
 
 </br>
 
@@ -107,43 +107,9 @@ Viva 항목에서는 기존 항목을 편집할 수 있습니다. 기존 항목 
 
     고정된 아이콘을 선택하여 추천 사이트를 고정된 사이트로 변경할 수 있습니다.
 
-
-<!---
-
-7.  The <b>Related sites</b> section shows sites that have information about the topic. 
-
-    ![Related sites section](../media/knowledge-management/related-sites.png)</br>
-
-    You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</br>
-    
-    ![Select a site](../media/knowledge-management/sites.png)</br>
-
-8. The <b>Related topics</b> section shows connections that exists between topics. You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results. 
-
-   ![Related topics section](../media/knowledge-management/related-topic.png)</br>  
-
-    You can then give a description of how the topics are related, and select <b>Update</b>.</br>
-
-   ![Related topics description](../media/knowledge-management/related-topics-update.png)</br> 
-
-   The related topic you added will display as a connected topic.
-
-   ![Related topics connected](../media/knowledge-management/related-topics-final.png)</br> 
-
-   To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</br>
- 
-   ![Remove related topic](../media/knowledge-management/remove-related.png)</br>  
-
-   Then select <b>Remove</b>.</br>
-
-   ![Confirm remove](../media/knowledge-management/remove-related-confirm.png)</br> 
-
---->
-
-9. 간단한 설명 아래에 있는 캔버스 아이콘을 선택하여 페이지에 텍스트, 이미지 또는 링크와 같은 고정 항목을 추가할 수 있습니다. 이 확인란을 선택하면 페이지에 추가할 SharePoint 선택할 수 있는 도구 상자가 열립니다.
+9. 간단한 설명 아래에서 찾을 수 있는 캔버스 아이콘을 선택하여 페이지에 정적 항목(예: 텍스트, 이미지 또는 링크)을 추가할 수도 있습니다. 이 확인란을 선택하면 페이지에 추가할 SharePoint 선택할 수 있는 도구 상자가 열립니다.
 
    ![Canvas 아이콘을 보여 주신 스크린샷.](../media/knowledge-management/webpart-library.png)
-
 
 10. **게시** 또는 **다시 게시** 를 선택하여 변경 내용이 저장됩니다 **항목을 이전에** 게시한 경우 다시 게시 옵션을 사용할 수 있습니다.
 

@@ -13,12 +13,12 @@ ms.topic: article
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: 47eb80af58c948db5997dc9f5edfa5737a796837
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 2edd4503e25b4ef2ddf4225716a152609c1022b3
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772368"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596317"
 ---
 # <a name="protect-your-organizations-data-with-device-control"></a>장치 제어를 사용하여 조직의 데이터 보호
 
@@ -61,7 +61,7 @@ Microsoft Defender for Endpoint 장치 컨트롤은 이동식 저장 장치 및 
 
 - **일반 세부 정보:** 날짜, 작업 모드 및 이 이벤트의 정책입니다.
 - **미디어 정보:** 미디어 정보에는 미디어 이름, 클래스 이름, 클래스 GUID, 장치 ID, 공급업체 ID, 볼륨, 일련 번호 및 버스 유형이 포함됩니다.
-- **위치 세부 정보:** 장치 이름 및 MDATP ID입니다.
+- **위치 세부 정보:** 장치 이름 및 MDATP 장치 ID입니다.
 
 > [!div class="mx-imgBorder"]
 > ![FilterOnDeviceControlReport](images/devicecontrolreportfilter.png)
