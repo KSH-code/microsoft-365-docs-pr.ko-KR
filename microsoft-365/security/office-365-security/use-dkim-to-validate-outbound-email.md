@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b5e852e26d1fc336a52255ea8fc7a90ab384c64c
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: ffe1a2e7c57d98594a6ab401caf6e2ef1746f4fd
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544484"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622163"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -41,6 +41,7 @@ ms.locfileid: "53544484"
 이 문서의 내용
 
 - [악의적인 스푸핑을 방지하기 위해 DKIM이 SPF 단독보다 더욱 효율적인 방식인 이유](#how-dkim-works-better-than-spf-alone-to-prevent-malicious-spoofing)
+- [Microsoft 365 Defender 포털에서 DKIM을 활성화 및 비활성화하는 단계]
 - [수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드하는 단계](#steps-to-manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys)
 - [DKIM을 수동으로 설정하는 단계](#steps-to-manually-set-up-dkim)
 - [두 개 이상의 사용자 지정 도메인에 대해 DKIM을 구성하는 단계](#to-configure-dkim-for-more-than-one-custom-domain)
@@ -80,6 +81,30 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 메시지 머리글
 
 > [!TIP]
 > DKIM은 개인 키를 사용하여 암호화 된 서명을 메시지 머리글에 삽입합니다. 서명 도메인 또는 아웃 바운드 도메인이 머리글의 **d =** 필드 값으로 삽입됩니다. 확인 도메인 또는 수신자 도메인은 **d =** 필드를 사용하여 DNS에서 공개 키를 조회하고 메시지를 인증합니다. 메시지를 확인하면 DKIM 검사가 통과됩니다.
+
+## <a name="steps-to-create-enable-and-disable-dkim-from-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털에서 DKIM을 생성, 활성화 및 비활성화하는 단계
+테넌트에서 허용된 모든 도메인은 DKIM 페이지의 Microsoft 365 Defender 포털에 표시됩니다. 표시되지 않으면 [도메인 페이지](/microsoft-365/admin/setup/add-domain?view=o365-worldwide#add-a-domain)에서 허용된 도메인을 추가합니다.
+도메인이 추가되면 아래와 같은 단계에 따라 DKIM을 구성합니다.
+
+1단계: DKIM 페이지 ![이미지](https://user-images.githubusercontent.com/3039750/126996261-2d331ec1-fc83-4a9d-a014-bd7e1854eb07.png)에서 DKIM을 구성하려는 도메인을 클릭합니다.
+
+2단계: 키 만들기 ![이미지](https://user-images.githubusercontent.com/3039750/127001645-4ccf89e6-6310-4a91-85d6-aaedbfd501d3.png) 클릭
+
+3단계: 팝업 창 ![이미지](https://user-images.githubusercontent.com/3039750/127001787-3cce2c29-e0e4-4712-af53-c51dcba33c46.png)에 표시된 CNAMES 복사
+
+4단계: 복사한 CNAME 레코드를 DNS 서비스 공급자에 게시합니다. DNS 공급자의 웹 사이트에서 사용하도록 설정할 DKIM에 대한 CNAME 레코드를 추가합니다. 필드가 각각 다음 값으로 설정되어 있는지 확인합니다.
+
+레코드 유형: CNAME(별칭) 호스트: DKIM 페이지에서 복사한 값을 붙여넣습니다.
+주소 지정: DKIM 페이지에서 값을 복사합니다.
+TTL: 3600(또는 공급자 기본값)
+
+5단계: DKIM ![이미지](https://user-images.githubusercontent.com/3039750/126995186-9b3fdefa-a3a9-4f5a-9304-1099a2ce7cef.png)를 사용하도록 설정하려면 DKIM 페이지로 돌아가기
+
+CNAME 레코드가 존재하지 않는 경우 오류 때문일 수 있습니다.
+1. 문제가 지속되면 몇 초에서 몇 시간이 걸릴 수 있는 DNS 서버와의 동기화 단계를 다시 반복합니다.
+2. 추가 공간 또는 탭 등과 같은 복사 붙여넣기 오류를 확인합니다.
+
+DKIM을 사용하지 않도록 설정하려면 사용 안 함 모드로 다시 전환합니다.
 
 
 ## <a name="steps-to-manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드하는 단계
