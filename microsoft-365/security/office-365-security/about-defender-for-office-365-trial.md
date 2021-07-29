@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365
-ms.openlocfilehash: 50060e36a0dd6d82ccbdf6d2bb8a00b2bf5e9d6d
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 9bd762f60dac6e9a0cf88890c5cf5bfd313733ac
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53195012"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567791"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Microsoft Defender for Office 365 평가판
 
@@ -34,10 +34,28 @@ Microsoft Defender for Office 365 전자 메일 메시지, 링크(URL) 및 공�
 - **위협 조사 및 응답 기능**: 최첨단 도구를 사용하여 위협을 조사, 이해, 시뮬레이션 및 예방할 수 있습니다.
 - **자동화된 조사 및 응답 기능**: 위협을 조사하고 완화하는 시간과 노력을 줄여줍니다.
 
-Microsoft Defender for Office 365 평가판은 Defender for Office 365 사용해 보는 가장 쉬운 방법으로, 몇 번의 클릭만 하면 됩니다. 평가판 설정이 완료되면 조직에서 Office 365 계획 1 및 계획 2 기능에 대한 모든 Defender를 최대 90일 동안 사용할 수 있습니다.
+Microsoft Defender for Office 365 평가판은 Defender for Office 365 사용해 보는 가장 쉬운 방법으로, 몇 번의 클릭만 하면 됩니다. 평가판 설정이 완료되면 조직에서 Office 365 계획 1 및 계획 2 기능에 대한 모든 Defender를 최대 90일 동안 사용할 수 있습니다. 이러한 고급 기능은 다음 목록에 설명되어 있습니다.
+
+<br>
+
+****
+
+|기능|설명|
+|---|---|
+|[피싱 방지 정책의 단독 설정](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)|사용자 가장 보호, 도메인 가장 보호, 사서함 인텔리전스 및 고급 피싱 임계값을 얻습니다.|
+|[안전한 첨부 파일](safe-attachments.md)|제어된 검색 환경에서 전자 메일 첨부 파일 및 기타 파일을 검사하여 새로운 맬웨어와 공격적인 맬웨어를 탐지합니다.|
+|[안전한 링크](safe-links.md)|클릭 시간 검사를 수행하여 초기 검사를 통과한 URL이 번지르지 않은지 확인할 수 있습니다.|
+|[위협 트래커](threat-trackers.md)<sup>\*</sup>|정보 위젯 및 보기를 사용하여 조직에 영향을 줄 수 있는 사이버 보안 문제를 식별합니다.|
+|[위협 탐색기](threat-explorer.md)<sup>\*</sup>|전자 메일의 위협에 대한 거의 실시간 정보를 Office 365.|
+|[자동화된 조사 및 대응(AIR)](office-365-air.md)<sup>\*</sup>|경고가 트리거될 때 위협 개체를 자동으로 찾아 수정합니다.|
+|[공격 시뮬레이션 교육](attack-simulation-training.md)<sup>\*</sup>|피싱 공격을 식별하고 적절하게 대응하도록 사용자를 교육합니다.|
+|[캠페인 보기](campaigns.md)<sup>\*</sup>|대규모 악성 전자 메일 활동을 조사하고 이에 대응합니다.|
+|[Office 365 기능으로 Defender를 사용하는 보고서](view-reports-for-mdo.md)|위협 방지 상태, URL 위협 방지, 메일 대기 시간 등을 포함한 보고서를 볼 수 있습니다.|
+
+<sup>\*</sup>평가판의 Office 365 사용할 수 있는 계획 2 기능용 Defender.
 
 > [!NOTE]
-> 이 문서에 설명된 자동화된 구성은 현재 공개 미리 보기에 있으며 사용자 위치에서 사용할 수 없습니다.
+> 이 문서에서 설명하는 자동화된 구성은 현재 공개 미리 보기에 있으며 조직에서 사용할 수 없습니다.
 
 ## <a name="terms-and-conditions"></a>사용 약관
 
@@ -112,7 +130,7 @@ Office 365 평가판의 Defender는 특정 기준(지리 포함)을 충족하고
 
 - [공격의 신나는 교육 사용 시작](attack-simulation-training-get-started.md)
 
-### <a name="secure-posture"></a>보안 자세
+### <a name="security-posture"></a>보안 자세
 
 권장 템플릿 및 구성 정보를 통해 고객은 안전하게 보호할 수 있습니다.
 

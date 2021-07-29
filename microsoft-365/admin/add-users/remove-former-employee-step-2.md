@@ -19,19 +19,24 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- m365solution-removeemployee
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 이전 직원 사서함의 콘텐츠를 저장하는 방법에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: bd24145b6b5162a03dee0338cc0820e5af271ddd
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: b6030c0231339cb77c2d91ba5e118da8be14780f
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177492"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541616"
 ---
 # <a name="step-2---save-the-contents-of-a-former-employees-mailbox"></a>2단계 - 이전 직원 사서함의 내용 저장
+
+이 단계에서는 사용자에게 소송 자료 보호 또는 원본치 보류를 설정하거나 사용자 Outlook .pst 파일로 내보낼 수 있습니다.
+
+## <a name="place-hold-or-export-users-data-to-a-pst-file"></a>사용자 데이터를 .pst 파일로 저장 또는 내보내기
 
 사용자가 조직에 로그인할 수 차단한 경우 사서함의 내용을 저장할 수 있습니다. 이전 직원 사서함의 내용을 저장할 수 있는 방법에는 두 가지가 있습니다.
   
@@ -46,3 +51,8 @@ ms.locfileid: "53177492"
     **또는**
 
 2. 이전 직원의 전자 메일 주소를 Desktop의 Outlook 버전에 추가한 다음 데이터를 .pst 파일로 내보낼 수 있습니다. 필요에 따라 다른 전자 메일 계정으로 데이터를 가져올 수 있습니다. 6단계 - 다른 직원에게 데이터 및 OneDrive [Outlook 권한을 부여합니다.](remove-former-employee-step-6.md)
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Exchange 관리 센터의 Exchange Online](/exchange/exchange-admin-center) 
+ [사용자 복원](restore-user.md)

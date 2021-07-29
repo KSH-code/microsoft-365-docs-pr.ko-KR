@@ -20,17 +20,18 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - AdminTemplateSet
+- m365solution-removeemployee
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 이 문서의 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook.
-ms.openlocfilehash: b5868ab1622fea68cc3dabb54a3d06208ccaa165
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 67ec651361aac2b687fa1b0f851271ced5e634ed
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394306"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541592"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여
 
@@ -188,6 +189,4 @@ Outlook 새 Outlook 파일(.pst)을 만들거나 암호로 보호된 파일을 �
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[OneDrive 계정의](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) 관리자 추가 및 제거(문서)\
-[삭제된 파일 OneDrive](/onedrive/restore-deleted-onedrive) 복원(문서)\
-[OneDrive 및](/onedrive/retention-and-deletion) 삭제(문서)
+[OneDrive](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) 계정의 관리자 추가 및 제거(문서) [삭제된](/onedrive/restore-deleted-onedrive) OneDrive 복원(문서) [](/onedrive/retention-and-deletion) OneDrive 보존 및 삭제(문서) 공유 OneDrive 파일 [및](https://support.microsoft.com/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07) 폴더

@@ -1,6 +1,6 @@
 ---
 title: 역할 기반 액세스 제어에 대한 역할 만들기 및 관리
-description: 역할 만들기 및 역할에 할당된 권한을 역할 기반 액세스 제어 구현의 일부로 Microsoft Defender 보안 센터
+description: 역할 만들기 및 역할에 할당된 권한을 역할 기반 액세스 제어 구현의 일부로 Microsoft 365 Defender
 keywords: 사용자 역할, 역할, rbac 액세스
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 932fd6ecd7dca66f4cb587b226474109c788c341
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ea9f0ee4c178bf36bf3102076e39bf19201594e8
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073988"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567611"
 ---
 # <a name="create-and-manage-roles-for-role-based-access-control"></a>역할 기반 액세스 제어에 대한 역할 만들기 및 관리
 
@@ -31,17 +31,17 @@ ms.locfileid: "51073988"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-roles-abovefoldlink)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-roles-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 ## <a name="create-roles-and-assign-the-role-to-an-azure-active-directory-group"></a>역할 만들기 및 역할 Azure Active Directory 할당
 
-다음 단계에서는 2단계에서 역할을 만드는 방법을 Microsoft Defender 보안 센터. 사용자 그룹에 대해 이미 Azure Active Directory 가정합니다.
+다음 단계에서는 2단계에서 역할을 만드는 방법을 Microsoft 365 Defender. 사용자 그룹에 대해 이미 Azure Active Directory 가정합니다.
 
-1. 보안 [관리자](https://securitycenter.windows.com/) Microsoft Defender 보안 센터 전역 관리자 역할이 할당된 계정을 사용하여 로그인합니다.
+1. 보안 [관리자](https://security.microsoft.com/) Microsoft 365 Defender 전역 관리자 역할이 할당된 계정을 사용하여 로그인합니다.
 
-2. 탐색 창에서 역할 **설정 > 선택합니다.**
+2. 탐색 창에서 **끝점 설정(사용 권한** 아래)를  >    >   **선택합니다.**
 
 3. 항목 **추가를 선택합니다.**
 
@@ -81,7 +81,7 @@ ms.locfileid: "51073988"
 - **실시간 응답 기능**
     - **기본** 명령:
         - 라이브 응답 세션 시작
-        - 원격 디바이스에서 읽기 전용 라이브 응답 명령 수행(파일 복사 및 실행 제외)
+        - 원격 장치에서 읽기 전용 라이브 응답 명령 수행(파일 복사 및 실행 제외)
     - **고급** 명령:
         - 라이브 응답을 통해 원격 장치에서 파일 다운로드
         - 파일 페이지에서 PE 및 PE가 아닌 파일 다운로드
@@ -93,9 +93,9 @@ ms.locfileid: "51073988"
   
 ## <a name="edit-roles"></a>역할 편집
 
-1. 보안 [관리자](https://securitycenter.windows.com/) Microsoft Defender 보안 센터 전역 관리자 역할이 할당된 계정을 사용하여 로그인합니다.
+1. 보안 관리자 또는 [Microsoft 365 Defender](https://security.microsoft.com/) 할당된 계정을 사용하여 로그인합니다.
 
-2. 탐색 창에서 역할 **설정 > 선택합니다.**
+2. 탐색 창에서 **끝점 설정(사용 권한** 아래)를  >    >   **선택합니다.**
 
 3. 편집할 역할을 선택합니다.
 
@@ -107,9 +107,9 @@ ms.locfileid: "51073988"
 
 ## <a name="delete-roles"></a>역할 삭제
 
-1. 보안 [관리자](https://securitycenter.windows.com/) Microsoft Defender 보안 센터 전역 관리자 역할이 할당된 계정을 사용하여 로그인합니다.
+1. 보안 관리자 또는 [Microsoft 365 Defender](https://security.microsoft.com/) 할당된 계정을 사용하여 로그인합니다.
 
-2. 탐색 창에서 역할 **설정 > 선택합니다.**
+2. 탐색 창에서 **끝점 설정(사용 권한** 아래)를  >    >   **선택합니다.**
 
 3. 삭제할 역할을 선택합니다.
 

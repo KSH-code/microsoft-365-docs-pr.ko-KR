@@ -21,14 +21,14 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: e52471e1b3e9ee3a410de493b536f9d360d60624
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 35c8f85bad73d98aa6eef0f58f853560fe9a1e63
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844445"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53590674"
 ---
-# <a name="overview-of-automated-investigations"></a>자동화된 조사 개요
+# <a name="overview-of-automated-investigations"></a>자동 조사 개요
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "52844445"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-작동 방법을 보고 싶나요? 다음 비디오를 시청합니다. <br/><br/>
+작동 방법을 보고 싶나요? 다음 비디오를 시청합니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4bOeh]
 
@@ -46,16 +46,16 @@ ms.locfileid: "52844445"
 이 문서에서는 AIR에 대한 개요를 제공하며 다음 단계 및 추가 리소스에 대한 링크를 제공합니다.
 
 > [!TIP]
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automated-investigations-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automated-investigations-abovefoldlink)
 
 ## <a name="how-the-automated-investigation-starts"></a>자동화된 조사 시작 방법
 
 경고가 트리거되거나 보안 운영자가 조사를 시작할 때 자동화된 조사가 시작될 수 있습니다.
 
-|상황  |진행 작업  |
-|---------|---------|
-|경고가 트리거됩니다.     | 일반적으로 경고가 트리거되면 자동화된 [](review-alerts.md) 조사가 시작되고 [인시던트가](view-incidents-queue.md) 생성됩니다. 예를 들어 악성 파일이 장치에 있는 경우를 가정해 보겠습니다. 해당 파일이 검색되면 경고가 트리거되고 인시던트가 만들어집니다. 자동화된 조사 프로세스가 디바이스에서 시작됩니다. 다른 장치에서 동일한 파일로 인시던트가 생성되는 다른 경고는 관련 인시던트 및 자동화된 조사에 추가됩니다.         |
-|조사가 수동으로 시작     | 보안 운영 팀에서 자동화된 조사를 수동으로 시작할 수 있습니다. 예를 들어 보안 운영자가 장치 목록을 검토하고 장치에 높은 위험 수준이 있는 것으로 표시하는 경우를 가정해 보겠습니다. 보안 운영자는 목록에서 디바이스를 선택하여 플라이아웃을 연 다음 자동화된 조사 **시작을 선택할 수 있습니다.** |
+|상황|발생 작업|
+|---|---|
+|경고가 트리거됩니다.|일반적으로 경고가 트리거되면 자동화된 [](review-alerts.md) 조사가 시작되고 [인시던트가](view-incidents-queue.md) 생성됩니다. 예를 들어 악성 파일이 장치에 있는 경우를 가정해 보겠습니다. 해당 파일이 검색되면 경고가 트리거되고 인시던트가 만들어집니다. 자동화된 조사 프로세스가 디바이스에서 시작됩니다. 다른 장치에서 동일한 파일로 인시던트가 생성되는 다른 경고는 관련 인시던트 및 자동화된 조사에 추가됩니다.|
+|조사가 수동으로 시작|보안 운영 팀에서 자동화된 조사를 수동으로 시작할 수 있습니다. 예를 들어 보안 운영자가 장치 목록을 검토하고 장치에 높은 위험 수준이 있는 것으로 표시하는 경우를 가정해 보겠습니다. 보안 운영자는 목록에서 디바이스를 선택하여 플라이아웃을 연 다음 자동화된 조사 **시작을 선택할 수 있습니다.**|
 
 ## <a name="how-an-automated-investigation-expands-its-scope"></a>자동화된 조사가 범위를 확장하는 방법
 
@@ -65,10 +65,11 @@ ms.locfileid: "52844445"
 
 ## <a name="how-threats-are-remediated"></a>위협을 수정하는 방법
 
-경고가 트리거되고 자동화된 조사가 실행되면 조사된 각 증거 조각에 대한 판결이 생성됩니다. 판정은 다음이 될 수 있습니다. 
+경고가 트리거되고 자동화된 조사가 실행되면 조사된 각 증거 조각에 대한 판결이 생성됩니다. 판정은 다음이 될 수 있습니다.
+
 - *악성*;
-- *의심스러운 ;* 또는 
-- *위협이 없습니다.* 
+- *의심스러운 ;* 또는
+- *위협이 없습니다.*
 
 결과가 도달하면 자동화된 조사를 통해 하나 이상의 수정 작업이 수행될 수 있습니다. 수정 작업의 예로는 파일을 검지로 보내기, 서비스 중지, 예약된 작업 제거 등입니다. 자세한 내용은 재구성 [작업 을 참조합니다.](manage-auto-investigation.md#remediation-actions)  
 
@@ -79,12 +80,12 @@ ms.locfileid: "52844445"
 > [!TIP]
 > 보안 센터의 새로운 통합 조사 Microsoft 365 확인 합니다. 자세한 내용은 [(NEW!)를 참조하세요. 통합 조사 페이지.](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page)
 
-
 ## <a name="requirements-for-air"></a>AIR에 대한 요구 사항
 
 조직에 끝점용 Defender가 있어야 합니다(끝점용 [Microsoft Defender에 대한 최소](minimum-requirements.md)요구 사항 참조).
 
 현재 AIR은 다음 OS 버전만 지원됩니다.
+
 - Windows Server 2019
 - Windows 10 버전 1709(OS 빌드 [16299.1085(KB4493441)](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)이상
 - Windows 10 버전 1803(OS 빌드 [17134.704(KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)이상
@@ -100,4 +101,4 @@ ms.locfileid: "52844445"
 
 - [PUA 보호](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
 - [Microsoft Defender에서 자동화된 조사 및 Office 365](/microsoft-365/security/office-365-security/office-365-air)
-- [Defender의 자동화된 조사 Microsoft 365 대응](/microsoft-365/security/defender/mtp-autoir)
+- [자동화된 조사 및 Microsoft 365 Defender](/microsoft-365/security/defender/mtp-autoir)

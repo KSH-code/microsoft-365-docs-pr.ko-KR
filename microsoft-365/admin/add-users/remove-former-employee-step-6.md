@@ -19,17 +19,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- m365solution-removeemployee
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 Microsoft 365 라이선스를 제거합니다.
-ms.openlocfilehash: ed86eb28cc6d4996f7def8cb567f0e4085e67624
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7303c881e93d3ecb0c6637936ad12d8da227392c
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244213"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541568"
 ---
 # <a name="step-6---remove-the-microsoft-365-license-from-a-former-employee"></a>6단계 - 이전 Microsoft 365 라이선스 제거
 
@@ -37,7 +38,7 @@ ms.locfileid: "52244213"
   
 라이선스를 제거하면 해당 사용자의 모든 데이터가 30일간 보존됩니다. 데이터에 [액세스](get-access-to-and-back-up-a-former-user-s-data.md)하거나 해당 사용자가 복귀하면 계정을 [복원](restore-user.md)할 수 있습니다. 30일이 지난 후 모든 사용자 데이터(SharePoint Online에 저장된 문서 제외)는 Microsoft 365 영구적으로 삭제되고 복구할 수 없습니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 2. 차단할 직원의 이름을 선택한 다음 라이선스 및 앱 **탭을** 선택합니다.
 3. 제거할 라이선스의 확인란 선택을 취소한 다음 변경 내용 저장 **을 선택합니다.**
 

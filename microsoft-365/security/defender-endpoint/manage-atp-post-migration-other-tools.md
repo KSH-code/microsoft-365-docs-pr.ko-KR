@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 063870c58377d7327f621ec49855b684065f436b
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 2c9cbff0a1637636e310ca83523319dd6fe236f2
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286768"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541712"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-powershell-wmi-and-mpcmdrunexe"></a>PowerShell, WMI 및 PowerShell을 사용하여 끝점에 대한 Microsoft Defender를 MPCmdRun.exe
 
@@ -80,9 +80,9 @@ WMI는 설정을 검색, 수정 및 업데이트할 수 있는 스크립팅 인�
 |---|---|
 |**관리 Microsoft Defender 바이러스 백신**|[다음을 사용하여 Microsoft Defender 바이러스 백신 구성하고 mpcmdrun.exe](/windows/security/threat-protection/microsoft-defender-antivirus/command-line-arguments-microsoft-defender-antivirus)|
 
-## <a name="configure-your-microsoft-defender-security-center"></a>사용자 Microsoft Defender 보안 센터
+## <a name="configure-your-microsoft-365-defender-portal"></a>사용자 Microsoft 365 Defender 구성
 
-아직 수행하지 않은 경우 경고를 보고 위협 방지 **기능을 구성하고 조직의** 전반적인 보안 Microsoft Defender 보안 센터 자세한 정보를 볼 수 있도록 Microsoft Defender 보안 센터( [https://securitycenter.windows.com](https://securitycenter.windows.com) )를 구성합니다.
+아직 수행하지 않은 경우 경고를 [보고Microsoft 365 Defender](https://security.microsoft.com/) 위협 방지 기능을 구성하고 조직의 전반적인 보안 상태와 관련한 자세한 정보를 볼 수 있도록 Microsoft 365 Defender 포털을 구성합니다.
 
 또한 최종 사용자가 2013에서 볼 수 있는 기능의 여부와 기능을 Microsoft Defender 보안 센터.
 

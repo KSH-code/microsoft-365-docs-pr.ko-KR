@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fcea240fe1dc0ce97a2800391320b04c39c84336
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: af21b0ae3e03ebacae9412fc48693d57f32c81e6
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934108"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53568007"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>노출 점수 - 위협 및 취약성 관리
 
@@ -35,9 +35,9 @@ ms.locfileid: "51934108"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-노출 점수는 보고서의 위협 및 취약성 관리 [대시보드에](tvm-dashboard-insights.md) Microsoft Defender 보안 센터. 이는 조직이 사이버 보안 위협에 얼마나 취약한지 반영합니다. 노출 점수가 낮을 경우 장치가 악용에 덜 취약하다는 의미입니다.
+노출 점수는 포털의 위협 및 취약성 관리 [대시보드에](tvm-dashboard-insights.md) Microsoft 365 Defender 표시됩니다. 이는 조직이 사이버 보안 위협에 얼마나 취약한지 반영합니다. 노출 점수가 낮을 경우 장치가 악용에 덜 취약하다는 의미입니다.
 
 - 조직의 보안 상태와 관련한 높은 수준의 조치를 신속하게 이해하고 식별합니다.
 - 현재 상태를 개선하기 위해 조사 또는 조치가 필요한 영역을 감지하고 대응합니다.

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 371208433cbb0f65ab5a2808318c03dae6bb6d8b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c86a8fb2021baeb34082cdbcc60a7372da407a4f
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842310"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541773"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>iOS에서 끝점용 Microsoft Defender 배포
 
@@ -106,10 +106,10 @@ iOS에서 끝점용 Defender를 배포하는 Intune 회사 포털.
 
 2. 끝점용 Defender 앱 아이콘(MSDefender)을 탭하고 화면의 지침에 따라 온보딩 단계를 완료합니다. 세부 정보에는 iOS의 끝점에 대한 Defender에서 요구하는 iOS 사용 권한의 최종 사용자 수락이 포함됩니다.
 
-3. 온보드에 성공하면 디바이스가 디바이스의 디바이스 목록에 Microsoft Defender 보안 센터.
+3. 온보드에 성공하면 디바이스가 장치 포털의 장치 목록에 Microsoft 365 Defender 됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![휴대폰 설명이 자동으로 생성되는 스크린샷](images/e07f270419f7b1e5ee6744f8b38ddeaf.png)
+    > ![휴대폰 설명이 자동으로 생성되는 스크린샷](images/device-inventory-screen.png)
 
 ## <a name="configure-microsoft-defender-for-endpoint-for-supervised-mode"></a>감독 모드에 대한 끝점에 대한 Microsoft Defender 구성
 
@@ -166,4 +166,5 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
 
 ## <a name="next-steps"></a>다음 단계
 
-[iOS 기능에서 끝점에 대한 Defender 구성](ios-configure-features.md)
+- [MAM(Endpoint 위험 신호)에 대한 Defender를 포함하도록 앱 보호 정책 구성](ios-install-unmanaged.md)
+- [iOS 기능에서 끝점에 대한 Defender 구성](ios-configure-features.md)

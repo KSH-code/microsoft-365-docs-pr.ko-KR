@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에서 조직의 개인 데이터를 처리하는 정책을 만들고 관리하는 방법을 Microsoft 365 경고에 응답하고 문제를 해결합니다.
-ms.openlocfilehash: f9df027d01ffe4629654db1ddd006d141d57e387
-ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
+ms.openlocfilehash: 9597d0f55f6dc21004fd23ff94d53bf3838ef177
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53378570"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541796"
 ---
 # <a name="create-and-manage-policies-in-privacy-management-preview"></a>개인 정보 관리에서 정책 만들기 및 관리(미리 보기)
 
@@ -50,7 +50,7 @@ ms.locfileid: "53378570"
 부서 또는 지역 경계에 걸쳐 데이터를 전송하면 암호화되지 않은 전자 메일을 통해 전송되거나 권한이 없는 받는 사람에게 데이터가 노출될 위험이 높아질 수 있습니다. 이러한 조치는 규정에 영향을 미치거나 개인 정보 보호에 대한 확립된 관행에 맞지 않을 수 있습니다. 데이터 전송 템플릿을 사용하여 개인 정보 관리 정책을 만들면 이러한 전송을 쉽게 하여 제한할 수 있습니다.
 
 > [!NOTE]
-> 공개 미리 보기 중에 지역 간 전송을 감지하기 위해 데이터 전송 정책을 실행하는 일부 테넌트는 데이터 전송 및 데이터 전송 시 정책 일치에 영향을 미치는 동기화 Exchange Teams 있습니다. 이 정책 유형을 미리 SharePoint OneDrive 데이터에 집중하는 것이 좋습니다. 이 문제는 2021년 가을에 업데이트될 것으로 예상됩니다.
+> 공개 미리 보기 중에 지역 간 전송을 감지하기 위해 데이터 전송 정책을 실행하는 일부 테넌트는 데이터 전송 및 데이터 전송 시 정책 일치에 영향을 미치는 동기화 Exchange Teams 있습니다. 이 정책 유형을 미리 SharePoint OneDrive 데이터에 집중하는 것이 좋습니다.
 
 ### <a name="data-minimization"></a>데이터 최소화
 

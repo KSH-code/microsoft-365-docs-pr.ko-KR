@@ -9,12 +9,12 @@ metadata:
   ms.service: bookings
   localization_priority: Normal
   description: Microsoft Bookings에 대한 질문과 대답
-  ms.openlocfilehash: 956d423ef89454fa87524ce15165ffd3c8b59507
-  ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+  ms.openlocfilehash: 4f8066e8d6ade84cbe5aa9e41b14784870353ddf
+  ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/30/2021
-  ms.locfileid: "53227706"
+  ms.lasthandoff: 07/23/2021
+  ms.locfileid: "53541472"
 title: Microsoft Bookings 질문과 대답
 summary: ''
 sections:
@@ -69,7 +69,7 @@ sections:
   - question: >
       원래 Bookings 웹앱의 모든 기능을 Microsoft Teams?
     answer: >
-      이제 간단한 버전의 Bookings를 앱으로 사용할 수 Teams. 초기 공지는 [입니다.](https://www.microsoft.com/microsoft-365/blog/2020/03/06/empowering-care-teams-with-new-tools-in-microsoft-365/) 웹앱에 딥 링크 기능이 제공될 수 있으며, 설치 후 Bookings를 계속 사용하지 않고도 매일 Bookings를 사용할 수 Teams. 플랫폼 전반의 정보 흐름
+      이제 간단한 버전의 Bookings를 앱으로 사용할 수 Teams. 자세한 내용은 에서 Bookings 앱 [개요에서 Teams.](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b) 웹앱에 딥 링크 기능이 제공될 수 있으며, 설치 후 Bookings를 계속 사용하지 않고도 매일 Bookings를 사용할 수 Teams. 플랫폼 전반의 정보 흐름
   - question: >
       Bookings가 중소기업 제품입니까 아니면 Enterprise 둘 다인가요?
     answer: >

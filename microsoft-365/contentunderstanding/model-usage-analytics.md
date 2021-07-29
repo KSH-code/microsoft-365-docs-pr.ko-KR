@@ -1,5 +1,5 @@
 ---
-title: Microsoft SharePoint Syntex의 모델 사용 현황 분석 문서 이해
+title: Microsoft SharePoint Syntex의 문서 이해 모델 사용 현황 분석
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 07/24/2021
 ms.locfileid: "53578544"
 ---
-# <a name="document-understanding-model-usage-analytics-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 모델 사용 현황 분석 문서 이해
+# <a name="document-understanding-model-usage-analytics-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 문서 이해 모델 사용 현황 분석
 
 </br>
 
@@ -29,7 +29,7 @@ ms.locfileid: "53578544"
 </br>
 
 
-SharePoint Syntex 콘텐츠 센터는 콘텐츠 센터에서 게시 된 모델이 어떻게 사용 되는지에 대한 더 많은 정보를 제공 하기 위해 모델 사용 분석을 제공합니다. 콘텐츠 센터의 <b>최근 30일 동안 모델의 성능</b> 섹션에는 다음 챠트 및 목록에 제공되는 30일 간의 사용 현황 분석 테이터 롤업이 포함되어 있습니다.
+SharePoint Syntex 콘텐츠 센터는 콘텐츠 센터에서 게시된 모델이 어떻게 사용되는지에 대한 더 많은 정보를 제공하기 위해 모델 사용 현황 분석을 제공합니다. 콘텐츠 센터의 <b>최근 30일 동안 모델의 성능</b> 섹션에는 다음 챠트 및 목록에 제공되는 30일 간의 사용 현황 분석 테이터 롤업이 포함되어 있습니다.
 
 - 모델별 분류
 - 라이브러리별 분류

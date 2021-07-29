@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 파일 형식을 사용하여 서식 있는 서식 Excel 수정합니다.
-ms.openlocfilehash: 4386f5be67d01d3d6961ccc4bd51ecf729bc8a38
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 60b453faf44ae80a8bd066e93f759cd23413ce3b
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53419586"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541868"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>준수 관리자에서 평가 템플릿 작업
 
@@ -30,7 +30,11 @@ ms.locfileid: "53419586"
 
 ## <a name="templates-overview"></a>서식 파일 개요
 
-템플릿은 준수 관리자에서 평가를 만들기 위한 컨트롤 프레임워크입니다. 당사의 포괄적인 템플릿 집합은 조직이 데이터 수집 및 사용에 대한 국가, 지역 및 산업별 요구 사항을 준수하는 데 도움이 될 수 있습니다. EU GDPR 템플릿 및 ISO/IEC 27701:2019 템플릿과 같은 기본 인증 또는 규정과 동일한 이름으로 템플릿을 참조합니다. 준수 관리는 다양한 유형의 제품을 평가하는 데 사용할 수 있으며 각 템플릿은 두 가지 버전으로 제공됩니다. 하나는 Microsoft 365, 선택한 제품에 맞게 조정할 수 있는 유니버설 버전입니다.
+템플릿은 준수 관리자에서 평가를 만들기 위한 컨트롤 프레임워크입니다. 당사의 포괄적인 템플릿 집합은 조직이 데이터 수집 및 사용에 대한 국가, 지역 및 산업별 요구 사항을 준수하는 데 도움이 될 수 있습니다.
+
+EU GDPR 템플릿 및 ISO/IEC 27701:2019 템플릿과 같은 기본 인증 또는 규정과 동일한 이름으로 템플릿을 참조합니다. 준수 관리는 다양한 유형의 제품을 평가하는 데 사용할 수 있으며 각 템플릿은 두 가지 버전으로 제공됩니다. 하나는 Microsoft 365, 선택한 제품에 맞게 조정할 수 있는 유니버설 버전입니다.
+
+미국 정부 Community(GCC) 보통, GCC High 및 DoD(국방부) 고객은 현재 Microsoft 365 템플릿 버전을 사용할 수 있지만 유니버설은 사용할 수 없습니다.
 
 ## <a name="template-availability-and-licensing"></a>서식 파일 가용성 및 라이선스
 

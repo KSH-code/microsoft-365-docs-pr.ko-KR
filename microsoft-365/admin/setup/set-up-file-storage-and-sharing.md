@@ -30,12 +30,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 공유를 위해 OneDrive 및 팀 사이트를 Microsoft 365 방법을 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 40c62842f59fe932fdf297629b456acd595a7b0d
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 4b0d39f4ab8d6ff84b50e1563de054ecea8d0cbd
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393502"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541484"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>파일 저장소 및 공유를 Microsoft 365
 
@@ -78,7 +78,7 @@ ms.locfileid: "53393502"
   
 팀의 각 사람이 파일을 설정하고 파일을 OneDrive 방법입니다.
 
-1. 으로 <a href="https://admin.mirosoft.com/ " target="_blank">Microsoft 365 관리 센터</a>으로 이동하고 사용자 이름과 암호로 로그인합니다.
+1. 으로 <a href="https://admin.microsoft.com/ " target="_blank">Microsoft 365 관리 센터</a>으로 이동하고 사용자 이름과 암호로 로그인합니다.
 
 2. 앱 시작기에서 를 **OneDrive.**
 

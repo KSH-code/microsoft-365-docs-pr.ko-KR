@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 13307d3205818d41e7b2219b4e3a4ed6e9f2d5bb
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: bddd635506f5a37585bc8c06fb44e1c2fbffd721
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454791"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567959"
 ---
 # <a name="microsoft-secure-score-for-devices"></a>장치용 Microsoft Secure Score
 
@@ -35,7 +35,7 @@ ms.locfileid: "53454791"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
 >[!NOTE]
@@ -56,6 +56,7 @@ ms.locfileid: "53454791"
 끝점 신호를 위해 Microsoft Defender를 전달하여 장치 보안 상태의 Microsoft 보안 점수를 볼 수 있도록 합니다. 전달된 데이터는 Microsoft 보안 점수 데이터와 동일한 위치에 저장되고 처리됩니다.
 
 변경 내용을 대시보드에 반영하는 데 최대 몇 시간이 걸릴 수 있습니다.
+
 
 1. 탐색 창에서 끝점 **설정**  >    >  **고급** 기능으로  >  **이동** 
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이상 탐지 경고를 조사합니다.
-ms.openlocfilehash: 6797cdcbfd2a2d3c32768a158a5f8cd0fc579d56
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 41dd60de86d7583169845ae185f9f715011ea3e4
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420473"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541376"
 ---
 # <a name="investigate-anomaly-detection-alerts"></a>이상 탐지 경고 조사
 
@@ -27,9 +27,9 @@ ms.locfileid: "53420473"
 
 ## <a name="mitre-attck"></a>MITRE ATT&CK
 
-Microsoft 앱 거버넌스 경고와 친숙한 MITRE ATT&CK 행렬 간의 관계를 더욱 쉽게 매핑할 수 있도록 해당 MITRE ATT&CK 전술별로 경고를 분류했습니다. 이 추가 참조를 사용하면 Microsoft 응용 프로그램 보안 및 거버넌스 경고가 트리거될 때 사용 중일 가능성이 있는 의심스러운 공격 기술을 더 쉽게 이해할 수 있습니다.
+Microsoft 앱 거버넌스 경고와 친숙한 MITRE ATT&CK 행렬 간의 관계를 더욱 쉽게 매핑할 수 있도록 해당 MITRE ATT&CK 전술별로 경고를 분류했습니다. 이 추가 참조를 사용하면 앱 경고가 트리거될 때 사용 중일 가능성이 있는 의심스러운 공격 기술을 더 쉽게 이해할 수 있습니다.
 
-이 가이드에서는 다음 범주에서 Microsoft 앱 거버넌스 경고를 조사하고 수정하는 방법에 관한 정보를 제공합니다.
+이 가이드에서는 다음 범주에서 앱 거버넌스 경고를 조사하고 수정하는 방법에 관한 정보를 제공합니다.
 
 - 초기 액세스
 - 실행
@@ -41,6 +41,7 @@ Microsoft 앱 거버넌스 경고와 친숙한 MITRE ATT&CK 행렬 간의 관계
 - 유출
 - 영향
 
+<!-->
 ## <a name="security-alert-classifications"></a>보안 경고 분류
 
 적절한 조사에 따라 모든 Microsoft 앱 거버넌스 경고를 다음 활동 유형 중 하나로 분류할 수 있습니다.
@@ -48,6 +49,7 @@ Microsoft 앱 거버넌스 경고와 친숙한 MITRE ATT&CK 행렬 간의 관계
 - TP(True Positive): 확인된 악성 활동에 대한 경고입니다.
 - B-TP(Benign True Positive): 침투 테스트 또는 기타 권한이 있는 의심스러운 작업과 같이 의심스럽지만 악의적이지는 않은 활동에 대한 경고입니다.
 - FP(False Positive): 악의적이 아닌 활동에 대한 경고입니다.
+-->
 
 ## <a name="general-investigation-steps"></a>일반적인 조사 단계
 

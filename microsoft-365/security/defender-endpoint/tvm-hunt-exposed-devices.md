@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a9a8ebcc89c3009cd93fbb42f2a74bbb9ffcc31b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c47d11bd1afe247b687b8736b4cad8fa4e906bb1
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934096"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567995"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>노출된 장치 헌트 - 위협 및 취약성 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "51934096"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 ## <a name="use-advanced-hunting-to-find-devices-with-vulnerabilities"></a>고급 헌팅을 사용하여 취약성 있는 장치 찾기
 
@@ -55,7 +55,7 @@ ms.locfileid: "51934096"
 
 ## <a name="check-which-devices-are-involved-in-high-severity-alerts"></a>높은 심각도 경고에 포함되는 장치 확인
 
-1. **헌팅** 창의 왼쪽 탐색 창에서 고급 헌팅으로 Microsoft Defender 보안 센터.
+1. 포털의 왼쪽 탐색 창에서 헌팅  >   고급 헌팅으로 Microsoft 365 Defender 있습니다.
 
 2. 열 이름에 익숙해지기 위해 TVM 고급 헌팅 스마마까지 아래로 스크롤합니다.
 

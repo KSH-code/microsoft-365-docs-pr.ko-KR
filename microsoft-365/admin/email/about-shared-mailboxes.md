@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함은 여러 사용자가 동일한 사서함에 액세스해야 하는 경우 사용됩니다. 공유 사서함을 만들기 전에 알아야 할 내용을 알아보세요.
-ms.openlocfilehash: a251967670e19d8f387e3fc4f724a06ef674a2b4
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: f6c03787db890e1963f659aa9d2ece052d50a82c
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394042"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541640"
 ---
 # <a name="about-shared-mailboxes"></a>공유 사서함 정보
 
@@ -58,7 +58,7 @@ ms.locfileid: "53394042"
 
 - **로그인:** 공유 사서함은 연결된 사용자 계정으로 직접 로그인하기 위한 것이 아니며, 공유 사서함 계정에 대한 로그인을 항상 차단하고 차단된 유지해야 합니다.
 
-- **사용자가 너무 많지 않습니다.** 지정된 사용자가 공유 사서함에 동시 액세스하는 사용자가 너무 많을 경우 간헐적으로 이 사서함에 연결하지 못할 수 있습니다. 이 경우 사용자 수를 줄이거나 다른 작업(예: Microsoft 365 그룹 또는 공용 폴더)을 사용할 수 있습니다.
+- **사용자가 너무 많지 않습니다.** 지정된 사용자가 공유 사서함에 동시 액세스하는 사용자가 너무 많을 경우(25명 이상 권장) 이 사서함에 간헐적으로 연결하지 못하거나 보낼 편지함에 메시지가 중복되는 경우와 같은 불일치가 발생할 수 있습니다. 이 경우 사용자 수를 줄이거나 다른 작업(예: Microsoft 365 그룹 또는 공용 폴더)을 사용할 수 있습니다.
 
 - **메시지 deletion:** 안타깝게도 사용자가 공유 사서함에서 메시지를 삭제하지 못하게 할 수 없습니다. 이 경우 공유 사서함 대신 Microsoft 365 그룹을 만들 수 있습니다. 그룹의 Outlook 공유 사서함과 같아야 합니다. 두 가지 비교는 [그룹 비교를 참조합니다.](../create-groups/compare-groups.md) 그룹에 대한 자세한 내용은 그룹에 대한 [자세한 정보를 참조합니다.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 

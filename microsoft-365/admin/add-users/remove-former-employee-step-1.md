@@ -19,17 +19,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- m365solution-removeemployee
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 이전 직원의 로그인을 차단하고 Microsoft 365 차단합니다.
-ms.openlocfilehash: 58b65a0a886460e8be01635c857433773cfc9059
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 69108539a87e9db4aa72851e5622a5f3856d3a45
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177120"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541628"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>1단계 - 이전 직원이 로그인하지 못하게 방지하고 Microsoft 365 액세스 차단
 
@@ -69,3 +70,8 @@ Microsoft 365 구독의 일부로 전자 메일이 있는 경우 Exchange 관리
 2. Exchange 관리 센터에서 **받는 사람** \> **사서함** 으로 이동합니다.
 3. 사용자를 두 번 클릭하고 전자 메일 앱 아래의 전자 메일 **앱 설정** **관리로 이동합니다.** 모든 **옵션에** 대해 슬라이더를 해제합니다. **모바일(Exchange ActiveSync)** **,** 웹용 Outlook , Outlook **데스크톱(MAPI)**, Exchange 웹 **서비스,** **POP3** 및 **IMAP**.
 4. **저장** 을 선택합니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Exchange 관리 센터의 Exchange Online](/exchange/exchange-admin-center) 
+ [사용자 복원](restore-user.md)

@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: ca689b846589ffcb1b8aa4d85ea8a0312f8d9d51
-ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
+ms.openlocfilehash: 053ee63d80f37753b3737d834c9e79e4001f8a79
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53463976"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541808"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Office 365 및 Office 365 GCC에서 TLS 1.2 준비
 
@@ -77,6 +77,7 @@ Microsoft Teams Rooms 및 Surface Hub 제품에서 TLS 1.2를 지원하려면 �
 - [새로운 IIS 기능](https://cloudblogs.microsoft.com/microsoftsecure/2017/09/07/new-iis-functionality-to-help-identify-weak-tls-usage/)을 사용하면 취약한 보안 프로토콜로 서비스에 연결하는 [Windows Server 2012 R2](https://support.microsoft.com/help/4025335/windows-8-1-windows-server-2012-r2-update-kb4025335) 및 [Windows Server 2016](https://support.microsoft.com/help/4025334/windows-10-update-kb4025334)에서 클라이언트를 쉽게 찾을 수 있습니다.
 - [TLS 1.0](https://www.microsoft.com/download/details.aspx?id=55266)문제를 해결하는 방법에 대한 자세한 정보를 얻습니다.
 - 보안에 접근하는 방식에 대한 일반적인 정보는 [Office 365 Trust Center](https://www.microsoft.com/trustcenter/cloudservices/office365)로 이동하십시오.
+- SMTP 클라이언트에서 사용되는 TLS 버전을 식별하기 위해 보안 및 준수 [센터에서 SMTP & 보고를 참조합니다.](../security/office-365-security/mfi-smtp-auth-clients-report.md)
 - [TLS 1.0/1.1 사용 중단 준비 - Office 365 비즈니스용 Skype](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/ba-p/222247)
 - [Exchange Server TLS 지침, 1부: TLS 1.2 준비](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/ba-p/607649)
 - [Exchange Server TLS 지침 2부: TLS 1.2 사용 및 이를 사용하지 않는 클라이언트 식별](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-2-enabling-tls-1-2-and/ba-p/607761)

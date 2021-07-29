@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 82b6123a99eb406918708c6bf23b870ef3bc3d79
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d4ec716f82fb3dd2352183be8f8cf0d81bcebfff
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934144"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53568047"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>대시보드 정보 - 위협 및 취약성 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "51934144"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 위협 및 취약성 관리 끝점용 Defender의 구성 요소로, 다음을 포함하여 보안 관리자와 보안 운영 팀 모두에게 고유한 가치를 제공합니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "51934144"
 - 인시던트 조사 중에 평가할 수 있는 장치 취약성 컨텍스트
 - 기본 제공 수정 프로세스 및 Microsoft Intune Microsoft Endpoint Configuration Manager  
   
-다음을 위해 위협 및 취약성 관리 기능을 [Microsoft Defender 보안 센터.](https://securitycenter.windows.com/)
+포털의 위협 및 취약성 관리 기능을 사용하여 [Microsoft 365 Defender 수](https://security.microsoft.com/) 있습니다.
 
 - 주요 보안 권장 사항, 소프트웨어 취약성, 수정 활동 및 노출된 장치와 함께 노출 점수 및 장치에 대한 Microsoft 보안 점수 보기
 - 엔드포인트 EDR 정보를 고려하여 처리합니다.
@@ -60,13 +60,13 @@ ms.locfileid: "51934144"
 
 ## <a name="threat-and-vulnerability-management-dashboard"></a>위협 및 취약성 관리 대시보드
 
- ![끝점 포털용 Microsoft Defender](images/tvm-dashboard-devices.png)
+:::image type="content" source="../../media/tvmdashboard.png" lightbox="../../media/tvmdashboard.png" alt-text="장치용 위협 및 취약성 관리 대시보드":::
 
 영역 | 설명
 :---|:---
 **선택한 장치 그룹(#/#)**   | 대시보드 및 위협 및 취약성 관리 그룹으로 표시하려는 데이터 및 카드 데이터를 필터링합니다. 필터에서 선택한 사항은 필터 페이지 전체에 위협 및 취약성 관리 적용됩니다.
 [**노출 점수**](tvm-exposure-score.md)   | 위협 및 취약성에 대한 조직의 현재 장치 노출 상태를 확인합니다. 조직의 노출 점수에 영향을 주는 요인으로는 디바이스에서 발견된 약점, 장치가 위반될 가능성, 조직에 대한 장치 값, 장치에서 검색된 관련 경고 등 여러 가지 요인이 있습니다. 목표는 조직의 노출 점수를 낮출 수 있도록 보다 안전하게 하는 것입니다. 점수를 줄이기 위해 보안 권장 사항에 나열된 관련 보안 구성 문제를 수정해야 합니다.
-[**장치용 Microsoft Secure Score**](tvm-microsoft-secure-score-devices.md) | 조직의 운영 체제, 응용 프로그램, 네트워크, 계정 및 보안 제어에 대한 보안 자세를 참조합니다. 목표는 관련 보안 구성 문제를 수정하여 디바이스에 대한 점수를 높이는 것입니다. 막대를 선택하면 보안 권장 **페이지로 이동됩니다.**
+[**디바이스용 Microsoft Secure Score**](tvm-microsoft-secure-score-devices.md) | 조직의 운영 체제, 응용 프로그램, 네트워크, 계정 및 보안 제어에 대한 보안 자세를 참조합니다. 목표는 관련 보안 구성 문제를 수정하여 디바이스에 대한 점수를 높이는 것입니다. 막대를 선택하면 보안 권장 **페이지로 이동됩니다.**
 **디바이스 노출 분포** | 노출 수준에 따라 노출되는 장치 수를 참조합니다. 도넛형 차트에서 섹션을 선택하여 장치 목록  페이지로 이동하여 영향을 받는 장치 이름, 노출 수준, 위험 수준 및 도메인, 운영 체제 플랫폼, 상태, 마지막으로 확인된 경우 및 태그와 같은 기타 세부 정보를 확인합니다.
 **주요 보안 권장 사항** | 조직의 위험 노출 및 필요한 긴급도에 따라 정렬 및 우선 순위가 지정되는 정렬된 보안 권장 사항을 참조하세요. **목록의** 나머지 보안 권장 사항을 표시하려면 자세한 정보 표시를 선택합니다. 예외가 **있는** 권장 사항 목록에 대해 예외 표시를 선택합니다.
 **취약한 상위 소프트웨어** | 네트워크 장치에 설치된 취약한 소프트웨어의 스택 순위 목록과 조직의 노출 점수에 어떤 영향을 미치는지 실시간으로 조직의 소프트웨어 인벤토리를 확인합니다. 자세한 내용은 항목을 선택하거나 **소프트웨어** 인벤토리 페이지에서 나머지 취약한 소프트웨어 목록을 확인하려면 자세히 **표시를** 선택합니다.

@@ -3,7 +3,7 @@ title: 문서 이해와 양식 처리 모델의 차이
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
-ms.reviewer: lauriellis
+ms.reviewer: lauris
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 문서 이해 모델과 양식 처리 모델의 주요 차이에 대해 알아봅니다.
-ms.openlocfilehash: 31bb5677f3a49fb1820e869319d92ff0e09bad8b
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 929d7f248607b052aa8f41d08a2fbdee7a53fa6f
+ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53543026"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578460"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>문서 이해와 양식 처리 모델의 차이 
 

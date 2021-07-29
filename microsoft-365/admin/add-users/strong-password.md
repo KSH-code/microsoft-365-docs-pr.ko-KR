@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대해 강력한 암호 요구 사항을 설정하는 방법을 Windows PowerShell.
-ms.openlocfilehash: 87ba9e0323c379d8c2589dbb82c38c531dd9d047
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: f1384704435307c8ba872a5d59dc8841bb761444
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286270"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541532"
 ---
 # <a name="turn-off-strong-password-requirements-for-users"></a>사용자에 대한 강력한 암호 요구 사항 끄기
 
@@ -47,7 +47,7 @@ PowerShell을 사용하여 Microsoft 365 연결해야 합니다.
     ```powershell
     Get-MsolUser | Set-MsolUser -StrongPasswordRequired $false
 
-3. You can turn of strong password requirements for specific users with this command:
+3. You can turn **OFF** strong password requirements for specific users with this command:
 
     ```powershell
     Set-MsolUser –UserPrincipalName –StrongPasswordRequired  $false

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: b8e15f27ffe4babe730870fb576980c62cb0fd59
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 03d102ec116b9f5507c3eaa869231a9197d3041c
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844039"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53568079"
 ---
 # <a name="troubleshoot-subscription-and-portal-access-issues"></a>구독 및 포털 액세스 문제 해결
 
@@ -31,15 +31,15 @@ ms.locfileid: "52844039"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troublshootonboarding-abovefoldlink)
+>엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troublshootonboarding-abovefoldlink)
 
 이 페이지에서는 끝점용 Microsoft Defender 서비스를 설정할 때 발생할 수 있는 문제를 해결하기 위한 자세한 단계를 제공합니다.
 
-오류 메시지가 표시될 경우 Microsoft Defender 보안 센터 관련 링크가 제공될 문제 및 관련 링크에 대한 자세한 설명을 제공합니다.
+오류 메시지가 표시될 경우 Microsoft 365 Defender 관련 링크가 제공될 문제 및 관련 링크에 대한 자세한 설명을 제공합니다.
 
 ## <a name="no-subscriptions-found"></a>구독을 찾을 수 없음
 
-액세스하는 동안 Microsoft Defender 보안 센터 구독을 찾을  수 없음 메시지가 표시되어 있는 경우 사용자를 포털에 로그인하는 데 사용되는 Azure Active Directory(Azure AD)에 끝점용 Microsoft Defender 라이선스가 없음을 의미합니다.
+앱에 액세스하는 Microsoft 365 Defender 구독을  찾을 수 없음 메시지가 표시되는 경우 사용자를 포털에 로그인하는 데 사용되는 Azure Active Directory(Azure AD)에 끝점용 Microsoft Defender 라이선스가 없음을 의미합니다.
 
 가능한 원인:
 - Windows E5 및 Office E5 라이선스는 별도의 라이선스입니다.
@@ -53,7 +53,7 @@ ms.locfileid: "52844039"
 
 ## <a name="your-subscription-has-expired"></a>구독이 만료되었습니다.
 
-구독에 액세스하는 Microsoft Defender 보안 센터 **만료된** 메시지가 표시되면 온라인 서비스 구독이 만료된 것입니다. 다른 온라인 서비스 구독과 마찬가지로 Endpoint용 Microsoft Defender 구독에는 만료 날짜가 있습니다. 
+구독에 액세스하는 동안 Microsoft 365 Defender 만료된 메시지가 표시되면 온라인 서비스 구독이 만료된 것입니다.  다른 온라인 서비스 구독과 마찬가지로 Endpoint용 Microsoft Defender 구독에는 만료 날짜가 있습니다. 
 
 특정 시점에 라이선스를 갱신하거나 연장할 수 있습니다. 만료 날짜 후 포털에 액세스할  때 라이선스를 갱신하지 않을 경우 구독이 만료된 메시지에 장치 등록 취소 패키지를 다운로드하는 옵션이 표시됩니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "52844039"
 
 ![현재 사용할 수 없는 데이터 이미지](images/atp-data-not-available.png)
 
-그 아래에 있는 모든 하위omain을 허용해야 `securitycenter.windows.com` 합니다. 예를 들면 `*.securitycenter.windows.com`와 같습니다.
+그 아래에 있는 모든 하위omain을 허용해야 `security.windows.com` 합니다. 예를 들면 `*.security.windows.com`와 같습니다.
 
 
 ## <a name="portal-communication-issues"></a>포털 통신 문제

@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: how-to
 ms.date: 01/27/2021
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
-ms.openlocfilehash: bd86458749db4019bb247a3664748b9891965754
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 0d7a6e4897989df55b00e1aeff0ff512b030c023
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841350"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53590698"
 ---
 # <a name="configure-automated-investigation-and-remediation-capabilities-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 자동화된 조사 및 수정 기능 구성
 
@@ -33,24 +33,25 @@ ms.locfileid: "52841350"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-조직에서 [끝점용 Microsoft Defender(Endpoint용 Defender)를](/windows/security/threat-protection/) 사용하는 경우 [자동화된](/microsoft-365/security/defender-endpoint/automated-investigations) 조사 및 수정 기능을 통해 보안 운영 팀의 시간과 노력을 절약할 수 있습니다. 이 블로그 [](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/enhance-your-soc-with-microsoft-defender-atp-automatic/ba-p/848946)게시물에 설명된 것 처럼 이러한 기능은 보안 분석가가 위협을 조사하고 수정하는 데 걸리는 이상적인 단계와 모방합니다. [자동화된 조사 및 수정에 대해 자세히 알아보시겠어요.](/microsoft-365/security/defender-endpoint/automated-investigations) 
+조직에서 [끝점용 Microsoft Defender(Endpoint용 Defender)를](/windows/security/threat-protection/) 사용하는 경우 [자동화된](/microsoft-365/security/defender-endpoint/automated-investigations) 조사 및 수정 기능을 통해 보안 운영 팀의 시간과 노력을 절약할 수 있습니다. 이 블로그 [](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/enhance-your-soc-with-microsoft-defender-atp-automatic/ba-p/848946)게시물에 설명된 것 처럼 이러한 기능은 보안 분석가가 위협을 조사하고 수정하는 데 걸리는 이상적인 단계와 모방합니다. [자동화된 조사 및 수정에 대해 자세히 알아보시겠어요.](/microsoft-365/security/defender-endpoint/automated-investigations)
 
-자동화된 조사 및 수정을 구성하기 위해
-1. [기능 켜기](#turn-on-automated-investigation-and-remediation); 및 
+자동화된 조사 및 수정을 구성합니다.
+
+1. [기능 켜기](#turn-on-automated-investigation-and-remediation); 및
 2. [장치 그룹 설정](#set-up-device-groups).
 
 ## <a name="turn-on-automated-investigation-and-remediation"></a>자동화된 조사 및 수정 켜기
 
-1. 전역 관리자 또는 보안 관리자는 [https://securitycenter.windows.com](https://securitycenter.windows.com) Microsoft Defender 보안 센터()로 이동하여 로그인합니다.
+1. 전역 관리자 또는 보안 관리자는 <https://securitycenter.windows.com> Microsoft Defender 보안 센터()로 이동하여 로그인합니다.
 2. 탐색 창에서 를 **설정.**
 3. 일반 **섹션에서** 고급 기능을 **선택합니다.**
 4. 자동 조사 **및** **경고 자동 해결을 둘 다 니다.**
 
 ## <a name="set-up-device-groups"></a>장치 그룹 설정
 
-1. in the Microsoft Defender 보안 센터 ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) on the **설정** page, under **Permissions**, select **Device groups**.
+1. in the Microsoft Defender 보안 센터 ( <https://securitycenter.windows.com> ) on the **설정** page, under **Permissions**, select **Device groups**.
 2. **+ 장치 그룹 추가를 선택합니다.**
 3. 다음과 같이 하나 이상의 장치 그룹을 만들 수 있습니다.
    - 디바이스 그룹의 이름과 설명을 지정합니다.

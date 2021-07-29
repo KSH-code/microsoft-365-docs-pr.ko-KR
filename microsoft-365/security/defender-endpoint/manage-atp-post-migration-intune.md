@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 06/11/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 5ca16e125b1eb8377c3a591d039eb7da65b873fb
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 127d27e84cd7fc1fdaf530bc149f5d6e0d950337
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229098"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541724"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Intune을 사용하여 끝점용 Microsoft Defender 관리
 
@@ -79,16 +79,16 @@ ms.locfileid: "53229098"
 |조직의 장치에서 앱을 감사할지 또는 신뢰할지 여부를 선택하도록 **Microsoft Defender** 응용 프로그램 제어 구성 <br/><br/>*Microsoft Defender 응용 프로그램 제어를 [AppLocker라고도 합니다.](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)*|[Microsoft Defender 응용 프로그램 제어 정책을 사용하여 Microsoft Intune](/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)<br/><br/>[끝점 보호: Microsoft Defender 응용 프로그램 제어](/mem/intune/protect/endpoint-protection-windows-10#microsoft-defender-application-control)<br/><br/>[AppLocker CSP](/windows/client-management/mdm/applocker-csp)|
 |**허가되지 않은** 주변 장치의 위협이 장치를 해치지 않도록 장치 제어 및 USB 주변 장치 액세스를 구성합니다. |[Endpoint 및 Intune용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어 제어](/windows/security/threat-protection/device-control/control-usb-devices-using-intune)  |
 
-## <a name="configure-your-microsoft-defender-security-center"></a>사용자 Microsoft Defender 보안 센터
+## <a name="configure-your-microsoft-365-defender-portal"></a>사용자 Microsoft 365 Defender 구성
 
-아직 수행하지 않은 경우 경고를 보고Microsoft 365 Defender 위협 방지 기능을 구성하고 조직의 전반적인 보안 상태와 관련한 자세한 정보를 볼 수 있도록 Microsoft 365 Defender 포털을 구성합니다. 자세한 [내용은 Microsoft Defender 보안 센터.](microsoft-defender-security-center.md) 또한 최종 사용자가 사이트 포털에서 볼 수 있는 기능과 Microsoft 365 Defender 있습니다.
+아직 수행하지 않은 경우 경고를 보고Microsoft 365 Defender 위협 방지 기능을 구성하고 조직의 전반적인 보안 상태와 관련한 자세한 정보를 볼 수 있도록 Microsoft 365 Defender 포털을 구성합니다. 자세한 [내용은 Microsoft 365 Defender.](microsoft-defender-security-center.md) 또한 최종 사용자가 사이트 포털에서 볼 수 있는 기능과 Microsoft 365 Defender 있습니다.
 
-- [개요 Microsoft Defender 보안 센터](/microsoft-365/security/defender-endpoint/use)
+- [개요 Microsoft 365 Defender](/microsoft-365/security/defender-endpoint/use)
 
-- [끝점 보호: Microsoft Defender 보안 센터](/mem/intune/protect/endpoint-protection-windows-10#microsoft-defender-security-center)
+- [끝점 보호: Microsoft 365 Defender](/mem/intune/protect/endpoint-protection-windows-10#microsoft-defender-security-center)
 
 ## <a name="next-steps"></a>다음 단계
 
-- [개요를 위협 및 취약성 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [위협 및 취약성 관리에 대한 개요 보기](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 
-- [보안 Microsoft Defender 보안 센터 대시보드 방문](/microsoft-365/security/defender-endpoint/security-operations-dashboard)
+- [Microsoft 365 Defender 포털 보안 작업 대시보드 방문](/microsoft-365/security/defender-endpoint/security-operations-dashboard)

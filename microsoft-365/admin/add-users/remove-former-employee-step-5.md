@@ -19,17 +19,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- m365solution-removeemployee
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 모바일 장치 액세스를 차단합니다.
-ms.openlocfilehash: 1ce12b06b6a0a74615ff8ac43b8f333456a469bb
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 603192f2ad2f22056f56157751c35a30a4502d12
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244238"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541580"
 ---
 # <a name="step-5---wipe-and-block-a-former-employees-mobile-device"></a>5단계 - 이전 직원의 모바일 장치 지우기 및 차단
 
@@ -44,3 +45,7 @@ ms.locfileid: "52244238"
 5. **저장** 을 선택합니다.
    > [!TIP]
    > 사용자를 프레미스 Blackberry Enterprise 제거해야 합니다. 또한 사용자에 대해 Blackberry 장치를 사용하지 않도록 설정해야 합니다. 사용자를 사용하지 않도록 설정하는 방법에 대한 구체적인 단계가 필요한 경우 Blackberry Business Cloud Services Administration Guide를 참조하세요.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Exchange Online의 Exchange 관리 센터](/exchange/exchange-admin-center)

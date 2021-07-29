@@ -19,17 +19,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- m365solution-removeemployee
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 사용자 계정을 삭제합니다.
-ms.openlocfilehash: e2e1b234eaee3818321761af8f737bad8d131b62
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 3db2eb7fd4c73854a759ee4026d6f9b9c12dfa82
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286325"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541556"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>7단계 - 이전 직원의 사용자 계정 삭제
 
@@ -48,7 +49,7 @@ ms.locfileid: "53286325"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="does-your-organization-use-active-directory"></a>조직에서 Active Directory를 사용하나요?
 

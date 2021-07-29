@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9abed7f9601872eeb14ceb294c54a1cb54f63c2f
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: d214692e5511e7fcb10f2d1c79c9a8797ec04fff
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229110"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53568139"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -221,7 +221,7 @@ ms.locfileid: "53229110"
   - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
   - **배달되기 전에 메시지 삭제**
 
-- **신뢰할 수 있는 보낸 사람 및 도메인** 추가: 가장 보호 설정에 대한 예외입니다. 지정된 보낸 사람 및 보낸 사람 도메인의 메시지는 정책에 의해 가장 기반 공격으로 분류되지 않습니다. 즉, 보호된 보낸 사람, 보호된 도메인 또는 사서함 인텔리전스 보호에 대한 작업은 이러한 신뢰할 수 있는 보낸 사람 또는 보낸 사람 도메인에 적용되지 않습니다. 이러한 목록의 최대 제한은 약 1,000개 항목입니다.
+- **신뢰할 수 있는 보낸 사람 및 도메인** 추가: 가장 보호 설정에 대한 예외입니다. 지정된 보낸 사람 및 보낸 사람 도메인의 메시지는 정책에 의해 가장 기반 공격으로 분류되지 않습니다. 즉, 보호된 보낸 사람, 보호된 도메인 또는 사서함 인텔리전스 보호에 대한 작업은 이러한 신뢰할 수 있는 보낸 사람 또는 보낸 사람 도메인에 적용되지 않습니다. 이러한 목록의 최대 제한은 1024개 항목입니다.
 
 ### <a name="advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 

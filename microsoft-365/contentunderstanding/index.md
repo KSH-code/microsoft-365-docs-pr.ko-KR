@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 087cf7b21d00cef3711d8e5765161eaa98418437
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 47a14222f4297ffd4ef278da7c8c65913ed27f3c
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327062"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541784"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
@@ -40,7 +40,10 @@ SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이 되는 Mi
 
 이 섹션의 리소스는 SharePoint Syntex에서 사용하는 데이터 분류 및 추출에 대한 두 가지 방법(양식 처리 및 문서 이해)의 자세한 정보를 확인하는 데 도움이 됩니다.
 
-| 해당 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
+> [!NOTE]
+> [SharePoint 관리 센터에서 콘텐츠 센터를 만들면](create-a-content-center.md) 라이선스를 구입하지 않고도 SharePoint Syntex를 시작할 수 있습니다. 라이선스가 없는 사용자는 문서 이해 모델을 작성할 수 있지만 문서 라이브러리에 적용할 수는 없습니다.
+
+| 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |문서 이해에 대한 자세한 정보|[문서 이해 개요](./document-understanding-overview.md)|
 |양식 처리에 대한 자세한 정보|[양식 처리 개요](./form-processing-overview.md)|

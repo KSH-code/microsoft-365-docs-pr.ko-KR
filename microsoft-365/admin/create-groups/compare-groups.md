@@ -23,22 +23,31 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Microsoft 365 그룹 구성원은 대화, 파일, 일정 이벤트, Stream 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
-ms.openlocfilehash: 12da954beb4d019b7652ef4df2e18cb30ff542ed
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: c043a1cd796789e9da51cbb6c1f59d7a7c8df07d
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393262"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541652"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
 Microsoft 365 관리 센터의 **Groups** 구역에서 다음과 같은 유형의 그룹을 만들고 관리할 수 있습니다. 
 
-- **Microsoft 365 그룹**(이전 Office 365 그룹)은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다.
+- **Microsoft 365 그룹** 은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다. 여기에는 SharePoint 및 Planner와 같은 공동 작업 서비스가 포함됩니다.
 - **메일 그룹** 사용자 그룹에 전자 메일 알림을 보내는 데 사용됩니다.
 - **보안 그룹** 은 SharePoint 사이트와 같은 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다.
 - **메일 사용이 가능한 보안 그룹** 은 SharePoint와 같은 리소스에 대한 액세스 권한을 부여하고 해당 사용자에게 전자 메일로 알림을 보내는 데 사용됩니다.
 - **공유 사서함** 은 여러 사용자가 같은 사서함에 액세스해야 하는 경우(예: 회사 정보 또는 지원 전자 메일 주소)에 사용됩니다.
+
+일부 그룹은 동적 멤버십이나 전자 메일을 허용합니다.
+
+||Microsoft 365 그룹|메일 그룹|보안 그룹|메일 사용 가능 보안 그룹|공유 사서함|
+|:----|:----|:----|:----|:----|:----|
+|**메일 사용 가능**|예|예|아니요|예|예|
+|**Microsoft Azure AD의 동적 멤버십**|예|아니요|예|아니요|아니요|
+
+이러한 모든 그룹 유형은 Power Automate에서 사용할 수 있습니다.
 
 ## <a name="microsoft-365-groups"></a>Microsoft 365 그룹
 
