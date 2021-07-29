@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a52f810647c387c5a5726b9d31998c34add4092e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: c8397731941a3344638edb0b57e77272f4fae930
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166188"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53590998"
 ---
 # <a name="configure-micro-focus-arcsight-to-pull-defender-for-endpoint-detections"></a>엔드포인트 감지를 위해 Defender를 끌어오도록 마이크로 포커스 ArcSight 구성
 
@@ -32,11 +32,12 @@ ms.locfileid: "51166188"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configurearcsight-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configurearcsight-abovefoldlink)
 
 일부 파일 및 도구를 설치하고 구성하여 마이크로 포커스 ArcSight를 사용하여 끝점 감지를 위해 Defender를 끌어와야 합니다.
 
->[!Note]
+> [!NOTE]
+>
 >- [Endpoint용 Defender 경고는](alerts.md) 하나 이상의 검색으로 구성됩니다.
 >- [Endpoint 검색용 Defender는](api-portal-mapping.md) 장치 및 관련 경고 세부 정보에서 발생한 의심스러운 이벤트로 구성됩니다.
 
@@ -88,7 +89,6 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
    - WDATP-connector.properties: C: \\ *folder_location*\current\user\agent\flexagent\
 
    > [!NOTE]
-   > 
    > 이 위치에 구성 파일을 넣어야 *합니다.* 여기서 folder_location 도구를 설치한 위치를 나타내야 합니다.
 
 4. 핵심 커넥터 설치가 완료되면 커넥터 설치 창이 열립니다. 커넥터 설정 창에서 **커넥터 추가를 선택합니다.**
@@ -97,38 +97,23 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
 
 6. 매개 변수 세부 정보 양식에 다음 정보를 입력합니다. 양식의 다른 모든 값은 선택 사항이며 비워 두면 됩니다.
 
-   <table>
-    <tbody style="vertical-align:top;">
-    <tr>
-    <th>필드</th>
-    <th>값</th>
-    </tr>
-    <tr>
-    <td>구성 파일</td>
-    <td>클라이언트 속성 파일의 이름을 입력합니다. 이름은 다운로드한 파일에서 제공한 .zip 일치해야 합니다.
-예를 들어 flexagent 디렉터리의 구성 파일 이름이 &quot; &quot; &quot; onparser.properties에WDATP-Connector.js경우 &quot; &quot; WDATP-Connector를 클라이언트 속성 파일의 이름으로 &quot; 입력해야 합니다.</td>
-    </tr>
-    <td>이벤트 URL</td>
-    <td>데이터 센터의 위치에 따라 EU 또는 미국 URL을 선택합니다. </br></br> <b>EU의</b>경우 : <i></i> https:// wdatp-alertexporter-eu.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME <br>
-   </br><b>미국:</b> <i></i> https:// wdatp-alertexporter-us.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME <br> <br> <b>영국</b>: https:// <i></i> wdatp-alertexporter-uk.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME</td>
-    <tr>
-    <td>인증 유형</td>
-    <td>OAuth 2</td>
-    </tr>
-    <td>OAuth 2 클라이언트 속성 파일</td>
-    <td><em>wdatp-connector.properties</em> 파일의 위치로 이동하십시오. 이름은 다운로드한 파일에서 제공한 .zip 일치해야 합니다.</td>
-    <tr>
-    <td>새로 고침 토큰</td>
-    <td><b>SIEM</b> 설정 페이지에서 새로 고침 토큰을 생성하거나 restutil 도구를 사용하여 두 가지 방법으로 새로 고침 토큰을 얻을 수 있습니다. <br><br> 기본 설정에서 새로 고침 토큰을 생성하는 데 대한 자세한 내용은 <a href="enable-siem-integration.md" data-raw-source="[Enable SIEM integration in Defender for Endpoint](enable-siem-integration.md)">Enable SIEM integration in Defender for Endpoint을 참조하세요.</a> <b></b> </br> </br><b>restutil 도구를 사용하여 새로 고침 토큰을 얻다.</b> </br> a. 명령 프롬프트를 엽니다. C:\ folder_location<em></em>\current\bin으로 folder_location <em></em> 도구를 설치한 위치를 나타내는 위치입니다. </br></br> b. Bin <code>arcsight restutil token -config</code> 디렉터리에서 입력합니다. 예를 들어 <b>arcsight restutil boxtoken -proxy</b> proxy.location.hp.com:8080 브라우저 창이 열립니다. </br> </br>c. 자격 증명을 입력한 다음 암호 필드를 클릭하여 페이지가 리디렉션될 수 있도록 합니다. 로그인 프롬프트에 자격 증명을 입력합니다. </br> </br>d. 새로 고침 토큰이 명령 프롬프트에 표시됩니다. </br></br> e. 복사하여 새로 고침 토큰 <b>필드에 붙여 넣습니다.</b>
-    </td>
-    </tr>
-    </tr>
-    </table><br/>
-    
+   <br>
+
+   ****
+
+   |필드|값|
+   |---|---|
+   |구성 파일|클라이언트 속성 파일의 이름을 입력합니다. 이름은 다운로드한 파일에서 제공한 .zip 일치해야 합니다. <p> 예를 들어 "flexagent" 디렉터리의 구성 파일의 이름이 "WDATP-Connector.jsonparser.properties"인 경우 클라이언트 속성 파일의 이름으로 "WDATP-Connector"를 입력해야 합니다.|
+   |이벤트 URL|데이터 센터의 위치에 따라 EU 또는 미국 URL을 선택합니다. <ul><li>**EU의 경우**:  `https://<i></i>wdatp-alertexporter-eu.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME`</li><li>**미국의 경우**: `https://<i></i>wdatp-alertexporter-us.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME`</li><li>**영국의** 경우 : `https://<i></i>wdatp-alertexporter-uk.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME`</li></ul>|
+   |인증 유형|OAuth 2|
+   |OAuth 2 클라이언트 속성 파일|*wdatp-connector.properties* 파일의 위치로 이동하십시오. 이름은 다운로드한 파일에서 제공한 .zip 일치해야 합니다.|
+   |새로 고침 토큰|**SIEM** 설정 페이지에서 새로 고침 토큰을 생성하거나 restutil 도구를 사용하여 두 가지 방법으로 새로 고침 토큰을 얻을 수 있습니다. <p> 기본 설정에서 새로 고침 토큰을 생성하는 데 대한 자세한 내용은 [Enable SIEM integration in Defender for Endpoint을 참조하세요.](enable-siem-integration.md)  <p> **restutil 도구를 사용하여 새로 고침 토큰을 얻다.** <ol><li>명령 프롬프트를 엽니다. C: \\ *폴더 \_ 위치*\current\bin으로 이동합니다. 여기서 폴더 위치는 도구를 설치한 위치를 나타내는 위치입니다. *\_*</li><li>Bin `arcsight restutil token -config` 디렉터리에서 입력합니다. 예: **arcsight restutil boxtoken -proxy proxy.location.hp.com:8080.** 웹 브라우저 창이 열립니다.</li><li>자격 증명을 입력한 다음 암호 필드를 클릭하여 페이지가 리디렉션될 수 있도록 합니다. 로그인 프롬프트에 자격 증명을 입력합니다.</li><li>새로 고침 토큰이 명령 프롬프트에 표시됩니다.</li><li>복사하여 새로 고침 토큰 **필드에 붙여 넣습니다.**|
+   |
+
 7. 브라우저 창이 커넥터에 의해 열립니다. 응용 프로그램 자격 증명으로 로그인합니다. 로그인한 후 OAuth2 클라이언트에 대한 권한을 부여할지 묻는 요청이 표시됩니다. 커넥터 구성이 인증될 수 있도록 OAuth 2 클라이언트에 대한 권한을 부여해야 합니다.
 
    https URL인 경우 로컬 호스트의 <code>redirect_uri</code> URL로 리디렉션됩니다. 로컬 호스트에서 실행되는 커넥터에서 제공한 인증서를 신뢰해야 하는 페이지가 표시됩니다. https가 https인 redirect_uri 인증서를 신뢰해야 합니다.
-   
+
    그러나 웹 응용 redirect_uri URL을 지정하는 경우 인증서 신뢰에 동의할 필요가 없습니다.
 
 8. 마이크로 포커스 ArcSight 커넥터 설정 창으로 돌아가서 커넥터 설정을 계속합니다.
@@ -177,12 +162,11 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
 
 9. 활성 채널 **집합 새**  >  **조건 장치** 장치  >    >  **제품으로 이동합니다.**
 
-10. 장치 **제품 설정 = Microsoft Defender ATP.** 이벤트가 도구로 흐르고 있는 것이 확인되면 프로세스를 다시 중지하고 Windows 서비스로 이동하고 ArcSight FlexConnector REST를 시작하십시오.
+10. 장치 **제품 설정 = Microsoft Defender ATP**. 이벤트가 도구로 흐르고 있는 것이 확인되면 프로세스를 다시 중지하고 Windows 서비스로 이동하고 ArcSight FlexConnector REST를 시작하십시오.
 
 이제 마이크로 포커스 ArcSight 콘솔에서 쿼리를 실행할 수 있습니다.
 
 끝점 검색에 대한 Defender는 공급업체로 "Microsoft"를, 장치 이름으로 "Windows Defender ATP"로 표시됩니다.
-
 
 ## <a name="troubleshooting-micro-focus-arcsight-connection"></a>마이크로 포커스 ArcSight 연결 문제 해결
 
@@ -206,6 +190,7 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
 > 프로세스를 다시 중지하여 커넥터가 실행되고 있는지 확인해야 합니다. 그런 다음 커넥터를 다시 시작하면 브라우저 창이 나타나지 않습니다.
 
 ## <a name="related-topics"></a>관련 항목
+
 - [Endpoint용 Defender에서 SIEM 통합 사용](enable-siem-integration.md)
 - [SIEM 도구로 검색 끌어오기](/windows/security/threat-protection/microsoft-defender-atp/configure-siem)
 - [REST API를 사용하여 끝점 검색을 위한 Defender 끌어오기](pull-alerts-using-rest-api.md)

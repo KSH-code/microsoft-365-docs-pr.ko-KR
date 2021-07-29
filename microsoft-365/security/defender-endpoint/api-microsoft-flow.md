@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a0718f8e3aba27e6fbfc92a4308278f4c629275f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 14c06cbfe8913f24082bccc6e0f607f871043425
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843797"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53591166"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate(이전 Microsoft Flow) 및 Azure Functions
 
@@ -33,7 +33,7 @@ ms.locfileid: "52843797"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 모든 최신 보안 운영 센터의 표준 요구 사항은 보안 절차를 자동화하는 것입니다. 전문 사이버 방어자 부족으로 SOC가 가장 효율적인 방식으로 작동하고 자동화가 반드시 있어야 합니다. Microsoft Power Automate 정확히 구축된 여러 커넥터를 지원할 수 있습니다. 몇 분 내에 종단간 프로시저 자동화를 빌드할 수 있습니다.
 
@@ -55,7 +55,7 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Flow 커넥터가
 
     ![자격 증명 편집 이미지2](images/api-flow-1.png)
 
-3. 사용자 이름Flow 선택하고 "Microsoft Defender ATP 트리거"를 트리거로 검색한 다음 새 경고 트리거를 선택합니다.
+3. 사용자 이름 Flow 트리거로 "Microsoft Defender ATP 트리거"를 검색한 다음 새 경고 트리거를 선택합니다.
 
     ![자격 증명 편집 이미지3](images/api-flow-2.png)
 
@@ -69,7 +69,7 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Flow 커넥터가
 
 ### <a name="get-the-alert-entity-using-the-connector"></a>커넥터를 사용하여 Alert 엔터티 사용
 
-1. 새 **Microsoft Defender ATP** 대한 선택을 선택 합니다.
+1. 새 **단계를 위해 Microsoft Defender ATP를** 선택 합니다.
 
 2. 경고 **- 단일 경고 API를 를 선택 합니다.**
 
@@ -83,7 +83,7 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Flow 커넥터가
 
 2. 경고 심각도가 **높음과 같은지** 검사합니다.
 
-   예인 경우 Microsoft Defender ATP **- 컴퓨터** ID 및 설명을 사용하여 컴퓨터 격리 작업을 추가합니다.
+   그렇다면 **Microsoft Defender ATP - 컴퓨터** ID 및 설명을 사용하여 컴퓨터 격리 작업을 추가합니다.
 
     ![자격 증명 편집 이미지6](images/api-flow-5.png)
 

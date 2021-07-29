@@ -17,12 +17,12 @@ ms.custom: ''
 description: 관리자는 EOP(Exchange Online Protection)의 고급 배달 정책을 사용하여 지원되는 특정 시나리오(타사 피싱 시뮬레이션 및 SecOps(보안 작업) 사서함으로 배달된 메시지)에서 필터링하지 말아야 하는 메시지를 식별하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b989b11739b5418ad14e147f76dde0e0dd7b1b1a
-ms.sourcegitcommit: 233989a02a3fc6db33c995ad06b1f820f08f8f0a
+ms.openlocfilehash: b74ff33fe2ed2581e033511b6ee8069696439a58
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53383453"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53591178"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>사용자에 대한 타사 피싱 시뮬레이션 및 필터되지 않은 메시지의 SecOps 사서함 배달 구성
 
@@ -34,7 +34,7 @@ ms.locfileid: "53383453"
 > [!NOTE]
 > 이 문서에서 설명하는 기능은 미리 보기에 있으며, 모든 사람이 사용할 수 있으며 변경될 수 있습니다.
 
-기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예를 들어 다음과 같습니다.
+기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예를 들면 다음과 같습니다.
 
 - **타사 피싱 시뮬레이션:** 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
 - **SecOps(보안 작업)** 사서함: 보안 팀에서 필터되지 않은 메시지를 수집 및 분석하는 데 사용하는 전용 사서함(좋음과 불량 모두)입니다.
@@ -43,22 +43,23 @@ ms.locfileid: "53383453"
 
 - EOP 및 Microsoft Defender for Office 365 메시지에 대해 아무 작업도 수행하지 않습니다.<sup>\*</sup>
 - 스팸 및 피싱에 [대한 ZAP(제로](zero-hour-auto-purge.md) 아워 제거)는 이러한 메시지에 대해 아무 작업도 수행하지 않습니다.<sup>\*</sup>
-- [이러한 시나리오에서는](alerts.md) 기본 시스템 알림이 트리거되지 않습니다.
+- [이러한 시나리오에서는](/microsoft-365/compliance/alert-policies#default-alert-policies) 기본 시스템 알림이 트리거되지 않습니다.
 - [Defender for Defender의](office-365-air.md) AIR Office 365 메시지는 무시됩니다.
 - 타사 피싱 시뮬레이션을 위한 구체적인 예는 다음과 같습니다.
-  - [관리자 제출은](admin-submission.md) 메시지가 피싱 시뮬레이션 캠페인의 일부이자 실제 위협이 아니라는 자동 응답을 생성합니다. 경고와 AIR이 트리거되지 않습니다.
+  - [관리자 제출은](admin-submission.md) 메시지가 피싱 시뮬레이션 캠페인의 일부이자 실제 위협이 아니라는 자동 응답을 생성합니다. 경고와 AIR이 트리거되지 않습니다. 관리자 제출 환경은 이러한 메시지를 시뮬레이트된 위협으로 표시됩니다.
+  - 사용자가 피싱 보고 추가 기능을 사용하여 [](enable-the-report-message-add-in.md)피싱 시뮬레이션 메시지를 보고하면 시스템에서 Outlook, 조사 또는 인시던트가 생성되지 않습니다. 메시지는 제출 페이지의 사용자가 보고한 메시지 탭에도 표시됩니다.
   - [금고 Defender for Office 365](safe-links.md) 링크는 이러한 메시지에서 구체적으로 식별된 URL을 차단하거나 확인하지 않습니다.
   - [금고 For Defender에서](safe-attachments.md) Office 365 메시지의 첨부 파일은 확인하지 않습니다.
 
 <sup>\*</sup> 맬웨어 필터링 또는 맬웨어에 대한 ZAP를 무시할 수 없습니다.
 
-고급 배달 정책으로 식별된 메시지는 보안 위협이 아니기 때문에 메시지는 시스템 오버라이드로 표시됩니다. 관리자는 다음 환경의 이러한 시스템 오버라이드를 필터링하고 분석할 수 있습니다.
+고급 배달 정책으로 식별된 메시지는 보안 위협이 아니기 때문에 메시지는 시스템 오버라이드로 표시됩니다. 관리자 환경은 피싱 시뮬레이션 시스템 재지정 또는 **SecOps** 사서함 시스템 재지정으로 인해 이러한 메시지를 보여 주게 됩니다.  관리자는 다음 환경의 이러한 시스템 다시 설정에 대해 필터링하고 분석할 수 있습니다.
 
-- [계획 2용 Defender의 위협 탐색기 Office 365 검색](threat-explorer.md)
-- 위협 [탐색기/실시간](mdo-email-entity-page.md) 검색의 전자 메일 엔터티 페이지
-- [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
-- [끝점용 Microsoft Defender의 고급 헌팅](../defender-endpoint/advanced-hunting-overview.md)
-- [캠페인 보기](campaigns.md)
+- Office 365 계획 2에 대한 [Defender의](threat-explorer.md)위협 탐색기/실시간 검색:  관리자는 시스템 재지정 원본을 필터링하고 피싱 시뮬레이션 또는  **SecOps 사서함을** 선택할 수 있습니다.
+- 위협 탐색기/실시간 검색의 전자 메일 엔터티 [페이지:](mdo-email-entity-page.md)관리자는 **Override(s)** 섹션의 테넌트  다시 정의에서  **SecOps** 사서함 또는 피싱 시뮬레이션에서 조직 정책에서 허용된 메시지를 볼 수 있습니다.
+- [위협 방지](view-email-security-reports.md#threat-protection-status-report)상태 보고서: 관리자는  드롭다운 메뉴에서 시스템 다시 설정으로 데이터를 확인하여 필터링하고 피싱 시뮬레이션 시스템 다시 설정으로 인해 허용된 메시지를 확인하도록 선택할 수 있습니다. SecOps 사서함 다시 설정에서 허용되는 메시지를 확인하려면  이유별 차트 분석 드롭다운 메뉴에서 배달 위치별 차트 분석 **항목을** 선택할 수 있습니다.
+- [Endpoint용 Microsoft Defender의](../defender-endpoint/advanced-hunting-overview.md)고급 헌팅: 피싱 시뮬레이션 및 SecOps 사서함 시스템 재지정은 EmailEvents의 OrgLevelPolicy 내에 옵션으로 표시됩니다. 
+- [캠페인 보기:](campaigns.md)관리자는  시스템 다시 설정 원본을  필터링하고 피싱 시뮬레이션 또는 **SecOps** 사서함을 선택할 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
@@ -103,16 +104,19 @@ ms.locfileid: "53383453"
    - 편집 ![ 아이콘 편집 ](../../media/m365-cc-sc-edit-icon.png) **을 클릭합니다.**
    - 구성된 피싱 시뮬레이션이 없는 경우 추가 를 **클릭합니다.**
 
-3. 열 **수 있는** 타사 피싱 시뮬레이션 플라이아웃 편집 플라이아웃에서 다음 설정을 구성합니다.
+3. 열 **수 있는** 타사 피싱 시뮬레이션 플라이아웃 편집 플라이아웃에서 다음 설정을 구성합니다. 
 
    - **보내는 도메인:** 이 설정을 확장하고 상자를 클릭하고 값을 입력한 다음 Enter를 누르거나 상자 아래에 표시되는 값을 선택하여 하나 이상의 전자 메일 주소 도메인(예: contoso.com)을 입력합니다. 필요한 만큼 이 단계를 반복합니다. 항목을 10개까지 추가할 수 있습니다.
-   - **IP** 보내기: 상자를 클릭하고 값을 입력한 다음 Enter를 누르거나 상자 아래에 표시되는 값을 선택하려면 이 설정을 확장하고 유효한 IPv4 주소를 하나 이상 입력해야 합니다. 필요한 만큼 이 단계를 반복합니다. 항목을 10개까지 추가할 수 있습니다. 유효한 값은 다음과 같습니다.
+   - **IP** 보내기 : 이 설정을 확장하고 상자를 클릭하고 값을 입력한 다음 Enter를 누르거나 상자 아래에 표시되는 값을 선택하여 유효한 IPv4 주소를 하나 이상 입력합니다. 필요한 만큼 이 단계를 반복합니다. 항목을 10개까지 추가할 수 있습니다. 유효한 값은 다음과 같습니다.
      - 단일 IP: 예: 192.168.1.1.
      - IP 범위: 예: 192.168.0.1-192.168.0.254.
      - CIDR IP: 예: 192.168.0.1/25.
    - 허용할 시뮬레이션 **URL:** 이 설정을 확장하고 선택적으로 상자를 클릭하고 값을 입력한 다음 상자 아래에 표시되는 값을 선택하거나 입력하여 차단 또는 검색되지 않는 피싱 시뮬레이션 캠페인의 일부인 특정 URL을 입력합니다. 항목을 10개까지 추가할 수 있습니다. URL 구문 형식은 [테넌트 허용/차단 목록에 대한 URL 구문을 참조하세요.](/microsoft-365/security/office-365-security/tenant-allow-block-list#url-syntax-for-the-tenant-allowblock-list)
 
    기존 값을 제거하려면 제거를 클릭합니다. ![아이콘 제거](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+   
+   > [!NOTE]
+   > 고급 배달에서 타사  피싱 시뮬레이션을 구성하려면 하나 이상의 보내는 도메인과 하나 이상의 보내는 **IP를** 지정해야 합니다. 선택적으로 시뮬레이션 메시지에 있는 **URL이** 차단되지 않도록 시뮬레이션 URL을 포함할 수 있습니다. 각 필드에 대해 최대 10개 항목을 지정할 수 있습니다. 하나 이상의 보내는 도메인과  하나의 보내는 **IP에** 일치해야 하지만 값 간의 연결은 유지되지 않습니다.
 
 4. 작업을 마치면 다음 단계 중 하나를 수행합니다.
    - **처음:** **추가를** 클릭한 다음 **닫기 를 클릭합니다.**

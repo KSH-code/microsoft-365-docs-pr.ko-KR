@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0258b2cdbff4a8b20be42e508863985c7402f609
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 70607eb90fa6c1614ed10e90e4d6ee9cf36f7204
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845513"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595705"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 
@@ -31,22 +31,23 @@ ms.locfileid: "52845513"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 이 섹션에서는 끝점용 Defender의 개인 정보 및 데이터 처리와 관련하여 자주 묻는 몇 가지 질문에 대해 설명합니다.
+
 > [!NOTE]
 > 이 문서에서는 끝점용 Defender와 관련된 데이터 저장소 및 개인 정보 보호 세부 정보를 설명합니다. Endpoint용 Defender 및 Microsoft Defender 바이러스 백신 및 서비스와 관련된 Microsoft Defender 바이러스 백신 Windows 10 Microsoft 개인 정보 취급 방침을 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=827576) 자세한 내용은 Windows 10 [개인 정보 FAQ도](https://go.microsoft.com/fwlink/?linkid=827577) 참조하세요.
 
-
 ## <a name="what-data-does-microsoft-defender-for-endpoint-collect"></a>Endpoint용 Microsoft Defender는 어떤 데이터를 수집하나요?
 
-끝점용 Microsoft Defender는 관리, 추적 및 보고를 위한 서비스 전용 테넌트 및 고객 전용 테넌트에서 구성된 디바이스의 정보를 수집하고 저장합니다. 
+끝점용 Microsoft Defender는 관리, 추적 및 보고를 위한 서비스 전용 테넌트 및 고객 전용 테넌트에서 구성된 디바이스의 정보를 수집하고 저장합니다.
 
 수집된 정보에는 파일 데이터(예: 파일 이름, 크기 및 해시), 프로세스 데이터(실행 중인 프로세스, 해시), 레지스트리 데이터, 네트워크 연결 데이터(호스트 IP 및 포트) 및 장치 세부 정보(예: 장치 식별자, 이름 및 운영 체제 버전)가 포함됩니다.
 
 Microsoft는 이 데이터를 안전하게 Microsoft Azure Microsoft 개인 정보 취급 방침 및 Microsoft 보안 센터 정책에 따라 [유지 관리합니다.](https://go.microsoft.com/fwlink/?linkid=827578)
 
 이 데이터는 끝점에 대한 Defender를 사용하여:
+
 - 조직에서 IOAS(공격 지표)를 사전 식별
 - 가능한 공격이 감지된 경우 경고 생성
 - 네트워크의 위협 신호와 관련된 장치, 파일 및 URL에 대한 보기를 보안 운영에 제공하면 네트워크의 보안 위협 유무를 조사하고 탐색할 수 있습니다.
@@ -54,12 +55,12 @@ Microsoft는 이 데이터를 안전하게 Microsoft Azure Microsoft 개인 정�
 Microsoft는 광고를 위해 데이터를 사용하지 않습니다.
 
 ## <a name="data-protection-and-encryption"></a>데이터 보호 및 암호화
-Endpoint용 Defender 서비스는 네트워크 인프라를 기반으로 하는 최첨단 데이터 보호 Microsoft Azure 활용합니다. 
 
-서비스에서 처리되는 데이터 보호와 관련된 다양한 측면이 있습니다. 암호화는 가장 중요하며 보관된 데이터 암호화, 작업 중 암호화 및 Key Vault를 사용하는 키 관리를 포함합니다. Endpoint 서비스용 Defender에서 사용하는 다른 기술에 대한 자세한 내용은 [Azure 암호화 개요를 참조하세요.](/azure/security/security-azure-encryption-overview) 
+Endpoint용 Defender 서비스는 네트워크 인프라를 기반으로 하는 최첨단 데이터 보호 Microsoft Azure 활용합니다.
+
+서비스에서 처리되는 데이터 보호와 관련된 다양한 측면이 있습니다. 암호화는 가장 중요하며 보관된 데이터 암호화, 작업 중 암호화 및 Key Vault를 사용하는 키 관리를 포함합니다. Endpoint 서비스용 Defender에서 사용하는 다른 기술에 대한 자세한 내용은 [Azure 암호화 개요를 참조하세요.](/azure/security/security-azure-encryption-overview)
 
 모든 시나리오에서 데이터는 최소한 256비트 [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) 암호화를 사용하여 암호화됩니다.
-
 
 ## <a name="data-storage-location"></a>데이터 저장소 위치
 
@@ -67,9 +68,10 @@ Endpoint용 Defender는 유럽 연합Microsoft Azure 영국 또는 미국의 데
 
 가명 처리 양식의 고객 데이터는 미국의 중앙 저장소 및 처리 시스템에도 저장될 수 있습니다.
 
-일단 구성되면 데이터가 저장되는 위치를 변경할 수 없습니다. 이렇게 하면 데이터가 있는 지리적 위치를 적극적으로 선택하여 규정 준수 위험을 최소화할 수 있습니다. 
+일단 구성되면 데이터가 저장되는 위치를 변경할 수 없습니다. 이렇게 하면 데이터가 있는 지리적 위치를 적극적으로 선택하여 규정 준수 위험을 최소화할 수 있습니다.
 
 ## <a name="is-my-data-isolated-from-other-customer-data"></a>내 데이터가 다른 고객 데이터와 격리되어 있습니까?
+
 예. 데이터는 고객 식별자를 기반으로 하는 논리적 분리 및 액세스 인증을 통해 격리됩니다. 각 고객은 자체 조직에서 수집된 데이터와 Microsoft에서 제공하는 일반 데이터만 액세스할 수 있습니다.
 
 ## <a name="how-does-microsoft-prevent-malicious-insider-activities-and-abuse-of-high-privilege-roles"></a>Microsoft는 악의적인 내부자 활동과 높은 권한 역할 남용을 어떻게 방지하나요?
@@ -84,20 +86,23 @@ Microsoft 개발자와 관리자는 서비스 운영 및 발전을 위해 할당
 
 Microsoft Azure 정부 데이터 센터에 배포된 서비스에 대한 데이터에 대한 액세스는 FedRAMP, NIST 800.171(DIB), ITAR, IRS 1075, DoD L4 및 CJIS와 같은 특정 정부 규정 및 요구 사항을 준수하는 데이터를 처리하기 위해 승인된 운영 직원에게만 부여됩니다.
 
-
 ## <a name="is-data-shared-with-other-customers"></a>데이터가 다른 고객과 공유하나요?
+
 아니요. 고객 데이터는 다른 고객과 격리되어 공유되지 않습니다. 그러나 Microsoft 처리로 인한 데이터 및 고객별 데이터를 포함하지 않는 데이터에 대한 인사이트를 다른 고객과 공유할 수 있습니다. 각 고객은 자체 조직에서 수집된 데이터와 Microsoft에서 제공하는 일반 데이터만 액세스할 수 있습니다.
 
 ## <a name="how-long-will-microsoft-store-my-data-what-is-microsofts-data-retention-policy"></a>Microsoft에서 내 데이터를 얼마나 오래 저장하나요? Microsoft의 데이터 보존 정책이란?
-**At service onboarding**<br>
+
+### <a name="at-service-onboarding"></a>At service onboarding
+
 기본적으로 데이터는 180일 동안 보존됩니다. 그러나 데이터에 대한 데이터 보존 정책을 지정할 수 있습니다. 이렇게 하면 끝점용 Window Defender에서 데이터를 저장할 기간이 결정됩니다. 회사의 규정 준수 요구를 충족하기 위해 1개월에서 6개월까지 유연하게 선택할 수 있습니다.
 
-**계약 종료 또는 만료 시**<br>
+### <a name="at-contract-termination-or-expiration"></a>계약 종료 또는 만료 시
+
 라이선스가 유예 기간 또는 일시 중단 모드에 있는 동안에는 데이터가 보관된 후 사용할 수 있습니다. 이 기간이 끝나면 계약 종료 또는 만료일로부터 180일이 지워지기 전까지 해당 데이터가 Microsoft 시스템에서 지워지기 때문에 데이터를 읽을 수 없습니다.
 
-**고급 헌팅 데이터**<br>
-고급 헌팅은 최대 30일간의 원시 데이터를 탐색할 수 있는 쿼리 기반의 위협 헌팅 도구입니다.
+### <a name="advanced-hunting-data"></a>고급 헌팅 데이터
 
+고급 헌팅은 최대 30일간의 원시 데이터를 탐색할 수 있는 쿼리 기반의 위협 헌팅 도구입니다.
 
 ## <a name="can-microsoft-help-us-maintain-regulatory-compliance"></a>Microsoft가 규정 준수를 유지 관리하는 데 도움을 줄 수 있나요?
 
@@ -107,4 +112,4 @@ Microsoft는 고객에게 감사 보고서 및 규정 준수 패키지를 포함
 
 Endpoint용 Defender 인증 보고서에 대한 자세한 내용은 [Microsoft 보안 센터를 참조하세요.](https://servicetrust.microsoft.com/) 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-datastorage-belowfoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-datastorage-belowfoldlink)

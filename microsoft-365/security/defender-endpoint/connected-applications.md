@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1595ea8e76eb6b4c929419ea11dba06e6158d30c
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: b6012adbe1340778674201c348d6b7dbb7a93201
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542360"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595801"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 연결된 응용 프로그램
 
@@ -33,7 +33,7 @@ ms.locfileid: "53542360"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 연결된 응용 프로그램은 API를 사용하여 끝점용 Defender 플랫폼과 통합됩니다. 
 

@@ -14,12 +14,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 4254c5ea24d8c901ac5f6337b0c626afe02747e2
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 758dd66f9f1d124cbf2966a665a69fba4238b22f
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926646"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53594889"
 ---
 # <a name="evaluate-controlled-folder-access"></a>제어된 폴더 액세스 평가
 
@@ -29,7 +29,7 @@ ms.locfileid: "52926646"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 
 [제어된 폴더 액세스는](controlled-folders.md) 의심스러운 앱 또는 악성 앱에 의해 문서 및 파일을 수정하지 못하게 보호하는 기능입니다. 제어된 폴더 액세스는 Windows Server 2019 및 Windows 10 지원됩니다.
@@ -76,6 +76,6 @@ Set-MpPreference -EnableControlledFolderAccess AuditMode
 
 ## <a name="see-also"></a>참고 항목
 
-* [제어된 폴더 액세스로 중요한 폴더 보호](controlled-folders.md)
+* [제어된 폴더 액세스를 사용하여 중요한 폴더 보호](controlled-folders.md)
 * [엔드포인트용 Microsoft Defender 평가](evaluate-mde.md)
 * [감사 모드 사용](audit-windows-defender.md)

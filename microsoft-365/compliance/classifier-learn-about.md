@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365solution-mip
@@ -17,13 +17,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 학습 가능한 Microsoft 365 분류기는 다양한 유형의 콘텐츠를 볼 수 있는 양성 및 부정 샘플을 제공하여 학습할 수 있는 도구입니다. 분류자 교육을 한 후 결과가 정확한지 확인할 수 있습니다. 그런 다음 조직의 콘텐츠를 검색하고 이를 분류하여 보존 또는 민감도 레이블을 적용하거나 DLP(데이터 손실 방지) 또는 보존 정책에 포함합니다.
-ms.openlocfilehash: 1881e4de87fd41f21bb1f2236d46391b3a1ed785
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+description: 교육 가능한 Microsoft 365 분류자란 테스트 또는 정책 응용 프로그램에 대해 다양한 유형의 콘텐츠를 인식할 수 있는 도구로, 이를 통해 볼 수 있는 양성 및 부정 샘플을 제공합니다.
+ms.openlocfilehash: 2a98d3d889b1f2d51c795a8668c46ef4e0d7d93e
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114054"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53594949"
 ---
 # <a name="learn-about-trainable-classifiers"></a>학습 가능한 분류자에 대한 자세한 정보
 
@@ -102,13 +102,18 @@ Microsoft 365 5개의 사전 학습된 분류자와 함께 사용할 수 있습�
 - **괴롭기**: 경마, 민족, 종교, 국적, 성, 성적 취향, 연령, 장애 등 한 명 또는 여러 개인을 대상으로 하는 공격적인 행동과 관련된 특정 범주의 공격적인 언어 텍스트 항목을 검색합니다.
 - **비언어:** 대부분의 사용자에 대해 당황하는 식을 포함하는 특정 범주의 공격적인 언어 텍스트 항목을 검색합니다.
 - **위협:** 위협을 가하거나 사람 또는 속성에 물리적인 손해를 입히기 위해 위협과 관련된 공격적인 언어 텍스트 항목의 특정 범주를 검색합니다.
+- **차별:** 명시적 차별 언어를 감지하며, 다른 커뮤니티와 비교할 때 아프리카 아메리카/검은색 커뮤니티에 대한 차별 언어에 특히 민감합니다.
 
-이러한 분류는 Microsoft 365 데이터 분류 교육 가능한 분류자 보기에 상태가  >    >   `Ready to use` 표시됩니다.
+> [!IMPORTANT]
+> 교육 가능한 차별 분류자는 북미 데이터 센터에 있는 Microsoft 365 공개 미리 보기로만 사용할 수 있습니다. Microsoft 365 테넌트가 있는 위치를 확인하려면 Microsoft 365 관리 센터를 열고 조직 설정 데이터 위치로  >    >    >  **이동합니다.** 
+
+이러한 분류는 Microsoft 365 규정 준수 센터 데이터 분류 학습 가능한  >    >  **분류자** 보기에 상태가 `Ready to use` 표시됩니다.
 
 ![classifiers-pre-trained-classifiers](../media/classifiers-ready-to-use-classifiers.png)
 
 > [!IMPORTANT]
-> 공격적인 언어, 괴롭음, 괴롭음 및 위협 분류자만 검색 가능한 텍스트로 작업하는 것은 전체적이거나 완전하지 않습니다.  또한 언어 및 문화 표준은 지속적으로 변경되고 이러한 현실에 비관하여 Microsoft는 재량에 따라 분류자 업데이트할 수 있는 권리가 있습니다. 분류자는 조직에서 공격적인 언어 및 사용되는 기타 언어를 모니터링하는 데 도움이 될 수 있는 반면 분류자는 이러한 언어의 결과를 해결하지는 못하며, 이러한 언어의 사용을 모니터링하거나 이에 응답하는 데 조직만 사용할 수 있는 수단을 제공하지는 않습니다. Microsoft 또는 해당 자회사가 아닌 조직은 사전 학습된 분류자에 의해 식별된 콘텐츠의 모니터링, 적용, 차단, 제거 및 보존과 관련된 모든 결정에 대한 책임이 있습니다.
+> 공격적인 언어, 괴롭히는 언어, 희롱, 차별 및 위협 분류기는 검색 가능한 텍스트로만 작동하며 이러한 영역의 전체 또는 전체 용어 또는 언어 목록은 아니며 이에 유의하세요. 또한 언어 및 문화 표준은 지속적으로 변경되고 이러한 현실에 비관하여 Microsoft는 재량에 따라 분류자 업데이트할 수 있는 권리가 있습니다. 분류자 조직에서 이러한 영역을 검색하는 데 도움이 될 수 있는 반면 분류기는 이러한 언어의 사용을 검색하거나 해결할 수 있는 유일한 수단을 조직에 제공하기 위한 것이 아니며, Microsoft 또는 해당 자회사가 아닌 조직은 사전 학습된 분류자에 의해 식별된 콘텐츠의 모니터링, 검사, 차단, 제거 및 보존과 관련된 모든 결정(로컬 개인 정보 및 기타 관련 법률 준수 포함)에 대한 책임을 져야 합니다. Microsoft는 배포 및 사용 전에 법률 자문가와 상의하는 것이 좋습니다.
+
 
 ### <a name="custom-classifiers"></a>사용자 지정 분류자
 

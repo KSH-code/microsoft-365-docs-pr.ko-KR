@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4cf60ea73ea907be9c10b2dd9562a0ea60127f2d
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 2b0b987f12888de6c04d33f711112bf2e400d448
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289898"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53591298"
 ---
 # <a name="collect-investigation-package-api"></a>조사 패키지 수집 API
 
@@ -32,12 +32,11 @@ ms.locfileid: "53289898"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
-
 
 ## <a name="api-description"></a>API 설명
 
@@ -51,10 +50,10 @@ ms.locfileid: "53289898"
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 끝점 API에 [Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 | Machine.CollectForensics | '포렌식 수집'
-위임(직장 또는 학교 계정) | Machine.CollectForensics | '포렌식 수집'
+응용 프로그램|Machine.CollectForensics|'포렌식 수집'
+위임(직장 또는 학교 계정)|Machine.CollectForensics|'포렌식 수집'
 
 > [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
@@ -70,18 +69,18 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/collectInvestiga
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
-Content-Type | 문자열 | application/json. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
+Content-Type|문자열|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
 요청 본문에 다음 매개 변수를 사용하여 JSON 개체를 제공합니다.
 
-매개 변수 | 유형 | 설명
+매개 변수|유형|설명
 :---|:---|:---
-Comment | String | 작업과 연결되는 설명입니다. **필수입니다**.
+Comment|String|작업과 연결되는 설명입니다. **필수입니다**.
 
 ## <a name="response"></a>응답
 

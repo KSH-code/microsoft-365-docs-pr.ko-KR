@@ -17,14 +17,14 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: c60620d2a589c8473764b810d1fcb0e24f674451
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 82cc897cf8ae2289c83111a27bb8d82b401a86c9
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904059"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595753"
 ---
-# <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스로 중요한 폴더 보호
+# <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스를 사용하여 중요한 폴더 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -32,7 +32,7 @@ ms.locfileid: "52904059"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="what-is-controlled-folder-access"></a>제어된 폴더 액세스란?
 
@@ -58,7 +58,7 @@ Configuration Manager 또는 Intune을 사용하여 앱을 신뢰할 수 있는 
 
 ## <a name="why-controlled-folder-access-is-important"></a>제어된 폴더 액세스가 중요한 이유
 
-제어된 폴더 액세스는 랜섬웨어로부터 문서 및 정보를 보호하는 데 [특히 유용합니다.](https://www.microsoft.com/wdsi/threats/ransomware) 랜섬웨어 공격에서 파일은 암호화되고 인질로 보호될 수 있습니다. 제어된 폴더 액세스가 적용된 경우 앱이 보호된 폴더의 파일을 변경하려고 시도한 컴퓨터에 알림이 표시됩니다. 회사 세부 [정보 및 연락처](customize-attack-surface-reduction.md#customize-the-notification) 정보로 알림을 사용자 지정할 수 있습니다. 또한 규칙을 개별적으로 사용하도록 설정하여 기능이 모니터링하는 기술을 사용자 지정할 수 있습니다.
+제어된 폴더 액세스는 랜섬웨어로부터 문서 및 정보를 보호하는 데 [특히 유용합니다.](https://www.microsoft.com/wdsi/threats/ransomware) 랜섬웨어 공격에서 파일은 암호화되고 인질로 보호될 수 있습니다. 제어된 폴더 액세스가 적용된 경우 앱이 보호된 폴더의 파일을 변경하려고 시도한 컴퓨터에 알림이 표시됩니다. 회사 세부 정보 및 연락처 정보로 [알림을 사용자 지정](customize-attack-surface-reduction.md#customize-the-notification)할 수 있습니다. 규칙을 개별적으로 사용하도록 설정하여 기능에서 모니터링하는 기술을 사용자 지정할 수도 있습니다.
 
 보호된 [폴더에는](#review-controlled-folder-access-events-in-windows-event-viewer) 일반적인 시스템 폴더(부팅 섹터 포함)가 포함되고 폴더를 더 추가할 [수 있습니다.](customize-controlled-folders.md#protect-additional-folders) 앱에서 보호된 [폴더에](customize-controlled-folders.md#allow-specific-apps-to-make-changes-to-controlled-folders) 대한 액세스 권한을 부여하도록 허용할 수도 있습니다.
 
@@ -89,9 +89,9 @@ Windows 폴더는 기본적으로 몇 가지 다른 폴더와 함께 보호됩�
 
 제어된 폴더 액세스를 사용하려면 실시간 Microsoft Defender 바이러스 백신 [활성화해야 합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
-## <a name="review-controlled-folder-access-events-in-the-microsoft-365-defender-portal"></a>Defender 포털에서 제어된 폴더 액세스 Microsoft 365 검토
+## <a name="review-controlled-folder-access-events-in-the-microsoft-365-defender-portal"></a>웹 사이트 포털에서 제어된 폴더 액세스 Microsoft 365 Defender 검토
 
-Endpoint용 Defender는 이벤트에 대한 자세한 보고를 [](investigate-alerts.md) 제공하며, Microsoft 365 Defender 포털에서 경고 조사 시나리오의 일부로 차단합니다. [(Defender의 끝점에 대한 Microsoft Defender를 Microsoft 365 참조).](../defender/microsoft-365-security-center-mde.md)
+Endpoint용 Defender는 이벤트에 대한 자세한 보고를 [](investigate-alerts.md) 제공하며, 이벤트 포털에서 경고 조사 시나리오의 일부로 Microsoft 365 Defender 차단합니다. (자세한 내용은 [Microsoft Defender for Endpoint를 Microsoft 365 Defender](../defender/microsoft-365-security-center-mde.md)참조).
 
 고급 헌팅을 사용하여 Microsoft Defender에서 끝점 데이터를 [쿼리할 수 있습니다.](/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection) 감사 모드를 사용하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 제어된 폴더 액세스 설정이 사용하도록 설정된 경우 환경에 어떤 영향을 주는지 볼 수 있습니다. [](advanced-hunting-overview.md)
 
@@ -107,7 +107,7 @@ DeviceEvents
 제어된 Windows 로그를 검토하여 제어된 폴더 액세스가 앱을 차단(또는 감사)할 때 생성되는 이벤트를 볼 수 있습니다.
 
 1. 평가 [패키지를](https://aka.ms/mp7z2w) 다운로드하고  디바이스에서cfa-events.xml쉽게 액세스할 수 있는 위치에 파일을 추출합니다.
-2. 시작 **메뉴에** 이벤트 뷰어를 입력하여 이벤트 뷰어를 Windows 열 수 있습니다.
+2. 이벤트 **뷰어를** 시작 메뉴 이벤트 뷰어를 Windows 합니다.
 3. 왼쪽 패널의 **동작에서** 사용자 지정 보기 **가져오기... 를 선택합니다.**
 4. 추출한 위치로 *이동하여cfa-events.xml* 선택합니다. 또는 [XML을 직접 복사합니다.](event-views.md)
 5. **확인** 을 선택합니다.

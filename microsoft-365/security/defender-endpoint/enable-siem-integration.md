@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 420495c3d76698561be7a02d27468237bdd98dff
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 81bed621396e4dd8fe57eae157ed2be62f350fc6
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53543350"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53594937"
 ---
 # <a name="enable-siem-integration-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 SIEM 통합 사용
 
@@ -31,7 +31,7 @@ ms.locfileid: "53543350"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink) 
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 SIEM(보안 정보 및 이벤트 관리) 통합을 사용하도록 설정하여 보안 정보 및 이벤트 관리에서 검색을 Microsoft 365 Defender. SIEM 솔루션을 사용하여 검색을 끌어오거나 검색 REST API에 직접 연결합니다.
 
@@ -55,10 +55,10 @@ SIEM(보안 정보 및 이벤트 관리) 통합을 사용하도록 설정하여 
 
 1. 탐색 창에서 **끝점 API 설정**  >    >    >  **SIEM을 선택합니다.**
 
-    :::image type="content" source="../../media/enable_siemnew.png" alt-text="메뉴의 SIEM 통합 설정1":::
+      :::image type="content" source="../../media/enable-siemnew.png" alt-text="메뉴의 SIEM 통합 설정1":::
 
-    >[!TIP]
-    >SIEM 커넥터 응용 프로그램을 사용하도록 설정할 때 오류가 발생하는 경우 브라우저의 팝업 차단 설정을 확인합니다. 이 기능을 사용하도록 설정하면 새 창이 열리게 차단될 수 있습니다. 
+      >[!TIP]
+      >SIEM 커넥터 응용 프로그램을 사용하도록 설정할 때 오류가 발생하는 경우 브라우저의 팝업 차단 설정을 확인합니다. 이 기능을 사용하도록 설정하면 새 창이 열리게 차단될 수 있습니다. 
 
 2. **SIEM 통합 사용 을 선택합니다.** 이렇게 하면 미리 채워진 값이 포함된 **SIEM** 커넥터 액세스 세부 정보 섹션이 활성화되어 응용 프로그램이 Azure Active Directory(Azure AD) 테넌트에 만들어집니다.
 

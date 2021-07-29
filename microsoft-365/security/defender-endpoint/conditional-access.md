@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 21d17ee789a4757df10e99514f23cfc26b186405
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 3d52e9d2d6fc10cfd58a6d658bb01f5b7bfa1c83
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166200"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53591310"
 ---
 # <a name="enable-conditional-access-to-better-protect-users-devices-and-data"></a>조건부 액세스를 사용하도록 설정하여 사용자, 장치 및 데이터를 보다 잘 보호 
 
@@ -31,11 +31,11 @@ ms.locfileid: "51166200"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-abovefoldlink)
 
 조건부 액세스는 보안 장치만 응용 프로그램에 액세스할 수 있도록 하여 사용자 및 엔터프라이즈 정보를 보다 잘 보호하는 데 도움이 되는 기능입니다.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4byD1]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4byD1]
 
 조건부 액세스를 사용하면 장치의 위험 수준에 따라 엔터프라이즈 정보에 대한 액세스를 제어할 수 있습니다. 이렇게 하면 신뢰할 수 있는 사용자가 신뢰할 수 있는 응용 프로그램을 사용하여 신뢰할 수 있는 디바이스를 유지하는 데 도움이 됩니다.
 

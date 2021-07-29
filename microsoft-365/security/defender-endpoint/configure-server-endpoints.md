@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c318f063814d9b31e6d07c3bc6c7feea503efe2c
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 73a602f9a8fbf9387708b1d0343315b7bc82617c
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544845"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595873"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -36,7 +36,7 @@ ms.locfileid: "53544845"
 - Windows Server 2019 이상
 - Windows Server 2019 Core Edition
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configserver-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configserver-abovefoldlink)
 
 Endpoint용 Defender는 Windows 서버 운영 체제를 포함하기 위해 지원을 확장합니다. 이 지원은 보안 콘솔을 통해 고급 공격 감지 및 조사 기능을 Microsoft 365 Defender 제공합니다.
 
@@ -112,7 +112,6 @@ Windows Server 2008 R2 SP1 및 Windows Server 2012 R2의 경우: 클라이언트
 서버에서 프록시를 사용하여 끝점용 Defender와 통신해야 하는 경우 다음 방법 중 하나를 사용하여 프록시 서버를 사용하도록 MMA를 구성합니다.
 
 - [프록시 서버를 사용하도록 MMA 구성](/azure/azure-monitor/platform/agent-windows#install-agent-using-setup-wizard)
-
 - [모든 Windows 프록시 서버를 사용하도록 구성](configure-proxy-internet.md)
 
 프록시 또는 방화벽이 사용 중이면 서버가 SSL 차단 없이 모든 끝점용 Microsoft Defender 서비스 URL에 직접 액세스할 수 있도록 합니다. 자세한 내용은 [Enable access to Defender for Endpoint service URLs을 참조하세요.](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server) SSL 차단을 사용하는 경우 시스템이 Endpoint용 Defender 서비스와 통신하지 못하게 됩니다.
@@ -123,11 +122,11 @@ Windows Server 2008 R2 SP1 및 Windows Server 2012 R2의 경우: 클라이언트
 
 Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을  >    >    >  **선택합니다.**
 
-2. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택합니다.
+1. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택합니다.
 
-3. **Azure 보안 센터에서 서버 온보더를 클릭합니다.**
+2. **Azure 보안 센터에서 서버 온보더를 클릭합니다.**
 
-4. [Azure Defender를 사용하여 끝점용 Microsoft Defender의](/azure/security-center/security-center-wdatp) 온보딩 지침을 따르고 Azure ARC를 사용하는 경우 끝점 통합을 위해 [Microsoft Defender](/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)통합 사용의 온보딩 지침을 따릅니다.
+3. [Azure Defender를 사용하여 끝점용 Microsoft Defender의](/azure/security-center/security-center-wdatp) 온보딩 지침을 따르고 Azure ARC를 사용하는 경우 끝점 통합을 위해 [Microsoft Defender](/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)통합 사용의 온보딩 지침을 따릅니다.
 
 온보더링 단계를 완료한 후 클라이언트를 구성하고 System Center Endpoint Protection [합니다.](#configure-and-update-system-center-endpoint-protection-clients)
 
@@ -182,7 +181,9 @@ Windows Server에 대한 지원은 서버 활동, 커널 및 메모리 공격 �
 
 3. 다음 명령을 실행하여 Microsoft Defender AV가 설치되어 있는지 확인합니다.
 
-   ```sc.exe query Windefend```
+   ```dos
+   sc.exe query Windefend
+   ```
 
     결과가 '지정된 서비스가 설치된 서비스로 존재하지 않는 경우 Microsoft Defender AV를 설치해야 합니다. 자세한 내용은 Microsoft Defender 바이러스 백신 [를 Windows 10.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
 
@@ -204,10 +205,12 @@ Endpoint용 Defender는 Azure Defender와 통합하여 포괄적인 서버 Windo
 - 서버 조사 - Azure Defender 고객은 액세스하여 Microsoft 365 Defender 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
 
 > [!IMPORTANT]
-> - Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트에 대한 Defender가 자동으로 만들어집니다(미국 사용자의 경우 유럽 및 영국 사용자용 EU).<br>
+>
+> - Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트에 대한 Defender가 자동으로 만들어집니다(미국 사용자의 경우 유럽 및 영국 사용자용 EU).
 Endpoint용 Defender에서 수집한 데이터는 프로비전 중에 식별된 테넌트의 지리적 위치에 저장됩니다.
 > - Azure Defender를 사용하기 전에 Endpoint용 Defender를 사용하는 경우 나중에 Azure Defender와 통합하는 경우에도 테넌트를 만들 때 지정한 위치에 데이터가 저장됩니다.
-> - 일단 구성되면 데이터가 저장되는 위치를 변경할 수 없습니다. 데이터를 다른 위치로 이동해야 하는 경우 Microsoft 지원에 문의하여 테넌트를 다시 설정해야 합니다. <br>
+> - 일단 구성되면 데이터가 저장되는 위치를 변경할 수 없습니다. 데이터를 다른 위치로 이동해야 하는 경우 Microsoft 지원에 문의하여 테넌트를 다시 설정해야 합니다.
+>
 이러한 통합을 활용하는 서버 끝점 모니터링은 Office 365 GCC 사용하지 않도록 설정되어 있습니다.
 
 ## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>클라이언트 구성 및 System Center Endpoint Protection 업데이트
@@ -228,7 +231,6 @@ SAC(Windows Server), Windows Server 2019 및 Windows Server 2019 Core Edition은
 - [Configuration Manager를 사용하여 디바이스 오프보드](configure-endpoints-sccm.md#offboard-devices-using-configuration-manager)
 - [모바일 장치 관리 도구를 사용하여 장치 오프보드 및 모니터링](configure-endpoints-mdm.md#offboard-and-monitor-devices-using-mobile-device-management-tools)
 - [로컬 스크립트를 사용하여 디바이스 오프보딩](configure-endpoints-script.md#offboard-devices-using-a-local-script)
-
 
 다른 Windows 서버 버전의 경우 서비스에서 서버 Windows 오프보드할 수 있는 두 가지 옵션이 있습니다.
 
@@ -278,7 +280,6 @@ Windows 서버를 오프보딩하기 위해 MMA 에이전트를 Windows 끝점 �
     $AgentCfg.RemoveCloudWorkspace(&quot;WorkspaceID")
     # Reload the configuration and apply changes
     $AgentCfg.ReloadConfiguration()
-
     ```
 
 ## <a name="onboarding-servers-with-no-management-solution"></a>관리 솔루션이 없는 온보드 서버
@@ -349,7 +350,7 @@ OPINSIGHTS_WORKSPACE_KEY=<your workspace key>== AcceptEndUserLicenseAgreement=1"
 시작 프로세스의 일부로 서버를 다시 시작하면 고객 환경 및 진단 원격 분석 KB에 대한 업데이트가 설치된 다음 MMA 에이전트를 설치하고 작업 영역 ID 및 키를 설정하면 서버가 온보드됩니다.
 
 모든 서버를 다시  시작하지 않을 경우 즉시 작업을 사용하여 deployMMA.cmd를 실행할 수도 있습니다.
-이 단계는 두 단계로 수행될 수 있습니다. **먼저** GPO에서 파일 및 폴더 만들기 - GPO가 적용되고 모든 서버에 설치 파일이 있도록 시스템 시간을 제공합니다. 그런 다음 직접 작업을 추가합니다. 이렇게 하면 다시 재부팅하지 않고도 동일한 결과를 얻을 수 있습니다.
+이 단계는 두 단계로 수행될 수 있습니다. 먼저 **GPO에서 파일** 및 폴더를 생성합니다. GPO가 적용되고 모든 서버에 설치 파일이 있도록 시스템 시간을 제공합니다. 그런 다음 직접 작업을 추가합니다. 이렇게 하면 다시 재부팅하지 않고도 동일한 결과를 얻을 수 있습니다.
 
 Script에는 종료 메서드가 있으며 MMA가 설치된 경우 다시 실행되지 않습니다. 또한 매일 예약된 작업을 사용하여 동일한 결과를 얻을 수도 있습니다. Configuration Manager 준수 정책과 마찬가지로 MMA가 있는지 매일 검사합니다.
 

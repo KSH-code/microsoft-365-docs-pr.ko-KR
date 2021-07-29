@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 7da28ea308994663549c2c490f53a3e0e75a0857
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: ba376288b759f9a9c331450f3f48c918b0171e51
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339265"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595693"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -180,12 +180,12 @@ ms.locfileid: "53339265"
 
 1. 디바이스에서 상승된 명령줄 프롬프트를 니다.
    1. **시작**(으)로 이동하고 _cmd_ 를 입력하십시오.
-   2. 명령 **프롬프트를 마우스 오른쪽 단추로 클릭하고** **관리자 권한으로 실행을 선택합니다.**
+   2. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
 2. 다음 명령을 입력하고 **Enter를 누를 수 있습니다.**
 
     ```console
-    "ProgramFiles%\Windows Defender\MpCmdRun.exe" –Restore –Name EUS:Win32/CustomEnterpriseBlock –All
+    "ProgramFiles%\Windows Defender\MpCmdRun.exe" -Restore -Name EUS:Win32/CustomEnterpriseBlock -All
     ```
 
     > [!IMPORTANT]
@@ -346,7 +346,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 
 - [클라우드 제공 보호](#cloud-delivered-protection)
 - [잠재적으로 원치 않는 응용 프로그램에 대한 수정](#remediation-for-potentially-unwanted-applications)
-- [자동화된 조사 및 수정](#automated-investigation-and-remediation)
+- [자동 조사 및 수정](#automated-investigation-and-remediation)
 
 ### <a name="cloud-delivered-protection"></a>클라우드 제공 보호
 

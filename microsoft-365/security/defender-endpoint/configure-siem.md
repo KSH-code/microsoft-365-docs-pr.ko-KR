@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 97a64c8537ff2a6f9948ed6ed056b8aa7379ce69
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 23940fc05e08dec6074dbdc420d529425cec0027
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222338"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595825"
 ---
 # <a name="pull-detections-to-your-siem-tools"></a>SIEM 도구로 검색 끌어오기
 
@@ -31,7 +31,7 @@ ms.locfileid: "51222338"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink)
 
 ## <a name="pull-detections-using-security-information-and-events-management-siem-tools"></a>SIEM(보안 정보 및 이벤트 관리) 도구를 사용하여 검색 끌어오기
 

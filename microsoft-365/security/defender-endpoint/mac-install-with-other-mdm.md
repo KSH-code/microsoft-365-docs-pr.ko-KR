@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f980c7121a8796f2cf48cc85c401ed499b4b581b
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: f998a39a1e6407e0f14530b6bb237bc8b6aba6fd
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542288"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53591082"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
 
@@ -34,7 +34,7 @@ ms.locfileid: "53542288"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
  
 ## <a name="prerequisites-and-system-requirements"></a>선행 조건 및 시스템 요구 사항
 
@@ -68,7 +68,7 @@ MacOS의 끝점용 Microsoft Defender는 공급업체별 기능에 의존하지 
 
 ### <a name="package"></a>패키지
 
-에서 다운로드한 설치 패키지(wdav.pkg)를 통해 필수 응용 프로그램 패키지의 [배포를 Microsoft Defender 보안 센터.](mac-install-with-jamf.md) [](mac-install-with-jamf.md)
+포털 에서 [](mac-install-with-jamf.md)다운로드한 설치 패키지(wdav.pkg)를 Microsoft 365 Defender [배포를 구성합니다.](mac-install-with-jamf.md)
 
 엔터프라이즈에 패키지를 배포하기 위해 MDM 솔루션과 관련된 지침을 사용하세요.
 
@@ -78,7 +78,7 @@ MacOS의 끝점용 Microsoft Defender는 공급업체별 기능에 의존하지 
 
 MacOS의 끝점용 Microsoft Defender는 macOS의 일부가 아니기 때문에 MDM 솔루션에서 "사용자 지정 설정 프로필"처럼 호출할 수 있습니다.
 
-에서 다운로드한 등록 패키지에서 추출할 수 있는 속성 목록 jamf/WindowsDefenderATPOnboarding.plist를 [Microsoft Defender 보안 센터.](mac-install-with-jamf.md)
+Microsoft 365 Defender 포털에서 다운로드한 등록 패키지에서 추출할 수 있는 속성 목록 jamf/WindowsDefenderATPOnboarding.plist를 [사용하세요.](mac-install-with-jamf.md)
 시스템에서 임의의 속성 목록을 XML 형식으로 지원할 수 있습니다. jamf/WindowsDefenderATPOnboarding.plist 파일을 현재 있는 것으로 업로드할 수 있습니다.
 또는 먼저 속성 목록을 다른 형식으로 변환해야 할 수 있습니다.
 
@@ -116,7 +116,7 @@ KEXT 또는 커널 확장 정책을 설정합니다. 팀 식별자 **UBF8T346G9�
 
 ### <a name="network-extension-policy"></a>네트워크 확장 정책
 
-끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft 365 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
+끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft 365 Defender 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
 - 필터 유형: 플러그 인
 - 플러그 인 번들 식별자: `com.microsoft.wdav`

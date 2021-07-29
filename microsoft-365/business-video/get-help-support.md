@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium에서 관리자 도움말 또는 온라인 또는 전화 지원을 받으려면 비즈니스 구독의 관리자여야 합니다.
-ms.openlocfilehash: c33506a17ea7c99902025b613e27168606e7ff03
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 982c36ba5c941b2269fbdc59a66fa65e1baa903c
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394824"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595021"
 ---
 # <a name="get-support"></a>지원 받기
 
@@ -46,15 +46,11 @@ ms.locfileid: "53394824"
 
 온라인으로 서비스 요청을 시작하여 시간을 절약합니다. 솔루션을 찾거나 기술 지원을 받을 수 있도록 도와드리겠습니다.
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. “이 페이지에 액세스하거나 이 작업 수행에 대한 권한이 없습니다”라는 메시지를 받는 사용자는 관리자가 아닙니다.(자세한 내용은 [내 비즈니스에서 관리자 권한을 가진 사용자 알아보기](admin-center-overview.md#who-has-admin-permissions-in-my-business)를 참조하세요.)
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2166757" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. “이 페이지에 액세스하거나 이 작업 수행에 대한 권한이 없습니다”라는 메시지를 받는 사용자는 관리자가 아닙니다.(자세한 내용은 [내 비즈니스에서 관리자 권한을 가진 사용자 알아보기](admin-center-overview.md#who-has-admin-permissions-in-my-business)를 참조하세요.)
 
-2. **도움이 필요하신가요?** 버튼을 선택합니다.
+1. 결과가 도움이 되지 않으면 **지원 팀에 문의하기** 를 선택합니다.
 
-3. **도움이 필요하신가요?** 창에서 도움이 필요한 사항을 설명하고 **Enter** 를 누릅니다.
-
-4. 결과가 도움이 되지 않으면 **지원 팀에 문의하기** 를 선택합니다.
-
-5. 원하는 경우 문제 설명을 입력하고, 연락 번호와 전자 메일 주소를 확인합니다. 선호하는 연락 방법을 선택하고 **연락 받기** 를 선택합니다. 예상 대기 시간은 **도움이 필요하신가요?** 창에 표시됩니다.
+1. 원하는 경우 문제 설명을 입력하고, 연락 번호와 전자 메일 주소를 확인합니다. 선호하는 연락 방법을 선택하고 **연락 받기** 를 선택합니다. 예상 대기 시간은 **도움이 필요하신가요?** 창에 표시됩니다.
 
 ## <a name="phone-support"></a>전화 지원
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: dc3ce994108f902e3119de2f5b175b232b68c891
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: fcb34385446342e4b0a948f561b886e19743aa4e
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843725"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53591142"
 ---
 # <a name="microsoft-defender-for-endpoint-api-license-and-terms-of-use"></a>Endpoint용 Microsoft Defender API 라이선스 및 사용 약관
 
@@ -37,15 +37,16 @@ ms.locfileid: "52843725"
 
 ### <a name="throttling-limits"></a>제한
 
-이름 | 통화 | 갱신 기간 
+이름|통화|갱신 기간
 :---|:---|:---
-연결당 API 호출 | 100 | 60초
-
+연결당 API 호출|100|60초
 
 ## <a name="legal-notices"></a>법적 고지
 
 Microsoft 및 모든 참가자는 Creative Commons Attribution 4.0 International Public License에 따라 Microsoft 설명서 및 이 리포지토리의 기타 콘텐츠에 대한 라이선스를 부여합니다. LICENSE 파일을 참조하세요.
 
-Microsoft, Windows, Microsoft Azure 및/또는 설명서에 참조된 기타 Microsoft 제품 및 서비스는 미국 및/또는 기타 국가에서 Microsoft의 상표 또는 등록 상표일 수 있습니다. 이 프로젝트의 라이선스는 Microsoft 이름, 로고 또는 상표를 사용할 수 있는 권한을 부여하지 않습니다. Microsoft의 일반 상표 지침은 에서 찾을 수 https://go.microsoft.com/fwlink/?LinkID=254653 있습니다.
+Microsoft, Windows, Microsoft Azure 및/또는 설명서에 참조된 기타 Microsoft 제품 및 서비스는 미국 및/또는 기타 국가에서 Microsoft의 상표 또는 등록 상표일 수 있습니다. 이 프로젝트의 라이선스는 Microsoft 이름, 로고 또는 상표를 사용할 수 있는 권한을 부여하지 않습니다. Microsoft의 일반 상표 지침은 에서 찾을 수 <https://go.microsoft.com/fwlink/p/?LinkID=254653> 있습니다.
 
-개인 정보 보호 정보는 Microsoft에서 찾을 수 있으며 모든 참가자는 해당 저작권, 특허 또는 상표에 따라 암시적, 에스토플 또는 기타에 의해서든 다른 모든 권리를 https://privacy.microsoft.com/en-us/ 보유합니다.
+개인 정보 보호 정보는 에서 찾을 수 <https://privacy.microsoft.com/> 있습니다.
+
+Microsoft와 모든 참가자는 해당 저작권, 특허권 또는 상표에 따라 암시적, 에스토플 또는 기타에 의해서든 다른 모든 권리를 보유합니다.

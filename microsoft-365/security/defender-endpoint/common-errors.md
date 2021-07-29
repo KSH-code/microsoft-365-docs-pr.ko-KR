@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c2e52b7074dcd15e7f6852a11ccb7793572cd9b5
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 482893e069f33f445bdb792eebed3ea6cf2ad91c
+ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771012"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53591370"
 ---
 # <a name="common-rest-api-error-codes"></a>일반적인 REST API 오류 코드
 
@@ -33,7 +33,7 @@ ms.locfileid: "52771012"
 * 메시지는 변경할 수 있는 무료 텍스트입니다.
 * 페이지 아래쪽에서 응답 예제를 찾을 수 있습니다.
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 오류 코드 |HTTP 상태 코드 |메시지 
 :---|:---|:---

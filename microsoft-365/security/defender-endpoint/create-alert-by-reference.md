@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 7f8d3b10cee0b3c4a561dfd1f7567fa9818e7686
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 91e57b9941764d5f26ae47e137f584cd9f2c5f5d
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289466"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595765"
 ---
 # <a name="create-alert-api"></a>경고 API 만들기
 
@@ -31,7 +31,7 @@ ms.locfileid: "53289466"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -75,10 +75,10 @@ POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
-Content-Type | 문자열 | application/json. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
+Content-Type | String | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -87,13 +87,13 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 속성 | 유형 | 설명
 :---|:---|:---
 eventTime | DateTime(UTC) | 고급 헌팅에서 얻은 이벤트의 정확한 시간(문자열)입니다. 예: 필수 ```2018-08-03T16:45:21.7115183Z``` .
-reportId | 문자열 | 고급 헌팅에서 얻은 이벤트의 reportId입니다. **필수입니다**.
-machineId | 문자열 | 이벤트를 식별한 장치의 ID입니다. **필수입니다**.
-심각도 | 문자열 | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
-title | 문자열 | 경고의 제목입니다. **필수입니다**.
-description | 문자열 | 경고에 대한 설명입니다. **필수입니다**.
-recommendedAction| 문자열 | 경고를 분석할 때 보안 담당자가 권장하는 작업입니다. **필수입니다**.
-category| 문자열 | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**
+reportId | String | 고급 헌팅에서 얻은 이벤트의 reportId입니다. **필수입니다**.
+machineId | String | 이벤트를 식별한 장치의 ID입니다. **필수입니다**.
+심각도 | String | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
+title | String | 경고의 제목입니다. **필수입니다**.
+설명 | String | 경고에 대한 설명입니다. **필수입니다**.
+recommendedAction| String | 경고를 분석할 때 보안 담당자가 권장하는 작업입니다. **필수입니다**.
+category| String | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**
 
 ## <a name="response"></a>응답
 

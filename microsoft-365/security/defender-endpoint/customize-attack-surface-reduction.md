@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 6d2770dec270e2d1c1b9750387a0f07f82b357f9
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: c30bcfc867f314c3bd11dc0aa87d91c02371e7d5
+ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177096"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53595729"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용자 지정
 
@@ -28,7 +28,7 @@ ms.locfileid: "53177096"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
@@ -124,7 +124,7 @@ ms.locfileid: "53177096"
 
 규칙이 트리거되는 경우 알림을 사용자 지정하고 앱 또는 파일을 차단할 수 있습니다. 자세한 [내용은 Windows 보안](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center#customize-notifications-from-the-windows-defender-security-center) 참조하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [공격 표면 감소 규칙을 사용하여 공격 표면 감소](attack-surface-reduction.md)
 - [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
