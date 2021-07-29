@@ -1,7 +1,7 @@
 ---
-title: Microsoft Viva 주제 역할
-ms.author: efrene
-author: efrene
+title: Microsoft Viva 항목의 역할
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -14,14 +14,14 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva 항목의 사용자 역할에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9f1d3667ee9eeb05201613c15dc360b2b006cecb
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: e26f47e5826ac6db6c41e1b0648dd23398f51c43
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288074"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622295"
 ---
-# <a name="microsoft-viva-topics-roles"></a>Microsoft Viva 주제 역할 
+# <a name="roles-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 역할
 
 Microsoft 365 환경에서 Viva 항목을 사용할 경우 사용자는 다음과 같은 역할을 할 수 있습니다.
 
@@ -54,9 +54,9 @@ Microsoft 365 환경에서 Viva 항목을 사용할 경우 사용자는 다음�
 
 ## <a name="knowledge-managers"></a>지식 매니저
 
-지식 매니저는 조직의 주제를 관리하는 사용자입니다.  주제 관리는 주제 센터의 주제 관리 페이지를 통해 수행되며, 지식 매니저에게만 표시됩니다.
+지식 매니저는 조직의 주제를 관리하는 사용자입니다.  항목 관리는 항목  센터의 항목 관리 페이지를 통해 수행하며 지식 관리자에게만 표시됩니다.
 
-주제 관리 페이지에서 지식 매니저는 다음 작업을 수행할 수 있습니다.
+항목 **관리 페이지에서** 기술 관리자는 다음 작업을 수행할 수 있습니다.
 
 - AI가 추천하는 주제를 볼 수 있습니다.
 - 항목을 검토하여 해당 항목의 유효성을 검사합니다.

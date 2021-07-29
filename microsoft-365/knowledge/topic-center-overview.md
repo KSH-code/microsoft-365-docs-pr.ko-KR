@@ -1,7 +1,7 @@
 ---
-title: Microsoft Viva 항목의 항목 센터 개요
-author: chuckedmonson
+title: 항목 센터 개요 Microsoft Viva 항목
 ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -11,19 +11,18 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-ROBOTS: ''
 localization_priority: None
-description: Microsoft Viva 항목의 항목 센터에 대해 자세히 알아보습니다.
-ms.openlocfilehash: bd3bdbc368ca95b1c795043c5c083aaebfcf5742
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+description: 자세한 내용은 Microsoft Viva 참조하세요.
+ms.openlocfilehash: 17dec65a1347d3e65ea7794d3b6129267776d6a2
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287284"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624455"
 ---
-# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 항목 센터 개요
+# <a name="topic-center-overview-in-microsoft-viva-topics"></a>항목 센터 개요 Microsoft Viva 항목
 
-Microsoft Viva 항목에서 항목 센터는 조직의 지식 SharePoint 제공하는 최신 사이트입니다. 이 설정은 2016년 [8월의 Viva](set-up-topic-experiences.md) 항목 설정 중에 Microsoft 365 관리 센터.
+Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 SharePoint 제공하는 최신 사이트입니다. 이 설정은 2016년 [8월의 Viva](set-up-topic-experiences.md) 항목 설정 중에 Microsoft 365 관리 센터.
 
 항목 센터에는 사용이 허가된  모든 사용자가 연결이 있는 항목을 볼 수 있는 항목 웹 파트가 있는 기본 홈 페이지가 있습니다.
 

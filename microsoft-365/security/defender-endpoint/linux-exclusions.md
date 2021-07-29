@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b55572509e9837f2858f96b01a13fbf259b2b770
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 0fbcdaf4a9882f80578d871def3dd33674a7231f
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393790"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622211"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender 제외 구성 및 유효성 검사
 
@@ -33,7 +33,7 @@ ms.locfileid: "53393790"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 이 문서에서는 요구 시 검사에 적용되는 제외를 정의하는 방법과 실시간 보호 및 모니터링에 대한 정보를 제공합니다.
 
@@ -51,22 +51,22 @@ Linux 검사에서 Endpoint용 Defender에서 특정 파일, 폴더, 프로세�
 
 다음 표에는 Linux의 Endpoint용 Defender에서 지원하는 제외 유형이 표시됩니다.
 
-제외 | 정의 | 예제
+제외|정의|예제
 ---|---|---
-파일 확장명 | 디바이스의 아무 곳이나 확장명을 사용하여 모든 파일 | `.test`
-파일 | 전체 경로로 식별된 특정 파일 | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
-폴더 | 지정된 폴더에 있는 모든 파일(재발성) | `/var/log/`<br/>`/var/*/`
-프로세스 | 전체 경로 또는 파일 이름으로 지정된 특정 프로세스 및 이 프로세스에서 연 모든 파일 | `/bin/cat`<br/>`cat`<br/>`c?t`
+파일 확장명|디바이스의 아무 곳이나 확장명을 사용하여 모든 파일|`.test`
+파일|전체 경로로 식별된 특정 파일|`/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+폴더|지정된 폴더에 있는 모든 파일(재발성)|`/var/log/`<br/>`/var/*/`
+프로세스|전체 경로 또는 파일 이름으로 지정된 특정 프로세스 및 이 프로세스에서 연 모든 파일|`/bin/cat`<br/>`cat`<br/>`c?t`
 
 > [!IMPORTANT]
 > 위의 경로는 기호 링크가 아니라 하드 링크되어야만 성공적으로 제외됩니다. 를 실행하여 경로가 기호 링크인지 확인할 수 `file <path-name>` 있습니다.
 
 파일, 폴더 및 프로세스 제외는 다음 와일드카드를 지원합니다.
 
-와일드카드 | 설명 | 예제 | 일치 | 일치하지 않습니다.
+와일드카드|설명|예제|일치|일치하지 않습니다.
 ---|---|---|---|---
-\* |    none을 포함한 모든 문자와 일치합니다(경로 내에서 이 와일드카드를 사용하는 경우 폴더 하나만 대체). | `/var/\*/\*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
-? | 단일 문자와 일치 | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`
+\*|none을 포함한 모든 문자와 일치합니다(경로 내에서 이 와일드카드를 사용하는 경우 폴더 하나만 대체).|`/var/\*/\*.log`|`/var/log/system.log`|`/var/log/nested/system.log`
+?|단일 문자와 일치|`file?.log`|`file1.log`<br/>`file2.log`|`file123.log`
 
 ## <a name="how-to-configure-the-list-of-exclusions"></a>제외 목록을 구성하는 방법
 
@@ -92,6 +92,7 @@ mdatp exclusion
     ```bash
     mdatp exclusion extension add --name .txt
     ```
+
     ```Output
     Extension exclusion configured successfully
     ```
@@ -101,6 +102,7 @@ mdatp exclusion
     ```bash
     mdatp exclusion file add --path /var/log/dummy.log
     ```
+
     ```Output
     File exclusion configured successfully
     ```
@@ -110,10 +112,10 @@ mdatp exclusion
     ```bash
     mdatp exclusion folder add --path /var/log/
     ```
+
     ```Output
     Folder exclusion configured successfully
     ```
-
 
 - 두 번째 폴더에 대한 제외를 추가합니다.
 
@@ -121,10 +123,10 @@ mdatp exclusion
     mdatp exclusion folder add --path /var/log/
     mdatp exclusion folder add --path /other/folder
     ```
+
     ```Output
     Folder exclusion configured successfully
     ```
-
 
 - 와일드카드가 있는 폴더에 대한 제외를 추가합니다.
 
@@ -134,10 +136,11 @@ mdatp exclusion
 
     > [!NOTE]
     > 이 경우 */var/ 아래의* 한 수준만 경로가 제외되지만 더 깊이 중첩된 폴더는 제외됩니다. 예를 들어 */var/this-subfolder/but-not-this-subfolder입니다.*
-    
+
     ```bash
     mdatp exclusion folder add --path "/var/"
     ```
+
     > [!NOTE]
     > 그러면 부모가 */var/ 인 모든 경로가 제외됩니다.* 예: */var/this-subfolder/and-this-subfolder-as-well*.
 
@@ -150,10 +153,10 @@ mdatp exclusion
     ```bash
     mdatp exclusion process add --name cat
     ```
-    ```Output    
+
+    ```Output
     Process exclusion configured successfully
     ```
-
 
 - 두 번째 프로세스에 대한 제외를 추가합니다.
 
@@ -161,7 +164,8 @@ mdatp exclusion
     mdatp exclusion process add --name cat
     mdatp exclusion process add --name dog
     ```
-    ```Output    
+
+    ```Output
     Process exclusion configured successfully
     ```
 

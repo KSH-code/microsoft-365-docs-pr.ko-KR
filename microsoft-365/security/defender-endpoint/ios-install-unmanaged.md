@@ -1,6 +1,6 @@
 ---
 title: iOS 기능에 끝점용 Microsoft Defender 배포
-description: iOS 기능에 끝점용 Microsoft Defender를 배포하는 방법을 설명
+description: 미인인 iOS 디바이스에서 끝점용 Microsoft Defender를 배포하는 방법에 대해 설명
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, ios, 구성, 기능, ios
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b6851c54d961bbb41229f8ae08bad372228629c0
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: ca97031cfffa40e099c5c2b8af68b157f3289aca
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542580"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622607"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-unenrolled-ios-devices"></a>미인인 iOS 장치에 끝점용 Microsoft Defender 배포
 
@@ -32,7 +32,7 @@ ms.locfileid: "53542580"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 > [!NOTE]
 > iOS의 끝점용 Defender는 VPN을 사용하여 웹 보호 기능을 제공합니다. 이는 일반 VPN이 아니며 장치 외부에서 트래픽을 취하지 않는 로컬/자체 루프 VPN입니다.

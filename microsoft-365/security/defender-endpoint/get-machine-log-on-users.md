@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 634a381ca862dc7580d82168a4b9540acc0cd394
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: c789e48e1902253b66b1b54bab4432f1d42aecbd
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229026"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622655"
 ---
 # <a name="get-machine-logon-users-api"></a>컴퓨터 로그온 사용자 확인 API
 
@@ -30,7 +30,7 @@ ms.locfileid: "53229026"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -45,9 +45,10 @@ ms.locfileid: "53229026"
 2. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
 ## <a name="permissions"></a>사용 권한
+
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |사용 권한|사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
 응용 프로그램 |User.Read.All |'사용자 프로필 읽기'
 위임(직장 또는 학교 계정) | User.Read.All | '사용자 프로필 읽기'
@@ -66,9 +67,9 @@ GET /api/machines/{id}/logonusers
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -78,7 +79,7 @@ GET /api/machines/{id}/logonusers
 
 성공 및 장치가 있는 경우 - 본문에 [](user.md) 사용자 엔터티 목록이 있는 200 OK. 장치를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 ### <a name="request"></a>요청
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 87d9d768a81d8e6ddd72753fe7372f18c13254e1
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: d70825f8bdcd47f17d2f61834f4353c537a033ed
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542954"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622571"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-devices-list"></a>끝점 장치용 Microsoft Defender 목록 보기 및 구성
 
@@ -32,8 +32,7 @@ ms.locfileid: "53542954"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-machinesview-abovefoldlink)
-
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-machinesview-abovefoldlink)
 
 장치 **목록에는** 경고가 생성된 네트워크의 장치 목록이 표시됩니다. 기본적으로 큐에는 지난 30일 동안의 장치가 표시됩니다.  
 
@@ -79,9 +78,9 @@ ms.locfileid: "53542954"
 
 다음 장치 상태로 필터링합니다.
 
-- **Active** – 서비스에 센서 데이터를 적극적으로 보고하는 장치입니다.
-- **비활성** - 7일 이상 신호 전송을 완전히 중지한 장치입니다.
-- **잘못 구성되었습니다.** 서비스와의 통신이 손상되거나 센서 데이터를 보낼 수 없는 장치입니다. 잘못 구성된 장치는 다음으로 더 분류될 수 있습니다.
+- **활성:** 서비스에 센서 데이터를 적극적으로 보고하는 장치입니다.
+- **비활성:** 7일 이상 신호 전송을 완전히 중지한 장치입니다.
+- **잘못 구성:** 서비스와의 통신이 손상되거나 센서 데이터를 보낼 수 없는 장치입니다. 잘못 구성된 장치는 다음으로 더 분류될 수 있습니다.
   - 센서 데이터 없음
   - 통신 장애
 

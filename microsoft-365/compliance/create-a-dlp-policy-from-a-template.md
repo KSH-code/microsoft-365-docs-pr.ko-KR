@@ -19,12 +19,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 이 문서에 포함된 템플릿 중 하나를 사용하여 DLP 정책을 만드는 방법을 Office 365.
-ms.openlocfilehash: 0088381698b47b2451f52fde32716a2436e8c073
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: ae0284cfdbdc28db350dd655f9ceeda38830285c
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113970"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622451"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>템플릿에서 DLP 정책 만들기
 
@@ -58,7 +58,7 @@ Microsoft 365 다양한 일반 규정 및 비즈니스 정책 요구를 충족�
     
 ### <a name="create-a-dlp-policy-from-a-template"></a>템플릿에서 DLP 정책 만들기
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 로그인합니다. 이제 보안 및 준수 &amp; 센터에 있습니다.
     
@@ -171,7 +171,7 @@ DLP 정책을 만들고 설정한 후 정책이 해당 콘텐츠에 대한 규�
 |**테스트 중(알림 사용 안 함)** <br/> |정책이 테스트 모드입니다. 규칙의 작업이 적용되지 않지만 정책 일치 항목은 수집되고 DLP 보고서를 사용하여 볼 수 있습니다. 정책 일치 항목에 대한 알림이 지정된 받는 사람에게 전송되지 않습니다.  <br/> |
 |**켜짐** <br/> |정책이 활성 상태이며 적용됩니다. 정책이 모든 콘텐츠 원본으로 배포되었습니다.  <br/> |
 |**끄는 중...** <br/> |정책이 포함하는 콘텐츠 원본에서 제거 중입니다. 정책이 여전히 활성 상태이며 일부 원본에 적용될 수 있습니다. 정책을 끄는 데 45시간까지 소요될 수 있습니다.  <br/> |
-|**해제** <br/> |정책이 활성 상태가 아니며 적용되지 않습니다. 정책에 대한 설정(원본, 키워드, 기간 등)은 저장됩니다.  <br/> |
+|**끄기** <br/> |정책이 활성 상태가 아니며 적용되지 않습니다. 정책에 대한 설정(원본, 키워드, 기간 등)은 저장됩니다.  <br/> |
 |**삭제 중...** <br/> |정책이 삭제되는 중입니다. 정책이 활성 상태가 아니며 적용되지 않습니다. 일반적으로 정책을 삭제하는 데 1시간이 소요됩니다. <br/> |
    
 ## <a name="turn-off-a-dlp-policy"></a>DLP 정책 끄기

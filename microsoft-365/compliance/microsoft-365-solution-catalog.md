@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: 포함된 Microsoft 365, 솔루션 카탈로그를 다운로드하는 방법 및 다음 단계를 포함하여 솔루션 카탈로그에 대해 알아보세요.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 5118cf6ef80513f5c276f5635ab380bdc979db46
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: d98684fd7f839cb0340cce4126e1c45b43b107b8
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288302"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622018"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -82,13 +82,7 @@ Microsoft 365 카탈로그를 방문하여 전역 관리자, 준수 관리자 �
 
 **솔루션 카탈로그가 Microsoft 365 없는 이유는 무엇입니까?**
 
-먼저 적절한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 에서 전역 관리자, 준수 관리자 또는 준수 데이터 [https://compliance.microsoft.com](https://compliance.microsoft.com) 관리자로 로그인합니다.
-
-**솔루션 카탈로그 페이지에 나열된 일부 규정 준수 기능은 솔루션 카탈로그 페이지에서 사용할 수 Microsoft 365 규정 준수 센터. 뭐 할까요?**
-
-We're always working to add new functionality to the Microsoft 365 규정 준수 센터 to the solution catalog. 탐색 영역의 특정 솔루션을 찾을 수 없는 경우 구독에서 솔루션을 사용할 수 있을 때 해당 솔루션에 액세스할 수 있습니다.
-
-기존 규정 준수 솔루션을 찾고 있으며 아직 에서 사용할 수 없는 Microsoft 365 규정 준수 센터 으로 가면 기존 보안 및 준수 센터의 솔루션에 항상 액세스할 &amp; 수 [https://protection.office.com](https://protection.office.com) 있습니다. 또는 보안 및 규정  준수 센터 카드의 왼쪽 탐색 창에서 더 Microsoft 365 규정 준수 센터 탭을 Office 365 수 있습니다.  
+먼저 적절한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 에서 전역 관리자, 준수 관리자 또는 준수 데이터 [https://compliance.microsoft.com](https://compliance.microsoft.com) 관리자로 로그인합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b1777adf7b97083fae2daf4213a4bda742ba097d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8f9f46e56543e0ea4cbd4f6e8a9df325d7bb70af
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198248"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622235"
 ---
 # <a name="import-indicators-api"></a>표시기 가져오기 API
 
@@ -28,59 +28,63 @@ ms.locfileid: "51198248"
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 ## <a name="api-description"></a>API 설명
+
 표시기 엔터티의 일괄 [처리를 제출하거나](ti-indicator.md) 업데이트합니다.
-<br>IP에 대한 CIDR은 지원되지 않습니다.
+
+IP에 대한 CIDR은 지원되지 않습니다.
 
 ## <a name="limitations"></a>제한 사항
+
 1. 이 API에 대한 속도 제한은 분당 30개 호출입니다.
-2. 테넌트당 활성 표시기는 15,000개로 제한됩니다. [](ti-indicator.md) 
+2. 테넌트당 활성 표시기는 15,000개로 제한됩니다. [](ti-indicator.md)
 3. 하나의 API 호출에 대한 최대 일괄 처리 크기는 500입니다.
 
 ## <a name="permissions"></a>사용 권한
+
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Ti.ReadWrite |  '읽기 및 쓰기 표시기'
-응용 프로그램 |   Ti.ReadWrite.All |  '모든 지표 읽기 및 쓰기'
-위임(직장 또는 학교 계정) |    Ti.ReadWrite |  '읽기 및 쓰기 표시기'
-
+응용 프로그램|Ti.ReadWrite|'읽기 및 쓰기 표시기'
+응용 프로그램|Ti.ReadWrite.All|'모든 지표 읽기 및 쓰기'
+위임(직장 또는 학교 계정)|Ti.ReadWrite|'읽기 및 쓰기 표시기'
 
 ## <a name="http-request"></a>HTTP 요청
-```
+
+```http
 POST https://api.securitycenter.microsoft.com/api/indicators/import
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
+이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
-Content-Type | 문자열 | application/json. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
+Content-Type|문자열|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
+
 요청 본문에 다음 매개 변수를 사용하여 JSON 개체를 제공합니다.
 
-매개 변수 | 유형    | 설명
+매개 변수|유형|설명
 :---|:---|:---
-지표 | 목록<[표시기](ti-indicator.md)> | 표시기 [목록입니다.](ti-indicator.md) **필수**
-
+지표|목록<[표시기](ti-indicator.md)>|표시기 [목록입니다.](ti-indicator.md) **필수**
 
 ## <a name="response"></a>응답
+
 - 성공하면 이 메서드는 표시기당 가져오기 결과 목록이 있는 200 - 확인 응답 코드를 반환합니다. 아래 예제를 참조하세요.
 - 성공하지 못하면 이 메서드는 400 - 잘못된 요청을 반환합니다. 잘못된 요청은 일반적으로 잘못된 본문을 나타냅니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
-**요청**
+### <a name="request-example"></a>요청 예제
 
 다음은 요청의 예입니다.
 
@@ -120,7 +124,7 @@ POST https://api.securitycenter.microsoft.com/api/indicators/import
 }
 ```
 
-**응답**
+### <a name="response-example"></a>응답 예제
 
 다음은 응답의 예입니다.
 
@@ -144,4 +148,5 @@ POST https://api.securitycenter.microsoft.com/api/indicators/import
 ```
 
 ## <a name="related-topic"></a>관련 항목
+
 - [지표 관리](manage-indicators.md)

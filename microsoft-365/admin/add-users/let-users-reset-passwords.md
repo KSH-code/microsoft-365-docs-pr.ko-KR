@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용하여 사용자가 암호를 직접 재설정할 수 있도록 하는 정책을 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: ac6d7f16cb35cec757340a94c262c3541bea927a
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 284a81e46ff22bf0a2ae514db81432b64e342a7f
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394318"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622151"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -67,11 +67,9 @@ ms.locfileid: "53394318"
 
 4. 셀프 **서비스 암호 재설정에서** Azure Portal로 이동을 선택하여 셀프 서비스 암호 **재설정을 켜기 를 선택합니다.**
 
-5. 왼쪽 탐색 창에서 사용자 를 선택한 다음 사용자 창에서 | **모든 사용자** 페이지에서 암호 재설정 **을 선택합니다.**
+5. 속성 **페이지에서** 모두를  선택하여 비즈니스의 모든 사용자에 대해 사용하도록 설정한 다음 저장을 **선택합니다.**
   
-6. 속성 **페이지에서** 모두를  선택하여 비즈니스의 모든 사용자에 대해 사용하도록 설정한 다음 저장을 **선택합니다.**
-  
-7. 사용자가 로그인하면 향후 암호를 다시 설정하는 데 도움이 되는 추가 연락처 정보를 입력하라는 메시지가 표시될 것입니다.
+6. 사용자가 로그인하면 향후 암호를 다시 설정하는 데 도움이 되는 추가 연락처 정보를 입력하라는 메시지가 표시될 것입니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

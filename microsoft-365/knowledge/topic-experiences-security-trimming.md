@@ -1,7 +1,7 @@
 ---
-title: Microsoft Viva 항목 보안 트리밍
-ms.author: efrene
-author: efrene
+title: Microsoft Viva 항목의 보안 트리밍
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -11,19 +11,19 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: None
-description: 항목을 보는 데 보안이 사용되는 방식에 대한 개요입니다.
-ms.openlocfilehash: a7146592edb356b4d46a5a178b5754dc0de6a7c0
-ms.sourcegitcommit: 30c3054004ddc9d6059c11d55577552aa2464810
+description: 보안이 Viva 항목의 항목을 보는 데 사용되는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 4edf66a16546766a1738090cabf5ede3a5951fc3
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "50939626"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622127"
 ---
-# <a name="microsoft-viva-topics-security-trimming"></a>Microsoft Viva 항목 보안 트리밍 
+# <a name="security-trimming-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 보안 트리밍
 
 Viva 항목 사용자는 기존 항목의 사용 권한이 Office 365 볼 수 없는 항목에서 정보를 볼 수 없습니다. 주제 페이지에서 사용자에게 보이는 모든 정보(예: SharePoint 사이트, 문서, 파일)는 이미 보도록 허용된 정보입니다. Viva Topics에서 기존의 사용 권한을 변경하지 않습니다.
 
-## <a name="why-two-users-may-have-different-views-of-the-same-topic"></a>두 사용자가 동일한 항목에 대해 서로 다른 보기를 가지는 이유
+## <a name="why-two-users-might-have-different-views-of-the-same-topic"></a>두 사용자가 동일한 항목에 대해 서로 다른 보기를 가지는 이유
 
 AI 또는 수동 큐레이션을 통해 항목이 생성될 때 항목의 설명, 대체 이름, 항목에 연결된 사용자뿐만 아니라 항목과 관련된 사이트, 페이지 및 파일을 포함할 수 있습니다. 항목 페이지에서 이 정보를 볼 때 동일한 항목을 보는 두 사용자가 동일한 정보를 볼 수 없습니다.
   
@@ -35,7 +35,7 @@ AI 또는 수동 큐레이션을 통해 항목이 생성될 때 항목의 설명
 
 ![사용자 2에 대한 Neptune 항목](../media/knowledge-management/user1-topic-view.png) </br> 
 
-사용자가 관련 사이트 또는 파일을 볼 수 있는 권한이 Office 365 수 있기 때문에 사용자에게 표시될 수 있는 차이점이 있습니다.  Viva Topics는 항목의 항목에 대해 설정된 사용 권한을 사용하며 해당 항목에 대한 액세스를 변경할 수 없습니다. 이 예제에서는 사용자 1이 파일을 볼 수 있는 권한이 Office 365 사용자 1의 항목 페이지에서 *DG-2000* 제품 개요 파일을 볼 수 없습니다.
+사용자가 동일한 항목에 대해 볼 수 있는 항목의 차이점은 사용자가 관련 사이트 또는 파일을 볼 수 Office 365 권한이 없는 것일 수 있기 때문에입니다.  Viva Topics는 항목의 항목에 대해 설정된 사용 권한을 사용하며 해당 항목에 대한 액세스를 변경할 수 없습니다. 이 예제에서는 사용자 1이 파일을 볼 수 있는 권한이 Office 365 사용자 1의 항목 페이지에서 *DG-2000* 제품 개요 파일을 볼 수 없습니다.
 
 사용자가 항목에 충분한 정보를 볼 수 없는 경우 해당 항목을 사용할 수 없습니다. 이 경우 강조 표시된 항목은 사용자에게 표시되지 않습니다. 항목에서 유용하게 사용할 수 있는 추가 정보에 대한 사용 권한이 있는 다른 사용자는 해당 항목을 볼 수 있습니다.
 
@@ -53,7 +53,7 @@ AI 또는 수동 큐레이션을 통해 항목이 생성될 때 항목의 설명
 
  - AI에 의해 추가된 항목 정보는 원본 콘텐츠에 접근 권한이 있는 사용자에게만 표시됩니다.
  - 항목 참가자 또는 기술 관리자가 수동으로 추가하거나 편집한 항목 설명 및 사용자 정보는 해당 항목을 볼 수 있는 모든 사람이 볼 수 있습니다.
- - 파일, 페이지 및 사이트는 AI에서 수동으로 추가하거나 추가하는지 여부에 관계 없이 원본 콘텐츠에 대한 사용 권한이 있는 사용자에게만 표시됩니다.
+ - 파일, 페이지 및 사이트는 수동으로 추가되었든 AI에 의해 추가되었든 관계없이 원본 콘텐츠 접근 권한이 있는 사용자에게만 표시됩니다.
 
 다음 표에서는 사용자의 사용 권한에 따라 특정 항목에서 볼 수 있는 사용자( 주제 뷰어, 참가자 및 기술 관리자)에 대해 설명합니다.
 

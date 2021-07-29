@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: e98142e4076c5e695f16eb06c062bc69d3d7dd55
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 90e15fbd28d8b7a57b9d65c2f7ea46e625a42038
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935068"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622631"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 사용자 계정 조사
 
@@ -35,7 +35,7 @@ ms.locfileid: "51935068"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatgeuser-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatgeuser-abovefoldlink)
 
 ## <a name="investigate-user-account-entities"></a>사용자 계정 엔터티 조사
 
@@ -99,7 +99,7 @@ ms.locfileid: "51935068"
 
 ## <a name="related-topics"></a>관련 항목
 
-- [끝점 경고 큐에 대한 Microsoft Defender 보기 및 구성](alerts-queue.md)
+- [엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성](alerts-queue.md)
 - [끝점 경고에 대한 Microsoft Defender 관리](manage-alerts.md)
 - [끝점 경고에 대한 Microsoft Defender 조사](investigate-alerts.md)
 - [끝점 경고에 대한 Defender와 관련된 파일 조사](investigate-files.md)

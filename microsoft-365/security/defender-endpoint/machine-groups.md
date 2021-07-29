@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 49bd90d8a082f55622e54976cc8fc78229d8c646
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 33d3cf5d8f42f21f62f3542342092a0330c17ee5
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453540"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622583"
 ---
 # <a name="create-and-manage-device-groups"></a>장치 그룹 만들기 및 관리
 
@@ -32,7 +32,7 @@ ms.locfileid: "53453540"
 - Azure Active Directory
 - Office 365
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 엔터프라이즈 시나리오에서는 보안 운영 팀에 일반적으로 장치 집합이 할당됩니다. 이러한 장치는 도메인, 컴퓨터 이름 또는 지정된 태그와 같은 특성 집합에 따라 그룹화됩니다.

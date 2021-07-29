@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 866d1a2de820fca4c66537583dc5f55098149931
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 65ccc2cf551eeb52b9751a2457f8f1ba66e83fc7
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327014"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622703"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -102,13 +102,9 @@ Intune 관리자 역할에는 이 검사에 대한 충분한 권한이 없습니
 
 Azure AD 조직의 Intune 장치 준수 정책은 디바이스에 영향을 Microsoft Managed Desktop 있습니다.
 
-**준비되지 않음**
-
-모든 사용자를 대상으로 하는 하나 이상의 준수 정책이 있습니다. Microsoft Managed Desktop 디바이스를 대상으로 하는 규정 Microsoft Managed Desktop 포함되어 있습니다.  사용자 또는 장치를 포함하지 않는 특정 Azure AD 그룹을 대상으로 Microsoft Managed Desktop 변경합니다. 단계에 대한 자세한 내용은 [에서 준수](/mem/intune/protect/create-compliance-policy)정책 Microsoft Intune.
-
 **권고**
 
-모든 준수 정책이 모든 사용자에 대해 대상으로 지정되지 Microsoft Managed Desktop 합니다. 단계에 대한 자세한 내용은 [에서 준수](/mem/intune/protect/create-compliance-policy)정책 Microsoft Intune.
+모든 사용자를 적용하는 규정 준수 정책이 하나 이상 있습니다. Microsoft Managed Desktop 장치에 적용되는 준수 정책도 Microsoft Managed Desktop 포함됩니다. 조직에서 만든 모든 준수 정책을 검토하여 Microsoft Managed Desktop 장치에 적용하여 충돌이 없는지 검토합니다. 단계에 대한 자세한 내용은 [에서 준수](/mem/intune/protect/create-compliance-policy)정책 Microsoft Intune.
 
 
 
@@ -118,7 +114,7 @@ Azure AD 조직의 Intune 장치 구성 프로필은 Microsoft Manage Desktop �
 
 **준비되지 않음**
 
-모든 사용자, 모든 장치 또는 둘 다를 대상으로 하는 구성 프로필이 하나 이상 있습니다. 프로필을 다시 설정하여 모든 디바이스를 포함하지 않는 특정 Azure AD Microsoft Managed Desktop. 단계는 에서 사용자 지정 설정을 사용하여 프로필 [Microsoft Intune.](/mem/intune/configuration/custom-settings-configure)
+모든 사용자, 모든 장치 또는 둘 다에 적용되는 구성 프로필이 하나 이상 있습니다. 프로필을 다시 설정하여 모든 디바이스를 포함하지 않는 특정 Azure AD 그룹에 Microsoft Managed Desktop. 단계는 에서 사용자 지정 설정을 사용하여 프로필 [Microsoft Intune.](/mem/intune/configuration/custom-settings-configure)
 
 **권고**
 
@@ -187,7 +183,7 @@ Windows PowerShell 디바이스를 대상으로 하는 방식으로 스크립트
 
 Azure AD Windows PowerShell 스크립트가 Microsoft Manage Desktop 장치 또는 사용자를 대상으로 하지 않는지 확인 모든 사용자, 모든 장치 또는 둘 다를 대상으로 하는 PowerShell 스크립트를 할당하지 않습니다. 모든 장치 또는 사용자를 포함하지 않는 특정 Azure AD 그룹을 대상으로 하는 할당을 Microsoft Managed Desktop 변경합니다. 자세한 내용은 [Intune에서 Windows 10 PowerShell 스크립트 사용을 참조하세요.](/mem/intune/apps/intune-management-extension)
 
-### <a name="region"></a>지역
+### <a name="region"></a>Region
 
 지역은 해당 지역의 지원이 Microsoft Managed Desktop.
 

@@ -13,15 +13,15 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-description: Viva Topics 개요입니다.
-ms.openlocfilehash: 785fddb7c951bb6f7c170971f0af4eb7ac8f9a83
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+description: 조직에서 Viva 항목을 사용하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 943b257750c11bb280fa864a1f8f49a2fb291fc2
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984907"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622439"
 ---
-# <a name="microsoft-viva-topics-overview"></a>Microsoft Viva Topics 개요 
+# <a name="microsoft-viva-topics-overview"></a>Microsoft Viva 주제 개요 
 
 Viva 항목에서는 Microsoft AI 기술, Microsoft 365, Microsoft Graph, 검색 및 기타 구성 요소 및 서비스를 사용하여 Word, PowerPoint, Outlook 및 검색에서 SharePoint 최신 페이지, Microsoft Search 및 검색부터 시작하여 일상적으로 사용하는 Microsoft 365 앱의 사용자에게 지식을 Excel.
 

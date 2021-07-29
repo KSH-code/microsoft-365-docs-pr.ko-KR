@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 5/1/2020
 ms.technology: mde
-ms.openlocfilehash: b17af7931b181a5fa30271a3eee07c7abf10a010
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c05858184df57b148b83dabee402fde29d98e95e
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844025"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622042"
 ---
 # <a name="review-alerts-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 경고 검토
 
@@ -32,7 +32,7 @@ ms.locfileid: "52844025"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-managealerts-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-managealerts-abovefoldlink)
 
 Microsoft Defender for Endpoint의 경고 페이지는 선택한 경고와 관련된 공격 신호 및 경고를 결합하여 자세한 경고 스토리를 생성하여 경고에 대한 전체 컨텍스트를 제공합니다.
 
@@ -49,25 +49,25 @@ Microsoft Defender for Endpoint의 경고 페이지는 선택한 경고와 관�
 3. 경고 **스토리에는** 경고와 관련된 모든 엔터티가 트리 보기로 상호 연결됩니다. 제목의 경고는 선택한 경고 페이지에 처음 방문할 때 포커스가 됩니다. 경고 스토리의 엔터티는 확장 및 클릭 가능하여 경고 페이지의 컨텍스트에서 바로 작업을 수행할 수 있도록 하여 추가 정보와 응답을 제공합니다. 경고 스토리를 사용하여 조사를 시작할 수 있습니다. Microsoft Defender for [Endpoint에서 경고 조사에서 방법을 알아보습니다.](/microsoft-365/security/defender-endpoint/investigate-alerts)
 4. 세부 **정보 창에는** 처음에 선택한 경고의 세부 정보 및 이 경고와 관련된 세부 정보 및 작업이 표시됩니다. 경고 스토리에서 영향을 받는 자산 또는 엔터티를 선택하면 세부 정보 창이 변경되어 선택한 개체에 대한 상황에 맞는 정보 및 작업을 제공합니다.
 
-경고의 검색 상태를 메모합니다. 
-- 금지 - 의심스러운 작업을 피했습니다. 예를 들어 파일이 디스크에 기록되지 않은 경우나 실행되지 않았습니다.
-![위협을 표시하는 경고 페이지가 차단된 경우](images/detstat-prevented.png)
-- 차단 - 의심스러운 동작이 실행된 다음 차단됩니다. 예를 들어 프로세스가 실행된 후 의심스러운 동작이 나타냈기 때문에 프로세스가 종료되었습니다.
-![위협이 차단된 경고 페이지](images/detstat-blocked.png)
-- 감지된 – 공격이 감지되고 활성 상태일 수 있습니다.
-![위협을 표시하는 경고 페이지가 검색되었습니다.](images/detstat-detected.png)
+경고의 검색 상태를 메모합니다.
 
+- 금지: 의심스러운 작업을 피했습니다. 예를 들어 파일이 디스크에 기록되지 않은 경우나 실행되지 않았습니다.
 
+  ![위협을 표시하는 경고 페이지가 차단된 경우](images/detstat-prevented.png)
 
+- 차단: 의심스러운 동작이 실행된 다음 차단됩니다. 예를 들어 프로세스가 실행된 후 의심스러운 동작이 나타냈기 때문에 프로세스가 종료되었습니다.
+
+  ![위협이 차단된 경고 페이지](images/detstat-blocked.png)
+
+- 검색된: 공격이 감지되고 활성 상태일 수 있습니다.
+
+  ![위협을 표시하는 경고 페이지가 검색되었습니다.](images/detstat-detected.png)
 
 그런 다음 경고의  세부 정보 창에서 자동화된 조사 세부 정보를 검토하여 이미 수행된 작업을 보고 권장 작업에 대한 경고 설명을 읽을 수 있습니다.
 
 ![경고 설명 및 자동 조사 섹션이 강조 표시된 세부 정보 창의 스니킷](images/alert-air-and-alert-description.png)
 
 경고가 열리면 세부 정보 창에서 사용할 수 있는 기타 정보로는 MITRE 기술, 원본 및 추가 상황 세부 정보가 포함됩니다.
-
-
-
 
 ## <a name="review-affected-assets"></a>영향을 받는 자산 검토
 
@@ -80,7 +80,6 @@ Microsoft Defender for Endpoint의 경고 페이지는 선택한 경고와 관�
 - **사용자의** 경우 세부 정보 창에는 사용자의 SAM 이름 및 SID와 같은 자세한 사용자 정보와 이 사용자가 수행한 로그온 유형 및 이와 관련된 모든 알림 및 인시던트가 표시됩니다. 사용자 페이지 *열기 를* 선택하여 해당 사용자의 시점에서 조사를 계속할 수 있습니다.
 
    ![사용자가 선택된 경우 세부 정보 창의 스니킷](images/user-page-details.png)
-
 
 ## <a name="related-topics"></a>관련 항목
 

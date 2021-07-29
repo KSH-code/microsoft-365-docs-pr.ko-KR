@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6447aa4182846020312e9be870c5548d9415ac71
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 154d9abcbf4a2d37cd852b91412a076c22cb6c47
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842833"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622595"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender 업데이트 배포
 
@@ -33,10 +33,10 @@ ms.locfileid: "52842833"
 **적용 대상:**
 
 - [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위해 소프트웨어 업데이트를 정기적으로 게시합니다.
 
@@ -52,7 +52,7 @@ MAU에는 업데이트가 적용되는 경우를 보다 정확하게 제어할 �
 
 MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 식별자는 *WDAV00입니다.* macOS의 끝점용 Microsoft Defender에 대한 최신 업데이트를 다운로드하고 설치하려면 터미널 창에서 다음 명령을 실행합니다.
 
-```
+```dos
 ./msupdate --install --apps wdav00
 ```
 
@@ -62,13 +62,13 @@ MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 �
 
 ### <a name="set-the-channel-name"></a>채널 이름 설정
 
-채널은 MAU를 통해 제공되는 업데이트의 유형과 빈도를 확인합니다. 의 `Beta` 장치는 및 의 장치 앞에 새로운 기능을 시도할 수 `Preview` `Current` 있습니다. 
+채널은 MAU를 통해 제공되는 업데이트의 유형과 빈도를 확인합니다. 의 `Beta` 장치는 및 의 장치 앞에 새로운 기능을 시도할 수 `Preview` `Current` 있습니다.
 
 채널에는 `Current` 제품의 가장 안정적인 버전이 포함되어 있습니다.
 
->[!IMPORTANT]
-> Microsoft 자동 업데이트 버전 4.29 이전의 채널 이름은 서로 다릅니다. 
-> 
+> [!IMPORTANT]
+> Microsoft 자동 업데이트 버전 4.29 이전의 채널 이름은 서로 다릅니다.
+>
 > - `Beta` 이름이 `InsiderFast` 지정됩니다(Insider Fast).
 > - `Preview` 이름이 `External` 지정(Insider Slow)
 > - `Current` 명명 `Production`
@@ -77,15 +77,16 @@ MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 �
 >새 기능을 미리 보고 초기 피드백을 제공하기 위해서는 엔터프라이즈의 일부 장치를 또는 로 구성하는 것이 `Beta` `Preview` 좋습니다.
 
 |섹션|값|
-|:--|:--|
-| **도메인** | `com.microsoft.autoupdate2` |
-| **키** | ChannelName |
-| **Data type** | String |
-| **사용 가능한 값:** | Beta <br/> 미리 보기 <br/> Current |
+|---|---|
+|**도메인**|`com.microsoft.autoupdate2`|
+|**키**|ChannelName|
+|**Data type**|String|
+|**사용 가능한 값:**|Beta <p> 미리 보기 <p> Current|
 |||
 
 >[!WARNING]
 >이 설정은 Microsoft 자동 업데이트를 통해 업데이트되는 모든 응용 프로그램의 채널을 변경합니다. macOS의 끝점용 Microsoft Defender에 대한 채널만 변경하기 위해 원하는 채널로 바꿔서 다음 명령을 `[channel-name]` 실행합니다.
+>
 > ```bash
 > defaults write com.microsoft.autoupdate2 Applications -dict-add "/Applications/Microsoft Defender ATP.app" " { 'Application ID' = 'WDAV00' ; 'App Domain' = 'com.microsoft.wdav' ; LCID = 1033 ; ChannelName = '[channel-name]' ; }"
 > ```
@@ -95,77 +96,72 @@ MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 �
 MAU가 업데이트를 검색하는 자주 변경합니다.
 
 |섹션|값|
-|:--|:--|
-| **도메인** | `com.microsoft.autoupdate2` |
-| **키** | UpdateCheckFrequency |
-| **Data type** | 정수 |
-| **기본값**. | 720(분) |
-| **설명** | 이 값은 분으로 설정됩니다. |
-
+|---|---|
+|**도메인**|`com.microsoft.autoupdate2`|
+|**키**|UpdateCheckFrequency|
+|**Data type**|정수|
+|**기본값**.|720(분)|
+|**설명**|이 값은 분으로 설정됩니다.|
 
 ### <a name="change-how-mau-interacts-with-updates"></a>MAU가 업데이트와 상호 작용하는 방식 변경
 
 MAU에서 업데이트를 검색하는 방법을 변경합니다.
 
 |섹션|값|
-|:--|:--|
-| **도메인** | `com.microsoft.autoupdate2` |
-| **키** | HowToCheck |
-| **Data type** | String |
-| **사용 가능한 값:** | 수동 <br/> AutomaticCheck <br/> AutomaticDownload |
-| **설명** |  AutomaticDownload는 다운로드를 수행하고 가능한 경우 자동으로 설치합니다. |
-
+|---|---|
+|**도메인**|`com.microsoft.autoupdate2`|
+|**키**|HowToCheck|
+|**Data type**|String|
+|**사용 가능한 값:**|수동 <p> AutomaticCheck <p> AutomaticDownload|
+|**설명**|AutomaticDownload는 다운로드를 수행하고 가능한 경우 자동으로 설치합니다.|
 
 ### <a name="change-whether-the-check-for-updates-button-is-enabled"></a>"업데이트 확인" 단추를 사용할 수 있는지 여부 변경
 
 로컬 사용자가 Microsoft 자동 업데이트 사용자 인터페이스에서 "업데이트 확인" 옵션을 클릭할 수 있는지 여부를 변경합니다.
 
 |섹션|값|
-|:--|:--|
-| **도메인** | `com.microsoft.autoupdate2` |
-| **키** | EnableCheckForUpdatesButton |
-| **Data type** | 부울 |
-| **사용 가능한 값:** | True(기본값) <br/> 거짓 |
-
+|---|---|
+|**도메인**|`com.microsoft.autoupdate2`|
+|**키**|EnableCheckForUpdatesButton|
+|**Data type**|부울|
+|**사용 가능한 값:**|True(기본값) <p> 거짓|
 
 ### <a name="disable-insider-checkbox"></a>내부자 사용 안함 확인란
 
 true로 설정하여 "Office 프로그램 참여..."로 설정 사용자에게 확인란을 사용할 수 없음/회색으로 나타났습니다.
 
 |섹션|값|
-|:--|:--|
-| **도메인** | `com.microsoft.autoupdate2` |
-| **키** | DisableInsiderCheckbox |
-| **Data type** | 부울 |
-| **사용 가능한 값:** | False(기본값) <br/> 참 |
-
+|---|---|
+|**도메인**|`com.microsoft.autoupdate2`|
+|**키**|DisableInsiderCheckbox|
+|**Data type**|부울|
+|**사용 가능한 값:**|False(기본값) <p> 참|
 
 ### <a name="limit-the-telemetry-that-is-sent-from-mau"></a>MAU에서 전송된 원격 분석 제한
 
 false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 현황 및 환경 세부 정보를 보내지 않습니다.
 
 |섹션|값|
-|:--|:--|
-| **도메인** | `com.microsoft.autoupdate2` |
-| **키** | SendAllTelemetryEnabled |
-| **Data type** | 부울 |
-| **사용 가능한 값:** | True(기본값) <br/> 거짓 |
-
+|---|---|
+|**도메인**|`com.microsoft.autoupdate2`|
+|**키**|SendAllTelemetryEnabled|
+|**Data type**|부울|
+|**사용 가능한 값:**|True(기본값) <p> 거짓|
 
 ## <a name="example-configuration-profile"></a>구성 프로필 예제
 
 다음 구성 프로필은 다음과 같은 데 사용됩니다.
+
 - 프로덕션 채널에 디바이스 추가
 - 업데이트를 자동으로 다운로드 및 설치
 - 사용자 인터페이스에서 "업데이트 확인" 단추를 사용하도록 설정
 - 장치의 사용자가 Insider 채널에 등록할 수 있도록 허용
 
+> [!WARNING]
+> 아래 구성은 예제 구성으로, 설정 및 구성 조정을 제대로 검토하지 않으면 프로덕션에서 사용되지 않습니다.
 
->[!WARNING]
->아래 구성은 예제 구성으로, 설정 및 구성 조정을 제대로 검토하지 않으면 프로덕션에서 사용되지 않습니다.
-
->[!TIP]
->새 기능을 미리 보고 초기 피드백을 제공하기 위해서는 엔터프라이즈의 일부 장치를 또는 로 구성하는 것이 `Beta` `Preview` 좋습니다.
+> [!TIP]
+> 새 기능을 미리 보고 초기 피드백을 제공하기 위해서는 엔터프라이즈의 일부 장치를 또는 로 구성하는 것이 `Beta` `Preview` 좋습니다.
 
 ### <a name="jamf"></a>JAMF
 
@@ -251,6 +247,7 @@ false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 
 ```
 
 MAU를 구성하려면 엔터프라이즈에서 사용하는 관리 도구에서 이 구성 프로필을 배포할 수 있습니다.
+
 - JAMF에서 이 구성 프로필을 업로드하고 기본 설정 도메인을 *com.microsoft.autoupdate2로 설정합니다.*
 - Intune에서 이 구성 프로필을 업로드하고 사용자 지정 구성 프로필 이름을 *com.microsoft.autoupdate2로 설정하십시오.*
 

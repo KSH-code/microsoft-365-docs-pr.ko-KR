@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f03c2209b369e6fb9e001452c53073daeb5fe1c6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1885d508b26e517fde4dd2ba45a562f9393ffd75
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187004"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622559"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-alerts"></a>끝점 경고에 대한 Microsoft Defender 관리
 
@@ -32,7 +32,7 @@ ms.locfileid: "51187004"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-managealerts-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-managealerts-abovefoldlink)
 
 Endpoint용 Defender는 경고를 통해 가능한 악성 이벤트, 특성 및 상황 정보를 알리고 있습니다. 보안 작업 대시보드에는 새 경고에 대한 요약이 표시되고 경고 큐의 모든 경고에 액세스할 **수 있습니다.**
 
@@ -127,7 +127,7 @@ Endpoint용 Defender는 경고를 통해 가능한 악성 이벤트, 특성 및 
 
 ## <a name="related-topics"></a>관련 항목
 - [제거 규칙 관리](manage-suppression-rules.md)
-- [끝점 경고 큐에 대한 Microsoft Defender 보기 및 구성](alerts-queue.md)
+- [엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성](alerts-queue.md)
 - [끝점 경고에 대한 Microsoft Defender 조사](investigate-alerts.md)
 - [끝점 경고에 대한 Microsoft Defender와 관련된 파일 조사](investigate-files.md)
 - [Microsoft Defender for Endpoint Devices 목록에서 장치 조사](investigate-machines.md)
