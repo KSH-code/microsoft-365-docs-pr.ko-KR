@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b6cd870fbd700610bdc8dd458b7ed78c1a8ee23b
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: aa98826605ef1af62ec720c06baa844260ddc9ae
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544833"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656646"
 ---
 # <a name="check-the-microsoft-defender-for-endpoint-service-health"></a>Microsoft Defender에서 끝점 서비스 상태 확인
 
@@ -31,7 +31,7 @@ ms.locfileid: "53544833"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-servicestatus-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-servicestatus-abovefoldlink)
 
 **서비스 상태는** Endpoint용 Defender 서비스의 현재 상태에 대한 정보를 제공합니다. 서비스 상태 또는 현재 문제가 있는지 확인할 수 있습니다. 문제가 있는 경우 문제가 검색된 시간, 예비 근본 원인, 예상 해결 시간 등의 정보가 표시될 수 있습니다.
 
@@ -45,6 +45,7 @@ ms.locfileid: "53544833"
 - **상태 기록**
 
 ## <a name="current-status"></a>현재 상태
+
 현재 **상태 탭에는** Endpoint 서비스용 Defender의 현재 상태가 표시됩니다. 서비스가 원활하게 실행되는 경우 서비스 상태는 정상으로 표시됩니다. 문제가 있는 경우 문제에 대한 더 나은 정보를 얻을 수 있도록 다음과 같은 서비스 세부 정보가 표시됩니다.
 
 - 문제가 검색된 날짜 및 시간
@@ -60,7 +61,9 @@ ms.locfileid: "53544833"
 문제가 해결되면 상태 기록 탭에 **기록됩니다.**
 
 ## <a name="status-history"></a>상태 기록
+
 상태 **기록 탭에는** 표시 및 해결된 모든 이전 문제가 반영됩니다. 해결된 문제에 대한 세부 정보와 해결되는 동안 포함된 다른 정보가 표시될 수 있습니다.
 
 ### <a name="related-topic"></a>관련 항목
+
 - [보안 작업 대시보드 보기](security-operations-dashboard.md)

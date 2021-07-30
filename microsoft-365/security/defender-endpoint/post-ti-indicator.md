@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 03235435028b9e30adc6ffd39fa512af05fd3ee3
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 42d6ed79868b9f32f8ea3cfe77bb78f1a86a8bea
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622799"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656694"
 ---
 # <a name="submit-or-update-indicator-api"></a>제출 또는 업데이트 표시기 API
 
@@ -31,7 +31,7 @@ ms.locfileid: "53622799"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
@@ -82,7 +82,7 @@ indicatorValue|String|Indicator [엔터티의 ID입니다.](ti-indicator.md) **�
 indicatorType|Enum|표시기 유형입니다. 가능한 값은 "FileSha1", "FileSha256", "IpAddress", "DomainName" 및 "Url"입니다. **필수**
 조치|Enum|표시기가 조직에서 검색되는 경우 수행되는 작업입니다. 가능한 값은 "Alert", "AlertAndBlock" 및 "Allowed"입니다. **필수**
 application|String|표시기와 연결된 응용 프로그램입니다. **선택 사항**
-title|String|표시기 경고 제목입니다. **필수**
+제목|String|표시기 경고 제목입니다. **필수**
 설명|String|표시기 설명입니다. **필수**
 expirationTime|DateTimeOffset|표시기 만료 시간입니다. **선택 사항**
 심각도|Enum|표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다. **선택 사항**

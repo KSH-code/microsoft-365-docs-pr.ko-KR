@@ -14,12 +14,12 @@ metadata:
   ms.custom: commerce_licensing
   localization_priority: Normal
   description: 제품 키 질문과 대답
-  ms.openlocfilehash: 472b49dbd105c50658270e9ffa6e0ab73570bbca
-  ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+  ms.openlocfilehash: 4ab699c56eaa9c7676104989f14450f4d1f8487a
+  ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/23/2021
-  ms.locfileid: "53542534"
+  ms.lasthandoff: 07/29/2021
+  ms.locfileid: "53656550"
 title: 제품 키 질문과 대답
 summary: ''
 sections:
@@ -37,7 +37,7 @@ sections:
       자세한 내용은 온라인 서비스 활성화에서 프로그램 [열기 FAQ를 참조하세요.](/licensing/online-service-activation-faq)
   - question: >
       2013에서 제품 키를 찾으 Microsoft 365 관리 센터?
-    answer: "1.  로그인한 Microsoft 365 관리 센터. \n2.  제품에서 **청구** 제품 볼륨 라이선싱 다운로드 & 키 > 마우스로  >    >    >   이동하고 **키 보기를 선택합니다.**\n\n각 제품에 대한 제품 키 정보, 라이선스 유형(볼륨 라이선스 키, 키 관리 서비스(KMS) 및 MAK(복수 정품 인증 키) 및 사용 가능한 MAK 정품 인증 수를 확인할 수 있습니다.\n\n모든 **제품 키 다운로드를 선택하여** 라이선스에 대해 표시된 키를 로컬 드라이브에 다운로드합니다.\n"
+    answer: "1. 로그인한 Microsoft 365 관리 센터. \n2. 제품에서 **청구** 제품 볼륨 라이선싱 다운로드 & 키 > 마우스로  >    >    >   이동하고 **키 보기를 선택합니다.**\n\n각 제품에 대한 제품 키 정보, 라이선스 유형(볼륨 라이선스 키, 키 관리 서비스(KMS) 및 MAK(복수 정품 인증 키) 및 사용 가능한 MAK 정품 인증 수를 확인할 수 있습니다.\n\n모든 **제품 키 다운로드를 선택하여** 라이선스에 대해 표시된 키를 로컬 드라이브에 다운로드합니다.\n"
   - question: >
       제품 키를 찾는 SQL Server 방법
     answer: >
@@ -191,7 +191,7 @@ sections:
       다시 이미징 권한에 대한 자세한 내용은 제품 라이선스 [브리핑을 참조하세요.](/licensing/learn-more/volume-licensing-briefs)
   - question: >
       키를 로컬 파일에 다운로드하려면 어떻게 해야 합니까?
-    answer: "이 Microsoft 365 관리 센터 로컬 파일에 제품 키를 다운로드하여 나중에 사용할 수 있는 옵션을 제공합니다. 다운로드 및 키 페이지에서 제품 키를 다운로드하면 관리 센터 프로필의 계약과 연결된 모든 볼륨 라이선스 키가 파일에 포함되어 있습니다. 그러나 관계 요약 페이지의 라이선스 ID 보기에서 키를 다운로드하는 경우 파일에는 보고 있는 라이선스 ID와 연결된 키만 포함되어 있습니다.\n\n다운로드 가능한 제품 키 파일은 탭으로 Excel 열거나 텍스트 편집기에서 열 수 있습니다. 파일에 포함된 열은 라이선스 **ID,** 상위 **프로그램,** **조직,** **제품,** **제품** 키, **유형** 및 **MAK Activations-Used/Available, Seats and OSA Status입니다.** \n\n다운로드한 파일을 Excel 다음 단계를 완료합니다.\n  1.    열기 Microsoft Excel.\n  2.    파일   >  **열기 를** 선택한 다음 다운로드한 CSV 파일을 선택합니다.\n  3.    구분(기본값)을 선택한 다음 **탭으로** 구분하여 한 열에 모든 데이터가 표시되지 않도록 합니다. \n  4.    **완료** 를 선택합니다. \n\n이 .CSV 열리면 Excel 열에 데이터가 표시됩니다.\n"
+    answer: "이 Microsoft 365 관리 센터 로컬 파일에 제품 키를 다운로드하여 나중에 사용할 수 있는 옵션을 제공합니다. 다운로드 및 키 페이지에서 제품 키를 다운로드하면 관리 센터 프로필의 계약과 연결된 모든 볼륨 라이선스 키가 파일에 포함되어 있습니다. 그러나 관계 요약 페이지의 라이선스 ID 보기에서 키를 다운로드하는 경우 파일에는 보고 있는 라이선스 ID와 연결된 키만 포함되어 있습니다.\n\n다운로드 가능한 제품 키 파일은 탭으로 Excel 열거나 텍스트 편집기에서 열 수 있습니다. 파일에 포함된 열은 라이선스 **ID,** 상위 **프로그램,** **조직,** **제품,** **제품** 키, **유형** 및 **MAK Activations-Used/Available, Seats and OSA Status입니다.** \n\n다운로드한 파일을 Excel 다음 단계를 완료합니다.\n  1. 열기 Microsoft Excel.\n  2. 파일   >  **열기 를** 선택한 다음 다운로드한 CSV 파일을 선택합니다.\n  3. 구분(기본값)을 선택한 다음 **탭으로** 구분하여 한 열에 모든 데이터가 표시되지 않도록 합니다. \n  4. **완료** 를 선택합니다. \n\n이 .CSV 열리면 Excel 열에 데이터가 표시됩니다.\n"
 - name: 지원
   questions:
   - question: >
