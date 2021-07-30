@@ -15,12 +15,12 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: fd7c6a217c1bc1ce3b278afb911988b94a6951e0
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: b1aae75f411af4f9d745c67831222c5ceee6bb0d
+ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062158"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "53663830"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>타사 HIPS에서 ASR 규칙으로 마이그레이션
 
@@ -79,7 +79,7 @@ ms.locfileid: "53062158"
 - **프로세스**- winword.exe, powerpnt.exe, excel.exe
 - **작업**- 프로세스 실행
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
-- **공격** 표면 감소 규칙 - ASR 규칙에는 "모든 Office 응용 프로그램이 하위 프로세스를 만들지 못하게 차단", GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A" 등 Office 앱이 하위 프로세스를 시작하지 못하게 하는 기본 제공 규칙이 있습니다.
+- **공격** 표면 감소 규칙 - ASR 규칙에는 Office 앱이 하위 프로세스를 시작하지 못하게 하는 기본 제공 규칙이 있습니다. "모든 Office 응용 프로그램이 하위 프로세스를 만들지 못하게 차단", GUID "d4f940ab-401b-4efc-aadc-ad5f3c50688a".
 - **기타 권장 기능**- N/A
     
 ### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>앱의 Office 프로세스 시작 및 실행 가능 콘텐츠 만들기 차단
@@ -96,7 +96,7 @@ ms.locfileid: "53062158"
 - **프로세스**- wscript.exe
 - **작업**- 파일 읽기
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- C:\Users *\AppData**.js, C:\Users*\Downloads**.js
-- **공격 표면 감소 규칙**- 안정성 및 성능 문제로 인해 ASR 규칙에는 특정 프로세스가 특정 스크립트 파일 형식을 읽는 것을 방지할 수 있는 기능이 없습니다. 이러한 시나리오에서 시작될 수 있는 공격 벡터를 방지하는 규칙이 있습니다. 규칙 이름은 "JavaScript 또는 VBScript에서 다운로드된 실행 콘텐츠 시작을 차단"(GUID "D3E037E1-3EB8-44C8-A917-57927947596)입니다.D") 및 "잠재적으로 난치될 수 있는 스크립트의 실행 차단"(GUID " 5BEB7EFE-FD9A-4556-801D-275E5FFC04CC").
+- **공격 표면 감소 규칙**- 안정성 및 성능 문제로 인해 ASR 규칙에는 특정 프로세스가 특정 스크립트 파일 형식을 읽는 것을 방지할 수 있는 기능이 없습니다. 이러한 시나리오에서 시작될 수 있는 공격 벡터를 방지하는 규칙이 있습니다. 규칙 이름은 "JavaScript 또는 VBScript에서 다운로드된 실행 콘텐츠 시작을 차단"(GUID "d3e037e1-3eb8-44c8-a917-57927947596)입니다.d") 및 "잠재적으로 난치될 수 있는 스크립트의 실행 차단"(GUID " 5beb7efe-fd9a-4556-801d-275e5ffc04cc").
 - 다른 권장 기능 **-** 이러한 시나리오 내에서 특정 공격 벡터를 완화하는 특정 ASR 규칙이 있는 경우 AV가 AMSI(맬웨어 방지 검사 인터페이스)를 통해 실시간으로 스크립트(PowerShell, Windows Script Host, JavaScript, VBScript 등)를 실시간으로 검사할 수 있습니다. 자세한 내용은 [AMSI(맬웨어](/windows/win32/amsi/antimalware-scan-interface-portal)방지 검사 인터페이스)에서 사용할 수 있습니다.
 
 ### <a name="block-launch-of-child-processes"></a>하위 프로세스 시작 차단

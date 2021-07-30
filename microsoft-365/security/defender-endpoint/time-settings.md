@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: cdea1b67f2d4412b5f08c2fef3abc80754f2e15a
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 0ef771983bb94a62ce2f45d00f879bc1d2f09861
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622751"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53649014"
 ---
 # <a name="microsoft-365-defender-time-zone-settings"></a>Microsoft 365 Defender 표준 시간대 설정
 
@@ -31,7 +31,7 @@ ms.locfileid: "53622751"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-settings-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-settings-abovefoldlink)
 
 표준 시간대 **메뉴** 표준 시간대 설정 아이콘1을 사용하여 표준 시간대를 구성하고 라이선스 ![ 정보를 ](images/atp-time-zone.png) 확인합니다.
 

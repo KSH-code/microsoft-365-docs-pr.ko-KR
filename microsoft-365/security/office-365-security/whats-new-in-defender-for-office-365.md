@@ -16,17 +16,17 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 ms.topic: conceptual
-ms.date: 01/12/2021
+ms.date: 07/27/2021
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0a9eb63ed4508ff875324cf6fb0b4a8ad59cb29f
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: ef81785c1f0395091c3207ca4da22e70bb0c411d
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177552"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648738"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -41,6 +41,11 @@ ms.locfileid: "53177552"
 [이 비디오](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3)를 시청하여 자세히 확인하세요.
 > [!TIP]
 > 아직 Microsoft Defender for Office 365 없는가요? [영업 담당자에게 평가판을 시작해 을(를) 시작해 을(를) 평가](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
+
+## <a name="july-2021"></a>2021년 7월
+
+- [자동화된 조사에서 향상된 전자 메일 분석](email-analysis-investigations.md)
+
 
 ## <a name="june-2021"></a>2021년 6월
 

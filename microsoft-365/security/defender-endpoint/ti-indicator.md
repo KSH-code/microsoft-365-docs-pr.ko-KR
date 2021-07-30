@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 1666470056b0ec76df6b1fc797d6809823163c7b
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 22ba0539233923224d920489b9e5bf04f65c692b
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53618814"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53649086"
 ---
 # <a name="indicator-resource-type"></a>표시기 리소스 유형
 
@@ -31,7 +31,7 @@ ms.locfileid: "53618814"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
@@ -65,7 +65,7 @@ creationTimeDateTimeUtc|DateTimeOffset|표시기를 만든 날짜 및 시간입�
 expirationTime|DateTimeOffset|표시기 만료 시간입니다.
 lastUpdateTime|DateTimeOffset|표시기가 마지막으로 업데이트된 시간입니다.
 심각도|Enum|표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다.
-title|String|표시기 제목입니다.
+제목|String|표시기 제목입니다.
 설명|String|표시기 설명입니다.
 recommendedActions|String|표시기를 위한 권장 작업입니다.
 rbacGroupNames|문자열 목록|표시기가 노출되어 활성 상태인 RBAC 장치 그룹 이름입니다. 모든 장치에 노출되는 경우 빈 목록입니다.

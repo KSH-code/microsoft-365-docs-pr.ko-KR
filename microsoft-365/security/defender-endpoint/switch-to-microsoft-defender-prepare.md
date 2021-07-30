@@ -23,12 +23,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: e2bce4d202c36e0174592fa3dd5e0edee08490ee
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 306536e62b8ab47a8428882ffa43cd337805d4fb
+ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544544"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "53663890"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>끝점용 Microsoft Defender로 전환 - 1단계: 준비
 
@@ -79,14 +79,14 @@ ms.locfileid: "53544544"
 
 2. 라이선스가 올바르게 프로비전되었는지 확인합니다. [라이선스 상태를 확인 합니다.](production-deployment.md#check-license-state)
 
-3. 전역 관리자 또는 보안 관리자는 끝점용 Defender의 전용 클라우드 인스턴스를 설정합니다. [Endpoint 설치: 테넌트 구성에 대한 Defender를 참조합니다.](production-deployment.md#tenant-configuration)
+3. 끝점용 Defender의 전용 클라우드 인스턴스를 설정합니다. [Endpoint 설치: 테넌트 구성에 대한 Defender를 참조합니다.](production-deployment.md#tenant-configuration)
 
 4. 조직의 끝점(예: 장치)이 프록시를 사용하여 인터넷에 액세스하는 경우 Endpoint 설치용 [Defender: 네트워크 구성을 참조합니다.](production-deployment.md#network-configuration)
  
 이제 Microsoft 365 Defender 포털()을 사용할 보안 관리자 및 보안 운영자에 대한 액세스 권한을 부여할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 
 
 > [!NOTE]
-> Microsoft 365 Defender 포털을 끝점용 Defender 포털이라고도 하며 에서 액세스할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 
+> Microsoft 365 Defender 포털을 끝점용 Defender 포털이라고도 하며 에서 액세스할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 이전 Microsoft Defender 보안 센터(는 곧 Microsoft 365 Defender https://securitycenter.windows.com) 포털로 리디렉션됩니다. 자세한 내용은 Microsoft 365 Defender [개요를 참조하세요.](portal-overview.md)
 
 ## <a name="grant-access-to-the-microsoft-365-defender-portal"></a>웹 사이트 포털에 Microsoft 365 Defender 권한 부여
 

@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 2c1878dc9095fc4c4cfbd307154097cc6ff572f1
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 6cd7b69d154444bb6b39e61bc3446ea01d54321a
+ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623999"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "53663854"
 ---
 # <a name="prerequisites-for-guest-accounts"></a>게스트 계정에 대한 필수 구성 요소
 
@@ -45,6 +45,7 @@ Microsoft Managed Desktop 액세스하려면 Azure AD 조직에서 다음 설정
 > 예를 선택한 후 이 설정을 취소할 수 **없습니다.**
 
 자세한 내용은 에서 라이선스가 없는 [관리자를 Microsoft Intune.](/mem/intune/fundamentals/unlicensed-admins)
+
 ## <a name="steps-to-get-ready"></a>준비 단계
 
 1. [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)를 감토하세요.

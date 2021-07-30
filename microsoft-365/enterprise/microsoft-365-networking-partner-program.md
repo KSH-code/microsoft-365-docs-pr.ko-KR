@@ -16,12 +16,12 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: 이 Microsoft 365 네트워킹 파트너 프로그램 장치를 사용하여 인증을 받을 수 Microsoft 365.
 hideEdit: true
-ms.openlocfilehash: 2c57974bd15e5bac11a2275472255982a20aefac
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1330015d11179f67cc60077f2e4b51382af2d1a3
+ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923151"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "53663842"
 ---
 # <a name="microsoft-365-networking-partner-program"></a>Microsoft 365 네트워킹 파트너 프로그램
 
@@ -36,7 +36,3 @@ ms.locfileid: "50923151"
 이 Microsoft 365 네트워킹 파트너 프로그램 질문에 답변하고 고객이 최상의 비즈니스 환경을 위해 네트워크 아키텍처를 구축하고 최적화하도록 지원하기 위한 Microsoft의 Microsoft 365 보여 줄 수 있습니다. Microsoft 365 팀에서는 여러 네트워크 산업 파트너와 협력하여 최적의 연결에 대한 주요 원칙이 기본적으로 네트워크 제품 및 솔루션에 기본 제공되도록 합니다.
 
 이 Microsoft 365 네트워킹 파트너 프로그램 "작업 방식"으로 적격 네트워킹 솔루션을 Microsoft 365. Microsoft의 엄격한 테스트 요구 사항을 충족하는 장치 또는 솔루션만 설치와 원활한 설치 환경을 제공하며, Microsoft 365 사용할 경우 "작업 Microsoft 365" 지정을 받게 됩니다. 이러한 유효성이 검사된 파트너 [](https://www.microsoft.com/microsoft-365/partners/O365networkingpartners)솔루션은 Microsoft 365 네트워킹 파트너 프로그램 페이지에 나열되어 있으며 자세한 내용은 솔루션 세부 정보 및 링크에 나와 있습니다.
-
-고객인 Microsoft 365 의 이 페이지를 통해 네트워크 솔루션 공급자가 이 프로그램을 인식하게 할 수 [https://aka.ms/Office365NPP]() 있습니다.
-
-에 대해 문의하려는 네트워크 솔루션 공급자의 Microsoft 365 네트워킹 파트너 프로그램 에 양식을 [https://aka.ms/NPPsignup](https://aka.ms/NPPsignup) 입력하세요. 여러분의 관심에 감사드려서 멋진 파트너 관계를 기대합니다.

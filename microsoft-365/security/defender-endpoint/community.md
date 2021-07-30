@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: a70f324763e0db4cf3a4f2d1b04680d59843a3da
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 54b57cb70c0c9eecc1e77e717998bc4cdac89f68
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53591322"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53649590"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>엔드포인트용 Microsoft Defender 커뮤니티에 액세스
 
@@ -32,7 +32,7 @@ ms.locfileid: "53591322"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 Endpoint용 Defender Community 센터는 커뮤니티 구성원이 제품에 대한 학습, 공동 작업 및 경험을 공유할 수 있는 장소입니다. 
 

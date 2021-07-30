@@ -19,12 +19,12 @@ description: 조직의 SIEM 서버를 Office 365 관리 API의 microsoft Defende
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e11d1e64b7c8c3b9d5b93516fe05aed3d5937290
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: 0cf5206b1b821f876aa810ba2bf280ba2f426544
+ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105635"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "53663866"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Microsoft Defender와 SIEM Office 365
 
@@ -57,20 +57,16 @@ SIEM 서버 또는 기타 유사한 시스템은 **audit.general** 작업을 폴
 
 다음 표에는 이벤트에 대한 Microsoft Defender와 관련된 **AuditLogRecordType의** Office 365 요약되어 있습니다.
 
-<br>
-
-****
-
-|값|멤버 이름|설명|
+| 값 | 멤버 이름 | 설명 |
 |---|---|---|
-|28|ThreatIntelligence|Exchange Online Protection 및 Microsoft Defender for Office 365.|
-|41|ThreatIntelligenceUrl|금고 Microsoft Defender에서 차단 시간 및 차단 이벤트를 Office 365.|
-|47|ThreatIntelligenceAtpContent|microsoft Defender for SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams 파일에 대한 피싱 및 맬웨어 Office 365.|
-|64|AirInvestigation|Microsoft Defender for Office 365 계획 2의 조사 세부 정보 및 관련 아티팩트와 같은 자동화된 조사 Office 365 이벤트입니다.|
+| 28| ThreatIntelligence | Exchange Online Protection 및 Microsoft Defender for Office 365. |
+| 41| ThreatIntelligenceUrl | 금고 Microsoft Defender에서 차단 시간 및 차단 이벤트를 Office 365. |
+| 47| ThreatIntelligenceAtpContent | microsoft Defender for SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams 파일에 대한 피싱 및 맬웨어 Office 365. |
+| 64| AirInvestigation | Microsoft Defender for Office 365 계획 2의 조사 세부 정보 및 관련 아티팩트와 같은 자동화된 조사 Office 365 이벤트입니다. |
 |
 
 > [!IMPORTANT]
-> Microsoft Defender와의 SIEM 통합을 설정하려면 Microsoft 365 Defender 포털에서 전역 관리자 또는 보안 관리자 역할이 할당되어 있어야 Office 365. 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
+> microsoft Defender와 MICROSOFT Defender의 SIEM 통합을 설정하려면 Microsoft 365 Defender 포털에 전역 관리자 또는 보안 관리자 역할이 할당되어 있어야 Office 365. 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 >
 > 사용자 환경에 대해 감사 로깅을 설정해야 Microsoft 365 합니다. 이 문제를 확인하려면 감사 로그 검색 켜기 또는 [끄기 를 참조합니다.](../../compliance/turn-audit-log-search-on-or-off.md)
 

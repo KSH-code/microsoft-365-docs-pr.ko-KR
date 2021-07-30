@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva 항목 평가판 실행
+title: 항목 평가판 Microsoft Viva 실행
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -11,15 +11,15 @@ ms.prod: microsoft-365-enterprise
 ms.custom: ''
 search.appverid: ''
 localization_priority: Normal
-description: 조직에서 Microsoft Viva 항목에 대한 시험 파일럿 프로그램을 계획하고 실행하는 방법을 학습합니다.
-ms.openlocfilehash: 128e82e7664a76baa55d37e983319c9f344624fd
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+description: 조직에서 테스트용 파일럿 프로그램을 계획하고 Microsoft Viva 방법을 배워야 합니다.
+ms.openlocfilehash: 783c84e0b7d14c51269672bc49902f02bdedd0e3
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327144"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53649626"
 ---
-# <a name="run-a-trial-of-microsoft-viva-topics"></a>Microsoft Viva 항목 평가판 실행
+# <a name="run-a-trial-of-microsoft-viva-topics"></a>항목 평가판 Microsoft Viva 실행
 
 이 문서에서는 Viva 항목을 조직에 배포하기 위해 시험 파일럿 프로그램을 설정하고 실행하는 방법을 설명합니다. 또한 이 문서에서는 평가판에 대한 모범 사례를 권장합니다.
 
@@ -30,12 +30,12 @@ ms.locfileid: "53327144"
 - [Viva 항목 제품 페이지](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab)
 
 - Microsoft 365 관리 센터 [](https://admin.microsoft.com)
-    1.  [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인합니다.
-    2.  청구 **구매**  >  **서비스로 이동**
-    3.  아래로 스크롤하여 **추가 기능** 섹션으로 이동합니다.
-    4.  항목 **환경 타일에서** 세부 **정보를 선택합니다.**
-    5.  **사용 가능한 평가판** 을 선택하세요.
-    6.  나머지 마법사 단계에 따라 평가판을 확인할 수 있습니다.
+    1. [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인합니다.
+    2. 청구 **구매**  >  **서비스로 이동**
+    3. 아래로 스크롤하여 **추가 기능** 섹션으로 이동합니다.
+    4. 항목 **환경 타일에서** 세부 **정보를 선택합니다.**
+    5. **사용 가능한 평가판** 을 선택하세요.
+    6. 나머지 마법사 단계에 따라 평가판을 확인할 수 있습니다.
 
 평가판을 활성화하려면 Microsoft 365 관리자 또는 대금 청구 관리자 되어야 합니다.
 
@@ -44,11 +44,11 @@ ms.locfileid: "53327144"
 
 ### <a name="who-should-be-involved-in-a-trial"></a>Who 평가판에 참여해야 하는지
 
-|역할  |활동  |
-|---------|---------|
-|Microsoft 365 관리자 또는 대금 청구 관리자  |   평가판 활성화 및 라이선스 할당      |
-|Microsoft 365 관리자 또는 SharePoint 관리자    |       Viva 항목 구성 및 항목 센터 만들기  |
-|비즈니스 사용자     |   기술 관리자, 주제 참가자 및 소비자 역할 주제 수행      |
+|역할|활동|
+|---|---|
+|Microsoft 365 관리자 또는 대금 청구 관리자|평가판 활성화 및 라이선스 할당|
+|Microsoft 365 관리자 또는 SharePoint 관리자|Viva 항목 구성 및 항목 센터 만들기|
+|비즈니스 사용자|기술 관리자, 주제 참가자 및 소비자 역할 주제 수행|
 
 ### <a name="before-you-activate-a-trial"></a>평가판을 활성화하기 전에
 
@@ -59,8 +59,8 @@ Viva 항목의 효과적인 평가판을 위해 계획은 반드시 필요합니
 평가판 동안 항목 검색을 구성하기 위한 두 가지 고급 전략 옵션이 있습니다.
 
 - 온라인 콘텐츠의 전체 또는 SharePoint 인덱싱합니다.
-   - 대규모 테넌트는 완전히 인덱싱하는 데 최대 2주가 걸릴 수 있습니다. 이 기간 동안 항목은 증분적으로 생성되는 반면 전체 인덱싱은 평가 기간의 절반까지 소비할 수 있습니다.
-   - 데이터가 많은 테넌트의 경우 이 옵션은 매우 많은 수의 항목을 만들 수 있습니다(수만 개).
+  - 대규모 테넌트는 완전히 인덱싱하는 데 최대 2주가 걸릴 수 있습니다. 이 기간 동안 항목은 증분적으로 생성되는 반면 전체 인덱싱은 평가 기간의 절반까지 소비할 수 있습니다.
+  - 데이터가 많은 테넌트의 경우 이 옵션은 매우 많은 수의 항목을 만들 수 있습니다(수만 개).
 
 - 인덱싱을 위해 SharePoint 사이트의 하위 집합을 식별합니다.
 
@@ -78,11 +78,11 @@ Viva 항목의 효과적인 평가판을 위해 계획은 반드시 필요합니
 
 체험 중에 다음 표에 설명된 세 가지 역할이 활성화되어야 합니다.
 
-|역할  |활동  |
-|---------|---------|
-|지식 매니저     |   항목의 수명 주기 단계 제어 항목을 확인하고 제거합니다. 주제 참가자를 위한 커뮤니티 관리자로 활동      |
-|주제 기여자    |      콘텐츠 주제 전문가, 다음을 할 수 있는 사람<br> 항목을 검토하여 AI 정의 콘텐츠의 품질을 평가합니다.<br>추가 콘텐츠로 검색된 항목 큐레이터<br>AI에서 검색되지 않은 추가 항목 만들기   |
-|항목 소비자    |     페이지 강조 표시 및 검색을 통해 항목 사용<br>제공된 항목의 값에 대한 피드백 제공    |
+|역할|활동|
+|---|---|
+|지식 매니저|항목의 수명 주기 단계 제어 항목을 확인하고 제거합니다. 주제 참가자를 위한 커뮤니티 관리자로 활동|
+|주제 기여자|콘텐츠 주제 전문가, 다음을 할 수 있는 사람<br> 항목을 검토하여 AI 정의 콘텐츠의 품질을 평가합니다.<br>추가 콘텐츠로 검색된 항목 큐레이터<br>AI에서 검색되지 않은 추가 항목 만들기|
+|항목 소비자|페이지 강조 표시 및 검색을 통해 항목 사용<br>제공된 항목의 값에 대한 피드백 제공|
 
 #### <a name="expected-topics"></a>예상 항목
 
@@ -123,7 +123,7 @@ Viva 항목의 성공적인 배포 또는 평가판에서 AI가 정의한 항목
 
 ### <a name="proceed-to-production-use"></a>프로덕션 사용 진행
 
-서비스의 연속성을 보장하려면 필요한 라이선스 수를 구매하고 사용자에게 해당 라이선스를 할당해야 합니다. 평가 기간이 끝나면 정식 라이선스가 없는 평가판 사용자는 Viva 항목 경험에 액세스할 수 없습니다.
+서비스의 연속성을 보장하려면 필요한 라이선스 수를 구매하고 사용자에게 해당 라이선스를 할당해야 합니다. 평가판 사용 기간이 끝날 때 정식 라이선스가 없는 평가판 사용자는 Viva Topics 체험에 액세스할 수 없습니다.
 
 ### <a name="dont-proceed-to-production-use"></a>프로덕션 사용을 계속 진행하지 않습니다.
 
@@ -137,5 +137,4 @@ Viva 항목의 성공적인 배포 또는 평가판에서 AI가 정의한 항목
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft Viva 항목의 채택 시작](topics-adoption-getstarted.md)
-
+[Microsoft Viva 도입 시작](topics-adoption-getstarted.md)

@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 계획하는 방법 학습
-ms.openlocfilehash: bd732edf9d206f6d62ed0cb3040b1d077b1948ca
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 8f02d917a6a977dfcd8fdca6745abcdc66142aaa
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542396"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53649650"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 계획
 
@@ -54,6 +54,8 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
 - **선택한 사이트를 제외한 모든 사이트**: 지정한 사이트를 제외한 모든 사이트입니다. 향후 만들어진 사이트는 항목 검색을 위한 원본으로 포함됩니다. 
 - **선택한 사이트만:** 지정한 사이트만 이후에 생성된 사이트는 토픽 검색의 원본으로 포함되지 않습니다.
 - **사이트 없음**: SharePoint 사이트는 포함하지 않습니다.
+
+Viva 항목에서 최상의 결과를 얻을 수 있는 20,000개 이상의 문서를 포함할 수 있는 충분한 사이트를 선택하는 것이 좋습니다.
 
 선택한 사이트 또는  선택한 사이트만 제외한 모두를 선택하는 경우 사이트 목록이 있는 .csv 파일을 업로드할 수 있습니다. 이러한 옵션은 파일럿을 수행 중일 때 시작할 제한된 수의 사이트를 포함하려는 경우 유용합니다.
 

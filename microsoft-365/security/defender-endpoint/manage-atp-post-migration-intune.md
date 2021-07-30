@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - m365solution-scenario
 ms.topic: article
-ms.date: 06/11/2021
+ms.date: 07/29/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 127d27e84cd7fc1fdaf530bc149f5d6e0d950337
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: fedd48d935ec023b8cd929cb978f5181914f546c
+ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541724"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "53663878"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Intune을 사용하여 끝점용 Microsoft Defender 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "53541724"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 디바이스에 [Microsoft Endpoint Manager](/mem)대한 조직의 위협 방지 기능을 관리하기 위해 Microsoft Intune(Intune)를 포함하는 Microsoft Endpoint Manager 를 사용하는 것이 좋습니다. [자세한 내용은 Endpoint Manager.](/mem/endpoint-manager-overview)
 
@@ -44,7 +44,7 @@ ms.locfileid: "53541724"
 ## <a name="find-your-microsoft-defender-for-endpoint-settings-in-intune"></a>Intune에서 끝점에 대한 Microsoft Defender 설정 찾기
 
 > [!IMPORTANT]
-> 이 문서에 설명된 설정을 구성하려면 Intune에서 전역 관리자 또는 서비스 관리자일 수 있습니다. 자세한 내용은 **[관리자 유형(Intune)을 참조합니다.](/mem/intune/fundamentals/users-add#types-of-administrators)**
+> 이 문서에 설명된 설정을 구성하려면 Intune에 전역 관리자 또는 서비스 관리자 역할이 할당되어 있어야 합니다. 자세한 내용은 **[관리자 유형(Intune)을 참조합니다.](/mem/intune/fundamentals/users-add#types-of-administrators)**
 
 1. Azure Portal()로 [https://portal.azure.com](https://portal.azure.com) 이동하여 로그인합니다.
 
@@ -61,7 +61,7 @@ ms.locfileid: "53541724"
 
 다음 표에는 Intune을 사용하여 끝점용 Microsoft Defender를 구성하기 위해 수행할 수 있는 다양한 작업이 나열됩니다. 모든 것을 한 번만 구성할 수 있습니다. 작업을 선택하고 해당 리소스를 읽은 다음 계속 진행합니다.
 
-|작업  |자세한 정보를 알아볼 수 있는 리소스  |
+|작업   |자세한 정보를 알아볼 수 있는 리소스  |
 |---------|---------|
 |**Intune을** 사용하여 조직의 장치를 관리하여 장치에 저장된 장치 및 데이터를 보호합니다.     |[Microsoft Intune을 통해 장치 보호](/mem/intune/protect/device-protect)         |
 |**Endpoint용 Microsoft Defender와 Intune을** Mobile Threat Defense 솔루션으로 통합 <br/>*(Android 장치 및 장치 및 Windows 10 이상용)*   |[Intune에서 조건부 액세스를 통해 끝점에 대한 Microsoft Defender 준수 적용](/mem/intune/protect/advanced-threat-protection)         |
