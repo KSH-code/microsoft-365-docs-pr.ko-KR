@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/22/2020
 ms.technology: mde
-ms.openlocfilehash: ae462235bcc2f2673f8a5ec1ea353f9bd9707918
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 6a56a1abab388e98af52fadc322d41484c1610a5
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53591262"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656994"
 ---
 # <a name="devicealertevents"></a>DeviceAlertEvents
 
@@ -33,7 +33,7 @@ ms.locfileid: "53591262"
 
 
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhuntingref-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-advancedhuntingref-abovefoldlink)
 
 고급 `DeviceAlertEvents` 헌팅 [schema의](advanced-hunting-overview.md) 표에는 헌팅의 경고에 대한 정보가 Microsoft Defender 보안 센터. 이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다.
 

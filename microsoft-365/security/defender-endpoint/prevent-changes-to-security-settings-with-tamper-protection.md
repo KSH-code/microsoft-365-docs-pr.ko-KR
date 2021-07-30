@@ -17,12 +17,12 @@ ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.date: 07/27/2021
-ms.openlocfilehash: 5d11be17cba8683344e631e799df98d3cf11dbf8
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 39f32fe71bfa84fc9806c02d265d93cd00e17da1
+ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623126"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "53664144"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -58,7 +58,7 @@ ms.locfileid: "53623126"
 - PowerShell cmdlet을 통해 설정 변경
 - 그룹 정책을 통해 보안 설정 편집 또는 제거
 
-변조 방지는 보안 설정을 볼 수 있도록 방지하지 않습니다. 또한 변조 방지는 타사 바이러스 백신 앱이 앱에 등록되는 Windows 보안 영향을 주지 않습니다. 조직에서 E5를 Windows 10 Enterprise 경우 개별 사용자는 변조 보호 설정을 변경할 수 없습니다. 이러한 경우 변조 보호는 보안 팀에서 관리합니다.
+변조 방지는 보안 설정을 볼 수 있도록 방지하지 않습니다. 또한 변조 방지는 비 Microsoft 바이러스 백신 앱이 앱에 등록되는 Windows 보안 않습니다. 조직에서 E5를 Windows 10 Enterprise 경우 개별 사용자는 변조 보호 설정을 변경할 수 없습니다. 이러한 경우 변조 보호는 보안 팀에서 관리합니다.
 
 ### <a name="what-do-you-want-to-do"></a>무슨 작업을 하고 싶으십니까?
 
@@ -96,7 +96,7 @@ ms.locfileid: "53623126"
 
 ### <a name="requirements-for-managing-tamper-protection-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털에서 변조 방지를 관리하기 위한 요구 사항
 
-- 전역 관리자, [](/microsoft-365/security/defender-endpoint/assign-portal-access)보안 관리자 또는 보안 작업과 같은 적절한 권한이 있어야 합니다.
+- 전역 관리자, [](/microsoft-365/security/defender-endpoint/assign-portal-access) 보안 관리자 또는 보안 작업과 같은 적절한 권한이 할당되어 있어야 합니다.
 
 - 사용자 Windows 다음 버전 중 하나를 실행해야 Windows.
 
@@ -129,7 +129,7 @@ ms.locfileid: "53623126"
 
 ### <a name="requirements-for-managing-tamper-protection-in-intune"></a>Intune에서 변조 방지를 관리하기 위한 요구 사항
 
-- 전역 관리자, [](/microsoft-365/security/defender-endpoint/assign-portal-access)보안 관리자 또는 보안 작업과 같은 적절한 권한이 있어야 합니다.
+- 전역 관리자, [](/microsoft-365/security/defender-endpoint/assign-portal-access) 보안 관리자 또는 보안 작업과 같은 적절한 권한이 할당되어 있어야 합니다.
 
 - 조직에서 [Intune을 사용하여 장치를 관리합니다.](/intune/fundamentals/what-is-device-management) ([Intune 라이선스가](/intune/fundamentals/licenses) 필요합니다. Intune은 Microsoft 365 E5.)
 
@@ -143,7 +143,7 @@ ms.locfileid: "53623126"
 
 ![Intune을 통해 변조 보호 켜기](images/turnontamperprotect-MEM.png)
 
-1. Microsoft Endpoint Manager [관리 센터로 이동하고](https://endpoint.microsoft.com) 직장 또는 학교 계정으로 로그인합니다.
+1. Microsoft Endpoint Manager [관리 센터로 이동하여](https://endpoint.microsoft.com) 로그인합니다.
 
 2. 장치 **구성**  >  **프로필을 선택합니다.**
 
@@ -198,7 +198,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 > [!NOTE]
 > 변조 방지 블록은 레지스트리를 통해 Microsoft Defender 바이러스 백신 수정하려고 합니다.
 >
-> 변조 방지가 이러한 설정을 수정하는 타사 **보안** 제품 또는 엔터프라이즈 설치 스크립트를 방해하지 않도록 보장하려면  Windows 보안 보안 인텔리전스를 버전 1.287.60.0 이상으로 업데이트합니다. (보안 [인텔리전스 업데이트 참조)](https://www.microsoft.com/wdsi/definitions)
+> 변조 방지가 이러한 설정을 수정하는 Microsoft가 아닌 다른 보안 제품 또는 엔터프라이즈 설치 스크립트를 방해하지  않도록 보장하려면 Windows 보안 버전 1.287.60.0 이상으로 보안 **인텔리전스를** 업데이트합니다. (보안 [인텔리전스 업데이트 참조)](https://www.microsoft.com/wdsi/definitions)
 >
 > 이 업데이트를 만든 후 변조 보호는 레지스트리 설정을 계속 보호하며 로그는 오류를 반환하지 않고 수정을 시도합니다.
 
@@ -242,7 +242,7 @@ Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/wi
 
 ### <a name="will-tamper-protection-affect-non-microsoft-antivirus-registration-in-the-windows-security-app"></a>변조 방지는 앱의 비 Microsoft 바이러스 백신 등록에 Windows 보안 영향을 미치나요?
 
-아니요. 타사 바이러스 백신 제품은 계속 응용 프로그램에 Windows 보안 합니다.
+아니요. Microsoft가 아닌 다른 바이러스 백신 제품은 계속 응용 프로그램에 Windows 보안 합니다.
 
 ### <a name="what-happens-if-microsoft-defender-antivirus-is-not-active-on-a-device"></a>장치에서 Microsoft Defender 바이러스 백신 활성화되지 않은 경우 어떻게 하나요?
 

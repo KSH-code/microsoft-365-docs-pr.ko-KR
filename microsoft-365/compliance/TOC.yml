@@ -58,6 +58,8 @@
           href: insider-risk-management-activities.md
         - name: 내부자 위험 사례에 대한 작업 수행
           href: insider-risk-management-cases.md
+        - name: 브라우저 신호 감지에 대해 알아보고 구성
+          href: insider-risk-management-browser-support.md
         - name: 내부자 위험 감사 로그를 사용하여 활동 검토
           href: insider-risk-management-audit-log.md
         - name: 내부자 위험 콘텐츠 탐색기를 사용하여 데이터 검토

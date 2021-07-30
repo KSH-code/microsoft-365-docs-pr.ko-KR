@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5a98dd096395435c52dea3e4a994b41a16e1a7a3
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: e502c63cb30de23b190a0d6844c9e87d6720d707
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53591190"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53657006"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포
 
@@ -32,7 +32,7 @@ ms.locfileid: "53591190"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 등록된 디바이스에서 Android에 Endpoint용 Defender를 Intune 회사 포털 방법을 배워야 합니다. Intune 장치 등록에 대한 자세한 내용은 [장치 등록을 참조하세요.](/mem/intune/user-help/enroll-device-android-company-portal)
 
@@ -62,7 +62,7 @@ Android에서 Android용 끝점용 Defender를 배포하는 방법을 Intune 회
    - **Publisher** Microsoft로 지원됩니다.
    - **앱 스토어 URL** https://play.google.com/store/apps/details?id=com.microsoft.scmx as(Endpoint 앱용 Defender 앱 Google Play 스토어 URL)
 
-   다른 필드는 선택 사항입니다. **다음** 을 선택합니다.
+   다른 필드는 선택 사항입니다. **다음** 을 선택하세요.
 
    ![관리 Microsoft Endpoint Manager 앱 정보 추가 이미지](images/mda-addappinfo.png)
 

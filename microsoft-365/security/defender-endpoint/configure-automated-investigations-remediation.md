@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: how-to
 ms.date: 01/27/2021
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
-ms.openlocfilehash: 0d7a6e4897989df55b00e1aeff0ff512b030c023
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 2415bace353e3ee5596117e37eb860c7a206c96b
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53590698"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656946"
 ---
 # <a name="configure-automated-investigation-and-remediation-capabilities-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 자동화된 조사 및 수정 기능 구성
 
@@ -33,7 +33,7 @@ ms.locfileid: "53590698"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 조직에서 [끝점용 Microsoft Defender(Endpoint용 Defender)를](/windows/security/threat-protection/) 사용하는 경우 [자동화된](/microsoft-365/security/defender-endpoint/automated-investigations) 조사 및 수정 기능을 통해 보안 운영 팀의 시간과 노력을 절약할 수 있습니다. 이 블로그 [](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/enhance-your-soc-with-microsoft-defender-atp-automatic/ba-p/848946)게시물에 설명된 것 처럼 이러한 기능은 보안 분석가가 위협을 조사하고 수정하는 데 걸리는 이상적인 단계와 모방합니다. [자동화된 조사 및 수정에 대해 자세히 알아보시겠어요.](/microsoft-365/security/defender-endpoint/automated-investigations)
 

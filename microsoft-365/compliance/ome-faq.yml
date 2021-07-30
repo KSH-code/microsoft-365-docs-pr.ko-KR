@@ -16,12 +16,12 @@ metadata:
   ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
   description: 새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요.
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 809f31682fbcb690aaaf2483ec8b72c766282cf5
-  ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+  ms.openlocfilehash: 2e59d4b4d2d077921e1c6c9496d14e59bae2317a
+  ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/15/2021
-  ms.locfileid: "53453828"
+  ms.lasthandoff: 07/29/2021
+  ms.locfileid: "53657018"
 title: 메시지 암호화 FAQ
 summary: >
   새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요. 또한 Azure Information [Protection의](/information-protection/get-started/faqs-rms) 데이터 보호 서비스인 Azure Rights Management에 대한 질문과 대답은 Azure Information Protection의 데이터 보호에 대한 질문과 대답을 살펴보아야 합니다.
@@ -141,10 +141,6 @@ sections:
     answer: >
       관리자는 암호화를 제거하기 위한 메일 흐름 규칙을 설정할 수 있습니다. 암호화 전용 보호를 사용하여 메일을 암호화하지 않는 한 다른 조직에서 적용한 메일에서 메일 흐름 규칙을 사용하여 암호화를 제거할 수 없습니다.
   - question: >
-      위임된 액세스가 지원하나요?
-    answer: >
-      현재는 불가능합니다.
-  - question: >
       공유 사서함으로 보내고 전자 메일을 암호화할 수 있나요?
     answer: >
       암호화 메일 흐름 규칙과 일치하는 전자 메일 메시지를 보내는 경우 메시지가 전송되기 전에 암호화됩니다.
@@ -201,9 +197,9 @@ sections:
          Add-MailboxPermission -Identity support@contoso.onmicrosoft.com -User ayla@contoso.com -AccessRights FullAccess -AutoMapping $true
          ```
   - question: >
-      Fullaccess를 사용하여 다른 사용자의 사서함으로 전송된 암호화된 메시지를 열 수 있나요?
+      암호화된 메시지를 열 때 위임된 액세스가 지원하나요? 대리인이 다른 사용자의 사서함에 대한 모든 권한이 있는 경우에도
     answer: >
-      아니요. 암호화된 메시지는 공유 사서함에서만 열 수 있습니다.
+      암호화된 메일에 대한 위임된 액세스는 웹용 Outlook, Outlook, iOS용 Outlook 및 Android용 Outlook 지원됩니다.  Outlook 대한 Windows 위임된 액세스를 지원하지 않습니다.
   - question: >
       요청한 후 일회용 통과 코드를 받지 못하면 어떻게 하나요?
     answer: >-
