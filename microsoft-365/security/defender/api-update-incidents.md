@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 60f1209331862eb21d3b1949265f0873dcf2e5a7
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: c30d9918e4e61973dc03e6a2e621ffda5e7e01e5
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287822"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53652518"
 ---
 # <a name="update-incidents-api"></a>인시던트 업데이트 API
 
@@ -40,7 +40,7 @@ ms.locfileid: "53287822"
 
 ## <a name="api-description"></a>API 설명
 
-기존 인시던트의 속성을 업데이트합니다. 업데이트할 수 있는 속성은 ```status``` , , , , 및 ```determination``` ```classification``` ```assignedTo``` ```tags``` ```comments``` 입니다.
+기존 인시던트의 속성을 업데이트합니다. 업데이트할 수 있는 속성은 `status` , , , , 및 `determination` `classification` `assignedTo` `tags` `comments` 입니다.
 
 ### <a name="quotas-resource-allocation-and-other-constraints"></a>할당량, 리소스 할당 및 기타 제약 조건
 
@@ -53,10 +53,10 @@ ms.locfileid: "53287822"
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 Access the Microsoft 365 Defender [참조합니다.](api-access.md)
 
-사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
--|-|-
-응용 프로그램 | Incident.ReadWrite.All | 모든 인시던트 읽기 및 쓰기
-위임(직장 또는 학교 계정) | Incident.ReadWrite | 인시던트 읽기 및 쓰기
+사용 권한 유형|사용 권한|사용 권한 표시 이름
+---|---|---
+응용 프로그램|Incident.ReadWrite.All|모든 인시던트 읽기 및 쓰기
+위임(직장 또는 학교 계정)|Incident.ReadWrite|인시던트 읽기 및 쓰기
 
 > [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때 사용자는 포털에서 인시던트 업데이트 권한이 필요합니다.
@@ -69,23 +69,23 @@ PATCH /api/incidents/{id}
 
 ## <a name="request-headers"></a>요청 헤더
 
-이름 | 유형 | 설명
--|-|-
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
-Content-Type | 문자열 | application/json. **필수입니다**.
+이름|유형|설명
+---|---|---
+권한 부여|String|Bearer {token}. **필수입니다**.
+Content-Type|String|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
 요청 본문에서 업데이트해야 하는 필드의 값을 제공합니다. 관련 값의 변경으로 인해 다시 계산하지 않는 한 요청 본문에 포함되지 않은 기존 속성은 해당 값을 유지 관리합니다. 최상의 성능을 위해 변경되지 않은 기존 값을 생략해야 합니다.
 
-속성 | 유형 | 설명
--|-|-
-status | Enum | 인시던트의 현재 상태를 지정합니다. 가능한 값은 ```Active``` , ```Resolved``` , 및 ```Redirected``` 입니다.
-assignedTo | 문자열 | 인시던트의 소유자입니다.
-classification | Enum | 인시던트 사양입니다. 가능한 값은 ```Unknown``` , ```FalsePositive``` , ```TruePositive``` 입니다.
-determination | Enum | 인시던트 결정 가능한 값은 ```NotAvailable``` , ```Apt``` ```Malware``` , , , , ```SecurityPersonnel``` ```SecurityTesting``` , ```UnwantedSoftware``` ```Other``` 입니다.
-tags | 문자열 목록 | 인시던트 태그 목록입니다.
-comment | 문자열 | 인시던트에 추가할 설명입니다.
+속성|유형|설명
+---|---|---
+status|Enum|인시던트의 현재 상태를 지정합니다. 가능한 값은 `Active` , `Resolved` , 및 `Redirected` 입니다.
+assignedTo|문자열|인시던트의 소유자입니다.
+classification|Enum|인시던트 사양입니다. 가능한 값은 `Unknown` , `FalsePositive` , `TruePositive` 입니다.
+determination|Enum|인시던트 결정 가능한 값은 `NotAvailable` , `Apt` `Malware` , , , , `SecurityPersonnel` `SecurityTesting` , `UnwantedSoftware` `Other` 입니다.
+tags|문자열 목록|인시던트 태그 목록입니다.
+comment|문자열|인시던트에 추가할 설명입니다.
 
 ## <a name="response"></a>응답
 
@@ -93,7 +93,7 @@ comment | 문자열 | 인시던트에 추가할 설명입니다.
 
 ## <a name="example"></a>예제
 
-**요청**
+### <a name="request-example"></a>요청 예제
 
 다음은 요청의 예입니다.
 
@@ -101,7 +101,7 @@ comment | 문자열 | 인시던트에 추가할 설명입니다.
  PATCH https://api.security.microsoft.com/api/incidents/{id}
 ```
 
-**응답**
+### <a name="response-example"></a>응답 예제
 
 ```json
 {

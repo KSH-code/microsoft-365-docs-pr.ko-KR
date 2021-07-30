@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에 대한 개인 정보 관리를 설정하고, 역할 및 사용 권한을 설정하고, 중요한 설정을 구성하는 방법을 배워야 합니다.
-ms.openlocfilehash: f6989de8e9a3926f5d9e43cf08240ce76c85a0c9
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 0486c073da8061b72eedb9a7fac44adf6d38ae19
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541016"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648606"
 ---
 # <a name="get-started-with-privacy-management-preview"></a>개인 정보 관리 시작(미리 보기)
 
@@ -113,7 +113,7 @@ ms.locfileid: "53541016"
 
 ### <a name="user-notification-emails"></a>사용자 알림 전자 메일
 
-데이터 처리 정책이 일치하는 것으로 감지되면 개인 정보 보호 관리는 수정할 조치를 사용하여 영향을 받는 사용자에게 전자 메일과 개인 정보 보호 교육 링크를 보낼 수 있습니다. 이 설정 개인 정보 관리의 전자 메일 알림 기능을 전체적으로 활성화 또는 비활성화할 수 있습니다. 정책을 만들거나 편집할 때 개별 알림을 활성화하고, 전자 메일 빈도를 설정하고, 교육 URL을 지정할 수 있습니다. 알림 기능을 사용하지 않도록 설정한 설정 특정 알림 메일에 대한 정책 수준 구성을 사용할 수 없습니다. 정책에 대한 자세한 내용은 정책 만들기 [및 관리를 참조합니다.](privacy-management-policies.md)
+데이터 처리 정책이 일치하는 것으로 감지되면 개인 정보 보호 관리는 수정할 조치를 통해 사용자에게 전자 메일과 개인 정보 보호 교육 링크를 보낼 수 있습니다. 이 설정 개인 정보 관리의 전자 메일 알림 기능을 전체적으로 활성화 또는 비활성화할 수 있습니다. 정책을 만들거나 편집할 때 개별 알림을 활성화하고, 전자 메일 빈도를 설정하고, 교육 URL을 지정할 수 있습니다. 알림 기능을 사용하지 않도록 설정한 설정 특정 알림 메일에 대한 정책 수준 구성을 사용할 수 없습니다. 정책에 대한 자세한 내용은 정책 만들기 [및 관리를 참조합니다.](privacy-management-policies.md)
 
 ### <a name="teams-collaboration"></a>Teams 공동 작업
 

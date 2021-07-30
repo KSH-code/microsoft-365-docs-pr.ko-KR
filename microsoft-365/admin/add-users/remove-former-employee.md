@@ -26,22 +26,30 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 솔루션의 단계에 따라 이전 직원을 제거하고 Microsoft 365 데이터를 보호합니다.
-ms.openlocfilehash: 00706f0dac37fe7be538a45908372ed1084dc9d0
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 7c9667b771300a75a91588727f1d333ff2215302
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541544"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648666"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>개요: 이전 직원 및 보안 데이터 제거
 
-자주 묻는 질문은 "직원이 퇴사할 때 데이터를 보호하고 액세스를 보호하기 위해 어떻게 해야 나요?"입니다. 이 문서 시리즈에서는 사용자 Microsoft 365 차단하는 방법, 데이터를 보호하기 위해 취해야 하는 단계 및 다른 직원이 데이터에 액세스할 수 있도록 허용하는 방법에 대해 설명했습니다.
-
-:::image type="content" source="../../media/delete-user-overview.png" alt-text="Screenshot: Overview steps for removing a former employee":::
+자주 묻는 질문은 "직원이 퇴사할 때 데이터를 보호하고 액세스를 보호하기 위해 어떻게 해야 나요?"입니다. 이 문서 시리즈에서는 이러한 사용자가 Microsoft 365 로그인할 수 없는 Microsoft 365, 조직 데이터를 보호하기 위해 취해야 하는 단계 및 다른 직원이 전자 메일 및 전자 메일 데이터에 액세스하도록 허용하는 OneDrive 설명되어 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 이 솔루션의 단계를 완료하려면 전역 관리자로 설정해야 합니다.
+
+이 시리즈의 단계를 완료하기 위해 이러한 Microsoft 365 기능을 사용하세요.
+
+|제품 또는 구성 요소|기능 또는 특징|
+|---|---|
+|Microsoft 365 관리 센터|사서함 변환, 전자 메일 전달, 액세스 해지, 사용자 제거 |
+|Exchange 관리 센터|사용자 차단, 전자 메일에 대한 액세스 차단, 장치 지우기 |
+|OneDrive 및 SharePoint |다른 사용자에게 액세스 권한을 부여합니다. |
+|Outlook|pst 파일 가져오기, 사서함 추가 |
+|Active Directory|하이브리드 환경에서 사용자 제거 |
 
 ## <a name="solution-remove-a-former-employee"></a>해결 방법: 이전 직원 제거
 

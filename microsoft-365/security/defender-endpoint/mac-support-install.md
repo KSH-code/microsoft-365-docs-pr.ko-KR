@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5166de3a7c7017979a93ac7026636ba24671892e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 776cd18146fa4f726ef5d25433c564510b8a0e67
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935152"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651973"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 설치 문제 해결
 
@@ -33,10 +33,10 @@ ms.locfileid: "51935152"
 **적용 대상:**
 
 - [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 ## <a name="installation-failed"></a>설치 실패
 
@@ -58,9 +58,9 @@ preinstall com.microsoft.wdav end [2020-03-11 13:08:49 -0700] 804 => 1
 이 예제에서는 실제 이유에 를(를) `[ERROR]` 제공합니다.
 이러한 버전 간 다운그레이드가 지원되지 않는 경우 설치에 실패했습니다.
 
-## <a name="mdatp-install-log-missing-or-not-updated"></a>MDATP 로그가 누락되거나 업데이트되지 않은 경우
+## <a name="mdatp-install-log-missing-or-not-updated"></a>MDATP 설치 로그가 누락되거나 업데이트되지 않습니다.
 
-드문 경우지만 설치는 MDATP /Library/Logs/Microsoft/mdatp/install.log 파일에서 추적을 남기지 않습니다.
+드물지만 설치는 MDATP의 /Library/Logs/Microsoft/mdatp/install.log 파일에 추적을 남기지 않습니다.
 macOS 로그를 쿼리하여 설치가 발생했다는 사실과 가능한 오류를 분석할 수 있습니다(클라이언트 UI가 없는 경우 MDM 배포에 유용합니다). 많은 정보가 제공될 수 있도록 좁은 시간 창을 사용하여 쿼리를 실행하고 로깅 프로세스 이름을 사용하여 필터링하는 것이 좋습니다.
 
 ```bash

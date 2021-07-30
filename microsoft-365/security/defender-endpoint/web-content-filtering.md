@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 19423b1a52bc02768236e56a73ccefe71cfd7672
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: a24797d39ece34d615dde26811da8b7d7d2b9a6d
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567083"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53647898"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -37,7 +37,7 @@ ms.locfileid: "53567083"
 > 자세한 내용은 [엔드포인트용 Microsoft Defender 미리 보기 기능](preview.md)을 참조하세요.
 
 > [!TIP]
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
 웹 콘텐츠 필터링은 [](web-protection-overview.md) 끝점용 Microsoft Defender의 웹 보호 기능의 일부입니다. 이를 통해 조직은 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 이러한 웹 사이트 중 상당수는 악의적이지 않은 경우 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 문제가 될 수 있습니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "53567083"
 
 지원되는 제3자 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 알림을 제공하는 네트워크 보호를 통해 제공됩니다. 보다 사용자에게 친숙한 브라우저 내 환경을 위해 브라우저 내 환경을 Microsoft Edge.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 이 기능을 시도하기 전에 다음 요구 사항을 충족하는지 확인합니다.
 

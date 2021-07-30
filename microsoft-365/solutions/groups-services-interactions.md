@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 그룹 서비스 상호 작용
-ms.openlocfilehash: f9b0d7ca61d55e3d23aa94577fc8257073b26675
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 13331ea53b69b4559bfe21074dd5c7d998aa68af
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539206"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53652470"
 ---
 # <a name="groups-services-interactions"></a>그룹 서비스 상호 작용
 
@@ -63,13 +63,13 @@ Microsoft 365 그룹은 관리자와 최종 사용자가 모두 다양한 인터
 
 **Microsoft 365 관리 센터**
 
-Microsoft 365 관리 센터에서는 소유자가 게스트를 추가할 수 있도록 허용하는 기능처럼 기본적으로 그룹에 대한 게스트 액세스가 사용하도록 설정됩니다. 이 관리 센터의 그룹에는 추가 조직 수준 컨트롤을 사용할 수 없습니다.
+이 Microsoft 365 관리 센터 그룹 액세스는 소유자가 게스트를 추가할 수 있도록 허용하는 기능과 기본적으로 사용하도록 설정됩니다. 이 관리 센터의 그룹에는 추가 조직 수준 컨트롤을 사용할 수 없습니다.
 
 **Azure AD 관리 센터**
 
 Azure AD 관리 센터는 사용자가 Azure Portal에서 그룹을 만들거나 소유자를 할당할 수 있는지 여부와 만료 및 이름 지정 정책 설정에 대한 컨트롤을 제공합니다.
 
-또한 관리 센터는 비소유자도 게스트를 초대할 수 있는지 여부를 제한하는 등 Microsoft 365 관리 센터보다 더 많은 게스트 초대 제어 방안을 제공합니다.
+또한 관리 센터는 비소유자도 게스트를 초대할 수 있는지 여부를 제한할 수 있는 Microsoft 365 관리 센터 같은 다양한 게스트 초대 제어 조치를 제공합니다.
 
 **SharePoint**
 
@@ -80,18 +80,23 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 �
 최종 사용자는 여러 서비스에서 그룹을 만들 수 Microsoft 365 그룹과만 공유할 수 있습니다.
 
 다음 서비스를 사용하면 최종 사용자가 그룹을 만들 수 있습니다.
-                         
-Outlook 웹 Project Stream SharePoint Planner Microsoft Teams Yammer
 
-**그룹 만들기 제한**
+- Outlook
+- Planner
+- 웹용 Project
+- SharePoint
+- Stream
+- Microsoft Teams
+- Yammer
+
+#### <a name="restriction-of-group-creation"></a>그룹 만들기 제한
 
 팀의 돌출을 제어하는 일반적인 방법은 팀을 만들 수 있는 사용자를 제한하는 것입니다. 그룹 만들기를 제한해야만 이행할 수 있습니다. 이렇게 하면 최종 사용자에게 필요한 다른 서비스에서 그룹을 만드는 능력에 영향을 미치게 됩니다. Microsoft 365 그룹은 일부 앱이나 서비스에서 그룹을 만들지 못하도록 제한하는 기능을 지원하지 않습니다.
 
 그룹 만들기 제한의 환경은 앱과 서비스에 따라 다릅니다.
 
-
 |앱 또는 서비스|환경|
-|:-------------|:---------|
+|---|---|
 |Outlook|**새 그룹** 옵션이 사람 페이지의 새 메뉴에서 제거됨|
 |Planner|**새 계획은** 그룹 만들기가 꺼져 있으며 기존 그룹에 계획을 추가하기 위한 제안에 대해 설명|
 |Project 및 로드맵에 대한 추가|**그룹 만들기** 메뉴에서는 그룹 만들기가 제한되어 있으며 기존 그룹을 사용하는 것이 제안됩니다.|
@@ -111,7 +116,7 @@ Outlook 웹 Project Stream SharePoint Planner Microsoft Teams Yammer
 다음 표에서는 다양한 서비스와의 Microsoft 365 그룹 상호 작용에 대한 개요를 제공합니다.
 
 |제품|기능|서비스<br>그룹이 없는 경우|서비스할 수 있습니다.<br>그룹을 만들나요?|를 삭제하지 않습니다.<br>인스턴스가 그룹을 삭제하나요?|
-|:---|:---|:---|:---|:---|
+|---|---|---|---|---|
 |Azure AD|멤버 자격, 그룹 컨트롤, 게스트|예|예|예|
 |Exchange|일정, 사서함|예|예|예|
 |Forms|폼|예|아니요|아니요|
@@ -136,7 +141,7 @@ Azure AD는 여러 응용 프로그램은 다양한 기능에 대한 Microsoft 3
 
 **그룹에 제공되는 주요 기능**
 
-- 그룹 멤버십
+- 그룹 구성원 자격
 - 이름 정책
 - 만료 정책
 - 게스트
@@ -176,7 +181,7 @@ Teams Microsoft 및 타사 서비스와 상호 작용할 수 있는 단수 인�
 
 - Conversations
 - 채널 & 탭
-- 모임
+- Meetings
 
 **그룹을 Teams 수 있나요?**
 

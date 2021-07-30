@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 03/27/2020
 ms.technology: mde
-ms.openlocfilehash: 4570e04b53f5469242f1c05d808e6aae80663b6d
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 1c45bec7e38a849160a14adb3011a303085b00e6
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53591274"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648450"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-alerts-queue"></a>엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "53591274"
 **적용 대상:**
 - [엔드포인트용 Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-alertsq-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-alertsq-abovefoldlink)
 
 경고 **큐에는** 네트워크의 장치에서 플래그가 지정된 경고 목록이 표시됩니다. 기본적으로 큐에는 그룹 보기에서 지난 30일 동안의 경고가 표시됩니다. 가장 최근 경고는 가장 최근 경고를 먼저 볼 수 있도록 목록 맨 위에 표시됩니다.
 

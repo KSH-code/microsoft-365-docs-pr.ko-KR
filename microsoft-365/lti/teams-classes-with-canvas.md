@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Canvas Microsoft Teams 클래스 통합
-ms.openlocfilehash: e8ab45de84fe8325f6d5b349deb96aa831d54e36
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 9baf4f3607673e48472e297ce42a1ad461df5b84
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454688"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53652434"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Canvas에서 Microsoft Teams 클래스 사용
 
@@ -56,13 +56,13 @@ Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canva
 
    ![사용 권한](media/permissions.png)
 
-8. **수락을 선택합니다.**
+8. **수락** 을 선택합니다.
 
 ## <a name="canvas-admin"></a>Canvas Admin
 
 LTI Microsoft Teams 1.3 통합을 설치합니다.
 
-Canvas 관리자는 사용자 환경 내에 Microsoft Teams 클래스 LTI 앱을 추가해야 합니다. 앱에 대한 LTI 클라이언트 ID를 메모합니다.
+Canvas 관리자는 사용자 환경 내에 Microsoft Teams 클래스 LTI 앱을 추가해야 합니다. 기본 계정의 개발자 키 목록에 액세스하고, 상속된 키로 전환하고, LTI 도구를 Teams 활성화합니다. 앱에 대한 LTI 클라이언트 ID를 메모합니다.
 
  - Microsoft Teams 클래스 - 170000000000570
 

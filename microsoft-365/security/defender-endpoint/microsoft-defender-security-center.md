@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5152a1fa13562f25a8e55617655cab934e886ff0
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f7fb73cde3afa385b0d73b35610415cacd1cad81
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186620"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648155"
 ---
 # <a name="microsoft-defender-security-center"></a>Microsoft Defender 보안 센터
 
@@ -33,7 +33,7 @@ ms.locfileid: "51186620"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Microsoft Defender 보안 센터 Microsoft Defender for Endpoint 기능에 액세스할 수 있는 포털입니다. 엔터프라이즈 보안 운영 팀에 네트워크를 보호하는 데 도움이 되는 단일 창의 유리 환경을 제공합니다.
 
@@ -41,7 +41,7 @@ Microsoft Defender 보안 센터 Microsoft Defender for Endpoint 기능에 액�
 
 항목 | 설명
 :---|:---
-시작하기  |  최소 요구 사항에 대해 알아보고, 라이선스의 유효성을 검사하고, 설치를 완료하고, 미리 보기 기능에 대해 알아보고, 데이터 저장소 및 개인 정보 보호를 이해하고, 포털에 사용자 액세스를 할당하는 방법을 파악합니다.
+시작  |  최소 요구 사항에 대해 알아보고, 라이선스의 유효성을 검사하고, 설치를 완료하고, 미리 보기 기능에 대해 알아보고, 데이터 저장소 및 개인 정보 보호를 이해하고, 포털에 사용자 액세스를 할당하는 방법을 파악합니다.
 [온보딩 장치](onboard-configure.md) | 클라이언트, 서버 및 비보안 장치 온보 Windows 대해 자세히 알아보습니다. 검색 테스트를 실행하고, 프록시 및 인터넷 연결 설정을 구성하고, 잠재적인 온보더링 문제를 해결하는 방법을 배워야 합니다.
 [포털 이해](use.md) | 보안 작업, 보안 점수 및 위협 분석 대시보드와 포털 탐색 방법을 이해합니다.
 위협 조사 및 수정 | 경고, 장치를 조사하고 대응 조치를 취하여 위협을 해결합니다.

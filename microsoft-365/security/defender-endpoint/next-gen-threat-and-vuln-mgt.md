@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: db213da7c1859c9f4c9871aea508b225fd9b7b44
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 06fdea1c4d84ca4cd23aeb7e715c0087f65275b1
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623159"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648126"
 ---
 # <a name="threat-and-vulnerability-management"></a>위협 및 취약점 관리
 
@@ -32,7 +32,7 @@ ms.locfileid: "53623159"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 끝점 약점을 효과적으로 식별, 평가 및 수정하는 것은 건전한 보안 프로그램을 실행하고 조직의 위험을 줄이는 데 중요합니다. 위협과 취약점 관리는 조직 노출을 줄이고, 엔드포인트 노출 영역을 강화하며, 조직 복원력을 높이는 인프라 역할을 합니다.
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c58d7d4192afd0aa13a5ffb0c7f3204b4eaf0315
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 1fee26356a7a705b1e4d8a5bebb36b9adbcfd123
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844409"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651858"
 ---
 # <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>끝점용 Microsoft Defender 기능 구성 및 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "52844409"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 조직에 최상의 보안 보호를 제공하도록 끝점 기능용 Defender를 구성하고 관리하는 방법을 학습합니다.
 
@@ -49,5 +49,5 @@ ms.locfileid: "52844409"
 [공격 표면 감소 기능 구성](configure-attack-surface-reduction.md) | 공격 표면 감소 기능을 구성하여 설정이 올바르게 적용되고 악용 완화 기술이 설정되었는지 확인합니다.
 [차세대 보호 구성](/windows/security/threat-protection/microsoft-defender-antivirus/configure-microsoft-defender-antivirus-features) | 모든 유형의 새로운 위협을 catch하도록 차세대 보호를 구성합니다.
 [Microsoft 위협 전문가 기능 구성](configure-microsoft-threat-experts.md) | 보안 위협 인텔리전스를 구성하고 관리하기 Microsoft 위협 전문가.
-[Defender Microsoft 365 구성](/microsoft-365/security/defender-endpoint/threat-protection-integration) | 끝점용 Defender와 통합되는 다른 솔루션을 구성합니다.
+[통합 Microsoft 365 Defender 구성](/microsoft-365/security/defender-endpoint/threat-protection-integration) | 끝점용 Defender와 통합되는 다른 솔루션을 구성합니다.
 [관리 및 API 지원](/microsoft-365/security/defender-endpoint/management-apis) | SIEM(보안 정보 및 이벤트 관리)으로 경고를 끌어오거나 API를 사용하여 사용자 지정 경고를 만들 수 있습니다. 보고서 만들기 및 Power BI.

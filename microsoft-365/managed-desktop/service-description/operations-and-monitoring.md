@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e8fc583feb0d1ae1fc4ec4aa970b9dc19ae46fd9
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: dab1d8befaa0d32118f3fea350037ed8b91aadf3
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286900"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53652422"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Microsoft Managed Desktop 작업 및 모니터링
 
@@ -71,11 +71,11 @@ Microsoft Managed Desktop 서비스는 Microsoft에서 다른 관리 활동을 �
 
 사내 제품의 경우 조직은 설치 관리와 구성 및 운영 활동을 관리하는 모든 책임을 집니다.
 
-범주 | Microsoft는 | 고객은
+분류 | Microsoft는 | 고객은
 --- | --- | ---
 네트워크(프록시, 패킷 검사, VPN)  | 비즈니스 사용자에 대한 위험을 최소화하도록 고객과의 조언 및 계획 | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 요청 정보를 요청하는 지원 요청 정보를 만들 수 있습니다.<br>- Operations가 평가 및 Microsoft Managed Desktop 한 번만 변경을 적용합니다.
 서비스 계정 |- 자격 증명을 구현, 안전하게 저장 및 관리합니다.<br> - 이러한 자격 증명의 무단 액세스 또는 사용을 보안 운영 팀에 전달합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 요청 정보를 요청하는 지원 요청 정보를 만들 수 있습니다.<br>- Operations가 평가 및 Microsoft Managed Desktop 한 번만 변경을 적용합니다.<br>- 서비스 계정에 정책, 다단계 인증, 조건부 액세스 또는 응용 프로그램 배포를 Microsoft Managed Desktop 않습니다.<br>- 암호를 다시 설정하거나 자격 증명을 사용하지 않습니다.<br>- Intune 또는 Azure 감사 로그에서 의심스러운 활동이 관찰된 경우 이러한 서비스 계정과 관련된 Microsoft Managed Desktop Operations에 대한 Sev C 지원 요청을 하세요.
-장치 그룹 | - 그룹 내에서 디바이스의 멤버 자격을 구현하고 Microsoft Managed Desktop.<br>- Microsoft Managed Desktop 그룹을 사용하여 디바이스에 대한 구성 및 업데이트의 할당 및 릴리스를 관리합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 요청 정보를 요청하는 지원 요청 정보를 만들 수 있습니다.<br>- Operations가 평가 및 Microsoft Managed Desktop 한 번만 변경을 적용합니다.<br>- 모든 그룹의 구성원 자격을 Microsoft Managed Desktop 않습니다.<br>- VPN, 비즈니스용 Windows Hello 전자 메일 암호화 또는 회사 프로필 구성과 같은 서비스에 대한 회사 인증서를 Wi-Fi 그룹에만 사용합니다.<br>- 공동 관리가 있는 경우 Configuration Manager 클라이언트를 배포할 Microsoft Managed Desktop 모든 사용자 그룹을 명시적으로 제외합니다.
+장치 그룹 | - 그룹 내에서 디바이스의 멤버 자격을 구현하고 Microsoft Managed Desktop.<br>- Microsoft Managed Desktop 그룹을 사용하여 디바이스에 대한 구성 및 업데이트의 할당 및 릴리스를 관리합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 요청 정보를 요청하는 지원 요청 정보를 만들 수 있습니다.<br>- Operations가 평가 및 Microsoft Managed Desktop 한 번만 변경을 적용합니다.<br>- 배포 그룹에 장치 Microsoft Managed Desktop 단계에 따라 모든 Microsoft Managed Desktop 그룹에만 장치를 [할당합니다.](../working-with-managed-desktop/assign-deployment-group.md)<br>- VPN, 비즈니스용 또는 전자 메일 암호화 또는 회사 wifi 프로필 Windows Hello 서비스에 대한 회사 인증서를 할당하려면 그룹만 사용합니다.<br>- 공동 관리가 있는 경우 Configuration Manager 클라이언트를 배포할 Microsoft Managed Desktop 모든 사용자 그룹을 명시적으로 제외합니다.
 정책 | - 서비스 내의 장치 구성 상태를 Microsoft Managed Desktop 정책을 구현하고 관리합니다.<br>- 장치 그룹을 사용하여 Windows 또는 정책에 업데이트를 배포합니다.<br> - 비영리 그룹 대상 지정을 Microsoft Managed Desktop 명시적으로 제외 | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 요청 정보를 요청하는 지원 요청 정보를 만들 수 있습니다.<br>- Operations가 평가 및 Microsoft Managed Desktop 한 번만 변경을 적용합니다.<br>- Microsoft Managed Desktop 서비스에서 관리하지 않는 장치 또는 사용자에게 Microsoft Managed Desktop 할당하지 않습니다.
 엔드포인트용 Microsoft Defender | Microsoft Managed Desktop 서비스 범위 내의 장치를 모니터링하고 조사합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 요청 정보를 요청하는 지원 요청 정보를 만들 수 있습니다.<br>- Operations가 평가 및 Microsoft Managed Desktop 한 번만 변경 적용
 비즈니스용 Microsoft Store | Windows 서비스에 대한 Autopilot 프로필을 구성하고 Microsoft Managed Desktop 유지 관리합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 요청 정보를 요청하는 지원 요청 정보를 만들 수 있습니다.<br>- Operations가 평가 및 Microsoft Managed Desktop 한 번만 변경을 적용합니다.<br>- Autopilot 프로필의 구성을 Microsoft Managed Desktop Windows 할당된 디바이스를 추가/제거하지 않습니다.

@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이전 직원의 로그인을 차단하고 Microsoft 365 차단합니다.
-ms.openlocfilehash: 69108539a87e9db4aa72851e5622a5f3856d3a45
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: da1ad9236a8380dd3ce5bdebb86675b7c6e09cbd
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541628"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648678"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>1단계 - 이전 직원이 로그인하지 못하게 방지하고 Microsoft 365 액세스 차단
 
@@ -68,10 +68,11 @@ Microsoft 365 구독의 일부로 전자 메일이 있는 경우 Exchange 관리
   
 1. <a href="https://admin.exchange.microsoft.com/" target="_blank">Exchange 관리 센터</a>로 이동합니다.
 2. Exchange 관리 센터에서 **받는 사람** \> **사서함** 으로 이동합니다.
-3. 사용자를 두 번 클릭하고 전자 메일 앱 아래의 전자 메일 **앱 설정** **관리로 이동합니다.** 모든 **옵션에** 대해 슬라이더를 해제합니다. **모바일(Exchange ActiveSync)** **,** 웹용 Outlook , Outlook **데스크톱(MAPI)**, Exchange 웹 **서비스,** **POP3** 및 **IMAP**.
+3. 목록에서 사용자 사서함을 선택한 다음  세부 정보 창(오른쪽)에서 전자 메일 앱의 전자 메일 **앱 설정** 관리를 **선택합니다.** 모든 **옵션에** 대해 슬라이더를 해제합니다. **모바일(Exchange ActiveSync)** **,** 웹용 Outlook , Outlook **데스크톱(MAPI)**, Exchange 웹 **서비스,** **POP3** 및 **IMAP**.
 4. **저장** 을 선택합니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Exchange 관리 센터의 Exchange Online](/exchange/exchange-admin-center) 
- [사용자 복원](restore-user.md)
+[Exchange 관리 센터의 Exchange Online](/exchange/exchange-admin-center)
+
+[사용자 복원](restore-user.md)

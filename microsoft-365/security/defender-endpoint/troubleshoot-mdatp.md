@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: e5eda862f253f1df2fd4b2d394601b99258ce446
-ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
+ms.openlocfilehash: a487148601f9565a82f8046019fcf6cb4c2825c1
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587888"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53652650"
 ---
 # <a name="troubleshoot-service-issues"></a>서비스 문제 해결
 
@@ -31,7 +31,7 @@ ms.locfileid: "53587888"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
 이 섹션에서는 Microsoft Defender for Endpoint 서비스를 사용할 때 발생할 수 있는 문제를 설명합니다.
 
@@ -81,7 +81,7 @@ Microsoft Defender [for](event-error-codes.md) Endpoint 서비스에서 보고�
 
 숫자에서 구분으로 콤보를 사용할 수 없습니다. 숫자가 1000을 나타내는 콤보로 구분되는 지역은 점만 구분 구분선으로만 사용할 수 있습니다. 예를 들어 15,5K는 15.5K로 표시됩니다.
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troubleshoot-belowfoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-troubleshoot-belowfoldlink)
 
 ## <a name="microsoft-defender-for-endpoint-tenant-was-automatically-created-in-europe"></a>Microsoft Defender for Endpoint 테넌트가 유럽에서 자동으로 생성되었습니다.
 

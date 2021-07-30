@@ -1,5 +1,5 @@
 ---
-title: Microsoft Managed Desktop이 사용하기에 적합한가요?
+title: Microsoft Managed Desktop이란 무엇인가요?
 description: 서비스 지침과 다양한 사용자를 위한 기사 바로 가기
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e70a67f9472dff155b8554d5d6ae26c79d49a67a
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 8748426b18bb488c1d2ad7c78e88a26ee7617120
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362620"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621538"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 

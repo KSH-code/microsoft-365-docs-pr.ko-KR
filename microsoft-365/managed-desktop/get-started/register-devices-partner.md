@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 227786fdcf1e490be1e3ce74bbc1be1c5f21acfe
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 64686f84d8e4cc7dca40a875d8b54508ea9a1fc9
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689236"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648474"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>파트너가 장치를 등록하기 위한 단계
 
@@ -53,7 +53,7 @@ ms.locfileid: "51689236"
 > 그룹 이름은 대문자 및 특수 문자를 포함하여 표에 나열된 이름과 정확히 일치해야 합니다. 이렇게 하면 새로 등록된 디바이스를 Autopilot 프로필과 함께 Microsoft Managed Desktop 수 있습니다.
 
 >[!NOTE]
-> 디바이스 구매 시 이 .csv 파일을 받았을 것입니다. .csv 파일을 받지 못하면 [Autopilot](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell)에 장치 추가의 단계에 따라 직접 Windows 있습니다. Windows PowerShell 스크립트는 Microsoft Managed Desktop [관리 포털에](./register-devices-self.md#obtain-the-hardware-hash)사용되는 스크립트와 다릅니다. 파트너는 [Get-WindowsAutoPilotInfo를](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 사용하여 파트너 센터에서 Microsoft Managed Desktop 장치를 등록해야 합니다.
+> 디바이스 구매 시 이 .csv 파일을 받았을 것입니다. .csv 파일을 받지 못하면 [Autopilot](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell)에 장치 추가의 단계에 따라 직접 Windows 있습니다. 추가 열은 지원되지 않습니다. 따옴표는 지원되지 않습니다. ANSI 형식 텍스트 파일만 사용할 수 있습니다(유니코드 아미드). 헤더는 대소문자 구분입니다. 이러한 Excel 파일을 편집하고 CSV 파일로 저장하면 이러한 요구 사항으로 인해 사용할 수 있는 파일이 생성되지 않습니다. 디바이스 일련 번호에 선행 0을 유지해야 합니다. 파트너는 [Get-WindowsAutoPilotInfo를](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 사용하여 파트너 센터에서 Microsoft Managed Desktop 장치를 등록해야 합니다.
 
 파일 파일을 업로드하는 동안 오류 메시지가 .csv 파일의 형식을 검사합니다. 열 순서가 새 디바이스의 [Autopilot](/partner-center/autopilot#add-devices-to-a-customers-account)프로필을 사용하여 고객의 첫 번째 경험 사용자 지정에 설명된 Windows 일치하는지 확인 장치 추가 옆에 있는 링크에서 제공된 샘플  .csv 파일을 사용하여 장치 목록을 만들 수 있습니다. 
 

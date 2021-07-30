@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 2f873482dc351050a87993420e718f6de87ac218
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 3f1d3a7ee191377a22f5411578f5e267c8e7d345
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227534"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624239"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -85,7 +85,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 
 |기능 또는 동작|레이블 설정: 파일 및 전자 메일에 자동 레이블 지정  |정책: 자동 레이블 지정|
 |:-----|:-----|:-----|
-|앱 종속성|[예](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) |아니요\* |
+|앱 종속성|예([최소 버전](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)) |아니요\* |
 |위치별 제한|아니오 |예 |
 |조건: 훈련 가능한 분류자|예 |아니요 |
 |조건: 전자 메일 공유 옵션 및 추가 옵션|아니요 |예 |
@@ -142,33 +142,17 @@ DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 일치 정확
 또한 DLP 정책 구성과 마찬가지로 조건이 모든 중요한 정보 유형을 탐지해야 하는지 또는 이러한 정보 유형 중 하나만 탐지해야 하는지 선택할 수 있습니다. 또한 조건을 더 유연하고 복잡하게 만들기 위해 [그룹을 추가하고 그룹 간에 논리 연산자를 사용](data-loss-prevention-policies.md#grouping-and-logical-operators)할 수 있습니다.
 
 > [!NOTE]
-> 중요한 사용자 지정 정보 유형을 기반으로 하는 자동 레이블 지정 정책은 OneDrive 및 SharePoint에서 새로 만들거나 수정한 콘텐츠에만 적용되며, 기존 콘텐츠에는 적용되지 않습니다.
+> 사용자 지정 중요 정보 유형에 따른 자동 레이블 지정은 기존 콘텐츠가 아닌 OneDrive 및 SharePoint에서 새로 작성되거나 수정된 콘텐츠에만 적용됩니다. 이 제한은 자동 레이블 지정 정책에도 적용됩니다.
 
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>레이블에 교육 가능한 분류자 구성하기
 
-이 옵션은 현재 미리 보기로 제공됩니다. 이 옵션을 사용하는 경우 자동 레이블 지정과 [중요한 정보 유형 옵션](#configuring-sensitive-info-types-for-a-label)에 구성된 하나 이상의 다른 민감도 레이블을 테넌트에 게시했는지 확인하세요.
+이 옵션을 사용하는 경우 자동 레이블 지정과 [중요한 정보 유형 옵션](#configuring-sensitive-info-types-for-a-label)에 구성된 하나 이상의 다른 민감도 레이블을 테넌트에 게시했는지 확인하세요.
 
 **교육 가능한 분류자** 옵션을 선택하는 경우, Microsoft의 기본 제공 교육 가능 분류자를 하나 이상 선택합니다. 사용자 지정 교육 가능 분류자를 만든 경우, 다음의 사항 또한 선택할 수 있습니다.
 
 ![교육 가능한 분류자 및 민감도 레이블에 대한 옵션](../media/sensitivity-labels-classifers.png)
 
-> [!CAUTION]
-> 당사는 **비속어** 기본 제공 분류자가 많은 수의 가양성을 생성하였기 에 그 사용을 중단하고 있습니다. 이러한 기본 제공 분류자를 사용하지 않도록 하고 현재 사용하고 있는 경우에는 비즈니스 프로세스를 제거해야 합니다. 대신에 **대상 지정 괴롭힘**,**모독** 그리고 **위협** 기본 제공 분류자를 사용하는 것이 좋습니다.
-
 해당 분류자에 대한 자세한 내용은 [학습 가능한 분류자에 대한 자세한 정보](classifier-learn-about.md)를 참조하세요.
-
-이 옵션의 미리 보기 기간 동안 다음 앱이 민감도 레이블에 대한 교육 가능한 분류자를 지원합니다.
-
-- Windows 엔터프라이즈용 Microsoft 365 앱([구 Office 365 ProPlus](/deployoffice/name-change))가 버전 2006 이후에서 [현재 채널](/deployoffice/overview-update-channels#current-channel-overview)로 배포됩니다.
-    - Word
-    - Excel
-    - PowerPoint
-
-- [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)한 경우, 웹 앱용 Office:
-    - Word
-    - Excel
-    - PowerPoint
-    - Outlook
 
 ### <a name="recommend-that-the-user-applies-a-sensitivity-label"></a>사용자가 민감도 레이블을 적용하는 것이 좋습니다.
 
@@ -194,7 +178,7 @@ Office 앱의 자동 및 권장 레이블 지정 구현은 Office 기본 제공 
 
 - 데스크톱 버전의 Word에서 권장되는 레이블의 경우 사용자가 권장되는 민감도 레이블을 적용하는 대신, 중요한 콘텐츠를 검토하고 제거할 수 있도록 권장 사항을 트리거한 중요한 콘텐츠에 플래그가 지정됩니다.
 
-- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
+- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/ko-KR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
 
 Azure Information Protection 통합 레이블 지정 클라이언트와 관련된 내용:
 
@@ -219,7 +203,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     - 자동 레이블 지정 정책이 실행될 때 다른 프로세스나 사용자가 파일을 열면 안됩니다. 편집을 위해 체크 아웃된 파일은 이 범주로 분류됩니다.
 
 - 기본 제공 민감도 유형이 아닌 [사용자 지정 민감도 정보 유형](sensitive-information-type-learn-about.md)을 사용하려는 경우:
-    - 사용자 지정 중요 정보 유형을 시행한 후 SharePoint 또는 OneDrive에서 추가 또는 수정한 콘텐츠에만 사용자 지정 중요 정보 유형을 적용합니다.
+    - 사용자 정의 민감도 정보 유형은 사용자 정의 민감도 정보 유형이 작성된 후 SharePoint 또는 OneDrive에서 추가되거나 수정된 콘텐츠에만 적용됩니다.
     - 새로운 사용자 지정 민감도 정보 유형을 테스트하려면 자동 레이블 지정 정책을 만들기 전에 해당 유형을 만든 다음 테스트용 샘플 데이터가 포함된 새 문서를 만듭니다.
 
 - 자동 레이블 지정 정책에 대해 선택할 수 있는 하나 이상의 민감도 레이블이 [생성 및 게시](create-sensitivity-labels.md)(적어도 한 명의 사용자에게) 됩니다. 이러한 레이블의 경우:

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 법률, 비즈니스 또는 규제 의무를 위해 고부가가치 콘텐츠를 관리하는 Microsoft 365용 레코드 관리 솔루션이 필요하지만, 어디서부터 시작해야 할지 잘 모르겠나요? 시작하려면 몇 가지 실무 지침을 읽어보세요.
-ms.openlocfilehash: 173086799e4ae7cec3192f95248f0a7f26a10552
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 8e6f32a7f1bc68449f1b43531725f07999043b82
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226578"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624035"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 
@@ -53,9 +53,7 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 읽기 전용 역할의 경우 새 역할 그룹을 생성하고 **보기 전용 레코드 관리** 역할을 이 그룹에 추가할 수 있습니다.
 
-역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
-
-사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [Office 365 규정 준수 센터의 사용 권한](microsoft-365-compliance-center-permissions.md)을 참조하세요.
 
 해당 권한은 레코드를 선언하고 처리를 관리하는 보존 레이블을 만들고 구성하고 적용하는 경우에만 필요합니다. 해당 레이블을 구성하는 사용자는 콘텐츠에 대한 액세스 권한이 필요하지 않습니다.
 

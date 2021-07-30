@@ -2,8 +2,8 @@
 title: 앱 정책 만들기
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: v-tophillips
+author: v-tophillips
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 정책을 만듭니다.
-ms.openlocfilehash: 66d8dda7c9cd768d6971e2b58dca4c9c5437e5bb
-ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
+ms.openlocfilehash: 317254714188bd1118a5ba285c5cc91f050abd28
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53438063"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53619174"
 ---
 # <a name="create-app-policies"></a>앱 정책 만들기
 
@@ -63,13 +63,13 @@ ms.locfileid: "53438063"
 | 높은 권한이 있는 새 앱 | 추가 조사가 필요할 수 있는 잠재적으로 큰 공간을 차지하는 앱을 식별하도록 사용 권한이 높은 모든 새 앱을 강조 표시합니다. <br><br> 기본적으로 이 정책은 높은 사용 권한이 있는 지난 7일 동안 등록된 모든 앱에 플래그를 지정합니다. |
 |||
 
-### <a name="app-certification"></a>앱 인증
+### <a name="m365-certification"></a>M365 인증
 
-앱 거버넌스에는 앱 인증에 대한 경고를 생성하는 이러한 템플릿이 포함되어 있습니다.
+앱 거버넌스에는 M365 인증에 대한 경고를 생성하는 이러한 템플릿이 포함되어 있습니다.
 
 | 서식 파일 이름 | 설명 |
 |:-------|:-----|
-| 인증되지 않은 새 앱 | 테넌트에서 예상되도록 앱 인증 프로세스를 거치지 않은 새 앱을 강조 표시합니다. <br><br> 기본적으로 이 정책은 지난 7일 동안 등록되어 인증되지 않은 모든 앱에 플래그를 지정합니다. |
+| 인증되지 않은 새 앱 | 테넌트에서 예상되도록 M365 인증 프로세스를 거치지 않은 새 앱을 강조 표시합니다. <br><br> 기본적으로 이 정책은 지난 7일 동안 등록되어 인증되지 않은 모든 앱에 플래그를 지정합니다. |
 |||
 
 ## <a name="custom-app-policies"></a>사용자 지정 앱 정책
@@ -109,7 +109,7 @@ ms.locfileid: "53438063"
 |조건 | 조건 값 수락됨 | 추가 정보 |
 |:-------|:-----|:-------|
 | 앱 등록 기간 | 지난 X일 이내 |  |
-| 앱 인증 | 기본 규정 준수, MCAS 규정 준수 또는 해당 없음 | [Microsoft 365 인증](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide) |
+| M365 인증 | 기본 규정 준수, MCAS 규정 준수 또는 해당 없음 | [Microsoft 365 인증](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide) |
 | 게시자 검증 | 예 또는 아니요 | [게시자 확인](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview) |
 | 응용 프로그램 사용 권한 | 목록에서 하나 이상의 API 권한 선택 | [Microsoft Graph 권한 참조](https://docs.microsoft.com/graph/permissions-reference) |
 | 위임된 권한 | 목록에서 하나 이상의 API 권한 선택 | [Microsoft Graph 권한 참조](https://docs.microsoft.com/graph/permissions-reference) |
@@ -127,11 +127,7 @@ ms.locfileid: "53438063"
 | 오류율 | 오류율이 지난 7일 동안 X%보다 크며, 여기서 X는 관리자가 정의한 값입니다. |  |
 ||||
 
-<!--
-NOTE TO WRITER: Replace X in the above table with correct values.
--->
-
-이 앱 정책을 적용하려면 지정된 모든 조건을 충족해야 합니다.
+경고를 생성하려면 이 앱 정책에 대한 지정된 모든 조건을 충족해야 합니다.
 
 조건 지정이 완료되면 **저장** 을 선택한 후 **다음** 을 선택합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 끝점용 Microsoft Defender의 장치 상태 및 규정 준수 보고서
+title: 엔드포인트용 Microsoft Defender의 장치 상태 및 준수 보고서
 description: 장치 상태 및 준수 보고서를 사용하여 장치 상태 검색, 바이러스 Windows 10 OS 플랫폼 및 버전 추적
 keywords: 상태, 바이러스 백신, os 플랫폼, Windows 10 버전, 버전, 상태, 규정 준수, 상태
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 35100a4b8bdaee23c427816450e948ced9ed3191
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 23d099d01791fcdd5f5265c8683d6faca9fb857d
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860294"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651942"
 ---
-# <a name="device-health-and-compliance-report-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 장치 상태 및 규정 준수 보고서
+# <a name="device-health-and-compliance-report-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 장치 상태 및 준수 보고서
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "51860294"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 장치 상태 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다. 이 보고서에는 센서 상태, 바이러스 백신 상태, OS 플랫폼 및 최신 버전을 보여 Windows 10 포함되어 있습니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "51860294"
 >[!NOTE]
 >이러한 필터는 장치 추세 섹션에만 적용됩니다. 장치 요약 섹션에는 영향을 주지 않습니다.
 
-## <a name="device-summary"></a>장치 요약 
+## <a name="device-summary"></a>디바이스 요약 
 장치 추세는 추세 장치 정보를 표시하는 반면, 장치 요약에는 현재 일자까지의 장치 정보가 표시됩니다. 
 
 >[!NOTE]

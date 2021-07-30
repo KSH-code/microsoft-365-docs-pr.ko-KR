@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하거나 사용자가 구성한 설정에 따라 레코드로 표시된 항목이 자동으로 삭제되는 경우에 대한 콘텐츠 폐기 작업을 모니터링하고 관리합니다.
-ms.openlocfilehash: 577cf25ffc8735be19434496bd16202a8e383761
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 2a7330cff56f053f7714a88d8d3519cb0cd3cbaa
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878127"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53621670"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
@@ -49,7 +49,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 
 사용자에게 보존 및 레코드 관리를 위한 다른 기능을 보고 구성할 수 있는 권한을 부여하지 않고 처리 검토에 필요한 권한만 부여하려면 사용자 지정 역할 그룹(예: "처리 검토자")을 만들고 이 그룹에 **처분 관리** 역할을 부여하세요.
 
-이 권한을 구성할 수 있는 지침은 [사용자에게 Office 365 보안 및 준수 센터의 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [Office 365 규정 준수 센터의 사용 권한](microsoft-365-compliance-center-permissions.md)을 참조하세요.
 
 추가 사항:
 

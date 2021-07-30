@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 91e57b9941764d5f26ae47e137f584cd9f2c5f5d
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 9543ef45e568e742e6fd660a2408462de4874e57
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53595765"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53652350"
 ---
 # <a name="create-alert-api"></a>경고 API 만들기
 
@@ -31,7 +31,7 @@ ms.locfileid: "53595765"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -90,7 +90,7 @@ eventTime | DateTime(UTC) | 고급 헌팅에서 얻은 이벤트의 정확한 �
 reportId | String | 고급 헌팅에서 얻은 이벤트의 reportId입니다. **필수입니다**.
 machineId | String | 이벤트를 식별한 장치의 ID입니다. **필수입니다**.
 심각도 | String | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
-title | String | 경고의 제목입니다. **필수입니다**.
+제목 | String | 경고의 제목입니다. **필수입니다**.
 설명 | String | 경고에 대한 설명입니다. **필수입니다**.
 recommendedAction| String | 경고를 분석할 때 보안 담당자가 권장하는 작업입니다. **필수입니다**.
 category| String | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**

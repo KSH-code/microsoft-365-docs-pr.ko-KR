@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 04e58c2a-400b-496a-acd4-8ec5d37236dc
 description: PowerShell을 사용하여 특정 계정에 대한 액세스를 차단하고 차단을 Microsoft 365 방법
-ms.openlocfilehash: 90d712cdb6eb34d0588fc262e3a02673accfbd9e
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: d6ccedf68772d6774ed327e75f080f9200eb5684
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287224"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648618"
 ---
 # <a name="block-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 차단
 
@@ -85,7 +85,7 @@ Set-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userName
 사용자 계정의 차단 상태를 확인하려면 다음 명령을 사용하세요.
 
 ```powershell
-Get-AzureADUser -UserPrincipalName <UPN of user account> | Select DisplayName,AccountEnabled
+Get-AzureADUser  -ObjectID <UPN of user account> | Select DisplayName,AccountEnabled
 ```
 
 ### <a name="block-multiple-user-accounts"></a>여러 사용자 계정 차단

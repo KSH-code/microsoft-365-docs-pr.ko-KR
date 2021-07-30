@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: dc5f55f760f4cb291050962fdb493ddd135c0df0
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 29f753aa5020191286008f803da5fedaa238cb13
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623087"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53652674"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-query-apis"></a>끝점 쿼리 API에 대해 지원되는 Microsoft Defender 
 
@@ -31,7 +31,7 @@ ms.locfileid: "53623087"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 > [!TIP]
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-supported-response-apis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-supported-response-apis-abovefoldlink)
 
 실행할 수 있는 지원되는 응답 관련 API 호출과 필요한 요청 헤더, 호출의 예상 응답 등의 세부 정보를 제공합니다.
 

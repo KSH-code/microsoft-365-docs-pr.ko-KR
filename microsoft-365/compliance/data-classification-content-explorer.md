@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: b39dd09012e7cde6c19ea88a0915154da84c712a
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: ad08bc1435f950b2c97ae13112b1d5b0b3aa6f83
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114218"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624047"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 
@@ -64,7 +64,7 @@ ms.locfileid: "52114218"
 > [!IMPORTANT]
 > 이러한 권한은 해당 항목에 로컬로 할당되는 권한을 대체하여 콘텐츠를 볼 수 있게 합니다. 
 
-콘텐츠 탐색기에는 액세스 권한을 부여하는 두 가지 역할이 있으며 [Microsoft 보안 및 준수 센터](https://protection.office.com/permissions)를 사용하여 부여됩니다.
+콘텐츠 탐색기에는 액세스 권한을 부여하는 두 가지 역할이 있으며 [규정 준수 센터](https://compliance.microsoft.com/permissions)를 사용하여 부여됩니다.
 
 - **콘텐츠 탐색기 목록 뷰어**: 이 역할 그룹의 구성원 자격으로 목록 보기에서 각 항목과 해당 위치를 볼 수 있습니다. `data classification list viewer` 역할이 사전에 이 역할 그룹에 할당되었습니다.
 

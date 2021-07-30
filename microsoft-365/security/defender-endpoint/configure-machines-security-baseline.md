@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 530b377c155f4984a7fe6ccfd423ba5f0275dc82
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 3f5922bdbfbd1e558a66066f5ac68456ef74afe6
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53595657"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53652398"
 ---
 # <a name="increase-compliance-to-the-microsoft-defender-for-endpoint-security-baseline"></a>엔드포인트 보안 기준에 대한 Microsoft Defender 준수 강화
 
@@ -31,7 +31,7 @@ ms.locfileid: "53595657"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
 
 보안 기준은 보안 전문가와 시스템 관리자 및 전문가의 지침에 따라 Windows 보장합니다. 배포 시 엔드포인트용 Defender 보안 기준은 엔드포인트 보안 컨트롤에 대한 Defender를 설정하여 최적의 보호를 제공합니다.
 
@@ -106,7 +106,7 @@ Windows Intune 보안 기준은 브라우저 설정, PowerShell 설정, 브라�
 > [!TIP]
 > Intune의 보안 기준은 장치를 포괄적으로 보호하고 보호하는 편리한 방법을 제공합니다. [Intune의 보안 기준에 대해 자세히 알아보시고](/intune/security-baselines)
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>관련 항목
 

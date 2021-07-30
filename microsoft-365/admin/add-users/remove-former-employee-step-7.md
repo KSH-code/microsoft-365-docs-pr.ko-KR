@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 사용자 계정을 삭제합니다.
-ms.openlocfilehash: 3db2eb7fd4c73854a759ee4026d6f9b9c12dfa82
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 6f1f307a7029bcf1cbf71a2ce85908b9ccb28ba5
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541556"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648642"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>7단계 - 이전 직원의 사용자 계정 삭제
 
@@ -95,4 +95,6 @@ Active Directory에서 사용자 계정을 삭제 및 복원하는 방법에 대
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자](restore-user.md) 복원(문서) / [암호 다시 설정(문서)](reset-passwords.md)
+[사용자](restore-user.md) 복원(문서)
+
+[암호 다시 설정](reset-passwords.md)(문서)

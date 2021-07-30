@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 문서의 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook.
-ms.openlocfilehash: 67ec651361aac2b687fa1b0f851271ced5e634ed
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 0051f9c20508f0682d34ad3ad17d3e4d8cccf60f
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541592"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53648690"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여
 
@@ -130,7 +130,7 @@ ms.locfileid: "53541592"
   
     ![상위 Outlook 선택한 데이터 파일 내보내기 대화 상자 및 하위 폴더 포함 선택](../../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
   
-7. **다음** 을 선택합니다.
+7. **다음** 을 선택하세요.
 
 8. **찾아보기를** 선택하여 데이터 파일(.pst)Outlook 선택합니다. 파일  *이름 을 입력한* 다음 **확인을** 선택하여 계속합니다.
 
@@ -173,7 +173,7 @@ Outlook 새 Outlook 파일(.pst)을 만들거나 암호로 보호된 파일을 �
 
 5. 옵션 **아래에서** 중복 항목을 처리하려는 방법을 선택합니다.
 
-6. **다음** 을 선택합니다.
+6. **다음** 을 선택하세요.
 
 7. Outlook 데이터 파일(.pst)에 암호를 할당한 경우 암호를 입력한 다음 확인 을 **선택합니다.**
 
@@ -185,8 +185,14 @@ Outlook 새 Outlook 파일(.pst)을 만들거나 암호로 보호된 파일을 �
 > 이 단계는 기존 사용자의 데이터 및 전자 메일 데이터에 액세스하는 OneDrive 동일하게 유지됩니다.
 
 > [!TIP]
-> Outlook 데이터 파일(.pst)에서 몇 가지 항목만 가져오거나 복원하려는 경우 Outlook 열 수 있습니다. 그런 다음 탐색 창에서 데이터 파일 폴더의 Outlook 기존 폴더로 Outlook 끌어 놓습니다. 
+> Outlook 데이터 파일(.pst)에서 몇 가지 항목만 가져오거나 복원하려는 경우 Outlook 열 수 있습니다. 그런 다음 탐색 창에서 데이터 파일 폴더의 Outlook 기존 폴더로 Outlook 끌어 놓습니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[OneDrive](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) 계정의 관리자 추가 및 제거(문서) [삭제된](/onedrive/restore-deleted-onedrive) OneDrive 복원(문서) [](/onedrive/retention-and-deletion) OneDrive 보존 및 삭제(문서) 공유 OneDrive 파일 [및](https://support.microsoft.com/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07) 폴더
+[계정에서 관리자](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) 추가 및 OneDrive(문서)
+
+[삭제된 데이터 OneDrive](/onedrive/restore-deleted-onedrive) 복원(문서)
+
+[OneDrive 및](/onedrive/retention-and-deletion) 삭제(문서)
+
+[OneDrive 파일 및 폴더 공유](https://support.microsoft.com/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07)

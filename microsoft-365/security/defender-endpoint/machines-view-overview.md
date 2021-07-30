@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d70825f8bdcd47f17d2f61834f4353c537a033ed
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 88219c7a2bd8b5170df11d5b0853a3e16c3f2463
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622571"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651954"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-devices-list"></a>끝점 장치용 Microsoft Defender 목록 보기 및 구성
 
@@ -32,7 +32,7 @@ ms.locfileid: "53622571"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-machinesview-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-machinesview-abovefoldlink)
 
 장치 **목록에는** 경고가 생성된 네트워크의 장치 목록이 표시됩니다. 기본적으로 큐에는 지난 30일 동안의 장치가 표시됩니다.  
 

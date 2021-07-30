@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 위한 몇 가지 실용적인 지침을 읽어보세요.
-ms.openlocfilehash: bd3ed5e354ee80831cb1af073b6da6f277418b51
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: a58b50aeea2cfd223e54d1dd4d2c4aa91026afe8
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689040"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53624023"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -56,9 +56,7 @@ ms.locfileid: "52689040"
 
 이 기본 역할을 사용하는 대신 새 역할 그룹을 생성하고 **보존 관리** 역할을 이 그룹에 추가할 수 있습니다. 읽기 전용 역할의 경우 **읽기 전용 보존 관리** 를 사용하세요. 
 
-해당 역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
-
-사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [Office 365 규정 준수 센터의 사용 권한](microsoft-365-compliance-center-permissions.md)을 참조하세요.
 
 해당 권한은 보존 정책 및 보존 레이블을 만들고 구성하고 적용하는 경우에만 필요합니다. 해당 정책 및 레이블을 구성하는 사용자는 콘텐츠에 대한 액세스 권한이 필요하지 않습니다.
 
