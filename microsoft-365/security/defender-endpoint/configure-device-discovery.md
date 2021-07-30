@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 7997a1367126cd22417683b22409e6254204e1bf
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: fbce67602006a86c71bf3b802d8b69e2cd367104
+ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567131"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "53664072"
 ---
 # <a name="configure-device-discovery"></a>장치 검색 구성
 
@@ -108,6 +108,19 @@ DeviceNetworkInfo
 | extend NetworkName = tostring(ConnectedNetworks ["Name"]), Description = tostring(ConnectedNetworks ["Description"]), NetworkCategory = tostring(ConnectedNetworks ["Category"])
 | where NetworkName == "<your network name here>"
 ```
+
+## <a name="get-information-on-device"></a>디바이스에 대한 정보 얻기
+
+다음 고급 헌팅 쿼리를 사용하여 특정 장치에 대한 최신 전체 정보를 얻을 수 있습니다.
+
+```kusto
+DeviceInfo
+| where DeviceName == "<device name here>" and isnotempty(OSPlatform)
+| summarize arg_max(Timestamp, *) by DeviceId 
+```
+
+
+
 
 ## <a name="see-also"></a>참고 항목
 

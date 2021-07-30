@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 810782dc3cca33515a0292d79ddab3c487330a98
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 286ccc9efa44d3afdf4e11c4d7652288fd693713
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53596101"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53657294"
 ---
 # <a name="enable-controlled-folder-access"></a>제어된 폴더 액세스 사용
 
@@ -30,7 +30,7 @@ ms.locfileid: "53596101"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 [제어된 폴더 액세스는](controlled-folders.md) 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows 10 Server 2019에 Windows 포함되어 있습니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "53596101"
 
 3. 플랫폼을 **선택하고** Windows 10 **이상을** 선택하고 프로필 공격 표면 감소 규칙 만들기 **를**  >  **선택합니다.**
 
-4.  정책 이름을 지정하고 설명을 추가합니다. **다음** 을 선택합니다.
+4.  정책 이름을 지정하고 설명을 추가합니다. **다음** 을 선택하세요.
 
 5.  아래로 스크롤하여 폴더 보호  사용 드롭다운을 선택하고 사용 을 **선택합니다.**
 

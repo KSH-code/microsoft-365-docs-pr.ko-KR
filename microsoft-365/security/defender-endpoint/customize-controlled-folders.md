@@ -15,12 +15,12 @@ manager: dansimp
 ms.date: 05/10/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: e12368b6241a2c79eead66ed77b30b7864af3955
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: d8db481c06df22592897389656601be2dc9ab0c4
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326533"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53657306"
 ---
 # <a name="customize-controlled-folder-access"></a>제어된 폴더 액세스 사용자 지정
 
@@ -29,7 +29,7 @@ ms.locfileid: "52326533"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows Server 2019 및 Windows 10 지원됩니다. 이 문서에서는 제어된 폴더 액세스 기능을 사용자 지정하는 방법을 설명하고 다음 섹션을 포함합니다.
 
@@ -53,7 +53,7 @@ Windows 보안, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관리 
 
 ### <a name="use-the-windows-security-app-to-protect-additional-folders"></a>앱 Windows 보안 사용하여 추가 폴더 보호
 
-1. 작업 Windows 보안 방패 아이콘을 선택하거나 시작 메뉴에서 보안을 검색하여  앱 앱을 열 수 있습니다.
+1. 작업 Windows 보안 방패 아이콘을 선택하거나 작업 표시줄에서 보안을 검색하여  시작 메뉴.
 
 2. 바이러스 **& 보호를** 선택한 다음 **아래로 스크롤하여 랜섬웨어 보호 섹션으로 스크롤합니다.**
 
@@ -81,7 +81,7 @@ Windows 보안, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관리 
 
 ### <a name="use-powershell-to-protect-additional-folders"></a>PowerShell을 사용하여 추가 폴더 보호
 
-1. 시작 **메뉴에 PowerShell을** 입력하고 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
+1. 목록에서 **PowerShell을** 시작 메뉴 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
 
 2. 다음 PowerShell cmdlet을 입력하고 폴더의 경로(예: )로 `<the folder to be protected>` `"c:\apps\"` 대체합니다.
 
@@ -134,7 +134,7 @@ Windows 보안, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관리 
 
 ### <a name="use-powershell-to-allow-specific-apps"></a>PowerShell을 사용하여 특정 앱 허용
 
-1. 시작 **메뉴에 PowerShell을** 입력하고 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
+1. 목록에서 **PowerShell을** 시작 메뉴 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
 2. 다음 cmdlet을 입력합니다.
 
     ```PowerShell
@@ -171,6 +171,6 @@ Microsoft Defender for Endpoint 인증서 및 파일 표시기는 서명된 실�
 
 ## <a name="see-also"></a>참고 항목
 
-- [제어된 폴더 액세스로 중요한 폴더 보호](controlled-folders.md)
+- [제어된 폴더 액세스를 사용하여 중요한 폴더 보호](controlled-folders.md)
 - [제어된 폴더 액세스 사용](enable-controlled-folders.md)
 - [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)

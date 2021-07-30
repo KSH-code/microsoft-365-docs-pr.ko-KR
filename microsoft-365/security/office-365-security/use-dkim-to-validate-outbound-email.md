@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ffe1a2e7c57d98594a6ab401caf6e2ef1746f4fd
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: f728e49d742b20cf8434ca83eaf29e7e91b725ee
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622163"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53657030"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -41,7 +41,7 @@ ms.locfileid: "53622163"
 이 문서의 내용
 
 - [악의적인 스푸핑을 방지하기 위해 DKIM이 SPF 단독보다 더욱 효율적인 방식인 이유](#how-dkim-works-better-than-spf-alone-to-prevent-malicious-spoofing)
-- [Microsoft 365 Defender 포털에서 DKIM을 활성화 및 비활성화하는 단계]
+- [Microsoft 365 Defender 포털에서 DKIM을 생성, 활성화 및 비활성화하는 단계](#steps-to-create-enable-and-disable-dkim-from-microsoft-365-defender-portal)
 - [수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드하는 단계](#steps-to-manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys)
 - [DKIM을 수동으로 설정하는 단계](#steps-to-manually-set-up-dkim)
 - [두 개 이상의 사용자 지정 도메인에 대해 DKIM을 구성하는 단계](#to-configure-dkim-for-more-than-one-custom-domain)

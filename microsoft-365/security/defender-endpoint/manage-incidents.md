@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c86b53abf54788740c8c78cb0ecf9251b10ea8f7
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e72f42d199bd2e1c4c46d75c8c95447aab36ea91
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842341"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651018"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-incidents"></a>끝점 인시던트에 대한 Microsoft Defender 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "52842341"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 인시던트 관리는 모든 사이버 보안 작업의 중요한 부분입니다. 인시던트 큐 또는 인시던트 관리 창에서 인시던트 를 선택하여 인시던트 **관리를 할 수 있습니다.**  
 

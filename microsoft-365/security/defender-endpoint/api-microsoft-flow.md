@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 14c06cbfe8913f24082bccc6e0f607f871043425
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 4303385f115c9e315c3e8d52d9d13c18e8b530c6
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53591166"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651522"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate(이전 Microsoft Flow) 및 Azure Functions
 
@@ -33,7 +33,7 @@ ms.locfileid: "53591166"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+- 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 모든 최신 보안 운영 센터의 표준 요구 사항은 보안 절차를 자동화하는 것입니다. 전문 사이버 방어자 부족으로 SOC가 가장 효율적인 방식으로 작동하고 자동화가 반드시 있어야 합니다. Microsoft Power Automate 정확히 구축된 여러 커넥터를 지원할 수 있습니다. 몇 분 내에 종단간 프로시저 자동화를 빌드할 수 있습니다.
 

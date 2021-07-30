@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: fa9592dccd806ad14e609df073c855170dcb2c76
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 68b627c7cdc215317d737a637316e5edf0971322
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53391450"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650922"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -35,7 +35,7 @@ ms.locfileid: "53391450"
 - Windows Server 2016
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
 문제가 발생할 경우 끝점용 Microsoft Defender 온보딩 프로세스 문제를 해결해야 할 수 있습니다.
 이 페이지에서는 배포 도구 중 하나를 사용하여 배포할 때 발생할 수 있는 온보더링 문제와 장치에서 발생할 수 있는 일반적인 오류를 해결하는 자세한 단계를 제공합니다.
@@ -113,8 +113,8 @@ Intune에서 정책을 구성한 경우 정책이 장치에 전파되지 않은 
 0x87D1FDE8 | -2016281112 | 재구성 실패 | 온보딩 <br> 오프보더링 | **가능한 원인:** 잘못된 Blob( 잘못된 서명 또는 PreviousOrgIds 필드 누락)에서 온보딩 또는 오프보딩에 실패했습니다. <br><br> **문제 해결 단계:** <br> 장치 이벤트 로그의 에이전트 온보더링 오류 보기 섹션에서 이벤트 [ID를 확인합니다.](#view-agent-onboarding-errors-in-the-device-event-log) <br><br> 다음 표의 MDM 이벤트 로그를 확인하거나 [에서 MDM 오류 진단의 지침을 Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
  | | | | 온보딩 <br> 오프보더링 <br> SampleSharing | **가능한 원인:** 끝점용 Microsoft Defender 정책 레지스트리 키가 존재하지 않는 경우 또는 OMA DM 클라이언트에 끝점 정책 레지스트리 키에 쓸 수 있는 권한이 없습니다. <br><br> **문제 해결 단계:** 다음 레지스트리 키가 존재하는지 확인 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` <br> <br> 이 명령이 존재하지 않는 경우 상승된 명령을 열고 키를 추가합니다.
  | | | | SenseIsRunning <br> OnboardingState <br> OrgId |  **가능한 원인:** 읽기 전용 속성으로 수정하려고 합니다. 온보더링에 실패했습니다. <br><br> **문제 해결 단계:** 장치의 온보더링 문제 해결에서 문제 [해결 단계를 확인합니다.](#troubleshoot-onboarding-issues-on-the-device) <br><br> 다음 표의 MDM 이벤트 로그를 확인하거나 [에서 MDM 오류 진단의 지침을 Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
- | | | | 전체 | **가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다. <br><br> 현재 지원되는 플랫폼:<br> Enterprise, 교육 및 Professional.<br> 서버가 지원되지 않습니다.
- 0x87D101A9 | -2016345687 |SyncML(425): 보낸 사람에게 받는 사람에 대한 적절한 ACL(액세스 제어 권한)이 없는 경우 요청한 명령이 실패했습니다. | 전체 |  **가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다.<br><br> 현재 지원되는 플랫폼:<br>  Enterprise, 교육 및 Professional.
+ | | | | 모두 | **가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다. <br><br> 현재 지원되는 플랫폼:<br> Enterprise, 교육 및 Professional.<br> 서버가 지원되지 않습니다.
+ 0x87D101A9 | -2016345687 |SyncML(425): 보낸 사람에게 받는 사람에 대한 적절한 ACL(액세스 제어 권한)이 없는 경우 요청한 명령이 실패했습니다. | 모두 |  **가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다.<br><br> 현재 지원되는 플랫폼:<br>  Enterprise, 교육 및 Professional.
 
 #### <a name="known-issues-with-non-compliance"></a>비준수와 관련한 알려진 문제
 
@@ -310,7 +310,7 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 다음을 확인해야 할 수도 있습니다.
 
-- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예를 들어 다음과 같습니다.
+- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예시:
 
     ![Endpoint Service용 Microsoft Defender를 실행하는 프로세스 보기의 이미지](images/atp-task-manager.png)
 

@@ -21,12 +21,12 @@ ms.custom:
 - commerce_billing
 - AdminTemplateSet
 ms.date: 03/17/2021
-ms.openlocfilehash: 9429a4fc5adc3447a0238a3e8aa84ab39585fc50
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 2ea5db8cbd68a6c0dd600730fac408dc4bb75e2a
+ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394524"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "53664048"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -88,6 +88,7 @@ When you buy Microsoft 365 products and services, the taxes that you pay are det
 - 스웨덴
 - 스위스
 - 대만
+- 태국
 - 터키
 - 아랍에미리트
 - 영국
@@ -147,7 +148,7 @@ Microsoft Corporation에서 청구를 수행하고(송장 참조) 미국, Micros
 
 판매세는 단가에 대해 계산된 다음 집계됩니다.
 
-예를 들어 다음과 같습니다.
+예시:
 
 >*(단가 X 세율) X 수량 = 총 판매세*
 

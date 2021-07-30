@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 9c4f3da57796903fc22314574f389bcdd92ca4b3
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 95b4b82b87fc633afe716c9c7b403808bedac65d
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311991"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651702"
 ---
 # <a name="troubleshoot-siem-tool-integration-issues"></a>SIEM 도구 통합 문제 해결
 
@@ -33,14 +33,14 @@ ms.locfileid: "52311991"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
 SIEM 도구에서 검색을 끌어오는 동안 문제를 해결해야 할 수 있습니다.
 
 이 페이지에서는 발생할 수 있는 문제를 해결하기 위한 자세한 단계를 제공합니다.
 
-
 ## <a name="learn-how-to-get-a-new-client-secret"></a>새 클라이언트 비밀을 얻는 방법 학습
+
 클라이언트 비밀이 만료되거나 SIEM 도구 응용 프로그램을 사용하도록 설정하는 경우 제공된 복사본을 잘못 저장한 경우 새 비밀을 얻게 됩니다.
 
 1. Azure 관리 [포털에 로그인합니다.](https://portal.azure.com)
@@ -57,8 +57,8 @@ SIEM 도구에서 검색을 끌어오는 동안 문제를 해결해야 할 수 �
 
 7. 값을 복사하여 안전한 장소에 저장합니다.
 
-
 ## <a name="error-when-getting-a-refresh-access-token"></a>새로 고침 액세스 토큰을 사용할 때 오류 발생
+
 위협 인텔리전스 API 또는 SIEM 도구를 사용할 때 새로 고침 토큰을 얻려고 할 때 오류가 발생하는 경우 해당 응용 프로그램에 대한 회신 URL을 추가해야 Azure Active Directory.
 
 1. Azure 관리 [포털에 로그인합니다.](https://ms.portal.azure.com)
@@ -73,18 +73,17 @@ SIEM 도구에서 검색을 끌어오는 동안 문제를 해결해야 할 수 �
    - 유럽 연합의 경우: `https://winatpmanagement-eu.securitycenter.windows.com/UserAuthenticationCallback`
    - 영국의 경우: `https://winatpmanagement-uk.securitycenter.windows.com/UserAuthenticationCallback`
    - 미국의 경우:  `https://winatpmanagement-us.securitycenter.windows.com/UserAuthenticationCallback` .
- 
+
 6. **저장** 을 클릭합니다.
 
 ## <a name="error-while-enabling-the-siem-connector-application"></a>SIEM 커넥터 응용 프로그램을 사용하도록 설정하는 동안 오류가 발생했습니다.
+
 SIEM 커넥터 응용 프로그램을 사용하도록 설정할 때 오류가 발생하는 경우 브라우저의 팝업 차단 설정을 확인합니다. 이 기능을 사용하도록 설정하면 새 창이 열리게 차단될 수 있습니다.
 
-
-
-
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troubleshootsiem-belowfoldlink) 
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-troubleshootsiem-belowfoldlink)
 
 ## <a name="related-topics"></a>관련 항목
+
 - [끝점용 Microsoft Defender에서 SIEM 통합 사용](enable-siem-integration.md)
 - [끝점 검색을 위해 Microsoft Defender를 끌어오도록 ArcSight 구성](configure-arcsight.md)
 - [SIEM 도구로 검색 끌어오기](configure-siem.md)

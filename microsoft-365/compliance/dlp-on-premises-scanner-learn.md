@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기(미리 보기)
+title: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너는 파일 활동과 해당 파일에 대한 보호 작업 모니터링을 온-프레미스 파일 공유와 SharePoint 폴더 및 문서 라이브러리로 확대시킵니다. 파일은 AIP(정보 보호) 스캐너로 스캔되어 보호됩니다.
-ms.openlocfilehash: f0a34a13630e42c5dd29734ad708b3c11bb1d587
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: c59c6b90f6c219528cbff8a4aadc6472a48ecd23
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114166"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53657390"
 ---
-# <a name="learn-about-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기(미리 보기)
+# <a name="learn-about-the-microsoft-365-data-loss-prevention-on-premises-scanner"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기
 
 Microsoft 데이터 손실 방지 온-프레미스 스캐너는 Microsoft 365 서비스에서 중요한 항목을 검색하고 보호하는 데 사용할 수 있는 Microsoft 365 데이터 손실 방지(DLP) 제품군의 일부입니다. 모든 Microsoft DLP 제공에 대한 자세한 내용은 [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)를 참조하세요.
 

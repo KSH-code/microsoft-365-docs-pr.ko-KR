@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너로 시작하기(미리 보기)
+title: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너로 시작하기
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 설정
-ms.openlocfilehash: 0390ac48b351b30b75109a3e3a5d18c80847c9d2
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: fbaf28c1a88f1654154cc53ce731d2f56bfae382
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289202"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53657402"
 ---
-# <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>데이터 손실 방지 온-프레미스 스캐너로 시작하기(미리 보기)
+# <a name="get-started-with-the-data-loss-prevention-on-premises-scanner"></a>데이터 손실 방지 온-프레미스 스캐너로 시작하기
 
 이 문서에서는 Microsoft 365 데이터 손실 방지 온-프레미스 스캐너의 필수 구성 요소 및 구성에 관한 정보를 제공합니다.
 
@@ -34,7 +34,7 @@ ms.locfileid: "53289202"
 
 ### <a name="skusubscriptions-licensing"></a>SKU/구독 라이선싱
 
-DLP 온-프레미스 스캐너를 시작하기 전에 [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)과 추가 기능을 확인해야 합니다. 미리 보기에 참여하려면, DLP 규칙을 설정하는 관리자 계정에 다음 라이선스 중 한 가지가 할당되어 있어야 합니다.
+DLP 온-프레미스 스캐너를 시작하기 전에 [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)과 추가 기능을 확인해야 합니다. DLP 규칙을 설정하는 관리자 계정에 다음 라이선스 중 한 가지가 할당되어 있어야 합니다.
 
 - Microsoft 365 E5
 - Microsoft 365 E5 Compliance
@@ -66,7 +66,7 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
     1. 네트워크 검색 작업 구성은 선택적 단계입니다. 이를 건너뛰고 콘텐츠 스캔 작업에서 스캔할 특정 리포지토리를 정의할 수 있습니다.
     2. 콘텐츠 스캔 작업을 만들고 DLP 엔진으로 평가해야 하는 파일을 호스트하는 리포지토리를 지정해야 합니다.
     3. 만든 콘텐츠 스캔 작업의 DLP 규칙을 사용하도록 설정하고, DLP 적용 단계로 직접 진행하지 않는 이상 옵션을 **끄기** 로 **적용** 하도록 설정합니다.
-3. 콘텐츠 스캔 작업이 올바른 클러스터에 할당되어 있는지 확인합니다. 아직 콘텐츠 스캔 작업을 만들지 않았을 경우 새 스캔 작업을 만들고 공개 미리 보기 버전을 실행하는 스캐너 노드가 포함된 클러스터에 이를 할당합니다.
+3. 콘텐츠 스캔 작업이 올바른 클러스터에 할당되어 있는지 확인합니다. 아직 콘텐츠 스캔 작업을 만들지 않았을 경우 새 스캔 작업을 만들고 스캐너 노드가 포함된 클러스터에 이를 할당합니다.
 
 4. [Azure Portal 내 Azure Information Protection 확장](https://portal.azure.com/#blade/Microsoft_Azure_InformationProtection/DataClassGroupEditBlade/scannerProfilesBlade)에 연결하고 스캔을 수행하는 콘텐츠 스캔 작업으로 리포지토리를 추가합니다.
 
@@ -82,7 +82,7 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
 
 7. **정책을 만들기** 를 선택하고 테스트 DLP 정책을 만듭니다. 정책을 만드는데 도움이 필요한 경우 [서식 파일에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)를 참조하세요. 이 기능에 대해 잘 알게 될 때까지 테스트 실행을 해야 합니다. 정책에 다음 매개 변수를 사용합니다.
     1. 필요한 경우 DLP 온-프레미스 스캐너 규칙을 특정 위치로 지정합니다. **위치** 를 **모든 위치** 로 지정했다면 스캐너로 스캔한 모든 파일에는 DLP 규칙 일치 및 적용이 적용됩니다.
-    1. 위치를 지정할 때 배제 또는 포함 목록을 사용할 수 있습니다. 공개 미리 보기 동안에는 두 가지를 모두 설정할 수 없습니다. 규칙이 포함 목록에 있는 패턴 중 하나와 일치하는 경로와만 관련이 있거나, 또는 포함 목록에 있는 패턴과 일치하는 파일을 제외한 모든 파일과 관련이 있는 것으로 정의할 수 있습니다. 지원되는 로컬 경로가 없습니다. 다음은 유효한 경로의 몇 가지 예입니다.
+    1. 위치를 지정할 때 배제 또는 포함 목록을 사용할 수 있습니다. 규칙이 포함 목록에 있는 패턴 중 하나와 일치하는 경로와만 관련이 있거나, 또는 포함 목록에 있는 패턴과 일치하는 파일을 제외한 모든 파일과 관련이 있는 것으로 정의할 수 있습니다. 지원되는 로컬 경로가 없습니다. 다음은 유효한 경로의 몇 가지 예입니다.
       - \\\server\share
       - \\\server\share\folder1\subfolderabc
       - \*\\folder1
@@ -115,19 +115,19 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
 
 2. [활동 탐색기 시작하기](data-classification-activity-explorer.md)의 절차를 참조하여 온-프레미스 스캐너 위치에 대한 모든 데이터에 액세스합니다.
 
-3. [규정 준수 센터의 감사 로그](https://security.microsoft.com/auditlogsearch)를 엽니다. 공개 미리 보기 동안 DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell을 이용하여 액세스할 수 있습니다. 
+3. [규정 준수 센터의 감사 로그](https://security.microsoft.com/auditlogsearch)를 엽니다. DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell을 이용하여 액세스할 수 있습니다. 
 
 
 ## <a name="next-steps"></a>다음 단계
 이제 DLP 온-프레미스 위치에 대한 테스트 정책을 배포하였고 활동 탐색기에서 활동 데이터를 볼 수 있으므로, 중요한 항목을 보호하는 DLP 정책을 만드는 다음 단계로 진행할 준비가 되었습니다.
 
-- [DLP 온-프레미스 사용하기(미리 보기)](dlp-on-premises-scanner-use.md)
+- [DLP 온-프레미스 사용하기](dlp-on-premises-scanner-use.md)
 
 ## <a name="see-also"></a>참고 항목
 
-- [DLP 온-프레미스 스캐너에 대한 자세한 정보(미리 보기)](dlp-on-premises-scanner-learn.md)
-- [DLP 온-프레미스 스캐너 사용하기(미리 보기)](dlp-on-premises-scanner-use.md)
-- [데이터 손실 방지에 대한 자세한 정보](dlp-learn-about-dlp.md)
+- [DLP 온-프레미스 스캐너에 대한 자세한 정보](dlp-on-premises-scanner-learn.md)
+- [DLP 온-프레미스 스캐너 사용하기](dlp-on-premises-scanner-use.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
