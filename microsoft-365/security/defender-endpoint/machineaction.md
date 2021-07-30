@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b72454bd345df31485759c5978f34eb11db5feca
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 2af9f7988e25b9f6e74f65593a4524cba25e476c
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542276"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651006"
 ---
 # <a name="machineaction-resource-type"></a>MachineAction 리소스 유형
 
@@ -30,7 +30,7 @@ ms.locfileid: "53542276"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
@@ -66,11 +66,11 @@ ms.locfileid: "53542276"
 |ID|Guid|[Machine Action 엔터티의 ID입니다.](machineaction.md)|
 |type|Enum|작업의 유형입니다. 가능한 값은 "RunAntiVirusScan", "Offboard", "CollectInvestigationPackage", "Isolate", "Unisolate", "StopAndQuarantineFile", "RestrictCodeExecution" 및 "UnrestrictCodeExecution"입니다.|
 |scope|문자열|작업의 범위입니다. 바이러스 백신 검사의 경우 "전체" 또는 "선택적" 및 "빠른" 또는 "전체"입니다.|
-|requestor|문자열|작업을 실행한 사람의 ID입니다.|
-|requestorComment|문자열|작업을 실행할 때 작성된 설명입니다.|
+|requestor|String|작업을 실행한 사람의 ID입니다.|
+|requestorComment|String|작업을 실행할 때 작성된 설명입니다.|
 |status|Enum|명령의 현재 상태입니다. 가능한 값은 "보류 중", "InProgress", "Succeeded", "Failed", "TimeOut" 및 "Canceled"입니다.|
-|machineId|문자열|작업이 실행된 컴퓨터의 ID입니다. [](machine.md)|
-|machineId|문자열|작업이 [실행된](machine.md) 컴퓨터의 이름입니다.|
+|machineId|String|작업이 실행된 컴퓨터의 ID입니다. [](machine.md)|
+|machineId|String|작업이 [실행된](machine.md) 컴퓨터의 이름입니다.|
 |creationDateTimeUtc|DateTimeOffset|작업을 만든 날짜 및 시간입니다.|
 |lastUpdateTimeUtc|DateTimeOffset|작업 상태가 업데이트된 마지막 날짜 및 시간입니다.|
 |relatedFileInfo|클래스|두 속성이 들어 있습니다. string , Enum 값으로 `fileIdentifier` `fileIdentifierType` "Sha1", "Sha256" 및 "Md5"를 지정합니다.|

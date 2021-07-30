@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용(미리 보기)
+title: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용 방법을 배워서 미사용 데이터를 스캔하고 온-프레미스 파일 공유와 온-프레미스 SharePoint 폴더와 문서 라이브러리에 대한 보호 조치를 시행하세요.
-ms.openlocfilehash: b2512c47b82ab3624d892d349611dd3f1e5aed3c
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 3d7c2e30092eee022fc0ed2a7ef6a8be7b82e3f1
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289178"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53657378"
 ---
-# <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용(미리 보기)
+# <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용하기
 
 DLP 온-프레미스 기능과 해당 기능이 DLP 정책에 나오는 방법에 대한 자세한 내용은 다음 몇 가지 시나리오를 참조하세요.
 
@@ -48,7 +48,7 @@ DLP 온-프레미스 스캐너의 데이터는 다양한 영역에서 나타납�
 
 #### <a name="microsoft-365-audit-log"></a>Microsoft 365 감사 로그
 
-공개 미리 보기 동안 DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [규정 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)에서 보거나 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell으로 액세스할 수 있습니다.
+DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [규정 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)에서 보거나 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell으로 액세스할 수 있습니다.
 
 #### <a name="aip"></a>AIP
 
@@ -80,8 +80,8 @@ DLP 규칙을 스캔된 파일에 적용하려면, 적용이 DLP의 AIP와 정�
 
 ## <a name="see-also"></a>참고 항목
 
-- [DLP 온-프레미스 스캐너에 대한 자세한 정보(미리 보기)](dlp-on-premises-scanner-learn.md)
-- [DLP 온-프레미스 스캐너 시작하기(미리 보기)](dlp-on-premises-scanner-get-started.md)
+- [DLP 온-프레미스 스캐너에 대한 자세한 정보](dlp-on-premises-scanner-learn.md)
+- [DLP 온-프레미스 스캐너 시작하기](dlp-on-premises-scanner-get-started.md)
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)

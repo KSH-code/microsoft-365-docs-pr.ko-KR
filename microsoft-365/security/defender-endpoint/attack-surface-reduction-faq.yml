@@ -17,12 +17,12 @@ metadata:
   ms.custom: asr
   ms.topic: article
   ms.technology: mde
-  ms.openlocfilehash: d32bcdb3e17ccc7b94d47dd67f12c04d115da550
-  ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+  ms.openlocfilehash: bb03140622cc848f9c668bdaa72e833fe35c5b37
+  ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/26/2021
-  ms.locfileid: "53591094"
+  ms.lasthandoff: 07/30/2021
+  ms.locfileid: "53664115"
 title: 공격 표면 감소 자주 묻는 질문(FAQ)
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
@@ -67,7 +67,7 @@ sections:
       환경에 가장 적합한 기능을 알아내기 위해 감사 모드에서 ASR 규칙을 사용하도록 [설정하는 것이 좋습니다.](audit-windows-defender.md) 이 방법을 사용하면 조직에 미칠 수 있는 영향을 확인할 수 있습니다. 예를 들어 업무용 응용 프로그램을 들 수 있습니다.
   - question: >
       ASR 규칙 제외는 어떻게 작동하나요?
-    answer: "ASR 규칙의 경우 제외를 하나 추가하면 모든 ASR 규칙에 영향을 미치게 됩니다.\n다음 두 가지 특정 규칙은 제외를 지원하지 않습니다.\n\n|규칙 이름|GUID|파일 & 제외|\n|:--|:--|:--|\n|JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단|D3E037E1-3EB8-44C8-A917-57927947596D|지원되지 않음|\n|WMI 이벤트 구독을 통한 지속성 차단|e6db77e5-3df2-4cf1-b95a-636979351e5b|지원되지 않음|\n\nASR 규칙 제외는 와일드카드, 경로 및 환경 변수를 지원합니다. ASR 규칙에서 와일드카드를 사용하는 방법에 대한 자세한 내용은 파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사를 [참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus)\n\nASR 규칙 제외(와일드카드 및 env 포함)에 대한 다음 항목을 알고 있어야 합니다. 변수:\n\n- ASR 규칙 제외는 Defender AV 제외와는 독립적입니다.\n- 와일드카드를 사용하여 드라이브 문자를 정의할 수 없습니다.\n- 여러 폴더를 제외하려는 경우 경로에서 \\의 여러 인스턴스를 사용하여 여러 중첩된 폴더를 \\* 나타냅니다(예: c:\\Folder \\* \\* \\Test).\n- Microsoft Endpoint Configuration Manager 와일드카드(* 또는 ?)를 지원하지 않습니다. \n- 임의 문자(자동화된 파일 생성)가 포함된 파일을 제외하려는 경우 '?' 기호(예: C:\\Folder\\fileversion?.docx)를 사용할 수 있습니다.\n- 그룹 정책의 ASR 제외는 따옴표를 지원하지 않습니다. 엔진은 긴 경로, 공백 등을 기본적으로 처리하기 때문에 따옴표를 사용할 필요가 없습니다.\n- ASR 규칙은 NT AUTHORITY\\SYSTEM 계정으로 실행되어 환경 변수가 컴퓨터 변수로 제한됩니다.\n"
+    answer: "ASR 규칙의 경우 제외를 하나 추가하면 모든 ASR 규칙에 영향을 미치게 됩니다.\n다음 두 가지 특정 규칙은 제외를 지원하지 않습니다.\n\n|규칙 이름|GUID|파일 & 제외|\n|:--|:--|:--|\n|JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단|d3e037e1-3eb8-44c8-a917-57927947596d|지원되지 않음|\n|WMI 이벤트 구독을 통한 지속성 차단|e6db77e5-3df2-4cf1-b95a-636979351e5b|지원되지 않음|\n\nASR 규칙 제외는 와일드카드, 경로 및 환경 변수를 지원합니다. ASR 규칙에서 와일드카드를 사용하는 방법에 대한 자세한 내용은 파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사를 [참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus)\n\nASR 규칙 제외(와일드카드 및 env 포함)에 대한 다음 항목을 알고 있어야 합니다. 변수:\n\n- ASR 규칙 제외는 Defender AV 제외와는 독립적입니다.\n- 와일드카드를 사용하여 드라이브 문자를 정의할 수 없습니다.\n- 여러 폴더를 제외하려는 경우 경로에서 \\의 여러 인스턴스를 사용하여 여러 중첩된 폴더를 \\* 나타냅니다(예: c:\\Folder \\* \\* \\Test).\n- Microsoft Endpoint Configuration Manager 와일드카드(* 또는 ?)를 지원하지 않습니다. \n- 임의 문자(자동화된 파일 생성)가 포함된 파일을 제외하려는 경우 '?' 기호(예: C:\\Folder\\fileversion?.docx)를 사용할 수 있습니다.\n- 그룹 정책의 ASR 제외는 따옴표를 지원하지 않습니다. 엔진은 긴 경로, 공백 등을 기본적으로 처리하기 때문에 따옴표를 사용할 필요가 없습니다.\n- ASR 규칙은 NT AUTHORITY\\SYSTEM 계정으로 실행되어 환경 변수가 컴퓨터 변수로 제한됩니다.\n"
   - question: >
       제외해야 하는 대상을 어떻게 알 수 있나요?
     answer: >

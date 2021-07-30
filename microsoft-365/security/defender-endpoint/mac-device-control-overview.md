@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5cb819daa11a50ef54c758a6aa696a5fc645029c
-ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
+ms.openlocfilehash: ed5ddc90df8ee3d0e938c0db9bca367a424f0413
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2021
-ms.locfileid: "53363982"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651054"
 ---
 # <a name="device-control-for-macos"></a>macOS용 장치 제어
 
@@ -33,7 +33,7 @@ ms.locfileid: "53363982"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 ## <a name="requirements"></a>요구 사항
 
@@ -76,7 +76,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | navigationTarget |
-| **Data type** | 문자열 |
+| **Data type** | String |
 | **Comments** | 정의되지 않은 경우 제품이 수행한 작업을 설명하는 일반 페이지를 표시하는 기본 URL을 사용합니다. |
 
 ### <a name="allow-or-block-removable-devices"></a>이동식 장치 허용 또는 차단

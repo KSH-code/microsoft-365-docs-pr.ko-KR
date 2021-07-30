@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 790abaad5506a77b70cb8d772e83289d8dbd791f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: a84a3ec88cb4eb0fa3b4e04f3ce0c62b73dd7fb5
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860788"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650982"
 ---
 # <a name="managed-security-service-provider-partnership-opportunities"></a>관리되는 보안 서비스 공급자 파트너 관계 기회
 
@@ -32,7 +32,7 @@ ms.locfileid: "51860788"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mssp-support-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-mssp-support-abovefoldlink)
 
 
 보안은 엔터프라이즈를 실행하는 데 핵심 구성 요소로 인식됩니다. 그러나 일부 조직에는 끝점 및 네트워크의 보안을 관리하기 위한 전담 보안 운영 팀이 있는 능력이나 전문 지식이 없는 조직도 있을 수 있으며, 다른 조직에서는 네트워크의 경고를 검토하기 위한 두 번째 눈을 원할 수 있습니다.

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 110b379863b4c6e23c947c56faf831e136231237
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 6439088073b9b6cfd86988a395028d64a8981a99
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688480"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651666"
 ---
 # <a name="respond-to-web-threats"></a>웹 위협에 대응
 
@@ -31,16 +31,19 @@ ms.locfileid: "51688480"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
 끝점용 Microsoft Defender의 웹 보호를 사용하면 사용자 지정 표시기 목록에서 악성 웹 사이트 및 웹 사이트와 관련된 경고를 효율적으로 조사하고 대응할 수 있습니다.
 
 ## <a name="view-web-threat-alerts"></a>웹 위협 경고 보기
-끝점용 Microsoft Defender는 [](manage-alerts.md) 악성 또는 의심스러운 웹 활동에 대해 다음 경고를 생성합니다.
-- **네트워크 보호로** 차단된 의심스러운 연결 - 이 경고는 차단 모드에서 네트워크 보호에 의해 사용자  지정 표시기 목록의 악성 웹 사이트 또는 웹 사이트에 액세스하려는 시도가 중지될 때 *생성됩니다.*
-- **네트워크 보호에서** 감지된 의심스러운 연결 - 이 경고는 감사 전용 모드에서 네트워크 보호에 의해 사용자 지정 표시기 목록의 악성 웹 사이트 또는 웹 사이트에 액세스하려고 시도할 때 *생성됩니다.*
 
-각 경고는 다음 정보를 제공합니다. 
+끝점용 Microsoft Defender는 [](manage-alerts.md) 악성 또는 의심스러운 웹 활동에 대해 다음 경고를 생성합니다.
+
+- **네트워크 보호에** 의해 차단된 의심스러운 연결: 이 경고는 차단 모드에서 네트워크 보호에 의해 사용자  지정 표시기 목록의 악성 웹 사이트 또는 웹 사이트에 액세스하려는 시도가 중지될 때 *생성됩니다.*
+- **네트워크 보호에서** 감지된 의심스러운 연결: 이 경고는 감사 전용 모드에서 네트워크 보호를 통해 사용자 지정 표시기 목록의 악성 웹 사이트 또는 웹 사이트에 액세스하려는 시도가 감지될 때 *생성됩니다.*
+
+각 경고는 다음 정보를 제공합니다.
+
 - 차단된 웹 사이트에 액세스하려고 시도한 장치
 - 웹 요청을 보내는 데 사용되는 응용 프로그램 또는 프로그램
 - 사용자 지정 표시기 목록의 악의적인 URL 또는 URL
@@ -48,11 +51,13 @@ ms.locfileid: "51688480"
 
 ![웹 위협 방지와 관련된 경고 이미지](images/wtp-alert.png)
 
->[!Note]
->경고 볼륨을 줄이기 위해 끝점용 Microsoft Defender는 매일 동일한 장치에서 동일한 도메인에 대한 웹 위협 감지를 단일 경고로 통합합니다. 하나의 경고만 생성되어 웹 보호 보고서 [에 계산됩니다.](web-protection-monitoring.md)
+> [!NOTE]
+> 경고 볼륨을 줄이기 위해 끝점용 Microsoft Defender는 매일 동일한 장치에서 동일한 도메인에 대한 웹 위협 감지를 단일 경고로 통합합니다. 하나의 경고만 생성되어 웹 보호 보고서 [에 계산됩니다.](web-protection-monitoring.md)
 
 ## <a name="inspect-website-details"></a>웹 사이트 세부 정보 검사
+
 경고에서 웹 사이트의 URL 또는 도메인을 선택하여 더 깊이 있는 검색을 할 수 있습니다. 그러면 다음을 비롯한 다양한 정보가 있는 해당 특정 URL 또는 도메인에 대한 페이지가 열립니다.
+
 - 웹 사이트에 액세스하려고 시도한 장치
 - 웹 사이트와 관련된 인시던트 및 알림
 - 조직의 이벤트에 웹 사이트가 얼마나 자주 나타날 수 있습니다.
@@ -62,6 +67,7 @@ ms.locfileid: "51688480"
 [URL 또는 도메인 엔터티 페이지에 대해 자세히 알아보세요.](investigate-domain.md)
 
 ## <a name="inspect-the-device"></a>장치 검사
+
 차단된 URL에 액세스하려고 시도한 장치를 확인할 수 있습니다. 경고 페이지에서 디바이스 이름을 선택하면 장치에 대한 포괄적인 정보가 있는 페이지가 열립니다.
 
 [장치 엔터티 페이지에 대한 자세한 내용은](investigate-machines.md)
@@ -77,6 +83,7 @@ Endpoint용 Microsoft Defender의 웹 보호를 통해 최종 사용자는 웹 �
  *브라우저의 이미지*
 
 ## <a name="related-topics"></a>관련 항목
+
 - [웹 보호 개요](web-protection-overview.md)
 - [웹 컨텐츠 필터링](web-content-filtering.md)
 - [웹 위협 방지](web-threat-protection.md)

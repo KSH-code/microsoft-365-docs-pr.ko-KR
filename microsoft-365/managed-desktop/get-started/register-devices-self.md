@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: a66ad53faf1b38c3db4ab4446dbc1d175fbd99e4
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: a6071a8cb13fc7c785a1b3914f65cd8eca27f28f
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289538"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53651618"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -76,6 +76,9 @@ PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgaller
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
+> [!NOTE]
+> 추가 열은 지원되지 않습니다. 따옴표는 지원되지 않습니다. ANSI 형식 텍스트 파일만 사용할 수 있습니다(유니코드 아미드). 헤더는 대소문자 구분입니다. 이러한 Excel 파일을 편집하고 CSV 파일로 저장하면 이러한 요구 사항으로 인해 사용할 수 있는 파일이 생성되지 않습니다. 디바이스 일련 번호에 선행 0을 유지해야 합니다.
+
 ### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용하여 장치 등록
 
 In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devices** in the left navigation pane. 메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop 작업 영역에서 **+** 장치 등록을 선택합니다. 이 경우 플라이인을 열어 새 장치를 등록합니다.
@@ -84,7 +87,7 @@ In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devic
 
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
-다음 단계를 따릅니다.
+다음 단계를 따릅니다:
 
 1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
 2. 드롭다운 [메뉴에서](../service-description/profiles.md) 장치 프로필을 선택합니다.

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: be7c7d7e6eab109f903e78cb76d12478332a6310
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 6b56fbcd7e3a40a70ddb0e36b33aa4a24c8f5835
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623903"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53657162"
 ---
 # <a name="remediation-activity-methods-and-properties"></a>수정 작업 방법 및 속성
 
@@ -32,7 +32,7 @@ ms.locfileid: "53623903"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
@@ -81,7 +81,7 @@ scid|String|관련 보안 권장 정보의 SCID
 status|String|재구성 활동 상태(활성/완료)
 statusLastModifiedOn|DateTime|상태 필드가 업데이트된 날짜
 targetDevices|Long|이 수정을 적용할 수 있는 노출된 장치 수
-title|String|이 수정 활동의 제목입니다.
+제목|String|이 수정 활동의 제목입니다.
 type|String|수정 유형
 vendorId|String|관련 공급업체 이름
 

@@ -18,16 +18,16 @@ ms.custom:
 - AdminTemplateSet
 search.appverid: MET150
 description: 조직의 사용자에 대한 Office 스크립트 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: fea50838cf1089b73a6af5bbf86d490293831085
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 17a243c8eaa31be82b956967acb75c1f1001492e
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53392674"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650742"
 ---
 # <a name="manage-office-scripts-settings"></a>Office 스크립트 설정 관리
 
-[Office 스크립트를](/office/dev/scripts)사용하면 웹용 스크립트에서 스크립트를 기록, 편집 및 실행하여 작업을 Excel 수 있습니다. Office 스크립트는 Power Automate 사용할 수 있으며 사용자는 Excel Online(비즈니스) 커넥터를 사용하여 통합 문서에서 스크립트를 실행합니다. Microsoft 365 관리자가 관리자의 Office 스크립트 설정을 관리할 수 Microsoft 365 관리 센터.
+[Office 스크립트를 사용하면](/office/dev/scripts) 스크립트를 기록, 편집 및 실행하여 작업을 자동화할 수 웹용 Excel. Office 스크립트는 Power Automate 사용할 수 있으며 사용자는 Excel Online(비즈니스) 커넥터를 사용하여 통합 문서에서 스크립트를 실행합니다. Microsoft 365 관리자가 관리자의 Office 스크립트 설정을 관리할 수 Microsoft 365 관리 센터.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -35,17 +35,17 @@ ms.locfileid: "53392674"
 
 - 조직의 사용자에게 다음 계획 중 하나와 같은 Office 데스크톱 앱에 대한 액세스 권한이 포함된 Microsoft 365 또는 Office 365 또는 EDU 요금제에 대한 유효한 라이선스가 있어야 합니다.
 
-    - Microsoft 365 Business Standard
-    - 비즈니스용 Microsoft 365 앱
-    - 엔터프라이즈용 Microsoft 365 앱
-    - Office 365 E3
-    - Office 365 E5
-    - Office 365 A3
-    - Office 365 A5
+- Microsoft 365 Business Standard
+- 비즈니스용 Microsoft 365 앱
+- 엔터프라이즈용 Microsoft 365 앱
+- Office 365 E3
+- Office 365 E5
+- Office 365 A3
+- Office 365 A5
 
 ## <a name="manage-availability-of-office-scripts-and-sharing-of-scripts"></a>스크립트의 가용성 Office 및 스크립트 공유
 
-1. 이 Microsoft 365 관리 센터 이동하여 설정  \> **서비스** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">탭으로</a> 이동합니다.
+1. 이 Microsoft 365 관리 센터 이동하여 설정  \> **서비스** \> **[탭으로](https://go.microsoft.com/fwlink/p/?linkid=2053743)** 이동합니다.
 
 2. 스크립트 **Office 선택합니다.**
 
@@ -60,16 +60,16 @@ ms.locfileid: "53392674"
         - 메일 그룹
         - 보안 그룹
         - 메일 사용 가능 보안 그룹
-    
+
         다양한 유형의 그룹에 대한 자세한 내용은 [그룹 비교를 참조합니다.](../create-groups/compare-groups.md)
 
 5. Office 스크립트에 액세스할 수 있는 사용자가 조직의 다른 사용자와 스크립트를 공유할 수 있도록 허용하려면 Office **Scripts에** 액세스할 수 있는 사용자가 조직의 다른 사용자와 스크립트를 공유하도록 허용을 선택합니다. 조직 외부의 공유 스크립트는 허용되지 않습니다.
- 
+
     > [!NOTE]
     > 나중에 조직에 대한 스크립트 공유를 해제하는 경우 사용자는 이전에 공유한 스크립트를 실행할 수 있습니다.
- 
+
 6. 스크립트에서 스크립트를 공유할 수 있는 Office 사용자를 지정합니다.
-    
+
     - 스크립트에 액세스할 수 있는 모든 사용자가 Office 스크립트를 공유할  수 있도록 허용하기 위해 모든 사용자(기본값)를 선택된 그대로 떠날 수 있습니다.
 
     - Office Scripts에 액세스할 수 있는 특정 그룹의 구성원만 스크립트를 공유할 수 있도록 허용하려면 특정 그룹을 선택한 다음 그룹의 이름 또는 전자 메일 별칭을 입력하여 허용 목록에 추가합니다. 허용 목록에 그룹을 하나만 추가할 수 있으며 다음 유형 중 하나에 해당해야 합니다.
@@ -77,7 +77,7 @@ ms.locfileid: "53392674"
         - 메일 그룹
         - 보안 그룹
         - 메일 사용 가능 보안 그룹
-    
+
         다양한 유형의 그룹에 대한 자세한 내용은 [그룹 비교를 참조합니다.](../create-groups/compare-groups.md)
 
 7. 사용자가 Office 흐름 내에서 Power Automate 스크립트를 실행할 수 있도록 허용하려면 Office 스크립트에서 를 사용하여 스크립트를 실행하도록 **Power Automate.** 이를 통해 사용자는 Excel [Online(비즈니스)](/connectors/excelonlinebusiness) 커넥터의 실행 스크립트 옵션을 사용하여 흐름 단계를 추가할 **수** 있습니다.
