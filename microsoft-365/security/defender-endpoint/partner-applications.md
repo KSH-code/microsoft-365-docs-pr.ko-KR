@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a9f8d8fed0abd6140d7cddf46621dde82da0752e
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 8bca8fa3446bc3e078c992b537b30dfe70e73f65
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623147"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650022"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 파트너 응용 프로그램
 
@@ -33,7 +33,7 @@ ms.locfileid: "53623147"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Defender for Endpoint는 플랫폼의 감지, 조사 및 위협 인텔리전스 기능을 향상시키는 데 도움이 되는 타사 응용 프로그램을 지원합니다.
 

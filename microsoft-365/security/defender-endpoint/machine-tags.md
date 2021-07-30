@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 83dd2483b93b2f4fe520973ce05346f59baf2f28
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 8f4426803f89be1bb41c9b704d4f56e8d249ee6e
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453582"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650334"
 ---
 # <a name="create-and-manage-device-tags"></a>장치 태그 만들기 및 관리
 
@@ -31,7 +31,7 @@ ms.locfileid: "53453582"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 디바이스에 태그를 추가하여 논리적 그룹 소속을 만듭니다. 디바이스 태그는 네트워크의 적절한 매핑을 지원하므로 다양한 태그를 연결하여 컨텍스트를 캡처하고 인시던트 일부로 동적 목록 만들기를 사용하도록 설정할 수 있습니다. 태그는 장치 목록 보기에서  필터로 사용할 수도, 디바이스를 그룹화할 수도 있습니다. 장치 그룹화에 대한 자세한 내용은 장치 그룹 만들기 [및 관리를 참조하세요.](machine-groups.md)
 

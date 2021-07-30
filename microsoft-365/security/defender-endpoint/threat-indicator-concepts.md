@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f707e8290c7b976ace0495e03a3b909a8f544294
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: d901366e74969b0b128a49a6bd65a56046049085
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623375"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656274"
 ---
 # <a name="understand-threat-intelligence-concepts"></a>위협 인텔리전스 개념 이해
 
@@ -33,7 +33,7 @@ ms.locfileid: "53623375"
 
 
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-threatindicator-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-threatindicator-abovefoldlink)
 
 고급 사이버 보안 공격은 여러 복잡한 악성 이벤트, 특성 및 상황 정보로 구성됩니다. 이러한 활동 중 의심스러운 활동의 식별 및 결정은 어려운 작업일 수 있습니다. 업계와 관련한 알려진 특성 및 비정상적 활동에 대한 지식은 관찰된 동작을 의심스러운 행동으로 부를 때를 아는 데 기본입니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: af21b0ae3e03ebacae9412fc48693d57f32c81e6
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: 15611500ae45f2406daf033d27b49de0e2cc3070
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53568007"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656226"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>노출 점수 - 위협 및 취약성 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "53568007"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 노출 점수는 포털의 위협 및 취약성 관리 [대시보드에](tvm-dashboard-insights.md) Microsoft 365 Defender 표시됩니다. 이는 조직이 사이버 보안 위협에 얼마나 취약한지 반영합니다. 노출 점수가 낮을 경우 장치가 악용에 덜 취약하다는 의미입니다.
 
@@ -51,9 +51,9 @@ ms.locfileid: "53568007"
 
 노출 점수는 다음 수준으로 세분화됩니다.
 
-- 0-29: 노출 점수가 낮음
+- 0-29: 낮은 노출 점수
 - 30-69: 중간 노출 점수
-- 70~100: 높은 노출 점수
+- 70-100: 높은 노출 점수
 
 우선 순위가 높은 보안 권장 사항에 [](tvm-security-recommendation.md) 따라 문제를 수정하여 노출 점수를 줄일 수 있습니다. 각 소프트웨어에는 권장 사항으로 변환하고 조직에 대한 위험에 따라 우선 순위가 지정되는 약점이 있습니다.
 

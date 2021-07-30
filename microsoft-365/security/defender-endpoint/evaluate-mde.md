@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fd8e1e007031a19a0520e11c8b2497e64e721a74
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 551eddb42f7b0bdbbd84f6294f3413b4435c1dc1
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53595945"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53655770"
 ---
 # <a name="evaluate-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender 평가 
 
@@ -32,11 +32,11 @@ ms.locfileid: "53595945"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)는 예방적 보호, 침해 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다.
 
-무료 평가판을 시작하여 조직의 끝점에 대한 Microsoft Defender를 [평가할 수 있습니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp)
+무료 평가판을 시작하여 조직의 끝점에 대한 Microsoft Defender를 [평가할 수 있습니다.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial)
 
 다음 지침을 사용하여 끝점용 Microsoft Defender의 다양한 보안 기능을 평가할 수도 있습니다.
 

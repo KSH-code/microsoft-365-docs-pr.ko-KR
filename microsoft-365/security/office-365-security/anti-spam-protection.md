@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(스팸 방지)에서 스팸을 방지하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 52e891a86e75309dadd445736738a3f25584823e
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 9b960894b6923633489c005ee75307ec02b248f5
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624864"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650202"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 
@@ -108,9 +108,9 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
 - **사용자의 정크 메일 Outlook 설정 확인:**
 
-  - 정크 **Outlook** 필터를 사용하지 않도록 설정되어 있는지 확인: Outlook 정크 메일 필터가 기본값인 **자동** 필터링 없음으로 설정되어 있는 경우 Outlook 스팸으로 분류하지 않습니다.  낮음 또는 높음으로 설정하면 Outlook 정크 메일 필터는 자체 SmartScreen 필터 기술을 사용하여 스팸을 식별하고 정크 메일 폴더로 이동하여 가긍정을 얻을 수 있습니다.  Microsoft는 2016년 11월에 Exchange 및 Outlook 스팸 정의 업데이트 생성을 중지했습니다. 기존 SmartScreen 스팸 정의는 적용된 것이지만 시간이 지날 때 효율성이 저하될 수 있습니다.
+  - **정크 Outlook** 필터를 사용하지 않도록 설정되어 있는지 확인: Outlook 정크 메일 필터가 기본값인 **자동** 필터링 없음으로 설정된 경우 Outlook 스팸으로 분류하지 않습니다.  낮음 또는 높음으로 설정하면 Outlook 정크 메일 필터는 자체 SmartScreen 필터 기술을 사용하여 스팸을 식별하고 정크 메일 폴더로 이동하여 가긍정을 얻을 수 있습니다.  Microsoft는 2016년 11월에 Exchange 및 Outlook 스팸 정의 업데이트 생성을 중지했습니다. 기존 SmartScreen 스팸 정의는 적용된 것이지만 시간이 지날 때 효율성이 저하될 수 있습니다.
 
-  - **'Outlook 목록만'** 설정을 사용하지 않도록 설정되어 있는지 확인합니다. 이 설정을 사용하도록 설정하면 사용자의 수신 가능 보낸 사람 목록 또는 수신 가능 받는 사람 목록에 있는 보낸 사람의 메시지만 받은 편지함으로 배달됩니다. 다른 모든 사용자로부터의 전자 메일은 자동으로 정크 메일 폴더로 이동됩니다.
+  - **'Outlook '금고 목록만'** 설정을 사용하지 않도록 설정되어 있는지 확인합니다. 이 설정을 사용하도록 설정하면 사용자의 금고 보낸 사람 목록 또는 금고 받는 사람 목록의 보낸 사람만 받은 편지함으로 배달됩니다. 다른 모든 사용자로부터의 전자 메일은 자동으로 정크 메일 폴더로 이동됩니다.
 
   이러한 설정에 대한 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
 

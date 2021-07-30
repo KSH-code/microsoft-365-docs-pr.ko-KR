@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3c3f80eb5374c02093060a7c9c2442702ab3ff99
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: 2460b1aac746e706175524e7f201610a1888c255
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53568151"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53655866"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 조건부 액세스 구성
 
@@ -31,43 +31,40 @@ ms.locfileid: "53568151"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 이 섹션에서는 조건부 액세스를 올바르게 구현하기 위해 필요한 모든 단계를 안내합니다.
 
-### <a name="before-you-begin"></a>시작하기 전에
->[!WARNING]
->이 시나리오에서는 Azure AD 등록 장치가 지원되지 않는다는 점에 유의해야 합니다.</br>
->Intune 등록 장치만 지원됩니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
+> [!WARNING]
+> 이 시나리오에서는 Azure AD 등록 장치가 지원되지 않는다는 점에 유의해야 합니다.</br>
+> Intune 등록 장치만 지원됩니다.
 
 모든 장치가 Intune에 등록된지 확인해야 합니다. 다음 옵션 중 원하는 옵션을 사용하여 Intune에서 장치를 등록할 수 있습니다.
-
 
 - IT 관리자: 자동 등록을 사용하도록 설정하는 방법에 대한 자세한 내용은 Windows [등록을 참조하세요.](/intune/windows-enroll#enable-windows-10-automatic-enrollment)
 - 최종 사용자: Intune에서 Windows 10 장치를 등록하는 방법에 대한 자세한 내용은 [Intune에서 Windows 10 장치 등록을 참조하세요.](/intune/quickstart-enroll-windows-device)
 - 최종 사용자 대체: Azure AD 도메인에 가입하는 방법에 대한 자세한 내용은 방법: Azure AD 조인 구현 계획을 [참조하세요.](/azure/active-directory/devices/azureadjoin-plan)
 
-
-
 Intune 포털, Microsoft 365 Defender Azure AD 포털에서 수행해야 하는 단계가 있습니다.
 
 이러한 포털에 액세스하고 조건부 액세스를 구현하는 데 필요한 역할을 주의해야 합니다.
-- **Microsoft 365 Defender** - 통합을 설정하려면 전역 관리자 역할로 포털에 로그인해야 합니다.
-- **Intune** - 관리 권한이 있는 보안 관리자 권한으로 포털에 로그인해야 합니다. 
-- **Azure AD 포털** - 전역 관리자, 보안 관리자 또는 조건부 액세스 관리자로 로그인해야 합니다.
 
+- **Microsoft 365 Defender** - 통합을 설정하려면 전역 관리자 역할로 포털에 로그인해야 합니다.
+- **Intune** - 관리 권한이 있는 보안 관리자 권한으로 포털에 로그인해야 합니다.
+- **Azure AD 포털** - 전역 관리자, 보안 관리자 또는 조건부 액세스 관리자로 로그인해야 합니다.
 
 > [!NOTE]
 > Intune 관리 Microsoft Intune Azure AD가 연결된 장치와 함께 Windows 10 필요합니다.
 
 조건부 액세스를 사용하도록 설정하려면 다음 단계를 수행합니다.
+
 - 1단계: Microsoft Intune 연결 Microsoft 365 Defender
 - 2단계: Intune에서 끝점에 대한 Defender 통합 켜기
 - 3단계: Intune에서 준수 정책 만들기
 - 4단계: 정책 할당 
 - 5단계: Azure AD 조건부 액세스 정책 만들기
-
 
 ### <a name="step-1-turn-on-the-microsoft-intune-connection"></a>1단계: 연결 Microsoft Intune 켜기
 
@@ -75,15 +72,15 @@ Intune 포털, Microsoft 365 Defender Azure AD 포털에서 수행해야 하는 
 2. 설정의 Microsoft Intune 으로 **전환합니다.**
 3. 기본 **설정 저장을 클릭합니다.**
 
-
 ### <a name="step-2-turn-on-the-defender-for-endpoint-integration-in-intune"></a>2단계: Intune에서 끝점에 대한 Defender 통합 켜기
+
 1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
 2. 장치 **준수**  >  **Microsoft Defender ATP를 선택합니다.**
 3. **커넥트 Windows 10.0.15063+ 장치를 Microsoft Defender Advanced Threat Protection으로** **설정 .**
 4. **저장** 을 클릭합니다.
 
-
 ### <a name="step-3-create-the-compliance-policy-in-intune"></a>3단계: Intune에서 준수 정책 만들기
+
 1. Azure [Portal에서](https://portal.azure.com)모든 **서비스를** 선택하고 **Intune을** 필터링하고 를 **Microsoft Intune.**
 2. 장치 **준수 정책**  >  **정책** 만들기 정책을  >  **선택합니다.**
 3. 이름 및 **설명을** **입력합니다.**
@@ -98,6 +95,7 @@ Intune 포털, Microsoft 365 Defender Azure AD 포털에서 수행해야 하는 
 6. 확인 **및** **만들기를 선택하여** 변경 내용을 저장하고 정책을 생성합니다.
 
 ### <a name="step-4-assign-the-policy"></a>4단계: 정책 할당
+
 1. Azure [Portal에서](https://portal.azure.com)모든 **서비스를** 선택하고 **Intune을** 필터링하고 를 **Microsoft Intune.**
 2. 장치 **준수 정책을>** Microsoft  >   Defender 준수 정책을 선택합니다.
 3. **과제** 를 선택합니다.
@@ -105,6 +103,7 @@ Intune 포털, Microsoft 365 Defender Azure AD 포털에서 수행해야 하는 
 5. 그룹에 정책을 배포하려면 저장 을 **선택합니다.** 정책이 대상으로 하는 사용자 장치는 규정 준수로 평가됩니다.
 
 ### <a name="step-5-create-an-azure-ad-conditional-access-policy"></a>5단계: Azure AD 조건부 액세스 정책 만들기
+
 1. Azure [Portal에서](https://portal.azure.com) **조건부 Azure Active Directory**  >  **새 정책 을 열** 수  >  **있습니다.**
 2. 정책 이름 **을 입력하고** 사용자 및 **그룹을 선택합니다.** 포함 또는 제외 옵션을 사용하여 정책에 대한 그룹을 추가하고 완료 를 **선택합니다.**
 3. 클라우드 **앱 을** 선택하고 보호할 앱을 선택합니다. 예를 들어 앱 **선택 을** 선택하고 Office 365 SharePoint **Online을** **선택하고** Office 365 Exchange Online. **완료** 를 선택하여 변경 내용을 저장합니다.
@@ -117,4 +116,4 @@ Intune 포털, Microsoft 365 Defender Azure AD 포털에서 수행해야 하는 
 
 자세한 내용은 Intune에서 조건부 액세스를 통해 [끝점에 대한 Microsoft Defender 준수 적용을 참조하세요.](/intune/advanced-threat-protection)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-belowfoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-conditionalaccess-belowfoldlink)

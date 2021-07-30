@@ -24,12 +24,12 @@ ms.custom:
 - AdminTemplateSet
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: 463b1b1a34a14c1283ad31fb2e1236ba913b0594
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 319d8469ebdf1500f5f10e7fb84f69b9d87bed7c
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394488"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650094"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
@@ -81,6 +81,12 @@ ms.locfileid: "53394488"
 > [Fapiao 관리 시스템](https://go.microsoft.com/fwlink/p/?linkid=837465)에 액세스하려면 등록된 계정이 필요합니다. 계정을 설정하지 않은 경우, [21 Vianet에서 운영하는 Office 365용 Fapiao 신청](../../admin/services-in-china/apply-for-a-fapiao.md)을 참조하세요.
 
 ::: moniker-end
+
+> [!NOTE]
+> 
+> Microsoft 365 서비스는 결제 영수증을 제공하지 않습니다.
+> 신용 카드 결제의 경우 송장 및 신용 카드 청구 명세서를 사용하여 결제와 일치하세요.
+
 
 ## <a name="receive-a-copy-of-your-billing-statement-in-email"></a>전자 메일로 청구서 사본 받기
 

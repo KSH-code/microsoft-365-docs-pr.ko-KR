@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4f7aca5cb532510d55042c70d04d65f2aa08baa3
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 24022d71802bdaa299547b4885bcb0d23ddd0c57
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844757"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650262"
 ---
 # <a name="configure-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>끝점 Microsoft Cloud App Security Microsoft Defender에서 업데이트 구성
 
@@ -32,13 +32,13 @@ ms.locfileid: "52844757"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 Endpoint 클라우드 앱 검색 신호에 대한 Microsoft Defender의 이점을 활용하기 위해 통합을 Microsoft Cloud App Security 하세요.
 
 >[!NOTE]
->이 기능은 Windows 10 버전 1709(KB4493441이 있는 OS 빌드 16299.1085)를 실행하는 장치에서 Enterprise Mobility + Security E5 라이선스와 함께 사용할 수 Windows 10. 버전 1803(OS 빌드 17134.704 [및 KB4493464](https://support.microsoft.com/help/4493464)), Windows 10, 버전 1809(OS 빌드 17763.379( [KB4489899)](https://support.microsoft.com/help/4489899)이상 버전의 Windows 10. [](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) [](https://support.microsoft.com/help/4493441)
+>이 기능은 E5 라이선스와 함께 사용할 수 [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) 실행 중인 Windows 10, 버전 1709(OS 빌드 16299.1085( [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, 버전 1803(OS 빌드 17134.704 및 [KB4493464),](https://support.microsoft.com/help/4493464)Windows 10, 버전 1809(OS 빌드 17763.379) [](https://support.microsoft.com/help/4489899)이상 Windows 10 버전.
 
 > [끝점용 Microsoft Defender와](/cloud-app-security/mde-integration) 엔드포인트의 Microsoft Cloud App Security 통합에 대한 자세한 내용은 Microsoft Defender for Endpoint Microsoft Cloud App Security. 
 

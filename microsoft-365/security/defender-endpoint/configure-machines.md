@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5f5f3066f16a5f9cf39b2fcf4677b4906758fbe1
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 20851106ec3301823e6c87432eb54b6c8adccc79
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53595897"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53655818"
 ---
 # <a name="ensure-your-devices-are-configured-properly"></a>장치가 올바르게 구성되어 있는지 확인
 
@@ -31,7 +31,7 @@ ms.locfileid: "53595897"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
 
 적절히 구성된 장치를 사용하면 위협에 대한 전반적인 탄력성을 높이고 공격을 감지하고 대응할 수 있는 기능을 향상시킬 수 있습니다. 보안 구성 관리는 디바이스를 보장하는 데 도움이 됩니다.
 
@@ -92,4 +92,4 @@ ms.locfileid: "53595897"
 [엔드포인트 보안 기준에 대한 Defender 준수 강화](configure-machines-security-baseline.md)|기준 준수 및 비준수 추적 더 많은 Intune 관리 장치에 보안 기준을 배포합니다.
 [ASR 규칙 배포 및 검색 최적화](configure-machines-asr.md)|규칙 배포를 검토하고 보안 센터에서 영향 분석 도구를 사용하여 Microsoft 365 조정합니다.
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-onboardconfigure-belowfoldlink)

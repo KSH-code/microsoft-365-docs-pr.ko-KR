@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ee6fd4bd8d60f828bb474fc80cb987f4f94edcbe
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 05bfd6652395b7a1687320ec78d49caba67dc160
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581097"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656202"
 ---
 # <a name="overview-of-microsoft-defender-security-center"></a>Microsoft Defender 보안 센터 개요
 
@@ -33,7 +33,7 @@ ms.locfileid: "51581097"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-usewdatp-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-usewdatp-abovefoldlink)
 
 Microsoft Defender 보안 센터 Microsoft Defender for Endpoint 기능에 액세스할 수 있는 포털입니다.
 

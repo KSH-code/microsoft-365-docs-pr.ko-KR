@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 00410ea53f8656c25e4912f8979b11f0c4b0483a
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 1fdd37e75f3d7ee77f1f702303024a3345bc1d50
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622547"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656370"
 ---
 # <a name="manage-automation-file-uploads"></a>자동화 파일 업로드 관리
 
@@ -31,7 +31,7 @@ ms.locfileid: "53622547"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automationefileuploads-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-automationefileuploads-abovefoldlink)
 
 자동화된 조사에서 추가 검사를 위해 특정 파일 및 전자 메일 첨부 파일을 클라우드에 자동으로 업로드할 수 있도록 콘텐츠 분석 기능을 사용하도록 설정하세요.
 

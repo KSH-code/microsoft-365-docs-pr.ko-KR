@@ -19,12 +19,12 @@ ms.custom: asr
 ms.topic: conceptual
 ms.technology: mde
 ms.date: 06/02/2021
-ms.openlocfilehash: 6bb91b24b6e5ecc0d0dba4a1693f4d7278ee489e
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: e2065daf89bdebb2e4df6de35ad4c09c21df0a26
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542912"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656322"
 ---
 # <a name="overview-of-attack-surface-reduction-capabilities"></a>공격 표면 감소 기능 개요
 
@@ -36,7 +36,7 @@ ms.locfileid: "53542912"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 공격 표면은 조직이 사이버 위협 및 공격에 취약한 모든 장소입니다. Endpoint용 Defender에는 공격 표면을 줄이는 데 도움이 되는 몇 가지 기능이 포함되어 있습니다. 다음 비디오를 시청하여 공격 표면 감소에 대해 자세히 알아보십시오.
 

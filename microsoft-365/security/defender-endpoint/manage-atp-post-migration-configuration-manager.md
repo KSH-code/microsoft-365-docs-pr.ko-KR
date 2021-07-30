@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 06/11/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 58bc187eb1e875e2bb6cf28360c10d45918454f4
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 64346434356a4c5e77f31a11b7d0d599361d3c67
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542936"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650286"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-configuration-manager"></a>Configuration Manager를 사용하여 끝점용 Microsoft Defender 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "53542936"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 장치에 대한 조직의 [](/mem)위협 방지 기능(끝점이라고도 하는 Microsoft Endpoint Manager)을 [](/mem/configmgr/core/understand/introduction) 관리하려면 Microsoft Intune(Intune) 및 Microsoft Endpoint Configuration Manager(Configuration Manager)가 포함된 Microsoft Endpoint Manager 를 사용하는 것이 좋습니다. [](/mem/intune/fundamentals/what-is-intune) 
@@ -44,7 +44,7 @@ ms.locfileid: "53542936"
 
 ## <a name="configure-microsoft-defender-for-endpoint-with-configuration-manager"></a>Configuration Manager를 통해 끝점용 Microsoft Defender 구성
 
-|작업  |자세한 정보를 알아볼 수 있는 리소스  |
+|작업   |자세한 정보를 알아볼 수 있는 리소스  |
 |---------|---------|
 |**Configuration Manager 콘솔이** 없는 경우 설치<br/><br/>*Configuration Manger 콘솔이 아직 없는 경우 이러한 리소스를 사용하여 비트를 다운로드하고 설치합니다.* |[설치 미디어 사용](/mem/configmgr/core/servers/deploy/install/get-install-media)<br/><br/>[Configuration Manager 콘솔 설치](/mem/configmgr/core/servers/deploy/install/install-consoles)  |
 |**Configuration Manager를 사용하여 끝점용** Microsoft Defender에 장치 온보딩 <br/><br/> *디바이스(또는 끝점)가 아직 끝점용 Microsoft Defender에 온보딩되지 않은 경우 Configuration Manager를 사용하여 이 작업을 할 수 있습니다.*   |[Configuration Manager를 통해 끝점용 Microsoft Defender에 온보딩](/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection#about-onboarding-to-atp-with-configuration-manager)      |

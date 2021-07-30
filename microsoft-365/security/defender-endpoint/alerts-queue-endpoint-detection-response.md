@@ -1,5 +1,5 @@
 ---
-title: 알림 큐의 Microsoft 365 Defender
+title: Microsoft 365 Defender의 경고 큐
 ms.reviewer: ''
 description: 알림에 표시되어 있는 경고 보기 및 Microsoft 365 Defender
 keywords: ''
@@ -18,21 +18,21 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 09/03/2018
 ms.technology: mde
-ms.openlocfilehash: ed65c836e74d5394d3b291ca3ebb5e781e37afa8
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: fbd8a5fa5bbb42ea8040c2a1364a9a9a4c90bcbd
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339565"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650082"
 ---
-# <a name="alerts-queue-in-microsoft-365-defender"></a>알림 큐의 Microsoft 365 Defender
+# <a name="alerts-queue-in-microsoft-365-defender"></a>Microsoft 365 Defender의 경고 큐
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 장치, 파일 또는 사용자 계정과 같은 엔터티에서 볼 수 있는 위협을 효과적으로 조사할 수 있도록 큐를 보고 관리하는 방법을 알아보십시오.
 

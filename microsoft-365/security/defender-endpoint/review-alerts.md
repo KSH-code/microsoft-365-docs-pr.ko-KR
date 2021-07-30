@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 5/1/2020
 ms.technology: mde
-ms.openlocfilehash: c05858184df57b148b83dabee402fde29d98e95e
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: bc3ef2737afed17ca46d4715992b9c8cc82758cb
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622042"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53649866"
 ---
 # <a name="review-alerts-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 경고 검토
 
@@ -32,7 +32,7 @@ ms.locfileid: "53622042"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-managealerts-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-managealerts-abovefoldlink)
 
 Microsoft Defender for Endpoint의 경고 페이지는 선택한 경고와 관련된 공격 신호 및 경고를 결합하여 자세한 경고 스토리를 생성하여 경고에 대한 전체 컨텍스트를 제공합니다.
 

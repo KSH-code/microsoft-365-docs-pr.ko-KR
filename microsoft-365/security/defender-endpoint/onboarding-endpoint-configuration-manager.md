@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e04535268c94478c862998cfd91df1680eb22fc0
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 5e8cb3b843ce3f8bbbec6d1dc96bf2aa237eaa2a
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542096"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53655566"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 
@@ -33,7 +33,7 @@ ms.locfileid: "53542096"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 이 문서는 배포 가이드의 일부로, 온보더링 방법의 예로 사용할 수 있습니다. 
@@ -106,7 +106,7 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 
     ![Microsoft Endpoint Configuration Manager 마법사의 이미지8](images/configmgr-membership-rules.png)
 
-9. **다음** 을 선택합니다.
+9. **다음** 을 선택하세요.
 
     ![Microsoft Endpoint Configuration Manager Microsoft Endpoint Configuration Manager 이미지](images/configmgr-confirm.png)
 
@@ -117,7 +117,7 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 ## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>2단계: 끝점용 Microsoft Defender 기능 구성 
 이 섹션에서는 Microsoft Endpoint Configuration Manager 디바이스에서 다음 기능을 Windows 안내합니다.
 
-- [**끝점 검색 및 응답**](#endpoint-detection-and-response)
+- [**엔드포인트 감지 및 대응**](#endpoint-detection-and-response)
 - [**차세대 보호**](#next-generation-protection)
 - [**공격 표면 감소**](#attack-surface-reduction)
 

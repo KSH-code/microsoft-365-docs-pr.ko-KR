@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 전자 메일을 다른 직원에게 전달하거나 공유 사서함으로 변환합니다.
-ms.openlocfilehash: df8652f89df5715ba45408f87755bd2ee238884c
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: f9d5cefd761d95a3df03864aa14de1bcfb608d04
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541604"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650118"
 ---
 # <a name="step-3---forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox"></a>3단계 - 이전 직원의 전자 메일을 다른 직원에게 전달하거나 공유 사서함으로 변환
 
@@ -60,7 +60,10 @@ ms.locfileid: "53541604"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[공유 사서함을 열고 Outlook](https://support.microsoft.com/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd) 
- [다른 사람의 사서함에 액세스](https://support.microsoft.com/office/access-another-person-s-mailbox-a909ad30-e413-40b5-a487-0ea70b763081) 
- [Exchange 관리 센터의 Exchange Online](/exchange/exchange-admin-center) 
- [다른 사람의 메일 및](https://support.microsoft.com/office/manage-another-person-s-mail-and-calendar-items-afb79d6b-2967-43b9-a944-a6b953190af5) 일정 항목 관리자
+[Outlook에서 공유 사서함 열기 및 사용](https://support.microsoft.com/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)
+
+[다른 사용자의 사서함 액세스](https://support.microsoft.com/office/access-another-person-s-mailbox-a909ad30-e413-40b5-a487-0ea70b763081)
+
+[Exchange 관리 센터의 Exchange Online](/exchange/exchange-admin-center)
+
+[다른 사람의 메일 및 일정 항목 관리자](https://support.microsoft.com/office/manage-another-person-s-mail-and-calendar-items-afb79d6b-2967-43b9-a944-a6b953190af5)

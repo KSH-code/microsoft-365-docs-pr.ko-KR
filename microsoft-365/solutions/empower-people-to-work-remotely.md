@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 재택근무, 재택근무, 하이브리드, 원격근무, 하이브리드 근무, 원격직원, 하이브리드 연결, 원격접속, 재택근무, 재택근무, 재택근무, 원격근무, 원격근무, 원격근무, 유연한 근무 장소
 description: 하이브리드 직원이 온-프레미스 및 Microsoft 365 리소스에 안전하게 액세스할 수 있도록 인프라 계층으로 이동합니다.
-ms.openlocfilehash: fed23a4607cfb47049a6540dfb592d9a8baf9d21
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 75c8ee6bc736bbe53638cb9040cf2bb68e333201
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229374"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53650190"
 ---
 # <a name="set-up-your-infrastructure-for-hybrid-work-with-microsoft-365"></a>Microsoft 365를 사용하여 하이브리드 작업을 위한 인프라 설정
 
@@ -82,22 +82,22 @@ Microsoft 365에는 하이브리드 직원이 현장이나 원격으로 작업�
 
 하이브리드 작업자를 위한 Microsoft 365의 기능을 사용하려면 다음 Microsoft 365 기능을 사용하세요.
 
-| 기능 또는 특징 | 설명 | 라이선싱 |
-|:-------|:-----|:-------|
-| 보안 기본값을 사용하여 MFA 실행   | 로그인에 대한 보조 인증을 요구함으로써 손상된 ID와 장치로부터 보호합니다. 보안 기본값은 모든 사용자 계정에 대해 MFA를 요구합니다.   | Microsoft 365 E3 혹은 E5 |
-| 조건부 액세스로 MFA 실행| 조건부 액세스 정책을 포함한 로그인 속성을 기반으로 하는 MFA가 필요합니다.    | Microsoft 365 E3 혹은 E5 |
-| 위험 기반 조건부 액세스로 MFA 실행   | ID용 Microsoft Defender와 함께 사용자 로그인의 위험을 기반으로 하는 MFA가 필요합니다. | Azure AD Premium P2 라이선스를 포함한 Microsoft 365 E5 또는 E3 |
-| 셀프 서비스 암호 재설정(SSPR)    | 사용자가 암호 또는 계정을 다시 설정하거나 잠금 해제할 수 있습니다.  | Microsoft 365 E3 혹은 E5 |
-| Azure AD 응용 프로그램 프록시    | 인트라넷 서버에서 호스트되는 웹 기반 응용 프로그램에 대한 보안 원격 액세스를 제공합니다.   | 별도의 유료 Azure 구독 필요 |
-| Azure 지점 및 사이트 간 VPN   | Azure 가상 네트워크를 통해 원격 작업자의 장치에서 인트라넷으로의 연결을 안전하게 만듭니다.   | 별도의 유료 Azure 구독 필요 |
-| Windows Virtual Desktop   | 가상 데스크톱이 Azure에서 실행되는 관리되지 않는 개인 장치만 사용할 수 있는 원격 작업자를 지원합니다. | 별도의 유료 Azure 구독 필요 |
-| 원격 데스크톱 서비스(RDS) | 직원이 인트라넷의 Windows 기반 컴퓨터에 연결하도록 허용합니다. | Microsoft 365 E3 혹은 E5 |
-| 원격 데스크톱 서비스 게이트웨이   | 통신을 암호화하고 RDS 호스트가 인터넷에 직접 노출되지 않도록 합니다. | 별도의 Windows Server 라이선스 필요 |
-| Microsoft Intune | 장치 및 응용 프로그램을 관리합니다.   | Microsoft 365 E3 혹은 E5 |
-| 기능이며 | 장치의 소프트웨어 설치, 업데이트 및 설정 관리 | 별도의 Configuration Manager 라이선스 필요 |
-| Desktop Analytics | Windows 클라이언트의 업데이트 준비 상태를 확인합니다.   | 별도의 Configuration Manager 라이선스 필요 |
-| Windows Autopilot | 새 Windows 10 장치를 업무용으로 사용하도록 설정하고 사전 구성합니다.   | Microsoft 365 E3 혹은 E5 |
-| Microsoft Teams, Exchange Online, SharePoint Online 및 OneDrive, Microsoft 365 앱, Microsoft Power Platform 및 Yammer | 만들고, 소통하며, 공동 작업합니다. | Microsoft 365 E3 혹은 E5 |
+|기능 또는 특징|설명|라이선싱|
+|---|---|---|
+|보안 기본값을 사용하여 MFA 실행|로그인에 대한 보조 인증을 요구함으로써 손상된 ID와 장치로부터 보호합니다. 보안 기본값은 모든 사용자 계정에 대해 MFA를 요구합니다.|Microsoft 365 E3 혹은 E5|
+|조건부 액세스로 MFA 실행|조건부 액세스 정책을 포함한 로그인 속성을 기반으로 하는 MFA가 필요합니다.|Microsoft 365 E3 혹은 E5|
+|위험 기반 조건부 액세스로 MFA 실행|ID용 Microsoft Defender와 함께 사용자 로그인의 위험을 기반으로 하는 MFA가 필요합니다.|Azure AD Premium P2 라이선스를 포함한 Microsoft 365 E5 또는 E3|
+|셀프 서비스 암호 재설정(SSPR)|사용자가 암호 또는 계정을 다시 설정하거나 잠금 해제할 수 있습니다.|Microsoft 365 E3 혹은 E5|
+|Azure AD 응용 프로그램 프록시|인트라넷 서버에서 호스트되는 웹 기반 응용 프로그램에 대한 보안 원격 액세스를 제공합니다.|별도의 유료 Azure 구독 필요|
+|Azure 지점 및 사이트 간 VPN|Azure 가상 네트워크를 통해 원격 작업자의 장치에서 인트라넷으로의 연결을 안전하게 만듭니다.|별도의 유료 Azure 구독 필요|
+|Windows Virtual Desktop|가상 데스크톱이 Azure에서 실행되는 관리되지 않는 개인 장치만 사용할 수 있는 원격 작업자를 지원합니다.|별도의 유료 Azure 구독 필요|
+|원격 데스크톱 서비스(RDS)|직원이 인트라넷의 Windows 기반 컴퓨터에 연결하도록 허용합니다.|Microsoft 365 E3 혹은 E5|
+|원격 데스크톱 서비스 게이트웨이|통신을 암호화하고 RDS 호스트가 인터넷에 직접 노출되지 않도록 합니다.|별도의 Windows Server 라이선스 필요|
+|Microsoft Intune|장치 및 응용 프로그램을 관리합니다.|Microsoft 365 E3 혹은 E5|
+|기능이며|장치의 소프트웨어 설치, 업데이트 및 설정 관리|별도의 Configuration Manager 라이선스 필요|
+|Desktop Analytics|Windows 클라이언트의 업데이트 준비 상태를 확인합니다.|별도의 Configuration Manager 라이선스 필요|
+|Windows Autopilot|새 Windows 10 장치를 업무용으로 사용하도록 설정하고 사전 구성합니다.|Microsoft 365 E3 혹은 E5|
+|Microsoft Teams, Exchange Online, SharePoint Online 및 OneDrive, Microsoft 365 앱, Microsoft Power Platform 및 Yammer|만들고, 소통하며, 공동 작업합니다.|Microsoft 365 E3 혹은 E5|
 ||||
 
 보안 및 규정 준수 기준에 대한 내용은 [원격 작업자에 대한 보안 및 규정 준수 배포](empower-people-to-work-remotely-security-compliance.md)를 참조하세요.

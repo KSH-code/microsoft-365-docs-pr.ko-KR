@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0b467a7b661b96f5b293f2671d3645533143d67f
-ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
+ms.openlocfilehash: 384ea6f07a1b84421e8961d43bb97fd589c0c39a
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587672"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53656190"
 ---
 # <a name="monitor-web-browsing-security"></a>웹 검색 보안 모니터링
 
@@ -31,7 +31,7 @@ ms.locfileid: "53587672"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
 웹 보호를 사용하면 웹 포털의 보고서 및  웹 보호에 > 통해 조직의 웹 검색 보안을 Microsoft 365 Defender 있습니다. 이 보고서에는 웹 위협 감지 통계를 제공하는 카드가 포함되어 있습니다.
 

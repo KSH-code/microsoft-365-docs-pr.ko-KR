@@ -15,12 +15,12 @@ ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
 description: 조직에서 사용할 수 있는 파일럿 프로그램을 계획하고 SharePoint Syntex 방법을 학습합니다.
-ms.openlocfilehash: 2668c0c85d6b8c73d377ac9efffc7f777fc7add6
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 6b3aadd635e8abb41e0b3eb1bb9414d40fc1192b
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327151"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53655470"
 ---
 # <a name="run-a-trial-of-microsoft-sharepoint-syntex"></a>Microsoft 365 평가판 SharePoint Syntex
 
@@ -38,22 +38,22 @@ ms.locfileid: "53327151"
 - 제품 [SharePoint Syntex 페이지](https://www.microsoft.com/microsoft-365/enterprise/sharepoint-syntex?activetab=pivot:overviewtab)
 
 - Microsoft 365 관리 센터 [](https://admin.microsoft.com)
-    1.  [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인합니다.
-    2.  청구 **구매**  >  **서비스로 이동**
-    3.  아래로 스크롤하여 **추가 기능** 섹션으로 이동합니다.
-    4.  타일 SharePoint Syntex 세부 **정보를 선택합니다.**
-    5.  **사용 가능한 평가판** 을 선택하세요.
-    6.  평가판을 확인하기 위해 나머지 마법사 단계를 따릅니다.
+    1. [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인합니다.
+    2. 청구 **구매**  >  **서비스로 이동**
+    3. 아래로 스크롤하여 **추가 기능** 섹션으로 이동합니다.
+    4. 타일 SharePoint Syntex 세부 **정보를 선택합니다.**
+    5. **사용 가능한 평가판** 을 선택하세요.
+    6. 평가판을 확인하기 위해 나머지 마법사 단계를 따릅니다.
 
 평가판을 활성화하려면 Microsoft 365 관리자 또는 대금 청구 관리자 되어야 합니다.
 
 ### <a name="who-should-be-involved-in-a-trial"></a>Who 평가판에 참여해야 하는지
 
-|역할  |활동  |
-|---------|---------|
-|Microsoft 365 관리자 또는 대금 청구 관리자    |     평가판 활성화 및 라이선스 할당    |
-|Microsoft 365 관리자 또는 SharePoint 관리자     |   콘텐츠 SharePoint Syntex 구성 및 만들기      |
-|비즈니스 사용자     |    모델 구축 및 테스트     |
+|역할|활동|
+|---|---|
+|Microsoft 365 관리자 또는 대금 청구 관리자|평가판 활성화 및 라이선스 할당|
+|Microsoft 365 관리자 또는 SharePoint 관리자|콘텐츠 SharePoint Syntex 구성 및 만들기|
+|비즈니스 사용자|모델 구축 및 테스트|
 
 ### <a name="before-you-activate-a-trial"></a>평가판을 활성화하기 전에
 
@@ -80,7 +80,7 @@ ms.locfileid: "53327151"
 
 - 관련 사용자에게 라이선스를 할당합니다.
 - 의 [추가 설치를 SharePoint Syntex.](set-up-content-understanding.md)
-    - 추가 콘텐츠 [센터를 만들 수 있습니다.](create-a-content-center.md)
+  - 추가 콘텐츠 [센터를 만들 수 있습니다.](create-a-content-center.md)
 
 평가판이 활성화된 후 모델을 만들고 파일을 처리합니다. 모델 [만들기에 대한 지침을 참조하세요.](create-a-content-center.md)
 
@@ -104,7 +104,7 @@ ms.locfileid: "53327151"
 
 - 새 모델을 만들 수 없습니다.
 - 모델을 실행 중인 라이브러리는 더 이상 파일을 자동으로 분류하거나 모델을 추출하지 않습니다.
-- 이전에 분류된 파일 또는 추출된 메타데이터는 영향을 받지 않습니다. 
+- 이전에 분류된 파일 또는 추출된 메타데이터는 영향을 받지 않습니다.
 - 콘텐츠 센터 및 문서 이해 모델은 자동으로 삭제되지 않습니다. 이러한 라이선스는 향후 라이선스를 구매하기로 결정한 경우 계속 사용할 수 있습니다.
 - 양식 처리 모델은 기본 Power Platform 환경의 CDS(Common Data Services) 인스턴스에 저장됩니다. 이러한 라이선스는 Power Platform의 SHAREPOINT SYNTEX 또는 AI 작성기 기능과 함께 향후 라이선싱에 사용할 수 있습니다.
 

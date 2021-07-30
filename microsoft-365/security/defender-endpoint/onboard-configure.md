@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c471f2b0d88219ac04a1c64343c950604fec2183
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 4792489abf721993fe55dc642f132c51442c21a5
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622511"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53655542"
 ---
 # <a name="onboard-devices-to-the-microsoft-defender-for-endpoint-service"></a>Microsoft Defender for Endpoint 서비스에 장치 온보딩
 
@@ -33,7 +33,7 @@ ms.locfileid: "53622511"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
 
 지원되는 디바이스를 온보딩하려면 Endpoint 포털의 온보딩 섹션으로 이동해야 합니다. 장치에 따라 적절한 단계를 안내하고 장치에 적합한 관리 및 배포 도구 옵션을 제공합니다.
 
@@ -70,4 +70,4 @@ ms.locfileid: "53622511"
 [프록시 및 인터넷 설정 구성](configure-proxy-internet.md)|프록시 및 인터넷 연결 설정을 구성하여 Endpoint 클라우드 서비스용 Defender와 통신할 수 있습니다.
 [온보딩 문제 해결](troubleshoot-onboarding.md)|온보더링 중에 발생할 수 있는 문제를 해결합니다.
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-onboardconfigure-belowfoldlink)

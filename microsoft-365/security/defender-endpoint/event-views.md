@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 342e471c897c6722e9a7d67578e10b85719d5bd8
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 081808a99f7ea18216107f22ff2912cd022eab82
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53595993"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53655758"
 ---
 # <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 
@@ -31,7 +31,7 @@ ms.locfileid: "53595993"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 이벤트 뷰어에서 공격 표면 감소 이벤트를 검토하여 작동되는 규칙 또는 설정을 모니터링합니다. 또한 설정이 너무 "시저"되거나 매일 워크플로에 영향을 미치는지 확인할 수 있습니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 21e44090cf21ac8bba29885a2f97242faf3e2164
-ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
+ms.openlocfilehash: 3b96bc33763ded81a760e3d0d0ba6459fa2b5857
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2021
-ms.locfileid: "53363970"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53655590"
 ---
 # <a name="examples-of-device-control-policies-for-jamf"></a>JAMF에 대한 장치 제어 정책의 예
 
@@ -33,7 +33,7 @@ ms.locfileid: "53363970"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 이 문서에는 조직에 맞게 사용자 지정할 수 있는 장치 제어 정책의 예가 포함되어 있습니다. 이러한 예제는 기업에서 JAMF를 사용하여 장치를 관리하는 경우 적용할 수 있습니다.
 
