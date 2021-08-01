@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있게 하는 새 Office 365 메시지 암호화 기능에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b738c0f93b8958e441b34b458942c2b34c16661
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: fedbfc753250cd9b2a080aab91342d904876e0ef
+ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228582"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53655482"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>새 메시지 암호화 기능 설정하기
 
@@ -70,23 +70,23 @@ Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으�
 
      AzureRMSLicensingEnabled 매개 변수의 값이 $True인지 확인합니다. 이 값은 테넌트에서 OME가 구성되었음을 나타냅니다. 그렇지 않은 경우에는 AzureRMSLicensingEnabled의 값을 $True으로 설정하여 OME을 사용할 수 있도록 설정합니다.
 
-3. 다음 구문을 사용하여 Test-IRMConfiguration cmdlet을 실행합니다.
+3. 다음 구문을 사용하여 Test-IRMConfiguration cmdlet을 실행합니다.
 
-     ```powershell
-     Test-IRMConfiguration [-Sender <email address >]
-     ```
+   ```powershell
+   Test-IRMConfiguration [-Sender <email address> -Recipient <email address>]
+   ```
 
    **예제**:
 
-     ```powershell
-     Test-IRMConfiguration -Sender securityadmin@contoso.com
-     ```
+   ```powershell
+   Test-IRMConfiguration -Sender securityadmin@contoso.com -Recipient securityadmin@contoso.com
+   ```
 
-     - 보낸 사람 전자 메일을 제공하는 것은 선택 사항이지만, 시스템이 추가 검사를 수행할 수 있습니다. Microsoft 365 테넌트 사용자의 전자 메일 주소를 사용합니다.
+   - 보낸 사람 및 받는 사람의 경우 Microsoft 365 테넌트 사용자의 전자 메일 주소를 사용합니다.
 
      결과는 다음과 같이 표시됩니다.
 
-     ```text
+     ```console
      Results : Acquiring RMS Templates ...
                 - PASS: RMS Templates acquired.  Templates available: Contoso  - Confidential View Only, Contoso  - Confidential, Do Not
             Forward.
