@@ -1,5 +1,5 @@
 ---
-title: 게스트와 문서에서 공동 작업하기
+title: 게스트와 문서 상 공동 작업하기
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,14 +18,14 @@ localization_priority: Normal
 f1.keywords: NOCSH
 recommendations: false
 description: 이 문서에서는 게스트와 공동 작업하는 방법을 SharePoint OneDrive.
-ms.openlocfilehash: 338c7f32944bccb766ed923c12a9fceee4d81db8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 725e500990697a54b1892c428353790f2aaf9091d2789e0d20f648eb7af87266
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53810135"
 ---
-# <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서에서 공동 작업하기
+# <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서 상 공동 작업하기
 
 조직 외부의 사용자와 공동 작업을 해야 하는 경우 SharePoint OneDrive 문서에 대한 공유 링크를 보낼 수 있습니다. 이 문서에서는 조직의 요구에 Microsoft 365 및 사용자에 대한 공유 SharePoint OneDrive 설정하는 데 필요한 OneDrive 구성 단계를 단계적으로 수행합니다.
 

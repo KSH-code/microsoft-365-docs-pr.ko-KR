@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 37c8e1d879bc296b226fb4d616d798d4c38b4a0d
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: eefc1f54f20d1d59a8732cdd75356039bc434f91
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542024"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53757009"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -50,7 +50,7 @@ ms.locfileid: "53542024"
 |SharePoint 및 OneDrive|15일 이상|Microsoft|URL을 SharePoint 비즈니스용 OneDrive 콘텐츠 및 sharepoint.de 마이그레이션합니다.|
 |Exchange Online|15일 이상|Microsoft|콘텐츠 Exchange Online 마이그레이션하고 전 세계 URL로 전환합니다.|
 |보안 및 규정 준수|1~2일|Microsoft|보안 및 & 정책 및 콘텐츠를 전환합니다.|
-|비즈니스용 Skype|1~2일|Microsoft|다음 비즈니스용 Skype 전환할 Microsoft Teams.|
+|Skype for Business|1~2일|Microsoft|다음 비즈니스용 Skype 전환할 Microsoft Teams.|
 |Power BI & Dynamics 365|15일 이상|Microsoft|Power BI 및 Dynamics 365 콘텐츠를 마이그레이션합니다.|
 |Azure AD 마무리|1~2일|Microsoft|전 세계 테넌트 컷오버를 완료합니다.|
 |Clean-Up|1~2일|고객|AD FS(Active Directory Federation Services) 신뢰 파티 트러스트, Azure AD 커넥트 및 클라이언트 다시 시작과 같은 레거시 연결을 Office 정리합니다.|
@@ -197,7 +197,7 @@ CNAME이 을(를) autodiscover-outlook.office.de 있는 기존 DNS 항목은 을
 
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들면 다음과 같습니다.
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들면
 
 ```powershell
 New-PSSession
@@ -259,7 +259,7 @@ Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outl
 비즈니스용 Skype [Online](ms-cloud-germany-transition-add-pre-work.md#skype-for-business-online) 마이그레이션에 대한 마이그레이션 전 단계를 검토하고 모든 단계를 완료해야 합니다.
 이 단계에서는 비즈니스용 Skype 마이그레이션 Microsoft Teams됩니다. 기존 비즈니스용 Skype 고객은 유럽의 Office 365 전역 서비스로 마이그레이션된 다음 Microsoft Teams 서비스의 "독일" 지역에 있는 Office 365 전환됩니다.
 
-- 사용자는 마이그레이션 날짜에 로그인할 비즈니스용 Skype 수 없습니다. 마이그레이션이 시작되기 10일 전에 고객은 관리 센터에서 마이그레이션이 언제 수행될지, 그리고 마이그레이션이 시작될 때 다시 알림을 받게 됩니다.
+- 사용자는 마이그레이션 날짜에 로그인할 비즈니스용 Skype 수 없습니다.
 - 정책 구성이 마이그레이션됩니다.
 - 사용자는 마이그레이션 후 Teams 마이그레이션되지 비즈니스용 Skype 없습니다.
 - 사용자에게 데스크톱 클라이언트가 Microsoft Teams 있어야 합니다. 비즈니스용 Skype 인프라의 정책을 통해 10일 동안 설치가 진행되지만, 설치에 실패하면 사용자는 클라이언트를 다운로드하거나 지원되는 브라우저에 연결해야 합니다.

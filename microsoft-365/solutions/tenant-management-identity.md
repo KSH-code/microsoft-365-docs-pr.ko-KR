@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 테넌트에 대한 올바른 ID 모델을 Microsoft 365 강력한 사용자 로그인을 적용합니다.
-ms.openlocfilehash: c6b098cf73ef56327448413381d5621dfd4d2b59
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 01a69a326195514d0aa0a7eef1124bb820a211a508a1ed5cf79a520b82d0afa9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53798643"
 ---
 # <a name="step-3-identity-for-your-microsoft-365-for-enterprise-tenants"></a>3단계. 엔터프라이즈 테넌트의 Microsoft 365 ID
 

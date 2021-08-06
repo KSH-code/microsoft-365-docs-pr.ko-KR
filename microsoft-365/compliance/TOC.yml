@@ -968,8 +968,6 @@
           href: compliance-manager-mcca.md
         - name: 질문과 대답(FAQ)
           href: compliance-manager-faq.yml
-        - name: 준수 관리자(기본)
-          href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Microsoft 서비스 보안 포털
       href: get-started-with-service-trust-portal.md
     - name: 산업별 지침

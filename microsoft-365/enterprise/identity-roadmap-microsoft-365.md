@@ -16,11 +16,11 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: ID에 대한 로드맵을 Microsoft 365.
-ms.openlocfilehash: 456841bfc15d143409535140f2b5a63ee72e99d2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c79b7babbfbd97a13979de1ed23052ac572d9ded
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
+ms.lasthandoff: 08/04/2021
 ms.locfileid: "51051309"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Microsoft 365의 ID 로드맵
@@ -60,10 +60,10 @@ ID 구현을 배포하는 경우:
 
 ### <a name="identity-and-device-access-recommendations"></a>ID 및 장치 액세스 권장 사항
 
-안전하고 생산적인 인력을 확보하기 위해 Microsoft는 ID 및 장치 액세스에 대한 권장 [사항 집합을 제공합니다.](../security/defender-365-security/microsoft-365-policies-configurations.md) ID를 확인하려면 다음 문서의 권장 사항 및 설정을 사용합니다.
+안전하고 생산적인 인력을 확보하기 위해 Microsoft는 ID 및 장치 액세스에 대한 권장 [사항 집합을 제공합니다.](../security/office-365-security/microsoft-365-policies-configurations.md) ID를 확인하려면 다음 문서의 권장 사항 및 설정을 사용합니다.
 
-- [필수 구성 요소](../security/defender-365-security/identity-access-prerequisites.md)
-- [일반 ID 및 장치 액세스 정책](../security/defender-365-security/identity-access-policies.md)
+- [필수 구성 요소](../security/office-365-security/identity-access-prerequisites.md)
+- [일반 ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)
 
 ## <a name="manage"></a>관리
 

@@ -16,12 +16,12 @@ description: 위협 탐색기 또는 실시간 Microsoft 365 Defender 사용하�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0ad5d73abae71cc7cc00e12665d96b2020da0c41
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: 5d35478c81dc939e7c2cad686db638004e260e00b40ed185c92b8f07bae081ee
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53798980"
 ---
 # <a name="threat-hunting-in-threat-explorer-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Microsoft Defender의 위협 탐색기에서 위협 Office 365
 

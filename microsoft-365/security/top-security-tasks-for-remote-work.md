@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호합니다.
-ms.openlocfilehash: 109ba05b21ce9c1355be73dbdfb000d6eb8c4e4d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 06f253afdceb7d41b7cd1f3a6c891260a48771b0bef9d18e04b65fd1012dea49
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930474"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53798776"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>보안 팀이 집에서 작업할 수 있는 상위 12개 작업
 
@@ -31,7 +31,7 @@ ms.locfileid: "51930474"
 Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직인 경우 다음 리소스를 대신 참조하세요.
 
 - [비즈니스 계획에 대한 보안 Office 365 Microsoft 365 10가지 방법](../admin/security-and-compliance/secure-your-business-data.md)
-- [Microsoft 365 대한 정보(사용자에](../campaigns/index.md) 대한 권장 보안 구성 Microsoft 365 Business)
+- [Microsoft 365 대한 정보(Microsoft 365](../campaigns/index.md) 비즈니스에 대한 권장 보안 구성 포함)
 
 엔터프라이즈 계획을 사용하는 고객의 경우 서비스 계획에 적용되는 다음 표에 나열된 작업을 완료하는 것이 좋습니다. 엔터프라이즈 요금제로 Microsoft 365 대신 구독을 결합하는 경우 다음에 유의하세요.
 
@@ -40,18 +40,18 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 
 ****
 
-|단계|작업|모든 Office 365 Enterprise 계획|Microsoft 365 E3|Microsoft 365 E5|
+|단계|작업 |모든 Office 365 Enterprise 계획|Microsoft 365 E3|Microsoft 365 E5|
 |---|---|---|---|---|
 |1|[Azure AD MFA(다단계 인증) 사용](#1-enable-azure-ad-multi-factor-authentication-mfa)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[위협으로부터 보호](#2-protect-against-threats)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3|[Microsoft Defender for Office 365](#3-configure-microsoft-defender-for-office-365)|||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3 |[Microsoft Defender for Office 365](#3-configure-microsoft-defender-for-office-365)|||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[ID에 맞게 Microsoft Defender 구성](#4-configure-microsoft-defender-for-identity)|||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5 |[Microsoft 365 Defender 켜기](#5-turn-on-microsoft-365-defender)|||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[휴대폰 및 태블릿에 대한 Intune 모바일 앱 보호 구성](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[Intune 앱 보호를 포함하여 게스트에 대한 MFA 및 조건부 액세스 구성](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[장치 관리에 PC 등록 및 호환 PC 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |9 |[클라우드 연결에 맞게 네트워크 최적화](#9-optimize-your-network-for-cloud-connectivity)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|10  |[사용자 교육](#10-train-users)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|10 |[사용자 교육](#10-train-users)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |11|[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security)|||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |12 |[위협 모니터링 및 조치 수행](#12-monitor-for-threats-and-take-action)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
@@ -62,7 +62,7 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 
 ## <a name="1-enable-azure-ad-multi-factor-authentication-mfa"></a>1: Azure AD MFA(다단계 인증) 사용
 
-집에서 근무하는 직원의 보안을 개선하기 위해 할 수 있는 가장 좋은 한 가지 일은 MFA를 켜는 것입니다. 아직 프로세스가 준비되지 않은 경우 이를 긴급 파일럿으로 취급하고, 정체된 직원을 지원할 준비가 되어 있는지를 확인 합니다. 하드웨어 보안 장치를 배포할 수 없는 경우 Windows Hello 생체 인식 및 스마트폰 인증 앱을 Microsoft Authenticator.
+집에서 근무하는 직원의 보안을 개선하기 위해 할 수 있는 가장 좋은 한 가지 일은 MFA를 켜는 것입니다. 아직 프로세스가 준비되지 않은 경우 이를 긴급 파일럿으로 취급하고, 정체된 직원을 지원할 준비가 되어 있는지를 확인 합니다. 하드웨어 보안 장치를 배포할 수 없는 경우 생체 인식 및 Windows Hello 같은 스마트폰 인증 앱을 Microsoft Authenticator.
 
 일반적으로 MFA를 요구하기 전에 사용자에게 다단계 인증을 위해 14일간 디바이스를 등록하도록 하는 것이 좋습니다. 그러나 인력이 갑자기 집에서 작업하는 경우 먼저 MFA를 보안 우선 순위로 요구하고 필요한 사용자가 도움을 줄 수 있도록 준비합니다.
 
@@ -90,7 +90,7 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 
 ## <a name="3-configure-microsoft-defender-for-office-365"></a>3: 사용자에 대해 Microsoft Defender Office 365
 
-Office 365 및 Office 365 Microsoft 365 E5 E5에 포함된 Microsoft Defender는 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다. 이 경우 구성하는 데 몇 시간이 걸릴 수 있습니다.
+microsoft Defender for Office 365 및 Microsoft 365 E5 Office 365 E5 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다. 이 경우 구성하는 데 몇 시간이 걸릴 수 있습니다.
 
 Microsoft Defender for Office 365:
 
@@ -103,7 +103,7 @@ Microsoft Defender for Office 365:
 전역 관리자는 다음 보호를 구성할 수 있습니다.
 
 - [안전한 링크 정책 설정](office-365-security/set-up-safe-links-policies.md)
-- [안전한 링크에 대한 전역 설정 구성](office-365-security/configure-global-settings-for-safe-links.md)
+- [링크의 전역 금고 구성](office-365-security/configure-global-settings-for-safe-links.md)
 - [안전한 첨부 파일 정책 설정](office-365-security/set-up-safe-attachments-policies.md)
 
 이러한 워크로드에 대해 Exchange Online 및 SharePoint Online 관리자와 함께 Office 365 구성해야 합니다.
@@ -118,9 +118,9 @@ Microsoft Defender for Office 365:
 - 비디오 [시청: ID용 Microsoft Defender 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
 - Microsoft [Defender for Identity](/azure-advanced-threat-protection/what-is-atp#whats-next) 배포의 세 단계 검토
 
-## <a name="5-turn-on-microsoft-365-defender"></a>5: Defender Microsoft 365 켜기
+## <a name="5-turn-on-microsoft-365-defender"></a>5: 설정 Microsoft 365 Defender
 
-이제 Microsoft Defender for Office 365 ID용 Microsoft Defender를 구성한 후 하나의 대시보드에서 이러한 기능의 결합된 신호를 볼 수 있습니다. [Microsoft 365 Defender는 경고,](./defender/microsoft-365-defender.md) 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 창으로 [security.microsoft.com.](https://security.microsoft.com)
+이제 Microsoft Defender for Office 365 ID용 Microsoft Defender를 구성한 후 하나의 대시보드에서 이러한 기능의 결합된 신호를 볼 수 있습니다. [Microsoft 365 Defender 경고,](./defender/microsoft-365-defender.md) 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 창으로 통합하여 [security.microsoft.com.](https://security.microsoft.com)
 
 ![MTP 대시보드 그림](../media/top-ten-security-remote-work-mtp-dashboard.png)
 
@@ -211,7 +211,7 @@ Microsoft 365 조직의 사용자에게 알리는 데 도움이 되는 다음 �
 |개념|리소스|
 |---|---|
 |Microsoft 365|[사용자 지정 가능한 학습 경로](/office365/customlearning/) <p>이러한 리소스는 조직의 최종 사용자를 위한 교육을 구성하는 데 도움이 될 수 있습니다.|
-|Microsoft 365 보안|[학습 모듈: 기본 제공 지능형 보안으로 조직을 Microsoft 365](/learn/modules/security-with-microsoft-365) <p>이 모듈에서는 보안 기능이 함께 Microsoft 365 방법을 설명하고 이러한 보안 기능의 이점을 설명할 수 있습니다.|
+|Microsoft 365 보안|[Learning 모듈: 기본 제공 지능형 보안 기능으로 조직을 Microsoft 365](/learn/modules/security-with-microsoft-365) <p>이 모듈에서는 보안 기능이 함께 Microsoft 365 방법을 설명하고 이러한 보안 기능의 이점을 설명할 수 있습니다.|
 |다단계 인증|[2단계 인증: 추가 확인 페이지란?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서는 최종 사용자가 다단계 인증이 무엇일지와 조직에서 사용되는 이유를 이해하는 데 도움이 됩니다.|
 |
 

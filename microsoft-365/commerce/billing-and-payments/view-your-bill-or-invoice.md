@@ -24,12 +24,12 @@ ms.custom:
 - AdminTemplateSet
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: 319d8469ebdf1500f5f10e7fb84f69b9d87bed7c
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 94cbfb02449abb75ff90659bfa678ea61694f2f2f5aac372ba3e31372d5ae59b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53650094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53843446"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 

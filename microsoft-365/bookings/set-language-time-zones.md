@@ -9,22 +9,22 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 94af3e22-aca6-4e91-8b91-1cd5a02a9ea8
 description: Microsoft Bookings에서 언어 및 표준 시간대 설정을 변경합니다. 잘못된 시간으로 예약을 만든 경우 Bookings가 잘못된 표준 시간대에 대해 설정될 수 있습니다.
-ms.openlocfilehash: 3e7709666d6426b11c275e46a18d43e7b7ab3526
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 7c1ae42f327291062fb6bc4512ef3b1b85709b45814a816222958405327e054c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962434"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53843622"
 ---
 # <a name="set-language-and-time-zones-in-microsoft-bookings"></a>Microsoft Bookings에서 언어 및 표준 시간대 설정
 
 Microsoft Bookings를 사용하고 있으며 잘못된 시간으로 예약이 만들어진 경우 표준 시간대 설정을 변경해야 할 수 있습니다. 마찬가지로 일부 예약이 잘못된 언어인 경우 언어 설정을 변경해야 할 수 있습니다.
 
-Bookings에 대한 두 가지 언어 및 표준 시간대 설정이 있습니다. 첫 번째 설정은 예약 일정의 언어 및 표준 시간대를 제어하고, Outlook 사용자의 개인 일정에 대한 웹 설정의 설정을 사용하여 설정됩니다. 두 번째 설정은 고객이 사용하는 셀프 서비스 예약 페이지에 영향을 주며 해당 페이지에 대한 언어 및 표준 시간대만 제어하는 "국가별 설정" 페이지를 사용하여 설정됩니다.
+Bookings에 대한 두 가지 언어 및 표준 시간대 설정이 있습니다. 첫 번째 설정은 예약 일정의 언어 및 표준 시간대를 제어하고 웹용 Outlook 사용자의 개인 일정에 대한 웹용 Outlook 설정을 사용하여 설정됩니다. 두 번째 설정은 고객이 사용하는 셀프 서비스 예약 페이지에 영향을 주며 해당 페이지에 대한 언어 및 표준 시간대만 제어하는 "국가별 설정" 페이지를 사용하여 설정됩니다.
 
 ## <a name="setting-language-and-time-zone-for-a-booking-calendar"></a>예약 일정의 언어 및 표준 시간대 설정
 
-예약 일정은 로그인한 사용자의 언어 및 표준 시간대 설정을 사용합니다. 예를 들어 로그인한 사용자의 표준 시간대를 EST(동부 표준시)로 설정하면 예약 일정에 기존 약속 시작 및 종료 시간이 EST로 표시됩니다. 이 표준 시간대는 원래 웹 계정에 대한 사용자 Microsoft 365 Outlook 때 설정되었습니다.
+예약 일정은 로그인한 사용자의 언어 및 표준 시간대 설정을 사용합니다. 예를 들어 로그인한 사용자의 표준 시간대를 EST(동부 표준시)로 설정하면 예약 일정에 기존 약속 시작 및 종료 시간이 EST로 표시됩니다. 이 표준 시간대는 원래 사용자의 사용자 계정 및 Microsoft 365 웹용 Outlook 설정되었습니다.
 
 예약 일정의 언어 및 표준 시간대를 설정하는 경우:
 
@@ -36,7 +36,7 @@ Bookings에 대한 두 가지 언어 및 표준 시간대 설정이 있습니다
 
 1. 언어 또는 현재 표준 시간대 상자에서 드롭다운  화살표를 선택하고 원하는 설정을 선택하여 언어 또는 표준 시간대를 변경합니다.
 
-1. **저장** 을 클릭합니다. 웹 설정 닫고 Outlook 다시 시작하면 새 언어 및 표준 시간대 설정이 적용됩니다.
+1. **저장** 을 클릭합니다. 설정 패널이 닫히고, 웹용 Outlook 다시 시작되고, 새 언어 및 표준 시간대 설정이 적용됩니다.
 
 ## <a name="setting-the-language-and-time-zone-for-the-booking-page"></a>예약 페이지의 언어 및 표준 시간대 설정
 

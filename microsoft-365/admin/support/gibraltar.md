@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4227965a5ce13981466f31cbb19dd3401f0769d7
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 13cc004e0c089554fada5d964b9c469987958e3c2cb57ef4ddec23200a573204
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809973"
 ---
 # <a name="contact-support-for-gibraltar"></a>지브할타르 지원에 문의
 

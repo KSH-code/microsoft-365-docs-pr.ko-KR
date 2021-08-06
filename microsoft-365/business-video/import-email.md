@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 전자 메일을 비즈니스용 전자 메일로 가져오는 Microsoft 365 방법을 알아보습니다.
-ms.openlocfilehash: 7049642d071ff6b16a489a89c9355b35667a1e58
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a40a51773dc62d11272eb02102c421aecf70f2b5a6c02a2867c94b47177668e6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53843530"
 ---
 # <a name="import-email-to-microsoft-365-for-business"></a>비즈니스용 전자 Microsoft 365 전자 메일 가져오기 
 
@@ -41,7 +41,7 @@ After signing up for Microsoft 365, you might still have email going to an old a
 2. 파일로 **내보내기 를 선택하고** 다음 을 **선택합니다.**
 3. 데이터 **Outlook 를 선택하고** 다음 을 **선택합니다.**
 4. 이전 전자 메일 계정을 선택합니다.
-5. 하위폴더를 포함해야 합니다. 그런 다음 **다음** 을 선택합니다.
+5. 하위폴더를 포함해야 합니다. 그런 후 **다음** 을 선택합니다.
 6. **찾아보기를** 선택하고 데스크톱과 같은 쉽게 기억할 수 있는 위치로 이동하세요. **확인을** 선택한 다음 마친 **을 선택합니다.**
 7. 암호 필드를 비워두고 확인 을 **선택 합니다.**
 

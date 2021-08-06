@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: ed35f06f3dcee9c7981a086278040fc0a44519b3
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 7a26d89e04d9739434208c4b3c4a536be5c5c5075a00dabdc06b8c4abd318838
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788906"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53777772"
 ---
 # <a name="step-5-deploy-hybrid-worker-productivity-apps-and-services"></a>5단계. 하이브리드 작업자 생산성 앱 및 서비스 배포
 

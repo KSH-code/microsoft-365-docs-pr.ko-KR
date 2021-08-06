@@ -18,12 +18,12 @@ localization_priority: Normal
 f1.keywords: NOCSH
 recommendations: false
 description: 게스트와 공동 작업하기 위해 Microsoft 365 사이트 설정에 필요한 SharePoint 구성 단계에 대해 자세히 알아보십시오.
-ms.openlocfilehash: f91b9c64dbdca8ed7e3ada3315cb57f1c728f838
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 054de924b2cf5041694ca12dcf2fb4137242d16fb53060421aedb51aed9668a9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53810169"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>게스트와 현장에서 공동 작업하기
 
@@ -132,7 +132,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 3. **구성원 추가** 를 클릭합니다.
 4. 사이트에 초대할 사용자의 이름 또는 전자 메일 주소를 입력한 다음 저장을 **클릭합니다.**
 
-사이트에서 게스트를 추가할 수 없습니다. 웹용 웹 응용 Outlook 추가해야 합니다. 따라서 게스트를 그룹에 추가하고 그룹에 초대하려면 URL 열에서 사이트의 **URL을**  클릭하여 사이트별 페이지로 이동합니다. 이 페이지에서 앱 시작 **프로그램** 아이콘을 클릭하고 를 **Outlook.** 아래 절차에 설명된 그룹으로 게스트를 초대할 수 있는 화면입니다.
+사이트에서 게스트를 추가할 수 없습니다. 다음을 사용하여 추가해야 웹용 Outlook. 따라서 게스트를 그룹에 추가하고 그룹에 초대하려면 URL 열에서 사이트의 **URL을**  클릭하여 사이트별 페이지로 이동합니다. 이 페이지에서 앱 시작 **프로그램** 아이콘을 클릭하고 를 **Outlook.** 아래 절차에 설명된 그룹으로 게스트를 초대할 수 있는 화면입니다.
 
 게스트를 그룹에 초대
 1. **그룹에서** 게스트를 초대할 그룹을 클릭합니다.

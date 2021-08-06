@@ -42,7 +42,7 @@
 
 항목의 메타데이터에 식별된 작성자는 알림을 드리며 나중에 변경 내용을 검토 및 승인하여 변경 내용을 업데이트할 docs.microsoft.com. 업데이트에 대한 질문이나 문제가 있는 경우 작성자는 연락을 하게 됩니다.
 
-## <a name="microsoft-open-source-code-of-conduct"></a>Microsoft 오픈 소스 준수 사항
+## <a name="microsoft-open-source-code-of-conduct"></a>Microsoft Open Source 사용 규정
 
 이 프로젝트는 [Microsoft 오픈 소스 준수 사항](https://opensource.microsoft.com/codeofconduct/)을 채택했습니다.
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: caefcd7ce19073a10139a9f4d6d84c49e93c392f
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 7e3077980755f81a3ca86569b53051a2851191de
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623351"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53757057"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
@@ -139,6 +139,7 @@ netsh winhttp reset proxy
 |
 
 프록시 또는 방화벽에 HTTPS 검색(SSL 검사)이 활성화된 경우 위의 표에 나열된 도메인을 HTTPS 검색에서 제외합니다.
+방화벽에서 지리 열이 WW인 모든 URL을 열 수 있습니다. 지역 열이 WW가 아닌 행의 경우 특정 데이터 위치에 대한 URL을 여는 것입니다. 데이터 위치 설정을 확인하려면 데이터 저장소 위치 확인 [및 끝점용 Microsoft Defender에 대한 데이터 보존 설정 업데이트를 참조하세요.](/microsoft-365/security/defender-endpoint/data-retention-settings)
 
 > [!NOTE]
 > settings-win.data.microsoft.com 1803 이전 버전을 실행 중인 Windows 10 디바이스가 있는 경우 이 업데이트가 필요합니다.<br>
@@ -192,7 +193,7 @@ netsh winhttp reset proxy
 
 프록시 구성이 성공적으로 완료되었는지 확인합니다. WinHTTP는 사용자 환경의 프록시 서버를 통해 검색할 수 있으며 프록시 서버가 엔드포인트용 Defender 서비스 URL에 대한 트래픽을 허용하는지 여부를 확인할 수 있습니다.
 
-1. Endpoint용 Defender 센서가 실행되는 PC에 [Micrsofot Defender for Endpoint](https://aka.ms/mdeanalyzer) 클라이언트 분석기 도구를 다운로드합니다.
+1. [Endpoint용 Microsoft Defender 클라이언트 분석기 도구를 Endpoint용](https://aka.ms/mdeanalyzer) Defender 센서가 실행되는 PC에 다운로드합니다.
 
 2. 디바이스에서 콘텐츠 MDEClientAnalyzer.zip 추출합니다.
 
@@ -236,7 +237,7 @@ netsh winhttp reset proxy
 >
 > TelemetryProxyServer가 설정되어 있는 경우 레지스트리 또는 그룹 정책을 통해 끝점에 대한 Defender가 정의된 프록시에 액세스할 수 없는 경우 직접로 변경됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

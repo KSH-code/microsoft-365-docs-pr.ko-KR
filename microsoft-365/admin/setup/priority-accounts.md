@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: 비즈니스에 큰 영향을 미치는 계정으로 보내거나 보낸 전자 메일로 전송된 실패 및 지연된 전자 메일 메시지를 모니터링합니다.
-ms.openlocfilehash: 86e01e591823c94d8279f975ed7de24cc65776dc
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 63c394055f94370a09ea76cc8125a71f7061b2f3d6b66ff8106c76c2571f90cf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53821546"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>우선 순위 계정 관리 및 모니터링
 
