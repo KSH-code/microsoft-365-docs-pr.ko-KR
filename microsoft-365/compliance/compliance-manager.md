@@ -17,35 +17,25 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 조직에서 위험 평가를 간소화하고 자동화하는 데 도움을 주며 위험을 해결하기 위한 권장 조치를 제안합니다.
-ms.openlocfilehash: 536a1c02a820b0ea36fc4fe39ca1d0d31f7bc994
-ms.sourcegitcommit: 48e50a5445c63d397197af2bb7549cbec0bce790
+ms.openlocfilehash: c19655e3cd509d141878e8d917d248cc2ce42aa5
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53330944"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53757249"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft 준수 관리자
 
 **이 문서의 예는** 준수 관리자가 무엇일지, 규정 준수를 간소화하고 위험을 줄이는 방법 및 주요 구성 요소에 대해 자세히 알아보습니다.
 
-## <a name="whats-new-the-ga-release-of-compliance-manager"></a>새로운 사항: 준수 관리자의 GA 릴리스
+## <a name="what-is-compliance-manager"></a>준수 관리자란?
 
-이제 규정 준수 관리자(GA)를 에 있는 종단 내 준수 관리 솔루션으로 사용할 [수 Microsoft 365 규정 준수 센터.](microsoft-365-compliance-center.md) 이 릴리스를 통해 준수 관리자는 Microsoft Service Trust Portal에서 이전 위치의 전환을 완료합니다. 준수 관리자는 미국 정부 Community(GCC) 보통, GCC 및 DoD(국방부) 고객에게도 제공됩니다.
-
-준수 점수의 공개 미리 보기로 시작된 기능은 향상된 준수 관리 기능과 더 쉽게 사용할 수 있는 중앙 집중식 도구로 발전했습니다.  GA 릴리스는 규정 준수 활동을 확장하는 데 도움이 하도록 미리 구축된 평가의 더 큰 컬렉션을 제공합니다.
-
-**GA 릴리스에 대해 자세히 알아보시다.**
-- 자주 [묻는 질문은](compliance-manager-faq.yml) 진화된 내용을 자세히 설명하는 것입니다.
-- 이 블로그 게시물의 GA 기능 [향상에 대해 읽어 읽습니다.](https://aka.ms/compliancemanager/GAblog)
+[Microsoft 준수 관리자는](https://compliance.microsoft.com/compliancemanager) 조직의 [](microsoft-365-compliance-center.md) 규정 Microsoft 365 규정 준수 센터 보다 간편하고 쉽게 관리할 수 있도록 하여 조직의 규정 준수 요구 사항을 관리하는 데 도움이 되는 조직의 기능입니다. 규정 준수 관리자는 데이터 보호 위험 인벤토리를 수집하는 것부터 제어 구현의 복잡도 관리, 규정 및 인증을 최신으로 유지, 감사자에 보고하는 것까지 규정 준수 여정 전체를 도울 수 있습니다.
 
 아래 비디오를 시청하여 준수 관리자가 조직에서 규정 준수를 관리하는 방법을 간소화하는 방법을 알아보세요.
 <br>
 <br>
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FGYZ]
-
-## <a name="what-is-compliance-manager"></a>준수 관리자
-
-[Microsoft 준수 관리자는](https://compliance.microsoft.com/compliancemanager) 조직의 [](microsoft-365-compliance-center.md) 규정 Microsoft 365 규정 준수 센터 보다 간편하고 쉽게 관리할 수 있도록 하여 조직의 규정 준수 요구 사항을 관리하는 데 도움이 되는 조직의 기능입니다. 규정 준수 관리자는 데이터 보호 위험 인벤토리를 수집하는 것부터 제어 구현의 복잡도 관리, 규정 및 인증을 최신으로 유지, 감사자에 보고하는 것까지 규정 준수 여정 전체를 도울 수 있습니다.
 
 준수 관리자는 규정 준수를 간소화하고, 제공함으로써 위험을 줄일 수 있도록 합니다.
 
@@ -67,7 +57,7 @@ ms.locfileid: "53330944"
 
 준수 관리자는 데이터 보호 기준에 따라 초기 Microsoft 365 제공합니다. 이 기준은 데이터 보호 및 일반 데이터 거버넌스에 대한 주요 규정 및 표준을 포함하는 제어 집합입니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [준수 점수의 계산 방법을 이해합니다.](compliance-score-calculation.md)
 
@@ -87,7 +77,7 @@ ms.locfileid: "53330944"
 2. **컨트롤**: 고객 관리 컨트롤이라고도 하는 이러한 컨트롤은 조직에서 구현 및 관리되는 컨트롤입니다.
 3. **공유 컨트롤**: 조직과 Microsoft가 구현에 대한 책임을 공유하는 컨트롤입니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [컨트롤의 진행률을 모니터링합니다.](compliance-manager-assessments.md#monitor-assessment-progress-and-controls)
 
@@ -107,7 +97,7 @@ ms.locfileid: "53330944"
 
 평가를 만들 때 평가를 그룹에 할당합니다. 조직에 가장 논리적인 방식으로 그룹을 구성할 수 있습니다. 예를 들어 감사 연도, 지역, 솔루션, 조직 내의 팀 또는 다른 방법으로 평가를 그룹화할 수 있습니다. 그룹을 만든 후 준수 [](compliance-manager-setup.md#filtering-your-dashboard-view) 관리자 대시보드를 필터링하여 하나 이상의 그룹으로 점수를 볼 수 있습니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [준수 관리자에서 평가를 빌드하고 관리합니다.](compliance-manager-assessments.md)
 
@@ -115,7 +105,7 @@ ms.locfileid: "53330944"
 
 준수 관리자는 평가를 빠르게 만드는 데 도움이 되는 템플릿을 제공합니다. 이러한 템플릿을 수정하여 요구에 최적화된 평가를 만들 수 있습니다. 자체 컨트롤 및 작업을 사용하여 템플릿을 만들어 사용자 지정 평가를 빌드할 수도 있습니다. 예를 들어 템플릿이 내부 비즈니스 프로세스 제어를 다루거나 325개 이상의 미리 작성된 평가 템플릿 중 하나에 적용되지 않는 지역별 데이터 보호 표준을 적용해야 할 수 있습니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [준수 관리자에서 제공하는 평가 템플릿 목록을 를 시청하세요.](compliance-manager-templates-list.md)
 
@@ -125,7 +115,7 @@ ms.locfileid: "53330944"
 
 개선 작업은 규정 준수 활동을 중앙 집중화하는 데 도움이 됩니다. 각 개선 작업은 데이터 보호 규정 및 표준을 준수하는 데 도움이 되는 권장 지침을 제공합니다. 개선 작업을 조직의 사용자에게 할당하여 구현 및 테스트 작업을 수행할 수 있습니다. 개선 작업 내에 문서, 메모 및 상태 업데이트를 기록할 수 있습니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [개선 작업을 사용하여 준수 워크플로를 관리합니다.](compliance-manager-improvement-actions.md)
 
@@ -146,13 +136,13 @@ ms.locfileid: "53330944"
 - 핀란드어
 - 프랑스어
 - 독일어
-- 히브리어
-- 헝가리어
+- Hebrew
+- Hungarian
 - 이탈리아어
 - 일본어
 - 한국어
 - 노르웨이어
-- 폴란드어
+- Polish
 - 포르투갈어(브라질)
 - 러시아어
 - 스페인어

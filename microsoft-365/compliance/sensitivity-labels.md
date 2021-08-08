@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 130b264735d00083116a5cf18cc0c4bf6b1a764c
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 13e7d42242bca811a2b56f79aa3a13f6ff9cfef6
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453636"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53757193"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -195,9 +195,9 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 - 문서 및 전자 메일, 문서, 컨테이너 및 Power BI 콘텐츠에 **사용자가 레이블을 적용하도록 요구** 합니다. 필수 레이블 지정이라고도 하는 이러한 옵션은 사용자가 문서를 저장하고, 전자 메일을 보내고, 새 그룹 혹은 사이트를 만들기 전에 레이블이 지정되지 않은 콘텐츠를 Power BI에 사용할 때 레이블을 적용해야 합니다.
     
-    문서 및 전자 메일의 경우 레이블은 사용자가 수동으로 할당하거나 구성한 조건의 결과로 자동으로 할당하거나 기본적으로 할당할 수 있습니다(앞에서 설명한 기본 레이블 옵션). 사용자가 레이블을 할당해야 할 때 Outlook에 표시되는 예제 프롬프트 :
+    문서 및 전자 메일의 경우 레이블은 사용자가 수동으로 할당하거나 구성한 조건의 결과로 자동으로 할당하거나 기본적으로 할당할 수 있습니다(앞에서 설명한 기본 레이블 옵션). 사용자가 레이블을 할당해야 할 때 예제 프롬프트 :
 
-    ![사용자에게 필수 레이블을 적용하도록 요구하는 Outlook 메시지](../media/sensitivity-labels-mandatory-prompt-aipv2-outlook.PNG)
+    ![사용자에게 필수 레이블을 적용하도록 요구하는 Outlook 메시지](../media/sensitivity-labels-mandatory-prompt-outlook.png)
     
     문서와 전자 메일에 대한 의무 레이블 지정에 관한 자세한 정보는 [사용자가 전자 메일과 문서에 레이블을 적용하게 요구](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents)를 참조해 주세요.
     

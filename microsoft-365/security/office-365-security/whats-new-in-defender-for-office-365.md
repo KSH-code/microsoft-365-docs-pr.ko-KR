@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ef81785c1f0395091c3207ca4da22e70bb0c411d
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: ca0eeba9fb8678a4b71e8fdaefb05acb0ec55978
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53648738"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53757285"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -45,6 +45,7 @@ ms.locfileid: "53648738"
 ## <a name="july-2021"></a>2021년 7월
 
 - [자동화된 조사에서 향상된 전자 메일 분석](email-analysis-investigations.md)
+- [금고 Microsoft Teams](safe-links.md#safe-links-settings-for-microsoft-teams)
 
 
 ## <a name="june-2021"></a>2021년 6월

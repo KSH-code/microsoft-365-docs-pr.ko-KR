@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 48a51b8ec880726bdd2121f2eaf0d78f5cd6b3e0
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 4b2775bfe94eb53851e108ed7b7d436f233beea267b3485385801534748ef16c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083467"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53844063"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>여러 사용자에 대해 위협 방지 Microsoft 365
 
@@ -125,7 +125,7 @@ Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일
 
 [끝점용 Microsoft Defender는](/windows/security/threat-protection) 사이버 위협, 고급 공격 및 데이터 위반으로부터 조직 장치(끝점이라고도 지칭)를 보호합니다. 보안 팀은 끝점의 보안을 보다 효율적으로 관리할 수 있습니다. 강력한 도구는 조직이 위협 및 취약성 관리에서 취약점 감지를 사용하여 패치가 없는 시스템을 [유지하는 데 도움이 됩니다.](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) 공격 표면 감소, 차세대 보호, [](/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)끝점 감지 및 대응, [](/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)자동화된 조사 및 [](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 수정과 같은 자동화된 감지 및 수정 기능은 장치를 맬웨어로부터 안전하게 유지하는 데 도움이 됩니다. [](/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) 이러한 기능을 통해 고객은 옵트인 관리 헌팅 서비스의 일부로 사전 알림을 받고 Microsoft 위협 전문가 수 있습니다.
 
-### <a name="set-up-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender 설정
+### <a name="set-up-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender 설정
 
 ![끝점용 Microsoft Defender 배포 프로세스](../media/deploy-threat-protection/deploy-mdatp-steps.png) 
 

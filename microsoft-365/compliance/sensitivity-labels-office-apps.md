@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04c87543f25cf3349f179fa4a7f3ebc523e3d6ec
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: ac7b2024f0b93fd16a9e37b9ea64dd7c88405c66
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53656514"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53757297"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -91,7 +91,7 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |[사용자가 권한을 할당하도록 허용: <br /> - 전달하지 않음](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 권한을 할당하도록 허용: <br /> - 암호화 전용](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ <sup>\*</sup> | 4.2112.0+  | 4.2112.0+ | 예 |
 |[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | 4.2111+            | 4.2111+                | 예                |
-|[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 2011+ | 배포 중: 16.51+ <sup>\*</sup> | 배포 중: 4.2126+ | 배포 중: 4.2126+ | 검토 중 |
+|[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 2011+ | 16.51+ <sup>\*</sup> | 4.2126+ | 4.2126+ | 배포 중 |
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md) <br /> - 중요한 정보 유형 사용                    | 2009+                      | 16.44+ <sup>\*</sup>                    | 검토 중           | 검토 중               | 예 |
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md) <br /> - 학습 가능한 분류자 사용                    | 2009+                      | 검토 중                    | 검토 중           | 검토 중               | 예 |
 |[기본 레이블 및 필수 레이블에 대한 다른 설정](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 2105+                      | 16.43+ <sup>\*</sup>                   | 4.2111+           | 4.2111+               | 예 |

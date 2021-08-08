@@ -1,5 +1,5 @@
 ---
-title: 끝점용 Microsoft Defender에서 방화벽 보고 호스트
+title: 엔드포인트용 Microsoft Defender 호스트 방화벽 보고
 description: 보안 센터에서 방화벽 보고를 Microsoft 365 볼 수 있습니다.
 keywords: windows defender, 방화벽
 search.product: eADQiWindows 10XVcnh
@@ -14,14 +14,14 @@ author: dansimp
 ms.author: dansimp
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 0289d6f920fd6ff35fd446f9c2b8c5516883a4d2
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 23986024db239da6c8a69792ff8abbd01adc54d87354146d7c3847ee3a9dd539
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809305"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53800273"
 ---
-# <a name="host-firewall-reporting-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 방화벽 보고 호스트
+# <a name="host-firewall-reporting-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender 호스트 방화벽 보고
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -31,11 +31,11 @@ ms.locfileid: "52809305"
 
 관리자인 경우 이제 보안 센터 에 방화벽 [보고를 Microsoft 365 있습니다.](https://security.microsoft.com) 이 기능을 사용하면 중앙 위치에서 Windows 10 및 Windows Server 2019 방화벽 보고를 볼 수 있습니다. 
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요? 
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용 
 
 - Server 2019 또는 Windows 10 Windows 실행 중이야 합니다.
 - 디바이스를 Microsoft Defender for Endpoint 서비스에 온보딩하는 경우 여기를 [참조하세요.](onboard-configure.md) 
-- 보안 Microsoft 365 센터에서 데이터 수신을 시작하려면 고급  보안이 있는 사용자에 대해 감사 Windows Defender 방화벽 설정해야 합니다. 
+- 보안 Microsoft 365 센터에서 데이터 수신을 시작하려면 고급  보안이 있는 방화벽에 Windows Defender 감사 이벤트를 사용하도록 설정해야 합니다. 
     - [필터링 플랫폼 패킷 삭제 감사](/windows/security/threat-protection/auditing/audit-filtering-platform-packet-drop)
     - [필터링 플랫폼 연결 감사](/windows/security/threat-protection/auditing/audit-filtering-platform-connection) 
 - 그룹 정책 개체 편집기, 로컬 보안 정책 또는 로컬 보안 정책을 사용하여 이러한 이벤트를 auditpol.exe 사용합니다. 자세한 내용은 여기를 [참조하세요.](/windows/win32/fwp/auditing-and-logging) 
@@ -50,7 +50,7 @@ ms.locfileid: "52809305"
 - 이벤트를 사용하도록 설정하면 Microsoft 365 센터에서 데이터 모니터링을 시작하게 됩니다.
     - 원격 IP, 원격 포트, 로컬 포트, 로컬 IP, 컴퓨터 이름, 인바운드 및 아웃바운드 연결에서 프로세스
 - 이제 관리자는 여기에서 방화벽 Windows 볼 수 [있습니다.](https://security.microsoft.com/firewall)
-    - 사용자 지정 보고 스크립트를 다운로드하여 [](https://github.com/microsoft/MDATP-PowerBI-Templates/tree/master/Firewall) 추가 보고를 용이하게 할 수 Windows Defender 방화벽 작업을 모니터링할 수 Power BI. 
+    - 사용자 지정 보고 스크립트를 다운로드하여 [](https://github.com/microsoft/MDATP-PowerBI-Templates/tree/master/Firewall) 추가 보고를 용이하게 할 수 Windows Defender 방화벽 활동을 모니터링할 수 Power BI. 
     - 데이터가 반영되기까지 최대 12시간이 걸릴 수 있습니다.
 
 ## <a name="supported-scenarios"></a>지원되는 시나리오
@@ -88,6 +88,6 @@ ms.locfileid: "52809305"
 
 이제 쿼리를 실행할 수 있으며 지난 30일 동안의 모든 관련 방화벽 이벤트를 탐색할 수 있습니다. 
 
-추가 보고 또는 사용자 지정 변경의 경우 추가 분석을 위해 쿼리를 Power BI 수 있습니다. 사용자 지정 보고 스크립트를 다운로드하여 [](https://github.com/microsoft/MDATP-PowerBI-Templates/tree/master/Firewall) 사용자 지정 보고를 사용하여 Windows Defender 방화벽 작업을 모니터링하면 사용자 지정 보고를 Power BI. 
+추가 보고 또는 사용자 지정 변경의 경우 추가 분석을 위해 쿼리를 Power BI 수 있습니다. 사용자 지정 보고 스크립트를 다운로드하여 [](https://github.com/microsoft/MDATP-PowerBI-Templates/tree/master/Firewall) 사용자 지정 보고를 통해 방화벽 Windows Defender 모니터링할 수 Power BI. 
 
  

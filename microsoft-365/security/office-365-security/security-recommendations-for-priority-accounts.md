@@ -20,12 +20,12 @@ ms.collection:
 description: 관리자는 보안 설정을 높이고 조직에서 우선 순위 계정에 대한 보고서, 경고 및 조사를 사용하는 방법을 Microsoft 365 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7617dd5af6a7e3b66fb33818208f01c8d8a338e
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 1cf813706a5fc0180ed36943c6bc7ae54e35ae346aba3d2b0251489e05cc715b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055251"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53844107"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>2016년 8월의 우선 순위 계정에 대한 보안 Microsoft 365
 
@@ -41,7 +41,7 @@ Microsoft 365 및 Microsoft Defender for Office 365 계정에 추가 보안 계�
 
 ****
 
-|작업|모든 Office 365 Enterprise 계획|Microsoft 365 E3|Microsoft 365 E5|
+|작업 |모든 Office 365 Enterprise 계획|Microsoft 365 E3|Microsoft 365 E5|
 |---|:---:|:---:|:---:|
 |[우선 순위 계정에 대한 로그인 보안 강화](#increase-sign-in-security-for-priority-accounts)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |[우선 순위 계정에 대해 엄격한 미리 설정 보안 정책 사용](#use-strict-preset-security-policies-for-priority-accounts)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|

@@ -19,12 +19,12 @@ ms.collection:
 description: 보안 설정에 대한 EOP(Exchange Online Protection) 및 Defender에 대한 모범 Office 365 무엇입니까? 표준 보호를 위한 현재 권장 사항은 무엇입니까? 더 엄격하게 사용하려는 경우 어떻게 해야 하나요? 또한 2016년 8월에 Defender를 사용하는 경우 어떤 추가 Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 67d1b133e0d0ac7e622ed0bfdbfd17214608d77a
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 72a5491bbad382cc9a22faa64b9e98a4f36893ef
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083551"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725843"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Microsoft Defender 보안에 대한 Office 365 설정
 
@@ -61,15 +61,15 @@ ms.locfileid: "53083551"
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**스팸 속성에 & 대량 전자 메일 임계값**||||
 |**대량 전자 메일 임계값** <p> _BulkThreshold_|7 |6 |4 |자세한 내용은 [EOP의 BCL(대량 불만 수준)을 참조합니다.](bulk-complaint-level-values.md)|
 |_MarkAsSpamBulkMail_|`On`|`On`|`On`|이 설정은 PowerShell에서만 사용할 수 있습니다.|
 |**스팸 점수 설정** 늘리기|해제|해제|해제|이러한 설정은 모두 ASF(고급 스팸 필터)의 일부입니다. 자세한 내용은 이 문서의 스팸 방지 정책의 [ASF](#asf-settings-in-anti-spam-policies) 설정을 참조하세요.|
 |**스팸 설정으로** 표시|해제|해제|해제|이러한 설정은 대부분 ASF의 일부입니다. 자세한 내용은 이 문서의 스팸 방지 정책의 [ASF](#asf-settings-in-anti-spam-policies) 설정을 참조하세요.|
-|**특정 언어 포함** <p> _EnableLanguageBlockList_ <p> _LanguageBlockList_|**해제** <p> `$false` <p> Blank|**해제** <p> `$false` <p> Blank|**해제** <p> `$false` <p> Blank|이 설정에 대한 구체적인 권장은 없습니다. 비즈니스 요구에 따라 특정 언어로 메시지를 차단할 수 있습니다.|
-|**다음 국가에서** <p> _EnableRegionBlockList_ <p> _RegionBlockList_|**해제** <p> `$false` <p> Blank|**해제** <p> `$false` <p> Blank|**해제** <p> `$false` <p> Blank|이 설정에 대한 구체적인 권장은 없습니다. 비즈니스 요구에 따라 특정 국가에서 보낸 메시지를 차단할 수 있습니다.|
+|**특정 언어 포함** <p> _EnableLanguageBlockList_ <p> _LanguageBlockList_|**끄기** <p> `$false` <p> Blank|**끄기** <p> `$false` <p> Blank|**끄기** <p> `$false` <p> Blank|이 설정에 대한 구체적인 권장은 없습니다. 비즈니스 요구에 따라 특정 언어로 메시지를 차단할 수 있습니다.|
+|**다음 국가에서** <p> _EnableRegionBlockList_ <p> _RegionBlockList_|**끄기** <p> `$false` <p> Blank|**끄기** <p> `$false` <p> Blank|**끄기** <p> `$false` <p> Blank|이 설정에 대한 구체적인 권장은 없습니다. 비즈니스 요구에 따라 특정 국가에서 보낸 메시지를 차단할 수 있습니다.|
 |**테스트 모드(** _TestModeAction_)|**없음**|**없음**|**없음**|이 설정은 ASF의 일부입니다. 자세한 내용은 이 문서의 스팸 방지 정책의 [ASF](#asf-settings-in-anti-spam-policies) 설정을 참조하세요.|
 |**작업**|||||
 |**스팸** 검색 작업 <p> _SpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`||
@@ -100,7 +100,7 @@ ms.locfileid: "53083551"
 
 ****
 
-|보안 기능 이름|댓글|
+|보안 기능 이름|Comment|
 |---|---|
 |**원격 사이트에 대한** 이미지 링크(_IncreaseScoreWithImageLinks_)||
 |**URL의 숫자 IP 주소(** _IncreaseScoreWithNumericIps_)||
@@ -130,7 +130,7 @@ ms.locfileid: "53083551"
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**외부 메시지 제한 설정** <p> _RecipientLimitExternalPerHour_|0|500|400|기본값 0은 서비스 기본값을 사용하는 것입니다.|
 |**내부 메시지 제한 설정** <p> _RecipientLimitInternalPerHour_|0|1000|800|기본값 0은 서비스 기본값을 사용하는 것입니다.|
@@ -149,7 +149,7 @@ ms.locfileid: "53083551"
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**보호 설정**|||||
 |**공통 첨부 파일 필터 사용** <p> _EnableFileFilter_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|이 설정은 첨부 파일 콘텐츠에 관계없이 파일 형식에 따라 실행 파일이 포함된 메시지를 검지합니다.|
@@ -182,7 +182,7 @@ ms.locfileid: "53083551"
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**피싱 임계값 & 보호**|||||
 |**스푸핑 인텔리전스 사용** <p> _EnableSpoofIntelligence_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
@@ -219,7 +219,7 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**피싱 전자 메일 임계값** <p> _PhishThresholdLevel_|**1 - 표준** <p> `1`|**2 - 적극적** <p> `2`|**3 - 보다 적극적** <p> `3`||
 |
@@ -232,7 +232,7 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**피싱 임계값 & 보호**|||||
 |**사용자가 보호할** 수 있도록 설정(가장된 사용자 보호)<p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|선택되지 않음 <p> `$false` <p> 없음|선택됨 <p> `$true` <p> \<list of users\>|선택됨 <p> `$true` <p> \<list of users\>|주요 역할에 사용자(메시지 보낸 사람)를 추가하는 것이 좋습니다. 내부적으로 보호된 보낸 사람이 CEO, CFO 및 기타 고위 리더일 수 있습니다. 외부적으로 보호되는 보낸 사람에는 위원회 구성원이나 해당 이사진이 포함됩니다.|
@@ -261,7 +261,7 @@ EOP의 스팸 방지 정책 설정에서 사용할 수 있는 설정과 [동일�
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**피싱 임계값 & 보호**|||||
 |**스푸핑 인텔리전스 사용** <p> _EnableSpoofIntelligence_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
@@ -286,7 +286,7 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기** <p> _EnableATPForSPOTeamsODB_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**클라이언트에 금고 문서 Office 켜기** <p> _EnableSafeDocs_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 기능은 라이선스 또는 라이선스에서만 Microsoft 365 E5 의미가 Microsoft 365 E5 Security 있습니다. 자세한 내용은 microsoft Defender for 금고 문서를 [참조하세요Office 365.](safe-docs.md)|
@@ -306,10 +306,10 @@ PowerShell에서는 이러한 설정에 [New-SafeAttachmentPolicy](/powershell/m
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
-|**금고 첨부 파일 알 수 없는 맬웨어 응답** <p> _작업_|**해제** <p> `Block`|**차단** <p> `Block`|**차단** <p> `Block`||
-|**검색된 첨부 파일이 있는 첨부 파일 리디렉션:** **리디렉션 사용** <p> _리디렉션_ <p> _RedirectAddress_|선택되어 있지 않습니다. 전자 메일 주소가 지정되지 않았습니다. <p> `$true` <p> 없음|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에게 메시지를 리디렉션합니다.|
+|**금고 첨부 파일 알 수 없는 맬웨어 응답** <p> _사용_ 및 _작업_|**끄기** <p> `-Enable $false`|**차단** <p> `-Enable $true` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|_Enable_ 매개 변수가 $false _Action_ 매개 변수의 값은 중요하지 않습니다.|
+|**검색된 첨부 파일이 있는 첨부 파일 리디렉션:** **리디렉션 사용** <p> _리디렉션_ <p> _RedirectAddress_|선택되어 있지 않습니다. 전자 메일 주소가 지정되지 않았습니다. <p> `-Redirect $false` <p> _RedirectAddress가_ 비어 있습니다( `$null` )|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에게 메시지를 리디렉션합니다.|
 |**검사가 금고 수 없는 경우 첨부 파일 검색 응답 적용(시간 제한 또는 오류)** <p> _ActionOnError_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |
 
@@ -327,7 +327,7 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**다음 URL 차단** <p> _ExcludedUrls_|Blank <p> `$null`|Blank <p> `$null`|Blank <p> `$null`|이 설정에 대한 구체적인 권장은 없습니다. <p> 자세한 내용은 링크에 대한 "다음 URL [차단" 금고 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
 |**앱의 금고 링크 Office 365 사용** <p> _EnableSafeLinksForO365Clients_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|지원되는 금고 데스크톱 및 모바일(iOS 및 Android) 앱에서 Office 365 링크를 사용하세요. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)|
@@ -348,18 +348,18 @@ PowerShell에서는 이러한 설정에 [New-SafeLinksPolicy](/powershell/module
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본|표준|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**보호 설정**|||||
-|**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|**해제** <p> `$false`|**켜짐** <p> `$true`|**켜짐** <p> `$true`||
-|**알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams** <p> _EnableSafeLinksForTeams_|**해제** <p> `$false`|**켜짐** <p> `$true`|**켜짐** <p> `$true`|2020년 3월 현재 이 기능은 미리 보기에 있으며 TAP(Microsoft Teams Technology Adoption Program)의 구성원에게만 제공되거나 작동합니다.|
+|**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|**끄기** <p> `$false`|**켜짐** <p> `$true`|**켜짐** <p> `$true`||
+|**알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams** <p> _EnableSafeLinksForTeams_|**끄기** <p> `$false`|**켜짐** <p> `$true`|**켜짐** <p> `$true`|2020년 3월 현재 이 기능은 미리 보기에 있으며 TAP(Microsoft Teams Technology Adoption Program)의 구성원에게만 제공되거나 작동합니다.|
 |**파일을 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검사 적용** <p> _ScanUrls_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**메시지를 배달하기 전에 URL 검색이 완료될 때까지 기다렸다가** <p> _DeliverMessageAfterScan_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**조직 금고 보낸 전자 메일 메시지에 링크 적용** <p> _EnableForInternalSenders_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**사용자 클릭 추적 안 하도록 설정** <p> _DoNotTrackUserClicks_|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|이 설정을 _끄면(DoNotTrackUserClicks를_ 로 설정) 사용자 `$false` 클릭이 추적됩니다.|
 |**사용자가 원래 URL을 클릭할 수 없습니다.** <p> _DoNotAllowClickThrough_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|이 _설정(DoNotAllowClickThrough를_ 로 설정)을 설정하면 원래 URL을 클릭할 `$true` 수 없습니다.|
 |**알림 및 경고 페이지에 조직 브랜드 표시** <p> _EnableOrganizationBranding_|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|이 설정에 대한 구체적인 권장은 없습니다. <p> 이 설정을 켜기 전에 조직에서 회사 [](../../admin/setup/customize-your-organization-theme.md) 로고를 업로드할 수 있도록 Microsoft 365 테마 사용자 지정의 지침을 따라야 합니다.|
-|**다음 URL을 다시 덮어치지 않습니다.** <p> _DoNotRewriteUrls_|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$true`|선택되지 않음 <p> `$true`|이 설정에 대한 구체적인 권장은 없습니다. 자세한 내용은 링크 정책의 "다음 URL을 다시 [금고 않습니다." 목록을 참조하세요.](safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)|
+|**다음 URL을 다시 덮어치지 않습니다.** <p> _DoNotRewriteUrls_|선택되지 않음 <p> blank|선택되지 않음 <p> blank|선택되지 않음 <p> blank|이 설정에 대한 구체적인 권장은 없습니다. 자세한 내용은 링크 정책의 "다음 URL을 다시 [금고 않습니다." 목록을 참조하세요.](safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)|
 |**알림**|||||
 |**사용자에게 어떻게 알리시겠습니까?**|**기본 알림 텍스트 사용**|**기본 알림 텍스트 사용**|**기본 알림 텍스트 사용**|이 설정에 대한 구체적인 권장은 없습니다. <p> 사용자 지정 알림 **텍스트 사용(** _CustomNotificationText)을_ 선택하여 사용할 사용자 지정 알림 텍스트를 입력할 수 있습니다. 자동 지역화에 Microsoft 번역기 사용(UseTranslatedNotificationText)을 선택하여 사용자 지정 알림 텍스트를 사용자 언어로 번역할 수도 있습니다.  
 |

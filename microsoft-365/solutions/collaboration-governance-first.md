@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 공동 작업 거버넌스 계획을 만드는 방법 학습
-ms.openlocfilehash: c371d97c211275ffb1019e6f6dfc165295ed729f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 062648ca2e4eb2c3909b38d376f568df726ac2bef3abb5b82b1e86db879a1887
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539242"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53843986"
 ---
 # <a name="create-your-collaboration-governance-plan"></a>공동 작업 거버넌스 계획 만들기
 
@@ -65,7 +65,7 @@ Microsoft 365 거버넌스가 사내 환경을 관리하는 기존 정책을 보
 
 ## <a name="think-about-governance-first"></a>거버넌스에 대해 먼저 생각
 
-Microsoft 365 투자는 사용자가 사용하도록 설정한 콘텐츠 및 환경의 가치만큼 양호하기 때문에 여정을 시작할 때 거버넌스를 생각하면 각 결정의 의미를 이해하고 평가할 기회가 되기 전에 잠그거나 너무 많이 사용하도록 설정하지 않도록 할 수 있습니다. 여러 "knobs and dials" you can turn in the Microsoft 365 admin center and for individual sites and teams. 효과적인 거버넌스 계획은 비즈니스 목표를 달성하는 데 중요하지만 거버넌스란 위험을 혜택과 균형 조정하는 것입니다. 모든 작업을 잠그면 작업을 완료하기 위해 필요한 경우 규칙을 사용할 수 있는 방법을 찾을 수 있습니다.
+Microsoft 365 투자는 사용자가 사용하도록 설정한 콘텐츠 및 환경의 가치만큼 양호하기 때문에 여정을 시작할 때 거버넌스를 생각하면 각 결정의 의미를 이해하고 평가할 기회가 되기 전에 잠그거나 너무 많이 사용하도록 설정하지 않도록 할 수 있습니다. 개별 사이트 및 팀에 대해 여러 "knobs 및 dials"Microsoft 365 관리 센터 수 있습니다. 효과적인 거버넌스 계획은 비즈니스 목표를 달성하는 데 중요하지만 거버넌스란 위험을 혜택과 균형 조정하는 것입니다. 모든 작업을 잠그면 작업을 완료하기 위해 필요한 경우 규칙을 사용할 수 있는 방법을 찾을 수 있습니다.
 
 거버넌스에 대해 먼저 생각하면 다음을 할 수 있습니다.
 

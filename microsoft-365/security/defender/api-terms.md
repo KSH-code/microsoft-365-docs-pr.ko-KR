@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Defender API 라이선스 및 사용 약관
-description: Defender의 API에 대한 사용 Microsoft 365 설명
+description: 2016년 8월 API에 대한 라이선스 및 사용 약관에 Microsoft 365 Defender
 keywords: api, api, 사용권, 사용 조건, api, 법적, 알림, 행동 강령
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 9b70311726b6c1c5bedf34a18ee1763255c93ba3
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e40910defa4fba006cdfdd02f6eeebe53ce7006db2f2c99de88397027869237e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53844250"
 ---
 # <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Microsoft 365 Defender API 라이선스 및 사용 약관
 
@@ -76,4 +76,4 @@ Microsoft 365 Defender API에는 스로틀 임계값이 있습니다.
 
 - [Microsoft 365 Defender API 개요](api-overview.md)
 - [지원되는 Microsoft 365 Defender API](api-supported.md)
-- [Microsoft 365 Defender API에 액세스](api-access.md)
+- [MICROSOFT 365 DEFENDER API에 액세스](api-access.md)

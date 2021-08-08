@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: acc75a931cb14a7aab729c09a7b835fb9f26d1d1
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: db3f9f7b54e14fbe198a7ae2dd06b76541d0c141322840cb2c91c575147d6195
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53890458"
 ---
 # <a name="investigate-agent-health-issues"></a>에이전트 상태 문제 조사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "52281303"
 | 값 | 설명 |
 |-|-|
 | automatic_definition_update_enabled | True이면 자동 바이러스 백신 정의 업데이트가 사용하도록 설정되어 있습니다. 그렇지 않으면 false입니다. |
-|  cloud_automatic_sample_submission_consent | 현재 샘플 제출 수준입니다. 다음 값 중 하나가 될 수 있습니다.     <br><br>  - **없음:** 의심스러운 샘플이 Microsoft에 제출하지 않습니다.  <br> <br>     - **안전:** PII(개인 식별 정보)를 포함하지 않는 의심스러운 샘플만 자동으로 제출됩니다. 이 설정의 기본값입니다.    <br> <br>   - **모두:** 의심스러운 모든 샘플이 Microsoft에 제출됩니다.   |
+|  cloud_automatic_sample_submission_consent | 현재 샘플 제출 수준입니다. 다음 값 중 하나가 될 수 있습니다.     <br><br>  - **없음:** 의심스러운 샘플이 Microsoft에 제출하지 않습니다.  <br> <br>     - **금고:** PII(개인 식별 정보)를 포함하지 않는 의심스러운 샘플만 자동으로 제출됩니다. 이 설정의 기본값입니다.    <br> <br>   - **모두:** 의심스러운 모든 샘플이 Microsoft에 제출됩니다.   |
 | cloud_diagnostic_enabled | True이면 선택적 진단 데이터 수집을 사용하도록 설정하고, 그렇지 않으면 false입니다. Endpoint용 Defender 및 Microsoft Defender 바이러스 백신 및 서비스와 관련된 Microsoft Defender 바이러스 백신 Windows 10 Microsoft 개인 정보 취급 방침을 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=827576) |
 | cloud_enabled | True이면 클라우드 제공 보호가 사용하도록 설정되어 있습니다. 그렇지 않으면 false입니다. |
 | conflicting_applications | 끝점용 Microsoft Defender와 충돌할 수 있는 응용 프로그램 목록입니다. 이 목록에는 호환성 문제를 일으키는 것으로 알려진 기타 보안 제품 및 기타 응용 프로그램이 포함되어 있지만 이에 국한되지 않습니다. |

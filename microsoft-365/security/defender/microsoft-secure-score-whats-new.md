@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 8d16d4640a926697363e7bb7588d80a8c28439df
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: ca71b8431972085d2e4b13d0669219a9187246e6
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541988"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53726155"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운
 
@@ -38,7 +38,16 @@ Microsoft 보안 점수는 보안 센터의 Microsoft 365 https://security.micro
 
 ## <a name="july-2021"></a>2021년 7월
 
+### <a name="added-improvement-action-related-to-microsoft-teams"></a>추가된 기능 관련 개선 Microsoft Teams
+
+- 전화 접속 사용자가 모임 대기실을 무시하지 수 있도록 제한
+- 외부 참가자가 모임에서 제어하지 Teams 제한
+- 익명 사용자가 모임을 시작하지 Teams 제한
+- 모임에 대해 로비 설정 Teams 필요
+- Teams 모임에 참석할 수 있는 사용자 구성
+
 ### <a name="added-improvement-action-related-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 관련된 개선 작업이 추가되었습니다.
+
 - MacOS용 Endpoint 센서 데이터 수집에 대한 Microsoft Defender 수정
 - MacOS용 끝점 장애 통신에 대한 Microsoft Defender 수정
 - macOS에서 최소 암호 길이를 15자 이상으로 설정

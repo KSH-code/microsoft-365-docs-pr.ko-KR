@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: 4791948f6fe3ca6df620a0e93851dbf4e11edd98
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 9b6885d101529d18201084b3364c6412bbbc4f4d
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454020"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725831"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -72,9 +72,7 @@ ms.locfileid: "53454020"
 
 8. 사용자 할당을 완료했면 완료 **를** 선택한 다음 **저장,** **닫기 를 선택합니다.**
 
-Microsoft Service Trust Portal에서 준수 관리자의 클래식 버전에 액세스해야 하는 경우 Service Trust Portal의 관리 설정을 통해 역할을 할당할 수 있습니다(지침[보기).](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users) 이러한 역할은 기능에서 더 제한적입니다.
-
-##### <a name="more-about-azure-ad"></a>Azure AD에 대한 자세한 내용은
+#### <a name="more-about-azure-ad"></a>Azure AD에 대한 자세한 내용은
 
 Azure AD에서 역할을 할당하고 사용 권한을 설정하려면 역할이 있는 사용자에게 관리자 및 비 관리자 역할 [할당을 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
@@ -88,8 +86,8 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 | 사용자는 다음을 할 수 있습니다. | 준수 관리자 역할 | Azure AD 역할 | 
 | :------------- | :-------------: | :------------: |
 | **데이터 읽기만 가능하고 편집할 수 없음**| 준수 관리자의 독자  | Azure AD Global Reader, 보안 판독기 | 
-| **데이터 편집**| 준수 관리자 기여 | 준수 관리자 | 
-| **테스트 결과 편집**| 준수 관리자의 평가자 | 준수 관리자 | 
+| **데이터 편집**| 준수 관리자 기여 | 규정 준수 관리자 | 
+| **테스트 결과 편집**| 준수 관리자의 평가자 | 규정 준수 관리자 | 
 | **평가 및 템플릿 및 테넌트 데이터 관리**| 준수 관리자 관리 | 준수 관리자, 준수 데이터 관리자, 보안 관리자  | 
 | **사용자 할당**| 전역 관리자 | 전역 관리자 | 
 

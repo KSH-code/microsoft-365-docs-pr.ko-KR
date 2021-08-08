@@ -12,13 +12,13 @@ ms.collection:
 - m365initiative-syntex
 search.appverid: MET150
 localization_priority: Priority
-description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: 7497d21cc85449ee2141ac1362f82d092f150b4b
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+description: SharePoint Syntex 설정
+ms.openlocfilehash: 7d97685db30d5eac1c0316d5ce36bf627b02b8a1cc771a11aca7ece81230227c
+ms.sourcegitcommit: 584778d28c280b8747c11d14aeb3eac58909e580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544712"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57791191"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -53,17 +53,7 @@ SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있�
 - SharePoint Syntex - SPO 유형
 - SharePoint Syntex용 일반 데이터 서비스
 
-향후 날짜에 SharePoint Syntex 구독을 취소하거나 평가판이 만료되면 사용자는 더 이상 문서 이해 또는 양식 처리 모델을 만들거나 실행할 수 없으며 콘텐츠 센터 서식 파일을 더 이상 사용할 수 없습니다. 또한 용어 저장소 보고서, SKOS 분류법 가져오기 및 내용 유형 푸시는 더 이상 사용할 수 없습니다. 내용이 삭제되지 않으며 사이트 사용 권한도 변경되지 않습니다.
-
-### <a name="ai-builder-credits"></a>AI Builder 크레딧
-
-조직에 SharePoint Syntex에 대한 SharePoint Syntex 라이선스가 300개 이상 있는 경우 100만 개의 AI Builder 크레딧이 할당됩니다. 라이선스 수가 300개 미만인 경우 양식 처리를 사용하려면 AI Builder 크레딧을 구입해야 합니다.
-
-[AI Builder 계산기](https://powerapps.microsoft.com/ai-builder-calculator)을(를) 사용하여 사용자에게 적합한 AI Builder 용량을 추정할 수 있습니다.
-
-사용자 지정 Power Platform 환경을 사용하려면 [해당 환경에 크레딧을 할당](/power-platform/admin/capacity-add-on)해야 합니다.
-
-[Power Platform 관리 센터](https://admin.powerplatform.microsoft.com/resources/capacity)로 이동하여 크레딧 및 사용량을 확인합니다.
+양식 처리를 사용하려면 AI Builder 크레딧도 필요합니다. 라이선스 사용자가 300명 이상인 경우 매월 AI Builder 크레딧이 할당됩니다.
 
 ## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex를 설정하려면 다음을 수행합니다.
 

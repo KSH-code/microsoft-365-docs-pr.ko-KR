@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e7b48ef5dcd98a948b8af0dc2f6f61ac1bb81f4d
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 3066ccf803d5a2cad907ae7f983f3cafbb41112d
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542612"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725855"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -90,14 +90,16 @@ ms.locfileid: "53542612"
 
 보다 복잡한 쿼리에서 이러한 열을 반환하는 방법에는 여러 가지가 있습니다. 예를 들어 과 같은 열 아래에서 엔터티별로 집계 및 개수를 계산하고 를 원하는 경우 각 고유 을 포함하는 가장 최근 이벤트에서 를 반환하여 반환할 `DeviceId` `Timestamp` 수 `ReportId` `DeviceId` 있습니다.
 
+
 > [!IMPORTANT]
 > 열을 사용하여 사용자 지정 검색을 필터링하지 `Timestamp` 않도록 합니다. 사용자 지정 검색에 사용되는 데이터는 검색 빈도에 따라 미리 필터링됩니다.
+
 
 아래 샘플 쿼리는 바이러스 백신 검색이 있는 고유 장치( )의 수를 계산하고 이 개수를 사용하여 5개가 넘게 검색된 장치만 `DeviceId` 검색합니다. 최신 및 해당 `Timestamp` 을 반환하기 위해 `ReportId` 함수와 함께 `summarize` 연산자를 `arg_max` 사용 합니다.
 
 ```kusto
 DeviceEvents
-| where Timestamp > ago(1d)
+| where ingestion_time() > ago(1d)
 | where ActionType == "AntivirusDetection"
 | summarize (Timestamp, ReportId)=arg_max(Timestamp, ReportId), count() by DeviceId
 | where count_ > 5
