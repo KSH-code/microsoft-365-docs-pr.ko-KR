@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d3ac49b4afde0951e7a034c5c11114afbc52c293
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 91bd008d44495e4c304b353fcbc22785915501e7cfbe000e5cc70eebe5842b7b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52965151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53833333"
 ---
 # <a name="advanced-hunting-example-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -43,7 +43,7 @@ ms.locfileid: "52965151"
    - 맬웨어 방지
    - 피싱 방지
    - 스팸 방지
-2. 이름에 'Safe'로 모든 것을 설정합니다.
+2. 이름에 '금고'로 모든 것을 설정합니다.
    - 안전한 링크
    - 안전한 첨부 파일
 3. 작업을 방어할 때 (예: SharePoint 온라인, OneDrive 및 Teams).
@@ -57,7 +57,7 @@ Kusto 쿼리 언어로 빠르게 검색하여 문제를 검색할 수 있다는 
 
 1. 고급 헌팅 페이지에서 쿼리를 **클릭합니다.**
 1. 다음 쿼리를 쿼리 창에 복사합니다.
-1. 쿼리 **실행 을 선택합니다.**
+1. **쿼리 실행** 을 선택합니다.
 
 ```kusto
 EmailPostDeliveryEvents 

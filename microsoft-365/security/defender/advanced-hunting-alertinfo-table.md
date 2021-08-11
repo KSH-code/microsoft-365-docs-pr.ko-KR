@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스위마의 AlertInfo 테이블
 description: 고급 헌팅 스커마의 AlertInfo 표에서 경고 생성 이벤트에 대해 자세히 알아보시다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, AlertInfo, 경고, 심각도, 범주, MITRE, ATT&CK, Endpoint용 Microsoft Defender, Office 365, Microsoft Cloud App Security, MCAS 및 ID용 Microsoft Defender
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, AlertInfo, 경고, 심각도, 범주, MITRE, ATT&CK, 끝점용 Microsoft Defender, Office 365, Microsoft Cloud App Security, MCAS 및 ID용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 69c9201dbc3458cd4ad09a72f2ea0d7ea3bb2d2a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ffb6e60652a8c4dced7e1fc04a55f4f2afab7ca8e54e93edb0ac976bd0641210
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933700"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53833306"
 ---
 # <a name="alertinfo"></a>AlertInfo
 

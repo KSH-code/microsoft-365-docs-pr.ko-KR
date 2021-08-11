@@ -1,5 +1,5 @@
 ---
-title: Defender에 대한 고급 헌팅의 AssignedIPAddresses() Microsoft 365 기능
+title: 할당된 사용자에 대한 고급 헌팅의 AssignedIPAddresses() Microsoft 365 Defender
 description: AssignedIPAddresses() 함수를 사용하여 장치에 할당된 최신 IP 주소를 다운로드하는 방법을 학습합니다.
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, FileProfile, 파일 프로필, 기능, 향상
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d3ebd301d6c79bf5286d9293e04e4073b99d1e35
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 7160a05111ffa9085a2d7b146e6258ba6c4fd2388a1c8898bbc480c16195c7ee
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934912"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53833318"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 

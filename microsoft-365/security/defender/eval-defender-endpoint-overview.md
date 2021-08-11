@@ -1,5 +1,5 @@
 ---
-title: 아키텍처 검토, 평가 환경 활성화 또는 활성화, 파일럿 구축을 포함하여 끝점 개요에 대한 Microsoft Defender를 평가합니다.
+title: 아키텍처 검토를 포함하여 끝점 개요에 대한 Microsoft Defender 평가
 description: 테스트 랩 또는 파일럿 환경에 Microsoft 365 Defender 단계입니다. 보안 솔루션이 조직의 장치, ID, 데이터 및 앱을 보호하도록 디자인된 방법을 테스트하고 경험합니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: f4f66c6a7bd5f375ffedc822a3ad5bb5a4f5a431
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: f3ec24e4d73ac9297e4ca0bec5659b987f9e33d7bae182a1f7f1853ee72d6876
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53833213"
 ---
 # <a name="evaluate-microsoft-defender-for-endpoint-overview"></a>끝점용 Microsoft Defender 개요 평가
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Defender의 고급 헌팅 할당량 및 사용 매개 변수
+title: 고급 헌팅 할당량 및 사용 매개 변수를 Microsoft 365 Defender
 description: 고급 헌팅 서비스를 응답하도록 유지하는 다양한 할당량 및 사용 매개 변수(서비스 제한) 이해
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema, kusto, CPU 제한, 쿼리 제한, 리소스, 최대 결과, 할당량, 매개 변수, 할당량
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d7563a8299bbe7d543b065bb25eeb3bc90a854b9
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5108e1b50b7544fcb11cef8bf573fd42cbfad2411f83e8628fecd59a895c1c55
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245603"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53833234"
 ---
 # <a name="advanced-hunting-quotas-and-usage-parameters"></a>고급 헌팅 할당량 및 사용 매개 변수
 

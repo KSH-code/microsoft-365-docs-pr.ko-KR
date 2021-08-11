@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3d98a914a919057cf73d2b603ddf1da39f3278b2
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: a403cfa7e4e2348827a9ff7f127a815c5ec4fdca0a239716dfc8453e16d116d8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53793049"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 헌팅 이벤트를 사용자 계정으로 스트리밍하도록 끝점에 대한 Microsoft Defender Storage 구성
 
@@ -101,7 +101,7 @@ ms.locfileid: "53649854"
 
   ![이벤트 허브 리소스 ID3의 이미지](images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [끝점 스트리밍 API용 Microsoft Defender](raw-data-export.md)
 - [Azure 저장소 계정으로 Endpoint용 Microsoft Defender 이벤트 스트림](raw-data-export-storage.md)

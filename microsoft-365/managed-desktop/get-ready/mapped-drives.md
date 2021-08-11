@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: f770f5083fe9193660b03e7971b09a127f2dae16
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d272c08287dd6198d4c33b4d1df3ff8662eda12781d676b75c93189d08409de7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574562"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819094"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 매핑된 드라이브 준비
 
@@ -37,7 +37,7 @@ ms.locfileid: "51574562"
 - 이러한 파일 공유 위치에 액세스해야 하는 사용자 그룹 
 - 할당해야 하는 특정 드라이브 문자(필요한 경우)
 
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 | 드라이브 문자 | UNC 경로 | 사용자 그룹 |
 |--------------|----------|------------|

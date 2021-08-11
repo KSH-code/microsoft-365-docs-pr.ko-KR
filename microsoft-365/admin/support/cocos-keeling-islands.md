@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 631b39d2ba1c07a30614ce0fb52480dcbeefc245
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 13a1e77c42843bcac211352fb5e039340ffd248192c9b3af3810902868017904
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53797521"
 ---
 # <a name="contact-support-for-cocos-keeling-islands"></a>코코스(커널링) 제도 지원에 문의
 

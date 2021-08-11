@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 조직이 현재 해당 Microsoft 365 가장 일반적인 위협 및 공격 시나리오와 이러한 위험을 완화하기 위한 권장 조치를 제공합니다.
-ms.openlocfilehash: 056e1e64a992f12f3bf9a4b76c29f723ac1b5f3a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: dabd4e094962c15ade360db317fa197698733e2da4cedc752d602337df090a37
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53839985"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 BDM(비즈니스 의사 결정자)에 대한 보안
 
@@ -87,7 +87,7 @@ Microsoft는 테넌트 내에서 보안 점수 도구를 사용하여 정기적�
 
 |권장 사항  |E3  |E5  |
 |---------|---------|---------|
-|**다음을 위해 Microsoft Defender를 Office 365.**<br>* 안전한 첨부 파일<br>* 안전한 링크<br>* Microsoft Defender for Endpoint for SharePoint, OneDrive, and Microsoft Teams<br>* Defender의 피싱 방지 Office 365 보호|         |![녹색 확인 표시](../media/green-check-mark.png) |
+|**다음을 위해 Microsoft Defender를 Office 365.**<br>* 금고 첨부 파일<br>* 금고 링크<br>* Microsoft Defender for Endpoint for SharePoint, OneDrive, and Microsoft Teams<br>* Defender의 피싱 방지 Office 365 보호|         |![녹색 확인 표시](../media/green-check-mark.png) |
 |**끝점 기능용 Microsoft Defender 구성**:<br>* Windows Defender 바이러스 백신 <br>* Exploit Protection <br> * 공격 표면 감소 <br> * 하드웨어 기반의 고리 <br>* 제어된 폴더 액세스     |         |![녹색 확인 표시](../media/green-check-mark.png) |
 |**이 Microsoft Cloud App Security** 사용하여 SaaS 앱을 검색하고 동작 분석 및 이상 검색 사용을 시작하세요. |         |![녹색 확인 표시](../media/green-check-mark.png) |
 

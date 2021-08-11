@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f4b1399b77583e95b109575a9577d8b1af89e6ad
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: f0b5218ccfb17c4c3681628200bb42afbfd312cc9ec383f524e6721340da461a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53833294"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>올바른 설정을 사용하여 고급 헌팅 범위 확장
 
@@ -55,7 +55,7 @@ Active Directory를 사내에서 실행하는 경우 도메인 컨트롤러에 I
 | 도메인 컨트롤러 | ID를 위해 Microsoft Defender로 전송되는 사내 Active Directory의 데이터, 계정 세부 정보, 로그온 활동 및 Active Directory 쿼리와 같은 ID 관련 정보 보강 | [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)및 [IdentityQueryEvents를](advanced-hunting-identityqueryevents-table.md) 비롯한 여러 테이블  | - [Id용 Microsoft Defender 센서 설치](/azure-advanced-threat-protection/install-atp-step4)<br>- [관련 이벤트 Windows 켜기](/azure-advanced-threat-protection/configure-event-collection) |
 
 >[!NOTE]
->이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [더 많은 Microsoft 365 Defender](m365d-enable.md) 사용하여 위협을 헌팅할 수 있습니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 Defender [Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 쿼리 마이그레이션의 단계를 수행하여 고급 헌팅 워크플로를 끝점으로 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

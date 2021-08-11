@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 47b25ba541264d79216748753e9f41fb7435fc10
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b9f73150d858efc8eecf7a027035011d88098e9359ab87c9ce5c2f992cd8857e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53805697"
 ---
 # <a name="device-profile-page"></a>디바이스 프로필 페이지
 
@@ -178,7 +178,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 항목을 선택하면 업데이트에 연결되는 플라이아웃이 열립니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 * [Microsoft 365 Defender 개요](microsoft-365-defender.md)
 * [Microsoft 365 Defender 켜기](m365d-enable.md)

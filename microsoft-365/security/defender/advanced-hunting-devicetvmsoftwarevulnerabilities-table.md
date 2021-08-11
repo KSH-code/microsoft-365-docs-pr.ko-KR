@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅의 DeviceTvmSoftwareVulnerabilities 테이블
 description: 고급 헌팅 스위마의 DeviceTvmSoftwareVulnerabilities 표에 있는 각 취약점을 해결할 수 있는 사용 가능한 보안 업데이트 목록 및 장치에서 발견된 소프트웨어 취약점에 대해 자세히 알아보습니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, threat & 취약성 관리, TVM, device management, software, inventory, vulnerabilities, CVE ID, OS DeviceTvmSoftwareInventoryVulnerabilities
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, 위협 & 취약성 관리, TVM, 장치 관리, 소프트웨어, 인벤토리, 취약성, CVE ID, OS DeviceTvmSoftwareInventoryVulnerabilities
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 17faffc45cfd1f472dec3f423681aaa3f64944a3
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 6ef3a110021df3f33346aed39f340d3ad7abeff6432262647d7d740f21ee38d3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023812"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53805563"
 ---
 # <a name="devicetvmsoftwarevulnerabilities"></a>DeviceTvmSoftwareVulnerabilities
 
@@ -63,7 +63,7 @@ ms.locfileid: "52023812"
 
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [사전 대응식 위협 탐지](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)

@@ -1,7 +1,7 @@
 ---
-title: Defender의 고급 헌팅 Microsoft 365 학습
+title: 헌팅 쿼리 언어의 고급 Microsoft 365 Defender
 description: 첫 번째 위협 헌팅 쿼리를 만들고 고급 헌팅 쿼리 언어의 일반적인 연산자와 기타 요소에 대한 정보를 알아봅니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 언어, 학습, 첫 번째 쿼리, 원격 분석, 이벤트, 원격 분석, 사용자 지정 감지, schema, kusto, 연산자, 데이터 형식, powershell 다운로드, 쿼리 예제
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 언어, 학습, 첫 번째 쿼리, 원격 분석, 이벤트, 원격 분석, 사용자 지정 검색, schema, kusto, 연산자, 데이터 형식, powershell 다운로드, 쿼리 예제
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 14287fb6dea9dda8accb580246b383f0427c3b3f
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: 4b31a47ecfa887185673d75947fbab89332caa2a156bed8a35b158b63c2e8b95
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53805600"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -183,9 +183,9 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 Kusto 쿼리 언어와 지원되는 연산자에 대한 자세한 내용은 [Kusto 쿼리 언어 설명서](/azure/kusto/query/)를 참조하세요.
 
 >[!NOTE]
->이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [더 많은 Microsoft 365 Defender](m365d-enable.md) 사용하여 위협을 헌팅할 수 있습니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 Defender [Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 쿼리 마이그레이션의 단계를 수행하여 고급 헌팅 워크플로를 끝점으로 이동할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 결과로 작업](advanced-hunting-query-results.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
