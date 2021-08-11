@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 354f61284bbd95c1c7ca4cd50459a1644a89d090
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: a1a042047e3203d8c401f5435e87bafa20aa952ca9e32a051b47ea3a038b7aad
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53800693"
 ---
 # <a name="localize-the-user-experience"></a>사용자 환경 현지화
 
@@ -63,7 +63,7 @@ ms.locfileid: "52023264"
 이러한 [언어 및](../service-description/device-images.md#universal-image) Microsoft Managed Desktop 이미지에 포함된 유니버설 이미지는 Windows 10.
 
 - 아랍어
-- 불가리아어
+- Bulgarian
 - Chinese Simplified
 - Chinese Traditional
 - 크로아티아어
@@ -71,13 +71,13 @@ ms.locfileid: "52023264"
 - 덴마크어  
 - 네덜란드어  
 - 영어(미국, GB, AU, CA, IN)
-- 에스토니아어
-- 핀란드어 
+- Estonian
+- Finnish 
 - 프랑스어(프랑스, 캐나다)
 - 독일어
 - 그리스어
-- 히브리어
-- 헝가리어
+- Hebrew
+- Hungarian
 - 인도네시아어
 - 이탈리아어
 - 일본어
@@ -94,11 +94,11 @@ ms.locfileid: "52023264"
 - 슬로바키아어
 - 슬로베니아어
 - 스페인어(스페인, 멕시코)
-- 스웨덴어
+- Swedish
 - 태국어
 - 터키어
 - 우크라이나어
-- 베트남어
+- Vietnamese
 
 Microsoft 365 앱 대한 Enterprise 약간 다른 목록을 지원할 수 있습니다.
 

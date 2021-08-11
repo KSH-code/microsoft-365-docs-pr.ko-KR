@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 네트워크 구성을 구현하기 위한 Microsoft 365 로드맵입니다.
-ms.openlocfilehash: be1691138290a592822bfb4d59286fe795270450
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7c8c67305ef67e9e7a20b2d341f339b8bdbab4090426861e37b5b5277bb249e7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53800984"
 ---
 # <a name="networking-roadmap-for-microsoft-365"></a>네트워크용 네트워킹 로드맵 Microsoft 365
 

@@ -13,16 +13,44 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 6b18de29b339c3367bfacb8bdc8ec9725481e3e4
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 38c4d1ed871027157488d8d721d7cc80c685c07b966c171c5a0c9a1c693c76b6
+ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779858"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57834508"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
 이 문서에는 새 문서와 업데이트된 문서가 Microsoft Managed Desktop [나열되어 있습니다.](index.yml) "업데이트된" 문서에는 오타, 스타일 또는 서식 문제의 수정과 같은 부적인 수정이 추가되거나 수정되었습니다. 언제든지 의 리포지토리를 방문하여 특정 커밋 기록(변경 내용 세부 정보 [포함)을](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)볼 GitHub.
+
+
+## <a name="july-2021"></a>2021년 7월
+신규 또는 변경된 문서 | 설명
+--- | ---
+[장치 이미지](service-description/device-images.md)| 업데이트된 문서
+[준비 평가 도구에서 발견한 문제 해결](get-ready/readiness-assessment-fix.md) | 업데이트된 문서
+[Microsoft Managed Desktop 역할 및 책임](intro/roles-and-responsibilities.md) | 업데이트된 문서
+[사용자 지원 기능 사용](get-started/enable-support.md) | 새 문서
+[엔터프라이즈 상태 로밍 사용](get-started/enterprise-state-roaming.md) | 업데이트된 문서
+[Microsoft Managed Desktop 및 Windows 11](intro/win11-overview.md) | 새 문서
+[Microsoft Managed Desktop을 사용하여 Windows 11 미리 보기 및 테스트](working-with-managed-desktop/test-win11-mmd.md) | 새 문서
+[파트너가 장치를 등록하기 위한 단계](get-started/register-devices-partner.md) | 업데이트된 문서
+[직접 새 장치 등록](get-started/register-devices-self.md) |업데이트된 문서
+[Microsoft Managed Desktop의 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트된 문서
+[Autopilot 및 등록 상태 페이지의 첫 실행 환경](get-started/esp-first-run.md) | 업데이트된 문서
+[Microsoft Managed Desktop 작업 및 모니터링](service-description/operations-and-monitoring.md) | 업데이트된 문서
+[사용자를 위한 도움말](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
+
+## <a name="june-2021"></a>2021년 6월
+신규 또는 변경된 문서 | 설명
+--- | ---
+[보고서 작업](working-with-managed-desktop/reports.md) | 업데이트된 문서
+[개요](service-description/privacy-personal-data.md) | 업데이트된 문서
+[Microsoft Managed Desktop의 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트된 문서
+[준비 평가 도구에서 발견한 문제 해결](get-ready/readiness-assessment-fix.md) | 업데이트된 문서
+[Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트된 문서
+[엔터프라이즈 상태 로밍 사용](get-started/enterprise-state-roaming.md) | 업데이트된 문서
 
 ## <a name="may-2021"></a>2021년 5월
 신규 또는 변경된 문서 | 설명
@@ -70,7 +98,7 @@ ms.locfileid: "52779858"
 [장치 요구 사항](service-description/device-requirements.md) | 업데이트된 문서
 [준비 평가 도구에서 발견한 문제 해결](get-ready/readiness-assessment-fix.md) | 업데이트된 문서
 [Microsoft OneDrive](get-started/onedrive.md) | 새 문서
-[규정 준수](intro/compliance.md) | 업데이트되었습니다.
+[규정 준수](intro/compliance.md) | 업데이트 완료
 [Microsoft Office 365 ProPlus](get-started/m365-apps.md) | 업데이트된 문서
 [준비 평가 도구](get-ready/readiness-assessment-tool.md) | 업데이트된 문서
 

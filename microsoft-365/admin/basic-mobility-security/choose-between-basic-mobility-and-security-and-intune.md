@@ -19,12 +19,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 기본 Microsoft 365 있습니다.
-ms.openlocfilehash: 3404d2aeecd047fecec573bf1d60407ad3659efe
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 4da5175ece5da0e6e2f5aaadb26a177835d90fcf39f727b748b83685c1c355d7
+ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393298"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57834512"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>기본 이동성 및 보안 또는 Intune 중 선택
 
@@ -36,7 +36,7 @@ ms.locfileid: "53393298"
 
 | 계획 | 기본 모바일 및 보안 | Microsoft Intune |
 |:-----|:-----|:-----|
-|Microsoft 365 Apps|예|아니요|
+|Microsoft 365 앱|예|아니요|
 |Microsoft 365 Business Basic|예|아니요|
 |Microsoft 365 Business Standard|예|아니요|
 |Office 365 E1 |예|아니요|
@@ -71,7 +71,6 @@ Microsoft Intune 기본 제공 Basic Mobility and Security를 사용하면 조�
 |장치 준수|장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 디바이스에 대한 제한 사항 자세한 [내용은 을 참조합니다.](capabilities.md) |예|
 |장치 준수에 기반한 조건부 액세스 |비영리 장치가 클라우드에서 회사 전자 메일 및 데이터에 액세스하지 못하게 합니다. |지원되지 Windows 10.<br/>Exchange Online, SharePoint Online 및 Outlook. |예 |
 |장치 구성  |장치 설정 구성(예: 카메라 사용 안 하도록 설정)|제한된 설정 집합입니다.|예|
-|장치 준수  |장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 디바이스에 대한 제한 사항 자세한 [내용은 을 참조합니다.](capabilities.md) |예|
 |전자 메일 프로필  |장치에서 기본 전자 메일 프로필을 프로비전합니다. |예|예|
 |WiFi 프로필 |장치에서 기본 WiFi 프로필을 프로비전합니다. |아니요|예|
 |VPN 프로필 |장치에서 기본 VPN 프로필을 프로비전합니다. |아니요|예|

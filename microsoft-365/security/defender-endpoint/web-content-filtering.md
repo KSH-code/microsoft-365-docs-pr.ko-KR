@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a24797d39ece34d615dde26811da8b7d7d2b9a6d
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 7395e7fb22c8ad090ab35868d385fa240700505c
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53647898"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53757360"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -43,7 +43,7 @@ ms.locfileid: "53647898"
 
 특정 범주를 차단하도록 장치 그룹 전체에서 정책을 구성합니다. 범주를 차단하면 지정된 장치 그룹 내의 사용자가 해당 범주와 연결된 URL에 액세스할 수 없습니다. 차단되지 않은 범주에 대해 URL이 자동으로 감사됩니다. 사용자는 중단 없이 URL에 액세스할 수 있으며 액세스 통계를 수집하여 보다 사용자 지정 정책 결정을 만드는 데 도움이 됩니다. 사용자가 보고 있는 페이지의 요소가 차단된 리소스를 호출하는 경우 차단 알림이 표시됩니다.
 
-웹 콘텐츠 필터링은 주요 웹 브라우저에서 사용할 수 있으며, Windows Defender SmartScreen(Microsoft Edge) 및 네트워크 보호(Chrome, Firefox, Brave 및 Opera)에서 수행됩니다. 브라우저 지원에 대한 자세한 내용은 prerequisites 섹션을 참조하세요.
+웹 콘텐츠 필터링은 주요 웹 브라우저에서 사용할 수 있으며, Windows Defender SmartScreen(Microsoft Edge) 및 네트워크 보호(Chrome, Firefox, Brave 및 Opera)에서 수행되는 블록이 있습니다. 브라우저 지원에 대한 자세한 내용은 prerequisites 섹션을 참조하세요.
 
 이점 요약:
 
@@ -51,19 +51,18 @@ ms.locfileid: "53647898"
 - 보안 팀에서 끝점 역할 기반 액세스 제어 설정에 대해 Microsoft Defender에 정의된 장치 그룹을 사용하여 사용자 그룹에 정책을 편리하게 [배포할 수 있습니다.](/microsoft-365/security/defender-endpoint/rbac)
 - 보안 팀이 실제 블록 및 웹 사용 현황을 볼 수 있는 동일한 중앙 위치에서 웹 보고서에 액세스할 수 있습니다.
 
-## <a name="user-experience"></a>사용자 환경
-
-지원되는 제3자 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 알림을 제공하는 네트워크 보호를 통해 제공됩니다. 보다 사용자에게 친숙한 브라우저 내 환경을 위해 브라우저 내 환경을 Microsoft Edge.
-
 ## <a name="prerequisites"></a>필수 구성 요소
 
 이 기능을 시도하기 전에 다음 요구 사항을 충족하는지 확인합니다.
 
-- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 끝점용 Microsoft Defender 독립 실행형 라이선스. 
+- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 끝점 독립 실행형 라이선스용 Microsoft Defender 
 - Microsoft 365 Defender 포털에 https://security.microsoft.com) 액세스합니다( .
 - 최신 moCAMP Windows 10 1주년 업데이트(버전 1607) 이상을 실행하는 장치.
 - Windows Defender SmartScreen 및 네트워크 보호를 사용할 수 있습니다.
 
+## <a name="user-experience"></a>사용자 환경
+
+지원되는 타사 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 알림을 제공하는 네트워크 보호를 통해 제공됩니다. 보다 사용자에게 친숙한 브라우저 내 환경을 위해 브라우저 내 환경을 Microsoft Edge.
 
 ## <a name="data-handling"></a>데이터 처리
 
@@ -108,13 +107,19 @@ ms.locfileid: "53647898"
 
 3. 정책 작업을 허용으로 **설정**  
 
-### <a name="reporting-inaccuracies"></a>부정확성 보고
+### <a name="dispute-categories"></a>분쟁 범주
 
-잘못 분류된 도메인이 발견되는 경우 웹 콘텐츠 필터링 보고서 페이지에서 부정확한 정보를 직접 보고할 수 있습니다. 이 기능은 새로운 보안 센터(Microsoft 365)에서만 사용할 수 security.microsoft.com.
+잘못 분류된 도메인이 발생하는 경우 포털에서 해당 범주에 직접 이의를 제기할 수 있습니다. 
 
-부정확한 내용을 보고하려면 보고서 웹 **보호** 웹 콘텐츠 필터링 세부  >    >  **정보**  >  **도메인으로 이동합니다.** 웹 콘텐츠 필터링 보고서의 도메인 탭에는 각 도메인 옆에 타원이 표시됩니다. 이 타원 위에 마우스를 대고 **부정확성 보고를 선택합니다.**
+도메인 범주에 이의를 제기하려면 보고서 웹 **보호** 웹 콘텐츠 필터링  >    >  **세부 정보**  >  **도메인 으로 이동합니다.** 웹 콘텐츠 필터링 보고서의 도메인 탭에는 각 도메인 옆에 타원이 표시됩니다. 이 타원 위에 마우스를 대고 분쟁 **범주 를 선택합니다.**
 
 우선 순위를 선택하고 다시 분류할 수 있는 범주와 같은 추가 세부 정보를 추가할 수 있는 패널이 열립니다. 양식을 완성한 후 제출 을 **선택합니다.** 팀에서 업무일 1일 이내에 요청을 검토합니다. 즉각적인 차단 해제를 위해 사용자 지정 허용 [표시기를 만드시다.](indicator-ip-domain.md)
+
+### <a name="url-category-lookup"></a>URL 범주 검색
+
+웹 사이트의 범주를 확인하기 위해 웹 사이트 포털( 에서 사용할 수 있는 URL 검색 Microsoft 365 Defender https://security.microsoft.com) 있습니다. URL 검색 결과에서 웹 콘텐츠 필터링 범주는 **URL/도메인 세부 정보 아래에 표시됩니다.** 관리자는 아래 이미지와 같이 이 페이지에서 직접 도메인 범주에 이의를 제기할 수도 있습니다. 범주 결과가 표시되어 있지 않은 경우 URL은 현재 기존 웹 콘텐츠 필터링 범주에 할당되지 않습니다.
+
+![웹 콘텐츠 필터링 범주 검색 결과의 이미지](../../media/web-content-filtering-category-lookup.png)
 
 ## <a name="web-content-filtering-cards-and-details"></a>웹 콘텐츠 필터링 카드 및 세부 정보
 
@@ -158,7 +163,7 @@ ms.locfileid: "53647898"
 
 ### <a name="limitations-and-known-issues-in-this-preview"></a>이 미리 보기의 제한 사항 및 알려진 문제
 
-- 장치의 Microsoft Edge 구성이 **Server(cmd**  >  **Systeminfo** OS 구성)인 경우  >  **지원됩니다.** 네트워크 보호는 지원되는 제3자 브라우저에서 트래픽을 보호하는 서버 장치의 검사 모드에서만 지원됩니다.
+- 장치의 Microsoft Edge 구성이 **Server(cmd**  >  **Systeminfo** OS 구성)인 경우  >  **지원됩니다.** 네트워크 보호는 지원되는 타사 브라우저에서 트래픽을 보호하는 서버 장치의 검사 모드에서만 지원됩니다.
 
 - 미지정 장치에는 보고서에 잘못된 데이터가 표시됩니다. 보고서 **세부 정보** 장치 그룹 피벗에서 빈 장치 그룹 필드가  >   있는 행이 표시될 수 있습니다. 이 그룹에는 지정한 그룹에 들어가기 전에 지정되지 않은 장치가 포함되어 있습니다. 이 행에 대한 보고서에 정확한 장치 수나 액세스 수가 포함되지 않을 수 있습니다.
 

@@ -22,7 +22,7 @@ ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/04/2021
-ms.locfileid: "53757225"
+ms.locfileid: "53726622"
 ---
 # <a name="quarantine-policies"></a>Quarantine policies
 

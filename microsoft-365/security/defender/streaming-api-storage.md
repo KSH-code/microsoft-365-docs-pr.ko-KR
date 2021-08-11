@@ -1,6 +1,6 @@
 ---
-title: 이벤트 Microsoft 365 Defender 스트림 저장소 계정으로
-description: 고급 헌팅 이벤트를 Microsoft 365 Defender 헌팅 이벤트를 사용자 계정으로 스트리밍하도록 구성하는 저장소 대해 자세히 알아보도록 합니다.
+title: 계정으로 Microsoft 365 Defender 이벤트 Storage 스트림
+description: 고급 헌팅 이벤트를 Microsoft 365 Defender 헌팅 이벤트를 사용자 계정으로 Storage 방법을 학습합니다.
 keywords: 원시 데이터 내보내기, 스트리밍 API, API, 이벤트 허브, Azure 저장소, 저장소 계정, 고급 헌팅, 원시 데이터 공유
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 656387e60bac90c7e9de4852779948dabce0efe3
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 0817778d5b006cb0c08cda4a4b63063f06644ef6ffdb68547848d038197c853d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029660"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53792765"
 ---
-# <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 Microsoft 365 Defender 헌팅 이벤트를 사용자 계정으로 저장소 구성
+# <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 Microsoft 365 Defender 헌팅 이벤트를 사용자 계정으로 Storage 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,9 +33,9 @@ ms.locfileid: "53029660"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
-1. [테넌트에서 저장소 계정을](/azure/storage/common/storage-account-overview) 만들 수 있습니다.
+1. [테넌트에서 Storage 계정을](/azure/storage/common/storage-account-overview) 만들 수 있습니다.
 
 2. [Azure](https://ms.portal.azure.com/)테넌트에 로그인하고, **Microsoft.>** 구독 > 리소스 공급자로 >.Insights.
 
@@ -49,16 +49,16 @@ ms.locfileid: "53029660"
 
 4. 새 **스트리밍 API 설정** 추가 플라이아웃이 나타나면 다음 설정을 구성합니다.
    1. **이름:** 새 설정의 이름을 선택합니다.
-   2. 에 **전달 이벤트를 Azure 저장소.**
-   3. 나타나는 **저장소 계정** 리소스 ID 상자에 저장소 계정 리소스 **ID 를 입력합니다.** 계정 **저장소 ID를** 얻려면 에서 Azure Portal을 열고 저장소 계정이 속성 탭으로 이동하여 계정 리소스 ID의 저장소 <https://portal.azure.com>  \> \> **복사합니다.**
+   2. 에 **전달 이벤트를 Azure Storage.**
+   3. 나타나는 **Storage 계정** 리소스 ID 상자에 Storage 계정 리소스 **ID 를 입력합니다.** 계정 **Storage ID를** 얻려면 에서 Azure Portal을 열고 Storage 계정이 속성 탭으로 이동하여 계정 리소스 ID의 Storage <https://portal.azure.com>  \> \> **복사합니다.**
 
       ![이벤트 허브 리소스 ID1의 이미지](../defender-endpoint/images/storage-account-resource-id.png)
 
    4. 새 스트리밍 **API 설정** 추가 플라이아웃으로 돌아가서 스트리밍할 이벤트 유형을 선택합니다. 
 
-   완료되면 제출을 **클릭합니다.**
+   작업을 마쳤으면 **제출** 을 클릭합니다.
 
-## <a name="the-schema-of-the-events-in-the-storage-account"></a>이벤트 계정의 이벤트 저장소
+## <a name="the-schema-of-the-events-in-the-storage-account"></a>이벤트 계정의 이벤트 Storage
 
 - 각 이벤트 유형에 대해 Blob 컨테이너가 만들어집니다.
 
@@ -104,4 +104,4 @@ ms.locfileid: "53029660"
 - [고급 헌팅 개요](../defender/advanced-hunting-overview.md)
 - [Microsoft 365 Defender 스트리밍 API](streaming-api.md)
 - [Azure Microsoft 365 Defender 이벤트 스트림](streaming-api-storage.md)
-- [Azure 저장소 계정 설명서](/azure/storage/common/storage-account-overview)
+- [Azure Storage 계정 설명서](/azure/storage/common/storage-account-overview)

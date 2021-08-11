@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기에서 사용할 수 있는 레이블 지정 활동 목록입니다.
-ms.openlocfilehash: d4f6884ad39b16aeb0345f0c976d6ad87f03c05a
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 6dbfe8341e714c49795d8aaf7991988bec901496bf28b2bbd4d4711bdbd81c23
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54520486"
 ---
 # <a name="labeling-activities-that-are-available-in-activity-explorer"></a>활동 탐색기에서 사용할 수 있는 레이블 지정 활동
 
@@ -39,14 +39,14 @@ ms.locfileid: "52532257"
 |원본  |활동 탐색기에서 보고 | 참고  |
 |---------|---------|---------|
 | Word, Excel, PowerPoint|예 |
-|Outlook| 예 |Win 32에서 |
+|Outlook| 예 | |
 |SharePoint 온라인 OneDrive|예 | |
 |Exchange        |예         | |
 |AIP(Azure Information Protection) 통합 클라이언트 및 AIP 통합 스캐너 |예 |AIP *새 레이블 동작이* 활동 탐색기에서 *적용된 레이블에* 매핑됩니다.   |
-|MIP(Microsoft Information Protection) SDK         |예|AIP *새 레이블 동작이* 활동 탐색기에서 *적용된 레이블에* 매핑됩니다.|
+|MIP(Microsoft 정보 보호) SDK         |예|AIP *새 레이블 동작이* 활동 탐색기에서 *적용된 레이블에* 매핑됩니다.|
 |RMS(권한 관리 서비스)         |해당 없음         | |
 |Power BI 및 웹        | 아니요| 감사 로그에서 Microsoft 365 액세스할 수 있습니다.         |
-|Microsoft Cloud App Security (MCAS)         |아니요|         |
+|Microsoft Cloud App Security(MCAS)         |아니요|         |
 
 ## <a name="sensitivity-label-changed"></a>민감도 레이블 변경
 
@@ -63,7 +63,7 @@ ms.locfileid: "52532257"
 |원본  |활동 탐색기에서 보고|참고  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |예         |
-|Outlook         |예         |Win 32|
+|Outlook         |예         |
 |SharePoint 온라인, OneDrive         |예         |
 |Exchange         |예         |
 |AIP 통합 클라이언트         |예         |
@@ -84,7 +84,7 @@ ms.locfileid: "52532257"
 |원본  |활동 탐색기에서 보고 | 참고  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |예         |
-|Outlook         |예         |Win 32|
+|Outlook         |예         ||
 |SharePoint 온라인, OneDrive         |예         |
 |Exchange         |예         |
 |AIP 통합 클라이언트         |예         |AIP *레이블 제거 작업은* 활동 탐색기에서 레이블 제거 *동작에* 매핑됩니다.|

@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: edad9446575ae1165f9268de1bb61ed7cc2f4893
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 362e0f20b23068027e65199f3800bd4f315ec2a0
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53653022"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53757381"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -123,7 +123,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
     cat real_time_protection.json | python high_cpu_parser.py  > real_time_protection.log
     ```
 
-      위의 출력은 성능 문제에 대한 가장 많은 기여자 목록입니다. 첫 번째 열은 PID(프로세스 식별자)이고, 두 번째 열은 te 프로세스 이름이고, 마지막 열은 검사된 파일 수로, 영향별로 정렬됩니다.
+      위의 출력은 성능 문제에 대한 가장 많은 기여자 목록입니다. 첫 번째 열은 PID(프로세스 식별자)이고, 두 번째 열은 프로세스 이름이고, 마지막 열은 검사된 파일 수로, 영향을 따라 정렬됩니다.
     예를 들어 명령의 출력은 다음과 같습니다. 
 
     ```Output

@@ -14,48 +14,50 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 관리하는 앱 거버넌스 기능을 시작하세요.
-ms.openlocfilehash: c4cdc83d41a888fbf395d2c13e442bbaaf7da54e
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 12c90a2caea7d27713cc9dad0be11894d84b19b3245e07046a8ed7b2451db601
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53621682"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54520435"
 ---
 # <a name="get-started-with-app-governance-in-preview"></a>앱 거버넌스 시작(미리 보기)
 
 Microsoft Cloud App Security에서 앱 거버넌스 추가 항목 사용을 시작하려면 다음을 수행합니다.
 
-1. 계정이 [적절한 수준의 라이선스](#licensing-for-app-governance)를 보유하고 있는지 확인합니다. 앱 거버넌스는 MCAS(Microsoft Cloud App Security)의 추가 기능이므로 계정은 MCAS는 독립 실행형 제품 또는 아래에 나열된 다양한 라이선스 패키지의 일부를 통해 라이선스를 보유하고 있어야 합니다.
+1. 계정이 [적절한 수준의 라이선스](#licensing-for-app-governance)를 보유하고 있는지 확인합니다. 앱 거버넌스는 MCAS(Microsoft Cloud App Security)의 추가 기능이므로 계정은 MCAS는 독립 실행형 제품 또는 다양한 라이선스 패키지의 일부로 라이선스를 보유하고 있어야 합니다.
 1. 포털에서 앱 거버넌스 페이지에 액세스하려면 아래에 나열된 [관리자 역할](#administrator-roles) 중 하나가 있어야 합니다.
-1. 조직의 테넌트 등록은 [북미, 유럽 또는 아프리카의 지원 대상 지역](app-governance-countries.md) 중 하나여야 합니다.
+1. 무료 평가판을 활성화하려면 조직의 청구 주소가 [북미, 유럽 또는 아프리카에서 지원되는 지역](app-governance-countries.md) 중 하나여야 합니다.
 
-## <a name="add-app-governance-to-your-microsoft-365-account"></a>Microsoft 365 계정에 앱 거버넌스 추가
+## <a name="sign-up-for-free-trial-of-app-governance"></a>앱 거버넌스 평가판에 등록
 
-신규 Microsoft 365 고객:
+신규 Microsoft 365 고객용:
 
-1. 이 페이지의 맨 위에서 **무료 계정** 단추를 클릭합니다.
-1.  **비즈니스용 Microsoft 365 체험**  아래  **1개월 무료 체험** 을 클릭합니다.
-1. 등록 단계를 완료합니다.
+1. 이 페이지 맨 위에서  **무료 계정** 버튼을 선택합니다.
+1.  **비즈니스용 Microsoft 365 체험** 아래에서 **1개월 무료 체험** 을 선택합니다.
+1. 등록 단계별 실행을 완료합니다.
+1. 기존 Microsoft 365 고객용 단계별 실행을 계속 진행합니다.
 
-기존 Microsoft 365 고객:
+기존 Microsoft 365 고객용:
 
-1. Microsoft 365 관리 센터에서  **청구** > **구매 서비스** 로 이동하여  **추가 기능** 을 클릭합니다. 검색 창을 사용하여 **앱 거버넌스** 를 찾습니다.
-1. 앱 거버넌스 카드에서  **세부 정보** 를 클릭합니다.
-1.  **평가판 시작 활성화** 를 클릭합니다.
+1. [평가판 등록 페이지](https://admin.microsoft.com/Commerce/Trial.aspx?OfferId=20be85b6-b196-402c-82b4-36b4e72862dc)로 이동합니다. 
+1. 앱 거버넌스를 추가하는 단계별 실행을 완료합니다. 다음 그래픽에 표시된 바와 같이 간단하게 등록할 수 있습니다.
 
-## <a name="add-integration-with-mcas"></a>MCAS와의 통합 추가 
+:::image type="content" source="../media/manage-app-protection-governance/app-governance-signup2.gif" alt-text="계정에 앱 거버넌스를 추가하는 간단한 단계별 실행":::
 
-필수 구성 요소:
+## <a name="add-integration-with-mcas"></a>MCAS와의 통합 추가
+
+필수 조건:
 
 - Office 365는 Cloud App Security에 연결되어 있습니다.
 - Office 365 Azure AD 앱이 사용 설정되었습니다.
 
-Cloud App Security와 앱 거버넌스 동기화를 활성화하려면 다음 단계를 따르세요.
+Cloud App Security와 앱 거버넌스 동기화를 사용하려면 다음 단계별 실행을 따르세요.
 
-1. Microsoft Cloud App Security 포털로 이동 – [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com)
-1. 톱니바퀴 아이콘(오른쪽 상단)을 클릭하고 **설정** 을 선택합니다.
+1. Microsoft Cloud App Security 포털 – [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com)(으)로 이동합니다.
+1. 톱니 바퀴형 아이콘(오른쪽 상단)을 선택하고 **설정** 을 선택합니다.
 1. **위협 보호** 에서 **앱 거버넌스** 를 선택합니다.
-1. **앱 거버넌스 통합 사용** 을 클릭한 다음 **저장** 을 선택합니다.
+1. **앱 거버넌스 통합 사용** 을 선택한 다음 **저장** 을 선택합니다.
 
 다음으로 MCAS에서 새로 활성화된 정책을 검토합니다. 통합 기능을 사용하도록 설정하면 새 정책이 표시되는 데 몇 분 정도 걸릴 수 있습니다.
 
@@ -64,8 +66,8 @@ Cloud App Security와 앱 거버넌스 동기화를 활성화하려면 다음 �
 - Microsoft 365 OAuth 앱 거버넌스
 - MCAS 대시보드에서 앱 거버넌스 위젯 검토
 - MCAS 알림에서 새로 생성된 앱 거버넌스 알림 검토
-- 앱 거버넌스 정책 목록에서 MCAS M365 OAuth 정책 검토
-- 앱 거버넌스 알림에서 새로 생성된 MCAS M365 OAuth 알림 검토
+- 앱 거버넌스 정책 목록에서 MCAS Microsoft 365 OAuth 정책 검토
+- 앱 거버넌스 알림에서 새로 생성된 MCAS Microsoft 365 OAuth 알림 검토
 
 ## <a name="licensing-for-app-governance"></a>앱 거버넌스 라이선싱
 
@@ -147,4 +149,3 @@ Cloud App Security와 앱 거버넌스 동기화를 활성화하려면 다음 �
 앱 거버넌스 팀은 미리 보기에 대해 다음과 같은 알려진 문제를 확인했습니다. 
 
 - Microsoft Defender와 앱 거버넌스 경고 간의 양방향 동기화 - 현재 Defender에서 해결된 경고는 앱 거버넌스에서도 수동으로 해결해야 합니다.
-- 앱 사용자 및 사용 탭의 우선 순위 계정 인사이트가 특정 사용자에게 예상대로 작동하지 않습니다.

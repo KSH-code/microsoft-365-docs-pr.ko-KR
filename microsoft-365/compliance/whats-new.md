@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: acbad7a1c5fa541ee83da668768cc42af7a5afda
-ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
+ms.openlocfilehash: 9ef0495b1eae033a6a7cc8b6929344967ea4591c165ea647923afd3bb5daefb9
+ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53464012"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57803179"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -40,6 +40,76 @@ ms.locfileid: "53464012"
 > - [Microsoft 365 Defender의 새로운 기능](../security/defender/whats-new.md)
 >
 > 또한 Microsoft 365 [](https://www.microsoft.com/microsoft-365/roadmap) 로드맵을 방문하여 Microsoft 365, 개발 중, 취소 또는 이전에 릴리스된 Microsoft 365 기능에 대해 자세히 알아보습니다.
+
+## <a name="july-2021"></a>2021년 7월
+
+### <a name="advanced-ediscovery"></a>Advanced eDiscovery
+
+- [Advanced eDiscovery 콘텐츠에](teams-workflow-in-advanced-ediscovery.md) 대한 Microsoft Teams 워크플로에서 Teams 콘텐츠를 관리하는 종단 Advanced eDiscovery. 새 대화 내용의 미리 보기에 대한 세부 정보를 포함합니다.
+- [많은 경우에 Advanced eDiscovery](advanced-ediscovery-large-cases.md) 검토 집합 및 사례 제한을 확장하고 대화 대화에 대한 대화 Teams 추가하는 새로운 대규모 Yammer 추가되었습니다.
+
+### <a name="app-governance"></a>앱 거버넌스
+
+- MCAS(앱 [거버넌스](app-governance-manage-app-governance.md) Microsoft Cloud App Security)가 공개 미리 보기로 들어갔습니다. 앱 거버넌스는 M365 테넌트에서 OAUth 기반 앱을 모니터링하고 맬웨어 또는 부적절한 사용 권한 수준을 나타내는 활동에 대한 알림을 생성합니다.
+
+### <a name="compliance-offerings"></a>규정 준수 제품
+
+- [적용 가능한 서비스 적용](/compliance/regulatory/offering-home) 범위 및 업데이트에 중점을 두는 규정 준수 제품은 해당 규정에 대한 [Azure](/azure/compliance) 제품과 보다 긴밀하게 일치하도록 변경됩니다.
+
+### <a name="compliance--service-assurance"></a>규정 & 서비스 보증
+
+- [서비스](/compliance/) 보증(업데이트, 분기별 콘텐츠 업데이트에 대한 인증 및 적용성 설명 검토)
+    - 클라우드 백그라운드 검사
+    - 직원 이전 & 종료
+    - 거버넌스
+    - 인적 리소스
+    - 인시던트 관리
+    - 고용 전 선별
+    - SIM(보안 인시던트 관리)
+    - SIM – 포함, 지우기 및 복구
+    - SIM – 검색 & 분석
+    - SIM – 인시던트 사후 보고
+    - SIM – 준비
+    - 테넌트 격리
+
+### <a name="data-classification"></a>데이터 분류
+
+- [데이터 분류에 대해 자세히 알아보습니다.](data-classification-overview.md) 교육 가능한 분류자에 대한 GA 릴리스에 대해 업데이트되었습니다.
+
+### <a name="data-loss-prevention"></a>데이터 손실 방지
+
+- [디바이스의 Microsoft 365](endpoint-dlp-learn-about.md) 항상 감사에 대한 업데이트된 지침이 추가된 끝점 데이터 손실 방지에 대해 자세히 알아보습니다.
+- GA [릴리스에 대해](dlp-on-premises-scanner-get-started.md) 업데이트된 데이터 손실 방지를 시작하십시오.
+- GA 릴리스에 Microsoft 365 업데이트된 데이터 손실 방지 [on-premises scanner에](dlp-on-premises-scanner-learn.md) 대해 자세히 알아보습니다.
+- GA 릴리스에 Microsoft 365 업데이트된 데이터 손실 방지 [on-premises scanner를](dlp-on-premises-scanner-use.md) 사용 합니다.
+- GA 릴리스 및 MIP-MCAS 통합에 대해 업데이트된 [비 Microsoft](dlp-use-policies-non-microsoft-cloud-apps.md) 클라우드 앱에 대한 데이터 손실 방지 정책을 사용하세요.
+
+### <a name="insider-risk-management"></a>내부자 위험 관리
+
+- [내부자 위험 관리](insider-risk-management-activities.md) 활동 조사 새 사용자 활동 보고서에 대한 콘텐츠 업데이트가 추가된 후 여러 경고 미리 보기 기능을 새로 릴리스합니다.
+- [내부자 위험 관리](insider-risk-management-settings.md) 설정 시작 새 RBAC 기능에 대한 콘텐츠 업데이트가 추가되어 우선 순위 사용자 그룹 미리 보기 기능에 대한 검토자를 선택합니다.
+
+### <a name="privacy-management"></a>개인 정보 관리
+
+- Microsoft [개인 정보 관리가](privacy-management.md) 공개 미리 보기로 들어갔습니다. 개인 정보 관리는 조직이 사용자 환경의 개인 데이터를 이해하고 관리하고Microsoft 365 잠재적인 개인 정보 위험을 수정하고, 주체 권한 요청을 이행하는 데 도움이 됩니다.
+
+### <a name="retention-and-records-management"></a>보존 및 레코드 관리
+- 미리 보기: [Teams](create-retention-policies.md#retention-policy-for-teams-locations) 정책은 이제 보존 정책을 만들거나 편집할 때 개인 Teams 위치로 지원됩니다.
+- 파일 [계획 가져오기 지침이](file-plan-manager.md#import-retention-labels-into-your-file-plan) 규제 레코드를 포함하기 위해 업데이트되어 각 항목에 대한 종속성도 나열됩니다.
+
+### <a name="sensitive-information-types"></a>중요한 정보 유형
+
+다음 페이지가 추가되었습니다.
+
+- [사용자 지정 중요한 정보 유형 필터 참조](sit-custom-sit-filters.md)
+- [PowerShell을 사용하여 사용자 지정 중요한 정보 유형 수정](sit-modify-a-custom-sensitive-information-type-in-powershell.md)
+- [PowerShell을 사용하여 사용자 지정 중요한 정보 유형 제거](sit-remove-a-custom-sensitive-information-type-in-powershell.md)
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+- 교육 가능한 분류자가 현재 Office 및 웹용 앱(Windows Online)에서 자동 레이블 지정을 위해 GA(일반적 분류자)를 사용할 수 있습니다Office [](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
+- 필수 레이블 지정이 이제 [Power BI(미리 보기)로 확장됩니다.](/power-bi/admin/service-security-sensitivity-label-mandatory-label-policy)
+- [민감도]( sensitivity-labels-coauthoring.md)레이블로 암호화된 파일에 대한 공동 작성: 민감도 레이블을 조건 및 전자 메일의 암호화되지 않은 첨부 파일로 사용하는 DLP 정책에 대한 지원을 롤아웃합니다.
+- Outlook 감사 이벤트를 macOS, iOS 및 Android에서 사용할 수 있으며 현재 웹용 Outlook
 
 ## <a name="june-2021"></a>2021년 6월
 
@@ -224,8 +294,8 @@ Outlook 릴리스 및 업데이트:
 
 - [끝점 DLP에 대해 자세히](/microsoft-365/compliance/endpoint-dlp-learn-about)
 - [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](/microsoft-365/compliance/use-notifications-and-policy-tips)
-- [데이터 손실 Microsoft 365 스캐너에 대해 자세히 알아보시고](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
-- [데이터 손실 방지 On-premises 스캐너 시작](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
+- [Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
+- [데이터 손실 방지 온-프레미스 스캐너로 시작하기](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
 - [FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
 - [엔드포인트 데이터 손실 방지 사용](/microsoft-365/compliance/endpoint-dlp-using)
 - [끝점 데이터 손실 방지 시작](/microsoft-365/compliance/endpoint-dlp-getting-started)
@@ -276,22 +346,3 @@ Outlook 릴리스 및 업데이트:
 
 - **SharePoint 공유를 구성합니다.** 컨테이너 [레이블의 경우](sensitivity-labels-teams-groups-sites.md) 현재 사이트로부터의 외부 공유에 SharePoint 사용할 수 있는 옵션이 출시되었습니다. 또한 이제 Microsoft 365 관리 센터 및 Planner는 이러한 민감도 레이블 적용을 지원하고 있습니다. 
 - **공동 작성 및 자동 작성**. 암호화된 [파일에 대한](sensitivity-labels-coauthoring.md) 공동 작성 및 자동 저장 지원은 프로덕션이 아닌 테넌트에서 테스트를 위해 미리 보기로 릴리스됩니다.
-
-## <a name="january-2021"></a>2021년 1월
-
-### <a name="support-for-card-content-in-teams"></a>카드 콘텐츠에 대한 Teams
-
-다음 Microsoft 365 규정 준수 솔루션은 이제 메시지에서 앱을 통해 생성된 카드 콘텐츠의 Teams 지원합니다. [](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
-
-- **Core 및 Advanced eDiscovery**. 이제 카드 콘텐츠를 [](create-ediscovery-holds.md#preserve-card-content) 보류하거나 검색에 포함될 수 있습니다(콘텐츠 검색에도 적용). [](/microsoftteams/ediscovery-investigation#search-for-card-content)
-- **감사**. 이제 카드 활동이 감사 [로그에 기록됩니다.](/microsoftteams/audit-log-events#teams-activities)
-- **보존 정책**. 이제 보존 정책을 사용하여 카드 콘텐츠를 [보존하고 삭제할 수 있습니다.](retention-policies-teams.md#whats-included-for-retention-and-deletion)
-
-### <a name="information-governance-and-records-management"></a>정보 거버넌스 및 레코드 관리
-
-[정보](retention-regulatory-requirements.md#new-zealand-public-records-act) 거버넌스 및 레코드 관리를 사용하여 뉴질랜드 공용 레코드 법에 대한 규정 준수 의무를 충족하는 데 도움이 되는 새로운 평가입니다.
-
-### <a name="sensitivity-labels"></a>민감도 레이블
-
-- 이제 미국 정부 테넌트(GCC 및 GCC-H)에 대해 민감도 레이블이 지원됩니다.
-- [macOS에 대한 새로운](sensitivity-labels-office-apps.md) 자동 레이블 지정 지원.

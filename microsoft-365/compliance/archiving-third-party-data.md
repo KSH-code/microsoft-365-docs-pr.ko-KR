@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 512f08a621487fb2c3f2fd9f6b5d8ac00e49ac5e
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 48fadb6ba6e0b67575b6454d49a0f275c880ea42ed54166d84ea5258be0e2158
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541076"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54520414"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>타사 데이터를 데이터 저장소에 Microsoft 365
 
@@ -95,7 +95,7 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 |[텍스트 구분](archive-text-delimited-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
 |[Webex Teams](archive-webexteams-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[웹 페이지](archive-webpagecapture-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[Facebook의 작업 영역](archive-workplacefromfacebook-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Facebook의 Workplace](archive-workplacefromfacebook-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[XIP](archive-xip-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[XSLT/XML](archive-xslt-xml-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
 |[Yieldbroker](archive-yieldbroker-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
@@ -117,6 +117,7 @@ TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있�
 |[Bell Network](archive-bell-network-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[기업 번호](archive-enterprise-number-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[O2 Network](archive-o2-network-data.md)     |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Rogers Network](archive-rogers-network-archiver-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[신호](archive-signal-archiver-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Telegram](archive-telegram-archiver-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[TELUS Network](archive-telus-network-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
@@ -146,6 +147,7 @@ TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있�
 |[Quip](archive-17a-4-quip-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Refinitiv Eikon Messenger](archive-17a-4-refinitiv-messenger-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[ServiceNow](archive-17a-4-servicenow-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+[비즈니스용 Skype 서버](archive-17a-4-skype-for-business-server-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[여유 시간](archive-17a-4-slack-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[SQL](archive-17a-4-sql-database-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Symphony](archive-17a-4-symphony-data.md)    |![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
@@ -260,8 +262,11 @@ eDiscovery 검색 쿼리를 만드는 데 대한 자세한 내용은 [eDiscovery
 |Bell SMS/MMS 네트워크 보관 장치 | 예 | 아니요 | 아니요 |
 |엔터프라이즈 번호 보관 장치 | 예 | 아니요 | 아니요 |
 |O2 SMS 및 음성 네트워크 보관 | 예         | 아니요 | 아니요 |
+|신호 보관기 | 예 | 아니요 | 아니요 |
+|텔레그램 보관기 | 예 | 아니요 | 아니요 |
 |TELUS SMS 네트워크 보관함 | 예 | 아니요 | 아니요 |
 |Verizon SMS/MMS 네트워크 보관 장치 | 예 | 아니요 | 아니요 |
+|WeChat 보관 장치 | 예 | 아니요 | 아니요 |
 |WhatsApp 보관 장치 | 예 | 아니요 | 아니요 |
 |||||
 

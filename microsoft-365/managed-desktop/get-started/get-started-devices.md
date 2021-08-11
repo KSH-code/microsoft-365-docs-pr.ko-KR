@@ -11,12 +11,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8a20a7103be799826cb848c71cb285b0884e9540
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 3b4b46d124f1ebdee926e7ce05e2a280725dafc6dca234dec0c15800c794a9c8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53800717"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>사용자들이 장치를 사용할 수 있도록 준비시키기
 

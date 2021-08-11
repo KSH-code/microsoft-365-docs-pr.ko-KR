@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ff0e134d38288b12cbc46dc3ca5f103fbf8c7ad9
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 28260c5c34663254e9ee6f238e98259caf68e8f002d1c8572e448fcecbbde963
+ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007678"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57803227"
 ---
 # <a name="prevent-users-from-seeing-or-interacting-with-the-microsoft-defender-antivirus-user-interface"></a>사용자가 사용자 인터페이스를 보거나 상호 작용하지 Microsoft Defender 바이러스 백신 방지
 
@@ -40,7 +40,7 @@ Windows 10 버전 1703에서는 인터페이스를 숨기면 Microsoft Defender 
 
 설정이 **사용으로** 설정된 경우 :
 
-:::image type="content" source="../../media/wdav-headless-mode-1703.png" alt-text="Windows 보안 아이콘 및 바이러스 및 위협 방지 섹션이 없는 경우":::
+:::image type="content" source="../../media/wdav-headless-mode-off-1703.png" alt-text="방패 Windows 보안 및 바이러스 및 위협 방지 섹션이 없는 경우의 스크린샷":::
 
 설정이 사용 안 하도록 **설정되거나** 구성되지 않은 경우:
 

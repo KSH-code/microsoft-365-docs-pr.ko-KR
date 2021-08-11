@@ -19,7 +19,7 @@ ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/04/2021
-ms.locfileid: "53757309"
+ms.locfileid: "53726323"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 

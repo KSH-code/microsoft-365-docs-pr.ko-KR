@@ -20,12 +20,12 @@ ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 및 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: 6c02632c2f953b4a4ce94bc434ce26a1798a8707
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 0a16c7a4b7668d580246a94ac721d2438e95b70cfe1a2b4ac302048913a11ebd
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544724"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54520402"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
@@ -62,7 +62,7 @@ ms.locfileid: "53544724"
 
     - **드라이브 배송:** WAImportExport.exe 도구 (1단계에서 다운로드)는 PST 파일을 하드 드라이브로 복사하는 데 사용됩니다. 이 도구는 BitLocker로 하드 드라이브를 암호화한 다음 PST를 하드 드라이브에 복사합니다. 네트워크 업로드와 마찬가지로 하드 드라이브에 복사하려는 PST 파일은 조직의 파일 공유 또는 파일 서버에 위치해야 합니다.
 
-3. **PST 가져오기 매핑 파일 만들기** - PST 파일을 Azure Storage 위치에 업로드하거나 하드 드라이브에 복사한 후의 다음 단계는 가져온 PST파일이 위치하게 될 사용자 사서함을 지정하는 쉼표로 구분된 값 (CSV) 파일을 만드는 것입니다 (PST 파일은 사용자의 기본 사서함이나 보관 사서함으로 가져올 수 있습니다). Office 365 가져오기 서비스는 이 정보를 사용하여 PST 파일을 가져옵니다.
+3. **PST 가져오기 매핑 파일 만들기** - PST 파일을 Azure Storage 위치에 업로드하거나 하드 드라이브에 복사한 후의 다음 단계는 가져온 PST파일이 위치하게 될 사용자 사서함을 지정하는 쉼표로 구분된 값 (CSV) 파일을 만드는 것입니다 (PST 파일은 사용자의 기본 사서함이나 보관 사서함으로 가져올 수 있습니다). [PST 가져오기 매핑 파일의 복사본 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=544717). Office 365 가져오기 서비스는 이 정보를 사용하여 PST 파일을 가져옵니다.
 
 4. **PST 가져오기 작업 만들기** - 다음 단계는 보안 & 준수 센터의 **PST 파일 가져오기** 페이지에서 PST 가져오기 작업을 만들고 이전 단계에서 만든 PST 가져오기 매핑 파일을 제출하는 것입니다. 네트워크 업로드의 경우 (PST 파일이 Azure에 업로드 되었기 때문에) Microsoft 365는 PST 파일의 데이터를 분석한 다음 PST 가져오기 매핑 파일에 지정된 사서함으로 실제로 가져올 데이터를 제어하는 필터를 설정할 수 있는 기회를 제공합니다.
 

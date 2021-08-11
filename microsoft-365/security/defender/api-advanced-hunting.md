@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender 고급 헌팅 API
-description: Defender의 고급 헌팅 API를 사용하여 Microsoft 365 헌팅 쿼리를 실행하는 방법에 대해 자세히 알아보기
+title: Microsoft 365 Defender 헌팅 API
+description: 고급 헌팅 API를 사용하여 고급 헌팅 Microsoft 365 Defender 방법을 배우기
 keywords: 고급 헌팅, API, api, M365 Defender, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3ff62265783be846a95964164e372100fe1ef662
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 4064a2d4469fb842a6446c1a869de44a48f2b627cdb25ae4f7999a255c3d04f2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53792917"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender 고급 헌팅 API
 
@@ -38,7 +38,7 @@ ms.locfileid: "52769589"
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-[고급 헌팅은](advanced-hunting-overview.md) 특수하게 생성한 [](advanced-hunting-query-language.md) 쿼리를 사용하여 Defender에서 지난 30일 동안의 이벤트 데이터를 Microsoft 365 위협 헌팅 도구입니다. 고급 헌팅 쿼리를 사용하여 비정상적인 활동을 검사하고, 가능한 위협을 감지하고, 공격에 대응할 수 있습니다. 고급 헌팅 API를 사용하면 프로그래밍적으로 이벤트 데이터를 쿼리할 수 있습니다.
+[고급 헌팅은](advanced-hunting-overview.md) 특수하게 생성되는 [](advanced-hunting-query-language.md) 쿼리를 사용하여 30일 동안의 이벤트 데이터를 검사하는 위협 헌팅 Microsoft 365 Defender. 고급 헌팅 쿼리를 사용하여 비정상적인 활동을 검사하고, 가능한 위협을 감지하고, 공격에 대응할 수 있습니다. 고급 헌팅 API를 사용하면 프로그래밍적으로 이벤트 데이터를 쿼리할 수 있습니다.
 
 ## <a name="quotas-and-resource-allocation"></a>할당량 및 리소스 할당
 
@@ -56,7 +56,7 @@ ms.locfileid: "52769589"
 
 ## <a name="permissions"></a>사용 권한
 
-고급 헌팅 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 [Access the Microsoft 365 Defender Protection API를 참조합니다.](api-access.md)
+고급 헌팅 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Access the Microsoft 365 Defender Protection API를 참조합니다.](api-access.md)
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 -|-|-
@@ -77,7 +77,7 @@ POST https://api.security.microsoft.com/api/advancedhunting/run
 
 ## <a name="request-headers"></a>요청 헤더
 
-머리글 | 값
+헤더 | 값
 -|-
 권한 부여 | Bearer {token} **참고: 필수**
 Content-Type | application/json
@@ -88,7 +88,7 @@ Content-Type | application/json
 
 매개 변수 | 유형 | 설명
 -|-|-
-Query | 텍스트 | 실행할 쿼리입니다. **참고: 필수**
+쿼리 | 텍스트 | 실행할 쿼리입니다. **참고: 필수**
 
 ## <a name="response"></a>응답
 
@@ -100,11 +100,11 @@ Query | 텍스트 | 실행할 쿼리입니다. **참고: 필수**
 2. Schema - 응답의 schema, 각 열에 Name-Type 쌍의 목록입니다.
 3. 결과 - 고급 헌팅 이벤트 목록입니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 다음 예제에서는 사용자가 아래 쿼리를 보내고 , 및 가 포함된 API 응답 개체를 `Stats` `Schema` `Results` 수신합니다.
 
-### <a name="query"></a>Query
+### <a name="query"></a>쿼리
 
 ```json
 {
@@ -179,7 +179,7 @@ Query | 텍스트 | 실행할 쿼리입니다. **참고: 필수**
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Microsoft 365 Defender API에 액세스](api-access.md)
+- [MICROSOFT 365 DEFENDER API에 액세스](api-access.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)
 - [지능형 헌팅 개요](advanced-hunting-overview.md)
