@@ -380,7 +380,7 @@ ms.locfileid: "53226434"
 7. 정책에 추가할 사용자 목록을 가져오려면 **가져오기** 를 선택하여 .csv(쉼표로 구분된 값) 파일을 가져옵니다. 파일은 다음 형식이어야 하며 파일의 사용자 계정 이름을 나열해야 합니다.
 
     ```csv
-    user principal name
+    사용자 계정 이름
     user1@domain.com
     user2@domain.com
     ```
