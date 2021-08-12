@@ -9,18 +9,18 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 69d55ba27573abe29cbb2570693247e04740ca76
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 041f493e81a38b09fd064eaac866af74913e0b5c9986dd6e752eec80ba86a9e8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53794621"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 관리자 지원
 
 관리자 포털을 사용하여 지원 티켓 또는 피드백 요청을 Microsoft에 Microsoft Managed Desktop 수 있습니다. 지원 요청은 항상 피드백 제출보다 우선합니다. 지원 요청은 심각도 정의 테이블에 설명된 심각도에 따라 조사 및 [관리됩니다.](#sev) 피드백을 검토하고 요청된 경우 응답이 제공됩니다.
 
-## <a name="open-a-new-support-request"></a>새 지원 요청 열기
+## <a name="open-a-new-support-request"></a>새 지원 요청 만들기
 
 1. 로그인하여 [](https://endpoint.microsoft.com/) Microsoft Endpoint Manager 테넌트 관리 **메뉴로** 이동합니다.
 2. Microsoft Managed Desktop 찾아 서비스 요청을 **선택합니다.**

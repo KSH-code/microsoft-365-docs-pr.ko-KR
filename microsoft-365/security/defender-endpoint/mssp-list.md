@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 18e8f6e0ea18fc129f317f8df36052568c0350e6
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 6f527a907d9ad809fe75a39c5613798174902f3e13e53c93e75b6b68c33d514d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53648270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53806581"
 ---
 # <a name="supported-managed-security-service-providers"></a>관리되는 보안 서비스 공급자 지원
 
@@ -60,5 +60,5 @@ ms.locfileid: "53648270"
 ![Wortell의 클라우드 SOC 로고 이미지](images/wortell-logo.png)| [Wortell의 클라우드 SOC](https://go.microsoft.com/fwlink/?linkid=2108415) | 24x7 Managed Defender for Endpoint service for monitoring &
 ![ZTAP(Zero Trust Analytics Platform) 로고 이미지](images/ztap-logo.png)| [ZTAP(Zero Trust Analytics Platform)](https://go.microsoft.com/fwlink/?linkid=2090971) | 알림을 99% 줄이고 모바일 장치에서 모든 보안 기능에 액세스
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [관리 서비스 보안 공급자 통합 구성](configure-mssp-support.md)

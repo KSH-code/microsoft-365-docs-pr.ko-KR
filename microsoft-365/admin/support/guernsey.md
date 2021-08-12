@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 625553a91aa8cb6d962da7826c230e48c85591a9
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 7e6de89ab2d94d983fd62c18aab71a98805e76634294326332bf0df7c8cf789d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52298761"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53821262"
 ---
 # <a name="contact-support-for-guernsey"></a>Guernsey 지원에 문의
 

@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Microsoft Service Trust Portal에 액세스하고 이를 사용하여 보안, 개인 정보 보호 및 규정 준수 사례에 도움이 되는 방법을 배워야 합니다.
-ms.openlocfilehash: a3a46884a41be31779b82a74bc2b6750dea697c5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 38a5295d225df1ec04fba756b0e88639ab5c3dad7a67e8597456ca318f004d09
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53814089"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 
@@ -40,19 +40,19 @@ Service Trust Portal에는 클라우드 서비스와 포함된 고객 데이터�
 - Azure
 
  > [!NOTE]
- > Azure Active Directory 조직과 연결된 계정은 준수 관리자와 같은 전체 문서 및 기능에 액세스할 수 있습니다. 개인적으로 사용하기 위해 만든 Microsoft 계정은 Service Trust Portal 콘텐츠에 제한적으로 액세스할 수 있습니다.
+ > 조직과 연결된 Azure Active Directory 계정은 준수 관리자와 같은 모든 문서 및 기능에 액세스할 수 있습니다. 개인적으로 사용하기 위해 만든 Microsoft 계정은 Service Trust Portal 콘텐츠에 제한적으로 액세스할 수 있습니다.
 
 ### <a name="new-customers-and-customers-evaluating-microsoft-online-services"></a>Microsoft 온라인 서비스를 평가하는 신규 고객 및 고객
 
 새 계정을 만들거나 평가판 계정을 만들하려면 다음 등록 양식(평가판 계정에도 사용) 중 하나를 사용하여 STP에 액세스합니다.
 
-- 새 비즈니스용 Microsoft 365 앱 평가판 계정 또는 [새](https://go.microsoft.com/fwlink/p/?LinkID=507653) Office 365 Enterprise [평가판 계정에 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)
+- 새 [비즈니스용 Microsoft 365 앱](https://go.microsoft.com/fwlink/p/?LinkID=507653) 평가판 계정 또는 새 [Office 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkID=698279) 평가판 계정 등록
 
 - [새 Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=252780) 평가판 계정에 등록
 
 - 새 Azure 평가판 계정에 [등록합니다.](https://go.microsoft.com/fwlink/?LinkId=722737)
 
-무료 평가판 또는 구독에 등록할 때 STP에 대한 액세스를 지원하려면 Azure Active Directory 사용하도록 설정해야 합니다.
+무료 평가판 또는 구독에 등록할 때 STP에 대한 액세스를 지원하려면 Azure Active Directory를 사용하도록 설정해야 합니다.
 
 ## <a name="using-the-service-trust-portal"></a>Service Trust Portal 사용
 
@@ -69,7 +69,7 @@ Service **Trust Portal 링크에** 홈 페이지가 표시됩니다. 이 기능�
 ### <a name="compliance-manager"></a>규정 관리자
 
 > [!IMPORTANT]
-> 준수 관리자가 서비스 신뢰 포털에서 서비스 준수 센터의 새 Microsoft 365 [이동했습니다.](https://compliance.microsoft.com/) 모든 고객 데이터가 새 위치로 이동하여 중단 없이 준수 관리자를 계속 사용할 수 있습니다. 설치 정보는 [준수 관리자](compliance-manager.md) 설명서를 참조하고 새로운 기능에 대해 자세히 알아보는 것이 좋습니다. 준수 관리자의 클래식 버전이 Service Trust Portal에 남아도 모든 사용자는 서비스 신뢰 포털에서 준수 관리자를 사용하는 것이 Microsoft 365 합니다.
+> 준수 관리자가 Service Trust Portal에서 [Microsoft 365](https://compliance.microsoft.com/)규정 준수 센터의 새 위치로 이동했습니다. 모든 고객 데이터가 새 위치로 이동하여 중단 없이 준수 관리자를 계속 사용할 수 있습니다. 설치 정보는 [준수 관리자](compliance-manager.md) 설명서를 참조하고 새로운 기능에 대해 자세히 알아보는 것이 좋습니다. 준수 관리자의 클래식 버전이 Service Trust Portal에 남아도 모든 사용자는 Microsoft 365 규정 준수 센터에서 준수 관리자를 사용하는 것이 권장됩니다.
 
 ### <a name="trust-documents"></a>보안 문서
 
@@ -109,7 +109,7 @@ Microsoft 클라우드의 보안, 규정 준수 및 개인 정보 보호에 대�
 
 - **설정:** 이 페이지에서는 준수 관리자(클래식)에 대한 사용자 역할을 할당할 수 있습니다.
 
-- **사용자 개인 설정:** 이 페이지에서는 특정 사용자에 대한 준수 관리자(클래식)에서 작업 항목 할당이 포함된 보고서를 내보낼 수 있습니다. 또한 모든 작업 항목을 다른 사용자에게 다시 할당하고 지정된 사용자에서 할당된 작업 항목을 제거할 수도 있습니다.
+- **사용자 개인 정보 설정:** 이 페이지에서는 특정 사용자에 대한 준수 관리자(클래식)에서 작업 항목 할당이 포함된 보고서를 내보낼 수 있습니다. 또한 모든 작업 항목을 다른 사용자에게 다시 할당하고 지정된 사용자에서 할당된 작업 항목을 제거할 수도 있습니다.
 
 ### <a name="search"></a>검색
 
@@ -130,7 +130,7 @@ Service Trust Portal 페이지의 오른쪽 위 모서리에 있는 돋보기를
 
 내 라이브러리 기능을 사용하여 Service Trust Portal의 문서 및 리소스를 내 라이브러리 페이지에 추가합니다. 이렇게 하면 사용자와 관련된 문서에 한 장소에서 액세스할 수 있습니다.  내 라이브러리에 문서를 추가하려면 문서 오른쪽의 **...** 메뉴를 클릭한 다음 라이브러리에 **저장을 선택합니다.** 하나 이상의 문서 옆에 있는 확인란을 클릭한 다음 페이지 맨 위에 있는 라이브러리에 저장을 클릭하여 내 라이브러리에 여러 문서를 추가할 수 있습니다. 
 
-또한 알림 기능을 사용하면 Microsoft에서 내 라이브러리에 추가한 문서를 업데이트할 때마다 전자 메일 메시지가 전송될 수 있도록 내 라이브러리를 구성할 수 있습니다. 알림을 설정하려면 내 라이브러리로 이동하여 에서 **알림을 설정.** 알림 빈도를 선택하고 알림을 보낼 조직의 전자 메일 주소를 지정할 수 있습니다. 전자 메일 알림에는 업데이트된 문서에 대한 링크와 업데이트에 대한 간략한 설명이 포함됩니다.
+또한 알림 기능을 사용하면 Microsoft에서 내 라이브러리에 추가한 문서를 업데이트할 때마다 전자 메일 메시지가 전송될 수 있도록 내 라이브러리를 구성할 수 있습니다. 알림을 설정하려면 내 라이브러리로 이동하여 알림 **설정을 클릭합니다.** 알림 빈도를 선택하고 알림을 보낼 조직의 전자 메일 주소를 지정할 수 있습니다. 전자 메일 알림에는 업데이트된 문서에 대한 링크와 업데이트에 대한 간략한 설명이 포함됩니다.
 
 또한 알림을 설정하는지 여부에 관계없이 지난 30일 이내에 업데이트된 내 라이브러리의 모든 문서를 식별합니다. 업데이트에 대한 간략한 설명도 도구 설명에 표시됩니다.
 

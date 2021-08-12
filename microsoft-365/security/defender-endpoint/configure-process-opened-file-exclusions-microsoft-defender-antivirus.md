@@ -15,12 +15,12 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 0470f4f03ba5fd6fc768a1e652f51b8c44207107
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 894f2da81365b176afd7789635a4c9830c6d8ab681478df91e5aedd3a6579cc0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53794393"
 ---
 # <a name="configure-exclusions-for-files-opened-by-processes"></a>프로세스에서 연 파일에 대한 제외 구성
 
@@ -35,7 +35,7 @@ ms.locfileid: "52925558"
 
 ## <a name="examples-of-exclusions"></a>제외의 예
 
-|제외 | 예시 |
+|제외 | 예제 |
 |---|---|
 |특정 파일 이름을 사용 하 고 모든 프로세스에서 열 수 있는 컴퓨터의 모든 파일 | 다음을 `test.exe` 통해 연 파일은 제외됩니다. <br/>`c:\sample\test.exe`<br/>`d:\internal\files\test.exe` |  
 |특정 폴더의 모든 프로세스에서 연 컴퓨터의 모든 파일 | 다음을 `c:\test\sample\*` 통해 연 파일은 제외됩니다.<br/>`c:\test\sample\test.exe`<br/>`c:\test\sample\test2.exe`<br/>`c:\test\sample\utility.exe` | 

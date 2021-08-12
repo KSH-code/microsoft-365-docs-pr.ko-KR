@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: Adm_O365
 ms.assetid: 026e83cb-a945-4543-97b0-a8af6e80ac61
 description: 이 문서에는 일반적인 팁과 다른 리소스에 대한 링크가 포함되어 있으며, 이 링크를 통해 사용자 관리의 성능을 Exchange Online.
-ms.openlocfilehash: a7d3268f9f3cf1922319b03cf69d3f044272b27f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0f1a55648b90cfc07a81928f3e30196f9d928bd5271073828500e58138a4007c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909445"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53794657"
 ---
 # <a name="tune-exchange-online-performance"></a>Exchange Online 성능 조정
 
@@ -37,7 +37,7 @@ ms.locfileid: "50909445"
     
 - **인터넷 트래픽이 적고, 낮은 인터넷 트래픽이 발생하는 동안 사서함 이동이 발생할 수 Exchange 예약합니다.** 이동을 위한 경우 마이그레이션 요청이 사서함 복제 프록시로 전송되어 즉시 수행되지 않을 수 있습니다. 
     
-- **웹에서 사용할 수 있는 Outlook 팝업을 사용 합니다.** 작은 팝업은 서버에서 일부 구성 요소를 렌더링하여 Microsoft Edge 또는 Internet Explorer 전자 메일 메시지의 메모리를 많이 사용하는 더 작고 적은 버전을 제공합니다. 자세한 내용은 린트 팝업을 사용하여 메일 메시지를 읽을 때 사용되는 메모리 [줄이기를 참조하세요.](https://support.office.com/article/a6d6ba01-2562-4c3d-a8f1-78748dd506cf)
+- **을 위해 린트 웹용 Outlook.** 작은 팝업은 서버에서 일부 구성 요소를 렌더링하여 Microsoft Edge 또는 Internet Explorer 전자 메일 메시지의 메모리를 많이 사용하는 더 작고 적은 버전을 제공합니다. 자세한 내용은 린트 팝업을 사용하여 메일 메시지를 읽을 때 사용되는 메모리 [줄이기를 참조하세요.](https://support.office.com/article/a6d6ba01-2562-4c3d-a8f1-78748dd506cf)
 
 
 ## <a name="general-advice"></a>일반 조언

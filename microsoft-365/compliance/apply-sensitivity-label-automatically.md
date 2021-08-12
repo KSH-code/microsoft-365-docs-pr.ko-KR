@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: ae51d32343bbcf81d2d659121f475837cf0abe95
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 0822ef527429e48f6eb301af0838081ed597b5d9c5b1cb6825f6a53cfb93d19a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53836847"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -85,7 +85,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 
 |기능 또는 동작|레이블 설정: 파일 및 전자 메일에 자동 레이블 지정  |정책: 자동 레이블 지정|
 |:-----|:-----|:-----|
-|앱 종속성|[예](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) |아니요\* |
+|앱 종속성|예([최소 버전](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)) |아니요\* |
 |위치별 제한|아니오 |예 |
 |조건: 훈련 가능한 분류자|예 |아니요 |
 |조건: 전자 메일 공유 옵션 및 추가 옵션|아니요 |예 |
@@ -146,26 +146,13 @@ DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 일치 정확
 
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>레이블에 교육 가능한 분류자 구성하기
 
-이 옵션은 현재 미리 보기로 제공됩니다. 이 옵션을 사용하는 경우 자동 레이블 지정과 [중요한 정보 유형 옵션](#configuring-sensitive-info-types-for-a-label)에 구성된 하나 이상의 다른 민감도 레이블을 테넌트에 게시했는지 확인하세요.
+이 옵션을 사용하는 경우 자동 레이블 지정과 [중요한 정보 유형 옵션](#configuring-sensitive-info-types-for-a-label)에 구성된 하나 이상의 다른 민감도 레이블을 테넌트에 게시했는지 확인하세요.
 
 **교육 가능한 분류자** 옵션을 선택하는 경우, Microsoft의 기본 제공 교육 가능 분류자를 하나 이상 선택합니다. 사용자 지정 교육 가능 분류자를 만든 경우, 다음의 사항 또한 선택할 수 있습니다.
 
 ![교육 가능한 분류자 및 민감도 레이블에 대한 옵션](../media/sensitivity-labels-classifers.png)
 
 해당 분류자에 대한 자세한 내용은 [학습 가능한 분류자에 대한 자세한 정보](classifier-learn-about.md)를 참조하세요.
-
-이 옵션의 미리 보기 기간 동안 다음 앱이 민감도 레이블에 대한 교육 가능한 분류자를 지원합니다.
-
-- Windows 엔터프라이즈용 Microsoft 365 앱([구 Office 365 ProPlus](/deployoffice/name-change))가 버전 2006 이후에서 [현재 채널](/deployoffice/overview-update-channels#current-channel-overview)로 배포됩니다.
-    - Word
-    - Excel
-    - PowerPoint
-
-- [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)한 경우, 웹 앱용 Office:
-    - Word
-    - Excel
-    - PowerPoint
-    - Outlook
 
 ### <a name="recommend-that-the-user-applies-a-sensitivity-label"></a>사용자가 민감도 레이블을 적용하는 것이 좋습니다.
 
@@ -191,7 +178,7 @@ Office 앱의 자동 및 권장 레이블 지정 구현은 Office 기본 제공 
 
 - 데스크톱 버전의 Word에서 권장되는 레이블의 경우 사용자가 권장되는 민감도 레이블을 적용하는 대신, 중요한 콘텐츠를 검토하고 제거할 수 있도록 권장 사항을 트리거한 중요한 콘텐츠에 플래그가 지정됩니다.
 
-- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/ko-KR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
+- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
 
 Azure Information Protection 통합 레이블 지정 클라이언트와 관련된 내용:
 

@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8fde75f8f7b65f9d74362a40b881b335129e4bee
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 3240b0c56b94c365f070935542ae100a94c0375847fa097cb29dc9886b210b79
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53652194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53829354"
 ---
 #  <a name="get-live-response-results"></a>라이브 응답 결과 얻기
 
@@ -50,6 +50,25 @@ ms.locfileid: "53652194"
 ## <a name="limitations"></a>제한 사항
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
+
+## <a name="minimum-requirements"></a>최소 요구 사항
+
+장치에서 세션을 시작하려면 먼저 다음 요구 사항을 충족해야 합니다.
+
+- 지원되는 버전의 를 실행 **중인지 Windows.**
+
+  장치에서 다음 버전의 디바이스 중 하나를 실행해야 Windows
+
+  - **Windows 10**
+    - [버전 1909](/windows/whats-new/whats-new-windows-10-version-1909) 이상
+    - [버전 1903(KB4515384)](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384) [](/windows/whats-new/whats-new-windows-10-version-1903)
+    - [KB4537818이](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818) 있는 버전 [1809(RS 5)](/windows/whats-new/whats-new-windows-10-version-1809)
+    - [KB4537795가](https://support.microsoft.com/help/4537795/windows-10-update-kb4537795) 있는 버전 [1803(RS 4)](/windows/whats-new/whats-new-windows-10-version-1803)
+    - [KB4537816이](https://support.microsoft.com/help/4537816/windows-10-update-kb4537816) 있는 버전 [1709(RS 3)](/windows/whats-new/whats-new-windows-10-version-1709)
+
+  - **Windows Server 2019 - 공개 미리 보기에만 해당**
+    - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
+    - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
 
 ## <a name="permissions"></a>사용 권한
 

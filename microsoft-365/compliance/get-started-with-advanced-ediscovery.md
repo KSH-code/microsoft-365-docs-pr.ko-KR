@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사례 만들기 및 관리를 시작할 수 있도록 Advanced eDiscovery 방법을 설명합니다. 또한 필수 Microsoft 구독 및 라이선싱에 대해 설명합니다. 몇 가지 빠른 단계를 완료하면 Advanced eDiscovery 사용할 수 있습니다.
-ms.openlocfilehash: be5e5aea03950d28889590004bd796455a71c5be
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 1b2f7a26c96af40f28ef69cfc70d07c90b229dc86b4a78df68247c30ab4ff323
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341451"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53814130"
 ---
 # <a name="set-up-microsoft-365-advanced-ediscovery"></a>설정 Microsoft 365 Advanced eDiscovery
 

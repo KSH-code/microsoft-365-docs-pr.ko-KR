@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva 항목의 항목 센터 이름 변경
+title: 다음 항목에서 항목 센터의 Microsoft Viva 변경
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,21 +9,21 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Viva 항목에서 항목 센터의 이름을 변경하는 방법을 배워야 합니다.
-ms.openlocfilehash: 91f0693ba24e412812e1b8db19cfcf0febd2ec66
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+description: Microsoft Viva 항목 센터의 이름을 변경하는 방법에 대해 자세히 알아보고
+ms.openlocfilehash: ba172df38a42ac00267496e2126c9d01058bb45bc925bfa8f75b3e3e98111247
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107726"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53794682"
 ---
-# <a name="change-the-name-of-the-topic-center-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 항목 센터 이름 변경
+# <a name="change-the-name-of-the-topic-center-in-microsoft-viva-topics"></a>다음 항목에서 항목 센터의 Microsoft Viva 변경
 
-Microsoft 365 센터에서 항목 [센터의 이름을 변경할 수 있습니다.](https://admin.microsoft.com) 이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
+에서 항목 센터의 이름을 변경할 [수 Microsoft 365 관리 센터.](https://admin.microsoft.com) 이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
 
-## <a name="to-access-topics-management-settings"></a>항목 관리 설정에 액세스하려면
+## <a name="to-access-topics-management-settings"></a>주제 관리 설정에 액세스하려면 다음을 수행합니다.
 
-1. Microsoft 365 관리 센터에서 설정 **,** **Org 설정을 클릭합니다.**
+1. 다음 Microsoft 365 관리 센터 **를** 클릭하고 설정 **를 클릭합니다.**
 2. 서비스 **탭에서** 항목 환경을 **클릭합니다.**
 
     ![커넥트 정보를 알 수 있습니다.](../media/admin-org-knowledge-options-completed.png) 
@@ -32,7 +32,7 @@ Microsoft 365 센터에서 항목 [센터의 이름을 변경할 수 있습니�
 
     ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png) 
 
-##  <a name="update-your-topic-center-name"></a>항목 센터 이름 업데이트
+##  <a name="update-your-topic-center-name"></a>주제 센터 이름 업데이트
 
 항목 센터의 이름을 변경합니다.
 
@@ -44,8 +44,8 @@ Microsoft 365 센터에서 항목 [센터의 이름을 변경할 수 있습니�
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft Viva 항목에서 항목 검색 관리](topic-experiences-discovery.md)
+[항목에서 항목 Microsoft Viva 관리](topic-experiences-discovery.md)
 
-[Microsoft Viva 항목에서 항목 표시 관리](topic-experiences-knowledge-rules.md)
+[항목의 항목 표시 Microsoft Viva 관리](topic-experiences-knowledge-rules.md)
 
-[Microsoft Viva 항목에서 항목 사용 권한 관리](topic-experiences-user-permissions.md)
+[다음 항목에서 항목 사용 Microsoft Viva 관리](topic-experiences-user-permissions.md)

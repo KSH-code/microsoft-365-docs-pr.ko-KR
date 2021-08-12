@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 05f6879c6fcb2e2c82c7d71b20a2bdb27c4b37e25f41d48f7acf22be22306ff1
-ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
+ms.openlocfilehash: deef2ee379c1804f2ed1d07fc3fbdb2aa04646d2e9b51aa842e12a0afa3e7017
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2021
-ms.locfileid: "57803191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53806703"
 ---
 #  <a name="manage-the-gradual-rollout-process-for-microsoft-defender-updates"></a>Microsoft Defender 업데이트에 대한 서진적 출시 프로세스 관리
 
@@ -42,13 +42,13 @@ ms.locfileid: "57803191"
 기능은 여러 구성 요소를 통해 제공됩니다. 
 
 - [끝점 검색 & 응답](overview-endpoint-detection-response.md) 
-- [클라우드 제공 보호를](microsoft-defender-antivirus-windows.md) 통해 [차세대 보호](cloud-protection-microsoft-defender-antivirus.md) 
+- [클라우드 제공 보호를](microsoft-defender-antivirus-in-windows-10.md#microsoft-defender-antivirus-your-next-generation-protection) 통해 [차세대 보호](cloud-protection-microsoft-defender-antivirus.md) 
 - [공격 표면 감소](overview-attack-surface-reduction.md)
 
 업데이트는 서진 릴리스 프로세스를 사용하여 월별 릴리스됩니다. 이 프로세스는 조기 오류 검색이 발생할 때 영향을 catch하고 더 큰 롤아웃 전에 빠르게 해결할 수 있도록 하는 데 도움이 됩니다. 
 
 > [!NOTE]
-> 일일 보안 인텔리전스 업데이트를 제어하는 방법에 대한 자세한 내용은 Schedule [Microsoft Defender 바이러스 백신 protection updates을 참조하십시오.](manage-protection-update-schedule-microsoft-defender-antivirus.md) 업데이트를 통해 클라우드 제공 보호를 끝점에서 사용할 수 없는 경우에도 차세대 보호가 새로운 위협으로부터 보호할 수 있습니다.
+> 일별 정의 업데이트를 제어하는 방법에 대한 자세한 내용은 일정 Microsoft Defender 바이러스 백신 정의 업데이트 - Windows [보안 업데이트를 | Microsoft Docs.](manage-protection-update-schedule-microsoft-defender-antivirus.md) 정의 업데이트는 클라우드 제공 보호를 끝점에서 사용할 수 없는 경우에도 차세대 보호가 새로운 위협으로부터 보호할 수 있도록 합니다.
 
 ## <a name="microsoft-gradual-rollout-model"></a>Microsoft의 서진적 출시 모델
 
@@ -87,9 +87,9 @@ WSUS(Windows Server Update Services) 또는 MECM(Microsoft Endpoint Configuratio
 | 현재 채널(광범위) | 서서한 릴리스가 끝날 때 업데이트 다운로드  | 디바이스는 서서한 릴리스 주기가 완료된 후에만 업데이트를 제공합니다. 프로덕션 인구의 광범위한 디바이스 집합(~10-100%)에 적용하는 것이 좋습니다.  |
 | 기본값  |   | 해당 정책을 사용하지 않도록 설정하거나 구성하지 않는 경우 장치는 현재 채널(기본값)에 남아 있습니다. 서서히 릴리스 주기 동안 자동으로 최신 상태로 유지됩니다. 대부분의 장치에 적합합니다.  |
 
-### <a name="update-channels-for-daily-updates"></a>매일 업데이트 채널 업데이트
+### <a name="update-channels-for-daily-definition-updates"></a>일별 정의 업데이트 채널 업데이트
 
-채널에 컴퓨터 할당을 통해 매일 업데이트를 받는 케이던스를 정의할 수 있습니다. 월별 프로세스와 달리 베타 채널이 없습니다. 이 점진적 릴리스 주기는 매일 여러 번 발생합니다.
+채널에 컴퓨터 할당을 통해 일별 정의 업데이트를 받는 케이던스를 정의할 수 있습니다. 월별 프로세스와 달리 베타 채널이 없습니다. 이 점진적 릴리스 주기는 매일 여러 번 발생합니다.
   
 | 채널 이름  | 설명  | 응용 프로그램  |
 |-|-|-|

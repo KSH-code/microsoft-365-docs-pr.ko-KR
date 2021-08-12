@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d4c1cf128353aabd402c32f461aa1441dd538ad0
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 816ab7ea3b3e8768b282e1fe145ae797be1e87eade6491bab4d463c80f65d133
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536517"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53796889"
 ---
 # <a name="payment-information-for-korea"></a>한국의 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52536517"
 **은행:** Citibank  
 **분기:** 89-29 신문로-2ka 청로구 서울, 대한민국 110-062  
 **SWIFT 코드:** CITIKRSX  
-**계정 번호:** 5001296088  
+**계정 번호: 5001296088**  
 **계정 이름:** MICROSOFT KOREA
