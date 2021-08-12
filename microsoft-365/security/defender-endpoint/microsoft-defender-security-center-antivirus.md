@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: c15e68a74c9bf518822fce211d6c7d5c4dbc3f2c
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 0de5817d4eb741885be6e43133b0886e90488bd4af04699a8c9dd970fbae8491
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53793337"
 ---
 # <a name="microsoft-defender-antivirus-in-the-windows-security-app"></a>Microsoft Defender 바이러스 백신 앱의 Windows 보안
 
@@ -104,7 +104,7 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 
 다음 표에서는 제외 유형과 발생하는 결과를 요약하여 제공합니다.
 
-|제외 유형  |정의한 사용자  |진행 작업  |
+|제외 유형  |정의한 사용자  |발생 작업  |
 |---------|---------|---------|
 |**파일** |위치 <br/>예: `c:\sample\sample.test` |특정 파일은 특정 파일에서 건너 Microsoft Defender 바이러스 백신. |
 |**폴더**    |위치 <br/>예: `c:\test\sample`       |지정한 폴더의 모든 항목은 폴더에서 건너 Microsoft Defender 바이러스 백신.         |

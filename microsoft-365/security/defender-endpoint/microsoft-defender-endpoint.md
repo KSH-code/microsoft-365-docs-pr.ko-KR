@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 35bcc532c492acbd0856a5b5410176df58af574a
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 65bfcf003ff1fc29187f0c66d2c39cf177b75b11ed792a5566ec0ef81b71d705
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53656346"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53793517"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 
@@ -138,5 +138,3 @@ ms.locfileid: "53656346"
 Microsoft 365 Defender를 통해 엔드포인트용 Microsoft Defender 및 다양한 Microsoft 보안 솔루션은 엔드포인트, ID, 이메일 및 애플리케이션 전반에 기본적으로 통합되어 정교한 공격을 탐지, 방지, 조사하고 자동으로 대응하는 통합된 침해 전후 엔터프라이즈 방어 제품군을 형성합니다.
 
 
-## <a name="related-topic"></a>관련 항목
-[엔드포인트용 Microsoft Defender는 정교한 위협 탐지를 지원합니다.](https://www.microsoft.com/itshowcase/microsoft-defender-atps-antivirus-capabilities-boost-malware-protection)

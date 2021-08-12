@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: aa12cc4ad885c3d4b9d1c35fba9f38747f24077d
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 50898cf6062719b81b75de07ffab6b9a8c58cd8759d92c7cccc330a1389feb5c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53828181"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -59,13 +59,13 @@ ID 및 장치 액세스 설정 및 정책은 기준 보호, 중요한 보호, �
 
 ## <a name="intended-audience"></a>대상
 
-이러한 권장 사항은 Azure AD(ID), Microsoft Intune(장치 관리) 및 Microsoft Information Protection(데이터 보호)을 포함하는 Microsoft 365 클라우드 생산성 및 보안 서비스에 익숙한 엔터프라이즈 설계자 및 IT 전문가를 위한 것입니다.
+이러한 권장 사항은 Azure AD(ID), Microsoft Intune(장치 관리) 및 데이터 보호(데이터 보호)를 포함하는 Microsoft 365 클라우드 생산성 및 보안 서비스에 익숙한 엔터프라이즈 설계자 및 IT 전문가를 Microsoft Information Protection 위한 것입니다.
 
 ### <a name="customer-environment"></a>고객 환경
 
 권장 정책은 전적으로 Microsoft 클라우드 내에서 운영되는 엔터프라이즈 조직과 Azure AD 테넌트와 동기화되는 사내 AD DS(Active Directory 도메인 서비스) 포리스트인 하이브리드 ID 인프라를 운영하는 고객에게 적용됩니다.
 
-제공된 많은 권장 사항은 E5 보안 추가 기능, EMS E5 Microsoft 365 E3 또는 Azure AD P2 Microsoft 365 E5 사용 가능한 서비스만 Premium 있습니다.
+제공된 많은 권장 사항은 E5 보안 추가 기능Microsoft 365 E5 EMS E5 또는 Microsoft 365 E3 라이선스에서만 사용할 수 있는 서비스를 Azure AD Premium P2 있습니다.
 
 이러한 라이선스가 없는 조직의 경우 모든 라이선스 계획에 [](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)포함된 보안 기본값을 구현하는 Microsoft 365 좋습니다.
 
@@ -120,11 +120,11 @@ Azure AD는 전체 ID 관리 기능 제품군을 제공합니다. 이러한 기�
 
 |기능 또는 특징|설명|라이선싱|
 |---|---|---|
-|[MFA(Multi-Factor Authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)|MFA를 사용하려면 사용자가 사용자 암호와 앱 앱 또는 전화 통화의 알림과 같은 두 가지 Microsoft Authenticator 제공해야 합니다. MFA는 도난된 자격 증명을 사용하여 환경에 액세스할 수 있는 위험을 크게 줄입니다. Microsoft 365 MFA 기반 로그인에 Azure AD 다단계 인증 서비스를 사용하게 됩니다.|Microsoft 365 E3 혹은 E5|
+|[MFA(다단계 인증)](/azure/active-directory/authentication/concept-mfa-howitworks)|MFA를 사용하려면 사용자가 사용자 암호와 앱 앱 또는 전화 통화의 알림과 같은 두 가지 Microsoft Authenticator 제공해야 합니다. MFA는 도난된 자격 증명을 사용하여 환경에 액세스할 수 있는 위험을 크게 줄입니다. Microsoft 365 MFA 기반 로그인에 Azure AD 다단계 인증 서비스를 사용하게 됩니다.|Microsoft 365 E3 혹은 E5|
 |[조건부 액세스](/azure/active-directory/conditional-access/overview)|Azure AD는 사용자 로그인의 조건을 평가하고 조건부 액세스 정책을 사용하여 허용된 액세스를 파악합니다. 예를 들어 이 지침에서는 중요한 데이터에 대한 액세스에 대한 장치 준수를 요구하는 조건부 액세스 정책을 만드는 방법을 보여 주겠습니다. 이렇게 하면 해커가 자신의 장치를 소유하고 자격 증명을 훔친 경우 중요한 데이터에 액세스할 수 있는 위험이 크게 줄어듭니다. 또한 디바이스가 상태 및 보안에 대한 특정 요구 사항을 충족해야 하기 때문에 장치의 중요한 데이터를 보호합니다.|Microsoft 365 E3 혹은 E5|
 |[Azure AD 그룹](/azure/active-directory/fundamentals/active-directory-manage-groups)|조건부 액세스 정책, Intune을 사용하여 장치 관리 및 조직의 파일 및 사이트에 대한 사용 권한도 사용자 계정 또는 Azure AD 그룹에 할당해야 합니다. 구현하는 보호 수준에 해당하는 Azure AD 그룹을 만드는 것이 좋습니다. 예를 들어 임원진은 해커의 가치 목표가 더 높을 수 있습니다. 따라서 이러한 직원의 사용자 계정을 Azure AD 그룹에 추가하고 이 그룹을 조건부 액세스 정책 및 액세스에 대한 높은 수준의 보호를 적용하는 기타 정책에 할당하는 것이 타당합니다.|Microsoft 365 E3 혹은 E5|
 |[장치 등록](/azure/active-directory/devices/overview)|Azure AD에 장치를 등록하여 디바이스의 ID를 만들 수 있습니다. 이 ID는 사용자가 로그인할 때 장치를 인증하고 도메인에 가입되거나 호환되는 PC가 필요한 조건부 액세스 정책을 적용하는 데 사용됩니다. 이 지침에서는 장치 등록을 사용하여 도메인에 가입된 컴퓨터를 자동으로 Windows 있습니다. 장치 등록은 Intune을 사용하여 장치를 관리하기 위한 선행 과정입니다.|Microsoft 365 E3 혹은 E5|
-|[Azure AD ID 보호](/azure/active-directory/identity-protection/overview)|조직의 ID에 영향을 주는 잠재적인 취약점을 감지하고 로그인 위험 및 사용자 위험을 낮음, 중간, 높음으로 자동 수정 정책을 구성할 수 있습니다. 이 지침은 이 위험 평가를 통해 다단계 인증에 대한 조건부 액세스 정책을 적용합니다. 이 지침에는 계정에서 높은 위험 활동이 감지되는 경우 사용자가 암호를 변경해야 하는 조건부 액세스 정책도 포함되어 있습니다.|Microsoft 365 E5, Microsoft 365 E3 E5 보안 추가 기능, EMS E5 또는 Azure AD Premium P2 라이선스를 사용하여|
+|[Azure AD ID 보호](/azure/active-directory/identity-protection/overview)|조직의 ID에 영향을 주는 잠재적인 취약점을 감지하고 로그인 위험 및 사용자 위험을 낮음, 중간, 높음으로 자동 수정 정책을 구성할 수 있습니다. 이 지침은 이 위험 평가를 통해 다단계 인증에 대한 조건부 액세스 정책을 적용합니다. 이 지침에는 계정에서 높은 위험 활동이 감지되는 경우 사용자가 암호를 변경해야 하는 조건부 액세스 정책도 포함되어 있습니다.|Microsoft 365 E5 E5 Microsoft 365 E3, EMS E5 또는 Azure AD Premium P2 라이선스가 있는 경우|
 |[SSPR(셀프 서비스 암호 재설정)](/azure/active-directory/authentication/concept-sspr-howitworks)|관리자가 제어할 수 있는 여러 인증 방법을 확인하여 지원 센터의 개입 없이도 암호를 안전하게 재설정할 수 있습니다.|Microsoft 365 E3 혹은 E5|
 |[Azure AD 암호 보호](/azure/active-directory/authentication/concept-password-ban-bad)|알려진 약한 암호와 해당 변형 및 조직과 관련이 있는 추가 약한 용어를 검색하고 차단합니다. 기본 전역 금지 암호 목록은 Azure AD 테넌트의 모든 사용자에게 자동으로 적용됩니다. 사용자 지정 금지 암호 목록에서 추가 항목을 정의할 수 있습니다. 사용자가 암호를 변경하거나 재설정하면 해당 금지된 암호 목록은 강력한 암호를 사용하도록 확인됩니다.|Microsoft 365 E3 혹은 E5|
 |

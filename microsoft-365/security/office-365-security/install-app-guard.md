@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 description: 하드웨어 기반의 최신 고리형을 다운로드합니다. 악용 또는 악의적인 링크와 같은 현재 및 새로운 공격이 직원 생산성과 엔터프라이즈 보안을 방해하지 않도록 방지합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 39d6a9c3a3c3a5e2c736025a26c22588f9f08bb0
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 6eabad2b52dc83c65b6a36ea4bb057573ce83e5d4dfc18b298ba1e287a8a696d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53828267"
 ---
 # <a name="application-guard-for-office-for-admins"></a>관리자를 위한 Office Application Guard
 

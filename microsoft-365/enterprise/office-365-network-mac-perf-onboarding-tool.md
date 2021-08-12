@@ -14,16 +14,16 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 연결 테스트 도구
-ms.openlocfilehash: 8cb25dfc8d11ca28d1a3c35985d84126f0652439
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: f143cf8f9cd838bafa8e21ac258d0fcc09f3221d738f14013ee81e09e9dbdc1c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53840990"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool"></a>Microsoft 365 연결 테스트 도구
 
-네트워크 Microsoft 365 테스트 도구는 에 <https://connectivity.office.com> 있습니다. 이 도구는 상태 관리 센터의 Microsoft 365 네트워크 평가 및 네트워크 인사이트 정보에 | **연결 메뉴**
+네트워크 Microsoft 365 테스트 도구는 에 <https://connectivity.office.com> 있습니다. 이 도구는 상태 관리 서비스에서 사용할 수 있는 네트워크 평가 및 네트워크 Microsoft 365 관리 센터 **도구입니다| 연결 메뉴**
 
 > [!IMPORTANT]
 > 모든 테스트 보고서가 관리자와 공유되어 로그인하는 동안 Microsoft 365 테넌트에 업로드할 수 있도록 테넌트에 로그인하는 것이 중요합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "52470595"
 >[!NOTE]
 >네트워크 연결 테스트 도구는 WW Commercial 및 Germany의 테넌트는 지원하지만 보통, GCC, GCC, DoD 또는 중국에서는 지원하지 않습니다.
 
-Microsoft 365 관리 센터의 네트워크 인사이트는 매일 집계되는 Microsoft 365 테넌트에 대한 정기적인 제품 내 측정을 기반으로 합니다. 이와는 비교할 때 Microsoft 365 네트워크 연결 테스트의 네트워크 인사이트는 로컬에서 한 번씩 실행됩니다. 제품에서 수행될 수 있는 테스트는 제한되어 있으며, 사용자에게 로컬로 테스트를 실행하면 더 많은 데이터를 수집할 수 있습니다. 그런 다음 Microsoft 365 관리 센터의 네트워크 정보를 통해 특정 사무실 위치의 네트워크 Microsoft 365 문제가 있는 것으로 나타날 수 있습니다. Microsoft 365 연결 테스트는 해당 문제의 근본 원인을 파악하여 권장되는 네트워크 성능 개선 작업으로 이어지는 데 도움이 될 수 있습니다.
+Microsoft 365 관리 센터의 네트워크 인사이트는 매일 집계되는 Microsoft 365 테넌트에 대한 정기적인 제품 내 측정을 기반으로 합니다. 이와는 비교할 때 Microsoft 365 네트워크 연결 테스트의 네트워크 인사이트는 로컬에서 한 번씩 실행됩니다. 제품에서 수행될 수 있는 테스트는 제한되어 있으며, 사용자에게 로컬로 테스트를 실행하면 더 많은 데이터를 수집할 수 있습니다. 그런 다음 Microsoft 365 관리 센터의 네트워크 정보를 통해 특정 사무실 위치에서 Microsoft 365 네트워킹 문제가 있는 것으로 나타날 수 있습니다. Microsoft 365 연결 테스트는 해당 문제의 근본 원인을 파악하여 권장되는 네트워크 성능 개선 작업으로 이어지는 데 도움이 될 수 있습니다.
 
 이러한 인사이트를 함께 사용하여 Microsoft 365 관리 센터의 각 사무실 위치에 대해 네트워킹 품질 상태를 평가할 수 있으며, Microsoft 365 연결 테스트를 기반으로 테스트를 배포한 후에 자세한 정보를 확인할 수 있습니다.
 
@@ -80,7 +80,7 @@ Microsoft 365 관리 센터의 네트워크 인사이트는 매일 집계되는 
 
 ### <a name="sharing-with-your-microsoft-account-team-support-or-other-personnel"></a>Microsoft 계정 팀, 지원 또는 기타 담당자와 공유
 
-테스트 보고서(개인 식별 제외)는 Microsoft 직원과 공유됩니다. 이 공유는 기본적으로 사용하도록 설정되어 있으며 상태 관리에서 관리자가 사용하지 않도록 설정할 **수 | Microsoft 365** 관리 센터의 네트워크 연결 페이지입니다.
+테스트 보고서(개인 식별 제외)는 Microsoft 직원과 공유됩니다. 이 공유는 기본적으로 사용하도록 설정되어 있으며 상태 관리에서 관리자가 사용하지 않도록 설정할 **수 | 네트워크 연결 센터의** Microsoft 365 관리 페이지입니다.
 
 ### <a name="sharing-with-other-users-who-sign-in-to-the-same-office-365-tenant"></a>동일한 테넌트에 로그인한 다른 사용자와 Office 365 공유
 

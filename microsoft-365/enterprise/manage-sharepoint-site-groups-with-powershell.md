@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: 이 문서에서는 PowerShell을 사용하여 온라인 사이트 Microsoft 365 관리하기 위한 SharePoint 있습니다.
-ms.openlocfilehash: 383536a6ad5ac5742cf1e38081a9be984ce4806b
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: db5f044de7f70cf27e0f7de37c9fceba12249cb6c09891102557fb3c95efcb52
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53841061"
 ---
 # <a name="manage-sharepoint-online-site-groups-with-powershell"></a>PowerShell을 SharePoint 온라인 사이트 그룹 관리
 

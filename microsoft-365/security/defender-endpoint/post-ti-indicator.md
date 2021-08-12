@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 42d6ed79868b9f32f8ea3cfe77bb78f1a86a8bea
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 464ed75474256e62ccb75756b3949441aae24d04483ccc4ca653db1439d0015b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53656694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53793313"
 ---
 # <a name="submit-or-update-indicator-api"></a>제출 또는 업데이트 표시기 API
 
@@ -81,13 +81,13 @@ Content-Type|문자열|application/json. **필수입니다**.
 indicatorValue|String|Indicator [엔터티의 ID입니다.](ti-indicator.md) **필수**
 indicatorType|Enum|표시기 유형입니다. 가능한 값은 "FileSha1", "FileSha256", "IpAddress", "DomainName" 및 "Url"입니다. **필수**
 조치|Enum|표시기가 조직에서 검색되는 경우 수행되는 작업입니다. 가능한 값은 "Alert", "AlertAndBlock" 및 "Allowed"입니다. **필수**
-application|String|표시기와 연결된 응용 프로그램입니다. **선택 사항**
+application|String|표시기와 연결된 응용 프로그램입니다. **선택**
 제목|String|표시기 경고 제목입니다. **필수**
 설명|String|표시기 설명입니다. **필수**
-expirationTime|DateTimeOffset|표시기 만료 시간입니다. **선택 사항**
-심각도|Enum|표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다. **선택 사항**
-recommendedActions|String|TI 표시기 경고 권장 작업. **선택 사항**
-rbacGroupNames|String|콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **선택 사항**
+expirationTime|DateTimeOffset|표시기 만료 시간입니다. **선택**
+심각도|Enum|표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다. **선택**
+recommendedActions|String|TI 표시기 경고 권장 작업. **선택**
+rbacGroupNames|String|콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **선택**
 
 ## <a name="response"></a>응답
 

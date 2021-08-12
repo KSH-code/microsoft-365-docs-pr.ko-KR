@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 07/22/2021
-ms.openlocfilehash: 2d30777754f05b46336e28c237b2264cef6ac802
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 347d9a6b5de1d9045baf8d4a0778788a18514600bfc6f56652951e4ad420f1bb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53834243"
 ---
 # <a name="cloud-delivered-protection-antivirus-sample-submission"></a>클라우드 제공 보호 바이러스 백신 샘플 제출
 

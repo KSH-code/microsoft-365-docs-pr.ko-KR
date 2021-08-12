@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 ms.custom: seo-marvel-apr2020
 description: 관리자는 PST 파일을 하드 드라이브에 복사한 다음 Microsoft로 Microsoft 365 사서함으로 PST 파일을 대량으로 가져오는 방법을 배울 수 있습니다.
-ms.openlocfilehash: a0858e3c1b6bcbe48a4060e8efaa3094768236fb
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 4c4509301a6bf4c2807b89fc9fe005522e36989f6712236efda8d917851bee02
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813807"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files"></a>드라이브 배송을 사용하여 조직의 PST 파일 가져오기
 
@@ -55,7 +55,7 @@ For frequently asked questions about using drive shipping to import PST files to
 
 - PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기/내보내기 역할을 할당한 후 구성원으로 자신을 추가할 수 있습니다. 자세한 내용은 [역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 “역할 그룹에 역할 추가” 또는 “역할 그룹 만들기” 섹션을 참조하세요.
     
-    또한 Microsoft 365 준수 센터에서 가져오기 작업을 만들하려면 다음 중 하나에 해당해야 합니다.
+    또한 가져오기 작업에서 가져오기 작업을 Microsoft 365 규정 준수 센터 다음 중 하나에 해당해야 합니다.
     
   - Exchange Online에서 전자 메일 받는 사람 역할을 할당받아야 합니다. 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 기본값으로 할당됩니다.
     
@@ -73,9 +73,9 @@ For frequently asked questions about using drive shipping to import PST files to
 - 2.5인치 SDD(Solid-State Drive) 또는 2.5인치 또는 3.5인치 SATA II/III 내부 하드 드라이브만 Office 365 가져오기 서비스에서 사용할 수 있습니다. 최대 10TB의 하드 드라이브를 사용할 수 있습니다. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리됩니다. 데이터 볼륨은 NTFS 형식으로 포맷되어야 합니다. 하드 드라이브에 데이터를 복사할 때 2.5인치 SSD 또는 2.5인치 또는 3.5인치 SATA II/III 커넥터를 사용하여 직접 첨부하거나 외부 2.5인치 SSD 또는 2.5인치 또는 3.5인치 SATA II/III USB 어댑터를 사용하여 외부에 연결할 수 있습니다.
     
     > [!IMPORTANT]
-    > USB 어댑터가 내장되어 함께 제공되는 외장 하드 드라이브는 Office 365 가져오기 서비스에서 지원하지 않습니다. 또한 외장 하드 드라이브 케이스 내부의 디스크를 사용할 수 없습니다. 외장 하드 드라이브는 발송하지 마시기 바랍니다. 
+    > USB 어댑터가 내장되어 함께 제공되는 외장 하드 드라이브는 Office 365 가져오기 서비스에서 지원하지 않습니다. 또한, 외장 하드 드라이브 케이스에 들어 있는 디스크는 사용할 수 없습니다. 외장 하드 드라이브는 발송하지 마시기 바랍니다. 
   
-- PST 파일을 복사하는 하드 드라이브는 BitLocker로 암호화되어야 합니다. 2단계에서 실행하는 WAImportExport.exe 도구는 BitLocker를 설정하는 데 도움이 됩니다. 또한 Microsoft BitLocker 센터 직원이 드라이브에 액세스하여 PST 파일을 Microsoft 클라우드의 Azure Storage 영역에 업로드하는 데 사용하는 암호화 키도 생성합니다.
+- PST 파일을 복사하는 하드 드라이브는 BitLocker로 암호화되어야 합니다. 2단계에서 실행하는 WAImportExport.exe 도구는 BitLocker를 설정하는 데 도움이 됩니다. 또한 Microsoft 데이터 센터 직원이 드라이브에 액세스하여 PST 파일을 Microsoft 클라우드의 Azure Storage 영역에 업로드하는 데 사용하는 BitLocker 암호화 키도 생성합니다.
     
 - Drive shipping is available through a Microsoft 기업계약 (EA). MPSA(Microsoft 제품 및 서비스 계약)를 통해서는 드라이브 배송이 가능하지 않습니다.
     
@@ -115,14 +115,14 @@ For frequently asked questions about using drive shipping to import PST files to
 첫 번째 단계는 보안 저장소 키와 도구를 다운로드하고 2단계에서 PST 파일을 하드 드라이브에 복사하는 것입니다.
   
 > [!IMPORTANT]
-> WAimportExportV1(Azure Import/Export 도구 버전 1)을 사용하여 드라이브 배송 방법을 사용하여 PST 파일을 가져와야 합니다. Azure Import/Export 버전 2는 지원되지 않습니다. 이 도구를 사용하면 가져오기 작업을 위해 하드 드라이브를 잘못 준비하게 됩니다. 이 단계의 절차에 따라 Microsoft 365 규정 준수 센터에서 Azure Import/Export 도구를 다운로드해야 합니다. 
+> WAimportExportV1(Azure Import/Export 도구 버전 1)을 사용하여 드라이브 배송 방법을 사용하여 PST 파일을 가져와야 합니다. Azure Import/Export 버전 2는 지원되지 않습니다. 이 도구를 사용하면 가져오기 작업을 위해 하드 드라이브를 잘못 준비하게 됩니다. 이 단계의 절차를 Import/Export Azure Microsoft 365 규정 준수 센터 도구를 다운로드해야 합니다. 
   
 1. <https://compliance.microsoft.com>으로 이동한 후 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다.
 
-2. 규정 준수 센터의 왼쪽 탐색 Microsoft 365 정보 **거버넌스 가져오기 를** \> **클릭합니다.**
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 **거버넌스 가져오기 를** \> **클릭합니다.**
     
     > [!NOTE]
-    > 앞서 설명한 것 처럼 준수 센터의 가져오기  페이지에 액세스하려면 적절한 사용 Microsoft 365 합니다. 
+    > 앞서 설명한 것 처럼 가져오기 페이지에 액세스하려면  적절한 사용 권한을 할당해야 Microsoft 365 규정 준수 센터. 
   
 3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 새로 만들기** 를 클릭합니다.
     
@@ -146,7 +146,7 @@ For frequently asked questions about using drive shipping to import PST files to
     
 7. 취소를 **클릭하여** 마법사를 닫습니다. 
     
-    4단계에서  가져오기 작업을 만들 때 Microsoft 365 준수 센터의 가져오기 페이지로 돌아와야 합니다. 
+    4단계에서  가져오기 작업을 만들 때 Microsoft 365 규정 준수 센터 가져오기 페이지로 돌아온 것입니다. 
 
 ## <a name="step-2-copy-the-pst-files-to-the-hard-drive"></a>2단계: PST 파일을 하드 드라이브에 복사
 
@@ -182,7 +182,7 @@ For frequently asked questions about using drive shipping to import PST files to
     | `/dstdir:` <br/> |PSTS를 업로드할 Microsoft Azure Storage 영역의 대상 디렉터리를 지정합니다. 을(를) 사용해야  `ingestiondata/` 합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> 원하는 경우 이 매개 변수 값에 추가 파일 경로를 추가할 수도 있습니다. 예를 들어 매개 변수에 지정된 하드 드라이브(URL 형식으로 변환)에 원본 디렉터리의 파일 경로를 사용할 수  `/srcdir:` 있습니다. 예를 들어  `\\FILESERVER01\PSTs` 을 로  `FILESERVER01/PSTs` 변경합니다. 이 경우 파일 경로에  `ingestiondata` 포함해야 합니다. 따라서 이 예제에서 매개 변수의 값은  `/dstdir:`  `"ingestiondata/FILESERVER01/PSTs"` 입니다.  <br/> 다른 파일 경로를 추가하는 한 가지 이유는 파일 이름이 같은 PST 파일이 있는 경우입니다.  <br/> > [!NOTE]> 경로 이름을 포함하는 경우 PST 파일이 Azure Storage 영역에 업로드된 후의 PST 파일의 네임스페이스에는 PST 파일의 경로 이름과 이름이 포함됩니다. 예를 들면 `FILESERVER01/PSTs/annb.pst` 입니다. 경로 이름을 포함하지 않는 경우 네임스페이스는 PST 파일 이름만 됩니다. 예를 들면  `annb.pst` 입니다.           | `/dstdir:"ingestiondata/"` <br/> 또는  <br/>  `/dstdir:"ingestiondata/FILESERVER01/PSTs"` <br/> |
     | `/sk:` <br/> |1단계에서 구한 저장소 계정 키를 지정합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `"yaNIIs9Uy5g25Yoak+LlSHfqVBGOeNwjqtBEBGqRMoidq6/e5k/VPkjOXdDIXJHxHvNoNoFH5NcVUJXHwu9ZxQ=="` <br/> |
     | `/blobtype:` <br/> |PST 파일을 가져올 Azure Storage 영역의 Blob 유형을 지정합니다. PST 파일을 가져오는 경우 **BlockBlob** 값을 사용 합니다. 이 매개 변수는 필수입니다.   <br/> | `/blobtype:BlockBlob` <br/> |
-    | `/encrypt` <br/> |이 스위치는 하드 드라이브에 대해 BitLocker를 켭니다. 이 매개 변수는 WAImportExport.exe 도구를 처음 실행할 때 필요합니다.  <br/> 이 BitLocker 암호화 키는 매개 변수를 사용하는 경우 만들어진 로그 파일 및 저널 파일에 `/logfile:` 복사됩니다. 앞서 설명한 것처럼 저널 파일은 WAImportExport.exe 도구가 있는 동일한 폴더에 저장됩니다.  <br/> | `/encrypt` <br/> |
+    | `/encrypt` <br/> |이 스위치는 하드 드라이브에 대해 BitLocker를 켭니다. 이 매개 변수는 WAImportExport.exe 도구를 처음 실행할 때 필요합니다.  <br/> BitLocker 암호화 키는 매개 변수를 사용하는 경우 만들어진 로그 파일 및 저널 파일에  `/logfile:` 복사됩니다. 앞서 설명한 것처럼 저널 파일은 WAImportExport.exe 도구가 있는 동일한 폴더에 저장됩니다.  <br/> | `/encrypt` <br/> |
     | `/logdir:` <br/> |이 선택적 매개 변수는 로그 파일을 저장할 폴더를 지정합니다. 지정하지 않으면 로그 파일은 로그 파일이 WAImportExport.exe 폴더에 저장됩니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/logdir:"c:\users\admin\desktop\PstImportLogs"` <br/> |
    
     다음은 각 매개 변수에 대한 실제 값을 사용하는 WAImportExport.exe 도구에 대한 구문 예입니다.
@@ -245,7 +245,7 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
     | `ContentCodePage` <br/> |이 선택적 매개 변수는 ANSI 파일 형식으로 PST 파일을 가져오는 데 사용할 코드 페이지의 숫자 값을 지정합니다. 이 매개 변수는 중국어, 일본어 및 한국어 (CJK) 조직에서 PST 파일을 가져오는 데 사용됩니다. 이러한 언어는 일반적으로 문자 인코딩에 2 바이트 문자 세트 (DBCS)를 사용하기 때문입니다. 사서함 폴더 이름으로 DBCS를 사용하는 언어의 PST 파일을 가져오는 데 이 매개 변수를 사용하지 않으면, 가져온 후에 폴더 이름이 왜곡되는 경우가 많습니다.  <br/> 이 매개 변수를 사용하는 데 지원되는 값의 목록은 [코드 페이지 식별자](/windows/win32/intl/code-page-identifiers)를 참조하세요.  <br/> > [!NOTE]> 앞서 언급했듯이 이 매개 변수는 선택적 매개 변수이며 CSV 파일에 포함할 사항이 없습니다. 또는 포함하고 하나 이상의 행에 대해 값을 비워둘 수 있습니다.           |(공백으로 둠)  <br/> 또는  <br/>  `932` (ANSI/OEM 일본어에 대한 코드 페이지 식별자)  <br/> |
     | `SPFileContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
     | `SPManifestContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
-    | `SPSiteUrl` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 사항 없음  <br/> |
+    | `SPSiteUrl` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
 
 ## <a name="step-4-create-a-pst-import-job-in-office-365"></a>4단계: Office 365에서 PST 가져오기 작업 만들기
 
@@ -253,12 +253,12 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
   
 1. <https://compliance.microsoft.com>으로 이동한 후 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다.
 
-2. 규정 준수 센터의 왼쪽 탐색 Microsoft 365 정보 **거버넌스 가져오기 를** \> **클릭합니다.**
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 **거버넌스 가져오기 를** \> **클릭합니다.**
 
 3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 새로 만들기** 를 클릭합니다.
 
     > [!NOTE]
-    > 앞서 설명한 것 처럼 준수 센터의 가져오기  페이지에 액세스하려면 적절한 사용 Microsoft 365 합니다.
+    > 앞서 설명한 것 처럼 가져오기 페이지에 액세스하려면  적절한 사용 권한을 할당해야 Microsoft 365 규정 준수 센터.
   
 4. PST 가져오기 작업의 이름을 입력하고 **다음** 을 클릭합니다. 소문자, 숫자, 하이픈 및 밑줄을 사용하세요. 이름에는 대문자를 사용하거나 공백을 포함할 수 없습니다.
 
@@ -337,7 +337,7 @@ Microsoft에 하드 드라이브를 발송한 후 가져오기 서비스 페이�
   
 1. <https://compliance.microsoft.com>으로 이동한 후 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다.
 
-2. Microsoft 365 센터의 왼쪽 탐색 창에서 가져오기 에서 정보 **거버넌스 > 클릭합니다.**
+2. 창의 왼쪽 탐색 창에서 가져오기 Microsoft 365 규정 준수 센터 **거버넌스 > 클릭합니다.**
 
 3. 가져오기 **탭에서** 추적 번호를 입력할 드라이브 발송 작업을 클릭합니다.
 
@@ -363,7 +363,7 @@ PST 파일이 Azure에 업로드되고 나면 상태가 **Analysis in progress�
   
 1. <https://compliance.microsoft.com>으로 이동한 후 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다.
 
-2. 규정 준수 센터의 왼쪽 탐색 Microsoft 365 정보 거버넌스  \> **가져오기****를 클릭합니다.
+2. In the left navigation pane of the Microsoft 365 규정 준수 센터, click **Information governance** \> **Import****.
 
 3. 가져오기 **탭에서** 4단계에서 만든 가져오기 작업을 선택하고 가져오기를 클릭하여 **Office 365.**
   

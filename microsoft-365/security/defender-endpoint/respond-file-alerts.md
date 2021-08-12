@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 261a1253076791e7f507c38b543a80d6f2eb8993
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 813a6e425801bbcad24255839e9f6250aaefa87599f51a45d1adecb29efc9245
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53650946"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53793128"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -325,7 +325,7 @@ ms.locfileid: "53650946"
 
 6. 이러한 단계로 문제가 해결되지 않으면 에 [winatp@microsoft.com.](mailto:winatp@microsoft.com)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [장치에 대해 대응 조치 실행](respond-machine-alerts.md)
 - [파일 조사](investigate-files.md)

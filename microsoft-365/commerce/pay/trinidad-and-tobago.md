@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 87803ce852e9124918feeb332bcb107532da8587
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: cc11e5368f74c3b5b19fd736775c53026b7f76f2603ae1f19639ca74b9784823
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820810"
 ---
 # <a name="payment-information-for-trinidad-and-tobago"></a>트리니다드 토바고의 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52537718"
 **은행:** Citibank, London  
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
-**계정 번호:** 12510049  
+**계정 번호: 12510049**  
 **계정 이름:** MICROSOFT

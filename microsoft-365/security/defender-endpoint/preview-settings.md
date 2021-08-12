@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 141a2bee0617ce56ed848d9d6df0d5ffd414757e
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 742a95bd9ad2cfb798244301cf3cb1ef86994f7926e25fa336c84df2ac52e5bd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53793292"
 ---
 # <a name="turn-on-the-preview-experience-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 미리 보기 환경 켜기
 
@@ -43,7 +43,7 @@ ms.locfileid: "53649158"
 
 2. 설정 및 해제  간에 설정을 **전환하고** 기본 설정 **저장을 선택합니다.**
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [끝점용 Microsoft Defender의 일반 설정 업데이트](data-retention-settings.md)
 - [끝점용 Microsoft Defender의 고급 기능 켜기](advanced-features.md)
 - [끝점용 Microsoft Defender에서 전자 메일 알림 구성](configure-email-notifications.md)
