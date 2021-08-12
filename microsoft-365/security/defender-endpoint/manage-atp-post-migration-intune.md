@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - m365solution-scenario
 ms.topic: article
-ms.date: 06/11/2021
+ms.date: 07/29/2021
 ms.reviewer: chventou
-ms.openlocfilehash: a285815a3f05054627d46144aa11f2790cce1535
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: e72ef3c2f443194db0e45ca3dec553ba364e633504932bff72f303dc8dc0e53e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53652902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53845147"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Intune을 사용하여 끝점용 Microsoft Defender 관리
 
@@ -44,7 +44,7 @@ ms.locfileid: "53652902"
 ## <a name="find-your-microsoft-defender-for-endpoint-settings-in-intune"></a>Intune에서 끝점에 대한 Microsoft Defender 설정 찾기
 
 > [!IMPORTANT]
-> 이 문서에 설명된 설정을 구성하려면 Intune에서 전역 관리자 또는 서비스 관리자일 수 있습니다. 자세한 내용은 **[관리자 유형(Intune)을 참조합니다.](/mem/intune/fundamentals/users-add#types-of-administrators)**
+> 이 문서에 설명된 설정을 구성하려면 Intune에 전역 관리자 또는 서비스 관리자 역할이 할당되어 있어야 합니다. 자세한 내용은 **[관리자 유형(Intune)을 참조합니다.](/mem/intune/fundamentals/users-add#types-of-administrators)**
 
 1. Azure Portal()로 [https://portal.azure.com](https://portal.azure.com) 이동하여 로그인합니다.
 

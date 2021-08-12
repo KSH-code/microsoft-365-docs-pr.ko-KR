@@ -1,0 +1,82 @@
+---
+title: Rogers 네트워크 데이터를 보관할 커넥터를 Microsoft 365
+f1.keywords:
+- NOCSH
+ms.author: markjjo
+author: markjjo
+manager: laurawi
+ms.date: ''
+audience: Admin
+ms.topic: how-to
+ms.service: O365-seccomp
+localization_priority: Normal
+ms.collection: M365-security-compliance
+description: 관리자는 TeleMessage 커넥터를 설정하여 Rogers 네트워크 데이터를 원격 저장소에 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
+ms.openlocfilehash: 857f7c0953912f4224f8ab565265ccde166784420376c5584818af1b40ebcb1a
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54520762"
+---
+# <a name="set-up-a-connector-to-archive-rogers-network-data-preview"></a>Rogers 네트워크 데이터를 보관할 커넥터 설정(미리 보기)
+
+네트워크의 TeleMessage 커넥터를 Microsoft 365 규정 준수 센터 Rogers 모바일 네트워크에서 SMS 및 MMS 데이터를 가져오고 보관할 수 있습니다. [Rogers 네트워크](https://www.telemessage.com/mobile-archiver/network-archiver/rogers/)보관 커넥터를 설정하고 구성한 후 조직의 Rogers 모바일 네트워크에 연결하고 SMS 및 MMS 데이터를 조직의 사서함으로 Microsoft 365.
+
+Rogers 모바일 네트워크의 데이터가 사용자 사서함에 저장되고 나면 소송 보존, Microsoft 365 검색 및 데이터 보존 정책과 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. 예를 들어 콘텐츠 검색 또는 Core eDiscovery 사례와 연결된 검색을 사용하여 Rogers 모바일 네트워크에서 SMS 및 MMS 메시지를 검색할 수 있습니다. Rogers 네트워크 보관 커넥터를 사용하여 조직에서 데이터를 가져오고 Microsoft 365 조직이 회사 거버넌스 규정 및 규정 정책을 준수하는 데 도움이 될 수 있습니다.
+
+## <a name="overview-of-archiving-rogers-mobile-network-data"></a>Rogers 모바일 네트워크 데이터 보관 개요
+
+다음 개요에서는 커넥터를 사용하여 Rogers SMS 및 MMS 데이터를 커넥터에 보관하는 Microsoft 365.
+
+![Rogers 네트워크 보관 워크플로](../media/RogersNetworkConnectorWorkflow.png)
+
+1. 조직은 TeleMessage와 함께 Rogers 네트워크 보관 커넥터를 설치합니다. 자세한 내용은 [Activating the TeleMessage Rogers Network Archiver for Microsoft 365.](https://www.telemessage.com/microsoft-365-activation-for-the-rogers-network-archiver/)
+
+2. 실시간으로 조직의 Rogers 모바일 네트워크 데이터가 TeleMessage 사이트에 복사됩니다.
+
+3. Microsoft 365 규정 준수 센터 만든 Rogers 네트워크 보관 커넥터는 매일 TeleMessage 사이트에 연결하고 지난 24시간 동안의 전자 메일 메시지를 Microsoft 클라우드의 보안 Azure Storage 영역으로 전송합니다.
+
+4. 커넥터는 모바일 통신 항목을 특정 사용자의 사서함으로 가져올 수 있습니다. Rogers SMS/MMS Network Archiver라는 새 폴더가 특정 사용자의 사서함에 만들어지며 항목이 해당 폴더로 가져오기됩니다. 커넥터는 사용자의 전자 메일 주소 속성 값을 사용하여 *매핑을* 실행합니다. 모든 전자 메일 메시지에는 전자 메일 메시지의 모든 참가자의 전자 메일 주소로 채워지는 이 속성이 포함되어 있습니다.
+
+   사용자의 전자 메일 주소 속성 값을  사용하는 자동 사용자 매핑 외에도 CSV 매핑 파일을 업로드하여 사용자 지정 매핑을 정의할 수도 있습니다. 이 매핑 파일에는 사용자의 휴대폰 번호와 각 사용자의 Microsoft 365 사서함 주소가 포함되어야 합니다. 자동 사용자 매핑을 사용하도록 설정하고 사용자 지정 매핑을 제공하는 경우 커넥터가 모든 전자 메일 항목에 대해 먼저 사용자 지정 매핑 파일을 봐야 합니다. 사용자의 휴대폰 번호에 해당하는 유효한 Microsoft 365 사용자가 없는 경우 커넥터는 전자 메일 항목의 사용자의 전자 메일 주소 속성을 사용하게 됩니다. 커넥터가 전자 메일 항목의 사용자 지정 매핑 Microsoft 365 사용자의 전자  메일 주소 속성에서 유효한 사용자 지정 사용자를 찾지 못하면 항목을 가져오지 않습니다.
+
+## <a name="before-you-set-up-a-connector"></a>커넥터를 설정하기 전에
+
+- [TeleMessage에서 Rogers 네트워크 보관](https://www.telemessage.com/mobile-archiver/order-mobile-archiver-for-o365/) 서비스 순서를 정하고 조직에 대한 유효한 관리 계정을 얻습니다. 준수 센터에서 커넥터를 만들 때 이 계정에 로그인해야 합니다.
+
+- TeleMessage 계정에 Rogers 네트워크 보관이 필요한 모든 사용자를 등록합니다. 사용자를 등록할 때 사용자 계정과 동일한 전자 메일 주소를 Microsoft 365 합니다.
+
+- 직원은 O2 모바일 네트워크에 회사 소유 휴대폰 및 회사 소유 휴대폰이 있어야 합니다. 직원 소유의 Microsoft 365 또는 "BYOD(Bring Your Own Devices) 장치에서는 보관 메시지를 사용할 수 없습니다.
+
+- 조직의 Rogers 계정 및 대금 청구 연락처 세부 정보를 확인하여 온보더링 양식을 완료하고 Rogers에서 메시지 보관 서비스를 주문할 수 있습니다.
+
+- 3단계에서 Rogers 네트워크 보관 커넥터를 만드는 사용자에게는 3단계에서 사서함 가져오기 내보내기 역할이 할당되어야 Exchange Online. 이 연결은 서버의 데이터  커넥터 페이지에서 커넥터를 추가하는 Microsoft 365 규정 준수 센터. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
+
+## <a name="create-a-rogers-network-archiver-connector"></a>Rogers 네트워크 보관 커넥터 만들기
+
+이전 섹션에 설명된 선행 구성을 완료한 후 로저스 네트워크 보관함 커넥터를 Microsoft 365 규정 준수 센터. 커넥터는 사용자가 제공한 정보를 사용하여 TeleMessage 사이트에 연결하고 Rogers SMS/MMS 데이터를 사용자의 해당 사용자 사서함 상자로 Microsoft 365.
+
+1. 으로 <https://compliance.microsoft.com> 이동한 다음 **데이터** 커넥터  >  **Rogers Network Archiver 를 클릭합니다.**
+
+2. **Rogers 네트워크 보관함** 제품 설명 페이지에서 커넥터 **추가를 클릭합니다.**
+
+3. 서비스 **약관 페이지에서** 동의를 **클릭합니다.**
+
+4. **TeleMessage에** 로그인 페이지의 3단계에서 다음 상자에 필요한 정보를 입력하고 다음을 **클릭합니다.**
+
+    - **사용자 이름:** TeleMessage 사용자 이름입니다.
+
+    - **암호:** TeleMessage 암호입니다.
+
+5. 커넥터를 만든 후 팝업 창을 닫고 다음 페이지로 이동하면 됩니다.
+
+6. 사용자 **매핑 페이지에서** 자동 사용자 매핑을 사용하도록 설정합니다. 사용자 지정 매핑을 사용하도록 설정하려면 사용자 매핑 정보가 포함된 CSV 파일을 업로드한 후 다음 을 **클릭합니다.**
+
+7. 설정을 검토한 다음 **마친을 클릭하여** 커넥터를 생성합니다.
+
+8. 데이터 커넥터 페이지의 커넥터  탭으로 이동하여 새 커넥터의 가져오기 프로세스 진행률을 볼 수 있습니다.
+
+## <a name="known-issues"></a>알려진 문제
+
+- 현재는 10MB보다 큰 첨부 파일 또는 항목 가져오기는 지원되지 않습니다. 더 큰 항목에 대한 지원은 나중에 사용할 수 있습니다.

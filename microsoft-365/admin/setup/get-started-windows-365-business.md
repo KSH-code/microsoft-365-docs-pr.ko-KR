@@ -20,51 +20,43 @@ ms.custom:
 search.appverid:
 - MET150
 - MOE150
-ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: b5b09761c264074c8f848a9394a59c1f8e8b47c8373f1e40c0b31227ce94b8a9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e3172171a52bbb92fd7e49f800ff2ccc502ea06b8f49547e02e0e6a61cf6de43
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821908"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54520450"
 ---
 # <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 
-이 문서는 조직에 대한 Windows 365 Business를 구입하고 설정하는 사용자용입니다. 
+이 문서는 조직에 대한 Windows 365 Business를 구입하고 설정하는 사용자용입니다.
   
-[Windows 365 Business는](https://www.microsoft.com/windows-365/business) 소규모 회사(최대 300명)에서 사용할 수 있는 Windows 365 버전입니다. 이를 통해 조직은 사용자에게 클라우드 PC를 쉽고 간소화된 방식으로 제공합니다.  클라우드 Windows 365 클라우드 PC를 사용하여 Microsoft 클라우드에서 앱, 데이터, 콘텐츠, 설정 및 저장소를 스트리밍할 수 있습니다. 
+[Windows 365 Business는](https://www.microsoft.com/windows-365/business) 소규모 회사(최대 300명)에서 사용할 수 있는 Windows 365 버전입니다. 이를 통해 조직은 사용자에게 클라우드 PC를 쉽고 간소화된 방식으로 제공합니다.  클라우드 Windows 365 클라우드 PC를 사용하여 Microsoft 클라우드에서 앱, 데이터, 콘텐츠, 설정 및 저장소를 스트리밍할 수 있습니다.
 
 > [!NOTE]  
-> 시작하기 전에 사용자의 Azure AD 장치 설정이 **Azure** [AD에](/azure/active-directory/devices/device-management-azure-portal#configure-device-settings) 장치를 가입할 수 있는지 확인합니다.  
+> 시작하기 전에 사용자의 Azure AD 장치 설정이 **Azure** [AD에](/azure/active-directory/devices/device-management-azure-portal#configure-device-settings) 장치를 가입할 수 있는지 확인합니다. 
 
    ![사용자가 장치를 Azure AD 설정에 가입할 수 있습니다.](../../media/deschutes/azure-device-settings.png)
-
 ## <a name="prerequisites"></a>필수 구성 요소
 365 Business를 설치하기 위한 Windows 없습니다.
-
-
 ## <a name="buy-subscriptions"></a>구독 구입
 
 사용자를 위해 365 Business Windows 구입하는 방법에는 두 가지가 있습니다.
+
 - Windows [365 제품 사이트](https://www.microsoft.com/windows-365/business/compare-plans-pricing)
 - Microsoft 365 관리 센터
 
-구독을 구입한 후 구독을 사용하여 Microsoft 365 관리 센터 사용자에게 라이선스를 할당할 수 있습니다. 
-
-
+구독을 구입한 후 구독을 사용하여 Microsoft 365 관리 센터 사용자에게 라이선스를 할당할 수 있습니다.
 ### <a name="buy-subscriptions-through-the-windows-365-products-site"></a>Windows 365 제품 사이트를 통해 구독 구입
 
-아직 Microsoft 365 없는 경우 Windows 365 제품 사이트에서 Windows [365](https://www.microsoft.com/windows-365/business/compare-plans-pricing)Business 구독을 Windows 수 있습니다. 다음 단계에 따라 Windows 365 제품 페이지를 통해 Windows 365 Business 구독을 구입합니다.   
+아직 Microsoft 365 없는 경우 Windows 365 제품 사이트에서 Windows [365](https://www.microsoft.com/windows-365/business/compare-plans-pricing)Business 구독을 Windows 수 있습니다. 다음 단계에 따라 Windows 365 제품 페이지를 통해 Windows 365 Business 구독을 구입합니다.
 
-
-1. Windows [365 Business](https://www.microsoft.com/windows-365/business) 페이지에서 요금제 및 가격 **보기를 선택합니다.** 
+1. Windows [365 Business](https://www.microsoft.com/windows-365/business) 페이지에서 요금제 및 가격 **보기를 선택합니다.**
 2. 다음 페이지에서 구매할 구독을 선택하고 지금 **구입을 선택합니다.**
 3. Windows **365 Business를** 선택해 주셔서 감사합니다. 페이지에서 단계에 따라 계정을 설정하세요.
 4. **5단계 -** 확인 세부 정보 에서 사용자에게 라이선스를 할당할 준비가 된 경우 시작을 선택하여 의 Windows 365 홈 페이지로  https://windows365.microsoft.com 이동합니다.
 5. 365 Windows 페이지의 빠른 **작업** 섹션에서 **조직 관리를 선택합니다.** 그러면 사용자에게 라이선스를 Microsoft 365 관리 센터 수 있는 위치로 진행됩니다.
-
-
 
 ### <a name="buy-a-subscription-through-the-microsoft-admin-center"></a>Microsoft 관리 센터를 통해 구독 구입
 
@@ -76,13 +68,14 @@ ms.locfileid: "53821908"
 4. 체크 **아웃 페이지에서** 구입하려는 구독 수와 결제 정보를 입력합니다. 그런 다음 주문 **을 선택합니다.**
 5. 모두 **설정되어 있습니다!** 구매를 확인하는 페이지가 나타납니다.
 
-
-## <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당 
+## <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 
 Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microsoft 365 관리 센터 통해 구독을 [](/microsoft-365/admin/manage/assign-licenses-to-users) 구매한 경우 구독의 청구 페이지를 통해 사용자에게 라이선스를 할당할 Microsoft 365 관리 센터. 
 
-사용자에게 비즈니스 Windows 따라 서로 다른 365 Business 라이선스 유형을 사용자에게 할당할 수 있습니다. 사용자에게 적합한 라이선스 유형에 대한 지침은 Windows [365 Business](windows-365-business-sizing.md) 크기 조정 옵션을 참조하세요. 
+사용자에게 비즈니스 Windows 따라 서로 다른 365 Business 라이선스 유형을 사용자에게 할당할 수 있습니다. 사용자에게 적합한 라이선스 유형에 대한 지침은 Windows [365 Business](windows-365-business-sizing.md) 크기 조정 옵션을 참조하세요.
 
+> [!IMPORTANT]
+> 테넌트에 Windows 365 라이선스를 처음 할당하면 "CloudPCBPRT"라는 시스템 계정이 테넌트에서 Azure Active Directory. 이 계정을 삭제하지 않습니다. 시스템 계정이 삭제되면 설치가 실패할 수 있습니다. 이 시스템 계정은 원활한 설정 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 테넌트에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 사용자를 삭제하는 경우 지원 중앙을 통해 티켓을 제출합니다.
 
 ## <a name="get-your-users-started-with-cloud-pc"></a>클라우드 PC 시작
 
@@ -95,7 +88,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 
 사용자는 클라우드 PC로 이동하여 **https://windows365.microsoft.com** 액세스할 수 있습니다.  
 
-사용자는 Windows 365 홈페이지에서 클라우드 PC 섹션에 액세스할 수 있는 클라우드 **PC를 볼 수** 있습니다. 
+사용자는 Windows 365 홈페이지에서 클라우드 PC 섹션에 액세스할 수 있는 클라우드 **PC를 볼 수** 있습니다.
 
 ![Windows 365 home](../../media/deschutes/cloudpc-home.png)
 
@@ -112,7 +105,6 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 
 - **다시 시작:** 클라우드 PC를 다시 시작합니다.
 
-
 - **재설정:** 재설정은 다음을 합니다.
 
     - 설치를 다시 Windows 10.
@@ -123,7 +115,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
     > [!IMPORTANT]  
     > 클라우드 PC를 초기화하기 전에 클라우드 저장소 서비스 또는 외부 저장소에 보관해야 하는 중요한 파일을 백업해야 합니다. 클라우드 PC를 다시 설정하면 이러한 파일이 삭제됩니다.
 
-- **이름 변경:** 365 홈 페이지에서 사용자에게 표시되는 클라우드 PC의 Windows 변경합니다. 
+- **이름 변경:** 365 홈 페이지에서 사용자에게 표시되는 클라우드 PC의 Windows 변경합니다.
 
 - **문제** 해결: 사용자가 클라우드 PC에 연결하지 못하게 할 수 있는 문제를 해결합니다. 다음 표에서는 검사 결과로 표시될 수 있는 상태에 대해 설명하고 있습니다.
 
@@ -134,24 +126,20 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
     |클라우드 PC에 연결할 수 없습니다. We're working to fix it, try again later. |연결에 필요한 Microsoft 서비스를 사용할 수 없습니다. 나중에 다시 연결을 시도합니다. |
     |클라우드 PC의 문제를 해결할 수 없습니다. 관리자에게 문의합니다. |문제가 검색되어도 문제를 해결하지 못했습니다. 이는 지속적인 업데이트 또는 다른 Windows 때문일 수 있습니다. 이 오류가 장시간 지속되면 클라우드 PC를 다시 설정해야 할 수 있습니다. |
 
-
-
-
 ### <a name="remote-desktop"></a>원격 데스크톱
 
-이 Microsoft 원격 데스크톱 앱을 사용하면 클라우드 PC를 비롯한 원격 PC에 액세스하고 제어할 수 있습니다. Windows 365 사용자는 365 홈 페이지에서 필요한 원격 데스크톱 클라이언트를 Windows 수 있습니다. 
+이 Microsoft 원격 데스크톱 앱을 사용하면 클라우드 PC를 비롯한 원격 PC에 액세스하고 제어할 수 있습니다. Windows 365 사용자는 365 홈 페이지에서 필요한 원격 데스크톱 클라이언트를 Windows 수 있습니다.
 
 #### <a name="install-the-microsoft-remote-desktop-app"></a>앱 Microsoft 원격 데스크톱 설치
 
 원격 데스크톱 클라이언트를 설정하기 위해 사용자는 다음 단계를 따릅니다.
 
-1. Windows **365 홈** 페이지에서 Microsoft 원격 데스크톱 앱 아이콘(홈 아이콘 **아래)을** 선택합니다. 
-2. 앱 **Microsoft 원격 데스크톱** 페이지에서 필요한 원격 데스크톱 앱을 다운로드하여 설치합니다. 
+1. Windows **365 홈** 페이지에서 Microsoft 원격 데스크톱 앱 아이콘(홈 아이콘 **아래)을** 선택합니다.
+2. 앱 **Microsoft 원격 데스크톱** 페이지에서 필요한 원격 데스크톱 앱을 다운로드하여 설치합니다.
 
    ![원격 데스크톱 클라이언트](../../media/deschutes/remote-desktop-apps.png)
 
-운영 체제의 클라이언트 목록은 원격 데스크톱 [클라이언트를 참조하세요.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) 
-
+운영 체제의 클라이언트 목록은 원격 데스크톱 [클라이언트를 참조하세요.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
 
 ## <a name="installing-apps"></a>앱 설치
 
@@ -159,8 +147,10 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 
 모든 Windows 365 Business 사용자는 클라우드 PC에 대한 로컬 관리자 권한이 있으므로 작업 공간에 앱을 설치하는 데 필요한 권한이 필요합니다.
 
+> [!IMPORTANT]
+> 사용자가 클라우드 PC에서 Microsoft 365 Business Standard 라이선스를 사용하려면 "계정 문제: 계정에서 찾은 제품을 사용하여 공유 컴퓨터 시나리오에서 Office 수 없습니다."라는 오류가 표시될 수 있습니다. 이 시나리오에서 사용자는 클라우드 PC에 설치된 Office 버전을 제거하고 Office.com에서 새 복사본을 설치해야 합니다.
 
- ## <a name="management-through-intune"></a>Intune을 통한 관리
+## <a name="management-through-intune"></a>Intune을 통한 관리
 
 Windows 365 Business는 프로비저닝 프로세스의 일부로 클라우드 PC를 [Intune에](/mem/intune/fundamentals/what-is-intune) 등록하지 않습니다. 조직 및 사용자에게 라이선스가 제대로 부여된 경우 클라우드 PC를 Intune에 등록하는 동일한 절차에 따라 [Intune에](/mem/intune/user-help/enroll-windows-10-device)Windows 10 수 있습니다.
 
@@ -171,8 +161,6 @@ Windows 365 Business 클라우드 PC에서 포트 25에서 직접 아웃바운�
 ## <a name="how-to-get-help"></a>지원을 얻는 방법
 
 Windows 365 Business를 설정하는 동안 도움을 Microsoft 365 관리 센터 도움말 또는 지원 보기를 [참조합니다.](/microsoft-365/business-video/get-help-support)
-
-
 
 ## <a name="related-content"></a>관련 콘텐츠
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 54b57cb70c0c9eecc1e77e717998bc4cdac89f68
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 8b082a45913a8a4b1df30b6c420f1b33ca456dfb6e0f996e90fe23858156e50d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53890734"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>엔드포인트용 Microsoft Defender 커뮤니티에 액세스
 
@@ -37,7 +37,7 @@ ms.locfileid: "53649590"
 Endpoint용 Defender Community 센터는 커뮤니티 구성원이 제품에 대한 학습, 공동 작업 및 경험을 공유할 수 있는 장소입니다. 
 
 특정 정보에 대해 알아보기 위해 탐색할 수 있는 몇 가지 공간이 있습니다.
-- 공지 
+- 알림 
 - 새로운 기능
 - 위협 인텔리전스
 

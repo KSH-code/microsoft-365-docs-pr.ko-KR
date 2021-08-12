@@ -14,19 +14,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 애플리케이션 거버넌스 기능을 구현하여 애플리케이션을 관리합니다.
-ms.openlocfilehash: 87ca62f6543b4fd9a768554085796b14aa6cf209
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 79dcf99dcedb075615085b207ec3284e3d1bf287202d69c8fd503d66b51ed14f
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622475"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54520558"
 ---
 # <a name="app-governance-add-on-to-microsoft-cloud-app-security-in-preview"></a>Microsoft Cloud App Security에 대한 애플리케이션 거버넌스 추가 항목(미리 보기)
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 > [!NOTE]
-> 앱 거버넌스에 등록하려면 [앱 거버넌스 시작(미리 보기)](app-governance-get-started.md)을 참조하세요.
+> 앱 거버넌스에 등록하려면 [앱 거버넌스 시작(미리 보기)](app-governance-get-started.md#sign-up-for-free-trial-of-app-governance)을 참조하세요.
 
 사이버 공격은 온-프레미스 및 클라우드 인프라에 배포한 앱을 악용하는 방식에서 점점 더 정교해지며 권한 상승, 측면 이동 및 데이터 유출을 위한 출발점이 됩니다. 잠재적인 위험을 파악하고 이러한 유형의 공격을 차단하려면 앱 규정 준수 상태를 명확히 파악하여 앱이 비정상적인 동작을 보이는 시기를 신속하게 식별하고 이러한 동작이 환경, 데이터 및 사용자에게 위험을 줄 때 대응해야 합니다.
 

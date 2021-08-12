@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ab3741f61abc4bf771f86741b7e067385326e8f8
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 3b6a1feae3ad7427e0cda6c3f1594b83b4fdce845f65b9d7f2988dea15f9f8e3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53652806"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53845140"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
@@ -75,7 +75,7 @@ ms.locfileid: "53652806"
 
 Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교를 [Windows 10 참조하세요.](https://www.microsoft.com/windowsforbusiness/compare)
 
-상업용 버전 비교에 대한 Windows 10 비교 표는 [비교 PDF 를 참조하세요.](https://wfbdevicemanagementprod.blob.core.windows.net/windowsforbusiness/Windows10_CommercialEdition_Comparison.pdf)
+
 
 ## <a name="browser-requirements"></a>브라우저 요구 사항
 

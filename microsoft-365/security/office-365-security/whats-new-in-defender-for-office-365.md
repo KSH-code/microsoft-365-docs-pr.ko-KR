@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca0eeba9fb8678a4b71e8fdaefb05acb0ec55978
-ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
+ms.openlocfilehash: 79483956fe15cc3aacaaae90f23968efbd317a80a64c1bd7f0e6862c66580988
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53726299"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54520389"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -45,16 +45,25 @@ ms.locfileid: "53726299"
 ## <a name="july-2021"></a>2021년 7월
 
 - [자동화된 조사에서 향상된 전자 메일 분석](email-analysis-investigations.md)
+- [고급](configure-advanced-delivery.md)배달: 사용자에게 타사 피싱 시뮬레이션을 배달하고 필터가 없는 메시지를 보안 작업 사서함으로 배달하는 새로운 기능을 도입했습니다.
 - [금고 Microsoft Teams](safe-links.md#safe-links-settings-for-microsoft-teams)
+- 손상된 사서함, 양식 피싱, 오버라이드 및 ZAP 반올리로 인해 배달된 악의적인 메일과 같은 시나리오에 대한 새로운 경고 정책
+  - 의심스러운 전자 메일 전달 활동
+  - 양식 공유 및 응답 수집이 제한된 사용자
+  - 잠재적인 피싱 시도로 인해 양식이 차단됩니다.
+  - 피싱으로 플래그가 지정 및 확인된 양식
+  - [ZAP에 대한 새 경고 정책](../../compliance/new-defender-alert-policies.md)
+- microsoft Defender for Office 365 통합 알림이 통합된 Microsoft 365 Defender - Microsoft 365 Defender 경고 큐에 [통합됩니다.](../defender/investigate-alerts.md)
+- [이제](user-tags.md) 사용자 태그는 Office 365 Security & Compliance의 경고 큐 및 세부 정보를 포함하여 Office 365 경고 환경을 위한 Microsoft Defender에 통합되고, 사용자 태그에 사용자 지정 경고 정책을 지정하여 대상 경고 정책을 만들 수 있습니다. 
+  - 태그는 Microsoft 365 Defender 센터의 통합 경고 큐에서도 사용할 수 있습니다(Office 365 계획 2용 Microsoft Defender).
 
 
 ## <a name="june-2021"></a>2021년 6월
 
 - 피싱 방지 보안 팁 새 첫 번째 연락처 연락처 설정입니다. 이 보안 팁 보낸 사람이 보낸 전자 메일을 처음 받거나 보낸 사람의 전자 메일을 받지 않는 경우 표시됩니다. 이 설정 및 구성 방법에 대한 자세한 내용은 다음 문서를 참조하세요.
-
-- [첫 번째 보안 팁](set-up-anti-phishing-policies.md#first-contact-safety-tip)
-- [EOP에서 스팸 방지 정책 구성](configure-anti-phishing-policies-eop.md)
-- [Microsoft Defender에서 피싱 방지 정책 Office 365](configure-mdo-anti-phishing-policies.md)
+  - [첫 번째 보안 팁](set-up-anti-phishing-policies.md#first-contact-safety-tip)
+  - [EOP에서 스팸 방지 정책 구성](configure-anti-phishing-policies-eop.md)
+  - [Microsoft Defender에서 피싱 방지 정책 Office 365](configure-mdo-anti-phishing-policies.md)
 
 ## <a name="aprilmay-2021"></a>2021년 4월/5월
 

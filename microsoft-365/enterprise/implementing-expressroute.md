@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
 description: 여러 인터넷 연결 서비스로의 대체 라우팅 경로를 제공하는 Office 365 ExpressRoute를 구현하는 Office 365 알아보습니다.
-ms.openlocfilehash: 3ad6102193a12325de0e4bb2ff16087738688587
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: f0f429d2fce1c83109e19191f1f3c60190046176c1ce03a31c159aa3591e21b4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53801178"
 ---
 # <a name="implementing-expressroute-for-office-365"></a>Office 365용 ExpressRoute 구현
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 93ffef0be7a8710fbaf115418e69c724bed17869
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 84cb368d1b54e953932741b2610e435ddc8b7045868b8dd3de2f2cc7d46661bc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53656766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53793787"
 ---
 # <a name="list-devices-by-software"></a>소프트웨어로 장치 나열
 
@@ -104,7 +104,7 @@ GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/machi
 }
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [위험 기반 위협 & 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [위협 & 소프트웨어 인벤토리](/microsoft-365/security/defender-endpoint/tvm-software-inventory)

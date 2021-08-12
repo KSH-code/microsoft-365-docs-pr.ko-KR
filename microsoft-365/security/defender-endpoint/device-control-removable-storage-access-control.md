@@ -16,18 +16,16 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d7b4ab2ccdb072171b8e311d6464230229fbaf691c04a1730893073158000f00
-ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
+ms.openlocfilehash: 4765477c4faf583fd9906aaa700aafc3fb26a992172f81eb4d3f6978724724be
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2021
-ms.locfileid: "57803239"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54520729"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
-> [!NOTE]
-> 이 제품의 그룹 정책 관리는 이제 일반적으로 사용할 수 있습니다(4.18.2106): [Tech Community 블로그: Endpoint용 Microsoft Defender를](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/protect-your-removable-storage-and-printers-with-microsoft/ba-p/2324806) 사용하여 이동식 저장소 및 프린터 보호를 참조하세요. 
-
+[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어를 사용하여 다음 작업을 할 수 있습니다.
 
@@ -37,14 +35,15 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 ****
 
-| 권한 | 사용 권한 |
-|:---|:---|
-| 액세스 | 읽기, 쓰기, 실행 |
-| 작업 모드 | 감사, 허용, 방지 |
-| CSP 지원 | 예 |
-| GPO 지원 | 예 |
-| 사용자 기반 지원 | 예 |
-| 컴퓨터 기반 지원 | 예 |
+|권한|사용 권한|
+|---|---|
+|Access|읽기, 쓰기, 실행|
+|작업 모드|감사, 허용, 방지|
+|CSP 지원|예|
+|GPO 지원|예|
+|사용자 기반 지원|예|
+|컴퓨터 기반 지원|예|
+|||
 
 ## <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
@@ -340,7 +339,7 @@ DeviceEvents
 
 ### <a name="there-is-no-configuration-ux-for-define-device-control-policy-groups-and-define-device-control-policy-rules-on-my-group-policy"></a>그룹 정책에 '장치 제어 정책 그룹 정의' 및 '장치 제어 정책 규칙 정의'에 대한 구성 UX가 없습니다.
 
-그룹 정책 구성 UX를 백포트하지는 않지만 [WindowsDefender.adml](https://github.com/microsoft/mdatp-devicecontrol/blob/main/Removable%20Storage%20Access%20Control%20Samples/WindowsDefender.adml) 및 [WindowsDefender.admx](https://github.com/microsoft/mdatp-devicecontrol/blob/main/Removable%20Storage%20Access%20Control%20Samples/WindowsDefender.admx) 파일에서 '원시' 및 '다른 사용자로 저장'을 클릭하여 관련 adml 및 admx 파일을 계속 얻을 수 있습니다.
+그룹 정책 연결 UX를 백포트하지는 않지만 [WindowsDefender.adml](https://github.com/microsoft/mdatp-devicecontrol/blob/main/Removable%20Storage%20Access%20Control%20Samples/WindowsDefender.adml) 및 [WindowsDefender.admx](https://github.com/microsoft/mdatp-devicecontrol/blob/main/Removable%20Storage%20Access%20Control%20Samples/WindowsDefender.admx) 파일에서 '원시' 및 '다른 사용자로 저장'을 클릭하여 관련 adml 및 admx 파일을 계속 얻을 수 있습니다.
 
 ### <a name="how-can-i-know-which-machine-is-using-out-of-date-antimalware-client-version-in-the-organization"></a>조직에서 최신 맬웨어 방지 클라이언트 버전을 사용하는 컴퓨터는 어떻게 알 수 있나요?
 
