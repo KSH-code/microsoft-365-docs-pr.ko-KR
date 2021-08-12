@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 694c09c5136f874550fa4a47586f3268ee2d0833
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: ed8fd13aa84fc807c75db99f7ed06fab8dcfbf65631c51bf51afcf295f66c965
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007188"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53794165"
 ---
 # <a name="turn-on-cloud-delivered-protection"></a>클라우드 제공 보호 켜기
 
@@ -38,7 +38,7 @@ Microsoft Defender 바이러스 백신 및 방지 기술을 사용하여 정확�
 클라우드 제공 Microsoft Defender 바이러스 백신 여러 가지 방법으로 설정하거나 해제할 수 있습니다.
 
 - Microsoft Intune
-- Microsoft Endpoint Manager 
+- Microsoft Endpoint Manager
 - 그룹 정책
 - PowerShell cmdlet.
 

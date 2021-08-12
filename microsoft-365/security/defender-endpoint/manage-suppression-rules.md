@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e55e4c78290d84393c06f0a58ef425bad5eb4dcc
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 938c8b8764961930e80de562bdf9fc82f622da5d5b5793ca35c9e5a40a37ea09
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53655950"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53806310"
 ---
 # <a name="manage-suppression-rules"></a>제거 규칙 관리
 
@@ -53,6 +53,6 @@ ms.locfileid: "53655950"
 
 2. 규칙 이름을 클릭합니다. 규칙의 세부 정보가 표시됩니다. 상태, 범위, 작업, 일치하는 경고 수, 생성한 경고 수, 규칙을 만든 날짜 등의 규칙 세부 정보가 표시됩니다. 관련 경고 및 규칙 조건을 볼 수도 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [경고 관리](manage-alerts.md)

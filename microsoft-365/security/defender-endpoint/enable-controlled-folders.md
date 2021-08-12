@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 286ccc9efa44d3afdf4e11c4d7652288fd693713
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 36bd812bfe41ca5113fe9ceb5710de3ded15210ca5e4eda4a9065fc1c1a11cdf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53657294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53794117"
 ---
 # <a name="enable-controlled-folder-access"></a>제어된 폴더 액세스 사용
 
@@ -73,7 +73,7 @@ ms.locfileid: "53657294"
 
 3. 플랫폼을 **선택하고** Windows 10 **이상을** 선택하고 프로필 공격 표면 감소 규칙 만들기 **를**  >  **선택합니다.**
 
-4.  정책 이름을 지정하고 설명을 추가합니다. **다음** 을 선택하세요.
+4.  정책 이름을 지정하고 설명을 추가합니다. **다음** 을 선택합니다.
 
 5.  아래로 스크롤하여 폴더 보호  사용 드롭다운을 선택하고 사용 을 **선택합니다.**
 

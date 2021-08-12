@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: 콘텐츠 검색의 실제 결과를 보안 & 준수 센터에서 내보내는 Office 365 검색 결과 보고서를 내보낼 수 있습니다. 보고서에는 내보낼 각 항목에 대한 자세한 정보가 포함된 검색 결과 및 문서가 요약되어 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 094e67812b45ab1544d629ba6ddabcd86c70c633
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 0eae866625c9fd2424263ebfa6bff03ecc5c09a820017ffde5dad6d66f1c2164
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819985"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
@@ -69,7 +69,7 @@ Microsoft 365 준수 센터의 콘텐츠 검색(또는 Core eDiscovery 사례와
 
 첫 번째 단계는 내보낼 컴퓨터로 다운로드할 보고서를 준비하는 것입니다. 보고서를 내보내면 보고서 문서가 Microsoft 클라우드의 Azure Storage 영역으로 업로드됩니다.
   
-1. 준수 Microsoft 365 센터에서 보고서를 내보낼 콘텐츠 검색을 선택합니다.
+1. 보고서 Microsoft 365 규정 준수 센터 내보낼 콘텐츠 검색을 선택합니다.
   
 2. 검색 **플라이아웃** 페이지의 아래쪽에 있는 작업 메뉴에서 보고서 **내보내기 를 클릭합니다.**
 
@@ -105,7 +105,7 @@ Microsoft 365 준수 센터의 콘텐츠 검색(또는 Core eDiscovery 사례와
 
 다음 단계는 보고서 영역의 보고서를 로컬 Azure Storage 다운로드하는 것입니다.
 
-1. 준수 **센터의** 콘텐츠 Microsoft 365 **내보내기 탭을** 선택합니다.
+1. 콘텐츠 **검색 페이지의** Microsoft 365 규정 준수 센터 **내보내기 탭을** 선택합니다.
   
    새로 고침을 **클릭하여** 만든 내보내기 작업이 표시될 수 있도록 내보내기 작업 목록을 업데이트해야 할 수 있습니다. 보고서 내보내기 작업은 검색 이름에 추가된 _ReportsOnly 검색과 이름이 동일합니다. 
   
@@ -130,7 +130,7 @@ Microsoft 365 준수 센터의 콘텐츠 검색(또는 Core eDiscovery 사례와
 
 7. **시작** 을 클릭하여 컴퓨터에 검색 결과를 다운로드합니다.
   
-    **eDiscovery 내보내기 도구** 는 다운로드할 남은 항목의 예상 개수(크기)를 포함하여 내보내기 프로세스에 대한 상태 정보를 표시합니다. 내보내기 프로세스가 완료되면 다운로드된 위치에 있는 파일에 액세스할 수 있습니다.
+    **eDiscovery 내보내기 도구** 는 다운로드할 남은 항목의 예상 개수(크기)를 포함하여 내보내기 프로세스에 대한 상태 정보를 표시합니다. 내보내기 프로세스가 완료되면 다운로드된 위치에서 파일에 액세스할 수 있습니다.
   
 ## <a name="whats-included-in-the-report"></a>보고서에 포함된 것
 

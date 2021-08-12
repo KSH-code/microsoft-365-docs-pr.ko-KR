@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 4307bdbf-6097-458d-9a6a-048112695c59
 description: 관리자는 네트워크, 모임 및 IM, 사용자에 대한 외부 액세스를 포함하여 비즈니스용 Skype Online의 일부를 설정하는 도움말을 찾아야 합니다.
-ms.openlocfilehash: 64d43b4593de9c23e28bcec1bb5c3ce369ee9b2b
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: db39d4d42b27aa95cdb3dc86d0c1976dd053d43408e5b64289b2754f88e698b6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926346"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835010"
 ---
 # <a name="skype-for-business-online-in-office-365---admin-help"></a>Office 365의 비즈니스용 Skype Online - 관리자 도움말
 

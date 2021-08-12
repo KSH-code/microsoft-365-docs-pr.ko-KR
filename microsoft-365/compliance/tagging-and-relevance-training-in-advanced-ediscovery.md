@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 40개 파일에 태그를 지정한 다음 40개 파일의 교육 샘플을 사용하여 작업하는 단계를 Advanced eDiscovery.
-ms.openlocfilehash: ae4a9f2e9fd87fdd0679bbfd8f287b6eaa98e41f
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+ms.openlocfilehash: a510d331da39cfec7e861148a20200c6f3a1239f7ca0fc6387ffc7de56fa38fd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49769223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813611"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery"></a>2016년 8월에 태그 지정 및 Advanced eDiscovery
   
@@ -47,7 +47,7 @@ ms.locfileid: "49769223"
    |**태그 지정 옵션**|**설명**|**바로 가기 키**|**바로 가기 키 대량 태그 지정(여러 문제의 경우)**|
    |-----|-----|-----|-----|
    |R  <br/> |관련성  <br/> |Z  <br/> |`Shift + Z`  <br/> |
-   |NR  <br/> |관련이 없는 경우  <br/> |X 키  <br/> |`Shift + X`  <br/> |
+   |NR  <br/> |관련이 없는 경우  <br/> |X  <br/> |`Shift + X`  <br/> |
    |건너뛰기  <br/> |건너뛰기  <br/> |C  <br/> |`Shift + A`  <br/> |
    |||||
 

@@ -20,12 +20,12 @@ ms.custom: ''
 localization_priority: Priority
 recommendations: false
 description: Microsoft 365에서 공유를 제한하거나 해제할 수 있는 옵션에 대해 알아봅니다.
-ms.openlocfilehash: f237df883bb401342a3a5c93432beeb5028cfce6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: fbbf5630938c89d71a0b09c21cb1f1b2360faa510109796b44b354daa4b878cf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53827936"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Microsoft 365에서의 공유 제한
 

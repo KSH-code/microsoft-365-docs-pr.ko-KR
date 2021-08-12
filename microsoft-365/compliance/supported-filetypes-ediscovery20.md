@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: OCR 기능에서 지원하는 이미지 파일 형식을 Microsoft 365 Advanced eDiscovery 파일 형식을 포함하여 Advanced eDiscovery.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a637dc0505b74a2b7f7d726ed9a731db8e68c12
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: b4de1051c2f7d3f3ea3d34b624aa67aa16647d85d6f604d4af1b958a6c400cf9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813586"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>지원되는 Advanced eDiscovery
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva 항목 설정
+title: 항목 Microsoft Viva 설정
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,19 +9,19 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Viva 항목을 설정하는 방법 학습
-ms.openlocfilehash: 42f84b9b792907d7fe118e0b15c3767674ddf19b
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+description: 항목의 설정 Microsoft Viva 방법
+ms.openlocfilehash: 65c679889c60b69ae60a4649b64224f7970f57e58feb5f40a391e0acc257966c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53834895"
 ---
-# <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva 항목 설정
+# <a name="set-up-microsoft-viva-topics"></a>항목 Microsoft Viva 설정
 
 를 사용하여 Microsoft 365 관리 센터 및 [구성할 수 있습니다.](topic-experiences-overview.md) 
 
-환경에서 항목을 설정하고 구성하는 가장 좋은 방법을 계획하는 것이 중요합니다. 이 문서의 절차를 시작하기 전에 [Plan for Microsoft Viva Topics을](plan-topic-experiences.md) 읽어야 합니다.
+환경에서 항목을 설정하고 구성하는 가장 좋은 방법을 계획하는 것이 중요합니다. 이 문서의 절차를 시작하기 전에 plan [for Microsoft Viva Topics을](plan-topic-experiences.md) 읽어야 합니다.
 
 Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.microsoft.com/microsoft-viva/topics) SharePoint 관리자 또는 Microsoft 365 관리 센터 해야 합니다.
 
@@ -153,10 +153,10 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
 
 항목을 설정한 후 의 설치 중에 선택한 설정을 변경할 [Microsoft 365 관리 센터.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) 다음 사항을 참조하세요.
 
-- [Microsoft Viva 항목에서 항목 검색 관리](topic-experiences-discovery.md)
-- [Microsoft Viva 항목에서 항목 표시 관리](topic-experiences-knowledge-rules.md)
-- [Microsoft Viva 항목에서 항목 사용 권한 관리](topic-experiences-user-permissions.md)
-- [Microsoft Viva 항목의 항목 센터 이름 변경](topic-experiences-administration.md)
+- [항목에서 항목 Microsoft Viva 관리](topic-experiences-discovery.md)
+- [항목의 항목 표시 Microsoft Viva 관리](topic-experiences-knowledge-rules.md)
+- [다음 항목에서 항목 사용 Microsoft Viva 관리](topic-experiences-user-permissions.md)
+- [다음 항목에서 항목 센터의 Microsoft Viva 변경](topic-experiences-administration.md)
 
 ## <a name="see-also"></a>참고 항목
 

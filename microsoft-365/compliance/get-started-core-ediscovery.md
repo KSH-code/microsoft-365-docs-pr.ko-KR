@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 2016에서 Core eDiscovery를 사용하는 방법을 Microsoft 365. eDiscovery 권한을 할당하고 사례를 만든 후 구성원을 추가하고 eDiscovery 보류를 만든 다음 조사와 관련된 콘텐츠를 검색하고 내보낼 수 있습니다.
-ms.openlocfilehash: 9466b2e3268a447a4008363e88290d4d02558c76
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 8b0e1c91f0816df3b443933d4e14c6c36f41b143a27d06516cf66e46a0f054a4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819913"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>2013에서 Core eDiscovery 시작 Microsoft 365
 
@@ -82,7 +82,7 @@ eDiscovery 관리자 역할 그룹에는 두 개의 하위 그룹이 있습니�
 
 - **eDiscovery 관리자:** 작성하거나 구성원인 Core eDiscovery 사례를 보고 관리할 수 있습니다. 다른 eDiscovery 관리자가 사례를 만들어 두 번째 eDiscovery 관리자(Manager)를 해당 사례의 구성원으로 추가하지 않는 경우 두 번째 eDiscovery 관리자는 준수 센터의 Core eDiscovery 페이지에서 사례를 보거나 열 수 없습니다. 일반적으로 조직의 대부분의 사람은 eDiscovery 관리자 하위 조직에 추가할 수 있습니다.
 
-- **eDiscovery 관리자: eDiscovery** 관리자가 수행할 수 있는 모든 사례 관리 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자(Administrator)는 다음과 같은 작업을 수행할 수 있습니다.
+- **eDiscovery 관리자: eDiscovery** 관리자가 수행할 수 있는 모든 사례 관리 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자는 다음과 같은 작업을 수행할 수 있습니다.
 
   - Core eDiscovery 페이지에 나열된 모든 사례를 시청하세요.
   
@@ -134,7 +134,7 @@ eDiscovery 사용 권한에 대한 자세한 내용과 eDiscovery 관리자 역�
 
 1. **[eDiscovery 보류를 생성합니다.](create-ediscovery-holds.md)** 사례를 작성한 후 첫 번째 단계는 조사에 관심이 있는 사용자 콘텐츠 위치에 *보류(eDiscovery* 보류라고도 불리며)를 배치하는 것입니다. 콘텐츠 위치에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정, Microsoft Teams 그룹과 연결된 사서함 및 Office 365 포함됩니다. 이 단계는 선택 사항이지만 eDiscovery 보류를 만들면 조사 중에 사례와 관련이 있을 수 있는 콘텐츠가 보존됩니다. eDiscovery 보류를 만들 때 특정 콘텐츠 위치에 있는 모든 콘텐츠를 보존하거나 쿼리 기반 보류를 만들어 보류 쿼리와 일치하는 콘텐츠만 보존할 수 있습니다. 다음 단계에서 검색을 만들고 실행할 때 eDiscovery 보류를 만드는 또 다른 좋은 이유는 검색할 각 위치를 선택하는 대신 보류된 콘텐츠 위치를 빠르게 검색하기 위한 것입니다. 조사를 완료한 후 만든 보류를 해제할 수 있습니다.
 
-2. **[콘텐츠를 검색합니다.](search-for-content-in-core-ediscovery.md)** eDiscovery 보류를 만든 후 기본 제공 검색 도구를 사용하여 보류된 콘텐츠 위치를 검색합니다. 사례와 관련이 있을 수 있는 데이터의 다른 콘텐츠 위치를 검색할 수도 있습니다. 사례와 연결된 다양한 검색을 만들고 실행할 수 있습니다. 키워드, 속성 및 조건을 사용하여 [](keyword-queries-and-search-conditions.md) 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환하는 검색 쿼리를 작성합니다. 또한 다음을 수행할 수 있습니다.
+2. **[콘텐츠를 검색합니다.](search-for-content-in-core-ediscovery.md)** eDiscovery 보류를 만든 후 기본 제공 검색 도구를 사용하여 보류된 콘텐츠 위치를 검색합니다. 사례와 관련이 있을 수 있는 데이터의 다른 콘텐츠 위치를 검색할 수도 있습니다. 사례와 연결된 다양한 검색을 만들고 실행할 수 있습니다. 키워드, 속성 및 조건을 사용하여 [](keyword-queries-and-search-conditions.md) 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환하는 검색 쿼리를 작성합니다. 다음을 수행할 수도 있습니다.
 
    - 검색 쿼리를 구체화하여 결과 범위를 좁히는 데 도움이 될 수 있는 검색 통계를 볼 수 있습니다.
 

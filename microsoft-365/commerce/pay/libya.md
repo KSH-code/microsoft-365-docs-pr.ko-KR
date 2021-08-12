@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2a15a77319f6e70d8f9c058bfb1c7031652f6050
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2f671a15581f8d5e85a3fbd5dbe4cbab27bd0ad2bf001568157f560870c1182d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536457"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53796757"
 ---
 # <a name="payment-information-for-libya"></a>리비아의 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52536457"
 **은행:** Citibank, London  
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
-**계정 번호:** 12510049  
+**계정 번호: 12510049**  
 **계정 이름:** MICROSOFT

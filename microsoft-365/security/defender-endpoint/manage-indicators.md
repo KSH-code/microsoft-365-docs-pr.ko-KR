@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fb87f36c5289d622df2615046c5bb2fd8fad9543
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a015755d0848b0287854db67021599917851d889bb178ff4f4129e02c09919db
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53806303"
 ---
 # <a name="create-indicators"></a>지표 만들기
 
@@ -34,7 +34,7 @@ ms.locfileid: "52842245"
 
 
 > [!TIP]
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 IoC(손상 표시기) 일치는 모든 끝점 보호 솔루션에서 필수적인 기능입니다. SecOps는 이 기능을 통해 검색 및 차단(예방 및 응답)에 대한 표시기 목록을 설정할 수 있습니다.
 
@@ -71,7 +71,7 @@ Endpoint용 Defender의 클라우드 검색 엔진은 정기적으로 수집된 
 > 테넌트당 표시기는 15,000개로 제한됩니다. 파일 및 인증서 표시기는 에 정의된 제외를 [차단하지 Microsoft Defender 바이러스 백신.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) 수동 모드에서는 Microsoft Defender 바이러스 백신 지원되지 않습니다. 
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [상황적 IoC 만들기](respond-file-alerts.md#add-indicator-to-block-or-allow-a-file)
 - [끝점 표시기 API에 Microsoft Defender 사용](ti-indicator.md)
