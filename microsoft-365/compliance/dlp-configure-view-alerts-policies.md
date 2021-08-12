@@ -20,16 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 정책에 대한 경고를 정의하고 관리하는 방법을 학습합니다.
-ms.openlocfilehash: ee04f6080edcde86dc39c7f4aa43130223fee8bf
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: 75483989e18ab519aae7d8f5a0cd257b31c6aad33981b1d0ab6b7acda4293585
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51750040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53796134"
 ---
 # <a name="configure-and-view-alerts-for-data-loss-prevention-polices"></a>데이터 손실 방지에 대한 경고 구성 및 보기
 
-DLP(데이터 손실 방지) 경찰은 중요한 항목의 의도치 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. Microsoft 365 준수 센터에서 새 DLP 경고 관리 대시보드를 사용하여 DLP 정책 위반에 대한 [경고,](https://compliance.microsoft.com/) 이벤트 및 관련 메타데이터를 보는 방법을 볼 수 있습니다.
+DLP(데이터 손실 방지) 경찰은 중요한 항목의 의도치 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. 새 DLP 경고 관리 대시보드를 사용하여 DLP [](https://compliance.microsoft.com/) 정책 위반에 Microsoft 365 규정 준수 센터, 이벤트 및 관련 메타데이터를 보는 방법을 볼 수 있습니다.
 
 <!-- LEFT OFF HERE-->
 
@@ -37,13 +37,13 @@ DLP(데이터 손실 방지) 경찰은 중요한 항목의 의도치 않은 공�
 
 이 기능의 일부로는 다음과 같은 기능이 있습니다.
 
--   **DLP 경고** 관리 대시보드: Microsoft 365 준수 센터에서 이 대시보드에는 다음 워크로드에 적용된 DLP 정책에 대한 경고가 표시됩니다. [](https://compliance.microsoft.com/)
+-   **DLP 경고** [관리](https://compliance.microsoft.com/)대시보드: Microsoft 365 규정 준수 센터 에서 이 대시보드에는 다음 워크로드에 적용된 DLP 정책에 대한 경고가 표시됩니다.
 
     -   Exchange
     -   SharePoint
     -   OneDrive
     -   Teams
-    -   디바이스
+    -   장치
 -   **고급 경고 구성 옵션:** 이러한 옵션은 DLP 정책 제작 흐름의 일부입니다. 다양한 경고 구성을 만드는 데 사용할 수 있습니다. 이벤트 수 또는 유출된 데이터의 크기에 따라 단일 이벤트 경고 또는 집계된 경고를 만들 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
@@ -74,8 +74,8 @@ Teams DLP를 사용할 수 있는 끝점 [DLP를](endpoint-dlp-learn-about.md) �
 
 DLP 경고 관리 대시보드를 보거나 DLP 정책에서 경고 구성 옵션을 편집하려면 다음 역할 그룹 중 하나의 구성원이 되어야 합니다.
 
--   준수 관리자
--   준수 데이터 관리자
+-   규정 준수 관리자
+-   규정 준수 데이터 관리자
 -   보안 관리자
 -   보안 운영자
 -   보안 읽기 권한자
@@ -101,7 +101,7 @@ DLP 경고 관리 대시보드에 액세스하려면 경고 관리 역할 및 �
 
 DLP 경고 관리 대시보드에서 작업하는 경우:
 
-1.  Microsoft 365 [센터에서](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
+1.  에서 [Microsoft 365 규정 준수 센터](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
 
 2.  경고 **탭을 선택하여** DLP 경고 대시보드를 볼 수 있습니다.
 
@@ -113,7 +113,7 @@ DLP 경고 관리 대시보드에서 작업하는 경우:
 1.  경고와  연결된 모든 이벤트를 표시하려면 이벤트 탭을 선택합니다. 특정 이벤트를 선택하면 세부 정보를 볼 수 있습니다.
     다음 표에는 일부 이벤트 세부 정보가 표시됩니다.
     
-    | Category          | 속성 이름                 | 설명                                                                | 적용 가능한 이벤트 유형                   |
+    | 범주          | 속성 이름                 | 설명                                                                | 적용 가능한 이벤트 유형                   |
     |-------------------|-------------------------------|----------------------------------------------------------------------------|------------------------------------------|
     |*이벤트 세부 정보*||
     |      | Id                            | 이벤트와 연결된 고유 ID                                        | 모든 이벤트                               |

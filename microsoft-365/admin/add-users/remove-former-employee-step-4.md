@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 문서의 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook.
-ms.openlocfilehash: 0051f9c20508f0682d34ad3ad17d3e4d8cccf60f
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: c9d9858d030e54884a4defc9b06afe67e8951fca37e36f10d0e9979e5d282920
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53648690"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53827493"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여
 
@@ -130,7 +130,7 @@ ms.locfileid: "53648690"
   
     ![상위 Outlook 선택한 데이터 파일 내보내기 대화 상자 및 하위 폴더 포함 선택](../../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
   
-7. **다음** 을 선택하세요.
+7. **다음** 을 선택합니다.
 
 8. **찾아보기를** 선택하여 데이터 파일(.pst)Outlook 선택합니다. 파일  *이름 을 입력한* 다음 **확인을** 선택하여 계속합니다.
 
@@ -173,7 +173,7 @@ Outlook 새 Outlook 파일(.pst)을 만들거나 암호로 보호된 파일을 �
 
 5. 옵션 **아래에서** 중복 항목을 처리하려는 방법을 선택합니다.
 
-6. **다음** 을 선택하세요.
+6. **다음** 을 선택합니다.
 
 7. Outlook 데이터 파일(.pst)에 암호를 할당한 경우 암호를 입력한 다음 확인 을 **선택합니다.**
 

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: eefc1f54f20d1d59a8732cdd75356039bc434f91
-ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
+ms.openlocfilehash: 93b243f60b485d1dfbcca62219cf510c006fdbbc20fc264b179720f9ad2a9bcc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53726275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813033"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -50,7 +50,7 @@ ms.locfileid: "53726275"
 |SharePoint 및 OneDrive|15일 이상|Microsoft|URL을 SharePoint 비즈니스용 OneDrive 콘텐츠 및 sharepoint.de 마이그레이션합니다.|
 |Exchange Online|15일 이상|Microsoft|콘텐츠 Exchange Online 마이그레이션하고 전 세계 URL로 전환합니다.|
 |보안 및 규정 준수|1~2일|Microsoft|보안 및 & 정책 및 콘텐츠를 전환합니다.|
-|Skype for Business|1~2일|Microsoft|다음 비즈니스용 Skype 전환할 Microsoft Teams.|
+|비즈니스용 Skype|1~2일|Microsoft|다음 비즈니스용 Skype 전환할 Microsoft Teams.|
 |Power BI & Dynamics 365|15일 이상|Microsoft|Power BI 및 Dynamics 365 콘텐츠를 마이그레이션합니다.|
 |Azure AD 마무리|1~2일|Microsoft|전 세계 테넌트 컷오버를 완료합니다.|
 |Clean-Up|1~2일|고객|AD FS(Active Directory Federation Services) 신뢰 파티 트러스트, Azure AD 커넥트 및 클라이언트 다시 시작과 같은 레거시 연결을 Office 정리합니다.|
@@ -197,7 +197,7 @@ CNAME이 을(를) autodiscover-outlook.office.de 있는 기존 DNS 항목은 을
 
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들면
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```powershell
 New-PSSession

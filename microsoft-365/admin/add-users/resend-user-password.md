@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
 description: 암호를 다시 설정하고 새 사용자로 전자 메일을 보내는 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: 916ac2f92f8cd6a7236525c733d4b5061368b0ef
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: edf6adb8c0485e094d13c2ec0cde3b9ae1f537fb91f0b86cd5d8b213ecb6bd62
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53827374"
 ---
 # <a name="resend-a-users-password---admin-help"></a>사용자 암호 다시 보내기 - 관리자 도움말
 
@@ -39,7 +39,7 @@ ms.locfileid: "52840865"
 
 ## <a name="resend-user-password"></a>사용자 암호 재전송
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. 활성 **사용자 페이지에서** 사용자를 선택한 다음 암호 다시 설정을 **선택합니다.**
 

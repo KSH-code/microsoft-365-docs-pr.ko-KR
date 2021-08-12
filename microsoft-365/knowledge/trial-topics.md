@@ -12,12 +12,12 @@ ms.custom: ''
 search.appverid: ''
 localization_priority: Normal
 description: 조직에서 테스트용 파일럿 프로그램을 계획하고 Microsoft Viva 방법을 배워야 합니다.
-ms.openlocfilehash: 783c84e0b7d14c51269672bc49902f02bdedd0e3
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 529d201203c45a5b3f39d1c6ac0f1a3a7f691aaba23098dafc32a42911247aca
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649626"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53834686"
 ---
 # <a name="run-a-trial-of-microsoft-viva-topics"></a>항목 평가판 Microsoft Viva 실행
 

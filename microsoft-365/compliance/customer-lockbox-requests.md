@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 있는 경우 Microsoft 기술 지원 엔지니어가 데이터에 액세스할 수 있는 방법을 제어할 수 있는 고객 Lockbox 요청에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6a6a1d45bfbc8b7c65d9ac8d58eb246643505c4f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4669abefe039d0f4ba75f22d267c54696cb680aee44df560befd93006c515ae5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53796246"
 ---
 # <a name="customer-lockbox-in-office-365"></a>고객 Lockbox의 Office 365
 
@@ -54,9 +54,9 @@ Customer Lockbox는 Microsoft가 명시적 승인 없이는 서비스 작업을 
 
     ![고객 Lockbox 전자 메일 알림의 예](../media/CustomerLockbox1.png)
 
-   Microsoft 365 관리 센터에서 [고객 Lockbox](/office365/admin/add-users/about-admin-roles) 액세스 승인자 관리자 역할이 할당된 모든 사용자는 고객 Lockbox 요청을 승인할 수 있습니다.
+   사용자 계정에서 [고객 Lockbox](/office365/admin/add-users/about-admin-roles) 액세스 승인자 관리자 역할이 할당된 Microsoft 365 관리 센터 Lockbox 요청을 승인할 수 있습니다.
 
-6. 승인자가 Microsoft 365 센터에 로그인하고 요청을 승인합니다. 이 단계에서 감사 로그를 검색하여 사용 가능한 감사 레코드 생성을 트리거합니다. 자세한 내용은 고객 Lockbox 요청 [감사를 참조하세요.](#auditing-customer-lockbox-requests)
+6. 승인자가 로그인하여 Microsoft 365 관리 센터 승인합니다. 이 단계에서 감사 로그를 검색하여 사용 가능한 감사 레코드 생성을 트리거합니다. 자세한 내용은 고객 Lockbox 요청 [감사를 참조하세요.](#auditing-customer-lockbox-requests)
 
    고객이 요청을 거부하거나 12시간 이내에 요청을 승인하지 않는 경우 요청이 만료되고 Microsoft 엔지니어에게 액세스 권한이 부여되지 않습니다.
 
@@ -219,7 +219,7 @@ Office 365 고객 콘텐츠에 대한 자세한 내용은 Office 365 [를 참조
 
 #### <a name="how-do-i-opt-in-to-customer-lockbox"></a>고객 Lockbox에 옵트인(opt in)하는 방법
 
-전역 관리자는 고객 Lockbox를 Microsoft 365 관리 센터에서 Microsoft 365 수 있습니다.
+전역 관리자는 사용자 계정 또는 서비스에서 고객 Lockbox를 Microsoft 365 구성할 Microsoft 365 관리 센터.
 
 #### <a name="if-i-approve-a-customer-lockbox-request-what-can-the-engineer-do-and-how-will-i-know-what-the-microsoft-engineer-did"></a>고객 Lockbox 요청을 승인하는 경우 엔지니어가 할 수 있는 일과 Microsoft 엔지니어가 어떤 작업을 했는가?
 
@@ -227,7 +227,7 @@ Office 365 고객 콘텐츠에 대한 자세한 내용은 Office 365 [를 참조
 
 #### <a name="how-do-i-know-that-microsoft-follows-the-approval-process"></a>Microsoft가 승인 프로세스를 따르는지 어떻게 알 수 있나요?
 
-조직의 관리자 및 승인자에게 전송되는 전자 메일 승인 알림을 조직 관리 센터의 고객 Lockbox 요청 기록과 Microsoft 365 수 있습니다.
+조직의 관리자 및 승인자에 전송된 전자 메일 승인 알림을 조직 내 고객 Lockbox 요청 기록과 상호 Microsoft 365 관리 센터.
 
 Customer Lockbox는 최신 [SOC 1 SSAE 16 감사 보고서에 포함되어 있습니다.](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=91592749-e86a-43ac-801e-121382614681&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC%20%2F%20SSAE%2016%20Reports) 자세한 내용은 Microsoft Service Trust Portal 에서 최신 [보고서를 찾을 수 있습니다.](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=91592749-e86a-43ac-801e-121382614681&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC%20%2F%20SSAE%2016%20Reports)
 
@@ -245,7 +245,7 @@ Customer Lockbox는 최신 [SOC 1 SSAE 16 감사 보고서에 포함되어 있�
 
 #### <a name="how-can-i-get-a-history-of-all-customer-lockbox-requests"></a>모든 고객 Lockbox 요청에 대한 기록을 얻은 방법
 
-모든 고객 Lockbox 요청은 Microsoft 365 관리 센터에서 볼 수 있습니다.
+모든 고객 Lockbox 요청은 서비스 Microsoft 365 관리 센터.
 
 #### <a name="how-do-i-correlate-the-content-access-requests-with-the-related-audit-logs"></a>콘텐츠 액세스 요청과 관련 감사 로그의 상관 관계는 어떻게 하나요?
 

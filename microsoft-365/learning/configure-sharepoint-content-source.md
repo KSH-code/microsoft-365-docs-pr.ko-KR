@@ -1,5 +1,5 @@
 ---
-title: Microsoft viva SharePoint 학습 콘텐츠 원본으로 구성(미리 보기) Learning 구성
+title: SharePoint 학습 콘텐츠 원본으로 구성(Microsoft Viva Learning)
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -14,15 +14,15 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
 localization_priority: None
-description: Microsoft Viva SharePoint(미리 보기)에 대한 학습 콘텐츠 Learning 방법을 알아보겠습니다.
-ms.openlocfilehash: 96dc12f8c69281f420b339198222f9f918ebc5b4
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+description: 사용자용 학습 콘텐츠 SharePoint(미리 보기)로 구성하는 Microsoft Viva Learning 알아보겠습니다.
+ms.openlocfilehash: a7f4b41bb515fbd8c1ffde98f29da1ff13cc30df5eb36f07ae4ab35c0eb4f229
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289946"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53834674"
 ---
-# <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>Microsoft viva SharePoint 학습 콘텐츠 원본으로 구성(미리 보기) Learning 구성
+# <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>SharePoint 학습 콘텐츠 원본으로 구성(Microsoft Viva Learning)
 
 > [!NOTE]
 > 이 기능은 제품 미리 보기에서 아직 사용할 수 없습니다.

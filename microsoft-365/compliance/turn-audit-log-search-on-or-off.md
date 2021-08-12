@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: 관리자의 감사 로그 검색 기능을 설정하거나 해제하여 Microsoft 365 규정 준수 센터 감사 로그를 검색할 수 있는 기능을 활성화 또는 비활성화하는 방법
-ms.openlocfilehash: 8da6ba3f8dc9fbc7564b7bd71e71c542cb118057
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: d0d6937a8a4f8f6fd6a8a6e6e3873f2ad8f51b56431268d3108d7808dba8467b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567551"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53841242"
 ---
 # <a name="turn-auditing-on-or-off"></a>감사 켜기 또는 끄기
 

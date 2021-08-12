@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기에서 학습 가능한 분류자에 피드백을 제공하는 방법을 학습합니다.
-ms.openlocfilehash: ef0539a3d474ffecaeac8633b4a58aa068a5c182
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: fddb25bb1ebf702d19767c13f65df4f925fcfc78a7036eb769b96241b271471c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53796349"
 ---
 # <a name="how-to-retrain-a-classifier-in-content-explorer"></a>콘텐츠 탐색기에서 분류자를 재학습하는 방법
 
@@ -61,7 +61,7 @@ ms.locfileid: "52793067"
 
 ## <a name="how-to-retrain-a-classifier-in-content-explorer"></a>콘텐츠 탐색기에서 분류자를 재학습하는 방법
 
-1. 규정 준수 Microsoft 365 또는 보안 관리자 역할 액세스로 규정 준수 센터에 로그인하고 Microsoft 365 **데이터** 분류 콘텐츠 탐색기를  >    >  **를 니다.** 
+1. 준수 관리자 또는 Microsoft 365 규정 준수 센터 역할 액세스로 로그인하고 데이터 분류 콘텐츠 **탐색기를 Microsoft 365 규정 준수 센터**  >    >  **를 니다.** 
 2. 레이블, **정보** 유형 또는 범주에 대한 필터 목록에서 교육 가능한 **분류자 를 확장합니다.**
 
 > [!IMPORTANT]

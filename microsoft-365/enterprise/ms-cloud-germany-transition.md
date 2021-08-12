@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: 4162e51164120cecaa431ad6883d3ee112ad4880
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: 0c5e4418a44c463ab05f920f53f4c46b8fdc7c521d84deca48bdfdbfb207befa
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796009"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813001"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드에서 새 독일 Office 365 서비스로 마이그레이션
 
@@ -66,7 +66,7 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 :::image type="content" alt-text="새 독일 데이터 센터로의 10단계 마이그레이션" source="../media/ms-cloud-germany-migration-opt-in/migration-organization.png" lightbox="../media/ms-cloud-germany-migration-opt-in/migration-organization.png":::
 
-마이그레이션에 옵트인(opt [in)할 때 이러한 단계가 시작됩니다.](./ms-cloud-germany-migration-opt-in.md) 대부분의 마이그레이션 단계는 최소한의 고객 상호 작용이 필요하며 백 엔드 서비스 작업으로 실행되고 한 단계 후에 실행됩니다. 추가 고객 주도 작업의 시작 및 전체 마이그레이션 상태는 마이그레이션 프로세스 중에 Microsoft 365 관리 센터의 메시지 센터를 통해 전달됩니다. 작업의 예로는 고객 관리 DNS 업데이트, 하이브리드 고객을 위한 하이브리드 설정 Exchange 또는 Azure 마이그레이션이 있습니다.
+마이그레이션에 옵트인(opt [in)할 때 이러한 단계가 시작됩니다.](./ms-cloud-germany-migration-opt-in.md) 대부분의 마이그레이션 단계는 최소한의 고객 상호 작용이 필요하며 백 엔드 서비스 작업으로 실행되고 한 단계 후에 실행됩니다. 추가 고객 주도 작업의 시작 및 전체 마이그레이션 상태는 마이그레이션 프로세스 중에 Microsoft 365 관리 센터 메시지 센터를 통해 전달됩니다. 작업의 예로는 고객 관리 DNS 업데이트, 하이브리드 고객을 위한 하이브리드 설정 Exchange 또는 Azure 마이그레이션이 있습니다.
 
 옵트인(opt in)이 발생하면 마이그레이션이 즉시 시작되지는 않습니다. 조직이 이후 마이그레이션을 위해 예약된 테넌트 목록에 추가됩니다. 완료 시 성공적인 마이그레이션 및 사용을 보장하기 위해 이러한 단계가 중요하기 때문에 작업 전 단계를 시작할 수 있습니다.
 
@@ -97,7 +97,7 @@ Azure AD를 전 세계 서비스로 최종 전환한 후 모든 클라이언트�
 
 ## <a name="moving-to-the-new-german-datacenter-regions"></a>새 독일 데이터 센터 지역으로 이동
 
-이제 도이치클라드 기존 Microsoft 클라우드 고객은 이제 사용자 Office 365, Dynamics 365 고객 참여 및 Power Platform 서비스 마이그레이션을 시작할 수 있습니다. 첫 번째 단계는 Microsoft 주도 신규 독일 데이터 센터 지역으로의 [마이그레이션에 동의](./ms-cloud-germany-migration-opt-in.md)하는 것입니다.  구독을 갱신하면 Microsoft 지원 마이그레이션에 자동으로 옵트인(opt in)합니다. Microsoft는 이러한 경우 고객 테넌트 관리자에게 전자 메일과 Microsoft 365 센터의 메시지 센터에 알릴 것입니다. 그러나 지금 프로세스를 시작하려면 지금 바로 [](./ms-cloud-germany-migration-opt-in.md) Microsoft 365 관리 센터에서 직접 옵트인할 수 있습니다. 마이그레이션은 2021년 초에 시작될 예정이고 2021년 10월 29일까지 완료됩니다. 
+이제 도이치클라드 기존 Microsoft 클라우드 고객은 이제 사용자 Office 365, Dynamics 365 고객 참여 및 Power Platform 서비스 마이그레이션을 시작할 수 있습니다. 첫 번째 단계는 Microsoft 주도 신규 독일 데이터 센터 지역으로의 [마이그레이션에 동의](./ms-cloud-germany-migration-opt-in.md)하는 것입니다.  구독을 갱신하면 Microsoft 지원 마이그레이션에 자동으로 옵트인(opt in)합니다. 이 경우 Microsoft는 고객 테넌트 관리자에게 전자 메일과 메시지 센터에 Microsoft 365 관리 센터 알릴 것입니다. 그러나 지금 프로세스를 시작하고자 하는 경우 지금 바로 옵트인(opt [in)할](./ms-cloud-germany-migration-opt-in.md) Microsoft 365 관리 센터 있습니다. 마이그레이션은 2021년 초에 시작될 예정이고 2021년 10월 29일까지 완료됩니다. 
 
 마이그레이션의 결과로 핵심 고객 데이터 및 구독이 새로운 독일 데이터 센터 지역으로 이동됩니다.
 
@@ -205,7 +205,7 @@ Office 365, Dynamics 365 또는 Power BI Azure가 있는 경우 자체 지시 Az
 
 **Office 365**
 
-지금 Microsoft 주도 마이그레이션에 [동의 합니다](./ms-cloud-germany-migration-opt-in.md).  마이그레이션을 시작할 준비가 되면 Microsoft 365 센터의 메시지 센터를 통해 알려드릴 것입니다.
+지금 Microsoft 주도 마이그레이션에 [동의 합니다](./ms-cloud-germany-migration-opt-in.md).  마이그레이션을 시작할 준비가 되면 마이그레이션 센터의 메시지 센터를 통해 Microsoft 365 관리 센터.
 
 **Dynamics 365 및 Power BI**
 
@@ -246,9 +246,9 @@ Office 365, Dynamics 365 또는 Power BI Azure가 있는 경우 자체 지시 Az
 | \_Office 365 Business Essentials DE (O365 \_ BUSINESS \_ ESSENTIALS \_ DE) | Microsoft 365 Business Basic(O365 BUSINESS \_ \_ ESSENTIALS) |
 | \_Office 365 Business Premium DE(O365 \_ BUSINESS \_ PREMIUM \_ DE) | Microsoft 365 Business Standard(O365 BUSINESS \_ \_ PREMIUM) |
 | \_Office 365 Business DE(O365 \_ BUSINESS \_ DE) | 비즈니스용 Microsoft 365 앱(O365 \_ BUSINESS) |
-| Office 365 E1 \_ DE(STANDARDPACK \_ DE) | Office 365 E1(STANDARDPACK) |
-| Office 365 ProPlus DE가 없는 \_ E3(ENTERPRISEPACKWITHOUTPROPLUS \_ DE) | Office 365 ProPlus가 없는 E3(ENTERPRISEPACKWITHOUTPROPLUS) |
-| Office 365 E3 \_ DE(ENTERPRISEPACK \_ DE) | Office 365 E3(ENTERPRISEPACK) |
+| \_Office 365 E1 DE(STANDARDPACK \_ DE) | Office 365 E1(STANDARDPACK) |
+| Office 365 E3 DE가 없는 \_ 경우(ENTERPRISEPACKWITHOUTPROPLUS \_ DE) | Office 365 E3 없는 경우(ENTERPRISEPACKWITHOUTPROPLUS) |
+| \_Office 365 E3 DE(ENTERPRISEPACK \_ DE) | Office 365 E3(ENTERPRISEPACK) |
 | Office 365 Enterprise E1 \_ DE(STANDARDPACK \_ DE) | Office 365 Enterprise E1(STANDARDPACK) |
 | Office 365 Enterprise E3 \_ DE(ENTERPRISEPACK \_ DE) | Office 365 Enterprise E3(ENTERPRISEPACK) |
 | \_Office 365 Extra File Storage DE(SHAREPOINTSTORAGE \_ DE) | Office 365 Extra File Storage(SHAREPOINTSTORAGE) |
@@ -284,8 +284,8 @@ Office 365, Dynamics 365 또는 Power BI Azure가 있는 경우 자체 지시 Az
 질문이 있는 경우 다음을 문의하거나 파트너에게 문의할 수 있습니다.
 
 - Azure의 경우 Azure 포털에서 [새 지원 요청을](https://portal.microsoftazure.de/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) 제출하세요. 
-- 자세한 Office 365 관리 센터의 도움이 필요하세요? 링크를 사용하여 &quot; &quot; Microsoft 365 수 [있습니다.](https://portal.office.de/)
-- Dynamics 365 고객 참여 및 Power BI 고객인 경우 Office 365 센터의 도움이 필요하세요? 링크를 사용하여 &quot; &quot; Microsoft 365 수 [있습니다.](https://portal.office.de/) Dynamics 365 고객 참여 지원은 [여기](/dynamics365/get-started/support/)를 이용하세요.  Power BI 지원은 [여기](https://powerbi.microsoft.com/support/)를 이용하세요. 
+- 자세한 Office 365 의 도움이 필요하세요? 링크를 사용하여 질문을 &quot; &quot; 제출할 [Microsoft 365 관리 센터.](https://portal.office.de/)
+- Dynamics 365 고객 참여 및 Power BI 고객인 경우 Office 365 도움이 필요하세요? 링크를 사용하여 질문을 제출할 &quot; &quot; 수 [Microsoft 365 관리 센터.](https://portal.office.de/) Dynamics 365 고객 참여 지원은 [여기](/dynamics365/get-started/support/)를 이용하세요.  Power BI 지원은 [여기](https://powerbi.microsoft.com/support/)를 이용하세요. 
 
 ### <a name="my-customer-already-has-a-m365-tenant-in-the-global-microsoft-cloud-in-addition-to-a-microsoft-cloud-deutschland-tenant-can-these-two-tenants-be-merged-into-one-as-part-of-the-migration"></a>고객에게는 도이치랜드 Microsoft 클라우드와 함께 글로벌 Microsoft 클라우드에 M365 테넌트가 이미 있습니다. 마이그레이션의 일부로 이러한 두 테넌트가 하나의 테넌트에 병합될 수 있나요?
 

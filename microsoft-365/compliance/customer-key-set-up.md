@@ -12,12 +12,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키에 대한 고객 키를 설정하는 Microsoft 365.
-ms.openlocfilehash: e187c01a355cc9b926e892cb3326b5a527c714a4
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 2db1aff638818fea18a55e331093fcd26ca30071995447ca817234f450798047
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344677"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53796289"
 ---
 # <a name="set-up-customer-key"></a>고객 키 설정
 
@@ -32,7 +32,7 @@ ms.locfileid: "52344677"
 
 시작하기 전에 조직에 적절한 Azure 구독 및 라이선스가 있는지 확인하세요. 유료 Azure 구독은 기업계약 또는 클라우드 서비스 공급자를 사용하여 사용합니다. 신용 카드 기반 결제는 수락되지 않습니다. 인보이스에 대한 계정 요구 사항을 승인하고 설정합니다. 무료, 평가판, 스폰서십, MSDN 구독을 통해 제공된 구독 및 레거시 지원에 속한 구독은 사용할 수 없습니다.
 
-Office 365 E5, Microsoft 365 E5, Microsoft 365 E5 Compliance 및 Microsoft 365 E5 정보 보호 & SKUS는 고객 키를 제공합니다. Office 365 Advanced Compliance 새 라이선스를 조달하는 데 SKU를 더 이상 사용할 수 없습니다. 기존 Office 365 Advanced Compliance 라이선스가 계속 지원됩니다.
+Office 365 E5, Microsoft 365 E5, Microsoft 365 E5 Compliance 및 Microsoft 365 E5 Information Protection & SKUS는 고객 키를 제공합니다. Office 365 Advanced Compliance 새 라이선스를 조달하는 데 SKU를 더 이상 사용할 수 없습니다. 기존 Office 365 Advanced Compliance 라이선스가 계속 지원됩니다.
 
 이 문서의 개념과 절차를 이해하기 위해 [Azure Key Vault 설명서를 검토하세요.](/azure/key-vault/) 또한 Azure에서 사용되는 용어(예: Azure [AD 테넌트)에 익숙해지기 하세요.](/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant)
   
@@ -195,7 +195,7 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예:
+   예를 들어 다음과 같은 가치를 제공해야 합니다.
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-CK-EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -320,7 +320,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름과 키 이름을 조합하여 선택하십시오. 이렇게 하면 파일 이름이 자체 설명으로 지정됩니다. 또한 백업 파일 이름이 충돌하지 않도록 합니다.
   
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-CK-EX-NA-VaultA1 -Name Contoso-CK-EX-NA-VaultA1-Key001 -OutputFile Contoso-CK-EX-NA-VaultA1-Key001-Backup-20170802.backup

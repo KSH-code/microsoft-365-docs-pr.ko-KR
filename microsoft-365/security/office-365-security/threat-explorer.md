@@ -19,12 +19,12 @@ description: Microsoft 365 Defender 포털에서 탐색기 및 실시간 검색�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ee9c4c63817d9c6860942eb8001b02a0535333b1
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: 35044963b34d9120eb1490e64b8c9831ba6840aad7d7aa6b3b2776e70602d6fb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53806017"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -210,7 +210,7 @@ ms.locfileid: "53203259"
 
 - URL 플라이아웃의 클릭 섹션에 전체 클릭된 URL(URL의 일부인 쿼리 매개 변수 포함)을 표시하세요.  현재 URL 도메인 및 경로는 제목 표시줄에 표시됩니다. 전체 URL을 표시하기 위해 해당 정보를 확장하고 있습니다.
 
-- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예제:
+- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
   - URL, URL 도메인 및 URL 도메인 및 경로 필터 필드의 사전 사전을 사용하여 `http://` 검색합니다.    검색에 동일한 결과가 표시해야 합니다.
   - `https://`URL에서 prefix를 **검색합니다.** 값을 지정하지 않으면 `http://` prefix가 가정됩니다.
   - `/`은 URL 경로, **URL** 도메인, **URL** 도메인 및 경로 필드의 시작과 끝에서 **무시됩니다.** `/` URL 필드의 끝에 있는 **은** 무시됩니다.

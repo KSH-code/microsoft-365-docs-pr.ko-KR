@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자용: 자동 확장 보관을 사용하도록 설정하여 사용자에게 사서함에 대한 무제한 저장소를 Exchange Online 방법을 배워야 합니다. 전체 조직 또는 특정 사용자에 대해 자동 확장 보관을 사용하도록 설정할 수 있습니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac5661ac43ed9c0f35eba20007f0c4c4406ebf20
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e92f114a613c202e6c61830604bb9d3c16e1d0259f33a0304a9bb244870a562c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927828"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53795920"
 ---
 # <a name="enable-unlimited-archiving---admin-help"></a>무제한 보관 사용 - 관리자 도움말
 
@@ -40,7 +40,7 @@ ms.locfileid: "50927828"
 
 - 자동 확장 보관 기능은 공유 사서함도 지원합니다. 공유 사서함에 대해 보관을 사용하도록 설정하려면 Exchange Online 계획 2 라이선스 또는 Exchange Online 라이선스가 있는 Exchange Online Archiving 계획 1 라이선스가 필요합니다.
 
-- 자동 확장 보관을 사용하면 비활성 사서함을 복구하거나 복원할 [수 없습니다.](inactive-mailboxes-in-office-365.md#what-are-inactive-mailboxes) 즉, 사서함에 대해 자동 확장 보관을 사용하도록 설정하고 나중에 사서함이 비활성 상태로 설정되어 있는 [](recover-an-inactive-mailbox.md) 경우 비활성 사서함을 활성 사서함으로 복구하거나 [](restore-an-inactive-mailbox.md) 기존 사서함에 내용을 통합하여 복원할 수 없습니다. 비활성 사서함에서 자동 확장 보관을 사용하도록 설정한 경우 데이터를 복구하는 유일한 방법은 Microsoft 365 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함에서 데이터를 내보내고 다른 사서함으로 가져오는 것입니다. 자세한 내용은 비활성 사서함 개요의 "비활성 사서함 및 자동 확장 보관함" [섹션을 참조하십시오.](inactive-mailboxes-in-office-365.md#inactive-mailboxes-and-auto-expanding-archives)
+- 자동 확장 보관을 사용하면 비활성 사서함을 복구하거나 복원할 [수 없습니다.](inactive-mailboxes-in-office-365.md#what-are-inactive-mailboxes) 즉, 사서함에 대해 자동 확장 보관을 사용하도록 설정하고 나중에 사서함이 비활성 상태로 설정되어 있는 [](recover-an-inactive-mailbox.md) 경우 비활성 사서함을 활성 사서함으로 복구하거나 [](restore-an-inactive-mailbox.md) 기존 사서함에 내용을 통합하여 복원할 수 없습니다. 비활성 사서함에서 자동 확장 보관을 사용하도록 설정한 경우 데이터를 복구하는 유일한 방법은 사서함의 콘텐츠 검색 도구를 Microsoft 365 규정 준수 센터 사서함에서 데이터를 내보내고 다른 사서함으로 가져오는 것입니다. 자세한 내용은 비활성 사서함 개요의 "비활성 사서함 및 자동 확장 보관함" [섹션을 참조하십시오.](inactive-mailboxes-in-office-365.md#inactive-mailboxes-and-auto-expanding-archives)
 
 - 자동 확장 보관을 사용하도록 설정하기 위해 Exchange 관리 센터 또는 보안 & 사용할 수 없습니다. PowerShell을 사용하여 Exchange Online 합니다. 원격 PowerShell을 Exchange Online 조직에 연결하기 위해 PowerShell을 커넥트 [Exchange Online 참조합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
 

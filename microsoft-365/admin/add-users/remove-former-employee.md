@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 솔루션의 단계에 따라 이전 직원을 제거하고 Microsoft 365 데이터를 보호합니다.
-ms.openlocfilehash: 7c9667b771300a75a91588727f1d333ff2215302
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 08b776430eb51546acd9e0bff82b32e08f045f0cad57d16c646e49bc17e44a7c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53648666"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53827414"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>개요: 이전 직원 및 보안 데이터 제거
 
@@ -49,7 +49,7 @@ ms.locfileid: "53648666"
 |Exchange 관리 센터|사용자 차단, 전자 메일에 대한 액세스 차단, 장치 지우기 |
 |OneDrive 및 SharePoint |다른 사용자에게 액세스 권한을 부여합니다. |
 |Outlook|pst 파일 가져오기, 사서함 추가 |
-|Active Directory|하이브리드 환경에서 사용자 제거 |
+|PowerShell 연결|하이브리드 환경에서 사용자 제거 |
 
 ## <a name="solution-remove-a-former-employee"></a>해결 방법: 이전 직원 제거
 

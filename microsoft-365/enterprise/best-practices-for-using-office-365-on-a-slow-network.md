@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 저속 네트워크에서 데이터를 사용하는 경우 채택할 수 Office 365 모범 사례를 안내합니다.
-ms.openlocfilehash: d217ee8bb40898716844717e84db112f356f6672
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b09fe2a38cd98a09e7d6375abccb0486b59c34c092f60c78144ebc695453f7c6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226026"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819601"
 ---
 # <a name="best-practices-for-using-office-365-on-a-slow-network"></a>속도가 느린 네트워크에서 Office 365 모범 사례
 

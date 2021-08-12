@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기에서 사용할 수 있는 레이블 지정 활동 목록입니다.
-ms.openlocfilehash: 6dbfe8341e714c49795d8aaf7991988bec901496bf28b2bbd4d4711bdbd81c23
-ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
+ms.openlocfilehash: e9c1fadfda0d0e0fbfc5d942378035ea60ffaf266b64c117dfeb400411b30053
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54520486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53796109"
 ---
 # <a name="labeling-activities-that-are-available-in-activity-explorer"></a>활동 탐색기에서 사용할 수 있는 레이블 지정 활동
 
@@ -39,7 +39,7 @@ ms.locfileid: "54520486"
 |원본  |활동 탐색기에서 보고 | 참고  |
 |---------|---------|---------|
 | Word, Excel, PowerPoint|예 |
-|Outlook| 예 | |
+|Outlook| 예 |Win 32에서 |
 |SharePoint 온라인 OneDrive|예 | |
 |Exchange        |예         | |
 |AIP(Azure Information Protection) 통합 클라이언트 및 AIP 통합 스캐너 |예 |AIP *새 레이블 동작이* 활동 탐색기에서 *적용된 레이블에* 매핑됩니다.   |
@@ -63,7 +63,7 @@ ms.locfileid: "54520486"
 |원본  |활동 탐색기에서 보고|참고  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |예         |
-|Outlook         |예         |
+|Outlook         |예         |Win 32|
 |SharePoint 온라인, OneDrive         |예         |
 |Exchange         |예         |
 |AIP 통합 클라이언트         |예         |
@@ -84,7 +84,7 @@ ms.locfileid: "54520486"
 |원본  |활동 탐색기에서 보고 | 참고  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |예         |
-|Outlook         |예         ||
+|Outlook         |예         |Win 32|
 |SharePoint 온라인, OneDrive         |예         |
 |Exchange         |예         |
 |AIP 통합 클라이언트         |예         |AIP *레이블 제거 작업은* 활동 탐색기에서 레이블 제거 *동작에* 매핑됩니다.|

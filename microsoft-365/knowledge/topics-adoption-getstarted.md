@@ -1,6 +1,6 @@
 ---
-title: Microsoft Viva 항목의 채택 시작
-description: 조직에서 Microsoft Viva 항목의 채택을 구동하는 방법을 배워야 합니다.
+title: Microsoft Viva 도입 시작
+description: 조직에서 사용자 Microsoft Viva 채택하는 방법을 배워야 합니다.
 ms.author: samanro
 author: samanro
 manager: pamgreen
@@ -11,14 +11,14 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: e8d7ca4786893fb5eb39090d9a271ace1c62d321
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 591b83823aac1679209ed6cdd0069d559e9fe3e7adfbf7a3f24f0730f37ce912
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50596971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53834711"
 ---
-# <a name="get-started-driving-adoption-of-microsoft-viva-topics"></a>Microsoft Viva 항목의 채택 시작
+# <a name="get-started-driving-adoption-of-microsoft-viva-topics"></a>Microsoft Viva 도입 시작
 
 채택을 시작하기 전에 지식 관리 및 Viva 항목과 관련된 개념을 이해해야 합니다. 다음 다이어그램은 항목 검색 및 큐레이터 중에 발생하는 항목을 보여줍니다.
 
@@ -69,7 +69,7 @@ Viva 항목의 채택을 계획하려면 다음을 해야 합니다.
     - 커뮤니티 구축을 시작하고 이러한 여러 그룹에서 Viva 항목을 조직 전체에서 사용할 수 있는 방법에 대해 생각해 보아야 합니다.
 
 3. 조직 교육: 대부분의 사람들은 항목의 개념과 항목 카드가 관련 정보를 컴파일하는 방법을 직관적으로 이해하고 값을 이해하고 볼 수 있습니다. 그러나 Viva 항목을 사용하는 방법을 보여 주기 위해 자신의 문화와 조직에 맞게 조정된 교육을 만들 수 있습니다. 일부 교육 리소스:
-    - [Project 리소스 센터입니다.](https://aka.ms/projectcortex) 개요 및 기능 정보, 녹음된 사무실 시간 비디오 및 프레젠테이션, 파트너 및 해당 제품 관련 정보가 포함됩니다.
+    - [Project Cortex 리소스 센터.](https://aka.ms/projectcortex) 개요 및 기능 정보, 녹음된 사무실 시간 비디오 및 프레젠테이션, 파트너 및 해당 제품 관련 정보가 포함됩니다.
     - 곧 최종 사용자를 위한 비디오 및 도움말이 곧 출시될 예정입니다.
 
 4. [챔피언 네트워크 구축:](#build-a-champion-network)
@@ -87,7 +87,7 @@ Viva 항목을 성공적으로 사용할 수 있도록 조직에서 Viva 항목�
 
 HR 관리자는 신입 사원이 회사 및 팀에 신속하게 온보드할 수 있도록 정보를 제공해야 합니다. 또한 신속하고 효율적으로 온보드해야 하는 올바른 리소스, 문서 및 팀 구성원을 보게 하려는 경우 새 직원이 여러 리포지토리에서 검색하거나 이미 사용하고 있는 응용 프로그램을 나가지 않고도 필요한 정보를 빠르게 찾을 수 있는 솔루션을 찾고 있습니다.
 
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 - 직원(Jordan)이 새 역할을 맡고 있으며 새로 고용된 후 역할을 시작하고 있습니다. 요르단은 최대한 빨리 참여하고 생산성을 향상하기를 원합니다. 하지만 요르단은 시작 장소를 찾는 데도 도움이 필요합니다.
 - Jordan이 신입 사원과 해당 정보를 찾는 데 도움이 되는 항목 페이지를 만들기 전에 역할에 있는 동료(Kim)입니다.

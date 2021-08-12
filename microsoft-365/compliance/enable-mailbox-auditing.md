@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365 사서함 감사 또는 사서함 감사라고도 합니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행한 특정 작업이 사서함 감사 로그에 자동으로 기록되며, 사서함에서 수행되는 작업을 검색할 수 있습니다.
-ms.openlocfilehash: f74cb23a029d4710a19aeb18999169f6adc636a4
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 9b649e1e81ba9a70e11d255ba35af17869744e9bbb9b26ba7cc84294e10afafb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287032"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53796053"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -311,7 +311,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직의 사서함 감사 기본 사용이 켜져 있으면 특정 사서함에 대한 사서함 감사를 사용하지 않도록 설정할 수 없습니다. 예를 들어 *AuditEnabled* 사서함 속성을 **False로** 설정하면 무시됩니다.
 
-그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여 작업이 수행되는 위치와 관계없이 지정된 사용자의 모든 사서함 작업이 기록되지 않도록 할 수 있습니다.  예를 들어 다음과 같습니다.
+그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여 작업이 수행되는 위치와 관계없이 지정된 사용자의 모든 사서함 작업이 기록되지 않도록 할 수 있습니다.  예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 - 무시된 사용자가 수행한 사서함 소유자 작업은 기록되지 않습니다.
 - 다른 사용자의 사서함(공유 사서함 포함)에서 무시된 사용자가 수행한 위임 작업은 기록되지 않습니다.

@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 description: 엔터프라이즈 테스트 환경의 휴대폰에서 스마트폰으로 전송된 문자 메시지를 사용하여 Microsoft 365 다단계 인증을 구성합니다.
-ms.openlocfilehash: aeb8940a9499909b8c568d1230f9aa45aee07b3d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4f410b7e8a57a119ecce33626354639af89c0e65aea01b123d213908735dbb00
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813021"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 대한 Microsoft 365 다단계 인증
 
@@ -56,7 +56,7 @@ ms.locfileid: "50923759"
 
 다음 단계를 사용하여 사용자 2 계정에 대해 다단계 인증을 사용하도록 설정할 수 있습니다.
   
-1. 별도의 개인 브라우저 인스턴스를 열고 Microsoft 365 관리 센터()로 이동한 다음 전역 관리자 계정으로 [https://portal.microsoft.com](https://portal.microsoft.com) 로그인합니다.
+1. 별도의 개인 브라우저 인스턴스를 열고 Microsoft 365 관리 센터( ) 로 이동한 다음 전역 관리자 계정으로 [https://portal.microsoft.com](https://portal.microsoft.com) 로그인합니다.
     
 2. 왼쪽 탐색에서 사용자 활성  >  **사용자를 선택합니다.**
     
@@ -70,7 +70,7 @@ ms.locfileid: "50923759"
     
 7. 업데이트 **성공 대화** 상자에서 닫기 **를 선택합니다.**
     
-8. 관리 **Microsoft 365** 탭의 오른쪽 위에 있는 사용자 계정 아이콘을 선택한 다음 **로그인을 선택합니다.**
+8. Microsoft 365 관리 센터 **탭의** 오른쪽 위에 있는 사용자 계정 아이콘을 선택한 다음 로그인 **을 선택합니다.**
     
 9. 브라우저 인스턴스를 닫습니다.
    
@@ -78,7 +78,7 @@ ms.locfileid: "50923759"
   
 1. 브라우저의 새 개인 인스턴스를 여는 경우.
     
-2. Microsoft 365 [관리 센터로](https://admin.microsoft.com) 이동하고 사용자 2 계정 이름 및 암호로 로그인합니다.
+2. 계정 Microsoft 365 관리 센터 [](https://admin.microsoft.com) 사용자 2 계정 이름 및 암호로 로그인합니다.
     
 3. 로그인한 후 자세한 정보를 위해 계정을 설정하라는 메시지가 표시됩니다. **다음** 을 선택합니다.
     
@@ -108,7 +108,7 @@ ms.locfileid: "50923759"
 
 그런 다음 MFAUsers라는 새 그룹을 만들고 사용자 3 계정을 추가합니다.
 
-1. 관리 **Microsoft 365 탭의** 왼쪽 탐색  창에서 그룹을 선택한 다음 그룹을 **선택합니다.**
+1. Microsoft 365 관리 센터 **탭의** 왼쪽 탐색  창에서 그룹을 선택한 다음 그룹을 **선택합니다.**
 2. 그룹 **추가를 선택합니다.**
 3. 그룹 **유형 선택 창에서** 보안 을 선택하고 다음 을 **선택합니다.**
 4. 기본 **설정** 창에서 그룹 만들기를 선택한 다음 닫기 **를 선택합니다.**
@@ -129,7 +129,7 @@ ms.locfileid: "50923759"
 8. 새 **창의 액세스** 제어 **섹션에서** 부여를 **선택합니다.**
 9. 부여 **창에서** 다단계 인증 **필요를** 선택한 다음 **선택을 선택합니다.**
 10. 새로 만들기 **창에서** 정책 사용에 **대해** **을** 선택하고 만들기를 **선택합니다.**
-11. Azure **Portal을** 닫고 관리 **Microsoft 365 탭을 닫습니다.**
+11. Azure **Portal을** **닫고** Microsoft 365 관리 센터 탭을 닫습니다.
 
 해당 정책을 테스트하려면 사용자 3 계정으로 로그인합니다. MFA를 구성하라는 메시지가 표시해야 합니다. 이는 MFAUsers 정책이 적용되고 있는 것을 보여 주며,
 

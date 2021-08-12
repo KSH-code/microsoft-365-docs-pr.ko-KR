@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b9a146d2dd66222d405243ea5db66486c2678412
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: f709d0929b12d6f19121c6ca6c653f6484bab6c2ba2d3df52fda446b675deca5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53647886"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53806178"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-incidents-queue"></a>엔드포인트용 Microsoft Defender 인시던트 큐 보기 및 구성
 
@@ -58,7 +58,7 @@ ms.locfileid: "53647886"
 인시던트 심각도 | 설명
 :---|:---
 높음 </br>(빨강) | APT(고급 영구 위협)와 자주 관련된 위협. 이러한 인시던트는 장치에 노출될 수 있는 손상의 심각도로 인해 높은 위험을 나타냅니다.
-Medium </br>(주황색) | 일반적인 레지스트리 변경, 의심스러운 파일 실행, 공격 단계의 일반적인 관찰 동작 등 조직에서 거의 발견되지 않습니다.
+보통 </br>(주황색) | 일반적인 레지스트리 변경, 의심스러운 파일 실행, 공격 단계의 일반적인 관찰 동작 등 조직에서 거의 발견되지 않습니다.
 낮음 </br>(노란색) | 조직을 대상으로 하는 고급 위협을 나타낼 필요는 없는, 보급된 맬웨어 및 해킹 도구와 관련된 위협.
 정보 </br>(회색) | 정보 인시던트는 네트워크에 해로운 것으로 간주되지는 않지만 추적하는 것이 좋습니다.
 
