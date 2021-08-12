@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: a59add6f6821824f189703b3dedd35fda313ec31
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e6c6c6f2e77ef81efae29f98baa85feafada9724cc12623bf1501316a91a38f5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819202"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비  
  
@@ -44,7 +44,7 @@ Wi-Fi 구성을 Microsoft Managed Desktop 배포하기 전에 각 Wi-Fi 네트�
  
 ## <a name="wired-connectivity-requirements-and-8021x-authentication"></a>유선 연결 요구 사항 및 802.1x 인증 
  
-802.1x 인증을 사용하여 장치에서 LAN(Local Area Network)으로의 액세스를 보호하는 경우 필요한 구성 세부 정보를 Microsoft Managed Desktop 합니다. Microsoft Managed Desktop 버전 Windows 10 1809 이상을 실행하는 Microsoft Managed Desktop 장치는 WiredNetwork CSP(구성 서비스 공급자)를 통해 802.1x 구성 배포를 지원합니다. 자세한 내용은 [WiredNetwork CSP 설명서를 참조하십시오.](/windows/client-management/mdm/wirednetwork-csp) 
+802.1x 인증을 사용하여 장치에서 LAN(Local Area Network)으로의 액세스를 보호하는 경우 필요한 구성 세부 정보를 Microsoft Managed Desktop 합니다. Microsoft Managed Desktop 이상을 실행하는 Windows 10, 버전 1809 WiredNetwork CSP(구성 서비스 공급자)를 통해 802.1x 구성 배포를 지원합니다. 자세한 내용은 [WiredNetwork CSP 설명서를 참조하십시오.](/windows/client-management/mdm/wirednetwork-csp) 
  
 유선 네트워크 구성 프로필을 Microsoft Managed Desktop 유선 회사 네트워크에 대한 조직의 요구 사항을 수집합니다. 이렇게 하려면 다음 단계를 따릅니다. 
  

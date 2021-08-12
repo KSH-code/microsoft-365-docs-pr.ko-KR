@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 장치와 함께 Microsoft 365 서비스를 사용하려면 먼저 기본 모바일 및 보안에서 서비스를 등록해야 Microsoft 365.
-ms.openlocfilehash: 9da3424409a950670e3be45354a5c399fec52372
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 65f3d224b6dd3832416d1f1c1b9d9a6d933f3305a419abebe997a4fb765a5989
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53826774"
 ---
 # <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>기본 모바일 및 보안을 사용하여 모바일 장치 등록
 

@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 6df23e0d7e3ea0ecd7ebacd96f00cb47b9e0aa84
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 22d49a85ae4d89e3d596a00a0d47468ed213788c1b46d850914d2eaecef56ec1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819238"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비
 
@@ -34,7 +34,7 @@ Azure Active Directory 사용하면 사용자가 SSO(Single Sign-On)를 활용�
 
 ## <a name="single-sign-on-for-on-premises-resources"></a>Sign-On 리소스에 대한 단일 리소스
 
-UPN 및 Sign-On SSO(Single Sign-On)는 디바이스에서 기본적으로 Microsoft Managed Desktop 사용됩니다. 그러나 사용자는 비즈니스용 Windows 사용할 수도 있습니다. 이 경우 몇 가지 추가 설정 단계가 필요합니다. 
+UPN 및 Sign-On SSO(Single Sign-On)는 디바이스에서 기본적으로 Microsoft Managed Desktop 사용됩니다. 그러나 사용자는 비즈니스용 Windows Hello 수 있습니다. 이 경우 몇 가지 추가 설정 단계가 필요합니다. 
 
 ### <a name="single-sign-on-by-using-upn-and-password"></a>UPN 및 Sign-On 사용하여 단일 사용자 관리
 
@@ -47,9 +47,9 @@ UPN 및 Sign-On SSO(Single Sign-On)는 디바이스에서 기본적으로 Micros
     - 사용자의 SAM 계정 이름
 
 
-### <a name="single-sign-on-by-using-windows-hello-for-business"></a>비즈니스용 Sign-On Hello를 Windows 단일 사이트
+### <a name="single-sign-on-by-using-windows-hello-for-business"></a>비즈니스용 Sign-On 사용하여 단일 Windows Hello 사용
 
-Microsoft Managed Desktop 디바이스는 비즈니스용 Hello를 사용하여 사용자에게 빠르고 암호 없는 Windows 환경을 제공합니다. 사용자가 각 UPN 및 암호를 제공할 필요 없이 비즈니스용 Windows Hello가 작동하도록 보장하기 위해 Configure [Azure AD joined devices for Single-Sign On using Windows Hello for Business](/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) to check the requirements을 확인한 다음 여기에 제공된 단계를 따르세요.
+Microsoft Managed Desktop 디바이스는 비즈니스용 디바이스를 사용하여 사용자에게 빠르고 암호 없는 환경을 Windows Hello 제공합니다. 사용자가 Windows Hello UPN 및 암호를 제공하지 않고도 비즈니스용 Windows Hello 작동하도록 보장하기 위해 Configure [Azure AD joined devices for On using Windows Hello Single-Sign for Business](/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) to check the requirements을 확인한 다음 여기에 제공된 단계를 따르세요.
 
 
 ## <a name="apps-and-resources-that-use-authentication"></a>인증을 사용하는 앱 및 리소스

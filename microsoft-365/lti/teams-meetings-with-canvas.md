@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 캔버스 Microsoft Teams 통합
-ms.openlocfilehash: 54dd3cc2709933ffb7b7d5fecdd181fad2abb42b
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 5ba812ba2f5694dd7860131479f01fceaba9ab2a040d1ba828306aa022665f74
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454676"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819288"
 ---
 # <a name="use-microsoft-teams-meetings-with-canvas"></a>Canvas에서 Microsoft Teams 모임 사용
 
@@ -44,7 +44,7 @@ Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canva
 
    ![사용 권한](media/permissions.png)
 
-7. **수락을 선택합니다.**
+7. **수락** 을 선택합니다.
 
 8. 토글을 Microsoft Teams 동기화할 수 있도록 합니다.
 
@@ -56,7 +56,7 @@ LTI Microsoft Teams 1.3 통합을 설치합니다.
 
 Canvas 관리자는 사용자 환경 내에서 Microsoft Teams 모임 LTI 앱을 추가해야 합니다. 앱에 대한 LTI 클라이언트 ID를 메모합니다.
 
- - Microsoft Teams 모임 - 1700000000000703
+ - Microsoft Teams 모임 - 170000000000703
 
 1. 관리자 **설정 앱에**  >  **액세스합니다.**
 

@@ -15,12 +15,12 @@ ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
 description: 사용자에 대한 장치 관리를 설정하기 위한 Microsoft 365.
-ms.openlocfilehash: ec284a96fc8e7285f89e8a909b76c782b4469ce1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9efb9659c4c6dcfe20b8f52c1a451b3644dcc0023e4087723141d6574db082ea
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819418"
 ---
 # <a name="device-management-roadmap-for-microsoft-365"></a>Microsoft 365의 장치 관리 로드맵
 
@@ -54,10 +54,10 @@ Microsoft 365 엔터프라이즈용 앱에는 조직 내에서 장치 및 해당
  
 ## <a name="identity-and-device-access-recommendations"></a>ID 및 장치 액세스 권장 사항
 
-Microsoft에서는 직원 안전과 생산성을 유지하기 위해 [ID 및 디바이스 액세스](../security/defender-365-security/microsoft-365-policies-configurations.md)에 대한 권장 사항을 제공합니다. 장치 액세스의 경우 다음 문서의 권장 사항 및 설정을 사용합니다.
+Microsoft에서는 직원 안전과 생산성을 유지하기 위해 [ID 및 디바이스 액세스](../security/office-365-security/microsoft-365-policies-configurations.md)에 대한 권장 사항을 제공합니다. 장치 액세스의 경우 다음 문서의 권장 사항 및 설정을 사용합니다.
 
-- [필수 구성 요소](../security/defender-365-security/identity-access-prerequisites.md)
-- [일반 ID 및 장치 액세스 정책](../security/defender-365-security/identity-access-policies.md)
+- [필수 구성 요소](../security/office-365-security/identity-access-prerequisites.md)
+- [일반 ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)
 
 ## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Contoso가 사용자에 대한 장치 관리를 Microsoft 365
 

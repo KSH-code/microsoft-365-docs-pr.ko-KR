@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 8a5442fcf8dd50cdee6be97ba7c9bbf5e21408a3
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: aec8eeeacb520c8ac035a099639e8f788c4cf1c96f8d42588cda8d992fb9d2f3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53795386"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex 도입: 시작
 
@@ -70,7 +70,7 @@ ms.locfileid: "53288158"
 
 조직에서 모델을 빌드하고 관리할 사용자 결정 다음과 같은 역할이 관련될 수 있습니다.
 
-| SharePoint/지식 관리자 | 파워 플랫폼 관리자 | 지식 매니저 | 모델 소유자 |
+| SharePoint/지식 관리자 | Power Platform 관리자 | 지식 관리자 | 모델 소유자 |
 |:-------|:-------|:-------|:-------|
 | AAD 역할| AAD 역할 | AAD 역할 | 챔피언 |
 | 양식 처리 구성 | 양식 처리를 위한 일반 데이터 서비스 환경 구성 | 사용 사례 수집 | 비즈니스 사용 사례 수집 |
@@ -146,4 +146,4 @@ ms.locfileid: "53288158"
 
 ## <a name="see-also"></a>참고 항목
 
-[사용자에 대한 시나리오 및 SharePoint Syntex](adoption-scenarios.md)
+[SharePoint Syntex에 대한 시나리오 및 사용 사례](adoption-scenarios.md)

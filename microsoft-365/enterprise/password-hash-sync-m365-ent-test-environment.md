@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 로그인을 구성하고 보여 줍니다.'
-ms.openlocfilehash: 9c61745fe322dce4cb2b537b18963634a97c697a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d6fdeb6391d452aee310ae9f2eecfec0e177ae4fdd76b71dcbe7a987144067dc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53840932"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 해시 동기화
 
@@ -118,7 +118,7 @@ ms.locfileid: "50921507"
     
 13. **User1 계정을 선택한** 다음 라이선스 및 **앱을 선택합니다.**
     
-14. 제품 **라이선스에서** 위치(필요한 경우)를 선택하고 Office 365 **E5** 라이선스를 사용하지 않도록 설정한 다음 Microsoft 365 E5 **라이선스를** 사용하도록 설정하십시오. 
+14. 제품 **라이선스에서** 위치(필요한 경우)를 선택하고 Office 365 E5 **사용하지** 않도록 설정한 다음 Microsoft 365 E5 **라이선스를** 사용하도록 설정하십시오. 
 
 15. 페이지 **아래쪽에서** 저장을 선택한 다음 닫기 를 **선택합니다.**
     
@@ -136,7 +136,7 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
 
 이 구성은 다음으로 이루어집니다. 
   
-- Microsoft 365 E5 도메인 TESTLAB.Office 365 E5 평가판 또는 유료 구독을 등록하거나 < 도메인> 합니다.
+- Microsoft 365 E5 OFFICE 365 E5 도메인 TESTLAB.<평가판 또는 유료 구독을 등록하거나 > 합니다.
 - 인터넷에 연결된 간소화된 조직 인트라넷으로, Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. Azure AD 커넥트 APP1에서 실행되어 TESTLAB AD DS 도메인을 사용자 구독의 Azure AD 테넌트와 Microsoft 365 동기화합니다.
 - TESTLAB AD DS 도메인의 User1 계정이 Azure AD 테넌트와 동기화되었습니다.
 

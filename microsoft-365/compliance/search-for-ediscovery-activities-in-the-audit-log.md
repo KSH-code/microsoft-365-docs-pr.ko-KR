@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
-description: eDiscovery 권한이 할당된 사용자가 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery 준수 센터에서 작업을 수행할 때 로깅되는 Microsoft 365 설명합니다.
+description: eDiscovery 권한이 할당된 사용자가 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery 수행할 때 로깅되는 이벤트를 Microsoft 365 규정 준수 센터.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cca0cdc02e2c23231637acf6eba2b07144266e36
-ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
+ms.openlocfilehash: 097e78c85af5bc75998e1a75fe6148b64afec0eb36d7c19851153920c59a4de0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52888412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53795545"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 
-Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 실행하여 수행되는 콘텐츠 검색 및 eDiscovery 관련 활동(Core eDiscovery 및 Advanced eDiscovery용)이 감사 로그에 기록됩니다. 이벤트는 관리자 또는 eDiscovery 관리자(또는 eDiscovery 권한이 할당된 사용자)가 Microsoft 365 준수 센터에서 콘텐츠 검색 및 Core eDiscovery 작업을 수행할 때 기록됩니다.
+콘텐츠 검색 및 eDiscovery 관련 활동(Core eDiscovery 및 Advanced eDiscovery)은 Microsoft 365 규정 준수 센터 또는 해당 PowerShell cmdlet을 실행하여 감사 로그에 기록됩니다. 이벤트는 관리자 또는 eDiscovery 관리자(또는 eDiscovery 권한이 할당된 사용자)가 다음 콘텐츠 검색 및 핵심 eDiscovery 작업을 수행할 때 Microsoft 365 규정 준수 센터.
   
 - 핵심 및 핵심 사례 Advanced eDiscovery 관리
 
@@ -40,15 +40,15 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 
 - eDiscovery 관리자 역할 관리
   
-감사 로그, 필요한 사용 권한 및 검색 결과를 내보내는 데 대한 자세한 내용은 Microsoft 365 준수 센터에서 감사 [로그 검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
+감사 로그, 필요한 사용 권한 및 검색 결과를 내보내는 데 대한 자세한 내용은 감사 로그의 검색을 [Microsoft 365 규정 준수 센터.](search-the-audit-log-in-security-and-compliance.md)
   
 ## <a name="how-to-search-for-and-view-ediscovery-activities"></a>eDiscovery 활동을 검색하고 보는 방법
 
 현재 감사 로그에서 eDiscovery 활동을 확인하려면 몇 가지 특정 작업을 해야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
   
-1. 으로 <https://compliance.microsoft.com> 이동하여 직장 또는 학교 계정을 사용하여 로그인합니다.
+1. <https://compliance.microsoft.com>으로 이동하여 회사 또는 학교 계정을 사용하여 로그인합니다.
 
-2. 규정 준수 센터의 왼쪽 탐색 Microsoft 365 감사를 **클릭합니다.**
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 **클릭합니다.**
 
 3. 활동 **드롭다운** 목록의 **eDiscovery** 활동 또는 Advanced eDiscovery 활동에서 검색할 활동을 하나 이상 클릭합니다.
 
@@ -71,7 +71,7 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 
 ## <a name="ediscovery-activities"></a>eDiscovery 활동
 
-다음 표에서는 관리자 또는 eDiscovery 관리자가 Microsoft 365 준수 센터를 사용하여 eDiscovery 관련 활동을 수행할 때 기록되는 콘텐츠 검색 및 핵심 eDiscovery 활동에 대해 설명하고 있습니다. 이 목록에서 Advanced eDiscovery 검색할 때 일부 활동이 반환될 수 있습니다.
+다음 표에서는 관리자 또는 eDiscovery 관리자가 관리자 또는 eDiscovery 관리자를 사용하여 eDiscovery 관련 활동을 수행할 때 기록되는 콘텐츠 검색 및 핵심 eDiscovery 활동에 대해 Microsoft 365 규정 준수 센터. 이 목록에서 Advanced eDiscovery 검색할 때 일부 활동이 반환될 수 있습니다.
   
 > [!NOTE]
 > 이 섹션에 설명된 eDiscovery 활동은 다음 섹션에 설명된 eDiscovery cmdlet 활동과 유사한 정보를 제공합니다. 이 섹션에 설명된 eDiscovery 활동은 30분 이내에 감사 로그 검색 결과에 표시될 것이기 때문에 사용하는 것이 좋습니다. eDiscovery cmdlet 활동이 감사 로그 검색 결과에 표시될 경우 최대 24시간이 걸릴 수 있습니다.
@@ -108,7 +108,7 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 |콘텐츠 검색에 수행된 삭제 작업 제거  <br/> |RemovedSearchResultsPurged  <br/> |Remove-ComplianceSearchAction  <br/> |콘텐츠 검색 삭제 작업이 삭제되었습니다.  <br/> |
 |검색 보고서 제거됨  <br/> |SearchReportRemoved  <br/> |Remove-ComplianceSearchAction  <br/> |콘텐츠 검색 내보내기 보고서 작업이 삭제되었습니다.  <br/> |
 |콘텐츠 검색 분석 시작  <br/> |SearchResultsSentToZoom  <br/> |New-ComplianceSearchAction  <br/> |콘텐츠 검색 결과는 콘텐츠 검색에서 분석할 수 Advanced eDiscovery.  <br/> |
-|시작된 콘텐츠 검색  <br/> |SearchStarted  <br/> |Start-ComplianceSearch  <br/> |콘텐츠 검색이 시작된 경우 준수 센터를 사용하여 콘텐츠 검색을 만들거나 변경하면 Microsoft 365 검색이 자동으로 시작됩니다.<br/> |
+|시작된 콘텐츠 검색  <br/> |SearchStarted  <br/> |Start-ComplianceSearch  <br/> |콘텐츠 검색이 시작된 경우 검색 창을 사용하여 콘텐츠 검색을 만들거나 변경하면 Microsoft 365 규정 준수 센터 검색이 자동으로 시작됩니다.<br/> |
 |콘텐츠 검색 내보내기 시작  <br/> |SearchExported  <br/> |New-ComplianceSearchAction  <br/> |사용자가 콘텐츠 검색 결과를 내보낼 수 있습니다.  <br/> |
 |시작된 내보내기 보고서  <br/> |SearchReport  <br/> |New-ComplianceSearchAction  <br/> |사용자가 콘텐츠 검색 보고서를 내보낼 때  <br/> |
 |중지된 콘텐츠 검색  <br/> |SearchStopped  <br/> |Stop-ComplianceSearch  <br/> |사용자가 콘텐츠 검색을 중지한 경우  <br/> |
@@ -217,7 +217,7 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 |OrganizationId  <br/> |조직에 대한 Microsoft 365 GUID입니다.  <br/> |
 |매개 변수  <br/> |해당 cmdlet과 함께 사용된 매개 변수의 이름 및 값입니다.  <br/> |
 |PublicFolderLocations  <br/> |콘텐츠 검색에 Exchange Online eDiscovery 사례에서 보류된 공용 폴더 위치입니다.  <br/> |
-|Query  <br/> |콘텐츠 검색 또는 쿼리 기반 보류와 같은 활동과 연결된 검색 쿼리입니다.  <br/> |
+|쿼리  <br/> |콘텐츠 검색 또는 쿼리 기반 보류와 같은 활동과 연결된 검색 쿼리입니다.  <br/> |
 |RecordType  <br/> |레코드가 나타내는 작업의 유형입니다. 값 **18은** [eDiscovery cmdlet](#ediscovery-cmdlet-activities) 활동 섹션에 나열된 활동과 관련된 이벤트를 나타냅니다. 값 **24는** [eDiscovery](#how-to-search-for-and-view-ediscovery-activities) 활동을 검색하고 보는 방법 섹션에 나열된 활동과 관련된 이벤트를 나타냅니다.  <br/> |
 |ResultStatus  <br/> |Operation 속성에 지정된 작업이 성공적이지 여부를 나타냅니다.  <br/> |
 |SecurityComplianceCenterEventType  <br/> |활동이 준수 센터 이벤트인 경우를 나타냅니다. 모든 eDiscovery 활동의 값은 이 속성에 **대해 0입니다.**  <br/> |
@@ -227,5 +227,5 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 |UserKey  <br/> |UserId 속성에 식별된 사용자의 대체 ID입니다. eDiscovery 작업의 경우 이 속성의 값은 일반적으로 UserId 속성과 동일합니다.  <br/> |
 |UserServicePlan  <br/> |조직에서 사용하는 구독입니다. eDiscovery 작업의 경우 일반적으로 이 속성은 비어 있습니다.  <br/> |
 |UserType  <br/> |작업을 수행한 사용자 유형입니다. 다음 값은 사용자 유형을 나타냅니다.  <br/> 0 일반 사용자입니다. 2 조직의 관리자입니다. 3 Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. 4 시스템 계정입니다. 5 응용 프로그램. 6 서비스 주체입니다. |
-|Version  <br/> |기록된 활동의 버전 번호(Operation 속성으로 식별)를 나타냅니다.  <br/> |
+|버전  <br/> |기록된 활동의 버전 번호(Operation 속성으로 식별)를 나타냅니다.  <br/> |
 |워크로드  <br/> |활동이 발생한 서비스입니다. eDiscovery 활동의 경우 값은 **SecurityComplianceCenter입니다.**  <br/> |
