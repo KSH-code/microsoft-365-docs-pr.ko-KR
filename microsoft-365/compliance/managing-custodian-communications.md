@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Advanced eDiscovery 통해 법적 조사에서 보유자에게 알리는 데 필요한 법적 보유 알림 워크플로를 쉽게 관리할 수 있습니다.
-ms.openlocfilehash: 28b719a83cbc1608ad5468e401a8b7946cb8da5f
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: 0cb845ee7aa110649d5c148868d0d8b1f16b2d801fb7b55c8b12170a121f975f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53842114"
 ---
 # <a name="work-with-communications-in-advanced-ediscovery"></a>2016년 8월 Advanced eDiscovery
 

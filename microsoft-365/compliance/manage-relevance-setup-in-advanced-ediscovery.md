@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: fd6be6d3-2e8d-449d-9851-03ab7546e6aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관련성별로 파일 점수를 매기고 분석 결과를 생성하도록 Advanced eDiscovery의 관련성 학습을 설정하기 위한 권장 사항을 읽어보세요.
-ms.openlocfilehash: 8ba09babc91f233514cd0195c3e1da08b07ccb3c
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: 9a6dd5cee08ea795d8f7b2381145d2b7303ae2fb61dde395974dfc7aa6f00cdf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53842174"
 ---
 # <a name="manage-relevance-setup-in-advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식)에서 관련성 설정 관리
 

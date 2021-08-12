@@ -17,12 +17,12 @@ search.appverid:
 - BCS160
 ms.assetid: 5b6d3ac7-b1ac-428e-b03e-50e882f85a6e
 description: 권한 관리 서비스를 활성화하고 권한 관리 서비스를 사용하는 Microsoft 365.
-ms.openlocfilehash: 887979e372bf4ba938b2d2570f981aee9373d485
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 13b3af833ed536d570f1e455891b953e59e975709db875df0fe414d824710dae
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905647"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835466"
 ---
 # <a name="activate-rights-management-in-the-admin-center"></a>관리 센터에서 권한 관리 활성화
 

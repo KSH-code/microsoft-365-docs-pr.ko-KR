@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: 문서 라이브러리, 목록 및 허브를 사용하여 SharePoint 팀 사이트를 사용자 지정, 구성 및 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 47033f286f2661a8cfffa3efce0cc7deda82ea63
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 27eeed7b6826ea3ba145cbbfea367ab70173dfdefd77d0d0639dbf47f67f9188
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706349"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822026"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>파일 저장 및 공유를 위해 팀 사이트 사용자 지정
 

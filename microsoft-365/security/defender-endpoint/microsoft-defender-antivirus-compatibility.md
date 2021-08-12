@@ -16,12 +16,12 @@ ms.reviewer: tewchen, pahuijbr
 manager: dansimp
 ms.technology: mde
 ms.date: 07/06/2021
-ms.openlocfilehash: aac84d2e957809d1c9579f25c01006798af2c0a9
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: b7584a7e8165b11e334d004736df4b3868a1f172d2c5d1d0d7127cde311fee67
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53322416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53800045"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender 바이러스 백신 호환성
 
@@ -99,7 +99,7 @@ Microsoft Defender 바이러스 백신 [서버](microsoft-defender-antivirus-on-
 > [!IMPORTANT]
 > 수동 모드에서 또는 차단 모드에서 Microsoft Defender 바이러스 백신 실시간 보호, 클라우드 제공 보호 또는 제한된 주기적 검사와 같은 기능을 끄지 EDR 않습니다. 
 
-|보호 |활성 모드 |수동 모드 |차단 모드에서 EDR |사용 안 되거나 제거 |
+|보호 |활성 모드 |수동 모드 |차단 모드에서 EDR |사용 중지 또는 제거됨 |
 |:---|:---|:---|:---|:---|
 | [실시간 보호 및](configure-real-time-protection-microsoft-defender-antivirus.md) [클라우드 제공 보호](enable-cloud-protection-microsoft-defender-antivirus.md) | 예 | 아니요 <sup> [[3](#fn3)]<sup> | 아니요 | 아니요 |
 | [제한된 주기적 검사 가용성](limited-periodic-scanning-microsoft-defender-antivirus.md) | 아니요 | 아니요 | 아니요 | 예 |

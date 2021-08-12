@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 - BCS160
 description: '스프레드시트 또는 다른 CSV Microsoft 365 목록에서 비즈니스용 앱에 여러 사용자를 추가하는 방법을 학습합니다. YouTube에서 계정에 계정을 추가하는 방법을 설명하는 비디오를 Microsoft 365. 이 프로세스가 끝나면 계정이 있는 각 사용자에게 사서함이 Microsoft 365 있습니다. '
-ms.openlocfilehash: 6b3e8d885466e44a4aa23427a54cfc98b2eebdf3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bb0ed6212cde61693024bcd2fdca9f1d6c3f42dbb063f67324be3d87219f46cf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835418"
 ---
 # <a name="add-several-users-at-the-same-time-to-microsoft-365---admin-help"></a>여러 사용자를 동시에 추가하여 Microsoft 365 - 관리자 도움말
 
@@ -38,7 +38,7 @@ ms.locfileid: "50905623"
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-## <a name="add-multiple-users-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 여러 사용자 추가
+## <a name="add-multiple-users-in-the-microsoft-365-admin-center"></a>사용자 목록에 여러 사용자 Microsoft 365 관리 센터
 
 1. 회사 또는 학교 계정으로 Microsoft 365에 로그인합니다.
 

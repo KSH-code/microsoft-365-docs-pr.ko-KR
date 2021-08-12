@@ -1,5 +1,5 @@
 ---
-title: Windows 365 Business 및 클라우드 PC 시작
+title: Windows 365 Business 및 Cloud PC 시작
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: 719faecdde15fbbcce7278cba414a7a4e2d94095
-ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
+ms.openlocfilehash: b5b09761c264074c8f848a9394a59c1f8e8b47c8373f1e40c0b31227ce94b8a9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53726598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53821908"
 ---
-# <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 클라우드 PC 시작
+# <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 
 이 문서는 조직에 대한 Windows 365 Business를 구입하고 설정하는 사용자용입니다. 
   
@@ -163,6 +163,10 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
  ## <a name="management-through-intune"></a>Intune을 통한 관리
 
 Windows 365 Business는 프로비저닝 프로세스의 일부로 클라우드 PC를 [Intune에](/mem/intune/fundamentals/what-is-intune) 등록하지 않습니다. 조직 및 사용자에게 라이선스가 제대로 부여된 경우 클라우드 PC를 Intune에 등록하는 동일한 절차에 따라 [Intune에](/mem/intune/user-help/enroll-windows-10-device)Windows 10 수 있습니다.
+
+## <a name="sending-outbound-email-messages-using-port-25-is-not-supported"></a>포트 25를 사용하여 아웃바운드 전자 메일 메시지 전송은 지원되지 않습니다.
+
+Windows 365 Business 클라우드 PC에서 포트 25에서 직접 아웃바운드 전자 메일 메시지를 보내는 것은 지원되지 않습니다. 포트 TCP/25를 통해 통신은 보안상의 이유로 Windows 365 Business 네트워크 계층에서 차단됩니다. 전자 메일 서비스에서 전자 메일 클라이언트 응용 프로그램에 대해 SMTP(Simple Mail Transfer Protocol)를 사용하는 경우 해당 웹 인터페이스를 사용할 수 있습니다(사용 가능한 경우). 또는 전자 메일 서비스 공급자에게 다른 포트를 사용하는 TLS(전송 계층 보안)를 통해 보안 SMTP를 사용하도록 전자 메일 클라이언트 앱을 구성하는 데 도움을 요청할 수 있습니다.
 
 ## <a name="how-to-get-help"></a>지원을 얻는 방법
 

@@ -14,14 +14,14 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-description: 검색 통계 기능을 사용하여 검색 준수 센터에서 Core eDiscovery 사례와 연결된 콘텐츠 검색 및 검색에 대한 통계를 표시하는 Microsoft 365 대해 알아보겠습니다.
+description: 검색 통계 기능을 사용하여 검색의 Core eDiscovery 사례와 연결된 콘텐츠 검색 및 검색에 대한 통계를 표시하는 Microsoft 365 규정 준수 센터.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a0e543c89b91560520a4e4bf31feb8471c91da4a
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 25884f0b450c1bc90cb6487e64fe636ef5f8af16dd30ad7bb4e7ed28402da03f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311116"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835550"
 ---
 # <a name="view-statistics-for-ediscovery-search-results"></a>eDiscovery 검색 결과에 대한 통계 보기
 
@@ -35,7 +35,7 @@ ms.locfileid: "52311116"
 
 Core eDiscovery 사례와 연결된 콘텐츠 검색 또는 검색에 대한 통계를 표시하기 위해:
   
-1. Microsoft 365 준수 센터에서 모두 표시를 클릭하고 다음 중 하나를 클릭합니다.
+1. 다음 Microsoft 365 규정 준수 센터 모두 표시를 클릭하고 다음 중 하나를 클릭합니다. 
 
    - 콘텐츠 **검색을** 클릭한 다음 검색을 선택하여 플라이아웃 페이지를 표시합니다.
 
@@ -97,7 +97,7 @@ Core eDiscovery 사례와 연결된 콘텐츠 검색 또는 검색에 대한 통
 
 키워드 목록을 만들고 검색에 대한 키워드 통계를 표시하는 경우:
   
-1. 규정 Microsoft 365 센터에서 Core eDiscovery 사례와 연결된 새 콘텐츠 검색 또는 검색을 생성합니다.
+1. 이 Microsoft 365 규정 준수 센터 새 콘텐츠 검색 또는 Core eDiscovery 사례와 연결된 검색을 만드겠습니다.
 
 2. 검색 **마법사의** 조건 페이지에서 키워드 목록 **표시 확인란을** 선택합니다.
 

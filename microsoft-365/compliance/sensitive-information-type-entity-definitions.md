@@ -19,12 +19,12 @@ hideEdit: true
 feedback_system: None
 recommendations: false
 description: DLP 정책에 사용할 수 있는 200가지 중요한 정보 유형이 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다.
-ms.openlocfilehash: 614649367e72766d8df210fccbb4e3cdc9cdb4b6
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 46e4f3ee360a69475cbfed98f6800970216b7bee0486d51b4fe05fcfdc480ccd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53842160"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -32,7 +32,7 @@ ms.locfileid: "53287470"
 
 ## <a name="aba-routing-number"></a>ABA 라우팅 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 서식이 지정되거나 서식 없는 패턴일 수 있는 9자리 숫자
 
@@ -96,7 +96,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="argentina-national-identity-dni-number"></a>아르헨티나 국가 ID(DNI) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 8자리 숫자(또는 기간이 없는 경우)
 
@@ -145,7 +145,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="argentina-unique-tax-identification-key-cuitcuil"></a>아르헨티나 고유 세금 식별 키(CUIT/CUIL)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 대시가 있는 11자리 숫자
 
@@ -228,7 +228,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="australia-bank-account-number"></a>호주 은행 계좌 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 은행 지점 번호가 있는 경우 또는 없는 6-10자리 숫자
 
@@ -299,7 +299,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - Microsoft 클라우드 앱 보안
 
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 디지타이터가 있는 11자리 숫자
 
@@ -360,7 +360,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 숫자(디지타이터)입니다.
 
@@ -414,7 +414,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="australia-drivers-license-number"></a>호주 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9개의 문자 및 숫자
 
@@ -565,7 +565,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="australia-medical-account-number"></a>오스트레일리아 의료 계좌 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 10-11자리 숫자
 
@@ -616,7 +616,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="australia-passport-number"></a>호주 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 영문자 8자 또는 9자
 
@@ -676,7 +676,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="australia-tax-file-number"></a>오스트레일리아 세금 파일 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 8-9자리 숫자
 
@@ -726,7 +726,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="austria-drivers-license-number"></a>오스트리아 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 8자리 숫자
 
@@ -898,7 +898,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자, 숫자 및 특수 문자의 24자 조합
 
@@ -912,7 +912,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -941,7 +941,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="austria-passport-number"></a>오스트리아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자 1개, 선택적 공백 및 7자리 숫자
 
@@ -1024,7 +1024,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="austria-social-security-number"></a>오스트리아 사회 보장 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 지정된 형식의 10자리 숫자
 
@@ -1096,7 +1096,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="austria-tax-identification-number"></a>오스트리아 세금 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 하이픈 및 슬래시가 있는 9자리 숫자
 
@@ -1169,7 +1169,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자 영문 패턴
 
@@ -1236,7 +1236,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="azure-documentdb-auth-key"></a>Azure DocumentDB auth 키
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자열 "DocumentDb" 다음에 아래 패턴에 설명된 문자와 문자열입니다.
 
@@ -1288,7 +1288,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>Azure IAAS 데이터베이스 연결 문자열 및 Azure SQL 연결 문자열
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자열 "Server", "server", "data source" 다음에 문자열 "cloudapp.azure"를 포함하여 아래 패턴에 설명된 문자와 문자열이 추가됩니다.<!--no-hyperlink-->com" 또는 "cloudapp.azure.<!--no-hyperlink-->net" 또는 "database.windows.<!--no-hyperlink-->net", 문자열 "Password" 또는 "password" 또는 "pwd".
 
@@ -1348,7 +1348,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-iot-connection-string"></a>Azure IoT 연결 문자열
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자열 "HostName" 다음에 아래 패턴에 설명된 문자와 문자열(문자열 "azure-devices")입니다.<!--no-hyperlink-->net" 및 "SharedAccessKey".
 
@@ -1408,7 +1408,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-publish-setting-password"></a>Azure 게시 설정 암호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자열 "userpwd=" 다음에 영문 문자열이 오게 됩니다.
 
@@ -1459,7 +1459,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-redis-cache-connection-string"></a>Azure Redis 캐시 연결 문자열
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자열 "redis.cache.windows.<!--no-hyperlink-->net" 다음에 문자열 "password" 또는 "pwd"를 포함하여 아래 패턴에 설명된 문자와 문자열이 표시됩니다.
 
@@ -1514,7 +1514,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-sas"></a>Azure SAS
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자열 "sig" 다음에 아래 패턴에 설명된 문자와 문자열입니다.
 
@@ -1548,7 +1548,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-service-bus-connection-string"></a>Azure 서비스 버스 연결 문자열
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자열 "Servicebus.windows"를 포함하여 아래 패턴에 설명된 문자와 문자열이 이어지며 문자열 "EndPoint"가 그 다음에 오게 됩니다.<!--no-hyperlink-->net" 및 "SharedAccesKey".
 
@@ -1608,7 +1608,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-storage-account-key"></a>Azure 저장소 계정 키
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자열 "DefaultEndpointsProtocol"에 문자열 "AccountKey"를 포함하여 아래 패턴에 설명된 문자와 문자열이 이어지며
 
@@ -1674,7 +1674,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-storage-account-key-generic"></a>Azure Storage 계정 키(일반)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 아래 패턴에 설명된 86개 이하 또는 대문자, 자릿수, 슬래시(/) 또는 더하기 기호(+)의 조합입니다.
 
@@ -1703,7 +1703,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 ```
 ## <a name="belgium-drivers-license-number"></a>벨기에 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 10자리 숫자
 
@@ -1875,7 +1875,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="belgium-national-number"></a>벨기에 국가 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자와 선택적분자
 
@@ -1979,7 +1979,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="belgium-passport-number"></a>벨기에 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2개의 문자와 공백이나 따로 6자리 숫자(공백 또는 따로 문자 없음)
 
@@ -2069,7 +2069,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 12자 영문 패턴
 
@@ -2131,7 +2131,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="brazil-cpf-number"></a>브라질 CPF 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 서식이 있거나 서식이 없을 수 있는 검사 숫자를 포함하는 11자리 숫자
 
@@ -2194,7 +2194,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="brazil-legal-entity-number-cnpj"></a>브라질 법인 번호(CNPJ)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 등록 번호, 지점 번호, 검사 숫자 및 구분 기호를 포함하는 14자리 숫자
 
@@ -2267,7 +2267,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="brazil-national-identification-card-rg"></a>브라질 국가 ID 카드(RG)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 Registro Geral(이전 형식): 9자리 숫자
 
@@ -2327,7 +2327,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="bulgaria-drivers-license-number"></a>불가리아 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 9자리 숫자
 
@@ -2498,7 +2498,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 10자리 숫자
 
@@ -2591,7 +2591,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="bulgaria-passport-number"></a>불가리아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 9자리 숫자
 
@@ -2665,7 +2665,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="canada-bank-account-number"></a>캐나다 은행 계좌 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 7자리 또는 12자리 숫자
 
@@ -2739,7 +2739,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="canada-drivers-license-number"></a>캐나다 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 지역마다 다름
 
@@ -2967,7 +2967,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="canada-health-service-number"></a>캐나다 보건 서비스 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
  10자리 숫자
 
@@ -3014,7 +3014,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="canada-passport-number"></a>캐나다 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 대문자 2자, 6자리 숫자
 
@@ -3082,7 +3082,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="canada-personal-health-identification-number-phin"></a>캐나다 PHIN(개인 건강 식별 번호)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 숫자
 
@@ -3153,7 +3153,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="canada-social-insurance-number"></a>캐나다 사회 보험 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 하이픈 또는 공백이 있는 9자리 숫자
 
@@ -3237,7 +3237,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="chile-identity-card-number"></a>칠레 ID 카드 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 7-8자리 숫자와 검사 숫자 또는 문자를 더한 값
 
@@ -3322,7 +3322,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="china-resident-identity-card-prc-number"></a>중국 거주자 ID 카드(PRC) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 18자리 숫자
 
@@ -3380,7 +3380,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="credit-card-number"></a>신용 카드 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 서식이 지정되거나 서식 없는(dddddd)될 수 있으며 Luhn 테스트를 통과해야 하는 14-16자리 숫자입니다.
 
@@ -3682,7 +3682,7 @@ cód. segurança
 
 ## <a name="croatia-drivers-license-number"></a>크로아티아 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 8자리 숫자
 
@@ -3847,7 +3847,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 ## <a name="croatia-identity-card-number"></a>크로아티아 ID 카드 번호
 이 엔터티는 EU 국가 식별 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 숫자
 
@@ -3911,7 +3911,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="croatia-passport-number"></a>크로아티아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 9자리 숫자
 
@@ -3980,7 +3980,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="croatia-personal-identification-oib-number"></a>크로아티아 개인 식별(OIB) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자
 
@@ -4053,7 +4053,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="cyprus-drivers-license-number"></a>키프로스 드라이버 라이선스 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 12자리 숫자
 
@@ -4222,7 +4222,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 10자리 숫자
 
@@ -4264,7 +4264,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="cyprus-passport-number"></a>키프로스 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 1개 문자와 공백이나 따로 6-8자리 숫자(공백 또는 따로 문자 없음)
 
@@ -4354,7 +4354,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 지정된 패턴의 8자리 숫자와 한 문자
 
@@ -4425,7 +4425,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="czech-drivers-license-number"></a>체코 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2개의 문자와 6자리 숫자
 
@@ -4594,7 +4594,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="czech-passport-number"></a>체코 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 8자리 숫자
 
@@ -4672,7 +4672,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="czech-personal-identity-number"></a>체코 개인 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 슬래시(이전 형식)가 있는 9자리 숫자(선택적 슬래시(새 형식)가 있는 10자리 숫자
 
@@ -4772,7 +4772,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="denmark-drivers-license-number"></a>덴마크 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 8자리 숫자
 
@@ -4934,7 +4934,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="denmark-passport-number"></a>덴마크 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 9자리 숫자
 
@@ -5011,7 +5011,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="denmark-personal-identification-number"></a>덴마크 개인 식별 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 하이픈을 포함하는 10자리 숫자
 
@@ -5128,7 +5128,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="drug-enforcement-agency-dea-number"></a>DEA(마약 집행 기구) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2개의 문자와 7자리 숫자
 
@@ -5186,7 +5186,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="estonia-drivers-license-number"></a>에스토니아 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2개의 문자와 6자리 숫자
 
@@ -5359,7 +5359,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 11자리 숫자
 
@@ -5440,7 +5440,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="estonia-passport-number"></a>에스토니아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 따로 7자리 숫자를 입력하고 공백이나 따로 문자를 1개씩 입력합니다.
 
@@ -5514,7 +5514,7 @@ eesti kodaniku passi number passinumbrid document number document no dokumendi n
 
 ## <a name="eu-debit-card-number"></a>유럽 직불 카드 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 16자리 숫자
 
@@ -5884,7 +5884,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - [불가리아](#bulgaria-drivers-license-number)
 - [크로아티아](#croatia-drivers-license-number)
 - [키프로스](#cyprus-drivers-license-number)
-- [체코어](#czech-drivers-license-number)
+- [Czech](#czech-drivers-license-number)
 - [덴마크](#denmark-drivers-license-number)
 - [에스토니아](#estonia-drivers-license-number)
 - [핀란드](#finland-drivers-license-number)
@@ -5918,7 +5918,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - [불가리아](#bulgaria-uniform-civil-number)
 - [크로아티아](#croatia-identity-card-number)
 - [키프로스](#cyprus-identity-card)
-- [체코어](#czech-personal-identity-number)
+- [Czech](#czech-personal-identity-number)
 - [덴마크](#denmark-personal-identification-number)
 - [에스토니아](#estonia-personal-identification-code)
 - [핀란드](#finland-national-id)
@@ -5951,7 +5951,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - [불가리아](#bulgaria-passport-number)
 - [크로아티아](#croatia-passport-number)
 - [키프로스](#cyprus-passport-number)
-- [체코어](#czech-passport-number)
+- [Czech](#czech-passport-number)
 - [덴마크](#denmark-passport-number)
 - [에스토니아](#estonia-passport-number)
 - [핀란드](#finland-passport-number)
@@ -5983,7 +5983,7 @@ EU 사회 보장 번호 또는 이와 동등한 식별에 있는 이러한 엔�
 - [오스트리아](#austria-social-security-number)
 - [벨기에](#belgium-national-number)
 - [크로아티아](#croatia-personal-identification-oib-number)
-- [체코어](#czech-personal-identity-number)
+- [Czech](#czech-personal-identity-number)
 - [덴마크](#denmark-personal-identification-number)
 - [핀란드](#finland-national-id)
 - [프랑스](#france-social-security-number-insee)
@@ -6004,7 +6004,7 @@ EU 사회 보장 번호 또는 이와 동등한 식별에 있는 이러한 엔�
 - [불가리아](#bulgaria-uniform-civil-number)
 - [크로아티아](#croatia-identity-card-number)
 - [키프로스](#cyprus-tax-identification-number)
-- [체코어](#czech-personal-identity-number)
+- [Czech](#czech-personal-identity-number)
 - [덴마크](#denmark-personal-identification-number)
 - [에스토니아](#estonia-personal-identification-code)
 - [핀란드](#finland-national-id)
@@ -6031,7 +6031,7 @@ EU 사회 보장 번호 또는 이와 동등한 식별에 있는 이러한 엔�
 
 ## <a name="finland-drivers-license-number"></a>핀란드 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 하이픈을 포함하는 10자리 숫자
 
@@ -6212,7 +6212,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 20자리 숫자
 
@@ -6266,7 +6266,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="finland-national-id"></a>핀란드 국가 ID
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 6자리 숫자와 세 번째 숫자와 검사 숫자를 나타내는 문자
 
@@ -6361,7 +6361,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 엔터티는 EU Passport Number 중요한 정보 유형에서 사용할 수 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 9개의 문자 및 숫자 조합
 
 ### <a name="pattern"></a>패턴
@@ -6441,7 +6441,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 엔터티는 EU 운전 면허 번호 중요한 정보 유형에서 사용할 수 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 12자리 숫자
 
@@ -6607,7 +6607,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 21자리 숫자
 
@@ -6652,7 +6652,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="france-national-id-card-cni"></a>프랑스 국가 ID 카드(CNI)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 12자리 숫자
 
@@ -6700,7 +6700,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 ## <a name="france-passport-number"></a>프랑스 여권 번호
 이 엔터티는 EU 여권 번호 중요한 정보 유형에서 사용할 수 있습니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 숫자 및 문자
 
@@ -6791,7 +6791,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="france-social-security-number-insee"></a>프랑스 사회 보장 번호(INSEE)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 15자리 숫자
 
@@ -6869,7 +6869,7 @@ no. d'identite
 
 ## <a name="france-tax-identification-number"></a>프랑스 세금 식별 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 13자리 숫자
 
@@ -6951,7 +6951,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 영문자 13자 패턴
 
@@ -7014,7 +7014,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자와 문자 조합
 
@@ -7202,7 +7202,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="germany-identity-card-number"></a>독일 ID 카드 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2010년 11월 1일: 9개의 문자 및 숫자
 
@@ -7260,7 +7260,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 이 엔터티는 EU Passport Number 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 10자리 숫자 또는 문자
 
@@ -7338,7 +7338,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="germany-tax-identification-number"></a>독일 세금 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 11자리 숫자
 
@@ -7418,7 +7418,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 영문자 11자 패턴
 
@@ -7477,7 +7477,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 9자리 숫자
 
@@ -7642,7 +7642,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="greece-national-id-card"></a>그리스 국가 ID 카드
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 7-8자리 문자 및 숫자와 대시의 조합
 
@@ -7700,7 +7700,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="greece-passport-number"></a>그리스 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자 2개와 공백이나 따로 7자리 숫자(공백이나 따로 문자 없음)
 
@@ -7777,7 +7777,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 11자리 숫자
 
@@ -7835,7 +7835,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 9자리 숫자
 
@@ -7845,7 +7845,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -7898,7 +7898,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="hong-kong-identity-card-hkid-number"></a>HKID(홍콩 ID 카드) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 8-9자리 문자 및 숫자와 마지막 문자를 선택적 괄호로 묶어서 조합
 
@@ -7982,7 +7982,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="hungary-drivers-license-number"></a>헝가리 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2개의 문자와 6자리 숫자
 
@@ -8155,7 +8155,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자
 
@@ -8215,7 +8215,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="hungary-passport-number"></a>헝가리 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2개의 문자와 공백이나 따로 7자리 숫자(공백이나 따로 문자 없음)
 
@@ -8290,7 +8290,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="hungary-social-security-number-taj"></a>헝가리 TAJ(사회 보장 번호)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 9자리 숫자
 
@@ -8357,7 +8357,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 10자리 숫자
 
@@ -8438,7 +8438,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 영문자 10자 패턴
 
@@ -8497,7 +8497,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="india-permanent-account-number-pan"></a>인도 PAN(영구 계정 번호)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 10자리 문자 또는 숫자
 
@@ -8548,7 +8548,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="india-unique-identification-aadhaar-number"></a>인도 고유 ID(Aadhaar) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 공백 또는 대시를 포함하는 12자리 숫자
 
@@ -8602,7 +8602,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="indonesia-identity-card-ktp-number"></a>인도네시아 ID 카드(KTP) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적으로 마침표를 포함하는 16자리 숫자
 
@@ -8648,7 +8648,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="international-banking-account-number-iban"></a>IBAN(국제 은행 계좌 번호)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 국가 코드(2문자) 및 검사 숫자(2자리) 및 bban 번호(최대 30자)
 
@@ -8750,7 +8750,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>국제질병 분류(ICD-10-CM)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 사전
 
@@ -8792,7 +8792,7 @@ ICD-Dictionary_icd_10_codes 국제질병 [분류, 10번째 수정, ICD-10-CM(예
 
 ## <a name="international-classification-of-diseases-icd-9-cm"></a>국제적인 병 분류(ICD-9-CM)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 사전
 
@@ -8833,7 +8833,7 @@ ICD-Dictionary_icd_9_codes 국제질병 [분류, 9번째 수정, ICD-9-CM(예방
 
 ## <a name="ip-address"></a>IP 주소
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 #### <a name="ipv4"></a>IPv4:
 IPv4 주소의 서식 있는(기간) 및 서식 없는 버전(기간 없음)을 계정으로 표시하는 복잡한 패턴
@@ -8897,7 +8897,7 @@ IPv6의 경우 DLP 정책은 300자 이내의 근접성으로 이러한 유형�
 
 ## <a name="ireland-drivers-license-number"></a>아일랜드 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 6자리 숫자와 문자 4자
 
@@ -9063,7 +9063,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="ireland-passport-number"></a>아일랜드 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 공백이 없는 7자리 숫자 2개
 
@@ -9146,7 +9146,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="ireland-personal-public-service-pps-number"></a>아일랜드 PPS(개인 공용 서비스) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 이전 형식(2012년 12월 31일까지):
 - 7자리 숫자와 1-2자리 문자
@@ -9243,7 +9243,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="israel-bank-account-number"></a>이스라엘 은행 계좌 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 13자리 숫자
 
@@ -9292,7 +9292,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="israel-national-identification-number"></a>이스라엘 국가 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 숫자
 
@@ -9349,7 +9349,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 10자리 문자 및 숫자 조합
 
@@ -9524,7 +9524,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 지정된 패턴의 문자 및 숫자 조합 16자
 
@@ -9605,7 +9605,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="italy-passport-number"></a>이탈리아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 공백이 없는 7자리 숫자와 문자 2자 또는 숫자
 
@@ -9694,7 +9694,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 소수점 문자가 있는 13자 영문자 패턴
 
@@ -9746,7 +9746,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="japan-bank-account-number"></a>일본 은행 계좌 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 7 또는 8자리 숫자
 
@@ -9849,7 +9849,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="japan-drivers-license-number"></a>일본 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 12자리 숫자
 
@@ -9926,7 +9926,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 13자리 숫자
 
@@ -9987,7 +9987,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 12자리 숫자
 
@@ -10045,7 +10045,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="japan-passport-number"></a>일본 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2개의 문자와 7자리 숫자
 
@@ -10095,7 +10095,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="japan-residence-card-number"></a>일본 거주 카드 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자 및 숫자 12개
 
@@ -10139,7 +10139,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="japan-resident-registration-number"></a>일본 거주 등록 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자
 
@@ -10185,7 +10185,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="japan-social-insurance-number-sin"></a>일본 SIN(사회 보험 번호)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 7-12자리 숫자
 
@@ -10251,7 +10251,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="latvia-drivers-license-number"></a>라트비아 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 3개의 문자와 6자리 숫자
 
@@ -10417,7 +10417,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="latvia-personal-code"></a>라트비아 개인 코드
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자 및 하이픈(선택 사항)
 
@@ -10548,7 +10548,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="latvia-passport-number"></a>라트비아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 공백이 없는 7자리 숫자와 문자 2자 또는 숫자
 
@@ -10630,7 +10630,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="lithuania-drivers-license-number"></a>리투아니아 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 8자리 숫자
 
@@ -10799,7 +10799,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 11자리 숫자
 
@@ -10881,7 +10881,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="lithuania-passport-number"></a>리투아니아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 공백이 없는 8자리 숫자 또는 문자
 
@@ -10957,7 +10957,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="luxemburg-drivers-license-number"></a>룩세르버그 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 6자리 숫자
 
@@ -11125,7 +11125,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 13자리 숫자
 
@@ -11194,7 +11194,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="luxemburg-passport-number"></a>룩세르버그 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 공백이 없는 8자리 숫자 또는 문자
 
@@ -11281,7 +11281,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="luxemburg-national-identification-number-non-natural-persons"></a>룩룩부르크 국가 ID 번호(자연인이 아닌 사람)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자
 
@@ -11373,7 +11373,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="malaysia-identification-card-number"></a>말레이시아 ID 카드 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적으로 하이픈을 포함하는 12자리 숫자
 
@@ -11439,7 +11439,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="malta-drivers-license-number"></a>몰타 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 지정된 패턴의 2자 및 6자리 숫자 조합
 
@@ -11614,7 +11614,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 7자리 숫자와 한 문자
 
@@ -11627,7 +11627,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -11673,7 +11673,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="malta-passport-number"></a>몰타 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 7자리 숫자
 
@@ -11746,7 +11746,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="malta-tax-identification-number"></a>몰타 세금 식별 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 몰타어 국가:
 - 지정된 패턴의 7자리 숫자와 한 문자
@@ -11767,7 +11767,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -11836,7 +11836,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="medicare-beneficiary-identifier-mbi-card"></a>Medicare Beneficiary Identifier(MBI) 카드
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 영문자 11자 패턴
 
@@ -11895,7 +11895,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="mexico-unique-population-registry-code-curp"></a>멕시코 고유의 인구 레지스트리 코드(CURP)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 영문자 18자 패턴
 
@@ -11961,7 +11961,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="netherlands-citizens-service-bsn-number"></a>네덜란드 시민 서비스(BSN) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 공백을 포함하는 8 또는 9자리 숫자
 
@@ -12023,7 +12023,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="netherlands-drivers-license-number"></a>네덜란드 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 10자리 숫자
 
@@ -12190,7 +12190,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="netherlands-passport-number"></a>네덜란드 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 9개의 문자 또는 숫자
 
@@ -12264,7 +12264,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 9자리 숫자
 
@@ -12347,7 +12347,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 영문자 14자 패턴
 
@@ -12409,7 +12409,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 디지타이터가 있는 14자리에서 16자리 패턴으로
 
@@ -12471,7 +12471,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 영문자 8자 패턴
 
@@ -12586,7 +12586,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 디지타이터가 있는 8 또는 9자리 숫자
 
@@ -12640,7 +12640,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="new-zealand-ministry-of-health-number"></a>뉴질랜드 보건부 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 3개의 문자, 공백(선택 사항) 및 4자리 숫자
 
@@ -12703,7 +12703,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 숫자
 
@@ -12757,7 +12757,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="norway-identification-number"></a>노르웨이 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자
 
@@ -12810,7 +12810,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="philippines-unified-multi-purpose-identification-number"></a>필리핀 통합 다목적 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 하이픈으로 구분된 12자리 숫자
 
@@ -12854,7 +12854,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="poland-drivers-license-number"></a>폴란드 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 슬래시 2개가 포함된 14자리 숫자
 
@@ -13022,7 +13022,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="poland-identity-card"></a>폴란드 ID 카드
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 3개의 문자와 6자리 숫자
 
@@ -13067,7 +13067,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="poland-national-id-pesel"></a>폴란드 국가 ID(PESEL)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자
 
@@ -13123,7 +13123,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 ## <a name="poland-passport-number"></a>폴란드 여권 번호
 이 중요한 정보 유형 엔터티는 EU 여권 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2개의 문자와 7자리 숫자
 
@@ -13216,7 +13216,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 또는 14자리 숫자
 
@@ -13282,7 +13282,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 11자리 숫자
 
@@ -13346,7 +13346,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="portugal-citizen-card-number"></a>포르투갈 시민 카드 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 8자리 숫자
 
@@ -13399,7 +13399,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="portugal-drivers-license-number"></a>포르투갈 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 두 개의 패턴 - 문자 2개와 특수 문자가 있는 5-8자리 숫자
 
@@ -13582,7 +13582,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="portugal-passport-number"></a>포르투갈 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 따로 6자리 숫자를 입력하고 공백이나 따로 문자를 1개씩 입력합니다.
 
@@ -13668,7 +13668,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="portugal-tax-identification-number"></a>포르투갈 세금 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 공백이 있는 9자리 숫자
 
@@ -13736,7 +13736,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="romania-drivers-license-number"></a>루마니아 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자 1개와 숫자 8자
 
@@ -13910,7 +13910,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 13자리 숫자
 
@@ -14002,7 +14002,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="romania-passport-number"></a>루마니아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 8 또는 9자리 숫자
 
@@ -14082,7 +14082,7 @@ numărul pașaportului numarul pasaportului numerele pașaportului Pașaport nr
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 10자리 숫자
 
@@ -14144,7 +14144,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 숫자
 
@@ -14198,7 +14198,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="saudi-arabia-national-id"></a>사우디 아라비아 국가 ID
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 10자리 숫자
 
@@ -14240,7 +14240,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="singapore-national-registration-identity-card-nric-number"></a>싱가포르 NRIC(국가 등록 ID 카드) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9개의 문자 및 숫자
 
@@ -14294,7 +14294,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="slovakia-drivers-license-number"></a>슬로바키아 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 한 문자와 7자리 숫자
 
@@ -14467,7 +14467,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 선택적 백 슬래시를 포함하는 9자리 또는 10자리 숫자
 
@@ -14556,7 +14556,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="slovakia-passport-number"></a>슬로바키아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 공백이 없는 7자리 숫자
 
@@ -14634,7 +14634,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="slovenia-drivers-license-number"></a>스로베니아 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 9자리 숫자
 
@@ -14805,7 +14805,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 13자리 숫자
 
@@ -14876,7 +14876,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="slovenia-passport-number"></a>솔로베니아 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 따로 7자리 숫자를 입력할 때 공백이나 공백이 없는 문자 2개
 
@@ -14965,7 +14965,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 8자리 숫자
 
@@ -15030,7 +15030,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="south-africa-identification-number"></a>남아프리카 공화국 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백을 포함할 수 있는 13자리 숫자
 
@@ -15074,7 +15074,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="south-korea-resident-registration-number"></a>대한민국 거주자 등록 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 하이픈을 포함하는 13자리 숫자
 
@@ -15128,7 +15128,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="spain-drivers-license-number"></a>스페인 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 8자리 숫자와 한 문자
 
@@ -15325,7 +15325,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 8자리 숫자와 한 문자
 
@@ -15399,7 +15399,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="spain-passport-number"></a>스페인 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백이나 디지타이터가 없는 문자와 숫자의 8자 또는 9자 조합
 
@@ -15413,7 +15413,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -15489,7 +15489,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 ## <a name="spain-social-security-number-ssn"></a>스페인 SSN(사회 보장 번호)
 
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11-12자리 숫자
 
@@ -15549,7 +15549,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 지정된 패턴에서 7-8자리 숫자와 1-2자리 문자
 
@@ -15653,7 +15653,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="sql-server-connection-string"></a>SQL Server 연결 문자열
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 문자열 "User Id", "User ID", "uid" 또는 "UserId" 다음에 아래 패턴에 설명된 문자와 문자열입니다.
 
@@ -15729,7 +15729,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="sweden-drivers-license-number"></a>스웨덴 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 하이픈을 포함하는 10자리 숫자
 
@@ -15904,7 +15904,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="sweden-national-id"></a>스웨덴 국가 ID
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 10 또는 12자리 숫자와 선택적 구분 기호
 
@@ -15968,7 +15968,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="sweden-passport-number"></a>스웨덴 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 8자리 숫자
 
@@ -16067,7 +16067,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 지정된 패턴의 10자리 숫자 및 기호
 
@@ -16143,7 +16143,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="swift-code"></a>SWIFT 코드
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 4개의 문자와 5-31개의 문자 또는 숫자
 
@@ -16222,7 +16222,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 13자리 숫자
 
@@ -16290,7 +16290,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="taiwan-national-identification-number"></a>대만 국가 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 1개의 문자(영어) 및 9자리 숫자
 
@@ -16350,7 +16350,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="taiwan-passport-number"></a>대만 여권 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 - 생체 인식 여권 번호: 9자리 숫자
 - 생체 인식이 아닌 여권 번호: 9자리 숫자
@@ -16398,7 +16398,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="taiwan-resident-certificate-arctarc-number"></a>대만 거주 인증서(ARC/TARC) 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 10개의 문자 및 숫자
 
@@ -16446,7 +16446,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="thai-population-identification-code"></a>태국어 인구 ID 코드
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 13자리 숫자
 
@@ -16495,7 +16495,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="turkish-national-identification-number"></a>터키어 국가 ID 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 11자리 숫자
 
@@ -16540,7 +16540,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="uk-drivers-license-number"></a>영국 driver's license number
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 지정된 형식의 18개 문자 및 숫자 조합
 
@@ -16707,7 +16707,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="uk-electoral-roll-number"></a>영국 선택 롤 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 2개의 문자와 1-4자리 숫자
 
@@ -16749,7 +16749,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="uk-national-health-service-number"></a>영국 national health service number
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백으로 구분된 10-17자리 숫자
 
@@ -16817,7 +16817,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 ## <a name="uk-national-insurance-number-nino"></a>영국 national insurance number (NINO)
 이 중요한 정보 유형 엔터티는 EU 국가 식별 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로도 사용할 수 있습니다.
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 또는 대시로 구분된 7자 또는 9자
 
@@ -16900,7 +16900,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 공백 및 디지타이터가 없는 10자리 숫자
 
@@ -16953,7 +16953,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="us-bank-account-number"></a>미국 은행 계좌 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 6-17자리 숫자
 
@@ -17015,7 +17015,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="us-drivers-license-number"></a>미국 운전 면허 번호
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 주마다 다릅니다.
 
@@ -17167,7 +17167,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="us-individual-taxpayer-identification-number-itin"></a>미국 ITIN(개인 납세자 번호)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 "9"로 시작하고 "7" 또는 "8"을 네 번째 숫자로 포함하는 9자리 숫자이며 선택적으로 공백 또는 대시로 서식이 지정됩니다.
 
@@ -17245,7 +17245,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="us-social-security-number-ssn"></a>미국 SSN(사회 보장 번호)
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 서식이 지정되거나 서식 없는 패턴일 수 있는 9자리 숫자
 
@@ -17325,7 +17325,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="us--uk-passport-number"></a>미국/영국 passport number
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 숫자
 
@@ -17398,7 +17398,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 9자리 숫자
 
@@ -17446,7 +17446,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>포맷
+### <a name="format"></a>형식
 
 8자 영문 패턴
 
