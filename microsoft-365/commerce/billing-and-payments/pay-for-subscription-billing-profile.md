@@ -20,12 +20,12 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 ms.date: 04/02/2021
-ms.openlocfilehash: 73acb6a12499953e56eda7d4274160c6e79ee440
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 1d820f2d44719caf254b07aee279f1b8121106009e014afddd8fc121bd5d1cc6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331985"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53797137"
 ---
 # <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>청구 프로필을 사용하여 구독 비용을 결제하는 방법
 
@@ -219,7 +219,7 @@ ms.locfileid: "52331985"
 
 ## <a name="can-i-pay-my-invoice-online"></a>온라인으로 송장을 결제할 수 있나요?
 
-청구 프로필에 대해 재발급 청구가 꺼져 있는 경우 신용 카드를 사용하여 온라인으로 송장을 결제할 수 있습니다. 결제하려면 Microsoft 365 관리  센터의 송장에 지금 결제 단추를 사용하세요. 송장을 찾으면 청구서 또는 [송장 보기를 참조합니다.](view-your-bill-or-invoice.md)
+청구 프로필에 대해 재발급 청구가 꺼져 있는 경우 신용 카드를 사용하여 온라인으로 송장을 결제할 수 있습니다. 결제를 위해 청구서의 **송장에** 지금 결제 단추를 Microsoft 365 관리 센터. 송장을 찾으면 청구서 또는 [송장 보기를 참조합니다.](view-your-bill-or-invoice.md)
 
 ## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>내 현재 결제 방법에서 송장으로 결제로 변경할 수 있나요?
 

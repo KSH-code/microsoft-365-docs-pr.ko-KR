@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5e8cb3b843ce3f8bbbec6d1dc96bf2aa237eaa2a
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 3274e3e4b2992ad6d7309b01bc7ed8b7113302fc6fbbb4e706cb1365ae58821b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53655566"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53845639"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 
@@ -106,7 +106,7 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 
     ![Microsoft Endpoint Configuration Manager 마법사의 이미지8](images/configmgr-membership-rules.png)
 
-9. **다음** 을 선택하세요.
+9. **다음** 을 선택합니다.
 
     ![Microsoft Endpoint Configuration Manager Microsoft Endpoint Configuration Manager 이미지](images/configmgr-confirm.png)
 

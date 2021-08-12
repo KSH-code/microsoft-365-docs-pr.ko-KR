@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
-ms.openlocfilehash: a8efdb460df07b34d272fbfe97cde8ee8224a94c
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 546270ef8053647d436b5ad7f59d3cb344281bfeb92123411446c465bfcab325
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623735"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53806787"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>자동화된 조사 후 수정 작업 검토
 
