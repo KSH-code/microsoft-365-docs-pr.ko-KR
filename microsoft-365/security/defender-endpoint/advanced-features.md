@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2b9914c67ba9e98d68e053b8c3613c7d883f82a5
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 165130eeb5cfa8616c2256eb390ac669b466500c
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649638"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567699"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -32,7 +32,7 @@ ms.locfileid: "53649638"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-advancedfeats-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedfeats-abovefoldlink)
 
 사용하는 Microsoft 보안 제품에 따라 일부 고급 기능을 사용하여 Endpoint용 Defender를 통합할 수 있습니다.
 
@@ -230,8 +230,8 @@ Intune 통합을 사용하도록 설정하면 Intune에서 클래식 CA(조건�
 > [!NOTE]
 > Intune에서 만든 클래식 CA 정책은 [](/azure/active-directory/conditional-access/overview/)끝점을 구성하는 데 사용되는 최신 조건부 액세스 정책과는 별개입니다.
 
-## <a name="device-discovery"></a>장치 검색
 
+## <a name="device-discovery"></a>장치 검색
 추가 어플라이언스 또는 번거로운 프로세스 변경 없이도 회사 네트워크에 연결된 관리되지 않는 장치를 찾을 수 있습니다. 온보드 장치를 사용하여 네트워크에서 관리되지 않는 장치를 찾고 취약성 및 위험을 평가할 수 있습니다. 자세한 내용은 장치 [검색을 참조하세요.](device-discovery.md)
 
 > [!NOTE]
@@ -242,10 +242,6 @@ Intune 통합을 사용하도록 설정하면 Intune에서 클래식 CA(조건�
 Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 자세히 알아보습니다. 미리 보기 환경을 켜서 예정된 기능을 사용해 하세요.
 
 예정된 기능에 액세스할 수 있습니다. 기능은 일반적으로 사용 가능하기 전에 전반적인 환경을 개선하는 데 도움이 되기 위해 피드백을 제공할 수 있습니다.
-
-## <a name="download-quarantined-files"></a>quarantined files 다운로드
-
-보안 및 규격 위치에 보관된 파일을 백업하여 해당 파일을 검지에서 직접 다운로드할 수 있습니다. 파일 **다운로드 단추는** 항상 파일 페이지에서 사용할 수 있습니다. 이 설정은 기본적으로 켜져 있습니다. [요구 사항에 대해 자세히 알아보시다](respond-file-alerts.md#download-quarantined-files)
 
 ## <a name="related-topics"></a>관련 항목
 

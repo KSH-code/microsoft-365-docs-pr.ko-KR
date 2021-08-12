@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 19fd44633f03a7797484ecaa6a15159e24da7fbf
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 405f63c849c33680ff221dd752899682df5d62e7
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326822"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53726167"
 ---
 # <a name="insider-risk-management-cases"></a>내부자 위험 관리 사례
 
@@ -151,13 +151,13 @@ ms.locfileid: "53326822"
 
 ### <a name="content-explorer"></a>콘텐츠 탐색기
 
-**콘텐츠 탐색기** 탭을 통해 위험 분석가 및 조사자가 위험 경고와 관련된 모든 개별 파일 및 전자 메일 메시지의 복사본을 검토할 수 있습니다. 예를 들어 사용자가 SharePoint Online에서 수백 개의 파일을 다운로드할 때 경고가 생성되어 활동이 정책 경고를 트리거하면 경고에 대한 모든 다운로드된 파일이 캡처되어 원본 저장소 원본에서 내부자 위험 관리 사례에 복사됩니다.
+콘텐츠 **탐색기** 탭을 통해 위험 조사자는 위험 경고와 관련된 모든 개별 파일 및 전자 메일 메시지의 복사본을 검토할 수 있습니다. 예를 들어 사용자가 SharePoint Online에서 수백 개의 파일을 다운로드할 때 경고가 생성되어 활동이 정책 경고를 트리거하면 경고에 대한 모든 다운로드된 파일이 캡처되어 원본 저장소 원본에서 내부자 위험 관리 사례에 복사됩니다.
 
 콘텐츠 탐색기는 기본 및 고급 검색 및 필터링 기능이 있는 강력한 도구입니다. 콘텐츠 탐색기 사용에 대한 자세한 내용은 [Insider risk management Content explorer 를 참조하세요.](insider-risk-management-content-explorer.md)
 
 ![내부자 위험 관리 사례 콘텐츠 탐색기](../media/insider-risk-content-explorer.png)
 
-### <a name="case-notes"></a>케이스 노트
+### <a name="case-notes"></a>사례 주석
 
 이 **경우 사례** 메모 탭에서는 위험 분석가와 조사자는 사례에 대한 작업과 관련한 의견, 피드백 및 정보를 공유합니다. 노트는 케이스에 영구적인 추가사항이며 노트가 저장된 후에는 편집하거나 삭제할 수 없습니다. 경고에서 케이스가 생성되면 **경고 확인 및 내부자 위험 케이스** 대화 상자에 입력한 설명이 자동으로 케이스 노트로 추가됩니다.
 
@@ -206,7 +206,7 @@ ms.locfileid: "53326822"
 4. 알림 필드를 검토하고 적절하게 업데이트합니다. 여기에 입력한 값은 템플릿의 값을 다시 정의합니다.
 5. 사용자에게  통지를 보내기 위해 보내기 를 선택하거나 사용자에게 통지를 보내지 않고 대화 상자 닫기 취소를 선택합니다.  보낸 모든 알림은 사례 메모 대시보드의 사례 메모 **큐에 추가됩니다.**
 
-### <a name="escalate-for-investigation"></a>조사를 위한 에스컬레이션
+### <a name="escalate-for-investigation"></a>조사를 위해 에스컬레이션
 
 사용자의 위험 활동에 대해 추가 법적 검토가 필요한 상황에서 사용자 조사 사례를 에스컬레이터합니다. 이 에스컬레이션은 Microsoft 365 조직의 새로운 Advanced eDiscovery 케이스를 엽니다. Advanced eDiscovery는 조직의 내부 및 외부 법률 조사에 대응하는 컨텐츠를 보존, 수집, 검토, 분석 및 내보낼 수 있는 엔드 투 엔드 워크플로우를 제공합니다. 또한 법률 팀이 전체 법적 보류 알림 워크플로를 관리하여 사건에 관련된 관리자와 통신할 수 있도록 합니다. 내부자 위험 관리 케이스에서 생성된 Advanced eDiscovery 케이스에서 검토자를 관리자로 할당하면 법률 팀이 적절한 조치를 취하고 콘텐츠 보존을 관리하는 데 도움이 됩니다. Advanced eDiscovery 케이스에 대한 자세한 내용은 [Microsoft 365의 Advanced eDiscovery 개요](overview-ediscovery-20.md)를 참조하세요.
 

@@ -18,14 +18,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 센터 또는 Microsoft 365 규정 준수 센터 Microsoft 365 Defender 보안 포털에서 경고 정책을 만들어 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링합니다.
-ms.openlocfilehash: 531ce27d8335216f76b5ff1516ecc8263f24bb51
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: a6a1f9dfeec6e59f51a4ad0dba364610341e6e5b
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567395"
+ms.locfileid: "53541841"
 ---
-# <a name="alert-policies-in-microsoft-365"></a>Microsoft 365의 알림 정책
+# <a name="alert-policies-in-the-microsoft-365"></a>보안 정책의 Microsoft 365
 
 Microsoft 365 규정 준수 센터 또는 Microsoft 365 Defender 포털에서 경고 정책 및 경고 대시보드 도구를 사용하여 경고 정책을 만든 다음 사용자가 경고 정책의 조건과 일치하는 활동을 수행할 때 생성되는 경고를 볼 수 있습니다. Exchange Online, 맬웨어 공격, 피싱 캠페인, 비정상적인 파일 삭제 수준 및 외부 공유의 관리자 권한 할당과 같은 활동을 모니터링하는 데 도움이 되는 몇 가지 기본 경고 정책이 있습니다.
 
@@ -125,7 +125,7 @@ Microsoft는 관리자 권한 남용, Exchange, 잠재적인 외부 및 내부 �
 
 또한 이 표에는 각 요금제에 Office 365 Enterprise Office 365 미국 정부 계획의 기본 계획 및 기본 계획이 표시됩니다. 조직에 E1/F1/G1 또는 E3/F3/G3 구독 외에 적절한 추가 기능 구독이 있는 경우 일부 기본 경고 정책을 사용할 수 있습니다.
 
-| 기본 경고 정책 | 설명 | 범주 | Enterprise 구독 |
+| 기본 경고 정책 | 설명 | Category | Enterprise 구독 |
 |:-----|:-----|:-----|:-----|
 |**악의적인 URL 클릭이 감지되었습니다.**|조직의 링크로 보호된 사용자가 [](../security/office-365-security/safe-links.md) 금고 링크를 클릭할 때 경고를 생성합니다. 이 이벤트는 MICROSOFT Defender에서 URL Office 365 변경 내용이 식별되거나 사용자가 금고 링크 페이지를 Microsoft 365 비즈니스용 금고 정책에 따라 트리거됩니다. 이 경고 정책에는 **심각도 높은** 설정이 있습니다. Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md) 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 [Set up 금고 Links policies을 참조하십시오.](../security/office-365-security/set-up-safe-links-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
 |**관리자 전송 결과 완료**|관리 제출이 제출된 엔터티의 다시 검색을 완료하면 경고를 생성합니다. [](../security/office-365-security/admin-submission.md) 관리자 제출에서 다시 검색 결과가 렌더링될 때마다 경고가 트리거됩니다. 이러한 알림은 이전 제출의 [](https://compliance.microsoft.com/reportsubmission)결과를 검토하고, 사용자가 보고한 메시지를 제출하여 최신 정책 확인을 받아 결과를 다시 검사하고, 조직의 필터링 정책이 의도한 영향을 미치는지 확인하는 데 도움이 하도록 알리기 위한 것입니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리|E1/F1, E3/F3 또는 E5|

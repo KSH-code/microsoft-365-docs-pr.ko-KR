@@ -2,8 +2,8 @@
 title: 가시성 및 인사이트 시작
 f1.keywords:
 - NOCSH
-ms.author: v-tophillips
-author: v-tophillips
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 가시성 및 인사이트를 시작합니다.
-ms.openlocfilehash: f4cac209ed7372f78bd861ee9d683a93f0c36b28
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 04c8403302996bf8c26a6cb5352c5d92ec51f9ff
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53621550"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541178"
 ---
 # <a name="get-started-with-visibility-and-insights"></a>가시성 및 인사이트 시작
 
@@ -29,17 +29,15 @@ ms.locfileid: "53621550"
 
 ![Microsoft 365 준수 센터의 앱 거버넌스 개요 페이지](..\media\manage-app-protection-governance\mapg-cc-overview.png)
 
-**Office 365 > Microsoft 365 준수 센터 > 앱 거버넌스 > 개요 페이지** 에서 앱 거버넌스 대시보드에 액세스할 수도 있습니다.
+**Office 365 관리 센터 > Microsoft 365 준수 센터 > 앱 거버넌스 > 개요 페이지** 에서 앱 거버넌스 대시보드에 액세스할 수도 있습니다.
 
 ## <a name="whats-available-on-the-dashboard"></a>대시보드에서 사용할 수 있는 기능
 
 대시보드에는 테넌트에서 Microsoft 365 앱 에코시스템의 구성 요소에 대한 요약이 포함되어 있습니다.
 
 - **테넌트 요약**: 주요 앱 및 경고 범주의 수
-- **상위 경고**: 테넌트에서 가장 최근의 활성 경고 10개
-- **데이터 및 리소스 액세스**: 그래프의 매월 열을 마우스로 클릭하여 해당 값을 확인합니다.
-    - **지난 4개월 동안의 데이터 액세스**: 지난 4개월 동안 Graph API 통해 테넌트에서 모든 앱이 액세스한 총 데이터를 추적합니다. 현재 메일 및 파일 업로드와 다운로드 사용량만 포함
-    - **지난 4개월 동안의 상위 리소스 데이터 액세스**: 지난 4개월 동안 데이터 사용량이 리소스 종류별로 세분화됩니다. 현재 메일 및 파일 업로드와 다운로드 사용량만 포함
+- **검색 및 정책 경고**: 테넌트에서 가장 최근의 활성 경고
+- **데이터 및 리소스 액세스**: 테넌트에서 상위 리소스의 전체 사용량 및 애플리케이션 API 액세스를 집계합니다. 그래프의 매월 열을 마우스로 클릭하여 해당 값을 확인합니다.
 - **앱 보호 및 거버넌스 개선**: 앱 사용 또는 권한 정책 만들기와 같은 권장 조치입니다.
 - **범주별 상위 앱**: 다음 범주별로 정렬된 상위 앱:
   

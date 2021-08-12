@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Blackboard Microsoft Teams 클래스 사용
-ms.openlocfilehash: a97d5bf56e1e045ccb0ef7cc66ecef7dfba4041a
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: fc2bb1fa222dd47917d14c5c055c8f52fcbe7390
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454641"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53726215"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard-learn-ultra"></a>Blackboard Microsoft Teams 클래스 사용
 
@@ -178,5 +178,3 @@ LTI 통합을 구성하기 전에 Blackboard Learn Ultra Teams Classes Azure 앱
    - 동의가 승인되지 않은 경우 설명된 단계에 따라 동의를 위해 URL을 생성하고 승인을 위해 Microsoft 365 전역 관리자에게 전송합니다.
 
 5. 승인을 확인한 후 다시 **시도를** 선택하여 확인한 다음 제출을 **선택합니다.**
-
-   ![액세스가 차단된 것을 나타내는 대화 상자](media/blocked-access.png)

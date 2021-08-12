@@ -17,12 +17,12 @@ ms.custom: ''
 description: 관리자는 EOP(Exchange Online Protection)의 고급 배달 정책을 사용하여 지원되는 특정 시나리오(타사 피싱 시뮬레이션 및 SecOps(보안 작업) 사서함으로 배달된 메시지)에서 필터링하지 말아야 하는 메시지를 식별하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b74ff33fe2ed2581e033511b6ee8069696439a58
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 88235051a50197be56f20dcce22e868ce6bf4b3e
+ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53591178"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53726203"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>사용자에 대한 타사 피싱 시뮬레이션 및 필터되지 않은 메시지의 SecOps 사서함 배달 구성
 
@@ -31,10 +31,7 @@ ms.locfileid: "53591178"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-> [!NOTE]
-> 이 문서에서 설명하는 기능은 미리 보기에 있으며, 모든 사람이 사용할 수 있으며 변경될 수 있습니다.
-
-기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예를 들면 다음과 같습니다.
+기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예를 들면
 
 - **타사 피싱 시뮬레이션:** 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
 - **SecOps(보안 작업)** 사서함: 보안 팀에서 필터되지 않은 메시지를 수집 및 분석하는 데 사용하는 전용 사서함(좋음과 불량 모두)입니다.
@@ -65,7 +62,7 @@ ms.locfileid: "53591178"
 
 - <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. 고급 배달 페이지로 직접 **이동하기 위해** 를 를 니다. <https://security.microsoft.com/advanceddelivery>
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+- 보안 및 준수 센터 PowerShell에 연결하려면 [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)을 참조하세요.
 
 - 이 문서의 절차를 수행하려면 먼저 사용 권한을 할당해야 합니다.
   - 고급 배달 정책에서 구성된 설정을 만들거나 수정하거나 제거하려면 Microsoft 365 Defender **포털에서** **보안** 관리자 역할 그룹의 구성원이자 조직 관리  역할 그룹의 구성원인 **Exchange Online.**
@@ -106,7 +103,13 @@ ms.locfileid: "53591178"
 
 3. 열 **수 있는** 타사 피싱 시뮬레이션 플라이아웃 편집 플라이아웃에서 다음 설정을 구성합니다. 
 
+주소(MAIL FROM 주소, P1 보낸 사람 또는 봉투 보낸 사람)는 메시지의 SMTP 전송에 사용되는 전자 메일 `5321.MailFrom` 주소입니다. 
+
    - **보내는 도메인:** 이 설정을 확장하고 상자를 클릭하고 값을 입력한 다음 Enter를 누르거나 상자 아래에 표시되는 값을 선택하여 하나 이상의 전자 메일 주소 도메인(예: contoso.com)을 입력합니다. 필요한 만큼 이 단계를 반복합니다. 항목을 10개까지 추가할 수 있습니다.
+
+     > [!NOTE]
+     > 메시지의 SMTP 전송에 사용되는 주소(MAIL FROM 주소, P1 보낸 사람 또는 봉투 보낸 사람)의 도메인을 `5321.MailFrom` 사용하세요.  이 전자 메일 주소는 일반적으로 메시지 헤더의 **반환 경로** 헤더 필드에 기록됩니다.
+
    - **IP** 보내기 : 이 설정을 확장하고 상자를 클릭하고 값을 입력한 다음 Enter를 누르거나 상자 아래에 표시되는 값을 선택하여 유효한 IPv4 주소를 하나 이상 입력합니다. 필요한 만큼 이 단계를 반복합니다. 항목을 10개까지 추가할 수 있습니다. 유효한 값은 다음과 같습니다.
      - 단일 IP: 예: 192.168.1.1.
      - IP 범위: 예: 192.168.0.1-192.168.0.254.
@@ -132,9 +135,9 @@ ms.locfileid: "53591178"
 
 - **검토 중의** 가양성: 관리자 제출을 통해 Microsoft에서 여전히 분석하고 [](admin-submission.md) 있는 특정 메시지를 일시적으로 허용하여 Microsoft에 잘못 잘못된 것으로 잘못 표시된 알려진 좋은 메시지(가양성)를 보고할 수 있습니다. 모든 재지정과 함께 **** 이러한 허용은 임시로 지정하는 것이 좋습니다.
 
-## <a name="exchange-online-powershell-procedures-for-secops-mailboxes-in-the-advanced-delivery-policy"></a>Exchange Online 고급 배달 정책의 SecOps 사서함에 대한 PowerShell 절차
+## <a name="security--compliance-center-powershell-procedures-for-secops-mailboxes-in-the-advanced-delivery-policy"></a>고급 & 정책의 SecOps 사서함에 대한 보안 및 준수 센터 PowerShell 절차
 
-PowerShell에서 Exchange Online 고급 배달 정책의 SecOps 사서함의 기본 요소는 다음입니다.
+보안 & 준수 센터 PowerShell에서 고급 배달 정책의 SecOps 사서함의 기본 요소는 다음입니다.
 
 - **SecOps override 정책**: **\* -SecOpsOverridePolicy** cmdlet에 의해 제어됩니다.
 - **SecOps는** **\* -SecOpsOverrideRule** cmdlet에 의해 제어됩니다.
@@ -178,7 +181,7 @@ New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SentTo secops@contoso.com
 New-SecOpsOverrideRule -Name SecOpsOverrideRule -Policy SecOpsOverridePolicy
 ```
 
-**참고:****지정한 이름 값에 관계없이 규칙 이름은 SecOpsOverrideRule이 됩니다. 여기서 은 고유한 GUID 값입니다(예: \<GUID\> \<GUID\> 6fed4b63-3563-495d-a481-b24a311f8329).
+**참고:** 지정한 이름 값에 관계없이 규칙 이름은 SecOpsOverrideRule이 됩니다. 여기서 은 고유한 GUID 값입니다(예: \<GUID\> \<GUID\> 6fed4b63-3563-495d-a481-b24a311f8329).
 
 구문과 매개 변수에 대한 자세한 내용은 [New-SecOpsOverrideRule을 참조하십시오.](/powershell/module/exchange/new-secopsoverriderule)
 
@@ -262,9 +265,9 @@ Remove-SecOpsOverrideRule -Identity SecOpsOverrideRule6fed4b63-3563-495d-a481-b2
 
 구문과 매개 변수에 대한 자세한 내용은 [Remove-SecOpsOverrideRule을 참조하십시오.](/powershell/module/exchange/remove-secopsoverriderule)
 
-## <a name="exchange-online-powershell-procedures-for-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Exchange Online 고급 배달 정책의 타사 피싱 시뮬레이션에 대한 PowerShell 절차
+## <a name="security--compliance-center-powershell-procedures-for-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>고급 & 정책의 타사 피싱 시뮬레이션에 대한 보안 및 준수 센터 PowerShell 절차
 
-PowerShell의 Exchange Online 고급 배달 정책에서 타사 피싱 시뮬레이션의 기본 요소는 다음입니다.
+보안 & 준수 센터 PowerShell에서 고급 배달 정책의 타사 피싱 시뮬레이션의 기본 요소는 다음입니다.
 
 - **피싱 시뮬레이션은** **\* -PhishSimOverridePolicy** cmdlet에 의해 제어됩니다.
 - **피싱 시뮬레이션은** **\* -PhishSimOverrideRule** cmdlet에 의해 제어됩니다.

@@ -2,8 +2,8 @@
 title: 앱 보기
 f1.keywords:
 - NOCSH
-ms.author: v-tophillips
-author: v-tophillips
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 봅니다.
-ms.openlocfilehash: 5a11e161fb7b37405b61866599a616874ad4a190
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 448ca4cd7fab13ce25c3bcc18c350d227461ee45
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623029"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541108"
 ---
 # <a name="view-your-apps"></a>앱 보기
 
@@ -32,7 +32,7 @@ Microsoft 앱 거버넌스를 사용하면 사용자의 테넌트의 Microsoft 3
 
 ## <a name="getting-a-list-of-all-the-apps-in-your-tenant"></a>테넌트의 모든 앱 목록 가져오기
 
-테넌트에서 앱에 대한 요약을 보려면 **Microsoft 365 규정 준수 센터 > 앱 거버넌스 > 앱** 으로 이동하세요.
+테넌트에서 앱에 대한 요약을 보려면 **Microsoft 365 규정 준수 센터 > 앱 보호 및 거버넌스 > 앱** 으로 이동하세요.
 
 ![Microsoft 365 규정 준수 센터의 MAPG 앱 요약 페이지](..\media\manage-app-protection-governance\mapg-cc-apps.png)
 
@@ -74,12 +74,12 @@ Microsoft 앱 거버넌스를 사용하면 사용자의 테넌트의 Microsoft 3
 | 탭 이름 | 설명 |
 |:-------|:-----|
 | 세부 정보 | 앱에서 처음 동의한 날짜 및 앱 ID와 같은 추가 데이터를 확인합니다. Azure AD에 등록된 앱의 속성을 보려면 **Azure AD의 앱 보기** 를 선택합니다. |
-| 사용 현황 |테넌트의 앱에서 액세스하는 데이터를 확인하고 Sharepoint 및 Exchange 리소스에 대한 데이터 사용량을 표시합니다. |
+| 사용 현황 | 테넌트의 앱에서 액세스한 데이터를 보고, 데이터 사용량을 표시하고, 상위 \<x>명의 사용자와 [우선 순위 계정](/microsoft-365/admin/setup/priority-accounts)이 있는 사용자의 사용량을 표시합니다. |
 | 사용자 | 앱을 사용하는 사용자 목록, 우선 순위 계정 여부와 다운로드 및 업로드된 데이터 양을 확인합니다. |
 | 사용 권한 | 앱에 부여된 사용 권한 및 앱이 사용하는 사용 권한과 특정 사용 권한 목록의 요약을 확인하세요. 자세한 내용은 [Microsoft Graph 사용 권한 참조](/graph/permissions-reference)를 참조하세요. |
 |||
 
-활성화된 앱의 경우 **앱 비활성화** 컨트롤을 사용하여 선택된 앱을 비활성화할 수 있고 **앱 활성화** 컨트롤을 사용하여 비활성화된 앱을 사용하도록 설정하는 기능도 있습니다. 이러한 작업을 수행하려면 다음 관리자 역할이 필요합니다.
+활성화된 앱의 경우 **앱 비활성화** 컨트롤을 사용하여 선택된 앱을 비활성화할 수 있고 **앱 활성화** 컨트롤을 사용하여 비활성화된 앱을 사용하도록 설정하는 기능도 있습니다. 이러한 작업을 수행하려면 다음 관리자 역할이 있어야 합니다.
 
 - 규정 준수 관리자
 - 전역 관리자

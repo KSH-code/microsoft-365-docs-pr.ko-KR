@@ -2,8 +2,8 @@
 title: 앱 위협 탐지 및 수정 시작
 f1.keywords:
 - NOCSH
-ms.author: v-tophillips
-author: v-tophillips
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 위협 탐지 및 수정을 시작합니다.
-ms.openlocfilehash: 7309fba4bbc74736386c6ab384d1cffd8c152b81
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 11084e54706f0c83faadf58048c205ba6ffee83e
+ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623063"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53541240"
 ---
 # <a name="get-started-with-app-threat-detection-and-remediation"></a>앱 위협 탐지 및 수정 시작
 

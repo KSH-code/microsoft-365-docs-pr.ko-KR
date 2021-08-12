@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8d2798dd4f578218f4f4d24f1f2e582f04df596b
-ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
+ms.openlocfilehash: b671810bce375bfe2574315ea83cd3f939f025fa
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53588009"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567923"
 ---
 # <a name="report-and-troubleshoot-microsoft-defender-for-atp-asr-rules"></a>ATP ASR 규칙에 대한 Microsoft Defender 보고 및 문제 해결
 
@@ -32,14 +32,13 @@ ms.locfileid: "53588009"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Microsoft 365 보안 센터는 Microsoft ID, 데이터, 장치, 앱 및 인프라 전체의 보안을 모니터링하고 관리하기 위한 새로운 인터페이스입니다. Microsoft 365 보안 센터를 통해 조직의 보안 상태를 쉽게 검토할 수 있으며 디바이스, 사용자 및 앱을 구성하는 작업을 비롯하여 의심스러운 활동에 대해 알림을 받을 수 있습니다. Microsoft 365 보안 센터는 보안 관리자와 보안 운영 팀이 조직을 더 효과적으로 관리하고 보호하는 데 도움을 줄 수 있도록 설계되었습니다. 의 Microsoft 365 보안 센터를 <https://security.microsoft.com> 방문합니다.
-
+Microsoft 365 보안 센터는 Microsoft ID, 데이터, 장치, 앱 및 인프라 전체의 보안을 모니터링하고 관리하기 위한 새로운 인터페이스입니다. Microsoft 365 보안 센터를 통해 조직의 보안 상태를 쉽게 검토할 수 있으며 디바이스, 사용자 및 앱을 구성하는 작업을 비롯하여 의심스러운 활동에 대해 알림을 받을 수 있습니다. Microsoft 365 보안 센터는 보안 관리자와 보안 운영 팀이 조직을 더 효과적으로 관리하고 보호하는 데 도움을 줄 수 있도록 설계되었습니다. 의 Microsoft 365 보안 센터를 https://security.microsoft.com 방문합니다.
 Microsoft 365 센터에서 현재 ASR 규칙 구성 및 자산의 이벤트를 전체적으로 살펴 볼 수 있습니다. 이러한 보고서를 채우기 위해 디바이스를 끝점용 Microsoft Defender 서비스에 온보딩해야 합니다.
-다음은 Microsoft 365 보안 센터의 스크린샷입니다(보고서  장치 공격 표면 \>  \> **감소).** 장치 수준에서 공격 **표면** 감소 규칙 창에서 **구성을** 선택합니다. 다음 화면이 표시되어 특정 장치를 선택하고 개별 ASR 규칙 구성을 확인할 수 있습니다.
+다음은 Microsoft 365 보안 센터의 스크린샷입니다(보고서 장치 공격 표면  >    >  **감소).** 장치 수준에서 공격 **표면** 감소 규칙 창에서 **구성을** 선택합니다. 다음 화면이 표시되어 특정 장치를 선택하고 개별 ASR 규칙 구성을 확인할 수 있습니다.
 
 :::image type="content" source="images/asrrulesnew.png" lightbox="images/asrrulesnew.png" alt-text="ASR 규칙 화면":::
 
-## <a name="microsoft-defender-for-endpoint---advanced-hunting"></a>끝점용 Microsoft Defender - 고급 헌팅
+## <a name="microsoft-defender-for-endpoint--advanced-hunting"></a>끝점용 Microsoft Defender – 고급 헌팅
 
 끝점용 Microsoft Defender의 가장 강력한 기능 중 하나는 고급 헌팅입니다. 고급 헌팅에 익숙하지 않은 경우 고급 헌팅을 통해 위협에 대한 사전 예방적 헌팅을 [참조합니다.](advanced-hunting-overview.md)
 
@@ -70,9 +69,7 @@ ASR 규칙 이벤트는 디바이스의 고급 헌팅 섹션에 있는 DeviceEve
 다음은 ASR 규칙의 영향 및 작동 문제를 해결하기 위해 Windows 정보를 제공하는 몇 가지 다른 소스입니다.
 
 ### <a name="querying-which-rules-are-active"></a>활성 상태인 규칙 쿼리
-
 ASR 규칙이 이미 활성화되어 있는지 확인하는 가장 쉬운 방법 중 하나는 PowerShell cmdlet인 Get-MpPreference를 사용하는 것입니다.
-
 다음은 예입니다.
 
 :::image type="content" source="images/getmpreferencescriptnew.png" lightbox="images/getmpreferencescriptnew.png" alt-text="mppreference 스크립트를 얻습니다.":::
@@ -83,24 +80,19 @@ ASR 규칙에 대한 위의 정보를 확장하기 위해 및/또는 에 대한 
 
 예제:
 
-```powershell
-Get-MPPreference | Select-Object -ExpandProperty**AttackSurfaceReductionRules_Ids
-```
+*Get-MPPreference | Select-Object -ExpandProperty**AttackSurfaceReductionRules_Ids*
 
 :::image type="content" source="images/getmpref-examplenew.png" alt-text="mpreference 예제를 얻습니다.":::
 
 위에는 0(구성되지 않은)의 설정이 있는 ASR 규칙의 모든 ID가 표시됩니다.
 
-다음 단계에서는 각 규칙이 구성된 실제 작업(차단 또는 감사)을 나열합니다.
+다음 단계에서는 각 규칙이 구성된 실제 작업(차단 또는 감사)을 나열합니다. 
 
-```powershell
-Get-MPPreference | Select-Object -ExpandProperty**AttackSurfaceReductionRules_Actions
-```
+*Get-MPPreference | Select-Object -ExpandProperty**AttackSurfaceReductionRules_Actions*
 
 :::image type="content" source="images/getmpref-example2new.png" alt-text="get mppreference example2":::
 
 ### <a name="querying-blocking-and-auditing-events"></a>쿼리 차단 및 감사 이벤트
-
 ASR 규칙 이벤트는 로그 내에서 볼 Windows Defender 있습니다.
 
 액세스하려면 이벤트 뷰어를 Windows 열고 응용 프로그램 및 서비스 로그 Microsoft Windows Windows Defender  >    >    >    >  **를 탐색합니다.**
@@ -108,7 +100,6 @@ ASR 규칙 이벤트는 로그 내에서 볼 Windows Defender 있습니다.
 :::image type="content" source="images/eventviewerscrnew.png" lightbox="images/eventviewerscrnew.png" alt-text="이벤트 뷰어 스크러":::
 
 ## <a name="microsoft-defender-malware-protection-logs"></a>Microsoft Defender 맬웨어 보호 로그
-
 또한 이라는 전용 명령줄 Microsoft Defender 바이러스 백신 통해 규칙 이벤트를 볼 수도 있습니다. 이 도구를 사용하여 필요한 경우 작업을 관리 및 구성하고 `*mpcmdrun.exe*` 자동화할 수 있습니다.
 
 이 유틸리티는 *%ProgramFiles%\Windows Defender\MpCmdRun.exe.* 관리자 권한 명령 프롬프트(즉, 관리자 권한으로 실행)에서 실행해야 합니다.
@@ -121,6 +112,6 @@ ASR 규칙 이벤트는 로그 내에서 볼 Windows Defender 있습니다.
 
 가장 관련성이 높은 파일은 다음과 같습니다.
 
-- **MPOperationalEvents.txt**: 이 파일에는 이벤트 뷰어에서 찾은 동일한 수준의 정보가 Windows Defender 로그에 포함되어 있습니다.
-- **MPRegistry.txt:** 이 파일에서 지원 로그가 캡처된 Windows Defender 모든 현재 구성을 분석할 수 있습니다.
-- **MPLog.txt**: 이 로그에는 로그의 모든 작업/작업에 대한 자세한 정보가 Windows Defender.
+- **MPOperationalEvents.txt** - 이 파일에는 작업 로그에 대한 이벤트 뷰어에 Windows Defender 수준이 포함되어 있습니다.
+- **MPRegistry.txt** – 이 파일에서 지원 로그가 캡처된 Windows Defender 현재 모든 구성을 분석할 수 있습니다.
+- **MPLog.txt** - 이 로그에는 로그의 모든 작업/작업에 대한 자세한 정보가 Windows Defender.

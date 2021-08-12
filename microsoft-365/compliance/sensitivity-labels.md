@@ -27,7 +27,7 @@ ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/04/2021
-ms.locfileid: "53757193"
+ms.locfileid: "53726252"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 

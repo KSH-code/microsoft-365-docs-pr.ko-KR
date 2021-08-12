@@ -29,7 +29,7 @@ ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/04/2021
-ms.locfileid: "53757069"
+ms.locfileid: "53726227"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 및 IP 주소 범위
 

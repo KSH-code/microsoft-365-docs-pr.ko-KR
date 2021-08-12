@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b6830c77a0c5cc93ea202844a8793c5f69f07650
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 303391a5ed9368e94fe744cf405e2502af0e6ec6
+ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028526"
+ms.lasthandoff: 07/28/2021
+ms.locfileid: "53622739"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>인시던트 Microsoft 365 Defender
 
@@ -80,7 +80,7 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
   인시던트 및 해당 정보와 관련된 모든 경고입니다.
 
-- 디바이스
+- 장치
 
   인시던트의 일부로 식별되거나 인시던트와 관련된 모든 장치입니다.
 
@@ -194,6 +194,8 @@ Microsoft 제품 전반의 SecOps에 대한 자세한 내용은 다음 리소스
   - [인시던트](manage-incidents.md)관리 워크플로에 따라 태그 및 설명을 변경, 할당, 분류 및 추가하는 인시던트 관리 를 관리합니다.
 
   - [인시던트 조사를](investigate-incidents.md) 수행합니다.
+
+- SOC(보안 Microsoft 365 Defender 센터)에 통합하는 방법을 [참조합니다.](integrate-microsoft-365-defender-secops.md)
 
 - [피싱,](/security/compass/incident-response-playbooks) 암호 분사 및 앱 동의 부여 공격에 대한 자세한 지침은 다음 인시던트 대응 플레이북을 참조하세요.
 
