@@ -21,12 +21,12 @@ ms.collection:
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: 관리자는 조직 외부의 사용자와 공유되는 리소스를 식별하기 위해 Microsoft 365 감사 로그에서 공유 감사를 사용하는 방법을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 302ad7665c83ee9061b2e1965ef03ec25d0aab58
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: e77d02351763caee74137108a8d4f7b6a6f7bd3dd59abc8ce312a9290e6a7789
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53801488"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>감사 로그에서 공유 감사 사용
 
@@ -100,7 +100,7 @@ ms.locfileid: "53341511"
 
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
-3. 창의 왼쪽 창에서 Microsoft 365 규정 준수 센터 **를 클릭합니다.**
+3. Microsoft 365 준수 센터의 왼쪽 창에서 **감사** 를 클릭합니다.
 
     **감사** 페이지가 표시됩니다.
 

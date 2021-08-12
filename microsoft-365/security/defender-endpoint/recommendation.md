@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 62db58a58aeb400ddd02fa094cb0962e870bd8d9
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 9361e791eafad1a3d7243a0d11821c9286c5e3bebf64f878af1e72cda6bfa952
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53656298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53829114"
 ---
 # <a name="recommendation-resource-type"></a>권장 리소스 유형
 

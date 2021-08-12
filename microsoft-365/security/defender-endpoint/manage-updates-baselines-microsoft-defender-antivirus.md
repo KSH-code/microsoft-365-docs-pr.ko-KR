@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 07/12/2021
-ms.openlocfilehash: 1b773549909f376a67e0dc407d35ed4a6152ada8
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.date: 08/04/2021
+ms.openlocfilehash: d90ae4b8281015c675535f483b23e5c027e6918abc57627e8da3440db9b03064
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53800093"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -82,6 +82,23 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 - 통합 개선(클라우드, [](/microsoft-365/security/defender/microsoft-365-defender)Microsoft 365 Defender).
 <br/>
 <details>
+<summary> 2021년 7월(플랫폼: 4.18.2107.4 | 엔진: 1.1.18400.x)</summary>
+
+&ensp;보안 인텔리전스 업데이트 버전: **x.xxx.xx.x**  
+&ensp;릴리스: **날짜, 2021**  
+&ensp;플랫폼: **4.18.2107.4**  
+&ensp;엔진: **1.1.18400.x**  
+&ensp;지원 단계: **보안 및 중요 업데이트**
+    
+### <a name="whats-new"></a>새로운 기능
+- 휴대용 장치에 대한 장치 Windows 지원 추가
+- 잠재적으로 원치 않는 응용 프로그램(PUA) 보호는 소비자에 대해 기본적으로 켜져 있습니다(잠재적으로 원치 않는 앱이 기본적으로 [차단됩니다 참조).](https://support.microsoft.com/windows/potentially-unwanted-apps-will-be-blocked-by-default-b9f53cb9-7f1e-40bb-8c6b-a17e0ab6289e)
+- 그룹 정책 개체 관리 시스템에 대한 예약된 검사는 사용자가 구성한 검사 시간을 준수합니다. 
+
+### <a name="known-issues"></a>알려진 문제
+알려진 문제 없음  
+<br/>
+</details><details>
 <summary> 2021년 6월(플랫폼: 4.18.2106.5 | 엔진: 1.1.18300.4)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.343.17.0**  
@@ -115,13 +132,18 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음  
 <br/>
-</details><details>
+</details>
+
+### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
+
+새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다. 
+<details>
 <summary> 2021년 4월(플랫폼: 4.18.2104.14 | 엔진: 1.1.18100.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.337.2.0**  
 &ensp;릴리스: **2021년 4월 26일(엔진:**  1.1.18100.6 릴리스 2021년 5월 5일) &ensp; 플랫폼: **4.18.2104.14**  
 &ensp;엔진: **1.1.18100.5**  
-&ensp;지원 단계: **보안 및 중요 업데이트**
+&ensp;지원 단계: **기술 업그레이드 지원(전용)**
     
 ### <a name="whats-new"></a>새로운 기능
 - 추가 동작 모니터링 논리
@@ -132,12 +154,7 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음  
 <br/>
-</details>
-
-### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
-
-새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다. 
-<details>
+</details><details>
 <summary> 2021년 3월(플랫폼: 4.18.2103.7 | 엔진: 1.1.18000.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.335.36.0**  

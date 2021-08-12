@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: 이 문서에서는 감사 로그 레코드에 대한 결과를 내보낼 때 포함된 추가 Office 365 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69a34f4de948bc9533ef2872d94171134e50ffea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a3641b40b76c2839f5cd29c22c28dfb5652ce42515d4e0ffe7e3edce0dcd3a7f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53808143"
 ---
 # <a name="detailed-properties-in-the-audit-log"></a>감사 로그의 자세한 속성
 
@@ -89,7 +89,7 @@ ms.locfileid: "50927076"
 |UserKey|**UserID** 속성에 식별된 사용자의 대체 ID입니다. 예를 들어 이 속성은 사용자가 이 속성에 있는 사용자가 수행한 이벤트에 대한 PASSPORT PUID(고유 ID)로 SharePoint. 또한 이 속성은 시스템 계정이 수행한 다른 서비스 및 이벤트에서 발생하는 이벤트에 대한 **UserID** 속성과 동일한 값을 지정할 수도 있습니다.|모두|
 |UserSharedWith|리소스를 공유한 사용자입니다. Operation 속성 값이 **SharingSet인** 경우 이 **속성이 포함됩니다.** 이 사용자는 보고서의 **공유한** 항목 열에도 나열됩니다.|SharePoint|
 |UserType|작업을 수행한 사용자 유형입니다. 다음 값은 사용자 유형을 나타냅니다. <br/> <br/> **0** - 일반 사용자. <br/>**2** - 조직에 있는 Microsoft 365. <sup>1</sup> <br/>**3** - Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정. <br/>**4** - 시스템 계정. <br/>**5** - 응용 프로그램. <br/>**6** - 서비스 보안 주체.<br/>**7** - 사용자 지정 정책.<br/>**8** - 시스템 정책.|모두|
-|Version|기록된 활동의 버전 **번호(Operation** 속성으로 식별)를 나타냅니다.|모두|
+|버전|기록된 활동의 버전 **번호(Operation** 속성으로 식별)를 나타냅니다.|모두|
 |워크로드|활동이 Microsoft 365 서비스입니다.|모두|
 ||||
 

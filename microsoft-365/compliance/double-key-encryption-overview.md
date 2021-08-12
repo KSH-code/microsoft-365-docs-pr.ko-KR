@@ -12,12 +12,12 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: ed07361f8c433a318342ae3c8ad750549992c285
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: df6d0e98eae9c66d1fc366014f94ff6aeb479e4b36a7f0825982872ce416b6f4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53842306"
 ---
 # <a name="double-key-encryption-frequently-asked-questions"></a>이중 키 암호화 자주 묻는 질문
 
@@ -65,7 +65,7 @@ DKE는 서비스에서 해당 환경에 대한 액세스 권한이 필요하기 
 
 ## <a name="what-regions-and-languages-is-double-key-encryption-available-in-is-double-key-encryption-available-worldwide"></a>이중 키 암호화를 사용할 수 있는 지역 및 언어는 무엇입니까? 이중 키 암호화는 전 세계에 사용 가능합니까?
 
-DKE 레이블은 Microsoft Information Protection의 다른 민감도 레이블과 동일한 언어로 지역화됩니다. 이중 키 암호화는 전 세계적으로 사용할 수 있습니다.
+DKE 레이블은 다른 민감도 레이블과 동일한 언어로 지역화되어 Microsoft Information Protection. 이중 키 암호화는 전 세계적으로 사용할 수 있습니다.
 
 ## <a name="can-i-convert-a-non-dke-label-to-a-dke-label"></a>DKE가 아닌 레이블을 DKE 레이블로 변환할 수 있나요?
 

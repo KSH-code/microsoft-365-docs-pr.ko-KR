@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dce9f77e7c45aba8a49322348d0cb16d9a7e48f72c9972b973589b01d2b4a10c
-ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
+ms.openlocfilehash: 01f9e286c785defa2cc182685be300e695ee181ea9f51de71c821b2290a665ab
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54520738"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53829041"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -84,10 +84,6 @@ ms.locfileid: "54520738"
 ## <a name="collect-investigation-package-from-devices"></a>장치에서 조사 패키지 수집
 
 조사 또는 응답 프로세스의 일부로 장치에서 조사 패키지를 수집할 수 있습니다. 조사 패키지를 수집하면 장치의 현재 상태를 식별하고 공격자가 사용하는 도구와 기술을 추가로 이해할 수 있습니다.
-
-> [!IMPORTANT]
->
-> - 이러한 응답 작업은 버전 1703 이상의 Windows 10 장치에만 사용할 수 있습니다.
 
 패키지(Zip 파일)를 다운로드하고 장치에서 발생한 이벤트를 조사하려면
 

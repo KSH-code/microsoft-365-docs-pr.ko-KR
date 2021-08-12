@@ -17,12 +17,12 @@ ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 Windows 준수 센터에서 콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정하려면 로컬 컴퓨터의 & 편집합니다.
-ms.openlocfilehash: 0eaf9c9d1f70e03481b00d38d2e487709329c4cd
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 6424f1763a297cd2fee0e6c8b5b1b06236b95ad0173bc6e117bedd2da5502ed9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817857"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53807999"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정
 

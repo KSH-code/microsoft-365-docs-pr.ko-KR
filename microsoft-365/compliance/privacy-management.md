@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 개인 정보 관리는 조직에서 저장하는 개인 데이터를 평가하기 위한 솔루션을 Microsoft 365 개인 정보 위험을 식별하고 수정하는 데 도움이 됩니다.
-ms.openlocfilehash: df3fa07271321d6bc1fedb4e0d06b40b3483b238
-ms.sourcegitcommit: 9856f86532bdcf0befbcdbdb7c6dc6bf89fe63b5
+ms.openlocfilehash: f4beecb0c9249c9eba530526e835bd2958be8cfab4c409365dc536f64b1b2caf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53455388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835742"
 ---
 # <a name="microsoft-privacy-management-preview"></a>Microsoft 개인 정보 관리(미리 보기)
 
@@ -69,8 +69,6 @@ Microsoft 365 개인 정보 관리는 다음을 할 수 있는 솔루션을 제�
 EU의 GDPR(일반 데이터 보호 규정)과 같은 특정 개인 정보 규정에 따라 개인은 회사가 수집한 개인 데이터를 검토하거나 관리하기 위한 요청을 할 수 있습니다. 많은 양의 정보를 저장하는 회사에서는 관련 데이터를 찾는 것이 까다로우면 작업이 될 수 있습니다.
 
 개인 정보 보호를 Microsoft 365 권한 요청 솔루션을 통해 이러한 문의를 처리하는 데 도움이 될 수 있습니다. 이 기능은 사용자 지정 문서에 저장한 주체 데이터를 검색하고, Microsoft 365, 적절한 파일을 선택하고, 보고서를 생성하는 데 도움이 될 수 있는 자동화 및 워크플로 기능을 제공합니다. 그에 따라 조직의 다른 전문가와 안전하게 공동 작업을 통해 요청을 완료할 수 있습니다.
-
-이 주체 권한 요청 솔루션은 준수 센터의 원래 DSR(데이터 주체 요청) 솔루션을 넘어서 기능을 제공하며 두 솔루션 간에 워크플로 연결 또는 공유가 없습니다.
 
 자세한 내용은 주체 권한 [요청 관리를 참조합니다.](privacy-management-subject-rights-requests.md)
 

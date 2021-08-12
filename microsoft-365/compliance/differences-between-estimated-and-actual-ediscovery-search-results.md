@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 예상 검색 결과 및 실제 검색 결과가 각기 다른 이유에 대해 이해합니다. 검색에서 eDiscovery 도구를 사용하여 Office 365.
-ms.openlocfilehash: 17a4c2eea9833afa2112fa8ab918dcda074eeb36
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: 70a2f22250010204298bb4e9ea5e4f3833013d04027bbdb4bcb0d25653ca47d4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53808110"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results"></a>예상 및 실제 eDiscovery 검색 결과 차이
 
@@ -33,7 +33,7 @@ ms.locfileid: "52653514"
 - 콘텐츠 검색
 - 핵심 eDiscovery
 
-eDiscovery 검색을 실행하면 사용하는 도구는 검색 조건과 일치하는 예상 항목 수 및 총 크기를 반환합니다. 예를 들어 Microsoft 365 준수 센터에서 검색을 실행하면 선택한 검색의 플라이아웃 페이지에 예상 검색 결과가 표시됩니다.
+eDiscovery 검색을 실행하면 사용하는 도구는 검색 조건과 일치하는 예상 항목 수 및 총 크기를 반환합니다. 예를 들어 검색 창에서 검색을 Microsoft 365 규정 준수 센터 선택한 검색의 플라이아웃 페이지에 예상 검색 결과가 표시됩니다.
   
 ![검색 플라이아웃 페이지에 표시되는 결과 예상](../media/EstimatedSearchResults1.png)
   

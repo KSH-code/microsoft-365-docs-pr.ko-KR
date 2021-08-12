@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관련성 교육 상태 및 관련성 교육의 사례 문제에 대한 결과를 보고 해석하는 방법을 Advanced eDiscovery.
-ms.openlocfilehash: 224337969b5e662d45c5b804fa5a0ee045f4fb84
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+ms.openlocfilehash: f0c0ab94b328a715739c7c8aec32ac041b6dc97f6fd998865a5b2e282bff42eb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49769183"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53801737"
 ---
 # <a name="track-relevance-analysis-in-advanced-ediscovery"></a>Advanced eDiscovery
   

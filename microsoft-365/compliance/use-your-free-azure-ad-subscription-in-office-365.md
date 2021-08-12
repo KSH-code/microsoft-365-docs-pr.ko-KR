@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: 조직의 유료 구독에 포함되어 있는 Azure Active Directory에 액세스하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5bc1c57c0c40df03d27471aafd222908ba9d5887
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6921e0debd1d60fa3b8dafe71a6be161507edbaa9a235d6ae41fcf1eefd1178c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53801465"
 ---
 # <a name="use-your-free-azure-active-directory-subscription"></a>무료 Azure Active Directory 구독 사용하기
 
