@@ -19,12 +19,12 @@ description: Microsoft Defender를 Office 365 Microsoft Defender for Endpoint를
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4ca22633006e047628d5b256bf79c19719da57a3
-ms.sourcegitcommit: b3091791196828883d8284497561027df692d109
+ms.openlocfilehash: 0b9bf8bcd15b52ea94cfc823c04f5501e17c2364e708f6375dd3000a376ed800
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "53664132"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56786553"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 함께 Office 365 Microsoft Defender 사용
 

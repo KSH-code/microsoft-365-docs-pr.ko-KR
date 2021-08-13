@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 배달되지 않는 세부 정보 보고서를 사용하여 조직의 보낸 사람으로부터 배달되지 않는 보고서(NDR 또는 반송 메시지라고도 알려)에서 가장 자주 발생하는 오류 코드를 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01d25f11051606139c2ee8b88cade18963de599d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d2ac4d55557165c3f6cf327bcff529edc3dc16ad1fc08eb2a5a30828b7a57661
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206319"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56786169"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 배달 & 보고서
 

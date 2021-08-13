@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 서비스를 사용하여 하이브리드 작업자를 위한 애플리케이션, 데이터 및 장치를 보호할 수 있습니다.
-ms.openlocfilehash: 30df9210cf1f154551b64451ec4ebd22ffe410a8
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 7c3d57dbe1783ff487ec40fa5deea29899c54f696d6cb653f2f2320a41916aba
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53656058"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53805131"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-hybrid-workers"></a>3단계: 하이브리드 작업자를 위한 보안 및 규정 준수 구현
 

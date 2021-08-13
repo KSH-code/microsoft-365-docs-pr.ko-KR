@@ -1,5 +1,5 @@
 ---
-title: 1단계. MFA를 사용하여 하이브리드 작업자에 대 한 로그인 보안 강화
+title: 1단계.MFA를 사용하여 하이브리드 작업자에 대 한 로그인 보안 강화
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,14 +17,14 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 하이브리드 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: 105c2f7170b4bea648427b0fda57ad081cb99a86
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 19a249e25aaa2db21d8b2dea4b4bdd86e673e4f9761a3adcd530b0a21b5c3bfc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788966"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53805095"
 ---
-# <a name="step-1-increase-sign-in-security-for-hybrid-workers-with-mfa"></a>1단계. MFA를 사용하여 하이브리드 작업자에 대 한 로그인 보안 강화
+# <a name="step-1-increase-sign-in-security-for-hybrid-workers-with-mfa"></a>1단계.MFA를 사용하여 하이브리드 작업자에 대 한 로그인 보안 강화
 
 하이브리드 작업자의 로그인에 대한 보안을 강화하려면 MFA(다단계 인증)를 사용합니다. MFA에서는 사용자 로그인이 사용자 계정 비밀번호 외에 추가 확인을 받아야합니다. 악의적인 사용자가 사용자 계정 암호를 확인하더라도 액세스 권한이 부여되기 전에 스마트폰으로 전송되는 문자 메시지와 같은 추가 확인에 응답 할 수 있어야 합니다.
 

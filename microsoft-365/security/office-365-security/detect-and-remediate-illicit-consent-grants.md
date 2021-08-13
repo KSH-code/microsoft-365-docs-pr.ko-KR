@@ -18,12 +18,12 @@ description: 개인 정보에서 위조 동의 권한 부여 공격을 인식하
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cb3ccfbb921c106b671c4409bb95bd200f0efb55
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 1f2e5139ed9c16026ec49eab9318588b7704a0fb7f690fef5ea6cc4ce3274fde
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56785910"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>위조 동의 권한 부여 감지 및 수정
 
@@ -50,13 +50,13 @@ ms.locfileid: "53083011"
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>이 공격의 신호를 찾는 단계
 
-1. 에서 **Microsoft 365 Defender 포털을** <https://security.microsoft.com> 열고 감사 를 **선택합니다.** 또는 감사 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/auditlogsearch> 사용하세요.
+1. 에서 **Microsoft 365 Defender 포털을** <https://security.microsoft.com> 열고 감사 를 **선택합니다.** 또는 <https://security.microsoft.com/auditlogsearch>에서 **감사** 로 직접 이동하세요.
 
 2. 감사 **페이지에서** 검색 탭이  선택되어 있는지 확인한 후 다음 설정을 구성합니다.
    - **날짜 및 시간 범위**
    - **활동:** 모든 활동에 대한 **결과 표시가 선택되어 있는지** 확인
 
-   완료되면 검색을 **클릭합니다.**
+   마쳤으면 **검색** 을 클릭합니다.
 
 3. 작업 **열을** 클릭하여 결과를 정렬하고 응용 프로그램에 대한 **동의를 검색합니다.**
 

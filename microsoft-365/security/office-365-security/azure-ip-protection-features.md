@@ -19,12 +19,12 @@ ms.custom:
 description: 이 문서에서는 Azure Information Protection의 보호 기능에 롤아웃되는 변경 내용에 대해 설명합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 77d45c8521e67c480b9e5557b05eed8ba5dd2645
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7ec45d7e01c6b0bdb6d49aa5c282189b022d6b2a8a814f38acab750732572d80
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206009"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56785918"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>기존 테넌트에 롤아웃된 Azure Information Protection의 보호 기능
 
@@ -40,7 +40,7 @@ ms.locfileid: "51206009"
 
 2018년 7월 1일부터 Microsoft는 다음 구독 계획 중 하나를 사용하여 모든 조직에 대해 Azure Information Protection의 보호 기능을 사용하도록 설정할 것입니다.
 
-- Office 365 메시지 암호화 E3 및 Office 365 E5, Microsoft E3 및 E5, Office 365 A1, A3 및 A5 및 Office 365 G3 및 G5의 일부로 제공됩니다. Azure Information Protection의 새로운 보호 기능을 받기 위해 추가 라이선스가 필요하지 않습니다.
+- Office 365 메시지 암호화 Office 365 E3 및 E5, Microsoft E3 및 E5, Office 365 A1, A3 및 Office 365 G5, Microsoft E3 및 E5의 일부로 제공됩니다. Azure Information Protection의 새로운 보호 기능을 받기 위해 추가 라이선스가 필요하지 않습니다.
 
 - 또한 Azure Information Protection 계획 1을 다음 계획에 추가하여 새로운 Office 365 메시지 암호화 기능인 Exchange Online Plan 1, Exchange Online Plan 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard 또는 Office 365 Enterprise E1을 수신할 수 있습니다.
 
@@ -95,6 +95,6 @@ Office 365 메시지 암호화 Azure Information Protection의 보호 기능을 
 
 이 기능을 사용하도록 설정하면 옵트아웃(opt out)하지 않은 경우 [Microsoft Ignite 2017에서](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Email-Encryption-and-Rights-Protection/ba-p/110801) Office 365 메시지 암호화 새로운 버전의 Office 365 메시지 암호화 Azure Information Protection의 암호화 및 보호 기능을 활용할 수 있습니다.
 
-![웹에서 OME로 보호된 메시지를 Outlook 스크린샷.](../../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
+![OME로 보호된 메시지를 보여 주며 웹용 Outlook.](../../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
 
 새로운 기능 향상에 대한 자세한 내용은 [Office 365 메시지 암호화.](../../compliance/ome.md)

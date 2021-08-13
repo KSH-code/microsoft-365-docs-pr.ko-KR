@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 4a1c391e-524f-48e0-bef8-185df3a9634b
 description: 서비스 이름, 설명, 위치, 기간 및 가격을 비롯한 서비스 제품 정보를 입력하기 위한 지침입니다. 서비스를 제공할 자격이 있는 직원에 태그를 지정할 수도 있습니다.
-ms.openlocfilehash: 095188546c01149a793a478a3cbd5ac9fbeb5524
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 8a287e08a64fd2f7ca94e83f7b99c277f9e0124673697b202eda9ad86b0ff9e4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53804029"
 ---
 # <a name="define-your-service-offerings-in-bookings"></a>Bookings에서 서비스 제품 정의
 
@@ -98,13 +98,13 @@ Microsoft Bookings에서 서비스 서비스를 정의할 때 서비스 이름, 
 
         :::image type="content" source="media/bookings-additional-info.jpg" alt-text="Bookings 전자 메일의 추가 정보":::
 
-14. **고객에 대해 문자 메시지 알림 사용** 선택한 SMS 메시지가 고객에게 전송되지만 옵트인(opt in)하는 경우만 고객에게 전송됩니다.
+14. **고객에 대해 문자 메시지 알림 사용** 이 옵션을 선택하면 SMS 메시지가 고객에게 전송되지만 옵트인(opt in)하는 경우만 고객에게 전송됩니다.
 
     - 수동 예약 및 예약 페이지의 옵트인 Self-Service:
 
         :::image type="content" source="media/bookings-opt-In-boc.jpg" alt-text="Bookings의 옵트인 상자":::
 
-    - 문자 메시지 알림은 다음과 같이 표시됩니다(SMS 알림은 현재 북미에서만 사용할 수 있습니다.
+    - 문자 메시지 알림은 다음과 같습니다(SMS 알림은 현재 북미에서만 사용할 수 있습니다).
 
         :::image type="content" source="media/bookings-text-notifications.jpg" alt-text="Bookings의 텍스트 알림":::
 

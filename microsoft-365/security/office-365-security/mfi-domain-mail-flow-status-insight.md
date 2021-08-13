@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 최상위 도메인 메일 흐름 상태 정보를 사용하여 MX 레코드와 & 메일 흐름 문제를 해결하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 850e72fa0ad7a3f41450a1d0a2c02dd3df4a0cb5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e0258aeb57f9821091f29f884a42266da47e63dee4adf44a99b3f22154549d19
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56786310"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 메일 흐름 상태 정보
 

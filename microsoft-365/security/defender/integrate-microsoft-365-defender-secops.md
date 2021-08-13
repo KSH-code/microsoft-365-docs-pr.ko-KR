@@ -1,5 +1,5 @@
 ---
-title: 보안 작업에 Microsoft 365 Defender 통합 소개
+title: 보안 Microsoft 365 Defender 통합
 description: 보안 작업에 Microsoft 365 Defender 통합의 기본
 keywords: 인시던트, 경고, 조사, 상관 관계, 공격, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, microsoft, m365, 인시던트 대응, 사이버 공격, 보안 작업, soc
 search.product: eADQiWindows 10XVcnh
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 131c0350f27e961e5a98ed94e50d122d346eb1e3
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 8bf84ca58f2a2f263558b89d699184c4b47225c292dc6f17cdfb9fff12d63683
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623861"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523528"
 ---
-# <a name="introduction-to-integrating-microsoft-365-defender-into-your-security-operations"></a>보안 작업에 Microsoft 365 Defender 통합 소개
+# <a name="integrating-microsoft-365-defender-into-your-security-operations"></a>보안 Microsoft 365 Defender 통합
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

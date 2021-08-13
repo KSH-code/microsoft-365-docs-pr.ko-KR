@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f5c7bc0a7378225d027e42ddfc1d08f946ad5046
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 7b2a03cac1f81af4d55f3eb1d79de114abe9599094dbbf484c44dc204f0e8290
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53595777"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523432"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법
 
@@ -66,7 +66,6 @@ Endpoint 고급 헌팅 쿼리에 대한 Defender의 예는 Microsoft [Defender f
 |[일치하는 장치 인스턴스 ID를 사용하여 특별히 승인된 주변 장치의 설치 및 사용 허용](#allow-installation-and-usage-of-specifically-approved-peripherals-with-matching-device-instance-ids)|이러한 장치 인스턴스 ID 중 하나와 일치하는 승인된 주변 장치만 설치하고 사용할 수 있습니다.|
 |[일치하는 장치 인스턴스 ID를 사용하여 특별히 금지된 주변 장치의 설치 및 사용 방지](#prevent-installation-and-usage-of-specifically-prohibited-peripherals-with-matching-device-instance-ids)|이러한 장치 인스턴스와 일치하는 금지된 주변 장치를 설치하거나 사용할 수 없습니다.|
 |[서비스를 사용하는 서비스를 Bluetooth](#limit-services-that-use-bluetooth)|이러한 서비스를 사용할 수 있는 서비스를 제한할 수 Bluetooth.|
-|[끝점 기준 설정에 Microsoft Defender 사용](#use-microsoft-defender-for-endpoint-baseline-settings)|끝점용 Defender 보안 기준을 사용하여 ATP에 대한 권장 구성을 설정할 수 있습니다.|
 |
 
 ### <a name="restrict-usb-drives-and-other-peripherals"></a>USB 드라이브 및 기타 주변 장치 제한
@@ -118,7 +117,7 @@ USB 드라이브 및 기타 주변 장치 설치 및 사용을 허용하는 한 
 
 장치 ID를 찾으면 장치 ID [찾기를 참조하세요.](#look-up-device-id) 
 
-예를 들면 다음과 같습니다.
+예:
 
 1. 이러한 장치 설정과 일치하는 드라이버를 사용하여 디바이스 설치 허용에서 클래스 USBDevice를 **제거합니다.**
 2. 이러한 장치 ID와 일치하는 장치의 설치 허용에서 허용할 장치 **ID를 추가합니다.** 
@@ -238,12 +237,6 @@ Intune을 사용하여 "허용된 서비스" 를 통해 Bluetooth 수 있는 Blu
 > [!div class="mx-imgBorder"]
 > ![Bluetooth 설정 페이지의 스크린샷](images/bluetooth.png)
 
-### <a name="use-microsoft-defender-for-endpoint-baseline-settings"></a>끝점 기준 설정에 Microsoft Defender 사용
-
-끝점 기준 설정에 대한 Microsoft Defender는 위협 방지를 위한 권장 구성을 표현합니다. 기준에 대한 구성 설정은 구성 설정의 프로필 편집 페이지에 있습니다.
-
-> [!div class="mx-imgBorder"]
-> ![MEM의 기준](images/baselines.png)
 
 ## <a name="prevent-threats-from-removable-storage"></a>이동식 저장소의 위협 방지
   

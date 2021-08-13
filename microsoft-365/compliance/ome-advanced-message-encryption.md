@@ -9,19 +9,19 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 10/16/2019
+ms.date: 08/11/2021
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 search.appverid:
 - MET150
 description: 고급 메시지 암호화는 관리자가 보호된 메시지로 더 많은 작업을 할 수 있도록 하여 조직이 규정 준수 의무를 충족하는 데 도움이 됩니다.
-ms.openlocfilehash: d1021d4d424a1ecb984bfd5afa176e9ae3a3451c006df0dd307a5b59d9e4d0e7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dbd19c2028a3453d43dc2ce9082955a5ec1165db
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813658"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243937"
 ---
 # <a name="advanced-message-encryption"></a>고급 메시지 암호화
 
@@ -39,10 +39,10 @@ Office 365 고급 메시지 암호화 [Microsoft 365 Enterprise E5,](https://www
 
 아직 설정하지 Office 365 메시지 암호화 경우 [Set up new Office 365 메시지 암호화 capabilities을 참조합니다.](set-up-new-message-encryption-capabilities.md)
 
-고급 메시지 암호화를 사용하는 경우 단일 브랜드 템플릿으로 제한되지 않습니다. 대신 여러 브랜드 템플릿을 만들고 사용할 수 있습니다. 자세한 내용은 암호화된 메시지에 조직의 브랜드 [추가를 참조하세요.](add-your-organization-brand-to-encrypted-messages.md)
+고급 메시지 암호화를 사용하면 단일 브랜드 템플릿으로 제한되지 않습니다. 대신 여러 브랜드 템플릿을 만들고 사용할 수 있습니다. 자세한 내용은 암호화된 메시지에 조직의 브랜드 [추가를 참조하세요.](add-your-organization-brand-to-encrypted-messages.md) 사용자 지정 브랜드를 사용하는 경우 외부 받는 사람은 OME 포털에 대한 링크가 포함된 알림 전자 메일을 받게 됩니다. 메일 흐름 규칙은 알림 전자 메일 및 OME 포털에서 사용할 브랜드 템플릿을 결정합니다. 이렇게 하면 보안 콘텐츠가 조직 외부로 전송되지 않습니다.
+
+사용자는 포털을 통해 받는 메시지에만 메시지를 해지하고 만료 날짜를 적용할 수 있습니다. 즉, 사용자 지정 브랜징 템플릿이 적용된 전자 메일입니다. 자세한 정보 및 예제는 모든 외부 받는 사람이 OME 포털을 사용하여 암호화된 메일을 [읽는지 확인의 지침을 참조하세요.](manage-office-365-message-encryption.md#ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail)
 
 [에서 암호화된 전자 메일의 만료 날짜를 Office 365 고급 메시지 암호화.](ome-advanced-expiration.md) 보안 웹 포털을 통해 암호화된 전자 메일에 대한 액세스를 만료하여 보호를 강화하는 자동 정책으로 조직 외부에서 공유되는 중요한 전자 메일을 제어합니다.
 
 [에서 암호화된](revoke-ome-encrypted-mail.md)전자 메일을 Office 365 고급 메시지 암호화. 보안 웹 포털을 통해 암호화된 전자 메일에 대한 액세스를 해지하여 조직 외부에서 공유되는 중요한 전자 메일을 제어하고 보호를 강화합니다.  
-
-사용자 Office 365 고급 메시지 암호화 적용할 때 언제든지 Microsoft는 템플릿을 적용하는 메일 흐름 규칙에 맞는 전자 메일에 래퍼를 적용합니다. 사용자는 포털을 통해 받는 메시지에만 메시지를 해지하고 만료 날짜를 적용할 수 있습니다. 즉, 사용자 지정 브랜징 템플릿이 적용된 전자 메일입니다. 자세한 정보 및 예제는 모든 외부 받는 사람이 OME 포털을 사용하여 암호화된 메일을 [읽는지 확인의 지침을 참조하세요.](manage-office-365-message-encryption.md#ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail)

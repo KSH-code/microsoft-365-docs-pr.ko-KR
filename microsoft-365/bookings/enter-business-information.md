@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 828a17db-956a-401e-bb62-d153b6dffd53
 description: 다음 지침에 따라 Microsoft Bookings의 회사 이름, 주소, 전화 번호, 웹 사이트 URL, 로고 및 업무 시간을 포함하여 Microsoft 내 정보를 만들 수 있습니다.
-ms.openlocfilehash: 0424794d4627d7c6770f86f32d81d4653f889163
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: fae790405d6691d35f5c0bfe806b6d7d46c3b555ecfd14660d3fb89b34b3efe8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803851"
 ---
 # <a name="enter-your-business-information"></a>비즈니스 정보 입력
 

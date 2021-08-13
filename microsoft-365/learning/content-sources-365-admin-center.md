@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본을 Microsoft 365 관리 센터
+title: 웹 에지에서 Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 Microsoft 365 관리 센터
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -14,15 +14,15 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
 localization_priority: None
-description: Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본을 구성하는 방법을 Microsoft 365 관리 센터.
-ms.openlocfilehash: ac9ec6196f758d3ed02d3a102fef80b8a7adeeaa
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+description: 앱의 미리 보기(미리 보기)에 Microsoft Viva Learning 학습 콘텐츠 원본을 구성하는 Microsoft 365 관리 센터.
+ms.openlocfilehash: f7a712d2b7d4fa2635a27f4d1e36893c75c6f9b120503efba676bdd37e0ab1d8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53891240"
 ---
-# <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본을 Microsoft 365 관리 센터
+# <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>웹 에지에서 Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 Microsoft 365 관리 센터
 
 > [!NOTE]
 > 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 
@@ -115,4 +115,4 @@ Microsoft가 아닌 서비스의 라이선스, 서비스 또는 개인 정보 �
 
 ## <a name="next-step"></a>다음 단계
 
-[Microsoft viva SharePoint 학습 콘텐츠 원본으로 구성(미리 보기) Learning 구성](configure-sharepoint-content-source.md)
+[SharePoint 학습 콘텐츠 원본으로 구성(Microsoft Viva Learning)](configure-sharepoint-content-source.md)
