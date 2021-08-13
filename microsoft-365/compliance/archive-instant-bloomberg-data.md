@@ -15,16 +15,16 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 관리자가 데이터 커넥터를 설정하고 사용하여 Instant Bloomberg 채팅 도구에서 데이터 원본으로 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: 791b87b6512aa385a8cdcbf7465d01461ce1e649
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: f1851c23f8011e0caa98c52861cd686f12832a112c62353f18076d35671a8cf3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53808769"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Instant Bloomberg 데이터를 보관할 커넥터 설정
 
-규정 준수 센터의 기본 커넥터를 Microsoft 365 [Bloomberg](https://www.bloomberg.com/professional/product/collaboration/) 공동 작업 도구에서 금융 서비스 채팅 데이터를 가져오고 보관합니다. 커넥터를 설정하고 구성한 후 커넥터는 매일 조직의 Bloomberg SFTP(Secure FTP 사이트)에 연결하고 채팅 메시지의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 조직의 사서함으로 Microsoft 365.
+인스턴트 블룸버그 공동 작업 Microsoft 365 규정 준수 센터 금융 서비스 채팅 데이터를 가져오고 보관할 수 있는 기본 [커넥터를](https://www.bloomberg.com/professional/product/collaboration/) 사용합니다. 커넥터를 설정하고 구성한 후 커넥터는 매일 조직의 Bloomberg SFTP(Secure FTP 사이트)에 연결하고 채팅 메시지의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 조직의 사서함으로 Microsoft 365.
 
 Instant Bloomberg 데이터가 사용자 사서함에 저장되고 나면 소송 보존, Microsoft 365 검색, In-Place 보관, 감사, 통신 준수 및 Microsoft 365 보존 정책과 같은 Microsoft 365 준수 기능을 Instant Bloomberg 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용하여 Instant Bloomberg 채팅 메시지를 검색하거나 Instant Bloomberg 데이터가 포함된 사서함을 특정 사례의 보위원과 Advanced eDiscovery 있습니다. Instant Bloomberg 커넥터를 사용하여 조직의 데이터를 가져오고 보관하는 Microsoft 365 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
@@ -38,7 +38,7 @@ Instant Bloomberg 데이터가 사용자 사서함에 저장되고 나면 소송
 
 2. 24시간마다 Instant Bloomberg의 채팅 메시지가 Bloomberg SFTP 사이트에 복사됩니다.
 
-3. Microsoft 365 준수 센터에서 만든 Instant Bloomberg 커넥터는 매일 Bloomberg SFTP 사이트에 연결하고 지난 24시간 동안의 채팅 메시지를 Microsoft 클라우드의 보안 Azure Storage 영역으로 전송합니다. 또한 커넥터는 채팅 내용을 전자 메일 메시지 형식으로 변환합니다.
+3. Microsoft 365 규정 준수 센터 만든 Instant Bloomberg 커넥터는 매일 Bloomberg SFTP 사이트에 연결하고 지난 24시간 동안의 채팅 메시지를 Microsoft 클라우드의 보안 Azure Storage 영역으로 전송합니다. 또한 커넥터는 채팅 내용을 전자 메일 메시지 형식으로 변환합니다.
 
 4. 커넥터는 채팅 메시지 항목을 특정 사용자의 사서함으로 가져올 수 있습니다. InstantBloomberg라는 새 폴더가 특정 사용자의 사서함에 만들어지며 항목이 해당 폴더로 가져오기됩니다. 이 커넥터는 *CorporateEmailAddress* 속성 값을 사용하여 이 기능을 실행합니다. 모든 채팅 메시지에는 채팅 메시지의 모든 참가자의 전자 메일 주소로 채워지는 이 속성이 포함되어 있습니다. *CorporateEmailAddress* 속성 값을 사용하는 자동 사용자 매핑 외에도 CSV 매핑 파일을 업로드하여 사용자 지정 매핑을 정의할 수도 있습니다. 이 매핑 파일에는 Bloomberg UUID 및 각 사용자에 대한 Microsoft 365 사서함 주소가 포함되어야 합니다. 자동 사용자 매핑을 사용하도록 설정하고 사용자 지정 매핑을 제공하는 경우 커넥터가 모든 채팅 항목에 대해 먼저 사용자 지정 매핑 파일을 봐야 합니다. 사용자의 Bloomberg UUID에 해당하는 유효한 Microsoft 365 사용자가 없는 경우 커넥터는 채팅 항목의 *CorporateEmailAddress* 속성을 사용됩니다. 커넥터가 사용자 지정 매핑 파일 또는 채팅 항목의 *CorporateEmailAddress* 속성에서 유효한 Microsoft 365 사용자를 찾지 못하면 항목을 가져오지 않습니다.
 
@@ -72,7 +72,7 @@ Instant Bloomberg 데이터를 보관하는 데 필요한 일부 구현 단계�
 
 - Instant Bloomberg 커넥터는 하루 총 200,000개 항목을 가져올 수 있습니다. SFTP 사이트에 200,000개가 넘는 항목이 있는 경우 해당 항목을 가져오지 Microsoft 365.
 
-- 3단계에서 Instant Bloomberg 커넥터를 만들고 1단계에서 공개 키 및 IP 주소를 다운로드하는 사용자에게는 3단계에서 사서함 가져오기 내보내기 역할이 할당되어야 Exchange Online. 준수 센터의 데이터 커넥터  페이지에서 커넥터를 추가하려면 Microsoft 365 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
+- 3단계에서 Instant Bloomberg 커넥터를 만들고 1단계에서 공개 키 및 IP 주소를 다운로드하는 사용자에게는 3단계에서 사서함 가져오기 내보내기 역할이 할당되어야 Exchange Online. 이 연결은 서버의 데이터  커넥터 페이지에서 커넥터를 추가하는 Microsoft 365 규정 준수 센터. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
 
 ## <a name="set-up-a-connector-using-public-keys"></a>공개 키를 사용하여 커넥터 설정
 
@@ -117,7 +117,7 @@ Instant Bloomberg 데이터를 보관하는 데 필요한 일부 구현 단계�
 
 ### <a name="step-3-create-an-instant-bloomberg-connector"></a>3단계: Instant Bloomberg 커넥터 만들기
 
-마지막 단계는 준수 센터에서 Instant Bloomberg 커넥터를 Microsoft 365 것입니다. 커넥터는 사용자가 제공한 정보를 사용하여 Bloomberg SFTP 사이트에 연결하고 채팅 메시지를 웹 사이트의 해당 사용자 사서함 상자로 Microsoft 365.
+마지막 단계는 2단계에서 Instant Bloomberg 커넥터를 Microsoft 365 규정 준수 센터. 커넥터는 사용자가 제공한 정보를 사용하여 Bloomberg SFTP 사이트에 연결하고 채팅 메시지를 웹 사이트의 해당 사용자 사서함 상자로 Microsoft 365.
 
 1. 으로 <https://compliance.microsoft.com> 이동한 다음 **데이터** 커넥터  >  **Instant Bloomberg를 클릭합니다.**
 
@@ -179,7 +179,7 @@ Bloomberg 고객 지원과 함께 이 IP 주소의 연결 요청을 수락하도
 
 ### <a name="step-2-create-an-instant-bloomberg-connector"></a>2단계: Instant Bloomberg 커넥터 만들기
 
-Bloomberg SFTP 사이트를 구성한 후 다음 단계는 준수 센터에서 Instant Bloomberg 커넥터를 Microsoft 365 것입니다. 커넥터는 사용자가 제공한 정보를 사용하여 Bloomberg SFTP 사이트에 연결하고 전자 메일 메시지를 사용자의 해당 사용자 사서함 상자로 Microsoft 365. 이 단계를 완료하기 위해 Bloomberg SFTP 사이트를 설정하는 데 사용한 동일한 개인 키 및 키 암호의 복사본이 있는지 확인해야 합니다.
+Bloomberg SFTP 사이트를 구성한 후 다음 단계는 웹 사이트에서 Instant Bloomberg 커넥터를 Microsoft 365 규정 준수 센터. 커넥터는 사용자가 제공한 정보를 사용하여 Bloomberg SFTP 사이트에 연결하고 전자 메일 메시지를 사용자의 해당 사용자 사서함 상자로 Microsoft 365. 이 단계를 완료하기 위해 Bloomberg SFTP 사이트를 설정하는 데 사용한 동일한 개인 키 및 키 암호의 복사본이 있는지 확인해야 합니다.
 
 1. 으로 <https://compliance.microsoft.com> 이동하여 왼쪽 **nav에서 데이터** 커넥터를 클릭합니다.
 

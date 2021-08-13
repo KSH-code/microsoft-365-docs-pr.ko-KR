@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: 교육용 가격 책정에 대한 학교의 자격을 Microsoft 365 Education 방법을 참조합니다.
 ms.date: 07/21/2020
-ms.openlocfilehash: 7da6fbc73ece51c5d9b845487e344bbbdec679cf
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: b861092b0168fa83a8bac423caa3e29621837bc1f08d5af95502cde94c97ff4a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53808851"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>교육용 구독에 대한 Microsoft 365 Education 자격 확인
 
@@ -41,7 +41,7 @@ ms.locfileid: "52333089"
 
 평가판 구독이 있는지 확실하지 Microsoft 365 Education 다음 단계에 따라 수행하고 있는지 확인해야 합니다.
 
-1. Microsoft 365 관리 센터에서 청구 제품  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">페이지로</a> 이동합니다.
+1. In the Microsoft 365 관리 센터, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
 2. **교직원용 Office 365 A1 평가판** 및 Office 365 A1 **평가판을 찾아 봐야 합니다.** 이러한 구독을 찾지 못하면 이 웹 페이지를 방문하여 무료로 **시작을 선택합니다.** [](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1)
 
 ## <a name="verify-your-schools-academic-eligibility"></a>학교의 교육 자격 확인
@@ -59,7 +59,7 @@ ms.locfileid: "52333089"
 
 시험을 Microsoft 365 Education 학교의 교육 자격 상태를 확인할 수 있습니다.
 
-1. Microsoft 365 [관리 센터로 이동하세요.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
+1. 으로 [이동하여 Microsoft 365 관리 센터.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
 2. 홈 페이지에서 청구 카드를  찾으십시오.\
     청구 **카드는** 확인 프로세스의 상태를 나타냅니다. 이 카드에는 승인됨, 보류 중, 거부 또는 도메인 추가 중 하나의 상태가 표시됩니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "52333089"
 
 학교 자격을 확인한 후 교육용 가격으로 구독을 구입할 수 있습니다. 무료 평가판을 유료 [구독으로 변환할 수도 있습니다.](../try-or-buy-microsoft-365.md) 평가판 구독을 변환하려면 평가 기간이 끝나기 전에 전환해야 합니다.
 
-1. Microsoft 365 관리 센터에서 청구 구매  서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
+1. 서비스 Microsoft 365 관리 센터 청구 구매  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">서비스 페이지로</a> 이동합니다.
 2. 교육용 제품은 교육 **탭을 선택합니다.**
 
     > [!NOTE]
@@ -83,7 +83,7 @@ ms.locfileid: "52333089"
 
 무료 평가판 구독의 만료 날짜는 **제품 페이지에서 확인할 수** 있습니다. 평가판을 연장할 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 청구 제품  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">페이지로</a> 이동합니다.
+1. In the Microsoft 365 관리 센터, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
 2. 평가판 구독을 검색합니다.
 3. 청구 **섹션의** 무료 평가판 구독 **아래에** 만료 날짜가 표시됩니다.
 4. 평가판을 확장하려면 평가판 **연장 을 선택합니다.** 무료 평가판 구독당 한 번만 이 작업을 할 수 있습니다.
@@ -101,7 +101,7 @@ ms.locfileid: "52333089"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [MICROSOFT 365 EDUCATION 관리자용](/education/itadmins) 설명서(문서 링크)\
-[Microsoft Teams for Education(제품](https://microsoft.com/education/products/teams/default.aspx) 페이지)\
+[교육용 Microsoft Teams(제품](https://microsoft.com/education/products/teams/default.aspx) 페이지)\
 [비즈니스용 Microsoft 365](../licenses/subscriptions-and-licenses.md) 구독 및 라이선스 이해(문서)\
 [사용자에게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md)(문서)\
 [구독 라이선스 구입 또는](../licenses/buy-licenses.md) 제거(문서)\

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 Slack DataParser 커넥터를 설정하고 사용하여 Slack 데이터를 가져오고 보관하는 방법을 Microsoft 365.
-ms.openlocfilehash: 66c1db3f37512ec6988fc9385f50b2df1dc6d8ed
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: bffa5c769cedc61f1447a08fecc3290f8c1d45d6374fe4192ed59a615aef4119
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53808662"
 ---
 # <a name="set-up-a-connector-to-archive-slack-data"></a>Slack 데이터를 보관할 커넥터 설정
 

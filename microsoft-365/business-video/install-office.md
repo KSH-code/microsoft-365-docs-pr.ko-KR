@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 앱 설치 방법을 Microsoft Office 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 3626b21a3c98fba1830350568440467869577ccb
-ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.openlocfilehash: 6a19c10036ab7a941ed0e9683fb1307b0037209ee21a95ef56adc5bd7ac1a72c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52464372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53856610"
 ---
 # <a name="install-office-apps"></a>Office 앱 설치 
 
@@ -47,7 +47,7 @@ Microsoft Office 시작 메뉴에서 앱을 찾을 **수** 있습니다. If you 
 
 [콘텐츠 마이그레이션을](/sharepointmigration/migrate-to-sharepoint-online.md) Microsoft 365(문서)
 
-[휴대폰에 Microsoft 365 관리 모바일](admin-mobile.md) 앱 설치(동영상)
+[휴대폰에 Microsoft 365 관리 앱](admin-mobile.md) 설치(동영상)
 
 [중소기업에서 Microsoft Teams](get-started-teams-small-business.md) 시작(동영상)
 

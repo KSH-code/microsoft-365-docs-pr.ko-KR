@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365
-ms.openlocfilehash: 9bd762f60dac6e9a0cf88890c5cf5bfd313733ac
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: 0164d7f5017ebf3b2076bf7231da4ca30a36427500c6782602e6e50812f914df
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567791"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53817009"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Microsoft Defender for Office 365 평가판
 
@@ -103,7 +103,7 @@ Office 365 평가판의 Defender는 특정 기준(지리 포함)을 충족하고
 - [안전한 첨부 파일](safe-attachments.md)
 - [안전한 링크](safe-links.md)
 
-### <a name="detection"></a>감지
+### <a name="detection"></a>탐지
 
 업계를 선도하는 AI는 악성 및 의심스러운 콘텐츠를 감지하고 공격 패턴을 상관하여 보호를 피하도록 설계된 캠페인을 식별합니다.
 

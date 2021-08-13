@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: VDI(가상 데스크톱 인프라) 장치에 구성 패키지를 배포하여 끝점 데이터 손실 방지 서비스에 Microsoft 365 배포합니다.
-ms.openlocfilehash: 1e4987ba2d261c715395ed1869f597da91b5cfed
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: d86046f474ce0afe3a21354bd36f9ed433b627384aec314f129702bc43480b4d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53807987"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-devices"></a>비영구적 가상 데스크톱 인프라 장치 온보드
 

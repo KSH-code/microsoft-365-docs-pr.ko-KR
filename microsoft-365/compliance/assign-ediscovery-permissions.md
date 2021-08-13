@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: eDiscovery 관련 작업을 수행하는 데 필요한 사용 권한을 Microsoft 365 규정 준수 센터.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 06e75a18c338d2634ae3be93514ee518d9e91860
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 080514ba2d802ca0aa3438e00966cc84df59f32149ff9392a180344949d9ec26
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194676"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53808459"
 ---
 # <a name="assign-ediscovery-permissions-in-the-microsoft-365-compliance-center"></a>전자 메일 그룹에 eDiscovery 권한 Microsoft 365 규정 준수 센터
 
@@ -77,11 +77,11 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 다음 표에는 Microsoft 365 규정 준수 센터 eDiscovery 관련 RBAC 역할이 나열되어 있으며 각 역할이 기본적으로 할당되는 기본 제공 역할 그룹을 나타냅니다.
   
-| 역할 | 준수 관리자 | eDiscovery 관리자 & 관리자 | 조직 관리 | Reviewer |
+| 역할 | 규정 준수 관리자 | eDiscovery 관리자 & 관리자 | 조직 관리 | Reviewer |
 |:-----|:-----:|:-----:|:-----:|:-----:|
 |사례 관리 <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
 |커뮤니케이션 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
-|규격 검색 <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
+|준수 검색 <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
 |Custodian <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
 |내보내기 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
 |Hold <br/>  |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
@@ -97,7 +97,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 이 역할을 통해 사용자는 이 역할에서 Core eDiscovery 및 핵심 eDiscovery 및 Advanced eDiscovery 사례에 대한 액세스를 Microsoft 365 규정 준수 센터. 앞서 설명한처럼 **Add-eDiscoveryCaseAdmin** cmdlet을 사용하여 사용자를 eDiscovery 관리자로 지정하려면 먼저 사용자에게 사례 관리 역할을 할당해야 합니다.
 
-자세한 내용은 다음을 참조하세요.
+자세한 내용은 다음 항목을 참조하세요.
 
 - [핵심 eDiscovery 시작](get-started-core-ediscovery.md)
 
@@ -109,7 +109,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 자세한 내용은 [Work with communications in Advanced eDiscovery.](managing-custodian-communications.md)
 
-### <a name="compliance-search"></a>규격 검색
+### <a name="compliance-search"></a>준수 검색
 
 이 역할을 통해 사용자는 Microsoft 365 규정 준수 센터 콘텐츠 검색 도구를 실행하여 사서함 및 공용 폴더, SharePoint Online 사이트, 비즈니스용 OneDrive 사이트, 비즈니스용 Skype 대화, Microsoft 365 그룹 및 Microsoft Teams 및 Yammer 그룹을 검색할 수 있습니다. 이 역할을 사용하면 검색 결과를 예상하고 내보내기 보고서를 만들 수 있지만 검색 결과 미리 보기, 내보내기 또는 삭제와 같은 콘텐츠 검색 작업을 시작하는 데는 다른 역할이 필요합니다.
 

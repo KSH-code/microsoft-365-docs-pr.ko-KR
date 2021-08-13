@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f7c2ff2-af65-4557-8840-0b84ce96d9bc
 description: 메시지 센터 게시물은 영어로만 표시되지만 메시지 센터에 대해 지정한 언어로 자동으로 Microsoft 365.
-ms.openlocfilehash: feec4a0a48960303ac0c2231b43e125caa901283
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: ab0819b22e6f046af401ced778a8f9c06f43e4569f42f0ca7caef62130a154a3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393106"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53825334"
 ---
 # <a name="language-translation-for-message-center-posts"></a>메시지 센터 게시물에 대한 언어 번역
 

@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business Premium 앱 및 사이버 위협에 대한 고급 보호를 포함하는 Office 서비스에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 96b915924013c29c8f30dd22c85ed389cb66a772
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 3c90cec65147e448ea01884f03d80c7f3c116ba938ba0a8106211806ed4baa53
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53856520"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 개요
 
