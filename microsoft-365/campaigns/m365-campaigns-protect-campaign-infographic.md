@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 디지털 공격으로부터 캠페인을 보호하기 위해 할 수 있는 일
-ms.openlocfilehash: ab03e3f8e093855c3c41f461469724c4ecd3b1dd
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: a2658c17a14bef436b83d4f19305a3d7f75373bfae44d03e7ae4d609f4ac102d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53802952"
 ---
 # <a name="infographic-help-protect-yourself-and-your-campaign-from-digital-threats"></a>정보 그래픽: 디지털 위협으로부터 자신과 캠페인 보호
 

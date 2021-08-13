@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d46a2ff2b1faa7360c27ca8c4571bd55e72ede1e93a8bf62dbc24d9f0ea08050
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2981138d6bf8d5bd3fa49120e3469fe29301ef6fbe8bba074ed83495044ef562
+ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834436"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57834742"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Android의 끝점용 Microsoft Defender 문제 해결
 
@@ -101,3 +101,25 @@ Xiaomi 장치 권한: "백그라운드에서 실행되는 동안 팝업 창 표�
 Xiaomi 디바이스에 대해 필요한 권한을 사용하도록 설정
 
 - 백그라운드에서 실행되는 동안 팝업 창을 표시합니다.
+
+
+## <a name="unable-to-allow-permission-for-permanent-protection-during-onboarding-on-some-oem-devices"></a>일부 OEM 장치에서 온보드하는 동안 '영구 보호'에 대한 사용 권한을 허용할 수 없습니다.
+
+**다음에 적용됩니다.** 특정 OEM 장치만 해당합니다.
+
+-   **Xiaomi with Android 11** 
+
+Defender 앱은 앱 온보딩의 일부로 디바이스에 배터리 최적화/영구 보호  권한을 요청하고 허용을 선택하면 권한을 설정할 수 없는 오류가 반환됩니다. "영구 보호"라는 마지막 권한에만 영향을 미치게 됩니다. 
+ 
+**원인:** Xiomi는 Android 11에서 배터리 최적화 권한을 변경했습니다. Defender는 배터리 최적화를 무시하도록 이 설정을 구성할 수 없습니다.
+
+**해결 방법:** OEM과 협력하여 앱 온보더링 화면에서 이 권한을 사용하도록 설정하는 솔루션을 찾고 있습니다. 이 문제가 해결되면 설명서를 업데이트할 것입니다.
+사용자는 다음 단계에 따라 장치 설정에서 동일한 사용 권한을 사용하도록 설정할 수 있습니다. 
+
+1. 디바이스에서 **설정** 로 이동하세요.
+2. 배터리 **최적화를 검색하고 선택합니다.**
+3. 특수 **앱 액세스에서** 배터리 **최적화를 선택합니다.**
+4. 드롭다운을 변경하여 모든 **앱을 표시하세요.**
+5. "Microsoft Defender 끝점"을 찾은 다음 **최적화 안 를 선택합니다.**
+
+Microsoft Defender 끝점 온보딩 화면으로 돌아가서 허용 을 선택하면 대시보드 화면으로 리디렉션됩니다.

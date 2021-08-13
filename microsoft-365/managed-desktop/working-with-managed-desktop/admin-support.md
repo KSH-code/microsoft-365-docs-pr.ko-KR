@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 041f493e81a38b09fd064eaac866af74913e0b5c9986dd6e752eec80ba86a9e8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b72218f1174eb06a99b5cc0fbb4788b40c867038fd5edfb3f76632b072ed3f73
+ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794621"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57803479"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 관리자 지원
 
@@ -23,17 +23,17 @@ ms.locfileid: "53794621"
 ## <a name="open-a-new-support-request"></a>새 지원 요청 만들기
 
 1. 로그인하여 [](https://endpoint.microsoft.com/) Microsoft Endpoint Manager 테넌트 관리 **메뉴로** 이동합니다.
-2. Microsoft Managed Desktop 찾아 서비스 요청을 **선택합니다.**
-3. 지원 **요청에서**+ 새 지원 **티켓을 선택합니다.**
-4. 필요한 **도움말과** 일치하는 지원 요청 유형을 선택합니다. 다음 표에는 옵션에 대한 간략한 설명이 나와 있습니다.
-5. 심각도 **수준을 선택합니다.** 자세한 내용은 지원 요청 [심각도 정의를 참조하세요.](#sev)
+2. 서비스 Microsoft Managed Desktop 찾아 서비스 요청을 **선택합니다.**
+3. 서비스 **요청 블레이드에서** **+ 새 지원 요청을 선택합니다.**
+4. 필요한 **도움말과** 일치하는 요청 유형을 선택합니다. 다음 표에는 옵션에 대한 간략한 설명이 나와 있습니다.
+5. 심각도 **수준을** 선택합니다. 자세한 내용은 지원 요청 [심각도 정의를 참조하세요.](#sev)
 6. 팀이 신속하게 응답할 수 있도록 요청에 대한 정보를 최대한 많이 제공합니다. 요청 유형에 따라 다른 세부 정보를 제공해야 할 수 있습니다.
 7. 정확성을 위해 제공한 모든 정보를 검토합니다.
 8. 준비가 되었으면 **만들기** 를 선택합니다.
 
 지원 요청 유형|사용해야 하는 경우
 ---|---
-인시던트|예를 들어 Microsoft Managed Desktop 서비스 작동 팀이 조사해야 합니다. 예를 들어 변경이나 서비스 작동이 에 대한 광범위한 영향을 조사해야 합니다.
+인시던트|예를 들어 Microsoft Managed Desktop 서비스 작동이 정전될 경우 사용자 문제를 조사해야 합니다.
 정보 요청|네트워킹, 프록시 구성, VPN 시스템, 인증서 만료에 대한 변경을 계획 중이거나 서비스에 대한 몇 가지 정보만 필요합니다. 조직 내에서 Microsoft Managed Desktop 통신할 때 조직 운영 팀의 응답을 요청하는 것이 좋습니다.
 변경 요청|장치 Microsoft Managed Desktop 그룹 간에 장치를 이동하는 등의 변경 작업을 수행하려면 작업 팀이 필요합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "53794621"
 
 기본 사례 연락처를 업데이트하는 등 사례의 세부 정보를 편집해야 하는 경우 다음 단계를 따라야 합니다.
 
-1. 서비스 **요청** 블레이드의  테넌트 관리 [](https://endpoint.microsoft.com/)Microsoft Endpoint Manager 검색 창 또는 필터를 사용하여 편집할 사례를 찾을 수 있습니다.
+1. 서비스 **요청** 블레이드의 테넌트 관리 메뉴에서 Microsoft Endpoint Manager 검색 표시줄 또는 필터를 사용하여 편집할 사례를 찾을 수 있습니다.  [](https://endpoint.microsoft.com/)
 2. 사례를 선택하여 요청 세부 정보 열기
 3. 요청 세부 정보 아래쪽으로 스크롤하고 편집 을 **선택합니다.**
 4. 편집 가능한 정보를 업데이트하거나, 사례에 첨부 파일을 추가하거나, 서비스 엔지니어링 팀에 대한 메모를 추가한 다음 저장을 **선택합니다.**

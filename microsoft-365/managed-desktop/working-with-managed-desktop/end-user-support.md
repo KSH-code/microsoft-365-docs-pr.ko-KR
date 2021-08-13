@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 237c6e944669a2041a46465296af71f14851598351f51738d7f3c7f096414247
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9314b1b99afeed1738d03a5f11c513166c37dfa002784b21d3c3b461183b0077
+ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800669"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57803431"
 ---
 # <a name="getting-help-for-users"></a>사용자를 위한 도움말
 
@@ -51,8 +51,10 @@ Microsoft에 대한 상승된 장치 [](../service-description/user-support.md) 
 3. 다음 세부 정보를 제공합니다.
     - **자체 지원 티켓** 시스템에서 티켓 ID를 지원합니다.
     - **장치 이름:** 장치 일련 번호를 입력한 다음 메뉴에서 장치를 선택합니다.
-    - **범주:** 문제와 가장 잘 맞는 범주를 선택합니다. 옵션이 닫히는 것  같은 경우 기타를  선택하고 제목 및 작업 계획 **필드에** 추가 정보를 제공합니다. 가능한 경우 범주를 선택하는 것이 가장 좋습니다.
-    - **하위 목록**: 이슈에 가장 잘 맞는 하위 목록 선택 옵션이 닫히는 것  같은 경우 기타를 선택하고 제목에 간단한 설명을 **제공합니다.** 작업 **계획에서** 권한 상승이 부여된 후 수행하기로 계획한 문제 해결 단계를 제공하세요.
+    - **범주:** 문제와 가장 잘 맞는 범주를 선택합니다. 옵션이 닫히는 것 같은 경우 기타 를 **선택합니다.** 가능한 경우 범주를 선택하는 것이 가장 좋습니다.
+    - **하위 목록**: 이슈에 가장 잘 맞는 하위 목록 선택 옵션이 닫히는 것 같은 경우 기타 를 **선택합니다.**
+    - **제목:** 장치에서 문제의 간단한 설명을 제공합니다.
+    - **작업 계획:** 권한 상승이 부여된 후 수행하기로 계획한 문제 해결 단계를 제공하세요. 
 4. **전송** 을 선택합니다.
 
 

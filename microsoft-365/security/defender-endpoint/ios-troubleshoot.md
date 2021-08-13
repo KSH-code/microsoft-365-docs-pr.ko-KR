@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a6af6569358f9f08efb0895a9e82dfbdae28c6b627c8c6ff2d7d08927d8d1619
-ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
+ms.openlocfilehash: 71ae504caa9cea6b7fe2d10437271140986f9f38e1760b81a9019e3bd22ddaba
+ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "57834574"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57803443"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender에서 문제를 해결하고 FAQ에 대한 답변 찾기
 
@@ -96,9 +96,6 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 ## <a name="device-not-seen-on-the-defender-for-endpoint-console-after-onboarding"></a>온보딩 후 끝점용 Defender 콘솔에 디바이스가 볼 수 없습니다.
 
 온보딩한 후 장치가 Endpoint용 Defender 보안 콘솔의 장치 인벤토리에 표시하는 데 몇 시간이 소요됩니다. 또한 장치가 인터넷에 연결되는 Azure Active Directory 올바르게 등록되어 있는지 확인합니다. 성공적인 온보드를 위해 디바이스는 Microsoft Authenticator 또는 Intune 회사 포털 등록해야 합니다. 사용자는 Azure AD에 등록된 동일한 계정을 사용하여 로그인해야 합니다.
-
-> [!NOTE]
-> 경우에 따라 장치 이름이 Intune(Intune) 콘솔에서 Microsoft Endpoint Manager 일치하지 않는 경우도 있습니다. Endpoint 콘솔용 Defender의 장치 이름은 <username_iPhone/iPad 모델>. Azure AD 장치 ID를 사용하여 끝점용 Defender 콘솔에서 디바이스를 식별할 수 있습니다.
 
 ## <a name="data-and-privacy"></a>데이터 및 개인 정보
 

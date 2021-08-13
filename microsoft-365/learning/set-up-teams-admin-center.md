@@ -1,5 +1,5 @@
 ---
-title: Learning 관리 센터에서 Microsoft Viva Learning(미리 Teams 보기) 설정
+title: Microsoft Viva Learning 관리 센터에서 Teams(미리 보기) 설정
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -14,15 +14,15 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
 localization_priority: None
-description: Learning 관리 센터에서 Microsoft Viva Learning(미리 보기)를 구성하는 Teams 대해 자세히 알아보도록 합니다.
-ms.openlocfilehash: 99e63210e8f8c10e3721c35fb69df7880c7e1929
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+description: Microsoft Viva Learning 관리 센터에서 Microsoft Viva Learning(미리 보기)를 구성하는 Teams 대해 자세히 알아보도록 합니다.
+ms.openlocfilehash: 01c3ac59b1f40ba0eb743a4b14bd9c02711cb050724057544a2d6238696015ab
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53290222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53891156"
 ---
-# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Learning 관리 센터에서 Microsoft Viva Learning(미리 Teams 보기) 설정
+# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Microsoft Viva Learning 관리 센터에서 Teams(미리 보기) 설정
 
 > [!NOTE]
 > 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 

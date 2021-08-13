@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 관리자가 Microsoft 365 관리 센터에서 비즈니스, 학교 또는 비영리 단체에 대한 암호 만료 정책을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 64a17053ad8bc018935f99ee375e3a7164dff711
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: e33ab836f914f799db4279990f3263120a1f602d94dbc5af9bf796212d7b9cd7
+ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53392470"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57834524"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
@@ -61,6 +61,9 @@ ms.locfileid: "53392470"
 5. 암호가 만료되는 빈도를 입력합니다. 14에서 730 사이의 일수를 선택합니다.
   
 6. 두 번째 상자에 사용자가 암호가 만료된다는 알림을 받는 시기를 입력한 다음 **저장** 을 클릭합니다. 1에서 30 사이의 일수를 선택합니다.
+
+> [!NOTE]
+> 암호 만료 알림은 더 이상 Office 365 포털 또는 Outlook을 제외한 모든 Office 앱에서 지원되지 않습니다.
   
 ## <a name="important-things-you-need-to-know-about-the-password-expiration-feature"></a>암호 만료 기능에 대해 알아야 할 중요 사항
   

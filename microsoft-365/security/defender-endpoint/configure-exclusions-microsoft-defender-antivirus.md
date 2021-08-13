@@ -15,17 +15,14 @@ manager: dansimp
 ms.technology: mde
 ms.audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: c6daa760dcec7c170cba15619eea380b6a1b882ff5baa7c3fc74c2b88f90ee62
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6f3c44ba70debfdf4ecebb089f2015214e92f4b2cef037da5bdf5f7ad0e99c40
+ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854138"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57803635"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-antivirus-scans"></a>검사에 대한 제외 Microsoft Defender 바이러스 백신 유효성 검사
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -50,15 +47,15 @@ ms.locfileid: "53854138"
 
 제외를 정의할 때 다음에 유의해야 합니다.  
 
-- 제외는 기술적으로 보호 간격입니다. 제외를 정의할 때 항상 완화를 고려합니다. 다른 완화는 제외된 위치에 적절한 ACL(액세스 제어 목록), 감사 정책, 최신 소프트웨어 등을 통해 처리하도록 하는 것만큼 간단할 수 있습니다.
+- 제외는 기술적으로 보호 간격입니다. 제외를 정의할 때 모든 옵션을 고려하세요. 다른 옵션은 제외된 위치에 적절한 ACL(액세스 제어 목록)이 있는지 확인하거나 처음에 정책을 감사 모드로 설정하는 것만큼 간단할 수 있습니다.
 
 - 제외를 주기적으로 검토합니다. 검토 프로세스의 일부로 완화를 다시 검토하고 다시 적용합니다.
 
-- 사전 예방적이면 제외를 정의하지 않는 것이 가장 이상적입니다. 예를 들어 향후에는 문제가 될 수 있기 때문에 제외하지 말아야 합니다. 제외를 완화할 수 있는 성능 또는 응용 프로그램 호환성과 관련한 문제와 같은 특정 문제에만 제외를 사용하십시오.
+- 예방적 노력으로 제외를 정의하는 것이 가장 이상적입니다. 예를 들어 향후 문제가 될 수 있는 것으로 생각하기 때문에 제외하지 말아야 합니다. 제외를 완화할 수 있는 성능 또는 응용 프로그램 호환성과 관련한 문제와 같은 특정 문제에만 제외를 사용하십시오.
 
-- 제외 목록 변경 내용을 감사합니다. 보안 관리자는 특정 제외가 추가된 이유와 관련한 충분한 컨텍스트를 유지해야 합니다. 특정 경로가 제외된 이유에 대한 특정 이유에 대한 답변을 제공할 수 있습니다.
+- 제외 목록의 변경 내용을 검토하고 감사합니다. 보안 팀은 나중에 혼동을 방지하기 위해 특정 제외가 추가된 이유에 대한 컨텍스트를 보존해야 합니다. 보안 팀은 제외가 존재하는 이유에 대한 질문에 대한 구체적인 답변을 제공할 수 있습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="see-also"></a>참고 항목
 
 - [Microsoft Defender 바이러스 백신 제외 Windows Server 2016](configure-server-exclusions-microsoft-defender-antivirus.md)
 - [제외 정의 시 피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)

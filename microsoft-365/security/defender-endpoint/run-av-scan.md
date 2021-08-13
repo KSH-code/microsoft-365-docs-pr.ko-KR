@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 95e46e4a518a5029760c3e2bdfd37031aff96f1a
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: a8c21b49e4de23b2f8a822eb06a3d172202d3cf4b8b1c38bec6f23bf08e381b7
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53651738"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523324"
 ---
 # <a name="run-antivirus-scan-api"></a>바이러스 백신 검사 실행 API
 
@@ -44,6 +44,11 @@ ms.locfileid: "53651738"
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
 [!include[Device actions note](../../includes/machineactionsnote.md)]
+
+> [!IMPORTANT]
+>
+> - 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
+> - A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
 
 ## <a name="permissions"></a>사용 권한
 

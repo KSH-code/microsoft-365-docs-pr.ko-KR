@@ -15,12 +15,12 @@ ms.reviewer: mkaminska
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 0f471d9ffb559314e1c5d9ea0ee297cdf3e9866d17d87583974438c9bca74c71
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2b2cbfdddce8f26a64b1def5fa89ead6d7fb0557697363f6d285d8ee82ea353f
+ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53799829"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57803419"
 ---
 # <a name="microsoft-defender-antivirus-in-windows"></a>Windows의 Microsoft Defender 바이러스 백신
 
@@ -41,7 +41,7 @@ Windows Defender 바이러스 백신은 엔드포인트용 Microsoft Defender의
 | 모드  | 발생 작업  |
 |---------|---------|
 | 활성 모드 | 활성 모드에서 Microsoft Defender 바이러스 백신은 장치의 기본 바이러스 백신 앱으로 사용됩니다. 파일이 스캔되고, 위협이 수정되고, 검색된 위협이 조직의 보안 보고서 및 Windows 보안 앱에 나열됩니다. |
-| 수동 모드 | 수동 모드에서 Microsoft Defender 바이러스 백신은 장치의 기본 바이러스 백신 앱으로 사용되지 않습니다. 파일이 스캔되고 검색된 위협이 보고되지만 위협이 Microsoft Defender 바이러스 백신에 의해 수정되지는 않습니다.   |
+| 수동 모드 | 수동 모드에서 Microsoft Defender 바이러스 백신은 장치의 기본 바이러스 백신 앱으로 사용되지 않습니다. 파일이 스캔되고 검색된 위협이 보고되지만 위협이 Microsoft Defender 바이러스 백신에 의해 수정되지는 않습니다. <br/><br/>**중요**: Microsoft Defender 바이러스 백신은 엔드포인트용 Microsoft Defender에 온보딩된 엔드포인트에서만 수동 모드로 실행할 수 있습니다. [Microsoft Defender 바이러스 백신을 수동 모드에서 실행하기 위한 요구 사항](microsoft-defender-antivirus-compatibility.md#requirements-for-microsoft-defender-antivirus-to-run-in-passive-mode)을 참조하세요.  |
 | 사용 중지 또는 제거됨  | 사용 중지하거나 제거하면 Microsoft Defender 바이러스 백신이 사용되지 않습니다. 파일이 스캔되지 않으며 위협은 수정되지 않습니다. 일반적으로 Microsoft Defender 바이러스 백신을 사용 중지하거나 제거하는 것은 권장되지 않습니다.  |
 
 자세한 내용은 [Microsoft Defender 바이러스 백신 호환성](microsoft-defender-antivirus-compatibility.md)을 참조하세요.
@@ -69,11 +69,15 @@ Windows Defender 바이러스 백신은 엔드포인트용 Microsoft Defender의
 3. 결과 목록에서 **AMRunningMode** 행을 확인합니다.
 
    - **정상** 은 Microsoft Defender 바이러스 백신이 활성 모드에서 실행 중임을 의미합니다.
-   - **수동 모드** 는 Microsoft Defender 바이러스 백신이 실행 중이지만 장치의 기본 바이러스 백신/맬웨어 방지 제품이 아님을 의미합니다.
-   - **EDR 차단 모드** 는 Microsoft Defender 바이러스 백신이 실행 중이며, "차단 모드의 EDR"이라는 엔드포인트용 Microsoft Defender 기능이 사용됨을 의미합니다. ([차단 모드의 EDR(엔드포인트 감지 및 대응)](edr-in-block-mode.md)을 참조하세요.)
-   - **SxS 수동 모드** 는 Microsoft Defender 바이러스 백신이 다른 바이러스 백신/맬웨어 방지 제품과 함께 수동 모드로 실행 중이며 장치가 엔드포인트용 Microsoft Defender에 온보딩되지 않음을 의미합니다. 이 경우, Microsoft Defender 바이러스 백신에 대해 제한된 주기적 검사가 사용됩니다. 자세한 내용은 [Microsoft Defender 바이러스 백신에서 제한된 주기적 검사 사용](limited-periodic-scanning-microsoft-defender-antivirus.md)을 참조하세요.
 
-Get-MpComputerStatus PowerShell cmdlet에 대한 자세한 내용은 [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus) 참조 문서를 확인하세요.
+   - **수동 모드** 는 Microsoft Defender 바이러스 백신이 실행 중이지만 장치의 기본 바이러스 백신/맬웨어 방지 제품이 아님을 의미합니다. 수동 모드는 엔드포인트용 Microsoft Defender에 온보딩되고 특정 요구 사항을 충족하는 장치에만 사용할 수 있습니다. 자세한 내용을 확인하려면 [Microsoft Defender 바이러스 백신을 수동 모드에서 실행하기 위한 요구 사항](microsoft-defender-antivirus-compatibility.md#requirements-for-microsoft-defender-antivirus-to-run-in-passive-mode)을 참조하세요.
+
+   - **EDR 차단 모드** 는 Microsoft Defender 바이러스 백신이 실행 중이고 엔드포인트용 Microsoft Defender의 기능인 [차단 모드의 EDR(엔드포인트 감지 및 응답)](edr-in-block-mode.md)이 사용되고 있음을 의미합니다.
+
+   - **SxS 수동 모드** 는 Microsoft Defender 바이러스 백신이 다른 바이러스 백신/맬웨어 방지 제품과 함께 실행되고 [제한된 정기 검사가 사용됨](limited-periodic-scanning-microsoft-defender-antivirus.md)을 의미합니다.
+
+> [!TIP]
+> Get-MpComputerStatus PowerShell cmdlet에 대한 자세한 내용은 [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus) 참조 문서를 확인하세요.
 
 ## <a name="get-your-antivirusantimalware-platform-updates"></a>바이러스 백신 및 맬웨어 방지 업데이트 받기
 

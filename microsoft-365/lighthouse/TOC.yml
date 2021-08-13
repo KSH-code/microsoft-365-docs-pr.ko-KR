@@ -30,6 +30,8 @@
   items:
     - name: 장치 준수 페이지 개요
       href: m365-lighthouse-device-compliance-page-overview.md
+    - name: Windows 365(클라우드 PC) 페이지 개요
+      href: m365-lighthouse-win365-page-overview.md
 - name: 위협 관리
   items:
     - name: 위협 관리 페이지 개요

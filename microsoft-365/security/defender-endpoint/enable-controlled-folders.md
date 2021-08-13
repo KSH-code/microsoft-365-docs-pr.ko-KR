@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 36bd812bfe41ca5113fe9ceb5710de3ded15210ca5e4eda4a9065fc1c1a11cdf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bb5efb5bd001a2659b0c3780af5f195b77b3103b2e8a7d0c7d1eee6915a6e303
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794117"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523359"
 ---
 # <a name="enable-controlled-folder-access"></a>제어된 폴더 액세스 사용
 
@@ -36,19 +36,19 @@ ms.locfileid: "53794117"
 
 다음 방법 중 한 가지를 사용하여 제어된 폴더 액세스를 사용하도록 설정할 수 있습니다.
 
-* [Windows 보안 앱](#windows-security-app)
-* [Microsoft Endpoint Manager ](#endpoint-manager)
-* [MDM(모바일 장치 관리)](#mobile-device-management-mdm)
-* [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
-* [그룹 정책](#group-policy)
-* [PowerShell](#powershell)
+- [Windows 보안 앱](#windows-security-app)
+- [Microsoft Endpoint Manager ](#endpoint-manager)
+- [MDM(모바일 장치 관리)](#mobile-device-management-mdm)
+- [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
+- [그룹 정책](#group-policy)
+- [PowerShell](#powershell)
 
 [감사 모드를](evaluate-controlled-folder-access.md) 사용하면 장치의 일반적인 사용에 영향을 주지 않고 기능이 어떻게 작동하고 이벤트를 검토하는지 테스트할 수 있습니다.
 
 로컬 관리자 목록의 선택을 해제하는 그룹 정책 설정은 제어된 폴더 액세스 설정을 다시 지정합니다. 또한 제어된 폴더 액세스를 통해 로컬 관리자가 설정한 보호된 폴더 및 허용된 앱을 어버합니다. 이러한 정책에는 다음이 포함됩니다.
 
-* Microsoft Defender 바이러스 백신 목록에 **대한 로컬 관리자 병합 동작 구성**
-* System Center Endpoint Protection 사용자가 제외 및 오버라이드를 추가할 **수 있도록 허용**
+- Microsoft Defender 바이러스 백신 목록에 **대한 로컬 관리자 병합 동작 구성**
+- System Center Endpoint Protection 사용자가 제외 및 오버라이드를 추가할 **수 있도록 허용**
 
 로컬 목록의 선택을 취소하는 데 대한 자세한 내용은 [사용자가 Microsoft Defender AV](/windows/security/threat-protection/microsoft-defender-antivirus/configure-local-policy-overrides-microsoft-defender-antivirus)정책 설정을 로컬로 수정하지 못하도록 허용을 참조하세요.
 
@@ -119,13 +119,13 @@ ms.locfileid: "53794117"
 3. 제어된 **폴더 액세스 Windows Exploit Guard > Microsoft Defender 바이러스 백신 > Windows Defender 구성 > 확장합니다.**
 
 4. 제어된 폴더 액세스 구성 설정을 **두** 번 클릭하고 옵션을 사용으로 **설정합니다.** 옵션 섹션에서 다음 옵션 중 하나를 지정해야 합니다.
-    * **사용** - 악성 및 의심스러운 앱은 보호된 폴더의 파일을 변경할 수 없습니다. 알림은 이벤트 로그의 Windows 제공됩니다.
-    * **사용 안 하게(기본값)** - 제어된 폴더 액세스 기능이 작동하지 않습니다. 모든 앱은 보호된 폴더의 파일을 변경할 수 있습니다.
-    * **감사 모드** - 악의적 또는 의심스러운 앱이 보호된 폴더의 파일을 변경하려고 하면 변경이 허용됩니다. 그러나 조직에 미치는 영향을 평가할 수 있는 Windows 로그에 기록됩니다.
-    * **디스크 수정만 차단** - 디스크 섹터에 쓰는 것으로 확인되지 않은 앱에서 디스크 섹터에 쓰는 시도는 이벤트 로그에 Windows 기록됩니다. 이러한 로그는 Microsoft  > 작업 ID 1123의 응용 프로그램 > Windows > Windows Defender > 서비스 > 있습니다.
-    * **디스크** 수정만 감사 - 보호된 디스크 섹터에 쓰기 시도만 Windows 이벤트 로그에 기록됩니다(응용 프로그램 및 서비스 로그 Microsoft Windows Windows Defender  >    >    >    >  **작동**  >  **ID 1124).** 보호된 폴더의 파일 수정 또는 삭제 시도는 기록되지 않습니다.
+   - **사용** - 악성 및 의심스러운 앱은 보호된 폴더의 파일을 변경할 수 없습니다. 알림은 이벤트 로그의 Windows 제공됩니다.
+   - **사용 안 하게(기본값)** - 제어된 폴더 액세스 기능이 작동하지 않습니다. 모든 앱은 보호된 폴더의 파일을 변경할 수 있습니다.
+   - **감사 모드** - 악의적 또는 의심스러운 앱이 보호된 폴더의 파일을 변경하려고 하면 변경이 허용됩니다. 그러나 조직에 미치는 영향을 평가할 수 있는 Windows 로그에 기록됩니다.
+   - **디스크 수정만 차단** - 디스크 섹터에 쓰는 것으로 확인되지 않은 앱에서 디스크 섹터에 쓰는 시도는 이벤트 로그에 Windows 기록됩니다. 이러한 로그는 Microsoft  응용 프로그램 및 서비스 로그 Microsoft Windows \> Windows Defender ID \> \> \> \> 1123에서 찾을 수 있습니다.
+   - **디스크** 수정만 감사 - 보호된 디스크 섹터에 쓰기 시도만 Windows 이벤트 로그에 기록됩니다(응용 프로그램 및 서비스 로그 Microsoft Windows Windows Defender  >   \>  \>  \> **작동** \> **ID 1124).** 보호된 폴더의 파일 수정 또는 삭제 시도는 기록되지 않습니다.
 
-      ![드롭다운에서 선택한 그룹 정책 옵션 사용 및 감사 모드 스크린샷](/microsoft-365/security/defender-endpoint/images/cfa-gp-enable)
+      ![드롭다운에서 선택한 그룹 정책 옵션 사용 및 감사 모드 스크린샷](../../media/cfa-gp-enable.png)
 
 > [!IMPORTANT]
 > 제어된 폴더 액세스를 완전히 사용하도록 설정하려면 그룹  정책 옵션을  사용으로 설정하고 옵션 드롭다운 메뉴에서 차단을 선택해야 합니다.
@@ -146,6 +146,6 @@ ms.locfileid: "53794117"
 
 ## <a name="see-also"></a>참고 항목
 
-* [제어된 폴더 액세스를 사용하여 중요한 폴더 보호](controlled-folders.md)
-* [제어된 폴더 액세스 사용자 지정](customize-controlled-folders.md)
-* [엔드포인트용 Microsoft Defender 평가](evaluate-mde.md)
+- [제어된 폴더 액세스를 사용하여 중요한 폴더 보호](controlled-folders.md)
+- [제어된 폴더 액세스 사용자 지정](customize-controlled-folders.md)
+- [엔드포인트용 Microsoft Defender 평가](evaluate-mde.md)

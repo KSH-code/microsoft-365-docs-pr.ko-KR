@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac7b2024f0b93fd16a9e37b9ea64dd7c88405c66
-ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
+ms.openlocfilehash: 9fa41e172f970dcac818d989b60a69bbd2ddbfe1c945eff971a4bfc2cca63d02
+ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53726263"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57834766"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -44,11 +44,16 @@ Windows 컴퓨터에서 이러한 독립 실행형 버전의 Office와 함께 �
 새로운 버전의 Office 앱은 서로 다른 업데이트 채널에 대해 서로 다른 시간에 사용할 수 있습니다. 관심 있는 새 레이블 지정 기능을 테스트할 수 있도록 업데이트 채널을 구성하는 방법을 포함한 자세한 내용은 [ Microsoft 365 앱의 업데이트 채널 개요](/DeployOffice/overview-update-channels)를 참조하세요. 비공개 미리 보기에 있는 새 기능은 표에 포함되지 않지만 [ Microsoft Information Protection 비공개 미리 보기 프로그램 ](https://aka.ms/mip-preview)에 조직을 지정하여 이러한 미리 보기에 참여할 수 있습니다.
 
 > [!NOTE]
-> Office 앱의 업데이트 채널 이름이 최근에 변경되었습니다. 예를 들어 월별 채널은 이제 현재 채널이며 Office 내부자는 베타 채널이 됩니다. 자세한 내용은 [Microsoft 365 앱의 업데이트 채널에 대한 변경 내용](/deployoffice/update-channels-changes)을 참조하세요.
+> Office 앱의 업데이트 채널 이름이 2020년 5월에 변경되었습니다. 예를 들어 월별 채널은 이제 현재 채널이며 Office 내부자는 베타 채널이 됩니다. 자세한 내용은 [Microsoft 365 앱의 업데이트 채널에 대한 변경 내용](/deployoffice/update-channels-changes)을 참조하세요.
 
 iOS 및 Office for Android: 민감도 레이블은 [Office 앱](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/)에 내장되어 있습니다.
 
 Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레이블 지정 클라이언트를 설치할 때 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대한 레이블 지정 클라이언트 비교](/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조하세요.
+
+> [!TIP]
+> 테이블의 최소 버전을 사용 중인 버전과 비교할 때 앞에 오는 0을 생략하는 릴리스 버전의 일반적인 사례를 기억하세요.
+> 
+> 예를 들어 버전 4.2128.0이 있고 4.7.1+가 최소 버전임을 읽습니다. 보다 쉽게 비교하려면 4.7.1(앞에 오는 0 없음)을 4.**0007**.1(4.**7000**.1)로 읽습니다. 4.2128.0 버전이 4.0007.1보다 높으므로 버전이 지원됩니다.
 
 ### <a name="sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Word, Excel 및 PowerPoint의 민감도 레이블 기능
 
@@ -159,7 +164,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트는 Open XML
 
 Office 365 메시지 암호화에 대해 정의하는 경우처럼 [관리자 정의 보호 서식 파일](/azure/information-protection/configure-policy-templates)은 기본 제공 레이블을 사용할 때 Office 앱에 표시되지 않습니다. 이러한 단순화된 환경은 동일한 설정이 암호화를 사용하도록 설정된 민감도 레이블에 포함되어 있기 때문에 보호 템플릿을 선택할 필요가 없음을 나타냅니다.
 
-기존 보호 템플릿을 레이블로 변환해야 하는 경우 Azure portal 및 다음 지침을 사용하여 [서식 파일을 레이블로 변환](/azure/information-protection/configure-policy-templates#to-convert-templates-to-labels)하세요.
+[New-Label](/powershell/module/exchange/new-label) cmdlet을 *EncryptionTemplateId* 매개 변수와 함께 사용할 때 기존 템플릿을 민감도 레이블로 변환할 수 있습니다.
 
 ## <a name="information-rights-management-irm-options-and-sensitivity-labels"></a>IRM(정보 권한 관리) 옵션 및 민감도 레이블
 

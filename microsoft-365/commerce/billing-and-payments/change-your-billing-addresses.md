@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 비즈니스용 앱에 대한 청구 알림을 받는 데 사용되는 청구 주소 또는 전자 메일 주소를 Microsoft 365 방법을 알아보습니다.
 ms.date: 04/07/2021
-ms.openlocfilehash: 383e8febffa2a65e01c1ae0c543d7b984a96eb26
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: eb2b50bb5032b30961a14d38bbdb6c04a04a1105ce7000adde8edc1e10a16cb4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53802937"
 ---
 # <a name="change-your-billing-addresses"></a>대금 청구 주소 변경
 

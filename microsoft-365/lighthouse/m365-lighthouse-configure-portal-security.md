@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 포털을 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 포털 보안을 구성하는 방법을 알아보고,
-ms.openlocfilehash: 1e67903fc6c3dfd4e1949ef8c3e80ad4af12ad5c
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 1d9dd77fb0d8ea21985b430b00c5366d70fadbf6fc047dbd7735883bb2fb77f2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53890998"
 ---
 # <a name="configure-microsoft-365-lighthouse-portal-security"></a>포털 Microsoft 365 Lighthouse 구성
 
@@ -51,7 +51,7 @@ ms.locfileid: "53395381"
 | 홈 | <ul><li> 모두 보기</li></ul> | <ul><li> 모두 보기</li></ul> |
 | 테넌트 | <ul><li> 모두 보기</li><li>고객 연락처 및 웹 사이트 업데이트</li><li>배포 계획 보기 및 적용</li></ul> | <ul><li> 모두 보기</li><li>고객 연락처 및 웹 사이트 업데이트</li><li>배포 계획 보기</li></ul> |
 | 사용자 | <ul><li> 모두 보기</li><li>암호 다시 설정</li><li>로그인 차단</li><li>MFA 설정</li></ul> | <ul><li> 모두 보기</li><li>암호 다시 설정</li><li>로그인 차단</li></ul> |
-| 디바이스 | <ul><li> 모두 보기</li></ul> | <ul><li> 모두 보기</li></ul> |
+| 장치 | <ul><li> 모두 보기</li></ul> | <ul><li> 모두 보기</li></ul> |
 | 위협 | <ul><li> 모두 보기</li><li>빠른 검사 실행</li><li>전체 검사 실행</li><li>장치 다시부팅</li><li>바이러스 백신 업데이트</li></ul> | <ul><li> 모두 보기</li></ul> |
 | 기준 | <ul><li> 모두 보기</li></ul> | <ul><li> 모두 보기</li></ul> |
 | 서비스 상태 | <ul><li>모두 보기*</li></ul> | <ul><li>모두 보기*</li></ul> |

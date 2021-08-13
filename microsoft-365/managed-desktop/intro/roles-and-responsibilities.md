@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7b9efe1a52c108e3de46429d64f9a5535ad13e4e
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: ce61575dac211105b9c07101564a277f03d2398e7467f40ce13ffbeb9beb4a73
+ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362753"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57803407"
 ---
 # <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Microsoft Managed Desktop 역할 및 책임
 
@@ -31,7 +31,7 @@ Microsoft는 다음 주요 역할 및 책임을 제공합니다.
 역할 또는 책임 | 설명
 --- | ---
 MDM 정책 관리 | Microsoft는 모범 사례에 따라 MDM 정책을 적용하고 정책 변경 요청을 고려합니다. 또한 장치 정책 에 설명된 따라 테넌트도 [변경합니다.](../service-description/device-policies.md)
-사용자 지원 | 디바이스에 대한 높은 액세스 및 필요한 경우 에스컬레이터되는 문제에 대한 메커니즘을 제공합니다. 자세한 내용은 사용자 지원을 [참조하세요.](../service-description/user-support.md)
+사용자 지원 | 디바이스에 대한 높은 액세스 및 필요한 경우 지원 요청을 통해 에스컬레이터되는 문제에 대한 메커니즘을 제공합니다. 자세한 내용은 사용자 지원을 [참조하세요.](../service-description/user-support.md)
 Microsoft Managed Desktop 서비스 지원 | Microsoft는 Microsoft Managed Desktop 운영 팀을 통해 IT 부서에 지원을 제공합니다. 이 팀은 고객 환경의 기술 문제 해결, 변경 요청 및 인시던트 관리를 Microsoft Managed Desktop 있습니다. 자세한 내용은 에 대한 관리자 지원을 [Microsoft Managed Desktop.](../working-with-managed-desktop/admin-support.md)
 보안 모니터링 | Microsoft는 끝점용 Microsoft Defender를 사용하여 Microsoft Managed Desktop 장치를 모니터링합니다. SOC(Microsoft Managed Desktop 보안 운영 센터)에서 위협을 감지하는 경우 사용자에게 알리고 장치를 격리하고 문제를 원격으로 해결합니다. 자세한 내용은 보안 을 [참조하세요.](../service-description/security.md)
 모니터링 및 관리 업데이트 | Microsoft는 Microsoft Microsoft Managed Desktop 및 업데이트에 대한 최신 품질 및 기능 업데이트가 설치되도록 Windows Microsoft Office. 자세한 내용은 업데이트 처리 [방법을 참조하세요.](../service-description/updates.md)

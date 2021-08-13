@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: fdfc065aea3549e99de72c968c0fa19412f9e246
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: fe2733a93f39c491d423076bc8f972cf8f6e901f2e8fe53256162360b18d9622
+ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105359"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57834651"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>2013에서 인시던트 Microsoft 365 Defender
 
@@ -64,17 +64,19 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 요약 **페이지에서는** 인시던트에 대해 가장 많이 알 수 있는 스냅숏을 한눈에 알 수 있습니다.
 
-:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="보안 센터의 인시던트에 대한 요약 Microsoft 365 예":::
+:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="사이트 포털의 인시던트에 대한 요약 Microsoft 365 Defender 예":::
 
-공격 범주는 킬체인에 대해 공격이 진행된 상황을 시각적 및 숫자로 볼 수 있도록 합니다. 다른 Microsoft 보안 제품과 Microsoft 365 Defender [MITRE ATT &trade; ](https://attack.mitre.org/) 및 CK&정렬됩니다.
+정보는 다음 섹션에서 구성됩니다.
 
-범위 섹션에서는 이 인시던트의 일부인 영향을 받는 상위 자산 목록을 제공합니다. 위험 수준, 조사 우선 순위 및 자산에 대한 태그 지정과 같은 해당 자산에 관한 특정 정보가 있는 경우 이 섹션에도 표시됩니다.
+| 섹션 | 설명 |
+|:-------|:-----|
+| 경고 및 범주 | 킬체인에 대한 공격의 진행률을 시각적 및 숫자 보기로 볼 수 있습니다. 다른 Microsoft 보안 제품과 Microsoft 365 Defender [MITRE ATT &trade; ](https://attack.mitre.org/) 및 CK&정렬됩니다. 경고 타임라인에는 경고가 발생한 시간 순서와 각 경고의 상태 및 이름이 표시됩니다. |
+| 범위 |  영향을 받는 장치, 사용자 및 사서함의 수를 표시하고 위험 수준 및 조사 우선 순위에 따라 엔터티를 나열합니다. |
+| 증거 | 인시던트의 영향을 받는 엔터티 수를 표시됩니다. |
+| 인시던트 정보 | 태그, 상태 및 심각도와 같은 인시던트의 속성을 표시됩니다. |
+|||
 
-경고 타임라인은 경고가 발생한 시간 순서와 이러한 경고가 이 인시던트와 연결되는 이유에 대해 살피는 기능을 제공합니다.
-
-마지막 - 증거 섹션에서는 인시던트에 포함된 다양한 아티팩트 수와 수정 상태에 대한 요약을 제공 하여 사용자가 조치가 필요한지 즉시 확인할 수 있습니다.
-
-이 개요는 파악해야 하는 인시던트의 주요 특징에 대한 정보를 제공하여 인시던트의 초기 조사를 지원할 수 있습니다.
+요약 **페이지를 사용하여 인시던트의** 상대적 중요성을 평가하고 관련 경고 및 영향을 미치는 엔터티에 빠르게 액세스합니다.
 
 ## <a name="alerts"></a>경고
 
@@ -89,36 +91,44 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 :::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="인시던트에 대한 경고 페이지 예":::
 
-기본적으로 경고는 시간이 지날 때 인시던트가 어떻게 재생되는지 볼 수 있도록 시간 순서대로 지정됩니다. 인시던트 내에서 경고를 선택하면 Microsoft 365 Defender 상황과 관련한 경고 정보가 표시됩니다. 
+기본적으로 경고는 시간적으로 순서가 지정되어 시간이 지날 때 공격이 어떻게 재생되는지 알 수 있습니다. 인시던트 내에서 경고를 선택하면 Microsoft 365 Defender 상황과 관련한 경고 정보가 표시됩니다. 
 
-경고의 이벤트, 즉 다른 트리거된 경고로 인해 현재 경고가 발생하고 파일, 사용자 및 사서함을 포함하여 공격에 관련된 모든 엔터티 및 활동을 볼 수 있습니다.
+경고의 이벤트를 볼 수 있습니다. 이 이벤트는 다른 트리거된 경고로 인해 현재 경고가 발생하고 장치, 파일, 사용자 및 사서함을 포함하여 공격에 관련된 모든 엔터티 및 활동을 볼 수 있습니다.
 
 다음은 예입니다.
 
 :::image type="content" source="../../media/investigate-incidents/incident-alert-example.png" alt-text="인시던트 내의 경고 세부 정보 페이지 예":::
 
-이 인시던트 경고 페이지는 다음 섹션으로 구성됩니다.
+인시던트 경고 페이지에는 다음 섹션이 있습니다.
 
-- 경고 스토리 - 발생된 일에 대한 요약을 포함합니다.
-- 관련 이벤트 및 경고
-- 요약 세부 정보
+- 경고 스토리에는 다음이 포함됩니다.
+
+   - 무슨 일이 있었나요
+
+   - 수행한 작업
+
+   - 관련 이벤트
+
+- 오른쪽 창의 경고 속성(상태, 세부 정보, 설명 등)
+
+모든 경고에 경고 스토리 섹션에 나열된 하위 섹션이 **모두 있는 것은** 아니며,
 
 경고 조사에서 경고 큐 및 경고 페이지를 사용하는 [방법을 학습합니다.](investigate-alerts.md)
 
-## <a name="devices"></a>디바이스
+## <a name="devices"></a>장치
 
 장치 **탭에는** 인시던트와 관련된 모든 장치가 나열됩니다. 다음은 예입니다.
 
 :::image type="content" source="../../media/investigate-incidents/incident-devices.png" alt-text="인시던트에 대한 장치 페이지의 예":::
 
-장치의 확인 표시를 선택하여 장치, 디렉터리 데이터, 활성 경고 및 로그온한 사용자의 세부 정보를 볼 수 있습니다. Microsoft Defender for Endpoints 장치 인벤토리에서 장치 세부 정보를 확인하려면 장치의 이름을 선택합니다.
+장치의 확인 표시를 선택하여 장치, 디렉터리 데이터, 활성 경고 및 로그온한 사용자의 세부 정보를 볼 수 있습니다. Microsoft Defender for Endpoints 장치 인벤토리에서 장치 세부 정보를 확인하려면 장치의 이름을 선택합니다. 다음은 예입니다.
 
 :::image type="content" source="../../media/investigate-incidents/incident-devices-details.png" alt-text="끝점용 Microsoft Defender의 장치 페이지 예":::
 
 디바이스 페이지에서 모든 경고, 타임라인 및 보안 권장 사항과 같은 장치에 대한 추가 정보를 수집할 수 있습니다. 예를 들어 시간  표시 막대 탭에서 컴퓨터 타임라인을 스크롤하여 컴퓨터에서 관찰된 모든 이벤트와 동작을 시간 순서대로 볼 수 있으며, 경고가 발생했습니다.
 
 > [!TIP]
-> 디바이스 페이지에서는 필요한 경우 검색을 할 수 있습니다. In the Microsoft 365 security center, choose **Endpoints > Device inventory**. 경고가 있는 장치를 선택한 다음 바이러스 백신 검색을 실행합니다. 바이러스 백신 검사와 같은 작업은 추적되어 장치 인벤토리 **페이지에** 표시됩니다. 자세한 내용은 장치에서 Microsoft Defender 바이러스 백신 [실행을 참조합니다.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices)
+> 디바이스 페이지에서는 필요한 경우 검색을 할 수 있습니다. in the Microsoft 365 Defender portal, choose **Endpoints > Device inventory**. 경고가 있는 장치를 선택한 다음 바이러스 백신 검색을 실행합니다. 바이러스 백신 검사와 같은 작업은 추적되어 장치 인벤토리 **페이지에** 표시됩니다. 자세한 내용은 장치에서 Microsoft Defender 바이러스 백신 [실행을 참조합니다.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices)
 
 ## <a name="users"></a>사용자
 
@@ -141,7 +151,7 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 ## <a name="investigations"></a>조사
 
-조사 **탭에는** 이 인시던트의 경고에 의해 트리거된 모든 자동화된 조사가 나열됩니다. [](m365d-autoir.md) 조사는 Microsoft Defender for Endpoint 및 Defender for Office 365에서 자동화된 조사를 실행하도록 구성한 방법에 따라 수정 작업을 수행하거나 분석가의 작업 승인을 Office 365.
+조사 **탭에는** 이 인시던트의 경고에 의해 트리거된 모든 자동화된 조사가 나열됩니다. [](m365d-autoir.md) 자동화된 조사는 Microsoft Defender for Endpoint 및 Defender for Office 365.
 
 :::image type="content" source="../../media/investigate-incidents/incident-investigations.png" alt-text="인시던트에 대한 조사 페이지의 예":::
 

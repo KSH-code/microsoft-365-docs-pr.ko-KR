@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Canvas Microsoft Teams 클래스 통합
-ms.openlocfilehash: 9baf4f3607673e48472e297ce42a1ad461df5b84
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 7743e7064bf31d87513c8c274f0ef8d0f70e7e8b9f97f530a2ad2f1826dd0542
+ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53652434"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57803623"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Canvas에서 Microsoft Teams 클래스 사용
 
@@ -28,13 +28,13 @@ Microsoft Teams 클래스는 교사와 학생이 LMS(Learning Management System)
 
 > [!NOTE]
 > 현재 클래스 Teams LTI는 Canvas 사용자와 제한된 범위의 AAD(Microsoft Azure Active Directory) 동기화만 지원됩니다. 
-> - 테넌트는 Canvas 필드(전자 메일, 사용자 ID 또는 SIS ID)와 Microsoft AAD의 UPN 간에 정확히 일치해야 합니다. 동기화 기능에 대한 유연성을 확장하기 위해 작업 중이지만, 그 동안 Canvas의 사용자가 AAD의 UPN과 일치하지 않는 사용자는 Canvas와 동기화된 Teams 클래스에 추가되지 않습니다. 
+> - 테넌트에 Microsoft Education 라이선스가 있어야 합니다.
 > - Canvas와 Microsoft 간에 사용자를 매핑하는 데는 단일 Microsoft 테넌트만 사용할 수 있습니다.
 > - 그룹이 중복되는 것을 방지하기 위해 Class Teams LTI를 사용하기 전에 SDS를 해제해야 합니다.
 
 ## <a name="microsoft-office-365-admin"></a>Microsoft Office 365 관리자
 
-Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canvas 관리자 설정을 완료하기 전에 캔버스의 **Microsoft-Teams-Sync-for-Canvas** Azure 앱을 Microsoft Office 365 Microsoft Azure 테넌트에서 승인해야 합니다.
+Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canvas 관리자 설정을 완료하기 전에 캔버스의 **Microsoft-Teams-Sync-for-Canvas** Azure 앱을 Microsoft Azure 테넌트의 기관의 Microsoft Office 365 관리자가 승인해야 합니다.
 
 1. Canvas에 로그인합니다.
 
@@ -43,12 +43,15 @@ Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canva
 3. 관리자 탐색에서 설정 **링크를** 선택한 다음 **통합 탭을** 선택합니다.
 
 4. 토글을 Microsoft Teams 동기화를 사용하도록 설정
+   
+   ![Canvas Teams 동기화 업데이트 png](https://user-images.githubusercontent.com/87142492/128225881-abdfc52d-dc9e-48ad-aec5-f6617c6436f3.png)
 
-   ![teams-sync](media/teams-sync.png)
+5. Microsoft 테넌트 이름, 로그인 특성, 도메인 접미사 및 AAD 검색 특성을 입력합니다.
 
-5. Microsoft 테넌트 이름 및 로그인 특성을 입력합니다.
-
-   Login 특성은 Canvas 사용자를 사용자와 연결하기 위해 Azure Active Directory 사용됩니다.
+   이러한 필드는 Canvas의 사용자와 캔버스의 사용자 일치에 Microsoft Azure Active Directory. 
+   * Login 특성은 일치에 활용된 Canvas 사용자 특성입니다.
+   * 접미사 필드는 선택 사항이며 Canvas 특성과 Microsoft AAD 필드 간에 정확한 매핑이 없는 경우 도메인을 지정할 수 있습니다. 예를 들어 Microsoft AAD의 UPN이 '이름'인 동안 Canvas 전자 메일이 'name@example.edu'인 경우 접미사 필드에 'example.edu'를 입력하여 사용자를 일치할 수 있습니다.
+   * Active Directory Lookup Attribute는 Canvas 특성이 일치하는 Microsoft 쪽 필드입니다. UPN, 기본 전자 메일 주소 또는 전자 메일 별칭 사이에서 선택합니다.
 
 6. 한 **번 설정** 업데이트를 선택합니다.
 

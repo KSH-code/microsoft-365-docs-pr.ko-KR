@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: 등록, Microsoft 365 Business Premium 도메인 및 사용자 추가, 보안 정책 설정에 대한 설정 단계에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 008a5c51698589667acc0d01649f67dab33b4c58
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7c09dca354781bf92f6bbecca0f3fb9875fb654515fe35c2f96cc780a894a764
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803225"
 ---
 # <a name="overview-of-setup"></a>설정 개요
 
@@ -40,7 +40,7 @@ ms.locfileid: "52245067"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
 대부분의 설치 단계는 안내 설치에서 수행될 수 있지만 다른 옵션도 나열되어 있습니다.
 
@@ -89,10 +89,10 @@ Azure AD에 Windows 10 장치를 가입하면 Windows 10 정책이 적용됩니�
 
 - **온-프레미스 리소스 액세스**
 
-     - 조직에서 Windows Server Active Directory Windows 사용하는 경우 로컬 인증이 필요한 Windows 10 리소스에 대한 액세스는 유지 관리하면서 Microsoft 365 Business Premium 장치를 보호하도록 Windows 10 설정할 수 있습니다. 도메인에 가입된 Windows 10 장치를 관리하도록 설정의 단계를 Microsoft 365 Business Premium 설정하세요. [](manage-windows-devices.md) 이 방법이 기본 설정 방법으로, 이 상태의 장치를 하이브리드 Azure AD 가입 장치라고 합니다.
+     - 조직에서 Windows Server Active Directory 사용하는 경우 Microsoft 365 Business Premium 장치를 보호하는 동시에 로컬 인증이 필요한 Windows 10 리소스에 대한 액세스는 유지 관리하도록 설정할 수 있습니다. 도메인에 가입된 Windows 10 장치를 관리하도록 설정의 단계를 Microsoft 365 Business Premium 설정하세요. [](manage-windows-devices.md) 이 방법이 기본 설정 방법으로, 이 상태의 장치를 하이브리드 Azure AD 가입 장치라고 합니다.
 
     - 비즈니스에 일부 사내 리소스(예: 파일 공유 및 프린터)가 포함된 로컬 Active Directory가 있는 경우 다음 단계를 수행하여 Azure AD 가입 장치에 이러한 리소스에 대한 액세스 권한을 부여할 수 있습니다. 액세스의 [Azure AD](access-resources.md)가입 장치에서는 Microsoft 365 Business Premium.
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 교육용 비디오(링크](../business-video/index.yml) 페이지)
+[Microsoft 365 Business 교육 비디오](../business-video/index.yml)(링크 페이지)

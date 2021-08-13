@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: cf17b631f8c9f4b6c332fe147ca14d126b8c0146
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f4b619ff72aa1f4bdd62cd760df0857912d7a3cb3afb3959283e4b15a6dca8ff
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53890926"
 ---
 # <a name="compliance"></a>규정 준수
 
@@ -47,6 +47,6 @@ Microsoft Managed Desktop 인증을 획득했습니다.
 > [!NOTE]
 > Azure에서 Microsoft Managed Desktop 때문에 관련 문서에는 일반적으로 "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스"과 같은 파일 이름이 있습니다. 이러한 문서에서는 일반적으로 "Microsoft Managed Desktop" 또는 "모니터링 + 관리" Microsoft Online Services 찾을 수 있습니다.
 
-## <a name="shared-responsibility"></a>공유 책임
+## <a name="shared-responsibility"></a>공동 책임
 
 클라우드 서비스에 대한 규정 준수는 클라우드 서비스 공급자와 해당 고객 간의 공유 책임입니다. 자세한 내용은 [클라우드의 공유 책임 을 참조하세요.](/azure/security/fundamentals/shared-responsibility)

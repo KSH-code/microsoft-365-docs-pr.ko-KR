@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 470b33ca3201151fb164640eeb93c50daf7bb458
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: e7941297ea523cb395ab0ac36707bd7d224ea60a0bfeadfae9f28e5df6d3c70a
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53322368"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523351"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>정보 통신 규정 준수에 대해 Microsoft 365
 
@@ -47,6 +47,8 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 - [보다 나은 Microsoft Teams - 커뮤니케이션 규정 준수의 최신 네이티브 Teams 통합 기능에 대해 자세히 알아보기](https://www.youtube.com/watch?v=m4jukD5Fh-o)
 
 통신 규정 준수에 대한 간략한 개요는 Microsoft Mechanics 채널의 Microsoft 365 비디오에서 직장 괴롭음 감지 및 통신 규정 준수로 [응답을 참조하세요.](https://www.youtube.com/user/OfficeGarageSeries) [](https://youtu.be/z33ji7a7Zho)
+
+[TD Securities가](https://customers.microsoft.com/story/1391545301764211731-td-securities-banking-capital-markets-compliance) 통신 규정 준수를 사용하여 규정 의무를 해결하고 보안 및 안정성 요구 사항을 충족하는 방법을 확인해 하세요.
 
 ## <a name="scenarios-for-communication-compliance"></a>커뮤니케이션 규정 준수 시나리오
 
@@ -93,9 +95,9 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 - **OCR(광학 문자 인식) (미리 보기)**: 전자 메일 또는 채팅 메시지에 포함되거나 첨부된 이미지 내에서 인쇄 및 필기한 텍스트를 Microsoft Teams 검색합니다.
 - **새 필터:** 보낸 사람, 받는 사람, 날짜, 도메인 등을 비롯한 여러 필드에 대한 메시지 필터를 사용하여 정책 알림을 더 빠르게 조사하고 수정합니다.
 - **향상된 메시지 보기:** 이제 새 메시지 원본, 텍스트 및 주석 보기를 사용하여 조사 및 수정 작업을 더 빠르게 수행할 수 있습니다. 이제 메시지 첨부 파일을 보고 수정 작업을 수행할 때 완전한 컨텍스트를 제공할 수 있습니다.
-- **사용자 기록 보기**: 정책 일치에 대한 과거 알림 및 에스컬레이션과 같은 모든 사용자 메시지 수정 활동에 대한 기록 보기가 수정 워크플로 프로세스 중에 검토자에게 더 많은 컨텍스트를 제공합니다. 이제 사용자에 대한 정책 일치의 처음 또는 반복 인스턴스가 보관 및 쉽게 볼 수 있습니다.
+- **사용자 기록:** 과거의 알림 및 정책 일치에 대한 에스컬레이터와 같은 모든 사용자 메시지 수정 활동에 대한 기록 보기는 이제 수정 워크플로 프로세스 중에 검토자에 더 많은 컨텍스트를 제공합니다. 이제 사용자에 대한 정책 일치의 처음 또는 반복 인스턴스가 보관 및 쉽게 볼 수 있습니다.
 - **패턴 검색 알림:** 시간이 지날 때 많은 괴롭히고 괴롭히는 작업이 많이 수행되고 사용자가 동일한 동작의 인스턴스를 반복하여 반복합니다. 경고 세부 정보에서 표시되는 새로운 패턴 검색된 알림은 이러한 경고 및 이러한 유형의 동작에 대한 주의를 높이는 데 도움이 됩니다.
-- **번역 보기 표시:** 재구성 워크플로에서 번역 지원을 사용하여 8개 언어로 메시지 세부 정보를 빠르게 조사합니다. 다른 언어의 메시지는 자동으로 검토자 표시 언어로 변환됩니다.
+- **번역:** 수정 워크플로에서 번역 지원을 사용하여 8개 언어로 메시지 세부 정보를 빠르게 조사합니다. 다른 언어의 메시지는 자동으로 검토자 표시 언어로 변환됩니다.
 
 ### <a name="actionable-insights"></a>실행 가능한 인사이트
 
@@ -150,7 +152,7 @@ Microsoft 365 규정 준수 센터에서 다음의 정책 템플릿 중에서 �
 - **사용자 활동** 기록 검토: 정책 일치에 대한 사용자 메시지 활동 및 수정 작업 기록(예: 지난 알림 및 에스컬레이터)을 볼 수 있습니다.
 - **필터:** 보낸 사람, 받는 사람, 날짜 및 제목과 같은 필터를 사용하여 검토할 메시지 경고의 범위를 빠르게 좁힐 수 있습니다.
 
-### <a name="remediate"></a>수정
+### <a name="remediate"></a>수정하기
 
 다음 단계는 다음 옵션을 사용하여 조사한 통신 준수 문제를 수정하는 것입니다.
 

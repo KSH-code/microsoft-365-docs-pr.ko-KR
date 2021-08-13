@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 피싱 및 기타 공격으로부터 피싱 방지를 Microsoft 365.
-ms.openlocfilehash: ce6212d77c8228e2ec130bc188f14e58144c6d30
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: a31922fe269f42390ffc0d742287487e4288b5d2938741e36ecaf3d79bad5889
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803097"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>피싱 및 기타 공격으로부터 자신 보호
 

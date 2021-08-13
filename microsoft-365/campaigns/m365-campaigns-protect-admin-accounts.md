@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 관리자 계정을 설정하고 보호하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0d687407fad1cec5da49dbc33ffeb84366f1c309
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: d66ce47886a1743ea39be23df4c9b5d4977bb675e1c835c421bcb61205c1f4fc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803039"
 ---
 # <a name="protect-your-administrator-accounts"></a>관리자 계정 보호
 
@@ -57,7 +57,7 @@ ms.locfileid: "51398244"
 
     ![관리자 역할 선택](../media/adminroles.png)
 
- 4. 제품 **라이선스 섹션에서** 에 대한 선택기 Microsoft 365 Business  해제로  이동하고 **제품 라이선스가** 없는 사용자 만들기를 **으로 이동합니다.**
+ 4. 제품 라이선스 **섹션에서** 비즈니스용 선택기 Microsoft 365 해제로  이동하고 제품 **라이선스가** 없는 사용자 만들기를 **으로** **이동합니다.**
 
     ![제품 라이선스 선택](../media/productlicense.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "51398244"
 1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">센터로 이동한</a> 다음 왼쪽 네비게이트에서 **사용자** \> **활성** 사용자를 선택하세요.
 2. 활성 **사용자 페이지에서** 페이지  맨 위에 있는 사용자 추가를 선택하고  새 사용자 패널에서 이름 및 기타 정보를 입력합니다.
 3. 역할 **섹션을 확장하고** 사용자(관리 액세스 **권한 없음)를 선택하십시오.**
-4. 제품 **라이선스 섹션에서** 에 대한 **선택기 Microsoft 365 Business** **으로 이동합니다.**
+4. 제품 **라이선스 섹션에서** 비즈니스용 선택기 **Microsoft 365 으로** **이동합니다.**
 
 ## <a name="turn-on-security-defaults"></a>보안 기본값 켜기
 

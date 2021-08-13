@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: ed254234109bc5ff9865ff49ed3fa0fff8770ab0
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 6e5db8d641c4b38f6b660479be451ddaa5a23aac440e8d98757cac99f2160fb1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286912"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53890950"
 ---
 # <a name="register-existing-devices-yourself"></a>직접 기존의 장치 등록
 
@@ -141,7 +141,7 @@ In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devic
 
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
-다음 단계를 따릅니다.
+다음 단계를 따릅니다:
 
 1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
 2. 드롭다운 [메뉴에서](../service-description/profiles.md) 장치 프로필을 선택합니다.
@@ -152,7 +152,7 @@ In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devic
 
 기본 페이지에서 장치 등록 진행률을 모니터링할 수 있습니다. 보고된 가능한 상태는 다음과 같습니다.
 
-| 시/도 | 설명 |
+| 상태 | 설명 |
 |---------------|-------------|
 | 등록 보류 중 | 등록이 아직 완료되지 않았습니다. 나중에 다시 확인 합니다. |
 | 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치 등록](#troubleshooting-device-registration) 문제 해결을 참조하세요. |

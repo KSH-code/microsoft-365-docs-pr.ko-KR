@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: a9d8d2fe7fe26b90719502fffebaa96526a26d24207b49136e52373fc058d94b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e85231278a03b4c9495e9331e50734f643d3c17def30fdcc4ba3c385aac94b8a
+ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53799372"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57834754"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>2013에서 경고 Microsoft 365 Defender
 
@@ -56,7 +56,7 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 
 
 - 심각도
 - 상태
-- 범주
+- Category
 - 검색 원본
 - 태그
 - 정책
@@ -74,8 +74,6 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 
 
 - 경고 스토리 - 이 경고와 관련된 이벤트 및 경고의 체인을 일련 순서로 표시
 - 요약 세부 정보
-
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="사이트 포털에서 경고의 세부 정보 Microsoft 365 Defender 예":::
 
 경고 페이지 전체에서 모든 엔터티 옆에 있는 타원(**...**)을 선택하여 경고 페이지를 열거나 경고를 다른 인시던트에 연결하는 등의 사용 가능한 작업을 볼 수 있습니다.
 

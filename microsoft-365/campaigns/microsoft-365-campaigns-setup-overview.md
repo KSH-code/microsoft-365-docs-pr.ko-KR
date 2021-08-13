@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 캠페인 또는 Microsoft 365 Business Premium 비즈니스에 대한 설치 개요
-ms.openlocfilehash: 08fe74e519c2efab14e4362e35b89128a8442cfb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8bb358575c651cc2dc8097dd76ffa525b95fc5d77faeef5dde14faf2be34ca05
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53802997"
 ---
 # <a name="set-up-microsoft-365"></a>설정 Microsoft 365
 
