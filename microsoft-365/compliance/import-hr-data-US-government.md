@@ -15,16 +15,16 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 미국 정부 클라우드의 관리자는 데이터 커넥터를 설정하여 조직의 HR(인사) 시스템에서 직원 데이터를 데이터 원본으로 가져올 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책의 HR 데이터를 사용하여 조직에 내부 위협을 줄 수 있는 특정 사용자의 활동을 검색할 수 있습니다.
-ms.openlocfilehash: 16d6d72d557744e30d41795d5f8c8a17db81c6a3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3c471fed07fc1f9cb5c86a027884f2973bf05ac5db53522f4e21a8eded5e7c7a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905930"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813841"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government"></a>미국 정부에서 HR 데이터를 가져오는 커넥터 설정
 
-조직 준수 센터에서 데이터 커넥터를 설정하여 Microsoft 365(인사) 데이터를 미국 정부 조직으로 가져올 수 있습니다. HR 관련 데이터에는 직원이 퇴직을 제출한 날짜와 직원의 마지막 날이 포함됩니다. 그런 다음 내부자 위험 관리 솔루션과 같은 Microsoft [](insider-risk-management.md)정보 보호 솔루션에서 이 HR 데이터를 사용하여 조직 내부의 악의적인 활동이나 데이터 도용으로부터 조직을 보호할 수 있습니다. HR 커넥터 설정은 커넥터의 인증에 사용되는 Azure Active Directory 앱 만들기, HR 데이터가 포함된 CSV 매핑 파일 만들기, 준수 센터에서 데이터 커넥터 만들기, CSV 파일의 HR 데이터를 Microsoft 클라우드에 수집하는 스크립트 실행으로 구성됩니다. 그런 다음 내부자 위험 관리 도구에서 데이터 커넥터를 사용하여 미국 정부 조직으로 가져온 HR Microsoft 365 액세스합니다.
+조직에서 데이터 커넥터를 설정하여 MICROSOFT 365 규정 준수 센터(인사) 데이터를 미국 정부 조직으로 가져올 수 있습니다. HR 관련 데이터에는 직원이 퇴직을 제출한 날짜와 직원의 마지막 날이 포함됩니다. 그런 다음 내부자 위험 관리 솔루션과 같은 Microsoft 정보 보호 [](insider-risk-management.md)솔루션에서 이 HR 데이터를 사용하여 조직 내부의 악의적인 활동이나 데이터 도용으로부터 조직을 보호할 수 있습니다. HR 커넥터 설정은 커넥터의 인증에 사용되는 Azure Active Directory 앱 만들기, HR 데이터가 포함된 CSV 매핑 파일 만들기, 준수 센터에서 데이터 커넥터 만들기, CSV 파일의 HR 데이터를 Microsoft 클라우드에 수집하는 스크립트 실행으로 구성됩니다. 그런 다음 내부자 위험 관리 도구에서 데이터 커넥터를 사용하여 미국 정부 조직으로 가져온 HR Microsoft 365 액세스합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -71,7 +71,7 @@ CSV 파일의 첫 번째 행(머리줄 행)에는 필요한 열 이름이 나열
 
 ## <a name="step-3-create-the-hr-connector"></a>3단계: HR 커넥터 만들기
 
-다음 단계는 준수 센터에서 HR 커넥터를 Microsoft 365 것입니다. 4단계에서 스크립트를 실행한 후 만든 HR 커넥터는 CSV 파일의 HR 데이터를 Microsoft 365 조직에 수집합니다. 이 단계에서는 커넥터를 만들 때 생성되는 작업 ID를 복사해야 합니다. 스크립트를 실행할 때 작업 ID를 사용하게 됩니다.
+다음 단계는 서버의 HR 커넥터를 Microsoft 365 규정 준수 센터. 4단계에서 스크립트를 실행한 후 만든 HR 커넥터는 CSV 파일의 HR 데이터를 Microsoft 365 조직에 수집합니다. 이 단계에서는 커넥터를 만들 때 생성되는 작업 ID를 복사해야 합니다. 스크립트를 실행할 때 작업 ID를 사용하게 됩니다.
 
 1. 으로 이동한 다음 왼쪽 [https://compliance.microsoft.com](https://compliance.microsoft.com) **네비게이트에서 데이터** 커넥터를 클릭합니다.
 
@@ -157,7 +157,7 @@ HR 커넥터를 설정하는 마지막 단계는 CSV 파일(2단계에서 만든
 
 ## <a name="step-5-monitor-the-hr-connector"></a>5단계: HR 커넥터 모니터링
 
-HR 커넥터를 만들고 스크립트를 실행하여 HR 데이터를 업로드한 후 커넥터를 보고 준수 센터에서 Microsoft 365 수 있습니다. 스크립트가 정기적으로 자동으로 실행될 수 있는 경우 스크립트가 마지막으로 실행된 후 현재 상태를 볼 수도 있습니다.
+HR 커넥터를 만들고 스크립트를 실행하여 HR 데이터를 업로드한 후 연결기에서 커넥터를 보고 업로드 상태를 Microsoft 365 규정 준수 센터. 스크립트가 정기적으로 자동으로 실행될 수 있는 경우 스크립트가 마지막으로 실행된 후 현재 상태를 볼 수도 있습니다.
 
 1. 으로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 왼쪽 **nav에서 데이터** 커넥터를 클릭합니다.
 

@@ -19,12 +19,12 @@ ms.collection:
 recommendations: false
 description: DLP(데이터 손실 방지) 정책에 정책 팁을 추가하여 사용자에게 DLP 정책과 충돌하는 콘텐츠를 사용 중일 때 이를 알리는 방법을 알아보겠습니다.
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 0c42569da3fcac40d3121a59f7dc004f25dd3f74
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: 785d7fad1cf35bab56594e5b0c11287c153eaa44aedcf2cf6b44a742ed93ee74
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52086762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53814462"
 ---
 # <a name="data-loss-prevention-policy-tips-reference"></a>데이터 손실 방지 정책 팁 참조
 
@@ -34,9 +34,9 @@ Outlook Web Access의 DLP 정책 팁은 다음을 제외한 DLP 정책의 Exchan
 
 - 보낸 사람 Is
 - 보낸 사람 도메인
-- 받는 사람이 다음의 구성원인 경우
+- 받는 사람이 다음의 구성원임
 - 헤더에 단어 또는 구가 포함되어 있습니다.
-- 패턴 일치 헤더
+- 헤더가 패턴과 일치
 - 문서 크기가 같거나 보다 크거나 같은 경우
 - 메시지 유형은
 - 메시지 중요도
@@ -72,11 +72,11 @@ Outlook Web Access의 DLP 정책 팁은 다음을 제외한 DLP 정책의 Exchan
 - 콘텐츠 포함(중요한 정보 유형에만 해당) 민감도 레이블이 지원되지 않습니다.
 - 콘텐츠 공유
 
-모든 조건은 Outlook 클라이언트 앱에서 작성된 전자 메일에 대해 작동하며, 콘텐츠와 일치하고 콘텐츠에 보호 작업을 적용합니다. 그러나 사용자에게 정책 팁을 표시하는 것은 위에서 언급한 조건과는 별도로 사용되는 조건에 대해 지원되지 않습니다.
+모든 조건은 Outlook 클라이언트 앱에서 제작된 전자 메일에 대해 작동하며, 콘텐츠와 일치하고 콘텐츠에 보호 작업을 적용합니다. 그러나 사용자에게 정책 팁을 표시하는 것은 위에서 언급한 조건과는 별도로 사용되는 조건에 대해 지원되지 않습니다.
 
-## <a name="outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types"></a>Outlook 2013 이상 및 Office 데스크톱의 앱 지원에는 일부 중요한 정보 유형에 대한 정책 팁만 표시
+## <a name="outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types"></a>일부 중요한 정보 유형에 대한 정책 팁을 표시하는 데스크톱의 Outlook 2013 이상 및 Office 앱 지원
 
-데스크톱의 Outlook(2013 이상) 및 데스크톱의 Office 앱(Word, Excel, PowerPoint)에 DLP 정책 팁을 표시하기 위해 검색될 예정인 바로 중요한 정보 유형 목록은 다음과 같습니다.
+데스크톱의 Outlook(2013 이상) 및 데스크톱의 Office 앱(Word, Excel, PowerPoint)에서 DLP 정책 팁을 표시하기 위해 검색될 예정인 바로 중요한 정보 유형 목록은 다음과 같습니다.
 
 - ABA 라우팅 번호
 - 아르헨티나 국가 ID(DNI) 번호
@@ -90,7 +90,7 @@ Outlook Web Access의 DLP 정책 팁은 다음을 제외한 DLP 정책의 Exchan
 - Azure 게시 설정 암호  
 - Azure Redis 캐시 연결 문자열  
 - Azure SAS  
-- Azure Service Bus 연결 문자열  
+- Azure 서비스 버스 연결 문자열  
 - Azure Storage 계정 키  
 - Azure Storage 계정 키(일반)  
 - 벨기에 국가 번호

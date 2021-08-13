@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 개인 데이터의 ID, 장치 및 위협 방지 서비스를 사용하여 개인 데이터 침해를 Microsoft 365.
-ms.openlocfilehash: 5e08ef574e199769e572b3836b3323dc88fc4bbd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b2f5c131a079804ed1884a4a86d759b232f5305f1cc14272b290844fe5872067
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199468"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53804723"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>데이터 개인 정보 보호 규정에 ID, 장치 및 위협 방지 사용
 
@@ -74,8 +74,8 @@ ID [Azure Active Directory(Azure AD)를](https://azure.microsoft.com/services/ac
 
 - 보낸 사람 인증(SPF, DMARC 및 DKIM)을 사용하도록 설정
 - 피싱 방지 정책에 Office 365 Microsoft Defender를 설치합니다.
-- 안전한 첨부 파일을 구현합니다.
-- 안전한 링크를 구현합니다.
+- 첨부 금고 구현합니다.
+- 링크 금고 구현합니다.
 - 맬웨어 검색 및 응답 정책을 구현합니다.
 - 아웃바운드 및 인바운드 스팸 정책을 구현합니다.
 

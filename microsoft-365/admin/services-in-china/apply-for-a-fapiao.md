@@ -22,12 +22,12 @@ search.appverid:
 description: 중국의 21Vianet에서 운영하는 21Vianet에서 운영하는 Office 365 후 Fapiao 요청을 21Vianet Fapiao 관리 시스템에 제출하는 방법을 알아보습니다.
 monikerRange: o365-21vianet
 ms.date: 03/30/2021
-ms.openlocfilehash: 605e1bf001f6c6acb3a8b5044adeb66e110641b0
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: b39794db35e3077021761776cafaf6ca6d6a9cdf695153e8942dfb137af248f8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822537"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365 Fapiao에 신청
 
@@ -45,7 +45,7 @@ Fapiao에 적용하는 방법에는 두 가지가 있습니다.
 
 2. 관리 센터에서 Fapiao를 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">신청할 수 있습니다.</a>
 
-    ![청구서 관리 센터의 Microsoft 365 페이지입니다.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
+    ![청구서 페이지의 Microsoft 365 관리 센터.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
   
 ## <a name="step-2-register-with-the-21vianet-fapiao-management-system"></a>2단계: 21Vianet Fapiao 관리 시스템에 등록
 

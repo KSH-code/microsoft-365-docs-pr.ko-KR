@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 테넌트에 대한 네트워크 Microsoft 365 최적화합니다.
-ms.openlocfilehash: cf9591d2ec027c42f5ef9e7abac6dc9b06744a81
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 6741c47fac4cadab8a6c5df7febc07250219072a4429abe15bf6ba97e41cbeeb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53804543"
 ---
 # <a name="step-2-optimal-networking-for-your-microsoft-365-for-enterprise-tenants"></a>2단계. 엔터프라이즈 테넌트에 Microsoft 365 최적의 네트워킹
 

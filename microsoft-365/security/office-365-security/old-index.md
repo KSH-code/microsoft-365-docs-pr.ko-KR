@@ -16,12 +16,12 @@ ms.collection:
 description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 가지고 있는 내용을 이해하고 속성을 보호하는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8040a6b7758e271d68af872bc2acf9ebac3af9d4
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 471817772327a761e1903d0074c41ad3a4bd5fbac1ddb501b2d8887e35d51b34
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53838502"
 ---
 # <a name="office-365-security"></a>Microsoft 365 보안
 

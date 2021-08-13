@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 전용 인증을 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 927aa032e4181206b3a744da7076b696ac5cf4d4
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: dbe2fed146f6a0507ce1fa514239f059973c092fa1494452c09b32900ea23c1c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830426"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 클라우드 전용 ID 및 장치 액세스 필수 구성 요소
 
@@ -55,7 +55,7 @@ ms.locfileid: "51199552"
 
 ## <a name="phase-3-configure-self-service-password-reset"></a>3단계: 셀프 서비스 암호 재설정 구성
 
-[암호 재설정 3단계](password-reset-m365-ent-test-environment.md#phase-3-configure-and-test-password-reset) 테스트 랩 가이드의 지침을 따릅니다. 
+[암호 재설정 테스트 랩 가이드의 3단계](password-reset-m365-ent-test-environment.md#phase-3-configure-and-test-password-reset)에 있는 지침을 따릅니다. 
 
 특정 Azure AD 그룹의 계정에 대한 비밀번호 재설정을 활성화 할 때 다음 계정을 **비밀번호 재설정** 그룹에 추가합니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "51199552"
 - 사용자 4
 - 사용자 5
 
-사용자 2 계정에 대해서만 다중 요소 인증을 테스트하십시오.
+사용자 2 계정에 대해서만 다단계 인증을 테스트합니다.
 
 ## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>5단계: 도메인에 가입된 컴퓨터의 자동 장치 Windows 사용 
 
@@ -103,7 +103,7 @@ Online 비즈니스용 Skype의 경우:
   Set-CsOAuthConfiguration -ClientAdalAuthOverride Allowed
   ```
 
-3. 이 명령을 이용해 변경 내용이 제대로 적용되었는지 확인합니다.
+3. 이 명령을 사용하여 변경되었는지 확인합니다.
 
   ```powershell
   Get-CsOAuthConfiguration

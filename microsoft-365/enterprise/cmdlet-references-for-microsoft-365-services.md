@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3a1ea1a6-edbd-4922-9ad3-0b075f7f9009
 description: Azure AD Microsoft 365, Exchange Online, SharePoint Online, 비즈니스용 Skype Online 및 Security & 참조를 찾아야 합니다.
-ms.openlocfilehash: 9f47b5d1aecfad59c920d2af8d8fdecc420f76d0
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 8dbff4261ae3403b1851b30c817277d4838be5ee3455fa5027a070e80ace229e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286864"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830377"
 ---
 # <a name="cmdlet-references-for-microsoft-365-services"></a>Office 365 서비스에 대한 cmdlet 참조
 

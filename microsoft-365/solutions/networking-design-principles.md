@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 7de9aec29b0a57e85e3539fc2e99384de545c52a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f1d3bcf269211dc00702c08c22ff0c6f6055b1b63f6bfd351d5aba7679b82978
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53804751"
 ---
 # <a name="networking-up-to-the-cloudone-architects-viewpoint"></a>클라우드에 대한 네트워킹 - 설계자 한 1명의 관점에서 볼 수 있습니다.
 

@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: bce3fe1b6490803cb571a1a8a2387c19cc589114
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: d00cb3a3c708573d7283c83d79ebaabcb45f6ce68a649109cb874c77c6cfabc3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926250"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53847502"
 ---
 # <a name="customize-initiate-and-review-the-results-of-microsoft-defender-antivirus-scans-and-remediation"></a>사용자 지정, 시작 및 재구성 결과 Microsoft Defender 바이러스 백신 검토
 

@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b5a9f1d027becff30a9f9cb6eff2fa1244f856de
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7fdfd68932f60c03a692fd41724fb98ba3c2a75711c37c0d520dc0e0d94f2136
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53802697"
 ---
 # <a name="payment-information-for-paraguay"></a>파라과이 지급 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52536373"
 **은행:** 뱅크 of America  
 **Branch:** 달라  
 **SWIFT 코드:** BOFAUS3N  
-**계정 번호:** 4426587954  
+**계정 번호: 4426587954**  
 **계정 이름:** Microsoft

@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 감사 및 경고 정책 및 데이터 주체 요청을 사용하여 개인 데이터 인시던트 모니터링 및 대응
-ms.openlocfilehash: 4070cd772d243bcfba33bfb164fd05e1f0911b3b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 225c0969f932490012a6cd54cb920cc59322ea9a8cea11c214a866ad58cecfca
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53804735"
 ---
 # <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>조직의 데이터 개인 정보 보호 인시던트 모니터링 및 대응
 
 Microsoft 365 기능을 운영할 때 조직의 데이터 개인 정보 보호 인시던트 모니터링, 조사 및 대응에 도움이 되는 다양한 기능을 사용할 수 있습니다. 이러한 각 문서에 대한 프로세스, 절차 및 기타 설명서를 가지는 것은 규제 기관의 규정 준수를 입증하는 데도 중요할 수 있습니다.
 
-여기에는 다음이 포함됩니다. 
+다음이 포함되어 있습니다. 
 
 - 감사 및 경고 정책
 - 데이터 주체 요청(콘텐츠 검색 및 eDiscovery 포함)

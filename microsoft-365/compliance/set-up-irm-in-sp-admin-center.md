@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: SharePoint RMS(권한 관리 서비스)를 통해 Microsoft Azure Active Directory 온라인 IRM을 사용하여 SharePoint 라이브러리를 보호하는 방법을 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68db84118ac8ccd7c734152aa28816db819198f7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e79e9bb81a7c328d90e46bdbfa5103f4c399ddcb36e5baad3eab20c140a114df
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919404"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830473"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>SharePoint 관리 센터의 IRM(정보 권한 관리) 설정
 
@@ -76,6 +76,6 @@ SharePoint Online에서는 다음과 같은 파일 형식의 암호화가 지원
 
 SharePoint Online에 대해 IRM을 사용하도록 설정한 후 목록 및 라이브러리에 권한 관리 적용을 시작할 수 있습니다. 자세한 내용은 목록 또는 라이브러리에 정보 [권한 관리 적용을 참조하세요.](apply-irm-to-a-list-or-library.md)
   
-이제 OneDrive Windows 동기화 클라이언트는 라이브러리에 대한 IRM 설정이 문서 액세스 권한 만료로 설정되지 않은 한 IRM으로 보호된 SharePoint 문서 라이브러리 및 OneDrive 위치 동기화를 지원합니다. 자세한 내용은 새 동기화 클라이언트 배포를 시작하거나 에 대한 새 OneDrive 동기화 클라이언트 [배포를 Windows.](/onedrive/deploy-on-windows)
+OneDrive 동기화 새 Windows 클라이언트는 이제 IRM으로 보호된 SharePoint 문서 라이브러리 및 OneDrive 위치(라이브러리에 대한 IRM 설정이 문서 액세스 권한 만료로 설정되지 않은 경우)를 동기화할 수 있습니다. 자세한 내용은 새 동기화 클라이언트 배포를 시작하거나 에 대한 새 OneDrive 동기화 클라이언트 [배포를 Windows.](/onedrive/deploy-on-windows)
   
 [Top of page](set-up-irm-in-sp-admin-center.md)
