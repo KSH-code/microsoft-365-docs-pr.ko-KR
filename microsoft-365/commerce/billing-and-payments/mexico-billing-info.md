@@ -20,18 +20,18 @@ ms.custom:
 - commerce_billing
 monikerRange: o365-worldwide
 ms.date: 11/20/2020
-ms.openlocfilehash: 15b29887fcfd301e303d0918e5f3efc2acd7e908
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 0be08294e241120e54711825fc91eccb7c663908a5ab32a91b08c2535171b7c8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331997"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53856334"
 ---
 # <a name="billing-information-for-microsoft-365-for-business-in-mexico"></a>멕시코의 비즈니스용 Microsoft 365 대금 청구 정보
 
 ## <a name="1-where-can-i-get-an-invoice-for-my-microsoft-365-for-business-purchase"></a>1. 비즈니스용 내 송장은 어디에서 Microsoft 365 수 있나요?
 
-송장은 구매가 확인된 후 24시간 후에 등록된 청구 알림 전자 메일 주소로 전송됩니다. Microsoft 365 관리 센터에서 송장을 다운로드하려면 청구 청구서 &  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">페이지로 이동합니다.</a>
+송장은 구매가 확인된 후 24시간 후에 등록된 청구 알림 전자 메일 주소로 전송됩니다. To download your invoice in the Microsoft 365 관리 센터, go to the **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.
 
 > [!IMPORTANT]
 > 송장에 RFC를 포함하려면 구매 확인 전에 추가해야 합니다.

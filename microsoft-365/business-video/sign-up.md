@@ -19,13 +19,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 Business Premium 등록하는 방법을 Microsoft 365 Business.
-ms.openlocfilehash: 998c1ad6a7ed30adb0d6beb9ebb7762dec8a8485
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+description: Microsoft 365 Business Premium 등록하는 방법을 Microsoft 365.
+ms.openlocfilehash: c0ff8a92e240c7b00b505fcd6acacff9c802c81ab7a3ee1be9ed62b9bd2e4a12
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803533"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium-subscription"></a>Microsoft 365 Business Premium 등록
 
@@ -35,7 +35,7 @@ ms.locfileid: "52706489"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-다음 단계에 따라 Microsoft 365 Business Premium(이전에는 Microsoft 365 Business).
+다음 단계에 따라 Microsoft 365 Business Premium(Microsoft 365 Business라고도 합니다.
 
 1. 등록하려면 Microsoft 365 Business Premium 온라인으로 검색하고 선택합니다.
 2. 비즈니스용 **을 선택한** 다음 지금 **구입 을 선택하세요.**
@@ -47,4 +47,4 @@ ms.locfileid: "52706489"
 8. 사용자 수를 입력하고 청구 요금제, 다음을 **선택합니다.**
 9.  회사 주소와&#39;다음 을 **입력합니다.**
 10. 신용 카드 정보를 입력한 다음 **주문을 입력합니다.** 잠시 후 계정이 만들어집니다.
-11. 이제 계정 설정  계속을 선택하거나 Microsoft 365 관리 센터에 로그인하고 나중에 설정을 완료할 수 있습니다.
+11. 이 시점에서 계정  설정 계속을 선택하거나 계정 설정에 로그인하여 나중에 Microsoft 365 관리 센터 수 있습니다.

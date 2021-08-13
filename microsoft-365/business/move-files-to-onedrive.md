@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: 몇 가지 간단한 단계에 따라 개인 작업 파일 및 중요한 회사 파일을 비즈니스용 OneDrive 방법을 알아보십시오.
-ms.openlocfilehash: 6def1c733093417162ca37906c1d55c0eab23e7d
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: db66c65913bae3c3590a9d5b9bfba186a14ea01bc171aa82164c840e02fd4ed8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53856435"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>비즈니스용 OneDrive로 파일 이동
 
@@ -37,7 +37,7 @@ ms.locfileid: "53339313"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>비즈니스용 OneDrive로 파일 이동

@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 localization_priority: Normal
 description: 기존 항목의 기존 항목을 편집하는 Microsoft Viva 방법을 참조하세요.
-ms.openlocfilehash: 47c9254c91e08cda6dc33c40768689d94e5ceeef
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 748b626dcdf6d118794872d5865a06678293d90da95d7e74057f019df749a1c6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53596233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53840409"
 ---
 # <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a>Microsoft Viva 항목 편집 
 

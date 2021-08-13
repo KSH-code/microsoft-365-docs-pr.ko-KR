@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 콘텐츠 센터를 만드는 방법을 알아봅니다.
-ms.openlocfilehash: a50a31d29cc53a70a7e13f9cd83e76933aa39cf8
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 6ec19516b12166104ab6e78974d349f4113ab55b3bf188fb0291cb8a5429e0c2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53543134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53850337"
 ---
 # <a name="create-a-content-center-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 콘텐츠 센터 만들기
 

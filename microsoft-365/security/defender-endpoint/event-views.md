@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: f6db2ade256710e1972635a6b4cc9bfab20dae37c887a67cf635ece97d4eafdc
-ms.sourcegitcommit: 9410944dab4a34c38ee420e66b14c58ca037f31c
+ms.openlocfilehash: accebb69977600950b2c88b35f9223db1379f56cb6e8e44179b503ea9748f03d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2021
-ms.locfileid: "57803467"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53807016"
 ---
 # <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 
@@ -59,10 +59,10 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 
 3. 작업 **사용자 지정** 보기  >  **가져오기...를 선택합니다.**
 
-   > [!div class="mx-imgBorder"]
-   > ![Even 뷰어 창 왼쪽의 사용자 지정 보기 가져오기 강조 표시 애니메이션](images/events-import.gif)
+  > [!div class="mx-imgBorder"]
+  > ![Even 뷰어 창 왼쪽의 사용자 지정 보기 가져오기 강조 표시 애니메이션](images/events-import.gif)
 
-4. 원하는 사용자 지정 보기에 대한 XML 파일을 추출한 위치로 이동하여 선택합니다.
+4. 원하는 사용자 지정 보기에 대해 XML 파일을 추출한 위치로 이동하여 선택합니다.
 
 5. **열기** 를 선택합니다.
 
@@ -74,8 +74,8 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 
 2. 왼쪽 패널의 **동작에서** 사용자 지정 **보기 만들기...를 선택합니다.**
 
-   > [!div class="mx-imgBorder"]
-   > ![이벤트 뷰어 창에서 사용자 지정 보기 만들기 옵션을 강조 표시하는 애니메이션](images/events-create.gif)
+  > [!div class="mx-imgBorder"]
+  > ![이벤트 뷰어 창에서 사용자 지정 보기 만들기 옵션을 강조 표시하는 애니메이션](images/events-create.gif)
 
 3. XML 탭으로 이동하여 수동으로 쿼리 **편집을 선택합니다.** XML 옵션을 사용하는 경우 필터 탭을 사용하여  쿼리를 편집할 수 없는 경고가 표시됩니다. **예** 를 선택합니다.
 
@@ -148,47 +148,42 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 
    ![이벤트 뷰어를 사용하는 애니메이션](images/event-viewer.gif)
 
-<br>
-
-****
-
-|기능|공급자/원본|이벤트 ID|설명|
-|---|---|:---:|---|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|1|ACG 감사|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|2|ACG 적용|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|3 |자식 프로세스 감사 허용 안 함|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|4 |자식 프로세스 블록 허용 안 함|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|5 |낮은 무결성 이미지 감사 차단|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|6 |낮은 무결성 이미지 블록 차단|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|7 |원격 이미지 감사 차단|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|8 |원격 이미지 블록 차단|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|9 |win32k 시스템 호출 감사 사용 안 함|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|10 |Win32k 시스템 호출 블록 사용 안 함|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|11|코드 무결성 가드 감사|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|12 |코드 무결성 가드 블록|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|13|EAF 감사|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|14 |EAF 적용|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|15|EAF+ 감사|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|16 |EAF+ 적용|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|17 |IAF 감사|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|18 |IAF 적용|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|19|ROP StackPivot 감사|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|20|ROP StackPivot 적용|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)| 21|ROP CallerCheck 감사|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|22|ROP CallerCheck 적용|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|23|ROP SimExec 감사|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|24|ROP SimExec 적용|
-|악용 방지|WER-진단|5 |CFG 블록|
-|악용 방지|Win32K(작동)|260|신뢰할 수 없는 글꼴|
-|네트워크 보호|Windows Defender(작동)|5007|설정이 변경될 때의 이벤트|
-|네트워크 보호|Windows Defender(작동)|1125|감사 모드에서 네트워크 보호가 발생하면 이벤트|
-|네트워크 보호|Windows Defender(작동)|1126|차단 모드에서 네트워크 보호가 발생하면 이벤트|
-|제어된 폴더 액세스|Windows Defender(작동)|5007|설정이 변경될 때의 이벤트|
-|제어된 폴더 액세스|Windows Defender(작동)|1124|감사된 제어된 폴더 액세스 이벤트|
-|제어된 폴더 액세스|Windows Defender(작동)|1123|차단된 제어된 폴더 액세스 이벤트|
-|제어된 폴더 액세스|Windows Defender(작동)|1127|차단된 제어된 폴더 액세스 섹터 쓰기 차단 이벤트|
-|제어된 폴더 액세스|Windows Defender(작동)|1128|감사된 제어된 폴더 액세스 섹터 쓰기 차단 이벤트|
-|공격 표면 감소|Windows Defender(작동)|5007|설정이 변경될 때의 이벤트|
-|공격 표면 감소|Windows Defender(작동)|1122|감사 모드에서 규칙이 발생하면 이벤트|
-|공격 표면 감소|Windows Defender(작동)|1121|차단 모드에서 규칙이 발생하면 이벤트|
-|
+기능 | 공급자/원본 | 이벤트 ID | 설명
+:-|:-|:-:|:-
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 1 | ACG 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 2 | ACG 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 3  | 자식 프로세스 감사 허용 안 함
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 4  | 자식 프로세스 블록 허용 안 함
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 5  | 낮은 무결성 이미지 감사 차단
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 6  | 낮은 무결성 이미지 블록 차단
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 7  | 원격 이미지 감사 차단
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 8  | 원격 이미지 블록 차단
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 9  | win32k 시스템 호출 감사 사용 안 함
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 10  | Win32k 시스템 호출 블록 사용 안 함
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 11 | 코드 무결성 가드 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 12  | 코드 무결성 가드 블록
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 13 | EAF 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 14  | EAF 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 15 | EAF+ 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 16  | EAF+ 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 17  | IAF 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 18  | IAF 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 19 | ROP StackPivot 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 20 | ROP StackPivot 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) |  21 | ROP CallerCheck 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 22 | ROP CallerCheck 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 23 | ROP SimExec 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 24 | ROP SimExec 적용
+악용 방지 | WER-진단 | 5  | CFG 블록
+악용 방지 | Win32K(작동) | 260 | 신뢰할 수 없는 글꼴
+네트워크 보호 | Windows Defender(작동) | 5007 | 설정이 변경될 때의 이벤트
+네트워크 보호 | Windows Defender(작동) | 1125 | 감사 모드에서 네트워크 보호가 발생하면 이벤트
+네트워크 보호 | Windows Defender(작동) | 1126 | 차단 모드에서 네트워크 보호가 발생하면 이벤트
+제어된 폴더 액세스 | Windows Defender(작동) | 5007 | 설정이 변경될 때의 이벤트
+제어된 폴더 액세스 | Windows Defender(작동) | 1124 | 감사된 제어된 폴더 액세스 이벤트
+제어된 폴더 액세스 | Windows Defender(작동) | 1123 | 차단된 제어된 폴더 액세스 이벤트
+제어된 폴더 액세스 | Windows Defender(작동) | 1127 | 차단된 제어된 폴더 액세스 섹터 쓰기 차단 이벤트
+제어된 폴더 액세스 | Windows Defender(작동) | 1128 | 감사된 제어된 폴더 액세스 섹터 쓰기 차단 이벤트
+공격 표면 감소 | Windows Defender(작동) | 5007 | 설정이 변경될 때의 이벤트
+공격 표면 감소 | Windows Defender(작동) | 1122 | 감사 모드에서 규칙이 발생하면 이벤트
+공격 표면 감소 | Windows Defender(작동) | 1121 | 차단 모드에서 규칙이 발생하면 이벤트

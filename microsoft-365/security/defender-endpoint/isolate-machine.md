@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 66fc3bcf0820d098303ce1a05a98c18cfd8a3cf0
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 7c881402a90c8e858d05556f5d8ed7f1be581581c78b5b084838b4dfb6181255
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53651150"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53806947"
 ---
 # <a name="isolate-machine-api"></a>컴퓨터 격리 API
 
@@ -48,6 +48,12 @@ ms.locfileid: "53651150"
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
 [!include[Device actions note](../../includes/machineactionsnote.md)]
+
+> [!IMPORTANT]
+>
+> - 버전 1703의 장치에서는 Windows 10 수 있습니다.
+> - 선택적 고리는 버전 1709 이상에서 Windows 10 디바이스에 사용할 수 있습니다.
+> - 장치를 고지할 때 특정 프로세스 및 대상만 허용됩니다. 따라서 장치가 격리된 후 전체 VPN 터널 뒤에 있는 장치는 끝점용 Microsoft Defender 클라우드 서비스에 도달할 수 없습니다. Microsoft Defender for Endpoint 및 클라우드 기반 보호 관련 트래픽에 Microsoft Defender 바이러스 백신 분할 터널링 VPN을 사용하는 것이 좋습니다.
 
 ## <a name="permissions"></a>사용 권한
 

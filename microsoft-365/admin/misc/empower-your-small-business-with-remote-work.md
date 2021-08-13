@@ -15,12 +15,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: 비즈니스용 원격 작업을 위한 최신 방법 정보, 팁, 리소스 및 지침을 Microsoft 365.
-ms.openlocfilehash: 2e2ce2c9b7e204a56a0deccc758ba19d7239c632
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 8d08db66da25a40d699cc122362cbdcbe1fc21e624259d4a67c833663a4a3113
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53824110"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>원격 작업을 통해 소기업의 역량 강화
 

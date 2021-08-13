@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 고급 보안 및 비즈니스 네트워킹 기능을 활용하기 위해 Windows 장치를 업그레이드하는 Windows 10 Pro 방법을 검색합니다.
-ms.openlocfilehash: e87a9bc4ebbb4d5437e2174dc9f41c4700346ffd
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: ed9713fe321269e5d18c424dc9cf2ad03c4ed2225d8fcfd5b77c3dd2abc303e6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53856410"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>업그레이드 Windows 장치로 Windows 10 Pro
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 직장 또는 학교 계정이 있는 사용자는 엔터프라이즈 수준의 보안 약속을 Cortana Microsoft 365 환경을 Office 365 수 있습니다.
-ms.openlocfilehash: 06df3e6cbb700971f8429dd99ed1dc9f9c247949
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: f81fd357ec69a8cf50c2f55875a65b61b0f7d9348662f8c0c1f8f11864419630
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53824201"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana Microsoft 365
 

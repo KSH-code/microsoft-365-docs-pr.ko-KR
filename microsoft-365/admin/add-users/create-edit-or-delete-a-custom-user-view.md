@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
 description: 필터를 사용하여 사용자 지정 사용자 보기를 만들거나 편집하거나 삭제하는 방법을 Microsoft 365.
-ms.openlocfilehash: b4177a561d13d76f6d5a0a1077fe8037d469ee48
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 41cba32be3ee1e452462a398d5c7f0cc5a632061b4ce64ed3594d82f69887b68
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683226"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53815830"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view"></a>사용자 지정 사용자 보기 만들기, 편집 또는 삭제
 
@@ -131,7 +131,7 @@ ms.locfileid: "52683226"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 관리](../../business-video/admin-center-overview.md) 센터 개요(비디오)\
+[개요](../../business-video/admin-center-overview.md) Microsoft 365 관리 센터(비디오)\
 [관리자 역할(비디오)\](../add-users/about-admin-roles.md)
 [조직의 Microsoft 365 테마](../setup/customize-your-organization-theme.md) 사용자 지정(문서)
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: 전자 메일 및 도메인 소유권을 확인하여 해당 도메인에서 셀프 서비스 사용자 등록으로 만든 관리되지 않는 테넌트의 소유권을 Microsoft 365.
-ms.openlocfilehash: f6378c708e0533c2da2d38bfe5eb8009515423c7
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 4d37197325c49b95090236ed01935d5682844a84eba9f525de37e053187ab0b6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53824290"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>내부 관리자 인계 수행
 

@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: 이 문서에서는 Microsoft 클라우드에서 고객 데이터를 안전하게 유지하는 데 사용되는 다양한 형태의 암호화에 대한 개요를 읽어 읽습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d05c904fc70d02d8694b8f2d3b451fd1d51dc91
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a253f5fb0df4f71c47aa0c64bd5bfb48ef874c2b1de4d92de245bb2962c3dc7e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53807735"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Microsoft 클라우드에서 암호화
 
@@ -30,7 +30,7 @@ Microsoft 엔터프라이즈 클라우드 서비스 내의 고객 데이터는 �
 
 Microsoft의 엔터프라이즈 클라우드 서비스에 저장된 고객 데이터는 하나 이상의 암호화 형식을 사용하여 보호됩니다. (암호화 정책의 유효성 검사 및 적용은 여러 타사 감사자에 의해 독립적으로 확인하며, 이러한 감사에 대한 보고서는 [Service Trust Portal에서 확인할 수 있습니다.)](https://aka.ms/stp)
 
-Microsoft는 미사용 및 전송 중 고객 데이터를 암호화하는 서비스 쪽 기술을 제공합니다. 예를 들어 미사용 고객 데이터의 경우 [](/windows/device-security/bitlocker/bitlocker-overview) Microsoft Azure BitLocker [및 DM-Crypt를](https://en.wikipedia.org/wiki/Dm-crypt)사용하며 Microsoft 365 BitLocker, [Azure Storage 서비스](/azure/)암호화, DKM(분산 키 관리자) 및 Microsoft 365 서비스 암호화를 사용합니다. [](./exchange-online-secures-email-secrets.md) 전송되는 고객 데이터의 경우 Azure, Office 365, Microsoft 상용 지원, Microsoft Dynamics 365, Microsoft Power BI 및 Visual Studio Team Services Microsoft 데이터 센터와 사용자 장치 간에 IPsec(인터넷 프로토콜 보안) 및 TLS(전송 계층 보안)와 같은 업계 표준 보안 전송 프로토콜을 사용합니다.
+Microsoft는 미사용 및 전송 중 고객 데이터를 암호화하는 서비스 쪽 기술을 제공합니다. 예를 들어 미사용 고객 데이터의 경우 Microsoft Azure [및](/windows/device-security/bitlocker/bitlocker-overview) [DM-Crypt를](https://en.wikipedia.org/wiki/Dm-crypt)사용하며 Microsoft 365 BitLocker, Azure Storage 서비스 암호화, DKM(분산 키 관리자) 및 Microsoft 365 서비스 암호화를 사용합니다. [](/azure/) [](./exchange-online-secures-email-secrets.md) 전송되는 고객 데이터의 경우 Azure, Office 365, Microsoft 상용 지원, Microsoft Dynamics 365, Microsoft Power BI 및 Visual Studio Team Services Microsoft 데이터 센터와 사용자 장치 간에 IPsec(인터넷 프로토콜 보안) 및 TLS(전송 계층 보안)와 같은 업계 표준 보안 전송 프로토콜을 사용합니다.
 
 Microsoft에서 제공하는 기본 수준의 암호화 보안 외에도 클라우드 서비스에는 관리할 수 있는 암호화 옵션도 포함되어 있습니다. 예를 들어 Azure VM(가상 컴퓨터)과 사용자 간의 트래픽에 대해 암호화를 사용하도록 설정할 수 있습니다. [Azure Virtual Networks를](https://azure.microsoft.com/services/virtual-network/)사용하면 업계 표준 IPsec 프로토콜을 사용하여 회사 VPN 게이트웨이와 Azure 간의 트래픽을 암호화할 수 있습니다. 가상 네트워크의 VM 간 트래픽을 암호화할 수도 있습니다. 또한 새로운 Office 365 메시지 암호화 [기능을](set-up-new-message-encryption-capabilities.md) 통해 암호화된 메일을 누구에게나 보낼 수 있습니다.
 
@@ -46,9 +46,9 @@ Microsoft는 클라우드 서비스에서 사용되는 기반 암호화 모듈�
 - Dynamics 365 및 Dynamics 365 U.S. Government
 - Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense
 
-미사용 고객 데이터 암호화는 BitLocker, DKM, Azure Storage 서비스 암호화 및 Exchange Online, 비즈니스용 Skype, 비즈니스용 OneDrive 및 SharePoint Online의 서비스 암호화를 비롯한 여러 서비스 쪽 기술을 통해 제공됩니다. Office 365 서비스 암호화에는 Azure Key Vault에 저장된 고객 관리 암호화 키를 사용하는 옵션이 포함되어 있습니다. 고객 키라고 하는 이 [](./customer-key-overview.md)고객 관리 키 옵션은 Exchange Online, SharePoint Online, 비즈니스용 Skype 및 비즈니스용 OneDrive.
+미사용 고객 데이터 암호화는 BitLocker, DKM, Azure Storage Service Encryption 및 Exchange Online, 비즈니스용 Skype, 비즈니스용 OneDrive 및 SharePoint Online의 서비스 암호화를 비롯한 여러 서비스 쪽 기술을 통해 제공됩니다. Office 365 서비스 암호화에는 Azure Key Vault에 저장된 고객 관리 암호화 키를 사용하는 옵션이 포함되어 있습니다. 고객 키라고 하는 이 [](./customer-key-overview.md)고객 관리 키 옵션은 Exchange Online, SharePoint Online, 비즈니스용 Skype 및 비즈니스용 OneDrive.
 
-전송되는 고객 데이터의 경우 모든 Office 365 서버는 기본적으로 클라이언트 컴퓨터와 TLS를 사용하여 보안 세션을 협상하여 고객 데이터를 보호합니다. 예를 들어 Office 365 웹, 모바일 클라이언트 및 웹 브라우저에서 비즈니스용 Skype, Outlook Outlook 보안 세션을 협상합니다.
+전송되는 고객 데이터의 경우 모든 Office 365 서버는 기본적으로 클라이언트 컴퓨터와 TLS를 사용하여 보안 세션을 협상하여 고객 데이터를 보호합니다. 예를 들어 Office 365 보안 세션을 비즈니스용 Skype, Outlook 및 웹용 Outlook, 모바일 클라이언트 및 웹 브라우저에 대해 협상합니다.
 
 (모든 고객 연결 서버는 기본적으로 TLS 1.2로 협상합니다.)
 
