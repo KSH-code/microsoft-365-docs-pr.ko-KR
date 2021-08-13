@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b813ec63f2cd91671f5e265cdac5c023a75dbe71
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 156e95b5dd045e1a06886f739e4e8b13577313caa90d7fcce177313e1f79200c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536697"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53808999"
 ---
 # <a name="payment-information-for-hong-kong"></a>홍콩 결제 정보
 
@@ -32,5 +32,5 @@ ms.locfileid: "52536697"
 **은행 코드:** 004  
 **분기 코드:** 848  
 **SWIFT 코드:** HSBCHKHH  
-**계정 번호:** 848342259001  
+**계정 번호: 848342259001**  
 **계정 이름:** Microsoft Payments Pte Ltd-Payco Invoice

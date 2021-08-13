@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 보안 기본값이 미리 구성한 보안 설정을 제공하여 ID 관련 공격으로부터 조직을 보호하는 데 어떻게 도움이 될 수 있는지 확인합니다.
-ms.openlocfilehash: ea36ba45af26a767b08ee1e75931dca54dacea64
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: 88fac794b59785a37121800c95a99e2b6be3b35deb2830c927600442f3bdb42f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809119"
 ---
 # <a name="turn-on-security-defaults"></a>보안 기본값 켜기
 
@@ -41,7 +41,7 @@ ms.locfileid: "51398299"
 
 Azure AD(Azure Active Directory)에서 보안 기본값을 사용하도록 설정하거나 이미 활성화되어 있는지 확인하려면
 
-1. 전역 관리자 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">자격 증명으로</a> Microsoft 365 센터에 로그인합니다.
+1. 전역 관리자 자격 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 로그인합니다.
 
 2. 왼쪽 창에서 모두  표시를 선택한 다음 관리 센터에서 를 **Azure Active Directory.**
 
@@ -79,7 +79,7 @@ Azure AD(Azure Active Directory)에서 보안 기본값을 사용하도록 설�
 - [Azure 관리를 위한 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-azure-management)
 - [레거시 인증 차단](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 - [모든 사용자에게 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- [Azure AD MFA](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) 등록 필요 - P2의 일부인 Azure AD ID 보호가 Azure Active Directory Premium
+- [Azure AD MFA 등록](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) 필요 - Azure AD ID 보호가 Azure Active Directory Premium P2
 
 조건부 액세스에 대한 자세한 내용은 [조건부 액세스란?을 참조하세요.](/azure/active-directory/conditional-access/overview) 조건부 액세스 정책을 만드는 데 대한 자세한 내용은 [Create a Conditional Access policy를 참조하십시오.](/azure/active-directory/authentication/tutorial-enable-azure-mfa#create-a-conditional-access-policy)
 

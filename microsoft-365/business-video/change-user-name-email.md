@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 표시 이름, 별칭 또는 전자 메일 주소를 변경하여 사용자 이름 또는 전자 메일 주소를 변경하는 방법을 학습합니다.
-ms.openlocfilehash: c7d960daa8b1b83149db90b10b7af4236d535a9d
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 238d4a81853a490fcc92858480e841aeb7aaa8b7c054ae4bd39e5caee11b91d7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394836"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803633"
 ---
 # <a name="change-a-users-name-or-email-address"></a>사용자의 이름 또는 전자 메일 주소 변경
 

@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 학교용 제품 및 서비스를 구매하고 관리하는 방법을 알아보십시오.
 ms.date: 04/13/2021
-ms.openlocfilehash: 63c5595d14ca0a531f50875ea8058663b626bb89
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 024f8c4154c4e646a5a72fbc0d1b0f980b8b5c8eb854e723d84dc0f5f464911c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809103"
 ---
 # <a name="manage-partner-relationships"></a>파트너 관계 관리
 
@@ -32,7 +32,7 @@ Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 �
 
 1. 관리자는 의 양식을 사용하여 파트너를 찾아 <a href="https://www.microsoft.com/solution-providers/home" target="_blank">https://www.microsoft.com/solution-providers/home</a> 연락합니다.
 2. 파트너는 파트너 관계를 설정하기 위해 고객에게 전자 메일 요청을 전송합니다.
-3. 고객은 Microsoft 365 센터에서 초대를 수락하고 파트너와 작업을 시작하세요.
+3. 고객은 Microsoft 365 관리 센터 초대를 수락하고 파트너와 작업을 시작하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -65,7 +65,7 @@ Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 �
 
 파트너를 찾은 후 파트너와 함께 작업하기로 결정하면 전자 메일 초대가 전송됩니다.
 
-1. 전자 메일에서 링크를 선택하여 Microsoft 365 관리 센터로 이동하세요.
+1. 전자 메일에서 링크를 선택하여 메일로 Microsoft 365 관리 센터.
 2. 수락 **계약 &** 파트너 승인 페이지에서 Microsoft **고객** 계약 링크를 선택하고 문서를 읽습니다.
 3. 확인란을 확인하여 계약 내용을 읽었다는 확인란을 선택합니다.
 4. 승인을 **& 승인을 선택합니다.**
@@ -75,10 +75,10 @@ Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 �
 
 이미 파트너가 있지만 아직 Microsoft 고객 계약에 서명하지 않은 경우 먼저 계약에 동의해야 구매를 하게 되거나 고객을 대신하여 구독을 관리할 수 있습니다.
 
-1. 파트너로부터 전자 메일을 받으면 링크를 선택하여 Microsoft 365 관리 센터로 이동하거나 동의 페이지로 <a href="https://go.microsoft.com/fwlink/?linkid=2116573" target="_blank">이동합니다.</a>
+1. 파트너로부터 전자 메일을 받으면 링크를 선택하여 파트너 Microsoft 365 관리 센터 수락 <a href="https://go.microsoft.com/fwlink/?linkid=2116573" target="_blank">페이지로</a> 이동합니다.
 2. Microsoft 고객 계약 링크를 **선택하고** 문서를 읽습니다.
 3. 확인란을 확인하여 계약 내용을 읽었다는 확인란을 선택합니다.
-4. **수락을 선택합니다.**
+4. **수락** 을 선택합니다.
 5. 작업하는 파트너 목록이 표시됩니다. 세부 정보를 확인하려면 파트너를 선택합니다.
 
 ## <a name="remove-partner-admin-roles"></a>파트너 관리자 역할 제거

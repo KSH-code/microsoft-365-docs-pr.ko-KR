@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 모바일 장치 관리와 모바일 앱 관리 또는 MDM과 MAM의 차이점을 확인합니다.
-ms.openlocfilehash: 44ac5ebf66f4d4e0b057692902f9bc3804aa2e03
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e070f3aa253bf7881f0fb4efd97d84394c3d263ec57cac2643e08c668b8e4257
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579885"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809143"
 ---
 # <a name="difference-between-mdm-and-mam"></a>MDM과 MAM의 차이점
 

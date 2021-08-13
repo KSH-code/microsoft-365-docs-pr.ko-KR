@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Veritas에서 다른 사용자로 링 센터 데이터를 가져오고 보관할 커넥터를 설정할 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 해당 커넥터에 Microsoft 365. 이 데이터를 보관한 후 법적 보존, eDiscovery 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 4fc0b61d5bc47a573da3ef8dd12654316e77d073
-ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
+ms.openlocfilehash: 2eebfdfedf44207ac10d10a4eed4d482401a3f48346506b798fcc55e1e3ff18b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53836057"
 ---
-# <a name="set-up-a-connector-to-archive-ringcentral-data-preview"></a>링 센터 데이터를 보관할 커넥터 설정(미리 보기)
+# <a name="set-up-a-connector-to-archive-ringcentral-data"></a>링 센터 데이터를 보관할 커넥터 설정
 
 링 센터의 Veritas 커넥터를 Microsoft 365 규정 준수 센터 링 센터 플랫폼에서 사용자 사서함으로 데이터를 가져오고 보관할 Microsoft 365 있습니다. Veritas는 타사 데이터 원본에서 항목을 캡처하고 해당 항목을 가져오도록 구성된 RingCentral 커넥터를 Microsoft 365. 커넥터는 채팅, 첨부 파일, 작업, 메모 및 게시물과 같은 콘텐츠를 RingCentral에서 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 링 센터의 사용자 사서함으로 Microsoft 365.
 

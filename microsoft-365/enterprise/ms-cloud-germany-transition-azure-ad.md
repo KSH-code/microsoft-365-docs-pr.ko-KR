@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft Azure Active Directory(Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 추가 정보입니다.'
-ms.openlocfilehash: 88a151b61a93b4b65e16bbd100a126d44282e513
-ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
+ms.openlocfilehash: 07273a12ffe0150714db100da6a4862e4715a6e3f203f9d673f202b9b5e27a13
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "53578448"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53858510"
 ---
 # <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이치클라드에서 마이그레이션하기 위한 추가 Azure Active Directory 정보
 

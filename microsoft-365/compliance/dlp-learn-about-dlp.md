@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 데이터 손실 방지 정책 및 도구를 사용하여 Microsoft 365 보호하는 방법을 알아보고 DLP 수명 주기를 둘러보는 방법을 알아보고 있습니다.
-ms.openlocfilehash: 291a9ab09d14e24d58604644d77381d7f41214d6
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 3f2b8ff6bd099164e288a244e45a2aa646e5bf391c7a192450a02b3689038101
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835817"
 ---
 # <a name="learn-about-data-loss-prevention"></a>데이터 손실 방지에 대해 알아보기
 

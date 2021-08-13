@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대한 관리자 도움말을 찾는 방법을 Microsoft 365 Business Premium.
-ms.openlocfilehash: 18a50c34f87fa47fe5777e87f8dafa62fb0ac04b
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4d7a5c3e1bacd81d04a32e30c7d12f264cd355c81783409500e416be1345a0c7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809603"
 ---
 # <a name="find-docs-and-training"></a>설명서 및 교육 찾기
 
@@ -36,9 +36,9 @@ ms.locfileid: "52245231"
 
 모든 교육 지원에 대한 링크는 중소기업과 함께 Microsoft 365 교육을 Microsoft 365 [참조하세요.](index.yml) 
 
-## <a name="search-for-microsoft-365-admin-center-docs-and-resources"></a>관리 Microsoft 365 및 리소스 검색
+## <a name="search-for-microsoft-365-admin-center-docs-and-resources"></a>검색 Microsoft 365 관리 센터 및 리소스 검색
 
-암호 재설정 및 Microsoft 구독 할당과 같은 관리자 관련 작업 및 도움말을 검색하려면 Microsoft 365 [센터 도움말을 참조하세요.](../admin/index.yml)
+암호 재설정 및 Microsoft 구독 할당과 같은 관리자 관련 작업 및 도움말을 검색하려면 Microsoft 365 관리 센터 [도움말을 참조하세요.](../admin/index.yml)
 
 ## <a name="join-the-community"></a>커뮤니티에 참여
 

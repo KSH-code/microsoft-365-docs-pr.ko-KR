@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 계획을 업그레이드하는 가장 쉬운 방법은 관리 센터의 업그레이드 탭을 사용하는 것입니다. 그러나 업그레이드 탭이 항상 지원되지는 않습니다.
 ms.date: 04/21/2021
-ms.openlocfilehash: a4db0934767beb7913939475d8615f2a0184d0a3
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: e97933bdf8d4368ac476e0173f7611b1d89493792567a876de54476d82f128e4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53808911"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
 

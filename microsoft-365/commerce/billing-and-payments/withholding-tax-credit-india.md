@@ -21,12 +21,12 @@ ms.custom:
 ROBOTS: NOINDEX, NOFOLLOW
 monikerRange: o365-worldwide
 ms.date: 05/03/2021
-ms.openlocfilehash: 68afdd9c5dddc071faa96a78981c68cc2c20e1ed
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: b588f95309fcaa16bcee1ad71eaaf21ef053eadcd897bc0955eb58c2fc950b9e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809093"
 ---
 # <a name="request-a-credit-for-withholding-tax-on-your-account-india-customers"></a>계정의 원주세에 대한 크레딧 요청(인도 고객)
 
@@ -66,7 +66,7 @@ Microsoft 지원에서 티켓을 열고 WHT 요청 제출
 |-|-|-|-|
 | 1 | 4월-6월 | 15-Aug | 31-Aug |
 | 2 | 7월-9월 | 15-Nov | 30-Nov |
-| 3 | 10월-12월 | 15-2월 | 28-2월 |
+| 3  | 10월-12월 | 15-2월 | 28-2월 |
 | 4  | 1월-3월 | 15-6월 | 30-6월 |
 
 > [!IMPORTANT]

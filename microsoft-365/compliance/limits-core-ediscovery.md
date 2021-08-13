@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 핵심 eDiscovery 사례의 제한에 대해 Microsoft 365.
-ms.openlocfilehash: e7b1013abd9fd94748baf3b83dd04efbc3831a1d
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 2df6bc2182affedaba057b29c98990bc150682d4dbcdef0d15369e158a819c90
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835778"
 ---
 # <a name="limits-in-core-ediscovery"></a>Core eDiscovery의 제한
 

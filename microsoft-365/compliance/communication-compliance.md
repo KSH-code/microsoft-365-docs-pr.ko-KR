@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e7941297ea523cb395ab0ac36707bd7d224ea60a0bfeadfae9f28e5df6d3c70a
-ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
+ms.openlocfilehash: 35db4a7728fff40e6bf81b2c7992db229048964f60fc1ed2db829cf2c86b0749
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54523351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835898"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>정보 통신 규정 준수에 대해 Microsoft 365
 
@@ -47,8 +47,6 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 - [보다 나은 Microsoft Teams - 커뮤니케이션 규정 준수의 최신 네이티브 Teams 통합 기능에 대해 자세히 알아보기](https://www.youtube.com/watch?v=m4jukD5Fh-o)
 
 통신 규정 준수에 대한 간략한 개요는 Microsoft Mechanics 채널의 Microsoft 365 비디오에서 직장 괴롭음 감지 및 통신 규정 준수로 [응답을 참조하세요.](https://www.youtube.com/user/OfficeGarageSeries) [](https://youtu.be/z33ji7a7Zho)
-
-[TD Securities가](https://customers.microsoft.com/story/1391545301764211731-td-securities-banking-capital-markets-compliance) 통신 규정 준수를 사용하여 규정 의무를 해결하고 보안 및 안정성 요구 사항을 충족하는 방법을 확인해 하세요.
 
 ## <a name="scenarios-for-communication-compliance"></a>커뮤니케이션 규정 준수 시나리오
 

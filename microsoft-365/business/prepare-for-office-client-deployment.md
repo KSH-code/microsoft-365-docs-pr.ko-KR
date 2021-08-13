@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Windows 10 컴퓨터에 32비트 Office 앱을 자동으로 설치하고 업데이트된 Windows 10 방법을 배워야 합니다.
-ms.openlocfilehash: 843be426d817da1173769b3b66dc4c054179f0fd
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 134d5f2918e3f28c2025b282b9ae0325b64fe0474ae8123d0637bb43c4730c55
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803573"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>비즈니스용 Office 클라이언트 배포를 Microsoft 365 준비
 
@@ -53,7 +53,7 @@ ms.locfileid: "52924230"
   
 다음과 같은 PC 환경을 사용하는 최종 사용자에게 유용합니다.
   
-- **사용자** Windows 10 Business 라이선스, 비즈니스용 활성 Microsoft 365 라이선스, Windows 10 크리에이터스 업데이트가 있으며 Azure Active Directory. 
+- **사용자** Windows 10 Business, 비즈니스용 활성 Microsoft 365 라이선스가 있으며 Windows 10 크리에이터스 업데이트 사용자 라이선스가 Azure Active Directory. 
     
 - **64비트** Office(예: Word, Excel, PowerPoint). 64비트 Office 앱이 필요한 경우 비즈니스용 앱 콘솔에서 64비트 2016 Click-to-Run 버전을 트리거하는 Office 지원이 Microsoft 365 적합하지 않습니다. 
     

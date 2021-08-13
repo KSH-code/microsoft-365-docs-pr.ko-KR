@@ -13,12 +13,12 @@ ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: Region 매개 변수를 사용하여 Multi-Geo의 위성 위치에서 사용하도록 eDiscovery를 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 4d3481fe8b72bb970893ce065293a7a2cc717331
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4393fadbdf81daf7e85bcc9d49929b8351b035b48e2ce58542e9cf1f1fd8f684
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923723"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53858486"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Microsoft 365 Multi-Geo eDiscovery 구성
 

@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 25451d9ec1f274b77862415e296bc264270729f2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 19297ead6978e77f563aad34c4fa608bbaf136b3480498797785a1a27b5eb638
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53808935"
 ---
 # <a name="payment-information-for-latvia"></a>라트비아의 결제 정보
 
@@ -31,6 +31,6 @@ EUR로만 결제하고 송장 번호를 송장 번호를 송금합니다.
 **은행:** Citibank, London  
 **SWIFT 코드/BIC:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**SORT 코드:** 185008  
-**계정 번호:** 12207591  
+**SORT 코드: 185008**  
+**계정 번호: 12207591**  
 **계정 이름:** MICROSOFT

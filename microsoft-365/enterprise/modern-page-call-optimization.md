@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: SharePoint online 서비스 끝점 호출 횟수를 제한 하여 SharePoint Online에서 최신 및 클래식 게시 사이트 페이지를 최적화하는 방법에 대해 알아보세요.
-ms.openlocfilehash: cab0f6a020bd1148a0e852b5a393a6ad907f9771
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 83a9fdaef8b5441955be7e7ebc8fc8553030892eebb7ddd8e518750e9cd26c0a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53858539"
 ---
 # <a name="optimize-page-calls-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>SharePoint Online 최신 및 클래식 게시 사이트 페이지에서 페이지 호출 최적화
 

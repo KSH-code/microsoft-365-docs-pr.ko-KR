@@ -12,12 +12,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키를 설정한 후 AKV 키를 복원하고 사용 권한을 관리하고 데이터 암호화 정책을 만들고 할당하여 키 관리 방법을 배워야 합니다.
-ms.openlocfilehash: da806ec9dcf1327ec5fdd6b0a0c9e7f22c89584e
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 263f5d13a554ab06c140101595e39c98ae1bc9488dbeff13da0eda9c02d334fb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835838"
 ---
 # <a name="manage-customer-key"></a>고객 키 관리
 
@@ -47,7 +47,7 @@ ms.locfileid: "52345061"
 
    - *정책 설명은* 정책에 대한 정보를 기억하는 데 도움이 되는 정책에 대한 사용자에게 친숙한 설명입니다. 설명에 공백을 포함할 수 있습니다. 예를 들어 "테넌트의 모든 사용자에 대한 여러 워크로드에 대한 루트 정책"을 예로 들 수 있습니다.
 
-예제:
+예:
 
 ```powershell
 New-M365DataAtRestEncryptionPolicy -Name "Contoso_Global" -AzureKeyIDs "https://contosoWestUSvault1.vault.azure.net/keys/Key_01","https://contosoCentralUSvault1.vault.azure.net/keys/Key_02" -Description "Policy for multiple workloads for all users in the tenant."
@@ -63,7 +63,7 @@ Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy <PolicyName o
 
  여기서 *PolicyName은* 정책의 이름입니다. 예를 들어 Contoso_Global.
 
-예제:
+예:
 
 ```powershell
 Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "Contoso_Global"
@@ -97,7 +97,7 @@ DEP는 Azure Key Vault에 저장된 키 집합과 연결됩니다. 사서함에 
 
    - *KeyVaultURI2는* 정책의 두 번째 키에 대한 URI입니다. 예를 들면 <https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02>와 같습니다. 두 URIS를 콤보와 공백으로 구분합니다.
 
-   예제:
+   예:
   
    ```powershell
    New-DataEncryptionPolicy -Name USA_mailboxes -Description "Root key for mailboxes in USA and its territories" -AzureKeyIDs https://contoso_EastUSvault02.vault.azure.net/keys/USA_key_01, https://contoso_CentralUSvault02.vault.azure.net/keys/USA_Key_02
@@ -143,7 +143,7 @@ DEP를 만들 수 있도록 원격으로 SharePoint Online에 연결해야 Windo
    Register-SPODataEncryptionPolicy -Identity <adminSiteCollectionURL> -PrimaryKeyVaultName <PrimaryKeyVaultName> -PrimaryKeyName <PrimaryKeyName> -PrimaryKeyVersion <PrimaryKeyVersion> -SecondaryKeyVaultName <SecondaryKeyVaultName> -SecondaryKeyName <SecondaryKeyName> -SecondaryKeyVersion <SecondaryKeyVersion>
    ```
 
-   예제:
+   예:
   
    ```powershell
    Register-SPODataEncryptionPolicy -Identity https://contoso.sharepoint.com -PrimaryKeyVaultName 'stageRG3vault' -PrimaryKeyName 'SPKey3' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'stageRG5vault' -SecondaryKeyName 'SPKey5' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a’
@@ -287,7 +287,7 @@ IsEncrypted 속성은 사서함이 암호화된 경우 **true** 값을 반환하
 
 여기서 *PolicyName은* 정책의 이름 또는 고유 ID입니다. 예를 들어 Contoso_Global.
 
-예제:
+예:
 
 ```powershell
 Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Enabled $false
@@ -301,7 +301,7 @@ Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Enabled $false
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -319,7 +319,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -331,7 +331,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com
