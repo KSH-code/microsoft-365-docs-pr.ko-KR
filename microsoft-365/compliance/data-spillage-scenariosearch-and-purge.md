@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: eDiscovery 및 검색 도구를 사용하여 조직의 데이터 유출 인시던트 관리 및 대응
-ms.openlocfilehash: f92887018a7ab1cec35526c2a36cce4b0889172e
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 5fb9e7a4a744bf05990634c433b6a5b56f21f94dea9b30326be7e124b926c8cf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683778"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53802123"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오 - 검색 및 제거
 
@@ -87,7 +87,7 @@ eDiscovery 사례와 연결된 콘텐츠 검색을 만들 내용은 [Core eDisco
   
 검토할 사서함 수가 1,000개가 넘는 경우, 검토할 사서함당 전자 메일 메시지가 100개 이상인 경우 날짜 범위 또는 보낸 사람/받는 사람과 같은 추가 키워드 또는 조건을 사용하여 초기 검색을 여러 검색으로 나누고 각 검색의 결과를 개별적으로 검토할 수 있습니다. 7단계에서 메시지를 삭제할 때 사용할 모든 검색 쿼리를 [기록해 두어야 합니다.](#step-7-permanently-delete-the-spilled-data)
 
-등록자 또는 최종 사용자에게 Office 365 E5 라이선스가 할당된 경우 등록된 E5를 사용하여 검색 결과를 한 Advanced eDiscovery. 검토할 전자 메일 메시지가 10,000개보다 많은 경우 검색 쿼리를 날짜 범위로 나누고 검색 결과가 날짜별로 정렬될 때 각 결과를 개별적으로 검토할 수 있습니다. 이 Advanced eDiscovery 미리 보기 패널의 **레이블** 기능을 사용하여 검색 결과에 태그를 지정하고 레이블을 지정한 태그로 검색 결과를 필터링할 수 있습니다. 보조 검토자와 공동 작업할 때 유용합니다. 광학 문자 인식, Advanced eDiscovery 스레딩 및 예측 코딩과 같은 추가 분석 도구를 사용하면 수천 개의 메시지를 빠르게 처리하고 검토하고 추가 검토를 위해 태그를 지정할 수 있습니다. 자세한 [내용은 에 대한 빠른 Advanced eDiscovery.](./get-started-with-advanced-ediscovery.md)
+취득자 또는 최종 사용자에게 Office 365 E5 라이선스가 할당된 경우 검색 라이선스를 사용하여 한 번씩 최대 10,000개 검색 결과를 Advanced eDiscovery. 검토할 전자 메일 메시지가 10,000개보다 많은 경우 검색 쿼리를 날짜 범위로 나누고 검색 결과가 날짜별로 정렬될 때 각 결과를 개별적으로 검토할 수 있습니다. 이 Advanced eDiscovery 미리 보기 패널의 **레이블** 기능을 사용하여 검색 결과에 태그를 지정하고 레이블을 지정한 태그로 검색 결과를 필터링할 수 있습니다. 보조 검토자와 공동 작업할 때 유용합니다. 광학 문자 인식, Advanced eDiscovery 스레딩 및 예측 코딩과 같은 추가 분석 도구를 사용하면 수천 개의 메시지를 빠르게 처리하고 검토하고 추가 검토를 위해 태그를 지정할 수 있습니다. 자세한 [내용은 에 대한 빠른 Advanced eDiscovery.](./get-started-with-advanced-ediscovery.md)
 
 유출된 데이터가 포함된 전자 메일 메시지를 찾은 경우 메시지 받는 사람을 확인하여 외부에서 공유된 메시지인지를 파악합니다. 메시지를 더 추적하려면 메시지 추적 로그를 사용할 수 있도록 보낸 사람 정보 및 날짜 범위를 수집할 수 있습니다. 이 프로세스는 [5단계에 설명되어 있습니다.](#step-5-use-message-trace-log-to-check-how-spilled-data-was-shared)
 
@@ -205,7 +205,7 @@ eDiscovery 사례와 연결된 콘텐츠 검색을 만들 내용은 [Core eDisco
 
 ### <a name="auditing-the-data-spillage-investigation-process"></a>데이터 유출 조사 프로세스 감사
 
-감사 로그에서 조사 중에 수행된 eDiscovery 활동을 검색할 수 있습니다. 감사 로그를 검색하여 7단계에서 실행한 **New-ComplianceSearchAction -Purge** 명령에 대한 감사 레코드를 반환하여 유출된 데이터를 삭제할 수도 있습니다. 자세한 내용은 다음을 참조하세요.
+감사 로그에서 조사 중에 수행된 eDiscovery 활동을 검색할 수 있습니다. 감사 로그를 검색하여 7단계에서 실행한 **New-ComplianceSearchAction -Purge** 명령에 대한 감사 레코드를 반환하여 유출된 데이터를 삭제할 수도 있습니다. 자세한 내용은 다음 항목을 참조하세요.
 
 - [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
 

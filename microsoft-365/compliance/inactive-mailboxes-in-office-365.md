@@ -20,12 +20,12 @@ ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 ms.custom:
 - seo-marvel-apr2020
 description: 사서함을 비활성 사서함으로 전환하여 이전 직원의 사서함 콘텐츠를 보존하는 방법을 배워야 합니다.
-ms.openlocfilehash: 6aeb10f1557a991523b60b8e8e85a99fc61f4b87
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3badfacad1ffc58a686efd1f1971ce6dd015398e6662512c1de4ccb463ee98ef
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53801929"
 ---
 # <a name="overview-of-inactive-mailboxes"></a>비활성 사서함 개요
 
@@ -42,7 +42,7 @@ ms.locfileid: "50911254"
 
 ## <a name="inactive-mailboxes-and-microsoft-365-retention-policies"></a>비활성 사서함 및 Microsoft 365 정책
 
-소송 보존 외에도 Microsoft 365 준수 센터에서 새로운 Microsoft 365 보존 정책 기능을 사용하면 사서함을 비활성화할 수 있습니다. To use a retention policy to make an inactive mailbox:
+소송 보존 외에도 사서함의 새로운 Microsoft 365 보존 정책 기능을 Microsoft 365 규정 준수 센터 사서함을 비활성화하는 또 다른 방법이 됩니다. To use a retention policy to make an inactive mailbox:
 
 - 콘텐츠를 보존하거나 보존한 다음 삭제하도록 구성해야 합니다. 보존 정책이 콘텐츠만 삭제하도록 구성된 경우 사용자 계정이 삭제될 때 해당 정책이 적용되는 사서함이 비활성화되지 않습니다.
 

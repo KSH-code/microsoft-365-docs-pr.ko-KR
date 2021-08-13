@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
-ms.openlocfilehash: 8c5099bd9b3261874bc96ca300b445597b2ddeec
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 91800483b5a40e028eb71a03d190fd262f4ce3c1cd71d262ca31dcbd8867d833
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53391378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53798257"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 

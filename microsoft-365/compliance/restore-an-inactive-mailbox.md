@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: 비활성 사서함의 내용을 기존 사서함에 복원(또는 병합)하는 방법을 Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bc9039d21f76affce7f58f1f83597dd9e5eb4ecf
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 19d54f239fb092f8dc29b986461028b990b8e4446bc506440d15ff704f5c3618
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53795797"
 ---
 # <a name="restore-an-inactive-mailbox"></a>비활성 사서함 복원
 

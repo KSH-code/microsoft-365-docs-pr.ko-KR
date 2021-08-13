@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft 브라우저 사용 현황 보고서를 다운로드하는 Microsoft 365 관리 센터.
-ms.openlocfilehash: 2f6f287e5a8642d94c9581fc73525b7bfaafb41b
-ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
+ms.openlocfilehash: 7225b3b1d2c86dd917bc4cb69d2cf3ca398221619710e9f0268e9d861d8d261b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377208"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53798212"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 브라우저 사용
 

@@ -20,18 +20,18 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: 이 문서에서는 독일에서 서비스를 사용하는 고객이 Office 365 있습니다.
 hideEdit: true
-ms.openlocfilehash: 27d7b3c895cb3a8cae148262ce3962f03fb417aa
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 04a183bfbea22d189a45b8fba90f0fc1c28b1577e4b7e82e5f2a0703d5f6a5e2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53795173"
 ---
 # <a name="office-365-germany-endpoints"></a>Office 365 Germany 끝점
 
  *적용 사항: Office 365 관리자*
 
-Office 365 인터넷에 연결해야 합니다. 아래 끝점은 독일 요금제만 사용하는 **Office 365 수** 있습니다.
+Office 365은 인터넷을 연결해야 합니다. 아래 끝점은 독일 요금제만 사용하는 **Office 365 수** 있습니다.
 
 > [!NOTE]
 > 독일의 새 Microsoft 365 지역으로 전환하는 고객의 경우 끝점이 변경됩니다.

@@ -7,8 +7,8 @@
 
 ID | 범주 | ER | Addresses | 포트
 -- | -------------------- | -- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------
-1  | 최적화<BR>필수 | 아니요 | `outlook.office.de`<BR>`51.4.64.0/23, 51.5.64.0/23` | **TCP:** 443, 80
-2  | 기본<BR>필수 | 아니요 | `r1.res.office365.com` | **TCP:** 443, 80
+1 | 최적화<BR>필수 | 아니요 | `outlook.office.de`<BR>`51.4.64.0/23, 51.5.64.0/23` | **TCP:** 443, 80
+2 | 기본<BR>필수 | 아니요 | `r1.res.office365.com` | **TCP:** 443, 80
 3  | 기본<BR>필수 | 아니요 | `outlook.office.de` | **TCP:** 143, 25, 587, 993, 995
 4  | 기본<BR>필수 | 아니요 | `attachments.office365-net.de, autodiscover-s.outlook.de` | **TCP:** 443, 80
 5  | 허용<BR>필수 | 아니요 | `*.protection.outlook.de`<BR>`51.4.72.0/24, 51.4.80.0/27, 51.5.72.0/24, 51.5.80.0/27, 2a01:4180:4050:400::/64, 2a01:4180:4050:800::/64, 2a01:4180:4051:400::/64, 2a01:4180:4051:800::/64` | **TCP:** 25, 443
@@ -20,9 +20,9 @@ ID | 범주 | ER | Addresses | 포트
 8  | 최적화<BR>필수 | 아니요 | `<tenant>.sharepoint.de`<BR>`51.4.66.0/23, 51.5.66.0/23, 2a01:4180:4030::/44` | **TCP:** 443, 80
 9  | 기본<BR>필수 | 아니요 | `odc.osi.office.de` | **TCP:** 443, 80
 10  | 기본<BR>필수 | 아니요 | `*.wns.windows.com` | **TCP:** 443, 80
-11  | 기본<BR>필수 | 아니요 | `officeapps.live.com` | **TCP:** 443, 80
+11 | 기본<BR>필수 | 아니요 | `officeapps.live.com` | **TCP:** 443, 80
 12  | 기본<BR>필수 | 아니요 | `shellprod.msocdn.de, spoprod-a.akamaihd.net, static.sharepointonline.com` | **TCP:** 443, 80
-13  | 기본<BR>필수 | 아니요 | `*.search.production.de.azuretrafficmanager.de` | **TCP:** 443
+13 | 기본<BR>필수 | 아니요 | `*.search.production.de.azuretrafficmanager.de` | **TCP:** 443
 14  | 기본<BR>필수 | 아니요 | `odc.officeapps.live.com, officeclient.microsoft.com` | **TCP:** 443, 80
 15 | 기본<BR>필수 | 아니요 | `mobile.pipe.aria.microsoft.com, ssw.live.com, watson.telemetry.microsoft.com` | **TCP:** 443, 80
 16  | 기본<BR>필수 | 아니요 | `oneclient.sfx.ms` | **TCP:** 443, 80

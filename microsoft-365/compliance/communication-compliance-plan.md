@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d64edc9d80722080db18c45127bfc82110d1ea9e
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 95712ea75b498c159d3a1d982f417a03d1d978a9d8529294522f25eb80cc6a65
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53802553"
 ---
 # <a name="plan-for-communication-compliance"></a>커뮤니케이션 규정 준수 계획
 
@@ -38,11 +38,11 @@ ms.locfileid: "48131540"
 - 개인 정보
 - 보안
 - 인적 리소스
-- 법무
+- 법률 정보
 
 ## <a name="plan-for-the-investigation-and-remediation-workflow"></a>조사 및 수정 워크플로 계획
 
-보안 및 준수 센터에서 정기적인 케이던스에 대한 경고 및 사례를 모니터링하고 검토하려면 [전담 Microsoft 365 선택합니다.](https://compliance.microsoft.com/) 조직의 여러 커뮤니케이션 규정 준수 역할 그룹에 사용자 및 관련자를 할당하는 방법을 이해해야 합니다.
+의 정기적인 케이던스에 대한 경고 및 사례를 모니터링하고 검토하려면 전용 이해 [관계자를 Microsoft 365 규정 준수 센터.](https://compliance.microsoft.com/) 조직의 여러 커뮤니케이션 규정 준수 역할 그룹에 사용자 및 관련자를 할당하는 방법을 이해해야 합니다.
 
 통신 정책 및 경고를 관리하는 방법에 따라 관리자, 검토자 및 조사자를 위한 하나 이상의 역할 그룹에 사용자를 할당해야 합니다. 특정 역할 그룹에 사용자를 할당하여 다양한 통신 준수 기능 집합을 관리할 수 있습니다. 또는 모든 통신 준수 사용자를 통신 준수 역할 그룹에 할당하도록 결정할 수 있습니다. 단일 역할 그룹 또는 여러 그룹을 사용하여 규정 준수 관리 요구 사항에 가장 잘 맞도록 합니다.
 

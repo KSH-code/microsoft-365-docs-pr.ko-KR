@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a3c7f88441b05d6c64470f6632b9c63ac67b295c
-ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
+ms.openlocfilehash: 4fab4e7d8b736646223928610e257e84d628b6d960f15f480506627b9ecf5960
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2021
-ms.locfileid: "53363958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53801852"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 

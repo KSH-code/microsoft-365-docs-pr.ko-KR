@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에는 Office 2007 또는 Office 2010을 사용하여 업그레이드를 계획하는 데 도움이 되는 리소스가 포함되어 있습니다.
-ms.openlocfilehash: 65f635e5c6195222ef2e39898cb1da2ee0dc0df0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d93a1a00e2738d907fdfc9a9c9cad8a64f23519c647315166f093d424e7217b9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53794933"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>Office 2007 또는 Office 2010 서버 및 클라이언트에서 업그레이드 계획
 
@@ -83,7 +83,7 @@ Microsoft 365 Microsoft 클라우드에서 사용하도록 설정하고 보호�
 
 - 조직에서 적격 수의 Microsoft 365 라이선스를 구입하는 경우 FastTrack 팀이 설치 프로세스를 진행하는 데 도움을 줄 수 있습니다. 자세한 내용은 [FastTrack for Microsoft 365.](https://www.microsoft.com/fasttrack/microsoft-365)
 
-- 소규모 조직에 소속되어 있는 경우 또는 조직의 Office 업그레이드를 처리하려면 Microsoft 365 Business 사용자를 최신 Office 클라이언트로 업그레이드를 [참조하세요.](/office365/admin/setup/upgrade-users-to-latest-office-client) 
+- 소규모 조직에 소속되어 있는 경우 또는 조직의 Office 업그레이드를 직접 처리하려면 [upgrade your Microsoft 365 Business users to the latest Office client 을 참조하세요.](/office365/admin/setup/upgrade-users-to-latest-office-client) 
   
 ## <a name="im-a-home-user-what-do-i-do"></a>저는 가정용 사용자입니다. 어떻게 해야 하나요?
 

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 법적 보유 알림을 보내고 Advanced eDiscovery 추적할 수 있는 정보 보호 사례에서 통신 도구를 사용합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 026670b9ed45f366ff3d711d8f2b2d0274be5a19
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 8b33165e6d39a1829f99e0a0194bc7938b95b9600e2977dec920e0dbb97c56d9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227106"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53802444"
 ---
 # <a name="create-a-legal-hold-notice"></a>법적 보유 알림 만들기
 

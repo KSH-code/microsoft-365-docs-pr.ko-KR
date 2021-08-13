@@ -19,13 +19,13 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
-description: Microsoft 365 관리 센터의 보고서 대시보드를 사용하여 Microsoft Dynamics 365 고객 Microsoft 365 보고서를 다운로드하는 방법을 학습합니다.
-ms.openlocfilehash: 7975db1f3681ab0823e222f017f6addb514dafd7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft Dynamics 365 고객 음성 활동 보고서를 Microsoft 365 관리 센터.
+ms.openlocfilehash: 3b7e326a8661523865235880b0d0affd98c8836f531908943670caab0ad4fec4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52242063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53797975"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>Microsoft 365 관리 센터의 보고서 - Dynamics 365 고객 음성 활동
 

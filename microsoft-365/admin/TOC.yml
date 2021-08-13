@@ -10,6 +10,12 @@
           href: ../commerce/try-or-buy-microsoft-365.md
         - name: 설정 계획
           href: setup/plan-your-setup.md
+        - name: Windows 365 Business 플랜
+          items:
+            - name: Windows 365 Business 및 Cloud PC 시작
+              href: setup/get-started-windows-365-business.md
+            - name: Windows 365 Business 크기 조정 옵션
+              href: setup/windows-365-business-sizing.md
         - name: 둘러보기 설정을 사용하여 조직 설정
           items:
             - name: Microsoft 365 Business Basic
@@ -289,6 +295,8 @@
               href: usage-analytics/active-user-in-usage-reports.md
             - name: 보고서 사용자 지정
               href: usage-analytics/customize-reports.md
+            - name: Microsoft 365 GCC를 사용한 사용 현황 분석
+              href: usage-analytics/connect-to-gcc-data-with-usage-analytics.md
             - name: 사용 현황 분석 데이터 모델 정보
               href: usage-analytics/usage-analytics-data-model.md
             - name: 사용 현황 분석 오류 문제 해결

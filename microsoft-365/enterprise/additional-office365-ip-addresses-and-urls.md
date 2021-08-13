@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: '요약: 새로운 엔드포인트 웹 서비스에는 특정 시나리오에 맞는 적은 수의 엔드포인트가 포함되어 있지 않습니다.'
 hideEdit: true
-ms.openlocfilehash: 76bfc947460d4c513207c3a53b2f4536282c65e1
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 9d653b706946158e1a4c4619e1e569ca200011d438eae2605cf5309efed1937a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53795221"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스에 포함되지 않은 추가 엔드포인트
 
@@ -49,8 +49,8 @@ DNS 외에도 설명된 특정 시나리오가 필요하지 않는 경우 대부
 
 |행|용도|대상|유형|
 |---|---|---|---|
-|1 |PST 및 파일 수집를 위한 [서비스 가져오기](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6)|추가 요구 사항은 [서비스 가져오기](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6)를 참조하세요.|일반적이지 않은 아웃바운드 시나리오|
-|2 |[Office 365용 Microsoft 고객 지원 및 복구 도우미](https://diagnostics.office.com/#/)|<https://autodiscover.outlook.com> <br> <https://officecdn.microsoft.com> <br> <https://api.diagnostics.office.com> <br> <https://apibasic.diagnostics.office.com> <br> <https://autodiscover-s.outlook.com> <br> <https://cloudcheckenabler.azurewebsites.net> <br> <https://login.live.com> <br> <https://login.microsoftonline.com> <br> <https://login.windows.net> <br> <https://o365diagtelemetry.trafficmanager.net> <br> <https://odc.officeapps.live.com> <br> <https://offcatedge.azureedge.net> <br> <https://officeapps.live.com> <br> <https://outlook.office365.com> <br> <https://outlookdiagnostics.azureedge.net>|아웃바운드 서버 트래픽|
+|1|PST 및 파일 수집를 위한 [서비스 가져오기](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6)|추가 요구 사항은 [서비스 가져오기](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6)를 참조하세요.|일반적이지 않은 아웃바운드 시나리오|
+|2|[Office 365용 Microsoft 고객 지원 및 복구 도우미](https://diagnostics.office.com/#/)|<https://autodiscover.outlook.com> <br> <https://officecdn.microsoft.com> <br> <https://api.diagnostics.office.com> <br> <https://apibasic.diagnostics.office.com> <br> <https://autodiscover-s.outlook.com> <br> <https://cloudcheckenabler.azurewebsites.net> <br> <https://login.live.com> <br> <https://login.microsoftonline.com> <br> <https://login.windows.net> <br> <https://o365diagtelemetry.trafficmanager.net> <br> <https://odc.officeapps.live.com> <br> <https://offcatedge.azureedge.net> <br> <https://officeapps.live.com> <br> <https://outlook.office365.com> <br> <https://outlookdiagnostics.azureedge.net>|아웃바운드 서버 트래픽|
 |3 |Azure AD Connect(w/SSO 옵션)-WinRM 및 원격 PowerShell|고객 STS 환경(AD FS 서버 및 AD FS 프록시) \| TCP 포트 80 및 443|인바운드 서버 트래픽|
 |4 |AD FS 프록시 서버와 같은 STS(페더레이션 고객만 해당)|고객 STS(예: AD FS 프록시) \| 포트 TCP 443 또는 TCP 49443 w/ClientTLS|인바운드 서버 트래픽|
 |5 |[Exchange Online의 통합 메시징/SBC 통합](/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers)|-프레미스 세션 경계 컨트롤러와 \* .um.outlook.com|아웃바운드 서버 전용 트래픽|
@@ -59,9 +59,9 @@ DNS 외에도 설명된 특정 시나리오가 필요하지 않는 경우 대부
 |8 |[Exchange 하이브리드](/exchange/exchange-deployment-assistant) 프록시 인증|고객 온-프레미스 STS|인바운드 서버 트래픽|
 |9 |[Exchange 하이브리드 구성 마법사](/exchange/hybrid-configuration-wizard)를 사용하여 [Exchange 하이브리드](/exchange/exchange-deployment-assistant)를 구성하는 데 사용됩니다. <p> 참고 :이 끝점은 Exchange 하이브리드 구성에만 필요합니다|TCP 포트 80 및 443의 domains.live.com. Exchange 2010 SP3 하이브리드 구성 마법사에서만 필요합니다. <p> GCC High, DoD IP 주소: 40.118.209.192/32; 168.62.190.41/32 <p> Worldwide Commercial & GCC: \* .store.core.windows.net; asl.configure.office.com; tds.configure.office.com; mshybridservice.trafficmanager.net ; <br> aka.ms/hybridwizard; <br> shcwreleaseprod.blob.core.windows.net/shcw/ \* ;|아웃바운드 서버 전용 트래픽|
 |10 |AutoDetect 서비스는 [Exchange 하이브리드](/exchange/exchange-deployment-assistant) 시나리오에서 [iOS 및 Android용 Outlook을 통한 하이브리드 최신 인증](/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)과 함께 사용됩니다. <p> `*.acompli.net` <br> `*.outlookmobile.com` <br> `*.outlookmobile.us` <br> `52.125.128.0/20` <br> `52.127.96.0/23`|TCP 443의 고객 온-프레미스 Exchange 서버|인바운드 서버 트래픽|
-|11 |Exchange 하이브리드 Azure AD 인증|*.msappproxy.net|TCP 아웃바운드 서버 전용 트래픽|
+|11|Exchange 하이브리드 Azure AD 인증|*.msappproxy.net|TCP 아웃바운드 서버 전용 트래픽|
 |12 |Office 2016의 비즈니스용 Skype에는 UDP 포트를 사용하는 비디오 기반 화면 공유 기능이 포함되어 있습니다. Office 2013 이하의 이전 비즈니스용 Skype 클라이언트에서는 TCP 포트 443을 사용하는 RDP를 이용했었습니다.|52.112.0.0/14에 열린 TCP 포트 443|Office 2013 이전의 비즈니스용 Skype 이전 클라이언트 버전|
-|13 |비즈니스용 Skype Online에 대한 비즈니스용 Skype 하이브리드 온-프레미스 서버 연결|13.107.64.0/18, 52.112.0.0/14 <br> UDP 포트 50,000~59,999 <br> TCP 포트 50,000~59,999; 5061|비즈니스용 Skype 온-프레미스 서버 아웃바운드 연결|
+|13|비즈니스용 Skype Online에 대한 비즈니스용 Skype 하이브리드 온-프레미스 서버 연결|13.107.64.0/18, 52.112.0.0/14 <br> UDP 포트 50,000~59,999 <br> TCP 포트 50,000~59,999; 5061|비즈니스용 Skype 온-프레미스 서버 아웃바운드 연결|
 |14 |온-프레미스 하이브리드 연결을 사용하는 클라우드 PSTN에는 온-프레미스 호스트에 열린 네트워크 연결이 필요합니다. 비즈니스용 Skype Online 하이브리드 구성에 대한 자세한 내용은|[비즈니스용 Skype 서버 및 Office 365 간 하이브리드 연결 플랜](/skypeforbusiness/hybrid/plan-hybrid-connectivity)을 참조하세요.|비즈니스용 Skype 온-프레미스 하이브리드 인바운드|
 |15|**인증 및 ID FQDN** <p> 작동하려면 FQDN `secure.aadcdn.microsoftonline-p.com`가 클라이언트의 Internet Explorer(IE) 또는 Edge의 신뢰할 수 있는 사이트 영역에 있어야 합니다.||신뢰할 수 있는 사이트|
 |16 |**Microsoft Teams FQDN** <p> Internet Explorer 또는 Microsoft Edge를 사용하는 경우 먼저 제3자 쿠키를 사용하고 팀의 FQDN을 신뢰할 수 있는 사이트에 추가해야 합니다. 이는 14번째 줄에 나열된 제품군 전체의 FQDN, CDN 및 원격 분석 외에 추가되는 사항입니다. 자세한 내용은 [Microsoft Teams에 대한 알려진 문제점](/microsoftteams/known-issues)을 참조하세요.||신뢰할 수 있는 사이트|

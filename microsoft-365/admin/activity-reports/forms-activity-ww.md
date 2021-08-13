@@ -19,13 +19,13 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
-description: Microsoft 365 관리 센터의 보고서 대시보드를 사용하여 Microsoft Forms 활동 보고서를 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 977ee360d91df0b15e25e86d052d852f9acafe6c
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft Forms 활동 보고서를 다운로드하는 Microsoft 365 관리 센터.
+ms.openlocfilehash: 312a1abe940d75a04760c757ed787f4e6d1a6e2fad6668753fc76d89d8247a09
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52242327"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53798113"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365 관리 센터의 보고서 - 양식 활동
 

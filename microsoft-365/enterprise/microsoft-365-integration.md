@@ -22,12 +22,12 @@ search.appverid:
 - MED150
 ms.assetid: 263faf8d-aa21-428b-aed3-2021837a4b65
 description: 이 문서에서는 기존 디렉터리 서비스 및 Microsoft 365 환경과 통합하는 방법을 알아보십시오.
-ms.openlocfilehash: c0453b7685254ccbbb301a17749fe48549fae78d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 48d7066ea51647cc0e7594dd774201d736471369b6158550cb1a238b65fa0d0e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53795137"
 ---
 # <a name="microsoft-365-integration-with-on-premises-environments"></a>Microsoft 365 환경과의 통합
 
@@ -38,7 +38,7 @@ ms.locfileid: "50923969"
  - AD DS를 통합할 때 두 환경의 사용자 계정을 동기화하고 관리할 수 있습니다. 또한 사용자가 자신의온-프레미스 자격 증명을 사용하여 두 환경 모두에 로그온할 수 있도록 PHS(암호 해시 동기화) 또는 SSO(Single Sign-On)를 추가할 수도 있습니다.
  - 사내 서버 제품과 통합하는 경우 하이브리드 환경을 만들 수 있습니다. 하이브리드 환경은 사용자 또는 정보를 마이그레이션할 때 도움이 될 수 Microsoft 365, 또는 일부 사용자 또는 일부 정보를 계속해서 클라우드에 두는 데 도움이 될 수 있습니다. 하이브리드 환경에 대한 자세한 내용은 하이브리드 [클라우드를 참조하세요.](../solutions/cloud-architecture-models.md#hybrid)
 
-Microsoft 365 관리 센터에서 사용자 지정된 설정 지침에 대해 Azure AD(Azure Active Directory) 관리자를 사용할 수도 있습니다(로그인해야 Microsoft 365.
+Azure AD(Azure Active Directory)를 사용하여 사용자 지정된 설정 지침을 Microsoft 365 관리 센터 있습니다(로그인해야 Microsoft 365.
 
 - [Azure AD 설정 가이드](https://aka.ms/aadpguidance)
 - [사용자의 디렉터리에서 사용자 동기화](https://aka.ms/aadconnectpwsync)

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: 보고서의 Microsoft 365 보고서 대시보드를 사용하여 활성 사용자 보고서를 Microsoft 365 관리 센터 사용되는 제품 라이선스 수를 알아보는 방법을 알아보고
-ms.openlocfilehash: d127ddccd4944279052c628cbee9cc37dd3c8358
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 685373b41d86239f8c552fef0252472d82be3c235babcec77d1b6c806ad4116f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53391366"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53798284"
 ---
 # <a name="assess-the-microsoft-365-active-users-report"></a>활성 사용자 Microsoft 365 평가
 

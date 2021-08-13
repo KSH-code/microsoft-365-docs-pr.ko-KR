@@ -14,12 +14,12 @@ ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 ms.custom:
 - seo-marvel-apr2020
 description: 비활성으로 만들고 콘텐츠를 In-Place 사서함에 대한 보류를 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: d72a5407bfafabed30466447e404cdd4196678ae
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 5c10a170f3c6e4d7d692be7719f9514e892f154cdc1ba1a021f45ab7c92eebf8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53795821"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>사서함에 In-Place 사서함을 보류합니다Exchange Online
 
@@ -86,7 +86,7 @@ ms.locfileid: "53226098"
 
 ## <a name="more-information"></a>추가 정보
 
-소프트 삭제된 사서함을 비활성 사서함으로 설정한 후 다양한 방법으로 사서함을 관리할 수 있습니다. 자세한 내용은 다음을 참조하세요.
+소프트 삭제된 사서함을 비활성 사서함으로 설정한 후 다양한 방법으로 사서함을 관리할 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.
 
 - [비활성 사서함의 유지 보존 기간 변경](change-the-hold-duration-for-an-inactive-mailbox.md)
 
