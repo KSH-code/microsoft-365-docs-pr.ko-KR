@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스케마의 IdentityQueryEvents 테이블
 description: 고급 헌팅 스케마의 IdentityQueryEvents 테이블에서 Active Directory 쿼리 이벤트에 대해 자세히 알아보십시오.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, IdentityQueryEvents, Azure AD, Active Directory, Microsoft Defender for Identity, ID, LDAP 쿼리
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, IdentityQueryEvents, Azure AD, Active Directory, Id용 Microsoft Defender, ID, ID, LDAP 쿼리
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 89f6f83112bc6bea57a3b5f7703353adb9d87a30
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 49d420bcf938ab0180b3d6ddaf518d9d2f55c89b3d7bd0fc104a8e05a79c0686
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53799421"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 

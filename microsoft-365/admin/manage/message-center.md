@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: 새로운 기능 및 Microsoft 365 및 기타 중요한 공지 사항을 추적하는 데 대한 메시지 센터의 역할에 대한 개요를 얻습니다.
-ms.openlocfilehash: 302ae9aef9669d8eb567680f5d96acf5b0c32009
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: ec011330541e9b1c03ba5bb12f3e41645ace5abdecba4de357906e93f9cbfc37
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53392542"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53825145"
 ---
 # <a name="message-center"></a>메시지 센터
 
@@ -189,7 +189,7 @@ ms.locfileid: "53392542"
 
 ### <a name="display-messages-in-your-preferred-language"></a>원하는 언어로 메시지 표시
   
-기계 번역을 사용하여 원하는 언어로 메시지를 자동으로 표시합니다. 언어를 [설정하는 방법에](language-translation-for-message-center-posts.md) 대한 자세한 내용은 메시지 센터 게시물의 언어 번역을 읽어 읽습니다.
+기계 번역을 사용하여 귀하가 선호하는 언어로 메시지를 자동으로 표시합니다. 언어 설정 방법에 대한 자세한 내용은 [메시지 센터 게시물의 언어 번역](language-translation-for-message-center-posts.md)을 참조하세요.
   
 > [!NOTE]
 > 주간 다이제스트 및 전자 메일로 전송된 모든 게시물은 영어로만 전송됩니다. 받는 사람은 이 [Outlook용 번역기](https://support.microsoft.com/office/3d7e12ed-99d6-406e-a453-b9db0d9653fa) 기본 설정 언어로 메시지를 읽을 수 있습니다.
@@ -302,8 +302,8 @@ Microsoft 365 서비스 변경 내용에 대해 조치 가능한 많은 정보�
 
 2. **저장을** 선택하여 변경 내용을 보관합니다.
 
-## <a name="related-content"></a>관련 콘텐츠
+## <a name="related-content"></a>관련된 컨텐츠
 
-[표준 또는 대상 지정 릴리스 옵션](../manage/release-options-in-office-365.md) 설정(문서)\
+[표준 또는 대상 출시 옵션 설정](../manage/release-options-in-office-365.md)(문서)\
 [새로운](../manage/show-hide-new-features.md) Office(문서)에 나타나는 새 기능 관리\
 [비즈니스 구독 및 청구 설명서(링크](../../commerce/index.yml) 페이지)

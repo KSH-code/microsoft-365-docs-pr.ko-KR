@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅Chema의 IdentityLogonEvents 테이블
 description: 고급 헌팅 구조의 IdentityLogonEvents 표에서 Active Directory에서 기록하는 인증 이벤트에 대해 자세히 알아보십시오.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, IdentityLogonEvents, Azure AD, Active Directory, Microsoft Defender for Identity, ID
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, IdentityLogonEvents, Azure AD, Active Directory, ID용 Microsoft Defender, ID
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3cd0c0f371c73a515704791e829be7266d400580
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: d7f5c40030f019f309b143db9271e62b8ba8172c83d10d479b2df60277394eca
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572756"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53799481"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 

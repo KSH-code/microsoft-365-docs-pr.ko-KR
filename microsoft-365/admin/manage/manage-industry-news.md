@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 사용자에게 업계에 대한 최신 뉴스 헤드라인과 조직의 정보를 제공하고, 뉴스 서비스를 사용하여 조직에 대해 사용자 지정된 뉴스 피드를 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: dedc39d9c82f66d64660f66be8e77ba954246e09
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: ccb2c944fb9f3a68d0670aa86acb0095362516dcad98069defe2aba1ec97dc97
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53392842"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53825167"
 ---
 # <a name="manage-industry-news"></a>산업 뉴스 관리
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 43d1e11ebea2933f8a101b640690f44089e2087d
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: e11efcf73a6fcf91e6260ef4ecf376cf6b453dca770585a37681ebd4524b701d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649837"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53833522"
 ---
 # <a name="raw-data-streaming-api"></a>원시 데이터 스트리밍 API
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6aa112f0d0219394445ebd57cacdfeb2df83ec4c
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: a82b88683eaf1e7033115ce98773abf810602264dda8e48f5004d4ee5bf1cdc6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53817273"
 ---
 # <a name="threat-protection-report-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 위협 방지 보고서
 
@@ -33,7 +33,7 @@ ms.locfileid: "53567803"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
 위협 방지 보고서는 조직에서 생성된 경고에 대한 높은 수준의 정보를 제공합니다. 이 보고서에는 검색 원본, 범주, 심각도, 상태, 분류 및 시간 경과에 대한 경고 확인을 보여주는 추세 정보가 포함되어 있습니다.
 

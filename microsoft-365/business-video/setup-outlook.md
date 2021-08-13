@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 전자 메일에 대한 Outlook 설정하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9dc0ed41df4aaadee060e0c7606600ba5512df09
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: ce6ec27043f363f0a4aecd0981e78f7b474e97776d766ecda8ac34a808c44b90
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578642"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809567"
 ---
 # <a name="set-up-outlook-for-microsoft-365-for-business-email"></a>비즈니스용 Microsoft 365용 Outlook 설정 
 
@@ -35,7 +35,7 @@ ms.locfileid: "51578642"
 
 Office 앱을 설치한 후&#39;, 일정 및 연락처를 Outlook 시작하도록 설정할 수 있습니다. 여기서&#39;방법을 알 수 있습니다.
 
-1. 시작 메뉴를 열 수 있습니다. 검색 Outlook 을 선택하고 선택 합니다.
+1. 열기 시작 메뉴. 검색 Outlook 을 선택하고 선택 합니다.
 2. 전자 메일 Microsoft 365 입력하고 를 **커넥트.**
 3. 이전 또는 개인 전자 메일 주소와 같이 사용하려는 추가 전자 메일 주소를 입력합니다. 다음 **을 선택합니다.**
 4. 메시지가 표시될 경우 암호를 입력한 다음 로그인 **을 선택합니다.**

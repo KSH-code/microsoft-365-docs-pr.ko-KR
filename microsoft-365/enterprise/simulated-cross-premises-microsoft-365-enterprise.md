@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: '요약: 시뮬레이트된 프레미스 간 가상 네트워크를 Microsoft Azure에 Microsoft 365 테스트 환경으로 만듭니다.'
-ms.openlocfilehash: 545cce668df66b594de6b45ddd506b87afcf44ac
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 35284ad032539304293db8f9c678bbe2d30179af370bb0cf81d2081bdf4e2976
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926035"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53794803"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 시뮬레이트된 크로스-프레미스 가상 네트워크
 

@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스키마의 EmailEvents 표
 description: 고급 헌팅 Microsoft 365 EmailEvents 표에서 전자 메일과 관련된 이벤트에 대해 자세히 알아보기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, EmailEvents, network message id, sender, recipient, attachment id, attachment name, malwaredict, phishing verdict, attachment count, link count, url count
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, EmailEvents, 네트워크 메시지 ID, 보낸 사람, 받는 사람, 첨부 파일 ID, 첨부 파일 이름, 맬웨어 결과, 피싱 결과, 첨부 파일 수, 링크 개수, URL 수
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 18d3d768b672364f730b042239ae9fa0042f95f6
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: be0239e4d414dd82b6f37866e1e7980f6681dd41ae222a7796d0ebd421372a61
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53799517"
 ---
 # <a name="emailevents"></a>EmailEvents
 

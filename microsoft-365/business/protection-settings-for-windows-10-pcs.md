@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: 비즈니스용 장치에서 사용할 수 있는 설정에 대해 Microsoft 365 장치를 보호하는 Windows 10 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 4859681d5e71a61b8a5dd58114bce899f485967a
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: b246a0caeb34bac8b9ccbecc9e1008992a700f9e16083a78c98e780605c5af01
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925322"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809299"
 ---
 # <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>PC에 대한 장치 보호 Windows 10 편집하거나 만들기
 
@@ -78,7 +78,7 @@ ms.locfileid: "52925322"
 |인터넷의 의심스러운 콘텐츠에 대한 네트워크 액세스 차단  <br/> |피싱 사기, 악용 또는 기타 악의적인 콘텐츠를 호스팅할 수 있는 신뢰도 낮은 인터넷 위치에 대한 아웃바운드 사용자 연결을 차단하려면 이 설정을 사용합니다. 이 설정은 으로 설정된 Windows Defender 바이러스 백신 사용할 수 **있습니다.** 자세한 내용은 네트워크 [보호를 참조하세요.](/windows/security/threat-protection/windows-defender-antivirus/configure-real-time-protection-windows-defender-antivirus)  <br/> |
 |BitLocker를 사용하여 PC의 파일 및 폴더를 무단 액세스로부터 보호  <br/> |Bitlocker는 컴퓨터 하드 드라이브를 암호화하여 데이터를 보호하고, 컴퓨터가 분실되거나 도난당한 경우 데이터 노출을 방지합니다. 자세한 내용은 [Bitlocker FAQ 를 참조하세요.](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions)  <br/> |
 |사용자가 Microsoft Store에서 앱을 다운로드할 수 있도록 허용  <br/> |사용자가 Microsoft Store에서 앱을 다운로드하여 설치할 수 있도록 허용합니다. 앱에는 게임에서 생산성 도구에 이르기까지 다양한 종류가 있습니다. 따라서 기본값은 **켜기** 이지만 관리자가 보안을 위해 끌 수 있습니다.  <br/> |
-|사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |Cortana가 매우 유용할 수 있습니다! Cortana는 설정을 켜거나 끄고, 길안내를 제공하며, 약속이 준비되어 있는지 확인하여 이 설정을 기본적으로 **켜기로** 유지할 수 있습니다.  <br/> |
+|사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |Cortana 매우 유용할 수 있습니다. Cortana 설정을 켜거나 끄고, 길안을 지정하고, 약속이 준비되어 있는지 확인하여 이 설정을 기본적으로 **켜기로** 유지할 수 있습니다.  <br/> |
 |사용자가 Microsoft에서 Windows 팁 및 광고를 받을 수 있도록 허용  <br/> |Windows 팁은 새로운 기능이 출시된 경우 사용자에게 이를 안내하는 등 매우 유용하게 사용됩니다.  <br/> |
 |자동으로 Windows 10 장치를 최신 상태로 유지  <br/> |Windows 10 장치가 자동으로 최신 상태로 업데이트되도록 합니다.  <br/> |
 |이 시간 동안 유휴 상태일 때 장치 화면 끄기  <br/> |사용자가 유휴 상태일 때 회사 데이터가 안전하게 보호되도록 합니다. 사용자가 커피숍과 같은 공공장소에서 작업하다가 잠시 자리를 비우거나 다른 곳에 주의를 기울인 순간 장치가 타인들의 시선에 노출될 수 있습니다. 이 설정은 사용자가 얼마 동안 유휴 상태이면 화면이 꺼지는지 지정합니다.  <br/> |

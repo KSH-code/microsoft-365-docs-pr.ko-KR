@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 타사 감사를 다운로드하고, Microsoft가 고객 데이터를 안전하게 유지하는 방법을 찾고, 타사 감사를 사용할 때 ISO, HIPAA, FINRA 및 FedRAMP를 준수하는 방법을 Office 365.
-ms.openlocfilehash: 2e473ad4a17ac5c229563ee3286942e90bfc674f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6d0c80389364279425e8539fd9c065d34776692e9e4d189cb2105e0e078027ef
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53841600"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 및 준수 센터의 서비스 보증
 
@@ -97,7 +97,7 @@ ms.locfileid: "52297239"
 
 [비즈니스 제품에 대한 지원 문의 - 관리자 도움말](../business-video/get-help-support.md).
   
-## <a name="frequently-asked-questions"></a>FAQ
+## <a name="frequently-asked-questions"></a>질문과 대답
 <a name="addother"> </a>
 
  **서비스 보증의 문서가 손상된 것 같은 오류가 발생하는 이유는 무엇입니까?**

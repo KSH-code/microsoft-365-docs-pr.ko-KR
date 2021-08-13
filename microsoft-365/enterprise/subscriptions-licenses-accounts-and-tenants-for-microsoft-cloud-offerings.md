@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Ent_Architecture
 description: Microsoft의 클라우드 제품에서 조직, 구독, 라이선스, 사용자 계정 및 테넌트의 관계를 이해합니다.
-ms.openlocfilehash: 34e920e6b5a48adaffcc31150090e96f9c8d8b0e
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: 05c30cd47364a9161d0fa95a952f21d0b62940159cb638127d4eb8240b2a108e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604324"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53794743"
 ---
 # <a name="subscriptions-licenses-accounts-and-tenants-for-microsofts-cloud-offerings"></a>Microsoft 클라우드 제품용 구독, 라이선스, 계정 및 테넌트
 
@@ -52,7 +52,7 @@ Microsoft는 해당 클라우드 제품 간에 일관된 ID 사용 및 요금 �
  
 평가판 구독을 사용할 수도 있지만, 일정 기간이 지나거나 이용 요금이 다 사용된 후에는 구독이 만료됩니다. 평가판 구독을 유료 구독으로 변환할 수 있습니다.
   
-조직은 다수의 Microsoft의 클라우드 서비스를 구독할 수 있습니다. 그림 1에서는 여러 개의 Microsoft 365 구독, Dynamics 365 구독 및 여러 개의 Azure 구독이 있는 단일 조직을 보여줍니다.
+조직은 Microsoft의 클라우드 제품에 대해 여러 개의 구독을 보유할 수 있습니다. 그림 1에서는 여러 개의 Microsoft 365 구독, Dynamics 365 구독 및 여러 개의 Azure 구독이 있는 단일 조직을 보여줍니다.
 
 **그림 1: 여러 개의 조직용 구독 예**
 
@@ -60,7 +60,7 @@ Microsoft는 해당 클라우드 제품 간에 일관된 ID 사용 및 요금 �
   
 ### <a name="licenses"></a>라이선스
 
-Microsoft의 SaaS 클라우드 제품의 경우 라이선스를 통해 특정 사용자 계정이 클라우드 서비스를 사용할 수 있도록 해줍니다. 구독의 일부로서 구독자에게 고정 월별 요금이 청구됩니다. 관리자는 구독의 개별 사용자 계정에 라이선스를 할당합니다. 예를 들어, 그림 2에서 Contoso Corporation는 Microsoft 365 E5를 구독하고 100개의 라이선스를 보유하고 있어 최대 100개의 개별 사용자 계정을 사용하여 Microsoft 365 E5의 기능 및 서비스를 사용할 수 있습니다.
+Microsoft의 SaaS 클라우드 서비스의 경우 라이선스가 있으면 특정 사용자 계정이 클라우드 서비스 제품을 사용할 수 있습니다. 구독의 일부로 고정 월별 요금이 청구됩니다. 관리자는 구독의 개별 사용자 계정에 라이선스를 할당합니다. 그림 2의 예에서 Contoso Corporation에는 100개 라이선스가 있는 Microsoft 365 E5 구독이 있으므로 최대 100개의 개별 사용자 계정이 Microsoft 365 E5 기능 및 서비스를 사용할 수 있습니다.
   
 **그림 2: 조직을 위한 SaaS 기반 구독에 포함된 라이선스**
 
@@ -78,7 +78,7 @@ Azure IaaS 기반 가상 머신의 경우 가상 머신 이미지에 설치되�
   
 ### <a name="user-accounts"></a>사용자 계정
 
-모든 Microsoft 클라우드 서비스의 사용자 계정은 사용자 계정 및 그룹이 포함되어 있는 Azure AD (Azure 액티브 디렉터리) 테넌트에 저장됩니다. Azure AD 테넌트는 Windows server 기반의 서비스인 Azure AD Connect를 사용하여 기존의 AD DS (액티브 디렉터리 도메인 서비스) 계정과 동기화될 수 있습니다. 이를 디렉터리 동기화라고 합니다.
+모든 Microsoft의 클라우드 서비스에 대한 사용자 계정은 사용자 계정 및 그룹을 포함하는 Azure AD(Azure Active Directory) 테넌트에 저장됩니다. Azure AD 테넌트는 Windows 서버 기반 서비스인 Azure AD Connect를 사용하여 기존 AD DS(Active Directory Domain Services) 계정과 동기화될 수 있습니다. 이것을 디렉터리 동기화라고 합니다.
   
 그림 3은 조직 계정이 포함된 일반적인 Azure 테넌트를 사용하는 조직의 여러 구독 예를 보여줍니다.
   
@@ -88,11 +88,11 @@ Azure IaaS 기반 가상 머신의 경우 가상 머신 이미지에 설치되�
   
 ### <a name="tenants"></a>테넌트
 
-SaaS 클라우드 제공품의 경우 테넌트는 클라우드 서비스를 제공하는 서버가 있는 지역 위치입니다. 예를 들어, Contoso Corporation은 유럽 지역을 선택하여 파리 본사에 있는 15,000명의 작업자를 위해 Microsoft 365, EMS 및 Dynamics 365 구독을 호스트했습니다.
+SaaS 클라우드 제품의 경우 테넌트는 클라우드 서비스를 제공하는 서버가 보관된 지역 위치입니다. 예를 들어, Contoso Corporation은 파리 본사에 있는 15,000명의 근로자를 위해 유럽 지역에서 Microsoft 365, EMS 및 Dynamics 365 구독을 호스트하도록 선택했습니다.
   
 Azure IaaS에 호스트된 Azure PaaS 서비스 및 가상 머신 기반 워크로드는 전 세계의 모든 Azure 데이터 센터에서 테넌시를 둘 수 있습니다. Azure PaaS 앱 또는 서비스를 만들 때는 위치로 사용되고, IaaS 워크로드의 요소로도 알려진 Azure 데이터 센터를 지정할 수 있습니다.
   
-Azure AD 테넌트는 계정 및 그룹을 포함하는 Azure AD의 특정 인스턴스를 말합니다. Microsoft 365 또는 Dynamics 365의 유료 또는 평가판 구독에는 무료 Azure AD 테넌트가 포함됩니다. Azure AD 테넌트는 다른 Azure 서비스를 포함하지 않으며 Azure 평가판 또는 유료 구독과 다릅니다.
+Azure AD 테넌트는 계정 및 그룹에 포함된 Azure AD의 특정 인스턴스입니다. Microsoft 365 또는 Dynamics 365의 유료 또는 평가판 구독에는 무료 Azure AD 테넌트가 포함되어 있습니다. 이 Azure AD 테넌트는 다른 Azure 서비스를 포함하지 않으며, Azure 평가판 또는 유료 구독과 다릅니다.
   
 ### <a name="summary-of-the-hierarchy"></a>계층 구조의 요약
 
@@ -120,7 +120,7 @@ Azure AD 테넌트는 계정 및 그룹을 포함하는 Azure AD의 특정 인�
     
   - 일반적인 Azure AD 테넌트에 있는 조직의 사용자 계정
     
-다수의 Microsoft 클라우드 서비스의 구독은 공통 ID제공자 역할을 하는 동일한 Azure AD 테넌트를 사용할 수 있습니다. 온-프레미스 AD DS의 동기화된 계정을 포함하는 중앙 Azure AD 테넌트는 조직에 클라우드 기반의 서비스로서의 ID (IDaaS)를 제공합니다. 
+여러 Microsoft 클라우드 서비스 구독이 공통 ID 공급자의 역할을 하는 동일한 Azure 테넌트를 사용할 수 있습니다. 온-프레미스 AD DS(Active Directory Domain Services)의 동기화된 계정을 포함하는 중앙 Azure AD 테넌트는 조직에 클라우드 기반 IDaaS(Identity as a Service)를 제공합니다. 
   
 **그림 4: 조직에 대한 동기화된 온-프레미스 계정 및 IDaaS**
 

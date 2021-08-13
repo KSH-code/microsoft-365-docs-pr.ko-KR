@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스위마의 DeviceRegistryEvents 테이블
 description: 고급 헌팅 키의 DeviceRegistryEvents 테이블에서 쿼리할 수 있는 레지스트리 이벤트에 대해 자세히 알아보시다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, registryevents, registry, DeviceRegistryEvents, key, subkey, value
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, registryevents, 레지스트리, DeviceRegistryEvents, 키, 하위 키, 값
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0eef71a7ab88d24c1f9d0b3ebdba16b13c855355
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 332a0fc31167efba7d238edd1efde7bacaed8101f037618c2a3a6ed324bef1c9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52024264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53799541"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 

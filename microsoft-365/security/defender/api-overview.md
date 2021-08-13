@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 2ca601c3c68df9f9f1cc4fb90bcfbe907850ce91
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 4587fcc82b4da5e54fb524b125942f32f820dfd480928735d91704687aff6029
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029732"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53799313"
 ---
 # <a name="overview-of-microsoft-365-defender-apis"></a>API Microsoft 365 Defender 개요
 
@@ -53,7 +53,7 @@ Streaming [API를](../defender-endpoint/raw-data-export.md) 사용하여 단일 
 > [!NOTE]
 > 통합 포털로 전환하면 끝점 API용 Microsoft Defender를 기반으로 하는 PowerBi 대시보드에 영향을 주지 않습니다. 대화형 포털 전환에 관계없이 기존 API를 계속 사용할 수 있습니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 | **API 액세스 방법 이해** |
 |-|

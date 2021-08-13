@@ -13,12 +13,12 @@ ms.collection:
 ms.service: o365-administration
 localization_priority: Normal
 description: 전역 관리자는 사용자의 앱 시작 관리자에 최대 3개의 앱을 고정할 수 있습니다.
-ms.openlocfilehash: 786368f1236c7a86a6fbd0dd863ad0296cb65fac
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 6569b05f29a2219c9d1d6c847e65cd29043d80fd82d5e499e2af57ba96af0da9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53825013"
 ---
 # <a name="pin-apps-to-your-users-app-launcher"></a>사용자의 앱 시작커에 앱 고정
 
@@ -28,7 +28,7 @@ Azure Active Directory 포털의 컨트롤을 사용하여 최대 3개의 앱을
 
 ## <a name="use-the-azure-active-directory-portal-to-pin-apps"></a>앱 Azure Active Directory 사용하여 앱 고정
 
-1. 에서 Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 이동하세요.
+1. 의 Microsoft 365 관리 센터 로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>
 2. In the left nav, choose **Show all**, and under **Admin centers**, choose **Azure Active Directory.**
 3. 에서 **Azure Active Directory** 응용 **Enterprise 사용자**  >  **설정을 선택합니다.**
 4. In the **Office 365 설정** section, choose **Add application**.
