@@ -20,12 +20,12 @@ search.appverid: MET150
 ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
 description: 이 문서에서는 미국 정부 및 고가 요금제로 Office 365 끝점에 GCC 있습니다.
 hideEdit: true
-ms.openlocfilehash: 2febfec744dfb527dd99b205f3b2b78f5b9af4e7
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 52027e4c9b503edfb5b051be96c5f238e731c825626b70ee66a2de53f7759dbd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813048"
 ---
 # <a name="office-365-us-government-gcc-high-endpoints"></a>Office 365 미국 정부 GCC High 엔드포인트
 
@@ -39,7 +39,7 @@ Office 365은 인터넷을 연결해야 합니다. The endpoints below should be
 
 ****
 
-|참고|다운로드|
+|메모|다운로드|
 |---|---|
 |**마지막 업데이트:** 2021/05/28 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**다운로드:** [JSON 형식의 전체 목록](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
 |

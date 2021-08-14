@@ -17,18 +17,18 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 description: PowerShell을 사용하여 암호를 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: ac0a47edb4ccbed93c1a3b88df083d463784b4a4
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: d3f5ebfb7f7171cd45cf5ad1749b7bbb807068f812ee2a37f78ead7f6e8660c6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073215"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53858750"
 ---
 # <a name="manage-passwords-with-powershell"></a>PowerShell을 사용하여 암호 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 관리 센터의 암호를 관리하기 위해 Microsoft 365 PowerShell을 사용하여 Microsoft 365. 
+PowerShell을 사용하여 Microsoft 365 암호를 관리할 Microsoft 365 관리 센터 수 Microsoft 365. 
 
 이 문서의 명령 블록에 변수 값을 지정해야 하는 경우 다음 단계를 사용합니다.
 

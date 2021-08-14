@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 팀워크의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: 0924114a73a9bcf55a74744ee371de8c2d326d1c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: db948c7a510c1bfe959b9f8aa07544f0ed9faf03909da9ec182ec18abdea5e82
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822970"
 ---
 # <a name="teamwork--people-experiences"></a>팀워크 - 사람 환경
 
@@ -71,7 +71,7 @@ ms.locfileid: "51579161"
 1. **본문:** 공유 작업 영역 내에서 콘텐츠 통신 및 상호 작용이 조직에서 생산성에 긍정적인 결과를 내는 방법에 대한 자세한 정보를 제공합니다.
 2. **시각화(현재 상태):**
       - 파란색 부분이 헤더에 표현된 백분율을 나타내는 가로 막대
-      - 하이라이트 표시된 백분율을 계산하는 데 사용되는 분수(숫자/분모)입니다.
+      - 헤더에 표시된 백분율을 계산하는 데 사용되는 분수(숫자/분모)를 강조합니다.
         - Numerator: Exchange 통해 그룹 사서함에 전자 메일을 보내는 조직의 사용자 또는 Teams 또는 SharePoint 팀 사이트에서 콘텐츠를 읽고 만드는 조직의 사용자 수입니다.
         - 분모: Exchange 또는 Microsoft Teams 또는 OneDrive 또는 SharePoint에서 메시지를 보내거나 메시지를 보내거나Exchange, Microsoft Teams 또는 SharePoint 중 하나 이상의 서비스에 액세스할 수 있는 사용자 수입니다.
    - 키 메트릭의 피어 벤치마크 값도 백분율로 표시됩니다.

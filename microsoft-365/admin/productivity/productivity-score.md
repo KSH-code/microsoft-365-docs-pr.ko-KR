@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수가 사용자 및 기술 경험 측정값을 반영하는 방식을 알아보고 비슷한 크기의 조직과 비교해 보세요.
-ms.openlocfilehash: ddbc1590abc1383035db1852345310bfc8dd196d
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: f6c469f6b754e7a6ad54d968b555a2bec45e4d2aa8a72d99337ee6a8251e5f0e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393670"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822890"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 

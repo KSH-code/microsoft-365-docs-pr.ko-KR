@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이동성에 대한 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: 7789980a721e5ebaad3d3673fd0e7c640b6f737d
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d3ea6e4803a1aa5d12084d626b60c058dd578832d8707e8269419683a0ed223d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823054"
 ---
 # <a name="mobility--people-experiences"></a>모바일 - 사람 환경
 
@@ -142,7 +142,7 @@ Microsoft 365 Microsoft Outlook, Word, Excel, PowerPoint, OneNote, Microsoft Tea
 :::image type="content" source="../../media/remotework-trend.png" alt-text="원격, 현장 또는 둘 다에서 작업하는 인원 수를 보여하는 차트입니다.":::
 
 1. **헤더:** 회사 네트워크 외부의 집이나 위치에서만 작업하는 비율을 보여줍니다.
-2. **본문:** 하이라이트 사무실에 액세스하지 않고도 사용자에 대한 원격 작업을 촉진하는 것이 중요합니다.
+2. **본문:** 조직의 실제 사무실에 액세스하지 않고도 사용자에 대한 원격 작업을 촉진하는 것이 얼마나 중요한지 강조합니다.
 3. **시각화:** 원격으로만 작업하는 일별 비율 및 일일 작업 인원의 일별 백분율에 대한 추세선이 표시됩니다. 사용자가 하루 동안 3시간 이상의 활동을 수행하면 사용자가 Microsoft 365 앱 것으로 간주됩니다.
 
 ## <a name="related-content"></a>관련 콘텐츠

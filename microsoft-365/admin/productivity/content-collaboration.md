@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 콘텐츠 공동 작업의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: 14d3449faff16893cd74ed1618557092d3347dc5
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: 13bee74b901bef4a4d4086e5cbed97a1bdddbabb145acaee5e68af9f5fdac010
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823294"
 ---
 # <a name="content-collaboration--people-experiences"></a>콘텐츠 공동 작업 - 사람 환경
 
 생산성 점수는 조직의 디지털 변환 여정에 대한 인사이트를 Microsoft 365 지원하는 기술 환경을 제공합니다. 조직의 점수는 사용자 및 기술 환경 측정값을 반영하며 사용자와 비슷한 조직의 벤치마크와 비교할 수 있습니다. 콘텐츠 공동 작업 범주는 사람들이 경험하는 측정의 일부입니다. 자세한 내용은 생산성 점수 개요를 [확인하고](productivity-score.md) Microsoft의 개인 정보 [취급 방침을 참조하세요.](https://privacy.microsoft.com/privacystatement)
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 콘텐츠 공동 작업 인사이트를 시작하려면 조직의 사용자들이 다음에 대한 라이선스를 부여해야 합니다.
 

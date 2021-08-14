@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 생산성 점수로 개인 정보를 보호하는 방법
-ms.openlocfilehash: 5b5997532ddcd1fdf43b4124f8e2d8183bb3d89e
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 928dfc8677cc452fb3c6309d6a42e4390a238d52b7dffa0217a4b4507c8d72a0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822913"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>생산성 점수에 대한 개인 정보 보호 컨트롤
 
@@ -53,7 +53,7 @@ ms.locfileid: "51579173"
 
 보고서 읽기 권한자 또는 사용 현황 요약 보고서 읽기 권한자 역할을 변경 관리 및 채택을 담당하지만 IT 관리자가 아닐 수도 있는 모든 사용자에게 할당합니다. 이 역할은 관리자 센터에서 생산성 점수의 전체 Microsoft 365 액세스할 수 있도록 합니다.
 
-사용 현황 요약 보고서 읽기 프로그램 역할은 2020년 후반에 Microsoft 365 관리 센터에서 할당될 때까지 PowerShell cmdlet을 통해 할당해야 합니다.
+사용 현황 요약 보고서 읽기 프로그램 역할은 2020년 후반에 할당될 때까지 PowerShell cmdlet을 통해 할당해야 Microsoft 365 관리 센터 수 있습니다.
 
 PowerShell을 통해 사용 현황 요약 보고서 읽기 프로그램 역할을 할당합니다.
 

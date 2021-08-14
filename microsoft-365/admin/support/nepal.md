@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 72f4b3d43b765943fc83e70c6e47e60c1fdaa6fb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8a7d0f0b1261a13c7ee9e2bb073f96dc37c0436d28213baff1ef72014623d663
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53832082"
 ---
 # <a name="contact-support-for-nepal"></a>네팔 지원에 문의
 

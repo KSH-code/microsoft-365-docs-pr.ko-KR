@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 조직 데이터를 조직 데이터 원본으로 마이그레이션하는 데 도움이 되는 Microsoft 365.
-ms.openlocfilehash: 084cd4f6b89cfa1b8c5ad89fade3f01a0bf53dce
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6eff9d525f25817f7042e2ce77cfaf0e08170df794db22b13cced81fa791f43e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53858690"
 ---
 # <a name="migrate-your-organization-data-to-microsoft-365-enterprise"></a>조직 데이터를 조직으로 Microsoft 365 Enterprise
 

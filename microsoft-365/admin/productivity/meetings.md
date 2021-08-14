@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 모임 세부 정보 - 사람들이 생산성 점수를 경험합니다.
-ms.openlocfilehash: 47a29ee208f9c6957a3fcf7d1a4b0c71518c680b
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: e9de4ab128628b4308b1796ac0c83637283bba7f505e348206c36179a8c19e73
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823145"
 ---
 # <a name="meetings--people-experiences"></a>모임 - 사람 환경
 
@@ -83,7 +83,7 @@ Microsoft Teams 일정과 Outlook 모임을 더욱 매력적이고 효과적으�
 
 :::image type="content" source="../../media/videouse-meetings.png" alt-text="모임에 대한 기본 인사이트를 보여주는 차트 - 사람 환경.":::
 
-1. **헤더:** 하이라이트 점수에 고려된 비디오 모범 Microsoft Teams 사용하는 온라인 모임의 백분율을 계산합니다.  
+1. **헤더:**  기본 인사이트 및 점수 Microsoft Teams 모범 사례를 사용하는 온라인 모임의 백분율을 강조합니다.
 2. **본문:** 모임 중에 이러한 사례를 사용하여 더욱 매력적으로 활용하는 가치에 대한 정보를 제공합니다. 
 3. **시각화:** 시각화의 분석은 다음과 같은 각 모범 사례를 Microsoft Teams 온라인 모임의 범위를 나타냅니다. 
     - **비디오:** 색이 있는 부분과 분수는 비디오가 켜져 있는 Microsoft Teams 온라인 모임의 백분율을 나타내고 있습니다. 분수는 다음에서 생성됩니다. 
@@ -121,7 +121,7 @@ Microsoft Teams 일정과 Outlook 모임을 더욱 매력적이고 효과적으�
 
 :::image type="content" source="../../media/percentparticipation-meetingtypes.jpg" alt-text="다양한 모임 유형에서 참여율을 표시하는 차트입니다.":::
 
-1. **헤더:** 하이라이트 30분 미만인 Microsoft Teams 온라인 모임의 인스턴트 온라인 모임 비율을 계산합니다.
+1. **헤더:** 지난 28일 동안의 온라인 Microsoft Teams 30분 미만의 인스턴트 온라인 모임 비율을 강조합니다.
 2. **본문:** 현재 채널 기능에서 Meet now를 사용하는 값에 &quot; &quot; Microsoft Teams 제공합니다.
 3. **시각화:** 온라인 모임에 참석하는 사람이 참석하는 모임 유형을 Microsoft Teams. 각 모임 유형은 가로 막대로 표시되어 색이 있는 부분과 분수는 다음을 나타내는 가로 막대로 표시됩니다.
     - **즉석 1:1에서 를 호출합니다.**

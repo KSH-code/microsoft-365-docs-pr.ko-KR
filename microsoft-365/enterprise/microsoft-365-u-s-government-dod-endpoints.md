@@ -22,12 +22,12 @@ f1.keywords:
 description: Office 365은 인터넷을 연결해야 합니다. 아래 끝점은 미국 정부 DoD 요금제만 사용하는 Office 365 도달할 수 있습니다.
 hideEdit: true
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 32a760843453a4d243ee65802325852323402140
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: ba0723e8155039475a6df497db98c11b2fcf0766280ecba3202e3fe607a8645d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813072"
 ---
 # <a name="office-365-us-government-dod-endpoints"></a>Office 365 미국 정부 DoD 끝점
 
@@ -41,7 +41,7 @@ Office 365은 인터넷을 연결해야 합니다. 아래 끝점은 미국 정�
 
 ****
 
-|참고|다운로드|
+|메모|다운로드|
 |---|---|
 |**마지막 업데이트:** 2021/05/28 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/USGOVDoD?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**다운로드:** [JSON 형식의 전체 목록](https://endpoints.office.com/endpoints/USGOVDoD?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
 |
