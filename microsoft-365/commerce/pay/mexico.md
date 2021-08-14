@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5300552fdd2b33986c96ad5f59e827e3e309ca47
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 460ba16b68263d8c56858b4b833e37737fde5052b732247539144643596aa62e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53893106"
 ---
 # <a name="payment-information-by-deposit-or-electronic-transfer-only-for-mexico"></a>입금 또는 전자 전송으로 결제 정보(멕시코에만 해당)
 
@@ -33,7 +33,7 @@ ms.locfileid: "52535425"
 **Branch:** Act. Roberto Medellin 800, P.B. 수르, Col. 멕시코시티 C.P. 01210, 멕시코  
 **SWIFT 코드:** BNMXMM  
 **CLABE** 002180002337160225  
-**계정 번호:** 0233716022  
+**계정 번호: 0233716022**  
 **계정 이름:** Microsoft Payments Inc.  
 **통화:** 멕시코 페소
 

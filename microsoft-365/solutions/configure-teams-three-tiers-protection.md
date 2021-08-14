@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 recommendations: false
 description: 세 가지 보호 수준을 사용하여 보안을 강화하기 위해 Teams를 구성하는 방법에 대해 알아보고, 공동 작업을 쉽게 수행할 수 있습니다.
-ms.openlocfilehash: 0c1eb9585326f2269dca02f52e9170788f659c46
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 06ee7cd8d82f65e0108595eaa9873b198dae90531d2a547849a85e765292cd57
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53816682"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 

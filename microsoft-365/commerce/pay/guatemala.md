@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 037b165330dd6f5630136c03b31b12725928356a
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 690ccbb374f28a24ba9625dd342f0fb3ac5d2eb8019a48713af1bcd1b95855cf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53893118"
 ---
 # <a name="payment-information-for-guatemala"></a>과테말라의 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52536721"
 **은행:** 뱅크 of America  
 **Branch:** 달라  
 **SWIFT 코드:** BOFAUS3N  
-**계정 번호:** 4426587954  
+**계정 번호: 4426587954**  
 **계정 이름:** Microsoft

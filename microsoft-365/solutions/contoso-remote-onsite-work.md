@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso Corporation이 COVID-19에 대응하고 하이브리드 작업을 위한 소프트웨어 설치 및 업데이트 인프라를 설계한 방법을 이해합니다.
-ms.openlocfilehash: 2d28b0513221f6c14526baba69bf0f5986154805
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: e40e655801cb8a980dcde4e9be2167b81f12f74cccd2bd43878c66a5aeac5ca5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53816706"
 ---
 # <a name="contosos-covid-19-response-and-support-for-hybrid-work"></a>Contoso의 COVID-19 응답 및 하이브리드 작업 지원
 

@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Microsoft 계정을 닫을 때 라이선스, 사용자 및 사용자 데이터를 포함하여 계정과 관련된 모든 정보가 삭제됩니다.
 ms.date: 04/02/2021
-ms.openlocfilehash: f46a35ca9a8b4ca0a68a3260f1a79bbf3717b552
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 0693f592c36e39687b78587b384a193fde7cd6879a69628c1818bafed7420ef5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53893154"
 ---
 # <a name="close-your-account"></a>계정 사용 중지 
 

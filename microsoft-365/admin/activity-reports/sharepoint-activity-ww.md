@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 - MOE150
 description: SharePoint 활동 사용 현황 보고서를 통해 모든 SharePoint 사용자의 활동, 공유되는 파일 수 및 저장소 사용률을 알 수 있습니다.
-ms.openlocfilehash: f049a67e8444654e05cfe3dc72a8d4fe39792cb2
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4121cce33c530e422dcf3b3d05e9a47f1a86c381eff549187f5904c961c57470
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53816274"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>Microsoft 365 관리 센터의 보고서 - SharePoint 활동
 
-관리자의 Microsoft 365 보고서 대시보드에는  조직의 다양한 제품에 대한 활동 개요가 표시됩니다. 각 제품의 고유한 활동에 대한 자세한 정보를 확인할 수 있습니다. Microsoft 365 관리 센터에서 활동 [보고서를 확인할 수 있습니다.](activity-reports.md)
+관리자의 Microsoft 365 보고서 대시보드에는  조직의 다양한 제품에 대한 활동 개요가 표시됩니다. 각 제품의 고유한 활동에 대한 자세한 정보를 확인할 수 있습니다. 에서 [활동 보고서를 Microsoft 365 관리 센터.](activity-reports.md)
   
 예를 들어 파일과의 상호 작용을 확인하여 SharePoint를 사용하도록 라이선스가 부여된 모든 사용자의 활동을 파악할 수 있습니다. 또한 공유된 파일 수를 확인하여 진행 중인 공동 작업의 수준을 파악하는 데도 도움이 됩니다.
   

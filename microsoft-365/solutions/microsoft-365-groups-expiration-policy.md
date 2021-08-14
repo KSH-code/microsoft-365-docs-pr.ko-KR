@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 recommendations: false
 description: 그룹 Microsoft 365 정책에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a5a57591e1659cf04b46f419bda3d3bca672729c
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 831253a64ad30cf37370ec9e93e3f1d8172befc94705758e77367c3697c41686
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53816661"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 만료 정책
 
@@ -36,7 +36,7 @@ Microsoft 365 그룹 및 Microsoft Teams 사용이 증가하면 관리자와 사
 
 적극적으로 사용되고 있는 그룹은 자동으로 갱신됩니다. 다음 작업을 수행하면 그룹이 자동으로 갱신됩니다.
 - SharePoint - 파일을 보기, 편집, 다운로드, 이동, 공유 또는 업로드합니다. (SharePoint 페이지를 보는 것은 자동 갱신에 대한 작업으로 계산되지 않습니다.)
-- Outlook - 그룹에 가입하거나 그룹에서 그룹 메시지를 읽거나 쓰며 웹에서 Outlook 수 있습니다.
+- Outlook - 그룹에 가입하거나 그룹에서 그룹 메시지를 읽거나 쓰며 메시지와 같은(웹용 Outlook).
 - Teams - 팀 채널 방문.
 
 자동 그룹 갱신을 트리거하는 유일한 Yammer 활동은 커뮤니티 내에서 SharePoint 업로드하는 것입니다.
@@ -47,7 +47,7 @@ Microsoft 365 그룹 및 Microsoft Teams 사용이 증가하면 관리자와 사
 만료는 기본적으로 해제되어 있는지 알아야 합니다. 관리자는 조직에서 사용할 수 있도록 설정해야 합니다.
 
 > [!NOTE]
-> Microsoft 365 그룹에 대한 만료 정책을 구성하고 사용하려면 소유해야 하지만 만료 정책이 적용되는 모든 그룹의 구성원에 대해 Azure AD Premium 라이선스를 할당할 필요는 없습니다. 자세한 내용은 에서 [시작을 Azure Active Directory Premium.](/azure/active-directory/active-directory-get-started-premium)
+> Microsoft 365 그룹에 대한 만료 정책을 구성하고 사용하려면 소유해야 하지만 만료 정책이 적용되는 모든 그룹의 구성원에게 Azure AD Premium 라이선스를 할당할 필요는 없습니다. 자세한 내용은 에서 [시작을 Azure Active Directory Premium.](/azure/active-directory/active-directory-get-started-premium)
 
 ## <a name="who-can-configure-and-use-the-microsoft-365-groups-expiration-policy"></a>Who 그룹 만료 정책을 구성하고 Microsoft 365 수 있나요?
 

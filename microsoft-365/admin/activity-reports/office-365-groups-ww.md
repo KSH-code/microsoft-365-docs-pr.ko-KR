@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: 그룹 및 Microsoft 365 정보를 얻을 수 있는 그룹 보고서를 얻습니다.
-ms.openlocfilehash: a013e8fd7ff555cfb1700260cb26ce83f4d07339
-ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
+ms.openlocfilehash: f899b742cb4d7098c1b8bcf7b51563e009dcd0217c74fb71f6bc98944650c681
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53816382"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 365 그룹
 

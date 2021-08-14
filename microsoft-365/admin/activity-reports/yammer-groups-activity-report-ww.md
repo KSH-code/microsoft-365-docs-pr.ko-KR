@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에서 Yammer 그룹 활동 보고서를 통해 조직에서 만들어 Yammer 그룹 수와 해당 활동을 알 수 있습니다.
-ms.openlocfilehash: 470fd7dc70069688f6d0ec0bbf3ba92b40a82ae1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ee547e6da465cd36d62f62043c9364350352bc5a6b19da631a9e56071ef9d679
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53816165"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>Microsoft 365 관리 센터의 보고서 - Yammer 활동 보고서
 
