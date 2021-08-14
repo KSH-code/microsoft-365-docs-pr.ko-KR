@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호하는 방법
-ms.openlocfilehash: 8ee8e34ef984cb466f472e5503ad7cc14c181030
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 0088e3404227d1340af2801157027c250f5066f11604b2d46afd9910cd622d3e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393634"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822748"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>비즈니스용 요금제의 보안 Microsoft 365 10가지 방법
 
@@ -36,10 +36,10 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 
 서비스 계획에 적용되는 다음 표에 나열된 작업을 완료하는 것이 좋습니다.
 
-|*숫자*|작업|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
+|*숫자*|작업 |Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
-|1 |[다단계 인증 설정](secure-your-business-data.md#setup)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2 |[사용자 교육](secure-your-business-data.md#train)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|1|[다단계 인증 설정](secure-your-business-data.md#setup)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2|[사용자 교육](secure-your-business-data.md#train)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3 |[전용 관리자 계정 사용](secure-your-business-data.md#admin)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[메일의 맬웨어에 대한 보호 수준 높이기](secure-your-business-data.md#malware)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5 |[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -166,7 +166,7 @@ Azure 포털의 Azure Active Directory(Azure AD)에 대해 **속성** 창에서 
 > [!TIP]
 > 4단계의 맬웨어 방지 목록에 차단할 파일을 추가할 [수 있습니다.](#4-raise-the-level-of-protection-against-malware-in-mail)
 
-자세한 내용은 다음을 참조하세요.
+자세한 내용은 다음 항목을 참조하세요.
 
 - [랜섬웨어: 위험을 줄이는 방법](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 
@@ -242,7 +242,7 @@ Microsoft 365 사용자 지정 도메인을 하나 이상 구성한 경우 대�
 
 사용자용 Defender에서 피싱 방지 정책을 Office 365 짧은 교육 [](../../business-video/setup-anti-phishing.md)비디오를 보거나 다음 단계를 완료합니다.
 
-1. <https://protection.office.com>으로 이동합니다.
+1. <https://protection.office.com>로 이동합니다.
 
 2. 보안 및 & 센터의 왼쪽 탐색 창에 있는 **위협** 관리에서 정책을 **선택합니다.**
 

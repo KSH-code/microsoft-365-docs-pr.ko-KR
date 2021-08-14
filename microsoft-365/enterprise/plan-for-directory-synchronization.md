@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: d3577c90-dda5-45ca-afb0-370d2889b10f
 description: Active Directory 도메인 서비스 정리 및 Microsoft 365 도구와의 디렉터리 동기화에 Azure Active Directory 커넥트 설명
-ms.openlocfilehash: 7b717f65bb434918a5eb0ab2bf4a5acab2d08eea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 10fe97f13f02aa19371b40284ca0549d6f14285042bf19ae174a833e44130343
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927547"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53848445"
 ---
 # <a name="hybrid-identity-and-directory-synchronization-for-microsoft-365"></a>하이브리드 ID 및 디렉터리 동기화를 Microsoft 365
 
@@ -136,7 +136,7 @@ PTA는 또한 보안 요구 사항이 있는 조직을 위해 바로 사내 사�
   - 디렉터리 동기화 설정 중에 양측 동기화를 구성해야 합니다. 기본적으로 디렉터리 동기화 도구는 디렉터리 정보를 클라우드에만 기록합니다. 양자 동기화를 구성할 때 제한된 수의 개체 특성이 클라우드에서 복사되도록 쓰기 저장 기능을 사용하도록 설정한 다음 로컬 AD DS에 다시 기록할 수 있습니다. 쓰기 쓰기 기능을 하이브리드 모드라고도 Exchange 있습니다. 
   - 하이브리드 배포를 위한 Exchange 프레미스 배포
   - 일부 사용자 사서함을 이동하여 다른 Microsoft 365 사서함을 Microsoft 365 기능을 제공합니다.
-  - 안전한 보낸 사람 및 수신이 차단된 보낸 사람에 대한 모든 메시지는 Microsoft 365.
+  - 금고 보낸 사람 및 수신이 차단된 보낸 사람이 모두 Microsoft 365.
   - 기본 위임 및 전자 메일 대신 보내기 기능
   - 통합된 사내 스마트 카드 또는 다단계 인증 솔루션이 있습니다.
 - 사진, 미리 보기, 회의실 및 보안 그룹 동기화

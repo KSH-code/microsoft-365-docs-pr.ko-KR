@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: 21Vianet에서 운영하는 Office 365 AIP(Azure Information Protection)와 중국에서 고객을 위해 AIP를 구성하는 방법에 대해 자세히 설명합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 8b85ae43df31bb1947b841d616cc83c3a0b614e4
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4ccd3a6e86a39931cd30335825adcc0fefe660cc54e0334a62d95ac58b9d4e3f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822382"
 ---
 # <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>21Vianet에서 Office 365 Azure Information Protection 지원
 
@@ -58,7 +58,7 @@ ms.locfileid: "52535845"
 중국 고객의 AIP를 구성하는 경우:
 1. [테넌트에 대한 권한 관리를 사용하도록 설정](#step-1-enable-rights-management-for-the-tenant)
 
-1. [Microsoft Information Protection 동기화 서비스 서비스 사용자 를 추가합니다.](#step-2-add-the-microsoft-information-protection-sync-service-service-principal)
+1. [동기화 Microsoft Information Protection 서비스 사용자 를 추가합니다.](#step-2-add-the-microsoft-information-protection-sync-service-service-principal)
 
 1. [DNS 암호화를 구성합니다.](#step-3-configure-dns-encryption)
 
@@ -84,9 +84,9 @@ ms.locfileid: "52535845"
 
 ### <a name="step-2-add-the-microsoft-information-protection-sync-service-service-principal"></a>2단계: Microsoft Information Protection 동기화 서비스 사용자 추가
 
-**Microsoft Information Protection Sync Service 서비스** 계정은 Azure China 테넌트에서 기본적으로 사용할 수 없습니다. Azure Information Protection에는 필수입니다.
+Azure **Microsoft Information Protection 동기화** 서비스 계정은 기본적으로 Azure China 테넌트에서 사용할 수 없습니다. Azure Information Protection에 필요합니다.
 
-1. [New-AzADServicePrincipal](/powershell/module/az.resources/new-azadserviceprincipal) cmdlet 및 Microsoft Information Protection Sync Service의 응용 프로그램 ID를 사용하여 이 서비스 계정을 수동으로 `870c4f2e-85b6-4d43-bdda-6ed9a579b725` 만드하십시오. 
+1. [New-AzADServicePrincipal](/powershell/module/az.resources/new-azadserviceprincipal) cmdlet 및 Microsoft Information Protection 동기화 서비스의 응용 프로그램 ID를 사용하여 이 서비스 계정을 Microsoft Information Protection `870c4f2e-85b6-4d43-bdda-6ed9a579b725` 생성합니다. 
 
     ```powershell 
     New-AzADServicePrincipal -ApplicationId 870c4f2e-85b6-4d43-bdda-6ed9a579b725
@@ -119,7 +119,7 @@ ms.locfileid: "52535845"
 
 3. Azure Portal의 테넌트와 사용자 지정 [도메인을 연결합니다.](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains) 이렇게 하면 DNS에 항목이 추가됩니다. DNS 설정에 값을 추가한 후 확인되는 데 몇 분 정도 걸릴 수 있습니다.
 
-4. 해당 전역 Microsoft 365 자격 증명으로 Microsoft 365 관리 센터에 로그인하고 사용자 만들기를 위해 도메인(예: `contoso.cn` )을 추가합니다. 확인 프로세스에서는 DNS를 추가로 변경해야 할 수 있습니다. 확인이 완료되면 사용자를 만들 수 있습니다.
+4. 해당 전역 Microsoft 365 관리 센터 자격 증명으로 로그인하고 사용자 만들기를 위해 도메인(예: `contoso.cn` )을 추가합니다. 확인 프로세스에서는 DNS를 추가로 변경해야 할 수 있습니다. 확인이 완료되면 사용자를 만들 수 있습니다.
 
 #### <a name="configure-dns-encryption---mac-ios-android"></a>DNS 암호화 구성 - Mac, iOS, Android
 
@@ -137,7 +137,7 @@ DNS 공급자에 로그인하고 도메인의 DNS 설정으로 이동한 다음 
 
 Microsoft 다운로드 센터에서 AIP 통합 레이블 클라이언트를 다운로드하여 [설치합니다.](https://www.microsoft.com/download/details.aspx?id=53018)
 
-자세한 내용은 다음을 참조하세요.
+자세한 내용은 다음 항목을 참조하세요.
 
 - [AIP 설명서](/azure/information-protection/)
 - [AIP 버전 기록 및 지원 정책](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
@@ -207,7 +207,7 @@ AIP-프레미스 스캐너를 설치하여 네트워크 및 콘텐츠 공유에�
       Set-AIPAuthentication -AppId <ID of the registered app> -AppSecret <client secret sting> -TenantId <your tenant ID> -DelegatedUser <Azure AD account>
       ```
 
-      예:
+      예를 들어 다음과 같은 가치를 제공해야 합니다.
 
       ```PowerShell
       $pscreds = Get-Credential CONTOSO\scanner
@@ -225,7 +225,7 @@ AIP-프레미스 스캐너를 설치하여 네트워크 및 콘텐츠 공유에�
 
 1. [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) cmdlet을 실행하여 기본 콘텐츠 검사 작업을 만들 수 있습니다.
 
-    **Set-AIPScannerContentScanJob** cmdlet의 유일한 필수 매개 변수는 **Enforce입니다.** 그러나 현재 콘텐츠 검색 작업의 다른 설정을 정의할 수 있습니다. 예:
+    **Set-AIPScannerContentScanJob** cmdlet의 유일한 필수 매개 변수는 **Enforce입니다.** 그러나 현재 콘텐츠 검색 작업의 다른 설정을 정의할 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
     ```powershell
     Set-AIPScannerContentScanJob -Schedule Manual -DiscoverInformationTypes PolicyOnly -Enforce Off -DefaultLabelType PolicyDefault -RelabelFiles Off -PreserveFileDetails On -IncludeFileTypes '' -ExcludeFileTypes '.msg,.tmp' -DefaultOwner <account running the scanner>
@@ -281,7 +281,7 @@ AIP-프레미스 스캐너를 설치하여 네트워크 및 콘텐츠 공유에�
 | [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | 콘텐츠 검색 작업의 기존 리포지토리에 대한 설정을 정의합니다. |
 | | |
 
-자세한 내용은 다음을 참조하세요.
+자세한 내용은 다음 항목을 참조하세요.
 
 - [Azure Information Protection 통합 레이블 지정 스캐너란?](/azure/information-protection/deploy-aip-scanner)
 - [AIP(Azure Information Protection) 통합 레이블 지정 스캐너 구성 및 설치](/azure/information-protection/deploy-aip-scanner-configure-install?tabs=powershell-only)

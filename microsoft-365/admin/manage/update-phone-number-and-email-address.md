@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: 관리자 암호를 다시 설정하려는 경우 관리 센터에서 관리자 전화 번호와 전자 메일 주소를 업데이트합니다.
-ms.openlocfilehash: 1335f5ff7a39fab53e6f45f47bec293db5650336
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: bbd7e40f8349b067837e8faadc502a96edac046fc10b95393ce0c946475cc8a3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53391306"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53824494"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>관리자 전화 번호 및 전자 메일 주소 업데이트
 

@@ -14,12 +14,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직 내 통합 앱 포털에서 조직의 사용자 및 그룹에 대한 Microsoft 및 Microsoft 파트너 앱을 찾고 테스트하고 Microsoft 365 관리 센터.
-ms.openlocfilehash: dcd4a91d9e43c0a740094615cd3dca0b0e8bc0f6
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 7a4daff76262e2fc08b5d205eba81bd8016718f8b7461c930a5967454cdaa2eb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53824543"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>통합 앱 포털에서 Microsoft 365 앱 테스트 및 배포
 
@@ -141,14 +141,14 @@ Word, Excel 및 PowerPoint 추가 기능의 경우 사용자가 다음 중 하�
 
 이 Outlook 사용자는 다음 중 하나를 사용하고 있어야 합니다. 
 - 버전 1701 이상Microsoft 365 Enterprise E3/E5/F3) 또는 Microsoft 365 Business 라이선스(Business Basic, Business Standard, Business Premium). 
-- 2019 또는 Office Standard Office Professional Plus 버전 1808 이상 
-- Office Professional Plus 2016(MSI) 또는 Office Standard 2016(MSI)의 버전 16.0.4494.1000 이상입니다.
+- 2019 또는 Office Professional Plus 2019 버전 Office Standard 버전 1808 이상입니다. 
+- MSI(버전 16.0.4494.1000 이상) 또는 MSI(Office Professional Plus 2016)Office Standard 2016 버전입니다.
     > [!NOTE]
-    > MSI 버전의 Outlook에는 "내 추가 기능" 섹션이 아니라 관리자가 설치한 추가 기능을 해당 Outlook 리본 메뉴에 보여 주게 됩니다.  
+    > MSI 버전의 Outlook "내 추가 기능" 섹션이 아니라 Outlook 리본 메뉴에 관리자가 설치한 추가 기능을 보여야 합니다.  
 - MSI(Office Professional Plus 2013) 또는 Office Standard 2013(MSI)의 버전 15.0.4937.1000 이상입니다.
-- Mac용 Office 2016 버전 16.0.9318.1000 이상입니다. 
-- iOS용 Outlook 모바일 버전 2.75.0 이상. 
-- Android용 Outlook 모바일 버전 2.2.145 이상 
+- 버전 16.0.9318.1000 이상 Mac용 Office 2016. 
+- iOS용 모바일 Outlook 버전 2.75.0 이상입니다. 
+- Android용 모바일 버전의 Outlook 2.2.145 이상입니다. 
 
 
 
@@ -158,7 +158,7 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 조직의 Exchange 관리자에게 문의하여 사용 중인 구성을 확인합니다. 사용자당 OAuth 연결은 [Test-OAuthConnectivity](/powershell/module/exchange/test-oauthconnectivity)   PowerShell cmdlet을 사용하여 확인할 수 있습니다. 
 
 ### <a name="user-and-group-assignments"></a>사용자 및 그룹 할당
-추가 기능 배포는 현재 Microsoft 365 그룹, 메일 그룹 및 보안 그룹을 포함하여 Azure Active Directory에서 지원하는 대부분의 그룹에 지원됩니다. 배포는 상위 그룹이 없는 최상위 그룹 또는 그룹의 사용자를 지원하지만 상위 그룹이 있는 중첩된 그룹 또는 그룹의 사용자는 지원하지 않습니다. 
+추가 기능 배포는 현재 Azure Active Directory, 메일 그룹 및 보안 그룹을 포함하여 Microsoft 365 그룹에서 지원됩니다. 배포는 상위 그룹이 없는 최상위 그룹 또는 그룹의 사용자를 지원하지만 상위 그룹이 있는 중첩된 그룹 또는 그룹의 사용자는 지원하지 않습니다. 
 
 > [!NOTE]
 > 비 메일 사용 가능 보안 그룹은 현재 지원되지 않습니다. 
@@ -171,13 +171,13 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 
 그룹이 중첩된 그룹을 포함하는지를 검색하는 가장 쉬운 방법은 Outlook 내에서 그룹 연락처 카드를 확인하는 것입니다. 전자 메일의 To 필드에 그룹 이름을 입력한 다음 그룹 이름이 확인될 때 선택하면 그룹 이름이 사용자 또는 중첩된 그룹이 포함되어 있는 경우 ****   표시됩니다. 아래 예제에서는 테스트 **** 그룹에 대한 Outlook 연락처 카드의 구성원 탭에 사용자와 하위 그룹 두 개만   표시됩니다. 
 
-![Outlook 연락처 카드의 구성원 탭](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
+![연락처 카드의 Outlook 탭](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
 
-그룹이 어떤 그룹의 구성원인지 확인하기 위해 그룹을 확인하여 반대 쿼리를 수행할 수 있습니다. 아래 예제에서는 하위 그룹 1이 테스트 그룹의 구성원인 Outlook 연락처 카드의 구성원 자격 탭에서 볼 <b></b>   수 있습니다. 
+그룹이 어떤 그룹의 구성원인지 확인하기 위해 그룹을 확인하여 반대 쿼리를 수행할 수 있습니다. 아래 예제에서는 하위 그룹 1이 테스트 그룹의 구성원인 Outlook 카드의 멤버 자격 탭에서 볼 <b></b>   수 있습니다. 
 
-![Outlook 연락처 카드의 구성원 자격 탭](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
+![연락처 카드의 Outlook 탭](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
 
-Azure Active Directory Graph API를 사용하여 쿼리를 실행하여 그룹 내의 그룹 목록을 찾을 수 있습니다. 자세한 내용은 [Operations on groups | 그래프 API 참조입니다.](/previous-versions/azure/ad/graph/api/groups-operations) 
+Azure Active Directory Graph API를 사용하여 쿼리를 실행하여 그룹 내의 그룹 목록을 찾을 수 있습니다. 자세한 내용은 [Operations on groups | Graph API 참조 .](/previous-versions/azure/ad/graph/api/groups-operations) 
 
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Office 추가 기능 배포에 권장되는 방법 
 단계적 접근 방식을 사용하여 추가 기능을 롤아웃하기 위해 다음을 사용하는 것이 좋습니다. 
@@ -191,28 +191,28 @@ Azure Active Directory Graph API를 사용하여 쿼리를 실행하여 그룹 �
 
 ## <a name="deploy-an-office-add-in-using-the-admin-center"></a>관리 센터를 사용하여 Office 추가 기능 배포 
 
-1. 관리 센터에서 설정 을 선택한 다음 통합 **앱 을 선택합니다.** 
+1. 관리 센터에서 를 **선택하고 설정** **통합 앱을 선택합니다.** 
 
-2. 페이지 **맨 위에 있는** 앱 다운로드를 선택합니다. AppSource는 포함된 형식으로 로드됩니다. 추가 기능을 검색하거나 왼쪽 탐색기에서 제품을 클릭하여 추가 기능을 찾을 수 있습니다.  추가 기능을 ISV에서 SaaS 앱 또는 다른 앱 및 추가 기능과 연결한 경우 SaaS 앱이 유료 앱인 경우 라이선스를 구입하거나 배포할 수 있는 대화 상자가 표시됩니다. 라이선스를 구입한지 여부와는 무관하게 배포를 진행할 수 있습니다. **배포** 를 선택하세요.  
+2. 페이지 **맨 위에 있는** 앱 다운로드를 선택합니다. AppSource는 포함된 형식으로 로드됩니다. 추가 기능을 검색하거나 왼쪽 탐색기에서 제품을 클릭하여 추가 기능을 찾을 수 있습니다.  추가 기능을 ISV에서 SaaS 앱 또는 다른 앱 및 추가 기능과 연결한 경우 SaaS 앱이 유료 앱인 경우 라이선스를 구입하거나 배포할 수 있는 대화 상자가 표시됩니다. 라이선스를 구입한지 여부와는 무관하게 배포를 진행할 수 있습니다. **배포** 를 선택합니다.  
 
 3. 모든 앱이  나열되는 구성 페이지가 표시됩니다. 앱 배포에 대한 사용 권한이나 권한이 없는 경우 해당 정보가 강조 표시됩니다. 배포할 앱을 선택할 수 있습니다. 다음 **을 선택하면** 사용자 **페이지가** 표시됩니다. 추가 기능을 ISV에 의해 연결하지 않은 경우 사용자 페이지로 라우팅됩니다. 
 
 4. 모든 **사용자,** **특정 사용자/그룹** 또는 추가 기능을 배포할 대상을 지정하려면 나만을 ****   선택합니다. 검색 상자를 사용하여 특정 사용자 또는 그룹을 찾을 수 있습니다. 추가 기능을 테스트하는 경우 테스트 **배포인가 를 선택합니다.** 
 
-5. **다음** 을 선택합니다. 앱에 Microsoft 365 인증이 있는 경우 모든 앱 기능과 사용 권한이 인증 정보와 함께 단일 창에 표시됩니다. 인증 로고를 선택하면 사용자가 인증에 대한 자세한 정보를 볼 수 있습니다.  
+5. **다음** 을 선택합니다. 앱에 인증이 없는 경우 모든 앱 기능과 사용 권한이 인증 정보와 함께 Microsoft 365 표시됩니다. 인증 로고를 선택하면 사용자가 인증에 대한 자세한 정보를 볼 수 있습니다.  
 
 6. 검토한 다음 배포 **완료를 선택합니다.**  
 
 7. 추가 기능을 배포하면 녹색 "틱" 아이콘이 나타납니다. 페이지 지침에 따라 추가 기능을 테스트합니다. 
 
 > [!NOTE]
-> 사용자는 앱 리본 메뉴의 추가 기능 아이콘을 보기 위해 Office를 다시 실행해야 할 수 있습니다. Outlook 추가 기능을 앱 리본 메뉴에 표시하는 데 최대 24시간이 걸릴 수 있습니다. 
+> 사용자는 앱 리본의 추가 Office 아이콘을 보기 위해 다시 실행해야 할 수 있습니다. Outlook 추가 기능을 앱 리본 메뉴에 표시하는 데 최대 24시간이 걸릴 수 있습니다. 
 
 배포된 추가 기능을 사용할 수 있도록 사용자 및 그룹에 알리는 것이 좋습니다. 추가 기능을 사용하는 경우와 방법을 설명하는 전자 메일을 보낼 수 있습니다. 추가 기능 관련 문제가 있는 경우 사용자에게 도움이 될 수 있는 콘텐츠 또는 FAQ를 포함하거나 링크를 제공합니다. 
 
 ## <a name="considerations-when-assigning-an-add-in-to-users-and-groups"></a>사용자 및 그룹에 추가 기능을 할당할 때 고려 사항 
 
-전역 관리자 및 Exchange 관리자는 모든 사용자 또는 특정 사용자 및 그룹에 추가 기능을 할당할 수 있습니다. 각 옵션은 다음과 같은 영향을 줍니다. 
+전역 관리자 및 Exchange 모든 사용자 또는 특정 사용자 및 그룹에 추가 기능을 할당할 수 있습니다. 각 옵션은 다음과 같은 영향을 줍니다. 
 
 - **모든 사람**   이 옵션은 조직의 모든 사용자에게 추가 기능을 할당합니다. 이 옵션은 조직에 진정으로 범용인 추가 기능에 대해서만 사용합니다. 
 
@@ -224,13 +224,13 @@ Azure Active Directory Graph API를 사용하여 쿼리를 실행하여 그룹 �
 
 조직에 적합한 옵션은 구성에 따라 다릅니다. 그러나 그룹을 사용하여 할당하는 것이 좋습니다. 관리자는 매월 개별 사용자를 할당하는 대신 그룹을 사용하고 해당 그룹의 구성원을 제어하여 추가 기능을 더 쉽게 관리할 수 있습니다. 경우에 따라 사용자를 수동으로 할당하여 특정 사용자에게 할당하여 소수의 사용자 집합에 대한 액세스를 제한할 수 있습니다. 
 
-### <a name="more-about-office-add-ins-security"></a>Office 추가 기능 보안에 대한 자세한 정보 
+### <a name="more-about-office-add-ins-security"></a>추가 Office 보안에 대한 자세한 정보 
 Office 추가 기능은 추가 기능에 대한 일부 메타데이터를 포함하지만 무엇보다도 모든 코드와 논리가 포함된 웹 응용 프로그램을 가리키는 XML 매니페스트 파일을 결합합니다. 추가 기능의 기능은 다양할 수 있습니다. 예를 들어 추가 기능은 다음과 같은 작업을 수행할 수 있습니다.
 - 데이터를 표시합니다. 
 - 사용자 문서를 읽어 상황에 맞는 서비스를 제공합니다. 
 - 사용자 문서에서 데이터를 읽고 기록하여 해당 사용자에게 값을 제공합니다.  
 
-Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 Office 추가 기능 플랫폼 개요, 특히 ["Office](/office/dev/add-ins/overview/office-add-ins)추가 기능의 구조" 섹션을 참조하세요. 
+Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 Office [](/office/dev/add-ins/overview/office-add-ins)추가 기능 플랫폼 개요, 특히 "추가 기능의 구조" 섹션을 Office 참조하세요. 
 
 사용자의 문서와 상호 작용하려면 추가 기능에서 매니페스트에 필요한 사용 권한을 선언해야 합니다. 5개 수준 JavaScript API 액세스 권한 모델은 작업 창 추가 기능 사용자에 대한 개인 정보 및 보안을 위한 기반을 제공합니다. Office 스토어의 대부분의 추가 기능 수준은 ReadWriteDocument 수준으로, 거의 모든 추가 기능에서 ReadDocument 수준 이상을 지원하고 있습니다. 권한 수준에 대한 자세한 내용은 콘텐츠 및 작업 창 추가 기능에서 API 사용 권한 요청을 [참조하세요.](/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins) 
 
@@ -239,15 +239,15 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 Office �
 추가 기능에 대한 업데이트는 다음과 같이 발생합니다. 
 - **업무(LINE-OF-BUSINESS)** 추가 기능: 관리자가 명시적으로 매니페스트를 업로드한 경우 추가 기능을 사용하려면 관리자가 메타데이터 변경을 지원하기 위해 새 매니페스트 파일을 업로드해야 합니다. 다음에 관련 Office 응용 프로그램을 시작하면 추가 기능이 업데이트됩니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다. 
 
-- **Office 스토어** 추가 기능: 관리자가 Office 스토어에서 추가 기능을 선택한 경우 Office 스토어에서 추가 기능을 업데이트하는 경우 다음에 관련 Office 응용 프로그램이 시작되면 추가 기능 업데이트가 진행됩니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다. 
+- **Office 스토어** 추가 기능: 관리자가 Office 스토어에서 추가 기능을 선택한 경우 Office 스토어에서 추가 기능을 업데이트하는 경우 다음에 관련 Office 응용 프로그램이 시작되면 추가 기능도 업데이트됩니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다. 
 
 > [!NOTE]
-> Word, Excel 및 PowerPoint의 경우 [SharePoint](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog)앱 카탈로그를 사용하여   Microsoft 365 및/또는 SharePoint 추가 기능 지원이 필요하지 않습니다. Outlook의 경우 Exchange 제어판을 사용하여 Microsoft 365에 연결하지 않고도 사내 환경에 배포합니다.  
+> Word의 경우 Excel PowerPoint 및 SharePoint [](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog)카탈로그를 사용하여 Microsoft 365 및/또는 필요한 추가 기능 지원과 연결되지 Microsoft 365 추가 기능을 SharePoint   배포합니다. 이 Outlook 제어판을 사용하여 Exchange 연결 없이 사내 환경에 배포할 Microsoft 365.  
 
 ## <a name="add-in-states"></a>추가 기능 상태
 추가 기능의 상태는 **On** 또는   Off **상태일 수**   있습니다. 
 
-| 시/도 | 상태가 적용되는 경우 | 영향 |
+| 상태 | 상태가 적용되는 경우 | 영향 |
 |:-----|:-----|:-----|
 |**활성**  <br/> |관리자가 추가 기능을 업로드하고 사용자 또는 그룹에 할당했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹은 관련 클라이언트에서 추가 기능을 볼 수 있습니다.  <br/> |
 |**해제됨**  <br/> |관리자가 추가 기능을 해제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> 추가 기능 상태가 활성으로 변경되면 사용자 및 그룹이 추가 기능에 다시 액세스할 수 있습니다.  <br/> |

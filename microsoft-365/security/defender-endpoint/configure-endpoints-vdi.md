@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 9d976ee46cc6feb7897e67294077b8a1fbaa0f12
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: 1577b20cfa4f18a8db4fcba8d05a27bdacd693074ed3d14319101c6122cb443f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53834110"
 ---
 # <a name="onboarding-non-persistent-virtual-desktop-infrastructure-devices"></a>비영구적 가상 데스크톱 인프라 장치 온보드
 
@@ -35,7 +35,7 @@ ms.locfileid: "53567851"
 - VDI(가상 데스크톱 인프라) 장치
 - Windows 10 Windows Server 2019, Windows Server 2008R2/2012R2/2016
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configvdi-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-configvdi-abovefoldlink)
 
 ## <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
 
@@ -89,13 +89,13 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
 4. 구현할 메서드에 따라 적절한 단계를 수행합니다.
 
-   - 각 디바이스에 대한 단일 항목:
+    - 각 디바이스에 대한 단일 항목:
    
-     **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
+         **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
    
-   - 각 장치에 대한 여러 항목의 경우:
+    - 각 장치에 대한 여러 항목의 경우:
    
-     스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
+         스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
 
 5. 솔루션을 테스트합니다.
 
@@ -109,13 +109,14 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
       
    1. 구현할 메서드에 따라 적절한 단계를 수행합니다.
 
-        - 각 디바이스에 대한 단일 항목: 
+   - 각 디바이스에 대한 단일 항목: 
 
-            포털에서 하나의 항목만 Microsoft 365 Defender 검사합니다.
+     포털에서 하나의 항목만 Microsoft 365 Defender 검사합니다.
 
-        - 각 장치에 대한 여러 항목의 경우: 
+   - 각 장치에 대한 여러 항목의 경우: 
 
-            포털에서 여러 Microsoft 365 Defender 검사합니다.
+     포털에서 여러 Microsoft 365 Defender 검사합니다.
+
 
 6. 탐색 **창에서** 장치 목록을 클릭합니다.
 
@@ -177,7 +178,7 @@ DISM 명령 및 오프라인 서비스에 대한 자세한 내용은 아래 문�
     PsExec.exe -s cmd.exe
     cd "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Cyber"
     del *.* /f /s /q
-    REG DELETE “HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection" /v senseGuid /f
+    REG DELETE "HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection" /v senseGuid /f
     exit
     ```
 

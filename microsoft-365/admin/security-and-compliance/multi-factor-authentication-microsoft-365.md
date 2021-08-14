@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: MFA(다단계 인증)는 강력한 암호와 추가 확인 방법을 모두 사용합니다.
-ms.openlocfilehash: 9b3347f1a8e7b1f62c9bbfe77a7f14c221ef28b5
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: afe93f3b9432c26ba38e007e929e718853816b7b9f45d9d1d4053c30898a88a5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822796"
 ---
 # <a name="multifactor-authentication-for-microsoft-365"></a>사용자에 대한 다단계 Microsoft 365
 
@@ -177,5 +177,5 @@ Microsoft 365 관리 센터에서 사용자별 및 서비스 MFA 설정을 구�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[다단계 인증](../../business-video/turn-on-mfa.md) 켜기(비디오)\
-[휴대폰에 다단계](../../business-video/set-up-mfa.md) 인증 켜기(동영상)
+[다단계 인증 켜기](../../business-video/turn-on-mfa.md)(비디오)\
+[휴대폰의 다단계 인증 켜기](../../business-video/set-up-mfa.md)(비디오)

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 211c5c90-9719-4d73-9ad9-1925bb80f5f6
 description: 비즈니스용 Microsoft 365이 GDPR(일반 데이터 보호 규정) 프로세스에 어떻게 도움이 되는지 알아보세요.
-ms.openlocfilehash: 147843fab8fcb8d2d1793a21f9bb897cb4a59672
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: f5070c446a98815061d9e898167a8214d5fc8bb946ba586c47a3a9b230ae4a78
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822838"
 ---
 # <a name="gdpr-simplified-a-guide-for-your-small-business"></a>GDPR 간소화: 소기업을 위한 가이드
 
@@ -216,7 +216,7 @@ GDPR에 따라 데이터를 수집하면 어느 정도 영향을 받습니다. G
 
 고객, 심지어 수년 동안 보유해 온 고객도 고객의 데이터를 마케팅에 사용하기로 동의했는지 확인해야 합니다. 과거에 동의와 이를 보여주는 기록을 캡처했을 수 있습니다. 그렇다면 마케팅을 계속할 준비가 된 것입니다. 그렇지 않은 경우 고객을 대상으로 마케팅 활동을 계속하려면 고객의 허가를 받아야 합니다. 여기에는 일반적으로 고객에게 사이트로 이동하여 향후 이메일 수신에 동의하는 옵션을 선택하도록 요청하는 이메일을 보내는 것이 포함됩니다. 
   
-### <a name="do-i-have-to-worry-about-the-gdpr-when-i-recruit-new-employees-what-about-current-employees"></a>신규 직원을 채용할 때 GDPR에 대해 걱정해야 하나요? 현재 직원은 어떤가요?
+### <a name="do-i-have-to-worry-about-the-gdpr-when-i-recruit-new-employees-what-about-current-employees"></a>신규 직원을 채용할 때 GDPR에 대해 걱정해야 하나요? 현재 직원의 경우에는 어떤가요?
 
 GDPR은 고객 데이터에만 영향을 주지 않습니다. 직원 데이터에도 확장 적용됩니다. 신입 사원은 종종 LinkedIn과 같은 소셜 미디어 플랫폼을 사용하여 배치됩니다. 명시적 허가 없이 잠재적인 채용 데이터를 저장하지 마세요.
   

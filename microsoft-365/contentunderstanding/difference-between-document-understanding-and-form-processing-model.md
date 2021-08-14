@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 문서 이해 모델과 양식 처리 모델의 주요 차이에 대해 알아봅니다.
-ms.openlocfilehash: 929d7f248607b052aa8f41d08a2fbdee7a53fa6f
-ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
+ms.openlocfilehash: dc909cd809e3fff1c7f0a4008154cfe7af40740d7e5bbcda4d4cbe8283a47160
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "53578460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855447"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>문서 이해와 양식 처리 모델의 차이 
 

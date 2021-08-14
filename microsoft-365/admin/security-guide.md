@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스가 직면하는 보안 위협과 사용자와 직원이 데이터, 계정 및 장치를 보호할 수 있는 쉬운 방법에 대해 알아보십시오.
-ms.openlocfilehash: 2f7509044e785350c2703f8578d7859dc4f049f7
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 537630b551777e1eedf254de82c11e2286326ccf8973319245cacd5a7da80359
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53822613"
 ---
 # <a name="security-info-graphic-for-small-businesses"></a>중소기업을 위한 보안 정보 그래픽
 

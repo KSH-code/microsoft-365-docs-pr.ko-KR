@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: 전자 메일을 메일 Microsoft 365 메일 Microsoft 365 메일 목록에서 보낸 것으로 표시될 때 해당 메시지에 응답할 수 있도록 합니다.
-ms.openlocfilehash: c77455b5b990a9c35fc7e47ee81cc9ddef4d0a23
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 83a94055386763b5908c872ce9b3b9971c4578e965ccd14b2f67558e4983c335
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53392518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53824639"
 ---
 # <a name="send-email-as-a-distribution-list"></a>메일로 전자 메일 보내기
 

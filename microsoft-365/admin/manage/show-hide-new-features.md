@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자가 Office 기능의 Office 'Office 새로운 기능' 기능을 사용하여 > Office 앱 기능의 새로운 기능을 Windows 기능을 사용하여 표시하거나 숨길 Microsoft 365 관리 센터.
-ms.openlocfilehash: 66665aaf7fda869492d7bdfc12feaf45869f847b
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 882616a8ed0f4a4198bd7987ea596fe2c0cfc83dbe844e2ca5e354bbca768bcc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53655506"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53824578"
 ---
 # <a name="manage-which-office-features-appear-in-whats-new"></a>새로운 기능에 Office 기능 관리
 

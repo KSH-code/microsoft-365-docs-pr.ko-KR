@@ -1,5 +1,5 @@
 ---
-title: 파일럿 Microsoft Cloud App Security 파일럿 Microsoft 365 Defender, 파일럿 그룹 만들기, 조건부 액세스 제어 구성, 기능 시험 실행, 파일럿 작업의 일부로 Microsoft 365 Defender
+title: 파일럿 Microsoft Cloud App Security 파일럿 Microsoft 365 Defender
 description: 장치, Microsoft 365 Defender, 데이터 및 응용 프로그램을 보호하도록 설계된 보안 솔루션을 테스트하고 경험할 수 있도록 테스트 테스트 랩 또는 파일럿 환경을 설정하세요.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 672b01258c68f1cbcbfe3e2315c4b7cbcb36021e
-ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
+ms.openlocfilehash: a4aeb40e7386ae3648a392b6869551c3f16c2514b459ab1abf11c8ae6ceee46b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53862859"
 ---
 # <a name="pilot-microsoft-cloud-app-security-with-microsoft-365-defender"></a>파일럿 Microsoft Cloud App Security 파일럿 Microsoft 365 Defender
 

@@ -1,5 +1,5 @@
 ---
-title: XDR Microsoft 365 Defender 평가하고 파일럿하여 식별, 검색, 조사, 응답, 끝점, ID, 앱, 전자 메일, 공동 작업 응용 프로그램, 데이터를 방지합니다.
+title: XDR Microsoft 365 Defender 평가 및 파일럿
 description: 장치, Microsoft 365 Defender, 데이터 및 응용 프로그램을 보호하도록 설계된 보안 솔루션을 테스트하고 경험할 수 있도록 테스트 테스트 랩 또는 파일럿 환경을 계획합니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ade3087543f45439664868fbe02f1746e1f5e762
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: e8dc4d61fb0d43d2864245223923936fe4a646e88e93a3c6eda2a672d459b137
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53862825"
 ---
 # <a name="evaluate-and-pilot-microsoft-365-defender"></a>평가 및 파일럿 Microsoft 365 Defender
 
@@ -101,12 +101,12 @@ Microsoft는 설명된 순서대로 Microsoft 365 구성 요소를 사용하도�
 |      |단계  |설명  |
 |------|---------|---------|
 |1     | [평가 환경 만들기](eval-create-eval-environment.md)       |이 단계를 통해 사용자에 대한 평가판 라이선스가 Microsoft 365 Defender.         |
-|2      | [ID에 Defender 사용](eval-defender-identity-overview.md)        | 아키텍처 요구 사항을 검토하고, 평가를 사용하도록 설정하고, 다양한 공격 유형을 식별하고 수정하기 위한 자습서를 진행합니다.   |
+|2     | [ID에 Defender 사용](eval-defender-identity-overview.md)        | 아키텍처 요구 사항을 검토하고, 평가를 사용하도록 설정하고, 다양한 공격 유형을 식별하고 수정하기 위한 자습서를 진행합니다.   |
 |3      | [사용자에 대해 Defender를 Office 365](eval-defender-office-365-overview.md)       | 아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요. 이 구성 요소에는 Exchange Online Protection 포함되어 있으므로 여기서 실제로 두 가지를 *모두 평가합니다.*      |
 |4      | [끝점에 Defender 사용 ](eval-defender-endpoint-overview.md)       | 아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요.         |
 |5      | [사용자 Microsoft Cloud App Security](eval-defender-mcas-overview.md)        |  아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요.        |
 |6      | [위협 탐지 및 응답](eval-defender-investigate-respond.md)        |   공격을 시뮬레이트하고 인시던트 대응 기능을 사용을 시작합니다.      |
-|7      | [평가판을 프로덕션으로 승격](eval-defender-promote-to-production.md)        | Microsoft 365 구성 요소를 일대일 프로덕션으로 승격합니다.        |
+|7      | [평가판을 제품으로 승격](eval-defender-promote-to-production.md)        | Microsoft 365 구성 요소를 일대일 프로덕션으로 승격합니다.        |
 | | | |
 
 일반적으로 기능을 배포 및 구성하는 데 필요한 노력의 정도에 따라 기능의 가치를 빠르게 얻도록 디자인된 일반적으로 권장되는 순서입니다. 예를 들어, Office 365 Defender for Office 365용 Defender를 등록하는 데 필요한 것보다 훨씬 빠르게 구성할 수 있습니다. 물론 비즈니스 요구에 따라 구성 요소의 우선 순위를 지정하고 이러한 구성 요소를 다른 순서로 사용하도록 설정할 수 있습니다.

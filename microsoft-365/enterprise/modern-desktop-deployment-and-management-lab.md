@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 33db334ecf977b351ac963107c647c7eff414cc0
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 2cfd687b3f34c1857fa5128cefa236ceb71f6b8ba7ba00a86a3dfceb43b60062
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53870334"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 및 Office 365 배포 랩 키트
 
@@ -56,7 +56,7 @@ Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스
 
 ### <a name="plan-and-prepare-infrastructure"></a>인프라 계획 및 준비
 
-- 데스크톱 분석
+- Desktop Analytics
 - 클라우드 배포 & 클라우드 관리 게이트웨이
 - 새로운 기능! 테넌트 연결 및 공동 관리
 - 새로운 기능! 끝점 분석
@@ -111,7 +111,7 @@ Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스
 - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](https://www.aka.ms/watchhowtoshift)
 - [Microsoft Endpoint Configuration Manager OS 배포](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 - [Windows 10 배포 계획](/windows/deployment/planning/index)
-- [Microsoft 365 앱 배포 가이드](/deployoffice/deployment-guide-microsoft-365-apps)
+- [Microsoft 365 Apps 배포 가이드](/deployoffice/deployment-guide-microsoft-365-apps)
 - [Intune 시작](/intune/get-started-evaluation)
 
 ## <a name="related-resources"></a>관련 리소스
