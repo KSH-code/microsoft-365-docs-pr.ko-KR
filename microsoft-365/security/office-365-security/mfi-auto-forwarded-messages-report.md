@@ -12,12 +12,12 @@ ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 자동 전달된 메시지 & 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1882c0506093816e9bb85ae3ba90decd4e0e0d74
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e0c03321b1bdada7145a19d0d2147594eb039c716b61feebbf26c4becab286f3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56815715"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 전달된 메시지 정보
 

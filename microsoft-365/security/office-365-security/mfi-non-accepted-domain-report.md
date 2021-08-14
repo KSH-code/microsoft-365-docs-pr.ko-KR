@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 않는 도메인 보고서를 사용하여 보낸 사람 도메인이 조직에 구성되어 있지 않은 & 조직에서 보낸 메시지를 모니터링하는 방법을 Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fb33feb56bf2b52731c03273ce0c6444c333f348
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 018fb5ee8e2d0532cc96f85f4ec66e146dae8eb81a8e189e8746c26fde71fe7e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206336"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56816525"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 도메인 보고서
 

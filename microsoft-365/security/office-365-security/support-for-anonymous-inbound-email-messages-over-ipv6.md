@@ -18,12 +18,12 @@ ms.custom:
 description: 관리자는 IPv6 원본의 익명 인바운드 전자 메일에 대한 지원을 구성하는 방법을 Exchange Online Exchange Online Protection.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 80fdcc9dcfe3006ef8b21aa19856fe8c0ea3ff70
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 2db948447677a4925ac4c788c888e78d9a9715c8e266c140e9e25a4a0a7d1d5c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56813813"
 ---
 # <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>IPv6을 통해 익명 인바운드 전자 메일에 대한 지원을 Microsoft 365
 

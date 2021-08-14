@@ -19,12 +19,12 @@ description: 보안 및 준수 센터에서 사용할 수 있는 스마트 보�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9408f99b72821e6510927755a9fe6f3aa525a5e0
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 360151fa68309d53f788c18637aa95d61374b62be4815669dc22a6325caa1283
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56814743"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 똑똑한 보고서 및 분석
 
@@ -66,7 +66,7 @@ ms.locfileid: "53108622"
 |**감사 로그** <p> Microsoft 365 활동, 사용자, 파일 또는 폴더 등에 대한 정보|보안 및 & 센터에서 검색 및 & **감사** \> **로그 검색으로 이동**|[보안 및 준수 센터에서 감사 로그 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md)|
 |**준수 보고서** <p> FedRAMP 보고서, 거버넌스, 위험 및 규정 준수 보고서, ISO 정보 보안 관리 보고서 및 Service Organization Controls(SOC) 감사 및 평가 보고서|보안 및 & 센터에서 **서비스** 보증 준수 \> **보고서로 이동**|[보안 및 & 규정 준수 Office 365](../../compliance/plan-for-security-and-compliance.md)|
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365 Defender 포털](../defender/overview-security-center.md)
 

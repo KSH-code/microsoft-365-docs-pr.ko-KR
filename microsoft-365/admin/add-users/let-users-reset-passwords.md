@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용하여 사용자가 암호를 직접 재설정할 수 있도록 하는 정책을 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 284a81e46ff22bf0a2ae514db81432b64e342a7f
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 9743c45d43510eb1db9e4d27d2b7bcf65d1bdb100b53ccefb56c25a9082153f4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53815650"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 

@@ -19,12 +19,12 @@ description: 관리자는 피싱 방지를 위해 EOP(Exchange Online Protection
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5a02313bf8c36fe0be91340e421c69a8dc5c0842
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0451f89501a9247b80d5696a085728a5edc66af882a57788063e702733c9cd97
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56815252"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>EOP에서 피싱을 방지하기 위해 시작 주소의 유효성을 검사하는 방법
 
@@ -118,7 +118,7 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 - 이 도메인에 대한 null MX 레코드는 단일 기간으로 구성됩니다.
 
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```text
 noreply.contoso.com IN MX .

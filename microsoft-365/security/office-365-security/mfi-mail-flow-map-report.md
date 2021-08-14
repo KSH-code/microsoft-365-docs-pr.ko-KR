@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 메일 흐름 맵을 사용하여 커넥터를 사용하지 않고도 조직에서 & 흐름을 시각화하고 추적하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6e806dde2e6f3ddde5cce3b61c85fe0b024ba2fe
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6bf906871bc95bd57ef3ffc342352c4ce8b5fea96bb6a5212b04b000d66c7b41
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56816872"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 흐름 맵
 
@@ -61,7 +61,7 @@ ms.locfileid: "51206959"
 보고서 보기에서 **세부** 정보 표 보기를 클릭하면 다음 정보가 표시됩니다.
 
 - **날짜**
-- **카테고리**
+- **종류**
 - **커넥터/타사 서비스 공급자**
 - **보낸 사람/받는 사람 도메인**
 - **메시지 수**

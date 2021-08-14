@@ -21,18 +21,18 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: Exchange 관리자가 조직의 전자 메일 및 사서함을 관리합니다. 예를 들어 사용자의 사서함에서 삭제된 항목을 복구합니다.
-ms.openlocfilehash: 58f0da87c0db57a3df62834a4375d561e20a98f8
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: e4c5e437ae72e3d3baac4140200670684af73cf1080c7b80edca044389465684
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53816022"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>관리자 Exchange Online 정보를
 
 조직의 전자 메일 Microsoft 365 관리 센터에서 조직의 전자 메일 및 사서함을 관리할 수 있는 권한을 사용자에게 [Exchange 있습니다.](/exchange/exchange-admin-center) [](assign-admin-roles.md) 이 작업은 그들에게 Exchange 관리자 역할을 할당하여 수행합니다.
   
- **팁:** Exchange 관리자 역할에 다른 사람을 할당할 때 서비스 관리자 역할에도 할당합니다. 이렇게 하면 Microsoft 365 관리 센터에서 Exchange Online 중요한 정보를 보고 알림을 변경 및 해제할 수 있습니다.
+ **팁:** Exchange 관리자 역할에 다른 사람을 할당할 때 서비스 관리자 역할에도 할당합니다. 이렇게 하면 Microsoft 365 관리 센터 서비스 상태와 같은 중요한 정보를 Exchange Online 알림을 변경 및 해제할 수 있습니다.
 
 다음은 사용자가 관리자 역할에 할당될 때 수행할 수 있는 몇 가지 주요 Exchange 있습니다.
   

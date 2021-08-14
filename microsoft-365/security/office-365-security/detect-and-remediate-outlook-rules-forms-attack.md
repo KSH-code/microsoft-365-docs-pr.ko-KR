@@ -18,12 +18,12 @@ description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0846051b65b34ec26358f87bb4ca49302573e6e7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 33fc889b2ddb42dcbbacb1e2b6030e3bf1b409fc07970927e99e06a2747bc21d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205920"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56814778"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>규칙 및 사용자 Outlook 주입 공격 감지 및 재구성
 
@@ -244,9 +244,9 @@ Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할
 
 - 처음 30일 이내에 수행 할 작업 이는 즉시 영향을 미치며 사용자에게 낮은 영향을 미치게 됩니다.
 
-- 90일 이내에 수행해야 할 작업 이러한 작업들은 계획하고 구현하는 데 다소 시간이 걸리지만 보안 태세를 갖추는 데 큰 도움이 됩니다.
+- 90일 이내에 수행할 작업입니다. 이러한 작업들은 계획하고 구현하는 데 다소 시간이 걸리지만 보안 태세를 갖추는 데 큰 도움이 됩니다.
 
-- 90일 초과 이러한 향상된 기능은 처음 90일간의 작업에서 구축됩니다.
+- 90일을 초과합니다. 이러한 향상된 기능은 처음 90일간의 작업에서 구축됩니다.
 
 ## <a name="see-also"></a>참고 항목:
 

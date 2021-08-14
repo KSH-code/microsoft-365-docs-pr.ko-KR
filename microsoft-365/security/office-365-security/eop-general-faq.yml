@@ -16,12 +16,12 @@ metadata:
   description: EOP(클라우드 호스팅 전자 메일 Exchange Online Protection 서비스에 대한 가장 일반적인 질문과 대답을 얻습니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: e7ae5858841384c31acf9b785fc0071607ba5f1d
-  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+  ms.openlocfilehash: c46f918b644fdfb85b9290a09a8dea03571840b69d8c9d8508d3be5c9d7d428f
+  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/24/2021
-  ms.locfileid: "52625368"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "56814760"
 title: EOP 관련 일반 FAQ(질문과 대답)
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -52,7 +52,7 @@ summary: >
 
   - [메시지 추적 FAQ](/exchange/monitoring/trace-an-email-message/message-trace-faq)
 sections:
-- name: Ignored
+- name: 무시됨
   questions:
   - question: >
       EOP란 무엇입니까?
@@ -81,7 +81,7 @@ sections:
   - question: >
       EOP에도 알려진 문제와 필요한 해결 방법에 대한 정보를 찾을 수 있는 통신 포털이 있습니까? 새로운 기능에 대한 정보는 어떻게 확인할 수 있습니까?
     answer: >
-      Microsoft 365 관리 센터에는 이 정보 중 일부가 있습니다. 서비스 수준 이벤트의 영향을 미치는 경우 Microsoft 365 관리 센터에 로그인한 후 통신 경고(일반적으로 종 아이콘이 함께 표시)가 표시됩니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다.
+      이 Microsoft 365 관리 센터 정보 중 일부를 사용할 수 있습니다. 서비스 수준 이벤트의 영향을 미치는 경우 서비스 수준 이벤트에 로그인한 후 통신 경고(일반적으로 종 아이콘이 함께 표시)가 Microsoft 365 관리 센터. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다.
 
 
       새 EOP 기능과 관련하여 [](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) 비즈니스 Microsoft 365 로드맵은 예정된 새 기능에 대한 정보를 찾는 데 좋은 리소스입니다. 또한 블로그 웹 사이트에 새로운 기능에 대한 블로그 [Microsoft 365 게시할 것입니다.](https://www.microsoft.com/microsoft-365/blog/)

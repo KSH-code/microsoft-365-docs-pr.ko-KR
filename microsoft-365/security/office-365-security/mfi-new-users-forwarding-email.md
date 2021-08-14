@@ -12,12 +12,12 @@ ms.assetid: ''
 description: 관리자는 보안 및 준수 센터에서 새 사용자 전달 전자 메일 정보를 사용하여 조직의 사용자가 메시지를 새 도메인으로 전달하는 & 조사하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 807df82ca80e851554db7b8f373a5ca4af02a391
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1791f8663e7ffa0e9d0fb0b55f625f73f1482cf4f61e5f4ce03cdf1e1e525552
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56817142"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전자 메일 정보를 전달하는 & 사용자
 
@@ -106,7 +106,7 @@ ms.locfileid: "51206196"
 - **세부 정보**
 - **개수**
 - **시작 날짜**
-- **권장 사항:** 여기에서 링크를 클릭하여 Microsoft 365 관리 센터에서 사용자를 관리할 수 있습니다.
+- **권장 사항:** 여기에서 링크를 클릭하여 사용자 관리 Microsoft 365 관리 센터.
 
 ![전달 수정 보고서의 새 전달 사용자 보기의 세부 정보 테이블에서 플라이아웃 세부 정보](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 

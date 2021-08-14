@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(인바운드 메시지)에서 인바운드 메시지를 허용하는 사용 가능한 옵션과 기본 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f76b34a439d2eaf2c8315d174483b0b30d3b3b0b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 81ab9b0aabc9b9699e0cee27b0046748a2a585df511f271316e01200ce552221
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56814779"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 가능한 보낸 사람 목록 만들기
 
@@ -33,12 +33,12 @@ ms.locfileid: "52538762"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Microsoft 365 사서함이 있는 Microsoft 365 Exchange Online 고객 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(독립 실행형 Exchange Online Protection) 고객인 경우 EOP는 사용자가 신뢰할 수 있는 보낸 사람으로부터 전자 메일을 받게 하는 여러 가지 방법을 제공합니다. 이러한 옵션에는 Exchange 메일 흐름 규칙(전송 규칙), Outlook 수신 허용 목록, IP 허용 목록(연결 필터링) 및 스팸 방지 정책의 허용된 보낸 사람 목록 또는 허용 도메인 목록이 포함됩니다. 총체적으로 이러한 옵션을 안전한 보낸 사람 목록으로 _생각할 수 있습니다._
+Microsoft 365 사서함이 있는 Microsoft 365 Exchange Online 고객 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(독립 실행형 Exchange Online Protection) 고객인 경우 EOP는 사용자가 신뢰할 수 있는 보낸 사람으로부터 전자 메일을 받게 하는 여러 가지 방법을 제공합니다. 이러한 옵션에는 Exchange 메일 흐름 규칙(전송 규칙), Outlook 금고 보낸 사람, IP 허용 목록(연결 필터링) 및 스팸 방지 정책의 허용된 보낸 사람 목록 또는 허용된 도메인 목록이 포함됩니다. 총체적으로 이러한 옵션을 안전한 보낸 사람 목록으로 _생각할 수 있습니다._
 
 사용 가능한 수신 가능 보낸 사람 목록은 권장되는 항목부터 최소 권장 항목까지 순서대로 다음 목록에 설명되어 있습니다.
 
 1. 메일 흐름 규칙
-2. Outlook 수신이 안전한 보낸 사람
+2. Outlook 금고 보낸 사람
 3. IP 허용 목록(연결 필터링)
 4. 허용된 보낸 사람 목록 또는 허용된 도메인 목록(스팸 방지 정책)
 
@@ -100,14 +100,14 @@ EOP 및 Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙은 메�
 
 ![스팸 필터링을 무시하기 위한 EAC의 메일 흐름 규칙 설정](../../media/1-AllowList-SkipFilteringFromContoso.png)
 
-## <a name="use-outlook-safe-senders"></a>수신 Outlook 보낸 사람 사용
+## <a name="use-outlook-safe-senders"></a>보낸 Outlook 금고 사용
 
 > [!CAUTION]
-> 이 방법을 사용하면 공격자가 받은 편지함으로 전자 메일을 배달할 위험이 높아지며 그렇지 않으면 필터링됩니다. 그러나 사용자의 안전한 보낸 사람 또는 안전한 도메인 목록은 맬웨어 또는 높은 신뢰도 피싱 메시지가 필터링되는 것을 방지하지 않습니다.
+> 이 방법을 사용하면 공격자가 받은 편지함으로 전자 메일을 배달할 위험이 높아지며 그렇지 않으면 필터링됩니다. 그러나 사용자의 금고 또는 금고 목록은 맬웨어 또는 높은 신뢰도의 피싱 메시지가 필터링되는 것을 방지하지 않습니다.
 
-사용자 또는 관리자는 조직 설정 대신 사서함의 수신 허용 - 보낸 사람 목록에 보낸 사람 전자 메일 주소를 추가할 수 있습니다. 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Office 365.](configure-junk-email-settings-on-exo-mailboxes.md) 보낸 사람이 필터링 스택의 일부를 무시하기 때문에 대부분의 상황에서는 이 설정이 바람직하지 않습니다. 보낸 사람이 신뢰하는 경우도 보낸 사람이 손상된 후 악의적인 콘텐츠를 보낼 수 있습니다. 필터에서 모든 메시지를 확인한 다음 필터가 잘못된 경우 [Microsoft에](report-junk-email-messages-to-microsoft.md) 가짓 긍정/부정을 보고하는 데 필요한 작업을 필터에 적용하는 것이 가장 좋은 것입니다. 필터링 스택을 무시하면 [ZAP가 방해됩니다.](zero-hour-auto-purge.md)
+사용자 또는 관리자는 조직 설정 대신 사서함의 보낸 사람 목록에 보낸 금고 주소를 추가할 수 있습니다. 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Office 365.](configure-junk-email-settings-on-exo-mailboxes.md) 보낸 사람이 필터링 스택의 일부를 무시하기 때문에 대부분의 상황에서는 이 설정이 바람직하지 않습니다. 보낸 사람이 신뢰하는 경우도 보낸 사람이 손상된 후 악의적인 콘텐츠를 보낼 수 있습니다. 필터에서 모든 메시지를 확인한 다음 필터가 잘못된 경우 [Microsoft에](report-junk-email-messages-to-microsoft.md) 가짓 긍정/부정을 보고하는 데 필요한 작업을 필터에 적용하는 것이 가장 좋은 것입니다. 필터링 스택을 무시하면 [ZAP가 방해됩니다.](zero-hour-auto-purge.md)
 
-사용자의 수신권한 보낸 사람 목록으로 인해 메시지가 스팸 필터링을 건너뛰면 **X-Forefront-Antispam-Report** 헤더 필드에 값 을 포함하게 되어 스팸, 스푸핑 및 피싱 필터링이 `SFV:SFE` 무시되었습니다.
+사용자의 금고 보낸 사람 목록으로 인해 메시지가 스팸 필터링을 건너뛰면 **X-Forefront-Antispam-Report** 헤더 필드에는 값 을 포함하며, 이는 스팸, 스푸핑 및 피싱 필터링이 무시된 `SFV:SFE` 것입니다.
 
 ## <a name="use-the-ip-allow-list"></a>IP 허용 목록 사용
 
@@ -152,11 +152,11 @@ EOP 및 Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙은 메�
 
 - 주소는 blueyonder@news.blueyonderairlines.com 표시됩니다. 이 주소는 `5322.From` Outlook.
 
-EOP의 스팸 방지 정책의 수신 허용 - 보낸 사람 목록 및 안전한 도메인 목록은 주소만 검사하며, 이는 해당 Outlook 사용하는 수신 허용 - `5322.From` 보낸 사람과 `5322.From` 유사합니다.
+금고 EOP의 스팸 방지 정책의 보낸 사람 목록 및 수신 허용 도메인 목록은 주소만 검사하며, Outlook 금고 사용하는 보낸 사람 목록과 `5322.From` `5322.From` 유사합니다.
 
 이 메시지가 필터링되지 않도록 방지하기 위해 다음 단계를 수행하면 됩니다.
 
-- 수신 blueyonder@news.blueyonderairlines.com (주소)를 안전한 Outlook `5322.From` 추가합니다.
+- 보낸 blueyonder@news.blueyonderairlines.com(주소)를 Outlook 금고 `5322.From` 추가합니다.
 
 - [메일 흐름 규칙은](#recommended-use-mail-flow-rules) 주소, blueyonder@news.blueyonderairlines.com () 또는 둘 blueyonder.airlines@margiestravel.com `5322.From` `5321.MailFrom` 조건과 함께 사용하세요.
 

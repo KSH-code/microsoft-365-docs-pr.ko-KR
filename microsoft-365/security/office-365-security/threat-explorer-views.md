@@ -13,16 +13,16 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 위협 탐색기 및 실시간 검색 보고서를 사용하여 위협을 조사하고 대응하는 방법에 대해 Microsoft 365 있습니다.
+description: 위협 탐색기 및 실시간 검색 보고서를 사용하여 보안 포털에서 위협을 조사하고 대응하는 Microsoft 365 Defender 대해 자세히 알아보십시오.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1c79cc717a2dbe345627f99830590c674fa02f09
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: fb58b8c605354dcecf82f11176955f89e9aeae04403af1f0ae591f14ae5f9141
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56815708"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 보기
 
@@ -35,12 +35,12 @@ ms.locfileid: "52929638"
 
 ![위협 탐색기](../../media/explorer.png)
 
-[위협](threat-explorer.md) 탐색기(및 실시간 검색 보고서)는 보안 운영 팀이 보안 운영 팀이 보안 Defender 포털에서 위협을 조사하고 대응하는 데 도움이 되는 강력한 거의 Microsoft 365 도구입니다. 탐색기(및 실시간 검색 보고서)는 조직의 전자 메일 및 파일에서 의심되는 맬웨어 및 피싱Office 365 조직에 대한 기타 보안 위협 및 위험에 대한 정보를 표시합니다.
+[위협](threat-explorer.md) 탐색기(및 실시간 검색 보고서)는 보안 운영 팀이 보안 운영 팀이 보안 포털에서 위협을 조사하고 대응하는 데 도움이 되는 강력한 거의 실시간 Microsoft 365 Defender 도구입니다. 탐색기(및 실시간 검색 보고서)는 조직의 전자 메일 및 파일에서 의심되는 맬웨어 및 피싱Office 365 조직에 대한 기타 보안 위협 및 위험에 대한 정보를 표시합니다.
 
 - Microsoft [Defender for Office 365](defender-for-office-365.md) 계획 2가 있는 경우 탐색기가 있습니다.
 - Microsoft Defender for Office 365 계획 1이 있는 경우 실시간 검색이 있습니다.
 
-탐색기(또는 실시간 검색 보고서)를 처음 열면 기본 보기에 지난 7일 동안의 전자 메일 맬웨어 검색이 표시됩니다. 또한 이 보고서는 안전한 링크에서 검색된 악의적인 URL Office 365 안전한 [](safe-links.md)첨부 파일로 검색된 악성 파일 등 검색된 메시지에 대해 Microsoft Defender를 보여 [주어도 됩니다.](safe-attachments.md) 이 보고서는 지난 30일 동안의 데이터를 표시하기 위해 수정할 수 있습니다(P2 유료 구독용 Microsoft Defender 사용 Office 365 수 있습니다. 평가판 구독에는 지난 7일 동안의 데이터만 포함됩니다.
+탐색기(또는 실시간 검색 보고서)를 처음 열면 기본 보기에 지난 7일 동안의 전자 메일 맬웨어 검색이 표시됩니다. 또한 이 보고서에는 금고 링크에서 검색된 악의적인 URL 및 첨부 [](safe-links.md)파일에서 검색된 악성 파일과 같은 Office 365 Microsoft Defender가 표시될 [금고 있습니다.](safe-attachments.md) 이 보고서는 지난 30일 동안의 데이터를 표시하기 위해 수정할 수 있습니다(P2 유료 구독용 Microsoft Defender 사용 Office 365 수 있습니다. 평가판 구독에는 지난 7일 동안의 데이터만 포함됩니다.
 
 ****
 
@@ -149,7 +149,7 @@ ms.locfileid: "52929638"
 
 ![검색 결과에 대한 Defender만 표시 Office 365 탐색기](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
 
-이 보기에서는 이제 안전한 첨부 파일로 검색된 파일에 대한 [데이터를 보고 있습니다.](safe-attachments.md) 차트 아래에서는 안전한 첨부 파일에서 검색된 첨부 파일이 있는 특정 전자 메일 메시지에 대한 세부 정보를 볼 수 있습니다.
+이 보기에서는 이제 첨부 파일 에서 검색된 파일에 [대한 금고 있습니다.](safe-attachments.md) 차트 아래에서는 첨부 파일에서 검색된 첨부 파일이 있는 특정 전자 메일 메시지에 대한 세부 금고 있습니다.
 
 ![검색된 첨부 파일이 있는 전자 메일 메시지에 대한 특정 세부 정보](../../media/c91fb05c-d1d4-4085-acc6-f7008a415c2a.png)
 

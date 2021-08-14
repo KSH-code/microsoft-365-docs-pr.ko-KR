@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 피싱 메시지가 전자 메일에서 수신되는 이유와 방법을 파악하고 Microsoft 365 향후 더 많은 피싱 메시지를 방지하는 방법에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5093981c5f0166d3f53c3b6c7d24371312633c99
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 89ff91b0f160675e10ca52c2f7476cbc53b4ff4a696727e1c1dc2b42bc57a1d9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029348"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56816068"
 ---
 # <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 
@@ -40,9 +40,9 @@ Microsoft 365 사용하도록 설정된 다양한 피싱 방지 기능이 제공
 
 구독에 Microsoft Defender for Office 365 포함된 경우 Office 365 [위협](office-365-ti.md) 인텔리전스를 사용하여 피싱 메시지를 받은 다른 사용자를 식별할 수 있습니다. 피싱 메시지를 차단하는 추가 옵션이 있습니다.
 
-- [Safe Microsoft Defender for Office 365](set-up-safe-links-policies.md)
+- [금고 Microsoft Defender for Office 365](set-up-safe-links-policies.md)
 
-- [Safe Microsoft Defender for Office 365](set-up-safe-attachments-policies.md)
+- [금고 Microsoft Defender for Office 365](set-up-safe-attachments-policies.md)
 
 - [Microsoft Defender](configure-mdo-anti-phishing-policies.md)for Office 365. 정책의 고급 피싱  임계값을 **일시적으로 Standard에서** **적극적,** 보다 적극적 또는 가장 적극적인 으로 늘 수 **있습니다.**
 

@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 가능한 메일 루프 수정 정보를 사용하여 조직의 메일 루프를 식별하고 & 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8bb08eb2f9a5ea0eb72433f92b6d28175edc75b8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c391dee66461dd2535de5f05ef6ebd0f00b8dde0b7c973df8fa638199885dd22
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206346"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56813752"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 가능한 메일 루프 & 해결
 

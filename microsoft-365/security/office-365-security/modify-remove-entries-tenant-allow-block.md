@@ -1,5 +1,5 @@
 ---
-title: 테넌트 허용/차단 목록의 항목 수정 및 제거
+title: 테넌트 허용/차단 목록에서 항목 수정 및 제거
 f1.keywords:
 - NOCSH
 ms.author: dansimp
@@ -16,14 +16,14 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 항목을 수정하고 제거하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 23c390babc64909aa860554437b60e2370d0fd1f
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 03f2d3f61bc61862bc221f338e6115b035fd2ea349be5531ca2035558046ba06
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56814287"
 ---
-# <a name="modify-and-remove-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록의 항목 수정 및 제거
+# <a name="modify-and-remove-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 항목 수정 및 제거
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

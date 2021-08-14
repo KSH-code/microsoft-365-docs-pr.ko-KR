@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 287bd9cd4dda6ccb152e93908a409e036eab9cc7
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 8e1812d8b6df9b48377978715e3a213e66993965ad1d0e6108457150ad1d3d12
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56816885"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화된 조사 및 응답 기능에서 가짓 긍정/부정을 보고하는 방법
 
@@ -82,7 +82,7 @@ Microsoft Defender에서 전자 메일 Office 365, 전자 메일 첨부 파일, 
 
 관리 센터에서 수행된 수정 작업을 보고 작업을 실행 취소할 수 있습니다.
 
-1. Defender Microsoft 365 ()로 <https://security.microsoft.com> 이동하십시오.
+1. Microsoft 365 Defender 포털()로 <https://security.microsoft.com> 이동하십시오.
 2. 탐색 창에서 작업 센터 **를 선택합니다.**
 3. 완료된 **작업 목록을** 표시하려면 사용 기록 탭을 선택합니다.
 4. 항목을 선택합니다. 플라이아웃 창이 열립니다.

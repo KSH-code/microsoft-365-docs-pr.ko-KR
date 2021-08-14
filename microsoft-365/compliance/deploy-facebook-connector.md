@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 기본 커넥터를 설정하여 Facebook 비즈니스 페이지를 가져와서 보관할 수 Microsoft 365. 이 데이터를 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 Facebook 데이터의 거버넌스를 관리할 수 있습니다.
-ms.openlocfilehash: b771c50eb5c2eb5f99269f1f399d27043ebee6bb
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.openlocfilehash: 773893884aebba3d55e063e7e4f8fa331553eb215a2e20f6b8833b00811d7c12
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49619954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53892933"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook 비즈니스 페이지 데이터를 보관하는 커넥터 배포
 
@@ -186,7 +186,7 @@ ms.locfileid: "49619954"
 
 5. **저장을** 클릭하여 커넥터 설정을 저장합니다.
 
-## <a name="step-5-set-up-a-facebook-connector-in-the-microsoft-365-compliance-center"></a>5단계: 규정 준수 센터에서 Facebook Microsoft 365 설정
+## <a name="step-5-set-up-a-facebook-connector-in-the-microsoft-365-compliance-center"></a>5단계: 2단계에서 Facebook 커넥터 Microsoft 365 규정 준수 센터
 
 1. 으로 이동한 다음 왼쪽 [https://compliance.microsoft.com](https://compliance.microsoft.com) **네비게이트에서 데이터** 커넥터를 클릭합니다.
 

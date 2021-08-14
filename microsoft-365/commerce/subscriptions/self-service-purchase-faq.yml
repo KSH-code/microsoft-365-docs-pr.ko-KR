@@ -20,15 +20,15 @@ metadata:
   - MET150
   description: 셀프 서비스 구매에 대한 자주 묻는 질문에 대한 답변을 찾아보는 것이 가장 흔합니다.
   ms.date: 09/15/2020
-  ms.openlocfilehash: 7dcf16ff51854b595f61c2797a62632a3003b7c9
-  ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+  ms.openlocfilehash: 9cca88d8eb2d943d8d8d5377f4223e5a69251d6aa9048d8e0ab721373605cd4d
+  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/19/2021
-  ms.locfileid: "52539314"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "53892642"
 title: 셀프 서비스 구매 FAQ
 summary: >
-  셀프 서비스 구매는 사용자에게 새로운 기술을 사용해 보거나 궁극적으로 대규모 조직에 혜택을 주는 솔루션을 개발할 수 있는 기회를 제공합니다. 중앙 조달 및 IT 팀은 중앙 관리 센터 를 통해 셀프 서비스 구매 솔루션을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">구입하고 배포하는 모든 Microsoft 365 있습니다.</a> 관리자는 PowerShell을 통해 제품 기준으로 셀프 서비스 구매를 해제할 수 있습니다. 자세한 내용은 [MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용을 참조합니다.](allowselfservicepurchase-powershell.md)
+  셀프 서비스 구매는 사용자에게 새로운 기술을 사용해 보거나 궁극적으로 대규모 조직에 혜택을 주는 솔루션을 개발할 수 있는 기회를 제공합니다. 중앙 조달 및 IT 팀은 에서 셀프 서비스 구매 솔루션을 구입하고 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">배포하는</a>모든 사용자를 Microsoft 365 관리 센터. 관리자는 PowerShell을 통해 제품 기준으로 셀프 서비스 구매를 해제할 수 있습니다. 자세한 내용은 [MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용을 참조합니다.](allowselfservicepurchase-powershell.md)
 
 
   셀프 서비스 구매는 Power Platform(Power BI, Power Apps, Power Automate), Project 및 Visio.
@@ -43,7 +43,7 @@ sections:
   - question: >
       고객이 셀프 서비스를 구입하는 방법
     answer: >
-      고객은 제품 웹 사이트 또는 앱에서 구매 프롬프트에서 온라인으로 셀프 서비스 구매를 할 수 있습니다. 고객은 먼저 전자 메일 주소를 입력하여 기존 AD(Azure Active Directory 테넌트의 사용자)를 입력하도록 요청됩니다. 다음으로 Azure AD 자격 증명을 사용하여 로그인합니다. 로그인한 후 고객은 구입하려는 구독 수를 선택하고 신용 카드 결제를 제공해야 합니다. 구매가 완료되면 구독 사용을 시작할 수 있습니다. 구매는 조직의 다른 사용자에게 제품에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a> 라이선스를 할당할 수 있는 Microsoft 365 관리 센터의 제한된 보기에 액세스할 수 있습니다.
+      고객은 제품 웹 사이트 또는 앱에서 구매 프롬프트에서 온라인으로 셀프 서비스 구매를 할 수 있습니다. 고객은 먼저 전자 메일 주소를 입력하여 기존 AD(Azure Active Directory 테넌트의 사용자)를 입력하도록 요청됩니다. 다음으로 Azure AD 자격 증명을 사용하여 로그인합니다. 로그인한 후 고객은 구입하려는 구독 수를 선택하고 신용 카드 결제를 제공해야 합니다. 구매가 완료되면 구독 사용을 시작할 수 있습니다. 구매는 조직의 다른 사용자에게 제품에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 라이선스를 할당할 수 있는 제한된 보기에 액세스할 수 있습니다.
   - question: >
       셀프 서비스 구매에 대한 결제 옵션은 무엇입니까?
     answer: >
@@ -66,11 +66,11 @@ sections:
   - question: >
       Who 셀프 서비스 구매자가 라이선스를 할당할 수 있나요?
     answer: >
-      셀프 서비스 구매자는 동일한 Azure AD 테넌트의 사용자에게만 라이선스를 할당할 수 있습니다. 구매자를 통해 라이선스를 할당하기 위해 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">보기에</a> 액세스할 수 있습니다. 구매자는 셀프 서비스 구매를 통해 구입한 제품에 라이선스를 할당할 수 있으며 동일한 Azure AD 테넌트의 사용자에게만 라이선스를 할당할 수 있습니다.
+      셀프 서비스 구매자는 동일한 Azure AD 테넌트의 사용자에게만 라이선스를 할당할 수 있습니다. 구매자를 통해 라이선스를 할당할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a> 수 있는 제한적인 Microsoft 365 관리 센터 액세스할 수 있습니다. 구매자는 셀프 서비스 구매를 통해 구입한 제품에 라이선스를 할당할 수 있으며 동일한 Azure AD 테넌트의 사용자에게만 라이선스를 할당할 수 있습니다.
   - question: >
       셀프 서비스 구매는 어디에서 구매를 보고 관리하나요?
     answer: >
-      셀프 서비스 구매자는 중앙 관리 센터의 제한된 보기에서 구매를 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리할 Microsoft 365 있습니다.</a> 구매자는 모든 앱 및 Dynamics  온라인 앱에 기본 제공되는 앱 시작 관리자의 관리 타일에서 Microsoft 365 수 있습니다. 구매자는 구매한 구매를 보고, 동일한 서비스에 대한 추가 구독을 구입하고, 해당 구독에 대한 라이선스를 조직의 다른 사용자에게 할당할 수 있습니다. 또한 구매자는 청구서를 보고 결제하고, 결제 방법을 업데이트하고, 구독을 취소할 수 있습니다.
+      셀프 서비스 구매자는 의 제한된 보기에서 구매를 관리할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">수 Microsoft 365 관리 센터.</a> 구매자는 모든 앱 및 Dynamics  온라인 앱에 기본 제공되는 앱 시작 관리자의 관리 타일에서 Microsoft 365 수 있습니다. 구매자는 구매한 구매를 보고, 동일한 서비스에 대한 추가 구독을 구입하고, 해당 구독에 대한 라이선스를 조직의 다른 사용자에게 할당할 수 있습니다. 또한 구매자는 청구서를 보고 결제하고, 결제 방법을 업데이트하고, 구독을 취소할 수 있습니다.
 - name: 가격
   questions:
   - question: >
@@ -86,7 +86,7 @@ sections:
   - question: >
       관리자가 셀프 서비스 구매를 위해 어떤 기능을 사용할 수 있나요?
     answer: >
-      관리자는 조직에서 만든 모든 셀프 서비스 구매를 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">있습니다.</a> 각 셀프 서비스 구매에 대한 제품, 구매자 이름, 구독, 만료 날짜, 주문 내역, 구매 가격 및 할당된 사용자를 볼 수 있습니다. Power Platform 관리 센터에서 관리자는 셀프 서비스 구매 용량도 볼 수 있습니다. 조직에 필요한 경우 관리자는 PowerShell을 통해 제품 기준으로 셀프 서비스 구매를 해제할 수 있습니다. 관리자는 셀프 서비스 구매를 통해 구입하거나 중앙에서 구입한 제품에 대해 동일한 데이터 관리 및 액세스 정책을 습니다.
+      관리자는 조직에서 만든 모든 셀프 서비스 구매를 조직에서 볼 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">수</a>Microsoft 365 관리 센터. 각 셀프 서비스 구매에 대한 제품, 구매자 이름, 구독, 만료 날짜, 주문 내역, 구매 가격 및 할당된 사용자를 볼 수 있습니다. Power Platform 관리 센터에서 관리자는 셀프 서비스 구매 용량도 볼 수 있습니다. 조직에 필요한 경우 관리자는 PowerShell을 통해 제품 기준으로 셀프 서비스 구매를 해제할 수 있습니다. 관리자는 셀프 서비스 구매를 통해 구입하거나 중앙에서 구입한 제품에 대해 동일한 데이터 관리 및 액세스 정책을 습니다.
 
 
       관리자는 조직의 사용자가 셀프 서비스 구매를 할 수 있는지 여부를 제어할 수도 있습니다. 자세한 내용은 [MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용을 참조하세요.](allowselfservicepurchase-powershell.md)
@@ -105,7 +105,7 @@ sections:
   - question: >
       관리자에게 셀프 서비스 구매는 어디에서 표시하나요?
     answer: >
-      전역 및 대금 청구 관리자는 청구 관리 센터의 청구 제품에서 셀프 서비스  >   <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">구매를 통해 구입한 구독을</a>Microsoft 365 있습니다. 중앙 조달을 통해 구매한 구독만 표시하거나 셀프 서비스 구매를 통해 구입한 구독을 포함하기 위해 제품 목록을 필터링할 수 있습니다.
+      전역 및 대금 청구 관리자는 청구 내 제품 청구에서 셀프 서비스 구매를 통해 구입한 구독을 볼  >   <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">수</a>Microsoft 365 관리 센터. 중앙 조달을 통해 구매한 구독만 표시하거나 셀프 서비스 구매를 통해 구입한 구독을 포함하기 위해 제품 목록을 필터링할 수 있습니다.
 
 
       관리자는 제품, 구매자 이름, 구독 구매, 만료 날짜, 주문 내역, 구매 가격 및 할당된 사용자를 볼 수 있습니다.
@@ -131,4 +131,4 @@ sections:
   questions:
   - question: >
       셀프 서비스 구매 시 Microsoft 파트너의 역할은 무엇입니까?
-    answer: 관리 권한을 위임한 파트너는 관리자와 마찬가지로 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>관리 센터에서 셀프 서비스 구매를 볼 수 있습니다. 파트너는 셀프 서비스 구매를 통해 구입한 제품을 중앙 집중화하려는 조직을 지원할 수 있습니다. 또한 파트너는 셀프 서비스 구매 기능을 확장하는 솔루션을 제공할 수 있습니다.
+    answer: 관리 권한을 위임한 파트너는 관리자와 마찬가지로 Microsoft 365 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">셀프</a>서비스 구매를 볼 수 있습니다. 파트너는 셀프 서비스 구매를 통해 구입한 제품을 중앙 집중화하려는 조직을 지원할 수 있습니다. 또한 파트너는 셀프 서비스 구매 기능을 확장하는 솔루션을 제공할 수 있습니다.

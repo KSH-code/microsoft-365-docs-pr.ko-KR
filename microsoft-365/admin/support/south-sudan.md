@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 463155e9b1af9dad0a5bbbbe9eed86c3abbbbdcf
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 1d96e70c26033ffd597abbf700c248c6e8a0595e18d564c887fd8a2680bf90dd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53815494"
 ---
 # <a name="contact-support-for-south-sudan"></a>South Sudan 지원에 문의
 

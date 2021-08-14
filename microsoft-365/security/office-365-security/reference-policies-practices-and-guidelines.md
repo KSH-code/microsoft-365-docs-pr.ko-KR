@@ -17,12 +17,12 @@ ms.collection:
 description: Microsoft는 다양한 정책, 절차를 개발하고 사용자를 악의적, 원치 않는 또는 악의적인 전자 메일로부터 보호하기 위해 여러 업계 모범 사례를 채택했습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f1a71b891829a2c9ea31502342c855db4126a6b5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 436c7d86ceea6a95d95e8787ea651012c43dfe314e35f146ef3cf1e1215bc2ed
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205757"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56813741"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
 

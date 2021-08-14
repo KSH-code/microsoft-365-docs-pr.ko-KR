@@ -20,12 +20,12 @@ search.appverid: MET150
 description: E4 구독에서 업그레이드하는 Office 365 대해 자세히 알아보습니다.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ee90038bb80120ed727cd2dee0c43a894053440f
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 3131f163bcf846c623213a3e2d7c88e6d21cd1479f64185d2b70be81de102c23
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344629"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53892630"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>E4 구독에서 Office 365 업그레이드
 
@@ -36,7 +36,7 @@ ms.locfileid: "52344629"
 
 ## <a name="what-are-my-options-for-how-to-upgrade"></a>업그레이드하는 방법에 대한 내 옵션은 무엇입니까?
 
-계획을 업그레이드하는 가장 쉬운 방법은  Microsoft 365 관리 센터의 업그레이드 탭을 사용하는 것입니다. 그러나 업그레이드 **탭을** 사용하는 것은 모든 상황에서 지원되지 않습니다. 시나리오가 지원되지 않는 경우 계획을 수동으로 업그레이드할 수 있습니다.
+계획을 업그레이드하는 가장 쉬운 방법은  업그레이드 탭에서 업그레이드 탭을 사용하는 Microsoft 365 관리 센터. 그러나 업그레이드 **탭을** 사용하는 것은 모든 상황에서 지원되지 않습니다. 시나리오가 지원되지 않는 경우 계획을 수동으로 업그레이드할 수 있습니다.
 
 ## <a name="what-is-the-upgrade-tab"></a>업그레이드 탭이란?
 
@@ -66,7 +66,7 @@ ms.locfileid: "52344629"
 
 ## <a name="will-a-credit-check-be-required"></a>신용 검사가 필요한가요?
 
-새 요금제에 대해 송장으로 지불하거나 구매 비용이 특정 금액을 넘는 경우 신용 검사가 필요할 수 있습니다. 신용 검사가 필요한 경우 업그레이드에는 영업일 최대 2일이 걸릴 수 있습니다. 관리자는 신용 검사가 완료될 때까지 Microsoft 365 관리 센터에 액세스할 수 없습니다. 그러나 업그레이드가 완료될 때까지 사용자는 E4 요금제에 대한 모든 권한을 가급적 사용할 수 있습니다.
+새 요금제에 대해 송장으로 지불하거나 구매 비용이 특정 금액을 넘는 경우 신용 검사가 필요할 수 있습니다. 신용 검사가 필요한 경우 업그레이드에는 영업일 최대 2일이 걸릴 수 있습니다. 관리자는 신용 검사가 완료될 때까지 Microsoft 365 관리 센터 액세스할 수 없습니다. 그러나 업그레이드가 완료될 때까지 사용자는 E4 요금제에 대한 모든 권한을 가급적 사용할 수 있습니다.
 
 ## <a name="upgrade-your-plan-by-using-the-upgrade-tab"></a>업그레이드 탭을 사용하여 계획 업그레이드
 
@@ -74,7 +74,7 @@ ms.locfileid: "52344629"
 
 다음은 시작하기 전에 알아야 할 중요 사항입니다.
 
-- **관리 다운타임 계획** 관리자는 요금제가 업그레이드되는 동안 Microsoft 365 센터를 사용할 수 없습니다. 사용자의 수에 따라 업그레이드에 몇 분에서 몇 시간까지 걸릴 수 있습니다. Microsoft 365 관리 센터를 사용하여 업데이트를 만들 필요가 없는 경우 업그레이드를 Microsoft 365 좋습니다.
+- **관리 다운타임 계획** 관리자는 요금제가 업그레이드되는 동안에는 Microsoft 365 관리 센터 사용할 수 없습니다. 사용자의 수에 따라 업그레이드에 몇 분에서 몇 시간까지 걸릴 수 있습니다. 업그레이드를 사용하여 업데이트할 필요가 없는 경우 업그레이드를 Microsoft 365 관리 센터.
 
     사용자는 요금제가 업그레이드되는 동안 서비스가 중단되지 않고 업그레이드 프로세스 중에도 E4 구독에 대한 모든 권한을 계속 사용할 수 있습니다. 업그레이드가 완료되면 사용자가 새 계획에 액세스할 수 있습니다.
 - **사용자, 라이선스, 청구 및 사용자 지정 도메인** 업그레이드 중에 사용자 및 라이선스가 처리된 방식, 계획 업그레이드가 청구에 미치는 영향 및 사용자 지정 도메인을 처리하는 방법을 이해하려면 요금제 업그레이드가 내 서비스 및 대금 청구에 어떤 영향을 미치나요?를 [참조하세요.](upgrade-to-different-plan.md#what-does-upgrading-a-plan-do-to-my-service-and-billing)
@@ -127,7 +127,7 @@ ms.locfileid: "52344629"
 
 ### <a name="step-3-reassign-licenses-to-users"></a>3단계: 사용자에게 라이선스 다시 배포
 
-Microsoft 365 관리 센터를 사용하여 한에 최대 20명 사용자에 대한 라이선스를 다시 할당할 수 있습니다. 자세한 내용은 [Move users to a different subscription을 참조하세요.](move-users-different-subscription.md)
+라이선스를 사용하여 Microsoft 365 관리 센터 최대 20명에 대한 라이선스를 다시 배정할 수 있습니다. 자세한 내용은 [Move users to a different subscription을 참조하세요.](move-users-different-subscription.md)
 
 > [!TIP]
 > 사용자가 많은 경우 [PowerShell을](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)사용하여 Office 365 라이선스를 대량으로 할당할 수 있습니다.

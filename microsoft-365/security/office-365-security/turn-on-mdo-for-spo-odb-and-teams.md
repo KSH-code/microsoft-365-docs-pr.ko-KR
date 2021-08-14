@@ -20,12 +20,12 @@ description: 관리자는 검색된 파일에 대한 알림을 설정하는 금�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 80c35b91de046642a7b4ff4c66d1a42f76976c5b
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 396a1fa3ee2c6ba4f9ffb75c57513bb97f94f93dee677372b930eed4d3ec4b6d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53543248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56816063"
 ---
 # <a name="turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일 설정
 
@@ -85,7 +85,7 @@ Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
 Set-SPOTenant -DisallowInfectedFileDownload $true
 ```
 
-**참고**:
+**참고:**
 
 - 이 설정은 사용자와 관리자 모두에 영향을 미치게 됩니다.
 - 사람들은 여전히 악성 파일을 삭제할 수 있습니다.
