@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b74843982c115753a2cd050f7b2813a33d3e6825bc8d4f679694b2659fd94c65
-ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
+ms.openlocfilehash: 5b0add9b48920b04cedac78323f6ecbdd99d244afc878baeddb00944d032fa1e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54523597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53811149"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-linux"></a>끝점용 Microsoft Defender를 통해 검사 예약(Linux)
 
@@ -93,7 +93,7 @@ CRON_TZ=America/Los_Angeles
 
 크로인 작업을 보시고 입력합니다. `sudo crontab -l`
 
-:::image type="content" source="../../media/linux-mdatp-1.png" alt-text="linux mdatp":::
+:::image type="content" source="/microsoft-365/security/defender-endpoint/images/linux-mdatp-1" alt-text="linux mdatp":::
 
 #### <a name="to-inspect-cron-job-runs"></a>크론 작업 실행을 검사하기 위해
 

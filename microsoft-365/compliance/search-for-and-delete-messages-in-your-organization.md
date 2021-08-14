@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Microsoft 365 규정 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: 3bbd7a59ed0f969293aff738872662afa9738b649876092e17f4d09712d5ebed
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a01b981bb8562b59c29c351468060aaaecaed2501b835e7d230054665a7e7e1e
+ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807627"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57834790"
 ---
 # <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 
@@ -41,10 +41,12 @@ ms.locfileid: "53807627"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 콘텐츠 검색을 만들고 실행하려면 **eDiscovery 매니저** 역할 그룹의 구성원이거나 보안 및 준수 센터에서 **규정 준수 검색** 역할이 할당되어야 합니다. 메시지를 삭제하려면 **조직 관리** 역할 그룹의 구성원이거나 보안 및 준수 센터에서 **검색 및 제거** 역할이 할당되어야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](assign-ediscovery-permissions.md)를 참조하세요.
+- 이 문서에 설명된 검색 및 제거 워크플로는 Microsoft Teams에서 채팅 메시지 또는 기타 콘텐츠를 삭제하지 않습니다. 2단계에서 만든 콘텐츠 검색이 Microsoft Teams의 항목을 반환하는 경우 3단계에서 항목을 제거할 때 해당 항목이 삭제되지 않습니다.
+
+- 콘텐츠 검색을 만들고 실행하려면 **eDiscovery 매니저** 역할 그룹의 구성원이거나 Microsoft 365 규정 준수 센터에서 **규정 준수 검색** 역할이 할당되어야 합니다. 메시지를 삭제하려면 **조직 관리** 역할 그룹의 구성원이거나 규정 준수 센터에서 **검색 및 삭제** 역할을 할당받아야 합니다. 역할 그룹에 사용 자를 추가하는 방법에 대한 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
 
   > [!NOTE]
-  > **조직 관리** 역할 그룹은 Exchange Online과 보안 및 준수 센터 모두에 있습니다. 이들은 서로 다른 권한을 부여하는 별도의 역할 그룹입니다. Exchange Online에서 **조직 관리** 의 구성원은 전자 메일 메시지를 삭제하는 데 필요한 권한을 부여하지 않습니다. 보안 및 준수 센터에서 **검색 및 삭제** 역할(직접 또는 **조직 관리** 등의 역할 그룹을 통해)이 할당되지 않은 경우 "A 매개 변수를 찾을 수 없습니다"라는 메시지와 함께 **New-ComplianceSearchAction** cmdlet을 실행하면 3단계에서 오류가 발생합니다.
+  > **조직 관리** 역할 그룹은 Exchange Online과 Microsoft 365 규정 준수 센터 양측에 모두 있습니다. 이들은 서로 다른 권한을 부여하는 별도의 역할 그룹입니다. Exchange Online에서 **조직 관리** 의 구성원은 전자 메일 메시지를 삭제하는 데 필요한 권한을 부여하지 않습니다. 규정 준수 센터에서 **검색 및 삭제** 역할(직접 또는 **조직 관리** 등의 역할 그룹을 통해)이 할당되지 않은 경우 "A 매개 변수를 찾을 수 없습니다"라는 메시지와 함께 **New-ComplianceSearchAction** cmdlet을 실행하면 3단계에서 오류가 발생합니다.
 
 - 메시지를 삭제하려면 보안 및 준수 센터 PowerShell을 사용해야 합니다. 연결하는 방법에 대한 자세한 내용은 [1단계](#step-1-connect-to-security--compliance-center-powershell)를 참조하세요.
 
@@ -112,13 +114,22 @@ Start-ComplianceSearch -Identity $Search.Identity
 
 ## <a name="step-3-delete-the-message"></a>3단계: 메시지 삭제
 
-제거하려면 메시지를 반환하는 콘텐츠 검색을 만들고 구체화한 다음 보안 및 준수 센터 PowerShell에 연결되면 마지막으로 **New-ComplianceSearchAction** cmdlet을 실행하여 메시지를 삭제합니다. 메시지를 일시 또는 영구 삭제할 수 있습니다. 일시 삭제된 메시지는 사용자의 복구 가능한 항목 폴더로 이동하고 삭제된 항목 보존 기간이 만료될 때까지 보존됩니다. 영구 삭제된 메시지는 사서함에서 영구 제거 표시되고 관리되는 폴더 도우미에서 다음에 사서함을 처리할 때 영구적으로 제거됩니다. 사서함에 대해 단일 항목 복구를 사용하는 경우 삭제된 항목 보존 기간이 만료되면 영구 삭제된 항목은 영구히 제거됩니다. 사서함이 보류 중인 경우 항목에 대한 보존 기간이 만료되거나 사서함에서 보류가 제거될 때까지 삭제된 메시지가 보존됩니다.
+제거할 메시지를 반환하도록 콘텐츠 검색을 만들고 구체화한 후 마지막 단계는 보안 및 준수 PowerShell에서 **New-ComplianceSearchAction -Purge** 명령을 실행하여 메시지를 삭제하는 것입니다. 메시지를 일시 또는 영구 삭제할 수 있습니다. 일시 삭제된 메시지는 사용자의 복구 가능한 항목 폴더로 이동하고 삭제된 항목 보존 기간이 만료될 때까지 보존됩니다. 영구 삭제된 메시지는 사서함에서 영구 제거 표시되고 관리되는 폴더 도우미에서 다음에 사서함을 처리할 때 영구적으로 제거됩니다. 사서함에 대해 단일 항목 복구를 사용하는 경우 삭제된 항목 보존 기간이 만료되면 영구 삭제된 항목은 영구히 제거됩니다. 사서함이 보류 중인 경우 항목에 대한 보존 기간이 만료되거나 사서함에서 보류가 제거될 때까지 삭제된 메시지가 보존됩니다.
+
+> [!NOTE]
+> 앞서 설명한 대로 콘텐츠 검색에서 반환되는 Microsoft Teams의 항목은 **New-ComplianceSearchAction -Purge** 명령을 실행할 때 삭제되지 않습니다.
+
+다음 명령을 실행하여 메시지를 삭제하려면 [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)되어 있는지 확인하세요.
+
+### <a name="soft-delete-messages"></a>일시 삭제 메시지
 
 다음 예에서 명령은 “피싱 메시지 제거”라는 콘텐츠 검색에 의해 반환된 검색 결과를 일시 삭제합니다.
 
 ```powershell
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType SoftDelete
 ```
+
+### <a name="hard-delete-messages"></a>메시지 영구 삭제
 
 "피싱 메시지 제거" 콘텐츠 검색에서 반환되는 항목을 영구 삭제하려면 다음 명령을 실행합니다.
 

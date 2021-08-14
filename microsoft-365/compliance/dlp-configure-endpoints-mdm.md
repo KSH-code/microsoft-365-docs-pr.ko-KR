@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 모바일 장치 관리 도구를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
-ms.openlocfilehash: 1ad1115308257fa3ce63f10edebb9129638fd52f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b95ee215e63027b7d7579aebecc091c972fd26ebbc3352a43c1f4dfe69d73826
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53892078"
 ---
 # <a name="onboard-windows-10-devices-using-mobile-device-management-tools"></a>모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩
 
@@ -78,4 +78,4 @@ MDM과 함께 MDM을 사용하도록 설정하는 Microsoft Intune 장치 [등�
 - [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](dlp-configure-endpoints-sccm.md)
 - [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](dlp-configure-endpoints-script.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](dlp-configure-endpoints-vdi.md)
-- [온보 Microsoft Defender Advanced Threat Protection 문제 해결](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Microsoft Defender Advanced Threat Protection 온보딩 문제 해결](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

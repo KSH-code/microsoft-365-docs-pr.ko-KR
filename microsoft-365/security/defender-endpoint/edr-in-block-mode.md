@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.custom:
 - next-gen
 - edr
-ms.date: 07/29/2021
+ms.date: 08/05/2021
 ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: ee163b8a32bde00fe247dcc4f570ce7768c33a55e1c4c8ffc88ad7fbe08dc080
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3169cbd5aa834e22a5d354066b01b1da04adafe59bf780da99367da21774e359
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833943"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523708"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드에서 끝점 EDR(응답)
 
@@ -95,7 +95,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 > [!IMPORTANT]
 > 최상의 보호 값을 얻기 위해 정기적인 업데이트 및 필수 기능을 받도록 바이러스 백신 솔루션이 구성되어 있는지, 그리고 제외가 구성되어 [있는지 확인합니다.](configure-exclusions-microsoft-defender-antivirus.md) EDR 모드는 끝점용 Microsoft Defender에 대해 정의된 Microsoft Defender 바이러스 백신 제외를 존중합니다. [](manage-indicators.md)
 
-## <a name="frequently-asked-questions"></a>질문과 대답 
+## <a name="frequently-asked-questions"></a>자주 묻는 질문 
 
 ### <a name="do-i-need-to-turn-edr-in-block-mode-on-if-i-have-microsoft-defender-antivirus-running-on-devices"></a>장치에서 실행 중인 EDR 차단 모드에서 Microsoft Defender 바이러스 백신 설정해야 하나요?
 
@@ -159,7 +159,7 @@ PowerShell을 사용하여 수동 모드에서 EDR 설정되어 있는지 확인
 
 Windows Server 2016 모드로 Microsoft Defender 바이러스 백신 끝점이 Endpoint용 Defender에 온보딩된 경우 기술적으로 EDR 모드로 실행됩니다. 그러나 EDR 모드는 끝점에서 기본 바이러스 백신 솔루션이 아닌 Microsoft Defender 바이러스 백신 추가 보호를 위해 고안된 것입니다. 이러한 경우 수동 Microsoft Defender 바이러스 백신 실행됩니다. 
 
-현재 수동 Microsoft Defender 바이러스 백신 모드로 실행되는 것은 지원되지 Windows Server 2016. 자세한 내용은 Microsoft Defender 바이러스 백신 및 [비 Microsoft 바이러스 백신/맬웨어 방지 솔루션 을 참조하세요.](microsoft-defender-antivirus-compatibility.md#microsoft-defender-antivirus-and-non-microsoft-antivirusantimalware-solutions)
+현재 수동 Microsoft Defender 바이러스 백신 모드로 실행되는 것은 지원되지 Windows Server 2016. 자세한 내용은 수동 모드 및 Windows [서버](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server) 및 Microsoft Defender 바이러스 백신 [호환성을 참조합니다.](microsoft-defender-antivirus-compatibility.md)
 
 ### <a name="how-much-time-does-it-take-for-edr-in-block-mode-to-be-disabled"></a>차단 모드에서 EDR 데 얼마나 걸릴까요?
 

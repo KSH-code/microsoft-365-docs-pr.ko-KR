@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: eeda30297133c9bfd2d030f602cb76fdf1c39ba9
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 22b272e956740fe77bc936827c7212ddcc1e75efa8dbf30103a04ba2f53a2607
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53591286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53811488"
 ---
 # <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -36,7 +36,7 @@ ms.locfileid: "53591286"
 
 ## <a name="supported-operating-systems"></a>지원되는 운영 체제 
 
-이 표에서 참조되는 운영 체제 버전에 대한 링크는 아래 표에 나와 있습니다.
+다음 표에는 공격 표면 감소 규칙이 사전순으로 나열됩니다. 확인 표시는 해당 열에 나열된 운영 체제에서 규칙이 지원되는 경우를 나타냅니다.
 
 > [!Note]
 >
@@ -63,18 +63,6 @@ ms.locfileid: "53591286"
 |[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros) | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
 |[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware) | ![지원](images/checkmark.png) <br><br> 버전 1803 이상 | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
 | **규칙 이름** |  **&nbsp;Windows 10** | **&nbsp;Windows Server 2019** | **&nbsp;Windows 서버** | **&nbsp;Windows Server 2016** | **&nbsp;Windows Server 2012 R2** |
-
-### <a name="operating-system-version"></a>운영 체제 버전
-
-- [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 10 Pro 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 10 Enterprise 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 10, 버전 1809](/windows/whats-new/whats-new-windows-10-version-1809)
-
-- [Windows 서버, 버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 ## <a name="supported-configuration-management-systems"></a>지원되는 구성 관리 시스템
 
@@ -147,7 +135,7 @@ Intune 이름: `Office apps launching child processes`
 
 Configuration Manager 이름: `Block Office application from creating child processes`
 
-GUID: `D4F940AB-401B-4EFC-AADC-AD5F3C50688A`
+GUID: `d4f940ab-401b-4efc-aadc-ad5f3c50688a`
 
 ### <a name="block-credential-stealing-from-the-windows-local-security-authority-subsystem"></a>로컬 보안 기관 하위 Windows 자격 증명 도용 차단
 
@@ -175,7 +163,7 @@ Intune 이름: `Execution of executable content (exe, dll, ps, js, vbs, etc.) dr
 
 Microsoft Endpoint Manager 이름:`Block executable content from email client and webmail`
 
-GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
+GUID: `be9ba2d9-53ea-4cdc-84e5-9b1eeee46550`
 
 > [!NOTE]
 > 전자 **메일 클라이언트 및 웹** 메일에서 실행 가능한 콘텐츠 차단 규칙에는 사용하는 응용 프로그램에 따라 다음과 같은 대체 설명이 있습니다.
@@ -217,7 +205,7 @@ Intune 이름: `Obfuscated js/vbs/ps/macro code`
 
 Configuration Manager 이름: `Block execution of potentially obfuscated scripts`
 
-GUID: `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`
+GUID: `5beb7efe-fd9a-4556-801d-275e5ffc04cc`
 
 ### <a name="block-javascript-or-vbscript-from-launching-downloaded-executable-content"></a>JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단
 
@@ -229,7 +217,7 @@ Intune 이름: `js/vbs executing payload downloaded from Internet (no exceptions
 
 Configuration Manager 이름: `Block JavaScript or VBScript from launching downloaded executable content`
 
-GUID: `D3E037E1-3EB8-44C8-A917-57927947596D`
+GUID: `d3e037e1-3eb8-44c8-a917-57927947596d`
 
 ### <a name="block-office-applications-from-creating-executable-content"></a>응용 Office 콘텐츠 만들기 차단
 
@@ -241,7 +229,7 @@ Intune 이름: `Office apps/macros creating executable content`
 
 SCCM 이름: `Block Office applications from creating executable content`
 
-GUID: `3B576869-A4EC-4529-8536-B80A7769E899`
+GUID: `3b576869-a4ec-4529-8536-b80a7769e899`
 
 ### <a name="block-office-applications-from-injecting-code-into-other-processes"></a>응용 Office 코드 삽입 차단
 
@@ -257,7 +245,7 @@ Intune 이름: `Office apps injecting code into other processes (no exceptions)`
 
 Configuration Manager 이름: `Block Office applications from injecting code into other processes`
 
-GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`
+GUID: `75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84`
 
 ### <a name="block-office-communication-application-from-creating-child-processes"></a>통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단
 
@@ -329,7 +317,7 @@ Intune 이름: `Win32 imports from Office macro code`
 
 Configuration Manager 이름: `Block Win32 API calls from Office macros`
 
-GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`
+GUID: `92e97fa1-2edf-4476-bdd6-9dd0b4dddc7b`
 
 ### <a name="use-advanced-protection-against-ransomware"></a>랜섬웨어에 대한 고급 보호 사용
 

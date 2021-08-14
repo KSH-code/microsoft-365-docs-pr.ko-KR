@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9fa41e172f970dcac818d989b60a69bbd2ddbfe1c945eff971a4bfc2cca63d02
-ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
+ms.openlocfilehash: f64a1ccc0990c2e3961bb31f25616874c9f3fe885a3aca806e1301235b0d2311
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "57834766"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523732"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -44,16 +44,11 @@ Windows 컴퓨터에서 이러한 독립 실행형 버전의 Office와 함께 �
 새로운 버전의 Office 앱은 서로 다른 업데이트 채널에 대해 서로 다른 시간에 사용할 수 있습니다. 관심 있는 새 레이블 지정 기능을 테스트할 수 있도록 업데이트 채널을 구성하는 방법을 포함한 자세한 내용은 [ Microsoft 365 앱의 업데이트 채널 개요](/DeployOffice/overview-update-channels)를 참조하세요. 비공개 미리 보기에 있는 새 기능은 표에 포함되지 않지만 [ Microsoft Information Protection 비공개 미리 보기 프로그램 ](https://aka.ms/mip-preview)에 조직을 지정하여 이러한 미리 보기에 참여할 수 있습니다.
 
 > [!NOTE]
-> Office 앱의 업데이트 채널 이름이 2020년 5월에 변경되었습니다. 예를 들어 월별 채널은 이제 현재 채널이며 Office 내부자는 베타 채널이 됩니다. 자세한 내용은 [Microsoft 365 앱의 업데이트 채널에 대한 변경 내용](/deployoffice/update-channels-changes)을 참조하세요.
+> Office 앱의 업데이트 채널 이름이 최근에 변경되었습니다. 예를 들어 월별 채널은 이제 현재 채널이며 Office 내부자는 베타 채널이 됩니다. 자세한 내용은 [Microsoft 365 앱의 업데이트 채널에 대한 변경 내용](/deployoffice/update-channels-changes)을 참조하세요.
 
 iOS 및 Office for Android: 민감도 레이블은 [Office 앱](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/)에 내장되어 있습니다.
 
 Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레이블 지정 클라이언트를 설치할 때 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대한 레이블 지정 클라이언트 비교](/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조하세요.
-
-> [!TIP]
-> 테이블의 최소 버전을 사용 중인 버전과 비교할 때 앞에 오는 0을 생략하는 릴리스 버전의 일반적인 사례를 기억하세요.
-> 
-> 예를 들어 버전 4.2128.0이 있고 4.7.1+가 최소 버전임을 읽습니다. 보다 쉽게 비교하려면 4.7.1(앞에 오는 0 없음)을 4.**0007**.1(4.**7000**.1)로 읽습니다. 4.2128.0 버전이 4.0007.1보다 높으므로 버전이 지원됩니다.
 
 ### <a name="sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Word, Excel 및 PowerPoint의 민감도 레이블 기능
 

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
 description: 검색 창의 콘텐츠 Microsoft 365 규정 준수 센터 사용하여 특정 사서함 또는 사이트 폴더의 항목을 검색하는 대상 컬렉션을 수행할 수 있습니다.
-ms.openlocfilehash: 925a6e5e0e56c63cde8bfa1b39cca6e64abcd016
-ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
+ms.openlocfilehash: 60f0f51c713abf98109362fd57e3950d2ee17ce307b3c16b6483ada69385c2f1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53891805"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>대상 컬렉션에 콘텐츠 검색 사용
 

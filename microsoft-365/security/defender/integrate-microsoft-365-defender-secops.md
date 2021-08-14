@@ -1,5 +1,5 @@
 ---
-title: 보안 작업에 Microsoft 365 Defender 통합 소개
+title: 보안 Microsoft 365 Defender 통합
 description: 보안 작업에 Microsoft 365 Defender 통합의 기본
 keywords: 인시던트, 경고, 조사, 상관 관계, 공격, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, microsoft, m365, 인시던트 대응, 사이버 공격, 보안 작업, soc
 search.product: eADQiWindows 10XVcnh
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: a90ef363b869b5b10352a0aedcd6210a336e4a8c2a32b806aa3d3b583287b515
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0e1fa33358dbaa63e99e4e0645a04766ab72477b
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862602"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243924"
 ---
-# <a name="introduction-to-integrating-microsoft-365-defender-into-your-security-operations"></a>보안 작업에 Microsoft 365 Defender 통합 소개
+# <a name="integrating-microsoft-365-defender-into-your-security-operations"></a>보안 Microsoft 365 Defender 통합
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -45,8 +45,10 @@ ms.locfileid: "53862602"
 - [Microsoft 365 Defender 시작](get-started.md)
 - [Microsoft 365 Defender 켜기](m365d-enable.md)
 
+조직에서 기존 아키텍처의 일부 측면을 이미 Microsoft 365 Defender 이러한 문서는 기존 아키텍처와 프로세스를 개선하는 데 도움이 될 수 있습니다.
+
 >[!Note]
->조직에서 기존 아키텍처의 일부 측면을 이미 Microsoft 365 Defender 이러한 문서는 기존 아키텍처와 프로세스를 개선하는 데 도움이 될 수 있습니다.
+>Microsoft 파트너인 Protiviti에서 이 문서에 기여하고 중요한 피드백을 제공했습니다.
 >
 
 ## <a name="target-audience"></a>대상 그룹

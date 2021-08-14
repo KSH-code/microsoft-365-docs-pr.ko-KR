@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0828d19f875767ec2285057824c931e3a67477641cdc923bac0a2513e4325ac8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d7eb71d0547c0ee242e02697e949bd39c3bdb2f3012adeaf159ca90f953268aa
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800333"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523636"
 ---
 # <a name="get-package-sas-uri-api"></a>패키지 SAS URI API를 얻습니다.
 
@@ -38,7 +38,9 @@ ms.locfileid: "53800333"
 ## <a name="api-description"></a>API 설명
 조사 패키지 다운로드를 허용하는 [URI를 다운로드합니다.](collect-investigation-package.md)
 
-
+> [!IMPORTANT]
+>
+> - 이러한 작업은 버전 1703 이상에서 Windows 10 장치에만 사용할 수 있습니다.
 ## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API용 Microsoft Defender 액세스를 참조합니다.](apis-intro.md)

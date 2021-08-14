@@ -14,12 +14,12 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3f3ee0590fcbbbbcdb58680e13d154ddc4b2918e48a0c494f8ebdbdf70757bc7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8058109abb8462849af4fea04e43c934ebfce1ad440053c60f8b8e070171e76e
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794033"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523764"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 
@@ -44,24 +44,24 @@ ms.locfileid: "53794033"
 
 2. 사이드 **HKEY_LOCAL_MACHINE** 선택
 
-3. 중첩된 메뉴를 탐색하여 Exploit Guard Windows Defender  >    >  **Windows Defender**  >  **소프트웨어로**  >  **이동합니다.**
+3. 중첩된 메뉴를 탐색하여 Exploit Guard 네트워크 보호를 Windows Defender  >    >    >  **Windows Defender**  >  **소프트웨어**  >  **정책으로 이동합니다.**
 
 4. **EnableNetworkProtection을** 선택하여 장치의 현재 네트워크 보호 상태를 확인합니다.
 
-    * 0 또는 **끄기**
-    * 1 또는 
-    * 2 또는 **감사** 모드
-    
-    ![networkprotection](https://user-images.githubusercontent.com/3296790/95341270-b738b280-08d3-11eb-84a0-16abb140c9fd.PNG)
+   - 0 또는 **끄기**
+   - 1 또는 
+   - 2 또는 **감사** 모드
+
+    ![네트워크 보호 레지스트리 키](../../media/95341270-b738b280-08d3-11eb-84a0-16abb140c9fd.png)
 
 ## <a name="enable-network-protection"></a>네트워크 보호 사용
 
 다음 방법을 사용하여 네트워크 보호를 사용하도록 설정하십시오.
 
-* [PowerShell](#powershell)
-* [MDM(모바일 장치 관리)](#mobile-device-management-mdm)
-* [Microsoft Endpoint Manager / Intune](#microsoft-endpoint-manager-formerly-intune)
-* [그룹 정책](#group-policy)
+- [PowerShell](#powershell)
+- [MDM(모바일 장치 관리)](#mobile-device-management-mdm)
+- [Microsoft Endpoint Manager / Intune](#microsoft-endpoint-manager-formerly-intune)
+- [그룹 정책](#group-policy)
 
 ### <a name="powershell"></a>PowerShell
 
@@ -106,13 +106,13 @@ ms.locfileid: "53794033"
 
 3. Exploit Guard **네트워크 보호를 Windows 구성** Microsoft Defender 바이러스 백신  >    >  **Windows Defender**  >  **확장합니다.**
 
-> [!NOTE]
-> 이전 버전의 Windows 그룹 정책 경로는 "Windows Defender 바이러스 백신"가 아니라 "Microsoft Defender 바이러스 백신"라고 말할 수 있습니다.
+   > [!NOTE]
+   > 이전 버전의 Windows 그룹 정책 경로는 "Windows Defender 바이러스 백신"가 아니라 "Microsoft Defender 바이러스 백신"라고 말할 수 있습니다.
 
 4. 사용자 및  앱이 위험한 웹 사이트에 액세스하지 못하게 방지 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 옵션 섹션에서 다음 옵션 중 하나를 지정해야 합니다.
-    * **차단** - 사용자가 악성 IP 주소 및 도메인에 액세스할 수 없습니다.
-    * **사용 안 하게(기본값)** - 네트워크 보호 기능이 작동하지 않습니다. 사용자가 악의적인 도메인에 액세스하지 못하게 차단되지 않습니다.
-    * **감사 모드** - 사용자가 악성 IP 주소 또는 도메인을 방문하면 이벤트가 Windows 기록됩니다. 그러나 사용자가 주소를 방문하지 못하도록 차단되지는 않습니다.
+    - **차단** - 사용자가 악성 IP 주소 및 도메인에 액세스할 수 없습니다.
+    - **사용 안 하게(기본값)** - 네트워크 보호 기능이 작동하지 않습니다. 사용자가 악의적인 도메인에 액세스하지 못하게 차단되지 않습니다.
+    - **감사 모드** - 사용자가 악성 IP 주소 또는 도메인을 방문하면 이벤트가 Windows 기록됩니다. 그러나 사용자가 주소를 방문하지 못하도록 차단되지는 않습니다.
 
 > [!IMPORTANT]
 > 네트워크 보호를 완전히 사용하도록 설정하려면 그룹  정책 옵션을  사용으로 설정하고 옵션 드롭다운 메뉴에서 차단을 선택해야 합니다.
@@ -124,12 +124,12 @@ ms.locfileid: "53794033"
 2. 사이트 **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection\EnableNetworkProtection**
 
 3. **EnableNetworkProtection을 선택하고** 값을 확인 합니다.
-   * 0=해제
-   * 1=켜기
-   * 2=감사
+   - 0=해제
+   - 1=켜기
+   - 2=감사
 
 ## <a name="see-also"></a>참고 항목
 
-* [네트워크 보호](network-protection.md)
-* [네트워크 보호 평가](evaluate-network-protection.md)
-* [네트워크 보호 문제 해결](troubleshoot-np.md)
+- [네트워크 보호](network-protection.md)
+- [네트워크 보호 평가](evaluate-network-protection.md)
+- [네트워크 보호 문제 해결](troubleshoot-np.md)

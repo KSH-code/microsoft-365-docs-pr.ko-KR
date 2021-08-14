@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: OME(Office 365 메시지 암호화) 뷰어 앱은 2018년 Android 및 Apple 스토어에서 제거되었습니다.
-ms.openlocfilehash: bb96601a8a542d53f6732ab9316051c1a820ba46
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: dc12eaa783c43fb80fb8ecbe984ecbcd0cda315f33b2cd1d3bc65e8932d77bda
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53892090"
 ---
 # <a name="deprecating-message-encryption-viewer-app"></a>메시지 암호화 뷰어 앱 사용 안
 

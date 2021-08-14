@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 Microsoft 365 같은 서비스가 자체 도메인 이름을 사용할 수 있도록 비즈니스용 Skype 도메인을 추가하고 설정하는 방법을 학습합니다.
-ms.openlocfilehash: a0a92b7401bd78d80ebcf7c98e4e2e4417a15333769685a2b68bbfe47727b0c4
-ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
+ms.openlocfilehash: e7c30665484413108180c75760fe70cc787d789c
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54520354"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58244124"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>도메인 등록 기관에서 이름 Microsoft 365 설정
 
@@ -124,7 +124,7 @@ Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 
    > [!TIP]
    > 4개의 레코드를 모두 추가하는 것이 가장 되지만 등록 기관에서 두 개의 레코드만 지원하는 경우 를 추가하고 ns1.bdm.microsoftonline.com **ns2.bdm.microsoftonline.com.**
 
-3. 변경 사항을 저장합니다.
+3. 변경 내용을 저장합니다.
 
 > [!CAUTION]
 > 도메인의 NS 레코드가 Microsoft 365 이름 Microsoft 365 변경하면 현재 도메인과 연결된 모든 서비스가 영향을 받는 것입니다. 전자 메일 주소 추가와 같은 마법사의 특정 단계를 건너뛰거나 블로그, 장바구니 또는 기타 서비스에 사용자 도메인을 사용 중인 경우 추가 단계가 필요합니다. 추가 단계를 수행하지 않으면 이러한 변경으로 인해 전자 메일 또는 현재 웹 사이트에 액세스 불가와 같은 서비스 중단이 발생할 수 있습니다.
@@ -143,7 +143,7 @@ Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 
    > [!TIP]
    > 이름 서비스 레코드를 두 개 이상 사용해야 합니다. 나열된 다른 이름servers가 있는 경우 해당 이름을 삭제하거나 에서 으로 ns3.dns.partner.microsoftonline.cn **ns4.dns.partner.microsoftonline.cn.**
 
-3. 변경 사항을 저장합니다.
+3. 변경 내용을 저장합니다.
 
 > [!CAUTION]
 > 21Vianet 이름 Office 365 운영하는 도메인을 설정하기 위해 도메인의 NS 레코드를 변경하면 현재 도메인과 연결된 모든 서비스가 영향을 받는 것입니다. 전자 메일 주소 추가와 같은 마법사의 특정 단계를 건너뛰거나 블로그, 장바구니 또는 기타 서비스에 사용자 도메인을 사용 중인 경우 추가 단계가 필요합니다. 추가 단계를 수행하지 않으면 이러한 변경으로 인해 전자 메일 또는 현재 웹 사이트에 액세스 불가와 같은 서비스 중단이 발생할 수 있습니다.

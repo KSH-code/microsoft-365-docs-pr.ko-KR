@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 12762d9872c6a260e1a410c183387391e0c1aa7f
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 91318cf3638b71ad14bf283185d31fba5280d983f961f591ebfc1c75bd7f75a2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53591034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53811377"
 ---
 # <a name="check-sensor-health-state-in-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender의 센서 상태 확인
 
@@ -32,7 +32,7 @@ ms.locfileid: "53591034"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-checksensor-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-checksensor-abovefoldlink)
 
 센서 **문제가 있는 디바이스 타일은** 보안 작업 대시보드에서 찾을 수 있습니다. 이 타일은 센서 데이터를 제공하고 Endpoint 서비스용 Defender와 통신하는 개별 디바이스의 능력에 대한 정보를 제공합니다. 주의가 필요한 장치 수를 보고하고 문제가 있는 장치를 식별하고 알려진 문제를 수정하기 위한 조치를 취하는 데 도움이 됩니다.
 

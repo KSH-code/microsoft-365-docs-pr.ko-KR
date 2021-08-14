@@ -251,7 +251,7 @@
               href: endpoint-dlp-learn-about.md
             - name: Microsoft Teams의 기본 데이터 손실 방지 정책에 대한 자세한 정보(미리 보기)
               href: dlp-teams-default-policy.md
-            - name: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기(미리 보기)
+            - name: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기
               href: dlp-on-premises-scanner-learn.md
             - name: Microsoft 규정 준수 확장에 대해 알아보기
               href: dlp-chrome-learn-about.md
@@ -269,7 +269,7 @@
               href: create-a-dlp-policy-from-a-template.md
             - name: 'DLP 정책 만들기, 테스트 및 조정'
               href: create-test-tune-dlp-policy.md
-            - name: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 시작(미리 보기)
+            - name: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너로 시작하기
               href: dlp-on-premises-scanner-get-started.md
             - name: 끝점 데이터 손실 방지 시작하기
               href: endpoint-dlp-getting-started.md
@@ -299,7 +299,7 @@
               href: dlp-microsoft-teams.md
             - name: 끝점 데이터 손실 방지 사용
               href: endpoint-dlp-using.md
-            - name: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용(미리 보기)
+            - name: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용
               href: dlp-on-premises-scanner-use.md
             - name: DLP 정책에서 알림 및 정책 팁 사용
               href: use-notifications-and-policy-tips.md
@@ -425,7 +425,7 @@
               href: archive-reuterseikon-data.md
             - name: Reuters FX
               href: archive-reutersfx-data.md
-            - name: RingCentral(미리 보기)
+            - name: RingCentral
               href: archive-ringcentral-data.md
             - name: Salesforce Chatter
               href: archive-salesforcechatter-data.md
@@ -465,6 +465,8 @@
               href: archive-enterprise-number-data.md
             - name: O2 Telefonica SMS 및 음성 네트워크 보관 장치
               href: archive-o2-network-data.md
+            - name: Rogers Network Archiver(미리 보기)
+              href: archive-rogers-network-archiver-data.md
             - name: 신호 보관기
               href: archive-signal-archiver-data.md
             - name: 텔레그램 보관기
@@ -505,6 +507,8 @@
               href: archive-17a-4-refinitiv-messenger-data.md
             - name: ServiceNow DataParser
               href: archive-17a-4-servicenow-data.md
+            - name: 비즈니스용 Skype 서버 DataParser(미리 보기)
+              href: archive-17a-4-skype-for-business-server-data.md
             - name: Slack DataParser
               href: archive-17a-4-slack-data.md
             - name: SQL DataParser
@@ -982,6 +986,10 @@
       href: privacy-management.md
     - name: 개인 정보 관리 시작
       href: privacy-management-setup.md
+    - name: 개인 정보 관리에서 사용자 권한 설정
+      href: privacy-management-permissions.md
+    - name: 개인 정보 설정 관리
+      href: privacy-management-settings.md
     - name: 개인 정보 관리에서 개인 데이터 찾기 및 시각화
       href: privacy-management-data-profile.md
     - name: 개인 정보 관리에서 정책 만들기 및 관리

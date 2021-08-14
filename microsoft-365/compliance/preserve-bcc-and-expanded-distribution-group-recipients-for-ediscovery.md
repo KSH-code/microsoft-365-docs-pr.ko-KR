@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: In-Place, 소송 보존 및 Microsoft 365 보존 정책을 사용하면 규정 준수 및 eDiscovery 요구 사항을 충족하기 위해 사서함 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: f00ed951fb68778b9c62ae874c2cca964bd6cb5c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 80481a5b7c85167742e79c86c6d60e52f80aa0e4b1dd9b128e7ce188f5ddf09a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927944"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53891814"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
   
@@ -37,8 +37,8 @@ Exchange Online 및 Exchange Server 2013(누적 업데이트 7 이상 버전)에
   
 | 정보 | 에 저장됩니다. | 기본적으로 저장되어 있나요? | 액세스 가능... |
 |:-----|:-----|:-----|:-----|
-|받는 사람 및Cc 받는 사람  <br/> |보낸 사람 및 받는 사람 사서함의 메시지 속성  <br/> |네.  <br/> |보낸 사람, 받는 사람 및 규정 준수 담당자  <br/> |
-|Bcc 받는 사람  <br/> |보낸 사람 사서함의 메시지 속성  <br/> |네.  <br/> |보낸 사람 및 규정 준수 담당자  <br/> |
+|받는 사람 및Cc 받는 사람  <br/> |보낸 사람 및 받는 사람 사서함의 메시지 속성  <br/> |예  <br/> |보낸 사람, 받는 사람 및 규정 준수 담당자  <br/> |
+|Bcc 받는 사람  <br/> |보낸 사람 사서함의 메시지 속성  <br/> |예  <br/> |보낸 사람 및 규정 준수 담당자  <br/> |
 |확장된 메일 그룹 받는 사람  <br/> |보낸 사람 사서함의 메시지 속성  <br/> |아니요. 사서함이 보류 또는 소송 보존으로 설정되거나 In-Place 보존 정책에 할당된 후 확장된 메일 그룹 받는 사람 Microsoft 365 저장됩니다.  <br/> |규정 준수 관리자  <br/> |
    
 ## <a name="searching-for-messages-sent-to-bcc-and-expanded-distribution-group-recipients"></a>Bcc 및 확장된 메일 그룹 받는 사람에게 보낸 메시지 검색
@@ -49,24 +49,24 @@ Exchange Online 및 Exchange Server 2013(누적 업데이트 7 이상 버전)에
   
 | Bob의 사서함에서 보낸 메시지를 검색할 때... | 그리고 메시지가 다음과 함께 전송됩니다. | 결과에 메시지가 포함되어 있나요? |
 |:-----|:-----|:-----|
-|To:John  <br/> |John on TO  <br/> |네.  <br/> |
-|To:John  <br/> |US-Sales ON  <br/> |네.  <br/> |
-|To:US-Sales  <br/> |US-Sales ON  <br/> |네.  <br/> |
-|Cc:John  <br/> |John on CC  <br/> |네.  <br/> |
-|Cc:John  <br/> |US-Sales CC의 경우  <br/> |네.  <br/> |
-|Cc:US-Sales  <br/> |US-Sales CC의 경우  <br/> |네.  <br/> |
+|To:John  <br/> |John on TO  <br/> |예  <br/> |
+|To:John  <br/> |US-Sales ON  <br/> |예  <br/> |
+|To:US-Sales  <br/> |US-Sales ON  <br/> |예  <br/> |
+|Cc:John  <br/> |John on CC  <br/> |예  <br/> |
+|Cc:John  <br/> |US-Sales CC의 경우  <br/> |예  <br/> |
+|Cc:US-Sales  <br/> |US-Sales CC의 경우  <br/> |예  <br/> |
    
 시나리오 2: Bob은 John(To/Cc) 및 잭(Bcc 직접 또는 메일 그룹을 통해 간접적으로)에게 전자 메일을 전송합니다. 아래 표에는 eDiscovery 검색 결과가 표시됩니다.
   
 | 검색할 때... | 보낸 메시지의 경우... | 결과에 메시지가 포함되어 있나요? | 메모 |
 |:-----|:-----|:-----|:-----|
-|Bob의 사서함  <br/> |To/Cc:John  <br/> |네.  <br/> |잭이 Bcc'ed인 표시를 제공합니다.  <br/> |
-|Bob의 사서함  <br/> |Bcc:Jack  <br/> |네.  <br/> |잭이 Bcc'ed인 표시를 제공합니다.  <br/> |
-|Bob의 사서함  <br/> |Bcc:Jack(메일 그룹을 통해)  <br/> |네.  <br/> |메시지를 보낼 때 확장된 Bcc'ed 메일 그룹의 구성원 목록은 eDiscovery 검색 미리 보기, 내보내기 및 로그에 표시됩니다.  <br/> |
-|John의 사서함  <br/> |To/Cc:John  <br/> |네.  <br/> |Bcc 받는 사람을 표시하지 않습니다.  <br/> |
-|John의 사서함  <br/> |Bcc:Jack(직접 또는 메일 그룹을 통해)  <br/> |아니요.  <br/> |Bcc 정보는 받는 사람에게 배달된 메시지에 저장되지 않습니다. 보낸 사람 사서함을 검색해야 합니다.  <br/> |
-|잭의 사서함  <br/> |To/Cc:John(직접 또는 메일 그룹을 통해)  <br/> |네.  <br/> |받는 사람/Cc 정보는 모든 받는 사람에게 배달되는 메시지에 포함됩니다.  <br/> |
-|잭의 사서함  <br/> |Bcc:Jack(직접 또는 메일 그룹을 통해)  <br/> |아니요.  <br/> |Bcc 정보는 받는 사람에게 배달된 메시지에 저장되지 않습니다. 보낸 사람 사서함을 검색해야 합니다.  <br/> |
+|Bob의 사서함  <br/> |To/Cc:John  <br/> |예  <br/> |잭이 Bcc'ed인 표시를 제공합니다.  <br/> |
+|Bob의 사서함  <br/> |Bcc:Jack  <br/> |예  <br/> |잭이 Bcc'ed인 표시를 제공합니다.  <br/> |
+|Bob의 사서함  <br/> |Bcc:Jack(메일 그룹을 통해)  <br/> |예  <br/> |메시지를 보낼 때 확장된 Bcc'ed 메일 그룹의 구성원 목록은 eDiscovery 검색 미리 보기, 내보내기 및 로그에 표시됩니다.  <br/> |
+|John의 사서함  <br/> |To/Cc:John  <br/> |예  <br/> |Bcc 받는 사람을 표시하지 않습니다.  <br/> |
+|John의 사서함  <br/> |Bcc:Jack(직접 또는 메일 그룹을 통해)  <br/> |아니요  <br/> |Bcc 정보는 받는 사람에게 배달된 메시지에 저장되지 않습니다. 보낸 사람 사서함을 검색해야 합니다.  <br/> |
+|잭의 사서함  <br/> |To/Cc:John(직접 또는 메일 그룹을 통해)  <br/> |예  <br/> |받는 사람/Cc 정보는 모든 받는 사람에게 배달되는 메시지에 포함됩니다.  <br/> |
+|잭의 사서함  <br/> |Bcc:Jack(직접 또는 메일 그룹을 통해)  <br/> |아니요  <br/> |Bcc 정보는 받는 사람에게 배달된 메시지에 저장되지 않습니다. 보낸 사람 사서함을 검색해야 합니다.  <br/> |
    
 ## <a name="frequently-asked-questions"></a>질문과 대답
 
@@ -80,7 +80,7 @@ Exchange Online 및 Exchange Server 2013(누적 업데이트 7 이상 버전)에
   
  **Q. 받는 사람/참조 받는 사람이 Bcc로 ed인 받는 사람을 볼 수 있나요?**
   
-대답. 그렇지 않습니다. 이 정보는 메시지 헤더에 포함되지 않습니다. 받는 사람/Cc 받는 사람에게는 표시되지 않습니다. 보낸 사람이 사서함에 저장된 원본 메시지에 저장된 Bcc 필드를 볼 수 있습니다. 준수 담당자는 보낸 사람 사서함을 검색할 때 이 정보를 볼 수 있습니다.
+대답. 아니요. 이 정보는 메시지 헤더에 포함되지 않습니다. 받는 사람/Cc 받는 사람에게는 표시되지 않습니다. 보낸 사람이 사서함에 저장된 원본 메시지에 저장된 Bcc 필드를 볼 수 있습니다. 준수 담당자는 보낸 사람 사서함을 검색할 때 이 정보를 볼 수 있습니다.
   
  **Q. 확장된 메일 그룹 받는 사람이 항상 보존되도록 하는 방법**
   

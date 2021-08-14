@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 0822ef527429e48f6eb301af0838081ed597b5d9c5b1cb6825f6a53cfb93d19a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1aa318c75dcfcb339ae1f7c52832938805593e47b966d68694380e3d760f0569
+ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53836847"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54523788"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -63,7 +63,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
         - 이러한 파일은 자동 레이블 지정 정책이 작성되기 전이나 만들어진 후에 유휴 상태로 자동 레이블링될 수 있습니다. 파일이 열려 있는 세션(파일이 열려 있는 경우)의 일부인 경우 자동 레이블을 지정할 수 없습니다.
         - 현재 목록 항목에 대한 첨부 파일은 지원되지 않으며 레이블이 자동 지정되지 않습니다.
     - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
-    - 최대 10개의 사이트 (SharePoint 또는 OneDrive)를 대상으로 하는 테넌트당 최대 10개의 자동 레이블 정책.
+    - 최대 10개의 사이트 (SharePoint 또는 OneDrive)를 대상으로 하는 테넌트당 최대 10개의 자동 레이블 정책. [최근 개선 사항이 이제 출시](#recent-enhancements-for-auto-labeling-policies)되면서 개별적으로 지정될 때 이러한 수는 100개의 정책과 100개의 사이트로 증가합니다. 또한 모든 사이트를 지정할 수 있으며 이 구성은 최대 100개 사이트에서 제외됩니다.
     - 시뮬레이션 모드 및 레이블 적용 시 둘 다의 경우 자동 레이블링 정책의 결과로 수정됨, 수정자 및 날짜에 대한 기존 값은 변경되지 않습니다.
     - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 파일을 마지막으로 수정한 계정입니다.
 
@@ -87,6 +87,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 |:-----|:-----|:-----|
 |앱 종속성|예([최소 버전](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)) |아니요\* |
 |위치별 제한|아니오 |예 |
+|조건: 사용자 지정 중요한 정보 유형에 대한 정확한 데이터 일치|예 |아니요 |
 |조건: 훈련 가능한 분류자|예 |아니요 |
 |조건: 전자 메일 공유 옵션 및 추가 옵션|아니요 |예 |
 |조건: 예외|아니요 |예(전자 메일만 해당) |
@@ -144,6 +145,12 @@ DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 일치 정확
 > [!NOTE]
 > 사용자 지정 중요 정보 유형에 따른 자동 레이블 지정은 기존 콘텐츠가 아닌 OneDrive 및 SharePoint에서 새로 작성되거나 수정된 콘텐츠에만 적용됩니다. 이 제한은 자동 레이블 지정 정책에도 적용됩니다.
 
+#### <a name="custom-sensitive-information-types-with-exact-data-match"></a>정확한 데이터 일치가 포함된 사용자 지정 중요한 정보 유형
+
+사용자 지정 중요한 정보 유형에 대해 [정확한 데이터 일치(EDM) 기반 분류](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)를 사용하도록 민감도 레이블을 구성할 수 있습니다. 그러나 현재로서는 EDM을 사용하지 않는 중요한 정보 유형도 하나 이상 지정해야 합니다. 예를 들어 **신용카드 번호** 와 같은 기본 제공 중요한 정보 유형 중 하나입니다.
+
+중요한 정보 유형 조건에 대해 EDM만 사용하여 민감도 레이블을 구성하면 레이블에 대한 자동 레이블 설정이 자동으로 꺼집니다.
+
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>레이블에 교육 가능한 분류자 구성하기
 
 이 옵션을 사용하는 경우 자동 레이블 지정과 [중요한 정보 유형 옵션](#configuring-sensitive-info-types-for-a-label)에 구성된 하나 이상의 다른 민감도 레이블을 테넌트에 게시했는지 확인하세요.
@@ -178,7 +185,7 @@ Office 앱의 자동 및 권장 레이블 지정 구현은 Office 기본 제공 
 
 - 데스크톱 버전의 Word에서 권장되는 레이블의 경우 사용자가 권장되는 민감도 레이블을 적용하는 대신, 중요한 콘텐츠를 검토하고 제거할 수 있도록 권장 사항을 트리거한 중요한 콘텐츠에 플래그가 지정됩니다.
 
-- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
+- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/ko-KR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
 
 Azure Information Protection 통합 레이블 지정 클라이언트와 관련된 내용:
 
@@ -189,6 +196,9 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 - 문서 및 전자 메일의 본문 텍스트와 머리글 및 바닥글에서는 중요한 정보를 검색할 수 있지만, 전자 메일의 제목 줄이나 첨부 파일에서는 중요한 정보를 검색할 수 없습니다.
 
 ## <a name="how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange"></a>SharePoint, OneDrive 및 Exchange에 대한 자동 레이블 지정 정책을 구성하는 방법
+
+> [!IMPORTANT]
+> 더 빠른 시뮬레이션 결과, 더 많은 파일과 더 많은 사이트에 대한 지원, 이메일 알림을 포함하는 자동 레이블 지정 정책에 대한 새로운 개선 사항이 현재 출시되고 있습니다. 자세한 내용은 [자동 레이블 지정 정책에 대한 최근 개선 사항](#recent-enhancements-for-auto-labeling-policies)을 참조하세요.
 
 반드시 자동 레이블 정책을 구성하기 전에 먼저 필수 조건을 알고 있어야 합니다.
 
@@ -222,6 +232,8 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 1. 자동 레이블 정책 만들기 및 구성
 
 2. 시뮬레이션 모드에서 정책을 실행하며 완료하는 데 48시간이 걸릴 수 있습니다.
+    
+    이제 [최근 개선 사항](#recent-enhancements-for-auto-labeling-policies)이 출시되어 이 시간이 12시간으로 단축되고 완료된 시뮬레이션은 [활동 알림](alert-policies.md)을 수신하도록 구성된 사용자에게 전송되는 이메일 알림을 트리거합니다.
 
 3. 결과를 검토하고 필요한 경우 정책을 구체화합니다. 응답 모드를 다시 실행하고 다시 완료될 때까지 기다립니다.
 
@@ -261,12 +273,12 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 6. **레이블을 적용할 위치 선택** 페이지에서 Exchange, SharePoint 사이트 및 OneDrive의 위치를 선택하고 지정합니다. 그런 후 **다음** 을 선택합니다.
 
     ![위치 선택 페이지 자동 레이블 지정 마법사](../media/locations-auto-labeling-wizard.png)
-
-    개별 SharePoint 사이트 및 OneDrive 계정을 지정해야 합니다. OneDrive의 경우, 사용자의 OneDrive에 대한 URL은 다음과 같은 형식입니다. `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
+    
+    개별 OneDrive 계정을 지정하려면: 사용자의 OneDrive 계정에 대한 URL 형식은 다음과 같습니다. `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
 
     예를 들어, "rsimone"라는 사용자 이름을 보유한 Contoso 테넌트에 있는 사용자의 경우: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
 
-    테넌트의 구문을 확인하고 사용자 URL을 확인하려면, [조직에 있는 모든 사용자 OneDrive URL 목록 가져오기](/onedrive/list-onedrive-urls)를 참조하세요.
+    테넌트의 구문을 확인하고 사용자 OneDrive URL을 확인하려면, [조직에 있는 모든 사용자 OneDrive URL 목록 가져오기](/onedrive/list-onedrive-urls)를 참조하세요.
 
 7. **일반 또는 고급 규칙 설정** 페이지의 경우: 선택한 모든 위치에서 레이블을 지정할 콘텐츠를 식별하는 규칙을 정의하기 위해 **일반 규칙** 의 기본값을 유지합니다. 위치마다 다른 규칙이 필요한 경우 **고급 규칙** 을 선택합니다. 그런 후 **다음** 을 선택합니다.
 
@@ -367,6 +379,43 @@ New-AutoSensitivityLabelRule -Policy <AutoLabelingPolicyName> -Name <AutoLabelin
 - [Remove-AutoSensitivityLabelRule](/powershell/module/exchange/remove-autosensitivitylabelrule)
 - [Set-AutoSensitivityLabelPolicy](/powershell/module/exchange/set-autosensitivitylabelpolicy)
 - [Set-AutoSensitivityLabelRule](/powershell/module/exchange/set-autosensitivitylabelrule)
+
+## <a name="recent-enhancements-for-auto-labeling-policies"></a>자동 레이블 지정 정책에 대한 최근 개선 사항
+
+OneDrive 및 SharePoint에 대한 자동 레이블 지정 정책에 대해 현재 배포되는 최근 개선 사항에는 이전 버전에서 다음과 같이 개선된 사항이 포함됩니다.
+
+- 테넌트당 10개가 아닌 최대 100개의 자동 레이블 지정 정책.
+
+- 모든 OneDrive 및 SharePoint 사이트에 대한 지원(새 정책의 기본값) 및 URL로 각 사이트를 입력할 필요 없이 사용 가능한 SharePoint 사이트를 선택하는 기능. 새 기본값인 **모두** 를 사용하면 테넌트의 모든 기존 SharePoint 사이트 및 OneDrive 계정과 새로 생성된 사이트 및 계정이 정책에 자동으로 포함됩니다. SharePoint용으로 **사이트 선택** 을 선택하면 필요한 경우 URL로 사이트를 수동으로 입력할 수 있습니다.
+
+- 자동 레이블 지정 정책에서 개별 사이트를 지정할 때 이제 10개 사이트 대신 최대 100개 사이트가 지원됩니다.
+
+- 자동 레이블 지정 정책당 최대 1,000,000개의 일치 파일이 제공되지만 테넌트에서 하루에 자동 레이블이 지정된 총 25,000개의 파일은 동일하게 유지됩니다.
+
+- 시뮬레이션 개선 사항:
+    - 시뮬레이션 모드에서 자동 레이블 지정 정책을 실행하면 최대 48시간이 아닌 12시간 이내에 완료됩니다.
+    - 검토를 위해 일치하는 모든 항목 대신 각 사이트(OneDrive 또는 SharePoint)에 대해 무작위로 샘플링된 일치 파일을 최대 100개까지 제공하여 성능을 향상시킵니다.
+    - 시뮬레이션이 완료되면 [활동 알림](alert-policies.md)을 수신하도록 구성된 사용자에게 이메일 알림이 전송됩니다.
+
+- 일치하는 항목을 검토하는 데 도움이 되는 개선 사항:
+    - 샘플링된 일치 항목에 대한 추가 메타데이터 정보입니다.
+    - SharePoint 사이트 이름 및 파일 소유자와 같이 일치하는 항목에 대한 정보를 내보내는 기능. 이 정보를 사용하여 일치하는 파일을 피벗 및 분석하고 필요한 경우 검토를 위해 파일 소유자에게 위임할 수 있습니다.
+
+> [!TIP]
+> 지원되는 더 많은 정책과 사이트를 활용하려면 PowerShell을 사용하여 효율적으로 새 정책을 만들고 기존 정책에 사이트를 추가하세요. 자세한 내용은 이 페이지의 [자동 레이블 지정 정책에 PowerShell 사용](#use-powershell-for-auto-labeling-policies) 섹션을 참조하세요.
+
+### <a name="how-to-determine-whether-your-tenant-has-the-new-enhancements"></a>테넌트에 새로운 개선 사항이 있는지 확인하는 방법
+
+테넌트에 새로운 개선 사항이 있으면 **자동 레이블 지정** 탭에 다음 알림이 표시됩니다.
+
+![테넌트에 새로운 개선 사항이 있음을 확인하는 배너](../media/auto-labeling-updatedbanner.png)
+
+이 알림이 표시되지 않으면 테넌트에 새로운 개선 사항이 없지만 며칠 후에 다시 확인하세요.
+
+> [!NOTE]
+> 테넌트가 새로운 개선 사항을 수신할 때 시뮬레이션 모드에 있던 자동 레이블 지정 정책이 있는 경우 시뮬레이션을 다시 실행해야 합니다. 이 시나리오가 적용되는 경우 시뮬레이션을 검토할 때 **시뮬레이션 다시 시작** 을 선택하라는 메시지가 표시됩니다. 시뮬레이션을 다시 시작하지 않으면 완료되지 않습니다.
+> 
+> 그러나 개선 사항은 시뮬레이션 없이 실행되는 모든 자동 레이블 지정 정책과 사용자가 생성하는 모든 새로운 자동 레이블 지정 정책에 계속 적용됩니다.
 
 ## <a name="tips-to-increase-labeling-reach"></a>레이블 지정 범위를 늘리기 위한 팁
 
