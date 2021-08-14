@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 Microsoft Defender에서 공격 시뮬레이션 교육을 위한 사용자 지정 페이로드를 만드는 방법을 Office 365.
 ms.technology: mdo
-ms.openlocfilehash: ac7963b71c466e8dfdc513a2563776cd4e10af95
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: ecd7b539aa22d2935f96860769b30751022d89ea43151a94222caeec9b309928
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53810381"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>공격 시뮬레이션 교육에 대한 사용자 지정 페이로드 만들기
 
@@ -32,6 +32,9 @@ Microsoft는 공격 시뮬레이션 교육과 쌍을 이을 수 있는 다양한
 그런 다음 관련 기술을 선택합니다. 기술에 대한 자세한 내용은 소셜 엔지니어링 기술 [선택을 참조합니다.](attack-simulation-training.md#selecting-a-social-engineering-technique)
 
 다음 단계에서 페이로드 이름을 지정합니다. 원하는 경우 설명을 입력할 수 있습니다.
+
+> [!NOTE]
+> 특정 상표, 로고, 기호, 사인 및 기타 소스 식별자는 로컬, 주 및 연방법 및 법률에 따라 높이 보호를 받을 수 있습니다. 이러한 표시기를 무단으로 사용할 경우 사용자에게 범죄 벌금을 비롯한 벌금을 부과할 수 있습니다. 광범위한 목록은 아니며, 여기에는 부사장, 부사장, 의회 봉인, CIA, FBI, 사회 보장, 메디케어 및 Medicaid, 미국 국세청 및 국세청이 포함됩니다. 이러한 상표 범주를 넘어 제3자 상표를 사용 및 수정하면 본질적인 위험이 수차차적으로 증가합니다. 페이로드에서 자체 상표 및 로고를 사용하는 것은 특히 조직에서 사용을 허용하는 경우 덜 위험합니다. 페이로드를 만들거나 구성할 때 사용하는 것이 적절하거나 적절하지 않은 경우 법률 자문가에게 문의해야 합니다.
 
 ## <a name="configure-payload"></a>페이로드 구성
 

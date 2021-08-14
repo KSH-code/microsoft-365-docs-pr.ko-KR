@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 4ce52c40e622f55b0fd231ec634c4897fea1d6f5
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: cfcbe9f330940f32ffff605bf4c2aa17689611e8af26e8f41b8ce10915c6a8d8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615498"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53805287"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>게스트 액세스 및 B2B 외부 사용자 액세스를 허용하기 위한 정책
 

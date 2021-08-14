@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 보안 기능을 Microsoft 365 방법
-ms.openlocfilehash: 59eed0b7e08aae8397bb037e6d1b515bf6aa0ba8
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 8e207ac55b7d7280adfeb356cef20dec1ada0da89298945f1318bbf656a2310f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855206"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Contoso Microsoft 365 보안에 대한 정보 요약
 
@@ -77,11 +77,11 @@ Contoso는 다음 단계를 수행하여 엔터프라이즈용 보안 배포를 
 
 - 비즈니스용 Windows Hello
 
-  Contoso는 비즈니스용 [Windows Hello를](/windows/security/identity-protection/hello-for-business/hello-identity-verification) 배포하여 2단계 인증을 실행하는 PC 및 모바일 장치에서 강력한 2단계 인증을 통해 암호를 Windows 10 Enterprise.
+  Contoso는 [](/windows/security/identity-protection/hello-for-business/hello-identity-verification) Windows Hello 실행하는 PC 및 모바일 장치에서 강력한 2단계 인증을 통해 암호가 필요하지 Windows 10 Enterprise.
 
 - Windows Defender Credential Guard
 
-  관리 권한으로 운영 체제에서 실행되는 대상 공격 및 맬웨어를 차단하기 위해 Contoso는 AD DS [Windows Defender Credential Guard](/windows/security/identity-protection/credential-guard/credential-guard) 정책을 통해 대상 공격을 차단했습니다.
+  관리 권한을 사용하여 운영 체제에서 실행되는 대상 공격 및 맬웨어를 차단하기 위해 Contoso는 AD DS [그룹 Windows Defender Credential Guard를](/windows/security/identity-protection/credential-guard/credential-guard) 사용하도록 설정했습니다.
 
 ## <a name="threat-protection"></a>위협 방지
 

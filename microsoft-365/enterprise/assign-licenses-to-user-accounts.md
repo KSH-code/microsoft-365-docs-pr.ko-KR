@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: 개별적으로 또는 그룹 멤버 자격에 따라 Microsoft 365 계정에 라이선스를 할당하는 방법에 대해 설명
-ms.openlocfilehash: 2fe1e2f959fae8b0bc82a7dcd4f65f33b21c368a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e2550f7532c332de3a6d2939a2249788aa04bf1122d00359f860bf8cae349b6f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051535"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855218"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts"></a>사용자 Microsoft 365 라이선스 할당
 
@@ -67,7 +67,7 @@ Azure AD에서 보안 그룹을 구성하여 구독 집합의 라이선스를 �
 
 라이선스가 할당된 적절한 사용자 계정 집합을 통해 이제 다음을 할 준비가 된 것입니다.
 
-- [보안 구현](../security/defender-365-security/security-roadmap.md)
+- [보안 구현](../security/office-365-security/security-roadmap.md)
 - [클라이언트 소프트웨어 배포(예: Microsoft 365 앱](/DeployOffice/deployment-guide-microsoft-365-apps)
 - [장치 관리 설정](device-management-roadmap-microsoft-365.md)
 - [서비스 및 응용 프로그램 구성](configure-services-and-applications.md)

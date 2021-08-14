@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: c5f5837f4e4069a67bc080178fefd10bd2a08629
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 755dbd892d5e772a2bfda3b8e6e959027b74815a2e69ab27659f7f5e4a29bf26
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53805251"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
@@ -70,9 +70,9 @@ ActiveSync 클라이언트를 차단하는 Exchange Online 새 정책이 추가�
 
 또한 인증 정책을 사용하여 [](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)기본 인증을 사용하지 않도록 설정할 수 있습니다. 이 경우 모든 클라이언트 액세스 요청에서 최신 인증을 강제로 사용할 수 있습니다.
 
-## <a name="limit-access-to-exchange-online-from-outlook-on-the-web"></a>웹에서 Exchange Online 액세스 Outlook 액세스 제한
+## <a name="limit-access-to-exchange-online-from-outlook-on-the-web"></a>사용자 액세스 Exchange Online 제한 웹용 Outlook
 
-사용자가 umnanaged 장치의 웹 사이트에서 첨부 파일을 Outlook 기능을 제한할 수 있습니다. 이러한 장치의 사용자는 장치에서 파일을 누출하고 저장하지 않고 Office Online을 사용하여 이러한 파일을 보고 편집할 수 있습니다. 관리되지 않는 장치에서 사용자가 첨부 파일을 볼 수 없는 경우를 차단할 수도 있습니다.
+사용자가 umnanaged 장치에서 첨부 파일을 다운로드할 웹용 Outlook 제한할 수 있습니다. 이러한 장치의 사용자는 장치에서 파일을 누출하고 저장하지 않고 Office Online을 사용하여 이러한 파일을 보고 편집할 수 있습니다. 관리되지 않는 장치에서 사용자가 첨부 파일을 볼 수 없는 경우를 차단할 수도 있습니다.
 
 그 단계는 다음과 같습니다.
 

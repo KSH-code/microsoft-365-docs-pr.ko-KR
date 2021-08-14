@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스키마의 EmailUrlInfo 표
 description: 고급 헌팅 스키마의 EmailUrlInfo 표에서 URL 또는 링크 정보에 대해 알아봅니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마 참조, kusto, 표, 열, 데이터 형식, 설명, EmailUrlInfo, 네트워크 메시지 ID, url, 링크
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, EmailUrlInfo, 네트워크 메시지 ID, URL, 링크
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a3baea57a2237ca6eb3f85cd5bd4a204d45d4bc0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d57de219daca5fd8a6eb3762014496262f7f0b6409b5ae5c4f222808afcb48d6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53810849"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 

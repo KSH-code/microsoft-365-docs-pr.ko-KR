@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 471682b6f830609ef4ff9241bdaa515c97ca2d8d
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 09a8e608153d9d985b0f407c01f0d68c7de2e2a315ca5d00447fd3bad30fde4c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394908"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855169"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -550,7 +550,7 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
 
 테넌트 간 사서함 마이그레이션을 수행하려면 원본 사서함 개체의 LegacyExchangeDN 값을 대상 MailUser 개체의 x500 전자 메일 주소로 스탬프 처리해야 합니다.
 
-예제:
+예:
 
 ```powershell
 LegacyExchangeDN value on source mailbox is:

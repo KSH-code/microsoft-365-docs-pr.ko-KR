@@ -1,6 +1,6 @@
 ---
-title: Defender API를 통한 Microsoft 365 액세스
-description: 사용자를 대신하여 Microsoft 365 프로그래밍 방식 액세스 권한을 얻을 수 있는 앱을 만드는 방법을 배워야 합니다.
+title: API를 통한 Microsoft 365 Defender 액세스
+description: 사용자를 대신하여 앱에 프로그래밍 Microsoft 365 Defender 앱을 만드는 방법을 배워야 합니다.
 keywords: 파트너, 액세스, api, 다중 테넌트, 동의, 액세스 토큰, 앱
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 46876fef8a0279ee350d57fdc85aeced82696656
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a930b04db04eff491cd646634c9cbbd2595629030e7d6c5f5de095f6fc4ca9cf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53810526"
 ---
-# <a name="create-an-app-with-partner-access-to-microsoft-365-defender-apis"></a>파트너가 Defender API에 액세스할 수 있는 Microsoft 365 만들기
+# <a name="create-an-app-with-partner-access-to-microsoft-365-defender-apis"></a>앱 API에 대한 파트너 액세스 권한이 있는 Microsoft 365 Defender 만들기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,37 +38,37 @@ ms.locfileid: "51070076"
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-이 페이지에서는 여러 테넌트의 사용자를 대신하여 Azure Active Directory Defender에 프로그래밍 방식의 액세스 권한이 있는 Microsoft 365 앱을 만드는 방법을 설명합니다. 다중 테넌트 앱은 대규모 사용자 그룹을 제공하는 데 유용합니다.
+이 페이지에서는 여러 테넌트의 사용자를 대신하여 Azure Active Directory 프로그래밍 방식 액세스 권한이 있는 Microsoft 365 Defender 앱을 만드는 방법을 설명합니다. 다중 테넌트 앱은 대규모 사용자 그룹을 제공하는 데 유용합니다.
 
-단일 사용자를 대신하여 Microsoft 365 Defender에 프로그래밍식 액세스 권한이 필요한 경우 사용자 대신 Microsoft 365 Defender API에 액세스하는 앱 만들기를 [참조하세요.](api-create-app-user-context.md) 사용자가 명시적으로 정의되지 않은 액세스가 필요한 경우(예: 백그라운드 앱 또는 디먼을 작성하는 경우) 사용자 없이 Microsoft 365 Defender에 액세스하는 앱 만들기를 [참조하세요.](api-create-app-web.md) 필요한 액세스 종류가 확실하지 않은 경우 [시작을 참조합니다.](api-access.md)
+단일 사용자를 대신하여 Microsoft 365 Defender 프로그래밍식 액세스 권한이 필요한 경우 사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 앱 만들기를 [참조하세요.](api-create-app-user-context.md) 사용자가 명시적으로 정의되지 않은 액세스가 필요한 경우(예: 백그라운드 앱 또는 데몬을 작성하는 경우) 사용자 없이 앱에 액세스하는 Microsoft 365 Defender [만들기를 참조하세요.](api-create-app-web.md) 필요한 액세스 종류가 확실하지 않은 경우 [시작을 참조합니다.](api-access.md)
 
-Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 사용하면 워크플로를 자동화하고 Microsoft 365 기능을 사용할 수 있습니다. 이 API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft 365 Defender API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 사용하면 워크플로를 자동화하고 워크플로의 Microsoft 365 Defender 사용할 수 있습니다. 이 API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 일반적으로 이러한 API를 사용하려면 다음 단계를 수행해야 합니다.
 
 - Azure AD(Azure Active Directory 응용 프로그램을 만들 수 있습니다.
 - 이 응용 프로그램을 사용하여 액세스 토큰을 얻습니다.
-- 토큰을 사용하여 Defender API에 Microsoft 365 액세스합니다.
+- 토큰을 사용하여 API에 Microsoft 365 Defender 있습니다.
 
 이 앱은 다중 테넌트이기 때문에 [](/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) 사용자를 대신하여 각 테넌트의 관리자 동의도 필요합니다.
 
 이 문서에서는 이러한 방법을 설명합니다.
 
 - 다중 **테넌트** Azure AD 응용 프로그램 만들기
-- 응용 프로그램에 대한 사용자 관리자의 승인을 얻어 필요한 Microsoft 365 Defender에 액세스합니다.
-- Defender에 액세스 토큰을 Microsoft 365 수 있습니다.
+- 응용 프로그램에 대한 사용자 관리자의 승인을 얻어 필요한 리소스에 Microsoft 365 Defender 수 있습니다.
+- 액세스 토큰을 Microsoft 365 Defender
 - 토큰 유효성 검사
 
-Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API는 작업 흐름을 자동화하고 다양한 Defender 기능을 기반으로 Microsoft 365 도움이 될 것입니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft 365 Defender API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API는 작업 흐름을 자동화하고 작업 흐름을 기반으로 Microsoft 365 Defender 도움이 될 것입니다. API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 일반적으로 API를 사용하려면 다음 단계를 수행해야 합니다.
 
 - 다중 **테넌트** Azure AD 응용 프로그램을 생성합니다.
-- 응용 프로그램에서 필요한 Defender 리소스에 액세스할 수 있도록 Microsoft 365 승인(동의)합니다.
+- 응용 프로그램에서 필요한 리소스에 액세스할 수 있도록 사용자 Microsoft 365 Defender(동의)합니다.
 - 이 응용 프로그램을 사용하여 액세스 토큰을 얻습니다.
-- 토큰을 사용하여 Defender API에 Microsoft 365 액세스합니다.
+- 토큰을 사용하여 API에 Microsoft 365 Defender 있습니다.
 
-다음 단계에 따라 다중 테넌트 Azure AD 응용 프로그램을 만들고, Defender에 액세스 토큰을 Microsoft 365 방법을 안내합니다.
+다중 테넌트 Azure AD 응용 프로그램을 만들고, 액세스 토큰을 다운로드하여 토큰의 유효성을 Microsoft 365 Defender 단계를 안내합니다.
 
 ## <a name="create-the-multi-tenant-app"></a>다중 테넌트 앱 만들기
 
@@ -88,10 +88,10 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터�
 
    ![응용 프로그램 등록 양식의 이미지](../..//media/atp-api-new-app-partner.png)
 
-4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 API를 선택하고 > 를 Microsoft Threat Protection  >    >   를 **Microsoft Threat Protection.**  이제 앱이 Defender에 액세스할 Microsoft 365 있습니다.
+4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 api를 >  >    >   Microsoft **Threat Protection을** 입력하고 **Microsoft Threat Protection을 선택합니다.** 이제 앱에서 앱에 액세스할 Microsoft 365 Defender.
 
    > [!TIP]
-   > *Microsoft Threat Protection* 은 Microsoft 365 Defender의 이전 이름으로, 원래 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
+   > *Microsoft Threat Protection은* 이전 이름인 Microsoft 365 Defender 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
 
    ![API 권한 선택 이미지](../../media/apis-in-my-org-tab.PNG)
 
@@ -121,7 +121,7 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터�
 
 9. 사용자의 테넌트에 응용 프로그램을 추가합니다.
 
-   응용 프로그램은 사용자를 Microsoft 365 Defender와 상호 작용하기 때문에 응용 프로그램을 사용하려는 모든 테넌트에 대해 승인이 필요합니다.
+   응용 프로그램이 사용자를 Microsoft 365 Defender 상호 작용하기 때문에 응용 프로그램을 사용하려는 모든 테넌트에 대해 승인이 필요합니다.
 
    사용자 **테넌트의** 전역 관리자는 동의 링크를 보고 응용 프로그램을 승인해야 합니다.
 
@@ -245,7 +245,7 @@ aadToken = jsonResponse["access_token"]
 
 1. 명령 프롬프트를 열고 azure CLIENT_ID ID로 설정하십시오.
 1. Azure CLIENT_SECRET 비밀로 설정하세요.
-1. TENANT_ID 사용하여 Defender에 액세스하려는 사용자의 Azure 테넌트 ID로 Microsoft 365.
+1. 앱을 TENANT_ID 액세스하려는 사용자의 Azure 테넌트 ID로 Microsoft 365 Defender.
 1. 다음 명령을 실행합니다.
 
 ```bash
@@ -267,9 +267,9 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
 
 ![토큰 유효성 검사 이미지](../../media/webapp-decoded-token.png)
 
-## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>토큰을 사용하여 Microsoft 365 API에 액세스
+## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>토큰을 사용하여 Microsoft 365 Defender API에 액세스
 
-1. 사용할 API(인시던트 또는 고급 헌팅)를 선택하십시오. 자세한 내용은 Supported [Microsoft 365 Defender API를 참조하세요.](api-supported.md)
+1. 사용할 API(인시던트 또는 고급 헌팅)를 선택하십시오. 자세한 내용은 지원되는 [api를 Microsoft 365 Defender 참조하세요.](api-supported.md)
 2. 보내고자 하는 http 요청에서 권한 부여 헤더를 로 설정하고, 권한 부여 체계인 `"Bearer" <token>` *Bearer를* 로 설정하고 유효성이 검사된 토큰이 됩니다. 
 3. 토큰은 1시간 이내에 만료됩니다. 이 시간 동안 동일한 토큰을 사용하여 두 개 이상의 요청을 보낼 수 있습니다.
 
@@ -287,9 +287,9 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
 ## <a name="related-articles"></a>관련 문서
 
 - [Microsoft 365 Defender API 개요](api-overview.md)
-- [Microsoft 365 Defender API에 액세스](api-access.md)
+- [MICROSOFT 365 DEFENDER API에 액세스](api-access.md)
 - ['Hello world' 응용 프로그램 만들기](api-hello-world.md)
-- [사용자 없이 Microsoft 365 액세스하는 앱 만들기](api-create-app-web.md)
+- [사용자가 없는 앱에 액세스하는 Microsoft 365 Defender 만들기](api-create-app-web.md)
 - [사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 앱 만들기](api-create-app-user-context.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)

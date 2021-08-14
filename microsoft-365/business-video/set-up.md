@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 설치 방법을 Microsoft 365 Business Premium.
-ms.openlocfilehash: 2e6cdf3c2280b527571d62f5e3535dcea6ad3523
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 8824755d8215af6a1459ae73d1cd9ba08f5897c574b07e8e99f6b78cfee439c1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53838022"
 ---
 # <a name="set-up-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 설정
 
@@ -33,7 +33,7 @@ ms.locfileid: "51578654"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 관리 센터에 로그인하고 설정으로 **이동을 선택합니다.** 설치 마법사가 시작됩니다.
+1. 로그인하여 Microsoft 365 관리 센터 로 **이동을 선택합니다.** 설치 마법사가 시작됩니다.
 2.  Office 앱 설치 **페이지에서** 컴퓨터에 Office 앱을 설치하도록 선택하거나 계속을 선택할 수 **있습니다.**
 3.  On the  **Your domain is your business identity**  page, enter the domain name for your business and then select Use this  **domain**. WordPress 또는 GoDaddy와 같은 일반적인 등록 기관을 사용하는 경우 레코드가 이 페이지에 자동으로 추가됩니다.
 4. 도메인 **확인 페이지에서** 도메인  소유권을 확인하려면 확인을 선택한 다음 도메인 등록 기관 계정에 로그인합니다. Microsoft에서 계정 확인을 위해 TXT 레코드를 추가하려면 확인 을 **선택합니다.**

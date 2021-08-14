@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva 항목에서 항목 검색 관리
+title: 항목에서 항목 Microsoft Viva 관리
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,21 +9,21 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Viva 항목에서 항목 검색을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 53e304dc69ccf2ca6fe01d29f0997c539406b0fe
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+description: 각 항목에서 항목 검색을 Microsoft Viva 방법을 배워야 합니다.
+ms.openlocfilehash: 39ecd7ab79267d560b614e981f1ef7ad14fd807db94c64a9483b1603d0e2733a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768977"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53870096"
 ---
-# <a name="manage-topic-discovery-in-microsoft-viva-topics"></a>Microsoft Viva 항목에서 항목 검색 관리
+# <a name="manage-topic-discovery-in-microsoft-viva-topics"></a>항목에서 항목 Microsoft Viva 관리
 
-항목 검색 설정은 Microsoft 365 [관리 센터에서 관리할 수 있습니다.](https://admin.microsoft.com) 이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
+에서 항목 검색 설정을 관리할 [수 Microsoft 365 관리 센터.](https://admin.microsoft.com) 이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
 
-## <a name="to-access-topics-management-settings"></a>항목 관리 설정에 액세스하려면
+## <a name="to-access-topics-management-settings"></a>주제 관리 설정에 액세스하려면 다음을 수행합니다.
 
-1. Microsoft 365 관리 센터에서 설정 **,** **Org 설정을 클릭합니다.**
+1. 다음 Microsoft 365 관리 센터 **를** 클릭하고 설정 **를 클릭합니다.**
 2. 서비스 **탭에서** 항목 환경을 **클릭합니다.**
 
     ![커넥트 정보를 알 수 있습니다.](../media/admin-org-knowledge-options-completed.png) 

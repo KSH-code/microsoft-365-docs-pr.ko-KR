@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 초안 컬렉션은 컬렉션의 검색 쿼리와 일치하는 검색 예상 결과를 반환하는 Advanced eDiscovery 사례에서 양도 및 비보조 데이터 원본의 eDiscovery 검색입니다. 검색 통계를 검토하고, 항목 샘플링을 미리 보고, 결과를 검토 집합에 커밋하기 전에 컬렉션을 변경하고 다시할 수 있습니다.
-ms.openlocfilehash: 18f018a5e00f355c3f320a963135e76ecc51f086
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 42497a8f5f8d5d8e5ecf58ff8f486bffa578e6f0ca9375ab1924d2f2100b5729
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820439"
 ---
 # <a name="create-a-draft-collection-in-advanced-ediscovery"></a>컬렉션에서 초안 컬렉션 Advanced eDiscovery
 
@@ -29,7 +29,7 @@ ms.locfileid: "50838898"
 
 ## <a name="before-you-create-a-draft-collection"></a>초안 컬렉션을 만들기 전에
 
-- 초안 컬렉션을 만들기 전에 사례에 보호자 및 비보조 데이터 원본을 추가합니다. 초안 컬렉션을 만들 때 데이터 원본을 선택할 수 있도록 이 옵션을 선택해야 합니다. 자세한 내용은 다음을 참조하세요.
+- 초안 컬렉션을 만들기 전에 사례에 보호자 및 비보조 데이터 원본을 추가합니다. 초안 컬렉션을 만들 때 데이터 원본을 선택할 수 있도록 이 옵션을 선택해야 합니다. 자세한 내용은 다음 항목을 참조하세요.
 
   - [보유자를 사례에 추가](add-custodians-to-case.md)
 
@@ -39,7 +39,7 @@ ms.locfileid: "50838898"
 
 ## <a name="create-a-draft-collection"></a>초안 컬렉션 만들기
 
-1. 규정 Microsoft 365 센터에서 Advanced eDiscovery 사례를 열고 컬렉션 **탭을** 선택합니다.
+1. 이 Microsoft 365 규정 준수 센터 사례를 Advanced eDiscovery 컬렉션 **탭을** 선택합니다.
 
 2. 컬렉션 **페이지에서** 새 컬렉션 Standard **컬렉션**  >  **을 선택합니다.**
 

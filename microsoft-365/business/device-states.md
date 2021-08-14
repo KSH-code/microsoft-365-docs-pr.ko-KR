@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: 비즈니스용 관리자 홈의 장치 작업 목록에서 다양한 장치 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: e6f1b428413d094e0a1ce3afb026528074038736
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7b21781c5ae7b7df0fc610e46f776c0ea4563103d38b65d45b437c951426ea5b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837998"
 ---
 # <a name="device-states"></a>장치 상태
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 MS.technology: mde
-ms.openlocfilehash: d28ad22721e22dfd0dc5962bd46bab2b45469781
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: afe1b37d80a074c0011a3d1ea58c3b15fab96ef6d4f1701f11bd1ab73dc06979
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53810705"
 ---
 # <a name="configure-your-event-hub"></a>이벤트 허브 구성
 
@@ -105,7 +105,7 @@ ms.locfileid: "52985663"
 >[!NOTE]
 > 이벤트 허브 클러스터에 없는 이벤트 허브  네임스페이스를 사용하는 경우 이벤트 허브 네임스페이스당 이벤트 허브가 10개로 제한되어 정의한 각 내보내기 작업에서 내보낼 이벤트 유형(테이블)설정 수 있습니다.
 
-예제:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ![예제 이벤트 허브 이미지](../../media/005c1f6c10c34420d387f594987f9ffe.png)
 
@@ -150,7 +150,7 @@ ms.locfileid: "52985663"
 
     이벤트 유형(테이블Microsoft 365 Defender당 이벤트 허브를 만들 수 있는 경우 이 필드를 비워 두면 됩니다.
 
-    **이벤트 유형:** 이벤트 허브로 전달할 고급 헌팅 테이블을 선택한 다음 사용자 지정 앱으로 을 선택합니다. 경고 테이블은 Microsoft 365 Defender, 장치 테이블은 Microsoft Defender for Endpoint(EDR) 및 Microsoft Defender for Office 365. 전자 메일 이벤트는 모든 전자 메일 트랜잭션을 기록합니다. URL(SafeLinks), 첨부 파일(Safe 첨부 파일) 및 ZAP(배달 후 이벤트)도 기록되어 NetworkMessageId 필드의 전자 메일 이벤트에 참가할 수 있습니다.
+    **이벤트 유형:** 이벤트 허브로 전달할 고급 헌팅 테이블을 선택한 다음 사용자 지정 앱으로 을 선택합니다. 경고 테이블은 Microsoft 365 Defender, 장치 테이블은 Microsoft Defender for Endpoint(EDR) 및 Microsoft Defender for Office 365. 전자 메일 이벤트는 모든 전자 메일 트랜잭션을 기록합니다. URL(SafeLinks), 첨부 파일(금고 첨부 파일) 및 ZAP(배달 후 이벤트)도 기록되어 NetworkMessageId 필드의 전자 메일 이벤트에 참가할 수 있습니다.
 
     ![스트리밍 API 설정의 이미지](../../media/3b2ad64b6ef0f88cf0175f8d57ef8b97.png)
 

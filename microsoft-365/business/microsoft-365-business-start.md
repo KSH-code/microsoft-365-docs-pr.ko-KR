@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 비즈니스용 Microsoft 365 설정하는 방법 및 사용자의 장치와 PC를 비즈니스용 앱으로 보호할 수 있도록 준비하는 방법에 대해 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2ab0079da7a8f30d481cdb3d3dc6d165b4a19e99
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 3ac8ec3c831d14cfa6d0018340458b2b494b2dd746a7f2bd61d2eba0b4eaf0a1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837910"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 시작
 
@@ -65,7 +65,7 @@ Microsoft 365 비즈니스용 라이선스는 최대 300개 라이선스를 위�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: 비즈니스용 Microsoft 365 설정(관리자)
