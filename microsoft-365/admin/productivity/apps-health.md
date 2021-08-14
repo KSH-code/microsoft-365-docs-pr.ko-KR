@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 앱 - 기술 환경 생산성 점수에 대한 세부 정보입니다.
-ms.openlocfilehash: d8e9cb1f29c8138616c1cc2461bfa07fb9dafd9c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: def83cb3a468a31ce5d714af4337f786ef660ebd89293ead9c6c92d9ec23c34d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823401"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Microsoft 365 Apps 상태 - 기술 경험
 
@@ -73,7 +73,7 @@ ms.locfileid: "51580873"
 
 :::image type="content" source="../../media/devices-current-suppported-channel.png" alt-text="지원되는 현재 채널의 장치 수를 보여하는 차트입니다.":::
 
-1. **헤더:** 하이라이트 채널에서 지원되는 버전의 디바이스를 실행 중인 장치의 백분율을 Microsoft 365 앱  
+1. **헤더:**  현재 채널에서 지원되는 버전의 디바이스를 실행 중인 장치의 백분율을 Microsoft 365 앱
 1. **본문:**  권장 채널에서 앱을 실행하는 Microsoft 365 정보를 제공합니다.
 1. **시각화:**  시각화의 분석은 다음과 같이 여러 채널에서 지원되는 최신 Microsoft 365 버전의 디바이스에 대한 비율까지의 범위를 나타냅니다.
     - **지원되는 버전:** 파란색 막대는 지원되는 버전의 앱에서 실행 중인 Microsoft 365 표시됩니다.
@@ -84,7 +84,7 @@ ms.locfileid: "51580873"
 
 :::image type="content" source="../../media/device-supported-versions.png" alt-text="최신 및 지원되는 버전의 앱을 실행하는 장치 수를 보여주는 차트입니다.":::
 
-1. **헤더:** 하이라이트 실행 중인 장치와 최신 버전을 실행하는 장치의 백분율을 계산합니다.  
+1. **헤더:**  지원되는 버전을 실행하는 장치와 최신 버전을 실행하는 장치의 백분율을 강조합니다.
 1. **본문:**  권장 채널 및 지원되는/최신 버전에서 실행되는 디바이스 값에 대한 정보를 제공합니다.
 1. **시각화:** 시각화의 분석은 지원되는 버전 및 최신 버전의 앱을 실행하는 장치 수를 보여 Microsoft 365 나타냅니다.
     - **지원되는 버전:** 막대의 파랑(색) 부분과 막대의 분수(숫자/분모)는 지원되는 버전의 앱 실행 장치의 백분율을 Microsoft 365 있습니다.

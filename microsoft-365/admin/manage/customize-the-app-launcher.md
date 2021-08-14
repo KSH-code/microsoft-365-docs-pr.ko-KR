@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 앱 시작커에 사용자 지정 타일을 추가하여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대한 빠른 링크를 만들 수 있습니다.
-ms.openlocfilehash: 0f4141d08811847e8e27cf35975cfa6c6b1b1192
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: c7b1b36ce38c1d1abc2197b78d3fd70396484b7229db6ba1356dc67003420e6f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393682"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53825482"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 

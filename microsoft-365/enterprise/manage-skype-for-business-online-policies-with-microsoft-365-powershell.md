@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
 description: '요약: PowerShell을 사용하여 정책으로 비즈니스용 Skype 온라인 사용자 계정 속성을 관리합니다.'
-ms.openlocfilehash: a10929bbdce499ad26f9714127f675beeef58765
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 51218d2158558e527f5ce9b3c12388e69cd3d87c140641762247a90d6e78043c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916705"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835058"
 ---
 # <a name="manage-skype-for-business-online-policies-with-powershell"></a>PowerShell을 사용하여 온라인 비즈니스 정책용 Skype 관리
 
@@ -66,7 +66,7 @@ EnablePublicCloudAudioVideoAccess : True
 EnableOutsideAccess               : True
 ```
 
-이 예에서 이 정책 내의 값은 페더링 사용자와 통신할 때 사용할 수 있는 작업을 결정하거나 할 수 없습니다. 예를 들어 사용자가 조직 외부의 사용자와 통신할 수 있도록 EnableOutsideAccess 속성을 True로 설정해야 합니다. 이 속성은 Microsoft 365 않습니다. 대신 선택한 다른 선택에 따라 속성이 자동으로 True 또는 False로 설정됩니다. 다른 두 가지 관심 속성은 다음입니다.
+이 예에서 이 정책 내의 값은 페더링 사용자와 통신할 때 사용할 수 있는 작업을 결정하거나 할 수 없습니다. 예를 들어 사용자가 조직 외부의 사용자와 통신할 수 있도록 EnableOutsideAccess 속성을 True로 설정해야 합니다. 이 속성은 이 속성이 Microsoft 365 관리 센터. 대신 선택한 다른 선택에 따라 속성이 자동으로 True 또는 False로 설정됩니다. 다른 두 가지 관심 속성은 다음입니다.
   
 - **EnableFederationAccess는** 사용자가 페더전된 도메인의 사용자와 통신할 수 있는지 여부를 나타냅니다.
     

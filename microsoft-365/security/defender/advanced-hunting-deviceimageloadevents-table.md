@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅chema의 DeviceImageLoadEvents 테이블
 description: 고급 헌팅 스위마의 DeviceImageLoadEvents 테이블에서 DLL 로딩 이벤트에 대해 자세히 알아보시고
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마마 참조, kusto, 표, 열, 데이터 형식, 설명, imageloadevents, DeviceImageLoadEvents, DLL 로드, 라이브러리, 파일 이미지
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, imageloadevents, DeviceImageLoadEvents, DLL 로드, 라이브러리, 파일 이미지
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0129c98fe21df2976fae57fc3c4011af75facdda
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 88e4b4192bacc133e9891303af992f0437501df30b5f8f8bb1f055779e1725de
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023009"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53884238"
 ---
 # <a name="deviceimageloadevents"></a>DeviceImageLoadEvents
 

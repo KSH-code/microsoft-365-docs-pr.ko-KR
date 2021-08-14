@@ -1,6 +1,6 @@
 ---
-title: Defender에 대한 Microsoft 365 제공
-description: Defender에 대한 제품 Microsoft 365 제공
+title: 사용자 의견 Microsoft 365 Defender
+description: 사용자에 대한 제품 Microsoft 365 Defender
 keywords: 피드백, m365 보안, 보안, 365, 기능
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8c5173da14e1b1ae1820f00e79feb966ba7f15f6
-ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
+ms.openlocfilehash: 9feaad92a413443770db4e65eecaa8e90845a8e8a969800c2910c0ecd62970a9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53884183"
 ---
-# <a name="provide-feedback-on-microsoft-365-defender"></a>Defender에 대한 Microsoft 365 제공
+# <a name="provide-feedback-on-microsoft-365-defender"></a>사용자 의견 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

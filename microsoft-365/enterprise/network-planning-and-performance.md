@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Adm_O365
 description: 이 문서에서는 사용자에 대한 네트워크 대역폭 요구 사항을 계획하고 Microsoft 365 조정하고 문제를 해결하는 데 도움이 됩니다.
-ms.openlocfilehash: 0e125011d06ce15218b8602169c08c538f5eec6c
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 638870376b046f301e6d8b4eb48ae1664db41baeb9c42609ae7d866e606ade13
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835117"
 ---
 # <a name="network-planning-and-performance-tuning-for-microsoft-365"></a>Microsoft 365의 네트워크 계획 및 성능 조정
 처음으로 배포하거나 Microsoft 365 마이그레이션하기 전에 이러한 항목의 정보를 사용하여 필요한 대역폭을 예측한 다음, 배포 또는 마이그레이션할 수 있는 충분한 대역폭이 있는지 테스트하고 확인할 수 Microsoft 365. 개요는 에 대한 네트워크 및 마이그레이션 계획을 [Microsoft 365.](network-and-migration-planning.md)

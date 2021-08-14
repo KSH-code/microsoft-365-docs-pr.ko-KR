@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: b8464818-4325-4a56-b022-5af1dad2aa8b
 description: Azure의 가상 머신에 Azure AD 커넥트 배포하여 계정과 Azure AD 테넌트 간에 계정을 동기화하는 방법을 설명합니다.
-ms.openlocfilehash: 52c1bb2eb53cc4e6753d528e0d82822b2a0eebc5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6f7744ab894346e7468f3b90c211d0f8247ba253b291a4a8eda0b292e7409f04
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835216"
 ---
 # <a name="deploy-microsoft-365-directory-synchronization-in-microsoft-azure"></a>Microsoft 365 디렉터리 동기화 배포 Microsoft Azure
 
@@ -175,7 +175,7 @@ Azure AD Connect가 인터넷 리소스에 액세스할 수 있게 하려면 온
 
 Azure AD 커넥트 계정은 Microsoft 365 AD DS에서 Microsoft 365 구독에 계정을 추가하지만 사용자가 Microsoft 365 로그인하고 해당 서비스를 사용하려면 위치 및 라이선스를 사용하여 계정을 구성해야 합니다. 다음 단계를 사용하여 위치를 추가하고 해당 사용자 계정에 대한 라이선스를 활성화합니다.
   
-1. Microsoft 365 관리 [센터에 로그인한](https://admin.microsoft.com)다음 관리자 를 **클릭합니다.**
+1. 에 로그인하여 [Microsoft 365 관리 센터](https://admin.microsoft.com)를 클릭한 다음 관리자 를 **클릭합니다.**
     
 2. 왼쪽 탐색에서 **사용자 > 활성화된 사용자** 를 클릭합니다.
     

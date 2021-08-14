@@ -9,19 +9,19 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Viva 항목 보안 및 개인 정보 보호를 계획하는 방법에 대해 자세히 알아보기
-ms.openlocfilehash: b8c82b1914df739ea9086a4ce1585733a7b6d854
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+description: 보안 및 개인 정보 보호를 Microsoft Viva 방법 학습
+ms.openlocfilehash: cf7e631970196b2995891ef302f9af33dd2ab0388b95a54ea04b4a3a24d0a838
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925494"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53864042"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Microsoft Viva 항목 보안 및 개인 정보
 
 항목에서는 관리 컨트롤과 함께 Microsoft 365 기존 콘텐츠 보안 기능을 사용하여 조직의 사용자에게 표시되는 AI 생성 콘텐츠를 제어합니다. 보안 설정(Microsoft 365, 파일 및 폴더에 대한 사용 권한)과 특정 사용자가 항목에 볼 수 있는 항목을 결정하는 항목 관리 설정의 조합입니다.
 
-토픽을 설정해도 조직의 콘텐츠에 대한 기존 액세스 제어는 수정되지 않습니다. 사용자는 이미 액세스 권한이 있는 토픽만 볼 수 있습니다.
+Topics를 설정하더라도 조직의 콘텐츠에 대한 기존 액세스 제어는 수정되지 않습니다. 사용자는 이미 액세스 권한을 가진 항목만 보게 됩니다.
 
 이 문서에서는 보안 관점에서 항목의 작동 방식과 지식 관리자와 지식 관리자가 항목 표시를 제어해야 하는 옵션에 대해 설명하고 있습니다. 항목 계획의 일부로 이 문서를 [읽어 읽습니다.](plan-topic-experiences.md)
 

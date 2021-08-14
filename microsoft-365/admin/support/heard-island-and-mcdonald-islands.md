@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6df569c2919e9941bc5c7c6ee92970fa694af225
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 5e67cf54e18209c71693621db1d6df30717f03500db8d1bf3ddc292609256c0b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53856754"
 ---
 # <a name="contact-support-for-heard-island-and-mcdonald-islands"></a>호드 제도 및 McDonald 아일랜드 지원에 문의
 

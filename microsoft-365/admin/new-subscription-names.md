@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - FRP150
 description: 새 구독 이름에 Microsoft 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 64923611ec6571f9008b7f7fc5ec5e00e87bb400
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 5757b802dcc5897e720249314d91974c35d0d3e3bce6acd8d564065bdc8a891c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53391318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823546"
 ---
 # <a name="office-365-is-now-microsoft-365"></a>이제 Office 365는 Microsoft 365입니다.
 

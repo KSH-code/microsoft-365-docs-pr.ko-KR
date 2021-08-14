@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: 이전 도메인에서 이전 도메인을 제거하고 Microsoft 365 다른 도메인으로 이동하거나 구독을 취소하는 방법을 학습합니다.
-ms.openlocfilehash: 227ca3e58a4c6278278048deeffcf68c1d659546
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 157ae1b8fb36e9bfb13f6e496a7bab4772e7bef851ba0c917d3cfc7e7762478a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53825718"
 ---
 # <a name="remove-a-domain"></a>도메인 제거
 

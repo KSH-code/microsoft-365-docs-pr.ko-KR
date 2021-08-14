@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 통신 - 사용자 환경 생산성 점수에 대한 세부 정보입니다.
-ms.openlocfilehash: 3ea17bb859fc02343a97033fa65e830f305b69cf
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 354f5db7eede84d448489cf7c269d1aa1ed6500c7806c66029cc38daad83b5d5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286132"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823510"
 ---
 # <a name="communication--people-experiences"></a>커뮤니케이션 - 사람 환경
 
 생산성 점수는 조직에서 이러한 제품을 사용하는 방식에 대한 인사이트를 Microsoft 365 디지털 혁신의 여정을 지원하고 있습니다. 조직의 점수는 직원 및 기술 경험의 측정값을 반영하며, 규모와 유사한 조직의 벤치마크와 비교할 수 있습니다. 커뮤니케이션 범주는 사람들이 경험하는 조치의 일부입니다. 자세한 내용은 생산성 점수 개요를 [확인하고](productivity-score.md) Microsoft의 개인 정보 [취급 방침을 참조하세요.](https://privacy.microsoft.com/privacystatement)
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 통신 인사이트를 시작하려면 조직의 사용자들이 다음에 대한 라이선스를 부여해야 합니다.
 

@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 103208f1-e788-4601-aa45-504f896511cd
 description: 이 문서에서는 Azure ExpressRoute for Office 365 네트워크 계획에 활용하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 440d4fafadd7e9b504dc4ffdac1123a2956ed798
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 33e8a078a8bfd2dec5fc643a73e1d17201c3d7f51f9b491f7e53d25389104d39
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923579"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835046"
 ---
 # <a name="network-planning-with-expressroute-for-office-365"></a>Office 365용 ExpressRoute를 통한 네트워크 계획
 
@@ -39,7 +39,7 @@ Azure ExpressRoute는 Microsoft의 데이터 센터 내에서 Office 365 지원�
 
 |**네트워크 계획의 차이점**|**인터넷 네트워크 연결**|**ExpressRoute 네트워크 연결**|
 |:-----|:-----|:-----|
-| 다음을 비롯한 필수 인터넷 서비스에 대한 액세스  <br/>  DNS 이름 확인  <br/>  인증서 해지 확인  <br/>  콘텐츠 배달 네트워크(CDN)  <br/> |네.  <br/> |Microsoft 소유 DNS 및/또는 CDN 인프라에 대한 요청은 ExpressRoute 네트워크를 사용할 수 있습니다.  <br/> |
+| 다음을 비롯한 필수 인터넷 서비스에 대한 액세스  <br/>  DNS 이름 확인  <br/>  인증서 해지 확인  <br/>  콘텐츠 배달 네트워크(CDN)  <br/> |예  <br/> |Microsoft 소유 DNS 및/또는 CDN 인프라에 대한 요청은 ExpressRoute 네트워크를 사용할 수 있습니다.  <br/> |
 | 다음을 Office 365 서비스에 대한 액세스  <br/>  Exchange Online  <br/>  SharePoint Online  <br/>  비즈니스용 Skype Online  <br/>  Office 브라우저에서 실행  <br/>  Office 365 포털 및 인증  <br/> |예, 모든 응용 프로그램 및 기능  <br/> |예, [특정 응용 프로그램 및 기능](./urls-and-ip-address-ranges.md) <br/> |
 |경계의 사내 보안  <br/> |예  <br/> |예  <br/> |
 |고가용성 계획  <br/> |대체 인터넷 네트워크 연결로의 장애 조치(failover)  <br/> |대체 ExpressRoute 연결로의 장애 조치(failover)  <br/> |

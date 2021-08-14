@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 20816b8b-8b21-458f-81c1-320b8116597e
 ROBOTS: NOINDEX
 description: '사용자 지정 도메인을 Office 365 선호하지 않는 경우 개인 전자 메일 주소로 사용자 지정 도메인을 등록하는 방법을 알아보하세요. '
-ms.openlocfilehash: fc691e74def953bd7314dcc40a54a58d977f989d
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: ca21978717f8ce4b43eb619e9f6122ec36db9c093a8b3d8be7052a47ce058fc9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823654"
 ---
 # <a name="signing-up-for-office-365-with-a-personal-email-address"></a>개인 전자 메일 Office 365 등록
 

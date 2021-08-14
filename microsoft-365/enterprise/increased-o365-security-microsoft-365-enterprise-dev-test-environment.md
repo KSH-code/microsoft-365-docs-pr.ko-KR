@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경에 Microsoft 365 추가 보안 Microsoft 365 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: d1bff8b736e5074f621a173d206f7c5f77841b25
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3decba5b8e75525c8988f07e8e3af3e236ed5e2e597266901bec5346cec8660c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53835154"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 Microsoft 365 환경의 Microsoft 365 보안 강화
 
@@ -49,13 +49,13 @@ ms.locfileid: "51198354"
 
 최신 인증을 지원하지 않는 [](../security/office-365-security/microsoft-365-policies-configurations.md) 앱에는 ID 및 장치 액세스 구성을 적용할 수 없습니다. 이는 Microsoft 365 디지털 자산을 보호하는 데 중요한 요소입니다. 
 
-1. Microsoft 365 관리 센터( )로 이동하고 전역 관리자 계정을 Microsoft 365 테스트 랩 구독에 [https://portal.microsoft.com](https://portal.microsoft.com) 로그인합니다.
+1. Microsoft 365 관리 센터 ()로 이동하고 전역 관리자 계정으로 Microsoft 365 테스트 랩 구독에 [https://portal.microsoft.com](https://portal.microsoft.com) 로그인합니다.
     
   - 간단한 테스트 환경을 사용하는 Microsoft 365 로컬 컴퓨터에서 로그인합니다.
     
   - 시뮬레이트된 엔터프라이즈 Microsoft 365 환경을 사용하는 경우 Azure [Portal을](https://portal.azure.com) 사용하여 CLIENT1 가상 컴퓨터에 연결한 다음 CLIENT1에서 로그인합니다.
  
-2. 새 Microsoft 365 관리 센터 **탭의** 왼쪽  탐색 창에 있는 관리 센터에서 를 **SharePoint.**
+2. 새 **Microsoft 365 관리 센터** 탭의 왼쪽 탐색  창의 관리 센터에서 를 **SharePoint.**
 3. 새 SharePoint **관리** 센터 탭에서 액세스 제어 **> 클릭합니다.**
 4. 최신 **인증을** 지원하지 않는 앱을 클릭하고 액세스 차단을 선택한 **다음** 저장을 **클릭합니다.**
 
@@ -66,7 +66,7 @@ ms.locfileid: "51198354"
 
 1. 보안 및 준수 [& 이동하고](https://protection.office.com) 전역 관리자 계정으로 로그인합니다.
 
-2. 왼쪽 탐색 창의 **위협** 관리에서 정책 **을** 클릭한 다음 안전한 첨부 **파일을 클릭합니다.** 
+2. 왼쪽 탐색 창의 **위협** 관리에서 정책 을 **클릭한** 다음 첨부 **금고 클릭합니다.** 
 
 3. 의 **파일 보호에서 SharePoint,** OneDrive 및 Microsoft Teams. 에 **대해 ATP 켜기, SharePoint,** OneDrive 및 Microsoft Teams.
 

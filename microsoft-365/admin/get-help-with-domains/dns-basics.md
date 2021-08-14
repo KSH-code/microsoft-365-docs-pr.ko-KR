@@ -25,12 +25,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 이름 시스템은 컴퓨터 호스트 이름을 IP 주소에 매핑하며 DNS 및 도메인 등록 기관의 기본 기능을 이해하면 도메인을 관리하는 데 도움이 됩니다.
-ms.openlocfilehash: 68b9b82d52e9bb2c4105237f0a29e8137623138e
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 0cf8d0ef7fa5a3a6420f0cf85eea2242ac9c909faaa3f0e0a032d7902fc4b7ee
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53825850"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 

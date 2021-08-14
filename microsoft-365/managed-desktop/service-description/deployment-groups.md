@@ -1,5 +1,5 @@
 ---
-title: 장치 배포 그룹
+title: 디바이스 배포 그룹
 description: 업데이트 및 기타 변경 내용을 관리하는 데 사용되는 배포 그룹
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2d1f2325937488b95c40600f277835cca1329d1e
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: c343692e904e292f333cd2e3d729f0c56a819e7774262fcd4baf0197071637e3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53863898"
 ---
-# <a name="device-deployment-groups"></a>장치 배포 그룹
+# <a name="device-deployment-groups"></a>디바이스 배포 그룹
 
 Microsoft Managed Desktop 배포 그룹을 사용하여 장치에 대한 업데이트 및 구성 변경 릴리스를 관리합니다. 디바이스가 배포 그룹에 등록될 때 자동으로 배포 그룹("링" 또는 "업데이트 그룹")에 Microsoft Managed Desktop. 배포 그룹을 사용하면 디바이스가 단계적 타임라인의 변경 내용을 받을 수 있습니다.
 
