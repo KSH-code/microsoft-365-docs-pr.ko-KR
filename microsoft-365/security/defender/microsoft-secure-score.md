@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 1b03c2671939a3e8e3011b78b8f1484ef02979ea
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 9d922ed8fbcbace8cc804e33e00af8939c7ff5f0ac67610303deab2095ce326e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930190"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53893750"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -78,7 +78,7 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 현재 다음 제품에 대한 권장 사항이 있습니다.
 
 - Microsoft 365(Exchange Online)
-- Azure Active Directory Domain Services
+- Azure Active Directory
 - 엔드포인트용 Microsoft Defender
 - ID용 Microsoft Defender
 - 클라우드 앱 보안

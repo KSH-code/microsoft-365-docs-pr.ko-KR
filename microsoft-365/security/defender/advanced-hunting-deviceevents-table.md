@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅chema의 DeviceEvents 테이블
 description: 고급 헌팅스키마의 기타 장치 이벤트(DeviceEvents) 표에서 바이러스 백신, 방화벽 및 기타 이벤트 유형에 대해 자세히 알아보시다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, security events, antivirus, firewall, exploit guard, DeviceEvents
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 보안 이벤트, 바이러스 백신, 방화벽, exploit guard, DeviceEvents
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 63a2d41714329918192caccd384587a4e4f04112
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 3a55e5647299e5c093c631ea10504e1a63698ea5d6b729caa25980d21a527f45
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53817102"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 

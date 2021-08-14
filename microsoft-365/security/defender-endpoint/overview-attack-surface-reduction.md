@@ -19,12 +19,12 @@ ms.custom: asr
 ms.topic: conceptual
 ms.technology: mde
 ms.date: 06/02/2021
-ms.openlocfilehash: e2065daf89bdebb2e4df6de35ad4c09c21df0a26
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: a736ff05bf729e69f89bdb9050a0c8dec2d033f74101fed7a2f46372872464e0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53656322"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53817708"
 ---
 # <a name="overview-of-attack-surface-reduction-capabilities"></a>공격 표면 감소 기능 개요
 
@@ -49,7 +49,7 @@ ms.locfileid: "53656322"
 | 문서 | 설명 |
 |:---|:---|
 | [하드웨어 기반 격리](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) | 시스템의 시작 및 실행 중일 때 시스템의 무결성을 보호하고 유지 관리합니다. 로컬 및 원격 인증을 통해 시스템 무결성의 유효성을 검사합니다. 악의적인 웹 사이트를 Microsoft Edge 위해 컨테이너를 차단합니다. |
-| [응용 프로그램 제어](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control) | 응용 프로그램을 실행하려면 응용 프로그램이 신뢰를 획득해야 하게 응용 프로그램 제어를 사용할 수 있습니다. |
+| [응용 프로그램 컨트롤](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control) | 응용 프로그램을 실행하려면 응용 프로그램이 신뢰를 획득해야 하게 응용 프로그램 제어를 사용할 수 있습니다. |
 | [제어된 폴더 액세스](controlled-folders.md) | 악의적 또는 의심스러운 앱(파일 암호화 랜섬웨어 맬웨어 포함)이 주요 시스템 폴더의 파일을 변경하지 못하게 방지할 수 있습니다(Microsoft Defender 바이러스 백신 필요). |
 | [네트워크 보호](network-protection.md) | 조직의 장치에서 네트워크 트래픽 및 연결로 보호를 확장합니다. (필요한 Microsoft Defender 바이러스 백신) |
 | [악용 방지](exploit-protection.md) | 조직에서 사용하는 운영 체제 및 앱이 악용되지 못하게 보호합니다. Exploit Protection은 타사 바이러스 백신 솔루션에서도 작동합니다. |

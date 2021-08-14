@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 recommendations: false
 description: PowerShell을 사용하여 전자 메일 주소 정책을 구성하여 Microsoft 365 그룹을 만들 때 사용할 도메인을 선택하는 방법을 학습합니다.
-ms.openlocfilehash: 4d620c3344f83f56afd05c00d78615331dd413ed
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: c63542e707322040df379f3620ab893d23f6243656f787e9b72c6491b7b52232
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53893582"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>그룹을 만들 때 사용할 도메인 Microsoft 365 선택
 

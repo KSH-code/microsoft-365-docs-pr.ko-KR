@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 클라우드 서비스에 대한 액세스를 최적화하는 동안 원격 작업자가 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
-ms.openlocfilehash: bc446cf26ec99d3e9f81564b5474777c674603bc
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 2097507c79d9c2f1738e0fee45464e90e7887551836fd8895c99cfb22de1d094
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229434"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53816802"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계: 온-프레미스 앱 및 서비스에 대한 원격 액세스 제공
 
