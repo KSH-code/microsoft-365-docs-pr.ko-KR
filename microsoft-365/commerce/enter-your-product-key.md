@@ -22,12 +22,12 @@ ms.custom:
 - AdminTemplateSet
 description: 소매점에서 Microsoft 365 Business Standard 구입한 경우 제품 키를 교환하고 구독을 활성화하는 방법을 알아보하세요.
 ms.date: 11/13/2020
-ms.openlocfilehash: c3807a6e4ce5a49b1552fee7320c03c6b329a8c6
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 6f812948e06b4ddf678b8112bca4c068e8d36444d7b036f95764d5bc0e7c9bde
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820926"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>사용자에 대한 제품 키를 Microsoft 365 Business Standard
 

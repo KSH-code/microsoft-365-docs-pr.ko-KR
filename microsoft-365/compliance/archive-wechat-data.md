@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 연결기에서 커넥터를 설정하고 Microsoft 365 규정 준수 센터 WeChat 데이터를 가져오고 보관할 Microsoft 365.
-ms.openlocfilehash: e610b58421c2d84402010c9a5d5ad33ec6da5b04
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: d99b96b97cbf0be01dfe12d38fe9c655372be24a2724a30fa3cb33be68932381
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820513"
 ---
 # <a name="set-up-a-connector-to-archive-wechat-data"></a>WeChat 데이터를 보관할 커넥터 설정
 

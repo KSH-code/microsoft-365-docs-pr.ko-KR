@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 보안 링크를 사용하여 조직 외부의 사용자와 안전하게 비즈니스 파일을 공유하는 방법을 배워야 합니다.
-ms.openlocfilehash: 17875dc403c96caac55a5487cf5649d6778ec160
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 26f6d88805a9dd185dfd2c8271613f9701fd51eef3a8ebd8ef9a990785917506
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820962"
 ---
 # <a name="securely-share-files-externally"></a>외부에서 안전하게 파일 공유
 

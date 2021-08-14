@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender를 평가하여 Office 365, 평가 방법, 평가 단계
+title: Microsoft Defender를 평가하여 Office 365 개요
 description: 이 개요를 사용하여 요구 사항, eval 활성화 또는 활성화, 파일럿 설정 등 MDO 파일럿을 설정하는 단계를 확인할 수 있습니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c39f5823d87ab7b7ff7795014925ca7c22231a3f
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 1971f70752b7787540e3edd470bece5e609d5bcd6171a7c6a8ef39af44c0ce4f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458109"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53893914"
 ---
 # <a name="enable-and-pilot-microsoft-defender-for-office-365"></a>Microsoft Defender를 사용하도록 설정하고 파일럿 Office 365
 
@@ -44,7 +44,7 @@ ms.locfileid: "53458109"
 | |단계  |설명  |
 |---------|---------|---------|
 |1|[아키텍처 요구 사항 및 주요 개념 검토](eval-defender-office-365-architecture.md)    | Office Defender를 이해하고 Exchange Online 환경이 아키텍처의 선행 요구 사항을 충족하는지 파악합니다.       |
-|2 |[평가 환경 사용](eval-defender-office-365-enable-eval.md)     |   단계에 따라 평가 환경을 설치합니다.      |
+|2|[평가 환경 사용](eval-defender-office-365-enable-eval.md)     |   단계에 따라 평가 환경을 설치합니다.      |
 |3 |[파일럿 설정 ](eval-defender-office-365-pilot.md)    |    파일럿 그룹을 만들고 보호를 구성하며 주요 기능 및 대시보드에 익숙해지도록 합니다.     |
 ||||
 

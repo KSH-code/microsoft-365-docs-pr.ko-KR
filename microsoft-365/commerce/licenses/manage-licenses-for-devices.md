@@ -20,12 +20,12 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 ms.date: 03/17/2021
-ms.openlocfilehash: c590c2d47699c4c3cbea4b5145bea9e7c9fc79ec
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5866fd7ae42a8e127250a2f02c7378381b736da54027ab80bab1228fbef23e33
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820914"
 ---
 # <a name="manage-licenses-for-devices"></a>장치에 대한 라이선스 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "52535665"
 
 그룹에 라이선스를 할당할 때 그룹 내의 모든 장치에 라이선스를 할당합니다. 단일 그룹에 구독을 하나만 할당할 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 청구 라이선스   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">페이지로</a> 이동합니다.
+1. In the Microsoft 365 관리 센터, go to the **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
 2. 라이선스 **페이지에서** 교육용 **Microsoft 365 앱(장치)** 또는 **엔터프라이즈용 Microsoft 365 앱(장치)를 선택합니다.**
 3. On the next page, choose a subscription, then choose **Assign licenses**.
 4. 그룹에 **라이선스** 할당 창에서 그룹 이름을 입력하기 시작한 다음 결과에서 선택한 후 목록에 추가합니다.

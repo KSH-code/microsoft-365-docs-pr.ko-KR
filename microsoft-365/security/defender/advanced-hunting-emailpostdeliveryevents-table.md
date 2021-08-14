@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 schema의 EmailPostDeliveryEvents 테이블
 description: 고급 헌팅 Microsoft 365 EmailPostDeliveryEvents 표에서 전자 메일에 대해 수행한 배달 후 작업에 대해 자세히 알아보기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware verdict, phishing verdict, attachment count, link count, url count
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, EmailPostDeliveryEvents, 네트워크 메시지 ID, 보낸 사람, 받는 사람, 첨부 파일 ID, 첨부 파일 이름, 맬웨어 판정, 피싱 결과, 첨부 파일 수, 링크 수, URL 개수
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 444af2441eef5a3720325656f996e6bcdb42937e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ed32d0216e90a66be30905b5e0d067d730f2ae3418d6f4c0742ef95679bb787a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935476"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53894026"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 

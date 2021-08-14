@@ -26,19 +26,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: 사용자가 Office 디바이스에 Windows 10 앱을 설치하고 Office 관리 센터에서 Windows 10 PC에 Microsoft 365 수 있습니다.
-ms.openlocfilehash: 74c17533995b74655be57524b77d9c508f703c50
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: 사용자가 Office 디바이스에 Office 앱을 설치하고 Windows 10 PC의 Office Windows 10 쉽게 Microsoft 365 관리 센터.
+ms.openlocfilehash: bfd0d9baba177bd68b4d3174eba7c5ffb3a38aa8c690c7b8314e5b298bdbdfc1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53821006"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>사용자가 디바이스에 Office 설치하도록 Windows 10 지원
 
 [![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
 
-Office 관리 센터에서 Windows 10 PC에 쉽고 빠르게 Microsoft 365 수 있습니다.
+여러 PC에서 Office 쉽고 Windows 10 설치할 수 Microsoft 365 관리 센터.
   
 이전에 설치한 Office 앱에서의 작동 방식을 알아보려면 시작하기 전에 [Office 클라이언트 설치 준비](prepare-for-office-client-deployment.md)를 확인하세요.
 
@@ -46,7 +46,7 @@ Office 관리 센터에서 Windows 10 PC에 쉽고 빠르게 Microsoft 365 수 �
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
 ## <a name="manage-office-deployments"></a>Office 배포 관리
 

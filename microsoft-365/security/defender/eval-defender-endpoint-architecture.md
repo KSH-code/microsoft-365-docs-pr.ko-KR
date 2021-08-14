@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 4df1ac2ca5fdfaa88ec2d08c85112f52da26b873
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 8e41fa007c870615af18a8e0c8bef4aedeb2d1904e032aad08195f133a61701f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458126"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53893974"
 ---
 # <a name="review-microsoft-defender-for-endpoint-architecture-requirements-and-key-concepts"></a>끝점 아키텍처 요구 사항 및 주요 개념에 대한 Microsoft Defender 검토
 
@@ -49,7 +49,7 @@ ms.locfileid: "53458126"
 Call-out | 설명
 :---|:---|
 1 | 디바이스는 지원되는 관리 도구 중 하나를 통해 보드됩니다. 
-2  | On-boarded devices provide and respond to Microsoft Defender for Endpoint signal data.
+2 | On-boarded devices provide and respond to Microsoft Defender for Endpoint signal data.
 3  | 관리되는 디바이스가 가입 및/또는 등록된 Azure Active Directory.
 4  | 도메인에 가입된 Windows 10 장치를 사용하여 Azure Active Directory 동기화 Azure Active Directory 커넥트.
 5  | 끝점 경고, 조사 및 응답에 대한 Microsoft Defender는 모든 Microsoft 365 Defender.
@@ -65,7 +65,7 @@ Call-out | 설명
 끝점 검색 및 응답 | 끝점 감지 및 응답 기능은 거의 실시간으로 실행 가능한 고급 공격 감지 기능을 제공합니다. | [끝점 검색 및 응답 기능 개요](/defender-endpoint/overview-endpoint-detection-response)
 동작 차단 및 포함 | 동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리에 따라 위협을 식별하고 중지하는 데 도움이 될 수 있습니다. | [동작 차단 및 제약](/defender-endpoint/behavioral-blocking-containment)
 자동화된 조사 및 대응 | 자동화된 조사는 보안 분석가가 사용하는 프로세스에 따라 다양한 검사 알고리즘을 사용하며 경고를 검사하고 위반을 해결하기 위해 즉각적인 조치를 취하도록 디자인되었습니다. | [자동화된 조사를 사용하여 위협 조사 및 수정](/defender-endpoint/automated-investigations)
-지능형 헌팅 | 고급 헌팅은 네트워크에서 이벤트를 사전 검사하여 위협 표시기 및 엔터티를 찾을 수 있도록 최대 30일의 원시 데이터를 탐색할 수 있는 쿼리 기반 위협 헌팅 도구입니다. | [고급 헌팅 개요](/defender-endpoint/advanced-hunting-overview)
+고급 헌팅 | 고급 헌팅은 네트워크에서 이벤트를 사전 검사하여 위협 표시기 및 엔터티를 찾을 수 있도록 최대 30일의 원시 데이터를 탐색할 수 있는 쿼리 기반 위협 헌팅 도구입니다. | [고급 헌팅 개요](/defender-endpoint/advanced-hunting-overview)
 위협 분석 | 위협 분석은 가장 관련성이 높은 위협을 다루는 전문 Microsoft 보안 연구원의 보고서 집합입니다. | [새로운 위협 추적 및 대응](/defender-endpoint/threat-analytics)
 
 

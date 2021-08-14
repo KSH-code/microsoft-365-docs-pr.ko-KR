@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: iOS 장치에 Office 앱을 설치하는 방법을 배워야 합니다.
-ms.openlocfilehash: 0cb7cae3a4569d83a1b2e6b27ca42de2142f30e5
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 4f5bdf92f2c221509a8e36f97531bb42e928e38553b4fb0cae6190bea18f5ed2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53821072"
 ---
 # <a name="install-outlook-and-office-apps-on-ios-devices"></a>iOS Outlook Office 앱 설치
 
@@ -42,7 +42,7 @@ ms.locfileid: "51580561"
 5. 직장 전자 메일 주소를 입력합니다.
 6. 계정 **추가를** 선택하고 암호를 입력한 다음 로그인 **을 선택합니다.**
 7. (선택 사항), **Let's Do It ** to add more accounts, or select  **Maybe Later**  to skip this step.
-8. **확인을** 선택하여 앱 데이터를 Microsoft 365 Business 수 있도록 앱을 다시 Outlook 합니다.
+8. **확인을** 선택하여 비즈니스에서 사용자 데이터를 Microsoft 365 수 있도록 앱을 다시 Outlook 합니다.
 9. 다시 Outlook 열면 확인 메시지가 나타납니다. 확인을 **선택합니다.**
 10. 앱 및 Outlook 앱에 Office PIN을 만들고 확인을 합니다. 이제부터 이 PIN을 사용하여 모든 보안 Office 앱 사용됩니다.
 11. 전자  **메일 알림을**  사용하도록 설정하려면 켜기 를 선택합니다.

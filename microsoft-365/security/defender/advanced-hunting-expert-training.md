@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0b816956442408c9a61f662827f1fd45d9b6511f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 909247e914453cebbe86115561818cde7cb7c44e3ed8a4d1a8149db301b55031
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538858"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53893990"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>고급 헌팅에 대한 전문 교육을 받을 수 있습니다.
 
@@ -40,13 +40,13 @@ ms.locfileid: "52538858"
 
 | 제목 | 설명 | 시청 | 쿼리 | 
 |--|--|--|--|
-| 에피소드 1: KQL 기본 사항 | 이 에피소드는 Defender에서 고급 헌팅의 기본 Microsoft 365 다를 수 있습니다. 사용 가능한 고급 헌팅 데이터와 기본 KQL 구문 및 연산자에 대해 자세히 알아보습니다. | [](https://youtu.be/0D9TkGjeJwM?t=351) YouTube(54:14) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.txt) |
+| 에피소드 1: KQL 기본 사항 | 이 에피소드에서는 고급 헌팅의 기본 Microsoft 365 Defender. 사용 가능한 고급 헌팅 데이터와 기본 KQL 구문 및 연산자에 대해 자세히 알아보습니다. | [](https://youtu.be/0D9TkGjeJwM?t=351) YouTube(54:14) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.txt) |
 | 에피소드 2: 참가 | 고급 헌팅의 데이터와 테이블을 함께 조인하는 방법에 대해 계속 학습합니다. , `inner` `outer` , `unique` 및 `semi` 조인에 대해 알아보고 기본 Kusto 조인의 미주를 `innerunique` 이해합니다. | [](https://youtu.be/LMrO6K5TWOU?t=297) YouTube(53:33) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.txt) |
 | 에피소드 3: 데이터 요약, 피벗 및 시각화 | 데이터를 필터링, 조작 및 조인하는 방법을 배웠습니다. 이제 데이터를 요약, 수량화, 피벗 및 시각화해야 합니다. 이 에피소드에서는 운영자 및 다양한 계산에 대해 설명하는 동시에 추가 테이블을 `summarize` 소개합니다. 또한 인사이트를 추출하는 데 도움이 되는 차트로 데이터 집합을 전환하는 방법을 배워야 합니다. | [](https://youtu.be/UKnk9U1NH6Y?t=296) YouTube(48:52) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.txt) |
 | 에피소드 4: 헌트해보시고요! 인시던트 추적에 KQL 적용 | 이 에피소드에서 일부 공격자 활동을 추적하는 방법을 배워야 합니다. Kusto 및 고급 헌팅에 대한 향상된 이해를 사용하여 공격을 추적합니다. 사이버 보안 ABC를 포함하여 현장에서 사용되는 실제 트릭과 인시던트 대응에 적용하는 방법을 학습합니다. | [](https://youtu.be/2EUxOc_LNd8?t=291) YouTube(59:36) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.txt) 
 
 
-*L33TSP3AK를* 사용한 더 많은 전문 교육: Microsoft 365 Defender의 고급 헌팅은 Microsoft 365 Defender에서 고급 헌팅을 사용하여 보안 조사를 수행하기 위한 기술 지식 및 실용적인 기술을 확장하기 위한 분석가를 위한 웹캐스트 시리즈입니다. 
+*L33TSP3AK를* 사용한 더 많은 전문 교육: Microsoft 365 Defender 고급 헌팅을 사용하여 보안 조사를 수행하기 위한 기술 지식과 실용적인 기술을 확장하고자 하는 분석가를 위한 웹캐스트 Microsoft 365 Defender. 
 
 | 제목 | 설명 | 시청 | 쿼리 | 
 |--|--|--|--|

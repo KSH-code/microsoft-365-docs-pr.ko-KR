@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 웹 페이지 캡처 데이터를 웹 페이지로 가져오고 보관할 커넥터를 설정하여 2016년 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: d37ed5fdb6995fa9333181d254b1fccd2b08b43b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 333c97661267b662fe9743649a54cd8725f4d2511805eba36064a2d030c8e592
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163857"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820561"
 ---
 # <a name="set-up-a-connector-to-archive-webpage-data"></a>웹 페이지 데이터를 보관할 커넥터 설정
 
-Microsoft 365 준수 센터의 Veritas 커넥터를 사용하여 웹 페이지의 데이터를 조직 내 사용자 사서함으로 Microsoft 365 보관합니다. Veritas는 [](https://globanet.com/webpage-capture) 특정 웹 사이트 또는 전체 도메인에서 특정 웹 페이지(및 해당 페이지의 모든 링크)를 캡처하는 웹 페이지 캡처 커넥터를 제공합니다. 커넥터는 웹 페이지 콘텐츠를 PDF, PNG 또는 사용자 지정 파일 형식으로 변환한 다음 변환된 파일을 전자 메일 메시지에 첨부한 다음 해당 전자 메일 항목을 전자 메일의 사용자 사서함으로 Microsoft 365.
+조직의 Veritas 커넥터를 Microsoft 365 규정 준수 센터 웹 페이지의 데이터를 가져오고 조직의 사용자 사서함으로 Microsoft 365 보관합니다. Veritas는 [](https://globanet.com/webpage-capture) 특정 웹 사이트 또는 전체 도메인에서 특정 웹 페이지(및 해당 페이지의 모든 링크)를 캡처하는 웹 페이지 캡처 커넥터를 제공합니다. 커넥터는 웹 페이지 콘텐츠를 PDF, PNG 또는 사용자 지정 파일 형식으로 변환한 다음 변환된 파일을 전자 메일 메시지에 첨부한 다음 해당 전자 메일 항목을 전자 메일의 사용자 사서함으로 Microsoft 365.
 
 웹 페이지 콘텐츠가 사용자 사서함에 저장되고 나면 소송 보존, eDiscovery Microsoft 365 보존 정책 및 보존 레이블과 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. 웹 페이지 캡처 커넥터를 사용하여 조직에서 데이터를 가져오고 Microsoft 365 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
@@ -35,7 +35,7 @@ Microsoft 365 준수 센터의 Veritas 커넥터를 사용하여 웹 페이지�
 
 2. 24시간마다 웹 페이지 원본 항목이 Veritas Merge1 사이트에 복사됩니다. 또한 커넥터는 웹 페이지 콘텐츠를 변환하고 전자 메일 메시지에 첨부합니다.
 
-3. Microsoft 365 준수 센터에서 만드는 웹 페이지 캡처 커넥터는 매일 Veritas Merge1 사이트에 연결하고 웹 페이지 항목을 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다.
+3. 웹 페이지 캡처 커넥터에서 만든 Microsoft 365 규정 준수 센터 매일 Veritas Merge1 사이트에 연결하고 웹 페이지 항목을 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다.
 
 4. 커넥터는 3단계에 설명된 자동 사용자 매핑의 *Email* 속성 값을 사용하여 변환된 웹 페이지 항목을 특정 사용자의 사서함으로 [가져올 수 있습니다.](#step-3-map-users-and-complete-the-connector-setup) **Webpage Capture라는** 받은 편지함 폴더의 하위 폴더가 사용자 사서함에 만들어지며 웹 페이지 항목을 해당 폴더로 가져오게 됩니다. 이 커넥터는 Email 속성 값을 사용하여 이 *기능을* 실행합니다. 모든 웹 페이지 항목에는 2단계에서 웹 페이지 캡처 커넥터를 구성할 때 제공되는 전자 메일 주소로 채워지는 이 [속성이 포함되어 있습니다.](#step-2-configure-the-webpage-capture-connector-on-the-veritas-merge1-site)
 
@@ -45,7 +45,7 @@ Microsoft 365 준수 센터의 Veritas 커넥터를 사용하여 웹 페이지�
 
 - 웹 페이지 항목을 변환할 사용자 지정 파일 형식을 설정하려면 Veritas 지원과 함께 작업해야 합니다. 자세한 내용은 [Merge1 Third-Party Connectors User Guide를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Web%20Page%20Capture%20User%20Guide%20.pdf)
 
-- 1단계에서 웹 페이지 캡처 커넥터를 만들고 3단계에서 완료하는 사용자는 2단계에서 사서함 가져오기 내보내기 역할에 할당해야 Exchange Online. 이 역할은 준수 센터의  데이터 커넥터 페이지에서 커넥터를 Microsoft 365 필요합니다. 기본적으로 이 역할은 역할 그룹의 역할 그룹에 할당되지 Exchange Online. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
+- 1단계에서 웹 페이지 캡처 커넥터를 만들고 3단계에서 완료하는 사용자는 2단계에서 사서함 가져오기 내보내기 역할에 할당해야 Exchange Online. 이 역할은 서버의 데이터  커넥터 페이지에서 커넥터를 추가하는 Microsoft 365 규정 준수 센터. 기본적으로 이 역할은 역할 그룹의 역할 그룹에 할당되지 Exchange Online. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
 
 ## <a name="step-1-set-up-the-webpage-capture-connector"></a>1단계: 웹 페이지 캡처 커넥터 설정
 
@@ -65,11 +65,11 @@ Microsoft 365 준수 센터의 Veritas 커넥터를 사용하여 웹 페이지�
 
 두 번째 단계는 Veritas Merge1 사이트에서 웹 페이지 캡처 커넥터를 구성하는 것입니다. 웹 페이지 캡처 커넥터를 구성하는 방법에 대한 자세한 내용은 [Merge1 Third-Party Connectors User Guide를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Web%20Page%20Capture%20User%20Guide%20.pdf)
 
-저장 및 & **마친** 후  준수 센터의 커넥터 마법사에 Microsoft 365 페이지가 표시됩니다.
+Save & **Finish를** 클릭하면 연결선의 커넥터 마법사에 있는 사용자 매핑 Microsoft 365 규정 준수 센터 표시됩니다. 
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>3단계: 사용자 매핑 및 커넥터 설정 완료
 
-사용자를 매핑하고 Microsoft 365 준수 센터에서 커넥터 설정을 완료하려면 다음 단계를 따릅니다.
+사용자를 매핑하고 Microsoft 365 규정 준수 센터 다음 단계를 따르세요.
 
 1. 웹 **페이지 매핑** 사용자에 대한 사용자 Microsoft 365 자동 사용자 매핑을 사용하도록 설정합니다. 웹 페이지 캡처 항목에는 조직의 사용자에 대한 전자 메일 주소가 포함된 *Email이라는* 속성이 포함됩니다. 커넥터가 이 주소를 Microsoft 365 사용자 사서함으로 항목을 가져올 수 있습니다.
 
@@ -77,7 +77,7 @@ Microsoft 365 준수 센터의 Veritas 커넥터를 사용하여 웹 페이지�
 
 ## <a name="step-4-monitor-the-webpage-capture-connector"></a>4단계: 웹 페이지 캡처 커넥터 모니터링
 
-웹 페이지 캡처 커넥터를 만든 후 웹 페이지 준수 센터에서 커넥터 상태를 Microsoft 365 있습니다.
+웹 페이지 캡처 커넥터를 만든 후 웹 페이지 캡처 커넥터의 커넥터 상태를 볼 Microsoft 365 규정 준수 센터.
 
 1. 으로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 왼쪽 **nav에서 데이터** 커넥터를 클릭합니다.
 
