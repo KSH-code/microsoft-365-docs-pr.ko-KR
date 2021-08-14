@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 로컬 스크립트를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보딩합니다.
-ms.openlocfilehash: 55109d8fda52db6651d4398cd84ffd6668b4d871
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 9b5df749d71ac3c7b6004f2c44e5d0015595a935a749061eb74b581ae44951cc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53892134"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 사용하여 Windows 10 장치 온보딩
 
@@ -52,13 +52,13 @@ ms.locfileid: "52843449"
 
 8.  **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-    ![관리자 권한으로 실행을 설정하는 창 시작 메뉴](../media/dlp-run-as-admin.png)
+    ![관리자 시작 메뉴 실행을 설정하는 창 창](../media/dlp-run-as-admin.png)
 
 9.  스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPOnboardingScript.cmd를 입력합니다.*
 
 10.  Enter 키를 **누르거나** 확인을 **클릭합니다.**
 
-장치가 규격을 확인하고 센서 데이터를 올바르게 보고하는지 수동으로 확인할 수 있는 방법에 대한 자세한 내용은 온보더링 문제 [해결을 Microsoft Defender Advanced Threat Protection 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+디바이스가 규격 및 센서 데이터를 올바르게 보고하는지 수동으로 확인할 수 있는 방법에 대한 자세한 내용은 [Microsoft Defender Advanced Threat Protection 온보딩](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)문제 해결을 참조하세요.
 
 ## <a name="offboard-devices-using-a-local-script"></a>로컬 스크립트를 사용하여 디바이스 오프보딩
 보안상의 이유로, 오프보드 장치에 사용된 패키지는 다운로드한 날짜 30일 후에 만료됩니다. 장치로 전송된 만료된 오프보더 패키지는 거부됩니다. 오프보더 패키지를 다운로드할 때 패키지 만료 날짜에 대한 알림을 하게 되고 패키지 이름에도 포함됩니다.
@@ -82,7 +82,7 @@ ms.locfileid: "52843449"
 
 8.  **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-    ![관리자 권한으로 실행을 설정하는 창 시작 메뉴](../media/dlp-run-as-admin.png)
+    ![관리자 시작 메뉴 실행을 설정하는 창 창](../media/dlp-run-as-admin.png)
 
 9.  스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd를 입력합니다.*
 
@@ -111,4 +111,4 @@ ms.locfileid: "52843449"
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](dlp-configure-endpoints-mdm.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](dlp-configure-endpoints-vdi.md)
 - [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [온보 Microsoft Defender Advanced Threat Protection 문제 해결](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Microsoft Defender Advanced Threat Protection 온보딩 문제 해결](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

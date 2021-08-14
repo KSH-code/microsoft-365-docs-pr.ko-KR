@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 0f771adb84c4fc335c13909e9da37c3bf27dcda0
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 2f81c50473f6181d1fb083e03db1f671b2bfdd00c6652aece93fff7a40212b8e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53814738"
 ---
 # <a name="communication-compliance-feature-reference"></a>커뮤니케이션 규정 준수 기능 참조
 
@@ -278,7 +278,7 @@ OCR을 사용하는 정책에 대해 보류 중인 경고를 검토할 때 식�
 
 > [!IMPORTANT]
 >
-> 사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. 예를 들면 다음과 같습니다.
+> 사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
 >
 > *banker* <br>
 > *confidential* <br>

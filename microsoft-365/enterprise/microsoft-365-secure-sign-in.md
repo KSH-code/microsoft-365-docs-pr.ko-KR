@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: 사용자가 MFA(다단계 인증) 및 기타 기능을 사용하여 안전하게 로그인하도록 합니다.
-ms.openlocfilehash: 32a33822d33d5be881e02089d064866db5d8e111
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3520a76b3007befda335ef26609ae89fe8b2a7b92821bb9f72e9213087df5fb5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813237"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Microsoft 365 테넌트에 사용자 로그인 보안 기능
 
@@ -62,7 +62,7 @@ Microsoft 365 플랜에 따라 관리자나 사용자가 MFA를 사용하도록 
 |---------|---------|
 |모든 Microsoft 365 요금제(Azure AD Premium P1 또는 P2 라이선스 제외)     |[Azure AD](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)에서 보안 기본값을 사용하도록 설정 합니다. Azure AD의 보안 기본값에는 사용자 및 관리자를 위한 MFA가 포함됩니다.   |
 |Microsoft 365 E3(Azure AD Premium P1 라이선스 포함)     | [공통 조건부 액세스 정책](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)을 사용하여 다음 정책을 구성합니다. <br>- [관리자에게 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [모든 사용자에 대해 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [레거시 인증 차단](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5(Azure AD Premium P2 라이선스 포함)     | Azure AD ID 보호를 활용하여 다음 두 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../security/defender-365-security/identity-access-policies.md)을 구현하세요.<br> - [로그인 위험이 중간 이상인 경우 MFA 필요](../security/defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [위험이 높은 사용자는 암호를 변경해야 함](../security/defender-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
+|Microsoft 365 E5(Azure AD Premium P2 라이선스 포함)     | Azure AD ID 보호를 활용하여 다음 두 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../security/office-365-security/identity-access-policies.md)을 구현하세요.<br> - [로그인 위험이 중간 이상인 경우 MFA 필요](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [위험이 높은 사용자는 암호를 변경해야 함](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ### <a name="security-defaults"></a>보안 기본값
@@ -122,7 +122,7 @@ ID 및 장치 액세스 정책은 세 계층으로 사용하도록 정의됩니�
 
 해당 계층과 관련 구성은 데이터, ID 및 장치에 대해 일관된 수준의 보호를 제공합니다.
 
-Microsoft Teams, Exchange Online 및 SharePoint에 대한 특정 설정을 포함하여 조직에서 ID 및 장치 액세스 정책을 구성하고 배포하는 것이 매우 좋습니다. 자세한 내용은 [ID 및 장치 액세스 구성](../security/defender-365-security/microsoft-365-policies-configurations.md)을 참조하세요.
+Microsoft Teams, Exchange Online 및 SharePoint에 대한 특정 설정을 포함하여 조직에서 ID 및 장치 액세스 정책을 구성하고 배포하는 것이 매우 좋습니다. 자세한 내용은 [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)을 참조하세요.
 
 ## <a name="azure-ad-identity-protection"></a>Azure AD ID 보호
 
@@ -132,8 +132,8 @@ Azure AD ID 보호를 사용하면 다음을 수행할 수 있습니다.
 
 |기능|설명|
 |:---------|:---------|
-| 조직의 ID에서 잠재적인 취약점 확인 및 해결 | Azure AD는 기계 학습을 사용하여 로그인 및 로그인 후 활동과 같은 변칙 및 의심스러운 활동을 감지합니다. 이 데이터를 사용하여 Azure AD ID 보호는 문제를 평가하고 조치를 취하는 데 도움이 되는 보고서 및 경고를 생성합니다.|
-|조직의 ID와 관련이 있는 의심스러운 동작을 감지하고 자동으로 대응|지정된 위험 수준에 도달했을 때 검색된 문제에 자동으로 대응하는 위험 기반 정책을 구성할 수 있습니다. Azure AD 및 Microsoft Intune에서 제공하는 다른 조건부 액세스 제어 외에도, 이러한 정책은 액세스를 자동으로 차단하거나 암호 재설정을 포함하는 수정 조치를 취하고, 후속 로그인에 대해 Azure 다단계 인증을 요구할 수 있습니다. |
+| 조직의 ID에서 잠재적인 취약점 확인 및 해결 | Azure AD는 기계 학습을 사용하여 로그인 및 로그인 후 활동과 같은 의심스러운 활동과 비정상적인 상태를 감지합니다. Azure AD ID 보호는 이 데이터를 사용하여 보고서를 생성하며 사용자가 문제를 평가하고 조치를 취할 수 있도록 경고를 생성합니다.|
+|조직의 ID와 관련이 있는 의심스러운 동작을 감지하고 자동으로 대응|지정된 위험 수준에 도달했을 때 검색된 문제에 자동으로 대응하는 위험 기반 정책을 구성할 수 있습니다. 이러한 정책은 Azure AD 및 Microsoft Intune이 제공하는 다른 조건부 액세스 제어 외에도 액세스를 자동으로 차단하거나 암호 재설정 및 후속 로그인을 위해 Azure AD 다단계 인증을 요구하는 등의 수정 작업을 수행할 수 있습니다. |
 | 의심스러운 사건을 조사하여 관리 작업으로 해결 | 보안 사건에 대한 정보를 사용하여 위험 이벤트를 조사할 수 있습니다. 기본 워크플로를 사용하여 조사를 추적하고 암호 재설정과 같은 수정 작업을 시작할 수 있습니다. |
 |||
 
@@ -147,7 +147,7 @@ Azure AD ID 보호를 사용하면 다음을 수행할 수 있습니다.
 - [Microsoft 365의 ID 로드맵](identity-roadmap-microsoft-365.md)
 - [Azure Academy Azure AD 교육 비디오](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
 - [Azure 다단계 인증 등록 정책 구성](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
-- [ID 및 장치 액세스 구성](../security/defender-365-security/microsoft-365-policies-configurations.md)
+- [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)
 
 ## <a name="next-step"></a>다음 단계
 

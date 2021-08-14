@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: dd2b6bdabae5f4d24882912709d6f16a637a9721
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: 14bbbe671d1708bf0d6674ecab93955066b4093d80b2ced9790030559673dc4d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53813384"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
@@ -135,7 +135,7 @@ ms.locfileid: "53430423"
 
 **다음 단계를 따릅니다:**
 
-1. <https://admin.microsoft.com>으로 이동합니다.
+1. <https://admin.microsoft.com>로 이동합니다.
 2. 새 관리 센터 미리 보기를 사용하고 있는지 확인
 3. 왼쪽 탐색 창에서 지원을 선택한 다음 새 서비스 **요청을 선택합니다.**
 
@@ -216,7 +216,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
    ```
 
-   예제:
+   예:
 
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType Bidirectional -RedirectUrl "https://contoso.sharepoint.com/teams/oldsite" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
@@ -237,7 +237,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
    ```
 
-   예제:
+   예:
 
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType ToTemporaryPage -RedirectUrl "https://portal.contoso.com/UnderConstruction.aspx" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
@@ -276,7 +276,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
 
 2. 모든 사용자에 대해 리디렉션이 진행되지 않은지 유효성을 검사합니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [SharePoint Online에서 포털 시작 롤아웃 계획](./planportallaunchroll-out.md)
 

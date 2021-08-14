@@ -21,12 +21,12 @@ search.appverid: MET150
 description: 무료에서 비즈니스용 Microsoft Teams 새 구독으로 업그레이드하는 Microsoft 365 방법을 알아보하세요.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 07/08/2020
-ms.openlocfilehash: 8aab61819f7f335d4865e162ca752aa307f8f7ac
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 326c76c2939e6312eb6ef9865e1197b16e6d0c702af1594517913bc3ba7d52f2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345109"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53892258"
 ---
 # <a name="upgrade-from-microsoft-teams-free-to-microsoft-365-for-business"></a>비즈니스용 Microsoft Teams 무료 업그레이드로 Microsoft 365 업그레이드
 
@@ -49,7 +49,7 @@ ms.locfileid: "52345109"
 
 무료 Microsoft Teams 기본 직장 또는 학교 계정이 있는 경우 계정의 암호를 다시 설정해야 합니다.
 
-1. Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터로 이동하세요.</a> 로그인하라는 메시지가 표시될 때 암호 **잊어버렸다 를 선택하세요.**
+1. 으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">이동하여 Microsoft 365 관리 센터.</a> 로그인하라는 메시지가 표시될 때 암호 **잊어버렸다 를 선택하세요.**
 2. 기본 직장 또는 학교 계정(.0으로 끝나는 계정)을 사용하여 암호 재설정 *절차를 onmicrosoft.com.*
 3. 확인 단계를 완료합니다. 새 암호를 설정하는 데 사용할 코드가 있는 전자 메일을 받게 됩니다.
 4. 확인 프로세스를 완료하는 코드를 입력합니다.

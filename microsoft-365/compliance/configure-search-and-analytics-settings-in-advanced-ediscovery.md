@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: 모든 Advanced eDiscovery 적용하는 모든 검토 설정을 구성합니다. 여기에는 분석 및 광학 문자 인식에 대한 설정이 포함됩니다.
-ms.openlocfilehash: 2b9c438e28b8d9b84ec8cc29bf85911e5bdc3c8d
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: fd1d71a7f617ad836b5c8d2cdcc2beea4b37fdc5aeb14031c80984ca2676db5b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53892372"
 ---
 # <a name="configure-search-and-analytics-settings-in-advanced-ediscovery"></a>검색 및 분석 설정 구성 Advanced eDiscovery
 
@@ -90,7 +90,7 @@ ms.locfileid: "53453900"
 
 - 다른 데이터 원본의 콘텐츠(양도인과 연결되지 않은 데이터 원본의 경우 사례에 추가)가 검토 집합에 추가되는 경우.
 
-데이터가 검토 집합에 추가된 후 이미지 텍스트를 검토, 검색, 태그 지정 및 분석할 수 있습니다. 선택된 이미지 파일의 텍스트 뷰어에서 추출된 텍스트를 검토 집합에서 볼 수 있습니다. 자세한 내용은 다음을 참조하세요.
+데이터가 검토 집합에 추가된 후 이미지 텍스트를 검토, 검색, 태그 지정 및 분석할 수 있습니다. 선택된 이미지 파일의 텍스트 뷰어에서 추출된 텍스트를 검토 집합에서 볼 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.
 
 - [보유자 데이터의 고급 인덱싱](indexing-custodian-data.md)
 

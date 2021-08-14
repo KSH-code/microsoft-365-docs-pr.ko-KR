@@ -18,17 +18,16 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dedab8ba3acda9b42e14fc7acae0b321bc26a45179cbc941839d93b33bb9bf7a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 09ec44a90c93272da814fd1deba49c364cd8776e
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53811164"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243950"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-linux-for-static-proxy-discovery"></a>정적 프록시 검색을 위해 Linux에서 끝점에 대한 Microsoft Defender 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -49,17 +48,17 @@ Microsoft Defender for Endpoint는 환경 변수를 사용하여 프록시 서�
   ```
 
 - 변수는 패키지 관리자 전역 `HTTPS_PROXY` 구성에 정의되어 있습니다. 예를 들어 Ubuntu 18.04에서 다음 줄을 추가할 수 `/etc/apt/apt.conf.d/proxy.conf` 있습니다.
-  
+
   ```bash
   Acquire::https::Proxy "http://proxy.server:port/";
   ```
 
   > [!CAUTION]
   > 위의 두 메서드는 시스템의 다른 응용 프로그램에 사용할 프록시를 정의할 수 있습니다. 이 방법은 일반적으로 전역 구성인 경우 또는 주의하여 사용하십시오.
-  
-- 변수가 설치 또는 제거 명령에 `HTTPS_PROXY` 추가됩니다. 예를 들어 APT 패키지 관리자를 통해 끝점용 Microsoft Defender를 설치할 때 변수를 다음과 같이 추가합니다. 
 
-  ```bash  
+- 변수가 설치 또는 제거 명령에 `HTTPS_PROXY` 추가됩니다. 예를 들어 APT 패키지 관리자를 통해 끝점용 Microsoft Defender를 설치할 때 변수를 다음과 같이 추가합니다.
+
+  ```bash
   HTTPS_PROXY="http://proxy.server:port/" apt install mdatp
   ```
 
@@ -71,22 +70,20 @@ Microsoft Defender for Endpoint는 환경 변수를 사용하여 프록시 서�
 프록시가 필요하지만 구성되지 않은 경우 설치 및 제거가 반드시 실패할 필요는 없습니다. 그러나 원격 분석은 제출되지 않습니다. 네트워크 시간 제한으로 인해 작업이 훨씬 오래 걸릴 수 있습니다.
 
 ## <a name="post-installation-configuration"></a>설치 후 구성
-  
-설치 후 `HTTPS_PROXY` 환경 변수는 Endpoint 서비스용 Defender 파일에 정의되어야 합니다. 이렇게 하도록 루트 사용자로 실행 하는 동안 텍스트 `/lib/systemd/system/mdatp.service` 편집기에서 를 여는 합니다. 그런 다음 다음 두 가지 방법 중 하나를 사용하여 변수를 서비스에 전파할 수 있습니다.
 
-> [!NOTE]
-> CentOS 또는 RedHat Linux 배포에서 끝점 서비스 파일의 위치는 `/usr/lib/systemd/system/mdatp.service` 입니다.
+설치 후 `HTTPS_PROXY` 환경 변수는 Endpoint 서비스용 Defender 파일에 정의되어야 합니다. 이렇게 를 `sudo systemctl edit --full mdatp.service` 실행합니다.
+그런 다음 다음 두 가지 방법 중 하나를 사용하여 변수를 서비스에 전파할 수 있습니다.
 
 - 줄의 줄의 줄을 `#Environment="HTTPS_PROXY=http://address:port"` 지우고 정적 프록시 주소를 지정합니다.
 
 - 선을 `EnvironmentFile=/path/to/env/file` 추가합니다. 이 경로는 다음 줄을 추가해야 하는 사용자 지정 파일 또는 사용자 지정 파일을 `/etc/environment` 지정합니다.
-  
+
   ```bash
   HTTPS_PROXY="http://proxy.server:port/"
   ```
 
-파일을 수정한 `mdatp.service` 후 저장한 후 닫습니다. 변경 내용을 적용할 수 있도록 서비스를 다시 시작합니다. Ubuntu에서 이 명령에는 다음 두 가지 명령이 있습니다.  
+를 수정한 후 다음 명령을 사용하여 변경 내용을 적용할 수 있도록 파일을 저장하고 서비스를 `mdatp.service` 다시 시작합니다.
 
 ```bash
-systemctl daemon-reload; systemctl restart mdatp
+sudo systemctl daemon-reload; sudo systemctl restart mdatp
 ```

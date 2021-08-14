@@ -20,12 +20,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 타사 데이터 커넥터 및 Microsoft Microsoft 365 API를 사용하여 규정 준수 솔루션을 확장하는 Graph 대해 자세히 알아보십시오.
-ms.openlocfilehash: 1fed5ac72c7dbfa4b1be370ec03678e1beecdcd2
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: df3fcf74fb7e042bb13d482fe4433c36dc4c4896c15d094ffb5f408dd3925908
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53892270"
 ---
 # <a name="microsoft-365-compliance-extensibility"></a>Microsoft 365 규정 준수 extensibility
 
@@ -39,15 +39,15 @@ Microsoft 365 솔루션은 조직이 규정 준수 위험을 지능적으로 평
 
 ## <a name="data-connectors"></a>데이터 커넥터
 
-Microsoft는 규정 준수 센터에서 구성할 수 있는 타사 Microsoft 365 제공합니다. Microsoft에서 제공하는 데이터 커넥터 목록은 타사 데이터 커넥터 [테이블을 참조하세요.](archiving-third-party-data.md#third-party-data-connectors) 또한 타사 데이터 커넥터 표에는 데이터 가져오기 및 보관 후 타사 데이터에 적용할 수 있는 규정 Microsoft 365 및 각 커넥터에 대한 단계별 지침에 대한 링크가 요약되어 있습니다.
+Microsoft는 Microsoft에서 구성할 수 있는 타사 데이터 커넥터를 Microsoft 365 규정 준수 센터. Microsoft에서 제공하는 데이터 커넥터 목록은 타사 데이터 커넥터 [테이블을 참조하세요.](archiving-third-party-data.md#third-party-data-connectors) 또한 타사 데이터 커넥터 표에는 데이터 가져오기 및 보관 후 타사 데이터에 적용할 수 있는 규정 Microsoft 365 및 각 커넥터에 대한 단계별 지침에 대한 링크가 요약되어 있습니다.
 
-데이터 커넥터의 Microsoft 365 자세한 내용은 타사 데이터 [보관을 참조합니다.](archiving-third-party-data.md) 타사 데이터 형식이 Microsoft 365 규정 준수 센터에서 사용할 수 있는 데이터 커넥터에서 지원되지 않는 경우 사용자 지정 커넥터를 제공할 수 있는 파트너와 협력할 수 있습니다. 함께 작업할 수 있는 파트너 목록 및 이 방법에 대한 단계별 프로세스는 파트너와 협력하여 타사 데이터 [보관을 참조하세요.](work-with-partner-to-archive-third-party-data.md)
+데이터 커넥터의 Microsoft 365 자세한 내용은 타사 데이터 [보관을 참조합니다.](archiving-third-party-data.md) 타사 데이터 형식이 타사에서 사용할 수 있는 데이터 커넥터에서 지원되지 Microsoft 365 규정 준수 센터 사용자 지정 커넥터를 제공할 수 있는 파트너와 협력할 수 있습니다. 함께 작업할 수 있는 파트너 목록 및 이 방법에 대한 단계별 프로세스는 파트너와 협력하여 타사 데이터 [보관을 참조하세요.](work-with-partner-to-archive-third-party-data.md)
 
 ### <a name="prerequisites-for-data-connectors"></a>데이터 커넥터의 선행 준비
 
-타사 데이터를 가져오고 보관하기 위해 Microsoft 365 규정 준수 센터에서 사용할 수 있는 많은 데이터 커넥터를 사용하려면 타사 데이터 원본에서 구성 작업을 준비하고 수행해야 합니다. 이러한 선행 사항은 각 타사 데이터 커넥터에 대해 자세히 설명되어 있습니다.
+타사에서 타사 데이터를 Microsoft 365 규정 준수 센터 데 사용할 수 있는 많은 데이터 커넥터를 사용하려면 타사 데이터 원본에서 구성 작업을 준비하고 수행해야 합니다. 이러한 선행 사항은 각 타사 데이터 커넥터에 대해 자세히 설명되어 있습니다.
 
-Microsoft 파트너 중 하나에서 제공하는 Microsoft 365 규정 준수 센터의 데이터 커넥터의 경우 조직에서 파트너와의 비즈니스 관계가 필요합니다. 커넥터를 배포하려면 먼저 파트너와의 비즈니스 관계가 필요합니다.
+Microsoft 파트너 중 하나에서 Microsoft 365 규정 준수 센터 데이터 커넥터의 경우 조직에서 파트너와의 비즈니스 관계가 필요한 경우 커넥터를 배포할 수 있습니다.
 
 타사 데이터 커넥터에 대한 라이선스 요구 사항은 준수 라이선싱 비교 문서의 [Microsoft 365 있습니다.](/office365/servicedescriptions/downloads/microsoft-365-compliance-licensing-comparison.xlsx)
 
@@ -57,7 +57,7 @@ Microsoft 365 준수 API는 Microsoft Information Protection SDK, Microsoft Grap
 
 GRAPH 액세스하는 방법에 대한 자세한 내용은 [Microsoft](/graph/overview)Graph.
 
-### <a name="microsoft-information-protection-mip-sdk"></a>MIP(Microsoft Information Protection) SDK
+### <a name="microsoft-information-protection-mip-sdk"></a>Microsoft Information Protection(MIP) SDK
 
 MIP SDK는 보안 및 준수 센터의 레이블 Microsoft 365 및 보호 서비스를 타사 응용 프로그램 및 서비스에 노출합니다. 개발자는 SDK를 사용하여 파일에 레이블 및 보호를 적용하는 기본 지원을 구축할 수 있습니다. 개발자는 특정 레이블이 감지될 때 취해야 하는 작업과 MIP 암호화 정보에 대한 이유를 결정할 수 있습니다.
 
@@ -97,5 +97,5 @@ Teams API를 사용하기 위한 라이선스 요구 사항은 Microsoft 365 규
 
 ### <a name="microsoft-graph-connector-apis-preview"></a>Microsoft Graph 커넥터 API(미리 보기)
 
-[Microsoft Graph](/microsoftsearch/connectors-overview)커넥터를 사용하여 조직은 타사 데이터를 인덱싱하여 Microsoft 검색 결과에 표시될 수 있습니다. 이 기능은 생산성 앱 및 더 광범위한 Microsoft 에코시스템에서 Microsoft 365 콘텐츠 원본 유형을 확장합니다. 타사 데이터는 사내 또는 공용 또는 사설 클라우드에서 호스팅할 수 있습니다. 이 Advanced eDiscovery 시작으로 연결된 앱의 기본 제공 준수 값에 대한 개발자 미리 보기를 Microsoft 365 있습니다. 이렇게 하면 앱에 대한 규정 준수가 Microsoft 365 에코시스템에 통합되어 원활한 규정 준수 환경을 사용자에게 부여할 수 있습니다. 앱 보기에 Microsoft Graph 커넥터 API를 통합하는 방법에 대한 자세한 내용은 Microsoft Graph에서 연결 만들기, 업데이트 및 [삭제를 참조하세요.](/graph/search-index-manage-connections)
+[Microsoft Graph](/microsoftsearch/connectors-overview)커넥터를 사용하여 조직은 타사 데이터를 인덱싱하여 모든 결과에 표시될 Microsoft Search 있습니다. 이 기능은 생산성 앱 및 더 광범위한 Microsoft 에코시스템에서 Microsoft 365 콘텐츠 원본 유형을 확장합니다. 타사 데이터는 사내 또는 공용 또는 사설 클라우드에서 호스팅할 수 있습니다. 이 Advanced eDiscovery 시작으로 연결된 앱의 기본 제공 준수 값에 대한 개발자 미리 보기를 Microsoft 365 있습니다. 이렇게 하면 앱에 대한 규정 준수가 Microsoft 365 에코시스템에 통합되어 원활한 규정 준수 환경을 사용자에게 부여할 수 있습니다. 앱 보기에 Microsoft Graph 커넥터 API를 통합하는 방법에 대한 자세한 내용은 Microsoft Graph에서 연결 만들기, 업데이트 및 [삭제를 참조하세요.](/graph/search-index-manage-connections)
 
