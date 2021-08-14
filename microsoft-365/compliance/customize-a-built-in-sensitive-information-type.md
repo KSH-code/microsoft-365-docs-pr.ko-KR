@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 조직의 요구 사항에 맞는 규칙을 사용할 수 있도록 해주는 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: da79c525a268ff686c2edaf777cedf447335ed27
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: e84a1b3617ba8c391469b2d93af2514aec7719c484f3a66f99fa88bbcc7ffdb7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820186"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 

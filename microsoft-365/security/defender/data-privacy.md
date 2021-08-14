@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Defender 데이터 보안 및 개인 정보 보호
+title: Microsoft 365 Defender 보안 및 개인 정보 보호
 description: 서비스의 개인 정보 보호 및 데이터 보안에 대해 설명합니다.
 keywords: 개인 정보 보호, 데이터, 보안, 보안 센터, 정보 수집
 search.product: eADQiWindows 10XVcnh
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 196c3d5ddcec082433d3e459a0b122e2f7052e9d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9740ab52b19a767735b3d484a70b17ca07686b982a23bf65b7a5d952728601da
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060735"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53828634"
 ---
-# <a name="microsoft-365-defender-data-security-and-privacy"></a>Microsoft 365 Defender 데이터 보안 및 개인 정보 보호
+# <a name="microsoft-365-defender-data-security-and-privacy"></a>Microsoft 365 Defender 보안 및 개인 정보 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51060735"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender는 유럽 연합Microsoft Azure 영국 및 미국의 데이터 센터에서 운영됩니다. 서비스에 의해 수집된 고객 데이터는 프로비저닝 중에 식별된 테넌트의 지리적 위치에 저장되거나, (b) Microsoft 365 Defender가 다른 Microsoft 온라인 서비스를 사용하여 해당 데이터를 처리하는 경우 다른 온라인 서비스의 데이터 저장소 규칙에 정의된 지리적 위치에 저장됩니다.
+Microsoft 365 Defender 유럽 연합Microsoft Azure 영국 및 미국의 데이터 센터에서 운영됩니다. 서비스에서 수집한 고객 데이터는 프로비저닝 중에 식별된 테넌트의 지리적 위치에 저장되거나, (b) Microsoft 365 Defender Microsoft 온라인 서비스를 사용하여 해당 데이터를 처리하는 경우 다른 온라인 서비스의 데이터 저장소 규칙에 정의된 지리적 위치에 저장됩니다.
 
 가명 처리 양식의 고객 데이터는 미국의 중앙 저장소 및 처리 시스템에 저장될 수도 있습니다.
 

@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 2007년 지원 종료 Exchange Server 옵션에 대해 알아보고 Microsoft 365, Office 365 또는 2016으로의 마이그레이션 계획을 Exchange 있습니다.
-ms.openlocfilehash: d7e8f50118dab6fcb618273f5c28497c80d4a549
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a6de134db567d3c932d4455409653f1bfd40b3e35960f84691cbcef247b1cfe5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855086"
 ---
 # <a name="exchange-2007-end-of-support-roadmap"></a>Exchange 2007 지원 종료 로드맵
 

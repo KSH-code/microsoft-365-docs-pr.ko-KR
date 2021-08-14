@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있게 하는 새 Office 365 메시지 암호화 기능에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fedbfc753250cd9b2a080aab91342d904876e0ef
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 0d33caff1499bf0792148039cb90d1aa6187247a90f53b7ea22828385d3d4fa3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53655482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819778"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>새 메시지 암호화 기능 설정하기
 

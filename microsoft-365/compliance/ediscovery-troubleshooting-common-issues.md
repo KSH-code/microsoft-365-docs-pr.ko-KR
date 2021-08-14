@@ -19,12 +19,12 @@ ms.assetid: ''
 description: eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 Office 365 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0b118a97df765321704a995905de797e06a60108
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 1ec120edcbccc64046b57507cd6cd6044fb583c5129c336e28890b67f369cd46
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820162"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
@@ -82,7 +82,7 @@ eDiscovery 또는 콘텐츠 검색을 통해 다음 오류가 발생할 수 있�
 
 SharePoint Online 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 실행하는 경우 파일이 사이트에 있는 경우 오류가 발생할 `File Not Found` 수 있습니다. 이 오류는 내보내기 경고에 추가되거나 errors.csv 건너뜁 items.csv. 사이트에서 파일을 찾을 수 없는 경우나 인덱스가 최신이 아니면 이러한 문제가 발생할 수 있습니다. 다음은 실제 오류 텍스트입니다(강조 표시 추가).
 
-> 28.06.2019 10:02:19_FailedToExportItem_Failed 다운로드할 수 있습니다. 추가 진단 정보: Microsoft. Office. Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: Document 형식의 콘텐츠 6ea52149-91cd-4965-b5bb-82ca6a3ec9be에서 다운로드하지 못했습니다. 상관 관계 ID: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: Microsoft에서 -2147024894 --->. SharePoint. Client.ServerException: ***파일을 찾을 수 없습니다.*** Microsoft. SharePoint. Microsoft의 Client.ClientRequest.ProcessResponseStream(Stream responseStream) SharePoint. Client.ClientRequest.ProcessResponse() --- 내부 예외 스택 추적 종료 ---
+> 28.06.2019 10:02:19_FailedToExportItem_Failed 다운로드할 수 있습니다. 추가 진단 정보: Microsoft. Office. Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: Document 형식의 콘텐츠 6ea52149-91cd-4965-b5bb-82ca6a3ec9be에서 다운로드하지 못했습니다. 상관 관계 ID: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 ---> Microsoft. SharePoint. Client.ServerException: ***파일을 찾을 수 없습니다.*** Microsoft. SharePoint. Microsoft의 Client.ClientRequest.ProcessResponseStream(Stream responseStream) SharePoint. Client.ClientRequest.ProcessResponse() --- 내부 예외 스택 추적 종료 ---
 
 ### <a name="resolution"></a>해결 방법
 

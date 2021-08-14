@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 인증서 기반 인증에 Microsoft 365 클라이언트 앱 지원에 대한 세부 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bef1a684ba1ebe2eaba90677cd726cc190e342db
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: cef2cc9084b44e568afd1df7291a21dce8c4ae3dd7a3feb8dcba31f20d5a31b0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855063"
 ---
 # <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Microsoft 365 클라이언트 앱 지원: 인증서 기반 인증
 
