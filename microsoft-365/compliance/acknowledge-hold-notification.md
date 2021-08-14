@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일을 통해 법적 보류 Advanced eDiscovery 보내고 추가하고 의무 상태를 모니터링하는 데 사용할 수 있는 방법을 배워야 합니다.
-ms.openlocfilehash: 393d8884a4d4d39056267666fdce6a2754cb582b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 1826d6376dffc6717909accc7d4c3844cdf6b8a1206cdfad1dc655d7dee5b508
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034888"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837197"
 ---
 # <a name="acknowledge-a-hold-notification"></a>보류 알림 승인
 
@@ -31,7 +31,7 @@ ms.locfileid: "44034888"
 
 보유자에 대한 후속조치의 시간, 비용 및 노력을 줄이기 위해 Advanced eDiscovery 전자 메일을 통해 법적 보유 알림을 보내고 후속 대응할 수 있습니다. 전자 메일 알림 외에도 각 수장은 개별 규정 준수 포털에 액세스할 수 있어 의무 상태 변경에 대한 정보를 보관할 수 있습니다.
 
-## <a name="email-notifications"></a>이메일 알림
+## <a name="email-notifications"></a>전자 메일 알림
 
 법적 보유 알림이 발급된 후 각 보유자는 정의된 법적 보유 고지 및 추가 지침을 포함하는 고유하고 개인 설정된 전자 메일을 받게 됩니다. 
 

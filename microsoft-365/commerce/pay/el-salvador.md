@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b7492e412133152834c24864fac20376255eb2ad
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 64f2294a33e1211a5552e682947171026dd9f0917c8661fe1680cb0445010ea9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535581"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837302"
 ---
 # <a name="payment-information-for-el-salvador"></a>El Salvador의 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52535581"
 **은행:** 뱅크 of America  
 **Branch:** 달라  
 **SWIFT 코드:** BOFAUS3N  
-**계정 번호:** 4426587954  
+**계정 번호: 4426587954**  
 **계정 이름:** Microsoft

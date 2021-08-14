@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 16c953b3a1c27b73423a80b0d78b910f64b6af56
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 2b1527b9bef33d224b67d81f96cc9b43c703b1b2fbe873236f2882d74ffe751e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53623979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53818902"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-azure-virtual-desktop"></a>Azure Virtual Desktop에서 Windows 10 세션 장치 온보드 
 6분 읽기 

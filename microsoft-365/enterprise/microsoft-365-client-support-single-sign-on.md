@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 모든 플랫폼, 클라이언트 및 PowerShell 모듈에서 단일 로그인을 지원하는 플랫폼, 클라이언트 및 PowerShell 모듈에 대해 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 560196694e1c2aaf924e02a882e0c8a3454bf667
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: d0edf3e9954fb481e83d40e4af0befd9c7ca9967a7354be1969d226e08f52cb2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854943"
 ---
 # <a name="microsoft-365-client-app-support-single-sign-on"></a>Microsoft 365 클라이언트 앱 지원: 단일 Sign-On
 

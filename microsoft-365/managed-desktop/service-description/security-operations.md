@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 600755c15ce6da94481ef4d84732991e5006cce1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aaec101b6e7046aaf64fac3a5e0bf52e6ee8dd1159b653feac63135fdb3446d9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53818998"
 ---
 # <a name="security-operations-in-microsoft-managed-desktop"></a>보안 작업의 Microsoft Managed Desktop
 
@@ -36,8 +36,8 @@ SOC는 다음 서비스를 제공합니다.
 - Microsoft 보안 솔루션은 많은 사이버 보안 보호 표준에 부합합니다. SOC 작업은 NIST 800-61 r2(National Institute of Standards and Technology Computer Security Incident Response Handling Guide)를 기반으로 합니다.
 - 이 프로세스를 통해 다음 단계를 통해 환경을 보다 잘 방어할 수 있는 방법에 대한 분석 및 문서화 및 복구 후 통찰력을 위한 정보 및 증거를 제대로 수집할 수 있습니다.
     - 준비, 검색 및 분석
-    - 포함
-    - 지우기
+    - 억제
+    - 근절
     - 복구
     - 인시던트 사후 활동
 - Microsoft Managed Desktop 고객은 Microsoft 위협 전문가 서비스에 등록할 수 있습니다. SOC는 경고 문의, 잠재적으로 손상된 장치, 의심스러운 네트워크 연결의 근본 원인 및 지속적인 고급 영구 위협 캠페인과 관련한 기타 위협 인텔리전스를 포함하여 조직에 영향을 주는 복잡한 위협을 보다 잘 이해하기 위해 이 서비스와 협조합니다. 자세한 내용은 [를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)Microsoft 위협 전문가.

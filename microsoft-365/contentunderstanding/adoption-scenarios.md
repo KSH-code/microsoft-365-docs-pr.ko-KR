@@ -15,12 +15,12 @@ ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
 description: 조직에서 응용 SharePoint Syntex 시나리오를 찾아 봤습니다.
-ms.openlocfilehash: 4714af4c4182c3c57625a82dff0cfdc1d5260785
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 0be3424acd6d3d1b547feedb6854beced4a2453f88530271c1376a8fd07ea09d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53543212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53819694"
 ---
 # <a name="scenarios-and-use-cases-for-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에 대한 시나리오 및 사용 사례
 

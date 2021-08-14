@@ -15,16 +15,16 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 클라이언트 및 서비스 Microsoft 365 지원에 대한 세부 정보를 찾아야 합니다.
-ms.openlocfilehash: e380efffc1bf29cbd4d3a77d32e4d1f8b2994da3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c3ca331329719511c834cc0b5c10af511c5450c9fcb684e22cadbc356f26d6d4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855038"
 ---
 # <a name="microsoft-365-client-and-services-app-support"></a>Microsoft 365 및 서비스 앱 지원
 
-Microsoft는 고객 데이터를 안전하게 유지할 수 있도록 광범위한 보안, 인증 및 규정 준수 기능을 지원하며 IT 관리자가 사용자에 대해 Microsoft 365 관리 센터 내에서 정책을 사용자 지정할 수 있도록 합니다. 다음 기능은 사용자 구독에 따라 구성할 수 있는 많은 엔터프라이즈 기능의 Microsoft 365 있습니다.
+Microsoft는 고객 데이터를 안전하게 유지할 수 있도록 광범위한 보안, 인증 및 규정 준수 기능을 지원하며, IT 관리자가 사용자에 대해 조직 내에서 정책을 Microsoft 365 관리 센터 수 있습니다. 다음 기능은 사용자 구독에 따라 구성할 수 있는 많은 엔터프라이즈 기능의 Microsoft 365 있습니다.
 
 ## <a name="client-and-service-support"></a>클라이언트 및 서비스 지원
 
@@ -63,7 +63,7 @@ CBA(인증서 기반 인증)는 리소스, 네트워크, 응용 프로그램 또
 - 장치 정보
 - 응용 프로그램 정보
 - 실시간 및 계산된 위험 감지
-- Microsoft Cloud App Security (MCAS)
+- Microsoft Cloud App Security(MCAS)
 
 이러한 액세스 결정을 내릴 때 정책은 다른 작업을 수행할 수 있습니다.
 

@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0d01f33ad92ce5047b9cfda71c8aebcae7be32ee
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 44f88ab39ff8869e37bd187519c177a72565a8ba0d6c87bf69078291e3527240
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536901"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837350"
 ---
 # <a name="payment-information-for-curacao"></a>Curacao의 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52536901"
 **은행:** 뱅크 of America  
 **Branch:** 달라  
 **SWIFT 코드:** BOFAUS3N  
-**계정 번호:** 4426587954  
+**계정 번호: 4426587954**  
 **계정 이름:** Microsoft

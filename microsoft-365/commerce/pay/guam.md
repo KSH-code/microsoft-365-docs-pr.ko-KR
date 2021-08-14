@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 177089e9659ee3780207a363d417909bc1e444a6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: f3ee1f1d343bfdf6a3820928da85467b5c8f0d1c59390afba77c2d8ca81d789d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536745"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837182"
 ---
 # <a name="payment-information-for-guam"></a>괌의 결제 정보
 
@@ -31,5 +31,5 @@ USD로만 결제하고 송장 번호를 참조하시기 바랍니다.
 **은행:** 뱅크 of America  
 **Branch** 달라  
 **SWIFT 코드:** BOFAUS3N  
-**계정 번호:** 4426587954  
+**계정 번호: 4426587954**  
 **계정 이름:** Microsoft

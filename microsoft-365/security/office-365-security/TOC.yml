@@ -136,7 +136,7 @@
           href: tenant-wide-setup-for-increased-security.md
         - name: 보안 정책 미리조정
           href: preset-security-policies.md
-        - name: 사전 설정 보안 정책에 대 한 구성 분석기
+        - name: 보호 정책에 대한 구성 분석기
           href: configuration-analyzer-for-security-policies.md
         - name: Office 365용 Defender의 공격 시뮬레이터
           href: attack-simulator.md

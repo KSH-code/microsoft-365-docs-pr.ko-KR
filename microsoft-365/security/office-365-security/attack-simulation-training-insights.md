@@ -10,14 +10,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 관리자는 Microsoft 365 Defender 포털의 공격 시뮬레이션 교육이 직원에게 어떤 영향을 주는지 알아보고 시뮬레이션 및 교육 결과를 통해 통찰력을 얻을 수 있습니다.
+description: 관리자는 Microsoft 365 Defender 포털의 공격 시뮬레이션 교육이 직원에게 미치는 영향을 알아보고 시뮬레이션 및 교육 결과를 통해 정보를 얻을 수 있습니다.
 ms.technology: mdo
-ms.openlocfilehash: e189864a42d025bb5ce720a6edb6c1c2c8c84623
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 7df504bb5f94a5c14792e278c03776ff45df7e8cdf788720c717e83b28baeb96
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53862539"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 교육 활용
 
