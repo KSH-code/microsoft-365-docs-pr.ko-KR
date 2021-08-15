@@ -17,12 +17,12 @@ ms.custom: Adm_O365
 search.appverid: SPO160
 ms.assetid: 81c4be5f-327e-435d-a568-526d68cffef0
 description: 이 문서에서는 온라인에서 최상의 성능을 위해 페이지를 디자인할 때 고려해야 하는 특정 측면에 대해 SharePoint 있습니다.
-ms.openlocfilehash: 6f40243c9d6a1657b6716a071288f5b4fb018164
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 248600582fe7fea550fc401bdbd25c68ba5c97e2c76321aaf835cbdb7e6c5d50
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53849065"
 ---
 # <a name="introduction-to-performance-tuning-for-sharepoint-online"></a>SharePoint Online의 성능 조정 소개
 

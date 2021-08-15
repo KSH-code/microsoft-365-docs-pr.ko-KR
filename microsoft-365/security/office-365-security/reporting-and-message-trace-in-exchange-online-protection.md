@@ -15,12 +15,12 @@ ms.custom:
 description: 이 문서에서는 EOP(Microsoft Exchange Online 보호) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 자세히 알아보게 됩니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cc49a92d5fb1fb0368b14eef7524638542f38deb
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 8131fcd655d423438f80d3f2b4b5cbaf9acc32be056ef2b7a62e6647dd67ee70
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56886177"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>EOP의 보고 및 메시지 추적
 

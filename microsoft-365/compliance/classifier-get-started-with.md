@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 한 Microsoft 365 분류자 는 다양한 유형의 콘텐츠를 볼 수 있는 샘플을 제공하여 인식하는 데 사용할 수 있는 도구입니다. 이 문서에서는 사용자 지정 분류기를 만들고 교육하는 방법과 정확도를 높이기 위해 분류기를 다시 학습하는 방법을 보여집니다.
-ms.openlocfilehash: 3053e5154fb4e1ff39ce7db366ce4679bbb8911d
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 25052b461aee3a9ba823c203ebb2f8bddebd3196312e9697574fcd2efba2af50
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286636"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53872191"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>학습 가능한 분류자 시작
 
@@ -40,7 +40,7 @@ ms.locfileid: "53286636"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyGL7]
 
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 ### <a name="licensing-requirements"></a>라이선스 요구사항
 

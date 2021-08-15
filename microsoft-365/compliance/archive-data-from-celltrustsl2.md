@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: CellTrust SL2 데이터 커넥터를 설정하고 사용하여 모바일 통신 데이터를 가져오고 보관하는 방법을 학습합니다.
-ms.openlocfilehash: c437df7715e41fc0977142b60356ed4decf62027
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 802d5e08354d5fbdc179c01a7c72145a5d0c7ac3f12907b06632cd5db758ee0f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861086"
 ---
 # <a name="archive-data-from-celltrust-sl2-to-microsoft-365"></a>CellTrust SL2의 데이터를 보관하여 Microsoft 365
 

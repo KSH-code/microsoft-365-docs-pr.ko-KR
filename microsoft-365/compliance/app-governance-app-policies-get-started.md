@@ -2,8 +2,8 @@
 title: 앱 정책 시작
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: v-tophillips
+author: v-tophillips
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 정책에 대해 알아보겠습니다.
-ms.openlocfilehash: 96acc17322cf811ba2ce36345df972f36b7706c7
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: fae9afa65c4bef1d7288493e92c8b78c6fb9d08fa4426c1087622856b4cec921
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861311"
 ---
 # <a name="get-started-with-app-policies"></a>앱 정책 시작
 
@@ -27,7 +27,7 @@ ms.locfileid: "53541286"
 
 Microsoft 앱 거버넌스의 앱 정책은 조직에서 앱 규정 준수 관련 특정 요구 사항에 대한 경고 또는 자동 수정을 만들기 위해 사전적 또는 반응적인 환경을 구축합니다.
 
-현재 앱 정책 목록을 보려면 **Microsoft 365 규정 준수 센터 > 앱 보호 및 거버넌스 > 정책** 으로 이동합니다.
+현재 앱 정책 목록을 보려면 **Microsoft 365 규정 준수 센터 > 앱 거버넌스 > 정책** 으로 이동합니다.
 
 ![Microsoft 365 규정 준수 센터의 MAPG 정책 요약 페이지](..\media\manage-app-protection-governance\mapg-cc-policies.png)
 

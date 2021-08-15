@@ -19,12 +19,12 @@ ms.collection:
 description: Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ba619c5341913190bfb84dbc34b938deee8f42ca
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: d1b080968675de25374019ea96e68cb6e9a63aa2fe72533759065cd4fbbc44c0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56885526"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -45,7 +45,7 @@ ms.locfileid: "52879135"
 
 캠페인은 하나 이상의 조직에 대해 조율된 전자 메일 공격입니다. 자격 증명 및 회사 데이터를 도용하는 전자 메일 공격은 대규모의 기업입니다. 기술이 공격을 중지하기 위한 노력이 증가하면 공격자는 계속 성공하기 위해 방법을 수정합니다.
 
-Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별합니다. 여러 요인에 따라 공격 정보를 분석하고 분류합니다. 예:
+Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별합니다. 여러 요인에 따라 공격 정보를 분석하고 분류합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 - **공격 원본**: 원본 IP 주소 및 보낸 사람 전자 메일 도메인입니다.
 - **메시지 속성:** 메시지의 콘텐츠, 스타일 및 톤입니다.
@@ -56,7 +56,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 
 ## <a name="campaign-views-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 캠페인 보기
 
-캠페인 보기는 에서 Microsoft 365 Defender 포털( ) 또는 전자 메일 & 캠페인에서 사용할 수 있습니다. 또는 에서 직접 사용할 수 <https://security.microsoft.com>  \>  <https://security.microsoft.com/campaigns> 있습니다.
+캠페인 보기는 Microsoft 365 Defender 포털( )의 전자 메일 & 공동 작업 캠페인 또는 에서 직접 사용할 수 <https://security.microsoft.com>  \>  <https://security.microsoft.com/campaigns> 있습니다.
 
 ![Microsoft 365 Defender 포털의 캠페인 개요](../../media/campaigns-overview.png)
 
@@ -67,7 +67,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 - **전자 메일 & 공동 작업** \> **탐색기** \> **보기** \> **피싱** \> **캠페인** 탭
 - **전자 메일 & 공동 작업** \> **탐색기** \> **보기** \> **맬웨어** \> **캠페인** 탭
 
-캠페인 보기에 액세스하려면 Microsoft 365 Defender 포털에서 조직 관리,  보안 관리자 또는 보안 읽기 권한자 역할 그룹의 구성원 Microsoft 365 합니다.  자세한 내용은 [Defender 포털의 Microsoft 365 참조하세요.](permissions-microsoft-365-security-center.md)
+캠페인 보기에 액세스하려면 조직 포털에서 조직 **관리,** 보안  관리자 또는 보안 읽기 권한자 역할 Microsoft 365 Defender 합니다.  자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
 ## <a name="campaigns-overview"></a>캠페인 개요
 
@@ -88,7 +88,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 
 - **유형:** 이 값은 **피싱 또는** 맬웨어입니다. 
 
-- **하위 스타일:** 이 값에는 캠페인에 대한 자세한 정보가 포함되어 있습니다. 예:
+- **하위 스타일:** 이 값에는 캠페인에 대한 자세한 정보가 포함되어 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
   - **피싱:** 사용 가능한 경우 이 캠페인에 의해 피싱되는 브랜드입니다. 예를 들면 `Microsoft` , , , 또는 `365` `Unknown` `Outlook` `DocuSign` 입니다.
   - **맬웨어**: 예: `HTML/PHISH` `HTML/<MalwareFamilyName>` 또는 .
 
@@ -104,7 +104,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 
   **클릭률은** 맬웨어 캠페인에서 사용되지 않습니다.
 
-- **방문한** 사용자: 페이로드 웹 사이트를 통해 실제로 만든 사용자 수입니다. 클릭한  값이 있지만 안전한 링크로 웹 사이트에 대한 액세스가 차단된 경우 이 값은 0이 됩니다.
+- **방문한** 사용자: 페이로드 웹 사이트를 통해 실제로 만든 사용자 수입니다. Clicked  값이 있지만 금고 링크로 웹 사이트에 대한 액세스가 차단된 경우 이 값은 0이 됩니다.
 
 캠페인 **시작 탭에는** 세계 지도의 메시지 원본이 표시됩니다.
 
@@ -223,7 +223,7 @@ Endpoint용 Microsoft Defender 구독이 있는 경우 **MDE** 구독을 설정 
   |**릴리스**|`SFV:SKQ`|메시지가 스팸 필터링에서 릴리스되어 스팸 필터링을 건너뜁니다.|
   |**테넌트 허용**<sup>\*</sup>|`SFV:SKA`|스팸 방지 정책의 설정 때문에 메시지가 스팸 필터링을 건너뜁니다. 예를 들어 보낸 사람이 허용된 보낸 사람 목록 또는 허용된 도메인 목록에 있습니다.|
   |**테넌트 차단**<sup>\*\*</sup>|`SFV:SKA`|스팸 방지 정책의 설정 때문에 메시지가 스팸 필터링에 의해 차단되었습니다. 예를 들어 보낸 사람이 허용된 보낸 사람 목록 또는 허용된 도메인 목록에 있습니다.|
-  |**사용자 허용**<sup>\*</sup>|`SFV:SFE`|보낸 사람이 사용자의 수신- 보낸 사람 목록에 있기 때문에 메시지에서 스팸 필터링을 건너뜁니다.|
+  |**사용자 허용**<sup>\*</sup>|`SFV:SFE`|보낸 사람이 사용자의 보낸 사람 목록에 있기 때문에 메시지가 스팸 필터링을 금고 건너뜁니다.|
   |**사용자 차단**<sup>\*\*</sup>|`SFV:BLK`|보낸 사람이 사용자의 수신 차단된 보낸 사람 목록에 있기 때문에 메시지가 스팸 필터링에 의해 차단되었습니다.|
   |**ZAP**|해당 없음|[ZAP(제로](zero-hour-auto-purge.md) 아워 자동 제거)는 배달된 메시지를 정크 메일 폴더 또는 검역소로 이동했습니다. 스팸 방지 정책에서 작업을 구성합니다.|
   |
@@ -255,9 +255,9 @@ Endpoint용 Microsoft Defender 구독이 있는 경우 **MDE** 구독을 설정 
 사용자가 피싱 메시지의 페이로드 URL을 클릭하면 캠페인 세부 정보 보기에 있는 **다이어그램의 URL** 클릭 영역에 작업이 표시됩니다.
 
 - **허용됨**
-- **BlockPage:** 받는 사람이 페이로드 URL을 클릭했지만 조직의 안전한 링크 정책에 [](safe-links.md) 의해 악의적인 웹 사이트에 대한 액세스가 차단됩니다.
-- **BlockPageOverride:** 받는 사람이 메시지의 페이로드 URL을 클릭했으나 안전한 링크에서 해당 URL을 중지하려고 했지만 차단을 다시 만들 수 있습니다. 안전한 링크 [정책을 검사하여](set-up-safe-links-policies.md) 사용자가 안전한 링크 판정을 어버렸다가 악의적인 웹 사이트로 계속 진행할 수 있는 이유를 확인하세요.
-- **PendingDetonationPage:** Microsoft Defender의 안전한 첨부 Office 365 가상 컴퓨터 환경에서 페이로드 URL을 열고 조사하는 중입니다.
+- **BlockPage:** 받는 사람이 페이로드 URL을 클릭했지만 악의적인 웹 사이트에 대한 액세스가 조직의 금고 링크 [정책에 의해](safe-links.md) 차단됩니다.
+- **BlockPageOverride:** 받는 사람이 메시지의 페이로드 URL을 클릭하고금고 링크에서 해당 URL을 중지하려고 했지만 차단을 다시 지정하도록 허용했습니다. 금고 [링크](set-up-safe-links-policies.md) 정책을 검사하여 사용자가 금고 링크 판정을 금고 악성 웹 사이트로 계속할 수 있는 이유를 확인하세요.
+- **PendingDetonationPage**: 금고 Microsoft Defender의 Office 365 첨부 파일이 가상 컴퓨터 환경에서 페이로드 URL을 열고 조사하는 중입니다.
 - **PendingDetonationPageOverride:** 받는 사람이 페이로드 검색 프로세스를 다시 정하고 결과를 기다리지 않고 URL을 열 수 있습니다.
 
 ### <a name="tabs"></a>탭

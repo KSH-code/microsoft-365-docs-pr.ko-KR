@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 description: Office 365 배포를 계획할 때 사용할 외부 Domain Name System 레코드의 참조 목록입니다.
-ms.openlocfilehash: 2cbbbcb6105feccdaed1f7b6ce05a84b374024c0
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: e3f66326d314246b3cde5c88dfc00ea394d8119e92cf9dcd14840f559aa7cd6f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53849195"
 ---
 # <a name="external-domain-name-system-records-for-office-365"></a>Office 365에 대한 외부 Domain Name System 레코드
 
@@ -52,7 +52,7 @@ SPF 및 MX 레코드를 파악하기 어려운 경우도 종종 있습니다. SP
   
 |**DNS 레코드** <br/> |**용도** <br/> |**사용할 값** <br/> |
 |----------|-----------|------------|
-|**CNAME** <br/> **(제품군)** <br/> |Office 365에서 올바른 ID 플랫폼으로 인증을 연결하는 데 사용됩니다. [추가 정보](../admin/services-in-china/purpose-of-cname.md?viewFallbackFrom=o365-worldwide) <br/> **참고:** CNAME은 21Vianet에서 운영되는 Office 365에만 적용됩니다. [추가 정보](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)  |**별칭:** msoid  <br/> **대상:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
+|**CNAME** <br/> **(제품군)** <br/> |Office 365에서 올바른 ID 플랫폼으로 인증을 연결하는 데 사용됩니다. [추가 정보](../admin/services-in-china/purpose-of-cname.md?viewFallbackFrom=o365-worldwide) <br/> **참고:** CNAME은 21Vianet에서 운영되는 Office 365에만 적용됩니다. [자세한 정보](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)  |**별칭:** msoid  <br/> **대상:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
 |**TXT** <br/> **(도메인 확인)** <br/> |Office 365에서 사용자의 도메인을 확인하는 용도로만 사용됩니다. 그 밖의 항목에는 영향을 주지 않습니다.  <br/> |**호스트:** @(또는 일부 DNS 호스팅 공급자의 경우 도메인 이름)  <br/> **TXT 값:** Office 365에서 제공되는 _텍스트 문자열_  <br/> Office 365 **도메인 설정** 마법사는 이 레코드를 만드는 데 사용하는 값을 제공합니다.  <br/> |
 
 
@@ -66,7 +66,7 @@ Office 365의 전자 메일에는 몇 개의 다른 레코드가 필요합니다
 - **MX 레코드** 는 다른 메일 시스템에 도메인의 이메일을 보낼 위치를 알려줍니다. **참고:** 도메인의 MX 레코드를 업데이트하여 전자 메일을 Office 365로 변경하면 해당 도메인으로 전송된 모든 전자 메일이 Office 365로 배달되기 시작합니다.  
 몇 개의 전자 메일 주소만 Office 365로 전환하시나요? [사용자 지정 도메인으로 된 전자 메일 주소로 Office 365 시험 사용](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7)할 수 있습니다.
 
-- **SPF용 TXT 레코드** 는 받는 사람의 전자 메일 시스템에서 전자 메일을 보내는 서버가 승인된 서버인지를 확인하는 데 사용됩니다. 이렇게 하면 전자 메일 스푸핑 및 피싱과 같은 문제를 방지할 수 있습니다. 레코드에 포함할 내용을 이해하는 데 도움이 되는 이 문서의 [SPF에 필요한 외부 DNS 레코드](external-domain-name-system-records.md#BKMK_SPFrecords)를 참조하세요.
+- **SPF의 TXT 레코드** 는 받는 사람 전자 메일 시스템에서 전자 메일을 보내는 서버가 사용자가 승인된 서버인지 확인하는 데 사용됩니다. 이렇게하면 전자 메일 스푸핑 및 피싱 같은 문제를 예방할 수 있습니다. 레코드에 포함할 내용을 이해하려면 이 문서의 [SPF에 필요한 외부 DNS 레코드](external-domain-name-system-records.md#BKMK_SPFrecords)를 참조하세요.
 
 Exchange 페더레이션을 사용하는 전자 메일 고객의 경우 표 아래쪽에 추가 CNAME 및 TXT 레코드도 필요합니다.
   

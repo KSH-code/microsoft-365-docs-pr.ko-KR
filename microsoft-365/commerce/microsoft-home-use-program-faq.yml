@@ -19,16 +19,16 @@ metadata:
   search.appverid: MET150
   description: 요구에 대한 FAQ(질문과 대답)Microsoft HUP(가정 사용 프로그램).
   ms.date: 05/01/2021
-  ms.openlocfilehash: 467e378244ac991c2b0997b297eb1a751bdf9a85
-  ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+  ms.openlocfilehash: c4345ad61c8a97b953493dcaeffd399ce4cab02c8965934f6ac96ef35a514529
+  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/19/2021
-  ms.locfileid: "52535791"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "53831394"
 title: Microsoft HUP(가정 사용 프로그램) 질문과 대답(FAQ)
 summary: "볼륨 라이선스 고객은 Microsoft HUP(가정 사용 프로그램) 웹 사이트에서 [HUP(비즈니스용 Microsoft Store)를 사용 합니다.](https://go.microsoft.com/fwlink/?linkid=2139192)\n\n다른 모든 고객은 다음 단계를 사용하여 HUP에 액세스합니다.\n\n- Microsoft 관리 센터에서 청구 제품 페이지로 이동하여 혜택 탭을 선택한 다음  >  [](https://go.microsoft.com/fwlink/p/?linkid=842054) **HUP 탭을** 선택합니다. \n"
 sections:
-- name: Ignored
+- name: 무시됨
   questions:
   - question: >
       What is the Microsoft HUP(가정 사용 프로그램)?

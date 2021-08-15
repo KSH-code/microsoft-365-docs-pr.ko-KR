@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(스팸 방지)에서 스팸을 방지하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9b960894b6923633489c005ee75307ec02b248f5
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 2145637500376944f1adf038e33c41549479a5f4da89fb456b590da8a5c78bb8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53650202"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56885527"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 

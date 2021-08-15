@@ -17,12 +17,12 @@ ms.collection:
 description: 배달 풀을 사용하여 데이터 센터에서 전자 메일 서버의 신뢰를 보호하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c5881b20eaed8387988d01b69a4acd022c5924a2
-ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
+ms.openlocfilehash: 83932fe2d24b6dd590776924d1660e2dce8b3f5c857ed002a7ce8b34871f4771
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53409143"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56885506"
 ---
 # <a name="outbound-delivery-pools"></a>아웃바운드 배달 풀
 

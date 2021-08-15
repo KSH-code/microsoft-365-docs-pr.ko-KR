@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: abc93b64f4808a8dc1223a8391b70f00e79b71f4
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b4ee64be4be1e28784beb0828fabaa99faea08ee2683261c14ba5b7e5c5e6218
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535317"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53831118"
 ---
 # <a name="payment-information-for-nigeria"></a>나이지리아의 결제 정보
 
@@ -31,5 +31,5 @@ USD로만 결제하고 송장 번호를 참조하시기 바랍니다.
 **은행:** Citibank, London  
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
-**계정 번호:** 12510049  
+**계정 번호: 12510049**  
 **계정 이름:** MICROSOFT

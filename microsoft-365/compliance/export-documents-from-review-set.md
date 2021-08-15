@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 프레젠테이션 또는 외부 검토에 대한 Advanced eDiscovery 콘텐츠 선택 및 내보내기 방법에 대해 자세히 알아보겠습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7aa0685be3beadc9e7c9979aa2ebea25465b67f3e0fc93cbd33b5dffa8338074
-ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
+ms.openlocfilehash: ceb735b4ebce5ef26eb7e7216e1e0f81897c7c0cfbdbb5982b632e6f355e442a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54520614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53905810"
 ---
 # <a name="export-documents-from-a-review-set-in-advanced-ediscovery"></a>문서의 검토 집합에서 Advanced eDiscovery
 
@@ -76,8 +76,6 @@ ms.locfileid: "54520614"
   - 텍스트 파일: 이 옵션에는 내보내기에서 추출된 네이티브 파일의 텍스트 버전이 포함됩니다.
   
   - 편집된 네이티브를 변환된 PDF로 바꾸기: 검토 중에 편집된 PDF 파일이 생성되는 경우 이러한 파일을 내보낼 수 있습니다. 이 옵션을 선택하지 않은 경우, 편집된 기본 파일만 내보내거나 실제 변경이 포함된 PDF 파일을 내보내기 위해 이 옵션을 선택할 수 있습니다.
-
-  - 개별 채팅 메시지 대신 대화 PDF: 이 확인란을 선택하여 PDF 파일로 채팅 대화를 내보낼 수 있습니다. 같은 대화의 모든 채팅 메시지는 동일한 PDF 파일로 내보낼 수 있습니다. 이 확인란을 선택하지 않은 채로 두면 채팅 대화의 각 고유 메시지가 독립 실행형 항목으로 내보내지 않습니다. 파일은 사서함에 저장한 형식과 같은 형식으로 내보낼 수 있습니다. 특정 대화의 경우 여러 .msg 파일을 받게 됩니다.
 
 다음 섹션에서는 느슨한 파일 및 압축된 디렉터리 구조 옵션에 대한 폴더 구조에 대해 설명합니다. 내보낼은 압축되지 않은 콘텐츠의 최대 크기가 75GB인 ZIP 파일로 분할됩니다. 내보내기 크기가 75GB 미만이면 내보내기가 요약 파일과 단일 ZIP 파일로 구성됩니다. 압축되지 않은 데이터의 75GB보다 큰 내보내기에서는 여러 ZIP 파일이 만들어집니다. 다운로드한 후 ZIP 파일을 단일 위치로 압축을 풀어 전체 내보내기 파일을 다시 만드면 됩니다.
 

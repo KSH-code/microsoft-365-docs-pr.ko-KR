@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(스팸 방지 정책)에서 사용할 수 있는 ASF(고급 스팸 필터) 설정에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 77676277678bd6f8dcfade2b6929a9e1e113bf4b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 5f2646863c7b31fae6aa292cca23181996c266b158f168c471675d0f4c6bab69
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56886216"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>EOP의 ASF(고급 스팸 필터) 설정
 
@@ -47,7 +47,7 @@ ms.locfileid: "52878235"
 > - 필터링된 메시지의 존재
 > - 이 문서에 설명된 바와 같이 메시지에 추가되는 특정 `X-CustomSpam:` X-헤더 필드입니다.
 
-다음 섹션에서는 Microsoft 365 Defender 포털 및 Exchange Online PowerShell 또는 독립 실행형 EOP[PowerShell(New-HostedContentFilterPolicy 및 Set-HostedContentFilterPolicy)에서](/powershell/module/exchange/new-hostedcontentfilterpolicy) 스팸 방지 정책에서 사용할 수 있는 ASF 설정 및 옵션에 대해 설명합니다. [](/powershell/module/exchange/set-hostedcontentfilterpolicy) 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+다음 섹션에서는 Microsoft 365 Defender 포털 및 Exchange Online PowerShell 또는 독립 실행형 EOP[PowerShell(New-HostedContentFilterPolicy 및 Set-HostedContentFilterPolicy)에서](/powershell/module/exchange/new-hostedcontentfilterpolicy) 사용할 수 있는 ASF 설정 및 옵션에 대해 설명합니다. [](/powershell/module/exchange/set-hostedcontentfilterpolicy) 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 ## <a name="enable-disable-or-test-asf-settings"></a>ASF 설정 사용, 사용 안 하도록 설정 또는 테스트
 
@@ -58,7 +58,7 @@ ms.locfileid: "52878235"
 - **테스트:** ASF는 메시지에 해당 X-헤더 필드를 추가합니다. 메시지의 실행은 테스트 **모드(** *TestModeAction*) 값에 따라 결정됩니다.
   - **없음:** 메시지 배달은 ASF 검색의 영향을 받지 않습니다. 메시지는 EOP에서 다른 유형의 필터링 및 규칙의 적용을 계속합니다.
   - **기본 X-헤더 텍스트 추가(*AddXHeader*)**: X-헤더 값이 `X-CustomSpam: This message was filtered by the custom spam filter option` 메시지에 추가됩니다. 받은 편지함 규칙 또는 메일 흐름 규칙(전송 규칙)에서 이 값을 사용하여 메시지 배달에 영향을 줄 수 있습니다.
-  - **Bcc 메시지 보내기(*BccMessage*)**: 지정된 전자 메일 주소(PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 Bcc 필드에 추가되어 추가 Bcc 받는 사람에게 메시지가 배달됩니다. Microsoft 365 Defender 포털에서는 전자 메일 주소가 여러 개인 경우 각 전자 메일 주소를 세미 ;). PowerShell에서는 전자 메일 주소가 여러 개인 경우 각 주소를 각 전자 메일 주소로 구분합니다.
+  - **Bcc 메시지 보내기(*BccMessage*)**: 지정된 전자 메일 주소(PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 Bcc 필드에 추가되어 추가 Bcc 받는 사람에게 메시지가 배달됩니다. Microsoft 365 Defender 포털에서 전자 메일 주소가 여러 개인 경우 각 전자 메일 주소를 세미 ;). PowerShell에서는 전자 메일 주소가 여러 개인 경우 각 주소를 각 전자 메일 주소로 구분합니다.
 
   **참고:**
 

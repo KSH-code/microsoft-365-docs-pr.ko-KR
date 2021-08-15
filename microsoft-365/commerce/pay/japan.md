@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4b90e9136b7d73fbfbc7006fc242f84c34ce52db
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 96f356ad4a1c1d128fb520ad8ccdf10de45b14dca019dafea4f4db1aa86d6812
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53831214"
 ---
 # <a name="payment-information-for-japan"></a>일본 결제 정보
 
@@ -33,5 +33,5 @@ JPY로만 결제하고 송장 번호를 송장 번호로 송금합니다.
 **Branch:** 도쿄 분기  
 **분기 코드:** 730  
 **SWIFT 코드:** CITIJPJT  
-**계정 번호:** 160609028  
+**계정 번호: 160609028**  
 **계정 이름:** Microsoft Japan Co., Ltd.

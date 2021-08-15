@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 감사 로그 레코드를 내보내고 구성하고 보는 Microsoft 365 있습니다.
-ms.openlocfilehash: 4cea867b46d3bda7d3b3a8cd38f3d01938da8764
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 14bdd1a8a2576f622c4be63f463e5d42111fc02cd518cf488a8e4df5d39b1241
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906870"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53905789"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>감사 로그 레코드 내보내기, 구성 및 보기
 
