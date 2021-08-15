@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 구성 분석기를 사용하여 Microsoft 준수 관리자를 사용하여 빠르게 시작하고 실행하는 방법을 이해합니다.
-ms.openlocfilehash: 7652a53e0d63e52d92e0d0506207c28f67459029
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 7d7a711514e471a3d239918eaa576746a43dded02da81f8103f5c6213df20839
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287056"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53872065"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
@@ -101,8 +101,8 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
     ```
   | 입력 |  국가 또는 지역 | 
   | :------------- | :------------: |
-  | 1  | 아시아 태평양 |
-  | 2  | 오스트레일리아 |
+  | 1 | 아시아 태평양 |
+  | 2 | 오스트레일리아 |
   | 3  | 캐나다 |
   | 4  | 유럽(프랑스 제외) /중동/아프리카 |
   | 5  | 프랑스 |
@@ -111,9 +111,9 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
   | 8  | 한국 |
   | 9  | 북미(캐나다 제외) |
   | 10  | 남미 |
-  | 11  | 남아프리카 공화국 |
+  | 11 | 남아프리카 공화국 |
   | 12  | 스위스 |
-  | 13  | 아랍에미리트 |
+  | 13 | 아랍에미리트 |
   | 14  | 영국 |
 
 

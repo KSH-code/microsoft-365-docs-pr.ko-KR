@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: 브라우저 및 웹 응용 프로그램을 통해 보고서를 사용자 지정하는 Power BI Desktop.
-ms.openlocfilehash: c48e20d234e6e3de75ab54daaf2c169eef3a42ad
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 0b9b9f7c107b6c59bbbc07c0e956457e354926a23b97fbcd5de63c10b5e185d8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53862037"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>사용 현황 분석에서 Microsoft 365 사용자 지정
 

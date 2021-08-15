@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bb4a996e8878b94fdbc32e2407934e4451e7faac
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 4b948b71c846a1ed4510d19ee3514efd077dd4d237b080adf73f4dcdb557c7b3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296626"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53852950"
 ---
 # <a name="contact-support-for-aruba"></a>아루바 지원에 문의
 

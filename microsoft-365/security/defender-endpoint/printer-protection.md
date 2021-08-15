@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 4a91bece49c4e1e12e8f0a2d9d2d6f6cf0e2681a
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 738a5ae02cba8078b583b138b4e9dfa8733433f07feb69bce96b663a068aaa4e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53538892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53853829"
 ---
 # <a name="device-control-printer-protection"></a>장치 제어 프린터 보호
 

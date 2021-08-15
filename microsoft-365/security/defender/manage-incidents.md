@@ -1,5 +1,5 @@
 ---
-title: Defender에서 인시던트 Microsoft 365 관리
+title: 2016에서 인시던트 Microsoft 365 Defender
 description: 상태, 인시던트, 경고, 연관된 경고, 할당, 업데이트, 상태, 관리, 분류, microsoft, 365, m365를
 keywords: 인시던트, 인시던트, 분석, 대응, 경고, 상관 관계 경고, 할당, 업데이트, 상태, 관리, 분류, Microsoft, 365, m365
 search.product: eADQiWindows 10XVcnh
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 9cb3cc67c3992773897ea8178f261d25dcd87da0
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 87e20b8b44c42c1063155396c1ce1f98d10cd88391336734f28fe24db293a312
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594156"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53838745"
 ---
-# <a name="manage-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 관리
+# <a name="manage-incidents-in-microsoft-365-defender"></a>2016에서 인시던트 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -65,7 +65,7 @@ ms.locfileid: "52594156"
 
 ## <a name="edit-the-incident-name"></a>인시던트 이름 편집
 
-Microsoft 365 Defender는 영향을 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 범주와 같은 경고 특성에 따라 이름을 자동으로 할당합니다. 이렇게 하면 인시던트의 범위를 빠르게 이해할 수 있습니다. 예: 여러 원본에서 보고한 여러 끝점의 다단계 *인시던트*
+Microsoft 365 Defender 영향을 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 범주와 같은 경고 특성에 따라 이름을 자동으로 할당합니다. 이렇게 하면 인시던트의 범위를 빠르게 이해할 수 있습니다. 예: 여러 원본에서 보고한 여러 끝점의 다단계 *인시던트*
 
 문제 관리 창의 인시던트 이름 필드에서 문제 이름을 **편집할 수** 있습니다. 
 

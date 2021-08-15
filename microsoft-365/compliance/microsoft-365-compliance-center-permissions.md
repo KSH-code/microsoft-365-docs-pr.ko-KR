@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: 2013에서 사용 권한을 관리하는 방법을 Microsoft 365 규정 준수 센터.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 676c07aa6379a765f3b6b3a0cc56beceeb1802c1
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 8787deb94cbe8a0f2f5b3a17b220c933df48e7b21fb023f5bbc78f154e7008d5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53871772"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터 사용 권한
 

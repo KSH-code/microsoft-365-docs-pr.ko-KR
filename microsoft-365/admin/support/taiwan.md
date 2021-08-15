@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 76536a2977da404c50ed75980d80683842429f9f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: ea6a80fd11222fdc355f7826f75a5a1f63bc26535f2ca0261a403e6d6b874ab2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297587"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861942"
 ---
 # <a name="contact-support-for-taiwan"></a>대만 고객 지원에 문의
 

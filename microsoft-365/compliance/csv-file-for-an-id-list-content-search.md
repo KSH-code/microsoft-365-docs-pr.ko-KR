@@ -18,12 +18,12 @@ ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 ms.custom:
 - seo-marvel-apr2020
 description: 기존 콘텐츠 검색의 CSV 파일을 사용하여 특정 전자 메일 항목을 반환하는 ID 목록 검색을 만들 수 있습니다.
-ms.openlocfilehash: 37a398d0896fcfd7b7282bda1f6a549ed9f53601
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: db22ac702e71004d73728350acf4242c9a5ac25d59749584dc8a7948ff2d1065
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311541"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53871953"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>ID 목록 콘텐츠 검색을 위한 CSV 파일 준비
 
@@ -33,9 +33,9 @@ ms.locfileid: "52311541"
 
 ID 목록 검색을 만드는 프로세스를 간략하게 간략하게 소개합니다.
 
-1. 규정 준수 센터에서 새 검색을 Microsoft 365 실행합니다.
+1. 검색에서 새 검색을 만들고 Microsoft 365 규정 준수 센터.
 
-2. 콘텐츠 검색 결과 또는 콘텐츠 검색 보고서를 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.
+2. 콘텐츠 검색 결과 또는 콘텐츠 검색 보고서를 내보낼 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.
 
     - [콘텐츠 검색 결과 내보내기](export-search-results.md)
 

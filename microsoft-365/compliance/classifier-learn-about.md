@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 교육 가능한 Microsoft 365 분류자란 테스트 또는 정책 응용 프로그램에 대해 다양한 유형의 콘텐츠를 인식할 수 있는 도구로, 이를 통해 볼 수 있는 양성 및 부정 샘플을 제공합니다.
-ms.openlocfilehash: 2a98d3d889b1f2d51c795a8668c46ef4e0d7d93e
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 25bbec395b1bb229f62122caf23845c18f5305e324a37cd0a6856e81286d1ee5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53594949"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53872102"
 ---
 # <a name="learn-about-trainable-classifiers"></a>학습 가능한 분류자에 대한 자세한 정보
 

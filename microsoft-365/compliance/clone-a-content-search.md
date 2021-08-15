@@ -18,12 +18,12 @@ ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서의 PowerShell 스크립트를 사용하여 규정 준수 센터의 기존 콘텐츠 검색을 Office 365 Microsoft 365.
-ms.openlocfilehash: c64cec2415819dc53f30c303c241e3902f34017d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 526c07ac3ce3ee30137bcb4d51f2c5fee32cc546bdcc5b56795ddea7f0449ac5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918064"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53872026"
 ---
 # <a name="clone-a-content-search"></a>콘텐츠 검색 복제
 
@@ -141,7 +141,7 @@ ms.locfileid: "50918064"
   
 ## <a name="step-2-edit-and-run-the-cloned-search-in-the-compliance-center"></a>2단계: 준수 센터에서 복제된 검색 편집 및 실행
 
-스크립트를 실행하여 기존 콘텐츠 검색을 복제한 후 다음 단계는 준수 센터로 이동하여 새 검색을 편집하고 실행하는 것입니다. 앞서 언급했듯이 키워드 검색 쿼리를 변경하고 검색 조건을 추가하거나 제거하여 검색을 편집할 수 있습니다. 자세한 내용은 다음을 참조하세요.
+스크립트를 실행하여 기존 콘텐츠 검색을 복제한 후 다음 단계는 준수 센터로 이동하여 새 검색을 편집하고 실행하는 것입니다. 앞서 언급했듯이 키워드 검색 쿼리를 변경하고 검색 조건을 추가하거나 제거하여 검색을 편집할 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.
   
 - [Office 365의 콘텐츠 검색](content-search.md)
     
