@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 918c3787d12704c8aa23e7dd367e9f03909275c6
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: b69acd8bb60c6b4c2d254c9cd1ca5aef7de69cf583fa02e56d799076c84d372a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53655650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53869001"
 ---
 # <a name="start-investigation-api"></a>조사 시작 API
 
@@ -46,6 +46,17 @@ ms.locfileid: "53655650"
 ## <a name="limitations"></a>제한 사항
 
 1. 이 API에 대한 속도 제한은 시간당 50개 호출입니다.
+
+## <a name="requirements-for-air"></a>AIR에 대한 요구 사항
+
+조직에 끝점용 Defender가 있어야 합니다(끝점용 [Microsoft Defender에 대한 최소](minimum-requirements.md)요구 사항 참조).
+
+현재 AIR은 다음 OS 버전만 지원됩니다.
+
+- Windows Server 2019
+- Windows 10 버전 1709(OS 빌드 [16299.1085(KB4493441)](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)이상
+- Windows 10 버전 1803(OS 빌드 [17134.704(KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)이상
+- Windows 10 버전 [1803](/windows/release-information/status-windows-10-1809-and-windows-server-2019) 이상
 
 ## <a name="permissions"></a>사용 권한
 

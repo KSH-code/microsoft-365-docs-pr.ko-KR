@@ -1,5 +1,5 @@
 ---
-title: 격리된 파일럿 환경에서 공격 시뮬레이션Microsoft 365 Defender 대응, 수정을 위한 공격 시뮬레이션 실행
+title: 파일럿 환경에서 공격 시뮬레이션 Microsoft 365 Defender 실행
 description: 경고 및 인시던트가 Microsoft 365 Defender 정보를 얻고 위협을 빠르게 수정하는 방법을 파악하기 위해 공격 시뮬레이션을 실행합니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ebea0a8eeed737712c55eb80b9ce3c68e06853c1
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 8abbc10c9e8ca5ae9c75210ce2c698f7b7ddd41bc2336e4636a9b365cdba838c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53853442"
 ---
 # <a name="run-an-attack-simulation-in-a-microsoft-365-defender-pilot-environment"></a>파일럿 환경에서 공격 시뮬레이션 Microsoft 365 Defender 실행
 

@@ -1,5 +1,5 @@
 ---
-title: 프로덕션 Microsoft 365 Defender 환경 홍보, Microsoft 365 Defender 평가, 평가 시도, 평가 유지, 프로덕션 평가
+title: 프로덕션 Microsoft 365 Defender 환경으로 승격
 description: 이 문서를 사용하여 MDI, MDO, MDE 및 MCAS를 MDI 또는 M365D의 라이브 환경으로 Microsoft 365 Defender 홍보할 수 있습니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 3204a5453e3b441e2899a347df6d9e5a6cca2808
-ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
+ms.openlocfilehash: 475260ee10bd1d85c895bcbd69df78b338367931e63a115466a75e9e836b189d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53588128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53853322"
 ---
 # <a name="promote-your-microsoft-365-defender-evaluation-environment-to-production"></a>프로덕션 Microsoft 365 Defender 환경으로 승격
 

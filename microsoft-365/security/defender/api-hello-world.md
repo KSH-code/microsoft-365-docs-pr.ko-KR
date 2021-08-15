@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender REST API용 Hello World
-description: 앱을 만들고 토큰을 사용하여 앱 Defender API에 액세스하는 Microsoft 365 방법
+title: REST API용 Hello World Microsoft 365 Defender API
+description: 앱을 만들고 토큰을 사용하여 앱 API에 액세스하는 Microsoft 365 Defender 방법
 keywords: 앱, 토큰, 액세스, aad, 앱, 응용 프로그램 등록, powershell, 스크립트, 전역 관리자, 사용 권한, Microsoft 365 defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ffdcf91da6b5def7d63e5fdb8ff51ddbdb1ec550
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 50316659caf811410b9422151e47feb17fbead8055bec08a3e4e342d61f2d83b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072756"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53888858"
 ---
-# <a name="hello-world-for-microsoft-365-defender-rest-api"></a>Microsoft 365 Defender REST API용 Hello World
+# <a name="hello-world-for-microsoft-365-defender-rest-api"></a>REST API용 Hello World Microsoft 365 Defender API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -52,10 +52,10 @@ ms.locfileid: "51072756"
 
 3. 등록 양식에서 응용 프로그램의 이름을 선택한 다음 등록을 **선택합니다.** 리디렉션 URI는 선택 사항입니다. 이 예제를 완료하는 데는 이 예제가 필요하지 않습니다.
 
-4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 API를 선택하고 > 를 Microsoft Threat Protection  >    >   를 **Microsoft Threat Protection.**  이제 앱이 Defender에 액세스할 Microsoft 365 있습니다.
+4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 api를 >  >    >   Microsoft **Threat Protection을** 입력하고 **Microsoft Threat Protection을 선택합니다.** 이제 앱에서 앱에 액세스할 Microsoft 365 Defender.
 
    > [!TIP]
-   > *Microsoft Threat Protection* 은 Microsoft 365 Defender의 이전 이름으로, 원래 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
+   > *Microsoft Threat Protection은* 이전 이름인 Microsoft 365 Defender 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
    ![API 권한 선택 이미지](../../media/apis-in-my-org-tab.PNG)
 
    - 응용 **프로그램 권한**  >  **Incident.Read.All을 선택하고** 사용 권한 **추가를 선택합니다.**
@@ -173,9 +173,9 @@ Out-File -FilePath $outputJsonPath -InputObject $incidents
 ## <a name="related-articles"></a>관련 문서
 
 - [Microsoft 365 Defender API 개요](api-overview.md)
-- [Microsoft 365 Defender API에 액세스](api-access.md)
-- [사용자 없이 Microsoft 365 액세스하는 앱 만들기](api-create-app-web.md)
+- [MICROSOFT 365 DEFENDER API에 액세스](api-access.md)
+- [사용자가 없는 앱에 액세스하는 Microsoft 365 Defender 만들기](api-create-app-web.md)
 - [사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 앱 만들기](api-create-app-user-context.md)
-- [다중 테넌트 파트너 액세스 권한이 있는 앱 만들기Microsoft 365 Defender API](api-partner-access.md)
+- [다중 테넌트 파트너가 액세스하여 테넌트 API에 Microsoft 365 Defender 만들기](api-partner-access.md)
 - [Azure Key Vault를 사용하여 서버 앱의 비밀 관리](/learn/modules/manage-secrets-with-azure-key-vault/)
 - [사용자 로그인 및 API 액세스에 대한 OAuth 2.0 권한 부여](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

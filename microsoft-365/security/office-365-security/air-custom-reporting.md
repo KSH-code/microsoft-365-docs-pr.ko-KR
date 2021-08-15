@@ -21,12 +21,12 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6ed752f9514f1d2c8cadeb7cbbd1d7b9311b1b5f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: b8eaca54b976b99d2aff165cfaab7d688b6391a5d5a8141510cde8c02bea667e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275015"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53853274"
 ---
 # <a name="custom-or-third-party-reporting-solutions-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -49,4 +49,4 @@ Microsoft [Defender for Office 365](defender-for-office-365.md)자동화된 조�
 ## <a name="see-also"></a>참고 항목
 
 - [Office 365용 Microsoft Defender](defender-for-office-365.md)
-- [Defender의 자동화된 조사 Microsoft 365 대응](/microsoft-365/security/defender/m365d-autoir)
+- [자동화된 조사 및 Microsoft 365 Defender](/microsoft-365/security/defender/m365d-autoir)

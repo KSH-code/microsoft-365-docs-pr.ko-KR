@@ -1,5 +1,5 @@
 ---
-title: Endpoint용 Microsoft Defender 파일럿, 파일럿 설정, 평가 시 기능 테스트
+title: Endpoint용 파일럿 Microsoft Defender
 description: 파일럿 그룹 확인 및 기능 시도를 포함하여 MDE(Microsoft Defender for Endpoint)에 대한 파일럿을 실행하는 방법을 배워야 합니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: d1efc37bd6412e441593dc9cf81296162f7fa754
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 6d7ccaa890c8678bf1d02e578f33019208e6d2a9050f286435f913e67831d35d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458005"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53828649"
 ---
 # <a name="pilot-microsoft-defender-for-endpoint"></a>Endpoint용 파일럿 Microsoft Defender
 

@@ -1,5 +1,5 @@
 ---
-title: 파일럿 환경에서 Microsoft 365 Defender 조사 및 대응하고 공격 시뮬레이터를 사용하여 사용자에게 공격 표면을 감지하고 조사하고 보안 환경을 강화하도록 교육합니다.
+title: 파일럿 환경에서 파일럿 Microsoft 365 Defender 사용하여 조사 및 대응
 description: Microsoft 365 Defender 테스트 랩 또는 파일럿 환경에서 공격 시뮬레이션을 설정하여 사용자에게 장치, ID, 데이터 및 응용 프로그램을 보호하도록 설계된 보안 솔루션을 시도합니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 590b9445b08e3a786b32e7086f27b140934d22d0
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 45ae39cde67b556f5bd5a0cd4e8a37f6e3b34e90d49fe663812db4f7727b30cc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458815"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53853347"
 ---
 # <a name="investigate-and-respond-using-microsoft-365-defender-in-a-pilot-environment"></a>파일럿 환경에서 파일럿 Microsoft 365 Defender 사용하여 조사 및 대응
 
@@ -44,7 +44,7 @@ ms.locfileid: "53458815"
 | |단계  |설명  |
 |---------|---------|---------|
 |1|[공격 시뮬레이션](eval-defender-investigate-respond-simulate-attack.md)     |   평가 환경에 대한 공격을 시뮬레이트하고 Microsoft 365 Defender 포털을 사용하여 인시던트 대응을 수행할 수 있습니다.      |
-|2 |[인시던트 대응 기능 시도 ](eval-defender-investigate-respond-additional.md)    |    Microsoft 365 Defender.     |
+|2|[인시던트 대응 기능 시도 ](eval-defender-investigate-respond-additional.md)    |    Microsoft 365 Defender.     |
 ||||
 
 ### <a name="navigation-you-may-need"></a>필요한 탐색

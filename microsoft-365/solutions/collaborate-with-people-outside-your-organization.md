@@ -19,12 +19,12 @@ localization_priority: Normal
 f1.keywords: NOCSH
 recommendations: false
 description: 조직 외부 사용자와 공동 작업을 Microsoft 365 위해 Teams, OneDrive SharePoint 앱과 같은 SharePoint 앱을 구성하는 방법을 학습합니다.
-ms.openlocfilehash: 291a5e6d75ac1b1a12a2403a9aeece9cb658afd0
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 1620af867057ee771936bfc15048ce6b15968e3230c5fb324acc7bc5141af20d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537826"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53853106"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>조직 외부 사용자와 공동 작업
 

@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 95c82f815c794662f7eb0ffaabcfb5f81df3e828
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 0ecc3f7a91b79651b0a970553576a3c8d93320b25c258dd3f793552a4acf31a8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782996"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53888778"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>관리 센터에서 작업 보기 및 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "52782996"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Defender의 위협 방지 Microsoft 365 특정 수정 작업이 수행될 수 있습니다. 다음은 몇 가지 예입니다.
+위협 방지 기능의 Microsoft 365 Defender 수정 작업이 수행될 수 있습니다. 다음은 몇 가지 예입니다.
 
 - [자동화된 조사를](m365d-autoir.md) 수행하면 수정 작업이 자동으로 수행되거나 승인을 기다립니다.
 - 바이러스 백신, 맬웨어 방지 및 기타 위협 방지 기능은 파일, URL 또는 프로세스를 차단하거나 아티팩트를 검역에 보내는 등의 수정 작업을 수행할 수 있습니다.

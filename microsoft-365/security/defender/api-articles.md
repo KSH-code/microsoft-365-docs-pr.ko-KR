@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 93697ac4009d19a09a57600a1736e839fb04fb80
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c9cafdb24ea52b5a68373ce5f4ce67175ec89af12958ecb99cde494b1a551d89
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53888946"
 ---
 # <a name="other-security-and-threat-protection-apis"></a>기타 보안 및 위협 방지 API
 
@@ -38,7 +38,7 @@ ms.locfileid: "51935752"
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-다음 리소스는 다른 Microsoft 보안 솔루션에 사용할 수 있는 API에 대한 자세한 정보를 제공하고, 추가 Microsoft 365 제공합니다.
+다음 리소스에서는 다른 Microsoft 365 Defender Microsoft 보안 솔루션에 사용할 수 있는 API에 대한 자세한 정보를 제공합니다.
 
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
 - [Office 365용 Microsoft Defender](/office/office-365-management-api/)

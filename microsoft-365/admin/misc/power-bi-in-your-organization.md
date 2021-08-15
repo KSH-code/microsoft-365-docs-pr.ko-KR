@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: 조직의 Power BI 이 비즈니스 분석 서비스를 사용하는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 6da25932e1813744aa38bab2b399d6ac30c3429a
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: d9e7aa90803dc87aece4246a369f9b4ae83bb7e867fae5790cb82ba615b8385b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823861"
 ---
 # <a name="power-bi-in-your-organization"></a>조직의 Power BI
 
@@ -40,7 +40,7 @@ Microsoft Power BI를 통해 사용자는 새로운 방식으로 데이터를 �
   
 ## <a name="how-do-users-sign-up-for-power-bi"></a>사용자가 Power BI에 등록하는 방법
 
-관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.com/en-us/)를 통해 Power BI에 등록할 수 있습니다. 또한 관리 센터의 구매 서비스 페이지를 통해 등록할 Microsoft 365 있습니다. 관리자가 Power BI에 등록할 때는 액세스 권한이 필요한 사용자에게 사용자 구독 라이선스를 할당할 수 있습니다.
+관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.com/en-us/)를 통해 Power BI에 등록할 수 있습니다. 또한 이 페이지의 구매 서비스 페이지를 통해 등록할 Microsoft 365 관리 센터. 관리자가 Power BI에 등록할 때는 액세스 권한이 필요한 사용자에게 사용자 구독 라이선스를 할당할 수 있습니다.
   
 또한 조직의 개별 사용자는 [Power BI 웹 사이트](https://powerbi.microsoft.com/en-us/)를 통해 Power BI에 등록할 수도 있습니다. 조직의 사용자가 Power BI에 등록하면 이 사용자는 Power BI 라이선스를 자동으로 할당받습니다.
   
@@ -170,19 +170,19 @@ To allow your existing users to sign up for Power BI, run the opposite command a
   
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
@@ -190,7 +190,7 @@ To allow your existing users to sign up for Power BI, run the opposite command a
 
 3. 라이선스 **및 앱 탭에서** **Microsoft** Power BI 선택을 취소합니다.
 
-4. **변경 내용 저장** 을 선택합니다.
+4. **변경 사항 저장** 을 선택합니다.
 
 ## <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>새 사용자가 내 테넌트에 참여했을 때 이를 알 수 있는 방법은 무엇인가요?
 

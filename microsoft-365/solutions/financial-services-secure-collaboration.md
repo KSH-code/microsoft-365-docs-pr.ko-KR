@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: 재무 서비스 기관에서 Microsoft 365와 Teams를 사용하여 재무 보안 규정 준수를 유지하고 효과적으로 공동 작업하는 방법을 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: 64f0968dac4dd33b7333455a48d491f89b555524
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 45302f3b27e6aca7701fbddcd4e1db8fbd067e41cbaf6b62778408caba4bc49d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229386"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53853147"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -88,7 +88,7 @@ Microsoft 365는 Microsoft 365 그룹을 기본 멤버십 서비스로 사용하
 * 필요하지 않거나 사용되지 않는 팀의 확산.
 * 조직에서 더 이상 필요하지 않거나 사용하지 않는 데이터의 과잉 보존(법적 보유/보존의 경우 제외).
 
-관리자는 Microsoft 365 그룹의 만료 기간을 90일, 180일 또는 365일과 같이 지정할 수 있습니다. Microsoft 365 그룹에서 지원하는 서비스가 기간 만료로 비활성 상태인 경우 그룹 소유자에게 알림이 전송됩니다. 아무런 조치도 취하지 않으면 Microsoft 365 그룹과 Teams를 포함한 모든 관련 서비스가 삭제됩니다.
+관리자는 90, 180 또는 365일과 같은 Microsoft 365 그룹의 만료 기간을 지정할 수 있습니다. Microsoft 365 그룹에서 지원하는 서비스가 만료 기간 동안 비활성화된 경우 그룹 소유자에게 알림이 전송됩니다. 조치를 취하지 않으면 Microsoft 365 그룹 및 Teams를 포함한 모든 관련 서비스가 삭제됩니다.
   
 Teams 및 기타 그룹 기반 서비스에 저장된 데이터의 과잉 보존은 금융 서비스 조직에 위험을 초래할 수 있습니다. Microsoft 365 그룹 만료 정책은 더 이상 필요하지 않은 데이터 보존을 방지할 수 있는 권장 방법입니다. Microsoft 365는 기본 제공 보존 레이블 및 정책을 함께 사용하여 조직이 기업 정책 및 규정 준수 의무를 충족하는 데 필요한 데이터만 보존하도록 지원합니다.
 

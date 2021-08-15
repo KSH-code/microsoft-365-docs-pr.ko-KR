@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 관리 센터에서 작업 또는 문서 검색
+title: 검색 창에서 작업 또는 설명서를 Microsoft 365 관리 센터
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,18 +17,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 더 빠르고 나은 결과를 위해 관리 센터에서 검색 기능을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 87e7fb78e9d7ce535f481151515791c20c115836
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 64a578f8b7ebf71fbfc162936e8efa09440834d362fcc2b359a18bb9d8c1469a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53824772"
 ---
 # <a name="search-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 검색
 
 조직 Microsoft 365 검색을 사용하여 사용자를 찾고, 작업을 수행하고, 다른 설정으로 이동하고, 설명서를 읽을 수 있습니다. 새로운 검색 기능을 사용하면 검색 속도가 향상되어 이제 관리 센터의 모든 페이지에서 검색할 수 있습니다. 검색 상자가 관리 센터 맨 위에 있는 배너 영역으로 이동했습니다. **Alt+S** 바로 가기를 사용하여 모든 페이지에서 검색을 사용할 수 있습니다.
 
-:::image type="content" source="../../media/search-bar.png" alt-text="Screenshot: Search bar in the Microsoft 365 admin center":::
+:::image type="content" source="../../media/search-bar.png" alt-text="Screenshot: Search bar in the Microsoft 365 관리 센터":::
 
 검색 결과는 서로 다른 범주로 구성됩니다. 대부분의 범주는 관리 센터의 항목입니다. 사용자, 그룹, 공유 사서함 또는 도메인을 예로 들 수 있습니다. 다른 범주는 사용자가 탐색할 수 있는 위치, 수행할 수 있는 작업 또는 변경할 수 있는 앱 수준 설정을 보여 합니다. 또한 문서와 관련된 범주도 있습니다.
 

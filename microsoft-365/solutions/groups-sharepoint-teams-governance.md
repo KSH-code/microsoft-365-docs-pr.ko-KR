@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 그룹, 그룹 및 Microsoft 365 그룹 Teams 상호 작용에 대해 SharePoint
-ms.openlocfilehash: 14a21cd34fe38b47d93d0cbcec5e9cb2a3bc49c7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7fa543764be9483a6d600d60a1e61cc2f54067e0f06a02ff330e7c2656c9889a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539086"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53853027"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-teams-and-sharepoint"></a>Microsoft 365 그룹, Teams 및 SharePoint 간의 설정 상호 작용
 

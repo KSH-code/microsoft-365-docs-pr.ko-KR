@@ -1,6 +1,6 @@
 ---
 title: 일반적인 Microsoft 365 Defender REST API 오류 코드
-description: Defender REST API Microsoft 365 일반적인 코드에 대해 자세히 알아보시고
+description: REST API Microsoft 365 Defender 일반적인 코드에 대해 자세히 알아보시고
 keywords: api, 오류, 코드, 일반적인 오류, Microsoft 365 Defender, api 오류 코드
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: de24856e8ea7555a96de18cabca5ccadfe71b431
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: b972bc1710a5edbb3d351f2a33f966c80266fe4d9f13cfbfa6f6bf320764a93c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53888874"
 ---
 # <a name="common-microsoft-365-defender-rest-api-error-codes"></a>일반적인 Microsoft 365 Defender REST API 오류 코드
 
@@ -38,7 +38,7 @@ ms.locfileid: "52930274"
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-오류 코드는 Defender API의 모든 Microsoft 365 반환될 수 있습니다. 모든 오류 응답에는 문제 해결에 도움이 될 수 있는 오류 메시지가 포함되어 있습니다. 표 섹션의 오류 메시지 열에는 몇 가지 예제 메시지가 표시됩니다. 실제 메시지의 내용은 응답을 트리거한 요인에 따라 달라집니다. 가변 콘텐츠는 표에 괄호로 표시됩니다.
+오류 코드는 모든 API에 대한 작업으로 Microsoft 365 Defender 있습니다. 모든 오류 응답에는 문제 해결에 도움이 될 수 있는 오류 메시지가 포함되어 있습니다. 표 섹션의 오류 메시지 열에는 몇 가지 예제 메시지가 표시됩니다. 실제 메시지의 내용은 응답을 트리거한 요인에 따라 달라집니다. 가변 콘텐츠는 표에 괄호로 표시됩니다.
 
 ## <a name="error-codes"></a>오류 코드
 
@@ -101,5 +101,5 @@ InternalServerError | 내부 서버 오류(500) | *참고: 오류 메시지가 �
 
 - [Microsoft 365 Defender API 개요](api-overview.md)
 - [지원되는 Microsoft 365 Defender API](api-supported.md)
-- [Microsoft 365 Defender API에 액세스](api-access.md)
+- [MICROSOFT 365 DEFENDER API에 액세스](api-access.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)

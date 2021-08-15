@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: ee075f34087d28fc9326d408622d05f363bba768
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: c4093ca351873f3f16742f6c0d131ac39d70c5f6360a3a52bb1dbed1985158d8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53853293"
 ---
 # <a name="the-action-center"></a>알림 센터
 
@@ -49,7 +49,7 @@ ms.locfileid: "53022598"
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Microsoft 365 Defender":::
 
-예제: 
+예를 들어 다음과 같은 가치를 제공해야 합니다. 
 
 - 이전에 Office 365 보안 & 준수 센터()를 사용 중이면 Microsoft 365 Defender [https://protection.office.com](https://protection.office.com) 포털()에서 통합 Microsoft 365 Defender [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 시도합니다.
 - Microsoft Defender 보안 센터()에서 작업 센터를 사용하는 경우 Microsoft 365 Defender [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) 포털()에서 통합 Microsoft 365 Defender [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 시도합니다.
@@ -59,7 +59,7 @@ ms.locfileid: "53022598"
 
 적절한 사용 권한 및 다음 구독 중 하나 이상이 있는 경우 통합 관리 센터를 사용할 수 있습니다.
 
-- [Endpoint용 Defender](../defender-endpoint/microsoft-defender-endpoint.md)
+- [엔드포인트용 Defender](../defender-endpoint/microsoft-defender-endpoint.md)
 - [Office 365용 Defender](/microsoft-365/security/office-365-security/defender-for-office-365)
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 

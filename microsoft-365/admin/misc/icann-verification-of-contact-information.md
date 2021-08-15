@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 0413dcce-26be-4b8c-b3fa-73ac1ac4fb35
 ROBOTS: NOINDEX
 description: ICANN 규정을 준수하기 위해 연락처 정보의 유효성을 검사하는 방법을 배워야 합니다.
-ms.openlocfilehash: cddde025fb020347c52de49841e35e2e1aed90ca
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a691496fb5149d4db990d15d34f4b6da2e409a044a1f3794520b593ff0cf385f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645050"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823945"
 ---
 # <a name="icann-verification-of-contact-information"></a>ICANN 연락처 정보 확인
 
