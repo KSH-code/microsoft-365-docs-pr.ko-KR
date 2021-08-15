@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: SharePoint Syntex에서 모델에 민감도 레이블을 적용하는 방법을 알아봅니다.
-ms.openlocfilehash: 2e6fc51db228ac4beb7171047478b0132c1194f5
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 82aba67c76e971bc8c87943ab798e6f8173e4ef207af2c913c58fcf10a29b272
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53543176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53859418"
 ---
 # <a name="apply-a-sensitivity-label-to-a-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 모델에 민감도 레이블 적용
 

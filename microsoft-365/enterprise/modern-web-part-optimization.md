@@ -21,12 +21,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: 페이지 진단을 사용하여 온라인 최신 사이트 페이지에서 웹 파트의 SharePoint 방법을 알아보십시오.
-ms.openlocfilehash: fab5b0bc9d0b04ede0815856af7366e277dbf909
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: bfa508840045d9222798254e02e1363ea5b480829605f82e3cbd211846dc9d3d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53878723"
 ---
 # <a name="optimize-web-part-performance-in-sharepoint-online-modern-site-pages"></a>SharePoint Online 최신 사이트 페이지에서 웹 파트 성능 최적화
 

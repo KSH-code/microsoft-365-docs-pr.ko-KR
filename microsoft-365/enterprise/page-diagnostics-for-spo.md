@@ -19,12 +19,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: SharePoint 페이지 진단 도구를 사용하여 SharePoint 온라인 최신 포털 및 클래식 게시 페이지를 미리 정의된 성능 기준 집합과 분석합니다.
-ms.openlocfilehash: b55e5c04f56bac4e6313284de60753d1beaaaed1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 742c55fcdcb527b3544650918d2e404045318619abba7df79f736dead31d07ca
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921633"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53878414"
 ---
 # <a name="use-the-page-diagnostics-for-sharepoint-tool"></a>사용자용 페이지 진단 SharePoint 사용
 
@@ -98,7 +98,7 @@ SharePoint용 페이지 진단 도구는 새 Microsoft Edge에 대한 브라우�
 
 1. 진단 [**테스트 탭에는**](#how-to-use-the-diagnostic-tests-tab) 분석 결과가 세 가지 범주로 표시됩니다. **작업이 필요하지 않습니다.** **개선 기회 및** **주의가 필요하지 않습니다.** 각 테스트 결과는 다음 표에 설명된 바와 같이 이러한 범주 중 하나의 항목으로 표시됩니다.
 
-    |Category  |색  |설명  |
+    |범주  |색  |설명  |
     |---------|---------|---------|
     |**주의 필요** |빨간색 |테스트 결과는 기준 값 외부에 있으며 페이지 성능에 영향을 미치고 있습니다. 수정 지침을 따르하세요.|
     |**개선 기회** |노란색 |테스트 결과는 기준 값 외부에 있으며 성능 문제에 기여할 수 있습니다. 테스트 관련 조건이 적용될 수 있습니다.|

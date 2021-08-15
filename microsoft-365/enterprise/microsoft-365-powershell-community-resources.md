@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ebe0f5ff-fd17-487f-bbb6-271b5ea270bb
 description: 이 문서에서는 동료에 연결하고 사용자용 PowerShell에 대한 도움말을 받을 수 있는 커뮤니티 리소스를 Microsoft 365.
-ms.openlocfilehash: 36130d3e0f32f73836698cfb276e2aca5d20de83
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 5d8db669febadf41cb3d334058eeb189f3d102533d62d1a469e76c92d8b6941b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754695"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53878762"
 ---
 # <a name="microsoft-365-community-resources-for-powershell"></a>PowerShell 용 Microsoft 365 커뮤니티 리소스
 
