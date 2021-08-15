@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: 전자 메일 전달을 사용하면 조직 내부 또는 외부의 다른 사서함으로 Microsoft 365 전자 메일 메시지를 전달할 수 있습니다.
-ms.openlocfilehash: 07bd6bb1bbfd1ecdfa6ca0d545d78a39e66c7558
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: f6219b957c3444ea68d6e8036c2ad2ea6529571b90cb301bfead983a9c9176b7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53826174"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>전자 메일 전달 구성 Microsoft 365
 

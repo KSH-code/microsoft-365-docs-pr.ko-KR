@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Microsoft용 도메인 기반 DNS에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 Windows DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 86deaac256c0d657ad9604be91349b113e9c0ded
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 3a1b11eb9663a68f7787b026c7c7402db8ef4a854e4b9ecdb3356bb1074e2610
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53826210"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>WINDOWS DNS를 사용하여 Microsoft용 DNS 레코드 만들기
 
@@ -54,7 +54,7 @@ DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제를 해결하�
     - 호스트 이름: 
     - @Address: 방금 Microsoft에서 복사한 지점 주소 값을 붙여 넣습니다.  
     - Pref: 
-- 변경 **내용 저장을 선택합니다.**
+- **변경 사항 저장** 을 선택합니다.
 - 사용되지 않는 MX 레코드를 제거합니다. 전자 메일을 다른 곳에서 라우팅하는 이 도메인의 이전 MX 레코드가 있는 경우 각 이전 레코드 옆의 확인란을 선택한 다음 삭제 확인 **을**  >  **선택합니다.** 
    
 ## <a name="add-cname-records"></a>CNAME 레코드 추가

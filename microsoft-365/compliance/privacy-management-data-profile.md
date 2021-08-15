@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 개인 정보 관리의 개요 및 데이터 프로필과 조직의 조직 환경의 개인 데이터에 대한 정보를 얻는 Microsoft 365 알아보세요.
-ms.openlocfilehash: d8ea8d3306840244aff7621a12702d0ca19062c0
-ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
+ms.openlocfilehash: 1be4d65d117d3fa8b05bb9db88745147aea6b5293c3c1f96d57eb5b7ba04c0d1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53378560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53865206"
 ---
 # <a name="find-and-visualize-personal-data-in-privacy-management-preview"></a>개인 정보 관리에서 개인 데이터 찾기 및 시각화(미리 보기)
 

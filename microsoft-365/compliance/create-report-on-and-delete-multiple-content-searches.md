@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: 검색을 만들고 PowerShell 스크립트를 통해 보고서 실행과 같은 콘텐츠 검색 작업을 자동화하는 방법을 & 준수 센터에서 Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6155a0bf411cc83fd58291efe7797e7f68370708
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: ba42baa399e92e65228d18028043c53d8e90fc78f2c6ae614c39d68efc3482d4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994965"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53886521"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 

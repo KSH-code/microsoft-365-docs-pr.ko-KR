@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사례를 만들고 관리하는 방법을 Advanced eDiscovery 있습니다. 첫 번째 단계에서는 사례를 만들고 Advanced eDiscovery 기능을 사용하게 합니다.
-ms.openlocfilehash: 95e88bb071476de1ed66b3ffaa8942f0a9df89c2
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 31b19f48ba6deabe3d4150544ce16c3669d18efe1607652d8224a2ebb1f81bb2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53886466"
 ---
 # <a name="create-and-manage-an-advanced-ediscovery-case"></a>사례 만들기 및 Advanced eDiscovery 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "52311643"
 
 ## <a name="create-a-case"></a>사례 만들기
 
-다음 단계를 완료하여 사례를 만들고 구성원을 추가합니다. 사례를 만드는 사용자는 자동으로 구성원으로 추가됩니다. 사례의 구성원은 규정 준수 센터에서 사례에 액세스하고 Microsoft 365 작업을 수행할 Advanced eDiscovery 있습니다.
+다음 단계를 완료하여 사례를 만들고 구성원을 추가합니다. 사례를 만드는 사용자는 자동으로 구성원으로 추가됩니다. 사례의 구성원은 사례에 액세스하여 Microsoft 365 규정 준수 센터 수행할 Advanced eDiscovery 있습니다.
 
 1. 으로 이동한 후 eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 <https://compliance.microsoft.com> 사용하여 로그인합니다. 조직 관리 역할 그룹의 구성원은 조직 관리 Advanced eDiscovery 있습니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "52311643"
 
    - 정보 보호의 [](managing-custodian-communications.md) 통신 워크플로를 사용하여 Advanced eDiscovery 보류 알림을 보낼 수 있습니다.
 
-2. **[데이터 원본에서 관련 콘텐츠를 수집합니다.](create-draft-collection.md)** 사례에 보호자 및 비보조 데이터 원본을 추가한 후 기본 제공 컬렉션 도구를 사용하여 이러한 데이터 원본에서 사례와 관련이 있을 수 있는 콘텐츠를 검색합니다. 키워드, 속성 및 조건을 사용하여 [](building-search-queries.md) 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환하는 검색 쿼리를 작성합니다. 또한 다음을 수행할 수 있습니다.
+2. **[데이터 원본에서 관련 콘텐츠를 수집합니다.](create-draft-collection.md)** 사례에 보호자 및 비보조 데이터 원본을 추가한 후 기본 제공 컬렉션 도구를 사용하여 이러한 데이터 원본에서 사례와 관련이 있을 수 있는 콘텐츠를 검색합니다. 키워드, 속성 및 조건을 사용하여 [](building-search-queries.md) 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환하는 검색 쿼리를 작성합니다. 다음을 수행할 수도 있습니다.
 
    - 결과 [범위를 좁히기](collection-statistics-reports.md) 위해 컬렉션을 구체화하는 데 도움이 될 수 있는 컬렉션 통계를 볼 수 있습니다.
 

@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보안 및 준수 센터에서 활동 & 추가 및 관리하여 사용자가 Microsoft 365 수행할 때 전자 메일 알림을 보낼 수 있도록 합니다.
-ms.openlocfilehash: 5ca3b7d49490b3bd43eb82e2f230e804ad769386
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 1411e69229dc2baa60578bfa60a7c2c18184fd10a759081e68c13d87a482d7cb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53542060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53886555"
 ---
 # <a name="create-activity-alerts"></a>활동 알림 만들기
 

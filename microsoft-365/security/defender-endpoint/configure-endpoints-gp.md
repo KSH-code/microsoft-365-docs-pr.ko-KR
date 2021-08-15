@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 0d53e0fa2912c5cb318cb1e7eb9d23149e1c67a4
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 406a7cf3e234bc8d9d4fdb314c39d4ee8cbc9aaad7ff4aea96308595c2b1736a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53651510"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53857790"
 ---
 # <a name="onboard-the-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드 
 
@@ -71,9 +71,11 @@ ms.locfileid: "53651510"
 
 7. 사용자가 **로그온되어** 있는지 여부에 따라  실행을 선택하고 가장 높은 권한으로 실행 확인란을 선택합니다.
 
-8. 작업 **탭으로 이동하여** 새로 **고치기...를 클릭합니다.** 작업 **필드에서 프로그램** **시작이 선택되어 있도록** 합니다. 공유  *WindowsDefenderATPOnboardingScript.cmd* 파일의 NetBIOS 경로를 입력합니다.
+8. 이름 필드에 예약된 작업에 대한 적절한 이름(예: Endpoint Deployment용 Defender)을 입력합니다.
 
-9. 확인을 **클릭하고** 열려 있는 GPMC 창을 닫습니다.
+9. 작업 **탭으로 이동하여** 새로 **추가...를 선택합니다.** 작업 **필드에서 프로그램** **시작이 선택되어 있도록** 합니다. 공유 *WindowsDefenderATPOnboardingScript.cmd* 파일의 파일 서버 FQDN(FQDN)을 사용하여 UNC 경로를 입력합니다.
+
+10. 확인을 **선택하고** 열려 있는 GPMC 창을 닫습니다.
 
 > [!TIP]
 > 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 Endpoint 디바이스용 Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
@@ -214,9 +216,11 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 
 7. 사용자가 **로그온되어** 있는지 여부에 따라 실행을 선택하고 가장 높은 권한으로 실행 **확인란을** 선택합니다.
 
-8. 작업 **탭으로** 이동하여 새로 **고치기... 를 클릭합니다.** 작업 **필드에서 프로그램** **시작이 선택되어 있도록** 합니다. 공유 *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd 파일의* NetBIOS 경로를 입력합니다.
+8. 이름 필드에 예약된 작업에 대한 적절한 이름(예: Endpoint Deployment용 Defender)을 입력합니다.
 
-9. 확인을 **클릭하고** 열려 있는 GPMC 창을 닫습니다.
+9. 작업 **탭으로** 이동하여 새로 **고치기... 를 선택합니다.** 작업 **필드에서 프로그램** **시작이 선택되어 있도록** 합니다. 파일 서버의 FQDN(FQDN)을 사용하여 공유 *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd* 파일의 UNC 경로를 입력합니다.
+
+10. 확인을 **선택하고** 열려 있는 GPMC 창을 닫습니다.
 
 > [!IMPORTANT]
 > 오프보더링을 통해 디바이스가 포털에 센서 데이터 전송을 중지하지만, 디바이스에서 전송한 모든 경고에 대한 참조를 포함하여 장치의 데이터는 최대 6개월 동안 보존됩니다.

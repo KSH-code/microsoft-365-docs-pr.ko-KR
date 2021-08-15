@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: Teams에서 게스트와 작업, 대화 및 문서 공동 작업을 위한 팀을 설정하는 데 필요한 Microsoft 365 구성 단계에 대해 자세히 알아보세요.
-ms.openlocfilehash: 9c05c91738f2cbb992d65aa147673e0f1a1ba8f4
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: b8221b457c27bc390aaa05059f8966f2d0e497cbc7e425fe8c6fec5679437781
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53897138"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 

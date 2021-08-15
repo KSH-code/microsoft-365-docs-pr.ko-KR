@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 다른 MDM 및 MAM 방법 중 선택
-ms.openlocfilehash: 462fe28b1240681380d6a1d26ae362575c0d7c86
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 933aacd950f67eaab9b538fd6b029a4b6f71d807a27bd33c9139650f57f1d7b7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53826234"
 ---
 # <a name="options-for-protecting-your-devices-and-app-data"></a>장치 및 앱 데이터 보호 옵션
 
@@ -48,7 +48,7 @@ ms.locfileid: "51579365"
 
 - **Azure Active Directory(AD)** Premium 계획은 일부 비즈니스 및 엔터프라이즈 계획과 함께 Microsoft 365 독립 실행형 계획입니다. 자세한 내용은 [Azure AD 가격을 참조하세요.](https://azure.microsoft.com/pricing/details/active-directory/)
 
-     Azure AD Premium P1 및 Azure AD Premium P2를 사용하면 조건부 액세스 기능, 셀프 서비스 암호 재설정 등을 설정할 수 있습니다. Premium 기능에 대한 자세한 내용은 Azure AD 가격 페이지를 [참조하세요.](https://azure.microsoft.com/pricing/details/active-directory/)
+     Azure AD Premium P1 및 Azure AD Premium P2 설정하면 조건부 액세스 기능, 셀프 서비스 암호 재설정 등을 설정할 수 있습니다. Premium 기능에 대한 자세한 내용은 Azure AD 가격 페이지를 [참조하세요.](https://azure.microsoft.com/pricing/details/active-directory/)
 - **Microsoft 365 Business Premium** Intune 및 Azure Active Directory Premium P1 및 Office 365 Advanced Threat Protection이 포함되어 있습니다. 
  
     Microsoft 365 Business Premium 및 앱 데이터를 보호하는 정책 템플릿 집합을 제공합니다. 300명 미만의 대부분의 기업에 대해 좋은 수준의 보안 및 위협 보호를 제공합니다. 자세한 내용은 설치 [마법사,](../../business/set-up.md)Microsoft 365 Business Premium 보안 Windows 10 [](../../business/secure-win-10-pcs.md)및 보안 및 규정 준수 Microsoft 365 Business Premium [설정을 참조하세요.](../../business/security-features.md)

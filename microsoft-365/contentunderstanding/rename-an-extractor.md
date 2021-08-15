@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 추출기를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a34420872b6dfdf684a1a640dd8b98261e86ae22
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: a379e7f86b4d82a98e6700188a24e40f8fcc4128a67d9ca9451a1c0946b55458
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53595921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53865177"
 ---
 # <a name="rename-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기 이름 변경
 

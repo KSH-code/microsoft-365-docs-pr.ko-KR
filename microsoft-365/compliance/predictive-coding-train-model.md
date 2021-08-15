@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: 84ec1ad42f2cec2487debe7160a3f24e09bdd830
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: d628922d5c6933acc386abf14cf6436a3e595419741a4f816fc374b0570b4a73
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53865223"
 ---
 # <a name="train-a-predictive-coding-model-preview"></a>예측 코딩 모델 교육(미리 보기)
 
@@ -71,7 +71,7 @@ Advanced eDiscovery 예측 코딩 모델을 만든 후 다음 단계는 첫 번�
 
   ****
 
-  |Label|Model predicts item is relevant|Model predicts item is not relevant|
+  |레이블|Model predicts item is relevant|Model predicts item is not relevant|
   |---|---|---|
   |**관련성 있는 검토자 레이블 항목**|참 긍정|가양성|
   |**관련이 없는 검토자 레이블 항목**|거짓 부정|True 음수|
