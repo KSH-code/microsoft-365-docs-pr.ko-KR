@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: '요약: 데이터 센터의 데이터 Microsoft Office 365.'
-ms.openlocfilehash: 89f3fbcc90cee0ad822156014ee4ac9e04fe3371
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+ms.openlocfilehash: 290debbcbb58c7ded884a2443a7c4f31a4b2f92c396500ff1d63f3fcc7221942
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058551"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855698"
 ---
 # <a name="service-encryption"></a>서비스 암호화
 
@@ -33,7 +33,7 @@ Microsoft는 서비스 암호화를 위한 루트 키를 포함하여 모든 암
 
 서비스 암호화는 여러 가지 이점을 제공합니다.
 
-- 사용자에 대한 추가 보호 계층을 BitLocker.
+- BitLocker 위에 추가된 보호 계층을 제공합니다.
 
 - 운영 체제 관리자가 Windows 저장하거나 처리한 응용 프로그램 데이터에 액세스할 수 없습니다.
 

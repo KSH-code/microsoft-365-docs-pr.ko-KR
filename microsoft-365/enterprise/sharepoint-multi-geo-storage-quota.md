@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: 다중 위치 SharePoint 저장소 할당량과 온라인 관리자가 할당량 관리 방법을 SharePoint 대해 자세히 알아보십시오.
-ms.openlocfilehash: 0843407e7926027e28cdd1f5893c4aafec4e1cd5
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: d7c45831c5168313e52c373a3d420a3ef480bef9bb8f01c2c69c34273bae8b41
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53230094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904299"
 ---
 # <a name="sharepoint-storage-quotas-in-multi-geo-environments"></a>다중 지역 환경에서 SharePoint 저장소 할당량
 

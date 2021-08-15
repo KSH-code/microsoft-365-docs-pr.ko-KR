@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 'Microsoft 365 Enterprise 서비스 및 응용 프로그램(예: SharePoint, Exchange 및 응용 프로그램을 비즈니스용 Skype.'
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 86033532dfd08e45a10bb5b2d7caf2db139f7e6a
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: a36330f86d30bcfde30762eb8fb5d38fe84d71744c4f0e90bf28c079a50a358a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830314"
 ---
 # <a name="configure-microsoft-365-enterprise-services-and-applications"></a>서비스 Microsoft 365 Enterprise 응용 프로그램 구성
 
@@ -39,5 +39,5 @@ ms.locfileid: "52924954"
 |**사이트** <br> (SharePoint Online) | -SharePoint [Server 2013에 대한](/SharePoint/hybrid/hybrid) 하이브리드 기능 구성<br> - [사이트 서식 파일을 만들고 사용](https://support.office.com/article/Create-and-use-site-templates-60371B0F-00E0-4C49-A844-34759EBDD989)하여 SharePoint Online의 모양과 느낌을 사용자 지정 <br> - [SharePoint Online 계획 가이드](https://support.office.com/article/SharePoint-Online-Planning-Guide-for-Office-365-for-business-d5089cdf-3fd2-4230-acbd-20ecda2f9bb8) 또는 [ SharePoint Online 배포 관리자](https://aka.ms/spoguidance)를 사용하여 추가 기능 계획 및 구성 <br> - 비디오 포털 [관리](https://support.office.com/article/Manage-your-Office-365-Video-portal-c059465b-eba9-44e1-b8c7-8ff7793ff5da) |
 |**IM 및 온라인 모임** <br> (비즈니스용 Skype Online) | - [Lync Server 2013 또는 2015의](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-2013-hybrid) 하이브리드 비즈니스용 Skype [구성](/skypeforbusiness/hybrid/plan-hybrid-connectivity?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)<br> - [비즈니스용 Skype Online 설정](https://support.office.com/article/Set-up-Skype-for-Business-Online-40296968-e779-4259-980b-c2de1c044c6e) 및 통화 라우팅, 전화 회의 및 공유와 같은 공통 기능 구성  <br> - [비즈니스용 Skype 배포 관리자](/MicrosoftTeams/faq-journey)를 사용하여 사용자 지정된 설정 지침 확인 |
 | **파일 저장소 및 공유** <br> (비즈니스용 OneDrive 및 SharePoint Online) | - [파일 Microsoft 365](https://support.office.com/article/7aa9cdc8-2245-4218-81ee-86fa7c35f1de#BKMK_WhatDif)저장 및 공유 설정: 파일을 저장하는 데 비즈니스용 OneDrive 및 ShharePoint Online 팀 사이트를 사용해야 하는 경우를 배워야 합니다. <br> - [파일 저장 및](https://support.office.com/article/7aa9cdc8-2245-4218-81ee-86fa7c35f1de#BKMK_MoveDocsVideo)공유 설정: 사이트 및 비즈니스용 OneDrive 팀 사이트에서 파일을 업로드하는 SharePoint 참조 <br> - [파일 저장 및](https://support.office.com/article/7aa9cdc8-2245-4218-81ee-86fa7c35f1de#BKMK_Store)공유 설정: 파일 및 팀 사이트에 파일을 비즈니스용 OneDrive 단계를 모두 수행합니다. 파일 공유에 대한 팁 학습 <br> - [비즈니스용 OneDrive 설정 가이드 ](https://aka.ms/OD4Bguidance)를 사용하여 사용자 지정된 지침 확인 |
-|**Microsoft 365 응용 프로그램** | - Microsoft 365 관리자가 Office 배포 [](/deployoffice) 또는 업그레이드를 계획하는 데 도움을 엔터프라이즈용 Microsoft 365 앱 합니다.  <br> - [Power BI 관리 Microsoft 365 대한 자세한](https://support.office.com/article/Power-BI-for-Office-365-Admin-Center-Help-5e391ecb-500c-47a3-bd0f-a6173b541044) <br> - [Office Delve 관리자를 Microsoft 365 수 있습니다.](https://support.office.com/article/Office-Delve-for-Office-365-admins-54f87a42-15a4-44b4-9df0-d36287d9531b) <br> - [Sway에 대한 질문과 대답(FAQ)](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075) <br> - [Project Online 시작](https://support.office.com/article/Get-started-with-Project-Online-e3e5f64f-ada5-4f9d-a578-130b2d4e5f11)  <br> - [Microsoft Intune 배포 관리자](/mem/intune/) |
+|**Microsoft 365 응용 프로그램** | - Microsoft 365 관리자가 Office 배포 [](/deployoffice) 또는 업그레이드를 계획하는 데 도움을 엔터프라이즈용 Microsoft 365 앱 합니다.  <br> - [Power BI 대한 Microsoft 365 관리 센터](https://support.office.com/article/Power-BI-for-Office-365-Admin-Center-Help-5e391ecb-500c-47a3-bd0f-a6173b541044) <br> - [Office Delve 관리자를 Microsoft 365 수 있습니다.](https://support.office.com/article/Office-Delve-for-Office-365-admins-54f87a42-15a4-44b4-9df0-d36287d9531b) <br> - [Sway에 대한 질문과 대답(FAQ)](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075) <br> - [Project Online 시작](https://support.office.com/article/Get-started-with-Project-Online-e3e5f64f-ada5-4f9d-a578-130b2d4e5f11)  <br> - [Microsoft Intune 배포 관리자](/mem/intune/) |
 |**기업용 소셜** <br> (Yammer) | - [이 Yammer 사용하여 Microsoft 365](https://support.office.com/article/Plan-for-Yammer-integration-with-Office-365-4086681f-6de1-4d39-aa72-752b2af1cbd7)  <br> - [Yammer Enterprise 설정 가이드](https://aka.ms/yammerdeploy)를 사용하여 사용자 지정된 설정 확인 |

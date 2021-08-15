@@ -1,6 +1,6 @@
 ---
-title: 사용자 환경 준비를 Microsoft Viva Topics
-description: 사용자들이 사용할 수 있는 콘텐츠를 최대한 많이 제공할 수 있도록 환경을 Microsoft Viva Topics.
+title: 사용자 환경의 작업 준비 Microsoft Viva 항목
+description: 사용자에게 가능한 많은 콘텐츠를 제공할 수 있도록 환경 준비를 Microsoft Viva 있습니다.
 ms.author: samanro
 author: samanro
 manager: pamgreen
@@ -10,14 +10,14 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 8e1da50c120d333812014f6720f1168d4afb9741
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 84a07211126e2007b0f5740c18ef871d24497d8746d369acabf0aa9adf0203b9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53864155"
 ---
-# <a name="get-your-environment-ready-for-microsoft-viva-topics"></a>사용자 환경 준비를 Microsoft Viva Topics
+# <a name="get-your-environment-ready-for-microsoft-viva-topics"></a>사용자 환경의 작업 준비 Microsoft Viva 항목
 
 Viva 항목을 최대한 많이 포함하기 위해 사용자가 다양한 주제 집합을 사용할 수 있도록 항목 검색에 가능한 한 많은 콘텐츠를 포함해야 합니다. 그러나 항목 검색에 어떤 콘텐츠를 사용해야 하나요? 제어를 유지하면서 인덱싱되는 콘텐츠를 최대화하는 방법 범위에 콘텐츠가 수록 인공 지능이 검색할 수 있는 인사이트가 더 낫습니다. 이 문서에서는 적절한 콘텐츠를 포함하며 사용자에게 좋은 환경을 만들기 위한 적절한 사용자 및 리소스가 있도록 하는 계획 단계를 단계에 대해 다단계를 수행합니다.
 
@@ -107,7 +107,7 @@ Viva 항목을 계획하려면 다음을 해야 합니다.
 관리자는 관리 센터에서 인덱싱을 Microsoft 365 관리 있습니다. Viva 항목을 설정할 때 [다음을](set-up-topic-experiences.md)할 수 있습니다.
 
 - 모든 SharePoint 사이트에서 검색을 허용하거나 토픽 원본으로 포함 또는 제외할 사이트를 지정합니다.
-- 중요한 용어가 있는 경우 이름으로 토픽을 제외할 수 있습니다. 예를 들어 중요한 프로젝트 이름이 있는 경우 사용자의 사용 권한에 불구하고 강조 표시나 카드를 표시하지 않는 경우 해당 프로젝트 이름을 제외할 수 있습니다.
+- 중요한 용어가 있는 경우 이름으로 항목을 제외할 수도 있습니다. 예를 들어 사용자의 사용 권한에 관계없이 강조 표시 또는 카드를 표시하지 않으려는 중요한 프로젝트의 이름이 있는 경우 해당 프로젝트 이름을 제외할 수 있습니다.
 
 콘텐츠 수준에서 검색 가능한 내용을 제어할 수 있습니다. 검색에서 콘텐츠를 제외하기 위해 수행한 모든 구성도 콘텐츠 검색에 사용됩니다. 따라서 예를 들어 특정 문서 라이브러리가 검색 결과에 나타나지 못하도록 제외한 경우 이 문서 라이브러리는 항목 검색에 사용되지 않습니다.
 
@@ -121,7 +121,7 @@ Viva 항목을 계획하려면 다음을 해야 합니다.
 
 조직에 따라 이러한 역할에 대해 작업하는 사람이 많거나 적을 수 있습니다. 일부 조직에서는 동일한 사람이 될 수 있습니다.
 
-| 지식 관리자 | 지식 매니저 | 주제 기여자 |
+| 지식 관리자 | 지식 관리자 | 주제 기여자 |
 |:-------|:-------|:-------|:-------|
 | AAD 역할 | AAD 역할 | SME |
 | 관리 센터에 액세스할 수 있습니다. | 관리 센터에 액세스할 수 있습니다. | 관리 센터에 액세스할 수 없음 |

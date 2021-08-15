@@ -15,12 +15,12 @@ ms.collection: Strat_O365_Enterprise
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 사용자 계정에서 관리 및 구성할 수 있는 암호화 기술에 대해 Microsoft 365.
-ms.openlocfilehash: 6a693c512100c59eef47414fdd6eab4a2924e835
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 04774e6b3c4d514d13e1bf30a70f9eb53c7c97f8308e5cd18d72b3fcf0181c4e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926236"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855830"
 ---
 # <a name="customer-managed-encryption-features"></a>고객 관리 암호화 기능
 
@@ -52,7 +52,7 @@ Azure 권한 관리는 전선 탭, 중간에서 만인 공격, 데이터 도용,
 
 S/MIME(Secure/Multipurpose Internet Mail Extensions)은 공개 키 암호화 및 MIME 데이터의 디지털 서명을 위한 표준입니다. S/MIME는 RFC 3369, 3370, 3850, 3851 등에서 정의됩니다. 이를 통해 사용자는 전자 메일을 암호화하고 전자 메일에 디지털 서명할 수 있습니다. S/MIME을 사용하여 암호화된 전자 메일은 전자 메일의 받는 사람만 개인 키를 사용하여 암호를 해독할 수 있습니다. 이 암호는 해당 받는 사람만 사용할 수 있습니다. 따라서 전자 메일을 받는 사람이 아니라 다른 사람이 암호를 해독할 수 없습니다.
 
-[Microsoft는 S/MIME을 지원합니다.](https://blogs.technet.com/b/exchange/archive/2014/12/15/how-to-configure-s-mime-in-office-365.aspx) 공용 인증서는 고객의 사내 Active Directory에 배포되고 해당 테넌트에 복제할 수 있는 특성에 Microsoft 365 저장됩니다. 공개 키에 해당하는 개인 키는 사내에 남아 있으며 해당 키로 전송되지 Office 365. 사용자는 조직에 있는 두 사용자 간의 전자 메일을 작성, 암호화, 암호 해독, 읽기 및 디지털 서명할 수 있습니다Outlook Outlook 웹용 클라이언트 및 Exchange ActiveSync 있습니다. 자세한 내용은 현재 에서 [S/MIME 암호화를 Office 365.](https://blogs.office.com/2014/02/26/smime-encryption-now-in-office-365/)
+[Microsoft는 S/MIME을 지원합니다.](https://blogs.technet.com/b/exchange/archive/2014/12/15/how-to-configure-s-mime-in-office-365.aspx) 공용 인증서는 고객의 사내 Active Directory에 배포되고 해당 테넌트에 복제할 수 있는 특성에 Microsoft 365 저장됩니다. 공개 키에 해당하는 개인 키는 사내에 남아 있으며 해당 키로 전송되지 Office 365. 사용자는 조직 내 두 사용자 간에 전자 메일을 작성, 암호화, 암호 해독, 읽기 및 디지털 서명할 수 Outlook, 웹용 Outlook 및 Exchange ActiveSync 있습니다. 자세한 내용은 현재 에서 [S/MIME 암호화를 Office 365.](https://blogs.office.com/2014/02/26/smime-encryption-now-in-office-365/)
 
 ## <a name="office-365-message-encryption"></a>Office 365 메시지 암호화
 

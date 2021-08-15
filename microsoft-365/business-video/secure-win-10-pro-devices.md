@@ -21,18 +21,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 정책을 사용하여 Windows 10 Pro 장치 정책을 관리하는 Microsoft 365 Business Premium.
-ms.openlocfilehash: 0f7cfff227e1ab4ea992414b513e341adbd9ef22
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: fa639da2b12f97e833d892d2b83939d42481c766f8c57c6f52adf7eb5fae0011
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578690"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53873114"
 ---
 # <a name="manage-windows-10-pro-device-policies"></a>장치 Windows 10 Pro 관리
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSL?autoplay=false]
 
-디바이스를 사용하여 Microsoft 365 Business 장치에서 Windows Defender 바이러스 백신 활성화되고 Microsoft 업데이트가 사용자의 장치에 Windows 10 다운로드되도록 할 수 있습니다.
+Microsoft 365 Business를 사용하여 Windows Defender 바이러스 백신 장치에서 Windows 10 Microsoft 업데이트가 사용자의 장치에 자동으로 다운로드되도록 할 수 있습니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 

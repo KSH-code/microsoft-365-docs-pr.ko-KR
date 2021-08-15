@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 레코드 관리 솔루션을 구현하는 데 도움이 되는 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 86fbd84e03263ca5d99e1bfe6ab572589dc98bbd
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 41967ee8372335bc60a12bd200154c70a1d7ce883ec895d8f9cc3b6af6346672
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855737"
 ---
 # <a name="use-record-versioning-to-update-records-stored-in-sharepoint-or-onedrive"></a>레코드 버전을 사용하여 SharePoint 또는 OneDrive에 저장된 레코드를 업데이트합니다.
 

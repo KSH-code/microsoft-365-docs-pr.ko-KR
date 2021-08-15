@@ -15,14 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: Azure에서 사용할 수 있는 암호화에 대해 자세히 Azure Disk Encryption
+description: Azure 디스크 암호화와 같은 Azure에서 사용할 수 있는 암호화에 대해 자세히 알아보기
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee4eb2bec814d7e06d418518bb9be272f1bd5aaa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 72a6560d6d3fdb12489b5b2cc988c469277c81c425ca4117b728039ca0de1ff2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926256"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855914"
 ---
 # <a name="encryption-in-azure"></a>Azure의 암호화
 
@@ -36,9 +36,9 @@ Azure는 한 위치에서 다른 위치로 이동할 때 데이터를 보호하�
 
 Azure의 암호화에 대한 자세한 내용은 Azure 암호화 개요 및 [Azure](/azure/security/security-azure-encryption-overview) 데이터 암호화 미사용 을 [참조하세요.](/azure/security/azure-security-encryption-atrest)
 
-## <a name="azure-disk-encryption"></a>Azure Disk Encryption
+## <a name="azure-disk-encryption"></a>Azure 디스크 암호화
 
-Azure Disk Encryption 사용하여 IaaS(Linux Infrastructure as a Service) Windows 및 Linux 인프라를 암호화할 수 있습니다. Azure Disk Encryption Linux의 BitLocker 기능 및 Windows Linux의 DM-Crypt 기능을 활용하여 운영 체제 및 데이터 디스크에 볼륨 수준 암호화를 제공합니다. 또한 VM 디스크의 모든 데이터가 Azure 저장소에 보관된 경우 암호화됩니다. Azure Disk Encryption Azure Key Vault와 통합되어 암호화 키와 암호의 사용을 제어, 관리 및 감사할 수 있습니다.
+Azure 디스크 암호화를 사용하면 IaaS(Windows Linux Infrastructure as a Service) VM 디스크를 암호화할 수 있습니다. Azure 디스크 암호화는 Windows 및 Linux의 DM-Crypt 기능을 활용하여 운영 체제 및 데이터 디스크에 볼륨 수준 암호화를 제공합니다. 또한 VM 디스크의 모든 데이터가 Azure 저장소에 보관된 경우 암호화됩니다. Azure 디스크 암호화는 Azure Key Vault와 통합되어 암호화 키와 암호의 사용을 제어, 관리 및 감사하는 데 도움이 됩니다.
 
 자세한 내용은 Azure의 가상 [머신에 대한 Windows 권장 사항을 참조하세요.](/azure/virtual-machines/windows/security-recommendations)
 
@@ -46,7 +46,7 @@ Azure Disk Encryption 사용하여 IaaS(Linux Infrastructure as a Service) Windo
 
 Azure Storage [암호화를](/azure/storage/storage-service-encryption)사용하는 경우 Azure Storage 저장하기 전에 데이터를 자동으로 암호화하고 검색하기 전에 데이터를 암호 해독합니다. 암호화, 암호 해독 및 키 관리 프로세스는 사용자에게 완전히 투명합니다. Azure Storage 서비스 암호화는 [Azure Blob](https://azure.microsoft.com/services/storage/blobs/) 및 Azure 파일에 Storage [수 있습니다.](https://azure.microsoft.com/services/storage/files/) 서비스 암호화와 함께 Microsoft에서 관리하는 암호화 Azure Storage 사용할 수도 있습니다. 또는 자체 암호화 키를 사용할 수도 있습니다. (자체 키를 사용하는 데 대한 자세한 내용은 Azure Storage 자격 증명 모음의 고객 관리 키를 사용하여 서비스 암호화를 [참조하세요.](/azure/storage/common/storage-service-encryption-customer-managed-keys) Microsoft 관리 키를 사용하는 데 대한 자세한 내용은 Storage 서비스 암호화 [for Data ()를 참조하세요.](/azure/storage/storage-service-encryption) 또한 암호화 사용을 자동화할 수 있습니다. 예를 들어 Azure Storage Resource [Provider REST API, Storage](/rest/api/storagerp/)Resource Provider Client Library for [.NET,](/dotnet/api/overview/azure/storage)Azure PowerShell 또는 [Azure CLI](/azure/storage/storage-azure-cli)를 사용하여 저장소 계정에서 Storage 서비스 암호화를 [프로그래밍식으로](/powershell/azureps-cmdlets-docs)사용하도록 설정하거나 사용하지 않도록 설정할 수 있습니다.
 
-일부 Microsoft 365 서비스는 Azure를 사용하여 데이터를 저장합니다. 예를 들어 SharePoint 및 비즈니스용 OneDrive Azure Blob 저장소에 데이터를 저장하고, Microsoft Teams 서비스에 대한 데이터를 테이블, blob 및 큐에 저장합니다. 또한 Microsoft 365 준수 센터의 준수 관리자 기능은 암호화된 형태로 저장되는 고객 입력 데이터를 Azure Cosmos DB , PaaS(Platform as a [Service),](/azure/cosmos-db/database-encryption-at-rest)전역 분산 다중 모델 데이터베이스로 저장합니다. Azure Storage 서비스 암호화는 Azure Blob 저장소 및 테이블에 저장된 데이터를 암호화하고Azure Disk Encryption 큐의 데이터를 암호화하고 Windows 및 IaaS 가상 컴퓨터 디스크를 암호화하여 운영 체제 및 데이터 디스크에 볼륨 암호화를 제공합니다. 이 솔루션은 가상 컴퓨터 디스크의 모든 데이터가 Azure 저장소에 보관된 동안 암호화되도록 합니다. [Azure Cosmos DB의](/azure/cosmos-db/database-encryption-at-rest) 미사용 암호화는 보안 키 저장소 시스템, 암호화된 네트워크 및 암호화 API를 비롯한 여러 보안 기술을 사용하여 구현됩니다.
+일부 Microsoft 365 서비스는 Azure를 사용하여 데이터를 저장합니다. 예를 들어 SharePoint 및 비즈니스용 OneDrive Azure Blob 저장소에 데이터를 저장하고, Microsoft Teams 서비스에 대한 데이터를 테이블, blob 및 큐에 저장합니다. 또한 Microsoft 365 규정 준수 센터 준수 관리자 기능은 암호화된 형태로 저장되는 고객이 입력한 데이터를 Azure Cosmos DB , PaaS(Platform as a [Service),](/azure/cosmos-db/database-encryption-at-rest)전역 분산 다중 모델 데이터베이스로 저장합니다. Azure Storage 서비스 암호화는 Azure Blob 저장소 및 테이블에 저장된 데이터를 암호화하며, Azure 디스크 암호화는 큐의 데이터를 암호화하고 Windows 및 IaaS 가상 컴퓨터 디스크를 암호화하여 운영 체제 및 데이터 디스크에 볼륨 암호화를 제공합니다. 이 솔루션은 가상 컴퓨터 디스크의 모든 데이터가 Azure 저장소에 보관된 동안 암호화되도록 합니다. [Azure Cosmos DB의](/azure/cosmos-db/database-encryption-at-rest) 미사용 암호화는 보안 키 저장소 시스템, 암호화된 네트워크 및 암호화 API를 비롯한 여러 보안 기술을 사용하여 구현됩니다.
 
 ## <a name="azure-key-vault"></a>Azure Key Vault
 

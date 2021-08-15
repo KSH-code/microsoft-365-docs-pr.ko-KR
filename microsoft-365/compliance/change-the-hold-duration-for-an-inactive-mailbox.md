@@ -20,12 +20,12 @@ ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 사서함이 비활성으로 설정된 후 비활성 사서함에 할당된 보존 Office 365 변경합니다.
-ms.openlocfilehash: 49d133c64763cee12cb26e27d372a16ba4ad7e94
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 07ff73218613ecf8b3e670db3a92720b9e08ee2dbee68e77850256bb7ee6768f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53886902"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>비활성 사서함의 보존 기간 변경
 

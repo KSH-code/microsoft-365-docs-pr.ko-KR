@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva 항목에서 항목 표시 관리
+title: 항목의 항목 표시 Microsoft Viva 관리
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,15 +9,15 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Viva 항목에서 항목 표시를 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 07679b2de668ba5e0c9fdf206310233ce7af84a4
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+description: Microsoft Viva 항목 표시를 관리하는 방법을 배워야 합니다.
+ms.openlocfilehash: 6ac247ba758929f367c99b963a19b0619ab588c077687c8027c2807d98732211
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53864121"
 ---
-# <a name="manage-topic-visibility-in-microsoft-viva-topics"></a>Microsoft Viva 항목에서 항목 표시 관리
+# <a name="manage-topic-visibility-in-microsoft-viva-topics"></a>항목의 항목 표시 Microsoft Viva 관리
 
 의 항목 강조, 항목 카드 및 항목 센터를 볼 [수](https://admin.microsoft.com)있는 Microsoft 365 관리 센터. 이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 그룹 관리자 되어야 합니다.
 
@@ -51,9 +51,9 @@ ms.locfileid: "53137754"
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft Viva 항목에서 항목 검색 관리](topic-experiences-discovery.md)
+[항목에서 항목 Microsoft Viva 관리](topic-experiences-discovery.md)
 
-[Microsoft Viva 항목에서 항목 사용 권한 관리](topic-experiences-user-permissions.md)
+[다음 항목에서 항목 사용 Microsoft Viva 관리](topic-experiences-user-permissions.md)
 
-[Microsoft Viva 항목의 항목 센터 이름 변경](topic-experiences-administration.md)
+[다음 항목에서 항목 센터의 Microsoft Viva 변경](topic-experiences-administration.md)
 

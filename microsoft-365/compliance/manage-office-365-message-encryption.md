@@ -19,16 +19,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: OME(Office 365 메시지 암호화 설정)를 완료한 후 여러 가지 방법으로 배포를 사용자 지정하는 방법을 설명합니다.
-ms.openlocfilehash: a2b3dde44ea541deb41eeb9d55d5ed745fa6c719
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 73862bd08ba393d7ccc24a2b665cb3ac83df99a9018b3c9945ce3cae691e78a5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52650987"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53855998"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365 메시지 암호화 관리
 
-OME(Office 365 메시지 암호화 설정한 후 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어 일회용 암호를 사용하도록 설정할지 여부를 구성하고, 웹의 코드에 암호화 단추를 Outlook 수 있습니다.  이 문서의 작업에서는 방법을 설명합니다.
+OME(Office 365 메시지 암호화 설정한 후 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어 일회용 암호를 사용하도록 설정할지, 암호화  단추를 표시할지 여부를 구성할 수 웹용 Outlook 있습니다. 이 문서의 작업에서는 방법을 설명합니다.
 
 ## <a name="manage-whether-google-yahoo-and-microsoft-account-recipients-can-use-these-accounts-to-sign-in-to-the-office-365-message-encryption-portal"></a>Google, Yahoo 및 Microsoft 계정 받는 사람이 이러한 계정을 사용하여 앱 포털에 로그인할 Office 365 메시지 암호화 관리
 
@@ -82,11 +82,11 @@ OME로 암호화된 메시지의 받는 사람이 받는 사람이 Outlook 사�
    Set-OMEConfiguration -Identity "OME Configuration" -OTPEnabled $true
    ```
 
-## <a name="manage-the-display-of-the-encrypt-button-in-outlook-on-the-web"></a>웹에서 암호화 단추의 Outlook 관리
+## <a name="manage-the-display-of-the-encrypt-button-in-outlook-on-the-web"></a>암호화 단추의 표시를 웹용 Outlook
 
 관리자는 최종 사용자에게 이 단추를 표시할지 여부를 관리할 수 있습니다.
   
-### <a name="to-manage-whether-the-encrypt-button-appears-in-outlook-on-the-web"></a>웹에서 암호화 단추가 Outlook 여부를 관리하기 위해
+### <a name="to-manage-whether-the-encrypt-button-appears-in-outlook-on-the-web"></a>암호화 단추가 암호화 단추에 나타나는지 여부를 웹용 Outlook
   
 1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 조직에 Exchange Online. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -177,7 +177,7 @@ iOS 메일 앱은 365로 보호된 메시지의 암호를 해독할 Office 365 �
 
 ## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail"></a>모든 외부 받는 사람이 OME 포털을 사용하여 암호화된 메일을 읽는지 확인
 
-사용자 지정 브랜드 템플릿을 사용하여 받는 사람이 웹에서 또는 웹에서 Outlook 대신 OME 포털에서 암호화된 전자 메일을 읽게 하는 래퍼 Outlook 수 있습니다. 받는 사람이 받는 메일을 사용하는 방법을 보다 잘 제어하려는 경우 이 작업을 할 수 있습니다. 예를 들어 외부 받는 사람이 웹 포털에서 전자 메일을 보는 경우 전자 메일의 만료 날짜를 설정하고 전자 메일을 해지할 수 있습니다. 이러한 기능은 OME 포털을 통해서만 지원됩니다. 메일 흐름 규칙을 만들 때 암호화 옵션과 전달 금지 옵션을 사용할 수 있습니다.
+사용자 지정 브랜드 템플릿을 사용하여 받는 사람이 OME 포털에서 암호화된 전자 메일을 읽게 하는 래퍼 메일을 강제로 수신하게 할 수 Outlook 웹용 Outlook. 받는 사람이 받는 메일을 사용하는 방법을 보다 잘 제어하려는 경우 이 작업을 할 수 있습니다. 예를 들어 외부 받는 사람이 웹 포털에서 전자 메일을 보는 경우 전자 메일의 만료 날짜를 설정하고 전자 메일을 해지할 수 있습니다. 이러한 기능은 OME 포털을 통해서만 지원됩니다. 메일 흐름 규칙을 만들 때 암호화 옵션과 전달 금지 옵션을 사용할 수 있습니다.
 
 ### <a name="use-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email"></a>사용자 지정 템플릿을 사용하여 모든 외부 받는 사람이 OME 포털 및 암호화된 전자 메일을 강제로 사용
 
@@ -221,7 +221,7 @@ iOS 메일 앱은 365로 보호된 메시지의 암호를 해독할 Office 365 �
   
 1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 조직에 Exchange Online. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-2. 웹용 웹  Outlook 암호화 단추를 사용하도록 설정한 경우 SimplifiedClientAccessEnabled 매개 Set-IRMConfiguration cmdlet을 실행하여 사용하지 않도록 설정합니다. 그렇지 않은 경우 이 단계를 건너뜁.
+2. 사용자 지정에서  암호화 단추를 웹용 Outlook SimplifiedClientAccessEnabled 매개 변수를 사용하여 Set-IRMConfiguration cmdlet을 실행하여 사용하지 않도록 설정합니다. 그렇지 않은 경우 이 단계를 건너뜁.
 
    ```powershell
    Set-IRMConfiguration -SimplifiedClientAccessEnabled $false

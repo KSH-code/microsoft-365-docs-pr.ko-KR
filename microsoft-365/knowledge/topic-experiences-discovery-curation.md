@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva 항목에서 항목을 검색하는 방법에 대한 개요입니다.
-ms.openlocfilehash: 378bdae4ad4b8104d28da7f884f42580d29eabcc
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: c85ebbda9613fb3bab2542805d8bc2c7575d0d7203f6e2bf41650fb0d9771f60
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53864174"
 ---
 # <a name="topic-discovery-and-curation-in-microsoft-viva-topics"></a>Microsoft Viva 항목 검색 및 큐레이터 
 

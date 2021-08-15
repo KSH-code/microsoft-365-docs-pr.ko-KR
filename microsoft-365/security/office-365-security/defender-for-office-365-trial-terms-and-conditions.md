@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365 사용 약관에 대해 배울 수 있습니다.
-ms.openlocfilehash: 3aa35f2fab6868899884775ea45b41dab813c173
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 128afb36495a5084ab89bb0cd052960878c5522dc6c9cad58a28aac63580986e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53897402"
 ---
 # <a name="microsoft-defender-for-office-365-trial-terms--conditions"></a>Microsoft Defender for Office 365 평가판 조건 & 조건
 

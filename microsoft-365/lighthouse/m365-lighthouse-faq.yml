@@ -17,12 +17,12 @@ metadata:
   - M365-Lighthouse
   search.appverid: MET150
   description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 서비스 공급자에 대한 FAQ(질문과 대답)를 Microsoft 365 Lighthouse.
-  ms.openlocfilehash: 5f15453f21ef48fcc1f8266d9474fc0cbc4190c2
-  ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
+  ms.openlocfilehash: f144e2a1535054508e548a8b2848600e45c4adba1763de85194879965a8358af
+  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/13/2021
-  ms.locfileid: "53415540"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "53840134"
 title: Microsoft 365 Lighthouse 질문과 대답(FAQ)
 summary: >
   > [!NOTE]
@@ -79,4 +79,16 @@ sections:
 
       테넌트에 대한 자세한 내용은 Microsoft 365 Lighthouse [목록 개요를 참조하세요.](m365-lighthouse-tenant-list-overview.md)
   - question: 고객 Microsoft 365 Lighthouse 다른 구독이 있는 경우 해당 구독이 Microsoft 365 Business Premium?
-    answer: Microsoft 365 Lighthouse 라이선스가 있는 고객 테넌트는 Microsoft 365 Business Premium 관리하는 데 도움이 됩니다. Business Premium 라이선스가 없는 고객 테넌트의 Microsoft 365 Lighthouse 제한됩니다. 예를 들어 사용자가 Intune을 포함하는 라이선스가 없는 경우 해당 사용자의 장치, 장치 준수 상태 및 위협 상태를 사용할 수 없습니다. Azure AD P1을 포함하는 라이선스가 없는 경우 해당 사용자의 암호 및 로그인 관리를 사용할 수 없습니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+    answer: >
+      Microsoft 365 Lighthouse 라이선스가 있는 고객 테넌트는 Microsoft 365 Business Premium 관리하는 데 도움이 됩니다. Business Premium 라이선스가 없는 고객 테넌트의 Microsoft 365 Lighthouse 제한됩니다. 예를 들어 사용자가 Intune을 포함하는 라이선스가 없는 경우 해당 사용자의 장치, 장치 준수 상태 및 위협 상태를 사용할 수 없습니다. Azure AD P1을 포함하는 라이선스가 없는 경우 해당 사용자의 암호 및 로그인 관리를 사용할 수 없습니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+  - question: 클라우드 서비스에서 고객 클라우드 PC를 관리할 자격을 Microsoft 365 Lighthouse?
+    answer: >
+      사용자 계정 사용 요구 사항을 Microsoft 365 Lighthouse 경우 해당 서비스에서 고객 클라우드 PC를 관리할 Microsoft 365 Lighthouse. 현재 요구 사항 목록은 요구 사항을 [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+  - question: 고객용 Windows 365(클라우드 PC) 라이선스를 어디에서 구입할 수 있나요?
+    answer: >
+      사용 가능한 모든 Microsoft Windows 채널을 통해 365개 라이선스를 구매할 수 있습니다. 한 번 구입한 라이선스는 클라우드 PC 하나 구입과 동일합니다. 현재 각 사용자에게 동일한 SKU 유형의 클라우드 PC 하나만 할당할 수 있지만, 서로 다른 SKU 유형인 경우 여러 클라우드 PC를 할당할 수 있습니다. Windows 365 요금제 및 가격을 비교하기 위해 적합한 Windows [365 클라우드 PC 사용()을 참조합니다.](https://www.microsoft.com/windows-365/business/compare-plans-pricing)
+  - question: 도움말 및 지원은 어떻게 하나요?
+    answer: >
+      In Microsoft 365 Lighthouse, select the **?** 포털 맨 위에 있는 아이콘을 클릭하여 도움말 **창을** 여는 데 도움이 됩니다. 여기에서 자가 도움말 문서에 액세스하거나 지원에 문의할 수 있습니다. 도움말 및 지원 옵션에 대한 자세한 내용은 에 대한 도움말 및 지원 [Microsoft 365 Lighthouse.](m365-lighthouse-get-help-and-support.md)
+  - question: 피드백과 아이디어를 제출할 수 있는 곳은 어디인가요?
+    answer: 여러분의 피드백은 중요하며 저희에게 중요합니다! Intune 피드백 페이지를 통해 피드백 또는 기능 [Microsoft Endpoint Manager 제출합니다.](https://go.microsoft.com/fwlink/?linkid=2151507) 365 및 Microsoft 365 Lighthouse Windows 대화를 시작하고, 다른 파트너 또는 Microsoft 직원에게 질문하고, 기능 피드백을 제공하는 등 다양한 정보를 제공할 수 있습니다.

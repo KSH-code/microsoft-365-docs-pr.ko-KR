@@ -15,12 +15,12 @@ manager: dansimp
 ms.date: 05/24/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: efeb49b2741bdc45f7924032c2deb8a27458ca29
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 7f407ae3018dc9214d364528c2392b00b7279489d98ec96c5b5d24d8207bfc01
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904134"
 ---
 # <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>명령줄 Microsoft Defender 바이러스 백신 사용하여 mpcmdrun.exe 구성 및 관리
 
@@ -51,7 +51,7 @@ MpCmdRun.exe -Scan -ScanType 2
 
 | 명령  | 설명   |
 |:----|:----|
-| `-?` **또는** `-h`   | MpCmdRun 도구에 대해 사용 가능한 모든 옵션을 표시 |
+| `-?`**또는**`-h`   | MpCmdRun 도구에 대해 사용 가능한 모든 옵션을 표시 |
 | `-Scan [-ScanType [<value>]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]` | 악성 소프트웨어를 검사합니다. **ScanType의 값은:**<p>**0** 구성에 따라 기본값<p>**1** 빠른 검사<p>**2** 전체 검사<p>**3** 파일 및 디렉터리 사용자 지정 검사.<p>CpuThrottling은 정책 구성에 따라 실행됩니다. |
 | `-Trace [-Grouping #] [-Level #]` | 진단 추적 시작 |
 | `-GetFiles [-SupportLogLocation <path>]` | 지원 정보를 수집합니다. '진단[데이터 수집'](collect-diagnostic-data.md)참조  |
@@ -78,7 +78,7 @@ MpCmdRun.exe -Scan -ScanType 2
 | **MpCmdRun은 내부 또는 외부 명령, 작동 프로그램 또는 배치 파일로 인식되지 않습니다.** | 도구를 실행해야 합니다(플랫폼 업데이트는 월별을 제외하고 다를 수 `%ProgramFiles%\Windows Defender` `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2012.4-0` `2012.4-0` 있습니다).|
 | **ValidateMapsConnection에서 MAPS에 연결하지 못했습니다(hr=80070005 httpcode=450).** | 명령이 부족한 권한을 사용하려고 했습니다. 명령 프롬프트(cmd.exe)를 관리자 권한으로 사용|
 | **ValidateMapsConnection이 MAPS에 연결하지 못했습니다(hr=80070006 httpcode=451).** | 방화벽이 연결을 차단하거나 SSL 검사를 수행하고 있습니다. |
-| **ValidateMapsConnection이 MAPS에 연결하지 못했습니다(hr=80004005 httpcode=450).** | 이름 확인 문제와 같은 네트워크 관련 문제 발생 가능|
+| **ValidateMapsConnection에서 MAPS에 연결하지 못했습니다(hr=80004005 httpcode=450).** | 이름 확인 문제와 같은 네트워크 관련 문제 발생 가능|
 | **ValidateMapsConnection이 MAPS에 연결하지 못했습니다(hr=0x80508015** | 방화벽이 연결을 차단하거나 SSL 검사를 수행하고 있습니다. |
 | **ValidateMapsConnection이 MAPS에 연결하지 못했습니다(hr=800722F0D** | 방화벽이 연결을 차단하거나 SSL 검사를 수행하고 있습니다. |
 | **ValidateMapsConnection에서 MAPS에 연결하지 못했습니다(hr=80072EE7 httpcode=451).** | 방화벽이 연결을 차단하거나 SSL 검사를 수행하고 있습니다. |

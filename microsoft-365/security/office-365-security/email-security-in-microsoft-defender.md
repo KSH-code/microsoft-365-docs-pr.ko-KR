@@ -16,12 +16,12 @@ description: 맬웨어 피싱 시도를 보고 조사합니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cebe76536c5ed309ca16777e85c5cdf919d0fb5c
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: cfefbbbdcba0b7ff909892e982abf2ca534e978ead74a6263e23fa443fa8125d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53897366"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
