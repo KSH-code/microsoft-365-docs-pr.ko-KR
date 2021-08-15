@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender 파일럿 Office 365 프로덕션 환경에서 평가를 사용하고, 평가를 프로덕션 환경에 배포할 수 있도록 홍보하고, Defender를 평가하는 방법을 배우기
+title: 파일럿 Microsoft Defender for Office 365 프로덕션 환경에서 평가 사용
 description: Microsoft Defender의 기능을 제대로 테스트하기 위해 활성 및 기존 사용자 그룹과 함께 평가판을 Office 365.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: how-to
 ms.technology: m365d
-ms.openlocfilehash: 86f8dcc7b5e06605042f609ede4027510663cc65
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: ce1d08abb6c66df2eb75fd6c9349dcf085096394453375e5f85c5089e908147a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53862948"
 ---
 # <a name="pilot-microsoft-defender-for-office-365"></a>파일럿 Microsoft Defender for Office 365
 **적용 대상:**

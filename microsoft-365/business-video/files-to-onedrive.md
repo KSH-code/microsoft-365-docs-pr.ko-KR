@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 파일을 파일로 이동하는 방법을 OneDrive.
-ms.openlocfilehash: 68d4b08fa0704279a36c32c8b6688009b08fa50f
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 2203aa29c9c83d6b26004220b14b15530f79a567d1ae62d3bf239567f926cb0a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706253"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53882564"
 ---
 # <a name="move-files-to-onedrive"></a>파일 이동을 OneDrive
 

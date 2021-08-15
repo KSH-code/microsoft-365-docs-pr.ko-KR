@@ -20,12 +20,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: '요약: Microsoft 365 테스트 환경에 대한 페더레이션 인증을 구성합니다.'
-ms.openlocfilehash: 0fb8c55f5b7291cdc6bcec636981a9d31015e723
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: e4d287f82fd267b3a56bcfad8266389e2dffa194c16f9c2fb9048cebe4773232
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53870882"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에 대한 페더레이션 ID
 
@@ -201,9 +201,9 @@ New-SmbShare -name Certs -path c:\Certs -changeaccess CORP\User1
   
 1. 시작을 **선택하고** **mmc.exe** 를 입력한 다음 Enter **를 누르고 를 선택합니다.**
     
-2. 파일   >  **추가/제거를 끌기-in 을 선택합니다.**
+2. 파일   >  **스냅인 추가/제거를 선택합니다.**
     
-3. 추가 또는 끌기 **인에서** 사용 가능한 스냅인  목록에서 인증서를 두 번 클릭하고 컴퓨터 계정을 선택한 후 다음 을 **선택합니다.**
+3. 스냅인 **추가 또는** 제거에서 사용  가능한 스냅인 목록에서 인증서를 두 번 클릭하고 컴퓨터 계정을 선택한 후 다음 을 **선택합니다.**
     
 4. 컴퓨터 **선택에서** 마친 **후** 확인을 **선택합니다.**
     
@@ -277,9 +277,9 @@ Install-WindowsFeature ADFS-Federation -IncludeManagementTools
   
 1. 시작을 **선택하고** **mmc.exe** 를 입력한 다음 Enter **를 누르고 를 선택합니다.**
     
-2. 파일 **> 추가/제거를 끌기 를 선택합니다.**
+2. 파일 **> 추가/제거 를 선택합니다.**
     
-3. 추가 또는 끌기 **인에서** 사용 가능한 스냅인  목록에서 인증서를 두 번 클릭하고 컴퓨터 계정을 선택한 후 다음 을 **선택합니다.**
+3. 스냅인 **추가 또는** 제거에서 사용  가능한 스냅인 목록에서 인증서를 두 번 클릭하고 컴퓨터 계정을 선택한 후 다음 을 **선택합니다.**
     
 4. 컴퓨터 **선택에서** 마친 **후** 확인을 **선택합니다.**
     

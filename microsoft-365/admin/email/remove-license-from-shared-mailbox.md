@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 description: '공유 사서함에서 라이선스를 제거하여 다른 사용자에게 할당하거나 라이선스 비용을 지불하지 않을 수 있도록 라이선스를 반환합니다. '
 ms.date: 05/11/2021
-ms.openlocfilehash: dd2d99d762a4a68a9b0400353d64dabb536a891c
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: da72b708d5257ad6054a7007ee0dca96564b463ca47acd68e803ca3b5511819c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821431"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53825946"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
@@ -46,19 +46,19 @@ ms.locfileid: "52821431"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
@@ -69,7 +69,7 @@ ms.locfileid: "52821431"
 
 3. 라이선스 **및** 앱 탭 중  하나에서 라이선스를 확장하고 제거할 라이선스의 확인란을 선택하지 않습니다.
 
-4. **변경 내용 저장** 을 선택합니다.
+4. **변경 사항 저장** 을 선택합니다.
 
 5. 활성 사용자 페이지로 **돌아오면** 공유 사서함의 상태가 라이선스가 없는 **상태가 됩니다.**
 

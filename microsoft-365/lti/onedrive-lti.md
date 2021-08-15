@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 과제를 만들고 등급을 지정하고, 과정 콘텐츠를 작성 및 구성하고, 새로운 Microsoft OneDrive Learning 도구 상호 관리 앱을 사용하여 실시간으로 파일을 공동 작업합니다.
-ms.openlocfilehash: bcb374ed1666f23fa5f3d4692f43a4369670e891
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: a1a07173b756d8eb86158bb669113d7e9f7202bf1b666ebc2a086f1aed732d2e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53322224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830086"
 ---
 # <a name="integrate-microsoft-onedrive-lti-with-canvas"></a>Canvas Microsoft OneDrive LTI 통합
 
@@ -96,4 +96,4 @@ Canvas 관리자는 모든 Microsoft OneDrive LTI를 사용하도록 설정할 �
 > 개별 학생 및 학생 그룹에 공동 작업을 할당할 수 있습니다. 개별 학생에게 할당은 기본적으로 작동합니다. 학생 그룹에 공동 작업을 할당할 수 있는 경우 다음 단계를 수행합니다.
 
 1. 관리자로 로그인하고 개발자 키 **섹션으로** 이동하세요.
-1. 값이 170000000000710인 키를 찾아 On으로 **설정합니다.**
+1. 값이 있는 키를 170000000000710 으로 **설정하면 됩니다.**

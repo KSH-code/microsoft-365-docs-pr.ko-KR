@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: a6071a8cb13fc7c785a1b3914f65cd8eca27f28f
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: e68a2013a2c883356f11b94d21ac68169faa42d8b719f8a41af1b73cbadc970f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53651618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854462"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -98,7 +98,7 @@ In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devic
 
 기본 페이지에서 장치 등록 진행률을 모니터링할 수 있습니다. 보고된 가능한 상태는 다음과 같습니다.
 
-| 시/도 | 설명 |
+| 상태 | 설명 |
 |---------------|-------------|
 | 등록 보류 중 | 등록이 아직 완료되지 않았습니다. 나중에 다시 확인 합니다. |
 | 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치 등록](#troubleshooting-device-registration) 문제 해결을 참조하세요. |

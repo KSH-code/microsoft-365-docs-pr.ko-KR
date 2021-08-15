@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse)의 경우 장치 준수 페이지에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 3568f5b362df86955a1ea6ce15928658c854a584
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 396417729184bf7bc9190193482a6567267098e8bdfb142b32e874014d0ce731
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395227"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854632"
 ---
 # <a name="microsoft-365-lighthouse-device-compliance-page-overview"></a>Microsoft 365 Lighthouse 장치 준수 페이지 개요
 

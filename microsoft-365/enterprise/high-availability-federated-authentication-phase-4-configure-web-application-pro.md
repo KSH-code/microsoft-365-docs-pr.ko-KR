@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 1c903173-67cd-47da-86d9-d333972dda80
 description: '요약: 웹 응용 프로그램 프록시 서버의 웹 응용 프로그램 프록시 서버에 대한 고가용성 Microsoft 365 구성하는 Microsoft Azure.'
-ms.openlocfilehash: 95d73d05f2eef087e606df14db180b24c69d5932
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cc74fd93fc668094d9627486ac0106447825166e3c69b4c79c36be7ccd6ea107
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53870645"
 ---
 # <a name="high-availability-federated-authentication-phase-4-configure-web-application-proxies"></a>고가용성 페더레이션 인증 4단계: 웹 응용 프로그램 프록시 구성
 

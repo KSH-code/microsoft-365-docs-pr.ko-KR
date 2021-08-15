@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 여러 도메인이 필요할 수 있으므로 고객이 찾을 수 있습니다. 구독에 다른 도메인을 추가하는 방법을 배워야 합니다.
-ms.openlocfilehash: 766d0f6c1e3c68a262bc01ba432e042f0d274ce8
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: c127abf899985bb23cc3a9906425d4d5408a4376fde3bc88a4c3bdda1277bace
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53882612"
 ---
 # <a name="add-another-domain"></a>다른 도메인 추가
 

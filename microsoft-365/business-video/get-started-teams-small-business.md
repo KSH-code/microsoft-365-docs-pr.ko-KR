@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 중소기업에서 비즈니스용 Microsoft Teams 방법을 학습합니다.
-ms.openlocfilehash: 75e5c4aad1ef65e63ed7809cc667fce4b48934e2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5ba2dee81602cf6c474728879435998b699a1b5439ae751033a3511b17940361
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53882448"
 ---
 # <a name="get-started-with-teams"></a>Teams 시작하기
 
@@ -65,7 +65,7 @@ ms.locfileid: "52537370"
 
 ### <a name="secure-your-business-as-it-runs-remotely"></a>원격으로 실행되는 비즈니스 보안
 
-권장되는 보안 기능은 MFA(다단계 인증)입니다. 원격 직원용 MFA를 추가하려면 원격 직원의 로그인 시 텍스트, 전화 통화 또는 인증 앱에서 받은 보안 코드를 입력해야 Microsoft 365. 해커가 피싱 공격을 통해 누군가의 암호를 보유한 경우 이를 사용하여 회사의 계정 및 데이터에 액세스할 수 없습니다. 모바일 장치에 대한 MFA Microsoft 365 관리 센터에서 [MFA 보호를 추가할 수 있습니다.](set-up-mfa.md)
+권장되는 보안 기능은 MFA(다단계 인증)입니다. 원격 직원용 MFA를 추가하려면 원격 직원의 로그인 시 텍스트, 전화 통화 또는 인증 앱에서 받은 보안 코드를 입력해야 Microsoft 365. 해커가 피싱 공격을 통해 누군가의 암호를 보유한 경우 이를 사용하여 회사의 계정 및 데이터에 액세스할 수 없습니다. 모바일 장치용 MFA 설정: Microsoft 365 관리 센터에서 [MFA 보호를 추가할 수 있습니다.](set-up-mfa.md)
 
 ### <a name="microsoft-teams-templates"></a>Microsoft Teams 템플릿
 

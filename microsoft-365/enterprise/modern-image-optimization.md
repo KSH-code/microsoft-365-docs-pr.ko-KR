@@ -21,12 +21,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: SharePoint Online에 포함된 도구를 사용하여 온라인 최신 사이트 페이지의 이미지를 최적화하는 SharePoint 방법을 학습합니다.
-ms.openlocfilehash: a4f2def86e1378a9fb76ae9ecbe6a55da75ecffc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 68e309974cca8af2280dddfc76e744234a1e17ae8b5deac465c1bbadcf4722fa
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923019"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53870495"
 ---
 # <a name="optimize-images-in-sharepoint-online-modern-site-pages"></a>SharePoint Online 최신 사이트 페이지에서 이미지 최적화
 

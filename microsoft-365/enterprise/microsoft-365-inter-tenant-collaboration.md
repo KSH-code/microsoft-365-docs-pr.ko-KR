@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 테넌트 Microsoft 365 조직 전체에서 공동 작업의 작동 방식에 대해 알아보고, 여러 조직이 안전하게 공동 작업할 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a0a9d15608e046e72ba579b77ba44092ed2ecb46
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 36e16beb852b99a17f0252217cfd6f148dcf0a0a15feb9770adcc3d5b9d268b2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53870548"
 ---
 # <a name="microsoft-365-inter-tenant-collaboration"></a>Microsoft 365 테넌트 간 공동 작업
 

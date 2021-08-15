@@ -1,5 +1,5 @@
 ---
-title: 관리 센터에서 Microsoft 365 앱 액세스 관리
+title: 전자 메일 앱 액세스 관리 Microsoft 365 관리 센터
 f1.keywords:
 - CSH
 ms.author: kwekua
@@ -21,14 +21,14 @@ search.appverid:
 ms.assetid: d00b6b83-1f14-4e9c-a2c5-dbd9a92816f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 전자 메일, 일정 및 연락처에 액세스하는 데 사용할 수 있는 모바일 앱을 선택하는 방법을 학습합니다.
-ms.openlocfilehash: f114aa43b4bbade09d53f415aae4c5c033c20694
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d38730df158758ceb310ba25f45f222d7893afe2d0aefc601a17663e85787552
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400055"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53825982"
 ---
-# <a name="manage-email-app-access-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 전자 메일 앱 액세스 관리
+# <a name="manage-email-app-access-in-the-microsoft-365-admin-center"></a>전자 메일 앱 액세스 관리 Microsoft 365 관리 센터
 
 모바일 전자 메일 액세스 설정을 사용하여 조직의 사용자들이 전자 메일, 일정 및 연락처에 액세스하기 위해 직장 또는 학교 계정에 액세스하는 데 사용할 수 있는 모바일 앱을 선택합니다.
   
