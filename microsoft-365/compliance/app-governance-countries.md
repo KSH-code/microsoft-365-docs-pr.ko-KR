@@ -1,5 +1,5 @@
 ---
-title: 앱 거버넌스가 지원되는 지역
+title: 앱 거버넌스 시작
 f1.keywords:
 - NOCSH
 ms.author: v-tophillips
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 거버넌스를 사용할 수 있는 국가 목록입니다.
-ms.openlocfilehash: 272e37f9f5824deb65e08de852f30e0e762330bd3f34fe6d926634ea97e303c4
-ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
+ms.openlocfilehash: 4e9f5425d111c0a21946c78dfdbeebaedd56ac6ff23fb6c279a0c5e793f1674c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54520474"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53836414"
 ---
 # <a name="app-governance-supported-countries"></a>앱 거버넌스 지원 국가
 

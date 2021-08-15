@@ -14,23 +14,23 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-description: '& 규정 준수 센터에서 Microsoft 365 사용하여 Facebook 비즈니스 페이지에서 & 보관 데이터를 가져오는 방법을 Microsoft 365.'
-ms.openlocfilehash: 616466a3af83c1558184526aa463f68c10ef9e70
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 앱의 커넥터를 & 설정하여 Facebook 비즈니스 Microsoft 365 규정 준수 센터 & 데이터를 가져오는 방법을 Microsoft 365.
+ms.openlocfilehash: 9327da8f3e37d64300ff1bafeb375f65e77fda67cc2d13bf0d1a3227b9bca693
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921738"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53866658"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Facebook 데이터를 보관할 커넥터 설정(미리 보기)
 
-Microsoft 365 규정 준수 센터의 커넥터를 사용하여 Facebook 비즈니스 페이지에서 데이터 가져오기 및 보관을 Microsoft 365. 커넥터를 설정 및 구성하고 나면 일정에 따라 Facebook 비즈니스 페이지에 연결하고 Facebook 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 페이지의 사서함으로 Microsoft 365.
+페이지의 커넥터를 Microsoft 365 규정 준수 센터 Facebook 비즈니스 페이지에서 데이터를 가져와 보관하여 Microsoft 365. 커넥터를 설정 및 구성하고 나면 일정에 따라 Facebook 비즈니스 페이지에 연결하고 Facebook 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 페이지의 사서함으로 Microsoft 365.
 
 Facebook 데이터를 가져온 후 소송 보존, Microsoft 365 검색, In-Place 보관, 감사, 커뮤니케이션 규정 준수 및 보존 정책과 같은 Microsoft 365 준수 기능을 Facebook 데이터에 적용할 수 있습니다. 예를 들어 사서함에 소송 보존이 적용되거나 보존 정책에 할당된 경우 Facebook 데이터는 보존됩니다. 콘텐츠 검색을 사용하여 타사 데이터를 검색하거나 Facebook 데이터가 저장된 사서함을 보관 센터 사례에 Advanced eDiscovery 있습니다. 커넥터를 사용하여 Facebook 데이터를 가져오고 Microsoft 365 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
 ## <a name="prerequisites-for-setting-up-a-connector-for-facebook-business-pages"></a>Facebook 비즈니스 페이지에 대한 커넥터를 설정하기 위한 선행 준비
 
-조직의 Facebook 비즈니스 페이지에서 데이터를 가져오고 보관하도록 Microsoft 365 규정 준수 센터에서 커넥터를 설정하고 구성하기 전에 다음 선행 요구를 완료합니다. 
+조직의 Facebook 비즈니스 페이지에서 데이터를 가져오고 보관하기 위해 Microsoft 365 규정 준수 센터 커넥터를 설정하고 구성하기 전에 다음의 선행 작업을 완료합니다. 
 
 - 조직의 비즈니스 페이지에 대한 Facebook 계정이 필요합니다(커넥터를 설정할 때 이 계정에 로그인해야 합니다). 현재 Facebook 비즈니스 페이지에서만 데이터를 보관할 수 있습니다. 개별 Facebook 프로필에서 데이터를 보관할 수 없습니다.
 
@@ -45,7 +45,7 @@ Facebook 데이터를 가져온 후 소송 보존, Microsoft 365 검색, In-Plac
 
 - Facebook 비즈니스 페이지의 커넥터는 하루 동안 총 200,000개 항목을 가져올 수 있습니다. 하루 200,000개가 넘는 Facebook 비즈니스 항목이 있는 경우 해당 항목 중 어떤 항목도 가져오지 Microsoft 365.
 
-- Microsoft 365 준수 센터(5단계)에서 사용자 지정 커넥터를 설정하는 사용자에게 사서함 가져오기 내보내기 역할이 Exchange Online. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
+- 5단계에서 사용자 지정 커넥터를 설정하는 사용자에게 Microsoft 365 규정 준수 센터 사서함 가져오기 내보내기 역할이 할당되어야 Exchange Online. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>1단계: 앱에서 앱 Azure Active Directory
 
@@ -63,7 +63,7 @@ Facebook 데이터를 가져온 후 소송 보존, Microsoft 365 검색, In-Plac
 
 ## <a name="step-2-deploy-the-connector-web-service-from-github-to-your-azure-account"></a>2단계: Azure 계정으로 GitHub 커넥터 웹 서비스 배포
 
-다음 단계는 Facebook API를 사용하여 Facebook 계정에 연결하고 데이터를 추출하여 Facebook 비즈니스 페이지 커넥터 앱에 대한 소스 코드를 배포하는 Microsoft 365. 조직에 배포하는 Facebook 커넥터는 Facebook 비즈니스 페이지의 항목을 이 단계에서 만든 Azure Storage 위치로 업로드합니다. Microsoft 365 규정 준수 센터(5단계)에서 Facebook 비즈니스 페이지 커넥터를 만든 후 가져오기 서비스는 Facebook 비즈니스 페이지 데이터를 Azure Storage 위치에서 Microsoft 365 조직의 사서함으로 복사합니다. [Prerequisites](#prerequisites-for-setting-up-a-connector-for-facebook-business-pages) 섹션에서 설명한 것 처럼 계정 계정을 만들 수 있는 유효한 Azure 구독이 Azure Storage 합니다.
+다음 단계는 Facebook API를 사용하여 Facebook 계정에 연결하고 데이터를 추출하여 Facebook 비즈니스 페이지 커넥터 앱에 대한 소스 코드를 배포하는 Microsoft 365. 조직에 배포하는 Facebook 커넥터는 Facebook 비즈니스 페이지의 항목을 이 단계에서 만든 Azure Storage 위치로 업로드합니다. Microsoft 365 규정 준수 센터(5단계)에서 Facebook 비즈니스 페이지 커넥터를 만든 후 가져오기 서비스는 Azure Storage 위치에서 facebook 비즈니스 페이지 데이터를 Microsoft 365 조직의 사서함으로 복사합니다. [Prerequisites](#prerequisites-for-setting-up-a-connector-for-facebook-business-pages) 섹션에서 설명한 것 처럼 계정 계정을 만들 수 있는 유효한 Azure 구독이 Azure Storage 합니다.
 
 단계별 지침은 Azure 계정으로 GitHub 커넥터 [웹 서비스 배포를 참조하세요.](deploy-facebook-connector.md#step-2-deploy-the-connector-web-service-from-github-to-your-azure-account)
 
@@ -107,11 +107,11 @@ Facebook 데이터를 가져온 후 소송 보존, Microsoft 365 검색, In-Plac
 
 - Azure Active Directory 응용 프로그램 비밀(1단계에서 얻은 AAD 응용 프로그램 비밀)
 
-## <a name="step-5-set-up-a-facebook-business-pages-connector-in-the-microsoft-365-compliance-center"></a>5단계: Microsoft 365 규정 준수 센터에서 Facebook 비즈니스 페이지 커넥터 설정
+## <a name="step-5-set-up-a-facebook-business-pages-connector-in-the-microsoft-365-compliance-center"></a>5단계: 웹 페이지에서 Facebook 비즈니스 페이지 커넥터 Microsoft 365 규정 준수 센터
 
-마지막 단계는 Facebook 비즈니스 페이지에서 지정된 사서함으로 데이터를 가져오는 Microsoft 365 준수 센터에서 커넥터를 설정하는 Microsoft 365. 이 단계를 완료하고 나면 Microsoft 365 가져오기 서비스가 Facebook 비즈니스 페이지에서 페이지로 데이터를 가져오기 Microsoft 365.
+마지막 단계는 Facebook 비즈니스 페이지에서 지정된 사서함으로 데이터를 가져오는 Microsoft 365 규정 준수 센터 커넥터를 설정하는 Microsoft 365. 이 단계를 완료하고 나면 Microsoft 365 가져오기 서비스가 Facebook 비즈니스 페이지에서 페이지로 데이터를 가져오기 Microsoft 365.
 
-단계별 지침은 [5단계:](deploy-facebook-connector.md#step-5-set-up-a-facebook-connector-in-the-microsoft-365-compliance-center)규정 준수 센터에서 Facebook 커넥터 Microsoft 365 참조하세요. 
+단계별 지침은 [5단계:](deploy-facebook-connector.md#step-5-set-up-a-facebook-connector-in-the-microsoft-365-compliance-center)2단계에서 Facebook 커넥터 Microsoft 365 규정 준수 센터. 
 
 이 단계를 완료하는 동안(단계별 지침에 따라) 다음 정보를 제공합니다(단계를 완료한 후 텍스트 파일에 복사한 경우).
 

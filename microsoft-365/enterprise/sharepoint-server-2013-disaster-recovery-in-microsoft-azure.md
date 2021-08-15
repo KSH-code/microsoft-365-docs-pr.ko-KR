@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: e9d14cb2-ff28-4a18-a444-cebf891880ea
 description: 이 문서에서는 Azure를 사용하여 팜에 대한 재해 복구 환경을 만드는 SharePoint 설명합니다.
-ms.openlocfilehash: 01a49cfa19711caa36190a795792635431dd7d04
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bb048b9b0cf297ba5e5cd61e09f9f3164464a41a37fecfe2d27d0ef7be82f37b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907435"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53878260"
 ---
 # <a name="sharepoint-server-2013-disaster-recovery-in-microsoft-azure"></a>Microsoft Azure에서 SharePoint Server 2013 재해 복구
 
@@ -180,9 +180,9 @@ Azure의 환경은 더 작은 버전의 프로덕션 팜일 수 있습니다. �
     
 - 기본 데이터베이스 서버
     
-- 서버 Active Directory 도메인 Windows 및 DNS를 실행하는 하나 이상의 가상 컴퓨터
+- 도메인 서비스 및 DNS를 실행하는 Windows Server Active Directory 가상 컴퓨터 하나 이상
     
-다음 그림에서는 파일 공유 가상 컴퓨터 및 기본 SharePoint Azure 장애 조치(failover) 환경을 보여 줍니다. 다른 모든 SharePoint 가상 컴퓨터를 중지합니다. Server Active Directory 및 DNS에서 Windows 가상 컴퓨터는 표시되지 않습니다.
+다음 그림에서는 파일 공유 가상 컴퓨터 및 기본 SharePoint Azure 장애 조치(failover) 환경을 보여 줍니다. 다른 모든 SharePoint 가상 컴퓨터를 중지합니다. DNS 및 WINDOWS SERVER ACTIVE DIRECTORY 실행 중인 가상 컴퓨터는 표시되지 않습니다.
   
 **그림: 가상 컴퓨터를 실행하는 콜드 대기 복구 팜**
 
@@ -269,7 +269,7 @@ Microsoft Azure [Architectures for SharePoint 2013의](microsoft-azure-architect
     
 ## <a name="phase-3-deploy-active-directory-and-domain-name-services-to-the-azure-virtual-network"></a>3단계: Azure Virtual Network에 Active Directory 및 도메인 이름 서비스 배포
 
-이 단계에서는 Microsoft Azure [Architectures for SharePoint 2013에](microsoft-azure-architectures-for-sharepoint-2013.md) 설명된 바와 같이 하이브리드 시나리오에서 Windows Server Active Directory와 DNS를 모두 가상 네트워크에 배포합니다.
+이 단계에서는 Microsoft Azure [Architectures for SharePoint 2013에](microsoft-azure-architectures-for-sharepoint-2013.md) 설명된 바와 같이 다음 그림에 설명된 바와 같이 하이브리드 시나리오에서 Windows Server Active Directory 및 DNS를 모두 가상 네트워크에 배포합니다.
   
 **그림: 하이브리드 Active Directory 도메인 구성**
 
@@ -277,7 +277,7 @@ Microsoft Azure [Architectures for SharePoint 2013의](microsoft-azure-architect
   
 그림에서 두 가상 컴퓨터는 동일한 서브넷에 배포됩니다. 이러한 가상 컴퓨터는 각각 Active Directory 및 DNS의 두 역할을 호스팅합니다.
   
-Azure에서 Active Directory를 배포하기 전에 Azure 가상 머신에 Windows Server Active Directory를 배포하기 위한 [지침을 읽어야 합니다.](/windows-server/identity/ad-ds/introduction-to-active-directory-domain-services-ad-ds-virtualization-level-100) 이러한 지침은 솔루션에 다른 아키텍처 또는 다른 구성 설정이 필요한지 여부를 결정하는 데 도움이 됩니다.
+Azure에서 Active Directory를 배포하기 전에 Azure 가상 머신에 Windows Server Active Directory [지침을 읽어야 합니다.](/windows-server/identity/ad-ds/introduction-to-active-directory-domain-services-ad-ds-virtualization-level-100) 이러한 지침은 솔루션에 다른 아키텍처 또는 다른 구성 설정이 필요한지 여부를 결정하는 데 도움이 됩니다.
   
 Azure에서 도메인 컨트롤러를 설정하는 방법에 대한 자세한 지침은 [Azure Virtual Networks에서 복제본 Active Directory 도메인 컨트롤러 설치를 참조하세요.](/windows-server/identity/ad-ds/introduction-to-active-directory-domain-services-ad-ds-virtualization-level-100)
   

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 만들기 및 Microsoft 365 그룹 구성원을 추가 및 제거하고 그룹 작동 방법을 사용자 지정하는 방법을 학습합니다.
-ms.openlocfilehash: 1afa8d38d05ca0383f56cdba795f26739457347c
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 98e4243705a027ab660099a4a1fbce470a9844d83b8f62715b6c62d2dde9d207
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53826510"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 Microsoft 365 관리 센터
   

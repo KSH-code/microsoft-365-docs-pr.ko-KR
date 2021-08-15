@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 이 모듈에서 예측 코딩 모듈을 사용하는 방법을 Advanced eDiscovery. 이 문서에서는 예측 코딩을 사용하여 조사와 가장 관련이 있는 검토 집합의 콘텐츠를 식별하는 종단-종단 프로세스에 대해 설명합니다.
-ms.openlocfilehash: 16fb92af5048ae6cd953e522b2e5e5d8f5a7256f
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: fe0e19c61f441f7ae01ba1c8245301ab8c6e00a3c3b1c8ddf601476bcd1f4301
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822626"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53866701"
 ---
 # <a name="quick-start-predictive-coding-in-advanced-ediscovery-preview"></a>빠른 시작: Advanced eDiscovery 예측 코딩(미리 보기)
 
@@ -37,7 +37,7 @@ ms.locfileid: "52822626"
 
 첫 번째 단계는 검토 집합에서 새로운 예측 코딩 모델을 만드는 것입니다.
 
-1. 규정 Microsoft 365 센터에서 Advanced eDiscovery 사례를 열고 검토 집합 **탭을** 선택합니다.
+1. 이 Microsoft 365 규정 준수 센터 사례를 Advanced eDiscovery 검토 집합 **탭을** 선택합니다.
 
 2. 검토 집합을 열고 **분석** 예측 코딩 관리(미리  >  **보기)를 클릭합니다.**
 

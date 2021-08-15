@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom: Adm_O365
 ms.assetid: f0522d4a-fbf4-41f9-854e-c9b59555091d
 description: 온라인에서 페이지 다운로드 시간의 성능을 개선하는 방법을 알려 줄 다른 문서의 SharePoint 있습니다.
-ms.openlocfilehash: 9ce463898b81e1653932864276be2fa8d6ce830b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e76969da9dce2d6cc87bc903960e9879f81bdc4e6895161df84367b0f95afff3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53878134"
 ---
 # <a name="tune-sharepoint-online-performance"></a>SharePoint Online 성능 조정
 

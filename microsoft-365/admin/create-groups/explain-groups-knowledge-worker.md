@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 사용자에게 그룹에 대한 Microsoft 365 설명하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2f983d69f8b3138634739a82e35de9e62821d252
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 7f7b5bbe59f739c591aeb69687edc0c34d97e37286eb6fd72c1bde02cc1b6ea3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53826561"
 ---
 # <a name="explaining-microsoft-365-groups-to-your-users"></a>사용자에게 Microsoft 365 그룹 설명
 

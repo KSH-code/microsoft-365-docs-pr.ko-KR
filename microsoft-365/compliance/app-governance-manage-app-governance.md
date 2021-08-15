@@ -2,8 +2,8 @@
 title: Microsoft 365의 공동 작업 관리
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: v-tophillips
+author: v-tophillips
 manager: laurawi
 audience: Admin
 ms.topic: hub-page
@@ -14,16 +14,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 애플리케이션 거버넌스 기능을 구현하여 애플리케이션을 관리합니다.
-ms.openlocfilehash: 3665abc224330f0e2f2ba8139acb097a9aad2621
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: e36ab9e3f8d19c68027e6b665bd0755839e1accf952b7df8ca1fe1694c0a8bae
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541326"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887214"
 ---
 # <a name="app-governance-add-on-to-microsoft-cloud-app-security-in-preview"></a>Microsoft Cloud App Security에 대한 애플리케이션 거버넌스 추가 항목(미리 보기)
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+
+> [!NOTE]
+> 앱 거버넌스에 등록하려면 [앱 거버넌스 시작(미리 보기)](app-governance-get-started.md#add-app-governance-to-your-microsoft-365-account)을 참조하세요.
 
 사이버 공격은 온-프레미스 및 클라우드 인프라에 배포한 앱을 악용하는 방식에서 점점 더 정교해지며 권한 상승, 측면 이동 및 데이터 유출을 위한 출발점이 됩니다. 잠재적인 위험을 파악하고 이러한 유형의 공격을 차단하려면 앱 규정 준수 상태를 명확히 파악하여 앱이 비정상적인 동작을 보이는 시기를 신속하게 식별하고 이러한 동작이 환경, 데이터 및 사용자에게 위험을 줄 때 대응해야 합니다.
 
@@ -45,15 +48,9 @@ The scale of ongoing cybersecurity incidents affecting large enterprises and sma
 
 애플리케이션 거버넌스는 Microsoft 365 애플리케이션 에코시스템에서 필수적인 플랫폼 기반 솔루션입니다. 애플리케이션 거버넌스는 Azure AD(Azure Active Directory)에 등록된 OAuth 지원 애플리케이션을 감독 및 관리하고 Microsoft Graph API를 통해 데이터에 액세스합니다. 애플리케이션 거버넌스는 IT 인프라의 보안 및 규정 준수 상태를 강화하는 데 도움이 되는 애플리케이션 동작 제어 기능을 제공합니다.
 
-<!--
-Unlike other application governance products in the marketplace, MAPG is a platform-based solution that is an integral part of the Microsoft 365 application ecosystem. MAPG's initial focus is on OAuth-enabled apps published to the Microsoft 365 platform that are registered with Azure AD and access data through the Graph API. For the initial release, MAPG does not support other, non-OAuth-enabled M365 apps, add-ins (such as PowerBI), or other app vendor ecosystems such as Google, Facebook, Amazon Web Services, Workplace, and Salesforce. MAPG’s focus is on third-party published apps for the Microsoft 365 application platform.
-
-Microsoft allows developers to build cloud applications using Azure Active Directory (Azure AD), Microsoft’s cloud identity platform, and other resources and access to tenant data through the Microsoft Graph. Because of MAPG's visibility, insights, and control capabilities, app developers have the incentive to comply with publisher verification, self-attestation, and Microsoft certification, and can build high-quality productivity apps that are secure and compliant.
--->
-
 ## <a name="a-first-glimpse-at-app-governance"></a>애플리케이션 거버넌스를 한눈에 확인
 
-애플리케이션 거버넌스 대시보드를 보려면 [https://aka.ms/appgovernance](https://aka.ms/appgovernance)(으)로 이동하세요. 앱 거버넌스 데이터를 보려면 로그인 계정에 [ 관리자 역할 ](app-governance-get-started.md#administrator-roles) 중 하나가 있어야 합니다.
+애플리케이션 거버넌스 대시보드를 보려면 [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance)(으)로 이동하세요. 앱 거버넌스 데이터를 보려면 로그인 계정에 [ 관리자 역할 ](app-governance-get-started.md#administrator-roles) 중 하나가 있어야 합니다.
 
 ## <a name="app-governance-integration-with-azure-ad-and-microsoft-cloud-app-security"></a>애플리케이션 거버넌스를 Azure AD 및 Microsoft Cloud App Security와 통합합니다.
 

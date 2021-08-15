@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: OME(Office 365 메시지 암호화), S/MIME, IRM(정보 권한 관리)를 비롯한 Microsoft 365 암호화 옵션을 비교하고 TLS(전송 계층 보안)에 대해 자세히 알아봅니다.
-ms.openlocfilehash: cb34318c4f22375a1eadd4266bc781cfe3c691bf
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 2101e1e4f02e5a3c017be7737e37feb3ac4414b205ffc6df7b219d57cc4496e7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583331"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53850938"
 ---
 # <a name="email-encryption"></a>전자 메일 암호화
 

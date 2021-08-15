@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: 사용자 계정을 사용하여 Power Automate 솔루션을 사용하여 계약을 처리하기 위한 흐름을 만드는 Microsoft 365 알아보십시오.
-ms.openlocfilehash: e6c1d1e53363f996241efb2394189853d840c6c2
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: ddf9df71c53af9f3a68dcbfd9a5b1882b67c4fbd4600e89ecec36e283848ac3e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054476"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53859278"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>3단계. 이 Power Automate 사용하여 계약 처리 흐름 만들기
 
@@ -160,7 +160,7 @@ ms.locfileid: "53054476"
     | 승인 상태  | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['submitActionId']         |
     | 승인자     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responder'] ['displayName']        |
     | 승인 날짜     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responseTime']         |
-    | 댓글     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['data'] ['acComments']         |
+    | Comment     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['data'] ['acComments']         |
     
     다음은 수식 상자를 사용하여 식을 Power Automate 예제입니다.
 
