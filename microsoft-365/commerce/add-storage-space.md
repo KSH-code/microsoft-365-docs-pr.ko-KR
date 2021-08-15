@@ -23,12 +23,12 @@ ms.custom:
 search.appverid: MET150
 description: 사용자 구독에 파일 Microsoft 365 추가합니다. 추가 파일 저장소를 사용하면 추가 콘텐츠를 온라인 및 SharePoint 저장할 수 OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 28716c9506f31fd32f821cfff90bd8eaa19e6495
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 381a11fe6c2a320b2864561975f516f9684acb11c4c9757ad4d125e6d31acba9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394656"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53872942"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>구독에 대한 저장소 공간 추가
 

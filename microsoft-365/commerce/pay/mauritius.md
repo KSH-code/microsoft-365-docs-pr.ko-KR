@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8d0937e5dd3adcce4e98417bb8370f8212e38637
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 47e1ecd8cc6a3a43cacbbf63bd5cba627306f6d0aad016a1388d79f9f3715db3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53906438"
 ---
 # <a name="payment-information-for-mauritius"></a>모리셔스 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52535437"
 **은행:** Citibank, London  
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
-**계정 번호:** 12510049  
+**계정 번호: 12510049**  
 **계정 이름:** MICROSOFT

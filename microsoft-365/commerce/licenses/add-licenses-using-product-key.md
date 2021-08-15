@@ -21,12 +21,12 @@ search.appverid: MET150
 description: 제품 키를 통해 라이선스를 추가하거나 구독을 확장하는 방법을 자세히 알아보습니다.
 ROBOTS: NOINDEX
 ms.date: 04/07/2021
-ms.openlocfilehash: 7f1a1977eb5e20d09a22ef616937abdc483c431e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 3070aa6e757ec103f95f543d6922c9d61d9251f2f07f9156dd13124a99497f21
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331745"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861414"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>제품 키를 사용하여 유료 구독에 라이선스 추가 또는 연장
 
@@ -39,18 +39,18 @@ ms.locfileid: "52331745"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 2. 제품 **탭에서** 라이선스를 추가할 구독을 선택합니다.
@@ -65,18 +65,18 @@ ms.locfileid: "52331745"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 2. 제품 **탭에서** 확장할 구독을 선택합니다.

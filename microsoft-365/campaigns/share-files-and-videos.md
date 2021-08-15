@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인 내에서 파일 및 비디오를 공유하고 Microsoft Teams SharePoint.
-ms.openlocfilehash: d6d168c196a8571cab86a1be57f5b26782bc4d3f
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 90f99f42db7dbfba3d0b7276da8591623cc6a32b588acb212694953a29735d1d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044183"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861445"
 ---
 # <a name="share-files-and-videos"></a>파일 및 동영상 공유
 

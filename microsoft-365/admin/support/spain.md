@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 55b2406147272cf1aff69e0469f1cc7e6fce9ef2
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: be7260b2d8651f8bda10b0812a434f231b9afbda52ee102167980a67db79b416
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52295178"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887926"
 ---
 # <a name="contact-support-for-spain"></a>스페인 지원에 문의
 

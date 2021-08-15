@@ -18,13 +18,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: E3 Office 365, Microsoft 365 Business Standard 또는 Microsoft 365 Business Premium 비즈니스에 적합한지 여부를 결정해야 합니다.
-ms.openlocfilehash: 2f8c59e0af619730060862fc8ee24a702ca00343
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 비즈니스에 Office 365 E3, Microsoft 365 Business Standard 또는 Microsoft 365 Business Premium 적합한지 여부를 결정해야 합니다.
+ms.openlocfilehash: f186e61bff7962911864904415d1a4326931db819abf4f885a87132fd23290f4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861562"
 ---
 # <a name="what-subscription-is-right-for-your-small-business"></a>중소기업에 적합한 구독은 무엇입니까?
 

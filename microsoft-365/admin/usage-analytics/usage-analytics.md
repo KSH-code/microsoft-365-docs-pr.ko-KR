@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직에서 통신 및 공동 작업을 위해 Microsoft 365 채택하는 방법에 대한 개요를 얻습니다.
-ms.openlocfilehash: 77c1d8a2d2fe0288e7fbe8534ef76760baeac0aa
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 9e1518d85a583af100ea2734fdc1f526599e55b82882733c4516c7f88dcc2451
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394680"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887911"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 
@@ -60,7 +60,7 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함되어 있습니�
 
 - **통신** &ndash; 조직의 사용자들이 전화 통화, 메일, 전자 메일 또는 Teams, 전자 메일 또는 Yammer 연락을 선호하는지 여부를 한눈에 Skype 있습니다. 직원 간 통신 도구를 사용하는 패턴이 변화하는지 관찰할 수 있습니다. 
 
-- **공동 작업** &ndash; 조직의 사용자들이 문서를 저장하고 OneDrive SharePoint 사용하여 문서를 저장하고 공동 작업하는 방법과 이러한 추세가 월별로 어떻게 진화하는지 참조합니다. 내부 또는 외부적으로 공유되는 문서 수와 소유자 및 기타 공동 작업자가 SharePoint 사이트 또는 OneDrive 계정의 수를 볼 수도 있습니다.
+- **공동 작업** &ndash; 조직의 사용자들이 문서를 저장하고 OneDrive SharePoint 사용하여 문서를 저장하고 공동 작업하는 방법과 이러한 추세가 월별로 어떻게 진화하는지 참조합니다. 또한 내부 또는 외부적으로 문서를 공유한 사용자 수와 소유자 및 기타 공동 작업자가 SharePoint 또는 OneDrive 계정을 사용한 사용자 수를 볼 수도 있습니다.
 
 - **Storage** &ndash; 이 보고서를 사용하여 사서함, 사서함 및 사이트 OneDrive 클라우드 SharePoint 추적할 수 있습니다.
 
@@ -80,7 +80,7 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함되어 있습니�
 
 ## <a name="user-activity"></a>사용자 활동
 
-특정 개별 서비스에 대해 사용자 활동 보고서를 사용할 수 있습니다. 이러한 보고서는 Active Directory 특성과 조인된 사용자 수준 세부 사용 현황 데이터를 제공합니다. 또한 부서 채택 보고서를 사용하면 Active Directory 특성으로 분할하여 모든 개별 서비스에서 활성 사용자를 볼 수 있습니다. 모든 메트릭은 최근 전체 월에 대해 집계됩니다.
+특정 개별 서비스에 대해 사용자 활동 보고서를 사용할 수 있습니다. 이러한 보고서는 Active Directory 특성과 조인된 사용자 수준 세부 사용 현황 데이터를 제공합니다. 또한 부서 채택 보고서를 사용하면 Active Directory 특성으로 분할하여 모든 개별 서비스에서 활성 사용자를 볼 수 있습니다. 모든 메트릭은 최근 전체 월에 대해 집계됩니다. 콘텐츠 날짜를 확인하려면 테이블 페이지로 이동하여 TimeFrame의 값이 보고 기간을 제공하는 UserActivity 테이블을 선택합니다. 
 
 ## <a name="faq"></a>FAQ
 

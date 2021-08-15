@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Microsoft 365 Business Premium 장치에서 Windows 10 보호 설정의 유효성을 검사하고 사용자가 회사 데이터를 개인 파일 또는 관리되지 않는 앱에 복사할 수 없는지 확인합니다.
-ms.openlocfilehash: e319ffa5149f055b5de45078facc8899acffc223
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: ab084ded5ef052a7b85839f0debb96eb1bc5bdf332230293613396825c7263f0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861721"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Windows 10 PC에서 앱 보호 설정 유효성 검사
 

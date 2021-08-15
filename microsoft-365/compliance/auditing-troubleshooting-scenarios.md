@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일 계정에 대한 일반적인 Microsoft 365 문제를 해결하는 데 도움이 되는 감사 로그 검색 도구를 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 22d511fa2ad538c4ec9729fb051caefad6c3e974
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 2a758114f361f3d13f0393780ef9b1e149fd421960bee627e3fb4ff41d100859
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341056"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53906377"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색하여 일반적인 지원 문제 조사
 
@@ -43,7 +43,7 @@ ms.locfileid: "53341056"
 
 ### <a name="permissions-required-to-use-the-audit-log-search-tool"></a>감사 로그 검색 도구를 사용하는 데 필요한 사용 권한
 
-감사 로그를 검색하려면 View-Only 감사 로그 또는 감사 Exchange Online 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 조직 및 Office 365 Microsoft 365 전역 관리자가 조직의 조직 관리 역할 그룹의 구성원으로 Exchange Online. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
+감사 로그를 검색하려면 View-Only 감사 로그 또는 감사 Exchange Online 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. Office 365 및 Microsoft 365의 전역 관리자는 자동으로 Exchange Online 서비스에서 조직 관리 역할 그룹의 구성원이 됩니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 
 ### <a name="running-audit-log-searches"></a>감사 로그 검색 실행
 

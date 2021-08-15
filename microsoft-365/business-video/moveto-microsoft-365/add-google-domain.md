@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Google Workspace에서 비즈니스용 도메인으로 도메인을 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: 814e714527467bb6e7008ea141989f3117ddcdd8
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 77d1284d842c862eb8044db0fc461618e48300756ca462fa3ac957a4eea82e84
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861578"
 ---
 # <a name="add-your-google-workspace-domain-to-microsoft-365"></a>Google Workspace 도메인을 추가하여 Microsoft 365
 
@@ -36,8 +36,8 @@ ms.locfileid: "51578774"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 [관리 센터로 이동하세요.](https://admin.microsoft.com)
-1. in the Microsoft 365 Admin Center, in the left nav, select **Show all**, **설정** and then **Domains**.
+1. 으로 [이동하여 Microsoft 365 관리 센터.](https://admin.microsoft.com)
+1. in the Microsoft 365 관리 Center, in the left nav, select **Show all**, **설정** and then **Domains**.
 1. 도메인 **추가를** 선택하고 도메인 이름을 입력한 다음 이 **도메인 사용을 선택합니다.** 
 1. **TXT** 레코드를 도메인 DNS 레코드에 추가를 선택하고 계속을 선택하고 TXT 값을 복사합니다. 
 1. Go back to the [Google Admin Console](https://admin.google.com), choose **Domains**, **Manage domains**, View **Details**, **Manage domain**, **DNS**, and then scroll down to Custom **resource records**. 

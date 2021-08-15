@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 보다 복잡한 설정 및 작업에 Microsoft 365 대시보드 보기를 관리하려면 이 보기의 간소화된 보기를 사용합니다.
-ms.openlocfilehash: 61b2fb004ab4c1a84b5550065dd44f7ff7e432d8
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 585deb5d4d1b7bf5758854ee90f31150ef1ed9e08b06c4402c90b7324965fad8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227658"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53873162"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 개요
 
@@ -148,44 +148,44 @@ UserVoice 포럼의 관리 센터 외부에서 피드백을 줄 수도 있습니
 |언어 |Locale |
 |---------|---------|
 |아랍어 | ar |
-|불가리아어 | bg |
-|카탈로니아어 | ca |
-|체코어 | cs |
-|덴마크어 | da |
-|독일어 | de |
-|그리스어 | el |
-|스페인어 | es |
+|Bulgarian | bg |
+|Catalan | ca |
+|Czech | cs |
+|Danish | da |
+|German | de |
+|Greek | el |
+|Spanish | es |
 |영어 | en |
-|에스토니아어 | et |
-|바스크어 | eu |
-|핀란드어 | fi |
-|프랑스어 | fr |
-|갈리시아어 | gl |
-|히브리어 | he |
-|크로아티아어 | hr |
-|헝가리어 | hu |
-|인도네시아어  | id |
-|이탈리아어 | it |
+|Estonian | et |
+|Basque | eu |
+|Finnish | fi |
+|French | fr |
+|Galician | gl |
+|Hebrew | he |
+|Croatian | hr |
+|Hungarian | hu |
+|Indonesian  | id |
+|Italian | it |
 |일본어 | ja |
 |한국어 | ko |
-|리투아니아어 | lt |
-|라트비아어 | lv |
-|네덜란드어 | nl |
+|Lithuanian | lt |
+|Latvian | lv |
+|Dutch | nl |
 |노르웨이어 | 아니요 |
-|폴란드어 | pl |
+|Polish | pl |
 |포르투갈어(브라질) | pt |
 |포르투갈어(포르투갈) | pt-pt |
-|루마니아어 | ro |
-|러시아어 | ru |
-|슬로바키아어 | sk |
-|슬로베니아어 | sl |
+|Romanian | ro |
+|Russian | ru |
+|Slovak | sk |
+|Slovenian | sl |
 |세르비아어(키릴 자모)  | sr-cyrl |
 |Serbian Latin | sr |
-|스웨덴어 | sv |
-|태국어 | th |
-|터키어 | tr |
-|우크라이나어 | uk |
-|베트남어 | vi |
+|Swedish | sv |
+|Thai | th |
+|Turkish | tr |
+|Ukrainian | uk |
+|Vietnamese | vi |
 |Chinese Simplified | zh-hans |
 |Chinese Traditional | zh-hant |
 

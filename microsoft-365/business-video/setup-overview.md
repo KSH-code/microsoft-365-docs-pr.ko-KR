@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자 설정에 필요한 내용을 Microsoft 365 Business Premium.
-ms.openlocfilehash: 70d0bf00afaa1a504097ac80598f9c1b1a184b05
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 9a88b5269b4c3c4b566f50baf535a5896e9ad2bdde148eb82323b31dcdb64420
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53831581"
 ---
 # <a name="overview-of-microsoft-365-business-premium-setup"></a>설치 Microsoft 365 Business Premium 개요
 
@@ -55,7 +55,7 @@ ms.locfileid: "51580405"
 
 - 전자 [Office 365 Business Essentials,](https://www.microsoft.com/en-us/p/office-365-business-essentials/cfq7ttc0k59v?rtc=1&amp;activetab=pivot:overviewtab) 문서 만들기, 공동 작업 및 클라우드 저장소에 대한 온라인 앱(웹 브라우저에서 액세스할 수 있는 앱)만 원할 경우 이 옵션을 선택하세요. 여기에는 Word Online, Excel Online, PowerPoint Online 및 SharePoint 포함됩니다.
 - [Office 365 Business Premium Word,](https://products.office.com/en-us/business/office-365-business-premium) Excel 및 mac에서 직접 실행되는 Office 앱의 기능이 풍부한 Teams 앱을 사용하려는 경우 Teams 옵션을 선택하세요. 이는 온라인 앱에 추가됩니다.
-- 모든 [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business?rtc=1) 앱과 클라우드 보안 및 장치 Office 원하는 경우 앱을 선택하세요. 여기에는 바이러스, 맬웨어, 랜섬웨어 등을 보호하는 것뿐만 아니라 장치 관리 및 암호화가 포함됩니다. 또한 이전 버전의 Windows 10 Pro 업그레이드를 무료로 Windows Professional 있습니다.
+- 모든 [Microsoft 365 앱과](https://www.microsoft.com/microsoft-365/business?rtc=1) 클라우드 보안 및 장치 관리를 Office 비즈니스를 선택하세요. 여기에는 바이러스, 맬웨어, 랜섬웨어 등을 보호하는 것뿐만 아니라 장치 관리 및 암호화가 포함됩니다. 또한 이전 버전의 Windows 10 Pro 업그레이드를 무료로 Windows Professional 있습니다.
 - 대기업이 되거나 더 복잡한 IT 앱 및 서비스가 필요한 경우 Microsoft 365 Enterprise [계획에 대해 자세히 알아보아야 합니다.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
 
 
@@ -74,12 +74,12 @@ ms.locfileid: "51580405"
 
 ## <a name="4-enable-threat-protection"></a>4. 위협 방지 사용
 
-- 서비스를&#39;Advanced Threat Protection을 켜야 합니다. Microsoft 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, SharePoint, OneDrive 및 Microsoft Teams 보호, 피싱 방지 보호 및 실시간 위협 감지를 비롯한 구성, 보호 및 검색 기능이 포함되어 있습니다.
+- 서비스를&#39;Advanced Threat Protection을 켜야 합니다. Microsoft 365 Advanced Threat Protection에는 금고 첨부 파일, 금고 링크, SharePoint, OneDrive 및 Microsoft Teams 보호, 피싱 방지 보호 및 실시간 위협 감지를 비롯한 구성, 보호 및 검색 기능이 포함되어 있습니다.
 - 기본적으로&#39;온라인 위협에 대한 핵심 보호에 대한 도움말을 받을 수 있지만 나중에 비즈니스 요구에 맞게 이러한 설정을 사용자 지정할 수 있습니다.
 
 ## <a name="5-manage-and-secure-your-devices"></a>5. 디바이스 관리 및 보안
 
-- 이 Microsoft 365 Business Premium 장치를 보호하고, 온라인 위협으로부터 보호하고, 우발적인 데이터 손실을 방지할 수 있습니다. 또한 앱 및 Windows Defender, BitLocker 및 자동 Windows 10 Pro Office 있습니다.
+- 이 Microsoft 365 Business Premium 장치를 보호하고, 온라인 위협으로부터 보호하고, 우발적인 데이터 손실을 방지할 수 있습니다. 또한 앱 및 Windows Defender, BitLocker 및 자동 Windows 10 Pro 다운로드할 Office 있습니다.
 - MFA(Multi-Factor Authentication), 전자 메일 암호화, 맬웨어 보호 및 랜섬웨어 보호를 설정하여 장치 및 데이터에 대한 무단 액세스를 방지할 수 있습니다.
 - PC, SharePoint 또는 비즈니스용 OneDrive 또는 모바일 장치에 로컬로 저장된 중요한 작업 데이터를 보호할 수 있습니다. 기본 제공 모바일 장치 관리(MDM)Microsoft 365 iPhone, iPad, Androids 및&#39; 휴대폰과 같은 모바일 장치를 사용하여 사용자를 보호하고 Windows 있습니다. MDM을 사용하면 장치 보안 정책을 만들고 관리하며, 원격으로 장치를 지우고, 자세한 장치 보고서를 볼 수 있습니다.
 

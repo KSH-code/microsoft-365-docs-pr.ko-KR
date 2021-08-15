@@ -17,20 +17,18 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: Microsoft 365 관리 센터에서 타사 앱을 활성화하고 관리하는 방법에 대해 자세히 알아보습니다.
+description: 앱에서 타사 앱을 활성화하고 관리하는 방법을 Microsoft 365 관리 센터.
 ms.date: 04/15/2021
-ms.openlocfilehash: 5a486dba03fbd34fe2e409bba8ba41c1f9873141
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d7de6613ae77d70631b926ac1c2e72fab8b1837bacaf6f6f0e5a4735ef5dd06b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53831438"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직의 타사 앱 구독 관리
 
-새 관리 센터에서 타사 앱에 대한 라이선스 및 청구를 관리할 Microsoft 365 있습니다. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
-
-미리 보기 모드가 켜져 있는 Microsoft 365 관리 센터에서 타사 앱에 대한 라이선스 및 청구를 관리할 수 있습니다. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
+새 앱 관리에서 타사 앱에 대한 라이선스 및 청구를 관리할 수 Microsoft 365 관리 센터. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>서비스로 소프트웨어 앱을 다운로드하는 방법
 
@@ -40,7 +38,7 @@ ms.locfileid: "52331625"
 - **파트너 구매** – 파트너 센터를 통해 파트너와 협력하여 구독을 구매합니다.
 - **Microsoft 제안** – 타사 앱을 포함하는 Microsoft Sales의 제안에 응답합니다.
 
-고객이 앱을 구매하고 Microsoft 고객 계약에 동의하면 Microsoft 365 관리 센터에서 관리할 수 비즈니스용 Microsoft Store.
+고객이 앱을 구매하고 Microsoft 고객 계약에 동의하면 앱 또는 Microsoft 365 관리 센터 관리할 수 비즈니스용 Microsoft Store.
 
 앱 공급자는 앱을 단가로 판매하거나 사용자용 라이선스를 구입하여 판매합니다.
 
@@ -76,7 +74,7 @@ ms.locfileid: "52331625"
 
 ## <a name="manage-third-party-apps"></a>타사 앱 관리
 
-관리자는 관리 센터 및 타사 Microsoft 365 포털의 두 위치에서 타사 앱을 관리합니다.
+관리자는 타사 앱과 타사 Microsoft 365 관리 센터 포털의 두 위치에서 타사 앱을 관리합니다.
 
 다음은 각 포털에서 할 수 있는 일입니다.
 

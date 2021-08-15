@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 보다 안전한 사용자 인증 및 권한 부여를 Exchange Server HMA(하이브리드 최신 인증)를 사용하도록 하이브리드 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 21ffec620ac3e262679fc0e2385f6f0f1b31933b
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 28dd2443ccf55075a1c451b15c19d3fd6804bc82588e4c21dd52e63250f71b08
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53850150"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>하이브리드 최신 인증을 사용하도록 Exchange Server 온-프레미스를 구성하는 방법
 
@@ -140,7 +140,7 @@ OAuth가 서버 및 네 개의 가상디렉터에서 누락된 경우 계속하�
 이 마지막 명령에 대한 Exchange 관리 셸을 실행합니다. 이제 evoSTS 인증 공급자에 대한 항목이 On-프레미스에 유효한지 확인할 수 있습니다.
 
 ```powershell
-Get-AuthServer | where {$_.Name -like "EvoSts"}
+Get-AuthServer | where {$_.Name -like "*EvoSts*"}
 ```
 
 출력에 이름 EvoSts의 AuthServer가 표시되어 '사용' 상태가 True가 됩니다. 이 설정이 없는 경우 최신 버전의 하이브리드 구성 마법사를 다운로드하여 실행해야 합니다.

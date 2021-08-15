@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 66dba0402a83e6375c64f965464973139bd4ea9a
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 020c9fb0223ed7deb5ddffa5150655d5fc41935432f4a8354ee8de6de69a5e80
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861390"
 ---
 # <a name="payment-information-for-cyprus"></a>키프로스 결제 정보
 
@@ -31,6 +31,6 @@ EUR로만 결제하고 송장 번호를 송장 번호를 송금합니다.
 **은행:** Citibank, London  
 **SWIFT/BIC 코드:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**SORT 코드:** 185008  
-**계정 번호:** 12207591  
+**SORT 코드: 185008**  
+**계정 번호: 12207591**  
 **계정 이름:** MICROSOFT

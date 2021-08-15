@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: GEA150
 description: 30일 무료 평가판에 등록하여 Microsoft 365 Business Standard, Microsoft 365 Business Premium 또는 비즈니스용 Microsoft 365 앱.
 ms.date: 08/07/2020
-ms.openlocfilehash: 1ef3ceffb795a25ebad0bac1e37dd12df6f62d90
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 794b278be829a30bbea4833253ef45d75f1f1048add2ce493b2b65c1093b5de4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861330"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 사용해 보거나 구입
 

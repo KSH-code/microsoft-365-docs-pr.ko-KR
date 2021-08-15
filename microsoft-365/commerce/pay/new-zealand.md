@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4ff9056421d32abf83970356f9f99d9aea2adc3f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 21711c1e992ef5c6cee0ead839f35327f90a04fe855213913b29283637cb273c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53906462"
 ---
 # <a name="payment-information-for-new-zealand"></a>뉴질랜드의 결제 정보
 
@@ -36,13 +36,13 @@ ms.locfileid: "52535341"
 **SWIFT 코드:** CITINZ2X  
 **접미사(3자리):** 004  
 **접미사(2자리):** 04  
-**계정 번호:** 0026181  
+**계정 번호: 0026181**  
 **계정 이름:** MICROSOFT
 
 2021년 3월 1일부터 주문 및 소비에 대해 **Microsoft New Zealand Limited에서** 청구한 송장이 있는 경우 다음 은행 정보를 사용하세요.
 
 **은행:** Citibank, N.A. 뉴질랜드 분기  
 **SWIFT 코드:** CTINZ2X  
-**BSB:** 312825  
-**계정 번호:** 0008655083  
+**BSB: 312825**  
+**계정 번호: 0008655083**  
 **계정 이름:** MICROSOFT

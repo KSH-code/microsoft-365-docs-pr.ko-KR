@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b553c543989798f46e3e0301c36cfe6b5de80546
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 9adb3b64ce53609a416f05fbf89fc064a2cafad6596c8dbf78bc329c5937089c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287566"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861402"
 ---
 # <a name="payment-information-for-canada"></a>캐나다의 결제 정보
 
@@ -34,6 +34,6 @@ ms.locfileid: "53287566"
 
 2021년 3월 1일부터 주문 및 소비에 대해 **Microsoft Canada Inc.에서** 청구한 송장이 있는 경우 다음 은행 정보를 사용하세요.
 
-**은행:** Citibank N.A., 캐나다 분기 라우팅 **번호:** 032820012 **BIC/SWIFT 코드:** CITICATTBCH 계정 **번호:** 3003600001 **계정 이름:** MICROSOFT
+**은행:** Citibank N.A., 캐나다 지점 라우팅 **번호:** 032820012 **BIC/SWIFT 코드:** CITICATTBCH 계정 **번호:** 3003600001 **계정 이름:** MICROSOFT
 
 현지 Microsoft 자회사에서 발급한 송장은 표준 세율의 VAT/판매세/GST로 발급된 것으로, VAT/판매세/GST 목적에 대한 국내 서비스 공급으로 표시됩니다.

@@ -15,19 +15,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 도메인을 도메인에 연결하는 방법을 Microsoft 365.
-ms.openlocfilehash: 1bec66a43026321ddf1979c73902a533bee3a07b
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: b91b6fcc297449906e54a8f61f52b9d3c8b01ca6d009d43fa69a5873b81eb873
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925113"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887866"
 ---
 # <a name="connect-your-domain-to-microsoft-365-for-business"></a>커넥트 도메인을 비즈니스용 Microsoft 365 수 있도록 설정
 
@@ -43,7 +42,7 @@ Google Workspace에서 전자 메일 Microsoft 365 설정하고 이동한 후 �
 1. 도메인, **도메인 관리,** **세부** 정보 **보기,** 도메인 관리, 왼쪽 nav에서 **DNS를** 선택합니다. 
 1. 아래로 스크롤하여 **가상** 레코드, **Google Workspace를** 열고 **삭제를** 선택한 다음 다시 **삭제를** 선택합니다.
 1. 아래로 스크롤하여 **사용자** 지정 리소스 레코드로 이동하여 이전에 사용자 지정 리소스 레코드에 대해 이전에 만들 수 있는 DNS 레코드를 포함하여 나타나는 기존 DNS 레코드를 Microsoft 365.
-1. Microsoft 365 [관리 센터로 이동하세요.](https://admin.microsoft.com)
+1. 으로 [이동하여 Microsoft 365 관리 센터.](https://admin.microsoft.com)
 1. 왼쪽 nav에서 모두 표시 **,** 설정 **를 선택 합니다.** 
 1. 그런 다음 기본 도메인을 선택 합니다.
 1. 설치 **계속 을** 선택한 다음 도메인을 연결하려면 계속을 **선택합니다.**
