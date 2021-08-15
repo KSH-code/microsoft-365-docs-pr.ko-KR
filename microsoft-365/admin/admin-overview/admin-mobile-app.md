@@ -1,5 +1,5 @@
 ---
-title: 관리자 Microsoft 365 앱에 대한
+title: 모바일 Microsoft 365 관리 앱
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -22,17 +22,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 앱을 다운로드하고 휴대폰 또는 태블릿에서 온라인 조직을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: f8834aca0835a209a4df32a934eca736c5f7808f
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+description: 앱 Microsoft 365 관리 휴대폰 또는 태블릿에서 온라인 조직을 관리하는 방법을 배울 수 있습니다.
+ms.openlocfilehash: c6990e8eed4a234c205b0a80b0a14faf18d0eeea6d607eb07b00682d17c40ab5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683238"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53827186"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>관리자 Microsoft 365 앱
 
-이동 중이던 관리자인가요? 그렇지 않은 경우에도 휴대폰이나 태블릿에서 Microsoft 365 때가 있을 수 있습니다. 무료 Microsoft 365 [관리](https://go.microsoft.com/fwlink/?LinkID=627216)앱인 웹 기반 관리 센터와 완벽한 Microsoft 365 확인하세요. Apple App [Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8)및 Google Play 스토어에서 앱을 [다운로드할 수 있습니다.](https://play.google.com/store/apps/details?id=com.ms.office365admin&referrer=utm_source%3Ddocsaboutadminapp%26utm_campaign%25docsaboutadminapp)
+이동 중이던 관리자인가요? 그렇지 않은 경우에도 휴대폰이나 태블릿에서 Microsoft 365 때가 있을 수 있습니다. 무료 Microsoft 365 관리 [앱인](https://go.microsoft.com/fwlink/?LinkID=627216)웹 기반 앱과 완벽하게 어우러진 앱을 Microsoft 365 관리 센터. Apple App [Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8)및 Google Play 스토어에서 앱을 [다운로드할 수 있습니다.](https://play.google.com/store/apps/details?id=com.ms.office365admin&referrer=utm_source%3Ddocsaboutadminapp%26utm_campaign%25docsaboutadminapp)
 
 :::image type="content" source="../../media/DocsMicrosoftFinalImage.PNG" alt-text="Screenshot: Admin mobile app's home page, displaying search, Message center, health, and quick links":::
 
@@ -93,7 +93,7 @@ ms.locfileid: "52683238"
   
 ### <a name="what-languages-are-supported-by-the-app"></a>앱에서 지원되는 언어는 무엇인가요?
 
-앱은 웹 기반 앱 관리 센터에서 지원하는 39개 Microsoft 365 지원됩니다. 언어를 변경하려면 관리 센터의 왼쪽 탐색 메뉴에서 설정 언어로 이동하거나 관리 모바일 앱 홈 페이지의 빠른 링크 섹션에서 언어  >   아이콘을 선택합니다.  
+앱은 웹 기반 응용 프로그램 지원 39개 Microsoft 365 관리 센터 지원됩니다. 언어를 변경하려면 관리 센터의 왼쪽 탐색 메뉴에서 설정 언어로 이동하거나 관리 모바일 앱 홈 페이지의 빠른 링크 섹션에서 언어  >   아이콘을 선택합니다.  
   
 ### <a name="how-can-i-share-the-service-incidents-and-messages-with-the-rest-of-my-organization"></a>조직의 다른 사람들과 서비스 인시던트 및 메시지를 공유하려면 어떻게 하나요?
 

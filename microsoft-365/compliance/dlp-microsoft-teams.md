@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Teams 채널은 DLP(데이터 손실 방지) 정책을 지원합니다.
-ms.openlocfilehash: fa7e0967e24d8fa5e64b84fbccf54ff8cf45d1d6
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c71001ec81326df07362c4caa34a2f9d382fb3eb3b18d790a3883f369b41aba7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53851290"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "52843545"
     > [!NOTE]
     > 다음을 Microsoft Teams 사용자와 공유하는 경우 중요한 Microsoft Teams 차단하는 DLP입니다.<br/>- [팀 및](/MicrosoftTeams/guest-access) 채널의 게스트 액세스 또는<br/>- [모임 및](/MicrosoftTeams/manage-external-access) 채팅 세션의 외부 액세스 <p>외부 채팅 세션에 대한 DLP는 보낸 사람 및 수신자가 모두 Teams 전용 모드에 있으며 기본 Microsoft Teams [사용하는 경우만 사용할 수 있습니다.](/microsoftteams/manage-external-access) Teams 대한 DLP는 비즈니스용 Skype 비 네이티브 페더러드 채팅 세션과 상호 연결되는 메시지를 차단하지 않습니다. [](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business)
 
-- **예제 2: 문서의 중요한 정보 보호** 다른 사용자가 특정 채널 또는 채팅에서 게스트와 문서를 공유하려고 Microsoft Teams 중요한 정보가 포함된 경우를 가정해 보세요. 이를 방지하는 DLP 정책이 정의되어 있는 경우 해당 사용자에 대해 문서가 열리지 않습니다. 이 보호 기능을 사용하려면, DLP 정책에 SharePoint 및 OneDrive가 포함되어야 합니다. SharePoint DLP의 예로 Microsoft Teams 에 표시하므로 사용자에게 Office 365 DLP(Office 365 E3에 포함)에 대한 라이선스가 필요하지만 사용자에게 Office 365 Advanced Compliance.
+- **예제 2: 문서의 중요한 정보 보호** 다른 사용자가 특정 채널 또는 채팅에서 게스트와 문서를 공유하려고 Microsoft Teams 중요한 정보가 포함된 경우를 가정해 보세요. 이를 방지하는 DLP 정책이 정의되어 있는 경우 해당 사용자에 대해 문서가 열리지 않습니다. 이 보호 기능을 사용하려면, DLP 정책에 SharePoint 및 OneDrive가 포함되어야 합니다. 이 예는 SharePoint 에 표시되어 사용자에게 Office 365 Microsoft Teams DLP(Office 365 E3에 포함)에 대한 라이선스가 필요하지만 사용자에게 Office 365 Advanced Compliance.)
 
 ## <a name="dlp-licensing-for-microsoft-teams"></a>사용자에 대한 DLP Microsoft Teams
 
@@ -70,7 +70,7 @@ DLP 보호는 엔터티에 Teams 다르게 적용됩니다.
 
 ## <a name="policy-tips-help-educate-users"></a>정책 팁은 사용자를 교육하는 데 도움이 됩니다.
 
-웹, [Exchange, Outlook,](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web)Outlook, SharePoint [Online,](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)비즈니스용 OneDrive 사이트 및 Office 데스크톱 클라이언트에서 DLP가 작동하는 방식과 마찬가지로 DLP 정책을 사용하여 작업이 트리거될 때 정책 [팁이](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)표시됩니다. 정책 팁의 예는 다음과 같습니다.
+Exchange, [Outlook, 웹용 Outlook,](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web)SharePoint [Online,](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)비즈니스용 OneDrive 사이트 및 Office 데스크톱 클라이언트에서 DLP가 작동하는 방식과 마찬가지로 DLP 정책을 사용하여 작업이 트리거될 때 정책 [팁이](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)나타납니다. 정책 팁의 예는 다음과 같습니다.
 
 ![차단된 메시지 알림의 Teams](../media/dlp-teams-blockedmessage-notification.png)
 

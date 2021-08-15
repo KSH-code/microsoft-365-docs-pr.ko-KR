@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4f374dc7-b96c-49c7-80ed-554716ba0138
 description: 'IT 부서가 개입하지 않고도 직장 또는 학교 전자 메일을 사용하여 Microsoft 온라인 서비스에 등록하는 방법을 배워야 합니다. '
-ms.openlocfilehash: ad46d698398da32d88d0c1617499b326e8fcb163
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: ce1c8ec579f8d60bb68921c9e03ae1efbb48e8c5fb2a345ae85d94c7921d8371
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644870"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823678"
 ---
 # <a name="your-domain-may-be-in-use-if-someone-else-signed-up-with-it"></a>다른 사용자가 도메인에 등록한 경우 도메인이 사용 중일 수 있습니다.
 

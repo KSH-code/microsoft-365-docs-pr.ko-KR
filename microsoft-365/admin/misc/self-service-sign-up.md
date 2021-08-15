@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Power Apps Microsoft Microsoft 365, Microsoft Flow 및 Dynamics 365 for Finance와 같은 셀프 서비스 등록 및 사용 가능한 셀프 서비스 프로그램에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 7aec03abce468342cfeb23da490b1f950ecd7050
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: e1a11db1e5fe1d6cb35d1583a6a6fc9f7bb73e16d76e98d2c8cb739223d22db3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823810"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 
@@ -60,5 +60,5 @@ ms.locfileid: "53286588"
 |**Minecraft Education Edition** <br/> |교사는 Minecraft 플랫폼으로 사용하여 모든 학생에게 더 많은 성과를 거는 동기를 부여하고 영감을 주며 학습에 대한 열정을 불어넣을 수 있습니다. 교육자 커뮤니티에 참여하여 학생 잠재력을 Minecraft 방법을 학습합니다.  <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
 |**Microsoft Stream** <br/> |업로드, 참여 및 학습을 개선하기 위해 조직 전체에서 비디오를 공유하고 관리합니다.  <br/> |[&amp;0일 환경 등록](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**Power Automate** <br/> |Power Automate 파일을 동기화하고, 알림을 받고, 데이터를 수집하는 등 즐겨 사용하는 앱과 서비스 간에 자동화된 워크플로를 설정하는 데 도움이 되는 제품입니다.  <br/> |[등록하고 로그인하여 Power Automate](/power-automate/sign-up-sign-in) <br/> |[Power Automate](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
-|**파워 가상 에이전트** <br/> |Power Virtual Agents 팀이 데이터 보호나 개발자 없이도 코드 없는 안내 그래픽 인터페이스를 사용하여 강력한 봇을 쉽게 만들 수 있도록 합니다. Power Virtual Agents 업계에서 봇을 구축할 때의 많은 주요 문제를 해결합니다. 주제 전문가와 봇을 구축하는 개발 팀 간의 간격과 문제를 인식하고 봇을 업데이트하여 문제를 해결하기 위해 봇을 업데이트하는 팀 간의 긴 대기 시간을 제거합니다.  <br/> |[라이선스 및 액세스 세부 정보](/power-virtual-agents/requirements-licensing) <br/> |[등록을 Power Virtual Agents](https://aka.ms/TryPVA) <br/> |
+|**Power Virtual Agents** <br/> |Power Virtual Agents 팀이 데이터 보호나 개발자 없이도 코드 없는 안내 그래픽 인터페이스를 사용하여 강력한 봇을 쉽게 만들 수 있도록 합니다. Power Virtual Agents 업계에서 봇을 구축할 때의 많은 주요 문제를 해결합니다. 주제 전문가와 봇을 구축하는 개발 팀 간의 간격과 문제를 인식하고 봇을 업데이트하여 문제를 해결하기 위해 봇을 업데이트하는 팀 간의 긴 대기 시간을 제거합니다.  <br/> |[라이선스 및 액세스 세부 정보](/power-virtual-agents/requirements-licensing) <br/> |[등록을 Power Virtual Agents](https://aka.ms/TryPVA) <br/> |
 |**Azure AD B2B** <br/> |Azure Active Directory(Azure AD) B2B(Business-to-Business) 공동 작업을 통해 유료 Azure AD 서비스를 사용하기 위해 외부 사용자(또는 "게스트 사용자")를 초대할 수 있습니다. 일부 기능은 무료이지만 유료 Azure AD 기능의 경우 직원 또는 테넌트의 게스트가 아닌 사용자에 대해 소유한 각 Azure AD 버전 라이선스에 대해 최대 5개의 게스트 사용자를 초대할 수 있습니다. <br/> |[Azure AD B2B 공동 작업 등록을 위한 셀프 서비스](/azure/active-directory/b2b/self-service-portal) <br/> |[Azure Active Directory B2B 공동 작업 라이선싱 지침](/azure/active-directory/b2b/licensing-guidance) <br/> |

@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 지원 사례에 대한 eDiscovery 진단 정보를 수집하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b2441e0b7af8a82e24a8acca9e000e954e1c8964
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 99edb19e61e3b403f283fcb3b73636308cf494ddbea199c01858007e8844d960
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53886326"
 ---
 # <a name="collect-ediscovery-diagnostic-information"></a>eDiscovery 진단 정보 수집
 

@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: ''
 description: '요약: 높은 Office 365 GCC DNS 레코드'
 hideEdit: true
-ms.openlocfilehash: 9edcda4616d50d05331db0e2d6c4d89967b02fdc
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ff4a3e9f4711cc61352d1b547f195054eab9b3fb2181280718f386545fea83fe
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53859062"
 ---
 # <a name="dns-records-for-office-365-gcc-high"></a>Office 365 GCC High용 DNS 레코드
 

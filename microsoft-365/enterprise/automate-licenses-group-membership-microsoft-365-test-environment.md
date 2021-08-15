@@ -15,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: 엔터프라이즈 테스트 환경에 대한 사용자 Microsoft 365 그룹 기반 라이선싱 및 동적 그룹 구성원을 구성합니다.
-ms.openlocfilehash: 26840e2884202a0fa9c4bb563f3d7c653482ef87
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8835498f0b56eeafbc86f49a0be2df840359afbfdeb5518ca6fe521b64c8c652
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53859086"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 대한 사용자 Microsoft 365 라이선스 및 그룹 구성원 자동화
 
@@ -51,7 +51,7 @@ ms.locfileid: "50905371"
 
 먼저 Sales라는 새 그룹을 만들고, 부서가 **Sales로** 설정된 사용자  계정이 Sales 그룹에 자동으로 가입하도록 동적 그룹 구성원 규칙을 추가합니다.
 
-1. 인터넷 브라우저의 개인 인스턴스에서 Microsoft 365 테스트 [](https://admin.microsoft.com) 랩 구독의 전역 관리자 계정을 사용하여 Microsoft 365 E5 로그인합니다.
+1. 인터넷 브라우저의 개인 인스턴스에서 테스트 랩 [](https://admin.microsoft.com) Microsoft 365 관리 센터 전역 관리자 계정으로 Microsoft 365 E5 로그인합니다.
 2. 브라우저의 별도 탭에서 의 Azure Portal로 [https://portal.azure.com](https://portal.azure.com) 이동하세요.
 3. Azure Portal에서 **검색** 상자에 그룹을 입력한 다음 그룹을 **선택합니다.**
 4. 모든 **그룹 창에서** 새 그룹을 **선택합니다.**
@@ -75,7 +75,7 @@ ms.locfileid: "50905371"
 다음으로, 사용자 4 계정에서 동적 그룹 구성원 자격 및 자동 라이선싱을 테스트합니다.
 
 1. 브라우저의 **Microsoft Office 홈** 탭에서 관리자 를 **선택합니다.**
-2. 관리 **Microsoft 365 탭에서** 활성 사용자를 **선택합니다.**
+2. Microsoft 365 관리 센터 **탭에서** 활성 **사용자를 선택합니다.**
 3. 활성 **사용자 페이지에서** 사용자 **4 계정을** 선택합니다.
 4. 사용자 **4 창에서** 제품 **라이선스에** 대해 **편집을 선택합니다.**
 5. 제품 라이선스 **창에서** Microsoft 365 E5 라이선스를 사용하지 않도록 설정한 다음 저장 **닫기** **를**  >  **선택합니다.**

@@ -15,17 +15,17 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 414d6ae0586078551c737e45763ea665d5eec4e6
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 0051b138d155ed4bdf41786f4a73439bba22c738ba7d2a73da44341437ba5c0c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53838574"
 ---
 # <a name="recommended-microsoft-cloud-app-security-policies-for-saas-apps"></a>SaaS Microsoft Cloud App Security 권장 정책
 Microsoft Cloud App Security Azure AD 조건부 액세스 정책을 사용하여 다운로드, 업로드, 복사 및 붙여넣기, 인쇄 차단과 같은 SaaS 앱을 사용하여 세부적인 작업을 실시간으로 모니터링하고 제어할 수 있습니다. 이 기능은 관리되지 않는 장치나 게스트 사용자가 회사 리소스에 액세스하는 경우와 같이 내재된 위험을 수반하는 세션에 보안을 추가합니다.
 
-Microsoft Cloud App Security Microsoft Information Protection과 기본적으로 통합되어 중요한 정보 유형 및 민감도 레이블에 따라 중요한 데이터를 찾고 적절한 조치를 취하기 위한 실시간 콘텐츠 검사를 제공합니다.
+Microsoft Cloud App Security 기본적으로 Microsoft Information Protection 콘텐츠 검사를 제공하여 중요한 정보 유형 및 민감도 레이블을 기반으로 중요한 데이터를 찾고 적절한 조치를 취하도록 합니다.
 
 이 지침에는 다음 시나리오에 대한 권장 사항이 포함되어 있습니다.
 

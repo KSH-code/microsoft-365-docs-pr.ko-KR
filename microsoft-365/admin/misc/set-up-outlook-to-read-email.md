@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Outlook Mac용 전자 메일 계정을 설정하는 방법과 Windows 앱을 설치하고 Office 전자 메일에 액세스하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: c4c0f845fcdba1011e0c025ff0e29a98ba7046d5
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 90335d30cd33807b0bfce044f6fc0f9d0a2ec4d10cafefa91b8de6bab8b7c461
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823753"
 ---
 # <a name="set-up-outlook-to-read-email"></a>전자 메일을 Outlook 설정
 

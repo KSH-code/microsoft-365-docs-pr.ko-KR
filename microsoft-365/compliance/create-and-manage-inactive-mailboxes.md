@@ -20,12 +20,12 @@ ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 ms.custom:
 - seo-marvel-apr2020
 description: 사서함의 비활성 사서함 기능을 사용하여 삭제된 사서함의 콘텐츠를 Microsoft 365.
-ms.openlocfilehash: acd00fedcf0949b7d0c9f85c17039105e9b34821
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: 7e0fa04d82a52bf41d763255239421eed8e47700b88756140bda81505c4d08f4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53866455"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>비활성 사서함 만들기 및 관리
 
@@ -65,7 +65,7 @@ Microsoft 365 사서함의 내용을 보존할 수 있습니다. 이 기능을 [
   
 ### <a name="step-2-delete-the-mailbox"></a>2단계: 사서함 삭제
 
-사서함을 보류하거나 보존 정책이 사서함에 적용된 후 다음 단계는 사서함을 삭제하는 것입니다. 사서함을 삭제하는 가장 좋은 방법은 Microsoft 365 관리 센터에서 해당 사용자 계정을 삭제하는 것입니다. 사용자 계정을 삭제하는 데 대한 자세한 내용은 조직에서 사용자 [삭제를 참조하세요.](../admin/add-users/delete-a-user.md)
+사서함을 보류하거나 보존 정책이 사서함에 적용된 후 다음 단계는 사서함을 삭제하는 것입니다. 사서함을 삭제하는 가장 좋은 방법은 사서함의 해당 사용자 계정을 삭제하는 Microsoft 365 관리 센터. 사용자 계정을 삭제하는 데 대한 자세한 내용은 조직에서 사용자 [삭제를 참조하세요.](../admin/add-users/delete-a-user.md)
   
 > [!NOTE]
 > PowerShell에서 **Remove-Mailbox** cmdlet을 사용하여 사서함을 삭제할 Exchange Online 있습니다. 자세한 내용은 [Delete or restore user mailboxes in Exchange Online.](/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes) 
@@ -74,9 +74,9 @@ Microsoft 365 사서함의 내용을 보존할 수 있습니다. 이 기능을 [
 
 조직의 비활성 사서함 목록을 확인 합니다.
 
-1. <https://compliance.microsoft.com>으로 이동한 후 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다.
+1. 으로 이동하여 조직의 전역 관리자 또는 준수 관리자 계정의 자격 증명을 사용하여 <https://compliance.microsoft.com> 로그인합니다.
 
-2. 규정 준수 센터의 왼쪽 탐색 Microsoft 365 모두 표시를 클릭한 다음 보존 에서 정보 **거버넌스 > 클릭합니다.** 
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 클릭한 다음 보존 에서 정보 **거버넌스 > 클릭합니다.** 
 
    ![보존 페이지에서 비활성 사서함 단추를 클릭합니다.](../media/MCCInactiveMailboxes1.png)
 

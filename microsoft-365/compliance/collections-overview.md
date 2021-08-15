@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 검색 Advanced eDiscovery 모음을 사용하여 사례 또는 조사와 관련이 있는 콘텐츠를 검색하고 수집할 수 있습니다.
-ms.openlocfilehash: e3f383fab31ec39f22bd781fc84644e3eeee57bb
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: e808db2829c8742fe34faa56965bacb79283b14b67a6ffbfccd8c43c88f12bac
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53866483"
 ---
 # <a name="learn-about-collections-in-advanced-ediscovery"></a>컬렉션에 대해 Advanced eDiscovery
 
@@ -38,7 +38,7 @@ eDiscovery Advanced eDiscovery 컬렉션을 사용하면 eDiscovery 관리자가
 
 관리자가 컬렉션의 범위와 응답성이 있을 것으로 예상되는 예상 콘텐츠 양에 만족하면 검토 집합에  콘텐츠를 추가하거나 커밋할 수 있습니다. 검토 집합에 컬렉션을 커밋할 때 해당 관리자에게는 채팅 대화, 클라우드 첨부 파일 및 문서 버전을 포함할 수 있는 옵션도 있습니다. 또한 컬렉션의 콘텐츠는 검토 집합으로 수집하는 동안 다른 처리 수준을 통과합니다. 컬렉션이 최종 컬렉션 요약으로 업데이트됩니다. 검토 집합에 콘텐츠를 추가한 후 eDiscovery 관리자는 콘텐츠를 계속 쿼리, 그룹화 및 구체화하여 최소화하고 검토할 수 있습니다. 또한 컬렉션은 검토 집합에 커밋된 콘텐츠에 대한 정보 및 통계로 업데이트됩니다. 컬렉션의 콘텐츠에 대한 기록 참조를 제공합니다.
 
-컬렉션이 릴리스되고 Advanced eDiscovery 준수 센터에서  검색 탭의 Advanced eDiscovery 컬렉션으로  Microsoft 365 있습니다. 컬렉션의 범위와 크기를 정의하는 단계는 검색과 동일한 프로세스에 따라 위치 및 조건을 정의합니다. 초안으로 저장 및 미리 보기 예상 결과 보기를 사용하면 전체 검색 및 컬렉션을 검토 집합에 커밋하기 전에 대상 컬렉션 범위를 빠르게 유효성 검사할 수 있습니다. 이렇게 하면 검색 및 수집 프로세스 중에 콘텐츠를 최소화하기 위해 작업을 관리하고 대상이 지정되는 작업을 다시 시작할 수 있습니다.
+컬렉션이 릴리스되고 Advanced eDiscovery 검색 탭의 경우  검색 탭의 Advanced eDiscovery 컬렉션으로 Microsoft 365 규정 준수 센터.  컬렉션의 범위와 크기를 정의하는 단계는 검색과 동일한 프로세스에 따라 위치 및 조건을 정의합니다. 초안으로 저장 및 미리 보기 예상 결과 보기를 사용하면 전체 검색 및 컬렉션을 검토 집합에 커밋하기 전에 대상 컬렉션 범위를 빠르게 유효성 검사할 수 있습니다. 이렇게 하면 검색 및 수집 프로세스 중에 콘텐츠를 최소화하기 위해 작업을 관리하고 대상이 지정되는 작업을 다시 시작할 수 있습니다.
 
 ## <a name="collections-workflow"></a>컬렉션 워크플로
 

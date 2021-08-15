@@ -20,12 +20,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365로 도메인을 확인하고 DNS 레코드 만드는 방법을 배웁니다.
 ms.custom:
 - AdminSurgePortfolio
-ms.openlocfilehash: 64984cc6631e4585b208b67970b1fc91402881ed
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 52fa6a1bfbf3bdbea51431022ab8ec7f8fe287d9a14afe0d8631df017999fdfe
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53648630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53823786"
 ---
 # <a name="connect-your-domain-to-microsoft-365"></a>Microsoft 365에 도메인 연결
 

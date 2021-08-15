@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: Bookings 활동의 4개월 보기를 보는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: ad0a21454cfe28cec521e545e587105e8f8a7454
-ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
+ms.openlocfilehash: 8fc8a41a982135550ae711e435905c9bd39460994b1f6757b633aea49a7a48a0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51887230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53838214"
 ---
 # <a name="reporting-info-for-bookings"></a>Bookings에 대한 보고 정보
 
@@ -58,6 +58,6 @@ ms.locfileid: "51887230"
 - **통화**   비즈니스에 대해 설정된 통화 유형입니다.
 - **Cc Attendees**   예약에 대한 전자 메일 알림을 받을 받는 사람입니다. 예약을 만들 때 Teams 앱에서 지정할 수 있습니다.
 - **등록된 참석자 수**   그룹 예약 서비스를 예약한 고객 수
-- **텍스트 알림 사용**   고객이 텍스트 관련 SMS 받을 수 있는지 여부입니다.
+- **텍스트 알림 사용**   고객이 SMS 텍스트 관련 알림을 받을 수 있는지 여부입니다.
 - **사용자 정의 필드**   단일 예약과 관련된 모든 질문과 대답이 이 필드에 결합됩니다.
 - **예약 ID**   이는 그룹 서비스의 동일한 예약을 식별하는 데 유용합니다.

@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: 독일의 Office 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: e08d3b72e8a87fa9cd5e5a1cc25d8178e4bd2183
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 4b266a0bce35da5abf73c85fb4028ac3650bd85582d4b7479a78359bbc89a3e0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297119"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53827122"
 ---
 # <a name="learn-about-office-365-germany"></a>독일 Office 365에 대해 알아보기
 
@@ -41,7 +41,7 @@ Deutsche Telekom의 독립적인 독일 회사이자 자회사인 T-Systems Inte
   
 ## <a name="which-microsoft-online-services-are-available-in-office-365-germany"></a>독일에서 사용할 수 있는 Microsoft 온라인 Office 365 있나요?
 
-Office 365 독일 요금제는 격리된 환경에서 최대한 전 세계 제품과 일치합니다. Yammer 관련 요금제, 수명이 끝나가는 요금제 및 비영리 프로그램을 통해 사용 가능한 요금제는 제외됩니다. Office 365 E5, SPE 및 기타 서비스는 독일에서 일반 공급된 Office 365 있습니다. 
+Office 365 독일 요금제는 격리된 환경에서 최대한 전 세계 제품과 일치합니다. Yammer 관련 요금제, 수명이 끝나가는 요금제 및 비영리 프로그램을 통해 사용 가능한 요금제는 제외됩니다. Office 365 E5, SPE 및 기타 서비스는 독일에서 일반 공급된 Office 365 제공됩니다. 
   
 다음과 같은 서비스 및 기능을 일부 [Office 365 Germany 구독 요금제](https://go.microsoft.com/fwlink/p/?linkid=839016)에서 사용할 수 있습니다. 또한 [온라인 서비스 약관](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46)을 참조하세요.
   

@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 보안 및 준수 센터에서 키워드 사전을 만드는 기본 단계에 대해 알아봅니다.
-ms.openlocfilehash: 1815605d78f3b623eba34bf4d0ec2899256e6385
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: d57d148143de9bb3c664c05f37e53e02c776fac891100e313889ba768cd98661
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53624215"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53866466"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
