@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 608fac50fc65f20a612b80ed151252eb2a0c2e01
-ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
+ms.openlocfilehash: b7511039c1d33722790e993e8cd9c8c89e1e620b2585255359cb14f59ddb1ece
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53415556"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56879487"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -81,7 +81,7 @@ ms.locfileid: "53415556"
 
 사용자 환경에서 랜섬웨어 페이로드를 제거하기 위한 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하는 것을 방지) Windows 10 및 Windows 8.1 또는 System Protection의 파일 기록을 Windows 7의 파일 기록을 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다. [](https://support.microsoft.com/help/17128)
 
-**참고**:
+**참고:**
 
 - 일부 랜섬웨어는 또한 백업 버전을 암호화하거나 삭제하기 때문에 파일 기록 또는 시스템 보호를 사용하여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명된 바와 같이 랜섬웨어 또는 랜섬웨어의 영향을 받지 OneDrive 장치에서 백업을 사용해야 합니다.
 

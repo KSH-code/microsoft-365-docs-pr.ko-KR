@@ -14,12 +14,12 @@ search.appverid:
 description: 관리자는 EOP(인바운드 메시지)에서 인바운드 메시지를 차단하는 사용 가능한 옵션과 기본 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c844378a19ba7995cbd616f615e8a84994f9bf26
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 31d311fb09f1a53298e3838ba3c3eccee1ee93e4c24ba3980b0d474642ddfe4f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56878237"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>EOP에서 차단된 보낸 사람 목록 만들기
 
@@ -70,7 +70,7 @@ EOP의 스팸 방지 정책에서 차단된 보낸 사람 목록 및 차단된 �
 
 ## <a name="use-blocked-sender-lists-or-blocked-domain-lists"></a>차단된 보낸 사람 목록 또는 차단된 도메인 목록 사용
 
-여러 사용자가 영향을 받는 경우 범위가 더 넓어지기 때문에 다음으로는 스팸 방지 정책의 차단된 보낸 사람 목록 또는 차단된 도메인 목록이 있습니다. 목록에 있는 보낸 사람이 보낸 메시지는 높은 지수 스팸으로 표시되어 있으며 높은  지수 스팸 필터 판정에 대해 구성한 작업이 메시지에 대해 수행됩니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+여러 사용자가 영향을 받는 경우 범위가 더 넓어지기 때문에 다음으로는 스팸 방지 정책의 차단된 보낸 사람 목록 또는 차단된 도메인 목록이 있습니다. 목록에 있는 보낸 사람이 보낸 메시지는 높은 지수 스팸으로 표시되어 있으며 높은  지수 스팸 필터 판정에 대해 구성한 작업이 메시지에 대해 수행됩니다. 자세한 내용은 [안티스팸 정책 구성](configure-your-spam-filter-policies.md)을(를) 참조합니다.
 
 이러한 목록의 최대 제한은 약 1,000개 항목입니다.
 

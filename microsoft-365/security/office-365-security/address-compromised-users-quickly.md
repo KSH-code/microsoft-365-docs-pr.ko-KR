@@ -15,12 +15,12 @@ ms.date: 06/10/2021
 description: Microsoft Defender for Office 365 계획에서 자동화된 조사 및 응답 기능을 통해 손상된 사용자 계정을 검색하고 처리하는 프로세스를 Office 365 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fd1ad6f52114340153f3958441bfb9500db67215
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 0f72b876570f7551694053d81d716dce8f92379c1d57a3f4bd8b1a83ffa57f7b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53867527"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동화된 조사 및 응답을 통해 손상된 사용자 계정 해결
 

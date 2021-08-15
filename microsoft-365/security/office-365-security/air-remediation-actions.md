@@ -21,12 +21,12 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 71c8ca842d9c88086dee041316899bbc08f943fe
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 156bc4cc6a68d8c2e6fc0d8074e31f6533e6e1f549f15f1fd8bfe66c9348298c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56879506"
 ---
 # <a name="remediation-actions-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -51,7 +51,7 @@ Microsoft Defender for Office 365 수정 작업은 자동으로 수행되지 않
 
 Microsoft Defender for Office 365 다양한 위협을 해결하기 위한 수정 작업이 포함되어 있습니다. 자동화된 조사를 수행하면 검토 및 승인할 수정 작업이 하나 이상 수행되는 경우가 종종 있습니다. 경우에 따라 자동화된 조사가 특정 수정 작업을 수행하지 않는 경우도 있습니다. 추가로 조사하고 적절한 조치를 취하기 위해 다음 표의 지침을 사용하세요.
 
-|범주|위협/위험|수정 작업|
+|Category|위협/위험|수정 작업|
 |:---|:---|:---|
 |전자 메일|맬웨어|전자 메일/클러스터 소프트 삭제 <p> 클러스터에 맬웨어가 포함된 전자 메일 메시지 수가 5개 이상인 경우 클러스터는 악성으로 간주됩니다.|
 |전자 메일|악성 URL <br> (링크에서 악성 [URL을 금고 검색되었습니다.](safe-links.md)|전자 메일/클러스터 소프트 삭제 <br> URL 차단(클릭 시간 확인) <p> 악의적인 URL이 포함된 전자 메일은 악의적인 것으로 간주됩니다.|

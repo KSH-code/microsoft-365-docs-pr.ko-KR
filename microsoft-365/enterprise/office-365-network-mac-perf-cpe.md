@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 라우팅 정보
-ms.openlocfilehash: 5275f8ea55afaf621555b440e7fae4a6d11cad91
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: 1a03a832e3c4121f948af0d6e7bc2ff37d2a2b925c7f7d69bac2773bed5abbfe
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53857994"
 ---
 # <a name="microsoft-365-informed-network-routing-preview"></a>Microsoft 365 네트워크 라우팅(미리 보기)
 
@@ -63,9 +63,9 @@ Microsoft는 다양한 파트너와 협력하여 정보를 Microsoft 365 네트�
 
 ## <a name="enabling-informed-network-routing"></a>정보 제공 네트워크 라우팅 사용
 
-정보를 제공된 네트워크 라우팅을 사용하려면 여러 단계가 필요하고, 그 중 일부는 SD-WAN 솔루션의 구성 인터페이스 내에서 수행해야 합니다. Microsoft 365 관리 센터에서 구성을 진행하기 전에 SD-WAN 솔루션 내에서 네트워크 정보 라우팅을 사용하도록 설정하는 프로세스를 시작하는 방법에 대한 지침은 SD-WAN 솔루션 공급업체에 문의하십시오.
+정보를 제공된 네트워크 라우팅을 사용하려면 여러 단계가 필요하고, 그 중 일부는 SD-WAN 솔루션의 구성 인터페이스 내에서 수행해야 합니다. SD-WAN 솔루션 공급업체에서 구성을 진행하기 전에 SD-WAN 솔루션 내에서 네트워크 정보 라우팅을 사용하도록 설정하는 프로세스를 시작하는 방법에 대한 지침을 Microsoft 365 관리 센터.
 
-Microsoft 365 관리 센터에서 정보 네트워크 라우팅을 사용하도록 설정할 준비가 Microsoft 365 필요한 전역 관리자 권한이 있는지 확인합니다.
+정보 네트워크 라우팅을 사용하도록 설정할 준비가 Microsoft 365 관리 센터 전역 관리자 권한이 필요한지 확인합니다.
 
 >[!IMPORTANT]
 >선택한 SD-WAN 솔루션에서 정보 제공된 네트워크 라우팅 데이터 공유 채널에 액세스하는 데 필요한 테넌트 수준 응용 프로그램 사용 권한을 제공하려면 전역 관리자로서 다음 단계를 수행해야 합니다.
@@ -73,9 +73,9 @@ Microsoft 365 관리 센터에서 정보 네트워크 라우팅을 사용하도�
 
 ### <a name="step-1-open-sd-wan-solution-configuration-options"></a>1단계: SD-WAN 솔루션 구성 옵션 열기
 
-Microsoft 365 [관리](https://admin.microsoft.com/)센터의 왼쪽 탐색 **창에서** 상태 > 네트워크 연결을 선택합니다.
+왼쪽 [Microsoft 365 관리 센터](https://admin.microsoft.com/)창에서 상태  > 네트워크 연결을 선택합니다.
 
-관리 센터의 이 섹션에서는 조직에 대한 집계된 네트워크 연결 메트릭과 연결을 개선하는 방법에 대한 지침을 제공합니다. 관리 [센터 내에서](office-365-network-mac-perf-overview.md) 사용할 Microsoft 365 기능에 대한 자세한 내용은 Microsoft 365 관리 센터의 네트워크 연결을 참조하세요.
+관리 센터의 이 섹션에서는 조직에 대한 집계된 네트워크 연결 메트릭과 연결을 개선하는 방법에 대한 지침을 제공합니다. 관리 [센터에서](office-365-network-mac-perf-overview.md) 사용할 수 있는 이러한 기능에 대한 자세한 내용은 Microsoft 365 관리 센터의 네트워크 연결(미리 보기)을 참조하세요.
 
 **SD-WAN** 설정 > 솔루션을 선택하여 정보 제공된 네트워크 라우팅 구성 창을 열 수 있습니다. 관리 센터 아래에 **설정** 옵션은 관리 센터의 일반 네트워크 연결 지침에 적용될 수 있으며, 정보 제공된 네트워크 라우팅을 사용하도록 설정할 필요는 없습니다.
 
@@ -113,7 +113,7 @@ Microsoft와 선택한 SD-WAN 솔루션 간의 데이터 공유와 관련된 제
 
 SD-WAN 솔루션 내에서 정보 네트워크 라우팅에 대한 많은 구성을 수행하게 됩니다. 예를 들어 정상적인 상황에서 트래픽을 라우팅하는 방법 및 문제가 감지된 경우 사용할 대체 경로를 구성합니다. 이러한 구성 단계에 대한 자세한 내용은 SD-WAN 솔루션 공급자에게 문의하십시오.
 
-정보 네트워크 라우팅이 이러한 위치에 대한 연결을 제공하는 네트워크 회로와 연결된 트래픽을 제대로 식별할 수 있도록 Microsoft 365 관리 센터에서 각 사무실 위치를 구성해야 합니다.
+정보 제공된 네트워크 라우팅이 이러한 위치에 대한 연결을 제공하는 네트워크 회로와 연결된 트래픽을 Microsoft 365 관리 센터 수 있도록 각 사무실 위치를 네트워크에서 구성해야 합니다.
 
 Office Microsoft의 지속적인 네트워크 원격 분석 컬렉션의 일부로 위치가 자동으로 검색될 수 있습니다. 따라서 일부 위치는 테넌트의 관리 센터에 미리 채워지는 것일 수 있습니다. 
 
@@ -146,7 +146,7 @@ SD-WAN 솔루션 설정을 다시 설정하여 전체 테넌트에 대해 정보
 
 ### <a name="step-1-open-sd-wan-solution-configuration-options"></a>1단계: SD-WAN 솔루션 구성 옵션 열기
 
-Microsoft 365 [센터의](https://admin.microsoft.com/) 왼쪽 탐색 **창에서** 상태 > 네트워크 연결을 선택합니다.
+왼쪽 [Microsoft 365 관리 센터](https://admin.microsoft.com/) **창에서** 상태 > 네트워크 연결을 선택합니다.
 
 **SD-WAN** 설정 > 솔루션을 선택하여 정보 제공된 네트워크 라우팅 구성 창을 열 수 있습니다.
 
@@ -169,6 +169,6 @@ Microsoft와 SD-WAN 솔루션 공급자 간에 교환되는 데이터는 네트�
 
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 관리 센터의 네트워크 연결(미리 보기)](office-365-network-mac-perf-overview.md)
+[네트워크 연결의 Microsoft 365 관리 센터(미리 보기)](office-365-network-mac-perf-overview.md)
 
 [Microsoft 365 네트워크 연결 위치 서비스(미리 보기)](office-365-network-mac-location-services.md)

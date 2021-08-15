@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ca58d4611bbdca490664f2d45d2bd81b5ae5a3c3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: afdc08efce520dbffdf4c61e219796cab7e29b7f5130e9e375d6c03251321651
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53900442"
 ---
 # <a name="payment-information-for-georgia"></a>조지아의 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52536829"
 **은행:** Citibank, London  
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
-**계정 번호:** 12510049  
+**계정 번호: 12510049**  
 **계정 이름:** MICROSOFT

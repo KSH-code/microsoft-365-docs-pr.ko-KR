@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Veritas Slack eDiscovery에서 데이터 가져오기 및 보관을 위해 커넥터를 설정하여 사용자 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 해당 커넥터에 Microsoft 365. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 48b0a6d4d5e8f6eafaaf900aa5c773cf4f99fe72
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 090552adbdb210ca44aeaba75f404364e4bf61362c0a16c34ecf0e5d6b552fe2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53842635"
 ---
 # <a name="set-up-a-connector-to-archive-slack-ediscovery-data"></a>Slack eDiscovery 데이터를 보관할 커넥터 설정
 
-Microsoft 365 규정 준수 센터의 Veritas 커넥터를 사용하여 소셜 미디어, 인스턴트 메시징 및 문서 공동 작업 플랫폼에서 타사 데이터를 Microsoft 365 사서함으로 가져오고 보관합니다. Veritas는 타사 데이터 원본에서 항목을 캡처한 다음(정기적으로) 해당 항목을 가져오도록 구성된 [Slack](https://globanet.com/slack/) 커넥터를 Microsoft 365. Slack은 Slack API에서 메시지와 파일을 가져와서 전자 메일 메시지 형식으로 변환한 다음 항목을 사용자 사서함으로 가져올 수 있습니다.
+조직의 Veritas 커넥터를 Microsoft 365 규정 준수 센터 소셜 미디어, 인스턴트 메시징 및 문서 공동 작업 플랫폼에서 타사 데이터를 Microsoft 365 사서함으로 가져오고 보관합니다. Veritas는 타사 데이터 원본에서 항목을 캡처한 다음(정기적으로) 해당 항목을 가져오도록 구성된 [Slack](https://globanet.com/slack/) 커넥터를 Microsoft 365. Slack은 Slack API에서 메시지와 파일을 가져와서 전자 메일 메시지 형식으로 변환한 다음 항목을 사용자 사서함으로 가져올 수 있습니다.
 
 Slack eDiscovery 데이터를 사용자 사서함에 저장한 후 소송 보존, eDiscovery Microsoft 365 보존 정책 및 보존 레이블, 통신 준수와 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. Slack 커넥터를 사용하여 조직의 데이터 가져오기 및 보관을 Microsoft 365 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
@@ -35,7 +35,7 @@ Slack eDiscovery 데이터를 사용자 사서함에 저장한 후 소송 보존
 
 2. 24시간마다 Slack eDiscovery의 채팅 메시지가 Veritas Merge1 사이트에 복사됩니다. 또한 커넥터는 채팅 메시지의 내용을 전자 메일 메시지 형식으로 변환합니다.
 
-3. Microsoft 365 준수 센터에서 만든 Slack eDiscovery 커넥터는 매일 Veritas Merge1 사이트에 연결하고 Microsoft 클라우드의 보안 Azure Storage 위치로 채팅 메시지를 전송합니다.
+3. Microsoft 365 규정 준수 센터 만든 Slack eDiscovery 커넥터는 매일 Veritas Merge1 사이트에 연결하고 Microsoft 클라우드의 보안 Azure Storage 위치로 채팅 메시지를 전송합니다.
 
 4. 커넥터는 3단계에 설명된 바와 같이 *Email* 속성 및 자동 사용자 매핑 값을 사용하여 변환된 채팅 메시지 항목을 특정 사용자의 사서함으로 가져올 수 있습니다. **Slack eDiscovery라는** 받은 편지함 폴더의 새 하위 폴더가 사용자 사서함에 만들어지며 채팅 메시지 항목을 해당 폴더로 가져오게 됩니다. 커넥터는 Email 속성 값을 사용하여 항목을 가져올 사서함을 결정할 *수* 있습니다. 모든 채팅 메시지에는 채팅 메시지의 모든 참가자의 전자 메일 주소로 채워지는 이 속성이 포함되어 있습니다.
 
@@ -45,11 +45,11 @@ Slack eDiscovery 데이터를 사용자 사서함에 저장한 후 소송 보존
 
 - 조직의 Slack 엔터프라이즈 계정의 사용자 이름과 암호를 얻습니다. Slack을 구성할 때 2단계에서 이 계정에 로그인해야 합니다.
 
-- 1단계에서 Slack eDiscovery 커넥터를 만들고 3단계에서 완료하는 사용자는 2단계에서 사서함 가져오기 내보내기 역할에 할당해야 Exchange Online. 이 역할은 준수 센터의  데이터 커넥터 페이지에서 커넥터를 Microsoft 365 필요합니다. 기본적으로 이 역할은 역할 그룹의 역할 그룹에 할당되지 Exchange Online. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
+- 1단계에서 Slack eDiscovery 커넥터를 만들고 3단계에서 완료하는 사용자는 2단계에서 사서함 가져오기 내보내기 역할에 할당해야 Exchange Online. 이 역할은 서버의 데이터  커넥터 페이지에서 커넥터를 추가하는 Microsoft 365 규정 준수 센터. 기본적으로 이 역할은 역할 그룹의 역할 그룹에 할당되지 Exchange Online. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
 
 ## <a name="step-1-set-up-the-slack-ediscovery-connector"></a>1단계: Slack eDiscovery 커넥터 설정
 
-첫 번째 단계는 준수  센터의 데이터 커넥터 페이지에 액세스하고 Microsoft 365 대한 커넥터를 만드는 것입니다.
+첫 번째 단계는 서버의  데이터 커넥터 페이지에 액세스하여 slack Microsoft 365 규정 준수 센터 커넥터를 만드는 것입니다.
 
 1. 으로 [https://compliance.microsoft.com](https://compliance.microsoft.com/) 이동한 다음 **데이터** 커넥터  >  **Slack eDiscovery 를 클릭합니다.**
 
@@ -65,7 +65,7 @@ Slack eDiscovery 데이터를 사용자 사서함에 저장한 후 소송 보존
 
 두 번째 단계는 Merge1 사이트에서 Slack eDiscovery 커넥터를 구성하는 것입니다. Veritas Merge1 사이트에서 Slack eDiscovery 커넥터를 구성하는 방법에 대한 자세한 내용은 [Merge1 Third-Party Connectors User Guide를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Slack%20eDiscovery%20User%20Guide.pdf)
 
-저장 및 & **마친** 후  준수 센터의 커넥터 마법사에 Microsoft 365 페이지가 표시됩니다.
+Save & **Finish를** 클릭하면 연결선의 커넥터 마법사에 있는 사용자 매핑 Microsoft 365 규정 준수 센터 표시됩니다. 
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>3단계: 사용자 매핑 및 커넥터 설정 완료
 
@@ -77,7 +77,7 @@ Slack eDiscovery 데이터를 사용자 사서함에 저장한 후 소송 보존
 
 ## <a name="step-4-monitor-the-slack-ediscovery-connector"></a>4단계: Slack eDiscovery 커넥터 모니터링
 
-Slack eDiscovery 커넥터를 만든 후 규정 준수 센터에서 커넥터 상태를 Microsoft 365 있습니다.
+Slack eDiscovery 커넥터를 만든 후 연결선의 커넥터 상태를 볼 수 Microsoft 365 규정 준수 센터.
 
 1. 으로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 왼쪽 **nav에서 데이터** 커넥터를 클릭합니다.
 

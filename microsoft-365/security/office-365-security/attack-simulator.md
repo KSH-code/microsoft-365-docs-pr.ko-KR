@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 보안 & Complance Center의 공격 시뮬레이터를 사용하여 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조직에서 시뮬레이션된 피싱 및 암호 공격을 Office 365 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: aa10c30644562a156964ebaa1d63145047ca9264
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 902673c39e0f2c9c68e8408073dc25bb7f92c87189e10568c80a1be21e2c7b02
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56878257"
 ---
 # <a name="attack-simulator-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 시뮬레이터
 

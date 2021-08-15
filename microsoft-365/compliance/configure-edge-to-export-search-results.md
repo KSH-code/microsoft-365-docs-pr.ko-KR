@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 ClickOnce 센터의 콘텐츠 검색 및 eDiscovery에서 검색 결과를 다운로드하려면 Microsoft Edge 최신 버전을 사용하도록 설정해야 합니다.
-ms.openlocfilehash: 60f42d2884c56aaff40bc0a6a979e99698a3cd2e
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: ec241d36bc24d72e4c0ea3e30e622e42eb9546bfb4b548220e98a0d9ea1c0334
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830950"
 ---
 # <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>eDiscovery 내보내기 도구는 Microsoft Edge
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 68b627c7cdc215317d737a637316e5edf0971322
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: e74ca9a12938028d3e9710e46de8b2f82bca00a3c01f241c74b344f9e211d082
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53650922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53890160"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -310,7 +310,7 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 다음을 확인해야 할 수도 있습니다.
 
-- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예시:
+- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
     ![Endpoint Service용 Microsoft Defender를 실행하는 프로세스 보기의 이미지](images/atp-task-manager.png)
 

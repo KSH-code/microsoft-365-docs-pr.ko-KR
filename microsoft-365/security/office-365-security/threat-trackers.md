@@ -18,12 +18,12 @@ ms.collection:
 description: 조직이 보안 문제의 맨 위에 오게 도와주는 새로운 주목할 만한 추적기 등 위협 추적기에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0a5db47ccd3e1686b6b49174cb9b3c24256b8cbd
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 8beeceec6c98af093d2fff30e4553a36cdcce28634fadc03cc37c22b96fc4848
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083047"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56877737"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기 - 신규 및 주목할 만한 요소
 

@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 서비스 암호화가 고객 키와 함께 작동하는 방식에 대해 Microsoft 365.
-ms.openlocfilehash: 9a8558a0cf36f2040614ca3ffb61e7ba9936d40f
-ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
+ms.openlocfilehash: 291f1161eb820efe6bc09149ae73b911888013844d9c2dd107b357018ba6a51f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53463964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53842603"
 ---
 # <a name="service-encryption-with-customer-key"></a>고객 키를 사용한 서비스 암호화
 

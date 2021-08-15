@@ -2,8 +2,8 @@
 title: 앱 위협 감지 및 수정에 대해 알아보기
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: v-tophillips
+author: v-tophillips
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 위협 감지 및 수정에 대해 알아봅니다.
-ms.openlocfilehash: 89db65cc8115a20bac0e8790d511c036127d6921
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 9d4a4b9f6ed7b10cb6e0626625f334063289a5905488325895be6e6ed6aa5a3f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53842659"
 ---
 # <a name="learn-about-app-threat-detection-and-remediation"></a>앱 위협 감지 및 수정에 대해 알아보기
 

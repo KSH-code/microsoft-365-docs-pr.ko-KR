@@ -20,12 +20,12 @@ description: SharePoint Online에서 사용자가 업로드하는 파일의 바�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2ab11d4c1e2a064ad0717e6619f72a38b0cbc831
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: efdf9364a43bdc354797b71c722fd77faf4108f812a905d266aef5bd296194d6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52932833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56880146"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>SharePoint Online, OneDrive 및 Microsoft Teams
 
@@ -66,16 +66,16 @@ Microsoft 365 바이러스 검색 엔진은 SharePoint Online 내에서 비동�
 >
 > *DisallowInfectedFileDownload* 매개 변수를 사용하도록 설정하는 즉시 검색/차단된 파일에 대한 액세스가 사용자 및 관리자에 대해 완전히 차단됩니다.
 
-## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>동기화 클라이언트가 OneDrive 파일을 동기화하면 어떻게 하나요?
+## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>클라이언트가 OneDrive 동기화 파일을 동기화하면 어떻게 하나요?
 
 악성 파일이 OneDrive 맬웨어로 표시되기 전에 로컬 컴퓨터와 동기화됩니다. 맬웨어로 표시된 후 사용자는 로컬 컴퓨터의 동기화된 파일을 더 이상 열 수 없습니다.
 
 ## <a name="extended-capabilities-with-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
-Microsoft 365 [Microsoft Defender를](defender-for-office-365.md) 구독에 포함하거나 Office 365 추가 기능으로 구입한 조직은 향상된 보고 및 보호를 위해 SharePoint, OneDrive Microsoft Teams 안전한 첨부 파일을 사용하도록 설정할 수 있습니다. 자세한 내용은 SharePoint, OneDrive 및 에 대한 안전한 첨부 [Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
+Microsoft 365 [Microsoft Defender for](defender-for-office-365.md) Office 365 구독에 포함되거나 추가 기능으로 구매한 조직은 SharePoint, OneDrive 및 Microsoft Teams 보고 및 보호를 위해 금고 첨부 파일을 사용할 수 있습니다. 자세한 내용은 금고, SharePoint 및 OneDrive 첨부 [Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
 
 ## <a name="related-articles"></a>관련 문서
 
 [맬웨어 및 랜섬웨어 Microsoft 365](/compliance/assurance/assurance-malware-and-ransomware-protection)
 
-SharePoint Online, OneDrive 및 Microsoft Teams 바이러스 백신에 대한 자세한 내용은 위협으로부터 보호 [](protect-against-threats.md) 및 [SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.
+SharePoint Online, OneDrive 및 Microsoft Teams 바이러스 백신에 대한 자세한 내용은 위협으로부터 [](protect-against-threats.md) 보호 및 금고, [SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.

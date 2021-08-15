@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a26500c1671afffc7b70d509a4242914631b937c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 33d86ff6b63bd8b21ba233ff8b28672a3688fd0c4b20565f69cb9f11b4959426
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53857954"
 ---
 # <a name="microsoft-onedrive"></a>Microsoft OneDrive
 
@@ -42,14 +42,14 @@ Microsoft Managed Devices에서 기본적으로 이러한 설정을 자동으로
 
 :::image type="content" source="media/onedrive-folders.png" alt-text="알림 IT 부서에서 중요한 폴더를 백업했습니다. 이제 폴더가 백업되어 OneDrive 장치에서 사용할 수 있습니다.":::
 
-3. 디바이스를 초기화하거나 다시 디자인할 때 바탕 화면의 중복 아이콘을 방지하기 위해 시스템은 파일 탐색기에서 이 보기에 표시된 Microsoft Edge 및 Microsoft Teams 아이콘을 OneDrive 동기화에서 자동으로 제거합니다.
+3. 장치가 초기화되거나 다시 디자인될 때 바탕 화면에서 중복 아이콘을 방지하기 위해 시스템은 파일 탐색기에서 이 보기에 표시된 Microsoft Edge Microsoft Teams 아이콘을 OneDrive 동기화 제거합니다.
 
 :::image type="content" source="media/onedrive-teams.png" alt-text="선택 취소된 Teams 및 마우스로 텍스트를 마우스로 읽은 후 동기화에서 제외된 목록을 표시하는 파일 탐색기입니다.":::
 
 
-## <a name="onedrive-sync-restrictions"></a>OneDrive 동기화 제한
+## <a name="onedrive-sync-restrictions"></a>OneDrive 동기화 제한 사항
 
-동기화를 제한해야 OneDrive 조건부 액세스 정책을 사용하여 액세스를 Azure Active Directory 것이 좋습니다. 자세한 내용은 동기화 앱의 조건부 액세스 지원 [OneDrive 참조하세요.](/onedrive/enable-conditional-access)
+제한해야 하는 OneDrive 동기화 조건부 액세스 정책을 사용하여 액세스를 Azure Active Directory 것이 좋습니다. 자세한 내용은 앱의 조건부 액세스 지원 OneDrive 동기화 [참조하세요.](/onedrive/enable-conditional-access)
 
 조직에서 Azure AD 조건부 액세스 정책을 사용할 수 없는 경우 IT 관리자는 다음 단계를 따라야 합니다.
 

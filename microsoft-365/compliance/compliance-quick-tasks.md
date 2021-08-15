@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: 2013에서 규정 준수를 빠르게 시작하는 데 도움이 되는 작업에 대해 Microsoft 365.
-ms.openlocfilehash: 61a057c3666faae51a012dd9db2d4c63ded0f77a
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 3d8c767c82642c40a9f16792da7697ed7ab85711c95a7834937334bba3504a4f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227262"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830986"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: AD RMS(Active Directory Rights Management Service) 서버를 사용하도록 Exchange Online IRM(정보 권한 관리)을 구성하는 방법을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c42d793639a9efaf94e3222a172ea192d1e03d3
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 6d2685994e35f88d92ab6b6854e88607cd84f153692a22f29c966e701f8d30f4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227238"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830834"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
 

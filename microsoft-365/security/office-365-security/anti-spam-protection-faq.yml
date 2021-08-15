@@ -20,12 +20,12 @@ metadata:
   description: 관리자는 EOP(EOP)에서 스팸 방지 보호에 대한 질문과 Exchange Online Protection 수 있습니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: b15e7409c275810a9d5e70d1376a9c3accd07ab9
-  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+  ms.openlocfilehash: 1643e94de99b06cee9ea55e03bc6bc12fefa1de9bc4c1fc9f08f0c655315019b
+  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/24/2021
-  ms.locfileid: "52624918"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "56878266"
 title: 스팸 방지 보호 FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -51,7 +51,7 @@ summary: >
 
   스푸핑 방지 보호에 대한 질문과 대답은 스푸핑 방지 보호 [FAQ를 참조하세요.](anti-spoofing-protection-faq.yml)
 sections:
-- name: Ignored
+- name: 무시됨
   questions:
   - question: >
       스팸으로 검색된 메시지에 대해 기본적으로 수행되는 작업은 무엇입니까?
@@ -111,7 +111,7 @@ sections:
   - question: >
       스팸 보고서를 확인할 수 있습니까?
     answer: >
-      예, 예를 들어 관리자 센터에서 스팸 검색 보고서를 Microsoft 365 있습니다. 이 보고서에는 스팸 볼륨이 고유한 메시지 수로 표시됩니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
+      예. 예를 들어 메시지 메시지에서 스팸 검색 보고서를 받을 수 Microsoft 365 관리 센터. 이 보고서에는 스팸 볼륨이 고유한 메시지 수로 표시됩니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
 
       Exchange Online 고객: 모니터링, 보고 및 메시지 [추적을](/exchange/monitoring/monitoring) Exchange Online

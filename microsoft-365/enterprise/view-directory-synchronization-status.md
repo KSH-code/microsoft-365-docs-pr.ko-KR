@@ -21,12 +21,12 @@ search.appverid:
 - MED150
 ms.assetid: 18be3b98-34ae-47be-9337-ab6c3fb372ac
 description: 이 문서에서는 디렉터리 동기화의 상태를 검사하는 방법을 Office 365.
-ms.openlocfilehash: cbaae8bbd31f6124c2b0f4984b9a625ffbde538f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 766e3ef112ac9493863df0aa6c9958e89ec93c0e2e0c9e307e7371b536f3cb01
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53840758"
 ---
 # <a name="view-directory-synchronization-status-in-microsoft-365"></a>디렉터리 동기화 상태는 Microsoft 365
 
@@ -34,7 +34,7 @@ Azure Active Directory 환경을 Azure AD(Active Directory Domain Services)와 �
   
 ## <a name="view-directory-synchronization-status"></a>디렉터리 동기화 상태 보기
 
-- Microsoft 365 관리 센터에 [로그인하고](https://admin.microsoft.com) 홈 페이지에서 **DirSync** 상태를 선택합니다.
+- 로그인하여 Microsoft 365 관리 센터 [](https://admin.microsoft.com) **페이지에서 DirSync 상태를** 선택합니다.
 - 또는 사용자 활성 **사용자로** 이동하여 활성 사용자 페이지에서 더 많은 디렉터리 동기화 \>    \> **를 선택합니다.** 디렉터리 **동기화 창에서** **DirSync 관리로 이동을 선택하십시오.**
 
 ## <a name="information-on-the-manage-directory-synchronization-page"></a>디렉터리 동기화 관리 페이지에 대한 정보
@@ -43,7 +43,7 @@ Azure Active Directory 환경을 Azure AD(Active Directory Domain Services)와 �
   
 디렉터리 동기화에 문제가 있는 경우 이 페이지에도 오류가 나열됩니다. 발생할 수 있는 여러 오류에 대한 자세한 내용은 에서 디렉터리 동기화 오류 [식별을 Microsoft 365.](identify-directory-synchronization-errors.md)
   
-|항목|용도|
+|항목|설명|
 |:-----|:-----|
 |**확인된 도메인** | 소유를 확인한 Microsoft 365 테넌트의 도메인 수입니다. |
 |**도메인이 확인되지 않습니다.** | 추가했지만 확인되지 않은 도메인입니다. |

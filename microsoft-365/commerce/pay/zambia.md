@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 514ca64ef740f9a80dda6f9db2f8cf2ea354658e
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 6966511526b09630e641029a9692d15054398d1603d23d059603822c08d50273
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830974"
 ---
 # <a name="payment-information-for-zambia"></a>잠비아의 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52536157"
 **은행:** Citibank, London  
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
-**계정 번호:** 12510049  
+**계정 번호: 12510049**  
 **계정 이름:** MICROSOFT

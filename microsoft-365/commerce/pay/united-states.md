@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f8f5cd4acb6bf8029ba3f953b2681d0619330776
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 291335b0a88de457e9deb931a148fe41635f4d05619d16763bd2c7cba6f6fd5b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830962"
 ---
 # <a name="payment-information-for-united-states"></a>미국 결제 정보
 
@@ -38,5 +38,5 @@ Express Mail: Lockbox 842103, 1950 N. Stemmons Frwy, Ste. 5010, allas, TX 75207-
 **은행:** 뱅크 of America  
 **SWIFT 코드:** BOFAUS3N  
 **ABA/라우팅 번호:** 111 000 012  
-**계정 번호:** 4426587954  
+**계정 번호: 4426587954**  
 **계정 이름:** Microsoft

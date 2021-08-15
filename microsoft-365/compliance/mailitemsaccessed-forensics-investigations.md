@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: MailItemsAccessed 사서함 감사 작업을 사용하여 손상된 사용자 계정에 대한 포렌식 조사를 수행합니다.
-ms.openlocfilehash: 64f3e5f3423f5182277fe7640199a39dc11068f2
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: b168cc25afc1a21044d00eb2dece1cee4da5f9cb6b7c70ecea05874ad6fcefd4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288782"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830786"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>고급 감사를 사용하여 손상된 계정 조사
 
