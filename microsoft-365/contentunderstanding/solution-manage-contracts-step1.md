@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: 서비스 응용 SharePoint Syntex 사용하여 계약 파일을 식별하고 솔루션 솔루션을 사용하여 데이터를 추출하는 Microsoft 365 방법을 알아보십시오.
-ms.openlocfilehash: b73f7b96a1f1a9159770fb1bfb20bf2718f08c07
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: d26a11edfbfadfa9b8905e9cb7643cfefeef9b1e1f6e7e0516c50305fe974d71
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287356"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53859528"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>1단계. 사용자 SharePoint Syntex 사용하여 계약 파일을 식별하고 데이터 추출
 
@@ -103,13 +103,13 @@ ms.locfileid: "53287356"
 
     ![설명 만들기 패널의 스크린샷.](../media/content-understanding/contract-classifier-create-explanation.png) 
 
-#### <a name="test-your-model"></a>모델 테스트
+#### <a name="test-your-model"></a>모델 테스트하기
 
 이전과는 다른 예제 파일에서 계약 모델을 테스트할 수 있습니다. 이는 선택 사항이지만 유용한 모범 사례일 수 있습니다.
 
 1. 모델 > **계약 > 분류자 페이지에서** 테스트 **탭을** 선택합니다. 이렇게 하여 모델이 사용되지 않는 예제 파일에서 실행됩니다.
 
-2. 테스트 **파일 목록에서** 예제 파일은 모델에서 양수 또는 음수로 예측한 파일을 표시하고 표시합니다. 이 정보를 사용하여 문서를 식별하는 데 필요한 분류자 효율성을 결정할 수 있습니다.
+2. 테스트 **파일 목록에서** 예제 파일은 모델에서 양수 또는 음수로 예측한 파일을 표시하고 표시합니다. 이 정보를 사용하여 문서를 식별하는 데 필요한 분류자의 효율성을 알아낼 수 있습니다.
 
     ![텍스트 파일 목록에 있는 표시되지 않은 파일의 스크린샷](../media/content-understanding/test-on-files.png) 
 
@@ -141,7 +141,7 @@ ms.locfileid: "53287356"
 
 파일에 레이블을 지정하면 교육으로 이동을 알리는 알림 배너가 표시됩니다. 더 많은 문서에 레이블을 지정하거나 교육으로 진행할 수 있습니다.
 
-#### <a name="add-an-explanation"></a>설명 추가하기
+#### <a name="add-an-explanation"></a>설명 추가
 
 엔터티 형식 자체 및 예제 파일에 있을 수 있는 변형에 대한 힌트를 제공하는 설명을 만들 수 있습니다. 예를 들어 날짜 값은 다음과 같은 다양한 형식일 수 있습니다.
 
@@ -174,7 +174,7 @@ ms.locfileid: "53287356"
 
 1. 모델 > **계약 > 분류자 페이지에서** 테스트 **탭을** 선택합니다. 이렇게 하여 모델이 사용되지 않는 예제 파일에서 실행됩니다.
 
-2. 테스트 **파일 목록에서** 예제 파일이 표시하고 모델에서 필요한 정보를 추출할 수 있는지 표시합니다. 이 정보를 사용하여 문서를 식별하는 데 필요한 분류자 효율성을 결정할 수 있습니다.
+2. 테스트 **파일 목록에서** 예제 파일이 표시하고 모델에서 필요한 정보를 추출할 수 있는지 표시합니다. 이 정보를 사용하여 문서를 식별하는 데 필요한 분류자의 효율성을 알아낼 수 있습니다.
 
 3. 완료되면 교육 **종료 를 선택합니다.**
 

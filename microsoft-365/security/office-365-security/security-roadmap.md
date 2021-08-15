@@ -19,12 +19,12 @@ ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 보안 기능을 구현하여 보안 환경을 보호하기 위한 Microsoft 사이버 보안 팀의 Microsoft 365 권장 사항입니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 05ea4103abecb10d4eedddf8d5043e339b58804c
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 7cc1f3a2a8940c3ae47223fa1e283142645d7a5eb66afe9cbc428b381ac1fa98
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56880567"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위
 

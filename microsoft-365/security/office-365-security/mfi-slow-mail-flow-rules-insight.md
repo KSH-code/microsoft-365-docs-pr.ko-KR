@@ -15,12 +15,12 @@ ms.custom:
 description: 관리자는 보안 & 및 준수 센터의 느린 메일 흐름 규칙 수정 인사이트를 사용하여 조직에서 비효율적이거나 손상된 메일 흐름 규칙(전송 규칙)을 식별하고 수정하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 51ffa92402fd3e7c9e76115642426d3cce0a9e19
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 68eec6c7aa060806f1f4133b399b1ead901f6b0d3e73d87cc9b677309fb28130
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205292"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56885467"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 느린 메일 흐름 규칙 & 수정
 

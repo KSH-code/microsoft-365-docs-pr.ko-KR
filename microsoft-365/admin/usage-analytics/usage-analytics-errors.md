@@ -20,33 +20,33 @@ search.appverid:
 - MOE150
 ms.assetid: a73632a1-62c8-4a13-8115-913773b30f93
 description: 사용 현황 분석 템플릿 앱의 문제를 Microsoft 365 방법을 알아보십시오.
-ms.openlocfilehash: 74ee32ae015421a2352474daefa0eaa0a53fbbc9
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: b0978edd23809d61a7160cb423cf279d425dd0c13c0451798d8d54535a78c284
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293738"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53901133"
 ---
 # <a name="troubleshooting-microsoft-365-usage-analytics"></a>사용 Microsoft 365 문제 해결
 
 다음 오류 메시지 목록을 살펴보고 사용 현황 분석과 관련한 가장 일반적인 문제에 대한 Microsoft 365 살펴보십시오.
   
     
-## <a name="we-are-unable-to-process-your-request-you-have-to-first-subscribe-to-this-data-from-the-microsoft-365-admin-center"></a>요청을 처리할 수 없습니다. 먼저 Microsoft 365 관리 센터에서 이 데이터를 구독해야 합니다.
+## <a name="we-are-unable-to-process-your-request-you-have-to-first-subscribe-to-this-data-from-the-microsoft-365-admin-center"></a>요청을 처리할 수 없습니다. 이 데이터는 먼저 사용자 센터에서 구독해야 Microsoft 365 관리 센터
 
  **오류 코드:** 422 
   
  **이 메시지가 표시될 위치:** 이 Power BI 사용 현황 분석 템플릿 앱에 연결하거나 Microsoft 365 보고 API를 직접 호출할 Microsoft 365 있습니다. 
   
- **원인:** 앱에 연결하려면 먼저 앱 관리 센터에서 데이터를 Microsoft 365 합니다. 이 단계를 먼저 수행하지 않은 경우 테넌트 ID를 제공한 경우에도 템플릿 앱에 연결할 Microsoft 365 없습니다. 
+ **원인:** 앱에 연결하기 전에 앱의 데이터를 구독해야 Microsoft 365 관리 센터. 이 단계를 먼저 수행하지 않은 경우 테넌트 ID를 제공한 경우에도 템플릿 앱에 연결할 Microsoft 365 없습니다. 
   
  **이 오류를 해결합니다.** 데이터를 구독하려면 관리 센터 보고서 사용 현황으로 이동하여 주 대시보드 페이지에서 Microsoft 365 사용 현황 분석 타일을 \>  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank"></a> 찾습니다. 시작 **단추를** 선택한 다음 열  수 있는 보고서 창에서 데이터 사용 현황 분석에서 사용 **현황 Microsoft 365** 사용 현황 Power BI 켜기 및 저장을 **선택합니다.**
   
 ## <a name="we-are-processing-your-data"></a>데이터를 처리하고 있습니다.
 
- **이 메시지가 표시될 위치:** Microsoft 365 **관리** 센터의 사용 현황  대시보드에 있는 사용 현황 분석 Microsoft 365 있습니다. 
+ **이 메시지가 표시될 위치:** 웹 **Microsoft 365** 대시보드의 사용 현황 분석 타일에서 Microsoft 365 관리 센터.  
   
- **원인:** Microsoft 365 [](enable-usage-analytics.md) 관리 센터에서 템플릿 앱에서 데이터를 보게 옵트인(opt in)하는 경우 Microsoft 365 시스템에서 조직의 이전 사용 현황 데이터를 생성하기 시작합니다. 테넌트의 크기에 따라 이 단계는 2시간에서 48시간까지 걸릴 수 있습니다. 
+ **원인:** 앱의 [](enable-usage-analytics.md) 템플릿 앱에서 데이터를 보게 Microsoft 365 관리 센터 경우 Microsoft 365 시스템에서 조직의 이전 사용 현황 데이터를 생성하기 시작합니다. 테넌트의 크기에 따라 이 단계는 2시간에서 48시간까지 걸릴 수 있습니다. 
   
  **이 문제를 해결합니다.** 잠시 기다렸다가 메시지가 3일  후에 데이터로 변경되지 않는 경우 비즈니스 지원을 Microsoft 365 [문의합니다.](../../business-video/get-help-support.md)
   

@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 98fc1006-9399-4ff0-a216-c7c05820d822
 description: SharePoint 가상 SharePoint 호스트할 수 있는 Microsoft Azure 솔루션 유형과 호스트할 Azure를 설정하는 방법을 설명합니다.
-ms.openlocfilehash: eed74e2dcbe383f0f63e7f6ea2fc70fe7b51b1b3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d7405909e25078086147e2bab7504375b6527ff07c14a1750c9b5971592a4858
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924179"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53858831"
 ---
 # <a name="microsoft-azure-architectures-for-sharepoint-2013"></a>SharePoint 2013용 Microsoft Azure 아키텍처
 
@@ -62,7 +62,7 @@ Azure 인프라 서비스는 클라우드 솔루션을 호스팅하기 위한 Sh
     
 ## <a name="determine-the-active-directory-domain-type"></a>Active Directory 도메인 유형 확인
 
-각 SharePoint 서버 팜은 Active Directory를 통해 팜 설정에 대한 관리 계정을 제공합니다. 현재 Azure의 여러 솔루션에 SharePoint 옵션이 있습니다. 이는 다음 표에 설명되어 있습니다.
+각 SharePoint 서버 팜은 Active Directory를 통해 팜 설정에 대한 관리 계정을 제공합니다. 현재 Azure의 여러 솔루션에 SharePoint 옵션이 있습니다. 이러한 내용은 다음 표에 설명되어 있습니다.
   
 |**옵션**|**설명**|
 |:-----|:-----|
@@ -109,13 +109,13 @@ Azure 인프라 서비스는 클라우드 솔루션을 호스팅하기 위한 Sh
   
 ## <a name="add-active-directory-domain-services-ad-ds-and-dns"></a>AD DS(Active Directory 도메인 서비스) 및 DNS 추가
 
-Azure의 재해 복구를 위해 Windows Server AD와 DNS를 모두 배포하는 하이브리드 시나리오에서 Windows Server AD를 배포하고 Azure Virtual Machines에 배포합니다.
+Azure의 재해 복구를 위해 Windows Server AD 및 DNS를 배포하는 하이브리드 시나리오에서는 Windows Server AD 및 Azure Virtual Machines 둘 다에 배포합니다.
   
 **그림 3: 하이브리드 Active Directory 도메인 구성**
 
 ![Azure Virtual Network에 배포된 STwo 가상 컴퓨터 및 SharePoint 팜 서브넷은 복제본 도메인 컨트롤러 및 DNS 서버입니다.](../media/AZarch-HyADdomainConfig.png)
   
-이 다이어그램은 Windows 서버 AD 및 DNS 서브넷에 두 가상 컴퓨터를 추가하여 이전 다이어그램을 토대합니다. 이러한 가상 컴퓨터는 복제본 도메인 컨트롤러 및 DNS 서버입니다. 이는 서버 AD 환경의 Windows 확장입니다. 
+이 다이어그램은 가상 컴퓨터와 DNS 서브넷에 두 개의 가상 컴퓨터를 Windows Server AD 다이어그램을 토대합니다. 이러한 가상 컴퓨터는 복제본 도메인 컨트롤러 및 DNS 서버입니다. 이러한 확장은 프레미스 환경의 Windows Server AD 확장입니다. 
   
 다음 표에서는 Azure의 이러한 가상 머신에 대한 구성 권장 사항을 제공합니다. Azure 환경이 프레미스 환경과 통신하지 않는 전용 도메인의 경우에도 사용자 환경을 디자인하기 위한 시작점으로 사용할 수 있습니다.
   
@@ -129,7 +129,7 @@ Azure의 재해 복구를 위해 Windows Server AD와 DNS를 모두 배포하는
 |IP 주소  <br/> |고정 IP 주소를 사용하여 도메인 컨트롤러가 구성된 후 가상 네트워크의 가상 머신에 이러한 주소를 할당하도록 가상 네트워크를 구성합니다.  <br/> |
    
 > [!IMPORTANT]
-> Azure에서 Active Directory를 배포하기 전에 Azure 가상 컴퓨터의 Windows Server Active Directory 배포에 대한 [지침을 읽어야 합니다.](/windows-server/identity/ad-ds/introduction-to-active-directory-domain-services-ad-ds-virtualization-level-100) 이러한 설정은 솔루션에 다른 아키텍처 또는 다른 구성 설정이 필요한지 여부를 결정하는 데 도움이 됩니다. 
+> Azure에서 Active Directory를 배포하기 전에 Azure 가상 머신에 Windows Server Active Directory [지침을 읽어야 합니다.](/windows-server/identity/ad-ds/introduction-to-active-directory-domain-services-ad-ds-virtualization-level-100) 이러한 설정은 솔루션에 다른 아키텍처 또는 다른 구성 설정이 필요한지 여부를 결정하는 데 도움이 됩니다. 
   
 ## <a name="add-the-sharepoint-farm"></a>팜 SharePoint 추가
 

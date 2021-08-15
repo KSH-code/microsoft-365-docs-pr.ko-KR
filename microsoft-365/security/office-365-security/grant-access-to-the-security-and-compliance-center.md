@@ -20,12 +20,12 @@ description: 보안 또는 규정 준수 기능을 관리하려면 Microsoft 365
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7cd36ac0dec20851a423acd58e5ad7d38cb65d93
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 93588d7a467c1a3274a803edfc15a4eb51327cdaa320c644d5214defa79798c8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56884577"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 규정 준수 센터에 대한 액세스 권한 부여
 

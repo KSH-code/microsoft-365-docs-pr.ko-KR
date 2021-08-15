@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: debafb5031183f4650131807228d743a9a84debd
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 99577a508f4040e891f34dbde0dba73088197436865358d0381537ff469351f7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53901314"
 ---
 # <a name="contact-support-for-san-marino"></a>San Marino 지원에 문의
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 클라우드 기반 앱에서 생성하는 콘텐츠는 Microsoft 365 사서함에 저장되거나 Exchange Online 연결됩니다. 이 콘텐츠는 Microsoft eDiscovery 도구를 사용하여 검색할 수 있습니다.
-ms.openlocfilehash: 975f4ac8be8c2cdeed8dea1d73699607662a1ce9
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 9df7198f50809af4a97eabecfab02219f7d2d17cfe96037422e8516fd2567a1b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53859686"
 ---
 # <a name="content-stored-in-exchange-online-mailboxes-for-ediscovery"></a>eDiscovery의 Exchange Online 사서함에 저장된 콘텐츠
 

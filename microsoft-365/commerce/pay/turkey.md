@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d30a9ecfa01b25d8bde159903fdcb843f5ebb8d2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: da6836b7eba0a9ffe901eed0cb301d823e831feae9440c9895781e5ea6402dd1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53843219"
 ---
 # <a name="payment-information-for-turkey"></a>터키의 결제 정보
 
@@ -31,5 +31,5 @@ TRY에서만 결제하고 송장 번호를 송장 번호로 송장 송장 번호
 **은행:** Citibank A.S., Istanbul  
 **SWIFT 코드:** CITITRIX  
 **IBAN:** TR42000920000000092407039  
-**계정 번호:** 92407039  
+**계정 번호: 92407039**  
 **계정 이름:** Microsoft 결제

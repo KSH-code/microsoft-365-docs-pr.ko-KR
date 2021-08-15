@@ -19,12 +19,12 @@ metadata:
   description: 관리자는 EOP(EOP)에서 스푸핑 방지 보호에 대한 질문과 대답을 Exchange Online Protection 있습니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: cab4af2dd359b878cdf417a2378c05d2aa706107
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: 8765b287e1f6ca25b21b518bda4b642929251fbb63ac8b6a967eabfaa850d3df
+  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52334046"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "56882536"
 title: 스푸핑 방지 보호 기능 FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -47,7 +47,7 @@ summary: >
 
   맬웨어 방지 보호에 대한 질문과 대답은 맬웨어 방지 보호 [FAQ를 참조하세요.](anti-malware-protection-faq-eop.yml)
 sections:
-- name: Ignored
+- name: 무시됨
   questions:
   - question: >
       Microsoft에서 확인되지 않은 인바운드 전자 메일을 정크로 선택한 이유는 무엇입니까?

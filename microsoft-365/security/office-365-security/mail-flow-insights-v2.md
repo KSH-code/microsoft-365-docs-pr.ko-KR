@@ -13,12 +13,12 @@ description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 39f7b43db62fd19f7500972a3016fdd8dd0875b6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7b38bb50bd72ea3391cd908e6e058e050003a17b41777df9d8d2663a50977904
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56882507"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 
@@ -74,7 +74,7 @@ ms.locfileid: "51206289"
 - **보안 및 준수** 센터의 메일 흐름 &. 계정이 조직 관리 또는 관리자 역할 Exchange 구성원이 아닌 경우 다음 문제를 고려하세요.
   - 사용자는 에서 직접 보안 및 & 로그인해야 <https://protection.office.com> 합니다.
   - 사용자에게 메일 흐름 대시보드에 대한 읽기 전용 권한만 있습니다.
-  - 사용자는 Microsoft 365 액세스할 수 없습니다.
+  - 사용자는 사용자에게 액세스 권한이 Microsoft 365 관리 센터.
 
 사용 권한에 대한 자세한 내용은 [Security & Compliance Center의](permissions-in-the-security-and-compliance-center.md) 사용 권한 및 사용자에게 보안 및 준수 센터에 대한 액세스 [& 참조하세요.](grant-access-to-the-security-and-compliance-center.md)
 

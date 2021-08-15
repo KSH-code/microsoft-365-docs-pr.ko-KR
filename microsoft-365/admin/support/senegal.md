@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 87827742885c15d52417671a224930988be7a7e8
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: eed853a45c16d817835542dae9a7b539c6859e59dacecd3eca05405976d23419
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52295430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53901206"
 ---
 # <a name="contact-support-for-senegal"></a>세네갈 지원에 문의
 

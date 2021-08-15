@@ -18,21 +18,21 @@ ms.custom:
 - O365ITProTrain
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: PowerShell을 사용하여 그룹에서 구성원을 유지 관리하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9696c9093ae6f24a2edaf544e80794bde45d18d1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e60aaa0200a4cbc972f9157ead3db81a92fb7f4e7049d9ab27c2e420b94c2169
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53858954"
 ---
 # <a name="maintain-security-group-membership-with-powershell"></a>PowerShell을 통해 보안 그룹 구성원 유지 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 관리 센터의 대안으로 PowerShell을 사용하여 Microsoft 365 그룹 구성원 자격을 Microsoft 365. 
+보안 그룹 구성원 자격을 Microsoft 365 PowerShell을 사용하여 Microsoft 365 관리 센터 그룹 구성원 자격을 Microsoft 365. 
 
 >[!Note]
->[Microsoft 365](../admin/create-groups/add-or-remove-members-from-groups.md) 관리 센터에서 그룹 구성원을 유지 관리하는 Microsoft 365 대해 자세히 알아보습니다. 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
+>[그룹 구성원 자격을 Microsoft 365 방법을](../admin/create-groups/add-or-remove-members-from-groups.md) Microsoft 365 관리 센터. 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기

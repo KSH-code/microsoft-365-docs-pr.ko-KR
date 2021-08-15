@@ -19,12 +19,12 @@ ms.custom:
 description: 이 문서에서는 후방산자 및 EOP(후방 보호)에 Microsoft Exchange Online 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e5882f611c3feec9a22760e696973cd0713649b2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1ae3cf89171f7da89ea1821c693152cdd0e3bf968f3e9ff73d517aecad2de7a5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56881977"
 ---
 # <a name="backscatter-in-eop"></a>EOP의 후방 산란
 
@@ -42,4 +42,4 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 Backscatterer.org 후방산 전송을 담당하는 전자 메일 서버의 차단 목록(DNS 차단 목록 또는 DNSBL)을 유지 관리하며 EOP 서버가 이 목록에 표시될 수 있습니다. 그러나 스태머 목록이 아니기 때문에(자신의 입장에 따라) Backscatterer.org 차단 목록에서 제거하려고 하지 않습니다.
 
 > [!TIP]
-> Backscatter.org 웹 사이트( )는 서비스를 사용하여 거부 모드(대규모 전자 메일 서비스에서 거의 항상 일부 후방산을 보내는) 대신 수신 전자 메일을 안전한 모드로 검사하는 <http://www.backscatterer.org/?target=usage> 것이 좋습니다.
+> Backscatter.org 웹 사이트()는 서비스를 사용하여 거부 모드 대신 금고 모드에서 받는 전자 메일을 검사하는 것이 좋습니다(대규모 전자 메일 서비스는 거의 항상 일부 <http://www.backscatterer.org/?target=usage> 후방산을 전송).

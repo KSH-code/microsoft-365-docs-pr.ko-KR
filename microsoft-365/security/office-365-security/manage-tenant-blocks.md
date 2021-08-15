@@ -16,14 +16,14 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 블록을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 38347850b66c2a83708df12aaa3233a0afe01444
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: ad3cf9a4080a5ec50bdff1de623118d70f90bc1240a7eb5b6a09f0b6fe7b2a45
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56881957"
 ---
-# <a name="add-blocks-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 블록 추가
+# <a name="add-blocks-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에 블록 추가
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -72,7 +72,7 @@ ms.locfileid: "53544097"
 
 ### <a name="create-spoofed-sender-block-entries"></a>스푸핑된 보낸 사람 차단 항목 만들기
 
-**참고**:
+**참고:**
 
 - _스푸핑된_ 사용자와 도메인  쌍에 정의된 전송 인프라의 조합만 스푸핑을 특별히 허용하거나 차단합니다.
 - 도메인 쌍에 대해 허용 또는 차단 항목을 구성하면 해당 도메인 쌍의 메시지가 더 이상 스푸핑 인텔리전스 인사이트에 나타나지 않습니다.

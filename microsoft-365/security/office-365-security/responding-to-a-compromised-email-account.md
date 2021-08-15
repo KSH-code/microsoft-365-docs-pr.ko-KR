@@ -20,12 +20,12 @@ search.appverid:
 description: Microsoft 365에서 제공하는 도구를 사용하여 손상된 전자 메일 계정을 인식하고 대처하는 방법에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 090253806295d0a5db67afbe769c9c0ca8be4b39
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: dc34894998fda5ec28db6752f50c9122d3a2b416c5e5d7bd443e756681ce50b7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56815373"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 
@@ -136,7 +136,7 @@ Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 �
 
 4. <https://admin.exchange.microsoft.com>에서 EAC(Exchange 관리 센터)를 열고 **수신자** \> **사서함** 으로 이동합니다.
 
-5. 사용자를 찾아 선택합니다. 열리는 사서함 세부 정보 플라이아웃에서 다음 단계를 수행합니다.
+5. 사용자를 찾아 선택합니다. 열리는 사서함 세부 정보 플라이아웃에서 다음 단계를 따릅니다.
    - **메일 앱** 섹션에서 토글을 오른쪽의 ![사용 안 함](../../media/scc-toggle-on.png)으로 이동하여 사용 가능한 모든 설정을 차단합니다.
      - **웹용 Outlook**
      - **Outlook 데스크톱(MAPI)**

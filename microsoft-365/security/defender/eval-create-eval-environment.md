@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Defender 환경 만들기 평가판 라이선스를 활성화하거나 활성화하고 Microsoft Defender for Identity(MDI)로 계속 진행합니다.
+title: Microsoft 365 Defender 환경 만들기
 description: 평가판 Microsoft 365 Defender 활성화하여 평가판 랩 또는 파일럿 환경을 설정합니다. 그런 다음 Microsoft Defender for Identity(MDI) 및 기타 모든 M365D 평가를 설치합니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: how-to
 ms.technology: m365d
-ms.openlocfilehash: 04f7a746788ebcf67525020515cdc7bb20c41bb6
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 6e89591b57be2bf79664547715906074b92b54649e1858bde9ffe06cb2be9335
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53867622"
 ---
 # <a name="create-the-microsoft-365-defender-evaluation-environment"></a>Microsoft 365 Defender 환경 만들기
 

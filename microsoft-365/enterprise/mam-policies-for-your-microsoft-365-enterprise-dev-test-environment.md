@@ -14,12 +14,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경에 대한 Microsoft 365 Intune 장치 준수 정책을 추가합니다.
-ms.openlocfilehash: d42c9a603ca581941cb5a8f30b9ecd9d6f780759
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 697837a93b92006f51aca5d20a5ad62bf130f1bbfaf2c4d00caddfe8ea7d12e1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53858906"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 대한 Microsoft 365 장치 준수 정책
 
@@ -50,7 +50,7 @@ Intune 장치 준수 정책을 추가하려면 다음 두 단계를 진행합니
 
 이 단계에서는 디바이스에 대한 장치 준수 정책을 Windows 10 합니다. 이 단계에서는 Microsoft Intune 및 [](https://go.microsoft.com/fwlink/?linkid=2109431) Microsoft Endpoint Manager 관리 센터를 사용하여 그룹을 추가하고 규정 준수 정책을 생성합니다.
 
-1. Microsoft 365 [관리](https://admin.microsoft.com)센터로 이동하고 전역 관리자 계정을 Microsoft 365 테스트 랩 구독에 로그인합니다. 관리 **Endpoint Manager** 선택합니다. Endpoint Manager [센터가](https://go.microsoft.com/fwlink/?linkid=2109431) 열립니다.
+1. 으로 Microsoft 365 관리 센터 [전역](https://admin.microsoft.com)관리자 계정으로 Microsoft 365 테스트 랩 구독에 로그인합니다. 관리 **Endpoint Manager** 선택합니다. Endpoint Manager [센터가](https://go.microsoft.com/fwlink/?linkid=2109431) 열립니다.
 
     장치 관리를 사용하도록  설정하지 않은 메시지와 유사한 메시지가 표시되면 MDM 기관으로 Intune을 선택합니다. 특정 단계는 모바일 장치 관리 기관 설정 [을 참조하세요.](/mem/intune/fundamentals/mdm-authority-set)
 

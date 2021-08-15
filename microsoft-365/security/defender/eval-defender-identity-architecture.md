@@ -1,5 +1,5 @@
 ---
-title: Id용 Microsoft Defender에 대한 아키텍처 요구 사항 및 기술 프레임워크, 아키텍처 다이어그램, MDI 검토
+title: Microsoft Defender for Identity에 대한 아키텍처 요구 사항 및 기술 프레임워크 검토
 description: Microsoft Defender for Identity에 대한 기술 다이어그램은 Microsoft 365 Defender 랩 또는 파일럿 환경을 구축하기 전에 Microsoft 365 ID를 이해하는 데 도움이 됩니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 8f0c736d07a2a66420416d30ae2dc45ae5fee37a
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: cb243c0100bab3b13939422f61618a2d7e1d77772bbdd14b25007988ea626024
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53867591"
 ---
 # <a name="review-architecture-requirements-and-key-concepts-for-microsoft-defender-for-identity"></a>Microsoft Defender for Identity에 대한 아키텍처 요구 사항 및 주요 개념 검토
 

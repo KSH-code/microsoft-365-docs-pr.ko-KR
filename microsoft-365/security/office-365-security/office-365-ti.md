@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender for Office 365 대한 위협 조사 및 대응 기능에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b0a9ff9c06f7e97d6f74c901c156bfae6c9eb91d
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 19e41fbca984ed74dc204eb665fdee481738a1a02e078cd8c0aa0f7f8bd3180e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56885466"
 ---
 # <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
@@ -108,9 +108,9 @@ Microsoft Defender for Office 365 역할 기반 액세스 제어를 사용 합�
 
 |활동|역할 및 사용 권한|
 |---|---|
-|위협 및 & 관리 대시보드(또는 새 보안 대시보드) [사용](security-dashboard.md) <p> 최근 또는 현재 위협에 대한 정보 보기|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
-|[탐색기(및 실시간 검색)를](threat-explorer.md) 사용하여 위협 분석|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
-|인시던트 보기(조사라고도 지칭) <p> 인시던트에 전자 메일 메시지 추가|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
+|위협 및 & 관리 대시보드(또는 새 보안 대시보드) [사용](security-dashboard.md) <p> 최근 또는 현재 위협에 대한 정보 보기|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기 권한자**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
+|[탐색기(및 실시간 검색)를](threat-explorer.md) 사용하여 위협 분석|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기 권한자**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
+|인시던트 보기(조사라고도 지칭) <p> 인시던트에 전자 메일 메시지 추가|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기 권한자**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
 |인시던트에서 전자 메일 작업 트리거 <p> 의심스러운 전자 메일 메시지 찾기 및 삭제|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자** 및 **검색 및** 제거 역할</li></ul> <p> **전역 관리자**  및 보안 관리자 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터()로 할당할 수 <https://admin.microsoft.com> 있습니다. <p> 검색 **및** 제거 역할은 Microsoft 36 Defender 포털의 전자 메일 & 공동 작업 **역할()에** 할당해야 <https://security.microsoft.com> 합니다.|
 |Microsoft Defender for Office 365 Microsoft Defender for Endpoint와 통합 <p> MICROSOFT Defender for Office 365 Plan 2와 SIEM 서버 통합|전역 관리자 **또는** 보안  관리자 역할() 또는 Azure Active Directory( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( <https://admin.microsoft.com> ). <p> --- **plus** --- <p> 추가 응용 프로그램(예: Microsoft Defender 보안 센터 또는 SIEM [서버)에](/windows/security/threat-protection/microsoft-defender-atp/user-roles) 할당된 적절한 역할입니다.|
 |

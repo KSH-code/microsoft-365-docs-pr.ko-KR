@@ -15,12 +15,12 @@ appliesto:
 - Microsoft 365 Defender
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 44d093c039e972832b162b989577f04dc336812b
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 5971a9d7764e8b6a64676a9ed81e2ddc1edd0e218191ee45efab167d59c7b968
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56885447"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>전자 메일로 배달된 악성 전자 메일 Office 365
 

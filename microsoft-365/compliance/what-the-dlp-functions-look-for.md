@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 recommendations: false
 description: DLP(데이터 손실 방지) 함수가 찾아보는 내용을 살펴 봐야 합니다.
-ms.openlocfilehash: 787abc1e7fb4c95392a76f7514ceffd3f7f4dda0
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 7dad18402b25b97097eb35729d4009d9add5533f18f3aec25e63a31015e51b32
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53859674"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>DLP 기능이 찾는 항목
 
@@ -253,22 +253,22 @@ Fund_eu_dates looks for dates in common E.U. "일/월/년", "일-월-년" 및 "�
 - 영어
   - 1월, 2월, 3월, 4월, 6월, 7월, 8월, 9월, 10월, 11월, 12월
   - Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.
-- 네덜란드어
+- Dutch
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
   - jan feb maart apr mei jun jul aug sep sept oct okt nov dec
-- 프랑스어
+- French
   - janvier, février, mars, avril, mai, juin juillet, août, septembre, octobre, novembre, décembre
   - janv. févr. mars avril mai juin juil. août. oct. nov. déc.
-- 독일어
+- German
   - jänuar, februar, märz, April, mai, juni juli, August, September, oktober, November, dezember
   - Jan./Jän. Feb. März Apr. Mai Juni Juli Aug. Sept. Okt. 11월 Dez.
-- 이탈리아어
+- Italian
   - gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
   - genn. febbr. mar. apr. magg. giugno luglio ag. sett. ott. nov. dic.
 - 포르투갈어
   - janeiro, fevereiro, março, marco, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro
   - jan fev mar abr mai jun jul ago set out nov dez
-- 스페인어
+- Spanish
   - enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre
   - enero feb. marzo abr. mayo jun. jul. agosto sept./set. oct. nov. dic.
 
@@ -314,7 +314,7 @@ Fund_eu_dates looks for dates in common E.U. "일/월/년", "일-월-년" 및 "�
 
 허용되는 월 이름:
 
-- 네덜란드어
+- Dutch
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
   - jan feb maart apr mei jun jul aug sep sept out okt nov dec
 

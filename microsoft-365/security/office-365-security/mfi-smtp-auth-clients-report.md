@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 인사이트를 사용하여 보고를 통해 조직의 전자 메일 보낸 사람이 SMTP AUTH(인증된 SM & TP AUTH)를 사용하여 전자 메일 메시지를 보내는지 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a979f0e80fc303868bf2572974563323035fc4bc
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 68dc38bb04697a59f606131d6674074d2822f6e369d850835f02125f0c83fdcb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56883816"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 SMTP & 인사이트 및 보고
 

@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사서함에서 정크 메일 설정을 구성하는 Exchange Online 있습니다. 이러한 설정 중 상당수는 사용자 또는 Outlook 사용할 웹용 Outlook.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c9a787c02273eeaf9e3db5174607f1b65a3c65a
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 2ca7de6cda731fbcbdb43af705527d1f66fe1d601a6f8178b100a71213aca2ab
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53652482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "56884597"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Exchange Online 사서함에 대한 정크 메일 설정 구성
 
@@ -52,7 +52,7 @@ ms.locfileid: "53652482"
 > [!NOTE]
 > 사용자가 자신의 보낸 사람 목록에 추가한 금고 EOP의 일부로 연결 필터링을 건너뜁습니다(SCL은 -1). 사용자가 금고 보낸 사람 목록에 항목을 추가하지 못하게 Outlook 이 문서 의 2부에서 정크 메일 정보 설정에 설명된 Outlook 그룹 정책을 사용합니다. [](#about-junk-email-settings-in-outlook) 정책 필터링, 콘텐츠 필터링 및 Office 365 검사에 대한 Defender는 메시지에 계속 적용됩니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - PowerShell을 사용하여 Exchange Online 절차를 수행하면 됩니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 

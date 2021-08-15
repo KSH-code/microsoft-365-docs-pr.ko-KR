@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이상 탐지 경고를 조사합니다.
-ms.openlocfilehash: fd596e087bda442a36aa1fcf7d7b2ddafccfb106
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: aa0c7a285baf9fcc3505b9675d57dc37e300862570facdac7c9eb2fd9af61e5c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53843074"
 ---
 # <a name="investigate-anomaly-detection-alerts"></a>이상 탐지 경고 조사
 
