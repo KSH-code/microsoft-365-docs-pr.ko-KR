@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 ms.assetid: bb5260a9-a6a3-4f34-b19a-06c6699f6723
 description: PowerShell을 사용하여 조직에서 사용할 수 있는 라이선스 계획, 서비스 및 라이선스에 대한 Microsoft 365 설명
-ms.openlocfilehash: 08f48301001ee6a40318428f3310eab8b0d0a351
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: faf7589cacee5d945ef136c602dd1f3f18ac92dba5e361adc1a9e43580afe24f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830146"
 ---
 # <a name="view-microsoft-365-licenses-and-services-with-powershell"></a>PowerShell을 Microsoft 365 라이선스 및 서비스 보기
 

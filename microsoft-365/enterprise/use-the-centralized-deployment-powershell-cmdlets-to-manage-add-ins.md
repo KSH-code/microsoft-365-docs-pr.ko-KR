@@ -20,16 +20,16 @@ ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
 description: 중앙 집중식 배포 PowerShell cmdlet을 사용하여 조직에 대한 Office 추가 기능을 배포하고 Microsoft 365 있습니다.
-ms.openlocfilehash: 7872deedfcfe058f0a4ac63c489bbed139699d18
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8f84c3222fa8a9eefcdda90fa6daf1c453dd73236fd6be61d2c57b63c7feceea
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924675"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830158"
 ---
 # <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>중앙 집중식 배포 PowerShell cmdlet을 사용하여 추가 기능 관리
 
-전역 Microsoft 365 중앙 집중식 배포 기능을 통해 Office 추가 기능을 배포할 수 있습니다(관리 센터에서 Office 추가 기능 배포 [참조).](../admin/manage/manage-deployment-of-add-ins.md) Office 추가 기능을 배포하는 Microsoft 365 Microsoft PowerShell을 사용할 수도 있습니다. 에 대한 [O365](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment)중앙 집중식 Add-In 배포 모듈을 Windows PowerShell. 
+전역 Microsoft 365 중앙 집중식 배포 기능을 통해 Office 추가 기능을 배포할 수 있습니다(관리 센터에서 Office 추가 기능 배포 [참조).](../admin/manage/manage-deployment-of-add-ins.md) 추가 기능을 Office 추가 기능을 배포하는 Microsoft 365 관리 센터 Microsoft PowerShell을 사용할 수 있습니다. 에 대한 [O365](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment)중앙 집중식 Add-In 배포 모듈을 Windows PowerShell. 
 
 모듈을 다운로드한 후 일반 Windows PowerShell 열고 다음 cmdlet을 실행합니다.
 

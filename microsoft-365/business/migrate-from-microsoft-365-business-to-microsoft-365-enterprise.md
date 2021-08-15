@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: 비즈니스를 새로운 비즈니스로 이동하는 Microsoft 365 Business Premium Microsoft 365 E3.
-ms.openlocfilehash: 6502d79dbb283db37b00e4fccf89b15ab4291ce5
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: d3030518f7f4467c7b2e16897dc7b100764d9d5a36c50169b58f1adcd7bef209
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837650"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Microsoft 365 Business Premium에서 Microsoft 365 E3로 마이그레이션
 
@@ -49,7 +49,7 @@ Microsoft 365 Business Premium 중소기업에 필요한 모든 것이 있으며
 | 기능    | 지원 Microsoft 365 Business Premium    | 지원 Microsoft 365 E3 |
 |:-------|:-----|:-----|
 | **On-premises**        | | |
-| Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3|
+| Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3|
 | Office 앱*    | [비즈니스용 Microsoft 365 앱](#office-365-business)    | 엔터프라이즈용 Microsoft 365 앱 |
 | **클라우드 생산성 앱**        | | |
 | Exchange Online Outlook    | 사서함당 50GB 저장소 제한 및 무제한 Exchange Online 보관    | 사서함당 100GB 저장소 제한 및 무제한 Exchange Online 보관 |
@@ -129,7 +129,7 @@ Windows 10 Enterprise E3에는 하드웨어 기반의 하드웨어 기반의 엔
 
 등록된 장치와 장치 및 앱 설정을 포함하는 마이그레이션 전에 현재 Intune 구성을 변경할 필요가 없습니다.
 
-### <a name="windows-10"></a>Windows 10
+### <a name="windows-10"></a>Windows 10
 
 Microsoft 365 Business Premium AutoPilot을 Windows 10 Business 설치할 수 있는 Windows 포함되어 있습니다. 사용자 라이선스로 마이그레이션할 Microsoft 365 E3 각 사용자 라이선스에는 Windows 10 Enterprise E3가 포함되어 Autopilot을 사용하여 설치할 Windows 있습니다.
 

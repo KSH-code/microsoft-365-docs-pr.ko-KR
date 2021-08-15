@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조사 또는 법률 사례와 관련된 콘텐츠를 보존하기 위해 핵심 eDiscovery 사례와 Microsoft 365 보류를 만들 수 있습니다.
-ms.openlocfilehash: 61bbe2e8d2713c2960105e2ec4eb4beffcd4306e
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 0d7d7438002f811e11a6a303b6fc6947b7db296428dd8cb1cc6c1e418d9530ca
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53860947"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -42,7 +42,7 @@ Core eDiscovery 사례와 연결된 eDiscovery 보류를 만들 수 있는 경�
   
 1. 으로 이동한 후 적절한 eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 [https://compliance.microsoft.com](https://compliance.microsoft.com) 사용하여 로그인합니다.
 
-2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 모두 표시를 클릭한 다음 **eDiscovery**> 클릭합니다.
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 클릭한 다음 **eDiscovery**> 클릭합니다. 
 
 3. Core **eDiscovery** 페이지에서 보류를 만들 사례의 이름을 클릭합니다.
 
@@ -177,7 +177,7 @@ eDiscovery 보류에 Teams Office 365 다음에 유의해야 합니다.
   
 - 사용자의 사서함을 검색하면 사용자가 구성원인 Office 365 그룹 또는 그룹이 검색되지 않습니다. 마찬가지로 팀 또는 Office 365 그룹이 eDiscovery 보류로 설정되어 있는 경우 그룹 사서함 및 그룹 사이트만 보류됩니다. eDiscovery 비즈니스용 OneDrive 추가하지 않는 한 그룹 구성원의 사서함 및 사이트는 보류되지 않습니다. 따라서 법적 이유로 팀 또는 Office 365 그룹을 보류해야 하는 경우 팀 또는 그룹 구성원의 사서함과 OneDrive 계정을 동일한 보류에 추가하는 것이 고려됩니다.
 
-- 팀 또는 Office 365 그룹의 구성원 목록을 표시하려면 그룹 관리 센터의 그룹  페이지에서 속성을 Microsoft 365 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
+- 팀 또는 그룹 구성원 목록을 Office 365 그룹의 그룹 페이지에서 속성을 볼 수  Microsoft 365 관리 센터. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
 
     ```powershell
     Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress
@@ -199,7 +199,7 @@ eDiscovery 사례와 연결된 보류 또는 검색에 추가할 수 있도록 �
 
 - **사서함:** 관리되는 폴더 도우미가 다음에 사서함을 처리하고 eDiscovery 보류가 제거된 경우 사서함에 지연 보류가 적용됩니다. 특히 관리되는 폴더 도우미가 다음 사서함 속성 중 하나를 True로 설정하면 사서함에 지연 보류가 **적용됩니다.**
 
-   - **DelayHoldApplied:** 이 속성은 사용자 사서함에 저장된 전자 메일 관련 콘텐츠(웹에서 Outlook Outlook 사용자에 의해 생성)에 적용됩니다.
+   - **DelayHoldApplied:** 이 속성은 사용자 사서함에 저장된 전자 메일 관련 콘텐츠(Outlook 및 웹용 Outlook 사용하여 생성)에 적용됩니다.
 
    - **DelayReleaseHoldApplied:** 이 속성 Outlook은 사용자 사서함에 저장된 클라우드 기반 콘텐츠(Microsoft Teams, Microsoft Forms 및 Microsoft Yammer와 같은 비영구 앱에 의해 생성)에 적용됩니다. Microsoft 앱에서 생성된 클라우드 데이터는 일반적으로 사용자 사서함의 숨겨진 폴더에 저장됩니다.
 

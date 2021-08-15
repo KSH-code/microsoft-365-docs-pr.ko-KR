@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c67a12be31a137acffed98bb38d6d1e7ab7fe648
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 469e01c26cd5a9a895abb0e4ea1f386fc374db67416479f147536050d32787e2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837466"
 ---
 # <a name="payment-information-for-cameroon"></a>카메온 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52537021"
 **은행:** Citibank, London  
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
-**계정 번호:** 12510049  
+**계정 번호: 12510049**  
 **계정 이름:** MICROSOFT

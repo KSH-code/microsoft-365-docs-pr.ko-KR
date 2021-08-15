@@ -18,19 +18,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: 3c91a388bc01a5531309b556a5a8532cb2efbaa6
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 58c15a05d1cac7f205814aa34c5dc3c2851f7c661cc853aa8b2529cb7bcbe94a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837017"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
-Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-compliance.md)은 조직에 Microsoft 365의 여러 서비스에서 다양한 유형의 감사 활동에 대한 가시성을 제공합니다. 고급 감사는 필요한 감사 로그 보존을 강화하고 손상 범위를 확인하는 데 도움이 되는 중요한 이벤트에 대한 액세스를 제공하고 Office 365 관리 활동 API에 빠르게 액세스할 수 있게 해주어 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 됩니다. 
+Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-compliance.md)은 조직에 Microsoft 365의 여러 서비스에서 다양한 유형의 감사 활동에 대한 가시성을 제공합니다. 고급 감사는 (Microsoft 365 준수 센터 및 Office 365 관리 활동 API에서 감사 로그 검색 사용) 필요한 감사 로그 보존을 강화하고 손상 범위를 확인하는 데 도움이 되는 중요한 이벤트에 대한 액세스를 제공하고 Office 365 관리 활동 API에 빠르게 액세스할 수 있게 해주어 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 됩니다. 
 
 > [!NOTE]
-> Office 365 E5/A5/G5 또는 Microsoft 365 Enterprise E5/A5/G5 구독이 있는 조직의 경우 고급 감사 기능을 사용할 수 있습니다. 또한 감사 로그가 장기 보존되는 경우와 조사에 대한 중요한 이벤트에 액세스하는 경우와 같이 고급 감사 기능에 대 한 사용자별 라이선스가 필요한 경우에는 Microsoft 365 E5/A5/G5 준수 또는 E5/A5/G5 eDiscovery 및 감사 추가 기능 라이선스가 사용자에게 할당될 수 있습니다. 라이선스에 대한 자세한 내용은 다음을 참조하세요.<br/>- [고급 감사 라이선스 요구 사항](auditing-solutions-overview.md#licensing-requirements)<br/>- [보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit)
+> Office 365 E5/A5/G5 또는 Microsoft 365 Enterprise E5/A5/G5 구독이 있는 조직의 경우 고급 감사 기능을 사용할 수 있습니다. Microsoft 365 E5/A5/G5 규정 준수 또는 E5/A5/G5 eDiscovery 및 감사 추가 기능 라이선스는 감사 로그의 장기 보존 및 조사를 위한 중요한 고급 감사 이벤트에 대한 액세스와 같은 고급 감사 기능을 위해 사용자에게 할당되어야 합니다. 라이선스에 대한 자세한 내용은 다음을 참조하세요.<br/>- [고급 감사 라이선스 요구 사항](auditing-solutions-overview.md#licensing-requirements)<br/>- [보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit)
 
 이 문서에서는 고급 감사 기능 개요와 고급 감사에 대한 사용자 설정 방법이 나와 있습니다.
 
@@ -38,10 +38,10 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 
 고급 감사는 1년 동안 모든 Exchange, SharePoint 및 Azure Active Directory 감사 레코드를 보존합니다. 이는 1년 동안의 **워크로드** 속성(활동이 발생한 서비스를 나타냄)에 대한 **Exchange**, **SharePoint** 또는 **AzureActiveDirectory** 값을 포함하는 모든 감사 레코드를 보유하는 기본 감사 로그 보유 정책에 의해 수행됩니다. 감사 기록을 장기간 유지하면 진행 중인 법률적 또는 규정 준수 조사에 도움이 될 수 있습니다. 자세한 정보는 [감사 로그 보존 정책 관리](audit-log-retention-policies.md#default-audit-log-retention-policy)의 "기본 감사 로그 보존 정책"섹션을 참조하십시오.
 
-10년간 감사 로그를 보존하는 기능 또한 해제하고 있습니다. 감사 로그의 10년 보존은 장기 실행 조사를 지원하고 규제, 법률 및 내부 의무에 대응하는 데 도움이 됩니다.
+고급 감사의 1년 보존 기능 외에도 10년 동안 감사 로그를 보존하는 기능도 출시했습니다. 감사 로그의 10년 보존은 장기 실행 조사를 지원하고 규제, 법률 및 내부 의무에 대응하는 데 도움이 됩니다.
 
 > [!NOTE]
-> 10년간의 감사 로그 보존은 추가적인 추가 기능 라이선스를 필요로 합니다. 자세한 내용은 이 문서의 [고급 감사에 대한 FAQ](#faqs-for-advanced-audit) 섹션을 참조하십시오.
+> 10년간의 감사 로그 보존은 추가적인 사용자당 추가 기능 라이선스를 필요로 합니다. 이 라이선스가 사용자에게 할당되고 해당 사용자에 대해 적절한 10년 감사 로그 보존 정책이 설정된 후 해당 정책이 적용되는 감사 로그는 10년 동안 보존되기 시작합니다. 이 정책은 소급되지 않으며 10년 감사 로그 보존 정책을 만들기 전에 생성된 감사 로그를 보존할 수 없습니다. 자세한 내용은 이 문서의 [고급 감사에 대한 FAQ](#faqs-for-advanced-audit) 섹션을 참조하십시오.
 
 ### <a name="audit-log-retention-policies"></a>로그 보존 정책 감사
 
@@ -68,7 +68,7 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 - [SearchQueryInitiatedSharePoint](#searchqueryinitiatedsharepoint)<sup>*</sup>
 
 > [!NOTE]
-> <sup>*</sup> 현재 이 이벤트는 Office 365 및 Microsoft 365 Government 환경에서 사용할 수 없습니다. 여기에는 GCC, GCC High 및 DoD 환경이 포함됩니다.
+> <sup>*</sup> 현재 이 이벤트는 Office 365 및 Microsoft 365 Government GCC High 및 DoD 환경에서 사용할 수 없습니다.
 
 ### <a name="mailitemsaccessed"></a>MailItemsAccessed
 
@@ -174,11 +174,7 @@ Office 365 관리 활동 API를 통해 감사 로그에 액세스하는 조직�
 
 **내 조직에 E5/A5/G5 구독이 있는 경우에는 중요한 이벤트에 대해 감사 레코드에 대한 액세스 권한을 얻으려면 어떤 작업을 수행해야 하나요?**
 
-적정 라이선스가 할당된 적격 고객 및 사용자에 게는 중요한 감사 이벤트에 대한 액세스 권한을 얻는 데 취할 조치가 없습니다.
-
-**이 기능이 일반에 공개되었지만 필요한 추가 기능 라이선스를 사용하기 전에 10년 감사 로그 보존 정책을 만든 경우 조직의 감사 로그 데이터는 어떻게 되나요?**
-
-사용자가 일반 가용성이 통용되도록 기능을 출시한 작년 2020년 4분기 이후에 만든 10년 감사 로그 보존 정책으로 감사된 모든 감사 로그 데이터는 10년 동안 보존됩니다. 여기에는 구매용으로 필수 추가 기능 라이선스를 릴리스하기 전에 만든 10년 감사 로그 보존 정책이 포함됩니다. 그러나 이제 10년 감사 로그 보존 추가 기능 라이선스를 구매할 수 있기 때문에 감사 데이터가 10년 감사 보존 정책이 적용된 사용자에 대해 해당 추가 기능 라이선스를 구입하여 할당해야 합니다.
+적격 고객 및 적절한 E5/A5/G5 라이선스가 할당된 사용자의 경우 (이 문서에서 앞서 설명한 대로) SearchQueryInitiatedExchange 및 SearchQueryInitiatedSharePoint 이벤트를 사용하도록 설정하는 것을 제외하고 중요한 감사 이벤트에 대한 액세스를 생성하기 위해 필요한 조치가 없습니다.
 
 **고급 감사의 새 이벤트는 Office 365 관리 작업 API에서 사용할 수 있나요?**
 
@@ -187,3 +183,7 @@ Office 365 관리 활동 API를 통해 감사 로그에 액세스하는 조직�
 **대역폭이 높을수록 지연 시간이 개선되거나 더 높은 SLA를 의미하나요?**
 
 현재 높은 대역폭을 사용하면 더 나은 파이프라인을 제공하고 특히 감사 신호가 많고 상당한 소비 패턴을 보유하고 있는 조직에 적합합니다. 대역폭이 많을 수록 대기 시간이 개선될 수 있습니다. 그러나 고대역폭과 관련된 SLA는 없습니다. 표준 대기 시간이 문서화되어 있으면 이 대기 시간은 고급 감사의 릴리스를 통해 변경되지 않습니다.
+
+**이 기능이 일반에 공개되었지만 필요한 추가 기능 라이선스를 사용하기 전에 10년 감사 로그 보존 정책을 만든 경우 조직의 감사 로그 데이터는 어떻게 되나요?**
+
+사용자가 일반 가용성이 통용되도록 기능을 출시한 작년 2020년 4분기 이후에 만든 10년 감사 로그 보존 정책으로 감사된 모든 감사 로그 데이터는 10년 동안 보존됩니다. 여기에는 2021년 3월에 구매용으로 필수 추가 기능 라이선스를 릴리스하기 전에 만든 10년 감사 로그 보존 정책이 포함됩니다. 그러나 이제 10년 감사 로그 보존 추가 기능 라이선스를 구매할 수 있기 때문에 감사 데이터가 10년 감사 보존 정책이 적용된 모든 사용자에 대해 해당 추가 기능 라이선스를 구입하여 할당해야 합니다.

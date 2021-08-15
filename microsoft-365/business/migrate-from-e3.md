@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 구독이 Office 365 E3 직원 수가 300명을 넘지 않는 경우 전환을 Microsoft 365 Business Premium.
-ms.openlocfilehash: c1b4da07b3bf28cce1a48424ab45cde6ea54d367
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 89bf493b39250d88fcb47585d71e7dadd6600c4c3fff0658bb72e51b9ff386c5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837666"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>마이그레이션에서 Office 365 E3 Microsoft 365 Business Premium 마이그레이션
 
@@ -42,7 +42,7 @@ Microsoft 365 Business Premium 중소기업에 필요한 모든 것을 사용하
 
 | 기능    | 지원 Microsoft 365 Business Premium    | 지원 Office 365 E3 |
 |:-------|:-----|:-----|
-| **온-프레미스**        | | |
+| **On-premises**        | | |
 | Office 앱<sup>1</sup>    | 비즈니스용 Microsoft 365 앱    | 엔터프라이즈용 Microsoft 365 앱 |
 | **클라우드 생산성 앱**        | | |
 | Exchange Online Outlook    | 사서함당 50GB 저장소 제한 및 제한 없는 Exchange Online Archiving    | 사서함당 100GB 저장소 제한 및 제한 없는 Exchange Online Archiving |

@@ -14,12 +14,12 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 description: 다음 단계에 따라 기본 이동성 및 보안 문제를 추적합니다.
-ms.openlocfilehash: b8df8c17f3a2fc5b7b6cce21769ca20742dbd397
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: 1ba964f052169b3937ecbc086abd4a686c0a66bb959c4b38d4280c1bbb0225a2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53826714"
 ---
 # <a name="troubleshoot-basic-mobility-and-security"></a>기본 이동성 및 보안 문제 해결
 
@@ -61,7 +61,7 @@ ms.locfileid: "49876855"
 
 - 기본 이동성 및 보안과 함께 작동하려면 도메인이 Microsoft 365 설정되어 있는지 확인 자세한 내용은 기본 이동성 및 [보안 설정 을 참조하세요.](set-up.md)
     
-- 이 Azure Active Directory Premium 않은 경우 사용자가 를 선택하지 **** 않고 장치 관리에만 등록을   선택해야 **커넥트.**
+- 등록이 Azure Active Directory Premium 않은 경우 사용자가 장치 관리에서 **** 등록을 선택하지 않고 장치 관리에만 등록을 선택해야    **커넥트.**
 
 ## <a name="android-phone-or-tablet"></a>Android 휴대폰 또는 태블릿
 

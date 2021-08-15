@@ -17,18 +17,18 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: be497751-596f-431d-b256-0a89d36a47ce
 description: Syndication 및 클라우드 솔루션 공급자(CSP) 파트너가 Windows PowerShell 테넌트 관리를 Microsoft 365 방법
-ms.openlocfilehash: 352a9a01414b94a1593de6a734151b687524fe7d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e601875f5541f090f596b059db5d92b3494fabd55796945e8d543ba7c9646343
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909529"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830201"
 ---
 # <a name="how-to-manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-partners"></a>위임된 액세스 Microsoft 365 파트너용 Windows PowerShell 관리 방법
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다. 대부분의 공급자는 네트워크 또는 통신 공급자입니다. 서비스 Microsoft 365 구독을 번들로 묶습니다. Microsoft 365 구독을 판매하는 경우 고객의 테넌트에 대한 AOBO(관리 대신 관리) 권한이 자동으로 부여되어 해당 테넌트에 대해 관리하고 보고할 수 있습니다. 이러한 작업은 Microsoft 365 관리 센터에서 수행하기가 어렵습니다. PowerShell을 사용하여 PowerShell을 Microsoft 365 수행할 수 있습니다.
+DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다. 대부분의 공급자는 네트워크 또는 통신 공급자입니다. 서비스 Microsoft 365 구독을 번들로 묶습니다. Microsoft 365 구독을 판매하는 경우 고객의 테넌트에 대한 AOBO(관리 대신 관리) 권한이 자동으로 부여되어 해당 테넌트에 대해 관리하고 보고할 수 있습니다. 이러한 작업은 작업에서 수행하기 Microsoft 365 관리 센터. PowerShell을 사용하여 PowerShell을 Microsoft 365 수행할 수 있습니다.
 - 모든 고객 **TenantIds** 및 해당 도메인 나열 
 - 고객 테넌트의 모든 사용자 및 할당된 라이선스 식별
 > [!NOTE]

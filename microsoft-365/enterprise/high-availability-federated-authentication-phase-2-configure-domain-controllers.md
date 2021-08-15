@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 6b0eff4c-2c5e-4581-8393-a36f7b36a72f
 description: '요약: 도메인 컨트롤러 및 디렉터리 동기화 서버를 구성하여 2016년 8월 1일부로의 고가용성 Microsoft 365 Microsoft Azure.'
-ms.openlocfilehash: 751d332ce5f5606fe5f833182f002a1f4b6f29ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 659b70b9f5d81fe1cc692701987fb0736c821a880e1f8e64b27b197ff26b8127
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830261"
 ---
 # <a name="high-availability-federated-authentication-phase-2-configure-domain-controllers"></a>고가용성 페더레이션 인증 2단계: 도메인 컨트롤러 구성
 

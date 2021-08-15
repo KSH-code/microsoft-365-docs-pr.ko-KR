@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: caf9274284548a179e088131930ae832c098b521
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7138933c1ef3b849374cda16f5072f408877dd66910808c0ce771fcd2c317d0c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53869858"
 ---
 # <a name="readiness-assessment-tools"></a>준비 평가 도구
 
@@ -51,7 +51,7 @@ ms.locfileid: "51579401"
 |지역     | 사용자 지역이 지원되는지 Microsoft Managed Desktop        |
 |보안 기준     | 보안 기준 프로필이 모든 사용자 또는 모든 장치를 대상으로 하지 않는지  검사합니다(보안 기준 정책은 모든 Microsoft Managed Desktop 않습니다.)       |
 |Windows 앱     | 디바이스에 할당할 앱 Microsoft Managed Desktop 검토      |
-|비즈니스용 Windows Hello     | 비즈니스용 Windows Hello를 사용하도록 설정되어 있는지 확인        |
+|비즈니스용 Windows Hello     | 비즈니스용 Windows Hello 사용하도록 설정되어 있는지 확인        |
 |Windows 10 업데이트 링     | Intune의 "Windows 10 업데이트 링" 정책이 모든 사용자 또는 모든 장치를 대상으로  하지 않는지 검사합니다(정책이 모든 Microsoft Managed Desktop 대상이 아니야 합니다.)     |
 
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 대표적 글로벌 조직이 기업을 위해 Microsoft 365 방법
-ms.openlocfilehash: e14c2747837ed91a63e7609ce46307b0f38aa758
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: deef90fc670c0baca49d79ea6c285cd6fb2ee4f9151d83b6a336e0e7b81b0ff5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53830278"
 ---
 # <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 Contoso Corporation의 엔터프라이즈용 사이트
 
@@ -43,7 +43,7 @@ Contoso Corporation은 파리에 본사가 있는 대표적인 글로벌 제조 
 
   Contoso 네트워크 엔지니어는 인트라넷 에지 및 인터넷에서 가장 가까운 Microsoft 네트워크 위치로의 트래픽을 자신의 사내 사용자에 맞게 최적화했습니다.
 
-- [Identity](contoso-identity.md)
+- [ID](contoso-identity.md)
 
   클라우드 내 Contoso ID 솔루션은 회사의 AD DS(Active Directory 도메인 서비스) 포리스트를 활용합니다. 여기에는 기존의 신뢰할 수 있는 타사 ID 공급자와의 페더임 인증이 포함됩니다.
 

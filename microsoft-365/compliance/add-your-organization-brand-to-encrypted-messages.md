@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: 전역 Office 365 조직의 브랜드를 암호화 포털의 콘텐츠와 함께 암호화된 전자 메일 메시지에 적용하는 & 방법을 알아보겠습니다.
-ms.openlocfilehash: 95320e9f268f19cedd993efe4fa0e68fd75af125
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: 35fc440b6ae8f973dac6ce1fa5216829b4a966f8d00d763969bc03d1a5216c59
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430735"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53836934"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 메시지 암호화 암호화 Microsoft 365 조직 브랜드 추가
 

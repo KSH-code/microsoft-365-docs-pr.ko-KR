@@ -17,12 +17,12 @@ manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: d6fb8dc510e004fa88bf99583cc2cc33ae8c63bb
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 820300be1a8c68dab4b000b61023819ce1b75cf800e7cc16915f2aa7a696dfd2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53884478"
 ---
 # <a name="use-powershell-cmdlets-to-configure-and-manage-microsoft-defender-antivirus"></a>PowerShell cmdlet을 사용하여 구성 및 관리 Microsoft Defender 바이러스 백신
 
@@ -55,7 +55,7 @@ PowerShell은 일반적으로 폴더 아래에 `%SystemRoot%\system32\WindowsPow
 3. PowerShell 명령과 매개 변수를 입력합니다.
 
 > [!NOTE]
-> 관리자 모드에서 PowerShell을 열 필요가 있을 수 있습니다. 시작 메뉴에서 항목을 마우스 오른쪽  단추로 클릭하고 관리자 권한으로 실행을 클릭한 다음 사용 권한 프롬프트에서 **예를** 클릭합니다.
+> 관리자 모드에서 PowerShell을 열 필요가 있을 수 있습니다. 관리자 권한에서 항목을 시작 메뉴 관리자 권한으로  실행을 클릭하고 사용 권한 프롬프트에서 **예를** 클릭합니다.
 
 cmdlet에 대한 온라인 도움말을 열기 위해 다음을 입력합니다.
 

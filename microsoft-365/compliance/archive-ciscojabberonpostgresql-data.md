@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: PostgreSQL에서 Cisco Jabber의 데이터를 가져오고 보관하기 위해 Microsoft 365 규정 준수 센터 커넥터를 설정하고 사용하는 방법을 Microsoft 365.
-ms.openlocfilehash: 7fca60df9d2c0378579d7700fb3dae9bbcdf619d
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: fc73fe178c59a50da81dd6e17ccf63e2e8b655419e24d0f17adcfffabc9449a4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861059"
 ---
 # <a name="set-up-a-connector-to-archive-cisco-jabber-on-postgresql-data"></a>PostgreSQL 데이터에 Cisco Jabber를 보관할 커넥터 설정
 
@@ -42,7 +42,7 @@ PostgreSQL 데이터의 Cisco Jabber가 사용자 사서함에 저장되고 나�
 
 4. 커넥터는 3단계에 설명된 자동 사용자 매핑의 *Email* 속성 값을 사용하여 변환된 항목을 특정 사용자의 사서함으로 [가져올 수 있습니다.](#step-3-map-users-and-complete-the-connector-setup) **PostgreSQL의 받은 편지함 폴더에 있는 Cisco Jabber라는** 하위 폴더가 사용자 사서함에 만들어지며 항목이 해당 폴더로 가져오기됩니다. 이 커넥터는 Email 속성 값을 사용하여 이 *기능을* 실행합니다. 모든 Jabber 항목에는 항목의 모든 참가자의 전자 메일 주소로 채워지는 이 속성이 포함되어 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 - Microsoft 커넥터에 대한 Merge1 계정을 생성합니다. 이를 위해 [Veritas 고객 지원에 문의합니다.](https://www.veritas.com/content/support/en_US) 1단계에서 커넥터를 만들 때 이 계정에 로그인해야 합니다.
 

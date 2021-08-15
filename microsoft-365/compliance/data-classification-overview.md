@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 중요한 데이터를 얼마나 많이 찾고 분류했는지 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: c0343117251d169d0284c2fdb3fc3b8bca5ff0df
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: c85129d13b836b8eab8b15fa5fcbbc3813d908e2c49f11ca70d887b283944370
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53860897"
 ---
 # <a name="learn-about-data-classification"></a>데이터 분류에 대한 자세한 정보
 

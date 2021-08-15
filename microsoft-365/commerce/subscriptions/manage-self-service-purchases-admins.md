@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리하는 방법을 배울 수 있습니다.
 ms.date: 03/26/2021
-ms.openlocfilehash: a4ac4b79a9a73f80fc22e6f14696e25925df9faf
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3ab07fac52a55518f2d8259b35f1de808bb544685ef4c463ac9c5e9d3706a973
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53852238"
 ---
 # <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구매(관리자) 관리
 
@@ -38,19 +38,19 @@ ms.locfileid: "52536097"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 2. 제품 **탭에서** 필터 아이콘을 선택한 다음 셀프 **서비스 를 선택합니다.**
@@ -142,7 +142,7 @@ ms.locfileid: "52536097"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
@@ -173,7 +173,7 @@ ms.locfileid: "52536097"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 

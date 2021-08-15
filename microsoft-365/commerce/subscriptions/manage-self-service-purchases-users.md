@@ -18,16 +18,16 @@ search.appverid:
 - MET150
 description: 사용자는 셀프 서비스 구매를 관리하는 방법을 배울 수 있습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: fb8431bce82893d8ca2903caf96968dd3b0ef359
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 581a142eb18e64bfec237e6108564d68d715e21ca20b74e39337afbb7ac86491
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683670"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53852202"
 ---
 # <a name="manage-self-service-purchases-users"></a>셀프 서비스 구매(사용자) 관리
 
-사용자는 특정 제품에 대한 구독을 구입하고 해당 구독에 대한 라이선스를 팀의 사용자에게 할당할 수 있습니다. 셀프 서비스 구매에 대한 대가를 지불해야 합니다. 의 Microsoft 365 관리 센터에서 구독을 관리할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
+사용자는 특정 제품에 대한 구독을 구입하고 해당 구독에 대한 라이선스를 팀의 사용자에게 할당할 수 있습니다. 셀프 서비스 구매에 대한 대가를 지불해야 합니다. 의 에서 구독을 관리할 Microsoft 365 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
 
 관리자가 구입한 모든 구독에 대한 읽기 전용 보기가 있습니다. 구입한 각 구독에 대한 제품, 구매자 이름, 구독, 만료 날짜, 구매 가격 및 할당된 사용자를 볼 수 있습니다.
 
@@ -37,19 +37,19 @@ ms.locfileid: "52683670"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 2. 제품 **탭에서** 필터 아이콘을 선택한 다음 셀프 **서비스 를 선택합니다.**
 
@@ -57,19 +57,19 @@ ms.locfileid: "52683670"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 2. 제품 **탭에서** 더 구입하거나 라이선스를 줄일 구독을 선택합니다.
 3. 라이선스 **구입 또는** 라이선스 **제거를 선택 합니다.**
@@ -131,21 +131,21 @@ ms.locfileid: "52683670"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
-2. **제품** 탭에서 취소하려는 구독을 찾으세요. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
+2. **제품** 탭에서 취소하려는 구독을 찾습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
 3. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우 피드백을 제공합니다.
 4. **저장** 을 선택합니다.
 

@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 65ccc2cf551eeb52b9751a2457f8f1ba66e83fc7
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: c153d664ca658c50789b7372de0bd20e3423199f5f82242f76470c375b3a530c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622703"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53869880"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -183,7 +183,7 @@ Windows PowerShell 디바이스를 대상으로 하는 방식으로 스크립트
 
 Azure AD Windows PowerShell 스크립트가 Microsoft Manage Desktop 장치 또는 사용자를 대상으로 하지 않는지 확인 모든 사용자, 모든 장치 또는 둘 다를 대상으로 하는 PowerShell 스크립트를 할당하지 않습니다. 모든 장치 또는 사용자를 포함하지 않는 특정 Azure AD 그룹을 대상으로 하는 할당을 Microsoft Managed Desktop 변경합니다. 자세한 내용은 [Intune에서 Windows 10 PowerShell 스크립트 사용을 참조하세요.](/mem/intune/apps/intune-management-extension)
 
-### <a name="region"></a>Region
+### <a name="region"></a>지역
 
 지역은 해당 지역의 지원이 Microsoft Managed Desktop.
 

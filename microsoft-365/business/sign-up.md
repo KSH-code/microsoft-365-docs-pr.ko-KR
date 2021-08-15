@@ -26,12 +26,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 포함된 Microsoft 365 Business Premium 알아보고 앱 등록 시 단계별 지침을 Microsoft 365 Business Premium.
-ms.openlocfilehash: 18f4cea19225f053bef6ac8838275755b8a1f7ab
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5a294f85aff688f247e918c82f22e6b445219e130878a472399a42cd2cd3e49d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837558"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에 가입
 
@@ -54,7 +54,7 @@ ms.locfileid: "52244759"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 비즈니스용 Microsoft 365 등록하고 구매하기 위해 다음 단계를 완료합니다.
 

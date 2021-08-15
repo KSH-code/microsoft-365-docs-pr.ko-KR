@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44aea2241c1ff1fdcaf5d5839970c1c90fa42e17
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: a4259aee0be2819fc630f84aa5c08019ec1cf57f60b1b2c00030288bcb3f5092
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53901734"
 ---
 # <a name="contact-support-for-guatemala"></a>과테말라 지원에 문의
 
