@@ -12,12 +12,12 @@ ms.assetid: ''
 description: '& 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 새 도메인이 전달되는 전자 메일 정보를 사용하여 사용자가 전달되지 않은 외부 도메인으로 메시지를 전달하는 경우를 조사하는 방법을 배울 수 있습니다.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2f3a5f125a045176f152ccd079ebe7f7e40bc39f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 98705d1f865886db91c8073188beaa0b3bc6b6da711839c0e43f6c81b1a7eae4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "57036683"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전달되는 새 & 정보
 

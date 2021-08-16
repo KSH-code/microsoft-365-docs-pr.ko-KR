@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 보다 안전한 사용자 인증 및 비즈니스용 Skype HMA(하이브리드 최신 인증)를 사용하도록 사내에서 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9695815d0a085931b10f7f64b9fca2e997af9077
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 74046b89ba5ded65c9a645ca43e94b195ddf74896b0fd8832653ac8d96606b5f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53864913"
 ---
 # <a name="how-to-configure-skype-for-business-on-premises-to-use-hybrid-modern-authentication"></a>하이브리드 최신 인증을 사용하도록 비즈니스용 Skype 온-프레미스를 구성하는 방법
 
@@ -82,7 +82,7 @@ MA를 켜는 네 개의 다른 위치가 있습니다! 최상의 사용자 환�
 
 - **SIP/SMTP 도메인**
 
-  - 예. contoso.com(Office 365)
+  - 예: contoso.com(Office 365)
 
 - **테넌트 ID**
 
@@ -96,9 +96,9 @@ MA를 켜는 네 개의 다른 위치가 있습니다! 최상의 사용자 환�
 Get-CsService -WebServer | Select-Object PoolFqdn, InternalFqdn, ExternalFqdn | FL
 ```
 
-- 예. 내부: https://lyncwebint01.contoso.com
+- 예: 내부: https://lyncwebint01.contoso.com
 
-- 예. 외부: https://lyncwebext01.contoso.com
+- 예: 외부: https://lyncwebext01.contoso.com
 
 Standard Edition 서버를 사용하는 경우 내부 URL은 비어 있습니다. 이 경우 내부 URL에 풀 fqdn을 사용합니다.
 

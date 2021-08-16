@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 로그인하여 Microsoft 365. 사이버 보안 위협으로부터 전자 메일, 데이터 및 통신에 대한 비즈니스, 관행 또는 캠페인을 보호합니다.
-ms.openlocfilehash: eff81da84853130da2f2dcc0aaaf2a9834477a85
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: f5ef951bd8c0a6024ecbf9ae4ccb38a89bf327b157d672477dbd2de8aa33aac3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53881700"
 ---
 # <a name="sign-in-to-microsoft-365"></a>로그인하여 Microsoft 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "51398177"
 등록한 Microsoft 365 관리자인 Microsoft 365. 로그인하는 방법:
 
 1. 등록 단계의 2단계에서 제공한 전자 메일 주소로 보낸 사용자 이름과 [암호를 찾아야 합니다.](m365-campaigns-sign-up.md#steps-to-sign-up)
-2. 브라우저에서 의 Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 이동하세요.
+2. 브라우저에서 의 Microsoft 365 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 으로 이동하세요.
 3. 사용자 이름 및 암호를 입력합니다. **로그인** 을 선택합니다.
 4. 페이지 오른쪽 상단에서 컨트롤의 **미리 보기를 찾습니다.** 캠페인 **보호 범프에** 설명된 모든 컨트롤을 사용할 수 있도록 에서 미리 [보기를 선택합니다.](m365-campaigns-security-overview.md)
 

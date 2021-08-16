@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대한 Microsoft 365 단계별 등록 전자 메일, 데이터 및 통신에 대한 사이버 보안 위협으로부터 캠페인을 보호합니다.
-ms.openlocfilehash: deaf91850ae5dbd3ed2a4637e0eb157d29215992
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: eaba43a9163b4ee1db5b653b04c0eedea7716297e510edd4eb5926b41a554bda
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53881725"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인 등록 Microsoft 365 등록 
 
@@ -49,7 +49,7 @@ ms.locfileid: "51398220"
 1. 캠페인 전자 메일에 Microsoft 365 초대에서 조직 등록을 **>.** 이렇게하면 등록을 Microsoft 365 수 있습니다.
     > [!NOTE]
     > 비즈니스용 기존 Microsoft 365 구독이 있는 경우 캠페인용 Microsoft 365 추가하려면 기존 구독에 캠페인용 Microsoft 365 [추가로 이동하세요.](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription)
-1. **이 Microsoft 365 Business 에서 비즈니스** 세부 정보를 입력합니다. 비즈니스 **전자 메일 주소의 경우** 현재 전자 메일 주소를 사용하세요. 설치 프로세스 중에 사용자와 연락을 유지하려면 이 주소만 필요합니다. **다음** 을 선택합니다.
+1. **비즈니스 Microsoft 365 페이지에서 비즈니스** 정보를 입력합니다. 비즈니스 **전자 메일 주소의 경우** 현재 전자 메일 주소를 사용하세요. 설치 프로세스 중에 사용자와 연락을 유지하려면 이 주소만 필요합니다. **다음** 을 선택합니다.
 1. **사용자 ID 만들기 페이지에서 다음을 클릭합니다.**
     1. 사용자 **이름** 에 전자 메일 주소에 대해 원하는 이름 또는 별칭을 입력합니다. 예를 들어 Alice 또는 Rob으로 알려야 할 수 있습니다. 더 큰 캠페인에서는 AliceC 또는 AliceChavez가 더 의미가 있을 수 있습니다.
     2. **회사에서** 작업하는 캠페인의 이름을 입력합니다. 예: ContosoCampaign. 도메인을 이미 소유하고 있는 경우 여기에서 해당 이름을 사용하세요. 

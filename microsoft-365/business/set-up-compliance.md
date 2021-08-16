@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 규정 준수 기능을 설정하여 데이터 손실을 방지하고 사용자와 고객의 중요한 정보를 안전하게 보호합니다.
-ms.openlocfilehash: 945f8a283b90b89da2fbe67a073e0807b80d198f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ae5e5727db1f372c40aa4468329021525b6dfc8c5ebbf34705184e461df069e5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245087"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53881854"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 

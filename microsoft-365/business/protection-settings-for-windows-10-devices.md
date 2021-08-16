@@ -29,12 +29,12 @@ search.appverid:
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: 앱 관리 정책을 만들거나 편집하고 사용자의 개인 앱 디바이스에서 작업 파일을 보호하는 Windows 10 대해 자세히 알아보습니다.
-ms.openlocfilehash: aa270c563e6bdce6fd48f8713d7db3ce23921925
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 6d38d1765e0a331516b2261870112d530ab4ee50f24c6defba95964ea4d9dcfa
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53852666"
 ---
 # <a name="set-or-edit-application-protection-settings-for-windows-10-devices"></a>디바이스의 응용 프로그램 보호 Windows 10 설정 또는 편집
 

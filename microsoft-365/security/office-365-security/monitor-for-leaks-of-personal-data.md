@@ -19,12 +19,12 @@ search.appverid:
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 05d31ac36fbdc687c60ec3c03efac9be43da9c39
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: e0d5803560ea965e222669027be30860d8a17328b2d097705dabe9bb88e5c42c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "57036680"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -58,7 +58,7 @@ DLP 보고서를 사용하여 다음을 수행할 수 있습니다.
 
 또한 DLP 보고서를 사용하여 테스트 모드에서 실행하면서 DLP 정책을 미세 조정할 수 있습니다.
 
-DLP 보고서는 Microsoft 365 규정 준수 센터에 있습니다. **보고서** \> **조직 데이터** 구역으로 이동해서 **DLP 정책 일치**, **DLP 인시던트**, **DLP 가양성 및 재정의** 보고서를 확인하세요.
+DLP 보고서는Microsoft 365 규정 준수 센터에 있습니다. **보고서** \> **조직 데이터** 섹션에서 **DLP 정책 일치**, **DLP 인시던트**, **DLP 가양성으로 이동하여** 보고서를 재정의합니다.
 
 자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](../../compliance/view-the-dlp-reports.md)를 참조하세요.
 

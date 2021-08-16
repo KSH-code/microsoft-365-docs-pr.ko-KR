@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: PowerShell을 사용하여 사용자 계정을 개별적으로 또는 여러 개 Microsoft 365 방법
-ms.openlocfilehash: c3676acdec3bbba328809ee1528206bbc44f94f1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c3889c7611d4c0442eeac2e42fcaea0cb71aeb7b8467f8f6e88d11c8ac2fad21
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53864810"
 ---
 # <a name="create-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 만들기
 
@@ -45,7 +45,7 @@ PowerShell에서 사용자 계정을 만들 때 특정 계정 속성은 항상 �
 |**UsageLocation** <br/> |아니요  <br/> |유효한 ISO 3166-1 alpha-2 국가 코드입니다. 예를 들어 *미국은 미국,* *프랑스의 경우 FR입니다.* 일부 Microsoft 365 서비스를 특정 국가에서 사용할 수 없는 경우에는 이 값을 제공하는 것이 중요합니다. 계정이 이 값을 구성하지 않으면 사용자 계정에 라이선스를 할당할 수 없습니다. 자세한 내용은 라이선스 제한 [정보를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=691730)<br/> |
 
 >[!Note]
->[사이트 관리 센터를 사용하여](../admin/add-users/add-users.md) 사용자 계정을 만드는 Microsoft 365 방법을 학습합니다.
+>[다음을 사용하여 사용자](../admin/add-users/add-users.md) 계정을 만드는 방법을 Microsoft 365 관리 센터.
 > 
 > 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
 >   

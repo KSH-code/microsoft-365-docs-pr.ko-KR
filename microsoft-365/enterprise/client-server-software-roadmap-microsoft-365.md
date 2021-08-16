@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 이 로드맵을 사용하여 설치를 위한 클라이언트 및 서버 소프트웨어를 Microsoft 365.
-ms.openlocfilehash: ee101b3ba148f1075939d56904dc9d2ecf14e1b9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6fe2a271c8a6837bdd2dcf98f3aa5ca45f880ddd560b72979fb3e9a5b666caa0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53865007"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>클라이언트 및 서버 소프트웨어 로드맵을 Microsoft 365
 

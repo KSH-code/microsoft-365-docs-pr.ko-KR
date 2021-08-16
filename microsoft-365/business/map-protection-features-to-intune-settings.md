@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Intune 설정에 Microsoft 365 Business Premium 보호 기능이 어떻게 매핑되는지 확인합니다. 구독은 Intune 설정을 수정할 수 있는 라이선스를 제공합니다.
-ms.openlocfilehash: 9a6dcf014e009389e49860fa96486c264c22f501
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 844b83bca9483f72fd322d666803c42b90fee41d3e0047ea93b4b6b07717b0dd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53852734"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-premium-map-to-intune-settings"></a>Intune 설정에 매핑되는 Microsoft 365 Business Premium 기능
 
@@ -104,7 +104,7 @@ Intune 설정을 찾으면 Microsoft 365 Business Premium 관리자 자격 증�
 |Microsoft Edge에서 웹 기반 위협으로부터 PC를 보호하도록 지원  <br/> |**Edge 브라우저 설정** 의 **SmartScreen** 이 **필수** 로 설정됩니다.  <br/> |
 |이 시간 동안 유휴 상태일 때 장치 화면 끄기(분)  <br/> |화면이 잠기기 전까지 최대 비활성 시간(분)  <br/> |
 |사용자가 Microsoft Store에서 앱을 다운로드할 수 있도록 허용  <br/> |사용자 지정 URI 정책  <br/> |
-|사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |**일반** \> **Cortana가** Intune에서 해제로 설정되어 있는 경우 Intune에서 차단으로 Microsoft 365 Business Premium.    <br/> |
+|사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |**일반** \> **Cortana** 끄기로  설정하면 Intune에서  차단으로 Microsoft 365 Business Premium.  <br/> |
 |사용자가 Microsoft에서 Windows 팁 및 광고를 받을 수 있도록 허용  <br/> |**Windows 스포트라이트에서** 해제로 설정된 경우 모두  차단됩니다Microsoft 365 Business Premium.  <br/> |
 |자동으로 Windows 10 장치를 최신 상태로 유지  <br/> | 이 설정은 **Microsoft Intune** 서비스 업데이트 - Windows 10 업데이트 링에서 Windows 10 장치 업데이트 정책을 선택한 다음 \>  **속성**  \> 설정.  <br/>  설정 Microsoft 365 Business Premium **으로** 설정하면 다음 설정이 모두 설정됩니다.  <br/> **서비스 분기가** **CB(서비스** 분기에서 해제된 경우 CBB)로 Microsoft 365 Business Premium.  <br/> **Microsoft 제품 업데이트** 는 **허용** 으로 설정됩니다.  <br/> **Windows 드라이버** 는 **허용** 으로 설정됩니다.  <br/> **자동 업데이트 동작** 은 다음 설정과 함께 **유지 관리 시간에 자동 설치** 로 설정됩니다.  <br/> **After hours start**(초과 근무 시간 시작)가 **오전 6시** 로 설정됩니다.  <br/> **활성 시간 끝** 이 **오후 10시** 로 설정됩니다.  <br/> **품질 업데이트 지연 기간(일)** 은 **0** 으로 설정됩니다.  <br/> **기능 업데이트 지연 기간(일)** 은 **0** 으로 설정됩니다.  <br/> **배달 최적화 다운로드 모드** 는 **동일한 NAT 뒤의 피어링과 혼합된 HTTP** 로 설정됩니다.  <br/> |
 |||

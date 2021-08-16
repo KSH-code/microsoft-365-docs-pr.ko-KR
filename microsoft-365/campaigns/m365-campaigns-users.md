@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대한 이러한 보안 권장 Microsoft 365 Business Premium 사용자에게 영향을 미치고 데이터를 보호하는 방법을 알아보습니다.
-ms.openlocfilehash: ce64189d721bc3eb356a39f431af01e67973516a
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 8e2ce13b694aa526c3c063bec7a4dc8c7699244f2c00f4dfee5d38bfe5208b1b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924258"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53881689"
 ---
 # <a name="how-these-security-recommendations-affect-your-users"></a>이러한 보안 권장 사항이 사용자에게 미치는 영향
 
@@ -43,7 +43,7 @@ ms.locfileid: "52924258"
 
 - 인증자 앱에서 다단계 인증을 사용할 전자 메일을 설정하세요.
 - 합법적인 전자 메일을 확인하고 보호를 위해 Defender의 고급 피싱에서 Office 365 찾아보세요.
-- 안전한 링크 및 안전한 첨부 파일로 확인된 안전한 링크 및 첨부 파일만 열 수 있습니다.
+- 안전한 링크 및 첨부 파일만 열고, 링크 및 첨부 금고 확인된 금고 를 열 수 있습니다.
 
 다단계 [인증](m365-campaigns-multifactor-authenication.md) 및 피싱 및 기타 공격에 [대해 자세히 알아보시다.](m365-campaigns-phishing-and-attacks.md)
 
@@ -72,7 +72,7 @@ ms.locfileid: "52924258"
 
 |**Windows 10**|**Mac**|
 |:-----|:------|
-|장치 BitLocker 켜기<p><p> 계속 Windows Defender 확인 <p>방화벽 Windows 켜기| FileVault를 사용하여 Mac 디스크 암호화 <p><p>신뢰할 수 있는 바이러스 백신 소프트웨어 사용 <p>방화벽 보호 켜기|
+|BitLocker 장치 보호 켜기<p><p> 계속 Windows Defender 확인 <p>방화벽 Windows 켜기| FileVault를 사용하여 Mac 디스크 암호화 <p><p>신뢰할 수 있는 바이러스 백신 소프트웨어 사용 <p>방화벽 보호 켜기|
 
 이러한 권장 사항에 대한 자세한 내용은 해커 및 맬웨어로부터 계정 및 [장치 보호를 참조하세요.](https://support.office.com/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10)
 

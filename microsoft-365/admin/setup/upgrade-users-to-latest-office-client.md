@@ -24,12 +24,12 @@ ms.custom:
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: 조직의 사용자를 위한 최신 Microsoft Office 클라이언트로 업그레이드하는 Office 대해 자세히 알아보습니다.
 ms.topic: article
-ms.openlocfilehash: 877659e420079ed607adc13e5bbe44bdc979f5ac
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 15f798d413cb12cb0a44da9f853e663c0a2ae436f0aeb8a583398a13d9f4f9dc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924698"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53832766"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>비즈니스 Microsoft 365 사용자를 최신 클라이언트로 업그레이드 Office 업그레이드
 

@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리되지 않는 장치 또는 BYOD(Bring Your Own Devices)를 Microsoft 365.
-ms.openlocfilehash: 40e94e2f961ab34827de4ce5e43e100af53a7340
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 4ee7e200216833cf67f2a0800a0ed808893c325e5c14c43e50cf30df63831586
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53881772"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>관리되지 않는 Windows 10 PC 및 Mac 보호
 
