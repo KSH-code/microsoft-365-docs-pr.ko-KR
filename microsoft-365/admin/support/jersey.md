@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e5a5fbe05515f86869b7d14e6e4860e5e2c641d0
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 9ea3bc236136d7dde8c6b94f7ba109de47f2dac3cfff906a8475f4f675592f6e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52298571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53873262"
 ---
 # <a name="contact-support-for-jersey"></a>저지 지원 팀에 문의
 

@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 925d924c4e4bdd1de36516942a0c585ee10984e4
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 06ea45cb633fb20d9f6bc91b25669af3e56aef1a59e8c811ca53f45332aed34e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52298650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53901374"
 ---
 # <a name="contact-support-for-hungary"></a>헝가리 지원에 문의
 

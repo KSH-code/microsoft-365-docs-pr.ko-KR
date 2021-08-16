@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: 보유자 및 해당 데이터 원본에 보류를 설정하여 보유 사례에 대한 관련 콘텐츠를 보존하는 Advanced eDiscovery 방법을 알아보겠습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 70390a933de788a6b1190e42b5087b85a175b9a2
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 5c5781d5dd2ce08c3b57695fa08720c1cc3ab38c6f41bceeb6f12a388232c70c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570592"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53859806"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>보류를 Advanced eDiscovery
 
@@ -36,7 +36,7 @@ ms.locfileid: "51570592"
 
 보유자 보류 정책을 보시다:
 
-1. 조직 Microsoft 365 센터에서 **eDiscovery** > 고급을 클릭하여 조직의 사례 목록을 표시합니다.
+1. 이 Microsoft 365 규정 준수 센터 **eDiscovery** > 고급을 클릭하여 조직의 사례 목록을 표시합니다.
 
 2. 원본 **탭으로** 이동하여 사례 내에 보호자 추가 보유자 추가 및 보유자 추가 및 보류를 Advanced eDiscovery 자세한 내용은 사례에 보유자 추가를 [참조합니다.](add-custodians-to-case.md) 보유자도 이미 추가하고 보류한 경우 3단계로 이동하여 보류합니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "51570592"
 
 특정 사례에 대한 비보류를 Advanced eDiscovery:
 
-1. 조직 Microsoft 365 센터에서 **eDiscovery** > 고급을 클릭하여 조직의 사례 목록을 표시합니다.
+1. 이 Microsoft 365 규정 준수 센터 **eDiscovery** > 고급을 클릭하여 조직의 사례 목록을 표시합니다.
   
 2. **보류를** 만들 사례 옆에 있는 열기 를 클릭합니다.
   
@@ -137,7 +137,7 @@ Microsoft Teams 그룹에서 Office 365. 따라서 보류를 Advanced eDiscovery
 
  - 사용자의 사서함을 검색하면 사용자가 Microsoft 365 그룹 또는 Microsoft 팀이 검색되지 않습니다. 마찬가지로 그룹 또는 Microsoft Microsoft 365 보류를 설정하면 그룹 사서함 및 그룹 사이트만 보류됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트는 명시적으로 보유자로 추가하거나 데이터 원본을 보유하지 않는 한 보류되지 않습니다. 따라서 특정 보유자에 대해 Microsoft 365 그룹 또는 Microsoft Team을 보류해야 하는 경우 그룹 사이트 및 그룹 사서함을 보유자에 매핑하는 것이 좋습니다(Advanced eDiscovery에서 보유자 관리 참조). Microsoft 365 그룹 또는 Microsoft 팀이 단일 보유자에 기인하지 않는 경우 비 보유에 원본을 추가하는 것이 고려됩니다. 
  
- - Microsoft 365 그룹 또는 Microsoft 팀의 구성원 목록을 확인하려면 Microsoft 365 관리 센터의 홈 > 그룹 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
+ - Microsoft 365 그룹 또는 Microsoft 팀의 구성원 목록을 표시하기 위해 홈 > 그룹 페이지에서 속성을 볼 수 Microsoft 365 관리 센터. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
 
    ```powershell
    Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress

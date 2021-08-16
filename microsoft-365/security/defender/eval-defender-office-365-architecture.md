@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2a62756522ad82d04c72995508ca8ada1e575f94c9bc9940069d59057f7de63f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 82931431b2c299a6ca367fa682218e5e3a461af7
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53897688"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247155"
 ---
 # <a name="review-microsoft-defender-for-office-365-architecture-requirements-and-key-concepts"></a>Microsoft Defender에서 아키텍처 요구 Office 365 주요 개념 검토
 
@@ -49,7 +49,7 @@ ms.locfileid: "53897688"
 |Call-out  |설명  |
 |---------|---------|
 |1     | 외부 보낸 사람에 대한 호스트 서버는 일반적으로 메시지를 릴레이할 대상 서버를 제공하는 MX 레코드에 대한 공용 DNS 쿼리를 수행합니다.  이 참조는 EXO(Exchange Online)나 EXO에 대해 릴레이하도록 구성된 SMTP 게이트웨이일 수 있습니다.  |
-|2     | Exchange Online Protection 연결의 유효성을 검사하고 메시지 헤더 및 콘텐츠를 검사하여 필요한 추가 정책, 태그 지정 또는 처리를 확인합니다.  |
+|2      | Exchange Online Protection 연결의 유효성을 검사하고 메시지 헤더 및 콘텐츠를 검사하여 필요한 추가 정책, 태그 지정 또는 처리를 확인합니다.  |
 |3      | Exchange Online Microsoft Defender for Office 365 통합하여 보다 고급 위협 방지, 완화 및 수정을 제공합니다. |
 |4      | 악의적, 차단 또는 격리되지 않은 메시지는 처리된 후 정크 메일, 사서함 규칙 또는 기타 설정과 관련된 사용자 기본 설정을 평가하고 트리거하는 EXO의 받는 사람에게 배달됩니다. |
 |5      | Azure AD 디렉토리를 사용하여 메일 사용이 가능한 개체 및 계정을 동기화하고 커넥트 Active Directory와의 통합을 Azure Active Directory 최종적으로 Exchange Online. |

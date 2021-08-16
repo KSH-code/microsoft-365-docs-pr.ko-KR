@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 87e20b8b44c42c1063155396c1ce1f98d10cd88391336734f28fe24db293a312
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ae03aff64765647bd7a32b31fcc987b062c15173
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838745"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247111"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>2016에서 인시던트 Microsoft 365 Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "53838745"
 
 인시던트 관리는 위협이 포함 및 해결될 수 있도록 하는 중요한 요소입니다.
 
-인시던트  및 인시던트 & (>)의 빠른 실행에서 인시던트 및 인시던트 Microsoft 365[관리합니다(](https://security.microsoft.com)security.microsoft.com). 다음은 예입니다.
+인시던트  및 인시던트 & 포털(>)의 빠른 실행에서 인시던트 Microsoft 365 Defender 관리합니다 security.microsoft.com.[](https://security.microsoft.com) 다음은 예입니다.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예":::
 

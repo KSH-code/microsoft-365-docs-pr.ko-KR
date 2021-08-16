@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e502c63cb30de23b190a0d6844c9e87d6720d707
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 468abdd5db01cdf5450bfb8efefae0e93852da8be867ebdbc7345587a89779d8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53657006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53858213"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포
 
@@ -62,7 +62,7 @@ Android에서 Android용 끝점용 Defender를 배포하는 방법을 Intune 회
    - **Publisher** Microsoft로 지원됩니다.
    - **앱 스토어 URL** https://play.google.com/store/apps/details?id=com.microsoft.scmx as(Endpoint 앱용 Defender 앱 Google Play 스토어 URL)
 
-   다른 필드는 선택 사항입니다. **다음** 을 선택하세요.
+   다른 필드는 선택 사항입니다. **다음** 을 선택합니다.
 
    ![관리 Microsoft Endpoint Manager 앱 정보 추가 이미지](images/mda-addappinfo.png)
 

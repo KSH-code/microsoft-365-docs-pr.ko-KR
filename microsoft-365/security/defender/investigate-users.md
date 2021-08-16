@@ -1,6 +1,6 @@
 ---
 title: 사용자 조사에서 Microsoft 365 Defender
-description: 보안 센터에서 인시던트가 Microsoft 365 조사합니다.
+description: 사이트 포털에서 인시던트가 Microsoft 365 Defender 조사합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터링, 보고서, ID, 데이터, 장치, 앱, 인시던트, 분석, 응답
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -19,12 +19,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 1962e90fbbcddd9c5c342abb0eb368dfc89848f8da79278895431643eaa400f7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cc09593c7a8ceef04d0a61cc9bd7d5624943b28f
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893798"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247119"
 ---
 # <a name="investigate-users-in-microsoft-365-defender"></a>사용자 조사에서 Microsoft 365 Defender
 
@@ -40,22 +40,22 @@ ms.locfileid: "53893798"
 
 인시던트에 대한 사용자 계정을 빠르게 요약하려면 사용자 계정 이름 옆의 확인 표시를 선택합니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="보안 센터의 인시던트에 대한 사용자 계정 Microsoft 365 창의 예":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Microsoft 365 Defender 포털의 인시던트에 대한 사용자 계정 요약 창의 예":::
 
 > [!NOTE]
 > 사용자 페이지에 Azure Active Directory(Azure AD) 조직 및 그룹이 표시되어 사용자와 연결된 그룹 및 사용 권한을 이해하는 데 도움이 됩니다.
 
 이 플라이아웃 페이지에서 현재 인시던트, 활성 경고, 위험 수준, 사용자 노출, 계정, 장치 등을 비롯한 사용자 위협 정보를 검토할 수 있습니다.
 
-또한 보안 센터에서 직접 Microsoft 365 조치를 취하여 손상된 사용자를 해결하고, 사용자가 손상된 것을 확인하거나 다시 로그인하도록 요구할 수 있습니다.
+또한 노출된 사용자를 해결하거나 Microsoft 365 Defender 확인하거나 다시 로그인하도록 요구하기 위해 Microsoft 365 Defender 포털에서 직접 조치를 취할 수 있습니다.
 
 여기에서 사용자 페이지로  이동을 선택하여 사용자 계정의 세부 정보를 볼 수 있습니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="보안 센터의 인시던트에 대한 사용자 계정 Microsoft 365 예":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="사이트 포털에서 인시던트에 대한 사용자 계정 Microsoft 365 Defender 예":::
 
 사용자 페이지의 목록에서 사용자 계정의 이름을 선택하여 이 페이지를 볼 **수** 있습니다.
 
-Microsoft 365 보안 센터 사용자 페이지는 끝점용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security 정보를 결합합니다(사용중인 라이선스에 따라 다를 수 있습니다). 
+Microsoft 365 Defender 포털 사용자 페이지는 끝점용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security 정보를 결합합니다(사용한 라이선스에 따라 다를 수 있습니다). 
 
 이 페이지에는 사용자 계정의 보안 위험과 관련한 정보가 표시됩니다. 여기에는 위험 및 최근 이벤트를 평가하는 데 도움이 되는 점수와 사용자의 전반적인 위험에 기여한 경고가 포함됩니다.
 
@@ -70,11 +70,11 @@ Microsoft 365 보안 센터 사용자 페이지는 끝점용 Microsoft Defender,
 
 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Microsoft 365 보안 센터에서 인시던트에 대한 사용자 계정에 대한 작업의 예":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Microsoft 365 Defender 포털에서 인시던트에 대한 사용자 계정에 대한 작업의 예":::
 
 
 <!--
-You can access this page from multiple areas in the Microsoft 365 security center. You can access this page from a specific incident in the **Users** tab. Some alerts might include users as a specific affected asset. You can also search for users.  
+You can access this page from multiple areas in the Microsoft 365 Defender portal. You can access this page from a specific incident in the **Users** tab. Some alerts might include users as a specific affected asset. You can also search for users.  
 
 Learn more about how to investigate users and potential risk [in this Cloud App Security tutorial](/cloud-app-security/tutorial-ueba#:~:text=To%20identify%20who%20your%20riskiest,user%20page%20to%20investigate%20them).
 
