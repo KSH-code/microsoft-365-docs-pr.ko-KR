@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자가 사용자 계정에서 암호를 직접 재설정할 수 있도록 하는 Microsoft 365 Business Premium.
-ms.openlocfilehash: b3cdd388c27b0f75bddb2544e36bd3ade210955b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5492bc357fb58e9d3ca5ed4e557449726657257109d9450e09c131115510982b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53906746"
 ---
 # <a name="set-up-self-service-password-reset"></a>셀프 서비스 암호 재설정 설정
 
@@ -36,7 +36,7 @@ ms.locfileid: "52841321"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 설정  보안 & **선택합니다.**
+1. In the Microsoft 365 관리 센터, in the left navigation pane, select **설정** and then **Security & privacy**.
 1. 사용자가 **암호를 직접 재설정할 수 있도록 에서****Azure AD 관리 센터 를 선택합니다.**
 1. 왼쪽 탐색 창에서 사용자 를 선택한 다음 사용자 **-** 모든 사용자 페이지에서 암호 **재설정을 선택합니다.**
 1. **셀프** 서비스 암호 재설정을 사용하도록 설정하려면 모두를 선택한 다음 저장 을 **선택합니다.**

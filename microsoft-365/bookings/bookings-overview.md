@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 47403d64-a067-4754-9ae9-00157244c27d
 description: 웹 기반 예약 일정을 포함하며 직원의 일정을 최적화하고 Outlook 예약할 수 있는 유연성을 고객에게 제공하도록 하는 Microsoft Bookings 앱의 개요입니다.
-ms.openlocfilehash: 6ea7d7105efd917674b56ddd952b754310623c98f17eef15b9bad9b50841c353
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 339c8c2457b340dd863b5c9f8e0382b84ef43c08
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900822"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256130"
 ---
 # <a name="microsoft-bookings"></a>Microsoft Bookings
 
@@ -29,6 +29,13 @@ Bookings에는 세 가지 주요 구성요소가 있습니다.
 - Bookings 일정 소유자 및 조직 내의 관리자가 약속 유형 및 세부 정보를 정의하고, 직원 일정 및 가용성을 관리하고, 업무 시간을 설정하고, 약속을 예약하는 방법을 사용자 지정할 수 있는 웹 기반 비즈니스 연결 페이지 집합이 포함된 웹 앱입니다. 이러한 페이지를 사용하면 다양한 기능 및 개인이나 조직의 다양한 요구에 맞게 Bookings 일정을 사용자 지정할 수 있습니다.
 
 - Bookings 일정 소유자와 관리자가 모든 약속을 보고, 고객 목록 및 연락처 정보에 액세스하고, 즉석에서 수동 예약을 할 수 있는 비즈니스용 모바일 앱입니다.
+
+## <a name="before-you-begin"></a>시작하기 전에
+
+Microsoft Bookings는 다음 구독에서 사용할 수 있습니다.
+
+- Office 365: A3, A5, E3, E5, F1, F3
+- Microsoft 365: A3, A5, E3, E5, F1, F3, Business Premium
 
 ## <a name="get-started-using-bookings"></a>Bookings 사용 시작
 

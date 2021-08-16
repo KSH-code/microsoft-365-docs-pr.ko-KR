@@ -23,12 +23,12 @@ search.appverid: MET150
 description: Microsoft 비즈니스 제품에 대한 청구서 또는 송장을 읽고 이해하는 방법에 대해 알아보세요.
 keywords: 청구 계정, 조직 정보, 송장
 ms.date: 05/04/2021
-ms.openlocfilehash: b780b2f0379e9e1f1866c22139a7ac3504a23b53
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 6a1cfcb34226bef62b576433d1751ad5aa078bc71c0172e051600c0737ff1737
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53906670"
 ---
 # <a name="understand-your-bill-or-invoice"></a>청구서 또는 송장 이해하기
 

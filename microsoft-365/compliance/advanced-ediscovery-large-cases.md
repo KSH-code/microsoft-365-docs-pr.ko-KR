@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 많은 경우 Advanced eDiscovery 항목을 추가하여 검토 집합을 더 추가하고 다른 증가된 제한을 활용할 수 있습니다.
-ms.openlocfilehash: d73ef8bd29de96fb845913e966e7d195d286b94f061e7fa492353ccfe773800f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 592b9d60a1275be0e12ddce238621d5ef02ab06e
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53836472"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255864"
 ---
 # <a name="use-large-cases-in-advanced-ediscovery-preview"></a>대규모 사례를 Advanced eDiscovery(미리 보기)
 
@@ -63,7 +63,9 @@ ms.locfileid: "53836472"
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 현재 콘텐츠를 느슨한 파일 및 **PSTS로** 내보내는 옵션은 대부분의 경우 지원되지 않습니다(옵션은 현재 회색으로 표시됩니다). 이 내보내기 옵션은 곧 지원될 예정입니다. 콘텐츠 내보내기에 대한 자세한 내용은 [에서 검토 집합에서](export-documents-from-review-set.md)문서 내보내기 Advanced eDiscovery.
+- 콘텐츠를 느슨한 파일 및 **PSTS로** 내보내는 옵션은 현재 지원되지 않습니다(옵션이 회색으로 표시됩니다). 대규모 사례에 대한 이 내보내기 옵션은 곧 지원될 예정입니다. 콘텐츠 내보내기에 대한 자세한 내용은 [에서 검토 집합에서](export-documents-from-review-set.md)문서 내보내기 Advanced eDiscovery.
+
+- 대소문자 및 비관리 데이터 원본을 사례에 추가할 때 발생하는 고급 인덱싱은 현재 지원되지 않습니다. 인덱싱 작업이 만들어지지만 완료되지는 않습니다. 대규모의 경우 고급 인덱싱이 곧 지원될 예정입니다. 고급 인덱싱에 대한 자세한 내용은 보호자 데이터의 고급 인덱싱을 [참조하세요.](indexing-custodian-data.md)
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 

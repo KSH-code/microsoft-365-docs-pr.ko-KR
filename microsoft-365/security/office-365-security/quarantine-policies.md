@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: 관리자는 사용자가 자신의 검사된 메시지에 대해 할 수 있는 작업을 제어하기 위해 검지 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c346c1e27d6ff59b6c63709d5f49e57b0cc4a3a1389facf3318a790126bd7ff5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 966136e2b4c81b188735da656ff57504ef3f6347
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824264"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256149"
 ---
 # <a name="quarantine-policies"></a>Quarantine policies
 
@@ -89,7 +89,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
      - **받는 사람이 메시지를 검지에서 릴리스하도록 요청하도록 허용**
    - **받는 사람이** 다음의 값 중 일부 또는 전체를 선택하거나, 모두 또는 전혀 선택하지 않습니다.
      - **삭제**
-     - **미리 보기**
+     - **Preview**
      - **보낸 사람 차단**
 
    이러한 사용 권한 및 이러한 사용 권한 및 최종 사용자 스팸 알림에 대한 [](#quarantine-policy-permission-details) 영향은 이 문서 의 부분에 있는 정책 사용 권한 세부 정보 섹션에 설명되어 있습니다.
@@ -133,12 +133,12 @@ _EndUserQuarantinePermissionsValue_ 매개 변수는 이진 값에서 변환된 
 
 |사용 권한|제한된 액세스|
 |---|:---:|
-|PermissionToBlockSender|1|
-|PermissionToDelete|1|
+|PermissionToBlockSender|1 |
+|PermissionToDelete|1 |
 |PermissionToDownload<sup>\*</sup>|0|
-|PermissionToPreview|1|
+|PermissionToPreview|1 |
 |PermissionToRelease<sup>\*\*</sup>|0|
-|PermissionToRequestRelease<sup>\*\*</sup>|1|
+|PermissionToRequestRelease<sup>\*\*</sup>|1 |
 |PermissionToViewHeader<sup>\*</sup>|0|
 |이진 값|01101010|
 |사용할 10진수 값|106|
@@ -259,7 +259,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
 ```
 
-**참고**:
+**참고:**
 
 - _HighConfidencePhishAction_ 매개 변수의 기본값은 Quarantine이기 때문에 새로운 스팸 방지 정책에서 높은 신뢰도의 피싱 검색에 대해 Quarantine 작업을 설정할 필요가 없습니다. 새 스팸 방지 정책 또는 기존 스팸 방지 정책의 다른 모든 스팸 필터링 판정에 대해, 작업 값이 Quarantine인 경우만 검지 정책이 적용됩니다. 기존 스팸 방지 정책의 작업 값을 표시하기 위해 다음 명령을 실행합니다.
 
@@ -396,7 +396,7 @@ Set-QuarantineTag -Identity "<QuarantinePolicyName>" [Settings]
 
 ## <a name="remove-quarantine-policies-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 Microsoft 365 Defender 제거
 
-**참고**:
+**참고:**
 
 - 기본 제공 분리 정책은 제거할 수 없습니다.
 - 사용자 지정 분리 정책을 제거하기 전에 정책이 사용되지 않는지 확인해야 합니다. 예를 들어 PowerShell에서 다음 명령을 실행합니다.

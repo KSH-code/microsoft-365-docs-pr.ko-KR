@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 관리 센터에서 ISV 앱 라이선스 관리
+title: 2013에서 ISV 앱 라이선스 Microsoft 365 관리 센터
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,16 +18,16 @@ ms.custom:
 - commerce_licensing
 search.appverid:
 - MET150
-description: ISV(Independent Software Vendor) 앱에 대한 라이선스를 관리하기 위한 방법을 Microsoft 365 관리합니다.
+description: 2013에서 ISV(Independent Software Vendor) 앱의 라이선스를 관리하는 방법을 Microsoft 365 관리 센터.
 ms.date: 06/15/2021
-ms.openlocfilehash: e19277a34c896d918d545cca27b1c435ca221e6f
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 360b1a954d8b34fbc91b086fdab532685438b7874f998ef4ddb8b7b07732d15a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52932809"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887530"
 ---
-# <a name="manage-isv-app-licenses-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 ISV 앱 라이선스 관리
+# <a name="manage-isv-app-licenses-in-the-microsoft-365-admin-center"></a>2013에서 ISV 앱 라이선스 Microsoft 365 관리 센터
 
 ISV(Independent Software Vendor) 앱은 Microsoft가 다른 소프트웨어 공급업체에서 구입한 앱입니다.
 
@@ -37,7 +37,7 @@ ISV(Independent Software Vendor) 앱은 Microsoft가 다른 소프트웨어 공�
 
 ## <a name="assign-isv-app-licenses-to-users-or-groups"></a>사용자 또는 그룹에 ISV 앱 라이선스 할당
 
-1. Microsoft 365 관리 센터에서 청구 라이선스   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">페이지로</a> 이동합니다.
+1. In the Microsoft 365 관리 센터, go to the **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
 2. 라이선스를 할당할 앱을 선택합니다.
 3. 라이선스 세부 정보 페이지에서 라이선스 **할당을 선택합니다.**
 4. 라이선스 **할당 창에서** 사용자 또는 그룹의 이름을 입력하기 시작한 다음 결과에서 선택한 후 목록에 추가합니다.

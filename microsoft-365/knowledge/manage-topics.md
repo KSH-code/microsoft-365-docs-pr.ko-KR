@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Microsoft Viva 항목 센터에서 항목을 관리하는 방법을 참조하세요.
-ms.openlocfilehash: 53fbc338d69c87029a6e1a65917abcc9b003f36f959e440165405527fdca87e5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 33d706a0801d8a91d22767b5b03461ba79cf8ff7
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53840266"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255619"
 ---
 # <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>다음 항목의 항목 센터에서 Microsoft Viva 관리
 

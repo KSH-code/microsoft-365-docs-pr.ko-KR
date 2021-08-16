@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 앱에 대한 결제 방법을 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: b0ed8541068fe02e0bd1f005a5a9c7ee8f50ae1b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: f931d627cf62ae70fe288d5f3840d66a0346bf37e3e10c568446084379e33921
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705541"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53906714"
 ---
 # <a name="update-the-payment-method-for-your-subscription"></a>구독의 결제 방법 업데이트
 
@@ -34,7 +34,7 @@ ms.locfileid: "52705541"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AVxy?autoplay=false]
 
-구독에 대한 결제 방법을 쉽게 업데이트할 Microsoft 365 Business 있습니다. 사용된 신용 카드, 이름 또는 주소와 같은 세부 정보를 변경할 수 있습니다.
+비즈니스용 구독의 결제 방법을 Microsoft 365 있습니다. 사용된 신용 카드, 이름 또는 주소와 같은 세부 정보를 변경할 수 있습니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 

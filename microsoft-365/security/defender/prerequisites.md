@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 84fad9dc273d020ee48e53c5d9edb57c88041e99dd077151f4b41e8de93da3e7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 75c18feba1b7d293f954582d83357d1efcff98ed
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862554"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256310"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Microsoft 365 Defender 전제
 
@@ -38,7 +38,7 @@ ms.locfileid: "53862554"
 프로비전 및 사용에 대한 라이선스 및 기타 요구 사항에 [대해 Microsoft 365 Defender.](microsoft-365-defender.md)
 
 ## <a name="licensing-requirements"></a>라이선스 요구사항
-이러한 라이선스를 사용하면 추가 비용 없이 Microsoft 365 Defender 센터의 Microsoft 365 기능에 액세스할 수 있습니다.
+이러한 라이선스를 사용하면 추가 비용 없이 Microsoft 365 Defender 포털의 Microsoft 365 Defender 기능에 액세스할 수 있습니다.
 
 - Microsoft 365 E5 또는 A5
 - Microsoft 365 E3 추가 Microsoft 365 E5 Security 있는 경우
@@ -61,11 +61,11 @@ ms.locfileid: "53862554"
 >[!NOTE]
 > 라이선스 정보를 볼 수  있게 하려면  [Azure AD에서](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 청구 관리자 또는 전역 리더 역할을 할당해야 합니다. 액세스 문제가 발생하는 경우 전역 관리자에게 문의하세요.
 
-## <a name="required-permissions"></a>필수 권한
+## <a name="required-permissions"></a>필요한 사용 권한
 전역 관리자  또는 보안  관리자 Azure Active Directory 설정해야 Microsoft 365 Defender. 데이터 액세스 권한을 사용하는 데 필요한 역할 Microsoft 365 Defender 데이터에 대한 액세스 제어 방법에 대한 자세한 내용은 에 대한 액세스 [Microsoft 365 Defender.](m365d-permissions.md)
 
 ## <a name="browser-requirements"></a>브라우저 요구 사항
-Microsoft 365 Defender, Microsoft 365 11 또는 HTML 5 호환 웹 브라우저를 Microsoft Edge Internet Explorer 보안 센터에서 액세스합니다.
+Microsoft 365 Defender, Microsoft 365 Defender, Internet Explorer Microsoft Edge 11 또는 HTML 5 호환 웹 브라우저를 사용하여 Microsoft 365 Defender 포털에서 액세스합니다.
 
 ## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>US GCC, GCC High 및 기타 미국 정부 기관의 가용성
 현재 다음 Microsoft 365 Defender *수* 없습니다.

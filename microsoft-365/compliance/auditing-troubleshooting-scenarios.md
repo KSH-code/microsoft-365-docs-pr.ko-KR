@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일 계정에 대한 일반적인 Microsoft 365 문제를 해결하는 데 도움이 되는 감사 로그 검색 도구를 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2a758114f361f3d13f0393780ef9b1e149fd421960bee627e3fb4ff41d100859
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8a925bd425d04a3df8971b1cf983763f2093aa68
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906377"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255721"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색하여 일반적인 지원 문제 조사
 
@@ -50,30 +50,30 @@ ms.locfileid: "53906377"
 이 섹션에서는 감사 로그 검색을 만들고 실행하기 위한 기본에 대해 설명합니다. 이 문서의 각 문제 해결 시나리오에 대한 시작점으로 이러한 지침을 사용하세요. 자세한 단계별 지침은 감사 로그 [검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md#step-1-run-an-audit-log-search)
 
 1. <https://compliance.microsoft.com/auditlogsearch>으로 이동하여 회사 또는 학교 계정을 사용하여 로그인합니다.
-    
-    **감사** 페이지가 표시됩니다. 
-    
+  
+    **감사** 페이지가 표시됩니다.
+  
     ![조건을 구성한 다음 검색을 선택하여 검색을 실행합니다.](../media/AuditLogSearchPage1.png)
   
-4. 다음 검색 조건을 구성할 수 있습니다. 이 문서의 각 문제 해결 시나리오에서는 이러한 필드를 구성하기 위한 특정 지침을 권장합니다.
-    
-   a. **시작 날짜** 및 **종료 날짜:** 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 기본적으로 지난 7일이 선택됩니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다.    
+2. 다음 검색 조건을 구성할 수 있습니다. 이 문서의 각 문제 해결 시나리오에서는 이러한 필드를 구성하기 위한 특정 지침을 권장합니다.
+  
+   a. **시작 날짜** 및 **종료 날짜:** 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 기본적으로 지난 7일이 선택됩니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다.
 
    b. **활동:** 검색할 수 있는 활동을 표시하려면 드롭다운 목록을 선택합니다. 검색을 실행하면 선택한 활동에 대한 감사 기록만 표시됩니다. 모든 **활동에 대한 결과 표시를 선택하면** 다른 검색 조건을 충족하는 모든 활동에 대한 결과가 표시됩니다. 또한 일부 문제 해결 시나리오에서는 이 필드를 비워 두어야 합니다.
-    
+  
     c. **사용자:** 이 상자를 클릭한 다음 검색 결과를 표시할 사용자를 한명 이상 선택합니다. 이 상자에서 선택한 사용자가 수행한 선택한 활동에 대한 감사 레코드가 결과 목록에 표시됩니다. 조직의 모든 사용자(및 서비스 계정)에 대한 항목을 반환하려면 이 상자를 비워 둡니다.
-    
+  
     d. **파일, 폴더 또는 사이트:** 파일 또는 폴더 이름을 일부 또는 모두 입력하여 지정된 키워드가 포함된 폴더 파일과 관련된 활동을 검색합니다. 파일 또는 폴더의 URL을 지정할 수도 있습니다. URL을 사용하는 경우 전체 URL 경로를 입력해야 합니다. 또는 URL의 일부만 입력하는 경우 특수 문자나 공백을 포함하지 않습니다. 조직의 모든 파일 및 폴더에 대한 항목을 반환하려면 이 상자를 비워 둡니다. 이 필드는 이 문서의 모든 문제 해결 시나리오에서 비어 있습니다.
-    
-5. 검색을 **선택하여** 검색 조건을 사용하여 검색을 실행합니다. 
-    
-    검색 결과가 로드되고 몇 분 후에 감사 로그 검색  페이지의 결과 아래에 **표시됩니다.** 이 문서의 각 섹션에서는 특정 문제 해결 시나리오의 컨텍스트에서 검색할 수 있는 방법에 대한 지침을 제공합니다.
+  
+3. 검색을 **선택하여** 검색 조건을 사용하여 검색을 실행합니다.
+  
+    검색 결과가 로드되고 몇 분 후에 감사 로그 검색 도구의 페이지에 표시됩니다. 이 문서의 각 섹션에서는 특정 문제 해결 시나리오의 컨텍스트에서 검색할 수 있는 방법에 대한 지침을 제공합니다.
 
-    감사 로그 검색 결과를 보거나 필터링하거나 내보내는 데 대한 자세한 내용은 다음을 참조하세요.
+    감사 로그 검색 결과를 보고 내보내는 데 대한 자세한 내용은 다음을 참조하세요.
 
     - [검색 결과 보기](search-the-audit-log-in-security-and-compliance.md#step-2-view-the-search-results)
-    - [검색 결과 필터링](search-the-audit-log-in-security-and-compliance.md#step-3-filter-the-search-results)
-    - [검색 결과 내보내기](search-the-audit-log-in-security-and-compliance.md#step-4-export-the-search-results-to-a-file)
+  
+    - [검색 결과 내보내기](search-the-audit-log-in-security-and-compliance.md#step-3-export-the-search-results-to-a-file)
 
 ## <a name="find-the-ip-address-of-the-computer-used-to-access-a-compromised-account"></a>손상된 계정에 액세스하는 데 사용되는 컴퓨터의 IP 주소 찾기
 

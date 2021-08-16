@@ -14,12 +14,12 @@ metadata:
   audience: microsoft-business 
   keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, frequently asked questions, answers, business
   ms.date: 07/21/2020
-  ms.openlocfilehash: 4c625fdb60a4c3d97b4623be09c24556259fcbde
-  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+  ms.openlocfilehash: 91293e61b923a10f30116ec6eb72cbb1d1a7fccb4ec07649bdacb8c57b3179c1
+  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/02/2021
-  ms.locfileid: "51579901"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "53906698"
 title: Microsoft 365 Business Premium 자주 묻는 질문
 summary: ''
 sections:
@@ -176,7 +176,7 @@ sections:
   - question: Microsoft 365 Business Premium에 Microsoft Intune의 전체 기능이 포함되나요?
     answer: 예Microsoft 365 Business Premium 구독자는 iOS, Android, macOS 및 기타 플랫폼 간 장치 관리에 대한 전체 Intune 기능을 사용할 수 있습니다. 타사 앱 관리, Wi-Fi 프로필 구성 및 VPN 인증서와 같은 Microsoft 365 Business Premium 간소화된 관리 콘솔에서 사용할 수 없는 기능은 전체 Intune 콘솔에서 관리할 수 있습니다.
   - question: Azure AZURE ACTIVE DIRECTORY(Azure AD) Premium P1과 함께 Microsoft 365 Business Premium?
-    answer: 예, Azure AD Premium P1이 Microsoft Business Premium.
+    answer: 예Azure AD Premium P1 Microsoft Business Premium.
   - question: Microsoft 365 Business Premium을 통해 Mac을 관리할 수 있나요?
     answer: Intune을 사용하면 iOS, Android, Windows 및 macOS 장치를 안전하게 관리할 수 있습니다.
   - question: Windows AutoPilot이란 무엇인가요?

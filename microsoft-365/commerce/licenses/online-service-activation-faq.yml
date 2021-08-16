@@ -12,65 +12,65 @@ metadata:
   ms.custom: commerce_licensing
   localization_priority: Normal
   description: Open 프로그램용 온라인 서비스 정품 인증 질문과 대답
-  ms.openlocfilehash: b6e095733d53cad3b5d925ea4944fb3b5bcff92d
-  ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+  ms.openlocfilehash: 943d9f3f7463f3d87b5489992c2281abd27092dca911322781a80a48dfce4f09
+  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/13/2021
-  ms.locfileid: "58243969"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "53887482"
 title: Open 프로그램용 온라인 서비스 정품 인증 질문과 대답
 summary: ''
 sections:
 - name: 일반
   questions:
   - question: >
-      How do I activate online services purchased through the Open programs (Open, Open Value, and Open Value Subscription)?
+      프로그램 열기(Open, Open Value 및 Open Value Subscription)를 통해 구매한 온라인 서비스를 정품 인증하려면 어떻게 해야 합니까?
     answer: >
-      Open customers can activate online services in two ways:
+      고객은 다음 두 가지 방법으로 온라인 서비스를 활성화할 수 있습니다.
 
-      - After you order your online services through the Open program family, you’ll receive an email with a link and instructions to activate your services.
+      - Open 프로그램 패밀리를 통해 온라인 서비스를 주문한 후 서비스 활성화에 대한 링크와 지침이 있는 전자 메일을 받게 됩니다.
 
-      OR
+      또는
 
-      - From the [Volume Licensing Service Center (VLSC)](https://www.microsoft.com/Licensing/Servicecenter/default.aspx) Open program customers can go to the Online Service Activation section and select the license to manage:
-
-
-      1. Select the manage activation link, and then select Start Activation. A product activation window opens and pre-populates the key.
-
-      2. Continue the remaining activation steps to complete product activation.
+      - [VLSC(볼륨](https://www.microsoft.com/Licensing/Servicecenter/default.aspx) 라이선스 서비스 센터) 프로그램 고객이 온라인 서비스 정품 인증 섹션으로 이동하여 관리할 라이선스를 선택할 수 있습니다.
 
 
-      Successful activation is complete within 48 hours on the Volume Licensing Online Service Activation website.
+      1. 정품 인증 관리 링크를 선택한 다음 정품 인증 시작을 선택합니다. 제품 정품 인증 창이 열리며 키를 미리 채우게 됩니다.
 
-      For information about activating Microsoft Azure, see [Get Started with Azure in Open Licensing](https://azure.microsoft.com/offers/ms-azr-0111p/).
+      2. 나머지 정품 인증 단계를 계속하여 제품 정품 인증을 완료합니다.
+
+
+      볼륨 라이선스 온라인 서비스 정품 인증 웹 사이트에서 48시간 이내에 정품 인증에 성공합니다.
+
+      라이선스를 활성화하는 Microsoft Azure 내용은 open [licensing에서 시작 Azure를 사용하여 서비스를 참조하세요.](https://azure.microsoft.com/offers/ms-azr-0111p/)
   - question: >
-      I don’t see my Azure order. What should I do?
+      Azure 주문이 없습니다. 어떻게 해야 하나요?
     answer: >
-      Azure orders are activated through keys. Get your keys through the Downloads and Keys tab in the VLSC and enter the key on the Get Started with [Azure in Open Licensing page](https://azure.microsoft.com/offers/azure-open/).
+      Azure 주문은 키를 통해 활성화됩니다. VLSC의 다운로드 및 키 탭을 통해 키를 다운로드하고 Open Licensing 페이지에서 azure와 함께 시작 키를 [입력합니다.](https://azure.microsoft.com/offers/azure-open/)
   - question: >
-      What is a work or school account and why do I need one to activate online services?
+      직장 또는 학교 계정이란 무엇일까요? 그리고 온라인 서비스를 활성화하기 위해 계정이 필요한 이유는 무엇입니까?
     answer: >
-      A work or school account is intended for users to sign in to the organization Microsoft services. The sign-in typically uses the form username@orgname.com or username@orgname.onmicrosoft.com, where *orgname* is their organization email domain name.
+      직장 또는 학교 계정은 사용자가 조직 또는 조직에 로그인하기 위한 Microsoft 서비스. 로그인에서는 일반적으로 조직 전자 메일 username@orgname.com 또는 username@orgname.onmicrosoft.com 형식을 사용하게 됩니다. 여기서 *조직* 이름은 조직 전자 메일 도메인 이름입니다.
   - question: >
-      How do I know if my organization already has an account?
-    answer: "The organization name associated with your work or school account is taken from the License ID of the service you’re activating. If an account exists, the organization name is pre-populated in the Organizational Account set-up and already linked to your organization from the original online service order. The registration process validates whether your organization has an account. \n\nIf the field for **Company** is available, finish the registration process to sign in and activate the service. If this field is not available, you must register the organization. You must be a Global administrator to register an organization for an account.\n\nWhen you request a work or school account, your request is sent to your organization Tenant  administrator who grants or denies your registration request. Use this work or school account when you sign into Microsoft VLSC Online Service Activation.\n"
+      조직에 계정이 이미 있는 경우 어떻게 알 수 있나요?
+    answer: "직장 또는 학교 계정과 연결된 조직 이름은 활성화할 서비스의 라이선스 ID에서 찍습니다. 계정이 있는 경우 조직 이름은 조직 계정 설정에 미리 채워지며 원래 온라인 서비스 순서에서 조직에 이미 연결됩니다. 등록 프로세스는 조직에 계정이 있는지 여부를 검사합니다. \n\n회사 **필드를** 사용할 수 있는 경우 등록 프로세스를 완료하여 로그인하고 서비스를 활성화합니다. 이 필드를 사용할 수 없는 경우 조직을 등록해야 합니다. 계정에 조직을 등록하려면 전역 관리자 되어야 합니다.\n\n직장 또는 학교 계정을 요청하면 등록 요청을 부여하거나 거부하는 조직 테넌트 관리자에게 요청이 전송됩니다. Microsoft VLSC Online 서비스 정품 인증에 로그인할 때 이 직장 또는 학교 계정을 사용하세요.\n"
   - question: >
-      Why does the activation portal log me out after I activate an online service?
-    answer: "When activating Online Services under the Open License program, each agreement is activated separately. To ensure that licenses are not activated on the wrong tenant, each activation is handled in a separate session. \n"
+      온라인 서비스를 활성화한 후 정품 인증 포털이 로그아웃하는 이유는 무엇입니까?
+    answer: "오픈 라이선스 프로그램에서 온라인 서비스를 정품 인증하는 경우 각 계약이 별도로 활성화됩니다. 잘못된 테넌트에서 라이선스가 활성화되지 않도록 각 정품 인증은 별도의 세션에서 처리됩니다. \n"
   - question: >
-      How does Online Service Activation work for Open License purchases?
+      온라인 서비스 정품 인증은 오픈 라이선스 구매 시 어떻게 작동하나요?
     answer: >
-      Microsoft Online Services for Open Agreements has moved to a keyless handling activation model. After you order Open online services, you receive an email with a link and instructions to activate your services.
+      Microsoft Online Services 계약에 대한 설정이 키 없는 처리 활성화 모델로 이동했습니다. 온라인 서비스 열기 순서를 정품 인증하기 위한 링크와 지침이 있는 전자 메일을 받게 됩니다.
   - question: >
-      What if I want to assign my purchase to a different organization?
+      구매를 다른 조직에 할당하려는 경우 어떻게 하나요?
     answer: >
-      To assign products to a new organization, go through the sign-up steps to create a new organization. From there you can assign any seats or products you purchased.
+      새 조직에 제품을 할당하기 위해 등록 단계를 거치면 새 조직을 만들 수 있습니다. 이 경우 구매한 시트 또는 제품을 할당할 수 있습니다.
   - question: >
-      I just activated my online service. Why does it still say I need to activate my service on the Manage Activations page on the Volume Licensing Service Center?
+      방금 온라인 서비스를 활성화했습니다. 볼륨 라이선스 서비스 센터의 정품 인증 관리 페이지에서 서비스를 정품 인증해야 하나요?
     answer: >
-      It can take up to 24 hours for the service you activated to appear as status **Activated** on the **Manage Activations** page.
+      활성화한 서비스가 정품 인증 관리 페이지에 상태 활성화로  표시될 경우 최대 24시간이 걸릴 **수** 있습니다.
   - question: >
-      How do I contact support?
+      지원에 문의하는 방법
     answer: >
-      For phone or web for support, see [Contact Us](/licensing/contact-us). Microsoft responds to web form submissions within 24 hours.
-additionalContent: "\n## Additional resources\n\n- [Product keys FAQ](product-keys-faq.yml)\n\n- [Downloads FAQ](downloads-faq.yml)"
+      지원이 있는 전화 또는 웹은 [문의처를 참조합니다.](/licensing/contact-us) Microsoft는 24시간 이내에 웹 양식 전송에 응답합니다.
+additionalContent: "\n## <a name=\"additional-resources\"></a>추가 리소스\n\n- [제품 키 FAQ](product-keys-faq.yml)\n\n- [다운로드 FAQ](downloads-faq.yml)"

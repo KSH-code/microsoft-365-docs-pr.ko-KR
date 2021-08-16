@@ -24,18 +24,18 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: PC, 휴대폰 및 태블릿에서 데이터를 Microsoft 365 Business Premium 보안 기능과 함께 제공합니다.
-ms.openlocfilehash: 974204e100d3228f78406aca4acce67a889b08c3
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 50b74ed18d641e8de38db3284c3ef3abf319825f4f7dbe02b6575f6c0fbc6f85
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887579"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium 및 규정 준수 기능
 
 Microsoft 365 Business Premium PC, 휴대폰 및 태블릿에서 데이터를 보호하는 데 도움이 되는 간소화된 보안 기능을 제공합니다.
     
-## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365 센터 보안 기능
+## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365 관리 센터 기능
 
 관리 센터에서 여러 Microsoft 365 Business Premium 보안 기능을 관리할 수 있습니다. 이렇게 하면 이러한 기능을 켜거나 끄는 간소화된 방법이 있습니다. 관리 센터에서 다음을 할 수 있습니다.
   
@@ -73,8 +73,8 @@ Microsoft 365 Business Premium의 고급 기능을 사용하여 사이버 위협
 
 - **[Azure Portal의 Intune 전체 기능](/mem/intune/fundamentals/what-is-intune)**
     
-    Azure Portal에서 Intune 관리 센터에 액세스하면 macOS 장치, iPhone 및 Android 장치 관리와 같은 추가 보안 기능과 Windows 관리 센터를 통해 사용할 수 없는 Windows 고급 장치 관리를 설정할 수 Microsoft 365 있습니다.
-- **Azure AD [및](/azure/active-directory/conditional-access/overview) P1 계획과 Premium 조건부 액세스**
+    Azure Portal에서 Intune 관리 센터에 액세스하면 MacOS 장치, iPhone 및 Android 장치 관리와 같은 추가 보안 기능과 Windows를 통해 사용할 수 없는 고급 장치 관리를 설정할 수 Microsoft 365 관리 센터.
+- **계획과 [동일한](/azure/active-directory/conditional-access/overview) 조건부 Azure AD Premium P1 액세스**
 
 
     조건부 액세스는 로그인 위험으로부터 조직을 보호하고, 예기치 않은 네트워크 또는 로지에서 액세스 시도, 위험한 장치 유형에서 액세스 시도 등에서 조직을 보호하는 데 도움이 될 수 있습니다. 조건부 액세스 정책은 첫 번째 인증이 완료된 후에 적용하며, 첫 번째 인증 이벤트의 신호를 사용하여 시도된 액세스를 승인, 거부 또는 추가 증명(예: 두 번째 식별 형식)이 필요한지 여부를 판단합니다.
@@ -108,7 +108,7 @@ Microsoft 365 Business Premium 구독에는 규정 준수 및 규정 표준을 �
 
    Microsoft 365 Business Premium [Azure Information Protection 계획 1의 모든 기능을 포함합니다.](https://go.microsoft.com/fwlink/p/?linkid=871407) 이 계획을 사용하면 "전달하지 않습니다." 및 "복사 안 함"과 같은 컨트롤을 사용하여 전자 메일 및 문서의 중요한 정보에 대한 액세스를 제어할 수 있는 민감도 레이블을 만들 수 있습니다.  또한 중요한 정보를 "기밀"으로 분류하고 기밀 정보를 비즈니스 외부와 내부에서 공유할 수 있는 방법을 지정할 수 있습니다. Enterprise 암호화는 전자 메일 및 문서에 쉽게 적용하여 정보를 비공개로 유지할 수 있습니다. 또한 앱에 대한 Azure Information Protection 클라이언트 추가 기능을 Office 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조하세요. 민감도 레이블의 경우 를 **AzInfoProtection_UL.exe.**
 
-보안 및 준수 센터 및 Intune 관리 센터에서 이러한 &amp; 기능을 관리할 수 있습니다. 시간이 지날 때 간소화된 컨트롤이 관리 센터에 Microsoft 365 추가됩니다.
+보안 및 준수 센터 및 Intune 관리 센터에서 이러한 &amp; 기능을 관리할 수 있습니다. 시간이 지날 때 간소화된 컨트롤이 컨트롤에 Microsoft 365 관리 센터.
   
     
 ## <a name="faq"></a>FAQ

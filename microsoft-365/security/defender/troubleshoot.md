@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 9b60adc266de6b99f61712d2d8303fc22c4cb9e1bf44d99bdc66f16c2a5a09d0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c4bbc9cd47d3ceb8110a6a2f0e3136a364458abc
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53792608"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255883"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>서비스 Microsoft 365 Defender 문제 해결
 
@@ -51,7 +51,7 @@ ms.locfileid: "53792608"
 
 ## <a name="where-is-the-settings-page-for-turning-on-the-service"></a>서비스를 켜기 위한 설정 페이지는 어디에 있나요?
 
-이 기능을 Microsoft 365 Defender 보안 **센터의** 설정 창에서 Microsoft 365 액세스합니다. 이 탐색 항목은 선행 권한 및 라이선스가 있는 [경우만 표시됩니다.](m365d-enable.md#check-license-eligibility-and-required-permissions)
+이 Microsoft 365 Defender 설정하기 위해  설정 포털의 탐색 창에서 Microsoft 365 Defender 액세스합니다. 이 탐색 항목은 선행 권한 및 라이선스가 있는 [경우만 표시됩니다.](m365d-enable.md#check-license-eligibility-and-required-permissions)
 
 ## <a name="how-do-i-create-an-exception-for-my-fileurl"></a>내 파일/URL에 대한 예외를 만드는 방법
 

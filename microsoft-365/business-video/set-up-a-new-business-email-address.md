@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 새 비즈니스 전자 메일 주소를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 004cdd3abf9b8f8dec34dbfe9739102af081c769
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: a263a04f88880d4043b8a32dd2c7afdb557f11a6025d2f6ab5523f430124e2ac
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341547"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53906854"
 ---
 # <a name="set-up-a-new-business-email-address"></a>새 비즈니스 전자 메일 주소 설정
 

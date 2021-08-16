@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 2cfd687b3f34c1857fa5128cefa236ceb71f6b8ba7ba00a86a3dfceb43b60062
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8831293d1b17649ae387aab9ab99063ba31bef15
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870334"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255976"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 및 Office 365 배포 랩 키트
 
@@ -104,14 +104,14 @@ Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
 > [!NOTE]
-> 광대역 인터넷 연결을 사용하여 이 콘텐츠를 다운로드하고 자동 프로비전을 위해 30-45분을 허용하세요. 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 메모리와 300GB의 사용 가능한 공간이 권장됩니다. 키트는 2021년 8월 23일 만료됩니다. 만료 전에 새 버전이 게시됩니다.
+> 광대역 인터넷 연결을 사용하여 이 콘텐츠를 다운로드하고 자동 프로비전을 위해 30-45분을 허용하세요. 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 메모리와 300GB의 사용 가능한 공간이 권장됩니다. 랩은 2021년 11월 6일 만료됩니다. 만료 전에 새 버전이 게시됩니다.
 
 ## <a name="additional-guidance"></a>추가 안내
 
 - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](https://www.aka.ms/watchhowtoshift)
 - [Microsoft Endpoint Configuration Manager OS 배포](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 - [Windows 10 배포 계획](/windows/deployment/planning/index)
-- [Microsoft 365 Apps 배포 가이드](/deployoffice/deployment-guide-microsoft-365-apps)
+- [Microsoft 365 앱 배포 가이드](/deployoffice/deployment-guide-microsoft-365-apps)
 - [Intune 시작](/intune/get-started-evaluation)
 
 ## <a name="related-resources"></a>관련 리소스

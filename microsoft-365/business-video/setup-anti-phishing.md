@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 피싱 방지 보호를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 32494eda4496d99e5e5f4def213ba7876f6c3183
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 71acaf070ea121db93947423e9824ae93d90b53c3ccbd3cc47e57df23a92a40f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887518"
 ---
 # <a name="set-up-anti-phishing"></a>피싱 방지 설정
 
