@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: 게스트 그룹에 게스트를 추가하고, Microsoft 365 사용자를 보고, PowerShell을 사용하여 게스트 액세스를 제어하는 방법을 학습합니다.
-ms.openlocfilehash: dd29775aebc9b5a6434e7ce5bdbd46b6a874d548b6a82f61f2e525f51b638c27
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 13eb75203bc12e6682700c9a5d44bb33505f9ff0
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826492"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346847"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>그룹에서 게스트 Microsoft 365 관리
 
@@ -47,17 +47,17 @@ ms.locfileid: "53826492"
 
 ## <a name="manage-groups-guest-access"></a>그룹 게스트 액세스 관리
 
-그룹에서 게스트 액세스를 사용하도록 설정하거나 사용하지 않도록 설정하려면 그룹에서 이 작업을 Microsoft 365 관리 센터.
+그룹에서 게스트 액세스를 사용하도록 설정하거나 사용하지 않도록 설정하려면 그룹 에서 설정할 수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**있습니다.**</a>
 
-1. 관리 센터에서 모든  설정 설정 표시로 이동하고 서비스 탭에서 그룹 Microsoft 365 \>  \>  **선택합니다.** 
+1. 관리 센터에서 모든  설정 설정 표시로 이동하고 서비스 탭에서 그룹 Microsoft 365 \>  \>  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**선택합니다.**</a> 
   
 2. Microsoft 365 **그룹** 페이지에서 조직 외부의 사람이 그룹 리소스에 액세스할 수 있도록 할지 아니면 그룹 소유자가 조직 외부의 사용자 그룹을 그룹에 추가할 수 있도록 할지 선택합니다.
 
 ## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>관리 센터에서 Microsoft 365 그룹에 게스트 추가
 
-게스트가 디렉터리에 이미 있는 경우 게스트를 그룹에서 그룹에 추가할 수 Microsoft 365 관리 센터. 동적 구성원이 있는 그룹은 에서 [관리해야 Azure Active Directory.](/azure/active-directory/enterprise-users/groups-create-rule)
+게스트가 디렉터리에 이미 있는 경우 에서 그룹에 게스트를 추가할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">수 Microsoft 365 관리 센터.</a> 동적 구성원이 있는 그룹은 에서 [관리해야 Azure Active Directory.](/azure/active-directory/enterprise-users/groups-create-rule)
   
-1. 관리 센터에서 그룹 그룹   >  **페이지로** 이동합니다.
+1. 관리 센터에서 그룹 **그룹으로**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**이동하세요.**</a>
   
 2. 게스트를 추가할 그룹을 클릭하고 구성원 탭에서 모두 보기 및 **구성원** **관리를** 선택합니다. 
   

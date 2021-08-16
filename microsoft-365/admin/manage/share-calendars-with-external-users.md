@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: 사용자가 조직 Microsoft 365 관리 센터 외부의 사용자와 일정을 공유할 수 있도록 일정 공유를 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: ed0ee14c37f5c23d262d98408114143a3f84803ba8830461a659b4dc6c010902
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3183eb9f45333e26685c09d586b5f3c5137a4a56
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824590"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346751"
 ---
 # <a name="share-calendars-with-external-users"></a>외부 사용자와 일정 공유
 
@@ -41,9 +41,7 @@ ms.locfileid: "53824590"
   
 ## <a name="enable-calendar-sharing-using-the-microsoft-365-admin-center"></a>사용자 설정을 사용하여 일정 공유를 Microsoft 365 관리 센터
 
-1. 관리 센터에서 에서  설정 \> **또는 설정.**
-
-2. 서비스 **탭에서** 일정 을 **선택합니다.**
+1. 관리 센터에서 설정 설정으로 이동하고 서비스 **탭에서** \> 일정 을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank"></a> **선택합니다.**
   
 3. 일정 **페이지에서** 사용자가 조직 외부의 사용자와 일정을 공유할 수 있도록 할지 또는 조직 외부의 사용자와 일정을 Microsoft 365 Exchange. 익명 사용자(자격 증명이 없는 사용자)가 전자 메일 초대를 통해 일정에 액세스할 수 있도록 허용할지 여부를 선택하십시오.
 

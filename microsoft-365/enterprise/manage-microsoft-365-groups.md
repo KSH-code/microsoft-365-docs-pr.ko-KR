@@ -22,18 +22,18 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: 그룹 관리 방법에 대해 Microsoft 365 자세히 알아보아야 합니다.
-ms.openlocfilehash: 529bdb874661329497b103a1207b90625ad33a4b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4658f046ec6ce7fbd8039556f0faf30ee2860a7416dd99baff45e3efb4a532fb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911010"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899334"
 ---
 # <a name="manage-microsoft-365-groups"></a>Microsoft 365 그룹 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-구성에 Microsoft 365 여러 가지 방법으로 그룹 그룹을 관리할 수 있습니다. Microsoft 365 관리 센터, PowerShell, AD [DS(Active](../admin/add-users/index.yml)Directory 도메인 서비스) 또는 Azure Active Directory(Azure AD) 관리 센터에서 사용자 [계정을 관리할 수 있습니다.](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
+구성에 Microsoft 365 여러 가지 방법으로 그룹 그룹을 관리할 수 있습니다. azure AD(Active Directory [도메인 서비스)](../admin/add-users/index.yml)관리 Microsoft 365 관리 센터, AD DS(Active Directory 도메인 [서비스)](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)또는 Azure Active Directory 관리 센터에서 사용자 계정을 관리할 수 있습니다. 
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-groups"></a>그룹 관리 위치 및 방법 계획
 

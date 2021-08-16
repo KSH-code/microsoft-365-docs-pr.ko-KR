@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d0d08abad60738bee3c4eb2afdc000b86b03f26a
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: dab7778b8a834e000f87d7a898a81ad28a19782bfee4fb38b483f136c8cbe970
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297731"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53883044"
 ---
 # <a name="contact-support-for-sierra-leone"></a>시에라리온 지원에 문의
 

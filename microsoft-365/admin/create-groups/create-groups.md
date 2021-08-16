@@ -23,23 +23,23 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 만들기 및 Microsoft 365 그룹 구성원을 추가 및 제거하고 그룹 작동 방법을 사용자 지정하는 방법을 학습합니다.
-ms.openlocfilehash: 98e4243705a027ab660099a4a1fbce470a9844d83b8f62715b6c62d2dde9d207
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 07546d32c8bd55ae1548b8f690d046e6b319bf87
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826510"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346871"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 Microsoft 365 관리 센터
   
-사용자가 Microsoft 365 다른 앱에서 Outlook 그룹을 만들 수 있는 동안 관리자는 그룹을 만들거나 삭제하고 구성원을 추가 또는 제거하고 작업 방법을 사용자 지정해야 할 수 있습니다. 이 Microsoft 365 관리 센터 이 작업을 위한 장소입니다. 
+사용자가 Microsoft 365 다른 앱에서 Outlook 그룹을 만들 수 있는 동안 관리자는 그룹을 만들거나 삭제하고 구성원을 추가 또는 제거하고 작업 방법을 사용자 지정해야 할 수 있습니다. 이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Microsoft 365 관리 센터</a> 이 작업을 위한 장소입니다. 
 
 > [!TIP]
 > Microsoft 365 Yammer 그룹은 Yammer 만들어야 하지만 다른 Microsoft 365 관리 센터 그룹과 같이 Microsoft 365 있습니다. 자세한 내용은 Yammer [및 Microsoft 365 참조합니다.](/yammer/manage-yammer-groups/yammer-and-office-365-groups) 
 
 ## <a name="create-a-microsoft-365-group"></a>Microsoft 365 그룹 만들기
 
-1. 관리 센터에서 그룹을 **확장하고** 그룹을 **클릭합니다.**
+1. 관리 센터에서 그룹을 **확장하고** 그룹을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**클릭합니다.**</a>
 
 2. 그룹 **추가를 선택합니다.**
   

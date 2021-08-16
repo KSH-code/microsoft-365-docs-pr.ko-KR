@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 Microsoft 365 추가, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 그룹 관리 방법을 학습합니다.
-ms.openlocfilehash: f568ef170125c72a8280a354091f9a3f18b65069d33dc455f31671d8ec8b16ae
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6bdab4d473433622326e96b8f1e561a30eec1e80
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826501"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346859"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 그룹 Microsoft 365 관리 센터
 
@@ -34,7 +34,7 @@ ms.locfileid: "53826501"
 
 ## <a name="edit-the-group-name-or-description"></a>그룹 이름 또는 설명 편집
 
-1. 관리 센터에서 그룹을 **확장하고** 그룹을 **클릭합니다.**
+1. 관리 센터에서 그룹을 **확장하고** 그룹을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**클릭합니다.**</a>
 
 2. 편집할 그룹을 선택한 다음 이름 및 설명 편집 **을 클릭합니다.**
 
@@ -42,7 +42,7 @@ ms.locfileid: "53826501"
 
 ## <a name="manage-group-owners-and-members"></a>그룹 소유자 및 구성원 관리
 
-1. 관리 센터에서 그룹을 **확장하고** 그룹을 **클릭합니다.**
+1. 관리 센터에서 그룹을 **확장하고** 그룹을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**클릭합니다.**</a>
 
 2. 관리하려는 그룹의 이름을 클릭하여 설정 창을 열 수 있습니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "53826501"
 
 그룹 구성원은 메일 그룹에서 그룹 다음을 중지하기로 선택하여 이러한 전자 메일 수신을 옵트아웃할 Outlook.
 
-1. 관리 센터에서 그룹을 **확장하고** 그룹을 **클릭합니다.**
+1. 관리 센터에서 그룹을 **확장하고** 그룹을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**클릭합니다.**</a>
 
 2. 관리하려는 그룹의 이름을 클릭하여 설정 창을 열 수 있습니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "53826501"
 
 이 옵션은 사용자 계정과 같은 회사 전자 메일 주소를 사용하려는 info@contoso.com.
  
-1. 관리 센터에서 그룹을 **확장하고** 그룹을 **클릭합니다.**
+1. 관리 센터에서 그룹을 **확장하고** 그룹을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**클릭합니다.**</a>
 
 2. 관리하려는 그룹의 이름을 클릭하여 설정 창을 열 수 있습니다.
 

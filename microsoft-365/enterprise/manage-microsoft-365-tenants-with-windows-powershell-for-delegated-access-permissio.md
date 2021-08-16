@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
 description: 이 문서에서는 고객 테넌트 관리에 PowerShell을 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: 96c2c148b64d638ea977922f6a0ae3d5e23a8ace
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 2bbe59f5c5c27830569be2c357a586152ced849c62de0b62e3d29fcc6d926d37
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289106"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899322"
 ---
 # <a name="manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>DAP(위임된 액세스 Microsoft 365)에 대한 Windows PowerShell 테넌트 관리
 

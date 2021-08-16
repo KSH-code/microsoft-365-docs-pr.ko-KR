@@ -23,16 +23,16 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 설명합니다.
-ms.openlocfilehash: cc2051bf28dca082c3468fd2c292eff23c4e857e4b896ccfd03f78e5bb53552e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 65f7d6c292d351a25b2d5ba499bd3791f5b260e8
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825298"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346799"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 배포
 
-Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정보에 액세스하는 방법을 간소화할 수 있습니다([Office 추가 기능 사용 시작](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862) 참조). 관리자는 조직의 사용자에 대해 Office 배포할 수 있는 추가 기능을 배포할 수 Microsoft 365 관리 센터. 중앙 집중식 배포는 대부분의 관리자가 조직 내의 사용자 및 그룹에 추가 기능을 배포하는 데 권장되는 가장 다양한 기능입니다.
+Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정보에 액세스하는 방법을 간소화할 수 있습니다([Office 추가 기능 사용 시작](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862) 참조). 관리자는 의 중앙 집중식 배포 기능을 사용하여 Office 사용자를 위한 추가 기능을 배포할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a> 중앙 집중식 배포는 대부분의 관리자가 조직 내의 사용자 및 그룹에 추가 기능을 배포하는 데 권장되는 가장 다양한 기능입니다.
 
 조직에서 중앙 집중식 배포를 지원할 수 있는지 확인하는 방법에 대한 자세한 내용은 추가 기능의 중앙 집중식 배포가 조직에 [적합한지 확인을 참조하세요.](centralized-deployment-of-add-ins.md)
 

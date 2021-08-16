@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: 새 제품 및 기능 업데이트에 대한 릴리스 옵션을 설정하는 방법을 Microsoft 365 관리 센터.
-ms.openlocfilehash: 69cae62a2a468c27a210a5db65d1858046b758859c2dae0ed4ab90c1acf78d9c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c9a3478c15ad5505bae73b6821fc8ed9511f9b3e
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825038"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346787"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>표준 또는 대상 지정 릴리스 옵션 설정
 
@@ -95,7 +95,7 @@ ms.locfileid: "53825038"
 > [!IMPORTANT]
 > 아래 변경 내용을 적용하는 데 최대 24시간이 걸릴 수 Microsoft 365. 대상 지정된 릴리스를 설정한 후에 취소하는 경우 사용자가 아직 예정된 릴리스에 도달하지 않은 기능에 액세스하지 못할 수 있습니다. 
   
-1. 관리 센터에서 조직 **설정** 로 이동하고 조직 프로필 탭에서 릴리스 기본 설정  >   **을 선택합니다.** 
+1. 관리 센터에서 조직 설정 로 이동하고 조직 프로필 **탭에서** 릴리스 기본 설정  >   **을 선택합니다.** <a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank"></a>
 
 5. 대상 지정 릴리스를 사용하지 않도록 설정하려면 **표준** 릴리스 를 선택한 다음 변경 **내용 저장 을 선택합니다.** 
     

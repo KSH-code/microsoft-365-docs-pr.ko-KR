@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7f17526765bbd3940ed88d85f7432805546ab13c
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: f70fb390e1cde09786f81dd8b7ebe790f607e55085254a6b25f6851c096cbde4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296458"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53883172"
 ---
 # <a name="contact-support-for-bosnia-and-herzegovnia"></a>보스니아 헤르체고브니아 지원에 문의
 

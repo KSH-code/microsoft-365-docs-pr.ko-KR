@@ -22,18 +22,18 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: 사용자 계정 암호를 관리하는 Microsoft 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 2062da49310121ec18f7ce21f523531f10d6df9b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ac83ef8a52bd0f0c3a6a8d1c0164c6eb6c0a4f4b20045d5c23ad2c1fb7a6b6da
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899310"
 ---
 # <a name="manage-microsoft-365-user-account-passwords"></a>사용자 Microsoft 365 암호 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-ID 구성에 Microsoft 365 여러 가지 방법으로 사용자 계정 암호를 관리할 수 있습니다. ad DS(Active Directory [도메인 서비스)](../admin/add-users/index.yml)Microsoft 365 또는 Azure AD(Active Directory 도메인 서비스) 관리 센터에서 사용자 계정을 Azure Active Directory 수 있습니다.
+ID 구성에 Microsoft 365 여러 가지 방법으로 사용자 계정 암호를 관리할 수 있습니다. AD [DS(Active](../admin/add-users/index.yml)Directory 도메인 서비스) 또는 Microsoft 365 관리 센터(Azure AD) 관리 센터에서 사용자 계정을 Azure Active Directory 있습니다.
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-user-account-passwords"></a>사용자 계정 암호를 관리하는 위치 및 방법 계획
 

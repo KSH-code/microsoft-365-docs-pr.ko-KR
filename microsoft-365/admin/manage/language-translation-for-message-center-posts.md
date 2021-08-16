@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f7c2ff2-af65-4557-8840-0b84ce96d9bc
 description: 메시지 센터 게시물은 영어로만 표시되지만 메시지 센터에 대해 지정한 언어로 자동으로 Microsoft 365.
-ms.openlocfilehash: ab0819b22e6f046af401ced778a8f9c06f43e4569f42f0ca7caef62130a154a3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7256fe69fb010ce2c3bf77c99de91a4ee42285a7
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825334"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346811"
 ---
 # <a name="language-translation-for-message-center-posts"></a>메시지 센터 게시물에 대한 언어 번역
 
@@ -38,7 +38,7 @@ ms.locfileid: "53825334"
   
 ## <a name="set-your-preferred-language"></a>기본 설정 언어 설정
 
-1. Microsoft 365 관리 센터 또는 홈페이지에서 창의 오른쪽 위 모서리에 있는 설정 아이콘을 선택합니다.
+1. 창 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 홈 페이지에서 창의 오른쪽 위 모서리에 있는 설정 아이콘을 선택합니다.
   
 2. **언어 및 시간대** 하에서, **모두 보기** 를 선택하여 가용한 옵션을 표시합니다. 드롭다운 메뉴에서 원하는언어를 선택한 다음 **저장** 을 선택합니다. Microsoft 365에서 새로 고쳐 새 언어를 표시하려고 합니다. 즉시 새 언어가 표시되지 않거나 시간이 너무 오래 걸리는 것 같으면 브라우저를 새로 고치거나 로그아웃했다가 다시 로그인하면 됩니다.
   

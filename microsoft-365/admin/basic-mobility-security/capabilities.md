@@ -19,12 +19,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: e69ad327add8ced4f3bacfa47c5b9424f3601b63a18360983e20c9a68ea83b53
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cfd29178bfa6ea235bc26cf8ca1efa3b80e39915
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827074"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346955"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>기본 이동성 및 보안 기능
 
@@ -116,7 +116,7 @@ ms.locfileid: "53827074"
 
 |**설정 이름**|**iOS 7.1 이상**|**Android 5 이상**|**Samsung Knox**|
 |:-----|:-----|:-----|:-----|
-|디바이스<sup>1에서</sup> 데이터 암호화 필요 |아니요|예|예|
+|디바이스<sup>1에서</sup> 데이터 암호화 필요 |아니오|예|예|
 
 <sup>1</sup> Samsung Knox를 사용하면 저장소 카드에 암호화를 요구할 수도 있습니다.
 
@@ -142,8 +142,8 @@ ms.locfileid: "53827074"
 |클라우드 백업 차단 |예|아니요|아니요|
 |문서 동기화 차단 |예|아니요|아니요|
 |사진 동기화 차단  |예|아니요|아니요|
-|Google 백업 허용  |해당 없음|아니요|예|
-|Google 계정 자동 동기화 허용  |해당 없음|아니요|예|
+|Google 백업 허용  |해당 없음|아니오|예|
+|Google 계정 자동 동기화 허용  |해당 없음|아니오|예|
 
 ## <a name="system-settings"></a>시스템 설정
 
@@ -158,7 +158,7 @@ ms.locfileid: "53827074"
 |:-----|:-----|:-----|:-----|
 |장치에서 비디오 회의 차단 |예|아니요|아니요|
 |응용 프로그램 저장소에 대한 액세스 차단 |예|아니요|예|
-|응용 프로그램 저장소에 액세스할 때 암호 필요 |아니요|예|예|
+|응용 프로그램 저장소에 액세스할 때 암호 필요 |아니오|예|예|
 
 ## <a name="device-capabilities-settings"></a>장치 기능 설정
 

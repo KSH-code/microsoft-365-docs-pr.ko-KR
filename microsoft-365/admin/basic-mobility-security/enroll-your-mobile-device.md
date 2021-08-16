@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 장치와 함께 Microsoft 365 서비스를 사용하려면 먼저 기본 모바일 및 보안에서 서비스를 등록해야 Microsoft 365.
-ms.openlocfilehash: 65f3d224b6dd3832416d1f1c1b9d9a6d933f3305a419abebe997a4fb765a5989
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3bc3980b0716276acaaef172c04b6e742b4f8f7f
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826774"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346943"
 ---
 # <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>기본 모바일 및 보안을 사용하여 모바일 장치 등록
 
@@ -32,7 +32,7 @@ ms.locfileid: "53826774"
 조직에서는 직원이 모바일 장치를 사용하여 회사 전자 메일, 일정 및 문서에 안전하게 액세스할 수 있도록 기본 이동성 및 보안을 선택하고 비즈니스에서 중요한 데이터를 보호하고 규정 준수 요구 사항을 충족합니다.자세한 내용은 [Overview of Basic Mobility and Security for Microsoft 365.](overview.md) 자세한 내용은 내 장치를 등록할 때 조직에서 [어떤 정보를 볼 수 있나요?를 참조하세요.](/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune)
 
 > [!IMPORTANT]
-> 기본 모바일 및 보안 for Microsoft 365 장치를 등록할 때 작업 조직에서 장치를 초기화할 수 있도록 허용하는 옵션과 함께 암호를 설정해야 할 수 있습니다. 예를 들어 암호가 너무 Microsoft 365 관리 센터 입력한 경우 또는 사용 약관이 손상된 경우 장치에서 모든 데이터를 제거하기 위해 장치 데이터 지우기를 수행할 수 있습니다.
+> 기본 모바일 및 보안 for Microsoft 365 장치를 등록할 때 작업 조직에서 장치를 초기화할 수 있도록 허용하는 옵션과 함께 암호를 설정해야 할 수 있습니다. 예를 들어 암호가 너무 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>Microsoft 365 관리 센터 입력한 경우 또는 사용 약관이 손상된 경우 장치에서 모든 데이터를 제거하기 위해 장치 데이터 지우기를 수행할 수 있습니다.
 
 ## <a name="supported-devices"></a>지원되는 장치
 

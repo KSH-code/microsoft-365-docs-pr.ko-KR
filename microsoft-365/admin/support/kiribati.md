@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2a56b6ad80690e83c655773cf274cc54d757bdb3
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: b2c04250c568e827ed78d80a483b0ae7eb0c934339cab0ea49f11f77149bcaf7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52298484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53883112"
 ---
 # <a name="contact-support-for-kiribati"></a>키리바시 지원에 문의
 

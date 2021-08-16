@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
 description: 이 문서에서는 PowerShell에서 Microsoft 365 관리 작업을 수행하는 방법을 설명합니다.
-ms.openlocfilehash: 22bf4d1f3187746483d8d904378e675562a62142
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 48555dd41ff18941a6cbce3ef9f25cb5e3727735c7c7cedfe1e6050556e96dfb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899430"
 ---
 # <a name="manage-microsoft-365-groups-with-powershell"></a>PowerShell을 Microsoft 365 그룹 관리
 
@@ -48,7 +48,7 @@ Azure AD(Azure Active Directory) PowerShell을 사용하여 사용자에게 조�
 ## <a name="allow-users-to-send-as-the-microsoft-365-group"></a>사용자가 그룹으로 보내기 허용 Microsoft 365
 <a name="BK_LinkToGuideLines"> </a>
 
-그룹에서 "다른 Microsoft 365 보내기"를 사용하도록 설정하려면 [Add-RecipientPermission](/powershell/module/exchange/add-recipientpermission) 및 [Get-RecipientPermission](/powershell/module/exchange/get-recipientpermission) cmdlet을 사용하여 이를 구성합니다. 이 설정을 사용하도록 설정하면 Microsoft 365 사용자가 웹에서 Outlook 또는 Outlook 사용하여 전자 메일을 보내고 전자 메일 그룹에 회신할 Microsoft 365 있습니다. 사용자는 그룹으로 이동하여 새 전자 메일을 만들고 "다른 사람으로 보내기" 필드를 그룹의 전자 메일 주소로 변경할 수 있습니다.
+그룹에서 "다른 Microsoft 365 보내기"를 사용하도록 설정하려면 [Add-RecipientPermission](/powershell/module/exchange/add-recipientpermission) 및 [Get-RecipientPermission](/powershell/module/exchange/get-recipientpermission) cmdlet을 사용하여 이를 구성합니다. 이 설정을 사용하도록 설정하면 Microsoft 365 그룹 사용자가 Outlook 웹용 Outlook 전자 메일을 보내고 회신할 수 Microsoft 365 있습니다. 사용자는 그룹으로 이동하여 새 전자 메일을 만들고 "다른 사람으로 보내기" 필드를 그룹의 전자 메일 주소로 변경할 수 있습니다.
 
 (관리 센터에서 이 작업을 Exchange[있습니다.](/office365/admin/create-groups/allow-members-to-send-as-or-send-on-behalf-of-group)
 
@@ -62,7 +62,7 @@ $groupsRecipientDetails = Get-Recipient -RecipientTypeDetails groupmailbox -Iden
 Add-RecipientPermission -Identity $groupsRecipientDetails.Name -Trustee $userAlias -AccessRights SendAs
 ```
 
-cmdlet이 실행되면 사용자는 보낸 사람 필드에 그룹 전자 메일 주소를 추가하여 Outlook Outlook 또는 웹에서 그룹으로 보내기 위해 웹에서 사이트로 이동하거나 그룹으로 보낼 수 **있습니다.**
+cmdlet이 실행되면 사용자는 그룹 전자 메일 Outlook 웹용 Outlook 보낸 사람 필드에 그룹 전자 메일 주소를 추가하여 그룹으로 보낼 수 **있습니다.**
 
 ## <a name="create-classifications-for-microsoft-365-groups-in-your-organization"></a>조직에서 Microsoft 365 그룹에 대한 분류 만들기
 
@@ -87,7 +87,7 @@ $setting["ClassificationDescriptions"] ="Classification:Description,Classificati
 
 여기서 Classification은 ClassificationList의 문자열과 일치합니다.
 
-예제:
+예:
 
 ```powershell
 $setting["ClassificationDescriptions"] = "Low Impact: General communication, Medium Impact: Company internal data , High Impact: Data that has regulatory requirements"
@@ -150,7 +150,7 @@ Set-UnifiedGroup -Identity "MailaTip Group" -MailTip "This group has a MailTip" 
 
 ## <a name="change-the-display-name-of-the-microsoft-365-group"></a>그룹의 표시 이름 Microsoft 365 변경
 
-표시 이름은 그룹의 이름을 Microsoft 365 지정합니다. 이 이름은 Exchange 관리 센터 또는 exchange 관리 센터에서 Microsoft 365 있습니다. 다음 명령을 실행하여 그룹의 표시 이름을 편집하거나 기존 Microsoft 365 그룹에 표시 이름을 할당할 Set-UnifiedGroup 있습니다.
+표시 이름은 그룹의 이름을 Microsoft 365 지정합니다. 이 이름은 Exchange 관리 센터 또는 exchange 관리 센터에서 볼 수 Microsoft 365 관리 센터. 다음 명령을 실행하여 그룹의 표시 이름을 편집하거나 기존 Microsoft 365 그룹에 표시 이름을 할당할 Set-UnifiedGroup 있습니다.
 
 ```powershell
 Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"

@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 19bc4763f60fae1db914ab7c1f10354e7904cb50
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6e6077427c642e30809b2da140eac00ea03737ca3b62cd498514b1ade4ec0caa
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899273"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -134,7 +134,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 ## <a name="best-together-with-surface-and-the-edge-browser"></a>Surface와 Edge 브라우저의 최상의 조합
 
-엔터프라이즈용 Microsoft 365, Microsoft Surface 디바이스 및 Microsoft Edge를 함께 사용한 최상의 조합으로 사용자의 통합되고 안전한 생산성을 최적화하세요. 이 교차 제품 통합은 다음을 제공합니다:
+엔터프라이즈용 Microsoft 365와 Microsoft Surface 장치, Microsoft Edge 브라우저를 함께 사용하는 최상의 조합으로 사용자의 통합되고 안전한 생산성을 최적화하세요. 이 제품 간 통합은 다음과 같은 기능을 제공합니다.
 
 - 공통 ID 및 로그인 보안 인프라.
 - 검색, 공동 작업, 생산성 및 규정 준수에 대한 통합 로컬 및 클라우드 앱. 
