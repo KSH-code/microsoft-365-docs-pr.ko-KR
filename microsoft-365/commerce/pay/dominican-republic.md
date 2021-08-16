@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e0c13fcc5309418beaf92f5f34ed83b7295e0ef3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: bf96468b58c28ec5a2b4ab517a7d02d5e0abc9477afcab62010f90f5c4e77202
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53852502"
 ---
 # <a name="payment-information-for-dominican-republic"></a>도미니크 공화국의 결제 정보
 
@@ -31,5 +31,5 @@ ms.locfileid: "52536841"
 **은행:** 뱅크 of America  
 **Branch:** 달라  
 **SWIFT 코드:** BOFAUS3N  
-**계정 번호:** 4426587954  
+**계정 번호: 4426587954**  
 **계정 이름:** Microsoft

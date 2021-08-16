@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 71f165611f59c45dd2c6d8fa5a5980264c03ba21
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: bfa1dd7966bbe3695cc99d33d47765e192ab867023c8316bb37ab0bd5ef2ef51
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535497"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53852418"
 ---
 # <a name="payment-information-for-france"></a>프랑스의 결제 정보
 
@@ -33,8 +33,8 @@ ms.locfileid: "52535497"
 **은행:** Citibank, London  
 **SWIFT 코드:** CITIGB2L  
 **IBAN 코드:** GB31CITI18500812207591  
-**SORT 코드:** 185008  
-**계정 번호:** 12207591  
+**SORT 코드: 185008**  
+**계정 번호: 12207591**  
 **계정 이름:** MICROSOFT
 
 2021년 3월 1일부터 **Microsoft 프랑스 SAS에서** 청구한 송장이 있는 경우 다음 은행 정보를 사용하세요.
@@ -42,7 +42,7 @@ ms.locfileid: "52535497"
 **은행:** Citibank Europe plc  
 **SWIFT 코드:** CITIIE2X  
 **IBAN 코드:** IE11CITI99005170000123  
-**계정 번호:** 70000123  
+**계정 번호: 70000123**  
 **계정 이름:** MICROSOFT
 
 현지 Microsoft 자회사에서 발급한 송장은 표준 세율의 VAT/판매세/GST로 발급된 것으로, VAT/판매세/GST 목적에 대한 국내 서비스 공급으로 표시됩니다.

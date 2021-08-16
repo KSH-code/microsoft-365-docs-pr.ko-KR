@@ -20,12 +20,12 @@ ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 및 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: 0bb2235eebfcb6cc85172a286ed4f0f9b24112fda5f6c3246552bc2c8297bcc8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 268fcc1239370d55a112c60192fb37f42df2203b
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819880"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243990"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
@@ -62,7 +62,7 @@ ms.locfileid: "53819880"
 
     - **드라이브 배송:** WAImportExport.exe 도구 (1단계에서 다운로드)는 PST 파일을 하드 드라이브로 복사하는 데 사용됩니다. 이 도구는 BitLocker로 하드 드라이브를 암호화한 다음 PST를 하드 드라이브에 복사합니다. 네트워크 업로드와 마찬가지로 하드 드라이브에 복사하려는 PST 파일은 조직의 파일 공유 또는 파일 서버에 위치해야 합니다.
 
-3. **PST 가져오기 매핑 파일 만들기** - PST 파일을 Azure Storage 위치에 업로드하거나 하드 드라이브에 복사한 후의 다음 단계는 가져온 PST파일이 위치하게 될 사용자 사서함을 지정하는 쉼표로 구분된 값 (CSV) 파일을 만드는 것입니다 (PST 파일은 사용자의 기본 사서함이나 보관 사서함으로 가져올 수 있습니다). Office 365 가져오기 서비스는 이 정보를 사용하여 PST 파일을 가져옵니다.
+3. **PST 가져오기 매핑 파일 만들기** - PST 파일을 Azure Storage 위치에 업로드하거나 하드 드라이브에 복사한 후의 다음 단계는 가져온 PST파일이 위치하게 될 사용자 사서함을 지정하는 쉼표로 구분된 값 (CSV) 파일을 만드는 것입니다 (PST 파일은 사용자의 기본 사서함이나 보관 사서함으로 가져올 수 있습니다). [PST 가져오기 매핑 파일의 복사본 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=544717). Office 365 가져오기 서비스는 이 정보를 사용하여 PST 파일을 가져옵니다.
 
 4. **PST 가져오기 작업 만들기** - 다음 단계는 보안 & 준수 센터의 **PST 파일 가져오기** 페이지에서 PST 가져오기 작업을 만들고 이전 단계에서 만든 PST 가져오기 매핑 파일을 제출하는 것입니다. 네트워크 업로드의 경우 (PST 파일이 Azure에 업로드 되었기 때문에) Microsoft 365는 PST 파일의 데이터를 분석한 다음 PST 가져오기 매핑 파일에 지정된 사서함으로 실제로 가져올 데이터를 제어하는 필터를 설정할 수 있는 기회를 제공합니다.
 
@@ -221,7 +221,7 @@ PST 파일을 Microsoft 365 사서함으로 가져오려면 사서함 가져오�
 
 #### <a name="where-is-drive-shipping-available"></a>드라이브 배송을 사용할 수 있는 지역은 어디인가요?
 
-현재 드라이브 배송은 미국, 캐나다, 브라질, 영국, 유럽, 인도, 동아시아, 동남 아시아, 일본, 대한민국 및 오스트레일리아에서 사용할 수 있습니다. 드라이브 배송을 사용할 수 있는 지역이 곧 더 많아질 예정입니다.
+현재 드라이브 배송은 미국, 캐나다, 브라질, 영국, 유럽, 인도, 동아시아, 동남 아시아, 일본, 대한민국, 오스트레일리아 및 남아프리카에서 사용할 수 있습니다. 드라이브 배송을 사용할 수 있는 지역이 곧 더 많아질 예정입니다.
 
 > [!NOTE]
 > 현재 독일 및 스위스에서는 PST 파일을 가져오기 위한 드라이브 배송을 사용할 수 없습니다. 이러한 국가에서 드라이브 배송이 가능한 경우 이 FAQ가 업데이트됩니다.

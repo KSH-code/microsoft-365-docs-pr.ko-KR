@@ -1,5 +1,5 @@
 ---
-title: 파일럿 Microsoft 365 Defender 인시던트 대응 기능을 사용하여 인시던트의 우선 순위를 지정 및 관리하고, 자동화된 조사 및 대응을 구성하고, 고급 헌팅을 사용
+title: 파일럿 Microsoft 365 Defender 인시던트 대응 기능 테스트
 description: 인시던트 대응 기능을 Microsoft 365 Defender 우선 순위를 지정하고 관리하고, 조사를 자동화하고, 위협 감지에서 고급 헌팅을 사용 합니다.
 keywords: Microsoft 365 Defender 평가, Microsoft 365 Defender 평가, Microsoft 365 Defender Microsoft 365 Defender 평가 랩, Microsoft 365 Defender 파일럿, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
@@ -22,12 +22,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 6f8e8ed59c38c00c2158292b343d5ce347ebf297
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: aaf30aa5f598fffc5f8f53fc92fef5571b3c851b0bd9e48ef3ca8b60ad9e5e43
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53863321"
 ---
 # <a name="try-microsoft-365-defender-incident-response-capabilities-in-a-pilot-environment"></a>파일럿 Microsoft 365 Defender 인시던트 대응 기능 테스트
 
@@ -181,7 +181,7 @@ ms.locfileid: "53544736"
 
    1. 쿼리의 시간 프레임을 지난 24시간으로 변경합니다. 위의 시뮬레이션을 실행할 때 보낸 전자 메일이 지난 24시간 동안의 경우, 그렇지 않으면 필요한 경우 시간 프레임을 변경합니다.
 
-   1. 쿼리 **실행 을 선택합니다.** 파일럿 환경에 따라 결과가 다를 수 있습니다.
+   1. **쿼리 실행** 을 선택합니다. 파일럿 환경에 따라 결과가 다를 수 있습니다.
 
       > [!NOTE]
       > 데이터 반환을 제한하는 필터링 옵션에 대한 다음 단계를 참조하세요.

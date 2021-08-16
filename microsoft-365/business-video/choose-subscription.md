@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 Microsoft 365 적합한 구독에 대해 자세히 알아보습니다.
-ms.openlocfilehash: ca998be8c51af5caeb648510693effa88f481a9f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f5cf6adffe54ed1930e139bf70c91e8f17b4d501b8c324ceb11512ce81f4b950
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53900641"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>구독 Microsoft 365 선택
 

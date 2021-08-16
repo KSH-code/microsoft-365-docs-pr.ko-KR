@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 앱의 관리자 역할에 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: a4fcb60218069d73fe658a6dc4ef681a659ec70b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: aa38accad56bf6fc6af34289a118bc9cf81e82b1556a5c1dd72634bed85af6d2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53900665"
 ---
 # <a name="what-is-a-microsoft-365-admin"></a>관리자란 Microsoft 365 무엇입니까?
 
@@ -42,19 +42,19 @@ ms.locfileid: "51578558"
 사용자 역할을 관리자 역할로 변경하는 방법에는 다음이 있습니다.
 
 1. 로그인한 Microsoft 365 시작 프로그램을 선택합니다. 관리자 단추가 표시되어 있는 경우 관리자입니다.
-1. **관리자를** 선택하여 Microsoft 365 센터로 이동하세요.
+1. **관리자를** 선택하여 관리자로 Microsoft 365 관리 센터.
 1. 왼쪽 탐색 창에서 **사용자,** 활성 사용자를 **선택합니다.**
 1. 관리자로 만들 사람을 선택합니다. 사용자의 세부 정보가 오른쪽 대화 상자에 표시됩니다.
 1. 역할 **관리를 선택 합니다.**
 1. 사용자(관리자 액세스 권한 **없음)** 확인란의 선택을 취소한 다음 관리자 역할 중 하나를 선택합니다. 역할에 대한 자세한 내용은 느낌표(!) 위에 마우스를 대고 도구 팁을 읽어보세요. 사용자에게 사용자와 동일한 역할을 제공하려면 전역 관리자 **를 선택합니다.**
-1. **변경 내용 저장** 을 선택합니다.
+1. **변경 사항 저장** 을 선택합니다.
 
 ### <a name="create-an-admin-account"></a>관리자 계정 만들기 
 
 IT 사용자 또는 서비스에 대한 전용 관리자 계정을 만들 수도 있습니다.
 
 1. 로그인한 Microsoft 365 시작 프로그램을 선택합니다.
-1. **관리자를** 선택하여 Microsoft 365 센터로 이동하세요.
+1. **관리자를** 선택하여 관리자로 Microsoft 365 관리 센터.
 1. 왼쪽 탐색 창에서 **사용자,** 활성 사용자를 **선택합니다.**
 1. 사용자 **추가를 선택합니다.**
 1. 사용자의 이름과  **성,** **표시** 이름 및 **사용자 이름을** 입력하고 다음 을 **선택합니다.**

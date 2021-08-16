@@ -17,18 +17,18 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 description: PowerShell을 사용하여 보안 그룹을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 64a02a1472fdeb0d61cfb4f380cbe61dd7b557b6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fbefc5d483c327daa1082debd8ca504bc8df36e52dd49a0c3ad50ee356e45e48
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53878888"
 ---
 # <a name="manage-security-groups-with-powershell"></a>PowerShell을 사용하여 보안 그룹 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-보안 그룹을 관리하기 위해 Microsoft 365 관리 센터의 대안으로 PowerShell을 Microsoft 365 수 있습니다. 
+보안 그룹을 관리하는 Microsoft 365 대신 PowerShell을 Microsoft 365 관리 센터 수 있습니다. 
 
 이 문서에서는 보안 그룹 목록, 만들기, 변경 및 제거에 대해 설명하고 있습니다. 
 

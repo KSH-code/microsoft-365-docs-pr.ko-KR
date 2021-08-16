@@ -15,19 +15,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Google Workspace에서 마이그레이션할 Microsoft 365 설정하는 방법을 알아보고
-ms.openlocfilehash: 42b8cd86ec03c4d4b43a4d32a1cee56e94bb7147
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 231847c9d3a0b34e4422a8e2f8fb93bc59e0c39f3e01be42b0c0c71ea8963a2a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53831626"
 ---
 # <a name="set-up-microsoft-365-for-google-workspace-migration"></a>Google Workspace Microsoft 365 대한 사용자 설정
 
@@ -38,7 +37,7 @@ Google Workspace에서 전자 메일, 일정 및 연락처를 마이그레이션
 ## <a name="try-it"></a>사용해 보세요! 
 
 1. 에 [로그인하여 office.com](https://office.com)를 선택하고 **관리자 를 선택하세요.**
-1. in the Microsoft 365 admin center, choose **Go to guided setup**. 
+1. In the Microsoft 365 관리 센터, choose **Go to guided setup**. 
 1. 선택적으로 앱 Office 설치한 다음 계속을 **선택합니다.** 
 1. Google Workspace에서 마이그레이션하기 때문에 기본 도메인을 선택하고 이 도메인 **사용을 선택합니다.** 
 1. 사용자의 이름 및 원하는 사용자 이름을 입력하고 사용자의 암호를 받을 수 있도록 전자 메일 주소를 확인한 다음 사용자 추가를 선택하고 **라이선스를 할당합니다.** 

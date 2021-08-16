@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: a5efce5d-9c9c-4190-b61b-fd273c1d425f
 description: 암호 Microsoft 365 Single Sign-On을 원하는 경우 Azure AD와 통합합니다.
-ms.openlocfilehash: f977969634401d59d7598136f9323cb0e37f9ece
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 68ec6098d6873177d573e866e0361b3775be25df1b7751a77f5b589adf5503ac
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905335"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53878900"
 ---
 # <a name="azure-integration-with-microsoft-365"></a>Azure와 통합된 Microsoft 365
 
@@ -37,7 +37,7 @@ Microsoft 365 Azure AD(Azure Active Directory)를 사용하여 뒤에서 사용�
   
 Azure AD는 통합 앱 관리와 같은 다른 기능도 제공합니다. 이러한 기능은 통합 앱 구독을 확장하고 사용자 지정하는 Microsoft 365 있습니다.
   
-Azure AD 배포 관리자를 사용하여 Microsoft 365 관리 센터에서 안내 설치 및 구성 환경을 사용할 수 있습니다(로그인해야 Microsoft 365.
+Azure AD 배포 어드바이저를 사용하여 Azure AD 배포 Microsoft 365 관리 센터 설치 및 구성 환경을 만들 수 있습니다(다음을 위해 로그인해야 Microsoft 365.
 
  - [Azure AD 커넥트 고문](https://aka.ms/aadconnectpwsync)
  - [AD FS 배포 어드바이저](https://aka.ms/adfsguidance)
@@ -45,7 +45,7 @@ Azure AD 배포 관리자를 사용하여 Microsoft 365 관리 센터에서 안�
   
 ## <a name="azure-ad-editions-and-microsoft-365-identity-management"></a>Azure AD 버전 및 Microsoft 365 관리
 
-유료 구독이 있는 Microsoft 365 Azure AD 구독도 무료로 사용할 수 있습니다. Azure AD를 사용하여 사용자 및 그룹 계정을 만들고 관리할 수 있습니다. 이 구독을 활성화하려면 일회성 등록을 완료해야 합니다. 이후에 관리 센터에서 Azure AD에 Microsoft 365 있습니다. 
+유료 구독이 있는 Microsoft 365 Azure AD 구독도 무료로 사용할 수 있습니다. Azure AD를 사용하여 사용자 및 그룹 계정을 만들고 관리할 수 있습니다. 이 구독을 활성화하려면 일회성 등록을 완료해야 합니다. 이후에 사용자 서비스에서 Azure AD에 액세스할 수 Microsoft 365 관리 센터. 
 
 무료 Azure AD 구독을 등록하는 방법에 대한 지침은 무료 [Azure AD 구독 사용을 참조하세요.](../compliance/use-your-free-azure-ad-subscription-in-office-365.md) 등록하기 위해 azure.microsoft.com 직접 이동하지 말고 무료 Azure AD 구독과는 별개인 Microsoft Azure 평가판 또는 유료 구독이 Microsoft 365. 
   
