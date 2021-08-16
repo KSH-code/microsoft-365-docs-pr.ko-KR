@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: Teams에서 게스트와 작업, 대화 및 문서 공동 작업을 위한 팀을 설정하는 데 필요한 Microsoft 365 구성 단계에 대해 자세히 알아보세요.
-ms.openlocfilehash: b8221b457c27bc390aaa05059f8966f2d0e497cbc7e425fe8c6fec5679437781
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7e0d914f4a0541a8b43959447d6fafdcaf8d3210
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53897138"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347195"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -177,6 +177,9 @@ SharePoint 조직 수준 기본 링크 설정을 설정하려면
 3. **게스트 정보 편집** 을 클릭합니다.
 4. 게스트의 전체 이름을 입력하고 확인 표시를 클릭합니다.
 5. **추가** 를 클릭한 다음 **닫기** 를 클릭합니다.
+
+> [!NOTE]
+> 회사 또는 학교 계정이 있는 게스트는 UPN(사용자 계정 이름)(예: adele@contoso.com)을 사용해야만 초대를 받을 수 있습니다. EAS ID 또는 기타 전자 메일 형식을 사용하여 게스트를 초대하는 것은 지원되지 않습니다.
 
 ## <a name="see-also"></a>참고 항목
 

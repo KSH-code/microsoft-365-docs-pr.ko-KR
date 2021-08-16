@@ -2,8 +2,8 @@
 title: Microsoft 365의 시뮬레이이트된 엔터프라이즈 기반 구성
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 11/21/2019
 audience: ITPro
@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 테스트를 위한 시뮬레이트된 Microsoft 365 환경을 만들 수 있습니다.
-ms.openlocfilehash: 8c07187d5c86af7e82c6ce31ad98a1caa5bb71669df3eb64d24831018b6f679c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c392e24b9bf3ef7c8c949ef00a6b661000156117
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870215"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354419"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>시뮬레이트된 엔터프라이즈 기본 구성
 

@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8b032ea9291e22c5eaa1e2936f412dc39bfb91e2
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 44d00bfd073b41f608a26106488e38c88d59bbecc4747c401fc70690bef1a110
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58250746"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53903946"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법
 
@@ -66,6 +66,7 @@ Endpoint 고급 헌팅 쿼리에 대한 Defender의 예는 Microsoft [Defender f
 |[일치하는 장치 인스턴스 ID를 사용하여 특별히 승인된 주변 장치의 설치 및 사용 허용](#allow-installation-and-usage-of-specifically-approved-peripherals-with-matching-device-instance-ids)|이러한 장치 인스턴스 ID 중 하나와 일치하는 승인된 주변 장치만 설치하고 사용할 수 있습니다.|
 |[일치하는 장치 인스턴스 ID를 사용하여 특별히 금지된 주변 장치의 설치 및 사용 방지](#prevent-installation-and-usage-of-specifically-prohibited-peripherals-with-matching-device-instance-ids)|이러한 장치 인스턴스와 일치하는 금지된 주변 장치를 설치하거나 사용할 수 없습니다.|
 |[서비스를 사용하는 서비스를 Bluetooth](#limit-services-that-use-bluetooth)|이러한 서비스를 사용할 수 있는 서비스를 제한할 수 Bluetooth.|
+|[끝점 기준 설정에 Microsoft Defender 사용](#use-microsoft-defender-for-endpoint-baseline-settings)|끝점용 Defender 보안 기준을 사용하여 ATP에 대한 권장 구성을 설정할 수 있습니다.|
 |
 
 ### <a name="restrict-usb-drives-and-other-peripherals"></a>USB 드라이브 및 기타 주변 장치 제한
@@ -237,6 +238,12 @@ Intune을 사용하여 "허용된 서비스" 를 통해 Bluetooth 수 있는 Blu
 > [!div class="mx-imgBorder"]
 > ![Bluetooth 설정 페이지의 스크린샷](images/bluetooth.png)
 
+### <a name="use-microsoft-defender-for-endpoint-baseline-settings"></a>끝점 기준 설정에 Microsoft Defender 사용
+
+끝점 기준 설정에 대한 Microsoft Defender는 위협 방지를 위한 권장 구성을 표현합니다. 기준에 대한 구성 설정은 구성 설정의 프로필 편집 페이지에 있습니다.
+
+> [!div class="mx-imgBorder"]
+> ![MEM의 기준](images/baselines.png)
 
 ## <a name="prevent-threats-from-removable-storage"></a>이동식 저장소의 위협 방지
   

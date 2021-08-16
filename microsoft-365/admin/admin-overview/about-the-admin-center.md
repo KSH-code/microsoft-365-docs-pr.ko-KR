@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Microsoft 365 관리 센터에 관리자 권한으로 로그인하여 클라우드에서 조직을 설정하고 사용자 및 구독을 관리합니다.
-ms.openlocfilehash: 3eb5853a23930e1ab1e595efa6f1448dcb82894c531f0771a973318d4601c09d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e1a5ebf22f874700510ff34a0f1d1fa7bb923fe0
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827170"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346979"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 
@@ -38,7 +38,7 @@ ms.locfileid: "53827170"
 
 **사용자이거나 Microsoft 365 Family 요금제가 있는 경우 관리 센터가 없습니다.** Microsoft 365를 설정하려면 [PC 또는 Mac에 Microsoft 365 또는 Office 2019 다운로드 및 설치 또는 다시 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)로 이동하세요.
 
-관리 센터를 사용하여 클라우드에서의 조직 설정, 사용자 관리, 구독 관리 등을 수행합니다. 이 문서에서는 관리 센터에 액세스하는 방법과 사용 가능한 기능 및 설정을 알아봅니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>를 사용하여 클라우드에서의 조직 설정, 사용자 관리, 구독 관리 등을 수행합니다. 이 문서에서는 관리 센터에 액세스하는 방법과 사용 가능한 기능 및 설정을 알아봅니다.
 
 관리 센터에 대한 짧은 비디오를 시청하세요. <br><br>
 

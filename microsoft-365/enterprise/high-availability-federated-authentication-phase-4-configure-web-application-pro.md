@@ -1,7 +1,7 @@
 ---
 title: 고가용성 페더타 인증 4단계 웹 응용 프로그램 Proxies 구성
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 11/25/2019
 audience: ITPro
@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 1c903173-67cd-47da-86d9-d333972dda80
 description: '요약: 웹 응용 프로그램 프록시 서버의 웹 응용 프로그램 프록시 서버에 대한 고가용성 Microsoft 365 구성하는 Microsoft Azure.'
-ms.openlocfilehash: cc74fd93fc668094d9627486ac0106447825166e3c69b4c79c36be7ccd6ea107
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9c67aa4b2c3583fe4e370fdc750a49d7088e0db2
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870645"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354467"
 ---
 # <a name="high-availability-federated-authentication-phase-4-configure-web-application-proxies"></a>고가용성 페더레이션 인증 4단계: 웹 응용 프로그램 프록시 구성
 

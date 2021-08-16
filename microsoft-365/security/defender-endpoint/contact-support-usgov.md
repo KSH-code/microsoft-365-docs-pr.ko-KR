@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 47d494016161f306745ea4116c95c22bd18e1402
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 93f84b6e65928dd2ff1e13a2d7474c4942ce4190a98eeb1e6daeb5e67e7bf944
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904050"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support-for-us-government-customers"></a>미국 정부 고객에 대한 끝점 지원에 대해 Microsoft Defender에 문의
 

@@ -23,26 +23,26 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 서비스 관리자와 같은 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
-ms.openlocfilehash: 2873773312af8584d403b9f4c506c72aad7a43a6367490887839d8778e285468
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 083c1586a522f74f87857311958a4d6082565268
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816058"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347039"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
-Microsoft 365 또는 Office 365 구독은 Microsoft 365 관리 센터를 사용해 조직의 사용자에게 할당할 수 있는 관리자 역할 집합과 함께 제공됩니다. 각 관리자 역할은 일반적인 비즈니스 기능에 해당하며, 조직의 구성원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
+Microsoft 365 또는 Office 365 구독은 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>를 사용해 조직의 사용자에게 할당할 수 있는 관리자 역할 집합과 함께 제공됩니다. 각 관리자 역할은 일반적인 비즈니스 기능에 해당하며, 조직의 구성원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
 
-Microsoft 365 관리 센터를 통해 Azure AD 역할과 Microsoft Intune 역할을 관리할 수 있습니다. 그러나 해당 역할은 Azure AD 포털과 Intune 관리 센터에서 사용할 수 있는 역할의 하위 집합입니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>를 통해 Azure AD 역할과 Microsoft Intune 역할을 관리할 수 있습니다. 그러나 해당 역할은 Azure AD 포털과 Intune 관리 센터에서 사용할 수 있는 역할의 하위 집합입니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Azure AD 역할 설명의 전체 목록을 찾고 계신가요? Azure Active Directory의 관리자 역할 권한을 확인하세요. [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 관리할 수 있는 자세한 Azure AD 역할 설명의 전체 목록을 찾고 계신가요? Azure Active Directory의 관리자 역할 권한을 확인하세요. [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 
-Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Intune 역할 설명의 전체 목록을 찾고 계신가요?  [Microsoft Intune으로 RBAC(역할 기반 액세스 제어)](/mem/intune/fundamentals/role-based-access-control)를 확인하세요.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 관리할 수 있는 자세한 Intune 역할 설명의 전체 목록을 찾고 계신가요?  [Microsoft Intune으로 RBAC(역할 기반 액세스 제어)](/mem/intune/fundamentals/role-based-access-control)를 확인하세요.
 
-Microsoft 365 관리 센터에서 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당하기](assign-admin-roles.md)를 참조하세요.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당](assign-admin-roles.md)을 참조하세요.
 
 ## <a name="watch-what-is-an-admin"></a>시청: 관리자란 무언인가요?
 
@@ -62,7 +62,7 @@ Microsoft 365 관리 센터에서 역할을 할당하는 방법에 대한 자세
 
 ## <a name="commonly-used-microsoft-365-admin-center-roles"></a>일반적으로 사용되는 Microsoft 365 관리 센터 역할
 
-Microsoft 365 관리 센터에서 **역할** 로 이동한 다음 아무 역할이나 선택하여 세부 정보 창을 열 수 있습니다. **사용 권한** 탭을 선택하여 해당 역할에 할당된 관리자가 수행할 수 있는 작업에 대한 자세한 목록을 볼 수 있습니다. 역할에 사용자를 추가하려면 **할당된** 또는 **할당된 관리자** 탭을 선택합니다.
+Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2097861" target="_blank">**역할 할당**</a>으로 이동한 다음 아무 역할이나 선택하여 세부 정보 창을 열 수 있습니다. **사용 권한** 탭을 선택하여 해당 역할에 할당된 관리자가 수행할 수 있는 작업에 대한 자세한 목록을 볼 수 있습니다. 역할에 사용자를 추가하려면 **할당된** 또는 **할당된 관리자** 탭을 선택합니다.
 
 조직에서 다음 역할을 할당하기만 하면 됩니다. 기본적으로 Microsoft에서는 대부분의 조직에서 사용하는 역할을 먼저 보여줍니다. 역할을 찾을 수 없는 경우 목록 맨 아래로 이동하여 **모든 범주 보기** 를 선택하세요. (역할에 연결된 cmdlet을 포함한 자세한 내용은 [Azure Active Directory에서 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 참조하세요.)
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: 이 문서를 사용하여 해당 문서에서 권한이 부여된 액세스 관리를 사용하도록 설정하고 구성하는 방법을 Office 365.
-ms.openlocfilehash: 13b600c60e1b9c88285ee58efcf80a7ff5ea17fe
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 70af2d3582bd2a8166645ab7507369d48e5c17f0b43dae8543dac9e427bf2285
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226122"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53905478"
 ---
 # <a name="get-started-with-privileged-access-management"></a>권한이 부여된 액세스 관리 시작
 
@@ -117,7 +117,7 @@ ms.locfileid: "53226122"
 Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccounts @('<systemAccountUPN1>','<systemAccountUPN2>')
 ```
 
-예제:
+예:
 
 ```PowerShell
 Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', 'sys2@fabrikamorg.onmicrosoft.com')
@@ -164,7 +164,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\<exchange management cmdlet name>' -ApprovalType <Manual, Auto> -ApproverGroup '<default/custom approver group>'
 ```
 
-예제:
+예:
 
 ```PowerShell
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType Manual -ApproverGroup 'mbmanagers@fabrikamorg.onmicrosoft.com'
@@ -208,7 +208,7 @@ PowerShell에서 Exchange Online 명령을 실행하여 승인자 그룹에 승�
 New-ElevatedAccessRequest -Task 'Exchange\<exchange management cmdlet name>' -Reason '<appropriate reason>' -DurationHours <duration in hours>
 ```
 
-예제:
+예:
 
 ```PowerShell
 New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting to fix the user mailbox error' -DurationHours 4
@@ -236,7 +236,7 @@ PowerShell에서 Exchange Online 명령을 실행하여 특정 요청 ID에 대�
 Get-ElevatedAccessRequest -Identity <request ID> | select RequestStatus
 ```
 
-예제:
+예:
 
 ```PowerShell
 Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | select RequestStatus
@@ -266,7 +266,7 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 Approve-ElevatedAccessRequest -RequestId <request id> -Comment '<approval comment>'
 ```
 
-예제:
+예:
 
 ```PowerShell
 Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<approval comment>'
@@ -278,7 +278,7 @@ Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -C
 Deny-ElevatedAccessRequest -RequestId <request id> -Comment '<denial comment>'
 ```
 
-예제:
+예:
 
 ```PowerShell
 Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<denial comment>'

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 두 개의 테스트 계정만 사용하여 사용자 지정 도메인의 전자 메일 기능을 Microsoft 365 사서함으로 시험해 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6172975719258e6186e6fcfdecc7bc9395b887c9f69ae835d45c1edf16626a2e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0e19c04d00e533797036a29cafdfe9902e93a008
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823834"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346079"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>사용자 지정 도메인에서 Microsoft 365 파일럿
 
@@ -89,7 +89,7 @@ Microsoft 365에서는 스팸 방지를 위해 EOP(Exchange Online Protection)�
 
 ### <a name="step-5-create-user-accounts-and-set-the-primary-reply-to-address"></a>5단계: 사용자 계정 만들기 및 기본 회신 주소 설정하기
 
-1. Microsoft 365 관리 센터 왼쪽 탐색에서 **사용자** > **활성 사용자** 를 선택합니다.
+1. Microsoft 365 관리 센터 왼쪽 탐색에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**활성 사용자**</a>를 선택합니다.
 
 2. 두 명의 기존 사용자를 추가하여 두 개의 테스트 계정을 만듭니다.
 

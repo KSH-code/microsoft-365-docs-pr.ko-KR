@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 이 문서에서는 서로 다른 버전의 두 버전 간의 차이점을 Office 365 메시지 암호화.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 92beb3625c0b115fe77f1667a448bf0bf9589040
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 5e94183ef90d5e55512f8d62db38be28f14d69d1fa8a5925b4de2afa660db26c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53905490"
 ---
 # <a name="compare-versions-of-ome"></a>OME 버전 비교
 
@@ -56,7 +56,7 @@ Exchange Online 전자 메일 메시지 및 첨부 파일에 대한 온라인 �
 새 기능은 다음과 같은 이점을 제공합니다.
 
 - 암호화 전용 옵션(보안 공동 작업 사용), 전달 금지 옵션 및 사용자 지정 제한을 사용할 수 있습니다.
-- 보낸 사람이 Mac용 및 웹 클라이언트용 Outlook 데스크톱에서 수동으로 Outlook 암호화된 메일을 Outlook 수 있습니다.
+- 보낸 사람이 Mac 및 클라이언트용 데스크톱, Outlook 데스크톱에서 수동으로 Outlook 수 웹용 Outlook 있습니다.
 - Microsoft 365 클라이언트에서 지원되는 인라인 환경을 사용할 Outlook 있습니다. 또는 관리자가 받는 사람에게 브랜드된 환경을 Microsoft 365 수 있습니다.
 - Gmail Microsoft 365 Yahoo 및 Microsoft 계정과 같은 사용자 외부의 계정은 OME 포털과 페더러하여 이러한 받는 사람에게 더 나은 사용자 환경을 제공합니다. 다른 모든 ID는 일회성 암호를 사용하여 암호화된 메시지에 액세스합니다.
 - 관리자는 브랜드를 사용자 지정하고 여러 브랜징 템플릿을 만들 수 있습니다.
@@ -83,9 +83,9 @@ Office 365 고급 메시지 암호화 높음에서 지원되지 GCC 없습니다
 
 ### <a name="encrypted-email-between-gcc-high-and-gcc-high-recipients"></a>높음과 GCC 받는 사람 GCC 암호화된 전자 메일
 
-보낸 사람이 PC 및 mac용 Outlook 및 웹용 Outlook 전자 메일을 수동으로 암호화하거나 조직에서 메일 흐름 규칙을 사용하여 전자 메일을 암호화하는 Exchange 수 있습니다.
+보낸 사람이 PC 및 Mac 및 Outlook 및 웹용 Outlook 메일 흐름 규칙을 사용하여 전자 메일을 암호화하는 정책을 Exchange 수 있습니다.
 
-GCC 내 받는 사람은 PC 및 Mac용 Outlook 및 웹용 Outlook 동일한 인라인 읽기 환경을 받을 수 있습니다.
+GCC 내 받는 사람은 PC 및 Mac용 Outlook 동일한 인라인 읽기 환경을 웹용 Outlook 수 있습니다.
 
 ### <a name="encrypted-email-between-gcc-high-and-non-gcc-high-recipients"></a>높음 및 비영구 GCC 받는 사람 GCC 암호화된 전자 메일
 
@@ -101,7 +101,7 @@ GCC 내 받는 사람은 PC 및 Mac용 Outlook 및 웹용 Outlook 동일한 인�
 
 - 새 기능을 지정하기 위해 메일 흐름 규칙 Exchange 적용 및 권한 Office 365 메시지 암호화 **을 사용 합니다.**
 
-사용자는 데스크톱, mac용 Outlook 및 웹용 Outlook 새로운 기능으로 암호화된 메일을 Outlook 수 있습니다.
+사용자는 데스크톱, Mac용 Outlook 및 Outlook 새로운 기능으로 암호화된 메일을 Outlook 수 웹용 Outlook.
 
 ## <a name="migrate-from-legacy-ome-to-the-new-capabilities"></a>레거시 OME에서 새 기능으로 마이그레이션
 

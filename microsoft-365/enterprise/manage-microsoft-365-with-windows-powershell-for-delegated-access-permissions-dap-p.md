@@ -1,7 +1,7 @@
 ---
 title: DAP Microsoft 365 사용자 Windows PowerShell 관리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: hub-page
@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: be497751-596f-431d-b256-0a89d36a47ce
 description: Syndication 및 클라우드 솔루션 공급자(CSP) 파트너가 Windows PowerShell 테넌트 관리를 Microsoft 365 방법
-ms.openlocfilehash: e601875f5541f090f596b059db5d92b3494fabd55796945e8d543ba7c9646343
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: be32c1c8f6a71e45c8f0176c037f7ca6f28f5c31
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830201"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354431"
 ---
 # <a name="how-to-manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-partners"></a>위임된 액세스 Microsoft 365 파트너용 Windows PowerShell 관리 방법
 

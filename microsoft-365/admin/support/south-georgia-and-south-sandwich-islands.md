@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 70b640939e888095d0df647466595a95a40a902d
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: efc31d8db631e95ee04c0e98e9dabaf488bb121892764dccd5bb841a4c0431c4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52295358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53907046"
 ---
 # <a name="contact-support-for-south-georgia-and-south-sandwich-islands"></a>사우스 조지아 및 사우스 샌드위치 제도 지원에 문의
 

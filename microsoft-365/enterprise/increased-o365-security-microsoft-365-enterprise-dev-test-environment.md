@@ -2,8 +2,8 @@
 title: 엔터프라이즈 Microsoft 365 환경의 Microsoft 365 보안 강화
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 12/09/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경에 Microsoft 365 추가 보안 Microsoft 365 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 3decba5b8e75525c8988f07e8e3af3e236ed5e2e597266901bec5346cec8660c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ad739ed76d903ece388dde4c4fbc6337bb230051
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835154"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354443"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 Microsoft 365 환경의 Microsoft 365 보안 강화
 

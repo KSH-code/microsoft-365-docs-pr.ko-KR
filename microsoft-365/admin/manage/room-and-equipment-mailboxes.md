@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: '회의실 또는 장비 사서함을 만들었으면 조직의 누구나 Outlook을 사용하여 모임이나 행사용으로 예약할 수 있습니다. '
-ms.openlocfilehash: 44233261f266a6caf4b4bea78d0dbf83d98daefe537121e0ba37748e71900462
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7b5db5cfbbcacf501a280df98c4d1f9fc21fe509
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824913"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346775"
 ---
 # <a name="room-and-equipment-mailboxes"></a>회의실 및 장비 사서함
 
@@ -62,7 +62,7 @@ ms.locfileid: "53824913"
     
 ## <a name="set-up-room-and-equipment-mailboxes"></a>회의실 및 장비 사서함 설정
 
-회의실 또는 장비 사서함을 설정하려면 Microsoft Office 365 관리 센터로 이동합니다. (이 작업에는 관리자 권한이 필요합니다.) 사서함을 만든 다음 모든 사용자에게 모임이나 행사용으로 예약할 수 있다는 사실을 알립니다.
+회의실 또는 장비 사서함을 설정하려면 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>로 이동합니다. (이 작업에는 관리자 권한이 필요합니다.) 사서함을 만든 다음 모든 사용자에게 모임이나 행사용으로 예약할 수 있다는 사실을 알립니다.
   
 1. 관리 센터에서 **자원** \> [회의실 &amp; 장비](https://go.microsoft.com/fwlink/p/?linkid=2067334) 페이지로 이동합니다.
   

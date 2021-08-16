@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Advanced eDiscovery 경우, 부분적으로 인덱싱된 것으로 확인된 모든 콘텐츠는 완전히 검색할 수 있도록 다시 처리됩니다.
-ms.openlocfilehash: 34855eb168dd10fc500e2e57fe1d57ad81449452
-ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
+ms.openlocfilehash: a43ccc09fb3c0821ff04d5ec47bf9bfbb1782c1061e51b6b541abc3792e82738
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53437979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53905550"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>보유자 데이터의 고급 인덱싱
 
@@ -39,9 +39,9 @@ Advanced eDiscovery 사례에 추가된 경우 부분적으로 인덱싱되거�
 
 ## <a name="viewing-advanced-indexing-results"></a>고급 인덱싱 결과 보기
 
-고급 인덱싱 프로세스가 완료되면 다시 처리의 효율성을 이해할 수 있습니다.  사례에 대한 처리 탭의  고급 인덱싱 결과 보기에서 하이브리드 인덱스에 추가된 항목 수를 *그래프에 나열합니다.*  하이브리드 인덱스는 다시 Advanced eDiscovery 콘텐츠를 저장하는 위치입니다.
+고급 인덱싱 프로세스가 완료되면 다시 처리의 효율성을 이해할 수 있습니다.  사례에 대한 처리 탭의  고급 인덱싱 결과 보기에서 하이브리드 인덱스에 추가된 항목 수를 *그래프에 나열합니다.*  하이브리드 인덱스는 Advanced eDiscovery에서 다시 처리된 콘텐츠를 저장합니다.
 
-이 보기에는 수정이 필요한 항목 수와 파일 형식별로 다른 오류 그래프도 포함됩니다. 자세한 내용은 다음을 참조하세요.
+이 보기에는 수정이 필요한 항목 수와 파일 형식별로 다른 오류 그래프도 포함됩니다. 자세한 내용은 다음 항목을 참조하세요.
 
 - [데이터를 처리할 때 오류 수정](error-remediation-when-processing-data-in-advanced-ediscovery.md)
 

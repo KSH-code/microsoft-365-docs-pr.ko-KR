@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 79795b6166b5a0b513ab4558effe509cc6637849
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 155195ef2c7083bf6d792ccd1b77584d43ba3be27414ac3b27013af6f774cd09
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256695"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53905520"
 ---
 # <a name="insider-risk-management-policies"></a>내부 위험 관리 정책
 
@@ -209,8 +209,6 @@ ms.locfileid: "58256695"
 권장 사항 또는 경고에 대한 자세한 내용은 **정책** 탭에서 정책을 선택하여 정책 세부 정보 카드를 엽니다. 이러한 문제를 해결하는 방법에 대한 지침을 포함하여 권장 사항 및 경고에 대한 자세한 내용은 세부 정보 카드의 알림 섹션에 표시됩니다.
 
 ![내부자 위험 관리 정책 상태](../media/insider-risk-policy-health.png)
-
-### <a name="notification-messages"></a>알림 메시지
 
 다음 표를 사용하여 잠재적인 문제를 해결하기 위해 수행할 권장 사항 및 경고 알림 및 작업에 대해 자세히 알아봅니다.
 

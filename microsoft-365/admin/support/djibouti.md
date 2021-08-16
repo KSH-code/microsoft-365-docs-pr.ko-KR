@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 09820fbf6bc636f4312ba26daa85570f36ef1d2d
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: c6448a75deb018011f387d719bce4aeb145e1fef6c8279f8e013e3814ea1627a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52298929"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53907106"
 ---
 # <a name="contact-support-for-djibouti"></a>지부티 지원에 문의
 

@@ -23,16 +23,16 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Microsoft 365 그룹 구성원은 대화, 파일, 일정 이벤트, Stream 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
-ms.openlocfilehash: a831ef11817af47ed1007600a1eb70bddd341b3ae474c11d0b2326a9e4debf89
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c5e616e95cf56a67799f4edc2608a54758a7aa0b
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826522"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346883"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
-Microsoft 365 관리 센터의 **Groups** 구역에서 다음과 같은 유형의 그룹을 만들고 관리할 수 있습니다. 
+Microsoft 365 관리 센터의 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**그룹**</a> 섹션에서 다음과 같은 유형의 그룹을 만들고 관리할 수 있습니다. 
 
 - **Microsoft 365 그룹** 은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다. 여기에는 SharePoint 및 Planner와 같은 공동 작업 서비스가 포함됩니다.
 - **메일 그룹** 사용자 그룹에 전자 메일 알림을 보내는 데 사용됩니다.

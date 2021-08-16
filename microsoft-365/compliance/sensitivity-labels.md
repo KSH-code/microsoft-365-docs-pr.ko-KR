@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6861c9e0fa4611ca2a457b26d431b7f9a7473690
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 6c6f48b0dfdeee717162d8ebe031b162e2970959
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247859"
+ms.locfileid: "58347099"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -50,10 +50,8 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 > [!NOTE]
 > 미국 정부 테넌트의 경우, 민감도 레이블은 이제 모든 플랫폼에 대해 지원됩니다.
-> - GCC 및 GCC High 환경: [Windows용 Office](/officeupdates/current-channel#version-2101-january-26) 및 [Mac용 Office](/officeupdates/release-notes-office-for-mac#feature-updates-2)에 대한 릴리스 정보
-> - DoD 환경: [Windows용 Office](/officeupdates/current-channel#version-2103-march-30)에 대한 릴리스 정보
 >
-> 이 환경에 대해 Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너를 사용하는 경우 [Azure Information Protection Premium 정부 서비스 설명](/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description)을 참조하세요.
+> Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너를 사용하는 경우, [Azure Information Protection Premium 정부 서비스 설명](/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description)을 참조하세요.
 
 민감도 레이블을 사용하여 다음을 수행할 수 있습니다.
   
@@ -182,7 +180,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 - **레이블이 표시되는 사용자 및 그룹을 선택합니다.** Azure AD에서 레이블은 특정 사용자 또는 전자 메일 사용이 가능한 보안 그룹, 메일 그룹 또는 Microsoft 365 그룹([동적 구성원](/azure/active-directory/users-groups-roles/groups-create-rule)이 될 수 있음)에 게시할 수 있습니다.
 
-- 새 문서, 레이블이 지정되지 않은 이메일 및 새 컨테이너에 대한 **기본 레이블을 지정** 합니다([Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에 대해 민감도 레이블을 활성화](sensitivity-labels-teams-groups-sites.md)한 경우). 세 가지 유형의 항목 모두 또는 다른 레이블에 대해 동일한 레이블을 지정할 수 있습니다. 문서에 대한 기본 레이블을 지정하면 Azure Information Protection 통합 레이블 지정 클라이언트는 레이블이 지정되지 않은 기존 문서에도 이 레이블을 적용합니다. 레이블이 문서 또는 전자 메일에 대한 올바른 레이블이 아닌 경우에는 사용자가 언제든지 기본 레이블을 변경할 수 있습니다.
+- 새 문서, 레이블이 지정되지 않은 이메일, 새 컨테이너에 대한 **기본 레이블을 지정**([Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에 대해 민감도 레이블을 활성화](sensitivity-labels-teams-groups-sites.md)한 경우)하고, 이제 [Power BI 콘텐츠](/power-bi/admin/service-security-sensitivity-label-default-label-policy)에 대한 기본 레이블을 지정합니다. 네 가지 유형의 항목 모두 또는 다른 레이블에 대해 동일한 레이블을 지정할 수 있습니다. 문서에 대한 기본 레이블을 지정하면 Azure Information Protection 통합 레이블 지정 클라이언트는 레이블이 지정되지 않은 기존 문서에도 이 레이블을 적용합니다. 사용자가 올바른 레이블이 아닌 경우 적용된 기본 민감도 레이블을 변경할 수 있습니다.
     
     > [!IMPORTANT]
     > [하위 레이블](#sublabels-grouping-labels)이 있는 경우 부모 레이블을 기본 레이블로 구성하지 않도록 주의해야 합니다.

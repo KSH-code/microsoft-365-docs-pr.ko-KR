@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint Online의 DLP(데이터 손실 방지)를 사용하여 테넌트 전체에서 중요한 데이터가 포함된 문서를 검색합니다.
-ms.openlocfilehash: 04bf2e97dd2b5530838aef9fcb4b4467270d2d9d
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: cd92fafe5a04de0339c0afb5f5b7cc2b4cc1772fc46dabe6477dd23aa981af23
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53905582"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
 

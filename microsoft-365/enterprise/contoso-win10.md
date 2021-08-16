@@ -1,9 +1,9 @@
 ---
 title: Contoso의 Windows 10 Enterprise 배포
-author: JoeDavies-MSFT
+author: kelleyvice-msft
 f1.keywords:
 - NOCSH
-ms.author: josephd
+ms.author: kvice
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 어떻게 Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
-ms.openlocfilehash: 1c7383c8d8813dfefa9b20d57bf489a840b47cb4cd3669aef89d302abb1af14d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1550940afb105c569800767b2e383c6e3322c5b6
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53855195"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354815"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Contoso의 Windows 10 Enterprise 배포
 

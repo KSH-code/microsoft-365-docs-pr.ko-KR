@@ -1,9 +1,9 @@
 ---
 title: Contoso의 모바일 장치 관리
-author: JoeDavies-MSFT
+author: kelleyvice-msft
 f1.keywords:
 - NOCSH
-ms.author: josephd
+ms.author: kvice
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 Microsoft Intune Microsoft 365 사용하여 장치 및 장치에서 실행되는 앱을 관리하는 방법을 이해합니다.
-ms.openlocfilehash: f4d1982dbb889f1eefc50a8bf618f54e4867120d754d2ec94f7dc62be855c921
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7c7a3a40867e15059c527edb0069ff639d68ae7c
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835265"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354899"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Contoso의 모바일 장치 관리
 

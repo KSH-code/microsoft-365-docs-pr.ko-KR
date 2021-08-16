@@ -1,7 +1,7 @@
 ---
 title: 고가용성 페더타 인증 3단계 AD FS 서버 구성
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 11/25/2019
 audience: ITPro
@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
 description: 2016년 6월 1일부로 전송되는 2013의 고가용성 페더전 인증을 위한 AD FS 서버를 만들고 Microsoft 365 Microsoft Azure.
-ms.openlocfilehash: 23297f9ee38dcc1753f004aa225ee8eb32438c2eff08418aedfa9b5362c90c7f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 83e8dd5f97017f19e709dd5a65a89275e7be12b3
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870703"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354479"
 ---
 # <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a>고가용성 페더레이션 인증 3단계: AD FS 서버 구성
 
