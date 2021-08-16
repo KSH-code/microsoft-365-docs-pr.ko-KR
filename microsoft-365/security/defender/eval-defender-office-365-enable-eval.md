@@ -1,7 +1,6 @@
 ---
-title: 프로덕션 환경에서 Microsoft Defender의 평가 환경을 사용하도록 Office 365 평가, 정품 인증을 활성화합니다.
+title: 프로덕션 환경에서 Microsoft Defender용 평가 Office 365 사용하도록 설정
 description: 평가판 라이선스, MX 레코드 처리, 허용 도메인 및 인바운드 연결에 대한 & Microsoft Defender 평가판을 활성화하는 단계
-keywords: Microsoft 365 Defender 평가, Microsoft 365 Defender 평가, Microsoft 365 Defender Microsoft 365 Defender 평가 랩, Microsoft 365 Defender 파일럿, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: how-to
 ms.technology: m365d
-ms.openlocfilehash: eebf6b6a07ed051a59ce9563497be25367ad3878
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 3a771c463c5f41aa9c74a8fb318b248f92bfb0ca159e84714c53ff43d378dc5f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53544520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53863093"
 ---
 # <a name="enable-the-evaluation-environment"></a>평가 환경 사용
 

@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 5382dc07-aaa5-45c9-8767-502333b214ce
 description: Microsoft Bookings에서 Microsoft Bookings에 액세스하는 방법을 Microsoft 365.
-ms.openlocfilehash: 7b1582a480ac4fdcd5a131febcc59450aa13e299
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bcd7581a456ec570bacae64ca5bd1b96c23eddf95b0aa110530f156d3db6e9a4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913769"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861894"
 ---
 # <a name="turn-microsoft-bookings-on-or-off"></a>Microsoft Bookings 설정 또는 해제
 
@@ -23,9 +23,9 @@ ms.locfileid: "50913769"
 > [!NOTE]
 > 이 섹션에 설명된 관리 컨트롤은 21Vianet(중국) Office 365 운영하는 고객은 사용할 수 없습니다.
 
-## <a name="turn-bookings-on-or-off-for-your-organization-using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용하여 조직의 Bookings 설정 또는 Microsoft 365 켜기
+## <a name="turn-bookings-on-or-off-for-your-organization-using-the-microsoft-365-admin-center"></a>조직에서 조직에 대해 Bookings를 설정하거나 해제합니다Microsoft 365 관리 센터
 
-1. 전역 관리자로 Microsoft 365 센터에 로그인합니다.
+1. 전역 관리자로 Microsoft 365 관리 센터 로그인합니다.
 
 2. 관리 센터에서 설정  ****   \> **또는 설정** **예약을 선택합니다.**
 
@@ -34,7 +34,7 @@ ms.locfileid: "50913769"
    > [!NOTE]
    > Bookings를 해제하면 Bookings 페이지 만들기 및 관리를 포함하여 서비스에 대한 모든 액세스가 비활성화됩니다.
 
-4. 변경 **내용 저장을 선택합니다.**
+4. **변경 사항 저장** 을 선택합니다.
 
 ## <a name="turn-bookings-on-or-off-for-your-organization-using-powershell"></a>PowerShell을 사용하여 조직의 Bookings 설정 또는 해제
 
@@ -48,7 +48,7 @@ PowerShell cmdlet [Set-OrganizationConfig를](/powershell/module/exchange/set-or
 
 개별 사용자에 대해 Bookings를 사용하지 않도록 설정할 수 있습니다.
 
-1. Microsoft 365 관리 센터로 이동한 다음 사용자 활성 **사용자를** \> **선택합니다.**
+1. 이동하여 Microsoft 365 관리 센터 활성 사용자를  \> **선택합니다.**
 
 1. 원하는 사용자를 선택한 다음 라이선스 및 **앱을 선택합니다.**
 
@@ -56,17 +56,17 @@ PowerShell cmdlet [Set-OrganizationConfig를](/powershell/module/exchange/set-or
 
 ## <a name="require-staff-approvals-before-sharing-freebusy-information"></a>사용 중/바우트 정보를 공유하기 전에 직원 승인 필요
 
-관리자는 Bookings를 통해 가용성 정보를 공유하기 전에 또는 예약 페이지를 통해 예약할 수 있도록 조직의 직원이 옵트인(opt in)을 요구할 수 있습니다. 이 설정은 Microsoft 365 관리 센터의 설정  \> **설정** \> **있습니다.**
+관리자는 Bookings를 통해 가용성 정보를 공유하기 전에 또는 예약 페이지를 통해 예약할 수 있도록 조직의 직원이 옵트인(opt in)을 요구할 수 있습니다. 이 설정은 예약 Microsoft 365 관리 센터 **설정** \> **설정** \> **있습니다.**
 
 이 설정을 사용하도록 설정하면 예약 일정에서 직원으로 추가된 직원은 받은 전자 메일 알림에서 승인/거부 링크를 찾을 수 있습니다.
 
-이 기능은 전 세계 고객에게 점진적으로 Microsoft 365 합니다. if you don't see this option in the Microsoft 365 admin center, check back soon.
+이 기능은 전 세계 고객에게 점진적으로 Microsoft 365 합니다. If you don't see this option in the Microsoft 365 관리 센터, check back soon.
 
 ## <a name="block-social-sharing-options"></a>공유 공유 옵션 차단
 
-관리자는 소셜 네트워크에서 예약 페이지가 공유되는 방법을 제어할 수 있습니다. 이 설정은 Microsoft 365 관리 센터의 설정  \> **설정** \> **있습니다.**
+관리자는 소셜 네트워크에서 예약 페이지가 공유되는 방법을 제어할 수 있습니다. 이 설정은 예약 Microsoft 365 관리 센터 **설정** \> **설정** \> **있습니다.**
 
-이 기능은 전 세계 고객에게 점진적으로 Microsoft 365 합니다. if you don't see this option in the Microsoft 365 admin center, check back soon.
+이 기능은 전 세계 고객에게 점진적으로 Microsoft 365 합니다. If you don't see this option in the Microsoft 365 관리 센터, check back soon.
 
 ## <a name="allow-only-selected-users-to-create-bookings-calendars"></a>선택한 사용자만 Bookings 일정을 만들 수 있도록 허용
 
@@ -105,6 +105,6 @@ PowerShell을 사용하여 다음 명령을 Exchange Online 합니다. cmdlet을
 
 OWA 사서함 정책에 대한 자세한 내용은 다음 항목을 참조하세요.
 
-- [웹 Outlook 정책에 대한 웹 사서함 Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy)
+- [사서함 웹용 Outlook 사서함 정책 Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy)
 
-- [사서함의 Outlook 웹 사서함 정책에 대한 정책 적용 또는 Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy)
+- [사서함의 웹용 Outlook 사서함 정책 적용 또는 Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy)

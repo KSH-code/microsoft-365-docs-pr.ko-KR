@@ -1,7 +1,6 @@
 ---
 title: 사용자에 대해 평가 환경을 Microsoft Cloud App Security
 description: Microsoft Defender에서 MICROSOFT Defender의 아키텍처를 Office 365 제품 간의 상호 작용을 Microsoft 365 Defender 이해합니다.
-keywords: Microsoft 365 Defender 평가, Microsoft 365 Defender 평가, Microsoft 365 Defender Microsoft 365 Defender 평가 랩, Microsoft 365 Defender 파일럿, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 6ada9613f852e085158b7002cbbb9a9928d36d58
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 761a8fcb3c6f7efe82c542001dac1f62eb365f1473268df0866bb5dfae0ed302
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53863195"
 ---
 # <a name="enable-the-evaluation-environment-for-microsoft-cloud-app-security"></a>사용자에 대해 평가 환경을 Microsoft Cloud App Security
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 MS.technology: mde
-ms.openlocfilehash: afe1b37d80a074c0011a3d1ea58c3b15fab96ef6d4f1701f11bd1ab73dc06979
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 553f9502803bb10fbc6d22a60c2b1d35d877380f
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53810705"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58257251"
 ---
 # <a name="configure-your-event-hub"></a>이벤트 허브 구성
 
@@ -73,7 +73,7 @@ ms.locfileid: "53810705"
 1. 이벤트 허브 네임스페이스 만들기:
 
     이벤트 **허브 \>** 추가로 이동하여 예상되는 부하에 적합한 가격 계층, 처리 장치 및 자동 고가용성(표준 가격 책정 및 기능 필요)을 선택합니다.  
-    자세한 내용은 [가격 책정 - \| ](https://azure.microsoft.com/en-us/pricing/details/event-hubs/) 이벤트 허브 Microsoft Azure
+    자세한 내용은 [가격 책정 - \| ](https://azure.microsoft.com/pricing/details/event-hubs/) 이벤트 허브 Microsoft Azure
 
     >[!NOTE]
     > 기존 이벤트 허브를 사용할 수 있지만, 해당 네임스페이스에 이벤트 허브를 두는 것이 좋습니다.

@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 35db4a7728fff40e6bf81b2c7992db229048964f60fc1ed2db829cf2c86b0749
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d3e8e68f8bdb8f2fa6f539605d2603a57e22c624
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835898"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58257507"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>정보 통신 규정 준수에 대해 Microsoft 365
 
@@ -47,6 +47,8 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 - [보다 나은 Microsoft Teams - 커뮤니케이션 규정 준수의 최신 네이티브 Teams 통합 기능에 대해 자세히 알아보기](https://www.youtube.com/watch?v=m4jukD5Fh-o)
 
 통신 규정 준수에 대한 간략한 개요는 Microsoft Mechanics 채널의 Microsoft 365 비디오에서 직장 괴롭음 감지 및 통신 규정 준수로 [응답을 참조하세요.](https://www.youtube.com/user/OfficeGarageSeries) [](https://youtu.be/z33ji7a7Zho)
+
+[TD Securities가](https://customers.microsoft.com/story/1391545301764211731-td-securities-banking-capital-markets-compliance) 통신 규정 준수를 사용하여 규정 의무를 해결하고 보안 및 안정성 요구 사항을 충족하는 방법을 확인해 하세요.
 
 ## <a name="scenarios-for-communication-compliance"></a>커뮤니케이션 규정 준수 시나리오
 
@@ -150,7 +152,7 @@ Microsoft 365 규정 준수 센터에서 다음의 정책 템플릿 중에서 �
 - **사용자 활동** 기록 검토: 정책 일치에 대한 사용자 메시지 활동 및 수정 작업 기록(예: 지난 알림 및 에스컬레이터)을 볼 수 있습니다.
 - **필터:** 보낸 사람, 받는 사람, 날짜 및 제목과 같은 필터를 사용하여 검토할 메시지 경고의 범위를 빠르게 좁힐 수 있습니다.
 
-### <a name="remediate"></a>수정하기
+### <a name="remediate"></a>수정
 
 다음 단계는 다음 옵션을 사용하여 조사한 통신 준수 문제를 수정하는 것입니다.
 

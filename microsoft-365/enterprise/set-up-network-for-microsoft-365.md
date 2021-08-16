@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: 네트워크 연결 개요 및 끝점 목록을 포함하여 Microsoft 365 대한 네트워크를 설정하는 데 도움이 되는 정보가 있는 문서의 링크를 찾아야 합니다.
-ms.openlocfilehash: f0e0499c70745d31399240372c190758285408aa
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2feed0b600a107158b2ae32734169ae9d68294228d7eb449170dfe8a92511def
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692346"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904434"
 ---
 # <a name="set-up-your-network-for-microsoft-365"></a>사용자에 대한 네트워크 Microsoft 365
 

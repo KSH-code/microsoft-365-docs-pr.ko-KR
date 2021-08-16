@@ -14,13 +14,13 @@ ms.reviewer: pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 05/13/2021
-ms.openlocfilehash: d31f60c05e8b07f3230bddf242f58fe1f38595942c9e6d4ea9722c828f319f0c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.date: 08/05/2021
+ms.openlocfilehash: 85e3eea9eb2b19bde7516c91409e73e0747a0523
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53845167"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58257583"
 ---
 # <a name="microsoft-defender-antivirus-on-windows-server"></a>Windows Server의 Microsoft Defender 바이러스 백신
 
@@ -51,7 +51,7 @@ Microsoft Defender 바이러스 백신 서버의 다음 버전/버전에서 사�
 4. [맬웨어 방지 보안 인텔리전스를 업데이트합니다.](#update-antimalware-security-intelligence)
 5. (필요한 경우) [샘플 제출](#submit-samples).
 6. (필요한 경우) [자동 제외를 구성합니다.](#configure-automatic-exclusions)
-7. (필요한 경우만 해당) [수동 Microsoft Defender 바이러스 백신 로 설정](#need-to-set-microsoft-defender-antivirus-to-passive-mode)
+7. (필요한 경우만 해당) Windows [수동 모드로 설정](#passive-mode-and-windows-server)
 
 ## <a name="enable-the-user-interface-on-windows-server"></a>서버의 사용자 인터페이스 Windows 사용
 
@@ -178,13 +178,17 @@ sc query Windefend
 
 Microsoft Defender 바이러스 백신 서버에서 제외 Windows [참조합니다.](configure-server-exclusions-microsoft-defender-antivirus.md) 
 
-## <a name="need-to-set-microsoft-defender-antivirus-to-passive-mode"></a>수동 모드로 Microsoft Defender 바이러스 백신 설정해야 하나요?
+## <a name="passive-mode-and-windows-server"></a>수동 모드 및 Windows 서버
 
 Windows Server에서 Microsoft가 아닌 바이러스 백신 제품을 기본 바이러스 백신 솔루션으로 사용하는 경우 Microsoft Defender 바이러스 백신 모드 또는 비활성화 모드로 설정해야 합니다.
 
-- Windows Server, 버전 1803 이상 또는 Windows Server 2019에서 수동 Microsoft Defender 바이러스 백신 설정할 수 있습니다.  
+- Windows Server, 버전 1803 이상 또는 Windows Server 2019에서 수동 Microsoft Defender 바이러스 백신 설정할 수 있습니다.  다음 섹션을 참조하세요.
+   
+   - [레지스트리 Microsoft Defender 바이러스 백신 수동 모드로 설정](#set-microsoft-defender-antivirus-to-passive-mode-using-a-registry-key)
+   - [역할 Microsoft Defender 바이러스 백신 제거 마법사를 사용하여 사용자 설정을 사용하지 않도록 설정](#disable-microsoft-defender-antivirus-using-the-remove-roles-and-features-wizard)
+   - [PowerShell을 Microsoft Defender 바이러스 백신 사용자 인터페이스 끄기](#turn-off-the-microsoft-defender-antivirus-user-interface-using-powershell) 
 
-- 이 Windows Server 2016 Microsoft가 Microsoft Defender 바이러스 백신 맬웨어 방지 제품과 함께 지원되지 않습니다. 이러한 경우 이 모드를 사용하지 않도록 Microsoft Defender 바이러스 백신 설정해야 합니다.
+- 이 Windows Server 2016 Microsoft가 Microsoft Defender 바이러스 백신 맬웨어 방지 제품과 함께 지원되지 않습니다. 이러한 경우 이 모드를 사용하지 않도록 Microsoft Defender 바이러스 백신 설정해야 합니다. 자세한 [내용은 2016년](#uninstalling-or-disabling-microsoft-defender-antivirus-on-windows-server-2016) 8월 1일의 Microsoft Defender 바이러스 백신 또는 Windows Server 2016
 
 ### <a name="set-microsoft-defender-antivirus-to-passive-mode-using-a-registry-key"></a>레지스트리 Microsoft Defender 바이러스 백신 수동 모드로 설정
 
@@ -212,24 +216,16 @@ GUI를 Microsoft Defender 바이러스 백신 다음 PowerShell cmdlet을 사용
 Uninstall-WindowsFeature -Name Windows-Defender-GUI
 ```
 
-### <a name="are-you-using-windows-server-2016"></a>사용 중이 Windows Server 2016?
+### <a name="uninstalling-or-disabling-microsoft-defender-antivirus-on-windows-server-2016"></a>2016에서 Microsoft Defender 바이러스 백신 또는 Windows Server 2016
 
-Microsoft에서 Windows Server 2016 개발하지 않은 타사 맬웨어 방지/바이러스 백신 제품 및 맬웨어 방지/바이러스 백신 제품을 사용하는 경우 해당 제품을 사용하지 않도록 설정/제거해야 Microsoft Defender 바이러스 백신. 
+Microsoft가 아닌 Windows Server 2016 맬웨어 방지/바이러스 백신 제품을 사용하는 경우 해당 제품을 사용하지 않도록 설정하거나 제거해야 Microsoft Defender 바이러스 백신. 다음 방법 중 하나를 사용할 수 있습니다.
 
-> [!NOTE]
-> 앱 앱을 Windows 보안 수 없지만 이러한 지침에 따라 인터페이스를 사용하지 않도록 설정할 수 있습니다.
-
-다음 PowerShell cmdlet은 Microsoft Defender 바이러스 백신 제거 Windows Server 2016.
-
-```PowerShell
-Uninstall-WindowsFeature -Name Windows-Defender
-```
-
-이 Microsoft Defender 바이러스 백신 사용하지 Windows Server 2016 다음 PowerShell cmdlet을 사용 합니다.
-
-```PowerShell
-Set-MpPreference -DisableRealtimeMonitoring $true
-```
+| 절차  | 설명  |
+|---------|---------|
+| 그룹 Microsoft Defender 바이러스 백신 사용하지 않도록 설정     | 로컬 그룹 정책 편집기에서 Windows Defender **로** 이동한 다음 끄기를 **Windows Defender 바이러스 백신.**        |
+| 레지스트리 Microsoft Defender 바이러스 백신 사용하지 않도록 설정     | [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 레지스트리 키를 사용 하 고 로 이동 하 고 라는 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` DWORD 항목을 설정 또는 만들 수 `DisableAntiSpyware` 있습니다. 해당 값을 로 설정하여 레지스트리 키의 값을 `1` *true로 설정합니다.*         |
+| PowerShell을 Microsoft Defender 바이러스 백신 사용하지 않도록 설정 | 다음 PowerShell cmdlet을 사용 합니다. `Set-MpPreference -DisableRealtimeMonitoring $true` |
+| PowerShell을 Microsoft Defender 바이러스 백신 제거 | 다음 PowerShell cmdlet을 사용 합니다. `Uninstall-WindowsFeature -Name Windows-Defender` |
 
 ## <a name="see-also"></a>참고 항목
 

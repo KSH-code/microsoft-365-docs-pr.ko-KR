@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 원격 통신 데이터를 원격 통신 데이터로 가져오고 보관할 수 있는 TeleMessage 커넥터를 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 93126418a9cd636307d90dbe59d62e111a9d521af6415d74646a27766f1d7938
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a4f1e5232883602cd8102793b4fbfaa6439b60bb
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796412"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58257526"
 ---
 # <a name="set-up-a-connector-to-archive-telegram-communications-data"></a>원격 통신 데이터를 보관할 커넥터 설정
 

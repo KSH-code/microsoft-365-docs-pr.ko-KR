@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
 description: 검색 창의 콘텐츠 Microsoft 365 규정 준수 센터 사용하여 특정 사서함 또는 사이트 폴더의 항목을 검색하는 대상 컬렉션을 수행할 수 있습니다.
-ms.openlocfilehash: 60f0f51c713abf98109362fd57e3950d2ee17ce307b3c16b6483ada69385c2f1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b165e52835165980da3621634ef29247a87490fe
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891805"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58257346"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>대상 컬렉션에 콘텐츠 검색 사용
 
@@ -59,11 +59,11 @@ Microsoft 365 규정 준수 센터 콘텐츠 검색 도구는 UI에서 특정 �
 
 - **전자 메일 주소 또는** 사이트 URL: 서버의 전자 메일 주소를 입력하여 Exchange 폴더의 목록을 반환합니다. 또는 SharePoint 사이트 또는 비즈니스용 OneDrive 사이트의 URL을 입력하여 지정된 사이트의 경로 목록을 반환합니다. 다음은 몇 가지 예입니다.
 
-  - **Exchange**: stacig@contoso.onmicrosoft <spam> <spam> .com
+  - **Exchange**:`stacig@contoso.onmicrosoft.com`
 
-  - **SharePoint**: https <span>://</span>contoso.sharepoint.com/sites/marketing
+  - **SharePoint**:`https://contoso.sharepoint.com/sites/marketing`
 
-  - **비즈니스용 OneDrive**: https <span>://</span>contoso-my.sharepoint.com/personal/stacig_contoso_onmicrosoft_com
+  - **비즈니스용 OneDrive**:`https://contoso-my.sharepoint.com/personal/stacig_contoso_onmicrosoft_com`
 
 - **사용자 자격 증명:** 스크립트는 최신 인증을 사용하여 Exchange Online PowerShell 또는 보안 & PowerShell에 연결하는 데 자격 증명을 사용하게 됩니다. 앞서 설명한 것 처럼 이 스크립트를 성공적으로 실행하려면 적절한 사용 권한을 할당해야 합니다.
 

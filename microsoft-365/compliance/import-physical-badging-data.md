@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 데이터 커넥터를 설정하여 조직의 물리적 배지 시스템에서 데이터 원본으로 데이터를 가져올 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책에서 이 데이터를 사용하여 조직에 대한 내부 위협을 나타낼 수 있는 특정 사용자의 실제 건물 액세스를 검색할 수 있습니다.
-ms.openlocfilehash: a300107af1d3fe07f208f7e3f239f75a9cd6e5af
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 800614ef38e065027238d32bf877a059e2022378a1a86b2f33c6f11f3827de2a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53895443"
 ---
 # <a name="set-up-a-connector-to-import-physical-badging-data-preview"></a>물리적 배지 데이터를 가져오는 커넥터 설정(미리 보기)
 
-Microsoft 365 규정 준수 센터에서 데이터 커넥터를 설정하여 직원의 원시 물리적 액세스 이벤트 또는 조직의 배지 시스템에 의해 생성된 물리적 액세스 알람과 같은 물리적 배지 데이터를 가져올 수 있습니다. 실제 액세스 지점의 예로는 건물에 대한 항목이나 서버 방 또는 데이터 센터에 대한 항목이 있습니다. 조직의 내부자 위험 관리 솔루션에서 물리적 [배지](insider-risk-management.md) Microsoft 365 사용하여 조직 내부의 악의적인 활동이나 데이터 도용으로부터 조직을 보호할 수 있습니다.
+직원의 원시 물리적 액세스 Microsoft 365 규정 준수 센터 또는 조직의 배지 시스템에 의해 생성된 물리적 액세스 알람과 같은 물리적 배지 데이터를 가져오기 위해 데이터 커넥터를 설정할 수 있습니다. 실제 액세스 지점의 예로는 건물에 대한 항목이나 서버 방 또는 데이터 센터에 대한 항목이 있습니다. 조직의 내부자 위험 관리 솔루션에서 물리적 [배지](insider-risk-management.md) Microsoft 365 사용하여 조직 내부의 악의적인 활동이나 데이터 도용으로부터 조직을 보호할 수 있습니다.
 
 실제 배지 커넥터를 설정하는 작업은 다음과 같은 작업으로 구성됩니다.
 
@@ -31,7 +31,7 @@ Microsoft 365 규정 준수 센터에서 데이터 커넥터를 설정하여 직
 
 - 물리적 배지 데이터 커넥터로 정의된 Schema를 사용하여 JSON 페이로드 만들기
 
-- 준수 센터에서 물리적 배지 데이터 커넥터를 Microsoft 365.
+- 배지 데이터 커넥터를 만드는 Microsoft 365 규정 준수 센터.
 
 - 실제 배지 데이터를 API 끝점에 푸시하기 위해 스크립트를 실행합니다.
 
@@ -132,7 +132,7 @@ JSON 파일은 커넥터에 필요한 Schema 정의를 준수해야 합니다. J
 
 ## <a name="step-3-create-the-physical-badging-connector"></a>3단계: 물리적 배지 커넥터 만들기
 
-다음 단계는 준수 센터에서 물리적 배지 커넥터를 Microsoft 365 것입니다. 4단계에서 스크립트를 실행하면 3단계에서 만든 JSON 파일이 처리 및 1단계에서 구성한 API 끝점으로 푸시됩니다. 이 단계에서는 커넥터를 만들 때 생성된 JobId를 복사해야 합니다. 스크립트를 실행할 때 JobId를 사용하게 됩니다.
+다음 단계는 웹 에지에서 실제 배지 커넥터를 Microsoft 365 규정 준수 센터. 4단계에서 스크립트를 실행하면 3단계에서 만든 JSON 파일이 처리 및 1단계에서 구성한 API 끝점으로 푸시됩니다. 이 단계에서는 커넥터를 만들 때 생성된 JobId를 복사해야 합니다. 스크립트를 실행할 때 JobId를 사용하게 됩니다.
 
 1. 으로 이동한 다음 왼쪽 <https://compliance.microsoft.com> **네비게이트에서 데이터** 커넥터를 클릭합니다.
 
@@ -213,7 +213,7 @@ JSON 파일은 커넥터에 필요한 Schema 정의를 준수해야 합니다. J
 
 ## <a name="step-5-monitor-the-physical-badging-connector"></a>5단계: 실제 배지 커넥터 모니터링
 
-물리적 배지 커넥터를 만들고 물리적 배지 데이터를 푸시한 후 준수 센터에서 커넥터를 보고 Microsoft 365 수 있습니다. 스크립트가 정기적으로 자동으로 실행될 수 있는 경우 스크립트가 마지막으로 실행된 후 현재 상태를 볼 수도 있습니다.
+실제 배지 커넥터를 만들고 실제 배지 데이터를 푸시한 후 커넥터를 보고 해당 커넥터의 업로드 상태를 Microsoft 365 규정 준수 센터. 스크립트가 정기적으로 자동으로 실행될 수 있는 경우 스크립트가 마지막으로 실행된 후 현재 상태를 볼 수도 있습니다.
 
 1. 으로 <https://compliance.microsoft.com> 이동하여 왼쪽 **nav에서 데이터** 커넥터를 클릭합니다.
 

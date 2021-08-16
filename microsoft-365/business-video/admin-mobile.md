@@ -19,23 +19,23 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 휴대폰에 관리자 모바일 Microsoft 365 설치하는 방법을 배워야 합니다.
-ms.openlocfilehash: 0367123e9bd74ab79c17b38eb49cc31fc6fba8e4
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 휴대폰에 Microsoft 365 관리 앱을 설치하는 방법을 배워야 합니다.
+ms.openlocfilehash: 591a5440d3257afad9728b75013737daebad73694322774db19e8eacb0700abb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580705"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861870"
 ---
-# <a name="install-the-microsoft-365-admin-mobile-app-on-your-phone"></a>휴대폰에 Microsoft 365 관리 모바일 앱 설치
+# <a name="install-the-microsoft-365-admin-mobile-app-on-your-phone"></a>휴대폰에 Microsoft 365 관리 앱 설치
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWe8Kw?autoplay=false]
 
-관리자 모바일 Microsoft 365 사용하여 사용자를 관리하고, 서비스 상태 모니터링하고, 휴대폰에서 다른 관리 작업을 수행할 수 있습니다.
+모바일 Microsoft 365 관리 사용하여 사용자를 관리하고, 서비스 상태 모니터링하고, 휴대폰에서 다른 관리 작업을 수행할 수 있습니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. 관리자 Microsoft 365 앱을 다운로드하려면 디바이스의 Microsoft 365 **스토어에서** 관리자를 검색하여 설치합니다.
+1. 모바일 Microsoft 365 관리 다운로드하려면 디바이스의 Microsoft 365 관리  스토어에서 앱을 검색하여 설치합니다.
 2. 전역 관리자 전자 메일 주소로 로그인하고 대시보드를 확인하여 서비스 상태, 사용자 라이선스 모니터링 및 메시지 및 서비스 요청을 볼 수 있습니다.
 3. 다음은 앱에서 수행할 수 있는 몇 가지 일반적인 작업입니다.
 

@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: e033142567c0eb33987cae6d840abf5f6422365e
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: 553e27bf4f3d3b34749bb0b45375ee646e7c28ed20f5f3f0751626752b07b0d2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430603"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53879674"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>내부자 위험 관리에 대해 Microsoft 365
 
@@ -110,7 +110,7 @@ Microsoft 365의 내부자 위험 관리를 통해 내부 위험 활동 및 규�
 
 ![내부자 위험 관리 평가](../media/insider-risk-triage.png)
 
-### <a name="investigate"></a>조사
+### <a name="investigate"></a>조사하기
 
 사용자 활동 보고서(미리 보기)를 통해 선택한 사용자의 모든 활동을 [빠르게 조사합니다.](insider-risk-management-activities.md#user-activity-reports-preview) 이러한 보고서를 통해 조직의 조사자는 내부자 위험 관리 정책에 일시적으로 또는 명시적으로 할당하지 않고도 정의된 기간 동안 특정 사용자에 대한 활동을 검사할 수 있습니다. 사용자에 대한 활동을 검사한 후 조사자는 개별 활동을 양성으로 해지하거나, 다른 조사자들과 보고서 링크를 공유하거나 전자 메일을 보내거나, 사용자를 내부자 위험 관리 정책에 일시적으로 또는 명시적으로 할당하도록 선택할 수 있습니다.
 

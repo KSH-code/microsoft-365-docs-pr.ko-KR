@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: cc13c14f2e85dd2f217001be24a6b94a0d8426ea03dc09129200afd94700314c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d4ae05517583a8368ba7936a942e5ec06a9414f7
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53890626"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58257327"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>장치 검색에 자주 묻는 질문
 
@@ -74,7 +74,7 @@ ms.locfileid: "53890626"
  장치 검색에서는 수동 방법을 사용하여 네트워크에서 장치를 검색할 때 회사 네트워크의 온보드 장치와 통신하는 모든 장치를 검색하여 인벤토리에 나열할 수 있습니다. 장치를 활성 프로비전에서만 제외할 수 있습니다.
 
 ## <a name="how-frequent-is-the-active-probing"></a>활성 프로비전은 얼마나 자주 하나요?
- 장치 특성의 변경이 관찰될 때(1~3주마다) 기존 정보가 최신 상태인지 확인하려면 디바이스가 적극적으로 프로브됩니다.
+ 기존 정보가 최신 상태(일반적으로 3주 동안 한 번 프로브되지는 않는다)를 확인하여 장치 특성의 변경이 관찰될 때 장치가 적극적으로 프로브됩니다.
 
 ## <a name="my-security-tool-raised-alert-on-unicastscannerps1-or-port-scanning-activity-initiated-by-it-what-should-i-do"></a>보안 도구에서 시작된 UnicastScanner.ps1 포트 검색 활동에 대해 경고가 발생했습니다. 어떻게 해야 합니까?
  활성 프로비전 스크립트는 Microsoft에서 서명하며 안전합니다. 제외 목록에 다음 경로를 추가할 수 있습니다. `C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\*.ps`
@@ -93,3 +93,26 @@ ms.locfileid: "53890626"
 
 ## <a name="ive-noticed-that-unmanaged-device-health-state-is-always-active-why-is-that"></a>관리되지 않는 장치 상태는 항상 "활성"입니다. 그 이유는 무엇입니까?
 일시적으로 관리되지 않는 장치 상태는 실제 상태와 관계없이 장치 인벤토리의 표준 보존 기간 동안 "활성"입니다.
+
+
+## <a name="does-standard-discovery-look-like-malicious-network-activity"></a>표준 검색은 악성 네트워크 활동처럼 보이나요?
+표준 검색을 고려할 때 프로비전의 의미와 특히 보안 도구에서 이러한 활동이 악의적인 것으로 의심할 수 있는지 궁금할 수 있습니다. 다음 하위 섹션에서는 거의 모든 경우에 조직에서 표준 검색 사용에 대해 걱정할 것이 없는 이유를 설명합니다.  
+
+### <a name="probing-is-distributed-across-all-windows-devices-on-the-network"></a>Probing은 네트워크의 모든 Windows 디바이스에 배포됩니다.
+일반적으로 소수의 손상된 장치에서 전체 네트워크를 검색하는 악의적인 활동과는 반대로, 끝점의 Standard 검색 프로비전에 대한 Microsoft Defender는 온보딩된 모든 Windows 장치에서 시작되어 활동이 양성 및 변이적이지 않습니다. 프로비전은 네트워크에서 지원되는 모든 온보드 장치 간의 프로비전 시도의 균형을 조정하기 위해 클라우드에서 중앙에서 관리됩니다.  
+
+### <a name="active-probing-generates-negligible-amount-of-extra-traffic"></a>활성 프로비전은 무시할 수 있는 양의 추가 트래픽을 생성합니다.
+관리되지 않는 장치는 일반적으로 3주 동안 한 번만 프로브가 생성되고 50KB 미만의 트래픽이 생성됩니다. 악의적인 활동은 일반적으로 반복적인 높은 차단 시도와 경우에 따라 네트워크 모니터링 도구로 변칙을 식별할 수 있는 상당한 양의 네트워크 트래픽을 생성하는 데이터 유출을 포함합니다. 
+
+### <a name="your-windows-device-already-runs-active-discovery"></a>사용자 Windows 이미 활성 검색을 실행하고 있습니다.
+네트워크의 끝점 간에 보다 쉬운 "플러그 앤 플레이" 환경과 파일 공유를 위해 Windows 장치, 끝점 및 프린터를 찾기 위해 활성 검색 기능이 Windows 운영 체제에 포함되어 있습니다. 모바일 장치, 네트워크 장비 및 인벤토리 응용 프로그램에서는 몇 가지 이름을 지정하기 위해 유사한 기능이 구현됩니다.  
+
+표준 검색에서는 동일한 검색 방법을 사용하여 디바이스를 식별하고 네트워크의 모든 디바이스에 대한 통합된 Microsoft 365 Defender 있습니다. 예를 들어 표준 검색은 네트워크에서 사용 가능한 프린터를 나열하는 Windows 네트워크의 가까운 끝점을 식별합니다. 
+
+네트워크 보안 및 모니터링 도구는 네트워크의 장치에서 수행한 활동과는 관대합니다. 
+
+### <a name="only-unmanaged-devices-are-being-probed"></a>관리되지 않는 장치만 프로브되고 있습니다.
+장치 검색 기능은 네트워크에서 관리되지 않는 장치만 검색하고 식별하기 위해 구축되었습니다. 즉, 끝점용 Microsoft Defender로 이미 온보딩된 이전에 검색된 디바이스는 프로브되지 않습니다. 
+
+### <a name="you-can-exclude-network-lures-from-active-probing"></a>활성 프로비전에서 네트워크 Lures를 제외할 수 있습니다.
+표준 검색은 활성 프로비전에서 장치 또는 범위(서브넷)를 제외할 수 있습니다. 네트워크 Lures가 배포된 경우 장치 검색 설정을 사용하여 IP 주소 또는 서브넷(IP 주소 범위)에 따라 제외를 정의할 수 있습니다. 이러한 제외를 정의하면 이러한 디바이스가 적극적으로 프로브되지 않도록 하여 경고가 표시되지 않습니다. 이러한 디바이스는 수동 메서드만 사용하여 검색됩니다(기본 검색 모드와 유사).
