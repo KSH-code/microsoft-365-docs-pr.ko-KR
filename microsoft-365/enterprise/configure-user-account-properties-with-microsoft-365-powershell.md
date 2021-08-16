@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 Microsoft 365 사용자 계정 속성 구성
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
 description: PowerShell을 사용하여 Microsoft 365 테넌트에서 개별 또는 여러 사용자 계정의 속성을 Microsoft 365 있습니다.
-ms.openlocfilehash: 2bed1d15c54b1f025cf4173d8e6a0b1be2757054587a306bc7c31187c2b89962
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 23d89448eb9f34d67ada8711b8ca6463a0f6acd7
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53850138"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356627"
 ---
 # <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 속성 구성
 

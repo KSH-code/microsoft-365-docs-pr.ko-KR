@@ -2,8 +2,8 @@
 title: Microsoft 365 테스트 환경을 위한 암호 해시 동기화
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 05/26/2020
 audience: ITPro
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 로그인을 구성하고 보여 줍니다.'
-ms.openlocfilehash: d6fdeb6391d452aee310ae9f2eecfec0e177ae4fdd76b71dcbe7a987144067dc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a71c7046967d796d59d3ba9ae5ff42d1e0d6bcf9
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53840932"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58355943"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 해시 동기화
 

@@ -1,7 +1,7 @@
 ---
 title: 서비스 Microsoft 365 Enterprise 응용 프로그램 구성
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -19,18 +19,18 @@ f1.keywords:
 - NOCSH
 description: 'Microsoft 365 Enterprise 서비스 및 응용 프로그램(예: SharePoint, Exchange 및 응용 프로그램을 비즈니스용 Skype.'
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a36330f86d30bcfde30762eb8fb5d38fe84d71744c4f0e90bf28c079a50a358a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f1253f5d36621c252a0fd37b35a73cdf6269ebd5
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830314"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356555"
 ---
 # <a name="configure-microsoft-365-enterprise-services-and-applications"></a>서비스 Microsoft 365 Enterprise 응용 프로그램 구성
 
 기본 [설정 지침은](../admin/setup/setup.md) 가능한 한 짧은 Microsoft 365 서비스 및 응용 프로그램을 사용하는 모든 사람을 안내합니다. 경우에 따라 모든 사용자가 사용을 시작하기 전에 구성하는 것이 좋은 경우도 있습니다. 예를 들어 메일 라우팅, 파일 저장소 또는 공유 정책을 구성하려는 경우를 예로 들 수 있습니다. 
   
-설치하는 데 도움이 필요한 Microsoft 365 **[FastTrack](https://www.microsoft.com/fasttrack/microsoft-365)** 또는 설치 가이드를 사용하여 Microsoft 365 Office 365 [합니다.](setup-guides-for-microsoft-365.md)
+설치를 완료하는 Microsoft 365 도움이 필요하면 FastTrack **[](https://www.microsoft.com/fasttrack/microsoft-365)** 및 서비스 에 대한 설치 [Microsoft 365 Office 365 합니다.](setup-guides-for-microsoft-365.md)
   
 |**서비스 및 응용 프로그램**|**리소스**|
 |:-----|:-----|

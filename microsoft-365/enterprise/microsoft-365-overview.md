@@ -2,8 +2,8 @@
 title: 엔터프라이즈용 Microsoft 365 개요
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 02/01/2021
 audience: ITPro
@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 6e6077427c642e30809b2da140eac00ea03737ca3b62cd498514b1ade4ec0caa
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 20a7858e50a72073170be317b654de33804a5cb4
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53899273"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58357020"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -33,7 +33,7 @@ ms.locfileid: "53899273"
 |서비스|설명|
 |---|---|
 |로컬 앱 및 클라우드 기반 및 생산성 서비스|사용자의 PC 및 Mac을 위한 최신 Office 앱(Word, Excel, PowerPoint, Outlook 등)인 엔터프라이즈용 Microsoft 365과 전자 메일, 파일 저장소 및 협업, 회의 등을 위한 완전한 온라인 제품군이 포함됩니다.|
-|Windows 10 Enterprise|대규모 기업이나 중소기업의 요구 사항을 충족합니다. Windows의 가장 생산적이고 안전한 버전입니다. IT 전문가를 위해 종합 배포, 장치 및 앱 관리도 제공합니다.|
+|Windows 10 Enterprise|대규모 및 중간 규모 조직의 요구 사항을 모두 충족합니다. 사용자를 위한 가장 생산적이고 안전한 Windows 버전입니다. IT 전문가를 위해 포괄적인 배포, 장치 및 앱 관리도 제공합니다.|
 |디바이스 관리 및 고급 보안 서비스|조직의 데이터를 보호하면서 작업 장소가 생산적인 곳이 될 수 있도록 도와주는 클라우드 기반 엔터프라이즈 이동성 관리 서비스인 Microsoft Intune이 포함됩니다.|
 |||
 

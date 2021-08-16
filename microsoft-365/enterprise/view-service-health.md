@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 서비스 상태를 확인하는 방법
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: 지원에 전화하기 전에 Microsoft 365 서비스의 상태를 확인하여 활성 서비스 중단이 있는지 확인하세요.
-ms.openlocfilehash: 075c573146f49d74e84d1a46508d8f9235877dc1
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: dc925a1ce1e61f2a67d258c12baabddf29dd880b
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255959"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356339"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Microsoft 365 서비스 상태를 확인하는 방법
 

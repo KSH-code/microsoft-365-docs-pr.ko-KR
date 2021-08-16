@@ -1,9 +1,9 @@
 ---
 title: Contoso용 엔터프라이즈용 Microsoft 365 앱 배포
-author: JoeDavies-MSFT
+author: kelleyvice-msft
 f1.keywords:
 - NOCSH
-ms.author: josephd
+ms.author: kvice
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱을 배포하는 방식을 이해합니다.
-ms.openlocfilehash: 858d83f02bc00874c639815ce4af6a491a0352764f9ddb7ab024d3d9fc37ebe7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 65c73ccccd3e0ca5a3d9e09d1643692d56f5c341
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53899511"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356291"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Contoso용 엔터프라이즈용 Microsoft 365 앱 배포
 

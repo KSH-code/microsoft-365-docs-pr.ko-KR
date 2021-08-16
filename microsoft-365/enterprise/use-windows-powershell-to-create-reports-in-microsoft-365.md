@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 사용하여 Microsoft 365 보고서 만들기
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 07/17/2020
 audience: ITPro
@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
 description: '요약: PowerShell을 사용하여 Microsoft 365 보고서에서 생성할 수 없는 보고서를 Microsoft 365 관리 센터.'
-ms.openlocfilehash: dba0e7eab3c2521193128b503fd11a00198e7abd199a0a3003ec19e1adf732fa
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9fe1b48bdb61d037a3b2bc49d017a16c3a6875cd
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894806"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356879"
 ---
 # <a name="use-powershell-to-create-reports-for-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365 보고서 만들기
 

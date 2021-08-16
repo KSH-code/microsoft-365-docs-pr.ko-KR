@@ -1,7 +1,7 @@
 ---
 title: 계획 Microsoft 365 Enterprise
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 08/12/2019
 audience: Admin
@@ -22,20 +22,20 @@ search.appverid:
 - BCS160
 ms.assetid: 712fced7-f9d0-4fde-8b79-286262a5d0bc
 description: 이 문서에서는 사용자 배포를 계획하기 위한 검사 목록 및 기타 Microsoft 365 Enterprise 제공합니다.
-ms.openlocfilehash: fb3a62dd1751c51530bec1927e101c0dc5fd35bcf05ce8d7ac62d9fa5809909b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e914d5ea5f145197e348fd88fe7cf2b287a883f8
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870722"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356735"
 ---
 # <a name="plan-for-microsoft-365-enterprise"></a>계획 Microsoft 365 Enterprise
 
 엔터프라이즈 조직을 Microsoft 365 계획을 세우고 IT 배포 및 사용자 채택을 간소화할 수 있는 주요 디자인 결정을 내리는 것이 중요합니다. 
 
-## <a name="planning-with-microsoft-365-fasttrack"></a>FastTrack을 Microsoft 365 계획
+## <a name="planning-with-microsoft-365-fasttrack"></a>2016년 Microsoft 365 FastTrack
 
-[FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) 배포 계획에 대한 Microsoft의 도움을 Microsoft 365 방법입니다. FastTrack은 가장 일반적인 디자인 고려 사항을 통해 도움을 줄 수 있으며 그에 따라 질문에 답변할 수 있습니다. 
+[FastTrack 배포를](https://www.microsoft.com/fasttrack/microsoft-365) Microsoft 365 Microsoft에서 도움을 구하는 가장 좋은 Microsoft 365 방법입니다. FastTrack 가장 일반적인 디자인 고려 사항을 설명하는 데 도움이 될 수 있으며 그에 따라 질문에 답변할 수 있습니다. 
 
 >[!Note]
 >Microsoft 파트너 에서 도움을 받을 [수 있습니다.](https://www.microsoft.com/solution-providers/home)

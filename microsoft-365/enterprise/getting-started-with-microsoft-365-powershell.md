@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365용 PowerShell 시작
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 07/17/2020
 audience: ITPro
@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 4712d6fd-d9c7-4ec2-88c1-3ad9201cbb7f
 description: '요약: Microsoft 365, Microsoft 365 테넌트에 연결되는 방법 및 도움말을 얻을 수 있는 위치를 이해합니다.'
-ms.openlocfilehash: 07d40ef94d72c3d12ff305d329c43d11859fd752b701c670282ce4fefe5cab08
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3f9bb352a198ba5491063ee4475611a49d21c31b
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801065"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356723"
 ---
 # <a name="get-started-with-powershell-for-microsoft-365"></a>Microsoft 365용 PowerShell 시작
 

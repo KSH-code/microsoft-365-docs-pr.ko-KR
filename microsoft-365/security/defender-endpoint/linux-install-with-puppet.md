@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7d6d077aa1e17bed75577a162c83d3d1105add4d2f6e7d7a91bf7000ad34b493
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 01bf69e04f11727eb42612de74c9b4a93fae8f31
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817873"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356147"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-puppet"></a>Puppet을 통해 Linux에서 끝점용 Microsoft Defender 배포
 
@@ -112,7 +112,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 > [!WARNING]
 > 초기 설치 후 채널을 전환하려면 제품을 다시 설치해야 합니다. 제품 채널을 전환하려면 기존 패키지를 제거하고 새 채널을 사용하도록 장치를 다시 구성하고 이 문서의 단계에 따라 새 위치에서 패키지를 설치합니다.
 
-배포 및 버전을 확인하고 에서 가장 가까운 항목을 `https://packages.microsoft.com/config/` 식별합니다.
+배포 및 버전을 확인하고 에서 가장 가까운 항목을 `https://packages.microsoft.com/[distro]/` 식별합니다.
 
 아래 명령에서 *[distro]* 및 *[version]을* 식별한 정보로 바 대체합니다.
 

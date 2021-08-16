@@ -2,8 +2,8 @@
 title: 클라이언트 및 서버 소프트웨어 로드맵을 Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 08/10/2020
 audience: ITPro
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 이 로드맵을 사용하여 설치를 위한 클라이언트 및 서버 소프트웨어를 Microsoft 365.
-ms.openlocfilehash: 6fe2a271c8a6837bdd2dcf98f3aa5ca45f880ddd560b72979fb3e9a5b666caa0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 66d6483df4d1bec1ea0c935f7a0b936f2e0fddcf
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865007"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356135"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>클라이언트 및 서버 소프트웨어 로드맵을 Microsoft 365
 
@@ -123,7 +123,7 @@ Office 2007 릴리스의 서버 제품을 Office 2010, Office 2013 또는 Office
 
 Office 2010 릴리스의 서버 제품을 Office 2013 또는 Office 2016용 릴리스의 서버 제품으로 업그레이드하는 대신 다음 단계를 수행해 보아야 합니다.
 
-1. 2010 서버의 데이터를 Office 2010 서버로 Microsoft 365. 자세한 내용은 [FastTrack for Microsoft 365](https://fasttrack.microsoft.com/microsoft365) 또는 Microsoft 파트너 고용을 참조하세요.
+1. 2010 서버의 데이터를 Office 2010 서버로 Microsoft 365. 자세한 내용은 Microsoft 파트너 [FastTrack Microsoft 365](https://fasttrack.microsoft.com/microsoft365) 정보를 참조하세요.
 2. 사용자에게 새 기능 및 작업 프로세스를 롤아웃합니다.
 3. 더 이상 2010 서버 제품을 실행하는 Office 필요 없는 경우 해당 서버를 해제합니다.
 
@@ -131,7 +131,7 @@ Office 2010 릴리스의 서버 제품을 Office 2013 또는 Office 2016용 릴�
 
 Office 2013 릴리스의 서버 제품의 경우 지원 종료가 결정되지 않습니다. Office 2013 릴리스의 서버 제품을 Office 2016 릴리스의 서버 제품으로 업그레이드하는 대신 다음 단계를 수행해 보아야 합니다.
 
-1. 2013 서버의 데이터를 Office 2013 서버로 Microsoft 365. 자세한 내용은 [FastTrack for Microsoft 365](https://fasttrack.microsoft.com/microsoft365) 또는 Microsoft 파트너 고용을 참조하세요.
+1. 2013 서버의 데이터를 Office 2013 서버로 Microsoft 365. 자세한 내용은 Microsoft 파트너 [FastTrack Microsoft 365](https://fasttrack.microsoft.com/microsoft365) 정보를 참조하세요.
 2. 사용자에게 새 기능 및 작업 프로세스를 롤아웃합니다.
 3. 2013 서버 제품을 실행하는 Office 더 이상 필요하지 않습니다.
 
@@ -139,7 +139,7 @@ Office 2013 릴리스의 서버 제품의 경우 지원 종료가 결정되지 �
 
 Office 2016 릴리스의 서버 제품의 경우 지원 종료가 결정되지 않습니다. 클라우드 기반 서비스 및 향상된 기능을 활용하여 비즈니스를 디지털 방식으로 변환하기 위해 다음 단계를 수행해 보아야 합니다.
 
-1. 2016 서버의 데이터를 Office 2016 서버로 Microsoft 365. 자세한 내용은 [FastTrack for Microsoft 365](https://fasttrack.microsoft.com/microsoft365) 또는 Microsoft 파트너 고용을 참조하세요.
+1. 2016 서버의 데이터를 Office 2016 서버로 Microsoft 365. 자세한 내용은 Microsoft 파트너 [FastTrack Microsoft 365](https://fasttrack.microsoft.com/microsoft365) 정보를 참조하세요.
 2. 사용자에게 새 기능 및 작업 프로세스를 롤아웃합니다.
 3. 2016 서버 제품을 실행하는 Office 더 이상 필요하지 않습니다.
 

@@ -3,7 +3,6 @@ title: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에�
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/01/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -19,22 +18,22 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: '
-ms.openlocfilehash: 959aee9662c843fa89851924c3f5e878d73a382b8ea19258eca2a332ff404169
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b7207a175a900b45e081e40e438495c0b0ed6874
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53899097"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356171"
 ---
 # <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 새 독일 데이터 센터 Office 365 서비스로의 새 마이그레이션에 옵트인(opt in)하는 방법
 
 > [!NOTE]
-> 이 문서는 독일 Microsoft 클라우드(독일 Microsoft 클라우드) 고객에게만 적용됩니다.
+> 마이그레이션 옵트인 기간은 2021년 6월 1일부로 마감됩니다.  이제 적격 Microsoft 클라우드 독일(독일 Microsoft 클라우드) 고객이 모두 마이그레이션되었습니다.  추가 고객은 자동화된 프로세스를 통해 마이그레이션되지 않습니다.  나머지 Microsoft 클라우드 독일 구독 및 테넌트는 서비스 폐쇄 활동의 일부로 2021년 9월에 비활성화 및 비활성화됩니다.  
 >
 
 ## <a name="how-to-request-migration"></a>마이그레이션을 요청하는 방법
 
-독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에 프로비전된 서비스를 제공하는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 Microsoft 365 관리 센터 페이지에서 마이그레이션을 옵트인(opt in)할 수 있습니다.
+Microsoft 클라우드 독일(도이치클란드 Microsoft 클라우드)에 프로비전된 서비스를 제공하는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 마이그레이션을 위해 옵트인(opt in)할 수 있는 Microsoft 365 관리 센터 페이지가 표시됩니다. Opt-In 페이지의 Microsoft 365 관리 센터 등록을 더 이상 허용하지 않습니다. 그러나 프로세스는 참조를 위해 아래에 간략하게 설명되어 있습니다.  
 
 페이지에 액세스하려면 왼쪽 **설정** 창에서 페이지를 확장한 다음 조직 프로필 **을 클릭합니다.**
 

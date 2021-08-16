@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 전용 ID
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 09/30/2020
 audience: Admin
@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Microsoft 365 구독에서 클라우드 전용 ID를 사용하는 경우 사용자 및 그룹을 만드는 방법에 대해 설명하는 문서입니다.
-ms.openlocfilehash: c12b3bea5523430c89c89f1e310308925a04c3c6fe6bd0a4b1a033dadd57501f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fa3bef4b25327b675f18b2ea0bb9dfea15b2a81a
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864990"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356099"
 ---
 # <a name="microsoft-365-cloud-only-identity"></a>Microsoft 365 전용 ID
 
@@ -41,7 +41,7 @@ ms.locfileid: "53864990"
  
 ![클라우드 전용 ID의 기본 구성 요소](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
-조직의 사용자 및 해당 사용자 계정은 여러 가지 방법으로 분류할 수 있습니다. 예를 들어 일부는 직원으로, 영구적 상태입니다. 일부는 임시 상태인 공급업체, 계약자 또는 파트너입니다. 사용자 계정이 없지만 상호 작용 및 공동 작업을 지원하기 위해 특정 서비스 및 리소스에 대한 액세스 권한을 부여받아야 하는 외부 사용자도 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+조직의 사용자 및 해당 사용자 계정은 여러 가지 방법으로 분류할 수 있습니다. 예를 들어 일부는 직원으로, 영구적 상태입니다. 일부는 임시 상태인 공급업체, 계약자 또는 파트너입니다. 사용자 계정이 없지만 상호 작용 및 공동 작업을 지원하기 위해 특정 서비스 및 리소스에 대한 액세스 권한을 부여받아야 하는 외부 사용자도 있습니다. 예시:
 
 - 테넌트 계정은 클라우드 서비스에 대한 라이선스를 부여한 조직 내부의 사용자를 나타냅니다.
 

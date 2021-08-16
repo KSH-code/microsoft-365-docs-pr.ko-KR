@@ -1,7 +1,7 @@
 ---
 title: '디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인) 준비'
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
 description: 라우팅할 수 없는 도메인을 사용자 테넌트와 동기화하기 전에 라우팅할 수 없는 도메인이 있는 경우 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 97e4a0b634b66a439d96496b3e742659b9d99496271fddd8db2ddf7c6ee7cee9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cecaee814d19f78b973ebd2f06c8d2c665d905de
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794863"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356915"
 ---
 # <a name="prepare-a-non-routable-domain-for-directory-synchronization"></a>디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인) 준비
 

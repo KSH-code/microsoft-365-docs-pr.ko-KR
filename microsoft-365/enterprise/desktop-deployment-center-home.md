@@ -2,8 +2,8 @@
 title: 데스크톱 배포 센터
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 08/10/2020
 audience: ITPro
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 사용 불가능한 데스크톱 배포 센터와 동등한 리소스에 액세스하는 방법
-ms.openlocfilehash: 4e71d80496ff700e9b662d7109383e04a8ef805045e1ac0085eb195b041b65fc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b74072593b3345c2c0ffef495b117af47f1f88a3
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53849862"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356783"
 ---
 # <a name="desktop-deployment-center-deprecated"></a>데스크톱 배포 센터(사용 불가능)
 
@@ -28,12 +28,12 @@ ms.locfileid: "53849862"
 
 - [Windows 10 배포](/windows/deployment/)
 - [Microsoft 365 앱 배포](/deployoffice/deployment-guide-microsoft-365-apps)
-- [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
+- [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
 - [ID 및 장치 액세스 정책](../security/office-365-security/microsoft-365-policies-configurations.md)
 
 [Microsoft Mechanics에서 데스크톱](https://www.aka.ms/watchhowtoshift)배포 시리즈 비디오를 볼 수도 있습니다.
 
-Microsoft 파트너 및 [FastTrack에서](https://www.microsoft.com/fasttrack/microsoft-365)데스크톱 배포에 대한 도움말을 찾을 수도 있습니다.
+Microsoft 파트너 및 에서 데스크톱 배포에 대한 도움말을 [FastTrack.](https://www.microsoft.com/fasttrack/microsoft-365)
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 

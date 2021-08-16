@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 정부 커뮤니티 클라우드(GCC) 테넌트의 Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 데이터에 연결하는 방법을 Power BI.
-ms.openlocfilehash: f11a174f83dcdc9b2afadd71133cce19a5e6f677
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: e831cae78c90eeafae38117b6939d506f37632f30e3bd456ca9242b9d81c402c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58253948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53907218"
 ---
 # <a name="connect-to-microsoft-365-government-community-cloud-gcc-data-with-usage-analytics"></a>커넥트 사용하여 Microsoft 365 정부 커뮤니티 클라우드(GCC) 데이터 관리
 

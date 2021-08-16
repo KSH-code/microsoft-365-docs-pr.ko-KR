@@ -1,7 +1,7 @@
 ---
 title: 조직의 Microsoft 365 Enterprise 배포
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 11/19/2019
 audience: ITPro
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94
 description: 이러한 개요 단계는 네트워크를 설정하고, ID를 만들고, 데이터를 Microsoft 365 앱 마이그레이션하는 데 도움이 하도록 디자인되어 있습니다.
-ms.openlocfilehash: ef984ba4e076ca6665dee6a75a456c2abc09c1a8cb1fb04933ab08a2a98c0d85
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ce19d135b46bb848aecb557610bc1ed1703fc686
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898926"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58355871"
 ---
 # <a name="deploy-microsoft-365-enterprise-for-your-organization"></a>조직의 Microsoft 365 Enterprise 배포
 
@@ -34,9 +34,9 @@ ms.locfileid: "53898926"
 
 이 문서에서는 도움말을 원하는지 아니면 직접 수행하고 있는지에 따라 두 가지 배포 옵션에 대해 설명합니다. 각 경우에 Microsoft는 배포 성공을 위해 따라야 하는 안내 경로를 제공합니다.
 
-## <a name="guided-microsoft-365-enterprise-setup-process-with-fasttrack"></a>FastTrack을 Microsoft 365 Enterprise 설치 프로세스 안내
+## <a name="guided-microsoft-365-enterprise-setup-process-with-fasttrack"></a>설치 Microsoft 365 Enterprise 지침이 FastTrack
 
-**[FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365)** 배포하는 가장 좋은 방법은 Microsoft 365. FastTrack은 가장 일반적인 배포 구성을 안내하고 단계별로 질문에 답변할 수 있습니다. 
+**[FastTrack 배포하는](https://www.microsoft.com/fasttrack/microsoft-365)** Microsoft 365 가장 좋은 방법은 Microsoft 365. FastTrack은 가장 일반적인 배포 구성을 안내하고 단계별로 질문에 답변할 수 있습니다. 
 
 일련의 설치 가이드에 액세스하려면 Microsoft 365 로그인한 다음 설치 지침으로 [이동하세요.](https://aka.ms/o365fasttrack)
 

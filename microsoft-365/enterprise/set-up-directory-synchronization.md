@@ -1,7 +1,7 @@
 ---
 title: 사용자에 대한 디렉터리 동기화 Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 09/30/2020
 audience: Admin
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 1b3b5318-6977-42ed-b5c7-96fa74b08846
 description: Microsoft 365 Active Directory 간에 디렉터리 동기화를 설정하는 방법을 알아보십시오.
-ms.openlocfilehash: 53a64b2fdf2ff16f024425f516a5752b7788fadcabec94da772ace32ed9cdc0e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: db6fc46eb4659b0c41f46b2828044af3bdaf02e2
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904458"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356195"
 ---
 # <a name="set-up-directory-synchronization-for-microsoft-365"></a>사용자에 대한 디렉터리 동기화 Microsoft 365
 
@@ -85,7 +85,7 @@ Azure AD Azure Active Directory 커넥트 하드웨어, [소프트웨어,](/azur
 - 어떤 인증 방법(PHS, PTA, 페더래드)
 - [Azure AD Seamless SSO(Single Sign-On)를](/azure/active-directory/hybrid/how-to-connect-sso) 사용할지 여부
 
-다음 단계를 따릅니다:
+다음 단계를 따르세요.
 
 1. Microsoft 365 관리 센터 [로그인하고](https://admin.microsoft.com) 왼쪽 탐색 창에서 https://admin.microsoft.com) **사용자** \> **활성** 사용자를 선택 합니다.
 2. 활성 **사용자 페이지에서** 더 **(세** 점) 디렉터리 동기화 \> **를 선택합니다.**

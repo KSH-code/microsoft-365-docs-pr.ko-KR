@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 및 Office 365 서비스용 설정 가이드
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: ITPro
 ms.topic: conceptual
@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: 테넌트 라이선스의 기능을 계획, 마이그레이션 및 구현하기 위한 단계별 도구를 얻습니다. 실행해야 하는 서비스 또는 앱을 설정하는 가이드를 찾아보세요.
-ms.openlocfilehash: 53356238bea6180b8929e2ee49f89aa159367f72
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 819a53d10f3793ec337828747ec7cf3bbae3aaea
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247490"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356459"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 

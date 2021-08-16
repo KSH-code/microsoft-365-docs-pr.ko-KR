@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 테넌트 간 공동 작업
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: overview
@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 테넌트 Microsoft 365 조직 전체에서 공동 작업의 작동 방식에 대해 알아보고, 여러 조직이 안전하게 공동 작업할 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36e16beb852b99a17f0252217cfd6f148dcf0a0a15feb9770adcc3d5b9d268b2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c2060ec93fdf80d4afc3f0aa8f693de6bb275454
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870548"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356639"
 ---
 # <a name="microsoft-365-inter-tenant-collaboration"></a>Microsoft 365 테넌트 간 공동 작업
 

@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 사용하여 암호 관리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 description: PowerShell을 사용하여 암호를 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: d3f5ebfb7f7171cd45cf5ad1749b7bbb807068f812ee2a37f78ead7f6e8660c6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 40091d7add7f7adf9c560a90c00ad22e6c333c60
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53858750"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356651"
 ---
 # <a name="manage-passwords-with-powershell"></a>PowerShell을 사용하여 암호 관리
 

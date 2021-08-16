@@ -1,7 +1,7 @@
 ---
 title: Mac용 Office의 네트워크 요청
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 11/9/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.custom:
 search.appverid: MOM160
 ms.assetid: afdae969-4046-44b9-9adb-f1bab216414b
 description: 이 문서에서는 응용 프로그램이 도달하려고 시도하는 끝점 Mac용 Office URL 및 제공된 서비스에 대해 설명합니다.
-ms.openlocfilehash: 48a2dd266e0ed9379651e62ad835f4d27a5228b726b5f0e6da03ed8a55e23606
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: abb744d4ee75b06e66ac6a9aa43c7fd18d8a452f
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53848486"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356087"
 ---
 # <a name="network-requests-in-office-for-mac"></a>Mac용 Office의 네트워크 요청
 
@@ -96,7 +96,7 @@ URL 형식은 다음과 같이 정의됩니다.
   
  **로그인**
   
-클라우드 기반 저장소에 로그인할 때 다음 네트워크 끝점에 연결됩니다. 계정 유형에 따라 다른 서비스에 문의할 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+클라우드 기반 저장소에 로그인할 때 다음 네트워크 끝점에 연결됩니다. 계정 유형에 따라 다른 서비스에 문의할 수 있습니다. 예시:
   
 - **MSA: Microsoft 계정** - 일반적으로 소비자 및 소매 시나리오에 사용됩니다. 
     

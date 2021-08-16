@@ -1,7 +1,7 @@
 ---
 title: Azure와 통합된 Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: overview
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: a5efce5d-9c9c-4190-b61b-fd273c1d425f
 description: 암호 Microsoft 365 Single Sign-On을 원하는 경우 Azure AD와 통합합니다.
-ms.openlocfilehash: 68ec6098d6873177d573e866e0361b3775be25df1b7751a77f5b589adf5503ac
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a4c6ad7346fc1c82968db024795ddf3f148a9053
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53878900"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356579"
 ---
 # <a name="azure-integration-with-microsoft-365"></a>Azure와 통합된 Microsoft 365
 

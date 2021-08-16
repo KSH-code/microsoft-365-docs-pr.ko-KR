@@ -1,8 +1,8 @@
 ---
 title: 교차 테넌트 사서함 마이그레이션
 description: 테넌트 또는 Microsoft 365 Office 365 이동하는 방법
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: Laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 09a8e608153d9d985b0f407c01f0d68c7de2e2a315ca5d00447fd3bad30fde4c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 430dae4e4432defd5d9dd80e63bc149858781a9c
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53855169"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356831"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -43,7 +43,7 @@ ms.locfileid: "53855169"
 
 이 섹션에는 대상 디렉터리에서 MailUser 사용자 개체를 준비하는 데 필요한 특정 단계가 포함되어 있지 않으며 마이그레이션 일괄 처리를 제출하기 위한 예제 명령도 포함되어 있지 않습니다. 이 정보는 마이그레이션을 위해 대상 [사용자 개체 준비를](#prepare-target-user-objects-for-migration) 참조하세요.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
 테넌트 간 사서함 이동 기능을 사용하려면 [Azure Key Vault가](/azure/key-vault/basic-concepts) 테넌트 쌍별 Azure 응용 프로그램을 설정하여 한 테넌트에서 다른 테넌트로의 사서함 마이그레이션을 인증하고 권한을 부여하는 데 사용되는 인증서/비밀을 안전하게 저장하고 액세스하고 테넌트 간에 인증서/비밀을 공유하기 위한 요구 사항을 제거해야 합니다.
 
@@ -109,11 +109,11 @@ ms.locfileid: "53855169"
    |-CertificateName|키 자격 증명 모음에서 인증서를 생성하거나 검색할 때의 인증서 이름입니다.|필수|
    |-CertificateSubject|Azure Key Vault 인증서 주체 이름(예: CN=contoso_fabrikam.|필수|
    |-AzureResourceLocation|Azure 리소스 그룹 및 키 자격 증명 모음의 위치입니다.|필수|
-   |-ExistingApplicationId|이미 만들어진 경우 사용할 메일 마이그레이션 응용 프로그램입니다.|선택|
+   |-ExistingApplicationId|이미 만들어진 경우 사용할 메일 마이그레이션 응용 프로그램입니다.|선택 사항|
    |-AzureAppPermissions|사서함 마이그레이션 응용 프로그램에 필요한 사용 권한(예: Exchange 또는 MSGraph(사서함 이동을 위한 Exchange, MSGraph를 사용하여 리소스 테넌트에 동의 링크 초대를 보내기 위한 경우)|필수|
-   |-UseAppAndCertGeneratedForSendingInvitation|원본 테넌트 관리자에게 동의 링크 초대를 보내는 데 사용할 마이그레이션을 위해 만든 응용 프로그램을 사용하는 매개 변수입니다. 이 메시지가 없는 경우 대상 관리자의 자격 증명을 사용하여 Azure 초대 관리자에 연결하고 초대를 대상 관리자로 보낼지 묻는 메시지가 표시됩니다.|선택|
-   |-KeyVaultAuditStorageAccountName|Key Vault의 감사 로그가 저장될 저장소 계정입니다.|선택|
-   |-KeyVaultAuditStorageResourceGroup|키 자격 증명 모음 감사 로그를 저장하기 위한 저장소 계정이 포함된 리소스 그룹입니다.|선택|
+   |-UseAppAndCertGeneratedForSendingInvitation|원본 테넌트 관리자에게 동의 링크 초대를 보내는 데 사용할 마이그레이션을 위해 만든 응용 프로그램을 사용하는 매개 변수입니다. 이 메시지가 없는 경우 대상 관리자의 자격 증명을 사용하여 Azure 초대 관리자에 연결하고 초대를 대상 관리자로 보낼지 묻는 메시지가 표시됩니다.|선택 사항|
+   |-KeyVaultAuditStorageAccountName|Key Vault의 감사 로그가 저장될 저장소 계정입니다.|선택 사항|
+   |-KeyVaultAuditStorageResourceGroup|키 자격 증명 모음 감사 로그를 저장하기 위한 저장소 계정이 포함된 리소스 그룹입니다.|선택 사항|
    ||||
 
     > [!NOTE]
@@ -295,7 +295,7 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
 
 테넌트 간 이동을 사용하려면 마이그레이션하는 사용자가 대상 테넌트에 있어야 Exchange Online 시스템(MailUsers)에 특정 특성이 표시되어야 합니다. 대상 테넌트에서 제대로 설정되지 않은 사용자에 대해 시스템이 이동되지 않습니다. 다음 섹션에서는 대상 테넌트에 대한 MailUser 개체 요구 사항에 대해 자세히 설명합니다.
 
-### <a name="prerequisites"></a>필수 구성 요소
+### <a name="prerequisites"></a>전제 조건
 
 대상 조직에서 다음과 같은 개체와 특성을 설정해야 합니다.
 
@@ -304,7 +304,7 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
    - Target MailUser에는 원본 사서함에서 이러한 특성이 있어야 합니다. 또는 새 User 개체와 함께 할당되어야 합니다.
       - ExchangeGUID(원본에서 대상으로 직접 흐름) - 사서함 GUID가 일치해야 합니다. 이 개체가 대상 개체에 없는 경우 이동 프로세스가 진행되지 않습니다.
       - ArchiveGUID(원본에서 대상으로 직접 흐름) - 보관 GUID가 일치해야 합니다. 이 개체가 대상 개체에 없는 경우 이동 프로세스가 진행되지 않습니다. 이 설정은 원본 사서함이 보관을 사용하도록 설정된 경우만 필요합니다.
-      - LegacyExchangeDN(proxyAddress, "x500: <LegacyExchangeDN> ") – LegacyExchangeDN은 대상 MailUser에 x500: proxyAddress로 있어야 합니다. 또한 원본 사서함의 모든 x500 주소를 대상 메일 사용자로 복사해야 합니다. 이러한 개체가 대상 개체에 없는 경우 이동 프로세스가 진행되지 않습니다. 
+      - LegacyExchangeDN(proxyAddress, "x500: \<LegacyExchangeDN> ") – LegacyExchangeDN은 대상 MailUser에 x500: proxyAddress로 있어야 합니다. 또한 원본 사서함의 모든 x500 주소를 대상 메일 사용자로 복사해야 합니다. 이러한 개체가 대상 개체에 없는 경우 이동 프로세스가 진행되지 않습니다. 
       - UserPrincipalName – UPN이 사용자의 새 ID 또는 대상 회사(예: user@northwindtraders.onmicrosoft.com)에 맞춰집니다.
       - 기본 SMTPAddress – 기본 SMTP 주소가 사용자의 새 회사(예: user@northwind.com)에 맞춰집니다.
       - TargetAddress/ExternalEmailAddress – MailUser는 원본 테넌트에 호스트된 사용자의 현재 사서함을 참조합니다(예: user@contoso.onmicrosoft.com). 이 값을 할당할 때 PrimarySMTPAddress도 할당하고 있는지 또는 이 값이 이동 실패의 원인이 될 PrimarySMTPAddress를 설정하는지 확인해야 합니다.
@@ -550,7 +550,7 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
 
 테넌트 간 사서함 마이그레이션을 수행하려면 원본 사서함 개체의 LegacyExchangeDN 값을 대상 MailUser 개체의 x500 전자 메일 주소로 스탬프 처리해야 합니다.
 
-예:
+예제:
 
 ```powershell
 LegacyExchangeDN value on source mailbox is:
@@ -593,7 +593,7 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
 
 **Azure Key Vault가 필요하며 언제 거래가 이행되는가?**
 
-예. 마이그레이션을 승인하기 위해 키 자격 증명 모음을 사용하여 인증서를 저장하려면 Azure 구독이 필요합니다. 사용자 이름 및 & 사용하여 원본에 인증하는 온보더링 마이그레이션과 달리 테넌트 간 사서함 마이그레이션에서는 OAuth 및 이 인증서를 비밀/자격 증명으로 사용하게 됩니다. 키 자격 증명 모음에 대한 액세스는 모든 사서함 마이그레이션 전체에서 유지 관리되어야 합니다. 이 액세스는 마이그레이션이 시작될 때와 한 번씩, 그리고 증분 동기화 시간 동안 24시간마다 한 번씩 유지 관리되어야 합니다. 여기에서 AKV 비용 세부 정보를 검토할 [수 있습니다.](https://azure.microsoft.com/en-us/pricing/details/key-vault/)
+예. 마이그레이션을 승인하기 위해 키 자격 증명 모음을 사용하여 인증서를 저장하려면 Azure 구독이 필요합니다. 사용자 이름 및 & 사용하여 원본에 인증하는 온보더링 마이그레이션과 달리 테넌트 간 사서함 마이그레이션에서는 OAuth 및 이 인증서를 비밀/자격 증명으로 사용하게 됩니다. 키 자격 증명 모음에 대한 액세스는 모든 사서함 마이그레이션 전체에서 유지 관리되어야 합니다. 이 액세스는 마이그레이션이 시작될 때와 한 번씩, 그리고 증분 동기화 시간 동안 24시간마다 한 번씩 유지 관리되어야 합니다. 여기에서 AKV 비용 세부 정보를 검토할 [수 있습니다.](https://azure.microsoft.com/pricing/details/key-vault/)
 
 **일괄 처리에 대한 권장 사항이 있나요?**
 

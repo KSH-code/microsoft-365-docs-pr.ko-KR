@@ -1,7 +1,7 @@
 ---
 title: Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 11/25/2019
 audience: ITPro
@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 34b1ab9c-814c-434d-8fd0-e5a82cd9bff6
 description: '요약: Microsoft 365 구독에 대해 고가용성 페더타 인증을 Microsoft Azure.'
-ms.openlocfilehash: e8060b9af085791ff8e11ad0e5be8cb307b7f5870dc92311a1f1375fbd3acfd5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2bbd802a3ed3e7cc553d95e346d6b793b59f3533
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835169"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356819"
 ---
 # <a name="deploy-high-availability-federated-authentication-for-microsoft-365-in-azure"></a>Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포
 

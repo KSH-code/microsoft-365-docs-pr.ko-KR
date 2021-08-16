@@ -2,8 +2,8 @@
 title: 엔터프라이즈 테스트 환경에 Microsoft 365 Azure AD ID 보호
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 12/10/2019
 audience: ITPro
@@ -15,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Azure AD ID 보호를 구성하고 엔터프라이즈 테스트 환경에 Microsoft 365 현재 계정을 분석합니다.
-ms.openlocfilehash: 7432a7469d759300def98acfed31e328a253b5388cbb459dda8211baab868885
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 68b77803b4a2955efe58f742e27cb4fa6cfbb58c
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53859074"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356315"
 ---
 # <a name="azure-ad-identity-protection-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 Azure AD ID 보호
 

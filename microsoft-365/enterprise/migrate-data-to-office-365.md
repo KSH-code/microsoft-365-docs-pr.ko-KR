@@ -1,7 +1,7 @@
 ---
 title: 조직 데이터를 조직으로 Microsoft 365 Enterprise
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: ITPro
 ms.topic: conceptual
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 조직 데이터를 조직 데이터 원본으로 마이그레이션하는 데 도움이 되는 Microsoft 365.
-ms.openlocfilehash: 6eff9d525f25817f7042e2ce77cfaf0e08170df794db22b13cced81fa791f43e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 80efbafe17d0a35da323c6f6274e18af270c4985
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53858690"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58355955"
 ---
 # <a name="migrate-your-organization-data-to-microsoft-365-enterprise"></a>조직 데이터를 조직으로 Microsoft 365 Enterprise
 
@@ -30,7 +30,7 @@ ms.locfileid: "53858690"
 
 기본 [설정 지침은](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) 가능한 한 짧은 Microsoft 365 서비스 및 응용 프로그램을 사용하는 모든 사람을 안내합니다. 이렇게 하여 하이브리드 시나리오와 마이그레이션 환경으로 마이그레이션하는 보다 고급 방법은 Microsoft 365. 
   
-설치 Microsoft 365 도움이 필요한 경우 [FastTrack은](https://fasttrack.microsoft.com/office) Microsoft 365 서비스를 배포하는 가장 쉬운 방법인 경우 로그인하고 Microsoft 365 서비스 설치 가이드를 사용할 [수 있습니다.](setup-guides-for-microsoft-365.md)
+Microsoft 365 설정하는 데 도움이 필요한 경우 [](https://fasttrack.microsoft.com/office) FastTrack 배포하는 가장 쉬운 방법인 Microsoft 365 서비스 에 대한 설치 가이드를 사용하여 로그인하고 Microsoft 365 [있습니다.](setup-guides-for-microsoft-365.md)
 
 ## <a name="migrate-email-to-microsoft-365"></a>전자 메일을 전자 메일로 Microsoft 365
 - - [Exchange 배포 도우미를 사용하여 Exchange Hybrid](https://technet.microsoft.com/exdeploy2013)로 마이그레이션합니다.(관리자)

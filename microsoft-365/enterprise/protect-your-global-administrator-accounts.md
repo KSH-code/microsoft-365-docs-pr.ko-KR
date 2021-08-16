@@ -1,7 +1,7 @@
 ---
 title: 전역 Microsoft 365 계정 보호
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 09/30/2020
 audience: Admin
@@ -22,12 +22,12 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: 이 문서에서는 사용자 구독에 대한 전역 관리자 액세스를 보호하는 Microsoft 365 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97ef59ff9b08ba9d763b18381b76a697de2e4338f28fbfb3799eba53d89e9c09
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3a43c8b6ac5389be99581302c249e431853ba99b
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904698"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58355919"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>전역 Microsoft 365 계정 보호
 

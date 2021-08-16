@@ -2,8 +2,8 @@
 title: Microsoft 365의 ID 로드맵
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 09/30/2020
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: ID에 대한 로드맵을 Microsoft 365.
-ms.openlocfilehash: 555f0ceba66280f1142b0af492eb61acf37e34d5a4b8d1db6333e7da01ff968c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 520f80152bccfd9a01b812f08e7c75f6770a9bc4
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801020"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356711"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Microsoft 365의 ID 로드맵
 

@@ -1,7 +1,7 @@
 ---
 title: 고가용성 페더타 인증 5단계 고가용성 인증에 대한 페더타 인증 Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 11/25/2019
 audience: ITPro
@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 0f1dbf52-5bff-44cc-a264-1b48641af98f
 description: '요약: 2016년 커넥트 대한 고가용성 페더전 인증에 대해 Azure AD Microsoft 365 구성하는 Microsoft Azure.'
-ms.openlocfilehash: 7953e7655b484250576352eb805042e1a435ccf5bf6cea25cf6a5dc7eb3a4bc8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ecd5eac14279bb79c0e4bc574a9340314cc77574
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870669"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356531"
 ---
 # <a name="high-availability-federated-authentication-phase-5-configure-federated-authentication-for-microsoft-365"></a>고가용성 페더러타 인증 5단계: 페더러에 대한 페더 Microsoft 365
 

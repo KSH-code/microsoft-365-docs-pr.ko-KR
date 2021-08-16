@@ -1,7 +1,7 @@
 ---
 title: DAP Microsoft 365 대한 Windows PowerShell 테넌트 관리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
 description: 이 문서에서는 고객 테넌트 관리에 PowerShell을 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: 2bbe59f5c5c27830569be2c357a586152ced849c62de0b62e3d29fcc6d926d37
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ee0eb3a645d6590e2393fe8ea7820511df36ab4a
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53899322"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356015"
 ---
 # <a name="manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>DAP(위임된 액세스 Microsoft 365)에 대한 Windows PowerShell 테넌트 관리
 
@@ -31,7 +31,7 @@ ms.locfileid: "53899322"
 Windows PowerShell 사용하여 Syndication 및 클라우드 솔루션 공급자(CSP) 파트너는 해당 파트너에서 사용할 수 없는 고객 테넌트 설정을 쉽게 관리하고 보고할 수 Microsoft 365 관리 센터. AOBO(관리 위임자) 권한은 파트너 관리자 계정에서 고객 테넌트에 연결하는 데 필요합니다.
 
 DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다. 이러한 공급자는 다른 회사의 네트워크 또는 전자 통신 공급자인 경우가 많습니다. 또한 Microsoft 365 서비스에 구독을 번들로 묶습니다. Microsoft 365 구독을 판매하는 경우 고객 테넌트에 대한 AOBO(관리 대신 관리) 권한이 자동으로 부여되어 고객 테넌트에 대해 관리하고 보고할 수 있습니다.
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 이 항목의 절차를 수행하려면 [PowerShell을](connect-to-microsoft-365-powershell.md)사용하여 커넥트 Microsoft 365 연결해야 합니다.
 
@@ -66,7 +66,7 @@ Get-MsolPartnerContract -DomainName <domainname.onmicrosoft.com> | Select-Object
 
 ### <a name="list-all-domains-for-a-tenant"></a>테넌트에 대한 모든 도메인 나열
 
-고객 테넌트에 대한 모든 도메인을 받으려면 이 명령을 실행합니다. _<customer TenantId value>_ 을 실제 값으로 바꿉니다.
+고객 테넌트에 대한 모든 도메인을 받으려면 이 명령을 실행합니다. _\<customer TenantId value>_ 을 실제 값으로 바꿉니다.
 
 ```powershell
 Get-MsolDomain -TenantId <customer TenantId value>
@@ -84,7 +84,7 @@ $Tenants = Get-MsolPartnerContract -All; $Tenants | foreach {$Domains = $_.Tenan
 
 ### <a name="get-all-users-for-a-tenant"></a>테넌트에 대한 모든 사용자 가져오기
 
-이렇게 하면 특정 테넌트의 모든 사용자에 대한 **UserPrincipalName**, **DisplayName**, **isLicensed** 상태가 표시됩니다. _<customer TenantId value>_ 을 실제 값으로 바꿉니다.
+이렇게 하면 특정 테넌트의 모든 사용자에 대한 **UserPrincipalName**, **DisplayName**, **isLicensed** 상태가 표시됩니다. _\<customer TenantId value>_ 을 실제 값으로 바꿉니다.
 
 ```powershell
 Get-MsolUser -TenantID <customer TenantId value>
@@ -92,7 +92,7 @@ Get-MsolUser -TenantID <customer TenantId value>
 
 ### <a name="get-all-details-about-a-user"></a>사용자에 대한 모든 세부 정보 가져오기
 
-특정 사용자에 대한 모든 속성을 확인하려면 이 명령을 실행합니다.  _<customer TenantId value>_ 과 _<user principal name value>_ 을 실제 값으로 바꿉니다.
+특정 사용자에 대한 모든 속성을 확인하려면 이 명령을 실행합니다.  _\<customer TenantId value>_ 과 _\<user principal name value>_ 을 실제 값으로 바꿉니다.
 
 ```powershell
 Get-MsolUser -TenantId <customer TenantId value> -UserPrincipalName <user principal name value>

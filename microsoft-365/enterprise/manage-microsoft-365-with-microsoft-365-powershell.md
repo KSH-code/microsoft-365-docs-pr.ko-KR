@@ -1,7 +1,7 @@
 ---
 title: PowerShell로 Microsoft 365 관리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: hub-page
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 932d57c0-1520-4f0f-8ec9-9966d646480f
 description: PowerShell을 사용하여 Microsoft 365, 라이선스 및 365 앱을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: e5f30a9d899ed84039077071fb33a0b540d07747e45c3cec2b2d70fa974eccb9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bbbbec88f8dcb4b31102bab4be4549c94874aff8
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885210"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58357080"
 ---
 # <a name="manage-microsoft-365-with-powershell"></a>PowerShell로 Microsoft 365 관리
 

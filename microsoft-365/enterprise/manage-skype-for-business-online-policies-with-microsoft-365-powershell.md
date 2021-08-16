@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 사용하여 온라인 비즈니스 정책용 Skype 관리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 07/17/2020
 audience: ITPro
@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
 description: '요약: PowerShell을 사용하여 정책으로 비즈니스용 Skype 온라인 사용자 계정 속성을 관리합니다.'
-ms.openlocfilehash: 51218d2158558e527f5ce9b3c12388e69cd3d87c140641762247a90d6e78043c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: aea57c836403918e4c236f766ed211a31ea2ceec
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835058"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58357044"
 ---
 # <a name="manage-skype-for-business-online-policies-with-powershell"></a>PowerShell을 사용하여 온라인 비즈니스 정책용 Skype 관리
 

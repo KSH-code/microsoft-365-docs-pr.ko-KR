@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 테넌트 마이그레이션
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: overview
@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 테넌트에서 마이그레이션하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 291c61dfd3361a1159b9d3df26c8f4e3c536c2e99d1039cab03d5851d3ab011e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a368f92fbbe946d0cb7842f0e38bd301552fad8f
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813096"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58355967"
 ---
 # <a name="microsoft-365-tenant-to-tenant-migrations"></a>Microsoft 365 테넌트 마이그레이션
 

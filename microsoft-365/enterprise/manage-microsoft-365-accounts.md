@@ -1,7 +1,7 @@
 ---
 title: 사용자 Microsoft 365 관리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: overview
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: 사용자 계정을 관리하는 Microsoft 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 8fd2b537c83fcbab5c33c282487f02cba72bed514e01d8ecc1261d0554793331
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2fb2fe71c73f99979b35e7ca9998302f387b9035
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53858882"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356027"
 ---
 # <a name="manage-microsoft-365-user-accounts"></a>사용자 Microsoft 365 관리
 
@@ -59,7 +59,7 @@ ms.locfileid: "53858882"
     
 다음 표에는 다양한 계정 관리 도구가 나열됩니다.
     
-|도구|메모|
+|도구|참고 사항|
 |:-----|:-----|
 |Microsoft 365 관리 센터  <br/> |[개별적으로 또는 대량으로 사용자 추가](../admin/add-users/add-users.md) <br/>  사용자 계정을 추가하고 변경할 수 있는 간단한 웹 인터페이스를 제공합니다.  <br/>  디렉터리 동기화를 사용하도록 설정한 경우(위치 및 라이선스 할당을 설정할 수 있는 경우) 사용자를 변경하는 데 사용할 수 없습니다.  <br/>  SSO 옵션과 함께 사용할 수 없습니다.  <br/> |
 |Windows PowerShell  <br/> |[사용자 Microsoft 365 관리 Windows PowerShell](./manage-microsoft-365-with-microsoft-365-powershell.md) <br/>  사용자 일괄 스크립트를 사용하여 대량 사용자를 추가할 Windows PowerShell 있습니다.  <br/>  계정 생성 방법에 관계없이 계정에 위치 및 라이선스를 할당하는 데 사용할 수 있습니다.  <br/> |

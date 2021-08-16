@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 통해 비즈니스용 Skype Oline 관리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 07/17/2020
 audience: ITPro
@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: Microsoft 365용 PowerShell을 사용하여 비즈니스용 Skype Online 정책, 사용자별 정책 및 모임 설정을 관리할 수 있습니다.
-ms.openlocfilehash: 3792e1bce21aada838f3afbf88966270cdc0233c90b6a029edc8771f7ae94d42
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 591047f742fb0abc9dfdc3d8f16c8ca9abc2a177
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885198"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58357032"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>PowerShell을 통해 비즈니스용 Skype Oline 관리
 

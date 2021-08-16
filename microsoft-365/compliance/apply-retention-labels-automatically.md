@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 2b21df0592c2ca6f3f45500236e2cd07ab7128c1
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: cafe6fe2628d58b80ea86753734e56996c5fdfcd
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247550"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58357056"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -44,7 +44,7 @@ ms.locfileid: "58247550"
 콘텐츠에 중요한 정보, 키워드나 검색 가능한 속성 또는 [학습 가능한 분류자](classifier-get-started-with.md) 일치 항목이 포함된 경우 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
 
 > [!TIP]
-> 최근에 릴리스된, 검색 가능한 속성을 사용하여 [Teams 모임 녹음/녹화](#microsoft-teams-meeting-recordings)을 식별합니다.
+> 검색 가능한 속성을 사용하여 [Teams 모임 녹음/녹화](#microsoft-teams-meeting-recordings)을 식별합니다.
 
 다음 조건에 따라 보존 레이블을 자동으로 적용하는 프로세스:
 
@@ -127,7 +127,7 @@ ms.locfileid: "58247550"
 
 - [학습 가능한 분류자와 일치](#auto-apply-labels-to-content-by-using-trainable-classifiers)
 
-세 가지 조건 모두 전자 메일을 보내고 받을 때 보존 레이블을 자동으로 적용할 수 있지만, 사서함의 기존 항목(미사용 데이터)에는 적용할 수 없습니다. SharePoint 및 OneDrive의 항목에 대해 다음 표를 사용하여 보존 레이블을 자동으로 적용할 수 있는 시기를 식별합니다.
+세 가지 조건 모두 전자 메일을 보내고 받을 때(전송 중인 데이터) 보존 레이블을 자동으로 적용할 수 있지만, 사서함의 기존 항목(미사용 데이터)에는 적용할 수 없습니다. SharePoint 및 OneDrive의 항목에 대해 다음 표를 사용하여 보존 레이블을 자동으로 적용할 수 있는 시기를 식별합니다.
 
 |조건|새 항목 또는 수정된 항목 |기존 항목(미사용 데이터)|
 |:-----|:-----|:-----|

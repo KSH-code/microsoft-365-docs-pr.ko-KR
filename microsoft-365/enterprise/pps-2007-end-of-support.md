@@ -1,7 +1,7 @@
 ---
 title: PerformancePoint Server 2007 지원 종료 로드맵
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.assetid: 89d9feee-2285-419c-8c14-0f7f583536e0
 f1.keywords:
 - NOCSH
 description: PerformancePoint Server 2007, ProClarity 및 SharePoint Server 2007의 지원이 종료됩니다. BI 솔루션 업그레이드를 계획하는 데 도움이 되는 이 문서를 읽어 보십시오.
-ms.openlocfilehash: 6a0803354044f6c94a1907dc919adc2851483e38d7755da84a354075eb623c34
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 88818fe4ecc0a2be7a63abe615bd4206c50ead3b
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885162"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356483"
 ---
 # <a name="performancepoint-server-2007-end-of-support-roadmap"></a>PerformancePoint Server 2007 지원 종료 로드맵
 
@@ -95,7 +95,7 @@ Excel 서버의 Excel Services SharePoint 서버라고도 하는 Excel 사용하
 
 새 서비스로 Microsoft 365 서비스 및 응용 프로그램을 포함하여 최신 서비스 및 응용 프로그램을 Excel 2016. PerformancePoint Services 사용할 수 Microsoft 365 수 있으므로 PerformancePoint 대시보드 콘텐츠를 통합 문서 또는 Excel 대체하게 됩니다. 다행인 Excel 2016 차트 종류가 매우 많기 때문에 대시보드를 보다 쉽게 만들 수 Excel. 또한 새로운 기능은 정기적으로 추가됩니다. 자세한 내용은 에 대한 새로운 Excel 2016 [Windows.](https://support.office.com/article/5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73.aspx)
   
-또한 사용자 수가 50명 이상인 경우 Microsoft 365 Microsoft FastTrack 팀이 설정하는 데 도움을 줄 수 있습니다. 자세한 내용은 [FastTrack 을 방문합니다.](https://www.microsoft.com/fasttrack/microsoft-365)
+또한 사용자 수가 50명 이상인 경우 Microsoft 365 Microsoft FastTrack 팀이 설정하는 데 도움을 줄 수 있습니다. 자세한 내용은 [을(를) FastTrack.](https://www.microsoft.com/fasttrack/microsoft-365)
   
 #### <a name="excel-with-sharepoint-server-on-premises"></a>Excel 서버(SharePoint 사용)
 

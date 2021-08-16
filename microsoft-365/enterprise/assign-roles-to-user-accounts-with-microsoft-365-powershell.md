@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 Microsoft 365 사용자 계정에 역할 할당
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 09/23/2020
 audience: Admin
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: 이 문서에서는 PowerShell을 사용하여 사용자 계정에 관리자 역할을 Microsoft 365 방법을 알아보습니다.
-ms.openlocfilehash: ef02c57037e17d17455ea19e78beefd221fc678386fe1fbb68f465da0fe0df36
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ae68d2d8bb4373f3dc3cd94b8ebae5f1e4be05f4
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904914"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356603"
 ---
 # <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 통해 사용자 Microsoft 365 관리자 역할 할당
 

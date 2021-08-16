@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 Microsoft 365 사용자 계정 보기
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 07/17/2020
 audience: Admin
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 description: PowerShell을 통해 다양한 방식으로 Microsoft 365 사용자 계정을 보거나, 나열하거나, 표시하는 방법을 학습합니다.
-ms.openlocfilehash: b7a899d7b67b124ffa1db391cd8762cf220d1aa9da01a9e60cb7cb488da1bd34
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b10b143b3608efa88eb27346b65fd4b80100020c
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53812961"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58356159"
 ---
 # <a name="view-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 보기
 
