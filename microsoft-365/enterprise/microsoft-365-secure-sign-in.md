@@ -2,8 +2,8 @@
 title: Microsoft 365 테넌트에 사용자 로그인 보안 기능
 f1.keywords:
 - NOCSH
-author: JoeDavies-MSFT
-ms.author: josephd
+author: kelleyvice-msft
+ms.author: kvice
 manager: laurawi
 ms.date: 09/30/2020
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: 사용자가 MFA(다단계 인증) 및 기타 기능을 사용하여 안전하게 로그인하도록 합니다.
-ms.openlocfilehash: 3520a76b3007befda335ef26609ae89fe8b2a7b92821bb9f72e9213087df5fb5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2d8f2ba519bbeaaebf6ba8d0c7c91e7933b65457
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813237"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58355979"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Microsoft 365 테넌트에 사용자 로그인 보안 기능
 
@@ -126,7 +126,7 @@ Microsoft Teams, Exchange Online 및 SharePoint에 대한 특정 설정을 포�
 
 ## <a name="azure-ad-identity-protection"></a>Azure AD ID 보호
 
-이 섹션에서는 공격자가 조직의 클라우드 서비스 및 데이터에 액세스하기 위한 사용자의 계정 이름 및 암호를 파악한 경우에 발생하는 자격 증명 침해로부터 보호하는 정책 구성 방법을 알아봅니다. Azure AD ID Protection은 공격자가 사용자 계정의 자격 증명을 손상시키지 못하도록 하는데 도움이 되는 다양한 방법을 제공 합니다.
+이 섹션에서는 공격자가 사용자 계정 이름 및 암호를 확인하여 조직의 클라우드 서비스와 데이터에 액세스할 수 있는 자격 증명 손상으로부터 보호하는 정책을 구성하는 방법을 알아봅니다. Azure AD ID 보호는 공격자가 사용자 계정의 자격 증명을 손상시키는 것을 방지하는 데 도움이 되는 다양한 방법을 제공합니다.
 
 Azure AD ID 보호를 사용하면 다음을 수행할 수 있습니다.
 
