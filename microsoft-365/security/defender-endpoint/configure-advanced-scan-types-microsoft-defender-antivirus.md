@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 05/26/2021
 ms.topic: how-to
-ms.openlocfilehash: 96e4dab96f8ceb149916c908991079bb2dfa866f
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 516c141be490e6ca87a96cfc0ec4ccf138eed63f9be11439161eb3bf4e2ba372
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53894566"
 ---
 # <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Microsoft Defender 바이러스 백신 검사 옵션 구성
 

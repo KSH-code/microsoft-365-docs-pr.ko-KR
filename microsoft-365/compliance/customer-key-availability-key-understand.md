@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 손실된 고객 키를 복구하는 데 사용되는 가용성 키에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0f65721856cd046f28a399701e625239decbd9b6
-ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
+ms.openlocfilehash: 573c7bb7426dea8594f3a2e73991f845153146996f8a03cab4766855482a7de1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53464000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53895802"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>고객 키에 대한 가용성 키 알아보기
 
@@ -29,7 +29,7 @@ Storage 키의 관리 및 제어는 세 가지 이유로 인해 Azure Key Vault 
 - 논리적 컨트롤과 보안 저장소 위치를 분리하면 심층 방어가 제공되어 단일 공격 또는 오류 지점으로부터 모든 키와 데이터가 손실되지 않습니다.
 - 가용성 키는 일시적인 오류로 인해 Microsoft 365 서비스에서 Azure Key Vault에 호스트된 키에 도달할 수 없는 경우 고가용성 기능을 제공합니다. 이 규칙은 서비스 Exchange Online 비즈니스용 Skype 적용됩니다. SharePoint 온라인, 비즈니스용 OneDrive 및 Teams Microsoft에 복구 프로세스를 시작해야 하는 경우를 위해 가용성 키를 사용하지 않습니다.
 
-키 관리를 위한 다양한 보호 및 프로세스를 사용하여 데이터를 보호해야 하는 책임을 공유하면 궁극적으로 모든 키(및 데이터)가 영구적으로 손실되거나 소멸되는 위험을 줄일 수 있습니다. Microsoft는 사용자가 서비스를 떠날 때 가용성 키의 비활성화 또는 폐기에 대한 단독 권한을 사용자에게 제공합니다. 기본적으로 Microsoft의 어느 누구도 가용성 키에 액세스할 수 없습니다. 이 키는 서비스 코드에서만 액세스할 Microsoft 365 있습니다.
+키 관리를 위한 다양한 보호 및 프로세스를 사용하여 데이터를 보호해야 하는 책임을 공유하면 궁극적으로 모든 키(및 데이터)가 영구적으로 손실되거나 소멸되는 위험을 줄일 수 있습니다. Microsoft는 사용자가 서비스를 떠날 때 가용성 키의 비활성화 또는 폐기에 대한 단독 권한을 사용자에게 제공합니다. 기본적으로 Microsoft의 어느 누구도 가용성 키에 액세스할 수 없습니다. Microsoft 365 서비스 코드로만 액세스할 수 있습니다.
 
 키 보안 방법에 대한 자세한 내용은 [Microsoft](https://www.microsoft.com/trustcenter/Privacy/govt-requests-for-data) 보안 센터를 참조하세요.
   

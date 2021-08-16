@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 4b31a47ecfa887185673d75947fbab89332caa2a156bed8a35b158b63c2e8b95
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 815b962d56ca75dbd864579d7f26e24a587b74df
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53805600"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256543"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -40,7 +40,7 @@ ms.locfileid: "53805600"
 
 ## <a name="try-your-first-query"></a>첫 번째 쿼리 시도하기
 
-보안 Microsoft 365 센터에서 **헌팅으로** 이동하여 첫 번째 쿼리를 실행합니다. 다음 예제를 사용합니다.
+Microsoft 365 Defender 포털에서 헌팅으로  이동하여 첫 번째 쿼리를 실행합니다. 다음 예제를 사용합니다.
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
@@ -185,7 +185,7 @@ Kusto 쿼리 언어와 지원되는 연산자에 대한 자세한 내용은 [Kus
 >[!NOTE]
 >이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [더 많은 Microsoft 365 Defender](m365d-enable.md) 사용하여 위협을 헌팅할 수 있습니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 Defender [Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 쿼리 마이그레이션의 단계를 수행하여 고급 헌팅 워크플로를 끝점으로 이동할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 결과로 작업](advanced-hunting-query-results.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

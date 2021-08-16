@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c7745538471a2e8eae3b4708de06a789f4e0daff0150fd83f18a32b85461f892
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e1b121ca196ba1b416b0031e3a0a7a8516bc7299
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893738"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256507"
 ---
 # <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-azure-event-hub"></a>Azure Microsoft 365 Defender 고급 헌팅 이벤트를 스트리밍하도록 구성
 
@@ -39,7 +39,7 @@ ms.locfileid: "53893738"
 
 2. [Azure](https://ms.portal.azure.com/)테넌트에 로그인하고, **Microsoft.>** 구독 > 리소스 공급자로 >.Insights.
 
-3. 이벤트 허브 네임스페이스를 만들고  이벤트 허브 네임스페이스로 이동하여 > 계층, 처리력 단위 및 예상 부하에 적합한 자동 Inflate을 선택합니다. 자세한 내용은 [가격 책정 - 이벤트 허브 | Microsoft Azure.](https://azure.microsoft.com/en-us/pricing/details/event-hubs/)  
+3. 이벤트 허브 네임스페이스를 만들고  이벤트 허브 네임스페이스로 이동하여 > 계층, 처리력 단위 및 예상 부하에 적합한 자동 Inflate을 선택합니다. 자세한 내용은 이벤트 허브 [가격을 참조하세요.](https://azure.microsoft.com/pricing/details/event-hubs/)  
 
 ### <a name="add-contributor-permissions"></a>참가자 권한 추가
 
@@ -101,7 +101,7 @@ ms.locfileid: "53893738"
 
 이벤트 속성에 대한 데이터 형식을 얻습니다.
 
-1. 보안 센터에 [Microsoft 365 고급](https://security.microsoft.com) 헌팅 [페이지로 이동합니다.](https://security.microsoft.com/hunting-package)
+1. Microsoft 365 Defender [포털에 로그인하고](https://security.microsoft.com) 고급 헌팅 [페이지로 이동합니다.](https://security.microsoft.com/hunting-package)
 
 2. 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다.
 

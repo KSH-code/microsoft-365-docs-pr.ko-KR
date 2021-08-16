@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 687195eeb9bbc53be3f50e9b7662faaeed208b5502e9972801ee3d105c35c1ee
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 58cc9548983d75593ae77af016ef894dc9f82547
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888719"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256322"
 ---
 # <a name="microsoft-365-defender-overview"></a>Microsoft 365 Defender 개요
 
@@ -121,7 +121,7 @@ Microsoft 365 Defender Microsoft Defender  for Office 365 끝점용 Microsoft De
 
 ### <a name="quickly-view-your-microsoft-365-environment"></a>사용자 환경의 Microsoft 365 빠르게 보기
 
-홈 **페이지에는** 보안 팀에 필요한 많은 공통 카드가 표시됩니다. 카드와 데이터의 구성은 사용자 역할에 따라 달라집니다. 보안 Microsoft 365 센터에서는 역할 기반 액세스 제어를 사용하기 때문에 각 역할에 따라 매일 작업하는 데 더 의미 있는 카드가 표시될 수 있습니다.  
+홈 **페이지에는** 보안 팀에 필요한 많은 공통 카드가 표시됩니다. 카드와 데이터의 구성은 사용자 역할에 따라 달라집니다. 포털에서 Microsoft 365 Defender 액세스 제어를 사용하게 됐기 때문에 각 역할에 따라 매일 작업하는 데 더 의미 있는 카드가 표시될 수 있습니다.  
 
 이 정보를 한눈에 확인하면 조직의 최신 활동을 유지하는 데 도움이 됩니다. Microsoft 365 Defender 소스의 신호를 함께 모아 사용자 환경의 전체적인 Microsoft 365 제공합니다.
 
@@ -143,7 +143,7 @@ Microsoft 365 Defender Microsoft Defender  for Office 365 끝점용 Microsoft De
 
 ## <a name="a-centralized-learning-hub"></a>중앙 집중식 Learning 허브
 
-Microsoft 365 보안 센터에는 Microsoft 보안 블로그, YouTube의 Microsoft 보안 커뮤니티 및 공식 설명서와 같은 리소스의 공식 지침을 버블업하는 학습 허브가 docs.microsoft.com.
+Microsoft 365 Defender 포털에는 Microsoft 보안 블로그, YouTube의 Microsoft 보안 커뮤니티 및 공식 설명서와 같은 리소스의 공식 지침을 버블업하는 학습 허브가 docs.microsoft.com.
 
 학습 허브 내에서 Email & Collaboration (Microsoft Defender for Office 365) 지침은 Endpoint(Endpoint용 Microsoft Defender) 및 Microsoft 365 Defender 리소스와 함께 제공됩니다.
 

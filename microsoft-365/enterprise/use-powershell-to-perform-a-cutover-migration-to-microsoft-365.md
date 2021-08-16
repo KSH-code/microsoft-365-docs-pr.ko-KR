@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: b468cb4b-a35c-43d3-85bf-65446998af40
 description: PowerShell을 사용하여 원본 전자 메일 시스템에서 원본 전자 메일 시스템으로 콘텐츠를 한 번씩 이동하는 방법을 Microsoft 365.
-ms.openlocfilehash: 6e59ac4d590208e0faed22e94cabe05601b17f18
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: ce2d97330cb090e261da8e1f8b120c1001a6b3d5a1e19ce5a42d72212880d3f8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53894818"
 ---
 # <a name="use-powershell-to-perform-a-cutover-migration-to-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365로 컷오버 마이그레이션 수행
 
@@ -199,7 +199,7 @@ Remove-MigrationBatch -Identity CutoverBatch
 ### <a name="section-7-assign-user-licenses"></a>섹션 7: 사용자 라이선스 할당
 <a name="BK_Step7"> </a>
 
- **라이선스를 Microsoft 365 마이그레이션된 계정에 대한 사용자 계정을 활성화합니다.** 라이선스를 할당하지 않은 경우 30일 유예 기간이 끝나면 사서함을 사용할 수 없습니다. Microsoft 365 관리 센터에서 라이선스를 할당하려면 라이선스 할당 또는 할당을 [해지를 참조하세요.](../admin/manage/assign-licenses-to-users.md)
+ **라이선스를 Microsoft 365 마이그레이션된 계정에 대한 사용자 계정을 활성화합니다.** 라이선스를 할당하지 않은 경우 30일 유예 기간이 끝나면 사서함을 사용할 수 없습니다. 새 라이선스에 라이선스를 할당 Microsoft 365 관리 센터 라이선스 할당 또는 [할당을 해지를 참조합니다.](../admin/manage/assign-licenses-to-users.md)
 
 ### <a name="step-8-complete-post-migration-tasks"></a>8단계: 마이그레이션 후 작업 완료
 <a name="BK_Step8"> </a>

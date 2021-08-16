@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 암호화된 전자 메일을 사용하여 암호화된 전자 메일을 보내는 Outlook.
-ms.openlocfilehash: 209734bd52d1d97278d5632f035723758fe2e016
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c9ce78b744f903427b5e88bfb9fc1695279ebe30535ee97eca32a5fc3b6b35f7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53867007"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>중요한 전자 메일을 암호화하거나 레이블을 지정합니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "51576976"
 
 ## <a name="set-it-up"></a>설정하기
 
-미리 정의된 규칙을 충족하지 않는 메시지를 암호화하거나 관리자가 규칙을 설정하지 않은 경우 메시지를 보내기 전에 다양한 암호화 규칙을 적용할 수 있습니다. Outlook 2013 또는 2016에서 암호화된 메시지를 보내거나 Mac용 Outlook 2016 사용 > 옵션을 선택한 다음 필요한 보호 옵션을 선택합니다. 웹에서 보호 단추를 선택하여 암호화된  메시지를 Outlook 수 있습니다. 자세한 내용은 PC용 에서 암호화된 메시지 보내기, Outlook [회신을 참조하세요.](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
+미리 정의된 규칙을 충족하지 않는 메시지를 암호화하거나 관리자가 규칙을 설정하지 않은 경우 메시지를 보내기 전에 다양한 암호화 규칙을 적용할 수 있습니다. Outlook 2013 또는 2016에서 암호화된 메시지를 보내거나 Mac용 Outlook 2016 사용 > 옵션을 선택한 다음 필요한 보호 옵션을 선택합니다. 또한 암호화된 메시지의 보호 단추를  선택하여 암호화된 메시지를 웹용 Outlook. 자세한 내용은 PC용 에서 암호화된 메시지 보내기, Outlook [회신을 참조하세요.](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
 
 ## <a name="admin-settings"></a>관리자 설정
 

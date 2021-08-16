@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7e3a84b2f1ace627906a0235d6ad27904aba8d6b312199f1df1eae133e907143
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 60a0d59bd199e46e52623e36fa962465b313c9bd
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817198"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256341"
 ---
 # <a name="create-and-manage-roles-for-role-based-access-control"></a>역할 기반 액세스 제어에 대한 역할 만들기 및 관리
 
@@ -82,8 +82,8 @@ ms.locfileid: "53817198"
     - **기본** 명령:
         - 라이브 응답 세션 시작
         - 원격 장치에서 읽기 전용 라이브 응답 명령 수행(파일 복사 및 실행 제외)
-    - **고급** 명령:
         - 라이브 응답을 통해 원격 장치에서 파일 다운로드
+    - **고급** 명령:
         - 파일 페이지에서 PE 및 PE가 아닌 파일 다운로드
         - 업로드 장치에 파일 연결
         - 파일 라이브러리에서 스크립트 보기

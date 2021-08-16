@@ -15,12 +15,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: 관리자가 PowerShell 및 CSV Exchange Online 사용하여 외부 연락처를 전체 주소 목록으로 대량으로 가져올 수 있는 방법을 알아보습니다.
-ms.openlocfilehash: 178e3676f8dc5fb59cdad9cc46d7ecbd9dddb90e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cb6195f82ed794ea5b6741a6b8bdf3007cdf366411ad7a464688b6ffbf5d9cb0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53895966"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>외부 연락처를 대량으로 Exchange Online
 
@@ -90,10 +90,10 @@ ms.locfileid: "50918214"
   
 5. 필요한 경우 새로 **고침을** 클릭하여 목록을 업데이트하고 가져온 외부 연락처를 봐야 합니다. 
     
-    가져온 연락처는 웹의 공유 주소 Outlook Outlook 표시됩니다.
+    가져온 연락처는 공유 주소 Outlook 웹용 Outlook.
     
     > [!NOTE]
-    > 또한 사용자 연락처로 Microsoft 365 관리 센터에서 **연락처를 볼** \> **수도 있습니다.** 
+    > 사용자 연락처로 Microsoft 365 관리 센터 **연락처를 볼** \> **수 있습니다.** 
 
 ## <a name="step-3-add-information-to-the-properties-of-the-external-contacts"></a>3단계: 외부 연락처의 속성에 정보 추가
 
@@ -125,7 +125,7 @@ ms.locfileid: "50918214"
     
 2. 연락처를 클릭한 다음 편집 **편집** ![ 아이콘을 ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 클릭하여 연락처의 속성을 표시합니다. 
     
-모두 완료되었습니다. 사용자는 웹에서 연락처 및 주소 Outlook 추가 Outlook 볼 수 있습니다.
+모두 완료되었습니다. 사용자는 주소장 및 연락처 및 주소 Outlook 추가 정보를 볼 웹용 Outlook.
   
 ## <a name="add-more-external-contacts"></a>외부 연락처 추가
 

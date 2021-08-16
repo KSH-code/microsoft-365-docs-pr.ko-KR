@@ -4,7 +4,7 @@ summary: 사용자의 작업 방식을 변환하는 지능형 클라우드 서�
 brand: m365
 metadata:
   title: 엔터프라이즈용 Microsoft 365 설명서 및 리소스
-  description: Microsoft 365 엔터프라이즈 IT 전문가, 정보 작업자 및 파트너가 사용할 수 있는 제품 설명서 및 리소스에 대해 알아보세요.
+  description: 'Microsoft 365 엔터프라이즈 IT 전문가, 정보 작업자 및 파트너가 사용할 수 있는 제품 설명서 및 리소스에 대해 알아보세요.'
   services: service
   ms.prod: microsoft-365-enterprise
   ms.service: O365-seccomp
@@ -13,66 +13,60 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 07/28/2020
-  ms.openlocfilehash: 5482763b15aaab7e35bb25135a7c406975d9382e
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
-  ms.translationtype: HT
-  ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50909753"
 highlightedContent:
   items:
-  - title: 엔터프라이즈용 Microsoft 365에 대해 알아보기
-    itemType: get-started
-    url: microsoft-365-overview.md
-  - title: FastTrack을 사용하여 배포를 가속화
-    itemType: quickstart
-    url: https://www.microsoft.com/fasttrack/microsoft-365
-  - title: IT 전문가 및 관리자 교육
-    itemType: learn
-    url: /learn/m365/
+    - title: 엔터프라이즈용 Microsoft 365에 대해 알아보기
+      itemType: get-started
+      url: microsoft-365-overview.md
+    - title: FastTrack을 사용하여 배포를 가속화
+      itemType: quickstart
+      url: 'https://www.microsoft.com/fasttrack/microsoft-365'
+    - title: IT 전문가 및 관리자 교육
+      itemType: learn
+      url: /learn/m365/
 conceptualContent:
   title: 엔터프라이즈용 Microsoft 365 및 기타 리소스에 대한 도움말 보기
-  summary: 엔터프라이즈용 Microsoft 365 배포 가이드, 기능 및 서비스를 알아보세요.
+  summary: '엔터프라이즈용 Microsoft 365 배포 가이드, 기능 및 서비스를 알아보세요.'
   items:
-  - title: 배포 핵심 요소
-    links:
-    - url: identity-roadmap-microsoft-365.md
-      itemType: how-to-guide
-      text: ID 인프라
-    - url: /windows/deployment/
-      itemType: get-started
-      text: Windows 10 Enterprise
-    - url: /deployoffice/plan-microsoft-365-apps
-      itemType: deploy
-      text: 엔터프라이즈용 Microsoft 365 앱
-    - url: /intune/fundamentals/planning-guide
-      itemType: deploy
-      text: Microsoft Intune
-  - title: 엔터프라이즈용 Microsoft 365 관리
-    links:
-    - url: /windows/deployment/update/
-      itemType: how-to-guide
-      text: Windows 10 Enterprise
-    - url: /deployoffice/overview-update-channels
-      itemType: concept
-      text: 엔터프라이즈용 Microsoft 365 앱
-    - url: /intune/apps/app-management
-      itemType: get-started
-      text: Intune을 사용하는 앱
-    - url: /office365/
-      itemType: get-started
-      text: Microsoft 365 서비스
+    - title: 배포 핵심 요소
+      links:
+        - url: identity-roadmap-microsoft-365.md
+          itemType: how-to-guide
+          text: ID 인프라
+        - url: /windows/deployment/
+          itemType: get-started
+          text: Windows 10 Enterprise
+        - url: /deployoffice/plan-microsoft-365-apps
+          itemType: deploy
+          text: 엔터프라이즈용 Microsoft 365 앱
+        - url: /intune/fundamentals/planning-guide
+          itemType: deploy
+          text: Microsoft Intune
+    - title: 엔터프라이즈용 Microsoft 365 관리
+      links:
+        - url: /windows/deployment/update/
+          itemType: how-to-guide
+          text: Windows 10 Enterprise
+        - url: /deployoffice/overview-update-channels
+          itemType: concept
+          text: 엔터프라이즈용 Microsoft 365 앱
+        - url: /intune/apps/app-management
+          itemType: get-started
+          text: Intune을 사용하는 앱
+        - url: /office365/
+          itemType: get-started
+          text: Microsoft 365 서비스
 additionalContent:
   sections:
-  - title: 추가 리소스
-    summary: 다른 Microsoft 365 기능 및 리소스에 대해 자세히 알아보세요.
-    items:
-    - title: Microsoft 365 규정 준수
-      summary: 조직이 정보를 관리하고 위험으로부터 보호하며 법률 또는 규제, 표준을 준수하도록 도와줍니다.
-      url: ../compliance/index.yml
-    - title: Microsoft 365 보안
-      summary: 강력한 보안 서비스와 솔루션을 통해 공격 표면 전반에 걸쳐 조직을 보호하세요.
-      url: ../security/index.yml
-    - title: Microsoft 365 기술 커뮤니티
-      summary: Microsoft 기술 커뮤니티에서 동료 및 전문가와 연결하고, 공동 작업을 하고, Microsoft 365 모범 사례를 공유하세요.
-      url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
+    - title: 추가 리소스
+      summary: 다른 Microsoft 365 기능 및 리소스에 대해 자세히 알아보세요.
+      items:
+        - title: Microsoft 365 규정 준수
+          summary: '조직이 정보를 관리하고 위험으로부터 보호하며 법률 또는 규제, 표준을 준수하도록 도와줍니다.'
+          url: ../compliance/index.yml
+        - title: Microsoft 365 보안
+          summary: 강력한 보안 서비스와 솔루션을 통해 공격 표면 전반에 걸쳐 조직을 보호하세요.
+          url: ../security/index.yml
+        - title: Microsoft 365 기술 커뮤니티
+          summary: 'Microsoft 기술 커뮤니티에서 동료 및 전문가와 연결하고, 공동 작업을 하고, Microsoft 365 모범 사례를 공유하세요.'
+          url: 'https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365'

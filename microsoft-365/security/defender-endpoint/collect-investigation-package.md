@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4dec522f41a2dc580038f0ee5ae007221a596046
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 85a29e312240d416f7a9870bf904865e78e5e59bbc704792269167e8544a5c68
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53894602"
 ---
 # <a name="collect-investigation-package-api"></a>조사 패키지 수집 API
 
@@ -46,11 +46,7 @@ ms.locfileid: "58247850"
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-> [!IMPORTANT]
->
-> - 이러한 응답 작업은 버전 1703 이상의 Windows 10 장치에만 사용할 수 있습니다.
-
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 끝점 API에 [Defender 사용을 참조합니다.](apis-intro.md)
 

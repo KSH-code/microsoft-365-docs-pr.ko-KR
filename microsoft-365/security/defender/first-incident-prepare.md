@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: aa4080c6cfbbf0af93587e00b9b6d7489e6ed2da0e3fde1a0be8f84595026b7f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 89c185472f9e570374a3c0ea0ee70a62a4970b89
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53897894"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256531"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>첫 번째 인시던트에 대한 보안 준비
 
@@ -53,7 +53,7 @@ Microsoft 365 Defender 구성 요소는 끝점용 Microsoft Defender 또는 기�
 
 장치 위험은 해당 장치의 사용자가 액세스할 수 있는 리소스에 직접적인 영향을 미치게 됩니다. 특정 기준에 따라 리소스에 대한 액세스 거부는 Zero Trust의 주요 테마이고 Microsoft 365 Defender 수준 조건을 결정하는 데 필요한 정보를 제공합니다. 예를 들어 Microsoft 365 Defender 및 취약성 관리 페이지를 통해 장치의 소프트웨어 버전 수준을 제공할 수 있으며 조건부 액세스 정책은 기한이 지난 또는 취약한 버전을 제한하는 장치를 제한할 수 있습니다.
 
-자동화는 제로 트러스트 환경을 구현하고 유지 관리하는 데 중요한 부분입니다. 또한 잠재적으로 IR(인시던트 대응) 이벤트로 이어질 수 있는 경고 수를 줄입니다. Microsoft 365 Defender 구성 요소는 수정 작업(Microsoft 365 [](m365d-autoir.md) 보안 센터의 인시던트에 대한 조사), 알림 작업, [ServiceNow와](https://microsoft.service-now.com/sp/)같은 지원 티켓 생성 등 자동화할 수 있습니다.
+자동화는 제로 트러스트 환경을 구현하고 유지 관리하는 데 중요한 부분입니다. 또한 잠재적으로 IR(인시던트 대응) 이벤트로 이어질 수 있는 경고 수를 줄입니다. Microsoft 365 Defender 구성 요소는 수정 작업(Microsoft 365 Defender [](m365d-autoir.md) 포털의 인시던트에 대한 조사), 알림 작업 및 [ServiceNow와](https://microsoft.service-now.com/sp/)같은 지원 티켓 생성과 같은 자동화할 수 있습니다.
 
 ## <a name="step-2-determine-your-organizations-security-posture"></a>2단계. 조직의 보안 설정 결정
 
@@ -71,7 +71,7 @@ Microsoft 365 Defender 구성 요소는 끝점용 Microsoft Defender 또는 기�
  
 ## <a name="4-understand-emerging-threats"></a>4. 새로운 위협 이해
 
-보안 [센터의](threat-analytics.md) 위협 Microsoft 365 사용하여 현재 보안 위협 환경과 함께 최신 정보를 유지할 수 있습니다. 전문가 Microsoft 보안 연구원은 최신 사이버 위협을 자세히 설명하는 보고서를 만들어 사용자의 구독, 장치 및 사용자에게 어떤 Microsoft 365 영향을 줄 수 있습니다. 이러한 보고서에는 다음이 포함됩니다.
+보안 [포털에서](threat-analytics.md) 위협 Microsoft 365 Defender 사용하여 현재 보안 위협 환경과 함께 최신 정보를 유지할 수 있습니다. 전문가 Microsoft 보안 연구원은 최신 사이버 위협을 자세히 설명하는 보고서를 만들어 사용자의 구독, 장치 및 사용자에게 어떤 Microsoft 365 영향을 줄 수 있습니다. 이러한 보고서에는 다음이 포함됩니다.
 
 - 활성 위협 요소 및 캠페인
 - 인기 있는 새로운 공격 기술
@@ -83,7 +83,7 @@ Microsoft 365 Defender 구성 요소는 끝점용 Microsoft Defender 또는 기�
 
 새로운 위협에 대한 권장 사항을 구현하여 보안 자세를 강화하고 공격 노출 영역을 최소화할 수 있습니다.
 
-일정을 정해 두어 보안 센터의 [Threat Analytics](threat-analytics.md) 섹션을 Microsoft 365 합니다.
+일정을 정해 두어 포털의 [Threat Analytics](threat-analytics.md) 섹션을 Microsoft 365 Defender 합니다.
 
 ## <a name="next-step"></a>다음 단계
 

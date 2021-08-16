@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: eDiscovery 권한이 할당된 사용자가 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery 수행할 때 로깅되는 이벤트를 Microsoft 365 규정 준수 센터.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 097e78c85af5bc75998e1a75fe6148b64afec0eb36d7c19851153920c59a4de0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 637785a86e7fa28c0c058e9f729fcf2c1604a6f3
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795545"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256419"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 
@@ -192,10 +192,10 @@ ms.locfileid: "53795545"
 
 ## <a name="detailed-properties-for-ediscovery-activities"></a>eDiscovery 활동에 대한 자세한 속성
 
-다음 표에서는 검색 결과에 나열된 eDiscovery  활동의 세부 정보 페이지에서 추가 정보를 클릭할 때 포함되는 속성에 대해 설명합니다.  이러한 속성은 감사 로그 검색 결과를 내보낼 때도 CSV 파일에 포함됩니다. eDiscovery 활동에 대한 감사 로그 레코드는 아래에 나열된 모든 세부 속성을 포함하지 않습니다.
+다음 표에는 검색 결과에 나열된 eDiscovery 활동의 플라이아웃 페이지에 포함된 속성에 대한 설명이 나와 있습니다. 이러한 속성은 감사 로그 검색 결과를 내보낼 때도 CSV 파일에 포함됩니다. eDiscovery 활동에 대한 감사 로그 레코드는 아래에 나열된 모든 세부 속성을 포함하지 않습니다.
   
 > [!TIP]
-> 검색 결과를 내보낼 때 CSV **파일에는 다중** 값 속성의 다음 표에 설명된 자세한 속성이 포함된 Detail 열이 포함되어 있습니다. 이 열의 파워 쿼리 기능을 사용하여 Excel 열을 여러 열로 분할하여 각 속성에 자체 열을 사용할 수 있습니다. 이렇게 하면 이러한 속성 중 하나 이상을 정렬하고 필터링할 수 있습니다. 자세한 내용은 감사 로그 검색의 "파일로 검색 결과 내보내기" [섹션을 참조하세요.](search-the-audit-log-in-security-and-compliance.md#step-4-export-the-search-results-to-a-file) 
+> 검색 결과를 내보낼 때 CSV 파일에는 다중 값 속성의 다음 표에 설명된 자세한 속성이 포함된 **AudtiData** 열이 포함되어 있습니다. 이 열의 파워 쿼리 기능을 사용하여 Excel 열을 여러 열로 분할하여 각 속성에 자체 열을 사용할 수 있습니다. 이렇게 하면 이러한 속성 중 하나 이상을 정렬하고 필터링할 수 있습니다. 자세한 내용은 감사 로그 검색의 "파일로 검색 결과 내보내기" [섹션을 참조하세요.](search-the-audit-log-in-security-and-compliance.md#step-3-export-the-search-results-to-a-file) 
   
 |**속성**|**설명**|
 |:-----|:-----|

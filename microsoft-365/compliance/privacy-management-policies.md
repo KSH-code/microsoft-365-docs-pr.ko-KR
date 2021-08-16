@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에서 조직의 개인 데이터를 처리하는 정책을 만들고 관리하는 방법을 Microsoft 365 경고에 응답하고 문제를 해결합니다.
-ms.openlocfilehash: 8add0ba2122c8ae73d6a9da075e346c74395084a243db68361a0df03aea8f00c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 548e8b6960b2cd27ba786aa6bd184f771a5fcb75
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842125"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256438"
 ---
 # <a name="create-and-manage-policies-in-privacy-management-preview"></a>개인 정보 관리에서 정책 만들기 및 관리(미리 보기)
 
@@ -117,7 +117,7 @@ ms.locfileid: "53842125"
 
 사용자 지정 정책을 만들거나 정책을 편집할 때 개별 정책에 대해 알림을 사용하도록 설정될 수 있습니다. 결과 섹션을 사용하여 이러한 알림을 사용하도록 설정하는 옵션을 포함하여 정책 일치가 검색될 때 발생하는 결과를 정의하고 이러한 다이제스트를 배달할 수 있는 방법을 설정할 수 있습니다.
 
-전자 메일 알림 기능은 전자 메일 알림 기능의 전역 수준에서 설정. 기본적으로 사용하도록 설정되어 있습니다. 이 설정을 해제하면 개별 정책 수준에서 특정 알림이 구성된 경우에도 모든 전자 메일이 중지됩니다. 자세한 내용은 개인 정보 관리 시작에서 설정 [구성을 참조하세요.](privacy-management-setup.md#configure-settings)
+전자 메일 알림 기능은 전자 메일 알림 기능의 전역 수준에서 설정. 기본적으로 사용하도록 설정되어 있습니다. 이 설정을 해제하면 개별 정책 수준에서 특정 알림이 구성된 경우에도 모든 전자 메일이 중지됩니다. 자세한 내용은 개인 정보 관리 [설정 관리를 참조하세요.](privacy-management-settings.md)
 
 ## <a name="view-policy-details"></a>정책 세부 정보 보기
 

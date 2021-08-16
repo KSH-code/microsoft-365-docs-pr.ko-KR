@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: 이 문서에서는 감사 로그 레코드에 대한 결과를 내보낼 때 포함된 추가 Office 365 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a3641b40b76c2839f5cd29c22c28dfb5652ce42515d4e0ffe7e3edce0dcd3a7f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0daae4136b9b10da5580d168b7cbf4e9a7e7afe5
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53808143"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256450"
 ---
 # <a name="detailed-properties-in-the-audit-log"></a>감사 로그의 자세한 속성
 
@@ -94,8 +94,4 @@ ms.locfileid: "53808143"
 ||||
 
 > [!NOTE]
-><sup>1</sup> Azure Active Directory 관련 이벤트의 경우 관리자의 값은 감사 레코드에 사용되지 않습니다. 관리자가 수행한 활동에 대한 감사 레코드는 일반 사용자(예: **UserType: 0)가** 활동을 수행한 것으로 표시됩니다. **UserID** 속성은 활동을 수행한 사용자(일반 사용자 또는 관리자)를 식별합니다.<br/>
-
-위에서 설명한 속성은 특정 이벤트의 세부 정보를 볼 때 **추가** 정보를 클릭할 때도 표시됩니다.
-  
-![감사 로그 이벤트 레코드의 자세한 속성을 보려면 추가 정보를 클릭합니다.](../media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
+><sup>1</sup> Azure Active Directory 관련 이벤트의 경우 관리자의 값은 감사 레코드에 사용되지 않습니다. 관리자가 수행한 활동에 대한 감사 레코드는 일반 사용자(예: **UserType: 0)가** 활동을 수행한 것으로 표시됩니다. **UserID** 속성은 활동을 수행한 사용자(일반 사용자 또는 관리자)를 식별합니다.

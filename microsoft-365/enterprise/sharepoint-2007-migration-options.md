@@ -27,12 +27,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 SharePoint Server 2007을 사용하여 업그레이드를 계획하는 데 도움이 되는 정보를 제공합니다.
-ms.openlocfilehash: 38c4713b7dfb705c99d970c5f68a37b031c951a5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5f3df4a66eb789cd6aa88f1f3a0f170c1c49b834a7b87bad242abb1fab15b4df
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53894830"
 ---
 # <a name="sharepoint-2007-migration-options-to-consider"></a>SharePoint 2007 마이그레이션 옵션
 

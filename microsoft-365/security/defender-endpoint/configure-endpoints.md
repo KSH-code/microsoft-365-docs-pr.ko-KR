@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 253c055198547852c55a44b60910e3a38229737e89fa5e2fa467e74089ee20d6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: eb71cc8ee014c1e96f4e57fb58785e0c15b4602a
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863802"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256602"
 ---
 # <a name="onboarding-tools-and-methods-for-windows-10-devices-in-defender-for-endpoint"></a>Endpoint용 Defender의 Windows 10 장치용 온보딩 도구 및 방법
 
@@ -39,19 +39,16 @@ ms.locfileid: "53863802"
 
 다음과 같은 배포 도구 및 방법이 지원됩니다.
 
-- 그룹 정책
-- Microsoft Endpoint Configuration Manager
-- 모바일 장치 관리(Microsoft Intune)
-- 로컬 스크립트
-
-## <a name="in-this-section"></a>이 섹션의 내용
 
 항목|설명
 :---|:---
-[그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)|그룹 정책을 사용하여 디바이스에 구성 패키지를 배포합니다.
-[Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)|Microsoft Endpoint Manager(현재 분기) 버전 1606 또는 Microsoft Endpoint Manager(현재 분기) 버전 1602 이전 버전을 사용하여 디바이스에 구성 패키지를 배포할 수 있습니다.
-[모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)|모바일 장치 관리 도구 또는 Microsoft Intune 구성 패키지를 배포할 수 있습니다.
-[로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)|로컬 스크립트를 사용하여 끝점에서 구성 패키지를 배포하는 방법을 학습합니다.
+[그룹 정책을 사용하여 장치 온보딩](configure-endpoints-gp.md)|그룹 정책을 사용하여 디바이스에 구성 패키지를 배포합니다.
+[Microsoft Endpoint Configuration Manager를 사용하여 장치 온보딩](configure-endpoints-sccm.md)|Microsoft Endpoint Manager(현재 분기) 버전 1606 또는 Microsoft Endpoint Manager(현재 분기) 버전 1602 이전 버전을 사용하여 디바이스에 구성 패키지를 배포할 수 있습니다.
+[모바일 장치 관리 도구를 사용하여 장치 온보딩](configure-endpoints-mdm.md)|모바일 장치 관리 도구 또는 Microsoft Intune 구성 패키지를 배포할 수 있습니다.
+[로컬 스크립트를 사용하여 장치 온보딩](configure-endpoints-script.md)|로컬 스크립트를 사용하여 끝점에서 구성 패키지를 배포하는 방법을 학습합니다.
 [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)|구성 패키지를 사용하여 VDI 디바이스를 구성하는 방법을 학습합니다.
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-configureendpoints-belowfoldlink)
+
+
+장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)

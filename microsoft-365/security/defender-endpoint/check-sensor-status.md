@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 91318cf3638b71ad14bf283185d31fba5280d983f961f591ebfc1c75bd7f75a2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8168977629f80923ed65e84127478eea0b526597
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53811377"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256372"
 ---
 # <a name="check-sensor-health-state-in-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender의 센서 상태 확인
 
@@ -60,5 +60,10 @@ ms.locfileid: "53811377"
 
 잘못 구성되거나 비활성 장치를 클릭할 때 장치 세부 정보를 볼 수 있습니다.
 
-## <a name="related-topic"></a>관련 항목
+## <a name="see-also"></a>참고 항목
 - [Endpoint용 Defender에서 불안정한 센서 수정](fix-unhealthy-sensors.md)
+- [클라이언트 분석기 개요](overview-client-analyzer.md)
+- [클라이언트 분석기 다운로드 및 실행](download-client-analyzer.md)
+- [Windows에서 클라이언트 분석기 실행](run-analyzer-windows.md)
+- [macOS 또는 Linux에서 클라이언트 분석기 실행](run-analyzer-macos-linux.md)
+- [Windows에서 고급 문제 해결을 위한 데이터 수집](data-collection-analyzer.md)

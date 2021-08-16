@@ -15,19 +15,19 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
-description: '요약: PowerShell을 사용하여 Microsoft 365 관리 센터에서 생성할 수 없는 보고서를 Microsoft 365 있습니다.'
-ms.openlocfilehash: 9e3b90dcdd32f80125175ad2e15a852db51e17f8
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+description: '요약: PowerShell을 사용하여 Microsoft 365 보고서에서 생성할 수 없는 보고서를 Microsoft 365 관리 센터.'
+ms.openlocfilehash: dba0e7eab3c2521193128b503fd11a00198e7abd199a0a3003ec19e1adf732fa
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572744"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53894806"
 ---
 # <a name="use-powershell-to-create-reports-for-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365 보고서 만들기
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-다양한 보고서는 관리 센터의 Microsoft 365 있습니다. 그러나 이러한 보고서는 너무 많은 정보만 제공하고 경우에 따라 더 많은 정보가 필요한 경우도 있습니다. 이러한 경우를 위해 PowerShell을 Microsoft 365.
+보고서의 여러 가지 보고서가 Microsoft 365 관리 센터. 그러나 이러한 보고서는 너무 많은 정보만 제공하고 경우에 따라 더 많은 정보가 필요한 경우도 있습니다. 이러한 경우를 위해 PowerShell을 Microsoft 365.
   
 다음 문서에서는 PowerShell을 사용하여 Microsoft 365 테넌트에서 정보를 Microsoft 365 방법을 설명합니다.
   

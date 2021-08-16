@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7e4042b0323500bdfc5b212abdd7902fbdd75efb
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: e0e3aef57e4b7458d21f5b0917352728733505eb8b003cfc9a2e778754946fc9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535209"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53896170"
 ---
 # <a name="payment-information-for-saint-vincent-and-the-grenadines"></a>세인트 빈센트 그레나딘의 결제 정보
 
@@ -31,5 +31,5 @@ USD로만 결제하고 송장 번호를 참조하시기 바랍니다.
 **은행:** 뱅크 of America  
 **Branch** 달라  
 **SWIFT 코드:** BOFAUS3N  
-**계정 번호:** 4426587954  
+**계정 번호: 4426587954**  
 **계정 이름:** Microsoft

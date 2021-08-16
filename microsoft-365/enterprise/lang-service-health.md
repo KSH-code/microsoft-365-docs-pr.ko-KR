@@ -25,12 +25,12 @@ search.appverid:
 - BCS160
 - IWA160
 description: 서비스 상태 대시보드 게시물은 영어로만 제공되지만 서비스 상태 대시보드 게시물에 대해 지정한 언어로 자동으로 표시될 Microsoft 365.
-ms.openlocfilehash: 9f5ce6dbb918f7a3dddf43b6332d28142446f179
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: d6ad788ef5847dc8bd5c30742db8950ffabbb395b2757b16029438ef542f35cc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53596062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53864630"
 ---
 # <a name="language-translation-for-service-health-dashboard"></a>서비스 상태 대시보드용 언어 번역
 

@@ -17,18 +17,18 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery 그룹에서 채팅 대화를 재구성, 검토 및 내보내기하기 위한 Advanced eDiscovery 재구성 기능에 대해 Microsoft Teams Yammer 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66427fef6b3a112e0166582ea6598a865f9e64d809a3b9ff2b36c82dd8bd5f50
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2c1790646587d46f39a13b153a8cd152fb21468f
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53880491"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256462"
 ---
 # <a name="conversation-threading-in-advanced-ediscovery"></a>Advanced eDiscovery
 
 인스턴트 메시징은 질문을 하고, 아이디어를 공유하거나, 많은 대상을 통해 빠르게 의사소통할 수 있는 편리한 방법입니다. Microsoft Teams 및 Yammer 그룹과 같은 인스턴트 메시징 플랫폼이 엔터프라이즈 공동 작업에 핵심이 되기 때문에 조직은 eDiscovery 워크플로에서 이러한 새로운 형태의 통신 및 공동 작업을 사용하는 방법을 평가해야 합니다.
 
-Advanced eDiscovery 대화 재구성 기능은 상황에 맞는 콘텐츠를 식별하고 고유한 대화 보기를 생성하는 데 도움이 하도록 디자인되어 있습니다. 이 기능을 사용하면 사용자와 같은 플랫폼에서 생성되는 전체 인스턴트 메시지 대화(스레드 대화라고도 하는)를 효율적이고 빠르게 검토할 수 Microsoft Teams.
+콘텐츠의 대화 재구성 기능은 Advanced eDiscovery 콘텐츠를 식별하고 고유한 대화 보기를 생성하는 데 도움이 하도록 디자인되어 있습니다. 이 기능을 사용하면 사용자와 같은 플랫폼에서 생성되는 전체 인스턴트 메시지 대화(스레드 대화라고도 하는)를 효율적이고 빠르게 검토할 수 Microsoft Teams.
 
 대화 재구성에서는 기본 제공 기능을 사용하여 스레드된 대화를 재구성, 검토 및 내보낼 수 있습니다. 대화 Advanced eDiscovery 사용하여 다음을 할 수 있습니다.
 
@@ -50,7 +50,7 @@ Advanced eDiscovery 대화 재구성 기능은 상황에 맞는 콘텐츠를 식
 
    ![Microsoft Teams 채널 대화](../media/threadedchat.png)
 
-   다른 앱(예: Teams의 1xN 채팅 메시지)에는 공식적인 회신 체인이 없는 대신 메시지가 단일 스레드 내에서 "평평한 메시지 강"으로 표시됩니다. 이러한 유형의 앱에서는 특정 시간 내에 발생하는 메시지 그룹에서 대화가 유추됩니다. 이 "소프트 그룹화" 메시지는 회신 체인이 아니라 특정 관심 주제에 대한 "전방" 대화를 나타내고 있습니다.
+   다른 앱(예: Teams의 그룹 채팅 메시지)에는 공식적인 회신 체인이 없는 대신 메시지가 단일 스레드 내에서 "평평한 메시지 강"으로 표시됩니다. 이러한 유형의 앱에서는 특정 시간 내에 발생하는 메시지 그룹에서 대화가 유추됩니다. 이 "소프트 그룹화" 메시지는 회신 체인이 아니라 특정 관심 주제에 대한 "전방" 대화를 나타내고 있습니다.
 
 ## <a name="step-1-create-a-draft-collection"></a>1단계: 초안 컬렉션 만들기
 
@@ -70,29 +70,19 @@ Advanced eDiscovery 대화 재구성 기능은 상황에 맞는 콘텐츠를 식
 
 3. 검토 집합에 항목이 추가된 후 *CRC1의* 모든 개별 메시지를 검토할 수 있습니다.
 
-스레드된 대화 옵션을 사용하도록 설정한 경우 검토 집합에 초안 컬렉션 [커밋을 참조하세요.](commit-draft-collection.md#commit-a-draft-collection-to-a-review-set)
+스레드된 대화 옵션을 사용하도록 설정하려면 검토 집합에 초안 컬렉션 [커밋을 참조하세요.](commit-draft-collection.md#commit-a-draft-collection-to-a-review-set)
 
 ## <a name="step-3-review-and-export-threaded-conversations"></a>3단계: 스레드된 대화 검토 및 내보내기
 
-콘텐츠가 처리되고 검토 집합에 추가된 후 검토 집합의 데이터 검토를 시작할 수 있습니다. 검토 기능은 콘텐츠가 표준 검토 집합에 추가되어 있는지 또는 대화 검토 집합에 추가된 것인지에 따라 다릅니다.
-
-### <a name="reviewing-conversations-in-a-standard-review-set"></a>표준 검토 집합에서 대화 검토
-
-표준 검토 집합에서 메시지는 사서함 폴더에 저장되는 방법과 유사하게 개별 항목으로 처리되고 표시됩니다. 이 워크플로에서 각 메시지는 별도의 항목으로 처리됩니다. 따라서 스레드된 요약 및 내보내기 옵션은 표준 검토 집합에서 사용할 수 없습니다.
-
-  ![표준 검토 집합](../media/standardrs.PNG)
-
-### <a name="reviewing-conversations-in-a-conversation-review-set"></a>대화 검토 집합에서 대화 검토
-
-대화 검토 집합에서 개별 메시지는 함께 스레드되어 대화로 표시됩니다. 이를 통해 상황에 맞는 대화를 검토하고 내보낼 수 있습니다.
+콘텐츠가 처리되고 검토 집합에 추가된 후 검토 집합의 데이터 검토를 시작할 수 있습니다. 개별 메시지는 함께 스레드로 처리된 후 대화로 표시됩니다. 이를 통해 상황에 맞는 대화를 검토하고 내보낼 수 있습니다.
 
   ![대화 검토 집합](../media/ConversationRSOptions.PNG)
 
-다음 섹션에서는 대화 검토 집합의 대화 검토 및 내보내기에 대해 설명합니다.
+다음 섹션에서는 대화 검토 및 내보내기에 대해 설명합니다.
 
-#### <a name="reviewing-conversations"></a>대화 검토
+### <a name="reviewing-conversations"></a>대화 검토
 
-대화 검토 집합에서 다음 옵션을 사용하여 검토 프로세스를 용이하게 할 수 있습니다.
+검토 집합에서 다음 옵션을 사용하여 검토 프로세스를 용이하게 할 수 있습니다.
 
 - **대화로 그룹화:** 동일한 대화 내의 메시지를 그룹화하여 사용자가 검토 프로세스를 간소화하고 더 쉽게 진행할 수 있도록 합니다.
 
@@ -110,31 +100,18 @@ Advanced eDiscovery 대화 재구성 기능은 상황에 맞는 콘텐츠를 식
 
 - **대화 변환 다시 시작:** 메시지를 대화 검토 집합에 추가하면 변환 작업이 자동으로 실행되어 스레드된 요약을 만들고 보기에 주석을 추가합니다. 대화 재구성 작업이 실패하면 작업 및 검토 집합에 대화 > 만들기를 클릭하여 이 작업을 **다시 실행할** 수 있습니다.
 
-#### <a name="exporting-conversations"></a>대화 내보내기
+### <a name="exporting-conversations"></a>대화 내보내기
 
-대화 검토 집합에서 다음 옵션을 설정하여 대화를 내보낼 수 있습니다.
+검토 집합에서 대화를 내보낼 때 선택할 수 있는 옵션은 검토 집합에서 문서 [내보내기 를 참조하세요.](export-documents-from-review-set.md#export-options)
 
-![대화에 대한 내보내기 옵션](../media/export.png)
-
-1. 메타데이터 옵션:
-   - **파일 로드:** 각 개별 메시지, 전자 메일 및 문서에 대한 메타데이터가 포함됩니다. 대화의 각 메시지에 대해 하나의 행이 있습니다.
-   - **태그:** 검토 프로세스의 태그는 메타데이터 파일에 포함됩니다. 대화의 메시지는 동일한 태그를 공유합니다.
-
-2. 대화 옵션:
-   - **대화 파일:** 대화 파일을 내보낼 때 주석이 있는 보기가 PDF 파일로 변환된 후 내보내기 폴더로 다운로드됩니다. 한 대화 파일의 메시지는 동일한 대화 파일의 PDF 버전을 지점으로 합니다.
-   - **개별 채팅 메시지:** 개별 메시지를 내보낼 때 대화의 각 고유 메시지는 독립 실행형 항목으로 내보낼 수 있습니다. 파일은 사서함에 저장한 형식과 같은 형식으로 내보낼 수 있습니다. 특정 대화의 경우 여러 .msg 파일을 받게 됩니다.
-
-     > [!NOTE]
-     > 대화 파일에 주석을 적용한 경우 이러한 주석은 개별 메시지로 전송되지 않습니다.
-
-3. 기타 옵션:
-   - **내보낼 모든 콘텐츠에 대한 텍스트 파일을 생성합니다.** 검토 집합에서 내보낼 각 대화에 대한 텍스트 파일을 생성합니다.
-   - **내보낼 콘텐츠를 시정된 PDF로 바꾸기:** 검토 프로세스 중에 삭제된 대화 파일이 생성되는 경우 내보내기 중에 이러한 파일을 사용할 수 있습니다. 기본 파일만 내보낼지(이 옵션을 선택하지 않은 경우) 기본 파일을 PDF 파일로 내보낼지 아니면 기본 파일을 PDF 파일로 내보낼 것인지(이 옵션을 선택하여) 기본 파일을 편집된 버전으로 바꿀지 여부를 결정하면 됩니다.
+특히 전체 채팅 대화를 단일 PDF 파일로 내보내거나 대화의 각 채팅 메시지를 개별 파일로 내보낼 수 있습니다.
 
 ## <a name="more-information"></a>추가 정보
 
 사례 데이터를 검토하는 방법에 대한 자세한 내용은 Advanced eDiscovery 문서를 참조합니다.
 
+- [검토 집합의 콘텐츠 쿼리 및 필터링](review-set-search.md)
+- [검토 집합에서 문서 태그 지정](tagging-documents.md)
 - [사례 데이터 보기](view-documents-in-review-set.md)
 - [대/소문자 데이터 분석](analyzing-data-in-review-set.md)
 - [사례 데이터 내보내기](exporting-data-ediscover20.md)
