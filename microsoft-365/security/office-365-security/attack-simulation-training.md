@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지를 위한 Microsoft Defender의 공격 시뮬레이션 교육을 사용하여 피싱 방지를 교육하는 방법을 Office 365.
 ms.technology: mdo
-ms.openlocfilehash: d82e7544e6795e4514cf1949645107c53fc69c61
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 9bed87402830981f355bb348b359a83f6c688ad59ff47493c5162350cd9e7297
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878367"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53897824"
 ---
 # <a name="simulate-a-phishing-attack"></a>피싱 공격 시뮬레이션
 
@@ -27,11 +27,11 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 
 공격 시뮬레이션 교육에 대한 시작 정보는 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
 
-시뮬레이션된 피싱 공격을 시작하기 위해 Microsoft 365 Defender 포털()을 열고 전자 메일 & 공동 작업 공격 시뮬레이션 교육으로 이동한 후 시뮬레이션 탭으로 <https://security.microsoft.com/>  \> 전환합니다. **[](https://security.microsoft.com/attacksimulator?viewid=simulations)**
+시뮬레이션된 피싱 공격을 시작하기 위해 Microsoft 365 Defender 포털()을 열고 전자 메일 & 공동 작업 공격 시뮬레이션 교육으로 이동한 다음 시뮬레이션 탭으로 <https://security.microsoft.com/>  \> 전환합니다. **[](https://security.microsoft.com/attacksimulator?viewid=simulations)**
 
 **시뮬레이션에서**+ **시뮬레이션 실행을 선택합니다.**
 
-![Defender 포털에서 시뮬레이션 Microsoft 365 실행](../../media/attack-sim-preview-launch.png)
+![웹 사이트 포털에서 시뮬레이션 Microsoft 365 Defender 실행](../../media/attack-sim-preview-launch.png)
 
 > [!NOTE]
 > 시뮬레이션을 만들 때 어느 시점에서든 저장하고 닫아서 나중에 시뮬레이션을 계속 구성할 수 있습니다.
@@ -49,7 +49,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 > [!TIP]
 > 각 기술에 **대한** 설명 내에서 세부 정보 보기를 클릭하면 해당 기술에 대한 추가 정보와 시뮬레이션 단계가 표시됩니다.
 >
-> ![Microsoft 365 Defender 포털의 공격 시뮬레이션 교육 내에서 자격 증명 수집을 위한 시뮬레이션 단계](../../media/attack-sim-preview-sim-steps.png)
+> ![포털에서 공격 시뮬레이션 교육 내에서 자격 증명 수집을 위한 시뮬레이션 Microsoft 365 Defender 단계](../../media/attack-sim-preview-sim-steps.png)
 
 기술을 선택한 후 다음 을 클릭한 후 **시뮬레이션에** 이름과 설명(옵션)을 제공합니다.
 
@@ -79,7 +79,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 
 - **사용자를 추가하여** 지난 3개월 동안 시뮬레이션의 대상으로 지정되지 않은 사용자를 대상으로 지정하는 등 테넌트에 대한 검색뿐만 아니라 고급 검색 및 필터링 기능을 활용할 수 있습니다.
 
-  ![Microsoft 365 Defender 포털의 공격 시뮬레이션 Microsoft 365 필터링](../../media/attack-sim-preview-user-targeting.png)
+  ![Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육의 사용자 필터링](../../media/attack-sim-preview-user-targeting.png)
 
 - **CSV에서 가져오기에서는** 이 시뮬레이션에 대해 미리 정의한 사용자 집합을 가져올 수 있습니다.
 
@@ -94,7 +94,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 > [!NOTE]
 > 과정 및 모듈을 직접 선택하기로 선택한 경우 권장되는 콘텐츠와 사용 가능한 모든 과정 및 모듈을 계속 볼 수 있습니다.
 >
-> ![Microsoft 365 Defender 포털에서 공격 시뮬레이션 Microsoft 365 추가](../../media/attack-sim-preview-add-training.png)
+> ![Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육에 권장되는 교육 추가](../../media/attack-sim-preview-add-training.png)
 
 다음 단계에서 직접 교육을  선택하기로 선택한 경우 교육을 추가하고 교육 방문 페이지를 사용자 지정해야 합니다. 교육 방문 페이지를 미리 보고 머리더와 본문을 변경할 수 있습니다.
 
@@ -105,3 +105,6 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 **지역 인식 시간제** 배달을 사용하도록 설정하여 해당 지역에 따라 작업 시간 동안 직원에게 시뮬레이트된 공격 메시지를 전달합니다.
 
 완료되면 다음을 클릭하고  시뮬레이션의 세부 정보를 검토합니다. 편집을  클릭하여 돌아가서 변경해야 하는 세부 정보를 변경합니다. 완료되면 제출을 **클릭합니다.**
+
+> [!NOTE]
+> 특정 상표, 로고, 기호, 사인 및 기타 소스 식별자는 로컬, 주 및 연방법 및 법률에 따라 높이 보호를 받을 수 있습니다. 이러한 표시기를 무단으로 사용할 경우 사용자에게 범죄 벌금을 비롯한 벌금을 부과할 수 있습니다. 광범위한 목록은 아니며, 여기에는 부사장, 부사장, 의회 봉인, CIA, FBI, 사회 보장, 메디케어 및 Medicaid, 미국 국세청 및 국세청이 포함됩니다. 이러한 상표 범주를 넘어 제3자 상표를 사용 및 수정하면 본질적인 위험이 수차차적으로 증가합니다. 페이로드에서 자체 상표 및 로고를 사용하는 것은 특히 조직에서 사용을 허용하는 경우 덜 위험합니다. 페이로드를 만들거나 구성할 때 사용하는 것이 적절하거나 적절하지 않은 경우 법률 자문가에게 문의해야 합니다.

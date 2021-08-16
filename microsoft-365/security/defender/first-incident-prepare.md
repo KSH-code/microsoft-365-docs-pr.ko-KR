@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: fcdce7f5a41c23dfe33eb75ef15b579ac12c8742
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: aa4080c6cfbbf0af93587e00b9b6d7489e6ed2da0e3fde1a0be8f84595026b7f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194940"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53897894"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>첫 번째 인시던트에 대한 보안 준비
 
@@ -77,7 +77,7 @@ Microsoft 365 Defender 구성 요소는 끝점용 Microsoft Defender 또는 기�
 - 인기 있는 새로운 공격 기술
 - 중요한 취약성
 - 일반적인 공격 표면
-- 맬웨어가 보인 경우
+- 널리 사용되는 맬웨어
 
 또한 위협 분석은 구성 및 경고를 확인하여 위험 상태 및 보고서에 적용할 수 있는 활성 경고가 있는지 여부를 파악합니다.
 

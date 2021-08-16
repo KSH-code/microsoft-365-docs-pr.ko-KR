@@ -21,12 +21,12 @@ ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 description: 이 문서에서는 PowerShell을 사용하여 라이선스가 없는 사용자에게 Microsoft 365 라이선스를 할당하는 방법을 학습합니다.
-ms.openlocfilehash: 6d7e005aff018394810082de57c68ea289057f8e
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 5ce0a8a5cab4acf5db2e72f56526228a8f78b7809677026267bd6caceff77004
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904890"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 계정에 라이선스 할당
 
@@ -34,7 +34,7 @@ ms.locfileid: "52572624"
 
 사용자는 라이선스 계획에서 Microsoft 365 할당될 때까지 모든 Microsoft 365 서비스를 사용할 수 없습니다. PowerShell을 사용하여 라이선스가 없는 계정에 라이선스를 신속하게 할당할 수 있습니다. 
 
-먼저 사용자 계정에 위치를 할당해야 합니다. 위치 지정은 Microsoft 365 관리 센터에서 새 사용자 계정을 만드는 [데 필요합니다.](../admin/add-users/add-users.md) 
+먼저 사용자 계정에 위치를 할당해야 합니다. 위치 지정은 에서 새 사용자 계정을 만드는 데 필요한 [Microsoft 365 관리 센터.](../admin/add-users/add-users.md) 
 
 기본적으로는 사내 Active Directory 도메인 서비스에서 동기화된 계정의 위치가 지정되어 있지 않습니다. 다음에서 이러한 계정의 위치를 구성할 수 있습니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "52572624"
  - [Azure Portal(Active](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) **Directory**  >  **Users** > 사용자 계정> **연락처** 정보 국가  >    >  또는 지역)입니다.
 
 >[!Note]
->[Microsoft 365](../admin/manage/assign-licenses-to-users.md) 관리 센터를 통해 사용자 계정에 라이선스를 할당하는 방법을 알아보하세요. 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
+>[사용자 계정을 통해](../admin/manage/assign-licenses-to-users.md) 라이선스를 할당하는 방법을 Microsoft 365 관리 센터. 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
@@ -117,7 +117,7 @@ Get-MsolUser -All | where {$_.UsageLocation -eq $null}
 Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>
 ```
 
-예:
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```powershell
 Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US

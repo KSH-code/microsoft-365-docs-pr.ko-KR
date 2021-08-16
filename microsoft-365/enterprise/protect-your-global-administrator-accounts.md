@@ -22,12 +22,12 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: 이 문서에서는 사용자 구독에 대한 전역 관리자 액세스를 보호하는 Microsoft 365 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c929651f3e70a1aeef16cdf48d853d675820833
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 97ef59ff9b08ba9d763b18381b76a697de2e4338f28fbfb3799eba53d89e9c09
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926550"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904698"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>전역 Microsoft 365 계정 보호
 
@@ -52,7 +52,7 @@ Microsoft는 조직을 보호하는 데 도움이 되는 기능을 제공하지�
 
 사용자 계정에 역할을 할당하는 등 전역 관리자 권한이 필요한 관리 작업은 비교적 적습니다. 따라서 전역 관리자 역할이 할당된 일상적인 사용자 계정을 사용하는 대신 다음 단계를 수행합니다.
   
-1. 전역 관리자 역할이 할당된 사용자 계정 집합을 결정하십시오. 이 작업을 Microsoft 365 관리 센터에서 또는 다음 Azure AD(Azure Active) 디렉터리 PowerShell을 사용하여 Graph 있습니다.
+1. 전역 관리자 역할이 할당된 사용자 계정 집합을 결정하십시오. 이 작업을 Microsoft 365 관리 센터 Azure AD(Azure Active) 디렉터리 PowerShell을 사용하여 이 작업을 Graph 있습니다.
   
   ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Global Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName

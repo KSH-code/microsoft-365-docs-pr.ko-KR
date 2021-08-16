@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: adb92b80-b342-4ecb-99a1-da2a2b4782eb
 description: 이 문서에서는 SharePoint Online에서 게시를 사용하도록 설정한 탐색 옵션 SharePoint 설명합니다.
-ms.openlocfilehash: b5989bf26ebf7bb1452f983af89a6e6739821d53
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4cb0406fc9f4d1496cb28282427c38f83c3ea1eac31aecbf6e33f7247660be2a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53905000"
 ---
 # <a name="navigation-options-for-sharepoint-online"></a>온라인용 탐색 SharePoint 옵션
 
@@ -101,7 +101,7 @@ SharePoint [페이지](./page-diagnostics-for-spo.md) 진단 도구는 Microsoft
 
 관리 탐색의 세부 docs.microsoft.com 문서가 몇 가지 있습니다. 예를 들어 SharePoint 서버의 관리 [탐색 개요를 참조하세요.](/sharepoint/administration/overview-of-managed-navigation)
 
-관리 탐색을 구현하기 위해 사이트의 탐색 구조에 해당하는 URL을 사용하여 용어를 설정해야 합니다. 대부분의 경우 구조 탐색을 대체하기 위해 관리 탐색을 수동으로 구성할 수도 있습니다. 예:
+관리 탐색을 구현하기 위해 사이트의 탐색 구조에 해당하는 URL을 사용하여 용어를 설정해야 합니다. 대부분의 경우 구조 탐색을 대체하기 위해 관리 탐색을 수동으로 구성할 수도 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ![SharePoint 온라인 사이트 구조](../media/SPONavOptionsListOfSites.png))
 

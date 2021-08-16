@@ -15,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: 다음 단계에 따라 엔터프라이즈 테스트 환경에 대한 Microsoft 365 전역 관리자 계정을 보호합니다.
-ms.openlocfilehash: 3eab538b59e460857e2fa195aaacf51051f94d6b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 17aca0060501a4df3c694c4c7e4aa2aef98248d54b36d27ff3c99780648274b5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918885"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904734"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 전역 관리자 계정 보호
 
@@ -52,7 +52,7 @@ ms.locfileid: "50918885"
 
 먼저 새 사용자 계정을 전용 전역 관리자로 생성합니다.
 
-1. 별도 탭에서 관리 Microsoft 365 [를 를 니다.](https://admin.microsoft.com/)
+1. 별도의 탭에서 를 [Microsoft 365 관리 센터.](https://admin.microsoft.com/)
 2. 사용자 **활성 사용자를**  >  **선택한** 다음 사용자 **추가를 선택합니다.**
 3. 사용자 **추가 창의** **이름,** 표시 이름 및 사용자 이름 상자에 **DedicatedAdmin을** **입력합니다.**
 4. 암호를 **선택하고** **암호** 만들기를 선택한 다음 강력한 암호를 입력합니다. 이 새 계정의 암호를 안전한 위치에 기록합니다.
@@ -63,7 +63,7 @@ ms.locfileid: "50918885"
 
 그런 다음 GlobalAdmins라는 새 그룹을 만들고 DedicatedAdmin 계정을 추가합니다.
 
-1. 관리 **Microsoft 365 탭의** 왼쪽 탐색  창에서 그룹을 선택한 다음 그룹을 **선택합니다.**
+1. Microsoft 365 관리 센터 **탭의** 왼쪽 탐색  창에서 그룹을 선택한 다음 그룹을 **선택합니다.**
 2. 그룹 **추가를 선택합니다.**
 3. 그룹 **유형 선택 창에서** 보안 을 선택하고 다음 을 **선택합니다.**
 4. 기본 **설정** 창에서 그룹 만들기를 선택한 다음 닫기 **를 선택합니다.**
@@ -93,7 +93,7 @@ ms.locfileid: "50918885"
 8. 새 **창의 액세스** 제어 **섹션에서** 부여를 **선택합니다.**
 9. 부여 **창에서** 액세스 차단을 **선택하고** 를 **선택합니다.**
 10. 새로 만들기 **창에서** 정책 사용에 **대해** **을** 선택하고 만들기를 **선택합니다.**
-11. Azure **Portal을** 닫고 관리 **Microsoft 365 탭을 닫습니다.**
+11. Azure **Portal을** **닫고** Microsoft 365 관리 센터 탭을 닫습니다.
 
 첫 번째 정책을 테스트하려면 전용Admin 계정으로 로그인합니다. MFA를 구성하라는 메시지가 표시해야 합니다. 이는 첫 번째 정책이 적용되고 있는 것을 보여 주며,
 

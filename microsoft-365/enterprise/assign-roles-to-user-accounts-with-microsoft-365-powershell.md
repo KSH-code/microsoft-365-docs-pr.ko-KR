@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: 이 문서에서는 PowerShell을 사용하여 사용자 계정에 관리자 역할을 Microsoft 365 방법을 알아보습니다.
-ms.openlocfilehash: 84e785052c970ca15487540c3904eacdd0e9ca28
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ef02c57037e17d17455ea19e78beefd221fc678386fe1fbb68f465da0fe0df36
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904914"
 ---
 # <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 통해 사용자 Microsoft 365 관리자 역할 할당
 
@@ -34,7 +34,7 @@ ms.locfileid: "50905383"
 PowerShell을 사용하여 사용자 계정에 역할을 쉽게 할당할 수 Microsoft 365.
 
 >[!Note]
->Microsoft 365 관리 [](../admin/add-users/assign-admin-roles.md) 센터를 통해 사용자 계정에 관리자 역할을 할당하는 방법을 학습합니다.
+>사용자 계정을 [통해](../admin/add-users/assign-admin-roles.md) 관리자 역할을 할당하는 방법을 Microsoft 365 관리 센터.
 >
 >추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
 >
@@ -48,7 +48,7 @@ PowerShell을 사용하여 사용자 계정에 역할을 쉽게 할당할 수 Mi
 그런 다음 역할의 이름을 확인 합니다. 에서 [관리자 역할 권한을 Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
 >[!Note]
->이 문서의 메모에 주의하세요. 일부 역할 이름은 Azure AD Azure Active Directory PowerShell과 다릅니다. 예를 들어 SharePoint *관리* 센터의 Microsoft 365 관리자 역할은 Azure AD PowerShell의 SharePoint *서비스* 관리자입니다.
+>이 문서의 메모에 주의하세요. 일부 역할 이름은 Azure AD Azure Active Directory PowerShell과 다릅니다. 예를 들어 SharePoint *관리자* 역할은 Microsoft 365 관리 센터 PowerShell의 SharePoint *관리자입니다.*
 >
 
 그런 다음 로그인 및 역할 이름을 입력하고 다음 명령을 실행합니다.

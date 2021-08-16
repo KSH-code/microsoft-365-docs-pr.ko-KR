@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 통과 인증을 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: f257b85672a1a1b27f600d145b1f9f3296b21980
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 530adf4e8b5b470f322cb3f0316151771ec30cf80a3a409caa20e5871b747883
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199852"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904721"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 통과 인증을 위한 ID 및 장치 액세스 필수 구성 요소
 
@@ -86,7 +86,7 @@ ms.locfileid: "51199852"
 - 사용자 4
 - 사용자 5
 
-사용자 2 계정에 대해서만 다중 요소 인증을 테스트하십시오.
+사용자 2 계정에 대해서만 다단계 인증을 테스트합니다.
 
 ## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>7단계: 도메인에 가입된 컴퓨터의 자동 장치 Windows 사용 
 

@@ -18,12 +18,12 @@ search.appverid:
 - PJU120
 - PJW120
 description: 2021년 4월 13일 Project Server 2010에 대한 지원이 종료됩니다. 이 문서를 가이드로 사용하여 Project Online 또는 최신 버전의 Project 서버로 업그레이드할 수 있습니다.
-ms.openlocfilehash: 0ca37d00ee670a8a3f7c83d75864b5af19587951
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: ec8046589fb1691ca0feb4791d174587b33eb8c9cb2c51f720292fb2e3561f12
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904754"
 ---
 # <a name="project-server-2010-end-of-support-roadmap"></a>Project Server 2010 지원 종료 로드맵
 

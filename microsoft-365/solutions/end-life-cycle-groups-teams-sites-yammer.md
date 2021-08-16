@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 그룹, 팀 및 팀에 대한 수명 주기 종료 옵션 Yammer.
-ms.openlocfilehash: fccdf838b7ebec6a1ab1fae2f709824bfbd3b6d1
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 9532fb7f7c57cf883a0c4d989c5372239eab1c9666890dabfa598cacdbb652cf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53833018"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>그룹, 팀 및 팀에 대한 수명 주기 종료 옵션 Yammer
 
@@ -43,7 +43,7 @@ Microsoft 365 그룹 및 Microsoft Teams 연결된 여러 서비스에서 작업
 |Project 웹에서 사용|Project 계획|
 |로드맵|로드맵|
 |SharePoint|파일, 목록, Teams 채널 위키 데이터|
-|Stream|동영상|
+|Stream|비디오|
 |Yammer|Conversations|
 
 그룹 또는 팀을 삭제할 때 대부분의 관련 자원도 삭제됩니다. 예외는 다음과 같습니다.
