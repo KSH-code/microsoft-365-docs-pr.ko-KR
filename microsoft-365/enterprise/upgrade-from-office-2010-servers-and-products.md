@@ -1,7 +1,7 @@
 ---
 title: Office 2010 서버 및 클라이언트 업그레이드에 도움이 되는 리소스
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: ITPro
 ms.topic: overview
@@ -23,12 +23,12 @@ f1.keywords:
 - NOCSH
 description: 지원이 곧 종료되어 사용자 지정 지원 계약을 사용할 수 없는 Office 2010 서버 및 클라이언트 응용 프로그램에서 업그레이드 계획을 세우기 시작하십시오.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4c17fcd6738b1a6e1d8359cace27b7feaed3afa5f4699391fbacd79c8ddcc9b2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 15d70ba1a090af9c378f7a041313620703c2a667
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53878056"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354179"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2010-servers-and-clients"></a>Office 2010 서버 및 클라이언트 업그레이드에 도움이 되는 리소스
 

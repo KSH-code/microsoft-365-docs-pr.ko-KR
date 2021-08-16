@@ -10,12 +10,12 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 description: 이 문서에서는 분류 및 Azure Active Directory 레이블에 대한 클래식 설명을 제공합니다.
-ms.openlocfilehash: 07bc09afb3e490961a8cc5a88857ec49dd962856
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 8999451af155462cbd2f4c08354b01115ac2763cb15da715d5a31ef7836a4d6b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221753"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53885834"
 ---
 # <a name="azure-active-directory-classification-and-sensitivity-labels-for-microsoft-365-groups"></a>Azure Active Directory 그룹에 대한 분류 및 Microsoft 365 레이블 지정
 
@@ -32,7 +32,7 @@ ms.locfileid: "51221753"
 ## <a name="scenario-1-tenant-never-used-classic-aad-classifications-or-sensitivity-labels-for-documents-and-emails"></a>시나리오 1: 테넌트가 문서 및 전자 메일에 대해 클래식 AAD 분류 또는 민감도 레이블을 사용한 적이 없습니다.
 
 - 테넌트 관리자는 AAD powershell cmdlet을 통해 테넌트 플래그 "EnableMIPLabels"를 true로 설정하여 그룹에 대해 민감도 레이블을 사용하도록 설정할 수 있습니다.
-- 테넌트 관리자는 테넌트 준수 센터 에서 [민감도 Microsoft 365 만듭니다.](https://compliance.microsoft.com)
+- 테넌트 관리자는 에 민감도 레이블을 [Microsoft 365 규정 준수 센터.](https://compliance.microsoft.com)
     - 테넌트 관리자는 암호화 및 워터마크와 같은 파일 및 전자 메일 관련 작업을 선택할 수 있습니다.
     - 테넌트 관리자는 그룹 및 Microsoft 365 레이블에 대한 온라인 SharePoint 작업을 선택할 수 있습니다.
 - 테넌트 관리자가 정책을 게시합니다.
@@ -58,7 +58,7 @@ ms.locfileid: "51221753"
 
 ### <a name="case-a-tenant-never-used-sensitivity-labels-for-documents-and-emails"></a>사례 A: 테넌트가 문서 및 전자 메일에 대해 민감도 레이블을 사용한 적이 없습니다.
 
-1. 규정 [Microsoft 365](https://compliance.microsoft.com)센터에서 기존 클래식 Azure AD 레이블과 동일한 이름으로 민감도 레이블을 만드는 것이 좋습니다.
+1. 이 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)기존 Azure AD 레이블과 동일한 이름으로 민감도 레이블을 만드는 것이 좋습니다.
 2. PowerShell cmdlet을 사용하여 이름 매핑을 사용하여 기존 Microsoft 365 및 SharePoint 레이블을 적용할 수 있습니다.
 3. 관리자는 클래식 Azure AD 레이블을 삭제할 수 있습니다.
     - 호환되는 워크로드에는 이러한 민감도 레이블과 그룹이 생성됩니다.
@@ -88,7 +88,7 @@ ms.locfileid: "51221753"
 
 1. 관리자가 테넌트 플래그 'EnableMIPLabels'를 true로 설정하여 테넌트에서 민감도 레이블 기능을 사용하도록 설정하는 즉시 그룹/사이트/팀의 문서 및 전자 메일 민감도 레이블이 대화 상자를 만들고 편집합니다.
 2. 관리자는 동일한 문서 및 전자 메일 민감도 레이블을 사용하여 그룹/사이트/팀에 대해 관련 그룹 설정을 지정하여 개인 정보 및 외부 사용자 액세스를 적용할 수 있습니다.
-    1. 준수 [Microsoft 365 사이트](https://compliance.microsoft.com)및 그룹 **탭을** 선택합니다.
+    1. 의 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)사이트 **및 그룹 탭을** 선택합니다.
     2. 문서 또는 전자 메일 민감도 레이블을 편집합니다.
 
 ## <a name="sample-script"></a>예제 스크립트

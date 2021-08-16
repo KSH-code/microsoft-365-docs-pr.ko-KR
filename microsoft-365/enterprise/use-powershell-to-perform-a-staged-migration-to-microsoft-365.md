@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 사용하여 Microsoft 365로 미리 구성된 마이그레이션 수행
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 07/17/2020
 audience: Admin
@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: a20f9dbd-6102-4ffa-b72c-ff813e700930
 description: PowerShell을 사용하여 단계적 마이그레이션을 사용하여 시간이 지날 때 원본 전자 메일 시스템에서 원본 전자 메일 시스템으로 콘텐츠를 이동하는 방법을 Microsoft 365.
-ms.openlocfilehash: dd78d466c62303ffe208137f39ee5188c0d03c283fca04263842e63982183b92
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0ec8aca643730b063ee75ead69908959a992d2dc
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807255"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354167"
 ---
 # <a name="use-powershell-to-perform-a-staged-migration-to-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365로 미리 구성된 마이그레이션 수행
 

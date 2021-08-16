@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: 보안 및 준수 센터 Office 365 자동으로 사용자로 리디렉션하는 방법을 Microsoft 365 규정 준수 센터.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 167a38d4f4cd06f98993f401d72f9b6dafa29f40
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: ca5768eca9cdf0be9699c24c63ddd1fc72f5f4169ee9b8dd1b5dbf1dc46fa804
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53543632"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53885846"
 ---
 # <a name="redirect-users-from-the-office-365-security-and-compliance-center-to-the-microsoft-365-compliance-center"></a>보안 및 Office 365 센터에서 보안 및 준수 센터로 사용자를 Microsoft 365 규정 준수 센터
 

@@ -1,7 +1,7 @@
 ---
 title: 하이브리드 ID 및 디렉터리 동기화를 Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: conceptual
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: d3577c90-dda5-45ca-afb0-370d2889b10f
 description: Active Directory 도메인 서비스 정리 및 Microsoft 365 도구와의 디렉터리 동기화에 Azure Active Directory 커넥트 설명
-ms.openlocfilehash: 10fe97f13f02aa19371b40284ca0549d6f14285042bf19ae174a833e44130343
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 62c8246e6a825ff57583dbbccb1028cd9035f72e
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53848445"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354407"
 ---
 # <a name="hybrid-identity-and-directory-synchronization-for-microsoft-365"></a>하이브리드 ID 및 디렉터리 동기화를 Microsoft 365
 

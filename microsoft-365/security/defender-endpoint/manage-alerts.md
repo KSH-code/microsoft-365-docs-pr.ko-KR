@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dec8014dd27084d22b33e9bdb6ab6b6a38520db4
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 17e75cd8e12cf83a3581118dbe453314e659760b10c5960f6529d40c38deb303
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53650310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53902822"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-alerts"></a>끝점 경고에 대한 Microsoft Defender 관리
 

@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a015755d0848b0287854db67021599917851d889bb178ff4f4129e02c09919db
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c12e832fbbe1628593cbfee4d861803ac1b513b7
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806303"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354371"
 ---
 # <a name="create-indicators"></a>지표 만들기
 
@@ -59,6 +59,11 @@ Endpoint용 Defender의 클라우드 검색 엔진은 정기적으로 수집된 
 - 허용
 - 경고만
 - 경고 및 차단
+- 경고
+
+
+>[!NOTE]
+> 경고 모드를 사용하면 위험한 앱을 여는 경우 경고 메시지가 표시됩니다. 프롬프트는 앱을 사용하지 못하도록 차단하지 않지만 앱의 적절한 사용법을 설명하는 회사 페이지에 대한 사용자 지정 메시지와 링크를 제공할 수 있습니다. 사용자는 여전히 경고를 무시하고 필요한 경우 앱을 계속 사용할 수 있습니다. 자세한 내용은 [Endpoint용 Microsoft Defender에서](/cloud-app-security/mde-govern)검색한 앱 관리 를 참조하세요.
 
 
 다음에 대한 표시기를 만들 수 있습니다.
@@ -71,7 +76,7 @@ Endpoint용 Defender의 클라우드 검색 엔진은 정기적으로 수집된 
 > 테넌트당 표시기는 15,000개로 제한됩니다. 파일 및 인증서 표시기는 에 정의된 제외를 [차단하지 Microsoft Defender 바이러스 백신.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) 수동 모드에서는 Microsoft Defender 바이러스 백신 지원되지 않습니다. 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [상황적 IoC 만들기](respond-file-alerts.md#add-indicator-to-block-or-allow-a-file)
 - [끝점 표시기 API에 Microsoft Defender 사용](ti-indicator.md)

@@ -1,7 +1,7 @@
 ---
 title: 관리자를 위한 통합 Microsoft 365 Azure AD
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: hub-page
@@ -19,12 +19,12 @@ search.appverid:
 - BCS160
 ms.assetid: cb2250e3-451e-416f-bf4e-363549652c2a
 description: 전역 관리자 수준에서 앱 권한 부여를 허용하는 Office 365 통합 앱을 등록하고 관리하는 방법을 설명합니다.
-ms.openlocfilehash: 54825d551c39dde75596615080618d9a0693ac90ada420373d28bcc6881e4b09
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f604260646aa4e6793540003346c9e83d7a6b269
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830218"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58354227"
 ---
 # <a name="integrated-apps-and-azure-ad-for-microsoft-365-administrators"></a>관리자를 위한 통합 Microsoft 365 Azure AD
 
@@ -36,14 +36,14 @@ ms.locfileid: "53830218"
 
 Azure AD에서 앱 앱을 관리하기 전에 Microsoft 365 작업을 수행해야 합니다.
   
-|필수 구성 요소|Comments|
+|전제 조건|설명|
 |:-----|:-----|
 |[무료 Azure AD 구독 사용](../compliance/use-your-free-azure-ad-subscription-in-office-365.md) <br/> |모든 유료 구독은 Microsoft 365 Azure AD에 대한 무료 구독과 함께 제공됩니다. Azure AD를 사용하여 앱을 관리하고 사용자 및 그룹 계정을 만들고 관리할 수 있습니다. Azure AD를 사용하려면 에서 Azure Portal로 이동하여 사용자 계정으로 [https://portal.azure.com](https://portal.azure.com) Microsoft 365 로그인합니다.  <br/> |
 |[앱에 대한 사용자 동의 관리](../admin/misc/user-consent.md) <br/> |타사 앱이 사용자 액세스 및 Azure AD에서 앱을 등록할 Microsoft 365 수 있도록 앱에 대한 사용자 동의를 관리해야 합니다. 예를 들어 사용자가 타사 앱을 사용하는 경우 해당 앱은 사용자의 일정에 액세스하고 OneDrive 폴더에 있는 파일을 편집하는 권한을 요청할 수 있습니다.  <br/> |
    
 앱 Microsoft 365 관리하려면 Azure AD의 앱에 대한 지식이 필요합니다. 다음 문서를 사용하여 필요한 배경 정보를 제공해야 합니다.
   
-|문서|Comments|
+|문서|설명|
 |:-----|:-----|
 |[앱 Microsoft 365 시작 프로그램 충족](https://support.microsoft.com/office/meet-the-microsoft-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a) <br/> |앱 시작 프로그램을 새로 사용하는 경우 앱 시작 프로그램과 사용 방법에 대해 궁금할 수 있습니다. 앱 시작 프로그램은 앱의 어디에서나 앱에 액세스하는 데 도움이 하도록 Microsoft 365.  <br/> |
 |[Office 365 API 개요](/office/office-365-management-api/office-365-management-apis-overview) <br/> |Microsoft 365 관리 API를 사용하면 메일, 일정, 연락처Microsoft 365 사용자 및 그룹, 파일 및 폴더 등 사용자가 가장 중요한 정보를 포함하여 Microsoft 365 데이터에 액세스할 수 있습니다. <br/> |
