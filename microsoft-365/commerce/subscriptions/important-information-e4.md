@@ -20,22 +20,22 @@ search.appverid: MET150
 description: E4 구독이 있는 고객의 요금제 업그레이드 또는 변경에 대한 Office 365 정보입니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 08/14/2020
-ms.openlocfilehash: 6ad72adc6904ee885dc4ce878a6e5c1fcc669263
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 7f0230272005519528952c88bb8a5426688c386677013aa58a7e46ad3a25ca2f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53856070"
 ---
 # <a name="important-information-for-office-365-e4-customers"></a>E4 고객을 위한 Office 365 정보
 
-E4 Office 365 2015년에 사용 중지된 계획입니다. 전역 Microsoft 365 사용자는 전자 메일 업데이트를 받고, 조치를 취해야 할 때에 대한 정보가 있는 메시지 센터(Microsoft 365 관리 센터의 [일부)에서](https://go.microsoft.com/fwlink/p/?linkid=2024339)게시물을 볼 수 있습니다.
+E4 Office 365 2015년에 사용 중지된 계획입니다. 전역 Microsoft 365 관리자인 경우 전자 메일 업데이트를 받고 메시지 센터(Microsoft 365 관리 센터의 일부)에서 조치를 취해야 하는 경우에 대한 정보가 있는 게시물을 볼 수 있습니다. [](https://go.microsoft.com/fwlink/p/?linkid=2024339)
 
 ## <a name="compare-your-options-for-upgrading-or-changing-plans"></a>계획 업그레이드 또는 변경 옵션 비교
 
 E4와 동일한 기능을 유지하거나 오디오 회의 및 오디오 회의에서 새로운 기능을 Microsoft 365 Microsoft 365 수 있습니다. 새 요금제로 이동하기 위해 5개의 옵션이 있습니다.
 
-|  | 옵션 1: E5로 Office 365 업그레이드 | 옵션 2: 업그레이드를 Microsoft 365 E5 | 옵션 3: 오디오 Microsoft 365 E5 없이 업그레이드 | 옵션 4: E3로 Office 365 변경 | 옵션 5: 변경을 Microsoft 365 E3 |
+|  | 옵션 1: 업그레이드 Office 365 E5 | 옵션 2: 업그레이드를 Microsoft 365 E5 | 옵션 3: 오디오 Microsoft 365 E5 없이 업그레이드 | 옵션 4: 변경을 Office 365 E3 | 옵션 5: 변경을 Microsoft 365 E3 |
 |-|-|-|-|-|-|
 | **현재 E4 구독에 포함된 모든 서비스 및 Office 365 사용** | 예 | 예 | 예 | 아니요 | 아니요 |
 | **전화 관리되는 Microsoft 365** | 예 | 예 | 아니요 | 아니요 | 아니요 |
@@ -48,7 +48,7 @@ E4와 동일한 기능을 유지하거나 오디오 회의 및 오디오 회의�
 
 <sup>1</sup> Microsoft 365 또는 Office 365 요금제는 11개 국가 또는 지역에서 사용할 수 있으며 해당 국가 또는 지역 중 하나에 청구 주소가 있는 조직에서 사용할 수 있습니다. 자세한 내용은 조직의 전화 [번호 관리를 참조합니다.](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) Microsoft 365 또는 Office 365 또는 전화 시스템 구입한 경우 국내 또는 국내 및 국제 통화 요금제 중 하나를 추가할 수 있습니다.
 
-<sup>2</sup> 일부 국가 또는 지역에서는 오디오 회의를 아직 사용할 수 없습니다. 사용자 국가 또는 지역에서 오디오 회의를 사용할 수 없는 경우 사용할 수 있는 경우 업데이트됩니다. 이때 Microsoft 365 및 Office 365 E5 고객은 오디오 회의를 사용하여 E5 구독으로 즉시 업그레이드하거나 갱신할 때까지 기다릴 수 있습니다. 오디오 회의를 지원하는 국가 또는 지역을 확인하려면 [](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) 오디오 회의 및 통화 플랜의 국가 및 지역 가용성을 참조하고 드롭다운 목록을 사용하여 국가 또는 지역을 선택합니다.
+<sup>2</sup> 일부 국가 또는 지역에서는 오디오 회의를 아직 사용할 수 없습니다. 사용자 국가 또는 지역에서 오디오 회의를 사용할 수 없는 경우 사용할 수 있는 경우 업데이트됩니다. 이때 Microsoft 365 Office 365 E5 고객이 오디오 회의를 사용하여 E5 구독으로 즉시 업그레이드하거나 갱신할 때까지 기다릴 수 있습니다. 오디오 회의를 지원하는 국가 또는 지역을 확인하려면 [](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) 오디오 회의 및 통화 플랜의 국가 및 지역 가용성을 참조하고 드롭다운 목록을 사용하여 국가 또는 지역을 선택합니다.
 
 ## <a name="ready-to-upgrade"></a>업그레이드할 준비가 되나요?
 

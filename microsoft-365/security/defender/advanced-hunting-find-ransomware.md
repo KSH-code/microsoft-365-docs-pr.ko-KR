@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b6d88f5383cef052ac1b0871b4f0556ba3ba160e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 4dac86ca9125359b07c4acfb7500b6920baa019bd2d4df2ca6eff32dde412735
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934816"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53867771"
 ---
 # <a name="hunt-for-ransomware"></a>랜섬웨어 찾기
 
@@ -34,11 +34,11 @@ ms.locfileid: "51934816"
 **적용 대상:**
 - Microsoft 365 Defender
 
-랜섬웨어는 개별 컴퓨터 사용자에게 영향을 주는 단순한 상품 맬웨어에서 산업 및 정부 기관에 심각한 영향을 미치는 엔터프라이즈 위협으로 빠르게 발전했습니다. Microsoft 365 [Defender는](microsoft-365-defender.md) 랜섬웨어 및 관련 침입 활동을 감지하고 차단하는 많은 기능을 제공 하지만 손상 징후에 대한 사전 검사를 수행하면 네트워크를 보호하는 데 도움이 될 수 있습니다.
+랜섬웨어는 개별 컴퓨터 사용자에게 영향을 주는 단순한 상품 맬웨어에서 산업 및 정부 기관에 심각한 영향을 미치는 엔터프라이즈 위협으로 빠르게 발전했습니다. Microsoft 365 Defender [](microsoft-365-defender.md) 랜섬웨어 및 관련 침입 활동을 감지하고 차단하는 많은 기능을 제공 하지만 손상 징후에 대한 사전 검사를 수행하면 네트워크를 보호하는 데 도움이 될 수 있습니다.
 
 > [인간이 운영하는 랜섬웨어에 대한 읽기](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
 
-[Defender에서](advanced-hunting-overview.md) 고급 헌팅을 Microsoft 365 랜섬웨어 활동과 관련된 개별 아티팩트를 찾는 쿼리를 만들 수 있습니다. 활동의 징후를 찾고 해당 기호의 가중치가 즉시 주의가 필요한 장치를 찾을 수 있는 좀 더 정교한 쿼리를 실행할 수도 있습니다.
+고급 [헌팅을](advanced-hunting-overview.md) Microsoft 365 Defender 랜섬웨어 활동과 관련된 개별 아티팩트를 찾는 쿼리를 만들 수 있습니다. 활동의 징후를 찾고 해당 기호의 가중치가 즉시 주의가 필요한 장치를 찾을 수 있는 좀 더 정교한 쿼리를 실행할 수도 있습니다.
 
 ## <a name="signs-of-ransomware-activity"></a>랜섬웨어 활동의 징후
 Microsoft 보안 연구원들은 정교한 침입자가 시작한 많은 랜섬웨어 캠페인에서 다양한 공통적이지만 미묘한 아티팩트를 관찰했습니다. 이러한 기호는 주로 시스템 도구를 사용하여 암호화를 준비하고, 탐지를 방지하고, 명확한 포렌식 증거를 사용합니다.

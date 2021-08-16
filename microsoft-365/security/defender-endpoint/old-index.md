@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 3c49575e7a1d88c15907fdd7c118b71071949b23
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 6286df3fa7b099df9cbe3f910434e0da99f521607148d872ed13e6b97a5d26a6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53622847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53867994"
 ---
 # <a name="threat-protection"></a>위협 방지
 
@@ -67,7 +67,7 @@ ms.locfileid: "53622847"
 공격 표면 감소 기능 집합은 스택의 첫 번째 방어 선을 제공합니다. 구성 설정이 올바르게 설정되고 악용 완화 기술이 적용되었는지 확인하여 이러한 기능 집합은 공격 및 악용을 저항합니다.
 
 - [하드웨어 기반의 고리](overview-hardware-based-isolation.md)
-- [응용 프로그램 제어](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
+- [응용 프로그램 컨트롤](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 - [장치 제어](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [악용 방지](exploit-protection.md)
 - [네트워크 보호,](network-protection.md) [웹 보호](web-protection-overview.md)

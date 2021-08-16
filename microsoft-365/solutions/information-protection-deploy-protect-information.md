@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 보안 Microsoft 365 규정 준수 기능을 배포하고 개인 정보를 보호합니다.
-ms.openlocfilehash: 7325aad0392d559703199c81f2544a582d7eadcb
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 3cb4cefb0e7d93964eb10e97e44db9acee9331a795a5fd48defdceb843be1b60
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287750"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53857080"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 보호 규정을 준수하는 정보 보호
 

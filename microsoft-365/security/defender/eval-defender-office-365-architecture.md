@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender의 아키텍처 요구 사항 및 계획 Office 365, 구성, 구축 및 디자인 프레임워크를 검토합니다.
+title: Microsoft Defender for Office 365
 description: Microsoft Defender for Office 365 Microsoft 365 Defender 다이어그램은 평가판 랩 또는 파일럿 환경을 구축하기 전에 Microsoft 365 ID를 이해하는 데 도움이 됩니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 15c84921dcfb4644241cf83ce4ffb6403180b9d4
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 2a62756522ad82d04c72995508ca8ada1e575f94c9bc9940069d59057f7de63f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458276"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53897688"
 ---
 # <a name="review-microsoft-defender-for-office-365-architecture-requirements-and-key-concepts"></a>Microsoft Defender에서 아키텍처 요구 Office 365 주요 개념 검토
 
@@ -49,7 +49,7 @@ ms.locfileid: "53458276"
 |Call-out  |설명  |
 |---------|---------|
 |1     | 외부 보낸 사람에 대한 호스트 서버는 일반적으로 메시지를 릴레이할 대상 서버를 제공하는 MX 레코드에 대한 공용 DNS 쿼리를 수행합니다.  이 참조는 EXO(Exchange Online)나 EXO에 대해 릴레이하도록 구성된 SMTP 게이트웨이일 수 있습니다.  |
-|2      | Exchange Online Protection 연결의 유효성을 검사하고 메시지 헤더 및 콘텐츠를 검사하여 필요한 추가 정책, 태그 지정 또는 처리를 확인합니다.  |
+|2     | Exchange Online Protection 연결의 유효성을 검사하고 메시지 헤더 및 콘텐츠를 검사하여 필요한 추가 정책, 태그 지정 또는 처리를 확인합니다.  |
 |3      | Exchange Online Microsoft Defender for Office 365 통합하여 보다 고급 위협 방지, 완화 및 수정을 제공합니다. |
 |4      | 악의적, 차단 또는 격리되지 않은 메시지는 처리된 후 정크 메일, 사서함 규칙 또는 기타 설정과 관련된 사용자 기본 설정을 평가하고 트리거하는 EXO의 받는 사람에게 배달됩니다. |
 |5      | Azure AD 디렉토리를 사용하여 메일 사용이 가능한 개체 및 계정을 동기화하고 커넥트 Active Directory와의 통합을 Azure Active Directory 최종적으로 Exchange Online. |
@@ -77,7 +77,7 @@ ms.locfileid: "53458276"
 
 Microsoft Defender for Office 기능에 대한 자세한 내용은 microsoft [Defender for Office 365 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
-## <a name="review-architecture-requirements"></a>아키텍처 요구 사항 검토
+## <a name="review-architecture-requirements"></a>아키텍처 요구 사항 리뷰
 성공적인 MDO 평가 또는 프로덕션 파일럿에서는 다음과 같은 전제가 있는 것으로 가정합니다.
 - 모든 받는 사람 사서함이 현재 사서함에 Exchange Online.
 - 공용 MX 레코드는 EOP 또는 타사 SMTP 게이트웨이로 직접 확인하여 인바운드 외부 전자 메일을 EOP에 직접 릴레이합니다.

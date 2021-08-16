@@ -15,12 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: cba7a9d6ed23ac1dc72ef6cbcecfdfc7a0f4c60b
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 2c6532ca3d610d2cc0650ee8fee986b296cd54af90d62fdb71926938302635b1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53867851"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 문제 해결
 
@@ -1204,7 +1204,7 @@ UAC </dt>
 Microsoft Defender 바이러스 백신 클라이언트에서 중요한 문제로 인해 이 오류가 발생했습니다. 끝점이 보호되지 않을 수 있습니다. 오류 설명을 검토한 다음 아래의 관련 <b>사용자 작업 단계를</b> 따릅니다.
 <table>
 <tr>
-<th>조치</th>
+<th>작업</th>
 <th>사용자 작업</th>
 </tr>
 <tr>
@@ -1766,7 +1766,7 @@ Microsoft Defender 바이러스 백신 데 <i>도움이</i> 되는 추가 서명
 <dt>현재 엔진 버전: &lt; 현재 엔진 &gt; 버전</dt> 
 <dt> 동적 서명 유형: 동적 서명 &lt; &gt; 유형, 예를 들면 다음과 같습니다.
 <ul>
-<li>Version</li>
+<li>버전</li>
 <li>타임스탬프</li>
 <li>제한 없음</li>
 <li>기간</li>
@@ -1822,7 +1822,7 @@ Microsoft Defender 바이러스 백신 <i>서명을</i> 삭제하기 위해 동�
 <dt>현재 엔진 버전: &lt; 현재 엔진 &gt; 버전</dt> 
 <dt> 동적 서명 유형: 동적 서명 &lt; &gt; 유형, 예를 들면 다음과 같습니다.
 <ul>
-<li>Version</li>
+<li>버전</li>
 <li>타임스탬프</li>
 <li>제한 없음</li>
 <li>기간</li>
@@ -1889,7 +1889,7 @@ Microsoft Defender 바이러스 백신 서명 서비스를 사용하려고 하�
 <dt>오류 설명: &lt; 오류 설명 &gt; 오류에 대한 설명입니다.</dt> 
 <dt> 동적 서명 유형: &lt; 동적 서명 &gt; 유형, 예를 들면 다음과 같습니다.
 <ul>
-<li>Version</li>
+<li>버전</li>
 <li>타임스탬프</li>
 <li>제한 없음</li>
 <li>기간</li>

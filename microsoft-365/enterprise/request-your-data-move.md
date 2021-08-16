@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 기존 Office 365 고객은 해당 국가가 새 지역으로 Microsoft 365 요청을 제출해야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4421b034c31adc3e8b0b017067b12086d364564
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: dbd1984520019296026bc5f57328a20837591c27830f4fe9b32fc425123b6550
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904646"
 ---
 # <a name="how-to-request-your-data-move"></a>데이터 이동을 요청하는 방법
 
@@ -49,9 +49,9 @@ ms.locfileid: "52908248"
 
 ## <a name="how-to-request-a-move"></a>이동을 요청하는 방법
 
-적격 고객에게는 Microsoft 365 관리 센터에 페이지가 표시되어 핵심 고객 데이터를 새 데이터 센터 지역으로 이동하도록 요청할 수 있습니다.  
+적격 고객에게는 핵심 고객 Microsoft 365 관리 센터 새 데이터 센터 지역으로 이동하도록 요청할 수 있는 페이지가 표시됩니다.  
   
-Microsoft 365 관리 센터의 페이지에 액세스하려면 왼쪽의 탐색 창에서 를 확장하고 설정 를 클릭한 다음 **설정.**
+페이지의 페이지에 액세스하려면 Microsoft 365 관리 센터 탐색 창에서 를 확장하고 설정 를 클릭한 다음 **설정.**
 조직 프로필 **탭을 선택한** 다음 데이터 **레지시 옵션을 선택합니다.**
   
 테넌트가 Microsoft 365 프로그램 이동을 사용할 수 없는 경우 이 섹션이 Microsoft 365 않습니다.  조직에 데이터 보관 요구 사항이 있으며 마이그레이션을 요청해야 하는 경우 확인란을 표시한 다음 저장 을 **표시하세요.**

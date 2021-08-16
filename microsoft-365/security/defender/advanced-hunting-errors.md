@@ -1,5 +1,5 @@
 ---
-title: Defender에 대한 고급 헌팅에서 Microsoft 365 처리
+title: 고급 헌팅에서 오류를 처리합니다Microsoft 365 Defender
 description: 고급 헌팅을 사용할 때 표시되는 오류 이해
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema, kusto, 시간 제한, 리소스, 오류, 알 수 없는 오류, 제한, 할당량, 매개 변수, 할당량
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 32d50103c6476a89f24568edeea75a206e37e227
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: 25280ecb6b241c135f3ec1523b45fbd7ba379c88adef9cc49f2a6d46e076f88b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53897714"
 ---
 # <a name="handle-advanced-hunting-errors"></a>고급 헌팅 오류 처리
 

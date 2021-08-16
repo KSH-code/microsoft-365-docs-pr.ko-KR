@@ -1,5 +1,5 @@
 ---
-title: 전체 Microsoft Cloud App Security 평가, 장치, ID, 데이터 및 앱 보호에 대한 평가를 설정하거나 설정하는 Microsoft 365 Defender
+title: 개요 Microsoft Cloud App Security 평가
 description: 조직의 장치Microsoft 365 Defender ID, 데이터 및 응용 프로그램을 보호하도록 설계된 보안 솔루션을 시험해 보거나 경험하도록 파일럿 환경을 설정하는 단계입니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 5b5af3611e7eb3976dd3c5aea8894e76818035a7
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 045516352ba9e27895f5c72ce90d29e50e13d04917f602c0543041089514b80b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53897701"
 ---
 # <a name="evaluate-microsoft-cloud-app-security"></a>평가 Microsoft Cloud App Security
 

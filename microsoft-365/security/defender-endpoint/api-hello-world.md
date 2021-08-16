@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f1ebb1d476f58109a32e367581f764774b894670
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 5081822d31d3e127dbe6511719afdaddd6f6b4fdf078bf5c6e09aee4caff725e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53650622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53884942"
 ---
 # <a name="microsoft-defender-for-endpoint-api---hello-world"></a>Endpoint API용 Microsoft Defender API - Hello World
 
@@ -100,7 +100,7 @@ ms.locfileid: "53650622"
 
    ![생성된 앱 ID의 이미지](images/app-and-tenant-ids.png)
 
-완료! 응용 프로그램을 성공적으로 등록했습니다.
+완료되었습니다! 응용 프로그램을 성공적으로 등록했습니다.
 
 ### <a name="step-2---get-a-token-using-the-app-and-use-this-token-to-access-the-api"></a>2단계 - 앱을 사용하여 토큰을 다운로드하고 이 토큰을 사용하여 API에 액세스합니다.
 

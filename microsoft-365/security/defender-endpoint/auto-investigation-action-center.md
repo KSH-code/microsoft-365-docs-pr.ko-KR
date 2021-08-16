@@ -19,12 +19,12 @@ ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: cc806678bbb5ac19f7c4e035efb52b6ba7d1edb1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 485c86837f78a4de6ea9052b42071f24074fce88a3ddf9f7248c7ff2f8a65ad9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53884863"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>관리 센터를 방문하여 수정 작업 보기
 
@@ -53,7 +53,7 @@ ms.locfileid: "52844913"
 통합 관리 센터는 Endpoint용 Defender 및 2016용 Defender에 대한 수정 Office 365. 모든 수정 작업에 대한 공통 언어를 정의하고 통합 조사 환경을 제공합니다. 
 
 적절한 사용 권한 및 다음 구독 중 하나 이상이 있는 경우 통합 관리 센터를 사용할 수 있습니다.
-- [Endpoint용 Defender](microsoft-defender-endpoint.md)
+- [엔드포인트용 Defender](microsoft-defender-endpoint.md)
 - [Office 365용 Defender](/microsoft-365/security/office-365-security/office-365-atp)
 - [Microsoft 365 Defender](/microsoft-365/security/mtp/microsoft-threat-protection) 
 

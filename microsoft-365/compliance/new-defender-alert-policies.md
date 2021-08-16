@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: noindex,nofollow
 description: Office 365용 Microsoft Defender에 대한 새 경고 정책을 릴리스합니다. 또한 기존 경고 정책 2개를 새 경고 정책으로 대체했습니다.
-ms.openlocfilehash: d9515c4a6b4fead11f0b8f8b2eeb82d19b8dbf34
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 3fc25c50a5e9a2c30ebd06328edf60b5641168035e5275ac58ae81b8b63bf760
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53621994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53856018"
 ---
 # <a name="new-alert-policies-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새 경고 정책
 
