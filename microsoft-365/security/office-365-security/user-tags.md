@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 Plan 2용 Microsoft Defender에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 Office 365 있습니다. 태그 필터링은 Microsoft Defender의 경고, 보고서 및 조사에서 사용할 수 있으며, Office 365 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9dba3657c442ac183e67206629bd2e6bfa7345c78a337e55beb91f445f6afe6b
-ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
+ms.openlocfilehash: 836c8e538ac62809c15094d6ecade796429f9bce
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "57834562"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58254108"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 

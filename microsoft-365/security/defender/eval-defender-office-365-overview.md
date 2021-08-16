@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1971f70752b7787540e3edd470bece5e609d5bcd6171a7c6a8ef39af44c0ce4f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 90660b9b95e7724437972d280b5f179a774c00c3
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893914"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58254377"
 ---
 # <a name="enable-and-pilot-microsoft-defender-for-office-365"></a>Microsoft Defender를 사용하도록 설정하고 파일럿 Office 365
 
@@ -44,7 +44,7 @@ ms.locfileid: "53893914"
 | |단계  |설명  |
 |---------|---------|---------|
 |1|[아키텍처 요구 사항 및 주요 개념 검토](eval-defender-office-365-architecture.md)    | Office Defender를 이해하고 Exchange Online 환경이 아키텍처의 선행 요구 사항을 충족하는지 파악합니다.       |
-|2|[평가 환경 사용](eval-defender-office-365-enable-eval.md)     |   단계에 따라 평가 환경을 설치합니다.      |
+|2 |[평가 환경 사용](eval-defender-office-365-enable-eval.md)     |   단계에 따라 평가 환경을 설치합니다.      |
 |3 |[파일럿 설정 ](eval-defender-office-365-pilot.md)    |    파일럿 그룹을 만들고 보호를 구성하며 주요 기능 및 대시보드에 익숙해지도록 합니다.     |
 ||||
 

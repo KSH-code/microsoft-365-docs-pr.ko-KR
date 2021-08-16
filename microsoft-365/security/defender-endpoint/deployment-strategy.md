@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7bef13e2a7e85b10a103175de55d4d721bde2573
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 02ec99bfdc5d629d72d22a7c5139eeacee149bbc871868a0343149156c4d31ec
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53898462"
 ---
 # <a name="plan-your-microsoft-defender-for-endpoint-deployment"></a>엔드포인트용 Microsoft Defender 배포 계획 
 

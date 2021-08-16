@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 62c8fda1276089ba4c9f6e7bd7a0839ddf88256d3c30f8c62f9eb25daadf7b40
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f17a06aa34274cf61b1979c64a008e7fe70d676b
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863219"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58254595"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -42,9 +42,9 @@ ms.locfileid: "53863219"
 
 사용자 지정 검색을 관리하려면 다음 역할 중 하나를 할당해야 합니다.
 
-- **보안 관리자**-이 역할이 [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 사용자는 보안 센터 및 기타 포털 및 Microsoft 365 보안 설정을 관리할 수 있습니다.
+- **보안 관리자**-이 역할이 [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 사용자는 Microsoft 365 Defender 포털 및 서비스에서 보안 설정을 관리할 수 있습니다.
 
-- **보안 운영자**— [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 이 Azure Active Directory 역할이 있는 사용자는 경고를 관리하고 보안 관련 기능에 대한 전역 읽기 전용 액세스 권한을 가지며, 보안 센터의 모든 정보를 Microsoft 365 있습니다. 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
+- **보안 운영자**—이 Azure Active Directory 역할이 있는 사용자는 경고를 관리하고 보안 관련 기능에 대한 전역 읽기 전용 액세스 권한을 가지며, 보안 포털의 모든 정보를 Microsoft 365 Defender 있습니다. [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
 
 사용 권한이 있는 경우 특정 솔루션 솔루션의 데이터에 적용되는 사용자 지정 Microsoft 365 Defender 관리할 수도 있습니다. 예를 들어 테이블에 대한 관리 권한만 있는 Microsoft 365 Defender Office 테이블을 사용하여 사용자 지정 검색을 만들 수 있지만 테이블은 사용하여 만들 `Email` `Identity` 수 없습니다.  
 
@@ -59,7 +59,7 @@ ms.locfileid: "53863219"
 ## <a name="create-a-custom-detection-rule"></a>사용자 지정 검색 규칙 만들기
 ### <a name="1-prepare-the-query"></a>1. 쿼리를 준비합니다.
 
-보안 Microsoft 365 고급 헌팅으로  이동하여 기존 쿼리를 선택하거나 새 쿼리를 만드면 됩니다. 새 쿼리를 사용할 때 쿼리를 실행하여 오류를 식별하고 가능한 결과를 파악합니다.
+Microsoft 365 Defender 포털에서 고급 헌팅으로 이동하여 기존 쿼리를 선택하거나 새 쿼리를 만드실 수 있습니다.  새 쿼리를 사용할 때 쿼리를 실행하여 오류를 식별하고 가능한 결과를 파악합니다.
 
 >[!IMPORTANT]
 >서비스가 너무 많은 경고를 반환하지 않도록 각 규칙은 실행 시 100개의 경고만 생성하는 것으로 제한됩니다. 규칙을 만들기 전에 일반적인 일과 활동에 대한 경고가 표시되지 않도록 쿼리를 조정하십시오.

@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: 조직에서 중요한 정보 유형 정책을 만드는 방법을 Office 365 메시지 암호화.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad570f64122aecd245b912b1b6545a5950e838cc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1cf9432adbe2cecb889d6e744077d8807ae556089b388f321e1348199e1ee165
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927746"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53879290"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>메시지 암호화를 사용하여 조직에 대한 중요한 정보 유형 정책 만들기
 

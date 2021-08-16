@@ -16,12 +16,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ef3fce82a10792c8289a4a3c4e3cb5639a4d178
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b9c9657521265890b842c910286d92c655297612f6c545c4abf12faa46e5d999
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53880198"
 ---
 # <a name="learn-about-information-barriers-in-microsoft-365"></a>정보 장벽에 대해 Microsoft 365
 
@@ -97,7 +97,7 @@ SharePoint Online 및 OneDrive 정보 장벽 정책은 다음과 같은 종류�
 - 규정 준수 관리자
 - IB 규정 준수 관리
 
-(역할 및 사용 권한에 대한 자세한 내용은 Office 365 보안 및 준수 센터의 & [참조).](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)
+(역할 및 사용 권한에 대한 자세한 내용은 Office 365 보안 및 준수 센터의 & [참조).](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 정보 장벽 정책을 정의, 유효성 검사 또는 편집하려면 PowerShell cmdlet에 익숙해야 합니다. 방법 문서에서 PowerShell cmdlet의 몇 [](information-barriers-policies.md)가지 예를 제공하겠지만, 조직의 매개 변수와 같은 다른 세부 정보를 알아야 합니다.
 

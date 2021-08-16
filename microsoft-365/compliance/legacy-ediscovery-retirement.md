@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery 및 In-Place 보류(및 해당 PowerShell cmdlet)Exchange Online 2020년 상반기에는 사용 중지됩니다. 동일한 Search-Mailbox 기간 내에 Advanced eDiscovery v1.0도 사용 중지됩니다.
-ms.openlocfilehash: 77a7daf36c86cd302f774e5a4b934148d3dfd5a7
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 5fbcb980d941ddd54ce76d5a44f93e5cdd9f7e052466d01a727668ffac2c89ea
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53340999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53860082"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>eDiscovery 도구의 사용 중지
 
@@ -94,7 +94,7 @@ Microsoft 365 규정 준수 센터 eDiscovery의 새로운 기능과 향상된 �
 <tr class="header">
 <th>기능</th>
 <th>대체 도구</th>
-<th>설명</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -197,7 +197,7 @@ Exchange 관리 센터에서 2017년 7월 1일 발표된 원래 공지에 따라
 <tr class="header">
 <th>기능</th>
 <th>대체 도구</th>
-<th>설명</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -276,7 +276,7 @@ Exchange Online PowerShell의 **Search-Mailbox** cmdlet은 2018년 다시 시작
 <tr class="header">
 <th>기능</th>
 <th>대체 도구</th>
-<th>설명</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>

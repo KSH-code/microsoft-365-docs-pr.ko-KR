@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 전자 메일, 연락처 및 일정을 Google Workspace에서 비즈니스용 메일로 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: d6639032b379a2cd632b6ab6ee7e4082b1e7be0b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 26ed00be3241f07d564fd7823c44610cf34d6ffd96cc4becb36d907439f23629
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53896562"
 ---
 # <a name="migrate-business-email-and-calendar-from-google-workspace"></a>Google Workspace에서 비즈니스 전자 메일 및 일정 마이그레이션
 
@@ -86,8 +86,8 @@ ms.locfileid: "50913625"
 
     도메인 확인은 일반적으로 몇 분 정도 걸리지만 최대 48시간이 걸릴 수 있습니다.
 
-1. Microsoft 365 [관리 센터로 이동하세요.](https://admin.microsoft.com)
-1. Microsoft 365 **관리** 센터의 왼쪽 nav에서 모두 **표시,** **설정,** 도메인 및 도메인 추가를 **선택합니다.** 
+1. 으로 [이동하여 Microsoft 365 관리 센터.](https://admin.microsoft.com)
+1. in the **Microsoft 365 관리 센터** in the left nav, select **Show all**, **설정**, **Domains**, and then **Add domain**. 
 1. 이전에 만든 하위 도메인을 입력한 다음 이 도메인 **사용을 선택합니다.** 
 1. 도메인을 연결하려면 계속을 **선택합니다.** 
 1. 아래로 스크롤하여 MX 레코드, CNAME 레코드 및 TXT 레코드를 기록합니다. 
@@ -99,7 +99,7 @@ ms.locfileid: "50913625"
 
     이러한 변경 내용을 적용하는 데 다소 시간이 걸릴 수 있습니다.  
 
-1. 관리 센터에서 **벗어났다가 Microsoft 365 를** **선택하고 계속을 선택합니다.** 
+1. 에서 **을(를) 벗어났다가 Microsoft 365 관리 센터** **계속을 선택합니다.** 
 
 이제 도메인이 설정됩니다.  
 
@@ -107,7 +107,7 @@ ms.locfileid: "50913625"
 
 마이그레이션을 시작하기 전에 새 하위omain을 사용하여 사용자에 대한 전자 메일 별칭을 만들어야 합니다. 
 
-1. 다음 단계를 시작하려면 Microsoft 365  관리 센터의 도메인 추가 마법사에서 활성 사용자로 **이동을 선택합니다.** 
+1. 다음 단계를 시작하려면 에서 도메인 추가 마법사에서 Microsoft 365 관리 센터 활성 사용자로 **이동을 선택합니다.**  
 1. 사용자를 선택한 다음 사용자 이름 **및 전자 메일 관리 를 선택합니다.** 
 1. 도메인 **드롭다운에서** 이전에 만든 하위 도메인을 선택합니다. 
 1. 사용자 이름을 입력하고 **추가,** **변경** 내용 저장을 선택한 다음 창을 닫습니다. 
@@ -118,7 +118,7 @@ ms.locfileid: "50913625"
 
 완료되면 마이그레이션할 준비가 된 것입니다. 
 
-1. Microsoft 365 관리 센터의 왼쪽 네비게이트에서 관리  **센터로 스크롤하여** 를 **Exchange.** 
+1. In the left nav of the **Microsoft 365 관리 센터**, scroll down to **Admin centers**, and **select Exchange.** 
 1. 받는 **사람 에서** 마이그레이션 **을 선택하고** 새로 추가, 마이그레이션으로 Exchange Online 를 선택하고 G Suite  **마이그레이션을** 선택한 후 다음 을 **선택합니다.**  
 1. 마이그레이션할 사서함 목록이 있는 CSV 파일을 만들 수 있습니다. 파일이 다음 형식을 따르는지 확인 
 

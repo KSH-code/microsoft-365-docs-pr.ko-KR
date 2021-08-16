@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 사례에서 세부 정보를 보고, 편집하고, 대량으로 편집하는 방법을 Advanced eDiscovery.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1e9e9d481073c8bb2827d5d65537dbf2b63ef1f
-ms.sourcegitcommit: 555b200b618085706dabf8648d27fb6d6427cfce
+ms.openlocfilehash: daf74c2e51d9a01fad97534a4e49068528e820054b147c09baf8d3b3a8099d45
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/30/2020
-ms.locfileid: "49739871"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53879320"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>관리 사례에서 Advanced eDiscovery 관리
 
@@ -113,7 +113,7 @@ Advanced eDiscovery 사례의 원본 탭에  있는 Custodians 페이지에는 �
 
 보호자 데이터를 다시 인덱싱하는 과정은 오래 지속됩니다. 생성된 해당 작업의 이름은 다시 인덱싱 **custodian 데이터입니다.** 인덱싱 작업 상태  열의 상태를  모니터링하여 작업 탭 또는 관리 탭에서 진행 상황을 추적할 **수** 있습니다.
 
-자세한 내용은 다음을 참조하세요.
+자세한 내용은 다음 항목을 참조하세요.
 
 - [오류 처리 작업](processing-data-for-case.md)
 

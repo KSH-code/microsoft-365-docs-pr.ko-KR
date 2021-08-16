@@ -22,12 +22,12 @@ ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
 description: eDiscovery 검색 도구를 사용하여 검색할 수 있는 전자 메일 및 문서 속성에 대해 Microsoft 365.
-ms.openlocfilehash: b274b185c7fb0d2cd6dfa4aca0e8d8429664fe61
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: b465b0dedac35b8008627fcb9a2ecd2f9b9d27dddcfb26a16c290d7176447ce8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53860179"
 ---
 # <a name="keyword-queries-and-search-conditions-for-ediscovery"></a>eDiscovery에 대한 키워드 쿼리 및 검색 조건
 
@@ -107,7 +107,7 @@ ms.locfileid: "53288818"
 |---|---|---|---|
 |만든 이|문서를 복사하는 경우 유지되는 Office 문서의 만든 이 필드입니다. 예를 들어 사용자가 문서를 만든 후 다른 사람에게 전자 메일로 전자 메일을 보내면 문서가 SharePoint 원래 작성자가 유지됩니다. 이 속성에는 사용자의 표시 이름을 사용해야 합니다.|`author:"Garth Fort"`|Garth Fort가 만든 모든 문서입니다.|
 |ContentType|항목 SharePoint, 문서 또는 비디오와 같은 항목의 콘텐츠 형식을 저장합니다.|`contenttype:document`|모든 문서가 반환됩니다.|
-|만든 날짜|항목을 만든 날짜입니다.|`created>=06/01/2016`|2016년 6월 1일 이후에 만들어진 모든 항목입니다.|
+|생성|항목을 만든 날짜입니다.|`created>=06/01/2016`|2016년 6월 1일 이후에 만들어진 모든 항목입니다.|
 |CreatedBy|항목을 만들었거나 업로드한 사람입니다. 이 속성에는 사용자의 표시 이름을 사용해야 합니다.|`createdby:"Garth Fort"`|Garth Fort가 만들었거나 업로드한 모든 항목입니다.|
 |DetectedLanguage|항목의 언어입니다.|`detectedlanguage:english`|영어로된 모든 항목입니다.|
 |DocumentLink|사이트 또는 특정 사이트의 특정 폴더에 SharePoint 비즈니스용 OneDrive 경로입니다. 이 속성을 사용하는 경우 지정한 폴더가 있는 사이트를 검색해야 합니다. <p> documentlink 속성에 대해 지정한 폴더의 하위 폴더에 있는 항목을 반환하기 위해 지정한 폴더의 URL에 /를 추가해야 합니다. 예를 들면 다음과 같습니다. \*`documentlink: "https://contoso.sharepoint.com/Shared Documents/*"` <p> <br/>documentlink 속성을 검색하고 스크립트를 사용하여 특정 사이트의 폴더에 대한 문서 링크 URL을 얻는 데 대한 자세한 내용은 [Use Content search for targeted collections을 참조하십시오.](use-content-search-for-targeted-collections.md)|`documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Private"` <p> `documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Shared with Everyone/*" AND filename:confidential`|첫 번째 예제에서는 지정한 폴더의 모든 항목을 비즈니스용 OneDrive 예제입니다. 두 번째 예제에서는 파일 이름에 "confidential"이라는 단어가 포함된 지정한 사이트 폴더 및 모든 하위 폴더의 문서를 반환합니다.|
@@ -274,7 +274,7 @@ Microsoft 365 규정 준수 센터 eDiscovery 검색 도구를 사용하여 Micr
 |---|---|
 |만든 이|문서를 복사하는 경우 유지되는 Office 문서의 만든 이 필드입니다. 예를 들어 사용자가 문서를 만든 후 다른 사람에게 전자 메일로 전자 메일을 보내면 문서가 SharePoint 원래 작성자가 유지됩니다.|
 |제목|문서의 제목입니다. Title 속성은 Office 문서에 지정된 메타데이터입니다. 문서의 파일 이름과 다릅니다.|
-|만든 날짜|문서를 만든 날짜입니다.|
+|생성|문서를 만든 날짜입니다.|
 |마지막으로 수정한 날짜|문서를 마지막으로 변경한 날짜입니다.|
 |파일 형식|파일의 확장명입니다. 예를 들어 docx, 1, pptx 또는 xlsx입니다. FileExtension 사이트 속성과 같은 속성입니다. <p> **참고:** 검색 쿼리에서 **같음** 또는 같음  연산자를 사용하여 파일 형식 조건을 포함하면 파일 형식의 끝에 와일드카드 문자()를 포함하여 파일 형식의 모든 버전을 반환하는 피어 검색을 사용할 \* 수 없습니다. 이 경우 와일드카드가 무시됩니다. 예를 들어 조건을 포함하면 확장명을 가지는 파일만 `Equals any of doc*` `.doc` 반환됩니다. 확장명을 인 `.docx` 파일은 반환되지 않습니다. 파일 형식의 모든 버전을 반환하기 위해 키워드 쿼리에 *property:value* 쌍을 사용했습니다. 예를 들면 `filetype:doc*` 입니다.|
 |
@@ -289,8 +289,8 @@ Microsoft 365 규정 준수 센터 eDiscovery 검색 도구를 사용하여 Micr
 
 |연산자|연산자와 동일한 쿼리|설명|
 |---|---|---|
-|모임 후|`property>date`|날짜 조건과 함께 사용됩니다. 지정된 날짜 이후에 전송, 수신 또는 수정된 항목을 반환합니다. |
-|모임 전|`property<date`|날짜 조건과 함께 사용됩니다. 지정된 날짜 이전에 전송, 수신 또는 수정된 항목을 반환합니다.|
+|이후|`property>date`|날짜 조건과 함께 사용됩니다. 지정된 날짜 이후에 전송, 수신 또는 수정된 항목을 반환합니다. |
+|Before|`property<date`|날짜 조건과 함께 사용됩니다. 지정된 날짜 이전에 전송, 수신 또는 수정된 항목을 반환합니다.|
 |Between|`date..date`|날짜 및 크기 조건과 함께 사용됩니다. 날짜 조건과 함께 사용될 경우 지정된 날짜 범위 내에서 전송, 수신 또는 수정된 항목을 반환합니다. 크기 조건과 함께 사용될 경우 해당 크기가 지정된 범위 내에 속하는 항목을 반환합니다.|
 |Contains any of|`(property:value) OR (property:value)`|문자열 값을 지정하는 속성에 대한 조건과 함께 사용됩니다. 하나 이상의 지정된 문자열 값의 일부를 포함하는 항목을 반환합니다.|
 |Doesn't contain any of|`-property:value` <p> `NOT property:value`|문자열 값을 지정하는 속성에 대한 조건과 함께 사용됩니다. 지정된 문자열 값의 어떤 부분도 포함하지 않는 항목을 반환합니다.|

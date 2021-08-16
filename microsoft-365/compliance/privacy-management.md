@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 개인 정보 관리는 조직에서 저장하는 개인 데이터를 평가하기 위한 솔루션을 Microsoft 365 개인 정보 위험을 식별하고 수정하는 데 도움이 됩니다.
-ms.openlocfilehash: f4beecb0c9249c9eba530526e835bd2958be8cfab4c409365dc536f64b1b2caf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 339407dcd22742ce089b18f6b70172754a09a4cc
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835742"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58254614"
 ---
 # <a name="microsoft-privacy-management-preview"></a>Microsoft 개인 정보 관리(미리 보기)
 
-## <a name="what-is-privacy-management"></a>개인 정보 관리
+## <a name="what-is-privacy-management"></a>개인 정보 관리란?
 
 회사의 클라우드 데이터가 크기와 복잡성이 증가함에 따라 사용자 환경에 있는 개인 데이터를 이해하고 보호해야 합니다. Microsoft 365 개인 정보 관리를 통해 직원들은 스마트한 데이터 처리 결정을 내리고 개인 데이터를 찾고 관리하고, 개인 정보 보호 작업을 자동화하고, 주체 권한 요청을 이행하는 효율적인 방법을 제공하여 중요한 개인 정보 위험을 해결할 수 있습니다. 이러한 솔루션을 사용하면 개인 정보 보호 탄력적인 작업 공간 구축을 통해 대규모로 문제를 처리할 수 있습니다.
 
