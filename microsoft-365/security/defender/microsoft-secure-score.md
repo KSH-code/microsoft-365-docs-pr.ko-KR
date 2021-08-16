@@ -1,7 +1,7 @@
 ---
 title: Microsoft Secure Score
-description: 보안 센터에서 Microsoft 보안 점수를 Microsoft 365, 보안 자세를 개선하는 방법 및 보안 관리자가 기대할 수 있는 정보를 제공합니다.
-keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터, 개선 작업
+description: Microsoft 365 Defender 포털의 Microsoft 보안 점수, 보안 상태 개선 방법 및 보안 관리자가 기대할 수 있는 항목에 대해 설명
+keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 Defender 포털, 개선 작업
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -21,20 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 9d922ed8fbcbace8cc804e33e00af8939c7ff5f0ac67610303deab2095ce326e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3cf1130e13b90c60334b8af76f31d232a084f37a
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893750"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256866"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. 이 사이트는 보안 센터의 https://security.microsoft.com/securescore Microsoft 365 [있습니다.](overview-security-center.md)
+Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. 이 사이트는 사이트 포털 https://security.microsoft.com/securescore [에서 Microsoft 365 Defender 있습니다.](overview-security-center.md)
 
-Secure Score 권장 사항을 따르면 조직을 위협으로부터 지킬 수 있습니다. 조직은 Microsoft 365 센터의 중앙 집중식 대시보드에서 ID, 앱 및 Microsoft 365 보안에 대해 모니터링하고 작업할 수 있습니다.
+Secure Score 권장 사항을 따르면 조직을 위협으로부터 지킬 수 있습니다. 조직은 Microsoft 365 Defender 포털의 중앙 집중식 대시보드에서 ID, 앱 및 Microsoft 365 보안에 대해 모니터링하고 작업할 수 있습니다.
 
 Secure Score는 조직에 다음과 같은 도움을 제공합니다.  
 
@@ -79,7 +79,7 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 
 - Microsoft 365(Exchange Online)
 - Azure Active Directory
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
 - ID용 Microsoft Defender
 - 클라우드 앱 보안
 - Microsoft Teams
@@ -99,7 +99,7 @@ Microsoft Secure Score는 일반적인 공격에 대해 미리 구성된 보안 
 >[!IMPORTANT]
 >보안 기본값에는 "로그인 위험 정책" 및 "사용자 위험 정책" 개선 작업과 유사한 보안을 제공하는 보안 기능이 포함됩니다. 보안 기본값 위에 이러한 정책을 설정하는 대신 상태를 "대체 완화를 통해 해결되었습니다."로 업데이트하는 것이 좋습니다.
 
-## <a name="required-permissions"></a>필수 권한
+## <a name="required-permissions"></a>필요한 사용 권한
 
 Microsoft 보안 점수에 액세스할 수 있는 권한을 부여하려면 보안 점수에서 다음 역할 중 하나를 할당해야 Azure Active Directory.
 

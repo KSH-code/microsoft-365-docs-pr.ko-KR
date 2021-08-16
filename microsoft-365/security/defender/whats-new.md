@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: bed151d87fa648034a1c0535bc7e01fea8c36e17
-ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
+ms.openlocfilehash: ca008206e30b6e7d13638379322238d3bb7b79d6
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53726456"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256659"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -38,6 +38,9 @@ RSS 피드: 다음 URL을 복사하여 피드 읽기에 붙여 넣는 방법을 
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
+## <a name="august-2021"></a>2021년 8월
+- (미리 보기) 고급 헌팅에서 사용할 Office 365 Microsoft Defender for Office 365 데이터
+<br>전자 메일 테이블의 새 열을 통해 고급 헌팅을 사용하여 보다 철저한 조사를 위해 전자 메일 기반 위협에 대한 더 많은 정보를 얻을 수 있습니다. 이제 `AuthenticationDetails` [EmailEvents](./advanced-hunting-emailevents-table.md), `FileSize` [EmailAttachmentInfo](./advanced-hunting-emailattachmentinfo-table.md)및 `ThreatTypes` `DetectionMethods` [EmailPostDeliveryEvents](./advanced-hunting-emailpostdeliveryevents-table.md) 테이블에 열을 포함할 수 있습니다. 
 
 ## <a name="july-2021"></a>2021년 7월
 - [Professional 서비스 카탈로그](https://sip.security.microsoft.com/interoperability/professional_services)<br>지원되는 파트너 연결을 사용하여 플랫폼의 검색, 조사 및 위협 인텔리전스 기능을 향상합니다.
@@ -58,7 +61,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="march-2021"></a>2021년 3월
 - [CloudAppEvents 테이블](advanced-hunting-cloudappevents-table.md) <br>다양한 클라우드 앱 및 서비스에서 이벤트에 대한 정보를 Microsoft Cloud App Security. 이 표에는 이전에 에서 사용 가능한 정보도 포함되어 `AppFileEvents` 있습니다.
 ## <a name="february-2021"></a>2021년 2월
-- (미리 보기) 향상된 Microsoft 365 [보안 https://security.microsoft.com) ](https://security.microsoft.com) 센터(는 이제 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 끝점용 Defender와 중앙에 Office 365 Defender를 제공합니다. [변경 사항에 대한 자세한 정보](./overview-security-center.md).
+- (미리 보기) 향상된 Microsoft 365 Defender [ https://security.microsoft.com) 포털(이제](https://security.microsoft.com) 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 끝점용 Defender와 중앙에 Office 365 Defender를 제공합니다. [변경 사항에 대한 자세한 정보](./overview-security-center.md).
 
 ## <a name="september-2020"></a>2020년 9월
 - [IdentityDirectoryEvents 테이블](advanced-hunting-identitydirectoryevents-table.md) <br> AD(Active Directory)를 실행하는 사내 도메인 컨트롤러와 관련된 이벤트를 검색합니다. 이 [고급 헌팅](advanced-hunting-overview.md) 체계표에는 도메인 컨트롤러의 ID 관련 이벤트 및 시스템 이벤트가 포함됩니다.

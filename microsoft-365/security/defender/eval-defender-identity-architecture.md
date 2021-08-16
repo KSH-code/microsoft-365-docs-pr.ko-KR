@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: cb243c0100bab3b13939422f61618a2d7e1d77772bbdd14b25007988ea626024
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 778ff1aebf7ea0a559d2ec5fb036de7218865df9
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867591"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256885"
 ---
 # <a name="review-architecture-requirements-and-key-concepts-for-microsoft-defender-for-identity"></a>Microsoft Defender for Identity에 대한 아키텍처 요구 사항 및 주요 개념 검토
 
@@ -76,7 +76,7 @@ Id에 대한 Defender의 아키텍처에 대한 자세한 내용은 id와의 통
 | 네트워크 이름 확인    |  NNR(네트워크 이름 확인)은 네트워크 트래픽, Windows 이벤트, ETW 등을 기반으로 활동을 캡처하고 이 원시 데이터를 각 활동에 관련된 관련 컴퓨터와 상관 관계가 있는 MDI 기능의 구성 요소입니다.       | [네트워크 이름 확인이란?](/defender-for-identity/nnr-policy)      |
 | 보고서    | Id용 Defender 보고서를 사용하면 시스템 및 엔터티 상태 정보를 제공하는 보고서를 예약하거나 즉시 생성하고 다운로드할 수 있습니다.  사용자 환경에서 감지된 시스템 상태, 보안 경고 및 잠재적인 측면 이동 경로에 대한 보고서를 만들 수 있습니다.   | [Microsoft Defender for Identity Reports ](/defender-for-identity/reports)       |
 | 역할 그룹    | Id에 대한 Defender는 관리자, 사용자 및 뷰어를 포함하는 조직의 특정 보안 및 규정 준수 요구에 따라 데이터를 보호하기 위해 역할 기반 그룹 및 위임된 액세스를 제공합니다.        |  [ID용 Microsoft Defender 역할 그룹](/defender-for-identity/role-groups)       |
-| 관리 포털    |  보안 센터 Microsoft 365 외에도 ID 포털용 Defender cab을 사용하여 의심스러운 활동을 모니터링하고 대응합니다.      | [Microsoft Defender for Identity 포털 작업](/defender-for-identity/workspace-portal)        |
+| 관리 포털    |  Id 포털의 Microsoft 365 Defender 포털을 사용하여 의심스러운 활동을 모니터링하고 대응합니다.      | [Microsoft Defender for Identity 포털 작업](/defender-for-identity/workspace-portal)        |
 | Microsoft Cloud App Security 통합   | Microsoft Cloud App Security Microsoft Defender for Identity와 통합하여 클라우드 앱과 사내 모두 하이브리드 환경에서 UEBA(사용자 엔터티 동작 분석)를 제공합니다.   | Microsoft Defender for Identity 통합  |
 | | | |
 

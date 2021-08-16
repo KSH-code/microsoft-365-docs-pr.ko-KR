@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 45858943dab6f6cb2964cc2751c245f182f3ea9e61ab5a8565a238e3aad715e1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3053740119c09b56b6fa01434d79fe9cd31d826e
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53808179"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256707"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -74,7 +74,7 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 3. **정책을 적용할 위치 선택** 페이지의 경우 Teams의 위치 중 일부 또는 전부를 선택합니다.
     - **Teams 채널 메시지**: 표준 채널 채팅 및 표준 채널 모임의 메시지이지만 자체 정책 위치가 있는 [비공개 채널](/microsoftteams/private-channels)에서 보낸 메시지는 아닙니다.
     - **Teams 채팅**: 비공개 1:1 채팅, 그룹 채팅 및 모임 채팅의 메시지입니다.
-    - **Teams 비공개 채널 메시지**: 비공개 채널 채팅 및 비공개 채널 모임의 메시지입니다. 이 옵션은 현재 미리 보기로 배포되고 있으며 표시되지 않으면 며칠 후에 다시 시도하세요.
+    - **Teams 비공개 채널 메시지**: 비공개 채널 채팅 및 비공개 채널 모임의 메시지입니다.
     
    기본적으로 [모든 팀과 모든 사용자가 선택](#a-policy-that-applies-to-entire-locations)되어 있지만 **편집** 옵션을 선택하여 [특정 포함 또는 제외](#a-policy-with-specific-inclusions-or-exclusions)에 대한 보존 정책을 구성하여 이를 구체화할 수 있습니다. 그러나 기본값을 변경하기 전에 포함 또는 제외되도록 구성할 때 메시지를 삭제하는 보존 정책의 다음과 같은 결과에 유의해야 합니다.
     

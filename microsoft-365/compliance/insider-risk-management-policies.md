@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: f64fcf4908f119e261b07bbc4feaed2151e30187
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
-ms.translationtype: HT
+ms.openlocfilehash: 79795b6166b5a0b513ab4558effe509cc6637849
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226434"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256695"
 ---
 # <a name="insider-risk-management-policies"></a>내부 위험 관리 정책
 
@@ -210,6 +210,8 @@ ms.locfileid: "53226434"
 
 ![내부자 위험 관리 정책 상태](../media/insider-risk-policy-health.png)
 
+### <a name="notification-messages"></a>알림 메시지
+
 다음 표를 사용하여 잠재적인 문제를 해결하기 위해 수행할 권장 사항 및 경고 알림 및 작업에 대해 자세히 알아봅니다.
 
 |**알림 메시지**|**정책 템플릿**|**원인/이 작업을 시도해 해결**|
@@ -380,7 +382,7 @@ ms.locfileid: "53226434"
 7. 정책에 추가할 사용자 목록을 가져오려면 **가져오기** 를 선택하여 .csv(쉼표로 구분된 값) 파일을 가져옵니다. 파일은 다음 형식이어야 하며 파일의 사용자 계정 이름을 나열해야 합니다.
 
     ```csv
-    사용자 계정 이름
+    user principal name
     user1@domain.com
     user2@domain.com
     ```

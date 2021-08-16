@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 신호 통신 데이터를 원격 통신 데이터로 가져오고 보관할 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 40f9c29e873be488964e44a2e7f4bf937384d4c0198f4013a15e88b10c539791
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d6d129c69f2258457c2cdcc0dee28ac4e6738dff
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796580"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256628"
 ---
 # <a name="set-up-a-connector-to-archive-signal-communications-data"></a>신호 통신 데이터를 보관할 커넥터 설정
 
