@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 761a8fcb3c6f7efe82c542001dac1f62eb365f1473268df0866bb5dfae0ed302
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: efb6bcde04411b3409d3076d09251423d436265c
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863195"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58252140"
 ---
 # <a name="enable-the-evaluation-environment-for-microsoft-cloud-app-security"></a>사용자에 대해 평가 환경을 Microsoft Cloud App Security
 

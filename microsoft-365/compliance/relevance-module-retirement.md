@@ -14,12 +14,12 @@ search.appverid:
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: M365-security-compliance
 description: 2021년 3월 10일에는 Advanced eDiscovery 모듈이 사용 중지됩니다. 이 문서에서는 관련성 사용이 중지되기 전에 해야 할 작업을 설명합니다. 특히 모델의 메타데이터를 유지할 수 있도록 일괄 계산을 실행하여 미완료 모델을 완료합니다.
-ms.openlocfilehash: 0719c2cb1b6b0d867ffc045fe02d57e1e2f32a61
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: c64a0e1f42fc1904c91c4ac30a74cecb975b1b18c0a3426e63bd5ca2aac45feb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53871461"
 ---
 # <a name="retirement-of-the-relevance-module-in-advanced-ediscovery"></a>2016년 12월에 대한 Advanced eDiscovery
 

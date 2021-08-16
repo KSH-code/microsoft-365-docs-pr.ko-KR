@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 535a729a56c5841eb6591ec34ac934c0446fefbd
-ms.sourcegitcommit: bef7bd019531317d083c1125f7d339750c450b2f
+ms.openlocfilehash: 0c3f4dea703a5d146cab9382be3e991bf8c50bd545ee26ac2781d9542a1f5f90
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53894254"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 지표 만들기
 

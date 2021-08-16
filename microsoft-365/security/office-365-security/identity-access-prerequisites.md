@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: edce65314062f731673926195be791f77d1cb823
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: 684585d38bd66e5a62df82e9c757a80775f4403e42d4f28c929d1f6e3fe3852f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952551"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53873371"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>ID 및 장치 액세스 정책 구현을 위한 선행 작업
 
@@ -116,7 +116,7 @@ BYOD Windows 장치의 경우 사용자는 직장 또는 학교 계정 추가 **
 
 ## <a name="protecting-administrator-accounts"></a>관리자 계정 보호
 
-Microsoft 365 E3 또는 E5 또는 별도의 Azure AD Premium P1 또는 P2 라이선스의 경우 수동으로 만든 조건부 액세스 정책을 사용하여 관리자 계정에 MFA를 요구할 수 있습니다. 자세한 [내용은 조건부 액세스: 관리자에게 MFA](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) 요구를 참조합니다.
+Microsoft 365 E3 또는 E5 또는 별도의 Azure AD Premium P1 또는 P2 라이선스의 경우 수동으로 만든 조건부 액세스 정책을 사용하여 관리자 계정에 대해 MFA를 요구할 수 있습니다. 자세한 [내용은 조건부 액세스: 관리자에게 MFA](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) 요구를 참조합니다.
 
 조건부 Microsoft 365 Office 365 지원하지 않는 버전 또는 모든 계정의 경우 [](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) 보안 기본값을 사용하도록 설정하여 모든 계정에 대해 MFA를 요구할 수 있습니다.
 

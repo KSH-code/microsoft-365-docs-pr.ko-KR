@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: cec25a877e7039fc3b00d693ecc63e798492131e8eba6c12e4a97b77824da150
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e630b2cdb7164157e2dd42e8f1ee8d09676dfbfb
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53828514"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58252083"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>이 기능을 켜면 자주 묻는 Microsoft 365 Defender
 
@@ -63,13 +63,13 @@ Microsoft 365 Defender 통합 데이터가 처리되고 저장되는 데이터 �
 >[!NOTE]
 >끝점용 Microsoft Defender는 Azure Defender를 통해 켜져 있는 경우 유럽 연합(EU) 데이터 센터에서 자동으로 프로비전합니다. Microsoft 365 Defender Microsoft Defender for Endpoint를 이 방식으로 프로비전한 고객을 위해 동일한 EU 데이터 센터에서 자동으로 프로비전합니다.
 
-데이터 센터 위치는 서비스를 프로비전하기 전과 후에 **Microsoft 365 Defender(설정 > Microsoft 365 Defender).** 다른 데이터 센터 위치를 사용하려면 Microsoft 365 센터에서 도움이 **필요하세요?를** 선택하여 Microsoft 지원에 문의하세요.
+데이터 센터 위치는 서비스를 프로비전하기 전과 후에 **Microsoft 365 Defender(설정 > Microsoft 365 Defender).** 다른 데이터 센터 위치를 사용하려면 microsoft 지원 센터에 문의하려면 Microsoft 365 Defender 포털에서 도움이 **필요하세요?를** 선택합니다.
 
 ## <a name="where-can-i-access-microsoft-365-defender"></a>어디에서 액세스할 수 Microsoft 365 Defender?
 
-Microsoft 365 Defender 보안 센터에서 Microsoft 365 있습니다. 보안 센터로 이동하기 위해 URL로 <https://security.microsoft.com> 이동하세요.
+Microsoft 365 Defender 에서 사용할 수 <https://security.microsoft.com> 있습니다.
 
-## <a name="what-permissions-do-i-need-to-access-microsoft-365-defender-in-microsoft-365-security-center"></a>보안 센터에서 Microsoft 365 Defender 액세스하는 데 Microsoft 365 권한은 무엇입니까?
+## <a name="what-permissions-do-i-need-to-access-microsoft-365-defender"></a>어떤 사용 권한에 액세스해야 Microsoft 365 Defender?
 
 다음 Azure AD(Azure Active Directory) 역할이 할당된 계정은 Microsoft 365 Defender 데이터에 액세스할 수 있습니다.
 

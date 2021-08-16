@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4d793d49d669510b722a72160ae396ee73ab9699
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: f504ac86dcef68bf4427819babea119b2418512bee59e169ffd72e51a6dd92dd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53873466"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>인시던트 우선 순위를 Microsoft 365 Defender
 
@@ -70,7 +70,7 @@ Microsoft 365 Defender 상관 관계 분석을 적용하고 다양한 제품의 
 | 필터 이름 | 설명 |
 |:-------|:-----|
 | 할당된 사용자 | 사용자에게 할당된 경고 또는 자동화에서 처리하는 경고를 표시하기로 선택할 수 있습니다. |
-| 범주 | 범주를 선택해 특정 전략, 기술 또는 공격 구성 요소에 집중합니다. |
+| 분류 | 범주를 선택해 특정 전략, 기술 또는 공격 구성 요소에 집중합니다. |
 | 분류 | 관련 경고의 설정된 분류에 따라 인시던트 필터링 값에는 실제 경고, 거짓 경고 또는 설정되지 않은 알림이 포함됩니다. |
 | 데이터 민감도 | 일부 공격은 민감하거나 가치있는 데이터 수집을 목적으로 합니다.  필터를 적용하여 민감한 데이터가 사건에 연루되었는지를 확인한 후 민감 정보의 누출 여부를 결정하고 해당 사고의 우선순위를 결정할 수 있습니다.   <br><br> Microsoft Threat Protection이 설정 된 경우에만 적용 됩니다.|
 | 장치 그룹 | 정의된 장치 그룹으로 필터링합니다. |

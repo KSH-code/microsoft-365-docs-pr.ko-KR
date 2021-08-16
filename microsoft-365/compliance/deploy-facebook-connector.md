@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 기본 커넥터를 설정하여 Facebook 비즈니스 페이지를 가져와서 보관할 수 Microsoft 365. 이 데이터를 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 Facebook 데이터의 거버넌스를 관리할 수 있습니다.
-ms.openlocfilehash: 773893884aebba3d55e063e7e4f8fa331553eb215a2e20f6b8833b00811d7c12
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 14793931ec6e58571dd870bd48b2150d2d00fa09
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53892933"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58248066"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook 비즈니스 페이지 데이터를 보관하는 커넥터 배포
 
@@ -124,7 +124,7 @@ ms.locfileid: "53892933"
 
    ![제품 추가를 클릭한 다음 **Webhook을 클릭합니다.](../media/FBCimage32.png)
 
-9. Webhook 콜백 URL을 추가하고 확인 토큰을 추가합니다. 콜백 URL의 형식은 **<connectorserviceuri> /api/FbPageWebhook** 형식을 사용합니다. 여기서 connectorserviceuri의 값은 조직의 Azure 앱 서비스 URL입니다(예: `https://fbconnector.azurewebsites.net` ).
+9. Webhook 콜백 URL을 추가하고 확인 토큰을 추가합니다. 콜백 URL의 형식은 형식을 사용합니다. 여기서 connectorserviceuri의 값은 조직의 Azure 앱 서비스 `<connectorserviceuri>/api/FbPageWebhook` URL입니다(예: `https://fbconnector.azurewebsites.net` ).
 
    확인 토큰은 강력한 암호와 유사해야 합니다. 확인 토큰을 텍스트 파일 또는 다른 저장소 위치에 복사합니다.
 

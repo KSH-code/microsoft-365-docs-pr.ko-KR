@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 34ad9d1c6f020fb8e6d8e878803eba23b3aeb5e616146fa5cdf564a19226f826
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bec319f840728599f01680c32561bf3998d59381
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894012"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58253371"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>노출된 장치 헌트 - 위협 및 취약성 관리
 
@@ -32,7 +32,7 @@ ms.locfileid: "53894012"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-portaloverview-abovefoldlink)
@@ -63,16 +63,19 @@ ms.locfileid: "53894012"
 
 ```kusto
 // Search for devices with High active alerts or Critical CVE public exploit
-DeviceTvmSoftwareVulnerabilities
+let DeviceWithHighAlerts = AlertInfo
+| where Severity == "High"
+| project Timestamp, AlertId, Title, ServiceSource, Severity
+| join kind=inner (AlertEvidence | where EntityType == "Machine" | project AlertId, DeviceId, DeviceName) on AlertId
+| summarize HighSevAlerts = dcount(AlertId) by DeviceId;
+let DeviceWithCriticalCve = DeviceTvmSoftwareVulnerabilities
 | join kind=inner(DeviceTvmSoftwareVulnerabilitiesKB) on CveId
 | where IsExploitAvailable == 1 and CvssScore >= 7
 | summarize NumOfVulnerabilities=dcount(CveId),
-DeviceName=any(DeviceName) by DeviceId
-| join kind =inner(DeviceAlertEvents) on DeviceId  
-| summarize NumOfVulnerabilities=any(NumOfVulnerabilities),
-DeviceName=any(DeviceName) by DeviceId, AlertId
-| project DeviceName, NumOfVulnerabilities, AlertId  
-| order by NumOfVulnerabilities desc
+DeviceName=any(DeviceName) by DeviceId;
+DeviceWithCriticalCve
+| join kind=inner DeviceWithHighAlerts on DeviceId
+| project DeviceId, DeviceName, NumOfVulnerabilities, HighSevAlerts
 ```
 
 ## <a name="related-topics"></a>관련 항목

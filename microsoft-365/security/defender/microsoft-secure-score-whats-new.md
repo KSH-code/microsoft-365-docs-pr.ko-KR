@@ -1,7 +1,7 @@
 ---
 title: Microsoft 보안 점수의 새로운
-description: 보안 센터에서 Microsoft 보안 점수에 대한 새로운 변경 Microsoft 365 설명
-keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터
+description: 웹 사이트 포털에서 Microsoft 보안 점수에 대한 새로운 변경 Microsoft 365 Defender 설명
+keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 Defender 포털
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: c0abdd26456fe9c7d2ee6111f8c15805af3f66b7738b42ee79fb1a230e08239d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4ff06a12d6d0639b00091a93b9ba7162d7cb6264
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884142"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58249056"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운
 
@@ -34,7 +34,7 @@ ms.locfileid: "53884142"
 
 Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경 사항을 적용해 두었다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 [점수의 출시 예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
 
-Microsoft 보안 점수는 보안 센터의 Microsoft 365 https://security.microsoft.com/securescore [있습니다.](overview-security-center.md)
+Microsoft 보안 점수는 웹 사이트 포털에서 Microsoft 365 Defender https://security.microsoft.com/securescore [있습니다.](overview-security-center.md)
 
 ## <a name="july-2021"></a>2021년 7월
 
@@ -83,7 +83,7 @@ Microsoft 보안 점수는 보안 센터의 Microsoft 365 https://security.micro
 
 ### <a name="compatibility-with-graph-api"></a>API와 Graph 호환성
 
-Graph API를 통해 전달되는 Microsoft 보안 점수 권장 사항은 현재 보안 센터의 권장 사항과 Microsoft 365 가중치가 있습니다.
+Graph API를 통해 전달되는 Microsoft 보안 점수 권장 사항은 현재 보안 포털에 있는 권장 사항과 Microsoft 365 Defender 가중치가 매기게 됩니다.
 
 ## <a name="january-2021"></a>2021년 1월
 

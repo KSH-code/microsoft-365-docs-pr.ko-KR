@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9361e791eafad1a3d7243a0d11821c9286c5e3bebf64f878af1e72cda6bfa952
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 65486a046967ef3a3961220af0c9077a7d3fbd94
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829114"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58253418"
 ---
 # <a name="recommendation-resource-type"></a>권장 리소스 유형
 
@@ -44,12 +44,12 @@ ms.locfileid: "53829114"
 :---|:---|:---
 [모든 권장 사항 목록](get-all-recommendations.md) | 추천 컬렉션 | 조직에 영향을 주는 모든 보안 권장 사항 목록을 검색합니다.
 [ID별 권장 사항 가져오기](get-recommendation-by-id.md) | 권장 사항 | ID로 보안 권장을 검색합니다.
-[권장 소프트웨어 다운로드](get-recommendation-software.md)| [소프트웨어](software.md) | 특정 소프트웨어와 관련된 보안 권장 검색
+[권장 소프트웨어 다운로드](list-recommendation-software.md)| [소프트웨어](software.md) | 특정 소프트웨어와 관련된 보안 권장 검색
 [추천 장치 사용](get-recommendation-machines.md)|MachineRef 컬렉션 | 보안 권장과 연결된 장치 목록을 검색합니다.
 [권장 취약성 확인](get-recommendation-vulnerabilities.md) | [취약성](vulnerability.md) 컬렉션 | 보안 권장과 관련된 취약점 목록을 검색합니다.
 
 
-## <a name="properties"></a>특성
+## <a name="properties"></a>속성
 속성 |   유형   |   설명
 :---|:---|:---
 id | String | 권장 ID

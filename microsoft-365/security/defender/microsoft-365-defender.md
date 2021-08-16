@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 26b68fe1adcf9841b69f86000c4c0d77d1db860fc64e713f2c186ad295b63ffc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7357c05809ffc31783f985adc04cabc70742dbe9
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888674"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247954"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -92,8 +92,8 @@ Microsoft 365 Defender 제품 간 기능에는 다음이 포함됩니다.
 - **제품** 간 위협 헌팅 - 보안 팀은 다양한 보호 제품에서 수집한 원시 데이터에 대해 자체 사용자 지정 쿼리를 만들어 고유한 조직 지식을 활용하여 손상 징후를 찾을 수 있습니다. Microsoft 365 Defender 30일 동안의 기록 원시 신호 및 경고 데이터에 대한 쿼리 기반 액세스를 제공합니다. 끝점에서 경고 데이터 및 데이터용 Microsoft Defender를 Office 365 있습니다. 
 
 
-## <a name="get-started"></a>시작
-Microsoft 365 Defender 의 Microsoft 365 보안 센터에서 서비스를 사용하도록 설정하려면 먼저 라이선스 요구 사항을 [security.microsoft.com.](https://security.microsoft.com) 자세한 내용은 다음을 참조하십시오.
+## <a name="get-started"></a>시작하기
+Microsoft 365 Defender 라이선스 요구 사항을 충족해야 Microsoft 365 Defender 포털에서 서비스를 사용하도록 설정할 [수 security.microsoft.com.](https://security.microsoft.com) 자세한 내용은 다음을 참조하십시오.
 - [라이선스 요구사항](prerequisites.md#licensing-requirements)
 - [Microsoft 365 Defender 켜기](m365d-enable.md)
 

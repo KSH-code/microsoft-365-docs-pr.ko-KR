@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 05/21/2018
 ms.technology: mde
-ms.openlocfilehash: 5211bf98e4cdfe4357a8aebe4aa803fb8ffd5576
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: c92d53045c56adf300dc2d67c92f8e7c6b6333e6739a10f476461252321ca3bb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58246340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53857618"
 ---
 # <a name="review-events-and-errors-using-event-viewer"></a>이벤트 뷰어를 사용하여 이벤트 및 오류 검토
 
@@ -57,10 +57,10 @@ ms.locfileid: "58246340"
 
    ****
 
-   |이벤트 ID|메시지|설명|조치|
+   |이벤트 ID|메시지|설명|작업|
    |---|---|---|---|
-   |1 |끝점용 Microsoft Defender 서비스가 `variable` 시작되었습니다(버전).|시스템 시작, 종료 및 온보더링 중에 발생합니다.|정상 작동 알림 필요한 작업이 없습니다.|
-   |2 |끝점용 Microsoft Defender 서비스 종료.|디바이스가 종료되거나 오프보더될 때 발생합니다.|정상 작동 알림 필요한 작업이 없습니다.|
+   |1|끝점용 Microsoft Defender 서비스가 `variable` 시작되었습니다(버전).|시스템 시작, 종료 및 온보더링 중에 발생합니다.|정상 작동 알림 필요한 작업이 없습니다.|
+   |2|끝점용 Microsoft Defender 서비스 종료.|디바이스가 종료되거나 오프보더될 때 발생합니다.|정상 작동 알림 필요한 작업이 없습니다.|
    |3 |끝점용 Microsoft Defender 서비스를 시작하지 못했습니다. 오류 코드: `variable` .|서비스가 시작되지 않습니다.|다른 메시지를 검토하여 가능한 원인 및 문제 해결 단계를 파악합니다.|
    |4 |끝점용 Microsoft Defender 서비스가 에 서버에 `variable` 연결했습니다.|변수 = 끝점 처리 서버용 Defender의 URL입니다. <p> 이 URL은 방화벽 또는 네트워크 활동에 있는 URL과 일치합니다.|정상 작동 알림 필요한 작업이 없습니다.|
    |5 |끝점용 Microsoft Defender 서비스가 의 서버에 연결하지 `variable` 못했습니다.|변수 = 끝점 처리 서버용 Defender의 URL입니다. <p> 서비스가 해당 URL의 외부 처리 서버에 연결하지 못했습니다.|URL에 대한 연결을 확인합니다. 프록시 [및 인터넷 연결 구성을 참조합니다.](configure-proxy-internet.md)|
@@ -69,10 +69,10 @@ ms.locfileid: "58246340"
    |8 |Microsoft Defender for Endpoint Service에서 구성을 정리하지 못했습니다. 오류 코드: `variable` .|**온보드 중:** 서비스가 온보더링하는 동안 구성을 정리하지 못했습니다. 온보더링 프로세스가 계속됩니다. <p> **오프보더 중:** 서비스가 오프보더하는 동안 구성을 정리하지 못했습니다. 오프보더 프로세스가 완료 했지만 서비스가 계속 실행됩니다.|**온보더링:** 필요한 작업은 없습니다. <p> **오프보더링:** 시스템을 다시 부트합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md)|
    |9 |끝점용 Microsoft Defender 서비스가 시작 유형을 변경하지 못했습니다. 오류 코드: `variable` .|**온보드 중:** 장치가 올바르게 온보드되지 않았고 포털에 보고되지 않습니다. <p>**오프보더 중:** 서비스 시작 유형을 변경하지 못했습니다. 오프보더 프로세스가 계속됩니다. |온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md)|
    |10 |Microsoft Defender for Endpoint Service에서 온보딩 정보를 유지하지 못했습니다. 오류 코드: `variable` .|장치가 올바르게 온보드되지 않았고 포털에 보고되지 않습니다.|온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md)|
-   |11 |Endpoint Service용 Defender의 온보딩 또는 다시 온보딩이 완료되었습니다.|장치가 올바르게 온보드되었습니다.|정상 작동 알림 필요한 작업이 없습니다. <p> 디바이스가 포털에 표시될 때 몇 시간이 걸릴 수 있습니다.|
+   |11|Endpoint Service용 Defender의 온보딩 또는 다시 온보딩이 완료되었습니다.|장치가 올바르게 온보드되었습니다.|정상 작동 알림 필요한 작업이 없습니다. <p> 디바이스가 포털에 표시될 때 몇 시간이 걸릴 수 있습니다.|
    |12 |끝점용 Microsoft Defender가 기본 구성을 적용하지 못했습니다.|서비스가 기본 구성을 적용할 수 없습니다.|이 오류는 잠시 후에 해결해야 합니다.|
-   |13 |끝점용 Microsoft Defender 장치 ID 계산: `variable` .|정상적인 작동 프로세스.|정상 작동 알림 필요한 작업이 없습니다.|
-   |15 |끝점용 Microsoft Defender는 URL로 명령 채널을 시작할 수 없습니다. `variable` .|변수 = 끝점 처리 서버용 Defender의 URL입니다. <p> 서비스가 해당 URL의 외부 처리 서버에 연결하지 못했습니다.|URL에 대한 연결을 확인합니다. 프록시 [및 인터넷 연결 구성을 참조합니다.](configure-proxy-internet.md)|
+   |13|끝점용 Microsoft Defender 장치 ID 계산: `variable` .|정상적인 작동 프로세스.|정상 작동 알림 필요한 작업이 없습니다.|
+   |15|끝점용 Microsoft Defender는 URL로 명령 채널을 시작할 수 없습니다. `variable` .|변수 = 끝점 처리 서버용 Defender의 URL입니다. <p> 서비스가 해당 URL의 외부 처리 서버에 연결하지 못했습니다.|URL에 대한 연결을 확인합니다. 프록시 [및 인터넷 연결 구성을 참조합니다.](configure-proxy-internet.md)|
    |17 |끝점용 Microsoft Defender 서비스가 연결된 사용자 환경 및 원격 분석 서비스 위치를 변경하지 못했습니다. 오류 코드: `variable` .|원격 분석 서비스에 Windows 오류가 발생했습니다.|[진단 데이터 서비스가](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)"진단 데이터 >사용하도록 설정되어 있는지 확인합니다. <p> 온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md)|
    |18 |OOBE(Windows 시작)가 완료되었습니다.|서비스는 업데이트가 설치를 Windows 후에만 시작됩니다.|정상 작동 알림 필요한 작업이 없습니다.|
    |19|OOBE(Windows 시작)가 아직 완료되지 않았습니다.|서비스는 업데이트가 설치를 Windows 후에만 시작됩니다.|정상 작동 알림 필요한 작업이 없습니다. <p> 시스템을 다시 시작한 후에도 이 오류가 지속되면 모든 Windows 전체 업데이트가 설치되어 있는지 확인합니다.|
@@ -149,10 +149,8 @@ ms.locfileid: "58246340"
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-eventerrorcodes-belowfoldlink)
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
+
 - [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
 - [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
 - [엔드포인트용 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)
-- [클라이언트 분석기 개요](overview-client-analyzer.md)
-- [클라이언트 분석기 다운로드 및 실행](download-client-analyzer.md)
-- [분석기 HTML 보고서 이해](analyzer-report.md)

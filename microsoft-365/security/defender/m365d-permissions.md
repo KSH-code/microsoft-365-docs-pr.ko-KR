@@ -1,5 +1,5 @@
 ---
-title: 보안 센터에서 Microsoft 365 Defender 데이터에 대한 액세스 Microsoft 365 관리
+title: 사이트 포털에서 Microsoft 365 Defender 데이터에 대한 액세스 Microsoft 365 Defender 관리
 description: 2013에서 데이터에 대한 사용 권한을 관리하는 방법을 Microsoft 365 Defender
 keywords: 액세스, 사용 권한, Microsoft 365 Defender, M365, 보안, MCAS, Cloud App Security, 끝점용 Microsoft Defender, 범위, 범위 지정, RBAC
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 33b53356f4569954b2e5905b953bc1edaa7f750f8dff0d09133ec520a67ec615
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 61d76d873005c2bdd37fc37f05cf6e520a302647
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53902202"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247956"
 ---
 # <a name="manage-access-to-microsoft-365-defender-with-azure-active-directory-global-roles"></a>전역 역할을 사용하여 Microsoft 365 Defender 액세스 Azure Active Directory 관리
 
@@ -46,7 +46,7 @@ ms.locfileid: "53902202"
 - 전역 읽기 권한자
 - 보안 읽기 권한자
 
-이 역할을 사용하여 계정을 검토하려면 [Microsoft 365 보안 센터에서 사용 권한을 확인합니다](https://security.microsoft.com/permissions).
+이러한 역할이 있는 계정을 검토하려면 웹 [사이트 포털에서 사용 Microsoft 365 Defender 를 참조합니다.](https://security.microsoft.com/permissions)
 
 **사용자 지정 역할** 액세스는 Microsoft Microsoft 365 Defender 새로운 기능으로, Microsoft Defender 365의 특정 데이터, 작업 및 기능에 대한 액세스를 관리할 수 있도록 합니다. 사용자 지정 역할은 전역 Azure AD 역할보다 더 많은 제어를 제공하여 필요한 최소 허용 역할만 사용자에게 제공합니다.  전역 Azure AD 역할 외에 사용자 지정 역할을 만들 수 있습니다. [사용자 지정 역할에 대해 자세히 알아보시고 을(를) 자세히 알아보아야 합니다.](custom-roles.md)
 

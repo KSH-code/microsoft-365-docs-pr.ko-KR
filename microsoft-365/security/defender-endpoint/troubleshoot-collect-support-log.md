@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 69c6bb7a054841cdb7ee7feded55d8f27b3fb93c9e411c3c69853e49141723ed
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 518194e3cbf185da415104991e1d7186f5912953
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53839212"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58250577"
 ---
 # <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a>라이브 응답을 사용하여 끝점용 Microsoft Defender에서 지원 로그 수집
 
@@ -81,3 +81,13 @@ ms.locfileid: "53839212"
 >   ```
 >
 > - 컴퓨터의 끝점 클라우드 서비스용 Microsoft Defender와 통신하지 않는 경우 또는 끝점용 Microsoft Defender 포털에 예상대로 나타나지 않는 경우 컴퓨터의 데이터를 로컬로 수집하는 데 대한 자세한 내용은 끝점 서비스 [URL에 대한 Microsoft Defender에](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)대한 클라이언트 연결 확인을 참조하세요.
+
+
+## <a name="see-also"></a>참고 항목
+- [클라이언트 분석기 개요](overview-client-analyzer.md)
+- [클라이언트 분석기 다운로드 및 실행](download-client-analyzer.md)
+- [클라이언트 분석기를 클라이언트 Windows](run-analyzer-windows.md)
+- [macOS 또는 Linux에서 클라이언트 분석기 실행](run-analyzer-macos-linux.md)
+- [고급 문제 해결을 위한 데이터 Windows](data-collection-analyzer.md)
+- [분석기 HTML 보고서 이해](analyzer-report.md)
+

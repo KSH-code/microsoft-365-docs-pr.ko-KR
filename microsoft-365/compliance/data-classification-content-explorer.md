@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: c66bfd02c83e8d6d7f63c4f80db5f32a7c376dfa3ce52516e5681a86bbbb5c4d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9fbe99e07a9fa881656df15e2be1d673f87bc523
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886401"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58251916"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 
@@ -57,6 +57,9 @@ ms.locfileid: "53886401"
 > [!IMPORTANT]
 > 이러한 역할 그룹의 구성원은 콘텐츠 탐색기의 항목 목록을 보거나 콘텐츠 탐색기의 항목 내용을 볼 수 없습니다.
 
+> [!IMPORTANT]
+> 전역 관리자만 준수 센터의 다른 사용자에게 권한을 관리하거나 할당할 수 있습니다. 자세한 내용은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+> 
 ### <a name="required-permissions-to-access-items-in-content-explorer"></a>콘텐츠 탐색기에서 항목에 액세스하는 데 필요한 권한
 
 콘텐츠 탐색기에 대한 액세스는 검사된 파일의 내용을 읽을 수 있기 때문에 매우 제한적입니다.

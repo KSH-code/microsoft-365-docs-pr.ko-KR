@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 ms.custom: seo-marvel-apr2020
 description: 항목을 사용자의 보관 사서함으로 자동으로 Microsoft 365 보관 및 삭제 정책을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 45d6428f5b0a856538d500b1d1f0447447b9dfe9
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: a7367bc8861f02b31a4782770e28c86c133b5b46add0fa22da30f2f078f47881
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53871578"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>조직에서 사서함에 대한 보관 및 삭제 정책 설정하기
 
@@ -63,7 +63,7 @@ ms.locfileid: "53341643"
 > [!NOTE]
 > 프로세스를 완료하기 전에 특정 시점에 보관 사서함을 사용하도록 설정하는 한 이 프로세스 중에 보관 사서함을 사용하도록 설정할 수 있습니다. 보관 사서함을 사용하도록 설정하지 않은 경우 보관함 또는 삭제 정책이 할당된 항목에 대해 아무 작업도 수행되지 않습니다.
   
-1. <https://compliance.microsoft.com>으로 이동합니다.
+1. <https://compliance.microsoft.com>로 이동합니다.
 
 2. 전역 관리자 계정을 사용하여 로그인합니다.
     

@@ -561,7 +561,7 @@
 ####### [권장 방법 및 속성](recommendation.md)
 ####### [모든 권장 사항 목록](get-all-recommendations.md)
 ####### [ID별 권장 사항 가져오기](get-recommendation-by-id.md)
-####### [소프트웨어별 권장 사항 가져오기](get-recommendation-software.md)
+####### [소프트웨어별 권장 사항 가져오기](list-recommendation-software.md)
 ####### [권장 사항별 컴퓨터 목록](get-recommendation-machines.md)
 ####### [권장 사항별 취약성 목록](get-recommendation-vulnerabilities.md)
 
@@ -666,6 +666,17 @@
 ##### [비활성 장치](fix-unhealthy-sensors.md#inactive-devices)
 ##### [잘못 구성된 장치](fix-unhealthy-sensors.md#misconfigured-devices)
 ##### [이벤트 뷰어로 컴퓨터에서 센서 이벤트 및 오류 검토](event-error-codes.md)
+
+#### [클라이언트 분석기를 사용한 센서 상태 문제 해결]()
+##### [클라이언트 분석기 개요](overview-client-analyzer.md)
+##### [클라이언트 분석기 다운로드 및 실행](download-client-analyzer.md)
+##### [Windows에서 클라이언트 분석기 실행](run-analyzer-windows.md)
+##### [macOS 또는 Linux에서 클라이언트 분석기 실행](run-analyzer-macos-linux.md)
+##### [Windows에서 고급 문제 해결을 위한 데이터 수집](data-collection-analyzer.md)
+##### [분석기 HTML 보고서 이해](analyzer-report.md)
+##### [클라이언트 분석기 도구에 대한 피드백 제공](analyzer-feedback.md)
+
+  
 
 #### [엔드포인트용 Microsoft Defender 서비스 문제 해결]()
 ##### [서비스 문제 해결](troubleshoot-mdatp.md)

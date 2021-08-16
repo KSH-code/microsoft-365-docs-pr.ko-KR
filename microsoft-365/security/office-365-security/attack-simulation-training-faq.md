@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 계획 2 조직용 Microsoft Defender 또는 Microsoft 365 E5 시뮬레이션 및 교육과 관련하여 배포 고려 사항과 Office 365 정보를 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f404e2a47756a611135fc70026bf0cce3eec62c4
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 12d00fee09ca21245812917fb00cff89c322e4112df970b25f853032344f6faf
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53873408"
 ---
 # <a name="attack-simulation-training-deployment-considerations-and-faq"></a>공격 시뮬레이션 교육 배포 고려 사항 및 FAQ
 
@@ -37,21 +37,21 @@ ms.locfileid: "51205212"
 
 ## <a name="issues-with-end-user-experiences"></a>최종 사용자 환경의 문제
 
-### <a name="phishing-simulation-urls-blocked-by-google-safe-browsing"></a>Google Safe Browsing에서 차단된 피싱 시뮬레이션 URL
+### <a name="phishing-simulation-urls-blocked-by-google-safe-browsing"></a>Google 금고 차단된 피싱 시뮬레이션 URL
 
-URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 이상의 URL을 안전하지 않은 것으로 식별할 수 있습니다. Google Chrome의 Google 안전한 브라우징은 기만 사이트 미리 메시지를 사용하여 시뮬레이션된 피싱 URL **중 일부를 차단합니다.** 항상 시뮬레이션 URL을 허용하기 위해 많은 URL 신뢰도 공급업체와 협력하고 있습니다. 그러나 항상 전체 범위가 있는 것은 아니며,
+URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 이상의 URL을 안전하지 않은 것으로 식별할 수 있습니다. Google 금고 검색을 통해 시뮬레이션된 피싱 URL 중 일부를 기만 사이트 미리 **메시지로 차단합니다.** 항상 시뮬레이션 URL을 허용하기 위해 많은 URL 신뢰도 공급업체와 협력하고 있습니다. 그러나 항상 전체 범위가 있는 것은 아니며,
 
 ![Google Chrome에서 기만적 사이트 미리 경고](../../media/attack-sim-chrome-deceptive-site-message.png)
 
 이 문제는 이 문제의 영향을 Microsoft Edge.
 
-계획 단계의 일부로 피싱 캠페인에서 URL을 사용하기 전에 지원되는 웹 브라우저에서 URL의 가용성을 확인하십시오. Google Safe Browsing에서 URL을 차단하는 [](https://support.google.com/chrome/a/answer/7532419) 경우 Google의 이 지침을 따라 URL에 대한 액세스를 허용합니다.
+계획 단계의 일부로 피싱 캠페인에서 URL을 사용하기 전에 지원되는 웹 브라우저에서 URL의 가용성을 확인하십시오. Google 금고 검색에서 URL을 차단하는 경우 Google의 [](https://support.google.com/chrome/a/answer/7532419) 이 지침을 따라 URL에 대한 액세스를 허용합니다.
 
 공격 [시뮬레이션](attack-simulation-training-get-started.md) 교육에서 현재 사용되는 URL 목록에 대한 공격 시뮬레이션 교육 사용 시작을 참조하세요.
 
 ### <a name="phishing-simulation-and-admin-urls-blocked-by-network-proxy-solutions-and-filter-drivers"></a>네트워크 프록시 솔루션 및 필터 드라이버에 의해 차단되는 피싱 시뮬레이션 및 관리자 URL
 
-피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예:
+피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 - 방화벽
 - WAF(웹 응용 프로그램 방화벽) 솔루션
@@ -118,7 +118,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="messages-reported-as-phishing-by-users-arent-appearing-in-simulation-reports"></a>사용자가 피싱으로 보고한 메시지가 시뮬레이션 보고서에 나타나지 않습니다.
 
-공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예:
+공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 - 메시지의 링크를 클릭한 사용자입니다.
 - 자격 증명을 포기한 사용자입니다.
@@ -172,7 +172,7 @@ A: 예! 마법사의 **마지막** 시뮬레이션 검토 페이지에서 새 �
 
 ### <a name="q-can-i-target-users-that-belong-to-a-different-tenant-as-part-of-the-same-simulation-campaign"></a>Q: 동일한 시뮬레이션 캠페인의 일부로 다른 테넌트에 속한 사용자를 대상으로 할 수 있나요?
 
-A: 아니요. 현재 테넌트 간 시뮬레이션은 지원되지 않습니다. 모든 대상 사용자가 동일한 테넌트에 있는지 확인 테넌트 간 사용자 또는 게스트 사용자는 시뮬레이션 캠페인에서 제외됩니다.
+대답: 아니요. 현재 테넌트 간 시뮬레이션은 지원되지 않습니다. 모든 대상 사용자가 동일한 테넌트에 있는지 확인 테넌트 간 사용자 또는 게스트 사용자는 시뮬레이션 캠페인에서 제외됩니다.
 
 ### <a name="q-how-does-region-aware-delivery-work"></a>Q: 지역 인식 배달은 어떻게 작동하나요?
 

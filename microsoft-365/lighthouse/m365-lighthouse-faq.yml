@@ -17,12 +17,12 @@ metadata:
   - M365-Lighthouse
   search.appverid: MET150
   description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 서비스 공급자에 대한 FAQ(질문과 대답)를 Microsoft 365 Lighthouse.
-  ms.openlocfilehash: f144e2a1535054508e548a8b2848600e45c4adba1763de85194879965a8358af
-  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+  ms.openlocfilehash: 1e2ea224152071f3e403934ff9a4a58eecd87e18
+  ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "53840134"
+  ms.lasthandoff: 08/13/2021
+  ms.locfileid: "58253816"
 title: Microsoft 365 Lighthouse 질문과 대답(FAQ)
 summary: >
   > [!NOTE]
@@ -37,58 +37,58 @@ summary: >
 sections:
 - name: 무시됨
   questions:
-  - question: 어떤 Microsoft 365 Lighthouse?
+  - question: What is Microsoft 365 Lighthouse?
     answer: >
-      Microsoft 365 Lighthouse SMB(관리 서비스 공급자)가 SMB(중소기업) 고객을 위해 대규모로 장치, 데이터 및 사용자를 보호하고 관리하는 데 도움이 되는 관리 포털입니다Microsoft 365 Business Premium.  Microsoft 365 Lighthouse 중소기업에 맞게 보안 구성 기준을 권장하고 모든 고객 환경에서 다중 테넌트 보기를 제공하여 테넌트 온보드를 간소화합니다. 자세한 내용은 Overview [of Microsoft 365 Lighthouse.](m365-lighthouse-overview.md)
-  - question: Azure Lighthouse와 Microsoft 365 Lighthouse 차이점은 무엇입니까?
+      Microsoft 365 Lighthouse is an admin portal that helps Managed Service Providers (MSPs) secure and manage devices, data, and users at scale for small- and medium-sized business (SMB) customers who are using Microsoft 365 Business Premium.  Microsoft 365 Lighthouse simplifies onboarding of tenants by recommending security configuration baselines tailored to SMBs and providing multi-tenant views across all customer environments. For more information, see [Overview of Microsoft 365 Lighthouse](m365-lighthouse-overview.md).
+  - question: What's the difference between Microsoft 365 Lighthouse and Azure Lighthouse?
     answer: >
-      Microsoft 365 Lighthouse Azure 서비스가 Microsoft 365 서비스에 초점을 맞추고 있습니다. Azure Lighthouse는 Azure Portal에 기본 제공되어 IT 파트너가 Azure에 대한 여러 테넌트를 관리할 수 있도록 하지만Microsoft 365 Lighthouse는 MSP가 여러 고객 테넌트의 관리에 도움이 되는 독립 실행형 Microsoft 365 Business Premium 포털입니다. 자세한 내용은 Microsoft 365 Lighthouse [개요를 Microsoft 365 Lighthouse.](m365-lighthouse-overview.md) Azure Lighthouse에 대한 자세한 내용은 [Azure Lighthouse란?을 참조하세요.](/azure/lighthouse/overview)
-  - question: 비용은 Microsoft 365 Lighthouse?
+      Microsoft 365 Lighthouse is focused on Microsoft 365 services rather than Azure services. While Azure Lighthouse is built into the Azure portal and allows IT partners to manage multiple tenants for Azure, Microsoft 365 Lighthouse is a standalone portal that helps MSPs manage multiple Microsoft 365 Business Premium customer tenants. For more information about Microsoft 365 Lighthouse, see [Overview of Microsoft 365 Lighthouse](m365-lighthouse-overview.md). For more information about Azure Lighthouse, see [What is Azure Lighthouse?](/azure/lighthouse/overview)
+  - question: How much does Microsoft 365 Lighthouse cost?
     answer: >
-      추가 비용은 미리 보기 버전의 Microsoft 365 Lighthouse 사용하여 Microsoft 365 Business Premium 연결된 장치를 관리하지 않습니다. Microsoft 365 Lighthouse 현재 미리 보기로 제공되어 있으며 중소기업을 서비스하고 고객과 CSP(클라우드 솔루션 공급자) 관계를 맺고 있는 MSP에서 사용할 수 있습니다. 간접 공급자는 현재 해당 공급자에서 지원되지 Microsoft 365 Lighthouse. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
-  - question: 이 기능을 사용하기 위한 요구 사항은 Microsoft 365 Lighthouse?
+      No additional costs are associated with using the Preview version of Microsoft 365 Lighthouse to manage Microsoft 365 Business Premium services and connected devices. Microsoft 365 Lighthouse is currently in Preview and available to MSPs servicing small- to medium-sized businesses and who have a Cloud Solution Provider (CSP) relationship with their customers. Note that indirect providers are not currently supported by Microsoft 365 Lighthouse. For more information, see [Requirements for Microsoft 365 Lighthouse](m365-lighthouse-requirements.md).
+  - question: What are the requirements to use Microsoft 365 Lighthouse?
     answer: >
-      현재 요구 사항 목록은 요구 사항을 [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
-  - question: 어떤 국가 및 지역을 사용할 Microsoft 365 Lighthouse 있나요?
+      For a list of current requirements, see [Requirements for Microsoft 365 Lighthouse](m365-lighthouse-requirements.md).
+  - question: In which countries and regions is Microsoft 365 Lighthouse available?
     answer: >
-      Microsoft 365 Lighthouse 국가는 중국 및 팔레스타인 자치 정부를 제외한 Microsoft 365 있는 모든 국가에서 사용할 수 있습니다. 그러나 장치 Microsoft 365 Lighthouse 및 위협 관리와 같은 Microsoft Intune 기능은 Azure Active Directory(Azure AD)를 사용하며, Intune 및 Azure AD는 특정 국가 및 지역에서는 사용할 수 없습니다. Azure AD 및 Intune 가용성의 Microsoft 365 목록은 국제 [가용성을 참조하세요.](https://www.microsoft.com/microsoft-365/business/international-availability)
+      Microsoft 365 Lighthouse is available in all countries where Microsoft 365 is available, except China and Palestinian Authority. However, features in Microsoft 365 Lighthouse such as device management and threat management rely on Microsoft Intune, and user management relies on Azure Active Directory (Azure AD), and Intune and Azure AD may not be available in certain countries and regions. For a complete list of Microsoft 365, Azure AD, and Intune availability, see [International availability](https://www.microsoft.com/microsoft-365/business/international-availability).
 
 
-      Microsoft 365 Lighthouse 클라우드에서는 사용할 수 없습니다.
-  - question: 등록을 위해 등록하는 Microsoft 365 Lighthouse?
+      Microsoft 365 Lighthouse is not available in national clouds.
+  - question: How do I sign up for Microsoft 365 Lighthouse?
     answer: >
-      등록을 Microsoft 365 Lighthouse CSP 프로그램에 등록해야 합니다. 현재 간접 공급자를 지원할 수 없습니다. 등록 방법에 대한 [Microsoft 365 Lighthouse](m365-lighthouse-sign-up.md)지침은 등록을 참조하세요. CSP 프로그램에 대한 자세한 내용은 클라우드 솔루션 공급자 [프로그램 개요를 참조하세요.](/partner-center/csp-overview)
-  - question: 등록을 마쳤기 때문에 고객 테넌트 데이터가 없는 이유는 무엇입니까?
+      To sign up for Microsoft 365 Lighthouse, you'll need to be registered with the CSP program. We're currently unable to support indirect providers. For instructions on how to sign up, see [Sign up for Microsoft 365 Lighthouse](m365-lighthouse-sign-up.md). To learn more about the CSP program, see the [Cloud Solution Provider program overview](/partner-center/csp-overview).
+  - question: I finished signing up, so why don't I see any customer tenant data?
     answer: >
-      고객 테넌트 데이터가 최대 48시간 내에 로드되는 데 최대 48시간이 Microsoft 365 Lighthouse. 온보더링을 완료한 지 48시간이 지난 경우 지원 팀에 도움을 문의하시기 바랍니다. 등록을 완료할 때 이를 알려주고 관련 스크린샷 및 로그를 제공해야 합니다. 자세한 내용은 에 대한 도움말 및 지원 [Microsoft 365 Lighthouse.](m365-lighthouse-get-help-and-support.md)
-  - question: 일부 고객 테넌트에 대한 데이터가 표시되지만 다른 고객 테넌트에 대한 데이터는 표시하지 않는 이유는 무엇입니까?
+      It can take up to 48 hours for customer tenant data to load within Microsoft 365 Lighthouse. If it's been more than 48 hours since you completed onboarding, please reach out to our Support team for help. You'll need to let them know when you completed onboarding and provide any relevant screenshots and logs. For more information, see [Get help and support for Microsoft 365 Lighthouse](m365-lighthouse-get-help-and-support.md).
+  - question: Why do I see data for some customer tenants but not others?
     answer: >
-      고객 테넌트 데이터가 파트너 센터에 Microsoft 365 Lighthouse 파트너는 파트너 센터를 통해 고객과 DAP(위임된 관리 권한)를 설정해야 합니다. 자세한 내용은 [Request a Reseller relationship with a customer in Partner Center을 참조하세요.](/partner-center/request-a-relationship-with-a-customer) 또한 테넌트는 테넌트에 라이선스가 있는 Microsoft 365 Business Premium 하나 이상의 라이선스가 있어야 합니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
-  - question: 특정 테넌트가 Microsoft 365 Lighthouse?
+      For customer tenant data to show up in Microsoft 365 Lighthouse, partners must establish Delegated Admin Privileges (DAP) with customers through Partner Center. For more information, see [Request a reseller relationship with a customer in Partner Center](/partner-center/request-a-relationship-with-a-customer). Tenants also must have at least one Microsoft 365 Business Premium subscription and fewer than 500 licensed users in their tenant. For more information, see [Requirements for Microsoft 365 Lighthouse](m365-lighthouse-requirements.md).
+  - question: What if I don't want to see certain tenants in Microsoft 365 Lighthouse?
     answer: >
-      특정 테넌트 및 해당 데이터를 Microsoft 365 Lighthouse 비활성화할 수 있습니다. 테넌트의 비활성화를 수행하기 위해 다음 단계를 수행합니다.
+      If you don't want to see certain tenants and their data in Microsoft 365 Lighthouse, you can inactivate those tenants. To inactivate a tenant, follow these steps:
 
 
-      1. 왼쪽 **탐색 창에서** 테넌트 를 선택하여 테넌트 **페이지를 열** 수 있습니다.
+      1. Select **Tenants** from the left navigation pane to open the **Tenants** page.
 
-      1. 비활성화할 테넌트 를 찾고 테넌트 이름 옆에 있는 세 개의 점을 선택한 다음 테넌트 비활성화 **를 선택합니다.**
+      1. Find the tenant that you want to inactivate, select the three dots next to the tenant name, and then select **Inactivate tenant**.
 
-      1. 나타나는 확인 메시지에서 **확인을** 선택하여 테넌트의 비활성화를 선택합니다.
+      1. In the confirmation message that appears, select **Confirm** to inactivate the tenant.
           > [!NOTE]
-          > 테넌트의 비활성화가 완료되면 비활성화가 완료될 때까지 테넌트에 대한 작업을 취할 수 없습니다. 비활성화가 완료될 때 최대 48시간이 걸릴 수 있습니다.
+          > Once you inactivate a tenant, you can't take action on the tenant until inactivation is complete. It may take up to 48 hours for inactivation to complete.
 
-      테넌트에 대한 자세한 내용은 Microsoft 365 Lighthouse [목록 개요를 참조하세요.](m365-lighthouse-tenant-list-overview.md)
-  - question: 고객 Microsoft 365 Lighthouse 다른 구독이 있는 경우 해당 구독이 Microsoft 365 Business Premium?
+      To learn more about tenants, see [Microsoft 365 Lighthouse tenant list overview](m365-lighthouse-tenant-list-overview.md).
+  - question: Will Microsoft 365 Lighthouse work if my customer tenants have other subscriptions besides Microsoft 365 Business Premium?
     answer: >
-      Microsoft 365 Lighthouse 라이선스가 있는 고객 테넌트는 Microsoft 365 Business Premium 관리하는 데 도움이 됩니다. Business Premium 라이선스가 없는 고객 테넌트의 Microsoft 365 Lighthouse 제한됩니다. 예를 들어 사용자가 Intune을 포함하는 라이선스가 없는 경우 해당 사용자의 장치, 장치 준수 상태 및 위협 상태를 사용할 수 없습니다. Azure AD P1을 포함하는 라이선스가 없는 경우 해당 사용자의 암호 및 로그인 관리를 사용할 수 없습니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
-  - question: 클라우드 서비스에서 고객 클라우드 PC를 관리할 자격을 Microsoft 365 Lighthouse?
+      Microsoft 365 Lighthouse helps you manage customer tenants that have Microsoft 365 Business Premium licenses in place for their users. For users in customer tenants who don't have Business Premium licenses, Microsoft 365 Lighthouse functionality will be limited. For example, if a user is missing a license that includes Intune, that user's devices, device compliance status, and threats status will be unavailable; and if a user is missing a license that includes Azure AD P1, that user's password and sign-in management will be unavailable. For more information, see [Requirements for Microsoft 365 Lighthouse](m365-lighthouse-requirements.md).
+  - question: How do I qualify to manage customer Cloud PCs in Microsoft 365 Lighthouse?
     answer: >
-      사용자 계정 사용 요구 사항을 Microsoft 365 Lighthouse 경우 해당 서비스에서 고객 클라우드 PC를 관리할 Microsoft 365 Lighthouse. 현재 요구 사항 목록은 요구 사항을 [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
-  - question: 고객용 Windows 365(클라우드 PC) 라이선스를 어디에서 구입할 수 있나요?
+      If you meet the requirements to use Microsoft 365 Lighthouse, then you're qualified to manage customer Cloud PCs in Microsoft 365 Lighthouse. For a list of current requirements, see [Requirements for Microsoft 365 Lighthouse](m365-lighthouse-requirements.md).
+  - question: Where can I purchase Windows 365 (Cloud PC) licenses for my customers?
     answer: >
-      사용 가능한 모든 Microsoft Windows 채널을 통해 365개 라이선스를 구매할 수 있습니다. 한 번 구입한 라이선스는 클라우드 PC 하나 구입과 동일합니다. 현재 각 사용자에게 동일한 SKU 유형의 클라우드 PC 하나만 할당할 수 있지만, 서로 다른 SKU 유형인 경우 여러 클라우드 PC를 할당할 수 있습니다. Windows 365 요금제 및 가격을 비교하기 위해 적합한 Windows [365 클라우드 PC 사용()을 참조합니다.](https://www.microsoft.com/windows-365/business/compare-plans-pricing)
-  - question: 도움말 및 지원은 어떻게 하나요?
+      You can purchase Windows 365 licenses through all available Microsoft commercial sales channels. One license purchased is equivalent to the purchase of one Cloud PC. Currently, each user can be assigned only one Cloud PC of the same SKU type, but they can be assigned multiple Cloud PCs if they are of different SKU types. To compare Windows 365 plans and pricing, see [Get the Windows 365 Cloud PC that’s right for you](https://www.microsoft.com/windows-365/business/compare-plans-pricing).
+  - question: How do I get help and support?
     answer: >
-      In Microsoft 365 Lighthouse, select the **?** 포털 맨 위에 있는 아이콘을 클릭하여 도움말 **창을** 여는 데 도움이 됩니다. 여기에서 자가 도움말 문서에 액세스하거나 지원에 문의할 수 있습니다. 도움말 및 지원 옵션에 대한 자세한 내용은 에 대한 도움말 및 지원 [Microsoft 365 Lighthouse.](m365-lighthouse-get-help-and-support.md)
-  - question: 피드백과 아이디어를 제출할 수 있는 곳은 어디인가요?
-    answer: 여러분의 피드백은 중요하며 저희에게 중요합니다! Intune 피드백 페이지를 통해 피드백 또는 기능 [Microsoft Endpoint Manager 제출합니다.](https://go.microsoft.com/fwlink/?linkid=2151507) 365 및 Microsoft 365 Lighthouse Windows 대화를 시작하고, 다른 파트너 또는 Microsoft 직원에게 질문하고, 기능 피드백을 제공하는 등 다양한 정보를 제공할 수 있습니다.
+      In Microsoft 365 Lighthouse, select the **?** icon at the top of the portal to open the **Help** pane. From here you can access self-help articles or contact support. For more information about help and support options, see [Get help and support for Microsoft 365 Lighthouse](m365-lighthouse-get-help-and-support.md).
+  - question: Where can I submit feedback and ideas?
+    answer: Your feedback matters and is important to us! Submit your feedback or feature ideas through the [Microsoft Endpoint Manager Intune Feedback page](https://go.microsoft.com/fwlink/?linkid=2151507). You can start conversations about Microsoft 365 Lighthouse and Windows 365 features, ask questions to other partners or Microsoft employees, provide feature feedback, and more.

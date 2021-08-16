@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 2fe7bf71d4db9854f03a56ed75a3b9a670602197
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: ef2742f57f44b9fb15aa0720f359ae4aeb872741
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567575"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58248046"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -73,7 +73,7 @@ ms.locfileid: "53567575"
 - Teams 및 채널 및 Yammer 메시지의 경우: 사본은 Exchange **복구 가능한 항목** 폴더 내에 하위 폴더로 **SubstrateHolds** 라는 이름의 숨겨진 폴더에 보존됩니다.
 
 > [!NOTE]
-> 자료 보존 라이브러리는 사이트의 저장소 할당량에서 제외되지 않은 저장소를 사용합니다. SharePoint 및 Microsoft 365 그룹에 대한 보존 설정을 사용하는 경우 저장소를 늘려야 할 수 있습니다.
+> 자료 보존 라이브러리에 사이트의 저장소 할당량이 포함되므로 SharePoint와 Microsoft 365 그룹에 보존 설정을 사용할 때 저장소를 늘려야 할 수 있습니다.
 > 
 대부분의 사용자는 해당 보안 위치와 보존된 콘텐츠를 볼 수 없습니다. 대부분의 경우 사용자는 해당 콘텐츠에 보존 설정이 적용되어 있다는 사실을 알 필요도 없습니다.
 
@@ -493,11 +493,17 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
 
 정보 거버넌스를 위해 Microsoft 365에서 콘텐츠를 사전에 보존하거나 삭제해야 하는 경우에는 다음과 같은 이전 기능 대신 보존 정책 및 보존 레이블을 사용하는 것이 좋습니다.
 
-현재 이러한 이전 기능을 사용하는 경우 해당 기능은 보존 정책 및 레이블과 함께 계속해서 작동합니다. 하지만 앞으로는 보존 정책 및 보존 레이블을 사용하는 것이 좋습니다. Microsoft 365 전체에서 콘텐츠의 보존 및 삭제를 중앙에서 관리하는 단일 메커니즘을 제공합니다.
+현재 이러한 이전 기능을 사용 중인 경우 해당 기능은 Microsoft 365 보존 정책 및 보존 레이블과 함께 계속해서 작동합니다. 그러나 앞으로는 Microsoft 365 보존 정책 및 보존 레이블을 사용하여 단일 솔루션의 이점을 활용하고, Microsoft 365의 여러 워크로드에서 콘텐츠의 보존 및 삭제를 모두 관리하는 것이 좋습니다.
 
 **Exchange Online의 이전 기능:**
 
 - [MRM(메시징 레코드 관리)](/exchange/security-and-compliance/messaging-records-management/messaging-records-management)이라고도 하는 [보존 태그 및 보존 정책](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) (삭제만 해당)
+    
+    그러나 다음 MRM 기능을 사용하는 경우 현재 Microsoft 365 보존 정책에서 지원되지 않는다는 점에 유의해 주세요.
+    
+    - 지정된 기간 후에 사용자의 기본 사서함에서 보관 사서함으로 전자 메일을 자동으로 이동하는 [보관 사서함](enable-archive-mailboxes.md)에 대한 보관 정책입니다. 보관 정책(모든 설정 포함)은 사용자의 기본 및 보관 사서함에 적용되는 Microsoft 365 보존 정책과 함께 사용할 수 있습니다.
+    
+    - 관리자가 사서함 내의 특정 폴더에 적용한 보존 정책입니다. Microsoft 365 보존 정책은 사서함의 모든 폴더에 적용됩니다. 하지만 관리자는 사용자가 [기본 보존 레이블](create-apply-retention-labels.md#applying-a-default-retention-label-to-an-outlook-folder)로 Outlook 폴더에 적용할 수 있는 보존 레이블을 사용해 다른 보존 설정을 구성할 수 있습니다.
 
 **SharePoint 및 OneDrive의 이전 기능:**
 
@@ -505,7 +511,7 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
     
 - [현재 위치 레코드 관리 구성](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a) (보존만 해당) 
     
-- [사이트 폐쇄 및 삭제에 대한 정책 사용](https://support.microsoft.com/ko-KR/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (삭제만 해당)
+- [사이트 폐쇄 및 삭제에 대한 정책 사용](https://support.microsoft.com/en-us/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (삭제만 해당)
     
 - [정보 관리 정책](intro-to-info-mgmt-policies.md) (삭제만 해당)
      

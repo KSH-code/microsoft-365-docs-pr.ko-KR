@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 41a2c73ce5e1c3060d88572f4fa7afe63e193f46
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 16599fc3941c2e3e86600ee5f45b3ea2eb43c6924259468c00edfdc773577338
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52299991"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53873553"
 ---
 # <a name="example-of-a-phishing-email-attack"></a>피싱 전자 메일 공격의 예
 
@@ -36,7 +36,7 @@ ms.locfileid: "52299991"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender는 전자 메일을 통해 배달된 악의적인 첨부 파일을 감지하는 데 도움을 줄 수 있습니다. Office 365 및 규정 준수 [센터는](https://protection.office.com/) Microsoft 365 Defender와 통합되어 보안 분석가가 전자 메일 첨부 파일과 같은 Office 365 위협에 대한 가시성을 확보할 수 있습니다.
+Microsoft 365 Defender 전자 메일을 통해 배달된 악의적인 첨부 파일을 감지하는 데 도움이 될 수 있습니다. Office 365 및 규정 준수 [센터는](https://protection.office.com/) Microsoft 365 Defender 통합되어 보안 분석가가 전자 메일 첨부 파일과 같은 보안 Office 365 위협을 볼 수 있습니다.
 
 예를 들어 분석가에게 다단계 인시던트가 할당된 경우를 예로 들 수 있습니다.
  

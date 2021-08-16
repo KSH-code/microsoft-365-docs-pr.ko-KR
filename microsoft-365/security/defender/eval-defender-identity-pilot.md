@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 9d3eb0668b855745aee32ac0d070613a60a20b93ec13fef6ff564f2f4c7944a0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 70957d49f818424062002b8604854bf3bd5e60cb
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857227"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58252488"
 ---
 # <a name="pilot-microsoft-defender-for-identity"></a>Id에 대한 Microsoft Defender 파일럿
 

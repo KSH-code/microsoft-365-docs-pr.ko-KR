@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a4aeb40e7386ae3648a392b6869551c3f16c2514b459ab1abf11c8ae6ceee46b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 255aa361badf79e3ea4e4b0fe208ea22bb7a26db
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862859"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58249369"
 ---
 # <a name="pilot-microsoft-cloud-app-security-with-microsoft-365-defender"></a>파일럿 Microsoft Cloud App Security 파일럿 Microsoft 365 Defender
 

@@ -1,6 +1,6 @@
 ---
 title: 평가판 Microsoft 365 Defender 파일럿 환경 설정
-description: Access Microsoft 365 보안 센터에 액세스한 다음 Microsoft 365 Defender 테스트 랩 환경 설정
+description: Access Microsoft 365 Defender 포털에 액세스한 다음 Microsoft 365 Defender 테스트 랩 환경 설정
 keywords: Microsoft 365 Defender 설치, 파일럿 Microsoft 365 Defender 테스트, Microsoft 365 Defender 테스트 Microsoft 365 Defender 테스트
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 6db3003aa6465df90a3d2e4af55b28ccccf44100
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 30edfb5a40c62f56da1a431f34c6ddd80f12799e
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454736"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58252107"
 ---
 # <a name="set-up-your-microsoft-365-defender-trial-in-a-lab-environment"></a>랩 환경에서 Microsoft 365 Defender 평가판 설정 
 
@@ -134,7 +134,7 @@ ms.locfileid: "53454736"
 
    ![계정 of_Microsoft 사용자 이름 관리를 선택할 수 있는 365 관리 센터 페이지 이미지](../../media/mtp-eval-29.png)
 
-8. [선택 사항] 이전 단계에서  onmicrosoft.com 따라 도메인을 사용자 도메인으로 변경합니다. **변경 사항 저장** 를 클릭합니다.
+8. [선택 사항] 이전 단계에서  onmicrosoft.com 따라 도메인을 사용자 도메인으로 변경합니다. **변경 내용 저장** 을 클릭합니다.
 
    ![도메인 of_Microsoft 변경할 수 있는 365 관리 센터 페이지 이미지](../../media/mtp-eval-30.png)
 

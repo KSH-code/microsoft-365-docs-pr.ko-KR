@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3ba4c4dbb2b5b8315fb09023b9fa0c0e29c4fd1c3b3f95da0328522a7d839ffc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d309f8851720578dfdd321efff862f15afd9bca8
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884262"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58250547"
 ---
 # <a name="protect-your-organization-against-web-threats"></a>웹 위협으로부터 조직 보호
 
@@ -49,6 +49,31 @@ ms.locfileid: "53884262"
 
 > [!NOTE]
 > 네트워크 보호를 감사 전용으로 설정하면 차단을 사용할 수 없습니다. 또한 사용자 계정에서만 악성 및 원치 않는 웹 사이트에 액세스하려는 시도를 감지하고 Microsoft Edge 있습니다.
+
+## <a name="configure-web-threat-protection"></a>웹 위협 방지 구성
+
+다음 절차에서는 Microsoft Endpoint Manager 관리 센터를 사용하여 웹 위협 방지를 구성하는 방법을 설명합니다.
+
+1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
+ 
+2. 끝점 **보안 공격**  >  **표면 감소를 선택한** 다음 + 정책 만들기 **를 선택 합니다.**
+
+3. 플랫폼(예: Windows 10 **이상)을** 선택하고  웹 보호 프로필을 선택한 다음 만들기를 **선택합니다.** 
+
+4. 기본 **탭에서** 이름과 설명을 지정하고 다음 을 **선택합니다.**
+
+5. 구성 **설정 탭에서** 웹 **보호를** 확장하고 설정을 지정한 후 다음 을 **선택합니다.**
+
+   - 웹 **보호가** **켜져 있도록** 네트워크 보호 사용으로 설정합니다. 또는 네트워크 보호를 감사  모드로 설정하여 해당 환경에서 네트워크 보호가 어떻게 작동할지 볼 수 있습니다. 감사 모드에서 네트워크 보호는 사용자가 사이트 또는 도메인을 방문하는 것을 차단하지는 않지만 검색을 이벤트로 추적합니다. 
+   - 잠재적인 피싱 사기 및 악성 소프트웨어로부터 사용자를 보호하려면 다음에 대해 **SmartScreen 필요를 예로 Microsoft Edge 레거시** **로 전환합니다.**
+   - 사용자가 잠재적으로 악의적인 사이트에 대한 경고를  무시하지 못하게 방지하기 위해 악성 사이트 액세스 차단을 **예로 설정하세요.**
+   - 사용자가 경고를 무시하고 미확인 파일을 다운로드하지 못하게 방지하려면 미확인 파일 다운로드 차단 **tl** 예 를 **설정하십시오.** 
+
+6. 범위 **태그 탭에서** 조직에서 범위 태그를 사용하는 경우 **+** 범위 태그 선택을 선택하고 다음 을 **선택합니다.** 범위 태그를 사용하지 않는 경우 **다음을** 선택 합니다. 범위 태그에 대한 자세한 내용은 [분산 IT에 RBAC(역할](/mem/intune/fundamentals/scope-tags)기반 액세스 제어) 및 범위 태그 사용을 참조합니다.
+
+7. 할당 **탭에서** 웹 보호 정책을 받을 사용자 및 장치를 지정하고 다음 을 **선택합니다.**
+
+8. 검토 **+ 만들기 탭에서** 정책 설정을 검토한 다음 만들기 를 **선택합니다.**
 
 ## <a name="related-topics"></a>관련 항목
 
