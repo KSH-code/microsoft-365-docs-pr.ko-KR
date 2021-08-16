@@ -1,8 +1,7 @@
 ---
-title: Microsoft Viva 항목의 항목 센터에서 항목 관리
-description: 항목 센터에서 항목을 관리하는 방법
-author: chuckedmonson
+title: 다음 항목의 항목 센터에서 Microsoft Viva 관리
 ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: ergradel
 audience: admin
@@ -13,14 +12,15 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: f2429b0ffdd4a238bc9322ae9199eebbbfd407b5
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+description: Microsoft Viva 항목 센터에서 항목을 관리하는 방법을 참조하세요.
+ms.openlocfilehash: 53fbc338d69c87029a6e1a65917abcc9b003f36f959e440165405527fdca87e5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53840266"
 ---
-# <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 항목 센터에서 항목 관리
+# <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>다음 항목의 항목 센터에서 Microsoft Viva 관리
 
 </br>
 
@@ -30,13 +30,13 @@ ms.locfileid: "52651163"
 
 Viva Topics 항목 센터에서 기술 관리자는  항목 관리 페이지를 보고 지식 관리자가 지정한 원본 위치에서 식별된 항목을 검토할 수 있습니다.  
 
-   ![항목 센터](../media/knowledge-management/topic-center.png)  
+   ![항목 센터.](../media/knowledge-management/topic-center.png)  
 
 ## <a name="topic-stages"></a>항목 단계
 
 지식 관리자는 제안됨, 확인됨, 게시됨 및 제거됨 등 다양한 항목 수명 주기 단계에 대해 검색된 항목을  **안내할 수 있습니다.**
 
-   ![항목 수명 주기 차트](../media/knowledge-management/topic-lifecycle.png) 
+   ![항목 수명 주기 차트입니다.](../media/knowledge-management/topic-lifecycle.png) 
 
 - **추천 항목**: AI에 의해 식별되어 있으며 충분한 지원 리소스, 연결 및 속성을 가지고 있습니다. 이러한 항목은 UI에서 추천 **항목으로** 표시됩니다.
 
@@ -64,17 +64,17 @@ Viva Topics 항목 센터에서 기술 관리자는  항목 관리 페이지를 
 항목 센터에서 항목을 관리하려면 다음을 해야 합니다.
 - Viva Topics 라이선스가 있어야 합니다.
 
-- 항목을 [**Who 수 있도록**](./topic-experiences-user-permissions.md) 합니다. 지식 관리자는 Viva Topics의 항목 사용 권한 설정에서 사용자에게 해당 권한을 부여할 수 있습니다. 
+- 항목을 [**Who 수 있도록**](./topic-experiences-user-permissions.md) 합니다. 지식 관리자는 Viva Topics의 항목 사용 권한 설정에서 사용자에게 해당 사용 권한을 부여할 수 있습니다. 
 
 항목 관리 권한이 있는  경우 항목 센터에서 항목 관리 페이지를 **Who 수** 없습니다.
 
 항목 센터에서 기술 관리자는 지정한 원본 위치에서 식별된 항목을 검토할 수 있으며, 항목을 확인하거나 제거할 수 있습니다. 또한 지식 관리자는 항목 검색에서 발견되지 않은 새 항목 페이지를 만들어 게시하거나, 업데이트해야 하는 경우 기존 항목을 편집할 수 있습니다.
 
-## <a name="review-suggested-topics"></a>제안된 항목 검토
+## <a name="suggested-topics"></a>제안된 항목
 
 항목 **관리 페이지에서** 지정한 원본 위치에서 검색된 항목은 SharePoint 탭에 나열됩니다.  필요한 경우 기술 관리자는 확인되지 않은 항목을 검토하고 확인하거나 제거할 수 있습니다.
 
-   ![추천 항목](../media/knowledge-management/quality-score.png) 
+   ![제안된 항목의 스크린샷.](../media/knowledge-management/quality-score.png) 
 
 제안된 항목을 검토합니다.
 
@@ -116,9 +116,21 @@ Viva Topics 항목 센터에서 기술 관리자는  항목 관리 페이지를 
 
 ## <a name="published-topics"></a>게시된 항목
 
-게시된 항목은 편집된 항목으로, 특정 정보가 페이지를 방문하는 모든 사용자에 대해 항상 표시됩니다. 수동적으로 생성된 항목 또한 여기에 나열됩니다.
+항목 **관리 페이지에서** 지정된 항목의 원본 위치에서 SharePoint 항목을 게시된 탭에 **나열합니다.** 게시된 항목은 편집된 항목으로, 특정 정보가 페이지를 방문하는 모든 사용자에 대해 항상 표시됩니다. 수동적으로 생성된 항목 또한 여기에 나열됩니다.
 
    ![항목 관리](../media/knowledge-management/manage-topics-new.png)
+
+## <a name="removed-topics"></a>제거된 항목
+
+항목 **관리 페이지에서** 지정한 항목의 원본 위치에서 SharePoint 항목을 제거 **탭에 나열합니다.** 제안된 몇 가지 항목은 항목 센터의 항목 카드에 대한 최종 사용자 투표에 따라 여기에 표시될 수 있습니다.
+
+제거된 항목은 나중에 필요한 경우 다시 볼 수 있는 항목으로 추가할 수 있습니다. 제거된 항목을 다시 볼 수 있는 항목으로 추가하려는 경우:
+
+1. 제거된 **탭에서** 항목을 선택합니다.
+
+2. 검토 **및 게시를 선택합니다.**
+
+   ![검토 및 게시 옵션을 보여 주며 제거된 탭의 스크린샷.](../media/knowledge-management/review-and-publish-removed-topic.png)
 
 ## <a name="topic-count-dashboard"></a>항목 수 대시보드
 
@@ -126,4 +138,4 @@ Viva Topics 항목 센터에서 기술 관리자는  항목 관리 페이지를 
 
 기술 관리자는 항목 관리 페이지의 항목 목록에 표시될 수 있는  항목 수와 대시보드에 표시될 수 있는 항목의 수가 다를 수 있습니다. 이는 지식 관리자가 모든 항목에 액세스할 수 없는 경우도 있기 때문에입니다. 대시보드 보기에 표시된 개수는 사용 권한 트리밍을 적용하기 전에 계산됩니다. 
 
-   ![항목 수 대시보드 스크린샷](../media/knowledge-management/topic-count-dashboard.png)
+   ![항목 수 대시보드의 스크린샷.](../media/knowledge-management/topic-count-dashboard.png)

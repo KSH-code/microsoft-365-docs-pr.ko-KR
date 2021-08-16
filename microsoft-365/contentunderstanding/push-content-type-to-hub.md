@@ -12,12 +12,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-ms.openlocfilehash: 22d146b1d376bab134e82ad7d1313cb7881ca45b
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 9d42e5f352631c744d04d312f40f359017c6100b392541b1c5136971bcc09494
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50144974"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53871116"
 ---
 # <a name="push-content-types-to-a-hub"></a>허브로 콘텐츠 유형 푸시
 
@@ -41,7 +41,7 @@ SharePoint 라이브러리 및 목록에서 중요한 콘텐츠 형식을 더 �
 5. 원하는 허브 사이트를 선택한 다음 **확인** 을 선택합니다.
 6. **저장** 을 선택합니다.
 
-기존 허브 및 관련된 사이트로 콘텐츠 유형을 푸시하는 것이 처음이라면 허브 혹은 관련된 사이트를 방문할 때 사이트에서 설정이 업데이트되는 데 최대 1시간이 걸릴 수 있습니다. 허브에 대한 모든 새로운 연결에는 이러한 대기가 필요하지 않으며 몇 분 이내에 설정이 반영됩니다.
+기존 허브 및 관련된 사이트로 콘텐츠 유형을 푸시하는 것이 처음이라면 허브 혹은 관련된 사이트를 방문할 때 사이트에서 설정이 업데이트되는 데 최대 1시간이 걸릴 수 있습니다. 허브에 대한 모든 새 연결은 이 대기가 필요하지 않으며 몇 분 후에 설정이 반영됩니다.
 
 설정이 업데이트되면 이 설정의 콘텐츠 유형은 몇 분 이내에 허브의 새 연결된 사이트에서 사용 가능합니다. 그러면, 생성된 새 목록 또는 라이브러리에는 생성된 지 몇 분 이내에 자동으로 콘텐츠 유형이 추가됩니다. 푸시된 콘텐츠 형식은 문서 콘텐츠 유형에서 직접 혹은 간접적으로 파생 되는 경우에만 문서 라이브러리에 추가되고 콘텐츠 유형은 문서 콘텐츠 유형에서 직접 혹은 간접적으로 파생 되지 않은 경우에만 목록에 추가 됩니다.
 

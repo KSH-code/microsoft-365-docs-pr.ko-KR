@@ -1,5 +1,5 @@
 ---
-title: Id에 대한 Microsoft Defender 평가 환경을 사용하도록 설정하고, MDI 인스턴스를 설정하고, MDI 센서를 설치 및 구성하고, MDI 센서가 로컬 관리자를 감지하도록 합니다.
+title: Id에 대한 Microsoft Defender의 평가 환경 사용
 description: 센서를 구성하고 Microsoft 365 Defender 로컬 관리자를 검색하여 Microsoft 365 Defender & 테스트 랩 또는 파일럿 환경에서 ID에 대한 Microsoft Defender를 설치합니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: f739c9897c9c43831cb4ed23cabaa1705c75d712
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: cff8a37999014cc037a0d76e99ff5b9a05ec44d28acab66e3238d0b4576969fb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53839009"
 ---
 # <a name="enable-the-evaluation-environment-for-microsoft-defender-for-identity"></a>Id에 대한 Microsoft Defender의 평가 환경 사용
 
@@ -50,8 +50,8 @@ ID용 Defender 포털에 로그인하여 인스턴스를 만든 다음 이 인�
 
 |  |단계     |추가 정보  |
 |---------|---------|---------|
-|1      | ID용 Defender 인스턴스 만들기        | [빠른 시작: ID용 Microsoft Defender 인스턴스 만들기](/defender-for-identity/install-step1)        |
-|2      | 커넥트 대한 Defender 인스턴스를 Active Directory 포리스트에 추가   | [빠른 시작: 커넥트 포리스트로 설정](/defender-for-identity/install-step2)  |
+|1     | ID용 Defender 인스턴스 만들기        | [빠른 시작: ID용 Microsoft Defender 인스턴스 만들기](/defender-for-identity/install-step1)        |
+|2     | 커넥트 대한 Defender 인스턴스를 Active Directory 포리스트에 추가   | [빠른 시작: 커넥트 포리스트로 설정](/defender-for-identity/install-step2)  |
 | | |
 
 ## <a name="step-2-install-and-configure-the-sensor"></a>2단계. 센서 설치 및 구성
@@ -60,8 +60,8 @@ ID용 Defender 포털에 로그인하여 인스턴스를 만든 다음 이 인�
 
 |  |단계     |추가 정보  |
 |---------|---------|---------|
-|1      | 필요한 ID 센서에 대한 Microsoft Defender 수를 결정 합니다.        | [Id에 대한 Microsoft Defender 용량 계획](/defender-for-identity/capacity-planning)   |
-|2      | 센서 설치 패키지 다운로드  |  [빠른 시작: Id용 Microsoft Defender 센서 설정 패키지 다운로드](/defender-for-identity/install-step3)   |
+|1     | 필요한 ID 센서에 대한 Microsoft Defender 수를 결정 합니다.        | [Id에 대한 Microsoft Defender 용량 계획](/defender-for-identity/capacity-planning)   |
+|2     | 센서 설치 패키지 다운로드  |  [빠른 시작: Id용 Microsoft Defender 센서 설정 패키지 다운로드](/defender-for-identity/install-step3)   |
 |3      | Id용 Defender 센서 설치    |  [빠른 시작: Id용 Microsoft Defender 센서 설치](/defender-for-identity/install-step4)       |
 |4      | 센서 구성       |  [Id에 대한 Microsoft Defender 센서 설정 구성 ](/defender-for-identity/install-step5)   |
 |   |         |         |
@@ -72,8 +72,8 @@ ID용 Defender 포털에 로그인하여 인스턴스를 만든 다음 이 인�
 
 |  |단계     |추가 정보  |
 |---------|---------|---------|
-|1      | 이벤트 Windows 컬렉션 구성         | [이벤트 Windows 구성](/defender-for-identity/configure-windows-event-collection)        |
-|2      | 인터넷 프록시 설정 구성        | [Id 센서에 대한 Microsoft Defender에 대한 끝점 프록시 및 인터넷 연결 설정 구성](/defender-for-identity/configure-proxy)        |
+|1     | 이벤트 Windows 컬렉션 구성         | [이벤트 Windows 구성](/defender-for-identity/configure-windows-event-collection)        |
+|2     | 인터넷 프록시 설정 구성        | [Id 센서에 대한 Microsoft Defender에 대한 끝점 프록시 및 인터넷 연결 설정 구성](/defender-for-identity/configure-proxy)        |
 |   |         |         |
 
 ## <a name="step-4-allow-defender-for-identity-to-identify-local-admins-on-other-computers"></a>4단계. Id에 Defender를 허용하여 다른 컴퓨터에서 로컬 관리자 식별

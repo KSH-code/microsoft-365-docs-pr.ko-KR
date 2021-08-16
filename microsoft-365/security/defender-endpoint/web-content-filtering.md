@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7395e7fb22c8ad090ab35868d385fa240700505c
-ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
+ms.openlocfilehash: 9ee25f7f9e227cbaf5691489bcdea9c421762b40e9984d7ddaf641028fcf9e66
+ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53726420"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57834802"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -62,7 +62,7 @@ ms.locfileid: "53726420"
 
 ## <a name="user-experience"></a>사용자 환경
 
-지원되는 타사 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 알림을 제공하는 네트워크 보호를 통해 제공됩니다. 보다 사용자에게 친숙한 브라우저 내 환경을 위해 브라우저 내 환경을 Microsoft Edge.
+지원되는 타사 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 메시지를 제공하는 네트워크 보호에서 제공합니다. 보다 사용자에게 친숙한 브라우저 내 환경을 위해 브라우저 내 환경을 Microsoft Edge.
 
 ## <a name="data-handling"></a>데이터 처리
 
@@ -117,7 +117,7 @@ ms.locfileid: "53726420"
 
 ### <a name="url-category-lookup"></a>URL 범주 검색
 
-웹 사이트의 범주를 확인하기 위해 웹 사이트 포털( 에서 사용할 수 있는 URL 검색 Microsoft 365 Defender https://security.microsoft.com) 있습니다. URL 검색 결과에서 웹 콘텐츠 필터링 범주는 **URL/도메인 세부 정보 아래에 표시됩니다.** 관리자는 아래 이미지와 같이 이 페이지에서 직접 도메인 범주에 이의를 제기할 수도 있습니다. 범주 결과가 표시되어 있지 않은 경우 URL은 현재 기존 웹 콘텐츠 필터링 범주에 할당되지 않습니다.
+웹 사이트의 범주를 확인하기 위해 웹 사이트 포털(끝점 검색에서 Microsoft 365 Defender URL 검색 기능을 사용할 https://security.microsoft.com) **수**  >  **있습니다.** URL 검색 결과에서 웹 콘텐츠 필터링 범주는 **URL/도메인 세부 정보 아래에 표시됩니다.** 관리자는 다음 이미지와 같이 이 페이지에서 직접 도메인 범주에 이의를 제기할 수도 있습니다. 범주 결과가 표시되어 있지 않은 경우 URL은 현재 기존 웹 콘텐츠 필터링 범주에 할당되지 않습니다.
 
 ![웹 콘텐츠 필터링 범주 검색 결과의 이미지](../../media/web-content-filtering-category-lookup.png)
 
@@ -176,4 +176,3 @@ ms.locfileid: "53726420"
 - [웹 보안 모니터링](web-protection-monitoring.md)
 - [웹 위협에 대응](web-protection-response.md)
 - [네트워크 보호 요구 사항](web-content-filtering.md)
-

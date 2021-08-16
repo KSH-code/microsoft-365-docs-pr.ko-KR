@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: 이전 버전의 Office 365 메시지 암호화 권한 관리(Microsoft Azure 권한 관리)에 따라 Windows Azure Active Directory 있습니다.
-ms.openlocfilehash: 978a8027c79de574b80aeedabcbbd51fa6f9e2a0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 611e8f645b9149898e5c3cb0f10305e49deb90cd92b14aad7c946ead147e8fd9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919494"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53871372"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-message-encryption"></a>이전 버전의 메시지 암호화에 대해 Azure 권한 관리 설정
 
@@ -94,7 +94,7 @@ TPD는 조직의 권한 관리 설정에 대한 정보를 포함하는 XML 파�
 
    무엇보다 이 cmdlet은 Azure 권한 관리 서비스에 대한 연결을 확인하고 TPD를 다운로드하고 유효성을 검사합니다.
 
-6. 다음과 같이 [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration) cmdlet을 실행하여 Azure 권한 관리 템플릿을 웹 및 웹 Outlook 사용할 수 Outlook. 
+6. [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration) cmdlet을 다음과 같이 실행하여 Azure 권한 관리 템플릿을 다음과 같은 웹용 Outlook 사용할 수 Outlook. 
 
    ```powershell
    Set-IRMConfiguration -ClientAccessServerEnabled $false

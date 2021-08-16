@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 조직의 사용자 및 관리자가 수행한 감사 활동을 검색할 수 있도록 기본 감사를 설정하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 59b5c85003ef0e19f7d3dd7417f764f446244652
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 59a1af0946fbfbef6f2a1f5f6b8c3d7be002786239f1665d0ddbff09af254d1e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52564832"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53871307"
 ---
 # <a name="set-up-basic-audit-in-microsoft-365"></a>2013에서 기본 감사 Microsoft 365
 
@@ -48,7 +48,7 @@ ms.locfileid: "52564832"
 
 ## <a name="step-2-assign-permissions-to-search-the-audit-log"></a>2단계: 감사 로그 검색에 대한 사용 권한 할당
 
-감사 로그를 검색하려면 조사 팀의 관리자와 구성원에게 View-Only 감사 로그 또는 감사 Exchange Online 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 조직 및 Office 365 Microsoft 365 전역 관리자가 조직의 조직 관리 역할 그룹의 구성원으로 Exchange Online. 최소 권한 수준을 사용하여 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고, 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음, 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
+감사 로그를 검색하려면 조사 팀의 관리자와 구성원에게 View-Only 감사 로그 또는 감사 Exchange Online 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. Office 365 및 Microsoft 365의 전역 관리자는 자동으로 Exchange Online 서비스에서 조직 관리 역할 그룹의 구성원이 됩니다. 최소 권한 수준을 사용하여 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고, 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음, 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 
 다음 스크린샷은 조직 관리 센터의 조직 관리 역할 그룹에 할당된 두 가지 감사 관련 역할을 Exchange 보여줍니다.
 
@@ -56,11 +56,11 @@ ms.locfileid: "52564832"
 
 ## <a name="step-3-search-the-audit-log"></a>3단계: 감사 로그 검색
 
-이제 준수 센터에서 감사 로그를 검색할 Microsoft 365 있습니다.
+이제 감사 로그에서 감사 로그를 검색할 준비가 Microsoft 365 규정 준수 센터.
 
 1. 으로 이동한 후 적절한 감사 권한이 할당된 계정을 사용하여 <https://compliance.microsoft.com> 로그인합니다.
 
-2. Microsoft 365 센터의 왼쪽 탐색 창에서 모두 표시를 클릭한 **다음** 감사를 **클릭합니다.**
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 **클릭한** 다음 감사를 **클릭합니다.**
 
 3. 감사 **페이지에서** 검색 탭의 다음 조건을 사용하여 검색을 **구성합니다.** 
 

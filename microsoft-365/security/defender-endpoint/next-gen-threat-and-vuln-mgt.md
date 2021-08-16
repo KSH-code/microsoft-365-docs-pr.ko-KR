@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: 06fdea1c4d84ca4cd23aeb7e715c0087f65275b1
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: c71a3e5169334adc5d6d6f2b901d82678e5aa27bee47bd20faf06e569a14b63c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53648126"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53857306"
 ---
-# <a name="threat-and-vulnerability-management"></a>위협 및 취약점 관리
+# <a name="threat-and-vulnerability-management"></a>위협 및 취약성 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Id에 대한 Microsoft Defender 파일럿, 구성 벤치마크, 표준, 지침을 설정하고, 정찰, 손상된 자격 증명, 측면 이동, 도메인 지위 및 유출 경고와 같은 다양한 ID 위협을 감지하고 수정하는 방법에 대한 자습서를 수행하고, 사용자, 컴퓨터, 엔터티 및 측면 이동 경로 조사를 실시합니다.
+title: Id에 대한 Microsoft Defender 파일럿
 description: Microsoft Defender for Identity 파일럿, 벤치마크 설정, 정비, 손상된 자격 증명, 측면 이동, 도메인 위주 및 유출 경고에 대한 자습서를 수행하십시오.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 14c5b9252e980d1f693139393d26b9405cb1b812
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: 9d3eb0668b855745aee32ac0d070613a60a20b93ec13fef6ff564f2f4c7944a0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53857227"
 ---
 # <a name="pilot-microsoft-defender-for-identity"></a>Id에 대한 Microsoft Defender 파일럿
 

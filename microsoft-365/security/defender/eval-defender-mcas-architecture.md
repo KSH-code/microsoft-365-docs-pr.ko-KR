@@ -1,5 +1,5 @@
 ---
-title: 아키텍처 요구 사항 및 구성을 검토하고 Microsoft Cloud App Security 아키텍처의 프레임워크를 확인하여 구성 및 디자인을 Cloud App Security Microsoft 365 Defender
+title: 아키텍처 요구 사항 및 구성 Microsoft Cloud App Security
 description: Microsoft Cloud App Security 다이어그램은 파일럿 환경을 구축하는 데 도움이 되는 Microsoft 365 Defender 아키텍처에 대해 설명합니다.
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a3fa9670262b90d1566c375680946a131bb9c78a
-ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
+ms.openlocfilehash: f06804e7a6944f119401f8cf2ea5cc0496fd30e841129cef061d8caee4964887
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53839066"
 ---
 # <a name="review-architecture-requirements-and-key-concepts-for-microsoft-cloud-app-security"></a>아키텍처 요구 사항 및 주요 개념을 Microsoft Cloud App Security
 
@@ -116,13 +116,13 @@ Cloud App Security 자체적으로 강력한 보호 기능을 제공합니다. �
 |개념  |설명 |추가 정보  |
 |---------|---------|---------|
 | Cloud App Security 대시보드 | 조직에 대한 가장 중요한 정보에 대한 개요를 제시하고 심층 조사에 대한 링크를 제공합니다.        | [대시보드 작업 ](/cloud-app-security/daily-activities-to-protect-your-cloud-environment)       |
-| 조건부 액세스 앱 컨트롤    | IdP(ID 공급자)와 통합되어 Azure AD 조건부 액세스 정책을 제공하고 선택적으로 세션 제어를 적용하는 역방향 프록시 아키텍처입니다.        |  [조건부 액세스 Microsoft Cloud App Security 컨트롤을 사용하여 앱 보호](/cloud-app-security/proxy-intro-aad)       |
+| 조건부 액세스 앱 컨트롤.    | IdP(ID 공급자)와 통합되어 Azure AD 조건부 액세스 정책을 제공하고 선택적으로 세션 제어를 적용하는 역방향 프록시 아키텍처입니다.        |  [조건부 액세스 Microsoft Cloud App Security 컨트롤을 사용하여 앱 보호](/cloud-app-security/proxy-intro-aad)       |
 |  Cloud App Catalog   | Cloud App Catalog는 80개가 넘는 위험 요인을 기준으로 순위를 정하고 점수가 점수를 거는 16,000개가 넘는 클라우드 앱의 Microsoft 카탈로그에 대한 전체 그림을 제공합니다.    |  [앱 위험 점수 작업](/cloud-app-security/risk-score)       |
 | 클라우드 검색 대시보드    | 클라우드 검색은 트래픽 로그를 분석하고 조직에서 클라우드 앱이 사용되는 방식에 대한 더 많은 정보를 제공하고 경고 및 위험 수준을 제공하도록 디자인됩니다.     |  [검색된 앱 작업   ](/cloud-app-security/discovered-apps)    |
 |연결된 앱 |Cloud App Security 앱 액세스 제어를 활용하는 클라우드-클라우드 통합, API 커넥터 및 실시간 액세스 및 세션 컨트롤을 사용하여 연결된 앱에 대한 종단-종단으로 보호를 제공합니다. |[연결된 앱 보호](/cloud-app-security/protect-connected-apps) |
 | | | |
 
-## <a name="review-architecture-requirements"></a>아키텍처 요구 사항 검토
+## <a name="review-architecture-requirements"></a>아키텍처 요구 사항 리뷰
 
 ### <a name="discovering-cloud-apps"></a>클라우드 앱 검색
 

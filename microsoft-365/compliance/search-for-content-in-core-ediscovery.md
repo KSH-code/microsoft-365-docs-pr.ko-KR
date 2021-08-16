@@ -17,22 +17,22 @@ search.appverid:
 - MOE150
 - MET150
 description: Core eDiscovery 사례와 관련이 있을 수 있는 콘텐츠를 검색합니다.
-ms.openlocfilehash: 8d2e2a20135312a8f111a071abbe77b03b8e8363
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: b71dfdbdee715c41c5aa2f5f1fe235c8a42412c01184a54172cf8846c3e48a14
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53871416"
 ---
 # <a name="search-for-content-in-a-core-ediscovery-case"></a>Core eDiscovery 사례에서 콘텐츠 검색
 
-Core eDiscovery 사례를 만들고 사례에 관심이 있는 사람이 보류된 후 사례와 관련된 콘텐츠에 대해 하나 이상의 검색을 만들고 실행할 수 있습니다. Core eDiscovery 사례와 연결된 검색은 준수 센터의 콘텐츠 검색 페이지에 Microsoft 365 없습니다.  이러한 검색은 검색이  연결된 Core eDiscover 사례의 검색 페이지에 나열됩니다. 즉, 사례와 연결된 검색은 사례 구성원만 액세스할 수 있습니다.
+Core eDiscovery 사례를 만들고 사례에 관심이 있는 사람이 보류된 후 사례와 관련된 콘텐츠에 대해 하나 이상의 검색을 만들고 실행할 수 있습니다. Core eDiscovery 사례와 연결된 검색은 검색 목록의 콘텐츠 검색 페이지에 Microsoft 365 규정 준수 센터.  이러한 검색은 검색이  연결된 Core eDiscover 사례의 검색 페이지에 나열됩니다. 즉, 사례와 연결된 검색은 사례 구성원만 액세스할 수 있습니다.
 
 Core eDiscovery 검색을 만들 수 있는 경우:
   
 1. 으로 이동하여 적절한 eDiscovery 권한이 할당되고 사례의 구성원인 사용자 계정의 자격 증명을 사용하여 <https://compliance.microsoft.com> 로그인합니다.
 
-2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 모두 표시를 클릭한 다음 **eDiscovery**> 클릭합니다.
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 클릭한 다음 **eDiscovery**> 클릭합니다. 
 
 3. Core **eDiscovery** 페이지에서 연결된 검색을 만들 사례를 선택하고 사례 열기 **를 클릭합니다.**
 

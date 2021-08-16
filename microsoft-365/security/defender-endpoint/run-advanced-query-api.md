@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 7f37dc12e14561b46e264f46cb7e07c4a9cc757083bbe8402f07bdf4705f08f1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 54883ab437dcf01b042b5458bdc6312eaf24d179
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817696"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58256977"
 ---
 # <a name="advanced-hunting-api"></a>고급 헌팅 API
 
@@ -51,7 +51,9 @@ ms.locfileid: "53817696"
 
 5. 429 응답은 요청 수 또는 CPU에 의해 할당량 제한에 도달하는 경우를 나타내게 됩니다. 응답 본문을 읽고 도달한 제한을 이해합니다. 
 
-## <a name="permissions"></a>사용 권한
+6. 단일 요청의 최대 쿼리 결과 크기는 124MB를 초과할 수 없습니다. 초과하면 HTTP 400 잘못된 요청에 "쿼리 실행이 허용된 결과 크기를 초과했습니다. 결과 양을 제한하여 쿼리를 최적화하고 다시 시도하십시오."가 나타납니다.
+
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 

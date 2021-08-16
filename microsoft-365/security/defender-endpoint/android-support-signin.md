@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2981138d6bf8d5bd3fa49120e3469fe29301ef6fbe8bba074ed83495044ef562
-ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
+ms.openlocfilehash: 2ed53a3e8feb9531e4cb75bc9531718d33528870
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "57834742"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58246398"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Android의 끝점용 Microsoft Defender 문제 해결
 
@@ -117,9 +117,24 @@ Defender 앱은 앱 온보딩의 일부로 디바이스에 배터리 최적화/�
 사용자는 다음 단계에 따라 장치 설정에서 동일한 사용 권한을 사용하도록 설정할 수 있습니다. 
 
 1. 디바이스에서 **설정** 로 이동하세요.
+   
 2. 배터리 **최적화를 검색하고 선택합니다.**
+   
+   !["배터리 최적화"를 검색하고 선택합니다.](images/search-battery-optimisation.png)
+
 3. 특수 **앱 액세스에서** 배터리 **최적화를 선택합니다.**
+   
+   ![특수 앱 액세스에서 "배터리 최적화"를 선택합니다.](images/special-app-access.png)
+
 4. 드롭다운을 변경하여 모든 **앱을 표시하세요.**
+
+   ![드롭다운을 변경하여 "모든 앱"을 표시하세요.](images/show-all-apps-2.png)
+
+   ![드롭다운을 변경하여 "모든 앱"을 표시하세요.](images/show-all-apps-1.png)
+
 5. "Microsoft Defender 끝점"을 찾은 다음 **최적화 안 를 선택합니다.**
+
+   !["Microsoft Defender Endpoint"를 찾은 다음 "낙관하지 않습니다."를 선택합니다.](images/select-dont-optimise.png)
+
 
 Microsoft Defender 끝점 온보딩 화면으로 돌아가서 허용 을 선택하면 대시보드 화면으로 리디렉션됩니다.

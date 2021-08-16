@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0bfc88d7d3f03ba4022353a22617b4404643e2c7
-ms.sourcegitcommit: 3576c2fee77962b516236cb67dd3df847d61c527
+ms.openlocfilehash: 2f9e100cf6ebb4ec09caba7d6a14f93344cafedfad1ab012baea68f61a94dab5
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53619522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53857347"
 ---
 # <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>엔드포인트용 Microsoft Defender(Linux) 업데이트 예약
 

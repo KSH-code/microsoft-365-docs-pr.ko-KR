@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c200e2e0b214b634b3a893d07cc8044995190f8eb89f8adad1e3b96ad1f7ae19
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e295d4014231242bf1e3ae7dceaeb38dfea2fa1c
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53818776"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58246322"
 ---
 # <a name="list-alerts-api"></a>목록 알림 API
 
@@ -43,7 +43,7 @@ ms.locfileid: "53818776"
 Alerts 컬렉션을 검색합니다.
 <br>[OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
 <br>OData 지원 연산자:
-<br>```$filter``` on: ```alertCreationTime``` ```lastUpdateTime``` , , , , , ```incidentId``` ```InvestigationId``` ```status``` ```severity``` 및 ```category``` 속성.
+<br>```$filter``` on: ```alertCreationTime``` ```lastUpdateTime``` , , , , ```incidentId``` , , , , , 및 ```InvestigationId``` ```id``` ```asssignedTo``` ```detectionSource``` ```lastEventTime``` ```status``` ```severity``` ```category``` 속성.
 <br>```$top``` 최대값 10,000
 <br>```$skip```
 <br>```$expand``` of ```evidence```
@@ -56,7 +56,7 @@ Alerts 컬렉션을 검색합니다.
 3. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다. 
 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 

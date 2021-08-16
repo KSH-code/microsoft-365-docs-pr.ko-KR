@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 0140f704-6614-49bb-aa6c-89b75dcd7f1f
 description: 이 정보를 사용하여 OFFICE 365 CDNS(콘텐츠 배달 네트워크)를 사용하여 성능을 개선하는 방법에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: 1a963d14df14e8644072a159e35c8590f953dae6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 853c145e616739fb9cbc1e15a9939dbc38c2b2cf1803e5bfca1b36d2dc254373
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911099"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53870950"
 ---
 # <a name="content-delivery-networks-cdns"></a>콘텐츠 배달 네트워크(CDN)
 

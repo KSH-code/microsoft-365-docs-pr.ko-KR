@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a59490c4005288a10520a1b29867b59a401680388d2378cfe3eb8b7fea143b01
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a975daa6b73f39722b077cda307aa5ea806b1e1b
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829102"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58257003"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>엔드포인트용 Microsoft Defender(Windows가 아닌 플랫폼)
 
@@ -51,7 +51,6 @@ MacOS의 끝점용 Microsoft Defender는 세 가지 최신 릴리스 버전의 m
 >다음 기능은 현재 macOS 끝점에서 지원되지 않습니다.
 >- 데이터 손실 방지
 >- 라이브 응답
->- SIEM
 
 
 ## <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)

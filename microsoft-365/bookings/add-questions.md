@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: fd6b7587-5055-4bcd-83a4-13bd4929bfff
 description: 고객이 온라인으로 약속을 예약할 때 고객에게 질문을 해야 하는 경우 예약 페이지에 사용자 지정 질문과 필요한 질문을 추가할 수 있습니다.
-ms.openlocfilehash: ebbb07857fd8bb196f769dfb7e71ad25a85dfd54
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 7ee5710d20145dc1cb819c03c0a86336241ba829173f8abc3b4fdf2a96aa719e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53900895"
 ---
 # <a name="add-custom-and-required-questions-to-the-booking-page"></a>예약 페이지에 사용자 정의 및 필수 질문 추가
 
@@ -57,7 +57,7 @@ ms.locfileid: "47419993"
 
    ![여러 서비스에 대해 나타나는 질문 이미지](../media/bookings-questions-services.png)
 
-예약 페이지가 이미 게시되어 있는 경우 다른 작업을 할 필요가 없습니다. 고객은 다음에 예약할 때 질문을 볼 수 있습니다. 예약 페이지가 아직 게시되지 않은 경우  웹의 Outlook 예약 페이지로 이동한 다음 저장 및 게시를 **선택합니다.**
+예약 페이지가 이미 게시되어 있는 경우 다른 작업을 할 필요가 없습니다. 고객은 다음에 예약할 때 질문을 볼 수 있습니다. 예약 페이지가 아직 게시되지 않은 경우  에서 예약 페이지로 이동한 웹용 Outlook 저장 **및 게시를 선택합니다.**
 
 > [!WARNING]
 > 마스터 목록에서 질문을 삭제할 수도 있습니다. 그러나 질문을 삭제하면 모든 서비스에서 삭제됩니다. 다른 서비스에 영향을 끼치지 않도록 선택하여 질문을 사용하지 않도록 설정하는 것이 좋습니다. 강조 표시된 직사각형으로 둘러싸인 질문이 사용되지 않는지 볼 수 있습니다.

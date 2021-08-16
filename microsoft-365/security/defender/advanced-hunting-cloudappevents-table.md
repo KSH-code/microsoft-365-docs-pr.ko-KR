@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅Chema의 CloudAppEvents 테이블
 description: 고급 헌팅 스위마의 CloudAppEvents 표에 있는 클라우드 앱 및 서비스의 이벤트에 대해 자세히 알아보기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마마 참조, kusto, 표, 열, 데이터 형식, 설명, CloudAppEvents, Cloud App Security, MCAS
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, CloudAppEvents, Cloud App Security, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 17f424d368c0df2f07cda41917f005e4163e5750
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 32afec539e63c9ce411bb49c52a2facc7f99e9eae84bff3e0bf65f670f1b4dd0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53857246"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 
@@ -40,7 +40,7 @@ ms.locfileid: "51935872"
 고급 `CloudAppEvents` 헌팅 [계획의](advanced-hunting-overview.md) 표에는 다양한 클라우드 앱 및 서비스에서 지원되는 활동에 대한 정보가 Microsoft Cloud App Security. 전체 목록을 위해 를 다루는 [앱 및 서비스로 이동하세요.](#apps-and-services-covered) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다. 
 
 >[!IMPORTANT]
->이 표에는 표에서 사용할 수 있는 정보가 `AppFileEvents` 포함되어 있습니다. 2021년 3월 7일 이후 클라우드 서비스에서 파일 관련 활동을 찾은 사용자는 대신 이 표를 사용해야 `CloudAppEvents` 합니다. <br><br>테이블을 계속 사용하는 쿼리 및 사용자 지정 검색 규칙을 검색하고 테이블을 사용하여 `AppFileEvents` 편집해야 `CloudAppEvents` 합니다. 영향을 받는 쿼리 변환에 대한 자세한 지침은 Defender 고급 헌팅을 사용하여 클라우드 앱 활동에서 [헌트에서 Microsoft 365 있습니다.](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857)
+>이 표에는 표에서 사용할 수 있는 정보가 `AppFileEvents` 포함되어 있습니다. 2021년 3월 7일 이후 클라우드 서비스에서 파일 관련 활동을 찾은 사용자는 대신 이 표를 사용해야 `CloudAppEvents` 합니다. <br><br>테이블을 계속 사용하는 쿼리 및 사용자 지정 검색 규칙을 검색하고 테이블을 사용하여 `AppFileEvents` 편집해야 `CloudAppEvents` 합니다. 영향을 받는 쿼리 변환에 대한 자세한 지침은 고급 헌팅을 사용하여 클라우드 앱 활동에서 헌트에서 [Microsoft 365 Defender 있습니다.](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857)
 
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.

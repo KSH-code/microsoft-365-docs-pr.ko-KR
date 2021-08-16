@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 다중 위치 및 이동 위치를 Microsoft 365 단일 또는 Microsoft 365 테넌트를 배포하고 관리합니다.
-ms.openlocfilehash: 4d9bd685fce6fb2f11b8e17bebae6460e0c10bd2
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 6cf7ca2a754077172aa5d90752109ea6773378f7a6b7457ac158cc599ad06ba9
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53888410"
 ---
 # <a name="step-1-your-microsoft-365-for-enterprise-tenants"></a>1단계. 엔터프라이즈 Microsoft 365 대한 사용자 설정
 

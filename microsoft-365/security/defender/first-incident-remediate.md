@@ -1,6 +1,6 @@
 ---
 title: 2단계. 첫 번째 인시던트 수정
-description: Defender에서 첫 번째 인시던트 수정을 시작하는 Microsoft 365 방법.
+description: 2013에서 첫 번째 인시던트 수정을 시작하는 Microsoft 365 Defender.
 keywords: 인시던트, 경고, 조사, 상관 관계, 공격, 컴퓨터, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, Microsoft, m365, 인시던트 대응, 사이버 공격
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ed597c55a646eb00d6e6d256c287b22c119f8148
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 787fd55e9ad17607cfa0fa5f787a279bb0e2d1839d2029b9a7ec6a4bb5f1b65a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297347"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53838971"
 ---
 # <a name="step-2-remediate-your-first-incident"></a>2단계. 첫 번째 인시던트 수정
 
@@ -36,9 +36,9 @@ ms.locfileid: "52297347"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender는 검색 및 분석 기능을 제공하는 것은 물론 맬웨어를 방지하고 제거합니다. 포함에는 공격의 영향을 줄이는 단계가 포함되어 있는 반면, 제거는 공격자 활동의 모든 추적을 네트워크에서 제거합니다.  Microsoft 365 Defender는 운영 체제 및 공격 유형에 [](m365d-autoir.md) 따라 자동 수정하도록 구성할 수 있는 몇 가지 수정 작업을 제공합니다.
+Microsoft 365 Defender 검색 및 분석 기능을 제공하는 것은 물론 맬웨어를 방지하고 제거합니다. 포함에는 공격의 영향을 줄이는 단계가 포함되어 있는 반면, 제거는 공격자 활동의 모든 추적을 네트워크에서 제거합니다.  Microsoft 365 Defender 운영 체제 및 공격 유형에 따라 자동 [](m365d-autoir.md) 수정하도록 구성할 수 있는 몇 가지 수정 작업을 제공합니다.
 
-Microsoft 365 Defender는 분석가가 수동으로 시작할 수 있는 몇 가지 수정 작업을 제공합니다. 작업은 디바이스의 작업과 파일에 대한 작업의 두 범주로 구분됩니다. 일부 작업을 사용하여 위협을 즉시 중지하고 다른 작업은 추가 포렌식 분석을 지원할 수 있습니다.
+Microsoft 365 Defender 분석가가 수동으로 시작할 수 있는 여러 가지 수정 작업을 제공합니다. 작업은 디바이스의 작업과 파일에 대한 작업의 두 범주로 구분됩니다. 일부 작업을 사용하여 위협을 즉시 중지하고 다른 작업은 추가 포렌식 분석을 지원할 수 있습니다.
 
 ## <a name="actions-on-devices"></a>디바이스에 대한 작업
 
@@ -60,7 +60,7 @@ Microsoft 365 Defender는 분석가가 수동으로 시작할 수 있는 몇 가
 인시던트 [감지,](first-incident-analyze.md#analyze-your-first-incident)분석 및 분석의 예제를 계속 진행하면 분석가가 다음 작업을 사용하여 이 인시던트를 재구성할 수 있습니다.
 
 1. 사용자 계정 암호 즉시 다시 설정
-2. 심층 분석이 완료될 Microsoft 365 Defender에서 장치 격리
+2. 심층 분석이 Microsoft 365 Defender 장치 격리
 3. 악의적인 파일이 해당 파일에서 SharePoint
 4. 맬웨어의 영향을 받은 끝점 확인
 5. 시스템 다시 구성
@@ -70,7 +70,7 @@ Microsoft 365 Defender는 분석가가 수동으로 시작할 수 있는 몇 가
 
    :::image type="content" source="../../media/first-incident-remediate/first-incident-mcas-governance.png" alt-text="Microsoft Cloud App Security 거버넌스 작업의 예"::: 
  
-대부분의 수정 작업은 Defender에서 적용하고 추적할 Microsoft 365 있습니다. 
+대부분의 수정 작업은 작업에서 적용하고 추적할 수 Microsoft 365 Defender. 
 
 ## <a name="using-playbooks"></a>Playbook 사용
 

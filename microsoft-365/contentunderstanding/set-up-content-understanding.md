@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: SharePoint Syntex 설정
-ms.openlocfilehash: 423c69a3c199cd3b1f0c71b93d3632e555125e1e47c4e5b5c8db95f7c52d195d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b856cafb7c2be292ed912fc94329ae6f3f23bb5f
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53859195"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58257108"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -54,8 +54,6 @@ SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있�
 - SharePoint Syntex용 일반 데이터 서비스
 
 양식 처리를 사용하려면 AI Builder 크레딧도 필요합니다. 라이선스 사용자가 300명 이상인 경우 매월 AI Builder 크레딧이 할당됩니다.
-
-SharePoint Syntex 라이선스에 대한 자세한 내용은 [SharePoint Syntex 라이선싱](syntex-licensing.md)을 참조하세요.
 
 ## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex를 설정하려면 다음을 수행합니다.
 

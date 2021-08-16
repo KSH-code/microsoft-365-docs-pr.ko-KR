@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex의 문서 이해 모델에서 추출기를 만들 때 용어 저장소 분류를 사용하세요.
-ms.openlocfilehash: ccc6b7d268a91d1febcbd760e8be560304c0e0d7
-ms.sourcegitcommit: a84a7a9bda2b616a24af03b89a84f5e75ebfc0c7
+ms.openlocfilehash: 56286014a1d5067e5d2c365eaf0470711e78e27dc86177e0596af116d361b819
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "53578580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53871234"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기를 만들 때 용어 저장소 분류/분류법 활용
 
