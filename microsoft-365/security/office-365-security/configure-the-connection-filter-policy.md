@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 전자 메일 서버에서 전자 메일을 허용하거나 차단하도록 EOP(Exchange Online Protection)에서 연결 필터링을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ce1eddbf1ac788ad57ffc57da2156aae1ae69f6a
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 8aa760990eff4bff8e8c4dd26efa74042f4a9208
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108394"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258497"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
@@ -64,7 +64,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 허용하거나 차단할 전자 메일 서버(보낸 사람)의 원본 IP 주소를 찾으면 메시지 헤더에서 연결 **IP(CIP)** 헤더 필드를 확인할 수 있습니다. 다양한 전자 메일 클라이언트에서 메시지 헤더를 확인하려면 에서 인터넷 메시지 [헤더 보기를 Outlook.](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)
 
@@ -74,7 +74,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-the-default-connection-filter-policy"></a>기본 Microsoft 365 Defender 포털을 사용하여 기본 연결 필터 정책 수정
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동합니다.**
+1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
 
 2. 스팸 **방지 정책 페이지의** 정책  이름을 클릭하여 목록에서 연결 필터 정책(기본값)을 선택합니다.
 
@@ -105,7 +105,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-the-default-connection-filter-policy"></a>기본 Microsoft 365 Defender 포털을 사용하여 기본 연결 필터 정책 보기
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션 스팸 \>  \>  \>  \> **방지로 이동합니다.**
+1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
 
 2. 스팸 **방지 정책 페이지에는** 정책 목록에 다음 속성이 표시됩니다.
 
@@ -148,11 +148,11 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-HostedConnectionFilterPolicy를 참조하십시오.](/powershell/module/exchange/set-hostedconnectionfilterpolicy)
 
-## <a name="how-do-you-know-this-worked"></a>이 작업이 제대로 수행되었는지 어떻게 확인하나요?
+## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
 기본 연결 필터 정책이 성공적으로 수정되어 있는지 확인하기 위해 다음 단계를 수행합니다.
 
-- Microsoft 365 Defender 포털에서 전자 메일 **& 공동** 작업 정책 & 규칙 위협 정책 페이지 정책 섹션 정책 섹션 정책 이름을 클릭하여 목록에서 스팸 방지 연결 필터 정책(기본값)을 선택하고 설정을 \>  \>  \>  \>  \> 확인합니다. 
+- Microsoft 365 Defender 포털에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 스팸 방지 정책으로 이동하여 정책 이름을 클릭하여 목록에서 연결 필터 정책(기본값)을 선택하고 설정을 \>  \>  \>   \> 확인합니다. 
 
 - PowerShell Exchange Online 독립 실행형 EOP PowerShell에서 다음 명령을 실행하고 설정을 확인합니다.
 

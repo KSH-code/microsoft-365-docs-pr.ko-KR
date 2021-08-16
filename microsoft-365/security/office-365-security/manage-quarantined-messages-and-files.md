@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(전자 메일 그룹)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 Exchange Online Protection 있습니다. Microsoft Defender for Office 365 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 파일에서 비즈니스용 OneDrive 관리할 Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 59bdfdaddbc091467bfd2ccddc2c40377955fab3
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: ad6ddf036bbadd3ccfff901e9efcf866864886aa
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028994"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258540"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -58,13 +58,13 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
   - <sup>\*</sup>또한 **PowerShell에서** 절차를 수행하려면 Exchange Online 관리자 역할  그룹의 구성원이 [](/Exchange/permissions-exo/permissions-exo#role-groups) Exchange Online 해야 합니다.
 
 - Quarantined messages are retained for a default period of time before they're automatically deleted:
   - 스팸 방지 정책(스팸, 피싱 및 대량 전자 메일)으로 차단된 메시지에 대해 30일 이 값은 기본값 및 최대값입니다. 이 값을 구성(더 낮음)으로 설정하는 내용은 스팸 방지 정책 [구성을 참조합니다.](configure-your-spam-filter-policies.md)
   - 맬웨어가 포함된 메시지의 경우 15일
-  - SharePoint, OneDrive 및 Microsoft Teams에 대해 Safe 첨부 파일로 Microsoft Teams 15일 동안 Office 365.
+  - SharePoint, OneDrive 및 Microsoft Teams 대한 금고 첨부 파일로 Microsoft Teams 15일 동안 Office 365.
 
   메시지가 검지에서 만료되면 복구할 수 없습니다.
 
@@ -78,9 +78,9 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 
 3. 사용 가능한 열 헤더를 클릭하여 결과를 정렬할 수 있습니다. **열 수정** 을 클릭하여 최대 7개의 열을 표시합니다. 기본값은 별표(<sup>\*</sup>)로 표시됩니다.
 
-   - **수신됨**<sup>\*</sup>
-   - **보낸 사람**<sup>\*</sup>
    - **제목**<sup>\*</sup>
+   - **받은 시간**<sup>\*</sup>
+   - **보낸 사람**<sup>\*</sup>
    - **격리 이유**<sup>\*</sup>
    - **해제되었나요?**<sup>\*</sup>
    - **정책 유형**<sup>\*</sup>
@@ -88,10 +88,10 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
    - **받는 사람**
    - **메시지 ID**
    - **정책 이름**
-   - **크기**
-   - **방향**
+   - **메시지 크기**   첨부 파일 등을 비롯한 메시지 크기(KB)입니다.
+   - **메일 방향**
 
-   작업을 마쳤으면 **저장** 을 클릭하거나 **기본으로 설정** 을 클릭합니다.
+   완료되면 적용을 **클릭합니다.**
 
 4. 결과를 필터링하려면 **필터** 를 클릭합니다. 사용 가능한 필터:
    - **만료 시간**: 메시지가 격리에서 만료되는 때를 기준으로 필터링:
@@ -103,13 +103,13 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
    - **격리 이유**:
      - **정책:** 메시지가 메일 흐름 규칙의 조건과 일치합니다(전송 규칙).
      - **대량 전자 메일**
-     - **피싱:** 스팸 필터 판정이 피싱 전자 메일 또는 피싱 방지 보호 [](set-up-anti-phishing-policies.md#spoof-settings) 기능으로 메시지(스푸핑 설정 또는 가장 보호)를 통해 [확인되었습니다.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 
+     - **피싱**: 스팸 필터  판정이 메시지(스푸핑 설정 또는 가장 보호)를 차단한 피싱 또는 피싱 방지 [보호입니다.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)[](set-up-anti-phishing-policies.md#spoof-settings)
      - **맬웨어**
      - **스팸**
      - **높은 신뢰도 피싱**
    - **정책 유형**: 정책 유형별로 메시지를 필터링합니다.
      - **맬웨어 방지 정책**
-     - **Safe 첨부 파일 정책**
+     - **금고 첨부 파일 정책**
      - **피싱 방지 정책**
      - **호스트된 필터 정책**(스팸 방지 정책)
      - **전송 규칙**
@@ -120,7 +120,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 5. 특정 메시지를 찾으려면 **결과 정렬 기준**(기본적으로 **메시지 ID** 단추) 및 해당 값을 사용합니다. 와일드카드는 지원되지 않습니다. 다음 값을 기준으로 검색할 수 있습니다.
    - **메시지 ID**: 메시지의 GUID(Globally Unique Identifier)입니다.
 
-     예를 들어 메시지 [](message-trace-scc.md) 추적을 사용하여 조직의 사용자에게 전송된 메시지를 찾아 메시지가 배달된 것이 아니라 메시지에 대해 중단된 것으로 확인한 경우를 예로 들 수 있습니다. 괄호( )를 포함할 수 있는 전체 메시지 ID 값을 포함해야 \<\> 합니다. 예: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` .
+     예를 들어 메시지 [](message-trace-scc.md) 추적을 사용하여 조직의 사용자에게 전송된 메시지를 찾아 메시지가 배달된 것이 아니라 메시지에 대해 중단된 것으로 확인한 경우를 예로 들 수 있습니다. 괄호( )를 포함할 수 있는 전체 메시지 ID 값을 포함해야 \<\> 합니다. 예: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>`
 
    - **보낸 사람 전자 메일 주소**: 보낸 사람 한 명의 전자 메일 주소입니다.
    - **정책 이름**: 메시지의 전체 정책 이름을 사용합니다. 검색은 대/소문자를 구분하지 않습니다.
@@ -128,7 +128,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
    - **제목**: 메시지의 전체 제목을 사용합니다. 검색은 대/소문자를 구분하지 않습니다.
    - **정책 이름:** 메시지를 대리한 정책의 이름입니다.
 
-   검색 조건을 입력한 후 ![새로 고침 단추](../../media/scc-quarantine-refresh.png) **새로 고침** 을 클릭하여 결과를 필터링합니다.
+   검색 조건을 입력한 후 ! **결과를** 필터링하기 위해 새로 고침합니다.
 
 격리된 특정 메시지를 찾은 후 해당 메시지를 선택하여 세부 정보를 확인하고 메시지에 대한 작업을 수행합니다(예를 들어 메시지를 보거나, 해제하거나, 다운로드하거나, 삭제하기).
 
@@ -154,11 +154,11 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 - **릴리스 메시지:** 플라이아웃이 나타나면 다음 옵션을 선택합니다.
   - **분석을 위해 Microsoft에** 메시지 보고: 이 설정은 기본적으로 선택되어 있으며, 잘못된 메시지는 오판정으로 Microsoft에 보고합니다. 메시지가 스팸, 대량, 피싱 또는 맬웨어를 포함하는 것으로 확인된 경우 메시지도 Microsoft 스팸 분석 팀에 보고됩니다. 분석에 따라 메시지 통과를 허용하도록 서비스 전체 스팸 필터 규칙이 조정될 수 있습니다.
   - 다음 옵션 중 하나를 선택합니다.
-    - **모든 받는 사람에게 메시지 릴리스**
-    - **특정 받는 사람에게 메시지 릴리스**
-    - **다른 사람에게** 메시지 릴리스: 원래 받는 사람이 아닌 다른 사람에게 맬웨어 메시지를 릴리스할 수 없습니다.
+    - **모든 받는 사람에게 릴리스**
+    - **특정 받는 사람에게 릴리스**
+  - **검색을 향상하기** 위해 Microsoft에 메시지 보고: 이 설정은 기본적으로 선택되어 있으며, Microsoft에 잘못된 긍정으로 보고합니다. 메시지가 스팸, 대량, 피싱 또는 맬웨어를 포함하는 것으로 확인된 경우 메시지도 Microsoft 스팸 분석 팀에 보고됩니다. 분석에 따라 메시지 통과를 허용하도록 서비스 전체 스팸 필터 규칙이 조정될 수 있습니다.
 
-  작업을 마쳤으면 **메시지 해제** 를 클릭합니다.
+  완료되면 메시지 **릴리스를 클릭합니다.**
 
   메시지 표시에 대한 참고 사항:
 
@@ -178,7 +178,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
   - **받는 사람:** 메시지를 받는 사람 한 명을  임대할 때 입력하거나 모두 선택을 클릭하여 모든 받는 사람을 식별합니다. 모두 선택을 **클릭한** 다음 개별 받는 사람을 선택적으로 제거할 수도 있습니다.
   - **제출 사유:** **차단되지** 않은 경우(기본값) 또는 **차단된 을(를) 차단해야 합니다.**
 
-  완료되면 제출을 **클릭합니다.**
+  작업을 마쳤으면 **제출** 을 클릭합니다.
 
 메시지를 해제하거나 제거하지 않으면 기본 격리 보존 기간이 만료된 후에 삭제됩니다.
 
@@ -193,31 +193,33 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 
 - **메시지 삭제:** 나타나는 경고에서 **예를** 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 즉시 삭제됩니다.
 
-작업을 마쳤으면 **닫기** 를 클릭합니다.
+- **메시지 다운로드**
 
 ## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365"></a>Microsoft 365 Defender 포털을 사용하여 Defender for Office 365
+
 > [!NOTE]
 > 이 섹션의 quarantined files에 대한 절차는 Microsoft Defender for Office 365 Plan 1 및 Plan 2 구독자만 사용할 수 있습니다.
 
-Defender for Office 365 조직에서 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 관리에서 Microsoft Teams. 이러한 파일에 대한 보호를 사용하도록 설정하려면 에 대한 Safe, [SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.
+Defender for Office 365 조직에서 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 관리에서 Microsoft Teams. 이러한 파일에 대한 보호를 사용하도록 설정하려면 에 대한 금고 첨부 파일 [켜기, SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.
 
 ### <a name="view-quarantined-files"></a>quarantined files(Quarantined Files 보기)
 
 1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **검토** \> **격리** 로 이동합니다.
-
 
 2. **Quarantine** 페이지에서 값 **파일로 quarantined 보기를** **변경합니다.** 사용 가능한 열 헤더를 클릭하여 필드를 정렬할 수 있습니다.
 
 3. 사용 가능한 열 헤더를 클릭하여 결과를 정렬할 수 있습니다. **열 수정** 을 클릭하여 최대 7개의 열을 표시합니다. 기본 열에는 다음이 표시되어 있습니다. <sup>\*</sup>
    - **사용자**<sup>\*</sup>
    - **위치**<sup>\*</sup>
-   - **파일 이름**<sup>\*</sup>
+   - **첨부 파일 이름**<sup>\*</sup>
    - **파일 URL**<sup>\*</sup>
    - **파일 크기**<sup>\*</sup>
-   - **만료**<sup>\*</sup>
    - **해제되었나요?**<sup>\*</sup>
+   - **만료**<sup>\*</sup>
    - **검색한 경우**
    - **시간으로 수정**
+
+   작업을 마치면 적용 또는 **취소를** **클릭합니다.**
 
 4. 결과를 필터링하려면 **필터** 를 클릭합니다. 사용 가능한 필터:
    - **만료 시간**: 메시지가 격리에서 만료되는 때를 기준으로 필터링:
@@ -228,6 +230,8 @@ Defender for Office 365 조직에서 관리자는 SharePoint Online, 비즈니�
    - **받은 시간**
    - **Quarantine reason**: The only available value is **Malware**.
    - **정책 유형**
+
+   작업을 마치면 적용 또는 **취소를** **클릭합니다.**
 
 특정 고지된 파일을 찾은 후 해당 파일을 선택하여 해당 파일에 대한 세부 정보를 보고 메시지 보기, 릴리스, 다운로드 또는 삭제와 같은 작업을 수행하십시오.
 
@@ -276,6 +280,6 @@ Defender for Office 365 조직에서 관리자는 SharePoint Online, 비즈니�
 
 - [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage:](/powershell/module/exchange/preview-quarantinemessage)이 cmdlet은 메시지에만 사용하며, Safe, SharePoint, OneDrive 및 Microsoft Teams.
+- [Preview-QuarantineMessage:](/powershell/module/exchange/preview-quarantinemessage)이 cmdlet은 메시지에만 사용하며, 금고, SharePoint, OneDrive 및 파일에 대한 Microsoft Teams.
 
 - [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage)

@@ -22,27 +22,27 @@ search.appverid:
 - MBS150
 - GPA150
 ms.assetid: b4fc07a5-97ea-4ca6-9692-108acab74067
-description: Microsoft 365 관리 센터에서 디렉터리 동기화 오류 및 가능한 수정 Microsoft 365 방법을 알아보십시오.
-ms.openlocfilehash: 76717fc158aa0cee47f784919f19a295378bbd5b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 디렉터리 동기화 오류 및 가능한 수정 내용을 보기 위한 방법을 Microsoft 365 관리 센터.
+ms.openlocfilehash: 37bd25f46c84f2a4ec26f17accdae034487a4dc91023d798cf3459941136c0a6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53885270"
 ---
 # <a name="view-directory-synchronization-errors-in-microsoft-365"></a>목록에서 디렉터리 동기화 Microsoft 365
 
-사이트 관리 센터에서 디렉터리 동기화 오류를 볼 Microsoft 365 있습니다. User 개체 오류만 표시됩니다. PowerShell에서 오류를 확인하려면 [DirSyncProvisioningErrors로 개체 식별을 참조합니다.](/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency)
+디렉터리 동기화 오류를 볼 수 있는 Microsoft 365 관리 센터. User 개체 오류만 표시됩니다. PowerShell에서 오류를 확인하려면 [DirSyncProvisioningErrors로 개체 식별을 참조합니다.](/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency)
 
-## <a name="view-directory-synchronization-errors-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 디렉터리 동기화 오류 보기
+## <a name="view-directory-synchronization-errors-in-the-microsoft-365-admin-center"></a>서버의 디렉터리 동기화 오류를 Microsoft 365 관리 센터
 
-관리 센터에서 오류를 Microsoft 365:
+오류 메시지에서 오류를 Microsoft 365 관리 센터.
   
-1. 전역 관리자 [계정으로](https://admin.microsoft.com) Microsoft 365 관리 센터에 로그인합니다. 
+1. 전역 관리자 [Microsoft 365 관리 센터](https://admin.microsoft.com) 로그인합니다. 
     
 2. 홈 **페이지에** 사용자 관리 **카드가** 표시됩니다. 
     
-    ![Microsoft 365 관리 센터의 사용자 관리 카드](../media/060006e9-de61-49d5-8979-e77cda198e71.png)
+    ![사용자 관리 카드의 Microsoft 365 관리 센터](../media/060006e9-de61-49d5-8979-e77cda198e71.png)
   
 3. 카드에서 Azure  **AD에서** 동기화 오류를 커넥트 디렉터리 동기화 오류 페이지에서 오류를 **확인합니다.**   
     

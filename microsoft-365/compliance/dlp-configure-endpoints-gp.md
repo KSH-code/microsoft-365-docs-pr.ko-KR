@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 그룹 정책을 사용하여 구성 패키지가 서비스에 Windows 10 구성 패키지를 배포할 수 있습니다.
-ms.openlocfilehash: 284de5169324b6da4038cfe0b50b2f2ffa40e3fd
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 50bca6c4eb9989ce0464fb257bc311ff35a684b4c6d371a4d65387294263a68d
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53865914"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드 
 
@@ -112,4 +112,4 @@ ms.locfileid: "51893289"
 - [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](dlp-configure-endpoints-script.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](dlp-configure-endpoints-vdi.md)
 - [새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 실행](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [온보 Microsoft Defender Advanced Threat Protection 문제 해결](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Microsoft Defender Advanced Threat Protection 온보딩 문제 해결](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

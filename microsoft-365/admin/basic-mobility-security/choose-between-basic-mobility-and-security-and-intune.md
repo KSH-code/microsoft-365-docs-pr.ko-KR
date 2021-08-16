@@ -19,12 +19,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 기본 Microsoft 365 있습니다.
-ms.openlocfilehash: 69d1c285d234d0884400cfc6325fcecfbff5a2d3bb62769682ec974b53a85f7e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 74b6aeb5b768dc668a66bcb8c82f6c8393219561
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827038"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247431"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>기본 이동성 및 보안 또는 Intune 중 선택
 
@@ -49,9 +49,9 @@ ms.locfileid: "53827038"
 |Microsoft 365 Education A1 |예|예|
 |Microsoft 365 Education A3 |예|예|
 |Microsoft 365 Education A5 |예|예|
-|Microsoft Intune |아니요|예|
+|Microsoft Intune |아니오|예|
 |Enterprise Mobility & Security E3 |아니요|예|
-|Enterprise Mobility 및 Security E5 |아니요|예|
+|Enterprise Mobility 및 Security E5 |아니오|예|
 
 > [!NOTE]
 > 이미 기본 이동성 및 보안을 사용하고 있는 경우 기본 이동성 및 보안을 사용할 Microsoft Intune.
@@ -71,14 +71,13 @@ Microsoft Intune 기본 제공 Basic Mobility and Security를 사용하면 조�
 |장치 준수|장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 디바이스에 대한 제한 사항 자세한 [내용은 을 참조합니다.](capabilities.md) |예|
 |장치 준수에 기반한 조건부 액세스 |비영리 장치가 클라우드에서 회사 전자 메일 및 데이터에 액세스하지 못하게 합니다. |지원되지 Windows 10.<br/>Exchange Online, SharePoint Online 및 Outlook. |예 |
 |장치 구성  |장치 설정 구성(예: 카메라 사용 안 하도록 설정)|제한된 설정 집합입니다.|예|
-|장치 준수  |장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 디바이스에 대한 제한 사항 자세한 [내용은 을 참조합니다.](capabilities.md) |예|
 |전자 메일 프로필  |장치에서 기본 전자 메일 프로필을 프로비전합니다. |예|예|
-|WiFi 프로필 |장치에서 기본 WiFi 프로필을 프로비전합니다. |아니요|예|
-|VPN 프로필 |장치에서 기본 VPN 프로필을 프로비전합니다. |아니요|예|
-|모바일 응용 프로그램 관리  |내부 업무용 앱과 앱 스토어에서 사용자에게 배포합니다. |아니요|예|
-|모바일 응용 프로그램 보호  |사용자가 알고 있는 Office 모바일 및 업무용 앱을 사용하여 회사 정보에 안전하게 액세스할 수 있도록 하면서 복사, 잘라 내기, 붙여넣기 및 저장과 같은 작업을 회사 데이터에 대해 승인된 앱으로만 제한함으로써 데이터의 보안을 보장할 수 있습니다. 장치가 기본 Mobility and Security에 등록되지 않은 경우에도 작동합니다. MAM 정책을 사용하여 앱 데이터 보호를 참조하세요. |아니요|예|
-|관리되는 브라우저  |에지 앱을 사용하여 보다 안전한 웹 검색을 사용하도록 설정하세요. |아니요|예|
-|제로 터치 등록 프로그램(AutoPilot) |많은 수의 회사 소유 장치를 등록하고 사용자 설정을 간소화합니다. |아니요|예|
+|WiFi 프로필 |장치에서 기본 WiFi 프로필을 프로비전합니다. |아니오|예|
+|VPN 프로필 |장치에서 기본 VPN 프로필을 프로비전합니다. |아니오|예|
+|모바일 응용 프로그램 관리  |내부 업무용 앱과 앱 스토어에서 사용자에게 배포합니다. |아니오|예|
+|모바일 응용 프로그램 보호  |사용자가 알고 있는 Office 모바일 및 업무용 앱을 사용하여 회사 정보에 안전하게 액세스할 수 있도록 하면서 복사, 잘라 내기, 붙여넣기 및 저장과 같은 작업을 회사 데이터에 대해 승인된 앱으로만 제한함으로써 데이터의 보안을 보장할 수 있습니다. 장치가 기본 Mobility and Security에 등록되지 않은 경우에도 작동합니다. MAM 정책을 사용하여 앱 데이터 보호를 참조하세요. |아니오|예|
+|관리되는 브라우저  |에지 앱을 사용하여 보다 안전한 웹 검색을 사용하도록 설정하세요. |아니오|예|
+|제로 터치 등록 프로그램(AutoPilot) |많은 수의 회사 소유 장치를 등록하고 사용자 설정을 간소화합니다. |아니오|예|
 |||
 
 위의 표에 나열된 기능 외에도 기본 Mobility and Security 및 Intune에는 인터넷을 통해 디바이스에 명령을 보내는 원격 작업 집합이 포함되어 있습니다. 예를 들어 개인 데이터를 Office 동안 직원의 장치에서 Office 데이터를 제거하거나(사용 중지), 직원의 장치에서 Office 앱을 제거(지우기) 또는 장치를 공장 설정(전체 지우기)으로 다시 설정할 수 있습니다.

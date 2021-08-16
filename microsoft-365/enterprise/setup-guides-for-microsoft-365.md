@@ -20,42 +20,17 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
-description: 설치 가이드를 통해 Microsoft 365 Office 365 계획 및 구성을 가속화합니다.
-ms.openlocfilehash: 445be0e738efe3f9085766c3af1d9cae53f347f09d223413966f4dc4e4aa41cb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+description: 테넌트 라이선스의 기능을 계획, 마이그레이션 및 구현하기 위한 단계별 도구를 얻습니다. 실행해야 하는 서비스 또는 앱을 설정하는 가이드를 찾아보세요.
+ms.openlocfilehash: 53356238bea6180b8929e2ee49f89aa159367f72
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904398"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247490"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 
-Microsoft 365 및 Office 365 설정 가이드에서는 테넌트, 앱 및 서비스를 계획하고 배포하기 위한 맞춤형 지침과 리소스를 제공합니다. 이 가이드는 [FastTrack 온보드](https://www.microsoft.com/fasttrack/microsoft-365) 전문가가 개별 상호 작용에서 공유하는 Microsoft 365 모범 사례를 사용하여 만들어지며, 이 가이드는 해당 가이드 내의 모든 관리자가 사용할 수 Microsoft 365 관리 센터. 제품 설정에 대한 정보를 제공하고, 보안 기능을 사용하도록 설정하고, 공동 작업 도구를 배포하고, 고급 배포 속도를 향상하기 위한 스크립트를 제공합니다.
-
-## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>2013의 설정 가이드에 액세스하는 Microsoft 365 관리 센터
-
-설치 가이드는 설치 가이드의 설치 지침 페이지에서 액세스할 수 Microsoft 365 관리 센터. [](https://aka.ms/setupguidance) 진행 상태를 추적할 수 있으며, 가이드를 완료하기 위해 항상 반환할 수 있습니다. 설치 지침 **페이지에 연결하려면 다음을** 실행합니다.
-
-1. 에서 [Microsoft 365 관리 센터](https://admin.microsoft.com/)홈 **페이지로** 이동합니다.
-
-2. 교육 & **가이드 카드를** 찾아보세요.
-
-   ![교육 & Microsoft 365 관리 센터 가이드 카드](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
-
-3. 사용자 **지정된 설정 지침을 선택합니다.**
-
-   ![설치 지침 페이지의 스크린 Microsoft 365 관리 센터샷](../media/setup-guides-for-microsoft-365/adminportal-setupguidance.png)
-
->[!NOTE]
->테넌트 관리자 권한은 테넌트 액세스에 Microsoft 365 관리 센터.
-
-## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>설치 가이드는 Microsoft 365 관리 센터?
-
-각 가이드는 단계별 지침, 리소스, 문서 및 필요한 경우 구성을 변경하는 데 사용할 수 있는 스크립트를 제공합니다. 이 가이드에서는 소규모 및 대규모 조직의 특정 요구 사항을 반영하는 선택 사항을 제공합니다. 또한 이 지침에는 신규 관리자와 더 많은 숙련된 관리자에 대한 지원이 포함되어 있습니다.
-
-![설치 가이드의 예](../media/setup-guides-for-microsoft-365/m365-setupguide-example.png)
-
-이 가이드를 사용하여 계획 단계, 배포 및 롤아웃 중에 특정 Microsoft 365 및 Office 365 기능에 대해 자세히 알아보거나, 설정을 수정하기 위해 배포를 완료한 후 다시 수정할 수 있습니다.
+Microsoft 365 및 Office 365 설정 가이드에서는 테넌트, 앱 및 서비스를 계획하고 배포하기 위한 맞춤형 지침과 리소스를 제공합니다. 이 가이드는 [온보드](https://www.microsoft.com/fasttrack/microsoft-365) 전문가가 개별 상호 작용에서 공유하는 Microsoft 365 FastTrack 모범 사례를 사용하여 만들어지며, 이 가이드는 온보드 내의 모든 관리자가 사용할 수 Microsoft 365 관리 센터. 제품 설정에 대한 정보를 제공하고, 보안 기능을 사용하도록 설정하고, 공동 작업 도구를 배포하고, 고급 배포 속도를 향상하기 위한 스크립트를 제공합니다.
 
 ## <a name="guides-for-initial-setup"></a>초기 설정 가이드
 
@@ -63,9 +38,9 @@ Microsoft 365 및 Office 365 설정 가이드에서는 테넌트, 앱 및 서비
 
 환경 [준비 가이드를](https://aka.ms/prepareyourenvironment) 통해 조직에서 서비스 및 서비스 Microsoft 365 환경을 Office 365 있습니다. 목표에 관계없이 성공적인 배포를 위해 완료해야 할 작업이 있습니다. 환경을 준비하는 동안 오류를 방지하려면 도메인을 연결하고, 사용자를 추가하고, 라이선스를 할당하고, Exchange Online 사용하여 전자 메일을 설정하고, Office 앱을 설치 또는 배포하는 단계별 지침이 제공됩니다.
 
-### <a name="email-setup-advisor"></a>전자 메일 설정 고문
+### <a name="email-setup-guide"></a>전자 메일 설정 가이드
 
-전자 [메일 설정 고문은](https://aka.ms/office365setup) 조직의 구성에 필요한 단계별 Exchange Online 제공합니다. 여기에는 새 전자 메일 계정 설정, 전자 메일 마이그레이션 및 전자 메일 보호 구성이 포함됩니다. 전자 메일을 성공적으로 설정하려면 이 고문을 사용하여 조직의 현재 메일 시스템, 마이그레이션되는 사서함 수 및 사용자 및 해당 액세스를 관리하려는 방법에 따라 권장 마이그레이션 방법을 받게 됩니다.
+전자 [메일 설정 가이드에서는](https://aka.ms/office365setup) 조직에 대한 구성에 필요한 단계별 Exchange Online 제공합니다. 여기에는 새 전자 메일 계정 설정, 전자 메일 마이그레이션 및 전자 메일 보호 구성이 포함됩니다. 전자 메일 설정이 성공하려면 이 고문을 사용하여 조직의 현재 메일 시스템, 마이그레이션되는 사서함 수 및 사용자 및 액세스 관리 방법에 따라 권장되는 마이그레이션 방법을 받게 됩니다.
 
 ### <a name="migrate-gmail-contacts-and-calendar-items"></a>Gmail 연락처 및 일정 항목 마이그레이션
 
@@ -96,6 +71,10 @@ Microsoft Edge 세계적 수준의 호환성 및 성능, 자격이 있는 보안
 
 Microsoft Edge [](https://aka.ms/edgeadvisor) 설정 가이드는 Enterprise 사이트 검색을 구성하여 IE 모드를 사용하는 데 필요할 수 있는 사이트를 확인, 중요한 보안 기능을 검토 및 구성하고, 사용자의 요구 사항에 맞게 개인 정보 취급 방침 및 추가 정책을 구성하고, 장치에서 웹 액세스를 관리하는 데 도움이 됩니다. 개별 디바이스에 Microsoft Edge 다운로드할 수 있습니다. 또는 Configuration Manager를 사용하여 또는 구성 관리자를 사용하여 여러 사용자에게 배포하는 방법을 Microsoft Intune.
 
+### <a name="configure-ie-mode-for-microsoft-edge"></a>사용자에 대해 IE 모드 Microsoft Edge
+
+이미 배포한 Microsoft Edge IE 모드만 구성하려는 경우 Microsoft Edge [IE](https://aka.ms/configureiemode) 모드 구성 가이드에서 사이트 검색 구성을 자동화하는 Enterprise 제공합니다. 또한 사용자에게 배포할 Enterprise 모드 사이트 목록을 만드는 데 도움이 되는 클라우드 기반 도구에서 IE 모드 권장 사항을 얻을 수 있습니다.
+
 ### <a name="microsoft-search-setup-guide"></a>Microsoft Search 설정 가이드
 
 Microsoft Search 작업을 완료하는 데 필요한 정보를 찾는 데 도움이 됩니다. 사용자, 파일, 사이트 또는 일반적인 질문에 대한 답변을 검색하는지 여부에 관계 없는 경우, 작업일 전체에서 Microsoft Search 사용하여 답변을 얻을 수 있습니다.
@@ -114,9 +93,9 @@ Microsoft Search [](https://aka.ms/MicrosoftSearchSetup) 설정 가이드는 사
 
 또한 선택적 고급 ID 보호 및 사용자 프로비저닝 자동화를 포함하여 셀프 서비스 암호 재설정, 조건부 액세스 및 통합된 타사 로그인을 사용하도록 설정하는 데 필요한 필수 정보도 포함되어 있습니다.
 
-### <a name="sync-users-from-your-orgs-directory"></a>사용자의 디렉터리에서 사용자 동기화
+### <a name="sync-users-from-your-windows-server-active-directory"></a>사용자 계정에서 Windows Server Active Directory
 
-디렉터리 [동기화 마법사의](https://aka.ms/directorysyncsetup) 사용자 동기화는 디렉터리 동기화를 설정하는 방법을 안내합니다. 이렇게 하면 더 쉽게 액세스하고 관리를 간소화할 수 있는 사내 ID와 클라우드 ID가 함께 제공됩니다. Single Sign-On, 셀프 서비스 옵션, 자동 계정 프로비전, 조건부 액세스 제어 및 규정 준수 정책과 같은 새로운 기능의 잠금을 해제합니다. 이렇게 하면 사용자가 어디에서나 필요한 리소스에 액세스할 수 있습니다.
+사용자 [동기화 마법사는](https://aka.ms/directorysyncsetup) Windows Server Active Directory 동기화를 설정하는 방법을 안내합니다. 이렇게 하면 더 쉽게 액세스하고 관리를 간소화할 수 있는 사내 ID와 클라우드 ID가 함께 제공됩니다. Single Sign-On, 셀프 서비스 옵션, 자동 계정 프로비전, 조건부 액세스 제어 및 규정 준수 정책과 같은 새로운 기능의 잠금을 해제합니다. 이렇게 하면 사용자가 어디에서나 필요한 리소스에 액세스할 수 있습니다.
 
 ### <a name="plan-your-passwordless-deployment"></a>암호 없는 배포 계획
 
@@ -146,9 +125,9 @@ AD FS 배포 [고문은](https://aka.ms/adfsguidance) Microsoft 365 및 Office 3
 
 Microsoft Intune [](https://aka.ms/intunesetupguide)설정 가이드를 사용하여 장치 및 앱 준수 정책을 설정하고, 앱 보호 정책을 할당하고, 장치 및 앱 보호 상태를 모니터링합니다.
 
-### <a name="microsoft-defender-for-endpoint-advisor"></a>끝점용 Microsoft Defender 어드바이저
+### <a name="microsoft-defender-for-endpoint-setup-guide"></a>끝점용 Microsoft Defender 설정 가이드
 
-[끝점용 Microsoft Defender](https://aka.ms/mdatpsetup) 어드바이저는 엔터프라이즈 네트워크에서 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 되는 지침을 제공합니다. 조직의 취약점을 적정하게 평가하고 가장 적합한 배포 패키지 및 구성 방법을 결정하십시오.
+[끝점용 Microsoft Defender](https://aka.ms/mdatpsetup) 설정 가이드는 엔터프라이즈 네트워크에서 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 되는 지침을 제공합니다. 조직의 취약점을 적정하게 평가하고 가장 적합한 배포 패키지 및 구성 방법을 결정하십시오.
 
 >[!NOTE]
 >끝점용 Microsoft Defender에는 Microsoft 볼륨 라이선스가 필요합니다.
@@ -159,9 +138,13 @@ Microsoft Exchange Online EOP(보호)는 스팸 및 맬웨어로부터 보호하
 
 Exchange Online Protection [](https://aka.ms/EOPguidance) 설정 가이드를 사용하여 세 가지 배포 시나리오 중 조직에 맞는 배포 시나리오, 하이브리드(사내 사서함과 클라우드의 조합) 또는 모든 클라우드 사서함을 선택하여 EOP를 &mdash; 설정할 수 &mdash; 있습니다. 이 가이드에서는 사용자 라이선스를 설정 및 검토하고, Microsoft 365 관리 센터 할당하고, 보안 및 준수 센터에서 조직의 맬웨어 방지 및 스팸 정책을 구성하기 위한 정보와 & 제공합니다.
 
-### <a name="microsoft-defender-for-office-365-advisor"></a>Microsoft Defender for Office 365 어드바이저
+### <a name="microsoft-defender-for-office-365-setup-guide"></a>Office 365용 Microsoft Defender 설정 가이드
 
-Microsoft [Defender for Office 365](https://aka.ms/oatpsetup) 전자 메일 메시지, 링크 및 타사 공동 작업 도구를 통해 환경에서 발생할 수 있는 악의적인 위협에 대해 조직을 보호합니다. 이 가이드에서는 조직의 요구에 맞게 계획을 세우고 Office 365 Defender를 준비하고 식별하는 데 도움이 되는 리소스와 정보를 제공합니다.
+Microsoft [Defender for Office 365](https://aka.ms/oatpsetup) 설정 가이드는 전자 메일 메시지, 링크 및 타사 공동 작업 도구를 통해 환경에 발생할 수 있는 악의적인 위협에 대해 조직을 보호합니다. 이 가이드에서는 조직의 요구에 맞게 계획을 세우고 Office 365 Defender를 준비하고 식별하는 데 도움이 되는 리소스와 정보를 제공합니다.
+
+### <a name="microsoft-defender-for-identity-setup-guide"></a>Microsoft Defender for Identity 설정 가이드
+
+Id에 [대한 Microsoft Defender](https://aka.ms/DefenderforIdentitysetup) 설정 가이드는 사용자 ID를 손상시킬 수 있는 고급 위협을 식별, 감지 및 조사하기 위한 보안 솔루션 설정 지침을 제공합니다. 여기에는 의심스러운 사용자 활동 및 조직에 대한 악의적인 내부자 작업 검색이 포함됩니다. ID 인스턴스에 대한 Defender를 만들고 조직의 Active Directory에 연결한 다음 센서, 경고, 알림을 설정하고 고유한 포털 기본 설정을 구성합니다. 
 
 ### <a name="microsoft-information-protection-setup-guide"></a>Microsoft 정보 보호 설정 가이드
 
@@ -172,6 +155,10 @@ Microsoft [Defender for Office 365](https://aka.ms/oatpsetup) 전자 메일 메�
 [Microsoft 정보](https://aka.ms/migsetupguide) 거버넌스 설정 가이드에서는 설정한 특정 수명 주기 지침에 따라 데이터를 분류하고 관리하기 위해 조직의 거버넌스 전략을 설정하고 관리하는 데 필요한 정보를 제공합니다. 이 가이드에서는 조직의 다시 사용할 수 있는 콘텐츠 및 규정 준수 레코드에 적용되는 레이블, 레이블 정책 및 보존 정책을 만들거나, 자동으로 적용하거나, 게시하는 방법을 배우게 됩니다. 또한 대량 시나리오에 대한 파일 계획으로 CSV 파일을 가져오거나 개별 문서에 수동으로 적용하는 데 대한 정보를 얻을 수 있습니다.
 
 ## <a name="guides-for-collaboration"></a>공동 작업 가이드
+
+### <a name="build-your-employee-experience"></a>직원 환경 구축
+
+직원 환경 대시보드를 사용하여 직원이 함께 작업하는 [방법을 변환합니다.](https://aka.ms/EmployeeExperienceDashboard) 원활한 팀워크를 Microsoft 365 팀을 만들어 생산성을 향상하고, 직원들이 리더십과 나머지 조직에 참여하도록 합니다. 직원들이 모든 작업 활동에 효과적이면 도움을 줄 수 있습니다. 이 가이드에서는 생산성을 높이기 위해 SharePoint, Teams 및 Yammer 사용하여 공동 작업을 구축하는 방법에 대한 지침을 제공합니다.
 
 ### <a name="microsoft-365-apps-deployment-advisor"></a>Microsoft 365 앱 배포 고문
 
@@ -215,4 +202,33 @@ Office 도구를 사용하여 설치를 사용자 지정하는 기능을 사용�
 
 ### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Configuration Manager를 Microsoft 365 앱 배포 및 업데이트
 
-Configuration Manager를 사용하는 조직의 경우 Configuration [Manager](https://aka.ms/oppinstall) 관리자와 함께 배포 및 업데이트 Microsoft 365 앱 사용하여 FastTrack 엔지니어가 권장하는 모범 사례를 사용하여 Microsoft 365 앱 배포를 자동으로 구성하는 스크립트를 생성할 수 있습니다. 이 가이드를 사용하여 배포 그룹을 빌드하고, Office 앱 및 기능을 사용자 지정하고, 동적 또는 기울이지 않은 설치를 구성한 다음 스크립트를 실행하여 배포 대상으로 지정하는 데 필요한 응용 프로그램, 자동 배포 규칙 및 장치 컬렉션을 만들 수 있습니다.
+Configuration Manager를 사용하는 조직의 경우 [Configuration Manager](https://aka.ms/oppinstall) 관리자와 함께 배포 및 업데이트 Microsoft 365 앱 사용하여 Microsoft 365 앱 엔지니어가 권장하는 모범 사례를 사용하여 Microsoft 365 앱 스크립트를 생성할 FastTrack 있습니다. 이 가이드를 사용하여 배포 그룹을 빌드하고, Office 앱 및 기능을 사용자 지정하고, 동적 또는 기울이지 않은 설치를 구성한 다음 스크립트를 실행하여 배포 대상으로 지정하는 데 필요한 응용 프로그램, 자동 배포 규칙 및 장치 컬렉션을 만들 수 있습니다.
+
+### <a name="intune-configuration-manager-co-management-setup-guide"></a>Intune Configuration Manager 공동 관리 설정 가이드
+
+[Intune Configuration Manager](https://aka.ms/comanagementsetup) 공동 관리 설정 가이드를 사용하여 기존 Configuration Manager 클라이언트 장치 및 구성 관리자와 함께 관리하려는 새 인터넷 기반 장치를 Microsoft Intune 수 있습니다. 공동 관리를 사용하면 Windows 10 장치를 관리하고, 두 솔루션의 이점을 모두 받아서 새로운 기능을 추가할 수 있습니다.
+
+## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>2013의 설정 가이드에 액세스하는 Microsoft 365 관리 센터
+
+설치 가이드는 설치 가이드의 설치 지침 페이지에서 액세스할 수 Microsoft 365 관리 센터. [](https://aka.ms/setupguidance) 진행 상태를 추적할 수 있으며, 가이드를 완료하기 위해 항상 반환할 수 있습니다. 설치 지침 **페이지에 연결하려면 다음을** 실행합니다.
+
+1. 에서 [Microsoft 365 관리 센터](https://admin.microsoft.com/)홈 **페이지로** 이동합니다.
+
+2. 교육 & **가이드 카드를** 찾아보세요.
+
+   ![교육 & Microsoft 365 관리 센터 가이드 카드](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
+
+3. 단계별 **가이드 를 선택합니다.**
+
+   ![설치 지침 페이지의 스크린 Microsoft 365 관리 센터샷](../media/setup-guides-for-microsoft-365/adminportal-setupguidance.png)
+
+> [!NOTE]
+> 테넌트 관리자 권한은 테넌트 액세스에 Microsoft 365 관리 센터.
+
+## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>설치 가이드는 Microsoft 365 관리 센터?
+
+각 가이드는 단계별 지침, 리소스, 문서 및 필요한 경우 구성을 변경하는 데 사용할 수 있는 스크립트를 제공합니다. 이 가이드에서는 소규모 및 대규모 조직의 특정 요구 사항을 반영하는 선택 사항을 제공합니다. 또한 이 지침에는 신규 관리자와 더 많은 숙련된 관리자에 대한 지원이 포함되어 있습니다.
+
+![설치 가이드의 예](../media/setup-guides-for-microsoft-365/m365-setupguide-example.png)
+
+이 가이드를 사용하여 계획 단계, 배포 및 롤아웃 중에 특정 Microsoft 365 및 Office 365 기능에 대해 자세히 알아보거나, 설정을 수정하기 위해 배포를 완료한 후 다시 수정할 수 있습니다.

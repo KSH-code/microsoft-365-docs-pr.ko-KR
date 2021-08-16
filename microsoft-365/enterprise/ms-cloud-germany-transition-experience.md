@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 서비스로 Office 365 변경된 내용을 이해합니다.'
-ms.openlocfilehash: e503df16cfdbe0985e635b07cb6b4a45bc55d367
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: cacc6d75b890585aa7b219b8bbb8f49b3f2d6714fe4502fe1b6b1030f54b9763
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53885174"
 ---
 # <a name="what-will-change-after-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션한 후 변경되는 것
 
@@ -42,7 +42,7 @@ ms.locfileid: "52930406"
 | 적용 약관  | [이 추가가 있는](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) 온라인 서비스 [약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=64) | [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
 ||||
 
-## <a name="azure-active-directory"></a>Azure Active Directory Domain Services
+## <a name="azure-active-directory"></a>Azure Active Directory
 
 변경되지 않는 사항:
 

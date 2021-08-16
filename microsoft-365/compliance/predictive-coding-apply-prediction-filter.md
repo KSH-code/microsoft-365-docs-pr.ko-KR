@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 예측 점수 필터를 사용하여 예측 코딩 모델이 관련성이 있는 것으로 예측된 항목을 표시합니다.
-ms.openlocfilehash: 0ca2770d5ccbcc3ea5f3dec8394f69d1f5117da5
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 99cc9aee90c57f6f48053a6ef7e5a622a15295aa16089416081913ac6e5d3473
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822594"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53865855"
 ---
 # <a name="apply-a-prediction-score-filter-to-a-review-set-preview"></a>검토 집합에 예측 점수 필터 적용(미리 보기)
 
@@ -39,7 +39,7 @@ Advanced eDiscovery 예측 코딩 모델을 만들고 안정된 지점으로 교
 
 ## <a name="apply-a-prediction-score-filter"></a>예측 점수 필터 적용
 
-1. 규정 Microsoft 365 센터에서 Advanced eDiscovery 사례를 열고 검토 집합  탭을 선택한 다음 검토 집합을 열 수 있습니다.
+1. 이 Microsoft 365 규정 준수 센터 사례를 Advanced eDiscovery 검토 집합 탭을 선택한  다음 검토 집합을 여는 경우
 
    ![필터를 클릭하여 필터 플라이아웃 페이지 표시](..\media\PredictionScoreFilter0.png)   
 

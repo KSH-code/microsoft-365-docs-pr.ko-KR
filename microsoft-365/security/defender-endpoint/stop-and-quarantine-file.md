@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 96009bfd61ad22b06a5d5f64351e4983db264395
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 2d37eef37400f67421434e36aa3e7b36487afaf4
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53651726"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247471"
 ---
 # <a name="stop-and-quarantine-file-api"></a>파일 API 중지 및 검사
 
@@ -45,7 +45,15 @@ ms.locfileid: "53651726"
 
 [!include[Device actions note](../../includes/machineactionsnote.md)]
 
-## <a name="permissions"></a>사용 권한
+> [!IMPORTANT]
+> 이 작업은 다음의 경우만 취할 수 있습니다.
+>
+> - 작업을 수행 중인 장치가 버전 1703 이상에서 Windows 10 실행 중입니다.
+> - 파일이 신뢰할 수 있는 타사 게시자에 속하지 않는 경우 또는 Microsoft에서 서명하지 않은 경우
+> - Microsoft Defender 바이러스 백신 수동 모드에서 실행해야 합니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+
+
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 

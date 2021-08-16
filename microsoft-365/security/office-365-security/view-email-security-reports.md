@@ -19,12 +19,12 @@ description: 관리자는 전자 메일 포털에서 사용할 수 있는 전자
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cc5cc9f61a1a7a34b9078cc2355f6693d2b3592f
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 83371fd6db32661ca73fd6c7cb741a9b42533df9
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541976"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258610"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기
 
@@ -464,7 +464,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 제출 **보고서에는** 관리자가 분석을 위해 Microsoft에 보고한 항목에 대한 정보가 표시됩니다. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
 
-Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 제출을 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/adminSubmissionReport> 습니다. Microsoft 365 Defender 포털에서 관리 [제출으로 이동하려면 제출로](admin-submission.md) **이동을 클릭합니다.**
+Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 제출을 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/adminSubmissionReport> 습니다. Microsoft 365 Defender 포털에서 관리 [제출으로 이동하려면 제출로](admin-submission.md) **이동을 클릭합니다.** 관리자는 지난 30일 동안 보고서를 볼 수 있습니다. 
 
 ![전자 메일 및 공동 작업 & 페이지의 제출 위젯](../../media/submissions-report-widget.png)
 
@@ -579,7 +579,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 필터를 **클릭하면** 다음과 같은 필터를 사용할 수 있습니다.
 
 - **날짜(UTC)** **시작 날짜 및** 종료 **날짜**
-- **감지**
+- **탐지**
 - **보호:** **MDO(Office 365용** Defender) 또는 **EOP**
 - **방향**
 - **태그:** 지정된 사용자 태그가 적용된 사용자 또는 그룹(우선 순위 계정 포함)을 사용하여 결과를 필터링합니다. 사용자 태그에 대한 자세한 내용은 사용자 태그 [를 참조하세요.](user-tags.md)
@@ -620,7 +620,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 필터를 **클릭하면** 다음과 같은 필터를 사용할 수 있습니다.
 
 - **날짜(UTC)** **시작 날짜 및** 종료 **날짜**
-- **감지**
+- **탐지**
 - **보호:** **MDO(Office 365용** Defender) 또는 **EOP**
 - **방향**
 - **태그:** 지정된 사용자 태그가 적용된 사용자 또는 그룹(우선 순위 계정 포함)을 사용하여 결과를 필터링합니다. 사용자 태그에 대한 자세한 내용은 사용자 태그 [를 참조하세요.](user-tags.md)
@@ -658,7 +658,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 필터를 **클릭하면** 다음과 같은 필터를 사용할 수 있습니다.
 
 - **날짜(UTC)** **시작 날짜 및** 종료 **날짜**
-- **감지**
+- **탐지**
 - **보호:** **MDO(Office 365용** Defender) 또는 **EOP**
 - **방향**
 - **태그:** 지정된 사용자 태그가 적용된 사용자 또는 그룹(우선 순위 계정 포함)을 사용하여 결과를 필터링합니다. 사용자 태그에 대한 자세한 내용은 사용자 태그 [를 참조하세요.](user-tags.md)
@@ -699,7 +699,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 필터를 **클릭하면** 다음과 같은 필터를 사용할 수 있습니다.
 
 - **날짜(UTC)** **시작 날짜 및** 종료 **날짜**
-- **감지**
+- **탐지**
 - **보호:** **MDO(Office 365용** Defender) 또는 **EOP**
 - **방향**
 - **태그:** 지정된 사용자 태그가 적용된 사용자 또는 그룹(우선 순위 계정 포함)을 사용하여 결과를 필터링합니다. 사용자 태그에 대한 자세한 내용은 사용자 태그 [를 참조하세요.](user-tags.md)

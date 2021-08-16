@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: ba376288b759f9a9c331450f3f48c918b0171e51
-ms.sourcegitcommit: 87d994407fb69a747239b8589ad11ddf9b47e527
+ms.openlocfilehash: 904ea83c6a4a2c8267341ae5fb324c5f2f3678e0c5458720af13f6a932c8c25f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53595693"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854032"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -35,7 +35,7 @@ ms.locfileid: "53595693"
 
 **적용 대상**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806)
 
 끝점 보호 솔루션에서 가짓 긍정은 엔터티가 실제로 위협이 아닌 경우에도 악성으로 검색되고 식별된 파일 또는 프로세스와 같은 엔터티입니다. 거짓 부정은 실제로 악의적이어도 위협으로 검색되지 않은 엔터티입니다. 끝점용 Microsoft Defender를 포함하여 모든 위협 방지 솔루션에서 [가긍성/부정이](microsoft-defender-endpoint.md)발생할 수 있습니다.
 
@@ -346,7 +346,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 
 - [클라우드 제공 보호](#cloud-delivered-protection)
 - [잠재적으로 원치 않는 응용 프로그램에 대한 수정](#remediation-for-potentially-unwanted-applications)
-- [자동 조사 및 수정](#automated-investigation-and-remediation)
+- [자동화된 조사 및 수정](#automated-investigation-and-remediation)
 
 ### <a name="cloud-delivered-protection"></a>클라우드 제공 보호
 

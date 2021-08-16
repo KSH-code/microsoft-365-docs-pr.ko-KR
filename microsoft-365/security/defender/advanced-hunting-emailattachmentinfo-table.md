@@ -20,12 +20,12 @@ mms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c21332ae4c71f78e5ce1f92684d2a1a4cb68618869413ab27bd692aa295bd283
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b38953c5f57b13e7aa13c62da926552c3d45c74b
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863442"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247393"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -40,6 +40,9 @@ ms.locfileid: "53863442"
 고급 `EmailAttachmentInfo` 헌팅 [schema의](advanced-hunting-overview.md) 표에는 Microsoft Defender에서 고급 헌팅을 위해 처리한 전자 메일의 첨부 파일에 대한 Office 365. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
+
+> [!IMPORTANT]
+> 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
@@ -57,6 +60,7 @@ ms.locfileid: "53863442"
 | `ThreatNames` | 문자열 | 맬웨어 또는 기타 위협이 발견된 검색 이름 |
 | `DetectionMethods` | 문자열 | 전자 메일에 있는 맬웨어, 피싱 또는 기타 위협을 감지하는 데 사용되는 방법 |
 | `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
+| `FileSize` | 문자열 | 파일 크기(bytes)입니다. |
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

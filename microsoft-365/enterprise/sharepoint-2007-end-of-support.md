@@ -37,12 +37,12 @@ search.appverid:
 - OSU160
 ms.assetid: ba124775-d5c0-4d68-b88d-8458ad4c3717
 description: SharePoint Server 2007에 대한 지원은 2017년 10월에 종료됩니다. 이 문서에서는 업그레이드, 마이그레이션 및 지원 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 224b0af90d6a314aa15a2c0dab7b60626e5abde8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: de7469e40ac377cd49384c5d67cf9ac26273f4ace74ab165c6aa38835afa8444
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924871"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53885078"
 ---
 # <a name="sharepoint-server-2007-end-of-support-roadmap"></a>SharePoint Server 2007 지원 종료 로드맵
 

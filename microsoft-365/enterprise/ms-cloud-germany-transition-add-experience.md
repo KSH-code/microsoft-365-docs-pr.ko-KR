@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동한 후의 마이그레이션 후 활동'
-ms.openlocfilehash: 3659ce8ffa3424c3521c8f8954be88c7d53d0a51
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: ad696e1012d7b540017db29be7638d50ea2dbc5133411da7ba5e0d0145ada1e8
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899046"
 ---
 # <a name="post-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 마이그레이션 후 활동
 
@@ -73,7 +73,7 @@ The following table provides an overview about which endpoints will replace the 
 
 | Step(s) | 설명 | 영향 |
 |:------|:-------|:-------|
-| 서비스 끝점에 대한 Office 365 DNS 서비스를 업데이트합니다. | 도이치클라드 Microsoft 클라우드를 지점으로 하는 고객 관리 DNS 항목을 업데이트하여 글로벌 서비스 끝점을 Office 365 합니다. Microsoft 365 관리 센터에서 도메인을 [참조하고](https://admin.microsoft.com/Adminportal/Home#/Domains) DNS 구성의 변경 내용을 적용하세요. | 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. |
+| 서비스 끝점에 대한 Office 365 DNS 서비스를 업데이트합니다. | 도이치클라드 Microsoft 클라우드를 지점으로 하는 고객 관리 DNS 항목을 업데이트하여 글로벌 서비스 끝점을 Office 365 합니다. DNS [구성의](https://admin.microsoft.com/Adminportal/Home#/Domains) Microsoft 365 관리 센터 도메인을 참조하고 변경 내용을 적용합니다. | 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. |
 ||||
 
 ## <a name="third-party-services"></a>타사 서비스

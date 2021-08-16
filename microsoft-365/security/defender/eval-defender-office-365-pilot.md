@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: how-to
 ms.technology: m365d
-ms.openlocfilehash: ce1d08abb6c66df2eb75fd6c9349dcf085096394453375e5f85c5089e908147a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c97d7751d56bb42a4a120deb52563a0668138ca5
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862948"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247383"
 ---
 # <a name="pilot-microsoft-defender-for-office-365"></a>파일럿 Microsoft Defender for Office 365
 **적용 대상:**

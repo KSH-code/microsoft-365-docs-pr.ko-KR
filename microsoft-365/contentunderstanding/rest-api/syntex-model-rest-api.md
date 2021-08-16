@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: SharePoint Syntex 문서 이해 모델 REST API의 개요입니다.
-ms.openlocfilehash: 279c624bb818e5d8d33b476f997290269ff634cb
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 7dc6fe321c2cc0dd2617747860dc32a1d7753f9f229be10e5d0e5a91241d0202
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904314"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53865038"
 ---
 # <a name="sharepoint-syntex-document-understanding-model-rest-api"></a>SharePoint Syntex 문서 이해 모델 REST API
 
@@ -24,14 +24,14 @@ SharePoint REST 인터페이스를 사용하여 문서 이해 모델을 만들�
 
 SharePoint Online(및 SharePoint 2016 이상 온-프레미스) REST 서비스는 OData $batch 쿼리 옵션을 사용하여 여러 요청을 서비스에 대한 단일 호출로 결합하도록 지원합니다. 
 
-코드 샘플에 대한 자세한 내용 및 링크를 보려면 [REST API를 사용하여 일괄 처리 요청](/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis.md)을 참조하세요.
+코드 샘플에 대한 자세한 내용 및 링크를 보려면 [REST API를 사용하여 일괄 처리 요청](/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis)을 참조하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 
 시작하기 전에 다음 사항을 잘 알고 있는지 확인합니다.
 
-- [SharePoint REST 서비스에 대해 알아보기](/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service.md) 
-- [SharePoint REST 끝점을 사용하여 기본 작업 완료](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints.md)
+- [SharePoint REST 서비스에 대해 알아보기](/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service) 
+- [SharePoint REST 끝점을 사용하여 기본 작업 완료](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints)
 
 ## <a name="rest-commands"></a>REST 명령
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: eb24dee7a79bdf93d4571da0b5a9bd0b92a196a7b1d1767572767f7d92259056
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6665fcfcc5031e9790e7b467e32f18e203f5fe6a
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893726"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247246"
 ---
 # <a name="set-the-time-zone-for-microsoft-365-defender"></a>표준 시간대를 Microsoft 365 Defender
 
@@ -37,7 +37,7 @@ ms.locfileid: "53893726"
 
 
 
-Microsoft 365 Defender 표준 시간대 또는 UTC를 사용하여 날짜 및 시간 정보를 표시할 수 있습니다. 선택한 표준 시간대는 Microsoft 365 보안 센터에서 다음 기능에 표시된 모든 날짜 및 시간 정보에 적용됩니다.
+Microsoft 365 Defender 표준 시간대 또는 UTC를 사용하여 날짜 및 시간 정보를 표시할 수 있습니다. 선택한 표준 시간대는 Microsoft 365 Defender 포털의 다음 기능에 표시된 모든 날짜 및 시간 정보에 적용됩니다.
 - 인시던트
 - 알림 센터를 비롯하여 자동화된 조사 및 수정
 - 고급 헌팅

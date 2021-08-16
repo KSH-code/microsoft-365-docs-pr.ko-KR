@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: ad9bf2ba40ede2d76246c56bf94b90e0e96aeeff
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 3f6e25a940835eae16f897d60a3249ad670dd8fa9df01bf7bb4fd73937948025
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53865446"
 ---
 # <a name="predictive-coding-reference-preview"></a>예측 코딩 참조(미리 보기)
 
@@ -41,7 +41,7 @@ ms.locfileid: "53288278"
 
 ****
 
-|Label|Model predicts item is relevant|Model predicts item is not relevant|
+|레이블|Model predicts item is relevant|Model predicts item is not relevant|
 |---|---|---|
 |**관련성 있는 검토자 레이블 항목**|참 긍정|가양성|
 |**관련이 없는 검토자 레이블 항목**|거짓 부정|True 음수|

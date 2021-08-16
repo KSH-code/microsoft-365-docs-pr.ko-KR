@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: 텍스트, 주석 Advanced eDiscovery 또는 기본 보기와 같은 콘텐츠 보기 방법을 선택하세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7c2adf5a1b06761832b96a06a85f72c471e5dd1c
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 0cbb720ee935b9c6046eb2d7b78b1bcf8a06e9284bc01133145eb6c8ed0820ad
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53865401"
 ---
 # <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>문서의 검토 집합에서 Advanced eDiscovery
 

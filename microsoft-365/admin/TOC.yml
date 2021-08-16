@@ -268,7 +268,7 @@
             - name: 관리 센터에서 추가 기능 관리
               href: manage/manage-addins-in-the-admin-center.md
             - name: 중앙 집중식 배포 FAQ
-              href: manage/centralized-deployment-faq.md
+              href: manage/centralized-deployment-faq.yml
         - name: 업계 뉴스 관리
           href: manage/manage-industry-news.md
         - name: Office 스크립트 설정 관리
@@ -425,3 +425,5 @@
       href: /office/troubleshoot/
     - name: 지원 센터 문의
       href: ../business-video/get-help-support.md
+    - name: 탐색 가이드
+      href: ../microsoft-365-docs-navigation-guide.md?bc=%2foffice365%2fadmin%2fbreadcrumb%2ftoc.json&toc=%2foffice365%2fadmin%2ftoc.json

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8bfc53d46bdcb91c16e9f4a1ddbc8ab3f6dfb47e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 96ad8e55dc4d7bea15da89142d42531ca46c960875b79b8579a3a5e9f0ce31d4
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53898662"
 ---
 # <a name="deploy-apps-to-devices"></a>장치에 앱 배포
 온보드를 Microsoft Managed Desktop 장치에 앱을 추가하고 배포하는 것이 포함됩니다. 앱 포털을 Microsoft Managed Desktop 앱을 추가하고 배포할 수 있습니다. 

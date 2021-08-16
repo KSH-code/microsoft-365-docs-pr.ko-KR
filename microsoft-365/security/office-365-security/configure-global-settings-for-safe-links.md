@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 링크에 대한 전역 설정("다음 URL 차단" 목록 및 Office 365 앱 보호)을 보고 구성하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 46bafd89400dfa551641c055f6f0e208c0ecd49f
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 9e17aad0910c1e069fe80445c76882aa239217f2
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108046"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247352"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 링크에 대한 전역 설정 Office 365
 
@@ -47,7 +47,7 @@ ms.locfileid: "53108046"
 
 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 전역 Exchange Online 링크 설정을 구성할 수 있습니다. Exchange Online 사서함이 있는 적격 Microsoft 365 조직의 경우, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell은 Office 365 추가 기능 구독용 Microsoft Defender를 사용하여 구성할 수 있습니다. 금고
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 기본 제공 또는 기본 금고 링크 정책이 있으므로 다음 URL 차단 목록이 금고 링크 정책을 하나  이상 만들어야 합니다. 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
@@ -64,7 +64,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 링크의 전역 설정에 대한 권장 금고 링크 금고 [참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-settings)
 
@@ -76,7 +76,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
 
 다음 **URL 차단 목록은** 지원되는 앱에서 링크 검색을 금고 차단해야 하는 링크를 식별합니다. 자세한 내용은 링크에 대한 "다음 URL [차단" 금고 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 링크 \>  \>  \>  \> **금고 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 \>  \> **금고** \> **링크로** 이동하세요. 
 
 2. 링크 **금고 페이지에서** 전역 설정을 **클릭합니다.** 조직의 **금고** 링크 정책 플라이아웃이 나타나면 다음 URL 차단 상자로 **이동하세요.**
 
@@ -121,7 +121,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
 
 금고 앱에 대한 Office 365 보호는 지원되는 데스크톱, 모바일 및 Office 문서에 적용됩니다. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 링크 \>  \>  \>  \> **금고 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 \>  \> **금고** \> **링크로** 이동하세요. 
 
 2. 링크 **금고 페이지에서** 전역 설정을 **클릭합니다.** 조직의 **금고** 링크 정책 플라이아웃이 나타나면 지원되는 설정 앱 섹션의 콘텐츠에 적용되는 다음 설정을 Office 365 **구성합니다.**
 
@@ -157,7 +157,7 @@ Set-AtpPolicyForO365 -TrackClicks $true
 
 금고 링크에 대한 전역 설정(다음 URL 차단 목록 및  Office 365 앱 보호 설정)을 성공적으로 구성한지 확인하려면 다음 단계를 수행합니다.
 
-- Microsoft 365 Defender 포털에서 전자 메일 **&** 공동 작업 정책& 규칙 위협 정책 페이지 정책 섹션금고 링크에서 전역 설정을 클릭하고 플라이아웃에서 나타나는 설정을 \>  \>  \>  \>  \> 확인합니다. 
+- Microsoft 365 Defender 포털의 정책 섹션에서 전자 **메일 &** 공동 작업 정책 & 규칙 위협 정책 금고 링크로 이동하여 전역 설정을 클릭하고 플라이아웃에 나타나는 설정을 \>  \>  \>   \> 확인합니다. 
 
 - PowerShell Exchange Online PowerShell을 Exchange Online Protection 다음 명령을 실행하고 설정을 확인합니다.
 

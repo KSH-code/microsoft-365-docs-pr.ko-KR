@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: '
-ms.openlocfilehash: 7b99238b588363203f7aac07b3fb056d7a37e19f
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 959aee9662c843fa89851924c3f5e878d73a382b8ea19258eca2a332ff404169
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899097"
 ---
 # <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 새 독일 데이터 센터 Office 365 서비스로의 새 마이그레이션에 옵트인(opt in)하는 방법
 
@@ -34,7 +34,7 @@ ms.locfileid: "51592075"
 
 ## <a name="how-to-request-migration"></a>마이그레이션을 요청하는 방법
 
-Microsoft 클라우드 독일(도이치란드 Microsoft 클라우드)에 프로비전된 서비스를 제공하는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 Microsoft 365 관리 센터의 페이지에서 마이그레이션을 옵트인(opt in)할 수 있습니다.
+독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에 프로비전된 서비스를 제공하는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 Microsoft 365 관리 센터 페이지에서 마이그레이션을 옵트인(opt in)할 수 있습니다.
 
 페이지에 액세스하려면 왼쪽 **설정** 창에서 페이지를 확장한 다음 조직 프로필 **을 클릭합니다.**
 
@@ -48,7 +48,7 @@ Microsoft 클라우드 독일(도이치란드 Microsoft 클라우드)에 프로�
  
 ![옵트인 수락](../media/ms-cloud-germany-migration-opt-in/tenant-migration-new-regions.png)
 
-테넌트 대신 옵트인(opt in)한 경우 모든 관리자는 옵트인 날짜를 포함하여 독일 **Microsoft 클라우드(도이치란드 Microsoft** 클라우드)에서 Office 365 서비스로 마이그레이션 섹션에서 확인을 볼 수 있습니다. 관리자는 또한 관리자 센터의 메시지 센터에서 Microsoft 365 받게 됩니다. 
+테넌트 대신 옵트인(opt in)한 경우 모든 관리자는 옵트인 날짜를 포함하여 독일 **Microsoft 클라우드(도이치란드 Microsoft** 클라우드)에서 Office 365 서비스로 마이그레이션 섹션에서 확인을 볼 수 있습니다. 관리자는 또한 관리자의 메시지 센터에서 확인을 Microsoft 365 관리 센터. 
  
 ![옵트인 확인](../media/ms-cloud-germany-migration-opt-in/tenant-migration2.png)
 
@@ -62,7 +62,7 @@ Microsoft 주도 접근 방식에 옵트인(opt in)한 조직에 대한 마이�
 
 고객 테넌트 관리자는 전자 메일로 알림을 받게 되며, Microsoft 지원 마이그레이션에 대해 마이그레이션에 옵트인(opt in)이 자동으로 수행된다고 알림이 메시지 센터에 표시됩니다. 이 알림은 자동 옵트인(opt in) 30일 전에 전송됩니다. 마이그레이션 옵트인 후 모든 통신 및 상태 업데이트가 메시지 센터의 고객 테넌트 관리자에게 전송됩니다.
 
-고객 및 파트너 테넌트 관리자는 가능한 한 빨리 마이그레이션 프로세스를 시작할 수 있도록 Microsoft 365 관리 센터에서 마이그레이션을 옵트인하는 것이 좋습니다.
+고객 및 파트너 테넌트 관리자는 마이그레이션 프로세스를 가능한 한 Microsoft 365 관리 센터 수 있도록 마이그레이션에 옵트인(opt in)하는 것이 좋습니다.
 
 ## <a name="next-step"></a>다음 단계
 

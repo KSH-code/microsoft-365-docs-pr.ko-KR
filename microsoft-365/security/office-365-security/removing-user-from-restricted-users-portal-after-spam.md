@@ -20,12 +20,12 @@ description: 관리자는 Microsoft 365 Defender 포털의 제한된 사용자 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 924db948103a4d3b45c499f433961762a45931af
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: b06cf477ab8d713e0684c0d62567199c6c57cb32
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082855"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258482"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-microsoft-365"></a>Microsoft 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -83,7 +83,7 @@ ms.locfileid: "53082855"
 6. **예** 를 클릭하여 변경 내용을 확인합니다.
 
    > [!NOTE]
-   > 모든 제한 사항을 사용자에게서 제거하는 데 최대 24시간이 걸릴 수 있습니다.
+   > 모든 제한 사항을 사용자에게서 제거하는 데 최대 1시간이 걸릴 수 있습니다.
 
 ## <a name="verify-the-alert-settings-for-restricted-users"></a>제한된 사용자에 대한 경고 설정 확인
 

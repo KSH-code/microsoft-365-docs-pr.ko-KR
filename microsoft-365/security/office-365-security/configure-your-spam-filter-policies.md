@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 910923e693804c96c109c52606b62d92af51abeb
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f896888a90e855926fc8840f4bd936819ed25142
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228666"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258550"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -83,7 +83,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만들면 같은 이름을 사용하여 스팸 필터 규칙과 관련 스팸 필터 정책이 동시에 만들어집니다.
 
-1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** 페이지 \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
+1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
 
 2. **스팸 방지 정책** 페이지에서 ![아이콘 만들기](../../media/m365-cc-sc-create-icon.png) **정책 만들기** 를 클릭한 다음 드롭다운 목록에서 **인바운드** 를 선택합니다.
 
@@ -140,7 +140,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
      스팸 필터링 결과에 사용 가능한 작업은 다음 표에 설명되어 있습니다.
 
-     - 확인 표시( ![확인 표시](../../media/checkmark.png) ) 작업을 사용할 수 있음을 의미합니다(모든 결과에 모든 작업을 사용할 수 있는 것은 아님).
+     - 확인 표시( ![확인 표시](../../media/checkmark.png)) 작업을 사용할 수 있음을 의미합니다(모든 결과에 모든 작업을 사용할 수 있는 것은 아님).
      - 확인 표시 후 별표(<sup>\*</sup>)는 스팸 필터링 결과에 대한 기본 작업을 나타냅니다.
 
      <br>
@@ -149,12 +149,12 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
      |조치|스팸|높음<br>신뢰 수준<br>스팸|피싱|높음<br>신뢰 수준<br>피싱|대량|
      |---|:---:|:---:|:---:|:---:|:---:|
-     |**정크 메일 폴더로 메시지 이동**: 메시지가 사서함으로 배달되고, 정크 메일 폴더로 이동됩니다.<sup>1</sup>|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)<sup>\*</sup>|
-     |**X-헤더 추가**: 메시지 헤더에 X-헤더를 추가하고, 메시지를 사서함에 배달합니다. <p> 나중에 **이 X-헤더 텍스트를 추가** 상자에서 X-헤더 필드 이름(값 아님)을 입력합니다. <p> **스팸** 및 **높은 정확도의 스팸** 결과의 경우, 메시지가 정크 메일 폴더로 이동됩니다.<sup>1, 2</sup>|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)<sup>\*</sup>|
+     |**정크 메일 폴더로 메시지 이동**: 메시지가 사서함으로 배달되고, 정크 메일 폴더로 이동됩니다.<sup>1</sup>|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|
+     |**X-헤더 추가**: 메시지 헤더에 X-헤더를 추가하고, 메시지를 사서함에 배달합니다. <p> 나중에 **이 X-헤더 텍스트를 추가** 상자에서 X-헤더 필드 이름(값 아님)을 입력합니다. <p> **스팸** 및 **높은 정확도의 스팸** 결과의 경우, 메시지가 정크 메일 폴더로 이동됩니다.<sup>1, 2</sup>|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
      |**텍스트를 제목 줄 앞에 추가**: 메시지의 제목 줄 앞에 텍스트를 추가합니다. 메시지가 사서함으로 배달되고, 정크 메일 폴더로 이동됩니다.<sup>1,2</sup> <p> **이 텍스트를 제목 줄 앞에 추가** 상자에 텍스트를 입력합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
      |**전자 메일 주소로 메시지 리디렉션**: 메시지를 의도된 받는 사람 대신 다른 받는 사람에게 보냅니다. <p> 나중에 **이 전자 메일 주소로 메시지 리디렉션** 상자에 받는 사람을 지정합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
      |**메시지 삭제**: 모든 첨부 파일을 포함하여 전체 메시지를 자동으로 삭제합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
-     |**메시지 격리**: 메시지를 의도된 받는 사람에게 보내는 대신 격리로 보냅니다. <p> 나중에 **격리** 상자에 메시지가 격리되는 기간을 지정합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
+     |**메시지 격리**: 메시지를 의도된 받는 사람에게 보내는 대신 격리로 보냅니다. <p> 나중에 **격리** 상자에 메시지가 격리되는 기간을 지정합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)|
      |**작업 없음**|||||![확인 표시](../../media/checkmark.png)|
      |
 
@@ -242,7 +242,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-anti-spam-policies"></a>Microsoft 365 Defender 포털을 사용해 스팸 방지 정책 보기
 
-1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** 페이지 \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
+1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
 
 2. **스팸 방지 정책** 페이지에서 다음 값 중 하나를 찾습니다.
    - **유형** 값은 **사용자 지정 스팸 방지 정책** 입니다.
@@ -259,7 +259,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-anti-spam-policies"></a>Microsoft 365 Defender 포털을 사용해 스팸 방지 정책 수정
 
-1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** 페이지 \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
+1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
 
 2. **스팸 방지 정책** 페이지에서 이름을 클릭하여 목록에서 스팸 방지 정책을 선택합니다.
    - **유형** 열의 값이 **사용자 지정 스팸 방지 정책** 인 사용자가 만든 사용자 지정 정책.
@@ -275,7 +275,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
 기본 스팸 방지 정책은 사용하지 않도록 설정할 수 없습니다.
 
-1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** 페이지 \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
+1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
 
 2. **스팸 방지 정책** 페이지에서 이름을 클릭하여 목록에서 **사용자 지정 스팸 방지 정책** **유형 값** 이 있는 정책을 선택합니다.
 
@@ -300,7 +300,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 - Microsoft 365 Defender 포털에서는 스팸 방지 정책을 만든 후에만 우선 순위를 변경할 수 있습니다. PowerShell에서 사용자는 기존 규칙의 우선순위에 영향을 줄 수 있는 스팸 필터 규칙을 만들 때 기본 우선순위를 재정의할 수 있습니다.
 - 스팸 방지 정책은 표시되는 순서로 처리됩니다(첫 번째 정책에는 **우선순위** 값 0이 표시됨). 기본 스팸 방지 정책은 우선순위 값이 **가장 낮음** 이며 변경할 수 없습니다.
 
-1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** 페이지 \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
+1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
 
 2. **스팸 방지 정책** 페이지에서 이름을 클릭하여 목록에서 **사용자 지정 스팸 방지 정책** **유형 값** 이 있는 정책을 선택합니다.
 
@@ -317,7 +317,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
 스팸 필터링 결과에서 메시지를 격리하는 경우, 받는 사람에게 전송된 메시지에 일어난 자세한 내용을 알릴 수 있도록 최종 사용자 스팸 알림을 구성할 수 있습니다. 이 알림에 대한 자세한 내용은 [EOP에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
 
-1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** 페이지 \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
+1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
 
 2. **스팸 방지 정책** 페이지에서 이름을 클릭하여 목록에서 스팸 방지 정책을 선택합니다.
    - **유형** 열의 값이 **사용자 지정 스팸 방지 정책** 인 사용자가 만든 사용자 지정 정책.
@@ -344,7 +344,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
 Microsoft 365 Defender 포털을 사용하여 사용자 지정 스팸 방지 정책을 제거하면 스팸 필터 규칙과 해당 스팸 필터 정책이 모두 삭제됩니다. 기본 스팸 방지 정책은 제거할 수 없습니다.
 
-1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** 페이지 \> **정책** 구역 \> **스팸 방지** 로 이동합니다.
+1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
 
 2. **스팸 방지 정책** 페이지에서 이름을 클릭하여 목록에서 **사용자 지정 스팸 방지 정책** **유형 값** 이 있는 정책을 선택합니다. 표시되는 정책 세부 정보 플라이아웃의 맨 위에서 ![추가 작업 아이콘](../../media/m365-cc-sc-more-actions-icon.png)**추가 작업**\>![정책 삭제 아이콘](../../media/m365-cc-sc-delete-icon.png)**정책 삭제** 를 클릭합니다.
 

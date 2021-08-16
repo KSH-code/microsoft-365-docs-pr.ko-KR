@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-symantecmigrate
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 07/19/2021
+ms.date: 08/11/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 958c7fbf01db148973c0fd6a478595caa4da7215c7120cd31f8391cc4ece838c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 98aaf120b2c9357f53bbc21b2e6e994a76877e8d
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817786"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247458"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
@@ -58,8 +58,8 @@ ms.locfileid: "53817786"
 
 | 끝점 유형  | 수행할 작업  |
 |---------|---------|
-| Windows 클라이언트(예: Windows 10)     | 일반적으로 클라이언트가 제거되지 않은 경우 Windows 작업을 수행하지 Microsoft Defender 바이러스 백신 않습니다. 그 이유는 다음과 같습니다. <p>Microsoft Defender 바이러스 백신 설치해야 하지만 마이그레이션 프로세스의 이 시점에서는 사용하지 않도록 설정되어 있을 가능성이 습니다.<p> Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션이 설치되고 클라이언트가 끝점용 Defender에 아직 온보딩되지 않은 경우 Microsoft Defender 바이러스 백신 사용하지 않도록 설정됩니다. <p>나중에 클라이언트 끝점이 Endpoint용 Defender에 온보딩될 때 해당 끝점이 Microsoft가 아닌 바이러스 백신 솔루션을 실행하는 경우 Microsoft Defender 바이러스 백신 모드로 전환됩니다. <p>Microsoft가 아닌 바이러스 백신 솔루션을 제거하면 Microsoft Defender 바이러스 백신 모드로 전환됩니다.  |
-| Windows 서버     | Windows 서버에서 서버를 다시 설치하고 수동으로 Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다. 그 이유는 다음과 같습니다. <p>모든 Windows Microsoft가 아닌 바이러스 백신/맬웨어 방지가 설치되어 있는 경우 microsoft가 아닌 Microsoft Defender 바이러스 백신 솔루션과 함께 실행할 수 없습니다. 이러한 경우 수동으로 Microsoft Defender 바이러스 백신 제거하거나 사용하지 않도록 설정됩니다. <p>Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치하거나 사용하도록 설정하려면 다음 작업을 수행합니다. <p>- [Windows Server에서 DisableAntiSpyware를 false로 설정(필요한](#set-disableantispyware-to-false-on-windows-server) 경우만 해당)<br/>- [Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치](#reinstall-microsoft-defender-antivirus-on-windows-server)<br/>- [Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 설정](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)       |
+| Windows 클라이언트(예: Windows 10)     | 일반적으로 클라이언트가 제거되지 않은 경우 Windows 작업을 수행하지 Microsoft Defender 바이러스 백신 않습니다. 그 이유는 다음과 같습니다. <br/><br/>Microsoft Defender 바이러스 백신 설치해야 하지만 마이그레이션 프로세스의 이 시점에서는 사용하지 않도록 설정되어 있을 가능성이 습니다.<br/><br/> Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션이 설치되고 클라이언트가 끝점용 Defender에 아직 온보딩되지 않은 경우 Microsoft Defender 바이러스 백신 사용하지 않도록 설정됩니다. <br/><br/>나중에 클라이언트 끝점이 Endpoint용 Defender에 온보딩될 때 해당 끝점이 Microsoft가 아닌 바이러스 백신 솔루션을 실행하는 경우 Microsoft Defender 바이러스 백신 모드로 전환됩니다. <br/><br/>Microsoft가 아닌 바이러스 백신 솔루션을 제거하면 Microsoft Defender 바이러스 백신 모드로 전환됩니다.  |
+| Windows 서버     | Windows 서버에서 서버를 다시 설치하고 수동으로 Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다. 그 이유는 다음과 같습니다. <br/><br/>모든 Windows Microsoft가 아닌 바이러스 백신/맬웨어 방지가 설치되어 있는 경우 microsoft가 아닌 Microsoft Defender 바이러스 백신 솔루션과 함께 실행할 수 없습니다. 이러한 경우 수동으로 Microsoft Defender 바이러스 백신 제거하거나 사용하지 않도록 설정됩니다. <br/><br/>Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치하거나 사용하도록 설정하려면 다음 작업을 수행합니다. <br/><br/>- [Windows Server에서 DisableAntiSpyware를 false로 설정(필요한](#set-disableantispyware-to-false-on-windows-server) 경우만 해당)<br/>- [Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치](#reinstall-microsoft-defender-antivirus-on-windows-server)<br/>- [Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 설정](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)       |
 
 
 > [!TIP]
@@ -96,19 +96,14 @@ ms.locfileid: "53817786"
 
 2. 다음 PowerShell cmdlet을 실행합니다. <br/>   
 
-   `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features` <p>
+   `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features` <br/>
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender` <br/>
  
    PowerShell을 실행하는 작업 순서 내에서 DISM 명령을 사용하는 경우 다음 경로에 cmd.exe 필요합니다.
-   예:<br/>
+   예제:<br/>
    
-   `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
+   `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<br/>
    `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
-
-3. 실행 중인 Microsoft Defender 바이러스 백신 확인을 위해 다음 PowerShell cmdlet을 사용 합니다. <br/>
-   `Get-Service -Name windefend`
-
-   실행 중 상태를 *찾아 봐야 합니다.*
 
 ### <a name="set-microsoft-defender-antivirus-to-passive-mode-on-windows-server"></a>Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 설정
 
@@ -121,20 +116,34 @@ ms.locfileid: "53817786"
    - **기본에서** 16진수 **를 선택합니다.**
 
 > [!NOTE]
-> Endpoint용 Defender에 온보딩한 후 Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 있습니다. 수동 모드가 예상대로 설정되어 있는지 확인하려면 **에 있는 Microsoft-Windows-Windows Defender** 작업 로그에서 이벤트 *5007을* 검색하고 `C:\Windows\System32\winevt\Logs` **ForcePassiveMode** 또는 **PassiveMode** 레지스트리 **키가** 에 의해 0x1.
+> Endpoint용 Defender에 온보딩한 후 Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 있습니다. 수동 모드가 예상대로 설정되어 있는지 확인하려면 **Microsoft-Windows-Windows Defender** 작업 로그()에서 이벤트 *5007을* 검색하고 `C:\Windows\System32\winevt\Logs` **ForceDefenderPassiveMode** 또는 **PassiveMode** 레지스트리 키가 에 의해 0x1.
 
 ### <a name="are-you-using-windows-server-2016"></a>사용 중이 Windows Server 2016?
 
-끝점을 실행 중인 Windows Server 2016 Microsoft가 아닌 다른 Microsoft Defender 바이러스 백신 맬웨어 방지 솔루션과 함께 실행할 수 없습니다. Microsoft Defender 바이러스 백신 수동 모드에서 실행할 수 Windows Server 2016. 이 경우 Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션을 제거하고 대신 맬웨어 방지 솔루션을 설치/Microsoft Defender 바이러스 백신 합니다. 자세한 내용은 [Endpoint용 Defender와의 바이러스 백신 솔루션 호환성을 참조합니다.](microsoft-defender-antivirus-compatibility.md)
-
-사용 중일 때 Windows Server 2016 사용하도록 설정하는 데 문제가 Microsoft Defender 바이러스 백신 다음 단계를 따르세요.
+현재는 수동 모드에서 Microsoft Defender 바이러스 백신 실행할 수 Windows Server 2016. Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션을 제거하고 설치/Microsoft Defender 바이러스 백신. 사용자 설정에 문제가 있는 경우 Microsoft Defender 바이러스 백신 Windows Server 2016 다음 단계를 따르세요.
 
 1. 장치에서 관리자 권한으로 PowerShell을 여는 것입니다.
 
-2. 다음 PowerShell cmdlet을 입력합니다. `mpcmdrun -wdenable`
+2. 다음 PowerShell cmdlet을 `mpcmdrun -wdenable` 입력합니다. .
 
 > [!TIP]
-> 자세한 내용은 Microsoft Defender 바이러스 백신 [Server의 Windows 참조하세요.](microsoft-defender-antivirus-on-windows-server.md)
+> 자세한 내용은 다음 문서를 참조하세요.
+> - [Windows Server의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md)
+> - [Microsoft Defender 바이러스 백신 제품과의 호환성](microsoft-defender-antivirus-compatibility.md)
+
+### <a name="confirm-that-microsoft-defender-antivirus-is-enabled"></a>사용 Microsoft Defender 바이러스 백신 확인
+
+다음 표에 설명된 여러 방법 중 하나를 사용하여 Microsoft Defender 바이러스 백신 상태를 확인할 수 있습니다.
+
+| 메서드 | 절차 |
+|:---|:---|
+| Windows 보안 앱 | 1. Windows 디바이스에서 Windows 보안 를 니다. <br/>2. 바이러스 **백신 & 보호를 선택합니다.**<br/>3. Who **보호에서** 공급자 **관리를 선택합니다.** <br/>4. **보안** 공급자 페이지의 바이러스 백신 **아래에서** 를 Microsoft Defender 바이러스 백신 **표시됩니다.** |
+| 작업 관리자 | 1. Windows 디바이스에서 작업 관리자 앱을 니다. <br/>2. 세부 정보 **탭을** 선택합니다.<br/>3. **목록에서** MsMpEng.exe찾아야 합니다. |
+| Windows PowerShell <br/> (실행 중인 Microsoft Defender 바이러스 백신 확인) | 1. Windows 장치에서 Windows PowerShell.<br/>2. 다음 PowerShell cmdlet을 `Get-Process` 실행합니다. .<br/>3. 결과를 검토합니다. 활성화된 **MsMpEng.exe** 경우 Microsoft Defender 바이러스 백신 표시됩니다. |
+| Windows PowerShell <br/> (바이러스 백신 보호가 실행 중이지 확인) | [Get-MpComputerStatus PowerShell cmdlet을 사용할 수 있습니다.](/powershell/module/defender/get-mpcomputerstatus)<br/>1. Windows 장치에서 Windows PowerShell.<br/>2. 다음 PowerShell cmdlet을 `Get-MpComputerStatus | select AMRunningMode` 실행합니다. .<br/>3. 결과를 검토합니다. 끝점에서 사용할 **수** **있는** Microsoft Defender 바이러스 백신 일반 또는 수동이 표시됩니다. |
+
+> [!TIP]
+> [자세한 내용은 Microsoft Defender 바이러스 백신 을(를) 자세히 알아보아야 합니다.](microsoft-defender-antivirus-compatibility.md#more-details-about-microsoft-defender-antivirus-states)
 
 ## <a name="configure-defender-for-endpoint"></a>끝점에 대한 Defender 구성
 
@@ -142,10 +151,10 @@ ms.locfileid: "53817786"
 
 |메서드  |수행할 작업  |
 |---------|---------|
-| [Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**참고:** Intune이 현재 Microsoft Endpoint Manager. | 1. Microsoft Endpoint Manager [관리 센터로 이동하여](https://go.microsoft.com/fwlink/?linkid=2109431) 로그인합니다.<p> 2. **장치 구성**  >  **프로필을 선택한** 다음 구성할 프로필 유형을 선택합니다. 아직 장치 제한 프로필 유형을  만들지 않았거나 새 장치 제한 프로필 유형을 만들하려는 경우 Configure [device restriction settings in Microsoft Intune.](/intune/device-restrictions-configure)<p> 3. 속성을 **선택하고** 구성 설정 **편집을 선택합니다.**<p> 4. 를 **Microsoft Defender 바이러스 백신** 확장합니다. <p> 5. 클라우드 제공 **보호를 사용하도록 설정**<p> 6. 샘플 제출 전에 사용자에게 확인 **드롭다운에서** 자동으로 모든 샘플 **보내기 를 선택합니다.**<p> 7. 잠재적으로 원치 않는 응용 **프로그램 검색 드롭다운에서** 사용 또는 **감사를** **선택합니다.**<p> 8. **검토 + 저장을 선택한** 다음 저장을 **선택합니다.**<p>**팁:** 설정을 만들고 구성하는 방법을 포함하여 Intune 장치 프로필에 대한 자세한 내용은 Microsoft Intune [프로필이란?을 참조하세요.](/intune/device-profiles)|
-| Microsoft Endpoint Configuration Manager    | Configuration Manager에서 맬웨어 방지 정책 [만들기 및 Endpoint Protection 배포를 참조하세요.](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies) 맬웨어 방지 정책을 만들고 구성하는 동안 실시간 [](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) 보호 설정을 검토하고 차단을 사용하면 [됩니다.](configure-block-at-first-sight-microsoft-defender-antivirus.md)
-| 제어판의 Windows     |에서 지침을 따르세요. [를 Microsoft Defender 바이러스 백신.](/mem/intune/user-help/turn-on-defender-windows) <p>**참고:** 일부  버전의 Windows Defender 바이러스 백신 대신  Microsoft Defender 바이러스 백신 표시될 수 Windows.        |
-| [고급 그룹 정책 관리](/microsoft-desktop-optimization-pack/agpm/) <br/>또는<br/>[그룹 정책 관리 콘솔](/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  | 1. 컴퓨터 **구성** 관리 템플릿 및  >    >  **Windows 구성**  >  **요소로 Microsoft Defender 바이러스 백신.** <p> 2. 끄기 이라는 정책을 **Microsoft Defender 바이러스 백신.**<p> 3. 정책 **설정 편집 을 선택하고** 정책이 사용하지 않도록 설정되어 있는지 확인 합니다. 이 작업을 수행하면 Microsoft Defender 바이러스 백신. <p>**참고:** 일부  버전의 Windows Defender 바이러스 백신 대신  Microsoft Defender 바이러스 백신 표시될 수 Windows. |
+| [Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**참고:** Intune이 현재 Microsoft Endpoint Manager. | 1. Microsoft Endpoint Manager [관리 센터로 이동하여](https://go.microsoft.com/fwlink/?linkid=2109431) 로그인합니다.<br/> 2. **장치 구성**  >  **프로필을 선택한** 다음 구성할 프로필 유형을 선택합니다. 아직 장치 제한 프로필 유형을  만들지 않았거나 새 장치 제한 프로필 유형을 만들하려는 경우 Configure [device restriction settings in Microsoft Intune.](/intune/device-restrictions-configure)<br/> 3. 속성을 **선택하고** 구성 설정 **편집을 선택합니다.**<br/>4. 를 **Microsoft Defender 바이러스 백신** 확장합니다. <br/>5. 클라우드 제공 **보호를 사용하도록 설정**<br/>6. 샘플 제출 전에 사용자에게 확인 **드롭다운에서** 자동으로 모든 샘플 **보내기 를 선택합니다.**<br/> 7. 잠재적으로 원치 않는 응용 **프로그램 검색 드롭다운에서** 사용 또는 **감사를** **선택합니다.**<br/>8. **검토 + 저장을 선택한** 다음 저장을 **선택합니다.**<br/><br/>**팁:** 설정을 만들고 구성하는 방법을 포함하여 Intune 장치 프로필에 대한 자세한 내용은 Microsoft Intune [프로필이란?을 참조하세요.](/intune/device-profiles)|
+| Microsoft Endpoint Configuration Manager    | Configuration Manager에서 맬웨어 방지 정책 [만들기 및 Endpoint Protection 배포를 참조하세요.](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies) <br/><br/> 맬웨어 방지 정책을 만들고 구성할 때 실시간 [](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) 보호 설정을 검토하고 차단을 사용하면 [됩니다.](configure-block-at-first-sight-microsoft-defender-antivirus.md)
+| 제어판의 Windows     |에서 지침을 따르세요. [를 Microsoft Defender 바이러스 백신.](/mem/intune/user-help/turn-on-defender-windows) 일부 버전의 *Windows Defender 바이러스 백신* 대신 Microsoft Defender 바이러스 백신  표시될 수 Windows.        |
+| [고급 그룹 정책 관리](/microsoft-desktop-optimization-pack/agpm/) <br/>또는<br/>[그룹 정책 관리 콘솔](/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  | 1. 컴퓨터 **구성** 관리 템플릿 및  >    >  **Windows 구성**  >  **요소로 Microsoft Defender 바이러스 백신.** <br/> 2. 끄기 이라는 정책을 **Microsoft Defender 바이러스 백신.**<br/> 3. 정책 **설정 편집 을 선택하고** 정책이 사용하지 않도록 설정되어 있는지 확인 합니다. 이 작업을 수행하면 Microsoft Defender 바이러스 백신. 일부 버전의 *Windows Defender 바이러스 백신* 대신 Microsoft Defender 바이러스 백신  표시될 수 Windows. |
 
 > [!TIP]
 > 조직의 장치가 온보드되기 전에 정책을 배포할 수 있습니다.
@@ -161,8 +170,8 @@ ms.locfileid: "53817786"
 
 |OS |제외 |
 |--|--|
-|Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 이상(릴리스 정보 Windows 10 [참조)](/windows/release-health/release-information)<p>Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803) |`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`<p>  |
-|[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p>[Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<p>[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016)<p>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe`<p>**참고:** 호스트 임시 파일 6\45 모니터링은 번호가 매기기된 하위 폴더가 다를 수 있습니다. <p>`C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe` |
+|Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 이상(릴리스 정보 Windows 10 [참조)](/windows/release-health/release-information)<br/>Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <br/>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>[Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803) |`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`  |
+|[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <br/>[Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/>[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016)<br/>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe`<br/><br/>**참고:** 호스트 임시 파일 6\45 모니터링은 번호가 매기기된 하위 폴더가 다를 수 있습니다. <br/><br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe` |
 
 ## <a name="add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus"></a>기존 솔루션을 기존 솔루션의 제외 목록에 Microsoft Defender 바이러스 백신
 
@@ -170,11 +179,11 @@ ms.locfileid: "53817786"
 
 |메서드 | 수행할 작업|
 |:---|:---|
-| [Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**참고:** Intune이 현재 Microsoft Endpoint Manager. | 1. Microsoft Endpoint Manager [관리 센터로 이동하여](https://go.microsoft.com/fwlink/?linkid=2109431) 로그인합니다.<p> 2. **장치 구성** 프로필을 선택한 다음 구성할  >  프로필을 선택합니다.<p> 3. **관리에서** 속성을 **선택합니다.**<p> 4. 구성 **설정: 편집 을 선택합니다.**<p> 5. **를 Microsoft Defender 바이러스 백신** 확장한 다음 제외 **Microsoft Defender 바이러스 백신 확장합니다.**<p> 6. 검색에서 제외할 파일 및 폴더, 확장명 및 Microsoft Defender 바이러스 백신 지정합니다. 참조는 Microsoft Defender 바이러스 백신 [제외를 참조합니다.](/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus-exclusions)<p> 7. **검토 + 저장 을 선택한** 다음 저장 을 **선택 합니다.**  |
-| [Microsoft Endpoint Configuration Manager](/mem/configmgr/) | 1. [Configuration Manager 콘솔을](/mem/configmgr/core/servers/manage/admin-console) 사용하여 자산 및 준수 Endpoint Protection 맬웨어 방지 정책으로 이동한 다음 수정할 정책을  >    >  선택합니다. <p> 2. 파일 및 폴더, 확장명 및 프로세스에서 제외할 파일 및 폴더에 대한 제외 Microsoft Defender 바이러스 백신 지정합니다. |
-| [그룹 정책 개체](/previous-versions/windows/desktop/Policy/group-policy-objects) | 1. 그룹 정책 관리 컴퓨터에서 [](https://technet.microsoft.com/library/cc731212.aspx)그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집 을 **선택합니다.**<p> 2. 그룹 정책 관리 **편집기에서** 컴퓨터 구성으로 **이동하여** 관리 **템플릿을 선택합니다.**<p> 3. 트리를 확장하여 Windows **구성 > Microsoft Defender 바이러스 백신 > 확장합니다.**<br/>**참고:** 일부  버전의 Windows Defender 바이러스 백신 대신  Microsoft Defender 바이러스 백신 표시될 수 Windows.<p> 4. 경로 제외  설정을 두 번 클릭하고 제외를 추가합니다.<br/>- 옵션을 사용으로 **설정합니다.**<br/>- 옵션 **섹션에서** **표시...를 선택합니다.**<br/>- 값 이름 열 아래에 각 폴더를 자체 **줄에 지정합니다.**<br/>- 파일을 지정하는 경우 드라이브 문자, 폴더 경로, 파일 이름 및 확장명을 포함하여 파일의 정식 경로를 입력해야 합니다. 값 **열에 0을** **입력합니다.**<p> 5. 확인을 **선택합니다.**<p> 6. 확장 제외  설정을 두 번 클릭하고 제외를 추가합니다.<br/>- 옵션을 사용으로 **설정합니다.**<br/>- 옵션 **섹션에서** **표시...를 선택합니다.**<br/>- 값 이름 열 아래에 각 파일 확장명을 자체 **줄에 입력합니다.**  값 **열에 0을** **입력합니다.**<p> 7. **확인을 선택합니다.** |
-| 로컬 그룹 정책 개체 |1. 끝점 또는 디바이스에서 로컬 그룹 정책 편집기를 열 수 있습니다. <p>2. 컴퓨터 **구성** 관리 템플릿 Windows  >    >  **구성 요소 Microsoft Defender 바이러스 백신** 로  >    >  **이동하십시오.**<p>**참고:** 일부  버전의 Windows Defender 바이러스 백신 대신  Microsoft Defender 바이러스 백신 표시될 수 Windows.<p>3. 경로 및 프로세스 제외를 지정합니다. |
-| 레지스트리 키 |1. 다음 레지스트리 키를 내보낼 수 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\exclusions` 있습니다. .<p>2. 레지스트리 키를 가져올 수 있습니다. 다음은 이와 관련된 두 가지 예입니다.<br/>- 로컬 경로: `regedit.exe /s c:\temp\ MDAV_Exclusion.reg` <br/>- 네트워크 공유: `regedit.exe /s \\FileServer\ShareName\MDAV_Exclusion.reg` |
+| [Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**참고:** Intune이 현재 Microsoft Endpoint Manager. | 1. Microsoft Endpoint Manager [관리 센터로 이동하여](https://go.microsoft.com/fwlink/?linkid=2109431) 로그인합니다.<br/> 2. **장치 구성** 프로필을 선택한 다음 구성할  >  프로필을 선택합니다.<br/>3. **관리에서** 속성을 **선택합니다.**<br/> 4. 구성 **설정: 편집 을 선택합니다.**<br/> 5. **를 Microsoft Defender 바이러스 백신** 확장한 다음 제외 **Microsoft Defender 바이러스 백신 확장합니다.**<br/> 6. 검색에서 제외할 파일 및 폴더, 확장명 및 Microsoft Defender 바이러스 백신 지정합니다. 참조는 Microsoft Defender 바이러스 백신 [제외를 참조합니다.](/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus-exclusions)<br/> 7. **검토 + 저장 을 선택한** 다음 저장 을 **선택 합니다.**  |
+| [Microsoft Endpoint Configuration Manager](/mem/configmgr/) | 1. [Configuration Manager 콘솔을](/mem/configmgr/core/servers/manage/admin-console) 사용하여 자산 및 준수 Endpoint Protection 맬웨어 방지 정책으로 이동한 다음 수정할 정책을  >    >  선택합니다. <br/>2. 파일 및 폴더, 확장명 및 프로세스에서 제외할 파일 및 폴더에 대한 제외 Microsoft Defender 바이러스 백신 지정합니다. |
+| [그룹 정책 개체](/previous-versions/windows/desktop/Policy/group-policy-objects) | 1. 그룹 정책 관리 컴퓨터에서 [](https://technet.microsoft.com/library/cc731212.aspx)그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집 을 **선택합니다.**<br/> 2. 그룹 정책 관리 **편집기에서** 컴퓨터 구성으로 **이동하여** 관리 **템플릿을 선택합니다.**<br/> 3. 트리를 확장하여 Windows **구성 > Microsoft Defender 바이러스 백신 > 확장합니다.** 일부 버전의 *Windows Defender 바이러스 백신* 대신 Microsoft Defender 바이러스 백신  표시될 수 Windows.<br/>4. 경로 제외  설정을 두 번 클릭하고 제외를 추가합니다.<br/>- 옵션을 사용으로 **설정합니다.**<br/>- 옵션 **섹션에서** **표시...를 선택합니다.**<br/>- 값 이름 열 아래에 각 폴더를 자체 **줄에 지정합니다.**<br/>- 파일을 지정하는 경우 드라이브 문자, 폴더 경로, 파일 이름 및 확장명을 포함하여 파일의 정식 경로를 입력해야 합니다. 값 **열에 0을** **입력합니다.**<br/>5. 확인을 **선택합니다.**<br/>6. 확장 제외  설정을 두 번 클릭하고 제외를 추가합니다.<br/>- 옵션을 사용으로 **설정합니다.**<br/>- 옵션 **섹션에서** **표시...를 선택합니다.**<br/>- 값 이름 열 아래에 각 파일 확장명을 자체 **줄에 입력합니다.**  값 **열에 0을** **입력합니다.**<br/>7. **확인을 선택합니다.** |
+| 로컬 그룹 정책 개체 |1. 끝점 또는 디바이스에서 로컬 그룹 정책 편집기를 열 수 있습니다. <br/>2. 컴퓨터 **구성** 관리 템플릿 Windows  >    >  **구성 요소 Microsoft Defender 바이러스 백신** 로  >    >  **이동하십시오.** 일부 버전의 *Windows Defender 바이러스 백신* 대신 Microsoft Defender 바이러스 백신  표시될 수 Windows.<br/>3. 경로 및 프로세스 제외를 지정합니다. |
+| 레지스트리 키 |1. 다음 레지스트리 키를 내보낼 수 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\exclusions` 있습니다. .<br/>2. 레지스트리 키를 가져올 수 있습니다. 다음은 이와 관련된 두 가지 예입니다.<br/>- 로컬 경로: `regedit.exe /s c:\temp\ MDAV_Exclusion.reg` <br/>- 네트워크 공유: `regedit.exe /s \\FileServer\ShareName\MDAV_Exclusion.reg` |
 
 ### <a name="keep-the-following-points-about-exclusions-in-mind"></a>제외에 대해 다음 점에 유의합니다.
 
@@ -194,9 +203,9 @@ ms.locfileid: "53817786"
 
 | 컬렉션 유형 | 수행할 작업 |
 |--|--|
-|[장치 그룹(이전의](/microsoft-365/security/defender-endpoint/machine-groups) 컴퓨터 그룹)을 사용하면 보안 운영 팀이 자동화된 조사 및 수정과 같은 보안 기능을 구성할 수 있습니다. <p>장치 그룹은 보안 운영 팀이 필요한 경우 수정 작업을 수행할 수 있도록 해당 장치에 대한 액세스를 할당하는 데도 유용합니다. <p>장치 그룹은 사이트 [포털에서 Microsoft 365 Defender 생성됩니다.](microsoft-defender-security-center.md) |1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하십시오.<p>2. 왼쪽의 탐색 창에서 **끝점 사용 설정** 장치 그룹을  >    >    >  **선택하세요.**  <p>3. **+ 장치 그룹 추가를 선택 합니다.**<p>4. 디바이스 그룹의 이름과 설명을 지정합니다.<p>5. 자동화 **수준 목록에서** 옵션을 선택합니다. (전체 - **위협을 자동으로 수정하는 것이** 좋습니다.) 다양한 자동화 수준에 대한 자세한 내용은 위협 수정 방법을 [참조합니다.](/microsoft-365/security/defender-endpoint/automated-investigations#how-threats-are-remediated)<p>6. 일치하는 규칙에 대한 조건을 지정하여 장치 그룹에 속하는 장치를 확인합니다. 예를 들어 도메인, OS 버전을 선택하거나 장치 [태그를 사용할 수도 있습니다.](/microsoft-365/security/defender-endpoint/machine-tags)<p>7. 사용자 액세스 **탭에서** 장치 그룹에 포함된 장치에 액세스할 수 있는 역할을 지정합니다. <p>8. 완료 **를 선택 합니다.** |
-|[장치 모음을](/mem/configmgr/core/clients/manage/collections/introduction-to-collections) 사용하면 보안 운영 팀에서 응용 프로그램을 관리하거나, 규정 준수 설정을 배포하거나, 조직의 장치에 소프트웨어 업데이트를 설치할 수 있습니다.<p>장치 컬렉션은 Configuration [Manager 를 사용하여 만들어집니다.](/mem/configmgr/) |컬렉션 만들기의 [단계를 따릅니다.](/mem/configmgr/core/clients/manage/collections/create-collections#bkmk_create) |
-|[조직 구성 단위를](/azure/active-directory-domain-services/create-ou) 사용하면 사용자 계정, 서비스 계정 또는 컴퓨터 계정과 같은 개체를 논리적으로 그룹화할 수 있습니다. 그런 다음 관리자를 특정 조직 구성 단위에 할당하고 그룹 정책을 적용하여 대상 구성 설정을 적용할 수 있습니다.<p> 조직 구성 단위는 도메인 서비스에 [Azure Active Directory 정의됩니다.](/azure/active-directory-domain-services) | Create an [Organizational Unit in an Azure Active Directory Domain Services managed domain의 단계를 따릅니다.](/azure/active-directory-domain-services/create-ou) |
+|[장치 그룹(이전의](/microsoft-365/security/defender-endpoint/machine-groups) 컴퓨터 그룹)을 사용하면 보안 운영 팀이 자동화된 조사 및 수정과 같은 보안 기능을 구성할 수 있습니다. <br/><br/>장치 그룹은 보안 운영 팀이 필요한 경우 수정 작업을 수행할 수 있도록 해당 장치에 대한 액세스를 할당하는 데도 유용합니다. <br/><br/>장치 그룹은 사이트 [포털에서 Microsoft 365 Defender 생성됩니다.](microsoft-defender-security-center.md) |1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하십시오.<br/>2. 왼쪽의 탐색 창에서 **끝점 사용 설정** 장치 그룹을  >    >    >  **선택하세요.**  <br/>3. **+ 장치 그룹 추가를 선택 합니다.**<br/>4. 디바이스 그룹의 이름과 설명을 지정합니다.<br/>5. 자동화 **수준 목록에서** 옵션을 선택합니다. (전체 - **위협을 자동으로 수정하는 것이** 좋습니다.) 다양한 자동화 수준에 대한 자세한 내용은 위협 수정 방법을 [참조합니다.](/microsoft-365/security/defender-endpoint/automated-investigations#how-threats-are-remediated)<br/>6. 일치하는 규칙에 대한 조건을 지정하여 장치 그룹에 속하는 장치를 확인합니다. 예를 들어 도메인, OS 버전을 선택하거나 장치 [태그를 사용할 수도 있습니다.](/microsoft-365/security/defender-endpoint/machine-tags)<br/>7. 사용자 액세스 **탭에서** 장치 그룹에 포함된 장치에 액세스할 수 있는 역할을 지정합니다. <br/>8. 완료 **를 선택 합니다.** |
+|[장치 모음을](/mem/configmgr/core/clients/manage/collections/introduction-to-collections) 사용하면 보안 운영 팀에서 응용 프로그램을 관리하거나, 규정 준수 설정을 배포하거나, 조직의 장치에 소프트웨어 업데이트를 설치할 수 있습니다.<br/><br/>장치 컬렉션은 Configuration [Manager 를 사용하여 만들어집니다.](/mem/configmgr/) |컬렉션 만들기의 [단계를 따릅니다.](/mem/configmgr/core/clients/manage/collections/create-collections#bkmk_create) |
+|[조직 구성 단위를](/azure/active-directory-domain-services/create-ou) 사용하면 사용자 계정, 서비스 계정 또는 컴퓨터 계정과 같은 개체를 논리적으로 그룹화할 수 있습니다.<br/><br/> 그런 다음 관리자를 특정 조직 구성 단위에 할당하고 그룹 정책을 적용하여 대상 구성 설정을 적용할 수 있습니다.<br/><br/> 조직 구성 단위는 도메인 서비스에 [Azure Active Directory 정의됩니다.](/azure/active-directory-domain-services) | Create an [Organizational Unit in an Azure Active Directory Domain Services managed domain의 단계를 따릅니다.](/azure/active-directory-domain-services/create-ou) |
 
 
 ## <a name="next-step"></a>다음 단계

@@ -13,12 +13,12 @@ ms.collection:
 description: 보고된 메시지를 검토하고 사용자에게 피드백을 주는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 850b5846c8028342dea03bcc93c1709ef460e1ba
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: a8f278d94235f4fc36e2c05c1cfe8724843f9ff3
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53538948"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258567"
 ---
 # <a name="admin-review-for-reported-messages"></a>보고된 메시지에 대한 관리자 검토
 
@@ -53,18 +53,18 @@ Microsoft 365 사서함이 Exchange Online 및 Microsoft Defender for Office 365
 
 1. Microsoft 365 Defender 포털에서 제출 페이지로 **직접** 이동합니다. [ https://security.microsoft.com/reportsubmission}(https://security.microsoft.com/reportsubmission) .
 
-2. 사용자가 **보고한 메시지를** 클릭한 다음 표시하고 알릴 메시지를 선택합니다. 
+2. 사용자가 **보고한 메시지를** 클릭한 다음 표시하고 알릴 메시지를 선택합니다.
 
-3. **다음으로 표시 및** 알림 드롭다운을 선택한 다음 위협 **없음,** 피싱 **또는** 정크를 **선택합니다.**  
+3. **다음으로 표시 및** 알림 드롭다운을 선택한 다음 위협 **없음,** 피싱 **또는** 정크를 **선택합니다.**
 
    > [!div class="mx-imgBorder"]
    > ![포털에서 메시지 보내기](../../media/admin-review-send-message-from-portal.png)
 
-보고된 메시지는 가짓 긍정 또는 거짓 부정으로 표시되며, 메시지를 보고한 사용자에게 알리는 전자 메일이 포털 내에서 자동으로 전송됩니다. 
+보고된 메시지는 가짓 긍정 또는 거짓 부정으로 표시되며, 메시지를 보고한 사용자에게 알리는 전자 메일이 포털 내에서 자동으로 전송됩니다.
 
 ## <a name="customize-the-messages-used-to-notify-users"></a>사용자에게 알리는 데 사용되는 메시지 사용자 지정
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 위협 정책 페이지 기타 섹션에서 사용자가 메시지 \> **설정을** \>  \>  \> **보고했습니다.**
+1. Microsoft 365 Defender 포털에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 사용자가 기타 섹션에서 메시지 설정을 \>  \>  \>  **보고했습니다.**
 
 2. 사용자  제출 페이지에서 보낸 사람 표시 이름을 지정하려면 관리자 검토 결과에 대한 전자 메일 알림 **섹션에서** 보낸  사람으로 사용할 Office 365 전자 메일 주소 지정 확인란을 확인하고 사용할 이름을 입력합니다. 전자 메일 주소가 메시지에 표시될 Outlook 모든 응답이 여기에 표시됩니다.
 

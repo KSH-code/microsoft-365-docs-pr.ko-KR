@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 링크 정책 및 전역 금고 링크 설정을 보고, 만들고, 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8d42051d2ca4f26758cbe7334d427f3f93178f97
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 684496023bff8cb7e8773403b57c4ae93740f92d
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108214"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258481"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 링크 정책 Office 365
 
@@ -110,7 +110,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 링크 정책을 만
 
    동일한 조건의 여러 값은 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 서로 다른 조건은 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
 
-   - **이러한 사용자, 그룹** 및 도메인 제외: 정책이 적용되는 내부 받는 사람(받는 사람 예외)에 대한 예외를 추가하려면 이 옵션을 선택하고 예외를 구성합니다. 설정 및 동작은 조건과 정확히 같습니다.
+   - **다음 사용자, 그룹 및 도메인 제외**: 해당 정책의 적용 대상인 내부의 받는 사람에게 예외를 추가하려면(받는 사람 예외) 이 옵션을 선택하고 예외를 구성합니다. 설정 및 동작은 조건과 정확히 같습니다.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
@@ -146,7 +146,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 링크 정책을 만
 
 7. 표시되는 **검토** 페이지에서 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다. 또는 **뒤로** 를 클릭하거나 마법사에서 특정 페이지를 선택할 수 있습니다.
 
-   완료되면 제출을 **클릭합니다.**
+   작업을 마쳤으면 **제출** 을 클릭합니다.
 
 8. 표시되는 확인 페이지에서 **완료** 를 클릭합니다.
 
@@ -167,13 +167,13 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 링크 정책을 만
 
 2. 링크 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
-3. 표시되는 정책 세부 정보 플라이아웃에서 각 섹션에서 **편집** 을 선택하여 섹션 내의 설정을 수정합니다. 설정에 대한 자세한 내용은 이 문서의 이전 Microsoft 365 Defender [포털을 사용하여](#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) 금고 링크 정책 만들기 섹션을 참조하세요.  
+3. 표시되는 정책 세부 정보 플라이아웃에서 각 섹션에서 **편집** 을 선택하여 섹션 내의 설정을 수정합니다. 설정에 대한 자세한 내용은 이 문서의 이전 Microsoft 365 Defender [포털을 사용하여](#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) 금고 링크 정책 만들기 섹션을 참조하세요.
 
 정책을 사용하도록 설정하거나 사용하지 않도록 설정하거나 정책 우선 순위를 설정하려면 다음 섹션을 참조하세요.
 
 ### <a name="enable-or-disable-safe-links-policies"></a>링크 정책 금고 사용 또는 사용 안 하도록 설정
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 링크 \>  \>  \>  \> **금고 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 \>  \> **금고** \> **링크로** 이동하세요. 
 
 2. 링크 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
@@ -198,7 +198,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 링크 정책을 만
 - Microsoft 365 Defender 포털에서 만든 후 금고 링크 정책의 우선 순위만 변경할 수 있습니다. PowerShell에서 안전한 링크 규칙을 만들 때 기본 우선 순위를 다시 정할 수 있습니다(기존 규칙의 우선 순위에 영향을 줄 수 있습니다).
 - 금고 링크 정책은 표시되는 순서대로 처리됩니다(첫 번째 정책의  우선 순위 값은 0). 우선순위 및 여러 정책을 평가하고 적용하는 방법에 대 한 자세한 내용은 전자 메일의 [전자 메일의 우선순위 및 보호](how-policies-and-protections-are-combined.md)를 참조하세요.
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 링크 \>  \>  \>  \> **금고 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 \>  \> **금고** \> **링크로** 이동하세요. 
 
 2. 링크 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
@@ -213,7 +213,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 링크 정책을 만
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-links-policies"></a>Microsoft 365 Defender 포털을 사용하여 링크 금고 제거
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 링크 \>  \>  \>  \> **금고 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 \>  \> **금고** \> **링크로** 이동하세요. 
 
 2. 링크 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다. 표시되는 정책 세부 정보 플라이아웃의 맨 위에서 ![추가 작업 아이콘](../../media/m365-cc-sc-more-actions-icon.png)**추가 작업**\>![정책 삭제 아이콘](../../media/m365-cc-sc-delete-icon.png)**정책 삭제** 를 클릭합니다.
 
