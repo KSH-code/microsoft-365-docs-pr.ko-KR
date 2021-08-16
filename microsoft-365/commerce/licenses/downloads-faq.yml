@@ -4,7 +4,7 @@ metadata:
   ms.author: cmcatee
   author: cmcatee-MSFT
   manager: scotv
-  ms.reviewer: 'racheg, armanv'
+  ms.reviewer: racheg, armanv
   ms.date: 07/22/2021
   audience: Admin
   ms.topic: article
@@ -12,109 +12,99 @@ metadata:
   ms.custom: commerce_licensing
   localization_priority: Normal
   description: 다운로드에 대한 Microsoft 365 관리 센터 질문과 대답입니다.
+  ms.openlocfilehash: c10fbf7260324e4b0a6511c112d91dc3d87aa10a
+  ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 08/13/2021
+  ms.locfileid: "58247565"
 title: 자주 묻는 질문 다운로드
 summary: ''
 sections:
-  - name: 일반
-    questions:
-      - question: |
-          배포에서 소프트웨어를 다운로드하기 위한 요구 사항은 Microsoft 365 관리 센터?
-        answer: |
-          다운로드할 제품의 라이선스를 구입해야 합니다. 설치를 완료하려면 각 라이선스에 대한 유효한 제품 키에 대한 액세스 권한이 있어야 합니다. 제품을 다운로드하기 전에 사용권 계약을 검증합니다.
+- name: 일반
+  questions:
+  - question: >
+      What are the requirements for downloading software from the Microsoft 365 admin center?
+    answer: "You must purchase a license for the products you plan to download and have access to a valid product key for each license to complete the installation. Verify your license agreement before you download products.\n\nYou can find the system requirements for each product by signing into the admin center and going to **Your products** > **Downloads** page > **Product description**. \n\n**Note** Not all products require a product key.\n"
+  - question: >
+      What products can I download from the admin center?
+    answer: >
+      If your download rights are associated with the Open License, Open Value, or Open Value Subscription program, you can download only those products you've already purchased. The admin center displays downloads only for licenses you’ve purchased.
 
-          관리 센터에 로그인하고 제품 다운로드 페이지로 이동하여 각 제품에 대한 시스템 요구 사항을 >  >   **있습니다.** 
 
-          **참고** 모든 제품에는 제품 키가 필요하지 않습니다.
-      - question: |
-          관리 센터에서 다운로드할 수 있는 제품은 무엇입니까?
-        answer: |
-          다운로드 권한과 Open License, Open Value 또는 Open Value Subscription 프로그램과 연결된 경우 이미 구매한 제품만 다운로드할 수 있습니다. 관리 센터에는 구입한 라이선스에 대한 다운로드만 표시됩니다.
+      Other licensing programs (Select Plus, Enterprise, Campus, or School) allow you to download any product from the catalog before you purchase licenses.
 
-          기타 라이선스 프로그램(더하기, Enterprise, 캠퍼스 또는 학교)을 사용하면 라이선스를 구매하기 전에 카탈로그에서 제품을 다운로드할 수 있습니다.
 
-          프로필이 열기 프로그램과 다른 라이선스 프로그램에 모두 연결되어 있는 경우 전체 카탈로그를 볼 수 있습니다.
+      If your profile is linked to both Open and other licensing programs, you can view the entire catalog.
 
-          제품을 다운로드할 자격이 있는지 확인하려면
 
-            1. 볼륨 **라이선스 를** 선택한 다음 제품 또는 다운로드 **보기 를 선택합니다.**
-            2. 다운로드 **아래에서** 제품을 사용할 수 없는 경우 "이 제품을 다운로드할 수 없습니다."가 표시 됩니다.
-      - question: |
-          CAL(클라이언트 액세스 라이선스)이란?
-        answer: |
-          CAL(클라이언트 액세스 라이선스)은 사용자에게 서버의 서비스에 액세스할 수 있는 권한을 부여하는 라이선스입니다.
+      To determine if a product is eligible for download:
 
-          CAL을 정품 인증하는 데 소프트웨어 다운로드 파일이나 제품 키가 필요하지 않습니다. 대신 컴퓨터에서 직접 정품 인증 마법사를 통해 제품이 활성화되고 설치됩니다.
+        1. Select **Volume Licensing**, and then select the product or **View downloads**.
+        2. Under **Download**, if the product is not available, you’ll see “This product is not available for download.”
+  - question: >
+      What is a Client Access License (CAL)?
+    answer: >
+      A Client Access License (CAL) is a license that gives a user the right to access the services of the server.
 
-          CA의 예는 다음과 같습니다.
-            - Windows Server
-            - SQL Server
-            - Exchange Server
-            - 비즈니스용 Skype 서버
-            - SharePoint Server
-            - System Center
-            - Project Server
-      - question: |
-          다운로드 방법을 Mac용 Office? 
-        answer: |
-          볼륨 라이선스 버전의 Mac용 Office 실행하려면 다음 파일을 다운로드하여 설치해야 합니다.
-            - 다운로드 [파일에 있는 VL(볼륨 라이선스)](/deployoffice/mac/volume-license-serializer) 직렬 Mac용 Office.
-            - 설치 [Mac용 Office 패키지입니다.](/officeupdates/update-history-office-for-mac#most-current-packages-for-office-for-mac) 개별 응용 프로그램에 대한 설치 관리자 패키지 파일은 설치 프로그램에서도 Microsoft 365 관리 센터. Mac용 Office VL Serializer는 볼륨 라이선스 버전의 정품 인증을 위해 사용되어 제품 키가 필요하지 Mac용 Office.
-      - question: |
-          관리 센터에서 제품을 다운로드하려면 어떻게 해야 합니까?
-        answer: |
-          관리 센터에서 제품을 다운로드하려면
-          1. 볼륨 **라이선스 를** 선택한 다음 제품 또는 다운로드 **보기 를 선택합니다.**
-          2. 다운로드 **아래에서** 구성 요소를 선택하고 다운로드 작업 또는 다운로드 아이콘을 선택합니다. 
 
-          관리 센터에서 다운로드에 액세스하려면 조직의 VLSC 관리자가 다음 역할 중 하나에 할당하여 액세스를 제공할 수 있습니다.
-            - 관리자
-            - 다운로드
-            - Software Assurance Manager
-      - question: |
-          다운로드 설정을 변경하려면 어떻게 해야 합니까?
-        answer: |
-          관리 센터에서 다운로드 설정에 액세스하려면
-          1. 볼륨 **라이선스 를** 선택한 다음 제품 또는 다운로드 **보기 를 선택합니다.**
-          2. 다운로드에서 언어 및 **운영 체제 유형을** **선택합니다.** 
+      You don’t need a software download file or product key to activate a CAL. Instead, the product is activated and installed through the activation wizard directly from your computer.
 
-          **참고** 팝업 차단은 다운로드를 차단할 수 있습니다. 관리 센터에서 소프트웨어를 다운로드할 때 팝업 차단이 사용하지 않도록 설정되어 있는지 확인
-      - question: |
-          EXE 및 ISO 파일이란?
-        answer: |
-          관리 센터에서 제품을 다운로드할 때 다음 두 가지 파일 형식을 선택할 수 있습니다.
-            
-            - **실행 파일(EXE)** 파일은 동일한 시스템에 다운로드하여 설치할 수 있지만 다른 컴퓨터에 설치할 별도의 부팅 디스크를 만들 수 없습니다.
-            - **ISO(국제 표준 기구) 이미지 파일은** 콘텐츠와 논리적 형식을 정확하게 나타내어 표현한 것입니다. 패키지를 다운로드하거나 다른 컴퓨터에 배포 및 설치하기 위해 디스크에 파일을 쓰는 데 사용되는 컴퓨터에 설치할 수 있습니다.
 
-          **참고** 일부 제품은 일부 언어 및 모든 형식으로 사용할 수 없습니다.
-      - question: |
-          ISO 이미지 파일 소프트웨어를 사용하여 ISO 이미지 파일을 다운로드하고 CD-R 또는 DVD-R 디스크에 저장하려면 어떻게 해야 합니까?
-        answer: |
-          WINDOWS 운영 체제에서 PC를 사용하는 경우 CD-R 또는 DVD-R을 구우기 위한 추가 소프트웨어가 필요하지 않습니다. 다운로드한 ISO 파일을 두 번 클릭한 다음 Image Burner 마법사의 단계를 따릅니다.
+      Examples of CALs include:
+        - Windows Server
+        - SQL Server
+        - Exchange Server
+        - Skype for Business Server
+        - SharePoint Server
+        - System Center
+        - Project Server
+  - question: "How do I download Office for Mac? \n"
+    answer: >
+      To run a volume licensing version of Office for Mac, you must download and install the following files:
+        - The [Volume License (VL) Serializer](/deployoffice/mac/volume-license-serializer) package located in the Office for Mac download file.
+        - The [Office for Mac installation package](/officeupdates/update-history-office-for-mac#most-current-packages-for-office-for-mac). Installer package files for individual applications are also available on the Microsoft 365 admin center. Office for Mac doesn’t require a product key because the VL Serializer is used to activate a volume licensed version of Office for Mac.
+  - question: >
+      How do I download products in the admin center?
+    answer: "To download products in the admin center:\n1. Select **Volume Licensing**, and then select the product or **View downloads**.\n2. Under **Download**, select a component and select a download action or the download icon. \n\nTo access downloads in the admin center, a VLSC administrator in your organization can provide access by assigning you to one of these roles:\n  - Administrator\n  - Download\n  - Software Assurance Manager\n"
+  - question: >
+      How do I change my download settings?
+    answer: >
+      To access download settings in the admin center:
 
-          다른 운영 체제를 사용하는 경우 Windows 소프트웨어가 필요할 수 있습니다. 컴퓨터에 CD/DVD 버너가 장착되어 있는 경우 소프트웨어가 PC에 로드될 수 있습니다. 대부분의 CD-R/DVD-R 쓰기 소프트웨어를 사용하면 이미지 파일에서 디스크를 만들 수 있습니다. 이 기능에 **액세스하려면** CD에 이미지 복사 **또는** 이미지 굽기 등의 메뉴 항목을 선택합니다.
-      - question: |
-          ISO 파일을 가상 장치로 탑재하고 액세스하려면 어떻게 해야 합니까?
-        answer: |
-          컴퓨터에 CD/DVD 버너가 설치되어 있지 않은 경우 또는 미디어를 사용할 수 없는 경우 ISO 파일을 가상 드라이브로 탑재할 수 있습니다. 이 방법을 사용하면 컴퓨터가 파일이 실제 디스크 드라이브인 것으로 생각하고 이 가상 디스크에서 파일을 읽을 수 있습니다.
+      1. Select **Volume Licensing**, and then select the product or **View downloads**.
 
-          **참고** 이 방법은 Office 시스템 업그레이드와 같은 응용 프로그램을 설치하는 데만 적합합니다. 설치하는 동안 가상 드라이브가 사라지기 때문에 이 방법을 사용하여 운영 체제를 설치할 수 없습니다.
-      - question: |
-          다운로드한 제품에 대한 지원을 얻게 하려면 어떻게 해야 합니까?
-        answer: |
-          지원 옵션 목록은 Microsoft 지원을 [참조하세요.](https://support.microsoft.com/) 일부 볼륨 라이선스 고객은 Software Assurance 혜택인 문제 해결 지원을 사용할 수 있습니다. Software Assurance 혜택을 검토하여 자격을 검증합니다.
-      - question: |
-          이 FAQ에서 다루는 항목에 대한 지원은 어디에서 찾을 수 있나요?
-        answer: |
-          비디오를 비롯한 추가 교육 리소스는 Microsoft 볼륨 라이선스 서비스 센터 [교육 및 리소스를 참조하세요.](https://www.microsoft.com/licensing/existing-customer/vlsc-training-and-resources)
-      - question: |
-          Microsoft 지원에 문의할 수 있는 방법
-        answer: |
-          VLSC 고객 전화 또는 웹 양식 지원에 대한 자세한 내용은 [문의처를 참조하세요.](/licensing/contact-us) Microsoft는 24시간 이내에 웹 양식 전송에 응답합니다.
-additionalContent: |
+      2. Under **Download**, select the **Language** and **Operating System Type**.
 
-  ## <a name="additional-resources"></a>추가 리소스
 
-  - [제품 키 FAQ](product-keys-faq.yml)
+      **Note** Pop-up blockers can block downloads. Make sure pop-up blockers are disabled when you download software from the admin center.
+  - question: >
+      What are EXE and ISO files?
+    answer: "You can select two file types when you download products from the admin center:\n  \n  - **Executable (EXE) files** can be downloaded and installed on the same system, but you can’t create separate boot disks for installation on other computers.\n  - **ISO (International Standards Organization) image files** are exact representations of the content and the logical format. You can install these on the computer used to download the package or write the files to disks for distribution and installation on other computers.\n\n**Note** Not all products are available in all languages and in all formats.\n"
+  - question: >
+      How do I use ISO image file software to download and save ISO image file to a CD-R or a DVD-R disk?
+    answer: >
+      If you’re using a PC with the Windows operating system, you don't need additional software to burn a CD-R or DVD-R. Double-click the ISO file you downloaded, and then follow the steps in the Image Burner Wizard.
 
-  - [프로그램 열기에 대한 온라인 서비스 정품 인증 FAQ](online-service-activation-faq.yml)
+
+      If you’re using any operating system other than Windows, you might need additional software. If your computer is equipped with a CD/DVD burner, the software is probably loaded on your PC. Most CD-R/DVD-R writing software allows you to create a disk from an image file. Select a menu item such **Copy Image to CD** or **Burn Image to access** to access this feature.
+  - question: >
+      How do I mount and access ISO files as a virtual device?
+    answer: >
+      If you don't have a CD/DVD burner installed on your computer or media isn't available, you can mount the ISO file as a virtual drive. With this method, your computer believes that the file is a real disk drive, and you can read files from this virtual disk.
+
+
+      **Note** This approach is advisable only for installing applications such as Office or minor system upgrades. You can’t install an operating system using this approach because the virtual drive disappears during the installation.
+  - question: >
+      How do I get support for downloaded products?
+    answer: >
+      For a list of support options, see [Microsoft Support](https://support.microsoft.com/). Some Volume Licensing customers can use Problem Resolution Support, a Software Assurance Benefit. Review your Software Assurance Benefits to verify your eligibility.
+  - question: >
+      Where can I find support for the topics covered in this FAQ?
+    answer: >
+      For more training resources, including videos, see [Microsoft Volume Licensing Service Center training and resources](https://www.microsoft.com/licensing/existing-customer/vlsc-training-and-resources).
+  - question: >
+      How can I contact Microsoft Support?
+    answer: >
+      For VLSC customer phone or web form support, see [Contact Us](/licensing/contact-us). Microsoft responds to web form submissions within 24 hours.
+additionalContent: "\n## Additional resources\n\n- [Product keys FAQ](product-keys-faq.yml)\n\n- [Online services activation for Open programs FAQ](online-service-activation-faq.yml)"

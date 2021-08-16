@@ -24,12 +24,12 @@ ms.custom: migrationguides
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: eeb2a64c82d5edec57e7f53a00d8dcedcfadc2900161462b826392a1fea4c2be
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 50a2a17987c78b1a5f7aca7046a8cfd34e0ec467
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53897754"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247584"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 
@@ -47,9 +47,9 @@ Endpoint용 Defender로 전환할 때 Microsoft가 아닌 솔루션이 활성 �
 
 |단계 |설명 |
 |--|--|
-|[마이그레이션 준비](switch-to-microsoft-defender-prepare.md) |[준비 **단계 중:**](switch-to-microsoft-defender-prepare.md) <p>1. 조직의 장치를 업데이트합니다. <p>2. 끝점용 Defender를 얻습니다. <p>3. 역할 및 사용 권한을 계획하고 웹 사이트 포털에 대한 Microsoft 365 Defender 부여합니다. <p>4. 조직의 장치와 Endpoint용 Defender 간의 통신을 사용하도록 장치 프록시 및 인터넷 설정을 구성합니다. |
-|[끝점에 대한 Defender 설정](switch-to-microsoft-defender-setup.md) |설치 [ **단계 중:**](switch-to-microsoft-defender-setup.md) <p>1. 설치를 사용하도록 설정/다시 Microsoft Defender 바이러스 백신. <p>2. 끝점에 대한 Defender를 구성합니다. <p>3. 기존 솔루션의 제외 목록에 끝점용 Defender를 추가합니다. <p>4. 기존 솔루션을 기존 솔루션의 제외 목록에 Microsoft Defender 바이러스 백신. <p>5. 장치 그룹, 컬렉션 및 조직 구성 단위를 설치합니다. <p>6. 맬웨어 방지 정책 및 실시간 보호 설정을 구성합니다.|
-|[끝점용 Defender에 온보딩](switch-to-microsoft-defender-onboard.md) |[ **온보더 단계 중:**](switch-to-microsoft-defender-onboard.md) <p>1. 끝점용 Defender에 장치를 온보딩합니다. <p>2. 검색 테스트를 실행합니다. <p>3. 수동 Microsoft Defender 바이러스 백신 실행 중인지 확인 <p>4. 설치에 대한 업데이트를 Microsoft Defender 바이러스 백신. <p>5. 기존 끝점 보호 솔루션을 제거합니다. <p>6. 끝점에 대한 Defender가 제대로 작동하고 있는지 확인합니다. |
+|[마이그레이션 준비](switch-to-microsoft-defender-prepare.md) |[준비 **단계 중:**](switch-to-microsoft-defender-prepare.md) <br/>1. 조직의 장치를 업데이트합니다. <br/>2. 끝점용 Defender를 얻습니다. <br/>3. 역할 및 사용 권한을 계획하고 앱 포털에 대한 Microsoft 365 Defender 부여합니다. <br/>4. 조직의 장치와 Endpoint용 Defender 간의 통신을 사용하도록 장치 프록시 및 인터넷 설정을 구성합니다. |
+|[끝점에 대한 Defender 설정](switch-to-microsoft-defender-setup.md) |설치 [ **단계 중:**](switch-to-microsoft-defender-setup.md) <br/>1. 사용/다시 설치 Microsoft Defender 바이러스 백신 수동 모드로 설정 <br/>2. 끝점에 대한 Defender를 구성합니다. <br/>3. 기존 솔루션의 제외 목록에 끝점용 Defender를 추가합니다. <br/>4. 기존 솔루션을 기존 솔루션의 제외 목록에 Microsoft Defender 바이러스 백신. <br/>5. 장치 그룹, 컬렉션 및 조직 구성 단위를 설치합니다. <br/>6. 맬웨어 방지 정책 및 실시간 보호 설정을 구성합니다.|
+|[끝점용 Defender에 온보딩](switch-to-microsoft-defender-onboard.md) |[ **온보더 단계 중:**](switch-to-microsoft-defender-onboard.md) <br/>1. 끝점용 Defender에 장치를 온보딩합니다. <br/>2. 검색 테스트를 실행합니다. <br/>3. 수동 Microsoft Defender 바이러스 백신 실행 중인지 확인 <br/>4. 설치에 대한 업데이트를 Microsoft Defender 바이러스 백신. <br/>5. 기존 끝점 보호 솔루션을 제거합니다. <br/>6. 끝점에 대한 Defender가 제대로 작동하고 있는지 확인합니다. |
 
 ## <a name="whats-included-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에는 무엇이 포함되어 있나요?
 

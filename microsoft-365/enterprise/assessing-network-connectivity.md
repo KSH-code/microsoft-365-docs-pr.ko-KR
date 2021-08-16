@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 64b420ef-0218-48f6-8a34-74bb27633b10
 description: Microsoft 365 인터넷 연결을 사용하여 전 세계 고객이 서비스에 연결할 수 있도록 합니다. 서비스가 발전함에 따라 Microsoft 365 인터넷을 사용하여 서비스에 대한 연결을 설정하는 고객을 기반으로 보안, 성능 및 안정성이 향상됩니다.
-ms.openlocfilehash: 4d80bdf5642b2456ac8293291c720429f7f18fb1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ae3b06a607d3e45f5f1067616ba46c4226dde55766e02bd9f75b70313095474e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53885414"
 ---
 # <a name="assessing-microsoft-365-network-connectivity"></a>Microsoft 365 네트워크 연결 평가
 

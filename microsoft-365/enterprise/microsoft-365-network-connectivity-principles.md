@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서는 Microsoft 365 네트워크 연결을 안전하게 최적화하기 위한 최신 가이드를 재공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e0391133721270c0fdfb288b5d26ab23f301a844
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8f710793dd8ce1e5a2835a05bbf366559a38a0aa
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923293"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247508"
 ---
 # <a name="microsoft-365-network-connectivity-principles"></a>Microsoft 365 네트워크 연결 원칙
 
@@ -84,7 +84,7 @@ Microsoft 365와 같은 클라우드 서비스의 출현 이전에는 네트워�
   
 기존 네트워크 아키텍처에서는 모든 아웃바운드 인터넷 연결이 회사 네트워크를 통과하고 중앙 위치에서 나갑니다. Microsoft의 클라우드 제공이 발전함에 따라 분산 인터넷 연결 네트워크 아키텍처는 대기 시간에 민감한 클라우드 서비스를 지원하는 데 중요해졌습니다. Microsoft 글로벌 네트워크는 들어오는 클라우드 서비스 연결을 가장 가까운 진입점에 라우팅하는 글로벌 진입점의 동적 패브릭인 분산 서비스 Front Door 인프라를 사용하여 대기 시간 요구 사항을 수용하도록 설계되었습니다. 이는 고객과 클라우드 사이의 경로를 효과적으로 단축하여 Microsoft 클라우드 고객의 "마지막 마일"의 길이를 줄이기 위한 것입니다.
   
-엔터프라이즈 WAN은 대개 하나 이상의 프록시 서버를 통해 인터넷에 송신하기 전에 중앙에 있는 회사 본사로 네트워크 트래픽을 백홀하도록 설계되었습니다. 아래 다이어그램에서는 이러한 네트워크 토폴로지를 보여 줍니다.
+엔터프라이즈 WAN은 대개 하나 이상의 프록시 서버를 통해 인터넷에 송신하기 전에 중앙에 있는 회사 본사로 네트워크 트래픽을 백홀하도록 설계되었습니다. 아래 다이어그램은 이러한 네트워크 토폴로지를 보여 줍니다.
   
 ![기존 엔터프라이즈 네트워크 모델](../media/fc87b8fd-a191-47a7-9704-1e445599813a.png)
   

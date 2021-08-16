@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a27761cc6f907905e9aa1a4fb2c1a1dc8120f5acfb15574cae6b170d75d51ec1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3edacef44021211d82b1b7d8c477683185c87f00
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833486"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247611"
 ---
 #  <a name="run-live-response-commands-on-a-device"></a>장치에서 라이브 응답 명령 실행
 
@@ -58,7 +58,9 @@ ms.locfileid: "53833486"
 
 4.  RunScript 명령 시간 제한은 10분 후입니다.
 
-5.  라이브 응답 명령이 실패하면 모든 후속 작업이 실행되지 않습니다.
+5.  라이브 응답 명령은 대기할 수 없습니다. 한 번만 실행할 수 있습니다. 
+
+6.  단일 API 호출 시 여러 라이브 응답 명령을 실행할 수 있습니다. 그러나 라이브 응답 명령이 실패하면 다음 작업이 모두 실행되지 않습니다.
 
 ## <a name="minimum-requirements"></a>최소 요구 사항
 
@@ -79,7 +81,7 @@ ms.locfileid: "53833486"
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
     - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
     
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
@@ -118,7 +120,7 @@ POST https://api.securitycenter.microsoft.com/API/machines/{machine_id}/runliver
 
 ## <a name="response"></a>응답
 
-- 성공하면 이 메서드는 200, 확인을 반환합니다.
+- 성공하면 이 메서드는 201 Created를 반환합니다.
 
   작업 엔터티. 지정한 ID가 있는 머신을 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 

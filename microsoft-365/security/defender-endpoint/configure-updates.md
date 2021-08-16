@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a7a560cb33190105f8df5922e04aeada4d75f398
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 9dd87ad952ffd1e2c63ee17a39ddeea372a49e258196105197e714c90862c94e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53290042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854114"
 ---
 # <a name="create-a-custom-gradual-rollout-process-for-microsoft-defender-updates"></a>Microsoft Defender 업데이트에 대한 사용자 지정 서진 배포 프로세스 만들기
 
@@ -92,7 +92,7 @@ Set-MpPreference
 -SignaturesUpdatesChannel Staged|Broad|NotConfigured
 ```
 
-예제:
+예:
 
 베타 `Set-MpPreference -PlatformUpdatesChannel Beta` 채널에서 도착하도록 플랫폼 업데이트를 구성하는 데 사용할 수 있습니다.
 

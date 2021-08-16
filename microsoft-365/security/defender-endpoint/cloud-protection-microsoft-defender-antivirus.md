@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 06/03/2021
-ms.openlocfilehash: ce54f8205e62b953022fd2518caac058f4f9bab2
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: a6e4e76f75bc5eebdf17ce4768eb13327abe630d5aff6d66033ffab43d9ad263
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854342"
 ---
 # <a name="cloud-delivered-protection-and-microsoft-defender-antivirus"></a>클라우드 제공 보호 및 Microsoft Defender 바이러스 백신
 

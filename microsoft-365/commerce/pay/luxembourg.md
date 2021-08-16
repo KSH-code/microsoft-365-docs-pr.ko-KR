@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6eb3f9db21299b5a763480e5c50a0999cb2925b7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: dd4b762ba22880b1ae0693cbf69bd7e36e974c3f48d65583e1a3d3f6e34e3a07
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53866874"
 ---
 # <a name="payment-information-for-luxembourg"></a>룩셈부르크의 결제 정보
 
@@ -31,6 +31,6 @@ EUR로만 결제하고 송장 번호를 송장 번호를 송금합니다.
 **은행:** Citibank, London  
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**SORT 코드:** 185008  
-**계정 번호:** 12207591  
+**SORT 코드: 185008**  
+**계정 번호: 12207591**  
 **계정 이름:** MICROSOFT

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
 ms.date: 06/02/2021
-ms.openlocfilehash: f604bbee94fc1b3fea7396d7e20266b120388765
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 4f1bb28be40b003060db1e33fb15070b4b38ca0f66288ca37a2e1533dc39ce2e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53590986"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854318"
 ---
 # <a name="configure-attack-surface-reduction-capabilities"></a>공격 표면 감소 기능 구성
 
@@ -32,7 +32,7 @@ ms.locfileid: "53590986"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 Endpoint용 Defender에는 여러 공격 표면 감소 기능이 포함되어 있습니다. 자세한 내용은 공격 표면 감소 [기능 개요를 참조하세요.](overview-attack-surface-reduction.md) 사용자 환경에서 공격 표면 감소를 구성하기 위해 다음 단계를 수행합니다.
 

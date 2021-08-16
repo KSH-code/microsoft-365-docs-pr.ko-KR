@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 870b3491bd0556b2d72de901917713c6d6643a5f3c31871ab33f5eb459fefaf2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2b21df0592c2ca6f3f45500236e2cd07ab7128c1
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53802783"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247550"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -127,6 +127,16 @@ ms.locfileid: "53802783"
 
 - [학습 가능한 분류자와 일치](#auto-apply-labels-to-content-by-using-trainable-classifiers)
 
+세 가지 조건 모두 전자 메일을 보내고 받을 때 보존 레이블을 자동으로 적용할 수 있지만, 사서함의 기존 항목(미사용 데이터)에는 적용할 수 없습니다. SharePoint 및 OneDrive의 항목에 대해 다음 표를 사용하여 보존 레이블을 자동으로 적용할 수 있는 시기를 식별합니다.
+
+|조건|새 항목 또는 수정된 항목 |기존 항목(미사용 데이터)|
+|:-----|:-----|:-----|
+|중요한 정보 유형 - 기본 제공| 예 | 예 |
+|중요한 정보 유형 - 사용자 지정| 예 | 아니요 |
+|특정 키워드 또는 검색 가능한 속성| 예 |예 |
+|학습 가능한 분류자| 예 | 예(지난 6개월만 해당) |
+
+
 #### <a name="auto-apply-labels-to-content-with-specific-types-of-sensitive-information"></a>특정 유형의 중요한 정보가 있는 콘텐츠에 레이블 자동 적용
 
 > [!WARNING]
@@ -148,7 +158,7 @@ ms.locfileid: "53802783"
 
 중요한 정보 유형을 사용하여 보존 레이블을 자동으로 적용할 때 고려해야 할 사항은 다음과 같습니다.
 
-- 새 항목과 수정된 항목은 자동으로 레이블을 표시할 수 있습니다.
+- 사용자 지정 중요한 정보 유형을 사용하는 경우 SharePoint 및 OneDrive의 기존 항목에 자동 레이블을 지정할 수 없습니다.
 
 #### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>키워드 또는 검색 가능 속성이 있는 콘텐츠에 레이블 자동 적용
 
@@ -161,8 +171,6 @@ KQL(키워드 쿼리 언어)에 대한 자세한 내용은 [KQL(키워드 쿼리
 쿼리 기반 자동 적용 정책은 eDiscovery 콘텐츠 검색과 동일한 검색 색인을 사용하여 콘텐츠를 식별합니다. 사용할 수 있는 검색 가능 속성에 대한 자세한 내용은 [내용 검색](keyword-queries-and-search-conditions.md)에 대한 키워드 쿼리 및 검색 조건을 참조합니다.
 
 키워드 또는 검색 가능 속성을 사용하여 보존 레이블을 자동으로 적용할 때 고려해야 할 몇 가지 사항은 다음과 같습니다.
-
-- SharePoint, OneDrive 및 Exchange에 대해 새 항목, 수정된 항목 및 기존 항목이 자동 레이블로 지정됩니다.
 
 - SharePoint의 경우 이러한 KQL 쿼리에 대해 크롤링된 속성과 사용자 지정 속성이 지원되지 않으므로 문서에 미리 정의된 관리 속성만 사용해야 합니다. 그러나 기본적으로 리파이너로 사용하도록 설정된 미리 정의된 관리 속성((RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09 및 RefinableDouble00-09)으로 테넌트 수준에서 매핑을 사용할 수 있습니다. 자세한 내용은 [SharePoint 서버](/SharePoint/technical-reference/crawled-and-managed-properties-overview)에서 탐색 및 관리 속성에 대한 개요를 참조하고, 지침은 [새 관리 속성](/sharepoint/manage-search-schema#create-a-new-managed-property)을(를) 참조합니다.
 
@@ -255,7 +263,7 @@ ProgID:Media AND ProgID:Meeting
 
 교육 가능한 분류자를 사용하여 보존 레이블을 자동으로 적용할 때 고려해야 할 사항은 다음과 같습니다.
 
-- 신규 및 수정된 품목은 자동 라벨링할 수 있으며, 지난 6개월 동안의 기존 품목도 라벨링할 수 있습니다.
+- 6개월보다 오래된 SharePoint 및 OneDrive 항목에는 자동 레이블을 지정할 수 없습니다.
 
 ## <a name="how-long-it-takes-for-retention-labels-to-take-effect"></a>보존 레이블이 적용되는 데 걸리는 시간
 
