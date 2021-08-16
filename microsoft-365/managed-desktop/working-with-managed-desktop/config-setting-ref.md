@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1245268b6128aa022a972fd0282009573558ec47
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3dd3f072ef041b20acd470727e90ab705e9ed72450bb46c8c56d89dc729e84e2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53863814"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>구성 가능한 설정 참조 - Microsoft Managed Desktop
 

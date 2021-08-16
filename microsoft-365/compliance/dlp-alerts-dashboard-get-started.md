@@ -20,16 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 정책에 대한 경고 정의 및 관리부터 시작하십시오.
-ms.openlocfilehash: ad117eb0c5460b90c92c664f0c233b81d1882327
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: f8c8474a3bb70c46ab087572bd5c2bd2eb4138dbd51d0d7a43c2d7ca7e1590b3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53895706"
 ---
 # <a name="get-started-with-the-data-loss-prevention-alert-dashboard"></a>데이터 손실 방지 경고 대시보드 시작
 
-DLP(데이터 손실 방지) 정책은 중요한 항목의 의도하지 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. Microsoft 365 센터에서 DLP 경고 관리 대시보드를 사용하여 [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) 정책 위반에 대한 [경고Microsoft 365](https://compliance.microsoft.com/) 이벤트 및 관련 메타데이터를 보는 방법을 볼 수 있습니다.
+DLP(데이터 손실 방지) 정책은 중요한 항목의 의도하지 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. DLP 정책 위반에 대한 [경고,](https://compliance.microsoft.com/) 이벤트 및 관련 메타데이터를 보기 위해 Microsoft 365 규정 준수 센터 [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) 경고 관리 대시보드를 사용하는 방법을 볼 수 있습니다.
 
 DLP 경고를 새로 사용하는 경우 데이터 손실 방지 경고에 대한 자세한 정보 대시보드를 [검토해야 합니다.](dlp-alerts-dashboard-learn.md)
 
@@ -72,8 +72,8 @@ Teams DLP를 사용할 수 있는 끝점 [DLP를](endpoint-dlp-learn-about.md) �
 
 DLP 경고 관리 대시보드를 보거나 DLP 정책에서 경고 구성 옵션을 편집하려면 다음 역할 그룹 중 하나의 구성원이 되어야 합니다.
 
-- 준수 관리자
-- 준수 데이터 관리자
+- 규정 준수 관리자
+- 규정 준수 데이터 관리자
 - 보안 관리자
 - 보안 운영자
 - 보안 읽기 권한자
@@ -115,7 +115,7 @@ DLP 정책에서 경고를 구성하는 방법에 대한 자세한 내용은 데
 
 DLP 경고 관리 대시보드에서 작업하는 경우:
 
-1. Microsoft 365 [센터에서](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
+1. 에서 [Microsoft 365 규정 준수 센터](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
 2. 경고 **탭을 선택하여** DLP 경고 대시보드를 볼 수 있습니다.
 3. 경고를 선택하여 세부 정보를 봐야 합니다.
 

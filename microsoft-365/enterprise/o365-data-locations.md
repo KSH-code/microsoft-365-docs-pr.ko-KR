@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: b3a3978bc166f9c302fe9c28b016d56742acd9de
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: ee2e3630901f5c18382f2671ba72f684602a309edd2b28efa22f3ea14567a326
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53864186"
 ---
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Microsoft 365 고객 데이터가 저장되는 위치
 
@@ -90,14 +90,14 @@ Microsoft Azure에 대한 데이터 상주 정보를 찾으려면 [지역별 사
 
 ### <a name="what-are-the-exceptions-for-intune-data-locations"></a>Intune 데이터 위치의 예외는 무엇인가요?
 
-Microsoft는 명시된 Geo 외부에 미사용 Intune 고객 데이터를 저장하지 않습니다. 다음의 경우는 예외입니다.
+Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Intune 고객 데이터를 저장하지 않습니다.
 
 - Microsoft는 고객 지원을 제공하거나, 서비스 문제를 해결하거나, 법적 요구 사항을 준수해야 합니다.
 - 고객은 다음을 사용하는 것을 비롯하여 이러한 고객 데이터 스토리지를 사용할 수 있도록 계정을 구성합니다.
 
   - 전역 캐싱 서비스를 제공하고 전 세계의 최첨단 위치에 고객 데이터를 저장하는 CDN(콘텐츠 배달 네트워크) 등과 같이 전역적으로 작동하도록 설계된 기능
 
-  - 디렉터리 데이터를 전역적으로 저장할 수 있는 Azure AD(Azure Active Directory). 미국의 Azure AD 배포(Azure AD 데이터가 미국에서만 저장되는 경우) 또는 유럽의 Azure AD 배포(Azure AD 데이터가 유럽 또는 미국에 저장되는 경우)에는 해당되지 않습니다.
+  - Azure Active Directory(Azure AD) - 디렉터리 데이터를 전체적으로 저장할 수 있습니다. 이는 미국(Azure AD 데이터가 미국에만 저장됨) 또는 유럽(Azure AD 데이터가 유럽 또는 미국에 저장됨)의 Azure AD 배포에는 적용되지 않습니다.
    
   - 일반적으로 미국에 고객 데이터가 저장되지만 전역적으로 저장할 수 있는 미리 보기, 베타 또는 기타 시험판 서비스
 

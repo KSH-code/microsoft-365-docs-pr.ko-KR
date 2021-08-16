@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 경고 및 경고 대시보드에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b6fd698e535e006149f6ce3a2a5bc57d0c92c7e2
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: 0474c5609fcd979fa8db7e47857c099cbed7be365bb55ee80e507ad3375da660
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53895662"
 ---
 # <a name="learn-about-the-data-loss-prevention-alerts-dashboard"></a>데이터 손실 방지 알림 대시보드에 대한 자세한 정보
 
@@ -35,7 +35,7 @@ DLP(데이터 손실 방지) 정책의 기준이 사용자가 중요한 항목�
 
 ## <a name="workloads"></a>워크로드
 
-Microsoft 365 규정 준수 센터의 [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts)경고 관리 [대시보드는](https://compliance.microsoft.com/)다음 워크로드에 대한 DLP 정책에 대한 경고를 보여줍니다.
+DLP [경고 관리](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) [대시보드](https://compliance.microsoft.com/)의 Microsoft 365 규정 준수 센터 워크로드에 대한 DLP 정책에 대한 경고가 표시됩니다.
 
 - Exchange
 - SharePoint

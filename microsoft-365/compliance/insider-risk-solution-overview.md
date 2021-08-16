@@ -1,5 +1,5 @@
 ---
-title: 내부자 위험 솔루션
+title: 내부 위험 솔루션
 description: 조직의 내부자 위험 솔루션을 통해 조직의 위험을 최소화하는 데 도움이 되는 방법을 Microsoft 365.
 keywords: Microsoft 365, 내부자 위험, 규정 준수
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-overview
-ms.openlocfilehash: c40c30c44e5b8010112adc11d7faee49563761bf
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 6967931f2c6a9382825218f36cdf6480d39b9ec3070d4c5f659ec881f1bd6c6e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53879836"
 ---
 # <a name="insider-risk-solutions-in-microsoft-365"></a>Microsoft 365의 참가자 위험 솔루션
 
@@ -59,7 +59,7 @@ Microsoft 365 방지 기능은 내부자 위험 제품 및 솔루션에 디자�
 - Microsoft 365 E3 + Microsoft 365 E5 내부자 위험 관리 추가 기능
 - Microsoft 365 A5 구독(유료 또는 평가판)
 - Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
-- Microsoft 365 A3 구독 + Microsoft 365 A5 내부자 위험 관리 추가 기능
+- Microsoft 365 A3 + Microsoft 365 A5 내부자 위험 관리 추가 기능
 - Microsoft 365 G5 구독(유료 또는 평가판)
 - Microsoft 365 G5 구독 + Microsoft 365 G5 준수 추가 기능
 - Microsoft 365 G5 구독 + Microsoft 365 G5 내부자 위험 관리 추가 기능
@@ -78,7 +78,7 @@ Microsoft 365 방지 기능은 내부자 위험 제품 및 솔루션에 디자�
 - Microsoft 365 E3 + Microsoft 365 E5 내부자 위험 관리 추가 기능
 - Microsoft 365 A5 구독(유료 또는 평가판)
 - Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
-- Microsoft 365 A3 구독 + Microsoft 365 A5 내부자 위험 관리 추가 기능
+- Microsoft 365 A3 + Microsoft 365 A5 내부자 위험 관리 추가 기능
 - Microsoft 365 G5 구독(유료 또는 평가판)
 - Microsoft 365 G3 + Microsoft 365 G5 준수 추가 기능
 - Microsoft 365 G3 + Microsoft 365 G5 Insider Risk Management 추가 기능
@@ -98,7 +98,7 @@ Microsoft 365 방지 기능은 내부자 위험 제품 및 솔루션에 디자�
 - Microsoft 365 E3 구독 + Microsoft 365 E5 Compliance 추가 기능
 - Microsoft 365 E3 + Microsoft 365 E5 내부자 위험 관리 추가 기능
 - Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
-- Microsoft 365 A3 구독 + Microsoft 365 A5 내부자 위험 관리 추가 기능
+- Microsoft 365 A3 + Microsoft 365 A5 내부자 위험 관리 추가 기능
 
 ### <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
 
@@ -113,7 +113,7 @@ Microsoft 365 방지 기능은 내부자 위험 제품 및 솔루션에 디자�
 - Microsoft 365 E3 구독 + Microsoft 365 E5 Compliance 추가 기능
 - Microsoft 365 E3 구독 + Microsoft 365 E5 정보 보호 및 거버넌스 추가 기능
 - Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
-- Microsoft 365 A3 구독 + Microsoft 365 A5 정보 보호 및 거버넌스 추가 기능
+- Microsoft 365 A3 + Microsoft 365 A5 정보 보호 및 거버넌스 추가 기능
 
 ## <a name="deploy-microsoft-365-insider-risk-solutions"></a>내부자 Microsoft 365 솔루션 배포
 
@@ -143,7 +143,7 @@ Microsoft 365 조직에서 이러한 사용자를 알리고 교육하는 데 도
 | 솔루션/영역 | 리소스 |
 |:------------------|:--------------|
 | Microsoft 365에서 내부 위험 관리 |[학습 경로 완료](/learn/paths/m365-compliance-insider) <br> 이 학습 경로에는 통신 규정 준수, 내부자 위험 관리, 정보 장벽 및 권한 있는 액세스 관리를 위한 모든 개별 솔루션 모듈이 포함됩니다. 모든 모듈을 완료하려면 이 학습 경로를 선택합니다. |
-| 커뮤니케이션 규정 준수 | [학습 모듈: 교육용 통신 규정 Microsoft 365](/learn/modules/m365-compliance-insider-prepare-communication-compliance) <br> 이 모듈에서는 통신 규정 준수를 사용하여 코드 실행 정책 위반을 식별하고 수정하는 방법에 대한 기본 정보를 알아보고, 통신 준수 정책을 만들기 전에 필요한 선행 요구를 다루며, 통신 규정 준수의 기본 제공 미리 정의된 정책 템플릿 유형에 대해 학습할 수 있습니다. |
-| 내부자 위험 관리 | [학습 모듈: 2013의 내부자 위험 Microsoft 365](/learn/modules/m365-compliance-insider-manage-insider-risk) <br> 이 모듈은 조직의 내부 위험을 Microsoft 365, 감지 및 포함하는 방법을 알아보고, 기본 제공 미리 정의된 정책 템플릿의 유형에 대해 알아보고, 내부자 위험 정책을 만들기 전에 필요한 기본 선행 작업을 이해하고, 내부자 위험 관리 사례에 대해 수행할 수 있는 작업 유형을 설명하는 데 도움을 줄 수 있습니다. |
-| 정보 장벽 | [학습 모듈: 정보 장벽 계획](/learn/modules/m365-compliance-insider-plan-information-barriers) <br> 이 모듈은 정보 장벽 정책이 조직에서 관련 산업 표준 및 규정을 준수하는 데 어떻게 도움이 될 수 있도록 하는지 알아보고, 정보 장벽이 적용될 수 있는 상황 유형을 나열하고, 정보 장벽 정책을 만드는 프로세스를 설명하고, 정보 장벽이 적용된 후 예기치 않은 문제를 해결하는 방법을 설명하는 데 도움이 됩니다. |
-| 권한이 부여된 액세스 관리 | [학습 모듈: 권한 있는 액세스 관리 구현](/learn/modules/m365-compliance-insider-implement-privileged-access-management) <br> 이 모듈은 권한 있는 액세스 관리와 권한 있는 ID 관리 간의 차이점을 이해하고, 권한 있는 액세스 관리 프로세스 흐름을 이해하고, 권한 있는 액세스 관리를 구성 및 사용하도록 설정하는 방법의 기본을 이해하는 데 도움이 됩니다. |
+| 커뮤니케이션 규정 준수 | [Learning 모듈: Microsoft 365](/learn/modules/m365-compliance-insider-prepare-communication-compliance) <br> 이 모듈에서는 통신 규정 준수를 사용하여 코드 실행 정책 위반을 식별하고 수정하는 방법에 대한 기본 정보를 알아보고, 통신 준수 정책을 만들기 전에 필요한 선행 요구를 다루며, 통신 규정 준수의 기본 제공 미리 정의된 정책 템플릿 유형에 대해 학습할 수 있습니다. |
+| 내부자 위험 관리 | [Learning 모듈: 내부자 위험 관리 Microsoft 365](/learn/modules/m365-compliance-insider-manage-insider-risk) <br> 이 모듈은 조직의 내부 위험을 Microsoft 365, 감지 및 포함하는 방법을 알아보고, 기본 제공 미리 정의된 정책 템플릿의 유형에 대해 알아보고, 내부자 위험 정책을 만들기 전에 필요한 기본 선행 작업을 이해하고, 내부자 위험 관리 사례에 대해 수행할 수 있는 작업 유형을 설명하는 데 도움을 줄 수 있습니다. |
+| 정보 장벽 | [Learning 모듈: 정보 장벽 계획](/learn/modules/m365-compliance-insider-plan-information-barriers) <br> 이 모듈은 정보 장벽 정책이 조직에서 관련 산업 표준 및 규정을 준수하는 데 어떻게 도움이 될 수 있도록 하는지 알아보고, 정보 장벽이 적용될 수 있는 상황 유형을 나열하고, 정보 장벽 정책을 만드는 프로세스를 설명하고, 정보 장벽이 적용된 후 예기치 않은 문제를 해결하는 방법을 설명하는 데 도움이 됩니다. |
+| 권한이 부여된 액세스 관리 | [Learning 모듈: 권한 있는 액세스 관리 구현](/learn/modules/m365-compliance-insider-implement-privileged-access-management) <br> 이 모듈은 권한 있는 액세스 관리와 권한 있는 ID 관리 간의 차이점을 이해하고, 권한 있는 액세스 관리 프로세스 흐름을 이해하고, 권한 있는 액세스 관리를 구성 및 사용하도록 설정하는 방법의 기본을 이해하는 데 도움이 됩니다. |

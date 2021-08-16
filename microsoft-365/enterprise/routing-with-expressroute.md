@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: 이 문서에서는 Azure ExpressRoute 라우팅 요구 사항, 회로 및 라우팅 도메인에 대해 Office 365.
-ms.openlocfilehash: b27e3cfe41af8cf5e444f1221f1cee2e3bbf5826
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: e36730f457f17ca6e789bd0ba06998824a6c590a45c53f9050f497c762f5985b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53904498"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Office 365용 ExpressRoute를 사용한 라우팅
 

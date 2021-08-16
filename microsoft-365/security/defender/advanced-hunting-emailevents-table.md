@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: be0239e4d414dd82b6f37866e1e7980f6681dd41ae222a7796d0ebd421372a61
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 76f0478167c020d470fec32f2f2020a9263b0b44
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53799517"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247204"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -41,6 +41,9 @@ ms.locfileid: "53799517"
 > 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` Schema 참조를 사용합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
+
+> [!IMPORTANT]
+> 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
@@ -78,6 +81,7 @@ ms.locfileid: "53799517"
 | `UserLevelAction` | 문자열 | 받는 사람이 정의한 사서함 정책에 대한 일치에 대한 응답으로 전자 메일에 대해 수행된 작업 |
 | `UserLevelPolicy` | 문자열 | 전자 메일에 수행된 작업을 트리거한 최종 사용자 사서함 정책 |
 | `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
+| `AuthenticationDetails` | 문자열 | DMARC, DKIM, SPF 또는 여러 인증 유형 조합(CompAuth)과 같은 전자 메일 인증 프로토콜의 통과 또는 실패 판정 목록 |
 
 ## <a name="related-topics"></a>관련 항목
 
