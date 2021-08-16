@@ -14,12 +14,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직 내 통합 앱 포털에서 조직의 사용자 및 그룹에 대한 Microsoft 및 Microsoft 파트너 앱을 찾고 테스트하고 Microsoft 365 관리 센터.
-ms.openlocfilehash: 7a4daff76262e2fc08b5d205eba81bd8016718f8b7461c930a5967454cdaa2eb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5bcbdebbacf8d9e4710dd7f9168d3f6dbcb4af5a
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824543"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346127"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>통합 앱 포털에서 Microsoft 365 앱 테스트 및 배포
 
@@ -60,7 +60,7 @@ ms.locfileid: "53824543"
 
 통합 앱 페이지의 목록에 없는 게시된 앱을 찾고, 테스트하고, 완전히 배포할 수 있습니다. 관리 센터에서 앱을 구매하고 라이선스를 할당하면 단일 위치에서 목록에 Microsoft 및 Microsoft 파트너 앱을 추가할 수 있습니다.
 
-1. 관리 센터의 왼쪽 네비게이션에서 를 선택하고 설정 를 선택한 다음 **통합 앱을 선택하세요.** 
+1. 관리 센터의 왼쪽 네비게이션에서 를 선택하고 설정 를 선택한 다음 <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">**통합 앱을 선택하세요.**</a> 
 
 2. 앱 **보기를 다운로드하려면** 앱 다운로드를 선택합니다.
 
@@ -247,7 +247,7 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 Office�
 ## <a name="add-in-states"></a>추가 기능 상태
 추가 기능의 상태는 **On** 또는   Off **상태일 수**   있습니다. 
 
-| 상태 | 상태가 적용되는 경우 | 영향 |
+| 시/도 | 상태가 적용되는 경우 | 영향 |
 |:-----|:-----|:-----|
 |**활성**  <br/> |관리자가 추가 기능을 업로드하고 사용자 또는 그룹에 할당했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹은 관련 클라이언트에서 추가 기능을 볼 수 있습니다.  <br/> |
 |**해제됨**  <br/> |관리자가 추가 기능을 해제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> 추가 기능 상태가 활성으로 변경되면 사용자 및 그룹이 추가 기능에 다시 액세스할 수 있습니다.  <br/> |

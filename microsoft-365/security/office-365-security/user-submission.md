@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4f14f87355181e9b7f6c0b52aa6b122b560c5f23
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 94e796304ed562c7464ad64362159d231ace8882
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53338688"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258371"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -50,15 +50,17 @@ ms.locfileid: "53338688"
 
 - 스팸 지수 설정 Exchange 메일 흐름 규칙을 만들어 사용자 지정 사서함에서 스팸 필터링을 건너뜁. SCL을 스팸 필터링 무시로 설정하는 [메시지의 SCL을](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) 설정하는 메일 흐름 규칙 만들기를 **참조합니다.**
 
-- [첨부 금고](set-up-safe-attachments-policies.md) 검사가 꺼져 있는 사용자 지정 사서함이 포함된 금고 첨부 파일 정책을 만들 수 있습니다(금고 알 수 없는 맬웨어 응답 섹션 \> 해제).
-
-- [금고](set-up-safe-links-policies.md) 링크 검색이 꺼져 있는 사용자 지정 사서함을 포함하는 금고 링크 정책을 만드십시오( 메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택 섹션 \> **끄기).**
-
 - [맬웨어에](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) 대한 ZAP(제로 아워 자동 제거)가 꺼져 있는 사용자 지정 사서함을 포함하는 맬웨어 방지 정책을 만들 수 있습니다(**보호** 설정 섹션 맬웨어에 대한 제로 아워 자동 제거 사용이 선택되어 있지 \>  않습니다).
 
 - [스팸에](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) 대한 ZAP 및 피싱용 ZAP가 꺼져 있는 사용자 지정 사서함을 포함하는 스팸 방지 정책을 만들 수 **있습니다(** 제로 아워 자동 제거 섹션 사용 제로 아워 자동 제거(ZAP)를 선택하지 \>  않았습니다.
 
 - 사용자 지정 사서함에서 정크 메일 규칙을 사용하지 않도록 설정 사서함에서 [정크 메일 Exchange Online 구성을 사용하여](configure-junk-email-settings-on-exo-mailboxes.md) 정크 메일 규칙을 사용하지 않도록 설정할 수 있습니다. 이 기능을 사용하지 않도록 설정한 후 EOP는 스팸 필터링 판정 동작에 따라 메시지를  정크 메일 폴더로 이동하거나 사서함의 수신할 수 있는 목록 모음으로 메시지를 이동할 수 없습니다.
+
+Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 사용자에게 영향을 끼치지 못하도록 아래를 구성해야 합니다.
+
+- [금고](set-up-safe-links-policies.md) 링크 검색이 꺼져 있는 사용자 지정 사서함을 포함하는 금고 링크 정책을 만드십시오( 메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택 섹션 \> **끄기).**
+
+- [첨부 금고](set-up-safe-attachments-policies.md) 검사가 꺼져 있는 사용자 지정 사서함이 포함된 금고 첨부 파일 정책을 만들 수 있습니다(금고 알 수 없는 맬웨어 응답 섹션 \> 해제).
 
 사서함이 적용 가능한 모든 선행 요구 사항을 충족하는지 확인한 후 이 문서의 절차에 따라 사용자 전송 사서함을 구성할 수 있습니다.
 
@@ -139,7 +141,7 @@ ms.locfileid: "53338688"
 - 2| 또는 정크 아님
 - 3| 또는 피싱
 
-예를 들어 다음과 같습니다.
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 `3|This part is ignored by the system` <br>
 `Not Junk:This part of the subject is ignored as well`

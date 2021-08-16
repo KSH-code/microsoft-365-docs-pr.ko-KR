@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 클라우드 독일 클라우드에서 글로벌 Exchange Online 서비스로 전환하는 Exchange Online 방법 학습
-ms.openlocfilehash: e075aeaaaa101da261116116d787f2313edd0254ad3ab692dd51a04fb33245c6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c2bebc52557dd143d010546574418c165e1a7002
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823570"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346055"
 ---
 # <a name="update-your-mx-records-to-transition-to-the-global-exchange-online-service"></a>MX 레코드를 업데이트하여 전역 Exchange Online 서비스로 전환
 
-1. 에 [Microsoft 365 관리 센터](https://admin.microsoft.com)로그인하고 설정   >  **도메인으로 이동**
+1. 로그인하여 Microsoft 365 관리 센터 **도메인으로**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**설정 이동**</a>
 
 2. 각 도메인의 오른쪽에 상태가 표시됩니다. 조직의 도메인이 Microsoft 클라우드 독일을 Exchange Online MX 레코드를 업데이트해야 합니다.
 

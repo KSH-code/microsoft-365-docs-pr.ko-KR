@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 링크를 관리하여 금고 사이트에서 비즈니스를 보호하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7e6b4507cd363a448812b48e3eafc7f4c077be3c
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 236597bf06913c75a5cd1c702084d7bb7085f4cf4edd5991a6ebe61e2fc159e3
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53896406"
 ---
 # <a name="manage-safe-links"></a>링크 금고 관리
 

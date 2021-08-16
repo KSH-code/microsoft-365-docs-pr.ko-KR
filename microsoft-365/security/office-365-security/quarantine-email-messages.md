@@ -22,12 +22,12 @@ ms.custom:
 description: 관리자는 잠재적으로 위험하거나 원치 않는 메시지를 보유하는 EOP(Exchange Online Protection)에서 검사에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b2a11f5f9e1e730a3b0cc09625ec8e8cb592d869
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: f0ca5a61a7e71a2414fcaf1c0b02aec04820ca17
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333809"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258434"
 ---
 # <a name="quarantined-email-messages-in-eop"></a>EOP에서 Quarantined email messages
 
@@ -42,7 +42,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 맬웨어 방지 정책은 첨부 파일이  맬웨어를 포함하는 것으로 확인된 경우 메시지를 자동으로 검지합니다. 자세한 내용은 EOP에서 맬웨어 [방지 정책 구성을 참조하세요.](configure-anti-malware-policies.md)
 
-기본적으로 스팸 방지 정책은 피싱 메시지를 차단하고 스팸 및 대량 전자 메일 메시지를 사용자의 정크 메일 폴더로 배달합니다. 그러나 스팸 방지 정책을 만들고 사용자 지정하여 스팸 및 대량 전자 메일 메시지를 차단할 수도 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+기본적으로 스팸 방지 정책은 피싱 및 높은 신뢰도 피싱 메시지를 차단하고 스팸, 높은 스팸 및 대량 전자 메일 메시지를 사용자의 정크 메일 폴더로 전달합니다. 그러나 스팸 방지 정책을 만들고 사용자 지정하여 스팸, 높은 신뢰도 스팸 및 대량 전자 메일 메시지를 차단할 수도 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 사용자와 관리자는 모두 다음을 통해 분리된 메시지로 작업할 수 있습니다.
 

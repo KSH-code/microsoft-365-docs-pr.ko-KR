@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 에지에서 사용자 암호를 다시 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 42832bd48f637589687b75c4995ae58154b62226
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: db89626096f151f9ebc446e08ff970a8f02c4aa2a966f6c882a7012745b96f07
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53896514"
 ---
 # <a name="reset-passwords-for-your-users"></a>사용자의 암호 다시 설정
 
@@ -37,7 +37,7 @@ ms.locfileid: "51580489"
 ## <a name="try-it"></a>사용해 보세요!
 
 1. 사용자가 새 암호를 요청하면 전자 메일로 암호 재설정 요청을 받게 됩니다. 암호를 다시 설정하려면 앱 시작 관리자를 열고 관리자 를 **선택합니다.**
-1. Microsoft 365 관리 센터에서 **사용자,** 활성 사용자 를 선택한 다음 재설정을 요청한 사용자 옆에 있는 키 아이콘을 선택합니다.
+1. 이 Microsoft 365 관리 센터 **사용자,** 활성 사용자 를 선택한 다음 재설정을 요청한 사용자 옆에 있는 키 아이콘을 선택합니다.
 1. 암호 **자동 생성을 선택하여 임의** 암호를 자동으로 만들 수 있습니다.
 1. 초기화 **를 선택합니다.**
 1. 전자 **메일로 암호 보내기 확인란을** 선택합니다.

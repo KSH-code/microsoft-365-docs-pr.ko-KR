@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 204530b8b4a87215053ddcb0434e40e45271da3d
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 57a324310458dc15f5edcd6012ab381bb4d5041d902b8871d85cb318f0e7023e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841009"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53873638"
 ---
 # <a name="example-of-an-identity-based-attack"></a>ID 기반 공격의 예
 
@@ -36,11 +36,11 @@ ms.locfileid: "52841009"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft Defender for Identity는 조직에서 ID를 손상하려는 악의적인 시도를 감지하는 데 도움이 될 수 있습니다. ID에 대한 Defender는 Microsoft 365 Defender와 통합되어 있기 때문에 보안 분석가가 Id를 위해 Defender에서 오는 위협(예: 의심되는 Netlogon 권한 상승 시도)을 볼 수 있습니다.
+Microsoft Defender for Identity는 조직에서 ID를 손상하려는 악의적인 시도를 감지하는 데 도움이 될 수 있습니다. ID에 대한 Defender는 Microsoft 365 Defender 통합하기 때문에 보안 분석가가 Id를 위해 Defender에서 오는 위협(예: 의심되는 Netlogon 권한 상승 시도)을 볼 수 있습니다.
 
 ## <a name="analyzing-the-attack-in-microsoft-defender-for-identity"></a>Id에 대한 Microsoft Defender의 공격 분석
 
-Microsoft 365 Defender를 사용하면 분석가가 인시던트  페이지의 경고 탭에서 검색 원본을 통해 경고를 필터링할 수 있습니다. 다음 예제에서는 ID에 대한 검색 원본이 **Defender로 필터링됩니다.** 
+Microsoft 365 Defender 인시던트 페이지의 경고 탭에서 분석가가 검색 원본을 통해 경고를 필터링할 수 있습니다.  다음 예제에서는 ID에 대한 검색 원본이 **Defender로 필터링됩니다.** 
 
 :::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mdi-filter.png" alt-text="ID에 대한 Defender에 대한 검색 원본 필터링 예":::
 

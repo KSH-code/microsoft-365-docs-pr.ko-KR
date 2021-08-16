@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f342a4a104fb908bc8b8c05d2d53d190de8d64c9a826fb87be641e63921bb456
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 478a187494ff247c7d3e8a258e8ac73eb921d4d2
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793829"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346031"
 ---
 # <a name="get-file-related-alerts-api"></a>파일 관련 알림 다운로드 API
 
@@ -44,6 +44,7 @@ ms.locfileid: "53793829"
 ## <a name="limitations"></a>제한 사항
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
+2. SHA-1 해시 함수만 지원됩니다(MD5 또는 SHA-256은 지원되지 않습니다).
 
 ## <a name="permissions"></a>사용 권한
 
@@ -80,7 +81,7 @@ GET /api/files/{id}/alerts
 
 ## <a name="response"></a>응답
 
-성공 및 파일이 있는 경우 - 본문에 [](alerts.md) 경고 엔터티 목록이 있는 200 OK. 파일이 없는 경우 - 404 찾을 수 없습니다.
+성공 및 파일이 있는 경우 - 본문에 [](alerts.md) 경고 엔터티 목록이 있는 200 OK. 파일이 없는 경우 - 200 OK(빈 집합)입니다.
 
 ## <a name="example"></a>예제
 

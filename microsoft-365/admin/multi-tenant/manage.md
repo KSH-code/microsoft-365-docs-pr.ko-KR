@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 단일 위치에서 테넌트를 관리할 수 있는 기능을 제공 하는 테넌트 전환기 및 다중 테넌트 보기를 사용하는 방법을 학습합니다.
-ms.openlocfilehash: 9573106ca7c82f92582fbe9eeebfdb7bc5bab751e67b105f55c35bed397f7d4f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 09256ed8653924fc646f0a5d621d0e55e4a07856
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823608"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346091"
 ---
 # <a name="multi-tenant-management"></a>다중 테넌트 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "53823608"
 
 ## <a name="move-between-tenants"></a>테넌트 간 이동
 
-1. 다음 Microsoft 365 관리 센터에서조그 이름을 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>를 선택합니다.
 
     :::image type="content" source="../../media/macorgswitcher.png" alt-text="다중 테넌트 전환기.":::
 
@@ -46,7 +46,7 @@ ms.locfileid: "53823608"
 
 ## <a name="view-all-tenants-page"></a>모든 테넌트 보기 페이지
 
-1. In the Microsoft 365 관리 센터, in the left nav, select **All tenants**.
+1. 왼쪽 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 모든 **테넌트 를 선택합니다.**
 - 모든 **테넌트 페이지에서** 다음을 할 수 있습니다.
   - 서비스 상태 평가
   - 라이선스 사용 검토
@@ -59,7 +59,7 @@ ms.locfileid: "53823608"
 
 서비스 상태 보기에는 인시던트 또는 권고가 테넌트에 영향을 주는지가 표시됩니다. 관리되는 테넌트의 수가 영향을 받는지 알 수 있습니다.
 
-1. 서비스 Microsoft 365 관리 센터 다중 테넌트 보기에서 서비스 상태 **를 선택합니다.**
+1. 다중 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>보기에서 서비스 상태 를 **선택합니다.**
 2. 서비스 상태 **페이지** 집계 보기에서 총 인시던트 수, 관리되는 테넌트에 영향을 주는 총 권고 수 및 활성 인시던트가 있는 서비스 수를 볼 수 있습니다. 인시던트 및 권고의 영향을 받는 테넌트의 수를 볼 수도 있습니다.
 
     - 필터 옵션을 사용하여 문제 유형 또는 서비스별로 문제를 볼 수 있습니다.

@@ -19,12 +19,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Sharepoint 및 외부 끝점에 대한 통화 제한과 같은 SharePoint Online의 최신 사이트에 대한 성능 권장 사항에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2429869c5397e0260876ee5a765ea18ae3fc42a1
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 6ae0ab89d0b940d41ee2f8056d4cdaf35f7c957784a315612413cb37fd219c58
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899214"
 ---
 # <a name="sharepoint-online-modern-portal-site-limits"></a>SharePoint 온라인 최신 포털 사이트 제한
 

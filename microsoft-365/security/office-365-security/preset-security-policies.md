@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 61166c78f31a86882ef0e2dc2a79683aea794040
-ms.sourcegitcommit: 233989a02a3fc6db33c995ad06b1f820f08f8f0a
+ms.openlocfilehash: cfabb6a33c2d107e4f4822ed57e6e9ff1f8cc718
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53383465"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258441"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
@@ -99,7 +99,7 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
 3. 사용자 지정 보안 정책
 4. 기본 보안 정책
 
-즉, **엄격한** 보호 정책의 설정은 표준 보호 정책의 설정을 오버라데이트합니다. 이 정책은 기본 정책의 설정을 정의하는 사용자 지정 정책의 설정을 정의합니다.  
+즉, **엄격한** 보호 정책의 설정은 표준 보호 정책의 설정을 오버라데이트합니다. 이 정책은 기본 정책의 설정을 정의하는 사용자 지정 정책의 설정을 정의합니다. 
 
 예를 들어 **표준** 보호에 보안 설정이 있는 경우 관리자가 사용자에 대해 **표준** 보호를 사용하도록 설정한 경우 표준 보호 설정은 사용자 지정 정책 또는 기본 정책(동일한 사용자)에서 해당 설정에 대해 구성된 설정 대신 적용됩니다.  특정 요구 사항을 충족하기 위해 조직의 다른 사용자에게 사용자 지정  정책을 적용하는 동안 **표준** 또는 엄격한 보호 정책만 적용하려는 조직의 일부가 있을 수 있습니다.
 
@@ -121,7 +121,7 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
 
 ### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>Microsoft 365 Defender 포털을 사용하여 미리 설정한 보안 정책을 사용자에게 할당
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 페이지 템플릿 기반 정책 섹션 보안 정책 미리 \>  \>  \>  \> **설정으로 이동합니다.**
+1. Microsoft 365 Defender 포털의 템플릿 기반 정책  섹션에서 전자 메일 & 공동 작업 정책 & 규칙 위협 정책 미리 설정 보안 \>  \>  \>  **정책 섹션으로** 이동하십시오.
 
 2. 표준 **보호 또는** 엄격한 **보호에서** 편집을 **클릭합니다.**
 

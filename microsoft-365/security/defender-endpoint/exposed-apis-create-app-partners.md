@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 77a70a6d05d62d9ca93dcca18f0801f9f2635d2d
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 36cd53e5cf88fee136689af503a68b3119dac0af4a8576f6dbad36f11351aafd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649477"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53898518"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>끝점 API용 Microsoft Defender를 통한 파트너 액세스
 
@@ -132,7 +132,7 @@ ms.locfileid: "53649477"
 
    또한 고객에게 테넌트 ID를 요청하고 토큰을 구할 때 나중에 사용할 수 있도록 저장해야 합니다.
 
-- **완료!** 응용 프로그램을 성공적으로 등록했습니다.
+- **완료되었습니다!** 응용 프로그램을 성공적으로 등록했습니다.
 - 토큰 획득 및 유효성 검사에 대한 자세한 내용은 아래 예제를 참조하세요.
 
 ## <a name="get-an-access-token-example"></a>액세스 토큰 예제 얻기

@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 Microsoft 365 Defender 포털에서 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 전자 메일 첨부 파일을 다시 검색하기 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d18dd7f5dc702f08a722652394aeb0102f100ef
-ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
+ms.openlocfilehash: 4ce1ea9e06167f0fec4431438c48c967f12a8a46
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53409059"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58258401"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -140,6 +140,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
      - **제출 이유**<sup>\*</sup>
      - **상태 다시 검색**<sup>\*</sup>
      - **결과 다시 검색**<sup>\*</sup>
+     - **태그**<sup>\*</sup>
      - **필터 판정**
      - **배달/차단 이유**
      - **제출 ID**
@@ -159,6 +160,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
      - **제출 ID:** 모든 제출에 할당된 GUID 값입니다.
      - **네트워크 메시지 ID**
      - **보낸 사람**
+     - **태그**
 
      완료되면 적용을 **클릭합니다.**
 
@@ -201,6 +203,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
      - **보낸 사람**<sup>\*</sup>
      - **보고된 이유**<sup>\*</sup>
      - **결과 다시 검색**<sup>\*</sup>
+     - **태그**<sup>\*</sup>
      - **보고된 메시지 ID**
      - **네트워크 메시지 ID**
      - **보낸 사람 IP**
@@ -217,6 +220,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
      - **보낸 사람**
      - **보고된 이유:** **정크** 메일 아님, **피싱** **또는** 스팸 .
      - **피싱 시뮬레이션:** **예** 또는 **아니요**
+     - **태그**
 
      완료되면 적용을 **클릭합니다.**
 

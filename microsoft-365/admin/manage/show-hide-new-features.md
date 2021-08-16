@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자가 Office 기능의 Office 'Office 새로운 기능' 기능을 사용하여 > Office 앱 기능의 새로운 기능을 Windows 기능을 사용하여 표시하거나 숨길 Microsoft 365 관리 센터.
-ms.openlocfilehash: 882616a8ed0f4a4198bd7987ea596fe2c0cfc83dbe844e2ca5e354bbca768bcc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 22801436a4502dd27e9b290080bcb6f1936550ac
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824578"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346259"
 ---
 # <a name="manage-which-office-features-appear-in-whats-new"></a>새로운 기능에 Office 기능 관리
 
@@ -39,14 +39,13 @@ ms.locfileid: "53824578"
 
 ## <a name="show-or-hide-new-features"></a>새 기능 표시 또는 숨기기
 
-1. In the Microsoft 365 관리 센터, **under 설정**, choose **Org settings**.
-2. 서비스 **탭에서** 에서 의 **새로운** Office.
-3. 기능 이름을 클릭하면 플라이아웃 패널이 다음 정보와 함께 표시됩니다.
+1. In the Microsoft 365 관리 센터, **under 설정**, choose **The** <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank"> **Services** tab</a>, and then select **What's new in Office.**
+1. 기능 이름을 클릭하면 플라이아웃 패널이 다음 정보와 함께 표시됩니다.
      - 기능에 대한 간단한 설명입니다.
      - 기능에 대해 자세히 알아보는 문서 링크입니다.
      - 기능이 Office 응용 프로그램입니다.
      - 이 기능을 채널에서 사용할 수 있는 첫 번째 버전(릴리스)입니다.
-4. 사용자에서 **숨기기 를 선택 합니다.** 또는 이전에 기능을 숨기면 사용자에게 **표시를 선택 합니다.**
+1. 사용자에서 **숨기기 를 선택 합니다.** 또는 이전에 기능을 숨기면 사용자에게 **표시를 선택 합니다.**
 
 새로운 기능 페이지에 표시될  Office 관리에서 여러 기능을 선택한 다음 숨기기 또는 표시를 **선택할** 수도 **있습니다.**
 

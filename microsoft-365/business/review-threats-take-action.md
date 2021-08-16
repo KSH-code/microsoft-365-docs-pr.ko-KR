@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Microsoft Defender 바이러스 백신 장치에서 감지된 위협을 검토하고 Windows 10 방법을 알아보십시오.
-ms.openlocfilehash: 15e99fb75e4a3ac1af842ca7d0b900e02cbc6bd4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f2edd27c527cc2b9fd8c986191a0bad5c0844da68880f8d8d775491e3480babd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912789"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53882096"
 ---
 # <a name="review-detected-threats-and-take-action"></a>탐지된 위협 검토 및 조치 수행
 
@@ -32,7 +32,7 @@ Microsoft Defender 바이러스 백신 위협을 감지하고 보호합니다.
 - 피싱 시도
 - 데이터 도난 시도
 
-IT 전문가/관리자는 Windows 10 관리 센터의 [Intune에](/mem/intune/enrollment/device-enrollment) 등록된 모든 장치에서 위협 Microsoft 365 볼 수 있습니다. 다음과 같은 요약 정보가 표시 됩니다.
+IT 전문가/관리자는 사용자 계정의 [Intune에](/mem/intune/enrollment/device-enrollment) 등록된 Windows 10 장치 전반에 걸쳐 위협 감지에 대한 정보를 볼 Microsoft 365 관리 센터. 다음과 같은 요약 정보가 표시 됩니다.
 
 - 바이러스 백신 보호가 필요한 장치 수
 - 보안 정책을 준수하지 않는 장치 수
@@ -40,8 +40,8 @@ IT 전문가/관리자는 Windows 10 관리 센터의 [Intune에](/mem/intune/en
 
 위협 감지 및 장치에 대한 특정 정보를 볼 수 있는 몇 가지 옵션이 있습니다.
 
-- Microsoft 365  관리 센터의 활성 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">장치 페이지입니다.</a> 이 [문서의 활성](#manage-threat-detections-on-the-active-devices-page) 장치 페이지에서 위협 감지 관리를 참조하세요.
-- Microsoft 365  센터의 활성 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">위협 페이지입니다.</a> 이 [문서의 활성 위협 페이지에서 위협 감지](#manage-threat-detections-on-the-active-threats-page) 관리를 참조하세요.
+- 의 **활성 장치** <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">페이지는 Microsoft 365 관리 센터.</a> 이 [문서의 활성](#manage-threat-detections-on-the-active-devices-page) 장치 페이지에서 위협 감지 관리를 참조하세요.
+- 의 **활성 위협** <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">페이지는 Microsoft 365 관리 센터.</a> 이 [문서의 활성 위협 페이지에서 위협 감지](#manage-threat-detections-on-the-active-threats-page) 관리를 참조하세요.
 - 에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">있는</a>바이러스 Microsoft Endpoint Manager.  이 [문서의 보안 위협 Microsoft Endpoint Manager](#manage-threat-detections-in-microsoft-endpoint-manager) 관리를 참조하세요.
 
 자세한 내용은 에서 [검색한 위협을 Microsoft Defender 바이러스 백신.](threats-detected-defender-av.md)
@@ -50,7 +50,7 @@ IT 전문가/관리자는 Windows 10 관리 센터의 [Intune에](/mem/intune/en
 
 다음 절차는 고객 지원이 있는 Microsoft 365 Business Premium.
 
-1. 의 Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 이동하여 로그인합니다.
+1. 의 Microsoft 365 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 이동하여 로그인합니다.
 
 2. 탐색 페이지에서 장치 활성 **장치를**  >  **선택합니다.** 활성 장치 목록과 보호 상태, 바이러스 백신(AV) 보호 상태, 감지된 활성 위협 수 등의 세부 정보가 표시됩니다.
 
@@ -63,7 +63,7 @@ IT 전문가/관리자는 Windows 10 관리 센터의 [Intune에](/mem/intune/en
 > [!NOTE]
 > Microsoft Defender 바이러스 백신  카드 및 **활성** 위협 페이지가 단계적으로 롤아웃되어 있으므로 즉시 액세스할 수 없습니다.
 
-1. 의 Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 이동하여 로그인합니다.
+1. 의 Microsoft 365 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 이동하여 로그인합니다.
 
 2. 새 **Microsoft Defender 바이러스 백신** 활성 위협 **보기를 선택합니다.** (또는 탐색 창에서 상태 **선택**  >  **바이러스 & 위협)**
 

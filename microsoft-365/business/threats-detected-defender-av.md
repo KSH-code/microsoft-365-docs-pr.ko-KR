@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: 바이러스Microsoft Defender 바이러스 백신 맬웨어 및 스파이웨어와 같은 소프트웨어 위협으로부터 Windows 장치를 보호하는 방법을 알아보십시오.
-ms.openlocfilehash: 7c5d000e2a8c30e17d1f890cef69fe88beed75bb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 79ec44a44c3939a4a868b98d75ab4f24eaf949fcd9bbafb7c0a3173e267f4680
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198366"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53896306"
 ---
 # <a name="threats-detected-by-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신에서 탐지된 위협
 
@@ -64,7 +64,7 @@ Microsoft가 아닌 바이러스 백신 솔루션을 제거하면 Microsoft Defe
 
 - 사용자는 [에서 알림을 Windows.](https://support.microsoft.com/windows/8942c744-6198-fe56-4639-34320cf9444e) 
 - 검색은 보호 기록 [페이지의](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) Windows 보안 **앱에 나열됩니다.**  
-- Windows 10 장치를 [](secure-win-10-pcs.md) 보호하고 [Intune에](/mem/intune/enrollment/windows-enrollment-methods)등록한 경우 조직에 등록된 장치 수가 800개 이하인 경우 위협 및 바이러스 백신 페이지의 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365</a> 관리 센터에  위협 감지 및 인사이트를 볼 수 있습니다.  이 페이지에서 홈 페이지의 Microsoft Defender 바이러스 백신 카드 또는 탐색 창에서 상태 위협 & 바이러스 백신을 선택하여 액세스할 수 있습니다.   >  
+- Windows 10 장치를 [](secure-win-10-pcs.md) 보호하고 [Intune에](/mem/intune/enrollment/windows-enrollment-methods)등록한 경우 조직에 등록된 장치가 800개 이하인 경우 위협 및 바이러스 백신 페이지의 Microsoft 365 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a> 페이지에서 위협 감지  및 정보를 볼 수 있습니다. 이 페이지에서는 홈 페이지의 Microsoft Defender 바이러스 백신 카드 또는 탐색 창에서 상태 위협 &    >  **바이러스** 백신을 선택하여 액세스할 수 있습니다.
 
     조직에 Intune에 800개가 넘는 장치가 등록되어 있는 경우 위협 및 바이러스 백신 [](/mem/endpoint-manager-overview) 페이지가 아닌 Microsoft Endpoint Manager 검색 및 정보를 볼지 묻는 메시지가 **표시됩니다.**
  

@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - FRP150
 description: 새 구독 이름에 Microsoft 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 5757b802dcc5897e720249314d91974c35d0d3e3bce6acd8d564065bdc8a891c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2885a4c7dc30cb9431b4389f30e5a0d443cf0f62
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823546"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58346045"
 ---
 # <a name="office-365-is-now-microsoft-365"></a>이제 Office 365는 Microsoft 365입니다.
 
-일부 Office 365와 Microsoft 365 구독 이름을 변경했습니다. 사용자는 아무 작업도 수행할 필요가 없습니다. 서비스, 앱 및 기능은 구독 가격과 함께 똑같이 유지됩니다. 구독 이름은 2020년 Microsoft 365 관리 센터 자동으로 업데이트되며 청구서가 2020년 4월 21일 이후에 업데이트됩니다.
+일부 Office 365와 Microsoft 365 구독 이름을 변경했습니다. 사용자는 아무 작업도 수행할 필요가 없습니다. 서비스, 앱 및 기능은 구독 가격과 함께 똑같이 유지됩니다. 구독 이름은 2020년 Microsoft 365 관리 센터 자동으로 업데이트되고 <a href="https://go.microsoft.com/fwlink/p/?linkid=2166757" target="_blank">청구서가</a> 2020년 4월 21일 이후에 업데이트됩니다.
 
 - **Office 365 Business Essentials** **이제** Microsoft 365 Business Basic
 - **Office 365 Business Premium** **이제** Microsoft 365 Business Standard
