@@ -16,12 +16,12 @@ ms.collection:
 description: 금고 문서 또는 Microsoft 365 E5 문서에 대해 Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0e1bd2150a04e51e0d06c6cd1c17a71a032df1a5
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: dd9928034c8043f7852df0eeecdae870c9393c66
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108610"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255049"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -32,7 +32,7 @@ ms.locfileid: "53108610"
 
 금고 문서는 Microsoft 365 E5 또는 Microsoft 365 E5 Security [Microsoft Defender for Endpoint를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기 또는 [Application Guard에서](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)열 수 있는 문서 및 파일을 검사하는 Office. [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 금고 문서는 라이선스가 없는  사용자만 사용할 *Microsoft 365 E5* Microsoft 365 E5 Security 있습니다. 이러한 라이선스는 Microsoft Defender for Office 365 포함되어 있지 않습니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "53108610"
   >
   > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   >
-  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
+  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 ### <a name="how-does-microsoft-handle-your-data"></a>Microsoft는 데이터를 어떻게 처리하나요?
 
@@ -62,7 +62,7 @@ ms.locfileid: "53108610"
 
 ## <a name="use-the-microsoft-365-defender-to-configure-safe-documents"></a>다음 Microsoft 365 Defender 사용하여 문서 금고 구성
 
-1. Microsoft 365 Defender 포털을 열고 전자 메일 & **공동** 작업 정책& 규칙 위협 정책 페이지 정책 섹션에서 첨부 \>  \>  금고 \>  \> **로 이동합니다.**
+1. Microsoft 365 Defender 포털을 열고 정책 섹션의 **전자** 메일 & 공동 작업 정책& 규칙 위협 금고 정책으로 \>  \>  \>  이동하십시오. 
 
 2. 첨부 **금고 페이지에서** 전역 설정을 **클릭합니다.**
 
@@ -103,7 +103,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 
 문서를 사용하도록 설정하고 구성한 금고 다음 단계를 수행합니다.
 
-- Microsoft 365 Defender 포털에서 전자 메일 **& 공동** 작업 정책 & 규칙 위협 정책 페이지 정책 \>  \>  \>  \> **섹션금고** \>    첨부 파일 전역 설정으로 이동하고, Office 클라이언트에 대해 금고 문서 사용 및 문서가 파일을 악성 설정으로 식별하는 경우에도 금고 보기를 클릭할 수 있도록 허용을 확인합니다.
+- Microsoft 365 Defender 포털의 정책 섹션 전역 설정에서 전자 메일 & 공동 **작업** 정책 & 규칙 위협 \>  \>  \> **정책금고**  \>    첨부 파일로 이동하고, Office 클라이언트에 대해 금고 문서 켜기 및 문서가 파일을 악성 설정으로 식별하는 경우에도 금고 보기를 클릭할 수 있도록 허용을 확인합니다.
 
 - PowerShell에서 Exchange Online 명령을 실행하고 속성 값을 검증합니다.
 

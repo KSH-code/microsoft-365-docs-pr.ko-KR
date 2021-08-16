@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be857277d36d95ac1cd974ccb0c87f2048798450
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 956260de2b522e2a84e6dffbf1fa50de4e7ced5e2dd9505534d35fed1450bcfd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53885579"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사를 위한 준수 경계 설정
 
@@ -295,7 +295,7 @@ eDiscovery 관리자는 검색 쿼리에 특정 기관으로 검색을 제한하
   
 **검색 권한 필터는 eDiscovery 사례 보류, Microsoft 365 또는 DLP에 대해 작동합니까?**
   
-아니요, 현재는 아니요.
+아니요, 현재는 불가능합니다.
   
 **콘텐츠를 내보낼 위치를 제어하는 지역을 지정하지만 해당 지역에 SharePoint 조직이 없는 경우 해당 지역을 검색할 SharePoint?**
   

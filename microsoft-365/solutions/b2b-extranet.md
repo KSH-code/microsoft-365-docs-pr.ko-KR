@@ -17,12 +17,12 @@ localization_priority: Normal
 f1.keywords: NOCSH
 recommendations: false
 description: 파트너 조직의 관리되는 게스트를 사용하여 B2B 엑스트라넷 사이트 또는 팀을 만드는 방법을 학습합니다.
-ms.openlocfilehash: d76951da5d8affa1dac08cbdc68a91329ca069ed
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ab88ba8b12c6eb53bc3c0b3c4b22cb09919ce38256b68fa65256e64d7ff81bdd
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538246"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53883798"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>관리 대상 게스트와 B2B 엑스트라넷 작성
 
@@ -36,7 +36,7 @@ ms.locfileid: "52538246"
 
 ## <a name="license-requirements"></a>라이선스 요구 사항
 
-이 기능을 사용하려면 Azure AD Premium P2 라이선스가 필요합니다. 
+이 기능을 사용하려면 라이선스가 Azure AD Premium P2 합니다. 
 
 Azure Germany 및 Azure China 21Vianet과 같은 특수 클라우드는 현재 사용할 수 없습니다.
 

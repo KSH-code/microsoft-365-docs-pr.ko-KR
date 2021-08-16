@@ -17,12 +17,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 사용자 그룹, Microsoft 365, Teams, SharePoint 및 관리 Yammer 대해 Yammer.
-ms.openlocfilehash: 3b526297a3f131364a2098b92de09245ab45feb8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5c18dec0f2394273482366dcf230489b13b1b2e90e4d8459a006bc31fabbc6a0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53883719"
 ---
 # <a name="what-is-collaboration-governance"></a>공동 작업 거버넌스란 무엇인가요?
 
@@ -148,9 +148,9 @@ Microsoft 365 공동 작업을 위한 거버넌스 기능에는 Microsoft 365, T
 |도메인 허용/차단|조직 외부의 사용자와의 공유를 특정 도메인의 사용자로 제한합니다.|Microsoft 365 E5 또는 E3|
 |셀프 서비스 사이트 만들기|사용자가 사이트를 직접 만들지 못하도록 SharePoint 합니다.|Microsoft 365 E5 또는 E3|
 |제한된 사이트 및 파일 공유|사이트, 파일 및 폴더 공유를 특정 보안 그룹의 구성원으로 제한합니다.|Microsoft 365 E5 또는 E3|
-|제한된 그룹 만들기|팀 및 그룹 만들기를 특정 보안 그룹의 구성원으로 제한합니다.|Microsoft 365 E5 또는 E3(Azure AD Premium 또는 Azure AD Basic EDU 라이선스)|
-|그룹 이름 정책|그룹 및 팀 이름에 접두사 또는 접미사 적용|Microsoft 365 E5 또는 E3(Azure AD Premium 또는 Azure AD Basic EDU 라이선스)|
-|그룹 만료 정책|비활성 그룹 및 팀이 만료되고 지정된 기간 후에 삭제될 수 있습니다.|Microsoft 365 E5 또는 E3(Azure AD Premium 라이선스가 있는 경우)|
+|제한된 그룹 만들기|팀 및 그룹 만들기를 특정 보안 그룹의 구성원으로 제한합니다.|Microsoft 365 E5 또는 E3(Azure AD Premium Azure AD Basic EDU 라이선스가 있는 경우)|
+|그룹 이름 정책|그룹 및 팀 이름에 접두사 또는 접미사 적용|Microsoft 365 E5 또는 E3(Azure AD Premium Azure AD Basic EDU 라이선스가 있는 경우)|
+|그룹 만료 정책|비활성 그룹 및 팀이 만료되고 지정된 기간 후에 삭제될 수 있습니다.|Microsoft 365 E5 라이선스가 있는 Azure AD Premium 또는 E3|
 |그룹별 게스트 액세스|그룹 기준으로 조직 외부의 사용자와 팀 및 그룹 공유를 허용하거나 차단합니다.|Microsoft 365 E5 또는 E3|
 
 ## <a name="collaboration-governance-planning-step-by-step"></a>공동 작업 거버넌스 계획 단계별
@@ -174,7 +174,7 @@ Microsoft Learn의 이러한 교육 모듈은 Microsoft의 관리 기능을 학�
 
 |교육:|정보 보호 및 거버넌스 관리|
 |:---|:---|
-|![정보 보호 교육 아이콘](../media/information-protection-governance.svg)|오늘날 생성되는 데이터의 양은 그 어느 때보다 빠르게 증가하고 있으며, 직원들은 어디에서나 작업을 수행하기를 원하며, 규제 환경은 끊임없이 변화하고 있습니다. 정보 보호 및 거버넌스를 위한 Microsoft의 솔루션을 통해 조직은 데이터 보호 유지와 직원의 생산성 사이에서 적절한 균형을 이룰 수 있습니다. 이 학습 경로를 통해 Microsoft 365 인증: 보안 관리자 학위 및 Microsoft 365 인증: 엔터프라이즈 관리 전문가 인증서를 준비할 수 있습니다.<br><br>5분 13분 - 학습 경로 - 7개 모듈|
+|![정보 보호 교육 아이콘](../media/information-protection-governance.svg)|오늘날 생성되는 데이터의 양은 그 어느 때보다 빠르게 증가하고 있으며, 직원들은 어디에서나 작업을 수행하기를 원하며, 규제 환경은 끊임없이 변화하고 있습니다. 정보 보호 및 거버넌스를 위한 Microsoft의 솔루션을 통해 조직은 데이터 보호 유지와 직원의 생산성 사이에서 적절한 균형을 이룰 수 있습니다. 이 학습 경로를 통해 Microsoft 365 인증: 보안 관리자 학위 및 Microsoft 365 인증: 엔터프라이즈 관리 전문가 인증서를 준비할 수 있습니다.<br><br>5분 13분 - Learning 경로 - 7개 모듈|
 
 > [!div class="nextstepaction"]
 > [시작 >](/learn/modules/m365-compliance-information-governance/introduction/)
@@ -183,7 +183,7 @@ Microsoft Learn의 이러한 교육 모듈은 Microsoft의 관리 기능을 학�
 
 |교육:|Microsoft 365를 사용하여 엔터프라이즈 정보 보호|
 |:---|:---|
-|![Teams 교육 아이콘](../media/protect-enterprise-information-microsoft-365.svg)|조직의 정보를 보호하고 보안을 유지하는 것이 어느 때보다 어려워졌습니다. Microsoft 365로 엔터프라이즈 정보 보호 학습 경로는 우발적인 과도한 공유 또는 오용으로부터 중요한 정보를 보호하는 방법, 데이터를 검색하고 분류하는 방법, 민감도 레이블을 사용하여 중요한 정보를 보호하는 방법 및 중요한 정보가 손실되지 않도록 보호하기 위해 모니터링하고 분석하는 방법에 대해 설명합니다. 이 학습 경로를 통해 인증된 Microsoft 365: 보안 관리자 연결 및 인증: Microsoft 365 인증: 관리 전문가 인증을 Enterprise 수 있습니다.<br><br>1 hr - 학습 경로 - 5개 모듈|
+|![Teams 교육 아이콘](../media/protect-enterprise-information-microsoft-365.svg)|조직의 정보를 보호하고 보안을 유지하는 것이 어느 때보다 어려워졌습니다. Microsoft 365로 엔터프라이즈 정보 보호 학습 경로는 우발적인 과도한 공유 또는 오용으로부터 중요한 정보를 보호하는 방법, 데이터를 검색하고 분류하는 방법, 민감도 레이블을 사용하여 중요한 정보를 보호하는 방법 및 중요한 정보가 손실되지 않도록 보호하기 위해 모니터링하고 분석하는 방법에 대해 설명합니다. 이 학습 경로를 통해 인증된 Microsoft 365: 보안 관리자 연결 및 인증: Microsoft 365 인증: 관리 전문가 인증을 Enterprise 수 있습니다.<br><br>1 hr - Learning 경로 - 5개 모듈|
 
 > [!div class="nextstepaction"]
 > [시작 >](/learn/modules/m365-security-info-overview/introduction/)
@@ -192,7 +192,7 @@ Microsoft Learn의 이러한 교육 모듈은 Microsoft의 관리 기능을 학�
 
 |교육:|Microsoft 365 보안 및 규정 준수 기능에 대한 기본 지식 입증|
 |:---|:---|
-|![보안 및 규정 준수 교육 아이콘](../media/microsoft-365-security-and-compliance-capabilities.svg)|Microsoft 365 보안 및 규정 준수 솔루션 영역과 기업의 엔터프라이즈 보안 및 규정 요구사항을 충족하는 데 사용할 수 있는 기능에 대해 알아법니다. 기본 클라우드 컴퓨팅 개념에 익숙하지 않은 경우 클라우드 컴퓨팅의 원칙인 클라우드 개념을 [활용하는 것이 좋습니다.](/learn/modules/principles-cloud-computing/index)<br><br>3분 11분 - 학습 경로 - 8개 모듈|
+|![보안 및 규정 준수 교육 아이콘](../media/microsoft-365-security-and-compliance-capabilities.svg)|Microsoft 365 보안 및 규정 준수 솔루션 영역과 기업의 엔터프라이즈 보안 및 규정 요구사항을 충족하는 데 사용할 수 있는 기능에 대해 알아법니다. 기본 클라우드 컴퓨팅 개념에 익숙하지 않은 경우 클라우드 컴퓨팅의 원칙인 클라우드 개념을 [활용하는 것이 좋습니다.](/learn/modules/principles-cloud-computing/index)<br><br>3분 11분 - Learning 경로 - 8개 모듈|
 
 > [!div class="nextstepaction"]
 > [시작 >](/learn/modules/what-is-m365/1-introduction/)

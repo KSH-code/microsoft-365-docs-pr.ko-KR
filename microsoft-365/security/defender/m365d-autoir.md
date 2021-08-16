@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 326910f4b556837b319c53cb1d257af09efbbe7a6ba8b92a4784d38a50b43fbe
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 09274557ea35c87cb4346e797d1b5e5e26e96aa3
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53792905"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255182"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>자동화된 조사 및 Microsoft 365 Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "53792905"
 **적용 대상:**
 - Microsoft 365 Defender
 
-조직에서 Microsoft 365 Defender [](microsoft-365-defender.md)경우 보안 운영 팀은 악의적 또는 의심스러운 활동 또는 아티팩트가 감지될 때마다 Microsoft 365 보안 센터 내에서 경고를 수신합니다. 발생될 수 있는 위협이 끝이 없는 것처럼 보이는 경우 보안 팀은 종종 많은 수의 경고를 해결해야 하는 과제에 직면합니다. 다행히 Microsoft 365 Defender 팀이 위협을 보다 효율적으로 해결할 수 있도록 도와주는 자동화된 조사 및 대응(AIR) 기능이 포함되어 있습니다.
+조직에서 Microsoft 365 Defender [](microsoft-365-defender.md)경우 보안 운영 팀은 악의적 또는 의심스러운 활동이나 아티팩트가 감지될 때마다 Microsoft 365 Defender 포털 내에서 경고를 수신합니다. 발생될 수 있는 위협이 끝이 없는 것처럼 보이는 경우 보안 팀은 종종 많은 수의 경고를 해결해야 하는 과제에 직면합니다. 다행히 Microsoft 365 Defender 팀이 위협을 보다 효율적으로 해결할 수 있도록 도와주는 자동화된 조사 및 대응(AIR) 기능이 포함되어 있습니다.
 
 이 문서에서는 AIR에 대한 개요를 제공하며 다음 단계 및 추가 리소스에 대한 링크를 제공합니다.
 

@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: b57026ab2af53cbd941ecd3f4e9f9e6dff7f99c7eb44e0b1b9b2ffb462408415
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 88506e546cc359a3cdf042c8661fcc54b217d6d4
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53902250"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255452"
 ---
 # <a name="enable-microsoft-defender-for-endpoint-evaluation-environment"></a>끝점 평가 환경에 Microsoft Defender 사용
 

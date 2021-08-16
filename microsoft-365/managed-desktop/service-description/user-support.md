@@ -9,12 +9,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 64e634ce33794264de3b8a627355c9c0f64038d712cff55a6d704ada0dc33e3c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ec56158a8ccf0c1014b847b04a62db6a14fe992b
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863855"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255246"
 ---
 # <a name="user-support"></a>사용자 지원
 
@@ -51,7 +51,7 @@ IT 관리자는 다음 항목을 담당합니다.
 
 - 지원 공급자와 협력하여 사용자 지원에 대한 서비스 수준 계약 설정 및 관리
 - 승인된 지원 직원에 대한 상승된 액세스 권한 관리 자세한 내용은 사용자 지원 [기능 사용을 참조하세요.](../get-started/enable-support.md)
-- 여러 사용자에게 영향을 주는 장치 문제가 있는 경우 관리자 지원 Microsoft Managed Desktop 에스컬레이터합니다. 자세한 내용은 에 대한 관리자 지원을 [Microsoft Managed Desktop.](../working-with-managed-desktop/admin-support.md)
+- 사용자에게 영향을 주는 장치 문제가 있는 경우 관리자 지원 Microsoft Managed Desktop 에스컬레이터합니다. 자세한 내용은 에 대한 관리자 지원을 [Microsoft Managed Desktop.](../working-with-managed-desktop/admin-support.md)
 - 적절한 공급업체 또는 공급업체에 하드웨어 관련 문제 라우팅
 - 설정한 정책이 변경되지 않도록 Microsoft Managed Desktop 장치에서 장치 보안 정책 설정을 유지 관리하고 보호합니다.
 
@@ -74,7 +74,7 @@ IT 관리자는 다음 항목을 담당합니다.
 
 사용자 문제를 다른 사용자로 에스컬레이터해야 하는 Microsoft Managed Desktop 팀을 식별하는 것이 좋습니다. 사례를 적절하게 전송할 수 있지만 시작부터 올바른 장소로 라우팅하는 데 시간이 절약됩니다.
 
-- 서비스 자체에서 Microsoft Managed Desktop 정책 또는 설정과 같은 특정 문제: Operations 팀으로 직접 에스컬레이터합니다. 자세한 내용은 사용자에 [대한 도움말 보기를 참조하세요.](../working-with-managed-desktop/end-user-support.md)
+- 서비스 자체에서 배포하는 정책 또는 설정과 같은 Microsoft Managed Desktop 관련 문제: 새 지원 요청을 만들어 Operations 팀으로 직접 에스컬레이터합니다. 자세한 내용은 사용자에 [대한 도움말 보기를 참조하세요.](../working-with-managed-desktop/end-user-support.md)
 - 하드웨어 문제: 하드웨어 공급업체 또는 공급업체에 직접 문의
 - 기타 문제: 통합 구독이든 프리미어 구독이든 기존 지원 채널을 통해 에스컬레이터합니다.
 
@@ -83,7 +83,7 @@ IT 관리자는 다음 항목을 담당합니다.
 
 ### <a name="elevation-portal"></a>권한 상승 포털 
 
-장치를 Microsoft Managed Desktop 기본적으로 표준 사용자에서 실행하기 때문에 일부 작업에는 권한 상승이 필요합니다. 사용자 계정 컨트롤에 대한 자세한 내용은 사용자 계정 [컨트롤을 참조하세요.](/windows/security/identity-protection/user-account-control/user-account-control-overview) 지원 직원이 사용자의 문제를 해결하는 [](../working-with-managed-desktop/end-user-support.md#elevation-requests) 동안 작업을 수행할 수 있도록 관리자 계정에 대한 "just-in-time" 액세스 권한을 제공합니다. 이 암호는 사용자가 지정한 암호만 안전하게 액세스하고 몇 시간마다 회전합니다.  
+장치를 Microsoft Managed Desktop 기본적으로 표준 사용자에서 실행하기 때문에 일부 작업에는 권한 상승이 필요합니다. 사용자 계정 컨트롤에 대한 자세한 내용은 사용자 계정 [컨트롤을 참조하세요.](/windows/security/identity-protection/user-account-control/user-account-control-overview) 지원 직원이 사용자의 문제를 해결하는 [](../working-with-managed-desktop/end-user-support.md#elevation-requests) 동안 작업을 수행할 수 있도록 관리자 계정에 대한 "just-in-time" 액세스 권한을 제공합니다. 이 암호는 지정한 암호만 안전하게 액세스하고 몇 시간마다 회전합니다.  
 
 이 포털에 액세스할 수 있도록 사용자를 설정하는 방법에 대한 단계는 사용자 지원 [기능 사용 을 참조하세요.](../get-started/enable-support.md)
 

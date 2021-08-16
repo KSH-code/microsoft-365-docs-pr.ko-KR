@@ -17,21 +17,21 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 42f4a4e19fbb062789532e1786bfe2f37bdb3448f2671ec9ac3dcd2a0770b6c9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 81fe9d058a1144c67a1d95d02a3e8b47e3c2104b
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838622"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255440"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 365 보안 센터는 [ID,](overview-security-center.md) 데이터, 장치 및 앱 전체의 보안을 모니터링하고 관리하기 위한 새로운 홈이지만 특정 특수 작업을 위해 다양한 포털에 액세스해야 합니다.
+Microsoft 365 Defender 포털은 [ID,](overview-security-center.md) 데이터, 장치 및 앱 전체의 보안을 모니터링하고 관리하기 위한 새로운 홈이기 때문에 특정 특수 작업을 위해 다양한 포털에 액세스해야 합니다.
 
 > [!TIP] 
-> 보안 센터에서 다양한 관련 포털에 액세스하려면 Microsoft 365 창에서 추가 **리소스를** 선택합니다.
+> 포털에서 다양한 관련 포털에 액세스하려면 Microsoft 365 Defender 창에서 **추가** 리소스를 선택합니다.
 
 ## <a name="security-portals"></a>보안 포털
 
@@ -40,7 +40,7 @@ Microsoft 365 보안 센터는 [ID,](overview-security-center.md) 데이터, 장
 
 | 포털 이름 | 설명 | 링크 |
 |---|---|---| 
-| Microsoft 365 보안 센터 | 위협 활동을 모니터링하고 대응하고 ID, 전자 메일, 데이터, 끝점 [및](microsoft-365-defender.md) 앱에 대한 보안 Microsoft 365 Defender | [security.microsoft.com](https://security.microsoft.com/) |
+| Microsoft 365 Defender 포털 | 위협 활동을 모니터링하고 대응하고 ID, 전자 메일, 데이터, 끝점 [및](microsoft-365-defender.md) 앱에 대한 보안 Microsoft 365 Defender | [security.microsoft.com](https://security.microsoft.com/) |
 | Microsoft Defender 보안 센터 | [끝점용 Microsoft Defender에서](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 제공하는 기능을 사용하여 끝점에서 위협 활동 모니터링 및 대응 | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
 | 보안 및 준수 센터 | 전자 [Exchange Online Protection](../office-365-security/exchange-online-protection-overview.md) 및 공동 작업 서비스를 보호하고 다양한 데이터 처리 규정을 준수하기 위해 Office 365 및 [Microsoft Defender를](/microsoft-365/security/office-365-security/defender-for-office-365) 관리합니다. | [protection.office.com](https://protection.office.com) |
 | Azure Defender 포털 | [Azure Defender를](/azure/security-center/security-center-intro) 사용하여 클라우드에서 데이터 센터 및 하이브리드 워크로드의 보안 환경 강화 | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |

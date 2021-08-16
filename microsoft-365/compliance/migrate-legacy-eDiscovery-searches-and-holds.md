@@ -1,5 +1,5 @@
 ---
-title: 레거시 eDiscovery 검색 및 보류를 Microsoft 365 센터로 마이그레이션
+title: 레거시 eDiscovery 검색 및 보류를 Microsoft 365 규정 준수 센터
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,21 +14,21 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: aaae5e6bddc48f29cc0766fe26a1976672c7dd49
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 0867e2b28bc693d50d5d79f4ba8e0a8cb89578d76853584f28c3db65ee7b692a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52310813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53885670"
 ---
-# <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>레거시 eDiscovery 검색 및 보류를 Microsoft 365 센터로 마이그레이션
+# <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>레거시 eDiscovery 검색 및 보류를 Microsoft 365 규정 준수 센터
 
-Microsoft 365 규정 준수 센터는 eDiscovery 사용에 대한 향상된 환경을 제공합니다. 높은 안정성, 더 나은 성능 및 eDiscovery 워크플로에 맞게 조정된 많은 기능(문제별로 콘텐츠를 구성하는 사례, 검토용 콘텐츠 및 분석을 검토하는 집합을 검토하여 중복에 가까운 그룹화, 전자 메일 스레딩, 테마 분석 및 예측 코딩)과 같은 검토를 위해 데이터를 선회하는 데 도움이 됩니다.
+이 Microsoft 365 규정 준수 센터 사용하면 더 높은 안정성, 더 나은 성능 및 eDiscovery 워크플로에 맞게 조정된 다양한 기능을 비롯한 eDiscovery 사용 환경을 개선할 수 있습니다. 예를 들어 중요한 콘텐츠 구성 사례, 콘텐츠 및 분석을 검토하는 검토 집합을 검토하여 중복에 가까운 그룹화, 전자 메일 스레딩, 테마 분석 및 예측 코딩과 같은 검토를 위해 데이터를 선회하는 데 도움이 됩니다.
 
-고객이 새 기능과 향상된 기능을 활용할 수 있도록 이 문서에서는 In-Place eDiscovery 검색 및 보류를 Exchange 관리 센터에서 Microsoft 365 준수 센터로 마이그레이션하는 방법에 대한 기본 지침을 제공합니다.
+고객이 새 기능과 향상된 기능을 활용할 수 있도록 이 문서에서는 In-Place eDiscovery 검색 및 보류를 Exchange 관리 센터에서 새 기능으로 마이그레이션하는 방법에 대한 기본 Microsoft 365 규정 준수 센터.
 
 > [!NOTE]
-> 다양한 시나리오가 있기 때문에 이 문서에서는 검색 및 보류를 보안 및 준수 센터의 핵심 eDiscovery 사례로 전환하기 위한 일반적인 Microsoft 365 제공합니다. eDiscovery 사례를 항상 사용할 필요는 없지만 조직의 eDiscovery 사례에 액세스할 수 있는 권한을 할당할 수 있도록 하여 보안 계층을 추가합니다.
+> 다양한 시나리오가 있기 때문에 이 문서에서는 검색 및 보류를 해당 시나리오의 핵심 eDiscovery 사례로 전환하기 위한 일반적인 Microsoft 365 규정 준수 센터. eDiscovery 사례를 항상 사용할 필요는 없지만 조직의 eDiscovery 사례에 액세스할 수 있는 권한을 할당할 수 있도록 하여 보안 계층을 추가합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -130,21 +130,21 @@ New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxe
 
 ![PowerShell New-ComplianceSearch 예제](../media/MigrateLegacyeDiscovery6.png)
 
-## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>8단계: 규정 준수 센터에서 사례 확인, Microsoft 365 검색
+## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>8단계: 2단계에서 사례 확인, 보류 및 Microsoft 365 규정 준수 센터
 
-모든 것이 올바르게 설정되어 있는지 확인하려면 의 Microsoft 365 준수 센터로 이동하여 [https://compliance.microsoft.com](https://compliance.microsoft.com) **eDiscovery**> 클릭합니다.
+모든 것이 올바르게 설정되어 있는지 확인하려면 의 Microsoft 365 규정 준수 센터 으로 이동하여 [https://compliance.microsoft.com](https://compliance.microsoft.com) **eDiscovery**> 클릭합니다.
 
 ![Microsoft 365 준수 센터 eDiscovery](../media/MigrateLegacyeDiscovery7.png)
 
 3단계에서 만든 사례는 **Core eDiscovery 페이지에 나열됩니다.** 사례를 열고 4단계에서 만든 보류가 보류 탭에 **나열되어** 있습니다. 보류를 선택하여 보류가 적용되는 사서함 수 및 배포 상태를 포함하여 플라이아웃 페이지에서 세부 정보를 볼 수 있습니다.
 
-![Microsoft 365 준수 센터의 eDiscovery 보류](../media/MigrateLegacyeDiscovery8.png)
+![eDiscovery는 Microsoft 365 규정 준수 센터](../media/MigrateLegacyeDiscovery8.png)
 
 7단계에서 만든 검색은 사례의 **검색** 탭에 나열됩니다.
 
-![Microsoft 365 준수 센터에서 eDiscovery 사례 검색](../media/MigrateLegacyeDiscovery9.png)
+![eDiscovery 사례 검색에서 Microsoft 365 규정 준수 센터](../media/MigrateLegacyeDiscovery9.png)
 
-In-Place eDiscovery 검색을 마이그레이션하지만 eDiscovery 사례와 연결하지 않는 경우 이 검색은 Microsoft 365 준수 센터의 콘텐츠 검색 페이지에 나열됩니다.
+In-Place eDiscovery 검색을 마이그레이션하지만 eDiscovery 사례와 연결하지 않는 경우 검색 목록의 콘텐츠 검색 페이지에 Microsoft 365 규정 준수 센터.
 
 ## <a name="more-information"></a>추가 정보
 
@@ -170,4 +170,4 @@ In-Place eDiscovery 검색을 마이그레이션하지만 eDiscovery 사례와 �
 
   - [Start-ComplianceSearch](/powershell/module/exchange/start-compliancesearch)
 
-- 규정 준수 센터에 Microsoft 365 자세한 내용은 Microsoft 365 준수 센터 [개요를 참조하세요.](microsoft-365-compliance-center.md)
+- 자세한 내용은 Microsoft 365 규정 준수 센터 [개요를](microsoft-365-compliance-center.md)Microsoft 365 규정 준수 센터.

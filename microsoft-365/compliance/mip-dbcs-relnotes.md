@@ -1,5 +1,5 @@
 ---
-title: 이중 바이트 문자 집합 릴리스 노트(미리 보기)를 위한 Microsoft 365 규정 준수 지원
+title: 이중 바이트 문자 집합 릴리스 노트를 위한 Microsoft 365 규정 준수 지원
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,23 +14,23 @@ search.appverid:
 - MOE150
 - MET150
 description: 더블 바이트 문자 집합에 대한 지원을 위한 릴리스 노트
-ms.openlocfilehash: 1c2244c49a92aa2c00fad06caa8194cf7e32220e
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 9f56441e6ba82b1936033c6f4a810ea2afeab72cc72b6337f992eb0bb52fd231
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53885558"
 ---
 # <a name="support-for-double-byte-character-set-release-notes-preview"></a>더블 바이트 문자 집합 릴리스 노트(미리보기)를 지원
 
- Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
+ 이제 Microsoft 365 Information Protection은 다음의 더블 바이트 문자 집합 언어를 지원합니다.
 
 - 중국어(간체)
 - 중국어(번체)
 - 한국어
 - 일본어
 
-이 지원은 중요한 정보 유형 및 키워드 사전에서 사용할 수 있으며 데이터 손실 방지, 통신 규정 준수, Exchange 온라인, SharePoint 온라인, OneDrive for Business 및 Teams 솔루션에 반영됩니다.
+이 지원은 민감한 정보 유형 및 키워드 사전에 사용할 수 있으며 데이터 손실 방지(Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Teams용), 통신 규정 준수, Office 앱의 자동 레이블 지정 및 Microsoft Cloud App Security에 반영됩니다.
 
 ## <a name="known-issues"></a>알려진 문제
 
@@ -47,3 +47,5 @@ ms.locfileid: "48681504"
   - "첨부에는 이러한 단어가 포함되어 있습니다."
 
 대신 메시지 및 첨부 파일 간의 패턴을 탐지할 키워드 사전이 있는 사용자 정의 SIT(중요한 정보 유형)을 만들고 이 사용자 정의 SIT를 통신 규정 준수 정책 조건으로 사용하는 것이 좋습니다.
+
+

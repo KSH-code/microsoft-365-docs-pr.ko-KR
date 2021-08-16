@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 Plan 2용 Microsoft Defender에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 Office 365 있습니다. 태그 필터링은 Microsoft Defender의 경고, 보고서 및 조사에서 사용할 수 있으며, Office 365 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 836c8e538ac62809c15094d6ecade796429f9bce
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 9f3a3f82b510d0910858784bedae3f1be724efd099398e3b1dcbfe57978e3f8b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58254108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53883926"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -46,7 +46,6 @@ ms.locfileid: "58254108"
 - [전자 메일 엔터티 페이지](mdo-email-entity-page.md#other-innovations)
 - [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
 - [캠페인 보기](campaigns.md)
-- [관리자 및 사용자 제출](admin-submission.md)
 - 우선 순위 계정의 경우 [](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) EAC(Exchange 관리 센터)의 우선 순위 계정 보고서에 전자 메일 문제를 사용할 수 있습니다.
 
 이 문서에서는 사이트 포털에서 사용자 태그를 구성하는 Microsoft 365 Defender 설명합니다. 사용자 태그를 관리하는 Microsoft 365 Defender cmdlet이 없습니다.
@@ -127,7 +126,7 @@ ms.locfileid: "58254108"
 
 3. 나타나는 세부 정보 플라이아웃에서 이 문서 앞부분의 Microsoft 365 Defender [](#use-the-microsoft-365-defender-portal-to-create-user-tags) 포털을 사용하여 사용자 태그 만들기 섹션에 설명된 대로 동일한 마법사 및 설정을 사용할 수 있습니다.
 
-   **참고:**
+   **참고**:
 
    - 태그 **정의 페이지는** 기본 제공 우선  순위 계정 시스템 태그에 사용할 수 없습니다. 따라서 이 태그의 이름을 바꾸거나 설명을 변경할 수 없습니다.
    - 사용자 지정 태그의 이름을 바꿀 수 없지만 설명을 변경할 수 있습니다.

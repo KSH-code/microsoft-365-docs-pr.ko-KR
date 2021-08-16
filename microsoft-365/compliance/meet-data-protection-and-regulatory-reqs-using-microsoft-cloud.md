@@ -17,12 +17,12 @@ ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Microsoft Service Trust Portal에서 준수 관리자를 사용해 데이터 보호와 규정 요구 사항을 충족하는 방법을 알아보세요.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX
-ms.openlocfilehash: beea1f9008b8196fb39fe928cc317899bc6fcf8d
-ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
+ms.openlocfilehash: d4216b7b9b7967b507931e6cb45cef89cabf3809d13308c58cefa38f897e89ab
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725963"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53860487"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Microsoft 준수 관리자(기본)
 

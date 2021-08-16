@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: e3172171a52bbb92fd7e49f800ff2ccc502ea06b8f49547e02e0e6a61cf6de43
-ms.sourcegitcommit: 4f074a8598a430344a2361728a64b8b8c0e1d215
+ms.openlocfilehash: 80da73c6b2db01f2c46cd4cd6835bc74abff978c
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54520450"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255421"
 ---
 # <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 

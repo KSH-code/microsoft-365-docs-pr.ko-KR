@@ -19,12 +19,12 @@ description: 관리자는 가장 인사이트의 작동 방식에 대해 배울 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b7254dce40f72ecc01dc532f1b6c51f252a2b3ac
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: b17fd2f0b14cd7dfd6d8a4326a911c7e9a8db5f8
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108634"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58254985"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Defender for Office 365
 
@@ -55,8 +55,8 @@ Microsoft 365 Defender 포털에서 가장 정보를 사용하여 가장 보호�
 - 이 문서의 절차를 수행하려면 Microsoft 365 Defender 포털에서 사용 권한을 할당해야 합니다.
   - **조직 관리**
   - **보안 관리자**
-  - **보안 읽기**
-  - **전역 읽기**
+  - **보안 읽기 권한자**
+  - **전역 읽기 권한자**
 
   자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
@@ -66,7 +66,7 @@ Microsoft 365 Defender 포털에서 가장 정보를 사용하여 가장 보호�
 
 ## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 가장 Microsoft 365 Defender 열기
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책& 규칙 위협 정책 페이지 정책 섹션으로 \>  \>  \>  \> **이동합니다.**
+1. Microsoft 365 Defender 포털의 정책 섹션에서  전자 메일 & 공동 작업 정책 & 규칙 위협 방지 정책으로 \>  \>  \>  이동하세요. 
 
 2. 피싱 **방지** 페이지에서 가장 인사이트는 다음과 같이 표시됩니다.
 

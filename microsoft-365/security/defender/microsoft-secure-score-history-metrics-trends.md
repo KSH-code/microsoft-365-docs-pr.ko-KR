@@ -1,7 +1,7 @@
 ---
 title: Microsoft 보안 점수 기록 추적 및 목표 충족
 description: Microsoft 보안 점수에 영향을 주는 활동에 대한 인사이트를 얻습니다. 추세를 검색하고 목표를 설정할 수 있습니다.
-keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터, 개선 작업
+keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 Defender 포털, 개선 작업
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -21,18 +21,18 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 0c9e8669aa3cf1f2d78c0329d4555048664ffebab5a7f43ddf5259be9b51b8b0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b5fbfae845c320e0d38293cff0d859165217a385
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53792667"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255163"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Microsoft 보안 점수 기록 추적 및 목표 충족
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-[Microsoft 보안 점수는](microsoft-secure-score.md) 조직의 보안 자세를 측정한 것으로, 수치가 높을수록 개선 작업이 더 많이 수행되었음을 나타내고 있습니다. 이 사이트는 보안 센터의 https://security.microsoft.com/securescore Microsoft 365 [있습니다.](overview-security-center.md)
+[Microsoft 보안 점수는](microsoft-secure-score.md) 조직의 보안 자세를 측정한 것으로, 수치가 높을수록 개선 작업이 더 많이 수행되었음을 나타내고 있습니다. 이 사이트는 사이트 포털 https://security.microsoft.com/securescore [에서 Microsoft 365 Defender 있습니다.](overview-security-center.md)
 
 ## <a name="gain-insights-into-activity-that-has-affected-your-score"></a>점수에 영향을 주는 활동에 대한 인사이트 얻기
 

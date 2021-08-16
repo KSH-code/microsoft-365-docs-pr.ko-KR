@@ -1,7 +1,7 @@
 ---
 title: 역할 기반 액세스 제어에 대한 사용자 지정 역할
-description: 보안 센터에서 사용자 지정 역할을 관리하는 Microsoft 365 정보
-keywords: 액세스, 사용 권한, Microsoft 365 Defender, M365, 보안, MCAS, Cloud App Security, 끝점용 Microsoft Defender, 범위, 범위 지정, RBAC, 역할 기반 액세스, 사용자 지정 역할 기반 액세스, MDO의 역할 기반 auth, RBAC, 역할, 역할 및 역할roups, 사용 권한 상속, 세분화 권한
+description: 사이트 포털에서 사용자 지정 역할을 관리하는 Microsoft 365 Defender 방법
+keywords: 액세스, 사용 권한, Microsoft 365 Defender, M365, 보안, MCAS, Cloud App Security, 끝점용 Microsoft Defender, 범위, 범위 지정, RBAC, 역할 기반 액세스, 사용자 지정 역할 기반 액세스, MDO의 역할 기반 auth, RBAC, 역할, 역할 및 역할 및 사용 권한 상속, 세분화 권한
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 9dfa9f113c0a7d57360c2da6105cbfa07fcf6a99
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 699d8c1d8ea7ac6928c96b6c98226ab82e0725fb
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935692"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58254988"
 ---
-# <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>Microsoft 365 역할 기반 액세스 제어의 사용자 지정 역할
+# <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>역할 기반 액세스 제어에서 사용자 지정 역할 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -37,17 +37,17 @@ ms.locfileid: "51935692"
 
 - Microsoft 365 Defender
  
-Defender에 액세스하는 데 사용할 수 있는 두 가지 유형의 역할이 Microsoft 365 있습니다.
+다음 두 가지 유형의 역할에 액세스하는 데 사용할 수 Microsoft 365 Defender.
 - **AD(Azure Active Directory 전역 역할) 역할**
 - **사용자 지정 역할**
 
-AAD(Microsoft 365 전역 역할을 사용하여 Azure Active Directory [수 있습니다.](m365d-permissions.md)
+AAD(Microsoft 365 Defender 전역 역할을 사용하여 사용자 액세스 권한을 Azure Active Directory [수 있습니다.](m365d-permissions.md)
 
-특정 제품 데이터에 대한 액세스에 대한 더 큰 유연성과 제어가 필요한 Microsoft 365 각 보안 포털을 통해 사용자 지정 역할을 만들어서 Defender 액세스를 관리할 수도 있습니다.  
+특정 제품 데이터에 대한 액세스에 대한 더 큰 유연성과 제어가 필요한 Microsoft 365 Defender 각 보안 포털을 통해 사용자 지정 역할을 만들어 액세스 권한을 관리할 수도 있습니다.  
 
-예를 들어 끝점용 Microsoft Defender를 통해 만든 사용자 지정 역할은 보안 센터 내의 끝점 데이터를 포함하여 관련 제품 데이터에 Microsoft 365 허용합니다. 마찬가지로 Microsoft Defender for Office 365 사용자 지정 역할을 사용하면 전자 메일 보안 센터 내의 전자 메일 & 공동 작업 데이터를 비롯한 관련 Microsoft 365 액세스할 수 있습니다.
+예를 들어 끝점용 Microsoft Defender를 통해 만든 사용자 지정 역할은 사용자 지정 포털 내의 끝점 데이터를 포함하여 관련 제품 데이터에 Microsoft 365 Defender 허용합니다. 마찬가지로 Microsoft Defender for Office 365 사용자 지정 역할을 사용하면 전자 메일 포털 내의 전자 메일 & 공동 작업 데이터를 비롯한 관련 제품 데이터에 액세스할 Microsoft 365 Defender 있습니다.
 
-기존 사용자 지정 역할이 있는 사용자는 추가 구성 없이 기존 작업 권한에 따라 Microsoft 365 보안 센터의 데이터에 액세스할 수 있습니다.
+기존 사용자 지정 역할이 있는 사용자는 추가 구성 없이 기존 작업 권한에 따라 Microsoft 365 Defender 포털의 데이터에 액세스할 수 있습니다.
 
 ## <a name="create-and-manage-custom-roles"></a>사용자 지정 역할 만들기 및 관리
 다음 각 보안 포털을 통해 사용자 지정 역할 및 사용 권한을 만들어 개별적으로 관리할 수 있습니다. 
@@ -59,15 +59,15 @@ AAD(Microsoft 365 전역 역할을 사용하여 Azure Active Directory [수 있�
 개별 포털을 통해 만든 각 사용자 지정 역할을 사용하면 관련 제품 포털의 데이터에 액세스할 수 있습니다. 예를 들어 끝점용 Microsoft Defender를 통해 만든 사용자 지정 역할은 끝점 데이터에 대한 Defender 액세스만 허용합니다.
 
 > [!TIP]
-> 또한 탐색 창에서 사용 권한 및 역할 Microsoft 365 선택하여 권한 및 역할에 액세스할 & 수 있습니다. MCAS(Microsoft Cloud App Security)에 대한 액세스는 MCAS 포털을 통해 관리되고 ID용 Microsoft Defender에 대한 액세스를 제어합니다.  자세한 [내용은 Microsoft Cloud App Security](/cloud-app-security/manage-admins)
+> 탐색 창에서 사용 권한을 선택하여 Microsoft 365 Defender 및 역할에 액세스할 수도 & 있습니다. MCAS(Microsoft Cloud App Security)에 대한 액세스는 MCAS 포털을 통해 관리되고 ID용 Microsoft Defender에 대한 액세스를 제어합니다.  자세한 [내용은 Microsoft Cloud App Security](/cloud-app-security/manage-admins)
 
 > [!NOTE]
-> 사용자 지정 역할에서 만든 Microsoft Cloud App Security ID 데이터용 Microsoft Defender에 액세스할 수 있습니다. 사용자 그룹 관리자 또는 앱/인스턴스 관리자 Microsoft Cloud App Security 역할이 있는 사용자는 Microsoft Cloud App Security 보안 센터를 통해 Microsoft 365 수 없습니다.
+> 사용자 지정 역할에서 만든 Microsoft Cloud App Security ID 데이터용 Microsoft Defender에 액세스할 수 있습니다. 사용자 그룹 관리자 또는 앱/인스턴스 관리자 Microsoft Cloud App Security 역할이 있는 사용자는 Microsoft Cloud App Security 포털을 통해 Microsoft 365 Defender 없습니다.
 
-## <a name="manage-permissions-and-roles-in-the-microsoft-365-security-center"></a>보안 센터에서 사용 권한 Microsoft 365 관리
-보안 센터에서 사용 권한 및 역할을 관리할 Microsoft 365 있습니다.
+## <a name="manage-permissions-and-roles-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 사용 권한 및 역할 Microsoft 365 Defender 관리
+사이트 포털에서 사용 권한 및 역할을 관리할 Microsoft 365 Defender 있습니다.
 
-1. Microsoft 365 보안 센터에 로그인합니다 security.microsoft.com.
+1. Microsoft 365 Defender 포털에 로그인합니다 security.microsoft.com.
 2. 탐색 창에서 사용 권한 및 **& 선택합니다.**
 3. 사용 **권한 헤더에서** 역할을 **선택합니다.**
 
@@ -81,7 +81,7 @@ AAD(Microsoft 365 전역 역할을 사용하여 Azure Active Directory [수 있�
 > [!NOTE]
 > 인시던트 관리를 위해서는 인시던트의 일부인 모든 제품에 대한 관리 권한이 필요합니다.
  
-| **Defender를 사용하려면 다음 역할 Microsoft 365 필요합니다.**  | **Endpoint용 Defender에는 다음 역할 중 하나가 필요합니다.**  | **Defender에서 다음 역할 중 하나를 Office 365** | **다음 역할 중 하나는 다음 Cloud App Security** | 
+| **다음 역할 중 하나는 Microsoft 365 Defender**  | **Endpoint용 Defender에는 다음 역할 중 하나가 필요합니다.**  | **Defender에서 다음 역할 중 하나를 Office 365** | **다음 역할 중 하나는 다음 Cloud App Security** | 
 |---------|---------|---------|---------|
 | 조사 데이터 보기: <ul><li>경고 페이지</li> <li>경고 큐</li> <li>인시던트</li>  <li>인시던트 큐</li> <li>작업 센터</li></ul>| 데이터 보기 - 보안 작업 | <ul><li>보기 전용 경고 관리 </li> <li>조직 구성</li><li>감사 로그</li> <li>보기 전용 감사 로그</li> <li>보안 읽기 권한자</li> <li>보안 관리자</li><li>보기 전용 받는 사람</li></ul>  | <ul><li>전역 관리자</li> <li>보안 관리자</li> <li>준수 관리자</li> <li>보안 운영자</li> <li>보안 읽기 권한자</li> <li>전역 읽기 권한자</li></ul> |
 | 헌팅 데이터 보기 | 데이터 보기 - 보안 작업 | <ul><li>보안 읽기 권한자</li> <li>보안 관리자</li> <li>보기 전용 받는 사람</li> | <ul><li>전역 관리자</li> <li>보안 관리자</li> <li>준수 관리자</li> <li>보안 운영자</li> <li>보안 읽기 권한자</li> <li>전역 읽기 권한자</li></ul> |
@@ -100,5 +100,5 @@ AAD(Microsoft 365 전역 역할을 사용하여 Azure Active Directory [수 있�
 - 보기 전용 받는 사람
 
 ## <a name="related-topics"></a>관련 항목
-- [Defender에 대한 Microsoft 365 관리](m365d-permissions.md)
+- [사용자에 대한 액세스 Microsoft 365 Defender](m365d-permissions.md)
 - [MCAS에 대한 관리자 액세스 관리](/cloud-app-security/manage-admins)

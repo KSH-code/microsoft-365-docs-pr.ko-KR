@@ -18,12 +18,12 @@ description: 전자 메일의 악성 금고 보호하기 위해 첨부 파일 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3ec6dc0d0a74507298810a9ec020a2a4b050c2b6
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: 02a5d393e2cd13d029106bdc0975c935f052d9f1
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53538976"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255044"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 첨부 파일 정책 설정 Office 365
 
@@ -70,10 +70,10 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
   자세한 내용은 Microsoft 365 Defender [포털의](permissions-microsoft-365-security-center.md) 사용 권한 및 [Exchange Online.](/exchange/permissions-exo/permissions-exo)
 
-  **참고**:
+  **참고:**
 
   - Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 관리 센터 포털에서 필요한 사용 권한 및 Microsoft 365 Defender 포털의  다른 기능에 대한 사용 권한이 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 첨부 파일 정책에 대한 권장 금고 첨부 파일 금고 [참조하세요.](recommended-settings-for-eop-and-office365.md#safe-attachments-settings)
 
@@ -83,7 +83,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책을 만들면 동일한 이름을 사용하여 안전한 첨부 파일 규칙과 연결된 안전한 첨부 파일 정책이 동시에 생성됩니다.
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요. 
 
 2. 첨부 **금고 페이지에서** 만들기 ![ 아이콘 만들기 ](../../media/m365-cc-sc-create-icon.png) **를 클릭합니다.**
 
@@ -135,7 +135,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-safe-attachments-policies"></a>Microsoft 365 Defender 포털을 사용하여 첨부 파일 금고 보기
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요. 
 
 2. 첨부 **금고** 페이지에 다음 속성이 정책 목록에 표시됩니다.
    - **이름**
@@ -146,17 +146,17 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-safe-attachments-policies"></a>Microsoft 365 Defender 포털을 사용하여 첨부 파일 금고 수정
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요. 
 
 2. 첨부 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
-3. 표시되는 정책 세부 정보 플라이아웃에서 각 섹션에서 **편집** 을 선택하여 섹션 내의 설정을 수정합니다. 설정에 대한 자세한 내용은 [](#use-the-microsoft-365-defender-portal-to-create-safe-attachments-policies) 이 문서 앞부분의 Microsoft 365 Defender 포털을 사용하여 금고 정책 만들기 섹션을 참조하십시오.  
+3. 표시되는 정책 세부 정보 플라이아웃에서 각 섹션에서 **편집** 을 선택하여 섹션 내의 설정을 수정합니다. 설정에 대한 자세한 내용은 [](#use-the-microsoft-365-defender-portal-to-create-safe-attachments-policies) 이 문서 앞부분의 Microsoft 365 Defender 포털을 사용하여 금고 정책 만들기 섹션을 참조하십시오.
 
 정책을 사용하도록 설정하거나 사용하지 않도록 설정하거나 정책 우선 순위를 설정하려면 다음 섹션을 참조하세요.
 
 ### <a name="enable-or-disable-safe-attachments-policies"></a>첨부 파일 금고 사용 또는 사용 안 하도록 설정
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요. 
 
 2. 첨부 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
@@ -182,7 +182,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 정책의 우선 순위를 변경하려면 정책 속성에서 **우선 순위를 높이** 거나 **우선 순위를 낮춥** 니다(Microsoft 365 Defender 포털에서 **우선 순위** 번호를 직접 수정할 수 없습니다). 정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요. 
 
 2. 첨부 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
@@ -197,7 +197,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-attachments-policies"></a>Microsoft 365 Defender 포털을 사용하여 첨부 파일 금고 제거
 
-1. Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요. 
 
 2. 첨부 **금고** 페이지에서 정책 이름을 클릭하여 목록에서 사용자 지정 정책을 선택합니다.
 
@@ -222,7 +222,7 @@ PowerShell에서 금고 첨부 파일 정책을 만드는 과정은 다음 두 �
 1. 안전한 첨부 파일 정책을 만들 수 있습니다.
 2. 규칙이 적용되는 안전한 첨부 파일 정책을 지정하는 안전한 첨부 파일 규칙을 만들 수 있습니다.
 
- **참고**:
+ **참고:**
 
 - 새 안전한 첨부 파일 규칙을 만들고 연결되지 않은 기존 안전 첨부 파일 정책을 할당할 수 있습니다. 안전한 첨부 파일 규칙은 두 개 이상의 안전한 첨부 파일 정책과 연결될 수 없습니다.
 
@@ -439,7 +439,7 @@ Remove-SafeAttachmentRule -Identity "Marketing Department"
 
 첨부 파일 정책을 만들거나 수정하거나 제거한 금고 다음 단계를 수행합니다.
 
-- Microsoft 365 Defender 포털에서 전자 메일 **&** 정책 & 규칙 위협 정책 페이지 정책 섹션에서 금고 \>  \>  \>  \> **로 이동합니다.** 정책 목록, 해당 **상태 값** 및 우선 순위 값을 **검증합니다.** 자세한 내용을 보려면 이름을 클릭하여 목록에서 정책을 선택하고 플라이아웃에서 세부 정보를 하세요.
+- Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요.  정책 목록, 해당 **상태 값** 및 우선 순위 값을 **검증합니다.** 자세한 내용을 보려면 이름을 클릭하여 목록에서 정책을 선택하고 플라이아웃에서 세부 정보를 하세요.
 
 - PowerShell Exchange Online PowerShell Exchange Online Protection PowerShell에서 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행하고 설정을 \<Name\> 확인합니다.
 

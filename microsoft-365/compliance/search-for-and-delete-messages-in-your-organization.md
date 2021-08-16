@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Microsoft 365 규정 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: a01b981bb8562b59c29c351468060aaaecaed2501b835e7d230054665a7e7e1e
-ms.sourcegitcommit: 14a8a80aa85d501d3a77f6cdd3aba6750e6775e5
+ms.openlocfilehash: f543a3239b7390e2cd449c0209a512735df2f52e
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "57834790"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255113"
 ---
 # <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 

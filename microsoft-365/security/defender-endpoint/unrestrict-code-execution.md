@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: cb71f31cb047d7310b9534cd75350b25ebc7e7b865f403b7fcf22fa01ffe1718
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cb0a64b6f6d63e0439a03805e4e8cfc1d05116c7
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53889030"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255478"
 ---
 # <a name="remove-app-restriction-api"></a>앱 제한 제거 API
 
@@ -54,7 +54,7 @@ ms.locfileid: "53889030"
 > - 선택적 고리는 버전 1709 이상에서 Windows 10 디바이스에 사용할 수 있습니다.
 > - 장치를 고지할 때 특정 프로세스 및 대상만 허용됩니다. 따라서 장치가 격리된 후 전체 VPN 터널 뒤에 있는 장치는 끝점용 Microsoft Defender 클라우드 서비스에 도달할 수 없습니다. Microsoft Defender for Endpoint 및 클라우드 기반 보호 관련 트래픽에 Microsoft Defender 바이러스 백신 분할 터널링 VPN을 사용하는 것이 좋습니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 

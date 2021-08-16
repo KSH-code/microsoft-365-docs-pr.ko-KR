@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: noindex,nofollow
 description: Office 365용 Microsoft Defender에 대한 새 경고 정책을 릴리스합니다. 또한 기존 경고 정책 2개를 새 경고 정책으로 대체했습니다.
-ms.openlocfilehash: 3fc25c50a5e9a2c30ebd06328edf60b5641168035e5275ac58ae81b8b63bf760
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5c4edbb59d3328bb933825ab6a85ab561db93741
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53856018"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255362"
 ---
 # <a name="new-alert-policies-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새 경고 정책
 
@@ -69,8 +69,8 @@ Office 365용 Microsoft Defender ZAP(제로 아워 자동 제거)가 받은 편�
 | **악성 파일이 포함된 전자 메일 메시지가 전달 후 제거됨**(신규) | 경고는 2021년 4월 11일부터 트리거됩니다. |
 | **캠페인의 전자 메일 메시지가 전달되었다가 나중에 제거됨**(신규) | 2021년 5월 28일에 경고가 트리거됩니다.|
 | **악성 전자 메일이 전송되었다가 나중에 제거됨**(신규) | 2021년 5월 28일에 경고가 트리거됩니다.|
-| **피싱 URL이 포함된 전자 메일 메시지가 전달 후 제거됨**(기존. 제거 예정)| 경고 정책은 2021년 5월 28에 제거됩니다. [이러한 변경 사항에 대해 대비하는 데 필요한 작업](#what-you-need-to-do-to-prepare-for-these-changes) 섹션을 참조하세요.|
-| **맬웨어가 포함된 전자 메일 메시지가 전달 후 제거됨**(기존. 제거 예정) | 경고 정책은 2021년 5월 28에 제거됩니다. [이러한 변경 사항에 대해 대비하는 데 필요한 작업](#what-you-need-to-do-to-prepare-for-these-changes) 섹션을 참조하세요. |
+| **피싱 URL이 포함된 전자 메일 메시지가 전달 후 제거됨**(기존. 제거 예정)| 경고 정책은 2021년 6월에 제거되었습니다. [이러한 변경 사항에 대해 대비하는 데 필요한 작업](#what-you-need-to-do-to-prepare-for-these-changes) 섹션을 참조하세요.|
+| **맬웨어가 포함된 전자 메일 메시지가 전달 후 제거됨**(기존. 제거 예정) | 경고 정책은 2021년 6월에 제거되었습니다. [이러한 변경 사항에 대해 대비하는 데 필요한 작업](#what-you-need-to-do-to-prepare-for-these-changes) 섹션을 참조하세요. |
 |||
 
 경고 심각도 변경은 2021년 5월 14일까지 모든 조직에 배포될 예정입니다.

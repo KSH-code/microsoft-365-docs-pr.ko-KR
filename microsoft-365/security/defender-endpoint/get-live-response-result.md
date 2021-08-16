@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3240b0c56b94c365f070935542ae100a94c0375847fa097cb29dc9886b210b79
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0d76c34ae2c610933285f93e349459497de7cb79
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829354"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255528"
 ---
 #  <a name="get-live-response-results"></a>라이브 응답 결과 얻기
 
@@ -70,7 +70,7 @@ ms.locfileid: "53829354"
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
     - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
@@ -104,10 +104,10 @@ id}/GetLiveResponseResultDownloadLink(index={command-index})
 
 |속성|설명|
 |---|---|
-|name|실행된 스크립트 이름|
+|script_name|실행된 스크립트 이름|
 |exit_code|실행된 스크립트 종료 코드|
 |script_output|실행된 스크립트 표준 출력|
-|script_error|실행된 스크립트 표준 오류 출력|
+|script_errors|실행된 스크립트 표준 오류 출력|
 
 ## <a name="example"></a>예제
 
@@ -142,7 +142,7 @@ HTTP/1.1 200 Ok
     "exit_code": 0,
     "script_output": "Transcript started, output file is C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\Temp\\PSScriptOutputs\\PSScript_Transcript_{TRANSCRIPT_ID}.txt
 C:\\windows\\TEMP\\OfficeClickToRun.dmp.zip\n51 MB\n\u0000\u0000\u0000",
-    "script_error":""
+    "script_errors":""
 }
 ```
 

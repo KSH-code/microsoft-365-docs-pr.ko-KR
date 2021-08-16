@@ -18,16 +18,16 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내에서 인덱싱된 항목(인덱싱되지 않은 항목이라고도 Exchange, SharePoint 및 비즈니스용 OneDrive 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 539fd2687735a5ee14be543750becca8c6c3154c
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: bd3e9f1da3b3404f1ca99d44c01fc4fa85ad391c3b0ede8889319044072bed8a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311457"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53860239"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
-검색을 실행할 때 Microsoft 365 준수 센터에서 실행되는 eDiscovery 검색에는 예상 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함됩니다. 부분적으로 인덱싱된 항목은 Exchange 검색을 위해 완전히 인덱싱되지 않은 SharePoint 비즈니스용 OneDrive 사이트의 사서함 항목 및 문서입니다. 대부분의 전자 메일 메시지와 사이트 문서는 전자 메일 메시지의 인덱싱 제한에 해당하기 때문에 성공적으로 [인덱싱됩니다.](limits-for-content-search.md#indexing-limits-for-email-messages) 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 있으며 부분적으로 인덱싱됩니다. 다음은 검색을 위해 항목을 인덱싱할 수 없는 다른 이유와 eDiscovery 검색을 실행할 때 부분적으로 인덱싱된 항목으로 반환되는 다른 이유입니다.
+검색에서 실행되는 eDiscovery Microsoft 365 규정 준수 센터 검색을 실행할 때 예상 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함됩니다. 부분적으로 인덱싱된 항목은 Exchange 검색을 위해 완전히 인덱싱되지 않은 SharePoint 비즈니스용 OneDrive 사이트의 사서함 항목 및 문서입니다. 대부분의 전자 메일 메시지와 사이트 문서는 전자 메일 메시지의 인덱싱 제한에 해당하기 때문에 성공적으로 [인덱싱됩니다.](limits-for-content-search.md#indexing-limits-for-email-messages) 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 있으며 부분적으로 인덱싱됩니다. 다음은 검색을 위해 항목을 인덱싱할 수 없는 다른 이유와 eDiscovery 검색을 실행할 때 부분적으로 인덱싱된 항목으로 반환되는 다른 이유입니다.
   
 - 전자 메일 메시지에 이미지 파일과 같은 유효한 처리기 없이 첨부된 파일이 있습니다. 부분적으로 인덱싱된 전자 메일 항목의 가장 일반적인 원인입니다.
 
@@ -164,7 +164,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
      }
    ```
 
-2. [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/exchange-online-powershell)합니다.
+2. [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/exchange-online-powershell)
 
 3. 보안 & 준수 센터 PowerShell에서 1단계에서 스크립트를 저장한 폴더로 이동한 다음 스크립트를 실행합니다. 예를 들어:
 

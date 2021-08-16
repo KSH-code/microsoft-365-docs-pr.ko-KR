@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: b69acd8bb60c6b4c2d254c9cd1ca5aef7de69cf583fa02e56d799076c84d372a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9da8f0c15fdffbecb701955be10289ff19f28d1f
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53869001"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58255234"
 ---
 # <a name="start-investigation-api"></a>조사 시작 API
 
@@ -58,7 +58,7 @@ ms.locfileid: "53869001"
 - Windows 10 버전 1803(OS 빌드 [17134.704(KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)이상
 - Windows 10 버전 [1803](/windows/release-information/status-windows-10-1809-and-windows-server-2019) 이상
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
