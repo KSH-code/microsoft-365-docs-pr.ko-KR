@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 20c5e392f80a497d58f9f50d6e72996b87741f469bf78994a11c9db50511f987
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 73dd701eff97d7afb3fee7f4480a16296fa3d983
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857582"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347123"
 ---
 # <a name="list-investigations-api"></a>목록 조사 API
 
@@ -43,7 +43,9 @@ ms.locfileid: "53857582"
 
 [OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
 
-OData의 쿼리는 `$filter` `startTime` , 및 `state` `machineId` 속성에서 `triggeringAlertId` 지원됩니다.
+OData의 쿼리는 `$filter` `startTime` , , `id` 및 `state` `machineId` 속성에서 `triggeringAlertId` 지원됩니다.
+<br>```$stop``` 최대값 10,000
+<br>```$skip```
 
 [끝점용 Microsoft Defender를 사용하여 OData 쿼리 예제 보기](exposed-apis-odata-samples.md)
 

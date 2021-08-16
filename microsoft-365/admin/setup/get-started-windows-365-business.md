@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+monikerRange: o365-worldwide
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: 80da73c6b2db01f2c46cd4cd6835bc74abff978c
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 1b1beaf65f43361626e03ca048a9942bc14d5e7b
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255421"
+ms.locfileid: "58349251"
 ---
 # <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 
@@ -38,7 +39,7 @@ ms.locfileid: "58255421"
 > 시작하기 전에 사용자의 Azure AD 장치 설정이 **Azure** [AD에](/azure/active-directory/devices/device-management-azure-portal#configure-device-settings) 장치를 가입할 수 있는지 확인합니다. 
 
    ![사용자가 장치를 Azure AD 설정에 가입할 수 있습니다.](../../media/deschutes/azure-device-settings.png)
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 365 Business를 설치하기 위한 Windows 없습니다.
 ## <a name="buy-subscriptions"></a>구독 구입
 

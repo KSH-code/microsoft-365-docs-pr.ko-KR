@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: bd249fd7872d0d7d1a170ae064bf0b88e5d912cb6307df2bc25f5c60eda1a5dc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3678101be4f519f621a5fa0dd6b85c3f68e6ef68
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863757"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347255"
 ---
 # <a name="configure-and-manage-microsoft-threat-experts-capabilities"></a>Microsoft 위협 전문가 기능 구성 및 관리
 
@@ -155,7 +155,7 @@ Endpoint 고객용 Defender인 경우 Microsoft 위협 전문가 **-** 대상 �
 - I received a targeted attack notification from Microsoft 위협 전문가. 인시던트 대응 팀에 전달할 수 있는 어떤 데이터를 제공할 수 있나요?
 
   > [!NOTE]
-  > Microsoft 위협 전문가 서비스는 인시던트 대응 서비스가 아니라 관리되는 사이버 보안 헌팅 서비스입니다. 그러나 전문가는 필요한 경우 조사를 Microsoft CSG(Cybersecurity Solutions Group)의 DART(검색 및 대응 팀) 서비스로 원활하게 전환할 수 있습니다. 인시던트 대응이 필요한 문제를 해결하기 위해 자체 인시던트 대응 팀에 참여할 수도 있습니다.
+  > Microsoft 위협 전문가 서비스는 인시던트 대응 서비스가 아니라 관리되는 사이버 보안 헌팅 서비스입니다. 그러나 인시던트 대응이 필요한 문제를 해결하기 위해 자체 인시던트 대응 팀과 의할 수 있습니다. 자체 인시던트 대응 팀이 없는 경우 Microsoft의 도움을 요청하는 경우 CSS CIRT(사이버 보안 인시던트 대응 팀)에 참여할 수 있습니다. 티켓을 열어 문의를 해결할 수 있습니다.
 
 ## <a name="scenario"></a>시나리오
 

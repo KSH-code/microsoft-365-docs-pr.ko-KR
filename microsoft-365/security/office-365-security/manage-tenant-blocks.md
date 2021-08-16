@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 블록을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad3cf9a4080a5ec50bdff1de623118d70f90bc1240a7eb5b6a09f0b6fe7b2a45
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dd3ff63482340cb69a432e73d7ca8ff258f86522
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56881957"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58349959"
 ---
 # <a name="add-blocks-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에 블록 추가
 
@@ -33,6 +33,24 @@ ms.locfileid: "56881957"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 ## <a name="use-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털 사용 
+
+### <a name="create-block-sender-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 차단 보낸 사람 항목 만들기
+
+1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
+
+2. **테넌트 허용/차단 목록** 페이지에서 보낸  사람 탭이 선택되어 있는지 확인한 다음 차단 아이콘 ![ 차단 을 ](../../media/m365-cc-sc-create-icon.png) **클릭합니다.**
+
+3. 보낸 **사람 차단** 플라이아웃이 나타나면 다음 설정을 구성합니다.
+   - **보낸 사람 전자** 메일 주소 또는 도메인: 줄당 하나의 보낸 사람(전자 메일 주소 또는 도메인)을 입력하고 최대 20명까지 입력합니다.
+   - **만료 안 하세요:** 다음 단계 중 하나를 수행합니다.
+     - 설정이 꺼져 있는지 확인(토글 해제) 및 제거 사용 상자를 사용하여 항목의 만료 ![ ](../../media/scc-toggle-off.png) 날짜를 지정합니다. 
+
+       또는
+
+     - 토글을 오른쪽으로 이동하여 만료되지 않는 항목을 구성합니다. ![토글 켬](../../media/scc-toggle-on.png).
+   - **선택 사항:** 항목에 대한 설명 텍스트를 입력합니다.
+
+4. 작업을 마쳤으면 **추가** 를 클릭합니다.
 
 ### <a name="create-block-url-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 차단 URL 항목 만들기
 
@@ -94,12 +112,18 @@ ms.locfileid: "56881957"
 
 ## <a name="use-powershell"></a>PowerShell 사용
 
-### <a name="add-block-file-or-url-entries-to-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에 차단 파일 또는 URL 항목 추가
+### <a name="add-block-sender-file-or-url-entries-to-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에 차단 보낸 사람, 파일 또는 URL 항목 추가
 
-테넌트 허용/차단 목록에서 차단 파일 또는 URL 항목을 추가하기 위해 다음 구문을 사용합니다.
+테넌트 허용/차단 목록에서 차단 보낸 사람, 파일 또는 URL 항목을 추가하기 위해 다음 구문을 사용합니다.
 
 ```powershell
-New-TenantAllowBlockListItems -ListType <FileHash | Url> -Block -Entries "Value1","Value2",..."ValueN" <-ExpirationDate Date | -NoExpiration> [-Notes <String>]
+New-TenantAllowBlockListItems -ListType <Sender | FileHash | Url> -Block -Entries "Value1","Value2",..."ValueN" <-ExpirationDate Date | -NoExpiration> [-Notes <String>]
+```
+
+이 예에서는 특정 날짜에 만료되는 지정된 보낸 사람에 대한 차단 보낸 사람 항목을 추가합니다.
+
+```powershell
+New-TenantAllowBlockListItems -ListType Sender -Block -Entries "test@badattackerdomain.com", "test2@anotherattackerdomain.com" -ExpirationDate 8/20/2021
 ```
 
 이 예제에서는 만료되지 않는 지정된 파일에 대한 차단 파일 항목을 추가합니다.

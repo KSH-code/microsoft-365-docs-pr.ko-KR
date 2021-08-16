@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 테넌트에 대한 데이터 수집을 시작하는 방법을 Power BI.
-ms.openlocfilehash: 836ff4cea69f0feef2c94980a48c9202ce57dd6891ef4a7dd76cea26fc3d2cc4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b8101733b125c869d55c0e9cc00f1ec598bed08f
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53901176"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347231"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -35,7 +35,7 @@ Microsoft 365 미국 Government 2013에서는 아직 Microsoft 365 수 Community
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-사용 현황 Microsoft 365 시작하려면 먼저 Microsoft 365 관리 센터 데이터를 사용할 수 있도록 설정한 다음 해당 앱에서 템플릿 앱을 Power BI.
+사용 현황 Microsoft 365 시작하려면 먼저 Microsoft 365 관리 센터 에서 데이터를 사용할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>수 있도록 설정한 다음 Power BI.
 
 ## <a name="get-power-bi"></a>Power BI 가져오기
 

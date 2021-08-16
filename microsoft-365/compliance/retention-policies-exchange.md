@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Exchange에서 보존의 작동 방식을 알아봅니다.
-ms.openlocfilehash: 39c8e9ec5a94cf9f50ac4d98ac8a789e6f007949
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: f735520841531360e5fa943ebecd832ab60cfc858a61c84feec572af04eebf71
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899919"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Exchange의 보존에 대해 자세히 알아보기
 

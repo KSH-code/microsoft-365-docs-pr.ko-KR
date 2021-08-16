@@ -22,12 +22,12 @@ ms.custom:
 description: 관리자는 잠재적으로 위험하거나 원치 않는 메시지를 보유하는 EOP(Exchange Online Protection)에서 검사에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0ca5a61a7e71a2414fcaf1c0b02aec04820ca17
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: c68351b690ecab2f60990695dc0e550b5ff0aff7
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258434"
+ms.locfileid: "58349947"
 ---
 # <a name="quarantined-email-messages-in-eop"></a>EOP에서 Quarantined email messages
 
@@ -48,7 +48,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 - 관리자는 모든 사용자에 대해 모든 유형의 분리된 메시지로 작업할 수 있습니다. 관리자만 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙(전송 규칙)의 결과로 고지된 메시지에 대해 작업할 수 있습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 
-- 사용자는 메시지가 스팸, 대량 전자 메일 또는 피싱(2020년 4월 현재) 피싱으로 스팸으로 차단된 경우 받는 사람인 분리된 메시지로 작업할 수 있습니다. 자세한 내용은 EOP에서 사용자로 고지된 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
+- 사용자는 받는 사람이고 메시지가 스팸, 대량 전자 메일 또는 피싱(2020년 4월 현재) 피싱으로 스팸으로 차단된 분리된 메시지로 작업할 수 있습니다. 자세한 내용은 EOP에서 사용자로 고지된 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
 
   사용자가 자체적으로 분리된 피싱 메시지를 관리하지 못하도록 관리자는 스팸 방지 정책에서  피싱 전자 메일 필터링 판정에 대해 다른 작업을 구성할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 

@@ -13,16 +13,16 @@ ms.topic: article
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: 9309d0b1bc5a83495af344b699b45e6e21d7e1d65dab6511e31880ee11ec4bfb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 43c32f12a125386d6c27a8e1df5bba9875001afc
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53811328"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347219"
 ---
 # <a name="protect-your-organizations-data-with-device-control"></a>장치 제어를 사용하여 조직의 데이터 보호
 
-**적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2069559)
+**적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 Microsoft Defender for Endpoint 장치 컨트롤은 이동식 저장 장치 및 USB 드라이브 사용과 같은 조직의 장치에서 미디어 사용을 모니터링하고 제어하여 데이터 손실을 방지합니다.
 

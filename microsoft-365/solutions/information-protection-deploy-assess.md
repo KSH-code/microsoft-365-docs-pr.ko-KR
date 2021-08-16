@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 데이터 개인 정보 보호 규정, 관련 시나리오, 준비 및 사용자 환경의 중요한 정보 유형을 Microsoft 365 결정하십시오.
-ms.openlocfilehash: 106bc0d15c04e44e17bf4c0528b541c5d5fd6d8e
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 04dc67ee6316f4549e7d215f997cdc171b0038024f3740d544d6acb214f9be1e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53651654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53883445"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>데이터 개인 정보 보호 위험을 평가하고 데이터를 사용하여 중요한 Microsoft 365
 

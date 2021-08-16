@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5975931dab77752da4ba139b3203fcf1b142150fc642379275a149d84a968120
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d9c244b048685824abfece8302c2528fa51a5802
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53828622"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58349995"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>인시던트 Microsoft 365 Defender
 
@@ -80,7 +80,7 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
   인시던트 및 해당 정보와 관련된 모든 경고입니다.
 
-- 장치
+- 디바이스
 
   인시던트의 일부로 식별되거나 인시던트와 관련된 모든 장치입니다.
 
@@ -99,10 +99,6 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 - 증거 및 응답
 
   인시던트의 경고에서 지원되는 모든 이벤트 및 의심스러운 엔터티
-
-- Graph(미리 보기)
-
-  조직의 영향을 미치는 자산에 대한 경고의 연결을 보여 미치는 그림입니다.
 
 다음은 인시던트와 인시던트 데이터 및 인시던트 포털에서 인시던트의 탭 Microsoft 365 Defender 관계입니다.
 
@@ -170,6 +166,8 @@ Microsoft 제품 전반의 인시던트 대응에 대한 자세한 내용은 이
 연간 작업에는 직원, 시스템 및 프로세스를 테스트하기 위한 주요 인시던트 또는 위반 연습 수행이 포함됩니다. 
 
 매일, 월별, 분기별 및 연간 작업을 사용하여 프로세스, 정책 및 보안 구성을 업데이트하거나 구체화할 수 있습니다.
+
+자세한 [내용은 보안 Microsoft 365 Defender](integrate-microsoft-365-defender-secops.md) 통합을 참조합니다.
 
 ### <a name="secops-resources-across-microsoft-products"></a>Microsoft 제품 전반의 SecOps 리소스
 

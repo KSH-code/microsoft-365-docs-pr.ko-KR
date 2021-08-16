@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 손실된 고객 키를 복구하는 데 사용되는 가용성 키에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 573c7bb7426dea8594f3a2e73991f845153146996f8a03cab4766855482a7de1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4de9df3fd60a8afe8608615f90d51486d42b6a20
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895802"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58349923"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>고객 키에 대한 가용성 키 알아보기
 
@@ -65,7 +65,7 @@ Microsoft는 악의적인 공격자들이 Microsoft 클라우드에 저장된 �
 
 Microsoft 365 키가 오용되지 않도록 기본 제공됩니다. 응용 프로그램 계층은 가용성 키를 포함하여 데이터를 암호화하고 암호 해독하는 데 사용할 수 있는 유일한 방법입니다. 모든 Microsoft 365 코드만 암호화 및 암호 해독 활동에 대한 키 계층 구조를 해석하고 트래버스할 수 있습니다. 고객 키의 저장소 위치, 가용성 키, 기타 계층적 키 및 고객 데이터 간에 논리적 고리가 있습니다. 이를 통해 하나 이상의 위치가 손상된 경우 데이터 노출 위험을 완화할 수 있습니다. 계층 구조의 각 계층에는 저장된 데이터 및 비밀을 보호하기 위해 24x7 침입 감지 기능이 기본으로 제공되어 있습니다.
 
-액세스 제어는 가용성 키 비밀 저장소를 포함하여 내부 시스템에 대한 무단 액세스를 방지하기 위해 구현됩니다. Microsoft 엔지니어는 가용성 키 비밀 저장소에 직접 액세스할 수 없습니다. 액세스 제어에 대한 자세한 내용은 에서 관리 액세스 [제어를 Microsoft 365.](/compliance/office-365-administrative-access-controls-overview)
+액세스 제어는 가용성 키 비밀 저장소를 포함하여 내부 시스템에 대한 무단 액세스를 방지하기 위해 구현됩니다. Microsoft 엔지니어는 가용성 키 비밀 저장소에 직접 액세스할 수 없습니다. 액세스 제어에 대한 자세한 내용은 에서 관리 액세스 [제어를 Microsoft 365.](/compliance/assurance/assurance-administrative-access-controls-overview)
 
 기술 제어는 Microsoft 직원이 권한이 높은 서비스 계정에 로그인하지 못하게 합니다. 이 계정은 공격자가 해당 계정을 가장하는 데 Microsoft 서비스. 예를 들어 이러한 컨트롤은 대화형 로그온을 방지합니다.
 

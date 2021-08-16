@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 07b3b6174b8f99123cb4184c68fa22fdddf6ca8e
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 2ae3c72387b2617bc8fe88349272d27675af16a5
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255759"
+ms.locfileid: "58349215"
 ---
 # <a name="run-antivirus-scan-api"></a>바이러스 백신 검사 실행 API
 
@@ -50,7 +50,7 @@ ms.locfileid: "58255759"
 > - 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
 > - A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -95,6 +95,8 @@ ScanType|String|스캔 유형을 정의합니다. **필수입니다**.
 ## <a name="response"></a>응답
 
 성공하면 이 메서드는 응답 본문에 201, 만든 응답 코드 및 _MachineAction_ 개체를 반환합니다.
+
+동일한 장치에 대해 바이러스 백신 검색을 실행하기 위해 여러 API 호출을 보내는 경우 "작업이 이미 진행 중입니다."라는 메시지가 있는 "컴퓨터 작업 보류 중" 또는 HTTP 400이 반환됩니다.
 
 ## <a name="example"></a>예제
 

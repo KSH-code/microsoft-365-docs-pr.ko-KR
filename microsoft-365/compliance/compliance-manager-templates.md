@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 파일 형식을 사용하여 서식 있는 서식 Excel 수정합니다.
-ms.openlocfilehash: 40ee83defc901805841530404b384671bbcbbd68761476146cff2e4d55993943
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1b1bc9ea01905e38f695707db1b302c160ea5818
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53892330"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58349875"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>준수 관리자에서 평가 템플릿 작업
 
@@ -38,14 +38,24 @@ EU GDPR 템플릿 및 ISO/IEC 27701:2019 템플릿과 같은 기본 인증 또�
 
 ## <a name="template-availability-and-licensing"></a>서식 파일 가용성 및 라이선스
 
-사용할 수 있는 템플릿은 조직의 라이선스 계약(라이선스 세부 정보 보기)을[기반으로 합니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager) 템플릿에는 포함 및 프리미엄의 두 가지 범주가 있습니다.
+준수 관리자에는 포함 및 프리미엄 템플릿의 두 가지 범주가 있습니다.
 
-#### <a name="included-and-premium-templates"></a>포함 및 고급 서식 파일
+1. **포함된 템플릿은** 준수 관리자 라이선스를 통해 부여하며 주요 규정 및 요구 사항을 충족합니다. 라이선스 계약에 따라 사용할 수 있는 템플릿에 대한 자세한 내용은 라이선스 세부 [정보를 참조합니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
+2. **Premium 수 있는** 템플릿을 추가 요구 사항을 충족하고 시나리오는 템플릿 라이선스를 구입하여 얻을 수 있습니다.
 
-1. **포함된 서식** 파일은 라이선스가 부여하며 주요 규정 및 요구 사항을 충족합니다.
-2. **Premium 템플릿을 구입하여** 라이브러리를 확장하고 특정 요구 사항을 충족할 수 있습니다. 구매한 후 템플릿에서 필요한 수만큼 평가를 만들 수 있습니다. [프리미엄 템플릿을 구입하는 방법에 대해 자세히 알아보습니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
+평가 만들기를 시작하면 준수 관리자가 사용 현황을 모니터링할 수 있도록 활성 상태인 서식 파일 수를 추적합니다. 자세한 내용은 활성 및 비활성 [템플릿을 참조합니다.](compliance-manager-templates.md#active-and-inactive-templates)
 
-서식 파일 [전체 목록을 를 시청하세요.](compliance-manager-templates-list.md)
+준수 [관리자에서 사용할 수](compliance-manager-templates-list.md) 있는 서식 파일 전체 목록을 하세요.
+
+### <a name="purchase-premium-template-licenses"></a>프리미엄 템플릿 라이선스 구입
+
+템플릿 라이선스는 관리 센터에서 구입할 수 있습니다( 구독, 라이선스 및 청구에 대해 자세히[알아보시고).](/microsoft-365/commerce/) 구매할 라이선스 수량과 결제 계획을 선택합니다. 또한 클라우드 솔루션 공급자 프로그램 또는 볼륨 [라이선싱에](https://partner.microsoft.com/membership/cloud-solution-provider) 참여하여 라이선스를 [취득할 수도 있습니다.](https://www.microsoft.com/licensing/licensing-programs/licensing-programs)
+
+구매가 마무리된 후 48시간 이내에 테넌트에서 템플릿을 사용할 수 있습니다.
+
+### <a name="try-out-premium-templates"></a>고급 템플릿 사용해기
+
+구매하기 전에 프리미엄 템플릿을 사용해 보시고 평가판 버전의 라이선스를 취득할 수도 있습니다. 평가판 라이선스는 90일 동안 최대 25개 템플릿에 좋습니다. 평가판 라이선스를 획득하면 48시간 이내에 테넌트에서 템플릿을 사용할 수 있습니다.
 
 #### <a name="active-and-inactive-templates"></a>활성 및 비활성 템플릿
 
@@ -249,7 +259,7 @@ Microsoft 365 및 유니버설 버전의 템플릿에는 공동 라이선스가 
 
 #### <a name="change-an-improvement-actions-name"></a>개선 작업의 이름 변경
 
-개선 작업의 이름을 변경하려는 경우 기존 이름을 새 이름으로 바꾸는 스프레드시트에서 명시적으로 지정해야 합니다. 다음 단계를 따릅니다:
+개선 작업의 이름을 변경하려는 경우 기존 이름을 새 이름으로 바꾸는 스프레드시트에서 명시적으로 지정해야 합니다. 다음 단계를 따르세요.
 
 1. 스프레드시트의 **작업** 탭에서 A 열 다음에 스프레드시트에 새 열을 추가합니다.
 2. 이제 B 열이 된 이 새 열에서 1 행의 **oldActionTitle에** 해당 헤더로 넣습니다.

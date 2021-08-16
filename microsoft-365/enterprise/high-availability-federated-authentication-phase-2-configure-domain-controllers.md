@@ -1,7 +1,7 @@
 ---
 title: 고가용성 페더타 인증 2단계 도메인 컨트롤러 구성
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 11/25/2019
 audience: ITPro
@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 6b0eff4c-2c5e-4581-8393-a36f7b36a72f
 description: '요약: 도메인 컨트롤러 및 디렉터리 동기화 서버를 구성하여 2016년 8월 1일부로의 고가용성 Microsoft 365 Microsoft Azure.'
-ms.openlocfilehash: 659b70b9f5d81fe1cc692701987fb0736c821a880e1f8e64b27b197ff26b8127
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1454d68fc9a2d305e52355ba07c6d1674a68a59f
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830261"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58353735"
 ---
 # <a name="high-availability-federated-authentication-phase-2-configure-domain-controllers"></a>고가용성 페더레이션 인증 2단계: 도메인 컨트롤러 구성
 

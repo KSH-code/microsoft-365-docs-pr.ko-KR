@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: MFA(다단계 인증)는 강력한 암호와 추가 확인 방법을 모두 사용합니다.
-ms.openlocfilehash: afe93f3b9432c26ba38e007e929e718853816b7b9f45d9d1d4053c30898a88a5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 40eeff86811d97c307fe4684203668a475a64f72
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822796"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347111"
 ---
 # <a name="multifactor-authentication-for-microsoft-365"></a>사용자에 대한 다단계 Microsoft 365
 
@@ -141,7 +141,7 @@ Azure AD ID 보호 기능을 사용하여 [로그인 위험이 중간에서 높�
 
 사용자 계정 로그인에 MFA를 요구하기 위해 보안 기본값이나 조건부 액세스 정책을 사용해야 합니다. 하지만 둘 다 사용할 수 없는 경우라면 Microsoft는 관리자 권한이 있는 사용자(특히, 모든 구독에 대한 권역 관리자 역할을 가진 사용자)에 MFA를 권장 합니다.
 
-Microsoft 365 관리 센터의 **활성 사용자** 창에서 개별 사용자 계정에 대해 MFA를 사용 하도록 설정합니다.
+사용자 계정의 활성 사용자 창에서 개별 사용자 계정에 대해 MFA를 Microsoft 365 관리 센터. <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"></a>
 
 ![활성 사용자 페이지의 다단계 인증 옵션 그림](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
 
@@ -169,7 +169,7 @@ Azure 포털에서 다음을 할 수 있습니다.
 - 보안 기본값을 사용 설정 혹은 사용 해제
 - 조건부 액세스 정책 구성
 
-Microsoft 365 관리 센터에서 사용자별 및 서비스 MFA 설정을 구성할 수 있습니다.
+이 Microsoft 365 관리 센터 사용자 및 서비스 MFA 설정을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2169174" target="_blank">구성할 수 있습니다.</a>
 
 ## <a name="next-steps"></a>다음 단계
 

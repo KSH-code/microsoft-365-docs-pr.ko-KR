@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 Microsoft 365 사용자 계정 삭제
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 09/23/2020
 audience: Admin
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
 description: PowerShell에서 다른 모듈을 사용하여 사용자 계정을 삭제하는 Microsoft 365 방법을 알아보습니다.
-ms.openlocfilehash: 33a5a8d79413549d98bc0289dc1239e88cbc7c109334245cb6a7fa536477a89d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 30d69fa8a65207b7eb73bfc36d36733789fcb72f
+ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819430"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58353687"
 ---
 # <a name="delete-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 삭제
 

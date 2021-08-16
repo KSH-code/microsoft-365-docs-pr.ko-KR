@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 사내 IT 인프라의 기본 구조와 엔터프라이즈용 클라우드를 통해 회사의 비즈니스 요구를 Microsoft 365 이해합니다.
-ms.openlocfilehash: 72d502b5078a1e572eeba27832550af52907e209
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 70b0f0c9ae93a682a00eb6cccfec013c4e72f18b29d2c701ae9a3c3db84da240
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558409"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899571"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT 인프라 및 비즈니스 요구
 
@@ -115,7 +115,7 @@ Contoso 비즈니스 요구는 다음과 같은 다섯 가지 주요 범주로 �
 Contoso IT 부서는 배포 전에 비즈니스 요구 사항을 Microsoft 365 E5 매핑하기로 결정했습니다.
 
 
-| Category | 비즈니스 요구 | Microsoft 365 제품 또는 기능에 대한 데이터 관리 |
+| 범주 | 비즈니스 요구 | Microsoft 365 제품 또는 기능에 대한 데이터 관리 |
 |:-------|:-----|:-----|
 | 생산성 |  |  |
 |  | 보다 쉽게 공동으로 작업 | Microsoft Teams, SharePoint, OneDrive |

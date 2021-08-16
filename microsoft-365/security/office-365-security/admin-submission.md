@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 Microsoft 365 Defender 포털에서 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 전자 메일 첨부 파일을 다시 검색하기 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4ce1ea9e06167f0fec4431438c48c967f12a8a46
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: be666d89c7a7d67a6b041e12fc53f005829ad455
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258401"
+ms.locfileid: "58349983"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -58,6 +58,8 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
   
     이 역할 그룹의 구성원 자격은 [](#view-user-submissions-to-microsoft) 이 문서의 부분에서 설명하는 사용자 지정 사서함에 대한 사용자 전송 보기에 필요합니다.
 
+- 사서함에서 여전히 사용할 수 있으며 사용자 또는 다른 관리자가 제거하지 않은 경우 관리자는 30일 이전의 메시지를 전송할 수 있습니다.
+
 - 사용자가 Microsoft에 메시지와 파일을 제출하는 방법에 대한 자세한 내용은 Microsoft에 메시지 및 파일 [보고를 참조하세요.](report-junk-email-messages-to-microsoft.md)
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Microsoft에 의심스러운 콘텐츠 보고
@@ -78,9 +80,6 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 2. 네트워크 메시지 **ID 추가 또는** 전자 메일 파일 업로드 섹션에서 다음 옵션 중 하나를 사용하세요.
    - **전자** 메일 네트워크 메시지 ID 추가: 이 값은 메시지의 **X-MS-Exchange-Organization-Network-Message-Id** 헤더 또는 분리된 메시지의 **X-MS-Office365-Filtering-Correlation-Id** 헤더에서 사용할 수 있는 GUID 값입니다.
    - **업로드 파일(.msg 또는 .eml)**: 파일 **찾아보기를 클릭합니다.** 대화 상자가 열리면 .eml 또는 .msg 파일을 찾아 선택한 다음 열기 를 **클릭합니다.**
-
-   > [!NOTE]
-   > 30일이 지난 메시지를 전송하는 능력은 모든 고객에 대해 Defender에 대해 Office 365 일시적으로 중단되었습니다. 관리자는 7일만 돌아갈 수 있습니다.
 
 3. 문제가 **있는** 받는 사람 선택 상자에서 정책을 실행할 받는 사람을 지정합니다. 정책 검사는 사용자 또는 조직 정책으로 인해 전자 메일이 검사를 무시한지 여부를 판단합니다.
 
@@ -244,9 +243,9 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 사용자가 의심스러운 전자 메일을 사용자 지정 사서함에 제출하면 사용자와 관리자는 제출을 취소할 수 있는 옵션이 없습니다. 사용자가 전자 메일을 복구하려면 지우기 항목 또는 정크 메일 폴더에서 복구할 수 있습니다.
 
-### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a>사용자 지정 사서함에서 Microsoft로 메시지 전송
+### <a name="converting-user-reported-messages-from-the-custom-mailbox-into-an-admin-submission"></a>사용자 지정 사서함에서 관리자 제출로 사용자가 보고한 메시지 변환 
 
-Microsoft로 메시지를 보내지 않고 사용자가 보고한 메시지를 가로채도록 사용자 지정 사서함을 구성한 경우 분석을 위해 특정 메시지를 찾아 Microsoft로 보낼 수 있습니다. 그러면 사용자 제출이 관리자 제출로 효과적으로 이동됩니다.
+Microsoft로 메시지를 보내지 않고 사용자가 보고한 메시지를 가로채도록 사용자 지정 사서함을 구성한 경우 분석을 위해 특정 메시지를 찾아 Microsoft로 보낼 수 있습니다.
 
 사용자 **보고** 메시지 탭의 목록에서 메시지를 선택하고 분석을 위해 **Microsoft에** 제출을 클릭한 다음 드롭다운 목록에서 다음 값 중 하나를 선택합니다.
 

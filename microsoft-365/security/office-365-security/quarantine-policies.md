@@ -17,19 +17,19 @@ ROBOTS: NOINDEX
 description: 관리자는 사용자가 자신의 검사된 메시지에 대해 할 수 있는 작업을 제어하기 위해 검지 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 966136e2b4c81b188735da656ff57504ef3f6347
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: b72b77e6a6c8079684c9830e58497ecdd56f15d1
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256149"
+ms.locfileid: "58349227"
 ---
 # <a name="quarantine-policies"></a>Quarantine policies
 
 > [!NOTE]
 > 이 문서에서 설명하는 기능은 현재 미리 보기로 제공되어 있으며 모든 사람이 사용할 수 있으며 변경될 수 있습니다.
 
-EOP(Exchange Online Protection)의 검사 정책(이전의 Quarantine tags)을 사용하면 관리자가 메시지가 검사에 도착한 방식에 따라 사용자가 자신의 검지된 메시지에 대해 할 수 있는 작업을 제어할 수 있습니다.
+EOP(Exchange Online Protection(Exchange Online Protection)의 검사 정책(이전의 _Quarantine tags)을_ 사용하면 관리자가 메시지가 검사에 도착한 방식에 따라 사용자가 자신의 검지된 메시지에 대해 할 수 있는 작업을 제어할 수 있습니다.
 
 EOP는 일반적으로 메시지에 대해 특정 수준의 대화형 작업 [](find-and-release-quarantined-messages-as-a-user.md) 수준을 허용하거나 차단하고 있으며, 이러한 대화형 작업 수준은 최종 사용자 스팸 [알림에서 허용되거나 차단되었습니다.](use-spam-notifications-to-release-and-report-quarantined-messages.md) 예를 들어 사용자는 스팸 방지 필터링에 의해 스팸 또는 대량으로 검색된 메시지를 보고 해제할 수 있지만 높은 신뢰도 피싱으로 분류된 메시지를 보거나 해제할 수 없습니다(관리자만 이 작업을 할 수 있습니다).
 
@@ -219,21 +219,21 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 |기능|지원되는 정책은 무엇입니까?|사용되는 기본 검지 정책|
 |---|:---:|---|
 |[스팸 방지 정책](configure-your-spam-filter-policies.md): <ul><li>**Spam(** _SpamAction_)</li><li>**높은 지수 스팸(** _HighConfidenceSpamAction_)</li><li>**피싱(** _PhishSpamAction_)</li><li>**높은 신뢰도 피싱(** _HighConfidencePhishAction_)</li><li>**Bulk(** _BulkSpamAction_)</li></ul>|예|<ul><li>DefaultFullAccessPolicy(모든 액세스)</li><li>DefaultFullAccessPolicy(모든 액세스)</li><li>DefaultFullAccessPolicy(모든 액세스)</li><li>AdminOnlyAccessPolicy(액세스 없음)</li><li>DefaultFullAccessPolicy(모든 액세스)</li></ul>|
-|피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호(](set-up-anti-phishing-policies.md#spoof-settings) _AuthenticationFailAction_)</li><li>[가장 보호](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**가장된** 사용자로 메시지가 검색된 경우(_TargetedUserProtectionAction_)</li><li>**가장된** 도메인으로 메시지가 검색된 경우(_TargetedDomainProtectionAction_)</li><li>**사서함 인텔리전스가** 사용자를 검색하고 가장하는 경우(_MailboxIntelligenceProtectionAction_)</li></ul></li></ul></ul>|예|<ul><li>DefaultFullAccessPolicy(모든 액세스)</li><li>DefaultFullAccessPolicy(모든 액세스)</li></ul>|
+|피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호(](set-up-anti-phishing-policies.md#spoof-settings) _AuthenticationFailAction_)</li><li>[가장](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 보호(Defender for Office 365): <ul><li>**가장된** 사용자로 메시지가 검색된 경우(_TargetedUserProtectionAction_)</li><li>**가장된** 도메인으로 메시지가 검색된 경우(_TargetedDomainProtectionAction_)</li><li>**사서함 인텔리전스가** 사용자를 검색하고 가장하는 경우(_MailboxIntelligenceProtectionAction_)</li></ul></li></ul></ul>|예|<ul><li>DefaultFullAccessPolicy(모든 액세스)</li><li>DefaultFullAccessPolicy(모든 액세스)</li></ul>|
 |[맬웨어 방지 정책:](configure-anti-malware-policies.md)검색된 모든 메시지는 항상 차단됩니다.|예|AdminOnlyAccessPolicy(관리자만 액세스)|
-|[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)|예|AdminOnlyAccessPolicy(관리자만 액세스)|
+|[금고, SharePoint,](mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 첨부 파일(Office 365)|예|AdminOnlyAccessPolicy(관리자만 액세스)|
 |[메일 흐름 규칙(전송](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 규칙)에 다음  작업을 수행하여 메시지를 호스팅된 검사(_Quarantine)로 배달합니다._|아니요|해당 없음|
 |
 
-<sup>\*</sup>가장 보호 설정은 Microsoft Defender에서 피싱 방지 정책에서만 사용할 수 Office 365.
-
-기본 Quarantine 정책에서 제공하는 최종 사용자 권한에 만족하는 경우 아무 것도 할 필요가 없습니다. 최종 사용자 스팸 알림 또는 검지된 메시지 세부 정보에서 최종 사용자 기능(사용 가능한 단추)을 사용자 지정하려는 경우 사용자 지정 검지 정책을 할당할 수 있습니다.
+기본 Quarantine 정책에서 제공하는 기본 최종 사용자 권한에 만족하는 경우 아무 것도 할 필요가 없습니다. 최종 사용자 스팸 알림 또는 분리된 메시지 세부 정보에서 최종 사용자 기능(사용 가능한 단추)을 추가하거나 제거하려면 사용자 지정 분리 정책을 할당할 수 있습니다.
 
 ### <a name="assign-quarantine-policies-in-anti-spam-policies-in-the-microsoft-365-defender-portal"></a>스팸 방지 포털에서 스팸 방지 정책에 Microsoft 365 Defender 할당
 
 스팸 방지 정책을 만들고 수정하기 위한 전체 지침은 [EOP에서 스팸 방지 정책 구성에 설명되어 있습니다.](configure-your-spam-filter-policies.md)
 
-1. Microsoft 365 Defender 포털에서 전자 메일 & **정책** & 규칙 정책 섹션 스팸 \>  \>  \> **방지로 이동하세요.** 또는 를 열 <https://security.microsoft.com/antispam> 수 있습니다.
+1. Microsoft 365 Defender 포털의 규칙 섹션에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 스팸 \>  \>  \>  방지 **섹션으로** 이동하세요.
+
+   또는 **Ant-spam 정책 페이지로 직접 이동하기 위해 를** <https://security.microsoft.com/antispam> 사용하세요.
 
 2. 스팸 **방지 정책 페이지에서** 다음 단계 중 하나를 수행합니다.
    - 기존 인바운드 스팸 **방지** 정책을 찾아 선택합니다.
@@ -243,7 +243,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
    - **기존 스팸 방지 정책** 편집: 정책 세부 정보 플라이아웃에서 작업 섹션으로 **이동한** 다음 작업 **편집을 클릭합니다.**
    - **새 스팸 방지 정책 만들기:** 새 정책 마법사에서 작업 **페이지로** 이동합니다.
 
-4. 작업 **페이지에서** 또한 **Quarantine message** action이 있는 모든 판결에는 해당하는 **Quarantine 정책을** 선택할 수 있는 선택 정책 상자도 있습니다.
+4. 작업 **페이지에서** 메시지 검지 작업이  있는 모든 판정에는 해당하는  검지 정책을 선택할 수 있는 선택 정책 상자도 있습니다.
 
    **참고:** 새 정책을 만들 때 비어 있는 Select **quarantine policy value는** 해당 결과에 대한 기본 Quarantine 정책이 사용됩니다. 나중에 정책을 편집하면 빈 값이 이전 표에 설명된 실제 기본 검지 정책 이름으로 대체됩니다.
 
@@ -271,7 +271,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 - 해당하는 스팸 필터링 정책 매개 변수가 없는 스팸 [](#step-2-assign-a-quarantine-policy-to-supported-features) 필터링 판정은 해당 판정에 대한 기본 검지 정책이 사용되는 경우를 의미합니다.
 
-  quarantined messages의 기본 최종 사용자 기능을 변경하려는 경우 기본 정책만 사용자 지정 검지 정책으로 바꾸면 됩니다.
+  해당 특정 판정에 대해 quarantined messages의 기본 최종 사용자 기능을 변경하려는 경우 기본 검지 정책을 사용자 지정 검지 정책으로 바꾸면 됩니다.
 
 - PowerShell의 새 스팸 방지 정책에는 **New-HostedContentFilterPolicy** cmdlet을 사용하는 스팸 필터 정책(설정)과 **New-HostedContentFilterRule** cmdlet을 사용하는 새 스팸 필터 규칙(받는 사람 필터)이 필요합니다. 자세한 내용은 [PowerShell을 사용하여 스팸 방지 정책 만들기를 참조하세요.](configure-your-spam-filter-policies.md#use-powershell-to-create-anti-spam-policies)
 

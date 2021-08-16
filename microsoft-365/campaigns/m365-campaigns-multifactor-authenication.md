@@ -24,14 +24,14 @@ search.appverid:
 - MET150
 - MOE150
 description: 다단계 인증을 설정합니다.
-ms.openlocfilehash: 43ab127d6e3c38ca72d778c94f85997769981bb32bb80c9de5227ea6146f32df
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 81a6ff75cfa5ea0250962f3e21da7890ed795ccb
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53803149"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347183"
 ---
-# <a name="set-up-multifactor-authentication"></a>다단계 인증 설정
+# <a name="set-up-multifactor-authentication-on-your-mobile-device"></a>모바일 장치에서 다단계 인증 설정
 
 다단계 인증을 사용하면 비즈니스 보안을 강화할 수 있습니다. 관리자가 MFA를 사용할 것을 요구한 후 휴대폰으로 주요 앱에 안전하게 로그인할 Microsoft Authenticator 앱을 설정할 수 있습니다. 
 

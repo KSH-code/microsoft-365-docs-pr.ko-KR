@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: b9bc82bff9be84c74b9d908b79572b926a943bab
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: f04fac6783f07918639e54b3f318b63ed32838fe
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257096"
+ms.locfileid: "58349287"
 ---
 # <a name="get-package-sas-uri-api"></a>패키지 SAS URI API를 얻습니다.
 
@@ -41,7 +41,12 @@ ms.locfileid: "58257096"
 > [!IMPORTANT]
 >
 > - 이러한 작업은 버전 1703 이상에서 Windows 10 장치에만 사용할 수 있습니다.
-## <a name="permissions"></a>권한
+
+## <a name="limitations"></a>제한 사항
+
+이 API에 대한 속도 제한은 분당 호출 2개와 시간당 120개 호출입니다. 
+
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API용 Microsoft Defender 액세스를 참조합니다.](apis-intro.md)
 
@@ -74,7 +79,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions/{machine action 
 
 ## <a name="response"></a>응답
 
-성공하면 이 메서드는 "value" 매개 변수에 패키지에 대한 링크를 보유하는 개체가 있는 200, 확인 응답 코드를 반환합니다. 이 링크는 매우 짧은 시간 동안 유효하며 로컬 저장소에 패키지를 다운로드하는 데 즉시 사용해야 합니다.
+성공하면 이 메서드는 "value" 매개 변수에 패키지에 대한 링크를 보유하는 개체가 있는 200, 확인 응답 코드를 반환합니다. 이 링크는 매우 짧은 시간 동안 유효하며 로컬 저장소에 패키지를 다운로드하는 데 즉시 사용해야 합니다. 컬렉션에 대한 컴퓨터 작업이 있지만 완료되지 않은 경우 404 찾을 수 없습니다.가 반환됩니다.
 
 ## <a name="example"></a>예제
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 80089d9bb12970c759e0beffb492f9c1a9a04c0c8548574da127ab2770cc96c8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 28eb524645ecbc3867a342bea1fa34a717a3dde5
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53818722"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58349803"
 ---
 # <a name="list-machineactions-api"></a>MachineActions API 나열
 
@@ -42,7 +42,9 @@ Machine [Actions 컬렉션을 검색합니다.](machineaction.md)
 
 [OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
 
-OData의 쿼리는 `$filter` `status` , , `machineId` 및 `type` `requestor` 속성에서 `creationDateTimeUtc` 지원됩니다.
+OData의 쿼리는 `$filter` , , , , 및 `id` `status` `machineId` `type` `requestor` 속성에서 `creationDateTimeUtc` 지원됩니다.
+<br>```$stop``` 최대값 10,000
+<br>```$skip```
 
 [끝점용 Microsoft Defender를 사용하여 OData 쿼리 예제 보기](exposed-apis-odata-samples.md)
 

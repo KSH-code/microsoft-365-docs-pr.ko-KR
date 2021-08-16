@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정하고, 제거하고, 테스트하는 & 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f65ba38c75cc1d9886cb4c3013d7f707912f72a
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: 9b0a1a081f0eaad8be9b3afefc65f10c79eb5264cf5ce300dd454ccad6cf37fc
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53900171"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -199,7 +199,7 @@ Luhn 알고리즘을 전달해야 하는 정규식을 포함하는 사용자 지
 >
 > 예를 들어 "机密的document"와 같은 키워드를 검색하려면 해당 키워드의 두 변형을 사용합니다. 일본어와 영어 텍스트 사이에 공백이 있고 일본어 텍스트와 영어 텍스트 사이에 공백이 없는 다른 텍스트가 있습니다. 따라서 SIT에 추가할 키워드는 "机密的 document" 및 "机密的document"여야 합니다. 마찬가지로 "東京オリンピック2020"라는 구를 검색하려면 두 가지 변형("東京オリンピック 2020" 및 "東京オリンピック2020")을 사용해야 합니다.
 >
-> 더블 바이트 하이픈 또는 더블 바이트 마침표로 regex를 만드는 동안 regex에서 하이픈이나 마침표가 이스케이프되는 것처럼 두 문자를 모두 이스케이프해야 합니다. 참조를 위한 샘플 regex는 다음과 같습니다.
+> 더블 바이트 하이픈 또는 더블 바이트 마침표로 regex를 만드는 동안 regex에서 하이픈이나 마침표가 이스케이프되는 것처럼 두 문자를 모두 이스케이프해야 합니다. 다음은 참조용 샘플 regex입니다.
 >
 >    - (?<!\d)([４][０-９]{3}[\-?\－\t]*[０-９]{4}
 >

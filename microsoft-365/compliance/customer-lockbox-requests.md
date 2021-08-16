@@ -17,22 +17,24 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 있는 경우 Microsoft 기술 지원 엔지니어가 데이터에 액세스할 수 있는 방법을 제어할 수 있는 고객 Lockbox 요청에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4669abefe039d0f4ba75f22d267c54696cb680aee44df560befd93006c515ae5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fa1a53e2f18f186a31673fa240e1d7bd9b71b5f8
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796246"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58350055"
 ---
 # <a name="customer-lockbox-in-office-365"></a>고객 Lockbox의 Office 365
 
-이 문서에서는 고객 Lockbox에 대한 배포 및 구성 지침을 제공합니다. 고객 Lockbox는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive의 데이터에 액세스하기 위한 요청을 지원합니다. 다른 서비스에 대한 지원을 권장하기 위해 [UserVoice](https://office365.uservoice.com/)에서 Office 365 제출하십시오.
 
-2020년 4월 1일을 포함하여 Microsoft 365 규정 준수 제품에서 혜택을 받을 수 있도록 사용자에게 라이선스를 허여하는 옵션을 확인한 후 보안 및 규정 준수를 위한 Microsoft 365 라이선싱 [지침을 & 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
-Customer Lockbox는 Microsoft가 명시적 승인 없이는 서비스 작업을 수행하기 위해 콘텐츠에 액세스할 수 없습니다. 고객 Lockbox에서 콘텐츠에 액세스하기 위한 요청의 승인 워크플로를 제공합니다.
+이 문서에서는 고객 Lockbox에 대한 배포 및 구성 지침을 제공합니다. 고객 Lockbox는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive의 데이터에 액세스하기 위한 요청을 지원합니다. 다른 서비스에 대한 지원을 권장하기 위해 [UserVoice](https://office365.uservoice.com/)에서 Office 365 제출합니다.
 
-경우에 따라 Microsoft 엔지니어는 지원 프로세스에서 고객이 보고한 문제를 해결하고 수정하는 데 도움을 줄 수 있습니다. 일반적으로 문제는 Microsoft에서 해당 서비스를 위해 제공하는 광범위한 원격 분석/디버깅 도구를 통해 해결됩니다. 그러나 어떤 경우에는 Microsoft 엔지니어가 고객 콘텐츠에 액세스하여 근본 원인을 파악하고 문제를 해결해야 합니다. 고객 Lockbox를 사용하려면 엔지니어가 승인 워크플로의 마지막 단계로 고객의 액세스를 요청해야 합니다. 이렇게 하면 조직에서 이러한 요청을 승인하거나 거부하고 고객에게 직접 액세스 제어를 제공할 수 있습니다.
+Microsoft 365 규정 준수 제품에서 혜택을 받을 수 있도록 사용자에게 라이선스를 Microsoft 365 옵션은 보안 및 규정 준수에 대한 Microsoft 365 라이선스 [지침을 & 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+
+Customer Lockbox는 Microsoft가 명시적 승인 없이는 서비스 작업을 수행하기 위해 콘텐츠에 액세스할 수 없습니다. Customer Lockbox를 사용하면 Microsoft에서 승인된 요청만 콘텐츠에 액세스할 수 있도록 하는 데 사용하는 승인 워크플로 프로세스가 제공됩니다. Microsoft의 워크플로 프로세스에 대한 자세한 내용은 에서 권한 있는 액세스 관리를 [Microsoft 365.](privileged-access-management-solution-overview.md)
+
+경우에 따라 Microsoft 엔지니어가 서비스에서 발생하는 문제를 해결하고 해결하는 데 도움을 줄 수 있습니다. 일반적으로 엔지니어는 Microsoft가 서비스에 대해 준비한 광범위한 원격 분석 및 디버깅 도구를 사용하여 문제를 해결합니다. 그러나 일부 경우에는 Microsoft 엔지니어가 콘텐츠에 액세스하여 근본 원인을 파악하고 문제를 해결해야 합니다. 고객 Lockbox를 사용하려면 엔지니어가 승인 워크플로의 최종 단계로 액세스 권한을 요청해야 합니다. 이렇게 하면 조직에 대한 요청을 승인하거나 거부하고 콘텐츠에 대한 직접 액세스 제어를 제공할 수 있습니다.
 
 ### <a name="customer-lockbox-overview-video"></a>고객 Lockbox 개요 비디오
 
@@ -40,7 +42,7 @@ Customer Lockbox는 Microsoft가 명시적 승인 없이는 서비스 작업을 
 
 ## <a name="customer-lockbox-workflow"></a>고객 Lockbox 워크플로
 
-다음 단계에서는 Microsoft 엔지니어가 고객 Lockbox 요청을 시작할 때의 일반적인 워크플로를 간략하게 설명합니다.
+다음 단계에서는 Microsoft 엔지니어가 고객 Lockbox 요청을 시작할 때의 일반적인 워크플로에 대해 간략하게 설명합니다.
 
 1. 조직의 누군가가 사용하는 Microsoft 365 사서함에 문제가 있습니다.
 
@@ -94,15 +96,14 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 켜면 됩니다. 
 
 3. 고객 Lockbox 요청을 선택한 다음 승인 **또는** **거부를 선택합니다.**
 
-    ![고객 Lockbox 요청 승인 또는 거부](../media/CustomerLockbox7.png)
+    ![고객 Lockbox 요청 승인](../media/CustomerLockbox7.png)
 
     고객 Lockbox 요청 승인에 대한 확인 메시지가 표시됩니다.
 
-    ![고객 Lockbox 요청 승인 또는 거부](../media/CustomerLockbox8.png)
+    ![고객 Lockbox 요청 거부](../media/CustomerLockbox8.png)
 
 > [!NOTE]
 > Set-AccessToCustomerDataRequest cmdlet을 사용하여 Microsoft 지원 엔지니어의 사용자 데이터에 대한 액세스를 제어하는 Microsoft 365 고객 lockbox를 승인, 거부 또는 취소합니다. 자세한 내용은 [Set-AccessToCustomerDataRequest를 참조하세요.](/powershell/module/exchange/set-accesstocustomerdatarequest)
-
 
 ## <a name="auditing-customer-lockbox-requests"></a>고객 Lockbox 요청 감사
 
@@ -241,7 +242,7 @@ Customer Lockbox는 최신 [SOC 1 SSAE 16 감사 보고서에 포함되어 있�
 
 #### <a name="when-a-customer-lockbox-request-is-approved-how-long-are-the-permissions-valid"></a>고객 Lockbox 요청이 승인되면 사용 권한이 얼마나 오래 유효한가요?
 
-현재 Microsoft 엔지니어에게 부여된 액세스 권한의 최대 시간은 4시간입니다. Microsoft 엔지니어는 더 짧은 시간을 요청할 수도 있습니다.
+현재 Microsoft 엔지니어에게 부여된 액세스 권한의 최대 기간은 4시간입니다. Microsoft 엔지니어는 더 짧은 기간을 요청할 수도 있습니다.
 
 #### <a name="how-can-i-get-a-history-of-all-customer-lockbox-requests"></a>모든 고객 Lockbox 요청에 대한 기록을 얻은 방법
 

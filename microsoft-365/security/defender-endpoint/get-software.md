@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 1aa13e51114691426a9d898d61f2faff0593b9ef9997784d8980b6ebcc2f6978
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 110b86974badde65450f4264daf9373f46f8993d
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53847238"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58350031"
 ---
 # <a name="list-software-inventory-api"></a>소프트웨어 인벤토리 목록 API
 
@@ -35,7 +35,15 @@ ms.locfileid: "53847238"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
+## <a name="api-description"></a>API 설명
+
 조직 소프트웨어 인벤토리를 검색합니다.
+<br>[OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
+<br>OData 지원 연산자:
+<br>```$filter``` on:  ```id``` ```name``` , 및 ```vendor``` 속성.
+<br>```$top``` 는 최대값 10,000입니다.
+<br>```$skip```.
+<br>[끝점용 Microsoft Defender를 사용하여 OData 쿼리의 예를 참조합니다.](exposed-apis-odata-samples.md)
 
 ## <a name="permissions"></a>사용 권한
 

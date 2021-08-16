@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0963d80699e171ea72c8873a36da28800bb5bf88
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 1c046bf15cf3ccfbbbfb8969b0f0bc48db1ad4f5
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247444"
+ms.locfileid: "58349899"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -41,6 +41,11 @@ ms.locfileid: "58247444"
 [이 비디오](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3)를 시청하여 자세히 확인하세요.
 > [!TIP]
 > 아직 Microsoft Defender for Office 365 없는가요? [영업 담당자에게 평가판을 시작해 을(를) 시작해 을(를) 평가](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
+
+## <a name="august-2021"></a>2021년 8월
+
+- [보고된](admin-review-reported-message.md)메시지에 대한 관리자 검토: 관리자는 이제 보고된 메시지를 검토한 후 템플릿 기반 메시지를 최종 사용자에게 다시 보낼 수 있습니다. 템플릿은 조직에 맞게 사용자 지정하고 관리자의 판결에 따라 사용자 지정될 수 있습니다.
+- [테넌트 허용/차단](manage-tenant-allows.md)목록에 허용 추가: 허용을 테넌트 허용/차단 목록에 직접 추가할 수 없지만 이제 차단된 메시지가 관리자 제출 프로세스의 일부로 제출된 경우일 수 있습니다. 발생된 블록에 따라 URL, 파일 및/또는 보낸 사람 허용이 테넌트 허용/차단 목록에 추가됩니다. 대부분의 경우 허용을 추가하여 시스템에 시간을 주고, 허용되는 경우 자연스럽게 허용합니다. 경우에 따라 Microsoft에서 허용을 관리합니다.
 
 ## <a name="july-2021"></a>2021년 7월
 

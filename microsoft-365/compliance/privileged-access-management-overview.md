@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
-ms.openlocfilehash: 059e1653d7db9140dbc80fd69fe36e95a744b079
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 02cc7298afe202ae004a1fff84ea6961535c5b2e2972d08da6527946d7253fae
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126607"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53900020"
 ---
 # <a name="learn-about-privileged-access-management"></a>권한이 부여된 액세스 관리에 대한 자세한 정보
 
@@ -35,7 +35,7 @@ Privileged access management를 사용하면 Office 365의 권한 있는 관리 
 
 ## <a name="layers-of-protection"></a>보호 계층
 
-권한 있는 액세스 관리는 보안 아키텍처 내의 다른 데이터 및 액세스 Microsoft 365 보완합니다. 보안에 대한 통합 및 계층적 접근 방식의 일부로 권한 있는 액세스 관리를 포함하면 중요한 정보 보호를 최대화하고 구성 설정을 Microsoft 365 모델을 제공합니다. 다이어그램에 표시된 것 처럼 권한 있는 액세스 관리는 Microsoft 365 서비스의 역할 기반 액세스 제어 보안 모델 및 Microsoft 365 기본 암호화를 통해 제공되는 보호를 Microsoft 365 구축합니다. [Azure AD](/azure/active-directory/active-directory-privileged-identity-management-configure)Privileged Identity Management 사용할 경우 이러한 두 기능은 서로 다른 범위에서 Just-In-Time 액세스를 통해 액세스 제어를 제공합니다.
+권한 있는 액세스 관리 는 Microsoft 365 보안 아키텍처 내의 다른 데이터 및 액세스 기능 보호를 보완합니다. 권한 있는 액세스 관리 를 보안에 대한 통합 및 계층적 접근 방식의 일부로 포함하면 중요한 정보 및 Microsoft 365 구성 설정의 보호를 최대화하는 보안 모델을 제공할 수 있습니다. 다이어그램에 표시된 바와 같이 권한 있는 액세스 관리는 Microsoft 365 데이터의 기본 암호화 및 Microsoft 365 서비스의 역할 기반 액세스 제어 보안 모델과 함께 제공되는 보호를 기반으로 합니다. [Azure AD](/azure/active-directory/active-directory-privileged-identity-management-configure)Privileged Identity Management 사용할 경우 이러한 두 기능은 서로 다른 범위에서 Just-In-Time 액세스를 통해 액세스 제어를 제공합니다.
 
 ![2016의 계층적 Microsoft 365](../media/pam-layered-protection.png)
 
@@ -51,13 +51,13 @@ Privileged access management를 사용하면 Office 365의 권한 있는 관리 
 
 ### <a name="step-1-configure-a-privileged-access-policy"></a>1단계: 권한 있는 액세스 정책 구성하기
 
-[Microsoft 365](https://admin.microsoft.com) 관리 센터 또는 Exchange 관리 PowerShell을 사용하여 권한 있는 액세스 정책을 구성하는 경우 정책 및 권한 있는 액세스 기능 프로세스 및 정책 특성을 Microsoft 365 정의합니다. 활동은 보안 및 준수 &amp; 센터에 기록됩니다. 이 정책은 이제 사용하도록 설정되었으며 승인을 위해 들어오는 요청을 처리할 준비가 완료되었습니다.
+Microsoft 365 관리 센터 또는 Exchange 관리 PowerShell을 사용하여 권한 있는 액세스 정책을 구성하는 경우 정책 및 권한 있는 액세스 기능 프로세스 및 정책 특성을 Microsoft 365 구성합니다. [](https://admin.microsoft.com) 활동은 보안 및 준수 &amp; 센터에 기록됩니다. 이 정책은 이제 사용하도록 설정되었으며 승인을 위해 들어오는 요청을 처리할 준비가 완료되었습니다.
 
 ![1단계: 정책 만들기](../media/pam-step1-policy-creation.jpg)
 
 ### <a name="step-2-access-request"></a>2단계: 액세스 요청
 
-Microsoft 365 [](https://admin.microsoft.com) 관리 센터 또는 Exchange PowerShell을 통해 사용자는 관리자 권한 또는 권한 있는 작업에 대한 액세스를 요청할 수 있습니다. 권한 있는 액세스 기능은 구성된 권한 액세스 정책에 대해 처리하기 위해 Microsoft 365 요청을 전송하고 보안 및 준수 센터 로그에 &amp; 활동을 기록합니다.
+사용자 [Microsoft 365 관리 센터](https://admin.microsoft.com) 또는 Exchange PowerShell을 사용하여 상승되거나 권한이 부여된 작업에 대한 액세스를 요청할 수 있습니다. 권한 있는 액세스 기능은 구성된 권한 액세스 정책에 대해 처리하기 위해 Microsoft 365 요청을 전송하고 보안 및 준수 센터 로그에 &amp; 활동을 기록합니다.
 
 ![2단계: 액세스 요청](../media/pam-step2-access-request.jpg)
 

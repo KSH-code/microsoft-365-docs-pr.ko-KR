@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: b71ed4cb81da800069df826f9d95737134822ae896dc23cbe37363275264219e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 93e76fb5730140d06f9805e91ecd1a175a4f7cfb
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53847418"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347147"
 ---
 # <a name="get-domain-statistics-api"></a>도메인 통계 얻기 API
 
@@ -44,6 +44,7 @@ ms.locfileid: "53847418"
 ## <a name="limitations"></a>제한 사항
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
+2. 최대값은 `lookbackhours` 720시간(30일)입니다.
 
 ## <a name="permissions"></a>사용 권한
 

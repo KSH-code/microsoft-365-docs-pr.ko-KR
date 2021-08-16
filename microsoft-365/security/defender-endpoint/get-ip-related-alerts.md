@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a68402571ff86c8b130b168e4fd1164abf46b3c01b6906c1ec8cfc7c1123cfa2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 12317627c497999f0821a09bc6639aedc2515933
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53811257"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347243"
 ---
 # <a name="get-ip-related-alerts-api"></a>IP 관련 알림 API를 얻습니다.
 
@@ -80,7 +80,8 @@ GET /api/ips/{ip}/alerts
 
 ## <a name="response"></a>응답
 
-성공 및 IP가 있는 경우 - 본문에 [](alerts.md) 경고 엔터티 목록이 있는 200 OK. IP가 없는 경우 - 404 찾을 수 없습니다.
+성공 및 IP가 있는 경우 - 본문에 [](alerts.md) 경고 엔터티 목록이 있는 200 OK. IP 주소가 알 수 없지만 유효한 경우 빈 집합이 반환됩니다.
+IP 주소가 유효하지 않은 경우 HTTP 400을 반환합니다.
 
 ## <a name="example"></a>예제
 

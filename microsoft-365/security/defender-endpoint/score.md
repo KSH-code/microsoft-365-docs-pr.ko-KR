@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 53abd7fa11d7e49059daef39be58f923e2c858d65bc9b6051c12886ac8a9137d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9a8b87a7cee3bb03a0946773012ed6f18bbd75b9
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53792965"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58350007"
 ---
 # <a name="score-resource-type"></a>점수 리소스 유형
 
@@ -48,10 +48,11 @@ ms.locfileid: "53792965"
 [장치 보안 점수 가져오기](get-device-secure-score.md)|[점수](score.md)|조직 장치 보안 점수를 얻습니다.
 [장치 그룹당 노출 점수 나열](get-machine-group-exposure-score.md)|[점수](score.md)|장치 그룹당 점수를 나열합니다.
 
-## <a name="properties"></a>특성
+## <a name="properties"></a>속성
 
 속성|유형|설명
 :---|:---|:---
 점수|실수|현재 점수입니다.
 시간|DateTime|이 API를 호출한 날짜 및 시간입니다.
 RbacGroupName|String|장치 그룹 이름입니다.
+RbacGroupId|String|장치 그룹 ID입니다.

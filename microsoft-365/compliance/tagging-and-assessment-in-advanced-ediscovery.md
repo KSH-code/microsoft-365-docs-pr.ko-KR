@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 ROBOTS: NOINDEX, NOFOLLOW
 description: 파일에 태그를 지정하고 평가 결과를 검토하는 등 평가 교육을 수행하는 단계를 Advanced eDiscovery.
-ms.openlocfilehash: 15bc8254ea1589d9afa17a74eaf3bfbcdfd4bba0
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+ms.openlocfilehash: 4e1b9f3e79ee35866322e713412690af068ce1837c668c0331d1091cd84a2786
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49769193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899864"
 ---
 # <a name="tagging-and-assessment-in-the-relevance-module-in-advanced-ediscovery"></a>2016년 8월의 연결 모듈에 있는 태그 지정 및 Advanced eDiscovery
   

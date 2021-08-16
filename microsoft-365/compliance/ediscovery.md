@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 및 비즈니스용 Skype 대화와 같은 여러 위치에서 찾은 콘텐츠를 검색하고 내보내는 데 사용할 수 있는 세 가지 eDiscovery 도구가 있습니다. 핵심 eDiscovery 및 Advanced eDiscovery 조사를 관리하는 데 도움이 되는 다양한 추가 기능을 제공합니다.
-ms.openlocfilehash: a62c8a53081a79e4afd98c82bfaca486a6155a6b
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 54882665b5e1ff7e444bccb6974f19d4b9ced19dd1225392fd0f7106b5cade92
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53900195"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>Microsoft 365
 

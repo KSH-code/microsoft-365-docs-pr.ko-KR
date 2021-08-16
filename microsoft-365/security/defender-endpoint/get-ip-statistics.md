@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: e59f59158e36def392255e3034e0123c98ffac7a83548bf5c0284f92bea03a8a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6bcabc069bd79444802ca7487de93719cb2bee00
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853922"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347207"
 ---
 # <a name="get-ip-statistics-api"></a>IP 통계 API를 얻습니다.
 
@@ -42,6 +42,7 @@ ms.locfileid: "53853922"
 
 ## <a name="limitations"></a>제한 사항
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
+2. Lookbackhours의 최대값은 720시간(30일)입니다.
 
 ## <a name="permissions"></a>사용 권한
 
@@ -80,7 +81,7 @@ lookBackHours|Int32|통계를 얻기 위해 다시 검색하는 시간을 정의
 
 ## <a name="response"></a>응답
 
-성공 및 ip가 있는 경우 - 본문에 통계 데이터가 있는 200 OK. IP가 존재하지 않습니다. 404 찾을 수 없습니다.
+성공 및 ip가 있는 경우 - 본문에 통계 데이터가 있는 200 OK. IP가 유효하지만 존재하지 않습니다. organizationPrevalence 0, IP가 잘못되었습니다. HTTP 400.
 
 ## <a name="example"></a>예제
 

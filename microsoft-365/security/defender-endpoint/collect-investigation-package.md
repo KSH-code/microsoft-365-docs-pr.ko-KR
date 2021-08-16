@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 85a29e312240d416f7a9870bf904865e78e5e59bbc704792269167e8544a5c68
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cb4de76bacc794805a79597c9088491f057e3ce0
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894602"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58349263"
 ---
 # <a name="collect-investigation-package-api"></a>조사 패키지 수집 API
 
@@ -45,6 +45,10 @@ ms.locfileid: "53894602"
 ## <a name="limitations"></a>제한 사항
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
+
+> [!IMPORTANT]
+>
+> - 이러한 응답 작업은 버전 1703 이상의 Windows 10 장치에만 사용할 수 있습니다.
 
 ## <a name="permissions"></a>사용 권한
 
@@ -84,7 +88,7 @@ Comment|String|작업과 연결되는 설명입니다. **필수입니다**.
 
 ## <a name="response"></a>응답
 
-성공하면 이 메서드는 응답 본문에 201 - 생성된 응답 코드 및 [컴퓨터](machineaction.md) 작업을 반환합니다.
+성공하면 이 메서드는 응답 본문에 201 - 생성된 응답 코드 및 [컴퓨터](machineaction.md) 작업을 반환합니다. 컬렉션이 이미 실행 중이면 400개 잘못된 요청이 반환됩니다.
 
 ## <a name="example"></a>예제
 

@@ -3,7 +3,6 @@ title: 독일 Microsoft 클라우드에서 새 독일 Office 365 서비스로 �
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 05/12/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -19,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: 0c5e4418a44c463ab05f920f53f4c46b8fdc7c521d84deca48bdfdbfb207befa
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 327c7e5d15b006acd9a8b0df829cd2aadbdf8010
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813001"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58349911"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드에서 새 독일 Office 365 서비스로 마이그레이션
 
@@ -121,7 +120,9 @@ Azure AD를 전 세계 서비스로 최종 전환한 후 모든 클라이언트�
 
 ### <a name="is-migration-required"></a>마이그레이션이 필수인가요? 
 
-Microsoft는 Office 365 독일 클라우드에서 새 독일 데이터 센터 지역의 Office 365 서비스로 테넌트 마이그레이션을 추가로 제공합니다. 새 독일 데이터 센터 지역으로의 마이그레이션을 옵트인(opt in)하는 것이 많지만 독일 Microsoft 클라우드 지역에 필요한 보안 업데이트를 계속 제공할 것입니다.
+Microsoft는 Office 365 독일 클라우드에서 독일 신규 데이터 센터 Office 365 서비스로 테넌트 마이그레이션을 추가 비용부분으로 제공했습니다. 이제 적격 Microsoft 클라우드 독일(독일 Microsoft 클라우드) 고객이 모두 마이그레이션되었습니다. 추가 고객은 자동화된 프로세스를 통해 마이그레이션되지 않습니다. 나머지 Microsoft 클라우드 독일 구독 및 테넌트는 서비스 폐쇄 활동의 일부로 2021년 9월에 비활성화 및 비활성화됩니다.
+
+Microsoft는 서비스가 폐쇄될 때까지 필요한 보안 업데이트를 도이클랜드 지역에 계속 제공할 것입니다. 
 
 Office 365 독일 데이터 센터 지역에 서비스를 제공합니다.
 
@@ -203,13 +204,9 @@ Azure 고객만 있는 경우 현재 [](/azure/germany/germany-migration-main) A
 
 Office 365, Dynamics 365 또는 Power BI Azure가 있는 경우 자체 지시 Azure 마이그레이션을 시작하기 전에 먼저 Office 365 서비스에 대한 마이그레이션 프로세스를 따라야 합니다. Azure AD 및 테넌트 조직과 함께 Azure 워크로드를 유지 관리하려면 테넌트 마이그레이션을 완료하기 전에 Azure 마이그레이션을 Office 365 합니다. 자세한 [내용은 도이치란드 Microsoft](ms-cloud-germany-transition-phases.md) 클라우드에서 마이그레이션에 대한 마이그레이션 단계 작업 및 영향을 참조합니다.
 
-**Office 365**
+**Office 365, Dynamics 365 및 Power BI**
 
-지금 Microsoft 주도 마이그레이션에 [동의 합니다](./ms-cloud-germany-migration-opt-in.md).  마이그레이션을 시작할 준비가 되면 마이그레이션 센터의 메시지 센터를 통해 Microsoft 365 관리 센터.
-
-**Dynamics 365 및 Power BI**
-
-[Dynamics 365 고객](/dynamics365/get-started/migrate-data-german-region) 참여를 위한 Microsoft 주도 마이그레이션에 옵트인하여 현재 Power BI [합니다.](/power-bi/admin/service-admin-migrate-data-germany) 마이그레이션을 시작할 준비가 되면 Microsoft 365 관리 센터에서 메시지 센터를 통해 알려 드립니다. 
+이제 적격 Microsoft 클라우드 독일(독일 Microsoft 클라우드) 고객이 모두 마이그레이션되었습니다. 추가 고객은 자동화된 프로세스를 통해 마이그레이션되지 않습니다. 나머지 Microsoft 클라우드 독일 구독 및 테넌트는 서비스 폐쇄 활동의 일부로 2021년 9월에 비활성화 및 비활성화됩니다.
 
 ### <a name="will-the-price-change-for-the-office-365-services-that-i-use"></a>사용하는 Office 365 서비스에 대한 가격이 변경하나요?
 

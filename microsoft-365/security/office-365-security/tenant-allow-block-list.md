@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 관리하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 814ba0695b8b07defbfe991da1c3ed24d0ea0a88679ef36cf43dc49ecefd7a35
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 09a710a5fb1518b819704e881534efda15236520
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56884557"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58349971"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 관리
 
@@ -34,8 +34,9 @@ ms.locfileid: "56884557"
 
 > [!NOTE]
 >
-> 이 문서에 설명된 기능은 미리 보기에 있으며 변경될 수 있으며 일부 조직에서는 사용할 수 없습니다.  이 문서에 설명된 스푸핑 기능이 조직에 없는 경우 [EOP에서](walkthrough-spoof-intelligence-insight.md)스푸핑 인텔리전스 정책을 사용하여 스푸핑된 보낸 사람 관리에서 이전 스푸핑 관리 환경을 참조하세요.
-
+> 이 문서에 설명된 일부 기능은 미리 보기에 있으며 변경될 수 있으며 일부 조직에서는 사용할 수 없습니다.
+> 
+> 이 문서에 설명된 스푸핑 기능이 조직에 없는 경우 [EOP에서](walkthrough-spoof-intelligence-insight.md)스푸핑 인텔리전스 정책을 사용하여 스푸핑된 보낸 사람 관리에서 이전 스푸핑 관리 환경을 참조하세요.
 
 Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Exchange Online Protection) 조직에서 Exchange Online EOP 필터링 판정에 동의하지 않을 수 있습니다. 예를 들어 양호한 메시지는 나쁜 메시지(가음성)로 표시되거나 잘못된 메시지가 통과(거짓 부정)로 표시될 수 있습니다.
 
@@ -43,9 +44,11 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 - 차단할 URL입니다.
 - 차단할 파일입니다.
+- 차단할 보낸 사람 전자 메일 또는 도메인입니다.
 - 허용하거나 차단할 스푸핑된 보낸 사람입니다. 스푸핑 인텔리전스 인사이트에서 [](learn-about-spoof-intelligence.md)허용 또는 차단 판정을 다시 설정하면 스푸핑된 보낸 사람이 테넌트 허용/차단 목록의 스푸핑 탭에만 나타나는 수동 허용 또는 차단 항목이 됩니다.  스푸핑 인텔리전스에서 검색되기 전에 여기에 스푸핑된 보낸 사람에 대한 허용 또는 차단 항목을 수동으로 만들 수도 있습니다.
 - 허용할 URL입니다.
-- 허용할 파일입니다. 
+- 허용할 파일입니다.
+- 허용할 보낸 사람 전자 메일 또는 도메인입니다.
 
 이 문서에서는 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 테넌트 허용/차단 목록의 항목을 구성하는 방법에 대해 설명하고 있습니다.
 
@@ -63,7 +66,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 - 사용 가능한 URL 값은 이 문서 부분의 [테넌트 허용/차단](#url-syntax-for-the-tenant-allowblock-list) 목록 섹션에 대한 URL 구문에 설명되어 있습니다.
 
-- 테넌트 허용/차단 목록을 사용하면 URL에 대해 최대 500개 항목과 파일 해시의 항목 500개가 허용됩니다.
+- 테넌트 허용/차단 목록을 사용하면 보낸 사람에 대해 최대 500개 항목, URL 항목 500개, 파일 해시 항목 500개가 허용됩니다.
 
 - 각 항목의 최대 문자 수는 다음입니다.
   - 파일 해시 = 64
@@ -76,8 +79,8 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 이 게시물의 절차를 수행하려면 먼저 Exchange Online에서 사용 권한을 할당받아야 합니다.
-  - **URL 및 파일**:
-    - 테넌트 허용/차단 목록에서 값을 추가 및 제거하려면 조직  관리 또는 보안 관리자 역할 그룹의 **구성원이** 해야 합니다.
+  - **보낸 사람, URL 및 파일**:
+    - 테넌트 허용/차단 목록에서 값을 추가 및 제거하려면 조직 **관리,** 보안 관리자  또는 보안 운영자 역할 그룹의 구성원 또는 테넌트 **AllowBlockList 관리자** 역할이 할당되어 있습니다.
     - 테넌트 허용/차단 목록에 대한 읽기 전용 액세스의 경우 전역  읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나 해야 합니다.
   - **스푸핑:** 다음 조합 중 하나
     - **조직 관리**
@@ -113,15 +116,21 @@ Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **
 
 2. 원하는 탭을 선택합니다. 사용 가능한 열은 선택한 탭에 따라 다를 수 있습니다.
 
+   - **보낸 사람**:
+     - **값:** 보낸 사람 도메인 또는 전자 메일 주소입니다.
+     - **작업**: 허용 또는 **차단** **값입니다.**
+     - **마지막 업데이트**
+     - **제거**
+     - **참고**
    - **URL**:
      - **값:** URL입니다.
-     - **작업**: 값 **Block 입니다.**
+     - **작업**: 허용 또는 **차단** **값입니다.**
      - **마지막 업데이트**
      - **제거**
      - **참고**
    - **파일**
      - **값:** 파일 해시입니다.
-     - **작업**: 값 **Block 입니다.**
+     - **작업**: 허용 또는 **차단** **값입니다.**
      - **마지막 업데이트**
      - **제거**
      - **참고**
@@ -135,6 +144,7 @@ Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **
 
    그룹을 **클릭하여** 결과를 그룹화할 수 있습니다. 사용 가능한 값은 선택한 탭에 따라 다를 수 있습니다.
 
+   - **보낸 사람**: 작업을 사용하여 결과를 그룹화할 **수 있습니다.**
    - **URL:** 작업을 사용하여 결과를 그룹화할 수 **있습니다.**
    - **파일**: 작업을 사용하여 결과를 그룹화할 **수 있습니다.**
    - **스푸핑**: 작업 또는 스푸핑 유형별로 결과를 **그룹화할 수 있습니다.** 
@@ -143,6 +153,11 @@ Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **
 
    **필터를** 클릭하여 결과를 필터링합니다. 필터 플라이아웃에서  사용할 수 있는 값은 선택한 탭에 따라 다를 수 있습니다.
 
+   - **보낸 사람**
+     - **작업**
+     - **만료되지 않습니다.**
+     - **마지막으로 업데이트된 날짜**
+     - **제거**
    - **URL**
      - **작업**
      - **만료되지 않습니다.**
@@ -161,12 +176,12 @@ Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **
 
 4. 작업을 마쳤으면 **추가** 를 클릭합니다.
 
-## <a name="view-block-file-or-url-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 차단 파일 또는 URL 항목 보기
+## <a name="view-sender-file-or-url-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 보낸 사람, 파일 또는 URL 항목 보기
 
-테넌트 허용/차단 목록에서 차단 파일 또는 URL 항목을 보고 다음 구문을 사용합니다.
+테넌트 허용/차단 목록에서 보낸 사람, 파일 또는 URL 항목을 보거나 차단할 경우 다음 구문을 사용합니다.
 
 ```powershell
-Get-TenantAllowBlockListItems -ListType <FileHash | URL> [-Entry <FileHashValue | URLValue>] [<-ExpirationDate Date | -NoExpiration>]
+Get-TenantAllowBlockListItems -ListType <Sender | FileHash | URL> [-Entry <SenderValue | FileHashValue | URLValue>] [<-ExpirationDate Date | -NoExpiration>]
 ```
 
 이 예제에서는 지정한 파일 해시 값에 대한 정보를 반환합니다.

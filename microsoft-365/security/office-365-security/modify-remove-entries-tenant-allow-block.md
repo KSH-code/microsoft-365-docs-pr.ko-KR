@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 항목을 수정하고 제거하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 03f2d3f61bc61862bc221f338e6115b035fd2ea349be5531ca2035558046ba06
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 951468fb9b3245135356d956e488c55390e9c6f9
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56814287"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58349791"
 ---
 # <a name="modify-and-remove-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 항목 수정 및 제거
 
@@ -41,11 +41,15 @@ ms.locfileid: "56814287"
 1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
 
 2. 수정할 항목 유형이 포함된 탭을 선택합니다.
+   - **Senders)
    - **URL**
    - **파일**
    - **스푸핑**
 
 3. 수정할 항목을 선택하고 편집 아이콘 편집 ![ 을 ](../../media/m365-cc-sc-edit-icon.png) **클릭합니다.** 플라이아웃에서 수정할 수 있는 값은 이전 단계에서 선택한 탭에 따라 다를 수 있습니다.
+   - **보낸 사람**
+     - **만료 및/또는** 만료 날짜가 없습니다.
+     - **선택 사항 참고 사항**
    - **URL**
      - **만료 및/또는** 만료 날짜가 없습니다.
      - **선택 사항 참고 사항**
@@ -56,11 +60,15 @@ ms.locfileid: "56814287"
      - **작업:** 값을 허용 또는 **차단으로** 변경할 **수 있습니다.**
 4. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
+> [!NOTE]
+> 생성 날짜 이후 최대 30일 동안만 확장할 수 있습니다. 블록은 최대 90일까지 확장할 수 있지만 허용하는 경우와 달리 만료되지 않는 것으로 설정할 수도 있습니다.
+
 ### <a name="remove-entries-from-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 항목 제거
 
 1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
 
 2. 제거할 항목 유형이 포함된 탭을 선택합니다.
+   - **보낸 사람**
    - **URL**
    - **파일**
    - **스푸핑**
@@ -73,10 +81,10 @@ ms.locfileid: "56814287"
 
 ### <a name="modify-block-file-and-url-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 차단 파일 및 URL 항목 수정
 
-테넌트 허용/차단 목록에서 차단 파일 및 URL 항목을 수정하려면 다음 구문을 사용합니다.
+테넌트 허용/차단 목록에서 차단 보낸 사람, 파일 및 URL 항목을 수정하려면 다음 구문을 사용합니다.
 
 ```powershell
-Set-TenantAllowBlockListItems -ListType <FileHash | Url> -Ids <"Id1","Id2",..."IdN"> [<-ExpirationDate Date | -NoExpiration>] [-Notes <String>]
+Set-TenantAllowBlockListItems -ListType <Sender | FileHash | Url> -Ids <"Id1","Id2",..."IdN"> [<-ExpirationDate Date | -NoExpiration>] [-Notes <String>]
 ```
 
 이 예에서는 지정한 블록 URL 항목의 만료 날짜를 변경합니다.
@@ -89,10 +97,10 @@ Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBw
 
 ### <a name="remove-url-or-file-entries-from-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 URL 또는 파일 항목 제거
 
-테넌트 허용/차단 목록에서 파일 및 URL 항목을 제거하려면 다음 구문을 사용합니다.
+테넌트 허용/차단 목록에서 보낸 사람, 파일 및 URL 항목을 제거하려면 다음 구문을 사용합니다.
 
 ```powershell
-Remove-TenantAllowBlockListItems -ListType <FileHash | Url> -Ids <"Id1","Id2",..."IdN">
+Remove-TenantAllowBlockListItems -ListType <Sender | FileHash | Url> -Ids <"Id1","Id2",..."IdN">
 ```
 
 이 예에서는 테넌트 허용/차단 목록에서 지정된 차단 URL 항목을 제거합니다.

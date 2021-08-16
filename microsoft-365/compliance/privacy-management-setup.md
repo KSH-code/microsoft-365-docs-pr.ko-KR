@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에 대한 개인 정보 관리를 설정하고, 역할 및 사용 권한을 설정하고, 중요한 설정을 구성하는 방법을 배워야 합니다.
-ms.openlocfilehash: 1472b20b32315480f5b7b237ca91a465de293747
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 63a6919b2aa4c368360414c683614d8bb4305fd0
+ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247534"
+ms.locfileid: "58350043"
 ---
 # <a name="get-started-with-privacy-management-preview"></a>개인 정보 관리 시작(미리 보기)
 
@@ -38,13 +38,17 @@ ms.locfileid: "58247534"
 
 ## <a name="set-up-privacy-management"></a>개인 정보 관리 설정
 
-개인 정보 관리를 시작하기 위해 먼저 평가판 라이선스를 받은 후 로그인합니다. 그런 다음 사용자에 대한 사용 권한을 할당하고 설정을 검토할 수 있습니다.
+개인 정보 관리를 시작하기 위해 먼저 평가판 라이선스를 얻습니다. 그런 다음 개인 정보 관리에 로그인하고, 사용자에게 사용 권한을 할당하고, 설정을 검토할 수 있습니다.
 
 ### <a name="get-trial-license"></a>평가판 라이선스 취득
 
 공개 미리 보기를 시작하려면 전역 관리자가 관리 센터에서 무료 개인 정보 관리 평가판 라이선스를 [얻을 수 있습니다.](https://aka.ms/purchasem365privacy) 시작하려면 "평가판 시작"을 선택합니다. 라이선스는 한 달 동안 지속됩니다. 공개 미리 보기 중에 필요한 경우 비용으로 갱신할 수 있습니다.
 
-구독을 얻은 후 정품 인증을 위해 최대 30분을 허용합니다. 그런 다음 개인 정보 관리로 돌아가서 시작할 수 있습니다. 사용 약관 및 개인 데이터 평가 프로세스에 동의하는지 확인하는 것이 요청됩니다([자세한 정보).](privacy-management.md#how-we-evaluate-your-data) 계속하기 전에 제공된 링크를 전체 검토할 수 있습니다. 동의하면 개인 정보 관리가 조직의 데이터에 대한 인사이트 제공을 시작하기까지 최대 24시간이 걸릴 수 있습니다.
+구독을 얻은 후 정품 인증을 위해 최대 30분을 허용합니다. 그런 다음 규정 준수 센터의 개인 정보 관리로 돌아와서 시작할 수 있습니다.
+
+### <a name="accept-privacy-management-terms"></a>개인 정보 관리 약관 수락
+
+개인 정보 관리를 처음 열면 약관 및 개인 데이터 평가 프로세스(자세한 정보)에 동의하는지 확인하는[것이 요청됩니다.](privacy-management.md#how-we-evaluate-your-data) 계속하기 전에 제공된 링크를 전체 검토할 수 있습니다. 동의하면 개인 정보 관리가 조직의 데이터에 대한 인사이트 제공을 시작하기까지 최대 24시간이 걸릴 수 있습니다.
 
 개인 정보 관리 사용 약관에 대한 구독 또는 동의를 얻기 위해 필요한 역할을 보유하지 않는 경우 전역 관리자에게 지원을 요청하라는 메시지가 표시됩니다.
 
@@ -70,6 +74,6 @@ ms.locfileid: "58247534"
 
 이러한 페이지에 대한 자세한 내용은 데이터 찾기 및 [시각화를 참조하세요.](privacy-management-data-profile.md)
 
-## <a name="get-started-with-default-policies"></a>기본 정책 시작 
+## <a name="get-started-with-default-policies"></a>기본 정책 시작
 
 개인 정보 보호 관리는 데이터 최소화, 데이터 과다 사용 및 데이터 전송을 위한 템플릿을 사용하여 기본 설정을 사용하여 세 가지 정책을 만들어 데이터 평가 프로세스를 시작하는 데 도움이 됩니다. 이러한 정책은 기본적으로 설정되지만 알림 메일 또는 수정 프롬프트를 자동으로 트리거하지는 않습니다. 초기 설정 후 정책을 만들고 사용자 지정할 수 있습니다. 자세한 내용은 정책 만들기 [및 관리를 참조합니다.](privacy-management-policies.md)

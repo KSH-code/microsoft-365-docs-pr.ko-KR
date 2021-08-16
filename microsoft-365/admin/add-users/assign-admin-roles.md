@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 관리 센터 관리자 역할 할당
+title: 관리자 역할 할당 Microsoft 365 관리 센터
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -28,12 +28,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 사용자가 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에게 관리자 역할을 할당하는 방법을 설명합니다.
-ms.openlocfilehash: 0b959dd9349a032d6825d010d103bfd74d080a595b072be950a61e98f3765dbb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 55eaf8f37a61e12ec57b386a509dfddf2ca05ff8
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53815866"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347003"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -58,7 +58,7 @@ Microsoft 비즈니스 구독을 구입한 사람인 경우 전역 관리자입�
 
 ### <a name="assign-admin-roles-to-users-using-roles"></a>역할을 사용하여 사용자에게 관리자 역할 할당
 
-1. 관리 센터에서 **역할로 이동하세요.** Azure **AD 또는** **Intune** 탭을 선택하면 조직에서 사용할 수 있는 관리자 역할을 볼 수 있습니다.
+1. 관리 센터에서 역할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2097861" target="_blank">**할당으로 이동하세요.**</a> Azure **AD 또는** **Intune** 탭을 선택하면 조직에서 사용할 수 있는 관리자 역할을 볼 수 있습니다.
 2. 사용자를 할당할 관리자 역할을 선택합니다.
 3. 할당된 **관리자 추가**  >  **를 선택합니다.**
 4. 사용자의 표시 이름  또는 사용자 이름을 입력한 다음 제안 목록에서 사용자를 선택합니다.
@@ -107,6 +107,6 @@ PowerShell을 알고 있는 경우 PowerShell을 통해 사용자 계정에 역�
 ## <a name="related-content"></a>관련 콘텐츠
 
 [Microsoft 365 관리자 역할 정보](about-admin-roles.md)(문서)\
-[Azure Active Directory의](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 관리자 역할 권한(문서)\
+[Azure Active Directory 관리자](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 역할 권한(문서)\
 [PowerShell을 통해](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) 사용자 계정에 역할 할당(문서)\
 [파트너 관계 승인 또는](../misc/add-partner.md) 제거(문서)

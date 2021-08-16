@@ -17,18 +17,18 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery 사례에서 지원되는 조사 또는 법률 사례가 닫히거나 삭제될 때 발생하는 일에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: efbcbe34e6d7d8b564bcfa0cf9bbd8a1fbb59709
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: f67fbbbc57af2802da8aa73803c3ba106b1a9fc55d608a1468feec327bc99fec
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53900135"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>사례 닫기 또는 Advanced eDiscovery 삭제
 
 Advanced eDiscovery 지원되는 법률 사례 또는 조사가 완료되면 사례를 닫거나 삭제할 수 있습니다. 닫힌 사례를 다시 열 수 있습니다.
 
-## <a name="close-a-case"></a>사례 닫기
+## <a name="close-a-case"></a>케이스 종료
 
 다음은 사례를 닫을 때 Advanced eDiscovery 다음과 같습니다.
 
@@ -66,7 +66,7 @@ Advanced eDiscovery 사례를 다시 열면 사례를 닫을 때 수행되던 �
 
    다시 열기 프로세스를 완료하는 데 최대 60분이 걸릴 수 있습니다.
 
-## <a name="delete-a-case"></a>사례 삭제
+## <a name="delete-a-case"></a>케이스 삭제
 
 활성 및 닫힌 사례를 모두 삭제할 Advanced eDiscovery 있습니다. 케이스를 삭제하면 보유자, 통신, 검색, 검토 집합 및 내보내기 작업의 목록과 같은 케이스와 연결된 모든 구성 요소가 삭제됩니다. 사례는 목록의 Advanced eDiscovery **목록에서** Microsoft 365 규정 준수 센터. 삭제된 사례는 복구하거나 다시 열 수 없습니다.
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 Microsoft 365 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: bb797fa4f71b699069f8542b8bc7a353a9ee1698
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 25a9c27d13ff55201a72bb936abbd44a5138a787b912db64ff6bc5aa798a05fb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899688"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 

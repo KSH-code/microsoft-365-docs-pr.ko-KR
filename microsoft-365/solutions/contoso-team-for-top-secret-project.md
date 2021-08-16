@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 비밀 프로젝트를 위해 보안이 강화된 팀을 사용하여 새 제품 및 서비스 제품군을 개발하는 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 751bf3972d148219a6cc341067c0bf34cd581447
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 86c2b0cbf53df07ac956138e096ad53a67f0bd7226b8583214d0e666ddbafe9e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029019"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53883585"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 최상위 프로젝트를 위한 격리된 팀
 

@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 네트워킹 인프라와 회사에서 엔터프라이즈 클라우드 서비스에 최적화된 네트워킹 성능을 위해 SD-WAN 기술을 사용하는 Microsoft 365 이해합니다.
-ms.openlocfilehash: d5f3581b81d33bdc200321692b82d57a96d09298
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: a7b57a4a126b455b3a063abba9e215ec8d02f2b1b630234e647347fdd14dce6e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53899542"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Contoso Corporation에 대한 네트워킹
 
