@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e4f07adb051dde24d374055d206955ad61df432a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0e763e78513426e187ab4f3df87438ac750d6f4a77d8a0b5791276685c221a89
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920495"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854438"
 ---
 # <a name="device-configuration"></a>장치 구성
 
@@ -42,7 +42,7 @@ Microsoft Managed Desktop 권장 보안 템플릿 | 사용자 환경을 최적�
 데이터 연결 | 데이터 데이터 연결(예: LTE 네트워크)을 통해 업데이트는 기본적으로 꺼져 있습니다. 그러나 각 사용자는 설정 > 업데이트 및 고급 옵션에서 > 있습니다. 데이터 데이터 연결을 통해 모든 사용자가 업데이트를 사용하도록 허용하려면 변경 요청을 제출하여 모든 장치에 대해 이 설정을 켜게 합니다. [](../working-with-managed-desktop/admin-support.md)
 | 장치 준수 | 이러한 정책은 모든 Microsoft Managed Desktop 구성됩니다. 장치가 필수 보안 구성에서 을(를) 뚫을 때 규격이 아닌 것으로 보고됩니다.
 
-## <a name="windows-diagnostic-data"></a>Windows 데이터
+## <a name="windows-diagnostic-data"></a>Windows 진단 데이터
 
  장치는 알려진 상업용 식별자에 따라 Microsoft에 향상된 진단 데이터를 제공 하게 설정됩니다. IT Microsoft Managed Desktop 이러한 설정을 변경할 수 없습니다. GDPR(일반 데이터 보호 규정) 지역의 고객의 경우 사용자는 제공되는 진단 데이터 수준을 줄일 수 있지만 서비스가 감소합니다. 예를 들어 Microsoft Managed Desktop 및 보안 요구 사항을 가장 잘 충족하기 위해 설정 및 정책을 이행하는 데 필요한 데이터를 수집할 수 없습니다. 자세한 내용은 조직에서 Windows [진단 데이터 구성을 참조하세요.](/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
 

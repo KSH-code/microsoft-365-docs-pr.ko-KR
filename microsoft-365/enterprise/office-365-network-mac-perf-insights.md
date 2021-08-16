@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 네트워크 인사이트
+title: Microsoft 365 네트워크 Insights
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,19 +13,19 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Microsoft 365 네트워크 인사이트
-ms.openlocfilehash: 10b1c66a8f9aae555c2841b2b290f341bec3c7ec
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+description: Microsoft 365 네트워크 Insights
+ms.openlocfilehash: ef844598d505e42f4fb99cb52321fc9709dbd4a2411884f7b8b4fff51c3a62d2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854788"
 ---
-# <a name="microsoft-365-network-insights"></a>Microsoft 365 네트워크 인사이트
+# <a name="microsoft-365-network-insights"></a>Microsoft 365 네트워크 Insights
 
-**네트워크 인사이트는** Microsoft 365 테넌트에서 수집된 성능 메트릭으로, 테넌트의 관리 사용자만 볼 수 있습니다. 인사이트는 의 Microsoft 365 관리 센터에 <https://portal.microsoft.com/adminportal/home#/networkperformance> 표시됩니다.
+**네트워크 인사이트는** Microsoft 365 테넌트에서 수집된 성능 메트릭으로, 테넌트의 관리 사용자만 볼 수 있습니다. Insights 의 Microsoft 365 관리 센터에 <https://portal.microsoft.com/adminportal/home#/networkperformance> 표시됩니다.
 
-인사이트는 사무실 위치의 네트워크 경계를 디자인하는 데 도움이 됩니다. 각 인사이트는 사용자가 테넌트에 액세스하는 각 지리적 위치에 대한 특정 일반적인 문제의 성능 특성에 대한 실시간 세부 정보를 제공합니다.
+Insights 위치의 네트워크 경계를 디자인하는 데 도움이 되는 정보를 제공합니다. 각 인사이트는 사용자가 테넌트에 액세스하는 각 지리적 위치에 대한 특정 일반적인 문제의 성능 특성에 대한 실시간 세부 정보를 제공합니다.
 
 각 사무실 위치에 대해 표시될 수 있는 6개의 특정 네트워크 인사이트가 있습니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "52470559"
 
 이 인사이트에 대한 세부 정보에는 사무실 위치, 위치의 예상 총 테넌트 사용자 백분율, 현재 네트워크 발신 위치, 발신 위치의 관련성, 위치와 현재 발신 지점 사이의 거리, 조건이 처음 검색된 날짜 및 조건이 해결된 날짜가 포함됩니다.
 
-### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+### <a name="what-should-i-do"></a>어떻게 해야 하나요?
 
 이 정보의 경우 연결이 Microsoft의 전역 네트워크 및 가장 가까운 서비스 프런트 도어로 최적으로 라우팅될 수 있도록 사무실 위치에 더 가깝게 네트워크 Microsoft 365 것이 좋습니다. 또한 Microsoft는 향후 네트워크 지점과 서비스 프런트 도어를 모두 확장하여 사용자 사무실 위치로의 네트워크 Microsoft 365 수 있도록 합니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "52470559"
 
 프록시 서버, VPN 및 데이터 손실 방지 장치와 같은 네트워크 중간 장치는 트래픽이 중간에 있는 Microsoft 365 클라이언트의 성능과 안정성에 영향을 줄 수 있습니다.
 
-### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+### <a name="what-should-i-do"></a>어떻게 해야 하나요?
 
 네트워크 트래픽에 대한 처리를 무시하도록 검색된 네트워크 Microsoft 365 구성합니다.
 
@@ -93,7 +93,7 @@ ms.locfileid: "52470559"
 
 이 인사이트는 이 사무실 위치와 동일한 Microsoft 365 고객에 대한 집계 성과를 검사합니다. 이 인사이트는 사용자의 평균 대기 시간이 인접 테넌트의 평균 대기 시간보다 10% 더 큰 경우 표시됩니다.
 
-### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+### <a name="what-should-i-do"></a>어떻게 해야 하나요?
 
 이 조건에는 회사 네트워크 또는 ISP의 대기 시간, 병목 현상, 아키텍처 디자인 문제 등 여러 가지 이유가 있을 수 있습니다. 사무실 네트워크와 현재 프런트 도어 사이의 경로에 있는 각 홉 간의 Microsoft 365 검사합니다. 자세한 내용은 네트워크 [연결 Microsoft 365 을 참조하세요.](microsoft-365-network-connectivity-principles.md)
 
@@ -110,7 +110,7 @@ ms.locfileid: "52470559"
 
 당사는 Exchange Online 사무실 위치 도시에서 사용하기에 적합한 서비스 프런트 도어를 나열합니다. 현재 테스트에서 이 목록에 없는 Exchange Online 서비스 프런트 도어를 사용하는 것으로 표시되어 있는 경우 이 권장을 호출합니다.
 
-### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+### <a name="what-should-i-do"></a>어떻게 해야 하나요?
 
 최적화되지 않은 Exchange Online 서비스 프런트 도어를 사용하는 경우 회사 네트워크가 들어오기 전에 네트워크 백힐로 인해 발생할 수 있습니다. 이 경우 로컬 및 직접 네트워크 유출이 권장됩니다. 또한 원격 DNS 재귀 해결 서버 사용으로 인해 발생할 수 있습니다. 이 경우 DNS 재귀 확인자 서버를 네트워크 전송에 맞추는 것이 좋습니다.
 
@@ -127,7 +127,7 @@ ms.locfileid: "52470559"
 
 테스트 클라이언트가 SharePoint 온라인 서비스 프런트 도어를 식별합니다. 그런 다음 사무실 위치 도시에 대해 해당 도시에 대한 SharePoint 온라인 서비스 프런트 도어와 비교합니다. 일치하지 않는 경우 이 권장됩니다.
 
-### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+### <a name="what-should-i-do"></a>어떻게 해야 하나요?
 
 최적화되지 않은 SharePoint 온라인 서비스 프런트 도어를 사용하는 경우 회사 네트워크가 들어오기 전에 네트워크 백힐로 인해 발생할 수 있습니다. 이 경우 로컬 및 직접 네트워크 유출이 권장됩니다. 또한 원격 DNS 재귀 해결 서버 사용으로 인해 발생할 수 있습니다. 이 경우 DNS 재귀 확인자 서버를 네트워크 전송에 맞추는 것이 좋습니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "52470559"
 
 사용자가 SharePoint Online 및 비즈니스용 OneDrive 도어에서 얻을 수 있는 다운로드 속도는 메가바이트(MBps) 단위로 측정됩니다. 이 값이 1MBps보다 작은 경우 이 정보를 제공합니다.
 
-### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+### <a name="what-should-i-do"></a>어떻게 해야 하나요?
 
 다운로드 속도를 높이기 위해 대역폭을 늘리면 됩니다. 또는 사무실 위치의 사용자 컴퓨터와 SharePoint 온라인 서비스 프런트 도어 간에 네트워크 정체가 있을 수 있습니다. 이를 연속적인 손실이라고도 부르며 충분한 대역폭을 사용할 수 있는 경우에도 사용자가 사용할 수 있는 다운로드 속도를 제한합니다.
 
@@ -162,7 +162,7 @@ ms.locfileid: "52470559"
 
 이러한 위치보다 사용자로부터 더 멀리 인터넷을 유출하면 성능이 낮아지며 중국에서 전송하면 경계 정체로 인해 대기 시간이 길어지며 연결 문제가 발생할 수 있습니다.
 
-### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+### <a name="what-should-i-do"></a>어떻게 해야 하나요?
 
 이 인사이트와 관련된 성능 문제를 완화하는 방법에 대한 자세한 내용은 중국 사용자를 위한 Microsoft 365 전역 테넌트 성능 최적화를 [참조하세요.](microsoft-365-networking-china.md)
 
@@ -174,7 +174,7 @@ ms.locfileid: "52470559"
 
 이는 대부분의 사용자가 사용자 환경과 연결되지 Outlook 경험할 가능성이 Exchange Online. 샘플의 백분율은 60포인트 미만으로 표시하는 사용자의 백분율을 나타내고 있습니다.  
 
-### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+### <a name="what-should-i-do"></a>어떻게 해야 하나요?
 
 아직 표시하지 않은 경우 Office 위치 네트워크 연결 표시를 사용하도록 설정하세요. 네트워크에 영향을 미치는 불량 네트워크 연결의 영향을 Exchange 각 사무실에서 사용자를 Microsoft 네트워크에 연결하는 네트워크 경계를 개선하는 방법을 찾으시고자 합니다.
 
@@ -186,7 +186,7 @@ ms.locfileid: "52470559"
 
 이는 대부분의 사용자가 사용자 환경 문제 및 사용자 환경과 관련한 SharePoint OneDrive. 샘플의 백분율은 40포인트 미만으로 표시하는 사용자의 백분율을 나타내고 있습니다.  
 
-### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+### <a name="what-should-i-do"></a>어떻게 해야 하나요?
 
 아직 표시하지 않은 경우 Office 위치 네트워크 연결 표시를 사용하도록 설정하세요. 네트워크에 영향을 미치는 불량 네트워크 연결의 영향을 SharePoint Microsoft 네트워크에 연결하는 각 사무실에서 네트워크 경계를 개선하는 방법을 찾아야 합니다.
 

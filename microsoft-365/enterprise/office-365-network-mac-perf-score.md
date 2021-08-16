@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 평가
-ms.openlocfilehash: c09e34b1bc3a8bf0f82a4a1e3c72e67f320abd43
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: c9533cb4189709ad4e32194371fb0863b4b5fa3f38eb035f7f0bdc505152b731
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854733"
 ---
 # <a name="microsoft-365-network-assessment"></a>Microsoft 365 네트워크 평가
 

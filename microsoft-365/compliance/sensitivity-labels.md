@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 05877324767ea4f201873325b087855520be672022d8aee63bbad5fa0d713d6c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6861c9e0fa4611ca2a457b26d431b7f9a7473690
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53841924"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247859"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -148,7 +148,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 관리자 센터에서 민감도 레이블을 만드는 경우 **레이블** 페이지의 **민감도** 탭에 있는 목록에 레이블이 나타납니다. 이 목록에서는 레이블의 우선 순위가 반영되기 때문에 레이블의 순서가 중요합니다. 극비와 같은 가장 제한적인 민감도 레이블은 목록의 **아래쪽** 에 표시되도록 하고, 공용과 같은 가장 덜 제한적인 민감도 레이블은 **위쪽** 에 표시되도록 합니다.
 
-문서, 전자 메일 또는 컨테이너와 같은 한 항목에 한 개의 민감도 레이블만 적용할 수 있습니다. 사용자가 레이블을 더 낮은 분류로 변경하는 사유를 제공하는 옵션을 설정하는 경우 이 목록의 순서는 하위 분류를 식별합니다. 단, 이 옵션은 하위 레이블에 적용되지 않습니다.
+문서, 전자 메일 또는 컨테이너와 같은 한 항목에 한 개의 민감도 레이블만 적용할 수 있습니다. 사용자가 레이블을 더 낮은 분류로 변경하는 사유를 제공하는 옵션을 설정하는 경우 이 목록의 순서는 하위 분류를 식별합니다. 그러나 이 옵션은 상위 레이블의 우선순위를 공유하는 하위 레이블에는 적용되지 않습니다.
 
 그러나 하위 레이블의 순서는 [자동 레이블 지정](apply-sensitivity-label-automatically.md)과 함께 사용됩니다. 레이블을 자동 또는 권장 사항으로 적용되도록 구성하면 둘 이상의 레이블에 대해 여러 개의 일치 항목이 발생할 수 있습니다. 적용하거나 권장할 레이블을 결정하기 위해 레이블 순서가 사용됩니다. 마지막 민감도 레이블이 선택되고 해당하는 경우 마지막 하위 레이블이 선택됩니다.
 

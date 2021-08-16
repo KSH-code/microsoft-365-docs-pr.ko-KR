@@ -1,6 +1,6 @@
 ---
-title: Defender의 Microsoft 365 조치
-description: Defender에서 자동화된 조사를 따르는 수정 Microsoft 365 개요를 얻습니다.
+title: 2016년 8월 Microsoft 365 Defender
+description: 2013에서 자동화된 조사를 따르는 수정 작업의 개요를 Microsoft 365 Defender
 keywords: 자동화된, 조사, 경고, 트리거, 작업, 수정
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: c8d3838194c25ba49b2611dc355b21e228291b01
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 7f34f40d5d0078c1dc0b49e2f73b5c692c6a4b315058f5d8f7c097dce6b237cb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53902190"
 ---
-# <a name="remediation-actions-in-microsoft-365-defender"></a>Defender의 Microsoft 365 조치
+# <a name="remediation-actions-in-microsoft-365-defender"></a>2016년 8월 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,15 +36,15 @@ ms.locfileid: "52842533"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 자동화된 조사가 진행되는 동안 및 이후에 악의적 또는 의심스러운 항목에 대해 수정 작업이 식별됩니다. 일부 종류의 수정 작업은 끝점이라고도 하는 장치에서 수행됩니다. 기타 수정 작업은 전자 메일 콘텐츠에 대해 수행됩니다. 재구성 작업을 수행, 승인 또는 거부한 후에 자동화된 조사가 완료됩니다.
+2016에서 자동화된 조사를 Microsoft 365 Defender 또는 의심스러운 항목에 대해 수정 작업이 식별됩니다. 일부 종류의 수정 작업은 끝점이라고도 하는 장치에서 수행됩니다. 기타 수정 작업은 전자 메일 콘텐츠에 대해 수행됩니다. 재구성 작업을 수행, 승인 또는 거부한 후에 자동화된 조사가 완료됩니다.
 
 > [!IMPORTANT]
 > 재구성 작업이 자동으로 수행될지 승인에만 수행될지는 자동화 수준과 같은 특정 설정에 따라 결정됩니다. 자세한 내용은 다음 문서를 참조합니다.
-> - [Defender에서 자동화된 조사 및 대응 Microsoft 365 구성](m365d-configure-auto-investigation-response.md)
+> - [2013에서 자동화된 조사 및 대응 기능을 Microsoft 365 Defender](m365d-configure-auto-investigation-response.md)
 > - [장치에서 위협을 수정하는 방법](../defender-endpoint/automated-investigations.md)
 > - [전자 메일 및 공동 작업 콘텐츠에 & 수정 작업](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
-다음 표에는 현재 Defender에서 지원되는 수정 Microsoft 365 요약되어 있습니다. 
+다음 표에는 현재 2013에서 지원되는 수정 작업이 Microsoft 365 Defender. 
 
 |장치(끝점) 수정 작업  |전자 메일 수정 작업  |
 |:---------|:---------|

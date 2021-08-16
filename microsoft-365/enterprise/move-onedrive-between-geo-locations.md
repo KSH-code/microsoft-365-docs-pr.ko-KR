@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: 사이트 이동을 예약하고 사용자에게 기대치를 전달하는 OneDrive 지역 위치로 이동하는 방법에 대한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 9e75c8e4102f82d4ab6e0f99ea26e1c0ad8b4bab
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 1e571993a4d83d3e9a61f783fee9b1df5f9de4bb3d9184a9565c280677faf21c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362249"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854863"
 ---
 # <a name="move-a-onedrive-site-to-a-different-geo-location"></a>OneDrive 사이트를 다른 지리적 위치로 이동 
 

@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 계획하는 방법 학습
-ms.openlocfilehash: 8f02d917a6a977dfcd8fdca6745abcdc66142aaa
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 639c76567f3f14ac9c885ae277ee2631ca26dec5bdf8b3184ad6ee212a7c4c1f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53649650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53854702"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 계획
 

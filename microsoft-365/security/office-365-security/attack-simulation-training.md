@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지를 위한 Microsoft Defender의 공격 시뮬레이션 교육을 사용하여 피싱 방지를 교육하는 방법을 Office 365.
 ms.technology: mdo
-ms.openlocfilehash: 9bed87402830981f355bb348b359a83f6c688ad59ff47493c5162350cd9e7297
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ecf759b0fddef6404d6962b76805602f19eefcbd
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53897824"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247928"
 ---
 # <a name="simulate-a-phishing-attack"></a>피싱 공격 시뮬레이션
 

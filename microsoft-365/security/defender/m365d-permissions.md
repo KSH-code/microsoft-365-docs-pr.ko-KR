@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 738315c446fd57d4cd027de92eb77b0029f84323
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 33b53356f4569954b2e5905b953bc1edaa7f750f8dff0d09133ec520a67ec615
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177531"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53902202"
 ---
 # <a name="manage-access-to-microsoft-365-defender-with-azure-active-directory-global-roles"></a>전역 역할을 사용하여 Microsoft 365 Defender 액세스 Azure Active Directory 관리
 
@@ -67,7 +67,7 @@ ms.locfileid: "53177531"
 ### <a name="microsoft-cloud-app-security-access-controls"></a>Microsoft Cloud App Security 액세스 제어
 미리 보기 중에 Microsoft 365 Defender 설정에 따라 액세스 제어를 Cloud App Security 않습니다. 이러한 Microsoft 365 Defender 데이터에 대한 액세스는 이러한 설정의 영향을 받지 않습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [역할 기반 액세스 제어에서 사용자 지정 역할 Microsoft 365 Defender](custom-roles.md)
 - [Azure AD 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 - [끝점 RBAC용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/rbac)

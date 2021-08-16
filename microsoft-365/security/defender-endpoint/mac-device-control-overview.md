@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ed5ddc90df8ee3d0e938c0db9bca367a424f0413
-ms.sourcegitcommit: d817a3aecb700f7227a05cd165ffa7dbad67b09d
+ms.openlocfilehash: 40f783e8a99ef5bcbd3db516f65ff43812e83091fe93ace49562f5b45926afd1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53651054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53868429"
 ---
 # <a name="device-control-for-macos"></a>macOS용 장치 제어
 

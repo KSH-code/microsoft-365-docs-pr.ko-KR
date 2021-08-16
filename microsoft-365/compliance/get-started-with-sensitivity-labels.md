@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 88eee1b57e7203a0407238c55e9b0c5307bf0bcb20ace02f00429b77d2402639
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3b4c99f78173466e2a4d5802be54fd98cf312849
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895379"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247883"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -71,7 +71,7 @@ ms.locfileid: "53895379"
 
 다음 섹션의 표를 사용하여 가장 영향력 있는 비즈니스 요구사항에 적합한 상위 한두 가지 시나리오를 파악하는 것이 좋습니다. 이러한 시나리오가 배포된 후 목록으로 돌아가 배포의 다음 한두 가지 우선 순위를 식별합니다.
 
-다운로드 가능한 데이터 손실 방지 및 Microsoft Information Protection 및 Compliance 배포 가속 가이드에서 추가 일반 배포 지침을 확인할 수 있습니다. 자세한 내용은 [Microsoft 365 Information Protection 및 Compliance 배포 가속 가이드](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-365-information-protection-and-compliance-deployment/ba-p/2076404) 블로그 게시물을 참조하세요.
+[CAT(고객 가속팀)](https://microsoft.github.io/ComplianceCxE/) 사이트의 리소스 중 하나인 [Microsoft 정보 보호 및 데이터 손실 방지를 위한 배포 가속 가이드](https://microsoft.github.io/ComplianceCxE/dag/mip-dlp/)에서 추가 일반 배포 지침 및 모범 사례를 확인할 수 있습니다.
 
 ## <a name="common-scenarios-for-sensitivity-labels"></a>민감도 레이블에 대한 일반적인 시나리오
 

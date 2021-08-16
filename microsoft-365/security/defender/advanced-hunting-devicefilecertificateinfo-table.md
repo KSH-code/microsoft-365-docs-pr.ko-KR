@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 schema의 DeviceFileCertificateInfo 테이블
 description: 고급 헌팅스키마의 DeviceFileCertificateInfo 표에 있는 파일 서명 정보에 대해 자세히 알아보시다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마마 참조, kusto, 표, 열, 데이터 형식, 디지털 서명, 인증서, 파일 서명, DeviceFileCertificateInfo
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 디지털 서명, 인증서, 파일 서명, DeviceFileCertificateInfo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1f894f3fc8cff2113004ff9c9e34ec2ca0144799
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 8327d0c8973de60aa6d860bcb6ad008203fc52d94520b66174147a53f543618a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53902214"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 

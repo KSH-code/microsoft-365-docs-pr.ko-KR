@@ -1,7 +1,7 @@
 ---
 title: Microsoft 보안 점수를 통해 보안 환경 평가
-description: 보안 센터에서 Microsoft 보안 점수를 개선하기 위한 조치를 Microsoft 365 설명
-keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터, 개선 작업
+description: 웹 사이트 포털에서 Microsoft 보안 점수를 개선하기 위한 조치를 Microsoft 365 Defender 설명
+keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 Defender 포털, 개선 작업
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: e347f4393c45ba54d1ddb286fcc001193bc647f635dda64dcbb446be190a5dba
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6b1d684687c271150fa7e297c0a243ba61bd1b39
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838659"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58247939"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Microsoft 보안 점수를 통해 보안 환경 평가
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. 이 사이트는 보안 센터의 https://security.microsoft.com/securescore Microsoft 365 [있습니다.](overview-security-center.md)
+Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. 이 사이트는 사이트 포털 https://security.microsoft.com/securescore [에서 Microsoft 365 Defender 있습니다.](overview-security-center.md)
 
 필요한 정보를 더 빠르게 찾을 수 있도록 Microsoft 개선 작업은 그룹으로 구성됩니다.
 

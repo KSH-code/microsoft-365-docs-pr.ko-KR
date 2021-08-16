@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: ff7ba1964afdfcc63c81034666d29432c395c2f391ed5e3945969db0fcae49da
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e0604a6531b93a1a0df04c39ebaff4e75a0365f9
+ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53841792"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58248036"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -413,13 +413,16 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
 ## <a name="auditing-sensitivity-label-activities"></a>민감도 레이블 활동 감사
 
 > [!IMPORTANT]
-> 컨테이너를 보호하는 레이블에 대해 단지 **그룹 및 사이트** 범위를 선택하여 레이블 분리를 사용하는 경우, **발견된 문서의 민감도 불일치** 감사 이벤트와 이 섹션에 설명된 전자 메일로 인해, 레이블이 **파일 및 전자 메일** 에 대한 범위를 갖기 전에 [레이블의 순서 지정](sensitivity-labels.md#label-priority-order-matters)을 고려하세요. 
+> 컨테이너를 보호하는 레이블에 대해 단지 **그룹 및 사이트** 범위를 선택하여 레이블 분리를 사용하는 경우, **발견된 문서의 민감도 불일치** 감사 이벤트와 이 섹션에 설명된 전자 메일로 인해 레이블이 **파일 및 전자 메일** 에 대한 범위를 갖기 전에 [레이블의 순서 지정](sensitivity-labels.md#label-priority-order-matters)을 고려하세요. 
 
 누군가가 민감도 레이블로 보호된 사이트에 문서를 업로드하고 해당 문서에 사이트에 적용된 민감도 레이블보다 [높은 우선 순위](sensitivity-labels.md#label-priority-order-matters)의 레이블이 있는 경우 이 작업이 차단되지 않습니다. 예를 들어 **일반** 레이블을 SharePoint 사이트에 적용하고 누군가가 이 사이트에 **기밀** 레이블이 지정된 문서를 업로드합니다. 우선 순위가 높은 민감도 레이블은 우선 순위가 낮은 컨텐츠보다 민감도가 높은 컨텐츠를 먼저 식별하므로 이 상황은 보안상의 문제가 될 수 있습니다.
 
 작업이 차단되는 것은 아니지만 감사를 받고 기본적으로 문서를 업로드한 사람과 사이트 관리자에게 전자 메일을 자동으로 생성합니다. 따라서 사용자와 관리자가 모두 레이블 우선 순위에 대한 이러한 잘못된 문서를 확인하고 필요한 경우 조치를 취할 수 있습니다. 예를 들어 업로드된 문서를 사이트에서 삭제하거나 이동합니다.
 
 사이트에 적용된 민감도 레이블보다 우선 순위가 낮은 레이블이 문서에 지정되어 있다면 보안 문제가 되지 않습니다. 예를 들어 **일반** 레이블이 지정된 문서가 **기밀** 레이블이 지정된 사이트에 업로드됩니다. 이 시나리오에서는 감사 이벤트와 전자 메일이 생성되지 않습니다.
+
+> [!NOTE]
+> 사용자가 레이블을 더 낮은 분류로 변경하기 위한 근거를 제공해야 하는 정책 옵션과 마찬가지로 동일한 상위 레이블에 대한 하위 레이블은 모두 동일한 우선순위를 갖는 것으로 간주합니다.
 
 이 이벤트에 대한 감사 로그를 검색하려면 **파일 및 페이지 활동** 범주에서 **발견된 문서 감도 불일치** 를 찾습니다.
 
