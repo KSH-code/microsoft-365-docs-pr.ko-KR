@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 description: 각 팀 구성원에게는 비즈니스용 Microsoft 365에 로그인하고 액세스할 수 있는 사용자 계정이 필요합니다. 사용자를 추가하고 라이선스를 할당하는 방법을 알아보세요.
 ms.date: 07/01/2020
-ms.openlocfilehash: 5d18bfbd396bc13496cc06c80dcb5cc6fbf7f84e9432936c1d745877f0074141
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b7fa0842812a83e510d7e200ebef3db4507d4b9d
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53815914"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58347015"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 
-팀의 각 구성원은 먼저 사용자 계정이 있어야 [Microsoft 365 비즈니스](https://www.microsoft.com/microsoft-365/business) 에디션에 로그인하고 액세스할 수 있습니다. 사용자 계정을 추가하는 가장 쉬운 방법은 Microsoft 365 관리 센터에서 한 번에 한 명씩 사용자를 추가하는 것입니다. 이 단계를 수행하면 팀 구성원은 Microsoft 365 라이선스, 로그인 자격 증명 및 Microsoft 365 사서함을 갖게 됩니다.
+팀의 각 구성원은 먼저 사용자 계정이 있어야 [Microsoft 365 비즈니스](https://www.microsoft.com/microsoft-365/business) 에디션에 로그인하고 액세스할 수 있습니다. 사용자 계정을 추가하는 가장 쉬운 방법은 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 한 번에 한 명씩 사용자를 추가하는 것입니다. 이 단계를 수행하면 팀 구성원은 Microsoft 365 라이선스, 로그인 자격 증명 및 Microsoft 365 사서함을 갖게 됩니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 

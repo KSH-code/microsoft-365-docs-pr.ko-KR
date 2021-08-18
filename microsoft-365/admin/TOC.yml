@@ -16,6 +16,8 @@
               href: setup/get-started-windows-365-business.md
             - name: Windows 365 Business 크기 조정 옵션
               href: setup/windows-365-business-sizing.md
+            - name: Windows 365 클라우드 PC 설치 문제 해결
+              href: setup/troubleshoot-windows-365-business.md
         - name: 둘러보기 설정을 사용하여 조직 설정
           items:
             - name: Microsoft 365 Business Basic
