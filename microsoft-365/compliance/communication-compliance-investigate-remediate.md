@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d3926521b86c12ad875b4fac6bf8b864987ff754
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: cddf687c4d269772b264711b7359bc338958164c
+ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58246722"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58392106"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>커뮤니케이션 규정 준수 알림 검사 및 수정
 
@@ -99,8 +99,9 @@ ms.locfileid: "58246722"
 
 ### <a name="step-2-examine-the-message-details"></a>2단계: 메시지 세부 정보 검사
 
-메시지 기본 사항을 검토한 후 메시지를 열어 세부 정보를 검토하고 추가 수정 작업을 결정해야 합니다. 메시지를 선택하여 전체 메시지 헤더 및 본문 정보를 확인합니다. 적절한 작업 과정을 결정하는 데 도움이 되는 몇 가지 보기를 사용할 수 있습니다.
+메시지 기본 사항을 검토한 후 메시지를 열어 세부 정보를 검토하고 추가 수정 작업을 결정해야 합니다. 메시지를 선택하여 전체 메시지 헤더 및 본문 정보를 확인합니다. 적절한 작업 과정을 결정하는 데 도움이 되는 여러 가지 옵션 및 보기를 사용할 수 있습니다.
 
+- **첨부 파일:** 이 옵션을 사용하면 정책 조건과 일치하는 최신 첨부 파일을 검사할 수 있습니다. 최신 첨부 파일 콘텐츠는 텍스트로 추출되어 정책에 대한 보류 중인 알림 대시보드에서 볼 수 있습니다. 자세한 내용은 통신 준수 기능 참조 [를 참조하세요.](/microsoft-365/compliance/communication-compliance-feature-reference#supported-communication-types)
 - **원본:** 이 보기는 대부분의 웹 기반 메시징 플랫폼에서 일반적으로 볼 수 있는 표준 메시지 보기입니다. 헤더 정보의 형식은 일반 스타일로 지정되어 있으며 메시지 본문은 imbedded 그래픽 파일과 단어 줄 바꿈 텍스트를 지원합니다. [정책에 대해 OCR(광학](communication-compliance-feature-reference.md#optical-character-recognition-ocr) 문자 인식)을 사용하도록 설정하면 정책 조건부와 일치하는 인쇄 또는 필기 텍스트가 포함된 이미지가 이 보기에서 연결된 메시지의 하위 항목으로 표시됩니다.
 - **일반 텍스트:** 텍스트 보기는 메시지의 줄 번호가 매기기 텍스트 전용 보기를 표시하며 관련 통신 준수 정책에서 일치하는 중요한 정보 유형 용어 또는 키워드에 대한 메시지 및 첨부 파일에 키워드 강조 표시를 포함합니다. 키워드 강조 표시는 긴 메시지와 첨부 파일을 관심 영역으로 빠르게 검색하는 데 도움이 될 수 있습니다. 경우에 따라 강조 표시된 텍스트는 정책 조건과 일치하는 메시지의 첨부 파일에만 있을 수 있습니다. 키워드 강조 표시는 정책에 할당된 기본 제공 분류자에 의해 식별되는 용어에 대해 지원되지 않습니다. 포함된 파일이 표시되지 않는 경우 이 보기의 줄 번호를 매기면 여러 검토자 사이에서 관련 세부 정보를 참조하는 데 유용합니다.
 - **주석:** 이 보기를 통해 검토자는 메시지 보기에 저장된 메시지에 직접 주석을 추가할 수 있습니다. [정책에 대해 OCR을](communication-compliance-feature-reference.md#optical-character-recognition-ocr) 사용하도록 설정하면 정책 조건부와 일치하는 인쇄 또는 필기 텍스트가 포함된 이미지가 이 보기에서 연결된 메시지의 하위 항목으로 표시되어 주석으로 처리될 수 있습니다.

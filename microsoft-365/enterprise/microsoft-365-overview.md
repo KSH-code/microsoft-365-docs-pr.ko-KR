@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 20a7858e50a72073170be317b654de33804a5cb4
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 428211e890bcff816209b003566fc76072749bda
+ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58357020"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58378004"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -120,7 +120,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 ## <a name="additional-microsoft-365-products"></a>추가 Microsoft 365 제품
 
-- [Microsoft 365 Business Premium](../business/index.yml)
+- [Microsoft 365 Business Premium](../admin/index.yml)
 
   동급 최고의 생산성 및 공동 작업 기능을 장치 관리 및 보안 솔루션과 결합하여 중소 중견 기업의 비즈니스 데이터를 보호합니다.
 

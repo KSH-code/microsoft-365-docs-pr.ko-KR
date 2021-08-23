@@ -9,12 +9,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6645f8f5822ba01960ebb6bf619e19c1bdb0ce347faa1ca4a9882c001e50668b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f5656a857a05b317f12393550d4e6a8386dcea9f
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53869822"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58364520"
 ---
 # <a name="enable-user-support-features"></a>사용자 지원 기능 사용
 
@@ -24,3 +24,17 @@ ms.locfileid: "53869822"
 2. 1단계의 사용자 계정을 AAD의 최신 Workplace Roles-Support **파트너** 보안 그룹에 추가합니다.
 
 <!--when available, add link to downloadable articles at DLC--> 
+
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
+
+1. 관리 [포털에 액세스합니다.](access-admin-portal.md)
+1. [관리 포털에서 관리자 연락처를 추가하고 확인](add-admin-contacts.md)
+1. [등록 후 설정을 조정합니다.](conditional-access.md)
+1. 를 배포하고 [Intune 회사 포털.](company-portal.md)
+1. [라이선스를 할당합니다.](assign-licenses.md)
+1. [앱 배포.](deploy-apps.md)
+1. [장치 를 설치합니다.](set-up-devices.md)
+1. Autopilot 및 등록 상태 페이지로 첫 실행 [환경을 설정합니다.](esp-first-run.md)
+1. 사용자 지원 기능을 사용하도록 설정(이 문서)
+1. [사용자가 디바이스를 사용할 준비를 합니다.](get-started-devices.md)
+1. [앱 컨트롤 시작 .](get-started-app-control.md)

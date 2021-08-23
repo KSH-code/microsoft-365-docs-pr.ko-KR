@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 캠페인 또는 Microsoft 365 Business Premium 비즈니스에 대한 설치 개요
-ms.openlocfilehash: 8bb358575c651cc2dc8097dd76ffa525b95fc5d77faeef5dde14faf2be34ca05
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a31a0046bd37b7bb905f96d054ea5c9809e744fa
+ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53802997"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58378016"
 ---
 # <a name="set-up-microsoft-365"></a>설정 Microsoft 365
 
@@ -44,7 +44,7 @@ ms.locfileid: "53802997"
 
 특별 가격을 받을 수 있는 캠페인의 경우 [Microsoft에서](https://m365forcampaigns.microsoft.com/)초대를 요청한 다음 캠페인에 등록하여 Microsoft 365 [합니다.](m365-campaigns-sign-up.md) 설치를 완료하려면 [설치 마법사를 실행하여](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 핵심 설정을 구성합니다.
 
-다른 모든 조직의 경우 Microsoft 365 Business Premium [](../business/sign-up.md)등록한 후 설치 마법사를 실행하여 핵심 설정을 구성하여 [설치를](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 완료합니다.
+다른 모든 조직의 경우 Microsoft 365 Business Premium [](../business-video/sign-up.md)등록한 후 설치 마법사를 실행하여 핵심 설정을 구성하여 [설치를](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 완료합니다.
 
 모든 조직에서 관리자 계정 [보호,](m365-campaigns-protect-admin-accounts.md)메일 및 [](m365-campaigns-conditional-access.md)데이터에 대한 액세스 보호 및 위협 방지 증가를 통해 보안 보호를 [강화합니다.](m365-campaigns-increase-protection.md)
 

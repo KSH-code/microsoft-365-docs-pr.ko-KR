@@ -10,12 +10,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 44b5fed8c99f9d2c738abfcdad99e1f4c020d3bca97591c3645ae3c8ac6c1029
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 44bc897cd2ead4c6c8568e8dc5048cf0118e35fc
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53869846"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58364544"
 ---
 # <a name="access-the-admin-portal"></a>관리 포털 액세스
 
@@ -82,4 +82,18 @@ Azure Active Directory 할당하는 데 도움이 필요한 경우 에서 관리
 5. 왼쪽 **창에서** 사용자 및 그룹을 선택한 다음 **+ 사용자/그룹 추가를 선택합니다.**
 6. 사용자 및 그룹에서 원하는 **그룹을 검색합니다.**
 7. 역할 선택에서 해당 역할을 검색한 다음 선택합니다.
-8. 할당을 **선택합니다.**
+8. **과제** 를 선택합니다.
+
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
+
+1. 관리 포털 액세스(이 문서)
+1. [관리 포털에서 관리자 연락처를 추가하고 확인](add-admin-contacts.md)
+1. [등록 후 설정을 조정합니다.](conditional-access.md)
+1. 를 배포하고 [Intune 회사 포털.](company-portal.md)
+1. [라이선스를 할당합니다.](assign-licenses.md)
+1. [앱 배포.](deploy-apps.md)
+1. [장치 를 설치합니다.](set-up-devices.md)
+1. Autopilot 및 등록 상태 페이지로 첫 실행 [환경을 설정합니다.](esp-first-run.md)
+1. [사용자 지원 기능을 사용하도록 설정](enable-support.md).
+1. [사용자가 디바이스를 사용할 준비를 합니다.](get-started-devices.md)
+1. [앱 컨트롤 시작 .](get-started-app-control.md)

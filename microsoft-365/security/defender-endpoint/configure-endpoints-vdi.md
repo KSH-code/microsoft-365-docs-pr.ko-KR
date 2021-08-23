@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 1577b20cfa4f18a8db4fcba8d05a27bdacd693074ed3d14319101c6122cb443f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d7e4d2d9813081785f3883c11a3a4ae8e8420855
+ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834110"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58378062"
 ---
 # <a name="onboarding-non-persistent-virtual-desktop-infrastructure-devices"></a>비영구적 가상 데스크톱 인프라 장치 온보드
 
@@ -73,9 +73,9 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
     1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
-2. .zip 파일에서 추출한 WindowsDefenderATPOnboardingPackage 폴더의 파일을 경로의 이미지로 `golden/master` `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 복사합니다. 
+2. .zip 파일에서 추출한 WindowsDefenderATPOnboardingPackage 폴더의 파일을 경로 아래에 있는 골든/마스터 이미지로 `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 복사합니다. 
 
-    1. 각 장치에 대해 단일 항목을 구현하지 않는 경우 WindowsDefenderATPOnboardingScript.cmd를 복사합니다.
+    1. 각 디바이스에 대해 여러 항목을 구현하는 경우 각 세션에 대해 하나씩 WindowsDefenderATPOnboardingScript.cmd를 복사합니다.
 
     1. 각 장치에 대해 단일 항목을 구현하는 경우 Onboard-NonPersistentMachine.ps1 및 WindowsDefenderATPOnboardingScript.cmd를 모두 복사합니다.
     
@@ -123,7 +123,7 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 7. 장치 이름을 입력하고 검색 유형으로 **장치를** 선택하여 검색 기능을 사용합니다.
 
 
-## <a name="for-downlevel-skus"></a>다운클레드 SUS의 경우
+## <a name="for-downlevel-skus-windows-server-2008-r22012-r22016"></a>다운클래블 SKUS(Windows Server 2008 R2/2012 R2/2016)의 경우
 
 > [!NOTE]
 > 다음 레지스트리는 '각 장치에 대한 단일 항목'을 달성하는 것이 목표인 경우만 관련이 있습니다.

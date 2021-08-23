@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 캔버스 Microsoft Teams 통합
-ms.openlocfilehash: b9507847b569ea999b45c1ea33b336360cc485d5
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 3883459d6d8fce9d8e150c9de82faf5dad75e7a5
+ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257462"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58387155"
 ---
 # <a name="use-microsoft-teams-meetings-with-canvas"></a>Canvas에서 Microsoft Teams 모임 사용
 
@@ -30,7 +30,7 @@ Microsoft Teams 모임은 교육자 및 학생이 LMS(Learning Management System
 > 현재 Teams LTI는 Canvas 사용자와 제한된 범위의 AAD(Microsoft Azure Active Directory) 동기화만 지원됩니다. 
 > - 테넌트에 Microsoft Education 라이선스가 있어야 합니다.
 > - Canvas와 Microsoft 간에 사용자를 매핑하는 데는 단일 Microsoft 테넌트만 사용할 수 있습니다.
-> - 그룹이 중복되는 것을 방지하기 위해 Class Teams LTI를 사용하기 전에 SDS를 해제해야 합니다.
+> - 그룹이 중복되는 것을 방지하기 위해 학교 데이터 동기화 LTI 클래스를 Teams(SDS)를 해제해야 합니다.
 
 ## <a name="microsoft-office-365-admin"></a>Microsoft Office 365 관리자
 

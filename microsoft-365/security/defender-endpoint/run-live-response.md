@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3edacef44021211d82b1b7d8c477683185c87f00
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: f94e4d5e51b6a846a0439e3833a01d252c51bd0a
+ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247611"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58392137"
 ---
 #  <a name="run-live-response-commands-on-a-device"></a>장치에서 라이브 응답 명령 실행
 
@@ -60,7 +60,9 @@ ms.locfileid: "58247611"
 
 5.  라이브 응답 명령은 대기할 수 없습니다. 한 번만 실행할 수 있습니다. 
 
-6.  단일 API 호출 시 여러 라이브 응답 명령을 실행할 수 있습니다. 그러나 라이브 응답 명령이 실패하면 다음 작업이 모두 실행되지 않습니다.
+6.  이 API 호출을 실행하려는 컴퓨터는 자동화된 수정 수준이 할당되지 않은 RBAC 장치 그룹에 있는 경우 지정된 장치 그룹에 대해 최소 수정 수준을 사용하도록 설정해야 합니다.
+
+7.  단일 API 호출 시 여러 라이브 응답 명령을 실행할 수 있습니다. 그러나 라이브 응답 명령이 실패하면 이후의 모든 작업이 실행되지 않습니다.
 
 ## <a name="minimum-requirements"></a>최소 요구 사항
 
@@ -81,7 +83,7 @@ ms.locfileid: "58247611"
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
     - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
     
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 

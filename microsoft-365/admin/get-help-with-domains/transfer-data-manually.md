@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: 계획 또는 회사 이름을 변경하거나 여러 구독을 결합한 경우 두 개의 Microsoft 365 계정 간에 데이터를 수동으로 전송하는 방법을 찾아 찾습니다.
-ms.openlocfilehash: 560dc52c97d588a43e28420c62df18a00b552c7ffa9e38ff0df51ebd02998648
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e06136195481abcce66afa6ecc21d1c3c54415d7
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825694"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400142"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>두 계정 간에 수동으로 데이터 전송
 
@@ -103,7 +103,7 @@ SharePoint Online 환경에서 파일 공유 또는 로컬 컴퓨터로 문서 �
 
 새 구독을 설정한 후 사용자에게 전자 [메일, 연락처,](https://support.microsoft.com/office/0996ece3-57c6-49bc-977b-0d1892e2aacc) 작업 및 일정 정보를 이동해달고 요청합니다. 사용자는 초기 사용자 이름(예: sue@contoso.onmicrosoft.com)을 사용하여 이전 전자 메일로 sue@contoso.onmicrosoft.com.
   
-### <a name="onedrive-for-business-data"></a>OneDrive 비즈니스용 데이터:
+### <a name="onedrive-for-business-data"></a>비즈니스용 OneDrive 데이터:
 
 사용자에게 자신의 컴퓨터에 [](https://support.microsoft.com/office/59b1de2b-519e-4d3a-8f45-51647cf291cd)비즈니스용 OneDrive 복사/동기화를 요청한 다음 새 구독에 다시 추가합니다.
 

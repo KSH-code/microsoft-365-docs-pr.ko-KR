@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 분석을 위해 Microsoft에 좋은 메시지와 잘못된 메시지와 파일을 보고하는 다양한 방법에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b257033c4dc5ebe8d6b28c315484cdccf48b5d6581d23c038433f4fc21424aa4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 898fd42e687ec9d5776c1791ed353937921af4ff
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56885426"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400286"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Microsoft에 메시지와 파일 보고
 
@@ -41,7 +41,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 |메서드|설명|
 |---|---|
-|[관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출](admin-submission.md)|사서함이 있는 조직의 관리자에게 권장되는 보고 Exchange Online(독립 실행형 EOP에서는 사용할 수 없습니다).|
+|[제출 포털을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출](admin-submission.md)|사서함이 있는 조직의 관리자에게 권장되는 보고 Exchange Online(독립 실행형 EOP에서는 사용할 수 없습니다).|
 |[보고서 메시지 또는 피싱 보고 추가 기능 사용](enable-the-report-message-add-in.md)|Outlook 및 웹용 Outlook(이전의 Outlook Web App). <p> 구독에 따라 사용자가 추가 기능으로 보고한 메시지는 [관리](admin-submission.md)제출 포털, 자동화된 조사 및 [응답(AIR)](air-view-investigation-results.md)결과, [사용자가](view-email-security-reports.md#user-reported-messages-report)보고한 메시지 보고서 및 탐색기 에서 사용할 수 [있습니다.](threat-explorer-views.md#email--submissions) <p> 보고된 메시지를 지정한 사서함으로 복사하거나 리디렉션하도록 구성할 수 있습니다. 자세한 내용은 사용자 제출 [정책 을 참조하세요.](user-submission.md)
 |[Outlook에서 가양성 및 가음성 보고](report-false-positives-and-false-negatives.md)|보고서 메시지 기능을 사용하여 가음성(차단되거나 정크 폴더로 전송된 양호한 전자 메일) 및 거짓 부정(받은 편지함으로 배달된 원치 않는 전자 메일 또는 피싱)을 Exchange Online Protection(EOP)에 제출합니다.|
 |[분석을 위해 Microsoft에 수동으로 메시지 전송](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|스팸 및 피싱이 아닌 스팸에 대해 특정 Microsoft 전자 메일 주소로 첨부된 메시지를 수동으로 전송합니다.|

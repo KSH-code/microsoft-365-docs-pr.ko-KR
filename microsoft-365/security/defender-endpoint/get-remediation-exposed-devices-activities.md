@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: d4f87a292c93bd5d29d9abdcef8ce3134f65b0f0afe7430d22a64c677be7a1ee
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 856379aeb0264cf1c6d604050ad2a0052dab4e0b
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53811233"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400250"
 ---
 # <a name="list-exposed-devices-of-one-remediation-activity"></a>한 번의 수정 작업이 있는 노출된 장치 목록
 
@@ -56,7 +56,7 @@ ms.locfileid: "53811233"
 
 사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램|RemediationTask.Read.All|\'위협 및 취약성 관리 취약성 정보 읽기\'
+응용 프로그램|RemediationTasks.Read.All|\'위협 및 취약성 관리 취약성 정보 읽기\'
 위임(직장 또는 학교 계정)|RemediationTask.Read.Read|\'위협 및 취약성 관리 취약성 정보 읽기\'
 
 ## <a name="properties-details"></a>속성 세부 정보

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 개인 정보 관리의 주체 권한 요청 솔루션은 개인 데이터를 찾고 콘텐츠를 검토하고 보고서를 만드는 데 도움이 됩니다.
-ms.openlocfilehash: 4db9c744468cd75fb09bc8ff45ef9f15d26684a7c2b446557914be9e26b45ccc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d8f8a636d5322666b3a60ce7310c8cd66ac89538
+ms.sourcegitcommit: 43897ead6db2d3977f6ceb8abeedb8aaff9c020a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807687"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380239"
 ---
 # <a name="manage-subject-rights-requests-in-privacy-management-preview"></a>개인 정보 관리에서 주체 권한 요청 관리(미리 보기)
 
@@ -149,7 +149,7 @@ Microsoft Power Automate 응용 프로그램 및 서비스 전반에 걸쳐 작�
 
 다음 Power Automate 템플릿이 개인 정보 관리에 포함됩니다.
 
-- **ServiceNow에서** 개인 정보 관리 사례에 대한 레코드 만들기 : 이 템플릿은 ServiceNow 솔루션을 사용하여 주체 권한 요청 사례를 추적하려는 조직을 위한 것입니다. ServiceNow 인스턴스 세부 정보를 입력해야 합니다. 인스턴스에 연결되면 주체 권한 요청 관리자는 ServiceNow에서 사례에 대한 레코드를 만들고 필요한 경우 서식 파일을 선택한 필드에 채울 대상을 사용자 지정할 수 있습니다. 커넥터에 대한 자세한 내용은 [ServiceNow Connector 참조 페이지를 참조하세요.](/connectors/service-now/)
+- **ServiceNow에서** 개인 정보 관리 사례에 대한 레코드 만들기 : 이 템플릿은 ServiceNow 솔루션을 사용하여 주체 권한 요청 사례를 추적하려는 조직을 위한 것입니다. ServiceNow에 연결할 계정을 포함해 ServiceNow 인스턴스 세부 정보를 입력해야 합니다. 이 계정에는 ServiceNow에서 인시던트 만들기 및 인시던트 세부 정보를 입력할 수 있는 능력이 있어야 합니다. 인스턴스에 연결되면 주체 권한 요청 관리자는 ServiceNow에서 사례에 대한 레코드를 만들고 필요한 경우 서식 파일을 선택한 필드에 채울 대상을 사용자 지정할 수 있습니다. 커넥터에 대한 자세한 내용은 [ServiceNow Connector 참조 페이지를 참조하세요.](/connectors/service-now/)
 - **일정 미리** 알림 만들기: 이 템플릿은 주체 권한 요청에 대한 Outlook 일정에서 기한 미리 알림을 설정하기 위한 것입니다. 이 도구는 요청의 속성에서 특정 세부 정보(예: 요청 이름 및 기한)를 채우게 됩니다. 자세한 내용을 추가하고, 받는 사람을 지정하고, 기타 고급 설정을 조정할 수 있습니다.
 
 ### <a name="create-a-new-power-automate-flow-from-a-template"></a>템플릿에서 새 Power Automate 흐름 만들기

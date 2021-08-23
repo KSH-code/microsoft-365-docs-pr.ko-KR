@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: 관리자는 다중 위치 환경에서 SharePoint 및 OneDrive 관리하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: e1c608425c25c018eddebe14023537b2739694d110d3683829c861dd96a61c73
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5089a63f4c4f3406c146188151a145cf4b6aa7f2
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795209"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400130"
 ---
 # <a name="administering-a-multi-geo-environment"></a>Multi-Geo 환경 관리
 
@@ -58,9 +58,9 @@ DLP 정책은 각 지리적 위치에 적용할 수 있는지에 따라 자동�
 
 지리적 위치에 모든 사용자에 대해 정보 보호 및 데이터 손실 방지 정책을 구현하는 방식은 UI에서 사용할 수 있는 옵션이 아니며, 대신 정책에 대해 적용 가능한 계정을 선택하거나 정책을 모든 계정에 전역적으로 적용해야 합니다.
 
-## <a name="microsoft-powerapps"></a>Microsoft PowerApps
+## <a name="microsoft-power-apps"></a>Microsoft Power Apps
 
-위성 위치에 대해 만들어진 PowerApp은 테넌트의 중앙 위치에 있는 끝점을 사용합니다. Microsoft PowerApps은 다중 지역 서비스가 아닙니다. 
+Power Apps 위해 만들어진 위치는 테넌트의 중앙 위치에 있는 끝점을 사용하게 됩니다. Microsoft Power Apps Multi-Geo 서비스가 아닌 경우 
 
 ## <a name="power-automate"></a>Power Automate
 

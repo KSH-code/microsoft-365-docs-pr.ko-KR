@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 Rogers 네트워크 데이터를 원격 저장소에 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: c17b81095e9113cdd0948c33ec2e2b7e4909fe73
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 686b348d7d19c43ae8bb8938201d697da6222664
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257545"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400166"
 ---
-# <a name="set-up-a-connector-to-archive-rogers-network-data-preview"></a>Rogers 네트워크 데이터를 보관할 커넥터 설정(미리 보기)
+# <a name="set-up-a-connector-to-archive-rogers-network-data"></a>Rogers 네트워크 데이터를 보관할 커넥터 설정
 
 네트워크의 TeleMessage 커넥터를 Microsoft 365 규정 준수 센터 Rogers 모바일 네트워크에서 SMS 및 MMS 데이터를 가져오고 보관할 수 있습니다. [Rogers 네트워크](https://www.telemessage.com/mobile-archiver/network-archiver/rogers/)보관 커넥터를 설정하고 구성한 후 조직의 Rogers 모바일 네트워크에 연결하고 SMS 및 MMS 데이터를 조직의 사서함으로 Microsoft 365.
 

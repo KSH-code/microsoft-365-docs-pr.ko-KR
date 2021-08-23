@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: e1d8b3f8d43bb1323ddc703cb4041ecaa5536d68f7c83acb1140f9158ae3774d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ae861a5490880c4521e4e7b6521fa724a5dd4da4
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793769"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400202"
 ---
 # <a name="list-all-remediation-activities"></a>모든 수정 작업 나열s
 
@@ -54,10 +54,10 @@ ms.locfileid: "53793769"
 
 사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램|RemediationTask.Read.All|\'위협 및 취약성 관리 취약성 정보 읽기\'
+응용 프로그램|RemediationTasks.Read.All|\'위협 및 취약성 관리 취약성 정보 읽기\'
 위임(직장 또는 학교 계정)|RemediationTask.Read|\'위협 및 취약성 관리 취약성 정보 읽기\'
 
-## <a name="properties"></a>특성
+## <a name="properties"></a>속성
 
 속성(id)|데이터 형식|설명|반환된 값의 예
 :---|:---|:---|:---

@@ -25,21 +25,21 @@
             - name: Microsoft 365 Business Standard
               href: setup/setup-business-standard.md
             - name: Microsoft 365 Business Premium
-              href: ../business/set-up.md
+              href: setup/setup.md
             - name: 비즈니스용 Microsoft 365 앱
               href: setup/setup-apps-for-business.md
         - name: 설정 페이지 및 마법사 살펴보기
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: Windows 10 컴퓨터 보안
-          href: ../business/secure-win-10-pcs.md
+          href: setup/secure-win-10-pcs.md
         - name: 소프트웨어 및 제품 키 다운로드
           href: setup/download-software-licenses-csp.md
         - name: Office 앱 설치
           href: setup/install-applications.md
         - name: Windows 장치 설정
-          href: ../business/set-up-windows-devices.md
+          href: setup/set-up-windows-devices.md
         - name: 모바일 장치 설정
-          href: ../business/set-up-mobile-devices.md
+          href: setup/set-up-mobile-devices.md
         - name: Microsoft 365로 데이터 마이그레이션
           href: setup/migrate-email-and-contacts-admin.md
         - name: Teams 배포
@@ -57,11 +57,11 @@
         - name: 온 프레미스 사용자 및 리소스 액세스
           items:
             - name: 도메인 사용자를 Microsoft 365와 동기화
-              href: ../business/manage-domain-users.md
+              href: setup/manage-domain-users.md
             - name: 도메인이 결합된 Windows 10 장치가 관리되도록 설정
-              href: ../business/manage-windows-devices.md
+              href: setup/manage-windows-devices.md
             - name: Azure AD가 결합된 장치에서 리소스에 액세스
-              href: ../business/access-resources.md
+              href: setup/access-resources.md
     - name: Microsoft 365 관리 센터 개요
       items:
         - name: 관리 센터 개요
@@ -317,20 +317,18 @@
           href: setup/priority-accounts.md
         - name: Office 2013에 대해 최신 인증 사용
           href: security-and-compliance/enable-modern-authentication.md
-        - name: Microsoft 365 Business Premium을 사용하여 원격 작업을 보안
-          items:
-            - name: 데이터 보호를 위한 필수 조건
-              href: ../business/pre-requisites-for-data-protection.md
-            - name: 보안 기능
-              href: ../business/security-features.md
-            - name: 위협 방지 강화
-              href: ../business/increase-threat-protection.md
-            - name: Microsoft Defender 바이러스 백신에서 탐지된 위협
-              href: ../business/threats-detected-defender-av.md
-            - name: 탐지된 위협 검토 및 조치 수행
-              href: ../business/review-threats-take-action.md
-            - name: 준수 기능 설정
-              href: ../business/set-up-compliance.md
+        - name: 데이터 보호를 위한 필수 조건
+          href: security-and-compliance/pre-requisites-for-data-protection.md
+        - name: 보안 기능
+          href: security-and-compliance/secure-your-business-data.md
+        - name: 위협 방지 강화
+          href: security-and-compliance/increase-threat-protection.md
+        - name: Microsoft Defender 바이러스 백신에서 탐지된 위협
+          href: security-and-compliance/threats-detected-defender-av.md
+        - name: 탐지된 위협 검토 및 조치 수행
+          href: security-and-compliance/review-threats-take-action.md
+        - name: 준수 기능 설정
+          href: security-and-compliance/set-up-compliance.md
         - name: 보안 점수
           href: /microsoft-365/security/defender/microsoft-secure-score
         - name: GDPR 준수 가이드
@@ -342,40 +340,38 @@
           href: devices/choose-device-security.md
         - name: Microsoft Intune 문서
           href: /mem/intune/
-        - name: Microsoft 365 Business Premium
+        - name: 정책 및 장치 보기 및 편집
+          href: devices/view-policies-and-devices.md
+        - name: 회사 데이터 제거
+          href: devices/remove-company-data.md
+        - name: 장치를 공장 설정으로 초기화
+          href: devices/reset-devices-to-factory-settings.md
+        - name: Intune 설정에 대한 맵 보호 기능
+          href: devices/map-protection-features-to-intune-settings.md
+        - name: 장치 상태
+          href: devices/device-states.md
+        - name: Windows 10 PC의 앱 보호 설정
+          href: devices/protection-settings-for-windows-10-devices.md
+        - name: Android 및 iOS용 앱 보호 설정 설정하기
+          href: devices/app-protection-settings-for-android-and-ios.md
           items:
-            - name: 정책 및 장치 보기 및 편집
-              href: ../business/view-policies-and-devices.md
-            - name: 회사 데이터 제거
-              href: ../business/remove-company-data.md
-            - name: 장치를 공장 설정으로 초기화
-              href: ../business/reset-devices-to-factory-settings.md
-            - name: Intune 설정에 대한 맵 보호 기능
-              href: ../business/map-protection-features-to-intune-settings.md
-            - name: 장치 상태
-              href: ../business/device-states.md
-            - name: Windows 10 PC의 앱 보호 설정
-              href: ../business/protection-settings-for-windows-10-devices.md
-            - name: Android 및 iOS용 앱 보호 설정 설정하기
-              href: ../business/app-protection-settings-for-android-and-ios.md
-              items:
-                - name: Android 또는 iOS의 설정 확인
-                  href: ../business/validate-settings-on-android-or-ios.md
-            - name: Windows 10 PC를 위한 장치 보호 설정 편집 또는 생성
-              href: ../business/protection-settings-for-windows-10-pcs.md
-              items:
-                - name: Windows 10 PC의 설정 확인
-                  href: ../business/validate-settings-on-windows-10-pcs.md
-            - name: Autopilot
-              items:
-                - name: Autopilot 장치 및 프로필 추가
-                  href: ../business/add-autopilot-devices-and-profile.md
-                - name: AutoPilot 프로필 만들기 및 편집
-                  href: ../business/create-and-edit-autopilot-profiles.md
-                - name: AutoPilot 장치 만들기 및 편집
-                  href: ../business/create-and-edit-autopilot-devices.md
-                - name: Autopilot 프로필 설정
-                  href: ../business/autopilot-profile-settings.md
+            - name: Android 또는 iOS의 설정 확인
+              href: devices/validate-settings-on-android-or-ios.md
+        - name: Windows 10 PC를 위한 장치 보호 설정 편집 또는 생성
+          href: devices/protection-settings-for-windows-10-pcs.md
+          items:
+            - name: Windows 10 PC의 설정 확인
+              href: devices/validate-settings-on-windows-10-pcs.md
+        - name: Autopilot
+          items:
+            - name: Autopilot 장치 및 프로필 추가
+              href: devices/add-autopilot-devices-and-profile.md
+            - name: AutoPilot 프로필 만들기 및 편집
+              href: devices/create-and-edit-autopilot-profiles.md
+            - name: AutoPilot 장치 만들기 및 편집
+              href: devices/create-and-edit-autopilot-devices.md
+            - name: Autopilot 프로필 설정
+              href: devices/autopilot-profile-settings.md
         - name: 기업용 Microsoft 365 설명서
           href: ../enterprise/index.yml
         - name: 기본 모바일 및 보안

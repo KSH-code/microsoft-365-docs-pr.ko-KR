@@ -16,30 +16,29 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 836f3974da913dc27010cbc8d3162f35618e123e1c596dac42d9bf5e24863da3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7cfb066ec2eaf486a3cb3e708720436098bb01d0
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817210"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400238"
 ---
 # <a name="indicator-resource-type"></a>표시기 리소스 유형
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
-- 포털에서 [](https://securitycenter.windows.com/preferences2/custom_ti_indicators/files) 해당 지표 페이지를 참조하세요. 
+- 포털에서 [](https://securitycenter.windows.com/preferences2/custom_ti_indicators/files) 해당 지표 페이지를 참조하세요.
 
 메서드|반환 형식|설명
 :---|:---|:---
@@ -48,7 +47,7 @@ ms.locfileid: "53817210"
 [표시기 가져오기](import-ti-indicators.md)|[표시기](ti-indicator.md) 컬렉션|표시기 [엔터티를 제출하거나](ti-indicator.md) 업데이트합니다.
 [지표 삭제](delete-ti-indicator-by-id.md)|콘텐츠 없음|표시기 [엔터티를](ti-indicator.md) 삭제합니다.
 
-## <a name="properties"></a>특성
+## <a name="properties"></a>속성
 
 속성|유형|설명
 :---|:---|:---
@@ -69,6 +68,27 @@ lastUpdateTime|DateTimeOffset|표시기가 마지막으로 업데이트된 시�
 설명|String|표시기 설명입니다.
 recommendedActions|String|표시기를 위한 권장 작업입니다.
 rbacGroupNames|문자열 목록|표시기가 노출되어 활성 상태인 RBAC 장치 그룹 이름입니다. 모든 장치에 노출되는 경우 빈 목록입니다.
+
+## <a name="public-preview-indicator-types"></a>공개 미리 보기: 표시기 유형
+
+> [!IMPORTANT]
+> 이 섹션의 **정보(자동화된** 조사 및 수정 엔진용 공개 미리 보기)는 상업적으로 출시되기 전에 상당 부분 수정될 수 있는 미리 시판된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
+
+API에서 지원하는 표시기 작업 유형은 다음입니다.
+
+- AlertAndBlock
+- 허용
+- 감사
+- 경고
+- 경고
+- BlockExecution
+- BlockRemdiation
+
+작업 유형의 API 목록에는 이전 응답 작업(AlertAndBlock 및 Alert)과 함께 새로운 응답 작업이 포함되어 있습니다.
+
+> [!Note]
+>
+> 기능이 GAed에 도달하면 이전 응답 작업(AlertAndBlock 및 Alert)이 제거됩니다. 유예 기간이 있는 예상 GA 날짜는 2021년 10월이 됩니다.  가능한 한 빨리 기존 템플릿 또는 스크립트를 업데이트하는 것이 좋습니다.
 
 ## <a name="json-representation"></a>Json 표현
 

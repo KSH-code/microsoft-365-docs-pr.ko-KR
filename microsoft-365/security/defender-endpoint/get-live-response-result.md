@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0d76c34ae2c610933285f93e349459497de7cb79
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 5b1221e47d3e34832ac798fa3be0a37d607c3975
+ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255528"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58392144"
 ---
 #  <a name="get-live-response-results"></a>라이브 응답 결과 얻기
 
@@ -70,13 +70,14 @@ ms.locfileid: "58255528"
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
     - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
 |사용 권한 유형|사용 권한|사용 권한 표시 이름|
 |---|---|---|
-|응용 프로그램|Machine.LiveResponse|특정 컴퓨터의 실시간 응답 실행|
+응용 프로그램|Machine.Read.All|''모든 컴퓨터 프로필 읽기''
+응용 프로그램|"Machine.ReadWrite.All|'모든 컴퓨터 정보 읽기 및 쓰기'
 |위임(직장 또는 학교 계정)|Machine.LiveResponse|특정 컴퓨터의 실시간 응답 실행|
 
 ## <a name="http-request"></a>HTTP 요청

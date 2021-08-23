@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: 재무 서비스 기관에서 Microsoft 365와 Teams를 사용하여 재무 보안 규정 준수를 유지하고 효과적으로 공동 작업하는 방법을 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: 45302f3b27e6aca7701fbddcd4e1db8fbd067e41cbaf6b62778408caba4bc49d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 88aa46e08a450953e940d625e7f35cf9732d668d
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853147"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400274"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -62,7 +62,7 @@ Microsoft 파트너인 Protiviti에서 이 문서에 기여하고 중요한 피�
 
 직원들에게 최신 클라우드 기반 공동 작업 플랫폼을 제공함으로써 직원들이 생산성을 높이고 민첩한 업무 방식을 찾는 데 도움이 되는 도구를 선택하고 통합할 수 있습니다. 조직을 보호하는 보안 통제 및 정보 거버넌스 정책과 함께 Teams를 사용하면 직원들이 효과적으로 의사소통하고 공동 작업할 수 있습니다.
 
-Teams는 조직을 위한 공동 작업 허브를 제공합니다. 사람들을 모아 공동의 이니셔티브와 프로젝트를 생산적으로 수행할 수 있도록 하는 데 도움이 됩니다. 팀 구성원은 Teams를 통해 1:1 및 다자간 대화를 진행하고 문서를 공동 작업 및 작성하며 파일을 저장하고 공유할 수 있습니다. Teams는 또한 통합된 엔터프라이즈 음성 및 비디오를 통해 온라인 모임을 용이하게 합니다. Microsoft Planner, Microsoft Dynamics 365, PowerApps, Power BI 및 타사 LOB(기간 업무) 응용 프로그램과 같은 Microsoft 앱으로 Teams를 사용자 지정할 수도 있습니다. Teams는 팀 채널에 가입하고, 채팅 대화에 참여하고, 저장된 파일에 액세스하고, 다른 응용 프로그램을 활용할 수 있는 내부 팀 구성원과 허용된 외부 사용자 모두가 사용하도록 설계되었습니다.
+Teams는 조직을 위한 공동 작업 허브를 제공합니다. 사람들을 모아 공동의 이니셔티브와 프로젝트를 생산적으로 수행할 수 있도록 하는 데 도움이 됩니다. 팀 구성원은 Teams를 통해 1:1 및 다자간 대화를 진행하고 문서를 공동 작업 및 작성하며 파일을 저장하고 공유할 수 있습니다. Teams는 또한 통합된 엔터프라이즈 음성 및 비디오를 통해 온라인 모임을 용이하게 합니다. Microsoft Planner, Microsoft Dynamics 365, Power Apps, Power BI 및 타사 LOB(기간 업무) 응용 프로그램과 같은 Microsoft 앱으로 Teams를 사용자 지정할 수도 있습니다. Teams는 팀 채널에 가입하고, 채팅 대화에 참여하고, 저장된 파일에 액세스하고, 다른 응용 프로그램을 활용할 수 있는 내부 팀 구성원과 허용된 외부 사용자 모두가 사용하도록 설계되었습니다.
 
 모든 Microsoft Teams는 Microsoft 365 그룹의 지원을 받습니다. 이 그룹은 Teams를 포함한 다양한 Office 365 서비스의 멤버십 서비스로 간주됩니다. Microsoft 365 그룹은 "소유자"와 "구성원"을 안전하게 구분하고 Teams 내 다양한 기능에 대한 액세스를 제어하는 데 사용됩니다. Teams는 적절한 거버넌스 통제 및 정기적으로 관리되는 액세스 검토를 함께 사용하여 구성원 및 소유자만 승인된 채널 및 기능을 활용할 수 있도록 합니다.
 

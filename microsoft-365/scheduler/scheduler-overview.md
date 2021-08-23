@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: scheduler
 localization_priority: Normal
 description: 개요 for Microsoft 365.
-ms.openlocfilehash: f7dd1fb05e2519a72538f5563396a509d44f826c4067ef2abc756eca0c1f2c85
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 970d4a37c154e3049dcbd2f5987ff9055af6bbec
+ms.sourcegitcommit: 43897ead6db2d3977f6ceb8abeedb8aaff9c020a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898434"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380227"
 ---
 # <a name="welcome-to-scheduler-for-microsoft-365"></a>Welcome to Scheduler for Microsoft 365
 
@@ -52,3 +52,10 @@ Microsoft 365 스케줄러는 모임 및 약속 예약을 디지털 개인 Corta
 - 같은 테넌트에 있는 이끌이와 참석자 가용성에 따라 모임 시간을 검색합니다.
 - 이끌이가 참석자 가용성에 액세스할 수 없는 경우 Cortana 모임 시간을 전자 메일로 협상합니다. 
 - 상호 합의할 수 있는 시간이 발견된 후 Cortana 모임을 Teams 일정 초대를 보낼 수 있습니다. 
+
+## <a name="pricing-and-licensing"></a>가격 책정 및 라이선스
+
+자세한 내용은 다음을 Microsoft 365 [라이선싱을 위한 스케줄러를 통해 확인할 수 있습니다.](https://wwww.microsoft.com/microsoft-365/meeting-scheduler-pricing)
+
+>[참고: 모임 참석자에는 스케줄러 또는 Microsoft 365 필요하지 않습니다. <br>스케줄러 도우미 사서함에는 스케줄러 Microsoft 365 라이선스가 필요하지 않습니다.
+

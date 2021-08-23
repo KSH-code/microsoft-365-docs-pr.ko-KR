@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 파일 형식을 사용하여 서식 있는 서식 Excel 수정합니다.
-ms.openlocfilehash: 1b1bc9ea01905e38f695707db1b302c160ea5818
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: fe6b8a946edb84fbeb5eb002eb33c4af2790b23b
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349875"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58393367"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>준수 관리자에서 평가 템플릿 작업
 
@@ -49,13 +49,33 @@ EU GDPR 템플릿 및 ISO/IEC 27701:2019 템플릿과 같은 기본 인증 또�
 
 ### <a name="purchase-premium-template-licenses"></a>프리미엄 템플릿 라이선스 구입
 
-템플릿 라이선스는 관리 센터에서 구입할 수 있습니다( 구독, 라이선스 및 청구에 대해 자세히[알아보시고).](/microsoft-365/commerce/) 구매할 라이선스 수량과 결제 계획을 선택합니다. 또한 클라우드 솔루션 공급자 프로그램 또는 볼륨 [라이선싱에](https://partner.microsoft.com/membership/cloud-solution-provider) 참여하여 라이선스를 [취득할 수도 있습니다.](https://www.microsoft.com/licensing/licensing-programs/licensing-programs)
+템플릿 라이선스는 준수 관리자 라이선스 계약에 따라 이러한 방법 중 하나 이상을 통해 얻을 수 있습니다. 구매가 마무리된 후 48시간 이내에 테넌트에서 템플릿을 사용할 수 있습니다.
 
-구매가 마무리된 후 48시간 이내에 테넌트에서 템플릿을 사용할 수 있습니다.
+**상업용 및 GCC 보통**
+
+상업용 및 GCC 보통 계정은 관리 센터에서 템플릿 라이선스를 구매할 수 있습니다( 구독, 라이선스 및 청구에 대해[자세히 알아보시고).](/microsoft-365/commerce/) 구매할 라이선스 수량과 결제 계획을 선택합니다.
+
+구매 링크:
+
+- [상업용](https://admin.microsoft.com/Adminportal/Home?#/catalog/offer-details/compliance-manager-premium-assessment-add-on/46E9BF2A-3C8D-4A69-A7E7-3DA04687636D)
+- [GCC 보통](https://admin.microsoft.com/Adminportal/Home?#/catalog/offer-details/compliance-manager-premium-assessment-add-on/3129986d-5f4b-413b-a34b-b706db5a7669)
+
+또한 클라우드 솔루션 공급자 프로그램 또는 볼륨 [라이선싱에](https://partner.microsoft.com/membership/cloud-solution-provider) 참여하여 라이선스를 [취득할 수도 있습니다.](https://www.microsoft.com/licensing/licensing-programs/licensing-programs)
+
+**GCC 높음 및 DOD 계정**
+
+GCC 높음 및 DOD 계정은 볼륨 라이선스를 통해 템플릿 [라이선스를 구입해야 합니다.](https://www.microsoft.com/licensing/licensing-programs/licensing-programs)
 
 ### <a name="try-out-premium-templates"></a>고급 템플릿 사용해기
 
 구매하기 전에 프리미엄 템플릿을 사용해 보시고 평가판 버전의 라이선스를 취득할 수도 있습니다. 평가판 라이선스는 90일 동안 최대 25개 템플릿에 좋습니다. 평가판 라이선스를 획득하면 48시간 이내에 테넌트에서 템플릿을 사용할 수 있습니다.
+
+평가판을 시작하려면 조직에 적합한 링크를 선택하세요.
+
+- [상업용](https://admin.microsoft.com/Adminportal/Home?#/catalog/offer-details/compliance-manager-premium-assessment-add-on/e320704d-b7c9-4012-b6a6-0a2679790360)
+- [GCC 보통](https://admin.microsoft.com/Adminportal/Home?#/catalog/offer-details/compliance-manager-premium-assessment-add-on/87ed2908-0a8d-430a-9635-558ed42b581f)
+- [GCC High](https://portal.office365.us/SubscriptionDetails?OfferId=e14362d7-2c11-4a43-9c92-59f1b499b96a)
+- [DOD](https://portal.apps.mil/Commerce/Trial.aspx?OfferId=17e28290-7de6-41a9-af30-f6497396ab2e)
 
 #### <a name="active-and-inactive-templates"></a>활성 및 비활성 템플릿
 

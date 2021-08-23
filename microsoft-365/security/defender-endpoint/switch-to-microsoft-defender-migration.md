@@ -1,7 +1,7 @@
 ---
 title: Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
-description: 끝점용 Microsoft Defender로 전환합니다. 개요는 이 문서를 읽어 읽습니다.
-keywords: migration, windows defender advanced endpoint protection, for Endpoint, edr
+description: 끝점 보호 솔루션에 대한 Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint로 전환합니다.
+keywords: 마이그레이션, windows defender, 고급 끝점 보호, 바이러스 백신, 맬웨어 방지, 수동 모드, 활성 모드
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,29 +21,29 @@ ms.collection:
 - m365solution-symantecmigrate
 ms.topic: conceptual
 ms.custom: migrationguides
-ms.date: 06/14/2021
+ms.date: 08/16/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 50a2a17987c78b1a5f7aca7046a8cfd34e0ec467
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 27f1dff34e8e403afb3a8e45263d30a587952da5
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247584"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58364484"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 
 Microsoft가 아닌 끝점 보호 솔루션에서 [끝점용 Microsoft Defender(Defender for Endpoint)로](microsoft-defender-endpoint.md) 전환하는 방안을 고민하고 있는 경우 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.
 
-:::image type="content" source="images/nonms-mde-migration.png" alt-text="끝점용 Defender로의 마이그레이션 개요":::
+:::image type="content" source="images/nonms-mde-migration.png" alt-text="끝점 보호 솔루션을 Endpoint용 Defender로 전환":::
 
-Endpoint용 Defender로 전환할 때 Microsoft가 아닌 솔루션이 활성 모드로 작동하게 됩니다. 그런 다음 수동 모드에서 끝점에 대한 Defender를 구성하고 끝점용 Defender에 장치를 온보딩합니다. 다음으로 끝점에 대한 Defender를 활성 모드로 설정합니다. 마지막으로 Microsoft가 아닌 솔루션을 제거합니다.
+Endpoint용 Defender로 전환할 때 활성 모드에서 Microsoft가 아닌 바이러스 백신/맬웨어 방지 보호 기능으로 전환합니다. 그런 다음 수동 Microsoft Defender 바이러스 백신 구성하고 끝점용 Defender에 장치를 온보딩합니다. 그런 다음 끝점 보호 기능을 구성하고, Microsoft Defender 바이러스 백신 모드로 설정하고, 모든 기능이 제대로 작동하고 있는지 확인합니다. 마지막으로 Microsoft가 아닌 솔루션을 제거합니다.
 
 ## <a name="the-migration-process"></a>마이그레이션 프로세스
 
 다음 표에 설명된 바와 같이 끝점용 Defender로 마이그레이션하는 프로세스는 세 단계로 나눌 수 있습니다.
 
-![마이그레이션 단계 - 준비, 설정, 온보드](images/phase-diagrams/migration-phases.png)
+![MDE 마이그레이션 프로세스](images/phase-diagrams/migration-phases.png)
 
 |단계 |설명 |
 |--|--|

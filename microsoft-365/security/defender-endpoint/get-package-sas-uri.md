@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f04fac6783f07918639e54b3f318b63ed32838fe
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: 2a3a1817b1a56ed5c3b529179a6f5253677211de
+ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349287"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58392120"
 ---
 # <a name="get-package-sas-uri-api"></a>패키지 SAS URI API를 얻습니다.
 
@@ -52,7 +52,8 @@ ms.locfileid: "58349287"
 
 사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램|Machine.CollectForensics|'포렌식 수집'
+응용 프로그램|Machine.Read.All|''모든 컴퓨터 프로필 읽기''
+응용 프로그램|"Machine.ReadWrite.All|'모든 컴퓨터 정보 읽기 및 쓰기'
 위임(직장 또는 학교 계정)|Machine.CollectForensics|'포렌식 수집'
 
 > [!NOTE]

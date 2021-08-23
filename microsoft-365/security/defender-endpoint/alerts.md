@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: ca05076b1f70ec81f0263cf4d5b38ddacf399b25b4f37a04514b7d94b69a4977
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 77e7b86de5369b6a65224579de214d32c1f628e3
+ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854378"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58377980"
 ---
 # <a name="alert-resource-type"></a>경고 리소스 유형
 
@@ -52,7 +52,7 @@ ms.locfileid: "53854378"
 [관련 컴퓨터 얻기](get-alert-related-machine-info.md) | [컴퓨터](machine.md) | [경고와](machine.md) 연결된 [컴퓨터입니다.](alerts.md)
 [관련 사용자 얻기](get-alert-related-user-info.md) | [사용자](user.md) | [경고와](user.md) 연결된 [사용자입니다.](alerts.md)
 
-## <a name="properties"></a>특성
+## <a name="properties"></a>속성
 
 속성 |    유형    |    설명
 :---|:---|:---
@@ -68,6 +68,9 @@ incidentId | Nullable Long | 경고의 [인시던트](view-incidents-queue.md) I
 investigationId | Nullable Long | [경고와](automated-investigations.md) 관련된 조사 ID입니다.
 investigationState | Nullable Enum | 조사의 현재 [상태입니다.](automated-investigations.md) 가능한 값은 '알 수 없음', 'Terminated', 'SuccessfullyRemediated', 'Benign', 'Failed', 'PartiallyRemediated', 'Running', 'PendingApproval', 'PendingResource', 'PartiallyInvestigated', 'TerminatedByUser', 'TerminatedBySystem', 'Queued', 'InnerFailure', 'PreexistingAlert', 'UnsupportedOs', 'UnsupportedAlertType', 'SuppressedAlert'.
 assignedTo | String | 경고의 소유자입니다.
+rbacGroupName | String | RBAC 장치 그룹 이름입니다.
+mitreTechniques | String | Mitre Enterprise 기술 ID입니다.
+relatedUser | String |  특정 경고와 관련된 사용자 세부 정보입니다.
 심각도 | Enum | 경고의 심각도입니다. 가능한 값은 'UnSpecified', 'Informational', 'Low', 'Medium' 및 'High'입니다.
 status | Enum | 경고의 현재 상태를 지정합니다. 가능한 값은 '알 수 없음', '신규', 'InProgress' 및 'Resolved'입니다.
 classification | Nullable Enum | 경고 사양입니다. 가능한 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다.

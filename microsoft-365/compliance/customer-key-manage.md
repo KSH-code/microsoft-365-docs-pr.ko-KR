@@ -12,12 +12,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키를 설정한 후 AKV 키를 복원하고 사용 권한을 관리하고 데이터 암호화 정책을 만들고 할당하여 키 관리 방법을 배워야 합니다.
-ms.openlocfilehash: 263f5d13a554ab06c140101595e39c98ae1bc9488dbeff13da0eda9c02d334fb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cbfc93413aa7abfb37c201b8446050b1242461ac
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835838"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400262"
 ---
 # <a name="manage-customer-key"></a>고객 키 관리
 
@@ -47,7 +47,7 @@ ms.locfileid: "53835838"
 
    - *정책 설명은* 정책에 대한 정보를 기억하는 데 도움이 되는 정책에 대한 사용자에게 친숙한 설명입니다. 설명에 공백을 포함할 수 있습니다. 예를 들어 "테넌트의 모든 사용자에 대한 여러 워크로드에 대한 루트 정책"을 예로 들 수 있습니다.
 
-예:
+예제:
 
 ```powershell
 New-M365DataAtRestEncryptionPolicy -Name "Contoso_Global" -AzureKeyIDs "https://contosoWestUSvault1.vault.azure.net/keys/Key_01","https://contosoCentralUSvault1.vault.azure.net/keys/Key_02" -Description "Policy for multiple workloads for all users in the tenant."
@@ -63,7 +63,7 @@ Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy <PolicyName o
 
  여기서 *PolicyName은* 정책의 이름입니다. 예를 들어 Contoso_Global.
 
-예:
+예제:
 
 ```powershell
 Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "Contoso_Global"
@@ -97,7 +97,7 @@ DEP는 Azure Key Vault에 저장된 키 집합과 연결됩니다. 사서함에 
 
    - *KeyVaultURI2는* 정책의 두 번째 키에 대한 URI입니다. 예를 들면 <https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02>와 같습니다. 두 URIS를 콤보와 공백으로 구분합니다.
 
-   예:
+   예제:
   
    ```powershell
    New-DataEncryptionPolicy -Name USA_mailboxes -Description "Root key for mailboxes in USA and its territories" -AzureKeyIDs https://contoso_EastUSvault02.vault.azure.net/keys/USA_key_01, https://contoso_CentralUSvault02.vault.azure.net/keys/USA_Key_02
@@ -140,13 +140,13 @@ DEP를 만들 수 있도록 원격으로 SharePoint Online에 연결해야 Windo
 2. Microsoft Office SharePoint Online 관리 셸에서 다음과 Register-SPODataEncryptionPolicy cmdlet을 실행합니다.
 
    ```powershell
-   Register-SPODataEncryptionPolicy -Identity <adminSiteCollectionURL> -PrimaryKeyVaultName <PrimaryKeyVaultName> -PrimaryKeyName <PrimaryKeyName> -PrimaryKeyVersion <PrimaryKeyVersion> -SecondaryKeyVaultName <SecondaryKeyVaultName> -SecondaryKeyName <SecondaryKeyName> -SecondaryKeyVersion <SecondaryKeyVersion>
+   Register-SPODataEncryptionPolicy <adminSiteCollectionURL> -PrimaryKeyVaultName <PrimaryKeyVaultName> -PrimaryKeyName <PrimaryKeyName> -PrimaryKeyVersion <PrimaryKeyVersion> -SecondaryKeyVaultName <SecondaryKeyVaultName> -SecondaryKeyName <SecondaryKeyName> -SecondaryKeyVersion <SecondaryKeyVersion>
    ```
 
-   예:
+   예제:
   
    ```powershell
-   Register-SPODataEncryptionPolicy -Identity https://contoso.sharepoint.com -PrimaryKeyVaultName 'stageRG3vault' -PrimaryKeyName 'SPKey3' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'stageRG5vault' -SecondaryKeyName 'SPKey5' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a’
+   Register-SPODataEncryptionPolicy  https://contoso.sharepoint.com -PrimaryKeyVaultName 'stageRG3vault' -PrimaryKeyName 'SPKey3' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'stageRG5vault' -SecondaryKeyName 'SPKey5' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a’
    ```
 
    DEP를 등록하면 지리적 데이터에 대한 암호화가 시작됩니다. 암호화에는 시간이 걸릴 수 있습니다. 이 매개 변수를 사용하는 데 대한 자세한 내용은 [Register-SPODataEncryptionPolicy를 참조하세요.](/powershell/module/sharepoint-online/register-spodataencryptionpolicy?preserve-view=true&view=sharepoint-ps)
@@ -287,7 +287,7 @@ IsEncrypted 속성은 사서함이 암호화된 경우 **true** 값을 반환하
 
 여기서 *PolicyName은* 정책의 이름 또는 고유 ID입니다. 예를 들어 Contoso_Global.
 
-예:
+예제:
 
 ```powershell
 Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Enabled $false
@@ -301,7 +301,7 @@ Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Enabled $false
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예를 들어:
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -319,7 +319,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예를 들어:
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -331,7 +331,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예를 들어:
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com
@@ -370,7 +370,7 @@ Microsoft 365 제거 경로를 감사하고 유효성을 검사할 수 있습니
 
 - [O365 종료 계획 고려 사항](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=77ea7ebf-ce1b-4a5f-9972-d2d81a951d99&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 
-다중 작업 DEP 제거는 고객 키에 Microsoft 365 지원되지 않습니다. 다중 워크로드 DEP는 모든 테넌트 사용자 전체의 여러 워크로드에서 데이터를 암호화하는 데 사용됩니다. 이러한 DEP를 제거하면 여러 워크로드에서 데이터에 액세스하지 못하게 됩니다. 서비스 Microsoft 365 종료하기로 결정한 경우 문서화된 프로세스에 따라 테넌트가 종료되는 경로를 따라야 합니다. [Azure Active Directoy에서](/azure/active-directory/enterprise-users/directory-delete-howto)테넌트 삭제 방법을 참조하세요.
+다중 작업 DEP 제거는 고객 키에 Microsoft 365 지원되지 않습니다. 다중 워크로드 DEP는 모든 테넌트 사용자 전체의 여러 워크로드에서 데이터를 암호화하는 데 사용됩니다. 이러한 DEP를 제거하면 여러 워크로드에서 데이터에 액세스하지 못하게 됩니다. 서비스 Microsoft 365 종료하기로 결정한 경우 문서화된 프로세스에 따라 테넌트가 종료되는 경로를 따라야 합니다. 에서 테넌트 삭제 [방법을 Azure Active Directory.](/azure/active-directory/enterprise-users/directory-delete-howto)
 
 ### <a name="revoke-your-customer-keys-and-the-availability-key-for-exchange-online-and-skype-for-business"></a>고객 키 및 사용자에 대한 가용성 키 Exchange Online 비즈니스용 Skype
 
@@ -397,7 +397,7 @@ Microsoft 365 제거 경로를 감사하고 유효성을 검사할 수 있습니
 
 4. Microsoft 지원에 문의하여 데이터 제거 eDocument를 요청합니다.
 
-    요청 시 Microsoft는 데이터 선택을 승인하고 승인하기 위해 법적 문서를 전송합니다. 등록하는 동안 FastTrack 제품에서 승인자로 등록한 조직의 사람이 이 문서에 서명해야 합니다. 일반적으로 조직을 대신하여 문서에 서명할 수 있는 법적 권한이 있는 임원 또는 기타 지정된 사용자입니다.
+    요청 시 Microsoft는 데이터 선택을 승인하고 승인하기 위해 법적 문서를 전송합니다. 등록 중에 조직에서 승인자로 등록한 FastTrack 문서에 서명해야 합니다. 일반적으로 조직을 대신하여 문서에 서명할 수 있는 법적 권한이 있는 임원 또는 기타 지정된 사용자입니다.
 
 5. 담당자가 법적 문서에 서명한 후 Microsoft에 반환합니다(일반적으로 eDoc 서명을 통해).
 
@@ -413,7 +413,7 @@ SharePoint Online, 비즈니스용 OneDrive 및 Teams 삭제 경로를 시작하
 
 2. Microsoft에 문의하여 가용성 키를 삭제합니다.
 
-    Microsoft에 연락하여 가용성 키를 삭제하면 법적 문서가 전송됩니다. 등록하는 동안 FastTrack 제품에서 승인자로 등록한 조직의 사람이 이 문서에 서명해야 합니다. 일반적으로 조직을 대신하여 문서에 서명할 수 있는 법적 권한이 있는 임원 또는 기타 지정된 사용자입니다.
+    Microsoft에 연락하여 가용성 키를 삭제하면 법적 문서가 전송됩니다. 등록 중에 조직에서 승인자로 등록한 FastTrack 문서에 서명해야 합니다. 일반적으로 조직을 대신하여 문서에 서명할 수 있는 법적 권한이 있는 임원 또는 기타 지정된 사용자입니다.
 
 3. 담당자가 법적 문서에 서명하면 Microsoft에 반환합니다(일반적으로 eDoc 서명을 통해).
 

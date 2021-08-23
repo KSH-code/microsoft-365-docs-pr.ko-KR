@@ -15,13 +15,13 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.date: 06/02/2021
-ms.openlocfilehash: 1120d695bd8dd81931b92f11b92308ae363db4ea
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.date: 08/17/2021
+ms.openlocfilehash: 7fff73b2887418d47358b5424e537e5de4d60ce9
+ms.sourcegitcommit: 43897ead6db2d3977f6ceb8abeedb8aaff9c020a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257839"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380251"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙 사용
 
@@ -263,7 +263,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
 
-2. 다음 cmdlet을 입력합니다.
+2. 다음 cmdlet 중 하나를 입력합니다. (규칙 [ID와](attack-surface-reduction-rules.md) 같은 자세한 내용은 공격 표면 축소 규칙을 참조합니다.)
 
     ```PowerShell
     Set-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Enabled
@@ -321,7 +321,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 ## <a name="related-articles"></a>관련 문서
 
-- [공격 표면 감소 규칙을 사용하여 공격 표면 감소](attack-surface-reduction.md)
+- [공격 표면 감소 규칙](attack-surface-reduction-rules.md)
 
 - [공격 표면 감소 평가](evaluate-attack-surface-reduction.md)
 

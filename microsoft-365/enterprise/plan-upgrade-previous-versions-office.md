@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에는 Office 2007 또는 Office 2010을 사용하여 업그레이드를 계획하는 데 도움이 되는 리소스가 포함되어 있습니다.
-ms.openlocfilehash: 1fbbf13f267f191f567f413dd777d12e43abc096
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 1e4379510ba6c4cf36200a6f49f56aa11a151140
+ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356903"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58378038"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>Office 2007 또는 Office 2010 서버 및 클라이언트에서 업그레이드 계획
 
@@ -47,7 +47,7 @@ Microsoft 365 Microsoft 클라우드에서 사용하도록 설정하고 보호�
 |리소스|설명|
 |---|---|
 |[Microsoft 365](https://www.microsoft.com/microsoft-365)|새 버전에 대한 정보를 Microsoft 365.|
-|[Microsoft 365 비즈니스용 설명서](../business/index.yml)|중소기업을 위한 비즈니스용 Microsoft 365 자세한 정보를 얻습니다.|
+|[Microsoft 365 비즈니스용 설명서](../admin/index.yml)|중소기업을 위한 비즈니스용 Microsoft 365 자세한 정보를 얻습니다.|
 |[Microsoft 365 교육용 설명서](/microsoft-365/education/)|교육 조직을 위한 Microsoft 365 자세한 정보를 얻습니다.|
 |[Microsoft 365 대한 Enterprise 설명](./index.yml)|엔터프라이즈 조직을 위한 Microsoft 365 자세한 정보를 얻습니다.|
 |||

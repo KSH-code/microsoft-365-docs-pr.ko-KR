@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Power Apps Microsoft Microsoft 365, Microsoft Flow 및 Dynamics 365 for Finance와 같은 셀프 서비스 등록 및 사용 가능한 셀프 서비스 프로그램에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: e1a11db1e5fe1d6cb35d1583a6a6fc9f7bb73e16d76e98d2c8cb739223d22db3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e03f82903b8aa81db2425769a23d7ec379120526
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823810"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400214"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 
@@ -50,7 +50,7 @@ ms.locfileid: "53823810"
 |**Office 365 A1 Plus** <br/> |적격 학생 및 교사는 위에 언급된 모든 내용과 함께 Office 365 A1 Plus에 등록할 수 엔터프라이즈용 Microsoft 365 앱. 엔터프라이즈용 Microsoft 365 앱 Word, PowerPoint, Excel, Outlook, OneNote, Publisher, Access 및 비즈니스용 Skype 등의 생산성 소프트웨어입니다.  <br/> |[Office 365 Education 기술 FAQ](/microsoft-365/education/deploy/office-365-education-self-sign-up) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
 |**Power BI** <br/> |Power BI 통해 사용자는 직관적인 새로운 방식으로 데이터를 시각화하고, 검색을 공유하고, 공동 작업을 할 수 있습니다. <br/> 조직에서 이미 구독한 경우 사용자에게 고급 기능에 대한 제한적인 무료 액세스를 제공하는 "Power BI Pro 개별 사용자 평가판"에 대한 라이선스를 추가로 볼 수 있습니다.  <br/> |[Power BI 조직의 사용자 관리](./power-bi-in-your-organization.md) <br/> |[Microsoft Power BI](https://go.microsoft.com/fwlink/p/?LinkId=536629) <br/> |
 |**RMS(Rights Management Services)** <br/> |개인용 RMS는 Azure RMS(Azure 권한 관리)에서 보호된 중요한 파일을 전송했지만 IT 부서에서 Azure RMS(Azure 권한 관리) 또는 AD RMS(Active Directory Rights Management Services)를 구현하지 않은 조직의 사용자를 위한 무료 셀프 서비스 구독입니다.  <br/> |[개인용 RMS 및 Azure 권한 관리](/azure/information-protection/rms-for-individuals) <br/> |[권한으로 보호된](https://portal.azure.com/) 특정 문서를 열 수 있는지 여부를 확인할 수 있는 Microsoft 권한 관리 포털입니다.  <br/> |
-|**Microsoft Power Apps** <br/> |PowerApps에서 사용자가 만들거나 다른 사람이 생성하고 사용자와 공유한 앱을 실행하여 조직 데이터를 관리할 수 있습니다. 앱은 휴대폰과 같은 모바일 장치에서 실행되거나 Dynamics 365를 열고 브라우저에서 실행할 수 있습니다. 앱과 같은 프로그래밍 언어를 학습하지 않고도 무한한 다양한 앱을 C#.  <br/> |[PowerApps에 셀프 서비스 등록](/powerapps/maker/signup-for-powerapps) <br/> |[Microsoft Power Apps](https://go.microsoft.com/fwlink/p/?linkid=841462) <br/> |
+|**Microsoft Power Apps** <br/> |이 Power Apps 만들거나 다른 사람이 생성하고 공유한 앱을 실행하여 조직 데이터를 관리할 수 있습니다. 앱은 휴대폰과 같은 모바일 장치에서 실행되거나 Dynamics 365를 열고 브라우저에서 실행할 수 있습니다. 앱과 같은 프로그래밍 언어를 학습하지 않고도 무한한 다양한 앱을 C#.  <br/> |[셀프 서비스 등록 Power Apps](/powerapps/maker/signup-for-powerapps) <br/> |[Microsoft Power Apps](https://go.microsoft.com/fwlink/p/?linkid=841462) <br/> |
 |**Dynamics 365 for Financials** <br/> |중소기업을 위한 완벽한 비즈니스 및 재무 관리 솔루션을 얻습니다. Dynamics 365 for Financials를 사용하면 첫 날부터 주문, 판매, 인보이스 및 보고를 보다 쉽게 할 수 있습니다.  <br/> |[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/p/?linkid=841466) <br/> |[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/p/?linkid=841466) <br/> |
 |**Microsoft Dynamics 365 for Operations** <br/> |비즈니스 수행 속도를 향상합니다. Dynamics 365 for Operations의 전체 ERP 도구는 글로벌 확장성 및 디지털 인텔리전스를 제공하여 속도에 따라 성장하는 데 도움이 됩니다.  <br/> |[Microsoft Dynamics 365 for Operations](https://go.microsoft.com/fwlink/p/?linkid=841467) <br/> |[Microsoft Dynamics 365 for Operations](https://go.microsoft.com/fwlink/p/?linkid=841467) <br/> |
 |**Microsoft AppSource** <br/> |Microsoft AppSource는 Microsoft 클라우드 플랫폼을 사용하여 구축된 소프트웨어 as-a-service 비즈니스 앱의 대상입니다. AppSource는 Azure, Dynamics 365, Office 365 및 앱과 같은 Microsoft 제품의 기능을 확장하는 수백 개의 앱, 추가 기능 및 콘텐츠 팩을 Power BI.  <br/> |[Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=841474) <br/> |[Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=841474) <br/> |
@@ -60,5 +60,5 @@ ms.locfileid: "53823810"
 |**Minecraft Education Edition** <br/> |교사는 Minecraft 플랫폼으로 사용하여 모든 학생에게 더 많은 성과를 거는 동기를 부여하고 영감을 주며 학습에 대한 열정을 불어넣을 수 있습니다. 교육자 커뮤니티에 참여하여 학생 잠재력을 Minecraft 방법을 학습합니다.  <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
 |**Microsoft Stream** <br/> |업로드, 참여 및 학습을 개선하기 위해 조직 전체에서 비디오를 공유하고 관리합니다.  <br/> |[&amp;0일 환경 등록](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**Power Automate** <br/> |Power Automate 파일을 동기화하고, 알림을 받고, 데이터를 수집하는 등 즐겨 사용하는 앱과 서비스 간에 자동화된 워크플로를 설정하는 데 도움이 되는 제품입니다.  <br/> |[등록하고 로그인하여 Power Automate](/power-automate/sign-up-sign-in) <br/> |[Power Automate](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
-|**Power Virtual Agents** <br/> |Power Virtual Agents 팀이 데이터 보호나 개발자 없이도 코드 없는 안내 그래픽 인터페이스를 사용하여 강력한 봇을 쉽게 만들 수 있도록 합니다. Power Virtual Agents 업계에서 봇을 구축할 때의 많은 주요 문제를 해결합니다. 주제 전문가와 봇을 구축하는 개발 팀 간의 간격과 문제를 인식하고 봇을 업데이트하여 문제를 해결하기 위해 봇을 업데이트하는 팀 간의 긴 대기 시간을 제거합니다.  <br/> |[라이선스 및 액세스 세부 정보](/power-virtual-agents/requirements-licensing) <br/> |[등록을 Power Virtual Agents](https://aka.ms/TryPVA) <br/> |
+|**파워 가상 에이전트** <br/> |Power Virtual Agents 팀이 데이터 보호나 개발자 없이도 코드 없는 안내 그래픽 인터페이스를 사용하여 강력한 봇을 쉽게 만들 수 있도록 합니다. Power Virtual Agents 업계에서 봇을 구축할 때의 많은 주요 문제를 해결합니다. 주제 전문가와 봇을 구축하는 개발 팀 간의 간격과 문제를 인식하고 봇을 업데이트하여 문제를 해결하기 위해 봇을 업데이트하는 팀 간의 긴 대기 시간을 제거합니다.  <br/> |[라이선스 및 액세스 세부 정보](/power-virtual-agents/requirements-licensing) <br/> |[등록을 Power Virtual Agents](https://aka.ms/TryPVA) <br/> |
 |**Azure AD B2B** <br/> |Azure Active Directory(Azure AD) B2B(Business-to-Business) 공동 작업을 통해 유료 Azure AD 서비스를 사용하기 위해 외부 사용자(또는 "게스트 사용자")를 초대할 수 있습니다. 일부 기능은 무료이지만 유료 Azure AD 기능의 경우 직원 또는 테넌트의 게스트가 아닌 사용자에 대해 소유한 각 Azure AD 버전 라이선스에 대해 최대 5개의 게스트 사용자를 초대할 수 있습니다. <br/> |[Azure AD B2B 공동 작업 등록을 위한 셀프 서비스](/azure/active-directory/b2b/self-service-portal) <br/> |[Azure Active Directory B2B 공동 작업 라이선싱 지침](/azure/active-directory/b2b/licensing-guidance) <br/> |

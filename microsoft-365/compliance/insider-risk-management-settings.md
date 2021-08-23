@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: d65f6f0aa2d1d4d4017ffa768102be5b3d25cfb9e5ad08f167f98b87651fcfbc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ead7dd16eb69bccfe556872f278b20f4079caa45
+ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53880017"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58392168"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>내부자 위험 관리 설정 시작
 
@@ -44,6 +44,10 @@ ms.locfileid: "53880017"
 정책 일치가 있는 사용자의 개인 정보 보호는 매우 중요하며, 데이터 조사 및 분석 검토에서 내부자 위험 경고에 대한 객관성 향상에 도움이 될 수 있습니다. 내부자 위험 정책이 일치하는 사용자의 경우 다음 설정 중 하나를 선택할 수 있습니다.
 
 - **사용자 이름의** 비동기화된 버전 표시: 관리자, 데이터 조사자 및 검토자는 정책 경고와 연결된 사용자를 볼 수 있도록 사용자 이름을 비동기화합니다. 예를 들어 사용자 '유정호'는 내부자 위험 관리 환경의 모든 영역에서 'AnonIS8-988'와 같이 임의의 가명과 함께 표시됩니다. 이 설정을 선택하면 현재 및 과거 정책 일치가 있는 모든 사용자를 익명화하며, 모든 정책에 적용됩니다. 이 옵션을 선택하면 내부자 위험 경고 및 사례 세부 정보의 사용자 프로필 정보를 사용할 수 없습니다. 그러나 기존 정책에 새 사용자를 추가하거나 새 정책에 사용자를 할당할 때 사용자 이름이 표시됩니다. 이 설정을 끄면 현재 또는 과거의 정책 일치가 있는 모든 사용자에 대해 사용자 이름이 표시됩니다.
+
+    >[!IMPORTANT]
+    >내부자 위험 관리 경고 및 다른 시스템의 사례를 사용하여 여러 사용자에 대해 참조 무결성을 유지 관리하기 위해 내보낼 경고에 대해 사용자 이름의 비동기화가 보존되지 않습니다. 내보낼 경고에는 각 경고에 대한 사용자 이름이 표시됩니다.
+
 - **사용자 이름의 비동기화된** 버전을 표시하지 않습니다. 경고 및 사례에 대한 모든 현재 및 이전 정책 일치에 대한 사용자 이름이 표시됩니다. 모든 내부자 위험 관리 경고 및 사례에 대한 사용자 프로필 정보(이름, 제목, 별칭 및 조직 또는 부서)가 사용자에게 표시됩니다.
 
 ![내부자 위험 관리 개인 정보 설정](../media/insider-risk-settings-privacy.png)
@@ -224,6 +228,9 @@ Endpoint용 Defender의 경고는 매일 가져오기됩니다. 선택한 Triage
 ## <a name="export-alerts-preview"></a>경고 내보내기(미리 보기)
 
 내부자 위험 관리 경고 정보는 보안 정보 및 이벤트 관리(SIEM) 서비스로 내보낼 Office 365 관리 작업 API Office 365 [있습니다.](/office/office-365-management-api/office-365-management-activity-api-schema#security-and-compliance-alerts-schema) Office 365 활동 API를 사용하여 조직에서 내부자 위험 정보를 관리하거나 집계하는 데 사용할 수 있는 다른 응용 프로그램으로 경고 정보를 내보낼 수 있습니다.
+
+>[!IMPORTANT]
+>내부자 위험 관리 경고 및 다른 시스템의 사례를 사용하여 여러 사용자에 대해 참조 무결성을 유지 관리하기 위해 내보낼 경고에 대해 사용자 이름의 비동기화가 보존되지 않습니다. 내보낼 경고에는 각 경고에 대한 사용자 이름이 표시됩니다.
 
 API를 사용하여 내부자 위험 경고 정보를 검토합니다.
 

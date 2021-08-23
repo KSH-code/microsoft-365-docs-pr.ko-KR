@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9ff52a2c2cd464552637a166708669c2ab4d00eece6bd6585603d2a33bf5a038
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ab53061a7880d5ba35c16203cffc7d6eb8e7b718
+ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794381"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58392113"
 ---
 # <a name="create-alert-api"></a>경고 API 만들기
 
@@ -58,7 +58,7 @@ ms.locfileid: "53794381"
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 | Alerts.ReadWrite.All | '모든 경고 읽기 및 쓰기'
+응용 프로그램 | Alert.ReadWrite.All | '모든 경고 읽기 및 쓰기'
 위임(직장 또는 학교 계정) | Alert.ReadWrite | '경고 읽기 및 쓰기'
 
 > [!NOTE]

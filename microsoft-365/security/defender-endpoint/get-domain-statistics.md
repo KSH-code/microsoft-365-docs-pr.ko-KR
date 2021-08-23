@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 93e76fb5730140d06f9805e91ecd1a175a4f7cfb
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: ba2c6e913b8768e0b905631a248435638db98939
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347147"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58364508"
 ---
 # <a name="get-domain-statistics-api"></a>도메인 통계 얻기 API
 
@@ -84,7 +84,7 @@ lookBackHours|Int32|통계를 얻기 위해 다시 검색하는 시간을 정의
 
 ## <a name="response"></a>응답
 
-성공 및 도메인이 있는 경우 - 응답 본문에 statistics 개체가 있는 200 OK. 도메인이 없는 경우 - 404 찾을 수 없습니다.
+성공 및 도메인이 있는 경우 - 응답 본문에 statistics 개체가 있는 200 OK. domain이 존재하지 않는 경우 - 보존이 0으로 설정된 200 OK입니다.
 
 ## <a name="example"></a>예제
 

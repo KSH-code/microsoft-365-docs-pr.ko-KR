@@ -11,12 +11,12 @@ ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 description: Microsoft 365 규정 준수 센터 콘텐츠 검색 eDiscovery 도구를 사용하여 Exchange 사서함, SharePoint 사이트의 문서 및 OneDrive 위치 및 인스턴트 메시징 대화에서 전자 메일을 빠르게 비즈니스용 Skype.
-ms.openlocfilehash: d56c2e9532611593fe41df8ac2bee4860b3920b175e50a188abbc8de67812473
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6161b84fa04b461835777ba769129b9cc32f5ab7
+ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53855638"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58377968"
 ---
 # <a name="search-for-content-using-the-content-search-tool"></a>콘텐츠 검색 도구를 사용하여 콘텐츠 검색
 
@@ -41,8 +41,6 @@ Microsoft 365 규정 준수 센터 콘텐츠 검색 도구를 사용하여 Excha
 - [검색 결과에](view-keyword-statistics-for-content-search.md) 대한 키워드 통계 보기 및 필요한 경우 쿼리 구체화
 
 - [조직에서](use-content-search-to-search-third-party-data-that-was-imported.md) 데이터 원본으로 가져온 타사 데이터를 Microsoft 365
-
-- [여러 검색에](bulk-edit-content-searches.md) 대한 쿼리 및 콘텐츠 위치 일괄 편집
 
 - [콘텐츠 검색을 다시 시도하여](retry-failed-content-search.md) 콘텐츠 위치 오류 해결
 

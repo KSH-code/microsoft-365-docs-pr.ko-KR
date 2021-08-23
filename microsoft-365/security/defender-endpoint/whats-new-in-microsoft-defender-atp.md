@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 56752128d68fae579ab1b15fbfb8ab1b2320f5f8
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 6f38c052c6c1755c0717d8b64987dd69b1a5826d
+ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257270"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58387143"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -60,6 +60,13 @@ ms.locfileid: "58257270"
    > 표준 검색은 2021년 7월 19부터 모든 고객의 기본 모드가 됩니다. 설정 페이지를 통해 기본 모드를 유지할 수 있습니다.
 
 - [이제 장치 그룹 정의에](/microsoft-365/security/defender-endpoint/machine-groups) 각 조건에 대한 여러 값을 포함할 수 있습니다. 여러 태그, 장치 이름 및 도메인을 단일 장치 그룹의 정의로 설정할 수 있습니다.
+
+- [모바일 응용 프로그램 관리 지원](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/announcing-new-capabilities-on-android-and-ios/ba-p/2442730) <br> 이 향상된 기능을 통해 Microsoft Defender for Endpoint는 Intune을 사용하여 모바일 응용 프로그램을 관리할 때 관리되는 응용 프로그램 내의 조직 데이터를 보호할 수 있습니다. 모바일 응용 프로그램 관리에 대한 자세한 내용은 이 [설명서를 참조하십시오.](/microsoft-365/mem/intune/apps/mam-faq)
+
+- [Microsoft Tunnel VPN 통합](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/announcing-new-capabilities-on-android-and-ios/ba-p/2442730) <br> Microsoft Tunnel 이제 VPN 기능이 Android용 끝점용 Microsoft Defender 앱과 통합됩니다. 이러한 통일을 통해 조직은 하나의 보안 앱으로 간소화된 최종 사용자 환경을 제공할 수 있습니다. 즉, 모바일 위협 방어와 모바일 장치에서 프레미스 리소스에 액세스하는 기능을 모두 제공하는 동시에 보안 및 IT 팀은 친숙한 동일한 관리 환경을 유지할 수 있습니다.
+
+- [iOS에서 탈옥 검색](/microsoft-365/security/defender-endpoint/ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios) <br> iOS의 끝점에 대한 Microsoft Defender의 탈옥 감지 기능이 이제 일반적으로 사용할 수 있습니다. 이는 이미 존재하는 피싱 보호에 추가됩니다.  자세한 내용은 장치 위험 신호에 따라 조건부 액세스 정책 [설정을 참조하세요.](/microsoft-365/security/defender-endpoint/ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios)
+
 
 ## <a name="march-2021"></a>2021년 3월
 - [다음을 사용하여 변조 방지 Microsoft Defender 보안 센터](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal) <br> 테넌트 연결 이라는 방법을 사용하여 Windows 10, Windows Server 2016 및 Windows Server 2019에서 변조 보호 설정을 *관리할 수 있습니다.*

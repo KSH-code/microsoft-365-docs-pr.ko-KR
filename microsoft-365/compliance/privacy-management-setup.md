@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에 대한 개인 정보 관리를 설정하고, 역할 및 사용 권한을 설정하고, 중요한 설정을 구성하는 방법을 배워야 합니다.
-ms.openlocfilehash: 63a6919b2aa4c368360414c683614d8bb4305fd0
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: 2603a41fd4afb83c353854e5bed4c236138dd21d
+ms.sourcegitcommit: 43897ead6db2d3977f6ceb8abeedb8aaff9c020a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58350043"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380215"
 ---
 # <a name="get-started-with-privacy-management-preview"></a>개인 정보 관리 시작(미리 보기)
 
@@ -48,7 +48,7 @@ ms.locfileid: "58350043"
 
 ### <a name="accept-privacy-management-terms"></a>개인 정보 관리 약관 수락
 
-개인 정보 관리를 처음 열면 약관 및 개인 데이터 평가 프로세스(자세한 정보)에 동의하는지 확인하는[것이 요청됩니다.](privacy-management.md#how-we-evaluate-your-data) 계속하기 전에 제공된 링크를 전체 검토할 수 있습니다. 동의하면 개인 정보 관리가 조직의 데이터에 대한 인사이트 제공을 시작하기까지 최대 24시간이 걸릴 수 있습니다.
+개인 정보 관리를 처음 열면 약관 및 개인 데이터 평가 프로세스(자세한 정보)에 동의하는지 확인하는[것이 요청됩니다.](privacy-management.md#where-privacy-management-identifies-personal-data) 계속하기 전에 제공된 링크를 전체 검토할 수 있습니다. 동의하면 개인 정보 관리가 조직의 데이터에 대한 인사이트 제공을 시작하기까지 최대 24시간이 걸릴 수 있습니다.
 
 개인 정보 관리 사용 약관에 대한 구독 또는 동의를 얻기 위해 필요한 역할을 보유하지 않는 경우 전역 관리자에게 지원을 요청하라는 메시지가 표시됩니다.
 

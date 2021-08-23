@@ -17,18 +17,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0c3f4dea703a5d146cab9382be3e991bf8c50bd545ee26ac2781d9542a1f5f90
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2f0475d6adc1f97255665e3a32fe05e7d88c41b5
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894254"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400182"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 지표 만들기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -78,16 +79,62 @@ ms.locfileid: "53894254"
 
 표시기에서 자동으로 차단되는 파일은 파일의 알림 센터에 표시되지 않지만 경고 큐에 계속 표시됩니다.
 
+## <a name="private-preview-alerting-on-file-blocking-actions"></a>비공개 미리 보기: 파일 차단 작업에 대한 경고
+
+> [!IMPORTANT]
+> 이 섹션의 **정보(자동화된** 조사 및 수정 엔진용 공개 미리 보기)는 상업적으로 출시되기 전에 상당 부분 수정될 수 있는 출시 전 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
+
+파일 IOC에 대해 현재 지원되는 작업은 허용, 감사 및 차단 및 수정입니다.
+파일을 차단하기로 선택한 후 경고 트리거가 필요한지 여부를 선택할 수 있습니다. 이렇게 하면 보안 운영 팀으로 전송되는 알림 수를 제어하고 필요한 알림만 발생하게 할 수 있습니다.
+Microsoft 365 Defender 파일 설정 > 끝점 > 표시기> 파일 해시 추가로 이동하여 파일 차단 이벤트에 대한 경고를 생성하는 경우 선택 파일을 차단하고 수정합니다. 파일 차단 이벤트에 대한 경고를 생성하려면 선택을 선택하고 경고 설정을 정의합니다.
+
+- 경고 제목
+- 경고 심각도
+- 범주
+- 설명
+- 권장 작업
+
+![파일 표시기 알림 설정](images/indicators-generate-alert.png)
+
 > [!IMPORTANT]
 >
 >- 일반적으로 파일 블록은 몇 분 이내에 적용 및 제거되지만 30분까지 걸릴 수 있습니다.
 >
 >- 적용 유형과 대상이 동일한 충돌하는 파일 IoC 정책이 있는 경우 보다 안전한 해시 정책이 적용됩니다. SHA-256 파일 해시 IoC 정책은 SHA-1 파일 해시 IoC 정책을 통해 이기며, 해시 유형이 동일한 파일을 정의하는 경우 MD5 파일 해시 IoC 정책에서 이기게 됩니다. 이는 장치 그룹에 관계없이 항상 해당됩니다.
->  다른 모든 경우 적용 대상이 동일한 충돌하는 파일 IoC 정책이 모든 장치 및 디바이스 그룹에 적용될 경우 디바이스 그룹의 정책이 이기게 됩니다.
 >
-> - EnableFileHashComputation 그룹 정책을 사용하지 않도록 설정하면 IoC 파일의 차단 정확도가 줄어듭니다. 그러나 사용하도록 `EnableFileHashComputation` 설정하면 장치 성능에 영향을 줄 수 있습니다. 예를 들어 네트워크 공유에서 로컬 장치(특히 VPN 연결을 통해)에 큰 파일을 복사하면 장치 성능에 영향을 미치게 됩니다.
+>- 다른 모든 경우 적용 대상이 동일한 충돌하는 파일 IoC 정책이 모든 장치 및 디바이스 그룹에 적용될 경우 디바이스 그룹의 정책이 이기게 됩니다.
 >
->   EnableFileHashComputation 그룹 정책에 대한 자세한 내용은 [Defender CSP를 참조하세요.](/windows/client-management/mdm/defender-csp)
+>- EnableFileHashComputation 그룹 정책을 사용하지 않도록 설정하면 IoC 파일의 차단 정확도가 줄어듭니다. 그러나 사용하도록 `EnableFileHashComputation` 설정하면 장치 성능에 영향을 줄 수 있습니다. 예를 들어 네트워크 공유에서 로컬 장치(특히 VPN 연결을 통해)에 큰 파일을 복사하면 장치 성능에 영향을 미치게 됩니다.
+>
+>   EnableFileHashComputation 그룹 정책에 대한 자세한 내용은 [Defender CSP 를 참조하세요.](/windows/client-management/mdm/defender-csp)
+
+## <a name="private-preview-advanced-hunting-capabilities"></a>비공개 미리 보기: 고급 헌팅 기능
+
+> [!IMPORTANT]
+> 이 섹션의 **정보(자동화된** 조사 및 수정 엔진용 공개 미리 보기)는 상업적으로 출시되기 전에 상당 부분 수정될 수 있는 출시 전 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
+
+사전 헌팅에서 응답 작업 활동을 쿼리할 수 있습니다. 다음은 샘플 사전 헌팅 쿼리입니다.
+
+```console
+search in (DeviceFileEvents, DeviceProcessEvents, DeviceEvents, DeviceRegistryEvents, DeviceNetworkEvents, DeviceImageLoadEvents, DeviceLogonEvents)
+Timestamp > ago(30d)
+| where AdditionalFields contains "EUS:Win32/CustomEnterpriseBlock!cl"
+```
+
+고급 헌팅에 대한 자세한 내용은 고급 헌팅으로 위협을 사전 [대응적으로 헌팅을 참조하세요.](advanced-hunting-overview.md)
+
+다음은 위의 샘플 쿼리에서 사용할 수 있는 추가 스레드 이름입니다.
+
+파일:
+
+- EUS:Win32/CustomEnterpriseBlock!cl
+- EUS:Win32/CustomEnterpriseNoAlertBlock!cl
+
+인증서:
+
+- EUS:Win32/CustomCertEnterpriseBlock!cl  
+
+응답 작업 활동은 장치 타임라인에서 볼 수도 있습니다.
 
 ## <a name="policy-conflict-handling"></a>정책 충돌 처리
 
@@ -102,6 +149,9 @@ Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 
 적용 유형과 대상이 동일한 충돌하는 파일 IoC 정책이 있는 경우 더 안전한(더 긴) 해시 정책이 적용됩니다. 예를 들어 두 해시 유형이 동일한 파일을 정의하는 경우 SHA-256 파일 해시 IoC 정책이 MD5 파일 해시 IoC 정책에서 이기게 됩니다.
 
+> [!WARNING]
+> 파일 및 인증에 대한 정책 충돌 처리는 도메인/URL/IP 주소에 대한 정책 충돌 처리와 다릅니다.
+
 위협 및 취약성 관리 응용 프로그램 차단 기능은 적용을 위해 IoC 파일을 사용하며 위의 충돌 처리 순서를 따르게 됩니다.
 
 ### <a name="examples"></a>예제
@@ -110,8 +160,8 @@ Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 |---|---|---|---|
 |공격 표면 축소 파일 경로 제외|허용|차단|차단
 |공격 표면 감소 규칙|차단|허용|허용
-|Windows Defender 응용 프로그램 제어|허용|차단|허용
-|Windows Defender 응용 프로그램 제어|차단|허용|차단
+|Windows Defender Application Control|허용|차단|허용
+|Windows Defender Application Control|차단|허용|차단
 |Microsoft Defender 바이러스 백신 제외|허용|차단|허용
 
 ## <a name="see-also"></a>참고 항목

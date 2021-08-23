@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d3e8e68f8bdb8f2fa6f539605d2603a57e22c624
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 517938951c6bf772097f15dca1a8d3b79c568ca1
+ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257507"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58392055"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>정보 통신 규정 준수에 대해 Microsoft 365
 
@@ -98,6 +98,7 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 - **사용자 기록:** 과거의 알림 및 정책 일치에 대한 에스컬레이터와 같은 모든 사용자 메시지 수정 활동에 대한 기록 보기는 이제 수정 워크플로 프로세스 중에 검토자에 더 많은 컨텍스트를 제공합니다. 이제 사용자에 대한 정책 일치의 처음 또는 반복 인스턴스가 보관 및 쉽게 볼 수 있습니다.
 - **패턴 검색 알림:** 시간이 지날 때 많은 괴롭히고 괴롭히는 작업이 많이 수행되고 사용자가 동일한 동작의 인스턴스를 반복하여 반복합니다. 경고 세부 정보에서 표시되는 새로운 패턴 검색된 알림은 이러한 경고 및 이러한 유형의 동작에 대한 주의를 높이는 데 도움이 됩니다.
 - **번역:** 수정 워크플로에서 번역 지원을 사용하여 8개 언어로 메시지 세부 정보를 빠르게 조사합니다. 다른 언어의 메시지는 자동으로 검토자 표시 언어로 변환됩니다.
+- **첨부 파일 검색:** 메시지에 대한 정책 분류자 및 조건과 일치하는 OneDrive Microsoft Teams 콘텐츠(최신 첨부 파일)를 Microsoft Teams 검색합니다. 첨부 파일 콘텐츠는 자세한 검토 및 작업을 위해 텍스트 파일에 자동으로 추출됩니다.
 
 ### <a name="actionable-insights"></a>실행 가능한 인사이트
 
