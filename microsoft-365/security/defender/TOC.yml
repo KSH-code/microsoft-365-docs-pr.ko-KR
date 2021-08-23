@@ -118,6 +118,8 @@
           items:
             - name: 센서 설정 및 상태
               href: ../defender-identity/sensor-health.md
+            - name: 디렉터리 서비스 계정
+              href: ../defender-identity/directory-service-accounts.md
             - name: VPN 통합
               href: ../defender-identity/vpn-integration.md
             - name: 엔터티 태그 설정

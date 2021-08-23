@@ -268,9 +268,9 @@
 #### [그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)
 #### [Microsoft Defender 바이러스 백신 검색에 대한 수정 구성](configure-remediation-microsoft-defender-antivirus.md)
 #### [Microsoft Defender 바이러스 백신 검사 구성](schedule-antivirus-scans.md)
-##### [그룹 정책을 사용하여 바이러스 백신 검사 예약](schedule-antivirus-scans-group-policy.md)
-##### [PowerShell을 사용하여 바이러스 백신 검사 예약](schedule-antivirus-scans-powershell.md)
-##### [WMI(WMI(Windows Management Instrumentation))를 사용하여 바이러스 백신 검사 예약](schedule-antivirus-scans-wmi.md)
+##### [그룹 정책을 사용하여 검사 예약](schedule-antivirus-scans-group-policy.md)
+##### [PowerShell을 사용하여 검사 예약](schedule-antivirus-scans-powershell.md)
+##### [WMI를 사용하여 검사 예약](schedule-antivirus-scans-wmi.md)
 #### [Microsoft Defender 바이러스 백신에서 제한된 주기적 검사 사용](limited-periodic-scanning-microsoft-defender-antivirus.md)
 #### [다른 보안 제품과의 호환성](microsoft-defender-antivirus-compatibility.md)
 
@@ -308,7 +308,7 @@
 ##### [파일 확장명 및 폴더 위치에 기반하여 제외](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 ##### [프로세스에서 연 파일에 대한 제외](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 ##### [Windows Server에 대한 제외](configure-server-exclusions-microsoft-defender-antivirus.md)
-##### [제외 정의 시 피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+##### [피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)
 
 #### Windows Defender 바이러스 백신 문제 해결
 ##### [업데이트 규정 준수에서 Microsoft Defender 바이러스 백신 보고 문제 해결](troubleshoot-reporting.md)
@@ -347,11 +347,11 @@
 ##### [제어된 폴더 액세스 사용자 지정](customize-controlled-folders.md)
 
 #### [장치 제어]()
-##### [장치 제어 보고서](device-control-report.md)
-##### [USB 장치 제어](control-usb-devices-using-intune.md)
+##### [USB 장치 및 기타 이동식 미디어 제어](control-usb-devices-using-intune.md)
 ##### [이동식 저장소 보호](device-control-removable-storage-protection.md)
 ##### [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)
 ##### [장치 제어 프린터 보호](printer-protection.md)
+##### [장치 제어 보고서](device-control-report.md)
 
 #### [동작 차단 및 제약]()
 ##### [동작 차단 및 제약](behavioral-blocking-containment.md)
