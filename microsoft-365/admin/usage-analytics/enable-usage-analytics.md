@@ -16,22 +16,23 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 테넌트에 대한 데이터 수집을 시작하는 방법을 Power BI.
-ms.openlocfilehash: b8101733b125c869d55c0e9cc00f1ec598bed08f
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 4d569c40283eb7f88c734de91821e1fe7a7793ab
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347231"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394639"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
-Microsoft 365 미국 Government 2013에서는 아직 Microsoft 365 수 Community.
+Microsoft 365 US 정부 커뮤니티 클라우드(GCC) 테넌트에서 Microsoft 365 Microsoft 365 사용 현황 분석을 사용하도록 설정하려면 커넥트 to [Microsoft 365 정부 커뮤니티 클라우드(GCC) 데이터를 참조하세요.](connect-to-gcc-data-with-usage-analytics.md)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 

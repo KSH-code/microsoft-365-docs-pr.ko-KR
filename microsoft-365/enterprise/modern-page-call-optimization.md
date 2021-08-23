@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: SharePoint online 서비스 끝점 호출 횟수를 제한 하여 SharePoint Online에서 최신 및 클래식 게시 사이트 페이지를 최적화하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 83a9fdaef8b5441955be7e7ebc8fc8553030892eebb7ddd8e518750e9cd26c0a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f06ec4027737f03d44c6a95a7faa74ff48d94548
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53858539"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394675"
 ---
 # <a name="optimize-page-calls-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>SharePoint Online 최신 및 클래식 게시 사이트 페이지에서 페이지 호출 최적화
 
@@ -58,7 +58,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 ## <a name="remediate-performance-issues-related-to-too-many-calls-on-a-page"></a>페이지에서 너무 많은 호출과 관련된 성능 문제 해결
 
-페이지에 너무 많은 호출이 포함되어 있는 경우 **Sharepoint에 대한 요청** 결과에 있는 URL 목록을 사용하여 반복적으로 되는 호출, 일괄 처리 해야 하는 호출 또는 캐시되어야 하는 데이터를 반환 하는 호출이 있는지 여부를 확인할 수 있습니다.
+페이지에 너무 많은 통화가 포함되어 있는 경우 **Requests의** URL 목록을 사용하여 SharePoint 호출, 일괄 처리해야 하는 통화 또는 캐시해야 하는 데이터를 반환하는 호출이 반복적인지 여부를 확인할 수 있습니다.
 
 **휴지 (REST) 호출을 일괄 처리** 하면 성능이 저하되는 것을 방지할 수 있습니다. API 호출 일괄 처리에 대한 자세한 내용은 [REST API를 사용하여 일괄 요청 만들기](/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis)를 참조하세요.
 

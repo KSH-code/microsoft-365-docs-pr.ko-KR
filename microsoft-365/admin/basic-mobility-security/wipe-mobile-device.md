@@ -15,15 +15,16 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- admindeeplinkMAC
 search.appverid:
 - MET150
 description: 기본 제공 기본 이동성 및 보안을 사용하여 등록된 장치에서 정보를 제거합니다.
-ms.openlocfilehash: e8e5f9327a2145bcaaa5415e4d269de5ae351d2500838f5b2c972418041c218a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d9c31a037dfce1ad2a13cce8b384ebdbcc5164b9
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826585"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394315"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 모바일 장치 지우기
 

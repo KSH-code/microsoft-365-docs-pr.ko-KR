@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ca52f60d6bece71ca778c067fb96241b82c9093
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: dfacd679a48c81b7a952638f2944d0fe6a8d9123
+ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58246379"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58408097"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -145,7 +145,7 @@ Microsoft 365에서 감사 로그를 검색하는 과정은 다음과 같습니�
 1. <https://compliance.microsoft.com>으로 이동하여 로그인합니다.
 
     > [!TIP]
-    > 비공개 브라우징 세션(일반 세션이 아님)을 사용하여 Microsoft 365 규정 준수 센터에 액세스하면 현재 로그온한 자격 증명을 사용할 수 없으므로 비공개 브라우징 세션을 사용하세요. Internet Explorer 또는 Microsoft Edge에서 InPrivate 브라우징 세션을 열려면 CTRL+SHIFT+P를 누릅니다. Google Chrome에서 비공개 브라우징 세션을 열려면(incognito 창이라고 함) CTRL+SHIFT+N을 누릅니다.
+    > 비공개 브라우징 세션(일반 세션이 아님)을 사용하여 Microsoft 365 규정 준수 센터에 액세스하면 현재 로그온한 자격 증명이 사용되지 않으므로 비공개 브라우징 세션을 사용하세요. Internet Explorer 또는 Microsoft Edge에서 InPrivate 브라우징 세션을 열려면 Ctrl+Shift+P를 누르면 됩니다. Google Chrome에서 비공개 브라우징 세션(시크릿 모드 창이라고 함)을 열려면 Ctrl+Shift+N을 누릅니다.
 
 2. Microsoft 365 준수 센터의 왼쪽 창에서 **감사** 를 클릭합니다.
 
@@ -400,7 +400,7 @@ Microsoft 365에서 감사 로그를 검색하는 과정은 다음과 같습니�
 |레코드 상태를 잠김으로 변경함|LockRecord|문서를 레코드로 분류하는 보존 레이블의 레코드 상태가 잠겼습니다. 즉, 문서를 수정하거나 삭제할 수 없습니다. 사이트에 대한 최소한 참가자 권한이 할당된 사용자만 문서의 레코드 상태를 변경할 수 있습니다.|
 |레코드 상태를 잠김 해제로 변경함|UnlockRecord|문서를 레코드로 분류하는 보존 레이블의 레코드 상태의 잠금이 해제되었습니다. 즉, 문서를 수정하거나 삭제할 수 있습니다. 사이트에 대한 최소한 참가자 권한이 할당된 사용자만 문서의 레코드 상태를 변경할 수 있습니다.|
 |파일 체크 인됨|FileCheckedIn|사용자가 문서 라이브러리에서 체크 아웃한 문서를 체크 인합니다.|
-|파일 체크 아웃됨|FileCheckedOut|사용자가 문서 라이브러리에 있는 문서를 체크 아웃합니다. 사용자는 공유된 문서를 체크 아웃한 후 변경할 수 있습니다.|
+|파일 체크 아웃됨|FileCheckedOut|사용자가 문서 라이브러리에 있는 문서를 체크 아웃합니다. 사용자는 자신과 공유된 문서를 체크 아웃한 후 변경할 수 있습니다.|
 |파일 복사됨|FileCopied|사용자가 사이트에서 문서를 복사합니다. 복사한 파일을 사이트의 다른 폴더에 저장할 수 있습니다.|
 |파일 삭제됨|FileDeleted|사용자가 사이트에서 문서를 삭제합니다.|
 |휴지통에서 파일 삭제됨|FileDeletedFirstStageRecycleBin|사용자가 사이트의 휴지통에서 파일을 삭제합니다.|
@@ -415,6 +415,8 @@ Microsoft 365에서 감사 로그를 검색하는 과정은 다음과 같습니�
 |파일 이동됨|FileMoved|사용자가 사이트의 현재 위치에서 새 위치로 문서를 이동합니다.|
 |(없음)|FilePreviewed|사용자가 SharePoint 또는 비즈니스용 OneDrive 사이트에서 파일을 미리 봅니다. 이러한 이벤트는 일반적으로 이미지 갤러리 보기와 같이 단일 활동을 기반으로 대량으로 발생합니다.|
 |수행한 검색 쿼리|SearchQueryPerformed|사용자 또는 시스템 계정이 SharePoint 또는 비즈니스용 OneDrive에서 검색을 수행합니다. 서비스 계정에서 검색 쿼리를 수행하는 몇 가지 일반적인 시나리오에는 사이트 및 OneDrive 계정에 eDiscovery 보존 및 보존 정책을 적용하는 것과 보존 혹은 민감도 레이블이 사이트 콘텐츠에 자동으로 적용되는 경우가 포함됩니다.|
+|파일을 휴지통으로 이동함 | FileRecycled | 사용자가 파일을 SharePoint 휴지통 이동합니다. |
+|폴더를 휴지통으로 이동함 | FolderRecycled | 사용자가 폴더를 SharePoint 휴지통 이동합니다. |
 |파일의 모든 부 버전이 재생됨|FileVersionsAllMinorsRecycled|사용자가 파일의 버전 기록에서 모든 부 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
 |파일의 모든 버전이 재생됨|FileVersionsAllRecycled|사용자가 파일의 버전 기록에서 모든 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
 |파일의 버전이 재생됨|FileVersionRecycled|사용자가 파일의 버전 기록에서 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
@@ -626,7 +628,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
-|액세스한 사서함 항목|MailItemsAccessed|사서함에서 메시지를 읽거나 액세스했습니다. 이 활동에 대한 감사 레코드는 메일 클라이언트(예: Outlook)가 메시지에 대한 바인드 작업을 수행하는 경우 또는 메일 프로토콜(예: Exchange ActiveSync 또는 IMAP)이 메일 폴더의 항목을 동기화하는 경우의 두 가지 방법 중 하나로 트리거됩니다. 이 활동은 Office 365 또는 Microsoft 365 E5 라이선스가 있는 사용자에게만 기록됩니다. 이 활동에 대한 감사 레코드를 분석하면 손상된 전자 메일 계정을 조사할 때 유용합니다. 자세한 내용은 [고급 감사](advanced-audit.md#access-to-crucial-events-for-investigations)의 "조사에 대한 중요 이벤트 액세스" 섹션을 참조하세요. |
+|액세스한 사서함 항목|MailItemsAccessed|사서함에서 메시지를 읽거나 액세스했습니다. 이 활동에 대한 감사 레코드는 메일 클라이언트(예: Outlook)가 메시지에 대한 바인드 작업을 수행하는 경우 또는 메일 프로토콜(예: Exchange ActiveSync 또는 IMAP)이 메일 폴더의 항목을 동기화하는 경우의 두 가지 방법 중 하나로 트리거됩니다. 이 활동은 Office 365 또는 Microsoft 365 E5 라이선스가 있는 사용자에게만 기록됩니다. 이 활동에 대한 감사 레코드를 분석하면 손상된 전자 메일 계정을 조사할 때 유용합니다. 자세한 내용은 [고급 감사](advanced-audit.md#advanced-audit-events)의 "고급 감사 이벤트" 섹션을 참조하세요. |
 |대리인 사서함 사용 권한 추가됨|Add-MailboxPermission|관리자가 다른 사람의 사서함에 사용자(대리인)에 대한 FullAcess 사서함 사용 권한을 부여했습니다. FullAccess 사용 권한이 부여된 대리인은 다른 사람의 사서함을 열고 사서함의 콘텐츠를 읽거나 관리할 수 있습니다.|
 |일정 폴더에 대한 대리인 액세스 권한이 있는 사용자 추가 또는 제거 됨|UpdateCalendarDelegation|사용자가 다른 사용자의 사서함 일정에 대리인으로 추가 또는 제거되었습니다. 일정 위임 기능을 사용하여 같은 조직의 다른 사용자가 사서함 소유자의 일정을 관리할 수 있습니다.|
 |폴더에 사용 권한 추가됨|AddFolderPermissions|폴더 사용 권한이 추가되었습니다. 폴더 사용 권한은 사서함의 폴더와 해당 폴더에 있는 메시지에 액세스할 수 있는 조직의 사용자를 제어합니다.|
@@ -642,7 +644,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |사서함에서 메시지 제거됨|HardDelete|메시지가 복구 가능한 항목 폴더에서 제거되었습니다(사서함에서 영구적으로 삭제됨).|
 |대리인 사서함 사용 권한 제거됨|Remove-MailboxPermission|관리자가 다른 사람의 사서함에서 (대리인에게 부여되었던) FullAccess 사용 권한을 제거했습니다. FullAccess 사용 권한이 제거되면 대리인이 더 이상 다른 사람의 사서함을 열거나 사서함의 콘텐츠에 액세스할 수 없습니다.|
 |폴더에서 사용 권한이 제거됨|RemoveFolderPermissions|폴더 사용 권한이 제거되었습니다. 폴더 사용 권한은 사서함의 폴더와 해당 폴더에 있는 메시지에 액세스할 수 있는 조직의 사용자를 제어합니다.|
-|보낸 메시지|보내기|메시지가 전송되었거나 회신 또는 전달되었습니다. 이 활동은 Office 365 또는 Microsoft 365 E5 라이선스가 있는 사용자에게만 기록됩니다. 자세한 내용은 [고급 감사](advanced-audit.md#access-to-crucial-events-for-investigations)의 "조사에 대한 중요 이벤트 액세스" 섹션을 참조하세요.|
+|보낸 메시지|보내기|메시지가 전송되었거나 회신 또는 전달되었습니다. 이 활동은 Office 365 또는 Microsoft 365 E5 라이선스가 있는 사용자에게만 기록됩니다. 자세한 내용은 [고급 감사](advanced-audit.md#advanced-audit-events)의 "고급 감사 이벤트" 섹션을 참조하세요.|
 |다른 사람 이름으로 보내기 권한을 사용하여 메시지 전송됨|SendAs|메시지가 SendAs 권한을 사용하여 전송되었습니다. 즉 사서함 소유자가 보낸 것처럼 보이도록 하여 다른 사용자가 메시지를 보냈습니다.|
 |대신 보내기 권한을 사용하여 메시지 전송됨|SendOnBehalf|메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보냈습니다. 받는 사람은 메시지를 대신 보낸 사용자와 해당 메시지를 실제로 보낸 사용자를 메시지에서 확인할 수 있습니다.|
 |Outlook 클라이언트로부터 편지함 규칙 업데이트됨|UpdateInboxRules|사서함에 액세스할 수 있는 사서함 소유자 또는 다른 사용자가 Outlook 클라이언트에서 받은 편지함 규칙을 수정했습니다.|
@@ -810,6 +812,9 @@ Shifts 앱 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 �
 
 다음 표에서는 Yammer에서 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. 감사 로그에서 Yammer 관련 활동을 반환하려면 **활동** 목록에서 **모든 활동에 대한 결과 표시** 를 선택해야 합니다. 날짜 범위 상자와 **사용자** 목록을 사용하여 결과를 좁힙니다.
 
+> [!NOTE]
+> 일부 Yammer 감사 활동은 고급 감사에서만 사용할 수 있습니다. 즉, 이러한 활동이 감사 로그에 기록되기 전에 사용자에게 적절한 라이선스가 할당되어야 합니다. 고급 감사에서만 사용할 수 있는 활동에 대한 자세한 내용은 [Microsoft 365의 고급 감사](advanced-audit.md#advanced-audit-events)를 참조하세요. 고급 감사 라이선싱 요구 사항은 [Microsoft 365의 감사 솔루션](auditing-solutions-overview.md#licensing-requirements)을 참조하세요. <br/><br/>다음 표에서 고급 감사 작업은 별표(*)로 강조 표시됩니다.
+
 |이름|작업|설명|
 |:-----|:-----|:-----|
 |데이터 보존 정책이 변경됨|SoftDeleteSettingsUpdated|확인된 관리자가 네트워크 데이터 보존 정책의 설정을 영구 삭제 또는 일시 삭제로 업데이트했습니다. 이 작업은 확인된 관리자만 수행할 수 있습니다.|
@@ -819,16 +824,22 @@ Shifts 앱 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 �
 |보안 구성이 변경됨|NetworkSecurityConfigurationUpdated|확인된 관리자가 Yammer 네트워크의 보안 구성을 업데이트했습니다. 여기에는 암호 만료 정책 및 IP 주소 제한 설정이 포함됩니다. 이 작업은 확인된 관리자만 수행할 수 있습니다.|
 |파일이 생성됨|FileCreated|사용자가 파일을 업로드했습니다.|
 |그룹 생성됨|GroupCreation|사용자가 그룹을 만듭니다.|
+|메시지가 생성됨<sup>*</sup>|MessageCreated|사용자가 메시지를 만듭니다.|
 |그룹 삭제됨|GroupDeletion|Yammer에서 그룹이 삭제되었습니다.|
 |메시지가 삭제됨|MessageDeleted|사용자가 메시지를 삭제했습니다.|
 |다운로드한 파일|FileDownloaded|사용자가 파일을 다운로드했습니다.|
 |데이터를 내보냄|DataExport|확인된 관리자가 Yammer 네트워크 데이터를 내보냈습니다. 이 작업은 확인된 관리자만 수행할 수 있습니다.|
+|커뮤니티에 액세스하지 못함<sup>*</sup>|CommunityAccessFailure|사용자가 커뮤니티에 액세스하지 못했습니다.|
+|파일에 액세스하지 못함<sup>*</sup>|FileAccessFailure|사용자가 파일에 액세스하지 못했습니다.|
+|메시지에 액세스하지 못함<sup>*</sup>|MessageAccessFailure|사용자가 메시지에 액세스하지 못했습니다.|
 |파일이 공유됨|FileShared|사용자가 다른 사용자와 파일을 공유했습니다.|
 |네트워크 사용자가 일시 중단됨|NetworkUserSuspended|네트워크 관리자 또는 확인된 관리자가 Yammer에서 사용자를 일시 중단(비활성화)했습니다.|
 |사용자가 일시 중단됨|UserSuspension|사용자 계정이 일시 중단(비활성화)되었습니다.|
 |파일 설명이 업데이트됨|FileUpdateDescription|사용자가 파일의 설명을 변경했습니다.|
 |파일 이름이 업데이트됨|FileUpdateName|사용자가 파일의 이름을 변경했습니다.|
+|메시지 업데이트됨<sup>*</sup>|MessageUpdated|사용자가 메시지를 업데이트합니다.|
 |파일이 조회됨|FileVisited|사용자가 파일을 조회했습니다.|
+|메시지를 확인함<sup>*</sup>|MessageViewed|사용자가 메시지를 봅니다.|
 ||||
 
 ### <a name="microsoft-power-automate-activities"></a>Microsoft Power Automate 활동
@@ -867,12 +878,12 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="microsoft-forms-activities"></a>Microsoft Forms 활동
 
-다음 표에서는 Microsoft Forms에서 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. Microsoft Forms는 분석 데이터를 수집하는 데 사용되는 양식/퀴즈/설문 조사 도구입니다. 
+이 섹션의 테이블은 감사 로그에 기록된 Microsoft Forms의 사용자 및 관리자 활동입니다. Microsoft Forms는 분석 데이터를 수집하는 데 사용되는 양식/퀴즈/설문 조사 도구입니다. 아래의 설명에서 언급된 것과 같이, 일부 작업은 추가 활동 매개 변수를 포함합니다.
 
-아래의 설명에서 언급된 것과 같이, 일부 작업은 추가 활동 매개 변수를 포함합니다.
+공동 작성자 또는 익명 응답자가 Forms 활동을 수행하는 경우에는 조금 다르게 기록됩니다. 자세한 내용은 [공동 작성자 및 익명 응답자가 수행하는 Forms 활동](#forms-activities-performed-by-coauthors-and-anonymous-responders) 섹션을 참조하세요.
 
 > [!NOTE]
-> 공동 작성자 또는 익명 응답자가 Forms 활동을 수행하는 경우에는 조금 다르게 기록됩니다. 자세한 내용은 [공동 작성자 및 익명 응답자가 수행하는 Forms 활동](#forms-activities-performed-by-coauthors-and-anonymous-responders) 섹션을 참조하세요.
+> 일부 Forms 감사 작업은 고급 감사에서만 사용할 수 있습니다. 즉, 이러한 활동이 감사 로그에 기록되기 전에 사용자에게 적절한 라이선스가 할당되어야 합니다. 고급 감사에서만 사용할 수 있는 활동에 대한 자세한 내용은 [Microsoft 365의 고급 감사](advanced-audit.md#advanced-audit-events)를 참조하세요. 고급 감사 라이선싱 요구 사항은 [Microsoft 365의 감사 솔루션](auditing-solutions-overview.md#licensing-requirements)을 참조하세요. <br/><br/>다음 표에서 고급 감사 작업은 별표(*)로 강조 표시됩니다.
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
@@ -900,21 +911,21 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |양식 피싱 상태가 업데이트됨|UpdatePhishingStatus|이 이벤트는 최종 보안 상태가 변경되었는지에 관계없이 내부 보안 상태에 대한 세부 값이 변경될 때마다 기록됩니다(예: 이제 양식이 닫힘 또는 열림). 즉, 최종 보안 상태의 변경이 없는 중복 이벤트를 볼 수 있습니다. 이 이벤트에 대한 가능한 상태 값은 다음과 같습니다.<br/>- 다운시킴 <br/>- 관리자가 다운시킴 <br/>- 관리자가 차단 해제함 <br/>- 자동 차단됨 <br/>- 자동 차단 해제됨 <br/>- 보고된 고객 <br/>- 보고된 고객 초기화|
 |사용자 피싱 상태 업데이트됨|UpdateUserPhishingStatus|이 이벤트는 사용자 보안 상태의 값이 변경되었을 때마다 기록됩니다. 사용자가 Microsoft Online Safety Team에서 다운시킨 피싱 양식을 만들었을 때 감사 레코드에서 사용자의 상태 값이 **피셔로 확인** 됩니다. 관리자가 사용자의 차단을 해제하는 경우, 사용자의 상태 값은 **정규 사용자로 재설정** 됩니다.|
 |Forms Pro 초대가 보내짐|ProInvitation|사용자가 클릭하여 Pro 평가판을 활성화합니다.|
-|양식 설정을 업데이트함|UpdateFormSetting|양식 소유자는 하나 이상의 양식 설정을 업데이트합니다. <br><br>FormSettingName:string 속성은 업데이트된 중요한 설정의 이름을 나타냅니다. NewFormSettings:string 속성은 업데이트된 설정의 이름과 새 값을 나타냅니다. thankYouMessageContainsLink:boolean 속성은 업데이트된 감사에 URL 링크가 포함되어 있음을 나타냅니다.|
+|양식 설정을 업데이트함<sup>*</sup> |UpdateFormSetting|양식 소유자는 하나 이상의 양식 설정을 업데이트합니다. <br><br>FormSettingName:string 속성은 업데이트된 중요한 설정의 이름을 나타냅니다. NewFormSettings:string 속성은 업데이트된 설정의 이름과 새 값을 나타냅니다. thankYouMessageContainsLink:boolean 속성은 업데이트된 감사에 URL 링크가 포함되어 있음을 나타냅니다.|
 |사용자 설정이 업데이트됨|UpdateUserSetting|양식 소유자가 사용자 설정을 업데이트합니다. <br><br>속성 UserSettingName: 문자열은 설정의 이름과 새 값을 나타냅니다.|
-|양식이 나열됨|ListForms|양식 소유자가 양식 목록을 보고 있습니다. <br><br>속성 ViewType: 문자열은 모든 양식, 나와 공유된 항목, 그룹 양식과 같이 양식 소유자가 보고 있는 보기 형식을 나타냅니다.|
+|양식이 나열됨<sup>*</sup>|ListForms|양식 소유자가 양식 목록을 보고 있습니다. <br><br>속성 ViewType: 문자열은 모든 양식, 나와 공유된 항목, 그룹 양식과 같이 양식 소유자가 보고 있는 보기 형식을 나타냅니다.|
 |응답이 제출됨|SubmitResponse|사용자가 양식에 응답을 제출합니다. <br><br>속성 IsInternalForm: 부울은 응답자가 양식 소유자와 동일한 조직 내에 있는지를 나타냅니다.|
-|누구나 응답할 수 있게 설정|AllowAnonymousResponse|양식 소유자가 해당 설정을 켜면 양식에 누구나 응답할 수 있게 됩니다.|
-|아무나 응답할 수 없게 설정|DisallowAnonymousResponse|양식 소유자가 해당 설정을 끄면 양식에 누구나 응답할 수 있게 됩니다.|
-|특정 사용자가 응답할 수 있게 설정|EnableSpecificResponse|양식 소유자가 해당 설정을 켜면 현재 조직의 특정 사용자 또는 특정 그룹만 양식에 응답할 수 있게 됩니다.|
-|특정 사용자가 응답할 수 없게 설정|DisableSpecificResponse|양식 소유자가 해당 설정을 끄면 현재 조직의 특정 사용자 또는 특정 그룹만 양식에 응답할 수 있게 됩니다.|
-|특정 응답자 추가됨|AddSpecificResponder|양식 소유자가 특정 응답자 목록에 새로운 사용자 또는 그룹을 추가합니다.|
-|특정 응답자 제거됨|RemoveSpecificResponder|양식 소유자가 특정 응답자 목록에서 사용자 또는 그룹을 제거합니다.|
-|공동 작업 사용 안 함|DisableCollaboration|양식 소유자가 양식에서 공동 작업 설정을 해제합니다.|
-|Office 365 회사 또는 학교 계정 공동 작업 사용|EnableWorkOrSchoolCollaboration|양식 소유자가 해당 설정을 켜면 Office 365 회사 또는 학교 계정이 있는 사용자가 양식을 보고 편집할 수 있게 됩니다.|
-|조직 사용자 공동 작업 사용|EnableSameOrgCollaboration|양식 소유자가 해당 설정을 켜면 현재 조직 내 사용자가 양식을 보고 편집할 수 있게 됩니다.|
-|특정 사용자 공동 작업 활성화|EnableSpecificCollaboaration|양식 소유자가 해당 설정을 켜면 현재 조직의 특정 사용자 또는 특정 그룹만 양식을 보고 편집할 수 있게 됩니다.|
-|Excel 통합 문서에 연결됨|ConnectToExcelWorkbook|양식을 Excel 통합 문서에 연결했습니다. <br><br>ExcelWorkbookLink:string 속성은 현재 양식과 관련된 Excel 통합 문서 ID를 나타냅니다.|
+|누구나 응답할 수 있게 설정<sup>*</sup>|AllowAnonymousResponse|양식 소유자가 해당 설정을 켜면 양식에 누구나 응답할 수 있게 됩니다.|
+|아무나 응답할 수 없게 설정<sup>*</sup>|DisallowAnonymousResponse|양식 소유자가 해당 설정을 끄면 양식에 누구나 응답할 수 있게 됩니다.|
+|특정 사용자가 응답할 수 있게 설정<sup>*</sup>|EnableSpecificResponse|양식 소유자가 해당 설정을 켜면 현재 조직의 특정 사용자 또는 특정 그룹만 양식에 응답할 수 있게 됩니다.|
+|특정 사용자가 응답할 수 없게 설정<sup>*</sup>|DisableSpecificResponse|양식 소유자가 해당 설정을 끄면 현재 조직의 특정 사용자 또는 특정 그룹만 양식에 응답할 수 있게 됩니다.|
+|특정 응답자 추가됨<sup>*</sup>|AddSpecificResponder|양식 소유자가 특정 응답자 목록에 새로운 사용자 또는 그룹을 추가합니다.|
+|특정 응답자 제거됨<sup>*</sup>|RemoveSpecificResponder|양식 소유자가 특정 응답자 목록에서 사용자 또는 그룹을 제거합니다.|
+|공동 작업 사용 안 함<sup>*</sup>|DisableCollaboration|양식 소유자가 양식에서 공동 작업 설정을 해제합니다.|
+|Office 365 회사 또는 학교 계정 공동 작업 사용<sup>*</sup>|EnableWorkOrSchoolCollaboration|양식 소유자가 해당 설정을 켜면 Office 365 회사 또는 학교 계정이 있는 사용자가 양식을 보고 편집할 수 있게 됩니다.|
+|조직 사용자 공동 작업 사용<sup>*</sup>|EnableSameOrgCollaboration|양식 소유자가 해당 설정을 켜면 현재 조직 내 사용자가 양식을 보고 편집할 수 있게 됩니다.|
+|특정 사용자 공동 작업 활성화<sup>*</sup>|EnableSpecificCollaboaration|양식 소유자가 해당 설정을 켜면 현재 조직의 특정 사용자 또는 특정 그룹만 양식을 보고 편집할 수 있게 됩니다.|
+|Excel 통합 문서에 연결됨<sup>*</sup>|ConnectToExcelWorkbook|양식을 Excel 통합 문서에 연결했습니다. <br><br>ExcelWorkbookLink:string 속성은 현재 양식과 관련된 Excel 통합 문서 ID를 나타냅니다.|
 ||||
 
 #### <a name="forms-activities-performed-by-coauthors-and-anonymous-responders"></a>공동 작성자 및 익명 응답자가 수행하는 Forms 활동

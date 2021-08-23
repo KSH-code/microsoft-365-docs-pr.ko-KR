@@ -19,12 +19,12 @@ description: 관리자는 전자 메일 포털에서 사용할 수 있는 전자
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 83371fd6db32661ca73fd6c7cb741a9b42533df9
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 78764102c873c784d03fdb7df4c1e27c5c9227ad
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258610"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394919"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기
 
@@ -716,7 +716,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 콘텐츠 **맬웨어로 \> 데이터** 보기 보기에서 조직의 Microsoft Defender에 대한 차트에 다음 Office 365 표시됩니다.
 
-- **맬웨어** 방지 엔진 : Sharepoint, OneDrive 및 에서 Microsoft Teams 기본 제공 바이러스 검색에 의해 검색된 악성 [Microsoft 365.](virus-detection-in-spo.md)
+- **맬웨어** 방지 엔진 : 에서 기본 제공 바이러스 SharePoint, OneDrive 및 Microsoft Teams 검색된 악성 [Microsoft 365.](virus-detection-in-spo.md)
 - **파일 검색:** 금고, 파일 및 금고 첨부 파일에서 검색된 악성 [SharePoint,](mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.
 
 차트 아래의 세부 정보 표에서 다음 정보를 사용할 수 있습니다.
@@ -915,7 +915,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **조직 관리**
 - **보안 관리자**
 - **보안 읽기 권한자**
-- **전역 읽기 권한자**
+- **전역 읽기**
 
 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 

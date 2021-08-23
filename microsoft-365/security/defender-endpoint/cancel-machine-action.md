@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0e6e29067d2bb1223809096483b096acebf6d2be95dd42ec811e765d0cb9b6d7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 33828866b32c14b4922e936fbd279c3f7bc3b536
+ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894662"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58408085"
 ---
 # <a name="cancel-machine-action-api"></a>컴퓨터 작업 취소 API
 
@@ -57,8 +57,8 @@ ms.locfileid: "53894662"
 
 |사용 권한 유형|사용 권한|사용 권한 표시 이름|
 |---|---|---|
-|응용 프로그램|Machine.CollectForensic <br> Machine.Isolate <br> Machine.RestrictExecution <br> Machine.Scan <br> Machine.Offboard <br> Machine.StopAndQuarantine <br> Machine.LiveResponse|포렌식 수집 <br>컴퓨터 격리<br>코드 실행 제한<br>  컴퓨터 검사<br>  컴퓨터 오프보딩<br> 중지 및 Quarantine<br> 특정 컴퓨터의 실시간 응답 실행|
-|위임(직장 또는 학교 계정)|Machine.CollectForensic<br> Machine.Isolate  <br>Machine.RestrictExecution<br> Machine.Scan<br> Machine.Offboard<br> Machine.StopAndQuarantineMachine.LiveResponse|포렌식 수집<br> 컴퓨터 격리<br>  코드 실행 제한<br> 컴퓨터 검사<br>컴퓨터 오프보딩<br> 중지 및 Quarantine<br> 특정 컴퓨터의 실시간 응답 실행|
+|응용 프로그램|Machine.CollectForensics <br> Machine.Isolate <br> Machine.RestrictExecution <br> Machine.Scan <br> Machine.Offboard <br> Machine.StopAndQuarantine <br> Machine.LiveResponse|포렌식 수집 <br>컴퓨터 격리<br>코드 실행 제한<br>  컴퓨터 검사<br>  컴퓨터 오프보딩<br> 중지 및 Quarantine<br> 특정 컴퓨터의 실시간 응답 실행|
+|위임(직장 또는 학교 계정)|Machine.CollectForensics<br> Machine.Isolate  <br>Machine.RestrictExecution<br> Machine.Scan<br> Machine.Offboard<br> Machine.StopAndQuarantineMachine.LiveResponse|포렌식 수집<br> 컴퓨터 격리<br>  코드 실행 제한<br> 컴퓨터 검사<br>컴퓨터 오프보딩<br> 중지 및 Quarantine<br> 특정 컴퓨터의 실시간 응답 실행|
 
 
 ## <a name="http-request"></a>HTTP 요청

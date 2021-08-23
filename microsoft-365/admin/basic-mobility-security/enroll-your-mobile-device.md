@@ -15,15 +15,16 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- admindeeplinkMAC
 search.appverid:
 - MET150
 description: 장치와 함께 Microsoft 365 서비스를 사용하려면 먼저 기본 모바일 및 보안에서 서비스를 등록해야 Microsoft 365.
-ms.openlocfilehash: 3bc3980b0716276acaaef172c04b6e742b4f8f7f
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: abe1a7f82ac1435894073b99a23dd07c9e420499
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346943"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394339"
 ---
 # <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>기본 모바일 및 보안을 사용하여 모바일 장치 등록
 

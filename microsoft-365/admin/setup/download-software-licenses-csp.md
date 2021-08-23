@@ -17,14 +17,15 @@ search.appverid: MET150
 ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
+- admindeeplinkMAC
 description: CSP(소프트웨어 라이선스) 프로그램을 통해 구입한 정품 소프트웨어에 대한 소프트웨어 및 클라우드 솔루션 공급자 다운로드하는 방법을 배워야 합니다.
 ms.date: 01/27/2021
-ms.openlocfilehash: 7ab5cfef9ae5e17ae2ab34fff05ed482e9dd7a859f9ab72132e9bfc6264bea59
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5dd2e17685746859768a14d61537871a75fe6698
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821990"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394687"
 ---
 # <a name="download-perpetual-software-and-product-license-keys"></a>정품 소프트웨어 및 제품 라이선스 키 다운로드
 

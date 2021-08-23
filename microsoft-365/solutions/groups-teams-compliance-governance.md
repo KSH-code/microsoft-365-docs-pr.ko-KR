@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 사용자 그룹, Microsoft 365 및 Teams 준수 옵션에 대해 SharePoint 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9ffd08d217d7b79db69778021e0629ae7929edb61b2342317c105d60aee181cb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 93bf2830d29f21f2239a17b9c2e381c46e85eea1
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53896958"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394615"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365, Teams 및 SharePoint 준수 옵션
 
@@ -102,7 +102,7 @@ DLP는 Teams 포함된 메시지를 삭제하여 Teams 및 채널 메시지의 �
 
 - [데이터 손실 방지 및 Microsoft Teams](../compliance/dlp-microsoft-teams.md)
 
-프로젝트 코드 이름과 같이 조직에 고유한 중요한 정보가 있는 경우 고유한 중요한 정보 유형을 만들어 DLP 정책에 적용하여 그룹, 팀 및 Sharepoint의 콘텐츠를 보호할 수 있습니다.
+프로젝트 코드 이름과 같이 조직에 고유한 중요한 정보가 있는 경우 고유한 중요한 정보 유형을 만들어 DLP 정책에 적용하여 그룹, 팀 및 조직의 콘텐츠를 보호할 SharePoint.
 
 - [사용자 지정 중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)
 

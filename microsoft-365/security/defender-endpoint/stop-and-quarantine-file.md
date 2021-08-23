@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: d9ae988df82a2cc1cf5106f832ae22f0c5a95dbdfbf28e6dc773cea3e8208798
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d4ed33a26bcc7583146d810db7625ed3164d7544
+ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873826"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58408081"
 ---
 # <a name="stop-and-quarantine-file-api"></a>파일 API 중지 및 검사
 
@@ -60,6 +60,8 @@ ms.locfileid: "53873826"
 사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
 응용 프로그램|Machine.StopAndQuarantine|'중지 및 Quarantine'
+응용 프로그램|Machine.Read.All|'모든 컴퓨터 프로필 읽기'
+응용 프로그램|Machine.ReadWrite.All|'모든 컴퓨터 정보 읽기 및 쓰기'
 위임(직장 또는 학교 계정)|Machine.StopAndQuarantine|'중지 및 Quarantine'
 
 > [!NOTE]

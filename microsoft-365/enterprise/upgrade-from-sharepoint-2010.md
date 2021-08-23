@@ -18,14 +18,14 @@ search.appverid:
 ms.assetid: 985a357f-6db7-401f-bf7a-1bafdf1f312c
 f1.keywords:
 - NOCSH
-description: SharePoint 2010 및 Sharepoint Server 2010에서 업그레이드할 정보 및 리소스를 찾아 볼 수 있습니다. 두 가지 모두 지원은 2021년 4월 13일까지입니다.
+description: SharePoint Server 2010에서 업그레이드할 정보 SharePoint 리소스를 찾아야 합니다. 두 가지 모두 지원은 2021년 4월 13일까지입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 67b8174aa23027b64132cc4676e2e7bfb5675cd1deb4684d18945d58b5cf63ad
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5f0919bd80b68167ccfae38a461c79b704e2b803
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53848157"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394519"
 ---
 # <a name="upgrading-from-sharepoint-2010"></a>SharePoint 2010에서 업그레이드
 
@@ -116,7 +116,7 @@ SharePoint Server 2013 또는 SharePoint Server 2016으로 업그레이드하고
 |Microsoft는 SQL Online이 실행되는 SQL 하드웨어 및 소프트웨어에 패치, 수정 SharePoint 적용합니다.|서비스에서 현재 파일 시스템에 액세스할 수 없는 경우 사용자 지정이 제한됩니다.|
 |Microsoft는 서비스 수준 [계약을 게시하고](/office365/servicedescriptions/office-365-platform-service-description/service-level-agreement) 서비스 수준 인시던트 해결을 위해 신속하게 움직입니다.|백업 및 복원 및 기타 복구 옵션은 온라인에서 서비스에서 SharePoint 있습니다. 사용되지 않는 경우 백업을 덮어 쓰게 됩니다.|
 |보안 테스트 및 서버 성능 조정은 Microsoft에서 서비스에서 지속적으로 수행됩니다.|사용자 인터페이스 및 기타 SharePoint 기능에 대한 변경 내용은 서비스에 의해 설치되어 설정 또는 해제해야 할 수 있습니다.|
-|Microsoft 365 Microsoft 규정 준수 제품인 다양한 산업 [표준을 충족합니다.](/compliance/regulatory/offering-home)|[마이그레이션에 대한 FastTrack](https://go.microsoft.com/fwlink/?linkid=518597) 지원은 제한됩니다.  <br/> 업그레이드의 상당수는 수동 또는 SharePoint Online 및 OneDrive 콘텐츠 로드맵에 설명된 SPO 마이그레이션 API를 통해 [수행됩니다.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)|
+|Microsoft 365 Microsoft 규정 준수 제품인 다양한 산업 [표준을 충족합니다.](/compliance/regulatory/offering-home)|[FastTrack](https://go.microsoft.com/fwlink/?linkid=518597) 지원이 제한됩니다.  <br/> 업그레이드의 상당수는 수동 또는 SharePoint Online 및 OneDrive 콘텐츠 로드맵에 설명된 SPO 마이그레이션 API를 통해 [수행됩니다.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)|
 |Microsoft 지원 엔지니어 및 데이터 센터 직원은 구독에 대한 무제한 관리자 액세스 권한이 없습니다.|최신 버전의 하드웨어 인프라를 지원하기 위해 하드웨어 인프라를 업그레이드해야 하는 경우 또는 SharePoint 팜이 업그레이드에 필요한 경우 추가 비용이 있을 수 있습니다.|
 |솔루션 공급자는 데이터를 온라인으로 마이그레이션하는 일회성 작업과 SharePoint 있습니다.|Online에 대한 SharePoint 모든 변경 내용이 컨트롤 내에 있는 것은 아니며, 마이그레이션 후 메뉴, 라이브러리 및 기타 기능의 디자인 차이로 일시적으로 사용 가능성에 영향을 줄 수 있습니다.|
 |온라인 제품은 서비스 전체에서 자동으로 업데이트됩니다. 기능은 더 이상 사용하지 않을 수 있지만 지원 수명 주기가 실제 종료된 기능은 없습니다.|SharePoint Server 또는 SharePoint Foundation 및 기본 SQL 수명 주기가 있습니다.|
@@ -183,7 +183,7 @@ SharePoint Server 2013 또는 SharePoint Server 2016으로 업그레이드하고
 
 |옵션|설명|
 |---|---|
-|[Microsoft 규정 준수 제품.](/compliance/regulatory/offering-home)|[마이그레이션에 대한 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 지원은 제한됩니다.<br/><br/> 업그레이드의 상당수는 수동 또는 SharePoint Online 및 OneDrive 콘텐츠 로드맵에 설명된 SPO 마이그레이션 API를 통해 [수행됩니다.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)|
+|[Microsoft 규정 준수 제품.](/compliance/regulatory/offering-home)|[FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 지원이 제한됩니다.<br/><br/> 업그레이드의 상당수는 수동 또는 SharePoint Online 및 OneDrive 콘텐츠 로드맵에 설명된 SPO 마이그레이션 API를 통해 [수행됩니다.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)|
 |Microsoft 지원 엔지니어 및 데이터 센터 직원은 구독에 대한 무제한 관리자 액세스 권한이 없습니다.|최신 버전의 하드웨어 인프라를 지원하기 위해 하드웨어 인프라를 업그레이드해야 하는 경우 또는 보조 SharePoint 필요한 경우 추가 비용이 있을 수 있습니다.|
 |파트너는 데이터를 온라인으로 마이그레이션하는 일회성 작업을 지원할 SharePoint 있습니다.||
 |온라인 제품은 서비스 전체에서 자동으로 업데이트됩니다. 기능은 더 이상 사용이 불가능할 수 있지만 지원이 종료된 사실은 없습니다.||

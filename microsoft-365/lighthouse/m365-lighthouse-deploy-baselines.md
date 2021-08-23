@@ -16,19 +16,19 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스를 사용하는 MSP(관리 서비스 공급자)의 Microsoft 365 Lighthouse 기준을 배포하는 Microsoft 365 Lighthouse 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 70dae3e86cd5f559d0afd65406cf72835af81ebb6bd209fb1d68038b9c1be5e0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 85e9c9031575aae3aec43b4200caf2338422f563
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800804"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365216"
 ---
 # <a name="deploy-microsoft-365-lighthouse-baselines"></a>기본 Microsoft 365 Lighthouse 배포 
 
 > [!NOTE]
 > 이 문서에 설명된 기능은 미리 보기에 있으며, 변경될 수 있으며, 요구 사항을 충족하는 파트너만 사용할 수 [있습니다.](m365-lighthouse-requirements.md) 조직에 등록이 Microsoft 365 Lighthouse 에 [등록을 Microsoft 365 Lighthouse.](m365-lighthouse-sign-up.md)
 
-Microsoft 365 Lighthouse 기준을 사용하면 표준 관리되는 테넌트 구성을 배포하여 테넌트 사용자, 장치 및 데이터를 보호할 수 있습니다. 기본 기본 구성은 다음 6개 기본 Microsoft 365 Lighthouse.
+Microsoft 365 Lighthouse 기준을 통해 표준 관리되는 테넌트 구성을 배포하여 고객 테넌트 내의 사용자, 장치 및 데이터를 보호할 수 있습니다. 기본 기본 구성은 다음 6개 기본 Microsoft 365 Lighthouse.
 
 - 관리자에게 MFA 필요
 - 최종 사용자에 대해 MFA 필요

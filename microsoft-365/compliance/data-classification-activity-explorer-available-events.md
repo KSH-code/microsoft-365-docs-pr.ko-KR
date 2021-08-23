@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기에서 사용할 수 있는 레이블 지정 활동 목록입니다.
-ms.openlocfilehash: 5816bb897705e25ebf85b7f97df786cf2331bfb2
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 163231d4d1e7c6a2d1b75c0f81a17443cfafe246
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255683"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394567"
 ---
 # <a name="labeling-activities-that-are-available-in-activity-explorer"></a>활동 탐색기에서 사용할 수 있는 레이블 지정 활동
 
@@ -286,6 +286,6 @@ ms.locfileid: "58255683"
   
 - 최종 사용자에게 권장 레이블 도구 팁이 표시되어 있는 경우 캡처되지 않습니다. 그러나 사용자가 권장 레이블을 적용하도록 선택한 경우 레이블은  적용 방법 필드에 *권장으로 표시됩니다.*  
 
-- 현재 Sharepoint 및 2013에서 민감도 레이블 다운그레이드에 사유 텍스트를 사용할 수 OneDrive.  
+- 사유 텍스트는 현재 민감도 레이블 다운그레이드에서 사용할 수 SharePoint OneDrive.  
 
 - 중요한 정보 유형은 현재 Word, Excel, PowerPoint, Outlook, SharePoint Online 및 OneDrive.

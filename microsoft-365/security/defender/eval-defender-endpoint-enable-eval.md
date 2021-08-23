@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 88506e546cc359a3cdf042c8661fcc54b217d6d4
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: af66b41af4d4d427988bf46d266329777d3a908c
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255452"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394699"
 ---
 # <a name="enable-microsoft-defender-for-endpoint-evaluation-environment"></a>끝점 평가 환경에 Microsoft Defender 사용
 
@@ -64,7 +64,9 @@ ms.locfileid: "58255452"
 
 라이선스 상태가 올바르게 프로비전되었는지 확인한 후 장치에 서비스 등록을 시작할 수 있습니다. 
 
-끝점용 Microsoft Defender를 평가하기 위해 평가를 수행하기 위해 몇 Windows 10 장치를 선택하는 것이 좋습니다. 
+끝점용 Microsoft Defender를 평가하기 위해 평가를 수행하기 위해 몇 Windows 10 장치를 선택하는 것이 좋습니다.
+
+지원되는 관리 도구를 사용할 수 있지만 Intune은 최적의 통합을 제공합니다. 자세한 내용은 [Configure Microsoft Defender for Endpoint in Microsoft Intune](/mem/intune/protect/advanced-threat-protection-configure.md#enable-microsoft-defender-for-endpoint-in-intune)
 
 배포 [계획 항목에서는](../defender-endpoint/deployment-strategy.md) 끝점용 Defender를 배포하는 데 필요한 일반적인 단계를 간략하게 설명합니다.  
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 봅니다.
-ms.openlocfilehash: b711610461ec02a4e3174557f77fc0d553afd124ae13a96d858a2ae353e4a554
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9e67f5115e715f804cf91d95c24760a25fdf869c
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887003"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394531"
 ---
 # <a name="view-your-apps"></a>앱 보기
 
@@ -74,7 +74,7 @@ Microsoft 앱 거버넌스를 사용하면 사용자의 테넌트의 Microsoft 3
 | 탭 이름 | 설명 |
 |:-------|:-----|
 | 세부 정보 | 앱에서 처음 동의한 날짜 및 앱 ID와 같은 추가 데이터를 확인합니다. Azure AD에 등록된 앱의 속성을 보려면 **Azure AD의 앱 보기** 를 선택합니다. |
-| 사용 현황 |테넌트의 앱에서 액세스하는 데이터를 확인하고 Sharepoint 및 Exchange 리소스에 대한 데이터 사용량을 표시합니다. |
+| 사용 현황 |테넌트의 앱에서 액세스하는 데이터를 확인하고 SharePoint 및 Exchange 리소스에 대한 데이터 사용량을 표시합니다. |
 | 사용자 | 앱을 사용하는 사용자 목록, 우선 순위 계정 여부와 다운로드 및 업로드된 데이터 양을 확인합니다. |
 | 사용 권한 | 앱에 부여된 사용 권한 및 앱이 사용하는 사용 권한과 특정 사용 권한 목록의 요약을 확인하세요. 자세한 내용은 [Microsoft Graph 사용 권한 참조](/graph/permissions-reference)를 참조하세요. |
 |||

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 및 비즈니스용 Skype 대화와 같은 여러 위치에서 찾은 콘텐츠를 검색하고 내보내는 데 사용할 수 있는 세 가지 eDiscovery 도구가 있습니다. 핵심 eDiscovery 및 Advanced eDiscovery 조사를 관리하는 데 도움이 되는 다양한 추가 기능을 제공합니다.
-ms.openlocfilehash: 54882665b5e1ff7e444bccb6974f19d4b9ced19dd1225392fd0f7106b5cade92
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 50f2048ef3c8c2d0a333eeb93a8eeb79b63db31c
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900195"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394555"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>Microsoft 365
 
@@ -76,7 +76,7 @@ Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDi
 
 다음은 각 eDiscovery 기능에 대한 설명입니다.
 
-- **콘텐츠를 검색합니다.** Exchange 사서함, 비즈니스용 One Drive 계정, SharePoint 사이트, Microsoft Teams, Microsoft 365 그룹에 저장된 콘텐츠를 Yammer Teams. 여기에는 사서함 및 사이트에 데이터를 Microsoft 365 다른 앱에 의해 생성된 콘텐츠가 포함됩니다.
+- **콘텐츠를 검색합니다.** Exchange 사서함, 비즈니스용 OneDrive 계정, SharePoint 사이트, Microsoft Teams, Microsoft 365 그룹에 저장된 콘텐츠를 Yammer Teams. 여기에는 사서함 및 사이트에 데이터를 Microsoft 365 다른 앱에 의해 생성된 콘텐츠가 포함됩니다.
 
 - **키워드 쿼리 및 검색 조건**. KQL 키워드 검색 쿼리를 만들어 쿼리 조건과 일치하는 콘텐츠를 검색합니다. 검색 범위를 좁히는 조건을 포함할 수도 있습니다.
 

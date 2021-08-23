@@ -22,6 +22,7 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - AdminTemplateSet
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
@@ -30,12 +31,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 공유를 위해 OneDrive 및 팀 사이트를 Microsoft 365 방법을 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 33a339c8757e6a6e26625c45e30401ba2870c54118db3f2324e239be58caa8b7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8fac85da0b6416fe846bf5eb35ffb0761b26ad21
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821661"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394735"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>파일 저장소 및 공유를 Microsoft 365
 
@@ -45,7 +46,7 @@ ms.locfileid: "53821661"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="microsoft-365-document-storage-and-management"></a>Microsoft 365 저장 및 관리
 

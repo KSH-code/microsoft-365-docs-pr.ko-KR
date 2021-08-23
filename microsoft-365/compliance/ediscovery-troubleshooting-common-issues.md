@@ -19,12 +19,12 @@ ms.assetid: ''
 description: eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 Office 365 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ec120edcbccc64046b57507cd6cd6044fb583c5129c336e28890b67f369cd46
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7b4c5389ec650be18c9f65e7fc85f4166a8eef14
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820162"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394591"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
@@ -80,7 +80,7 @@ eDiscovery 또는 콘텐츠 검색을 통해 다음 오류가 발생할 수 있�
 
 ## <a name="errorissue-file-not-found"></a>오류/문제: 파일을 찾을 수 없습니다.
 
-SharePoint Online 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 실행하는 경우 파일이 사이트에 있는 경우 오류가 발생할 `File Not Found` 수 있습니다. 이 오류는 내보내기 경고에 추가되거나 errors.csv 건너뜁 items.csv. 사이트에서 파일을 찾을 수 없는 경우나 인덱스가 최신이 아니면 이러한 문제가 발생할 수 있습니다. 다음은 실제 오류 텍스트입니다(강조 표시 추가).
+SharePoint Online 및 비즈니스용 OneDrive 포함된 eDiscovery 검색을 실행하는 경우 파일이 사이트에 있는 경우 오류가 발생할 `File Not Found` 수 있습니다. 이 오류는 내보내기 경고에 추가되거나 errors.csv 건너뜁 items.csv. 사이트에서 파일을 찾을 수 없는 경우나 인덱스가 최신이 아니면 이러한 문제가 발생할 수 있습니다. 다음은 실제 오류 텍스트입니다(강조 표시 추가).
 
 > 28.06.2019 10:02:19_FailedToExportItem_Failed 다운로드할 수 있습니다. 추가 진단 정보: Microsoft. Office. Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: Document 형식의 콘텐츠 6ea52149-91cd-4965-b5bb-82ca6a3ec9be에서 다운로드하지 못했습니다. 상관 관계 ID: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 ---> Microsoft. SharePoint. Client.ServerException: ***파일을 찾을 수 없습니다.*** Microsoft. SharePoint. Microsoft의 Client.ClientRequest.ProcessResponseStream(Stream responseStream) SharePoint. Client.ClientRequest.ProcessResponse() --- 내부 예외 스택 추적 종료 ---
 
@@ -92,7 +92,7 @@ SharePoint Online 및 비즈니스용 OneDiscovery 위치를 포함하는 eDisco
 
 ## <a name="errorissue-this-file-wasnt-exported-because-it-doesnt-exist-anymore-the-file-was-included-in-the-count-of-estimated-search-results-because-its-still-listed-in-the-index-the-file-will-eventually-be-removed-from-the-index-and-wont-cause-an-error-in-the-future"></a>오류/문제: 더 이상 존재하지 않는 이 파일을 내보낼 수 없습니다. 파일은 인덱스에 계속 나열되어 있기 때문에 예상 검색 결과 수에 포함되어 있습니다. 결국 파일은 인덱스에서 제거되고 나중에 오류가 발생하지 않습니다.
 
-온라인 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 SharePoint 오류가 표시될 수 있습니다. eDiscovery는 SPO 인덱스를 사용하여 파일 위치를 식별합니다. 파일을 삭제했지만 SPO 인덱스가 아직 업데이트되지 않은 경우 이 오류가 발생할 수 있습니다.
+온라인 및 검색 위치가 포함된 eDiscovery 검색을 실행하면 SharePoint 수 비즈니스용 OneDrive 있습니다. eDiscovery는 SPO 인덱스를 사용하여 파일 위치를 식별합니다. 파일을 삭제했지만 SPO 인덱스가 아직 업데이트되지 않은 경우 이 오류가 발생할 수 있습니다.
 
 ### <a name="resolution"></a>해결 방법 
 SPO 위치를 열고 이 파일이 실제로 해당 위치에 없는지 확인해야 합니다.
@@ -101,8 +101,7 @@ SPO 위치를 열고 이 파일이 실제로 해당 위치에 없는지 확인�
 
 ## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artifact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>오류/문제: 폴더 또는 자체적으로 다운로드할 수 없는 다른 아티팩트이기 때문에 이 검색 결과가 다운로드되지 않은 경우 폴더 또는 라이브러리의 항목이 다운로드됩니다.
 
-온라인 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 SharePoint 오류가 표시될 수 있습니다. 즉, 인덱스에 보고된 항목을 시도하고 내보내려고 했지만 내보낼 수 없는 폴더로 표시되었습니다. 오류에서 설명한 것 처럼 폴더 항목을 내보낼 수 없지만 해당 콘텐츠를 내보낼 수 있습니다.
-
+온라인 및 검색 위치가 포함된 eDiscovery 검색을 실행하면 SharePoint 수 비즈니스용 OneDrive 있습니다. 즉, 인덱스에 보고된 항목을 시도하고 내보내려고 했지만 내보낼 수 없는 폴더로 표시되었습니다. 오류에서 설명한 것 처럼 폴더 항목을 내보낼 수 없지만 해당 콘텐츠를 내보낼 수 있습니다.
 
 ## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>오류/문제: 받는 사람을 찾을 수 없는 경우 검색이 실패합니다.
 
@@ -152,7 +151,7 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 이
 
 ### <a name="resolution"></a>해결 방법
 
-1. 필요한 경우 검색을 다시합니다. 검색이 7일 이상 지난 경우 검색을 다시 시작해야 합니다.
+1. 필요한 경우 검색을 다시합니다. 검색이 7일을 넘게 지난 경우 검색을 다시 시작해야 합니다.
 
 2. 내보내기 작업을 다시 시작합니다.
 
@@ -247,3 +246,32 @@ eDiscovery 내보내기 도구를 사용하여 검색 결과를 다운로드할 
 6. 이전 단계가 작동하지 않는 경우 압축 및 중복 제거를 사용하지 않도록 설정하십시오.
 
 7. 이 문제가 작동하는 경우 로컬 바이러스 스캐너 또는 디스크 문제 때문인 것입니다.
+
+## <a name="error-your-request-cant-be-started-because-the-maximum-number-of-jobs-for-your-organization-are-currently-running"></a>오류: "조직의 최대 작업 수가 현재 실행 중이기 때문에 요청을 시작할 수 없습니다."
+
+조직이 최대 동시 내보내기 작업 수 제한에 도달했습니다. 모든 새 내보내기 작업이 스로틀됩니다.
+
+### <a name="resolution"></a>해결 방법
+
+다음 스크립트를 실행하여 지난 7일 동안 시작된 내보내기 작업이 아직 실행되고 있는 수를 검색합니다.
+
+1. 커넥트 보안 및 [& 센터 PowerShell에 대한 정보를 제공합니다.](/powershell/exchange/connect-to-scc-powershell)
+
+2. 다음 스크립트를 실행하여 현재 내보내기 작업에서 스로틀을 트리거하는 정보를 수집합니다.
+
+   ```powershell
+   $date = Get-Date;
+   $exports = Get-ComplianceSearchAction -Export -ResultSize Unlimited;
+   $inprogressExports = $exports | ?{$_.Results -eq $null -or (!$_.Results.Contains("Export status: Completed") -and !$_.Results.Contains("Export status: none"))};
+   $exportJobsRunning = $inprogressExports | ?{$_.JobStartTime -ge $date.AddDays(-7)} | Sort-Object JobStartTime -Descending;
+   ```
+
+3. 다음 명령을 실행하여 현재 실행 중인 내보내기 작업 목록을 표시합니다.
+
+   ```powershell
+   $exportJobsRunning | Format-Table Name, JobStartTime, JobEndTime, Status | More;
+   ```
+
+   이전 명령이 10개 이상의 내보내기 작업을 반환하면 조직에서 동시 내보내기 작업 수 제한에 도달한 것입니다. 자세한 내용은 [eDiscovery](limits-for-content-search.md)검색 제한을 참조하세요.
+
+4. [Remove-ComplianceSearchAction](/powershell/module/exchange/remove-compliancesearchaction) cmdlet을 사용하여 더 이상 필요 없는 기존 내보내기 작업이 완료될 때까지 기다리거나 제거할 수 있습니다.

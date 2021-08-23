@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
@@ -25,12 +26,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 조직에 대한 다단계 인증을 설정하는 방법에 대해 알아 보십시오.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 08f1d17942b1fb11dd9717e96045fd0b32b2422b
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 39d9eb7aa25ac721fb7c39535404790e2af214e6
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346067"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394651"
 ---
 # <a name="set-up-multifactor-authentication"></a>다단계 인증 설정
 
@@ -45,6 +46,14 @@ ms.locfileid: "58346067"
 - 레거시 사용자별 MFA가 켜진 경우, [레거시 사용자별 MFA를 해제합니다](#turn-off-legacy-per-user-mfa).
 - Windows 장치에 Office 2013 클라이언트가 있는 경우, [Office 2013 클라이언트에 대한 최신 인증을 설정하세요](./enable-modern-authentication.md).
 - 고급: AD FS(Active Directory Federation Services)를 사용하는 타사 디렉터리 서비스가 있는 경우 Azure MFA 서버를 설정하세요. 자세한 내용은 [Azure 다단계 인증 및 타사 VPN 솔루션을 사용한 고급 시나리오](/azure/active-directory/authentication/howto-mfaserver-nps-vpn)를 참조하세요.
+
+### <a name="turn-off-legacy-per-user-mfa"></a>레거시 사용자별 MFA 해제
+
+이전에 사용자별 MFA를 설정한 경우, 보안 기본값을 사용하기 전에 먼저 이 기능을 해제해야 합니다.
+
+1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **사용자** \> **활성 사용자** 를 선택합니다.
+1. **활성 사용자** 페이지에서 **다단계 인증** 을 선택합니다.
+1. 다단계 인증 페이지에서 각 사용자를 선택하고 다단계 인증 상태를 **사용 안 함** 으로 설정합니다.
 
 ## <a name="turn-security-defaults-on-or-off"></a>보안 기본값 설정 또는 해제하기
 
@@ -89,6 +98,7 @@ Azure AD P1 및 P2에 대한 자세한 내용은 [Azure Active Directory 가격]
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>의 왼쪽 탐색 창에서 **설정** \> **조직 설정** 을 선택합니다.
 2. **서비스** 탭에서 **최신 인증** 을 선택하고, **최신 인증** 창에서 **최신 인증 사용** 이 선택되어 있는지 확인합니다. **변경 내용 저장** 을 선택합니다.
 
+
 ### <a name="turn-off-legacy-per-user-mfa"></a>레거시 사용자별 MFA 해제
 
 이전에 사용자별 MFA를 설정한 경우, 보안 기본값을 사용하기 전에 먼저 이 기능을 해제해야 합니다.
@@ -106,5 +116,8 @@ Azure AD P1 및 P2에 대한 자세한 내용은 [Azure Active Directory 가격]
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[다단계 인증 켜기](../../business-video/turn-on-mfa.md)(비디오)\
+
+[다단계 인증 켜기](../../business-video/turn-on-mfa.md)(비디오)
+
 [휴대폰의 다단계 인증 켜기](../../business-video/set-up-mfa.md)(비디오)
+

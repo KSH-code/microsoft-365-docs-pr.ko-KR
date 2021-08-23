@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: adb92b80-b342-4ecb-99a1-da2a2b4782eb
 description: 이 문서에서는 SharePoint Online에서 게시를 사용하도록 설정한 탐색 옵션 SharePoint 설명합니다.
-ms.openlocfilehash: 4cb0406fc9f4d1496cb28282427c38f83c3ea1eac31aecbf6e33f7247660be2a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 38e72811eca6487a862beb8b1d197186783d3c48
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53905000"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394663"
 ---
 # <a name="navigation-options-for-sharepoint-online"></a>온라인용 탐색 SharePoint 옵션
 
@@ -39,7 +39,7 @@ ms.locfileid: "53905000"
 
 탐색 공급자 구성은 전체 사이트의 성능에 큰 영향을 줄 수 있으며, 사이트 요구 사항에 따라 효과적으로 확장되는 탐색 공급자 및 구성을 선택하려면 SharePoint 주의해야 합니다. 사용자 지정 탐색 구현뿐만 아니라 두 가지 바로 사용 가능한 탐색 공급자가 있습니다.
 
-사이트의 구조적 [](#using-structural-navigation-in-sharepoint-online)탐색 캐싱을 설정하는 경우 첫 번째 옵션인 구조적 탐색 은 SharePoint Online에서 클래식 SharePoint 사이트에 권장되는 탐색 **옵션입니다.** 이 탐색 공급자는 현재 사이트 아래에 탐색 항목을 표시하고 선택적으로 현재 사이트와 해당 형제 항목을 표시합니다. 보안 자르기 및 사이트 구조 열0과 같은 추가 기능을 제공합니다. 캐싱을 사용하지 않도록 설정하면 성능 및 확장성에 부정적인 영향을 미치며, 조정이 적용될 수 있습니다.
+사이트의 구조 [](#using-structural-navigation-in-sharepoint-online)탐색 캐싱을 설정하는 경우 첫 번째 옵션인 구조 탐색 은 클래식 SharePoint 사이트의 경우 SharePoint Online의 권장 탐색 **옵션입니다.** 이 탐색 공급자는 현재 사이트 아래에 탐색 항목을 표시하고 선택적으로 현재 사이트와 해당 형제 항목을 표시합니다. 보안 자르기 및 사이트 구조 열0과 같은 추가 기능을 제공합니다. 캐싱을 사용하지 않도록 설정하면 성능 및 확장성에 부정적인 영향을 미치며, 조정이 적용될 수 있습니다.
 
 두 번째 옵션인 [**관리(메타데이터) 탐색은**](#using-managed-navigation-and-metadata-in-sharepoint-online)관리되는 메타데이터 용어 집합을 사용하는 탐색 항목을 나타내는 데 사용됩니다. 필요한 경우를 위해 보안 트리밍을 사용하지 않도록 설정하는 것이 좋습니다. 보안 트리밍은 이 탐색 공급자에 대한 보안 기본 설정으로 사용됩니다. 그러나 대부분의 사이트에서는 탐색 요소가 사이트의 모든 사용자에게 일관성이 유지되는 경우가 많기 때문에 보안 자르기 오버헤드가 필요하지 않습니다. 보안 조정을 사용하지 않도록 설정하는 권장 구성을 통해 이 탐색 공급자는 사이트 구조를 열000개할 필요가 없습니다. 성능에 대한 영향이 적정 수준으로 확장될 수 있습니다.
 
@@ -101,7 +101,7 @@ SharePoint [페이지](./page-diagnostics-for-spo.md) 진단 도구는 Microsoft
 
 관리 탐색의 세부 docs.microsoft.com 문서가 몇 가지 있습니다. 예를 들어 SharePoint 서버의 관리 [탐색 개요를 참조하세요.](/sharepoint/administration/overview-of-managed-navigation)
 
-관리 탐색을 구현하기 위해 사이트의 탐색 구조에 해당하는 URL을 사용하여 용어를 설정해야 합니다. 대부분의 경우 구조 탐색을 대체하기 위해 관리 탐색을 수동으로 구성할 수도 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+관리 탐색을 구현하기 위해 사이트의 탐색 구조에 해당하는 URL을 사용하여 용어를 설정해야 합니다. 대부분의 경우 구조 탐색을 대체하기 위해 관리 탐색을 수동으로 구성할 수도 있습니다. 예를 들어:
 
 ![SharePoint 온라인 사이트 구조](../media/SPONavOptionsListOfSites.png))
 

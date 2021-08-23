@@ -18,17 +18,18 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - okr_smb
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 앱 Microsoft 365 관리 휴대폰 또는 태블릿에서 온라인 조직을 관리하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: c6990e8eed4a234c205b0a80b0a14faf18d0eeea6d607eb07b00682d17c40ab5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7e503b70f6263e0bf5e949c7ca18ccfe0eb31ffb
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827186"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394363"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>관리자 Microsoft 365 앱
 
@@ -65,7 +66,7 @@ ms.locfileid: "53827186"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c1d439-9ec2-415f-9178-250f64dec64c]
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 다음은 질문과 대답입니다.
   

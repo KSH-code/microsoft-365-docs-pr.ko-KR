@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: 1b1beaf65f43361626e03ca048a9942bc14d5e7b
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: a1dfb4ad2cdda501b699423d03e257dbe314976c
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349251"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394579"
 ---
 # <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 
@@ -40,7 +40,10 @@ ms.locfileid: "58349251"
 
    ![사용자가 장치를 Azure AD 설정에 가입할 수 있습니다.](../../media/deschutes/azure-device-settings.png)
 ## <a name="prerequisites"></a>전제 조건
-365 Business를 설치하기 위한 Windows 없습니다.
+365 Business를 설정하기 위한 라이선스 Windows 없습니다.
+
+최상의 온보드 환경을 제공하려면 설치 [](troubleshoot-windows-365-business.md) 문제 해결 가이드를 참조하여 환경 기본 설정이 Windows 365 Business에 최적화되어 있는지 확인하세요. 
+
 ## <a name="buy-subscriptions"></a>구독 구입
 
 사용자를 위해 365 Business Windows 구입하는 방법에는 두 가지가 있습니다.
@@ -49,6 +52,7 @@ ms.locfileid: "58349251"
 - Microsoft 365 관리 센터
 
 구독을 구입한 후 구독을 사용하여 Microsoft 365 관리 센터 사용자에게 라이선스를 할당할 수 있습니다.
+
 ### <a name="buy-subscriptions-through-the-windows-365-products-site"></a>Windows 365 제품 사이트를 통해 구독 구입
 
 아직 Microsoft 365 없는 경우 Windows 365 제품 사이트에서 Windows [365](https://www.microsoft.com/windows-365/business/compare-plans-pricing)Business 구독을 Windows 수 있습니다. 다음 단계에 따라 Windows 365 제품 페이지를 통해 Windows 365 Business 구독을 구입합니다.
@@ -58,6 +62,13 @@ ms.locfileid: "58349251"
 3. Windows **365 Business를** 선택해 주셔서 감사합니다. 페이지에서 단계에 따라 계정을 설정하세요.
 4. **5단계 -** 확인 세부 정보 에서 사용자에게 라이선스를 할당할 준비가 된 경우 시작을 선택하여 의 Windows 365 홈 페이지로  https://windows365.microsoft.com 이동합니다.
 5. 365 Windows 페이지의 빠른 **작업** 섹션에서 **조직 관리를 선택합니다.** 그러면 사용자에게 라이선스를 Microsoft 365 관리 센터 수 있는 위치로 진행됩니다.
+
+전역 또는 대금 청구 관리자 역할이 없는 사용자는 셀프 서비스 구매를 사용하여 Windows 365 Business 제품 사이트에서 직접 Windows [365 Business](https://www.microsoft.com/windows-365/business?rtc=1)구독을 구입할 수 있습니다. 이러한 방식으로 구독을 구입하는 사용자에게 조직의 다른 사용자에게 해당 구독에 대한 [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339)할당할 수 있는 제한된 보기가 부여됩니다. 라이선스를 다른 사용자에게 할당하면 해당 사용자를 위한 Windows 365 Business Cloud PC가 자동으로 만들어지며, 이 PC는 Windows 홈 페이지에서 액세스할 [수 있습니다.](https://windows365.microsoft.com/)
+
+> [!NOTE]
+> 셀프 서비스 구매는 인도 또는 정부 또는 교육 고객에게는 제공되지 않습니다.
+
+셀프 서비스 구매에 대한 자세한 내용은 셀프 서비스 구매 [FAQ를 참조합니다.](../../commerce/subscriptions/self-service-purchase-faq.yml)
 
 ### <a name="buy-a-subscription-through-the-microsoft-admin-center"></a>Microsoft 관리 센터를 통해 구독 구입
 

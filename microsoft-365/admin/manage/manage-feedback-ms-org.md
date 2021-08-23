@@ -13,22 +13,24 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 사용자가 Microsoft 제품에 대해 Microsoft에 보낼 수 있는 피드백을 관리합니다.
-ms.openlocfilehash: 517a8ebc080c33399a018e666de9b7f81d50b98d075cc6e67891123611cdacda
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7d6d607182a546e869a9f92e84adfa31f7e02a26
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825238"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394483"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>조직에 대한 Microsoft 피드백 관리
 
-Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용할 때 사용자의 피드백 수집 및 고객 참여 환경을 관리하는 데 도움이 되는 몇 가지 Microsoft 365 있습니다. 이러한 각 정책에 대해 조직의 기존 Azure Active Directory 그룹을 만들고 사용할 수 있습니다. 이러한들을 사용하여 조직의 여러 부서가 Microsoft에 피드백을 보낼 수 있는 방법을 제어할 수 있습니다. Microsoft는 고객이 제출한 모든 피드백을 검토하고 이 피드백을 사용하여 제품을 개선합니다. 피드백 환경을 으로  유지하면 사용 중이던 Microsoft 제품에 대해 사용자가 말하는 것을 볼 수 있습니다. 사용자로부터 수집한 피드백은 사용자로부터 곧 제공될 Microsoft 365 관리 센터.
+Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용할 때 사용자의 피드백 수집 및 고객 참여 환경을 관리하는 데 도움이 되는 몇 가지 Microsoft 365 있습니다. 이러한 각 정책에 대해 조직의 기존 Azure Active Directory 그룹을 만들고 사용할 수 있습니다. 이러한들을 사용하여 조직의 여러 부서가 Microsoft에 피드백을 보낼 수 있는 방법을 제어할 수 있습니다. Microsoft는 고객이 제출한 모든 피드백을 검토하고 이 피드백을 사용하여 제품을 개선합니다. 피드백 환경을 으로  유지하면 사용 중이던 Microsoft 제품에 대해 사용자가 말하는 것을 볼 수 있습니다. 사용자로부터 수집하는 피드백은 에서 곧 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a>
 
 피드백 유형 및 Microsoft에서 사용자 피드백을 사용하는 방법에 대한 자세한 내용은 [조직에 대한 Microsoft 피드백에 대해 자세히 보기를 참조합니다.](../misc/feedback-user-control.md)
 

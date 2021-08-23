@@ -13,18 +13,20 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 사용자가 Office 기능의 Office 'Office 새로운 기능' 기능을 사용하여 > Office 앱 기능의 새로운 기능을 Windows 기능을 사용하여 표시하거나 숨길 Microsoft 365 관리 센터.
-ms.openlocfilehash: 22801436a4502dd27e9b290080bcb6f1936550ac
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 31506f05054d6ee98eae0e1f075618d866d3934c
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346259"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394447"
 ---
 # <a name="manage-which-office-features-appear-in-whats-new"></a>새로운 기능에 Office 기능 관리
 

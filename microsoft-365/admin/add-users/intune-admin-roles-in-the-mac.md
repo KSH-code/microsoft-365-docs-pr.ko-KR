@@ -16,13 +16,14 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- admindeeplinkMAC
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: 32f910729c5e7b76389bf54898ccb9c9e197045e
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: ac0775c345cd542bc02664e33664c47891ecc64e
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346991"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394375"
 ---
 # <a name="intune-admin-roles-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 Intune 관리자 역할
 
