@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 다중 위치 SharePoint 다른 지리적 위치로 이동하고 사용자에게 변경에 대한 기대치를 전달하는 방법에 대해 알아보고
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 80dfe847683271a8538f407f9a697536946e29a5ae98cefc92dfde74a45abd0a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 97f19b0f4ae1e00eb1d81bb20052efa158bc55cf
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854829"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400394"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>SharePoint 사이트를 다른 지리적 위치로 이동
 
@@ -219,9 +219,9 @@ SharePoint Mobile 앱은 지역 간에 호환되며 사이트의 새 지리적 �
 
 대부분의 경우 SharePoint 사이트 지리적 이동 후에도 흐름이 계속해서 정상적으로 작동합니다. 이동이 완료되면 한 번 테스트하는 것이 좋습니다.
 
-### <a name="powerapps"></a>PowerApps
+### <a name="power-apps"></a>Power Apps
 
-대상 위치에 PowerApps를 다시 만들어야 합니다.
+Power Apps 위치에서 다시 만들 필요가 없습니다.
 
 ### <a name="data-movement-between-geo-locations"></a>지리적 위치 간 데이터 이동
 

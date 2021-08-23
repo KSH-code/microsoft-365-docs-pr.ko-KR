@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d5307eba16184c8eb3aa3dadf32ad3d2ea69448fd53bdbc27d1db13bef1a40ec
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 465aba55225aed74c838cb8ce09acf6d8b284491
+ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857814"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58408061"
 ---
 # <a name="batch-update-alerts"></a>일괄 업데이트 경고
 
@@ -55,7 +55,7 @@ ms.locfileid: "53857814"
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 | Alerts.ReadWrite.All | '모든 경고 읽기 및 쓰기'
+응용 프로그램 | Alert.ReadWrite.All | '모든 경고 읽기 및 쓰기'
 위임(직장 또는 학교 계정) | Alert.ReadWrite | '경고 읽기 및 쓰기'
 
 > [!NOTE]

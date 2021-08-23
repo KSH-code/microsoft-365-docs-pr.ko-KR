@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: d272c08287dd6198d4c33b4d1df3ff8662eda12781d676b75c93189d08409de7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 01b26ff33e02a1b26e91bb6399a73c9b22a6ba19
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819094"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58364964"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 매핑된 드라이브 준비
 
@@ -25,7 +25,7 @@ ms.locfileid: "53819094"
 - 팀에서 파일을 공유하는 데 사용하는 매핑된 드라이브를 온라인 SharePoint 마이그레이션합니다. 
 - 해당 요구 사항을 제거하기 위해 사내 파일 공유를 사용하는 응용 프로그램을 최신화하거나 대체합니다.
   
-이러한 서비스를 현대화하면 사용자 환경을 가장 잘 사용할 수 Microsoft Managed Desktop. Microsoft FastTrack 서비스는 Microsoft 클라우드 서비스를 사용하여 환경을 현대화하는 데 도움을 줍니다. 적합한 서비스 및 계획에서 FastTrack 서비스를 [](/fasttrack/m365-eligible-services-and-plans) 사용할 자격이 있는지 확인한 다음 직접 연락하여 서비스 준비를 Microsoft Managed Desktop. FastTrack 비즈니스용 OneDrive 또는 SharePoint 마이그레이션에 대한 배경 내용은 [데이터 마이그레이션을 참조하세요.](/fasttrack/o365-data-migration)
+이러한 서비스를 현대화하면 사용자 환경을 가장 잘 사용할 수 Microsoft Managed Desktop. Microsoft FastTrack 서비스는 Microsoft 클라우드 서비스를 사용하여 환경을 현대화하는 데 도움이 될 수 있습니다. 적합한 서비스 및 계획에서 FastTrack 서비스를 받을 자격이 있는지 확인한 다음 직접 연락하여 서비스 준비를 Microsoft Managed Desktop. [](/fasttrack/m365-eligible-services-and-plans) 온라인 마이그레이션 또는 FastTrack 비즈니스용 OneDrive SharePoint 배경은 [데이터 마이그레이션을 참조하세요.](/fasttrack/o365-data-migration)
 
 ## <a name="mapped-drives-on-microsoft-managed-desktop"></a>드라이브의 매핑된 Microsoft Managed Desktop
  
@@ -37,7 +37,7 @@ ms.locfileid: "53819094"
 - 이러한 파일 공유 위치에 액세스해야 하는 사용자 그룹 
 - 할당해야 하는 특정 드라이브 문자(필요한 경우)
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예를 들어:
 
 | 드라이브 문자 | UNC 경로 | 사용자 그룹 |
 |--------------|----------|------------|
@@ -55,14 +55,16 @@ ms.locfileid: "53819094"
 4. IT 작업에서 배포한 구성이 예상한 Microsoft Managed Desktop 테스트하고 확인해야 합니다. 테스트를 완료한 후 동일한 지원 요청의 세부 정보에서 Microsoft Managed Desktop IT 작업에게 알릴 수 있습니다.  
 5. Microsoft Managed Desktop IT 운영 팀은 구성을 다른 배포 그룹에 배포합니다. 
 
-## <a name="steps-to-get-ready"></a>준비 단계
+## <a name="steps-to-get-ready-for-microsoft-managed-desktop"></a>준비 단계 Microsoft Managed Desktop
 
-1. 에 대한 [선행 Microsoft Managed Desktop.](prerequisites.md)
-2. [준비 평가 도구를 사용합니다.](readiness-assessment-tool.md)
-3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
-4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
-5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
-6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
-7. [Microsoft Managed Desktop의 앱](apps.md)
-8. [매핑된 드라이브에서 Microsoft Managed Desktop](mapped-drives.md) 준비(이 문서)
-9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)
+1. [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)를 감토하세요.
+2. 준비 [평가 도구를 실행합니다.](readiness-assessment-tool.md)
+1. 에서 [회사 포털](../get-started/company-portal.md)구입합니다.
+1. 게스트 [계정의 선행 준비를 검토합니다.](guest-accounts.md)
+1. 네트워크 [구성을 확인합니다.](network.md)
+1. [인증서 및 네트워크 프로필을 준비합니다.](certs-wifi-lan.md)
+1. [데이터에 대한 사용자 액세스를 준비합니다.](authentication.md)
+1. [앱 준비](apps.md).
+1. 매핑된 드라이브를 준비합니다(이 문서).
+1. [인쇄 리소스 준비.](printing.md)
+1. 주소 [장치 이름 입니다.](address-device-names.md)

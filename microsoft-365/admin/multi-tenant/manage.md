@@ -13,18 +13,20 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 단일 위치에서 테넌트를 관리할 수 있는 기능을 제공 하는 테넌트 전환기 및 다중 테넌트 보기를 사용하는 방법을 학습합니다.
-ms.openlocfilehash: 09256ed8653924fc646f0a5d621d0e55e4a07856
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 6dbad8dbfaa84d490983cd5eccaf5ecf5d6979e5
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346091"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58393439"
 ---
 # <a name="multi-tenant-management"></a>다중 테넌트 관리
 

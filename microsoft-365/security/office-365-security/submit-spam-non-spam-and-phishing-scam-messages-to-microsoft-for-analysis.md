@@ -18,12 +18,12 @@ description: 관리자와 최종 사용자는 분석을 위해 Microsoft에 전�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a6dd7314162fd91be487684be2191c1ea2b50d740fd86fc27bc91e7c0d978196
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 91ec2807db4a4c384dabcf20634162b3a838274e
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56878216"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400358"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 수동으로 메시지 전송
 
@@ -35,7 +35,7 @@ ms.locfileid: "56878216"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> 사서함이 있는 조직의 관리자인 Exchange Online 포털의 제출 페이지를 사용하는 Microsoft 365 Defender  좋습니다. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
+> 사서함이 있는 조직의 관리자인 Exchange Online 포털의 제출 페이지를 사용하는 Microsoft 365 Defender  좋습니다. 자세한 내용은 제출 포털을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 [Microsoft에 제출을 참조하세요.](admin-submission.md)
 
 조직의 사용자가 받은 편지함에서 정크 메시지(스팸) 또는 피싱 메시지를 받거나 정크 메일로 표시되어 합법적인 전자 메일 메시지를 받지 못하면 좌절할 수 있습니다. 스팸 필터의 정확도를 더 정확하게 조정하고 있습니다.
 

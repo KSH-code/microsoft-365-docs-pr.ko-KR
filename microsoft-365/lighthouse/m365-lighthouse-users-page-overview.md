@@ -16,19 +16,19 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 사용자 페이지를 사용하여 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 사용자 페이지에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 722650462d5403e24c2ac0e9b087e5f5710860b145a1a233c0f05a29ca77bbab
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 102dcca973fed7a883dead0212a6f2965457cf9f
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898891"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365060"
 ---
 # <a name="microsoft-365-lighthouse-users-page-overview"></a>Microsoft 365 Lighthouse 사용자 페이지 개요 
 
 > [!NOTE]
 > 이 문서에 설명된 기능은 미리 보기에 있으며, 변경될 수 있으며, 요구 사항을 충족하는 파트너만 사용할 수 [있습니다.](m365-lighthouse-requirements.md) 조직에 등록이 Microsoft 365 Lighthouse 에 [등록을 Microsoft 365 Lighthouse.](m365-lighthouse-sign-up.md)
 
-Microsoft 365 Lighthouse 창에서 사용자를 선택하여 사용자 페이지를 열어  테넌트 계정에서 사용자를 관리할 수 있습니다. 이 페이지에서 사용자를 검색하고 사용자 계정의 보안 상태를 평가하고 이에 대한 행동을 할 수 있습니다. 또한 위험한 사용자에 대한 인사이트와 다단계 인증 및 셀프 서비스 암호 재설정 상태를 볼 수 있습니다.  
+Microsoft 365 Lighthouse 창에서 사용자를 선택하여 사용자 페이지를 열어 고객  테넌트 계정 전체에서 사용자를 관리할 수 있습니다. 이 페이지에서 사용자를 검색하고 사용자 계정의 보안 상태를 평가하고 이에 대한 행동을 할 수 있습니다. 또한 위험한 사용자에 대한 인사이트와 다단계 인증 및 셀프 서비스 암호 재설정 상태를 볼 수 있습니다.  
   
 ## <a name="search-users-tab"></a>사용자 검색 탭  
   

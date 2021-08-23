@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 게스트 사용자 목록이 사용자 목록에 채워지는 방법을 Microsoft 365 관리 센터.
-ms.openlocfilehash: e5e1f09d5a791201e29e10af466c578ce0f767d5
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: e5911e6d8a8baa723d70904abfc1af49e43d5507
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347027"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58393379"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>2016의 게스트 Microsoft 365 관리 센터
 

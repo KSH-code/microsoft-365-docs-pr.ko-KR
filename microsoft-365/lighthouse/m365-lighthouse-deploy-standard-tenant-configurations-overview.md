@@ -16,19 +16,19 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse)의 경우 기준을 사용하여 표준 테넌트 구성을 배포하는 방법을 배워야 합니다.
-ms.openlocfilehash: 1daaeba481f65018eaa9f82f9ef889c7e5dbd3e7fffb4421ae24aa1facf39354
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5eea1deae1c8cf56315e121baa29273fc98feca8
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800777"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365204"
 ---
 # <a name="overview-of-using-baselines-to-deploy-standard-tenant-configurations"></a>기준을 사용하여 표준 테넌트 구성 배포 개요 
 
 > [!NOTE]
 > 이 문서에 설명된 기능은 미리 보기에 있으며, 변경될 수 있으며, 요구 사항을 충족하는 파트너만 사용할 수 [있습니다.](m365-lighthouse-requirements.md) 조직에 등록이 Microsoft 365 Lighthouse 에 [등록을 Microsoft 365 Lighthouse.](m365-lighthouse-sign-up.md)
 
-Microsoft 365 Lighthouse 기준은 여러 테넌트에서 보안 설정을 평가하고 Microsoft 365 수 있는 반복 가능하고 확장 가능한 방법을 제공합니다. 또한 기준은 사용자, 장치 및 데이터를 보호하는 구성을 사용하여 핵심 보안 정책 및 테넌트 준수 표준을 모니터링하는 데 도움이 됩니다.
+Microsoft 365 Lighthouse 기준은 여러 고객 테넌트에서 보안 설정을 평가하고 Microsoft 365 수 있는 반복 가능하고 확장 가능한 방법을 제공합니다. 또한 기준은 사용자, 장치 및 데이터를 보호하는 구성을 사용하여 핵심 보안 정책 및 테넌트 준수 표준을 모니터링하는 데 도움이 됩니다.
 
 파트너가 자신의 속도에 따라 보안을 채택할 수 있도록 설계된 Microsoft 365 Lighthouse 표준 기준 매개 변수 집합과 Microsoft 365 서비스를 위한 구성을 제공합니다. 이러한 보안 구성은 테넌트의 보안 및 준수 Microsoft 365 측정하는 데 도움이 됩니다.
 

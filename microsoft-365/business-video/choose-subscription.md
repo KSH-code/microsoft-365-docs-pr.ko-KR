@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 Microsoft 365 적합한 구독에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f5cf6adffe54ed1930e139bf70c91e8f17b4d501b8c324ceb11512ce81f4b950
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 099104eae31cc7a615880bf9b778e6bfed548021
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900641"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400346"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>구독 Microsoft 365 선택
 
@@ -51,7 +51,7 @@ ms.locfileid: "53900641"
 | **전자 &amp; 메일 일정** | Outlook, Exchange Online | 50GB | 50GB | 100GB |
 | **팀워크를 위한 허브** | 채팅 기반 작업 영역, 온라인 모임 등 Microsoft Teams | 예 | 예 | 예 |
 | **파일 저장소** | 비즈니스용 OneDrive | 사용자당 1 TB | 사용자당 1 TB | 무제한 |
-| **소셜, 비디오, 사이트** | Stream, Yammer, Planner, SharePoint \* Online, PowerApps, \* Microsoft Flow\* | 예 | 예 | 예 |
+| **소셜, 비디오, 사이트** | Stream, Yammer, Planner, SharePoint Online \* , Power Apps , \* Microsoft Flow\* | 예 | 예 | 예 |
 | **비즈니스 앱** | 앱 예약 - Bookings\*\* | 예 | 예 | 예 |
 | **위협 방지** | Office 365 Advanced Threat Protection | 아니요 | 예 | 아니요 |
  | Windows Exploit Guard 적용| | 아니요 | 예 | 아니요 |

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 286fcf0b-ffc7-4593-8073-d7a4a5dd2b45
 description: 탐색 탭 및 필터를 사용하여 보고서를 보는 방법을 학습합니다.
-ms.openlocfilehash: 242a5f27c47fc1db0d807906f725201d2574712afe75ef421abf8848a334f2f5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8bf7d82b3c7ab8bab175da57a120ecf91e96e535
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53901246"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400310"
 ---
 # <a name="navigate-and-utilize-the-reports-in-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석에서 보고서 탐색 및 활용
 
@@ -61,7 +61,7 @@ ms.locfileid: "53901246"
 
 - 기본 [데이터 집합](usage-analytics-data-model.md)을 사용하여 고유한 디자인을 만드세요.
 
-- Power BI Desktop을 사용하여 개인 데이터 원본을 가져옵니다.
+- 이 Power BI Desktop 사용하여 자체 데이터 원본을 가져올 수 있습니다.
 
 보고서를 공유하려면 공유 단추를 선택하기만 합니다. ![Power BI Share icon](../../media/dbb0569d-2013-4f9d-ab9d-d01b09631b92.png) 을 클릭합니다.
 

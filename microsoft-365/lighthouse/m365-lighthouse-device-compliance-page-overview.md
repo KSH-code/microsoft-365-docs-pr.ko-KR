@@ -16,19 +16,19 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse)의 경우 장치 준수 페이지에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 8143f6d987145001a502616ea4a3672fba24a7f3
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: c87f808a3694c1f256a8a4787591a93444cf792f
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257621"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58364940"
 ---
 # <a name="microsoft-365-lighthouse-device-compliance-page-overview"></a>Microsoft 365 Lighthouse 장치 준수 페이지 개요
 
 > [!NOTE]
 > 이 문서에 설명된 기능은 미리 보기에 있으며, 변경될 수 있으며, 요구 사항을 충족하는 파트너만 사용할 수 [있습니다.](m365-lighthouse-requirements.md) 조직에 등록이 Microsoft 365 Lighthouse 에 [등록을 Microsoft 365 Lighthouse.](m365-lighthouse-sign-up.md)
 
-Microsoft 365 Lighthouse 탐색 창에서 장치를 선택하여 장치 준수 페이지를 열어 모든 테넌트에  대한 Intune 장치 준수와 관련된 인사이트 및 정보를 볼 수 있습니다. 이 페이지에서는 테넌트 전체의 규정 준수 상태에 대한 개요를 보고, 각 테넌트의 장치 목록을 보고, 준수 정책 및 설정에 대한 상태 보고서를 받을 수 있습니다.
+Microsoft 365 Lighthouse 창에서 디바이스를 선택하여 장치 준수 페이지를 열면 모든 고객 테넌트에  대한 Intune 장치 준수와 관련된 인사이트 및 정보를 볼 수 있습니다. 이 페이지에서는 테넌트 전체의 규정 준수 상태에 대한 개요를 보고, 각 테넌트의 장치 목록을 보고, 준수 정책 및 설정에 대한 상태 보고서를 받을 수 있습니다.
 
 ## <a name="overview-tab"></a>개요 탭  
   

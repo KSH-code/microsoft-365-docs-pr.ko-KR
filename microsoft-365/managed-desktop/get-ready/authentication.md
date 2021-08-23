@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 22d49a85ae4d89e3d596a00a0d47468ed213788c1b46d850914d2eaecef56ec1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ffe432df946844b2ac06b87c2c5ca4284d49e0a1
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819238"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365192"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비
 
@@ -78,14 +78,16 @@ Microsoft Managed Desktop 클라우드 인쇄를 구성하지 않은 경우 장�
 클라우드 전용 환경에서는 프린터를 자동으로 검색할 수 없는 반면, 디바이스가 사내 도메인 컨트롤러에 액세스할 수 있는 한 사용자는 프린터 경로 또는 프린터 큐 경로를 사용하여 사내 프린터를 사용할 수 있습니다.
 
 <!--add fuller material on printers when available-->
-## <a name="steps-to-get-ready"></a>준비 단계
+## <a name="steps-to-get-ready-for-microsoft-managed-desktop"></a>준비 단계 Microsoft Managed Desktop
 
-1. 에 대한 [선행 Microsoft Managed Desktop.](prerequisites.md)
-2. 준비 [평가 도구를 사용합니다.](readiness-assessment-tool.md)
-3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
-4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
-5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
-6. [프레미스](authentication.md) 리소스에 대한 액세스 Microsoft Managed Desktop 준비(이 문서)
-7. [Microsoft Managed Desktop의 앱](apps.md)
-8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
-9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)
+1. [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)를 감토하세요.
+2. 준비 [평가 도구를 실행합니다.](readiness-assessment-tool.md)
+1. 에서 [회사 포털](../get-started/company-portal.md)구입합니다.
+1. 게스트 [계정의 선행 준비를 검토합니다.](guest-accounts.md)
+1. 네트워크 [구성을 확인합니다.](network.md)
+1. [인증서 및 네트워크 프로필을 준비합니다.](certs-wifi-lan.md)
+1. 데이터에 대한 사용자 액세스를 준비합니다(이 문서).
+1. [앱 준비](apps.md).
+1. [매핑된 드라이브를 준비합니다.](mapped-drives.md)
+1. [인쇄 리소스 준비.](printing.md)
+1. 주소 [장치 이름 입니다.](address-device-names.md)

@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: DataParser 커넥터를 사용하여 17a-4 비즈니스용 Skype 서버 설정하고 사용하여 비즈니스용 Skype 서버 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: f01e0a81895bc460608ad555a9206ad91c105a20
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 1cbb0873a86af099665cf8bf6353ce351bafb3cd
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256061"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400418"
 ---
-# <a name="set-up-a-connector-to-archive-skype-for-business-server-data-preview"></a>데이터 보관 커넥터 설정(비즈니스용 Skype 서버(미리 보기)
+# <a name="set-up-a-connector-to-archive-skype-for-business-server-data"></a>데이터 보관을 위한 비즈니스용 Skype 서버 설정
 
 17a-4 LLC의 Skype [Server DataParser를](https://www.17a-4.com/skype-server-dataparser/) 사용하여 비즈니스용 Skype 서버 조직의 사용자 사서함으로 데이터를 Microsoft 365 보관합니다. DataParser에는 타사 비즈니스용 Skype 원본의 항목을 캡처하고 해당 항목을 가져오도록 구성된 Microsoft 365. 이 비즈니스용 Skype 서버 DataParser 커넥터는 비즈니스용 Skype 서버 데이터를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 전자 메일 메시지의 사용자 사서함으로 Microsoft 365.
 

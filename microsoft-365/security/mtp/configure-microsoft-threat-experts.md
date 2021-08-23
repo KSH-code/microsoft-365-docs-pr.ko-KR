@@ -1,6 +1,6 @@
 ---
-title: Defender를 통해 Microsoft 위협 전문가 기능 구성 및 Microsoft 365 관리
-description: Microsoft 365 Defender를 통해 Microsoft 위협 전문가를 구독하여 일상적인 보안 작업 및 보안 관리 작업에서 이를 구성, 관리 및 사용할 수 있습니다.
+title: 다음을 통해 Microsoft 위협 전문가 기능을 구성하고 Microsoft 365 Defender
+description: Microsoft 위협 전문가를 구독하여 Microsoft 365 Defender 보안 운영 및 보안 관리 작업에서 구성, 관리 및 사용을 할 수 있습니다.
 keywords: Microsoft 위협 전문가, 관리되는 위협 헌팅 서비스, MTE, Microsoft 관리 헌팅 서비스
 search.product: Windows 10
 search.appverid: met150
@@ -14,14 +14,14 @@ localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.openlocfilehash: 0ccb8482dae94de4a9f43a5ecaf7c701e6dd82a5
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: db98e147ef4453f62d4d17431286aaa99959712d
+ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844793"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58357522"
 ---
-# <a name="configure-and-manage-microsoft-threat-experts-capabilities-through-microsoft-365-defender"></a>Defender를 통해 Microsoft 위협 전문가 기능 구성 및 Microsoft 365 관리
+# <a name="configure-and-manage-microsoft-threat-experts-capabilities-through-microsoft-365-defender"></a>다음을 통해 Microsoft 위협 전문가 기능을 구성하고 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -37,13 +37,13 @@ ms.locfileid: "52844793"
 > [!IMPORTANT]
 > 적용하기 전에 Microsoft 기술 서비스 공급자 및 계정 팀과 함께 Microsoft 위협 전문가 – 대상 공격 알림 관리 위협 헌팅 서비스에 대한 자격 요구 사항을 논의해야 합니다.
 
-대상 공격 알림을 받으기 위해 등록된 장치를 사용하여 Microsoft 365 배포해야 합니다. 그런 다음 M365 포털을 통해 응용 프로그램을 Microsoft 위협 전문가 - 대상 공격 알림을 제출합니다.
+대상 공격 알림을 받으하려면 등록된 장치로 Microsoft 365 Defender 배포해야 합니다. 그런 다음 M365 포털을 통해 응용 프로그램을 Microsoft 위협 전문가 - 대상 공격 알림을 제출합니다.
 
 계정 팀 또는 Microsoft 담당자에게 문의하여 Microsoft 위협 전문가 - 전문가에게 문의하세요. 요구 전문가를 통해 위협 전문가와 협의하여 조직을 관련 탐지 및 공격자로부터 보호하는 방법에 대해 상담할 수 있습니다.
 
 ## <a name="apply-for-microsoft-threat-experts---targeted-attack-notifications-service"></a>대상 Microsoft 위협 전문가 - 대상 공격 알림 서비스
 
-Endpoint 및 Microsoft 365용 Microsoft Defender가 이미 있는 경우 Microsoft 위협 전문가 Defender 포털을 통해 Microsoft 위협 전문가 – 대상 공격 알림에 Microsoft 365 있습니다.  대상 공격 알림은 조직에 가장 중요한 위협을 식별하는 데 도움이 되는 특별한 인사이트 및 분석을 부여하여 신속하게 대응할 수 있도록 합니다.
+끝점용 Microsoft Defender 및 Microsoft 365 Defender 이미 있는 경우 Microsoft 위협 전문가 포털을 통해 Microsoft 위협 전문가 – 대상 공격 알림을 Microsoft 365 Defender 있습니다.  대상 공격 알림은 조직에 가장 중요한 위협을 식별하는 데 도움이 되는 특별한 인사이트 및 분석을 부여하여 신속하게 대응할 수 있도록 합니다.
 
 1. 탐색 창에서 설정 > Endpoints > General > **Advanced features > Microsoft 위협 전문가 - Targeted Attack Notifications 로 이동합니다.**
 
@@ -67,7 +67,7 @@ Endpoint 및 Microsoft 365용 Microsoft Defender가 이미 있는 경우 Microso
 
 다음 중간 규모를 통해 Microsoft 위협 전문가 대상 공격 알림을 받을 수 있습니다.
 
-- Microsoft 365 포털의 인시던트 **페이지**
+- Microsoft 365 Defender 포털의 **인시던트 페이지**
 - Microsoft 365 Defender 포털의 경고 **대시보드**
 - OData 경고 [API 및](/windows/security/threat-protection/microsoft-defender-atp/get-alerts) REST [API](/windows/security/threat-protection/microsoft-defender-atp/pull-alerts-using-rest-api)
 - [고급 헌팅의 DeviceAlertEvents](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-devicealertevents-table) 테이블
@@ -91,12 +91,12 @@ Endpoint 및 Microsoft 365용 Microsoft Defender가 이미 있는 경우 Microso
 
 ## <a name="consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization"></a>조직의 의심스러운 사이버 보안 활동에 대한 Microsoft 위협 전문가에게 문의
 
-Defender 포털 Microsoft 위협 전문가 연락처를 Microsoft 365 있습니다. 전문가는 복잡한 위협과 대상 공격 알림을 이해하는 데 도움을 줄 수 있습니다. 경고 및 인시던트에 대한 자세한 내용이나 손상 처리에 대한 조언을 전문가와 협력합니다. 포털 대시보드에서 설명하는 위협 인텔리전스 컨텍스트에 대한 정보를 얻습니다.
+포털 내부에서 Microsoft 위협 전문가 연락처를 Microsoft 365 Defender 있습니다. 전문가는 복잡한 위협과 대상 공격 알림을 이해하는 데 도움을 줄 수 있습니다. 경고 및 인시던트에 대한 자세한 내용이나 손상 처리에 대한 조언을 전문가와 협력합니다. 포털 대시보드에서 설명하는 위협 인텔리전스 컨텍스트에 대한 정보를 얻습니다.
 
 > [!NOTE]
 >
 > - 조직의 사용자 지정된 위협 인텔리전스 데이터와 관련된 경고 문의는 현재 지원되지 않습니다. 자세한 내용은 보안 운영 또는 인시던트 대응 팀에 문의합니다.
-> - 위협 전문가 문의  양식을 통해 문의를 제출하려면 Microsoft 365 Defender 포털의 보안 센터에서 보안 설정 관리 **권한이 필요합니다.**
+> - 위협 전문가 문의  양식을 통해 문의를 제출하려면 Microsoft 365 Defender 포털의 보안 센터에서 보안 설정 관리 권한이 **필요합니다.**
 
 1. 조사할 정보와 관련된 포털 페이지(예: **장치,** 경고 또는 인시던트)로 **이동합니다.**  조사 요청을 보내기 전에 문의와 관련된 포털 페이지가 보기에 있는지 확인하십시오.
 
@@ -129,7 +129,7 @@ Defender 포털 Microsoft 위협 전문가 연락처를 Microsoft 365 있습니�
 
 - 이진수 이진에 대한 새로운 유형의 경고를 보했습니다. 경고 ID를 제공할 수 있습니다. 이 경고와 이 경고를 추가로 조사하는 방법에 대해 더 많은 정보를 알려 주시겠습니까?
 - 두 가지 유사한 공격이 관찰되었습니다. 두 공격 모두 악성 PowerShell 스크립트를 실행하려고 하지만 다른 경고를 생성합니다. 하나는 "의심스러운 PowerShell 명령줄"이고 다른 하나는 "O365에서 제공한 표시에 따라 악성 파일이 검색되었습니다."입니다. 차이점은 무엇입니까?
-- 현재, 프로필이 많은 사용자의 장치에서 비정상적인 로그인 실패 수에 대한 이상한 경고를 수신했습니다. 이러한 시도에 대한 추가 증거는 찾을 수 없습니다. Defender에서 Microsoft 365 어떻게 볼 수 있나요? 어떤 유형의 로그인이 모니터링되고 있나요?
+- 현재, 프로필이 많은 사용자의 장치에서 비정상적인 로그인 실패 수에 대한 이상한 경고를 수신했습니다. 이러한 시도에 대한 추가 증거는 찾을 수 없습니다. 이러한 Microsoft 365 Defender 어떻게 볼 수 있나요? 어떤 유형의 로그인이 모니터링되고 있나요?
 - "시스템 유틸리티의 의심스러운 동작이 관찰되었습니다."라는 경고에 대한 더 많은 컨텍스트나 정보를 얻을 수 있나요?
 - "전달/리디렉션 규칙 만들기"라는 경고가 표시되었습니다. 활동이 무해한 것으로 생각됩니다. 알림을 받은 이유를 알 수 있나요?
 
@@ -141,7 +141,7 @@ Defender 포털 Microsoft 위협 전문가 연락처를 Microsoft 365 있습니�
 ### <a name="threat-intelligence-details"></a>위협 인텔리전스 세부 정보
 
 - 사용자에게 악성 Word 문서를 전달하는 피싱 전자 메일을 검색했습니다. 이 문서에서는 일련의 의심스러운 이벤트가 발생하여 특정 맬웨어 패밀리에 대한 여러 경고가 트리거되었습니다. 이 맬웨어에 대한 정보가 있나요? 그렇다면 링크를 보낼 수 있나요?
-- 최근에 업계를 대상으로 하는 위협에 대한 블로그 게시물을 보했습니다. Defender가 이 위협 공격자에 대해 Microsoft 365 보호 기능을 이해하는 데 도움이 될 수 있나요?
+- 최근에 업계를 대상으로 하는 위협에 대한 블로그 게시물을 보했습니다. 이 위협 공격자에 대해 어떤 보호 Microsoft 365 Defender 보호 기능을 제공하는지 이해하는 데 도움이 될 수 있나요?
 - 최근에 조직에 대해 수행된 피싱 캠페인을 관찰했습니다. 이 대상이 회사 또는 수직을 대상으로 하는지 알려 주시겠습니까?
 
 ### <a name="microsoft-threat-experts-alert-communications"></a>Microsoft 위협 전문가 알림 통신
@@ -151,7 +151,7 @@ Defender 포털 Microsoft 위협 전문가 연락처를 Microsoft 365 있습니�
 - 사용자로부터 대상 공격 Microsoft 위협 전문가. 인시던트 대응 팀에 전달할 수 있는 어떤 데이터를 제공할 수 있나요?
 
 > [!NOTE]
-> Microsoft 위협 전문가 서비스는 인시던트 대응 서비스가 아닌 관리되는 위협 헌팅 서비스입니다. 그러나 전문가는 필요한 경우 조사를 Microsoft CSG(Cybersecurity Solutions Group)의 DART(검색 및 대응 팀) 서비스로 원활하게 전환할 수 있습니다. 인시던트 대응이 필요한 문제를 해결하기 위해 자체 인시던트 대응 팀에 참여할 수도 있습니다.
+> Microsoft 위협 전문가 서비스는 인시던트 대응 서비스가 아닌 관리되는 위협 헌팅 서비스입니다. 그러나 인시던트 대응이 필요한 문제를 해결하기 위해 자체 인시던트 대응 팀과 의할 수 있습니다. 자체 인시던트 대응 팀이 없는 경우 Microsoft의 도움을 요청하는 경우 CSS CIRT(사이버 보안 인시던트 대응 팀)에 참여할 수 있습니다. 티켓을 열어 문의를 해결할 수 있습니다.
 
 ## <a name="scenario"></a>시나리오
 

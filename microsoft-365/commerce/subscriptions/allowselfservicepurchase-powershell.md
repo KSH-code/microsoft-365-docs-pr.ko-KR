@@ -21,12 +21,12 @@ search.appverid:
 description: AllowSelfServicePurchase PowerShell cmdlet을 사용하여 셀프 서비스 구매를 켜거나 끄는 방법을 학습합니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 07/16/2021
-ms.openlocfilehash: 8714334d2c05d312d8a7895c943e21816e31c9297e879b9681639efb92aec426
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1de0b99954883b301110689c72e10e05c16e7576
+ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900282"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58408049"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용
 
@@ -140,6 +140,14 @@ $product = Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase | wh
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $product.ProductID -Enabled $false
 ```
 
+제품에 값이 여러 개 있는 경우 다음 예제와 같이 각 값에 대해 명령을 개별적으로 실행할 수 있습니다.
+
+```powershell
+Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $product[0].ProductID -Enabled $false
+Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $product[1].ProductID -Enabled $false
+```
+
+
 ## <a name="troubleshooting"></a>문제 해결
 
 ### <a name="problem"></a>문제
@@ -152,7 +160,13 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 ### <a name="solution"></a>솔루션
 
-TLS 1.2로 업그레이드: (/mem/configmgr/core/plan-design/security/enable-tls-1-2)
+TLS 1.2로 업그레이드합니다. 다음 구문은 ServicePointManager 보안 프로토콜을 TLS1.2로 업데이트합니다.
+
+```powershell
+ [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+```
+
+자세한 내용은 [TLS 1.2를 사용하도록](/mem/configmgr/core/plan-design/security/enable-tls-1-2)설정하는 방법을 참조합니다.
 
 <!--
 ## Uninstall the MSCommerce module

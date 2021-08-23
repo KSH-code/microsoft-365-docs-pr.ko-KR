@@ -13,12 +13,12 @@ ms.collection:
 description: 보고서 메시지 기능을 사용하여 가짓 긍정 및 Outlook 보고하는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ac0dbb205e6205a9c92cc56922b7399c6dd2c65cde276854b2901edf89b29503
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a0e69b16167ff796b68a2eea492a4dea180a4fb7
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56813818"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400370"
 ---
 # <a name="report-false-positives-and-false-negatives-in-outlook"></a>Outlook에서 가양성 및 가음성 보고
 
@@ -30,11 +30,11 @@ ms.locfileid: "56813818"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> 사서함이 있는 Microsoft 365 조직의 관리자는 Exchange Online 포털의 제출 페이지를 사용하는 Microsoft 365 Defender 좋습니다.  자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
+> 사서함이 있는 Microsoft 365 조직의 관리자는 Exchange Online 포털의 제출 페이지를 사용하는 Microsoft 365 Defender 좋습니다.  자세한 내용은 제출 포털을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 [Microsoft에 제출을 참조하세요.](admin-submission.md)
 
 하이브리드 최신 인증을 사용하는 Microsoft 365 Exchange Online 사서함이 있는 Microsoft 365 조직에서는 가음성(차단되거나 정크 폴더로 전송된 양호한 전자 메일) 및 거짓 부정(받은 편지함으로 배달된 원치 않는 전자 메일 또는 피싱)을 EOP(Exchange Online Protection)에 제출할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 최상의 사용자 제출 환경을 위해 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하세요.
 

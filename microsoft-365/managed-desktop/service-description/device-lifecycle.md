@@ -8,16 +8,20 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f7c2a72fdd212eb9a549d3b855a693f095949e0dbb203caf05d37e9ad8ace226
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9a459c120e0bfb4da5c4b98ee576ff347052e358
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904339"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400382"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Microsoft Managed Desktop 수명 주기
 
-Microsoft Managed Desktop 항상 최상의 성능, 안정성, 디자인 및 보안 기능을 제공하는 장치(예: Windows Hello)를 사용하게 하여 사용자에게 이점을 제공합니다. 이를 위해 Microsoft Managed Desktop 업데이트된 장치의 짧은 카탈로그를 유지 관리합니다. 비즈니스 디바이스 쇼핑 사이트에서 승인된 Microsoft Managed Desktop [필터링하여 Windows 10 Pro 수](https://www.microsoft.com/windowsforbusiness/view-all-devices) 있습니다.
+> [!NOTE]
+> 2021년 9월 18일부로, 이 제품 수명 주기는 Microsoft Managed Desktop 않습니다. 여기에 나열된 요구 사항은 서비스의 장치에 적용되지 않습니다. 하드웨어 [요구 사항만](device-requirements.md) 관련이 있습니다. 
+
+
+Microsoft Managed Desktop, 안정성, 디자인 및 보안 기능(예: Windows Hello)을 제공하는 장치를 항상 사용하게 하여 사용자에게 Windows Hello. 이를 위해 Microsoft Managed Desktop 업데이트된 장치의 짧은 카탈로그를 유지 관리합니다. 비즈니스 디바이스 쇼핑 사이트에서 승인된 Microsoft Managed Desktop [필터링하여 Windows 10 Pro 수](https://www.microsoft.com/en-us/windowsforbusiness/view-all-devices) 있습니다.
  
 이 문서에서는 디바이스가 승인된 카탈로그에서 추가 및 제거될 때의 장치 수명 주기에 대해 자세히 소개합니다. 
 

@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- admindeeplinkMAC
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: 게스트 그룹에 게스트를 추가하고, Microsoft 365 사용자를 보고, PowerShell을 사용하여 게스트 액세스를 제어하는 방법을 학습합니다.
-ms.openlocfilehash: 13eb75203bc12e6682700c9a5d44bb33505f9ff0
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: daf9eec40e674e2b179119f30f58ff8899855911
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346847"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58393391"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>그룹에서 게스트 Microsoft 365 관리
 

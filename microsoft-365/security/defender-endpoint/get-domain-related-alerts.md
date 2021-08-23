@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: d4d84ff64399bdecc936ae8876c0e1713cbf3482ab9dbf1faf848b736bfa6a09
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1511a31dfd7c86d24f3a91ceebfca65d1ce777e3
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800381"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365072"
 ---
 # <a name="get-domain-related-alerts-api"></a>도메인 관련 알림 API를 얻습니다.
 
@@ -81,7 +81,7 @@ GET /api/domains/{domain}/alerts
 
 ## <a name="response"></a>응답
 
-성공적이고 도메인이 있는 경우 - 경고 [](alerts.md) 엔터티 목록이 있는 200 OK. 도메인이 없는 경우 - 404 찾을 수 없습니다.
+성공적이고 도메인이 있는 경우 - 경고 [](alerts.md) 엔터티 목록이 있는 200 OK. domain이 존재하지 않는 경우 - 200 OK(빈 집합)입니다.
 
 ## <a name="example"></a>예제
 

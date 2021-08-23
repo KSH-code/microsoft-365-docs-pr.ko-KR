@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminTemplateSet
+ms.custom:
+- AdminTemplateSet
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 직장 또는 학교 계정이 있는 사용자는 엔터프라이즈 수준의 보안 약속을 Cortana Microsoft 365 환경을 Office 365 수 있습니다.
-ms.openlocfilehash: 8462d4bf3838c5080a7f4f00380fa03dab2c01b9
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 94fdd199a0887750379c2582fe38538b1ff48c2f
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346103"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394183"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana Microsoft 365
 

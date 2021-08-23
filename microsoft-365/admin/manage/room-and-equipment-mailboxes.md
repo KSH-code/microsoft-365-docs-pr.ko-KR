@@ -17,17 +17,18 @@ ms.custom:
 - Lean
 - MSStore_Link
 - AdminSurgePortfolio
+- admindeeplinkMAC
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: '회의실 또는 장비 사서함을 만들었으면 조직의 누구나 Outlook을 사용하여 모임이나 행사용으로 예약할 수 있습니다. '
-ms.openlocfilehash: 7b5db5cfbbcacf501a280df98c4d1f9fc21fe509
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 3bbaaf8b1074acd7abdd2cd7ce205eabcec11634
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346775"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394219"
 ---
 # <a name="room-and-equipment-mailboxes"></a>회의실 및 장비 사서함
 

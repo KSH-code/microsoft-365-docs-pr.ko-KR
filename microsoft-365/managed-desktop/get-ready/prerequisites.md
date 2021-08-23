@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 4ca75cdd3721f8a49f36b59f4ada0cd6f3dee49e1bf1d139240d52f83899fbb7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 999667771bc33ff6e09b5afdff80c61c91daa601
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53869956"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58364928"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 필수 구성 요소
 
@@ -47,7 +47,7 @@ Microsoft Managed Desktop 사용하려면 특정 라이선스 옵션이 필요�
 - Azure Active Directory Premium P1
 - Microsoft Intune
 - Windows 10 Enterprise  
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
 - 엔터프라이즈용 Microsoft 365 앱
 - Microsoft Teams
 - [SharePoint Online 계획 2](https://www.microsoft.com/microsoft-365/sharepoint/compare-sharepoint-plans)
@@ -56,14 +56,16 @@ Microsoft Managed Desktop 사용하려면 특정 라이선스 옵션이 필요�
 > [!TIP]
 > Microsoft 계정 관리자를 사용하면 현재 라이선스 및 서비스 계획을 검토하고 중복을 방지하면서 필요한 추가 라이선스 또는 서비스 계획을 얻을 수 있는 가장 효율적인 경로를 찾을 수 있습니다.
 
-## <a name="steps-to-get-ready"></a>준비 단계
+## <a name="steps-to-get-ready-for-microsoft-managed-desktop"></a>준비 단계 Microsoft Managed Desktop
 
-1. 에 대한 [선행 Microsoft Managed Desktop.](prerequisites.md) (이 문서)
-2. 준비 [평가 도구를 사용합니다.](readiness-assessment-tool.md)
-3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
-4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
-5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
-6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
-7. [Microsoft Managed Desktop의 앱](apps.md)
-8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
-9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)
+1. 선행조사(이 문서)를 검토합니다.
+2. 준비 [평가 도구를 실행합니다.](readiness-assessment-tool.md)
+1. 에서 [회사 포털](../get-started/company-portal.md)구입합니다.
+1. 게스트 [계정의 선행 준비를 검토합니다.](guest-accounts.md)
+1. 네트워크 [구성을 확인합니다.](network.md)
+1. [인증서 및 네트워크 프로필을 준비합니다.](certs-wifi-lan.md)
+1. [데이터에 대한 사용자 액세스를 준비합니다.](authentication.md)
+1. [앱 준비](apps.md).
+1. [매핑된 드라이브를 준비합니다.](mapped-drives.md)
+1. [인쇄 리소스 준비.](printing.md)
+1. 주소 [장치 이름 입니다.](address-device-names.md)

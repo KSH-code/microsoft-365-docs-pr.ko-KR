@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: 327c7e5d15b006acd9a8b0df829cd2aadbdf8010
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: e301f58c3a194c6af8989f4081e733c50a4c104e
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349911"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400334"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드에서 새 독일 Office 365 서비스로 마이그레이션
 
@@ -188,7 +188,7 @@ Office 365 독일 데이터 센터 지역에 서비스를 제공합니다.
 30. Microsoft Forms
 31. Power Automate 대한 Office 365
 32. Power Virtual Agents 대한 Office 365
-33. PowerApps for Office 365
+33. Power Apps 대한 Office 365
 34. Microsoft Bookings
 35. 할 일
 36. Whiteboard

@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: a5efce5d-9c9c-4190-b61b-fd273c1d425f
 description: 암호 Microsoft 365 Single Sign-On을 원하는 경우 Azure AD와 통합합니다.
-ms.openlocfilehash: a4c6ad7346fc1c82968db024795ddf3f148a9053
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: eaf2b42910c2d0b3a7f672262b2397f8010793ba
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356579"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400322"
 ---
 # <a name="azure-integration-with-microsoft-365"></a>Azure와 통합된 Microsoft 365
 
@@ -59,8 +59,8 @@ Azure AD 및 Microsoft 365 대한 자세한 내용은 id [Microsoft 365 참조�
 
 |**기능**|**설명**|
 |:-----|:-----|
-|통합 앱  <br/> |메일, 일정, 연락처, 사용자, 그룹, 파일 및 폴더와 같은 Microsoft 365 데이터에 대한 액세스 권한을 개별 앱에 부여할 수 있습니다. 또한 전역 관리자 수준에서 이러한 앱을 승인하고 Azure AD에 앱을 등록하여 전체 회사에서 사용할 수 있도록 할 수 있습니다. Formore 정보는 통합 앱 및 [Azure AD for Microsoft 365 참조하세요.](integrated-apps-and-azure-ads.md)  <br/> Single [Sign-On도 참조합니다.](/azure/active-directory/manage-apps/what-is-single-sign-on)  <br/> |
-|PowerApps  <br/> | Power Apps는 앱 목록 및 기타 데이터 앱과 같은 기존 데이터 원본에 연결할 수 있는 모바일 SharePoint 포커스가 있는 앱입니다. 자세한 [내용은 SharePoint Online의](https://support.office.com/article/9338b2d2-67ac-4b81-8e67-97da27e5e9ab) 목록은 PowerApp 만들기 및 [PowerApps](https://powerapps.microsoft.com/) 페이지를 참조하세요.  <br/> |
+|통합 앱  <br/> |메일, 일정, 연락처, 사용자, 그룹, 파일 및 폴더와 같은 Microsoft 365 데이터에 대한 액세스 권한을 개별 앱에 부여할 수 있습니다. 또한 전역 관리자 수준에서 이러한 앱을 승인하고 Azure AD에 앱을 등록하여 전체 회사에서 사용할 수 있도록 할 수 있습니다. 자세한 내용은 관리자용 통합 앱 [및 Azure AD를 Microsoft 365 참조하세요.](integrated-apps-and-azure-ads.md)  <br/> Single [Sign-On도 참조합니다.](/azure/active-directory/manage-apps/what-is-single-sign-on)  <br/> |
+|Power Apps  <br/> | Power Apps 및 기타 데이터 앱과 같은 기존 데이터 원본에 연결할 수 있는 모바일 SharePoint 앱입니다. 자세한 [내용은 SharePoint Online](https://support.office.com/article/9338b2d2-67ac-4b81-8e67-97da27e5e9ab) 및 Power Apps 페이지에 대한 Power App 만들기를 참조하세요. [](https://powerapps.microsoft.com/)  <br/> |
    
 ## <a name="see-also"></a>참고 항목
 

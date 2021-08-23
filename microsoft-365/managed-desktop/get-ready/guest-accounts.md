@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 9daf0ded219165f692c3e5b1b6512ab264f25d41b2fda97d085a3443cbe506a3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bb181ab213cc02e5289681b8c3965a96bd8b8dcb
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819130"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365000"
 ---
 # <a name="prerequisites-for-guest-accounts"></a>게스트 계정에 대한 필수 구성 요소
 
@@ -46,14 +46,16 @@ Microsoft Managed Desktop 액세스하려면 Azure AD 조직에서 다음 설정
 
 자세한 내용은 에서 라이선스가 없는 [관리자를 Microsoft Intune.](/mem/intune/fundamentals/unlicensed-admins)
 
-## <a name="steps-to-get-ready"></a>준비 단계
+## <a name="steps-to-get-ready-for-microsoft-managed-desktop"></a>준비 단계 Microsoft Managed Desktop
 
 1. [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)를 감토하세요.
-2. [준비 상태 평가 도구](readiness-assessment-tool.md)를 사용하세요.
-3. [게스트 계정의 선행 준비(이](guest-accounts.md) 문서)
-4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
-5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
-6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
-7. [Microsoft Managed Desktop의 앱](apps.md)
-8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
-9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)
+2. 준비 [평가 도구를 실행합니다.](readiness-assessment-tool.md)
+1. 에서 [회사 포털](../get-started/company-portal.md)구입합니다.
+1. 게스트 계정의 선행 준비를 검토합니다(이 문서).
+1. 네트워크 [구성을 확인합니다.](network.md)
+1. [인증서 및 네트워크 프로필을 준비합니다.](certs-wifi-lan.md)
+1. [데이터에 대한 사용자 액세스를 준비합니다.](authentication.md)
+1. [앱 준비](apps.md).
+1. [매핑된 드라이브를 준비합니다.](mapped-drives.md)
+1. [인쇄 리소스 준비.](printing.md)
+1. 주소 [장치 이름 입니다.](address-device-names.md)

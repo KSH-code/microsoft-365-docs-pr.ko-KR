@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: b248af7d098fa8b78632b248e37248840f0f1d8302a658061489f6ea68e4fd85
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c8a501c178ae0cffb98870d4fccd44028cbf6ec0
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53877748"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365108"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 앱
 
@@ -56,14 +56,16 @@ Microsoft는 포함된 앱의 배포, 업데이트 및 지원을 위한 전체 �
 - 앱을 관리하기 위한 준비가 완료되어야 Microsoft Intune. 이 항목에 대한 자세한 [내용은](/intune/apps-windows-10-app-deploy) Windows 10 앱 배포 및 Microsoft Intune 앱 추가를 [Microsoft Intune.](/intune/apps-add)
 - 라이선스 키 제공, 사용 조건 계약 및 서버 연결 사전 설정과 같은 기타 패키징 전 요구 사항
 
-## <a name="steps-to-get-ready"></a>준비 단계
+## <a name="steps-to-get-ready-for-microsoft-managed-desktop"></a>준비 단계 Microsoft Managed Desktop
 
-1. 에 대한 [선행 Microsoft Managed Desktop.](prerequisites.md)
-2. 준비 [평가 도구를 사용합니다.](readiness-assessment-tool.md)
-3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
-4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
-5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
-6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
-7. [앱의 Microsoft Managed Desktop(이](apps.md) 문서)
-8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
-9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)
+1. [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)를 감토하세요.
+2. 준비 [평가 도구를 실행합니다.](readiness-assessment-tool.md)
+1. 에서 [회사 포털](../get-started/company-portal.md)구입합니다.
+1. 게스트 [계정의 선행 준비를 검토합니다.](guest-accounts.md)
+1. 네트워크 [구성을 확인합니다.](network.md)
+1. [인증서 및 네트워크 프로필을 준비합니다.](certs-wifi-lan.md)
+1. [데이터에 대한 사용자 액세스를 준비합니다.](authentication.md)
+1. 앱 준비(이 문서).
+1. [매핑된 드라이브를 준비합니다.](mapped-drives.md)
+1. [인쇄 리소스 준비.](printing.md)
+1. 주소 [장치 이름 입니다.](address-device-names.md)
