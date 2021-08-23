@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 직원이 앱과 함께 다운로드하는 Office 방법을 배울 수 있도록 Microsoft 365 Business Premium.
-ms.openlocfilehash: a33e834593025bc25e4766c0cafdee92c54f468febe4f0fea54d8359df091a19
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7c7f28a13438d2cd5974d212d56c6885d8d4850c
+ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809769"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58377766"
 ---
 # <a name="employee-quick-setup"></a>직원 빠른 설정
 
-비즈니스용 Microsoft 365 새로운가요? :::image type="icon" source="../media/video-call-icon.png" border="false":::[이 비디오를 시청하여](../business/microsoft-365-business-start.md) 자세한 정보를 봐야 합니다. 그런 후 다음 단계를 수행하세요.
+비즈니스용 Microsoft 365 새로운가요? :::image type="icon" source="../media/video-call-icon.png" border="false":::[이 비디오를 시청하여](what-is-microsoft-365.md) 자세한 정보를 봐야 합니다. 그런 후 다음 단계를 수행하세요.
 
 :::image type="content" source="../media/m365-employee-quick-setup.png" alt-text="빠른 직원 설정 단계를 보여 주는 이미지입니다.":::
 

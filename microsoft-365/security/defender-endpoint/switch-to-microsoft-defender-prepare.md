@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender로 전환 - 준비
-description: 이것은 Endpoint용 Microsoft Defender로 마이그레이션하기 위한 준비 1단계입니다.
-keywords: migration, Microsoft Defender for Endpoint, edr
+description: 끝점용 Microsoft Defender로 전환할 준비를 합니다. 장치를 업데이트하고 네트워크 연결을 구성합니다.
+keywords: 마이그레이션, 끝점용 Microsoft Defender, 모범 사례
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-symantecmigrate
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 08/11/2021
+ms.date: 08/16/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: a9202cf5da326bd573e85459591f408b04ddad03
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 491f7bd7f45317ca6a910752c2175cfe449bfb14
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257733"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372703"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>끝점용 Microsoft Defender로 전환 - 1단계: 준비
 

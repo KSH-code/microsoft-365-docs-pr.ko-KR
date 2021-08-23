@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 769ccb8f50a6eb407d5a1a338f91af0bfd8ae401
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: c65fcb93740f975c34534e1af244dcca20ce043c
+ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58246213"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58387131"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -38,7 +38,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 | 권한 | 사용 권한 |
 |:---|:---|
-| 액세스 | 읽기, 쓰기, 실행 |
+| Access | 읽기, 쓰기, 실행 |
 | 작업 모드 | 감사, 허용, 방지 |
 | CSP 지원 | 예 |
 | GPO 지원 | 예 |
@@ -51,7 +51,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 - **4.18.2104** 이상 : SerialNumberId 추가, VID_PID, 파일 경로 기반 GPO 지원, ComputerSid
 - **4.18.2105** 이상 : HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId에 대한 와일드카드 지원 추가, 특정 컴퓨터의 특정 사용자 조합, 제거 가능한 SSD(SanDisk Extreme SSD)/UAS(USB 연결된 SCSI) 지원
-- **4.18.2107** 이상: WPD(Windows 이동식 장치) 지원 추가(태블릿 등의 모바일 장치용)
+- **4.18.2107** 이상: WPD(Windows 이동식 장치) 지원 추가(태블릿 등의 모바일 장치용) 고급 헌팅에 AccountName [추가](device-control-removable-storage-access-control.md#view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint)
 
 :::image type="content" source="images/powershell.png" alt-text="PowerShell 인터페이스":::
 
@@ -204,7 +204,7 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 ```kusto
 //events triggered by RemovableStoragePolicyTriggered
 DeviceEvents
-| where ActionType == &quot;RemovableStoragePolicyTriggered&quot;
+| where ActionType == "RemovableStoragePolicyTriggered"
 | extend parsed=parse_json(AdditionalFields)
 | extend RemovableStorageAccess = tostring(parsed.RemovableStorageAccess) 
 | extend RemovableStoragePolicyVerdict = tostring(parsed.RemovableStoragePolicyVerdict) 
@@ -218,14 +218,13 @@ DeviceEvents
 | extend MediaProductId = tostring(parsed.ProductId) 
 | extend MediaVendorId = tostring(parsed.VendorId) 
 | extend MediaSerialNumber = tostring(parsed.SerialNumber) 
-| extend MediaVolume = tostring(parsed.Volume) 
-| project Timestamp, DeviceId, DeviceName, ActionType, RemovableStorageAccess, RemovableStoragePolicyVerdict, MediaBusType, MediaClassGuid, MediaClassName, MediaDeviceId, MediaInstanceId, MediaName, RemovableStoragePolicy, MediaProductId, MediaVendorId, MediaSerialNumber, MediaVolume
+| project Timestamp, DeviceId, DeviceName, InitiatingProcessAccountName, ActionType, RemovableStorageAccess, RemovableStoragePolicyVerdict, MediaBusType, MediaClassGuid, MediaClassName, MediaDeviceId, MediaInstanceId, MediaName, RemovableStoragePolicy, MediaProductId, MediaVendorId, MediaSerialNumber
 | order by Timestamp desc
 ```
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면":::
 
-## <a name="frequently-asked-questions"></a>자주 하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="what-is-the-removable-storage-media-limitation-for-the-maximum-number-of-usbs"></a>최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?
 

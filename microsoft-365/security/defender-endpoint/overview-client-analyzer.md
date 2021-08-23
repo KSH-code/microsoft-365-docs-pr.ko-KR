@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 94824039c582706d8042079b492e1b4beae2cddb
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 604a7d98b25d7b5b858db87c8b8f467ffb8edb83
+ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58254836"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58360110"
 ---
 #  <a name="troubleshoot-sensor-health-using-microsoft-defender-for-endpoint-client-analyzer"></a>Endpoint Client Analyzer용 Microsoft Defender를 사용하여 센서 상태 문제 해결
 
@@ -54,12 +54,12 @@ MDECA는 명확한 센서 상태 문제 외에도 다음과 같은 복잡한 시
 
 ## <a name="requirements"></a>요구 사항
 
--   분석기를 실행하기 전에 프록시 또는 방화벽 구성에서 끝점 서비스 [URL용 Microsoft Defender에](/microsoft-365/security/defender-endpoint/configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)액세스할 수 있도록 하는 것이 좋습니다.
+-   분석기를 실행하기 전에 프록시 또는 방화벽 구성에서 끝점 서비스 [URL용 Microsoft Defender에](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)액세스할 수 있도록 하는 것이 좋습니다.
 
--   분석기는 Endpoint용 Microsoft Defender에 [온보딩하기 Windows](/microsoft-365/security/defender-endpoint/minimum-requirements.md#supported-windows-versions)이전의 지원되는 Windows 버전에서 실행할 수 있습니다. [](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-linux.md#system-requirements) [](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac.md#system-requirements)
+-   분석기는 Endpoint용 Microsoft Defender에 [온보딩하기 Windows](minimum-requirements.md#supported-windows-versions)이전의 지원되는 Windows 버전에서 실행할 수 있습니다. [](microsoft-defender-endpoint-linux.md#system-requirements) [](microsoft-defender-endpoint-mac.md#system-requirements)
 
 -   Windows 장치의 경우 원격으로 라이브 응답을 통해가 아니라 특정 장치에서 [](/microsoft-365/security/defender-endpoint/troubleshoot-collect-support-log)직접 분석기를 실행하는 경우 SysInternals [](/sysinternals/downloads/psexec)PsExec.exe(적어도 일시적으로)를 실행할 수 있습니다.  
     분석기는 로컬 시스템으로 PsExec.exe 클라우드 연결 검사를 실행하고 SENSE 서비스의 동작을 에뮬레이터로 호출합니다.
 
     > [!NOTE]
-    > Windows 장치에서 [PSExec](/microsoft-365/security/defender-endpoint/attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)및 WMI 명령에서 시작된 ASR(공격 표면 축소) 규칙 프로세스 만들기 차단을 사용하는 경우 일시적으로 규칙을 사용하지 않도록 설정하거나 분석기가 예상대로 클라우드에 대한 연결 검사를 실행할 수 있도록 [ASR](/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) 규칙에 대한 제외를 구성할 수 있습니다.
+    > Windows 장치에서 [PSExec](attack-surface-reduction-rules.md#block-process-creations-originating-from-psexec-and-wmi-commands)및 WMI 명령에서 시작된 ASR(공격 표면 축소) 규칙 프로세스 만들기 차단을 사용하는 경우 일시적으로 규칙을 사용하지 않도록 설정하거나 분석기가 예상대로 클라우드에 대한 연결 검사를 실행할 수 있도록 [ASR](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) 규칙에 대한 제외를 구성할 수 있습니다.

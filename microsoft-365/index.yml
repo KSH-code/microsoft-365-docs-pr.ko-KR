@@ -51,7 +51,7 @@ productDirectory:
           text: Teams 음성 솔루션 계획 및 배포
         - url: /MicrosoftTeams/business-voice/whats-business-voice
           text: Microsoft 365 Business Voice
-        - url: /SkypeForBusiness/hybrid/msft-telephony-solutions
+        - url: /MicrosoftTeams/cloud-voice-landing-page
           text: Microsoft 전화 통신 솔루션
     - title: 팀과 공동 작업
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
@@ -155,7 +155,7 @@ additionalContent:
             - text: Microsoft 365 관리 센터
               url: admin/index.yml
             - text: Microsoft 365 Business Premium
-              url: business/index.yml
+              url: admin/index.yml
             - text: 엔터프라이즈용 Microsoft 365
               url: enterprise/index.yml
             - text: Microsoft 365 규정 준수

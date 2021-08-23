@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 6008e59abadc179f8e6580d56007ea88b9415ab5
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 51f85d57a7d05ed298b94632ab35cf215d5679b2
+ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58254846"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359976"
 ---
 #  <a name="run-the-client-analyzer-on-macos-and-linux"></a>macOS 및 Linux에서 클라이언트 분석기 실행
 
@@ -61,7 +61,7 @@ Linux에서 스크립트 실행 권한이 없는 경우 먼저 실행해야 합�
 
 > [!NOTE]  
 > Linux의 경우 분석기에서 결과 출력을 생성하려면 'lxml'이 필요합니다. 설치되지 않은 경우 분석기는 아래 python 패키지에 대한 공식 리포지토리에서 이를 페치하려고 시도합니다.  
-https://files.pythonhosted.org/packages/\*/lxml \* .whl
+https://files.pythonhosted.org/packages/\*/lxml .whl 또한 이 도구는 현재 Python 버전 3 이상을 설치해야 \* 합니다.
 
 예제:  
 

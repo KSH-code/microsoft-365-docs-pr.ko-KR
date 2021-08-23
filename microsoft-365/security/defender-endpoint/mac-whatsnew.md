@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4be4f5048b96a744e0670a4eb0c8fb259a86a18d95eeef31cd4edbf1376553ea
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f2b4c7fc980c0a5ad12e9a8570942c3c81044672
+ms.sourcegitcommit: 5566455f1872dba23cc571281609258740842e8e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898138"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58385922"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender의 새로운
 
@@ -37,6 +37,10 @@ ms.locfileid: "53898138"
 
 > [!IMPORTANT]
 > macOS 11(Big Sur)에서는 끝점용 Microsoft Defender에 추가 구성 프로필이 필요합니다. 이전 버전의 macOS에서 업그레이드하는 기존 고객인 경우 이 페이지에 나열된 추가 구성 프로필을 [배포해야 합니다.](mac-sysext-policies.md)
+
+## <a name="1013797-20121062137970"></a>101.37.97 (20.121062.13797.0)
+
+- 버그 수정을 & 성능 개선
 
 ## <a name="1013428-20121061134280"></a>101.34.28 (20.121061.13428.0)
 

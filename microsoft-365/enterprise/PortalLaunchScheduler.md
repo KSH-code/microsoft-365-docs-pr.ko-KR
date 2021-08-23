@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: 14bbbe671d1708bf0d6674ecab93955066b4093d80b2ced9790030559673dc4d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5dde70565cd9a5ca7812f84d0c62c39c9844ba42
+ms.sourcegitcommit: fac7b4b0095254c87b2a341fa2d53a42193f8957
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813384"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "58417990"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
@@ -41,15 +41,15 @@ ms.locfileid: "53813384"
 > [!NOTE]
 >
 > - 이 기능은 2021년 **5월부터** 대상 릴리스 고객을 위한 SharePoint 커뮤니케이션 사이트 홈 페이지의 설정 패널에서 액세스할 수 있으며 2021년 7월까지 모든 고객이 사용할 수 있습니다.
-> - 이 도구의 PowerShell 버전을 지금 사용할 수 있습니다.
-> - 이 기능은 최신 통신 사이트에서만 SharePoint 수 있습니다.
+> - 이 도구의 PowerShell 버전은 현재 사용할 수 있습니다.
+> - 이 기능은 최신 통신 사이트에서만 사용할 SharePoint 있습니다.
 > - 포털 시작을 사용자 지정하고 예약하려면 사이트에 대한 사이트 소유자 권한이 있어야 합니다.
 > - 시작은 최소 7일 전에 예약해야 합니다. 각 웨이브는 1~7일 동안 지속될 수 있습니다.
 > - 필요한 물결 수는 예상되는 사용자 수에 따라 자동으로 결정됩니다.
-> - 포털 시작을 설정하기 전에 사이트의 [](https://aka.ms/perftool) SharePoint 페이지가 정상 상태인지 확인하기 위해 SharePoint 도구에 대한 페이지 진단을 실행해야 합니다.
+> - 포털 시작을 시작하기 전에 사이트 홈 페이지가 [정상 SharePoint](https://aka.ms/perftool) 도구에 대한 페이지 진단을 실행해야 합니다.
 > - 시작이 끝나면 사이트에 대한 사용 권한이 있는 모든 사용자가 새 사이트에 액세스할 수 있습니다.
 > - 조직에서 [Viva Connections를](/SharePoint/viva-connections)사용하는 경우 사용자는 Microsoft Teams 앱 바에서 조직의 아이콘을 볼 수 있습니다. 그러나 아이콘을 선택하면 사용자가 웨이브가 시작될 때까지 포털에 액세스할 수 없습니다.
-> - 이 기능은 독일, Office 365 21Vianet에서 운영하는 Office 365(중국) 또는 미국 Microsoft 365 사용할 수 없습니다.
+> - 독일, Office 365 21Vianet에서 운영하는 Office 365(중국) 또는 미국 정부 Microsoft 365 사용할 수 없습니다.
 
 ## <a name="understand-the-differences-between-portal-launch-scheduler-options"></a>포털 시작 스케줄러 옵션 간의 차이점을 이해합니다.
 
@@ -115,12 +115,12 @@ ms.locfileid: "53813384"
 
 7. 사이트를 바로 보아야 하는 사용자를 결정하고 사용자가 파도에서 제외된 사용자 필드에 정보를 **입력합니다.** 이러한 사용자는 웨이브에서 제외되기 때문에 시작 전, 실행 중 또는 이후에 리디렉션되지 않습니다.
 
-    > [!NOTE]
-    > 전체 시작에 최대 50개의 고유한 사용자 또는 보안 그룹을 사용할 수 있습니다. 각 시작은 서로 독립적이기 때문에 다른 포털에서 실행을 예약하는 경우 해당 시작에 최대 50명 사용자/보안 그룹을 사용할 수 있습니다. 또한 웨이브당 최대 20개의 고유한 사용자 또는 보안 그룹을 사용할 수 있습니다. 
-    >
-    > 포털 시작 스케줄러는 보안 그룹 및 메일 사용이 가능한 보안 그룹을 지원합니다. 
 
-8. 포털 시작 세부 정보를 확인하고 일정 을 **선택합니다.** 시작이 예약된 후 SharePoint 포털 홈 페이지에 대한 모든 변경 내용은 포털 시작이 다시 시작되기 전에 정상 진단 결과를 수신해야 합니다.
+    >[!NOTE]
+    > 최대 50개의 고유한 사용자 또는 보안 그룹을 추가할 수 있습니다. 파도가 시작되기 전에 50명 이상의 사용자가 포털에 액세스해야 하는 경우 보안 그룹을 사용 합니다. 
+
+8.  포털 시작 세부 정보를 확인하고 일정 을 **선택합니다.** 시작이 예약된 후 SharePoint 포털 홈 페이지에 대한 모든 변경 내용은 포털 시작이 다시 시작되기 전에 정상 진단 결과를 수신해야 합니다.
+
 
 ### <a name="launch-a-portal-with-over-100k-users"></a>100k 사용자가 있는 포털 시작
 
@@ -133,7 +133,7 @@ ms.locfileid: "53813384"
 > - [포털 상태 지침이](https://aka.ms/portalhealth) 따랐습니다.
 > - 시작 날짜는 14일 이내입니다.
 
-**다음 단계를 따릅니다:**
+**다음 단계를 따르세요.**
 
 1. <https://admin.microsoft.com>로 이동합니다.
 2. 새 관리 센터 미리 보기를 사용하고 있는지 확인
@@ -181,7 +181,9 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
 1. [최신 SharePoint Online 관리 셸 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=255251)
 
     > [!NOTE]
-    > 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 프로그램 추가/제거로 이동하여 "SharePoint Online 관리 셸"을 제거합니다.<br>다운로드 센터 페이지에서 언어를 선택하고 다운로드 단추를 클릭합니다. x64 및 x86 .msi 파일 다운로드 중에서 선택하라는 메시지가 표시됩니다. 64 비트 버전의 Windows를 실행하는 경우 x64 파일을, 32 비트 버전을 실행하는 경우 x86 파일을 다운로드합니다. 버전을 모르는 경우에는 [어떠한 Windows 운영 체제 버전을 실행 중인가요?](https://support.microsoft.com/help/13443/windows-which-operating-system)를 참조하세요. 파일을 다운로드한 후 파일을 실행하고 설정 마법사의 단계를 따릅니다.
+    > 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 프로그램 추가/제거로 이동하여 "SharePoint Online 관리 셸"을 제거합니다.
+    > 
+    > 다운로드 센터 페이지에서 언어를 선택하고 다운로드 단추를 클릭합니다. x64 및 x86 .msi 파일 다운로드 중에서 선택하라는 메시지가 표시됩니다. 64 비트 버전의 Windows를 실행하는 경우 x64 파일을, 32 비트 버전을 실행하는 경우 x86 파일을 다운로드합니다. 버전을 모르는 경우에는 [어떠한 Windows 운영 체제 버전을 실행 중인가요?](https://support.microsoft.com/help/13443/windows-which-operating-system)를 참조하세요. 파일을 다운로드한 후 파일을 실행하고 설정 마법사의 단계를 따릅니다.
 
 2. Microsoft 365에서 [전역 관리자 또는 SharePoint 관리자](/sharepoint/sharepoint-admin-role)로 SharePoint에 연결합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
 
@@ -216,7 +218,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
    ```
 
-   예:
+   예제:
 
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType Bidirectional -RedirectUrl "https://contoso.sharepoint.com/teams/oldsite" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
@@ -237,7 +239,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
    ```
 
-   예:
+   예제:
 
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType ToTemporaryPage -RedirectUrl "https://portal.contoso.com/UnderConstruction.aspx" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 

@@ -17,12 +17,12 @@ ms.custom: ''
 description: 관리자는 EOP(Exchange Online Protection)의 고급 배달 정책을 사용하여 지원되는 특정 시나리오(타사 피싱 시뮬레이션 및 SecOps(보안 작업) 사서함으로 배달된 메시지)에서 필터링하지 말아야 하는 메시지를 식별하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1bfde7c5d4decd57586f243c4eafefce8917ac4f
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: fa92adbcca8f01f878649081472ef600075a06d3
+ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247908"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386975"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>사용자에 대한 타사 피싱 시뮬레이션 및 필터되지 않은 메시지의 SecOps 사서함 배달 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "58247908"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예를 들어:
 
 - **타사 피싱 시뮬레이션:** 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
 - **SecOps(보안 작업)** 사서함: 보안 팀에서 필터되지 않은 메시지를 수집 및 분석하는 데 사용하는 전용 사서함(좋음과 불량 모두)입니다.
@@ -89,7 +89,7 @@ ms.locfileid: "58247908"
 
      기존 값을 제거하려면 제거를 클릭합니다. ![아이콘 제거](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
-4. 작업을 마쳤으면 **저장** 을 클릭합니다.
+4. 작업을 마친 후 **저장** 을 클릭합니다.
 
 구성한 SecOps 사서함 항목이 **SecOps** 사서함 탭에 표시됩니다. 변경하려면 탭에서 ![ 편집 아이콘 ](../../media/m365-cc-sc-edit-icon.png) **편집을** 클릭합니다.
 
@@ -346,7 +346,7 @@ Get-PhishSimOverrideRule
 Get-PhishSimOverrideRule | Format-Table Name,Mode
 ```
 
-잘못된 규칙을 식별한 후 이 문서 의 나중에 설명된 바와 같이 **Remove-PhisSimOverrideRule** cmdlet을 사용하여 제거할 [수 있습니다.](#use-powershell-to-remove-phishing-simulation-override-rules)
+잘못된 규칙을 식별한 후 이 문서 의 나중에 설명하는 바와 같이 **Remove-PhishSimOverrideRule** cmdlet을 사용하여 제거할 [수 있습니다.](#use-powershell-to-remove-phishing-simulation-override-rules)
 
 구문과 매개 변수에 대한 자세한 내용은 [Get-PhishSimOverrideRule 을 참조하십시오.](/powershell/module/exchange/get-phishsimoverriderule)
 
@@ -365,6 +365,23 @@ Set-PhishSimOverridePolicy -Identity PhishSimOverridePolicy -Enabled $false
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-PhishSimOverridePolicy를 참조하십시오.](/powershell/module/exchange/set-phishsimoverridepolicy)
+
+### <a name="use-powershell-to-modify-the-simulation-url-settings"></a>PowerShell을 사용하여 시뮬레이션 URL 설정 수정
+
+피싱 시뮬레이션을 수정하려면 다음 구문을 사용합니다.
+
+```powershell
+New-TenantAllowBlockListItems -ListType URL -ListSubType AdvancedDelivery -Entries "<url>"
+```
+URL 구문 형식은 [테넌트 허용/차단 목록에 대한 URL 구문을 참조하세요.](/microsoft-365/security/office-365-security/tenant-allow-block-list#url-syntax-for-the-tenant-allowblock-list)
+
+이 예제에서는 하위 도메인에 대한 시뮬레이션 URL을 contoso.com.
+
+```powershell
+New-TenantAllowBlockListItems -ListType URL -ListSubType AdvancedDelivery -Entries "*.contoso.com"
+```
+
+구문과 매개 변수에 대한 자세한 내용은 [New-TenantAllowBlockListItems를 참조하십시오.](/powershell/module/exchange/new-tenantallowblocklistitems)
 
 ### <a name="use-powershell-to-modify-a-phishing-simulation-override-rule"></a>PowerShell을 사용하여 피싱 시뮬레이션 수정 규칙
 

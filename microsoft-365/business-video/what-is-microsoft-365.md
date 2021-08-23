@@ -20,12 +20,12 @@ search.appverid:
 description: IT 파트를 관리해주는 구독 서비스인 Microsoft 365 Business Premium에 대해 알아보세요.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 3dd2a4c549e38660a7df928645cd6932e1a5b09af72f3f2ec3805a4c7aef1e68
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0a31ce38a0ef6b04be5ad9af90e9e4c54e7b256b
+ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838034"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58377723"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
@@ -49,4 +49,4 @@ Microsoft 365 Business Premium에 가입하면 Microsoft 365 Business Standard�
 
 Microsoft Business Premium이 있는 경우 보안을 설정하고 안전하게 공동 작업을 시작하는 가장 빠른 방법은 [소규모 기업 및 캠페인을 위한 Microsoft 365](../campaigns/index.md) 라이브러리의 지침을 따르는 것입니다. 이 지침은 Microsoft Defending Democracy 팀과 협력하여 정교한 해커가 시작한 사이버 위협으로부터 모든 중소기업 고객을 보호하기 위해 개발되었습니다. 
 
-자세한 세부 내용은 [Microsoft 365 Business 콘텐츠](../business/index.yml)를 참조하세요.
+자세한 세부 내용은 [Microsoft 365 Business 콘텐츠](../admin/index.yml)를 참조하세요.

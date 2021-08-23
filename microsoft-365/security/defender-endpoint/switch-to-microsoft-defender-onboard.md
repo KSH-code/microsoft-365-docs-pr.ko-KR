@@ -1,6 +1,6 @@
 ---
 title: 끝점용 Microsoft Defender로 전환 - 온보딩
-description: 이 단계는 Microsoft가 아닌 솔루션에서 끝점용 Microsoft Defender로 마이그레이션하기 위한 온보딩 3단계입니다.
+description: 끝점용 Microsoft Defender로 전환합니다. 장치를 온보드한 다음 Microsoft가 아닌 다른 솔루션을 제거합니다.
 keywords: migration, Microsoft Defender for Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-symantecmigrate
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 08/12/2021
+ms.date: 08/16/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 4a3ab70906b7fd01a2687afc7022f11a5451dc17
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 07dd668f64c2b2e866ff598f6d4c9e259cc56815
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255490"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372475"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Endpoint용 Microsoft Defender로 전환 - 3단계: 온보딩
 
@@ -141,9 +141,9 @@ Microsoft Defender 바이러스 백신 Server, Windows 1803 이상 또는 Window
 - 끝점용 Defender에 조직의 장치를 온보딩하고 
 - Microsoft Defender 바이러스 백신 및 사용하도록 설정되어 있습니다. 
 
-다음 단계는 비 Microsoft 끝점 보호 솔루션을 제거하는 것입니다. 
+다음 단계는 Microsoft가 아닌 바이러스 백신, 맬웨어 방지 및 끝점 보호 솔루션을 제거하는 것입니다. Microsoft가 아닌 솔루션을 제거하면 Microsoft Defender 바이러스 백신 모드로 전환됩니다. 대부분의 경우 이 문제는 자동으로 수행됩니다.
 
-이 작업에 대한 도움말을 확인한 후 솔루션 공급자의 기술 지원 팀에 문의하세요.
+Microsoft가 아닌 솔루션의 솔루션이 없는 경우 해당 기술 지원 팀에 문의합니다. 
 
 ## <a name="make-sure-defender-for-endpoint-is-working-correctly"></a>끝점용 Defender가 제대로 작동하고 있는지 확인
 

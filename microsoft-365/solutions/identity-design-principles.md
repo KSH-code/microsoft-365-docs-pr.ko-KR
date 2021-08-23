@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: e17c343dbda957144d227c1c82ee83356147a6f80402846c62e5fb75342eb908
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f61c05608bfb9f3b528cf0a717dbe9effbaf31a5
+ms.sourcegitcommit: fac7b4b0095254c87b2a341fa2d53a42193f8957
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53883551"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "58418002"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>ID 및 그 이상을 아우르는 설계자의 관점
 
@@ -133,12 +133,12 @@ Azure AD의 정책 엔진은 조건부 액세스 정책을 [사용하여 구현�
 이 확장된 권한 부여 정의에 동의하는 경우 추가 솔루션을 구현해야 합니다. 구현하는 솔루션은 정책의 동적인 방식과 우선 순위를 지정하려는 위협에 따라 결정됩니다. 이러한 시스템의 몇 가지 예는 다음과 같습니다.
 
 - [Azure AD ID 보호](/azure/active-directory/identity-protection/)
-- [Id용 Microsoft Defender](/azure-advanced-threat-protection/)
+- [ID용 Microsoft Defender](/azure-advanced-threat-protection/)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - [Office 365용 Microsoft Defender](../security/office-365-security/defender-for-office-365.md)
 - [](/cloud-app-security/) Microsoft Cloud App Security(MCAS)
 - [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md)
-- [Microsoft Intune](/mem/intune/)
+- [Microsoft Intune](/mem/intune/)
 - [](../compliance/information-protection.md) Microsoft Information Protection(MIP)
 - [Azure Sentinel](/azure/sentinel/)
 
@@ -283,7 +283,7 @@ Office 365 감사 [로그가 있습니다.](../compliance/search-the-audit-log-i
 - [Exchange 메시지 추적](/powershell/module/exchange/get-messagetrace)
 - 위에서 설명한 위협/UEBA 시스템(예: Azure AD ID 보호, Microsoft Cloud App Security, 끝점용 Microsoft Defender 등)
 - [Microsoft 정보 보호](../compliance/data-classification-activity-explorer.md)
-- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi) 
 - [Microsoft Graph](https://graph.microsoft.com)
 
 먼저 보안 및 규정 준수 프로그램에 필요한 모든 로그 원본을 식별하는 것이 중요합니다. 또한 로그마다 서로 다른 인라인 보존 제한이 있습니다.
@@ -314,7 +314,7 @@ Azure AD, Azure 및 SaaS 간에 높은 권한 역할을 구분할 수 있는 방
 2. 승인 프로세스(Power Platform)를 통해 각각 보내기
 3. 모든 구성 요소가 승인되면 이러한 구성 요소를 통합 결과물(Azure) Microsoft Graph [API로](/azure/active-directory/develop/microsoft-graph-intro) 어셈블합니다.  불가능하지는 않지만 여러 테넌트에 걸쳐 있는 솔루션을 디자인하는 것이 훨씬 [더 복잡합니다.](/azure/active-directory/develop/single-and-multi-tenant-apps)
 
-Azure Role-Based RBAC(액세스 제어)를 사용하면 Azure에 대해 세분화된 액세스 관리를 사용할 수 있습니다. RBAC를 사용하면 사용자에게 작업을 수행하는 데 필요한 몇 가지 권한을 부여하여 리소스에 대한 액세스를 관리할 수 있습니다. 자세한 내용은 이 문서의 범위를 벗어날 수 있지만 RBAC에 대한 자세한 내용은 Azure의 RBAC(역할 기반 액세스 [제어)란?을 참조하세요.](/azure/role-based-access-control/overview) RBAC는 중요하지만 Azure에 대한 거버넌스 고려 사항의 일부일 뿐입니다. [클라우드 채택 프레임워크는](/azure/cloud-adoption-framework/govern/) 자세한 내용을 알아보는 좋은 시작 지점입니다. I like how my friend, Andres Ravinet walks customers step by step though various components to decide on the approach. 다양한 요소에 대한 개성 있는 보기(실제 고객 모델에 대한 프로세스만큼 좋지는 않습니다.)는 같습니다.
+Azure Role-Based RBAC(액세스 제어)를 사용하면 Azure에 대해 세분화된 액세스 관리를 사용할 수 있습니다. RBAC를 사용하면 사용자에게 작업을 수행하는 데 필요한 몇 가지 권한을 부여하여 리소스에 대한 액세스를 관리할 수 있습니다. 자세한 내용은 이 문서의 범위를 벗어날 수 있지만 RBAC에 대한 자세한 내용은 Azure의 RBAC(역할 기반 액세스 [제어)란?을 참조하세요.](/azure/role-based-access-control/overview) RBAC는 중요하지만 Azure에 대한 거버넌스 고려 사항의 일부일 뿐입니다. [클라우드 채택 프레임워크는](/azure/cloud-adoption-framework/govern/) 자세한 내용을 알아보는 좋은 시작 지점입니다. I like how my friend, [Andres Ravinet](https://www.linkedin.com/in/andres-ravinet/), walks customers step by step though various components to decide on the approach. 다양한 요소에 대한 개성 있는 보기(실제 고객 모델에 대한 프로세스만큼 좋지는 않습니다.)는 같습니다.
 
 ![위임된 관리에 대한 Azure 구성 요소의 개성 높은 보기](../media/solutions-architecture-center/identity-beyond-illustration-5.png)
 

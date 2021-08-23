@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender로 전환 - 설치
-description: 2단계, 끝점용 Microsoft Defender로 전환할 때의 설치 프로세스입니다.
-keywords: migration, Microsoft Defender for Endpoint, edr, Windows Defender
+description: 끝점용 Defender로 전환합니다. 설치 프로세스(설치 프로세스 포함)를 Microsoft Defender 바이러스 백신.
+keywords: 마이그레이션, 끝점용 Microsoft Defender, 바이러스 백신, 수동 모드, 설정 프로세스
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-symantecmigrate
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 08/11/2021
+ms.date: 08/16/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 98aaf120b2c9357f53bbc21b2e6e994a76877e8d
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 22add576af2ae7272b5f63b3c4e8e317bf1d85a1
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247458"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372499"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
@@ -48,12 +48,11 @@ ms.locfileid: "58247458"
 4. [에 대한](#add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus)제외 목록에 기존 솔루션을 Microsoft Defender 바이러스 백신.
 5. 장치 그룹, 장치 컬렉션 및 조직 [구성 단위를 설치합니다.](#set-up-your-device-groups-device-collections-and-organizational-units)
 
-
 ## <a name="reinstallenable-microsoft-defender-antivirus-on-your-endpoints"></a>끝점에서 Microsoft Defender 바이러스 백신 다시 설치/사용
 
-특정 버전의 Windows, Microsoft Defender 바이러스 백신 Microsoft 바이러스 백신/맬웨어 방지 솔루션이 설치될 때 제거되거나 비활성화된 것일 수 있습니다. 장치가 Endpoint용 Defender에 온보딩될 때까지 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 솔루션과 함께 활성 모드에서 실행되지 않습니다. 자세한 내용은 [Microsoft Defender 바이러스 백신 호환성](microsoft-defender-antivirus-compatibility.md)을 참조하세요.
+특정 버전의 Windows, Microsoft Defender 바이러스 백신 Microsoft 바이러스 백신/맬웨어 방지 솔루션이 설치될 때 제거되거나 비활성화된 것일 수 있습니다. 끝점을 Windows 끝점에 대한 Defender에 온보딩된 경우 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 솔루션과 함께 수동 모드에서 실행할 수 있습니다. 자세한 내용은 [Endpoint용 Defender를 통해 바이러스 백신 보호를 참조합니다.](microsoft-defender-antivirus-compatibility.md#antivirus-protection-with-defender-for-endpoint)
 
-이제 끝점용 Defender로 전환할 계획이기 때문에 이제 추가 기능을 다시 설치하거나 사용하도록 설정하기 위한 특정 단계를 Microsoft Defender 바이러스 백신. 
+Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 사용하도록 설정하기 위해 특정 단계를 Microsoft Defender 바이러스 백신. 다음 표에서는 클라이언트 및 서버에서 Windows 설명되어 있습니다.
 
 
 | 끝점 유형  | 수행할 작업  |

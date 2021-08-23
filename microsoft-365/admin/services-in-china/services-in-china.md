@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국에서 Office 365, 안정성 및 확장 가능한 클라우드 서비스에 대한 요구 사항을 충족하도록 설계된 21Vianet에서 운영하는 21Vianet에 의해 운영되는 비즈니스에 대해 자세히 알아보아야 합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 3d91c452ddaca7b8214bffcfa7764515f12fac9ebee07fc6d3749767148a652a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 57126d37e8abe64ed2cbee1c1c271de91cf547d8
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822326"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399782"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -78,7 +78,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 |:-----|:-----|
 |조직 외부의 사용자와 전자 메일로 문서, 라이브러리 또는 사이트 공유  <br/> |이 기능은 사용할 수 있지만 기본적으로 해제되어 사용자 국가 외부에서 공유되는 파일에 액세스할 수 있습니다. 관리자는 해당 기능을 설정할 수 있지만 파일이 사용자 국가 외부에서 공유될 수 있음을 나타내는 경고 메시지가 표시됩니다. 조직 외부의 사용자와 공유하려고 하는 사용자도 경고를 받게 됩니다. 자세한 내용은 [share SharePoint files or folders in Office 365.](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)  <br/> |
 |Access Services  <br/> |Access 2013은 지원되지만 새 Access 앱을 추가하는 것은 온라인에서 이 기능이 Office 365 SharePoint 없습니다. Office 365 및 SharePoint Online에서 새 Access 기반 웹앱 및 Access 웹 데이터베이스 만들기는 2018년 4월까지 나머지 웹앱 및 웹 데이터베이스가 2017년 6월부터 시작되지 않습니다. 또한 Access 2010 기능은 지원되지 않습니다. 또한 Access 2010 데이터베이스를 사용하려고 하면 오류가 발생하고 데이터가 손실될 수 있습니다.  <br/> |
-|Microsoft PowerApps  <br/> |개봉박두.  <br/> |
+|Microsoft Power Apps  <br/> |개봉박두.  <br/> |
 |IRM(정보 권한 관리)  <br/> |IRM 기능을 조직에 대한 SharePoint 설정하는 기능이 곧 출시될 예정입니다.  <br/> |
 |텍스트 또는 페이지를 번역하는 능력  <br/> |사용할 수 있지만 기본적으로 해제되어 있습니다. 테넌트 관리자는 이 기능을 켰을 수 있지만 번역 클라우드 서비스는 해당 국가 외부에 있을 수 있습니다. 사용자가 번역 클라우드 서비스로 콘텐츠를 보내지 못하게 하려는 경우 이러한 기능을 사용하지 않도록 설정할 수 있습니다.  <br/> |
 |공개 웹 사이트 ICP 등록  <br/> |중국 인터넷 규정 준수 정책을 사용하려면 공개 웹 사이트에 대한 ICP(인터넷 콘텐츠 공급자) 번호를 다운로드해야 합니다.  |
@@ -177,7 +177,7 @@ Apple Exchange 연락처 데이터를 Apple iCloud에 공유합니다. |이 설�
 |Exchange 호스팅된 전자 메일 암호화  |사용할 수 없습니다.  |
 |Office 365 메시지 암호화  |개봉박두.  |
    
-## <a name="office"></a>Office
+## <a name="office"></a>사무실
 
 |함수|사용 가능|
 |:-----|:-----|
@@ -199,7 +199,7 @@ Apple Exchange 연락처 데이터를 Apple iCloud에 공유합니다. |이 설�
 |리서치 창과 서비스 Bing 통합  <br/> |사용할 수 없습니다.  <br/> |
 |접근성 검사  <br/> |사용할 수 없습니다.  <br/> |
 |수업용 전자 필기장  <br/> |사용할 수 없습니다.  <br/> |
-|Forms  <br/> |사용할 수 없습니다.  <br/> |
+|양식  <br/> |사용할 수 없습니다.  <br/> |
 |몰입형 리더  <br/> |사용할 수 없습니다.  <br/> |
 |온라인 그림 삽입  <br/> |사용할 수 없습니다.  <br/> |
 |모임 세부 정보  <br/> |사용할 수 없습니다.  <br/> |

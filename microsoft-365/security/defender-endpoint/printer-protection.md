@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 738a5ae02cba8078b583b138b4e9dfa8733433f07feb69bce96b663a068aaa4e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5e1d402442b2e8fe01b55cf3d3e07858d9d592dd
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853829"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399746"
 ---
 # <a name="device-control-printer-protection"></a>장치 제어 프린터 보호
 
@@ -49,14 +49,12 @@ Intune의 정책 배포의 경우 OMA-URI를 통해 정책을 배포하려면 �
 
 이러한 요구 사항을 Windows 10 프린터 보호를 배포할 계획인 디바이스가 있는지 확인합니다.
 
-1. Insider 프로그램에 참여합니다.
-
 1. 다음 Windows 업데이트가 설치되어 있습니다.
     - 1809 Windows: 업데이트 Windows [KB5003217](https://support.microsoft.com/topic/may-20-2021-kb5003217-os-build-17763-1971-preview-08687c95-0740-421b-a205-54aa2c716b46) 설치
     - 1909 Windows: 업데이트 Windows [KB5003212](https://support.microsoft.com/topic/may-20-2021-kb5003212-os-build-18363-1593-preview-05381524-8380-4b30-b783-e330cad3d4a1) 설치
     - 2004 Windows
 
-1. 그룹 정책을 통해 정책을 배포하려면 장치가 MDATP에 가입되어야 합니다. MEM을 통해 정책을 배포하려면 장치가 Intune에 가입되어야 합니다.
+2. 그룹 정책을 통해 정책을 배포하려면 디바이스를 끝점용 Microsoft Defender에 온보딩해야 합니다. 정책을 통해 정책을 배포하려면 Microsoft Endpoint Manager 장치를 사용하여 가입해야 Microsoft Intune.
 
 ## <a name="deploy-device-control-printer-protection-policy"></a>장치 제어 프린터 보호 정책 배포
 

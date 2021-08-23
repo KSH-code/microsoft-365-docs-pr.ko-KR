@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: 사서함에 무제한 보관 저장소를 제공하는 자동 확장 보관에 Exchange Online 대해 자세히 알아보습니다.
-ms.openlocfilehash: 20be08209bbd4bad3bf0bdb0e7de4d602ee995a2873116981a9f7d892ffd1e46
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3473145231a70942311b5855036220fa247f0716
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53841275"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372679"
 ---
 # <a name="overview-of-unlimited-archiving"></a>무제한 보관 개요
 
@@ -90,15 +90,15 @@ ms.locfileid: "53841275"
 
 - 자동 확장 저장소 영역으로 이동된 폴더를 포함하여 보관 사서함의 모든 폴더에 액세스할 수 있습니다.
 
+- 보관 사서함에 자동 확장된 저장소 영역이 하나 이상 있는 경우 보관 사서함 또는 보조 보관함에서 폴더를 삭제할 수 없습니다. 즉, 자동 확장 저장소 영역이 프로비전된 후 보관함의 폴더를 삭제할 수 없습니다.
+
+- 자동 확장 저장소 영역의 항목을 삭제할 수 있습니다. 그러나 자동 확장 저장소 영역의 삭제된 항목을 복구하는 데는 지우기 항목 복구 기능을 사용할 수 없습니다.
+
 - 자동 확장 보관 검색은 OWA(웹용 Outlook 검색)에서 사용할 수 있습니다. 온라인 보관과 마찬가지로 추가 저장소 영역으로 이동된 항목을 검색할 수 있습니다. OWA에서 보관함이 검색 범위로 선택되어 있는 경우 모든 보관함(자동 확장된 보관함 포함)과 해당 하위폴더가 검색됩니다.
 
 - 자동 확장 보관 검색은 현재 채널의 Outlook 데스크톱(미리 보기)에서 사용할 수 있습니다. 이 미리 보기 내에서 현재 사서함 범위를 사용할 수 있어 자동 확장된 보관 파일을 검색할 수 있습니다. 이 기능 및 기타 Microsoft Search 지원 기능에 대한 자세한 내용은 에 연결된 Outlook Windows 기능의 Exchange Online 를 [Microsoft Search.](https://techcommunity.microsoft.com/t5/outlook-global-customer-service/how-outlook-for-windows-connected-to-exchange-online-utilizes/ba-p/1715045) 
 
 - 자동 확장된 Outlook 및 읽기/Outlook 읽지 않은 웹용 Outlook 수가 정확하지 않을 수 있습니다.
-
-- 자동 확장 저장소 영역을 지정하는 하위 폴더의 항목을 삭제할 수 있지만 폴더 자체는 삭제할 수 없습니다.
-
-- 지우기 항목 복구 기능을 사용하여 자동 확장된 저장소 영역에서 삭제된 항목을 복구할 수 없습니다.
 
 ## <a name="auto-expanding-archiving-and-other-compliance-features"></a>자동 확장 보관 및 기타 규정 준수 기능
 

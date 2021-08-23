@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 30428565f082610c64c65da88fad614ef755e557fa56b0fc278cc62bf9d88c26
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0b2305472f19ac0424861a30034c2fdd45bd753c
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829318"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399734"
 ---
 # <a name="get-missing-kbs-by-device-id"></a>장치 ID로 누락된 KB 사용
 
@@ -42,6 +42,13 @@ ms.locfileid: "53829318"
 ```http
 GET /api/machines/{machineId}/getmissingkbs
 ```
+## <a name="permissions"></a>사용 권한
+
+이 API를 호출하려면 다음 권한이 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 Use [Microsoft Defender for Endpoint API을 참조합니다.](apis-intro.md)
+
+사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
+:---|:---|:---
+응용 프로그램 | Software.Read.All | '위협 및 취약성 관리 소프트웨어 정보 읽기'
 
 ## <a name="request-header"></a>요청 헤더
 
@@ -87,8 +94,7 @@ GET https://api.securitycenter.microsoft.com/api/machines/2339ad14a01bd0299afb93
             "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB4540673",
             "machineMissedOn": 1,
             "cveAddressed": 97
-        },
-         ...
+        }
         ]
 }
 ```

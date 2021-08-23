@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a67ec7ce5e71ed5b0275f509928d4acaa2b7c4b1f89db971353fc27fb98c650d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7ffd136bd770369248b2f0735deb42e62f372632
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884526"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372823"
 ---
 # <a name="update-machine"></a>컴퓨터 업데이트 
 
@@ -93,7 +93,7 @@ deviceValue|Nullable Enum|디바이스의 [값입니다.](tvm-assign-device-valu
 
 성공하면 이 메서드는 200 OK를 [](machine.md) 반환하고 업데이트된 속성을 사용하여 응답 본문의 컴퓨터 엔터티를 반환합니다.
 
-본문에 있는 컴퓨터 태그 컬렉션에 기존 컴퓨터 태그가 없는 경우 - 400 잘못된 입력 및 누락된 태그/s를 알리는 메시지
+본문의 machine tags 컬렉션에 기존 컴퓨터 태그가 없는 경우 - 모든 태그를 요청 본문에 제공된 태그로 대체합니다.
 
 지정한 ID가 있는 머신을 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 

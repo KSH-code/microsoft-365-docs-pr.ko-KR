@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ea48f3e69630a61c8e3156ab156fb0365ff9c100
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 10fba72dbd22419d9941b20609c45d507cb0b206
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356183"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372523"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -74,14 +74,14 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     ```bash
     sudo yum install yum-utils
     ```
-- 배포 및 버전을 확인하고 에서 가장 가까운 항목(주, 부)을 `https://packages.microsoft.com/rhel/` 식별합니다.
+- 배포 및 버전을 확인하고 에서 가장 가까운 항목(주, 부)을 `https://packages.microsoft.com/config/rhel/` 식별합니다.
 
     다음 표를 사용하여 패키지를 찾기 위한 안내를 제공합니다. 
 
     |     Distro & 버전    |     패키지    |
     |---|---|
-    |     RHEL 8.0-8.5의 경우    |     https://packages.microsoft.com/rhel/8/prod/    |
-    |     RHEL 7.2-7.9의 경우    |     https://packages.microsoft.com/rhel/7/prod/    |
+    |     RHEL 8.0-8.5의 경우    |     https://packages.microsoft.com/config/rhel/8/prod/    |
+    |     RHEL 7.2-7.9의 경우    |     https://packages.microsoft.com/config/rhel/7/prod/    |
 
     다음 명령에서 *[version]* 및 *[channel]을* 식별한 정보로 바 대체합니다.
 
@@ -89,19 +89,19 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     > Oracle Linux의 경우 *[distro]를* "rhel"으로 바하십시오.
 
     ```bash
-    sudo yum-config-manager --add-repo=https://packages.microsoft.com/rhel/[version]/[channel].repo
+    sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/rhel/[version]/[channel].repo
     ```
 
     예를 들어 CentOS 7을 실행하고 있으며 프로비전 채널에서 Linux에 Endpoint용 Defender를 배포하려는 *경우:*
 
     ```bash
-    sudo yum-config-manager --add-repo=https://packages.microsoft.com/rhel/7/prod.repo
+    sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/rhel/7/prod.repo
     ```
 
     또는 선택한 디바이스에서 새로운 기능을 탐색하려는 경우 Linux의 끝점용 Microsoft Defender를 내부자 빠른 채널에 *배포할 수* 있습니다.
 
     ```bash
-    sudo yum-config-manager --add-repo=https://packages.microsoft.com/rhel/7/insiders-fast.repo
+    sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/rhel/7/insiders-fast.repo
     ```
 
 - Microsoft GPG 공개 키를 설치합니다.
@@ -118,18 +118,18 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 
 ### <a name="sles-and-variants"></a>SLES 및 변형
 
-- 배포 및 버전을 확인하고 에서 가장 가까운 항목(주, 부) 식별 `https://packages.microsoft.com/sles/`
+- 배포 및 버전을 확인하고 에서 가장 가까운 항목(주, 부) 식별 `https://packages.microsoft.com/config/sles/`
 
     다음 명령에서 *[distro]* 및 *[version]을* 식별한 정보로 바 대체합니다.
 
     ```bash
-    sudo zypper addrepo -c -f -n microsoft-[channel] https://packages.microsoft.com/[distro]/[version]/[channel].repo
+    sudo zypper addrepo -c -f -n microsoft-[channel] https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
     예를 들어 SLES 12를 실행 중일 때 프로비전 채널에서 Linux에 끝점용 Microsoft Defender를 배포할 *경우* 다음을 실행합니다.
 
     ```bash
-    sudo zypper addrepo -c -f -n microsoft-prod https://packages.microsoft.com/sles/12/prod.repo
+    sudo zypper addrepo -c -f -n microsoft-prod https://packages.microsoft.com/config/sles/12/prod.repo
     ```
 
 - Microsoft GPG 공개 키를 설치합니다.
@@ -152,18 +152,18 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     sudo apt-get install libplist-utils
     ```
 
-- 배포 및 버전을 확인하고 에서 가장 가까운 항목(주, 부)을 `https://packages.microsoft.com/[distro]/` 식별합니다.
+- 배포 및 버전을 확인하고 에서 가장 가까운 항목(주, 부)을 `https://packages.microsoft.com/config/[distro]/` 식별합니다.
 
     아래 명령에서 *[distro]* 및 *[version]을* 식별한 정보로 바 대체합니다.
 
     ```bash
-    curl -o microsoft.list https://packages.microsoft.com/[distro]/[version]/[channel].list
+    curl -o microsoft.list https://packages.microsoft.com/config/[distro]/[version]/[channel].list
     ```
 
     예를 들어 Ubuntu 18.04를 실행 중일 때 프로비전 채널에서 Linux에 끝점용 Microsoft Defender를 배포할 *경우* 다음을 실행합니다.
 
     ```bash
-    curl -o microsoft.list https://packages.microsoft.com/ubuntu/18.04/prod.list
+    curl -o microsoft.list https://packages.microsoft.com/config/ubuntu/18.04/prod.list
     ```
 
 - 리포지토리 구성을 설치합니다.
@@ -269,8 +269,8 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     ```
 
     ```Output
-    deb [arch=arm64,armhf,amd64] https://packages.microsoft.com/ubuntu/18.04/prod insiders-fast main
-    deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.04/prod bionic main
+    deb [arch=arm64,armhf,amd64] https://packages.microsoft.com/config/ubuntu/18.04/prod insiders-fast main
+    deb [arch=amd64] https://packages.microsoft.com/cofig/ubuntu/18.04/prod bionic main
     ```
 
     ```bash
@@ -346,7 +346,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     > mdatp health --field definitions_status
     > ```
     >
-    > 초기 설치를 완료한 후 프록시를 구성해야 할 수도 있습니다. 정적 프록시 검색에 대한 [Linux의 끝점에 대한 Defender 구성: 설치 후 구성을 참조합니다.](/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration)
+    > 초기 설치를 완료한 후 프록시를 구성해야 할 수도 있습니다. 정적 프록시 검색에 대한 [Linux의 끝점에 대한 Defender 구성: 설치 후 구성을 참조합니다.](linux-static-proxy-configuration.md#post-installation-configuration)
 
 5. 검색 테스트를 실행하여 장치가 제대로 온보드 및 서비스에 보고되었는지 확인합니다. 새로 온보드된 디바이스에서 다음 단계를 수행합니다.
 

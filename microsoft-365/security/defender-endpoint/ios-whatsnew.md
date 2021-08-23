@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e7916ad50a6331baedb4a033e9b8aaa881b13e536153c4069bbfe36fa28ba670
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1ccd55b7c87f33ba948bbef42b1ddc256299749c
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53902850"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372811"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender의 새로운
 
@@ -34,6 +34,10 @@ ms.locfileid: "53902850"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
+
+## <a name="1120020101"></a>1.1.20020101
+- UX 향상 - 끝점용 Microsoft Defender의 모양이 새로운 모양입니다.
+- 버그 수정
 
 ## <a name="1117240101"></a>1.1.17240101
 - Intune을 통한 MAM(모바일 응용 프로그램 관리)은 이 버전에서 일반적으로 지원됩니다. 자세한 내용은 앱 보호 정책에 사용할 수 있는 끝점 위험 신호에 대한 [Microsoft Defender를 참조하세요.](https://techcommunity.microsoft.com/t5/intune-customer-success/microsoft-defender-for-endpoint-risk-signals-available-for-your/ba-p/2186322)

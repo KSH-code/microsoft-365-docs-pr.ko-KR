@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5afc965ab72ccdf062826a4157c6949f9a83fd165feb5b31f72dd67fda4e9e93
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f56544ee8447c1bd0db5e493193357a50a1b1904
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53839582"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372547"
 ---
 # <a name="machine-resource-type"></a>컴퓨터 리소스 유형
 
@@ -57,7 +57,7 @@ ms.locfileid: "53839582"
 [장치 값 설정](set-device-value.md)| [machine collection(컴퓨터](machine.md) 컬렉션) | 디바이스의 [값을 설정합니다.](tvm-assign-device-value.md)
 [컴퓨터 업데이트](update-machine-method.md) |[machine collection(컴퓨터](machine.md) 컬렉션) | 컴퓨터의 업데이트 상태를 얻습니다.
 
-## <a name="properties"></a>특성
+## <a name="properties"></a>속성
 
 속성 |   유형   |   설명
 :---|:---|:---
@@ -73,8 +73,8 @@ lastIpAddress | String | 컴퓨터의 로컬 NIC에 대한 마지막 [IP입니�
 lastExternalIpAddress | String | 컴퓨터로 인터넷에 [](machine.md) 액세스한 마지막 IP입니다.
 healthStatus | Enum | [컴퓨터](machine.md) 상태. 가능한 값은 "Active", "Inactive", "ImpairedCommunication", "NoSensorData", "NoSensorDataImpairedCommunication" 및 "Unknown"입니다. 
 rbacGroupName | String | 컴퓨터 그룹 이름입니다.
+rbacGroupId | String | 컴퓨터 그룹 ID입니다.
 riskScore | Nullable Enum | 끝점에 대한 Microsoft Defender에서 평가한 위험 점수입니다. 가능한 값은 'None', 'Informational', 'Low', 'Medium' 및 'High'입니다.
-exposureScore | Nullable Enum | [Microsoft](tvm-exposure-score.md) Defender for Endpoint에서 평가한 노출 점수입니다. 가능한 값은 'None', 'Low', 'Medium' 및 'High'입니다.
 aadDeviceId | Nullable 표현 Guid | AAD 장치 [ID(장치가](machine.md) AAD에 가입된 경우).
 machineTags | 문자열 컬렉션 | 컴퓨터 [태그](machine.md) 집합입니다.
 exposureLevel | Nullable Enum | 끝점용 Microsoft Defender에서 평가한 노출 수준입니다. 가능한 값은 'None', 'Low', 'Medium' 및 'High'입니다.

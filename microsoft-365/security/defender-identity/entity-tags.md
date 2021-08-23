@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: 2dcb7767be7145420c08161782f27a51ec38727ae5d427459c4af1d9676cd37d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e3e8ff4f94b0295b4ce42e20175a3547cfb4ae23
+ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53844807"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359923"
 ---
 # <a name="defender-for-identity-entity-tags-in-microsoft-365-defender"></a>Id 엔터티 태그에 대한 defender Microsoft 365 Defender
 
@@ -34,7 +34,7 @@ ms.locfileid: "53844807"
 
 ![다음 설정 다음 ID로 이동](../../media/defender-identity/settings-identities.png)
 
-태그 설정은 설정 **표시됩니다.**
+태그 설정은 엔터티 태그 **아래에 표시됩니다.**
 
 ![태그 설정 유형](../../media/defender-identity/tag-settings.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "53844807"
 
 사용자, 장치 또는 그룹을 중요한 것으로 수동으로 태그를 지정할 수도 있습니다.
 
-1. 중요한 **태그 를 선택합니다.** 그러면 기존 중요한 **사용자,** 장치 **및** 그룹이 볼 **수 있습니다.**
+1. 중요 **를 선택합니다.** 그러면 기존 중요한 **사용자,** 장치 **및** 그룹이 볼 **수 있습니다.**
 
     ![중요한 엔터티](../../media/defender-identity/sensitive-entities.png)
 
@@ -64,7 +64,7 @@ Honeytoken 엔터티는 악의적인 공격자에 대한 트래핑으로 사용�
 
 중요한 계정에 태그를 지정하는 방식으로 **Honeytoken** 태그를 사용하여 사용자 또는 장치에 태그를 지정할 수 있습니다.
 
-1. **Honeytoken 태그 를 선택합니다.** 그런 다음 기존 허니투게한 사용자 및 **장치 를** **볼 수 있습니다.**
+1. **Honeytoken 을 선택합니다.** 그런 다음 기존 허니투게한 사용자 및 **장치 를** **볼 수 있습니다.**
 
     ![Honeytoken 엔터티](../../media/defender-identity/honeytoken-entities.png)
 

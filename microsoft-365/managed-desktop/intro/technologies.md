@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9cd36b1d536ae6bcfe22fdc6088b3dd0de87184ee085b60bb7e5f1423a536ab8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 89a495d5832d1a16e062c7df8e31ea3a3333bf00
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863922"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399710"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Microsoft Managed Desktop 기술
 
@@ -35,7 +35,7 @@ Microsoft 365 Enterprise 사용자에 대해 라이선스가 Microsoft Managed D
 OneDrive |Azure Active Directory Single Sign-On은 사용자가 처음 로그인할 때 사용할 수 OneDrive.<br><br>"데스크톱", "문서" 및 "그림" 폴더에 대한 알려진 폴더 리디렉션이 포함됩니다. 를 사용하도록 설정하고 Microsoft Managed Desktop.
 스토어 앱 | Microsoft Sway 및 Power BI 함께 배송되지 않습니다. 이러한 앱은 앱에서 다운로드할 수 Microsoft Store.
 Win32 응용 프로그램 | Teams 함께 제공되지 않지만 Microsoft에서 패키지로 Microsoft Managed Desktop 장치용입니다. Azure Information Protection 클라이언트는 디바이스와 함께 제공되지 않지만 배포를 위해 패키지로 만들 수 있습니다.
-웹 응용 프로그램 | Yammer Office 브라우저, Delve, Flow, StaffHub, PowerApps 및 Planner는 디바이스와 함께 배송되지 않습니다. 사용자는 브라우저를 사용하여 이러한 응용 프로그램의 웹 버전에 액세스할 수 있습니다.
+웹 응용 프로그램 | Yammer, Office, Delve, Flow, StaffHub, Power Apps 및 Planner에서 사용할 수 없습니다. 사용자는 브라우저를 사용하여 이러한 응용 프로그램의 웹 버전에 액세스할 수 있습니다.
 
 ## <a name="windows-10-enterprise-e5-or-e3-with-microsoft-defender-for-endpoint"></a>Windows 10 Enterprise 끝점용 Microsoft Defender를 통해 E5 또는 E3
 

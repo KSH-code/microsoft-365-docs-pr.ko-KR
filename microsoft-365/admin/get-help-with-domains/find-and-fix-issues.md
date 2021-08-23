@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: DNS 레코드가 올바르게 설정되어 있는지 확인하여 사용자 지정 도메인을 설정하는 동안 발생할 수 있는 문제를 추적하는 방법을 학습합니다.
-ms.openlocfilehash: 035d5855b539efe772254fe195a99c3fb2a855d4c592e8f085e866ab4d196b22
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5dd84e829ed1cd8ea1cc9738ac88eaabcba52648
+ms.sourcegitcommit: d792743bc21eec87693ebca51d7307a506d0bc43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825790"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "58450098"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결
 
@@ -56,7 +56,6 @@ ms.locfileid: "53825790"
 - [웹 사이트에 액세스하는 것이 작동하지 않는가요?](#accessing-your-website-isnt-working)
 
 ## <a name="cant-verify-your-domain"></a>도메인을 확인할 수 없나요?
-<a name="BKMK_verify"> </a>
 
 다음과 같이 몇 가지 일반적인 이유 때문에 도메인 확인이 예상대로 작동하지 않을 수 있습니다.
   
@@ -67,7 +66,6 @@ ms.locfileid: "53825790"
 3. **레코드가 인터넷에서 업데이트되지 않았습니다.** 일반적으로 Microsoft에서 새 레코드를 확인하는 데 몇 분 정도면 되지만 경우에 따라 몇 시간이 걸릴 수도 있습니다. 
     
 ## <a name="outlook-isnt-working"></a>Outlook이 작동하지 않나요?
-<a name="BKMK_OutlookBroken"> </a>
 
 도메인에 대해 MX 레코드 및 기타 DNS 레코드를 올바르게 설정했으나 메일이 작동하지 않는 경우 [Outlook 문제 해결](/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)을 도와드리겠습니다.
   
@@ -86,7 +84,6 @@ Microsoft 365 도메인을 추가하면 일반적으로 도메인의 MX 레코�
 소유권, [비영리](../setup/domains-faq.yml) Microsoft 365 또는 교육 상태를 증명하려면 Yammer 도메인 확인의 지침을 확인하여 필요한 모든 단계를 완료해야 합니다. 각 상황마다 약간 다릅니다. 
   
 ## <a name="services-not-working-with-your-domain"></a>도메인에서 서비스가 작동하지 않나요?
-<a name="BKMK_Test"> </a>
 
 Microsoft에서는 도메인의 DNS 설정 문제를 해결할 수 있도록 지원합니다. 이 Microsoft 365 문제 해결사는 수정이 필요한 모든 레코드와 레코드를 설정해야 하는 레코드를 정확하게 보여 주게 됩니다. 
 
@@ -94,11 +91,10 @@ Microsoft에서는 도메인의 DNS 설정 문제를 해결할 수 있도록 지
 > DNS를 올바르게 설정했지만 데스크톱의 Outlook에서 메일이 작동하지 않나요? 비즈니스에 [대해](/exchange/mail-flow-best-practices/mail-flow-best-practices) 올바르게 설정되어 있는지 확인하려면 Microsoft 365 메일 흐름 시나리오를 확인하세요. 또는 전자 메일과 관련된 추가 문제 해결 도움말을 [Outlook 문제 해결](/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)에서 확인합니다. 
   
 ## <a name="accessing-your-website-isnt-working"></a>웹 사이트에 액세스할 수 없나요?
-<a name="BKMK_Website"> </a>
 
 DNS 문제를 해결한 경우에도 여전히 문제가 있는 경우 다음 방법 중 하나를 수행합니다.
   
-- 다른 사용자가 www.mydomain.com의 내 웹 사이트에 연결할 수 없는 경우: [웹 사이트 문제 추적](../setup/add-domain.md)
+- 웹 사이트 : *contoso.com* 추적에서 웹 사이트에 대한 정보를 얻을 [수 없습니다.](../setup/add-domain.md)
     
 - 웹 사이트를 지정하기 위해 A 레코드 또는 CNAME 레코드를 업데이트할 [수 없습니다.](../setup/add-domain.md) Microsoft 365
 

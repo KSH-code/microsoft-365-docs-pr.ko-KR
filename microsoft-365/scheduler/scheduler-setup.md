@@ -8,27 +8,36 @@ ms.topic: article
 ms.service: scheduler
 localization_priority: Normal
 description: 사용자에 대한 스케줄러 Microsoft 365.
-ms.openlocfilehash: 36d273dc75dbb2ff208c4f5036915b1b241de0b743f8ca6c95498a110daf8334
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a6d642364abcf4672d59494614daaf2d9e248208
+ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884922"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386939"
 ---
 # <a name="setting-up-scheduler-for-microsoft-365"></a>Microsoft 365용 스케줄러 설정
 
+테넌트 관리자는 스케줄러 도우미 사서함을 설정하고 모임 이끌이에 대한 스케줄러 라이선스를 획득하여 예약 서비스에 대한 스케줄러를 Microsoft 365 합니다. 
 
-다음의 선행 Microsoft 365 스케줄러를 설정해야 합니다.
+## <a name="licensing"></a>라이선싱
 
-| 필요한 것 | 설명 |
+자세한 내용은 다음을 Microsoft 365 [라이선싱을 위한 스케줄러를 통해 확인할 수 있습니다.](https://wwww.microsoft.com/microsoft-365/meeting-scheduler-pricing)
+
+>[참고] 모임 참석자에는 스케줄러 또는 예약 Microsoft 365 없습니다. <br>스케줄러 도우미 사서함에는 스케줄러 Microsoft 365 라이선스가 필요하지 않습니다.
+
+## <a name="prerequisites"></a>전제 조건
+
+| 필수 구성 요소 | 설명 |
 |-------------------|-------------|
-|Cortana 사서함 |테넌트 관리자는 "Cortana" 사서함(즉, cortana@yourdomain.com) 역할을 하게 cortana@yourdomain.com.         |
-|Exchange Online 사서함 |사용자에게 메일 및 Exchange Online 있어야 합니다.         |
-|스케줄러 라이선스 |라이선스 및 가격 정보는 에 대한 [스케줄러를 Microsoft 365.](https://www.microsoft.com/en-us/microsoft-365/meeting-scheduler-pricing)        |
+|테넌트의 스케줄러 도우미 사서함 |Exchange 장비는 테넌트의 스케줄러 도우미 사서함 역할을 하여 전자 메일을 보내고 받는 리소스 사서함을 Cortana. 모든 전자 메일이 Cortana 정책에 따라 테넌트의 Cortana 사서함에 보존됩니다. 스케줄러 도우미 사서함의 이름은 일반적으로 "Cortana" 또는 "Cortana Scheduler"로 지정됩니다. 이 경우 도우미의 모든 전자 메일에 서명이 Cortana.</br> - 리소스 사서함에 대한 장비 Exchange 만들기</br> - 사서함의 표시 이름과 기본 SMTP 주소의 이름을 "Cortana" 또는 <cortana@yourdomain.com> "Cortana <cortana.scheduler@yourdomain.com> 지정합니다.</br>**참고:** 스케줄러 도우미 사서함에는 스케줄러 Microsoft 365 라이선스가 필요하지 않습니다.|
+|Exchange Online 사서함 |모임 이끌이는 일반적으로 Exchange Online 라이선스의 일부로 사서함 및 일정을 Microsoft 365 합니다. 또한 모임 이끌이에게 스케줄러 라이선스가 있어야 합니다. 스케줄러 라이선스를 사용하면 스케줄러 도우미가 모임 이끌이의 사서함과 일정을 사용하여 모임을 예약할 수 있습니다.</br></br> 라이선스 및 가격 정보는 Microsoft 365 대한 스케줄러를 참조하세요.  </br></br>**참고:** 모임 참석자에는 스케줄러 또는 예약 Microsoft 365 없습니다. 모임 참석자만 테넌트 내부 또는 외부에 있을 수 있습니다. 모임 참석자만 전자 메일 주소에 액세스하면 됩니다.|
 
-## <a name="create-a-mailbox-for-cortana"></a>사용자 사서함을 Cortana
 
-테넌트의 Exchange 사서함은 테넌트의 Cortana 사서함 역할을 하여 테넌트와 전자 메일을 보내고 받을 Cortana. 모든 전자 메일이 Cortana 정책에 따라 테넌트의 Cortana 사서함에 보존됩니다.
+## <a name="setting-up-the-scheduler-assistant-mailbox"></a>스케줄러 도우미 사서함 설정
+
+스케줄러 도우미 사서함은 추가 Exchange 또는 스케줄러 라이선스가 필요하지 않은 Microsoft 365 유형 사서함입니다. 스케줄러 도우미의 모든 전자 메일이 "Cortana" 또는 "Cortana 스케줄러")에 서명될 것이기 때문에 사서함의 표시 이름과 기본 SM Cortana TP 주소에는 Cortana 이름이 포함되어야 <cortana@yourdomain.com> <cortana.scheduler@yourdomain.com> 합니다. 스케줄러 도우미 사서함을 만든 후 사서함을 스케줄러 도우미 사서함으로 지정해야 합니다. 스케줄러 도우미 사서함을 지정하면 Cortana 대신 모임을 예약할 수 있습니다.
+
+
 
 - 사용자 Microsoft 365 관리 센터 사서함을 만들 수 있습니다. 30일 보존 정책이 권장됩니다. 
 - 사서함의 Cortana SMTP 주소에 있는 이름을 사용하세요. "Cortana@yourdomain.com, 'CortanaScheduler@contoso.com' 또는 'Cortana. Scheduler@yourdomain.com 권장됩니다.
@@ -37,42 +46,84 @@ ms.locfileid: "53884922"
 
 사용자 지정 스케줄러에 Cortana 사서함을 만든 후 공식적으로 사서함을 Microsoft 365 합니다. 사용자 Cortana 사서함을 지정한 후 사용자를 대신하여 모임을 예약할 수 있습니다.
 
-예약된 Cortana 지정하려면 권한이 부여된 관리자가 한 줄 PowerShell 명령을 실행해야 합니다. 
+#### <a name="connect-to-powershell"></a>커넥트 PowerShell로
 
-1. 커넥트 Microsoft 365 원격 PowerShell 실행 공간을 지원할 수 있습니다.
+사용자 Microsoft 365 관리 센터 사서함을 만들 수 있습니다. 30일 보존 정책이 권장됩니다.
+사서함의 Cortana SMTP 주소에 있는 이름을 사용하세요. "Cortana@yourdomain.com, 'CortanaScheduler@contoso.com' 또는 'Cortana. Scheduler@yourdomain.com 권장됩니다.
 
-2. 다음 PowerShell 스크립트를 실행하여 스케줄러에 대한 사서함을 지정합니다.
+```PowerShell
 
-    ```powershell
-    Set-mailbox cortana@contoso.com -SchedulerAssistant:$true
-    ```
-    
-    Cortana 스케줄러 사서함에서 이 "설정" 명령을 실행하면 사서함에 새 "PersistedCapability"가 설정되어 이 사서함이 "SchedulerAssistant"입니다.
+$domain="yourdomain.com  "
+$tenantAdmin="<tenantadmin>@$domain"
+Import-Module ExchangeOnlineManagement
+Connect-ExchangeOnline -UserPrincipalName $tenantAdmin
 
-> [!NOTE]
-> 이전에 수행하지 않은 경우 PowerShell로 조직을 연결하기 위해 다음 커넥트 [Microsoft 365 수행합니다.](../enterprise/connect-to-microsoft-365-powershell.md)
-
-조직에서 현재 일정 예약자 도우미로 설정된 사서함을 Cortana get 함수를 실행합니다.
-
-```powershell
-Get-mailbox | where {$_.PersistedCapabilities -Match "SchedulerAssistant"}
 ```
 
-> [!IMPORTANT]
-> Scheduler 사서함이 전체 프로비전을 완료하여 SchedulerAssistant 기능을 설정하는 데 최대 2시간이 걸릴 수 있습니다.
+#### <a name="create-the-scheduler-assistant-mailbox"></a>스케줄러 도우미 사서함 만들기
+
+```PowerShell
+New-Mailbox -Name Cortana -Organization $domain -DisplayName "Cortana Scheduler" -Equipment 
+Set-CalendarProcessing Cortana@$domain -DeleteNonCalendarItems $false 
+
+```
+    
+#### <a name="designate-the-scheduler-assistant-mailbox"></a>스케줄러 도우미 사서함 지정
+
+```PowerShell
+
+Set-mailbox cortana@$domain -SchedulerAssistant:$true
+
+
+```
+Cortana 스케줄러 도우미 사서함에서 이 "set" 명령을 실행하면 사서함에 새 "PersistedCapability"가 설정되어 이 사서함이 "SchedulerAssistant"입니다.
+
+>[!Note]
+> 조직을 PowerShell에 연결하는 방법에 대한 자세한 내용은 PowerShell을 사용하여 커넥트 [Microsoft 365 참조합니다.](/microsoft-365/enterprise/connect-to-microsoft-365-powershell)
+
+### <a name="verifying-the-scheduler-assistant-mailbox"></a>스케줄러 도우미 사서함 확인
+
+스케줄러 도우미 사서함이 만들어졌다는 확인
+
+```PowerShell
+
+Get-CalendarProcessing cortana$domain <cortana>@microsoft.com   | fl DeleteNonCalendarItems`
+
+```
+
+결과는 "false"입니다.
+
+<br>
+
+```PowerShell
+
+Get-Mailbox -Identity <cortana>@microsoft.com$domain -Organization microsoft.com$domain | fl *type*
+
+```
+
+결과는
+- ResourceType: Equipment
+- Remote RecipientType: None
+- RecipientType: UserMailbox
+- RecipientTypeDetails: EquipmentMailbox
+
+</br>
+
+### <a name="to-discover-which-mailbox-is-the-scheduler-assistant-mailbox"></a>스케줄러 도우미 사서함인 사서함을 검색하기 위해
+
+```PowerShell
+
+Get-Mailbox -ResultSize Unlimited | where {$_.PersistedCapabilities -Match "SchedulerAssistant"}
+
+```
+
+>[중요] 스케줄러 도우미 사서함이 전체 프로비전을 완료하여 SchedulerAssistant 기능을 설정하는 데 몇 시간이 걸릴 수 있습니다.
+
 
 ## <a name="exchange-online-mailbox"></a>Exchange Online 사서함
-스케줄러 라이선스는 모임 이끌이가 모임 예약 Microsoft 365 일정 작업을 스케줄러 도우미에 위임할 수 있도록 하는 추가 기능입니다. 일반적으로 예약 라이선스를 통해 스케줄러가 Microsoft 365 모임 이끌이에게는 다음 구성 요소가 필요합니다.
+스케줄러 라이선스는 모임 이끌이가 모임 일정 작업을 스케줄러 Microsoft 365 도우미에 위임할 수 있도록 하는 추가 기능입니다. 모임 이끌이는 사서함을 스케줄러 도우미 사서함으로 지정하는 것 외에도 일반적으로 스케줄러가 작동하기 위해 Microsoft 365 라이선스를 통해 Exchange Online 사서함 및 일정을 예약하고 예약자 라이선스가 필요합니다. 모임 참석자에는 스케줄러 라이선스 또는 예약 Microsoft 365 필요하지 않습니다.
 
-- 스케줄러 도우미 사서함으로 지정된 사서함
-- 스케줄러 라이선스
-- Exchange Online 사서함 및 일정
-
-모임 참석자에는 Scheduler 또는 Microsoft 365 필요하지 않습니다.
-
-## <a name="scheduler-end-user-license-requirements"></a>스케줄러 최종 사용자 라이선스 요구 사항
-
-스케줄러 라이선스에는 다음 라이선스 중 하나가 필요합니다.
+스케줄러 추가 기능을 구입하려면 다음 라이선스 중 하나가 필요합니다.
 
 - Microsoft 365 E3, A3, E5, A5
 - Business Basic, Business, Business Standard, Business Premium
@@ -88,4 +139,4 @@ Get-mailbox | where {$_.PersistedCapabilities -Match "SchedulerAssistant"}
 - Microsoft 365 수탁자 German Telekom을 사용하는 독일 클라우드와 함께 사용
 - 정부 클라우드(GCC, 소비자, GCC High 또는 DoD 포함)
 
-스케줄러는 데이터 위치가 독일 데이터 센터에 없는 독일의 사용자를 지원합니다.
+스케줄러는 데이터 위치가 독일 데이터 센터가 아닌 독일의 사용자를 지원합니다.

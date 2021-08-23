@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: d4ae05517583a8368ba7936a942e5ec06a9414f7
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 1ecf74b1fe53c20d72f472796c6a7eaf5ded9741
+ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257327"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58360122"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>장치 검색에 자주 묻는 질문
 
@@ -65,7 +65,7 @@ ms.locfileid: "58257327"
  기본적으로 Windows 10 버전 1809 이상에서 실행되는 모든 온보드 장치는 ARP, CDP, DHCP, DHCPv6, IP(헤더), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP(헤더), UDP(헤더), WSD 프로토콜을 캡처하고 분석합니다.
 
 ## <a name="which-protocols-do-you-use-for-active-probing-in-standard-discovery"></a>표준 검색에서 활성 프로비전에 어떤 프로토콜을 사용하나요?
- 장치가 표준 검색을 실행하도록 구성된 경우 노출된 서비스는 ARP, FTP, HTTP, HTTPS, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL, RPC, mDNS, DHCP, AFP, CrestonCIP, IphoneSync 프로토콜을 사용하여 프로브되고 있습니다.
+ 장치가 표준 검색을 실행하도록 구성된 경우 노출된 서비스는 ARP, FTP, HTTP, HTTPS, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL, RPC, mDNS, DHCP, AFP, CrestonCIP, IphoneSync, WinRM, VNC, SLP
 
 ## <a name="how-can-i-exclude-targets-from-being-probed-with-standard-discovery"></a>표준 검색을 사용하여 대상이 프로브되지 못하게 제외하는 방법
  네트워크에 적극적으로 프로브하지 말아야 하는 장치가 있는 경우 제외 목록을 정의하여 검사하지 못하게 할 수도 있습니다. 구성은 장치 검색 설정 페이지에서 사용할 수 있습니다.

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용하여 추가 기능을 배포할 수 있도록 테넌트와 사용자가 요구 사항을 Office 확인합니다.
-ms.openlocfilehash: c357f0fd7ba729156b5a632aa46510c39683ac2d
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 98496ce57c57cbce10178cc2be99079d8733a0ca
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247897"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372511"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 적합한지 확인
 
@@ -106,9 +106,9 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
    이 명령은  *_TenantDomain을_* 묻는 메시지를 표시합니다(예: *TailspinToysIncorporated.onmicrosoft). </span> com*) 및  *_TenantAdmin_* 자격 증명(전역 관리자 자격 증명 사용)을 입력한 다음 동의를 요청합니다.
 
    > [!NOTE]
-   > 테넌트의 사용자 수에 따라 검사를 완료하는 데 몇 분 또는 몇 시간이 걸릴 수 있습니다.
-
-도구 실행이 완료되면 쉼표로 구분된(.csv) 형식으로 출력 파일이 생성됩니다. 파일은 기본적으로 **C:\windows\system32에** 저장됩니다. 출력 파일에는 다음 정보가 포함되어 있습니다.
+   > 테넌트의 사용자 수에 따라 검사를 완료하는 데 몇 분 또는 몇 시간이 걸릴 수 있습니다. 
+  
+도구 실행이 완료되면 쉼표로 구분된(.csv) 형식으로 출력 파일이 생성됩니다. 파일은 기본적으로 현재 작업 **디렉터리에** 저장됩니다. 출력 파일에는 다음 정보가 포함되어 있습니다.
 
 - 사용자 이름
 
@@ -155,10 +155,10 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 
 중앙에서 배포된 웹용 Office 앱(Word, Excel 등)을 사용하는 동안 추가 기능을 로드하는 데 문제가 발생하는 경우 Microsoft 지원에 문의해야 할 수 있습니다(방법[자세히).](../../business-video/get-help-support.md) 지원 티켓의 Microsoft 365 환경에 대한 다음 정보를 제공합니다.
 
-|**플랫폼**|**디버그 정보**|
+| 플랫폼 | 디버그 정보 |
 |:-----|:-----|
-|Office  <br/> | Charles/Fiddler 로그  <br/>  테넌트 ID([방법 학습)](/onedrive/find-your-office-365-tenant-id)  <br/>  CorrelationID. 사무실 페이지 중 하나의 원본을 보고 상관 관계 ID 값을 찾아서 지원에 전송합니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
-|리치 클라이언트(Windows, Mac)  <br/> | Charles/Fiddler 로그  <br/>  클라이언트 앱의 빌드 번호(파일/계정의 스크린샷으로 **가급적)**  <br/> |
+|사무실 | Charles/Fiddler 로그  <br/>  테넌트 ID([방법 학습)](/onedrive/find-your-office-365-tenant-id)  <br/>  CorrelationID. 사무실 페이지 중 하나의 원본을 보고 상관 관계 ID 값을 찾아서 지원에 전송합니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>` |
+|리치 클라이언트(Windows, Mac) | Charles/Fiddler 로그  <br/>  클라이언트 앱의 빌드 번호(파일/계정의 스크린샷으로 **가급적)** |
 
 ## <a name="related-content"></a>관련 콘텐츠
 

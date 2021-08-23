@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: 0c2d8fd75b33903696682e6fd196ef4ce12ab2ca101cfe32e23fbce0614dd8a5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e2052652e1ded79d8605c5b5f84b82d8c6504fd9
+ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53844537"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58360143"
 ---
 # <a name="microsoft-defender-for-identity-sensor-health-and-settings-in-microsoft-365-defender"></a>Microsoft Defender for Identity 센서 상태 및 설정 Microsoft 365 Defender
 
@@ -84,28 +84,6 @@ ms.locfileid: "53844537"
 1. Access 키를 **복사합니다.** ID용 Defender 센서가 ID 인스턴스에 대한 Defender에 연결하려면 선택키가 필요합니다. 이 액세스 키는 센서 배포를 위한 일회용 암호로, 인증 및 TLS 암호화를 위해 인증서를 사용하여 모든 통신이 수행됩니다. 새 **선택키를** 다시 생성해야 하는 경우 Regenerate 키 단추를 사용하세요. 이전에 배포된 센서에는 영향을 주지 않습니다. 센서는 센서의 초기 등록에만 사용되지 않습니다.
 
 1. ID용 Defender 센서를 설치하는 전용 서버 또는 도메인 컨트롤러에 패키지를 복사합니다.
-
-## <a name="configure-directory-services-account"></a>디렉터리 서비스 계정 구성
-
-센서를 Active Directory 도메인에 연결하려면 디렉터리 서비스 계정을 구성해야 합니다.
-
-1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
-
-    ![다음 설정 다음 ID로 이동](../../media/defender-identity/settings-identities.png)
-
-1. 디렉터리 **서비스 계정을 선택합니다.** 어떤 계정이 어떤 도메인과 연결되는지 볼 수 있습니다.
-
-    ![디렉터리 서비스 계정](../../media/defender-identity/directory-service-accounts.png)
-
-1. 계정을 선택하면 해당 계정에 대한 설정이 있는 창이 열립니다.
-
-    ![계정 설정](../../media/defender-identity/account-settings.png)
-
-1. 새 디렉터리 서비스 계정을 추가하려면 새 계정 만들기를 **선택하고** 계정 **이름,** **도메인** 및 암호를 **입력합니다.** gMSA(그룹 관리 서비스 **계정)의** 경우와 단일 레이블 도메인에 속하는지 선택할 **수도 있습니다.**
-
-    ![새 디렉터리 서비스 계정](../../media/defender-identity/new-directory-service-account.png)
-
-1. **저장** 을 선택합니다.
 
 ## <a name="see-also"></a>참고 항목
 

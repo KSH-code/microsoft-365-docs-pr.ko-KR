@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 559cec70c4f699d0f6a849aec8235a22903a5050becb4469824b17908025f32d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f51208b8376ef160fe83a41e5a2ac74eb843c2f3
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53877668"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372691"
 ---
 # <a name="device-requirements"></a>장치 요구 사항
 
-Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항을 정기적으로 평가합니다. 이 문서에서는 장치와 함께 작동하기 위해 장치가 충족해야 하는 하드웨어 및 소프트웨어 요구 사항에 대해 Microsoft Managed Desktop. 이러한 요구 사항에 따라 서비스에서 이미 사용이 승인된 특정 장치 목록을 검토할 수 있습니다. 쇼핑 비즈니스 Microsoft Managed Desktop 사이트에서 Windows 10 Pro [필터링](https://www.microsoft.com/windowsforbusiness/view-all-devices)
+Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항을 정기적으로 평가합니다. 이 문서에서는 장치와 함께 작동하기 위해 장치가 충족해야 하는 하드웨어 및 소프트웨어 요구 사항에 대해 Microsoft Managed Desktop. 이러한 요구 사항에 따라 서비스에서 이미 사용이 승인된 특정 장치 목록을 검토할 수 있습니다. 쇼핑 비즈니스 Microsoft Managed Desktop 사이트에서 Windows 10 Pro [필터링](https://www.microsoft.com/en-us/windowsforbusiness/view-all-devices)
 
 > [!NOTE]
 > 이러한 요구 사항은 변경될 수 있지만 하드웨어 요구 사항 변경에 대해 30일 알림이 제공될 것입니다. 가장 최근에 변경된 요구 사항은 로 **\*** 표시됩니다. 

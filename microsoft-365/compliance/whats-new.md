@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c24108d7ccc140fecac9c6a7444a697d1526e95c
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: ebb491ccd84e328ea3d4d1151a2c141ca3a69168
+ms.sourcegitcommit: d792743bc21eec87693ebca51d7307a506d0bc43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58244009"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "58450071"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -286,7 +286,6 @@ Outlook 릴리스 및 업데이트:
 다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
 
 - [콘텐츠 탐색기로 시작](/microsoft-365/compliance/data-classification-content-explorer)
-- [데이터 분류 릴리스 정보](/microsoft-365/compliance/data-classification-pub-preview-relnotes)
 
 ### <a name="data-loss-prevention"></a>데이터 손실 방지
 

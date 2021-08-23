@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 430dae4e4432defd5d9dd80e63bc149858781a9c
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 34fd5ed4338e42ea37d4ad9eacb1d881bb2bf0e6
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356831"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399806"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -109,11 +109,11 @@ ms.locfileid: "58356831"
    |-CertificateName|키 자격 증명 모음에서 인증서를 생성하거나 검색할 때의 인증서 이름입니다.|필수|
    |-CertificateSubject|Azure Key Vault 인증서 주체 이름(예: CN=contoso_fabrikam.|필수|
    |-AzureResourceLocation|Azure 리소스 그룹 및 키 자격 증명 모음의 위치입니다.|필수|
-   |-ExistingApplicationId|이미 만들어진 경우 사용할 메일 마이그레이션 응용 프로그램입니다.|선택 사항|
+   |-ExistingApplicationId|이미 만들어진 경우 사용할 메일 마이그레이션 응용 프로그램입니다.|선택|
    |-AzureAppPermissions|사서함 마이그레이션 응용 프로그램에 필요한 사용 권한(예: Exchange 또는 MSGraph(사서함 이동을 위한 Exchange, MSGraph를 사용하여 리소스 테넌트에 동의 링크 초대를 보내기 위한 경우)|필수|
-   |-UseAppAndCertGeneratedForSendingInvitation|원본 테넌트 관리자에게 동의 링크 초대를 보내는 데 사용할 마이그레이션을 위해 만든 응용 프로그램을 사용하는 매개 변수입니다. 이 메시지가 없는 경우 대상 관리자의 자격 증명을 사용하여 Azure 초대 관리자에 연결하고 초대를 대상 관리자로 보낼지 묻는 메시지가 표시됩니다.|선택 사항|
-   |-KeyVaultAuditStorageAccountName|Key Vault의 감사 로그가 저장될 저장소 계정입니다.|선택 사항|
-   |-KeyVaultAuditStorageResourceGroup|키 자격 증명 모음 감사 로그를 저장하기 위한 저장소 계정이 포함된 리소스 그룹입니다.|선택 사항|
+   |-UseAppAndCertGeneratedForSendingInvitation|원본 테넌트 관리자에게 동의 링크 초대를 보내는 데 사용할 마이그레이션을 위해 만든 응용 프로그램을 사용하는 매개 변수입니다. 이 메시지가 없는 경우 대상 관리자의 자격 증명을 사용하여 Azure 초대 관리자에 연결하고 초대를 대상 관리자로 보낼지 묻는 메시지가 표시됩니다.|선택|
+   |-KeyVaultAuditStorageAccountName|Key Vault의 감사 로그가 저장될 저장소 계정입니다.|선택|
+   |-KeyVaultAuditStorageResourceGroup|키 자격 증명 모음 감사 로그를 저장하기 위한 저장소 계정이 포함된 리소스 그룹입니다.|선택|
    ||||
 
     > [!NOTE]
@@ -165,7 +165,7 @@ ms.locfileid: "58356831"
 
 #### <a name="step-by-step-instructions-for-the-source-tenant-admin"></a>원본 테넌트 관리자에 대한 단계별 지침
 
-1. 설치하는 동안 대상 관리자가 지정한 -ResourceTenantAdminEmail로 사서함에 로그인합니다. 대상 테넌트에서 전자 메일 초대를 찾은 다음 전자 메일 시작 **선택합니다.**
+1. 전역 관리자 자격 증명으로 로그인합니다. 설치하는 동안 대상 관리자가 지정한 -ResourceTenantAdminEmail로 사서함에 로그인합니다.  대상 테넌트에서 전자 메일 초대를 찾은 다음 전자 메일 시작 **선택합니다.**
 
     :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="초대를 들은 대화 상자":::
 
@@ -362,7 +362,7 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
     if ($source.LitigationHoldEnabled) {$ELCValue = $ELCValue + 8} if ($source.SingleItemRecoveryEnabled) {$ELCValue = $ELCValue + 16} if ($ELCValue -gt 0) {Set-ADUser -Server $domainController -Identity $destination.SamAccountName -Replace @{msExchELCMailboxFlags=$ELCValue}}
     ```
 
-3. 비하이블 대상 테넌트는 다음 명령을 실행하여 MailUser 개체에 대한 소송 보류를 사용하도록 설정하고 할당량 을 100GB로 늘려 마이그레이션 전에 MailUsers의 복구 가능한 항목 폴더에 대한 할당량 을 수정할 수 `Set-MailUser -EnableLitigationHoldForMigration $TRUE` 있습니다. 이 방식은 하이브리드의 테넌트에는 작동하지 않습니다.
+3. 비하이블 대상 테넌트는 다음 명령을 실행하여 MailUser 개체에 대한 소송 보류를 사용하도록 설정하고 할당량 을 100GB로 늘려 마이그레이션 전에 MailUsers의 복구 가능한 항목 폴더에 대한 할당량 을 수정할 수 `Set-MailUser -EnableLitigationHoldForMigration` 있습니다. 이 방식은 하이브리드의 테넌트에는 작동하지 않습니다.
 
 4. 대상 조직의 사용자는 조직에 적용할 수 있는 적절한 Exchange Online 라이선스가 있어야 합니다. 사서함 이동에 앞서 라이선스를 적용할 수 있지만 대상 MailUser가 ExchangeGUID 및 프록시 주소로 올바르게 설정된 후만 적용할 수 있습니다. ExchangeGUID가 적용되기 전에 라이선스를 적용하면 대상 조직에 새 사서함이 프로비전됩니다.
 
@@ -432,7 +432,7 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 
 사서함이 원본에서 대상으로 이동한 후 원본 및 대상 모두에 대한 새 targetAddress로 업데이트되는 On-premises 메일 사용자를 확인해야 합니다. 예제에서 이동에 사용되는 targetDeliveryDomain은 에 **contoso.onmicrosoft.com.** 이 targetAddress로 메일 사용자를 업데이트합니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **이동 후 원본에서 원격Mailboxes를 업데이트해야 하나요?**
 

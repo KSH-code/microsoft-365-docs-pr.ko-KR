@@ -14,16 +14,16 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: 8c31ed87e8662d8e0b2bdc6321f980621a7c08d7c32fa4f7b0c7d6fc285042c9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fb639139e083ed613dea018131e7748cd063e37c
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888319"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372532"
 ---
 # <a name="step-1-create-a-test-base-account"></a>1단계: 테스트 기준 계정 만들기
 
-Azure 구독이 없는 경우 시작하기 전에 무료 [계정을](https://azure.microsoft.com/en-us/free/) 만드하세요.
+Azure 구독이 없는 경우 시작하기 전에 무료 [계정을](https://azure.microsoft.com/free/) 만드하세요.
 
 ## <a name="enter-details-for-test-base-account"></a>테스트 기본 계정에 대한 세부 정보 입력
  

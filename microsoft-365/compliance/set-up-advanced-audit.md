@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사용자 계정이 손상된 경우 포렌식 조사를 수행하거나 기타 보안 관련 인시던트에 대한 조사를 수행할 수 있도록 고급 감사를 설정하는 방법을 설명합니다.
-ms.openlocfilehash: ed4e2a8c423631cfa1c846f271d8df9361ca6414002d026cc515ddcd78842784
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e23f5c9ce4212e4974de97977bb2e0785bad69ed
+ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53841555"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386963"
 ---
 # <a name="set-up-advanced-audit-in-microsoft-365"></a>2013에서 고급 감사 Microsoft 365
 
@@ -46,15 +46,15 @@ MailItemsAccessed 및 전송과 같은 중요한 이벤트를 기록하는 기�
 
 5. 확인란을 선택하지 않은 경우 해당 확인란을 선택한 다음 변경 내용 **저장을 클릭합니다.**
 
-   MailItemsAccessed 및 Send에 대한 감사 레코드 로깅은 24시간 이내에 시작됩니다. SearchQueryInitiatedExchange 및 SearchQueryInitiatedSharePoint의 두 가지 고급 감사 중요 이벤트 로깅을 시작하기 위해 3단계를 수행해야 합니다.
+   MailItemsAccessed 및 Send에 대한 감사 레코드 로깅은 24시간 이내에 시작됩니다. 다른 두 고급 감사 이벤트 SearchQueryInitiatedExchange 및 SearchQueryInitiatedSharePoint의 로깅을 시작하기 위해 3단계를 수행해야 합니다.
 
 그룹 기반 라이선스를 사용하여 사용자 그룹에 라이선스를 할당하는 조직의 경우 그룹의 Microsoft 365 고급 감사에 대한 라이선스 할당을 해제해야 합니다. 변경 내용을 저장한 후에는 그룹에 대해 Microsoft 365 고급 감사를 해제했는지 확인합니다. 그런 다음, 그룹에 대한 라이선스 할당을 다시 설정합니다. 그룹 기반 라이선싱에 대한 자세한 내용은 [Azure Active Directory에서 그룹 구성원으로 사용자에게 라이선스 할당](/azure/active-directory/users-groups-roles/licensing-groups-assign)을 참조하세요.
 
-또한 사용자 사서함 또는 공유 사서함에 기록되는 사서함 작업을 사용자 지정한 경우 Microsoft에서 릴리스한 새 중요 이벤트는 해당 사서함에 대해 자동으로 감사되지 않습니다. 각 로그온 유형에 대해 감사되는 사서함 작업을 변경하는 방법에 대한 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md#change-or-restore-mailbox-actions-logged-by-default)의 "기본적으로 로그되는 사서함 작업 변경 또는 복원" 섹션을 참조하세요.
+또한 사용자 사서함 또는 공유 사서함에 기록되는 사서함 작업을 사용자 지정한 경우 Microsoft에서 릴리스한 새 고급 감사 이벤트는 해당 사서함에 대해 자동으로 감사되지 않습니다. 각 로그온 유형에 대해 감사되는 사서함 작업을 변경하는 방법에 대한 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md#change-or-restore-mailbox-actions-logged-by-default)의 "기본적으로 로그되는 사서함 작업 변경 또는 복원" 섹션을 참조하세요.
 
-## <a name="step-2-enable-crucial-events"></a>2단계: 중요한 이벤트 사용
+## <a name="step-2-enable-advanced-audit-events"></a>2단계: 고급 감사 이벤트 사용
 
-사용자가 Exchange Online 및 SharePoint Online에서 검색을 수행할 때 두 가지 중요한 이벤트(SearchQueryInitiatedExchange 및 SearchQueryInitiatedSharePoint)를 기록하도록 설정해야 합니다. 사용자에 대해 이러한 두 이벤트를 감사할 수 있도록 설정하려면 [PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)각 사용자에 대해 Exchange Online 실행합니다.
+사용자가 Exchange Online 및 SharePoint Online에서 검색을 수행할 때 두 개의 고급 감사 이벤트(SearchQueryInitiatedExchange 및 SearchQueryInitiatedSharePoint)를 로깅하도록 설정해야 합니다. 사용자에 대해 이러한 두 이벤트를 감사할 수 있도록 설정하려면 [PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)각 사용자에 대해 Exchange Online 실행합니다.
 
 ```powershell
 Set-Mailbox <user> -AuditOwner @{Add="SearchQueryInitiated"}
@@ -72,6 +72,6 @@ Get-Mailbox <user identity> | FL MailboxLocations
 
 Exchange, SharePoint 및 Azure AD 감사 레코드를 1년 동안 유지하는 기본 정책에 더해 조직의 보안 작업, IT 및 규정 준수 팀의 요구 사항을 충족하는 추가 감사 로그 보존 정책을 만들 수 있습니다. 자세한 내용은 [감사 로그 보존 정책 관리](audit-log-retention-policies.md)를 참조하십시오.
 
-## <a name="step-4-search-for-crucial-events"></a>4단계: 중요한 이벤트 검색
+## <a name="step-4-search-for-advanced-audit-events"></a>4단계: 고급 감사 이벤트 검색
 
-이제 조직에 대해 고급 감사를 설정한 후, 포렌식 조사를 수행 할 때 중요한 이벤트 및 기타 활동을 검색할 수 있습니다. 1단계 및 2단계를 완료한 후 감사 로그에서 손상된 계정 및 기타 유형의 보안 또는 규정 준수 조사를 포렌식으로 조사하는 동안 중요한 이벤트 및 기타 활동을 검색할 수 있습니다. MailItemsAccessed 중요 이벤트를 사용하여 손상된 사용자 계정에 대한 포렌식 조사를 수행하는 데 대한 자세한 내용은 고급 감사를 사용하여 손상된 계정 조사를 [참조하세요.](mailitemsaccessed-forensics-investigations.md)
+이제 조직에 대해 고급 감사를 설정한 후, 포렌식 조사를 수행 할 때 중요한 고급 감사 이벤트 및 기타 활동을 검색할 수 있습니다. 1단계 및 2단계를 완료한 후 손상된 계정 및 기타 유형의 보안 또는 규정 준수 조사에 대한 법정 조사 중에 고급 감사 이벤트 및 기타 활동을 검색할 수 있습니다. MailItemsAccessed 고급 감사 이벤트를 사용하여 손상된 사용자 계정에 대한 포렌식 조사를 수행하는 데 대한 자세한 내용은 고급 감사를 사용하여 손상된 계정 조사를 [참조하세요.](mailitemsaccessed-forensics-investigations.md)

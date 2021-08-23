@@ -13,12 +13,13 @@ manager: dansimp
 audience: ITPro
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 44d00bfd073b41f608a26106488e38c88d59bbecc4747c401fc70690bef1a110
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ROBOTS: NOINDEX
+ms.openlocfilehash: 05123ecb52f38e87c8a2c5360d17b39605a44cfd
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53903946"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399758"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법
 
@@ -48,7 +49,7 @@ Microsoft는 [](https://aka.ms/devicecontrolblog)이동식 미디어를 보호�
 Microsoft Defender for Endpoint 고급 헌팅에서 플러그 앤 플레이 이벤트를 보고 의심스러운 사용 활동을 식별하거나 내부 조사를 수행할 수 있습니다.
 Endpoint 고급 헌팅 쿼리에 대한 Defender의 예는 Microsoft [Defender for Endpoint hunting queries GitHub 참조합니다.](https://github.com/Microsoft/WindowsDefenderATP-Hunting-Queries)
 
-샘플 Power BI 보고서 서식 파일은 고급 헌팅 쿼리에 사용할 수 있는 끝점용 Microsoft Defender에 사용할 수 있습니다. 장치 제어용 템플릿을 포함하여 이러한 샘플 템플릿을 사용하여 고급 헌팅 기능을 디바이스에 통합할 수 Power BI. 자세한 [GitHub PowerBI](https://github.com/microsoft/MDATP-PowerBI-Templates) 템플릿의 사이트 저장소를 참조하세요. 통합에 [대한 자세한 내용은 Power BI](/microsoft-365/security/defender-endpoint/api-power-bi) 사용자 지정 보고서 만들기를 Power BI 참조합니다.
+샘플 Power BI 보고서 서식 파일은 고급 헌팅 쿼리에 사용할 수 있는 끝점용 Microsoft Defender에 사용할 수 있습니다. 장치 제어용 템플릿을 포함하여 이러한 샘플 템플릿을 사용하여 고급 헌팅 기능을 디바이스에 통합할 수 Power BI. 자세한 [GitHub 템플릿에 대한 Power BI 리포지토리를](https://github.com/microsoft/MDATP-PowerBI-Templates) 참조하세요. 통합에 [대한 자세한 내용은 Power BI](/microsoft-365/security/defender-endpoint/api-power-bi) 사용자 지정 보고서 만들기를 Power BI 참조합니다.
 
 ## <a name="allow-or-block-removable-devices"></a>이동식 장치 허용 또는 차단
 다음 표에서는 Microsoft Defender for Endpoint가 세분화된 구성에 따라 이동식 장치를 허용하거나 차단하는 방법을 설명하고 있습니다.
@@ -66,7 +67,6 @@ Endpoint 고급 헌팅 쿼리에 대한 Defender의 예는 Microsoft [Defender f
 |[일치하는 장치 인스턴스 ID를 사용하여 특별히 승인된 주변 장치의 설치 및 사용 허용](#allow-installation-and-usage-of-specifically-approved-peripherals-with-matching-device-instance-ids)|이러한 장치 인스턴스 ID 중 하나와 일치하는 승인된 주변 장치만 설치하고 사용할 수 있습니다.|
 |[일치하는 장치 인스턴스 ID를 사용하여 특별히 금지된 주변 장치의 설치 및 사용 방지](#prevent-installation-and-usage-of-specifically-prohibited-peripherals-with-matching-device-instance-ids)|이러한 장치 인스턴스와 일치하는 금지된 주변 장치를 설치하거나 사용할 수 없습니다.|
 |[서비스를 사용하는 서비스를 Bluetooth](#limit-services-that-use-bluetooth)|이러한 서비스를 사용할 수 있는 서비스를 제한할 수 Bluetooth.|
-|[끝점 기준 설정에 Microsoft Defender 사용](#use-microsoft-defender-for-endpoint-baseline-settings)|끝점용 Defender 보안 기준을 사용하여 ATP에 대한 권장 구성을 설정할 수 있습니다.|
 |
 
 ### <a name="restrict-usb-drives-and-other-peripherals"></a>USB 드라이브 및 기타 주변 장치 제한
@@ -118,7 +118,7 @@ USB 드라이브 및 기타 주변 장치 설치 및 사용을 허용하는 한 
 
 장치 ID를 찾으면 장치 ID [찾기를 참조하세요.](#look-up-device-id) 
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예를 들어:
 
 1. 이러한 장치 설정과 일치하는 드라이버를 사용하여 디바이스 설치 허용에서 클래스 USBDevice를 **제거합니다.**
 2. 이러한 장치 ID와 일치하는 장치의 설치 허용에서 허용할 장치 **ID를 추가합니다.** 
@@ -238,12 +238,6 @@ Intune을 사용하여 "허용된 서비스" 를 통해 Bluetooth 수 있는 Blu
 > [!div class="mx-imgBorder"]
 > ![Bluetooth 설정 페이지의 스크린샷](images/bluetooth.png)
 
-### <a name="use-microsoft-defender-for-endpoint-baseline-settings"></a>끝점 기준 설정에 Microsoft Defender 사용
-
-끝점 기준 설정에 대한 Microsoft Defender는 위협 방지를 위한 권장 구성을 표현합니다. 기준에 대한 구성 설정은 구성 설정의 프로필 편집 페이지에 있습니다.
-
-> [!div class="mx-imgBorder"]
-> ![MEM의 기준](images/baselines.png)
 
 ## <a name="prevent-threats-from-removable-storage"></a>이동식 저장소의 위협 방지
   
@@ -361,7 +355,7 @@ MDATP 커넥터는 Outlook, Teams, Slack 등 200개가 넘는 미리 정의된 �
 
 ## <a name="respond-to-threats"></a>위협에 대응
 
-끝점 사용자 지정 검색 규칙에 대한 [Microsoft Defender를](/microsoft-365/security/defender-endpoint/custom-detection-rules)사용하여 사용자 지정 경고 및 자동 응답 작업을 만들 수 있습니다. 사용자 지정 검색 내의 응답 작업에는 컴퓨터 및 파일 수준 작업이 모두 있습니다. [PowerApps](https://powerapps.microsoft.com/) 및 Endpoint 커넥터를 사용하여 경고 [및](https://flow.microsoft.com/) 자동 Flow 작업을 만들 [수도 있습니다.](/connectors/wdatp/) 커넥터는 조사, 위협 검사 및 실행 중인 응용 프로그램 제한을 위한 작업을 지원합니다. 이 커넥터는 Outlook, Teams, Slack 등을 포함하여 200개가 넘는 미리 정의된 커넥터 중 하나입니다. 사용자 지정 커넥터도 만들 수 있습니다. 커넥터에 [대한](/connectors/) 자세한 내용은 커넥터를 참조합니다.
+끝점 사용자 지정 검색 규칙에 대한 [Microsoft Defender를](/microsoft-365/security/defender-endpoint/custom-detection-rules)사용하여 사용자 지정 경고 및 자동 응답 작업을 만들 수 있습니다. 사용자 지정 검색 내의 응답 작업에는 컴퓨터 및 파일 수준 작업이 모두 있습니다. Microsoft [](https://powerapps.microsoft.com/) [Defender for Endpoint](/connectors/wdatp/)커넥터를 사용하여 Power Apps [](https://flow.microsoft.com/) 자동 Flow 및 자동 응답 작업을 만들 수도 있습니다. 커넥터는 조사, 위협 검사 및 실행 중인 응용 프로그램 제한을 위한 작업을 지원합니다. 이 커넥터는 Outlook, Teams, Slack 등을 포함하여 200개가 넘는 미리 정의된 커넥터 중 하나입니다. 사용자 지정 커넥터도 만들 수 있습니다. 커넥터에 [대한](/connectors/) 자세한 내용은 커넥터를 참조합니다.
 
 예를 들어 두 방법 중 하나를 사용하면 USB 장치가 Microsoft Defender 바이러스 백신 때 자동으로 실행됩니다.
 
@@ -371,6 +365,6 @@ MDATP 커넥터는 Outlook, Teams, Slack 등 200개가 넘는 미리 정의된 �
 - [Defender/AllowFullScanRemovableDriveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
 - [Policy/DeviceInstallation CSP](/windows/client-management/mdm/policy-csp-deviceinstallation)
 - [이동식 장치의 사용자 지정 검사 수행](/samples/browse/?redirectedfrom=TechNet-Gallery)
-- [사용자 지정 보고를 위한 장치 컨트롤 PowerBI 템플릿](https://github.com/microsoft/MDATP-PowerBI-Templates)
+- [사용자 지정 보고를 위한 Power BI 컨트롤 템플릿](https://github.com/microsoft/MDATP-PowerBI-Templates)
 - [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview.md) 
 - [Windows Information Protection](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure.md)

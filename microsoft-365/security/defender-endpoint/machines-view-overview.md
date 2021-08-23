@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4cf27d7d65df613969f46f05c6b5085a448675f2cae3a325f4308d9f72ba8c4c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1c6a148c6ee332800a80e0ca9f3aea8403d2053b
+ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53868011"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58360036"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-devices-list"></a>끝점 장치용 Microsoft Defender 목록 보기 및 구성
 
@@ -56,6 +56,14 @@ ms.locfileid: "53868011"
 
 다음 필터를 적용하여 경고 목록을 제한하고 보다 집중적인 보기를 얻을 수 있습니다.
 
+### <a name="device-name"></a>장치 이름
+
+조사할 장치의 이름을 선택합니다.
+
+### <a name="domain"></a>도메인
+
+조사할 도메인을 선택합니다.
+
 ### <a name="risk-level"></a>위험 수준
 
 위험 수준은 장치의 활성 경고 유형 및 심각도 등 여러 요인의 조합에 따라 장치의 전반적인 위험 평가를 반영합니다. 활성 경고를 해결하고, 재구성 활동을 인가하고, 후속 경고를 표시하지는하면 위험 수준이 낮아집니다.
@@ -67,48 +75,52 @@ ms.locfileid: "53868011"
 노출 수준에 "데이터를 사용할 수 없음"이면 몇 가지 이유가 있을 수 있습니다.
 
 - 장치가 30일 이상 보고를 중지했습니다. 이 경우 비활성으로 간주하고 노출이 계산되지 않습니다.
-- 장치 OS가 지원되지 않습니다. [끝점용 Microsoft Defender에 대한 최소 요구 사항 참조](minimum-requirements.md)
-- 부실 에이전트가 있는 장치(매우 가능성 낮음)
+- 장치 OS가 지원되지 않습니다. [끝점용 Microsoft Defender에 대한 최소 요구 사항을 참조하세요.](minimum-requirements.md)
+- 에이전트가 부실한 장치(가능성 낮음)
 
 ### <a name="os-platform"></a>OS 플랫폼
 
 조사할 OS 플랫폼만 선택합니다.
+
+### <a name="windows-10-versions"></a>Windows 10 버전
+
+조사할 Windows 10 버전만 선택합니다.
 
 ### <a name="health-state"></a>상태
 
 다음 장치 상태로 필터링합니다.
 
 - **활성:** 서비스에 센서 데이터를 적극적으로 보고하는 장치입니다.
-- **비활성:** 7일 이상 신호 전송을 완전히 중지한 장치입니다.
+- **비활성:** 7일 이상 신호 전송을 중지한 장치입니다.
 - **잘못 구성:** 서비스와의 통신이 손상되거나 센서 데이터를 보낼 수 없는 장치입니다. 잘못 구성된 장치는 다음으로 더 분류될 수 있습니다.
   - 센서 데이터 없음
   - 통신 장애
 
   잘못 구성 된 장치에서 문제를 해결하는 방법에 대한 자세한 내용은 [Unhealthy sensors](fix-unhealthy-sensors.md)를 참조하세요.
 
-### <a name="antivirus-status"></a>바이러스 백신 상태
+### <a name="onboarding-status"></a>온보드 상태
 
-바이러스 백신 상태를 사용하여 장치를 필터링합니다. 활성 디바이스에만 Windows 10 적용됩니다.
+온보딩 상태는 장치가 현재 끝점용 Microsoft Defender에 온보딩 중인지 여부를 나타냅니다. 다음 상태로 필터링할 수 있습니다.
 
-- **사용 안 하게** & 위협 방지가 꺼져 있습니다.
-- **보고하지 않습니다.** 위협 & 바이러스 백신이 보고되지 않습니다.
-- **업데이트되지** 않습니다. 위협 & 바이러스가 최신이 아닙니다.
+- **온보딩:** 끝점이 끝점용 Microsoft Defender에 온보딩됩니다.
 
-자세한 내용은 [View the Threat & Vulnerability Management dashboard를 참조하세요.](tvm-dashboard-insights.md)
+- **온보드할** 수 있습니다. 끝점은 네트워크에서 지원되는 장치로 검색했지만 현재 온보드되지 않습니다. Microsoft는 이러한 장치를 온보드하는 것이 좋습니다.
 
-### <a name="threat-mitigation-status"></a>위협 완화 상태
+- **지원되지 않는:** 끝점이 네트워크에서 검색되지만 끝점용 Microsoft Defender에서 지원되지 않습니다.
 
-특정 위협의 영향을 받을 수 있는 장치를 확인하려면 드롭다운 메뉴에서 위협을 선택한 다음 완화해야 하는 취약성 측면을 선택합니다.
+- **정보 부족:** 시스템에서 장치의 지원 여부를 확인할 수 없습니다.
 
-특정 위협에 대한 자세한 내용은 [위협 분석을 참조하세요.](threat-analytics.md) 완화 정보는 위협 및 [& 관리를 참조하세요.](next-gen-threat-and-vuln-mgt.md)
+### <a name="last-device-update"></a>마지막 장치 업데이트
 
-### <a name="windows-10-version"></a>Windows 10 버전
+장치를 마지막으로 업데이트한 날짜를 기준으로 보기를 필터링합니다.
 
-조사할 Windows 10 버전만 선택합니다.
+### <a name="first-seen"></a>처음 본 것
 
-### <a name="tags--groups"></a>태그 & 그룹
+디바이스가 네트워크에 처음 표시되거나 Microsoft Defender for Endpoint 센서에서 처음으로 보고된 경우를 기준으로 보기를 필터링합니다.
 
-개별 장치에 추가한 그룹화 및 태그 지정에 따라 목록을 필터링합니다. 디바이스 태그 만들기 [및 관리](machine-tags.md) 및 장치 그룹 만들기 및 관리를 [참조하세요.](machine-groups.md)
+### <a name="tags"></a>태그
+
+개별 장치에 추가한 그룹화 및 태그 지정에 따라 목록을 필터링합니다. 디바이스 [태그 만들기 및 관리를 참조하세요.](machine-tags.md)
 
 ## <a name="related-topics"></a>관련 항목
 

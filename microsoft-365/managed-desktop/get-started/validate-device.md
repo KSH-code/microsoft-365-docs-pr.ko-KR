@@ -11,16 +11,16 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: a7baac7b4af572884e329964ea30831976ec5f0258d81e6b9a1d44e4ed28fd6b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1654998a69b364ebf399c2aabac185bc98fb9388
+ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53890914"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372835"
 ---
 # <a name="validate-new-devices"></a>새 장치 유효성 검사
 
-처음 Microsoft Managed Desktop 구독자이든, 장기 구독자이든, 처음으로 서비스에 등록하는 장치 모델의 예를 테스트하는 것이 가장 좋은 예입니다. 새 디바이스를 주문하거나 기존 디바이스를 다시 사용(Shop Microsoft Managed Desktop 비즈니스 장치 사이트)에서 권장되는 장치를 Windows 10 Pro [마찬가지입니다.](https://www.microsoft.com/windowsforbusiness/view-all-devices) 해당 사이트에서 필터로 필터링 영역의 기능을 확장한  다음  을 선택하여 서비스에 권장되는 장치를 **Microsoft Managed Desktop.** 디바이스의 유효성을 검사하면 예상한 사용자 환경을 제공할 수 있습니다.
+처음 Microsoft Managed Desktop 구독자이든, 장기 구독자이든, 처음으로 서비스에 등록하는 장치 모델의 예를 테스트하는 것이 가장 좋은 예입니다. 새 디바이스를 주문하거나 기존 디바이스를 다시 사용(Shop Microsoft Managed Desktop 비즈니스 장치 사이트)에서 권장되는 장치를 Windows 10 Pro [마찬가지입니다.](https://www.microsoft.com/en-us/windowsforbusiness/view-all-devices) 해당 사이트에서 필터로 필터링 영역의 기능을 확장한  다음  을 선택하여 서비스에 권장되는 장치를 **Microsoft Managed Desktop.** 디바이스의 유효성을 검사하면 예상한 사용자 환경을 제공할 수 있습니다.
 
 ## <a name="validate-devices"></a>디바이스 유효성 검사
 

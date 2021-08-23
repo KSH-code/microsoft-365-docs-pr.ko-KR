@@ -18,16 +18,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 02cc958f816c2335a24923cf7fc16b80b9806d9c7811457e88080be50438ce48
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c33677d483eadca4526d2c7f977ad91de6c7340c
+ms.sourcegitcommit: d792743bc21eec87693ebca51d7307a506d0bc43
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814201"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "58450131"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
-이 문서에서는 장치를 위치로 사용하는 DLP 정책을 만들고 수정하는 3가지 시나리오를 안내합니다.
+이 문서에서는 장치를 위치로 사용하는 DLP 정책을 만들고 수정하는 4가지 시나리오를 안내합니다.
 
 ## <a name="dlp-settings"></a>DLP 설정
 
@@ -65,16 +65,28 @@ ms.locfileid: "53814201"
 
 ### <a name="unallowed-apps"></a>허용되지 않는 앱
 
-정책의 **허용되지 않은 앱 및 브라우저에 의한 액세스** 설정이 켜져 있고 사용자가 이러한 앱을 사용하여 보호된 파일에 액세스하려고 하면, 활동이 허용 또는 차단되거나, 아니면 차단되지만 사용자가 제한을 재정의할 수 있습니다. 모든 활동을 감사하며 활동 탐색기에서 검토할 수 있습니다.
+허용되지 않는 앱은 DLP로 보호된 파일에 액세스할 수 없도록 만든 애플리케이션 목록입니다.
+정책의 **허용되지 않은 앱에 의한 액세스** 설정이 켜져 있고 허용되지 않은 목록에 있는 앱이 보호된 파일에 액세스하려고 하면 활동이 허용, 차단 또는 차단되지만 사용자는 제한을 재정의할 수 있습니다. 모든 활동을 감사하며 활동 탐색기에서 검토할 수 있습니다.
 
 > [!IMPORTANT]
 > 실행 파일 이름(예: 브라우저.exe)은 포함해야 하지만 실행 파일 경로는 포함하지 않아야 합니다.
+
+#### <a name="protect-sensitive-data-from-cloud-synchronization-apps"></a>클라우드 동기화 앱에서 중요한 데이터 보호
+
+*onedrive.exe* 와 같은 클라우드 동기화 앱이 중요한 항목을 클라우드에 동기화하지 못하도록 하려면 클라우드 동기화 앱을 **허용되지 않는 앱** 목록에 추가하세요. 허용되지 않은 클라우드 동기화 앱이 차단 DLP 정책으로 보호되는 항목에 액세스하려고 하면 DLP가 반복적인 알림을 생성할 수 있습니다. **허용되지 않는 앱** 에서 **자동 격리** 옵션을 사용하도록 설정하면 이러한 반복 알림을 방지할 수 있습니다.  
+
+##### <a name="auto-quarantine-preview"></a>자동 격리(미리 보기)
+
+활성화하면 허용되지 않은 앱이 DLP로 보호되는 중요한 항목에 액세스하려고 할 때 자동 격리가 시작됩니다. 자동 격리는 중요한 항목을 관리자가 구성한 폴더로 이동하고 원본 위치에 자리 표시자 **.txt** 파일을 남길 수 있습니다. 항목이 이동된 위치 및 기타 관련 정보를 사용자에게 알리도록 자리 표시자 파일의 텍스트를 구성할 수 있습니다.  
+
+자동 격리를 사용하여 사용자와 관리자에 대한 DLP 알림의 끝없는 체인을 방지할 수 있습니다. [시나리오 4: 자동 격리를 사용하여 클라우드 동기화 앱에서 DLP 알림 반복 방지(미리 보기)](#scenario-4-avoid-looping-dlp-notifications-from-cloud-synchronization-apps-with-auto-quarantine-preview)를 참조하세요.
 
 ### <a name="unallowed-bluetooth-apps"></a>허용되지 않는 Bluetooth 앱
 
 특정 Bluetooth 앱을 통해 정책에 의해 보호되는 파일을 전송하지 못하게 합니다.
 
 ### <a name="browser-and-domain-restrictions"></a>브라우저 및 도메인 제한:
+
 정책과 일치하는 중요한 파일을 무제한 클라우드 서비스 도메인에 공유하지 못하도록 제한합니다.
 
 #### <a name="service-domains"></a>서비스 도메인
@@ -220,6 +232,115 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
    > ![끝점 DLP 클라이언트가 차단 재정의 알림](../media/endpoint-dlp-3-using-dlp-client-blocked-override-notification.png)
 
 10. 이벤트에 대한 활동 탐색기를 확인합니다.
+
+### <a name="scenario-4-avoid-looping-dlp-notifications-from-cloud-synchronization-apps-with-auto-quarantine-preview"></a>시나리오 4: 자동 격리를 사용하여 클라우드 동기화 앱에서 DLP 알림 반복 방지(미리 보기)
+
+#### <a name="before-you-begin"></a>시작하기 전에
+
+이 시나리오에서는 **극비** 민감도 레이블이 있는 파일을 OneDrive에 동기화하는 것이 차단됩니다. 이것은 여러 구성 요소와 절차가 있는 복잡한 시나리오입니다. 다음이 필요합니다.
+
+- 대상 AAD 사용자 계정 및 이미 로컬 OneDrive 폴더를 OneDrive 클라우드 저장소와 동기화하고 있는 온보드 Windows 10 컴퓨터.
+- 대상 Windows 10 컴퓨터에 설치된 Microsoft Word
+- 민감도 레이블이 구성 및 게시되었습니다. [민감도 레이블 시작하기](get-started-with-sensitivity-labels.md#get-started-with-sensitivity-labels) 및 [민감도 레이블 및 해당 정책 만들기 및 구성](create-sensitivity-labels.md#create-and-configure-sensitivity-labels-and-their-policies)을 참조하세요.
+
+세 가지 절차가 있습니다.
+
+1. 엔드포인트 DLP 자동 격리 설정을 구성합니다.
+2. **극비** 민감도 레이블이 있는 중요한 항목을 차단하는 정책을 만듭니다.
+3. 정책의 대상이 되는 Windows 10 장치에서 Word 문서를 만들고 레이블을 적용한 다음 동기화 중인 사용자 계정 로컬 OneDrive 폴더에 복사합니다.  
+
+#### <a name="configure-endpoint-dlp-unallowed-app-and-auto-quarantine-settings"></a>Endpoint DLP 허용되지 않는 앱 및 자동 격리 설정 구성
+
+1. [Endpoint DLP 설정](https://compliance.microsoft.com/datalossprevention?viewid=globalsettings)을 엽니다.
+
+2. **허용되지 않는 앱** 을 확장합니다.
+
+3. **허용되지 않는 앱 추가 또는 수정** 을 선택하고 *OneDrive* 를 표시 이름으로 추가하고 실행 파일 이름 *onedrive.exe* 를 추가하여 onedrive.exe가 **극비** 레이블이 있는 항목에 액세스하지 못하도록 합니다.
+
+4. **자동 격리** 및 **저장** 을 선택합니다.
+
+5. **자동 격리 설정** 에서 **자동 격리 설정 편집** 을 선택합니다.
+
+6. **허용되지 않는 앱에 대한 자동 격리** 를 사용하도록 설정합니다.
+
+7. 원래 중요한 파일을 이동할 로컬 시스템의 폴더 경로를 입력합니다. 예를 들면 다음과 같습니다.
+   
+**'%homedrive%%homepath%\Microsoft DLP\Quarantine'** 은 사용자 이름 *이사야 랑거* 에 대해 이동된 항목을 
+
+*C:\Users\IsaiahLanger\Microsoft DLP\Quarantine\OneDrive* 폴더로 이동하고 원본 파일 이름에 날짜 및 시간 스탬프를 추가합니다.
+
+> [!NOTE]
+> DLP 자동 격리는 허용되지 않는 각 앱의 파일에 대한 하위 폴더를 생성합니다. 따라서 허용되지 않는 앱 목록에 *메모장* 과 *OneDrive* 가 모두 있는 경우 **\OneDrive** 에 대한 하위 폴더와 **\Notepad** 에 대한 다른 하위 폴더가 생성됩니다.
+
+8. **다음 텍스트가 포함된 .txt 파일로 파일 바꾸기** 를 선택하고 자리 표시자 파일에 원하는 텍스트를 입력합니다. 예를 들어 *auto quar 1.docx* 라는 파일의 경우:
+    
+**%%FileName%%에는 조직에서 DLP(데이터 손실 방지) 정책 %%PolicyName%%으로 보호하는 중요한 정보가 포함되어 있으며 격리 폴더: %%QuarantinePath%%로 이동되었습니다.** 
+
+이 메시지가 포함된 .txt 파일을 남깁니다.
+
+*auto quar 1.docx에는 조직에서 DLP(데이터 손실 방지) 정책으로 보호하는 중요한 정보가 포함되어 있으며 격리 폴더: C:\Users\IsaiahLanger\Microsoft DLP\Quarantine\OneDrive\auto quar 1_20210728_151541.docx로 이동되었습니다.*
+
+9. **저장** 을 선택합니다.
+
+#### <a name="configure-a-policy-to-block-onedrive-synchronization-of-files-with-the-sensitivity-label-highly-confidential"></a>민감도 레이블이 극비인 파일의 OneDrive 동기화를 차단하는 정책 구성
+
+1. [데이터 손실 방지 페이지](https://compliance.microsoft.com/datalossprevention?viewid=policies)를 엽니다.
+
+2. **정책 만들기** 를 선택합니다.
+
+3. 이 시나리오에서는 **사용자 지정** 을 선택한 다음 **사용자 지정 정책** 을 선택하고 **다음** 을 선택합니다.
+
+4. **이름** 및 **설명** 필드를 채우고 **다음** 을 선택합니다.
+
+5. **장치** 를 제외한 모든 위치에서 **상태** 필드를 해제로 전환합니다. 이를 테스트하려는 특정 최종 사용자 계정이 있는 경우 범위에서 해당 계정을 선택해야 합니다. **다음** 을 선택합니다.
+
+6. 기본 **고급 DLP 규칙 만들기 또는 사용자 지정** 선택 항목을 수락하고 **다음** 을 선택합니다.
+
+7. 이 값으로 다음과 같이 규칙을 만듭니다.
+    1. **이름** > *시나리오 4 자동 격리*
+    1. **조건** > **콘텐츠 포함** > **민감도 레이블** > **기밀**
+    1.  **작업** > **Windows 장치의 활동을 감사 또는 제한** > **허용되지 않는 앱의 액세스** > **차단**. 이 시나리오의 목적을 위해 다른 모든 활동을 지우세요.
+    1. **사용자 알림** > **켜짐**
+    1. **엔드포인트 장치** > 아직 활성화되지 않은 경우 **활동 시 사용자에게 정책 팁 알림 표시** 를 선택합니다.
+    
+8. **저장** 및 **다음** 을 선택합니다.
+
+9. **즉시 켜기** 를 선택합니다. **다음** 을 선택합니다.
+
+10. 설정을 검토하고 **제출** 을 선택합니다.
+
+> [!NOTE]
+> 새 정책이 복제되고 대상 Windows 10 컴퓨터에 적용되는 데 최소 1시간이 걸립니다.
+
+11. 새 DLP 정책이 정책 목록에 표시됩니다.
+
+#### <a name="test-auto-quarantine-on-the-windows-10-device"></a>Windows 10 장치에서 자동 격리 테스트
+
+1. [민감도 레이블이 기밀인 파일의 OneDrive 동기화를 차단하는 정책 구성](#configure-a-policy-to-block-onedrive-synchronization-of-files-with-the-sensitivity-label-highly-confidential) 5단계에서 지정한 사용자 계정으로 Windows 10 컴퓨터에 로그인합니다.
+
+2. 내용이 OneDrive에 동기화되지 않을 폴더를 만듭니다. 예를 들면 다음과 같습니다.
+
+    *C:\auto-quarantine 원본 폴더*
+
+3. Microsoft Word를 열고 자동 격리 원본 폴더에 파일을 만듭니다. **극비** 민감도 레이블을 적용합니다. [Office에서 파일 및 이메일에 민감도 레이블 적용](https://support.microsoft.com/topic/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)을 참조하세요.
+
+4. 방금 만든 파일을 OneDrive 동기화 폴더에 복사합니다. 작업이 허용되지 않으며 파일이 격리될 것임을 알리는 사용자 알림 알림이 표시되어야 합니다. 예를 들어 사용자 이름이 *Isaiah Langer* 이고 제목이 *auto-quarantine doc 1.docx* 인 문서의 경우 다음 메시지가 표시됩니다.
+
+![지정된 파일에 대해 OneDrive 동기화 작업이 허용되지 않으며 파일이 격리될 것임을 나타내는 데이터 손실 방지 사용자 알림 팝업](../media/auto-quarantine-user-notification-toast.png)
+
+메시지는 다음과 같습니다.
+
+"이 앱으로 자동 격리 문서 1.docx를 여는 것은 허용되지 않습니다. 파일은 'C:\Users\IsaLanger\Microsoft DLP\OneDrive'로 격리됩니다"
+
+5. **닫기** 선택
+
+6. 자리 표시자 .txt 파일을 엽니다. 이름은 **auto-quarantine doc 1.docx_ *date_time*.txt** 입니다. 
+
+7. 격리 폴더를 열고 원본 파일이 있는지 확인합니다.
+ 
+8. 모니터링되는 끝점에서 데이터에 대한 활동 탐색기를 확인합니다. 장치에 대한 위치 필터를 설정하고 정책을 추가한 다음 정책 이름을 기준으로 필터링하여 정책의 영향을 확인합니다. 필요한 경우 [활동 탐색기로 시작](data-classification-activity-explorer.md)을 참조하세요.
+
+9. 이벤트에 대한 활동 탐색기를 확인합니다.
 
 ## <a name="see-also"></a>참고 항목
 
