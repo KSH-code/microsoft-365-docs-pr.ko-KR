@@ -16,17 +16,17 @@ search.appverid:
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 ms.custom:
 - seo-marvel-apr2020
-description: 보안 Windows 준수 센터에서 콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정하려면 로컬 컴퓨터의 & 편집합니다.
-ms.openlocfilehash: 6424f1763a297cd2fee0e6c8b5b1b06236b95ad0173bc6e117bedd2da5502ed9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+description: 로컬 Windows 콘텐츠 검색의 결과를 내보낼 때 보고서를 사용하지 않도록 설정하려면 로컬 컴퓨터의 Microsoft 365 규정 준수 센터.
+ms.openlocfilehash: efe9ea768b68524dbfda003796a10d60453862bc
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807999"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503158"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정
 
-eDiscovery 내보내기 도구를 사용하여 보안 & 준수 센터에서 콘텐츠 검색 결과를 내보내면 내보낼 콘텐츠에 대한 추가 정보가 포함된 두 개의 보고서가 자동으로 만들어지며 내보내기됩니다. 이러한 보고서는 Results.csv 파일 및 Manifest.xml 파일입니다(이러한 [](#frequently-asked-questions-about-disabling-export-reports) 보고서에 대한 자세한 내용은 이 항목의 내보내기 보고서 사용 안 에 대한 질문과 대답 섹션 참조). 이러한 파일은 매우 크기 때문에 이러한 파일을 내보내지 못하게 하여 다운로드 시간을 절약하고 디스크 공간을 절약할 수 있습니다. 검색 결과를 내보내는 데 사용하는 Windows 레지스트리를 변경하여 이 작업을 할 수 있습니다. 나중에 보고서를 포함하려는 경우 레지스트리 설정을 편집할 수 있습니다. 
+eDiscovery 내보내기 도구를 사용하여 콘텐츠 검색의 결과를 Microsoft 365 규정 준수 센터 내보낼 때 이 도구는 내보낼 콘텐츠에 대한 추가 정보가 포함된 두 개의 보고서를 자동으로 만들고 내보낼 수 있습니다. 이러한 보고서는 Results.csv 파일 및 Manifest.xml 파일입니다(이러한 [](#frequently-asked-questions-about-disabling-export-reports) 보고서에 대한 자세한 내용은 이 항목의 내보내기 보고서 사용 안 에 대한 질문과 대답 섹션 참조). 이러한 파일은 매우 크기 때문에 이러한 파일을 내보내지 못하게 하여 다운로드 시간을 절약하고 디스크 공간을 절약할 수 있습니다. 검색 결과를 내보내는 데 사용하는 Windows 레지스트리를 변경하여 이 작업을 할 수 있습니다. 나중에 보고서를 포함하려는 경우 레지스트리 설정을 편집할 수 있습니다. 
   
 ## <a name="create-registry-settings-to-disable-the-export-reports"></a>레지스트리 설정을 만들어 보고서 내보내기 기능을 사용하지 않도록 설정
 

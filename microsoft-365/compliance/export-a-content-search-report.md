@@ -20,14 +20,14 @@ search.appverid:
 - MBS150
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
-description: 콘텐츠 검색의 실제 결과를 보안 & 준수 센터에서 내보내는 Office 365 검색 결과 보고서를 내보낼 수 있습니다. 보고서에는 내보낼 각 항목에 대한 자세한 정보가 포함된 검색 결과 및 문서가 요약되어 있습니다.
+description: 검색 결과에서 콘텐츠 검색의 실제 결과를 내보내는 Microsoft 365 규정 준수 센터 검색 결과 보고서를 내보낼 수 있습니다. 보고서에는 내보낼 각 항목에 대한 자세한 정보가 포함된 검색 결과 및 문서가 요약되어 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0eae866625c9fd2424263ebfa6bff03ecc5c09a820017ffde5dad6d66f1c2164
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b5307bab55f838697e63559834653b54f06c86e7
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819985"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503098"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
@@ -37,7 +37,7 @@ Microsoft 365 준수 센터의 콘텐츠 검색(또는 Core eDiscovery 사례와
 
 ## <a name="before-you-export-a-search-report"></a>검색 보고서를 내보내기 전에
 
-- 검색 보고서를 내보내기 위해 Security & Compliance Center에서 준수 검색 관리 역할을 할당해야 합니다. 이 역할은 기본적으로 기본 제공 eDiscovery 관리자 및 조직 관리 역할 그룹에 할당됩니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
+- 검색 보고서를 내보내기 위해 검색 보고서에 준수 검색 관리 역할이 할당되어 Microsoft 365 규정 준수 센터. 이 역할은 기본적으로 기본 제공 eDiscovery 관리자 및 조직 관리 역할 그룹에 할당됩니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
 
 - 보고서를 내보낼 때 데이터는 로컬 컴퓨터로 Azure Storage Microsoft 클라우드의 임시 위치에 일시적으로 저장됩니다. 조직에서 **\* .blob.core.windows.net** Azure의 끝점에 연결할 수 있는지 확인(와일드카드는 내보내기 고유 식별자를 나타임) 검색 결과 데이터는 생성된 Azure Storage 위치에서 삭제됩니다.
 

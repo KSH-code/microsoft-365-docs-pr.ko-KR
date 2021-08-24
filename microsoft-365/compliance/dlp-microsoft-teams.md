@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Teams 채널은 DLP(데이터 손실 방지) 정책을 지원합니다.
-ms.openlocfilehash: c71001ec81326df07362c4caa34a2f9d382fb3eb3b18d790a3883f369b41aba7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a2ad3cdb3666550f5205eb3e1b7d1a7f6c6b3a66
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53851290"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502966"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -37,10 +37,10 @@ ms.locfileid: "53851290"
 
 [데이터 손실 방지](dlp-learn-about-dlp.md) 기능은 다음에 대한 비공개 채널 Microsoft Teams 및 채널 메시지를 포함하기 위해 **확장했습니다.**
 
-- Office 365 E5/A5
-- Microsoft 365 E5/A5
-- Microsoft 365 정보 보호 및 거버넌스
-- Office 365 Advanced Compliance
+- Office 365 E5/A5/G5
+- Microsoft 365 E5/A5/G5
+- Microsoft 365 E5/A5/G5 정보 보호 및 거버넌스
+- Microsoft 365 E5/A5/G5/F5 규정 준수 및 F5 보안 & 규정 준수
 
 Office 365 Microsoft 365 E3 온라인, OneDrive 및 SharePoint DLP 보호가 Exchange Online. 이 파일에는 Teams Online을 사용하여 Teams 공유하기 때문에 SharePoint 공유하는 OneDrive 포함됩니다.
 

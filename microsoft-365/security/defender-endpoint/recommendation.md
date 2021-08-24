@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 65486a046967ef3a3961220af0c9077a7d3fbd94
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: bc00136b3ca404efc2a39eb8cf7bac6dcbc84d2e
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58253418"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502030"
 ---
 # <a name="recommendation-resource-type"></a>권장 리소스 유형
 
@@ -58,7 +58,9 @@ recommendationName | String | 권장 이름
 약점 | Long | 검색된 취약성 수
 공급업체 | String | 관련 공급업체 이름
 recommendedVersion | String | 권장 버전
-recommendationCategory | String | 권장 범주. 가능한 값은 "Accounts", "Application", "Network", "OS", "SecurityStack입니다.
+recommendedProgram | String | 권장 프로그램
+recommendedVendor | String | 권장 공급업체
+recommendationCategory | String | 권장 범주. 가능한 값은 "계정", "응용 프로그램", "네트워크", "OS", "SecurityControls"입니다.
 subCategory | String | 권장 하위 범주
 severityScore | 실수 | 구성이 조직의 장치에 대한 Microsoft 보안 점수에 미치는 잠재적인 영향(1-10)
 publicExploit | 부울 | 공용 악용 사용 가능 
@@ -67,7 +69,7 @@ associatedThreats | 문자열 컬렉션 | 위협 분석 보고서가 이 권장�
 remediationType | String | 수정 유형입니다. 가능한 값은 "ConfigurationChange","Update","Upgrade","Uninstall"입니다.
 상태 | Enum | 권장 예외 상태입니다. 가능한 값은 "Active" 및 "Exception"입니다.
 configScoreImpact | 실수 | 장치에 대한 Microsoft 보안 점수 영향
-exposureImpacte | 실수 | 노출 점수 영향
+exposureImpact | 실수 | 노출 점수 영향
 totalMachineCount | Long | 설치된 장치 수
 exposedMachinesCount | Long | 취약성에 노출되는 설치된 장치 수
 nonProductivityImpactedAssets | Long | 영향을 받지 않는 장치 수  

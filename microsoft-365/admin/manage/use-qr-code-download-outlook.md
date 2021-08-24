@@ -16,17 +16,14 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 description: QR 코드를 사용하여 Outlook 모바일을 인증하고 다운로드하는 방법을 알아보세요.
-ms.openlocfilehash: a648722877580899f9747afa20bd758be2589a7ab2fb794a636614b032e063cf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4cd093ea8592255587cdbe8d4dbb1a5c4b1d6674
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824398"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502018"
 ---
 # <a name="use-a-qr-code-to-sign-in-to-the-outlook-mobile-apps"></a>QR 코드를 사용하여 Outlook 모바일 앱에 로그인
-
-> [!IMPORTANT]
-> 이 기능은 Microsoft 365 관리 센터에서 대상 릴리스를 켠 조직에서만 사용할 수 있습니다. 대상 릴리스를 켜고 작동 방식에 대해 자세히 알아보려면 [표준 또는 대상 릴리스 옵션 설정](release-options-in-office-365.md)을 참조하세요. Microsoft는 공개 미리 보기를 통해 앞으로 몇 주 동안 더 많은 조직으로 확장할 예정입니다. 공개 미리 보기는 Microsoft 365 기능에 대한 조기 액세스를 제공합니다.
 
 Microsoft 365 관리자는 사용자가 사용자 이름과 암호를 입력하지 않고도 모바일 장치에서 Android 또는 iOS용 Outlook 앱에 로그인하도록 설정할 수 있습니다. 사용자는 QR 코드를 스캔하여 Outlook 모바일에 안전하게 인증하고 로그인할 수 있습니다.
 

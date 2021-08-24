@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5a27bebc9be678119703f931d99e07627c4355e0c64febecb067a12666edb73d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e39a1833157210e3d5e4c6a5bcc77deede295f3c
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793805"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58501994"
 ---
 # <a name="list-exposure-score-by-device-group"></a>장치 그룹당 노출 점수 나열
 
@@ -39,9 +39,9 @@ ms.locfileid: "53793805"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-지정한 도메인 주소와 관련된 경고 컬렉션을 검색합니다.
+각 컴퓨터 그룹에 대한 노출 점수를 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -103,7 +103,7 @@ GET https://api.securitycenter.microsoft.com/api/exposureScore/ByMachineGroups
 }
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [위험 기반 위협 & 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [위협 & 노출 점수](/microsoft-365/security/defender-endpoint/tvm-exposure-score)

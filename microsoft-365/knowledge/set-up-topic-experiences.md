@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: 항목의 설정 Microsoft Viva 방법
-ms.openlocfilehash: 65c679889c60b69ae60a4649b64224f7970f57e58feb5f40a391e0acc257966c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fedf5efd6021dc425dcd7c26666edb66b1b780d6
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834895"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502774"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>항목 Microsoft Viva 설정
 
@@ -25,7 +25,8 @@ ms.locfileid: "53834895"
 
 Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.microsoft.com/microsoft-viva/topics) SharePoint 관리자 또는 Microsoft 365 관리 센터 해야 합니다.
 
-관리되는 SharePoint 구성한 경우 [](/sharepoint/control-access-from-unmanaged-devices)관리되는 장치에서 항목을 설정해야 합니다.
+> [!IMPORTANT]
+> 관리되는 장치를 SharePoint 구성한 [](/sharepoint/control-access-from-unmanaged-devices)경우 관리되는 장치에서 항목을 설정해야 합니다.
 
 ## <a name="video-demonstration"></a>동영상 데모
 
@@ -54,7 +55,7 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
    > [!div class="mx-imgBorder"]
    > ![Microsoft Viva 항목의 Microsoft 365 관리 센터](../media/topic-experiences-licenses.png)
 
-5. **변경 사항 저장** 를 클릭합니다.
+5. **변경 내용 저장** 을 클릭합니다.
 
 라이선스가 할당된 후 사용자가 항목에 액세스하는 데 최대 1시간이 걸릴 수 있습니다.
 

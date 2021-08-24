@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 관리자가 해당 사서함이 법적 보유 상태인 경우에도 Exchange Online 사서함에 대한 사용자의 복구 가능한 항목 폴더에 있는 항목을 삭제하는 방법을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03745d13a7f2a76302f2ef5687f98eacb9da0628b9518c81944b1451dc6da898
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 01242e2c5f00cd1e5aef0ac0f6f7f6e1d47a56ce
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842330"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502666"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -48,7 +48,7 @@ ms.locfileid: "53842330"
   
 ## <a name="before-you-delete-items"></a>항목을 삭제하기 전에
 
-- 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](./assign-ediscovery-permissions.md)를 참조하세요.
+- 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 데 대한 자세한 내용은 [eDiscovery](./assign-ediscovery-permissions.md)사용 권한 할당을 참조하세요.
 
 - 이 문서에 설명된 절차는 비활성 사서함에 대해 지원되지 않습니다. 제거한 후 비활성 사서함에 보류(또는 보존 정책)를 다시 적용할 수 없습니다. 비활성 사서함에서 보류를 제거하면 해당 사서함이 소프트 삭제된 일반 사서함으로 변경되고 관리되는 폴더 도우미가 처리한 후 조직에서 영구적으로 삭제됩니다.
 
@@ -208,7 +208,7 @@ Security & Compliance [Center PowerShell에서](/powershell/exchange/exchange-on
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-보존 정책을 식별한 후 보안 & 준수 센터의 정보 거버넌스 보존 페이지로 이동하여 이전 단계에서 식별한 보존 정책을 편집하고 보존 정책에 포함된 받는 사람 목록에서 사서함을  >   제거합니다.
+보존 정책을 식별한 후 Microsoft 365 규정 준수 센터 페이지의 정보 거버넌스 보존 페이지로 이동하여 이전 단계에서 식별한 보존 정책을 편집하고 보존 정책에 포함된 받는 사람 목록에서 사서함을  >   제거합니다.
   
 ### <a name="organization-wide-retention-policies"></a>조직 전체 보존 정책
   
@@ -218,7 +218,7 @@ Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-조직 전체 보존 정책을 식별한 후 보안 & 준수 센터의 정보 거버넌스 보존 페이지로 이동하여 이전 단계에서 식별한 각 조직 전체 보존 정책을 편집하고 제외된 받는 사람 목록에 사서함을  >   추가합니다. 이렇게 하면 보존 정책에서 사용자의 사서함이 제거됩니다. 변경을 복제하는 데 최대 24시간이 걸릴 수 있습니다.
+조직 전체 보존 정책을 식별한 후 Microsoft 365 규정 준수 센터 페이지의 정보 거버넌스 보존 페이지로 이동하여 이전 단계에서 식별한 각 조직 전체 보존 정책을 편집하고 제외된 받는 사람 목록에 사서함을  >   추가합니다. 이렇게 하면 보존 정책에서 사용자의 사서함이 제거됩니다. 변경을 복제하는 데 최대 24시간이 걸릴 수 있습니다.
 
 ### <a name="retention-labels"></a>보존 레이블
 
@@ -388,15 +388,15 @@ PowerShell에서 다음 단계를 지정한 Exchange Online 수행합니다.
 
     **특정 사서함에 적용된 보존 정책**
 
-    보안 및 & 센터를 사용하여 사서함을 보존 정책에 다시 추가합니다. Security & Compliance Center의 정보 거버넌스 보존 페이지로 이동하여 보존 정책을 편집한 다음 보존 정책이 적용되는 받는 사람 목록에 사서함을 다시  >   추가합니다.
+    사서함 Microsoft 365 규정 준수 센터 사서함을 보존 정책에 다시 추가합니다. 준수 센터의 **정보** 거버넌스 보존 페이지로 이동하여 보존 정책을 편집하고 보존 정책이 적용되는 받는 사람 목록에 사서함을 다시  >   추가합니다.
 
     **조직 전체 보존 정책**
 
-    정책에서 정책을 제외하여 조직 전체 또는 Exchange 보존 정책을 제거한 경우 보안 & 준수 센터를 사용하여 제외된 사용자 목록에서 사서함을 제거합니다. 보안 **및** 준수 센터의 정보 거버넌스 보존 & 조직 전체 보존 정책을 편집하고 제외된 받는 사람 목록에서 사서함을  >   제거합니다. 이렇게 하면 보존 정책이 사용자 사서함에 다시 적용됩니다.
+    정책에서 정책을 제외하여 조직 전체 또는 Exchange 보존 정책을 제거한 경우 Microsoft 365 규정 준수 센터 사용자 목록에서 사서함을 제거합니다. 준수 센터의 **정보** 거버넌스 보존 페이지로 이동하여 조직 전체 보존 정책을 편집하고 제외된 받는 사람 목록에서 사서함을  >   제거합니다. 이렇게 하면 보존 정책이 사용자 사서함에 다시 적용됩니다.
 
     **eDiscovery 사례 보류**
 
-    보안 & 준수 센터를 사용하여 eDiscovery 사례와 연결된 사서함을 다시 보류합니다. **eDiscovery**  >  **eDiscovery** 페이지로 이동하여 사례를 열고 사서함을 보류에 다시 추가합니다. 
+    이 Microsoft 365 규정 준수 센터 eDiscovery 사례와 연결된 보류를 다시 추가합니다. **eDiscovery** Core 페이지로 이동하여 사례를 열고 사서함을 보류에 다시  >   추가합니다. 
 
 5. 다음 명령을 실행하여 관리되는 폴더 도우미가 사서함을 다시 처리하도록 허용합니다. 앞서 언급했듯이 관리되는 폴더 도우미를 다시 사용하도록 설정하기 전에 보류 또는 보존 정책을 다시 적용하고 현재 상태가 확인된 후 24시간을 기다리는 것이 좋습니다.
 
@@ -424,6 +424,6 @@ PowerShell에서 다음 단계를 지정한 Exchange Online 수행합니다.
 |:-----|:-----|:-----|
 |소송 대기  <br/> | `True` <br/> |*LitigationHoldEnabled* 속성이 로 `True` 설정됩니다.  <br/> |
 |원본 위치 유지  <br/> | `c0ba3ce811b6432a8751430937152491` <br/> |*InPlaceHolds* 속성에는 사서함에 In-Place Hold의 GUID가 포함되어 있습니다. GUID가 In-Place 시작하지 않는 경우 이 보류를 알 수 있습니다.  <br/> PowerShell에서 명령을 사용하여 Exchange Online 사서함의 보류 In-Place `Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL` 정보를 얻을 수 있습니다.  <br/> |
-| 특정 사서함에 & 보안 및 준수 센터의 보존 정책  <br/> | `mbxcdbbb86ce60342489bff371876e7f224` <br/> 또는  <br/>  `skp127d7cf1076947929bf136b7a2a8c36f` <br/> |**Get-Mailbox** cmdlet을 실행할 때 *InPlaceHolds* 속성에는 사서함에 적용된 보존 정책의 GUID도 포함되어 있습니다. GUID는 prefix로 시작하기 때문에 보존 정책을  `mbx` 식별할 수 있습니다. 보존 정책의 GUID가 prefix로 시작하는 경우 해당 보존 정책이 비즈니스용 Skype `skp` 나타냅니다.  <br/> 사서함에 적용되는 보존 정책을 ID로 설정하기 위해 보안 및 준수 센터 PowerShell에서 & 실행합니다. <br/> <br/>`Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>이 명령을 실행할 때 또는  `mbx`  `skp` prefix를 제거해야 합니다.  <br/> |
-|보안 및 준수 센터의 조직 & 정책  <br/> |값 없음  <br/> 또는  <br/>  `-mbxe9b52bf7ab3b46a286308ecb29624696` (사서함이 조직 전체 정책에서 제외된 것)  <br/> |**Get-Mailbox** cmdlet을 실행할 때 *InPlaceHolds* 속성이 비어 있는 경우에도 사서함에 하나 이상의 조직 전체 보존 정책이 적용될 수 있습니다.  <br/> 이를 확인하기 위해 PowerShell에서 명령을 Exchange Online 전체 보존 정책에 대한 GUID 목록을 `Get-OrganizationConfig | FL InPlaceHolds` 얻을 수 있습니다. Exchange 사서함에 적용된 조직 전체 보존 정책의 GUID는 다음과 같은 Exchange 으로 `mbx` `mbxa3056bb15562480fadb46ce523ff7b02` 시작합니다.  <br/> 사서함에 적용되는 조직 전체 보존 정책을 ID로 설정하기 위해 보안 및 준수 센터 PowerShell에서 & 실행합니다. <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>사서함이 조직 전체 보존 정책에서 제외된 경우 **Get-Mailbox** cmdlet을 실행할 때 보존 정책의 GUID가 사용자 사서함의 *InPlaceHolds* 속성에 표시됩니다. 예를 들면 다음과 같습니다. `-mbx``-mbxe9b52bf7ab3b46a286308ecb29624696` <br/> |
-|보안 및 준수 센터의 eDiscovery 사례 & 보류  <br/> | `UniH7d895d48-7e23-4a8d-8346-533c3beac15d` <br/> |*InPlaceHolds* 속성에는 사서함에 배치될 수 있는 보안 및 준수 센터의 eDiscovery 사례와 & 보류의 GUID도 포함되어 있습니다. GUID가 prefix로 시작하기 때문에 eDiscovery 케이스 보류라고 알  `UniH` 수 있습니다.  <br/> Security &  `Get-CaseHoldPolicy` Compliance Center PowerShell의 cmdlet을 사용하여 사서함의 보류가 연결된 eDiscovery 사례에 대한 정보를 얻을 수 있습니다. 예를 들어 명령을 실행하여 사서함에 있는 케이스 보류의  `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` 이름을 표시할 수 있습니다. 이 명령을 실행할 때 반드시  `UniH` prefix를 제거해야 합니다.  <br/><br/> 사서함의 보류가 연결된 eDiscovery 사례를 ID로 설정하기 위해 다음 명령을 실행합니다.<br/><br/>`$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/>`Get-ComplianceCase $CaseHold.CaseId | FL Name`
+| 특정 사서함에 Microsoft 365 규정 준수 센터 보존 정책  <br/> | `mbxcdbbb86ce60342489bff371876e7f224` <br/> 또는  <br/>  `skp127d7cf1076947929bf136b7a2a8c36f` <br/> |**Get-Mailbox** cmdlet을 실행할 때 *InPlaceHolds* 속성에는 사서함에 적용된 보존 정책의 GUID도 포함되어 있습니다. GUID는 prefix로 시작하기 때문에 보존 정책을  `mbx` 식별할 수 있습니다. 보존 정책의 GUID가 prefix로 시작하는 경우 해당 보존 정책이 비즈니스용 Skype `skp` 나타냅니다.  <br/> 사서함에 적용되는 보존 정책을 ID로 설정하기 위해 보안 및 준수 센터 PowerShell에서 & 실행합니다. <br/> <br/>`Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>이 명령을 실행할 때 또는  `mbx`  `skp` prefix를 제거해야 합니다.  <br/> |
+|조직의 조직 전체 보존 Microsoft 365 규정 준수 센터  <br/> |값 없음  <br/> 또는  <br/>  `-mbxe9b52bf7ab3b46a286308ecb29624696` (사서함이 조직 전체 정책에서 제외된 것)  <br/> |**Get-Mailbox** cmdlet을 실행할 때 *InPlaceHolds* 속성이 비어 있는 경우에도 사서함에 하나 이상의 조직 전체 보존 정책이 적용될 수 있습니다.  <br/> 이를 확인하기 위해 PowerShell에서 명령을 Exchange Online 전체 보존 정책에 대한 GUID 목록을 `Get-OrganizationConfig | FL InPlaceHolds` 얻을 수 있습니다. Exchange 사서함에 적용된 조직 전체 보존 정책의 GUID는 다음과 같은 Exchange 으로 `mbx` `mbxa3056bb15562480fadb46ce523ff7b02` 시작합니다.  <br/> 사서함에 적용되는 조직 전체 보존 정책을 ID로 설정하기 위해 보안 및 준수 센터 PowerShell에서 & 실행합니다. <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>사서함이 조직 전체 보존 정책에서 제외된 경우 **Get-Mailbox** cmdlet을 실행할 때 보존 정책의 GUID가 사용자 사서함의 *InPlaceHolds* 속성에 표시됩니다. 예를 들면 다음과 같습니다. `-mbx``-mbxe9b52bf7ab3b46a286308ecb29624696` <br/> |
+|eDiscovery 사례 보류 Microsoft 365 규정 준수 센터  <br/> | `UniH7d895d48-7e23-4a8d-8346-533c3beac15d` <br/> |*InPlaceHolds* 속성에는 사서함에 배치될 수 있는 Microsoft 365 규정 준수 센터 eDiscovery 사례와 연결된 모든 보류의 GUID도 포함되어 있습니다. GUID가 prefix로 시작하기 때문에 eDiscovery 케이스 보류라고 알  `UniH` 수 있습니다.  <br/> Security &  `Get-CaseHoldPolicy` Compliance Center PowerShell의 cmdlet을 사용하여 사서함의 보류가 연결된 eDiscovery 사례에 대한 정보를 얻을 수 있습니다. 예를 들어 명령을 실행하여 사서함에 있는 케이스 보류의  `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` 이름을 표시할 수 있습니다. 이 명령을 실행할 때 반드시  `UniH` prefix를 제거해야 합니다.  <br/><br/> 사서함의 보류가 연결된 eDiscovery 사례를 ID로 설정하기 위해 다음 명령을 실행합니다.<br/><br/>`$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/>`Get-ComplianceCase $CaseHold.CaseId | FL Name`

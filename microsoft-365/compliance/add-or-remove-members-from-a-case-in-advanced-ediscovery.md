@@ -17,16 +17,16 @@ search.appverid:
 ms.assetid: ''
 description: 사례를 관리할 때 사례에 액세스할 수 있는 구성원을 추가하거나 제거하는 방법을 Advanced eDiscovery 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b0b35503ca4e006f7a15bae8ffebc80081a9020db47d31621f67b8edbcc22667
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d4fbd3700a74da8975f46174405c73511d16af3b
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53837038"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502042"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>케이스에서 구성원 추가 또는 제거
 
-케이스에 액세스할 수 있는 사용자를 관리하기 위해 구성원을 추가하거나 제거할 수 있습니다. 그러나 구성원이 Advanced eDiscovery 액세스하고 이 경우 작업을 수행하려면 먼저 보안 및 규정 준수 센터의 사용 권한 페이지에서  eDiscovery 관리자 역할 그룹에 사용자를 추가해야 합니다. 자세한 내용은 [보안 및 준수 센터의 eDiscovery 사용 권한 할당](./assign-ediscovery-permissions.md)을 참조하세요.
+케이스에 액세스할 수 있는 사용자를 관리하기 위해 구성원을 추가하거나 제거할 수 있습니다. 그러나 구성원이 Advanced eDiscovery 액세스하고 이 경우 작업을 수행하려면 먼저 보안 및 규정 준수 센터의 사용 권한 페이지에서  eDiscovery 관리자 역할 그룹에 사용자를 추가해야 합니다. 자세한 내용은 [eDiscovery 권한 할당](./assign-ediscovery-permissions.md)을 참조하세요.
 
 1. **Advanced eDiscovery** 페이지에서 구성원을 추가할 케이스로 이동합니다.
 

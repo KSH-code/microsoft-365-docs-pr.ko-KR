@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 검토 집합에 Advanced eDiscovery 대시보드를 사용하여 신속하게 코퍼스를 분석하여 검토 전략을 개발하는 데 도움이 되는 추세 또는 주요 통계를 식별합니다.
-ms.openlocfilehash: 2128f2b2caa719cf2fc9b966ff70e1cfc74a1852896a10c85a17c407ffdddfea
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 14baa47a73ac3cc4917d6e2f04614a80960ef085
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53836534"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502978"
 ---
 # <a name="advanced-ediscovery-dashboard-for-review-sets"></a>Advanced eDiscovery 대시보드에서 검토 집합
 
@@ -29,7 +29,7 @@ ms.locfileid: "53836534"
 
 ## <a name="step-1-create-a-widget-on-the-review-set-dashboard"></a>1단계: 검토 집합 대시보드에 위젯 만들기
 
-1. 보안 및 & 센터에서 **eDiscovery** > Advanced eDiscovery 조직의 사례 목록을 표시합니다.
+1. 조직 Microsoft 365 규정 준수 센터 **eDiscovery** > Advanced eDiscovery 조직의 사례 목록을 표시합니다.
   
 2. 기존 사례를 선택합니다.
   

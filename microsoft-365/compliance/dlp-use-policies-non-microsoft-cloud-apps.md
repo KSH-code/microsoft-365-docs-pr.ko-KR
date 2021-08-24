@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft가 아닌 클라우드 앱에 대해 dlp 정책을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: ef4482c66f9774057d5027b191cb32c8cf40becb0e28faa36fc0641fe2e51832
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 10e5f8e78b57932c18acfe18631ae8b08d543dd5
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814284"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502822"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps"></a>Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용
 
@@ -43,7 +43,7 @@ Microsoft가 아닌 클라우드 앱에 DLP 정책을 사용하려면 먼저 Mic
 - Microsoft 365 E5 Compliance
 - Microsoft 365 E5 Security
 
-### <a name="permissions"></a>사용 권한
+### <a name="permissions"></a>권한
 DLP 정책을 만드는 사용자는 다음을 해야 합니다.
 - 전역 관리자
 - 준수 관리자
@@ -59,7 +59,7 @@ DLP 정책을 Microsoft가 아닌 특정 클라우드 앱에 사용하려면 앱
 
 - [커넥트 Box](/cloud-app-security/connect-box-to-microsoft-cloud-app-security)
 - [커넥트 Dropbox](/cloud-app-security/connect-dropbox-to-microsoft-cloud-app-security)
-- [커넥트 G-Suite](/cloud-app-security/connect-google-apps-to-microsoft-cloud-app-security)
+- [커넥트 G-Workspace](/cloud-app-security/connect-google-apps-to-microsoft-cloud-app-security)
 - [커넥트 Salesforce](/cloud-app-security/connect-salesforce-to-microsoft-cloud-app-security)
 - [커넥트 Cisco Webex](/cloud-app-security/connect-webex-to-microsoft-cloud-app-security)
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 변호사-클라이언트 권한 검색 모델을 사용하여 특정 사례의 콘텐츠를 검토할 때 권한이 부여된 콘텐츠에 대한 기계 학습 기반 검색을 Advanced eDiscovery 있습니다.
-ms.openlocfilehash: a6389d68a73813dff9853cf904bd79c2ce47b9fc4de4000250bb75e0e0c8bc86
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 814caf417de58a51b43d5c4b8ef2b99c11263986
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53808515"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503110"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>2013에서 변호사-클라이언트 권한 검색 Advanced eDiscovery
 
@@ -57,7 +57,7 @@ eDiscovery 프로세스의 검토 단계에서 중요한 비용과 관련이 있
 
 조직의 eDiscovery 관리자인 사용자(eDiscovery 관리자 역할 그룹의 eDiscovery 관리자 하위 그룹의 구성원)는 해당 사례에서 모델을 사용할 수 있도록 Advanced eDiscovery 합니다.
 
-1. 보안 및 & 센터에서 **eDiscovery**> Advanced eDiscovery.
+1. In the Microsoft 365 규정 준수 센터, go to **eDiscovery > Advanced**.
 
 2. Advanced eDiscovery **홈** 페이지의 설정 타일에서 전역 분석 **설정 구성을** **클릭합니다.**
 

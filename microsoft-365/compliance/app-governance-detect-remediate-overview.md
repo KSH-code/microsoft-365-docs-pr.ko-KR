@@ -2,8 +2,8 @@
 title: 앱 위협 감지 및 수정에 대해 알아보기
 f1.keywords:
 - NOCSH
-ms.author: v-tophillips
-author: v-tophillips
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 위협 감지 및 수정에 대해 알아봅니다.
-ms.openlocfilehash: 9d4a4b9f6ed7b10cb6e0626625f334063289a5905488325895be6e6ed6aa5a3f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 574688e67b7562c8df6aec7d2242e68485239479
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842659"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438051"
 ---
 # <a name="learn-about-app-threat-detection-and-remediation"></a>앱 위협 감지 및 수정에 대해 알아보기
 
@@ -51,6 +51,10 @@ Microsoft 앱 거버넌스를 사용하면 다음을 수행할 수 있습니다.
 - 애플리케이션 거버넌스의 애플리케이션 로그인 정보:
 
   애플리케이션 거버넌스 포털에서 각 애플리케이션에 대해 집계된 로그인 작업을 확인하고 Azure Active Directory 관리 센터에 다시 연결하여 로그인 이벤트에 대한 세부 정보를 확인할 수 있습니다.
+
+- Azure Active Directory 관리 센터의 앱 API 사용량 정보입니다.
+
+  Azure Active Directory 관리 센터에서 집계된 앱 사용량 정보를 확인하고 앱 사용량에 대한 자세한 내용은 앱 거버넌스 포털 링크를 통해 확인할 수 있습니다.
 
 - Microsoft Cloud App Security 포털의 API 사용량 정보: 
 

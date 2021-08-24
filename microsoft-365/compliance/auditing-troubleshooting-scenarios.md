@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일 계정에 대한 일반적인 Microsoft 365 문제를 해결하는 데 도움이 되는 감사 로그 검색 도구를 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 8a925bd425d04a3df8971b1cf983763f2093aa68
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: b24306b65a6f5eab59865f09c996892ef24660a0
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255721"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502726"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색하여 일반적인 지원 문제 조사
 
@@ -39,7 +39,7 @@ ms.locfileid: "58255721"
 
 ## <a name="using-the-audit-log-search-tool"></a>감사 로그 검색 도구 사용
 
-이 문서에 설명된 각 문제 해결 시나리오는 보안 및 준수 센터의 감사 로그 검색 & 기반으로 합니다. 이 섹션에서는 감사 로그를 검색하는 데 필요한 사용 권한을 나열하고 감사 로그 검색에 액세스하고 실행하기 위한 단계를 설명합니다. 각 시나리오 섹션에서는 감사 로그 검색 쿼리를 구성하는 방법과 검색 조건과 일치하는 감사 레코드의 세부 정보에서 찾을 대상에 대해 설명합니다.
+이 문서에 설명된 각 문제 해결 시나리오는 이 문서의 감사 로그 검색 도구를 Microsoft 365 규정 준수 센터. 이 섹션에서는 감사 로그를 검색하는 데 필요한 사용 권한을 나열하고 감사 로그 검색에 액세스하고 실행하기 위한 단계를 설명합니다. 각 시나리오 섹션에서는 감사 로그 검색 쿼리를 구성하는 방법과 검색 조건과 일치하는 감사 레코드의 세부 정보에서 찾을 대상에 대해 설명합니다.
 
 ### <a name="permissions-required-to-use-the-audit-log-search-tool"></a>감사 로그 검색 도구를 사용하는 데 필요한 사용 권한
 

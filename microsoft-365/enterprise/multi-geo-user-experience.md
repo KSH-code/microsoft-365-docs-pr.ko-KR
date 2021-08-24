@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: Microsoft 365용 Multi-Geo 환경의 SharePoint, OneDrive 및 Exchange 사용자 작업 환경에 대해 알아봅니다.
-ms.openlocfilehash: d81220cae6e78ddb387742a83affd3e8f803a75cef0cbc292d252f7b302f4959
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5ecdfd41c496149e04bfb9586f76807db7957d0d
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53848510"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502906"
 ---
 # <a name="user-experience-in-a-multi-geo-environment"></a>다중 위치 환경의 사용자 작업 환경
 
@@ -79,7 +79,7 @@ OneDrive Mobile Client는 다중 지역을 인식하며 모든 지리적 위치�
 
 ## <a name="sharepoint-home"></a>SharePoint 홈 
 
-이 SharePoint Multi-Geo SharePoint 홈은 사용자의 OneDrive 위치로 결정되는 위치에 호스트됩니다. 예를 들어, 사용자가 OneDrive를 유럽 위성 위치에서 호스팅하는 경우 SharePoint 홈은 유럽에서 렌더링됩니다. SharePoint 홈에는 지리적 위치와 상관없이 사용자와 관련된 모든 콘텐츠가 포함됩니다. 
+이 SharePoint Multi-Geo SharePoint 홈은 사용자의 OneDrive 위치로 결정되는 위치에 호스트됩니다. 예를 들어 사용자가 유럽 위성 OneDrive 호스트된 경우 SharePoint 홈이 유럽에서 렌더링됩니다. SharePoint 홈에는 지리적 위치와 상관없이 사용자와 관련된 모든 콘텐츠가 포함됩니다. 
 
 **팔로우한 사이트, 사이트의 뉴스, 최근 사용 사이트, 자주 사용하는 사이트 및 추천 사이트**
 
@@ -96,7 +96,7 @@ SharePoint Mobile Client는 다중 지역을 인식하며 모든 지리적 위�
 
 ## <a name="sharing"></a>공유
 
-사용자 선택 기능은 지리적 위치에 관계없이 모든 사용자를 보여줍니다. 이를 통해 사용자는 동일한 지리적 위치 또는 다른 거주자의 지리적 위치에있는 다른 사용자와 공유 할 수 있습니다. 다른 지리적 위치의 콘텐츠는  사용자의 OneDrive 공유 보기에 표시될 수 있으며, 호스트되는 지리적 위치에 관계없이 단일 Sign-On 환경으로 액세스할 수 있습니다.
+사용자 선택 기능은 지리적 위치에 관계없이 모든 사용자를 보여줍니다. 이를 통해 사용자는 동일한 지리적 위치 또는 다른 거주자의 지리적 위치에있는 다른 사용자와 공유 할 수 있습니다. 다른 지리적 위치의 콘텐츠는  사용자의 OneDrive, Word, Excel, PowerPoint 및 Office.com의 나와 공유 보기에 표시될 수 있으며 호스트되는 지리적 위치에 관계없이 Single Sign-On 환경으로 액세스할 수 있습니다.
 
 ## <a name="teams-experience"></a>팀 환경
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 74c47c8e9e4e6f46802c64df0d987ae123ed727cde05b520847c94fcfc7fd349
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8325f848281a37099e7a89eeda05d738c686b011
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800309"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502738"
 ---
 # <a name="list-vulnerabilities-by-recommendation"></a>권장 사항별 취약성 목록
 
@@ -39,14 +39,14 @@ ms.locfileid: "53800309"
 
 보안 권장과 관련된 취약점 목록을 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
 
 사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램|SecurityRecommendation.Read.All|'위협 및 취약성 관리 보안 권장 정보 읽기'
-위임(직장 또는 학교 계정)|SecurityRecommendation.Read|'위협 및 취약성 관리 보안 권장 정보 읽기'
+응용 프로그램|Vulnerability.Read.All  |'위협 및 취약성 관리 보안 권장 정보 읽기'
+위임(직장 또는 학교 계정)|Vulnerability.Read|'위협 및 취약성 관리 보안 권장 정보 읽기'
 
 ## <a name="http-request"></a>HTTP 요청
 

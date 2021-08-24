@@ -17,13 +17,13 @@ search.appverid:
 - MET150
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 보안 및 준수 센터에서 활동 & 추가 및 관리하여 사용자가 Microsoft 365 수행할 때 전자 메일 알림을 보낼 수 있도록 합니다.
-ms.openlocfilehash: 1411e69229dc2baa60578bfa60a7c2c18184fd10a759081e68c13d87a482d7cb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+description: 사용자가 특정 활동을 수행할 때 Microsoft 365 규정 준수 센터 전자 메일 알림을 Microsoft 365 수 있도록 메일 메시지에서 활동 경고를 추가 및 관리합니다.
+ms.openlocfilehash: b9f73a8f61bf1d9ef303ce0ef0b4a60320cae4df
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886555"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503122"
 ---
 # <a name="create-activity-alerts"></a>활동 알림 만들기
 
@@ -36,13 +36,13 @@ ms.locfileid: "53886555"
 
 ## <a name="confirm-roles-and-configure-audit-logging"></a>역할 확인 및 감사 로깅 구성
 
-- 활동 알림을 관리하려면 보안 및 준수 센터에서 & 구성 역할을 할당해야 합니다. 기본적으로 이 역할은 준수 관리자 및 조직 관리 역할 그룹에 할당됩니다. 역할 그룹에 구성원을 추가하는 데 대한 자세한 내용은 사용자에게 보안 및 준수 센터에 대한 액세스 [& 참조하세요.](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+- 활동 알림을 관리하려면 조직 구성 Microsoft 365 규정 준수 센터 할당해야 합니다. 기본적으로 이 역할은 준수 관리자 및 조직 관리 역할 그룹에 할당됩니다. 역할 그룹에 구성원을 추가하는 데 대한 자세한 내용은 사용자에게 역할 그룹에 대한 액세스 [Microsoft 365 규정 준수 센터.](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
 
-- 사용자(또는 다른 관리자)는 먼저 조직에 대한 감사 로깅을 켜야 활동 알림을 사용할 수 있습니다. 이렇게하려면 활동 알림 페이지에서 사용자 및 **관리자** 활동 기록 **시작을 클릭합니다.** (이 링크가 없는 경우 조직에 대해 감사가 이미 켜져 있습니다.) 보안 및 준수 센터의  감사 로그 검색 페이지에서 감사를 & 수 있습니다(검색 감사 로그 검색으로  \> **이동).** 조직에 대해 이 작업을 한 번만하면 됩니다.
+- 사용자(또는 다른 관리자)는 먼저 조직에 대한 감사 로깅을 켜야 활동 알림을 사용할 수 있습니다. 이렇게하려면 활동 알림 페이지에서 사용자 및 **관리자** 활동 기록 **시작을 클릭합니다.** (이 링크가 없는 경우 조직에 대해 감사가 이미 켜져 있습니다.) 또한 감사 로그 검색 페이지의  감사를 으로 Microsoft 365 규정 준수 센터 있습니다(감사로 **이동).** 조직에 대해 이 작업을 한 번만하면 됩니다.
 
 - 감사 로그에서 검색할 수 있는 동일한 활동에 대한 알림을 만들 수 있습니다. 알림을 [만들](#more-information) 수 있는 일반적인 시나리오(및 모니터링할 특정 활동)의 목록은 추가 정보 섹션을 참조하세요.
 
-- 보안 및  준수 센터의 활동 & 페이지를 사용하여 조직의 주소 목록에 있는 사용자가 수행한 활동에만 알림을 만들 수 있습니다. 이 페이지를 사용하여 주소 목록에 없는 외부 사용자가 수행한 활동에 대한 알림을 만들 수 없습니다.
+- 조직의 주소  Microsoft 365 규정 준수 센터 목록에 있는 사용자가 수행한 활동에만 경고를 만들 수 있습니다. 이 페이지를 사용하여 주소 목록에 없는 외부 사용자가 수행한 활동에 대한 알림을 만들 수 없습니다.
 
 ## <a name="create-an-activity-alert"></a>활동 경고 만들기
 
@@ -99,7 +99,7 @@ ms.locfileid: "53886555"
 
 ## <a name="more-information"></a>추가 정보
 
-- 다음은 보안 및 준수 센터의 이 경고 보내기 필드(활동 알림 페이지의 받는 사람  아래에 나열)에 지정된 사용자에게 전송되는 전자 메일 알림의 & 예입니다. 
+- 다음은 전자 메일 알림의 보낸 사람 필드(활동 알림 페이지의 받는 사람 아래에 나열)에 지정된  사용자에게 전송되는 전자 메일 알림의 Microsoft 365 규정 준수 센터. 
 
     ![활동 경고에 대해 전송된 전자 메일 알림의 예](../media/a5f91611-fae6-4fe9-82f5-58521a2e2541.png)
 

@@ -1,7 +1,5 @@
 ---
-title: Office 365용 Microsoft Defender
-f1.keywords:
-- CSH
+title: Office 365용 Microsoft Defender - CSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -21,12 +19,12 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2f4ae80e22ce41e85580b2ed118fa270c285f23f5b71e0d85b07ba338254939e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e9096af6a99fb04a9f25e9d28f31f8eb522ecf4c
+ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56816092"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58392181"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 

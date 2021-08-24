@@ -17,6 +17,7 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet
+- admindeeplinkMAC
 search.appverid:
 - MET150
 - MOE150
@@ -25,12 +26,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 이름 시스템은 컴퓨터 호스트 이름을 IP 주소에 매핑하며 DNS 및 도메인 등록 기관의 기본 기능을 이해하면 도메인을 관리하는 데 도움이 됩니다.
-ms.openlocfilehash: 0cf8d0ef7fa5a3a6420f0cf85eea2242ac9c909faaa3f0e0a032d7902fc4b7ee
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 37d8e885dafaa055ed5cc7eee24456b758ef8b4f
+ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825850"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58394291"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -193,7 +194,7 @@ Microsoft 365에서 이러한 모든 설정이 제대로 작동하기 위해 입
 
 Microsoft 365에서 도메인을 사용하려면 많은 DNS 레코드가 필요합니다. 전자 메일이 Microsoft 365로 전송될 수 있도록 도메인의 MX 레코드를 설정하는 것 외에도 Outlook이 올바른 Exchange 서버에 자동으로 연결되고 메신저를 설정하고 스팸 전자 메일을 방지하는 데 도움이 되는 레코드가 있습니다.
   
-도메인을 설정하기 위한 [값 목록을 찾을](information-for-dns-records.md) 수 있습니다. Microsoft 365 관리 센터에 바로 포함되어 있습니다. 
+도메인을 설정하기 위한 [값 목록을 찾을](information-for-dns-records.md) 수 있습니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Microsoft 365 관리 센터</a>에 바로 포함됩니다. 
   
 또는 배포를 계획하고 있는 경우 Microsoft 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값 목록을 검토해 볼 수 있습니다. [Microsoft 365에 대한 외부 Domain Name System 레코드](../../enterprise/external-domain-name-system-records.md)를 참조하세요.
   

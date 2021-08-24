@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 앱의 커넥터를 & 설정하여 Facebook 비즈니스 Microsoft 365 규정 준수 센터 & 데이터를 가져오는 방법을 Microsoft 365.
-ms.openlocfilehash: 9327da8f3e37d64300ff1bafeb375f65e77fda67cc2d13bf0d1a3227b9bca693
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 766f7858c6e5117190712d3daad68b2b7b4e37c2
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866658"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502654"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Facebook 데이터를 보관할 커넥터 설정(미리 보기)
 
@@ -41,7 +41,7 @@ Facebook 데이터를 가져온 후 소송 보존, Microsoft 365 검색, In-Plac
     - [Pay-As-You-Go Azure 구독에 등록](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
     > [!NOTE]
-    > Azure Active Directory [](use-your-free-azure-ad-subscription-in-office-365.md) 구독에 포함된 무료 Microsoft 365 구독은 보안 및 준수 센터의 커넥터를 & 않습니다.
+    > Azure Active Directory [](use-your-free-azure-ad-subscription-in-office-365.md) 구독에 포함된 무료 Microsoft 365 구독은 Microsoft 365 규정 준수 센터.
 
 - Facebook 비즈니스 페이지의 커넥터는 하루 동안 총 200,000개 항목을 가져올 수 있습니다. 하루 200,000개가 넘는 Facebook 비즈니스 항목이 있는 경우 해당 항목 중 어떤 항목도 가져오지 Microsoft 365.
 

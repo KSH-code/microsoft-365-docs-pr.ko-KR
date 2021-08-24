@@ -188,8 +188,6 @@
               href: m365d-autoir-results.md
             - name: 가양성 및 가음성 문제 해결
               href: m365d-autoir-report-false-positives-negatives.md
-            - name: Power Automate 사용
-              href: use-power-automate.md
         - name: 고급 헌팅
           items:
             - name: 고급 헌팅 개요
@@ -324,6 +322,8 @@
               href: integrate-microsoft-365-defender-secops-use-cases.md
             - name: 6단계. SOC 유지 관리 작업
               href: integrate-microsoft-365-defender-secops-tasks.md
+        - name: Power Automate 사용
+          href: use-power-automate.md
     - name: 사용 방법 가이드
       items:
         - name: 평가판 랩 또는 파일럿 환경 만들기

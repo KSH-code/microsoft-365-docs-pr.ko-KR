@@ -12,12 +12,12 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: 2964c79c586962df31c70b25f13d974a1aa90cd5
-ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
+ms.openlocfilehash: f8c27f5776c41376abd6f9c0e412480e02bab217
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58392072"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503218"
 ---
 # <a name="overview"></a>개요
 
@@ -49,7 +49,7 @@ Microsoft Managed Desktop 데이터는 미국의 Azure 데이터 센터에 저�
 
 Microsoft Managed Desktop 엔지니어링 운영 및 보안 운영 팀은 미국 및 인도에 있습니다. 
 
-## <a name="microsoft-windows-10-diagnostic-data"></a>Microsoft Windows 10 진단 데이터
+### <a name="microsoft-windows-10-diagnostic-data"></a>Microsoft Windows 10 진단 데이터
 
 Microsoft Managed Desktop 데이터를 [Windows 10 향상된](/windows/privacy/windows-diagnostic-data) 진단 데이터를 사용하여 보안 Windows, 문제를 해결하고, 제품을 개선합니다. 향상된 진단 데이터 설정에는 등록된 장치에 대한 자세한 Microsoft Managed Desktop, 설정, 기능 및 장치 상태도 포함됩니다. 향상된 진단 데이터를 선택하면 필수 진단 데이터를 비롯한 데이터가 수집됩니다. 진단 [데이터 Windows](/windows/privacy/changes-to-windows-diagnostic-data-collection) 설정 및 데이터 수집에 대한 자세한 내용은 Windows 10 데이터 수집에 대한 변경 사항을 참조하세요.
 
@@ -59,21 +59,21 @@ Microsoft Managed Desktop 응용 프로그램 및 장치 안정성 및 성능 �
 
 Microsoft Windows 10 데이터 수집에 대한 자세한 내용은 Microsoft [](https://privacy.microsoft.com/privacystatement#mainwherewestoreandprocessdatamodule) 개인 정보 취급 방침의 개인 데이터를 저장하고 처리하는 위치 섹션을 참조하세요.
 
-## <a name="microsoft-windows-update-for-business"></a>비즈니스용 Microsoft Windows 업데이트
+### <a name="microsoft-windows-update-for-business"></a>비즈니스용 Microsoft Windows 업데이트
 비즈니스용 Microsoft Windows 업데이트는 Windows 데이터를 사용하여 업데이트 상태 및 실패를 분석합니다. Microsoft Managed Desktop 데이터를 활용하여 문제를 완화하고 해결하여 등록된 모든 장치가 미리 정의된 업데이트 케이던스를 기반으로 최신으로 유지되도록 합니다.
 
-## <a name="microsoft-azure-active-directory"></a>Microsoft Azure Active Directory
+### <a name="microsoft-azure-active-directory"></a>Microsoft Azure Active Directory
 조직에서 사용하는 Microsoft Managed Desktop 식별은 엔터프라이즈 및 Azure용 Microsoft Apps 같은 Microsoft 온라인 서비스에 구독할 때 조직에서 제공한 위치를 기반으로 지리적 위치에 Azure Active Directory(Azure AD)에 의해 저장됩니다. 조직에서 사용하는 Microsoft Managed Desktop 식별은 엔터프라이즈 및 Azure와 같은 Microsoft 온라인 서비스에 구독할 때 조직에서 제공하는 위치에 따라 Azure AD에서 Microsoft Apps 저장합니다. Azure AD 데이터가 있는 장소에 대한 자세한 내용은 Azure Active Directory [- 데이터는 어디에 있나요?를 참조하세요.](https://msit.powerbi.com/view?r=eyJrIjoiODdjOWViZDctMWRhZS00ODUzLWI4MmQtNWM5NjBkZTBkNjFlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)
 
-## <a name="microsoft-intune"></a>Microsoft Intune
+### <a name="microsoft-intune"></a>Microsoft Intune
 Microsoft Intune 및 서비스를 지원하기 위해 데이터를 Microsoft Managed Desktop, 프로세스 및 공유합니다. Intune에서 수집된 데이터에 대한 자세한 내용은 [Intune의](/mem/intune/protect/privacy-data-collect) 데이터 수집을 참조하세요. 
 
 데이터 위치에 대한 Microsoft Intune 자세한 내용은 고객 데이터가 [Microsoft 365 위치를 참조하세요.](/microsoft-365/enterprise/o365-data-locations) Intune은 고객 데이터에 대해 관리자가 선택한 저장소 위치를 존중합니다.
 
-## <a name="microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender
+### <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 끝점용 Microsoft Defender는 관리, 추적 및 보고를 위해 Microsoft Managed Desktop 등록된 장치에 대한 정보를 수집하고 저장합니다. 수집된 정보에는 파일 데이터(예: 파일 이름, 크기 및 해시), 프로세스 데이터(실행 중인 프로세스, 해시), 레지스트리 데이터, 네트워크 연결 데이터 및 장치 세부 정보(예: 장치 식별자, 장치 이름 및 운영 체제 버전)가 포함됩니다. Endpoint의 데이터 수집 및 저장소 위치에 대한 Microsoft Defender에 대한 자세한 내용은 [Endpoint](/microsoft-365/security/defender-endpoint/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender를 참조하세요. 
 
-## <a name="microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱 
+### <a name="microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱 
 엔터프라이즈용 Microsoft 365 앱 데이터를 수집하고 공유하여 Microsoft Managed Desktop 관리되는 미리 정의한 업데이트 채널을 기반으로 최신 버전의 앱을 최신 버전으로 Microsoft Managed Desktop. 데이터 수집 및 저장 위치에 대한 자세한 내용은 Endpoint 데이터 저장소 및 개인 정보 보호를 Microsoft 365 앱 Microsoft [Defender를](/microsoft-365/security/defender-endpoint/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 참조하세요.
 
 ## <a name="major-data-change-notification"></a>주요 데이터 변경 알림
@@ -82,11 +82,10 @@ Microsoft Managed Desktop 통신 프레임워크에 설명된 변경 제어 프�
 ## <a name="compliance"></a>규정 준수
 Microsoft Managed Desktop 감사를 시작하고 포괄적인 규정 준수 제품 집합을 획득했습니다. 자세한 내용은 준수 에서 Microsoft Managed Desktop [있습니다.](/microsoft-365/managed-desktop/intro/compliance) 감사 보고서는 Microsoft Enterprise Online Services의 중앙 리포지토리 역할을 하는 Microsoft Service [Trust Portal에서](https://aka.ms/stp)다운로드할 수 있습니다. 이 Microsoft Managed Desktop "모니터링 및 관리"라는 범주의 문서 내에 나열됩니다.
 
-## <a name="data-subject-rights"></a>데이터 주체 권리
-
+### <a name="data-subject-requests"></a>데이터 주체 요청
 Microsoft Managed Desktop 개인 데이터에 대한 특정 권한을 데이터 주체에 제공 하는 GDPR 및 CCPA 개인 정보 보호 규정을 따릅니다. 이러한 권한에는 개인 데이터의 복사본을 얻거나, 수정을 요청하거나, 데이터의 처리를 제한하거나, 삭제하거나, 다른 컨트롤러로 이동할 수 있도록 전자 형식으로 수신하는 것이 포함됩니다. 일반적으로 DSR(데이터 주체 요청)에 대한 자세한 내용은 데이터 주체 요청 및 [GDPR 및 CCPA를 참조하세요.](/compliance/regulatory/gdpr-data-subject-requests)
 
-Microsoft Managed Desktop 사례 관리 시스템에서 수집한 데이터에 대해 DSRS(데이터 주체 권한)를 행사하기 위해 다음을 참조하세요.
+Microsoft Managed Desktop 관리 시스템에서 수집한 데이터에 대해 데이터 주체 요청을 이행하기 위해 다음을 참조하세요.
 
 - 끝점 경고에 대한 Microsoft Defender의 데이터: 보안 관리자는 관리 포털에서 보고서 요청을 제출하여 끝점 경고에 대한 Microsoft Defender와 관련된 개인 데이터 삭제 또는 추출을 [요청할 수 있습니다.](https://aka.ms/memadmin) 요청에서 요청 유형 변경 **요청,** 범주 **보안** 및 하위 범주 기타 를 **선택합니다.** 요청 설명에 관련 장치 이름을 제공합니다.
 - 지원 Microsoft Managed Desktop 데이터: IT 관리자는 관리 포털에서 보고서 요청을 제출하여 개인 데이터 관련 지원 요청의 삭제 또는 추출을 [요청할 수 있습니다.](https://aka.ms/memadmin) 요청에서 요청 유형 변경 **요청,** 범주 **보안** 및 하위 범주 기타 를 **선택합니다.** 요청 설명에 관련 장치 이름 또는 사용자 이름을 제공합니다.

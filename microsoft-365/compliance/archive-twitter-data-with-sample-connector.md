@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 관리자가 기본 커넥터를 설정하고 사용하여 Twitter 데이터를 사이트로 가져오는 방법을 Microsoft 365.
-ms.openlocfilehash: ad72f5ea621579ea6d2837931e94140e25cce934d38dca8c48a3db8e8790c3b1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1b55a9af001e2ed2f67e7847fc7b70eee974bb88
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820678"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502714"
 ---
 # <a name="set-up-a-connector-to-archive-twitter-data-preview"></a>Twitter 데이터를 보관할 커넥터 설정(미리 보기)
 
@@ -43,7 +43,7 @@ Twitter 데이터를 가져온 후 소송 보존, 콘텐츠 Microsoft 365, In-Pl
     - [Pay-As-You-Go Azure 구독에 등록](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
     > [!NOTE]
-    > Azure Active Directory [](use-your-free-azure-ad-subscription-in-office-365.md) 구독에 포함된 무료 Microsoft 365 구독은 보안 및 준수 센터의 커넥터를 & 않습니다.
+    > Azure Active Directory [](use-your-free-azure-ad-subscription-in-office-365.md) 구독에 포함된 무료 Microsoft 365 구독은 Microsoft 365 규정 준수 센터.
 
 - Twitter 커넥터는 하루 총 200,000개 항목을 가져올 수 있습니다. 하루 200,000개가 넘는 Twitter 항목이 있는 경우 해당 항목을 가져오지 Microsoft 365.
 

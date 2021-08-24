@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: scheduler
 localization_priority: Normal
 description: 사용자에 대한 스케줄러 Microsoft 365.
-ms.openlocfilehash: a6d642364abcf4672d59494614daaf2d9e248208
-ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
+ms.openlocfilehash: c47c866748fd4635c581acb3737e67bc72658538
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386939"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502798"
 ---
 # <a name="setting-up-scheduler-for-microsoft-365"></a>Microsoft 365용 스케줄러 설정
 
@@ -21,11 +21,11 @@ ms.locfileid: "58386939"
 
 ## <a name="licensing"></a>라이선싱
 
-자세한 내용은 다음을 Microsoft 365 [라이선싱을 위한 스케줄러를 통해 확인할 수 있습니다.](https://wwww.microsoft.com/microsoft-365/meeting-scheduler-pricing)
+자세한 내용은 다음을 Microsoft 365 [라이선싱을 위한 스케줄러를 통해 확인할 수 있습니다.](https://www.microsoft.com/microsoft-365/meeting-scheduler-pricing)
 
 >[참고] 모임 참석자에는 스케줄러 또는 예약 Microsoft 365 없습니다. <br>스케줄러 도우미 사서함에는 스케줄러 Microsoft 365 라이선스가 필요하지 않습니다.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 | 필수 구성 요소 | 설명 |
 |-------------------|-------------|

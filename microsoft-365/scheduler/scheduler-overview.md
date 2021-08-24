@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: scheduler
 localization_priority: Normal
 description: 개요 for Microsoft 365.
-ms.openlocfilehash: 970d4a37c154e3049dcbd2f5987ff9055af6bbec
-ms.sourcegitcommit: 43897ead6db2d3977f6ceb8abeedb8aaff9c020a
+ms.openlocfilehash: 0b87555075bd9ac147579156897f545fbfe33020
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380227"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503254"
 ---
 # <a name="welcome-to-scheduler-for-microsoft-365"></a>Welcome to Scheduler for Microsoft 365
 
@@ -55,7 +55,7 @@ Microsoft 365 스케줄러는 모임 및 약속 예약을 디지털 개인 Corta
 
 ## <a name="pricing-and-licensing"></a>가격 책정 및 라이선스
 
-자세한 내용은 다음을 Microsoft 365 [라이선싱을 위한 스케줄러를 통해 확인할 수 있습니다.](https://wwww.microsoft.com/microsoft-365/meeting-scheduler-pricing)
+자세한 내용은 다음을 Microsoft 365 [라이선싱을 위한 스케줄러를 통해 확인할 수 있습니다.](https://www.microsoft.com/microsoft-365/meeting-scheduler-pricing)
 
 >[참고: 모임 참석자에는 스케줄러 또는 Microsoft 365 필요하지 않습니다. <br>스케줄러 도우미 사서함에는 스케줄러 Microsoft 365 라이선스가 필요하지 않습니다.
 

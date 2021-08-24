@@ -19,16 +19,16 @@ search.appverid:
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: 이 문서에서는 감사 로그 레코드에 대한 결과를 내보낼 때 포함된 추가 Office 365 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0daae4136b9b10da5580d168b7cbf4e9a7e7afe5
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 20965367cda41ad50070d42b306564f6a8d9bb8b
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256450"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503062"
 ---
 # <a name="detailed-properties-in-the-audit-log"></a>감사 로그의 자세한 속성
 
-보안 및 준수 센터에서 감사 로그 검색의 결과를 내보낼 & 검색 조건을 충족하는 모든 결과를 다운로드할 수 있습니다. 결과 내보내기 **를 선택하여** 감사 로그 검색 페이지에서 \> **모든** 결과 **다운로드를 선택하여 이 작업을 합니다.** 자세한 내용은 감사 로그 [검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
+감사 로그 검색의 결과를 감사 로그 Microsoft 365 규정 준수 센터 검색 조건을 충족하는 모든 결과를 다운로드할 수 있습니다. 결과 내보내기 **를 선택하여** 감사 로그 검색 페이지에서 \> **모든** 결과 **다운로드를 선택하여 이 작업을 합니다.** 자세한 내용은 감사 로그 [검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
   
  감사 로그 검색에 대한 모든 결과를 내보내면 통합 감사 로그의 원시 데이터가 로컬 컴퓨터로 다운로드되는 CSV(콤보로 구분된 값) 파일에 복사됩니다. 이 파일에는 **AuditData** 열에 있는 각 감사 레코드의 추가 정보가 포함되어 있습니다. 이 열에는 감사 로그 레코드의 여러 속성에 대한 다중 값 속성이 포함되어 있습니다. 이 다중 값 속성의 각 **속성:** 값 쌍은 각 콤보로 구분됩니다. 
   
@@ -71,7 +71,7 @@ ms.locfileid: "58256450"
 |매개 변수|관리자 Exchange 작업의 경우 Operation 속성에서 식별된 cmdlet과 함께 사용된 모든 매개 변수의 이름과 값입니다.|Exchange(관리자 활동)|
 |RecordType|레코드가 나타내는 작업의 유형입니다. 이 속성은 작업이 트리거된 서비스 또는 기능을 나타냅니다. 레코드 유형 목록 및 해당 ENUM 값(감사 레코드의 **RecordType** 속성에 표시되는 값)은 감사 로그 레코드 [형식 을 참조하세요.](/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype)| 
 |ResultStatus|**Operation** 속성에 지정된 작업이 성공적이지 여부를 나타냅니다.  <br/> Exchange 활동의 경우 값은 **True(성공)** 또는 False(실패)입니다. |모두  <br/>|
-|SecurityComplianceCenterEventType|활동이 보안 및 준수 센터 & 나타냅니다. 모든 보안 & 준수 센터 활동의 값은 **0입니다.**|보안 및 준수 센터|
+|SecurityComplianceCenterEventType|활동이 Microsoft 365 규정 준수 센터 나타냅니다. 모든 규정 준수 센터 활동의 값은 이 속성에 **대해 0입니다.**|보안 및 준수 센터|
 |SharingType|리소스가 공유된 사용자에게 할당된 공유 권한의 유형입니다. 이 사용자는 **UserSharedWith 속성에서 식별됩니다.**|SharePoint|
 |사이트|사용자가 액세스한 파일 또는 폴더가 있는 사이트의 GUID입니다.|SharePoint|
 |SiteUrl|사용자가 액세스한 파일 또는 폴더가 있는 사이트의 URL입니다.|SharePoint|

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f4c50b9058510f07ef1e64bbfe2c01198a2cc78d02af1d4474e0cf1e6ba362c5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b7a339c3083c69b926f46134061a263bdb5bfeba
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793877"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502750"
 ---
 # <a name="list-vulnerabilities-by-machine-and-software"></a>컴퓨터 및 소프트웨어별 취약성 목록
 
@@ -41,12 +41,14 @@ ms.locfileid: "53793877"
 
 - 취약성에 수정 KB가 있는 경우 응답에 표시됩니다.
 - [OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
-- OData는 ```$filter``` 모든 속성에서 지원됩니다.
+- OData의 쿼리는 `$filter` , , , , , , , `id` 및 `cveId` `machineId` `fixingKbId` `productName` `productVersion` `severity` `productVendor` 속성에서 지원됩니다.
+<br>```$stop``` 최대값 10,000
+<br>```$skip```
 
 > [!TIP]
 > 이는 통합된 에 [Power BI 좋은 API입니다.](api-power-bi.md)
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
 

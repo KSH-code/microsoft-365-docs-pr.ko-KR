@@ -8,12 +8,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: d8a7bb4e17f2dd57e613aefcaad18cde42101d22f72cb320fc9200f4e858ab73
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2a817f863102df09c457d759151bfa516f6b2da4
+ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800729"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365128"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop 시작
 
@@ -22,13 +22,18 @@ ms.locfileid: "53800729"
 > [!NOTE]
 > 등록을 완료하려면 전역 관리자로 로그인해야 합니다. 자세한 내용은 [관리 포털에 액세스](access-admin-portal.md)를 참조하세요.
 
-등록을 완료한 후 아래 단계에 따라 서비스를 구성합니다. 이 단계를 수행하는 것이 좋습니다. 그러나 순서는 어느 정도 조정할 수 있습니다. 
+등록을 완료한 후 아래 단계에 따라 서비스를 구성합니다. 이 단계를 수행하는 것이 좋습니다. 그러나 순서는 어느 정도 조정할 수 있습니다.
 
-1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
-2. [등록 후 설정 수정](conditional-access.md)
-3. [라이선스 할당](assign-licenses.md)
-4. [Intune 회사 포털 배포](company-portal.md)
-5. [엔터프라이즈 상태 로밍 사용](enterprise-state-roaming.md)
-6. [장치 설정](set-up-devices.md)
-7. [사용자들이 장치를 사용할 수 있도록 준비시키기](get-started-devices.md)
-8. [앱 배포](deploy-apps.md)
+![이 문서에 나열된 등록 준비 단계의 제안 순서](../../media/mmd-getstarted-sequence.png) 
+
+1. [관리 포털](access-admin-portal.md)에 액세스합니다.
+1. [관리 포털의 관리자 연락처를 추가하고 확인합니다](add-admin-contacts.md).
+1. [등록 후 설정을 조정합니다](conditional-access.md).
+1. [Intune 회사 포털](company-portal.md)을 배포하고 할당합니다.
+1. [라이선스를 할당합니다](assign-licenses.md).
+1. [앱을 배포합니다](deploy-apps.md).
+1. [디바이스를 설정합니다](set-up-devices.md).
+1. [Autopilot 및 등록 상태 페이지의 첫 실행 환경](esp-first-run.md)을 설정합니다.
+1. [사용자 지원 기능을 사용하도록 설정합니다](enable-support.md).
+1. [사용자가 디바이스를 사용할 수 있도록 준비합니다](get-started-devices.md).
+1. [앱 컨트롤을 시작합니다](get-started-app-control.md).

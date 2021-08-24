@@ -20,12 +20,12 @@ ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 ms.custom:
 - seo-marvel-apr2020
 description: 사서함의 비활성 사서함 기능을 사용하여 삭제된 사서함의 콘텐츠를 Microsoft 365.
-ms.openlocfilehash: b8d9043d066f2500074b79b6eb06183f093907ba
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 6f533cf213f28d42dee1bb470cefaa2ced186778
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247546"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503170"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>비활성 사서함 만들기 및 관리
 
@@ -105,7 +105,7 @@ Get-Mailbox -InactiveMailboxOnly | Select Displayname,PrimarySMTPAddress,Disting
   
 ## <a name="search-and-export-the-contents-of-an-inactive-mailbox"></a>비활성 사서함의 콘텐츠 검색 및 내보내기
 
-보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 비활성 사서함의 콘텐츠에 액세스할 & 있습니다. 비활성 사서함을 검색할 때는 키워드 검색 쿼리를 만들어 특정 항목을 검색하거나 비활성 사서함의 전체 콘텐츠를 반환할 수 있습니다. 검색 결과를 미리 보거나 검색 결과를 PST(Outlook) 파일 또는 개별 전자 메일 메시지로 내보낼 수 있습니다. 사서함을 검색하고 검색 결과를 내보내는 단계별 절차는 다음 항목을 참조하십시오.
+비활성 사서함의 콘텐츠 검색 도구를 사용하여 비활성 사서함의 콘텐츠에 액세스할 수 Microsoft 365 규정 준수 센터. 비활성 사서함을 검색할 때는 키워드 검색 쿼리를 만들어 특정 항목을 검색하거나 비활성 사서함의 전체 콘텐츠를 반환할 수 있습니다. 검색 결과를 미리 보거나 검색 결과를 PST(Outlook) 파일 또는 개별 전자 메일 메시지로 내보낼 수 있습니다. 사서함을 검색하고 검색 결과를 내보내는 단계별 절차는 다음 항목을 참조하십시오.
   
 - [콘텐츠 검색](content-search.md)
 

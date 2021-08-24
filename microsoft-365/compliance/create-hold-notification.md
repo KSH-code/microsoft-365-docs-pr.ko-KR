@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 법적 보유 알림을 보내고 Advanced eDiscovery 추적할 수 있는 정보 보호 사례에서 통신 도구를 사용합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8b33165e6d39a1829f99e0a0194bc7938b95b9600e2977dec920e0dbb97c56d9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b5bf8d070e5e1bf8fc44e16a6550a6e376e2716f
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53802444"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502702"
 ---
 # <a name="create-a-legal-hold-notice"></a>법적 보유 알림 만들기
 
@@ -38,7 +38,7 @@ ms.locfileid: "53802444"
 
 ![이름 통신 페이지](../media/NameCommunication.PNG)
 
-1. 보안 및 & 센터에서 **eDiscovery** > Advanced eDiscovery 조직의 사례 목록을 표시합니다.
+1. 조직 Microsoft 365 규정 준수 센터 **eDiscovery** > 고급으로 이동하여 조직의 사례 목록을 표시합니다.
 
 2. 사례를 선택하고 통신 **탭을** 클릭한 다음 새 통신 **을 클릭합니다.**
 

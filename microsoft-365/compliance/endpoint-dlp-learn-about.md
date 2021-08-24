@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: 95d87e96eb965c32571aaaf242933648d2b9cf25
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 68fa947467948a788b5902ef50b7b9d574101a3a
+ms.sourcegitcommit: fac7b4b0095254c87b2a341fa2d53a42193f8957
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257495"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "58417978"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Microsoft 365 끝점 데이터 손실 방지 알아보기
 
@@ -39,7 +39,7 @@ Microsoft 365 DLP(데이터 손실 방지)를 사용하여 중요한 항목에 �
 
 Microsoft 끝점 DLP를 사용하면 사용자가 Windows 10 디바이스에 물리적으로 저장된 중요한 항목에 대해 수행하는 다음 유형의 활동을 감사하고 관리할 수 있습니다.
 
-|활동 |설명  | 감사/통제|
+|활동 |설명  | 감사 가능/제한 가능|
 |---------|---------|---------|
 |클라우드 서비스로 업로드 또는 허용되지 않은 브라우저에서 액세스    | 사용자가 항목을 제한된 서비스 도메인에 업로드하거나 브라우저를 통해 항목에 액세스하려는 경우 이를 감지합니다.  DLP에 허용되지 않는 브라우저로 나열되는 브라우저를 사용하는 경우에는 업로드 작업이 차단되고 사용자는 Edge Chromium을 사용하도록 리디렉션됩니다. Edge Chromium에서는 DLP 정책 구성을 기반으로 업로드 또는 액세스를 허용하거나 차단합니다.         |감사 및 통제|
 |다른 앱으로 복사    |사용자가 보호되는 항목에서 정보를 복사한 후 다른 앱, 프로세스 또는 항목에 붙여넣기를 시도하는 경우 이를 감지합니다. 이 작업으로는 동일한 앱, 프로세스 또는 항목 내에서의 정보 복사 및 붙여넣기는 감지되지 않습니다.         | 감사 및 통제|

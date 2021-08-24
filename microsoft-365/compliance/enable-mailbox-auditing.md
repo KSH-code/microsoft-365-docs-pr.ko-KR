@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365 사서함 감사 또는 사서함 감사라고도 합니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행한 특정 작업이 사서함 감사 로그에 자동으로 기록되며, 사서함에서 수행되는 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 9b649e1e81ba9a70e11d255ba35af17869744e9bbb9b26ba7cc84294e10afafb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 62f1c7009e2d0e4dff5b6ab31efa35b8f17624bd
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796053"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503194"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -39,7 +39,7 @@ ms.locfileid: "53796053"
 > [!NOTE]
 >
 > - 기본적으로 사서함 감사 릴리스에 대해 기억해야 할 중요한 점은 사서함 감사를 관리하기 위해 아무 작업도 할 필요가 없습니다. 그러나 자세한 내용을 알아보기 위해 기본 설정에서 사서함 감사를 사용자 지정하거나 모두 해제하려면 이 문서가 도움이 될 수 있습니다.
-> - 기본적으로 E5 사용자에 대한 사서함 감사 이벤트만 보안 및 준수 센터의 감사 로그 & 또는 Office 365 관리 활동 API를 통해 사용할 수 있습니다. 자세한 내용은 이 문서의 [추가 정보](#more-information) 섹션을 참조하십시오.
+> - 기본적으로 E5 사용자에 대한 사서함 감사 이벤트만 감사 로그 검색에서 Microsoft 365 규정 준수 센터 또는 Office 365 관리 활동 API를 통해 사용할 수 있습니다. 자세한 내용은 이 문서의 [추가 정보](#more-information) 섹션을 참조하십시오.
 
 ## <a name="verify-mailbox-auditing-on-by-default-is-turned-on"></a>사서함 감사 기본 사용이 켜져 있는지 확인
 
@@ -311,7 +311,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직의 사서함 감사 기본 사용이 켜져 있으면 특정 사서함에 대한 사서함 감사를 사용하지 않도록 설정할 수 없습니다. 예를 들어 *AuditEnabled* 사서함 속성을 **False로** 설정하면 무시됩니다.
 
-그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여 작업이 수행되는 위치와 관계없이 지정된 사용자의 모든 사서함 작업이 기록되지 않도록 할 수 있습니다.  예를 들어 다음과 같은 가치를 제공해야 합니다.
+그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여 작업이 수행되는 위치와 관계없이 지정된 사용자의 모든 사서함 작업이 기록되지 않도록 할 수 있습니다.  예제:
 
 - 무시된 사용자가 수행한 사서함 소유자 작업은 기록되지 않습니다.
 - 다른 사용자의 사서함(공유 사서함 포함)에서 무시된 사용자가 수행한 위임 작업은 기록되지 않습니다.
@@ -333,11 +333,11 @@ True **값으로** 설정하면 사용자에 대해 사서함 감사 로깅이 �
 
 ## <a name="more-information"></a>추가 정보
 
-- 기본적으로 사서함 감사 로그온은 모든 조직에 대해 사용하도록 설정되어 있습니다. 그러나 E5 라이선스가 있는 사용자만 보안 & 준수 센터 또는 Office 365 관리 활동 [API를](/office/office-365-management-api/office-365-management-activity-api-reference) 통해 감사 로그 검색의 사서함 감사 로그 이벤트를 **반환합니다.** [](search-the-audit-log-in-security-and-compliance.md)
+- 기본적으로 사서함 감사 로그온은 모든 조직에 대해 사용하도록 설정되어 있습니다. 그러나 E5 라이선스가 있는 사용자만 사서함 감사 로그 검색에서 Microsoft 365 규정 준수 센터 또는 Office 365 관리 활동 [API를](/office/office-365-management-api/office-365-management-activity-api-reference) 통해 **반환됩니다.** [](search-the-audit-log-in-security-and-compliance.md)
 
   E5 라이선스가 없는 사용자의 사서함 감사 로그 항목을 검색하려면 다음을 할 수 있습니다.
 
-  - 개별 사서함에 대해 사서함 감사를 수동으로 사용하도록 설정(명령을 `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true` 실행합니다.) 이렇게 한 후 보안 및 준수 센터에서 감사 로그 검색을 & 관리 활동 API를 통해 Office 365 수 있습니다.
+  - 개별 사서함에 대해 사서함 감사를 수동으로 사용하도록 설정(명령을 `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true` 실행합니다.) 이렇게 한 후 감사 로그 검색을 사용하여 Microsoft 365 규정 준수 센터 관리 활동 API를 통해 Office 365 수 있습니다.
 
     > [!NOTE]
     > 사서함 감사가 이미 사서함에서 사용하도록 설정된 것으로 보이지만 검색에서 결과가 반환되지 않았다면 _AuditEnabled_ 매개 변수의 값을 로 변경한 다음 로 `$false` 다시 `$true` 변경합니다.

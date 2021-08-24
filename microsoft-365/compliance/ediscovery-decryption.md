@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: eDiscovery Microsoft 365 전자 메일 메시지에 첨부되고 SharePoint 온라인 및 전자 메일 메시지에 저장된 암호화된 문서를 처리하는 비즈니스용 OneDrive.
-ms.openlocfilehash: e03f5813fcd5f232119f3586cd173c40ca846cc7a7cb6908b5b71fab8e26361c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7d0f4acd34fc67738258e0f0df23535e759bd8dd
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842294"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503050"
 ---
 # <a name="decryption-in-microsoft-365-ediscovery-tools"></a>eDiscovery Microsoft 365 암호 해독
 
@@ -73,4 +73,4 @@ eDiscovery는 암호화를 적용한 민감도 레이블이 다음 SharePoint On
 
 Microsoft 암호화 기술로 암호화된 파일을 미리 보고 검토하고 내보내기 위해 RMS 암호 해독 역할을 할당해야 합니다. 또한 암호화된 파일을 검토하고 쿼리하기 위해 이 역할을 할당해야 합니다. 이 역할은 해당 역할의 검토 집합에 추가된 암호화된 파일을 Advanced eDiscovery.
 
-이 역할은 기본적으로 Office 365 보안 및 준수 센터의  사용 권한 페이지에서 eDiscovery 관리자 역할 & 할당됩니다. RMS 암호 해독 역할에 대한 자세한 내용은 [eDiscovery](assign-ediscovery-permissions.md#rms-decrypt)사용 권한 할당을 참조하세요.
+이 역할은 이 역할의 사용 권한 페이지에서 eDiscovery 관리자 역할 그룹에 기본적으로 Microsoft 365 규정 준수 센터.  RMS 암호 해독 역할에 대한 자세한 내용은 [eDiscovery](assign-ediscovery-permissions.md#rms-decrypt)사용 권한 할당을 참조하세요.

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 51f85d57a7d05ed298b94632ab35cf215d5679b2
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.openlocfilehash: dd103e31924c892eb7f43bc89c5a17f9721cea12
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359976"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502066"
 ---
 #  <a name="run-the-client-analyzer-on-macos-and-linux"></a>macOS 및 Linux에서 클라이언트 분석기 실행
 
@@ -54,7 +54,7 @@ Linux에서 스크립트 실행 권한이 없는 경우 먼저 실행해야 합�
 1.  관련 컴퓨터로 터미널 또는 SSH를 넣습니다.
 
 2.  실행 `wget --quiet -O XMDEClientAnalyzer.zip*
-    <http://aka.ms/XMDEClientAnalyzer> *&& unzip -q XMDEClientAnalyzer.zip && cd
+    <https://aka.ms/XMDEClientAnalyzer> *&& unzip -q XMDEClientAnalyzer.zip && cd
     XMDEClientAnalyzer && chmod +x mde_support_tool.sh"`
 
 3.  를 ` ./mde_support_tool.sh -d ` 실행하여 결과 보관 파일을 생성합니다.

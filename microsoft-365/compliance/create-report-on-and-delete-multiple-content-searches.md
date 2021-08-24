@@ -19,20 +19,20 @@ search.appverid:
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: 검색을 만들고 PowerShell 스크립트를 통해 보고서 실행과 같은 콘텐츠 검색 작업을 자동화하는 방법을 & 준수 센터에서 Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ba42baa399e92e65228d18028043c53d8e90fc78f2c6ae614c39d68efc3482d4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2ca99a00c57de1c376ae3840324bd869abb73042
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886521"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58501982"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
- 원본 데이터 및 검색의 풍부함과 품질에 대해 알아보려고 할 때 eDiscovery 및 조사에서 검색 검색을 빠르게 만들고 보고하는 것이 중요한 단계인 경우가 종종 있습니다. 이를 위해 Security & Compliance Center PowerShell에서는 시간이 많이 걸리는 콘텐츠 검색 작업을 자동화하는 cmdlet 집합을 제공합니다. 이러한 스크립트를 사용하면 빠르고 쉽게 여러 검색을 만든 다음 예상 검색 결과 보고서를 실행하여 해당 데이터의 양을 결정하는 데 도움이 됩니다. 스크립트를 사용하여 서로 다른 버전의 검색을 만들어 각 검색에서 생성한 결과를 비교할 수도 있습니다. 이러한 스크립트는 데이터를 빠르고 효율적으로 식별하고 선불화하는 데 도움이 될 수 있습니다.
+ 원본 데이터 및 검색의 풍부함과 품질에 대해 알아보려고 할 때 eDiscovery 및 조사에서 검색 검색을 빠르게 만들고 보고하는 것이 중요한 단계인 경우가 종종 있습니다. 이를 지원하기 위해 Security & Compliance Center PowerShell에서는 시간이 많이 걸리는 콘텐츠 검색 작업을 자동화하는 cmdlet 집합을 제공합니다. 이러한 스크립트를 사용하면 빠르고 쉽게 여러 검색을 만든 다음 예상 검색 결과 보고서를 실행하여 해당 데이터의 양을 결정하는 데 도움이 됩니다. 스크립트를 사용하여 서로 다른 버전의 검색을 만들어 각 검색에서 생성한 결과를 비교할 수도 있습니다. 이러한 스크립트는 데이터를 빠르고 효율적으로 식별하고 선불화하는 데 도움이 될 수 있습니다.
 
 ## <a name="before-you-create-a-content-search"></a>콘텐츠 검색을 만들기 전에
 
-- 이 항목에 설명된 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다.
+- 이 항목에 설명된 스크립트를 실행하기 위해 Microsoft 365 규정 준수 센터 관리자 역할 그룹의 구성원이 되어야 합니다.
 
 - 1단계의 CSV 파일에 추가할 수 있는 조직의 비즈니스용 OneDrive 사이트의 URL 목록을 수집하는 경우 조직의 모든 OneDrive 위치 목록 만들기를 [참조하세요.](/onedrive/list-onedrive-urls)
 

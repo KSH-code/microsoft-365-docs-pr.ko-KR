@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 658aba2a3061e247c9be0aaa159708bb24e97a20649fa67c2ceba0aa127e48b3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b6f682cab22b5838234e16091001c1b0be0f4126
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894242"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502810"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
@@ -62,7 +62,8 @@ ms.locfileid: "53894242"
 - Microsoft Endpoint Manager [관리](https://go.microsoft.com/fwlink/?linkid=2109431)센터에 액세스하여 조직의 등록된 사용자 그룹에 앱을 배포합니다.
 
     > [!NOTE]
-    > Microsoft Intune Microsoft Defender for Endpoint를 배포하고 Intune에서 끝점 관련 장치 준수 정책을 위해 Defender를 적용하기 위한 지원되는 UEM(통합 끝점 관리) 솔루션입니다.
+    > 이제 Microsoft Defender for Endpoint는 MDM(모바일 장치 관리)을 사용하지 않지만 Intune을 사용하여 모바일 응용 프로그램을 관리하는 사용자에 대해 관리되는 응용 프로그램 내의 조직 데이터로 지원을 확장합니다. 또한 MAM(모바일 응용 프로그램 관리)에 Intune을 사용하면서 다른 엔터프라이즈 모바일 관리 솔루션을 사용하는 고객에게도 이 지원을 [확장합니다.](/mem/intune/apps/mam-faq)
+    > 이 업데이트 이전에는 끝점용 Microsoft Defender가 Intune MDM을 사용하여 등록된 장치에서만 작동했습니다.  
 
 **시스템 요구 사항**
 
@@ -87,3 +88,4 @@ iOS에서 끝점용 Microsoft Defender 배포는 MEM(Microsoft Endpoint Manager)
 - [iOS 기능에 대한 끝점용 Microsoft Defender 구성](ios-configure-features.md)
 - [MAM(Endpoint 위험 신호)에 대한 Defender를 포함하도록 앱 보호 정책 구성](ios-install-unmanaged.md)
 - [끝점용 Microsoft Defender의 장치 위험 점수를 기반으로 조건부 액세스 정책 구성](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios)
+- [MAM(모바일 응용 프로그램 관리) 기본](/mem/intune/apps/app-management#mobile-application-management-mam-basics)

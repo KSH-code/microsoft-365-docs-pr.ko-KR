@@ -18,12 +18,12 @@ ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서의 PowerShell 스크립트를 사용하여 규정 준수 센터의 기존 콘텐츠 검색을 Office 365 Microsoft 365.
-ms.openlocfilehash: 526c07ac3ce3ee30137bcb4d51f2c5fee32cc546bdcc5b56795ddea7f0449ac5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 80dd6911f387a7912d92bfbcfac3c94e6ee804eb
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53872026"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503206"
 ---
 # <a name="clone-a-content-search"></a>콘텐츠 검색 복제
 
@@ -39,7 +39,7 @@ ms.locfileid: "53872026"
   
 ## <a name="script-information"></a>스크립트 정보
 
-- 이 항목에 설명된 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다.
+- 이 항목에 설명된 스크립트를 실행하기 위해 Microsoft 365 규정 준수 센터 관리자 역할 그룹의 구성원이 되어야 합니다.
     
 - 스크립트에는 최소한의 오류 처리가 포함됩니다. 스크립트의 기본 목적은 콘텐츠 검색을 빠르게 복제하는 것입니다.
     
@@ -53,7 +53,7 @@ ms.locfileid: "53872026"
 
 이 단계의 스크립트는 기존 콘텐츠 검색을 복제하여 새 콘텐츠 검색을 생성합니다. 이 스크립트를 실행하면 다음 정보를 입력하라는 메시지가 표시될 것입니다.
   
-- **사용자 자격 증명** - 스크립트는 자격 증명을 사용하여 조직의 보안 & 준수 센터에 Windows PowerShell. 앞서 설명한 것 처럼 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 
+- **사용자 자격 증명** - 스크립트는 자격 증명을 사용하여 보안 및 준수 & PowerShell에 연결합니다. 앞서 설명한 것 처럼 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 
     
 - **기존 검색의 이름** - 복제하려는 콘텐츠 검색입니다. 
     
@@ -141,7 +141,7 @@ ms.locfileid: "53872026"
   
 ## <a name="step-2-edit-and-run-the-cloned-search-in-the-compliance-center"></a>2단계: 준수 센터에서 복제된 검색 편집 및 실행
 
-스크립트를 실행하여 기존 콘텐츠 검색을 복제한 후 다음 단계는 준수 센터로 이동하여 새 검색을 편집하고 실행하는 것입니다. 앞서 언급했듯이 키워드 검색 쿼리를 변경하고 검색 조건을 추가하거나 제거하여 검색을 편집할 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.
+스크립트를 실행하여 기존 콘텐츠 검색을 복제한 후 다음 단계는 준수 센터로 이동하여 새 검색을 편집하고 실행하는 것입니다. 앞서 언급했듯이 키워드 검색 쿼리를 변경하고 검색 조건을 추가하거나 제거하여 검색을 편집할 수 있습니다. 자세한 내용은 다음을 참조하세요.
   
 - [Office 365의 콘텐츠 검색](content-search.md)
     

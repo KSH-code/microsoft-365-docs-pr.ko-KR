@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: '요약: PowerShell을 사용하여 Microsoft 365 Online 정책을 사용하여 사용자 비즈니스용 Skype 할당합니다.'
-ms.openlocfilehash: c0c2a4319b1f754384ab9b514bfe637591fc28c6
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 6f262730c74de4442341454b2f85a181f673398b
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58353783"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502678"
 ---
 # <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>PowerShell을 비즈니스용 Skype 온라인 정책을 사용자 Microsoft 365
 
@@ -108,6 +108,8 @@ Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName $Null
 많은 수의 사용자(1,000명 이상)를 관리하려면 [Invoke-Command](/powershell/module/microsoft.powershell.core/invoke-command) cmdlet을 사용하여 스크립트 블록을 통해 명령을 일괄 처리해야 합니다.  이전 예제에서는 cmdlet이 실행될 때마다 호출을 설정한 다음 결과를 다시 보내기 전에 대기해야 합니다.  스크립트 블록을 사용하는 경우 cmdlet을 원격으로 실행할 수 있으며 완료되면 데이터를 다시 보낼 수 있습니다.
 
 ```powershell
+$s = Get-PSSession | Where-Object { ($.ComputerName -like '*.online.lync.com' -or $.Computername -eq 'api.interfaces.records.teams.microsoft.com') -and $.State -eq 'Opened' -and $.Availability -eq 'Available' }
+
 $users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500
 
 $batch = 50

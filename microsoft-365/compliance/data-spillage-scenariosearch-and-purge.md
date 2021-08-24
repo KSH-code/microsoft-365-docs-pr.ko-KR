@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: eDiscovery 및 검색 도구를 사용하여 조직의 데이터 유출 인시던트 관리 및 대응
-ms.openlocfilehash: 5fb9e7a4a744bf05990634c433b6a5b56f21f94dea9b30326be7e124b926c8cf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 40addc161b40a4b9068fbe0c3041078086d21c6a
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53802123"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503134"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오 - 검색 및 제거
 
@@ -56,13 +56,13 @@ Contoso의 책임자 정보 보안 책임자입니다. 직원이 전자 메일�
     
 - 사례를 만들하려면 eDiscovery 관리자 역할 그룹의 구성원 또는 사례 관리 역할이 할당된 사용자 지정 역할 그룹의 구성원이 되어야 합니다. 구성원이 아닌 경우 Microsoft 365 관리자에게 [eDiscovery](assign-ediscovery-permissions.md)관리자 역할 그룹에 추가해달고 요청합니다.
     
-- 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](./assign-ediscovery-permissions.md)를 참조하세요.
+- 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 데 대한 자세한 내용은 [eDiscovery](./assign-ediscovery-permissions.md)사용 권한 할당을 참조하세요.
     
 - 8단계에서 감사 로그 eDiscovery 활동을 검색하려면 조직에 대해 감사를 설정해야 합니다. 지난 90일 이내에 수행된 활동을 검색할 수 있습니다. 감사를 사용하도록 설정하고 사용하는 방법에 대한 자세한 내용은 8단계의 데이터 유출 조사 프로세스 [감사](#auditing-the-data-spillage-investigation-process) 섹션을 참조하세요. 
     
 ## <a name="optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries"></a>(선택 사항) 1단계: 사례에 액세스할 수 있는 사용자 관리 및 규정 준수 경계 설정
 
-조직의 관행에 따라 데이터 유출 사고를 조사하고 규정 준수 경계를 설정하는 데 사용되는 eDiscovery 사례에 액세스할 수 있는 사용자도 제어해야 합니다. 이 작업을 수행하는 가장 쉬운 방법은 보안 및 준수 센터에서 기존 역할 & 구성원으로 역할 그룹을 추가한 다음 eDiscovery 사례의 구성원으로 역할 그룹을 추가하는 것입니다. 기본 제공 eDiscovery 역할 그룹 및 eDiscovery 사례에 구성원을 추가하는 방법에 대한 자세한 내용은 [eDiscovery 권한 할당을 참조하세요.](assign-ediscovery-permissions.md)
+조직의 관행에 따라 데이터 유출 사고를 조사하고 규정 준수 경계를 설정하는 데 사용되는 eDiscovery 사례에 액세스할 수 있는 사용자도 제어해야 합니다. 이 작업을 수행하는 가장 쉬운 방법은 조사를 기존 역할 그룹의 구성원으로 Microsoft 365 규정 준수 센터 eDiscovery 사례의 구성원으로 역할 그룹을 추가하는 것입니다. 기본 제공 eDiscovery 역할 그룹 및 eDiscovery 사례에 구성원을 추가하는 방법에 대한 자세한 내용은 [eDiscovery 권한 할당을 참조하세요.](assign-ediscovery-permissions.md)
   
 조직의 요구에 맞게 새 역할 그룹을 만들 수도 있습니다. 예를 들어 조직의 데이터 유출 조사자 그룹이 모든 데이터 유출 사례에 액세스하고 공동 작업을 하도록 할 수 있습니다. 이를 위해 "데이터 유출 조사자" 역할 그룹을 만들고 적절한 역할(내보내기, RMS 암호 해독, 검토, 미리 보기, 준수 검색 및 사례 관리)을 할당하고, 데이터 유출 조사자를 역할 그룹에 추가한 다음 역할 그룹을 데이터 유출 eDiscovery 사례의 구성원으로 추가하면 됩니다. 자세한 지침은 [Set up compliance boundaries for eDiscovery investigations in Office 365(eDiscovery](set-up-compliance-boundaries.md) 조사에 대한 규정 준수 경계 설정)를 참조하세요. 
   
@@ -205,7 +205,7 @@ eDiscovery 사례와 연결된 콘텐츠 검색을 만들 내용은 [Core eDisco
 
 ### <a name="auditing-the-data-spillage-investigation-process"></a>데이터 유출 조사 프로세스 감사
 
-감사 로그에서 조사 중에 수행된 eDiscovery 활동을 검색할 수 있습니다. 감사 로그를 검색하여 7단계에서 실행한 **New-ComplianceSearchAction -Purge** 명령에 대한 감사 레코드를 반환하여 유출된 데이터를 삭제할 수도 있습니다. 자세한 내용은 다음 항목을 참조하세요.
+감사 로그에서 조사 중에 수행된 eDiscovery 활동을 검색할 수 있습니다. 감사 로그를 검색하여 7단계에서 실행한 **New-ComplianceSearchAction -Purge** 명령에 대한 감사 레코드를 반환하여 유출된 데이터를 삭제할 수도 있습니다. 자세한 내용은 다음을 참조하세요.
 
 - [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
 

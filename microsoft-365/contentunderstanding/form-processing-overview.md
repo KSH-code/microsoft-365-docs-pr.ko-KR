@@ -13,18 +13,18 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex의 양식 처리 모델에 대해 알아봅니다.
-ms.openlocfilehash: 92bfd5afbdf15947afbf4264a266d0bfc009fcb03d81591fd752786e6d541be3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6914cf4a8427f505bf39e2b157beb0dbfee0336d
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891715"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399722"
 ---
 # <a name="form-processing-overview-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 양식 처리 개요
 
  ![AI 작성기](../media/content-understanding/ai-builder.png)</br>
 
-Microsoft SharePoint Syntex는 Microsoft PowerApps [AI 작성기](/ai-builder/overview) 양식 처리를 사용하여 SharePoint 문서 라이브러리내에 모델을 만듭니다.
+Microsoft SharePoint Syntex는 Microsoft Power Apps [AI 작성기](/ai-builder/overview) 양식 처리를 사용하여 SharePoint 문서 라이브러리내에 모델을 만듭니다.
 
 AI 작성기 양식 처리를 사용하여 기계 학습 기술로 양식 및 송장과 같은 구조적 또는 반구조적 문서에서 키-값 쌍과 테이블 데이터를 식별하고 추출하는 AI 모델을 만들 수 있습니다.
 

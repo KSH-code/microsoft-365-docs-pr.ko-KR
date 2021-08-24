@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 2d2e2e53061353a4035675c6e24b8dcc19900f672a159d13fe1277bed0393461
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 32722edf149b18c7d37311e5b334f378b962c877
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806991"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502954"
 ---
 # <a name="export-assessment-methods-and-properties-per-device"></a>장치당 평가 방법 및 속성 내보내기
 
@@ -74,20 +74,22 @@ _JSON_ 응답 또는 파일을 통해 수집되는 데이터는 현재 상태의
 
 속성(ID)|데이터 형식|설명
 :---|:---|:---
-ConfigurationCategory|문자열|구성이 속해 있는 범주 또는 그룹(응용 프로그램, OS, 네트워크, 계정, 보안 제어)
-ConfigurationId|문자열|특정 구성의 고유 식별자
-ConfigurationImpact|문자열|구성의 등급이 전반적인 구성 점수에 미치는 영향(1-10)
-ConfigurationName|문자열|구성 이름을 표시합니다.
-ConfigurationSubcategory|문자열|구성이 속한 하위 범주나 하위 그룹 대부분의 경우 이는 특정 기능이나 특징을 설명합니다.
-DeviceId|문자열|서비스에서 장치의 고유 식별자입니다.
-장치 이름|문자열|장치의 FQDN(FQDN)입니다.
-IsApplicable|bool|구성 또는 정책을 적용할 수 있는지 여부를 나타냅니다.
-IsCompliant|bool|구성 또는 정책이 올바르게 구성되어 있는지 여부
-IsExpectedUserImpact|bool|구성을 적용할 경우 사용자에게 영향을 줄지 여부를 나타냅니다.
-OSPlatform|문자열|디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. 자세한 내용은 tvm 지원 운영 체제 및 플랫폼을 참조하세요.
-RbacGroupName|문자열|RBAC(역할 기반 액세스 제어) 그룹입니다. 이 장치가 RBAC 그룹에 할당되지 않은 경우 값은 "지정되지 않았습니다."가 됩니다. 조직에 RBAC 그룹이 없는 경우 값은 "없음"이 됩니다.
-RecommendationReference|문자열|이 소프트웨어와 관련된 권장 ID에 대한 참조입니다.
-타임스탬프|문자열|장치에서 구성을 마지막으로 본 시간
+configurationCategory|문자열|구성이 속하는 범주 또는 그룹화: 응용 프로그램, OS, 네트워크, 계정, 보안 제어.
+configurationId|문자열|특정 구성의 고유 식별자입니다.
+configurationImpact|문자열|구성이 전체 구성 점수에 미치는 영향(1~10)입니다.
+configurationName|문자열|구성의 표시 이름입니다.
+configurationSubcategory|문자열|구성이 속한 하위 범주나 하위 그룹 대부분의 경우 이는 특정 기능이나 특징을 설명합니다.
+deviceId|문자열|서비스에서 장치의 고유 식별자입니다.
+deviceName|문자열|장치의 FQDN(FQDN)입니다.
+isApplicable|bool|구성 또는 정책을 적용할 수 있는지 여부를 나타냅니다.
+isCompliant|bool|구성 또는 정책이 제대로 구성되었는지 여부를 나타냅니다.
+isExpectedUserImpact|bool|구성을 적용할 경우 사용자 영향이 있는지 여부를 나타냅니다.
+osPlatform|문자열|디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. 자세한 내용은 TVM 지원 운영 체제 및 플랫폼을 참조하세요.
+osVersion|문자열|장치에서 실행되는 운영 체제의 특정 버전입니다.
+rbacGroupName|문자열|RBAC(역할 기반 액세스 제어) 그룹입니다. 이 장치가 RBAC 그룹에 할당되지 않은 경우 값은 "지정되지 않았습니다."가 됩니다. 조직에 RBAC 그룹이 없는 경우 값은 "없음"이 됩니다.
+rbacGroupId|문자열|RBAC(역할 기반 액세스 제어) 그룹 ID입니다.
+recommendationReference|문자열|이 소프트웨어와 관련된 권장 ID에 대한 참조입니다.
+타임스탬프|문자열|장치에서 구성을 마지막으로 확인한 시간입니다.
 
 ### <a name="13-properties-via-files"></a>1.3 속성(파일을 통해)
 
@@ -116,10 +118,10 @@ DeviceId|문자열|서비스에서 장치의 고유 식별자입니다.
 DiskPaths|Array[string]|제품이 장치에 설치되어 있는 디스크 증거입니다.
 EndOfSupportDate|문자열|이 소프트웨어에 대한 지원이 종료되는 날짜입니다.
 EndOfSupportStatus|문자열|지원 종료 상태입니다. None, EOS 버전, 예정된 EOS 버전, EOS 소프트웨어, 예정된 EOS 소프트웨어 등 가능한 값을 포함할 수 있습니다.
-Id|문자열|레코드의 고유 식별자입니다.
-NumberOfWeaknesses|int|이 장치에서 이 소프트웨어의 약점 수
+NumberOfWeaknesses|int|이 장치에서 이 소프트웨어에 대한 약점 수입니다.
 OSPlatform|문자열|디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. 자세한 내용은 tvm 지원 운영 체제 및 플랫폼을 참조하세요.
 RbacGroupName|문자열|RBAC(역할 기반 액세스 제어) 그룹입니다. 이 장치가 RBAC 그룹에 할당되지 않은 경우 값은 "지정되지 않았습니다."가 됩니다. 조직에 RBAC 그룹이 없는 경우 값은 "없음"이 됩니다.
+rbacGroupId|문자열|RBAC(역할 기반 액세스 제어) 그룹 ID입니다.
 RegistryPaths|Array[string]|제품이 장치에 설치되어 있는 레지스트리 증거입니다.
 SoftwareFirstSeenTimestamp|문자열|디바이스에서 이 소프트웨어를 처음 볼 수 있습니다.
 SoftwareName|문자열|소프트웨어 제품의 이름입니다.
@@ -160,9 +162,10 @@ Id|문자열|레코드의 고유 식별자입니다.
 LastSeenTimestamp|문자열|디바이스에서 CVE를 마지막으로 본 시간입니다.
 OSPlatform|문자열|디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. 자세한 내용은 tvm 지원 운영 체제 및 플랫폼을 참조하세요.
 RbacGroupName|문자열|RBAC(역할 기반 액세스 제어) 그룹입니다. 이 장치가 RBAC 그룹에 할당되지 않은 경우 값은 "지정되지 않았습니다."가 됩니다. 조직에 RBAC 그룹이 없는 경우 값은 "없음"이 됩니다.
+rbacGroupId|문자열|RBAC(역할 기반 액세스 제어) 그룹 ID입니다.
 RecommendationReference|문자열|이 소프트웨어와 관련된 권장 ID에 대한 참조입니다.
 RecommendedSecurityUpdate|문자열|소프트웨어 공급업체가 취약점을 해결하기 위해 제공한 보안 업데이트의 이름 또는 설명입니다.
-RecommendedSecurityUpdateId|문자열|해당 지침 또는 기술 자료(KB) 문서의 해당 보안 업데이트 또는 식별자 식별자
+RecommendedSecurityUpdateId|문자열|해당 지침 또는 KB(기술 자료) 문서의 해당 보안 업데이트 또는 식별자 식별자입니다.
 레지스트리 경로 배열 \[ 문자열\]|제품이 장치에 설치되어 있는 레지스트리 증거입니다.
 SoftwareName|문자열|소프트웨어 제품의 이름입니다.
 SoftwareVendor|문자열|소프트웨어 공급업체의 이름입니다.

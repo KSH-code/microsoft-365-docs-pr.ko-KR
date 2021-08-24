@@ -20,12 +20,12 @@ ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 사서함이 비활성으로 설정된 후 비활성 사서함에 할당된 보존 Office 365 변경합니다.
-ms.openlocfilehash: 07ff73218613ecf8b3e670db3a92720b9e08ee2dbee68e77850256bb7ee6768f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 02fb0ab1f598db3532f1544c041dfcffd3a2224a
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886902"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502894"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>비활성 사서함의 보존 기간 변경
 
@@ -103,9 +103,9 @@ InPlaceHolds          : {UniH7d895d48-7e23-4a8d-8346-533c3beac15d}
 |:-----|:-----|:-----|
 |Ann Beebe  <br/> |소송 대기  <br/> |*LitigationHoldEnabled* 속성이 로 `True` 설정됩니다.  <br/> |
 |Pilar Pinilla  <br/> |원본 위치 유지  <br/> |*InPlaceHolds* 속성에는 비활성 사서함에 In-Place Hold의 GUID가 포함되어 있습니다. ID가 In-Place 시작하지 않는 경우 보류라고 알 수 있습니다.  <br/> PowerShell에서 명령을 사용하여 Exchange Online 사서함의 보류 In-Place 정보를 `Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL` 얻을 수 있습니다.  <br/> |
-|Mario Necaise  <br/> |보안 및 Microsoft 365 센터의 조직 전체 & 보존 정책  <br/> |*InPlaceHolds* 속성이 비어 있습니다. 이는 비활성 사서함에 하나 이상의 조직 전체 또는 (Exchange 전체) Microsoft 365 정책이 적용 것 입니다. 이 경우 PowerShell에서 명령을 Exchange Online 조직 전체의 보존 정책에 대한 `Get-OrganizationConfig | Select-Object -ExpandProperty InPlaceHolds` GUID Microsoft 365 있습니다. 사서함에 적용되는 조직 전체 보존 정책의 GUID는 Exchange(예: )로 `mbx` `mbxa3056bb15562480fadb46ce523ff7b02` 시작됩니다.  <br/> <br/>비활성 Microsoft 365 적용된 보존 정책을 ID로 설정하기 위해 Security & PowerShell에서 다음 명령을 실행합니다.  <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>
+|Mario Necaise  <br/> |조직 전체의 Microsoft 365 보존 정책 Microsoft 365 규정 준수 센터  <br/> |*InPlaceHolds* 속성이 비어 있습니다. 이는 비활성 사서함에 하나 이상의 조직 전체 또는 (Exchange 전체) Microsoft 365 정책이 적용 것 입니다. 이 경우 PowerShell에서 명령을 Exchange Online 조직 전체의 보존 정책에 대한 `Get-OrganizationConfig | Select-Object -ExpandProperty InPlaceHolds` GUID Microsoft 365 있습니다. 사서함에 적용되는 조직 전체 보존 정책의 GUID는 Exchange(예: )로 `mbx` `mbxa3056bb15562480fadb46ce523ff7b02` 시작됩니다.  <br/> <br/>비활성 Microsoft 365 적용된 보존 정책을 ID로 설정하기 위해 Security & PowerShell에서 다음 명령을 실행합니다.  <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>
 |Carol Olson  <br/> |Microsoft 365 사서함에 적용된 보안 & 준수 센터의 보존 정책  <br/> |*InPlaceHolds* 속성에는 비활성 사서함에 Microsoft 365 보존 정책의 GUID가 포함되어 있습니다. GUID는 prefix로 시작하기 때문에 특정 사서함에 적용되는 보존  `mbx` 정책입니다. 비활성 사서함에 적용된 보존 정책의 GUID가 prefix로 시작된 경우 보존 정책이 비즈니스용 Skype `skp` 나타냅니다.  <br/><br/> 비활성 Microsoft 365 적용된 보존 정책을 ID로 설정하기 위해 Security & PowerShell에서 다음 명령을 실행합니다.<br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name` <br/><br/>이 명령을 실행할 때 또는  `mbx`  `skp` prefix를 제거해야 합니다.  <br/> |
-|Abraham McMahon  <br/> |보안 및 준수 센터의 eDiscovery 사례 & 보류  <br/> |*InPlaceHolds* 속성에는 비활성 사서함에 배치된 eDiscovery 케이스 보류의 GUID가 포함되어 있습니다. GUID가 prefix로 시작하기 때문에 eDiscovery 케이스 보류라고 알  `UniH` 수 있습니다.  <br/> Security & Compliance Center PowerShell의 cmdlet을 사용하여 비활성 사서함의 보류가 연결된 eDiscovery 사례에 대한 정보를 얻을  `Get-CaseHoldPolicy` 수 있습니다. 예를 들어 명령을 실행하여 비활성 사서함에 있는 케이스 보류의 이름을  `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` 표시할 수 있습니다. 이 명령을 실행할 때 반드시  `UniH` prefix를 제거해야 합니다.  <br/><br/> 비활성 사서함의 보류가 연결된 eDiscovery 사례를 ID로 설정하기 위해 다음 명령을 실행합니다.  <br/><br/> `$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/> `Get-ComplianceCase $CaseHold.CaseId | FL Name`<br/><br/><br/> **참고:** 비활성 사서함에는 eDiscovery 보류를 사용하지 않는 것이 좋습니다. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. 특정 시점에 법률 사례가 종료되고 해당 사례와 연결된 보류가 제거되고 eDiscovery 사례가 닫히거나 삭제됩니다. 실제로 비활성 사서함에 배치된 보류가 eDiscovery 사례와 연결되어 있으며 보류가 릴리스되거나 eDiscovery 사례가 닫히거나 삭제되면 비활성 사서함이 영구적으로 삭제됩니다. 
+|Abraham McMahon  <br/> |eDiscovery 사례 보류 Microsoft 365 규정 준수 센터  <br/> |*InPlaceHolds* 속성에는 비활성 사서함에 배치된 eDiscovery 케이스 보류의 GUID가 포함되어 있습니다. GUID가 prefix로 시작하기 때문에 eDiscovery 케이스 보류라고 알  `UniH` 수 있습니다.  <br/> Security & Compliance Center PowerShell의 cmdlet을 사용하여 비활성 사서함의 보류가 연결된 eDiscovery 사례에 대한 정보를 얻을  `Get-CaseHoldPolicy` 수 있습니다. 예를 들어 명령을 실행하여 비활성 사서함에 있는 케이스 보류의 이름을  `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` 표시할 수 있습니다. 이 명령을 실행할 때 반드시  `UniH` prefix를 제거해야 합니다.  <br/><br/> 비활성 사서함의 보류가 연결된 eDiscovery 사례를 ID로 설정하기 위해 다음 명령을 실행합니다.  <br/><br/> `$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/> `Get-ComplianceCase $CaseHold.CaseId | FL Name`<br/><br/><br/> **참고:** 비활성 사서함에는 eDiscovery 보류를 사용하지 않는 것이 좋습니다. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. 특정 시점에 법률 사례가 종료되고 해당 사례와 연결된 보류가 제거되고 eDiscovery 사례가 닫히거나 삭제됩니다. 실제로 비활성 사서함에 배치된 보류가 eDiscovery 사례와 연결되어 있으며 보류가 릴리스되거나 eDiscovery 사례가 닫히거나 삭제되면 비활성 사서함이 영구적으로 삭제됩니다. 
 
 보존 정책에 Microsoft 365 대한 자세한 내용은 보존 정책 및 보존 레이블에 대해 [자세히를 참조하세요.](retention.md)
   
