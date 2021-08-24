@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 956260de2b522e2a84e6dffbf1fa50de4e7ced5e2dd9505534d35fed1450bcfd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c0e79a5bd2f00a76222f6b0a44df86579f73ca4f
+ms.sourcegitcommit: b05b107774e8bca36c9ee19fdc4719d17e302f11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885579"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483370"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사를 위한 준수 경계 설정
 
@@ -36,7 +36,7 @@ ms.locfileid: "53885579"
   
 ![규정 준수 경계는 eDiscovery 사례에 대한 액세스를 제어하는 기관 및 관리자 역할 그룹에 대한 액세스를 제어하는 검색 권한 필터로 구성됩니다.](../media/M365_ComplianceBoundary_OrgChart_v2.png)
   
-이 예에서 Contoso LTD는 Fourth Coffee와 Coho Winery의 두 지사로 구성된 조직입니다. 비즈니스를 위해서는 eDiscovery 관리 및 조사자는 해당 기관의 Exchange, OneDrive 계정 및 SharePoint 사이트만 검색할 수 있도록 요구합니다. 또한 eDiscovery 관리자 및 조사자는 해당 기관에서 eDiscovery 사례만 볼 수 있으며 구성원인 사례에만 액세스할 수 있습니다. 또한 이 시나리오에서 조사자는 콘텐츠 위치를 보류하거나 사례에서 콘텐츠를 내보낼 수 없습니다. 규정 준수 경계가 이러한 요구 사항을 충족하는 방식은 다음과 있습니다.
+이 예에서 Contoso LTD는 Fourth Coffee와 Coho Winery의 두 지사로 구성된 조직입니다. 비즈니스를 위해서는 eDiscovery 관리자와 조사자는 해당 Exchange 사서함, OneDrive 계정 및 해당 SharePoint 사이트만 검색할 수 있도록 요구합니다. 또한 eDiscovery 관리자 및 조사자는 해당 기관에서 eDiscovery 사례만 볼 수 있으며 구성원인 사례에만 액세스할 수 있습니다. 또한 이 시나리오에서 조사자는 콘텐츠 위치를 보류하거나 사례에서 콘텐츠를 내보낼 수 없습니다. 규정 준수 경계가 이러한 요구 사항을 충족하는 방식은 다음과 있습니다.
   
 - 콘텐츠 검색의 검색 권한 필터링 기능은 eDiscovery 관리자 및 조사자에서 검색할 수 있는 콘텐츠 위치를 제어합니다. 즉, Fourth Coffee 에이전시의 eDiscovery 관리자와 조사관은 Fourth Coffee 자회사의 콘텐츠 위치만 검색할 수 있습니다. Coho Winery 자회사에도 동일한 제한이 적용됩니다.
 
@@ -303,4 +303,26 @@ eDiscovery 관리자는 검색 쿼리에 특정 기관으로 검색을 제한하
   
 **조직에서 만들 수 있는 검색 권한 필터의 최대 개수는 무엇입니까?**
   
-조직에서 만들 수 있는 검색 권한 필터의 수에는 제한이 없습니다. 그러나 검색 권한 필터가 100개가 넘는 경우 검색 성능에 영향을 미치게 됩니다. 조직의 검색 권한 필터 수를 최대한 적게 유지하려면 가능한 한 단일 검색 권한 필터에 Exchange, SharePoint 및 OneDrive 필터에 대한 규칙을 결합하는 필터를 만듭니다.
+조직에서 만들 수 있는 검색 권한 필터의 수에는 제한이 없습니다. 그러나 검색 쿼리의 조건은 최대 100개입니다. 이 경우 조건은 **부울** 연산자(예: AND, **OR** 및 NEAR)에 의해 쿼리에 연결된 것으로 **정의됩니다.** 조건 수의 제한에는 검색 쿼리 자체와 검색을 실행한 사용자에게 적용되는 모든 검색 권한 필터가 포함됩니다. 따라서 검색 권한 필터가 수록(특히 동일한 사용자 또는 사용자 그룹에 이러한 필터가 적용되는 경우) 검색에 대한 최대 조건 수를 초과할 가능성이 더 낫습니다.
+
+이 제한의 작동 방법을 이해하려면 검색이 실행되는 경우 검색 권한 필터가 검색 쿼리에 추가됩니다. 검색 권한 필터는 **AND** 부울 연산자에 의해 검색 쿼리에 가입됩니다. 검색 쿼리 및 단일 검색 권한 필터에 대한 쿼리 논리는 다음과 같습니다.
+
+```text
+<SearchQuery> AND <PermissionsFilter>
+```
+
+여러 검색 권한 필터는 **OR** 부울 연산자로 결합된 다음 해당 조건은 AND 연산자에 의해 검색 쿼리에 **연결됩니다.**
+
+검색 쿼리 및 여러 검색 권한 필터에 대한 쿼리 논리는 다음과 같습니다.
+
+```text
+<SearchQuery> AND (<PermissionsFilter1> OR <PermissionsFilter2> OR <PermissionsFilter3>...)
+```
+
+검색 쿼리 자체는 부울 연산자로 연결된 여러 조건으로 구성될 수 있습니다. 검색 쿼리의 각 조건도 100개 조건 제한에 계산됩니다.
+
+또한 쿼리에 추가된 검색 권한 필터의 수는 검색을 실행하는 사용자에 따라 달라 집니다. 특정 사용자가 검색을 실행하면 해당 사용자에게 적용되는 검색 권한 필터(필터의 *Users* 매개 변수로 정의)가 쿼리에 추가됩니다. 조직에는 수백 개의 검색 권한 필터가 있을 수 있지만 동일한 사용자에게 100개 이상의 필터가 적용된 경우 해당 사용자가 검색을 실행할 때 100개의 조건 제한이 초과될 가능성이 습니다.
+
+조건 제한에 대해 유의해야 할 한 가지가 있습니다. 검색 쿼리 또는 SharePoint 사용 권한 필터에 포함된 특정 사이트 수도 이 제한에 계산됩니다. 
+
+조직에서 조건 제한에 도달하지 못하게 방지하려면 비즈니스 요구 사항을 충족하기 위해 조직의 검색 권한 필터 수를 최대한 적게 유지하세요.

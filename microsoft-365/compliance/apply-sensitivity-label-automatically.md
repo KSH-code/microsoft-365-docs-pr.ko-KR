@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: b61abfa58d10aca154cee02edf15a56b516495b8
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: ea7c0bcfdefddaa1c44019f3752e5d00c5323bcc
+ms.sourcegitcommit: b05b107774e8bca36c9ee19fdc4719d17e302f11
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247089"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483418"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -92,7 +92,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 |조건: 전자 메일 공유 옵션 및 추가 옵션|아니요 |예 |
 |조건: 예외|아니요 |예(전자 메일만 해당) |
 |권장 사항, 정책 도구 설명 및 사용자 재정의|예 |아니요 |
-|시뮬레이션 모드|아니오 |예 |
+|시뮬레이션 모드|아니요 |예 |
 |조건이 확인된 Exchange 첨부 파일|아니요 | 예|
 |시각적 표시 적용 |예 |예(전자 메일만 해당) |
 |레이블 없이 적용된 IRM 암호화 재정의|예(사용자에게 내보내기의 최소 사용 권한이 있는 경우) |예(전자 메일만 해당) |
@@ -114,7 +114,9 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 
 ## <a name="how-to-configure-auto-labeling-for-office-apps"></a>Office 앱에 대한 자동 레이블 지정을 구성하는 방법
 
-Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection 통합 레이블 클라이언트에서 지원됩니다. Office 앱에서 기본 제공되는 레이블 지정은 [앱마다 사용 가능 단계가 다릅니다](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
+Office 앱의 기본 제공 레이블 지정의 경우 Office 앱에서 자동 레이블 지정에 [필요한 최소 버전](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)을 확인합니다.
+
+Azure Information Protection 통합 레이블 지정 클라이언트는 기본 제공 및 사용자 지정 중요한 정보 유형에 대한 자동 레이블 지정을 지원하지만 학습 가능한 분류자 또는 EDM(정확한 데이터 일치)을 사용하는 중요한 정보 유형에는 지원되지 않습니다.
 
 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md)하는 경우, Office 앱에 대한 자동 레이블 지정 설정을 사용할 수 있습니다. **파일 및 전자 메일** 이 레이블 범위에서 선택되어 있는지 확인합니다.
 
@@ -185,7 +187,7 @@ Office 앱의 자동 및 권장 레이블 지정 구현은 Office 기본 제공 
 
 - 데스크톱 버전의 Word에서 권장되는 레이블의 경우 사용자가 권장되는 민감도 레이블을 적용하는 대신, 중요한 콘텐츠를 검토하고 제거할 수 있도록 권장 사항을 트리거한 중요한 콘텐츠에 플래그가 지정됩니다.
 
-- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
+- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/ko-KR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
 
 Azure Information Protection 통합 레이블 지정 클라이언트와 관련된 내용:
 

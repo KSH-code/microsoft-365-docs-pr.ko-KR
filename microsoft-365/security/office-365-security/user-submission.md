@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 94e796304ed562c7464ad64362159d231ace8882
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 1b7b830c35443f47af72ed0d76303b96491648bc
+ms.sourcegitcommit: b05b107774e8bca36c9ee19fdc4719d17e302f11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258371"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483322"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -71,19 +71,19 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 - 사용자 제출에 대한 구성을 수정하려면 다음 역할 그룹 중 하나의 구성원이 되어야 합니다.
 
   - **조직** **포털의** 사용 권한에 있는 [조직 관리 또는 보안 Microsoft 365 Defender.](permissions-microsoft-365-security-center.md)
-  
+
 - PowerShell을 사용하려면 Exchange Online 액세스해야 합니다. 사용하려는 계정에 Exchange Online PowerShell에 액세스할 수 없는 경우 제출 사서함을 지정할 때 다음과 같은 오류가 표시됩니다.
 
   > 도메인에서 전자 메일 주소 지정
 
   PowerShell에 대한 액세스를 활성화하거나 Exchange Online 자세한 내용은 다음 항목을 참조하세요.
 
-  - [Exchange Online PowerShell에 대한 액세스 설정 또는 해제](/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Exchange Online PowerShell에 대한 액세스 설정 또는 해제](/powershell/exchange/disable-access-to-exchange-online-powershell)
   - [클라이언트 액세스 규칙의 Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox"></a>Microsoft 365 Defender 포털을 사용하여 사용자 제출 사서함 구성
 
-1. Microsoft 365 Defender 포털에서 정책 **정책** & 규칙 위협 정책 기타 섹션 사용자가 메시지 설정을 보고했습니다 사용자 제출 \>  \>  \>  \> **으로 이동합니다.**
+1. Microsoft 365 Defender 포털에서 정책 **정책** & 정책 위협 정책 사용자가 기타 사용자 제출에서 메시지 설정을 \>  \>   \> **보고했습니다.**
 
 2. 사용자 **제출 페이지에서는** Microsoft Outlook 메시지 단추 설정이 꺼지거나 으로 설정되어 **있는지** **여부에** 따라 **표시됩니다.**
 
@@ -94,7 +94,6 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
        - **조직의 사서함:** 나타나는 상자에 기존 사서함의 전자 메일 주소를 Exchange Online. 메일 그룹은 허용되지 않습니다. 메시지를 먼저 분석하기 위해 관리자 또는 보안 운영 팀으로 이동하려는 경우 이 옵션을 사용합니다. 관리자가 메시지를 직접 전달하지 않으면 메시지가 Microsoft로 이동되지 않습니다.
 
           > [!IMPORTANT]
-          >
           > 미국 정부 조직(GCC, GCC High 및 DoD)은 내 조직의 사서함만 **구성할 수 있습니다.** 다른 두 옵션은 사용하지 않도록 설정됩니다.
           >
           > 조직이 사용자 지정 사서함으로만 보내도록 구성된 경우 보고된 메시지는 다시 검색을 위해 전송되지 않습니다. 사용자 보고 메시지 포털의 결과는 항상 비어 있습니다.
@@ -109,6 +108,8 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 
           > [!CAUTION]
           > 웹용 Outlook 사서함 [](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) 정책을 사용하여 웹용 Outlook 웹용 Outlook 정크 메일 보고를 사용하지 않도록 설정했지만 Microsoft에 메시지를 보고하도록 이전 설정을 구성한 경우 사용자는 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하여 웹용 Outlook Microsoft에 메시지를 보고할 수 있습니다.
+
+     최종 **사용자가** Outlook 포털에서 가짓 긍정 메시지를 보고할 수 있도록 Microsoft Outlook 메시지 보고 단추 설정을 설정으로 ![ ](../../media/scc-toggle-on.png)  전환합니다.
 
      - **사용자 보고 환경 섹션**
        - **보고 탭** 전에:  제목  및 메시지 본문 상자에 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하여 메시지를 보고하기 전에 사용자에게 설명 텍스트를 입력합니다. %type% 변수를 사용하여 제출 유형(정크, 피싱 등이 아님)을 포함할 수 있습니다.
@@ -141,7 +142,7 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 - 2| 또는 정크 아님
 - 3| 또는 피싱
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예제:
 
 `3|This part is ignored by the system` <br>
 `Not Junk:This part of the subject is ignored as well`

@@ -188,6 +188,8 @@
               href: m365d-autoir-results.md
             - name: 가양성 및 가음성 문제 해결
               href: m365d-autoir-report-false-positives-negatives.md
+            - name: Power Automate 사용
+              href: use-power-automate.md
         - name: 고급 헌팅
           items:
             - name: 고급 헌팅 개요
