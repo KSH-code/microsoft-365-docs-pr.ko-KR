@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: e0604a6531b93a1a0df04c39ebaff4e75a0365f9
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 8c78cf0f8ff49d2b81533e064a16089d8fe75d15
+ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58248036"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58400406"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -170,7 +170,7 @@ SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 �
 
 - 다음 기능 및 앱은 인증 컨텍스트와 호환되지 않을 수 있으므로 사용자가 인증 컨텍스트를 사용하여 사이트에 성공적으로 액세스한 후에도 계속 작동하는지 확인하는 것이 좋습니다.
     
-    - PowerApps 또는 Power Automate를 사용하는 워크플로
+    - Power Apps 또는 Power Automate를 사용하는 워크플로
     - 타사 앱
 
 ## <a name="sensitivity-label-management"></a>민감도 레이블 관리
@@ -449,5 +449,7 @@ Set-SPOTenant -BlockSendLabelMismatchEmail $True
 ## <a name="additional-resources"></a>추가 리소스
 
 [Microsoft Teams, O365 그룹, SharePoint Online 사이트에서 민감도 레이블 사용에](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/using-sensitivity-labels-with-microsoft-teams-o365-groups-and/ba-p/1221885#M1380) 대한 웨비나 기록 및 질응답을 참조하세요.
+
+Teams 연결된 사이트 및 채널 사이트 관리에 대한 자세한 내용은 [Teams 연결된 사이트 및 채널 사이트 관리](/SharePoint/teams-connected-sites)를 참조하세요.
 
 이 웨비나는 기능이 미리 보기에 있을 때 녹화되었기 때문에 UI에 약간의 차이가 있을 수 있습니다. 그러나 이 기능에 대한 정보는 이 페이지에 설명된 새 기능과 함께 여전히 정확합니다.

@@ -150,8 +150,6 @@
           href: data-classification-activity-explorer.md
         - name: 활동 탐색기에서 보고된 작업의 레이블 지정
           href: data-classification-activity-explorer-available-events.md
-        - name: 데이터 분류 릴리스 정보
-          href: data-classification-pub-preview-relnotes.md
     - name: 민감도 레이블
       items:
         - name: 민감도 레이블 알아보기
@@ -467,7 +465,7 @@
               href: archive-enterprise-number-data.md
             - name: O2 Telefonica SMS 및 음성 네트워크 보관 장치
               href: archive-o2-network-data.md
-            - name: Rogers Network Archiver(미리 보기)
+            - name: Rogers Network Archiver
               href: archive-rogers-network-archiver-data.md
             - name: 신호 보관기
               href: archive-signal-archiver-data.md
@@ -509,7 +507,7 @@
               href: archive-17a-4-refinitiv-messenger-data.md
             - name: ServiceNow DataParser
               href: archive-17a-4-servicenow-data.md
-            - name: 비즈니스용 Skype 서버 DataParser(미리 보기)
+            - name: 비즈니스용 Skype 서버 DataParser
               href: archive-17a-4-skype-for-business-server-data.md
             - name: Slack DataParser
               href: archive-17a-4-slack-data.md
@@ -654,6 +652,8 @@
               href: de-duplication-in-ediscovery-search-results.md
             - name: eDiscovery 도구의 암호 해독
               href: ediscovery-decryption.md
+            - name: 일반적인 eDiscovery 문제 해결
+              href: ediscovery-troubleshooting-common-issues.md
             - name: 검색 결과를 내보낼 때 PST 파일 크기 변경
               href: change-the-size-of-pst-files-when-exporting-results.md
             - name: 콘텐츠 보고서를 사용하지 않도록 설정
@@ -662,8 +662,6 @@
               href: check-your-content-search-query-for-errors.md
             - name: Microsoft Edge를 사용하여 검색 결과 다운로드
               href: configure-edge-to-export-search-results.md
-            - name: 여러 콘텐츠 검색 일괄 편집
-              href: bulk-edit-content-searches.md
             - name: 감사 로그에서 eDiscovery 활동 검색
               href: search-for-ediscovery-activities-in-the-audit-log.md
         - name: 컨텐츠 검색 PowerShell 스크립트

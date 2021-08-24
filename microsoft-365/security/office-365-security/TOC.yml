@@ -252,7 +252,7 @@
           href: submitting-malware-and-non-malware-to-microsoft-for-analysis.md
         - name: 최상위 도메인 메일 흐름 상태 정보
           href: mfi-domain-mail-flow-status-insight.md
-        - name: 관리자 제출 사용
+        - name: 제출 관리
           href: admin-submission.md
         - name: 메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
           href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft
