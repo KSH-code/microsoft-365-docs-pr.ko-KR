@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: 6fd9a7cbbc7db1062c22b77b1e64745e88853a13
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 7671bcc99a0f1ab205312fe0aa6930255ae6cfa1
+ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255895"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386999"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -55,9 +55,11 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 
 특정 정책이 다른 정책보다 우선하도록 정책 및 우선순위 수준과 일치하는 감사 레코드에 대한 보존 기간을 지정할 수도 있습니다. 또한 조직의 일부 또는 모든 사용자에 대해 1년 미만(또는 10년)에 대해 Exchange, SharePoint 또는 Azure Active Directory 감사 레코드를 보존해야 할 경우 사용자 지정 감사 로그 보존 정책이 기본 감사 보존 정책 보다 우선적으로 적용됩니다. 자세한 내용은 [감사 로그 보존 정책 관리](audit-log-retention-policies.md)를 참조하십시오.
 
-## <a name="access-to-crucial-events-for-investigations"></a>조사에 대한 중요 이벤트 액세스
+## <a name="advanced-audit-events"></a>고급 감사 이벤트
 
-고급 감사는 메일 항목에 액세스한 경우 또는 메일 항목에 회신하고 전달한 경우 그리고 언제 사용자가 Exchange Online 및 SharePoint Online에서 검색 했는지와 같은 중요한 이벤트에 대한 액세스를 제공하여 법적 및 준수 조사를 수행하는 데 도움이 됩니다. 이러한 주요 이벤트는 발생 가능성이 있는 위반을 조사하고 손상 범위를 결정 하는 데 도움이 될 수 있습니다.  고급 감사는 다음과 같은 중요한 이벤트를 제공합니다.
+고급 감사는 메일 항목에 액세스한 경우 또는 메일 항목에 회신하고 전달한 경우 그리고 언제 사용자가 Exchange Online 및 SharePoint Online에서 검색 했는지와 같은 중요한 이벤트에 대한 액세스를 제공하여 법적 및 준수 조사를 수행하는 데 도움이 됩니다. 이러한 주요 이벤트는 발생 가능성이 있는 위반을 조사하고 손상 범위를 결정 하는 데 도움이 될 수 있습니다.  Exchange 및 SharePoint의 중요한 이벤트 외에도 다른 Microsoft 365 서비스에서 중요한 이벤트로 간주되고 [적절한 고급 감사 라이선스](auditing-solutions-overview.md#licensing-requirements)를 기록해야 하는 이벤트가 있습니다.
+
+고급 감사는 다음과 같은 중요한 이벤트를 제공합니다.
 
 - [MailItemsAccessed](#mailitemsaccessed)
 
@@ -66,6 +68,8 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 - [SearchQueryInitiatedExchange](#searchqueryinitiatedexchange)<sup>*</sup>
 
 - [SearchQueryInitiatedSharePoint](#searchqueryinitiatedsharepoint)<sup>*</sup>
+
+- [Microsoft 365의 기타 고급 감사 이벤트](#other-advanced-audit-events-in-microsoft-365)
 
 > [!NOTE]
 > <sup>*</sup> 현재 이 이벤트는 Office 365 및 Microsoft 365 Government GCC High 및 DoD 환경에서 사용할 수 없습니다.
@@ -131,7 +135,7 @@ SearchQueryInitiatedExchange 감사 레코드를 검색하려면 준수 센터�
 Exchange Online PowerShell에서 [Search-UnifiedAuditLog-Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
 
 > [!NOTE]
-> 감사 로그에서 이 이벤트를 검색할 수 있도록 SearchQueryInitiatedExchange를 활성화해야 합니다. 자세한 내용은 [고급 감사 설정](set-up-advanced-audit.md#step-2-enable-crucial-events)을 참조하세요.
+> 감사 로그에서 이 이벤트를 검색할 수 있도록 SearchQueryInitiatedExchange를 활성화해야 합니다. 자세한 내용은 [고급 감사 설정](set-up-advanced-audit.md#step-2-enable-advanced-audit-events)을 참조하세요.
 
 ### <a name="searchqueryinitiatedsharepoint"></a>SearchQueryInitiatedSharePoint
 
@@ -154,7 +158,19 @@ SearchQueryInitiatedSharePoint 감사 레코드를 검색하려면 준수 센터
 또한 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
 
 > [!NOTE]
-> 감사 로그에서 이 이벤트를 검색할 수 있도록 SearchQueryInitiatedSharePoint를 활성화해야 합니다. 자세한 내용은 [고급 감사 설정](set-up-advanced-audit.md#step-2-enable-crucial-events)을 참조하세요.
+> 감사 로그에서 이 이벤트를 검색할 수 있도록 SearchQueryInitiatedSharePoint를 활성화해야 합니다. 자세한 내용은 [고급 감사 설정](set-up-advanced-audit.md#step-2-enable-advanced-audit-events)을 참조하세요.
+
+### <a name="other-advanced-audit-events-in-microsoft-365"></a>Microsoft 365의 기타 고급 감사 이벤트
+
+Exchange Online 및 SharePoint Online의 중요한 이벤트 외에도 사용자에게 적절한 고급 감사 라이선스가 할당될 때 기록되는 다른 Microsoft 365 서비스에 중요한 이벤트가 있습니다. 다음 Microsoft 365 서비스는 중요한 이벤트를 제공합니다. 해당 링크를 클릭하여 이러한 이벤트를 식별하고 설명하는 문서로 이동합니다.
+
+- [Microsoft Forms](search-the-audit-log-in-security-and-compliance.md#microsoft-forms-activities)
+
+- [Microsoft Stream](/stream/audit-logs#actions-logged-in-stream)
+
+- [Microsoft Teams](/microsoftteams/audit-log-events#teams-activities)
+
+- [Yammer](search-the-audit-log-in-security-and-compliance.md#yammer-activities)
 
 ## <a name="high-bandwidth-access-to-the-office-365-management-activity-api"></a>Office 365 관리 활동 API에 대한 고 대역폭 액세스
 
