@@ -2,8 +2,8 @@
 title: 앱 규정 준수 상태 확인
 f1.keywords:
 - NOCSH
-ms.author: v-tophillips
-author: v-tophillips
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 규정 준수 상태를 확인합니다.
-ms.openlocfilehash: 2f53a3267b4c33b532251b34e0f2509a1075486996c01e8aaeecf68a12c70609
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 152f68e8fe0e7d7340d2e048bc73684bc079386f
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887106"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438027"
 ---
 # <a name="determine-your-app-compliance-posture"></a>앱 규정 준수 상태 확인
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-Microsoft 앱 거버넌스를 사용하면 Microsoft 365 규정 준수 센터 앱 거버넌스 개요 페이지에서 타사 앱의 규정 준수 상태와 Microsoft 365 테넌트에서의 데이터 액세스를 신속하게 평가할 수 있습니다.
+Microsoft 앱 거버넌스를 사용하면 [Microsoft 365 규정 준수 센터](https://aka.ms/appgovernance) 앱 거버넌스 개요 페이지에서 타사 앱의 규정 준수 상태와 Microsoft 365 테넌트에서의 데이터 액세스를 신속하게 평가할 수 있습니다.
 
 ![Microsoft 365 규정 준수 센터의 앱 거버넌스 개요 페이지](..\media\manage-app-protection-governance\mapg-cc-overview.png)
 

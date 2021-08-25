@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: b8b8b8481dca5074d2db6c3022d65e160cdf7b04
-ms.sourcegitcommit: fac7b4b0095254c87b2a341fa2d53a42193f8957
+ms.openlocfilehash: 41ead8bf4532503cb47623f65a82ca36a616091e
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58418026"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409167"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
@@ -149,7 +149,7 @@ OneDrive는 SharePoint 내의 사이트 계층 구조이므로 조직 수준 공
 
 **탐색:** SharePoint 관리 센터 > 공유
 
-![SharePoint 조직 수준 공유 설정의 스크린샷](../media/external-sharing.png)
+![SharePoint 조직 수준 공유 설정의 스크린샷](../media/sharepoint-organization-external-sharing-controls.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -160,7 +160,7 @@ OneDrive는 SharePoint 내의 사이트 계층 구조이므로 조직 수준 공
 
 **탐색:** SharePoint 관리 센터 > 공유
 
-![SharePoint 조직 수준 추가 공유 설정 스크린샷](../media/external-sharing.png)
+![SharePoint 조직 수준 추가 공유 설정 스크린샷](../media/sharepoint-organization-advanced-sharing-settings.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -169,7 +169,6 @@ OneDrive는 SharePoint 내의 사이트 계층 구조이므로 조직 수준 공
 |게스트는 공유 초대장이 전송된 계정과 동일한 계정으로 로그인해야 함|해제|게스트가 초대장과 다른 전자 메일 주소를 사용하여 사이트 공유 초대장을 사용할 수 없도록 합니다. <p> [Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](/sharepoint/sharepoint-azureb2b-integration-preview)은 초대를 받은 전자 메일 주소를 기준으로 모든 게스트를 디렉토리에 추가하기 때문에 이 설정을 사용하지 않습니다. 대체 전자 메일 주소를 사용하여 사이트에 액세스할 수 없습니다.|
 |게스트가 소유하지 않은 항목을 공유할 수 있도록 허용|켜짐|**켜짐** 을 설정되면 게스트는 다른 사용자나 게스트와 소유하지 않는 항목을 공유할 수 있습니다. **해제** 된 경우에는 할 수 없습니다. 게스트는 항상 모든 권한을 보유한 항목을 공유할 수 있습니다.|
 |People who use a verification code must reauthenticate after this many days(확인 코드를 사용하는 사용자는 다음 기간(일) 후에 다시 인증해야 함)|해제|이 설정을 사용하면 일회용 암호로 인증하는 사용자가 특정 기간(일) 후에 다시 인증해야 합니다.|
-|사이트 또는 OneDrive 게스트 액세스가 이 기간 후에 자동으로 만료됩니다.|설정|관리자가 게스트 액세스에 대한 만료 시간을 설정한 경우, 사이트에 초대하거나 개별 파일 및 폴더를 공유하는 각 게스트에게 일정 기간(일) 동안 액세스 권한이 부여됩니다. 자세한 내용은 [사이트에 대한 게스트 만료 관리](https://support.microsoft.com/en-us/office/manage-guest-expiration-for-a-site-25bee24f-42ad-4ee8-8402-4186eed74dea)를 참조하세요.
 
 ### <a name="sharepoint-and-onedrive-file-and-folder-link-settings"></a>SharePoint 및 OneDrive 파일 및 폴더 링크 설정
 
