@@ -11,17 +11,17 @@ localization_priority: Normal
 audience: ITPro
 author: denisebmsft
 ms.author: deniseb
-ms.reviewer: ''
+ms.reviewer: oogunrinde
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.topic: how-to
-ms.openlocfilehash: 6fb72c68d69c6844c981c7575bcfed3811a8d20e55a51485d78e26ec447becfe
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.topic: overview
+ms.openlocfilehash: 81aba6c432747563820556341d12f81d8e09b5ca
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867982"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507569"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 
@@ -33,24 +33,16 @@ ms.locfileid: "53867982"
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-네트워크 보호는 인터넷 기반 이벤트에서 장치의 공격 표면을 줄이는 데 도움이 됩니다. 이를 통해 직원이 응용 프로그램을 사용하여 인터넷에서 피싱 사기, 악용 및 기타 악성 콘텐츠를 호스팅할 수 있는 위험한 도메인에 액세스할 수 없습니다. 네트워크 보호는 신뢰도 [Microsoft Defender SmartScreen(도메인](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) 또는 호스트 이름 기반)에 연결하려고 하는 모든 아웃바운드 HTTP 트래픽을 차단하기 위해 네트워크 보호 범위를 확장합니다.
+## <a name="overview-of-network-protection"></a>네트워크 보호 개요
 
-네트워크 보호는 Windows 버전 1709부터 Windows 10 지원됩니다. 네트워크 보호는 아직 다른 운영 체제에서 지원되지 않지만, 웹 보호는 다른 운영 체제를 기반으로 하는 Microsoft Edge 지원 Chromium. 자세한 내용은 웹 [보호를 참조합니다.](web-protection-overview.md)
+네트워크 보호는 인터넷 기반 이벤트로부터 장치를 보호하는 데 도움이 됩니다. 네트워크 보호는 공격 표면 감소 기능입니다. 이를 통해 직원이 응용 프로그램을 통해 위험한 도메인에 액세스하지 못하게 할 수 있습니다. 인터넷에서 피싱 사기, 악용 및 기타 악성 콘텐츠를 호스팅하는 도메인은 위험으로 간주됩니다. 네트워크 보호는 신뢰도 [Microsoft Defender SmartScreen(도메인](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) 또는 호스트 이름 기반)에 연결하려고 하는 모든 아웃바운드 HTTP 트래픽을 차단하기 위해 네트워크 보호 범위를 확장합니다.
 
-네트워크 보호는 웹 보호의 [보호를](web-protection-overview.md) 운영 체제 수준으로 확장합니다. 이 기능은 지원되는 다른 브라우저 및 비 브라우저 응용 프로그램에 Edge의 웹 보호 기능을 제공합니다. 또한 네트워크 보호는 끝점 감지 및 응답과 함께 사용될 경우 IOC(손상 표시기)를 표시하고 [차단합니다.](overview-endpoint-detection-response.md) 예를 들어 네트워크 보호는 사용자 지정 [표시기 에서 작동합니다.](manage-indicators.md)
-
-네트워크 보호를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 보호 사용 [을 참조하세요.](enable-network-protection.md) 그룹 정책, PowerShell 또는 MDM CSP를 사용하여 네트워크에서 네트워크 보호를 사용하도록 설정하고 관리할 수 있습니다.
+네트워크 보호는 웹 보호의 [보호를](web-protection-overview.md) 운영 체제 수준으로 확장합니다. 이 기능은 지원되는 다른 브라우저 및 비 브라우저 응용 프로그램에 Edge의 웹 보호 기능을 제공합니다. 또한 네트워크 보호는 끝점 감지 및 응답과 함께 사용될 경우 IOC(손상 표시기)를 표시하고 [차단합니다.](overview-endpoint-detection-response.md) 예를 들어 네트워크 보호는 [](manage-indicators.md) 특정 도메인 또는 호스트 이름을 차단하는 데 사용할 수 있는 사용자 지정 표시기에서 작동합니다.
 
 > [!TIP]
 > 네트워크 보호가 작동하는 방법을 demo.wd.microsoft.com Microsoft Defender for [Endpoint](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) testground 사이트를 참조하세요.
 
-네트워크 보호는 Exploit Protection 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 차단하는 [끝점용 Microsoft Defender와](microsoft-defender-endpoint.md) [가장 잘 작동합니다.](investigate-alerts.md)
-
-네트워크 보호가 연결을 차단하면 알림 센터에서 알림이 표시됩니다. 보안 운영 팀은 조직의 [세부](customize-attack-surface-reduction.md#customize-the-notification) 정보 및 연락처 정보로 알림을 사용자 지정할 수 있습니다. 또한 모니터링할 특정 기술에 맞게 개별 공격 표면 감소 규칙을 사용하도록 설정하고 사용자 정의할 수 있습니다.
-
-감사 모드를 [사용하여](audit-windows-defender.md) 네트워크 보호가 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가할 수도 있습니다.
-
-## <a name="requirements"></a>요구 사항
+## <a name="requirements-for-network-protection"></a>네트워크 보호 요구 사항
 
 네트워크 보호를 사용하려면 Windows 10 Pro Enterprise 및 Microsoft Defender 바이러스 백신 보호가 필요합니다.
 
@@ -63,13 +55,23 @@ ms.locfileid: "53867982"
 - `.smartscreen.microsoft.com`
 - `.smartscreen-prod.microsoft.com`
 
-## <a name="review-network-protection-events-in-the-microsoft-defender-for-endpoint-security-center"></a>Microsoft Defender for Endpoint 보안 센터에서 네트워크 보호 이벤트 검토
+## <a name="configuring-network-protection"></a>네트워크 보호 구성
 
-끝점용 Microsoft Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 [차단합니다.](investigate-alerts.md)
+네트워크 보호를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 보호 사용 **[을 참조하세요.](enable-network-protection.md)** 그룹 정책, PowerShell 또는 MDM CSP를 사용하여 네트워크에서 네트워크 보호를 사용하도록 설정하고 관리할 수 있습니다.
 
-고급 헌팅을 사용하여 Microsoft Defender에서 끝점 데이터를 [쿼리할 수 있습니다.](advanced-hunting-overview.md) 감사 모드를 사용하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 네트워크 보호 설정이 사용하도록 설정된 경우 환경에 어떤 영향을 주는지 볼 수 있습니다.
+## <a name="viewing-network-protection-events"></a>네트워크 보호 이벤트 보기
 
-다음은 예제 쿼리입니다.
+네트워크 보호는 Exploit Protection 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 차단하는 [끝점용 Microsoft Defender와](microsoft-defender-endpoint.md) [가장 잘 작동합니다.](investigate-alerts.md)
+
+네트워크 보호가 연결을 차단하면 알림 센터에서 알림이 표시됩니다. 보안 운영 팀은 조직의 [세부](customize-attack-surface-reduction.md#customize-the-notification) 정보 및 연락처 정보로 알림을 사용자 지정할 수 있습니다. 또한 모니터링할 특정 기술에 맞게 개별 공격 표면 감소 규칙을 사용하도록 설정하고 사용자 정의할 수 있습니다.
+
+감사 모드를 [사용하여](audit-windows-defender.md) 네트워크 보호가 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가할 수도 있습니다.
+
+## <a name="review-network-protection-events-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 네트워크 보호 Microsoft 365 Defender 검토
+
+끝점용 Microsoft Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 [차단합니다.](investigate-alerts.md) 경고 큐의 Microsoft 365 Defender 포털( )에서 또는 고급 헌팅을 사용하여 이러한 세부 정보를 볼 [https://security.microsoft.com](https://security.microsoft.com) [수 있습니다.](advanced-hunting-overview.md) [](review-alerts.md) 감사 모드를 사용하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 네트워크 보호 설정이 사용하도록 설정된 경우 환경에 어떤 영향을 주는지 볼 수 있습니다.
+
+고급 헌팅에 대한 예제 쿼리는 다음과 같습니다.
 
 ```kusto
 DeviceEvents
@@ -91,6 +93,18 @@ Windows 로그를 검토하여 네트워크 보호가 악성 IP 또는 도메인
 | 5007 | 설정이 변경될 때의 이벤트 |
 | 1125 | 감사 모드에서 네트워크 보호가 발생 하는 경우 이벤트 |
 | 1126 | 차단 모드에서 네트워크 보호가 발생하면 이벤트 |
+
+## <a name="network-protection-and-the-tcp-three-way-handshake"></a>네트워크 보호 및 TCP 3차원 핸드세이크
+
+네트워크 보호를 사용하면 [TCP/IP를](/troubleshoot/windows-server/networking/three-way-handshake-via-tcpip)통해 3차원 핸드세이크가 완료된 후 사이트에 대한 액세스를 허용할지 또는 차단할지 여부를 결정하게 됩니다. 따라서 사이트가 네트워크 보호에 의해 차단되는 경우 사이트가 실제로 차단된 경우에도 Microsoft 365 Defender 포털에 작업 유형이 `ConnectionSuccess` `NetworkConnectionEvents` 표시될 수 있습니다. `NetworkConnectionEvents` 네트워크 보호가 아닌 TCP 계층에서 보고됩니다. 3차원 핸드세이크가 완료되면 네트워크 보호를 통해 사이트에 대한 액세스가 허용되거나 차단됩니다.
+
+작동 방식의 예는 다음과 같습니다.
+
+1. 사용자가 디바이스의 웹 사이트에 액세스하려고 시도하는 경우를 가정해 가정합니다. 사이트는 위험한 도메인에서 호스팅될 수 있으며 네트워크 보호에 의해 차단됩니다.  
+
+2. TCP/IP를 통한 3차원 핸드세이크 작업이 완료되기 전에 작업이 기록되어 로 `NetworkConnectionEvents` `ActionType` `ConnectionSuccess` 나열됩니다. 그러나 3차원 핸드세이크 프로세스가 완료되는 즉시 네트워크 보호가 사이트에 대한 액세스를 차단합니다. 이 모든 상황이 매우 빠르게 진행됩니다. 와 유사한 프로세스는 [Microsoft Defender SmartScreen.](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) 3차원 핸드세이크가 완료되면 결정이 완료된 후 사이트에 대한 액세스가 차단되거나 허용됩니다.
+
+3. Microsoft 365 Defender 포털에서 경고가 경고 큐에 [나열됩니다.](alerts-queue.md) 해당 경고의 세부 정보에는 및 를 모두 `NetworkConnectionEvents` `AlertEvents` 포함합니다. ActionType이 인 항목도 있는 경우에도 사이트가 차단된 `NetworkConnectionEvents` `ConnectionSuccess` 것입니다.
 
 ## <a name="considerations-for-windows-virtual-desktop-running-windows-10-enterprise-multi-session"></a>다중 세션을 Windows 가상 데스크톱에 Windows 10 Enterprise 고려 사항
 
@@ -116,7 +130,7 @@ Azure의 Windows 데스크톱에서 사용되는 Windows 10 Enterprise 세션 19
 
 ## <a name="network-protection-troubleshooting"></a>네트워크 보호 문제 해결
 
-네트워크 보호가 실행되는 환경으로 인해 Microsoft는 운영 체제 프록시 설정을 검색하지 못할 수 있습니다. 경우에 따라 네트워크 보호 클라이언트가 클라우드 서비스에 연결하지 못할 수 있습니다. 연결 문제를 해결하려면 E5 라이선스가 있는 고객은 다음 Defender 레지스트리 키 중 하나를 구성해야 합니다.
+네트워크 보호가 실행되는 환경으로 인해 Microsoft는 운영 체제 프록시 설정을 검색하지 못하게 될 수 있습니다. 경우에 따라 네트워크 보호 클라이언트가 클라우드 서비스에 연결하지 못할 수 있습니다. 연결 문제를 해결하려면 E5 라이선스가 있는 고객은 다음 Defender 레지스트리 키 중 하나를 구성해야 합니다.
 
 ```console
 reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f
@@ -124,8 +138,10 @@ reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC
 
 ```
 
-## <a name="related-articles"></a>관련 문서
+## <a name="see-also"></a>참고 항목
 
 - [네트워크 보호 |](evaluate-network-protection.md) 기능의 작동 방식과 일반적으로 만들어지게 될 이벤트를 보여줄 수 있는 빠른 시나리오를 진행합니다.
 
 - [네트워크 보호 기능](enable-network-protection.md) | 그룹 정책, PowerShell 또는 MDM CSP를 사용하여 네트워크에서 네트워크 보호를 사용하도록 설정하고 관리할 수 있습니다.
+
+- [웹에서 공격 표면 감소 기능 Microsoft Intune](/mem/intune/protect/endpoint-security-asr-policy)

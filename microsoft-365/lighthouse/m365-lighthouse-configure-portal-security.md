@@ -16,19 +16,19 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 포털을 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 포털 보안을 구성하는 방법을 알아보고,
-ms.openlocfilehash: 1d9dd77fb0d8ea21985b430b00c5366d70fadbf6fc047dbd7735883bb2fb77f2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9701ecc002144f791be6caad1e93230be5a83bf0
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53890998"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508085"
 ---
 # <a name="configure-microsoft-365-lighthouse-portal-security"></a>포털 Microsoft 365 Lighthouse 구성
 
 > [!NOTE]
 > 이 문서에 설명된 기능은 미리 보기에 있으며, 변경될 수 있으며, 요구 사항을 충족하는 파트너만 사용할 수 [있습니다.](m365-lighthouse-requirements.md) 조직에 등록이 Microsoft 365 Lighthouse 에 [등록을 Microsoft 365 Lighthouse.](m365-lighthouse-sign-up.md)
 
-관리 서비스 공급자(MSP)가 테넌트에 대한 액세스 권한을 위임한 경우 고객 데이터에 대한 액세스를 보호하는 것이 사이버 보안 우선 순위입니다. Microsoft 365 Lighthouse 포털 보안을 구성하는 데 도움이 되는 필수 및 선택적 Microsoft 365 Lighthouse 함께 제공합니다.
+관리 서비스 공급자(MSP)가 테넌트에 대한 액세스 권한을 위임한 경우 고객 데이터에 대한 액세스를 보호하는 것이 사이버 보안 우선 순위입니다. Microsoft 365 Lighthouse 및 선택적 기능이 모두 제공되어 Lighthouse 포털 보안을 구성할 수 있습니다.
 
 ## <a name="set-up-multifactor-authentication-mfa"></a>MFA(다단계 인증) 설정
 
@@ -36,17 +36,17 @@ ms.locfileid: "53890998"
 
 > "암호는 중요하지 않지만 MFA는 중요하지 않습니다. 당사의 연구에 따르면 MFA를 사용하는 경우 계정이 손상될 가능성이 99.9%를 넘습니다."
 
-사용자가 Microsoft 365 Lighthouse 액세스하는 경우 사용자 계정이 아직 구성되지 않은 경우 MFA를 Microsoft 365 메시지가 표시됩니다. 사용자는 필수 MFA 설정 Microsoft 365 Lighthouse 완료할 때까지 사용자 액세스 권한을 부여할 수 없습니다. 인증 방법에 대한 자세한 내용은 다단계 인증에 Microsoft 365 로그인을 [참조합니다.](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
+사용자가 Lighthouse에 처음으로 액세스하는 경우 해당 Microsoft 365 계정이 아직 구성되지 않은 경우 MFA를 설정하라는 메시지가 표시됩니다. 사용자는 필수 MFA 설정 단계가 완료될 때까지 Lighthouse에 액세스할 수 없습니다. 인증 방법에 대한 자세한 내용은 다단계 인증에 Microsoft 365 로그인을 [참조합니다.](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
 
 ## <a name="set-up-roles-to-manage-customer-tenants"></a>고객 테넌트 관리를 위한 역할 설정
 
-고객 테넌트 데이터 및 설정에 대한 액세스는 Microsoft 365 Lighthouse CSP(클라우드 솔루션 공급자) 프로그램의 관리자 에이전트 및 헬프데스크 에이전트 역할로 제한됩니다.
+Lighthouse의 고객 테넌트 데이터 및 설정에 대한 액세스는 CSP(클라우드 솔루션 공급자) 프로그램의 관리자 에이전트 및 헬프데스크 에이전트 역할로 제한됩니다.
 
 [Azure AD -](https://portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) 모든 그룹 페이지에서 보안 그룹 구성원 자격을 검토하여 파트너 테넌트에 관리자 에이전트 및 헬프데스크 에이전트 역할이 있는 사용자를 확인할 수 있습니다. 사용자에게 CSP 프로그램 역할 및 기타 사용 권한을 할당하는 방법에 대한 자세한 내용은 사용자에게 역할 및 사용 권한 [할당을 참조합니다.](/partner-center/permissions-overview) MSP의 경우 고객 테넌트에 대한 액세스 권한을 위임하지 않은 경우 고객 서비스 또는 구독을 관리할 수 있는 사용 권한 얻기 문서에서 액세스 권한을 얻는 방법을 [배워야 합니다.](/partner-center/customers-revoke-admin-privileges)
 
-다음 표에는 다양한 Microsoft 365 Lighthouse 페이지와 관리자 에이전트 및 지원 센터 에이전트 역할에 대한 고객 테넌트 데이터 및 설정을 보고 해당 데이터에 대해 적용하는 데 필요한 권한이 나열되어 있습니다.<br><br>
+다음 표에는 다양한 Lighthouse 페이지와 관리자 에이전트 및 지원 센터 에이전트 역할에 대한 고객 테넌트 데이터 및 설정을 보고 이에 대한 권한을 나열합니다.<br><br>
 
-| Microsoft 365 Lighthouse 페이지 | 관리자 에이전트 권한 | 헬프데스크 에이전트 권한 |
+| Lighthouse 페이지 | 관리자 에이전트 권한 | 헬프데스크 에이전트 권한 |
 |--|--|--|
 | 홈 | <ul><li> 모두 보기</li></ul> | <ul><li> 모두 보기</li></ul> |
 | 테넌트 | <ul><li> 모두 보기</li><li>고객 연락처 및 웹 사이트 업데이트</li><li>배포 계획 보기 및 적용</li></ul> | <ul><li> 모두 보기</li><li>고객 연락처 및 웹 사이트 업데이트</li><li>배포 계획 보기</li></ul> |
@@ -84,8 +84,8 @@ MSP는 Azure AD PIM(Azure AD Privileged Identity Management 사용하여 보안 
 
 | 파트너 테넌트 역할 | 파트너 테넌트 내의 사용 권한 |
 |--|--|
-| 파트너 테넌트의 전역 관리자 | <ul><li>등록한 Microsoft 365 Lighthouse 등록할 Microsoft 365 관리 센터.</li><li>첫 실행 경험 동안 파트너 계약 수정을 수락합니다.</li><li>테넌트 페이지에서 고객 테넌트 보기.\*</li><li>테넌트 활성화 및 비활성화\*</li><li>고객 연락처 및 웹 사이트를 업데이트합니다.\*</li><li>태그를 만들고, 업데이트하고, 삭제합니다.\*</li><li>고객 테넌트에서 태그를 할당하고 제거합니다.\*</li></ul> |
-| 하나 이상의 파트너 테넌트 관리자<br> 다음 속성 집합을 사용하여 할당된 Azure AD 역할<br> **microsoft.office365.supportTickets/allEntities/allTasks**<br> (Azure AD 역할 목록은 Azure AD 기본 제공 [역할을 참조하세요.)](/azure/active-directory/roles/permissions-reference) | <ul><li>서비스 Microsoft 365 Lighthouse 만들기</li></ul> |
+| 파트너 테넌트의 전역 관리자 | <ul><li>2016년 8월에 Lighthouse에 Microsoft 365 관리 센터.</li><li>첫 실행 경험 동안 파트너 계약 수정을 수락합니다.</li><li>테넌트 페이지에서 고객 테넌트 보기.\*</li><li>테넌트 활성화 및 비활성화\*</li><li>고객 연락처 및 웹 사이트를 업데이트합니다.\*</li><li>태그를 만들고, 업데이트하고, 삭제합니다.\*</li><li>고객 테넌트에서 태그를 할당하고 제거합니다.\*</li></ul> |
+| 하나 이상의 파트너 테넌트 관리자<br> 다음 속성 집합을 사용하여 할당된 Azure AD 역할<br> **microsoft.office365.supportTickets/allEntities/allTasks**<br> (Azure AD 역할 목록은 Azure AD 기본 제공 [역할을 참조하세요.)](/azure/active-directory/roles/permissions-reference) | <ul><li>Lighthouse 서비스 요청을 생성합니다.</li></ul> |
 
 > [!NOTE]
 > 현재 표에 *로 표시된 작업을 수행하려면 전역 관리자가 관리자 에이전트 역할을 맡아야 합니다.

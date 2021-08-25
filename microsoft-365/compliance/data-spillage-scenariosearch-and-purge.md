@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: eDiscovery 및 검색 도구를 사용하여 조직의 데이터 유출 인시던트 관리 및 대응
-ms.openlocfilehash: 40addc161b40a4b9068fbe0c3041078086d21c6a
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 96cb6362149fe056249e7ffe2d6858785335a00c
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503134"
+ms.locfileid: "58508193"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오 - 검색 및 제거
 
@@ -172,7 +172,7 @@ eDiscovery 사례와 연결된 콘텐츠 검색을 만들 내용은 [Core eDisco
 
 ## <a name="step-7-permanently-delete-the-spilled-data"></a>7단계: 유출된 데이터를 영구적으로 삭제
 
-6단계에서 수집하고 준비한 사서함 위치와 3단계에서 작성 및 구체화한 검색 쿼리를 사용하여 유출된 데이터가 포함된 전자 메일 메시지를 찾으면 유출된 데이터를 영구적으로 삭제할 수 있습니다.  앞서 설명한 것 처럼 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원 또는 검색 및 제거 관리 역할이 할당되어야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](./assign-ediscovery-permissions.md)를 참조하세요.
+6단계에서 수집하고 준비한 사서함 위치와 3단계에서 작성 및 구체화한 검색 쿼리를 사용하여 유출된 데이터가 포함된 전자 메일 메시지를 찾으면 유출된 데이터를 영구적으로 삭제할 수 있습니다.  앞서 설명한 것 처럼 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원 또는 검색 및 제거 관리 역할이 할당되어야 합니다. 역할 그룹에 사용자를 추가하는 데 대한 자세한 내용은 [eDiscovery](./assign-ediscovery-permissions.md)사용 권한 할당을 참조하세요.
 
 유출된 메시지를 삭제하려면 전자 메일 메시지 검색 [및 삭제를 참조하세요.](search-for-and-delete-messages-in-your-organization.md)
 

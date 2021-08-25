@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 description: 365 Business 클라우드 PC의 설치 문제를 Windows 방법을 학습합니다.
 ms.date: 08/13/2021
-ms.openlocfilehash: 420046e063bbf12ad9c3dc4cbe9bf4dca289168a
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: b639453ef55960a3526fa8354dc95efb2653f9c5
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58357551"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507343"
 ---
 # <a name="troubleshoot-windows-365-business-cloud-pc-setup-issues"></a>365 Windows 클라우드 PC 설정 문제 해결
 
@@ -49,7 +49,7 @@ ms.locfileid: "58357551"
 
 ## <a name="step-2-verify-that-the-cloudpcbrt-system-account-is-active"></a>2단계. CloudPCBRT 시스템 계정이 활성 상태인지 확인
 
-조직에서 Windows 365 라이선스를 처음 할당하면 Azure AD에서 "CloudPCBPRT"라는 시스템 계정이 자동으로 만들어집니다. 이 계정을 삭제하지 않습니다. 시스템 계정이 삭제되면 설치가 실패합니다. 이 시스템 계정은 원활한 설치 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 조직에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 시스템 계정을 삭제하는 경우 새 지원 요청을 열어 복원해야 합니다.
+조직에서 Windows 365 라이선스를 처음 할당하면 Azure AD에서 "CloudPCBPRT"라는 시스템 계정이 자동으로 만들어집니다. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패합니다. 이 시스템 계정은 원활한 설치 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 조직에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 시스템 계정을 삭제하는 경우 새 지원 요청을 열어 복원해야 합니다.
 
 CloudPCBRT 시스템 계정이 Azure AD에서 활성 상태인지 확인하려면 다음 단계를 수행합니다.
 
@@ -105,7 +105,7 @@ Azure AD를 사용하여 디바이스를 가입하는 데 MFA(Multi-Factor Authe
 3. 구성 **페이지에서** **MDM** 사용자 범위 옆의  일부 또는 **모두를** 선택한 다음 저장을 **선택합니다.**
 4. 왼쪽 네비게이트의 관리에서 모바일(MDM 및  **MAM)을** 선택하고 Microsoft Intune 등록을 선택한 다음 3단계를 반복합니다. 
 
-또한 CloudPCBPRT 시스템 계정 및 클라우드 PC가 할당된 다른 사용자에게 Intune 라이선스를 할당해야 합니다.
+클라우드 PC가 할당된 사용자에게는 Intune 라이선스가 할당되어 있어야 합니다. CloudPCBPRT 시스템 계정에 Intune 라이선스를 할당할 필요가 없습니다.
 
 > [!IMPORTANT]
 > 라이선스를 할당하려면 전역 관리자 또는 라이선스 관리자 또는 라이선스 권한이 있는 역할이 있어야 합니다.

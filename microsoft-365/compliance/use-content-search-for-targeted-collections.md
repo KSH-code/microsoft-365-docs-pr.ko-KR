@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
 description: 검색 창의 콘텐츠 Microsoft 365 규정 준수 센터 사용하여 특정 사서함 또는 사이트 폴더의 항목을 검색하는 대상 컬렉션을 수행할 수 있습니다.
-ms.openlocfilehash: b165e52835165980da3621634ef29247a87490fe
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: fb7b6e9f1115aae64a2e0e2a3776acf535d71509
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257346"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508145"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>대상 컬렉션에 콘텐츠 검색 사용
 
@@ -35,7 +35,7 @@ Microsoft 365 규정 준수 센터 콘텐츠 검색 도구는 UI에서 특정 �
 
 ## <a name="before-you-run-a-targeted-collection"></a>대상 컬렉션을 실행하기 전에
 
-- 1단계에서 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
+- 1단계에서 스크립트를 실행하기 위해 Microsoft 365 규정 준수 센터 관리자 역할 그룹의 구성원이 되어야 합니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
 
 - 조직에서 Mail Recipients 역할도 할당해야 Exchange Online. 스크립트에 포함된 **Get-MailboxFolderStatistics** cmdlet을 실행하려면 이 작업을 실행해야 합니다. 기본적으로 Mail Recipients 역할은 조직의 조직 관리 및 받는 사람 관리 역할 그룹에 Exchange Online. 권한 할당에 대한 자세한 내용은 역할 Exchange Online 구성원 [관리를 참조하십시오.](/exchange/manage-role-group-members-exchange-2013-help) 사용자 지정 역할 그룹을 만들고 Mail Recipients 역할을 할당한 다음 1단계에서 스크립트를 실행해야 하는 구성원을 추가할 수도 있습니다. 자세한 내용은 [역할 그룹 관리](/Exchange/permissions-exo/role-groups) 항목을 참조하십시오.
 
@@ -75,7 +75,7 @@ Microsoft 365 규정 준수 센터 콘텐츠 검색 도구는 UI에서 특정 �
    #########################################################################################################
    # This PowerShell script will prompt you for:                                #
    #    * Admin credentials for a user who can run the Get-MailboxFolderStatistics cmdlet in Exchange    #
-   #      Online and who is an eDiscovery Manager in the Security & Compliance Center.            #
+   #      Online and who is an eDiscovery Manager in the Microsoft 365 compliance center.            #
    # The script will then:                                            #
    #    * If an email address is supplied: list the folders for the target mailbox.            #
    #    * If a SharePoint or OneDrive for Business site is supplied: list the documentlinks (folder paths) #
@@ -92,7 +92,7 @@ Microsoft 365 규정 준수 센터 콘텐츠 검색 도구는 UI에서 특정 �
    #########################################################################################################
    # Collect the target email address or SharePoint Url
    $addressOrSite = Read-Host "Enter an email address or a URL for a SharePoint or OneDrive for Business site"
-   # Authenticate with Exchange Online and the Security & Compliance Center (Exchange Online Protection - EOP)
+   # Authenticate with Exchange Online and the Microsoft 365 compliance center (Exchange Online Protection - EOP)
    if ($addressOrSite.IndexOf("@") -ige 0)
    {
       # List the folder Ids for the target mailbox

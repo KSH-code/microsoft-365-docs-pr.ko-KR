@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: adfe076160ca9499cace6807a0f5697a3055c1534bf4d88d57fd9337a130a575
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 44db65f08c84cdcce819773958881320d7c99705
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834362"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507785"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate(이전 Microsoft Flow) 및 Azure Functions
 
@@ -51,7 +51,7 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Flow 커넥터가
 
 1. [Microsoft](https://flow.microsoft.com)Power Automate 로그인합니다.
 
-2. Go to **My flows**  >  **New**  >  **Automated-from blank**.
+2. Go to **My flows** \> **New** \> **Automated-from blank**.
 
     ![자격 증명 편집 이미지2](images/api-flow-1.png)
 

@@ -14,12 +14,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f32e6be475ad61b83220a76527b625f2aa06580d6a181cdd8f8133eba2d27211
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: be5cbc03fa75d65d2c3fabbbf42594098d0d9d69
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898418"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507977"
 ---
 # <a name="evaluate-network-protection"></a>네트워크 보호 평가
 
@@ -51,24 +51,31 @@ ms.locfileid: "53898418"
 
 1. 선택한 Internet Explorer, Google Chrome 또는 기타 브라우저를 열 수 있습니다.
 
-1. [https://smartscreentestratings2.net](https://smartscreentestratings2.net)으로 이동합니다.
+2. [https://smartscreentestratings2.net](https://smartscreentestratings2.net)으로 이동합니다.
 
 네트워크 연결이 허용되고 테스트 메시지가 표시됩니다.
 
 ![연결 차단을 표시하는 알림의 예: IT 관리자가 이 네트워크 Windows 보안 차단했습니다. IT 지원 센터에 문의합니다.](images/np-notif.png)
+
+> [!NOTE]
+> 사이트가 네트워크 보호에 의해 차단된 경우에도 네트워크 연결이 성공할 수 있습니다. 자세한 내용은 네트워크 보호 및 [TCP 3차원 핸드세이크 를 참조합니다.](network-protection.md#network-protection-and-the-tcp-three-way-handshake)
 
 ## <a name="review-network-protection-events-in-windows-event-viewer"></a>이벤트 뷰어에서 Windows 이벤트 검토
 
 차단된 앱을 검토하려면 Microsoft-Windows-Windows-Defender/Operational 로그에서 이벤트 뷰어를 열고 이벤트 ID 1125를 필터링합니다. 다음 표에는 모든 네트워크 보호 이벤트가 나열됩니다.
 
 | 이벤트 ID | 제공/원본 | 설명 |
-|-|-|-|
-|5007 | Windows Defender(작동) | 설정이 변경될 때의 이벤트 |
-|1125 | Windows Defender(작동) | 네트워크 연결이 감사된 경우 이벤트 |
-|1126 | Windows Defender(작동) | 네트워크 연결이 차단된 경우 이벤트 |
+|---|---|---|
+| 5007 | Windows Defender(작동) | 설정이 변경될 때의 이벤트 |
+| 1125 | Windows Defender(작동) | 네트워크 연결이 감사된 경우 이벤트 |
+| 1126 | Windows Defender(작동) | 네트워크 연결이 차단된 경우 이벤트 |
 
 ## <a name="see-also"></a>참고 항목
 
-* [네트워크 보호](network-protection.md)
-* [네트워크 보호 사용](enable-network-protection.md)
-* [네트워크 보호 문제 해결](troubleshoot-np.md)
+- [네트워크 보호](network-protection.md)
+
+- [네트워크 보호 및 TCP 3차원 핸드세이크](network-protection.md#network-protection-and-the-tcp-three-way-handshake)
+
+- [네트워크 보호 사용](enable-network-protection.md)
+
+- [네트워크 보호 문제 해결](troubleshoot-np.md)

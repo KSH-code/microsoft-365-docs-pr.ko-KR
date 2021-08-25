@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: bc00136b3ca404efc2a39eb8cf7bac6dcbc84d2e
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: d3c29e5112a2cf68452bcb830681dac853eb8e1b
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502030"
+ms.locfileid: "58507689"
 ---
 # <a name="recommendation-resource-type"></a>권장 리소스 유형
 
@@ -36,41 +36,51 @@ ms.locfileid: "58502030"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 ## <a name="methods"></a>메서드
-메서드 |반환 형식 |설명
-:---|:---|:---
-[모든 권장 사항 목록](get-all-recommendations.md) | 추천 컬렉션 | 조직에 영향을 주는 모든 보안 권장 사항 목록을 검색합니다.
-[ID별 권장 사항 가져오기](get-recommendation-by-id.md) | 권장 사항 | ID로 보안 권장을 검색합니다.
-[권장 소프트웨어 다운로드](list-recommendation-software.md)| [소프트웨어](software.md) | 특정 소프트웨어와 관련된 보안 권장 검색
-[추천 장치 사용](get-recommendation-machines.md)|MachineRef 컬렉션 | 보안 권장과 연결된 장치 목록을 검색합니다.
-[권장 취약성 확인](get-recommendation-vulnerabilities.md) | [취약성](vulnerability.md) 컬렉션 | 보안 권장과 관련된 취약점 목록을 검색합니다.
 
+<br>
+
+****
+
+|메서드|반환 형식|설명|
+|---|---|---|
+|[모든 권장 사항 목록](get-all-recommendations.md)|추천 컬렉션|조직에 영향을 주는 모든 보안 권장 사항 목록을 검색합니다.|
+|[ID별 권장 사항 가져오기](get-recommendation-by-id.md)|권장 사항|ID로 보안 권장을 검색합니다.|
+|[권장 소프트웨어 다운로드](list-recommendation-software.md)|[소프트웨어](software.md)|특정 소프트웨어와 관련된 보안 권장 검색|
+|[추천 장치 사용](get-recommendation-machines.md)|MachineRef 컬렉션|보안 권장과 연결된 장치 목록을 검색합니다.|
+|[권장 취약성 확인](get-recommendation-vulnerabilities.md)|[취약성](vulnerability.md) 컬렉션|보안 권장과 관련된 취약점 목록을 검색합니다.|
+|
 
 ## <a name="properties"></a>속성
-속성 |   유형   |   설명
-:---|:---|:---
-id | String | 권장 ID
-productName | String | 관련 소프트웨어 이름  
-recommendationName | String | 권장 이름
-약점 | Long | 검색된 취약성 수
-공급업체 | String | 관련 공급업체 이름
-recommendedVersion | String | 권장 버전
-recommendedProgram | String | 권장 프로그램
-recommendedVendor | String | 권장 공급업체
-recommendationCategory | String | 권장 범주. 가능한 값은 "계정", "응용 프로그램", "네트워크", "OS", "SecurityControls"입니다.
-subCategory | String | 권장 하위 범주
-severityScore | 실수 | 구성이 조직의 장치에 대한 Microsoft 보안 점수에 미치는 잠재적인 영향(1-10)
-publicExploit | 부울 | 공용 악용 사용 가능 
-activeAlert | 부울 | 활성 경고가 이 권장과 연결됩니다.
-associatedThreats | 문자열 컬렉션 | 위협 분석 보고서가 이 권장과 연결됩니다.
-remediationType | String | 수정 유형입니다. 가능한 값은 "ConfigurationChange","Update","Upgrade","Uninstall"입니다.
-상태 | Enum | 권장 예외 상태입니다. 가능한 값은 "Active" 및 "Exception"입니다.
-configScoreImpact | 실수 | 장치에 대한 Microsoft 보안 점수 영향
-exposureImpact | 실수 | 노출 점수 영향
-totalMachineCount | Long | 설치된 장치 수
-exposedMachinesCount | Long | 취약성에 노출되는 설치된 장치 수
-nonProductivityImpactedAssets | Long | 영향을 받지 않는 장치 수  
-relatedComponent | String |  관련 소프트웨어 구성 요소
+
+<br>
+
+****
+
+|속성|유형|설명|
+|---|---|---|
+|id|String|권장 ID|
+|productName|String|관련 소프트웨어 이름|
+|recommendationName|String|권장 이름|
+|약점|Long|검색된 취약성 수|
+|공급업체|String|관련 공급업체 이름|
+|recommendedVersion|String|권장 버전|
+|recommendedProgram|String|권장 프로그램|
+|recommendedVendor|String|권장 공급업체|
+|recommendationCategory|String|권장 범주. 가능한 값은 "계정", "응용 프로그램", "네트워크", "OS", "SecurityControls"입니다.|
+|subCategory|String|권장 하위 범주|
+|severityScore|실수|구성이 조직의 장치에 대한 Microsoft 보안 점수에 미치는 잠재적인 영향(1-10)|
+|publicExploit|부울|공용 악용 사용 가능|
+|activeAlert|부울|활성 경고가 이 권장과 연결됩니다.|
+|associatedThreats|문자열 컬렉션|위협 분석 보고서가 이 권장과 연결됩니다.|
+|remediationType|String|수정 유형입니다. 가능한 값은 "ConfigurationChange","Update","Upgrade","Uninstall"입니다.|
+|상태|Enum|권장 예외 상태입니다. 가능한 값은 "Active" 및 "Exception"입니다.|
+|configScoreImpact|실수|장치에 대한 Microsoft 보안 점수 영향|
+|exposureImpact|실수|노출 점수 영향|
+|totalMachineCount|Long|설치된 장치 수|
+|exposedMachinesCount|Long|취약성에 노출되는 설치된 장치 수|
+|nonProductivityImpactedAssets|Long|영향을 받지 않는 장치 수|
+|relatedComponent|String|관련 소프트웨어 구성 요소|
+|

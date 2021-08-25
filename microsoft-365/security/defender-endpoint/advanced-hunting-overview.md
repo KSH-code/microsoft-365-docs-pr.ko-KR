@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c824afa68b42639a82d46d70f13f4a70b266a0492f1d41ebf463cb7975bff7f7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4d52fe03786e4fff94ca08fdc7e5c7951a0d6e33
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829870"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58506510"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>고급 헌팅을 통해 위협을 사전 대응
 
@@ -61,13 +61,12 @@ ms.locfileid: "53829870"
 |**쿼리 결과 사용 방법 학습**|결과를 보거나 내보낼 수 있는 차트 및 다양한 방법에 대해 자세히 알아보습니다. 보다 풍부한 정보를 얻을 수 있도록 쿼리를 빠르게 조정하고 드릴다운하는 방법을 살펴보아야 합니다.|[쿼리 결과로 작업](advanced-hunting-query-results.md)|
 |**스키마의 이해**|스키마와 해당 열에 있는 테이블에 대한 이해를 높이세요. 쿼리를 구성할 때 데이터를 검색할 위치를 학습합니다.|[스키마 참조](advanced-hunting-schema-reference.md)|
 |**미리 정의된 쿼리 사용**|다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다.|[공유 쿼리](advanced-hunting-shared-queries.md)|
-|**쿼리 최적화 및 오류 처리**|효율적이고 오류가 없는 쿼리를 만드는 방법을 이해합니다.|- [쿼리 모범 사례](advanced-hunting-best-practices.md)<br>- [오류 처리](advanced-hunting-errors.md)|
-|**가장 완전한 적용 범위 얻기**|감사 설정을 사용하여 조직에 더 나은 데이터 범위를 제공합니다.|- [고급 헌팅 범위 확장](advanced-hunting-extend-data.md)|
-|**빠른 조사 실행**|고급 헌팅 쿼리를 빠르게 실행하여 의심스러운 활동을 조사합니다.|- [이동 헌트로 엔터티 또는 이벤트 정보를 빠르게 *헌팅*](advanced-hunting-go-hunt.md)|
-|**위협 및 해결 손상 포함**|파일을 검색하고, 앱 실행을 제한하고, 기타 작업을 수행하여 공격에 대응|- [고급 헌팅 쿼리 결과에 대한 작업 수행](advanced-hunting-take-action.md)|
-|**사용자 지정 검색 규칙 만들기**|고급 헌팅 쿼리를 사용하여 경고를 트리거하고 응답 작업을 자동으로 수행할 수 있는 방법을 이해합니다.|- [사용자 지정 검색 개요](overview-custom-detections.md)<br>- [사용자 지정 검색 규칙](custom-detection-rules.md)|
+|**쿼리 최적화 및 오류 처리**|효율적이고 오류가 없는 쿼리를 만드는 방법을 이해합니다.|[쿼리 모범 사례](advanced-hunting-best-practices.md) <p> [오류 처리](advanced-hunting-errors.md)|
+|**가장 완전한 적용 범위 얻기**|감사 설정을 사용하여 조직에 더 나은 데이터 범위를 제공합니다.|[고급 헌팅 범위 확장](advanced-hunting-extend-data.md)|
+|**빠른 조사 실행**|고급 헌팅 쿼리를 빠르게 실행하여 의심스러운 활동을 조사합니다.|[이동 헌트로 엔터티 또는 이벤트 정보를 빠르게 *헌팅*](advanced-hunting-go-hunt.md)|
+|**위협 및 해결 손상 포함**|파일을 검색하고, 앱 실행을 제한하고, 기타 작업을 수행하여 공격에 대응|[고급 헌팅 쿼리 결과에 대한 작업 수행](advanced-hunting-take-action.md)|
+|**사용자 지정 검색 규칙 만들기**|고급 헌팅 쿼리를 사용하여 경고를 트리거하고 응답 작업을 자동으로 수행할 수 있는 방법을 이해합니다.|[사용자 지정 검색 개요](overview-custom-detections.md) <p> [사용자 지정 검색 규칙](custom-detection-rules.md)|
 |
-
 
 ## <a name="data-freshness-and-update-frequency"></a>데이터 최신성 및 업데이트 빈도
 

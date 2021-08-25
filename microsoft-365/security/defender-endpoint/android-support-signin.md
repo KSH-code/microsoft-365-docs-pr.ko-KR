@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2ed53a3e8feb9531e4cb75bc9531718d33528870
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 38f7ff40416835e9908757456520f0a90a745dfd
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58246398"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508277"
 ---
-# <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Android의 끝점용 Microsoft Defender 문제 해결
+# <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Android의 엔드포인트용 Microsoft Defender 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,9 +38,10 @@ ms.locfileid: "58246398"
 
 등록하는 동안 장치에 앱을 설치한 후 로그인 문제가 발생할 수 있습니다.
 
-이 문서에서는 로그인 문제를 해결하기 위한 해결법을 제공합니다.  
+이 문서에서는 로그인 문제를 해결하기 위한 해결법을 제공합니다.
 
 ## <a name="sign-in-failed---unexpected-error"></a>로그인 실패 - 예기치 않은 오류
+
 **로그인 실패:** *예기치 않은 오류, 나중에 시도*
 
 ![로그인 실패 오류의 이미지 예기치 않은 오류](images/f9c3bad127d636c1f150d79814f35d4c.png)
@@ -81,12 +82,11 @@ Google Play 스토어에서 최신 [Microsoft Authenticator](https://play.google
 
 **다음에 적용됩니다.** 특정 OEM만
 
--   **Xiaomi**
+- **Xiaomi**
 
 Android용 끝점용 Defender에서 감지한 피싱 및 유해한 웹 위협은 일부 Xiaomi 장치에서 차단되지 않습니다. 이러한 장치에서는 다음 기능이 작동하지 않습니다.
 
 ![안전하지 않은 것으로 보고된 사이트의 이미지](images/0c04975c74746a5cdb085e1d9386e713.png)
-
 
 **원인:**
 
@@ -102,39 +102,41 @@ Xiaomi 디바이스에 대해 필요한 권한을 사용하도록 설정
 
 - 백그라운드에서 실행되는 동안 팝업 창을 표시합니다.
 
-
 ## <a name="unable-to-allow-permission-for-permanent-protection-during-onboarding-on-some-oem-devices"></a>일부 OEM 장치에서 온보드하는 동안 '영구 보호'에 대한 사용 권한을 허용할 수 없습니다.
 
 **다음에 적용됩니다.** 특정 OEM 장치만 해당합니다.
 
--   **Xiaomi with Android 11** 
+- **Xiaomi with Android 11**
 
 Defender 앱은 앱 온보딩의 일부로 디바이스에 배터리 최적화/영구 보호  권한을 요청하고 허용을 선택하면 권한을 설정할 수 없는 오류가 반환됩니다. "영구 보호"라는 마지막 권한에만 영향을 미치게 됩니다. 
- 
-**원인:** Xiomi는 Android 11에서 배터리 최적화 권한을 변경했습니다. Defender는 배터리 최적화를 무시하도록 이 설정을 구성할 수 없습니다.
 
-**해결 방법:** OEM과 협력하여 앱 온보더링 화면에서 이 권한을 사용하도록 설정하는 솔루션을 찾고 있습니다. 이 문제가 해결되면 설명서를 업데이트할 것입니다.
+**원인:**
+
+Xiomi는 Android 11에서 배터리 최적화 권한을 변경했습니다. Defender는 배터리 최적화를 무시하도록 이 설정을 구성할 수 없습니다.
+
+**해결 방법:**
+
+OEM과 협력하여 앱 온보더링 화면에서 이 권한을 사용하도록 설정하는 솔루션을 찾고 있습니다. 이 문제가 해결되면 설명서를 업데이트할 것입니다.
 사용자는 다음 단계에 따라 장치 설정에서 동일한 사용 권한을 사용하도록 설정할 수 있습니다. 
 
 1. 디바이스에서 **설정** 로 이동하세요.
-   
+
 2. 배터리 **최적화를 검색하고 선택합니다.**
-   
+
    !["배터리 최적화"를 검색하고 선택합니다.](images/search-battery-optimisation.png)
 
 3. 특수 **앱 액세스에서** 배터리 **최적화를 선택합니다.**
-   
+
    ![특수 앱 액세스에서 "배터리 최적화"를 선택합니다.](images/special-app-access.png)
 
 4. 드롭다운을 변경하여 모든 **앱을 표시하세요.**
 
-   ![드롭다운을 변경하여 "모든 앱"을 표시하세요.](images/show-all-apps-2.png)
+   ![드롭다운을 변경하여 "모든 앱"을 표시하는 1단계.](images/show-all-apps-2.png)
 
-   ![드롭다운을 변경하여 "모든 앱"을 표시하세요.](images/show-all-apps-1.png)
+   !["모든 앱"을 표시하기 위해 드롭다운을 변경하는 2단계.](images/show-all-apps-1.png)
 
 5. "Microsoft Defender 끝점"을 찾은 다음 **최적화 안 를 선택합니다.**
 
    !["Microsoft Defender Endpoint"를 찾은 다음 "낙관하지 않습니다."를 선택합니다.](images/select-dont-optimise.png)
-
 
 Microsoft Defender 끝점 온보딩 화면으로 돌아가서 허용 을 선택하면 대시보드 화면으로 리디렉션됩니다.

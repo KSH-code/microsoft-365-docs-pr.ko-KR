@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 감사 로그 레코드를 내보내고 구성하고 보는 Microsoft 365 있습니다.
-ms.openlocfilehash: 14bdd1a8a2576f622c4be63f463e5d42111fc02cd518cf488a8e4df5d39b1241
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cf35f1936cebf9d3d8ba89d39f18a4977835f954
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53905789"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507917"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>감사 로그 레코드 내보내기, 구성 및 보기
 
@@ -104,7 +104,7 @@ ms.locfileid: "53905789"
 
 ## <a name="use-powershell-to-search-and-export-audit-log-records"></a>PowerShell을 사용하여 감사 로그 레코드 검색 및 내보내기
 
-보안 & 준수 센터의 감사 로그 검색 도구를 사용하는 대신 Exchange Online PowerShell에서 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) cmdlet을 사용하여 감사 로그 검색 결과를 CSV 파일로 내보낼 수 있습니다. 그런 다음 2단계에 설명된 절차에 따라 Power Query 편집기를 사용하여 감사 로그의 형식을 지정합니다. PowerShell cmdlet을 사용할 때의 한 가지 이점은 *RecordType* 매개 변수를 사용하여 특정 서비스에서 이벤트를 검색할 수 있는 것입니다. 다음은 PowerShell을 사용하여 감사 레코드를 CSV 파일로 내보내는 몇 가지 예로, Power Query 편집기를 사용하여 2단계에 설명된 바와 같이 **AuditData** 열의 JSON 개체를 변환할 수 있습니다.
+Microsoft 365 규정 준수 센터 감사 로그 검색 도구를 사용하는 대신 Exchange Online PowerShell에서 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) cmdlet을 사용하여 감사 로그 검색 결과를 CSV 파일로 내보낼 수 있습니다. 그런 다음 2단계에 설명된 절차에 따라 Power Query 편집기를 사용하여 감사 로그의 형식을 지정합니다. PowerShell cmdlet을 사용할 때의 한 가지 이점은 *RecordType* 매개 변수를 사용하여 특정 서비스에서 이벤트를 검색할 수 있는 것입니다. 다음은 PowerShell을 사용하여 감사 레코드를 CSV 파일로 내보내는 몇 가지 예로, Power Query 편집기를 사용하여 2단계에 설명된 바와 같이 **AuditData** 열의 JSON 개체를 변환할 수 있습니다.
 
 이 예제에서는 다음 명령을 실행하여 공유 작업과 관련된 SharePoint 반환합니다.
 
@@ -136,4 +136,4 @@ $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | 
 
 - **RecordType 열을 필터링하여** 특정 서비스 또는 기능 영역의 레코드만 표시합니다. 예를 들어 SharePoint 공유와 관련된 이벤트를 표시하려면 **14(공유** 활동에서 트리거된 레코드의 열 SharePoint 선택합니다. **RecordType** 열에 표시되는 열 열 값에 해당하는 서비스 목록은 감사 로그의 [자세한 속성을 참조하세요.](detailed-properties-in-the-office-365-audit-log.md)
 
-- 작업 **열을 필터링하여** 특정 작업에 대한 레코드를 표시합니다. 보안 & 준수 센터의 감사 로그 검색 도구에서 검색 가능한 작업에 해당하는 대부분의 작업 목록은 보안 및 준수 센터에서 감사 로그 검색의 ["감사된 활동" 섹션을 & 참조하세요.](search-the-audit-log-in-security-and-compliance.md#audited-activities)
+- 작업 **열을 필터링하여** 특정 작업에 대한 레코드를 표시합니다. 감사 로그 검색 도구의 감사 로그 검색 도구에서 검색 가능한 작업에 해당하는 대부분의 작업 Microsoft 365 규정 준수 센터 감사 로그 검색의 "감사된 활동" [섹션을 참조하세요.](search-the-audit-log-in-security-and-compliance.md#audited-activities)

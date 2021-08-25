@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 19ef2336983f315af5731fc1cf166ffef4a014bd5c9ddcb660e8cb90ef040e03
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0e64ccef09af6a8ab9ff3f798a0754a605a7f122
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53847709"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507749"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>사용자 지정 보고서를 사용하여 Power BI
 
@@ -47,7 +47,7 @@ ms.locfileid: "53847709"
 
 - Microsoft Power BI
 
-- 데이터 **빈 쿼리**  >  **다운로드를 클릭합니다.**
+- 데이터 **빈 쿼리** \> **다운로드를 클릭합니다.**
 
   ![빈 쿼리 만들기 이미지](images/power-bi-create-blank-query.png)
 
@@ -101,7 +101,7 @@ ms.locfileid: "53847709"
 
     ![자격 증명 편집 이미지0](images/power-bi-edit-credentials.png)
 
-- 조직 **계정 로그인**  >  **선택**
+- 조직 **계정 로그인** \> **선택**
 
     ![자격 증명 설정 이미지1](images/power-bi-set-credentials-organizational.png)
 

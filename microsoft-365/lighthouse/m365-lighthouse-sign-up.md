@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 서비스 공급자에 등록하는 Microsoft 365 Lighthouse.
-ms.openlocfilehash: 60d78f243c757596aa5b3d493d0b79848ebe033a109858e8fd8fbd7ae6bf5f9c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 80e56055a89d73f53c025de05dfc1e8dabedda78
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53877794"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507893"
 ---
 # <a name="sign-up-for-microsoft-365-lighthouse"></a>등록을 Microsoft 365 Lighthouse
 
@@ -49,16 +49,16 @@ ms.locfileid: "53877794"
 1. 구입을 **선택합니다.**
 
     > [!NOTE]
-    > Microsoft 365 Lighthouse 테넌트에 대해 하나의 라이선스만 필요합니다. 파트너에 대해 추가 사용자당 라이선스가 필요하지 않습니다. Microsoft 365 Lighthouse 테넌트에는 라이선스가 필요하지 않습니다. 
+    > Lighthouse에는 파트너 테넌트에 한 라이선스만 필요합니다. 파트너에는 추가 사용자당 라이선스가 필요하지 않습니다. 또한 고객 테넌트에는 Lighthouse 라이선스가 필요하지 않습니다. 
 
-    테넌트에 Microsoft 365 Lighthouse 성공적으로 추가 는 Microsoft 365 Lighthouse 청구 > 제품에서  Microsoft 365 관리 센터.
+    Lighthouse가 테넌트에 성공적으로 추가 는 확인을 위해  Microsoft 365 Lighthouse 청구 > 제품에서 Microsoft 365 관리 센터.
 
-1. 사이트 포털로 리디렉션되지 Microsoft 365 Lighthouse 로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2168110" target="_blank">https://lighthouse.microsoft.com</a> 이동합니다.
+1. Lighthouse 포털로 리디렉션되지 않은 경우 로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2168110" target="_blank">https://lighthouse.microsoft.com</a> 합니다.
 
 1. 파트너 **& 수정을** 완료하려면 동의를 선택합니다.
 
     > [!NOTE]
-    > 등록을 완료한 후 고객 데이터가 등록 시 최대 48시간까지 걸릴 Microsoft 365 Lighthouse.
+    > 등록을 완료한 후 고객 데이터가 Lighthouse에 표시될 때 최대 48시간이 걸릴 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

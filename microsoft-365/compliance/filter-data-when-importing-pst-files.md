@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 ms.custom: seo-marvel-apr2020
 description: PST 파일을 가져올 때 Microsoft 365 가져오기 서비스의 지능형 가져오기 기능을 사용하여 데이터를 필터링하는 방법을 Microsoft 365.
-ms.openlocfilehash: e7faa346e78e74246264b0751a4f8648b42aca22b0465c9bb75382136dd6b736
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7f56f80f635013e785918406c3edbc64621223c2
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895573"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508049"
 ---
 # <a name="filter-data-when-importing-pst-files"></a>PST 파일을 가져올 때 데이터 필터링
 
@@ -56,7 +56,7 @@ Microsoft 365 가져오기 서비스의 새로운 지능형 가져오기 기능�
     
   - [드라이브 배송을 사용하여 Office 365로 PST 파일 가져오기](use-drive-shipping-to-import-pst-files-to-office-365.md)
     
-- 네트워크 업로드를 사용하여 가져오기 작업을 만든 후 보안 & 준수 센터의 가져오기 페이지에서 가져오기 작업의 상태가 Analysis **in progress로** 설정됩니다. 즉, Microsoft 365 PST 파일에서 데이터를 분석하고 있습니다. 새로 **고침을** ![ 클릭하여 ](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) 가져오기 작업의 상태를 업데이트합니다. 
+- 네트워크 업로드를 사용하여 가져오기 작업을 만든 후 Microsoft 365 규정 준수 센터 페이지의 가져오기 작업의 상태가 Analysis **in progress로** 설정됩니다. 즉, Microsoft 365 PST 파일에서 데이터를 분석하고 있습니다. 새로 **고침을** ![ 클릭하여 ](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) 가져오기 작업의 상태를 업데이트합니다. 
     
 - 드라이브 배송 가져오기 작업의 경우 Microsoft Microsoft 365 직원이 하드 드라이브를 받고 PST 파일을 조직의 Azure 저장소 영역에 업로드한 후 데이터를 분석합니다.
   

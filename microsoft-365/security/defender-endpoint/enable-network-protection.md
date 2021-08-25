@@ -14,12 +14,12 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b81752cbc77f4be2025d0f4d90699cbfd1facbf0
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 1ba3c958c4a532976c8cb3c878ea4d116cf9a94c
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58248006"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507869"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 
@@ -131,5 +131,9 @@ ms.locfileid: "58248006"
 ## <a name="see-also"></a>참고 항목
 
 - [네트워크 보호](network-protection.md)
+
+- [네트워크 보호 및 TCP 3차원 핸드세이크](network-protection.md#network-protection-and-the-tcp-three-way-handshake)
+
 - [네트워크 보호 평가](evaluate-network-protection.md)
+
 - [네트워크 보호 문제 해결](troubleshoot-np.md)

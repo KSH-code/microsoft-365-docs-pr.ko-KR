@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 84a2cba9c2711be8812ee25d38c7c3eb19746e346e5c475270a42ff55c7645dd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a31da45e56adc8838ed85df338e423070aac1a15
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873718"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507665"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
@@ -33,8 +33,7 @@ ms.locfileid: "53873718"
 > [!TIP]
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
-
-네트워크 [보호를 사용하는 경우](network-protection.md) 다음과 같은 문제가 발생할 수 있습니다.
+이 문서에서는 네트워크 보호 에 대한 문제 해결 정보를 [제공합니다.](network-protection.md)예:
 
 - 네트워크 보호는 안전한 웹 사이트(가음성)를 차단합니다.
 - 네트워크 보호가 의심스나 알려진 악성 웹 사이트(거짓 부정)를 차단하지 못합니다.
@@ -128,6 +127,11 @@ PowerShell, 그룹 정책 또는 그룹 정책을 사용하여 Microsoft Endpoin
 ## <a name="see-also"></a>참고 항목
 
 - [네트워크 보호](network-protection.md)
+
+- [네트워크 보호 및 TCP 3차원 핸드세이크](network-protection.md#network-protection-and-the-tcp-three-way-handshake)
+
 - [네트워크 보호 평가](evaluate-network-protection.md)
+
 - [네트워크 보호 사용](enable-network-protection.md)
+
 - [끝점용 Defender에서 가짓 긍정/음수 해결](defender-endpoint-false-positives-negatives.md)

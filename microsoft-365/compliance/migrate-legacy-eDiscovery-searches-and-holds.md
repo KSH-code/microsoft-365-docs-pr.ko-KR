@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 0867e2b28bc693d50d5d79f4ba8e0a8cb89578d76853584f28c3db65ee7b692a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e1b1291d7c005f7cded635190ee67658250f3d0e
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885670"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508001"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>레거시 eDiscovery 검색 및 보류를 Microsoft 365 규정 준수 센터
 
@@ -32,7 +32,7 @@ ms.locfileid: "53885670"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 이 문서에 설명된 PowerShell 명령을 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 또한 Exchange 관리 센터에서 검색 관리 역할 그룹의 구성원이 되어야 합니다.
+- 이 문서에 설명된 PowerShell 명령을 실행하기 위해 Microsoft 365 규정 준수 센터 관리자 역할 그룹의 구성원이 되어야 합니다. 또한 Exchange 관리 센터에서 검색 관리 역할 그룹의 구성원이 되어야 합니다.
 
 - 이 문서에서는 eDiscovery 보류를 만드는 방법에 대한 지침을 제공합니다. 보류 정책은 비동기 프로세스를 통해 사서함에 적용됩니다. eDiscovery 보류를 만들 때 CaseHoldPolicy 및 CaseHoldRule을 모두 만들어야 합니다. 그렇지 않으면 보류가 만들어지지 않고 콘텐츠 위치가 보류되지 않습니다.
 

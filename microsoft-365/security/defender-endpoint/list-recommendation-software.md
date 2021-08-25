@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 64efe4f7e0c4b022c300d3e52551f64b73fcae20
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 488450f43de17904cbcac97e2aceaf11f1e12f17
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258449"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507593"
 ---
 # <a name="list-software-by-recommendation"></a>권장에 의해 소프트웨어 나열
 
@@ -46,7 +46,7 @@ ms.locfileid: "58258449"
 
 사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램|SecurityRecommendation.Read.All|'위협 및 취약성 관리 보안 권장 정보 읽기'
+응용 프로그램|Software.Read.All|'위협 및 취약성 관리 소프트웨어 정보 읽기'
 위임(직장 또는 학교 계정)|SecurityRecommendation.Read|'위협 및 취약성 관리 보안 권장 정보 읽기'
 
 ## <a name="http-request"></a>HTTP 요청

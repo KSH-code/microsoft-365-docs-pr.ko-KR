@@ -12,22 +12,22 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: In-Place, 소송 보존 및 Microsoft 365 보존 정책을 사용하면 규정 준수 및 eDiscovery 요구 사항을 충족하기 위해 사서함 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: 80481a5b7c85167742e79c86c6d60e52f80aa0e4b1dd9b128e7ce188f5ddf09a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4d72233a6026ac493de1cd551c0b4908d200815f
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891814"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508205"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
   
-In-Place, 소송 보존 및 Microsoft 365 보존 [](./retention.md) 정책(보안 & 준수 센터에서 생성)을 사용하면 규정 준수 및 eDiscovery 요구 사항을 충족하기 위해 사서함 콘텐츠를 보존할 수 있습니다. 메시지의 받는 사람 및Cc 필드에서 직접 주소가 지정되는 받는 사람에 대한 정보는 기본적으로 모든 메시지에 포함됩니다. 그러나 조직에서 메시지의 모든 받는 사람에 대한 세부 정보를 검색하고 재현하는 기능을 필요로 할 수 있습니다. 여기에는 다음이 포함됩니다.
+소송 보존, eDiscovery 보류 및 [](./retention.md) Microsoft 365 보존 정책(Microsoft 365 규정 준수 센터)을 사용하면 규정 준수 및 eDiscovery 요구 사항을 충족하기 위해 사서함 콘텐츠를 보존할 수 있습니다. 메시지의 받는 사람 및Cc 필드에서 직접 주소가 지정되는 받는 사람에 대한 정보는 기본적으로 모든 메시지에 포함됩니다. 그러나 조직에서 메시지의 모든 받는 사람에 대한 세부 정보를 검색하고 재현하는 기능을 필요로 할 수 있습니다. 여기에는 다음이 포함됩니다.
   
 - **메시지의 Bcc 필드를 사용하여 주소가 있는 받는 사람:** Bcc 받는 사람은 보낸 사람의 사서함에 메시지에 저장되지만 받는 사람에게 배달된 메시지의 헤더에는 포함되지 않습니다. 
     
 - **확장된 메일 그룹 받는 사람:** 받는 사람,Cc 또는 Bcc 필드에서 메시지가 주소가 있는 메일 그룹의 구성원이기 때문에 메시지를 받는 사람입니다. 
     
-Exchange Online 및 Exchange Server 2013(누적 업데이트 7 이상 버전)에는 Bcc 및 확장된 메일 그룹 받는 사람에 대한 정보가 유지됩니다. EAC(Exchange 관리 센터)에서 In-Place eDiscovery 검색 또는 보안 및 준수 센터의 콘텐츠 검색을 사용하여 이 & 검색할 수 있습니다. 
+Exchange Online 및 Exchange Server 2013(누적 업데이트 7 이상 버전)에는 Bcc 및 확장된 메일 그룹 받는 사람에 대한 정보가 유지됩니다. eDiscovery 도구를 사용하여 이 정보를 검색할 수 Microsoft 365 규정 준수 센터. 
   
 ## <a name="how-bcc-recipients-and-expanded-distribution-group-recipients-are-preserved"></a>Bcc 받는 사람 및 확장된 메일 그룹 받는 사람을 보존하는 방법
 
@@ -58,7 +58,7 @@ Exchange Online 및 Exchange Server 2013(누적 업데이트 7 이상 버전)에
    
 시나리오 2: Bob은 John(To/Cc) 및 잭(Bcc 직접 또는 메일 그룹을 통해 간접적으로)에게 전자 메일을 전송합니다. 아래 표에는 eDiscovery 검색 결과가 표시됩니다.
   
-| 검색할 때... | 보낸 메시지의 경우... | 결과에 메시지가 포함되어 있나요? | 메모 |
+| 검색할 때... | 보낸 메시지의 경우... | 결과에 메시지가 포함되어 있나요? | 참고 |
 |:-----|:-----|:-----|:-----|
 |Bob의 사서함  <br/> |To/Cc:John  <br/> |예  <br/> |잭이 Bcc'ed인 표시를 제공합니다.  <br/> |
 |Bob의 사서함  <br/> |Bcc:Jack  <br/> |예  <br/> |잭이 Bcc'ed인 표시를 제공합니다.  <br/> |

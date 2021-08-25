@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c2758fd51d88be2447ae6ea63ca9ff3f7349ca2f
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 4027d31cd66a783b6bb83742912f94a3a017c74a
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247342"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508073"
 ---
 # <a name="understand-the-client-analyzer-html-report"></a>클라이언트 분석기 HTML 보고서 이해
 
@@ -40,17 +40,14 @@ ms.locfileid: "58247342"
 
 ![클라이언트 분석기 결과의 이미지](images/147cbcf0f7b6f0ff65d200bf3e4674cb.png)
 
--   맨 위에 참조를 위해 스크립트 버전 및 스크립트 런타임이 나열됩니다.
+- 맨 위에 참조를 위해 스크립트 버전 및 스크립트 런타임이 나열됩니다.
+- 장치 **정보 섹션에서는** 분석기가 실행된 장치를 고유하게 식별하는 기본 OS 및 장치 식별자를 제공합니다.
+- **Endpoint 보안 세부 정보는** 끝점 및 센서 프로세스를 포함하여 끝점 관련 프로세스에 대한 Microsoft Defender에 Microsoft Defender 바이러스 백신 정보를 제공합니다. 중요한 프로세스가 온라인이 아닌 경우 색이 빨강으로 변경됩니다.
 
--   장치 **정보 섹션에서는** 분석기가 실행된 장치를 고유하게 식별하는 기본 OS 및 장치 식별자를 제공합니다.
+  ![클라이언트 분석기 자세한 결과의 이미지](images/85f56004dc6bd1679c3d2c063e36cb80.png)
 
--   **Endpoint 보안 세부 정보는** 끝점 및 센서 프로세스를 포함하여 끝점 관련 프로세스에 대한 Microsoft Defender에 Microsoft Defender 바이러스 백신 정보를 제공합니다. 중요한 프로세스가 온라인이 아닌 경우 색이 빨강으로 변경됩니다.
-
-![클라이언트 분석기 자세한 결과의 이미지](images/85f56004dc6bd1679c3d2c063e36cb80.png)
-
--   결과 **확인 요약에서** 분석기에서 검색된 오류, 경고 또는 정보 이벤트에 대한 집계된 수를 하게 됩니다.
-
--   자세한 **결과에는** 결과가 있는 목록(심각도별로 정렬)과 분석기에서 관찰한 결과를 기반으로 하는 지침이 표시됩니다.
+- 결과 **확인 요약에서** 분석기에서 검색된 오류, 경고 또는 정보 이벤트에 대한 집계된 수를 하게 됩니다.
+- 자세한 **결과에는** 결과가 있는 목록(심각도별로 정렬)과 분석기에서 관찰한 결과를 기반으로 하는 지침이 표시됩니다.
 
 ## <a name="open-a-support-ticket-to-microsoft-and-include-the-analyzer-results"></a>Microsoft에 대한 지원 티켓을 열고 분석기 결과 포함
 

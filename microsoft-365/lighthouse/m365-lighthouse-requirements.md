@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 서비스 공급자를 사용하기 위한 요구 사항 목록을 Microsoft 365 Lighthouse.
-ms.openlocfilehash: 1d2f2812e2f22060c2e401519f18ae8dc6f1959993ef7703fa1a9add69e9ae14
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2247afb35e3b0e4757d7a6786b3a6a9027491e06
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53847958"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507809"
 ---
 # <a name="requirements-for-microsoft-365-lighthouse"></a>요구 사항 Microsoft 365 Lighthouse
 
@@ -30,9 +30,9 @@ ms.locfileid: "53847958"
 
 Microsoft 365 Lighthouse SMB(관리 서비스 공급자)가 중소기업 고객을 위해 대규모로 장치, 데이터 및 사용자를 보호하고 관리하는 데 도움이 되는 관리 포털입니다.  
 
-MSP는 CSP(클라우드 솔루션 공급자) 프로그램에 간접 대리업체 또는 직접 청구 파트너로 등록해야 Microsoft 365 Lighthouse.  
+MSP는 Lighthouse를 사용하려면 클라우드 솔루션 공급자(CSP) 프로그램에 간접 대리업체 또는 직접 청구 파트너로 등록해야 합니다.  
 
-또한 각 MSP 고객 테넌트는 다음 요구 사항을 Microsoft 365 Lighthouse 자격을 상실해야 합니다. 
+또한 각 MSP 고객 테넌트는 다음 요구 사항을 충족하여 Lighthouse 자격을 충족해야 합니다. 
  
 - MSP에 대한 DAP(위임된 관리자 권한) 
 - 하나 이상의 Microsoft 365 Business Premium 라이선스 

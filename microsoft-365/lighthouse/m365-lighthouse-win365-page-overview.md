@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MICROSOFT 365 LIGHTHOUSE MSP(관리 서비스 공급자)의 경우 Windows 365(클라우드 PC) 페이지에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 1ad05cf2cae824c0bab61635f05cbce13f6fcbd57dfcb904c0e53fd3b25e9ab0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b71beb0315c15929b20e1afd32a96bfd811a9ea9
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53907195"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507797"
 ---
 # <a name="windows-365-cloud-pcs-page-overview"></a>Windows 365(클라우드 PC) 페이지 개요  
 
@@ -33,7 +33,7 @@ Windows 365는 MEM(Microsoft Endpoint Manager) 관리자가 Windows 365 라이�
 365의 Windows 자세한 내용은 [365란 Windows 참조하세요.](/windows-365/overview) 365 요구 Windows 목록은 [Requirements for Windows 365을 참조하세요.](/windows-365/requirements)
 
 > [!IMPORTANT]
-> [MEM으로](https://go.microsoft.com/fwlink/p/?linkid=2150463) 이동하여 각 고객 테넌트에 대해 클라우드 PC를 프로비전해야만 해당 고객 테넌트에서 관리할 수 Microsoft 365 Lighthouse. Microsoft 365Lighthouse 내에서 프로비전할 수 있습니다.
+> Lighthouse에서 관리하려면 [먼저 MEM으로](https://go.microsoft.com/fwlink/p/?linkid=2150463) 이동하여 각 고객 테넌트에 대해 클라우드 PC를 프로비전해야 합니다. Lighthouse 내에서 프로비전할 수 없는 경우
 
 고객 테넌트에 대해 클라우드 PC를 프로비전한 후 Microsoft 365 홈 페이지의 Windows 365 카드는 프로비전에 실패한 클라우드 PC 수 및 사내 네트워크 연결 실패와 같은 조치가 필요한 클라우드 PC에 대한 간단한 경고를 제공합니다. 자세한 상태를 확인하려면 Windows 365 카드의 단추를 선택하거나 왼쪽 탐색 창에서 Windows **365를** 선택하여 Windows 365 페이지를 열 수 있습니다. 이 페이지에서는 고객 테넌트에 할당된 클라우드 PC의 상태 개요를 보고, 관리하는 모든 클라우드 PC 및 해당 클라우드 PC가 할당된 테넌트의 목록을 보고, 고객 테넌트와 Azure AD(Azure Active Directory) 간의 사내 네트워크 연결 및 상태를 확인할 수 있습니다.
 

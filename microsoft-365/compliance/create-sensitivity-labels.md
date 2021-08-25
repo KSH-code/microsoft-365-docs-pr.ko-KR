@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 데이터를 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 63a798d0656fbbdd0bd78cf47974befa3dad7b42d2413a98486504f6c5cf3e96
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4b37aeecabdeaef3afebb7144330a5c9df811729
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53851481"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508121"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -101,7 +101,7 @@ ms.locfileid: "53851481"
 
 - 사용자가 로컬 언어로 레이블 이름과 도구 설명을 확인하기 위한 다국적 배포에는 *LocaleSettings* 매개 변수를 사용합니다. [다음 섹션](#example-configuration-to-configure-a-sensitivity-label-for-different-languages)에는 프랑스어, 이탈리아어, 독일어에 대한 레이블 이름 및 도구 설명 텍스트를 지정하는 예제 구성이 있습니다.
 
-- Azure Information Protection 통합 레이블 클라이언트의 경우, 레이블 색 설정과 레이블이 적용된 경우 사용자 지정 속성 적용을 포함하는 [고급 설정](/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블의 사용 가능한 고급 설정](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels)을 참조하세요.
+- Azure Information Protection 통합 레이블 지정 클라이언트는 레이블 색상 설정 및 레이블 적용 시 사용자 지정 속성 적용을 포함하는 광범위한 [고급 설정](/azure/information-protection/rms-client/clientv2-admin-guide-customizations) 목록을 지원합니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블의 사용 가능한 고급 설정](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels)을 참조하세요.
 
 #### <a name="example-configuration-to-configure-a-sensitivity-label-for-different-languages"></a>다양한 언어로 민감도 레이블을 구성하는 예제 구성입니다.
 
@@ -181,8 +181,12 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 Windows, MacOS, iOS 및 Android에서 Office 앱에 대한 기본 제공 레이블을 사용하면 브라우저를 새로 고치면 4시간 내에, 웹에서 Word, Excel 및 PowerPoint에 대해 1시간 이내에 새 레이블이 표시됩니다. 그러나 변경 내용이 모든 앱과 서비스에 복제되려면 최대 24시간이 소요됩니다.
 
-> [!NOTE]
-> 민감도 레이블을 지원하는 기타 앱과 서비스는 정책 업데이트를 위한 자체 업데이트 일정과 트리거를 보유하고 있어 24시간보다 더 자주 업데이트할 수 있습니다. 설명서에서 세부 정보를 확인하세요. 예를 들어 Azure Information Protection의 통합 레이블 지정 클라이언트의 경우, [Azure Information Protection 클라이언트용 자세한 비교](/azure/information-protection/rms-client/use-client#detailed-comparisons-for-the-azure-information-protection-clients) 표의 **정책 업데이트** 줄을 확인합니다.
+민감도 레이블을 지원하는 기타 앱과 서비스는 정책 업데이트를 위한 자체 업데이트 일정과 트리거를 보유하고 있어 24시간보다 더 자주 업데이트할 수 있습니다. 설명서에서 세부 정보를 확인하세요. 예를 들어 Azure Information Protection의 통합 레이블 지정 클라이언트의 경우, [Azure Information Protection 클라이언트용 자세한 비교](/azure/information-protection/rms-client/use-client#detailed-comparisons-for-the-azure-information-protection-clients) 표의 **정책 업데이트** 줄을 확인합니다.
+
+> [!TIP]
+> 경우에 따라 민감도 레이블 및 레이블 정책이 예상대로 작동하지 않도록 지연할 수 있는 타이밍 종속성을 고려해야 합니다. 예를 들어 암호화를 적용하는 레이블에 대한 [Azure Information Protection 서비스](/azure/information-protection/prepare#group-membership-caching-by-azure-information-protection)의 새 그룹 및 그룹 구성원 변경, 네트워크 복제 대기 시간 및 대역폭 제한, 그룹 구성원 캐싱 채우기가 해당됩니다.
+> 
+> 각각 고유한 타이밍 주기가 있는 수많은 외부 종속성이 있으므로 최근 변경 사항에 대한 레이블 및 레이블 정책 문제 해결에 시간을 보내기 전에 24시간을 기다리는 것이 좋습니다.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
 

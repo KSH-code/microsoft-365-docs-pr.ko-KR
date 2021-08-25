@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c65fcb93740f975c34534e1af244dcca20ce043c
-ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
+ms.openlocfilehash: 73d863584a1712f5619bd045a51e651edb4ff636
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58387131"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507989"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -36,14 +36,15 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 ****
 
-| 권한 | 사용 권한 |
-|:---|:---|
-| Access | 읽기, 쓰기, 실행 |
-| 작업 모드 | 감사, 허용, 방지 |
-| CSP 지원 | 예 |
-| GPO 지원 | 예 |
-| 사용자 기반 지원 | 예 |
-| 컴퓨터 기반 지원 | 예 |
+|권한|사용 권한|
+|---|---|
+|액세스|읽기, 쓰기, 실행|
+|작업 모드|감사, 허용, 방지|
+|CSP 지원|예|
+|GPO 지원|예|
+|사용자 기반 지원|예|
+|컴퓨터 기반 지원|예|
+|
 
 ## <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
@@ -62,27 +63,36 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 다음 속성을 사용하여 이동식 저장소 그룹을 만들 수 있습니다.
 
-#### <a name="removable-storage-group"></a>이동식 Storage 그룹
-|속성 이름  |설명  |옵션  |
-|---------|---------|---------|
-|**GroupId**     |   [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier), 고유 ID는 그룹을 나타내며 정책에 사용됩니다.      |         |
-|**DescriptorIdList**     |  그룹에서 다루는 데 사용할 장치 속성을 나열합니다. 각 장치 속성에 대한 자세한 내용은 [장치 속성을](/microsoft-365/security/defender-endpoint/device-control-removable-storage-protection?view=o365-worldwide&preserve-view=true) 참조하세요.       |  - **PrimaryId**: RemovableMediaDevices, CdRomDevices, WpdDevices</br> - **DeviceId** </br>- **HardwareId**</br>- **InstancePathId:** InstancePathId는 시스템에서 장치를 고유하게 식별하는 문자열입니다(예: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0). 끝에 있는 번호(예: &0)는 사용 가능한 슬롯을 나타내며 디바이스에서 장치로 변경될 수 있습니다. 최상의 결과를 얻기 위해 끝에 와일드카드를 사용 합니다. 예를 들어 USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*</br>- **FriendlyNameId**</br>- **SerialNumberId**</br>- **VID**</br>- **PID**</br>- **VID_PID**</br> 0751_55E0: 이 정확한 VID/PID 쌍과 일치 </br>_55E0: PID=55E0 </br> 0751의_ 미디어 일치 : VID=0751과 모든 미디어 일치 |
-|**MatchType**     |    DescriptorIDList에 여러 장치 속성이 사용되는 경우 MatchType은 관계를 정의합니다.     |  **MatchAll**: </br>DescriptorIdList의 모든 특성은 **And 관계가** 됩니다. 예를 들어 관리자가 DeviceID와 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 시스템에서 USB가 두 값을 모두 충족하는지 확인합니다. </br> </br>**MatchAny**:</br> DescriptorIdList의 특성은 **Or** 관계가 됩니다. 예를 들어 관리자가 DeviceID 및 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 USB에 **동일한 DeviceID** 또는 **InstanceID** 값이 있는 한 시스템에서 적용을 실행합니다.       |
+### <a name="removable-storage-group"></a>이동식 Storage 그룹
+
+<br>
+
+****
+
+|속성 이름|설명|옵션|
+|---|---|---|
+|**GroupId**|[GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier), 고유 ID는 그룹을 나타내며 정책에 사용됩니다.||
+|**DescriptorIdList**|그룹에서 다루는 데 사용할 장치 속성을 나열합니다. 각 장치 속성에 대한 자세한 내용은 [장치 속성을](device-control-removable-storage-protection.md) 참조하세요.|<ul><li>**PrimaryId**: RemovableMediaDevices, CdRomDevices, WpdDevices</li><li>**DeviceId**</li><li>**HardwareId**</li><li>**InstancePathId**: InstancePathId는 시스템에서 장치를 고유하게 식별하는 문자열입니다(예: `USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0` ). 끝에 있는 번호(예: &0)는 사용 가능한 슬롯을 나타내며 디바이스에서 장치로 변경될 수 있습니다. 최상의 결과를 얻기 위해 끝에 와일드카드를 사용 합니다. 예를 들면 `USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*`와 같습니다.</li><li>**FriendlyNameId**</li><li>**SerialNumberId**</li><li>**VID**</li><li>**PID**</li><li>**VID_PID**<ul><li>0751_55E0: 이 정확한 VID/PID 쌍과 일치</li><li>55E0: PID=55E0과 모든 미디어 일치 </li><li>0751: VID=0751과 모든 미디어 일치</li></ul></li></ul>|
+|**MatchType**|DescriptorIDList에 여러 장치 속성이 사용되는 경우 MatchType은 관계를 정의합니다.|**MatchAll:** DescriptorIdList의 모든 특성은 **And 관계가** 됩니다. 예를 들어 관리자가 DeviceID와 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 시스템에서 USB가 두 값을 모두 충족하는지 확인합니다. <p> **MatchAny:** DescriptorIdList의 특성은 **또는** 관계가 됩니다. 예를 들어 관리자가 DeviceID 및 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 USB에 **동일한 DeviceID** 또는 **InstanceID** 값이 있는 한 시스템에서 적용을 실행합니다.|
 ||||
 
-#### <a name="access-control-policy"></a>액세스 제어 정책
+### <a name="access-control-policy"></a>액세스 제어 정책
 
-|속성 이름  |설명  |옵션  |
-|---------|---------|---------|
-|PolicyRuleId     |     고유한 ID인 [GUID는](https://en.wikipedia.org/wiki/Universally_unique_identifier)정책을 나타내며 보고 및 문제 해결에 사용됩니다.    |         |
-|IncludedIdList     | 정책을 적용할 그룹입니다. 여러 그룹이 추가된 경우 정책은 해당 그룹의 모든 미디어에 적용됩니다.        |    이 인스턴스에서는 그룹 ID/GUID를 사용해야 합니다. </br> 다음 예에서는 GroupID의 사용을 보여 줍니다. </br> `<IncludedIdList> <GroupId> {EAA4CCE5-F6C9-4760-8BAD-FDCC76A2ACA1}</GroupId> </IncludedIdList>`    |
-|ExcludedIDList     | 정책이 적용되지 않는 그룹입니다.        |    이 인스턴스에서는 그룹 ID/GUID를 사용해야 합니다.     |
-|항목 ID     |  하나의 PolicyRule에는 여러 항목이 있을 수 있습니다. 고유한 GUID가 있는 각 항목은 장치 제어에 한 가지 제한을 알 수 있습니다.       |         |
-|유형|IncludedIDList에서 이동식 저장소 그룹에 대한 작업을 정의합니다. </br>- 적용: 허용 또는 거부 </br>- 감사: AuditAllowed 또는 AuditDenied|- 허용 </br>- 거부</br> - AuditAllowed: 액세스가 허용되는 경우 알림 및 이벤트를 정의합니다.</br>- AuditDenied: 액세스가 거부된 경우 알림 및 이벤트를 정의합니다. 거부 항목과 **함께 작업해야** 합니다. </br></br> 동일한 미디어에 대한 충돌 유형이 있는 경우 시스템은 정책의 첫 번째 형식을 적용합니다. 충돌 형식의 예로는 **Allow** 및 **Deny가 있습니다.**|
+<br>
+
+****
+
+|속성 이름|설명|옵션|
+|---|---|---|
+|PolicyRuleId|고유한 ID인 [GUID는](https://en.wikipedia.org/wiki/Universally_unique_identifier)정책을 나타내며 보고 및 문제 해결에 사용됩니다.||
+|IncludedIdList|정책을 적용할 그룹입니다. 여러 그룹이 추가된 경우 정책은 해당 그룹의 모든 미디어에 적용됩니다.|이 인스턴스에서는 그룹 ID/GUID를 사용해야 합니다. <p> 다음 예에서는 GroupID의 사용을 보여 줍니다. <p> `<IncludedIdList> <GroupId> {EAA4CCE5-F6C9-4760-8BAD-FDCC76A2ACA1}</GroupId> </IncludedIdList>`|
+|ExcludedIDList|정책이 적용되지 않는 그룹입니다.|이 인스턴스에서는 그룹 ID/GUID를 사용해야 합니다.|
+|항목 ID|하나의 PolicyRule에는 여러 항목이 있을 수 있습니다. 고유한 GUID가 있는 각 항목은 장치 제어에 한 가지 제한을 알 수 있습니다.||
+|유형|IncludedIDList에서 이동식 저장소 그룹에 대한 작업을 정의합니다. <ul><li>적용: 허용 또는 거부</li><li>감사: AuditAllowed 또는 AuditDenied</ul></li>|<ul><li>허용</li><li>거부</li><li>AuditAllowed: 액세스가 허용되는 경우 알림 및 이벤트를 정의합니다.</li><li>AuditDenied: 액세스가 거부된 경우 알림 및 이벤트를 정의합니다. 거부 항목과 **함께 작업해야** 합니다.</li></ul> <p> 동일한 미디어에 대한 충돌 유형이 있는 경우 시스템은 정책의 첫 번째 형식을 적용합니다. 충돌 형식의 예로는 **Allow** 및 **Deny가 있습니다.**|
 |Sid|로컬 컴퓨터 Sid 또는 AD 개체의 Sid는 특정 사용자 또는 사용자 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 Sid를 사용할 수 있으며 Sid가 없는 항목은 컴퓨터 위에 정책을 적용하는 것입니다.||
 |ComputerSid|로컬 컴퓨터 Sid 또는 AD 개체의 Sid는 특정 컴퓨터 또는 컴퓨터 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 ComputerSid를 사용할 수 있으며 ComputerSid가 없는 항목은 컴퓨터에 정책을 적용하는 것입니다. 특정 사용자 및 특정 컴퓨터에 Entry를 적용하려면 Sid와 ComputerSid를 모두 동일한 항목에 추가합니다.||
-|옵션|알림을 표시할지 여부를 정의합니다.|**0-4:** 허용 또는 거부 유형이 선택된 경우.</br></br>0: nothing</br>4: 이 항목에 **대해 AuditAllowed** 및 **AuditDenied를** 사용하지 않도록 설정 **차단이 발생하고** AuditDenied가 구성된 경우에도 시스템에 알림이 표시되지 않습니다. </br> </br>**AuditAllowed 또는** **AuditDenied** 유형이 선택된 경우:</br>0: nothing</br>1: 알림 표시</br>2: 이벤트 보내기</br>3: 알림 표시 및 이벤트 보내기|
-|AccessMask|액세스를 정의합니다.|**1-7**: </br></br>1: 읽기</br>2: 쓰기</br>3: 읽기 및 쓰기</br>4: 실행</br>5: 읽기 및 실행</br>6: 쓰기 및 실행</br>7: 읽기 및 쓰기 및 실행|
+|옵션|알림을 표시할지 여부를 정의합니다.|**0-4:** 허용 또는 거부 유형이 선택된 경우. <ul><li>0: nothing</li><li>4: 이 항목에 **대해 AuditAllowed** 및 **AuditDenied를** 사용하지 않도록 설정 **차단이 발생하고** AuditDenied가 구성된 경우에도 시스템에 알림이 표시되지 않습니다.</li></ul> <p> **AuditAllowed 또는** **AuditDenied** 유형이 선택된 경우: <ul><li>0: nothing</li><li>1: 알림 표시</li><li>2: 이벤트 보내기</li><li>3: 알림 표시 및 이벤트 보내기</li></ul>|
+|AccessMask|액세스를 정의합니다.|**1-7**: <ol><li>읽기</li><li>쓰기</li><li>읽기 및 쓰기</li><li>실행</li><li>읽기 및 실행</li><li>쓰기 및 실행</li><li>읽기 및 쓰기 및 실행</li></ol>|
 ||||
 
 ## <a name="common-removable-storage-access-control-scenarios"></a>일반적인 이동식 Storage 액세스 제어 시나리오
@@ -165,7 +175,7 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 
 ### <a name="deploying-policy-via-oma-uri"></a>OMA-URI를 통해 정책 배포
 
-**Microsoft Endpoint Manager 관리 센터( https://endpoint.microsoft.com/) -> Devices -> Configuration profiles -> Create profile -> Platform: Windows 10 and later & Profile: Custom**
+Microsoft Endpoint Manager 관리 센터( ) 장치 구성 프로필 프로필 만들기 프로필 플랫폼: Windows 10 <https://endpoint.microsoft.com/> \>  \>  \>  \> **이상 & 프로필: 사용자 지정**
 
 1. 각 그룹에 대해 OMA-URI 규칙을 생성합니다.
     - OMA-URI: 
@@ -197,7 +207,7 @@ Intune에서 정책 배포의 경우 계정에 장치 구성 프로필을 생성
 
 ## <a name="view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 장치 Storage 이동식 액세스 제어 데이터 보기
 
-보안 Microsoft 365 포털에는 액세스 제어를 통해 장치 제어 이동식 이동식 액세스 제어에 의해 Storage 저장소가 표시됩니다. Microsoft 365 보안에 액세스하려면 다음 구독이 있어야 합니다.
+Microsoft 365 Defender [포털에는](https://security.microsoft.com/advanced-hunting) 액세스 제어를 통해 장치 제어 이동식으로 트리거되는 Storage 표시됩니다. Microsoft 365 보안에 액세스하려면 다음 구독이 있어야 합니다.
 
 - Microsoft 365 E5 보고용 보고서
 
@@ -218,13 +228,13 @@ DeviceEvents
 | extend MediaProductId = tostring(parsed.ProductId) 
 | extend MediaVendorId = tostring(parsed.VendorId) 
 | extend MediaSerialNumber = tostring(parsed.SerialNumber) 
-| project Timestamp, DeviceId, DeviceName, InitiatingProcessAccountName, ActionType, RemovableStorageAccess, RemovableStoragePolicyVerdict, MediaBusType, MediaClassGuid, MediaClassName, MediaDeviceId, MediaInstanceId, MediaName, RemovableStoragePolicy, MediaProductId, MediaVendorId, MediaSerialNumber
+|project Timestamp, DeviceId, DeviceName, InitiatingProcessAccountName, ActionType, RemovableStorageAccess, RemovableStoragePolicyVerdict, MediaBusType, MediaClassGuid, MediaClassName, MediaDeviceId, MediaInstanceId, MediaName, RemovableStoragePolicy, MediaProductId, MediaVendorId, MediaSerialNumber
 | order by Timestamp desc
 ```
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면":::
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="what-is-the-removable-storage-media-limitation-for-the-maximum-number-of-usbs"></a>최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?
 

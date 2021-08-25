@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 도움말 및 지원을 받을 수 있는 방법을 알아보고자 합니다.
-ms.openlocfilehash: 1b800a9b06cf83ff6014d2377c847204d7aaa568bc7feac65631adec22772ccc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 392eed01b5519c512c89460776ec9f4391b7bda2
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830134"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58506433"
 ---
 # <a name="get-help-and-support-for-microsoft-365-lighthouse"></a>지원에 대한 도움말 및 Microsoft 365 Lighthouse 
 
@@ -30,10 +30,10 @@ ms.locfileid: "53830134"
 
 도움이 필요한 경우 몇 가지 옵션을 사용할 수 있습니다. 먼저 고객 테넌트 서비스의 현재 상태 확인을 시작하십시오.
 
-1. 창의 왼쪽 탐색 창에서 Microsoft 365 Lighthouse **상태 를 선택합니다.**
+1. Lighthouse의 왼쪽 탐색 창에서 서비스 **상태 를 선택합니다.**
 2. 현재 및 과거 문제에 대한 자세한 정보를 볼 수 있습니다.
 
-테넌트 서비스의 현재 Microsoft 365 Lighthouse 확인:
+Lighthouse 테넌트 서비스의 현재 상태 확인:
 
 1. 의 Microsoft 365 관리 센터 로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>
 2. 왼쪽 탐색 창에서 상태 서비스  >  **상태 를 선택합니다.**
@@ -43,7 +43,7 @@ ms.locfileid: "53830134"
 서비스 상태 대시보드 중 하나에 나열되지 않은 문제가 발생하는 경우 이 문서의 지침에 따라 자가 도움말 옵션을 보거나 서비스 요청을 만들 수 있습니다.
 
 > [!NOTE]
-> 지원은 미리 보기에 있는 Microsoft 365 Lighthouse 영어로 제한됩니다.
+> Lighthouse가 미리 보기에 있는 동안 지원은 영어로 제한됩니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -53,7 +53,7 @@ ms.locfileid: "53830134"
 
 ## <a name="access-help-and-support"></a>도움말 및 지원 액세스
 
-1.  In Microsoft 365 Lighthouse, select the **?** 포털 맨 위에 있는 아이콘을  클릭하여 도움말 창을 열고 다음 중 하나를 합니다.
+1.  Lighthouse에서 **?** 포털 맨 위에 있는 아이콘을  클릭하여 도움말 창을 열고 다음 중 하나를 합니다.
     
     -  문제가 발생한 포털 페이지에 있는 경우 진단 **표시를 선택합니다.**
 
@@ -69,7 +69,7 @@ ms.locfileid: "53830134"
     > [!NOTE]
     > How **can we help?** 창이 열리면 전역 관리자 권한이 있는 파트너 테넌트의 다른 사람에게 문의하여 도움을 요청해야 합니다.
 
-3.  How **can we help?** 창에서 문제 설명을 입력한 다음 Enter를 **누르세요.** 검색 결과에 관련 도움말  Microsoft 365 수 있도록 전체 제품 이름을 설명에 포함하는 것이 좋습니다.
+3.  How **can we help?** 창에서 문제 설명을 입력한 다음 Enter를 **누르세요.** 검색 결과에 관련 도움말  Microsoft 365 Lighthouse 수 있도록 전체 제품 이름 정보를 설명에 포함하는 것이 좋습니다.
 
 4.  권장 문서 목록을 확인하여 문제 해결에 도움이 되는 문서가 있는 경우를 참조하세요.
 

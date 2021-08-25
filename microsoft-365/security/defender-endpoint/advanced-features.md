@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5fb05070f23781dd65cad1d1c359e139d12b5a5d23efa7a0b1b437c621f71bf7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bd56ab7daef91fb06aca8bc9d60213877b9696b8
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829886"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507761"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -38,7 +38,7 @@ ms.locfileid: "53829886"
 
 ## <a name="enable-advanced-features"></a>고급 기능 사용
 
-1. 탐색 창에서 **끝점 고급 설정**  >   **를**  >  **선택합니다.**
+1. 탐색 창에서 **끝점 고급 설정** \> **를** \> **선택합니다.**
 2. 구성할 고급 기능을 선택하고 설정 및 해제  간에 설정을 **전환합니다.**
 3. 기본 **설정 저장을 클릭합니다.**
 
@@ -55,33 +55,35 @@ ms.locfileid: "53829886"
 역할 할당에 대한 자세한 내용은 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
 
 ## <a name="live-response-for-servers"></a>서버에 대한 실시간 응답
+
 적절한 사용 권한이 있는 사용자가 서버에서 라이브 응답 세션을 시작할 수 있도록 이 기능을 켜야 합니다.
 
 역할 할당에 대한 자세한 내용은 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
-
 
 ## <a name="live-response-unsigned-script-execution"></a>라이브 응답 부호 없는 스크립트 실행
 
 이 기능을 사용하도록 설정하면 라이브 응답 세션에서 부호 없는 스크립트를 실행할 수 있습니다.
 
 ## <a name="always-remediate-pua"></a>항상 PUA 재구성
-PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 속도가 느려지거나 예기치 않은 광고를 표시하거나, 최악의 경우 예기치 않게 또는 원치 않는 다른 소프트웨어를 설치할 수 있는 소프트웨어 범주입니다. 
 
-장치에 PUA 보호가 구성되어 있지 않은 경우에도 잠재적으로 원치 않는 응용 프로그램(PUA)이 테넌트의 모든 디바이스에서 수정될 수 있도록 이 기능을 켜야 합니다. 이렇게 하면 사용자가 장치에 원치 않는 응용 프로그램을 설치하지 못하도록 보호할 수 있습니다. 끄면 장치 구성에 따라 수정이 달라집니다. 
+PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 속도가 느려지거나 예기치 않은 광고를 표시하거나, 최악의 경우 예기치 않게 또는 원치 않는 다른 소프트웨어를 설치할 수 있는 소프트웨어 범주입니다.
 
+장치에 PUA 보호가 구성되어 있지 않은 경우에도 잠재적으로 원치 않는 응용 프로그램(PUA)이 테넌트의 모든 디바이스에서 수정될 수 있도록 이 기능을 켜야 합니다. 이렇게 하면 사용자가 장치에 원치 않는 응용 프로그램을 설치하지 못하도록 보호할 수 있습니다. 끄면 장치 구성에 따라 수정이 달라집니다.
 
 ## <a name="restrict-correlation-to-within-scoped-device-groups"></a>범위가 지정되는 장치 그룹 내에서 상관 관계 제한
-이 구성은 로컬 SOC 작업에서 경고 상관 관계만 액세스할 수 있는 장치 그룹으로 제한하는 시나리오에 사용할 수 있습니다. 이 설정을 켜면 장치 그룹 간 경고로 구성된 인시던트는 더 이상 단일 인시던트로 간주되지 않습니다. 그러면 로컬 SOC가 관련된 장치 그룹 중 하나에 액세스할 수 있으므로 인시던트에 대해 조치를 취할 수 있습니다. 그러나 전역 SOC는 하나의 인시던트가 아닌 장치 그룹으로 여러 가지 다른 인시던트가 표시됩니다. 이 설정을 켜지 않는 한 전체 조직에서 인시던트 상관 관계의 이점을 1이상으로 끄지 않는 한 이 설정을 켜지 않는 것이 좋습니다.
->[!NOTE]
->이 설정을 변경하면 향후 경고 상관 관계에만 영향을 미치게 됩니다.
+
+이 구성은 로컬 SOC 작업에서 경고 상관 관계만 액세스할 수 있는 장치 그룹으로 제한하는 시나리오에 사용할 수 있습니다. 이 설정을 켜면 장치 그룹 간 경고로 구성된 인시던트는 더 이상 단일 인시던트로 간주되지 않습니다. 그러면 로컬 SOC가 관련된 장치 그룹 중 하나에 액세스할 수 있으므로 인시던트에 대해 조치를 취할 수 있습니다. 그러나 전역 SOC는 하나의 인시던트가 아닌 장치 그룹으로 여러 가지 다른 인시던트가 표시됩니다. 이 설정을 설정하는 것이 전체 조직에서 인시던트 상관 관계의 이점을 중시하지 않는 한 켜지 않는 것이 좋습니다.
+
+> [!NOTE]
+> 이 설정을 변경하면 향후 경고 상관 관계에만 영향을 미치게 됩니다.
 
 ## <a name="enable-edr-in-block-mode"></a>차단 EDR 사용
-차단 모드의 끝점 감지 및 응답(EDR)은 수동 모드에서 실행되는 경우에도 Microsoft Defender 바이러스 백신 아티팩트로부터 보호합니다. 이 기능을 EDR 차단 모드에서는 디바이스에서 감지되는 악의적인 아티팩트 또는 동작을 차단합니다. EDR 차단 모드에서는 장면 뒤에서 작동하여 위반 후 감지된 악성 아티팩트를 수정합니다.
 
+차단 모드의 끝점 감지 및 응답(EDR)은 수동 모드에서 실행되는 경우에도 Microsoft Defender 바이러스 백신 아티팩트로부터 보호합니다. 이 기능을 EDR 차단 모드에서는 디바이스에서 감지되는 악의적인 아티팩트 또는 동작을 차단합니다. EDR 차단 모드에서는 장면 뒤에서 작동하여 위반 후 감지된 악성 아티팩트를 수정합니다.
 
 ## <a name="autoresolve-remediated-alerts"></a>수정된 경고 자동 해결
 
-테넌트가 생성되거나 Windows 10, 버전 1809 자동화된 분석 결과 상태가 "위협 없음" 또는 "수정"인 경고를 해결하도록 기본적으로 자동화된 조사 및 수정 기능이 구성됩니다.  경고를 자동으로 해결하지 못하게 하려는 경우 기능을 수동으로 해제해야 합니다.
+테넌트가 생성되거나 Windows 10, 버전 1809 자동화된 분석 결과 상태가 "위협 없음" 또는 "수정"인 경고를 해결하도록 기본적으로 자동화된 조사 및 수정 기능이 구성됩니다. 경고를 자동으로 해결하지 못하게 하려는 경우 기능을 수동으로 해제해야 합니다.
 
 > [!TIP]
 > 해당 버전 이전에 만든 테넌트의 경우 고급 기능 페이지에서 이 기능을 수동으로 [켜야](https://security.microsoft.com//preferences2/integration) 합니다.
@@ -102,10 +104,10 @@ PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 �
 
 파일 허용 **또는 차단을** 설정하려면
 
-1. 탐색 창에서 끝점 **일반 설정** 허용 또는 차단 파일을  >    >    >    >  **선택합니다.**
+1. 탐색 창에서 끝점 **일반 설정** 허용 또는 차단 파일을 \>  \>  \>  \> **선택합니다.**
 
 1. 설정과 끄기 **간에 설정을** **전환합니다.**
- 
+
     :::image type="content" source="../../media/alloworblockfile.png" alt-text="파일 차단 기능에 대한 고급 설정 이미지":::
 
 1. 페이지 **아래쪽의** 기본 설정 저장을 선택합니다.
@@ -132,7 +134,6 @@ PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 �
 
 변조 방지 기능을 설정하여 보안 솔루션 및 해당 필수 기능에 대한 원치 않는 변경을 방지합니다.
 
-
 ## <a name="show-user-details"></a>사용자 세부 정보 표시
 
 이 기능을 켜서 사용자 세부 정보를 볼 수 있도록 Azure Active Directory. 세부 정보에는 사용자 계정 엔터티를 조사할 때 사용자의 사진, 이름, 직위 및 부서 정보가 포함됩니다. 다음 보기에서 사용자 계정 정보를 찾을 수 있습니다.
@@ -142,7 +143,6 @@ PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 �
 - 장치 세부 정보 페이지
 
 자세한 내용은 사용자 계정 [조사를 참조하세요.](investigate-user.md)
-
 
 ## <a name="skype-for-business-integration"></a>비즈니스용 Skype 통합
 
@@ -175,6 +175,7 @@ Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 �
 
 > [!NOTE]
 > Defender for endpoint의 Microsoft 위협 전문가 기능은 에 대한 E5 라이선스로 사용할 [Enterprise Mobility + Security.](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
+
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
 이 설정을 사용하도록 설정하면 끝점용 Defender 신호가 클라우드 응용 Microsoft Cloud App Security 더 심층적으로 표시될 수 있습니다. 전달된 데이터는 사용자 데이터와 동일한 위치에 저장되고 Cloud App Security 처리됩니다.
@@ -185,7 +186,6 @@ Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 �
 ## <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
 Microsoft Defender for Endpoint 신호를 보안 센터의 Microsoft 보안 점수로 Microsoft 365 전달합니다. 이 기능을 켜면 Microsoft 보안 점수가 장치의 보안 상태와 관련한 가시성을 확보할 수 있습니다. 전달된 데이터는 Microsoft 보안 점수 데이터와 동일한 위치에 저장되고 처리됩니다.
-
 
 ### <a name="enable-the-microsoft-defender-for-endpoint-integration-from-the-microsoft-defender-for-identity-portal"></a>Microsoft Defender for Identity 포털에서 끝점에 대한 Microsoft Defender 통합 사용
 
@@ -200,15 +200,15 @@ Id에 대한 Microsoft Defender에서 상황에 맞는 장치 통합을 받으�
 두 포털에서 통합 단계를 완료한 후 장치 세부 정보 또는 사용자 세부 정보 페이지에서 관련 알림을 볼 수 있습니다.
 
 ## <a name="web-content-filtering"></a>웹 컨텐츠 필터링
+
 원치 않는 콘텐츠가 포함된 웹 사이트에 대한 액세스를 차단하고 모든 도메인에서 웹 활동을 추적합니다. 차단할 웹 콘텐츠 범주를 지정하려는 경우 웹 콘텐츠 필터링 [정책을 만들어야 합니다.](https://security.microsoft.com/preferences2/web_content_filtering_policy) 끝점용 Microsoft Defender 보안 기준을 배포할 때 차단 모드에서 네트워크 [보호를 설정해야 합니다.](https://devicemanagement.microsoft.com/#blade/Microsoft_Intune_Workflows/SecurityBaselineSummaryMenu/overview/templateType/2)
 
 
 ## <a name="share-endpoint-alerts-with-microsoft-compliance-center"></a>Microsoft 준수 센터와 끝점 경고 공유
+
 끝점 보안 경고 및 해당 평가 상태를 Microsoft 규정 준수 센터에 전달하여 경고를 통해 내부자 위험 관리 정책을 향상하고 내부 위험을 발생시키는 위험을 해결한 후 손상을 일으킬 수 있습니다. 전달된 데이터는 처리되고 사용자 데이터와 동일한 위치에 Office 365 저장됩니다.
 
 내부자 위험 [](/microsoft-365/compliance/insider-risk-management-settings#indicators) 관리 설정에서 보안 정책 위반 표시기를 구성한 후 끝점용 Defender 경고는 해당 사용자의 내부자 위험 관리와 공유됩니다.
-
-
 
 ## <a name="microsoft-intune-connection"></a>Microsoft Intune 연결
 
@@ -222,7 +222,6 @@ Id에 대한 Microsoft Defender에서 상황에 맞는 장치 통합을 받으�
 - E5 및 Enterprise Mobility + Security E3 및 Windows E5용 Microsoft 365 Enterprise 테넌트
 - Intune에서 관리하는 Microsoft Intune Azure AD에 가입된 장치를 Windows 10 활성 상태 [환경.](/azure/active-directory/devices/concept-azure-ad-join/)
 
-
 ### <a name="conditional-access-policy"></a>조건부 액세스 정책
 
 Intune 통합을 사용하도록 설정하면 Intune에서 클래식 CA(조건부 액세스) 정책을 자동으로 생성합니다. 이 클래식 CA 정책은 상황 보고서를 Intune으로 설정하기 위한 전제입니다. 삭제하면 안 됩니다.
@@ -235,7 +234,7 @@ Intune 통합을 사용하도록 설정하면 Intune에서 클래식 CA(조건�
 추가 어플라이언스 또는 번거로운 프로세스 변경 없이도 회사 네트워크에 연결된 관리되지 않는 장치를 찾을 수 있습니다. 온보드 장치를 사용하여 네트워크에서 관리되지 않는 장치를 찾고 취약성 및 위험을 평가할 수 있습니다. 자세한 내용은 장치 [검색을 참조하세요.](device-discovery.md)
 
 > [!NOTE]
-> 항상 필터를 적용하여 관리되지 않는 장치를 장치 인벤토리 목록에서 제외할 수 있습니다. API 쿼리의 등록 상태 열을 사용하여 관리되지 않는 장치를 필터링할 수도 있습니다. 
+> 항상 필터를 적용하여 관리되지 않는 장치를 장치 인벤토리 목록에서 제외할 수 있습니다. API 쿼리의 등록 상태 열을 사용하여 관리되지 않는 장치를 필터링할 수도 있습니다.
 
 ## <a name="preview-features"></a>미리 보기 기능
 

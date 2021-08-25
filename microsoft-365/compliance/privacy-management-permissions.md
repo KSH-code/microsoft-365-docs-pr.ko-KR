@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 개인 정보 관리 권한을 설정하고 사용자를 역할 그룹에 할당하는 방법을 배워야 합니다.
-ms.openlocfilehash: 644c32aad3e4c25e5ca74e6ae973a7305476af37
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: ebdd5610253ecb5bd490eb9b8bb8beb45f8b6458
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255041"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507713"
 ---
 # <a name="set-user-permissions-and-assign-roles-in-privacy-management-preview"></a>개인 정보 관리에서 사용자 권한 설정 및 역할 할당(미리 보기)
 
@@ -66,7 +66,7 @@ ms.locfileid: "58255041"
 
 ## <a name="privacy-management-administrators-role-group"></a>개인 정보 관리 관리자 역할 그룹
 
-이 역할 그룹의 구성원은 구성 및 관리 작업에 중점을 두며 개인 정보 관리 정책, 주체 권한 요청, 개인 정보 관리 권한 및 개인 정보 관리 설정 만들기, 읽기, 업데이트 및 삭제를 비롯한 개인 정보 관리 기능에 대한 광범위한 액세스 권한을 가합니다.
+이 역할 그룹의 구성원은 개인 정보 관리 정책, 주체 권한 요청, 개인 정보 관리 권한 및 개인 정보 관리 설정 만들기, 읽기, 업데이트 및 삭제를 비롯한 개인 정보 관리 기능에 대한 광범위한 액세스를 제공합니다.
 
 역할에는 다음이 포함됩니다.
 
@@ -87,7 +87,7 @@ ms.locfileid: "58255041"
 
 ### <a name="privacy-management-investigators-role-group"></a>개인 정보 관리 조사자 역할 그룹
 
-이 그룹의 구성원은 개인 정보 관리 데이터 조사자 역할을 합니다. 정책 일치를 조사하고, 연결된 파일 콘텐츠를 보고, 수정 작업을 수행할 수 있습니다. 이 그룹은 콘텐츠 탐색기를 통해 파일에 액세스할 수 있습니다. 
+이 그룹의 구성원은 개인 정보 관리 데이터 조사자 역할을 합니다. 정책 일치를 조사하고, 연결된 파일 콘텐츠를 보고, 수정 작업을 수행할 수 있습니다. 이 그룹은 콘텐츠 탐색기를 통해 파일에 액세스할 수 있습니다.
 
 역할에는 다음이 포함됩니다.
 

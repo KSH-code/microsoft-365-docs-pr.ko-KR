@@ -19,20 +19,20 @@ search.appverid:
 ms.assetid: 5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0
 description: 이 문서의 콘텐츠 검색 및 스크립트를 사용하여 사용자 그룹의 사서함 및 비즈니스용 OneDrive 사이트를 검색합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01014f991ba832b54b703458ca1eac7cc40902a49bf18d2b79e4e6e89d37d49e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c6dea7423eefbbbba6efdf3b9fe2bbd320cb4d7d
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813670"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508181"
 ---
 # <a name="use-content-search-to-search-the-mailbox-and-onedrive-for-business-site-for-a-list-of-users"></a>콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색
 
-보안 & 준수 센터에서는 시간이 많이 걸리는 eDiscovery 관련 Windows PowerShell 자동화할 수 있는 다양한 cmdlet을 제공합니다. 현재 보안 및 준수 & 콘텐츠 검색을 만들어 많은 수의 관리인 콘텐츠 위치를 검색하는 데는 많은 시간 및 준비가 소요됩니다. 검색을 만들기 전에 각 비즈니스용 OneDrive URL을 수집한 다음 각 사서함 및 비즈니스용 OneDrive 사이트를 검색에 추가해야 합니다. 향후 릴리스에서는 보안 및 준수 센터에서 더 & 수 있습니다. 지금까지 이 문서의 스크립트를 사용하여 이 프로세스를 자동화할 수 있습니다. 이 스크립트는 조직의 MySite 도메인 이름(예: URL의 **contoso),** 사용자 전자 메일 주소 목록, 새 콘텐츠 검색의 이름 및 사용할 검색 쿼리를 묻는 메시지를 `https://contoso-my.sharepoint.com` 제공합니다. 이 스크립트는 목록의 각 사용자에 대한 비즈니스용 OneDrive URL을 다운로드한 다음 제공한 검색 쿼리를 사용하여 목록의 각 사용자에 대해 사서함 및 비즈니스용 OneDrive 사이트를 검색하는 콘텐츠 검색을 만들고 시작합니다.
+보안 & 준수 센터 PowerShell에서는 시간이 많이 걸리는 eDiscovery 관련 작업을 자동화할 수 있는 다양한 cmdlet을 제공합니다. 현재 많은 수의 Microsoft 365 규정 준수 센터 검색할 수 있는 콘텐츠 검색을 만들기 위해 많은 시간 및 준비를 합니다. 검색을 만들기 전에 각 비즈니스용 OneDrive URL을 수집한 다음 각 사서함 및 비즈니스용 OneDrive 사이트를 검색에 추가해야 합니다. 향후 릴리스에서는 이 작업을 더 쉽게 Microsoft 365 규정 준수 센터. 지금까지 이 문서의 스크립트를 사용하여 이 프로세스를 자동화할 수 있습니다. 이 스크립트는 조직의 MySite 도메인 이름(예: URL의 **contoso),** 사용자 전자 메일 주소 목록, 새 콘텐츠 검색의 이름 및 사용할 검색 쿼리를 묻는 메시지를 `https://contoso-my.sharepoint.com` 제공합니다. 이 스크립트는 목록의 각 사용자에 대한 비즈니스용 OneDrive URL을 다운로드한 다음 제공한 검색 쿼리를 사용하여 목록의 각 사용자에 대해 사서함 및 비즈니스용 OneDrive 사이트를 검색하는 콘텐츠 검색을 만들고 시작합니다.
   
 ## <a name="permissions-and-script-information"></a>사용 권한 및 스크립트 정보
 
-- 3단계에서 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이자 SharePoint Online 전역 관리자 역할 그룹의 구성원이 되어야 합니다.
+- 3단계에서 스크립트를 실행하기 위해 Microsoft 365 규정 준수 센터 및 SharePoint Online 전역 관리자인 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다.
 
 - 2단계에서 만든 사용자 목록과 3단계의 스크립트를 동일한 폴더에 저장해야 합니다. 이를 통해 스크립트를 더 쉽게 실행할 수 있습니다.
 
@@ -62,7 +62,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
 
 이 단계에서 스크립트를 실행 하면 다음 정보를 묻는 메시지가 표시 됩니다. 스크립트를 실행하기 전에 이 정보를 준비해야 합니다.
   
-- **사용자 자격** 증명 - 스크립트는 자격 증명을 사용하여 SharePoint Online에 액세스하여 비즈니스용 OneDrive URL을 얻고 원격 PowerShell을 사용하여 보안 & 준수 센터에 연결합니다. 
+- **사용자 자격** 증명 - 스크립트는 자격 증명을 사용하여 SharePoint Online에 액세스하여 비즈니스용 OneDrive URL을 얻고 보안 및 준수 & PowerShell에 연결합니다. 
     
 - **MySite** 도메인의 이름 - MySite 도메인은 조직의 모든 비즈니스용 OneDrive 사이트가 포함된 도메인입니다. 예를 들어 MySite 도메인의 URL이 인 경우 스크립트에서 MySite 도메인의 이름을 묻는 메시지가 표시될 **https://contoso-my.sharepoint.com**  `contoso` 때 를 입력합니다. 
     
@@ -70,7 +70,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
 - **콘텐츠 검색의 이름** - 스크립트에서 만들 콘텐츠 검색의 이름입니다. 
     
-- **검색 쿼리** - 콘텐츠 검색에 사용할 검색 쿼리가 만들어지며 실행됩니다. 검색 쿼리에 대한 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건을 참조하세요.](keyword-queries-and-search-conditions.md)
+- **검색 쿼리** - 콘텐츠 검색에 사용할 검색 쿼리가 만들어지며 실행됩니다. 검색 쿼리에 대한 자세한 내용은 [eDiscovery의](keyword-queries-and-search-conditions.md)키워드 쿼리 및 검색 조건을 참조하세요.
 
 
 **스크립트를 실행하려면**
@@ -187,4 +187,4 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
     - 검색 쿼리(콘텐츠 위치의 모든 항목을 반환하기 위해 이 비워 두기).
     
-    스크립트는 각 사이트의 URL을 비즈니스용 OneDrive 검색을 만들고 시작합니다. Security & Compliance Center PowerShell에서 **Get-ComplianceSearch** cmdlet을 실행하여 검색 통계 및 결과를 표시하거나 &,  보안 및 준수 센터의 콘텐츠 검색 페이지로 이동하여 검색에 대한 정보를 볼 수 있습니다.
+    스크립트는 각 사이트의 URL을 비즈니스용 OneDrive 검색을 만들고 시작합니다. Security & Compliance Center PowerShell에서 **Get-ComplianceSearch** cmdlet을 실행하여 검색 통계 및 결과를 표시하거나 검색에  대한 정보를 보기 위해 Microsoft 365 규정 준수 센터 콘텐츠 검색 페이지로 이동하면 됩니다.

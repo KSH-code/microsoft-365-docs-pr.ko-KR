@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: Exchange 및 SharePoint 검색에서 실행되는 eDiscovery 검색에 포함할 수 있는 인덱서되지 않은 항목에 대해 Microsoft 365 규정 준수 센터.
-ms.openlocfilehash: 77d85582d4e30d45854ae6dd3a80f6cc26ba2195
-ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
+ms.openlocfilehash: 2bc319a7330dbdad9abe3c7d43ae76764aca5cca
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372799"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507953"
 ---
 # <a name="partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목
 
@@ -69,7 +69,7 @@ ms.locfileid: "58372799"
   
 마찬가지로 부분적으로 인덱싱된 파일 첨부 파일 및 부분적으로 인덱싱된 파일 형식의 문서가 있는 메시지는 인덱싱 및 검색 가능한 다른 메시지 또는 문서 속성이 검색 조건과 일치할 때 검색 결과에 포함됩니다. 검색을 위해 인덱싱되는 메시지 속성에는 보낸 날짜와 받은 날짜, 보낸 사람과 받은 사람, 첨부 파일의 이름, 메시지 본문의 텍스트 등이 있습니다. 검색을 위해 인덱싱된 문서 속성에는 만든 날짜와 수정된 날짜가 포함됩니다. 따라서 메시지 첨부 파일이 부분적으로 인덱싱된 항목일 수 있는 경우에도 다른 메시지 또는 문서 속성의 값이 검색 조건과 일치하는 경우 메시지는 일반 검색 결과에 포함됩니다.
   
-보안 및 준수 센터의 검색 기능을 사용하여 검색할 수 있는 전자 메일 및 문서 속성 & [eDiscovery에](keyword-queries-and-search-conditions.md)대한 키워드 쿼리 및 검색 조건을 참조하세요.
+전자 메일 및 문서 속성 목록은 eDiscovery 도구에서 eDiscovery 도구를 사용하여 검색할 수 Microsoft 365 규정 준수 센터 [eDiscovery에](keyword-queries-and-search-conditions.md)대한 키워드 쿼리 및 검색 조건을 참조하세요.
   
 > [!NOTE]
 > 사서함 항목이 인덱싱되지 않은 폴더에서 인덱싱된 폴더로 이동하면 항목이 인덱싱되지 않은 것으로 설정되고 항목이 인덱스에서 제거되고 검색할 수 없습니다. 나중에 동일한 항목이 다시 인덱싱된 폴더로 이동하면 플래그가 다시 설정되지 않습니다. 즉, 항목은 인덱서되지 않은 상태로 유지될 수 있으며 검색할 수 없습니다.

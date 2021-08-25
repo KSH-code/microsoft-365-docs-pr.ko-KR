@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 35538ab792fb766ec58cdaca95262888bb483c6b3567b9352792803af1ea64e5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3f3eef756d37bf1552120a05e351c844b37b863b
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53874190"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58506541"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>끝점 검색 API 필드에 대한 Microsoft Defender
 
@@ -63,11 +63,11 @@ ArcSight 필드 열에는 끝점용 Defender 필드와 ArcSight의 기본 제공
 > |8 |UserDomain|sourceNtDomain|CONTOSO|활동을 실행하는 사용자 컨텍스트의 도메인으로, 끝점 동작 기반 검색을 위해 Defender에 사용할 수 있습니다.|
 > |9 |UserName|sourceUserName|liz.bean|활동을 실행하는 사용자 컨텍스트로, 끝점 동작 기반 검색을 위해 Defender에 사용할 수 있습니다.|
 > |10 |Sha1|fileHash|3da065e07b990034e9db7842167f70b63aa5329|파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.|
-> |11|Sha256|deviceCustomString6|ebf54f745dc81e1958f75e4ca91dd0ab989fc9787bb6b0bf993e2f5|Microsoft Defender AV 감지에 사용할 수 있습니다.|
+> |11 |Sha256|deviceCustomString6|ebf54f745dc81e1958f75e4ca91dd0ab989fc9787bb6b0bf993e2f5|Microsoft Defender AV 감지에 사용할 수 있습니다.|
 > |12 |Md5|deviceCustomString5|db979c04a99b96d370988325bb5a8b21|Microsoft Defender AV 감지에 사용할 수 있습니다.|
-> |13|ThreatName|deviceCustomString1|HackTool:Win32/Mikatz!dha|Microsoft Defender AV 감지에 사용할 수 있습니다.|
+> |13 |ThreatName|deviceCustomString1|HackTool:Win32/Mikatz!dha|Microsoft Defender AV 감지에 사용할 수 있습니다.|
 > |14 |IpAddress|sourceAddress|218.90.204.141|네트워크 이벤트와 관련된 검색에 사용할 수 있습니다. 예를 들어 '악성 네트워크 대상에 대한 통신'을 들 수 있습니다.|
-> |15|Url|requestUrl|down.esales360.cn|네트워크 이벤트와 관련된 검색에 사용할 수 있습니다. 예를 들어 '악성 네트워크 대상에 대한 통신'을 들 수 있습니다.|
+> |15 |Url|requestUrl|down.esales360.cn|네트워크 이벤트와 관련된 검색에 사용할 수 있습니다. 예를 들어 '악성 네트워크 대상에 대한 통신'을 들 수 있습니다.|
 > |16 |RemediationIsSuccess|deviceCustomNumber2|TRUE|Microsoft Defender AV 감지에 사용할 수 있습니다. ArcSight 값은 TRUE이면 1, FALSE이면 0입니다.|
 > |17 |WasExecutingWhileDetected|deviceCustomNumber1|FALSE|Microsoft Defender AV 감지에 사용할 수 있습니다. ArcSight 값은 TRUE이면 1, FALSE이면 0입니다.|
 > |18 |AlertId|externalId|636210704265059241_673569822|모든 검색에 사용할 수 있는 값입니다.|
@@ -79,9 +79,9 @@ ArcSight 필드 열에는 끝점용 Defender 필드와 ArcSight의 기본 제공
 > ||LogOnUsers|sourceUserId|contoso\liz-bean; contoso\jay-hardee|이벤트 당시 대화형 로그온 사용자의 도메인 및 사용자입니다. 참고: Windows 10 버전 1607의 디바이스에서는 도메인 정보를 사용할 수 없습니다.|
 > ||InternalIPv4List|매핑 없음|192.168.1.7, 10.1.14.1|활성 네트워크 인터페이스에 대한 IPV4 내부 IP 목록입니다.|
 > ||InternalIPv6List|매핑 없음|fd30:0000:0000:0001:ff4e:003e:0009:000e, FE80:CD00:0000:0CDE:1257:0000:211E:729C|활성 네트워크 인터페이스에 대한 IPV6 내부 IP 목록입니다.|
-||LinkToMTP|매핑 없음|`https://securitycenter.windows.com/alert/da637370718981685665_16349121`|모든 검색에 사용할 수 있는 값입니다.
-||IncidentLinkToMTP|매핑 없음|`"https://securitycenter.windows.com/incidents/byalert?alertId=da637370718981685665_16349121&source=SIEM`|모든 검색에 사용할 수 있는 값입니다.
-||IncidentLinkToWDATP|매핑 없음|`https://securitycenter.windows.com/preferences2/integration/incidents/byalert?alertId=da637370718981685665_16349121&source=SIEM`|모든 검색에 사용할 수 있는 값입니다.
+> ||LinkToMTP|매핑 없음|`https://securitycenter.windows.com/alert/da637370718981685665_16349121`|모든 검색에 사용할 수 있는 값입니다.
+> ||IncidentLinkToMTP|매핑 없음|`"https://securitycenter.windows.com/incidents/byalert?alertId=da637370718981685665_16349121&source=SIEM`|모든 검색에 사용할 수 있는 값입니다.
+> ||IncidentLinkToWDATP|매핑 없음|`https://securitycenter.windows.com/preferences2/integration/incidents/byalert?alertId=da637370718981685665_16349121&source=SIEM`|모든 검색에 사용할 수 있는 값입니다.
 > |내부 필드|LastProcessedTimeUtc|매핑 없음|2017-05-07T01:56:58.9936648Z|이벤트가 백엔드에 도착한 시간입니다. 이 필드는 검색된 시간 범위에 대한 요청 매개 변수를 설정할 때 사용할 수 있습니다.|
 > ||일부가 아닌 경우|deviceVendor||ArcSight 매핑의 정적 값 - 'Microsoft'.|
 > ||일부가 아닌 경우|deviceProduct||ArcSight 매핑의 정적 값 - 'Microsoft Defender ATP'.|

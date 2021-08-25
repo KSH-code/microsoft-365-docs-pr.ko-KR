@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 468abdd5db01cdf5450bfb8efefae0e93852da8be867ebdbc7345587a89779d8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 69b78b3670f8c43309a11cba9e012bc245c30010
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53858213"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508289"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포
 
@@ -180,12 +180,12 @@ Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 �
        > [!div class="mx-imgBorder"]
        > ![Android 자동 부여 앱 구성 정책 만들기 이미지](images/android-auto-grant.png)
 
-    1. 할당 **페이지에서** 이 앱 구성 정책을 할당할 사용자 그룹을 선택합니다. 그룹 **선택을 클릭하여** 해당 그룹을 포함하고 선택한 후 다음 을 **선택합니다.**  여기서 선택한 그룹은 일반적으로 Endpoint Android용 Microsoft Defender 앱을 할당할 그룹과 동일합니다.
+    1. 할당 **페이지에서** 이 앱 구성 정책을 할당할 사용자 그룹을 선택합니다. 그룹 **선택을 클릭하여** 해당 그룹을 포함하고 선택한 후 다음 을 **선택합니다.** 여기서 선택한 그룹은 일반적으로 Endpoint Android용 Microsoft Defender 앱을 할당할 그룹과 동일합니다.
 
        > [!div class="mx-imgBorder"]
        > ![앱 구성 정책 만들기 이미지](images/android-select-group.png)
 
-    1. 다음에 **나오는 검토 + 만들기** 페이지에서 모든 정보를 검토하고 만들기를 **선택합니다.** <br>
+    1. 다음에 **나오는 검토 + 만들기** 페이지에서 모든 정보를 검토하고 만들기를 **선택합니다.**
 
         이제 저장소 권한을 자동으로 확장하기 위한 Defender에 대한 앱 구성 정책이 선택한 사용자 그룹에 할당됩니다.
 
@@ -207,7 +207,7 @@ Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 �
 
 Endpoint용 Defender는 Intune을 통해 관리되는 장치에 대한 장치 구성 정책을 지원합니다. 이 기능은 등록된 장치에서 Android에서 **Always-on VPN의** 자동 설정에 Enterprise 수 있으므로 최종 사용자는 등록하는 동안 VPN 서비스를 설정할 필요가 없습니다.
 
-1. 장치에서 구성 **프로필** 프로필 만들기 프로필 플랫폼  >    >    >  **Android** Enterprise
+1. 장치에서 구성 **프로필** 프로필 만들기 프로필 플랫폼 \>  \>  \> **Android** Enterprise
 
    장치 **등록 유형에** 따라 다음 중 하나에서 장치 제한을 선택합니다.
    - **완전히 관리, 전용 및 Corporate-Owned 프로필**
@@ -249,14 +249,14 @@ Endpoint용 Defender는 Intune을 통해 관리되는 장치에 대한 장치 �
 
     ![장치 구성 프로필의 이미지 검토 및 만들기](images/5autosetupofvpn.png)
 
-## <a name="complete-onboarding-and-check-status"></a>온보더링 완료 및 상태 확인
+## <a name="check-status-and-complete-onboarding"></a>상태 확인 및 온보더링 완료
 
 1. 장치 설치 상태를 클릭하여 Android에서 끝점용 Microsoft Defender의 설치 **상태를 확인합니다.** 디바이스가 여기에 표시되는지 확인합니다.
 
     > [!div class="mx-imgBorder"]
     > ![장치 설치 상태의 이미지](images/900c0197aa59f9b7abd762ab2b32e80c.png)
 
-2. 장치에서 작업 프로필로 가면 온보더링 상태의 유효성을 **검사할 수 있습니다.** 끝점용 Defender를 사용할 수 있으며, 작업 프로필을 사용하여 개인 소유 장치에 **등록하는지 확인**  회사 소유의 완전히 관리되는 사용자 장치에 등록한 경우 디바이스에 단일 프로필이 있습니다. 여기서 끝점용 Defender를 사용할 수 있습니다.
+2. 장치에서 작업 프로필로 가면 온보더링 상태의 유효성을 **검사할 수 있습니다.** 끝점용 Defender를 사용할 수 있으며, 작업 프로필을 사용하여 개인 소유 장치에 **등록하는지 확인** 회사 소유의 완전히 관리되는 사용자 장치에 등록한 경우 디바이스에 단일 프로필이 있습니다. 여기서 끝점용 Defender를 사용할 수 있습니다.
 
     ![모바일 장치의 앱 이미지](images/c2e647fc8fa31c4f2349c76f2497bc0e.png)
 

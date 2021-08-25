@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 2016에서 Core eDiscovery를 사용하는 방법을 Microsoft 365. eDiscovery 권한을 할당하고 사례를 만든 후 구성원을 추가하고 eDiscovery 보류를 만든 다음 조사와 관련된 콘텐츠를 검색하고 내보낼 수 있습니다.
-ms.openlocfilehash: 8b0e1c91f0816df3b443933d4e14c6c36f41b143a27d06516cf66e46a0f054a4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9662045a77b1af69de68729697972821a7a7a589
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819913"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508037"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>2013에서 Core eDiscovery 시작 Microsoft 365
 
@@ -34,7 +34,7 @@ Microsoft 365 핵심 eDiscovery는 조직이 조직에서 검색 및 내보낼 �
 
 Core eDiscovery에 대한 라이선스를 사용하려면 적절한 조직 구독 및 사용자당 라이선스가 필요합니다.
 
-- **조직 구독:** Microsoft 365 규정 준수 센터 또는 Office 365 Security & Compliance Center에서 Core eDiscovery에 액세스하고 보류 및 내보내기 기능을 사용하려면 조직에 Microsoft 365 E3 또는 Office 365 E3 이상이 있어야 합니다.
+- **조직 구독:** 조직에서 Core eDiscovery에 액세스하고 Microsoft 365 규정 준수 센터 및 내보내기 기능을 사용하려면 조직에 Microsoft 365 E3 또는 Office 365 E3 이상이 있어야 합니다.
 
 - **사용자당 라이선스:** 사서함 및 사이트에 eDiscovery를 유지하려면 조직 구독에 따라 사용자에게 다음 라이선스 중 하나를 할당해야 합니다.
 
@@ -58,7 +58,7 @@ Core eDiscovery에 대한 라이선스를 사용하려면 적절한 조직 구�
 
 ## <a name="step-2-assign-ediscovery-permissions"></a>2단계: eDiscovery 사용 권한 할당
 
-Core eDiscovery에 액세스하거나 Core eDiscovery 사례의 구성원으로 추가하려면 사용자에게 적절한 사용 권한이 할당되어야 합니다. 특히 사용자를 Office 365 보안 및 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원으로 & 합니다. 이 역할 그룹의 구성원은 핵심 eDiscovery 사례를 만들고 관리할 수 있습니다. 구성원을 추가 및 제거하고, 사용자에게 eDiscovery 보류를 추가하고, 검색을 만들고 편집하고, Core eDiscovery 사례에서 콘텐츠를 내보낼 수 있습니다.
+Core eDiscovery에 액세스하거나 Core eDiscovery 사례의 구성원으로 추가하려면 사용자에게 적절한 사용 권한이 할당되어야 합니다. 특히, 사용자를 사용자 계정에서 eDiscovery 관리자 역할 그룹의 구성원으로 Microsoft 365 규정 준수 센터. 이 역할 그룹의 구성원은 핵심 eDiscovery 사례를 만들고 관리할 수 있습니다. 구성원을 추가 및 제거하고, 사용자에게 eDiscovery 보류를 추가하고, 검색을 만들고 편집하고, Core eDiscovery 사례에서 콘텐츠를 내보낼 수 있습니다.
 
 다음 단계를 완료하여 eDiscovery 관리자 역할 그룹에 사용자를 추가합니다.
 

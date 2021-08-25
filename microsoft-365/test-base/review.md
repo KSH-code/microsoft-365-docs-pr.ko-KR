@@ -14,12 +14,12 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: b70a2b9446d845f08ea5f309d4c1f1900d6f882e0f1da1e56f301537145dcd11
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8763d07db48f86a1c4224fc6bde4d992ef6d3701
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53804472"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507557"
 ---
 # <a name="step-6-review-your-selections-to-create-your-package"></a>6단계: 선택을 검토하여 패키지를 만들 수 있습니다.
 
@@ -44,9 +44,9 @@ ms.locfileid: "53804472"
 
       :::image type="content" alt-text="패키지 관리를 위한 이미지입니다." source="Media/managepackages.png" lightbox="Media/managepackages.png":::
 
-    - 테스트의 경우 테스트 **요약,** 보안 업데이트 결과 및  기능 업데이트  결과 페이지를 예약된 간격으로 통해 결과를 확인할 수 있으며 업로드 후 며칠 후에 시작되는 경우가 종종 있습니다.
-
-    - 테스트에 실패한 동안 새 패키지를 업로드해야 합니다.
+    - 성공적인 테스트의 경우 테스트 **요약,** 보안 업데이트  결과 및  기능 업데이트 결과 페이지를 예약된 간격으로 통해 결과를 확인할 수 있으며 업로드한 후 며칠 후에 시작되는 경우가 종종 있습니다.
+  
+    - 테스트에 실패한 동안 새 패키지를 업로드해야 합니다. 
 
       보안 업데이트 결과 **및** 기능 업데이트  결과 페이지에서 추가 분석을 위해 테스트 **로그를 다운로드할 수** 있습니다.
 

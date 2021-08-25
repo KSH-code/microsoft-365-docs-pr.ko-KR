@@ -17,23 +17,23 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery 관리 도구를 사용하여 사례 내에서 보호자에 대한 활동에 쉽게 액세스하고 검색할 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b13bfb05e212727faee52e29ac7ee52a02e4a96b1c43329933b1a91754b0d95
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 43ec73c87efaad51711879e0574d03f571675523
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801522"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507833"
 ---
 # <a name="view-custodian-audit-activity"></a>보유자 감사 활동 보기
 
-사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? Advanced eDiscovery 보안 및 준수 센터의 기존 감사 로그 검색 & 통합됩니다. 이 포함된 환경을 사용하면 Advanced eDiscovery 관리 도구를 사용하여 사례 내에서 보호자에 대한 활동에 쉽게 액세스하고 검색하여 조사를 용이하게 할 수 있습니다.
+사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? Advanced eDiscovery 이제 새 로그의 기존 감사 로그 검색 도구와 Microsoft 365 규정 준수 센터. 이 포함된 환경을 사용하면 Advanced eDiscovery 관리 도구를 사용하여 사례 내에서 보호자에 대한 활동에 쉽게 액세스하고 검색하여 조사를 용이하게 할 수 있습니다.
 
 ## <a name="get-permissions"></a>사용 권한 얻기
 
 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 사용 권한 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 최소 권한 수준을 사용하여 Advanced eDiscovery 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고, 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음, 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 Exchange Online에서 역할 그룹 관리를 참조하세요.
 
 > [!IMPORTANT]
-> 사용자에게 보안 View-Only 준수 센터의 사용 권한 페이지에서 감사 로그 또는 감사 로그 역할을 & 경우 감사 로그를 검색할 수 없습니다. Exchange Online에서 사용 권한을 할당해야 합니다. 감사 로그를 검색하는 데 사용되는 기본 cmdlet이 Exchange Online cmdlet이기 때문입니다.
+> Microsoft 365 규정 준수 센터의 사용 권한 페이지에서 사용자에게 보기 전용 감사 로그 또는 감사 로그 역할을 할당하는 경우 감사 로그를 검색할 수 없습니다. Exchange Online에서 사용 권한을 할당해야 합니다. 감사 로그를 검색하는 데 사용되는 기본 cmdlet이 Exchange Online cmdlet이기 때문입니다.
 
 ## <a name="step-1-search-the-audit-log-for-activities-performed-by-a-custodian"></a>1단계: 감사 로그에서 보안 주관자에 의해 수행된 활동 검색
 
@@ -110,4 +110,4 @@ ms.locfileid: "53801522"
 
 3. 내보내기 옵션을 선택하면 CSV 파일을 열거나 다운로드 폴더에 저장하거나 특정 폴더에 저장하라는 메시지가 창 아래쪽에 표시됩니다.
 
-감사 로그 검색 결과를 보거나 필터링하거나 내보내는 데 대한 자세한 내용은 Security & Compliance Center에서 감사 [로그 검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
+감사 로그 검색 결과를 보거나 필터링하거나 내보내는 데 대한 자세한 내용은 감사 로그 [검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md)

@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 Microsoft 365 Defender 포털에서 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 전자 메일 첨부 파일을 다시 검색하기 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 13520774191e9b593f962b8291c873303ddf8580
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: cb8df2eba816a5d70804bf47190c094ac9790073
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400154"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507629"
 ---
 # <a name="use-the-submissions-portal-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>제출 포털을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -37,11 +37,11 @@ ms.locfileid: "58400154"
 
 Microsoft 365 사서함이 Exchange Online 조직에서 관리자는 Microsoft 365 Defender 포털의 제출 포털을 사용하여 검색을 위해 전자 메일 메시지, URL 및 첨부 파일을 Microsoft에 제출할 수 있습니다.
 
-전자 메일 메시지를 제출하면 다음이 표시됩니다.
+분석을 위해 전자 메일 메시지를 제출하면 다음을 얻을 수 있습니다.
 
 - **전자 메일 인증 확인:** 전자 메일 인증이 전달될 때 통과 또는 실패한 경우의 세부 정보입니다.
 - **정책 적중:** 테넌트로 들어오는 전자 메일을 허용하거나 차단할 수 있는 정책에 대한 정보로, 서비스 필터 판정을 어버렸다.
-- **페이로드 신뢰도/확인:** 메시지의 URL 및 첨부 파일을 검사합니다.
+- **페이로드 신뢰도/확인:** 메시지의 모든 URL 및 첨부 파일을 최신으로 검사합니다.
 - **성적 분석:** 휴먼 등급이 수행한 검토를 통해 메시지가 악성인지 여부를 확인할 수 있습니다.
 
 > [!IMPORTANT]

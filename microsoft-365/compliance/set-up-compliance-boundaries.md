@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0e79a5bd2f00a76222f6b0a44df86579f73ca4f
-ms.sourcegitcommit: b05b107774e8bca36c9ee19fdc4719d17e302f11
+ms.openlocfilehash: 93b44b063047ca900a8f5b638494efb5b09a6555
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483370"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508157"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사를 위한 준수 경계 설정
 
@@ -82,9 +82,9 @@ ms.locfileid: "58483370"
 
 ## <a name="step-2-create-a-role-group-for-each-agency"></a>2단계: 각 기관에 대한 역할 그룹 만들기
 
-다음 단계는 보안 및 준수 센터에서 기관과 & 역할 그룹을 만드는 것입니다. 기본 제공 eDiscovery 관리자 그룹을 복사하고 적절한 구성원을 추가하고 요구 사항에 적합하지 않은 역할을 제거하여 역할 그룹을 만드는 것이 좋습니다. eDiscovery 관련 역할에 대한 자세한 내용은 [eDiscovery](assign-ediscovery-permissions.md)사용 권한 할당을 참조하세요.
+다음 단계는 기관에 맞게 Microsoft 365 규정 준수 센터 역할 그룹을 만드는 것입니다. 기본 제공 eDiscovery 관리자 그룹을 복사하고 적절한 구성원을 추가하고 요구 사항에 적합하지 않은 역할을 제거하여 역할 그룹을 만드는 것이 좋습니다. eDiscovery 관련 역할에 대한 자세한 내용은 [eDiscovery](assign-ediscovery-permissions.md)사용 권한 할당을 참조하세요.
   
-역할 그룹을 만들하려면 **보안 및 규정 준수 센터** 에서 사용 권한 페이지로 이동하고 준수 경계 및 eDiscovery 케이스를 사용하여 조사를 관리할 각 에이전시의 각 팀에 대한 역할 그룹을 만듭니다.
+역할 그룹을 만들하려면 의  권한 페이지로 이동하여 Microsoft 365 규정 준수 센터 준수 경계 및 eDiscovery 사례를 사용하여 조사를 관리할 각 기관의 각 팀에 대한 역할 그룹을 만드십시오.
   
 Contoso 규정 준수 경계 시나리오를 사용하는 경우 4개의 역할 그룹을 만들어야 합니다. 각 그룹에 적절한 구성원을 추가해야 합니다.
   
@@ -145,7 +145,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 마지막 단계는 2단계에서 Core eDiscovery 사례 또는 Advanced eDiscovery 사례를 Microsoft 365 규정 준수 센터 2단계에서 만든 역할 그룹을 사례의 구성원으로 추가하는 것입니다. 따라서 규정 준수 경계를 사용하는 두 가지 중요한 특성이 있습니다.
   
-- 사례에 추가된 역할 그룹의 구성원만 보안 및 준수 센터에서 사례를 & 수 있습니다. 예를 들어 Fourth Coffee Investigators 역할 그룹이 사례의 유일한 구성원인 경우 Fourth Coffee eDiscovery Managers 역할 그룹의 구성원(또는 다른 역할 그룹의 구성원)은 사례를 보거나 액세스할 수 없습니다.
+- 사례에 추가된 역할 그룹의 구성원만 사례를 보고 액세스할 수 Microsoft 365 규정 준수 센터. 예를 들어 Fourth Coffee Investigators 역할 그룹이 사례의 유일한 구성원인 경우 Fourth Coffee eDiscovery Managers 역할 그룹의 구성원(또는 다른 역할 그룹의 구성원)은 사례를 보거나 액세스할 수 없습니다.
 
 - 사례에 할당된 역할 그룹의 구성원이 사례와 연결된 검색을 실행하면 해당 기관 내의 콘텐츠 위치(3단계에서 만든 검색 권한 필터로 정의)만 검색할 수 있습니다.
 

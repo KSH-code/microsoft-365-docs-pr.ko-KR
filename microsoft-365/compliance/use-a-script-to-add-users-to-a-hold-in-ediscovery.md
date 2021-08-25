@@ -20,16 +20,16 @@ search.appverid:
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
 description: 스크립트를 실행하여 사이트 & 비즈니스용 OneDrive eDiscovery 사례와 연결된 새 보류에 사서함을 추가하는 Microsoft 365 규정 준수 센터.
-ms.openlocfilehash: 7f1b5f9d3b8106ca899079d22fd4a46a8270771470be5a288ef5d1f77f1a6cce
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 058dae2fdffa67492b611ebe8fc9f1bdb5254706
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53859770"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508241"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>스크립트를 사용하여 Core eDiscovery 사례에서 보류에 사용자 추가
 
-보안 & 준수 센터 PowerShell에서는 eDiscovery 사례 만들기 및 관리와 관련된 시간이 많이 걸리는 작업을 자동화할 수 있는 cmdlet을 제공합니다. 현재 보안 & 준수 센터에서 Core eDiscovery 사례를 사용하여 많은 수의 보유자 콘텐츠 위치를 보류하는 데는 많은 시간 및 준비가 소요됩니다. 예를 들어 보류를 만들기 전에 보류할 각 비즈니스용 OneDrive URL을 수집해야 합니다. 그런 다음 보류하려는 각 사용자에 대해 사서함 및 해당 사서함 비즈니스용 OneDrive 보류에 추가해야 합니다. 이 문서의 스크립트를 사용하여 이 프로세스를 자동화할 수 있습니다.
+보안 & 준수 센터 PowerShell에서는 eDiscovery 사례 만들기 및 관리와 관련된 시간이 많이 걸리는 작업을 자동화할 수 있는 cmdlet을 제공합니다. 현재 핵심 eDiscovery 사례를 사용하여 Microsoft 365 규정 준수 센터 콘텐츠를 보류할 수 있는 위치에 두는 데는 많은 시간 및 준비가 소요됩니다. 예를 들어 보류를 만들기 전에 보류할 각 비즈니스용 OneDrive URL을 수집해야 합니다. 그런 다음 보류하려는 각 사용자에 대해 사서함 및 해당 사서함 비즈니스용 OneDrive 보류에 추가해야 합니다. 이 문서의 스크립트를 사용하여 이 프로세스를 자동화할 수 있습니다.
   
 이 스크립트를 실행하면 조직의 내 사이트 도메인 이름(예: URL, 기존 `contoso` eDiscovery 사례의 이름, 사례와 연결된 새 보류의 이름, 보류할 사용자의 전자 메일 주소 목록 및 쿼리 기반 보류를 만들 때 사용할 검색 쿼리)을 묻는 메시지가 https://contoso-my.sharepoint.com) 표시됩니다. 그런 다음 스크립트는 목록의 각 사용자에 대한 비즈니스용 OneDrive 사이트의 URL을 다운로드하고 새 보류를 만든 다음 목록의 각 사용자에 대한 사서함 및 비즈니스용 OneDrive 사이트를 보류에 추가합니다. 또한 스크립트는 새 보류에 대한 정보가 포함된 로그 파일을 생성합니다.
   
@@ -43,9 +43,9 @@ ms.locfileid: "53859770"
   
 ## <a name="before-you-add-users-to-a-hold"></a>보류에 사용자를 추가하기 전에
 
-- 3단계에서 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 SharePoint 관리자 역할 그룹의 구성원이 되어야 합니다. 자세한 내용은 Office 365 보안 및 준수 센터에서 [eDiscovery 권한 할당을 & 참조하세요.](assign-ediscovery-permissions.md)
+- 3단계에서 스크립트를 실행하기 위해 Microsoft 365 규정 준수 센터 및 SharePoint Online 관리자의 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 자세한 내용은 Office 365 보안 및 준수 센터에서 [eDiscovery 권한 할당을 & 참조하세요.](assign-ediscovery-permissions.md)
 
-- 보안 및 준수 센터의 eDiscovery 사례와 연결된 보류에 최대 1,000개 사서함과 100개 사이트를 추가할 수 & 있습니다. 보류하려는 모든 사용자에게 비즈니스용 OneDrive 사이트가 있는 경우 이 문서의 스크립트를 사용하여 보류에 최대 100명 사용자를 추가할 수 있습니다.
+- 사서함의 eDiscovery 사례와 연결된 보류에 최대 1,000개 사서함과 100개 사이트를 추가할 수 Microsoft 365 규정 준수 센터. 보류하려는 모든 사용자에게 비즈니스용 OneDrive 사이트가 있는 경우 이 문서의 스크립트를 사용하여 보류에 최대 100명 사용자를 추가할 수 있습니다.
 
 - 2단계에서 만든 사용자 목록과 3단계의 스크립트를 동일한 폴더에 저장해야 합니다. 이를 통해 스크립트를 더 쉽게 실행할 수 있습니다.
 
@@ -91,7 +91,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
 
 - **쿼리 기반 보류에 대한 검색 쿼리:** 지정한 검색 조건을 충족하는 콘텐츠만 보류할 수 있도록 쿼리 기반 보류를 만들 수 있습니다. 모든 콘텐츠를 보류하기 위해 검색 쿼리를 묻는 메시지가 표시될 때 **Enter를** 누르기만 합니다.
 
-- **보류 켜기 또는 해제:** 스크립트를 만든 후 보류를 켜거나 스크립트가 보류를 사용하도록 설정하지 않고 보류를 만들 수 있도록 할 수 있습니다. 스크립트를 보류 하도록 설정 하지 않은 경우 나중에 보안 및 준수 센터에서 또는 다음 PowerShell 명령을 실행 하 & 수 있습니다.
+- **보류 켜기 또는 해제:** 스크립트를 만든 후 보류를 켜거나 스크립트가 보류를 사용하도록 설정하지 않고 보류를 만들 수 있도록 할 수 있습니다. 스크립트가 보류를 설정하지 않은 경우 나중에 또는 다음 PowerShell 명령을 실행하여 Microsoft 365 규정 준수 센터 수 있습니다.
 
   ```powershell
   Set-CaseHoldPolicy -Identity <name of the hold> -Enabled $true
@@ -281,7 +281,7 @@ Write-host "Script complete!" -foregroundColor Yellow
 
 4. 스크립트에서 요청하는 정보를 입력합니다.
 
-   이 스크립트는 보안 & 준수 센터 PowerShell에 연결한 다음 eDiscovery 사례에 새 보류를 만들고 비즈니스용 OneDrive 사용자에 대한 사서함 및 사서함을 추가합니다. 보안 및 준수 센터의 **eDiscovery** 페이지에서 사례로 이동하여 & 보류를 볼 수 있습니다.
+   이 스크립트는 보안 & 준수 센터 PowerShell에 연결한 다음 eDiscovery 사례에 새 보류를 만들고 비즈니스용 OneDrive 사용자에 대한 사서함 및 사서함을 추가합니다. 새 보류를 보기 위해 페이지의 **eDiscovery** 페이지에서 사례로 Microsoft 365 규정 준수 센터 수 있습니다.
 
 스크립트 실행이 완료되면 다음 로그 파일을 만들고 스크립트가 있는 폴더에 저장합니다.
   

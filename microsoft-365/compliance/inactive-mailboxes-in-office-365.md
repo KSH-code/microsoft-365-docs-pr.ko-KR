@@ -20,12 +20,12 @@ ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 ms.custom:
 - seo-marvel-apr2020
 description: 사서함을 비활성 사서함으로 전환하여 이전 직원의 사서함 콘텐츠를 보존하는 방법을 배워야 합니다.
-ms.openlocfilehash: 3badfacad1ffc58a686efd1f1971ce6dd015398e6662512c1de4ccb463ee98ef
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7c2e4ce0bb60d29652d66a778c16579646392d21
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801929"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507259"
 ---
 # <a name="overview-of-inactive-mailboxes"></a>비활성 사서함 개요
 
@@ -35,7 +35,7 @@ ms.locfileid: "53801929"
 
 직원이 조직을 떠나거나 연장된 휴가를 떠나면 해당 Microsoft 365 있습니다. 직원의 사서함 데이터는 계정이 제거된 후 30일 동안 보존됩니다. 이 기간 동안 계정을 삭제하지 않은 경우 사서함 데이터를 복구할 수 있습니다. 30일이 지난 후 데이터는 영구적으로 제거됩니다.
 
-그러나 조직에서 이전 직원의 사서함 콘텐츠를 보존해야 하는 경우 사서함을 소송 보존으로 설정하거나 보안 & 준수 센터의 사서함에 Microsoft 365 보존 정책을 적용한 다음 해당 Microsoft 365 계정을 제거하여 사서함을 비활성 사서함으로 전환할 수 있습니다. 비활성 사서함의 콘텐츠는 사서함에 적용된 소송 보존 기간 또는 사서함이 삭제되기 전에 사서함에 적용된 보존 정책의 보존 기간 동안 보존됩니다. You can still recover the corresponding user account for a 30-day period. 그러나 30일이 지난 후 비활성 사서함은 보류 Microsoft 365 보존 정책이 제거될 때까지 사서함에 보존됩니다.
+그러나 조직에서 이전 직원의 사서함 콘텐츠를 보존해야 하는 경우 사서함을 소송 보존으로 설정하거나 사서함에 Microsoft 365 Microsoft 365 규정 준수 센터 보존 정책을 적용한 다음 해당 Microsoft 365 계정을 제거하여 사서함을 비활성 사서함으로 전환할 수 있습니다. 비활성 사서함의 콘텐츠는 사서함에 적용된 소송 보존 기간 또는 사서함이 삭제되기 전에 사서함에 적용된 보존 정책의 보존 기간 동안 보존됩니다. You can still recover the corresponding user account for a 30-day period. 그러나 30일이 지난 후 비활성 사서함은 보류 Microsoft 365 보존 정책이 제거될 때까지 사서함에 보존됩니다.
 
 > [!IMPORTANT]
 > 사서함 콘텐츠를 보존하는 다양한 방식으로 계속 투자함에 따라 In-Place 관리 센터에서 보존 Exchange 발표하고 있습니다. 즉, 소송 보존을 사용하여 Microsoft 365 사서함을 만들어야 합니다. 2020년 7월 1일부터는 새 보류를 In-Place 수 Exchange Online. 그러나 비활성 사서함에 배치된 보류 In-Place 변경할 수 있습니다. 그러나 2020년 10월 1일부터는 보류 기간을 변경할 수 없습니다. 비활성 사서함은 비활성 사서함을 제거하여 비활성 사서함만 삭제할 In-Place 있습니다. 보류에 있는 In-Place 비활성 사서함은 보존이 제거될 때까지 계속 보존됩니다. 보류가 In-Place 대한 자세한 내용은 레거시 [eDiscovery](legacy-ediscovery-retirement.md)도구의 사용 중지를 참조하세요.
@@ -60,7 +60,7 @@ ms.locfileid: "53801929"
 
 - 비활성 사서함은 보존 정책이 비활성 사서함에만 적용될 것이기 때문에 비활성 사서함을 식별하는 좋은 방법입니다.
 
-- 조직의 비활성 사서함에 할당된 보존 정책을 빠르게 식별할 수 있습니다. 따라서 필요한 경우 보존(또는 삭제) 설정을 더 쉽게 변경할 수 있습니다. 또한 보안 및 준수 센터를 사용하여 정책에서 비활성 사서함을 제거할 수 있기 때문에 비활성 사서함을 영구적으로 & 수 있습니다. 그렇지 않은 경우 Exchange Online PowerShell을 사용하여 비활성 사서함에서 소송 보존을 제거하거나 보안 & 준수 센터 PowerShell을 사용하여 조직 전체의 비활성 사서함을 Microsoft 365 합니다.
+- 조직의 비활성 사서함에 할당된 보존 정책을 빠르게 식별할 수 있습니다. 따라서 필요한 경우 보존(또는 삭제) 설정을 더 쉽게 변경할 수 있습니다. 또한 비활성 사서함을 정책에서 제거할 수 있기 때문에 비활성 사서함을 영구적으로 삭제하기도 Microsoft 365 규정 준수 센터. 그렇지 않은 경우 Exchange Online PowerShell을 사용하여 비활성 사서함에서 소송 보존을 제거하거나 보안 & 준수 센터 PowerShell을 사용하여 조직 전체의 비활성 사서함을 Microsoft 365 합니다.
 
 - 비활성 사서함에 Microsoft 365 보존 정책을 만드는 경우 정책에 최대 1,000개 사서함을 추가할 수 있습니다. 대규모 조직인 경우 비활성 사서함에 사용할 보존 정책을 Microsoft 365 수 있습니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "53801929"
 
 ## <a name="inactive-mailboxes-and-ediscovery-case-holds"></a>비활성 사서함 및 eDiscovery 사례 보류
 
-Security & 준수 센터의 eDiscovery 사례와 연결된 보류가 사서함에 배치된 다음 사서함 또는 사용자 계정이 삭제되면 사서함은 비활성 사서함이 됩니다. However, we don't recommend using eDiscovery case holds to make a mailbox inactive. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. At some point, a legal case will probably end and the holds associated with the case will be removed and the eDiscovery case will be closed. In fact, if a hold that's placed on an inactive mailbox is associated with an eDiscovery case, and then the hold is released or the eDiscovery case is closed (or deleted), the inactive mailbox will be permanently deleted. 또한 시간 기반 eDiscovery 보류를 만들 수 없습니다. 즉, 비활성 사서함의 콘텐츠는 보존이 제거되고 비활성 사서함이 삭제될 때까지 영구적으로 보존됩니다. 따라서 비활성 사서함에 대해 소송 보존 또는 보존 정책을 사용하는 것이 좋습니다.
+Microsoft 365 규정 준수 센터 eDiscovery 사례와 연결된 보류가 사서함에 배치된 후 사서함 또는 사용자 계정이 삭제되면 사서함은 비활성 사서함이 됩니다. However, we don't recommend using eDiscovery case holds to make a mailbox inactive. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. At some point, a legal case will probably end and the holds associated with the case will be removed and the eDiscovery case will be closed. In fact, if a hold that's placed on an inactive mailbox is associated with an eDiscovery case, and then the hold is released or the eDiscovery case is closed (or deleted), the inactive mailbox will be permanently deleted. 또한 시간 기반 eDiscovery 보류를 만들 수 없습니다. 즉, 비활성 사서함의 콘텐츠는 보존이 제거되고 비활성 사서함이 삭제될 때까지 영구적으로 보존됩니다. 따라서 비활성 사서함에 대해 소송 보존 또는 보존 정책을 사용하는 것이 좋습니다.
 
 eDiscovery 사례 및 보류에 대한 자세한 내용은 [eDiscovery 사례를 참조하세요.](./get-started-core-ediscovery.md)
 

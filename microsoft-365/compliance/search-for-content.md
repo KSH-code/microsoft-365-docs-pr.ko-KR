@@ -11,12 +11,12 @@ ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 description: Microsoft 365 규정 준수 센터 콘텐츠 검색 eDiscovery 도구를 사용하여 Exchange 사서함, SharePoint 사이트의 문서 및 OneDrive 위치 및 인스턴트 메시징 대화에서 전자 메일을 빠르게 비즈니스용 Skype.
-ms.openlocfilehash: 6161b84fa04b461835777ba769129b9cc32f5ab7
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.openlocfilehash: 577b3af2bbeb1856f55de31123b71f2597c6604a
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58377968"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508301"
 ---
 # <a name="search-for-content-using-the-content-search-tool"></a>콘텐츠 검색 도구를 사용하여 콘텐츠 검색
 
@@ -72,7 +72,7 @@ Microsoft 365 규정 준수 센터 콘텐츠 검색 도구를 사용하여 Excha
 
 ## <a name="use-scripts-for-advanced-scenarios"></a>고급 시나리오에 스크립트 사용
 
-경우에 따라 좀 더 고급, 복잡하고 반복적인 콘텐츠 검색 작업을 실행해야 하는 경우도 있습니다. 이러한 경우 보안 및 준수 센터에서 PowerShell 명령을 더 쉽고 빠르게 & 있습니다. 이를 쉽게 수행할 수 있도록 복잡한 콘텐츠 검색 관련 작업을 완료하는 데 도움이 되는 다양한 보안 & 규정 준수 센터 PowerShell 스크립트를 만들 수 있습니다.
+경우에 따라 좀 더 고급, 복잡하고 반복적인 콘텐츠 검색 작업을 실행해야 하는 경우도 있습니다. 이러한 경우 보안 및 준수 센터 PowerShell에서 명령을 더 쉽고 & 수 있습니다. 이를 쉽게 수행할 수 있도록 복잡한 콘텐츠 검색 관련 작업을 완료하는 데 도움이 되는 다양한 보안 & 규정 준수 센터 PowerShell 스크립트를 만들 수 있습니다.
 
 - [사례에 응답하는](use-content-search-for-targeted-collections.md) 항목이 해당 폴더에 있다는 확신이 있는 경우 특정 사서함 및 사이트 폴더(*대상 컬렉션이라고도 함)를 검색합니다.
 

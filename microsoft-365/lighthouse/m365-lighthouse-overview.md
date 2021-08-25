@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 Microsoft 365 Lighthouse 테넌트의 보안을 유지 및 관리하는 데 도움이 되는 방법을 배워야 합니다.
-ms.openlocfilehash: c6e92f3bdd15fe3b71a49c1c09155054dfe75c6737838ccd8bdcb1d3367f16a5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bde1aeddefd9ab29a77e324a050fc54c276c66b3
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53878014"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507605"
 ---
 # <a name="overview-of-microsoft-365-lighthouse"></a>개요 Microsoft 365 Lighthouse
 
@@ -30,14 +30,14 @@ ms.locfileid: "53878014"
 
 Microsoft 365 Lighthouse SMB(관리 서비스 공급자)가 SMB(중소기업) 고객을 위해 대규모로 장치, 데이터 및 사용자를 보호하고 관리하는 데 도움이 되는 관리 포털입니다Microsoft 365 Business Premium. 
 
-Microsoft 365 Lighthouse SMB 고객에 맞게 보안 구성 기준을 권장하고 모든 고객 환경에서 다중 테넌트 보기를 제공하여 Microsoft 365 Business Premium 테넌트 온보드를 간소화합니다. 이러한 Microsoft 365 Lighthouse 통해 MSP는 고객 관리를 확장하고, 가장 중요한 요소에 집중하고, 위험을 빠르게 찾아 조사하고, 고객을 건강하고 안전한 상태로 유지하도록 조치를 취할 수 있습니다.
+Lighthouse는 SMB 고객에게 조정된 보안 구성 기준을 권장하고 모든 고객 환경에서 다중 테넌트 보기를 제공하여 Microsoft 365 Business Premium 테넌트 온보더링을 간소화합니다. Lighthouse를 사용하여 MSP는 고객의 관리를 확장하고, 가장 중요한 요소에 집중하고, 위험을 빠르게 찾아 조사하고, 고객을 건강하고 안전한 상태로 유지하도록 조치를 취할 수 있습니다.
 
-서비스 및 연결된 장치를 관리하기 위해 Microsoft 365 Lighthouse 추가 Microsoft 365 관련이 없습니다. Microsoft 365 Lighthouse 현재 미리 보기에 있으며 CSP(클라우드 솔루션 공급자) 프로그램에 등록된 MSP가 SMB 고객에게 Microsoft 365 Business Premium 사용할 수 있습니다.
+Lighthouse를 사용하여 서비스 및 연결된 장치를 관리하는 데 추가 Microsoft 365 관련이 없습니다. Lighthouse는 현재 미리 보기로 제공되어 있으며 CSP(클라우드 솔루션 공급자) 프로그램에 등록된 MSP가 SMB 고객에게 Microsoft 365 Business Premium 사용할 수 있습니다.
 
-고객이 Microsoft 365 Lighthouse Microsoft CSP 채널 파트너가 해당 채널을 Microsoft 365 Business Premium 지원됩니다. 여기에는 Microsoft와 직접 거래하는 CSP 파트너와 간접 공급자(배포자)를 통해 거래하는 CSP 파트너가 포함됩니다. 
+Lighthouse를 사용하는 고객이 있는 Microsoft CSP 채널 파트너의 Lighthouse Microsoft 365 Business Premium 지원됩니다. 여기에는 Microsoft와 직접 거래하는 CSP 파트너와 간접 공급자(배포자)를 통해 거래하는 CSP 파트너가 포함됩니다. 
 
 > [!IMPORTANT] 
-> 이 Microsoft 365 Lighthouse 사용하려면 MSP 및 해당 고객 테넌트가 Microsoft 365 Lighthouse 요구 [사항 에 나열된 요구 사항을 충족해야 합니다.](m365-lighthouse-requirements.md)     
+> Lighthouse를 사용하려면 MSP 및 해당 고객 테넌트가 에 나열된 요구 사항을 Microsoft 365 Lighthouse [합니다.](m365-lighthouse-requirements.md)     
 
 CSP 프로그램에 대한 자세한 내용은 클라우드 솔루션 공급자 [프로그램 개요를 참조하세요.](/partner-center/csp-overview)
 
@@ -46,7 +46,7 @@ CSP 프로그램에 대한 자세한 내용은 클라우드 솔루션 공급자 
 
 ## <a name="microsoft-365-lighthouse-benefits"></a>Microsoft 365 Lighthouse 이점
 
-Microsoft 365 Lighthouse 사용하여 MSP는 다음을 통해 Microsoft 365 및 연결된 끝점을 대규모로 보호하고 관리할 수 있습니다.
+Lighthouse는 MSP가 다음을 통해 Microsoft 365 및 연결된 끝점을 보호하고 관리할 수 있도록 합니다.
 
 - 기술자가 일관된 단계에 따라 고객 테넌트의 보안을 유지 및 구성할 수 있도록 테넌트 배포 여정을 제공합니다. 
 - 중소기업 테넌트에 대한 모범 사례를 지정하는 기본 SMB 보안 기준 사용 

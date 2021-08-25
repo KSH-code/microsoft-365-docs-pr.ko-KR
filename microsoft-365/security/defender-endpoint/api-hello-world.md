@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5081822d31d3e127dbe6511719afdaddd6f6b4fdf078bf5c6e09aee4caff725e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ec2057eefc5cb1e8ce59138a1f5a15b7ed0fdd01
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884942"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508217"
 ---
 # <a name="microsoft-defender-for-endpoint-api---hello-world"></a>Endpoint API용 Microsoft Defender API - Hello World
 
@@ -43,18 +43,21 @@ ms.locfileid: "53884942"
 ## <a name="get-alerts-using-a-simple-powershell-script"></a>간단한 PowerShell 스크립트를 사용하여 알림 표시
 
 ### <a name="how-long-it-takes-to-go-through-this-example"></a>이 예제를 진행하는 데 얼마나 걸리나요?
+
 다음 두 단계에서만 5분 정도 걸립니다.
+
 - 응용 프로그램 등록
 - 예제 사용: 짧은 PowerShell 스크립트의 복사/붙여넣기만 필요
 
 ### <a name="do-i-need-a-permission-to-connect"></a>연결할 수 있는 권한이 필요한가요?
+
 응용 프로그램 등록 단계의 경우  Azure AD(Azure AD) 테넌트에 Azure Active Directory 전역 관리자 역할이 있어야 합니다.
 
 ### <a name="step-1---create-an-app-in-azure-active-directory"></a>1단계 - 앱에서 앱 Azure Active Directory
 
 1. 전역 관리자 [사용자로 Azure에](https://portal.azure.com) **로그온합니다.**
 
-2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.**
+2. 앱 등록 **Azure Active Directory** \> **새** \> **등록으로 이동합니다.**
 
    ![응용 Microsoft Azure 탐색 및 이미지](images/atp-azure-new-app2.png)
 
@@ -62,13 +65,13 @@ ms.locfileid: "53884942"
 
 4. 응용 프로그램이 끝점용 Defender에 액세스하여 '모든 경고 읽기' 권한을 **할당하도록 허용합니다.**
 
-   - 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 API를 클릭하고  >    >   **windowsDefenderATP를 > WindowsDefenderATP를** **클릭합니다.**
+   - 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 API를 클릭하고 \>  \>  **windowsDefenderATP를 > WindowsDefenderATP를** **클릭합니다.**
 
    - **참고:** WindowsDefenderATP가 원래 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
 
    ![API 액세스 및 API 선택의 이미지1](images/add-permission.png)
 
-   - 응용 **프로그램 권한**  >  **경고.읽기.>** 권한 추가 클릭 **선택**
+   - 응용 **프로그램 권한** \> **경고.읽기.>** 권한 추가 클릭 **선택**
 
    ![API 액세스 및 API 선택의 이미지2](images/application-permissions.png)
 

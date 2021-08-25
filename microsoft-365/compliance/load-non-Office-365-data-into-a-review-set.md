@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 비영리 Microsoft 365 분석용 검토 집합으로 가져오는 방법을 Advanced eDiscovery 방법을 참조합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 169b7438ced3d34f31cd793cd615ae189af52322ba67497dcc3eee950e9724ec
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fe4863321997ba6b81be2257b6ef44c83bc34cb2
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807903"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508265"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>Microsoft가 아닌 365 데이터를 검토 집합에 로드
 
@@ -89,7 +89,7 @@ ms.locfileid: "53807903"
    > [!NOTE]
    > 앞서 설명한 것 처럼 AzCopy v8.1을 사용하여 파일 페이지에서 제공된 명령을 업로드 **합니다.** 제공된 AzCopy 명령이 실패하면 에서 [AzCopy 문제 해결을 Advanced eDiscovery.](troubleshooting-azcopy.md)
 
-8. 보안 및 준수 센터로 & **다음: 마법사에서** 파일 처리를 클릭합니다.  이렇게 하면 Azure Storage 위치에 업로드된 Microsoft 365가 아닌 파일에 대한 처리, 텍스트 추출 및 인덱싱이 시작됩니다.  
+8. 파일로 Microsoft 365 규정 준수 센터 **다음: 마법사에서** 파일 처리를 클릭합니다.  이렇게 하면 Azure Storage 위치에 업로드된 Microsoft 365가 아닌 파일에 대한 처리, 텍스트 추출 및 인덱싱이 시작됩니다.  
 
 9. 검토 집합에 비영구  데이터 추가라는 작업을  확인하여 파일 처리 페이지 또는 작업 탭에서 Microsoft 365 **진행률을 추적합니다.**  작업이 완료되면 검토 집합에서 새 파일을 사용할 수 있습니다.
 

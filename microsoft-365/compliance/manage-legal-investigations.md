@@ -16,13 +16,13 @@ search.appverid:
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 ms.custom:
 - seo-marvel-apr2020
-description: 조직의 법적 조사를 관리하기 위해 & 준수 센터에서 eDiscovery 사례를 Office 365 관리합니다.
-ms.openlocfilehash: f422695b8d5aea05442cf4e17bf58c472caa3c54a0e0624572438bbc91472480
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+description: 조직의 eDiscovery 사례를 Microsoft 365 규정 준수 센터 조직의 법적 조사를 관리합니다.
+ms.openlocfilehash: 9eb41a67ae4ddfd39e1d40219861e0bd279fc7b8
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53856058"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507677"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Microsoft 365에서 법적 조사 관리
 

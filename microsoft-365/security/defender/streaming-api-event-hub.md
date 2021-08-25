@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e1b121ca196ba1b416b0031e3a0a7a8516bc7299
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: b19b3c23716e7a9b1f78b82b3663271310603df8
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256507"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508313"
 ---
 # <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-azure-event-hub"></a>Azure Microsoft 365 Defender 고급 헌팅 이벤트를 스트리밍하도록 구성
 
@@ -39,7 +39,7 @@ ms.locfileid: "58256507"
 
 2. [Azure](https://ms.portal.azure.com/)테넌트에 로그인하고, **Microsoft.>** 구독 > 리소스 공급자로 >.Insights.
 
-3. 이벤트 허브 네임스페이스를 만들고  이벤트 허브 네임스페이스로 이동하여 > 계층, 처리력 단위 및 예상 부하에 적합한 자동 Inflate을 선택합니다. 자세한 내용은 이벤트 허브 [가격을 참조하세요.](https://azure.microsoft.com/pricing/details/event-hubs/)  
+3. 이벤트 허브 네임스페이스를 만들고  이벤트 허브 네임스페이스로 이동하여 > 계층, 처리력 단위 및 예상 부하에 적합한 자동 Inflate을 선택합니다. 자세한 내용은 이벤트 허브 [가격을 참조하세요.](https://azure.microsoft.com/pricing/details/event-hubs/)
 
 ### <a name="add-contributor-permissions"></a>참가자 권한 추가
 
@@ -47,7 +47,7 @@ ms.locfileid: "58256507"
 
 1. 참가자로 로그인할 Microsoft 365 Defender 정의합니다.
 
-2. 응용 프로그램에 연결하는 경우 앱 등록 서비스 계정을 읽기 프로그램, Azure 이벤트 허브 데이터 수신기로 추가합니다(리소스 그룹 또는 구독 수준에서도 이행할 수 있습니다). 
+2. 응용 프로그램에 연결하는 경우 앱 등록 서비스 계정을 읽기 프로그램, Azure 이벤트 허브 데이터 수신기로 추가합니다(리소스 그룹 또는 구독 수준에서도 이행할 수 있습니다).
 
     **IAM(액세스 제어)** > 이벤트 허브 네임스페이스로 이동하여 > 할당 아래에서 추가 및 **확인을 진행합니다.**
 
@@ -63,7 +63,7 @@ ms.locfileid: "58256507"
 
 5. **Azure 이벤트 허브로 이벤트 전달을 선택하세요.**
 
-6. 이벤트 데이터를 단일 이벤트 허브로 내보내거나 각 이벤트 테이블을 이벤트 허브 네임스페이스의 다른 이벤트 허브로 내보낼지 선택할 수 있습니다. 
+6. 이벤트 데이터를 단일 이벤트 허브로 내보내거나 각 이벤트 테이블을 이벤트 허브 네임스페이스의 다른 이벤트 허브로 내보낼지 선택할 수 있습니다.
 
 7. 이벤트 데이터를 단일 이벤트 허브로 내보내기  위해 이벤트 허브 이름 및 이벤트 허브 리소스 **ID 를 입력합니다.**
 
@@ -95,7 +95,7 @@ ms.locfileid: "58256507"
 
 - 이벤트의 SCHEMA에 대한 자세한 내용은 Microsoft 365 Defender [헌팅 개요를 참조하세요.](advanced-hunting-overview.md)
 
-- 고급 헌팅에서 **DeviceInfo** 테이블에는 장치 그룹이 포함된 **MachineGroup이라는** 열이 있습니다. 여기에서 모든 이벤트도 이 열로 장식됩니다. 
+- 고급 헌팅에서 **DeviceInfo** 테이블에는 장치 그룹이 포함된 **MachineGroup이라는** 열이 있습니다. 여기에서 모든 이벤트도 이 열로 장식됩니다.
 
 ## <a name="data-types-mapping"></a>데이터 형식 매핑
 
@@ -108,10 +108,10 @@ ms.locfileid: "58256507"
    ```kusto
    {EventType}
    | getschema
-   | project ColumnName, ColumnType 
+   | project ColumnName, ColumnType
    ```
 
-- 장치 정보 이벤트의 예는 다음과 같습니다. 
+- 장치 정보 이벤트의 예는 다음과 같습니다.
 
   ![이벤트 허브 리소스 Id2의 이미지](../defender-endpoint/images/machine-info-datatype-example.png)
 

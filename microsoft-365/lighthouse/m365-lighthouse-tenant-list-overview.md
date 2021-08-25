@@ -16,23 +16,23 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 테넌트 목록을 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 테넌트 목록에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: 072135bb1674fcd247005facd70fbe3ad354b663c28ad25920651e6cfe76d13c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: af76322553296d1d22bb003ddf943ae168656734
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53877760"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507881"
 ---
 # <a name="microsoft-365-lighthouse-tenant-list-overview"></a>Microsoft 365 Lighthouse 목록 개요
 
 > [!NOTE]
 > 이 문서에 설명된 기능은 미리 보기에 있으며, 변경될 수 있으며, 요구 사항을 충족하는 파트너만 사용할 수 [있습니다.](m365-lighthouse-requirements.md) 조직에 등록이 Microsoft 365 Lighthouse 에 [등록을 Microsoft 365 Lighthouse.](m365-lighthouse-sign-up.md)
 
-Microsoft 365 Lighthouse 테넌트 목록은 테넌트에 대한 상대적인 테넌트 온보더링 상태를 포함하여 계약을 체결한 다른 테넌트에 대한 Microsoft 365 Lighthouse. 또한 테넌트 목록에 태그를 지정하여 테넌트 전체에 다양한 필터를 Microsoft 365 Lighthouse, 드릴다운하여 특정 테넌트 및 배포 계획의 상태에 대해 자세히 알아보는 데 사용할 수 있습니다.
+Microsoft 365 Lighthouse 테넌트 목록은 Lighthouse에 대한 테넌트 온보더링 상태를 포함하여 계약을 체결한 다른 테넌트에 대한 정보를 제공합니다. 또한 테넌트 목록에 테넌트에 태그를 지정하여 Lighthouse 전체에 다양한 필터를 제공하고 드릴다운하여 특정 테넌트 및 배포 계획 상태에 대해 자세히 알아보는 데 사용할 수 있습니다.
 
-테넌트가 Microsoft 365 Lighthouse [](m365-lighthouse-requirements.md)요구 사항을 충족하면 해당 상태가 테넌트 목록에 **활성으로** 표시됩니다.
+테넌트가 [Lighthouse](m365-lighthouse-requirements.md)온보더링 요구 사항을 충족하면 해당 상태가 테넌트 목록에 **활성으로** 표시됩니다.
 
-Microsoft 365 Lighthouse 테넌트 목록에 액세스하려면 왼쪽  탐색 창에서 테넌트를 선택하여 테넌트 페이지를 열 수 있습니다.
+Lighthouse의 테넌트 목록에 액세스하려면 왼쪽 탐색 창에서 테넌트를 선택하여 테넌트 페이지를 여십시오. 
 
 ## <a name="tenant-status"></a>테넌트 상태
 
@@ -47,13 +47,13 @@ Microsoft 365 Lighthouse 테넌트 목록에 액세스하려면 왼쪽  탐색 �
 | 부적임, 라이선스 | 테넌트에는 필수 라이선스가 없습니다. |
 | 비활성 | 테넌트가 더 이상 활성 상태입니다. |
 
-테넌트의 비활성화가 완료되면 비활성화 프로세스를 완료하는 동안 테넌트에 Microsoft 365 Lighthouse 수 없습니다. 비활성화가 완료될 때 최대 48시간이 걸릴 수 있습니다.
+테넌트의 비활성화가 완료되면 Lighthouse가 비활성화 프로세스를 완료하는 동안 테넌트에 대한 작업을 취할 수 없습니다. 비활성화가 완료될 때 최대 48시간이 걸릴 수 있습니다.
 
 테넌트를 다시 활성화하기로 결정한 경우 데이터가 다시 그려지기까지 최대 48시간이 걸릴 수 있습니다.
 
 ## <a name="tenant-tags"></a>테넌트 태그
 
-고객 테넌트에 사용자 지정 레이블을 사용하여 고객 테넌트에 태그를 Microsoft 365 Lighthouse. 이러한 태그를 사용하여 테넌트를 구성할 수 있으며 관련 고객 테넌트 집합에 사용할 수 있는 기존 보기 및 정보를 쉽게 필터링할 수도 있습니다. 테넌트 페이지에서 태그와 태그가 할당된 테넌트도 관리할 수 있습니다.
+Lighthouse 내에서 사용자 지정 레이블을 사용하여 고객 테넌트에 태그를 지정할 수 있습니다. 이러한 태그를 사용하여 테넌트를 구성할 수 있으며 관련 고객 테넌트 집합에 사용할 수 있는 기존 보기 및 정보를 쉽게 필터링할 수도 있습니다. 테넌트 페이지에서 태그와 태그가 할당된 테넌트도 관리할 수 있습니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

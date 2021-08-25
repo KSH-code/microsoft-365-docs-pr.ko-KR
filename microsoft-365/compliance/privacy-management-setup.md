@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에 대한 개인 정보 관리를 설정하고, 역할 및 사용 권한을 설정하고, 중요한 설정을 구성하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2603a41fd4afb83c353854e5bed4c236138dd21d
-ms.sourcegitcommit: 43897ead6db2d3977f6ceb8abeedb8aaff9c020a
+ms.openlocfilehash: 8f45e779cc6ce8deaf20a5f49b597f4ad6139a08
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380215"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507701"
 ---
 # <a name="get-started-with-privacy-management-preview"></a>개인 정보 관리 시작(미리 보기)
 
@@ -38,15 +38,13 @@ ms.locfileid: "58380215"
 
 ## <a name="set-up-privacy-management"></a>개인 정보 관리 설정
 
-개인 정보 관리를 시작하기 위해 먼저 평가판 라이선스를 얻습니다. 그런 다음 개인 정보 관리에 로그인하고, 사용자에게 사용 권한을 할당하고, 설정을 검토할 수 있습니다.
+개인 정보 관리를 시작하기 위해 먼저 무료 평가판 라이선스를 얻습니다. 그런 다음 로그인하고, 사용자에게 사용 권한을 할당하고, 설정을 검토하고, 개인 정보 관리의 기능을 사용할 수 있습니다.
 
-### <a name="get-trial-license"></a>평가판 라이선스 취득
+### <a name="get-free-trial-license"></a>무료 평가판 라이선스 다운로드
 
 공개 미리 보기를 시작하려면 전역 관리자가 관리 센터에서 무료 개인 정보 관리 평가판 라이선스를 [얻을 수 있습니다.](https://aka.ms/purchasem365privacy) 시작하려면 "평가판 시작"을 선택합니다. 라이선스는 한 달 동안 지속됩니다. 공개 미리 보기 중에 필요한 경우 비용으로 갱신할 수 있습니다.
 
 구독을 얻은 후 정품 인증을 위해 최대 30분을 허용합니다. 그런 다음 규정 준수 센터의 개인 정보 관리로 돌아와서 시작할 수 있습니다.
-
-### <a name="accept-privacy-management-terms"></a>개인 정보 관리 약관 수락
 
 개인 정보 관리를 처음 열면 약관 및 개인 데이터 평가 프로세스(자세한 정보)에 동의하는지 확인하는[것이 요청됩니다.](privacy-management.md#where-privacy-management-identifies-personal-data) 계속하기 전에 제공된 링크를 전체 검토할 수 있습니다. 동의하면 개인 정보 관리가 조직의 데이터에 대한 인사이트 제공을 시작하기까지 최대 24시간이 걸릴 수 있습니다.
 
@@ -62,11 +60,11 @@ ms.locfileid: "58380215"
 
 ### <a name="manage-settings"></a>설정 관리
 
-개인 설정 페이지의 오른쪽 위 모서리에 있는 기어 휠을 통해 액세스할 수 있습니다. 이를 통해 개인 정보 관리 관리자는 개인 정보 관리 전체에서 필수 속성을 구성할 수 있습니다.
+개인 설정 페이지의 오른쪽 위 모서리에 있는 기어 휠을 통해 액세스할 수 있습니다. 개인 정보 관리 관리자는 이 기능을 통해 개인 정보 관리 전반에 걸쳐 중요한 속성(예를 들어, 비동기화, 전자 메일 알림 등)을 구성할 수 있습니다.
 
 시작하기 전에 기본 구성을 검토하고 원하는 조정을 할 수 있습니다. 옵션에 대한 자세한 내용은 개인 정보 관리 설정 [관리를 참조하세요.](privacy-management-settings.md)
 
-## <a name="get-initial-data-insights"></a>초기 데이터 인사이트 확보
+## <a name="start-visualizing-your-data"></a>데이터 시각화 시작
 
 개인 정보 관리에 로그인한 후 개요 페이지에 **도착합니다.** 이 페이지에서는 문제를 빠르게 파악하고, 위험 지표를 식별하고, 문제를 해결하기 위한 조치를 취할 수 있도록 Microsoft 365 환경에 저장된 개인 데이터에 대한 인사이트를 제공합니다. 개요는 등록 후 처음 24시간 내에 초기 정보를 채워야 합니다. 개인 정보 관리를 계속 사용할 때 개요 페이지가 새로 고쳐 현재 정보를 계속 제공합니다.
 
@@ -74,6 +72,10 @@ ms.locfileid: "58380215"
 
 이러한 페이지에 대한 자세한 내용은 데이터 찾기 및 [시각화를 참조하세요.](privacy-management-data-profile.md)
 
-## <a name="get-started-with-default-policies"></a>기본 정책 시작
+## <a name="start-managing-risks-with-default-policies"></a>기본 정책을 통해 위험 관리 시작
 
-개인 정보 보호 관리는 데이터 최소화, 데이터 과다 사용 및 데이터 전송을 위한 템플릿을 사용하여 기본 설정을 사용하여 세 가지 정책을 만들어 데이터 평가 프로세스를 시작하는 데 도움이 됩니다. 이러한 정책은 기본적으로 설정되지만 알림 메일 또는 수정 프롬프트를 자동으로 트리거하지는 않습니다. 초기 설정 후 정책을 만들고 사용자 지정할 수 있습니다. 자세한 내용은 정책 만들기 [및 관리를 참조합니다.](privacy-management-policies.md)
+개인 정보 보호 관리는 데이터 평가를 시작하고 데이터 최소화, 데이터 과다 노출 및 데이터 전송을 위한 템플릿을 사용하여 기본 설정이 있는 세 가지 정책을 만들어 주요 위험 시나리오를 살펴보는 데 도움이 됩니다. 이러한 정책은 기본적으로 설정되지만 알림 메일 또는 수정 프롬프트를 자동으로 트리거하지는 않습니다. 초기 설정 후 정책을 만들고 사용자 지정할 수 있습니다. 자세한 내용은 정책 만들기 [및 관리를 참조합니다.](privacy-management-policies.md)
+
+## <a name="get-started-with-subject-rights-requests"></a>주체 권한 요청 시작
+
+개인 정보 보호 관리의 주체 권한 요청 솔루션은 저장하는 개인 데이터를 검토하거나 관리하려는 개인의 요청을 처리하는 데 도움이 될 수 있습니다. 이러한 기능 사용에 대한 자세한 내용은 주체 권한 요청 [관리를 참조합니다.](privacy-management-subject-rights-requests.md)

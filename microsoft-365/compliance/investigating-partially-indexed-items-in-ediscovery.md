@@ -18,12 +18,12 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내에서 인덱싱된 항목(인덱싱되지 않은 항목이라고도 Exchange, SharePoint 및 비즈니스용 OneDrive 관리하는 방법을 학습합니다.
-ms.openlocfilehash: bd3e9f1da3b3404f1ca99d44c01fc4fa85ad391c3b0ede8889319044072bed8a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 173ff913e9e355e9032e83d5c197a4ced9865257
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53860239"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507271"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -123,7 +123,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
 
    ```powershell
      write-host "**************************************************"
-     write-host "     Security & Compliance Center      " -foregroundColor yellow -backgroundcolor darkgreen
+     write-host "     Security & Compliance Center PowerShell      " -foregroundColor yellow -backgroundcolor darkgreen
      write-host "   eDiscovery Partially Indexed Item Statistics   " -foregroundColor yellow -backgroundcolor darkgreen
      write-host "**************************************************"
      " " 
@@ -164,7 +164,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
      }
    ```
 
-2. [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/exchange-online-powershell)
+2. [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/exchange-online-powershell)합니다.
 
 3. 보안 & 준수 센터 PowerShell에서 1단계에서 스크립트를 저장한 폴더로 이동한 다음 스크립트를 실행합니다. 예를 들어:
 

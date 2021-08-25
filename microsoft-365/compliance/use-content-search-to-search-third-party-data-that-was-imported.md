@@ -17,16 +17,16 @@ search.appverid:
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용하여 쿼리를 만들어 타사 Microsoft 365 원본의 사서함으로 가져온 항목을 검색할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f493640ecb1e0e0bb03ce315055e2faac37d0a5a05b47711c29d68e13a46a6c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: afed5e519b789baffca4f16b95c842ccfe575b4f
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891670"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507641"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-by-a-custom-partner-connector"></a>콘텐츠 검색을 사용하여 사용자 지정 파트너 커넥터에서 가져온 타사 데이터 검색
 
-보안 및 준수 센터의 콘텐츠 검색 [eDiscovery](content-search.md) 도구를 사용하여 & 데이터 원본에서 사서함으로 가져온 항목을 Microsoft 365 수 있습니다. 가져온 모든 타사 데이터 항목을 검색하는 쿼리를 만들거나 특정 타사 데이터 항목을 검색하는 쿼리를 만들 수 있습니다. 또한 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 보류를 만들어 타사 데이터를 보존할 수도 있습니다.
+콘텐츠 검색 [eDiscovery](content-search.md) 도구를 사용하여 Microsoft 365 규정 준수 센터 원본의 사서함으로 가져온 항목을 Microsoft 365 타사 데이터 원본에서 검색할 수 있습니다. 가져온 모든 타사 데이터 항목을 검색하는 쿼리를 만들거나 특정 타사 데이터 항목을 검색하는 쿼리를 만들 수 있습니다. 또한 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 보류를 만들어 타사 데이터를 보존할 수도 있습니다.
   
 파트너와 협력하여 타사 데이터를 가져오는 데 사용할 수 있는 타사 데이터 형식 및 타사 데이터 형식 목록을 Microsoft 365 파트너와 협력하여 타사 데이터를 [Office 365.](work-with-partner-to-archive-third-party-data.md)
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사례 만들기 및 관리를 시작할 수 있도록 Advanced eDiscovery 방법을 설명합니다. 또한 필수 Microsoft 구독 및 라이선싱에 대해 설명합니다. 몇 가지 빠른 단계를 완료하면 Advanced eDiscovery 사용할 수 있습니다.
-ms.openlocfilehash: 1b2f7a26c96af40f28ef69cfc70d07c90b229dc86b4a78df68247c30ab4ff323
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: eb54b43e4361750f66371f224cd7bf6bce58d604
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814130"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508025"
 ---
 # <a name="set-up-microsoft-365-advanced-ediscovery"></a>설정 Microsoft 365 Advanced eDiscovery
 
@@ -42,7 +42,7 @@ Advanced eDiscovery 조직의 Microsoft 365 조사에 응답하는 데이터를 
 
 ## <a name="step-2-assign-ediscovery-permissions"></a>2단계: eDiscovery 사용 권한 할당
 
-사용자 Advanced eDiscovery 액세스하거나 Advanced eDiscovery 구성원으로 추가하려면 사용자에게 적절한 사용 권한이 할당되어야 합니다. 특히 사용자를 보안 및 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원으로 & 합니다. 이 역할 그룹의 구성원은 이러한 사례를 만들고 관리할 Advanced eDiscovery 있습니다. 구성원을 추가 및 제거하고, 보유자 및 콘텐츠 위치를 보류하고, 법적 보류 알림을 관리하고, 사례에 연결된 검색을 만들고 편집하고, 검토 집합에 검색 결과를 추가하고, 검토 집합의 데이터를 분석하고, Advanced eDiscovery 사례에서 내보내고 다운로드할 수 있습니다.
+사용자 Advanced eDiscovery 액세스하거나 Advanced eDiscovery 구성원으로 추가하려면 사용자에게 적절한 사용 권한이 할당되어야 합니다. 특히, 사용자를 사용자 계정에서 eDiscovery 관리자 역할 그룹의 구성원으로 Microsoft 365 규정 준수 센터. 이 역할 그룹의 구성원은 이러한 사례를 만들고 관리할 Advanced eDiscovery 있습니다. 구성원을 추가 및 제거하고, 보유자 및 콘텐츠 위치를 보류하고, 법적 보류 알림을 관리하고, 사례에 연결된 검색을 만들고 편집하고, 검토 집합에 검색 결과를 추가하고, 검토 집합의 데이터를 분석하고, Advanced eDiscovery 사례에서 내보내고 다운로드할 수 있습니다.
 
 다음 단계를 완료하여 eDiscovery 관리자 역할 그룹에 사용자를 추가합니다.
 

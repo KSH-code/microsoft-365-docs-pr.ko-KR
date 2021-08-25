@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery 및 In-Place 보류(및 해당 PowerShell cmdlet)Exchange Online 2020년 상반기에는 사용 중지됩니다. 동일한 Search-Mailbox 기간 내에 Advanced eDiscovery v1.0도 사용 중지됩니다.
-ms.openlocfilehash: 5fbcb980d941ddd54ce76d5a44f93e5cdd9f7e052466d01a727668ffac2c89ea
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 16a43122ce16a134a6068f78dadea02ac8605625
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53860082"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507235"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>eDiscovery 도구의 사용 중지
 
@@ -56,7 +56,7 @@ Microsoft 365 규정 준수 센터 eDiscovery의 새로운 기능과 향상된 �
 
    - [GetHoldOnMailboxes](/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
 
-- [Office 365 Advanced eDiscovery v1.0은](./overview-ediscovery-20.md)Advanced eDiscovery 보안 및 준수 센터의 Core eDiscovery 사례를 통해 액세스되는 Office 365 & 버전입니다. v1.Advanced eDiscovery 사용 중지는 핵심 eDiscovery 사례를 만들고 관리하는 능력에 영향을 끼치지 않습니다.
+- [Office 365 Advanced eDiscovery v1.0은](./overview-ediscovery-20.md)Advanced eDiscovery Core eDiscovery 사례를 통해 액세스되는 Microsoft 365 규정 준수 센터. v1.Advanced eDiscovery 사용 중지는 핵심 eDiscovery 사례를 만들고 관리하는 능력에 영향을 끼치지 않습니다.
 
 > [!NOTE]
 > 사용 중지되는 eDiscovery 기능은 클라우드 기반 버전의 Microsoft 365 Office 365. Exchange 및 SharePoint 버전의 eDiscovery 기능은 추가 공지가 있을 때까지 계속 지원됩니다.

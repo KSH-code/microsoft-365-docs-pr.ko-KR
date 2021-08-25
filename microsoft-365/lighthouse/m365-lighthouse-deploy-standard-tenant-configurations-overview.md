@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse)의 경우 기준을 사용하여 표준 테넌트 구성을 배포하는 방법을 배워야 합니다.
-ms.openlocfilehash: 5eea1deae1c8cf56315e121baa29273fc98feca8
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.openlocfilehash: 5dc1f7da329ab1630d857ee337048a47ad06c9e9
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365204"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58507941"
 ---
 # <a name="overview-of-using-baselines-to-deploy-standard-tenant-configurations"></a>기준을 사용하여 표준 테넌트 구성 배포 개요 
 
@@ -30,15 +30,15 @@ ms.locfileid: "58365204"
 
 Microsoft 365 Lighthouse 기준은 여러 고객 테넌트에서 보안 설정을 평가하고 Microsoft 365 수 있는 반복 가능하고 확장 가능한 방법을 제공합니다. 또한 기준은 사용자, 장치 및 데이터를 보호하는 구성을 사용하여 핵심 보안 정책 및 테넌트 준수 표준을 모니터링하는 데 도움이 됩니다.
 
-파트너가 자신의 속도에 따라 보안을 채택할 수 있도록 설계된 Microsoft 365 Lighthouse 표준 기준 매개 변수 집합과 Microsoft 365 서비스를 위한 구성을 제공합니다. 이러한 보안 구성은 테넌트의 보안 및 준수 Microsoft 365 측정하는 데 도움이 됩니다.
+파트너가 자신의 속도에 따라 보안을 채택할 수 있도록 설계된 Lighthouse는 표준 기준 매개 변수 집합 및 Microsoft 365 서비스를 위한 구성을 제공합니다. 이러한 보안 구성은 테넌트의 보안 및 준수 Microsoft 365 측정하는 데 도움이 됩니다.
 
-기본 기준 및 해당 배포 단계는 기본 기본 계획 내에서 볼 수 Microsoft 365 Lighthouse. 테넌트에 기준을 적용하려면  왼쪽 탐색 창에서 테넌트를 선택한 다음 테넌트를 선택합니다. 그런 다음 배포 계획 **탭으로 이동하여** 원하는 기준을 구현합니다.
+Lighthouse 내에서 기본 기준 및 해당 배포 단계를 볼 수 있습니다. 테넌트에 기준을 적용하려면  왼쪽 탐색 창에서 테넌트를 선택한 다음 테넌트를 선택합니다. 그런 다음 배포 계획 **탭으로 이동하여** 원하는 기준을 구현합니다.
 
 ## <a name="standard-baseline-security-templates"></a>표준 기준 보안 템플릿
 
-Microsoft 365 Lighthouse 표준 기준 구성은 모든 관리되는 테넌트가 허용되는 보안 범위 및 규정 준수 상태를 달성할 수 있도록 디자인되었습니다.
+보안 워크로드에 대한 Lighthouse 표준 기준 구성은 모든 관리되는 테넌트가 허용되는 보안 범위 및 규정 준수 상태를 달성할 수 있도록 고안되었습니다.
 
-다음 표의 기준 구성은 기본 Microsoft 365 Lighthouse 표준으로 제공됩니다.<br><br>
+다음 표의 기준 구성은 Lighthouse 기본 기준을 표준으로 제공합니다.<br><br>
 
 | 기준 구성 | 설명 |
 |--|--|

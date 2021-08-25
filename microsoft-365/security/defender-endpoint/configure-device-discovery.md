@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2c58fb68ec96f802621c3b4c3a25d4174fc6017dd7f2855850fbcd6ea052d82d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5c70a21ad3e47b2e2347c3f88ba276b3e9fd9801
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863826"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58506481"
 ---
 # <a name="configure-device-discovery"></a>장치 검색 구성
 
@@ -35,10 +35,9 @@ ms.locfileid: "53863826"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-검색은 표준 모드 또는 기본 모드로 구성할 수 있습니다. 표준 옵션을 사용하여 네트워크에서 장치를 적극적으로 찾으면 끝점 검색을 보다 잘 보장하고 더 풍부한 장치 분류를 제공할 수 있습니다. 
+검색은 표준 모드 또는 기본 모드로 구성할 수 있습니다. 표준 옵션을 사용하여 네트워크에서 장치를 적극적으로 찾으면 끝점 검색을 보다 잘 보장하고 더 풍부한 장치 분류를 제공할 수 있습니다.
 
 표준 검색을 수행하는 데 사용되는 장치 목록을 사용자 지정할 수 있습니다. 이 기능을 지원하는 모든 온보드 디바이스(현재 - Windows 10 장치만 해당)에서 표준 검색을 사용하도록 설정하거나 장치 태그를 지정하여 장치의 하위 집합 또는 하위 집합을 선택할 수 있습니다.
 
@@ -55,17 +54,18 @@ ms.locfileid: "53863826"
 
 ## <a name="exclude-devices-from-being-actively-probed-in-standard-discovery"></a>표준 검색에서 디바이스가 적극적으로 프로브되지 못하게 제외
 
-네트워크에 적극적으로 검사하지 말아야 하는 장치(예: 다른 보안 도구의 허니팟으로 사용되는 장치)가 있는 경우 제외 목록을 정의하여 검사하지 못하게 할 수도 있습니다. 기본 검색 모드를 사용하여 디바이스를 검색할 수 있습니다. 이러한 디바이스는 수동적으로 검색되지만 적극적으로 프로브되지 않습니다. 
+네트워크에 적극적으로 검사하지 말아야 하는 장치(예: 다른 보안 도구의 허니팟으로 사용되는 장치)가 있는 경우 제외 목록을 정의하여 검사하지 못하게 할 수도 있습니다. 기본 검색 모드를 사용하여 디바이스를 검색할 수 있습니다. 이러한 디바이스는 수동적으로 검색되지만 적극적으로 프로브되지 않습니다.
 
 ## <a name="select-networks-to-monitor"></a>모니터링할 네트워크 선택
- 끝점용 Microsoft Defender는 네트워크를 분석하여 모니터링해야 하는 회사 네트워크인지 또는 무시할 수 있는 회사 네트워크가 아닌 네트워크인지 확인합니다. 회사 네트워크는 일반적으로 모니터링할 수 있는 것으로 선택됩니다. 그러나 온보드 장치가 있는 회사 네트워크가 아닌 네트워크를 모니터링하기로 선택하여 이 결정을 다시 정할 수 있습니다. 
 
-모니터링할 네트워크를 지정하여 장치 검색을 수행할 수 있는 위치를 구성할 수 있습니다. 네트워크가 모니터링될 때 디바이스 검색을 수행할 수 있습니다. 
+ 끝점용 Microsoft Defender는 네트워크를 분석하여 모니터링해야 하는 회사 네트워크인지 또는 무시할 수 있는 회사 네트워크가 아닌 네트워크인지 확인합니다. 회사 네트워크는 일반적으로 모니터링할 수 있는 것으로 선택됩니다. 그러나 온보드 장치가 있는 회사 네트워크가 아닌 네트워크를 모니터링하기로 선택하여 이 결정을 다시 정할 수 있습니다.
 
-장치 검색을 수행할 수 있는 네트워크 목록이 모니터링된 네트워크 **페이지에 표시됩니다.** 
+모니터링할 네트워크를 지정하여 장치 검색을 수행할 수 있는 위치를 구성할 수 있습니다. 네트워크가 모니터링될 때 디바이스 검색을 수행할 수 있습니다.
+
+장치 검색을 수행할 수 있는 네트워크 목록이 모니터링된 네트워크 **페이지에 표시됩니다.**
 
 > [!NOTE]
-> 네트워크 목록에서는 연결된 장치 수에 따라 상위 50개 네트워크만 사용할 수 있습니다. 
+> 네트워크 목록에서는 연결된 장치 수에 따라 상위 50개 네트워크만 사용할 수 있습니다.
 
 모니터링된 네트워크 목록은 지난 7일 동안 네트워크에 표시된 총 장치 수를 기준으로 정렬됩니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "53863826"
 
 - **모니터링된 네트워크** - 장치 검색이 수행되는 네트워크.
 - **무시된 네트워크** - 이 네트워크는 무시되고 디바이스 검색이 수행되지 않습니다.
-- **모두** - 모니터링된 네트워크와 무시된 네트워크가 모두 표시됩니다. 
+- **모두** - 모니터링된 네트워크와 무시된 네트워크가 모두 표시됩니다.
 
 ### <a name="configure-the-network-monitor-state"></a>네트워크 모니터 상태 구성
 
@@ -88,11 +88,12 @@ ms.locfileid: "53863826"
 5. 초기 검색 분류를 모니터링할지, 무시할지 또는 사용할지 여부를 선택해야 합니다.
 
     > [!WARNING]
-    > - 회사 네트워크로 Microsoft Defender for Endpoint에서 식별되지 않은 네트워크를 모니터링하기로 선택하면 회사 네트워크 외부에서 장치 검색이 발생할 수 있으므로 홈 또는 기타 회사용이 아닌 장치를 검색할 수 있습니다. 
+    >
+    > - 회사 네트워크로 Microsoft Defender for Endpoint에서 식별되지 않은 네트워크를 모니터링하기로 선택하면 회사 네트워크 외부에서 장치 검색이 발생할 수 있으므로 홈 또는 기타 회사용이 아닌 장치를 검색할 수 있습니다.
     > - 네트워크를 무시하기로 선택하면 네트워크에서 장치 모니터링 및 검색이 중지됩니다. 이미 검색된 장치는 인벤토리에서 제거되지 않지만 더 이상 업데이트되지 않습니다. 끝점용 Defender의 데이터 보존 기간이 만료될 때까지 세부 정보가 보존됩니다.
     > - 회사 네트워크가 아닌 네트워크를 모니터링하도록 선택하기 전에 해당 작업을 할 수 있는 권한이 있어야 합니다. <br>
 
-6. 변경하려는지 확인 
+6. 변경하려는지 확인
 
 ## <a name="explore-devices-in-the-network"></a>네트워크에서 디바이스 탐색
 
@@ -101,12 +102,12 @@ ms.locfileid: "53863826"
 ```kusto
 DeviceNetworkInfo
 | where Timestamp > ago(7d)
-| summarize arg_max(Timestamp, *) by DeviceId
 | where ConnectedNetworks  != ""
 | extend ConnectedNetworksExp = parse_json(ConnectedNetworks)
 | mv-expand bagexpansion = array ConnectedNetworks=ConnectedNetworksExp
 | extend NetworkName = tostring(ConnectedNetworks ["Name"]), Description = tostring(ConnectedNetworks ["Description"]), NetworkCategory = tostring(ConnectedNetworks ["Category"])
 | where NetworkName == "<your network name here>"
+| summarize arg_max(Timestamp, *) by DeviceId
 ```
 
 ## <a name="get-information-on-device"></a>디바이스에 대한 정보 얻기
@@ -116,11 +117,8 @@ DeviceNetworkInfo
 ```kusto
 DeviceInfo
 | where DeviceName == "<device name here>" and isnotempty(OSPlatform)
-| summarize arg_max(Timestamp, *) by DeviceId 
+| summarize arg_max(Timestamp, *) by DeviceId
 ```
-
-
-
 
 ## <a name="see-also"></a>참고 항목
 

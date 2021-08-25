@@ -21,12 +21,12 @@ ms.collection:
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: 관리자는 조직 외부의 사용자와 공유되는 리소스를 식별하기 위해 Microsoft 365 감사 로그에서 공유 감사를 사용하는 방법을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e77d02351763caee74137108a8d4f7b6a6f7bd3dd59abc8ce312a9290e6a7789
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 54041bfc9ea2c35ab241ca5509ea8c6dd1a101f2
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801488"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58508229"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>감사 로그에서 공유 감사 사용
 
@@ -94,7 +94,7 @@ ms.locfileid: "53801488"
   
 ### <a name="step-1-search-for-sharing-events-and-export-the-results-to-a-csv-file"></a>1단계: 공유 이벤트 검색 및 CSV 파일로 결과 내보내기
 
-첫 번째 단계는 감사 로그에서 공유 이벤트를 검색하는 것입니다. 감사 로그 검색에 대한 자세한 내용은 (필요한 사용 권한 포함) 보안 및 준수 센터에서 감사 [로그 & 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
+첫 번째 단계는 감사 로그에서 공유 이벤트를 검색하는 것입니다. 감사 로그 검색에 대한 자세한 내용은 (필요한 사용 권한 포함) 감사 로그 [검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
   
 1. <https://compliance.microsoft.com>으로 이동합니다.
 

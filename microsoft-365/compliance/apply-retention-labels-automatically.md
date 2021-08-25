@@ -17,19 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: cafe6fe2628d58b80ea86753734e56996c5fdfcd
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 55fa863dca2caf3a88c7127993c392c510953af8
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58357056"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58506457"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> 이 시나리오는 [규제 기록](records-management.md#records)에서 지원 되지 않습니다.
+> 이 시나리오는 SharePoint의 문서 세트나 라이브러리 또는 Exchange의 폴더와 같은 구성 구조에 대한 [규정 레코드](records-management.md#records) 또는 기본 레이블에 대해 지원되지 않습니다. 이러한 시나리오에는 [게시된 보존 레이블 정책](create-apply-retention-labels.md#step-2-publish-retention-labels)이 필요합니다.
 
 [보존 레이블](retention.md)의 가장 강력한 기능 중 하나는 지정된 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 레이블을 적용할 필요가 없습니다. Microsoft 365에서 이 작업을 수행합니다.
   
@@ -53,7 +53,7 @@ ms.locfileid: "58357056"
 두 가지 관리 단계를 수행하려면 다음 지침을 사용합니다.
 
 > [!NOTE]
-> 자동 정책은 자동으로 보존 레이블을 적용하기 위해 조건과 함께 서비스 측 레이블을 사용합니다. 다음을 수행할 때 보존 레이블을 레이블 정책과 함께 자동으로 적용할 수도 있습니다. 
+> 자동 정책은 항목에 자동으로 보존 레이블을 적용하기 위해 조건과 함께 서비스 측 레이블을 사용합니다. 다음을 수행할 때 보존 레이블을 레이블 정책과 함께 자동으로 적용할 수도 있습니다. 
 >
 > - SharePoint Syntex의 문서 이해 모델에 보존 레이블을 적용합니다.
 > - SharePoint 및 Outlook에 대한 기본 보존 레이블 적용
@@ -127,7 +127,16 @@ ms.locfileid: "58357056"
 
 - [학습 가능한 분류자와 일치](#auto-apply-labels-to-content-by-using-trainable-classifiers)
 
-세 가지 조건 모두 전자 메일을 보내고 받을 때(전송 중인 데이터) 보존 레이블을 자동으로 적용할 수 있지만, 사서함의 기존 항목(미사용 데이터)에는 적용할 수 없습니다. SharePoint 및 OneDrive의 항목에 대해 다음 표를 사용하여 보존 레이블을 자동으로 적용할 수 있는 시기를 식별합니다.
+다음 표를 사용하여 보존 레이블을 Exchange의 항목에 자동으로 적용할 수 있는 시기를 식별합니다.
+
+|조건|전송 중인 항목(전송 또는 수신) |기존 항목(미사용 데이터)|
+|:-----|:-----|:-----|
+|중요한 정보 유형 - 기본 제공| 예 | 아니요 |
+|중요한 정보 유형 - 사용자 지정| 예 | 아니요 |
+|특정 키워드 또는 검색 가능한 속성| 예 |예 |
+|학습 가능한 분류자| 예 | 예(지난 6개월만 해당) |
+
+다음 표를 사용하여 SharePoint 및 OneDrive의 항목에 보존 레이블을 자동으로 적용할 수 있는 시기를 식별합니다.
 
 |조건|새 항목 또는 수정된 항목 |기존 항목(미사용 데이터)|
 |:-----|:-----|:-----|
@@ -136,6 +145,7 @@ ms.locfileid: "58357056"
 |특정 키워드 또는 검색 가능한 속성| 예 |예 |
 |학습 가능한 분류자| 예 | 예(지난 6개월만 해당) |
 
+또한 초안 상태에 있거나 게시되지 않은 SharePoint 항목은 이 시나리오에서 지원되지 않습니다.
 
 #### <a name="auto-apply-labels-to-content-with-specific-types-of-sensitive-information"></a>특정 유형의 중요한 정보가 있는 콘텐츠에 레이블 자동 적용
 
