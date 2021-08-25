@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다.
-ms.openlocfilehash: 5e05dd44f6e89794f196099c878843f024b58d40e81637bd15e9fb46cc724146
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: aa5112eeedcfd0c46bba1d96a43e49051eb3ed9e
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53808413"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58503086"
 ---
 # <a name="manage-audit-log-retention-policies"></a>로그 보존 정책 감사 관리
 
-보안 및 준수 센터에서 감사 로그 보존 정책을 작성하고 관리할 수 있습니다. 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다. 감사 로그를 최대 10년 동안 보존할 수 있습니다. 다음 조건을 기준으로 정책을 만들 수 있습니다.
+Microsoft 365 규정 준수 센터에서 감사 로그 보존 정책을 만들고 관리할 수 있습니다. 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다. 감사 로그를 최대 10년 동안 보존할 수 있습니다. 다음 조건을 기준으로 정책을 만들 수 있습니다.
 
 - 하나 이상의 Microsoft 365 서비스에서의 모든 활동
 - 모든 사용자 또는 특정 사용자가 수행하는 (Microsoft 365 서비스에서의) 특정 활동
@@ -41,7 +41,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
 ## <a name="before-you-create-an-audit-log-retention-policy"></a>감사 로그 보존 정책을 생성하기 전에 다음을 수행합니다.
 
-- 사용자는 감사 보존 정책을 만들거나 수정하기 위해 보안 및 준수 센터에서 조직 구성 역할을 할당 받아야 합니다.
+- 사용자는 감사 보존 정책을 만들거나 수정하기 위해 Microsoft 365 규정 준수 센터에서 조직 구성 역할을 할당받아야 합니다.
 
 - 조직에서 최대 50개의 감사 로그 보존 정책을 가질 수 있습니다.
 
@@ -51,9 +51,9 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
 ## <a name="create-an-audit-log-retention-policy"></a>감사 로그 보존 정책 생성
 
-1. <https://compliance.microsoft.com>으로 이동하여 보안 및 규정 준수 센터의 권한 페이지에서 조직 구성 역할이 할당된 사용자 계정으로 로그인합니다.
+1. <https://compliance.microsoft.com>으로 이동하여 Microsoft 365 규정 준수 센터의 권한 페이지에서 조직 구성 역할이 할당된 사용자 계정으로 로그인합니다.
 
-2. Microsoft 365 준수 센터의 왼쪽 창에서 **모두 보기** 를 클릭한 다음 **감사** 를 클릭합니다.
+2. Microsoft 365 규정 준수 센터의 왼쪽 창에서 **감사** 를 클릭합니다.
 
 3. **감사 보존 정책** 탭을 클릭합니다.
 

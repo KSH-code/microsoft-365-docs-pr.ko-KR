@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.date: 07/29/2021
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 48b014c808a2d8d91f7a0adb01938bf289c1985aece314fd5ab49d3ef9542c4d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 20918b3412a5534675c873fdfd9d2fb94a73ab75
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829823"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509944"
 ---
 # <a name="turn-on-block-at-first-sight"></a>즉각적 차단 켜기
 
@@ -28,7 +28,7 @@ ms.locfileid: "53829823"
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-이 문서에서는 "즉각적 차단"으로 불리우는 바이러스 백신/맬웨어 방지 기능을 설명하고 조직에 대해 즉각적 차단을 사용하는 방법을 설명합니다. 
+이 문서에서는 "즉각적 차단"으로 불리우는 바이러스 백신/맬웨어 방지 기능을 설명하고 조직에 대해 즉각적 차단을 사용하는 방법을 설명합니다.
 
 > [!TIP]
 > 이 문서는 조직의 보안 설정을 관리하는 엔터프라이즈 관리자 및 IT 전문가를 대상으로 합니다. 엔터프라이즈 관리자나 IT 전문가는 아니지만 즉각적 차단에 관한 질문이 있다면 [엔터프라이즈 관리자 또는 IT 전문가가 아니세요?](#not-an-enterprise-admin-or-it-pro) 구역을 참조하세요.
@@ -37,19 +37,19 @@ ms.locfileid: "53829823"
 
 즉각적 차단은 몇 초 내에 새로운 맬웨어를 검색하고 차단하는 차세대 보호의 위협 방지 기능입니다. 특정 보안 설정을 사용하면 즉각적 차단이 사용됩니다. 이러한 설정은 다음을 포함합니다.
 
-- 클라우드 제공 보호; 
-- 지정된 샘플 제출 시간 제한(예: 50초); 및 
-- 높은 파일 차단 수준. 
+- 클라우드 제공 보호;
+- 지정된 샘플 제출 시간 제한(예: 50초); 및
+- 높은 파일 차단 수준.
 
-대부분의 엔터프라이즈 조직에서 즉각적 차단 사용에 필요한 설정은 Microsoft Defender 바이러스 백신 배포로 구성됩니다. 
+대부분의 엔터프라이즈 조직에서 즉각적 차단 사용에 필요한 설정은 Microsoft Defender 바이러스 백신 배포로 구성됩니다.
 
 ## <a name="how-it-works"></a>작동 방법
 
 Microsoft Defender 바이러스 백신은 의심스러우나 검색되지 않은 파일을 발견하면 클라우드 보호 백 엔드를 쿼리합니다. 클라우드 백 엔드는 파일에 대한 추론, 기계 학습, 자동화된 분석을 적용하여 파일이 악성인지 위협이 아닌지 여부를 확인합니다.
 
-Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사용하여 정확하고 지능적인 실시간 보호를 제공합니다. 
+Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사용하여 정확하고 지능적인 실시간 보호를 제공합니다.
 
-![Microsoft Defender AV 엔진 목록](images/microsoft-defender-atp-next-generation-protection-engines.png)  
+![Microsoft Defender AV 엔진 목록](images/microsoft-defender-atp-next-generation-protection-engines.png)
 
 > [!TIP]
 > 자세한 내용은 [(블로그) 차세대 보호 엔드포인트용 Microsoft Defender의 핵심 고급 기술 알아보기](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)를 참조하세요.
@@ -71,7 +71,7 @@ Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사
 > [!TIP]
 > Microsoft Intune은 이제 Microsoft Endpoint Manager의 일부입니다.
 
-1. Microsoft Endpoint Manager 관리 센터([https://endpoint.microsoft.com](https://endpoint.microsoft.com))에서 **장치** > **구성 프로필** 로 이동합니다.
+1. Microsoft Endpoint Manager 관리 센터(<https://endpoint.microsoft.com>)에서 **장치** \> **구성 프로필** 로 이동합니다.
 
 2. **장치 제한** 프로필 유형을 사용하여 프로필을 선택하거나 만듭니다.
 
@@ -87,6 +87,7 @@ Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사
 4. 설정을 저장합니다.
 
 > [!TIP]
+>
 > - 파일 차단 수준을 **높음** 으로 설정하면 강력한 검색 수준이 적용됩니다. 파일 차단으로 인해 적법한 파일이 가양성 검색으로 드물게 오인되는 경우, 보안 운영 팀에서 [격리된 파일을 복원](./restore-quarantined-files-microsoft-defender-antivirus.md)하는 옵션을 사용할 수 있습니다.
 > - Intune에서 Microsoft Defender 바이러스 백신 장치 제한을 구성하는 방법에 대한 자세한 내용은 [Microsoft Intune에서 장치 제한 설정 구성](/intune/device-restrictions-configure)을 참조하세요.
 > - Intune의 Microsoft Defender 바이러스 백신 장치 제한 목록은 [Intune에서 Windows 10(및 최신 버전) 설정에 대한 장치 제한](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)을 참조하세요.
@@ -96,7 +97,7 @@ Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사
 > [!TIP]
 > Microsoft Endpoint Configuration Manager는 이제 Microsoft Endpoint Manager의 일부입니다.
 
-1. Microsoft Endpoint Manager([https://endpoint.microsoft.com](https://endpoint.microsoft.com))에서 **엔드포인트 보안** > **바이러스 백신** 으로 이동합니다.
+1. Microsoft Endpoint Manager(<https://endpoint.microsoft.com>)에서 **엔드포인트 보안** \> **바이러스 백신** 으로 이동합니다.
 
 2. 기존 정책을 선택하거나 **Microsoft Defender 바이러스 백신** 프로필 유형을 사용하여 새 정책을 만듭니다.
 
@@ -113,11 +114,11 @@ Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사
 ## <a name="turn-on-block-at-first-sight-with-group-policy"></a>그룹 정책으로 즉각적 차단 켜기
 
 > [!NOTE]
-> Intune 또는 Microsoft Endpoint Manager를 사용하여 즉각적 차단을 켜는 것이 좋습니다. 
+> Intune 또는 Microsoft Endpoint Manager를 사용하여 즉각적 차단을 켜는 것이 좋습니다.
 
-1. 그룹 정책 관리 컴퓨터에서 [그룹 정책 관리 콘솔](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))을 열고 구성하려는 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 **편집** 을 선택합니다. 
+1. 그룹 정책 관리 컴퓨터에서 [그룹 정책 관리 콘솔](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))을 열고 구성하려는 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 **편집** 을 선택합니다.
 
-2. **그룹 정책 관리 편집기** 를 사용하여 **컴퓨터 구성** > **관리 템플릿** > **Windows 구성 요소** > **Microsoft Defender 바이러스 백신** > **MAPS** 로 이동합니다. 
+2. **그룹 정책 관리 편집기** 를 사용하여 **컴퓨터 구성**\>**관리 템플릿**\>**Windows 구성 요소**\>**Microsoft Defender 바이러스 백신**\>**MAPS** 로 이동합니다.
 
 3. MAPS 섹션에서 **'즉각적 차단' 기능 구성** 을 두 번 클릭하여 **사용함** 으로 설정한 다음 **확인** 을 선택합니다.
 
@@ -141,14 +142,15 @@ Windows 보안 앱을 사용하는 개별 클라이언트 장치에 즉각적 �
 3. **클라우드 제공 보호** 및 **자동 샘플 제출** 이 모두 켜져있는지 확인합니다.
 
 > [!NOTE]
-> - 그룹 정책을 사용하여 필수 구성 요소 설정을 구성하고 배포하는 경우 이 섹션에 설명된 설정은 회색으로 표시되어 개별 엔드포인트에서 사용할 수 없게 됩니다. 
+>
+> - 그룹 정책을 사용하여 필수 구성 요소 설정을 구성하고 배포하는 경우 이 섹션에 설명된 설정은 회색으로 표시되어 개별 엔드포인트에서 사용할 수 없게 됩니다.
 > - 설정이 Windows 설정에서 업데이트되기 전에 먼저 그룹 정책 개체를 통해 수행한 변경을 개별 엔드포인트에 배포해야 합니다.
 
 ## <a name="validate-block-at-first-sight-is-working"></a>즉각적 차단이 작동 중인지 확인
 
 기능이 제대로 작동하는지 확인하려면 [즉각적 차단 샘플 파일](https://demo.wd.microsoft.com/Page/BAFS)을 다운로드합니다. 파일을 다운로드하려면 보안 관리자 또는 전역 관리자 역할이 할당된 Azure Active Directory 계정이 필요합니다.
 
-클라우드 지원 보호가 제대로 작동하는지 확인하려면 [네트워크와 클라우드 간 연결 확인](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud) 지침을 따릅니다. 
+클라우드 지원 보호가 제대로 작동하는지 확인하려면 [네트워크와 클라우드 간 연결 확인](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud) 지침을 따릅니다.
 
 ## <a name="turn-off-block-at-first-sight"></a>즉각적 차단 끄기
 
@@ -159,9 +161,9 @@ Windows 보안 앱을 사용하는 개별 클라이언트 장치에 즉각적 �
 
 ### <a name="turn-off-block-at-first-sight-with-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 사용하여 즉각적 차단 끄기
 
-1. Microsoft Endpoint Manager 관리 센터([https://endpoint.microsoft.com](https://endpoint.microsoft.com))로 이동하여 로그인합니다.
+1. Microsoft Endpoint Manager 관리 센터(<https://endpoint.microsoft.com>)로 이동하여 로그인합니다.
 
-2. **엔드포인트 보안** > **바이러스 백신** 으로 이동한 다음 Microsoft Defender 바이러스 백신 정책을 선택합니다.
+2. **엔드포인트 보안** \> **바이러스 백신** 으로 이동한 다음 Microsoft Defender 바이러스 백신 정책을 선택합니다.
 
 3. **관리** 에서 **속성** 을 선택합니다.
 
@@ -181,7 +183,7 @@ Windows 보안 앱을 사용하는 개별 클라이언트 장치에 즉각적 �
 
 2. **그룹 정책 관리 편집기** 를 사용해서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-3. **Windows 구성 요소** > **Microsoft Defender 바이러스 백신** > **MAPS** 를 통해 트리를 확장합니다.
+3. **Windows 구성 요소** \> **Microsoft Defender 바이러스 백신** \> **MAPS** 를 확장합니다.
 
 4. **'즉각적 차단' 기능 구성** 을 두 번 클릭하고 옵션을 **사용 안 함** 으로 설정합니다.
 
@@ -206,10 +208,10 @@ Windows 보안 앱을 사용하는 개별 클라이언트 장치에 즉각적 �
 
    - 즉각적 차단을 사용하려면 **클라우드 제공 보호** 와 **자동 샘플 제출** 이 모두 켜져 있는지 확인합니다.
 
-   - 즉각적 차단을 사용하지 않으려면 **클라우드 제공 보호** 또는 **자동 샘플 제출** 을 끕니다. <br/>
-    
+   - 즉각적 차단을 사용하지 않으려면 **클라우드 제공 보호** 또는 **자동 샘플 제출** 을 끕니다.
+
      > [!CAUTION]
-     > 즉각적 차단을 끄면 장치의 보호 수준이 낮아집니다. 즉각적 차단을 영구적으로 사용 중지하는 것은 권장되지 않습니다. 
+     > 즉각적 차단을 끄면 장치의 보호 수준이 낮아집니다. 즉각적 차단을 영구적으로 사용 중지하는 것은 권장되지 않습니다.
 
 
 ## <a name="see-also"></a>참고 항목
