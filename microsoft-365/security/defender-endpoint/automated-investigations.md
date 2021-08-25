@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: acb2c0cc3b75ac5491f2653c60e1e9d9bab7b22292caaeb698b1c9eed70df85c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 00cf587af9eaeb6199b8058ff231c5704ca19f78
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884814"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58510064"
 ---
 # <a name="overview-of-automated-investigations"></a>자동 조사 개요
 
@@ -35,7 +35,6 @@ ms.locfileid: "53884814"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-
 
 작동 방법을 보고 싶나요? 다음 비디오를 시청합니다.
 
@@ -52,10 +51,15 @@ ms.locfileid: "53884814"
 
 경고가 트리거되거나 보안 운영자가 조사를 시작할 때 자동화된 조사가 시작될 수 있습니다.
 
+<br>
+
+****
+
 |상황|발생 작업|
 |---|---|
 |경고가 트리거됩니다.|일반적으로 경고가 트리거되면 자동화된 [](review-alerts.md) 조사가 시작되고 [인시던트가](view-incidents-queue.md) 생성됩니다. 예를 들어 악성 파일이 장치에 있는 경우를 가정해 보겠습니다. 해당 파일이 검색되면 경고가 트리거되고 인시던트가 만들어집니다. 자동화된 조사 프로세스가 디바이스에서 시작됩니다. 다른 장치에서 동일한 파일로 인시던트가 생성되는 다른 경고는 관련 인시던트 및 자동화된 조사에 추가됩니다.|
 |조사가 수동으로 시작|보안 운영 팀에서 자동화된 조사를 수동으로 시작할 수 있습니다. 예를 들어 보안 운영자가 장치 목록을 검토하고 장치에 높은 위험 수준이 있는 것으로 표시하는 경우를 가정해 보겠습니다. 보안 운영자는 목록에서 디바이스를 선택하여 플라이아웃을 연 다음 자동화된 조사 **시작을 선택할 수 있습니다.**|
+|
 
 ## <a name="how-an-automated-investigation-expands-its-scope"></a>자동화된 조사가 범위를 확장하는 방법
 
@@ -71,9 +75,9 @@ ms.locfileid: "53884814"
 - *의심스러운 ;* 또는
 - *위협이 없습니다.*
 
-결과가 도달하면 자동화된 조사를 통해 하나 이상의 수정 작업이 수행될 수 있습니다. 수정 작업의 예로는 파일을 검지로 보내기, 서비스 중지, 예약된 작업 제거 등입니다. 자세한 내용은 재구성 [작업 을 참조합니다.](manage-auto-investigation.md#remediation-actions)  
+결과가 도달하면 자동화된 조사를 통해 하나 이상의 수정 작업이 수행될 수 있습니다. 수정 작업의 예로는 파일을 검지로 보내기, 서비스 중지, 예약된 작업 제거 등입니다. 자세한 내용은 재구성 [작업 을 참조합니다.](manage-auto-investigation.md#remediation-actions)
 
-조직에 설정된 [](automation-levels.md) 자동화 수준 및 기타 보안 설정에 따라 수정 작업은 자동으로 또는 보안 운영 팀의 승인 시에만 발생할 수 있습니다. 자동 수정에 영향을 줄 수 있는 추가 보안 설정에는 잠재적으로 원치 않는 응용 프로그램(PUA)으로부터의 [보호가](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) 포함됩니다. 
+조직에 설정된 [](automation-levels.md) 자동화 수준 및 기타 보안 설정에 따라 수정 작업은 자동으로 또는 보안 운영 팀의 승인 시에만 발생할 수 있습니다. 자동 수정에 영향을 줄 수 있는 추가 보안 설정에는 잠재적으로 원치 않는 응용 프로그램(PUA)으로부터의 [보호가](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) 포함됩니다.
 
 보류 중인지 완료 여부에 따라 모든 수정 작업은 관리 센터에서 [추적됩니다.](auto-investigation-action-center.md) 필요한 경우 보안 운영 팀에서 수정 작업을 실행 취소할 수 있습니다. 자세한 내용은 자동화된 조사 후 재구성 작업 검토 및 [승인을 참조합니다.](/microsoft-365/security/defender-endpoint/manage-auto-investigation)
 

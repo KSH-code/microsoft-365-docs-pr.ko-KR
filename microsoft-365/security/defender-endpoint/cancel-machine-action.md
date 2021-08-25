@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 33828866b32c14b4922e936fbd279c3f7bc3b536
-ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
+ms.openlocfilehash: 22b0a82d8101c0a2a9e21c05413b64cd7dca4e9a
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58408085"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509956"
 ---
 # <a name="cancel-machine-action-api"></a>컴퓨터 작업 취소 API
 
@@ -51,7 +51,7 @@ ms.locfileid: "58408085"
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
@@ -60,13 +60,11 @@ ms.locfileid: "58408085"
 |응용 프로그램|Machine.CollectForensics <br> Machine.Isolate <br> Machine.RestrictExecution <br> Machine.Scan <br> Machine.Offboard <br> Machine.StopAndQuarantine <br> Machine.LiveResponse|포렌식 수집 <br>컴퓨터 격리<br>코드 실행 제한<br>  컴퓨터 검사<br>  컴퓨터 오프보딩<br> 중지 및 Quarantine<br> 특정 컴퓨터의 실시간 응답 실행|
 |위임(직장 또는 학교 계정)|Machine.CollectForensics<br> Machine.Isolate  <br>Machine.RestrictExecution<br> Machine.Scan<br> Machine.Offboard<br> Machine.StopAndQuarantineMachine.LiveResponse|포렌식 수집<br> 컴퓨터 격리<br>  코드 실행 제한<br> 컴퓨터 검사<br>컴퓨터 오프보딩<br> 중지 및 Quarantine<br> 특정 컴퓨터의 실시간 응답 실행|
 
-
 ## <a name="http-request"></a>HTTP 요청
 
+```http
+POST https://api.securitycenter.microsoft.com/api/machineactions/<machineactionid>/cancel
 ```
-POST https://api.securitycenter.microsoft.com/api/machineactions/<machineactionid>/cancel  
-```
-
 
 ## <a name="request-headers"></a>요청 헤더
 

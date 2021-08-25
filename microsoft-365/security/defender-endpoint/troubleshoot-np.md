@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: a31da45e56adc8838ed85df338e423070aac1a15
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 981e7962db35429e5f7bf02ee4a6f57fd19655d4
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507665"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509896"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
@@ -49,7 +49,8 @@ ms.locfileid: "58507665"
 
 네트워크 보호는 다음 조건이 있는 디바이스에서만 작동합니다.
 
->[!div class="checklist"]
+> [!div class="checklist"]
+>
 > - 끝점에서 Windows 10 Pro 버전 Enterprise 버전 1709 이상을 실행하고 있습니다.
 > - 끝점에서 단독 Microsoft Defender 바이러스 백신 보호 앱으로 사용하고 있습니다. [Microsoft가 아닌 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)솔루션을 사용할 때 발생하는 문제를 참조합니다.
 > - [실시간 보호가](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) 사용됩니다.
@@ -69,7 +70,7 @@ ms.locfileid: "58507665"
 2. 문제를 일으키는 연결 활동을 수행합니다(예: 사이트를 방문하거나 차단하려는 IP 주소에 연결하려고 시도).
 
 3. [네트워크 보호 이벤트](network-protection.md#review-network-protection-events-in-windows-event-viewer) 로그를 검토하여 기능이 사용으로 설정된 경우 연결을 차단할 수 없는지 **확인합니다.**
-   
+
    네트워크 보호가 차단해야 하는 연결을 차단하지 않는 경우 기능을 사용하도록 설정하십시오.
 
    ```PowerShell
@@ -102,7 +103,7 @@ ms.locfileid: "58507665"
    mpcmdrun -getfiles
    ```
 
-3. 파일을 제출 양식에 첨부합니다. 기본적으로 진단 로그는 에 `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` 저장됩니다. 
+3. 파일을 제출 양식에 첨부합니다. 기본적으로 진단 로그는 에 `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` 저장됩니다.
 
 ## <a name="resolve-connectivity-issues-with-network-protection-for-e5-customers"></a>네트워크 보호 관련 연결 문제 해결(E5 고객용)
 
@@ -114,12 +115,12 @@ reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP 
 
 ---OR---
 
-
 ```powershell
 reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
 ```
 
 PowerShell, 그룹 정책 또는 그룹 정책을 사용하여 Microsoft Endpoint Manager 수 있습니다. 다음은 도움이 되는 몇 가지 리소스입니다.
+
 - [레지스트리 키 작업](/powershell/scripting/samples/working-with-registry-keys)
 - [사용자 지정 클라이언트 설정 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
 - [그룹 정책 설정을 사용하여 그룹 정책 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
@@ -127,11 +128,7 @@ PowerShell, 그룹 정책 또는 그룹 정책을 사용하여 Microsoft Endpoin
 ## <a name="see-also"></a>참고 항목
 
 - [네트워크 보호](network-protection.md)
-
 - [네트워크 보호 및 TCP 3차원 핸드세이크](network-protection.md#network-protection-and-the-tcp-three-way-handshake)
-
 - [네트워크 보호 평가](evaluate-network-protection.md)
-
 - [네트워크 보호 사용](enable-network-protection.md)
-
 - [끝점용 Defender에서 가짓 긍정/음수 해결](defender-endpoint-false-positives-negatives.md)

@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: overview
-ms.openlocfilehash: 81aba6c432747563820556341d12f81d8e09b5ca
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 44f75b2912a8e54df6584a8f97d0f6e76cac6b15
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507569"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509872"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 
@@ -46,11 +46,16 @@ ms.locfileid: "58507569"
 
 네트워크 보호를 사용하려면 Windows 10 Pro Enterprise 및 Microsoft Defender 바이러스 백신 보호가 필요합니다.
 
-| Windows 버전 | Windows Defender 바이러스 백신 |
-|:---|:---|
-| Windows 10 버전 1709 이상 <p>Windows 서버 1803 이상 | [Microsoft Defender 바이러스 백신 보호](configure-real-time-protection-microsoft-defender-antivirus.md) 및 클라우드 [제공](enable-cloud-protection-microsoft-defender-antivirus.md) 보호를 사용하도록 설정해야 합니다. |
+<br>
 
-서비스를 사용하도록 설정한 후 서비스와 장치(끝점이라고도 하는) 간의 연결을 허용하도록 네트워크 또는 방화벽을 구성해야 할 수 있습니다.  
+****
+
+|Windows 버전|Windows Defender 바이러스 백신|
+|---|---|
+|Windows 10 버전 1709 이상 <p> Windows 서버 1803 이상|[Microsoft Defender 바이러스 백신 보호](configure-real-time-protection-microsoft-defender-antivirus.md) 및 클라우드 [제공](enable-cloud-protection-microsoft-defender-antivirus.md) 보호를 사용하도록 설정해야 합니다.|
+|
+
+서비스를 사용하도록 설정한 후 서비스와 장치(끝점이라고도 하는) 간의 연결을 허용하도록 네트워크 또는 방화벽을 구성해야 할 수 있습니다.
 
 - `.smartscreen.microsoft.com`
 - `.smartscreen-prod.microsoft.com`
@@ -75,7 +80,7 @@ ms.locfileid: "58507569"
 
 ```kusto
 DeviceEvents
-| where ActionType in ('ExploitGuardNetworkProtectionAudited','ExploitGuardNetworkProtectionBlocked')
+|where ActionType in ('ExploitGuardNetworkProtectionAudited','ExploitGuardNetworkProtectionBlocked')
 ```
 
 ## <a name="review-network-protection-events-in-windows-event-viewer"></a>이벤트 뷰어에서 Windows 이벤트 검토
@@ -88,11 +93,16 @@ Windows 로그를 검토하여 네트워크 보호가 악성 IP 또는 도메인
 
 이 절차에서는 네트워크 보호와 관련된 다음 이벤트만 표시하기 위해 필터를 지정하는 사용자 지정 보기를 만듭니다.
 
-| 이벤트 ID | 설명 |
-|:---|:---|
-| 5007 | 설정이 변경될 때의 이벤트 |
-| 1125 | 감사 모드에서 네트워크 보호가 발생 하는 경우 이벤트 |
-| 1126 | 차단 모드에서 네트워크 보호가 발생하면 이벤트 |
+<br>
+
+****
+
+|이벤트 ID|설명|
+|---|---|
+|5007|설정이 변경될 때의 이벤트|
+|1125|감사 모드에서 네트워크 보호가 발생 하는 경우 이벤트|
+|1126|차단 모드에서 네트워크 보호가 발생하면 이벤트|
+|
 
 ## <a name="network-protection-and-the-tcp-three-way-handshake"></a>네트워크 보호 및 TCP 3차원 핸드세이크
 
@@ -116,7 +126,7 @@ Windows 로그를 검토하여 네트워크 보호가 악성 IP 또는 도메인
 
 3. 사용자 그룹을 구분해야 하는 경우 가상 데스크톱 호스트 풀과 할당을 Windows 만드는 것이 좋습니다.
 
-4. 감사 모드에서 네트워크 보호를 테스트하여 롤아웃하기 전에 해당 동작을 평가합니다. 
+4. 감사 모드에서 네트워크 보호를 테스트하여 롤아웃하기 전에 해당 동작을 평가합니다.
 
 5. 사용자 수 또는 다중 사용자 세션 수가 많은 경우 배포의 크기 조정을 고려합니다.
 
@@ -141,7 +151,5 @@ reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC
 ## <a name="see-also"></a>참고 항목
 
 - [네트워크 보호 |](evaluate-network-protection.md) 기능의 작동 방식과 일반적으로 만들어지게 될 이벤트를 보여줄 수 있는 빠른 시나리오를 진행합니다.
-
 - [네트워크 보호 기능](enable-network-protection.md) | 그룹 정책, PowerShell 또는 MDM CSP를 사용하여 네트워크에서 네트워크 보호를 사용하도록 설정하고 관리할 수 있습니다.
-
 - [웹에서 공격 표면 감소 기능 Microsoft Intune](/mem/intune/protect/endpoint-security-asr-policy)

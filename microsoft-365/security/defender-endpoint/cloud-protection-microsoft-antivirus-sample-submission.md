@@ -1,6 +1,6 @@
 ---
 title: 클라우드 제공 보호 Microsoft Defender 바이러스 백신 샘플 제출
-description: 클라우드 제공 보호 및 보호에 대해 Microsoft Defender 바이러스 백신
+description: 클라우드 제공 보호 및 샘플 제출에 Microsoft Defender 바이러스 백신 정보
 keywords: Microsoft Defender 바이러스 백신, 차세대 기술, 바이러스 백신 샘플 제출, 차세대 av, 기계 학습, 맬웨어 방지, 보안, defender, 클라우드, 클라우드 제공 보호
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 07/22/2021
-ms.openlocfilehash: d9330a2ce9403885e3a843619a07aaf5b5ca5847
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: c2fafe62c5fecbc1e7ed9f7e622daf6a1b6c7faa
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58253561"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58510052"
 ---
 # <a name="cloud-delivered-protection-antivirus-sample-submission"></a>클라우드 제공 보호 바이러스 백신 샘플 제출
 
@@ -28,14 +28,14 @@ Endpoint 바이러스 백신용 Microsoft Defender(Defender for Endpoint 바이�
 
 ## <a name="microsoft-defender-for-endpoint-antivirus-cloud-protection-overview"></a>Endpoint 바이러스 백신용 Microsoft Defender 클라우드 보호 개요
 
-클라우드 보호는 기본적으로 Endpoint 바이러스 백신용 Defender에서 사용하도록 설정되어 있습니다. 고객이 Endpoint 바이러스 백신용 Defender의 클라우드 보호를 사용하지 않도록 설정하지 않는 것이 좋습니다.  클라우드 보호를 사용하도록 설정한 경우 클라우드에 제공할 끝점 바이러스 백신용 Defender 정보(샘플 제출 포함)를 구성할 수 있습니다. 클라우드 보호 사용은 다른 특성에 따라 높은 신뢰도의 결정이 만들어질 수 없는 경우 유용합니다.
+클라우드 보호는 기본적으로 Endpoint 바이러스 백신용 Defender에서 사용하도록 설정되어 있습니다. 고객이 Endpoint 바이러스 백신용 Defender의 클라우드 보호를 사용하지 않도록 설정하지 않는 것이 좋습니다. 클라우드 보호를 사용하도록 설정한 경우 클라우드에 제공할 끝점 바이러스 백신용 Defender 정보(샘플 제출 포함)를 구성할 수 있습니다. 클라우드 보호 사용은 다른 특성에 따라 높은 신뢰도의 결정이 만들어질 수 없는 경우 유용합니다.
 샘플 제출 구성은 작동 방식에 대한 의문을 제기합니다. 예를 들어 데이터를 저장하고 사용하는 방법을 예로 들 수 있습니다. 가장 많은 의문을 제기하는 세 가지 클라우드 보호 샘플 제출 옵션은 다음과 같습니다.
 
 - "안전한 샘플 자동 보내기"(기본 동작)
-- "모든 샘플을 자동으로 보내기",  
-- "샘플을 보내지 않습니다."  
+- "모든 샘플을 자동으로 보내기",
+- "샘플을 보내지 않습니다."
 
-Intune, Configuration Manager, GPO 또는 PowerShell을 사용하는 구성 옵션에 대한 자세한 내용은 에서 클라우드 제공 보호 [Microsoft Defender 바이러스 백신.](enable-cloud-protection-microsoft-defender-antivirus.md)  
+Intune, Configuration Manager, GPO 또는 PowerShell을 사용하는 구성 옵션에 대한 자세한 내용은 에서 클라우드 제공 보호 [Microsoft Defender 바이러스 백신.](enable-cloud-protection-microsoft-defender-antivirus.md)
 
 ## <a name="customer-data-cloud-protection-and-sample-submission"></a>고객 데이터, 클라우드 보호 및 샘플 제출
 
@@ -63,7 +63,7 @@ Endpoint 바이러스 백신 및 클라우드 보호용 Defender는 다음 방�
 
 4. 끝점에서 실행되는 끝점 바이러스 백신에 대한 Defender가 의심스러운 파일의 의도를 확인하기 위해 더 많은 인텔리전스가 필요한 경우 고급 클라우드 기반 보호가 제공됩니다.
 
-   1. Microsoft Defender for Endpoint 바이러스 백신이 명확한 확인을 할 수 없는 경우 파일 메타데이터가 클라우드 보호 서비스로 전송됩니다. 일반적으로 클라우드 보호 서비스는 파일이 안전한지 또는 악성인지를 밀리초 내에 확인할 수 있습니다.  
+   1. Microsoft Defender for Endpoint 바이러스 백신이 명확한 확인을 할 수 없는 경우 파일 메타데이터가 클라우드 보호 서비스로 전송됩니다. 일반적으로 클라우드 보호 서비스는 파일이 안전한지 또는 악성인지를 밀리초 내에 확인할 수 있습니다.
       - 파일 메타데이터의 클라우드 쿼리는 동작, 웹 표시 또는 명확한 결과가 결정되지 않은 기타 특성의 결과일 수 있습니다.
       - 클린 vs 맬웨어 판정에 도달하기 위해 작은 메타데이터 페이로드가 전송됩니다.
       - 메타데이터에는 PE 특성, 정적 파일 특성, 동적 및 상황적 특성 등을 포함할 수 있습니다(그림 1).
@@ -83,7 +83,7 @@ Endpoint 바이러스 백신 및 클라우드 보호용 Defender는 다음 방�
 
       3. **모든 샘플 자동 보내기**
          - 구성된 경우 모든 샘플이 자동으로 전송됩니다.
-         - Word docs에 포함된 매크로를 샘플 제출에 포함하려면 "모든 샘플을 자동으로 보내기"를 선택해야 합니다.  
+         - Word docs에 포함된 매크로를 샘플 제출에 포함하려면 "모든 샘플을 자동으로 보내기"를 선택해야 합니다.
          - MacOS 클라우드 보호에서는 이 설정을 사용할 수 없습니다.
 
       4. **보내지 않습니다.**
@@ -93,34 +93,34 @@ Endpoint 바이러스 백신 및 클라우드 보호용 Defender는 다음 방�
 
    3. 메타데이터 및/또는 파일이 Endpoint 클라우드용 Defender에 제출된 후  **샘플,** 데토네이터 또는 빅 데이터 분석 기계 학습 모델을 사용하여 판정에 도달할 수 있습니다.  이 모델은 그림 3에 설명되어 있습니다. 클라우드 제공 보호를 해제하면 클라이언트가 로컬 기계 학습 모델 및 유사한 기능을 통해 제공할 수 있는 기능으로만 분석이 제한됩니다.
 
-_그림 1 - Microsoft Defender 클라우드 보호로 전송된 메타데이터의 예_
+_그림 1 - Microsoft Defender_ 클라우드 보호로 전송된 메타데이터의 예:
 
 :::image type="content" source="images/cloud-protection-metadata-sample.png" alt-text="그림 1. Microsoft Defender 클라우드 보호로 전송된 메타데이터의 예":::
 
-_그림 2. 클라우드 제공 보호 흐름_
+_그림 2. 클라우드 제공 보호 흐름_:
 
 :::image type="content" source="images/cloud-protection-flow.png" alt-text="그림 2. 클라우드 제공 보호 흐름":::
 
-_그림 3. 클라우드 제공 보호 및 계층적 기계 학습_
+_그림 3. 클라우드 제공 보호 및 계층적 기계 학습_:
 
 :::image type="content" source="images/cloud-protection-detection-layered-machine-learning.png" lightbox="images/cloud-protection-detection-layered-machine-learning.png" alt-text="그림 3. 클라우드 제공 보호 및 계층적 기계 학습":::
 
-> [!Note]
+> [!NOTE]
 >
 > "BAFS(최초 차단)"라는 구문도 들어 있을 수 있습니다. BAFS는 더 정확한 결과를 제공하기 위해 데토네이터와 같은 정보를 포함하여 클라우드에서 제공할 수 있는 보다 광범위한 분석을 지어보입니다. 여기에는 클라우드 보호에 의해 중간에 있는 파일의 열기 지연이 판결에 도달할 때까지 지연할 수 있습니다. "샘플 제출"을 사용하지 않도록 설정하면 BAFS가 사용하지 않도록 설정되고 보다 광범위한 분석을 할 수 없습니다. 파일 메타데이터만 분석하는 것으로 제한됩니다.
 
 ## <a name="cloud-delivered-protection-levels"></a>클라우드 제공 보호 수준
 
-맬웨어 검색을 사용하려면 최대한 강력한 보호를 제공하는 동시에 가식성 수를 최소화해야 합니다. 서로 다른 환경은 보호에 대한 허용 범위와 가짓 긍정 위험에 대한 허용 오차가 있을 수 있습니다. 클라우드 제공 보호 수준을 통해 고객은 특정 환경에 적합한 허용 오차 수준을 정의할 수 있습니다. 클라우드 제공 보호를 사용하도록 설정하면 합법적인 파일을 검색할 위험을 늘리지 않고 강력한 검색을 제공하도록 보호 수준이 자동으로 구성됩니다. 다른 보호 수준을 구성하려는 경우 에 대한 클라우드 제공 보호 [수준 지정을 Microsoft Defender 바이러스 백신.](specify-cloud-protection-level-microsoft-defender-antivirus.md)  
+맬웨어 검색을 사용하려면 최대한 강력한 보호를 제공하는 동시에 가식성 수를 최소화해야 합니다. 서로 다른 환경은 보호에 대한 허용 범위와 가짓 긍정 위험에 대한 허용 오차가 있을 수 있습니다. 클라우드 제공 보호 수준을 통해 고객은 특정 환경에 적합한 허용 오차 수준을 정의할 수 있습니다. 클라우드 제공 보호를 사용하도록 설정하면 합법적인 파일을 검색할 위험을 늘리지 않고 강력한 검색을 제공하도록 보호 수준이 자동으로 구성됩니다. 다른 보호 수준을 구성하려는 경우 에 대한 클라우드 제공 보호 [수준 지정을 Microsoft Defender 바이러스 백신.](specify-cloud-protection-level-microsoft-defender-antivirus.md)
 
-> [!Note]
+> [!NOTE]
 >
 > 보호 수준을 변경하면 가긍정 수준이 높아지며 변경하기 전에 신중하게 평가해야 합니다.
 >
 
 ## <a name="other-file-sample-submission-scenarios"></a>기타 파일 샘플 제출 시나리오
 
-끝점용 Defender가 위에서 설명한 클라우드 보호 설정과 관련이 없는 파일 샘플을 요청할 수 있는 두 가지 시나리오가 더 있습니다.  
+끝점용 Defender가 위에서 설명한 클라우드 보호 설정과 관련이 없는 파일 샘플을 요청할 수 있는 두 가지 시나리오가 더 있습니다.
 
 ### <a name="manual-file-sample-collection-by-security-admin-from-defender-for-endpoint-management-portal"></a>Endpoint Management Portal용 Defender의 보안 관리자에 의해 수동 파일 샘플 수집
 

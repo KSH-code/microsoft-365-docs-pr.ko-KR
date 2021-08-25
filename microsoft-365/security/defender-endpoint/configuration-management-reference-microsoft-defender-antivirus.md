@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: c0d82741a30bb57f7b7df4ceb642557c97f979ea446f3be41b98666bd3d5f0dd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f28c209ce179cc019a8b0edbdc698f9f9eb7daf6
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834212"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509908"
 ---
 # <a name="manage-microsoft-defender-antivirus-in-your-business"></a>비즈니스 Microsoft Defender 바이러스 백신 관리
 
@@ -44,10 +44,10 @@ ms.locfileid: "53834212"
 
 다음 문서에서는 이러한 도구를 사용하여 이러한 도구를 관리하고 구성하기 위한 추가 정보, 링크 및 리소스를 Microsoft Defender 바이러스 백신.
 
-| 문서 | 설명 |
+|문서|설명|
 |:---|:---|
-|[사용자 Microsoft Defender 바이러스 백신 사용하여 Microsoft Intune 관리 Microsoft Endpoint Configuration Manager](use-intune-config-manager-microsoft-defender-antivirus.md)|Intune 및 Configuration Manager를 사용하여 데이터를 배포, 관리, 보고 및 구성하는 Microsoft Defender 바이러스 백신 |
-|[그룹 Microsoft Defender 바이러스 백신 설정으로 관리](use-group-policy-microsoft-defender-antivirus.md)|ADMX 템플릿에 있는 모든 그룹 정책 설정 목록 |
-|[PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 관리](use-powershell-cmdlets-microsoft-defender-antivirus.md)|PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 및 모든 cmdlet 및 허용되는 매개 변수에 대한 설명서에 대한 링크 |
-|[WMI(Microsoft Defender 바이러스 백신 Management Instrumentation)Windows 관리](use-wmi-microsoft-defender-antivirus.md)| WMI를 사용하여 관리하기 위한 지침Microsoft Defender 바이러스 백신 WMIv2 API에 대한 설명서 링크(모든 클래스, 메서드 및 속성 포함) |
-|[명령줄 Microsoft Defender 바이러스 백신 사용하여 MpCmdRun.exe 관리](command-line-arguments-microsoft-defender-antivirus.md)| 전용 명령줄 도구를 사용하여 명령줄 도구를 관리하고 사용하는 방법에 대한 Microsoft Defender 바이러스 백신 |
+|[사용자 Microsoft Defender 바이러스 백신 사용하여 Microsoft Intune 관리 Microsoft Endpoint Configuration Manager](use-intune-config-manager-microsoft-defender-antivirus.md)|Intune 및 Configuration Manager를 사용하여 데이터를 배포, 관리, 보고 및 구성하는 Microsoft Defender 바이러스 백신|
+|[그룹 Microsoft Defender 바이러스 백신 설정으로 관리](use-group-policy-microsoft-defender-antivirus.md)|ADMX 템플릿에 있는 모든 그룹 정책 설정 목록|
+|[PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 관리](use-powershell-cmdlets-microsoft-defender-antivirus.md)|PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 및 모든 cmdlet 및 허용되는 매개 변수에 대한 설명서에 대한 링크|
+|[WMI(Microsoft Defender 바이러스 백신 Management Instrumentation)Windows 관리](use-wmi-microsoft-defender-antivirus.md)|WMI를 사용하여 관리하기 위한 지침Microsoft Defender 바이러스 백신 WMIv2 API에 대한 설명서 링크(모든 클래스, 메서드 및 속성 포함)|
+|[명령줄 Microsoft Defender 바이러스 백신 사용하여 MpCmdRun.exe 관리](command-line-arguments-microsoft-defender-antivirus.md)|전용 명령줄 도구를 사용하여 명령줄 도구를 관리하고 사용하는 방법에 대한 Microsoft Defender 바이러스 백신|

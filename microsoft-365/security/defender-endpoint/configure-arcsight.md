@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 66186c3e1b4509cf64cc4105975f15995523fc67b942fa8d9cfccad3a8134d2f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1ab7e1f31fff1e4b553d5d301eb7fbe4749de19e
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854330"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509537"
 ---
 # <a name="configure-micro-focus-arcsight-to-pull-defender-for-endpoint-detections"></a>엔드포인트 감지를 위해 Defender를 끌어오도록 마이크로 포커스 ArcSight 구성
 
@@ -38,8 +38,8 @@ ms.locfileid: "53854330"
 
 > [!NOTE]
 >
->- [Endpoint용 Defender 경고는](alerts.md) 하나 이상의 검색으로 구성됩니다.
->- [Endpoint 검색용 Defender는](api-portal-mapping.md) 장치 및 관련 경고 세부 정보에서 발생한 의심스러운 이벤트로 구성됩니다.
+> - [Endpoint용 Defender 경고는](alerts.md) 하나 이상의 검색으로 구성됩니다.
+> - [Endpoint 검색용 Defender는](api-portal-mapping.md) 장치 및 관련 경고 세부 정보에서 발생한 의심스러운 이벤트로 구성됩니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -55,6 +55,7 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
   - OAuth 2.0 클라이언트 비밀
 
 - 다음 구성 파일을 준비합니다.
+- 
   - WDATP-connector.properties
   - WDATP-connector.jsonparser.properties
 
@@ -85,7 +86,6 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
 3. 파일 탐색기를 열고 SIEM 통합 기능을 사용하도록 설정한 경우 저장한 두 구성 파일을 찾습니다. 두 파일을 FlexConnector 설치 위치에 저장합니다. 예를 들면 다음과 같습니다.
 
    - WDATP-connector.jsonparser.properties: C: \\ *folder_location*\current\user\agent\flexagent\
-
    - WDATP-connector.properties: C: \\ *folder_location*\current\user\agent\flexagent\
 
    > [!NOTE]
@@ -112,7 +112,7 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
 
 7. 브라우저 창이 커넥터에 의해 열립니다. 응용 프로그램 자격 증명으로 로그인합니다. 로그인한 후 OAuth2 클라이언트에 대한 권한을 부여할지 묻는 요청이 표시됩니다. 커넥터 구성이 인증될 수 있도록 OAuth 2 클라이언트에 대한 권한을 부여해야 합니다.
 
-   https URL인 경우 로컬 호스트의 <code>redirect_uri</code> URL로 리디렉션됩니다. 로컬 호스트에서 실행되는 커넥터에서 제공한 인증서를 신뢰해야 하는 페이지가 표시됩니다. https가 https인 redirect_uri 인증서를 신뢰해야 합니다.
+   https URL인 경우 로컬 호스트의 `redirect_uri` URL로 리디렉션됩니다. 로컬 호스트에서 실행되는 커넥터에서 제공한 인증서를 신뢰해야 하는 페이지가 표시됩니다. https가 https인 redirect_uri 인증서를 신뢰해야 합니다.
 
    그러나 웹 응용 redirect_uri URL을 지정하는 경우 인증서 신뢰에 동의할 필요가 없습니다.
 
@@ -160,7 +160,7 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
 
 8. 마이크로 포커스 ArcSight 콘솔에 로그인합니다.
 
-9. 활성 채널 **집합 새**  >  **조건 장치** 장치  >    >  **제품으로 이동합니다.**
+9. 활성 채널 **집합 새** \> **조건 장치** 장치 \>  \> **제품으로 이동합니다.**
 
 10. 장치 **제품 설정 = Microsoft Defender ATP**. 이벤트가 도구로 흐르고 있는 것이 확인되면 프로세스를 다시 중지하고 Windows 서비스로 이동하고 ArcSight FlexConnector REST를 시작하십시오.
 
@@ -180,9 +180,13 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
 
 1. 커넥터 창에서 Ctrl + C를 클릭하여 프로세스를 중지합니다. **"일괄 처리 작업 종료 Y/N?"을** 요청하면 Y를 클릭합니다.
 
-2. WDATP-connector.properties 파일을 저장한 폴더로 이동한 후 편집하여 다음 값을 `reauthenticate=true` 추가합니다. .
+2. WDATP-connector.properties 파일을 저장한 폴더로 이동한 후 편집하여 다음 값을 추가합니다.
 
-3. 다음 명령을 실행하여 커넥터를 다시 `arcsight.bat connectors` 시작합니다.
+   `reauthenticate=true`.
+
+3. 다음 명령을 실행하여 커넥터를 다시 시작합니다.
+
+   `arcsight.bat connectors`.
 
    브라우저 창이 나타납니다. 실행을 허용하면 사라지고 커넥터가 실행 중이 됩니다.
 

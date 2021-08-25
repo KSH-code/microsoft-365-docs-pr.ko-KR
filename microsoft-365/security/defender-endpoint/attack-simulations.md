@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/20/2018
 ms.technology: mde
-ms.openlocfilehash: 4c79d3b1d53a046772ee84c809aab96bff5ae762c0e946000e11d5f8f46a9de0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3ccb0bf5392bcfd8b520c1124d5daa568f1bc8be
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53818746"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509932"
 ---
 # <a name="experience-microsoft-defender-for-endpoint-through-simulated-attacks"></a>시뮬레이트된 공격을 통해 끝점에 대한 Microsoft Defender 경험 
 
@@ -50,14 +50,14 @@ ms.locfileid: "53818746"
 
 ## <a name="run-a-simulation"></a>시뮬레이션 실행
 
-1. **Endpoints** Evaluation & 자습서 자습서 & 시뮬레이션 에서 시뮬레이션할 사용 가능한 공격 시나리오를  >    >  선택합니다.
+1. **Endpoints** Evaluation & 자습서 자습서 & 시뮬레이션 에서 시뮬레이션할 사용 가능한 공격 시나리오를 \>  \> 선택합니다.
    - **시나리오 1: 문서 드롭 백도어** - 사회적으로 엔지니어링된 Lure 문서의 배달을 시뮬레이트합니다. 이 문서는 공격자가 제어할 수 있는 특수하게 만들어진 백도어를 실행합니다.
    - **시나리오 2: 파일** 없는 공격의 PowerShell 스크립트 - PowerShell을 사용하여 공격 표면 감소 및 악의적인 메모리 활동의 장치 학습 감지를 표시하는 파일 없는 공격을 시뮬레이션합니다.
    - **시나리오 3: 자동화된** 인시던트 대응 - 인시던트 대응 용량을 확장하기 위해 위반 아티팩트를 자동으로 헌팅하고 수정하는 자동화된 조사를 트리거합니다.
 
 2. 선택한 시나리오와 함께 제공된 해당 Walkthrough 문서를 다운로드하고 읽습니다.
 
-3. 시뮬레이션 파일을 다운로드하거나 **Evaluation**& 자습서를 통해 시뮬레이션 스크립트를  >  **& 복사합니다.** 테스트 장치에서 파일 또는 스크립트를 다운로드할 수 있지만 필수는 아닙니다.
+3. 시뮬레이션 파일을 다운로드하거나 **Evaluation** & 자습서를 통해 시뮬레이션 스크립트를 \> **& 복사합니다.** 테스트 장치에서 파일 또는 스크립트를 다운로드할 수 있지만 필수는 아닙니다.
 
 4. 테스트 장치에서 시뮬레이션 파일 또는 스크립트를 실행합니다. 이 문서의 지시에 따라 실행합니다.
 

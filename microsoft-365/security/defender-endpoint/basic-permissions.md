@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dad9a59bd4aff0126440e3967fd81e8e80a45c509a9f424a6ea10c7e28ba0ba5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: abdf9f72c4ae023cdc8bde76d96ce641b2e48b9a
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53811401"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509620"
 ---
 # <a name="use-basic-permissions-to-access-the-portal"></a>기본 권한을 사용하여 포털에 액세스
 
@@ -37,33 +37,34 @@ ms.locfileid: "53811401"
 기본 사용 권한 관리를 사용하려면 아래 지침을 참조하세요.
 
 다음 솔루션 중 하나를 사용할 수 있습니다.
+
 - Azure PowerShell
 - Azure Portal
 
 사용 권한에 대한 세부적인 제어를 위해 역할 기반 액세스 [제어로 전환합니다.](rbac.md)
 
 ## <a name="assign-user-access-using-azure-powershell"></a>사용자를 사용하여 사용자 액세스 Azure PowerShell
+
 다음 권한 수준 중 하나를 사용하여 사용자를 할당할 수 있습니다.
+
 - 모든 액세스(읽기 및 쓰기)
 - 읽기 전용 액세스
 
 ### <a name="before-you-begin"></a>시작하기 전에
 
-- 설치 Azure PowerShell. 자세한 내용은 를 설치 및 구성하는 [방법을 Azure PowerShell.](https://azure.microsoft.com/documentation/articles/powershell-install-configure/)<br>
+- 설치 Azure PowerShell. 자세한 내용은 를 설치 및 구성하는 [방법을 Azure PowerShell.](https://azure.microsoft.com/documentation/articles/powershell-install-configure/)
 
-    > [!NOTE]
-    > PowerShell cmdlet은 상승된 명령줄에서 실행해야 합니다.
+  > [!NOTE]
+  > PowerShell cmdlet은 상승된 명령줄에서 실행해야 합니다.
 
 - 커넥트 Azure Active Directory. 자세한 내용은 [커넥트-MsolService를 참조하십시오.](/powershell/module/msonline/connect-msolservice)
 
-**모든 액세스** <br>
-모든 권한이 있는 사용자는 로그인하고, 모든 시스템 정보를 보고, 경고를 해결하고, 심층 분석을 위해 파일을 제출하고, 온보더링 패키지를 다운로드할 수 있습니다.
-모든 액세스 권한을 할당하려면 사용자를 "보안 관리자" 또는 "전역 관리자" AAD 기본 제공 역할에 추가해야 합니다.
+  - **모든 액세스:** 모든 권한이 있는 사용자는 로그인하고, 모든 시스템 정보를 보고, 경고를 해결하고, 심층 분석을 위해 파일을 제출하고, 온보더링 패키지를 다운로드할 수 있습니다. 모든 액세스 권한을 할당하려면 사용자를 "보안 관리자" 또는 "전역 관리자" AAD 기본 제공 역할에 추가해야 합니다.
+  - **읽기 전용 액세스:** 읽기 전용 액세스 권한이 있는 사용자는 로그인하고 모든 경고 및 관련 정보를 볼 수 있습니다.
 
-**읽기 전용 액세스** <br>
-읽기 전용 액세스 권한이 있는 사용자는 로그인하고 모든 경고 및 관련 정보를 볼 수 있습니다.
-경고 상태를 변경하거나, 심층 분석을 위해 파일을 제출하거나, 상태 변경 작업을 수행할 수 없습니다.
-읽기 전용 액세스 권한을 할당하려면 사용자를 "보안 읽기 권한자" Azure AD 기본 제공 역할에 추가해야 합니다.
+    경고 상태를 변경하거나, 심층 분석을 위해 파일을 제출하거나, 상태 변경 작업을 수행할 수 없습니다.
+
+    읽기 전용 액세스 권한을 할당하려면 사용자를 "보안 읽기 권한자" Azure AD 기본 제공 역할에 추가해야 합니다.
 
 다음 단계에 따라 보안 역할을 할당합니다.
 
@@ -72,7 +73,7 @@ ms.locfileid: "53811401"
   ```PowerShell
   Add-MsolRoleMember -RoleName "Security Administrator" -RoleMemberEmailAddress "secadmin@Contoso.onmicrosoft.com"
   ```
-  
+
 - 읽기 **전용 액세스의** 경우 다음 명령을 사용하여 사용자를 보안 읽기 프로그램 역할에 할당합니다.
 
   ```PowerShell

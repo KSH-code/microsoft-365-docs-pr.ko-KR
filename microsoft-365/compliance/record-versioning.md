@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 레코드 관리 솔루션을 구현하는 데 도움이 되는 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 1259065e2f2fb3e2ee3ad09405e365df7fd98767
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: be85632bb4b85231f3a95680c960846fa245d97a
+ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356327"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58506529"
 ---
 # <a name="use-record-versioning-to-update-records-stored-in-sharepoint-or-onedrive"></a>레코드 버전을 사용하여 SharePoint 또는 OneDrive에 저장된 레코드를 업데이트합니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "58356327"
 
 레코드 잠금 및 잠금 해제 작업이 감사 로그에 기록됩니다. **파일 및 페이지 활동** 에서 **레코드 상태를 잠금으로 변경함** 및 **레코드 상태를 잠금 해제로 변경함** 을 선택합니다.
 
-이러한 이벤트를 검색하는 방법에 대한 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities)을 참조하세요.
+이러한 이벤트를 검색하는 방법에 대한 자세한 내용은 [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -16,12 +16,12 @@ manager: dansimp
 ms.topic: article
 ms.technology: mde
 ms.date: 06/02/2021
-ms.openlocfilehash: 470b123045d2f63b6dbf6aa681762892bfd529d95ef08918689f7429f4fbcdd6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f6a86aff84eda3f9f0145e47387b4353555a3a40
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53839894"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58510076"
 ---
 # <a name="test-attack-surface-reduction-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 공격 표면 감소 테스트
 
@@ -45,7 +45,7 @@ ms.locfileid: "53839894"
 
 이 기능은 앱, 스크립트 또는 파일이 수정되는 것을 차단하거나 차단하지 않습니다. 그러나 Windows 로그는 기능이 완전히 활성화된 것 같은 이벤트를 기록합니다. 감사 모드를 사용하면 이벤트 로그를 검토하여 활성화된 기능의 영향을 확인합니다.
 
-감사된 항목을 찾으면 응용 프로그램 및 서비스 Microsoft Windows  >    >    >  **Windows Defender**  >  **로 이동하십시오.**
+감사된 항목을 찾으면 응용  프로그램 및 서비스 Microsoft Windows \>  \>  \> **Windows Defender** \> **로 이동하십시오.**
 
 끝점용 Defender를 사용하여 각 이벤트, 특히 공격 표면 감소 규칙을 조사하는 데 더 많은 세부 정보를 얻을 수 있습니다. Endpoint용 Defender 콘솔을 사용하면 경고 타임라인 및 조사 시나리오의 일부로 문제를 [조사할 수 있습니다.](investigate-alerts.md)
 
@@ -54,9 +54,9 @@ ms.locfileid: "53839894"
 > [!TIP]
 > 또한 Windows Defender Testground 웹 사이트를 방문하여 [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) demo.wd.microsoft.com 작동을 확인하고 작동 방법을 확인할 수 있습니다.
 
-| 감사 옵션 | 감사 모드를 사용하도록 설정하는 방법 | 이벤트를 보는 방법 |
-|---------|---------|---------|
-| 감사는 모든 이벤트에 적용됩니다. | [제어된 폴더 액세스 사용](enable-controlled-folders.md) | [제어된 폴더 액세스 이벤트](evaluate-controlled-folder-access.md#review-controlled-folder-access-events-in-windows-event-viewer)
-| 감사는 개별 규칙에 적용됩니다. | [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md) | [공격 표면 감소 규칙 이벤트](evaluate-attack-surface-reduction.md#review-attack-surface-reduction-events-in-windows-event-viewer)
-| 감사는 모든 이벤트에 적용됩니다. | [네트워크 보호 사용](enable-network-protection.md) | [네트워크 보호 이벤트](evaluate-network-protection.md#review-network-protection-events-in-windows-event-viewer)
-| 감사는 개별 완화에 적용됩니다. | [악용 방지 사용](enable-exploit-protection.md) | [Exploit Protection 이벤트](exploit-protection.md#review-exploit-protection-events-in-windows-event-viewer)
+|감사 옵션|감사 모드를 사용하도록 설정하는 방법|이벤트를 보는 방법|
+|---|---|---|
+|감사는 모든 이벤트에 적용됩니다.|[제어된 폴더 액세스 사용](enable-controlled-folders.md)|[제어된 폴더 액세스 이벤트](evaluate-controlled-folder-access.md#review-controlled-folder-access-events-in-windows-event-viewer)
+|감사는 개별 규칙에 적용됩니다.|[공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)|[공격 표면 감소 규칙 이벤트](evaluate-attack-surface-reduction.md#review-attack-surface-reduction-events-in-windows-event-viewer)
+|감사는 모든 이벤트에 적용됩니다.|[네트워크 보호 사용](enable-network-protection.md)|[네트워크 보호 이벤트](evaluate-network-protection.md#review-network-protection-events-in-windows-event-viewer)
+|감사는 개별 완화에 적용됩니다.|[악용 방지 사용](enable-exploit-protection.md)|[Exploit Protection 이벤트](exploit-protection.md#review-exploit-protection-events-in-windows-event-viewer)

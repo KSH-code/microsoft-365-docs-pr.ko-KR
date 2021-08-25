@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용하여 다양한 Microsoft 365 서비스의 콘텐츠를 검색합니다.
-ms.openlocfilehash: e3d4f090ebe53175e2957d040ad18c226a7d3177159e2552586cac4a7b259734
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0d99321c02c4604219e5c6fcb247666f88cf4a08
+ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53892342"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58502858"
 ---
 # <a name="create-a-content-search"></a>콘텐츠 검색 만들기
 
@@ -45,7 +45,7 @@ Microsoft 365 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사�
 
 ## <a name="create-and-run-a-search"></a>검색 만들기 및 실행
 
-Microsoft 365 규정 준수의 **콘텐츠 검색** 페이지에 액세스(하여 검색을 실행하고 검색 결과를 미리 보기 및 내보내기를 수행)하려면 관리자, 준수 관리자 또는 eDiscovery 구성원이 보안 및 준수 센터의 eDiscovery 매니저 역할 그룹의 구성원이어야 합니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
+Microsoft 365 규정 준수의 **콘텐츠 검색** 페이지에 액세스(하여 검색을 실행하고 검색 결과 미리 보기 및 내보내기를 실행)하려면 관리자, 준수 관리자 또는 eDiscovery 구성원이 Microsoft 365 규정 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원이어야 합니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
   
 1. 해당 <https://compliance.microsoft.com> 할당된 계정의 자격 증명을 사용하여 로그인합니다.
 

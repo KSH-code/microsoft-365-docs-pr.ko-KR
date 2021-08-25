@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7bfe9006a42bc2599c6883b5b27d5565a4df57a49fc8ba7cb4faf1d00fe29a9d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ae325d2d6c776c41ef12164ba48da9240e0e628b
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834218"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509968"
 ---
-# <a name="enable-conditional-access-to-better-protect-users-devices-and-data"></a>조건부 액세스를 사용하도록 설정하여 사용자, 장치 및 데이터를 보다 잘 보호 
+# <a name="enable-conditional-access-to-better-protect-users-devices-and-data"></a>조건부 액세스를 사용하도록 설정하여 사용자, 장치 및 데이터를 보다 잘 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,16 +39,17 @@ ms.locfileid: "53834218"
 
 조건부 액세스를 사용하면 장치의 위험 수준에 따라 엔터프라이즈 정보에 대한 액세스를 제어할 수 있습니다. 이렇게 하면 신뢰할 수 있는 사용자가 신뢰할 수 있는 응용 프로그램을 사용하여 신뢰할 수 있는 디바이스를 유지하는 데 도움이 됩니다.
 
-장치 및 응용 프로그램이 실행되고 네트워크의 정보에 액세스할 수 있는 보안 조건을 정의하려면 장치가 규격 상태로 돌아올 때까지 응용 프로그램 실행을 중지하는 정책을 적용합니다. 
+장치 및 응용 프로그램이 실행되고 네트워크의 정보에 액세스할 수 있는 보안 조건을 정의하려면 장치가 규격 상태로 돌아올 때까지 응용 프로그램 실행을 중지하는 정책을 적용합니다.
 
-끝점용 Defender의 조건부 액세스 구현은 Microsoft Intune(Intune) 장치 준수 정책 및 Azure AD(Azure Active Directory 액세스 정책)를 기반으로 합니다. 
+끝점용 Defender의 조건부 액세스 구현은 Microsoft Intune(Intune) 장치 준수 정책 및 Azure AD(Azure Active Directory 액세스 정책)를 기반으로 합니다.
 
-준수 정책은 조건부 액세스와 함께 하나 이상의 장치 준수 정책 규칙을 충족하는 장치만 응용 프로그램에 액세스할 수 있도록 허용하는 데 사용됩니다. 
+준수 정책은 조건부 액세스와 함께 하나 이상의 장치 준수 정책 규칙을 충족하는 장치만 응용 프로그램에 액세스할 수 있도록 허용하는 데 사용됩니다.
 
 ## <a name="understand-the-conditional-access-flow"></a>조건부 액세스 흐름 이해
-조건부 액세스는 장치에 위협이 있는 경우 위협이 수정될 때까지 중요한 콘텐츠에 대한 액세스가 차단될 수 있도록 설정됩니다. 
 
-흐름은 낮은, 보통 또는 높은 위험을 지고 있는 장치로 시작됩니다. 이러한 위험 결정은 Intune으로 전송됩니다. 
+조건부 액세스는 장치에 위협이 있는 경우 위협이 수정될 때까지 중요한 콘텐츠에 대한 액세스가 차단될 수 있도록 설정됩니다.
+
+흐름은 낮은, 보통 또는 높은 위험을 지고 있는 장치로 시작됩니다. 이러한 위험 결정은 Intune으로 전송됩니다.
 
 Intune에서 정책을 구성하는 방법에 따라 특정 조건이 충족될 때 정책이 적용될 수 있도록 조건부 액세스를 설정할 수 있습니다.
 
@@ -56,14 +57,15 @@ Intune에서 정책을 구성하는 방법에 따라 특정 조건이 충족될 
 
 Intune에서 장치 준수 정책은 Azure AD 조건부 액세스와 함께 사용하여 응용 프로그램에 대한 액세스를 차단합니다. 동시에 자동화된 조사 및 수정 프로세스가 실행됩니다.
 
- 사용자는 자동화된 조사 및 수정이 진행되는 동안에도 장치를 사용할 수 있지만 위협이 완전히 해결될 때까지 엔터프라이즈 데이터에 대한 액세스는 차단됩니다. 
+ 사용자는 자동화된 조사 및 수정이 진행되는 동안에도 장치를 사용할 수 있지만 위협이 완전히 해결될 때까지 엔터프라이즈 데이터에 대한 액세스는 차단됩니다.
 
-장치에서 발견되는 위험을 해결하려면 장치를 규격 상태로 되찾아야 합니다. 장치가 위험에 노출될 위험이 없는 경우 규격 상태로 돌아올 수 있습니다. 
+장치에서 발견되는 위험을 해결하려면 장치를 규격 상태로 되찾아야 합니다. 장치가 위험에 노출될 위험이 없는 경우 규격 상태로 돌아올 수 있습니다.
 
 위험을 해결할 수 있는 방법에는 세 가지가 있습니다.
+
 1. 수동 또는 자동화된 수정을 사용 합니다.
 2. 장치에서 활성 경고를 해결합니다. 이렇게 하면 장치에서 위험이 제거됩니다.
-3. 활성 정책에서 장치를 제거할 수 있으며 결과적으로 조건부 액세스가 장치에 적용되지 않습니다. 
+3. 활성 정책에서 장치를 제거할 수 있으며 결과적으로 조건부 액세스가 장치에 적용되지 않습니다.
 
 수동 수정을 위해서는 보안 관리자가 경고를 조사하고 장치에 표시될 위험을 해결해야 합니다. 자동화된 수정은 Configure Conditional Access 섹션에 제공된 구성 설정을 [통해 구성됩니다.](configure-conditional-access.md)
 
@@ -77,6 +79,6 @@ Intune에서 장치 준수 정책은 Azure AD 조건부 액세스와 함께 사�
 4. 수동 또는 자동화된 조사 및 수정이 완료되고 위협이 제거됩니다. Endpoint용 Defender는 장치에 위험이 없음을 보고 Intune은 장치가 규격 상태인 것으로 평가합니다. Azure AD는 응용 프로그램에 대한 액세스를 허용하는 정책을 적용합니다.
 5. 이제 사용자가 응용 프로그램에 액세스할 수 있습니다.
 
- 
 ## <a name="related-topic"></a>관련 항목
+
 - [끝점용 Microsoft Defender에서 조건부 액세스 구성](configure-conditional-access.md)

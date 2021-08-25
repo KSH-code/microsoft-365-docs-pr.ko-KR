@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1e16b6aeb664c69c419337b82081a85f10344fba
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 242d0983913a646e34caf4766bcaec90c652fbd3
+ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507929"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58509920"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
@@ -52,18 +52,11 @@ ms.locfileid: "58507929"
   - 라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 - **관리자용**
-  - 사이트 포털에 Microsoft 365 Defender 액세스합니다.
+   - 사이트 포털에 Microsoft 365 Defender 액세스합니다.
 
     > [!NOTE]
-    > Microsoft Intune Android에서 끝점용 Microsoft Defender를 배포하는 데 지원되는 유일한 MDM(모바일 장치 관리) 솔루션입니다. 현재 등록된 장치만 Intune에서 Android 관련 장치 준수 정책에 끝점용 Defender를 적용하는 데 지원됩니다.
-
-  - Microsoft Endpoint Manager [관리 센터에](https://go.microsoft.com/fwlink/?linkid=2109431)액세스하여 조직의 등록된 사용자 그룹에 앱을 배포합니다.
-    - 사이트 포털에 Microsoft 365 Defender 액세스합니다.
-
-        > [!NOTE]
-        > 이제 끝점용 Microsoft Defender는 MDM(모바일 장치 관리)을 사용하지 않지만 Intune을 사용하여 모바일 응용 프로그램을 관리하는 사용자에 대해 관리되는 응용 프로그램 내의 조직 데이터로 보호를 확장할 수 있습니다. 또한 MAM(모바일 응용 프로그램 관리)에 Intune을 사용하면서 다른 엔터프라이즈 모바일 관리 솔루션을 사용하는 고객에게도 이 지원을 [확장합니다.](/mem/intune/apps/mam-faq)
-        >
-        > 이 업데이트 이전에는 끝점용 Microsoft Defender가 Intune MDM을 사용하여 등록된 장치에서만 작동했습니다.
+    > - 이제 끝점용 Microsoft Defender는 MDM(모바일 장치 관리)을 사용하지 않지만 Intune을 사용하여 모바일 응용 프로그램을 관리하는 사용자에 대해 관리되는 응용 프로그램 내의 조직 데이터로 보호를 확장합니다. 또한 MAM(모바일 응용 프로그램 관리)에 Intune을 사용하면서 다른 엔터프라이즈 모바일 관리 솔루션을 사용하는 고객에게도 이 지원을 [확장합니다.](/mem/intune/apps/mam-faq)
+    > - 또한 끝점용 Microsoft Defender는 Intune MDM(모바일 장치 관리)을 사용하여 등록된 장치를 이미 지원합니다.
 
     - Microsoft Endpoint Manager [관리 센터에](https://go.microsoft.com/fwlink/?linkid=2109431)액세스하여 조직의 등록된 사용자 그룹에 앱을 배포합니다.
 
