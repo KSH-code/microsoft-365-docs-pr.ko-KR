@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: '사용 현황 분석이 API에 연결되는 방법을 알아보고 다양한 Microsoft 365 서비스의 월별 사용 추세를 제공합니다.  '
-ms.openlocfilehash: e18233532f7a570129f31141bb21e7c3dd9450603d09f6db636db846fea20edc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cf53007e062db85bb17bd64851022218c0d220ba
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867274"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533546"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 사용 현황 분석 데이터 모델
 
@@ -115,8 +115,8 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |SPO_GroupFileSynched  <br/> |이 사용자가 그룹 사이트에서 동기화한 파일 수입니다.  <br/> |
 |SPO_GroupFileSharedInternally  <br/> |조직 내의 사용자 또는 그룹 내의 사용자(외부 사용자를 포함할 수 있는 사용자)와 공유된 파일의 수입니다.  <br/> |
 |SPO_GroupFileSharedExternally  <br/> |사용자가 그룹 사이트에서 외부적으로 공유한 파일 수입니다.  <br/> |
-|SPO_GroupAccessByOwner  <br/> |이 사용자가 상호 작용한 소유한 그룹 사이트에 있는 파일 수입니다.  <br/> |
-|SPO_GroupAccessByOthers  <br/> |다른 사용자가 소유한 그룹 사이트에 있고 사용자가 상호 작용한 파일 수입니다.  <br/> |
+|SPO_GroupAccessedByOwner  <br/> |사용자가 상호 작용한 사이트가 소유한 그룹 사이트에 있는 사이트 수입니다.  <br/> |
+|SPO_GroupAccessedByOthers  <br/> |사용자가 상호 작용한 사이트 수로, 다른 사용자가 소유한 그룹 사이트에 있습니다.  <br/> |
 |SPO_OtherFileViewedModified  <br/> |이 사용자가 다른 사이트에서 상호 작용한 파일 수입니다.  <br/> |
 |SPO_OtherFileSynched  <br/> |이 사용자가 다른 사이트에서 동기화한 파일 수입니다.  <br/> |
 |SPO_OtherFileSharedInternally  <br/> |이 사용자가 다른 사이트에서 내부적으로 또는 그룹 내의 사용자(외부 사용자를 포함할 수 있는 사용자)와 공유한 파일 수입니다. <br/> |
@@ -127,8 +127,8 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |SPO_TeamFileSynched  <br/> |이 사용자가 팀 사이트에서 동기화한 파일 수입니다.  <br/> |
 |SPO_TeamFileSharedInternally  <br/> |이 사용자가 팀 사이트 또는 그룹 내의 사용자(외부 사용자를 포함할 수 있는 사용자)에서 내부적으로 공유한 파일 수입니다.  <br/> |
 |SPO_TeamFileSharedExternally  <br/> |이 사용자가 팀 사이트에서 외부적으로 공유한 파일 수입니다.  <br/> |
-|SPO_TeamAccessByOwner  <br/> |이 사용자가 상호 작용한 소유한 팀 사이트에 있는 파일 수입니다.  <br/> |
-|SPO_TeamAccessByOthers  <br/> |다른 사용자가 소유한 팀 사이트에 있고 사용자가 상호 작용한 파일 수입니다.  <br/> |
+|SPO_TeamAccessedByOwner  <br/> |사용자가 상호 작용한 사이트 수가 소유한 팀 사이트에 있습니다.  <br/> |
+|SPO_TeamAccessedByOthers  <br/> |사용자가 상호 작용한 사이트 수로, 다른 사용자가 소유한 팀 사이트에 있습니다.  <br/> |
 |Teams_ChatMessages  <br/> |전송된 채팅 메시지 수입니다.  <br/> |
 |Teams_ChannelMessage  <br/> |채널에 게시된 메시지 수입니다.  <br/> |
 |Teams_CallParticipate  <br/> |사용자가 참여한 통화 수입니다.  <br/> |

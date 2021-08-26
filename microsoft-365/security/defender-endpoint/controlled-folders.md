@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: ffcb986198cbe672b935980aea39f340bab947b9f3ba21ad890feadf6cc8f2ee
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 19737781f2c22a356da2c237e2f059a362140956
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533666"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스를 사용하여 중요한 폴더 보호
 
@@ -36,10 +36,10 @@ ms.locfileid: "53863682"
 
 ## <a name="what-is-controlled-folder-access"></a>제어된 폴더 액세스란?
 
-제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 알려진 신뢰할 수 있는 앱 목록에서 앱을 확인하여 데이터를 보호합니다. Windows Server 2019 및 Windows 10 클라이언트에서 지원되는 제어된 폴더 액세스는 Windows 보안 App, Microsoft Endpoint Configuration Manager 또는 Intune(관리되는 디바이스의 경우)을 사용하여 켜져 있을 수 있습니다. 
+제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 알려진 신뢰할 수 있는 앱 목록에서 앱을 확인하여 데이터를 보호합니다. Windows Server 2019 및 Windows 10 클라이언트에서 지원되는 제어된 폴더 액세스는 Windows 보안 App, Microsoft Endpoint Configuration Manager 또는 Intune(관리되는 디바이스의 경우)을 사용하여 켜져 있을 수 있습니다.
 
 > [!NOTE]
-> 스크립팅 엔진은 신뢰할 수 없습니다. 제어된 보호된 폴더에 대한 액세스를 허용할 수 없습니다.  예를 들어 인증서 및 파일 표시기를 사용하여 허용하는 경우에도 PowerShell은 제어된 폴더 액세스에서 [신뢰되지 않습니다.](/microsoft-365/security/defender-endpoint/indicator-certificates) 
+> 스크립팅 엔진은 신뢰할 수 없습니다. 제어된 보호된 폴더에 대한 액세스를 허용할 수 없습니다. 예를 들어 인증서 및 파일 표시기를 사용하여 허용하는 경우에도 PowerShell은 제어된 폴더 액세스에서 [신뢰되지 않습니다.](/microsoft-365/security/defender-endpoint/indicator-certificates)
 
 제어된 폴더 액세스는 제어된 폴더 액세스 이벤트에 대한 자세한 보고를 제공하고 일반적인 경고 조사 시나리오의 일부로 차단하는 [끝점용 Microsoft Defender와](microsoft-defender-endpoint.md)가장 [잘 작동합니다.](investigate-alerts.md)
 
@@ -48,9 +48,9 @@ ms.locfileid: "53863682"
 
 ## <a name="how-does-controlled-folder-access-work"></a>제어된 폴더 액세스는 어떻게 작동하나요?
 
-제어된 폴더 액세스는 신뢰할 수 있는 앱이 보호된 폴더에 액세스할 수만 있도록 허용하여 작동합니다. 보호된 폴더는 제어된 폴더 액세스를 구성할 때 지정됩니다. 일반적으로 일반적으로 문서, 그림, 다운로드 등에서 사용되는 폴더와 같이 일반적으로 사용되는 폴더는 제어된 폴더 목록에 포함됩니다. 
+제어된 폴더 액세스는 신뢰할 수 있는 앱이 보호된 폴더에 액세스할 수만 있도록 허용하여 작동합니다. 보호된 폴더는 제어된 폴더 액세스를 구성할 때 지정됩니다. 일반적으로 일반적으로 문서, 그림, 다운로드 등에서 사용되는 폴더와 같이 일반적으로 사용되는 폴더는 제어된 폴더 목록에 포함됩니다.
 
-제어된 폴더 액세스는 신뢰할 수 있는 앱 목록에서 작동합니다. 신뢰할 수 있는 소프트웨어 목록에 포함된 앱은 예상대로 작동됩니다. 목록에 포함되지 않은 앱은 보호된 폴더 내부의 파일을 변경할 수 없습니다. 
+제어된 폴더 액세스는 신뢰할 수 있는 앱 목록에서 작동합니다. 신뢰할 수 있는 소프트웨어 목록에 포함된 앱은 예상대로 작동됩니다. 목록에 포함되지 않은 앱은 보호된 폴더 내부의 파일을 변경할 수 없습니다.
 
 앱이 보전 및 신뢰도에 따라 목록에 추가됩니다. 조직 전체에서 매우 만연하며 악의적인 것으로 간주되는 동작을 표시하지 않은 앱은 신뢰할 수 있는 앱으로 간주됩니다. 이러한 앱은 목록에 자동으로 추가됩니다.
 
@@ -65,12 +65,13 @@ Configuration Manager 또는 Intune을 사용하여 앱을 신뢰할 수 있는 
 감사 모드를 [사용하여](audit-windows-defender.md) 제어된 폴더 액세스가 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가할 수 있습니다. 또한 Windows Defender 테스트 demo.wd.microsoft.com 웹 사이트를 [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 방문하여 기능이 작동하는지 확인하고 작동 방법을 확인할 수 있습니다.
 
 제어된 폴더 액세스는 다음 버전의 폴더에서 Windows.
+
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 ## <a name="windows-system-folders-are-protected-by-default"></a>Windows 폴더는 기본적으로 보호됩니다.
 
-Windows 폴더는 기본적으로 몇 가지 다른 폴더와 함께 보호됩니다. 
+Windows 폴더는 기본적으로 몇 가지 다른 폴더와 함께 보호됩니다.
 
 - `c:\Users\<username>\Documents`
 - `c:\Users\Public\Documents`
@@ -114,15 +115,20 @@ DeviceEvents
 
 다음 표에는 제어된 폴더 액세스와 관련된 이벤트가 표시됩니다.
 
-|이벤트 ID | 설명 |
-|:---|:---|
-|5007 | 설정이 변경될 때의 이벤트 |
-|1124 | 감사된 제어된 폴더 액세스 이벤트 | 
-|1123 | 차단된 제어된 폴더 액세스 이벤트 |
+<br>
+
+****
+
+|이벤트 ID|설명|
+|---|---|
+|5007|설정이 변경될 때의 이벤트|
+|1124|감사된 제어된 폴더 액세스 이벤트|
+|1123|차단된 제어된 폴더 액세스 이벤트|
+|
 
 ## <a name="view-or-change-the-list-of-protected-folders"></a>보호된 폴더 목록 보기 또는 변경
 
-앱 앱을 Windows 보안 제어된 폴더 액세스로 보호되는 폴더 목록을 볼 수 있습니다. 
+앱 앱을 Windows 보안 제어된 폴더 액세스로 보호되는 폴더 목록을 볼 수 있습니다.
 
 1. 디바이스에서 Windows 10 앱을 Windows 보안 를 니다.
 2. **바이러스 및 위협 방지** 를 선택합니다.
@@ -130,9 +136,7 @@ DeviceEvents
 4. 제어된 폴더 액세스가 꺼져 있는 경우 이를 켜야 합니다. 보호된 **폴더를 선택합니다.**
 5. 다음 단계 중 하나를 실행합니다.
    - 폴더를 추가하려면 **+ 보호된 폴더 추가를 선택합니다.**
-   - 폴더를 제거하려면 폴더를 선택하고 제거 를 **선택합니다.** 
+   - 폴더를 제거하려면 폴더를 선택하고 제거 를 **선택합니다.**
 
 > [!NOTE]
 > [Windows 시스템](#windows-system-folders-are-protected-by-default) 폴더는 기본적으로 보호되어 있으며 목록에서 제거할 수 없습니다.
-
-

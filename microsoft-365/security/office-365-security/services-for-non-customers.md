@@ -17,12 +17,12 @@ ms.collection:
 description: 전자 메일 사용에 대한 사용자 신뢰를 유지하기 위해 Microsoft는 사용자를 보호하는 데 도움이 되는 다양한 정책 및 기술을 제공했습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3a8ad98029fdc7f008ff6b22c2e8fa3e738b9fc7c0caa13b0aaca918a40f4d3e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9bed3c24fee91d746957a6418e5f5ea61babef6b
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56886176"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533642"
 ---
 # <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>고객이 아닌 고객이 메일로 메일을 보내는 Microsoft 365
 
@@ -67,4 +67,4 @@ Microsoft는 받는 사람에게 메일을 보내는 데 문제가 있는 사용
 
 ## <a name="abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online"></a>전자 메일에서 시작된 정크 메일에 대한 남용 및 스팸 Exchange Online
 
-경우에 따라 Microsoft365는 사용 약관 및 정책을 위반하여 제3자에서 정크 메일을 보내는 데 사용됩니다. 사용자로부터 정크 메일이 Office 365 이러한 메시지를 Microsoft에 보고할 수 있습니다. 자세한 내용은 Microsoft에 메시지 및 [파일 보고를 참조하세요.](report-junk-email-messages-to-microsoft.md)
+경우에 Microsoft 365 사용 약관 및 정책을 위반하여 제3자에서 정크 메일을 보내는 데 사용됩니다. 사용자로부터 정크 메일이 Office 365 이러한 메시지를 Microsoft에 보고할 수 있습니다. 자세한 내용은 Microsoft에 메시지 및 [파일 보고를 참조하세요.](report-junk-email-messages-to-microsoft.md)

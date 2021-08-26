@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 MS 계정에서 데이터를 가져오고 보관하는 커넥터를 설정할 수 SQL Database. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 해당 커넥터에 Microsoft 365. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 9f42e7616a844849d0c77b62c307e2c53972a4ceffce91223b68e3cc6040dc8f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cf0e4d1bc9d5cf6db7538f5f75174488532871e8
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533606"
 ---
 # <a name="set-up-a-connector-to-archive-data-from-ms-sql-database"></a>MS 2013에서 데이터를 보관할 커넥터 SQL Database
 
@@ -47,7 +47,7 @@ MS SQL Database 사서함에 저장한 후 소송 보존, eDiscovery Microsoft 3
 
 ## <a name="step-1-set-up-the-ms-sql-database-importer-connector"></a>1단계: MS SQL Database 가져오기 커넥터 설정
 
-첫 번째 단계는 Microsoft365 규정 준수 센터의 데이터 커넥터 페이지에 액세스하고 MS 커넥터에 대한 커넥터를 SQL Database. 
+첫 번째 단계는 서버의  데이터 커넥터 페이지에 액세스하고 MS Microsoft 365 규정 준수 센터 커넥터를 만드는 SQL Database.
 
 1. 으로 이동한 다음 데이터 커넥터 MS SQL Database [https://compliance.microsoft.com](https://compliance.microsoft.com)   >  **클릭합니다.**
 

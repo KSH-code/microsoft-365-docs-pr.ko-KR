@@ -17,12 +17,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 사용자가 자신의 검사된 메시지에 대해 할 수 있는 작업을 제어하기 위해 검지 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e855b0c0a32cbfe6ed6b2f47cb7436f8ffa0fa64
-ms.sourcegitcommit: d792743bc21eec87693ebca51d7307a506d0bc43
+ms.openlocfilehash: 581b465ddc8197e2f029b149c57d5d83aacf7a15
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58450190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533474"
 ---
 # <a name="quarantine-policies"></a>Quarantine policies
 
@@ -265,7 +265,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>"> [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
 ```
 
-**참고:**
+**참고**:
 
 - _PhishSpamAction_ 및 _HighConfidencePhishAction_ 매개 변수의 기본값은 Quarantine이기 때문에 PowerShell에서 새 스팸 필터 정책 만들기 시 이러한 매개 변수를 사용할 필요가 없습니다. 새 스팸 방지 정책 또는 기존 스팸 방지 정책의 _SpamAction,_ _HighConfidenceSpamAction_ 및 _BulkSpamAction_ 매개 변수의 경우, 해당 값이 Quarantine인 경우만 해당 정책이 적용됩니다.
 
@@ -348,7 +348,7 @@ PowerShell을 사용하여 피싱 방지 정책에서 검지 정책을 할당할
 <New-AntiPhishPolicy -Name "<Unique name>" | Set-AntiPhishPolicy -Identity "<Policy name>"> [-EnableSpoofIntelligence $true] [-AuthenticationFailAction Quarantine] [-SpoofQuarantineTag <QuarantineTagName>] [-EnableMailboxIntelligence $true] [-EnableMailboxIntelligenceProtection $true] [-MailboxIntelligenceProtectionAction Quarantine] [-MailboxIntelligenceQuarantineTag <QuarantineTagName>] [-EnableOrganizationDomainsProtection $true] [-EnableTargetedDomainsProtection $true] [-TargetedDomainProtectionAction Quarantine] [-TargetedDomainQuarantineTag <QuarantineTagName>] [-EnableTargetedUserProtection $true] [-TargetedUserProtectionAction Quarantine] [-TargetedUserQuarantineTag <QuarantineTagName>] ...
 ```
 
-**참고:**
+**참고**:
 
 - Enable _\* 매개_ 변수는 특정 보호 기능을 켜는 데 필요합니다. _EnableMailboxIntelligence_ 및 _EnableSpoofIntelligence_ 매개 변수의 기본값은 $true 설정되어 있으므로 PowerShell에서 새 피싱 방지 정책을 만들 때 이러한 매개 변수를 사용할 필요가 없습니다. 다른 _모든 \* Enable_ 매개 변수에는 값이 $true 설정해야 해당 _\* Action_ 매개 변수에서 Quarantine 값을 설정하여 검지 정책을 할당할 수 있습니다. _*\Action 매개_ 변수에는 기본값 Quarantine이 없습니다.
 
@@ -413,7 +413,7 @@ PowerShell을 사용하여 맬웨어 방지 정책에서 검지 정책을 할당
 <New-AntiMalwarePolicy -Name "<Unique name>" | Set-AntiMalwarePolicy -Identity "<Policy name>"> [-QuarantineTag <QuarantineTagName>]
 ```
 
-**참고:**
+**참고**:
 
 - 맬웨어에 대해 차단된 메시지에 대한 기본 최종 사용자 기능을 변경하려는 경우만 기본 검지 정책을 사용자 지정 검지 정책으로 바꿔야 합니다.
 
@@ -472,7 +472,7 @@ Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
 <New-SafeAttachmentPolicy -Name "<Unique name>" | Set-SafeAttachmentPolicy -Identity "<Policy name>"> [-QuarantineTag <QuarantineTagName>]
 ```
 
-**참고:**
+**참고**:
 
 - SharePoint, OneDrive 및 2013에 대해 첨부 파일로 금고 최종 사용자 기능을 변경하려는 경우 기본 검지 정책을 사용자 지정 OneDrive 정책으로 Microsoft Teams.
 
@@ -605,7 +605,7 @@ Set-QuarantineTag -Identity "<QuarantinePolicyName>" [Settings]
 
 ## <a name="remove-quarantine-policies-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 Microsoft 365 Defender 제거
 
-**참고:**
+**참고**:
 
 - 기본 제공 분리 정책은 제거할 수 없습니다.
 - 사용자 지정 분리 정책을 제거하기 전에 정책이 사용되지 않는지 확인해야 합니다. 예를 들어 PowerShell에서 다음 명령을 실행합니다.
@@ -633,6 +633,18 @@ Remove-QuarantineTag -Identity "<QuarantinePolicyName>"
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [Remove-QuarantineTag 를 참조하십시오.](/powershell/module/exchange/remove-quarantinetag)
+
+## <a name="system-alerts-for-quarantine-release-requests"></a>릴리스 요청에 대한 시스템 알림
+
+기본적으로 사용자라는 기본 경고 정책은 사용자가 **quarantined** message 릴리스를 요청할 때마다 중간 심각도 경고를 자동으로 생성하고 다음 역할 그룹의 구성원에게 알림 메시지를 전송합니다.
+
+- Quarantine Administrator
+- 보안 관리자
+- 조직 관리(전역 관리자)
+
+관리자는 전자 메일 알림 받는 사람을 사용자 지정하거나 추가 옵션에 대한 사용자 지정 경고 정책을 만들 수 있습니다.
+
+경고 정책에 대한 자세한 내용은 [Microsoft 365의 경고 정책](../../compliance/alert-policies.md)을 참조하세요.
 
 ## <a name="quarantine-policy-permission-details"></a>정책 사용 권한 세부 정보 검량
 

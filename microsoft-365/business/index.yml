@@ -1,0 +1,208 @@
+### YamlMime:Hub
+title: Microsoft 365 Business Premium 리소스
+summary: 'Microsoft 365 Business Premium(이전 명칭: Microsoft 365 Business)은 직원의 수가 300명 미만인 비즈니스를 위한 포괄적인 구독 서비스입니다. 좋아하는 Office 생산성 앱 및 서비스와 Microsoft Teams와 같은 공동 작업 도구를 고급 보안 및 장치 관리 기능과 통합합니다.'
+brand: m365
+metadata:
+  title: Microsoft 365 Business Premium 리소스
+  description: 설치 및 작업 설명서를 Microsoft 365 Business Premium.
+  ms.service: o365-administration
+  ms.topic: hub-page
+  ms.collection: collection
+  ms.custom: AdminSurgePortfolio
+  author: efrene
+  ms.author: efrene
+  ms.date: 8/25/2021
+productDirectory:
+  title: Microsoft 365 Business Premium을 사용하여 원격 작업을 보안
+  items:
+    - title: 시청
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: Microsoft 365 Business Premium의 상위 이점 5가지
+      url: 'https://aka.ms/M365BPvideo'
+    - title: 무료 파트너 키트 받기
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: 원격 작업을 보호하는 데 도움이 되는 실용적인 지침 및 시장 리소스를 참조하세요.
+      url: 'https://aka.ms/SMBSecurityKit'
+    - title: 어떠한 새로운 기능이 있나요?
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      summary: 이제 Microsoft 365 Business Premium에서 바이러스 백신 관리 및 유니버설 인쇄를 사용할 수 있습니다.
+      url: 'https://aka.ms/M365BPQ1Update'
+    - title: 파트너 웨비나 시리즈 참가
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: Microsoft 365 Business Premium를 통한 관리 서비스로 비즈니스 성장을 가속화하세요.
+      url: 'https://aka.ms/acceleratewithm365bp'
+conceptualContent:
+  items:
+    - title: Microsoft 365 Business Premium이란 무엇인가요?
+      links:
+        - url: microsoft-365-business-overview.md
+          itemType: overview
+          text: 개요
+        - url: ../business-video/index.yml
+          itemType: video
+          text: Microsoft 365 Business Premium 교육
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
+          itemType: overview
+          text: 요금제 비교
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+          itemType: reference
+          text: 서비스 설명
+        - url: ../admin/misc/microsoft-365-business-faqs.yml
+          itemType: reference
+          text: FAQ
+    - title: Microsoft 365 Business Premium 설정
+      links:
+        - url: ../admin/setup/business-set-up.md
+          itemType: how-to-guide
+          text: 1. 설정 마법사 실행
+        - url: ../admin/setup/secure-win-10-pcs.md
+          itemType: how-to-guide
+          text: 2. PC 보호
+        - url: /MicrosoftTeams/get-started-with-teams-quick-start
+          itemType: video
+          text: 3. Teams 설정
+        - url: ../business-video/install-office.md
+          itemType: get-started
+          text: 4. Office 설치
+    - title: 파트너를 위한 리소스 (영어로만 제공)
+      links:
+        - url: 'https://www.microsoft.com/microsoft-365/partners/business'
+          itemType: overview
+          text: 파트너 페이지
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx'
+          itemType: download
+          text: 피치 데크 (고객 중심)
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx'
+          itemType: download
+          text: 피치 데크 (파트너 중심)
+        - url: 'https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery'
+          itemType: download
+          text: 기술 기본 사항
+        - url: 'https://aka.ms/SMBSecurityKit'
+          itemType: download
+          text: 원격 작업 킷 보안
+        - url: 'https://cct.transform.microsoft.com/'
+          itemType: deploy
+          text: 고객 컨설팅 도구
+        - url: 'https://vc.transform.microsoft.com/'
+          itemType: learn
+          text: 값 계산기
+    - title: 사용자 관리
+      links:
+        - url: ../admin/add-users/add-users.md
+          itemType: how-to-guide
+          text: 사용자 추가
+        - url: /office365/admin/add-users/remove-former-employee
+          itemType: how-to-guide
+          text: 사용자 제거
+        - url: /office365/admin/add-users/reset-passwords
+          itemType: how-to-guide
+          text: 사용자의 암호 재설정
+      footerLink:
+        url: /office365/admin/admin-home
+        text: 더 보기
+    - title: 위협 관리
+      links:
+        - url: ../security/office-365-security/defender-for-office-365.md
+          itemType: overview
+          text: Advanced Threat Protection
+        - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
+          itemType: how-to-guide
+          text: MFA 설정
+        - url: ./increase-threat-protection.md#protect-against-ransomware
+          itemType: how-to-guide
+          text: 랜섬웨어로부터 보호
+        - url: /azure/active-directory/conditional-access/overview
+          itemType: overview
+          text: 조건부 액세스
+      footerLink:
+        url: /office365/admin/admin-home
+        text: 더 보기
+    - title: 데이터 관리
+      links:
+        - url: ../compliance/data-loss-prevention-policies.md
+          itemType: overview
+          text: 데이터 손실 방지
+        - url: 'https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980'
+          itemType: how-to-guide
+          text: 암호화된 전자 메일 보내기
+        - url: ./set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
+          itemType: how-to-guide
+          text: 전자 메일 보존 설정
+        - url: ../business-video/create-sensitivity-labels.md
+          itemType: video
+          text: 민감도 레이블 만들기 및 사용
+      footerLink:
+        url: ../compliance/index.yml
+        text: 더 보기
+    - title: 장치 관리
+      links:
+        - url: ../admin/devices/view-policies-and-devices.md
+          itemType: how-to-guide
+          text: PC & 모바일 장치
+        - url: ../admin/devices/remove-company-data.md
+          itemType: how-to-guide
+          text: 회사 데이터 제거
+        - url: ../admin/devices/reset-devices-to-factory-settings.md
+          itemType: how-to-guide
+          text: 지우기 및 재설정
+        - url: /intune/index
+          itemType: overview
+          text: Intune
+        - url: ../admin/setup/manage-windows-devices.md
+          itemType: how-to-guide
+          text: 하이브리드 Azure AD 조인 설정
+        - url: ../admin/setup/access-resources.md
+          itemType: how-to-guide
+          text: Azure AD 조인 설정
+        - url: /windows/deployment/windows-autopilot/windows-autopilot
+          text: Windows Autopilot
+          itemType: overview
+      footerLink:
+        url: ../admin/setup/manage-windows-devices.md
+        text: 더 보기
+    - title: 보안 모니터링
+      links:
+        - url: ../security/defender/microsoft-secure-score.md
+          itemType: how-to-guide
+          text: 보안 점수
+        - url: /intune/apps/app-protection-policies-monitor
+          itemType: overview
+          text: Intune 앱 보호 정책 보고서
+        - url: ../enterprise/view-service-health.md
+          itemType: how-to-guide
+          text: 상태 모니터링 알림
+      footerLink:
+        url: ../security/index.yml
+        text: 더 보기
+    - title: 지원 및 커뮤니티
+      links:
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog'
+          itemType: whats-new
+          text: 공지 사항
+        - url: 'https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988'
+          itemType: video
+          text: 도움말 보기
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business'
+          itemType: overview
+          text: 사용자 의견 보내기
+        - url: 'https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB'
+          itemType: overview
+          text: 중소 비즈니스 기술 커뮤니티
+    - title: 방법
+      links:
+        - url: ../business-video/sign-up.md
+          itemType: get-started
+          text: Microsoft 365 Business Premium에 가입
+        - url: ../commerce/subscriptions/upgrade-to-different-plan.md
+          itemType: how-to-guide
+          text: Microsoft 365 Business Standard에서 마이그레이션
+        - url: ../commerce/subscriptions/upgrade-to-different-plan.md
+          itemType: how-to-guide
+          text: Office 365 E3에서 마이그레이션
+        - url: ../commerce/subscriptions/upgrade-to-different-plan.md
+          itemType: how-to-guide
+          text: Microsoft 365 Enterprise E3로 마이그레이션
+      footerLink:
+        url: ../business-video/what-is-microsoft-365.md
+        text: 더 보기

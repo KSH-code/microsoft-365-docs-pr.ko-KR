@@ -13,12 +13,12 @@ ms.collection:
 - M365-modern-desktop
 localization_priority: None
 description: M365의 Learning LTI(Learning Tools Interoperability) Office 및 Office 앱을 LMS(Learning Management System)에 통합할 때 교육자들에게 도움이 되는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 350d0d2618275ec628f9ac884fb0de4f019021aaa4397af57129fa29bbfcb86b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7aa85369151dcb1ce1628dbd8a969ac31e7caada
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533510"
 ---
 # <a name="integrating-microsoft-products-with-your-learning-management-system-lms"></a>LMS(Learning 관리 시스템)와 Microsoft 제품 통합
 
@@ -63,7 +63,7 @@ LTI Microsoft OneDrive 사용하여 다음을 할 수 있습니다.
 - 교육 Office 365 모듈과 통합합니다.
 - LMS와의 Single Sign-On에 Microsoft 계정을 사용하세요.
 
-구성 단계는 [Canvas와 Microsoft OneDrive LTI 사용을 참조하세요.](use-onedrive-with-lms.md)
+구성 단계는 [Canvas와 LTI Microsoft OneDrive 통합을 참조하세요.](onedrive-lti.md)
 
 ## <a name="teams-lti-apps"></a>Teams LTI 앱
 

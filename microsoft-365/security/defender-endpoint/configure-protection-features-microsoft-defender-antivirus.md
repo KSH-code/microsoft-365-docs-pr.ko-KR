@@ -15,12 +15,12 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 0e91a48d41aded93974b47745869e5ab220170d4e41ed82726aeb9e50c1aa075
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2db625e98bd685c0dffb7820847c483b54f600fb
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834062"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533594"
 ---
 # <a name="configure-behavioral-heuristic-and-real-time-protection"></a>동작, 추론 및 실시간 보호 구성
 
@@ -43,7 +43,7 @@ Microsoft Defender 바이러스 백신 여러 가지 방법을 사용하여 위�
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
- 항목 | 설명
+ 항목|설명
 ---|---
-[잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md) | 애드웨어, 브라우저 수정자 및 도구 모음, 악성 또는 가짜 바이러스 백신 앱 등 네트워크에서 원치 않는 앱을 검색하고 차단합니다.
-[보안 보호 기능 Microsoft Defender 바이러스 백신 사용 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md) | 실시간 보호,추론 및 기타 상시 모니터링 기능 사용 Microsoft Defender 바이러스 백신 구성
+[잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)|애드웨어, 브라우저 수정자 및 도구 모음, 악성 또는 가짜 바이러스 백신 앱 등 네트워크에서 원치 않는 앱을 검색하고 차단합니다.
+[보안 보호 기능 Microsoft Defender 바이러스 백신 사용 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)|실시간 보호,추론 및 기타 상시 모니터링 기능 사용 Microsoft Defender 바이러스 백신 구성

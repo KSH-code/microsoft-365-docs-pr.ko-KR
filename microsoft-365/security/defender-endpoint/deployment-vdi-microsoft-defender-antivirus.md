@@ -15,12 +15,12 @@ ms.date: 06/11/2021
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 8a4cd421121f9cfae94724bfaab29df2bf873ab8748f1605d68f5a9813f99102
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cbf1cae088af2606e8fea1e40e0cfe34c7a74832
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794369"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533522"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드
 
@@ -65,7 +65,7 @@ Windows 10 버전 1903에서는 다운로드한 보안 인텔리전스 업데이
 
 3. 관리 **템플릿 을 클릭합니다.**
 
-4. 보안 인텔리전스 **Windows 구성 Microsoft Defender 바이러스 백신**  >    >  **확장합니다.**
+4. 보안 인텔리전스 **Windows 구성 Microsoft Defender 바이러스 백신** \>  \> **확장합니다.**
 
 5. VDI 클라이언트의 보안 인텔리전스 위치 정의를 두 번 **클릭한** 다음 옵션을 사용으로 **설정합니다.** 필드가 자동으로 나타납니다.
 
@@ -111,7 +111,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 1. 관리 컴퓨터의 관리 시작 메뉴 작업 스케줄러 **를 입력합니다.** 작업을 열고 사이드 패널에서 **작업 만들기...를** 선택합니다.
 
-2. 보안 인텔리전스 **unpacker로 이름을 입력합니다.** 트리거 **탭으로** 이동하여 새로 **추가...를 선택합니다.**  >  **매일** 을 선택하고 **확인 을 선택합니다.**
+2. 보안 인텔리전스 **unpacker로 이름을 입력합니다.** 트리거 **탭으로** 이동하여 새로 **추가...를 선택합니다.** \> **매일** 을 선택하고 **확인 을 선택합니다.**
 
 3. 작업 **탭으로 이동하여** 새로 추가...를 **선택합니다.** 프로그램/스크립트 필드에 **PowerShell을** **입력합니다.** 인수 `-ExecutionPolicy Bypass c:\wdav-update\vdmdlunpack.ps1` **추가 필드에 입력합니다.** **확인** 을 선택합니다.
 
@@ -153,7 +153,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 예약된 검사 중에 수행할 검사 유형을 지정할 수 있습니다. 빠른 검사는 맬웨어가 활성화해야 하는 모든 장소를 검색하도록 디자인된 기본 접근 방식입니다. 다음 절차에서는 그룹 정책을 사용하여 빠른 검색을 설정하는 방법을 설명합니다.
 
-1. 그룹 정책 편집기에서 검사에서 관리 템플릿 Windows  >  **구성**  >  **Microsoft Defender 바이러스 백신**  >  **로 이동하십시오.**
+1. 그룹 정책 편집기에서  검사에서 관리 템플릿 Windows \> **구성** \> **Microsoft Defender 바이러스 백신** \> **로 이동하십시오.**
 
 2. 예약된 **검사에** 사용할 검사 유형 지정을 선택한 다음 정책 설정을 편집합니다.
 
@@ -167,7 +167,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 경우에 따라 Microsoft Defender 바이러스 백신 전송되거나 여러 세션에서 유지될 수 있습니다. 이 문제를 최소화하기 위해 사용자 인터페이스를 Microsoft Defender 바이러스 백신 있습니다. 다음 절차에서는 그룹 정책을 사용하여 알림을 표시하지 않습니다.
 
-1. 그룹 정책 편집기에서 클라이언트 **인터페이스의** Windows 구성  >  **Microsoft Defender 바이러스 백신**  >  **로 이동하십시오.**
+1. 그룹 정책 편집기에서 클라이언트 **인터페이스의** Windows 구성 \> **Microsoft Defender 바이러스 백신** \> **로 이동하십시오.**
 
 2. 모든 **알림 표시 안 를 선택한** 다음 정책 설정을 편집합니다.
 
@@ -191,7 +191,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 > [!IMPORTANT]
 > 업데이트 후 검색을 실행하면 최신 보안 인텔리전스 업데이트로 VM을 보호하는 데 도움이 됩니다. 이 옵션을 설정하면 VM의 보호 수준이 낮아지며, 기본 이미지를 처음 만들거나 배포할 때만 사용할 수 있습니다.
 
-1. 그룹 정책 편집기에서 보안 **인텔리전스 Windows 구성**  >  **Microsoft Defender 바이러스 백신**  >  **로 이동하세요.**
+1. 그룹 정책 편집기에서 보안 **인텔리전스 Windows 구성** \> **Microsoft Defender 바이러스 백신** \> **로 이동하세요.**
 
 2. 보안 **인텔리전스 업데이트 후 검사 켜기 를 선택한** 다음 정책 설정을 편집합니다.
 
@@ -205,7 +205,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 ## <a name="scan-vms-that-have-been-offline"></a>오프라인 상태인 VM 검사
 
-1. 그룹 정책 편집기에서 검사에서 Windows **구성**  >  **Microsoft Defender 바이러스 백신**  >  **로 이동하십시오.**
+1. 그룹 정책 편집기에서 검사에서 Windows **구성** \> **Microsoft Defender 바이러스 백신** \> **로 이동하십시오.**
 
 2. 빠른 **추가 검사 켜기 를 선택한** 다음 정책 설정을 편집합니다.
 
@@ -219,7 +219,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 ## <a name="enable-headless-ui-mode"></a>헤드리스 UI 모드 사용
 
-1. 그룹 정책 편집기에서 클라이언트 **인터페이스의** Windows 구성  >  **Microsoft Defender 바이러스 백신**  >  **로 이동하십시오.**
+1. 그룹 정책 편집기에서 클라이언트 **인터페이스의** Windows 구성 \> **Microsoft Defender 바이러스 백신** \> **로 이동하십시오.**
 
 2. 헤드리스 **UI 모드 사용 을 선택하고** 정책을 편집합니다.
 

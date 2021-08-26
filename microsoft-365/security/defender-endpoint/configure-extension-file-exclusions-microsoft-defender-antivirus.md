@@ -14,12 +14,12 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: c70110afb23dbe8e7853b34b1b7322385ede45a0
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: f8d274443e67ab89952508870aa118d7e13378e0
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256360"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533426"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -28,13 +28,14 @@ ms.locfileid: "58256360"
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 - Windows Defender 바이러스 백신
 
-예약된 검사, Microsoft Defender 바이러스 백신 검사 및 무중단 [](schedule-antivirus-scans.md)실시간 보호 및 [](run-scan-microsoft-defender-antivirus.md)모니터링에 적용되는 제외를 정의할 [수 있습니다.](configure-real-time-protection-microsoft-defender-antivirus.md) **일반적으로 제외를** 적용할 필요가 없습니다. 제외를 적용해야 하는 경우 여러 가지 종류에서 선택할 수 있습니다. 
+예약된 검사, Microsoft Defender 바이러스 백신 검사 및 무중단 [](schedule-antivirus-scans.md)실시간 보호 및 [](run-scan-microsoft-defender-antivirus.md)모니터링에 적용되는 제외를 정의할 [수 있습니다.](configure-real-time-protection-microsoft-defender-antivirus.md) **일반적으로 제외를** 적용할 필요가 없습니다. 제외를 적용해야 하는 경우 여러 가지 종류에서 선택할 수 있습니다.
 
 - 파일 확장명 및 폴더 위치에 기반한 제외(이 문서에서 설명)
-- [프로세스에서 연 파일의 제외](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md) 
+- [프로세스에서 연 파일의 제외](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 
 > [!IMPORTANT]
-> Microsoft Defender 바이러스 백신 끝점 감지 및 응답(EDR), [ASR(공격](/microsoft-365/security/defender-endpoint/attack-surface-reduction)표면 축소) 규칙 및 제어된 폴더 액세스 등 다른 Microsoft Defender for [Endpoint](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)기능에는 제외가 적용되지 [않습니다.](/microsoft-365/security/defender-endpoint/controlled-folders) 이 문서에 설명된 방법을 사용하여 제외하는 파일은 경고 및 기타 EDR 트리거할 수 있습니다. 파일을 광범위하게 제외하려면 끝점 사용자 지정 표시기용 Microsoft [Defender에 추가합니다.](/microsoft-365/security/defender-endpoint/manage-indicators)
+> Microsoft Defender 바이러스 백신 끝점 감지 및 응답(EDR), [ASR(공격](/microsoft-365/security/defender-endpoint/attack-surface-reduction)표면 축소) 규칙 및 제어된 폴더 액세스 등 다른 Microsoft Defender for [Endpoint](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)기능에는 제외가 적용되지 [않습니다.](/microsoft-365/security/defender-endpoint/controlled-folders) 이 문서에 설명된 방법을 사용하여 제외하는 파일은 경고 및 기타 EDR 트리거할 수 있습니다.
+> 파일을 광범위하게 제외하려면 끝점 사용자 지정 표시기용 Microsoft [Defender에 추가합니다.](/microsoft-365/security/defender-endpoint/manage-indicators)
 
 ## <a name="before-you-begin"></a>시작하기 전에...
 
@@ -49,19 +50,23 @@ ms.locfileid: "58256360"
 >
 > 자동 제외는 Windows Server 2016 이상에만 적용됩니다. 이러한 제외는 Windows 보안 PowerShell에서 표시되지 않습니다.
 
-다음 표에는 파일 확장명 및 폴더 위치에 따라 제외의 몇 가지 예가 나열됩니다. <br/><br/>
+다음 표에는 파일 확장명 및 폴더 위치에 따라 제외의 몇 가지 예가 나열됩니다.
 
-| 제외 | 예제 | 제외 목록 |
-|:---|:---|:---|
-|특정 확장명을 사용 하는 모든 파일 | 지정된 확장명을 사용 하는 모든 파일, 컴퓨터의 아무 곳이나. <p> 유효한 구문: `.test` 및 `test`  | 확장 제외 |
-|특정 폴더 아래에 있는 모든 파일 | 폴더 아래에 있는 `c:\test\sample` 모든 파일 | 파일 및 폴더 제외 |
-| 특정 폴더의 특정 파일 | 파일만 `c:\sample\sample.test` | 파일 및 폴더 제외 |
-| 특정 프로세스 | 실행 파일 `c:\test\process.exe` | 파일 및 폴더 제외 |
+<br>
+
+****
+
+|제외|예제|제외 목록|
+|---|---|---|
+|특정 확장명을 사용 하는 모든 파일|지정된 확장명을 사용 하는 모든 파일, 컴퓨터의 아무 곳이나. <p> 유효한 구문: `.test` 및 `test`|확장 제외|
+|특정 폴더 아래에 있는 모든 파일|폴더 아래에 있는 `c:\test\sample` 모든 파일|파일 및 폴더 제외|
+|특정 폴더의 특정 파일|파일만 `c:\sample\sample.test`|파일 및 폴더 제외|
+|특정 프로세스|실행 파일 `c:\test\process.exe`|파일 및 폴더 제외|
+|
 
 ## <a name="characteristics-of-exclusion-lists"></a>제외 목록의 특성
 
 - 폴더 제외는 하위 폴더가 재분석 지점이 없는 한 해당 폴더 아래에 있는 모든 파일 및 폴더에 적용됩니다. 재분석 지점 하위폴더는 별도로 제외해야 합니다.
-
 - 경로 또는 폴더가 정의되어 있지 않은 경우 파일 확장명은 정의된 확장명을 적용하는 모든 파일 이름에 적용됩니다.
 
 ## <a name="important-notes-about-exclusions-based-on-file-extensions-and-folder-locations"></a>파일 확장명 및 폴더 위치에 기반한 제외에 대한 중요 참고 사항
@@ -84,10 +89,9 @@ ms.locfileid: "58256360"
 
 ### <a name="use-intune-to-configure-file-name-folder-or-file-extension-exclusions"></a>Intune을 사용하여 파일 이름, 폴더 또는 파일 확장명 제외 구성
 
-다음 문서를 참조합니다.   
+다음 문서를 참조합니다.
 
 - [장치에서 장치 제한 Microsoft Intune](/intune/device-restrictions-configure)
-
 - [Microsoft Defender 바이러스 백신 Intune의 Windows 10 장치 제한 설정](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
 
 ### <a name="use-configuration-manager-to-configure-file-name-folder-or-file-extension-exclusions"></a>Configuration Manager를 사용하여 파일 이름, 폴더 또는 파일 확장명 제외 구성
@@ -96,17 +100,16 @@ ms.locfileid: "58256360"
 
 ### <a name="use-group-policy-to-configure-folder-or-file-extension-exclusions"></a>그룹 정책을 사용하여 폴더 또는 파일 확장명 제외 구성
 
->[!NOTE]
->파일의 정식 경로를 지정하면 해당 파일만 제외됩니다. 제외에 폴더가 정의되어 있는 경우 해당 폴더의 모든 파일 및 하위 폴더는 제외됩니다.
+> [!NOTE]
+> 파일의 정식 경로를 지정하면 해당 파일만 제외됩니다. 제외에 폴더가 정의되어 있는 경우 해당 폴더의 모든 파일 및 하위 폴더는 제외됩니다.
 
 1. 그룹 정책 관리 컴퓨터에서 [그룹 정책 관리 콘솔](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))을 열고 구성하려는 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 **편집** 을 선택합니다.
 
 2. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하고** 관리 템플릿 **을 선택합니다.**
 
-3. 트리를 확장하여 **Windows 구성 요소 Microsoft Defender 바이러스 백신**  >    >  **확장합니다.**
+3. 트리를 확장하여 **Windows 구성 요소 Microsoft Defender 바이러스 백신** \>  \> **확장합니다.**
 
 4. 편집할 **경로** 제외 설정을 열고 제외를 추가합니다.
-
     1. 옵션을 사용으로 **설정합니다.**
     2. 옵션 **섹션에서** 표시를 **선택합니다.**
     3. 값 이름 열 아래에 각 폴더를 자체 **줄에 지정합니다.**
@@ -115,10 +118,9 @@ ms.locfileid: "58256360"
 5. **확인** 을 선택합니다.
 
 6. 편집할 **확장 제외** 설정을 열고 제외를 추가합니다.
-
     1. 옵션을 사용으로 **설정합니다.**
     2. 옵션 **섹션에서** 표시를 **선택합니다.**
-    3. 값 이름 열 아래에 각 파일 확장명을 자체 **줄에 입력합니다.**  값 **열에 0을** **입력합니다.**
+    3. 값 열의 값 이름 **열Enter** **0** 아래에 각 파일 확장명을 자체 **줄에 입력합니다.**
 
 7. **확인** 을 선택합니다.
 
@@ -136,18 +138,28 @@ cmdlet의 형식은 다음과 같습니다.
 
 다음 표에는 PowerShell cmdlet 부분에서 사용할 수 있는 `<cmdlet>` cmdlet이 나열됩니다.
 
-| 구성 작업 | PowerShell cmdlet |
+<br>
+
+****
+
+|구성 작업|PowerShell cmdlet|
 |:---|:---|
-|목록 만들기 또는 덮어 덮어 사용 | `Set-MpPreference` |
-|목록에 추가 | `Add-MpPreference` |
-|목록에서 항목 제거 | `Remove-MpPreference` |
+|목록 만들기 또는 덮어 덮어 사용|`Set-MpPreference`|
+|목록에 추가|`Add-MpPreference`|
+|목록에서 항목 제거|`Remove-MpPreference`|
+|
 
 다음 표에는 PowerShell cmdlet 부분에서 사용할 수 있는 `<exclusion list>` 값이 나열됩니다.
 
-| 제외 유형 | PowerShell 매개 변수 |
-|:---|:---|
-| 파일 확장명을 지정한 모든 파일 | `-ExclusionExtension` |
-| 폴더의 모든 파일(하위 폴더의 파일 포함) 또는 특정 파일 | `-ExclusionPath` |
+<br>
+
+****
+
+|제외 유형|PowerShell 매개 변수|
+|---|---|
+|파일 확장명을 지정한 모든 파일|`-ExclusionExtension`|
+|폴더의 모든 파일(하위 폴더의 파일 포함) 또는 특정 파일|`-ExclusionPath`|
+|
 
 > [!IMPORTANT]
 > 또는 를 사용하여 목록을 만든 경우 cmdlet을 다시 사용하여 기존 목록을 덮어 `Set-MpPreference` `Add-MpPreference` `Set-MpPreference` 덮어 니다.
@@ -189,107 +201,119 @@ ExclusionPath
 
 > [!IMPORTANT]
 > 이러한 와일드카드에 대한 주요 제한 사항 및 사용 시나리오가 있습니다.
+>
 > - 환경 변수 사용은 컴퓨터 변수 및 NT AUTHORITY\SYSTEM 계정으로 실행되는 프로세스에 적용할 수 있는 변수로 제한됩니다.
 > - 드라이브 문자 대신 와일드카드를 사용할 수 없습니다.
 > - 폴더 제외의 추가 표시는 단일 `*` 폴더를 위한 것입니다. 여러 인스턴스를 사용하여 지정되지 않은 이름을 사용하여 여러 개의 중첩된 폴더를 `\*\` 나타냅니다.
 
 다음 표에서는 와일드카드를 사용하는 방법을 설명하고 몇 가지 예를 제공합니다.
 
-| 와일드카드  | 예제  |
-|:---------|:---------|
-| `*` (asterisk) <p> 파일 **이름** 및 파일 확장명 포함에서, 추가 기능은 모든 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서는** 단일 폴더를 대체하는 추가 표시가 됩니다. 여러 개의 폴더 슬래시를 사용하여 여러 개의 `*` `\` 중첩된 폴더를 나타냅니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.   | `C:\MyData\*.txt` 포함 `C:\MyData\notes.txt` <p> `C:\somepath\*\Data` 파일 및 해당 하위폴더와 해당 하위폴더를 `C:\somepath\Archives\Data` `C:\somepath\Authorized\Data` 포함합니다. <p> `C:\Serv\*\*\Backup` 파일 및 해당 하위폴더와 해당 `C:\Serv\Primary\Denied\Backup` `C:\Serv\Secondary\Allowed\Backup` 하위폴더를 포함합니다.     |
-| `?` (물음표)  <p> 파일 **이름** 및 파일 확장명 포함에서 물음표는 단일 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서** 물음표는 폴더 이름의 단일 문자를 대체합니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.   | `C:\MyData\my?.zip` 포함 `C:\MyData\my1.zip` <p> `C:\somepath\?\Data` 모든 파일 포함 및 해당 `C:\somepath\P\Data` 하위폴더  <p> `C:\somepath\test0?\Data` 은 모든 파일과 해당 `C:\somepath\test01\Data` 하위폴더를 포함합니다.          |
-| 환경 변수 <p> 제외를 평가할 때 정의된 변수가 경로로 채워지는 경우          |`%ALLUSERSPROFILE%\CustomLogFiles` 다음을 포함합니다. `C:\ProgramData\CustomLogFiles\Folder1\file1.txt`         |
-        
+<br>
+
+****
+
+|와일드카드|예제|
+|---|---|
+|`*` (asterisk) <p> 파일 **이름** 및 파일 확장명 포함에서, 추가 기능은 모든 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서는** 단일 폴더를 대체하는 추가 표시가 됩니다. 여러 개의 폴더 슬래시를 사용하여 여러 개의 `*` `\` 중첩된 폴더를 나타냅니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.|`C:\MyData\*.txt` 포함 `C:\MyData\notes.txt` <p> `C:\somepath\*\Data` 파일 및 해당 하위폴더와 해당 하위폴더를 `C:\somepath\Archives\Data` `C:\somepath\Authorized\Data` 포함합니다. <p> `C:\Serv\*\*\Backup` 파일 및 해당 하위폴더와 해당 `C:\Serv\Primary\Denied\Backup` `C:\Serv\Secondary\Allowed\Backup` 하위폴더를 포함합니다.|
+|`?` (물음표)  <p> 파일 **이름** 및 파일 확장명 포함에서 물음표는 단일 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서** 물음표는 폴더 이름의 단일 문자를 대체합니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.|`C:\MyData\my?.zip` 포함 `C:\MyData\my1.zip` <p> `C:\somepath\?\Data` 모든 파일 포함 및 해당 `C:\somepath\P\Data` 하위폴더  <p> `C:\somepath\test0?\Data` 은 모든 파일과 해당 `C:\somepath\test01\Data` 하위폴더를 포함합니다.|
+|환경 변수 <p> 제외를 평가할 때 정의된 변수가 경로로 채워지는 경우|`%ALLUSERSPROFILE%\CustomLogFiles` 다음을 포함합니다. `C:\ProgramData\CustomLogFiles\Folder1\file1.txt`|
+|
 
 > [!IMPORTANT]
 > 파일 제외 인수와 폴더 제외 인수를 함께 사용하면 규칙은 일치하는 폴더의 파일 인수 일치에서 중지하고 하위 폴더에서 파일 일치를 검색하지 않습니다.
+>
 > 예를 들어 폴더에서 규칙 인수 를 사용하여 "date"로 시작하는 모든 파일을 `c:\data\final\marked` `c:\data\review\marked` 제외할 수 `c:\data\*\marked\date*` 있습니다.
+>
 > 그러나 이 인수는 또는 의 하위 폴더에 있는 파일과 일치하지 `c:\data\final\marked` `c:\data\review\marked` 않습니다.
 
 <a id="review"></a>
 
 ### <a name="system-environment-variables"></a>시스템 환경 변수
 
-다음 표에서는 시스템 계정 환경 변수를 나열하고 설명합니다. 
+다음 표에서는 시스템 계정 환경 변수를 나열하고 설명합니다.
 
-| 이 시스템 환경 변수... | 리디렉션 |
-|:--|:--|
-| `%APPDATA%`| `C:\Users\UserName.DomainName\AppData\Roaming` |
-| `%APPDATA%\Microsoft\Internet Explorer\Quick Launch` | `C:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch` |
-| `%APPDATA%\Microsoft\Windows\Start Menu` | `C:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu` |
-| `%APPDATA%\Microsoft\Windows\Start Menu\Programs` | `C:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs` |
-| `%LOCALAPPDATA%` | `C:\Windows\System32\config\systemprofile\AppData\Local` |
-| `%ProgramData%` | `C:\ProgramData` |
-| `%ProgramFiles%` | `C:\Program Files` |
-| `%ProgramFiles%\Common Files` | `C:\Program Files\Common Files` |
-| `%ProgramFiles%\Windows Sidebar\Gadgets` | `C:\Program Files\Windows Sidebar\Gadgets` |
-| `%ProgramFiles%\Common Files` | `C:\Program Files\Common Files` |
-| `%ProgramFiles(x86)%` | `C:\Program Files (x86)` |
-| `%ProgramFiles(x86)%\Common Files` | `C:\Program Files (x86)\Common Files` |
-| `%SystemDrive%` | `C:` |
-| `%SystemDrive%\Program Files` | `C:\Program Files` |
-| `%SystemDrive%\Program Files (x86)` | `C:\Program Files (x86)` |
-| `%SystemDrive%\Users` | `C:\Users` |
-| `%SystemDrive%\Users\Public` | `C:\Users\Public` |
-| `%SystemRoot%` | `C:\Windows` |
-| `%windir%` | `C:\Windows` |
-| `%windir%\Fonts` | `C:\Windows\Fonts` |
-| `%windir%\Resources` | `C:\Windows\Resources` |
-| `%windir%\resources\0409` | `C:\Windows\resources\0409` |
-| `%windir%\system32` | `C:\Windows\System32` |
-| `%ALLUSERSPROFILE%` | `C:\ProgramData` |
-| `%ALLUSERSPROFILE%\Application Data` | `C:\ProgramData\Application Data` |
-| `%ALLUSERSPROFILE%\Documents` | `C:\ProgramData\Documents` |
-| `%ALLUSERSPROFILE%\Documents\My Music\Sample Music` | `C:\ProgramData\Documents\My Music\Sample Music` |
-| `%ALLUSERSPROFILE%\Documents\My Music` | `C:\ProgramData\Documents\My Music` |
-| `%ALLUSERSPROFILE%\Documents\My Pictures` | `C:\ProgramData\Documents\My Pictures` |
-| `%ALLUSERSPROFILE%\Documents\My Pictures\Sample Pictures` | `C:\ProgramData\Documents\My Pictures\Sample Pictures` |
-| `%ALLUSERSPROFILE%\Documents\My Videos` | `C:\ProgramData\Documents\My Videos` |
-| `%ALLUSERSPROFILE%\Microsoft\Windows\DeviceMetadataStore` | `C:\ProgramData\Microsoft\Windows\DeviceMetadataStore` |
-| `%ALLUSERSPROFILE%\Microsoft\Windows\GameExplorer` | `C:\ProgramData\Microsoft\Windows\GameExplorer` |
-| `%ALLUSERSPROFILE%\Microsoft\Windows\Ringtones` | `C:\ProgramData\Microsoft\Windows\Ringtones` |
-| `%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu` | `C:\ProgramData\Microsoft\Windows\Start Menu` |
-| `%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs` | `C:\ProgramData\Microsoft\Windows\Start Menu\Programs` |
-| `%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Administrative Tools` | `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools` |
-| `%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\StartUp` | `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp` |
-| `%ALLUSERSPROFILE%\Microsoft\Windows\Templates` | `C:\ProgramData\Microsoft\Windows\Templates` |
-| `%ALLUSERSPROFILE%\Start Menu` | `C:\ProgramData\Start Menu` |
-| `%ALLUSERSPROFILE%\Start Menu\Programs` | C:\ProgramData\Start Menu\Programs |
-| `%ALLUSERSPROFILE%\Start Menu\Programs\Administrative Tools` | `C:\ProgramData\Start Menu\Programs\Administrative Tools` | 
-| `%ALLUSERSPROFILE%\Templates` | `C:\ProgramData\Templates` |
-| `%LOCALAPPDATA%\Microsoft\Windows\ConnectedSearch\Templates` | `C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\ConnectedSearch\Templates` |
-| `%LOCALAPPDATA%\Microsoft\Windows\History` | `C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\History` |
-| `%PUBLIC%` | `C:\Users\Public` |
-| `%PUBLIC%\AccountPictures` | `C:\Users\Public\AccountPictures` |
-| `%PUBLIC%\Desktop` | `C:\Users\Public\Desktop` |
-| `%PUBLIC%\Documents` | `C:\Users\Public\Documents` |
-| `%PUBLIC%\Downloads` | `C:\Users\Public\Downloads` |
-| `%PUBLIC%\Music\Sample Music` | `C:\Users\Public\Music\Sample Music` |
-| `%PUBLIC%\Music\Sample Playlists` | `C:\Users\Public\Music\Sample Playlists` |
-| `%PUBLIC%\Pictures\Sample Pictures` | `C:\Users\Public\Pictures\Sample Pictures` |
-| `%PUBLIC%\RecordedTV.library-ms` | `C:\Users\Public\RecordedTV.library-ms` |
-| `%PUBLIC%\Videos` | `C:\Users\Public\Videos` |
-| `%PUBLIC%\Videos\Sample Videos` | `C:\Users\Public\Videos\Sample Videos` | 
-| `%USERPROFILE%` | `C:\Windows\System32\config\systemprofile` |
-| `%USERPROFILE%\AppData\Local` | `C:\Windows\System32\config\systemprofile\AppData\Local` |
-| `%USERPROFILE%\AppData\LocalLow` | `C:\Windows\System32\config\systemprofile\AppData\LocalLow` |
-| `%USERPROFILE%\AppData\Roaming` | `C:\Windows\System32\config\systemprofile\AppData\Roaming` |
+<br>
 
+****
+
+|이 시스템 환경 변수...|리디렉션|
+|---|---|
+|`%APPDATA%`|`C:\Users\UserName.DomainName\AppData\Roaming`|
+|`%APPDATA%\Microsoft\Internet Explorer\Quick Launch`|`C:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch`|
+|`%APPDATA%\Microsoft\Windows\Start Menu`|`C:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu`|
+|`%APPDATA%\Microsoft\Windows\Start Menu\Programs`|`C:\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`|
+|`%LOCALAPPDATA%`|`C:\Windows\System32\config\systemprofile\AppData\Local`|
+|`%ProgramData%`|`C:\ProgramData`|
+|`%ProgramFiles%`|`C:\Program Files`|
+|`%ProgramFiles%\Common Files`|`C:\Program Files\Common Files`|
+|`%ProgramFiles%\Windows Sidebar\Gadgets`|`C:\Program Files\Windows Sidebar\Gadgets`|
+|`%ProgramFiles%\Common Files`|`C:\Program Files\Common Files`|
+|`%ProgramFiles(x86)%`|`C:\Program Files (x86)`|
+|`%ProgramFiles(x86)%\Common Files`|`C:\Program Files (x86)\Common Files`|
+|`%SystemDrive%`|`C:`|
+|`%SystemDrive%\Program Files`|`C:\Program Files`|
+|`%SystemDrive%\Program Files (x86)`|`C:\Program Files (x86)`|
+|`%SystemDrive%\Users`|`C:\Users`|
+|`%SystemDrive%\Users\Public`|`C:\Users\Public`|
+|`%SystemRoot%`|`C:\Windows`|
+|`%windir%`|`C:\Windows`|
+|`%windir%\Fonts`|`C:\Windows\Fonts`|
+|`%windir%\Resources`|`C:\Windows\Resources`|
+|`%windir%\resources\0409`|`C:\Windows\resources\0409`|
+|`%windir%\system32`|`C:\Windows\System32`|
+|`%ALLUSERSPROFILE%`|`C:\ProgramData`|
+|`%ALLUSERSPROFILE%\Application Data`|`C:\ProgramData\Application Data`|
+|`%ALLUSERSPROFILE%\Documents`|`C:\ProgramData\Documents`|
+|`%ALLUSERSPROFILE%\Documents\My Music\Sample Music`|`C:\ProgramData\Documents\My Music\Sample Music`|
+|`%ALLUSERSPROFILE%\Documents\My Music`|`C:\ProgramData\Documents\My Music`|
+|`%ALLUSERSPROFILE%\Documents\My Pictures`|`C:\ProgramData\Documents\My Pictures`|
+|`%ALLUSERSPROFILE%\Documents\My Pictures\Sample Pictures`|`C:\ProgramData\Documents\My Pictures\Sample Pictures`|
+|`%ALLUSERSPROFILE%\Documents\My Videos`|`C:\ProgramData\Documents\My Videos`|
+|`%ALLUSERSPROFILE%\Microsoft\Windows\DeviceMetadataStore`|`C:\ProgramData\Microsoft\Windows\DeviceMetadataStore`|
+|`%ALLUSERSPROFILE%\Microsoft\Windows\GameExplorer`|`C:\ProgramData\Microsoft\Windows\GameExplorer`|
+|`%ALLUSERSPROFILE%\Microsoft\Windows\Ringtones`|`C:\ProgramData\Microsoft\Windows\Ringtones`|
+|`%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu`|`C:\ProgramData\Microsoft\Windows\Start Menu`|
+|`%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs`|`C:\ProgramData\Microsoft\Windows\Start Menu\Programs`|
+|`%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Administrative Tools`|`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools`|
+|`%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\StartUp`|`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`|
+|`%ALLUSERSPROFILE%\Microsoft\Windows\Templates`|`C:\ProgramData\Microsoft\Windows\Templates`|
+|`%ALLUSERSPROFILE%\Start Menu`|`C:\ProgramData\Start Menu`|
+|`%ALLUSERSPROFILE%\Start Menu\Programs`|C:\ProgramData\Start Menu\Programs|
+|`%ALLUSERSPROFILE%\Start Menu\Programs\Administrative Tools`|`C:\ProgramData\Start Menu\Programs\Administrative Tools`|
+|`%ALLUSERSPROFILE%\Templates`|`C:\ProgramData\Templates`|
+|`%LOCALAPPDATA%\Microsoft\Windows\ConnectedSearch\Templates`|`C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\ConnectedSearch\Templates`|
+|`%LOCALAPPDATA%\Microsoft\Windows\History`|`C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\History`|
+|`%PUBLIC%`|`C:\Users\Public`|
+|`%PUBLIC%\AccountPictures`|`C:\Users\Public\AccountPictures`|
+|`%PUBLIC%\Desktop`|`C:\Users\Public\Desktop`|
+|`%PUBLIC%\Documents`|`C:\Users\Public\Documents`|
+|`%PUBLIC%\Downloads`|`C:\Users\Public\Downloads`|
+|`%PUBLIC%\Music\Sample Music`|`C:\Users\Public\Music\Sample Music`|
+|`%PUBLIC%\Music\Sample Playlists`|`C:\Users\Public\Music\Sample Playlists`|
+|`%PUBLIC%\Pictures\Sample Pictures`|`C:\Users\Public\Pictures\Sample Pictures`|
+|`%PUBLIC%\RecordedTV.library-ms`|`C:\Users\Public\RecordedTV.library-ms`|
+|`%PUBLIC%\Videos`|`C:\Users\Public\Videos`|
+|`%PUBLIC%\Videos\Sample Videos`|`C:\Users\Public\Videos\Sample Videos`|
+|`%USERPROFILE%`|`C:\Windows\System32\config\systemprofile`|
+|`%USERPROFILE%\AppData\Local`|`C:\Windows\System32\config\systemprofile\AppData\Local`|
+|`%USERPROFILE%\AppData\LocalLow`|`C:\Windows\System32\config\systemprofile\AppData\LocalLow`|
+|`%USERPROFILE%\AppData\Roaming`|`C:\Windows\System32\config\systemprofile\AppData\Roaming`|
+|
 
 ## <a name="review-the-list-of-exclusions"></a>제외 목록 검토
 
 다음 방법 중 하나를 사용하여 제외 목록의 항목을 검색할 수 있습니다.
+
 - [Intune](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)
 - [Microsoft Endpoint Configuration Manager](/configmgr/protect/deploy-use/endpoint-antimalware-policies)
 - MpCmdRun
 - PowerShell
 - [Windows 보안 앱](microsoft-defender-security-center-antivirus.md)
 
->[!IMPORTANT]
->그룹 정책으로 변경된 제외  목록은 앱의 목록에 [Windows 보안 표시됩니다.](microsoft-defender-security-center-antivirus.md)
+> [!IMPORTANT]
+> 그룹 정책으로 변경된 제외  목록은 앱의 목록에 [Windows 보안 표시됩니다.](microsoft-defender-security-center-antivirus.md)
 >
->앱의 Windows 보안 **그룹** 정책 목록에는 변경 내용이 표시되지 않습니다.
+> 앱의 Windows 보안 **그룹** 정책 목록에는 변경 내용이 표시되지 않습니다.
 
 PowerShell을 사용하는 경우 다음 두 가지 방법으로 목록을 검색할 수 있습니다.
 
@@ -307,8 +331,8 @@ cd 4.18.1812.3 (Where 4.18.1812.3 is this month's MDAV "Platform Update".)
 MpCmdRun.exe -CheckExclusion -path <path>
 ```
 
->[!NOTE]
->MpCmdRun을 통해 제외를 확인하려면 MICROSOFT DEFENDER 바이러스 백신 CAMP 버전 4.18.1812.3(2018년 12월에 출시) 이상이 필요합니다.
+> [!NOTE]
+> MpCmdRun을 통해 제외를 확인하려면 MICROSOFT DEFENDER 바이러스 백신 CAMP 버전 4.18.1812.3(2018년 12월에 출시) 이상이 필요합니다.
 
 ### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>PowerShell을 사용하여 다른 모든 Microsoft Defender 바이러스 백신 제외 목록 검토
 
@@ -372,9 +396,6 @@ $client.DownloadFile("http://www.eicar.org/download/eicar.com.txt","c:\test.txt"
 ## <a name="see-also"></a>참고 항목
 
 - [검사에서 제외 구성 Microsoft Defender 바이러스 백신 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md)
-
 - [프로세스에서 연 파일에 대한 제외 구성 및 유효성 검사](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-
 - [Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성](configure-server-exclusions-microsoft-defender-antivirus.md)
-
 - [제외 정의 시 피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)

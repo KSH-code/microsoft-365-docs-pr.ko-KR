@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1c046bf15cf3ccfbbbfb8969b0f0bc48db1ad4f5
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: ae01a929121488399ac3a016f0b33ae7b28ff96d
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349899"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533618"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -39,13 +39,25 @@ ms.locfileid: "58349899"
 이 문서에서는 Microsoft Defender for Office 365. 현재 미리 보기에 있는 기능은 (미리 **보기)로 표시됩니다.**
 
 [이 비디오](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3)를 시청하여 자세히 확인하세요.
+
 > [!TIP]
 > 아직 Microsoft Defender for Office 365 없는가요? [영업 담당자에게 평가판을 시작해 을(를) 시작해 을(를) 평가](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
 ## <a name="august-2021"></a>2021년 8월
 
+- [보고된](admin-review-reported-message.md)메시지에 대한 관리자 검토: 관리자는 이제 보고된 메시지를 검토한 후 템플릿 기반 메시지를 최종 사용자에게 다시 보낼 수 있습니다. 이는 조직에 맞게 사용자 지정하고 관리자의 판결에 따라 사용자 지정될 수 있습니다. 
+=======
+## <a name="september-2021"></a>2021년 9월
+
+- [Quarantine policies:](quarantine-policies.md)Admins can configure granular control for recipient access to quarantined messages and customize end-user spam notifications.
+  - [관리자 환경 비디오](https://youtu.be/vnar4HowfpY)
+  - [최종 사용자 환경 비디오](https://youtu.be/s-vozLO43rI)
+  - 이 블로그 게시물에는 "검지 환경 간소화"에 제공될 다른 새로운 기능이 [설명되어 있습니다.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/simplifying-the-quarantine-experience/ba-p/2676388)
+
+## <a name="august-2021"></a>2021년 8월
+
 - [보고된](admin-review-reported-message.md)메시지에 대한 관리자 검토: 관리자는 이제 보고된 메시지를 검토한 후 템플릿 기반 메시지를 최종 사용자에게 다시 보낼 수 있습니다. 템플릿은 조직에 맞게 사용자 지정하고 관리자의 판결에 따라 사용자 지정될 수 있습니다.
-- [테넌트 허용/차단](manage-tenant-allows.md)목록에 허용 추가: 허용을 테넌트 허용/차단 목록에 직접 추가할 수 없지만 이제 차단된 메시지가 관리자 제출 프로세스의 일부로 제출된 경우일 수 있습니다. 발생된 블록에 따라 URL, 파일 및/또는 보낸 사람 허용이 테넌트 허용/차단 목록에 추가됩니다. 대부분의 경우 허용을 추가하여 시스템에 시간을 주고, 허용되는 경우 자연스럽게 허용합니다. 경우에 따라 Microsoft에서 허용을 관리합니다.
+- [테넌트 허용/차단](manage-tenant-allows.md)목록에서 허용 추가: 차단된 메시지가 관리자 제출 프로세스의 일부로 제출된 경우 테넌트 허용/차단 목록에 허용 항목을 추가할 수 있습니다. 차단의 특성에 따라 제출된 URL, 파일 및/또는 보낸 사람 허용이 테넌트 허용/차단 목록에 추가됩니다. 대부분의 경우 허용을 추가하여 시스템에 시간을 주고, 허용되는 경우 자연스럽게 허용합니다. 경우에 따라 Microsoft에서 허용을 관리합니다.
 
 ## <a name="july-2021"></a>2021년 7월
 
@@ -61,7 +73,6 @@ ms.locfileid: "58349899"
 - microsoft Defender for Office 365 통합 알림이 통합된 Microsoft 365 Defender - Microsoft 365 Defender 경고 큐에 [통합됩니다.](../defender/investigate-alerts.md)
 - [이제](user-tags.md) 사용자 태그는 Office 365 Security & Compliance의 경고 큐 및 세부 정보를 포함하여 Office 365 경고 환경을 위한 Microsoft Defender에 통합되고, 사용자 태그에 사용자 지정 경고 정책을 지정하여 대상 경고 정책을 만들 수 있습니다. 
   - 태그는 Microsoft 365 Defender 센터의 통합 경고 큐에서도 사용할 수 있습니다(Office 365 계획 2용 Microsoft Defender).
-
 
 ## <a name="june-2021"></a>2021년 6월
 

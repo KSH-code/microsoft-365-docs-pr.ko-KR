@@ -1,5 +1,5 @@
 ---
-title: 위협 분석의 분석 보고서 섹션 이해
+title: 위협 분석의 분석 보고서 섹션을 Microsoft 365 Defender
 ms.reviewer: ''
 description: 각 위협 분석 보고서의 분석 보고서 섹션에 대해 자세히 알아보십시오. 위협, 완화, 탐지, 고급 헌팅 쿼리에 대한 정보를 제공하는 방법을 이해합니다.
 keywords: 분석 보고서, 위협 분석, 검색, 고급 헌팅 쿼리, 완화,
@@ -21,14 +21,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f916137be71dffeaed7e3718286032a17c9f8e04
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a939bd03f983904f438aaa2efe8e3be18c6831cd
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498476"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533558"
 ---
-# <a name="understand-the-analyst-report-in-threat-analytics"></a>위협 분석의 분석 보고서 이해
+# <a name="understand-the-analyst-report-in-threat-analytics-in-microsoft-365-defender"></a>위협 분석의 분석가 보고서를 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -100,7 +100,7 @@ Microsoft Defender for Office 365 전자 메일 관련 검색 및 완화는 끝�
 
 
 >[!NOTE]
-> 위협 분석은 [끝점용 Microsoft Defender에서도 사용할 수 있습니다.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) 그러나 Microsoft Defender for Office Defender와 Defender 위협 분석에 Microsoft 365 통합되지는 않습니다.
+> 위협 분석은 [끝점용 Microsoft Defender에서도 사용할 수 있습니다.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) 그러나 Microsoft Defender for Office 위협 분석에 있는 끝점용 Microsoft Defender Microsoft 365 Defender 통합되지 않습니다.
 
 
 ## <a name="related-topics"></a>관련 항목

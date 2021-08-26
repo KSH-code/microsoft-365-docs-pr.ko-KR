@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 147f74b75a7c6954fb595d3fd8a0976ea821bdd5ac61a819bbffd98730bbd9d8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 18100adb1ecaeb2d9863fba207702b26e4483cd6
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53903434"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533654"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 파트너 응용 프로그램
 
@@ -73,7 +73,7 @@ Defender for Endpoint는 플랫폼의 감지, 조사 및 위협 인텔리전스 
 ![CyberSponse CyOps 로고 이미지](images/cybersponse-logo.png)|[CyberSponse CyOps](https://go.microsoft.com/fwlink/?linkid=2115943)|CyOps는 Endpoint용 Defender와 통합되어 고객의 고속 인시던트 대응 플레이북을 자동화합니다.
 ![델타 위험 ActiveEye 로고 이미지](images/delta-risk-activeeye-logo.png)|[델타 위험 ActiveEye](https://go.microsoft.com/fwlink/?linkid=2127468)|SOC-as-a-Service 및 보안 서비스의 선두 업체인 델타 위험은 끝점용 Defender를 클라우드 기반 SOAR 플랫폼인 ActiveEye와 통합합니다.
 ![Palo Alto Networks 회사 로고인 Demisto의 이미지](images/demisto-logo.png)|[Palo Alto Networks 회사인 Demisto](https://go.microsoft.com/fwlink/?linkid=2108414)|Demisto는 끝점용 Defender와 통합하여 보안 팀이 끝점 보안 모니터링, 강화 및 응답을 오케스트레이션하고 자동화할 수 있도록 합니다.
-![Azure Functions Microsoft Flow & 이미지](images/ms-flow-logo.png)|[Microsoft Flow & Azure Functions](https://go.microsoft.com/fwlink/?linkid=2114300)|보안 절차를 자동화하기 위해 끝점 커넥터에 Azure Logic Apps & Microsoft Flow 수 있습니다.
+![Azure Functions Power Automate & 이미지](images/ms-flow-logo.png)|[Power Automate & Azure Functions](https://go.microsoft.com/fwlink/?linkid=2114300)|보안 절차를 자동화하는 데 Azure Logic Apps & Power Automate 끝점 커넥터에 대한 Defender 사용
 ![Rapid7 InsightConnect 로고 이미지](images/rapid7-logo.png)|[Rapid7 InsightConnect](https://go.microsoft.com/fwlink/?linkid=2116040)|InsightConnect는 끝점용 Defender와 통합하여 시간이 많이 사용하는 보안 프로세스를 가속화, 간소화 및 통합합니다.
 ![ServiceNow 로고 이미지](images/servicenow-logo.png)|[ServiceNow](https://go.microsoft.com/fwlink/?linkid=2135621)|Microsoft Graph API 통합을 기반으로 ServiceNow 보안 운영 솔루션으로 경고 Graph 이벤트
 ![스위틀란 로고 이미지](images/swimlane-logo.png)|[스위틀란](https://go.microsoft.com/fwlink/?linkid=2113902)|Endpoint에 대해 스위틀란 및 Defender를 함께 활용하는 인시던트 대응 기능 최대화
