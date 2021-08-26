@@ -600,7 +600,7 @@
 ####### [취약성별 컴퓨터 목록](get-machines-by-vulnerability.md)
 
 ##### [API 사용 방법 - 샘플]()
-###### [Microsoft Flow](api-microsoft-flow.md)
+###### [Power Automate](api-microsoft-flow.md)
 ###### [Power BI](api-power-bi.md)
 ###### [Python을 사용하는 지능형 헌팅](run-advanced-query-sample-python.md)
 ###### [PowerShell을 사용하는 지능형 헌팅](run-advanced-query-sample-powershell.md)
