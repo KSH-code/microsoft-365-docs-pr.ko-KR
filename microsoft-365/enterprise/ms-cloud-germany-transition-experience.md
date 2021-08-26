@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 서비스로 Office 365 변경된 내용을 이해합니다.'
-ms.openlocfilehash: cacc6d75b890585aa7b219b8bbb8f49b3f2d6714fe4502fe1b6b1030f54b9763
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 42ac9e61632305a9e75bf7ba9de2cec3e3d658fb
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885174"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531518"
 ---
 # <a name="what-will-change-after-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션한 후 변경되는 것
 
@@ -66,7 +66,7 @@ ms.locfileid: "53885174"
 
 - 테넌트가 Office 365 서비스로 전환될 때 독일 관련 구독 및 라이선스는 새로운 Office 365 서비스 제품으로 표준화됩니다. 해당 Office 365 서비스 구독은 이전된 독일 구독에 대해 구입됩니다. 독일 라이선스가 있는 사용자에게는 서비스 Office 365 할당됩니다. 등록이 완료되면 레거시 독일 구독이 취소되고 현재 Office 365 테넌트에서 제거됩니다.
 
-- 개별 워크로드를 마이그레이션한 후 새로운 Office 365 서비스 구독으로 Office 365 서비스(예: Microsoft Planner 및 Microsoft Flow)를 통해 추가 기능을 사용할 수 있습니다. 조직에 적합한 경우 테넌트 또는 라이선스 관리자는 새 서비스를 도입하기 위한 변경 관리를 계획할 때 새 서비스 계획을 사용하지 않도록 설정할 수 있습니다. 사용자의 라이선스에 할당된 서비스 계획을 사용하지 않도록 설정하는 방법에 대한 지침은 사용자 라이선스를 할당하는 동안 Microsoft 365 서비스에 대한 액세스 사용 안 하도록 [설정을 참조하세요.](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)
+- 개별 워크로드를 마이그레이션한 후 새로운 Office 365 서비스 구독으로 Office 365 서비스(예: Microsoft Planner 및 Power Automate)를 통해 추가 기능을 사용할 Office 365 있습니다. 조직에 적합한 경우 테넌트 또는 라이선스 관리자는 새 서비스를 도입하기 위한 변경 관리를 계획할 때 새 서비스 계획을 사용하지 않도록 설정할 수 있습니다. 사용자의 라이선스에 할당된 서비스 계획을 사용하지 않도록 설정하는 방법에 대한 지침은 사용자 라이선스를 할당하는 동안 Microsoft 365 서비스에 대한 액세스 사용 안 하도록 [설정을 참조하세요.](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)
 
 ## <a name="exchange-online"></a>Exchange Online
 

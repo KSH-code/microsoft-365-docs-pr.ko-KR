@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 링크 정책 및 전역 금고 링크 설정을 보고, 만들고, 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 684496023bff8cb7e8773403b57c4ae93740f92d
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: f9b07d720ed34e9a5d788bdfdfb6dff6a635b11f
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258481"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531554"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 링크 정책 Office 365
 
@@ -263,7 +263,7 @@ New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEn
 이 예에서는 다음 값을 지정하여 Contoso All이라는 안전한 링크 정책을 만듭니다.
 
 - 전자 메일 메시지에서 URL 검색 및 다시 끄기
-- 탭에서 URL 검색을 Teams 탭 미리 보기 전용입니다.
+- 2016에서 URL 검색을 Teams.
 - 파일을 지점하는 클릭된 링크를 포함하여 클릭한 URL에 대한 실시간 검색을 하게 합니다.
 - URL 검색이 완료될 때까지 기다렸다가 메시지를 배달합니다.
 - 내부 메시지에 대해 URL 검색 및 다시 덮기 기능을 켜세요.

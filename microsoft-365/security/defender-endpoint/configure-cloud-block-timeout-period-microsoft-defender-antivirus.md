@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.date: 06/04/2021
-ms.openlocfilehash: 4bca279f4fbb9a521fb436a91d2ff772dc4660e7d7c72f861bf010dfc03194cf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 85313f279a46dbb278dbdb0014d44124a147394d
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53874150"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533222"
 ---
 # <a name="configure-the-cloud-block-timeout-period"></a>클라우드 차단 제한 시간 구성
 
@@ -63,7 +63,7 @@ ms.locfileid: "53874150"
 
 3. 그룹 **정책 관리 편집기에서** 컴퓨터 구성으로 **이동한** 다음 관리 템플릿 **을 선택합니다.**
 
-3. 트리를 확장하여   >    >  **MpEngine** Windows 구성 Microsoft Defender 바이러스 백신 확장합니다.
+3. 트리를 확장하여  \>  \> **MpEngine** Windows 구성 Microsoft Defender 바이러스 백신 확장합니다.
 
 4. 확장된 클라우드 확인 구성을 두 **번 클릭하고** 옵션이 사용하도록 설정되어 있는지 확인합니다. 
 

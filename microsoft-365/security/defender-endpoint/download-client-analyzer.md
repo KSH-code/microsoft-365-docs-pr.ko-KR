@@ -20,14 +20,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a9184805ee56a5a1154387a91734f1dd2665f82d
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: c3a115cc972fa6eeb7d30395f11873c4eb409a09
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255001"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533030"
 ---
-#  <a name="download-the-microsoft-defender-for-endpoint-client-analyzer"></a>끝점용 Microsoft Defender 클라이언트 분석기 다운로드
+# <a name="download-the-microsoft-defender-for-endpoint-client-analyzer"></a>끝점용 Microsoft Defender 클라이언트 분석기 다운로드
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
@@ -36,15 +36,11 @@ ms.locfileid: "58255001"
 
 ## <a name="download-client-analyzer-for-windows-os"></a>OS용 클라이언트 Windows 다운로드
 
-1.  최신 안정 버전은 다음 URL에서 다운로드할 수 있습니다. <https://aka.ms/MDEAnalyzer>
+1. 최신 안정 버전은 다음 URL에서 다운로드할 수 있습니다. <https://aka.ms/MDEAnalyzer>
+2. 최신 미리 보기 버전은 다음 URL에서 다운로드할 수 있습니다. <https://aka.ms/BetaMDEAnalyzer>
 
-2.  최신 미리 보기 버전은 다음 URL에서 다운로드할 수 있습니다. <https://aka.ms/BetaMDEAnalyzer>
+## <a name="download-client-analyzer-for-macos-or-linux"></a>macOS 또는 Linux용 클라이언트 분석기 다운로드
 
-##  <a name="download-client-analyzer-for-macos-or-linux"></a>macOS 또는 Linux용 클라이언트 분석기 다운로드
+1. 최신 안정 버전이 끝점 에이전트의 MDE에 통합됩니다. [macOS](mac-whatsnew.md) 또는 [Linux용](linux-whatsnew.md)최신 버전을 실행 중인지 확인
 
-1.  최신 안정 버전이 끝점 에이전트의 MDE에 통합됩니다.  
-    [macOS](mac-whatsnew.md) 또는 [Linux용](linux-whatsnew.md)최신 버전을 실행 중인지 확인
-
-2.  최신 미리 보기 버전은 다음 URL에서 직접 다운로드할 수 있습니다. <https://aka.ms/XMDEClientAnalyzer>
-
-
+2. 최신 미리 보기 버전은 다음 URL에서 직접 다운로드할 수 있습니다. <https://aka.ms/XMDEClientAnalyzer>

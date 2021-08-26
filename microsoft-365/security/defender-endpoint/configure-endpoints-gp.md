@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 4dec8b9ddf8cf0e03aef7005b53918bfc6a86c65
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 5b585fb5ada85bfedebc4787620c70a610143a79
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533318"
 ---
-# <a name="onboard-the-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드 
+# <a name="onboard-the-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -47,43 +47,39 @@ ms.locfileid: "58247678"
 
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
-1. 서비스 온보더 .zip 다운로드한 GP 구성 패키지 파일(*WindowsDefenderATPOnboardingPackage.* zip)을 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
- 
-    1. 탐색 창에서 **끝점 설정**  >  **관리**  >     >  **온보더링** 을 선택합니다.
-
-    1. 운영 Windows 10 로 실행을 선택합니다.
-
-    1. 배포 **방법 필드에서** 그룹 정책 **을 선택합니다.**
-
-    1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
+1. 서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
+    1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.  
+    2. 운영 Windows 10 로 실행을 선택합니다.
+    3. 배포 **방법 필드에서** 그룹 정책 **을 선택합니다.**
+    4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
 2. 디바이스에서 액세스할 수 있는 .zip 읽기 전용 공유 위치로 파일 콘텐츠의 추출 *OptionalParamsPolicy라는* 폴더와 *WindowsDefenderATPOnboardingScript.cmd* 파일이 있습니다.
 
 3. 새 GPO를 만들려면 GPMC(그룹 정책 관리 콘솔)를 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 새로 만들기 를 **클릭합니다.** [](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11)  표시되는 대화 상자에 새 GPO의 이름을 입력하고 확인 을 **클릭합니다.**
 
-3. GPMC(그룹 정책 관리 콘솔)를 열고 구성할 GPO(그룹 정책 개체)를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.** [](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11)
+4. GPMC(그룹 정책 관리 콘솔)를 열고 구성할 GPO(그룹 정책 개체)를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.** [](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11)
 
-4. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성,** **기본** 설정, 제어판 **설정으로 이동합니다.**
+5. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성,** **기본** 설정, 제어판 **설정으로 이동합니다.**
 
-5. 예약된 **작업 을** 마우스 오른쪽 단추로 클릭하고 새로 고침을 클릭한 다음 직접 실행 **작업(최소 Windows 7)을 클릭합니다.**
+6. 예약된 **작업 을** 마우스 오른쪽 단추로 클릭하고 새로 고침을 클릭한 다음 직접 실행 **작업(최소 Windows 7)을 클릭합니다.**
 
-6. 작업 **창이** 열리면 일반 **탭으로** 이동됩니다. 보안 **옵션에서** **사용자** 또는 그룹 변경을 클릭하고 SYSTEM을 입력한 다음 이름 **확인을** 클릭한 다음 확인을 **클릭합니다.** 작업이 실행될 사용자 계정으로 NT AUTHORITY\SYSTEM이 표시됩니다.
+7. 작업 **창이** 열리면 일반 **탭으로** 이동됩니다. 보안 **옵션에서** **사용자** 또는 그룹 변경을 클릭하고 SYSTEM을 입력한 다음 이름 **확인을** 클릭한 다음 확인을 **클릭합니다.** 작업이 실행될 사용자 계정으로 NT AUTHORITY\SYSTEM이 표시됩니다.
 
-7. 사용자가 **로그온되어** 있는지 여부에 따라  실행을 선택하고 가장 높은 권한으로 실행 확인란을 선택합니다.
+8. 사용자가 **로그온되어** 있는지 여부에 따라  실행을 선택하고 가장 높은 권한으로 실행 확인란을 선택합니다.
 
-8. 이름 필드에 예약된 작업에 대한 적절한 이름(예: Endpoint Deployment용 Defender)을 입력합니다.
+9. 이름 필드에 예약된 작업에 대한 적절한 이름(예: Endpoint Deployment용 Defender)을 입력합니다.
 
-9. 작업 **탭으로 이동하여** 새로 **추가...를 선택합니다.** 작업 **필드에서 프로그램** **시작이 선택되어 있도록** 합니다. 공유 *WindowsDefenderATPOnboardingScript.cmd* 파일의 파일 서버 FQDN(FQDN)을 사용하여 UNC 경로를 입력합니다.
+10. 작업 **탭으로 이동하여** 새로 **추가...를 선택합니다.** 작업 **필드에서 프로그램** **시작이 선택되어 있도록** 합니다. 공유 *WindowsDefenderATPOnboardingScript.cmd* 파일의 파일 서버 FQDN(FQDN)을 사용하여 UNC 경로를 입력합니다.
 
-10. 확인을 **선택하고** 열려 있는 GPMC 창을 닫습니다.
+11. 확인을 **선택하고** 열려 있는 GPMC 창을 닫습니다.
 
-1. GPO를 OU(조직 구성 단위)에 연결하려면 마우스 오른쪽 단추를 클릭하고 **기존 GPO 연결 을 선택합니다.** 표시되는 대화 상자에서 연결하고자 하는 그룹 정책 개체를 선택합니다. **확인** 을 클릭합니다.
+12. GPO를 OU(조직 구성 단위)에 연결하려면 마우스 오른쪽 단추를 클릭하고 **기존 GPO 연결 을 선택합니다.** 표시되는 대화 상자에서 연결하고자 하는 그룹 정책 개체를 선택합니다. **확인** 을 클릭합니다.
 
 > [!TIP]
 > 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 Endpoint 디바이스용 Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
-
 ## <a name="additional-defender-for-endpoint-configuration-settings"></a>끝점 구성 설정에 대한 추가 Defender
+
 각 디바이스에 대해 심층 분석을 위해 파일을 제출하기 위해 요청을 할 때 장치에서 샘플을 수집할 수 Microsoft 365 Defender 수 있습니다.
 
 GP(그룹 정책)를 사용하여 심층 분석 기능에 사용되는 샘플 공유 설정과 같은 설정을 구성할 수 있습니다.
@@ -125,33 +121,33 @@ GP(그룹 정책)를 사용하여 심층 분석 기능에 사용되는 샘플 �
 
 **정책 위치:** \Windows 구성 요소\Windows Defender ATP
 
-정책 | 설정
-:---|:---
-샘플 컬렉션 사용\사용 안 하도록 설정| 사용 - "컴퓨터의 샘플 수집 사용" 확인
+정책|설정
+---|---
+샘플 컬렉션 사용\사용 안 하도록 설정|사용 - "컴퓨터의 샘플 수집 사용" 확인
 
 <br>
 
 **정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신
 
-정책 | 설정
-:---|:---
-잠재적으로 원치 않는 응용 프로그램에 대한 검색 구성 | 사용, 차단
+정책|설정
+---|---
+잠재적으로 원치 않는 응용 프로그램에 대한 검색 구성|사용, 차단
 
 <br>
 
 **정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신\MAPS
 
-정책 | 설정
-:---|:---
-Microsoft MAPS에 가입 | 사용, 고급 지도
+정책|설정
+---|---
+Microsoft MAPS에 가입|사용, 고급 지도
 추가 분석이 필요한 경우 파일 샘플 보내기 | 사용, 안전한 샘플 보내기
 
 <br>
 
 **정책 위치:** \Windows 구성 요소\Microsoft Defender 바이러스 백신\실시간 보호
 
-정책 | 설정
-:---|:---
+정책|설정
+---|---
 실시간 보호 끄기|사용 안 함
 동작 모니터링 켜기|사용
 다운로드한 모든 파일 및 첨부 파일 검색|사용
@@ -163,8 +159,8 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 
 이러한 설정은 끝점의 주기적인 검색을 구성합니다. 매주 빠른 검사, 성능 허용을 수행하는 것이 좋습니다.
 
-정책 | 설정 
-:---|:---
+정책|설정
+---|---
 예약된 검사를 실행하기 전에 최신 바이러스 및 스파이웨어 보안 인텔리전스 확인 |사용
 
 <br>
@@ -185,13 +181,13 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 
    ![공격 표면 축소 구성 이미지](images/asr-guid.png)
 
-정책 | 설정
-:---|:---
+정책|설정
+---|---
 제어된 폴더 액세스 구성| 사용, 감사 모드
 
 ## <a name="run-a-detection-test-to-verify-onboarding"></a>검색 테스트를 실행하여 온보더링 확인
-장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
+장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
 ## <a name="offboard-devices-using-group-policy"></a>그룹 정책을 사용하여 디바이스 오프보드
 
@@ -200,16 +196,11 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-
 1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
-
-    1. 탐색 창에서 **끝점 설정** 관리  >    >  오프보링  >  **을 선택합니다.**
-
-    1. 운영 Windows 10 로 실행을 선택합니다.
-
-    1. 배포 **방법 필드에서** 그룹 정책 **을 선택합니다.**
-
-    1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
+    1. 탐색 창에서 **끝점 설정** 관리 \>  \>  오프보링 \> **을 선택합니다.**
+    2. 운영 Windows 10 로 실행을 선택합니다.
+    3. 배포 **방법 필드에서** 그룹 정책 **을 선택합니다.**
+    4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
 2. 디바이스에서 액세스할 수 있는 .zip 읽기 전용 공유 위치로 파일 콘텐츠의 추출 이름이 *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd 입니다.*
 
@@ -250,46 +241,47 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 새 그룹 정책을 만들거나 이러한 설정을 다른 정책과 함께 그룹화합니다. 이는 고객 환경 및 다양한 OU(조직 구성 단위)를 대상으로 하여 서비스를 롤아웃하는 방법에 따라 달라집니다.
 
 1. GP를 선택하거나 새 GP를 만든 후 GP를 편집합니다.
-2. 컴퓨터 구성 **정책** 관리 템플릿 및  >    >    >  **Windows 구성 요소 Microsoft Defender 바이러스 백신**  >    >  **검색합니다.**
-:::image type="content" source="images/realtime-protect.png" alt-text="실시간 보호":::
-1. Quarantine 폴더에서 항목을 Quarantine 폴더에서 제거하도록 구성합니다.
+2. 컴퓨터 구성 **정책** 관리 템플릿 및 \>  \>  \> **Windows 구성 요소 Microsoft Defender 바이러스 백신** \>  \> **검색합니다.**
+
+   :::image type="content" source="images/realtime-protect.png" alt-text="실시간 보호":::
+
+3. Quarantine 폴더에서 항목을 Quarantine 폴더에서 제거하도록 구성합니다.
 
     :::image type="content" source="images/removal-items-quarantine1.png" alt-text="제거 항목 분리 폴더":::
 
     :::image type="content" source="images/config-removal-items-quarantine2.png" alt-text="config-removal quarantine":::
 
-1. 검사 폴더에서 검사 설정을 구성합니다.
+4. 검사 폴더에서 검사 설정을 구성합니다.
 
     :::image type="content" source="images/gpo-scans.png" alt-text="gpo 검사":::
 
-**실시간 보호로 모든 파일 모니터링**
+### <a name="monitor-all-files-in-real-time-protection"></a>실시간 보호로 모든 파일 모니터링
 
-컴퓨터 구성 **정책** 관리 템플릿 및  >    >    >  **Windows 구성 요소 Microsoft Defender 바이러스 백신**  >    >  **검색합니다.**
+컴퓨터 구성 **정책** 관리 템플릿 및 \>  \>  \> **Windows 구성 요소 Microsoft Defender 바이러스 백신** \>  \> **검색합니다.**
 
 :::image type="content" source="images/config-monitor-incoming-outgoing-file-act.png" alt-text="들어오는 파일 활동에 대한 모니터링 구성":::
 
- 
-#### <a name="configure-windows-defender-smart-screen-settings"></a>스마트 Windows Defender 설정 구성
+### <a name="configure-windows-defender-smart-screen-settings"></a>스마트 Windows Defender 설정 구성
 
-1. Computer **Configuration**  >  **Policies**  >  **Administrative Templates**  >  **Windows Components Windows Defender**  >  **SmartScreen**  >  **Explorer로 연결합니다.**
+1. Computer **Configuration** \> **Policies** \> **Administrative Templates** \> **Windows Components Windows Defender** \> **SmartScreen** \> **Explorer로 연결합니다.**
 
     :::image type="content" source="images/config-windows-def-smartscr-explorer.png" alt-text="Windows Defender 스마트 화면 탐색기 구성":::
- 
-2. Computer **Configuration**  >  **Policies**  >  **Administrative Templates**  >  **Windows Components Windows Defender**  >  **SmartScreen**  >  Microsoft Edge.
+
+2. Computer **Configuration** \> **Policies** \> **Administrative Templates** \> **Windows Components Windows Defender** \> **SmartScreen** \> Microsoft Edge.
 
     :::image type="content" source="images/config-windows-def-smartscr-explorer.png" alt-text="Windows Defender 스마트 화면 에지 구성":::
 
-#### <a name="configure-potentially-unwanted-applications"></a>잠재적으로 원치 않는 응용 프로그램 구성
-     
-컴퓨터 구성 **정책** 관리 템플릿 Windows  >    >    >  **구성 요소 Microsoft Defender 바이러스 백신.**  >  
+### <a name="configure-potentially-unwanted-applications"></a>잠재적으로 원치 않는 응용 프로그램 구성
+
+컴퓨터 구성 **정책** 관리 템플릿 Windows \>  \>  \> **구성 요소 Microsoft Defender 바이러스 백신.** \> 
 
 :::image type="content" source="images/config-potential-unwanted-apps.png" alt-text="잠재적 원치 않는 앱 구성":::
 
 :::image type="content" source="images/config-potential-unwanted-apps2.png" alt-text="구성 잠재력":::
 
-#### <a name="configure-cloud-deliver-protection-and-send-samples-automatically"></a>클라우드 보호 구성 및 자동으로 샘플 보내기
+### <a name="configure-cloud-deliver-protection-and-send-samples-automatically"></a>클라우드 보호 구성 및 자동으로 샘플 보내기
 
-MAPS에서 **컴퓨터** 구성 정책 관리  >    >    >  **템플릿 Windows 구성**  >  **Microsoft Defender 바이러스 백신**  >  **찾아볼 수 있습니다.**
+MAPS에서 **컴퓨터** 구성 정책 관리 \>  \>  \> **템플릿 Windows 구성** \> **Microsoft Defender 바이러스 백신** \> **찾아볼 수 있습니다.**
 
 :::image type="content" source="images/gpo-maps1.png" alt-text="maps":::
 
@@ -299,16 +291,17 @@ MAPS에서 **컴퓨터** 구성 정책 관리  >    >    >  **템플릿 Windows 
 
 :::image type="content" source="images/send-file-sample-further-analysis-require.png" alt-text="추가 분석이 필요한 경우 파일 샘플 보내기":::
 
-#### <a name="check-for-signature-update"></a>서명 업데이트 확인
-컴퓨터 구성 **정책** 관리 템플릿 및  >    >    >  **Windows 구성 요소**  >  **Microsoft Defender 바이러스 백신**  >  **업데이트 찾아보기**
+### <a name="check-for-signature-update"></a>서명 업데이트 확인
+
+컴퓨터 구성 **정책** 관리 템플릿 및 \>  \>  \> **Windows 구성 요소** \> **Microsoft Defender 바이러스 백신** \> **업데이트 찾아보기**
 
 :::image type="content" source="images/signature-update-1.png" alt-text="서명 업데이트":::
 
 :::image type="content" source="images/signature-update-2.png" alt-text="서명 정의 업데이트":::
 
-#### <a name="configure-cloud-deliver-timeout-and-protection-level"></a>클라우드 제공 시간 제한 및 보호 수준 구성
+### <a name="configure-cloud-deliver-timeout-and-protection-level"></a>클라우드 제공 시간 제한 및 보호 수준 구성
 
-  >    >    >    >    >  **MpEngine의** 컴퓨터 구성 정책 관리 템플릿 Windows 구성 Microsoft Defender 바이러스 백신 찾아볼 수 있습니다.
+ \>  \>  \>  \>  \> **MpEngine의** 컴퓨터 구성 정책 관리 템플릿 Windows 구성 Microsoft Defender 바이러스 백신 찾아볼 수 있습니다.
 클라우드 보호 수준 정책을 **Default Microsoft Defender 바이러스 백신 차단** 정책으로 구성하면 정책이 비활성화됩니다. 이는 보호 수준을 Windows 기본값으로 설정하는 데 필요한 것입니다.
 
 :::image type="content" source="images/config-extended-cloud-check.png" alt-text="클라우드 검사 구성":::

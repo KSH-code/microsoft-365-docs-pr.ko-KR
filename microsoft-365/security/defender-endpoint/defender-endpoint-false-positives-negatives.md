@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 904ea83c6a4a2c8267341ae5fb324c5f2f3678e0c5458720af13f6a932c8c25f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: de33384b6292fecc502e958385c2286b255002b1
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854032"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533066"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -93,7 +93,7 @@ ms.locfileid: "53854032"
 
 2. 경고 **큐 를** 선택한 다음 경고를 선택합니다.
 
-3. 선택한 경고에 대해 **작업** 관리  >  **경고 를 선택합니다.** 플라이아웃 창이 열립니다.
+3. 선택한 경고에 대해 **작업** 관리 \> **경고 를 선택합니다.** 플라이아웃 창이 열립니다.
 
 4. 경고 **관리 섹션에서** True 경고 또는 **거짓 경고** **를 선택합니다.** (False **경고를 사용하여** 가음성 분류)
 
@@ -134,7 +134,7 @@ ms.locfileid: "53854032"
 
 - [작업 센터에서 고지된 파일 복원](#restore-a-quarantined-file-from-the-action-center)
 - [한 번씩 여러 작업 취소](#undo-multiple-actions-at-one-time)
-- 여러 장치에서 파일을 [검지에서 제거합니다.](#remove-a-file-from-quarantine-across-multiple-devices)  및
+- 여러 장치에서 파일을 [검지에서 제거합니다.](#remove-a-file-from-quarantine-across-multiple-devices) 및
 - [격리로부터 파일 복원](#restore-file-from-quarantine)
 
 가짓 긍정의 결과로 수행된 작업의 검토 및 취소가 완료되면 계속 검토하거나 [제외를 정의합니다.](#part-3-review-or-define-exclusions)
@@ -220,7 +220,7 @@ ms.locfileid: "53854032"
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 <https://endpoint.microsoft.com> 로그인합니다.
 
-2. 끝점 **보안 바이러스 백신** 을 선택한 다음 기존 정책을  >  선택합니다. 기존 정책이 없는 경우 또는 새 정책을 만들 수 있는 경우 다음 절차로 [건너뛰어도 됩니다.](#use-microsoft-endpoint-manager-to-create-a-new-antivirus-policy-with-exclusions)
+2. 끝점 **보안 바이러스 백신** 을 선택한 다음 기존 정책을 \> 선택합니다. 기존 정책이 없는 경우 또는 새 정책을 만들 수 있는 경우 다음 절차로 [건너뛰어도 됩니다.](#use-microsoft-endpoint-manager-to-create-a-new-antivirus-policy-with-exclusions)
 
 3. 속성 **을** 선택하고 구성 설정 **옆에** 있는 편집 **을 선택합니다.**
 
@@ -232,7 +232,7 @@ ms.locfileid: "53854032"
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 <https://endpoint.microsoft.com> 로그인합니다.
 
-2. 끝점 **보안 바이러스**  >  **백신**  >  **+ 정책 만들기 를 선택 합니다.**
+2. 끝점 **보안 바이러스** \> **백신** \> **+ 정책 만들기 를 선택 합니다.**
 
 3. 플랫폼(예: Windows 10 이상, **macOS** **또는** Windows 10 및 Windows **서버)을 선택합니다.**
 
@@ -361,7 +361,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 <https://endpoint.microsoft.com> 로그인합니다.
 
-2. 끝점 **보안 바이러스 백신을**  >  **선택한** 다음 기존 정책을 선택합니다. 기존 정책이 없는 경우 또는 새 정책을 만들 수 있는 경우 다음 절차로 [건너뛰어도 됩니다.](#use-microsoft-endpoint-manager-to-set-cloud-delivered-protection-settings-for-a-new-policy)
+2. 끝점 **보안 바이러스 백신을** \> **선택한** 다음 기존 정책을 선택합니다. 기존 정책이 없는 경우 또는 새 정책을 만들 수 있는 경우 다음 절차로 [건너뛰어도 됩니다.](#use-microsoft-endpoint-manager-to-set-cloud-delivered-protection-settings-for-a-new-policy)
 
 3. **관리에서** 속성을 **선택합니다.** 그런 다음 구성 설정 **옆에 있는** 편집 을 **선택합니다.**
 
@@ -373,7 +373,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 <https://endpoint.microsoft.com> 로그인합니다.
 
-2. 끝점 **보안 바이러스**  >  **백신**  >  **+ 정책 만들기 를 선택 합니다.**
+2. 끝점 **보안 바이러스** \> **백신** \> **+ 정책 만들기 를 선택 합니다.**
 
 3. 플랫폼의 경우 옵션을 선택하고 프로필에서 바이러스  백신 또는 Microsoft Defender 바이러스 백신 선택합니다(특정 옵션은 플랫폼에 대해 선택한 대상에 따라 **다를 수** 있습니다.    그런 다음 만들기 **를 선택.**
 
@@ -404,7 +404,7 @@ PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집�
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 <https://endpoint.microsoft.com> 로그인합니다.
 
-2. 장치   >  **구성 프로필을 선택한** 다음 기존 정책을 선택합니다. 기존 정책이 없는 경우 또는 새 정책을 만들 수 있는 경우 다음 절차로 [건너뛰어도 됩니다.](#use-microsoft-endpoint-manager-to-set-pua-protection-for-a-new-configuration-profile)
+2. 장치  \> **구성 프로필을 선택한** 다음 기존 정책을 선택합니다. 기존 정책이 없는 경우 또는 새 정책을 만들 수 있는 경우 다음 절차로 [건너뛰어도 됩니다.](#use-microsoft-endpoint-manager-to-set-pua-protection-for-a-new-configuration-profile)
 
 3. 관리에서 **속성 을** 선택한 다음 구성 설정 옆에 **있는** 편집 을 **선택합니다.** 
 
@@ -418,7 +418,7 @@ PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집�
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 <https://endpoint.microsoft.com> 로그인합니다.
 
-2. 장치 **구성**  >  **프로필**  >  **+ 프로필 만들기 를 선택하세요.**
+2. 장치 **구성** \> **프로필** \> **+ 프로필 만들기 를 선택하세요.**
 
 3. 플랫폼의 경우 Windows 10 **이상을** 선택하고 **프로필에** 대해 장치 제한 **을 선택합니다.**
 
@@ -446,7 +446,7 @@ PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집�
 > [!IMPORTANT]
 > 자동화된 조사 및 *수정을 위해* 전체 자동화를 사용하는 것이 좋습니다. 가극적이기 때문에 이러한 기능을 해제하지 않습니다. 대신 ["허용"](#indicators-for-microsoft-defender-for-endpoint)표시기를 사용하여 예외를 정의하고 자동화된 조사 및 수정을 설정하여 적절한 조치를 자동으로 취하도록 합니다. 이 [지침에 따라](automation-levels.md#levels-of-automation) 보안 운영 팀이 처리해야 하는 경고 수를 줄일 수 있습니다.
 
-## <a name="still-need-help"></a>아직 해결되지 않았습니까?
+## <a name="still-need-help"></a>여전히 도움이 필요하세요?
 
 이 문서의 모든 단계를 수행한 후 여전히 도움이 필요한 경우 기술 지원에 문의하세요.
 

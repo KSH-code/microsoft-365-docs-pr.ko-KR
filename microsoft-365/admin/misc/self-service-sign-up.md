@@ -18,14 +18,14 @@ ms.custom:
 - okr_SMB
 - commerce_signup
 search.appverid: MET150
-description: Power Apps Microsoft Microsoft 365, Microsoft Flow 및 Dynamics 365 for Finance와 같은 셀프 서비스 등록 및 사용 가능한 셀프 서비스 프로그램에 대해 자세히 알아보습니다.
+description: Power Apps Microsoft Microsoft 365, Microsoft Power Automate 및 Dynamics 365 for Finance와 같은 셀프 서비스 등록 및 사용 가능한 셀프 서비스 프로그램에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: e03f82903b8aa81db2425769a23d7ec379120526
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: 7c4986beb1c920865cee28f2729859e426944f3f
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400214"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532790"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 693575d507d77d7ac34422f0ddef0b0d4a41ecf2
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 23f6b23d958a51bd84498c08ef95672ec62ff6e5
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257865"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532766"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -97,7 +97,7 @@ Windows Server 2008 R2 SP1 및 Windows Server 2012 R2의 경우: 클라이언트
 1. 64비트 Windows 설치 파일을 [다운로드합니다.](https://go.microsoft.com/fwlink/?LinkId=828603)
 
 2. 이전 절차에서 얻은 작업 영역 ID 및 작업 영역 키를 사용하여 다음 설치 방법을 선택하고 에이전트를 Windows 설치합니다.
-    - [설치 프로그램을 사용하여 에이전트를 수동으로 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) 
+    - [설치 프로그램을 사용하여 에이전트를 수동으로 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)
     에이전트 설정 **옵션 페이지에서** **에이전트를 커넥트 OMS(Azure Log Analytics) 로 이동합니다.**
     - [명령줄을 사용하여 에이전트를 설치합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
     - [스크립트를 사용하여 에이전트를 구성합니다.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation)
@@ -118,7 +118,7 @@ Windows Server 2008 R2 SP1 및 Windows Server 2012 R2의 경우: 클라이언트
 
 ### <a name="option-2-onboard-windows-servers-through-azure-security-center"></a>옵션 2: Azure Windows 서버 온보드
 
-Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을  >    >    >  **선택합니다.**
+Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을 \>  \>  \> **선택합니다.**
 
 1. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택합니다.
 
@@ -198,7 +198,7 @@ Endpoint용 Defender는 Azure Defender와 통합하여 포괄적인 서버 Windo
     > [!NOTE]
     > 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows [Server 2019 및 WVD(가상 데스크톱)Windows](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
 
-- Windows Azure Defender가 모니터링하는 서버는 Endpoint용 Defender에서도 사용할 수 있습니다. Azure Defender는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다.  또한 Azure Defender 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
+- Windows Azure Defender가 모니터링하는 서버는 Endpoint용 Defender에서도 사용할 수 있습니다. Azure Defender는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다. 또한 Azure Defender 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
 
 - 서버 조사 - Azure Defender 고객은 액세스하여 Microsoft 365 Defender 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
 
@@ -222,8 +222,8 @@ Endpoint용 Defender는 통합된 System Center Endpoint Protection. 통합을 �
 - [고급 설정으로 SCEP](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 클라이언트 클라우드 보호 서비스 멤버 **자격을 구성합니다.**
 
 ## <a name="run-a-detection-test-to-verify-onboarding"></a>검색 테스트를 실행하여 온보더링 확인
-장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
+장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
 ## <a name="offboard-windows-servers"></a>서버 Windows 오프보드
 
@@ -266,7 +266,7 @@ Windows 서버를 오프보딩하기 위해 MMA 에이전트를 Windows 끝점 �
 
 1. 작업 영역 ID를 얻게 합니다.
 
-   1. Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을  >    >    >  **선택합니다.**
+   1. Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을 \>  \>  \> **선택합니다.**
 
    1. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택하고 작업 영역 ID를 얻습니다.
 
@@ -306,9 +306,9 @@ Windows 서버를 오프보딩하기 위해 MMA 에이전트를 Windows 끝점 �
 **2단계: 파일 이름 DeployMMA.cmd 만들기(메모장 사용)** cmd 파일에 다음 줄을 추가합니다. WORKSPACE ID 및 KEY가 필요합니다.
 
 ```dos
-@echo off 
+@echo off
 cd "C:"
-IF EXIST "C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe" ( 
+IF EXIST "C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe" (
 exit
 ) ELSE (
 wusa.exe c:\Windows\MMA\Windows6.1-KB123456-x86.msu /quiet /norestart
@@ -369,7 +369,7 @@ Server 2008 R2 관련 서버의 온보더링 설명서에 설명된 것 처럼 �
 Windows Server 2008 R2 PS1의 경우 다음 요구 사항을 충족해야 합니다.
 
 - [2018년 2월 월별 업데이트 롤업 설치](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
-  
+
 - [.NET framework 4.5](https://www.microsoft.com/download/details.aspx?id=30653) 이상 또는 [KB3154518](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework) 설치
 
 온보드 Windows Server 2008 R2에 KB가 있는지 확인하시기 바랍니다. 이 프로세스를 통해 서버를 관리하는 Configuration Manager가 없는 경우 모든 서버를 온보드할 수 있습니다.

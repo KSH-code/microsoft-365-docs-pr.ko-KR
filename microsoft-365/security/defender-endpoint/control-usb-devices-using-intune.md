@@ -14,12 +14,12 @@ audience: ITPro
 ms.topic: conceptual
 ms.technology: mde
 ROBOTS: NOINDEX
-ms.openlocfilehash: 05123ecb52f38e87c8a2c5360d17b39605a44cfd
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: b8e44aa81c0985b296d0f19b8ead2e6251b53c1c
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399758"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533342"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법
 
@@ -32,10 +32,10 @@ Microsoft는 [](https://aka.ms/devicecontrolblog)이동식 미디어를 보호�
 2. 특정 이동식 장치만 허용하거나 차단하고 위협을 방지하도록 구성합니다.
     1. [세부적인](#allow-or-block-removable-devices) 구성에 따라 이동식 장치를 허용하거나 차단하여 이동식 디스크에 대한 쓰기 액세스를 거부하고 USB 장치 ID를 사용하여 디바이스를 승인하거나 거부합니다. Azure AD(Azure AD) 사용자 및 디바이스의 개별 또는 Azure Active Directory 설정의 유연한 정책 할당
 
-    2. [이동식 저장소 장치에서 도입된](#prevent-threats-from-removable-storage) 이동식 저장소의 위협을 방지합니다.  
-        - Microsoft Defender 바이러스 백신 RTP(실시간 보호)를 통해 이동식 저장소에서 맬웨어를 검색할 수 있습니다.  
-        - USB에서 실행된 트러블 및 부호 없는 프로세스를 차단하는 ASR(공격 표면 축소) USB 규칙입니다.  
-        - Thunderbolt에 대한 커널 DMA 보호를 포함한 DMA 공격을 완화하고 사용자가 로그인할 때까지 DMA를 차단하는 DMA(직접 메모리 액세스) 보호 설정  
+    2. [이동식 저장소 장치에서 도입된](#prevent-threats-from-removable-storage) 이동식 저장소의 위협을 방지합니다.
+        - Microsoft Defender 바이러스 백신 RTP(실시간 보호)를 통해 이동식 저장소에서 맬웨어를 검색할 수 있습니다.
+        - USB에서 실행된 트러블 및 부호 없는 프로세스를 차단하는 ASR(공격 표면 축소) USB 규칙입니다.
+        - Thunderbolt에 대한 커널 DMA 보호를 포함한 DMA 공격을 완화하고 사용자가 로그인할 때까지 DMA를 차단하는 DMA(직접 메모리 액세스) 보호 설정
 
 3. [사용자 지정 경고](#create-customized-alerts-and-response-actions) 및 응답 작업을 만들어 이러한 플러그 앤 플레이 이벤트 또는 사용자 지정 검색 규칙이 있는 Endpoint 이벤트에 대한 기타 Microsoft Defender를 기반으로 이동식 장치의 사용을 [모니터링합니다.](/microsoft-365/security/defender-endpoint/custom-detection-rules)
 
@@ -114,14 +114,14 @@ USB 드라이브 및 기타 주변 장치 설치 및 사용을 허용하는 한 
 
 ![디바이스 호스트 컨트롤러](images/devicehostcontroller.jpg)
 
-특정 장치로 제한하려면 제한할 주변 장치의 장치 설정 클래스를 제거합니다. 그런 다음 추가할 장치 ID를 추가합니다. 장치 ID는 장치의 공급업체 ID 및 제품 ID 값을 기반으로 합니다. 장치 ID 형식에 대한 자세한 내용은 [표준 USB 식별자를 참조하세요.](/windows-hardware/drivers/install/standard-usb-identifiers) 
+특정 장치로 제한하려면 제한할 주변 장치의 장치 설정 클래스를 제거합니다. 그런 다음 추가할 장치 ID를 추가합니다. 장치 ID는 장치의 공급업체 ID 및 제품 ID 값을 기반으로 합니다. 장치 ID 형식에 대한 자세한 내용은 [표준 USB 식별자를 참조하세요.](/windows-hardware/drivers/install/standard-usb-identifiers)
 
-장치 ID를 찾으면 장치 ID [찾기를 참조하세요.](#look-up-device-id) 
+장치 ID를 찾으면 장치 ID [찾기를 참조하세요.](#look-up-device-id)
 
-예를 들어:
+예시:
 
 1. 이러한 장치 설정과 일치하는 드라이버를 사용하여 디바이스 설치 허용에서 클래스 USBDevice를 **제거합니다.**
-2. 이러한 장치 ID와 일치하는 장치의 설치 허용에서 허용할 장치 **ID를 추가합니다.** 
+2. 이러한 장치 ID와 일치하는 장치의 설치 허용에서 허용할 장치 **ID를 추가합니다.**
 
 #### <a name="prevent-installation-and-usage-of-usb-drives-and-other-peripherals"></a>USB 드라이브 및 기타 주변 장치 설치 및 사용 방지
 
@@ -135,7 +135,7 @@ USB 드라이브 및 기타 주변 장치 설치 및 사용을 허용하는 한 
 
 이러한 **장치와** 일치하는 장치 설치 금지 정책을 사용하면 설치가 금지된 장치 목록을 Windows 수 있습니다.
 
-이러한 장치 ID와 일치하는 디바이스를 설치하지 못하게 방지하려면 
+이러한 장치 ID와 일치하는 디바이스를 설치하지 못하게 방지하려면
 
 1. [설치하지](#look-up-device-id) 못하도록 할 디바이스에 Windows ID를 찾아보아야 합니다.
 
@@ -160,10 +160,10 @@ USB 드라이브 및 기타 주변 장치 설치 및 사용을 허용하는 한 
 
 공급업체의 ID에 대한 자세한 내용은 [USB 구성원을 참조하세요.](https://www.usb.org/members)
 
-다음은 PowerShell을 사용하여 장치 공급업체 ID 또는 제품 ID(장치 ID의 일부)를 찾는 예입니다. 
+다음은 PowerShell을 사용하여 장치 공급업체 ID 또는 제품 ID(장치 ID의 일부)를 찾는 예입니다.
 
 ```powershell
-Get-WMIObject -Class Win32_DiskDrive | Select-Object -Property * 
+Get-WMIObject -Class Win32_DiskDrive | Select-Object -Property *
 ```
 
 이러한 **장치 설정** 클래스와 일치하는 드라이버를 사용하여 디바이스를 설치하지 못하도록 방지 정책을 사용하면 설치가 금지된 Windows 클래스를 지정할 수 있습니다.
@@ -181,7 +181,7 @@ Get-WMIObject -Class Win32_DiskDrive | Select-Object -Property *
 
 1. Microsoft Endpoint Manager [센터에 로그인합니다.](https://endpoint.microsoft.com/)
 
-2. 장치 **구성**  >  **프로필 프로필**  >  **만들기를 클릭합니다.**
+2. 장치 **구성** \> **프로필 프로필** \> **만들기를 클릭합니다.**
 
     > [!div class="mx-imgBorder"]
     > ![장치 구성 프로필 만들기](images/create-device-configuration-profile.png)
@@ -195,9 +195,9 @@ Get-WMIObject -Class Win32_DiskDrive | Select-Object -Property *
    > [!div class="mx-imgBorder"]
    > ![프로필 만들기](images/create-profile.png)
 
-4. 일반 **구성을**  >  **클릭합니다.**  
+4. 일반 **구성을** \> **클릭합니다.**
 
-5. 이동식 **저장소 및** **USB 연결(모바일 전용)의** 경우 차단 을 **선택하십시오.** **이동식 저장소에는** USB 드라이브가 포함되어 있지만 **USB 연결(모바일** 전용)은 USB 충전을 제외하지만 모바일 장치에서만 다른 USB 연결을 포함합니다. 
+5. 이동식 **저장소 및** **USB 연결(모바일 전용)의** 경우 차단 을 **선택하십시오.** **이동식 저장소에는** USB 드라이브가 포함되어 있지만 **USB 연결(모바일** 전용)은 USB 충전을 제외하지만 모바일 장치에서만 다른 USB 연결을 포함합니다.
 
    ![일반 설정](images/general-settings.png)
 
@@ -216,7 +216,7 @@ Get-WMIObject -Class Win32_DiskDrive | Select-Object -Property *
 
 끝점용 Microsoft Defender는 다음 옵션 중 하나를 사용하여 금지된 주변 장치 설치 및 사용을 차단합니다.
 
-- [관리 템플릿은](/intune/administrative-templates-windows) 일치하는 하드웨어 ID 또는 설치 클래스를 사용하는 모든 장치를 차단할 수 있습니다.  
+- [관리 템플릿은](/intune/administrative-templates-windows) 일치하는 하드웨어 ID 또는 설치 클래스를 사용하는 모든 장치를 차단할 수 있습니다.
 - Intune에서 사용자 지정 프로필을 사용하여 장치 설치 [CSP](/windows/client-management/mdm/policy-csp-deviceinstallation) 설정 특정 장치 [ID의](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceids) 설치를 방지하거나 특정 장치 [클래스를 방지할 수 있습니다.](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdevicesetupclasses)
 
 ### <a name="allow-installation-and-usage-of-specifically-approved-peripherals-with-matching-device-instance-ids"></a>일치하는 장치 인스턴스 ID를 사용하여 특별히 승인된 주변 장치의 설치 및 사용 허용
@@ -238,9 +238,8 @@ Intune을 사용하여 "허용된 서비스" 를 통해 Bluetooth 수 있는 Blu
 > [!div class="mx-imgBorder"]
 > ![Bluetooth 설정 페이지의 스크린샷](images/bluetooth.png)
 
-
 ## <a name="prevent-threats-from-removable-storage"></a>이동식 저장소의 위협 방지
-  
+
 이동식 저장소 장치는 조직에 추가 보안 위험을 도입할 수 있습니다. 끝점용 Microsoft Defender는 이동식 저장 장치에서 악성 파일을 식별하고 차단하는 데 도움이 될 수 있습니다.
 
 또한 끝점용 Microsoft Defender는 외부 위협을 방지하기 위해 장치에서 USB 주변 장치를 사용하는 것을 방지할 수 있습니다. USB 주변 장치가 보고하는 속성을 사용하여 장치에서 설치 및 사용할 수 있는지 여부를 확인하여 이 기능을 실행합니다.
@@ -248,7 +247,7 @@ Intune을 사용하여 "허용된 서비스" 를 통해 Bluetooth 수 있는 Blu
 장치 설치 정책을 사용하여 USB 장치 또는 다른 장치 클래스를 차단하는 경우 전화와 같은 연결된 디바이스는 계속 충전할 수 있습니다.
 
 > [!NOTE]
-> 조직에 광범위하게 배포하기 전에 먼저 파일럿 사용자 및 장치 그룹을 사용하여 이러한 설정을 항상 테스트하고 구체화합니다. 
+> 조직에 광범위하게 배포하기 전에 먼저 파일럿 사용자 및 장치 그룹을 사용하여 이러한 설정을 항상 테스트하고 구체화합니다.
 
 다음 표에서는 끝점용 Microsoft Defender가 이동식 저장소의 위협을 방지하는 데 도움이 되는 방법을 설명하고 있습니다.
 
@@ -277,9 +276,9 @@ USB 장치 제어에 대한 자세한 내용은 [끝점용 Microsoft Defender �
 - 예약된 검사가 사용되는 경우 DisableRemovableDriveScanning 설정(기본적으로 사용)을 사용하지 않도록 설정하여 전체 검사 중에 이동식 장치를 검사해야 합니다. 이동식 장치는 DisableRemovableDriveScanning 설정에 관계없이 빠른 또는 사용자 지정 검사 중에 스캔됩니다.
 
 > [!NOTE]
-> 검색을 위해 실시간 모니터링을 사용하도록 설정하는 것이 좋습니다. Intune에서 장치 제한 구성 및 실시간 모니터링에서 Windows 10 모니터링에 대한 Microsoft Defender 바이러스 백신  >    >    >  **수 있습니다.**
+> 검색을 위해 실시간 모니터링을 사용하도록 설정하는 것이 좋습니다. Intune에서 장치 제한 구성 및 실시간 모니터링에서  Windows 10 모니터링에 대한 Microsoft Defender 바이러스 백신 \>  \>  \> **수 있습니다.**
 
-<!-- Need to build out point in the preceding note. 
+<!-- Need to build out point in the preceding note.
 -->
 
 ### <a name="block-untrusted-and-unsigned-processes-on-usb-peripherals"></a>USB 주변 디바이스에서 트러블되지 않은 프로세스 및 부호 없는 프로세스 차단
@@ -295,18 +294,18 @@ USB에서 실행된 트러블되지 않은 프로세스와 부호 없는 프로�
 
 1. 에 [로그인합니다Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)
 
-2. 구성 **정책**  >  **Windows**  >  **만들기**  >  **를 클릭합니다.** 
+2. 구성 **정책** \> **Windows** \> **만들기** \> **를 클릭합니다.**
 
     ![장치 구성 프로필 만들기](images/create-device-configuration-profile.png)
 
 3. 다음 설정을 사용합니다.
-   - 플랫폼: Windows 10 이상 
+   - 플랫폼: Windows 10 이상
    - 프로필 유형: 장치 제한
 
    > [!div class="mx-imgBorder"]
    > ![끝점 보호 프로필 만들기](images/create-endpoint-protection-profile.png)
 
-4. **만들기** 를 클릭합니다.  
+4. **만들기** 를 클릭합니다.
 
 5. USB에서 **실행된** 부호 없는 프로세스 및 트러블되지 않은 프로세스의 경우 차단 을 **선택하십시오.**
 
@@ -366,5 +365,5 @@ MDATP 커넥터는 Outlook, Teams, Slack 등 200개가 넘는 미리 정의된 �
 - [Policy/DeviceInstallation CSP](/windows/client-management/mdm/policy-csp-deviceinstallation)
 - [이동식 장치의 사용자 지정 검사 수행](/samples/browse/?redirectedfrom=TechNet-Gallery)
 - [사용자 지정 보고를 위한 Power BI 컨트롤 템플릿](https://github.com/microsoft/MDATP-PowerBI-Templates)
-- [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview.md) 
+- [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview.md)
 - [Windows Information Protection](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure.md)

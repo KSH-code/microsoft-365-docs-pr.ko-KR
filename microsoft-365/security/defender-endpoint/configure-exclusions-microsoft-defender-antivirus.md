@@ -15,12 +15,12 @@ manager: dansimp
 ms.technology: mde
 ms.audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 77a5d01b16a181067b347ab72220d722dc2ab447
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: a6df318ccf484d750ae8010f34b5c545b115cde0
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256562"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532982"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-antivirus-scans"></a>검사에 대한 제외 Microsoft Defender 바이러스 백신 유효성 검사
 
@@ -41,11 +41,11 @@ ms.locfileid: "58256562"
 ## <a name="recommendations-for-defining-exclusions"></a>권장 사항 정의하는 데 사용할 수 있는 예
 
 > [!IMPORTANT]
-> Microsoft Defender 바이러스 백신 운영 체제 동작 및 일반적인 관리 파일(예: 엔터프라이즈 관리, 데이터베이스 관리 및 기타 엔터프라이즈 시나리오 및 상황에 사용되는 파일)을 기반으로 하는 많은 자동 제외가 포함됩니다.  
-> 
+> Microsoft Defender 바이러스 백신 운영 체제 동작 및 일반적인 관리 파일(예: 엔터프라이즈 관리, 데이터베이스 관리 및 기타 엔터프라이즈 시나리오 및 상황에 사용되는 파일)을 기반으로 하는 많은 자동 제외가 포함됩니다.
+>
 > 제외를 정의하면 제외가 제공하는 보호가 Microsoft Defender 바이러스 백신. 제외 구현과 관련된 위험을 항상 평가해야 합니다. 또한 악의적이지 않다고 확신하는 파일만 제외해야 합니다.
 
-제외를 정의할 때 다음에 유의해야 합니다.  
+제외를 정의할 때 다음에 유의해야 합니다.
 
 - 제외는 기술적으로 보호 간격입니다. 제외를 정의할 때 모든 옵션을 고려하세요. 다른 옵션은 제외된 위치에 적절한 ACL(액세스 제어 목록)이 있는지 확인하거나 처음에 정책을 감사 모드로 설정하는 것만큼 간단할 수 있습니다.
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e9059360c9ce9137092fec2422c563abf2f95e39c94c0fbc9b22b5c36c21161c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1563d44aded4c018a659b70d16800decf4bcd46f
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533402"
 ---
 # <a name="optimize-asr-rule-deployment-and-detections"></a>ASR 규칙 배포 및 검색 최적화
 
@@ -46,7 +46,7 @@ ms.locfileid: "53834088"
 * ASR 검색을 검토하고 가능한 잘못된 검색을 식별합니다.
 * 제외의 영향을 분석하고 제외할 파일 경로 목록을 생성합니다.
 
-공격 **표면 관리** 보고서 공격 표면 축소 규칙 제외 추가로  >    >    >  **이동을 선택합니다.** 이 섹션에서 보안 센터의 다른 섹션으로 Microsoft 365 있습니다.
+공격 **표면 관리** 보고서 공격 표면 축소 규칙 제외 추가로 \>  \>  \> **이동을 선택합니다.** 이 섹션에서 보안 센터의 다른 섹션으로 Microsoft 365 있습니다.
 
 ![보안 센터의 공격 표면 축소 규칙 페이지에서 제외 Microsoft 365 추가](images/secconmgmt_asr_m365exlusions.png)<br>
 보안 ***센터의** 공격 표면 축소 규칙 페이지의 제외 Microsoft 365 탭*

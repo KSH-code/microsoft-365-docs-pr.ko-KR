@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 281a9391fdc512882a4a7aef2dfecf51e28ce77a9724f0ba1882d75f7bbff935
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0a0be19a974f7a065333ff0a5045512a2eb98a85
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53839858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532922"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 조건부 액세스 구성
 
@@ -68,21 +68,21 @@ Intune 포털, Microsoft 365 Defender Azure AD 포털에서 수행해야 하는 
 
 ### <a name="step-1-turn-on-the-microsoft-intune-connection"></a>1단계: 연결 Microsoft Intune 켜기
 
-1. 탐색 창에서 연결 **설정**  >  **끝점** 일반 고급 Microsoft Intune  >    >    >  **선택합니다.**
+1. 탐색 창에서 연결 **설정** \> **끝점** 일반 고급 Microsoft Intune \>  \>  \> **선택합니다.**
 2. 설정의 Microsoft Intune 으로 **전환합니다.**
 3. 기본 **설정 저장을 클릭합니다.**
 
 ### <a name="step-2-turn-on-the-defender-for-endpoint-integration-in-intune"></a>2단계: Intune에서 끝점에 대한 Defender 통합 켜기
 
-1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
-2. 장치 **준수**  >  **Microsoft Defender ATP를 선택합니다.**
+1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
+2. 장치 **준수** \> **Microsoft Defender ATP를 선택합니다.**
 3. **커넥트 Windows 10.0.15063+ 장치를 Microsoft Defender Advanced Threat Protection으로** **설정 .**
 4. **저장** 을 클릭합니다.
 
 ### <a name="step-3-create-the-compliance-policy-in-intune"></a>3단계: Intune에서 준수 정책 만들기
 
 1. Azure [Portal에서](https://portal.azure.com)모든 **서비스를** 선택하고 **Intune을** 필터링하고 를 **Microsoft Intune.**
-2. 장치 **준수 정책**  >  **정책** 만들기 정책을  >  **선택합니다.**
+2. 장치 **준수 정책** \> **정책** 만들기 정책을 \> **선택합니다.**
 3. 이름 및 **설명을** **입력합니다.**
 4. **플랫폼에서** 를 선택하고 Windows 10 **이상을 선택합니다.**
 5. 장치 **상태 설정에서**  장치 위협 수준에 또는 장치 위협 수준 아래에 있도록 요구를 기본 설정 수준으로 설정합니다.
@@ -97,20 +97,20 @@ Intune 포털, Microsoft 365 Defender Azure AD 포털에서 수행해야 하는 
 ### <a name="step-4-assign-the-policy"></a>4단계: 정책 할당
 
 1. Azure [Portal에서](https://portal.azure.com)모든 **서비스를** 선택하고 **Intune을** 필터링하고 를 **Microsoft Intune.**
-2. 장치 **준수 정책을>** Microsoft  >   Defender 준수 정책을 선택합니다.
+2. 장치 **준수 정책을>** Microsoft \>  Defender 준수 정책을 선택합니다.
 3. **과제** 를 선택합니다.
 4. Azure AD 그룹을 포함하거나 제외하여 정책을 할당합니다.
 5. 그룹에 정책을 배포하려면 저장 을 **선택합니다.** 정책이 대상으로 하는 사용자 장치는 규정 준수로 평가됩니다.
 
 ### <a name="step-5-create-an-azure-ad-conditional-access-policy"></a>5단계: Azure AD 조건부 액세스 정책 만들기
 
-1. Azure [Portal에서](https://portal.azure.com) **조건부 Azure Active Directory**  >  **새 정책 을 열** 수  >  **있습니다.**
+1. Azure [Portal에서](https://portal.azure.com) **조건부 Azure Active Directory** \> **새 정책 을 열** 수 \> **있습니다.**
 2. 정책 이름 **을 입력하고** 사용자 및 **그룹을 선택합니다.** 포함 또는 제외 옵션을 사용하여 정책에 대한 그룹을 추가하고 완료 를 **선택합니다.**
 3. 클라우드 **앱 을** 선택하고 보호할 앱을 선택합니다. 예를 들어 앱 **선택 을** 선택하고 Office 365 SharePoint **Online을** **선택하고** Office 365 Exchange Online. **완료** 를 선택하여 변경 내용을 저장합니다.
 
-4. 조건 **클라이언트** 앱을 선택하여 앱 및  >   브라우저에 정책을 적용합니다. 예를 들어 **예, 를** 선택한 다음 **브라우저** 및 모바일 앱 및 데스크톱 클라이언트를 **사용하도록 설정할 수 있습니다.** **완료** 를 선택하여 변경 내용을 저장합니다.
+4. 조건 **클라이언트** 앱을 선택하여 앱 및 \>  브라우저에 정책을 적용합니다. 예를 들어 **예, 를** 선택한 다음 **브라우저** 및 모바일 앱 및 데스크톱 클라이언트를 **사용하도록 설정할 수 있습니다.** **완료** 를 선택하여 변경 내용을 저장합니다.
 
-5. 장치 **준수에** 따라 조건부 액세스를 적용하려면 허용을 선택합니다. 예를 들어 **액세스 허용 디바이스를**  >  **규격으로 표시해야 합니다.를 선택합니다.** **선택을** 선택하여 변경 내용을 저장합니다.
+5. 장치 **준수에** 따라 조건부 액세스를 적용하려면 허용을 선택합니다. 예를 들어 **액세스 허용 디바이스를** \> **규격으로 표시해야 합니다.를 선택합니다.** **선택을** 선택하여 변경 내용을 저장합니다.
 
 6. 정책 **사용 을** 선택한 다음 **만들기를 선택하여** 변경 내용을 저장합니다.
 

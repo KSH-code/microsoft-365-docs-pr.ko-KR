@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 501da26d834295e36f4ddafb7e48f08f9b4b75c1
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 7628a46a2a6d166dcc37b551f2effcb42367084f
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247633"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533126"
 ---
 # <a name="onboard-the-windows-10-devices-using-mobile-device-management-tools"></a>모바일 Windows 10 관리 도구를 사용하여 디바이스 온보드
 
@@ -74,7 +74,7 @@ Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedTh
 
 1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
 
-   1. 탐색 창에서 **끝점 설정** 관리  >    >  오프보링  >  **을 선택합니다.**
+   1. 탐색 창에서 **끝점 설정** 관리 \>  \>  오프보링 \> **을 선택합니다.**
 
    1. 운영 Windows 10 로 실행을 선택합니다.
 

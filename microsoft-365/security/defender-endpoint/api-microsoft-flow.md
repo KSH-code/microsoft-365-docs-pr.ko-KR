@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 44db65f08c84cdcce819773958881320d7c99705
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 1f61fa2e2d5231d6e9c6a879a0827144282f1285
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507785"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533258"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate(이전 Microsoft Flow) 및 Azure Functions
 
@@ -37,7 +37,7 @@ ms.locfileid: "58507785"
 
 모든 최신 보안 운영 센터의 표준 요구 사항은 보안 절차를 자동화하는 것입니다. 전문 사이버 방어자 부족으로 SOC가 가장 효율적인 방식으로 작동하고 자동화가 반드시 있어야 합니다. Microsoft Power Automate 정확히 구축된 여러 커넥터를 지원할 수 있습니다. 몇 분 내에 종단간 프로시저 자동화를 빌드할 수 있습니다.
 
-Microsoft Defender API에는 다양한 기능이 있는 공식 Flow 커넥터가 있습니다.
+Microsoft Defender API에는 다양한 기능이 있는 공식 Power Automate 커넥터가 있습니다.
 
 ![자격 증명 편집 이미지1](images/api-flow-0.png)
 

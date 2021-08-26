@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Microsoft Teams 솔루션을 사용하여 계약 관리 채널을 만드는 Microsoft 365 대해 자세히 알아보십시오.
-ms.openlocfilehash: 9efd6f49954b6ed9b9dd2339ba720641a2f7fe73e6526809ad5d71d148838337
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bafce28689e4340c3ff73694d150bac294a95b5a
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53855304"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532874"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>2단계. 이 Microsoft Teams 사용하여 계약 관리 채널 만들기
 
@@ -208,4 +208,4 @@ in the [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/
 
 ## <a name="next-step"></a>다음 단계
 
-[3단계. 이 Power Automate 사용하여 계약 처리 흐름 만들기](solution-manage-contracts-step3.md)
+[3단계. 이 Power Automate 사용하여 계약을 처리하기 위한 흐름 만들기](solution-manage-contracts-step3.md)

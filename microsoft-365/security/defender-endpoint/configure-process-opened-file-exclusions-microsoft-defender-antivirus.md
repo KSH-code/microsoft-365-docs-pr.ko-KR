@@ -15,12 +15,12 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 894f2da81365b176afd7789635a4c9830c6d8ab681478df91e5aedd3a6579cc0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ea06094121f9c6a654234da1cb6d7757db5c78dd
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533294"
 ---
 # <a name="configure-exclusions-for-files-opened-by-processes"></a>프로세스에서 연 파일에 대한 제외 구성
 
@@ -31,16 +31,20 @@ ms.locfileid: "53794393"
 
 특정 프로세스에서 연 파일은 검사에서 제외할 Microsoft Defender 바이러스 백신 있습니다. 제외 [권장 사항](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) 정의하기 전에 제외를 정의하는 방법을 참조하세요.
 
-이 문서에서는 제외 목록을 구성하는 방법에 대해 설명합니다. 
+이 문서에서는 제외 목록을 구성하는 방법에 대해 설명합니다.
 
 ## <a name="examples-of-exclusions"></a>제외의 예
 
-|제외 | 예제 |
-|---|---|
-|특정 파일 이름을 사용 하 고 모든 프로세스에서 열 수 있는 컴퓨터의 모든 파일 | 다음을 `test.exe` 통해 연 파일은 제외됩니다. <br/>`c:\sample\test.exe`<br/>`d:\internal\files\test.exe` |  
-|특정 폴더의 모든 프로세스에서 연 컴퓨터의 모든 파일 | 다음을 `c:\test\sample\*` 통해 연 파일은 제외됩니다.<br/>`c:\test\sample\test.exe`<br/>`c:\test\sample\test2.exe`<br/>`c:\test\sample\utility.exe` | 
-|특정 폴더의 특정 프로세스에서 연 컴퓨터의 모든 파일 | 지정하면 `c:\test\process.exe` 열 때만 열 수 있는 파일 제외 `c:\test\process.exe` |
+<br>
 
+****
+
+|제외|예제|
+|---|---|
+|특정 파일 이름을 사용 하 고 모든 프로세스에서 열 수 있는 컴퓨터의 모든 파일|다음을 `test.exe` 통해 연 파일은 제외됩니다. <p>`c:\sample\test.exe` <p> `d:\internal\files\test.exe`|
+|특정 폴더의 모든 프로세스에서 연 컴퓨터의 모든 파일|다음을 `c:\test\sample\*` 통해 연 파일은 제외됩니다. <p> `c:\test\sample\test.exe` <p> `c:\test\sample\test2.exe` <p> `c:\test\sample\utility.exe`|
+|특정 폴더의 특정 프로세스에서 연 컴퓨터의 모든 파일|지정하면 `c:\test\process.exe` 열 때만 열 수 있는 파일 제외 `c:\test\process.exe`|
+|
 
 프로세스 제외 목록에 프로세스를 추가하면 Microsoft Defender 바이러스 백신 위치와 상관없이 해당 프로세스에서 연 파일을 검색하지 않습니다. 그러나 프로세스 자체는 파일 제외 목록에도 추가되지 않은 경우 [검사됩니다.](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 
@@ -72,13 +76,12 @@ PowerShell cmdlet 및 WMI를 사용하여 목록 검토를 포함하여 제외 �
 
 2. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 템플릿 **을 클릭합니다.**
 
-3. 트리를 확장하여 Windows **구성 > Microsoft Defender 바이러스 백신 > 확장합니다.**
+3. 트리를 확장하여 Windows **구성 Microsoft Defender 바이러스 백신 \> \> 확장합니다.**
 
 4. 프로세스 **제외를** 두 번 클릭하고 제외를 추가합니다.
-
     1. 옵션을 사용으로 **설정합니다.**
     2. 옵션 **섹션에서** **표시...를 클릭합니다.**
-    3. 값 이름 열 아래에 각 프로세스를 자체 **줄에 입력합니다.** 다양한 유형의 프로세스 제외에 대한 예제 표를 참조합니다.  모든 프로세스의 값 **열에** **0을** 입력합니다.
+    3. 값 이름 열 아래에 각 프로세스를 자체 **줄에 입력합니다.** 다양한 유형의 프로세스 제외에 대한 예제 표를 참조합니다. 모든 프로세스의 값 **열에** **0을** 입력합니다.
 
 5. **확인** 을 클릭합니다.
 
@@ -92,16 +95,21 @@ cmdlet의 형식은 다음입니다.
 <cmdlet> -ExclusionProcess "<item>"
 ```
 
-다음을 다음으로 \<cmdlet> 허용합니다.
+다음을 다음으로 \<cmdlet\> 허용합니다.
 
-|구성 작업 | PowerShell cmdlet |
+<br>
+
+****
+
+|구성 작업|PowerShell cmdlet|
 |---|---|
-|목록 만들기 또는 덮어 덮어 사용 | `Set-MpPreference` |
-|목록에 추가 | `Add-MpPreference` |
-|목록에서 항목 제거 | `Remove-MpPreference` |
+|목록 만들기 또는 덮어 덮어 사용|`Set-MpPreference`|
+|목록에 추가|`Add-MpPreference`|
+|목록에서 항목 제거|`Remove-MpPreference`|
+|
 
->[!IMPORTANT]
->또는 를 사용하여 목록을 만든 경우 cmdlet을 다시 사용하여 기존 목록을 덮어 `Set-MpPreference` `Add-MpPreference` `Set-MpPreference` 덮어 니다.
+> [!IMPORTANT]
+> 또는 를 사용하여 목록을 만든 경우 cmdlet을 다시 사용하여 기존 목록을 덮어 `Set-MpPreference` `Add-MpPreference` `Set-MpPreference` 덮어 니다.
 
 예를 들어 다음 코드는 Microsoft Defender AV 검사에서 지정된 프로세스에서 연 파일을 제외합니다.
 
@@ -135,10 +143,15 @@ ExclusionProcess
 
 다음 표에서는 프로세스 제외 목록에서 와일드카드를 사용하는 방법에 대해 설명하고 있습니다.
 
-|와일드카드 | 예제 사용 | 일치 예제 |
-|:---|:---|:---|
-|`*` (asterisk) <br/><br/> 문자 수에 따라 바꾸기 | `C:\MyData\*` | 모든 파일에서 연 파일 `C:\MyData\file.exe` |
-|환경 변수 <br/><br/> 제외를 평가할 때 정의된 변수가 경로로 채워지기 | `%ALLUSERSPROFILE%\CustomLogFiles\file.exe` | 모든 파일에서 연 파일 `C:\ProgramData\CustomLogFiles\file.exe` |
+<br>
+
+****
+
+|와일드카드|예제 사용|일치 예제|
+|---|---|---|
+|`*` (asterisk) <p> 문자 수에 따라 바꾸기|`C:\MyData\*`|모든 파일에서 연 파일 `C:\MyData\file.exe`|
+|환경 변수 <p> 제외를 평가할 때 정의된 변수가 경로로 채워지기|`%ALLUSERSPROFILE%\CustomLogFiles\file.exe`|모든 파일에서 연 파일 `C:\ProgramData\CustomLogFiles\file.exe`|
+|
 
 ## <a name="review-the-list-of-exclusions"></a>제외 목록 검토
 
@@ -159,7 +172,6 @@ MpCmdRun.exe -CheckExclusion -path <path>
 
 > [!NOTE]
 > MpCmdRun을 통해 제외를 확인하려면 MICROSOFT DEFENDER 바이러스 백신 CAMP 버전 4.18.1812.3(2018년 12월에 출시) 이상이 필요합니다.
-
 
 ### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>PowerShell을 사용하여 다른 모든 Microsoft Defender 바이러스 백신 제외 목록 검토
 

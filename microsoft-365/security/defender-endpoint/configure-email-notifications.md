@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f0a28aa76189388a5e7943d8a662ddcb0b28d56828d53a4b62e6d64a34518454
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 857df1a9f088c316349fbbe02618a7345df5a075
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854306"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532778"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 경고 알림 구성
 
@@ -50,7 +50,7 @@ RBAC(역할 기반 액세스 제어)를 사용하는 경우 받는 사람은 알
 장치 및 알림 심각도 및 알림 받는 사람에 대해 전자 메일 알림을 보내기 위한 규칙을 만들 수 있습니다.
 
 
-1. 탐색 창에서 **끝점 일반 설정** 알림을  >    >    >  **선택합니다.**
+1. 탐색 창에서 **끝점 일반 설정** 알림을 \>  \>  \> **선택합니다.**
 
 2. 항목 **추가 를 클릭합니다.**
 

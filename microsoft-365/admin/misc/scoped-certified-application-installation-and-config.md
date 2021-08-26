@@ -16,12 +16,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - MET150
 description: ServiceNow에 대한 범위가 지정한 인증된 응용 프로그램 설치 및 구성 가이드입니다.
-ms.openlocfilehash: 0bac2a0c12c1997627da77419a7b47d6cd4c74cb
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: f5c562122fafcbb05115519d7841800be3e71a73
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508597"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531662"
 ---
 # <a name="scoped-certified-application-installation-and-configuration-guide"></a>범위가 지정한 인증된 응용 프로그램 설치 및 구성 가이드
 
@@ -51,7 +51,7 @@ Microsoft 365 통합을 통해 Microsoft 365, 지원 및 서비스 상태와 Ser
 
 ## <a name="application-dependencies-in-servicenow-environments"></a>ServiceNow 환경의 응용 프로그램 종속성
 
-필요한 사용 권한:
+필요한 권한
 
 - oauth \_ 엔터티
 
@@ -162,9 +162,9 @@ Microsoft 365 통합을 위한 구성을 설정하기 전에 다음 질문에 �
 
     :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image8.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
-### <a name="optional-whitelist-the-services-ips-of-microsoft-365-support-integration"></a>\[선택적 지원 통합에 대한 서비스의 \] Microsoft 365 목록
+### <a name="optional-allow-the-services-ips-of-microsoft-365-support-integration"></a>\[선택 \] 사항 서비스 ips of Microsoft 365 통합 허용
 
-회사에서 자체 정책을 사용하여 인터넷 액세스를 제한하는 경우 인바운드 및 아웃바운드 API 액세스에 대해 Microsoft 365 IP 주소를 허용하여 통합 지원 서비스에 대한 네트워크 액세스를 사용하도록 설정하세요.
+회사에서 자체 정책을 사용하여 인터넷 액세스를 제한하는 경우 인바운드 및 아웃바운드 API 액세스에 대해 아래의 IP 주소를 Microsoft 365 지원 서비스에서 네트워크 액세스를 사용하도록 설정하세요.
 
 - 52.149.152.32
 
@@ -224,13 +224,13 @@ Microsoft 365 통합을 위한 구성을 설정하기 전에 다음 질문에 �
 
 - [Prerequisites(기본 인증)](#prerequisites-basic-authentication) 4단계에서 만든 통합 사용자를 선택하고 \# 다음 을 **선택합니다.**
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image13.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image14.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 7. \[ServiceNow 관리자인 사용자가 \] 리포지토리 ID를 설정합니다.
 
 리포지토리 ID를 지정하고 다음 을 **선택합니다.**
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image14.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image15.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 8. \[ServiceNow 관리자인 사용자 응용 프로그램 \] 설정
 
@@ -411,9 +411,9 @@ x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 
 
     :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image26.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
-### <a name="optional-whitelist-the-services-ips-of-microsoft-365-support-integration"></a>\[선택적 지원 통합에 대한 서비스의 \] Microsoft 365 목록
+### <a name="optional-allow-the-services-ips-of-microsoft-365-support-integration"></a>\[선택 \] 사항 서비스 ips of Microsoft 365 통합 허용
 
-회사에서 자체 정책을 사용하여 인터넷 액세스를 제한하는 경우 인바운드 및 아웃바운드 API 액세스에 대해 이러한 IP Microsoft 365 허용하여 서비스 지원 통합에 대한 네트워크 액세스를 사용하도록 설정하세요.
+회사에서 자체 정책을 사용하여 인터넷 액세스를 제한하는 경우 인바운드 및 아웃바운드 API 액세스를 모두 허용하여 Microsoft 365 지원 서비스에 대한 네트워크 액세스를 사용하도록 설정하세요.
 
 - 52.149.152.32
 
@@ -473,7 +473,7 @@ x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 
 
     1. [Prerequisites(AAD OAuth Token)](#prerequisites-aad-oauth-token) 3단계에서 만든 응용 프로그램의 클라이언트 ID를 입력하고 다음 \# 을 **선택합니다.**
 
-    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image29.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image14.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
 7. \[ServiceNow 관리자인 사용자가 \] 리포지토리 ID를 설정합니다.
 
@@ -499,7 +499,7 @@ x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 
 
     1. 다음 정보를 확인하여 올바른지 확인합니다.
 
-        :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image30.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+        :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image17.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
     1. 조직 프로필 Microsoft 365 [관리](https://admin.microsoft.com)포털 설정  >    >  **설정**  >  **로 이동하세요.**
 

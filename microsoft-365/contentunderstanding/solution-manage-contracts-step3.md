@@ -1,5 +1,5 @@
 ---
-title: 3단계. 이 Power Automate 사용하여 계약 처리 흐름 만들기
+title: 3단계. 이 Power Automate 사용하여 계약을 처리하기 위한 흐름 만들기
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -12,14 +12,14 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: 사용자 계정을 사용하여 Power Automate 솔루션을 사용하여 계약을 처리하기 위한 흐름을 만드는 Microsoft 365 알아보십시오.
-ms.openlocfilehash: ddf9df71c53af9f3a68dcbfd9a5b1882b67c4fbd4600e89ecec36e283848ac3e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1de8c0c5ed25ee9934077d015f4e66c43e07c7c8
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53859278"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533246"
 ---
-# <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>3단계. 이 Power Automate 사용하여 계약 처리 흐름 만들기
+# <a name="step-3-use-power-automate-to-create-the-flow-to-process-your-contracts"></a>3단계. 이 Power Automate 사용하여 계약을 처리하기 위한 흐름 만들기
 
 계약 관리 채널을 만들며 문서 라이브러리에 SharePoint 있습니다. 다음 단계는 Power Automate 모델이 식별하고 분류하는 계약을 SharePoint Syntex 흐름을 만드는 것입니다. 이 단계는 문서 라이브러리에서 Power Automate 흐름을 만들어 [SharePoint 있습니다.](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)
 
@@ -160,7 +160,7 @@ ms.locfileid: "53859278"
     | 승인 상태  | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['submitActionId']         |
     | 승인자     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responder'] ['displayName']        |
     | 승인 날짜     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responseTime']         |
-    | Comment     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['data'] ['acComments']         |
+    | 댓글     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['data'] ['acComments']         |
     
     다음은 수식 상자를 사용하여 식을 Power Automate 예제입니다.
 

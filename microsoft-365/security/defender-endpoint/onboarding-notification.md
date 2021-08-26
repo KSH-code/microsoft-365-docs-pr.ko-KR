@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e62195582183f24078a2755b1773a00ceee06613f141403fe8399f798f2eb411
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9c4fa624d6c0fb6ea299834fd4b57f37dd5f8f7c
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53799937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531566"
 ---
 # <a name="create-a-notification-rule-when-a-local-onboarding-or-offboarding-script-is-used"></a>로컬 온보딩 또는 등록 해제 스크립트를 사용하는 경우 알림 규칙 만들기
 
@@ -45,7 +45,7 @@ ms.locfileid: "53799937"
 
 다음에 대한 액세스 권한이 필요합니다.
 
-- Microsoft Flow(Flow 계획 1 이상) 자세한 내용은 가격 Flow [페이지를 참조하세요.](https://flow.microsoft.com/pricing/)
+- Power Automate(사용자당 요금제 이상). 자세한 내용은 가격 Power Automate [페이지를 참조하세요.](https://flow.microsoft.com/pricing/)
 - Azure 테이블 또는 SharePoint 또는 라이브러리/SQL DB입니다.
 
 ## <a name="create-the-notification-flow"></a>알림 흐름 만들기

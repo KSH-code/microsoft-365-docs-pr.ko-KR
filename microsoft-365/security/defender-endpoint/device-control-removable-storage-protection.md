@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 732fe4748db6f3a2f1d055ee900fa87e84de57ea
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.openlocfilehash: 80a3d5bee2f26e708969832c67982f679b95c0b4
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359988"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531506"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 보호
 
@@ -103,13 +103,13 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호를 사�
 ****
 
 |속성 이름|적용 가능한 정책|운영 체제에 적용|설명|
-|---------|---------|---------|---------|
-|Device Class|- [끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법](control-usb-devices-using-intune.md)|Windows|장치 ID 형식에 대한 자세한 내용은 장치 설정 [클래스 를 참조하세요.](/windows-hardware/drivers/install/overview-of-device-setup-classes) 다음 두 링크는 장치 설정 클래스의 전체 목록을 제공합니다. '시스템 사용' 클래스는 주로 출하 시 컴퓨터/컴퓨터와 함께 제공된 장치를 참조하며, '공급업체' 클래스는 대부분 기존 컴퓨터/컴퓨터에 연결할 수 있는 장치를 참조합니다. 공급업체에서 사용할 수 있는 시스템 정의 장치 설정 클래스 [- Windows 드라이버](/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors) 및 시스템 사용에 예약된 시스템 정의 장치 설정 클래스 - Windows [드라이버).](/windows-hardware/drivers/install/system-defined-device-setup-classes-reserved-for-system-use) **참고:** 이동식 저장소뿐만 아니라 모든 장치에 장치 설치를 적용할 수 있습니다.|
-|기본 ID|- [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows|기본 ID에는 이동식 저장소, CD/DVD 및 이동식 Windows/WPD가 포함됩니다.|
-|장치 ID|- [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md);</br>- [끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법](control-usb-devices-using-intune.md)|Windows|장치 ID 형식에 대한 자세한 내용은 표준 USB 식별자(예: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07)를 참조하세요. [](/windows-hardware/drivers/install/standard-usb-identifiers)|
-|하드웨어 ID|- [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md);</br>- [끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법](control-usb-devices-using-intune.md)|Windows|시스템에서 장치를 식별한 문자열(예: USBSTOR\DiskGeneric_Flash_Disk___8.07) **참고:** 하드웨어 ID가 고유하지 않습니다. 다른 디바이스가 동일한 값을 공유할 수 있습니다.|
-|인스턴스 ID|- [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md);</br>- 장치 설치|Windows|USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0과 같은 문자열은 시스템에서 장치를 고유하게 식별합니다.|
-|이름|- [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows|장치에 연결된 문자열(예: 일반 플래시 디스크 USB 장치)|
-|공급업체 ID/제품 ID|- [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows <br/> macOS |공급업체 ID는 USB 위원회가 공급업체에 할당하는 4자리 공급업체 코드입니다. 제품 ID는 공급업체가 장치에 할당하는 4자리 제품 코드입니다. 와일드카드를 지원합니다.|
-|Serial NumberId|- [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows <br/> macOS |예: <SerialNumberId>002324B534BCB431B000058A</SerialNumberId>|
-
+|---|---|---|---|
+|Device Class|[끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법](control-usb-devices-using-intune.md)|Windows|장치 ID 형식에 대한 자세한 내용은 장치 설정 [클래스 를 참조하세요.](/windows-hardware/drivers/install/overview-of-device-setup-classes) 다음 두 링크는 장치 설정 클래스의 전체 목록을 제공합니다. '시스템 사용' 클래스는 주로 출하 시 컴퓨터/컴퓨터와 함께 제공된 장치를 참조하며, '공급업체' 클래스는 대부분 기존 컴퓨터/컴퓨터에 연결할 수 있는 장치를 참조합니다. 공급업체에서 사용할 수 있는 시스템 정의 장치 설정 클래스 [- Windows 드라이버](/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors) 및 시스템 사용에 예약된 시스템 정의 장치 설정 클래스 - Windows [드라이버).](/windows-hardware/drivers/install/system-defined-device-setup-classes-reserved-for-system-use) **참고:** 이동식 저장소뿐만 아니라 모든 장치에 장치 설치를 적용할 수 있습니다.|
+|기본 ID|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows|기본 ID에는 이동식 저장소, CD/DVD 및 이동식 Windows/WPD가 포함됩니다.|
+|장치 ID|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md); <p> [끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법](control-usb-devices-using-intune.md)|Windows|장치 ID 형식에 대한 자세한 내용은 표준 USB 식별자(예: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07)를 참조하세요. [](/windows-hardware/drivers/install/standard-usb-identifiers)|
+|하드웨어 ID|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md) <p> [끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법](control-usb-devices-using-intune.md)|Windows|시스템에서 장치를 식별한 문자열(예: USBSTOR\DiskGeneric_Flash_Disk___8.07) **참고:** 하드웨어 ID가 고유하지 않습니다. 다른 디바이스가 동일한 값을 공유할 수 있습니다.|
+|인스턴스 ID|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md) <p> 장치 설치|Windows|USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0과 같은 문자열은 시스템에서 장치를 고유하게 식별합니다.|
+|이름|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows|장치에 연결된 문자열(예: 일반 플래시 디스크 USB 장치)|
+|공급업체 ID/제품 ID|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows <p> macOS|공급업체 ID는 USB 위원회가 공급업체에 할당하는 4자리 공급업체 코드입니다. 제품 ID는 공급업체가 장치에 할당하는 4자리 제품 코드입니다. 와일드카드를 지원합니다.|
+|Serial NumberId|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows <p> macOS |예: <SerialNumberId>002324B534BCB431B000058A</SerialNumberId>|
+|

@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ce3ef7cd0861f8f094a873e39ae010ac87e4e18549ce0337911c327741f5e4f7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d0688a9ccae293e68d54ec9f00d74d9829d85d4e
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53903815"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532814"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>링에서 끝점용 Microsoft Defender 배포
 
@@ -35,9 +35,10 @@ ms.locfileid: "53903815"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-링 기반 배포 방법을 사용하여 끝점에 대한 Microsoft Defender 배포를 완료할 수 있습니다. 
+링 기반 배포 방법을 사용하여 끝점에 대한 Microsoft Defender 배포를 완료할 수 있습니다.
 
 배포 링은 다음과 같은 시나리오에서 적용할 수 있습니다.
+
 - [새 배포](#new-deployments)
 - [기존 배포](#existing-deployments)
 
@@ -45,20 +46,24 @@ ms.locfileid: "53903815"
 
 ![배포 링의 이미지](images/deployment-rings.png)
 
-
 링 기반 접근 방식은 온보드할 끝점 집합을 식별하고 서비스를 더 큰 장치 집합에 배포하기 전에 특정 조건이 충족되는지 확인하는 방법입니다. 각 링에 대한 종료 조건을 정의하고 다음 링으로 이동하기 전에 해당 링이 충족되도록 할 수 있습니다.
 
-링 기반 배포를 채택하면 서비스를 배포하는 동안 발생할 수 있는 잠재적인 문제를 줄일 수 있습니다. 특정 수의 장치를 먼저 파일럿하여 잠재적인 문제를 식별하고 발생할 수 있는 잠재적인 위험을 완화할 수 있습니다. 
+링 기반 배포를 채택하면 서비스를 배포하는 동안 발생할 수 있는 잠재적인 문제를 줄일 수 있습니다. 특정 수의 장치를 먼저 파일럿하여 잠재적인 문제를 식별하고 발생할 수 있는 잠재적인 위험을 완화할 수 있습니다.
 
 표 1에서는 사용할 수 있는 배포 링의 예를 제공합니다.
 
-**표 1**
+**표 1:**
 
-|배포 링|설명
+<br>
+
+****
+
+|배포 링|설명|
 |---|---|
-평가 | 링 1: 파일럿 테스트용 시스템 50개 식별
-파일럿 | 링 2: 프로덕션 환경에서 다음 50-100개 끝점 식별
-배포 후 | 링 3: 더 큰 증분으로 나머지 환경에 서비스 롤아웃
+|평가|링 1: 파일럿 테스트용 시스템 50개 식별|
+|파일럿|링 2: 프로덕션 환경에서 다음 50-100개 끝점 식별|
+|배포 후|링 3: 더 큰 증분으로 나머지 환경에 서비스 롤아웃|
+|
 
 ### <a name="exit-criteria"></a>종료 조건
 
@@ -77,25 +82,34 @@ ms.locfileid: "53903815"
 
 끝점용 Microsoft Defender는 서비스에 온보딩할 수 있는 다양한 끝점을 지원합니다. 이 링에서 온보드할 여러 장치를 식별하고 정의한 종료 기준에 따라 다음 배포 링으로 진행하기로 결정합니다.
 
-다음 표에는 지원되는 끝점과 장치를 서비스에 온보드하는 데 사용할 수 있는 해당 도구가 표시됩니다. 
+다음 표에는 지원되는 끝점과 장치를 서비스에 온보드하는 데 사용할 수 있는 해당 도구가 표시됩니다.
 
-| 끝점     | 배포 도구                       |
-|--------------|------------------------------------------|
-| **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br> 참고: 프로덕션 환경에 10개 이상의 장치를 배포하려는 경우 그룹 정책 방법이나 아래에 나열된 다른 지원되는 도구를 대신 사용합니다.<br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md) <br> [Azure Defender와 통합](configure-server-endpoints.md#integration-with-azure-defender)  |
-| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
-| **Linux Server** | [로컬 스크립트](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
-| **iOS**      | [앱 기반](ios-install.md)                                |
-| **Android**  | [Microsoft Endpoint Manager ](android-intune.md)               |
+<br>
+
+****
+
+|끝점|배포 도구|
+|---|---|
+|**Windows**|[로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <p> **참고:** 프로덕션 환경에 10개 이상의 장치를 배포하려는 경우 그룹 정책 방법이나 아래에 나열된 다른 지원되는 도구를 대신 사용합니다. <p> [그룹 정책](configure-endpoints-gp.md) <p> [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <p> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <p> [VDI 스크립트](configure-endpoints-vdi.md) <p> [Azure Defender와 통합](configure-server-endpoints.md#integration-with-azure-defender)|
+|**macOS**|[로컬 스크립트](mac-install-manually.md) <p> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <p> [JAMF Pro](mac-install-with-jamf.md) <p> [모바일 장치 관리](mac-install-with-other-mdm.md)|
+|**Linux Server**|[로컬 스크립트](linux-install-manually.md) <p> [Puppet](linux-install-with-puppet.md) <p> [Ansible](linux-install-with-ansible.md)|
+|**iOS**|[앱 기반](ios-install.md)|
+|**Android**|[Microsoft Endpoint Manager ](android-intune.md)|
+|
 
 ### <a name="full-deployment"></a>배포 후
 
-이 단계에서 배포 계획 자료를 [사용하여](deployment-strategy.md) 배포를 계획할 수 있습니다. 
+이 단계에서 배포 계획 자료를 [사용하여](deployment-strategy.md) 배포를 계획할 수 있습니다.
 
 다음 자료를 사용하여 조직에 가장 적합한 끝점 아키텍처용 Microsoft Defender를 선택합니다.
 
-|**항목**|**설명**|
-|:-----|:-----|
-|[![Endpoint 배포 전략용 Microsoft Defender의 축소판 이미지](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) | 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li></ul>
+<br>
+
+****
+
+|항목|설명|
+|---|---|
+|[![Endpoint 배포 전략용 Microsoft Defender의 축소판 이미지](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx)  |건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li></ul>|
 
 ## <a name="existing-deployments"></a>기존 배포
 
@@ -103,7 +117,7 @@ ms.locfileid: "53903815"
 
 Windows 및/Windows 서버의 경우 **SUVP(보안** 업데이트 유효성 검사 프로그램)를 사용하여 미리 테스트할 여러 컴퓨터를 선택합니다(화요일 패치 전).
 
-자세한 내용은 다음 항목을 참조하세요.
+자세한 내용은 다음을 참조하세요.
 
 - [보안 업데이트 유효성 검사 프로그램](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-is-the-security-update-validation-program/ba-p/275767)
 - [소프트웨어 업데이트 유효성 검사 프로그램 및 Microsoft 맬웨어 보호 센터 설치 - TwC 대화형 타임라인 4부](https://www.microsoft.com/security/blog/2012/03/28/software-update-validation-program-and-microsoft-malware-protection-center-establishment-twc-interactive-timeline-part-4/)

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 description: 365 Business 클라우드 PC의 설치 문제를 Windows 방법을 학습합니다.
 ms.date: 08/13/2021
-ms.openlocfilehash: b639453ef55960a3526fa8354dc95efb2653f9c5
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 5602df4eaf140fec86a28252bb88763bd6417f50
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532934"
 ---
 # <a name="troubleshoot-windows-365-business-cloud-pc-setup-issues"></a>365 Windows 클라우드 PC 설정 문제 해결
 
@@ -45,19 +45,19 @@ ms.locfileid: "58507343"
 2. 관리 **Azure Active Directory** **보기를 선택합니다.**
 3. 왼쪽 nav의 관리 에서 장치 **를** 선택한 다음 장치 설정을 **선택합니다.**
 4. 사용자가 **장치를 Azure AD에** 가입할 수 있는 경우 모두로 설정되지 **않은** 경우 모두 를 선택한 다음 저장을 **선택합니다.**
-5. [2단계로 이동. CloudPCBRT 시스템 계정이 활성 상태인지 확인](#step-2-verify-that-the-cloudpcbrt-system-account-is-active)
+5. [2단계로 이동. 365 Windows](#step-2-verify-that-the-windows-365-bprt-permanent-user-system-account-is-active)영구 사용자 시스템 계정이 활성 상태인지 확인
 
-## <a name="step-2-verify-that-the-cloudpcbrt-system-account-is-active"></a>2단계. CloudPCBRT 시스템 계정이 활성 상태인지 확인
+## <a name="step-2-verify-that-the-windows-365-bprt-permanent-user-system-account-is-active"></a>2단계. Windows 365 BPRT 영구 사용자 시스템 계정이 활성 상태인지 확인
 
-조직에서 Windows 365 라이선스를 처음 할당하면 Azure AD에서 "CloudPCBPRT"라는 시스템 계정이 자동으로 만들어집니다. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패합니다. 이 시스템 계정은 원활한 설치 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 조직에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 시스템 계정을 삭제하는 경우 새 지원 요청을 열어 복원해야 합니다.
+조직에서 Windows 365 라이선스를 처음 할당하면 Azure AD에서 Windows **BPRT** 영구 사용자라는 시스템 계정이 자동으로 만들어집니다. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패합니다. 이 시스템 계정은 원활한 설치 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 조직에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 시스템 계정을 삭제하는 경우 새 지원 요청을 열어 복원해야 합니다.
 
-CloudPCBRT 시스템 계정이 Azure AD에서 활성 상태인지 확인하려면 다음 단계를 수행합니다.
+Azure AD에서 Windows 365 BPRT 영구 사용자 시스템 계정이 활성화되어 있는지 확인하려면 다음 단계를 수행합니다.
 
 1. Azure Portal에서 서비스 개요 <a href="https://go.microsoft.com/fwlink/p/?linkid=516942" target="_blank">Azure Active Directory 이동합니다.</a>
 2. 왼쪽 nav의 **관리에서** 사용자를 **선택합니다.**
-3. 검색 상자에 **CloudPCBRT를 입력한** 다음 Enter를 **입력합니다.**
-4. CloudPCBRT 시스템 계정이 있는 경우 [3단계로 이동하세요. 장치 기반 MFA가 꺼져 있는지 확인합니다.](#step-3-verify-that-device-based-mfa-is-turned-off)
-5. CloudPCBRT 시스템 계정이 없는 경우 왼쪽 검색 창에서 새 지원 요청을 선택하여 지원 티켓을 개설합니다.  지원 티켓이 닫힌 후 [6단계로 바로 이동하세요. 클라우드 PC를 초기화합니다.](#step-6-reset-your-cloud-pcs)
+3. 검색 상자에 Windows **365 BPRT 영구** 사용자 를 입력한 다음 Enter 를 **입력합니다.**
+4. 365 Windows 영구 사용자 시스템 계정이 있는 경우 [3단계로 이동하세요. 장치 기반 MFA가 꺼져 있는지 확인합니다.](#step-3-verify-that-device-based-mfa-is-turned-off)
+5. Windows 365 BPRT 영구 사용자 시스템 계정이 없는 경우 왼쪽 검색  창에서 새 지원 요청을 선택하여 지원 티켓을 열습니다. 지원 티켓이 닫힌 후 [6단계로 바로 이동하세요. 클라우드 PC를 초기화합니다.](#step-6-reset-your-cloud-pcs)
 
 ## <a name="step-3-verify-that-device-based-mfa-is-turned-off"></a>3단계. 장치 기반 MFA가 꺼져 있는지 확인
 

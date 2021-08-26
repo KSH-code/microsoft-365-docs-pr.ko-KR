@@ -16,12 +16,12 @@ ms.author: deniseb
 ms.topic: article
 ms.custom: nextgen
 ms.date: 08/17/2021
-ms.openlocfilehash: b64b407ac1971a43c8fd1cc640bfd5f13a348d12
-ms.sourcegitcommit: 43897ead6db2d3977f6ceb8abeedb8aaff9c020a
+ms.openlocfilehash: d50146c3689f7b19fc6b546478bc0b01ada1fc30
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380167"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532490"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성
 
@@ -33,22 +33,26 @@ ms.locfileid: "58380167"
 
 ## <a name="summary"></a>요약
 
-이 문서에서는 Microsoft Defender 바이러스 백신 이상에서 제외하는 Windows Server 2016 제공합니다. 
+이 문서에서는 Microsoft Defender 바이러스 백신 이상에서 제외하는 Windows Server 2016 제공합니다.
 
-이 Microsoft Defender 바이러스 백신 기본 제공 Windows Server 2016 운영 체제 파일 및 서버 역할 제외가 자동으로 수행됩니다. 그러나 사용자 지정 제외를 정의할 수 있습니다. 필요한 경우 자동 제외를 옵트아웃(opt out)할 수 있습니다. 
+이 Microsoft Defender 바이러스 백신 기본 제공 Windows Server 2016 운영 체제 파일 및 서버 역할 제외가 자동으로 수행됩니다. 그러나 사용자 지정 제외를 정의할 수 있습니다. 필요한 경우 자동 제외를 옵트아웃(opt out)할 수 있습니다.
 
-이 문서에는 다음과 같은 섹션이 포함되어 있습니다. <br/><br/>
+이 문서에는 다음과 같은 섹션이 포함되어 있습니다.
 
+<br>
 
-| 섹션  | 설명  |
-|---------|---------|
-| [Windows Server 2016 이상에서 자동 제외](#automatic-exclusions-on-windows-server-2016-or-later)  | 자동 제외의 두 가지 주요 유형에 대해 설명하고 자동 제외에 대한 자세한 목록을 포함합니다. |
-| [자동 제외 옵트아웃](#opting-out-of-automatic-exclusions) | 자동 제외를 옵트아웃하는 방법을 설명하는 중요한 고려 사항 및 절차가 포함되어 있습니다.   |
-| [사용자 지정 제외 정의](#defining-custom-exclusions) | 사용자 지정 제외를 정의하는 방법 정보에 대한 링크를 제공합니다. |
+****
 
+|섹션|설명|
+|---|---|
+|[Windows Server 2016 이상에서 자동 제외](#automatic-exclusions-on-windows-server-2016-or-later)|자동 제외의 두 가지 주요 유형에 대해 설명하고 자동 제외에 대한 자세한 목록을 포함합니다.|
+|[자동 제외 옵트아웃](#opting-out-of-automatic-exclusions)|자동 제외를 옵트아웃하는 방법을 설명하는 중요한 고려 사항 및 절차가 포함되어 있습니다.|
+|[사용자 지정 제외 정의](#defining-custom-exclusions)|사용자 지정 제외를 정의하는 방법 정보에 대한 링크를 제공합니다.|
+|
 
 > [!IMPORTANT]
 > 다음 점에 유의하십시오.
+>
 > - 사용자 지정 제외는 자동 제외보다 우선합니다.
 > - 자동 제외는 RTP(실시간 보호) 검사에만 적용됩니다. 전체 검사, 빠른 검사 또는 수동 검사 중에는 자동 제외가 사용되지 않습니다.
 > - 사용자 지정 및 중복 제외는 자동 제외와 충돌하지 않습니다.
@@ -64,9 +68,9 @@ Windows Server 2016 이상에서는 다음 제외를 정의할 필요가 없습�
 - 운영 체제 파일
 - 서버 역할 및 서버 역할을 통해 추가되는 모든 파일
 
-이 Microsoft Defender 바이러스 백신 기본 제공되어 있기 때문에 기본 제공 또는 Windows Server 2016 운영 체제 파일에 대한 제외가 필요하지 않습니다. 또한 Windows Server 2016 이상을 실행하고 역할을 설치하면 Microsoft Defender 바이러스 백신 설치하는 동안 추가되는 모든 파일과 서버 역할에 대한 자동 제외가 포함됩니다. 
+이 Microsoft Defender 바이러스 백신 기본 제공되어 있기 때문에 기본 제공 또는 Windows Server 2016 운영 체제 파일에 대한 제외가 필요하지 않습니다. 또한 Windows Server 2016 이상을 실행하고 역할을 설치하면 Microsoft Defender 바이러스 백신 설치하는 동안 추가되는 모든 파일과 서버 역할에 대한 자동 제외가 포함됩니다.
 
-운영 체제 제외 및 서버 역할 제외는 Windows 보안 앱에 표시된 표준 제외 [목록에 나타나지 않습니다.](microsoft-defender-security-center-antivirus.md) 
+운영 체제 제외 및 서버 역할 제외는 Windows 보안 앱에 표시된 표준 제외 [목록에 나타나지 않습니다.](microsoft-defender-security-center-antivirus.md)
 
 서버 역할 및 운영 체제 파일에 대한 자동 제외는 R2 또는 Windows Server 2012 Windows Server 2012 않습니다.
 
@@ -163,11 +167,16 @@ Windows Server 2016 이상에서는 다음 제외를 정의할 필요가 없습�
 
 다음 표에는 Hyper-V 설치할 때 자동으로 배달되는 파일 형식 제외, 폴더 제외 및 프로세스 제외가 나열되어 있습니다.
 
-| 제외 유형 | 구체적 |
-|:---|:---|
-| 파일 형식 |  `*.vhd` <br/> `*.vhdx` <br/> `*.avhd` <br/> `*.avhdx` <br/> `*.vsv` <br/> `*.iso` <br/> `*.rct` <br/> `*.vmcx` <br/> `*.vmrs` |
-| 폴더 |  `%ProgramData%\Microsoft\Windows\Hyper-V` <br/> `%ProgramFiles%\Hyper-V` <br/> `%SystemDrive%\ProgramData\Microsoft\Windows\Hyper-V\Snapshots` <br/> `%Public%\Documents\Hyper-V\Virtual Hard Disks` |
-| 프로세스 | `%systemroot%\System32\Vmms.exe` <br/> `%systemroot%\System32\Vmwp.exe` |
+<br>
+
+****
+
+|제외 유형|구체적|
+|---|---|
+|파일 형식|`*.vhd` <br/> `*.vhdx` <br/> `*.avhd` <br/> `*.avhdx` <br/> `*.vsv` <br/> `*.iso` <br/> `*.rct` <br/> `*.vmcx` <br/> `*.vmrs`|
+|폴더|`%ProgramData%\Microsoft\Windows\Hyper-V` <br/> `%ProgramFiles%\Hyper-V` <br/> `%SystemDrive%\ProgramData\Microsoft\Windows\Hyper-V\Snapshots` <br/> `%Public%\Documents\Hyper-V\Virtual Hard Disks`|
+|프로세스|`%systemroot%\System32\Vmms.exe` <br/> `%systemroot%\System32\Vmwp.exe`|
+|
 
 ##### <a name="sysvol-files"></a>SYSVOL 파일
 
@@ -333,9 +342,9 @@ Windows Server 2016 보안 인텔리전스 업데이트에서 제공된 미리 �
 
 2. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동한** 다음 관리 템플릿 **을 선택합니다.**
 
-3. 트리를 확장하여 **Windows 구성 요소 Microsoft Defender 바이러스 백신**  >    >  **확장합니다.**
+3. 트리를 확장하여 **Windows 구성 요소 Microsoft Defender 바이러스 백신** \>  \> **확장합니다.**
 
-4. 자동 **제외** 해제를 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 그런 다음 **확인** 을 선택합니다. 
+4. 자동 **제외** 해제를 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 그런 다음 **확인** 을 선택합니다.
 
 ### <a name="use-powershell-cmdlets-to-disable-the-auto-exclusions-list-on-windows-server"></a>PowerShell cmdlet을 사용하여 Windows 서버에서 자동 제외 목록을 사용하지 않도록 설정
 
@@ -359,6 +368,7 @@ DisableAutoExclusions
 ```
 
 자세한 정보 및 허용되는 매개 변수는 다음을 참조하세요.
+
 - [Windows Defender WMIv2 API](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 
 ## <a name="defining-custom-exclusions"></a>사용자 지정 제외 정의

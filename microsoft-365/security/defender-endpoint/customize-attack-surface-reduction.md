@@ -8,18 +8,18 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: denisebmsft
-ms.author: deniseb
+author: jweston-1
+ms.author: v-jweston
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 68b322c3ddea8a1f361adc81226c20b6e7febada7f3c1b59662523fc729a2574
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bfdfd2badce75294376d6406ba3d3078f26a9857
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53874090"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533078"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용자 지정
 
@@ -56,7 +56,7 @@ ms.locfileid: "53874090"
 
 랜섬웨어 규칙은 기업 고객이 비즈니스 연속성을 보장하면서 랜섬웨어 공격의 위험을 줄일 수 있도록 고안된 규칙입니다. 기본적으로 랜섬웨어 규칙 오류는 신중하게 처리하고 아직 충분한 신뢰도와 신뢰를 거치지 않은 파일에 대해 보호합니다. 다시 강조하기 위해 랜섬웨어 규칙은 수백만 고객의 사용 메트릭에 따라 충분히 긍정적인 평판과 보전을 얻지 않은 파일에만 트리거합니다. 일반적으로 각 파일의 "신뢰도 및 신뢰" 값은 문제가 없는 사용이 증가하면 증분적으로 업그레이드하기 때문에 블록이 자체적으로 해결됩니다.
 
-블록이 제시간에 자체적으로 해결되지 않는 경우 고객은 셀프 서비스 메커니즘 또는 IOC(손상 표시기) 기반 "허용 목록" 기능을 사용하여 파일 차단을 해제할 수 있습니다.   
+블록이 제시간에 자체적으로 해결되지 않는 경우 고객은 셀프 서비스 메커니즘 또는 IOC(손상 표시기) 기반 "허용 목록" 기능을 사용하여 파일 차단을 해제할 수 있습니다. 
 
 > [!WARNING]
 > 파일 또는 폴더를 제외하거나 차단 해제하면 안전하지 않은 파일이 실행되고 장치를 감염시킬 수 있습니다. 파일 또는 폴더를 제외하면 공격 표면 감소 규칙에서 제공하는 보호가 크게 감소할 수 있습니다. 규칙에 의해 차단된 파일은 실행할 수 있으며 보고서나 이벤트가 기록되지 않습니다.
@@ -68,24 +68,29 @@ ms.locfileid: "53874090"
 공격 범위 축소는 환경 변수 및 와일드카드를 지원합니다. 와일드카드 사용에 대한 자세한 내용은 파일 이름 및 폴더 경로 또는 확장명 제외 목록에서 와일드카드 [사용을 참조하세요.](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists)
 검색되지 않을 것으로 생각되는 파일을 검색하는 규칙에 문제가 발생하는 경우 감사 모드를 사용하여 규칙을 [테스트합니다.](evaluate-attack-surface-reduction.md)
 
-| 규칙 설명 | GUID |
-|:----|:----|
-| 악용된 취약한 서명된 드라이버의 남용 차단 | `56a863a9-875e-4185-98a7-b882c64b5ce5` |
-| Adobe Reader에서 하위 프로세스를 만들지 차단 | `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c` |
-| 모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단 | `d4f940ab-401b-4efc-aadc-ad5f3c50688a` |
-| 로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단 | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` |
-| 전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단 | `be9ba2d9-53ea-4cdc-84e5-9b1eeee46550` |
-| 실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 조건을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단 | `01443614-cd74-433a-b99e-2ecdc07bfc25` |
-| 잠재적으로 난치될 수 있는 스크립트의 실행 차단 | `5beb7efe-fd9a-4556-801d-275e5ffc04cc` |
-| JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단 | `d3e037e1-3eb8-44c8-a917-57927947596d` |
-| 응용 Office 콘텐츠 만들기 차단 | `3b576869-a4ec-4529-8536-b80a7769e899` |
-| 응용 Office 코드 삽입 차단 | `75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84` |
-| 통신 Office 자식 프로세스를 만들지 차단 | `26190899-1602-49e8-8b27-eb1d0a1ce869` |
-| WMI 이벤트 구독을 통한 지속성 차단 | `e6db77e5-3df2-4cf1-b95a-636979351e5b` |
-| PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단 | `d1e49aac-8f56-4280-b9ba-993a6d77406c` |
-| USB에서 실행된 무단 및 사인되지 않은 프로세스 차단 | `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4` |
-| 매크로에서 Win32 API Office 차단 | `92e97fa1-2edf-4476-bdd6-9dd0b4dddc7b` |
-| 랜섬웨어에 대한 고급 보호 사용 | `c1db55ab-c21a-4637-bb3f-a12568109d35` |
+<br>
+
+****
+
+|규칙 설명|GUID|
+|---|---|
+|악용된 취약한 서명된 드라이버의 남용 차단|`56a863a9-875e-4185-98a7-b882c64b5ce5`|
+|Adobe Reader에서 하위 프로세스를 만들지 차단|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|
+|모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단|`d4f940ab-401b-4efc-aadc-ad5f3c50688a`|
+|로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|
+|전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단|`be9ba2d9-53ea-4cdc-84e5-9b1eeee46550`|
+|실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 조건을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단|`01443614-cd74-433a-b99e-2ecdc07bfc25`|
+|잠재적으로 난치될 수 있는 스크립트의 실행 차단|`5beb7efe-fd9a-4556-801d-275e5ffc04cc`|
+|JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단|`d3e037e1-3eb8-44c8-a917-57927947596d`|
+|응용 Office 콘텐츠 만들기 차단|`3b576869-a4ec-4529-8536-b80a7769e899`|
+|응용 Office 코드 삽입 차단|`75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84`|
+|통신 Office 자식 프로세스를 만들지 차단|`26190899-1602-49e8-8b27-eb1d0a1ce869`|
+|WMI 이벤트 구독을 통한 지속성 차단|`e6db77e5-3df2-4cf1-b95a-636979351e5b`|
+|PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|
+|USB에서 실행된 무단 및 사인되지 않은 프로세스 차단|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|
+|매크로에서 Win32 API Office 차단|`92e97fa1-2edf-4476-bdd6-9dd0b4dddc7b`|
+|랜섬웨어에 대한 고급 보호 사용|`c1db55ab-c21a-4637-bb3f-a12568109d35`|
+|
 
 각 [규칙에 대한 자세한](attack-surface-reduction.md) 내용은 공격 표면 축소 항목을 참조하세요.
 
@@ -95,7 +100,7 @@ ms.locfileid: "53874090"
 
 2. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 템플릿 **을 클릭합니다.**
 
-3. 공격 표면 **감소를 Windows 구성**  >  **Microsoft Defender 바이러스 백신**  >  **Microsoft Defender Exploit Guard**  >  **트리를 확장합니다.**
+3. 공격 표면 **감소를 Windows 구성** \> **Microsoft Defender 바이러스 백신** \> **Microsoft Defender Exploit Guard** \> **트리를 확장합니다.**
 
 4. 공격 표면 축소 **규칙에서** 파일 및 경로 제외 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 표시를 **선택하고** 값 이름 열에 각 파일 또는 **폴더를 입력합니다.** 각 항목의 값 **열에** **0을** 입력합니다.
 

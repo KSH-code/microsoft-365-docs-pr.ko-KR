@@ -16,12 +16,12 @@ ms.custom: nextgen
 ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 2facf41d8d2f695c67b7609fe8aec222413ba23c855b94d8b1d1ecd0da177173
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 989e392071de0ed90b2daa964307989f664cb53a
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863701"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532958"
 ---
 # <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사
 
@@ -42,7 +42,7 @@ ms.locfileid: "53863701"
 
 ## <a name="allow-connections-to-the-microsoft-defender-antivirus-cloud-service"></a>클라우드 서비스에 대한 Microsoft Defender 바이러스 백신 허용
 
-이 Microsoft Defender 바이러스 백신 클라우드 서비스는 끝점을 빠르고 강력하게 보호합니다. 클라우드 제공 보호 서비스를 사용하도록 설정하는 것은 선택 사항이지만 끝점 및 네트워크 전체에서 맬웨어에 대한 중요한 보호 기능을 제공하기 때문에 이 서비스를 사용하도록 설정하는 것이 좋습니다. Intune, Microsoft Endpoint Configuration Manager, 그룹 정책, PowerShell cmdlet 또는 Windows 보안 앱에서 서비스를 사용하도록 설정하는 데 대한 자세한 내용은 클라우드 제공 보호 사용을 참조하세요. [](enable-cloud-protection-microsoft-defender-antivirus.md) 
+이 Microsoft Defender 바이러스 백신 클라우드 서비스는 끝점을 빠르고 강력하게 보호합니다. 클라우드 제공 보호 서비스를 사용하도록 설정하는 것은 선택 사항이지만 끝점 및 네트워크 전체에서 맬웨어에 대한 중요한 보호 기능을 제공하기 때문에 이 서비스를 사용하도록 설정하는 것이 좋습니다. Intune, Microsoft Endpoint Configuration Manager, 그룹 정책, PowerShell cmdlet 또는 Windows 보안 앱에서 서비스를 사용하도록 설정하는 데 대한 자세한 내용은 클라우드 제공 보호 사용을 참조하세요. [](enable-cloud-protection-microsoft-defender-antivirus.md)
 
 서비스를 사용하도록 설정한 후 네트워크 또는 방화벽과 끝점 간의 연결을 허용하도록 구성해야 할 수 있습니다. 보호는 클라우드 서비스이기 때문에 Office 365 컴퓨터는 인터넷에 액세스할 수 있어야 합니다. 모든 종류의 네트워크 검사에서 URL을 `*.blob.core.windows.net` 제외하지 않습니다.
 
@@ -51,19 +51,23 @@ ms.locfileid: "53863701"
 
 ## <a name="services-and-urls"></a>서비스 및 URL
 
-이 섹션의 표에는 서비스 및 해당 연결된 웹 사이트 주소(URL)가 나열됩니다. 
+이 섹션의 표에는 서비스 및 해당 연결된 웹 사이트 주소(URL)가 나열됩니다.
 
 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 확인합니다. 그렇지 않으면 URL을 제외한 해당 규칙에 대해 특별히 허용 규칙을 만들어야 할 수 `*.blob.core.windows.net` 있습니다. 다음 표의 URL은 통신에 포트 443을 사용 합니다.
 
-| 서비스 및 설명 | URL |
-|----|---- |
-| Microsoft Defender 바이러스 백신(MAPS)라고도 하는 Microsoft 활성 보호 서비스 보호 서비스입니다.<p>이 서비스는 클라우드 제공 Microsoft Defender 바이러스 백신 제공하는 데 사용됩니다.|`*.wdcp.microsoft.com` <p> `*.wdcpalt.microsoft.com` <p> `*.wd.microsoft.com`|
-| MICROSOFT 업데이트 서비스(MU) 및 Windows 업데이트 서비스(WU) <p>이러한 서비스를 통해 보안 인텔리전스 및 제품 업데이트를 사용할 수 있습니다. |`*.update.microsoft.com` <p> `*.delivery.mp.microsoft.com`<p> `*.windowsupdate.com` <p> 자세한 내용은 Connection [endpoints for Windows 참조](/windows/privacy/manage-windows-1709-endpoints#windows-update)|
-|보안 인텔리전스 업데이트 ADL(대체 다운로드 위치)<p>설치된 보안 인텔리전스가 Microsoft Defender 바이러스 백신(7일 이상 지났을 경우) 보안 인텔리전스 업데이트를 위한 대체 위치입니다.| `*.download.microsoft.com`  <p> `*.download.windowsupdate.com`<p>  `go.microsoft.com`<p> `https://fe3cr.delivery.mp.microsoft.com/ClientWebService/client.asmx`|
-| 맬웨어 제출 저장소 <p>제출 양식 또는 자동 샘플 제출을 통해 Microsoft에 제출된 파일의 업로드 위치입니다. | `ussus1eastprod.blob.core.windows.net` <p>    `ussus2eastprod.blob.core.windows.net` <p>    `ussus3eastprod.blob.core.windows.net` <p>    `ussus4eastprod.blob.core.windows.net` <p>    `wsus1eastprod.blob.core.windows.net` <p>    `wsus2eastprod.blob.core.windows.net` <p>    `ussus1westprod.blob.core.windows.net` <p>    `ussus2westprod.blob.core.windows.net` <p>    `ussus3westprod.blob.core.windows.net` <p>    `ussus4westprod.blob.core.windows.net` <p>    `wsus1westprod.blob.core.windows.net` <p>    `wsus2westprod.blob.core.windows.net` <p>    `usseu1northprod.blob.core.windows.net` <p>    `wseu1northprod.blob.core.windows.net` <p>    `usseu1westprod.blob.core.windows.net` <p>    `wseu1westprod.blob.core.windows.net` <p>    `ussuk1southprod.blob.core.windows.net` <p>    `wsuk1southprod.blob.core.windows.net` <p>    `ussuk1westprod.blob.core.windows.net` <p>    `wsuk1westprod.blob.core.windows.net` |
-| CRL(인증서 해지 목록) <p>이 목록은 CRL을 Windows MAPS에 대한 SSL 연결을 만들 때 사용됩니다. | `http://www.microsoft.com/pkiops/crl/` <p> `http://www.microsoft.com/pkiops/certs` <p>   `http://crl.microsoft.com/pki/crl/products` <p> `http://www.microsoft.com/pki/certs` |
-| 기호 저장소 <p>기호 저장소는 수정 흐름 Microsoft Defender 바이러스 백신 중요한 파일을 복원하는 데 사용됩니다. | `https://msdl.microsoft.com/download/symbols` |
-| 유니버설 원격 분석 클라이언트 <p>이 클라이언트는 클라이언트 Windows 데이터를 전송하는 데 사용됩니다.<p> Microsoft Defender 바이러스 백신 품질 모니터링을 위해 원격 분석 사용 | 이 업데이트는 SSL(TCP 포트 443)을 사용하여 매니페스트를 다운로드하고 다음 DNS 끝점을 사용하는 진단 데이터를 Microsoft에 업로드합니다. <p> `vortex-win.data.microsoft.com` <p>   `settings-win.data.microsoft.com`|
+<br>
+
+****
+
+|서비스 및 설명|URL|
+|---|---|
+|Microsoft Defender 바이러스 백신(MAPS)라고도 하는 Microsoft 활성 보호 서비스 보호 서비스입니다.<p>이 서비스는 클라우드 제공 Microsoft Defender 바이러스 백신 제공하는 데 사용됩니다.|`*.wdcp.microsoft.com` <p> `*.wdcpalt.microsoft.com` <p> `*.wd.microsoft.com`|
+|MICROSOFT 업데이트 서비스(MU) 및 Windows 업데이트 서비스(WU) <p>이러한 서비스를 통해 보안 인텔리전스 및 제품 업데이트를 사용할 수 있습니다.|`*.update.microsoft.com` <p> `*.delivery.mp.microsoft.com`<p> `*.windowsupdate.com` <p> 자세한 내용은 Connection [endpoints for Windows 참조](/windows/privacy/manage-windows-1709-endpoints#windows-update)|
+|보안 인텔리전스 업데이트 ADL(대체 다운로드 위치)<p>설치된 보안 인텔리전스가 Microsoft Defender 바이러스 백신(7일 이상 지났을 경우) 보안 인텔리전스 업데이트를 위한 대체 위치입니다.|`*.download.microsoft.com` <p> `*.download.windowsupdate.com`<p>  `go.microsoft.com`<p> `https://fe3cr.delivery.mp.microsoft.com/ClientWebService/client.asmx`|
+|맬웨어 제출 저장소 <p>제출 양식 또는 자동 샘플 제출을 통해 Microsoft에 제출된 파일의 업로드 위치입니다.|`ussus1eastprod.blob.core.windows.net` <p> `ussus2eastprod.blob.core.windows.net` <p> `ussus3eastprod.blob.core.windows.net` <p> `ussus4eastprod.blob.core.windows.net` <p> `wsus1eastprod.blob.core.windows.net` <p> `wsus2eastprod.blob.core.windows.net` <p> `ussus1westprod.blob.core.windows.net` <p> `ussus2westprod.blob.core.windows.net` <p> `ussus3westprod.blob.core.windows.net` <p> `ussus4westprod.blob.core.windows.net` <p> `wsus1westprod.blob.core.windows.net` <p> `wsus2westprod.blob.core.windows.net` <p> `usseu1northprod.blob.core.windows.net` <p> `wseu1northprod.blob.core.windows.net` <p> `usseu1westprod.blob.core.windows.net` <p> `wseu1westprod.blob.core.windows.net` <p> `ussuk1southprod.blob.core.windows.net` <p> `wsuk1southprod.blob.core.windows.net` <p> `ussuk1westprod.blob.core.windows.net` <p> `wsuk1westprod.blob.core.windows.net`|
+|CRL(인증서 해지 목록) <p>이 목록은 CRL을 Windows MAPS에 대한 SSL 연결을 만들 때 사용됩니다.|`http://www.microsoft.com/pkiops/crl/` <p> `http://www.microsoft.com/pkiops/certs` <p> `http://crl.microsoft.com/pki/crl/products` <p> `http://www.microsoft.com/pki/certs`|
+|기호 저장소 <p>기호 저장소는 수정 흐름 Microsoft Defender 바이러스 백신 중요한 파일을 복원하는 데 사용됩니다.|`https://msdl.microsoft.com/download/symbols`|
+|유니버설 원격 분석 클라이언트 <p> 이 클라이언트는 클라이언트 Windows 데이터를 전송하는 데 사용됩니다. <p> Microsoft Defender 바이러스 백신 품질 모니터링을 위해 원격 분석 사용|이 업데이트는 SSL(TCP 포트 443)을 사용하여 매니페스트를 다운로드하고 다음 DNS 끝점을 사용하는 진단 데이터를 Microsoft에 업로드합니다. <p> `vortex-win.data.microsoft.com` <p> `settings-win.data.microsoft.com`|
 
 ## <a name="validate-connections-between-your-network-and-the-cloud"></a>네트워크와 클라우드 간의 연결 유효성 검사
 

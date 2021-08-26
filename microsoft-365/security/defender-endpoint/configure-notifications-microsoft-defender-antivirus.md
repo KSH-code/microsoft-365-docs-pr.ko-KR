@@ -16,12 +16,12 @@ ms.custom: nextgen
 ms.date: 06/16/2021
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 6829e12cdfd6a2942b60e8a0b8df166686ff0485c65d739ef19285628d140305
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 143722108ef1c5df8432610ff372697fdd3407df
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857654"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532526"
 ---
 # <a name="configure-microsoft-defender-antivirus-notifications-that-appear-on-endpoints"></a>끝점에 Microsoft Defender 바이러스 백신 알림 구성
 
@@ -38,7 +38,7 @@ ms.locfileid: "53857654"
 최신 위협 감지 요약과 같은 추가 알림 표시를 Windows 보안 [그룹](microsoft-defender-security-center-antivirus.md) 정책을 사용하여 구성할 수 있습니다.
 
 > [!NOTE]
-> Windows 10 버전 1607에서는 이 기능을 고급  알림이라고 하여 Windows 설정 업데이트 &  >  **보안**  >  Windows Defender. 모든 버전의 사용자에 대한 그룹 정책 설정에서 Windows 10 기능을 **고급 알림이라고 합니다.**
+> Windows 10 버전 1607에서는 이 기능을 고급  알림이라고 하여 Windows 설정  업데이트 & \> **보안** \> Windows Defender. 모든 버전의 사용자에 대한 그룹 정책 설정에서 Windows 10 기능을 **고급 알림이라고 합니다.**
 
 ### <a name="use-group-policy-to-disable-additional-notifications"></a>그룹 정책을 사용하여 추가 알림을 사용하지 않도록 설정
 
@@ -50,7 +50,7 @@ ms.locfileid: "53857654"
 
 4. 관리 **템플릿 을 선택합니다.**
 
-5. **보고**에서 Windows 구성**  >  **Microsoft Defender 바이러스 백신** > 확장합니다.
+5. **보고**에서 Windows 구성** \> **Microsoft Defender 바이러스 백신** > 확장합니다.
 
 6. 향상된 알림 **끄기** 를 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 그런 다음 **확인** 을 선택합니다. 이렇게 하면 추가 알림이 나타나지 않습니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "53857654"
 
 3. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동한** 다음 관리 템플릿 **을 선택합니다.**
 
-4. 클라이언트 인터페이스에서 **구성 Windows**  >  **트리를 Microsoft Defender 바이러스 백신**  >  **확장합니다.** 
+4. 클라이언트 인터페이스에서 **구성 Windows** \> **트리를 Microsoft Defender 바이러스 백신** \> **확장합니다.** 
 
 5. 모든 알림 표시 **안 를 두 번 클릭하고** 옵션을 사용으로 **설정합니다.** 
 
@@ -106,7 +106,7 @@ ms.locfileid: "53857654"
 
 3. 관리 **템플릿 을 클릭합니다.**
 
-4. 클라이언트 인터페이스에서 **구성 Windows**  >  **트리를 Microsoft Defender 바이러스 백신**  >  **확장합니다.**
+4. 클라이언트 인터페이스에서 **구성 Windows** \> **트리를 Microsoft Defender 바이러스 백신** \> **확장합니다.**
 
 5. 다시 시작 알림 표시 안 를 두 번 **클릭하고** 옵션을 사용으로 **설정합니다.** 
 

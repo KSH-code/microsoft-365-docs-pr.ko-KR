@@ -21,14 +21,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c03dfef28744e2ee565c25d921902b8d11ecb7a3
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: da726aeaf82f13cef862b105e951f28c9fdf80e3
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53290246"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533054"
 ---
-# <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>위협 분석을 사용하여 새로운 위협 추적 및 대응 
+# <a name="track-and-respond-to-emerging-threats-with-threat-analytics-in-microsoft-365-defender"></a>위협 분석을 사용하여 새로운 위협을 추적하고 Microsoft 365 Defender 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

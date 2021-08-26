@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: a1dfb4ad2cdda501b699423d03e257dbe314976c
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 281700a15ef7f0560a5fa2171653eddc7048011d
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394579"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532898"
 ---
 # <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 
@@ -39,7 +39,7 @@ ms.locfileid: "58394579"
 > 시작하기 전에 사용자의 Azure AD 장치 설정이 **Azure** [AD에](/azure/active-directory/devices/device-management-azure-portal#configure-device-settings) 장치를 가입할 수 있는지 확인합니다. 
 
    ![사용자가 장치를 Azure AD 설정에 가입할 수 있습니다.](../../media/deschutes/azure-device-settings.png)
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 365 Business를 설정하기 위한 라이선스 Windows 없습니다.
 
 최상의 온보드 환경을 제공하려면 설치 [](troubleshoot-windows-365-business.md) 문제 해결 가이드를 참조하여 환경 기본 설정이 Windows 365 Business에 최적화되어 있는지 확인하세요. 
@@ -87,7 +87,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 사용자에게 비즈니스 Windows 따라 서로 다른 365 Business 라이선스 유형을 사용자에게 할당할 수 있습니다. 사용자에게 적합한 라이선스 유형에 대한 지침은 Windows [365 Business](windows-365-business-sizing.md) 크기 조정 옵션을 참조하세요.
 
 > [!IMPORTANT]
-> 테넌트에 Windows 365 라이선스를 처음 할당하면 "CloudPCBPRT"라는 시스템 계정이 테넌트에서 Azure Active Directory. 이 계정을 삭제하지 않습니다. 시스템 계정이 삭제되면 설치가 실패할 수 있습니다. 이 시스템 계정은 원활한 설정 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 테넌트에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 사용자를 삭제하는 경우 지원 중앙을 통해 티켓을 제출합니다.
+> 테넌트에 Windows 365 라이선스가 처음 할당되면 Windows **365 BPRT** 영구 사용자라는 시스템 계정이 Azure Active Directory. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패할 수 있습니다. 이 시스템 계정은 원활한 설정 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 테넌트에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 사용자를 삭제하는 경우 지원 중앙을 통해 티켓을 제출합니다.
 
 ## <a name="get-your-users-started-with-cloud-pc"></a>클라우드 PC 시작
 

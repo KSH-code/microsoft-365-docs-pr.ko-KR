@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1f85e4a517b4af5120e88a76ef9dd46eda3011ec88383c9391bca0faaa2d5edd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fbf9561e214be2180d57b3b4dcd2369061d7a7d6
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532850"
 ---
 # <a name="verify-data-storage-location-and-update-data-retention-settings-for-microsoft-defender-for-endpoint"></a>데이터 저장소 위치 확인 및 끝점용 Microsoft Defender에 대한 데이터 보존 설정 업데이트
 
@@ -43,14 +43,14 @@ ms.locfileid: "53857630"
 설정 [단계 중에는](production-deployment.md)데이터를 저장할 위치를 선택해야 합니다. 
 
 
-끝점 데이터 보존(일반 **아래)으로** 이동하여 설정 위치를  >    >   확인할 수 **있습니다.**
+끝점 데이터 보존(일반 **아래)으로** 이동하여 설정 위치를 \>  \>  확인할 수 **있습니다.**
 
 
 ## <a name="update-data-retention-settings"></a>데이터 보존 설정 업데이트
 
 데이터 보존 설정을 업데이트할 수 있습니다. 기본적으로 보존 기간은 180일입니다. 
 
-1. 탐색 창에서 **끝점 설정** 보존을  >    >   **선택합니다(일반** 아래).
+1. 탐색 창에서 **끝점 설정** 보존을 \>  \>  **선택합니다(일반** 아래).
 
 2. 드롭다운 목록에서 데이터 보존 기간을 선택합니다.
 

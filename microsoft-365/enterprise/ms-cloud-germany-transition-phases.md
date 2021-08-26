@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 93b243f60b485d1dfbcca62219cf510c006fdbbc20fc264b179720f9ad2a9bcc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 51fb2da1bd30a01ed61eef612450feaf5ca4609f
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813033"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532970"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -125,7 +125,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 |---|---|---|
 |구독이 전송됩니다.|도이치클라드 Microsoft 클라우드 구독은 해당 전역 서비스 Office 365 마이그레이션됩니다. <ul><li>이 Office 365 전역 서비스 서비스는 Microsoft(제품 _매핑)에 의해 정의됩니다._</li><li> 해당 Office 365 전역 서비스 구독은 Office 365 Microsoft 클라우드 구독에 대한 전역 인스턴스에서 구매합니다.</li><li>레거시 Microsoft 클라우드 도이치클랜드 구독은 완료 시 Office 365 서비스 테넌트에서 제거됩니다.</li></ul>|<ul><li>이 단계에서는 기존 구독에 대한 변경 사항(예: 새 구독 구매 또는 시트 수 변경 없음)이 차단됩니다.</li><li>라이선스 할당 변경이 차단됩니다.</li><li>구독 마이그레이션이 완료되면 Office 365 서비스와 도이치클라드 Microsoft 클라우드 구독이 모두 Office 365 관리자 Portal에 표시될 수 있으며, 상태는 도이프란드 Microsoft 클라우드 구독의 비프로비전 으로 _표시됩니다._</li><li>도이치클라드 Microsoft 클라우드 구독 또는 SKU GUID에 종속된 모든 고객 프로세스는 손상되어 Office 365 서비스 제공을 통해 수정해야 합니다.</li><li>Office 365 서비스의 새 구독은 새 기간(월별/분기별/년)을 통해 구입하며, 고객은 도이치랜드 Microsoft 클라우드 구독의 미사용 잔액에 대한 비분산 환불을 받게 됩니다.</li></ul>|
 |라이선스 재할당|할당된 Microsoft 클라우드 라이선스가 있는 사용자에게는 Office 365 라이선스가 할당됩니다.|<ul><li>사용자에게 새 Office 365 라이선스가 다시 배정됩니다. 모든 사용자의 사용자 라이선스가 새 기능에 자동으로 할당됩니다.</li><li>Office 365 서비스에서 제공하는 기능(서비스 계획)의 수는 도이치랜드의 원래 Microsoft 클라우드 제품보다 클 수 있습니다. Office 365 서비스의 사용자 라이선스는 유사한 Microsoft 클라우드 도이클란드 기능(서비스 계획)에 동일하게 할당됩니다.</li></ul>|
-|**관리자 작업** 기능 사용 안|관리자는 필요한 경우 해당 기능을 사용하지 않도록 설정하기 위한 명시적 조치를 취해야 합니다.|<ul><li>사용자가 포털에서 알 수 없는 새 서비스를 볼 수 있습니다.</li><li>테넌트 관리자가 사용하지 않도록 설정하지 않은 경우 추가 기능(예: Microsoft Planner 및 Microsoft Flow)을 사용할 수 있습니다.</li></ul> <p> 사용자의 라이선스에 할당된 서비스 계획을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 사용자 라이선스를 할당하는 동안 Microsoft 365 서비스에 대한 액세스 사용 안 하도록 [설정을 참조하세요.](disable-access-to-services-while-assigning-user-licenses.md)</li></ul>|
+|**관리자 작업** 기능 사용 안|관리자는 필요한 경우 해당 기능을 사용하지 않도록 설정하기 위한 명시적 조치를 취해야 합니다.|<ul><li>사용자가 포털에서 알 수 없는 새 서비스를 볼 수 있습니다.</li><li>테넌트 관리자가 사용하지 않도록 설정하지 않은 경우 추가 기능(예: Microsoft Planner 및 Power Automate)을 사용할 수 있습니다.</li></ul> <p> 사용자의 라이선스에 할당된 서비스 계획을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 사용자 라이선스를 할당하는 동안 Microsoft 365 서비스에 대한 액세스 사용 안 하도록 [설정을 참조하세요.](disable-access-to-services-while-assigning-user-licenses.md)</li></ul>|
 |**관리자 작업**|도이치스크란드 Microsoft 클라우드 구독 또는 SKU GUID에 종속된 모든 고객 프로세스를 Office 365 서비스 제공|고객 프로세스는 계속 작동됩니다.|
 |
 
@@ -197,7 +197,7 @@ CNAME이 을(를) autodiscover-outlook.office.de 있는 기존 DNS 항목은 을
 
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같은 가치를 제공해야 합니다.
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예시:
 
 ```powershell
 New-PSSession
@@ -298,7 +298,7 @@ Dynamics 365를 사용 하는 고객은 조직의 Dynamics 조직을 독립적�
 
 |Step(s)|설명|영향|
 |---|---|---|
-|Microsoft Dynamics 리소스|Microsoft Dynamics를 사용할 고객은 Microsoft Dynamics 365를 전역 서비스 인스턴스로 전환하기 위해 Microsoft Engineering 또는 Microsoft FastTrack의 Office 365 것입니다.\*|<ul><li>마이그레이션 후 관리자는 조직의 유효성을 검사합니다.</li><li>관리자는 필요한 경우 워크플로를 수정합니다.</li><li>관리자는 AdminOnly 모드를 적절하게 지워야 합니다.</li><li>관리자는 조직 유형을 샌드박스에서 적절하게 변경합니다. </li><li>최종 사용자에게 새 URL을 알리고 인스턴스(org)에 액세스합니다.</li><li>인바운드 연결을 새 끝점 URL로 업데이트합니다.</li><li>전환 중에 사용자가 Dynamics 서비스를 사용할 수 없습니다.</li><li>사용자는 각 Org를 마이그레이션한 후 해당 상태 및 기능의 유효성을 검사해야 합니다.</li></ul>|
+|Microsoft Dynamics 리소스|Microsoft Dynamics를 사용 하는 고객은 Microsoft Engineering 또는 Microsoft FastTrack Microsoft Dynamics 365를 전역 서비스 Office 365 전환합니다.\*|<ul><li>마이그레이션 후 관리자는 조직의 유효성을 검사합니다.</li><li>관리자는 필요한 경우 워크플로를 수정합니다.</li><li>관리자는 AdminOnly 모드를 적절하게 지워야 합니다.</li><li>관리자는 조직 유형을 샌드박스에서 적절하게 변경합니다. </li><li>최종 사용자에게 새 URL을 알리고 인스턴스(org)에 액세스합니다.</li><li>인바운드 연결을 새 끝점 URL로 업데이트합니다.</li><li>전환 중에 사용자가 Dynamics 서비스를 사용할 수 없습니다.</li><li>사용자는 각 Org를 마이그레이션한 후 해당 상태 및 기능의 유효성을 검사해야 합니다.</li></ul>|
 |
 
 \* (i) Microsoft Dynamics 365를 사용 하는 고객은 제공된 마이그레이션 프로세스에 정의된 이 마이그레이션 시나리오에서 조치를 취해야 합니다. (ii) 고객이 조치를 취하지 못하면 Microsoft가 마이그레이션을 완료할 수 없습니다. (iii) 고객의 비활성으로 인해 Microsoft가 마이그레이션을 완료할 수 없는 경우 고객의 구독은 2021년 10월 29일에 만료됩니다.
@@ -313,7 +313,7 @@ Dynamics 365를 사용 하는 고객은 조직의 Dynamics 조직을 독립적�
 
 |Step(s)|설명|영향|
 |---|---|---|
-|리소스 Power BI 마이그레이션|Microsoft PBI(Power BI)를 사용하는 고객은 기존 PBI 마이그레이션 도구를 수동으로 트리거하여 Power BI 글로벌 서비스 인스턴스로 전환한 후 Microsoft Engineering 또는 Microsoft FastTrack에서 Office 365 됩니다.\*\*|<ul><li>다음 Power BI 항목이 전환되지 않는 경우 다시 만들어야 합니다. < </li><li>실시간 데이터 집합(예: 데이터 집합 스트리밍 또는 푸시)</li><li>Power BI 게이트웨이 구성 및 데이터 원본을 저장합니다.</li><li>실시간 데이터 집합을 토대하여 작성된 보고서는 마이그레이션 후에 사용할 수 없습니다. 다시 만들어야 합니다.</li><li>Power BI 동안 사용자가 서비스를 사용할 수 없습니다. 서비스를 사용할 수 없는 시간은 24시간을 넘지 말아야 합니다.</li><li>사용자는 마이그레이션 후 데이터 원본 및 해당 사내 데이터 게이트웨이를 Power BI 구성해야 합니다.  이렇게 할 때까지 사용자는 이러한 데이터 원본을 사용하여 이러한 데이터 원본에 대해 예약된 새로 고침 및/또는 직접 쿼리를 수행할 수 없습니다.</li><li>용량 및 고급 작업 영역은 마이그레이션할 수 없습니다. 고객은 마이그레이션 전에 모든 용량을 삭제하고 마이그레이션 후 다시 만들어야 합니다. 작업 영역이 원하는 용량으로 다시 이동됩니다.</li></ul>|
+|리소스 Power BI 마이그레이션|Microsoft PBI(Power BI)를 사용하는 고객은 기존 PBI 마이그레이션 도구를 FastTrack Microsoft Engineering 또는 Microsoft Power BI Office 365 글로벌 서비스 인스턴스로 전환합니다.\*\*|<ul><li>다음 Power BI 항목이 전환되지 않는 경우 다시 만들어야 합니다. < </li><li>실시간 데이터 집합(예: 데이터 집합 스트리밍 또는 푸시)</li><li>Power BI 게이트웨이 구성 및 데이터 원본을 저장합니다.</li><li>실시간 데이터 집합을 토대하여 작성된 보고서는 마이그레이션 후에 사용할 수 없습니다. 다시 만들어야 합니다.</li><li>Power BI 동안 사용자가 서비스를 사용할 수 없습니다. 서비스를 사용할 수 없는 시간은 24시간을 넘지 말아야 합니다.</li><li>사용자는 마이그레이션 후 데이터 원본 및 해당 사내 데이터 게이트웨이를 Power BI 구성해야 합니다.  이렇게 할 때까지 사용자는 이러한 데이터 원본을 사용하여 이러한 데이터 원본에 대해 예약된 새로 고침 및/또는 직접 쿼리를 수행할 수 없습니다.</li><li>용량 및 고급 작업 영역은 마이그레이션할 수 없습니다. 고객은 마이그레이션 전에 모든 용량을 삭제하고 마이그레이션 후 다시 만들어야 합니다. 작업 영역이 원하는 용량으로 다시 이동됩니다.</li></ul>|
 |
 
 \*\*(i) Microsoft Power BI 고객은 제공된 마이그레이션 프로세스에 정의된 이 마이그레이션 시나리오에서 조치를 취해야 합니다. (ii) 고객이 조치를 취하지 못하면 Microsoft가 마이그레이션을 완료할 수 없습니다. (iii) 고객의 비활성으로 인해 Microsoft가 마이그레이션을 완료할 수 없는 경우 고객의 구독은 2021년 10월 29일에 만료됩니다.

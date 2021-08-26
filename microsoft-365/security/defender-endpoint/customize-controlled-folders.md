@@ -15,12 +15,12 @@ manager: dansimp
 ms.date: 05/10/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: de715a0b19b708932f6094a02561e414e2758ea643d5cdeb84f35ff5c520ed4e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 24e144b6134c4d32b15220ed3b3608b3b4a1c1df
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533090"
 ---
 # <a name="customize-controlled-folder-access"></a>제어된 폴더 액세스 사용자 지정
 
@@ -71,9 +71,9 @@ Windows 보안, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관리 
 
 2. 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집 **을 선택합니다.**
 
-3. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성** 정책 관리  >    >  **템플릿으로 이동하십시오.**
+3. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성** 정책 관리 \>  \> **템플릿으로 이동하십시오.**
 
-4. Exploit Guard **제어된 폴더 Windows Microsoft Defender 바이러스 백신** Windows Defender 구성 요소를  >    >    >  **확장합니다.** <br/>**참고:** 이전 버전의 Windows 에 를 표시하지 않고 Windows Defender 바이러스 백신 수 **Microsoft Defender 바이러스 백신.** 
+4. Exploit Guard **제어된 폴더 Windows Microsoft Defender 바이러스 백신** Windows Defender 구성 요소를 \>  \>  \> **확장합니다.** <br/>**참고:** 이전 버전의 Windows 에 를 표시하지 않고 Windows Defender 바이러스 백신 수 **Microsoft Defender 바이러스 백신.** 
 
 5. 보호된 폴더 구성을 두 번 **클릭한** 다음 옵션을 사용으로 **설정합니다.** **표시를** 선택하고 보호할 각 폴더를 지정합니다.
 
@@ -128,7 +128,7 @@ Windows 보안, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관리 
 
 2. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-3. Exploit Guard **제어된 폴더 Windows Microsoft Defender 바이러스 백신** Windows Defender 구성 요소를  >    >    >  **확장합니다.**
+3. Exploit Guard **제어된 폴더 Windows Microsoft Defender 바이러스 백신** Windows Defender 구성 요소를 \>  \>  \> **확장합니다.**
 
 4. 허용되는 응용 프로그램 **구성 설정을 두** 번 클릭하고 옵션을 사용으로 **설정합니다.** 표시를 **선택하고** 각 앱을 입력합니다.
 

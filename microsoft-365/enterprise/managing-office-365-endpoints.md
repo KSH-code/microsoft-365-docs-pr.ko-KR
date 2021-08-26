@@ -18,12 +18,12 @@ ms.custom:
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
 description: 엔터프라이즈 조직 네트워크 Office 365 작동할 수 있도록 끝점을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 4c6f291627fc3b0b24f53ef3dd11698dba7d1fa4958886dd8f70ce7f34ccb9e2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6a8460dbc9dbbc8b7b7a5a8e720b8c55c0ed918c
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870565"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532658"
 ---
 # <a name="managing-office-365-endpoints"></a>Office 365 끝점 관리
 
@@ -111,11 +111,11 @@ Office 365 IP 주소 및 URL 웹 서비스를 사용하여 변경 알림을 받�
 
 Office 365 IP 주소 및 URL 웹 서비스는 Outlook에서 구독할 수 있는 RSS 피드를 제공합니다. IP 주소 및 URL에 대한 각 Office 365 서비스 인스턴스 별 페이지의 RSS URL 링크가 있습니다. 자세한 내용은 [Office 365 IP 주소 및 URL 웹 서비스](microsoft-365-ip-web-service.md)를 참조하세요.
 
-### <a name="change-notification-and-approval-review-using-microsoft-flow"></a>Microsoft Flow를 사용하여 알림 및 승인 검토 변경
+### <a name="change-notification-and-approval-review-using-power-automate"></a>다음을 사용하여 알림 및 승인 검토 Power Automate
 
-매월 제공되는 네트워크 끝점 변경에 대해 수동 처리가 필요할 수도 있음을 알고 있습니다. Microsoft Flow를 사용하여 전자 메일로 알리고 Office 365 네트워크 끝점에 변경 사항이 있는 경우 승인 프로세스를 선택적으로 실행하는 흐름을 만들 수 있습니다. 검토가 완료되면 흐름에서 방화벽 및 프록시 서버 관리 팀에 자동으로 변경 내용을 전자 메일로 보낼 수 있습니다.
+매월 제공되는 네트워크 끝점 변경에 대해 수동 처리가 필요할 수도 있음을 알고 있습니다. 네트워크 Power Automate 변경 내용을 전자 메일로 알림하는 흐름을 만들 수 있으며, 필요한 경우 네트워크 끝점이 변경될 때 변경에 대한 승인 Office 365 수 있습니다. 검토가 완료되면 흐름에서 방화벽 및 프록시 서버 관리 팀에 자동으로 변경 내용을 전자 메일로 보낼 수 있습니다.
 
-Microsoft Flow 샘플 및 서식 파일에 대한 자세한 내용은 [Microsoft Flow 사용하여 Office 365 IP 주소 및 URL 변경 내용에 대한 전자 메일 받기](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/td-p/240651)를 참조하세요.
+샘플 및 Power Automate 대한 자세한 내용은 Power Automate IP 주소 및 URL에 대한 변경 내용에 대한 전자 [Office 365 받기를 참조하세요.](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/td-p/240651)
   
 <a name="FAQ"> </a>
 ## <a name="office-365-network-endpoints-faq"></a>Office 365 네트워크 끝점 FAQ

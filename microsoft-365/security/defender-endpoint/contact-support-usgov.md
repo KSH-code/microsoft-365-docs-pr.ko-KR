@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 93f84b6e65928dd2ff1e13a2d7474c4942ce4190a98eeb1e6daeb5e67e7bf944
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e7adb4e306a5e76b4d135017f5f8a3d7b94c3c61
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904050"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531710"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support-for-us-government-customers"></a>미국 정부 고객에 대한 끝점 지원에 대해 Microsoft Defender에 문의
 
@@ -35,16 +35,18 @@ ms.locfileid: "53904050"
 Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 지원 프로세스를 최근에 업그레이드했습니다.
 
 ## <a name="using-the-right-portal"></a>올바른 포털 사용
+
 지원 사례를 열기 위해서는 끝점용 Microsoft Defender 포털에 로그인해야 합니다.
 
-환경 | 포털 URL
-:---|:---
-GCC-M on Commercial | [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com)
-GCC-M | [https://gcc.securitycenter.microsoft.us](https://gcc.securitycenter.microsoft.us)
-GCC-H | [https://securitycenter.microsoft.us](https://securitycenter.microsoft.us)
-DoD | [https://securitycenter.microsoft.us](https://securitycenter.microsoft.us)
+환경|포털 URL
+---|---
+GCC-M on Commercial|<https://securitycenter.microsoft.com>
+GCC-M|<https://gcc.securitycenter.microsoft.us>
+GCC-H|<https://securitycenter.microsoft.us>
+DoD|<https://securitycenter.microsoft.us>
 
 포털에 로그인할 수 없는 경우 전화를 사용하여 지원 사례를 열 수 [있습니다.](../../business-video/get-help-support.md)
 
 ## <a name="opening-a-support-case"></a>지원 사례 열기
+
 선행 단계 및 지침은 [끝점 지원에 대해 Microsoft Defender에 문의를 참조하세요.](contact-support.md)

@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: c5722a0261a0e336b5d6e6b2f5a0e3bb0c21f2b6
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.openlocfilehash: e09bcee08051663191a12c4e2916d7d6512eb514
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365024"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533234"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비  
  
@@ -74,29 +74,32 @@ LAN 프로필을 내보낼 때 다음 단계를 수행하여 Microsoft Managed D
     - OMA-URI(대/중문자): *./Device/Vendor/MSFT/WiredNetwork/LanXML 입력*
     - 데이터 형식: **문자열(XML 파일)을 선택합니다.** 
     - 사용자 지정 XML: 업로드 XML 파일을 저장합니다.
-2. Microsoft Managed Desktop 관리 포털을 사용하여 Microsoft Managed Desktop IT Microsoft Managed Desktop 제출하여 구성 프로필을 검토하고 "최신 작업 공간 장치 - 테스트"에 배포합니다. Microsoft Managed Desktop IT 운영을 통해 관리 포털의 지원 요청을 통해 요청이 완료된 경우를 알 수 있습니다.
+2. 사용자 지정 프로필을 최신 작업 공간 *장치 – 테스트 그룹에 할당합니다.*
+3. 테스트 배포 그룹에 있는 장치를 사용하여 필요한 것으로 생각되는 테스트를 수행하세요. 성공하면 사용자 지정 프로필을 최신 작업 공간 *장치(첫* 번째, 최신 작업 공간 장치 *-* 빠른 장치 및 최신 작업 공간 *장치) 광범위한 그룹에 할당합니다.*
  
 ## <a name="deploy-certificates-and-wi-fivpn-profile"></a>인증서 및 Wi-Fi/VPN 프로필 배포 
  
  
 인증서 및 프로필을 배포하려면 다음 단계를 수행합니다.
 
-1. 각 루트 및 중간 인증서에 대한 프로필을 만들 수 있습니다(신뢰할 수 있는 인증서 프로필 [만들기 참조).](/intune/protect/certificates-configure#step-3-create-trusted-certificate-profiles) 이러한 각 프로필에는 만료 날짜가 DD/MM/YYYY 형식으로 포함된 설명이 있어야 합니다. **만료 날짜가 없는 인증서 프로필은 배포되지 않습니다.**
-2. 각 SCEP 또는 PKCS 인증서에 대한 프로필 [만들기(SCEP](/intune/protect/certificates-scep-configure#create-a-scep-certificate-profile) 인증서 프로필 만들기 또는 [PKCS](/intune/protect/certficates-pfx-configure#create-a-pkcs-certificate-profile)인증서 프로필 만들기 참조) 이러한 각 프로필에는 만료 날짜가 DD/MM/YYYY 형식으로 포함된 설명이 있어야 합니다. **만료 날짜가 없는 인증서 프로필은 배포되지 않습니다.**
+1. 각 루트 및 중간 인증서에 대한 프로필을 만들 수 있습니다(신뢰할 수 있는 인증서 프로필 [만들기 참조).](/intune/protect/certificates-configure#step-3-create-trusted-certificate-profiles) 이러한 각 프로필에는 만료 날짜가 DD/MM/YYYY 형식으로 포함된 설명이 있어야 합니다. **인증서 프로필에는 만료 날짜가 있어야 합니다.**
+2. 각 SCEP 또는 PKCS 인증서에 대한 프로필 [만들기(SCEP](/intune/protect/certificates-scep-configure#create-a-scep-certificate-profile) 인증서 프로필 만들기 또는 [PKCS](/intune/protect/certficates-pfx-configure#create-a-pkcs-certificate-profile)인증서 프로필 만들기 참조) 이러한 각 프로필에는 만료 날짜가 DD/MM/YYYY 형식으로 포함된 설명이 있어야 합니다. **인증서 프로필에는 만료 날짜가 있어야 합니다.**
 3. 각 회사 WiFi 네트워크에 대한 프로필을 만들 수 있습니다(Windows 10 [장치용 Wi-Fi 설정](/intune/wi-fi-settings-windows)참조).
 4. 각 회사 VPN에 대한 프로필을 [생성합니다(Intune을](/intune/vpn-settings-windows-10)사용하여 VPN 연결을 Windows 10 Windows 홀로그램 장치 설정 참조).
-5. Microsoft Managed Desktop 관리 포털을 사용하여 "인증서 배포" 또는 "Wi-Microsoft Managed Desktop Fi 프로필 배포"라는 지원 요청을 제출하여 Microsoft Managed Desktop 관리 포털을 사용하여 "최신 작업 공간 장치 - 테스트"에 구성 프로필을 검토하고 배포합니다. Microsoft Managed Desktop IT 작업을 통해 관리 포털의 지원 요청을 통해 요청이 완료된 경우를 알 수 있습니다. 
+5. 최신 작업 공간 장치 – 테스트 그룹에 *프로필을 할당합니다.*
+6. 테스트 배포 그룹에 있는 장치를 사용하여 필요한 것으로 생각되는 테스트를 수행하세요. 성공하면 사용자 지정 프로필을 최신 작업 공간 *장치(첫* 번째, 최신 작업 공간 장치 *-* 빠른 장치 및 최신 작업 공간 *장치) 광범위한 그룹에 할당합니다.*
+
  
 ## <a name="steps-to-get-ready-for-microsoft-managed-desktop"></a>준비 단계 Microsoft Managed Desktop
 
 1. [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)를 감토하세요.
-2. 준비 [평가 도구를 실행합니다.](readiness-assessment-tool.md)
-1. 에서 [회사 포털](../get-started/company-portal.md)구입합니다.
-1. 게스트 [계정의 선행 준비를 검토합니다.](guest-accounts.md)
-1. 네트워크 [구성을 확인합니다.](network.md)
+2. [준비 상태 평가 도구](readiness-assessment-tool.md)를 실행하세요.
+1. [회사 포털](../get-started/company-portal.md)을 구입하세요.
+1. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)를 검토합니다.
+1. [네트워크 구성](network.md)을 확인합니다.
 1. 인증서 및 네트워크 프로필을 준비합니다(이 문서).
-1. [데이터에 대한 사용자 액세스를 준비합니다.](authentication.md)
-1. [앱 준비](apps.md).
-1. [매핑된 드라이브를 준비합니다.](mapped-drives.md)
-1. [인쇄 리소스 준비.](printing.md)
-1. 주소 [장치 이름 입니다.](address-device-names.md)
+1. [데이터에 대한 사용자 액세스를 준비](authentication.md)합니다.
+1. [앱을 준비](apps.md)합니다.
+1. [매핑된 드라이브를 준비](mapped-drives.md)합니다.
+1. [인쇄 리소스를 준비](printing.md)합니다.
+1. [장치 이름](address-device-names.md)을 기입합니다.

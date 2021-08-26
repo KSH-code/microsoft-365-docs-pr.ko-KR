@@ -13,18 +13,22 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Microsoft 365, 목록, SharePoint 및 SharePoint Syntex 솔루션으로 계약을 Microsoft Teams 방법을 Power Automate.
-ms.openlocfilehash: 9a80a97ad87d407e6b0cb56fae99712b0f3b403c416fcfa67c57d4f2c9e0236d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d890305912c8b86065a89dac1b7da8f797604405
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813455"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533378"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Microsoft 365 솔루션을 사용하여 계약 관리
 
 이 문서에서는 조직의 구성 요소 및 구성 요소를 사용하여 조직에 SharePoint Syntex 관리 솔루션을 만드는 Microsoft 365. 또한 고유한 비즈니스 요구에 맞는 솔루션을 계획하고 만드는 데 도움이 되는 프레임워크를 제공합니다. 이 솔루션이 계약 관리에 대해 설명하는 경우에도 작업 또는 송장의 설명과 같은 다른 문서 관리 솔루션을 만들 수 있습니다.
 
-*이 콘텐츠 집합은 Microsoft의 최신 Microsoft 365 솔루션 전략 팀과 함께 Thomas Molbach가 개발한 새로운 솔루션에 대해 문서화합니다.*
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWJUR0]
+
+</br>
 
 ## <a name="identify-the-business-problem"></a>비즈니스 문제 식별
 
@@ -82,10 +86,16 @@ ms.locfileid: "53813455"
 - Microsoft Teams
 - Power Automate
 
+### <a name="learn-how-to-use-sharepoint-syntex"></a>사용 방법을 SharePoint Syntex
+
+새 SharePoint Syntex? AI를 사용하여 콘텐츠를 SharePoint Syntex 방법을 알아보겠습니다.
+
+시작 [SharePoint Syntex](/learn/paths/syntex-get-started) 학습 경로에서는 문서 이해 및 양식 처리 모델을 사용하여 문서를 분류하고 텍스트를 추출하고 문서에 레이블을 지정하여 빠르고 쉬운 지식 관리를 하는 방법을 배울 수 있습니다.
+
 ## <a name="create-the-solution"></a>솔루션 만들기
 
 다음 섹션에서는 계약 관리 솔루션을 구성하는 방법에 대해 자세히 설명합니다. 이 단계는 다음 세 단계로 나뉘어 있습니다.
 
 - [1단계. 사용자 SharePoint Syntex 사용하여 계약 파일을 식별하고 데이터 추출](solution-manage-contracts-step1.md)
 - [2단계. 이 Microsoft Teams 사용하여 계약 관리 채널 만들기](solution-manage-contracts-step2.md)
-- [3단계. 이 Power Automate 사용하여 계약 처리 흐름 만들기](solution-manage-contracts-step3.md)
+- [3단계. 이 Power Automate 사용하여 계약을 처리하기 위한 흐름 만들기](solution-manage-contracts-step3.md)

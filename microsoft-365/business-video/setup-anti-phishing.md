@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 피싱 방지 보호를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 71acaf070ea121db93947423e9824ae93d90b53c3ccbd3cc47e57df23a92a40f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 91d8db572bff73fca5515e224c96201260f8855c
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887518"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531494"
 ---
 # <a name="set-up-anti-phishing"></a>피싱 방지 설정
 
@@ -36,16 +36,13 @@ ms.locfileid: "53887518"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. 관리 센터 에서 [https://admin.microsoft.com](https://admin.microsoft.com) 보안, **위협** 관리, 정책, ATP 피싱 방지 **를 선택합니다.** 
+1. 관리 센터 에서 보안, 정책 정책 및 [https://admin.microsoft.com](https://admin.microsoft.com) &, 위협 **정책,** 피싱 방지 **를 선택합니다.** 
 1. 기본 정책을 선택하여 구체화합니다. 
-1. 가장 **섹션에서** 편집을 **선택합니다.**
-1. 보호할 **도메인 추가로** 이동하여 소유한 도메인을 자동으로 포함하려면 토글을 선택합니다.
-1. 작업으로 **이동하여** 드롭다운을 열고 가장된 사용자가 전자 메일을 보낸 경우 **를** 선택하고 원하는 작업을 선택하십시오.
-
-    Open the drop-down **If email is sent by an impersonated domain** and choose the action you want.
-1. 가장 보안 팁 **켜기 를 선택합니다.** 시스템에서 가장된 사용자, 도메인 또는 비정상적인 문자를 감지할 때 사용자에게 팁을 제공해야 하는지 여부를 선택하십시오. **저장** 을 선택합니다.
-1. 사서함 **인텔리전스를** 선택하고 설정되어 있는지 확인해야 합니다. 이렇게 하면 사용 패턴을 학습하여 전자 메일의 효율성을 향상할 수 있습니다.
+1. 피싱 **임계값 & 보호 섹션에서** 보호 설정 **편집을 선택합니다.**
+1. 도메인을 **보호하려면** 도메인 사용 을 선택하고 소유한 도메인 포함  및 사용자 지정 도메인 포함을 선택한 다음 사용자 지정 도메인 관리를 선택하여 도메인을 추가합니다. 
 1. 신뢰할 **수 있는 보낸 사람 및 도메인 추가를 선택 합니다.** 여기서는 가장으로 분류되지 않는 전자 메일 주소 또는 도메인을 추가할 수 있습니다.
-1. Choose **Review your settings**, make sure everything is correct, select **Save**, then **Close**.
+1. 사서함 **인텔리전스** 사용 **및** 가장 보호를 위한 인텔리전스 사용 을 선택하면 각 사용자의 개별 보낸 사람 맵에 따라 향상된 가장 결과를 사용할 수 있습니다.
+1. **스푸핑 인텔리전스** 사용 을 선택하여 도메인을 스푸핑하는 보낸 사람이 보낸 전자 메일을 필터링하는 방법을 선택합니다.
+1. **저장** 을 선택한 다음 **닫기** 를 선택합니다.
 
     이제 조직에서 피싱 위협으로부터 더 나은 보호를 제공합니다.

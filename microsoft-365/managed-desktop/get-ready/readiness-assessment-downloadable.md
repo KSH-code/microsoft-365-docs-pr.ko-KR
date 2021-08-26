@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 8ddc078e2d62881706c4e78d269268373c7e5fef9f25df3980ff411517f2b056
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ba233cf780ad428a9ecfdb6c4a3466b4ec4282da
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53869922"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533366"
 ---
 # <a name="downloadable-readiness-assessment-checker"></a>다운로드 가능한 준비 평가 검사
 
@@ -53,7 +53,7 @@ ms.locfileid: "53869922"
 
 ### <a name="hardware"></a>하드웨어
 
-디바이스에서 작동하려면 특정 하드웨어 요구 사항을 충족해야 Microsoft Managed Desktop. 현재는 승인된 특정 [장치만](../service-description/device-list.md) 등록할 수 있습니다. 
+디바이스에서 작동하려면 특정 하드웨어 요구 사항을 충족해야 Microsoft Managed Desktop. 자세한 내용은 장치 요구 [사항을 참조하세요.](../service-description/device-list.md)
 
 장치가 검사에 실패하면 장치와 호환되지 Microsoft Managed Desktop.
 

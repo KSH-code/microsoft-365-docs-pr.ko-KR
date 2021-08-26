@@ -19,12 +19,12 @@ hideEdit: true
 feedback_system: None
 recommendations: false
 description: DLP 정책에 사용할 수 있는 200가지 중요한 정보 유형이 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다.
-ms.openlocfilehash: 3103940cdf3ead5e513e21a9328e85dd07409f46
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 1a883c1ac31e61ef5aa24fbeca65f27f87fa3467
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532886"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -8831,39 +8831,39 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ICD-Dictionary_icd_9_codes 국제질병 [분류, 9번째 수정, ICD-9-CM(예방 수정)을](https://go.microsoft.com/fwlink/?linkid=852605)기반으로 하는 키워드 사전의 용어입니다. 이 유형은 설명이 아닌 보험 코드만 됩니다.
 
-<!-- ## IP address
+## <a name="ip-address"></a>IP 주소
 
-### Format
+### <a name="format"></a>형식
 
-#### IPv4:
-Complex pattern that accounts for formatted (periods) and unformatted (no periods) versions of the IPv4 addresses
+#### <a name="ipv4"></a>IPv4:
+IPv4 주소의 서식 있는(기간) 및 서식 없는 버전(기간 없음)을 계정으로 표시하는 복잡한 패턴
 
-#### IPv6:
-Complex pattern that accounts for formatted IPv6 numbers (which include colons)
+#### <a name="ipv6"></a>IPv6:
+서식이 있는 IPv6 번호(콜론 포함)를 계정을 표시하는 복잡한 패턴
 
-### Pattern
+### <a name="pattern"></a>패턴
 
-### Checksum
+### <a name="checksum"></a>체크섬
 
-No
+아니요
 
-### Definition
+### <a name="definition"></a>정의
 
-For IPv6, a DLP policy has high confidence that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_ipv6_address finds content that matches the pattern.
-- No keyword from Keyword_ipaddress is found.
+IPv6의 경우 DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- Regex_ipv6_address 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- Keyword_ipaddress의 키워드가 발견되지 않았습니다.
 
-For IPv4, a DLP policy has high confidence that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_ipv4_address finds content that matches the pattern.
-- A keyword from Keyword_ipaddress is found.
+IPv4의 경우 DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- Regex_ipv4_address 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- Keyword_ipaddress의 키워드가 발견되었습니다.
 
-For IPv6, a DLP policy has high confidence that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_ipv6_address finds content that matches the pattern.
-- No keyword from Keyword_ipaddress is found.
+IPv6의 경우 DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- Regex_ipv6_address 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- Keyword_ipaddress의 키워드가 발견되지 않았습니다.
 
 ```xml
     <!-- IP Address --> 
-<!--    <Entity id="1daa4ad5-e2dd-4ca4-a788-54722c09efb2" patternsProximity="300" recommendedConfidence="85">
+    <Entity id="1daa4ad5-e2dd-4ca4-a788-54722c09efb2" patternsProximity="300" recommendedConfidence="85">
       <Pattern confidenceLevel="85">
         <IdMatch idRef="Regex_ipv6_address" />
         <Any minMatches="0" maxMatches="0">
@@ -8885,16 +8885,15 @@ For IPv6, a DLP policy has high confidence that it's detected this type of sensi
     </Entity>
 ```
 
-### Keywords
+### <a name="keywords"></a>키워드
 
-#### Keyword_ipaddress
+#### <a name="keyword_ipaddress"></a>Keyword_ipaddress
 
-- IP (this keyword is case-sensitive)
+- IP(이 키워드는 대소문자 구분)
 - ip address
 - ip addresses
 - internet protocol
-- IP-כתובת ה
- -->
+- IP-כתובת ה -->
 
 ## <a name="ireland-drivers-license-number"></a>아일랜드 운전 면허 번호
 

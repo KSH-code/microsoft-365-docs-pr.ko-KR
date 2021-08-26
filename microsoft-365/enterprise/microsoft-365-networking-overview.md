@@ -17,14 +17,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: SaaS 서비스에 네트워크 최적화가 중요한 이유, Microsoft 365 네트워킹의 목표 및 SaaS가 다른 워크로드와 다른 네트워킹을 요구하는 방법에 대해 논의합니다.
-ms.openlocfilehash: 8c1d4b3f661cc10723b9419687ed5f5acbefeb8dedb39963992290ecba289aec
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ce9b7f7f8011e0d0b12d9b0524cf540948f7aab8
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904938"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533162"
 ---
-# <a name="microsoft-365-network-connectivity-overview"></a>Microsoft 365 네트워크 연결 개요
+# <a name="microsoft-365-network-connectivity-overview"></a>Microsoft 365 연결 개요
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
@@ -57,7 +57,7 @@ Microsoft 365 다양한 마이크로 서비스 및 응용 프로그램을 통해
 네트워크 트래픽을 보다 쉽게 식별하고 Microsoft 365 쉽게 관리할 수 있도록 지원하고 있습니다.
 
 - 인터넷 대기 시간의 영향을 들이지 않는 네트워크 트래픽과 매우 중요한 네트워크 트래픽을 구분하기 위해 새로운 범주의 네트워크 끝점입니다. 가장 중요한 "최적화" 범주에는 소수의 URL과 지원 IP 주소가 있습니다.
-- 스크립트 사용 또는 직접 장치 구성 및 네트워크 식별 변경 관리를 위한 Microsoft 365 서비스입니다. 변경 내용은 웹 서비스 또는 RSS 형식 또는 전자 메일에서 사용할 수 Microsoft Flow 있습니다.
+- 스크립트 사용 또는 직접 장치 구성 및 네트워크 식별 변경 관리를 위한 Microsoft 365 서비스입니다. 변경 내용은 웹 서비스 또는 RSS 형식 또는 전자 메일에서 사용할 수 Power Automate 있습니다.
 - [Office 365](./microsoft-365-networking-partner-program.md) 연결 원칙을 따르고 간단한 구성을 가지는 장치 또는 서비스를 Microsoft 365 Microsoft 파트너와 네트워크 파트너 프로그램을 구성합니다.
 
 ## <a name="securing-microsoft-365-connections"></a>연결 Microsoft 365 보안
@@ -95,7 +95,7 @@ Microsoft 365 및 암호화된 네트워크 연결을 사용하여 성능을 최
 
 네트워크 Microsoft 365 최적화를 수행하면 불필요한 단점을 제거할 수 있습니다. 이러한 Microsoft 365 트러스트된 트래픽으로 처리하면 패킷 검사 및 프록시 대역폭 경쟁으로 인해 대기 시간이 도입되지 않도록 할 수 있습니다. 클라이언트 컴퓨터와 Office 365 로컬 연결을 허용하면 트래픽을 Microsoft 전역 네트워크를 통해 동적으로 라우팅할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365 네트워크 연결 원칙](microsoft-365-network-connectivity-principles.md)
 

@@ -19,12 +19,12 @@ search.appverid:
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e0d5803560ea965e222669027be30860d8a17328b2d097705dabe9bb88e5c42c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1711ce8154afb976ce89ac7760f5bec9afca7292
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "57036680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532574"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -39,7 +39,7 @@ ms.locfileid: "57036680"
 
 - SharePoint Online, 비즈니스용 OneDrive 및 전송 중인 전자 메일에서 개인 데이터를 모니터링하기 위해서는 Microsoft 365 데이터 손실 방지 보고서로 시작합니다. 이러한 보고서는 개인 데이터 모니터링에 대한 가장 자세한 정보를 제공합니다. 그렇지만 이러한 보고서에 Office 365의 모든 서비스가 포함되어 있지는 않습니다.
 
-- 다음으로, 경고 정책 및 감사 로그를 사용하여 서비스의 활동을 모니터링합니다. 지속적인 모니터링을 설정하거나 감사 로그를 검색하여 사고를 조사합니다. 감사 로그는 Sway, PowerBI, eDiscovery, Dynamics 365, Microsoft Flow, Microsoft Teams, 관리 활동, 비즈니스용 OneDrive, SharePoint Online, 전송 중인 메일 및 휴지 상태의 사서함을 비롯한 서비스에서 작동합니다. 휴지 상태의 사서함에는 Skype 대화가 포함됩니다.
+- 다음으로, 경고 정책 및 감사 로그를 사용하여 서비스의 활동을 모니터링합니다. 지속적인 모니터링을 설정하거나 감사 로그를 검색하여 사고를 조사합니다. 감사 로그는 Sway, PowerBI, eDiscovery, Dynamics 365, Power Automate, Microsoft Teams, 관리 활동, 비즈니스용 OneDrive, SharePoint Online, 전송 중인 메일 및 휴지 상태의 사서함을 비롯한 서비스에서 작동합니다. 휴지 상태의 사서함에는 Skype 대화가 포함됩니다.
 
 - 마지막으로 Microsoft Cloud App Security를 사용하여 다른 SaaS 공급자의 중요한 데이터가 포함된 파일을 모니터링합니다. 머지 않아 Azure Information Protection 및 Office(Cloud App Security 포함)에서 중요한 정보 유형 및 통합된 레이블을 사용하는 기능이 제공될 예정입니다. 모든 SaaS 앱 또는 특정 앱(예: Box)에 적용되는 정책을 설정할 수 있습니다. Cloud App Security는 전자 메일에 첨부된 파일을 포함하는 Exchange Online의 파일을 검색하지 않습니다.
 
