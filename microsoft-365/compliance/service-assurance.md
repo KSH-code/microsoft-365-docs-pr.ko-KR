@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 타사 감사를 다운로드하고, Microsoft가 고객 데이터를 안전하게 유지하는 방법을 찾고, 타사 감사를 사용할 때 ISO, HIPAA, FINRA 및 FedRAMP를 준수하는 방법을 Office 365.
-ms.openlocfilehash: 6d0c80389364279425e8539fd9c065d34776692e9e4d189cb2105e0e078027ef
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a6e6de646df2048d880ce099a90c793d11aaff89
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53841600"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568976"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 및 준수 센터의 서비스 보증
 
@@ -73,7 +73,7 @@ ms.locfileid: "53841600"
   
 - **다음 스크린샷과** 같이 문서를 신뢰하여 Microsoft가 Office 365 방법에 대한 정보를 볼 수 있습니다. 
     
-    ![서비스 보증 페이지 표시: Microsoft에서 제공하는 문서 신뢰](../media/5dd4e89a-25a2-45e7-8d6c-a5c5b9237327.png)
+    ![서비스 보증 페이지를 표시: Microsoft에서 제공하는 문서를 신뢰합니다.](../media/5dd4e89a-25a2-45e7-8d6c-a5c5b9237327.png)
   
 - **다음 스크린샷에** 표시된 Office 365 컨트롤이 보안, 규정 준수 및 개인 정보 요구 사항을 충족하는 방법에 대한 정보를 보기 위한 감사 컨트롤 
     

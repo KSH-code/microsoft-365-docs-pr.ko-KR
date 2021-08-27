@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 5604a6021150a7de4b287d91064c60f55be92500
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.openlocfilehash: ff26c2f6f219db066b4be00e6d97e8d4e4e4babc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360098"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568988"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -116,7 +116,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 - **파일 및 전자 메일에 자동으로 레이블을 적용하거나 레이블을 추천합니다.** 레이블을 지정할 중요한 정보를 식별하는 방법을 선택하고 레이블을 자동으로 적용하거나 사용자에게 권장하는 레이블을 적용하도록 요청할 수 있습니다. 레이블을 권장하면 선택한 텍스트가 프롬프트에 표시됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
     
-    ![필수 레이블 할당 메시지](../media/Sensitivity-label-Prompt-for-required-label.png)
+    ![필수 레이블을 할당하라는 메시지가 표시됩니다.](../media/Sensitivity-label-Prompt-for-required-label.png)
     
     민감도 레이블을 만들거나 편집할 때 **파일 및 전자 메일에 대한 자동 레이블 지정** 설Office 앱의 [콘텐츠에 민감도 레이블을 자동으로 적용](apply-sensitivity-label-automatically.md)하고 [Azure Purview에서 자동으로 데이터 레이블 지정](/azure/purview/create-sensitivity-label)을 참조하세요.
 
@@ -189,13 +189,13 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 - **레이블을 변경하는 데 사유 요구.** 사용자가 레이블을 제거하거나 번호 순서가 낮은 레이블로 바꾸려고 하면 이 작업을 수행할 사유를 제공하도록 요구할 수 있습니다. 예를 들어, 사용자는 Confidential(주문 번호 3)이라는 문서를 열고 해당 레이블을 Public (주문 번호 1)이라는 이름으로 대체합니다. Office 앱의 경우 기본 제공 레이블 지정을 사용할 때 앱 세션당 한 번씩, 그리고 Azure Information Protection 통합 레이블 지정을 사용할 때 파일당 한 번씩 사유 메시지 표시가 트리거됩니다. 관리자는 [활동 탐색기](data-classification-activity-explorer.md)에서 레이블 변경 사항과 함께 근거 사유를 함께 확인할 수 있습니다.
 
-    ![사용자가 사유를 입력하는 메시지 표시](../media/Sensitivity-label-justification-required.png)
+    ![사용자가 사유를 입력하는 메시지가 표시됩니다.](../media/Sensitivity-label-justification-required.png)
 
 - 문서 및 전자 메일, 문서, 컨테이너 및 Power BI 콘텐츠에 **사용자가 레이블을 적용하도록 요구** 합니다. 필수 레이블 지정이라고도 하는 이러한 옵션은 사용자가 문서를 저장하고, 전자 메일을 보내고, 새 그룹 혹은 사이트를 만들기 전에 레이블이 지정되지 않은 콘텐츠를 Power BI에 사용할 때 레이블을 적용해야 합니다.
     
     문서 및 전자 메일의 경우 레이블은 사용자가 수동으로 할당하거나 구성한 조건의 결과로 자동으로 할당하거나 기본적으로 할당할 수 있습니다(앞에서 설명한 기본 레이블 옵션). 사용자가 레이블을 할당해야 할 때 예제 프롬프트 :
 
-    ![사용자에게 필수 레이블을 적용하도록 요구하는 Outlook 메시지](../media/sensitivity-labels-mandatory-prompt-outlook.png)
+    ![사용자에게 필수 레이블을 적용하도록 요구하는 Outlook 메시지가 표시됩니다.](../media/sensitivity-labels-mandatory-prompt-outlook.png)
     
     문서와 전자 메일에 대한 의무 레이블 지정에 관한 자세한 정보는 [사용자가 전자 메일과 문서에 레이블을 적용하게 요구](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents)를 참조해 주세요.
     

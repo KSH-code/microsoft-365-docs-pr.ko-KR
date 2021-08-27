@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 89b34125e52de59da1254206c2681a650d4e3237
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 07d810f1588de01e4ee53294b39cc6b09b372046
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531549"
+ms.locfileid: "58594531"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>엔드포인트용 Microsoft Defender 지원 문의
 
@@ -47,7 +47,7 @@ Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 �
 
 최소한 서비스 지원 관리자 또는  헬프데스크 관리자 역할이 있어야 합니다.
 
-사용 권한이 있는 역할에 대한 자세한 내용은 [Security Administrator permissions을 참조하십시오.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator-permissions) 작업이 포함된 역할은 `microsoft.office365.supportTickets/allEntities/allTasks` 사례를 제출할 수 있습니다.
+사용 권한이 있는 역할에 대한 자세한 내용은 [Security Administrator permissions을 참조하십시오.](/azure/active-directory/roles/permissions-reference#security-administrator) 작업이 포함된 역할은 `microsoft.office365.supportTickets/allEntities/allTasks` 사례를 제출할 수 있습니다.
 
 관리자 역할에 대한 일반 정보는 관리자 역할 [정보를 참조하세요.](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
 
@@ -57,11 +57,11 @@ Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 �
 
 1. 포털 오른쪽 상단에서 물음표를 클릭한 다음 "Microsoft 지원"을 클릭합니다.
 
-    :::image type="content" source="../../media/contactsupport.png" alt-text="Microsoft 지원":::
+    :::image type="content" source="../../media/contactsupport.png" alt-text="Microsoft 지원.":::
 
 2. 도움이 **필요하세요? 클릭**  단추를 클릭하면 Microsoft 365 Defender 있습니다.
 
-    ![도움이 필요 단추의 이미지](images/need-help-option.png)
+    ![도움이 필요 단추의 이미지입니다.](images/need-help-option.png)
 
 위젯에는 다음 두 가지 옵션이 제공됩니다.
 
@@ -85,7 +85,7 @@ Endpoint 지원에 대한 Defender에 문의하여 지원 티켓을 여는 방�
 
 ### <a name="contact-support"></a>지원 센터 문의
 
-이 옵션은 헤드셋처럼 보이는 아이콘을 클릭하여 사용할 수 있습니다. 그러면 다음 페이지를 통해 지원 사례를 제출합니다.
+:::image type="content" source="../../media/contactsupport2.png" alt-text="고객 지원 2에 문의합니다."::: </br>
 
 :::image type="content" source="../../media/contactsupport2.png" alt-text="고객 지원 2":::
 

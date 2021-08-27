@@ -18,12 +18,12 @@ description: 관리자는 EOP(Exchange Online Protection)에 의해 메시지에
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c25679e6b997756d9af1ccfd16eb5fd41565c4d4472e7ebc22fe572277997a6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4e115c6bda6e2a9ac8da089f9b13f3acdddd2713
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56885536"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533438"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 

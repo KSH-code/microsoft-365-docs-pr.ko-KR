@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 7752c5af144ca5b02f05bbdd6632df808cf2f63c
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 6a4d548edb660838be9ea3d1a69749f23d3ac6c8
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257657"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607220"
 ---
 # <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 
@@ -57,10 +57,10 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 
 2. 이벤트 **뷰어를** 시작 메뉴 이벤트 **뷰어를 열 수 있습니다.**
 
-3. 작업 **사용자 지정** 보기  >  **가져오기...를 선택합니다.**
+3. 작업 **사용자 지정** 보기 \> **가져오기...를 선택합니다.**
 
    > [!div class="mx-imgBorder"]
-   > ![Even 뷰어 창 왼쪽의 사용자 지정 보기 가져오기 강조 표시 애니메이션](images/events-import.gif)
+   > ![Even 뷰어 창의 왼쪽에 있는 사용자 지정 보기 가져오기 강조 표시 애니메이션](images/events-import.gif)
 
 4. 원하는 사용자 지정 보기에 대한 XML 파일을 추출한 위치로 이동하여 선택합니다.
 
@@ -75,7 +75,7 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 2. 왼쪽 패널의 **동작에서** 사용자 지정 **보기 만들기...를 선택합니다.**
 
    > [!div class="mx-imgBorder"]
-   > ![이벤트 뷰어 창에서 사용자 지정 보기 만들기 옵션을 강조 표시하는 애니메이션](images/events-create.gif)
+   > ![이벤트 뷰어 창에서 사용자 지정 보기 만들기 옵션을 강조 표시하는 애니메이션입니다.](images/events-create.gif)
 
 3. XML 탭으로 이동하여 수동으로 쿼리 **편집을 선택합니다.** XML 옵션을 사용하는 경우 필터 탭을 사용하여  쿼리를 편집할 수 없는 경고가 표시됩니다. **예** 를 선택합니다.
 
@@ -146,7 +146,7 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 2. **Microsoft >** > Windows 응용 프로그램 및 서비스 로그를 확장한 다음 아래 표의 **공급자/원본에** 나열된 폴더로 이동합니다.
 3. 하위 항목을 두 번 클릭하여 이벤트를 볼 수 있습니다. 이벤트를 스크롤하여 원하는 이벤트를 찾으면 됩니다.
 
-   ![이벤트 뷰어를 사용하는 애니메이션](images/event-viewer.gif)
+   ![이벤트 뷰어를 사용하여 표시하는 애니메이션](images/event-viewer.gif)
 
 <br>
 
@@ -154,8 +154,8 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 
 |기능|공급자/원본|이벤트 ID|설명|
 |---|---|:---:|---|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|1 |ACG 감사|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|2 |ACG 적용|
+|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|1|ACG 감사|
+|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|2|ACG 적용|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|3 |자식 프로세스 감사 허용 안 함|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|4 |자식 프로세스 블록 허용 안 함|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|5 |낮은 무결성 이미지 감사 차단|
@@ -166,7 +166,7 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|10 |Win32k 시스템 호출 블록 사용 안 함|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|11 |코드 무결성 가드 감사|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|12 |코드 무결성 가드 블록|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|13 |EAF 감사|
+|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|13|EAF 감사|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|14 |EAF 적용|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|15 |EAF+ 감사|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|16 |EAF+ 적용|

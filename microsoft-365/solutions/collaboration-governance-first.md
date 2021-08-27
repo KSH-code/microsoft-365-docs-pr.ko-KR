@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 공동 작업 거버넌스 계획을 만드는 방법 학습
-ms.openlocfilehash: 062648ca2e4eb2c3909b38d376f568df726ac2bef3abb5b82b1e86db879a1887
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cd6da85f43d3dc72ee7b9ccd763872dbccfbeb78
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843986"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585599"
 ---
 # <a name="create-your-collaboration-governance-plan"></a>공동 작업 거버넌스 계획 만들기
 
@@ -117,7 +117,7 @@ Microsoft 365 투자는 사용자가 사용하도록 설정한 콘텐츠 및 환
 
 ### <a name="define-roles-and-responsibilities"></a>역할 및 책임 정의
 
-거버넌스 팀 외에 다른 몇 가지 주요 역할이나 팀이 이러한 팀의 성공을 위해 생각하고 Microsoft 365. 일부 역할은 동일한 사람이 결합하거나 채울 수 있으며 다른 역할은 일부 조직에 적합하지 않을 수 있습니다. 대부분의 조직에는 전적으로 Microsoft 365 임원진 스폰서가 있으며 일부 조직에는 운영 위원회 또는 팀이 Microsoft 365 또는 인트라넷을 위한 운영 위원회 또는 팀이 있습니다. [에서 사용할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)수 있는 포괄적인 관리자 역할 및 사용 권한에 대해 Microsoft 365.
+거버넌스 팀 외에 다른 몇 가지 주요 역할이나 팀이 이러한 팀의 성공을 위해 생각하고 Microsoft 365. 일부 역할은 동일한 사람이 결합하거나 채울 수 있으며 다른 역할은 일부 조직에 적합하지 않을 수 있습니다. 대부분의 조직에는 전적으로 Microsoft 365 임원진 스폰서가 있으며 일부 조직에는 운영 위원회 또는 팀이 Microsoft 365 또는 인트라넷을 위한 운영 위원회 또는 팀이 있습니다. [에서 사용할](../admin/add-users/admin-roles-page.md)수 있는 포괄적인 관리자 역할 및 사용 권한에 대해 Microsoft 365.
 
 ### <a name="revisit-as-business-and-technology-changes"></a>비즈니스 및 기술 변경에 따라 다시 재구성
 

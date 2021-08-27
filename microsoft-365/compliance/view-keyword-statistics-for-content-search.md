@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 검색 통계 기능을 사용하여 검색의 Core eDiscovery 사례와 연결된 콘텐츠 검색 및 검색에 대한 통계를 표시하는 Microsoft 365 규정 준수 센터.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 25884f0b450c1bc90cb6487e64fe636ef5f8af16dd30ad7bb4e7ed28402da03f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7f9948a5ae194a475f5bdcf319aa48fa32cc282f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835550"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58552915"
 ---
 # <a name="view-statistics-for-ediscovery-search-results"></a>eDiscovery 검색 결과에 대한 통계 보기
 
@@ -53,7 +53,7 @@ Core eDiscovery 사례와 연결된 콘텐츠 검색 또는 검색에 대한 통
 
 이 섹션에는 검색에서 반환된 예상 항목에 대한 그래픽 요약이 표시됩니다. 검색 조건과 일치하는 항목 수를 나타냅니다. 이 정보는 검색에서 반환되는 예상 항목 수에 대한 아이디어를 제공합니다.
 
-![검색 예상 검색](../media/SearchContentReport.png)
+![검색 예상 검색.](../media/SearchContentReport.png)
 
 - **위치 기준 예상 항목:** 검색에서 반환된 예상 항목의 총 수입니다. 사서함에 있으며 사이트에 있는 특정 항목 수도 표시됩니다.
 
@@ -65,7 +65,7 @@ Core eDiscovery 사례와 연결된 콘텐츠 검색 또는 검색에 대한 통
 
 이 섹션에는 검색 쿼리에 대한 통계와 검색 쿼리의 여러 부분과 일치하는 예상 항목 수가 표시됩니다. 이러한 통계를 사용하여 검색 쿼리의 각 구성 요소와 일치하는 항목 수를 분석할 수 있습니다. 이렇게하면 검색 조건을 구체화하고 필요한 경우 범위 범위를 좁힐 수 있습니다. 이 보고서의 복사본을 CSV 형식으로 다운로드할 수도 있습니다.
 
-![조건 보고서](../media/SearchContentReportNoKeywordList.png)
+![조건 보고서입니다.](../media/SearchContentReportNoKeywordList.png)
 
 - **위치 유형:** 쿼리 통계를 적용할 수 있는 콘텐츠 위치의 유형입니다. Exchange **값은** 사서함 위치를 나타냅니다. 값이 **SharePoint** 위치를 나타냅니다.
 

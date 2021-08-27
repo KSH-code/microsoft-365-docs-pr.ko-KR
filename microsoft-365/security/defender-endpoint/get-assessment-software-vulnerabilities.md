@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: b73e7c2afe25cbff55ace688c1f3c5d9351156484c45bceaf00b34ecca1afea3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c9964ce7abdae004b33fb7317740b30b46b72d95
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603294"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>장치당 소프트웨어 취약점 평가 내보내기
 
@@ -93,7 +93,7 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 >
 > - 각 레코드는 약 1 KB의 데이터입니다. 올바른 pageSize 매개 변수를 선택할 때 이 문제를 고려해야 합니다.
 > - 응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있습니다. 문서화한 열만 사용하시기 바랍니다.
-> - 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
+> - 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다. 이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
 
 <br>
 
@@ -119,7 +119,7 @@ RegistryPaths|배열 \[ 문자열\]|제품이 장치에 설치되어 있는 레�
 SoftwareName|문자열|소프트웨어 제품의 이름입니다.|chrome
 SoftwareVendor|문자열|소프트웨어 공급업체의 이름입니다.|google
 SoftwareVersion|문자열|소프트웨어 제품의 버전 번호입니다.|81.0.4044.138
-VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.|보통
+VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.|Medium
 |
 
 ### <a name="16-examples"></a>1.6 예제
@@ -341,7 +341,7 @@ GET https://api-us.securitycenter.contoso.com/api/machines/SoftwareVulnerabiliti
 DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 Json 응답으로 조직의 데이터를 끌어 습니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. 전체 소프트웨어 취약점 평가(JSON 응답)(장치로 조직에 대한 소프트웨어 취약점 평가의 전체 스냅숏을 얻는 데 사용)와 달리 델타 내보내기 JSON 응답 API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 JSON 응답 API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산할 수도 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?"
 
 > [!NOTE]
-> 적어도 일주일에 한 번씩 장치 API 호출에 의해 전체 내보내기 소프트웨어 취약성 평가를 사용하는 것이 좋습니다. 이러한 추가 내보내기 소프트웨어 취약성은 장치(델타) API 호출에 따라 변경됩니다.  다른 평가 JSON 응답 API와 달리 "델타 내보내기"는 전체 내보내기되지 않습니다. 델타 내보내기에는 선택한 날짜와 현재 날짜 사이에 변경된 내용만 포함됩니다("델타" API 호출).
+> 적어도 일주일에 한 번씩 장치 API 호출에 의해 전체 내보내기 소프트웨어 취약성 평가를 사용하는 것이 좋습니다. 이러한 추가 내보내기 소프트웨어 취약성은 장치(델타) API 호출에 따라 변경됩니다. 다른 평가 JSON 응답 API와 달리 "델타 내보내기"는 전체 내보내기되지 않습니다. 델타 내보내기에는 선택한 날짜와 현재 날짜 사이에 변경된 내용만 포함됩니다("델타" API 호출).
 
 #### <a name="311-limitations"></a>3.1.1 제한 사항
 
@@ -377,7 +377,7 @@ GET /api/machines/SoftwareVulnerabilityChangesByMachine
 > [!NOTE]
 >
 > - 응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있으므로 문서화한 열만 사용하시기 바랍니다.
-> - 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
+> - 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다. 이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
 
 <br>
 
@@ -390,7 +390,7 @@ CvssScore|문자열|CVE의 CVSS 점수입니다.|6.2 
 DeviceId|문자열|서비스에서 장치의 고유 식별자입니다.|9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1  
 장치 이름|문자열|장치의 FQDN(FQDN)입니다.|johnlaptop.europe.contoso.com  
 DiskPaths|Array[string]|제품이 장치에 설치되어 있는 디스크 증거입니다.|["C:\Program Files (x86)\Microsoft\Silverlight\Application\silverlight.exe"]  
-EventTimestamp|String|이 델타 이벤트를 찾은 시간입니다.|2021-01-11T11:06:08.291Z
+EventTimestamp|문자열|이 델타 이벤트를 찾은 시간입니다.|2021-01-11T11:06:08.291Z
 ExploitabilityLevel|문자열|이 취약성의 악용성 수준(NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit)|ExploitIsInKit  
 FirstSeenTimestamp|문자열|이 제품의 CVE가 디바이스에 처음 표시됩니다.|2020-11-03 10:13:34.8476880  
 Id|문자열|레코드의 고유 식별자입니다.|123ABG55_573AG&mnp!  
@@ -405,7 +405,7 @@ SoftwareName|문자열|소프트웨어 제품의 이름입니다.|chrome 
 SoftwareVendor|문자열|소프트웨어 공급업체의 이름입니다.|google  
 SoftwareVersion|문자열|소프트웨어 제품의 버전 번호입니다.|81.0.4044.138  
 상태|String|**새로 추가**   (장치에 도입된 새로운 취약성의 경우)  (1) **수정되었습니다(이** 취약점이 장치에 더 이상 존재하지 않는 경우, 즉   수정된 것입니다). (2)  **업데이트되었습니다.**   (장치의 취약점이 변경된 경우). 가능한 변경 내용은 CVSS 점수, 악용 가능성 수준, 심각도 수준, DiskPaths, RegistryPaths, RecommendedSecurityUpdate입니다. |고정
-VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.|보통
+VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.|Medium
 |
 
 #### <a name="clarifications"></a>설명

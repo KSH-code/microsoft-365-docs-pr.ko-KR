@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 12317627c497999f0821a09bc6639aedc2515933
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 2421a73e24e8d6ba42cb18e2d221ad09ec997d14
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347243"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585523"
 ---
 # <a name="get-ip-related-alerts-api"></a>IP 관련 알림 API를 얻습니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "58347243"
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 끝점 API에 [Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -60,7 +60,7 @@ ms.locfileid: "58347243"
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
 >
 > - 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
->- 응답에는 장치 그룹 설정에 따라 사용자가 액세스할 수 있는 알림만 포함됩니다(자세한 내용은 장치 그룹 [만들기](machine-groups.md) 및 관리 참조).
+> - 응답에는 장치 그룹 설정에 따라 사용자가 액세스할 수 있는 알림만 포함됩니다(자세한 내용은 장치 그룹 [만들기](machine-groups.md) 및 관리 참조).
 
 ## <a name="http-request"></a>HTTP 요청
 

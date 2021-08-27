@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9c1a07c1e68694c64c185f612e237e909d2612d7eb5940aca169e6eaad0e47cf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 15c3ad6eef732f36a425a54673a694613c0f4b66
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53874054"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598996"
 ---
 # <a name="get-missing-kbs-by-software-id"></a>소프트웨어 ID로 누락된 KB 다운로드
 
@@ -37,14 +37,14 @@ ms.locfileid: "53874054"
 
 소프트웨어 ID로 누락된 KB(보안 업데이트)를 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
 
-사용 권한 유형 |   사용 권한   |   사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |Software.Read.All |   '위협 및 취약성 관리 소프트웨어 정보 읽기'
-위임(직장 또는 학교 계정) | Software.Read |   '위협 및 취약성 관리 소프트웨어 정보 읽기'
+응용 프로그램|Software.Read.All|'위협 및 취약성 관리 소프트웨어 정보 읽기'
+위임(직장 또는 학교 계정)|Software.Read|'위협 및 취약성 관리 소프트웨어 정보 읽기'
 
 ## <a name="http-request"></a>HTTP 요청
 
@@ -56,7 +56,7 @@ GET /api/Software/{Id}/getmissingkbs
 
 이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

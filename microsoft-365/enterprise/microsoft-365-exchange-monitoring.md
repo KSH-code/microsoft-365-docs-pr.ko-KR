@@ -15,12 +15,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Microsoft 365의 메일 인시던트 또는 권고에 대한 자세한 내용은 Exchange Online 모니터링을 사용하세요.
-ms.openlocfilehash: 4de4104f3112126b20d51fb6fcf0616cd413b884
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: e7e0a39f00b4d23ed870d501a3aefbabaf362e13
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58506445"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603009"
 ---
 # <a name="exchange-online-monitoring-for-microsoft-365"></a>Microsoft 365의 Exchange Online 모니터링
 
@@ -32,9 +32,9 @@ Microsoft 365 관리 센터에서 Exchange Online 모니터링을 사용하여 �
 
 다음은 Microsoft 365 관리 센터의 **서비스 상태** 페이지에 대한 예로, 조직 시나리오의 **상태 > 서비스 상태** 에서 사용할 수 있습니다.
 
-**조직의 문제는** 조직 수준의 모니터링에서 식별되고 사용됩니다.
+![Microsoft 365 관리 센터의 서비스 상태 페이지](../media/microsoft-365-exchange-monitoring/service-health-dashboard-example.png)
 
-:::image type="content" source="../media/microsoft-365-exchange-monitoring/service-health-dashboard-example.png" alt-text="Microsoft 365 관리 센터의 서비스 상태 페이지":::
+**조직의 문제는** 조직 수준의 모니터링에서 식별되고 사용됩니다.
 
 **조직의 문제** 아래에 있는 **상태** 열의 값은 조직의 인프라 또는 타사 소프트웨어가 Exchange Online을 사용하는 조직의 사용자 서비스 상태 환경에 영향을 주는지 여부를 나타냅니다. 권고나 인시던트를 해결하려면 *사용자의* 조치가 필요합니다.
 
@@ -42,7 +42,7 @@ Microsoft 365 관리 센터에서 Exchange Online 모니터링을 사용하여 �
 
 다음은 **상태 > 서비스 상태 > Exchange Online** 에서 사용할 수 있는 조직 수준 시나리오의 상태를 보여 주는 Microsoft 365 관리 센터의 Exchange Online 모니터링 페이지의 예입니다.
 
-:::image type="content" source="../media/microsoft-365-exchange-monitoring/exchange-monitoring-example.png" alt-text="Microsoft 365 관리 센터의 Exchange Online 모니터링 페이지":::
+![Microsoft 365 관리 센터의 Exchange Online 모니터링 페이지](../media/microsoft-365-exchange-monitoring/exchange-monitoring-example.png)
 
 **Exchange Online** 모니터링 페이지를 사용하여 Exchange Online 서비스가 정상인지 여부를 확인하고 연결된 인시던트나 권고 사항이 있는지 확인할 수 있습니다. Exchange Online 모니터링을 사용하여 특정 이메일 시나리오에 대한 서비스 상태를 확인하고 거의 실시간 신호를 보고 조직 수준의 시나리오에 따른 영향을 확인할 수 있습니다.
 
@@ -94,7 +94,7 @@ Exchange Online 모니터링은 다음 시나리오를 지원합니다.
 
 - 특정 인시던트나 권고에 **이 게시물이 유용한가요?** 링크를 사용하여 의견 제출
 
-![“이 게시물이 유용한가요?” 특정 인시던트나 권고에 대한 링크](../media/microsoft-365-exchange-monitoring/exchange-monitoring-example-incident-feedback.png)
+  ![“이 게시물이 유용한가요?” 특정 인시던트나 권고에 대한 링크](../media/microsoft-365-exchange-monitoring/exchange-monitoring-example-incident-feedback.png)
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 

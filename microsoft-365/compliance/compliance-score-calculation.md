@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Microsoft 준수 관리자가 위험을 해결하고 규정 준수 환경을 개선하기 위해 취한 조치를 기반으로 개인 설정된 점수를 계산하는 방법을 이해합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cbbef643005904e8ca913df69382e9e6012e5b371c9cb5ff132990e1ba74c535
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 26ef0f73a8da9403c2d1fd8248f828d6faf7f6e3
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820477"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569096"
 ---
 # <a name="compliance-score-calculation"></a>준수 점수 계산
 
@@ -119,4 +119,4 @@ ms.locfileid: "53820477"
 | 수정 필수 사항 | 3  |
 | 수정 재량 | 1 |
   
-![준수 관리자 작업 지점 값](../media/compliance-score-action-scoring.png "준수 관리자 작업 지점 값")
+![준수 관리자 작업 지점 값입니다.](../media/compliance-score-action-scoring.png "준수 관리자 작업 지점 값")

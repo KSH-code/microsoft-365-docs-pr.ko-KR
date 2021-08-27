@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 38f7ff40416835e9908757456520f0a90a745dfd
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: daedf3ebbf88c70cf5b3889a9d7560800ad16f5f
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508277"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595247"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Android의 엔드포인트용 Microsoft Defender 문제 해결
 
@@ -44,7 +44,7 @@ ms.locfileid: "58508277"
 
 **로그인 실패:** *예기치 않은 오류, 나중에 시도*
 
-![로그인 실패 오류의 이미지 예기치 않은 오류](images/f9c3bad127d636c1f150d79814f35d4c.png)
+![로그인 실패 오류의 이미지 예기치 않은 오류입니다.](images/f9c3bad127d636c1f150d79814f35d4c.png)
 
 **메시지:**
 
@@ -62,7 +62,7 @@ Google Play 스토어에서 최신 [Microsoft Authenticator](https://play.google
 
 **로그인 실패: 라이선스가** *잘못되었습니다. 관리자에게 문의하세요.*
 
-![로그인 실패 이미지 관리자에게 문의하시기 바랍니다.](images/920e433f440fa1d3d298e6a2a43d4811.png)
+![로그인에 실패한 이미지가 관리자에게 문의하시기 바랍니다.](images/920e433f440fa1d3d298e6a2a43d4811.png)
 
 **메시지:** *라이선스가 잘못되었습니다. 관리자에게 문의하세요.*
 
@@ -86,7 +86,7 @@ Google Play 스토어에서 최신 [Microsoft Authenticator](https://play.google
 
 Android용 끝점용 Defender에서 감지한 피싱 및 유해한 웹 위협은 일부 Xiaomi 장치에서 차단되지 않습니다. 이러한 장치에서는 다음 기능이 작동하지 않습니다.
 
-![안전하지 않은 것으로 보고된 사이트의 이미지](images/0c04975c74746a5cdb085e1d9386e713.png)
+![안전하지 않은 것으로 보고된 사이트의 이미지입니다.](images/0c04975c74746a5cdb085e1d9386e713.png)
 
 **원인:**
 
@@ -94,7 +94,7 @@ Xiaomi 장치에는 새로운 사용 권한 모델이 포함되어 있습니다.
 
 Xiaomi 장치 권한: "백그라운드에서 실행되는 동안 팝업 창 표시"
 
-![팝업 설정 이미지](images/6e48e7b29daf50afddcc6c8c7d59fd64.png)
+![팝업 설정의 이미지입니다.](images/6e48e7b29daf50afddcc6c8c7d59fd64.png)
 
 **해결 방법:**
 
@@ -112,7 +112,7 @@ Defender 앱은 앱 온보딩의 일부로 디바이스에 배터리 최적화/�
 
 **원인:**
 
-Xiomi는 Android 11에서 배터리 최적화 권한을 변경했습니다. Defender는 배터리 최적화를 무시하도록 이 설정을 구성할 수 없습니다.
+Xiaomi는 Android 11에서 배터리 최적화 권한을 변경했습니다. Defender는 배터리 최적화를 무시하도록 이 설정을 구성할 수 없습니다.
 
 **해결 방법:**
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: cb8b152bb386354dcdf5a5c95654a10e89d41c1f330c3c805faaff130aec77e4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4d8010cafa9ea0195e4c77298bea2098eab5c594
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53869038"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607344"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>장치당 보안 구성 평가 내보내기
 
@@ -87,7 +87,7 @@ GET /api/machines/SecureConfigurationsAssessmentByMachine
 
 > [!NOTE]
 >
-> - 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다.  이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
+> - 다음 표에 정의된 속성은 속성 ID에 따라 사전순으로 나열됩니다. 이 API를 실행하면 결과 출력이 이 표에 나열된 순서대로 반환되지 않을 수도 있습니다.
 > - 응답에 일부 추가 열이 반환될 수 있습니다. 이러한 열은 임시로 제거될 수 있습니다. 문서화한 열만 사용하시기 바랍니다.
 
 <br>

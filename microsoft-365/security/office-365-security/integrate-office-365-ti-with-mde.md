@@ -19,12 +19,12 @@ description: Microsoft Defender를 Office 365 Microsoft Defender for Endpoint를
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0b9bf8bcd15b52ea94cfc823c04f5501e17c2364e708f6375dd3000a376ed800
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ed8d433cd997166ed7fd96034f91eb117b9309cd
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56786553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58558581"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 함께 Office 365 Microsoft Defender 사용
 
@@ -62,15 +62,15 @@ Microsoft Defender for Office 365 끝점용 Microsoft Defender와 통합은 Endp
 
 3. 탐색기  페이지의 화면 오른쪽 위 모서리에서 **MDE** 를 설정.
 
-3. 나타나는 **끝점용 Microsoft Defender** 연결 플라이아웃에서 끝점용 **Microsoft Defender에** 커넥트(토글 켜기)를 켜고 ![ ](../../media/scc-toggle-on.png) 닫기 를 **선택합니다.**
+3. 나타나는 **Microsoft Defender for Endpoint 연결** 플라이아웃에서 끝점용 **Microsoft Defender에** 커넥트(토글 켜기) 를 켜고 닫기 를 ![ ](../../media/scc-toggle-on.png) **선택합니다.**
 
-    :::image type="content" source="../../media/explorer-mdeconnection-dialognew.png" alt-text="MDE 연결":::
+    :::image type="content" source="../../media/explorer-mdeconnection-dialognew.png" alt-text="MDE 연결.":::
 
 4. 탐색 창에서 를 **설정.** On the **설정** page, choose **Endpoints**
 
 5. 끝점 **페이지가** 열리면 고급 기능을 **선택합니다.**
 
-6. 아래로 스크롤하여 Office 365 위협 인텔리전스 연결을 **으로** 전환하고( ![ 토글합니다.) ](../../media/scc-toggle-on.png)
+6. 아래로 스크롤하여 **Office 365 위협 인텔리전스** 연결을 으로 전환하고( ![ 토글합니다. ](../../media/scc-toggle-on.png) ).
 
    완료되면 기본 설정 저장 **을 선택합니다.**
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 32722edf149b18c7d37311e5b334f378b962c877
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: d98b231d4d2c0b415a3c76aa18d23402f19e8b06
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502954"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603168"
 ---
 # <a name="export-assessment-methods-and-properties-per-device"></a>장치당 평가 방법 및 속성 내보내기
 
@@ -68,7 +68,7 @@ _JSON_ 응답 또는 파일을 통해 수집되는 데이터는 현재 상태의
 메서드|데이터 형식|설명
 :---|:---|:---
 보안 구성 평가 **내보내기(JSON 응답)**|장치 컬렉션에 따라 보안 구성. 참조: [1.2 속성(JSON 응답)](#12-properties-json-response)|DeviceId, ConfigurationId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
-파일로 보안 **구성 평가 내보내기**|장치 컬렉션에 따라 보안 구성. 참조: [1.3 속성(파일을 통해)](#13-properties-via-files)|DeviceId, ConfigurationId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 1에서 모든 Azure Storage 다운로드할 수 있습니다.  API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다. 2.  다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
+파일로 보안 **구성 평가 내보내기**|장치 컬렉션에 따라 보안 구성. 참조: [1.3 속성(파일을 통해)](#13-properties-via-files)|DeviceId, ConfigurationId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다. <ol><li>API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.</li><li>다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.</li></ol>
 
 ### <a name="12-properties-json-response"></a>1.2 속성(JSON 응답)
 
@@ -107,7 +107,7 @@ GeneratedTime|문자열|내보내기 생성 시간입니다.
 메서드|데이터 형식|설명
 :---|:---|:---
 소프트웨어 인벤토리 평가 **내보내기(JSON 응답)**|장치 모음의 소프트웨어 인벤토리입니다. 참조: [2.2 속성(JSON 응답)](#22-properties-json-response)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
-파일로 소프트웨어 인벤토리 **평가 내보내기**|장치 파일로 소프트웨어 인벤토리. 참조: [2.3 속성(파일을 통해)](#23-properties-via-files)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 1에서 모든 Azure Storage 다운로드할 수 있습니다.  API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다. 2.  다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
+파일로 소프트웨어 인벤토리 **평가 내보내기**|장치 파일로 소프트웨어 인벤토리. 참조: [2.3 속성(파일을 통해)](#23-properties-via-files)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다. <ol><li>API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 다운로드합니다.</li><li>다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.</li></ol>
 
 ### <a name="22-properties-json-response"></a>2.2 속성(JSON 응답)
 
@@ -144,8 +144,8 @@ GeneratedTime|문자열|내보내기 생성 시간입니다.
 메서드|데이터 형식|설명
 :---|:---|:---
 소프트웨어 취약점 평가 **내보내기(JSON 응답)**|조사 컬렉션 참조: [3.2 속성(JSON 응답)](#32-properties-json-response)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
-파일로 소프트웨어 취약점 평가 **내보내기**|조사 엔터티 참조: [3.3 속성(파일을 통해)](#33-properties-via-files)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 1에서 모든 Azure Storage 다운로드할 수 있습니다.  API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다. 2.  다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.
-**델타 내보내기** 소프트웨어 취약점 **평가(JSON 응답)**|조사 컬렉션 참조: [3.4 속성 델타 내보내기(JSON 응답)](#34-properties-delta-export-json-response)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId 및 EventTimestamp의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. <br><br> API는 JSON 응답으로 조직의 데이터를 끌어 습니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 전체 소프트웨어 취약점 평가(JSON 응답)와 달리 델타 내보내기 API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산할 수도 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?"  <br><br> 소프트웨어 취약성에 대한 델타 내보내기 API 호출은 대상 날짜 범위에 대한 데이터만 반환하기 때문에 전체 _내보내기로 간주되지 않습니다._
+파일로 소프트웨어 취약점 평가 **내보내기**|조사 엔터티 참조: [3.3 속성(파일을 통해)](#33-properties-via-files)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다. <ol><li>API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.</li><li>다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.</li></ol>
+**델타 내보내기** 소프트웨어 취약점 **평가(JSON 응답)**|조사 컬렉션 참조: [3.4 속성 델타 내보내기(JSON 응답)](#34-properties-delta-export-json-response)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId 및 EventTimestamp의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. <p> API는 JSON 응답으로 조직의 데이터를 끌어 습니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다. 장치로 조직의 소프트웨어 취약점 평가에 대한 전체 스냅숏을 얻는 데 사용되는 전체 소프트웨어 취약점 평가(JSON 응답)와 달리 델타 내보내기 API 호출은 선택한 날짜와 현재 날짜("델타" API 호출) 사이에 수행된 변경 내용만 페치하는 데 사용됩니다. 매월 많은 양의 데이터를 사용하여 전체 내보내기 대신 신규, 고정 및 업데이트된 취약성에 대한 특정 정보만 얻을 수 있습니다. 델타 내보내기 API 호출을 사용하여 "고정된 취약성 수"과 같은 다양한 KPI를 계산할 수도 있습니다. 또는 "조직에 추가된 새 취약성의 수가 몇 개인가요?" <p> 소프트웨어 취약성에 대한 델타 내보내기 API 호출은 대상 날짜 범위에 대한 데이터만 반환하기 때문에 전체 _내보내기로 간주되지 않습니다._
 
 ### <a name="32-properties-json-response"></a>3.2 속성(JSON 응답)
 
@@ -188,7 +188,7 @@ CvssScore|문자열|CVE의 CVSS 점수입니다.
 DeviceId|문자열|서비스에서 장치의 고유 식별자입니다.
 장치 이름|문자열|장치의 FQDN(FQDN)입니다.
 DiskPaths|Array[string]|제품이 장치에 설치되어 있는 디스크 증거입니다.
-EventTimestamp|String|이 델타 이벤트를 찾은 시간입니다.
+EventTimestamp|문자열|이 델타 이벤트를 찾은 시간입니다.
 ExploitabilityLevel|문자열|이 취약성의 악용성 수준(NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit)
 FirstSeenTimestamp|문자열|이 제품의 CVE가 디바이스에 처음 표시됩니다.
 Id|문자열|레코드의 고유 식별자입니다.  
@@ -202,7 +202,7 @@ RegistryPaths |Array[string]|제품이 장치에 설치되어 있는 레지스
 SoftwareName|문자열|소프트웨어 제품의 이름입니다.
 SoftwareVendor|문자열|소프트웨어 공급업체의 이름입니다.
 SoftwareVersion|문자열|소프트웨어 제품의 버전 번호입니다.
-상태|String|**새로 추가**   (장치에 도입된 새로운 취약성의 경우).  **고정**   (디바이스에 더 이상 존재하지 않는 취약성의 경우, 즉 수정된 것입니다). **업데이트되었습니다.**   (변경된 장치의 취약성에 대한 경우). 가능한 변경 내용은 CVSS 점수, 악용 가능성 수준, 심각도 수준, DiskPaths, RegistryPaths, RecommendedSecurityUpdate입니다.
+상태|문자열|**새로 추가**   (장치에 도입된 새로운 취약성의 경우).  **고정**   (디바이스에 더 이상 존재하지 않는 취약성의 경우, 즉 수정된 것입니다). **업데이트되었습니다.**   (변경된 장치의 취약성에 대한 경우). 가능한 변경 내용은 CVSS 점수, 악용 가능성 수준, 심각도 수준, DiskPaths, RegistryPaths, RecommendedSecurityUpdate입니다.
 VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.
 
 ## <a name="see-also"></a>참고 항목

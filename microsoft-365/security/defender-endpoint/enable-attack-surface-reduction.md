@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 08/17/2021
-ms.openlocfilehash: 7fff73b2887418d47358b5424e537e5de4d60ce9
-ms.sourcegitcommit: 43897ead6db2d3977f6ceb8abeedb8aaff9c020a
+ms.openlocfilehash: 4f1ec369913054e8fe119cebf3d647b42c133d34
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380251"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595671"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙 사용
 
@@ -97,7 +97,7 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
 ## <a name="intune"></a>Intune
 
-1. 장치 **구성**  >  **프로필을 선택합니다.** 기존 끝점 보호 프로필을 선택하거나 새 끝점 보호 프로필을 만들 수 있습니다. 새 프로필을 만들하려면 프로필 만들기를 **선택하고** 이 프로필에 대한 정보를 입력합니다. 프로필 **유형에서** **끝점 보호를 선택합니다.** 기존 프로필을 선택한 경우 속성을  선택한 다음 을 **설정.**
+1. 장치 **구성** \> **프로필을 선택합니다.** 기존 끝점 보호 프로필을 선택하거나 새 끝점 보호 프로필을 만들 수 있습니다. 새 프로필을 만들하려면 프로필 만들기를 **선택하고** 이 프로필에 대한 정보를 입력합니다. 프로필 **유형에서** **끝점 보호를 선택합니다.** 기존 프로필을 선택한 경우 속성을  선택한 다음 을 **설정.**
 
 2. 끝점 보호 창에서 **Exploit** **Guard** Windows Defender 선택하고 공격 표면 **감소를 선택합니다.** 각 ASR 규칙에 대해 원하는 설정을 선택합니다.
 
@@ -114,7 +114,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 1. MEM(Microsoft Endpoint Manager) 관리 센터를 열 수 있습니다. 홈 **메뉴에서** **장치,** 구성 **프로필을** 선택한 다음 프로필 **만들기를 클릭합니다.**
 
    > [!div class="mx-imgBorder"]
-   > ![MEM 프로필 만들기](images/mem01-create-profile.png)
+   > ![MEM 프로필 만들기.](images/mem01-create-profile.png)
 
 2. 프로필 **만들기의** 다음 두 드롭다운 목록에서 다음을 선택합니다.
 
@@ -129,12 +129,12 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 3. 사용자 지정 서식 파일 도구가 **1단계 기본 으로 열립니다.** **1 기본 사항 의** **이름에** 서식 파일 이름을  입력하고 설명에 설명을 입력할 수 있습니다(선택 사항).
 
    > [!div class="mx-imgBorder"]
-   > ![MEM 기본 특성](images/mem03-1-basics.png)
+   > ![MEM 기본 특성.](images/mem03-1-basics.png)
 
 4. **다음** 을 클릭합니다. **2단계 구성 설정이** 열립니다. OMA-URI 설정 추가를 **클릭합니다.** 이제 추가 및 **내보내기의 두 가지** 옵션이 **표시됩니다.**
 
    > [!div class="mx-imgBorder"]
-   > ![MEM 구성 설정](images/mem04-2-configuration-settings.png)
+   > ![MEM 구성 설정.](images/mem04-2-configuration-settings.png)
 
 5. 추가를 **다시** 클릭합니다. 행 **추가 OMA-URI** 설정 열립니다. 행 **추가에서** 다음을 합니다.
 
@@ -145,7 +145,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
    - **값에서** GUID 값, 부호 및 상태 값을 공백이 없는 상태로 입력하거나 \= 붙여넣습니다(_GUID=StateValue)._ Where: {0 : Disable (Disable the ASR rule)}, {1 : Block (Enable the ASR rule)}, {2 : Audit (Evaluate how the ASR rule would impact your organization if enabled)}, {6 : Warn (Enable the ASR rule but allow the end-user to bypass the block)}
 
    > [!div class="mx-imgBorder"]
-   > ![MEM OMA URI 구성](images/mem05-add-row-oma-uri.png)
+   > ![MEM OMA URI 구성.](images/mem05-add-row-oma-uri.png)
 
 6. **저장** 을 클릭합니다. **행 추가** 닫기 사용자 **지정에서** 다음 을 **클릭합니다.** **3단계 범위 태그에서** 범위 태그는 선택 사항입니다. 다음 중 하나를 수행합니다.
 
@@ -159,7 +159,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
    - **모든 장치 추가**
 
    > [!div class="mx-imgBorder"]
-   > ![MEM 할당](images/mem06-4-assignments.png)
+   > ![MEM 할당.](images/mem06-4-assignments.png)
 
 8. 제외된 **그룹에서** 이 규칙에서 제외할 그룹을 선택하고 다음 을 **클릭합니다.**
 
@@ -170,17 +170,17 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
    - **값에** 해당하는 값 또는 값 범위를 입력합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![MEM 적용성 규칙](images/mem07-5-applicability-rules.png)
+   > ![MEM 적용성 규칙.](images/mem07-5-applicability-rules.png)
 
 10. **다음** 을 클릭합니다. **6단계 검토 + 만들기에서** 선택한 후 입력한 설정 및 정보를 검토하고 만들기를 **클릭합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![MEM 검토 및 만들기](images/mem08-6-review-create.png)
+    > ![MEM 검토 및 만들기.](images/mem08-6-review-create.png)
 
     > [!NOTE]
     > 규칙은 활성화된 후 몇 분 내에 활성화됩니다.
 
->[!NOTE]
+> [!NOTE]
 > 충돌 처리:
 >
 > 디바이스에 두 가지 서로 다른 ASR 정책을 할당하는 경우 충돌이 처리되는 방법은 서로 다른 상태의 규칙이 할당되어 있으며, 충돌 관리가 없는 것이고 그 결과로 오류가 발생합니다.
@@ -217,9 +217,9 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 ## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
 
-1. 이 Microsoft Endpoint Configuration Manager Exploit **Guard에서** 자산 및 규정 준수 Endpoint Protection  >    >  **Windows Defender 로 이동합니다.**
+1. 이 Microsoft Endpoint Configuration Manager Exploit **Guard에서** 자산 및 규정 준수 Endpoint Protection \>  \> **Windows Defender 로 이동합니다.**
 
-2. 홈 **Exploit**  >  **Guard 정책 만들기 를 선택합니다.**
+2. 홈 **Exploit** \> **Guard 정책 만들기 를 선택합니다.**
 
 3. 이름과 설명을 입력하고 공격 **표면 감소를 선택하고** 다음 을 **선택합니다.**
 
@@ -238,7 +238,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 2. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-3. 공격 표면 **감소를 Windows 구성**  >  **Microsoft Defender 바이러스 백신**  >  **Microsoft Defender Exploit Guard**  >  **트리를 확장합니다.**
+3. 공격 표면 **감소를 Windows 구성** \> **Microsoft Defender 바이러스 백신** \> **Microsoft Defender Exploit Guard** \> **트리를 확장합니다.**
 
 4. 공격 **표면 축소 규칙 구성을 선택하고** 사용 을 **선택합니다.** 그런 다음 옵션 섹션에서 각 규칙에 대한 개별 상태를 설정할 수 있습니다.
 
@@ -322,7 +322,5 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 ## <a name="related-articles"></a>관련 문서
 
 - [공격 표면 감소 규칙](attack-surface-reduction-rules.md)
-
 - [공격 표면 감소 평가](evaluate-attack-surface-reduction.md)
-
 - [공격 표면 감소 FAQ](attack-surface-reduction.md)

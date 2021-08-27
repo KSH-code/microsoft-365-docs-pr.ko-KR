@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱을 배포하는 방식을 이해합니다.
-ms.openlocfilehash: 65c73ccccd3e0ca5a3d9e09d1643692d56f5c341
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 8e0a88c85a3a2af35a83c71e7eb385b9edbdde77
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356291"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58552651"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Contoso용 엔터프라이즈용 Microsoft 365 앱 배포
 
@@ -74,7 +74,7 @@ Contoso는 자동으로 클라우드로부터 장치를 업데이트하도록 �
 
 다음은 Contoso 엔터프라이즈용 Microsoft 365 앱 설치 및 지속적인 업데이트 배포 아키텍처입니다.
 
-![배포를 위한 Contoso 배포 엔터프라이즈용 Microsoft 365 앱](../media/contoso-o365pp/contoso-o365pp-fig1.png)
+![배포를 위한 Contoso 배포 엔터프라이즈용 Microsoft 365 앱.](../media/contoso-o365pp/contoso-o365pp-fig1.png)
  
 ## <a name="next-step"></a>다음 단계
 

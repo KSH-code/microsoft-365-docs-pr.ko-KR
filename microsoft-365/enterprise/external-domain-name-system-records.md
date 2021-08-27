@@ -22,16 +22,16 @@ search.appverid:
 - BCS160
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 description: Office 365 배포를 계획할 때 사용할 외부 Domain Name System 레코드의 참조 목록입니다.
-ms.openlocfilehash: e3f66326d314246b3cde5c88dfc00ea394d8119e92cf9dcd14840f559aa7cd6f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e54a25aef956784fd74ad65dc54357ea3db0f57c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53849195"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568928"
 ---
 # <a name="external-domain-name-system-records-for-office-365"></a>Office 365에 대한 외부 Domain Name System 레코드
 
-![도메인](../media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)
+![Domain(도메인).](../media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)
 
 **Office 365 조직의 DNS 레코드 사용자 지정 목록을 보고 싶습니까?** Office 365에서 도메인에 대한 [Office 365 DNS 레코드를 만드는 데 필요한 정보를 찾을 수 있습니다](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67).
 

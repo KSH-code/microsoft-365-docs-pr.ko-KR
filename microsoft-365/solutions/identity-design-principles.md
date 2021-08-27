@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: f61c05608bfb9f3b528cf0a717dbe9effbaf31a5
-ms.sourcegitcommit: fac7b4b0095254c87b2a341fa2d53a42193f8957
+ms.openlocfilehash: 6d0599d11dd5892b032bda1285b92fbc8a09354b
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58418002"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595165"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>ID 및 그 이상을 아우르는 설계자의 관점
 
@@ -27,7 +27,7 @@ ms.locfileid: "58418002"
 
 ## <a name="about-the-author"></a>만든 이 정보
 
-![Alex Shteynberg 사진](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)
+![Alex Shteynberg 사진.](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)
 
 뉴욕 Microsoft 기술 센터의 수석 기술 [설계자입니다.](https://www.microsoft.com/mtc?rtc=1) 대부분 대규모 고객 및 복잡한 요구 사항과 함께 작업합니다. 내 관점과 의견은 이러한 상호 작용을 기반으로 하여 일부 상황에는 적용되지 않을 수 있습니다. 그러나 내 경험에서 가장 복잡한 문제를 고객에게 도움을 줄 수 있는 경우 모든 고객을 지원할 수 있습니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "58418002"
 Alas, language isn't a precise tool. 종종 동일한 단어를 사용하여 다른 개념을 의미하거나 다른 단어를 사용하여 동일한 개념을 의미합니다. 아래 다이어그램을 사용하여 몇 가지 기준 용어와 "계층 구조 모델"을 설정하는 경우가 종종 있습니다.
 <br><br>
 
-![테넌트, 구독, 서비스 및 데이터의 그림](../media/solutions-architecture-center/Identity-and-beyond-tenant-level.png)
+![테넌트, 구독, 서비스 및 데이터의 그림입니다.](../media/solutions-architecture-center/Identity-and-beyond-tenant-level.png)
 
 <br>
 
@@ -108,7 +108,7 @@ XYZ SaaS는 JIT(Just-In-Time) 프로비저닝을 지원하고 동기화해야 �
 
 종종 일부 오해를 명확히하기 위해 클라이언트 인증 흐름을 진행합니다. 결과는 아래 그림처럼 보입니다. 이 그림은 대화형 프로세스만큼 좋지 않습니다.
 
-![화이트보드 대화 예제](../media/solutions-architecture-center/identity-beyond-whiteboard-example.png)
+![화이트보드 대화 예제.](../media/solutions-architecture-center/identity-beyond-whiteboard-example.png)
 
 이 유형의 화이트보드 그리기에서는 인증 요청 흐름 내에서 보안 정책이 적용되는 위치를 보여 주며, 이 예에서는 AD FS(Active Directory Federation Service)를 통해 적용된 정책이 첫 번째 서비스 요청에 적용되지만 후속 서비스 요청에는 적용되지 않습니다. 이는 적어도 한 가지 이유 때문에 보안 제어를 최대한 클라우드로 이동해야 합니다.
 
@@ -122,7 +122,7 @@ XYZ SaaS는 JIT(Just-In-Time) 프로비저닝을 지원하고 동기화해야 �
 
 Azure AD의 정책 엔진은 조건부 액세스 정책을 [사용하여 구현됩니다.](/azure/active-directory/conditional-access/overview) 이 시스템은 동적인 의사 결정을 내리기 위해 다른 다양한 위협 감지 시스템의 정보에 의존합니다. 간단한 보기는 다음 그림과 같습니다.
 
-![Azure AD의 정책 엔진](../media/solutions-architecture-center/identity-and-beyond-illustration-3.png)
+![Azure AD의 정책 엔진입니다.](../media/solutions-architecture-center/identity-and-beyond-illustration-3.png)
 
 이러한 모든 신호를 결합하면 다음과 같은 동적 정책을 사용할 수 있습니다.
 
@@ -156,7 +156,7 @@ Azure AD에는 자세한 감사 [및 보고 기능이](/azure/active-directory/r
 
 Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은 서비스를 볼 수 Exchange. 여기에는 Azure AD, Microsoft Search, 앱, 프로필, 규정 준수 및 Office 365 포함됩니다.
 
-![Outlook 인터페이스](../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png)
+![Outlook 인터페이스입니다.](../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png)
 
 예정된 [Microsoft Fluid Framework](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-blog-microsoft-fluid-framework-preview/ba-p/978268) 미리 보기에 대한 자세한 내용을 읽어 읽습니다. 이제 미리 보기에서 직접 Teams 읽고 회신할 수 Outlook. 실제로 Teams [](https://products.office.com/microsoft-teams/download-app) 클라이언트는 이 전략의 보다 두드러진 예 중 하나입니다.
 
@@ -203,7 +203,7 @@ Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은
 
 ### <a name="azure-ad-and-microsoft-365-admin-centers"></a>Azure AD 및 Microsoft 365 센터
 
-길고 성장하는 기본 제공 역할 [목록이 있습니다.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 각 역할은 특정 작업이 수행될 수 있도록 그룹화되는 역할 권한 목록으로 구성됩니다. 이러한 사용 권한은 각 역할 내 "설명" 탭에서 볼 수 있습니다. 또는 사용자 센터에서 좀 더 사람이 읽을 수 있는 버전을 Microsoft 365 관리 있습니다. 기본 제공 역할에 대한 정의는 수정할 수 없습니다. 일반적으로 다음 세 가지 범주로 그룹화합니다.
+길고 성장하는 기본 제공 역할 [목록이 있습니다.](/azure/active-directory/roles/permissions-reference) 각 역할은 특정 작업이 수행될 수 있도록 그룹화되는 역할 권한 목록으로 구성됩니다. 이러한 사용 권한은 각 역할 내 "설명" 탭에서 볼 수 있습니다. 또는 사용자 센터에서 좀 더 사람이 읽을 수 있는 버전을 Microsoft 365 관리 있습니다. 기본 제공 역할에 대한 정의는 수정할 수 없습니다. 일반적으로 다음 세 가지 범주로 그룹화합니다.
 
 - **전역 관리자:** 이 "모든 강력한" 역할은 다른 시스템에서와 마찬가지로 매우 보호해야 합니다. [](../enterprise/protect-your-global-administrator-accounts.md) 일반적인 권장 사항은 다음과 같습니다. 영구 할당 없음 및 Azure AD PIM(Privileged Identity Management); 강력한 인증 등. 흥미롭게도 이 역할은 기본적으로 모든 데이터에 대한 액세스 권한을 부여하지 않습니다. 일반적으로 나중에 설명하는 규정 준수 액세스 및 Azure 액세스에 대해 혼동을 하게 됩니다. 그러나 이 역할은 항상 테넌트의 다른 서비스에 대한 액세스를 할당할 수 있습니다.
 - **특정 서비스 관리자:** 일부 서비스(Exchange, SharePoint, Power BI 등)는 Azure AD의 높은 수준의 관리 역할을 사용 합니다. 이는 모든 서비스에서 일관되지는 못하며 나중에 더 많은 서비스별 역할에 대해 논의합니다.
@@ -283,7 +283,7 @@ Office 365 감사 [로그가 있습니다.](../compliance/search-the-audit-log-i
 - [Exchange 메시지 추적](/powershell/module/exchange/get-messagetrace)
 - 위에서 설명한 위협/UEBA 시스템(예: Azure AD ID 보호, Microsoft Cloud App Security, 끝점용 Microsoft Defender 등)
 - [Microsoft 정보 보호](../compliance/data-classification-activity-explorer.md)
-- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi) 
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
 - [Microsoft Graph](https://graph.microsoft.com)
 
 먼저 보안 및 규정 준수 프로그램에 필요한 모든 로그 원본을 식별하는 것이 중요합니다. 또한 로그마다 서로 다른 인라인 보존 제한이 있습니다.

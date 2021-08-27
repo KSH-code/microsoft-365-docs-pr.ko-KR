@@ -25,12 +25,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 몇 단계만 Microsoft 365 Active-Directory에 가입된 Windows 10 보호할 수 있도록 설정하는 방법을 알아보십시오.
-ms.openlocfilehash: 9dfc54f334fe8a6eb636bc0d120af479239d41a0
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.openlocfilehash: 2a60437bafc7aae1928d73342555c030a71689cd
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360458"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595507"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>도메인에 가입된 Windows 10 장치를 관리하도록 Microsoft 365 Business Premium
 
@@ -124,4 +124,4 @@ PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device
 
 [도메인 사용자를 도메인 사용자와 Microsoft 365](manage-domain-users.md) 동기화(문서)\
 [관리 센터에서](../create-groups/create-groups.md) 그룹 만들기(문서)\
-[자습서: 관리되는 도메인에 Azure Active Directory 하이브리드](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) 연결 구성(문서)
+[자습서: 관리되는 도메인에 Azure Active Directory 하이브리드](/azure/active-directory/devices/hybrid-azuread-join-managed-domains) 연결 구성(문서)

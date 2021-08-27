@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: b6c8a616dc4040437a8caec91ab8a5e8fdc1e586
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 2d9914dec5abcf87885404adbc5092605402a045
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533174"
+ms.locfileid: "58599170"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>내부자 위험 관리 설정 시작
 
@@ -50,7 +50,7 @@ ms.locfileid: "58533174"
 
 - **사용자 이름의 비동기화된** 버전을 표시하지 않습니다. 경고 및 사례에 대한 모든 현재 및 이전 정책 일치에 대한 사용자 이름이 표시됩니다. 모든 내부자 위험 관리 경고 및 사례에 대한 사용자 프로필 정보(이름, 제목, 별칭 및 조직 또는 부서)가 사용자에게 표시됩니다.
 
-![내부자 위험 관리 개인 정보 설정](../media/insider-risk-settings-privacy.png)
+![내부자 위험 관리 개인 정보 설정.](../media/insider-risk-settings-privacy.png)
 
 ## <a name="indicators"></a>지표
 
@@ -150,7 +150,7 @@ ms.locfileid: "58533174"
 
 예를 들어 내부자 위험 정책 설정에서 SharePoint 표시기를 사용하도록 설정하고 새 내부자 위험 데이터 누수 정책에 대한 지표를 구성할 때 SharePoint 이벤트에 대한 사용자 지정 임계값을 설정하도록 *결정해야* 합니다. 내부자 위험 정책 마법사에서는 이러한 이벤트와 관련된 경고의 위험 점수에 영향을 SharePoint 각 이벤트에 대해 세 가지 일일 이벤트 수준을 구성합니다.
 
-![내부자 위험 관리 사용자 지정 표시기 설정](../media/insider-risk-custom-indicators.png)
+![내부자 위험 관리 사용자 지정 표시기 설정입니다.](../media/insider-risk-custom-indicators.png)
 
 첫 번째 일일 이벤트 수준의 경우 이벤트의 위험 점수에 대한 영향이 낮아지기 위해 하루 *10개* 이상의 이벤트로 임계값을 설정하고, 이벤트에 대한 위험 점수에 중간 정도의 영향을 미치는 경우 하루 *20개* 이상의 이벤트를 설정하고, 이벤트에 대한 위험 점수에 대한 위험 점수에 대한 더 높은 영향을 하루 *30개* 이상으로 설정합니다. 이러한 설정은 다음을 효과적으로 의미합니다.
 
@@ -273,7 +273,7 @@ Security & 규정 준수 경고에 대한 내부자 위험 관리 경고에 대�
 
 조직의 사용자는 자신의 위치, 중요한 정보에 대한 액세스 수준 또는 위험 내역에 따라 다양한 위험 수준을 가지게 될 수 있습니다. 이러한 사용자의 활동의 검사 및 점수 지정을 지정하면 조직에 더 높은 결과를 초래할 수 있는 잠재적인 위험을 경고하는 데 도움이 될 수 있습니다. 내부자 위험 관리의 우선 순위 사용자 그룹은 보다 세밀한 검사와 보다 중요한 위험 점수가 필요한 조직의 사용자를 정의하는 데 도움이 됩니다. 우선 순위  사용자에 의해 보안 정책  위반 및 우선 순위 사용자 정책 템플릿에 의해 데이터 누출과 함께, 우선 순위 사용자 그룹에 추가된 사용자는 심각도 수준이 더 높은 내부자 위험 경고 및 경고의 가능성이 증가합니다.
 
-![내부자 위험 관리 우선 순위 사용자 그룹 설정](../media/insider-risk-settings-priority-users.png)
+![내부자 위험 관리 우선 순위 사용자 그룹 설정입니다.](../media/insider-risk-settings-priority-users.png)
 
 우선 순위 사용자 그룹은 모든 분석가와 조사자에 의해 검토하도록 열지 않고 검토 활동을 특정 사용자 또는 내부자 위험 역할 그룹으로 제한해야 할 수도 있습니다. 개별 사용자 및 역할 그룹을 할당하여 각 우선 순위 사용자 그룹에 대한 사용자, 경고, 사례 및 보고서를 검토하도록 선택할 수 있습니다. 우선 순위 사용자 그룹에는 기본 제공 내부자 위험 *관리,* 내부자 위험 관리  분석가 및 내부자 위험 관리 조사자 역할 그룹, 이러한 역할 그룹 중 하나 이상 또는 사용자 지정 선택에 할당된 검토 권한이 할당될 *수* 있습니다.
 
@@ -339,7 +339,7 @@ Security & 규정 준수 경고에 대한 내부자 위험 관리 경고에 대�
 
 물리적 배지 데이터 커넥터를 Microsoft 365 물리적 배지 시스템에서 액세스 정보를 가져오고 내부자 위험 관리에서 우선 순위 물리적 자산을 지정하도록 선택할 수 있습니다. 배지 시스템에서 정보를 가져오고 실제 액세스 정보를 내부자 위험 관리에 식별된 다른 위험 활동과 상호 관련하면 프로젝트의 사용자 중 한 명은 정상 근무 시간 후에 프로젝트 사무실에 액세스하고 있으며, 일반 작업 영역의 개인 클라우드 저장소 서비스로 많은 양의 데이터를 내보낼 수 있습니다. 온라인 활동과 관련된 이러한 물리적 액세스 활동은 가능한 데이터 도용 및 규정 준수 조사자 및 분석가가 해당 사용자의 상황에 따라 적절한 조치를 취할 수 있습니다.
 
-![내부자 위험 관리 우선 순위 물리적 자산](../media/insider-risk-settings-priority-assets.png)
+![내부자 위험 관리 우선 순위 물리적 자산입니다.](../media/insider-risk-settings-priority-assets.png)
 
 ### <a name="configure-priority-physical-assets"></a>우선 순위 물리적 자산 구성
 
@@ -408,8 +408,6 @@ Security & 규정 준수 경고에 대한 내부자 위험 관리 경고에 대�
 
 > [!IMPORTANT]
 > 조직의 다른 사용자가 흐름에 액세스해야 하는 경우 흐름을 공유해야 합니다.
-
-![내부자 위험 관리 전원 흐름 자동화](../media/insider-risk-settings-power-automate-flows.png)
 
 ### <a name="create-a-custom-power-automate-flow-for-insider-risk-management"></a>내부자 위험 Power Automate 사용자 지정 관리 흐름 만들기
 
@@ -488,7 +486,7 @@ Security & 규정 준수 경고에 대한 내부자 위험 관리 경고에 대�
 3. 내부자 Microsoft Teams 통합을 사용하도록 설정
 4. 저장을 **선택하여** 구성하고 종료합니다.
 
-![내부자 위험 관리 Microsoft Teams](../media/insider-risk-settings-teams.png)
+![내부자 위험 관리 Microsoft Teams.](../media/insider-risk-settings-teams.png)
 
 ### <a name="create-a-microsoft-teams-team-for-existing-cases"></a>기존 사례에 Microsoft Teams 팀 만들기
 
@@ -533,13 +531,13 @@ Security & 규정 준수 경고에 대한 내부자 위험 관리 경고에 대�
 2. 내부자 위험  **관리** 개요 탭의 조직 카드에서 내부자 위험 검사에서 검사 **실행을** 선택합니다. 그러면 조직에 대한 분석 검색이 설정됩니다. 내부자 위험 설정 분석을 이동하고 테넌트의 사용자 활동 검색을 사용하도록 설정하여 잠재적인 내부자 위험을 식별하여 조직에서 검색을 하도록 할  >   **수도 있습니다.**
 3. 분석 **세부 정보 창에서**  검사 실행을 선택하여 조직에 대한 검색을 시작합니다. 분석 검사 결과가 검토를 위해 보고서로 제공되기까지 최대 24시간이 걸릴 수 있습니다.
 
-![내부자 위험 관리 분석 설정](../media/insider-risk-settings-analytics-enable.png)
+![내부자 위험 관리 분석 설정입니다.](../media/insider-risk-settings-analytics-enable.png)
 
 ### <a name="viewing-analytics-insights-and-creating-new-policies"></a>분석 인사이트 보기 및 새 정책 만들기
 
 조직에 대한 첫 번째 분석 검사가 완료되면 사용자가 위험할 수 있는 활동에 대한 인사이트 및 권장 사항을 볼 수 있습니다. 조직에 대한 분석을 해제하지 않으면 매일 검색이 계속됩니다. 조직의 잠재적인 위험을 확인하려면 개요 탭으로 이동하여  내부자 위험 분석(미리 **보기) 카드에서** 결과 보기를 선택합니다.  조직에 대한 검사가 완료되지 않은 경우 검사가 여전히 활성 상태인 메시지가 표시됩니다.
 
-![내부자 위험 관리 분석 보고서 준비 카드](../media/insider-risk-analytics-ready-card.png)
+![내부자 위험 관리 분석 보고서 준비 카드.](../media/insider-risk-analytics-ready-card.png)
 
 완료된 검사의 경우 조직에서 발견된 잠재적인 위험과 이러한 위험을 해결하기 위한 인사이트 및 권장 사항을 볼 수 있습니다. 식별된 위험 및 특정 인사이트는 영역별 그룹화된 보고서, 식별된 위험의 총 사용자 수, 잠재적으로 위험한 활동이 있는 사용자의 백분율 및 이러한 위험을 완화하는 데 도움이 되는 권장 내부자 위험 정책에 포함됩니다. 보고서에는 다음이 포함됩니다.
 
@@ -547,11 +545,11 @@ Security & 규정 준수 경고에 대한 내부자 위험 관리 경고에 대�
 - **데이터 도용** 정보: 조직 외부의 정보를 위험하게 공유하거나 악의적인 의도가 있는 사용자의 데이터 도용을 포함할 수 있는 Azure Active Directory 계정이 삭제된 사용자 또는 사용자를 떠날 수 있는 활동입니다.
 - **상위 유출 정보:** 조직 외부의 데이터 공유를 포함할 수 있는 모든 사용자의 활동입니다.
 
-![내부자 위험 관리 분석 개요 보고서](../media/insider-risk-analytics-overview.png)
+![내부자 위험 관리 분석 개요 보고서입니다.](../media/insider-risk-analytics-overview.png)
 
 인사이트에 대한 자세한  정보를 표시하려면 세부 정보 보기를 선택하여 인사이트에 대한 세부 정보 창을 표시합니다. 세부 정보 창에는 전체 인사이트 결과, 내부자 위험  정책 권장 사항 및 권장 정책을 빠르게 만드는 데 도움이 되는 정책 만들기 단추가 포함되어 있습니다. 정책 만들기를 선택하면 정책 마법사로 연결되고 인사이트와 관련된 권장 정책 템플릿이 자동으로 선택됩니다. 예를 들어 분석 정보가 데이터  누출 활동에  대한 것이면 일반 데이터 누출 정책 템플릿은 정책 마법사에서 미리 선택됩니다.
 
-![내부자 위험 관리 분석 세부 정보 보고서](../media/insider-risk-analytics-details.png)
+![내부자 위험 관리 분석 세부 정보 보고서.](../media/insider-risk-analytics-details.png)
 
 ### <a name="turn-off-analytics"></a>분석 끄기
 

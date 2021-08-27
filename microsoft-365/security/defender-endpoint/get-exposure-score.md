@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: bc7e1cc6cb19f19fcd9cdd826a6df591abb388313f6680c74a6393e13decd3be
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 903176b8c163dcd47e1e11c6c5a82c1ff7363540
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884806"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610990"
 ---
 # <a name="get-exposure-score"></a>노출 점수 가져오기
 
@@ -37,19 +37,18 @@ ms.locfileid: "53884806"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 조직 노출 점수를 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
-:---|:---|:---
-응용 프로그램 | Score.Read.All | '위협 및 취약성 관리 점수 읽기'
-위임(직장 또는 학교 계정) | Score.Read | '위협 및 취약성 관리 점수 읽기'
+사용 권한 유형|사용 권한|사용 권한 표시 이름
+---|---|---
+응용 프로그램|Score.Read.All|'위협 및 취약성 관리 점수 읽기'
+위임(직장 또는 학교 계정)|Score.Read|'위협 및 취약성 관리 점수 읽기'
 
 ## <a name="http-request"></a>HTTP 요청
 
@@ -60,8 +59,8 @@ GET /api/exposureScore
 ## <a name="request-headers"></a>요청 헤더
 
 이름|유형|설명
-:---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
+---|---|---
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -85,8 +84,8 @@ GET https://api.securitycenter.microsoft.com/api/exposureScore
 
 다음은 응답의 예입니다.
 
->[!NOTE]
->여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다. 
+> [!NOTE]
+> 여기에 표시된 응답 목록은 표시가 까다로우면 자르기될 수 있습니다.
 
 ```json
 {
@@ -94,7 +93,6 @@ GET https://api.securitycenter.microsoft.com/api/exposureScore
     "time": "2019-12-03T07:23:53.280499Z",
     "score": 33.491554051195706
 }
-
 ```
 
 ## <a name="see-also"></a>참고 항목

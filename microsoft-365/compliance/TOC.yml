@@ -259,6 +259,8 @@
           items:
             - name: 데이터 손실 방지 계획
               href: dlp-overview-plan-for-dlp.md
+            - name: 데이터 손실 방지 정책 참조
+              href: dlp-policy-reference.md
         - name: DLP를 사용하여 시작
           items:
             - name: 기본 DLP 정책을 사용하여 시작

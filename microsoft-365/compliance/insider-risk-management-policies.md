@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 155195ef2c7083bf6d792ccd1b77584d43ba3be27414ac3b27013af6f774cd09
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 37918c9078231b80f1b41ddf063df92f5cd2aace
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53905520"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569060"
 ---
 # <a name="insider-risk-management-policies"></a>내부 위험 관리 정책
 
@@ -36,7 +36,7 @@ ms.locfileid: "53905520"
 - **경고에 대해 수행된 작업**: 지난 365일 동안 확인되거나 해제된 총 경고 수입니다.
 - **정책 경고 효율성**: 확인된 총 경고 수를 경고에 대한 총 작업으로 나눈 비율입니다(지난 1년간 확인되거나 해지된 경고의 합계).
 
-![내부 위험 관리 정책 대시보드](../media/insider-risk-policy-dashboard.png)
+![내부자 위험 관리 정책 대시보드.](../media/insider-risk-policy-dashboard.png)
 
 ## <a name="policy-recommendations-from-analytics-preview"></a>분석의 정책 권장 사항(미리 보기)
 
@@ -72,7 +72,7 @@ ms.locfileid: "53905520"
 
 - 이 내부 위험 관리 템플릿에 사용되는 DLP 정책의 **인시던트 보고서** 규칙 설정이 *높음* 심각도 수준 경고에 대해 구성되었는지 확인합니다. *높음* 심각도 수준은 트리거링 이벤트이며 **인시던트 보고서** 필드가 *낮음* 또는 *중간* 으로 설정된 DLP 정책의 규칙에서 내부 위험 관리 경고가 생성되지 않습니다.
 
-    ![DLP 정책 경고 설정](../media/insider-risk-DLP-policy-high-severity.png)
+    ![DLP 정책 경고 설정입니다.](../media/insider-risk-DLP-policy-high-severity.png)
 
      > [!NOTE]
      > 기본 제공 템플릿을 사용하여 새 DLP 정책을 만들 때 **고급 DLP 규칙 만들기 또는 사용자 지정** 옵션을 선택하여 *높음* 심각도 수준에 대한 **인시던트 보고서** 설정을 구성해야 합니다.
@@ -208,7 +208,9 @@ ms.locfileid: "53905520"
 
 권장 사항 또는 경고에 대한 자세한 내용은 **정책** 탭에서 정책을 선택하여 정책 세부 정보 카드를 엽니다. 이러한 문제를 해결하는 방법에 대한 지침을 포함하여 권장 사항 및 경고에 대한 자세한 내용은 세부 정보 카드의 알림 섹션에 표시됩니다.
 
-![내부자 위험 관리 정책 상태](../media/insider-risk-policy-health.png)
+![내부자 위험 관리 정책 상태입니다.](../media/insider-risk-policy-health.png)
+
+### <a name="notification-messages"></a>알림 메시지
 
 다음 표를 사용하여 잠재적인 문제를 해결하기 위해 수행할 권장 사항 및 경고 알림 및 작업에 대해 자세히 알아봅니다.
 

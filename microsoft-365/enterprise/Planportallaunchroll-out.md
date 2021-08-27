@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 SharePoint Online에서 포털 시작을 계획하는 방법과 성공적인 실행을 위해 취할 단계에 대해 설명합니다.
-ms.openlocfilehash: abbcb1b69860046d479c4e2808a83b67cfd9e3427e16da5c175ee37cda36a4f2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 82c4db0ccf544c66746c2a8b01e9b932a7f64564
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891342"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58552879"
 ---
 # <a name="planning-your-portal-launch-roll-out-plan-in-sharepoint-online"></a>SharePoint Online에서 포털 시작 롤아웃 계획
 
@@ -70,7 +70,7 @@ SharePoint Online에 대한 권장 지침에 따라 페이지를 검토하지 �
   
 다음 이미지와 같이 초대된 사용자 수가 실제로 사이트를 사용하는 사용자보다 훨씬 많은 경우가 종종 있습니다. 이 이미지는 릴리스를 롤아웃하는 방법에 대한 전략을 보여줍니다. 이 방법을 사용하면 대부분의 사용자가 보기 전에 SharePoint 사이트를 개선하는 방법을 식별할 수 있습니다.
   
-![초대받은 사용자 및 활성 사용자를 보여 주는 그래프](../media/0bc14a20-9420-4986-b9b9-fbcd2c6e0fb9.png)
+![Graph 활성 사용자를 보여 주면 됩니다.](../media/0bc14a20-9420-4986-b9b9-fbcd2c6e0fb9.png)
   
 파일럿 단계에서는 조직이 신뢰하고 참여할 것으로 알고 있는 사용자로부터 피드백을 받을 수 있습니다. 이렇게 하면 시스템이 어떻게 사용되는지와 시스템이 어떻게 수행되고 있는지를 측정할 수 있습니다.
   

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 비영리 Microsoft 365 분석용 검토 집합으로 가져오는 방법을 Advanced eDiscovery 방법을 참조합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fe4863321997ba6b81be2257b6ef44c83bc34cb2
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 65244b74cd868c4ec308327d15a070e67b9ac551
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508265"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569048"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>Microsoft가 아닌 365 데이터를 검토 집합에 로드
 
@@ -49,7 +49,7 @@ ms.locfileid: "58508265"
 
    여기서 abraham.mcmahon@contoso.com, jewell.gordon@contoso.com 및 staci.gonzalez@contoso.com 은(는) 거래자에 대한 SMTP 주소입니다.
 
-   ![비영리 Microsoft 365 업로드 폴더 구조](../media/3f2dde84-294e-48ea-b44b-7437bd25284c.png)
+   ![비데이터 Microsoft 365 업로드 폴더 구조입니다.](../media/3f2dde84-294e-48ea-b44b-7437bd25284c.png)
 
 - eDiscovery 관리자 역할 그룹에 할당되어 eDiscovery 관리자로 추가된 계정입니다.
 
@@ -66,17 +66,17 @@ ms.locfileid: "58508265"
 
 4. **파일 업로드** 를 클릭하여 데이터 가져오기 마법사를 시작합니다.
 
-   ![파일 업로드](../media/574f4059-4146-4058-9df3-ec97cf28d7c7.png)
+   ![업로드 파일.](../media/574f4059-4146-4058-9df3-ec97cf28d7c7.png)
 
    마법사의 첫 번째 단계에서는 파일을 업로드할 안전한 Microsoft 제공 Azure Storage 위치를 준비합니다.  준비가 완료되면 **다음: 파일 업로드** 버튼이 활성화됩니다.
 
-   ![비영리 Microsoft 365 가져오기: 준비](../media/0670a347-a578-454a-9b3d-e70ef47aec57.png)
+   ![비영구 Microsoft 365 가져오기: 준비.](../media/0670a347-a578-454a-9b3d-e70ef47aec57.png)
  
 5. **다음: 파일 업로드** 를 클릭합니다.
 
 6. 파일 **업로드 페이지에서** 다음을 합니다.
 
-   ![비 Microsoft 365 가져오기: 업로드 파일](../media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
+   ![비영구 Microsoft 365 가져오기: 업로드.](../media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
 
    a. 파일 **위치** 경로 상자에서 업로드할 비영구 데이터를 저장한 루트 폴더의 위치를 확인하거나 Microsoft 365 입력합니다. 예를 들어 시작하기 전에 섹션에 표시된 예제 파일의 위치에 대해 **onO365에 %USERPROFILE\Downloads\n입력합니다.** 올바른 위치를 제공하면 경로 아래에 표시된 AzCopy 명령이 올바르게 업데이트됩니다.
 
@@ -84,7 +84,7 @@ ms.locfileid: "58508265"
 
 7. 명령 Windows 시작하고 이전 단계에서 복사한 명령을 붙여 넣은 다음 **Enter를** 눌러 AzCopy 명령을 시작합니다.  명령을 시작하면 비 Microsoft 365 파일이 4단계에서 준비된 Azure Storage 위치로 업로드됩니다.
 
-   ![비영구 Microsoft 365: AzCopy](../media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
+   ![비영구 Microsoft 365 가져오기: AzCopy.](../media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
 
    > [!NOTE]
    > 앞서 설명한 것 처럼 AzCopy v8.1을 사용하여 파일 페이지에서 제공된 명령을 업로드 **합니다.** 제공된 AzCopy 명령이 실패하면 에서 [AzCopy 문제 해결을 Advanced eDiscovery.](troubleshooting-azcopy.md)
@@ -93,6 +93,6 @@ ms.locfileid: "58508265"
 
 9. 검토 집합에 비영구  데이터 추가라는 작업을  확인하여 파일 처리 페이지 또는 작업 탭에서 Microsoft 365 **진행률을 추적합니다.**  작업이 완료되면 검토 집합에서 새 파일을 사용할 수 있습니다.
 
-   ![비 Microsoft 365 가져오기: 파일 처리](../media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
+   ![비영구 Microsoft 365: 파일 처리.](../media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
 
 10. 처리가 완료되면 마법사를 닫을 수 있습니다.

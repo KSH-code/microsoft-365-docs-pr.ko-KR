@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 61d76d873005c2bdd37fc37f05cf6e520a302647
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 7a4176e5b375c32edb1e1fae3ab74f0760f28366
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247956"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595153"
 ---
 # <a name="manage-access-to-microsoft-365-defender-with-azure-active-directory-global-roles"></a>전역 역할을 사용하여 Microsoft 365 Defender 액세스 Azure Active Directory 관리
 
@@ -54,7 +54,7 @@ ms.locfileid: "58247956"
 > 이 문서는 전역 역할 관리에만 Azure Active Directory 적용됩니다. 사용자 지정 역할 기반 액세스 제어 사용에 대한 자세한 내용은 역할 기반 액세스 제어에 대한 사용자 지정 [역할을 참조하세요.](custom-roles.md)
 
 ## <a name="access-to-functionality"></a>기능에 대한 액세스 권한
-특정 기능에 대한 액세스 권한은 [Azure AD 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)에 따라 결정됩니다. 사용자 또는 사용자 그룹에 새 역할을 할당해야 하는 특정 기능에 액세스해야 하는 경우 전역 관리자에게 문의하세요.
+특정 기능에 대한 액세스 권한은 [Azure AD 역할](/azure/active-directory/roles/permissions-reference)에 따라 결정됩니다. 사용자 또는 사용자 그룹에 새 역할을 할당해야 하는 특정 기능에 액세스해야 하는 경우 전역 관리자에게 문의하세요.
 
 ### <a name="approve-pending-automated-tasks"></a>보류 중인 자동 작업 승인
 [자동화된 검사 및 조치](m365d-autoir-actions.md)는 전자 메일, 전달 규칙, 파일, 유지 메커니즘 및 조사 중에 찾은 기타 아티팩트에 대한 조치를 취할 수 있습니다. 명시적 승인이 필요한 보류 중인 작업을 승인하거나 거부하려면 Microsoft 365에서 할당된 특정 역할이 있어야 합니다. 자세한 내용은 [작업 센터 사용 권한](m365d-action-center.md#required-permissions-for-action-center-tasks)을 참조하세요.
@@ -69,6 +69,6 @@ ms.locfileid: "58247956"
 
 ## <a name="related-topics"></a>관련 항목
 - [역할 기반 액세스 제어에서 사용자 지정 역할 Microsoft 365 Defender](custom-roles.md)
-- [Azure AD 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+- [Azure AD 기본 제공 역할](/azure/active-directory/roles/permissions-reference)
 - [끝점 RBAC용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/rbac)
 - [Cloud App Security 역할](/cloud-app-security/manage-admins)

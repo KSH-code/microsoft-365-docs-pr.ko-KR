@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 Microsoft 365 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: 7240e226cf70b2666f6e0bc9180aea3ee63bdc91
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: c61d6ee0a3f577d27c306631ea9f57d8cb3d7c2a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356303"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58552867"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -41,7 +41,7 @@ Contoso는 데이터를 분석하고 다음 분류 수준을 결정했습니다.
 다음 표에는 Contoso 정보 정책이 나열됩니다.
 
 
-| 값 | 액세스 | 데이터 보존 | 정보 보호 |
+| 값 | Access | 데이터 보존 | 정보 보호 |
 |:-------|:-----|:-----|:-----|
 | 비즈니스 가치가 낮은 데이터(수준 1: 기본 데이터) | 모두에 대한 액세스를 허용합니다.  | 6개월 | 암호화 사용. |
 | 비즈니스 가치가 중간 정도인 데이터(수준 2: 중요 데이터) | Contoso 직원, 하도급업자 및 파트너에 대한 액세스를 허용합니다. <BR><BR> MFA, TLS(전송 계층 보안) 및 MAM(모바일 응용 프로그램 관리) 사용. | 2년  | 데이터 무결성을 위해 해시 값 사용.  |
@@ -82,7 +82,7 @@ Contoso는 Exchange Online 및 SharePoint 롤아웃의 일환으로 다음과 �
 
 정보 보호를 위한 Contoso 정책의 결과 집합은 다음과 있습니다.
 
-![장치, Exchange Online 및 SharePoint 조건부 액세스 정책](../media/contoso-info-protect/contoso-info-protect-fig1.png)
+![조건부 액세스 Exchange Online, SharePoint 장치, 정책 및 장치.](../media/contoso-info-protect/contoso-info-protect-fig1.png)
 
 >[!Note]
 >또한 Contoso는 ID 및 로그인에 대한 조건부 액세스 정책을 추가로 구성했습니다. [Contoso Corporation ID](contoso-identity.md#conditional-access-policies-for-identity-and-device-access)를 참조하세요.
@@ -109,7 +109,7 @@ Contoso는 Exchange Online 및 SharePoint 롤아웃의 일환으로 다음과 �
 
 결과 Contoso 정보 보호 구성은 다음과 있습니다.
 
-![Contoso의 결과 정보 보호 구성](../media/contoso-info-protect/contoso-info-protect-fig2.png)
+![Contoso의 결과 정보 보호 구성입니다.](../media/contoso-info-protect/contoso-info-protect-fig2.png)
 
 ## <a name="next-step"></a>다음 단계
 

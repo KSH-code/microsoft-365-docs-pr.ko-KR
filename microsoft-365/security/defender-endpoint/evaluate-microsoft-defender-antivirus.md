@@ -15,12 +15,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 93bc842f64139bce2ce5615868e77b4418e40f5dac7956711b7f5a08e60fcd42
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7f68efdcf74317efeb1683b1cc5efcdf1f43fafa
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794021"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599294"
 ---
 # <a name="evaluate-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신 평가
 
@@ -33,11 +33,12 @@ ms.locfileid: "53794021"
 
 이 가이드를 사용하여 바이러스, 맬웨어 및 Microsoft Defender 바이러스 백신 응용 프로그램을 보호할 수 있는 방법을 결정할 수 있습니다.
 
->[!TIP]
+> [!TIP]
 >Microsoft Defender for [Endpoint](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 데모 웹 사이트를 방문하여 demo.wd.microsoft.com 작동을 확인하고 작동 방법을 확인할 수 있습니다.
->- 클라우드 제공 보호
->- 빠른 학습(신속한 차단 포함)
->- 잠재적으로 원치 않는 응용 프로그램 차단
+>
+> - 클라우드 제공 보호
+> - 빠른 학습(신속한 차단 포함)
+> - 잠재적으로 원치 않는 응용 프로그램 차단
 
 또한 중소기업과 대기업 둘 다에서 사용할 수 있는 Microsoft Defender 바이러스 백신 중요한 차세대 보호 기능과 네트워크에서 맬웨어 감지 및 보호를 강화하는 방법에 대해 설명하고 있습니다.
 
@@ -56,7 +57,7 @@ ms.locfileid: "53794021"
 >
 > 네트워크에서 실제 배포 및 모니터링을 위한 최신 권장 사항은 Microsoft Defender 바이러스 백신 [배포를 Microsoft Defender 바이러스 백신.](deploy-manage-report-microsoft-defender-antivirus.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
 - [배포 Microsoft Defender 바이러스 백신](deploy-manage-report-microsoft-defender-antivirus.md)

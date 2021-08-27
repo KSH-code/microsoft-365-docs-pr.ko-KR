@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: ed8fd13aa84fc807c75db99f7ed06fab8dcfbf65631c51bf51afcf295f66c965
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c7a7b3a09a8e8c7cc1a20beab8e2a895702eea27
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794165"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595341"
 ---
 # <a name="turn-on-cloud-delivered-protection"></a>클라우드 제공 보호 켜기
 
@@ -59,7 +59,7 @@ Microsoft Defender 바이러스 백신 및 방지 기술을 사용하여 정확�
 
 3. 구성할 **장치 제한 프로필** 유형을 선택합니다. 새 장치 제한 프로필  유형을 만들어야 하는 경우 에서 장치 제한 설정 [구성을 Microsoft Intune.](/intune/device-restrictions-configure)
 
-4. 속성 **구성**  >  **설정: 편집 Microsoft Defender 바이러스 백신.**  >  
+4. 속성 **구성** \> **설정: 편집 Microsoft Defender 바이러스 백신.** \> 
 
 5. 클라우드 제공 **보호 스위치에서** 사용 을 **선택합니다.**
 
@@ -71,7 +71,7 @@ Microsoft Defender 바이러스 백신 및 방지 기술을 사용하여 정확�
 
 1. Microsoft Endpoint Manager 관리 센터()로 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 이동하여 로그인합니다.
 
-2. 끝점 **보안 바이러스 백신**  >  **을 선택 합니다.**
+2. 끝점 **보안 바이러스 백신** \> **을 선택 합니다.**
 
 3. 바이러스 백신 프로필을 선택합니다. (아직 프로필이 없는 경우 또는 새 프로필을 만들하려는 경우 에서 장치 제한 설정 [구성을 Microsoft Intune.](/intune/device-restrictions-configure)
 
@@ -99,12 +99,12 @@ Microsoft Defender 바이러스 백신 및 방지 기술을 사용하여 정확�
 5. **Microsoft MAPS에 가입을 두 번 클릭합니다.** 옵션이 켜져 있으며 기본 **MAPS** 또는 고급 **지도로 설정되어 있는지 확인** **확인** 을 선택합니다.
 
 6. 추가 분석이 필요한 경우 파일 샘플 **보내기 를 두 번 클릭합니다.** 첫 번째 옵션이 **사용으로** 설정되어 있으며 다른 옵션이 다음 중 하나로 설정되어 있는지 확인합니다.
-
     1. **안전한 샘플 보내기(1)**
     2. **모든 샘플 보내기(3)**
 
-        >[!NOTE]
+        > [!NOTE]
         > 안전한 **샘플 보내기(1)** 옵션은 대부분의 샘플이 자동으로 전송됩니다. 개인 정보를 포함할 수 있는 파일은 계속 묻는 메시지를 표시하며 추가 확인이 요구됩니다.
+        >
         > 옵션을 항상  프롬프트(0)로 설정하면 장치의 보호 상태가 낮아지게 됩니다. 보내지 **않습니다(2)로** 설정하면 [](configure-block-at-first-sight-microsoft-defender-antivirus.md) 끝점용 Microsoft Defender의 즉시 차단 기능이 작동하지 않습니다.
 
 7. **확인** 을 선택합니다.
@@ -120,10 +120,10 @@ Set-MpPreference -SubmitSamplesConsent SendAllSamples
 
 PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 Microsoft Defender 바이러스 백신 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet](/powershell/module/defender/)구성 및 실행을 참조하세요. [정책 CSP - Defender에는](/windows/client-management/mdm/policy-csp-defender) [-SubmitSamplesConsent에](/windows/client-management/mdm/policy-csp-defender#defender-submitsamplesconsent)대한 자세한 정보도 있습니다.
 
->[!NOTE]
+> [!NOTE]
 > **-SubmitSamplesConsent를** (기본 설정) 또는 로 설정할 `SendSafeSamples` `NeverSend` 수도 `AlwaysPrompt` 있습니다. 이 `SendSafeSamples` 설정은 대부분의 샘플이 자동으로 전송됩니다. 개인 정보를 포함할 수 있는 파일은 계속 묻는 메시지를 표시하며 추가 확인이 요구됩니다.
 
->[!WARNING]
+> [!WARNING]
 > **-SubmitSamplesConsent를** 설정하거나 장치의 보호 수준을 `NeverSend` `AlwaysPrompt` 낮출 수 있습니다. 또한 이를 로 설정하면 `NeverSend` 끝점용 Microsoft [](configure-block-at-first-sight-microsoft-defender-antivirus.md) Defender의 즉시 차단 기능이 작동하지 않습니다.
 
 ## <a name="use-windows-management-instruction-wmi-to-turn-on-cloud-delivered-protection"></a>WMI(Windows 관리 지침)를 사용하여 클라우드 제공 보호 켜기

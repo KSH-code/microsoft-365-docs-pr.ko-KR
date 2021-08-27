@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6392a73541c8813179527d0da4ade57fa74794153f0d809fcb3fc667b16318dd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c1a51ec4d2e17275379eb40521f506e4a83d19ef
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829617"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595415"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>끝점용 Microsoft Defender 평가 랩
 
@@ -48,7 +48,7 @@ ms.locfileid: "53829617"
 
 위협 시뮬레이터를 설치할 수 있습니다. Endpoint용 Defender는 업계를 선도하는 위협 시뮬레이션 플랫폼과 파트너가 되어 포털을 떠나지 않고도 끝점용 Defender 기능을 테스트할 수 있습니다.
 
- 원하는 시뮬레이터를 설치하고, 평가 랩 내에서 시나리오를 실행하고, 플랫폼의 기능을 즉시 확인하여 추가 비용도 무료로 모두 편리하게 사용할 수 있습니다. 또한 시뮬레이션 카탈로그에서 액세스하고 실행할 수 있는 다양한 시뮬레이션에 편리하게 액세스할 수 있습니다.
+원하는 시뮬레이터를 설치하고, 평가 랩 내에서 시나리오를 실행하고, 플랫폼의 기능을 즉시 확인하여 추가 비용도 무료로 모두 편리하게 사용할 수 있습니다. 또한 시뮬레이션 카탈로그에서 액세스하고 실행할 수 있는 다양한 시뮬레이션에 편리하게 액세스할 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -81,24 +81,24 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 ## <a name="setup-the-evaluation-lab"></a>평가 랩 설정
 
-1. 탐색 창에서 평가판 & **자습서**  >  **평가** 랩을 선택한 다음 설치 **랩 을 선택합니다.**
+1. 탐색 창에서 평가판 & **자습서** \> **평가** 랩을 선택한 다음 설치 **랩 을 선택합니다.**
 
-    :::image type="content" source="../../media/evaluationtutormenu.png" alt-text="평가 랩 시작 페이지 이미지":::
+    :::image type="content" source="../../media/evaluationtutormenu.png" alt-text="평가 랩 시작 페이지의 이미지입니다.":::
 
 2. 평가 요구에 따라 더 긴 기간 동안 더 적은 장치 또는 더 짧은 기간 동안 더 많은 장치를 사용하여 환경을 설정하기로 선택할 수 있습니다. 기본 설정 랩 구성을 선택한 후 다음 을 **선택합니다.**
 
-    ![랩 구성 옵션의 이미지](images/lab-creation-page.png)
+    ![랩 구성 옵션의 이미지입니다.](images/lab-creation-page.png)
 
 3. (선택 사항) 랩에 위협 시뮬레이터를 설치하도록 선택할 수 있습니다.
 
-    ![설치 시뮬레이터 에이전트의 이미지](images/install-agent.png)
+    ![설치 시뮬레이터 에이전트의 이미지입니다.](images/install-agent.png)
 
-    >[!IMPORTANT]
-    >먼저 약관 및 정보 공유 설명에 동의하고 동의해야 합니다.
+   > [!IMPORTANT]
+   > 먼저 약관 및 정보 공유 설명에 동의하고 동의해야 합니다.
 
 4. 사용할 위협 시뮬레이션 에이전트를 선택하고 세부 정보를 입력합니다. 나중에 위협 시뮬레이터를 설치하도록 선택할 수 있습니다. 랩 설치 중에 위협 시뮬레이션 에이전트를 설치하도록 선택한 경우 추가한 장치에 위협 시뮬레이션 에이전트를 편리하게 설치하는 이점을 즐길 수 있습니다.
 
-    ![요약 페이지 이미지](images/lab-setup-summary.png)
+    ![요약 페이지의 이미지입니다.](images/lab-setup-summary.png)
 
 5. 요약을 검토하고 설치 **랩을 선택합니다.**
 
@@ -137,26 +137,26 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 2. 추가할 디바이스 유형을 선택하십시오. Server 2019를 추가하거나 Windows 10 Windows 수 있습니다.
 
-    :::image type="content" source="../../media/add-machine-optionsnew.png" alt-text="디바이스 옵션을 사용하여 랩 설정":::
+    :::image type="content" source="../../media/add-machine-optionsnew.png" alt-text="디바이스 옵션을 사용하여 랩 설정.":::
 
-    > [!NOTE]
-    > 장치 만들기 프로세스에 문제가 있는 경우 알림을 보게 되고 새 요청을 제출해야 합니다. 장치 만들기가 실패하면 전체 허용 할당량에 대해 계산되지 않습니다.
+   > [!NOTE]
+   > 장치 만들기 프로세스에 문제가 있는 경우 알림을 보게 되고 새 요청을 제출해야 합니다. 장치 만들기가 실패하면 전체 허용 할당량에 대해 계산되지 않습니다.
 
 3. 연결 세부 정보가 표시됩니다. **디바이스의** 암호를 저장하려면 복사를 선택합니다.
 
-    > [!NOTE]
-    > 암호는 한 번만 표시됩니다. 나중에 사용하기 위해 저장해야 합니다.
+   > [!NOTE]
+   > 암호는 한 번만 표시됩니다. 나중에 사용하기 위해 저장해야 합니다.
 
-    :::image type="content" source="../../media/add-machine-eval-lab-new.png" alt-text="연결 세부 정보를 사용하여 추가된 디바이스의 이미지":::
+    :::image type="content" source="../../media/add-machine-eval-lab-new.png" alt-text="연결 세부 정보로 추가된 장치의 이미지입니다.":::
 
 4. 디바이스 설정이 시작됩니다. 약 30분 정도 걸릴 수 있습니다.
 
 5. 장치 탭을 선택하여 테스트 장치의 상태, 위험 및 노출 수준, 시뮬레이터 설치 상태를 볼 **수** 있습니다.
 
-    ![장치 탭의 이미지](images/machines-tab.png)
+    ![장치 탭의 이미지입니다.](images/machines-tab.png)
 
-    > [!TIP]
-    > 시뮬레이터 **상태** 열에서 정보 아이콘 위에 마우스를 여 에이전트의 설치 상태를 알 수 있습니다.
+   > [!TIP]
+   > 시뮬레이터 **상태** 열에서 정보 아이콘 위에 마우스를 여 에이전트의 설치 상태를 알 수 있습니다.
 
 ## <a name="request-for-more-devices"></a>추가 장치 요청
 
@@ -164,7 +164,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 1. 평가 랩 대시보드에서 추가 장치 **요청을 선택합니다.**
 
-   ![더 많은 장치에 대한 요청 이미지](images/request-more-devices.png)
+   ![더 많은 장치에 대한 요청의 이미지입니다.](images/request-more-devices.png)
 
 2. 구성을 선택 합니다.
 3. 요청을 제출합니다.
@@ -200,19 +200,22 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 1. 커넥트 를 선택하여 장치에 연결하고 를 선택하여 **공격 시뮬레이션을 커넥트.**
 
-    ![테스트 장치에 대한 연결 단추의 이미지](images/test-machine-table.png)
+    ![테스트 장치에 대한 연결 단추의 이미지입니다.](images/test-machine-table.png)
 
 2. RDP 파일을 저장하고 를 선택하여 **커넥트.**
 
-    ![원격 데스크톱 연결의 이미지](images/remote-connection.png)
+    ![원격 데스크톱 연결의 이미지입니다.](images/remote-connection.png)
 
-    >[!NOTE]
-    >초기 설정 중에 암호 복사본을 저장하지 않은 경우 메뉴에서 암호 다시  설정을 선택하여 암호를 다시 설정할 수 있습니다. 암호 재설정 ![ 이미지](images/reset-password-test-machine.png)<br>
+    > [!NOTE]
+    > 초기 설정 중에 암호 복사본을 저장하지 않은 경우 메뉴에서 암호 다시 설정을 선택하여 암호를 **다시** 설정할 수 있습니다.
+    >
+    > ![암호 재설정 이미지입니다.](images/reset-password-test-machine.png)
+    >
     > 디바이스의 상태가 "암호 재설정 실행"으로 변경되면 몇 분 후에 새 암호가 표시됩니다.
 
 3. 디바이스를 만들 때 표시된 암호를 입력합니다.
 
-   ![자격 증명을 입력할 창의 이미지](images/enter-password.png)
+   ![자격 증명을 입력할 창의 이미지입니다.](images/enter-password.png)
 
 4. 장치에서 Do-it-yourself 공격 시뮬레이션을 실행합니다.
 
@@ -233,13 +236,13 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 2. 위협 시뮬레이터를 선택합니다.
 
-    ![위협 시뮬레이터 선택 이미지](images/select-simulator.png)
+    ![위협 시뮬레이터 선택 이미지입니다.](images/select-simulator.png)
 
 3. 시뮬레이션을 선택하거나 시뮬레이션 갤러리를 살펴보고 사용 가능한 시뮬레이션을 탐색합니다.
 
     시뮬레이션 갤러리는 다음에서 얻을 수 있습니다.
     - 시뮬레이션 개요 타일의 주 평가 **대시보드 또는**
-    - 탐색 창 평가 및 자습서 시뮬레이션을 탐색하여  >  **자습서를 &** 시뮬레이션 **카탈로그를 선택합니다.**
+    - 탐색 창 평가 및 자습서  시뮬레이션을 탐색하여 \> **자습서를 &** 시뮬레이션 **카탈로그를 선택합니다.**
 
 4. 시뮬레이션을 실행할 디바이스를 선택합니다.
 
@@ -247,7 +250,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 6. 시뮬레이션 탭을 선택하여 시뮬레이션 **진행률을 니다.** 시뮬레이션 상태, 활성 경고 및 기타 세부 정보를 볼 수 있습니다.
 
-    ![시뮬레이션 탭의 이미지](images/simulations-tab.png)
+    ![시뮬레이션 탭의 이미지입니다.](images/simulations-tab.png)
 
 시뮬레이션을 실행한 후 랩 진행률 표시줄을 살펴보고 자동화된 조사 및 수정을 트리거한 **Endpoint용 Microsoft Defender를** 살펴보는 것이 좋습니다. 기능에서 수집 및 분석한 증거를 확인해 보아야 합니다.
 
@@ -257,27 +260,27 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 끝점용 Microsoft Defender는 다양한 위협 시뮬레이션 플랫폼과 파트너가 되어 포털 내에서 바로 플랫폼의 기능을 테스트할 수 있는 편리한 액세스 권한을 제공합니다.
 
-메뉴에서 시뮬레이션 및 자습서 시뮬레이션 카탈로그로 진행하여 사용 가능한 모든  >   시뮬레이션을 시청합니다.
+메뉴에서 시뮬레이션 및 자습서  시뮬레이션 카탈로그로 진행하여 사용 가능한 모든 \>  시뮬레이션을 시청합니다.
 
 지원되는 타사 위협 시뮬레이션 에이전트 목록이 나열되어 있으며, 자세한 설명과 함께 특정 유형의 시뮬레이션이 카탈로그에 제공됩니다.
 
 카탈로그에서 사용 가능한 시뮬레이션을 편리하게 실행할 수 있습니다.
 
-![시뮬레이션 카탈로그 이미지](images/simulations-catalog.png)
+![시뮬레이션 카탈로그의 이미지입니다.](images/simulations-catalog.png)
 
 각 시뮬레이션에는 공격 시나리오에 대한 자세한 설명과 사용되는 MITRE 공격 기술 및 실행한 샘플 고급 헌팅 쿼리와 같은 참조가 함께 표시됩니다.
 
 **예제:**
 
-![시뮬레이션 설명 세부 정보의 이미지1](images/simulation-details-aiq.png)
+![시뮬레이션 설명 세부 정보의 이미지1.](images/simulation-details-aiq.png)
 
-![시뮬레이션 설명 세부 정보의 이미지2](images/simulation-details-sb.png)
+![시뮬레이션 설명 세부 정보의 이미지2.](images/simulation-details-sb.png)
 
 ## <a name="evaluation-report"></a>평가 보고서
 
 랩 보고서에는 디바이스에서 수행된 시뮬레이션의 결과가 요약됩니다.
 
-![평가 보고서의 이미지](images/eval-report.png)
+![평가 보고서의 이미지입니다.](images/eval-report.png)
 
 다음을 빠르게 볼 수 있습니다.
 
@@ -294,4 +297,4 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 피드백 제공 을 선택하여 의견을 **알려주세요.**
 
-![피드백 제공 이미지](images/send-us-feedback-eval-lab.png)
+![피드백 제공 이미지입니다.](images/send-us-feedback-eval-lab.png)

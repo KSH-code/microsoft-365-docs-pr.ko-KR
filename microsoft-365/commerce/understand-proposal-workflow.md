@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Microsoft 제품 및 서비스를 구입하는 데 도움이 되는 제안에 대해 자세히 알아보습니다.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: 10d4d531acc0e4a323cde6d1034c626419a58a4b06b40be76c0d292c7679ac28
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 165843edcd890f4f7fc743a2b4c4181638409ff7
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53852034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599400"
 ---
 # <a name="understand-the-proposal-workflow"></a>제안 워크플로 이해
 
@@ -63,7 +63,7 @@ MCA(Microsoft 고객 계약)를 통해 조직은 Microsoft 제품 및 서비스�
 
 - 제안에 명명된 사람\
     또는
-- 이미 조직의 Azure Active Directory [전역](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 관리자인 경우
+- 이미 조직의 Azure Active Directory [전역](/azure/active-directory/roles/permissions-reference#global-administrator) 관리자인 경우
 
 ## <a name="what-is-the-overall-workflow"></a>전체 워크플로란?
 

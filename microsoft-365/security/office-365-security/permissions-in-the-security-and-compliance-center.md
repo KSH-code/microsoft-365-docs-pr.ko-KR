@@ -19,12 +19,12 @@ description: 관리자는 보안 및 준수 센터의 보안 및 준수 센터�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1eb65f31809afb03760bf7be0a08cb0651e5de756fbd3bcd0fc04f52f23a9708
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 41eb92fd5e36d4067f959cae564f3e2bf86f2c62
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56815234"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585587"
 ---
 # <a name="permissions-in-the-security--compliance-center"></a>보안 및 규정 준수 센터의 사용 권한
 
@@ -39,7 +39,7 @@ ms.locfileid: "56815234"
 
 보안 및 준수 & 권한은 RBAC(역할 기반 액세스 제어) 권한 모델을 기반으로 합니다. RBAC는 Exchange 사용 권한 모델과 동일하기 때문에 Exchange 익숙한 경우 보안 & 준수 센터에서 사용 권한을 부여하는 것은 매우 유사합니다. 그러나 보안 및 준수 센터 역할 Exchange 그룹과 보안 & 구성원 자격 또는 사용 권한을 공유하지는 않습니다. 두 역할 그룹이 모두 조직 관리 역할 그룹을 갖지만 둘은 다른 것입니다. 부여하는 사용 권한과 역할 그룹의 구성원이 서로 다릅니다. 아래에는 보안 및 준수 센터 & 목록이 있습니다.
 
-![보안 및 준수 센터의 & 페이지](../../media/992c20ca-e82e-497c-9c8d-6fab212deb80.png)
+![보안 및 준수 센터의 & 페이지입니다.](../../media/992c20ca-e82e-497c-9c8d-6fab212deb80.png)
 
 ## <a name="relationship-of-members-roles-and-role-groups"></a>구성원, 역할 및 역할 그룹의 관계
 
@@ -49,7 +49,7 @@ ms.locfileid: "56815234"
 
 보안 & 준수 센터에는 사용자에게 할당해야 하는 가장 일반적인 작업 및 기능에 대한 기본 역할 그룹이 포함되어 있습니다. 개별 사용자를 기본 역할 그룹에 **구성원으로** 추가하는 것이 좋습니다.
 
-![역할 그룹에 역할 및 멤버의 관계를 보여 주는 다이어그램](../../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
+![역할 그룹과 역할 및 구성원의 관계를 보여주는 다이어그램](../../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
 
 ## <a name="role-groups-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 그룹
 
@@ -81,7 +81,7 @@ ms.locfileid: "56815234"
 |**준수 관리자의 읽기 권한자**|관리자 기능을 제외한 모든 준수 관리자 콘텐츠를 시청하세요.|준수 관리자의 독자|
 |**콘텐츠 탐색기 콘텐츠 뷰어**|콘텐츠 탐색기에서 콘텐츠 파일을 니다.|데이터 분류 콘텐츠 뷰어|
 |**콘텐츠 탐색기 목록 뷰어**|콘텐츠 탐색기에서 목록 형식으로만 모든 항목을 볼 수 있습니다.|데이터 분류 목록 뷰어|
-|**eDiscovery 관리자(Manager)**|구성원은 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치에서 검색을 수행하고 원본 위치를 유지할 수 있습니다. 또한 구성원은 eDiscovery 사례를 만들고 관리하고, 사례에 구성원을 추가 및 제거하고, 사례와 연결된 콘텐츠 검색을 만들고 편집하고, 사례 데이터에서 사례 데이터에 액세스할 Advanced eDiscovery. <p> eDiscovery 관리자는 추가 사용 권한이 할당된 eDiscovery 관리자 역할 그룹의 구성원입니다. eDiscovery 관리자가 수행할 수 있는 작업 외에도 eDiscovery 관리자는 다음 작업을 수행할 수 있습니다.<ul><li>조직의 모든 eDiscovery 사례를 시청합니다.</li><li>케이스에 본인을 구성원으로 추가하고, eDiscovery 케이스 관리.</li></ul> <p> eDiscovery 관리자와 eDiscovery 관리자의 주요 차이점은 eDiscovery 관리자가 보안 및 준수 센터의 **eDiscovery** 사례 페이지에 나열된 모든 사례에 액세스할 & 있습니다. eDiscovery 관리자는 만든 사례 또는 구성원인 사례에만 액세스할 수 있습니다. 사용자를 eDiscovery 관리자로 지정하는 데 대한 자세한 내용은 보안 및 준수 센터에서 [eDiscovery 권한 할당을 & 참조하세요.](../../compliance/assign-ediscovery-permissions.md)|사례 관리 <p> 커뮤니케이션 <p> 준수 검색 <p> Custodian <p> 내보내기 <p> Hold <p> Preview <p> 검토 <p> RMS 암호 해독|
+|**eDiscovery 관리자(Manager)**|구성원은 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치에서 검색을 수행하고 원본 위치를 유지할 수 있습니다. 또한 구성원은 eDiscovery 사례를 만들고 관리하고, 사례에 구성원을 추가 및 제거하고, 사례와 연결된 콘텐츠 검색을 만들고 편집하고, 사례 데이터에서 사례 데이터에 액세스할 Advanced eDiscovery. <p> eDiscovery 관리자는 추가 사용 권한이 할당된 eDiscovery 관리자 역할 그룹의 구성원입니다. eDiscovery 관리자가 수행할 수 있는 작업 외에도 eDiscovery 관리자는 다음 작업을 수행할 수 있습니다.<ul><li>조직의 모든 eDiscovery 사례를 시청합니다.</li><li>케이스에 본인을 구성원으로 추가하고, eDiscovery 케이스 관리.</li></ul> <p> eDiscovery 관리자와 eDiscovery 관리자의 주요 차이점은 eDiscovery 관리자가 보안 및 준수 센터의 **eDiscovery** 사례 페이지에 나열된 모든 사례에 액세스할 & 있습니다. eDiscovery 관리자는 만든 사례 또는 구성원인 사례에만 액세스할 수 있습니다. 사용자를 eDiscovery 관리자로 지정하는 데 대한 자세한 내용은 보안 및 준수 센터에서 [eDiscovery 권한 할당을 & 참조하세요.](../../compliance/assign-ediscovery-permissions.md)|사례 관리 <p> 통신 <p> 준수 검색 <p> Custodian <p> 내보내기 <p> Hold <p> Preview <p> 검토 <p> RMS 암호 해독|
 |**전역 읽기 권한자**|구성원은 보고서, 경고에 대한 읽기 전용 액세스 권한을 가지며 모든 구성 및 설정을 볼 수 있습니다.<p> 전역 읽기와 보안 읽기의 주요 차이점은 전역 읽기 권한이 구성 및 설정에 액세스할 **수 있다는 것입니다.**|보안 읽기 권한자 <p> 민감도 레이블 판독기 <p> 서비스 보증 보기 <p> 보기 전용 감사 로그 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리 <p> 보기 전용 받는 사람 <p> View-Only 레코드 관리 <p> View-Only 보존 관리|
 |**내부자 위험 관리**|이 역할 그룹을 사용하여 조직의 내부 위험 관리를 단일 그룹으로 관리할 수 있습니다. 지정된 관리자, 분석가 및 조사자의 모든 사용자 계정을 추가하면 내부 위험 관리 권한을 단일 그룹으로 구성할 수 있습니다. 이 역할 그룹에는 모든 내부 위험 관리 권한 역할이 포함되어 있습니다. 이는 내부 위험 관리를 신속하게 시작할 수 있는 가장 쉬운 방법이며, 별도의 사용자 그룹에 대해 별도의 사용 권한을 정의할 필요가 없는 조직에 적합합니다.|사례 관리 <p> 내부자 위험 관리 관리자 <p> 내부자 위험 관리 분석 <p> 내부자 위험 관리 조사 <p> View-Only 사례|
 |**내부자 위험 관리 관리자**|이 역할 그룹을 사용하여 초기에 내부자 위험 관리를 구성하고 나중에 내부자 위험 관리자를 정의된 그룹으로 나란히 구성합니다. 이 역할 그룹의 사용자는 내부 위험 관리 정책, 전역 설정 및 역할 그룹 할당을 생성, 읽기, 업데이트 및 삭제할 수 있습니다.|사례 관리 <p> 내부자 위험 관리 관리자 <p> View-Only 사례|
@@ -94,9 +94,9 @@ ms.locfileid: "56815234"
 |**Quarantine Administrator**|구성원은 모든 Quarantine 작업에 액세스할 수 있습니다. 자세한 내용은 EOP에서 관리자로 [quarantined messages and files를 참조하세요.](manage-quarantined-messages-and-files.md)|격리|
 |**레코드 관리**|구성원은 보존 레이블 및 삭제 검토를 포함하여 레코드 관리의 모든 측면을 구성할 수 있습니다.|Disposition Management <p> RecordManagement <p> 보존 관리|
 |**Reviewer**|구성원은 각 사례의 검토 [집합에 Advanced eDiscovery](../../compliance/overview-ediscovery-20.md) 있습니다. 이 역할 그룹의 구성원은 구성원으로 있는 **eDiscovery** > 고급 페이지에서 사례 목록을 Microsoft 365 규정 준수 센터 수 있습니다. 사용자가 사례에 액세스한 Advanced eDiscovery 사례 데이터에 액세스하는 검토 집합을 선택할 수 있습니다.  이 역할은 사용자가 사례와 연결된 컬렉션 검색 결과를 미리 보거나 다른 검색 또는 사례 관리 작업을 수행할 수 없습니다. 이 역할 그룹의 구성원은 검토 집합의 데이터에만 액세스할 수 있습니다.|검토|
-|**보안 관리자**|구성원은 ID 보호 센터, Privileged Identity Management, Microsoft 365 서비스 상태 모니터링 및 보안 및 준수 센터의 다양한 & 액세스할 수 있습니다. <p> 기본적으로 이 역할 그룹은 구성원이 없는 것으로 나타나지 않을 수 있습니다. 그러나 이 역할 그룹에는 Azure Active Directory 관리자 역할이 할당됩니다. 따라서 이 역할 그룹은 보안 관리자 역할의 기능과 구성원 자격을 Azure Active Directory. <p> 중앙에서 사용 권한을 관리하려면 관리 센터에서 그룹 구성원을 Azure Active Directory 제거합니다. 자세한 내용은 에서 관리자 역할 [권한을 Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Security & Compliance Center(구성원 또는 역할)에서 이 역할 그룹을 편집하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용될 뿐 다른 서비스에는 적용되지 않습니다. <p> 이 역할 그룹에는 보안 읽기 권한자 역할의 모든 읽기 전용 권한과 동일한 서비스에 대한 다양한 추가 관리 권한이 포함됩니다. Azure Information Protection, IDENTITY Protection Center, Privileged Identity Management, Microsoft 365 Service Health 및 Security & Compliance Center.|감사 로그 <p> 디바이스 관리 <p> DLP 규정 준수 관리 <p> IB 규정 준수 관리 <p> 알림 관리 <p> 격리 <p> 보안 관리자 <p> 민감도 레이블 관리자 <p> 태그 참가자 <p> 태그 관리자 <p> 태그 읽기 <p> 보기 전용 감사 로그 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
+|**보안 관리자**|구성원은 ID 보호 센터, Privileged Identity Management, Microsoft 365 서비스 상태 모니터링 및 보안 및 준수 센터의 다양한 & 액세스할 수 있습니다. <p> 기본적으로 이 역할 그룹은 구성원이 없는 것으로 나타나지 않을 수 있습니다. 그러나 이 역할 그룹에는 Azure Active Directory 관리자 역할이 할당됩니다. 따라서 이 역할 그룹은 보안 관리자 역할의 기능과 구성원 자격을 Azure Active Directory. <p> 중앙에서 사용 권한을 관리하려면 관리 센터에서 그룹 구성원을 Azure Active Directory 제거합니다. 자세한 내용은 Azure AD 기본 [제공 역할을 참조하세요.](/azure/active-directory/roles/permissions-reference) Security & Compliance Center(구성원 또는 역할)에서 이 역할 그룹을 편집하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용될 뿐 다른 서비스에는 적용되지 않습니다. <p> 이 역할 그룹에는 보안 읽기 권한자 역할의 모든 읽기 전용 권한과 동일한 서비스에 대한 다양한 추가 관리 권한이 포함됩니다. Azure Information Protection, IDENTITY Protection Center, Privileged Identity Management, Microsoft 365 Service Health 및 Security & Compliance Center.|감사 로그 <p> 디바이스 관리 <p> DLP 규정 준수 관리 <p> IB 규정 준수 관리 <p> 알림 관리 <p> 격리 <p> 보안 관리자 <p> 민감도 레이블 관리자 <p> 태그 참가자 <p> 태그 관리자 <p> 태그 읽기 <p> 보기 전용 감사 로그 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
 |**보안 운영자**|구성원은 보안 알림을 관리하고 보안 기능의 보고서 및 설정을 볼 수 있습니다.|준수 검색 <p> 알림 관리 <p> 보안 읽기 권한자 <p> 태그 참가자 <p> 태그 읽기 <p> 보기 전용 감사 로그 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
-|**보안 읽기 권한자**|구성원은 ID 보호 센터, Privileged Identity Management, Microsoft 365 서비스 상태 모니터링 및 보안 및 준수 센터의 다양한 보안 & 읽기 전용으로 액세스할 수 있습니다. <p> 기본적으로 이 역할 그룹은 구성원이 없는 것으로 나타나지 않을 수 있습니다. 그러나 이 역할 그룹에 Azure Active Directory 보안 읽기 사용자 역할이 할당됩니다. 따라서 이 역할 그룹은 보안 독자 역할의 기능과 구성원 자격을 Azure Active Directory. <p> 중앙에서 사용 권한을 관리하려면 관리 센터에서 그룹 구성원을 Azure Active Directory 제거합니다. 자세한 내용은 에서 관리자 역할 [권한을 Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Security & Compliance Center(구성원 또는 역할)에서 이 역할 그룹을 편집하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용될 뿐 다른 서비스에는 적용되지 않습니다.|보안 읽기 권한자 <p> 민감도 레이블 판독기 <p> 태그 읽기 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
+|**보안 읽기 권한자**|구성원은 ID 보호 센터, Privileged Identity Management, Microsoft 365 서비스 상태 모니터링 및 보안 및 준수 센터의 다양한 보안 & 읽기 전용으로 액세스할 수 있습니다. <p> 기본적으로 이 역할 그룹은 구성원이 없는 것으로 나타나지 않을 수 있습니다. 그러나 이 역할 그룹에 Azure Active Directory 보안 읽기 사용자 역할이 할당됩니다. 따라서 이 역할 그룹은 보안 독자 역할의 기능과 구성원 자격을 Azure Active Directory. <p> 중앙에서 사용 권한을 관리하려면 관리 센터에서 그룹 구성원을 Azure Active Directory 제거합니다. 자세한 내용은 Azure AD 기본 [제공 역할을 참조하세요.](/azure/active-directory/roles/permissions-reference) Security & Compliance Center(구성원 또는 역할)에서 이 역할 그룹을 편집하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용될 뿐 다른 서비스에는 적용되지 않습니다.|보안 읽기 권한자 <p> 민감도 레이블 판독기 <p> 태그 읽기 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
 |**서비스 보증 사용자**|구성원은 보안 및 준수 센터의 서비스 보증 섹션에 & 있습니다. 서비스 보증은 Microsoft에 저장된 고객 데이터에 대한 Microsoft의 보안 사례를 설명하는 보고서 및 문서를 Microsoft 365. 또한 독립적인 타사 감사 보고서도 Microsoft 365. 자세한 내용은 Security & Compliance Center의 서비스 [보증을 참조하세요.](../../compliance/service-assurance.md)|서비스 보증 보기|
 |**관리 검토**|구성원은 조직에서 검토되어야 하는 통신을 정의하는 정책을 만들고 관리할 수 있습니다. 자세한 내용은 [조직에 대한 통신 준수 정책 구성을 참조하세요.](../../compliance/communication-compliance-configure.md)|관리 검토 관리자|
 |
@@ -112,7 +112,7 @@ ms.locfileid: "56815234"
 
 - 공격 시뮬레이터 관리자
 - 공격 시뮬레이터 페이로드 작성자
-- 커뮤니케이션
+- 통신
 - 커뮤니케이션 규정 준수 관리자
 - 커뮤니케이션 규정 준수 분석
 - 커뮤니케이션 규정 준수 케이스 관리
@@ -150,7 +150,7 @@ ms.locfileid: "56815234"
 |**공격 시뮬레이터 페이로드 작성자**|공격 시뮬레이터 관리자가 배포할 수 있는 공격 페이로드를 만들고 관리하는 데 사용됩니다.||
 |**감사 로그**|조직에 대한 감사를 켜고 구성하고, 조직의 감사 보고서를 본 다음, 이러한 보고서를 파일로 내보낼 수 있습니다.|조직 관리 <p> 보안 관리자|
 |**사례 관리**|eDiscovery 사례에 대한 액세스를 만들고, 편집하고, 삭제하고, 제어합니다.|커뮤니케이션 규정 준수 <p> 통신 준수 조사자 <p> 규정 준수 관리자 <p>eDiscovery 관리자 <p> 내부자 위험 관리 <p> 내부자 위험 관리 관리자 <p> 내부자 위험 관리 분석가 <p> 내부자 위험 관리 조사자 <p> 조직 관리|
-|**커뮤니케이션**|사례에서 식별된 관리인과의 모든 Advanced eDiscovery 관리합니다.  보류 알림, 보류 미리 알림 및 관리로의 에스컬레이터를 만들 수 있습니다. 보유자 확인을 추적하고, 보유자로 식별된 사례에 대한 통신을 추적하기 위해 각 보유자에 의해 사용되는 보유자 포털에 대한 액세스를 관리합니다.|eDiscovery 관리자|
+|**통신**|사례에서 식별된 관리인과의 모든 Advanced eDiscovery 관리합니다.  보류 알림, 보류 미리 알림 및 관리로의 에스컬레이터를 만들 수 있습니다. 보유자 확인을 추적하고, 보유자로 식별된 사례에 대한 통신을 추적하기 위해 각 보유자에 의해 사용되는 보유자 포털에 대한 액세스를 관리합니다.|eDiscovery 관리자|
 |**커뮤니케이션 규정 준수 관리자**|통신 준수 기능에서 정책을 관리하는 데 사용됩니다.|커뮤니케이션 규정 준수 <p> 통신 준수 관리자|
 |**커뮤니케이션 규정 준수 분석**|커뮤니케이션 준수 기능에서 메시지 위반에 대한 조사, 수정을 수행하는 데 사용됩니다. 메시지 메타 데이터만 볼 수 있습니다.|커뮤니케이션 규정 준수 <p> 커뮤니케이션 준수 분석가 <p> 통신 준수 조사자|
 |**커뮤니케이션 규정 준수 케이스 관리**|통신 준수 사례에 액세스하는 데 사용됩니다.|커뮤니케이션 규정 준수 <p> 통신 준수 관리자 <p> 커뮤니케이션 준수 분석가 <p> 통신 준수 조사자 <p> 통신 준수 뷰어|

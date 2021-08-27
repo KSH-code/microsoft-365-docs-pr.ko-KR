@@ -10,12 +10,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 44bc897cd2ead4c6c8568e8dc5048cf0118e35fc
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.openlocfilehash: e438e9a84b86bd4c3360022c0558480f317144e7
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58364544"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602916"
 ---
 # <a name="access-the-admin-portal"></a>관리 포털 액세스
 
@@ -28,7 +28,7 @@ Microsoft Managed Desktop 게이트웨이가 [Microsoft Endpoint Manager.](https
 > - Chrome(최신 버전)
 > - Firefox(최신 버전)
 
-관리 계정에 특정 사용 권한이 필요하여 해당 계정의 Microsoft Managed Desktop 기능에 액세스해야 Microsoft Endpoint Manager. 역할 기반 액세스 제어를 사용하여 조직 내에서 이러한 기능에 대한 관리자 액세스를 관리할 수 있습니다. 여러 Azure Active Directory(Azure AD) 관리자 역할 및 기본 제공 Microsoft Managed Desktop 역할을 사용하여 Microsoft Managed Desktop 관리 포털 내의 여러 기능에 대해 보다 세부적으로 제어할 수 있습니다. 역할 Azure Active Directory 대한 자세한 내용은 에서 관리자 역할 [권한을 Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 다양한 Microsoft 제품 및 서비스에 적용되는 Azure AD 관리자 역할과 달리 기본 제공 역할은 Microsoft Managed Desktop 특정하며 이 서비스의 관리자 기능에 대한 액세스만 보장합니다. 관리자는 기본 제공 역할을 사용자에게 개별적으로 또는 Azure AD 관리자 역할과 함께 할당하여 기존 관리자 계정에 Microsoft Managed Desktop 권한을 추가할 수 있습니다.
+관리 계정에 특정 사용 권한이 필요하여 해당 계정의 Microsoft Managed Desktop 기능에 액세스해야 Microsoft Endpoint Manager. 역할 기반 액세스 제어를 사용하여 조직 내에서 이러한 기능에 대한 관리자 액세스를 관리할 수 있습니다. 여러 Azure Active Directory(Azure AD) 관리자 역할 및 기본 제공 Microsoft Managed Desktop 역할을 사용하여 Microsoft Managed Desktop 관리 포털 내의 여러 기능에 대해 보다 세부적으로 제어할 수 있습니다. 역할 Azure Active Directory 대한 자세한 내용은 Azure AD 기본 제공 [역할을 참조하세요.](/azure/active-directory/roles/permissions-reference) 다양한 Microsoft 제품 및 서비스에 적용되는 Azure AD 관리자 역할과 달리 기본 제공 역할은 Microsoft Managed Desktop 특정하며 이 서비스의 관리자 기능에 대한 액세스만 보장합니다. 관리자는 기본 제공 역할을 사용자에게 개별적으로 또는 Azure AD 관리자 역할과 함께 할당하여 기존 관리자 계정에 Microsoft Managed Desktop 권한을 추가할 수 있습니다.
 
 ## <a name="azure-active-directory-roles-with-microsoft-managed-desktop-access"></a>Azure Active Directory 액세스 권한이 있는 Microsoft Managed Desktop 역할
 
@@ -41,7 +41,7 @@ Microsoft Managed Desktop 게이트웨이가 [Microsoft Endpoint Manager.](https
 |보안 관리자 | 이 역할이 있는  관리자는 관리 포털의 모든  기능에 대한 읽기 전용 권한을 가지며, 관리자 포털의 보안 관련 기능에 Microsoft Managed Desktop 권한이 있습니다. |
 |보안 읽기 권한자 |이 역할이 있는  관리자는 관리자 포털의 모든 기능에 대한 읽기 전용 Microsoft Managed Desktop 있습니다.|
 
-Azure Active Directory 할당하는 데 도움이 필요한 경우 에서 관리자 역할 [권한을 Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+역할 할당에 대한 도움이 Azure Active Directory Azure AD 기본 제공 [역할을 참조하세요.](/azure/active-directory/roles/permissions-reference)
 
 > [!IMPORTANT]
 > 전역 관리자 역할에만 조직을 등록하는 데 필요한 권한이 Microsoft Managed Desktop.  역할이 Azure Active Directory 역할은 다양한 역할에 걸쳐 사용자 계정에 권한을 Microsoft 서비스. 등록을 완료한 Microsoft Managed Desktop 다른 작업을 수행하는 데 필요한  최소 권한으로 역할을 항상 사용해야 합니다.
@@ -87,13 +87,13 @@ Azure Active Directory 할당하는 데 도움이 필요한 경우 에서 관리
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
 1. 관리 포털 액세스(이 문서)
-1. [관리 포털에서 관리자 연락처를 추가하고 확인](add-admin-contacts.md)
-1. [등록 후 설정을 조정합니다.](conditional-access.md)
-1. 를 배포하고 [Intune 회사 포털.](company-portal.md)
-1. [라이선스를 할당합니다.](assign-licenses.md)
-1. [앱 배포.](deploy-apps.md)
-1. [장치 를 설치합니다.](set-up-devices.md)
-1. Autopilot 및 등록 상태 페이지로 첫 실행 [환경을 설정합니다.](esp-first-run.md)
-1. [사용자 지원 기능을 사용하도록 설정](enable-support.md).
-1. [사용자가 디바이스를 사용할 준비를 합니다.](get-started-devices.md)
-1. [앱 컨트롤 시작 .](get-started-app-control.md)
+1. [관리 포털의 관리자 연락처를 추가하고 확인합니다](add-admin-contacts.md).
+1. [등록 후 설정을 조정합니다](conditional-access.md).
+1. [Intune 회사 포털](company-portal.md)을 배포하고 할당합니다.
+1. [라이선스를 할당합니다](assign-licenses.md).
+1. [앱을 배포합니다](deploy-apps.md).
+1. [디바이스를 설정합니다](set-up-devices.md).
+1. [Autopilot 및 등록 상태 페이지의 첫 실행 환경](esp-first-run.md)을 설정합니다.
+1. [사용자 지원 기능을 사용하도록 설정합니다](enable-support.md).
+1. [사용자가 디바이스를 사용할 수 있도록 준비합니다](get-started-devices.md).
+1. [앱 컨트롤을 시작합니다](get-started-app-control.md).

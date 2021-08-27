@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: '사용 현황 분석이 API에 연결되는 방법을 알아보고 다양한 Microsoft 365 서비스의 월별 사용 추세를 제공합니다.  '
-ms.openlocfilehash: cf53007e062db85bb17bd64851022218c0d220ba
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 2f271414f515d2c3a86c6e59d64dc62f44f8ef01
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533546"
+ms.locfileid: "58603306"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 사용 현황 분석 데이터 모델
 
@@ -109,8 +109,8 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |ODB_FileSynched  <br/> |이 사용자가 비즈니스용 OneDrive에서 동기화한 파일 수입니다.  <br/> |
 |ODB_FileSharedInternally  <br/> |이 사용자가 모든 사용자 또는 그룹 내의 비즈니스용 OneDrive(외부 사용자를 포함할 수 있는)에서 내부적으로 공유한 파일 수입니다.  <br/> |
 |ODB_FileSharedExternally  <br/> |이 사용자가 비즈니스용 OneDrive에서 외부적으로 공유한 파일 수입니다.  <br/> |
-|ODB_AccessByOwner  <br/> |이 사용자가 상호 작용한 사용자의 비즈니스용 OneDrive에 있는 파일 수입니다.  <br/> |
-|ODB_AccessOthers  <br/> |이 사용자가 상호 작용한 다른 사용자의 비즈니스용 OneDrive에 있는 파일 수입니다.  <br/> |
+|ODB_AccessedByOwner  <br/> |사용자가 상호 작용한 사이트 수가 해당 사이트와 상호 작용하는 비즈니스용 OneDrive.  <br/> |
+|ODB_AccessedByOthers  <br/> |이 사용자가 다른 사용자의 사용자 사이트에 있는 상호 작용한 사이트 비즈니스용 OneDrive.  <br/> |
 |SPO_GroupFileViewedModified  <br/> |이 사용자가 그룹 사이트에서 상호 작용한 파일 수입니다.  <br/> |
 |SPO_GroupFileSynched  <br/> |이 사용자가 그룹 사이트에서 동기화한 파일 수입니다.  <br/> |
 |SPO_GroupFileSharedInternally  <br/> |조직 내의 사용자 또는 그룹 내의 사용자(외부 사용자를 포함할 수 있는 사용자)와 공유된 파일의 수입니다.  <br/> |
@@ -278,7 +278,17 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |YAM_LikedActivities  <br/> |활동과 Yammer 수입니다.  <br/> |
 |YAM_PostedActivties  <br/> |게시물 Yammer 수입니다.  <br/> |
 |YAM_ReadActivites  <br/> |읽기 Yammer 수입니다.  <br/> |
-   
+
+### <a name="data-table---tenant-office-licenses"></a>데이터 테이블 - 테넌트 Office 라이선스
+
+이 표에서는 사용자의 라이선스 할당에 대한 월별 요약 데이터를 제공합니다. 
+  
+|**열 이름**|**열 설명**|
+|:-----|:-----|
+|LicenseName  <br/> |라이선스 이름입니다.  <br/> |
+|AssignedCount  <br/> |할당된 라이선스 수입니다.  <br/> |
+|시간 범위  <br/> |월 값입니다.  <br/> |
+
 ### <a name="data-table---tenant-office-activation"></a>데이터 테이블 - 테넌트 Office 정품 인증
 
 이 표에서는 서비스 계획의 Office 구독 정품 인증 수에 대한 데이터를 제공합니다(예: 기업용, Microsoft 365 앱, Visio Project. 장치(Android/iOS/Mac/PC)당 정품 인증 수에 대한 데이터도 제공합니다.

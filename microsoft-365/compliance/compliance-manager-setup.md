@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: e13620413c81e5a6492c85d54d284f48308f5578
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: e6d6c1bb9555f0cc0c80b4a4727a761bd2e99999
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256035"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603200"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -80,7 +80,7 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 
 ### <a name="role-types"></a>역할 유형
 
-아래 표에는 준수 관리자의 각 역할에서 허용되는 기능이 표시됩니다. 또한 이 표에는 각 [Azure AD 역할이](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 준수 관리자 역할에 매핑된 방식도 표시됩니다. 준수 관리자에 액세스하려면 적어도 준수 관리자 읽기 관리자 역할 또는 Azure AD 전역 읽기 권한이 필요합니다.
+아래 표에는 준수 관리자의 각 역할에서 허용되는 기능이 표시됩니다. 또한 이 표에는 각 [Azure AD 역할이](/azure/active-directory/roles/permissions-reference) 준수 관리자 역할에 매핑된 방식도 표시됩니다. 준수 관리자에 액세스하려면 적어도 준수 관리자 읽기 관리자 역할 또는 Azure AD 전역 읽기 권한이 필요합니다.
 
 
 | 사용자는 다음을 할 수 있습니다. | 준수 관리자 역할 | Azure AD 역할 | 

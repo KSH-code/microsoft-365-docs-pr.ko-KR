@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 163f21b12d36541556d47b0963029049c277c2d3d701d8bce206338d7ee34cbd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9039b02e34b57e2a594b0db1c4b16e59a962e1d3
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56883117"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603232"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 자동화된 조사 및 대응(AIR)Office 365
 
@@ -116,8 +116,8 @@ Microsoft 365 관리자 권한 남용, 맬웨어 활동Exchange 잠재적인 외
 
 |작업|역할 필요|
 |---|---|
-|AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 Azure Active Directory [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 포털에서 할당할 [Microsoft 365 Defender 있습니다.](permissions-microsoft-365-security-center.md)|
-|자동 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|다음 역할 중 하나는 Azure Active Directory [또는](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Microsoft 365 Defender [포털에서 할당됩니다.](permissions-microsoft-365-security-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 운영자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 Microsoft 365 Defender [포털에서만 할당됩니다.](permissions-microsoft-365-security-center.md) 새 전자 메일 그룹 공동 작업 & 그룹을 만들고 해당 새 역할 **그룹에** 검색 및 제거 역할을 추가해야 할 수 있습니다.</li></ul>|
+|AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 Azure Active Directory [](/azure/active-directory/roles/permissions-reference) 포털에서 할당할 [Microsoft 365 Defender 있습니다.](permissions-microsoft-365-security-center.md)|
+|자동 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|다음 역할 중 하나는 Azure Active Directory [또는](/azure/active-directory/roles/permissions-reference) Microsoft 365 Defender [포털에서 할당됩니다.](permissions-microsoft-365-security-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 운영자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 Microsoft 365 Defender [포털에서만 할당됩니다.](permissions-microsoft-365-security-center.md) 새 전자 메일 그룹 공동 작업 & 그룹을 만들고 해당 새 역할 **그룹에** 검색 및 제거 역할을 추가해야 할 수 있습니다.</li></ul>|
 
 ## <a name="required-licenses"></a>필수 라이선스
 
@@ -131,7 +131,7 @@ Microsoft 365 관리자 권한 남용, 맬웨어 활동Exchange 잠재적인 외
 
 Microsoft Defender for Office 365 이미 AIR 기능을 사용 중이면 개선된 Microsoft 365 Defender 포털에서 일부 변경 [사항을 보게 될 것입니다.](../defender/overview-security-center.md)
 
-:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="통합된 동작 센터":::
+:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="통합된 동작 센터.":::
 
 새 기능과 향상된 Microsoft 365 Defender 포털은 Microsoft [Defender for Office 365](defender-for-office-365.md) 및 [끝점용 Microsoft Defender의](../defender-endpoint/automated-investigations.md)AIR 기능을 제공합니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀에서는 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.
 

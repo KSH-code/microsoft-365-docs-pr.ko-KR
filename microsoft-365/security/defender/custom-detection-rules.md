@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f17a06aa34274cf61b1979c64a008e7fe70d676b
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: c1d0095860242492dc8dd5e370f8583aaed7cff4
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58254595"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594223"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -42,9 +42,9 @@ ms.locfileid: "58254595"
 
 사용자 지정 검색을 관리하려면 다음 역할 중 하나를 할당해야 합니다.
 
-- **보안 관리자**-이 역할이 [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 사용자는 Microsoft 365 Defender 포털 및 서비스에서 보안 설정을 관리할 수 있습니다.
+- **보안 관리자**-이 역할이 [Azure Active Directory](/azure/active-directory/roles/permissions-reference#security-administrator) 사용자는 Microsoft 365 Defender 포털 및 서비스에서 보안 설정을 관리할 수 있습니다.
 
-- **보안 운영자**—이 Azure Active Directory 역할이 있는 사용자는 경고를 관리하고 보안 관련 기능에 대한 전역 읽기 전용 액세스 권한을 가지며, 보안 포털의 모든 정보를 Microsoft 365 Defender 있습니다. [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
+- **보안 운영자**—이 Azure Active Directory 역할이 있는 사용자는 경고를 관리하고 보안 관련 기능에 대한 전역 읽기 전용 액세스 권한을 가지며, 보안 포털의 모든 정보를 Microsoft 365 Defender 있습니다. [](/azure/active-directory/roles/permissions-reference#security-operator) 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
 
 사용 권한이 있는 경우 특정 솔루션 솔루션의 데이터에 적용되는 사용자 지정 Microsoft 365 Defender 관리할 수도 있습니다. 예를 들어 테이블에 대한 관리 권한만 있는 Microsoft 365 Defender Office 테이블을 사용하여 사용자 지정 검색을 만들 수 있지만 테이블은 사용하여 만들 `Email` `Identity` 수 없습니다.  
 
@@ -203,7 +203,7 @@ DeviceEvents
 
 사용자 지정 검색 규칙에 대한 포괄적인 정보를 보기 위해 사용자 지정 검색 헌팅으로 이동한 다음 규칙 이름을  >   선택합니다. 그런 다음 규칙에 대한 일반 정보(실행 상태 및 범위 포함)를 볼 수 있습니다. 또한 이 페이지에서는 트리거된 경고 및 작업 목록도 제공합니다.
 
-![사용자 지정 검색 규칙 세부 정보 페이지](../../media/custom-detection-details.png)<br>
+![사용자 지정 검색 규칙 세부 정보 페이지.](../../media/custom-detection-details.png)<br>
 *사용자 지정 검색 규칙 세부 정보*
 
 이 페이지에서 규칙에 대해 다음 작업을 수행할 수 있습니다.

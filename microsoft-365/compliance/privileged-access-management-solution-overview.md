@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: 60fdb02da960d10b875fcd064c665ecd615ae04c0093f0f90f40ae77e4028f50
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9c6e62db4a83e238c840e7e953a78c6e8856a25a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871617"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58552963"
 ---
 # <a name="privileged-access-management-in-microsoft-365"></a>Microsoft 365의 권한 있는 액세스 관리
 
@@ -31,7 +31,7 @@ ms.locfileid: "53871617"
 
 다음 단계를 사용하여 조직에 대한 권한 있는 액세스 관리를 구성합니다.
 
-![내부자 위험 솔루션 권한이 부여된 액세스 관리 단계](../media/ir-solution-pam-steps.png)
+![내부자 위험 솔루션 권한이 부여된 액세스 관리 단계입니다.](../media/ir-solution-pam-steps.png)
 
 1. [2013의](privileged-access-management-overview.md) 권한 있는 액세스 관리에 대해 Microsoft 365
 2. 승인자 [그룹 만들기](privileged-access-management-configuration.md#step-1-create-an-approvers-group)

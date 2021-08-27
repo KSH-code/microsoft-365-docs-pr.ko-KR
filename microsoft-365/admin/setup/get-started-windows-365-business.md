@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: 281700a15ef7f0560a5fa2171653eddc7048011d
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 19b45f3b3b26bf553830061bf63879647bfeec8f
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532898"
+ms.locfileid: "58602968"
 ---
 # <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 
@@ -38,7 +38,7 @@ ms.locfileid: "58532898"
 > [!NOTE]  
 > 시작하기 전에 사용자의 Azure AD 장치 설정이 **Azure** [AD에](/azure/active-directory/devices/device-management-azure-portal#configure-device-settings) 장치를 가입할 수 있는지 확인합니다. 
 
-   ![사용자가 장치를 Azure AD 설정에 가입할 수 있습니다.](../../media/deschutes/azure-device-settings.png)
+   ![사용자는 장치를 Azure AD 설정에 가입할 수 있습니다.](../../media/deschutes/azure-device-settings.png)
 ## <a name="prerequisites"></a>필수 구성 요소
 365 Business를 설정하기 위한 라이선스 Windows 없습니다.
 
@@ -87,7 +87,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 사용자에게 비즈니스 Windows 따라 서로 다른 365 Business 라이선스 유형을 사용자에게 할당할 수 있습니다. 사용자에게 적합한 라이선스 유형에 대한 지침은 Windows [365 Business](windows-365-business-sizing.md) 크기 조정 옵션을 참조하세요.
 
 > [!IMPORTANT]
-> 테넌트에 Windows 365 라이선스가 처음 할당되면 Windows **365 BPRT** 영구 사용자라는 시스템 계정이 Azure Active Directory. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패할 수 있습니다. 이 시스템 계정은 원활한 설정 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 테넌트에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 사용자를 삭제하는 경우 지원 중앙을 통해 티켓을 제출합니다.
+> 테넌트에 Windows 365 라이선스가 처음 할당되면 Windows **365 BPRT** 영구 사용자라는 시스템 계정이 Azure Active Directory. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패할 수 있습니다. 이 시스템 계정은 원활한 설정 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 테넌트에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 사용자를 삭제하는 경우 다음 [문제 해결 단계를 따릅니다.](/microsoft-365/admin/setup/troubleshoot-windows-365-business?#step-2-verify-that-the-windows-365-bprt-permanent-user-system-account-is-active)
 
 ## <a name="get-your-users-started-with-cloud-pc"></a>클라우드 PC 시작
 
@@ -102,7 +102,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 
 사용자는 Windows 365 홈페이지에서 클라우드 PC 섹션에 액세스할 수 있는 클라우드 **PC를 볼 수** 있습니다.
 
-![Windows 365 home](../../media/deschutes/cloudpc-home.png)
+![Windows 365 home.](../../media/deschutes/cloudpc-home.png)
 
 사용자는 브라우저에서 **열기 를 선택하여** 클라우드 PC를 열 수 있습니다.
 
@@ -149,7 +149,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 1. Windows **365 홈** 페이지에서 Microsoft 원격 데스크톱 앱 아이콘(홈 아이콘 **아래)을** 선택합니다.
 2. 앱 **Microsoft 원격 데스크톱** 페이지에서 필요한 원격 데스크톱 앱을 다운로드하여 설치합니다.
 
-   ![원격 데스크톱 클라이언트](../../media/deschutes/remote-desktop-apps.png)
+   ![원격 데스크톱 클라이언트.](../../media/deschutes/remote-desktop-apps.png)
 
 운영 체제의 클라이언트 목록은 원격 데스크톱 [클라이언트를 참조하세요.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 조직의 사용자 및 관리자가 수행한 감사 활동을 검색할 수 있도록 기본 감사를 설정하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 59a1af0946fbfbef6f2a1f5f6b8c3d7be002786239f1665d0ddbff09af254d1e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: caa87a34234597e36949a1a2c47b695a02b5c2b7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871307"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568964"
 ---
 # <a name="set-up-basic-audit-in-microsoft-365"></a>2013에서 기본 감사 Microsoft 365
 
@@ -32,7 +32,7 @@ ms.locfileid: "53871307"
 
 이 문서에서는 기본 감사를 설정하는 데 필요한 다음 단계에 대해 논의합니다.
 
-![기본 감사 설정 단계](../media/BasicAuditingWorkflow.png)
+![기본 감사를 설정하는 단계입니다.](../media/BasicAuditingWorkflow.png)
 
 이러한 단계에는 감사 레코드를 생성하고 보존하는 데 필요한 적절한 조직 구독 및 사용자 라이선스를 보장하고 감사 로그를 검색할 수 있도록 보안 운영, IT, 규정 준수 및 법률 팀의 팀 구성원에게 사용 권한을 할당하는 작업이 포함됩니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "53871307"
 
 다음 스크린샷은 조직 관리 센터의 조직 관리 역할 그룹에 할당된 두 가지 감사 관련 역할을 Exchange 보여줍니다.
 
-![역할 그룹의 역할 그룹에 할당된 역할 Exchange Online](../media/EACAuditRoles.png)
+![역할 그룹의 역할 그룹에 할당된 역할을 Exchange Online.](../media/EACAuditRoles.png)
 
 ## <a name="step-3-search-the-audit-log"></a>3단계: 감사 로그 검색
 
@@ -64,7 +64,7 @@ ms.locfileid: "53871307"
 
 3. 감사 **페이지에서** 검색 탭의 다음 조건을 사용하여 검색을 **구성합니다.** 
 
-   ![감사 로그 검색에 대한 구성 설정](../media/AuditLogSearchToolMCCCallouts.png)
+   ![감사 로그 검색에 대한 구성 설정입니다.](../media/AuditLogSearchToolMCCCallouts.png)
 
    1. **날짜 및 시간 범위입니다.** 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 날짜 및 시간은 현지 시간으로 표시됩니다. 기본적으로 지난 7일이 선택됩니다.
   

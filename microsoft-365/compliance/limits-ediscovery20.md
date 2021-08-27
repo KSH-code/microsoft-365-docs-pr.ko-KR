@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Advanced eDiscovery 솔루션에 적용된 사례 제한, 인덱싱 제한 및 검색 제한에 대해 Microsoft 365.
-ms.openlocfilehash: ba4abe52c668799f379780221b46042c8f515393ecd6f395cb45a49bad9295e3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7771f653550c050250126b7ff93b83ee2e175937
+ms.sourcegitcommit: fce9a89b8280f41779835b18dceb59fa17384acf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807975"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58666757"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Advanced eDiscovery 제한 사항
 
@@ -60,10 +60,9 @@ ms.locfileid: "53807975"
 | 제한 설명 | 제한 유형 |
 |:-----|:-----|
 |단일 파일에서 추출된 최대 문자 수입니다.  <br/> |<sup>1,000만 개</sup> <br/> |
-|단일 파일의 최대 크기입니다.   <br/> |100MB<sup>1</sup> <br/> |
+|단일 파일의 최대 크기입니다.   <br/> |150MB<sup>1</sup> <br/> |
 |문서에 포함된 항목의 최대 깊이입니다.  <br/> |25<sup>1</sup> <br/> |
-|OCR(광학 문자 인식)에서 처리되는 파일의 최대 크기입니다.  <br/> |24MB<sup>1</sup> <br/> 
-|조직당 하루 최대 인덱싱 작업 수입니다. <br/> |10<sup>6</sup> <br/>|  
+|OCR(광학 문자 인식)에서 처리되는 파일의 최대 크기입니다.  <br/> |24MB<sup>1</sup> <br/>  
 |||
 
 ## <a name="search-limits"></a>검색 제한
@@ -145,4 +144,3 @@ Microsoft는 모든 조직에서 실행한 검색에 대한 성능 정보를 수
 >
 > <sup>5</sup> 이 제한은 검토 집합에서 선택한 문서를 다운로드하는 데 적용됩니다. 검토 집합에서 문서를 내보내는 데는 적용되지 않습니다. 문서 다운로드 및 내보내기에 대한 자세한 내용은 에서 사례 데이터 [내보내기 를 Advanced eDiscovery.](exporting-data-ediscover20.md)
 >
-> <sup>6</sup> 조직당 하루 인덱싱 제한 이 문제를 해결하려면 경우에 따라 데이터 원본 탭에서 여러  관리인을 선택한 다음 인덱스  업데이트를 클릭하여 각 관리자에 대해 별도의 인덱스 작업을 만들지 않도록 할 수 있습니다. 

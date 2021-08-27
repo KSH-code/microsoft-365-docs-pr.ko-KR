@@ -13,12 +13,12 @@ description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7b38bb50bd72ea3391cd908e6e058e050003a17b41777df9d8d2663a50977904
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6c960b34933c6a90dcf4a1675ced63dd43f00c07
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56882507"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607072"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 
@@ -31,7 +31,7 @@ ms.locfileid: "56882507"
 
 관리자는 보안 및 준수 & 메일 흐름 대시보드를 사용하여 추세, 통찰력을 검색하고 조직의 메일 흐름과 관련된 문제를 해결하기 위한 조치를 취할 수 있습니다.
 
-![보안 및 준수 센터의 메일 & 대시보드](../../media/mail-flow-dashboard-v2.png)
+![보안 및 준수 센터의 메일 & 대시보드입니다.](../../media/mail-flow-dashboard-v2.png)
 
 사용 가능한 인사이트는 다음을 제공합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "56882507"
 
 - **보안 및** 준수 센터의 & 관리(전역 관리자).
 
-- **[Exchange 관리자](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** Azure Active Directory.
+- **[Exchange 관리자](/azure/active-directory/roles/permissions-reference#exchange-administrator)** Azure Active Directory.
 
 - **보안 및 준수** 센터의 메일 흐름 &. 계정이 조직 관리 또는 관리자 역할 Exchange 구성원이 아닌 경우 다음 문제를 고려하세요.
   - 사용자는 에서 직접 보안 및 & 로그인해야 <https://protection.office.com> 합니다.

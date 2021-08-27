@@ -20,12 +20,12 @@ description: 관리자는 조직의 위협 방지에 대해 Microsoft 365 조직
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bba4d6546454b16090910809cf8b99ec907853ad0ac0d810a2ab091b0939f36e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 06f87213131f8fccdd9cfd83d7bdf4ead10c0667
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56881956"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594319"
 ---
 # <a name="protect-against-threats"></a>위협에 대한 보호
 
@@ -75,7 +75,7 @@ ms.locfileid: "56881956"
 |역할 또는 역할 그룹|자세한 내용을 알아보는 위치|
 |---|---|
 |전역 관리자|[Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)|
-|보안 관리자|[Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|보안 관리자|[Azure AD 기본 제공 역할](/azure/active-directory/roles/permissions-reference#security-administrator)
 |Exchange Online 조직 관리|[Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)|
 |
 
@@ -206,17 +206,17 @@ ms.locfileid: "56881956"
 1. 의 **금고 포털에서** Microsoft 365 Defender 첨부 파일 페이지를 열 수 <https://security.microsoft.com/safeattachmentv2> 있습니다.
 
 2. 첨부 **금고** 페이지에서 전역 설정을 클릭한 다음 나타나는 플라이아웃에서 다음 설정을 구성합니다. 
-   - **에** 대한 Office 365, SharePoint OneDrive 및 Microsoft Teams : 이 설정 켜기( ![ 토글 켜기). ](../../media/scc-toggle-on.png)
+   - **에** 대한 Office 365, SharePoint OneDrive 및 Microsoft Teams : 이 설정 켜기( ![ 토글합니다. ](../../media/scc-toggle-on.png) ).
 
      > [!IMPORTANT]
      > **금고,** OneDrive 및 SharePoint, OneDrive 및 Microsoft Teams 첨부 파일을 설정하기 전에 조직에서 감사 로깅이 설정되어 있는지 확인해야 합니다. 이 작업은 일반적으로 감사 로그 역할이 할당된 사용자가 Exchange Online. 자세한 내용은 감사 로그 검색 켜기 또는 [끄기!를 참조하세요.](../../compliance/turn-audit-log-search-on-or-off.md)
 
-   - **금고 클라이언트에** 대한 Office 켜기 : 이 설정을 으로 설정( ![ 토글합니다. ](../../media/scc-toggle-on.png) 이 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 Security 사용할 수 있습니다.
-   - **파일을 악성으로** 식별한 문서가 금고 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용: 이 설정이 꺼져 있는지 확인( ![ 토글 ](../../media/scc-toggle-off.png) 해제).
+   - **금고 클라이언트에** 대한 Office 켜기 : 이 설정( ![ 토글합니다. ](../../media/scc-toggle-on.png) ). 이 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 Security 사용할 수 있습니다.
+   - **파일을 악성으로** 식별한 문서가 금고 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용 : 이 설정이 꺼져 있는지 ![ 확인( 토글 해제). ](../../media/scc-toggle-off.png)
 
    완료되면 **저장을 클릭합니다.**
 
-3. 첨부 파일 **금고 페이지로 돌아가서** 아이콘 ![ 만들기를 ](../../media/m365-cc-sc-create-icon.png) 클릭합니다.
+3. 첨부 파일 **금고 다시** 만들기 ![ 아이콘을 ](../../media/m365-cc-sc-create-icon.png) 클릭합니다.
 
 4. 열 **수 있는** 금고 첨부 파일 만들기 정책 마법사에서 다음 설정을 구성합니다.
    - **정책 페이지의 이름을 지정합니다.**
@@ -250,13 +250,13 @@ ms.locfileid: "56881956"
 
 2. 링크 **금고** 페이지에서 전역 설정을 클릭한 다음 나타나는 플라이아웃에서 다음 설정을 구성합니다.
    - **설정 앱 섹션의** 콘텐츠에 Office 365 적용되는 앱:
-     - 금고 앱에서 Office 365 **링크 사용:** 이 설정이 켜져 있는지 확인( ![ 토글합니다. ](../../media/scc-toggle-on.png)
-     - 사용자가 Office 365 앱에서 보호된 링크를 클릭하는 경우 추적하지 **않습니다.** 이 설정은 끄기(토글 ![ 끄기)입니다. ](../../media/scc-toggle-off.png)
-     - 사용자가 Office 365 앱의 원래 URL을 클릭할 수 없습니다. 이 설정이 켜져 있는지 **확인합니다(** ![ 토글 켜기). ](../../media/scc-toggle-on.png)
+     - 금고 앱에서 Office 365 **링크 사용:** 이 설정이 켜져 있는지 확인( ![ 토글합니다. ](../../media/scc-toggle-on.png) ).
+     - **사용자가 앱의** 보호된 링크를 클릭하는 Office 365 추적하지 않습니다. 이 설정을 끄려면( ![ 토글 끄기). ](../../media/scc-toggle-off.png)
+     - **사용자가 앱의** 원래 URL을 클릭할 수 Office 365: 이 설정이 켜져 있는지 확인합니다( ![ 토글합니다. ](../../media/scc-toggle-on.png) ).
 
    완료되면 **저장을 클릭합니다.**
 
-3. 다시 금고 **페이지에서** 아이콘 ![ 만들기를 ](../../media/m365-cc-sc-create-icon.png) 클릭합니다.
+3. 다시 금고 **페이지에서** 만들기 ![ 아이콘을 ](../../media/m365-cc-sc-create-icon.png) 클릭합니다.
 
 4. 열 **수 있는** 금고 정책 만들기 마법사에서 다음 설정을 구성합니다.
    - **정책 페이지의 이름을 지정합니다.**
@@ -306,7 +306,7 @@ SharePoint Online 또는 비즈니스용 OneDrive 파일이 악성으로 식별�
    완료되면 다음을 **클릭합니다.**
 
 5. 받는 **사람 설정 페이지에서** 다음 설정을 구성합니다.
-   - **전자 메일 알림 보내기:** 이 설정이 lclcted인지 확인
+   - **전자 메일 알림 보내기:** 이 설정이 선택되어 있는지 확인
    - **전자 메일 받는 사람:** 악의적인 파일이 감지될 때 알림을 수신해야 하는 전역 관리자, 보안 관리자 또는 보안 독자를 하나 이상 선택합니다.
    - **일별 알림 제한:** **제한 없음이 선택되어** 있는지 확인
 
