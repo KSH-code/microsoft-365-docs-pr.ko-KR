@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4e3665e148cd08bfef2fd56e1d51595ed7626a57a82cc6c3b3577b8d157bb1a1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b365be018fafb487fb689acb09749804f849ce3b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884586"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58550061"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>네트워크 장치 검색 및 취약성 관리
 
@@ -98,7 +98,7 @@ ms.locfileid: "53884586"
     > [!NOTE]
     > 모든 URL이 허용된 데이터 수집의 끝점용 Defender 문서화 목록에 지정되지는 않습니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 평가 작업을 구성하려면 보안 센터에서 보안 설정 관리와 같은 사용자 **권한 옵션이 필요합니다.** 역할 에서 **역할로** 설정  >  **있습니다.** 자세한 내용은 역할 기반 액세스 제어에 대한 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
 
@@ -110,7 +110,7 @@ ms.locfileid: "53884586"
 2. 네트워크 스캐너를 다운로드하여 지정된 Endpoint 평가 장치에 설치합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![스캐너 단추 다운로드](images/assessment-jobs-download-scanner.png)
+    > ![스캐너 단추를 다운로드합니다.](images/assessment-jobs-download-scanner.png)
 
 ## <a name="network-scanner-installation--registration"></a>네트워크 스캐너 설치 & 등록
 
@@ -134,7 +134,7 @@ ms.locfileid: "53884586"
 네트워크 장치 인벤토리에서 장치 중복을 방지하려면 각 IP 주소가 여러 평가 장치에서 한 번만 구성되어 있는지 확인합니다.
 
 > [!div class="mx-imgBorder"]
-> ![네트워크 평가 작업 단추 추가](images/assessment-jobs-add.png)
+> ![네트워크 평가 작업 단추를 추가합니다.](images/assessment-jobs-add.png)
 
 네트워크 평가 작업 단계 추가:
 
@@ -164,7 +164,7 @@ ms.locfileid: "53884586"
 새로 검색된 장치는 장치 인벤토리 페이지의 새 **네트워크** 장치 **탭에** 표시됩니다. 장치가 업데이트될 때까지 평가 작업을 추가한 후 최대 2시간이 걸릴 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![장치 인벤토리의 네트워크 장치 섹션](images/assessment-jobs-device-inventory.png)
+> ![장치 인벤토리의 네트워크 장치 섹션입니다.](images/assessment-jobs-device-inventory.png)
 
 ## <a name="troubleshooting"></a>문제 해결
 

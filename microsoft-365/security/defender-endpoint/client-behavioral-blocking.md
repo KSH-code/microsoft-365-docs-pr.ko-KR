@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 87e1532f126488e21d869d4f04a04d56c483f6b6
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.openlocfilehash: 5afa8ec7fc6d4adeef5a099a18e335b7a9e68f5b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509860"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567367"
 ---
 # <a name="client-behavioral-blocking"></a>클라이언트 행동적 차단
 
@@ -38,7 +38,7 @@ ms.locfileid: "58509860"
 
 클라이언트 동작 차단은 끝점용 Defender의 동작 차단 및 포함 기능의 구성 요소입니다. [](behavioral-blocking-containment.md) 의심스러운 동작이 장치(클라이언트 또는 끝점이라고도 지칭)에서 감지되면 아티팩트(예: 파일 또는 응용 프로그램)가 자동으로 차단, 확인 및 수정됩니다.
 
-:::image type="content" alt-text="클라우드 및 클라이언트 보호" source="images/pre-execution-and-post-execution-detection-engines.png" lightbox="images/pre-execution-and-post-execution-detection-engines.png":::
+:::image type="content" alt-text="클라우드 및 클라이언트 보호." source="images/pre-execution-and-post-execution-detection-engines.png" lightbox="images/pre-execution-and-post-execution-detection-engines.png":::
 
 바이러스 백신 보호는 클라우드 보호와 함께 사용할 때 가장 잘 작동합니다.
 

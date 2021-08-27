@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: 8643ebf742cff0597e02b19e0db93f88b871ac0abc47a7b71e383dd644f4a687
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 77d7d3eebaa4678e6d90897aab8a41554530e858
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807715"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573778"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 
@@ -83,7 +83,7 @@ SharePoint 또는 OneDrive 사이트에 저장된 모든 파일은 보존 정책
 
 보존 설정이 보존 및 삭제인 경우:
 
-![SharePoint 및 OneDrive의 콘텐츠 수명 주기 다이어그램](../media/Retention_Diagram_of_retention_flow_in_sites.png)
+![SharePoint 및 OneDrive의 콘텐츠 수명 주기 다이어그램.](../media/Retention_Diagram_of_retention_flow_in_sites.png)
   
 1. 보존 기간 내에 **콘텐츠가 수정되거나 삭제되면** 보존 설정이 적용된 시점과 동일한 원본 콘텐츠의 사본이 자료 보존 라이브러리에 생성됩니다. 여기에서 타이머 작업이 보존 기간이 만료된 항목을 식별합니다. 해당 항목은 2단계 휴지통으로 이동되고, 93일이 지나면 영구적으로 삭제됩니다. 2단계 휴지통은 최종 사용자에게 표시되지 않습니다(1단계 휴지통에만 해당). 하지만 사이트 모음 관리자는 해당 사이트에서 콘텐츠를 보고 복원할 수 있습니다.
 

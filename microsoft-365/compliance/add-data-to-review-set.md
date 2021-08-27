@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 이러한 검색 결과의 검색 결과 또는 샘플을 사례 검토 집합에 추가하는 Advanced eDiscovery 방법을 학습합니다.
-ms.openlocfilehash: dd3b04812f1284d8a95a158f1ef47317bc89c9f28b743a723fc8d21287116e48
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: aeb7942fc12089bd458236221dd7394a8018e780
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53837054"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567087"
 ---
 # <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 
@@ -43,7 +43,7 @@ ms.locfileid: "53837054"
 
 기존 검토 집합에 추가하거나 새 검토 집합을 만들 수 있습니다.  새 검토 집합에 추가하는 경우 이름을  지정한 다음 추가를 클릭하여 플라이아웃 페이지를 표시합니다.
 
-![검토 집합 선택 및 컬렉션 옵션 구성](../media/AeD_AddToReviewSet.png)
+![검토 집합을 선택하고 컬렉션 옵션을 구성합니다.](../media/AeD_AddToReviewSet.png)
 
 검토 집합에 데이터를 추가하는 작업은 오랜 시간이 걸리는 프로세스입니다. 이 프로세스에는 사서함 및 사이트와 같은 Microsoft 365 원본에서 항목을 수집하고, Azure Storage 위치로 복사한 다음(이 복사 프로세스를 수집이라고도 합니다. *)* 항목을 다시 인덱스하는 과정이 포함됩니다. 작업 탭 또는 검색  탭에서 설정된  열을 검토할 데이터 추가 열의 상태를 모니터링하여 진행 **상황을 추적할 수** 있습니다. 검토 집합 처리가 완료되면 사례의  검토 집합 탭을 클릭한 다음 검토 집합을 클릭하여 검토 집합의 데이터 필터링, 검토, 태그 지정 및 내보내기 프로세스를 시작할 수 있습니다.
 

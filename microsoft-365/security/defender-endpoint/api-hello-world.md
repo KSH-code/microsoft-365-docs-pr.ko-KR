@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: ec2057eefc5cb1e8ce59138a1f5a15b7ed0fdd01
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 1e04c9a817bfe799c15e3609e190980bfc4145e7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508217"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58550289"
 ---
 # <a name="microsoft-defender-for-endpoint-api---hello-world"></a>Endpoint API용 Microsoft Defender API - Hello World
 
@@ -59,7 +59,7 @@ ms.locfileid: "58508217"
 
 2. 앱 등록 **Azure Active Directory** \> **새** \> **등록으로 이동합니다.**
 
-   ![응용 Microsoft Azure 탐색 및 이미지](images/atp-azure-new-app2.png)
+   ![응용 프로그램 Microsoft Azure 탐색하는 이미지입니다.](images/atp-azure-new-app2.png)
 
 3. 등록 양식에서 응용 프로그램의 이름을 선택하고 등록을 **클릭합니다.**
 
@@ -69,11 +69,11 @@ ms.locfileid: "58508217"
 
    - **참고:** WindowsDefenderATP가 원래 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
 
-   ![API 액세스 및 API 선택의 이미지1](images/add-permission.png)
+   ![API 액세스 및 API 선택의 이미지1.](images/add-permission.png)
 
    - 응용 **프로그램 권한** \> **경고.읽기.>** 권한 추가 클릭 **선택**
 
-   ![API 액세스 및 API 선택의 이미지2](images/application-permissions.png)
+   ![API 액세스 및 API 선택의 이미지2.](images/application-permissions.png)
 
    **중요 참고** 사항: 관련 권한을 선택해야 합니다. '모든 경고 읽기'는 예시일 뿐입니다.
 
@@ -87,7 +87,7 @@ ms.locfileid: "58508217"
 
    - **참고:** 권한을 추가할 때마다 새  사용 권한을 적용하기 위해 동의 부여를 클릭해야 합니다.
 
-   ![권한 부여 이미지](images/grant-consent.png)
+   ![권한 부여 이미지.](images/grant-consent.png)
 
 6. 응용 프로그램에 비밀을 추가합니다.
 
@@ -95,13 +95,13 @@ ms.locfileid: "58508217"
 
     **중요:** 추가를 클릭한 후 생성된 **비밀 값을 복사합니다.** 나가면 검색할 수 없습니다!
 
-    ![앱 키 만들기 이미지](images/webapp-create-key2.png)
+    ![앱 키 만들기의 이미지입니다.](images/webapp-create-key2.png)
 
 7. 응용 프로그램 ID 및 테넌트 ID를 기록해 써야 합니다.
 
    - 응용 프로그램 페이지에서 개요로 **이동하여** 다음을 복사합니다.
 
-   ![생성된 앱 ID의 이미지](images/app-and-tenant-ids.png)
+   ![생성된 앱 ID의 이미지입니다.](images/app-and-tenant-ids.png)
 
 완료되었습니다! 응용 프로그램을 성공적으로 등록했습니다.
 
@@ -139,7 +139,7 @@ ms.locfileid: "58508217"
   - 위쪽 상자에 붙여 넣습니다.
   - "역할" 섹션을 찾아 봐야 합니다. Alert.Read.All 역할을 찾아야 합니다.
 
-  ![이미지 jwt.ms](images/api-jwt-ms.png)
+  ![이미지 jwt.ms.](images/api-jwt-ms.png)
 
 ### <a name="lets-get-the-alerts"></a>경고를 받을 수 있습니다!
 

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 콘텐츠 검색의 검색 결과를 로컬 Microsoft 365 규정 준수 센터 내보낼 수 있습니다. 전자 메일 결과는 PST 파일로 내보낼 수 있습니다. 사이트 SharePoint 비즈니스용 OneDrive 콘텐츠는 기본 Office 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cab1cfc3814c2b0f2f38a920c7d97cdc5b6817dd
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 8ce3317dbd9b1d21ab1e703fce1b168885b81aa2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502930"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567039"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -94,13 +94,13 @@ ms.locfileid: "58502930"
   
 2. **플라이아웃** 페이지의 아래쪽에 있는 작업 메뉴에서 결과 **내보내기 를 클릭합니다.**
 
-   ![작업 메뉴에서 결과 내보내기 옵션](../media/ActionMenuExportResults.png)
+   ![작업 메뉴에서 결과 내보내기 옵션입니다.](../media/ActionMenuExportResults.png)
 
    결과 **내보내기** 플라이아웃 페이지가 표시됩니다. 콘텐츠를 내보내는 데 사용할 수 있는 내보내기 옵션은 검색 결과가 사서함에 있는지 사이트인지 아니면 둘의 조합인지에 따라 결정됩니다.
 
 3. 출력 **옵션에서** 다음 옵션 중 하나를 선택합니다.
   
-   ![출력 옵션 내보내기](../media/ExportOutputOptions.png)
+   ![출력 옵션을 내보낼 수 있습니다.](../media/ExportOutputOptions.png)
 
     - **인식할** 수 없는 형식의 항목을 제외한 모든 항목은 암호화되거나 다른 이유로 인덱싱되지 않습니다. 이 옵션은 인덱싱된 항목만 내보낼 수 있습니다.
   
@@ -112,7 +112,7 @@ ms.locfileid: "58502930"
 
 4. 콘텐츠 **Exchange 내보내기에서** 다음 옵션 중 하나를 선택합니다.
   
-   ![Exchange 옵션](../media/ExchangeExportOptions.png)
+   ![Exchange 옵션을 선택합니다.](../media/ExchangeExportOptions.png)
 
     - **각 사서함에 대해 하나의 PST 파일:** 검색 결과가 포함된 각 사용자 사서함에 대해 하나의 PST 파일을 내보낼 수 있습니다. 사용자의 보관 사서함의 모든 결과는 동일한 PST 파일에 포함됩니다. 이 옵션은 원본 사서함에서 사서함 폴더 구조를 재현합니다.
   
@@ -124,7 +124,7 @@ ms.locfileid: "58502930"
   
 5. 다음과 같은 추가 옵션을 구성합니다.
 
-   ![다른 내보내기 옵션 구성](../media/OtherExportOptions.png)
+   ![다른 내보내기 옵션을 구성합니다.](../media/OtherExportOptions.png)
 
    1. 중복 **메시지를** 제외하려면 콘텐츠에 Exchange 사용 확인란을 선택합니다.
   
@@ -161,7 +161,7 @@ ms.locfileid: "58502930"
 
 6. **eDiscovery 내보내기 도구에서** 다음을 실행합니다.
 
-   ![eDiscovery 내보내기 도구](../media/eDiscoveryExportTool.png)
+   ![eDiscovery 내보내기 도구.](../media/eDiscoveryExportTool.png)
 
    1. 3단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다.
   
@@ -252,11 +252,11 @@ ms.locfileid: "58502930"
 
     검색에 대한 모든 콘텐츠 위치에서 부분적으로 인덱싱된 항목을 내보내기 위해 검색 쿼리에서 키워드를 제거하여 모든 항목을 반환하도록 검색을 구성한 다음 검색 결과를 내보낼 때 부분적으로 인덱싱된 항목만 내보낼 수 있습니다.
 
-    ![세 번째 내보내기 옵션을 사용하여 인덱서되지 않은 항목만 내보내기](../media/5d7be338-a0e5-425f-8ba5-92769c24bf75.png)
+    ![세 번째 내보내기 옵션을 사용하여 인덱서되지 않은 항목만 내보낼 수 있습니다.](../media/5d7be338-a0e5-425f-8ba5-92769c24bf75.png)
   
 - SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색 결과를 내보낼 때 인덱싱되지 않은 항목을 내보내는 능력은 선택한 내보내기 옵션과 검색된 사이트에 검색 조건과 일치하는 인덱싱된 항목이 포함되어 있는지 여부에 따라 결정됩니다. 예를 들어 특정 SharePoint 또는 비즈니스용 OneDrive 사이트를 검색하고 검색 결과를 찾을 수 없는 경우 인덱싱된 항목과 인덱싱되지 않은 항목을 모두 내보내기 위한 두 번째 내보내기 옵션을 선택하면 해당 사이트에서 인덱싱되지 않은 항목이 내보내지 않습니다. 사이트에서 인덱싱된 항목이 검색 조건과 일치하면 인덱싱된 항목과 인덱싱되지 않은 항목을 모두 내보낼 때 해당 사이트의 인덱싱되지 않은 모든 항목이 내보내됩니다. 다음 그림에서는 사이트에 검색 조건과 일치하는 인덱싱된 항목이 포함되어 있는지 여부에 따라 내보내기 옵션에 대해 설명합니다.
 
-    ![사이트에 검색 조건과 일치하는 인덱싱된 항목이 포함되어 있는지 여부에 따라 내보내기 옵션 선택](../media/94f78786-c6bb-42fb-96b3-7ea3998bcd39.png)
+    ![사이트에 검색 조건과 일치하는 인덱싱된 항목이 포함되어 있는지 여부에 따라 내보내기 옵션을 선택합니다.](../media/94f78786-c6bb-42fb-96b3-7ea3998bcd39.png)
 
     a. 검색 조건과 일치하는 인덱싱된 항목만 내보낼 수 있습니다. 부분적으로 인덱싱된 항목은 내보내지 않습니다.
 

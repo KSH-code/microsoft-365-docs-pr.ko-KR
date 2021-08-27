@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호하는 방법
-ms.openlocfilehash: 808bd8942c077ae1ab0bc78dbaebc8fc860da120
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 301aa152d462dc7fc712d4b6aa56f4a521463690
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58393463"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566919"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>비즈니스용 요금제의 보안 Microsoft 365 10가지 방법
 
@@ -39,14 +39,14 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 
 |*숫자*|작업|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
-|1|[다단계 인증 설정](secure-your-business-data.md#setup)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2|[사용자 교육](secure-your-business-data.md#train)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3 |[전용 관리자 계정 사용](secure-your-business-data.md#admin)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|4 |[메일의 맬웨어에 대한 보호 수준 높이기](secure-your-business-data.md#malware)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|5 |[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|6 |[전자 메일에 대한 자동 전달 중지](secure-your-business-data.md#forwarding)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|7 |[메시지 Office 사용](secure-your-business-data.md#encryption)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|8 |[피싱 공격으로부터 전자 메일 보호](secure-your-business-data.md#phishing)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|1|[다단계 인증 설정](secure-your-business-data.md#setup)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2|[사용자 교육](secure-your-business-data.md#train)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3 |[전용 관리자 계정 사용](secure-your-business-data.md#admin)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|4 |[메일의 맬웨어에 대한 보호 수준 높이기](secure-your-business-data.md#malware)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|5 |[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|6 |[전자 메일에 대한 자동 전달 중지](secure-your-business-data.md#forwarding)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|7 |[메시지 Office 사용](secure-your-business-data.md#encryption)||![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|8 |[피싱 공격으로부터 전자 메일 보호](secure-your-business-data.md#phishing)||![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |9 |[첨부 파일을 통해 악의적인 첨부 파일 및 금고 보호](secure-your-business-data.md#atp)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |10 |[링크로 피싱 금고 보호](secure-your-business-data.md#phishingatp)||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 
@@ -54,7 +54,7 @@ Microsoft Business Premium이 있는 경우 보안을 설정하고 안전하게 
 
 시작하기 전에 보안 [센터에서](../../security/defender/microsoft-secure-score.md) Microsoft 365 보안 점수를 Microsoft 365 합니다. 중앙 집중식 대시보드에서 ID, 데이터, 앱, 장치 및 인프라에 대한 Microsoft 365 모니터링하고 개선할 수 있습니다. 권장 보안 기능을 구성하거나, 보안 관련 작업(예: 보고서 보기)을 수행하거나, 타사 응용 프로그램 또는 소프트웨어를 사용하여 권장 사항을 해결하기 위한 포인트가 부여됩니다. 더 광범위한 Microsoft 제품 및 서비스 집합에 대한 추가 통찰력과 가시성을 통해 조직의 보안 상태 보고를 확신할 수 있습니다.
 
-![Microsoft 보안 점수 스크린샷](../../media/secure-score.png)
+![Microsoft 보안 점수 스크린샷.](../../media/secure-score.png)
 
 ## <a name="1-set-up-multi-factor-authentication"></a>1: 다단계 인증 설정
 <a name="setup"> </a>
@@ -218,11 +218,11 @@ Office 메시지 암호화는 메일을 보낼 때 다음과 같은 두 가지 �
 
 PC용 Outlook **메일에서 옵션을** 선택한 다음 사용 **권한을 선택합니다.**
 
-![전자 메일 메시지 암호화 Outlook](../../media/08e90a7e-a2d2-41a4-bae9-0a46b4ce639a.png)
+![전자 메일 메시지 암호화를 Outlook.](../../media/08e90a7e-a2d2-41a4-bae9-0a46b4ce639a.png)
 
 in Outlook.com, select **Protect** in the email. 기본 보호는 **전달 금지입니다.** 암호화를 위해 이 옵션을 변경하려면 **사용 권한 암호화 변경 을** \> **선택합니다.**
 
-![Outlook.com의 전자 메일 메시지 암호화](../../media/329ccf50-f6b1-4fb8-b249-60b907a82b7e.png)
+![Outlook.com의 전자 메일 메시지 암호화.](../../media/329ccf50-f6b1-4fb8-b249-60b907a82b7e.png)
 
 ### <a name="to-receive-encrypted-email"></a>암호화된 전자 메일을 받으면
 
@@ -239,7 +239,7 @@ Microsoft 365 사용자 지정 도메인을 하나 이상 구성한 경우 대�
 
 가장 중요한 사용자와 사용자 지정 도메인을 보호하는 정책을 만들어 이 보호를 시작하는 것이 좋습니다.
 
-![Microsoft Defender에서 피싱 방지 정책 Office 365](../../media/security-and-compliance-center.png)
+![Microsoft Defender에서 피싱 방지 정책 Office 365.](../../media/security-and-compliance-center.png)
 
 사용자용 Defender에서 피싱 방지 정책을 Office 365 짧은 교육 [](../../business-video/setup-anti-phishing.md)비디오를 보거나 다음 단계를 완료합니다.
 

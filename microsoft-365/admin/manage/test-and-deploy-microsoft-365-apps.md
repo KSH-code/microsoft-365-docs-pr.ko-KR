@@ -14,12 +14,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직 내 통합 앱 포털에서 조직의 사용자 및 그룹에 대한 Microsoft 및 Microsoft 파트너 앱을 찾고 테스트하고 Microsoft 365 관리 센터.
-ms.openlocfilehash: 5bcbdebbacf8d9e4710dd7f9168d3f6dbcb4af5a
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 13276923c55632145207b61032583a26e3553e06
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346127"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566979"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>통합 앱 포털에서 Microsoft 365 앱 테스트 및 배포
 
@@ -165,17 +165,17 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 
 다음 예제에서는 추가 기능으로 Sandra, Sheila 및 Sales Department 그룹을 할당합니다. 서해안 영업부는 중첩된 그룹이므로 현준 및 배식은 추가 기능에 할당되지 않습니다. 
 
-![영업 부서 다이어그램](../../media/683094bb-1160-4cce-810d-26ef7264c592.png)
+![영업 부서의 다이어그램입니다.](../../media/683094bb-1160-4cce-810d-26ef7264c592.png)
 
 ### <a name="find-out-if-a-group-contains-nested-groups"></a>그룹이 중첩된 그룹을 포함하는지 확인
 
 그룹이 중첩된 그룹을 포함하는지를 검색하는 가장 쉬운 방법은 Outlook 내에서 그룹 연락처 카드를 확인하는 것입니다. 전자 메일의 To 필드에 그룹 이름을 입력한 다음 그룹 이름이 확인될 때 선택하면 그룹 이름이 사용자 또는 중첩된 그룹이 포함되어 있는 경우 ****   표시됩니다. 아래 예제에서는 테스트 **** 그룹에 대한 Outlook 연락처 카드의 구성원 탭에 사용자와 하위 그룹 두 개만   표시됩니다. 
 
-![연락처 카드의 Outlook 탭](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
+![연락처 카드의 Outlook 탭입니다.](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
 
 그룹이 어떤 그룹의 구성원인지 확인하기 위해 그룹을 확인하여 반대 쿼리를 수행할 수 있습니다. 아래 예제에서는 하위 그룹 1이 테스트 그룹의 구성원인 Outlook 카드의 멤버 자격 탭에서 볼 <b></b>   수 있습니다. 
 
-![연락처 카드의 Outlook 탭](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
+![연락처 카드의 Outlook 탭입니다.](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
 
 Azure Active Directory Graph API를 사용하여 쿼리를 실행하여 그룹 내의 그룹 목록을 찾을 수 있습니다. 자세한 내용은 [Operations on groups | Graph API 참조 .](/previous-versions/azure/ad/graph/api/groups-operations) 
 
@@ -289,7 +289,7 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 Office�
 - 추가 기능을 둘 이상의 추가 기능 및 웹앱에 연결하고 이러한 추가 기능 중 하나 이상이 다른 관리자(exchange/global)에 의해 배포되고 사용자 할당이 균일하지 않은 경우 사용자 할당이 이미 배포된 모든 앱에 대해 동일한 경우 추가 기능 배포만 허용합니다.  
 
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="which-administrator-role-do-i-need-to-access-integrated-apps"></a>통합 앱에 액세스하려면 어떤 관리자 역할이 필요한가요?
 

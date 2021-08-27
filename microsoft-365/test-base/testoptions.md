@@ -14,18 +14,18 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: dd399bfb4194fa479efd5ff40bfa4dafcccb2167b2ad9bb99463f454c91c4cfa
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4a0c6944387def430ef0091239b5111ec533dcd6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53832973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573802"
 ---
 # <a name="step-5-choose-your-test-options"></a>5단계: 테스트 옵션을 선택합니다. 
 
 이 탭은 기능 테스트를 수행하여 기능 테스트 스크립트 실행 시퀀스에서 Windows 업데이트 패치를 적용해야 하는 경우를 나타내기 위한 ```Test Options``` 것입니다.
 
-![테스트 옵션의 이미지입니다. Out-of-box 또는 functional tests](Media/testoptions.png)
+![테스트 옵션의 이미지입니다. Out-of-box 또는 functional tests.](Media/testoptions.png)
 
 _**검토를**_ 선택하여 다음 탭으로 이동하고 선택한 테스트 옵션을 검토합니다.
 

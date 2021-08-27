@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 콘텐츠 공동 작업의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: 13bee74b901bef4a4d4086e5cbed97a1bdddbabb145acaee5e68af9f5fdac010
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fa4e84f0cf454e28cd773292f2a4065cb1252acf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823294"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566931"
 ---
 # <a name="content-collaboration--people-experiences"></a>콘텐츠 공동 작업 - 사람 환경
 
@@ -110,7 +110,7 @@ Microsoft OneDrive 및 비즈니스용 SharePoint 사용하여 여러 장치 및
 
 ### <a name="creating-files-in-onedrive-or-sharepoint"></a>사용자 또는 OneDrive 파일 SharePoint
 
-:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="OneDrive 사용자 수를 보여 SharePoint":::
+:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="OneDrive 사용자 수를 보여 SharePoint.":::
 
 1. **헤더:** Microsoft 365 Office 응용 프로그램에서 파일을 만드는 사용자 비율을 OneDrive SharePoint.
 2. **본문:** 콘텐츠 생성 및 콘텐츠 생성의 가치에 대한 OneDrive SharePoint.

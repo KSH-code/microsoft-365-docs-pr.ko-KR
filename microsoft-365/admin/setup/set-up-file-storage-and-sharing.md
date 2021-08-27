@@ -31,12 +31,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 공유를 위해 OneDrive 및 팀 사이트를 Microsoft 365 방법을 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 8fac85da0b6416fe846bf5eb35ffb0761b26ad21
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 69ecb461396ef220258ce174d462ea7afda5aa8a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394735"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566895"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>파일 저장소 및 공유를 Microsoft 365
 
@@ -56,7 +56,7 @@ ms.locfileid: "58394735"
 
 사용자 OneDrive 사이트와 팀 사이트 모두 사용자와 직원에게 어디에서나 액세스할 수 있도록 합니다.
   
-![Microsoft 365 또는 팀 사이트를 사용하는 OneDrive 다이어그램](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
+![제품 또는 팀 사이트를 Microsoft 365 방법을 보여 OneDrive 다이어그램입니다.](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
 다음은 사이트 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 OneDrive 권장 사항입니다.<br/>
 
@@ -85,7 +85,7 @@ ms.locfileid: "58394735"
 
 3. 이 OneDrive 팀 구성원은 자신의 비즈니스 관련 파일을 저장할 수 있습니다. 개별 파일 또는 전체 폴더를 공유할 수 있습니다. 파일 또는 폴더를 선택하고 마우스 오른쪽 단추로 클릭한 다음 공유 를 **클릭합니다.**
 
-    ![폴더 공유](../../media/e8df9df3-aea5-404d-a320-92d7826c260c.png)
+    ![폴더 공유.](../../media/e8df9df3-aea5-404d-a320-92d7826c260c.png)
   
 4. 링크 **보내기 페이지에서** 기본 선택에 링크가 있는 모든 사람은 을 보고 **편집할 수 있습니다.**
 
@@ -97,11 +97,11 @@ ms.locfileid: "58394735"
   
 5. 공유할 대상을 입력했으면 보내기 를 **선택합니다.** 초대한 사람에게 즉시 전자 메일이 전송됩니다.
 
-    ![이름 목록을 표시하는 링크 공유](../../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
+    ![이름 목록을 표시하는 링크를 공유합니다.](../../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
   
 6. 전자 메일의 모양은 다음과 같아야 합니다. 
 
-    ![전자 메일 폴더 공유 링크가 OneDrive 메일](../../media/750c92e1-f14f-404c-a6a3-2095e26c680c.png)
+    ![전자 메일 폴더를 공유하는 링크가 OneDrive 있습니다.](../../media/750c92e1-f14f-404c-a6a3-2095e26c680c.png)
   
 ### <a name="upload-files-to-a-team-site-for-online-collaboration"></a>업로드 공동 작업을 위해 팀 사이트에 파일 저장
 
@@ -142,15 +142,15 @@ ms.locfileid: "58394735"
   
 4. 그런 다음 Set up OneDrive get **a Set up OneDrive** sign in with your work or school account.
 
-    ![OneDrive 화면](../../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
+    ![OneDrive 화면이 표시됩니다.](../../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
   
 5. If you haven't yet synced your OneDrive, you might see a **This is your OneDrive folder** screen. Your OneDrive **folder is here 아래 경로를 확인합니다.** 다른 **경로를** 사용하려면 위치 변경을 선택하고 다음 을 **선택합니다.**
 
-    ![이 화면에서 로컬 폴더 변경](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
+    ![이 화면에서 로컬 폴더를 변경합니다.](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
   
 6. 팀 사이트의 파일은 조직 이름 아래 파일 탐색기 왼쪽 창에 표시됩니다. 파일의 OneDrive "OneDrive - " 아래에 \<Name of Organization\> 표시됩니다.
 
-    ![로컬 폴더에서 동기화된 기능을 확인합니다.](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
+    ![로컬 폴더에 동기화된 기능을 확인합니다.](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
   
 7. 컴퓨터의 팀 폴더에서 파일을 열고 동기화를 테스트합니다. 내용을 변경하고 **저장** 을 선택합니다.
 

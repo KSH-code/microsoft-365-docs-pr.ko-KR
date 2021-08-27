@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 Microsoft Defender에서 공격 시뮬레이션 교육을 위한 사용자 지정 페이로드를 만드는 방법을 Office 365.
 ms.technology: mdo
-ms.openlocfilehash: 9a597fd05c9b975c54518828ebbd2433bc47b835
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 72600b787f1570839b0d6ee3fefc7467af5ac08b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257438"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573838"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>공격 시뮬레이션 교육에 대한 사용자 지정 페이로드 만들기
 
@@ -45,7 +45,7 @@ Microsoft는 공격 시뮬레이션 교육과 쌍을 이을 수 있는 다양한
 
 페이로드를 만들 수 있는 텍스트 편집기를 사용할 수 있습니다. 또한 앞서 만든 전자 메일을 가져올 수도 있습니다. 전자 메일 본문을 만들 때 동적  태그를 사용하여 전자 메일을 대상에 맞게 개인 설정하세요. 피싱 **링크를 클릭하여** 메시지 본문에 이전에 선택한 피싱 URL을 추가합니다.
 
-![Microsoft Defender for Office 365](../../media/attack-sim-preview-payload-email-body.png)
+![Microsoft Defender for Office 365 페이로드 만들기에서 강조 표시된 피싱 링크 및 동적 태그 Office 365.](../../media/attack-sim-preview-payload-email-body.png)
 
 > [!TIP]
 > 시간을 절약하려면 전자 메일 메시지의 모든 링크를 피싱 링크로 바꾸는 옵션을 **토글합니다.**
@@ -58,7 +58,7 @@ Microsoft는 공격 시뮬레이션 교육과 쌍을 이을 수 있는 다양한
 
 드롭다운 목록에서 사용할 표시기를 선택합니다. 이 목록은 피싱 전자 메일 메시지에 나타나는 가장 일반적인 단서를 포함하기 위해 큐레이터로 구성됩니다. 선택한 후 표시기 배치가 전자 메일 **본문에서로** 설정되어 있는지 확인한 다음 텍스트 선택 **을 클릭합니다.** 이 표시기가 나타나는 페이로드 부분을 강조 표시하고 선택을 **클릭합니다.**
 
-![공격 시뮬레이션 교육의 지표에 추가할 메시지 본문의 강조 표시된 텍스트](../../media/attack-sim-preview-select-text.png)
+![공격 시뮬레이션 교육의 지표에 추가할 메시지 본문의 강조 표시된 텍스트입니다.](../../media/attack-sim-preview-select-text.png)
 
 사용자 지정 설명을 추가하여 표시기를 설명하고 표시기 미리 보기 프레임 내에서 클릭하여 표시기 미리 보기를 볼 수 있습니다. 완료되면 추가를 **클릭합니다.** 페이로드의 모든 표시기를 다를 때까지 이러한 단계를 반복합니다.
 

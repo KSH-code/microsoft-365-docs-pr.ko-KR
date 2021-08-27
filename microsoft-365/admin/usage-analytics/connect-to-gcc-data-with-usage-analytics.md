@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 정부 커뮤니티 클라우드(GCC) 테넌트의 Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 데이터에 연결하는 방법을 Power BI.
-ms.openlocfilehash: e831cae78c90eeafae38117b6939d506f37632f30e3bd456ca9242b9d81c402c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2a0ea6985b9f9d09498e4ad086bf89f529b24c17
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53907218"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567159"
 ---
 # <a name="connect-to-microsoft-365-government-community-cloud-gcc-data-with-usage-analytics"></a>커넥트 사용하여 Microsoft 365 정부 커뮤니티 클라우드(GCC) 데이터 관리
 
@@ -50,7 +50,7 @@ ms.locfileid: "53907218"
 2. 사용 **현황 보고서 페이지의** Microsoft 365 사용 현황 분석 섹션에서 를 **시작.** 
 3. 사용 **현황 Power BI 사용에서** 조직 사용 현황 데이터를 **Microsoft** 사용 현황 분석에 사용할 수 있도록 설정을 선택하고 Power BI **을 선택합니다.**
 
-    ![테넌트 데이터를 사용할 수 있도록 설정](../../media/usage-analytics/make-data-available.png) 
+    ![테넌트 데이터를 사용할 수 있도록 합니다.](../../media/usage-analytics/make-data-available.png) 
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "53907218"
 
 4. 조직 데이터가 준비되면 페이지를 새로 고치면 데이터를 사용할 수 있으며 테넌트 ID 번호도 제공된다는 **메시지가** 표시됩니다. 테넌트 데이터에 연결하려고 할 때 이후 단계에서 테넌트 ID를 사용해야 합니다. 
  
-    ![테넌트 ID](../../media/usage-analytics/tenant-id-gcc.png) 
+    ![테넌트 ID입니다.](../../media/usage-analytics/tenant-id-gcc.png) 
  
     > [!IMPORTANT]
     > 데이터를 사용할 수 있는 경우 Power BI 로 이동을 선택하지 말고 Power BI 마켓플레이스로 이동하십시오.  GCC 테넌트에 필요한 이 보고서의 템플릿 앱은 Power BI 마켓플레이스에서 사용할 수 없습니다.  
@@ -74,13 +74,13 @@ Microsoft 365 GCC 사용 현황 분석 보고서 Microsoft 365 파일을 다운�
 1. Power BI [템플릿을 다운로드한](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit)후 Power BI Desktop. 
 2. **TenantID를** 묻는 메시지가 표시될 때 1단계에서 이 보고서에 대한 조직의 데이터를 준비할 때 받은 테넌트 ID를 입력합니다. 그런 다음 **로드를 선택합니다.** 데이터를 로드하는 데 몇 분 정도 걸립니다. 
 
-    ![테넌트 ID 입력](../../media/usage-analytics/add-tenant-id.png) 
+    ![테넌트 ID를 입력합니다.](../../media/usage-analytics/add-tenant-id.png) 
 
 
 
 3. 로드가 완료되면 보고서가 표시될 것이고 데이터에 대한 임원 요약이 표시됩니다. 
 
-    ![주요 내용 요약](../../media/usage-analytics/exec-summary.png) 
+    ![Executive Summary.](../../media/usage-analytics/exec-summary.png) 
  
 
 4. 보고서에 변경 내용을 저장합니다. 

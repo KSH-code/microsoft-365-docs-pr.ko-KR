@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 항목을 수정하고 제거하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 951468fb9b3245135356d956e488c55390e9c6f9
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: d2d5ce65836accd94dec497e5be0087a94742ca0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349791"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573814"
 ---
 # <a name="modify-and-remove-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 항목 수정 및 제거
 
@@ -46,7 +46,7 @@ ms.locfileid: "58349791"
    - **파일**
    - **스푸핑**
 
-3. 수정할 항목을 선택하고 편집 아이콘 편집 ![ 을 ](../../media/m365-cc-sc-edit-icon.png) **클릭합니다.** 플라이아웃에서 수정할 수 있는 값은 이전 단계에서 선택한 탭에 따라 다를 수 있습니다.
+3. 수정할 항목을 선택하고 편집 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-edit-icon.png) **편집.** 플라이아웃에서 수정할 수 있는 값은 이전 단계에서 선택한 탭에 따라 다를 수 있습니다.
    - **보낸 사람**
      - **만료 및/또는** 만료 날짜가 없습니다.
      - **선택 사항 참고 사항**
@@ -73,7 +73,7 @@ ms.locfileid: "58349791"
    - **파일**
    - **스푸핑**
 
-3. 제거할 항목을 선택하고 삭제 아이콘 삭제 ![ 를 ](../../media/m365-cc-sc-delete-icon.png) **클릭합니다.**
+3. 제거할 항목을 선택한 다음 삭제 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-delete-icon.png) **삭제**.
 
 4. 나타나는 경고 대화 상자에서 삭제를 **클릭합니다.**
 

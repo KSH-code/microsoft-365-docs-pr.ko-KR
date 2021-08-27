@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 215c652520dd7267ec38e1eabc79f4268b3fcc1c0b85c19a7555816ed6eb80c6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 142ce23d87c1f793a0192270e6d041b33d9bc126
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53839609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573970"
 ---
 # <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender의 라이선스 문제 해결
 
@@ -40,7 +40,7 @@ ms.locfileid: "53839609"
 
 [macOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md) 및 [](mac-install-manually.md) 수동 배포 테스트 또는 PoC(개념 증명)를 진행하는 동안 다음 오류가 발생할 수 있습니다.
 
-![라이선스 오류 이미지](images/no-license-found.png)
+![라이선스 오류의 이미지입니다.](images/no-license-found.png)
 
 **메시지:** 
 

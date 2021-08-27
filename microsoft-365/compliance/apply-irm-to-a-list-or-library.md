@@ -21,12 +21,12 @@ ms.collection:
 - SPO_Content
 description: IRM(정보 권한 관리)을 사용하여 목록 또는 라이브러리에서 다운로드한 파일을 제어하고 보호할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8e6390e20b19c291ea79417082d926e670d7b59a27572d58e25b888e8a18d023
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 84f0443cd31f26549dc1f5dc06be6e7bf52b05dc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887038"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573670"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>목록 또는 라이브러리에 IRM(정보 권한 관리) 적용
 
@@ -48,13 +48,13 @@ IRM(정보 권한 관리)을 사용하여 목록 또는 라이브러리에서 �
 ## <a name="apply-irm-to-a-list-or-library"></a>목록 또는 라이브러리에 IRM 적용
 <a name="__toc256598179"> </a>
 
-![정보 권한 관리 설정](../media/1b708102-9c90-42b0-b255-ef0e72d0be88.png)
+![정보 권한 관리 설정.](../media/1b708102-9c90-42b0-b255-ef0e72d0be88.png)
   
 1. IRM을 구성할 목록 또는 라이브러리로 이동하십시오.
 
 2. 리본 메뉴에서 라이브러리 탭을 **선택한** 다음 라이브러리 탭을 **설정.** (목록에서 작업하는 경우 목록 탭을 선택한 다음 목록 탭을 **설정).** 
     
-    ![SharePoint 리본의 설정 단추](../media/cdf718fa-d792-40fc-8026-00c3b80b9e05.png)
+    ![SharePoint 라이브러리 설정 단추입니다.](../media/cdf718fa-d792-40fc-8026-00c3b80b9e05.png)
   
 3. 사용 **권한 및 관리에서** **정보 권한 관리를 선택합니다.** 정보 권한 관리 링크가 나타나지 않는 경우 사이트에 대해 IRM을 사용하도록 설정하지 않을 수 있습니다. 서버 관리자에게 문의하여 사이트에 대해 IRM을 사용하도록 설정할 수 있는지 문의하십시오. 그림 **라이브러리에는** 정보 권한 관리 링크가 나타나지 않습니다.
 

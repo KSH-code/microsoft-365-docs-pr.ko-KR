@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 소규모 기업, 일정 및 정치 캠페인을 포함한 소규모 기업을 위한 Microsoft 365 Business Premium 보안 및 공동 작업 권장 사항입니다.
-ms.openlocfilehash: bf795b0e5a89532a0b0d30f1c9436eb73739b7cc0d28dbe227dcc52ef5c76c06
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8e1da206a23a58d568d6e0e4a9efe04cef510a85
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861547"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573790"
 ---
 # <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>소규모 기업 및 캠페인을 위한 Microsoft 365
 
@@ -83,15 +83,15 @@ Microsoft 365 Business Premium에 대해 권장되는 보안 구성을 통해 �
 
 | 협업을 위한 팀 생성 | 온라인 모임 설정 |
 | ------------- | ------------- |
-| ![SharePoint 커뮤니케이션 사이트](../media/sm-m365-democracy-teams-collab.png) | ![온라인 모임](../media/m365-democracy-teams-meetings.png) |
+| ![SharePoint 커뮤니케이션 사이트.](../media/sm-m365-democracy-teams-collab.png) | ![온라인 모임](../media/m365-democracy-teams-meetings.png) |
 | 주요 직원, 모든 직원 및 파트너 또는 공급 업체가 팀과 공동 작업을 수행합니다.<br>[팀 만들기](create-teams-for-collaboration.md) | 오디오, 비디오 및 Microsoft 팀과의 공유로 미팅 일정을 잡습니다.<br>[모임을 설정합니다](set-up-meetings.md) |
 
 | 중요한 전자 메일을 암호화하거나 레이블을 지정합니다. | 통신 사이트 만들기 |
 | ------------- | ------------- |
-| ![암호화 되고 레이블이 지정 된 전자 메일](../media/sm-m365-campaign-email-encrypt.png) | ![SharePoint 커뮤니케이션 사이트](../media/sm-m365-democracy-comms-site.png) |
+| ![암호화되고 레이블이 지정된 전자 메일.](../media/sm-m365-campaign-email-encrypt.png) | ![SharePoint 커뮤니케이션 사이트](../media/sm-m365-democracy-comms-site.png) |
 | 암호화 및 민감도 레이블을 사용하여 기밀 또는 중요한 정보가 포함된 전자 메일을 보호합니다.<br>[암호화된 전자 메일을 보냅니다](send-encrypted-email.md) | SharePoint로 작성된 내부 통신 사이트에서 팀과 이벤트, 메시지, 이미지 등을 공유할 수 있습니다.<br>[사이트 만들기](create-communications-site.md) |
 
 | 파일 및 동영상 공유 |
 | ------------- |
-| ![Microsoft Teams에서 파일 공유](../media/m365-democracy-teams-sharefiles.png) |
+| ![Microsoft Teams에서 파일 공유.](../media/m365-democracy-teams-sharefiles.png) |
 | 파일 및 비디오를 클라우드에 저장하여 담당자가 <br>적절한 사용자에게 사용할 수 있도록 합니다.<br>[공유 시작](share-files-and-videos.md) |

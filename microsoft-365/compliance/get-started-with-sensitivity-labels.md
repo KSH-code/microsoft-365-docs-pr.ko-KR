@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 3b4c99f78173466e2a4d5802be54fd98cf312849
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 7f53adddf19b3b09794c65d5157aeb1f8338008e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247883"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566871"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -46,7 +46,7 @@ ms.locfileid: "58247883"
 
 민감도 레이블을 배포하고 적용하기 위한 기본 흐름:
 
-![민감도 레이블의 워크플로를 보여 주는 다이어그램](../media/Sensitivity-label-flow.png)
+![민감도 레이블의 워크플로를 보여 주는 다이어그램.](../media/Sensitivity-label-flow.png)
 
 ## <a name="subscription-and-licensing-requirements-for-sensitivity-labels"></a>민감도 레이블에 대한 구독 및 라이선스 요구 사항
 

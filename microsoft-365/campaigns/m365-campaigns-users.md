@@ -24,18 +24,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대한 이러한 보안 권장 Microsoft 365 Business Premium 사용자에게 영향을 미치고 데이터를 보호하는 방법을 알아보습니다.
-ms.openlocfilehash: 8e2ce13b694aa526c3c063bec7a4dc8c7699244f2c00f4dfee5d38bfe5208b1b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8f8ccbbb1f9edb6eb9b1f29078317727b5e9b6e7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53881689"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567135"
 ---
 # <a name="how-these-security-recommendations-affect-your-users"></a>이러한 보안 권장 사항이 사용자에게 미치는 영향
 
 이 솔루션의 Microsoft 365 권장 사항을 통해 해커가 사용자 환경에 액세스하기가 훨씬 더 어려워집니다. 이 경우 사용자는 보다 안전한 환경에서 작업하는 방법을 알고 있어야 합니다. 약간의 인내가 필요하지만 조직을 보호하는 것이 가치가 있습니다.
 
-![아래에서 iPhone, Android 장치, Mac, Windows 10, 공유 및 키 직원을 요약한 그림](../media/M365-democracy-Users_900px.png)
+![아래에서 iPhone, Android 장치, Mac, Windows 10, 공유 및 키 직원을 요약한 그림입니다.](../media/M365-democracy-Users_900px.png)
 
 ## <a name="use-secure-email-practices"></a>보안 전자 메일 사례 사용
 

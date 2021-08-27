@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: ee2e3630901f5c18382f2671ba72f684602a309edd2b28efa22f3ea14567a326
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2bc2af6fcb91b916ef3d4ff9f6397fca71aabb27
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864186"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58532862"
 ---
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Microsoft 365 고객 데이터가 저장되는 위치
 
@@ -86,7 +86,7 @@ Microsoft Azure에 대한 데이터 상주 정보를 찾으려면 [지역별 사
 
 ### <a name="what-services-support-multi-geo"></a>Multi-Geo를 지원하는 서비스는 무엇인가요?
 
-[Multi-Geo](https://go.microsoft.com/fwlink/p/?linkid=872033)는 Exchange Online, OneDrive 및 SharePoint Online에서 사용할 수 있습니다. Microsoft는 다른 Microsoft 365 서비스를 위해 Multi-Geo를 조사하고 있습니다.
+[Multi-Geo는](https://go.microsoft.com/fwlink/p/?linkid=872033) Exchange Online, 비즈니스용 OneDrive, SharePoint Online 및 Teams에서 사용 할 수 있습니다.
 
 ### <a name="what-are-the-exceptions-for-intune-data-locations"></a>Intune 데이터 위치의 예외는 무엇인가요?
 
@@ -114,7 +114,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | 전세계 지리적 위치 | 고객 데이터가 저장되는 위치 |
 | --- | --- |
 | 전세계 지리적 위치 1 - EMEA (유럽, 중동, 아프리카) | 오스트리아, 핀란드, 프랑스, 아일랜드, 네덜란드 |
-| 전세계 지리적 위치 2 - 아시아 태평양 | 홍콩, 일본, 말레이시아, 싱가포르, 대한민국 |
+| 전세계 지리적 위치 2 - 아시아 태평양 | 홍콩 특별행정구, 일본, 말레이시아, 싱가포르, 대한민국 |
 | 전세계 지리적 위치 3 - 아메리카 | 브라질, 칠레, 미국 |
 
 ## <a name="countryregion-specific-data-center-city-locations"></a>국가/지역별 데이터 센터 도시 위치

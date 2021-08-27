@@ -14,12 +14,12 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 480500484948beb1423cea0640c8c01a00252190
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 15cd59e2d0291a713de142f303bb9934ec1c06d8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594189"
+ms.locfileid: "58550217"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 
@@ -44,7 +44,7 @@ ms.locfileid: "58594189"
 
 2. 사이드 **HKEY_LOCAL_MACHINE** 선택
 
-3. 중첩된 메뉴를 탐색하여  Exploit Guard 네트워크 보호를 Windows Defender \>  \>  \> **Windows Defender** \> **소프트웨어** \> **정책으로 이동합니다.**
+3. 중첩된 메뉴를 탐색하여 Exploit Guard 네트워크 보호를 Windows Defender  >    >    >  **Windows Defender**  >  **소프트웨어**  >  **정책으로 이동합니다.**
 
 4. **EnableNetworkProtection을** 선택하여 장치의 현재 네트워크 보호 상태를 확인합니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "58594189"
 
 2. 끝점 보호 구성 프로필 [만들기 또는 편집](/mem/intune/protect/endpoint-protection-configure)
 
-3. 프로필 **흐름의** 구성 설정 아래에서 Microsoft Defender Exploit Guard  네트워크 필터링 네트워크 보호 사용 또는 \>  \>  \>  **감사만 사용으로 이동하세요.**
+3. 프로필 **흐름의** 구성 설정 아래에서 Microsoft Defender Exploit Guard 네트워크 필터링 네트워크 보호 사용 또는  >    >    >   **감사만 사용으로 이동하세요.**
 
 ### <a name="group-policy"></a>그룹 정책
 
@@ -104,7 +104,7 @@ ms.locfileid: "58594189"
 
 2. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-3. Exploit Guard **네트워크 보호를 Windows 구성** Microsoft Defender 바이러스 백신 \>  \> **Windows Defender** \> **확장합니다.**
+3. Exploit Guard **네트워크 보호를 Windows 구성** Microsoft Defender 바이러스 백신  >    >  **Windows Defender**  >  **확장합니다.**
 
    > [!NOTE]
    > 이전 버전의 Windows 그룹 정책 경로는 "Windows Defender 바이러스 백신"가 아니라 "Microsoft Defender 바이러스 백신"라고 말할 수 있습니다.

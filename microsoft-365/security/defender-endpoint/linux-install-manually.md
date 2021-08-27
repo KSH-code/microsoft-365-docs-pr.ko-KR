@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 10fba72dbd22419d9941b20609c45d507cb0b206
-ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
+ms.openlocfilehash: 24659a1e928143c79b3ab7324114d5c8b0fa1f43
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372523"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58550157"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -285,7 +285,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 2. 첫 번째 드롭다운 메뉴에서 **운영 체제로 Linux Server를** 선택합니다. 두 번째 드롭다운 메뉴에서 배포 **방법으로 로컬 스크립트를** 선택합니다.
 3. **온보더링 패키지 다운로드를 선택합니다.** 파일을 다른 파일로 WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Microsoft 365 Defender 포털 스크린샷](images/portal-onboarding-linux.png)
+    ![Microsoft 365 Defender 포털 스크린샷.](images/portal-onboarding-linux.png)
 
 4. 명령 프롬프트에서 파일이 있는지 확인
     보관함의 내용을 추출합니다.

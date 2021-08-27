@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 샘플 모델을 통해 문서 이해 모델에 대해 알아봅니다.
-ms.openlocfilehash: 52b66a30bb9b28dabde0a9af092e942522db58150acaacc48a23bc105fcb1dce
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e89c0723b978b4d5a206119e10b5a712668b406a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795413"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573742"
 ---
 # <a name="learn-about-document-understanding-models-through-a-sample-model"></a>샘플 모델을 통해 문서 이해 모델 알아보기
 
@@ -31,11 +31,11 @@ Microsoft SharePoint Syntex에서 제공하는 샘플 모델을 사용하여 사
 1. 콘텐츠 센터에서 모델 목록을 보려면 **모델** 을 선택합니다.</br>
 2. **모델** 페이지에서 **샘플 모델 가져오기** 를 선택합니다.</br>
 
-    ![샘플 모델 가져오기](../media/content-understanding/import-sample-model.png) </br>
+    ![샘플 모델 가져오기.](../media/content-understanding/import-sample-model.png) </br>
 
 3. 가져오기가 완료되면 **BenefitsChangeNotice** 모델 홈 페이지가 열립니다. 나중에 샘플 모델을 열어야 하는 경우 콘텐츠 센터의 모델 목록에서 이 작업을 수행할 수 있습니다. </br>
 
-     ![샘플 홈 페이지](../media/content-understanding/sample-home-page.png)</br>
+     ![샘플 홈 페이지.](../media/content-understanding/sample-home-page.png)</br>
 
 샘플 모델 분석을 통해 모델을 구성하는 방법에 대한 이해를 할 수 있을 뿐만 아니라 작업 모델이 더 진행 되어 다음과 같은 작업을 수행하도록 할 수 있습니다.
 

@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Normal
 description: 2013에서 모델을 교육할 때 접근성 모드를 사용하는 방법을 SharePoint Syntex.
-ms.openlocfilehash: 349c9ff2fee37e4f40185c4d61592eb379d83382d373961980bfb615db7040c3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 73a867c3157d3debc584995708a337c36b6b0028
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795461"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573754"
 ---
 # <a name="sharepoint-syntex-accessibility-mode"></a>SharePoint Syntex 접근성 모드
 
@@ -23,13 +23,13 @@ ms.locfileid: "53795461"
 이렇게 하면 사용자가 키보드를 사용하여 문서 뷰어의 텍스트를 탐색하고 선택한 값뿐만 아니라 선택한 텍스트에서 레이블 지정 또는 레이블 제거와 같은 작업이나 추가 예제 문서로 모델을 학습할 때 예측된 레이블 값에 대한 설명을 들을 수 있습니다. 
 
 
-![접근성 모드](../media/content-understanding/accessibility-mode.png)
+![접근성 모드.](../media/content-understanding/accessibility-mode.png)
 
 ## <a name="requirements"></a>요구 사항
 
 내레이션의 오디오를 들으시겠지만 내레이터 [](https://support.microsoft.com/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1) 시스템의 내레이터 설정에서 내레이터 Windows 10 켜야 합니다.
 
-![내레이터 켜기](../media/content-understanding/narrator-settings.png)
+![내레이터를 켜야 합니다.](../media/content-understanding/narrator-settings.png)
 
 ## <a name="labeling-for-keyboard-users"></a>키보드 사용자를 위한 레이블 지정
 

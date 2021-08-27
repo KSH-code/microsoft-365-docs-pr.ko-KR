@@ -25,18 +25,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 온라인 모임을 설정하고 Microsoft Teams.
-ms.openlocfilehash: a1b11429aaf43e913d9f2def902e73299e68c6e295a04bc19f7f995db1d5d823
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 40858f43794736a6b2a9696b84409ca376ed8706
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866975"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567099"
 ---
 # <a name="set-up-meetings"></a>모임 설정
 
 모임에는 Microsoft Teams, 비디오 및 공유가 포함됩니다. 또한 온라인이기 때문에 직원들이 지리적으로 분산되거나 원격으로 작업하는 경우에도 회의실이나 프로젝터 없이도 항상 모임 공간을 사용할 수 있습니다. Microsoft Teams 모임은 조직 내부 및 외부의 직원과 함께 모이는 좋은 방법입니다. 조직의 구성원이 아니어도 되거나 모임에 참가할 계정도 없습니다. 이 기능을 사용하여 온라인 모임을 예약하고 실행할 Microsoft Teams. 모임 중에 화면을 공유하고, 파일을 공유하고, 작업을 할당하는 등 다양한 작업을 수행할 수 있습니다. 정치적 캠페인에는 모임에 조직 외부의 직원, 지원자 및 게스트가 포함됩니다. 중소기업이나 사례는 직원과 만나거나 고객 또는 파트너와 함께 Microsoft Teams.
 
-[![모임에 있는 두 사용자의 그림](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)
+[![모임에 참석한 두 사용자의 그림입니다.](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)
 
 [PDF](https://go.microsoft.com/fwlink/?linkid=2078712) 또는 PowerPoint 인포그래픽을 다운로드하여 온라인 모임에 참가하거나 모임을 주최하는 방법을 간략하게 Microsoft Teams. [](https://go.microsoft.com/fwlink/?linkid=2079515)
 

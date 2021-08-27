@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스가 직면하는 보안 위협과 사용자와 직원이 데이터, 계정 및 장치를 보호할 수 있는 쉬운 방법에 대해 알아보십시오.
-ms.openlocfilehash: 537630b551777e1eedf254de82c11e2286326ccf8973319245cacd5a7da80359
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f5b31fe2056e95ae4477480ac16e80222beeb565
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822613"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566907"
 ---
 # <a name="security-info-graphic-for-small-businesses"></a>중소기업을 위한 보안 정보 그래픽
 
@@ -30,6 +30,6 @@ ms.locfileid: "53822613"
 
 아래의 PowerPoint PDF에 대한 링크를 다운로드하여 타블로이드 형식으로 인쇄할 수 있습니다(ledger 11 x 17 또는 A3).
 
-![소규모 비즈니스 정보 그래픽 보안을 위한 이미지](../media/smbthreatprotectioninfographic-thumbnail.png)
+![소규모 비즈니스 정보 그래픽의 보안을 위한 이미지입니다.](../media/smbthreatprotectioninfographic-thumbnail.png)
 
 [PDF](downloads/smbthreatprotection-infographic.pdf)  |  [PowerPoint](downloads/smbthreatprotection-infographic.pptx)

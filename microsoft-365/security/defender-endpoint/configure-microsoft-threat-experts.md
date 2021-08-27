@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3678101be4f519f621a5fa0dd6b85c3f68e6ef68
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 01f96874ce234d5f4e10923dda47d646eb1c1da5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567355"
 ---
 # <a name="configure-and-manage-microsoft-threat-experts-capabilities"></a>Microsoft 위협 전문가 기능 구성 및 관리
 
@@ -53,15 +53,15 @@ Endpoint 고객용 Defender인 경우 Microsoft 위협 전문가 **-** 대상 �
 
 2. **적용** 을 클릭합니다.
 
-    ![Microsoft 위협 전문가 이미지](images/mte-collaboratewithmte.png)
+    ![설정의 Microsoft 위협 전문가 이미지입니다.](images/mte-collaboratewithmte.png)
 
 3. Microsoft에서 응용 프로그램에서 다시 연락할 수 있도록 이름과 전자 메일 주소를 입력합니다.
 
-    ![응용 Microsoft 위협 전문가 이미지](images/mte-apply.png)
+    ![응용 프로그램의 Microsoft 위협 전문가 이미지입니다.](images/mte-apply.png)
 
 4. 개인 정보 [취급 방침을 읽은](https://privacy.microsoft.com/privacystatement)다음 완료되면 **제출을** 클릭합니다. 응용 프로그램이 승인되면 환영 전자 메일을 받게 됩니다.
 
-    ![응용 Microsoft 위협 전문가 확인 이미지](images/mte-applicationconfirmation.png)
+    ![응용 Microsoft 위협 전문가 확인 이미지입니다.](images/mte-applicationconfirmation.png)
 
 수락하면 환영 전자 메일이 표시되면  적용 단추가 "설정" 토글로 변경되는 것을 볼 수 있습니다. 대상 공격 알림 서비스에서 자신을 꺼내려면 토글 "꺼진" 토글을  밀어 페이지 아래쪽의 기본 설정 저장을 클릭합니다.
 
@@ -106,15 +106,15 @@ Endpoint 고객용 Defender인 경우 Microsoft 위협 전문가 **-** 대상 �
 
 2. 오른쪽 위 메뉴에서 **?** 아이콘을 선택합니다. 그런 다음 위협 **전문가에게 문의를 선택합니다.**
 
-    ![메뉴의 Microsoft 위협 전문가 전문가 이미지](images/mte-eod-menu.png)
+    ![메뉴의 Microsoft 위협 전문가 전문가를 위한 이미지입니다.](images/mte-eod-menu.png)
 
     플라이아웃 화면이 열립니다. 다음 화면은 평가판 구독을 사용 중일 때 표시됩니다.
 
-    ![요구 Microsoft 위협 전문가 전문가 화면의 이미지](images/mte-eod.png)
+    ![요구 시 Microsoft 위협 전문가 전문가 화면의 이미지입니다.](images/mte-eod.png)
 
     다음 화면에는 전체 구독 - 전문가 Microsoft 위협 전문가 구독이 표시됩니다.
 
-    ![전문가가 Microsoft 위협 전문가 전체 구독 화면의 이미지](images/mte-eod-fullsubscription.png)
+    ![요구 시 Microsoft 위협 전문가 전체 구독 화면의 이미지입니다.](images/mte-eod-fullsubscription.png)
 
     문의 **항목 필드에는** 조사 요청에 대한 관련 페이지에 대한 링크가 미리 채워진 것입니다. 예를 들어 요청을 할 때 확인한 인시던트, 경고 또는 장치 세부 정보 페이지에 대한 링크입니다.
 

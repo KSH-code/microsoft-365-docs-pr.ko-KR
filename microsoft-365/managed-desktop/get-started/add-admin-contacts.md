@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0f7490ce1bbf1ef7666ce44f6101054d6acc7703
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.openlocfilehash: fe048005736e39623effc13751a66f195008ff96
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58364556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58550265"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>관리 포털에서 관리자 연락처 추가 및 확인
 
@@ -49,20 +49,20 @@ IT 지원 센터 | 지원 직원이 지원 영역 외부에서 사용자 티켓�
 
 4. **포커스 영역** 을 선택하고 연락처에 대한 정보를 입력합니다. 
 
-    ![기타, 앱 및 보안과 같은 포커스 영역 목록](../../media/areaoffocus.png)
+    ![포커스 영역 목록(예: 기타, 앱 및 보안)](../../media/areaoffocus.png)
 
 5. 각 포커스가 영역에 대해 반복합니다.
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
-1. 관리 [포털에 액세스합니다.](access-admin-portal.md)
+1. [관리 포털](access-admin-portal.md)에 액세스합니다.
 1. 관리 포털에서 관리자 연락처를 추가하고 확인(이 문서)
-1. [등록 후 설정을 조정합니다.](conditional-access.md)
-1. 를 배포하고 [Intune 회사 포털.](company-portal.md)
-1. [라이선스를 할당합니다.](assign-licenses.md)
-1. [앱 배포.](deploy-apps.md)
-1. [장치 를 설치합니다.](set-up-devices.md)
-1. Autopilot 및 등록 상태 페이지로 첫 실행 [환경을 설정합니다.](esp-first-run.md)
-1. [사용자 지원 기능을 사용하도록 설정](enable-support.md).
-1. [사용자가 디바이스를 사용할 준비를 합니다.](get-started-devices.md)
-1. [앱 컨트롤 시작 .](get-started-app-control.md)
+1. [등록 후 설정을 조정합니다](conditional-access.md).
+1. [Intune 회사 포털](company-portal.md)을 배포하고 할당합니다.
+1. [라이선스를 할당합니다](assign-licenses.md).
+1. [앱을 배포합니다](deploy-apps.md).
+1. [디바이스를 설정합니다](set-up-devices.md).
+1. [Autopilot 및 등록 상태 페이지의 첫 실행 환경](esp-first-run.md)을 설정합니다.
+1. [사용자 지원 기능을 사용하도록 설정합니다](enable-support.md).
+1. [사용자가 디바이스를 사용할 수 있도록 준비합니다](get-started-devices.md).
+1. [앱 컨트롤을 시작합니다](get-started-app-control.md).

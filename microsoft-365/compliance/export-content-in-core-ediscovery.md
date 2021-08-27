@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례에서 콘텐츠를 내보내고 다운로드하는 방법을 Microsoft 365.
-ms.openlocfilehash: c74cf79ffc5defe495ed03ac45182dbd8e36582418879d6cf367242b96095eb9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 68535f8623b26aa4f2b30dc88362f4550c256162
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53850823"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567027"
 ---
 # <a name="export-content-from-a-core-ediscovery-case"></a>Core eDiscovery 케이스에서 콘텐츠 내보내기
 
@@ -40,7 +40,7 @@ Core eDiscovery 사례와 연결된 검색이 성공적으로 실행된 후 검�
 
 5. **플라이아웃** 페이지의 아래쪽에 있는 작업 메뉴에서 결과 **내보내기 를 클릭합니다.**
 
-   ![작업 메뉴에서 결과 내보내기 옵션](../media/ActionMenuExportResults.png)
+   ![작업 메뉴에서 결과 내보내기 옵션입니다.](../media/ActionMenuExportResults.png)
 
    Core eDiscovery 사례와 연결된 검색 결과를 내보내는 워크플로는 콘텐츠 검색 페이지에서 검색 결과를 내보내는 워크플로와 **동일합니다.** 단계별 지침은 콘텐츠 검색 결과 [내보내기 를 참조하세요.](export-search-results.md)
 
@@ -51,7 +51,7 @@ Core eDiscovery 사례와 연결된 검색이 성공적으로 실행된 후 검�
   
 6. 이 경우 **내보내기** 탭을 클릭하여 내보내기 작업 목록을 표시합니다.
   
-   ![Core eDiscovery 사례의 내보내기 탭에서 작업 내보내기](../media/CoreeDiscoveryExport.png)
+   ![Core eDiscovery 사례의 내보내기 탭에서 작업을 내보낼 수 있습니다.](../media/CoreeDiscoveryExport.png)
 
    새로 고침을 **클릭하여** 만든 내보내기 작업이 표시될 수 있도록 내보내기 작업 목록을 업데이트해야 할 수 있습니다. 내보내기 작업의 이름은 검색 이름에  추가된 _Export 검색과 동일합니다.
 

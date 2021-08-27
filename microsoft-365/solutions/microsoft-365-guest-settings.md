@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: 41ead8bf4532503cb47623f65a82ca36a616091e
-ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
+ms.openlocfilehash: 056152e44dbe2fc11265e64c548b1056fd72e517
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53409167"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573826"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
@@ -42,7 +42,7 @@ Azure Active Directory는 Microsoft 365에서 사용하는 디렉터리 서비�
 
 **탐색:** [Azure Active Directory 관리 센터](https://aad.portal.azure.com) > Azure Active Directory > 외부 ID > 외부 공동 작업 설정
 
-![Azure Active Directory 조직 관계 설정 페이지 스크린샷](../media/azure-ad-organizational-relationships-settings.png)
+![Azure Active Directory 조직 관계 설정 페이지 스크린샷.](../media/azure-ad-organizational-relationships-settings.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -63,7 +63,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 **탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > 설정 > 조직 설정 > 보안 및 개인 정보 보호 탭 > 공유
 
-![Microsoft 365 관리 센터의 보안 및 개인 정보 게스트 공유 설정 스크린샷](../media/sharepoint-security-privacy-sharing-setting.png)
+![Microsoft 365 관리 센터의 보안 및 개인 정보 게스트 공유 설정 스크린샷.](../media/sharepoint-security-privacy-sharing-setting.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -73,7 +73,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 **탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > 설정 > 설정 > Microsoft 365 그룹
 
-![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
+![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷.](../media/office-365-groups-guest-settings.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -92,7 +92,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 **탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > 조직 전체 설정 > 게스트 액세스
 
-![Teams의 게스트 액세스 토글의 스크린샷](../media/teams-guest-access-toggle.png)
+![Teams 게스트 액세스 토글 스크린샷.](../media/teams-guest-access-toggle.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -102,7 +102,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 **탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > 조직 전체 설정 > 게스트 액세스
 
-![Teams의 게스트 통화 옵션의 스크린샷](../media/teams-guest-calling-setting.png)
+![Teams 게스트 통화 옵션 스크린샷.](../media/teams-guest-calling-setting.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -112,7 +112,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 **탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > 조직 전체 설정 > 게스트 액세스
 
-![Teams의 게스트 모임 설정의 스크린샷](../media/teams-guest-meeting-settings.png)
+![Teams 게스트 모임 설정 스크린샷.](../media/teams-guest-meeting-settings.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -124,7 +124,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 **탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > 조직 전체 설정 > 게스트 액세스
 
-![Teams 게스트 메시징 설정의 스크린샷](../media/teams-guest-messaging-settings.png)
+![Teams 게스트 메시징 설정 스크린샷.](../media/teams-guest-messaging-settings.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -149,7 +149,7 @@ OneDrive는 SharePoint 내의 사이트 계층 구조이므로 조직 수준 공
 
 **탐색:** SharePoint 관리 센터 > 공유
 
-![SharePoint 조직 수준 공유 설정의 스크린샷](../media/sharepoint-organization-external-sharing-controls.png)
+![SharePoint 조직 수준 공유 설정 스크린샷.](../media/external-sharing.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -160,7 +160,7 @@ OneDrive는 SharePoint 내의 사이트 계층 구조이므로 조직 수준 공
 
 **탐색:** SharePoint 관리 센터 > 공유
 
-![SharePoint 조직 수준 추가 공유 설정 스크린샷](../media/sharepoint-organization-advanced-sharing-settings.png)
+![SharePoint 조직 수준 추가 공유 설정 스크린샷.](../media/external-sharing.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -169,6 +169,7 @@ OneDrive는 SharePoint 내의 사이트 계층 구조이므로 조직 수준 공
 |게스트는 공유 초대장이 전송된 계정과 동일한 계정으로 로그인해야 함|해제|게스트가 초대장과 다른 전자 메일 주소를 사용하여 사이트 공유 초대장을 사용할 수 없도록 합니다. <p> [Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](/sharepoint/sharepoint-azureb2b-integration-preview)은 초대를 받은 전자 메일 주소를 기준으로 모든 게스트를 디렉토리에 추가하기 때문에 이 설정을 사용하지 않습니다. 대체 전자 메일 주소를 사용하여 사이트에 액세스할 수 없습니다.|
 |게스트가 소유하지 않은 항목을 공유할 수 있도록 허용|켜짐|**켜짐** 을 설정되면 게스트는 다른 사용자나 게스트와 소유하지 않는 항목을 공유할 수 있습니다. **해제** 된 경우에는 할 수 없습니다. 게스트는 항상 모든 권한을 보유한 항목을 공유할 수 있습니다.|
 |People who use a verification code must reauthenticate after this many days(확인 코드를 사용하는 사용자는 다음 기간(일) 후에 다시 인증해야 함)|해제|이 설정을 사용하면 일회용 암호로 인증하는 사용자가 특정 기간(일) 후에 다시 인증해야 합니다.|
+|사이트 또는 OneDrive 게스트 액세스가 이 기간 후에 자동으로 만료됩니다.|설정|관리자가 게스트 액세스에 대한 만료 시간을 설정한 경우, 사이트에 초대하거나 개별 파일 및 폴더를 공유하는 각 게스트에게 일정 기간(일) 동안 액세스 권한이 부여됩니다. 자세한 내용은 [사이트에 대한 게스트 만료 관리](https://support.microsoft.com/en-us/office/manage-guest-expiration-for-a-site-25bee24f-42ad-4ee8-8402-4186eed74dea)를 참조하세요.
 
 ### <a name="sharepoint-and-onedrive-file-and-folder-link-settings"></a>SharePoint 및 OneDrive 파일 및 폴더 링크 설정
 
@@ -176,7 +177,7 @@ SharePoint 및 OneDrive에서 파일 및 폴더를 공유하는 경우 공유받
 
 **탐색:** SharePoint 관리 센터 > 공유
 
-![SharePoint 조직 수준 파일 및 폴더 공유 설정 스크린샷](../media/sharepoint-organization-files-folders-sharing-settings.png)
+![SharePoint 조직 수준 파일 및 폴더 공유 설정 스크린샷.](../media/sharepoint-organization-files-folders-sharing-settings.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -199,7 +200,7 @@ SharePoint의 각 사이트에 대한 게스트 공유 권한을 설정할 수 �
 
 **탐색:** SharePoint 관리 센터 > 활성 사이트 > 사이트 선택 > 정책 탭 > 외부 공유 편집
 
-![SharePoint 사이트 외부 공유 설정 스크린샷](../media/sharepoint-site-external-sharing-settings.png)
+![SharePoint 사이트 외부 공유 설정 스크린샷.](../media/sharepoint-site-external-sharing-settings.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|
@@ -211,7 +212,7 @@ SharePoint의 각 사이트에 대한 게스트 공유 권한을 설정할 수 �
 
 **탐색:** SharePoint 관리 센터 > 활성 사이트 > 사이트 선택 > 정책 탭 > 외부 공유 편집
 
-![SharePoint 사이트 수준 링크 공유 설정 스크린샷](../media/sharepoint-site-link-sharing-settings.png)
+![SharePoint 사이트 수준 링크 공유 설정 스크린샷.](../media/sharepoint-site-link-sharing-settings.png)
 
 | 설정 | 기본값 | 설명 |
 |:-----|:-----|:-----|

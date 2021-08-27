@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: 하나 또는 여러 개의 메일 그룹을 Microsoft 365 그룹으로 업그레이드하는 방법과 powerShell을 사용하여 여러 메일 Outlook 동시에 업그레이드하는 방법을 배워야 합니다.
-ms.openlocfilehash: 6e836ef0d80668a59e8dee6eb06c1d52af55a758c9df0b79c5d0e1422de07b3f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 298d349fcf0874dd4c2dbd85ff19101e40988aba
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824464"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566967"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Outlook에서 배포 목록을 Microsoft 365 그룹으로 업그레이드
 
@@ -56,11 +56,11 @@ DLS를 한 번씩 업그레이드하거나 동시에 여러 DLS를 업그레이�
 
 1. 클래식 Exchange <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">관리 센터로 이동하세요.</a>
 
-2. 클래식 Exchange 관리 센터에서 받는 사람 **그룹으로** \> **이동하세요.**<br/>메일 그룹이라고도 하는 메일 그룹으로 업그레이드할 수 있는 메일 그룹이 있는 경우를 나타내는 알림이 Microsoft 365 있습니다.<br/> ![시작 단추 선택](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
+2. 클래식 Exchange 관리 센터에서 받는 사람 **그룹으로** \> **이동하세요.**<br/>메일 그룹이라고도 하는 메일 그룹으로 업그레이드할 수 있는 메일 그룹이 있는 경우를 나타내는 알림이 Microsoft 365 있습니다.<br/> ![시작 단추를 선택합니다.](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
 
-3. 그룹 페이지에서 하나 이상의 메일 그룹(메일 그룹이라고도 합니다.)을 선택합니다. <br/>![메일 그룹 선택](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
+3. 그룹 페이지에서 하나 이상의 메일 그룹(메일 그룹이라고도 합니다.)을 선택합니다. <br/>![메일 그룹을 선택합니다.](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
 
-4. 업그레이드 아이콘을 선택합니다.<br/>![그룹 Microsoft 365 업그레이드](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
+4. 업그레이드 아이콘을 선택합니다.<br/>![그룹 Microsoft 365 업그레이드합니다.](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
 
 5. 정보 대화 상자에서 **예를** 선택하여 업그레이드를 선택합니다. 프로세스가 즉시 시작됩니다. 업그레이드하는 DLS의 크기와 수에 따라 프로세스에 몇 분 또는 몇 시간이 걸릴 수 있습니다.<br/>메일 목록을 업그레이드할 수 없는 경우 해당 대화 상자가 나타납니다. 업그레이드할 수 없는 메일 [목록을 참조하세요.](#which-distribution-lists-cant-be-upgraded)
 

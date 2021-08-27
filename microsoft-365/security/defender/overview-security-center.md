@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 58cc9548983d75593ae77af016ef894dc9f82547
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 7f4df3c6903194b00a4469f52fb0e15e2f8748ad
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256322"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573874"
 ---
 # <a name="microsoft-365-defender-overview"></a>Microsoft 365 Defender 개요
 
@@ -86,7 +86,7 @@ Microsoft 365 Defender Microsoft Defender  for Office 365 끝점용 Microsoft De
 :::image type="content" source="../../media/converged-incident-info-3.png" alt-text="문서의 인시던트에 대한 요약 Microsoft 365 Defender":::
 
 <!--
-![Example of the Summary page for an incident in Microsoft 365 Defender](../../media/converged-incident-info-3.png)
+![Example of the Summary page for an incident in Microsoft 365 Defender.](../../media/converged-incident-info-3.png)
 --> 
 
 인시던트 페이지 위쪽에는 요약, **경고,** 장치,  **사용자,** 사서함, 조사 및 증거  탭이 표시됩니다.   자세한 내용을 확인하려면 이 탭을 선택합니다. 예를 들어  사용자 탭에는 수렴형 워크로드(끝점용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security) 및 다양한 원본(예: Ad DS(Active Directory 도메인 서비스), Azure Active Directory(Azure AD) 및 타사 ID 공급자)의 사용자에 대한 정보가 표시됩니다. 자세한 내용은 사용자 [조사를 참조하세요.](investigate-users.md)
@@ -101,7 +101,7 @@ Microsoft 365 Defender Microsoft Defender  for Office 365 끝점용 Microsoft De
 
 ### <a name="unified-settings"></a>통합 설정
 
-!['역할'을 클릭하고 일반 설정, 사용 권한, API 및 규칙이 포함된 페이지가 열립니다. 사용 권한을 연 다음 역할을 열 수 있습니다. 모든 역할 표시](../../media/converged-add-role-9.png)
+!['역할'을 클릭하고 일반 설정, 사용 권한, API 및 규칙이 포함된 페이지가 열립니다. 사용 권한을 연 다음 역할을 열 수 있습니다. 모든 역할을 보여줍니다.](../../media/converged-add-role-9.png)
 
 ### <a name="permissions--roles"></a>역할에 & 사용 권한
 

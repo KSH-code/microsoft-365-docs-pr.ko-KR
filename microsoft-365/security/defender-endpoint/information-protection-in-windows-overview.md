@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b38cf9c56f3c518ed7dace01b174b21b280baa23a9e71edb290edd797283f40d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d7c3fac607f470018b4c6c5a025b3b2ac09464cc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857493"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58550229"
 ---
 # <a name="information-protection-in-windows-overview"></a>Windows의 정보 보호 개요
 
@@ -66,7 +66,7 @@ Windows 장치에서 파일을 만들거나 편집하면 Endpoint용 Defender는
 
 레이블 또는 정보 유형이 있는 경우 끝점용 Defender에서 중요한 정보를 포함하는 파일을 검색할 때 장치에서 Azure Information Protection에 자동으로 전달될 수 있도록 Azure Information Protection 통합을 켜야 합니다.
 
-![Azure Information Protection이 있는 설정 페이지의 이미지](images/atp-settings-aip.png)
+![Azure Information Protection이 있는 설정 페이지의 이미지입니다.](images/atp-settings-aip.png)
 
 보고된 신호는 Azure Information Protection - 데이터 검색 대시보드에서 볼 수 있습니다.
 
@@ -74,7 +74,7 @@ Windows 장치에서 파일을 만들거나 편집하면 Endpoint용 Defender는
 
 이 대시보드에서는 Endpoint용 Defender 및 Azure Information Protection에서 검색한 데이터의 요약된 검색 정보를 제공합니다. 끝점용 Defender의 데이터는 위치 유형 - 끝점으로 표시됩니다.
 
-![Azure Information Protection의 이미지 - 데이터 검색](images/azure-data-discovery.png)
+![Azure Information Protection의 이미지 - 데이터 검색.](images/azure-data-discovery.png)
 
 오른쪽의 장치 위험 열에서 이 장치 위험은 Endpoint용 Defender에서 직접 파생됩니다. 이는 끝점에 대한 Defender에서 감지된 활성 보안 위협에 따라 파일이 검색된 보안 장치의 위험 수준을 나타내는 것입니다.
 

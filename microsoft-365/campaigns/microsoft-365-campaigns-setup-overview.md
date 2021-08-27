@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 캠페인 또는 Microsoft 365 Business Premium 비즈니스에 대한 설치 개요
-ms.openlocfilehash: a31a0046bd37b7bb905f96d054ea5c9809e744fa
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.openlocfilehash: 41d3f0829829233c70e091f27225f7756a0e4f46
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58378016"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567123"
 ---
 # <a name="set-up-microsoft-365"></a>설정 Microsoft 365
 
@@ -40,7 +40,7 @@ ms.locfileid: "58378016"
 
 다음 다이어그램에서는 관리자가 사용자 계정을 설정하는 Microsoft 365.
 
-![설정 단계 Microsoft 365](../media/M365-democracy-SetUpProcess.png)
+![설치 단계를 Microsoft 365.](../media/M365-democracy-SetUpProcess.png)
 
 특별 가격을 받을 수 있는 캠페인의 경우 [Microsoft에서](https://m365forcampaigns.microsoft.com/)초대를 요청한 다음 캠페인에 등록하여 Microsoft 365 [합니다.](m365-campaigns-sign-up.md) 설치를 완료하려면 [설치 마법사를 실행하여](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 핵심 설정을 구성합니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "58378016"
 
 사용자는 이 환경에서 작동할 장치를 설정하는 데 몇 분 정도 걸립니다. 주요 사용자(해커에게 가장 높은 가치의 대상인 사용자)의 경우 새 장치를 설정하고 사전 구성할 수 있습니다. 이렇게 하면 사용자 자격 증명으로 로그인할 때 Microsoft 365 데 도움이 됩니다.
 
-![사용자 장치 설정 프로세스](../media/m365-democracy-user-device-setup.png)
+![사용자 장치 설정 프로세스.](../media/m365-democracy-user-device-setup.png)
   
 사용자 장치를 설정하는 경우:
 

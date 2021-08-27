@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: SaaS 서비스에 네트워크 최적화가 중요한 이유, Microsoft 365 네트워킹의 목표 및 SaaS가 다른 워크로드와 다른 네트워킹을 요구하는 방법에 대해 논의합니다.
-ms.openlocfilehash: ce9b7f7f8011e0d0b12d9b0524cf540948f7aab8
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 05e30c7ef3caedff54b45b95f90b4a9f1036193d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533162"
+ms.locfileid: "58566781"
 ---
 # <a name="microsoft-365-network-connectivity-overview"></a>Microsoft 365 연결 개요
 
@@ -78,7 +78,7 @@ Microsoft 365 및 암호화된 네트워크 연결을 사용하여 성능을 최
 
 클라이언트 트래픽이 지리적 위치에 최대한 가깝게 유입될 수 있도록 하여 Microsoft 365 진입점에 대한 네트워크 경로를 단축하면 연결 성능과 최종 사용자 환경이 Microsoft 365. 또한 네트워크 아키텍처가 향후 변경될 경우 성능 및 안정성에 미치는 영향을 줄일 Microsoft 365 있습니다. 최적의 연결 모델은 회사 네트워크에 있는지, 집, 커피숍, 공항과 같은 원격 위치에 있는지에 관계없이 항상 사용자 위치에 네트워크 발신을 제공하는 것입니다. 일반 인터넷 트래픽 및 WAN 기반 회사 네트워크 트래픽은 별도로 라우팅될 것이고 로컬 직접 발신 모델을 사용하지 않습니다. 이 로컬 직접 송신 모델은 아래 다이어그램에 표시되어 있습니다.
 
-![로컬 송신 네트워크 아키텍처](../media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
+![로컬에서 네트워크 아키텍처를 Egress합니다.](../media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
 
 로컬 송신 아키텍처는 기존 모델과 비교할 때 다음과 같은 Microsoft 365 네트워크 트래픽의 이점을 제공합니다.
   

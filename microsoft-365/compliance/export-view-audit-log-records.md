@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 감사 로그 레코드를 내보내고 구성하고 보는 Microsoft 365 있습니다.
-ms.openlocfilehash: cf35f1936cebf9d3d8ba89d39f18a4977835f954
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 33bcf3ee79a7ee27cc87825458d7d98cda590773
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507917"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567015"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>감사 로그 레코드 내보내기, 구성 및 보기
 
@@ -45,7 +45,7 @@ ms.locfileid: "58507917"
 
 3. 다른 **> 저장을** 클릭하고 CSV 파일을 로컬 컴퓨터에 저장합니다. 많은 검색 결과를 다운로드하는 데는 시간이 오래 걸리게 됩니다. 일반적으로 모든 활동 또는 광범위한 날짜 범위를 검색할 때 이 경우에 해당합니다. CSV 파일 다운로드가 완료되면 창 아래쪽에 메시지가 표시됩니다.
 
-   ![CSV 파일 다운로드가 완료될 때 표시되는 메시지](../media/ExportAuditSearchResultsFinish.png)
+   ![CSV 파일 다운로드가 완료될 때 표시되는 메시지입니다.](../media/ExportAuditSearchResultsFinish.png)
 
 > [!NOTE]
   > 단일 감사 로그 검색에서 최대 50,000의 항목을 CSV 파일로 다운로드할 수 있습니다. 50,000개의 항목이 CSV 파일로 다운로드되면 검색 조건에 맞는 이벤트가 50,000개 이상 있다고 가정할 수 있습니다. 이 제한을 초과하여 내보내기하려면 날짜 범위를 사용하여 감사 로그 레코드 수를 줄이려고 합니다. 50,000개 이상의 항목을 내보내기 위해 더 작은 날짜 범위로 여러 번 검색을 실행해야 할 수 있습니다.

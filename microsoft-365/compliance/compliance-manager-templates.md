@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 파일 형식을 사용하여 서식 있는 서식 Excel 수정합니다.
-ms.openlocfilehash: fe6b8a946edb84fbeb5eb002eb33c4af2790b23b
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 9031d94bfe3c9fba0ba53e23c229a6b207d0e4b2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58393367"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567063"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>준수 관리자에서 평가 템플릿 작업
 
@@ -159,7 +159,7 @@ Microsoft 365 및 유니버설 버전의 템플릿에는 공동 라이선스가 
 
 - **actionScore**: 이 필수 필드에서 작업의 숫자 점수 값을 제공합니다. 값은 1에서 99까지의 정수입니다. 0, null 또는 비워 두면 안 됩니다. 숫자가 높을수록 규정 준수 태세를 개선하는 데 값이 커야 합니다. 아래 이미지는 준수 관리자가 점수가 제어하는 방법을 보여 주며,
 
-  ![준수 관리자가 포인트 값을 제어합니다.](../media/compliance-score-action-scoring.png "준수 관리자가 포인트 값을 제어합니다.")
+  ![준수 관리자는 포인트 값을 제어합니다.](../media/compliance-score-action-scoring.png "준수 관리자가 포인트 값을 제어합니다.")
 
 - **actionDescriptionTitle**: 설명의 제목으로, 필수입니다. 이 설명 제목을 사용하면 여러 템플릿에서 동일한 작업을 수행하고 각 서식 파일에서 다른 설명을 표면화할 수 있습니다.  이 필드는 설명이 참조하는 서식 파일을 명확히 하는 데 도움이 됩니다. 대부분의 경우 이 필드에 만들 서식 파일 이름을 넣을 수 있습니다.
 

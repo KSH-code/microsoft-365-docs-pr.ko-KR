@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 787fd55e9ad17607cfa0fa5f787a279bb0e2d1839d2029b9a7ec6a4bb5f1b65a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 954fa4d9879e9654847f50ad15f8ff3c3a88caf4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573866"
 ---
 # <a name="step-2-remediate-your-first-incident"></a>2단계. 첫 번째 인시던트 수정
 
@@ -68,7 +68,7 @@ Microsoft 365 Defender 분석가가 수동으로 시작할 수 있는 여러 가
 7. 끝점용 Microsoft Defender에서 Tor IP 주소를 차단하는 사용자 지정 표시기 만들기
 8. 다음 이미지에 Microsoft Cloud App Security 이러한 유형의 경고에 대한 거버넌스 작업을 만듭니다.
 
-   :::image type="content" source="../../media/first-incident-remediate/first-incident-mcas-governance.png" alt-text="Microsoft Cloud App Security 거버넌스 작업의 예"::: 
+   :::image type="content" source="../../media/first-incident-remediate/first-incident-mcas-governance.png" alt-text="사이트 포털의 거버넌스 Microsoft Cloud App Security 예입니다."::: 
  
 대부분의 수정 작업은 작업에서 적용하고 추적할 수 Microsoft 365 Defender. 
 
@@ -85,13 +85,13 @@ Microsoft 365 Defender 분석가가 수동으로 시작할 수 있는 여러 가
 
 다음은 예입니다.
  
-:::image type="content" source="../../media/first-incident-remediate/first-incident-power-automate.png" alt-text="사용자 지정 Power Automate 자동화 흐름의 예"::: 
+:::image type="content" source="../../media/first-incident-remediate/first-incident-power-automate.png" alt-text="사용자 지정 Power Automate 자동화 흐름의 예입니다."::: 
  
 인시던트 사후 [](first-incident-post.md) 검토 중에 Playbook을 만들어 더 빠른 수정 작업을 위해 인시던트에서 수정 작업을 만들 수도 있습니다. 
 
 ## <a name="next-step"></a>다음 단계
 
-[![3단계: 인시던트에 대한 인시던트 사후 검토를 수행하는 방법 학습](../../media/first-incident-overview/first-incident-path-step3.png)](first-incident-post.md)
+[![3단계: 인시던트에 대한 인시던트 사후 검토를 수행하는 방법을 배워야 합니다.](../../media/first-incident-overview/first-incident-path-step3.png)](first-incident-post.md)
 
 인시던트에 [대한 인시던트 사후](first-incident-post.md)검토를 수행하는 방법을 학습합니다.
 

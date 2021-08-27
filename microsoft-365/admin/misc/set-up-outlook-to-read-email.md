@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Outlook Mac용 전자 메일 계정을 설정하는 방법과 Windows 앱을 설치하고 Office 전자 메일에 액세스하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 90335d30cd33807b0bfce044f6fc0f9d0a2ec4d10cafefa91b8de6bab8b7c461
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 71fd79d96135169f6a1a6fa3850a2fd6f73c5457
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823753"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566943"
 ---
 # <a name="set-up-outlook-to-read-email"></a>전자 메일을 Outlook 설정
 
@@ -65,7 +65,7 @@ Microsoft 365 구독에는 웹 기반 Outlook 제공되지만 구독에 Office �
 
 에 로그인한 Microsoft 365 를 **Outlook.**
   
-![Microsoft 365 앱이 강조 표시된 Outlook 홈 페이지](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
+![앱 Microsoft 365 표시된 Outlook 홈 페이지입니다.](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
   
 찾고자 하는 앱을 찾을 수 없나요? 앱 시작 앱에서 모든  앱을 선택하여 사용 가능한 앱의 사전 Microsoft 365 볼 수 있습니다. 거기에서 특정 앱을 검색할 수 있습니다. 
   

@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자와 함께 팀에 대한 공동 작업 공간을 Microsoft Teams.
-ms.openlocfilehash: 6ca87115a55a91d1e00534556c4fa6d3b3bf72f4682f9ab4f562b772286b3fe9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c787f2c493643dcba2bbd5985fa518210aa8a5c6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53837537"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567147"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>공동 작업을 위한 팀을 Microsoft Teams
 
@@ -47,7 +47,7 @@ Microsoft Teams 모든 장치에서 직원들이 체계적으로 대화를 할 �
 1. **개별 팀:** 소규모 그룹을 위한 팀을 설정하여 하루 중 업무에 대해 공동 작업을 할 수 있습니다.
 1. **외부 커뮤니케이션 팀 또는 팀:** 공급업체, 파트너 또는 클라이언트와 협력하여 중요한 모든 것을 허용하지 않습니다. 특정 그룹에 대해 다른 채널을 설정합니다.
 
-![비즈니스 내에서 Microsoft Teams 통신 및 공동 작업을 허용하는 세 개의 팀이 있는 창의 다이어그램](../media/m365-democracy-teams-business-collab.png)
+![비즈니스 Microsoft Teams 통신 및 공동 작업을 안전하게 할 수 있는 세 개의 팀이 있는 창의 다이어그램입니다.](../media/m365-democracy-teams-business-collab.png)
 
 또한 캠페인은 안전하게 통신하고 공동 작업을 할 수 있는 다음 팀을 만들 수 있습니다.
 
@@ -55,7 +55,7 @@ Microsoft Teams 모든 장치에서 직원들이 체계적으로 대화를 할 �
 2. **일반 캠페인 팀:** 이는 모든 사람이 매일 통신하고 업무에 사용할 수 있는 것입니다. 개인, 그룹 또는 위원회는 이 팀에서 작업을 할 수 있는 채널을 설정할 수 있습니다. 예를 들어 이벤트 계획 사용자들은 캠페인 이벤트에 대한 채팅 및 조율을 위한 채널을 설정할 수 있습니다.
 3. **파트너 팀:** 공급업체, 파트너 또는 지원자들과 협력하여 중요한 정보를 허용하지 않습니다.
 
-![캠페인 내에서 Microsoft Teams 통신 및 공동 작업을 허용하는 세 개의 팀이 있는 창의 다이어그램](../media/m365-democracy-teams-collab.png)
+![캠페인 내에서 Microsoft Teams 통신 및 공동 작업을 할 수 있도록 3개의 팀이 있는 창의 다이어그램입니다.](../media/m365-democracy-teams-collab.png)
 
 팀을 만들면 다음과 같은 다른 팀이 만들어집니다.
 

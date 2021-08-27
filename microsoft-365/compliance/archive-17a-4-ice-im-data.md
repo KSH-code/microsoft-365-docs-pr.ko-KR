@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 ICE 커넥트 Chat DataParser 커넥터를 설정하고 사용하여 ICE 커넥트 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: 3a81db4cfc5881ee8f68637fa50755a1967f365055fdc4382469526a4e76dc78
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cf759aaecdfcde8f951cc09271b7e32226324664
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53836147"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567075"
 ---
 # <a name="set-up-a-connector-to-archive-ice-connect-chat-data"></a>ICE 채팅 데이터를 보관할 커넥터 커넥트 설정
 
@@ -29,7 +29,7 @@ ICE 커넥트 채팅 데이터가 사용자 사서함에 저장되고 나면 소
 
 다음 개요에서는 데이터 커넥터를 사용하여 ICE 커넥트 채팅 데이터를 보관하는 Microsoft 365.
 
-![ICE 커넥트 채팅 데이터를 위한 보관 워크플로 17a-4](../media/ICEChatDataParserConnectorWorkflow.png)
+![ICE용 보관 워크플로 커넥트 17a-4의 채팅 데이터입니다.](../media/ICEChatDataParserConnectorWorkflow.png)
 
 1. 조직은 17a-4와 함께 ICE DataParser를 설정하고 구성합니다.
 

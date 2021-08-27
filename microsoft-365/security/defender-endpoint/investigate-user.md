@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 00d42e237e5fbe5d0c9fd904bd51c3dc94fd3668d0a12249a46d9cd48f06adad
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 202fe1c38b6846f52361f3e55baf9050cae36fb5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817850"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58550169"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 사용자 계정 조사
 
@@ -56,7 +56,7 @@ ms.locfileid: "53817850"
 - 이 사용자와 관련된 알림
 - 조직에서 관찰된(로그온한 장치)
 
-![사용자 계정 엔터티 세부 정보 페이지의 이미지](images/atp-user-details-view.png)
+![사용자 계정 엔터티 세부 정보 페이지의 이미지입니다.](images/atp-user-details-view.png)
 
 ### <a name="user-details"></a>사용자 세부 정보
 

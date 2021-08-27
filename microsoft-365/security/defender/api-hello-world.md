@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 50316659caf811410b9422151e47feb17fbead8055bec08a3e4e342d61f2d83b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1aa843bb1e9ca57d6264f34cbfc7c593f9590c2a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573898"
 ---
 # <a name="hello-world-for-microsoft-365-defender-rest-api"></a>REST API용 Hello World Microsoft 365 Defender API
 
@@ -48,7 +48,7 @@ ms.locfileid: "53888858"
 
 2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.**
 
-   ![응용 Microsoft Azure 탐색 및 이미지](../../media/atp-azure-new-app2.png)
+   ![응용 프로그램 Microsoft Azure 탐색하는 이미지입니다.](../../media/atp-azure-new-app2.png)
 
 3. 등록 양식에서 응용 프로그램의 이름을 선택한 다음 등록을 **선택합니다.** 리디렉션 URI는 선택 사항입니다. 이 예제를 완료하는 데는 이 예제가 필요하지 않습니다.
 
@@ -56,26 +56,26 @@ ms.locfileid: "53888858"
 
    > [!TIP]
    > *Microsoft Threat Protection은* 이전 이름인 Microsoft 365 Defender 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
-   ![API 권한 선택 이미지](../../media/apis-in-my-org-tab.PNG)
+   ![API 권한 선택의 이미지입니다.](../../media/apis-in-my-org-tab.PNG)
 
    - 응용 **프로그램 권한**  >  **Incident.Read.All을 선택하고** 사용 권한 **추가를 선택합니다.**
 
-   ![API 액세스 및 API 선택 이미지](../../media/request-api-permissions.PNG)
+   ![API 액세스 및 API 선택 이미지입니다.](../../media/request-api-permissions.PNG)
 
 5. 관리자 **동의 부여를 선택합니다.** 권한을 추가할 때마다 권한을 적용하려면 **관리자** 동의 부여를 선택해야 합니다.
 
-    ![권한 부여 이미지](../../media/grant-consent.PNG)
+    ![권한 부여 이미지.](../../media/grant-consent.PNG)
 
 6. 응용 프로그램에 비밀을 추가합니다. 인증서를 **& 를 선택하고** 비밀에 설명을 추가한 다음 추가를 **선택합니다.**
 
     > [!TIP]
     > 추가를 **선택한** 후 생성된 **비밀 값 복사 를 선택합니다.** 나가면 비밀 값을 검색할 수 없습니다.
 
-    ![앱 키 만들기 이미지](../../media/webapp-create-key2.png)
+    ![앱 키 만들기의 이미지입니다.](../../media/webapp-create-key2.png)
 
 7. 안전한 곳에 응용 프로그램 ID와 테넌트 ID를 기록합니다. 응용 프로그램 페이지 **개요** 아래에 나열됩니다.
 
-   ![생성된 앱 ID의 이미지](../../media/app-and-tenant-ids.png)
+   ![생성된 앱 ID의 이미지입니다.](../../media/app-and-tenant-ids.png)
 
 ### <a name="get-a-token-using-the-app-and-use-the-token-to-access-the-api"></a>앱을 사용하여 토큰을 다운로드하고 토큰을 사용하여 API에 액세스
 
@@ -117,7 +117,7 @@ ms.locfileid: "53888858"
 
     다음 이미지에서는 , 및 권한을 사용하여 앱에서 획득한 디코딩된 ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` ```AdvancedHunting.Read.All``` 토큰을 볼 수 있습니다.
 
-    ![이미지 jwt.ms](../../media/api-jwt-ms.png)
+    ![이미지 jwt.ms.](../../media/api-jwt-ms.png)
 
 ### <a name="get-a-list-of-recent-incidents"></a>최근 인시던트 목록 표시
 

@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 271f43e4-b8f7-4d63-8059-b5747679bb7e
 description: Microsoft Bookings에서 약속 전후에 버퍼 시간을 설정하여 장비 정리 또는 초기화 시간을 허용합니다.
-ms.openlocfilehash: 932dc842b5e81589c4120bf23e53c5d66709830053879a67e30468e72eb4e4b7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 21830b0cc1ec2f14bc845937387e700fb7a2ee72
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838118"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573682"
 ---
 # <a name="set-buffer-time-in-microsoft-bookings"></a>Microsoft Bookings에서 버퍼 시간 설정
 
@@ -28,7 +28,7 @@ ms.locfileid: "53838118"
 
 버퍼 시간 설정은 서비스 세부  정보 페이지의 기본 기간 선택기 바로 아래에 **있습니다.** 특정 서비스에 대해 설정하려면 먼저 버퍼 시간 토글을 선택하여 버퍼 시간 설정을 사용하도록 설정해야 합니다. 이렇게 하면 다음과 같이 각 예약 전후에 보유할 기본 시간을 선택할 수 있는 **Before** 및 **After** 드롭다운이 표시됩니다.
 
-   ![버퍼 시간이 사용하도록 설정된 Bookings 이미지](../media/bookings-buffertime.png)
+   ![버퍼 시간이 사용하도록 설정된 Bookings 이미지입니다.](../media/bookings-buffertime.png)
 
 ## <a name="buffer-time-and-appointment-timing"></a>버퍼 시간 및 약속 타이밍
 

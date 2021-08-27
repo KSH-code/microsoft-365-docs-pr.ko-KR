@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 더 빠르고 나은 결과를 위해 관리 센터에서 검색 기능을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 64a578f8b7ebf71fbfc162936e8efa09440834d362fcc2b359a18bb9d8c1469a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: eca365ed7c25ac908fe5ea1679ceedb9765fb3c7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566991"
 ---
 # <a name="search-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 검색
 
@@ -69,7 +69,7 @@ ms.locfileid: "53824772"
 
 :::image type="content" source="../../media/search-for-actions-mac.png" alt-text="Screenshot: Search results showing actions you can perform in the admin center":::
 
-## <a name="navigation"></a>탐색
+## <a name="navigation"></a>네비게이션
 
 결과를 통해 관리 센터의 특정 페이지로 빠르게 이동할 수 있습니다. 예를 들어 RBAC를 검색하면 Azure AD 역할에 대한 역할 페이지로 이동됩니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "53824772"
 
 도메인에 대한 빠른 링크를 찾을 수 있으며, 그러면 해당 도메인의 개요 페이지로 이동됩니다.
 
-:::image type="content" source="../../media/search-for-domains-mac.png" alt-text="관리 센터에서 소유한 도메인을 보여주는 검색 결과":::
+:::image type="content" source="../../media/search-for-domains-mac.png" alt-text="관리 센터에서 소유한 도메인을 표시하는 검색 결과입니다.":::
 
 ## <a name="documentation"></a>설명서
 

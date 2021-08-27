@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 232cb81080a8d478b57b2f87a8b98752e51b0c20
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: f5ef47fd03614c34e9cb459442e8c1f2a144f4b8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258409"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573886"
 ---
 # <a name="provide-managed-security-service-provider-mssp-access"></a>MSSP(관리되는 보안 서비스 공급자) 액세스 제공 
 
@@ -58,7 +58,7 @@ ms.locfileid: "58258409"
 
     고객 Microsoft 365 Defender 포털에서 RBAC를 사용하도록 설정하려면 사용 권한 > **끝점** 역할 & 그룹 > 전역 관리자 또는 보안 관리자 권한이 있는 사용자 계정을 사용하여 역할에 액세스합니다.
 
-    ![MSSP 액세스 이미지](../../media/mssp-access.png)
+    ![MSSP 액세스의 이미지입니다.](../../media/mssp-access.png)
 
     그런 다음 MSSP SOC 계층 요구 사항을 충족하는 RBAC 역할을 생성합니다. "할당된 사용자 그룹"을 통해 이러한 역할을 만든 사용자 그룹에 연결합니다.
 
@@ -86,7 +86,7 @@ ms.locfileid: "58258409"
 
     이를 위해 고객 AD 테넌트에서 ID 거버넌스: 카탈로그에 액세스하고 새 **카탈로그를 추가합니다.** 이 예제에서는 **MSSP Accesses 를 호출합니다.**
 
-    ![새 카탈로그의 이미지](../../media/goverance-catalog.png)
+    ![새 카탈로그의 이미지입니다.](../../media/goverance-catalog.png)
 
     자세한 내용은 리소스 카탈로그 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-catalog-create)
 
@@ -101,7 +101,7 @@ ms.locfileid: "58258409"
     - MSSP SOC 테넌트의 사용자만 요청할 수 있습니다.
     - 365일 후에 액세스 자동 만료
 
-    ![새 액세스 패키지의 이미지](../../media/new-access-package.png)
+    ![새 액세스 패키지의 이미지입니다.](../../media/new-access-package.png)
 
     자세한 내용은 새 액세스 패키지 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-access-package-create)
 
@@ -109,7 +109,7 @@ ms.locfileid: "58258409"
 
     내 액세스 포털 링크는 MSSP SOC 분석가가 만든 액세스 패키지를 통해 액세스를 요청하는 데 사용됩니다. 링크는 지속형으로, 시간이 지날 때 새 분석가에게 동일한 링크를 사용할 수 있습니다. 분석가 요청은 MSSP 분석가 승인자 의 승인을 **위해 큐로 들어갑니다.**
 
-    ![액세스 속성의 이미지](../../media/access-properties.png)
+    ![액세스 속성의 이미지입니다.](../../media/access-properties.png)
 
     링크는 각 액세스 패키지의 개요 페이지에 있습니다.
 

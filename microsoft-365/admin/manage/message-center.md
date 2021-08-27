@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: 새로운 기능 및 Microsoft 365 및 기타 중요한 공지 사항을 추적하는 데 대한 메시지 센터의 역할에 대한 개요를 얻습니다.
-ms.openlocfilehash: ec011330541e9b1c03ba5bb12f3e41645ace5abdecba4de357906e93f9cbfc37
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fec3b0e88f7f399fcde821d1cdc55baa99c477e9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825145"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567003"
 ---
 # <a name="message-center"></a>메시지 센터
 
@@ -58,7 +58,7 @@ ms.locfileid: "53825145"
 
 메시지 센터 전자 메일의 구독을 취소하려면 이 문서의 메시지 센터 전자 메일 구독 [취소를](#unsubscribe-from-message-center-emails) 참조하세요.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 <br>
 
@@ -90,7 +90,7 @@ ms.locfileid: "53825145"
 
 **서비스** 와 **태그** 를 제외한 어떤 열 머리글이든 선택해서 메시지를 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
-:::image type="content" source="../../media/message-center-admin-impact1.png" alt-text="어드민 영향으로 정렬된 메시지 센터 보기":::
+:::image type="content" source="../../media/message-center-admin-impact1.png" alt-text="관리자 영향에 따라 정렬된 메시지 센터 보기입니다.":::
 
 ::: moniker-end
 
@@ -100,7 +100,7 @@ ms.locfileid: "53825145"
 
 메시지를 오름차순 또는 내림차순으로 정렬할 열 제목을 선택할 수 있습니다. 예를 들어 이 일러스트레이션에서 메시지는 **작업기한** 날짜별로 정렬됩니다.
 
-![어드민 영향 태그로 정렬된 메시지 센터 보기](../../media/message-center-filter-act-by.png)
+![관리자 영향 태그별로 정렬된 메시지 센터 보기입니다.](../../media/message-center-filter-act-by.png)
 
 ::: moniker-end
 
@@ -221,7 +221,7 @@ ms.locfileid: "53825145"
 
 ### <a name="admin-roles-that-dont-have-access-to-the-message-center"></a>메시지 센터에 액세스할 수 없는 관리자 역할
 
-- 규정 준수 관리자
+- 준수 관리자
 - 조건부 액세스 관리자
 - 고객 LockBox 액세스 승인자
 - 장치 관리자

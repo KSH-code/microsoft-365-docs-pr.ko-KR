@@ -12,12 +12,12 @@ ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 큐 위젯을 사용하여 아웃바운드 커넥터를 통해 해당 & 또는 파트너 조직으로의 실패한 메일 흐름을 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9b4bee0a8be6b7fdcc022add2092fb16b88d5d2f3f245e6a998036d66ed490af
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: eb907d6eed5ce1c406288338c478936db00e4a67
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56816518"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573858"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 큐
 
@@ -41,7 +41,7 @@ Microsoft 365 24시간 동안 배달을 다시 시도합니다. 24시간이 지�
 
 - 경고는 보안  및 준수 센터(경고 대시보드 [또는 )의 최근 경고 &](https://protection.office.com)  \> **표시됩니다.** <https://protection.office.com/alertsdashboard>
 
-  ![보안 및 준수 센터의 경고 대시보드에서 & 최근 알림](../../media/mfi-queued-messages-alert.png)
+  ![보안 및 준수 센터의 경고 대시보드에서 &.](../../media/mfi-queued-messages-alert.png)
 
 - 관리자는 메시지가 지연되었습니다라는 기본 경고 정책의 구성에 따라 전자 메일 **알림을 받게 됩니다.** 이 경고에 대한 알림 설정을 구성하려면 다음 섹션을 참조하세요.
 
@@ -55,7 +55,7 @@ Microsoft 365 24시간 동안 배달을 다시 시도합니다. 24시간이 지�
 
 3. 메시지가 **지연된** 플라이아웃이 열리면 알림을 켜거나 끄고 알림 설정을 구성할 수 있습니다.
 
-   ![메시지가 지연된 경고 정책 세부 정보 보안 & 규정 준수 센터](../../media/mfi-queued-messages-alert-policy.png)
+   ![메시지가 지연된 경고 정책에는 보안 및 준수 & 자세히 설명되어 있습니다.](../../media/mfi-queued-messages-alert-policy.png)
 
    - **상태:** 경고를 설정하거나 해제할 수 있습니다.
 
@@ -68,7 +68,7 @@ Microsoft 365 24시간 동안 배달을 다시 시도합니다. 24시간이 지�
    - **일별 알림 제한:** 기본값은 **제한 없음입니다.**
    - **임계값:** 기본값은 200입니다.
 
-   ![메시지의 알림 설정이 지연된 경고 정책 세부 정보 보안 & 규정 준수 센터](../../media/mfi-queued-messages-alert-policy-notification-settings.png)
+   ![메시지의 알림 설정이 지연된 경고 정책에 보안 및 준수 & 자세히 설명되어 있습니다.](../../media/mfi-queued-messages-alert-policy-notification-settings.png)
 
 5. 완료되면 저장 및 **닫기 를** **클릭합니다.**
 
@@ -76,7 +76,7 @@ Microsoft 365 24시간 동안 배달을 다시 시도합니다. 24시간이 지�
 
 대기 중인 메시지 볼륨이 임계값을 초과하고 경고를 생성하지 않은 경우에도 메일 흐름 대시보드의 **큐** 정보를 사용하여 1시간 넘게 대기 중인 메시지를 보고 대기 중인 메시지 수가 너무 커지기 전에 조치를 취할 수 있습니다. [](mail-flow-insights-v2.md)
 
-![보안 및 준수 센터의 메일 흐름 대시보드에서 & 위젯](../../media/mfi-queues-widget.png)
+![보안 및 준수 센터의 메일 흐름 대시보드에서 & 큐.](../../media/mfi-queues-widget.png)
 
 위젯에서 메시지 수를 클릭하면 메시지 대기  플라이아웃이 다음 정보와 함께 표시됩니다.
 
@@ -89,11 +89,11 @@ Microsoft 365 24시간 동안 배달을 다시 시도합니다. 24시간이 지�
 - **마지막 오류**
 - **해결 방법:** 일반적인 문제 및 해결 방법을 사용할 수 있습니다. 지금 **수정 링크를** 사용할 수 있는 경우 해당 링크를 클릭하여 문제를 해결합니다. 그렇지 않은 경우 사용 가능한 모든 링크를 클릭하여 오류 및 가능한 해결 방법과 관련한 자세한 정보를 제공합니다.
 
-![메일 흐름 대시보드에서 큐 정보를 클릭한 후의 세부 정보](../../media/mfi-queues-details.png)
+![메일 흐름 대시보드에서 큐 정보를 클릭한 후의 세부 정보입니다.](../../media/mfi-queues-details.png)
 
 지연된 메시지의 세부 정보에서 큐 보기를 클릭하면 동일한 **플라이아웃이** 표시됩니다. 
 
-![보안 및 준수 센터에서 메시지가 지연된 & 세부 정보](../../media/mfi-queued-messages-alert-details.png)
+![보안 및 준수 센터에서 메시지가 지연된 & 있습니다.](../../media/mfi-queued-messages-alert-details.png)
 
 ## <a name="see-also"></a>참고 항목
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Multi-Geo 환경에서 검색을 구성하는 방법을 학습합니다. 다중 위치 환경의 OneDrive 클라이언트만 결과를 반환할 수 있습니다.
-ms.openlocfilehash: 65f74ce9d21fd9323cd2a3421875399c3a5d8346fd55e9820398c3363e099e9b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a991638e5f0b1270950b50823def61eb4d60669b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864949"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566847"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo 검색 구성
 
@@ -131,7 +131,7 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 
 모든 검색 클라이언트는 기존 SharePoint 검색 REST API를 사용하여 검색 인덱스와 상호 작용합니다.
 
-![검색 REST SharePoint 인덱스와 상호 작용하는 방법을 보여 주는 다이어그램](../media/configure-search-for-multi-geo-image1-1.png)
+![검색 REST SharePoint 인덱스와 상호 작용하는 방법을 보여 주는 다이어그램입니다.](../media/configure-search-for-multi-geo-image1-1.png)
 
 1. 검색 클라이언트는 쿼리 속성 EnableMultiGeoSearch가 true인 검색 REST 끝점을 호출합니다.
 2. 쿼리는 테넌트의 모든 지리적 위치로 전송됩니다.
@@ -151,11 +151,11 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 
 3. 설정할 범주를 선택하고 오른쪽 위 모서리에 있는 **설정** 톱니바퀴 아이콘을 클릭한 후 **페이지 편집** 을 클릭합니다. 검색 결과 페이지가 편집 모드에서 열립니다.
 
-   ![목록에서 페이지 선택 설정](../media/configure-search-for-multi-geo-image2.png)
+   ![목록에서 페이지 선택을 설정.](../media/configure-search-for-multi-geo-image2.png)
 
 4. 검색 결과 웹 파트에서 웹 파트 오른쪽 위 모서리로 포인터를 이동하고 화살표를 클릭한 후 메뉴에서 **웹 파트 편집** 을 클릭합니다. 검색 결과 웹 파트 도구 창은 페이지 오른쪽 위에 있는 리본 아래에 열립니다.
 
-   ![웹 파트 선택 편집](../media/configure-search-for-multi-geo-image3.png)
+   ![웹 파트 선택을 편집합니다.](../media/configure-search-for-multi-geo-image3.png)
 
 5. 웹 파트 도구 창의 **설정** 섹션에 있는 **결과 제어 설정** 에서 **Multi-Geo 결과 표시** 를 선택하여 검색 결과 웹 파트에 모든 지리적 위치의 결과를 표시하도록 합니다.
 

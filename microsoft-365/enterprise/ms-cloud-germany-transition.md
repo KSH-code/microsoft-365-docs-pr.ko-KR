@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: e301f58c3a194c6af8989f4081e733c50a4c104e
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: 32e1098736a1284a37fc3f1af478debbad34c00f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400334"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573718"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드에서 새 독일 Office 365 서비스로 마이그레이션
 
@@ -63,7 +63,7 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 이 그림에서는 새로운 독일 데이터 센터로의 10개 마이그레이션 단계를 보여 주었다.
 
-:::image type="content" alt-text="새 독일 데이터 센터로의 10단계 마이그레이션" source="../media/ms-cloud-germany-migration-opt-in/migration-organization.png" lightbox="../media/ms-cloud-germany-migration-opt-in/migration-organization.png":::
+:::image type="content" alt-text="새 독일 데이터 센터로의 10단계 마이그레이션 단계" source="../media/ms-cloud-germany-migration-opt-in/migration-organization.png" lightbox="../media/ms-cloud-germany-migration-opt-in/migration-organization.png":::
 
 마이그레이션에 옵트인(opt [in)할 때 이러한 단계가 시작됩니다.](./ms-cloud-germany-migration-opt-in.md) 대부분의 마이그레이션 단계는 최소한의 고객 상호 작용이 필요하며 백 엔드 서비스 작업으로 실행되고 한 단계 후에 실행됩니다. 추가 고객 주도 작업의 시작 및 전체 마이그레이션 상태는 마이그레이션 프로세스 중에 Microsoft 365 관리 센터 메시지 센터를 통해 전달됩니다. 작업의 예로는 고객 관리 DNS 업데이트, 하이브리드 고객을 위한 하이브리드 설정 Exchange 또는 Azure 마이그레이션이 있습니다.
 

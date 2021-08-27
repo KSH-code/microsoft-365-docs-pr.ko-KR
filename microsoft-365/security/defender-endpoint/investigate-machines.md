@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ee5a8decb78d2f72b796fd3fb2ef15c1da3b0160
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: b74888549069eab515ef5c7f89138cabe01b5d92
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585703"
+ms.locfileid: "58550241"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Microsoft Defender for Endpoint Devices 목록에서 장치 조사
 
@@ -92,7 +92,6 @@ ms.locfileid: "58585703"
 탭은 장치와 관련된 관련 보안 및 위협 방지 정보를 제공합니다. 각 탭에서 열 머리줄 위의 막대에서 열  사용자 지정을 선택하여 표시되는 열을 사용자 지정할 수 있습니다.
 
 ### <a name="overview"></a>개요
-
 개요 **탭에는** [](#cards) 활성 경고, 로그온한 사용자 및 보안 평가에 대한 카드가 표시됩니다.
 
 ![디바이스 페이지의 개요 탭 이미지입니다.](images/overview-device.png)
@@ -113,14 +112,13 @@ ms.locfileid: "58585703"
 
 타임라인을 사용하면 특정 기간 내에 발생한 이벤트로 선택적으로 드릴다운할 수 있습니다. 선택한 기간 동안 디바이스에서 발생한 이벤트의 임시 순서를 볼 수 있습니다. 보기를 추가로 제어하기 위해 이벤트 그룹을 필터링하거나 열을 사용자 지정할 수 있습니다.
 
-> [!NOTE]
+>[!NOTE]
 > 방화벽 이벤트를 표시하려면 감사 정책을 사용하도록 설정해야 합니다. 필터링 플랫폼 연결 [감사를 참조하세요.](/windows/security/threat-protection/auditing/audit-filtering-platform-connection)
+>방화벽이 다음 이벤트를 다루는 경우
 >
-> 방화벽은 다음 이벤트를 다 덮습니다.
->
-> - [5025](/windows/security/threat-protection/auditing/event-5025) - 방화벽 서비스가 중지됨
-> - [5031](/windows/security/threat-protection/auditing/event-5031) - 응용 프로그램이 네트워크에서 들어오는 연결을 허용하지 않습니다.
-> - [5157](/windows/security/threat-protection/auditing/event-5157) - 차단된 연결
+>- [5025](/windows/security/threat-protection/auditing/event-5025) - 방화벽 서비스가 중지됨
+>- [5031](/windows/security/threat-protection/auditing/event-5031) - 응용 프로그램이 네트워크에서 들어오는 연결을 허용하지 않습니다.
+>- [5157](/windows/security/threat-protection/auditing/event-5157) - 차단된 연결
 
 ![이벤트가 있는 디바이스 타임라인의 이미지입니다.](images/timeline-device.png)
 
@@ -134,7 +132,7 @@ ms.locfileid: "58585703"
 - 자세한 장치 타임라인 이벤트 내보내기
   - 현재 날짜 또는 지정된 날짜 범위에 대한 장치 타임라인을 최대 7일까지 내보낼 수 있습니다.
 
-특정 이벤트에 대한 자세한 내용은 추가 정보 **섹션에 제공됩니다.** 이러한 세부 정보는 이벤트 유형에 따라 다릅니다. 예를 들면 다음과 같습니다.
+특정 이벤트에 대한 자세한 내용은 추가 정보 **섹션에 제공됩니다.** 이러한 세부 정보는 이벤트 유형에 따라 다릅니다. 예를 들면 다음과 같습니다. 
 
 - Application Guard에 포함된 - 웹 브라우저 이벤트가 격리된 컨테이너에 의해 제한됨
 - 활성 위협 감지 - 위협이 실행되는 동안 위협 감지가 발생했습니다.
@@ -145,7 +143,6 @@ ms.locfileid: "58585703"
 - 경고 범주 - 이벤트가 경고 생성을 주도한 경우 경고 범주(예: "측면 이동")가 제공됩니다.
 
 #### <a name="event-details"></a>이벤트 세부 정보
-
 이벤트를 선택하여 해당 이벤트에 대한 관련 세부 정보를 볼 수 있습니다. 일반 이벤트 정보를 표시하는 패널이 표시됩니다. 해당되는 데이터와 데이터를 사용할 수 있는 경우 관련 엔터티 및 해당 관계가 표시된 그래프도 표시됩니다.
 
 이벤트 및 관련 이벤트를 추가로 검사하려면 관련 [](advanced-hunting-overview.md) 이벤트에 대한 헌트 를 선택하여 고급 헌팅 **쿼리를 빠르게 실행할 수 있습니다.** 쿼리는 선택한 이벤트와 같은 끝점에서 동시에 발생한 다른 이벤트 목록을 반환합니다.
@@ -183,18 +180,16 @@ ms.locfileid: "58585703"
 
 ![활성 경고 카드의 이미지입니다.](images/risk-level-small.png)
 
-> [!NOTE]
-> 이 기능을 사용하려면 ID용 Microsoft Defender 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. Endpoint용 Defender에서 고급 기능에서 이 기능을 사용하도록 설정할 수 있습니다. 고급 기능을 사용하도록 설정하는 방법에 대한 자세한 내용은 고급 기능 [켜기 를 참조하세요.](advanced-features.md)
+>[!NOTE]
+>이 기능을 사용하려면 ID용 Microsoft Defender 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. Endpoint용 Defender에서 고급 기능에서 이 기능을 사용하도록 설정할 수 있습니다. 고급 기능을 사용하도록 설정하는 방법에 대한 자세한 내용은 고급 기능 [켜기 를 참조하세요.](advanced-features.md)
 
 ### <a name="logged-on-users"></a>로그온한 사용자
 
 **로그온한** 사용자 카드에는 지난 30일 동안 로그온한 사용자 수와 가장 자주 또는 가장 자주 로그온한 사용자 수가 표시되어 있습니다. "모든 사용자 보기" 링크를 선택하면 세부 정보 창이 열리며, 세부 정보 창에는 사용자 유형, 로그온 유형, 사용자가 처음 및 마지막으로 본 때와 같은 정보가 표시됩니다. 자세한 내용은 사용자 엔터티 [조사를 참조하세요.](investigate-user.md)
 
 ![사용자 세부 정보 창의 이미지입니다.](images/logged-on-users.png)
-
 > [!NOTE]
-> '가장 자주' 사용자 값은 대화형으로 로그온한 사용자의 증거에만 계산됩니다.
-> 그러나 "모든 사용자" 사이드 창은 모든 종류의 사용자 로그 인을 계산하여 해당 사용자가 대화형이 아 않을 수 있는 경우 측면 창에서 더 자주 사용자에게 표시될 것으로 예상됩니다.
+> '가장 자주' 사용자 값은 대화형으로 로그온한 사용자의 증거에만 계산됩니다. 그러나 "모든 사용자" 사이드 창은 모든 종류의 사용자 로그 인을 계산하여 해당 사용자가 대화형이 아 않을 수 있는 경우 측면 창에서 더 자주 사용자에게 표시될 것으로 예상됩니다.
 
 ### <a name="security-assessments"></a>보안 평가
 

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 40개 파일에 태그를 지정한 다음 40개 파일의 교육 샘플을 사용하여 작업하는 단계를 Advanced eDiscovery.
-ms.openlocfilehash: a510d331da39cfec7e861148a20200c6f3a1239f7ca0fc6387ffc7de56fa38fd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8cb1de2b2f02ec9c2fd94e07574b638a001ec235
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813611"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573766"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery"></a>2016년 8월에 태그 지정 및 Advanced eDiscovery
   
@@ -34,7 +34,7 @@ ms.locfileid: "53813611"
 
 1. 태그 **지정 \>** 탭의 왼쪽 창에는 태그 지정 창이 기본적으로 표시되고 샘플 파일은 태그 지정을 위해 한 번씩 표시됩니다.
 
-    ![관련 태그 패널](../media/0cf19ab4-b427-4a7f-8749-0f4ed9afaf58.png)
+    ![Relevance Tag panel.](../media/0cf19ab4-b427-4a7f-8749-0f4ed9afaf58.png)
   
     태그 **탭에** 파일의 표시 이름이 표시됩니다. 경로, 전자 메일 제목, 제목 또는 사용자 정의 이름일 수 있습니다. ID, 파일 경로 또는 텍스트 경로를 파일 경로를 마우스 오른쪽 단추로 클릭하여 복사할 수 있습니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "53813611"
    |**태그 지정 옵션**|**설명**|**바로 가기 키**|**바로 가기 키 대량 태그 지정(여러 문제의 경우)**|
    |-----|-----|-----|-----|
    |R  <br/> |관련성  <br/> |Z  <br/> |`Shift + Z`  <br/> |
-   |NR  <br/> |관련이 없는 경우  <br/> |X  <br/> |`Shift + X`  <br/> |
+   |NR  <br/> |관련이 없는 경우  <br/> |X 키  <br/> |`Shift + X`  <br/> |
    |건너뛰기  <br/> |건너뛰기  <br/> |C  <br/> |`Shift + A`  <br/> |
    |||||
 
@@ -57,7 +57,7 @@ ms.locfileid: "53813611"
 
      원하는 경우 태그 **탭에서** 태그 설정을 클릭하여 **다음** 옵션을 지정합니다.
 
-      ![관련성 태그 설정](../media/533e89fa-7eb4-409e-ab07-f5aab9296dd8.png)
+      ![태그 설정과의관일성.](../media/533e89fa-7eb4-409e-ab07-f5aab9296dd8.png)
   
    - **대량** 태그: 모든 문제에 대해 선택한 파일에 대한  태그를 설정하려면 모두를 선택하거나(이미 태그가 지정한 문제에 대해) 나머지를 선택하여 파일에 대해 여러 문제를 할당하거나 나머지를 선택하여 태그를 남은 문제에 적용합니다.  선택한 옵션은 해당 사용자가 변경될 때까지 이 사용자의 모든 사례에 적용됩니다(설정은 모든 사용자 사례에 대해 사용자당).
 
@@ -79,7 +79,7 @@ ms.locfileid: "53813611"
   
 1. **Relevance \> Tag 탭의** 왼쪽 창 드롭다운 목록에서 샘플 파일을 선택합니다. 예제 파일은 왼쪽 창에 나열됩니다.
 
-    ![관련 태그 샘플 파일 목록](../media/fd058bdd-645a-4af1-a1eb-bff08581cb18.png)
+    ![태그 샘플 파일 목록과의관일 수 있습니다.](../media/fd058bdd-645a-4af1-a1eb-bff08581cb18.png)
   
 2. 샘플 또는 파일 상자에 해당 번호를 입력하거나  선택하여 특정 샘플 또는 파일 **번호를** 선택합니다.
 

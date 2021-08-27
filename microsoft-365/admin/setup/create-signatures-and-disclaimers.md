@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: 조직에 들어오거나 조직에서 나가는 모든 전자 메일 메시지에 대한 법적 고지 조항 또는 공개 설명을 포함하여 전자 메일 서명을 관리합니다.
-ms.openlocfilehash: b9496ebe150839deb23823dc0a7492c849c7f076ba1934a847621eb553486016
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 47087f2d09428214237dba226e680aa3c332625d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822084"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567171"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 전체의 서명 및 고지 조항 만들기
 
@@ -41,7 +41,7 @@ ms.locfileid: "53822084"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>모든 메시지에 적용되는 서명 만들기
 
@@ -66,7 +66,7 @@ ms.locfileid: "53822084"
 
 ::: moniker-end
 
-1. 앱 시작 관리자 앱 시작 관리자 아이콘 을 선택하고 ![ ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) 관리자 를 **선택합니다.**
+1. 앱 시작 관리자 앱 시작 관리자 ![ 아이콘 을 선택하고 ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) 관리자 를 **선택합니다.**
    
     찾고자 하는 앱을 찾을 수 없나요? 앱 시작 앱에서 모든  앱을 선택하여 사용할 수 있는 앱의 사전순 목록을 볼 수 있습니다. 거기에서 특정 앱을 검색할 수 있습니다. 
     

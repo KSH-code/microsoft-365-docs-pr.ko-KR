@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 33d86ff6b63bd8b21ba233ff8b28672a3688fd0c4b20565f69cb9f11b4959426
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 892dbcccfc8f224f80a538f9736405cb012b69ca
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857954"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573694"
 ---
 # <a name="microsoft-onedrive"></a>Microsoft OneDrive
 
@@ -36,7 +36,7 @@ Microsoft Managed Devices에서 기본적으로 이러한 설정을 자동으로
 
 1. 시스템은 사용자가 구성한 OneDrive 사용자가 자동으로 로그인되어 있는지를 사용자에게 OneDrive.
 
-:::image type="content" source="media/onedrive-sync.png" alt-text="이제 동기화 중일 때 읽은 OneDrive 파일을 편집할 수 OneDrive. 파일을 보려면 여기를 클릭하세요.":::
+:::image type="content" source="media/onedrive-sync.png" alt-text="이제 동기화 중일 때 읽은 OneDrive 파일을 편집할 수 OneDrive. 파일을 보려면 여기를 클릭합니다.":::
 
 2. 시스템에서 알려진 폴더 이동이 OneDrive 사용자에게 알 수 있습니다.
 

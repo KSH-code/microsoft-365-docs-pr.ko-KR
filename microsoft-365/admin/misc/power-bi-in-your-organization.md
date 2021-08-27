@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: 조직의 Power BI 이 비즈니스 분석 서비스를 사용하는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: d9e7aa90803dc87aece4246a369f9b4ae83bb7e867fae5790cb82ba615b8385b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5301d3cd6b10101543741637014455aa2b2a207a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823861"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566955"
 ---
 # <a name="power-bi-in-your-organization"></a>조직의 Power BI
 
@@ -101,7 +101,7 @@ Microsoft에서 테넌트가 만들어진 경우 다음 단계에 따라 해당 
 
 4. 왼쪽 위에서 앱 시작 관리자 아이콘을 선택하고 **관리자** 를 선택합니다.
 
-    ![관리자 앱이 강조 표시된 앱 시작 관리자](../../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
+    ![관리자 앱이 강조 표시된 앱 시작 관리자입니다.](../../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
   
 5. 관리자 되기 페이지의 지침을 **읽은** 다음 **예, 관리자가 되겠습니다.를 선택합니다.**
 
@@ -126,7 +126,7 @@ Microsoft에서 테넌트가 만들어진 경우 다음 단계에 따라 해당 
 
 사용자가 기존 테넌트에 가입하지 못하게 하는 관리자로 취할 수 있는 단계가 있습니다. 사용자가 테넌트에 참가하지 못하게 차단하면 사용자의 로그인 시도가 실패하고 조직의 관리자에게 문의할 수 있습니다. 학생, 교직원 및 교직원용 라이선스와 같은 자동 라이선스 배포를 Office 365 Education 이미 사용하지 않도록 설정한 경우 이 프로세스를 반복할 필요가 없습니다.
   
-다음 단계를 수행하려면 Windows PowerShell을 사용해야 합니다. Windows PowerShell을 시작하려면 [PowerShell 시작 가이드](/powershell/scripting/overview)를 참조하세요.
+이러한 단계를 수행하려면 Windows PowerShell을 사용해야 합니다. Windows PowerShell을 시작하려면 [PowerShell 시작 가이드](/powershell/scripting/overview)를 참조하세요.
   
 다음 단계를 수행하려면 [V2 PowerShell](https://www.powershellgallery.com/packages/AzureADPreview/2.0.2.5)모듈의 최신 64비트 Azure Active Directory 설치해야 합니다.
   

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
-ms.openlocfilehash: 9f5ca3c0941d2f7c72d72da34d1a840ecf42c68e
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: e5be01ed75468d97c0cadf229512bce2f90efea5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531530"
+ms.locfileid: "58567051"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>이벤트가 발생할 때 보존 시작
 
@@ -56,9 +56,9 @@ ms.locfileid: "58531530"
 
 이벤트 기반 보존을 성공적으로 사용하려면 다음과 같은 다이어그램 및 설명에 있는 것처럼 이벤트 유형, 보존 레이블, 이벤트 및 자산 ID 간 관계를 이해하는 것이 중요합니다. 
   
-![다이어그램 1/2: 이벤트 유형, 레이블, 이벤트 및 자산 ID ](../media/a5141a6b-61ca-4a60-9ab0-24e6bb45bbdb.png)
+![다이어그램 1/2: 이벤트 유형, 레이블, 이벤트 및 자산 ID.](../media/a5141a6b-61ca-4a60-9ab0-24e6bb45bbdb.png)
   
-![다이어그램 2/2: 이벤트 유형, 레이블, 이벤트 및 자산 ID ](../media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
+![다이어그램 2/2: 이벤트 유형, 레이블, 이벤트 및 자산 ID.](../media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
   
 1. 다양한 콘텐츠 형식에 대한 보존 레이블을 만든 후 특정 이벤트 유형에 연결합니다. 예를 들어, 다양한 유형의 제품 파일 및 기록에 대한 보존 레이블은 해당 기록을 제품이 수명에 도달한 시점부터 10년 동안 보존해야 하므로 제품 수명이라는 이벤트 유형에 연결됩니다.
     
@@ -82,7 +82,7 @@ ms.locfileid: "58531530"
 
 이벤트 구동 보존의 상위 레벨 워구동우우:
   
-![이벤트 구동 보존을 설정하는 워크플로 다이어그램](../media/event-based-retention-process.png)
+![이벤트 구동 보존을 설정하는 워크플로 다이어그램.](../media/event-based-retention-process.png)
   
 > [!TIP]
 > SharePont에서 관리 속성을 사용하여 보존 레이블을 자동 적용하고 이벤트 중심 보존을 구현하는 방법에 대한 자세한 시나리오는 [보존 레이블로 SharePoint에서 문서의 수명 주기 관리](auto-apply-retention-labels-scenario.md)를 참조하세요.
@@ -91,7 +91,7 @@ ms.locfileid: "58531530"
 
 보존 레이블을 만들고 구성하려면 [보존 레이블 만들기](./create-apply-retention-labels.md#step-1-create-retention-labels)에 대한 지침을 참조하세요. 이벤트 기반 보존에만 해당하는 경우 보존 레이블 만들기 마법사의 **보존 설정 정의** 페이지에서 **기반 보존 기간을 시작** 한 후 드롭다운 목록에서 기본 이벤트 유형 중 하나를 선택하거나 **새 이벤트 유형 만들기** 를 선택하여 직접 만듭니다.
 
-![보존 레이블에 새 이벤트 유형 만들기](../media/SPRetention6.png)
+![보존 레이블에 새 이벤트 유형 만들기.](../media/SPRetention6.png)
 
 이벤트 유형은 보존 레이블을 연결할 이벤트에 대한 일반적인 설명입니다.
 
@@ -135,13 +135,13 @@ ms.locfileid: "58531530"
     
 자산 ID는 SharePoint 및 OneDrive에서 사용할 수 있는 또 다른 문서 속성입니다. 조직에서 이미 다른 문서 속성 및 ID를 사용하여 콘텐츠를 분류하고 있을 수 있습니다. 이 경우에는 이벤트를 작성할 때 해당 속성 및 값을 사용할 수도 있습니다. 아래 6단계를 참조하세요. 중요한 점은 사용자가 문서 속성에서 일부 *속성:값* 조합을 사용하여 해당 항목을 이벤트 유형과 연결시켜야 한다는 것입니다.
   
-![자산 ID를 입력하기 위한 텍스트 상자](../media/6d31628e-7162-4370-a8d7-de704aafa350.png)
+![자산 ID를 입력하기 위한 텍스트 상자.](../media/6d31628e-7162-4370-a8d7-de704aafa350.png)
   
 ### <a name="step-5-create-an-event"></a>5단계: 이벤트 만들기
 
 해당 이벤트 유형의 특정 인스턴스가 발생하면(예: 제품이 수명 종료에 도달), Microsoft 365 규정 준수 센터의 **레코드 관리** > **이벤트** 페이지로 가서 **+만들기** 를 선택하여 이벤트를 만듭니다. 여기에 이벤트를 만들어 트리거합니다.
 
-![이벤트 기반 보존 레이블에 대한 보존 시작을 트리거하는 이벤트 만들기](../media/create-event-records-management.png)
+![이벤트 기반 보존 레이블에 대한 보존 시작을 트리거하는 이벤트 만들기.](../media/create-event-records-management.png)
 
 테넌트당 최대 100만 이벤트를 지원합니다.
 
@@ -149,7 +149,7 @@ ms.locfileid: "58531530"
 
 이벤트를 만들 때 2단계에서 보존 레이블 설정에 지정되는 동일한 이벤트 유형을 선택합니다. 예를 들어 **제품 수명** 을 레이블 설정의 이벤트 유형으로 선택했다면 이벤트를 만들 때 **제품 수명** 을 선택합니다. 해당 이벤트 유형에 적용된 보존 레이블이 있는 콘텐츠에 대해서만 보존 기간이 트리거됩니다.
 
-![이벤트 유형을 선택하기 위한 이벤트 설정 옵션](../media/choose-event-type-records-management.png)
+![이벤트 유형을 선택하기 위한 이벤트 설정 옵션.](../media/choose-event-type-records-management.png)
 
 또는 다양한 이벤트 유형을 포함하는 여러 보존 레이블 이벤트를 만들어야 하는 경우 **기존 레이블 선택** 옵션을 선택합니다. 그런 다음 이 이벤트와 연결하려는 이벤트 유형에 대해 구성된 레이블을 선택합니다.
 
@@ -167,7 +167,7 @@ Exchange 항목의 경우 키워드 또는 KQL(키워드 쿼리 언어)을 사�
 
 마지막으로 이벤트가 발생한 날짜를 선택합니다. 이 날짜는 보존 기간의 시작으로 사용됩니다. 이벤트를 생성한 후에는 해당 이벤트 유형, 자산 ID 및 키워드 또는 쿼리의 보존 레이블이 있는 모든 콘텐츠에 해당 이벤트 날짜가 동기화됩니다. 다른 보존 레이블과 마찬가지로 이 동기화에도 최대 7일이 걸릴 수 있습니다.
   
-![이벤트 설정 페이지](../media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
+![이벤트 설정 페이지.](../media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
 
 이벤트를 만든 후 보존 설정은 이미 레이블이 지정되고 인덱싱된 콘텐츠에 적용됩니다. 이벤트를 만든 후 새 콘텐츠에 보존 레이블을 추가한 경우에는 동일한 세부 정보를 사용하여 새 이벤트를 만들어야 합니다.
 
@@ -226,9 +226,9 @@ https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentio
 
 Microsoft 365 REST API를 사용하여 이벤트를 생성하는 흐름을 만듭니다.
 
-![Power Automate를 사용해 이벤트 만들기](../media/automate-event-driven-retention-flow-1.png)
+![Flow를 사용해 이벤트 만들기.](../media/automate-event-driven-retention-flow-1.png)
 
-![Power Automate를 사용해 REST API 호출하기](../media/automate-event-driven-retention-flow-2.png)
+![Flow를 사용해 REST API 호출하기.](../media/automate-event-driven-retention-flow-2.png)
 
 #### <a name="create-an-event"></a>이벤트 만들기
 

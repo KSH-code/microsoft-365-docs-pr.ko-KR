@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9a459c120e0bfb4da5c4b98ee576ff347052e358
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: df9bf273edd85fea08cd11838093a1287b0fff97
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400382"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58550277"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Microsoft Managed Desktop 수명 주기
 
@@ -65,7 +65,7 @@ Microsoft Managed Desktop, 안정성, 디자인 및 보안 기능(예: Windows H
 
 제조업체가 제품을 공개적으로 릴리스하면 제품 수명 주기가 시작됩니다.
 
-![릴리스 및 평가 기간을 보여주는 수명 주기 타임라인](../../media/non-dark3-edits.PNG)
+![수명 주기 타임라인에 릴리스 및 평가 기간이 표시됩니다.](../../media/non-dark3-edits.PNG)
 
 이 단계에서는 Microsoft Managed Desktop 엔지니어링 팀이 제품의 평가 및 인증을 진행합니다. 이 팀은 특히 Windows 안정성 및 성능, 하드웨어 기준 준수, 시장 정서, 인벤토리 및 채널 준비를 평가합니다. 이 프로세스는 일반적으로 약 6주가 소요됩니다.
   
@@ -78,7 +78,7 @@ Microsoft Managed Desktop 처음 6개월 이내에 인증을 위한 장치만 �
 
 이 기간은 제품 가용성의 핵심입니다.
 
-![기본 가용성을 보여주는 수명 주기 타임라인](../../media/non-dark4-edits.PNG)
+![기본 가용성을 보여주는 수명 주기 타임라인입니다.](../../media/non-dark4-edits.PNG)
 
 이 기간 동안 등록된 모든 디바이스는 파란색 타임라인에 표시된 Microsoft Managed Desktop 3년의 전체 지원을 받게 됩니다. 이 기간은 종료 날짜가 일반 공급 날짜로부터 24개월로 설정될 때까지 지속됩니다.
 
@@ -91,7 +91,7 @@ Microsoft Managed Desktop 처음 6개월 이내에 인증을 위한 장치만 �
 Microsoft Managed Desktop 등록하기 전에 최근에 승인된 장치를 구입한 경우 등록할 수 있지만 3년 동안의 관리는 받지 못합니다. 대신 등록한 날짜와 관계없이 사용 중지 날짜에 규정을 준수하지 않습니다. 숨은 Microsoft Managed Desktop 기본 가용성의 마지막 날에 등록된 장치처럼 이러한 장치를 처리합니다. 이 그림에서는 등록이 1년의 차이에도 불구하고 파란색 및 녹색 장치가 같은 날에 종료됩니다.
 
 
-![유예 기간을 표시하는 수명 주기 타임라인](../../media/non-dark2-edits.PNG)
+![유예 기간을 표시하는 수명 주기 타임라인입니다.](../../media/non-dark2-edits.PNG)
 
 이전 표의 Fabrikam 노트북 예제에서는 이러한 상황을 보여 주었다. 
 

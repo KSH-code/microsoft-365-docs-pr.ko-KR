@@ -16,12 +16,12 @@ description: 조사 중에 모든 사서함 콘텐츠를 보존하여 사서함�
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: a8386eba6373be26ccd3e4a9cb9884ca44cb61237e33d93c33528db4b318c71e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 58de1f44c6c58125b37c8cf0800d48dc0ae86f2a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886620"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566883"
 ---
 # <a name="create-a-litigation-hold"></a>소송 보류 만들기
 
@@ -102,7 +102,7 @@ True 값은 *사서함이* 소송 보류 중입니다.
 
 다음 그림에서는 복구 가능한 항목 폴더 및 보류 워크플로 프로세스의 하위 폴더를 보여줍니다.
 
-![소송 보유 수명 주기](../media/LitigationHoldLifeCycle.png)
+![소송 보유 수명 주기.](../media/LitigationHoldLifeCycle.png)
 
 > [!NOTE]
 > eDiscovery 사례와 연결된 보류가 사서함에 배치된 경우 제거된 항목은 Deletions 하위폴더에서 DiscoveryHolds 하위폴더로 이동되고 eDiscovery 보류에서 사서함이 릴리스될 때까지 보존됩니다.
