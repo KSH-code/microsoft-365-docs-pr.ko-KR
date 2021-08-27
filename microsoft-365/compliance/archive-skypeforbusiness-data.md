@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 커넥터에서 커넥터를 설정하고 사용하여 Microsoft 365 규정 준수 센터 가져오고 보관하는 방법을 비즈니스용 Skype Microsoft 365.
-ms.openlocfilehash: f265d0599525cc6fd9f9d26a0d8d04f0c8e7e008927a2b4215d4fc40ad771215
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3f772bfa7b59eac7292cd869aee2688ac1a132b6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563110"
 ---
 # <a name="set-up-a-connector-to-archive-skype-for-business-data"></a>데이터 보관을 위한 비즈니스용 Skype 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "53796556"
 
 다음 개요에서는 커넥터를 사용하여 커넥터를 사용하여 비즈니스용 Skype 데이터를 보관하는 Microsoft 365.
 
-![보관 데이터용 비즈니스용 Skype 워크플로](../media/SkypeforBusinessConnectorWorkflow.png)
+![데이터를 보관하는 비즈니스용 Skype 워크플로입니다.](../media/SkypeforBusinessConnectorWorkflow.png)
 
 1. 조직은 조직과 함께 비즈니스용 Skype 사이트 설정 및 비즈니스용 Skype 합니다.
 

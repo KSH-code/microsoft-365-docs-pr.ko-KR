@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.date: 06/02/2021
-ms.openlocfilehash: 3115695bb9c73dbff0c24f677e9e6151de82feba0695eebbb3b2078f01ab8ad8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d232245ffa88ab63ebe68ac104f291d006612505
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794141"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533210"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications"></a>사용자 동의없이 설치된 응용 프로그램 검색 및 차단
 
@@ -115,7 +115,7 @@ System Center 2012 Configuration Manager의 경우 [Configuration Manager에서 
 
 4. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-5. **Windows 구성 요소** > **Microsoft Defender 바이러스 백신** 으로 트리를 확장합니다.
+5. **Windows 구성 요소** \> **Microsoft Defender 바이러스 백신으로** 트리를 확장합니다.
 
 6. **사용자 동의없이 설치된 응용 프로그램에 대한 감지 구성** 을 두 번 클릭합니다.
 

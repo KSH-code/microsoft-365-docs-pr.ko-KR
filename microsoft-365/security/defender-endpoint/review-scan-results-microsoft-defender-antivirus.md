@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: c7860c284d82ee2fbdb9f8e2eae6299f56f6387b45b8c6f3d88eb2733ee7cd72
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d23d2c7f0d6fc12a3365d1c4f50d37384f5ca349
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53799781"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561269"
 ---
 # <a name="review-microsoft-defender-antivirus-scan-results"></a>검사 Microsoft Defender 바이러스 백신 검토
 
@@ -57,7 +57,7 @@ Get-MpThreatDetection
 Get-MpThreat
 ```
 
-:::image type="content" source="../../media/wdav-get-mpthreat.png" alt-text="PowerShell 코드":::
+:::image type="content" source="../../media/wdav-get-mpthreat.png" alt-text="PowerShell 코드.":::
 
 PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 [Defender cmdlet을](/powershell/module/defender/) 구성하고 실행을 Microsoft Defender 바이러스 백신.
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 테넌트에 대한 올바른 ID 모델을 Microsoft 365 강력한 사용자 로그인을 적용합니다.
-ms.openlocfilehash: 01a69a326195514d0aa0a7eef1124bb820a211a508a1ed5cf79a520b82d0afa9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cd67db1c70c4f3aaa4ec9784e1de6992dd40300a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53798643"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571618"
 ---
 # <a name="step-3-identity-for-your-microsoft-365-for-enterprise-tenants"></a>3단계. 엔터프라이즈 테넌트의 Microsoft 365 ID
 
@@ -40,13 +40,13 @@ Microsoft 365 테넌트에는 로그인에 대한 ID 및 인증을 Azure Active 
 
 다음은 클라우드 전용 ID의 기본 구성 요소입니다.
 
-![클라우드 전용 ID의 기본 구성 요소](../media/about-microsoft-365-identity/cloud-only-identity.png)
+![클라우드 전용 ID의 기본 구성 요소입니다.](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
 이 그림에서 사내 및 원격 사용자는 해당 테넌트의 Azure AD 테넌트에 있는 계정으로 Microsoft 365 로그인합니다.
 
 다음은 하이브리드 ID의 기본 구성 요소입니다.
 
-![하이브리드 ID의 기본 구성 요소](../media/about-microsoft-365-identity/hybrid-identity.png)
+![하이브리드 ID의 기본 구성 요소입니다.](../media/about-microsoft-365-identity/hybrid-identity.png)
 
 이 그림에서, 사내 및 원격 사용자는 자신의 Microsoft 365 AD DS에서 복사된 Azure AD 테넌트의 계정을 사용하여 자신의 Microsoft 365 테넌트에 로그인합니다.
 
@@ -91,7 +91,7 @@ Microsoft 365 테넌트의 ID에 대해 다음을 결정했습니다.
 
 다음은 새 하이브리드 ID 요소가 강조 표시된 테넌트의 예입니다.
 
-![테넌트에 대한 하이브리드 ID의 예](../media/tenant-management-overview/tenant-management-tenant-build-step3.png)
+![테넌트에 대한 하이브리드 ID의 예입니다.](../media/tenant-management-overview/tenant-management-tenant-build-step3.png)
 
 이 그림에서 테넌트에는 다음이 있습니다.
 
@@ -108,6 +108,6 @@ Microsoft 365 테넌트의 ID에 대해 다음을 결정했습니다.
 
 ## <a name="next-step"></a>다음 단계
 
-[![4단계. 서버 및 데이터로 Office 마이그레이션](../media/tenant-management-overview/tenant-management-step-grid-migration.png)](tenant-management-migration.md)
+[![4단계. 서버 및 데이터를 Office 마이그레이션합니다.](../media/tenant-management-overview/tenant-management-step-grid-migration.png)](tenant-management-migration.md)
 
 마이그레이션을 [계속](tenant-management-migration.md) 진행하여 Office 서버와 데이터를 마이그레이션할 Microsoft 365.

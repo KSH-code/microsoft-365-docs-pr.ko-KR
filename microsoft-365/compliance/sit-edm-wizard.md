@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 082bc5e9731a7abb0a8f1d9bd9b6f2e4e4a77dd07363dd475ec350c0c983b250
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dbba5e0e63f473d12b40c902001332c1689e4d12
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895354"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572170"
 ---
 # <a name="use-the-exact-data-match-schema-and-sensitive-information-type-wizard"></a>정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사 사용
 
@@ -47,7 +47,7 @@ ms.locfileid: "53895354"
 
 2. **EDM 스키마 생성** 을 선택하여 스키마 마법사 구성 플라이아웃을 선택합니다.
 
-![EDM 스키마 만들기 마법사 구성 플라이 아웃](../media/edm-schema-wizard-1.png)
+![EDM schema creation wizard configuration flyout.](../media/edm-schema-wizard-1.png)
 
 3. 적절한 **이름** 과 **설명** 을 입력합니다.
 

@@ -17,12 +17,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 사용자가 자신의 검사된 메시지에 대해 할 수 있는 작업을 제어하기 위해 검지 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 581b465ddc8197e2f029b149c57d5d83aacf7a15
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: b35a53973c64447fe01b3657969cc7289165538d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533474"
+ms.locfileid: "58561221"
 ---
 # <a name="quarantine-policies"></a>Quarantine policies
 
@@ -49,10 +49,10 @@ EOP(Exchange Online Protection(Exchange Online Protection) 및 Microsoft Defende
 
 |사용 권한|액세스 권한 없음|제한된 액세스|모든 액세스|
 |---|:---:|:---:|:---:|
-|**보낸 사람 차단(** _PermissionToBlockSender_)||![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|**Delete(** _PermissionToDelete_)||![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|**미리 보기(** _PermissionToPreview_)||![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|받는 사람이 메시지를 **검지에서** 해제할 수 있도록 허용(_PermissionToRelease_)|||![확인 표시](../../media/checkmark.png)|
+|**보낸 사람 차단(** _PermissionToBlockSender_)||![확인 표시.](../../media/checkmark.png)|![확인 표시.](../../media/checkmark.png)|
+|**Delete(** _PermissionToDelete_)||![확인 표시.](../../media/checkmark.png)|![확인 표시.](../../media/checkmark.png)|
+|**미리 보기(** _PermissionToPreview_)||![확인 표시.](../../media/checkmark.png)|![확인 표시.](../../media/checkmark.png)|
+|받는 사람이 메시지를 **검지에서** 해제할 수 있도록 허용(_PermissionToRelease_)|||![확인 표시.](../../media/checkmark.png)|
 |받는 사람이 메시지를 검지에서 릴리스하도록 **요청하도록 허용(** _PermissionToRequestRelease_)||![확인 표시](../../media/checkmark.png)||
 |
 
@@ -82,7 +82,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 
 1. Microsoft 365 Defender 포털에서 전자 메일 &  위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
 
-2. **Quarantine policy 페이지에서** Add custom policy icon Add custom policy (사용자 지정 정책 추가)를 ![ ](../../media/m365-cc-sc-create-icon.png) **클릭합니다.**
+2. **Quarantine policy 페이지에서** Add custom policy icon(사용자 지정 정책 ![ 추가) 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **사용자 지정 정책 추가**.
 
 3. 새 **정책 마법사가** 열립니다. 정책 **이름 페이지의** 정책 이름 상자에 간략하지만 고유한 **이름을 입력합니다.** 다음 단계에서 이름으로 정책을 식별하고 선택해야 합니다. 작업을 마친 후 **다음** 을 클릭합니다.
 
@@ -519,7 +519,7 @@ New-SafeAttachmentPolicy -Identity "Human Resources" -QuarantineTag NoAccess
 
      다음 스크린샷은 최종 사용자 스팸 알림의 사용자 지정된 표시 이름을 보여줍니다.
 
-     ![최종 사용자 스팸 알림의 사용자 지정된 보낸 사람 표시 이름](../../media/quarantine-tags-esn-customization-display-name.png)
+     ![최종 사용자 스팸 알림의 사용자 지정된 보낸 사람 표시 이름입니다.](../../media/quarantine-tags-esn-customization-display-name.png)
 
    - **고지 사항:** 최종 사용자 스팸 알림의 맨 아래에 사용자 지정 고지 사항 추가 지역화된 텍스트인 조직의 고지 **사항:** 은 항상 먼저 포함되는 다음에 지정한 텍스트가 포함됩니다.
 
@@ -533,13 +533,13 @@ New-SafeAttachmentPolicy -Identity "Human Resources" -QuarantineTag NoAccess
 
      첫 번째 언어 상자에서 언어를 하나 이상 선택하고 추가를 **클릭합니다.** 각 언어 다음에 추가를 클릭하여 여러 **언어를** 선택할 수 있습니다. 섹션 언어 상자에는 선택한 모든 언어가 표시됩니다.
 
-     ![두 번째 언어 상자에 있는 선택된 언어에 대한 글로벌 검지 정책의 전역 알림 설정](../../media/quarantine-tags-esn-customization-selected-languages.png)
+     ![두 번째 언어 상자에서 선택된 언어는 전 세계 검사 정책에 대한 알림 설정입니다.](../../media/quarantine-tags-esn-customization-selected-languages.png)
 
    - **회사 로고 사용:** 최종 사용자 스팸 알림의 맨 위에 있는 기본 Microsoft 로고를 대체하려면 이 옵션을 선택합니다. 이 작업을 수행하기 전에 조직에서 [](../../admin/setup/customize-your-organization-theme.md) 사용자 지정 로고를 업로드할 Microsoft 365 테마 사용자 지정의 지침을 따라야 합니다.
 
      다음 스크린샷은 최종 사용자 스팸 알림의 사용자 지정 로고를 보여줍니다.
 
-     ![최종 사용자 스팸 알림의 사용자 지정 로고](../../media/quarantine-tags-esn-customization-logo.png)
+     ![최종 사용자 스팸 알림의 사용자 지정 로고입니다.](../../media/quarantine-tags-esn-customization-logo.png)
 
    - 최종 사용자 스팸 알림 **보내기(일)**: 최종 사용자 알림이 나가는 빈도를 선택합니다.
 
@@ -583,7 +583,7 @@ PowerShell을 사용하여 정책을 보시고자 하는 경우 다음 단계를
 
 2. **Quarantine policies 페이지에서** 이름을 클릭하여 정책을 선택합니다.
 
-3. 정책을 선택한 후 나타나는 정책 편집 아이콘 정책 편집 ![ ](../../media/m365-cc-sc-edit-icon.png)  아이콘을 클릭합니다.
+3. 정책을 선택한 후 정책 편집 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-edit-icon.png) **나타나는 정책** 아이콘을 편집합니다.
 
 4. 열리게 하는 정책 편집 마법사는  이 문서 앞부분의 Microsoft 365 Defender 포털에서 정책 만들기 섹션에 설명된 대로 새 정책 마법사와 거의 동일합니다.  [](#step-1-create-quarantine-policies-in-the-microsoft-365-defender-portal)
 
@@ -620,7 +620,7 @@ Set-QuarantineTag -Identity "<QuarantinePolicyName>" [Settings]
 
 2. **Quarantine policy 페이지에서** 이름을 클릭하여 제거할 사용자 지정 분리 정책을 선택합니다.
 
-3. 정책을 선택한 후 정책 삭제 아이콘 나타나는 정책 삭제 ![ ](../../media/m365-cc-sc-delete-icon.png)  아이콘을 클릭합니다.
+3. 정책을 선택한 후 정책 삭제 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-delete-icon.png) **나타나는 정책** 아이콘을 삭제합니다.
 
 4. 나타나는 **확인 대화** 상자에서 정책 제거를 클릭합니다.
 
@@ -672,14 +672,14 @@ Remove-QuarantineTag -Identity "<QuarantinePolicyName>"
   - **격리 해제**
   - **보낸 사람 차단**
 
-  ![사용자에게 제한된 액세스 권한을 부여하는 경우, 검지된 메시지 세부 정보에서 사용 가능한 단추](../../media/quarantine-tags-quarantined-message-details-limited-access.png)
+  ![사용자에게 제한된 액세스 권한이 부여된 경우, 검지된 메시지 세부 정보의 사용 가능한 단추입니다.](../../media/quarantine-tags-quarantined-message-details-limited-access.png)
 
 - **최종 사용자 스팸 알림:** 다음 단추를 사용할 수 있습니다.
   - **보낸 사람 차단**
   - **릴리스 요청**
   - **검토**
 
-  ![사용자에게 제한된 액세스 권한을 부여하는 경우 최종 사용자 스팸 알림의 사용 가능한 단추](../../media/quarantine-tags-esn-limited-access.png)
+  ![차단 정책이 사용자에게 제한된 액세스 권한을 부여하는 경우 최종 사용자 스팸 알림에서 사용 가능한 단추입니다.](../../media/quarantine-tags-esn-limited-access.png)
 
 #### <a name="full-access"></a>모든 액세스
 
@@ -692,14 +692,14 @@ Remove-QuarantineTag -Identity "<QuarantinePolicyName>"
   - **격리 해제**
   - **보낸 사람 차단**
 
-  ![사용자에게 모든 액세스 권한이 부여된 경우, 검지된 메시지 세부 정보에서 사용 가능한 단추](../../media/quarantine-tags-quarantined-message-details-full-access.png)
+  ![사용자에 대 한 모든 액세스 권한을 부여 하는 경우 사용 가능한 단추에 대 한 메시지 세부 정보에서 사용 가능한 합니다.](../../media/quarantine-tags-quarantined-message-details-full-access.png)
 
 - **최종 사용자 스팸 알림:** 다음 단추를 사용할 수 있습니다.
   - **보낸 사람 차단**
   - **릴리스**
   - **검토**
 
-  ![사용자에게 모든 액세스 권한을 부여하는 경우 최종 사용자 스팸 알림의 사용 가능한 단추](../../media/quarantine-tags-esn-full-access.png)
+  ![차단 정책이 사용자에게 모든 액세스 권한을 부여하는 경우 최종 사용자 스팸 알림에서 사용할 수 있는 단추입니다.](../../media/quarantine-tags-esn-full-access.png)
 
 ### <a name="individual-permissions"></a>개별 사용 권한
 

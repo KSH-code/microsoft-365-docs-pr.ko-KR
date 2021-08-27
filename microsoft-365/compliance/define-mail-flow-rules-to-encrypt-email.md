@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: 관리자는 메일 흐름 규칙(전송 규칙)을 만들어 전자 메일을 사용하여 메시지를 암호화하고 암호 해독하는 방법을 Office 365 메시지 암호화.
-ms.openlocfilehash: 1acd670e2faf2fbb2ebd6e6df51569e983bf4090818a604242a20b0fbb8c5e76
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e786a6ac688adbae22f7161ada18cffc27811f97
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53808215"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572194"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>전자 메일 메시지를 암호화하는 메일 흐름 규칙 정의
 
@@ -48,7 +48,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화를 트리
 
 3. In the Microsoft 365 관리 센터, choose **Admin centers** \> **Exchange.**
 
-4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
+4. EAC에서 메일 흐름 **규칙으로** \> **이동하고** 새 새 **아이콘을** ![ 선택합니다.](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \>**새 규칙을 만드시다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
 
 5. **이름에** 규칙의 이름(예: 사용자에 대한 메일 암호화)을 DrToniRamos@hotmail.com.
 
@@ -82,7 +82,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화를 트리
 
 4. EAC에서 **메일 흐름** \> **규칙** 으로 이동합니다.
 
-5. 메일 흐름 규칙 목록에서 새 OME 기능을 사용하기 위해 수정하려는 규칙을 선택한  다음 편집 편집 아이콘 ![ 을 ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 선택합니다.
+5. 메일 흐름 규칙 목록에서 새 OME 기능을 사용하기 위해 수정할 규칙을 선택한  다음 편집 편집 ![ 아이콘을 선택합니다. ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)
 
 6. 새 OME 기능을 사용하여 암호화를 사용하도록 설정하려면  다음 **작업에서** 메시지 보안 수정을 선택한 다음 메시지 보안 Office 365 메시지 암호화 및 권한 보호 **적용을 선택하세요.** 목록에서 RMS 템플릿을 선택하고 저장을 선택한 **다음** 확인 을 **선택합니다.**
 
@@ -108,7 +108,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화 제거를
 
 3. In the Microsoft 365 관리 센터, choose **Admin centers** \> **Exchange.**
 
-4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
+4. EAC에서 메일 흐름 **규칙으로** \> **이동하고** 새 새 **아이콘을** ![ 선택합니다.](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \>**새 규칙을 만드시다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
 
 5. **이름에** 규칙의 이름(예: 보낸 메일에서 암호화 제거)을 입력합니다.
 
@@ -122,7 +122,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화 제거를
 
 아직 조직을 새 OME 기능으로 이동하지 않은 경우 조직에 적절한 새 OME 기능으로 이동하는 계획을 세우는 것이 좋습니다. 자세한 내용은 Azure Information Protection을 Office 365 메시지 암호화 새로운 Office 365 메시지 암호화 기능 [설치를 참조하세요.](set-up-new-message-encryption-capabilities.md) 그렇지 않으면 새 OME 기능을 사용하지 Office 365 메시지 암호화 메일 흐름 규칙 [정의를 참조합니다.](legacy-information-for-message-encryption.md#defining-mail-flow-rules-for-office-365-message-encryption-that-dont-use-the-new-ome-capabilities)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365의 암호화](encryption.md)
 

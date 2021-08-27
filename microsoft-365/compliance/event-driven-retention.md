@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
-ms.openlocfilehash: 4b1f30b8aaa072b328307a90f2828d7b8dd0187d3fd3767d8eb13bc6104bd033
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9f5ca3c0941d2f7c72d72da34d1a840ecf42c68e
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53905980"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531530"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>이벤트가 발생할 때 보존 시작
 
@@ -208,7 +208,7 @@ REST API는 서비스 자원에 대한 액세스를 생성/검색/갱신/삭제�
 
 REST API를 사용할 수 있는 옵션은 다음과 같이 두 가지가 있습니다.
 
-- 이벤트 발생을 자동으로 트리거하는 **Microsoft Power Automate 또는 유사한 응용 프로그램** Microsoft Power Automate는 다른 시스템에 연결하기 위한 조정자이므로 사용자 지정 솔루션을 작성할 필요가 없습니다. 자세한 내용은 [Power Automate 웹 사이트](https://flow.microsoft.com/ko-KR/)를 참조하세요.
+- 이벤트 발생을 자동으로 트리거하는 **Microsoft Power Automate 또는 유사한 응용 프로그램** Microsoft Power Automate는 다른 시스템에 연결하기 위한 조정자이므로 사용자 지정 솔루션을 작성할 필요가 없습니다. 자세한 내용은 [Power Automate 웹 사이트](https://flow.microsoft.com/en-us/)를 참조하세요.
 
 - 사용자 지정 솔루션의 일부인 PowerShell(버전 6 이상)을 사용하여 이벤트를 생성하기 위해 **REST API를 호출하는 PowerShell 또는 HTTP 클라이언트**
 
@@ -226,9 +226,9 @@ https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentio
 
 Microsoft 365 REST API를 사용하여 이벤트를 생성하는 흐름을 만듭니다.
 
-![Flow를 사용해 이벤트 만들기](../media/automate-event-driven-retention-flow-1.png)
+![Power Automate를 사용해 이벤트 만들기](../media/automate-event-driven-retention-flow-1.png)
 
-![Flow를 사용해 REST API 호출하기](../media/automate-event-driven-retention-flow-2.png)
+![Power Automate를 사용해 REST API 호출하기](../media/automate-event-driven-retention-flow-2.png)
 
 #### <a name="create-an-event"></a>이벤트 만들기
 

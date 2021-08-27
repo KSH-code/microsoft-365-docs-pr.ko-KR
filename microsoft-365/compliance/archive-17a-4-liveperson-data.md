@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 LivePerson Conversational Cloud DataParser 커넥터를 설정하고 사용하여 LivePerson 대화형 클라우드 데이터를 Microsoft 365.
-ms.openlocfilehash: a06de3699c46a57074d125c74c777c4ea8a8a1e6f87aafbbc8c2364acb82c49c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 22e21ea0352ff11b96819dafa0a70ee20427c7a2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53808830"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571534"
 ---
 # <a name="set-up-a-connector-to-archive-liveperson-conversational-cloud-data"></a>LivePerson 대화형 클라우드 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "53808830"
 
 다음 개요에서는 데이터 커넥터를 사용하여 LivePerson 대화형 클라우드 데이터를 데이터 원본에 보관하는 Microsoft 365.
 
-![17a-4의 LivePerson 대화형 클라우드 데이터에 대한 보관 워크플로](../media/LiveEngageDataParserConnectorWorkflow.png)
+![LivePerson 대화 클라우드 데이터에 대한 보관 워크플로 17a-4.](../media/LiveEngageDataParserConnectorWorkflow.png)
 
 1. 조직은 17a-4와 함께 LivePerson 대화형 클라우드 DataParser를 설정하고 구성합니다.
 

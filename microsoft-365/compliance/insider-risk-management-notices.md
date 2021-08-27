@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: efb44f098bb18ee25bfc39b2b1c46faa057faa5e7996b24a22af89277e135742
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 786878e827fed6318a70501e400a719ad9181835
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53860687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561449"
 ---
 # <a name="insider-risk-management-notice-templates"></a>내부자 위험 관리 알림 템플릿
 
@@ -29,7 +29,7 @@ ms.locfileid: "53860687"
 
 **알림 템플릿 대시보드** 에 구성된 알림 템플릿 목록이 표시되고 새 알림 템플릿을 생성할 수 있습니다. 알림 템플릿은 가장 최근의 알림 템플릿이 먼저 나열되는 역 날짜 순서로 나열됩니다.
 
-![내부자 위험 관리 알림 서식 파일 대시보드](../media/insider-risk-notices-dashboard.png)
+![내부자 위험 관리 알림 서식 파일 대시보드.](../media/insider-risk-notices-dashboard.png)
 
 ## <a name="html-for-notices"></a>알림용 HTML
 

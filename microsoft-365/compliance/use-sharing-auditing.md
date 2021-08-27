@@ -21,12 +21,12 @@ ms.collection:
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: 관리자는 조직 외부의 사용자와 공유되는 리소스를 식별하기 위해 Microsoft 365 감사 로그에서 공유 감사를 사용하는 방법을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 54041bfc9ea2c35ab241ca5509ea8c6dd1a101f2
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 2d6e25b4bc2be325061996cee61fd4d2c1ccb786
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508229"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561437"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>감사 로그에서 공유 감사 사용
 
@@ -106,7 +106,7 @@ ms.locfileid: "58508229"
 
 4. **활동에서** 공유 **및** 액세스 요청 활동을 클릭하여 공유 관련 이벤트를 검색합니다. 
 
-    ![활동에서 공유 및 액세스 요청 활동 선택](../media/46bb25b7-1eb2-4adf-903a-cc9ab58639f9.png)
+    ![활동에서 공유 및 액세스 요청 활동을 선택합니다.](../media/46bb25b7-1eb2-4adf-903a-cc9ab58639f9.png)
   
 5. 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 공유 이벤트를 찾을 수 있습니다. 
 

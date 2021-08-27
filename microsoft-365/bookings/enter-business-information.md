@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 828a17db-956a-401e-bb62-d153b6dffd53
 description: 다음 지침에 따라 Microsoft Bookings의 회사 이름, 주소, 전화 번호, 웹 사이트 URL, 로고 및 업무 시간을 포함하여 Microsoft 내 정보를 만들 수 있습니다.
-ms.openlocfilehash: fae790405d6691d35f5c0bfe806b6d7d46c3b555ecfd14660d3fb89b34b3efe8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fdf96347a080d24cfb06353c96622484ed54c683
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53803851"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571570"
 ---
 # <a name="enter-your-business-information"></a>비즈니스 정보 입력
 
@@ -22,7 +22,7 @@ Microsoft Bookings에서 웹 앱 내의 비즈니스 정보 페이지에는 일�
 
 여기서 제공하는 정보는 고객과 클라이언트가 약속을 예약하는 데 사용하는 페이지(예약 페이지)와 Bookings에서 보낸 메시지 및 미리 알림에 표시됩니다. 아래에서 예약 페이지에서 이 정보의 예가 강조 표시됩니다.
 
-   ![Microsoft Bookings의 비즈니스 정보 페이지 예제 이미지](../media/bookings-business-info.png)
+   ![Microsoft Bookings의 비즈니스 정보 페이지 예제 이미지입니다.](../media/bookings-business-info.png)
 
 > [!NOTE]
 > 시작은 [Microsoft Bookings에 대한 액세스 권한을 참조합니다.](get-access.md) Bookings를 켜거나 끄기 위해 조직에 대해 [Bookings 켜기 또는 끄기 를 참조합니다.](turn-bookings-on-or-off.md)
@@ -63,11 +63,11 @@ Microsoft Bookings에서 웹 앱 내의 비즈니스 정보 페이지에는 일�
 
 1. **+** 목요일 행을 새로 만들면 선택합니다.
 
-   ![업무 시간 UI의 이미지](../media/bookings-split-shift.png)
+   ![업무 시간 UI의 이미지입니다.](../media/bookings-split-shift.png)
 
 1. 새 행에서 오후 2시 30분을 선택합니다. 시작 시간 및 오후 6:00 종료 시간입니다.
 
-   ![시간이 추가된 업무 시간 UI의 이미지](../media/bookings-split-shift-hours.png)
+   ![업무 시간 UI에 시간이 추가된 이미지입니다.](../media/bookings-split-shift-hours.png)
 
 1. 저장을 선택합니다.
 
@@ -81,6 +81,6 @@ Bookings 앱에 비즈니스 로고를 아직 업로드하지 않은 경우 비�
 
 1. 사진 **업로드 선택합니다.**
 
-   ![사진 업로드 단추의 이미지](../media/bookings-upload-photo.png)
+   ![사진 업로드 단추의 이미지입니다.](../media/bookings-upload-photo.png)
 
 1. **저장** 을 선택합니다.

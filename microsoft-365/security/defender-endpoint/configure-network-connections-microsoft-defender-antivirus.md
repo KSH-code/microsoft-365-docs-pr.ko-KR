@@ -16,12 +16,12 @@ ms.custom: nextgen
 ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 989e392071de0ed90b2daa964307989f664cb53a
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: e7631647d97abc7f67129c9d40887996cfc7eb0b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532958"
+ms.locfileid: "58572158"
 ---
 # <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사
 
@@ -99,11 +99,11 @@ Microsoft Defender 바이러스 백신 명령줄 유틸리티( )와 함께 다�
 
 사용자 Microsoft Edge 알림 메시지도 표시됩니다.
 
-:::image type="content" source="../../media/wdav-bafs-edge.png" alt-text="Edge에서 맬웨어가 발견된 알림 스크린샷":::
+:::image type="content" source="../../media/wdav-bafs-edge.png" alt-text="Edge에서 맬웨어가 발견된 알림 스크린샷.":::
 
 다음을 사용하는 경우 유사한 메시지가 Internet Explorer.
 
-:::image type="content" source="../../media/wdav-bafs-ie.png" alt-text="맬웨어가 발견된 Microsoft Defender AV 알림":::
+:::image type="content" source="../../media/wdav-bafs-ie.png" alt-text="맬웨어가 발견된 Microsoft Defender AV 알림입니다.":::
 
 또한 검색된 앱의 검사 기록 섹션에서 **Quarantined threats(Quarantined threats)** 아래에 검색이 Windows 보안 있습니다. 
 

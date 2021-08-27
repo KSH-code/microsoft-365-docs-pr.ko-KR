@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 앱에 포함된 보안 기능에 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3c5348eb268373ff11b7e926f39d385451a4b2760978029484a2116885c7e9ea
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 686ced4c4612470d25ab3a39fdd824b576bbeab7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572110"
 ---
 # <a name="overview-of-security"></a>보안 개요
 
@@ -34,7 +34,7 @@ ms.locfileid: "53887782"
 
 Microsoft 365 Business Premium 위협 방지, 데이터 보호 및 장치 관리 기능을 제공하면 온라인 위협 및 무단 액세스로부터 회사를 보호하고 휴대폰, 태블릿 및 컴퓨터에서 회사 데이터를 보호하고 관리할 수 있습니다.
 
-|![위협 방지](../media/m365-business-security-threat-protection.png)<br/>[위협 방지](#threat-protection)|![클라이언트와 공동 작업](../media/m365-business-security-data-protection.png) <br/>[데이터 보호](#data-protection) | ![디바이스 관리](../media/m365-business-security-device-management.png) <br/>[장치 관리](#device-management) |
+|![위협 방지.](../media/m365-business-security-threat-protection.png)<br/>[위협 방지](#threat-protection)|![클라이언트와 공동 작업](../media/m365-business-security-data-protection.png) <br/>[데이터 보호](#data-protection) | ![장치 관리](../media/m365-business-security-device-management.png) <br/>[장치 관리](#device-management) |
 |--|--|--|
 
 ## <a name="threat-protection"></a>위협 방지

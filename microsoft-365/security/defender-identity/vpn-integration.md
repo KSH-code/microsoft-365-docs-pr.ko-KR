@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: 5c208440287723367b875f3278fc69425a03b80d93a8f8b1ec4c574a31efb7ec
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e6b8015cc8b6ac073c689bde3b15a411c859cada
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53844321"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561281"
 ---
 # <a name="defender-for-identity-vpn-integration-in-microsoft-365-defender"></a>ID VPN 통합을 위한 Defender Microsoft 365 Defender
 
@@ -58,11 +58,11 @@ RRAS 서버에서 다음 단계를 수행합니다.
 1. 서버 이름을 마우스 오른쪽 단추로 클릭하고 속성을 **선택합니다.**
 1. 보안 **탭의** 회계 **공급자에서** **RADIUS 회계를 선택하고** 구성을 **선택합니다.**
 
-    ![RADIUS 설정](../../media/defender-identity/radius-setup.png)
+    ![RADIUS 설정.](../../media/defender-identity/radius-setup.png)
 
 1. **RADIUS 서버** 추가 창에  네트워크 연결이 있는 가장 가까운 센서의 서버 [!INCLUDE [Product short](includes/product-short.md)] 이름을 입력합니다. 고가용성을 위해 RADIUS 서버로 센서를 [!INCLUDE [Product short](includes/product-short.md)] 더 추가할 수 있습니다. **포트에서** 기본값인 1813이 구성되어 있는지 확인 **변경을** 선택하고 영문자 새 공유 비밀 문자열을 입력합니다. 새 공유 비밀 문자열은 구성 중에 나중에 작성해야 하기 때문에 해당 문자열을 [!INCLUDE [Product short](includes/product-short.md)] 메모해 두면 됩니다. **RADIUS 계정** 설정 및 계정 해제 메시지 보내기 확인란을 선택하고 열려 있는 모든 대화 상자에서 확인을 선택합니다. 
 
-    ![VPN 설정](../../media/defender-identity/vpn-set-accounting.png)
+    ![VPN 설정.](../../media/defender-identity/vpn-set-accounting.png)
 
 ## <a name="configure-vpn-in-defender-for-identity"></a>ID에 대한 Defender에서 VPN 구성
 
@@ -72,12 +72,12 @@ RRAS 서버에서 다음 단계를 수행합니다.
 
 1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
 
-    ![다음 설정 다음 ID로 이동](../../media/defender-identity/settings-identities.png)
+    ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
 1. **VPN 을 선택합니다.**
 1. 반경 **회계 사용** 을  선택하고 이전에 RRAS VPN 서버에서 구성한 공유 비밀을 입력합니다. 그런 다음 **저장** 을 선택합니다.
 
-    ![VPN 통합](../../media/defender-identity/vpn-integration.png)
+    ![VPN 통합.](../../media/defender-identity/vpn-integration.png)
 
 이 기능을 사용하도록 설정하면 ID용 모든 Defender 센서가 RADIUS 회계 이벤트를 포트 1813에서 수신하고 VPN 설정이 완료됩니다.
 

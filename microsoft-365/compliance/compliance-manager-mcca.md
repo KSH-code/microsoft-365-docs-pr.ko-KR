@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 구성 분석기를 사용하여 Microsoft 준수 관리자를 사용하여 빠르게 시작하고 실행하는 방법을 이해합니다.
-ms.openlocfilehash: 7d7a711514e471a3d239918eaa576746a43dded02da81f8103f5c6213df20839
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9bf88a79de07accbf8487f09f642324efcbaf086
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53872065"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572074"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
@@ -111,9 +111,9 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
   | 8  | 한국 |
   | 9  | 북미(캐나다 제외) |
   | 10  | 남미 |
-  | 11 | 남아프리카 공화국 |
+  | 11  | 남아프리카 공화국 |
   | 12  | 스위스 |
-  | 13 | 아랍에미리트 |
+  | 13  | 아랍에미리트 |
   | 14  | 영국 |
 
 
@@ -126,7 +126,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
 
 아래 표에는 보고서의 어떤 섹션에 액세스할 수 있는 역할이 표시됩니다. 아래 표에 나열되지 않은 조직 내의 다른 역할은 도구를 실행하지 못하거나 도구를 실행하여 최종 보고서의 정보에 제한적으로 액세스할 수 있습니다.
 
-![MCCA - 역할](../media/compliance-manager-mcca-roles.png "MCCA 역할")
+![MCCA - 역할.](../media/compliance-manager-mcca-roles.png "MCCA 역할")
 
 예외:
 1. 사용자는 "IRM에 IRM 사용" 섹션과 별도로 IP에 대한 보고서를 Exchange Online 없습니다.
@@ -139,7 +139,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
 
 보고서의 **솔루션 요약** 섹션에서는 규정 준수 관리자에서 조직이 준수 자세를 개선하는 데 도움을 줄 수 있는 개선 작업에 대해 간략하게 설명합니다.
 
-![MCCA - 솔루션 요약](../media/compliance-manager-mcca-solutions.png "MCCA 솔루션 요약 화면")
+![MCCA - 솔루션 요약.](../media/compliance-manager-mcca-solutions.png "MCCA 솔루션 요약 화면")
 
 MCCA는 준수 관리자의 권장 개선 작업에 대해 현재 구성을 평가합니다. 주의가 필요한 것으로 MCCA 도구에서 식별된 모든 개선 작업이 이 섹션에 나열됩니다.
 

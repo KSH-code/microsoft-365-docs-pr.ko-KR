@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 70957d49f818424062002b8604854bf3bd5e60cb
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: ae54134f681568a193b7a99c166aa025d6358eec
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58252488"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561233"
 ---
 # <a name="pilot-microsoft-defender-for-identity"></a>Id에 대한 Microsoft Defender 파일럿
 
@@ -38,7 +38,7 @@ ms.locfileid: "58252488"
 
 다음 단계에 따라 ID에 맞게 Microsoft Defender에 대한 파일럿을 설정하고 구성합니다. 권장 사항에는 파일럿 그룹 설정이 포함되어 있습니다. 모범 사례는 AD DS(Active Directory 도메인 서비스) 및 AD FS(Active Directory Federated Services)를 실행하는 모든 서버에 센서를 설치하는 것입니다.
 
-![Defender 평가 환경에 Id용 Microsoft Defender를 추가하는 단계](../../media/defender/m365-defender-identity-pilot-steps.png)
+![Defender 평가 환경에 Id용 Microsoft Defender를 추가하는 단계입니다.](../../media/defender/m365-defender-identity-pilot-steps.png)
 
 다음 표에서는 그림의 단계에 대해 설명합니다.
 

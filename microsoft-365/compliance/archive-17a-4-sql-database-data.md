@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: DataParser 커넥터를 사용하여 17a-4 SQL 설정하고 사용하여 SQL 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: 6820400d215f2ed94f9741e877bee54c11ab746ebb0f6933840f3d5e9b3792dc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 21a4c8a8a7d0c1a7e8dbf8cef7f1731e56d456ce
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53872251"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563172"
 ---
 # <a name="set-up-a-connector-to-archive-sql-data"></a>데이터 보관을 위한 SQL 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "53872251"
 
 다음 개요에서는 데이터 커넥터를 사용하여 데이터 커넥터를 사용하여 SQL 데이터를 보관하는 Microsoft 365.
 
-![17a-SQL 데이터를 보관하는 워크플로](../media/SQLDatabaseDataParserConnectorWorkflow.png)
+![17a-SQL 데이터를 보관하는 워크플로입니다.](../media/SQLDatabaseDataParserConnectorWorkflow.png)
 
 1. 조직은 17a-4와 함께 작업하여 DataParser를 SQL 구성합니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2b7a3ae0c7dcf64792f61cb183e2bee5f34f2c1a6d7009b421ea767ef44aea06
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 32da15254d011e67959c7ebeff42ab7024eb0895
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53902950"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571834"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 수동 배포
 
@@ -55,7 +55,7 @@ ms.locfileid: "53902950"
 3. 페이지의 섹션 2에서 설치 패키지 **다운로드를 선택합니다.** 로컬 디렉터리에 wdav.pkg로 저장합니다.
 4. 페이지의 섹션 2에서 **온보더링 패키지 다운로드를 선택합니다.** 동일한 디렉터리에 WindowsDefenderATPOnboardingPackage.zip 저장합니다.
 
-    ![Microsoft 365 Defender 포털 스크린샷](images/portal-onboarding-macos.png)
+    ![Microsoft 365 Defender 포털 스크린샷.](images/portal-onboarding-macos.png)
 
 5. 명령 프롬프트에서 두 개의 파일이 있는지 확인해야 합니다.
 
@@ -65,20 +65,20 @@ ms.locfileid: "53902950"
 
 1. Finder에서 다운로드한 wdav.pkg로 이동한 다음 을 열어 립니다.
 
-    ![앱 설치 스크린샷1](images/mdatp-28-appinstall.png)
+    ![앱 설치 스크린샷 1.](images/mdatp-28-appinstall.png)
 
 2. 계속을 **선택하고** 사용 조건에 동의하고 메시지가 표시될 때 암호를 입력합니다.
 
-    ![앱 설치 스크린샷2](images/mdatp-29-appinstalllogin.png)
+    ![앱 설치 스크린샷 2.](images/mdatp-29-appinstalllogin.png)
 
    > [!IMPORTANT]
    > Microsoft에서 드라이버를 설치할 수 있도록 허용하라는 메시지가 표시됩니다("시스템 확장 차단" 또는 "설치가 보류 중입니다." 또는 둘 다). 드라이버를 설치할 수 있어야 합니다.
 
-   ![앱 설치 스크린샷3](images/mdatp-30-systemextension.png)
+   ![앱 설치 스크린샷3.](images/mdatp-30-systemextension.png)
 
 3. 보안 **기본 설정 열기** 또는 보안 및 개인 > 시스템 기본 & **를 선택합니다.** 허용을 **선택합니다.**
 
-    ![보안 및 개인 정보 창 스크린샷](images/mdatp-31-securityprivacysettings.png)
+    ![보안 및 개인 정보 창 스크린샷.](images/mdatp-31-securityprivacysettings.png)
 
    설치가 진행됩니다.
 
@@ -94,27 +94,27 @@ ms.locfileid: "53902950"
 
 1. Finder에서 다운로드한 wdav.pkg로 이동한 다음 을 열어 립니다.
 
-    ![앱 설치 스크린샷4](images/big-sur-install-1.png)
+    ![앱 설치 스크린샷4.](images/big-sur-install-1.png)
 
 2. 계속을 **선택하고** 사용 조건에 동의하고 메시지가 표시될 때 암호를 입력합니다.
 
 3. 설치 프로세스가 끝나면 제품에서 사용하는 시스템 확장을 승인하기 위해 승격됩니다. 보안 **기본 설정 열기 를 선택합니다.**
 
-    ![시스템 확장 승인](images/big-sur-install-2.png)
+    ![시스템 확장 승인.](images/big-sur-install-2.png)
 
 4. 보안 및 **개인 & 창에서** 허용을 **선택합니다.**
 
-    ![시스템 확장 보안 기본 설정1](images/big-sur-install-3.png)
+    ![시스템 확장 보안 기본 설정1.](images/big-sur-install-3.png)
 
 5. Mac의 끝점용 Microsoft Defender와 함께 배포된 모든 시스템 확장에 대해 & 4단계를 반복합니다.
 
 6. 끝점 검색 및 응답 기능의 일부로 Mac의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft 365 Defender 포털에 보고합니다. 네트워크 트래픽을 필터링할 수 있는 끝점에 대한 Microsoft Defender 사용 권한을 부여하라는 메시지가 표시될 때 허용을 **선택합니다.**
 
-    ![시스템 확장 보안 기본 설정2](images/big-sur-install-4.png)
+    ![시스템 확장 보안 기본 설정2.](images/big-sur-install-4.png)
 
 7. 시스템 **기본 설정** 보안 & 개인 정보 보호 탭으로  >   이동합니다. Microsoft Defender ATP 및 **Microsoft Defender ATP**  끝점 보안 확장에 모든 디스크 액세스 권한을 **부여합니다.** 
 
-    ![전체 디스크 액세스](images/big-sur-install-5.png)
+    ![전체 디스크 액세스.](images/big-sur-install-5.png)
 
 ## <a name="client-configuration"></a>클라이언트 구성
 
@@ -141,7 +141,7 @@ ms.locfileid: "53902950"
     설치 후 오른쪽 위 모서리의 macOS 상태 표시줄에 Microsoft Defender 아이콘이 표시됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![상태 표시줄의 Microsoft Defender 아이콘 스크린샷](images/mdatp-icon-bar.png)
+    > ![상태 표시줄 스크린샷의 Microsoft Defender 아이콘](images/mdatp-icon-bar.png)
 
 ## <a name="how-to-allow-full-disk-access"></a>전체 디스크 액세스를 허용하는 방법
 

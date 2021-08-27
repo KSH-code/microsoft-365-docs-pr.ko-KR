@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 618ead20e8ce9fb3772fb86bb5f4687cd2026552342f8e8cdd975423cfda051d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3bf6d527092a4dc5ed340a2d9548fea41d875d31
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53810456"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561257"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션
 
@@ -141,7 +141,7 @@ Microsoft 365 Defender 포털의 사용자 지정 검색 규칙에 의해 생성
 - 사용자 지정 검색 규칙에 대한 정보 
  
 > [!div class="mx-imgBorder"]
-> ![새 경고 페이지의 이미지](../../media/new-alert-page.png)
+> ![새 경고 페이지의 이미지입니다.](../../media/new-alert-page.png)
 
 ## <a name="write-queries-without-devicealertevents"></a>DeviceAlertEvents 없이 쿼리 쓰기
 

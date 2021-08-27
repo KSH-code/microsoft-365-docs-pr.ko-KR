@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: de33384b6292fecc502e958385c2286b255002b1
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 708ae221a020b8d6410b35a1db538d5ad50aba48
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533066"
+ms.locfileid: "58571870"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -35,11 +35,11 @@ ms.locfileid: "58533066"
 
 **적용 대상**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806) 
 
 끝점 보호 솔루션에서 가짓 긍정은 엔터티가 실제로 위협이 아닌 경우에도 악성으로 검색되고 식별된 파일 또는 프로세스와 같은 엔터티입니다. 거짓 부정은 실제로 악의적이어도 위협으로 검색되지 않은 엔터티입니다. 끝점용 Microsoft Defender를 포함하여 모든 위협 방지 솔루션에서 [가긍성/부정이](microsoft-defender-endpoint.md)발생할 수 있습니다.
 
-![끝점용 Defender의 가짓 긍정 및 음수 정의](images/false-positives-overview.png)
+![끝점용 Defender의 가극적 및 음수 정의](images/false-positives-overview.png)
 
 다행히 이러한 종류의 문제를 해결하고 줄이기 위한 단계를 수행하면 됩니다. Microsoft 365 Defender(이전의 Microsoft Defender 보안 센터)에 가음성/부정이 표시될 경우 보안 운영에서 다음 프로세스를 사용하여 이를 해결하기 위한 단계를 취할 수 있습니다. [](microsoft-defender-security-center.md)
 
@@ -51,7 +51,7 @@ ms.locfileid: "58533066"
 
 이 문서에 설명된 작업을 수행한 후에도 여전히 가짓 긍정/음의 문제가 있는 경우 도움을 받을 수 있습니다. 도움이 [필요한 경우를 참조하세요.](#still-need-help)
 
-![가음성 및 부정을 해결하기 위한 단계](images/false-positives-step-diagram.png)
+![가음성 및 부정을 해결하기 위한 단계입니다.](images/false-positives-step-diagram.png)
 
 > [!NOTE]
 > 이 문서는 [끝점용 Microsoft Defender를](microsoft-defender-endpoint.md)사용하는 보안 운영자 및 보안 관리자를 위한 지침입니다.
@@ -166,7 +166,7 @@ ms.locfileid: "58533066"
 ### <a name="remove-a-file-from-quarantine-across-multiple-devices"></a>여러 장치에서 파일 제거
 
 > [!div class="mx-imgBorder"]
-> ![파일 격리](images/autoir-quarantine-file-1.png)
+> ![파일을 Quarantine file.](images/autoir-quarantine-file-1.png)
 
 1. 포털의 왼쪽 탐색 창에서 Microsoft 365 Defender **센터를 클릭합니다.**
 
@@ -260,7 +260,7 @@ ms.locfileid: "58533066"
 - [IP 주소, URL 및 도메인](#indicators-for-ip-addresses-urls-or-domains)
 - [응용 프로그램 인증서](#indicators-for-application-certificates)
 
-![지표 유형 다이어그램](images/false-positives-indicators.png)
+![표시기 유형 다이어그램.](images/false-positives-indicators.png)
 
 #### <a name="indicators-for-files"></a>파일에 대한 표시기
 

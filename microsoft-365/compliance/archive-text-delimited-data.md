@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 커넥터를 설정하여 Veritas에서 텍스트로 나타났다가 텍스트로 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 해당 커넥터에 Microsoft 365. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: fa4a3ed6e03f20c4fe63ceb9019620a76e943d963a583062193d5c1dc78c669f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0e80454f3de77463e26936b9e49aaf2038dc2f8d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796316"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561461"
 ---
 # <a name="set-up-a-connector-to-archive-text-delimited-data"></a>텍스트로분된 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "53796316"
 
 다음 개요에서는 커넥터를 사용하여 텍스트로분된 원본 정보를 커넥터에 보관하는 프로세스에 대해 Microsoft 365.
 
-![텍스트로분된 데이터에 대한 보관 워크플로](../media/TextDelimitedConnectorWorkflow.png)
+![텍스트로분된 데이터에 대한 보관 워크플로입니다.](../media/TextDelimitedConnectorWorkflow.png)
 
 1. 조직은 텍스트로 구성된 원본과 함께 작업하여 텍스트로 구성된 사이트를 설정하고 구성합니다.
 

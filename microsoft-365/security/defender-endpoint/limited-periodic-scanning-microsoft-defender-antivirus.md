@@ -15,12 +15,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: dcf83a4f90c896ce56a3f5b2fd6430eeb9c939bf2b564a5081ae063d01898a79
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c079718ea7c8dab8c8c6423fcc5877e14a1dc078
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806922"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571811"
 ---
 # <a name="use-limited-periodic-scanning-in-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신에서 제한된 주기적 검사 사용
 
@@ -43,7 +43,7 @@ ms.locfileid: "53806922"
 
 이 Microsoft Defender 바이러스 백신 사용하도록 설정하면 해당 장치에서 구성하는 일반 옵션이 표시됩니다.
 
-![Windows 보안 옵션, 설정 및 업데이트 옵션을 포함하여 Microsoft Defender AV 옵션을 보여 줄 수 있는 앱](images/vtp-wdav.png)
+![Windows 보안 옵션, 설정 및 업데이트 옵션을 포함하여 Microsoft Defender AV 옵션을 보여주는 앱입니다.](images/vtp-wdav.png)
 
 다른 바이러스 백신 제품이 설치 및 작동하면 Microsoft Defender 바이러스 백신 사용하지 않도록 설정됩니다. Windows 보안 앱은 **바이러스** & 위협 방지 섹션을 변경하여 AV 제품에 대한 상태를 표시하고 제품의 구성 옵션에 대한 링크를 제공합니다.
 

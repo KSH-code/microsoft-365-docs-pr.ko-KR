@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Windows 테넌트의 Windows, Office 클라이언트 앱 및 Office 서버를 Microsoft 365 마이그레이션합니다.
-ms.openlocfilehash: 9bef3b3128a43c75f5f465d22c82b0bc4431b53b7a86059dfc09ba982e4f94fd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9570a34c1c1884452ee9090ca0b7d280411e0016
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53798558"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571582"
 ---
 # <a name="step-4-migration-for-your-microsoft-365-for-enterprise-tenants"></a>4단계. 엔터프라이즈 테넌트에 Microsoft 365 마이그레이션
 
@@ -98,6 +98,6 @@ Microsoft 365 엔터프라이즈용 버전에는 웹 브라우저 및 Outlook �
 
 ## <a name="next-step"></a>다음 단계
 
-[![5단계. 장치 및 앱 관리 배포](../media/tenant-management-overview/tenant-management-step-grid-device-mgmt.png)](tenant-management-device-management.md)
+[![5단계. 장치 및 앱 관리를 배포합니다.](../media/tenant-management-overview/tenant-management-step-grid-device-mgmt.png)](tenant-management-device-management.md)
 
 장치 및 [앱 관리를 계속하여](tenant-management-device-management.md) 장치 및 앱 관리를 배포합니다.

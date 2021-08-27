@@ -23,12 +23,12 @@ f1.keywords:
 - NOCSH
 description: 지원이 곧 종료되어 사용자 지정 지원 계약을 사용할 수 없는 Office 2010 서버 및 클라이언트 응용 프로그램에서 업그레이드 계획을 세우기 시작하십시오.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15d70ba1a090af9c378f7a041313620703c2a667
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: f4f90a34bd4f6c4585cc8900b11808a11f4a2947
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571918"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2010-servers-and-clients"></a>Office 2010 서버 및 클라이언트 업그레이드에 도움이 되는 리소스
 
@@ -46,7 +46,7 @@ Office 2010 및 Exchange 2010년 **10월 13일** 지원이 종료됩니다.
 
 Office 2010 클라이언트 및 서버 및 Windows 7에 대한 업그레이드, 마이그레이션 및 클라우드로 이동 옵션에 대한 시각적 [](../downloads/Office2010Windows7EndOfSupport.pdf)요약은 지원 종료 포스터 를 참조하세요.
 
-[![Office 2010 클라이언트 및 서버 및 Windows 포스터 지원 종료](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![2010 클라이언트 및 Office 지원 종료 및 Windows 7 포스터.](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
 이 한 페이지 포스터에는 Office 2010 클라이언트 및 서버 제품 및 Windows 7에서 지원 종료를 처리하는 데 사용할 수 있는 다양한 경로가 요약되어 있습니다. 기본 경로 및 옵션 지원은 Microsoft 365 Enterprise 강조 표시됩니다.
 

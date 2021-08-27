@@ -20,12 +20,12 @@ ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 ms.custom:
 - seo-marvel-apr2020
 description: eDiscovery 사례와 연결된 모든 보류에 대한 정보가 포함된 보고서를 생성하는 방법을 학습합니다.
-ms.openlocfilehash: 2a169290743c21c947edbb600f00b64a68d8cee2
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 5ccb74960a7b0d051b0c7754710f35e81b3edae0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507617"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572050"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases"></a>EDiscovery 사례의 보존 보고서 만들기
 
@@ -160,7 +160,7 @@ Security & Compliance Center PowerShell에 연결한 후 다음 단계는 조직
 
    다음은 CaseHoldsReport.ps1 실행의 예입니다.
 
-   ![스크립트를 실행한 CaseHoldsReport.ps1 출력](../media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
+   ![스크립트를 실행한 CaseHoldsReport.ps1 출력입니다.](../media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
 
 ## <a name="more-information"></a>추가 정보
 

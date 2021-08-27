@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 1511a31dfd7c86d24f3a91ceebfca65d1ce777e3
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.openlocfilehash: 7712500caf2e30d6ecdb8146ecfa4173e087f154
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365072"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611150"
 ---
 # <a name="get-domain-related-alerts-api"></a>도메인 관련 알림 API를 얻습니다.
 
@@ -37,43 +37,43 @@ ms.locfileid: "58365072"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 ## <a name="api-description"></a>API 설명
+
 지정한 도메인 주소와 관련된 [Alerts](alerts.md) 컬렉션을 검색합니다.
 
-
 ## <a name="limitations"></a>제한 사항
+
 1. 구성된 보존 기간에 따라 마지막으로 업데이트된 경고에 대해 쿼리할 수 있습니다.
 2. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
-사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
-응용 프로그램 |   Alert.Read.All |    '모든 경고 읽기'
-응용 프로그램 |   Alert.ReadWrite.All |   '모든 경고 읽기 및 쓰기'
-위임(직장 또는 학교 계정) | Alert.Read | '경고 읽기'
-위임(직장 또는 학교 계정) | Alert.ReadWrite | '경고 읽기 및 쓰기'
+응용 프로그램|Alert.Read.All|'모든 경고 읽기'
+응용 프로그램|Alert.ReadWrite.All|'모든 경고 읽기 및 쓰기'
+위임(직장 또는 학교 계정)|Alert.Read|'경고 읽기'
+위임(직장 또는 학교 계정)|Alert.ReadWrite|'경고 읽기 및 쓰기'
 
 > [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
 >
 > - 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
->- 응답에는 장치 그룹 설정에 따라 사용자가 액세스할 수 있는 알림만 포함됩니다(자세한 내용은 장치 그룹 [만들기](machine-groups.md) 및 관리 참조).
+> - 응답에는 장치 그룹 설정에 따라 사용자가 액세스할 수 있는 알림만 포함됩니다(자세한 내용은 장치 그룹 [만들기](machine-groups.md) 및 관리 참조).
 
 ## <a name="http-request"></a>HTTP 요청
+
 ```http
 GET /api/domains/{domain}/alerts
 ```
 
 ## <a name="request-headers"></a>요청 헤더
 
-| 헤더        | 값  |
-|:--------------|:-------|
-| 권한 부여 | String |
+|헤더|값|
+|---|---|
+|권한 부여|문자열|
 
 ## <a name="request-body"></a>요청 본문
 

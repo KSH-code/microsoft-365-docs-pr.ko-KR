@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 03bae05ba35b8ee332fbbb1083aa4a5763fc1cf4
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: d1a0b8af6dbf725623986582f5ee8e0b3912f0b5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507725"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561293"
 ---
 # <a name="device-control-printer-protection"></a>장치 제어 프린터 보호
 
@@ -88,7 +88,7 @@ Intune의 경우 현재 장치 제어 프린터 보호는 OMA-URI만 지원됩�
 
 CSP 지원 문자열은 `<enabled/>` 입니다.
 
-:::image type="content" source="../../media/customeditrow.png" alt-text="사용자 지정 편집 행":::
+:::image type="content" source="../../media/customeditrow.png" alt-text="사용자 지정 편집 행.":::
 
 ### <a name="scenario-2-allow-specific-approved-usb-printers-using-intune"></a>시나리오 2: Intune을 사용하여 승인된 특정 USB 프린터 허용
 
@@ -102,7 +102,7 @@ CSP 지원 문자열은 `<enabled/>` 입니다.
 
 'ApprovedUsbPrintDevices' 속성을 통해 승인된 USB 프린터가 있는 CSP 지원 문자열(예: `<enabled><data id="ApprovedUsbPrintDevices_List" value="03F0/0853,0351/0872">` :
 
-:::image type="content" source="../../media/editrow.png" alt-text="행 편집":::
+:::image type="content" source="../../media/editrow.png" alt-text="행을 편집합니다.":::
 
 ## <a name="deploy-policy-via-group-policy"></a>그룹 정책을 통해 정책 배포
 
@@ -118,7 +118,7 @@ CSP 지원 문자열은 `<enabled/>` 입니다.
 
   사용자 구성 \> 관리 템플릿 \> 제어판 프린터: 장치 제어 인쇄 제한 \> 사용
 
-:::image type="content" source="../../media/enable-device-ctrl-printing-restrictions.png" alt-text="장치 인쇄 제한 사용":::
+:::image type="content" source="../../media/enable-device-ctrl-printing-restrictions.png" alt-text="디바이스 인쇄 제한을 사용하도록 설정":::
 
 ### <a name="scenario-2-allow-specific-approved-usb-printers-using-group-policy"></a>시나리오 2: 그룹 정책을 사용하여 승인된 특정 USB 프린터 허용
 
@@ -130,7 +130,7 @@ CSP 지원 문자열은 `<enabled/>` 입니다.
 
   사용자 구성 \> 관리 템플릿 \> 제어판 \> 프린터: 승인된 USB 연결 인쇄 장치 목록
 
-:::image type="content" source="../../media/list-of-approved-connected-print-devices.png" alt-text="승인된 USB 연결 인쇄 장치 목록":::
+:::image type="content" source="../../media/list-of-approved-connected-print-devices.png" alt-text="승인된 USB 연결 인쇄 장치 목록입니다.":::
 
 ## <a name="view-device-control-printer-protection-data-in-microsoft-defender-for-endpoint-portal"></a>끝점 포털용 Microsoft Defender에서 장치 제어 프린터 보호 데이터 보기
 
@@ -148,7 +148,7 @@ DeviceEvents
 | order by Timestamp desc
 ```
 
- :::image type="content" source="../../media/device-control-advanced-hunting.png" alt-text="고급 헌팅":::
+ :::image type="content" source="../../media/device-control-advanced-hunting.png" alt-text="고급 헌팅.":::
  
  PnP 이벤트를 사용하여 조직에서 사용되는 USB 프린터를 찾을 수 있습니다.
  

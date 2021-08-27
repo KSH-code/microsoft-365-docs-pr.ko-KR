@@ -16,12 +16,12 @@ ms.collection:
 description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 가지고 있는 내용을 이해하고 속성을 보호하는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 471817772327a761e1903d0074c41ad3a4bd5fbac1ddb501b2d8887e35d51b34
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8ef88d80a4d02a51055c9bfe338617b04162888a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571966"
 ---
 # <a name="office-365-security"></a>Microsoft 365 보안
 
@@ -58,7 +58,7 @@ EOP에서 제공하는 핵심 보호를 위한 Office 365 보안 빌드입니다
 
 그러나 아키텍처 측면에서 각 부분을 보안에 중점을 둔 누적 보안 계층으로 생각하여 시작해 봅시다. 다음과 더 비슷합니다.
 
-<!--:::image type="content" source="../../media/tp-EOPATPStack.PNG" alt-text="Placeholder graphic":::-->
+<!--:::image type="content" source="../../media/tp-EOPATPStack.PNG" alt-text="Placeholder graphic.":::-->
 
 :::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="EOP 및 Office 365용 Microsoft Defender와 전자 메일 인증에 대한 참고 사항을 포함하여 서비스에 중점을 둔 상호 관계 ":::
 

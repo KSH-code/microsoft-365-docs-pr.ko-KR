@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: AD RMS(Active Directory Rights Management Service) 서버를 사용하도록 Exchange Online IRM(정보 권한 관리)을 구성하는 방법을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d2685994e35f88d92ab6b6854e88607cd84f153692a22f29c966e701f8d30f4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 64d89d52b4e835c81ed1e2c8bbd54eaaae6f1823
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830834"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572062"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
 
@@ -168,4 +168,4 @@ TPD를 가져오고 IRM을 사용하도록 설정했는지 확인하려면 다�
 
 - **Test-IRMConfiguration** cmdlet을 사용하여 IRM 기능을 테스트합니다. 자세한 내용은 [Test-IRMConfiguration의](/powershell/module/exchange/test-irmconfiguration)"예제 1"을 참조합니다.
 
-- 확장된 메뉴에서 웹용 Outlook 설정 옵션을 선택하여 새 메시지를 작성하고 IRM으로 보호합니다. 확장 메뉴(추가 옵션  ![ 아이콘)에서 사용 권한 설정 옵션을 선택합니다. ](../media/ITPro-EAC-MoreOptionsIcon.gif)
+- 확장된 메뉴에서 웹용 Outlook 설정 옵션을 선택하여 새 메시지를 작성하고 IRM으로 보호합니다( 추가 옵션  ![ ](../media/ITPro-EAC-MoreOptionsIcon.gif) 아이콘).

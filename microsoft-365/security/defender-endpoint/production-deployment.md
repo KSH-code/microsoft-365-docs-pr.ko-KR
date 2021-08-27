@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e2d2addf5195f52eac94c22453e8cef08a4c6cc18bd3a21b6178bca527cc8038
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4fff8c3f461a84d7bb6616c2264120a4c8fcd0ef
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571822"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 설정
 
@@ -39,7 +39,7 @@ ms.locfileid: "53894190"
 
 끝점용 Defender 배포는 3단계 프로세스입니다.
 
-|[![배포 단계 - 준비](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[1 단계: 준비](prepare-deployment.md) | ![배포 단계 - 설정](images/phase-diagrams/setup.png)<br>2 단계: 설정 | [![배포 단계 - 온보드](images/phase-diagrams/onboard.png)](onboarding.md)<br>[3 단계: 온보딩](onboarding.md)|
+|[![배포 단계 - 준비.](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[1 단계: 준비](prepare-deployment.md) | ![배포 단계 - 설정](images/phase-diagrams/setup.png)<br>2 단계: 설정 | [![배포 단계 - 온보드](images/phase-diagrams/onboard.png)](onboarding.md)<br>[3 단계: 온보딩](onboarding.md)|
 |---|---|---|
 ||*여기 있습니다!*||
 
@@ -60,13 +60,13 @@ ms.locfileid: "53894190"
 
 1. 라이선스를 확인하기 위해 Microsoft Azure **포털로** 이동하여 Microsoft Azure 포털 라이선스 섹션으로 [이동합니다.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products)
 
-   ![Azure 라이선스 페이지의 이미지](images/atp-licensing-azure-portal.png)
+   ![Azure 라이선스 페이지의 이미지입니다.](images/atp-licensing-azure-portal.png)
 
 1. 또는 관리 센터에서 청구 **구독으로**  >  **이동합니다.**
 
     화면에 프로비전된 모든 라이선스 및 해당 현재 상태가 **표시됩니다.**
 
-    ![청구 라이선스 이미지](images/atp-billing-subscriptions.png)
+    ![청구 라이선스의 이미지입니다.](images/atp-billing-subscriptions.png)
 
 ## <a name="cloud-service-provider-validation"></a>클라우드 서비스 공급자 유효성 검사
 
@@ -76,7 +76,7 @@ ms.locfileid: "53894190"
 
 2. 파트너 포털 **링크를** 클릭하면 관리자  대신 관리 옵션이 열리며 고객 관리 센터에 액세스할 수 있습니다.
 
-   ![O365 관리 포털의 이미지](images/atp-O365-admin-portal-customer.png)
+   ![O365 관리 포털의 이미지입니다.](images/atp-O365-admin-portal-customer.png)
 
 ## <a name="tenant-configuration"></a>테넌트 구성
 
@@ -113,13 +113,13 @@ ms.locfileid: "53894190"
 2. 조직 관행에 따라 정책을 만들거나 기존 정책을 편집합니다.
 3. 그룹 정책을 편집하고 관리 템플릿 Windows 데이터 수집 및 Preview 빌드 연결된 사용자 환경 및 원격 분석 서비스에 대해 인증된 프록시 사용 구성 으로 **\> \> \> 이동합니다.** 
 
-   ![그룹 정책 구성 이미지](images/atp-gpo-proxy1.png)
+   ![그룹 정책 구성의 이미지입니다.](images/atp-gpo-proxy1.png)
 
 4. **사용하도록 설정** 을 선택합니다.
 5. 인증된 **프록시 사용 안 을 선택합니다.**
 6. 관리 템플릿 구성 요소 Windows 및 Preview 빌드 연결된 사용자 환경 및 원격 분석 구성으로 **\> \> \> 이동합니다.**
 
-    ![그룹 정책 구성 설정의 이미지](images/atp-gpo-proxy2.png)
+    ![그룹 정책 구성 설정의 이미지입니다.](images/atp-gpo-proxy2.png)
 
 7. **사용하도록 설정** 을 선택합니다.
 8. 프록시 서버 **이름을 입력합니다.**
@@ -175,7 +175,7 @@ v20이 포함된 URL은 버전 1803 이상을 Windows 10 있는 경우 필요합
 
 |도메인 목록의 스프레드시트|설명|
 |---|---|
-|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> [여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)|
+|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지입니다.](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> [여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)|
 |
 
 ### <a name="microsoft-defender-for-endpoint-service-backend-ip-ranges"></a>Microsoft Defender for Endpoint Service 백 엔드 IP 범위
@@ -202,4 +202,4 @@ Azure IP 범위 및 서비스 태그 - 공용 클라우드에서 [Azure IP 범�
 
 ## <a name="next-step"></a>다음 단계
 
-![**3단계: 온보더**](images/onboard.png) <br> [3단계: 끝점용](onboarding.md)Microsoft Defender 서비스가 센서 데이터를 얻을 수 있도록 장치에 서비스를 온보딩합니다.
+![**3단계: 온보더**.](images/onboard.png) <br> [3단계: 끝점용](onboarding.md)Microsoft Defender 서비스가 센서 데이터를 얻을 수 있도록 장치에 서비스를 온보딩합니다.

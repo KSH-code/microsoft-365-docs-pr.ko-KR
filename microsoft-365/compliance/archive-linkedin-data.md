@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 관리자가 기본 커넥터를 사용하여 LinkedIn 회사 & 데이터를 가져오는 방법을 Microsoft 365.
-ms.openlocfilehash: 950647d1795e63763631c06a949cf05843420f34a2bc451886eacc88649ddb75
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2d34a424b11c9489d54a87bfb9f81de9a74ed5e6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861027"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571498"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>LinkedIn 데이터를 보관할 커넥터 설정
 
@@ -48,7 +48,7 @@ LinkedIn 회사 페이지 데이터가 사서함에 저장되고 나면 소송 �
 
    LinkedIn 로그인 페이지가 표시됩니다.
 
-   ![LinkedIn 로그인 페이지](../media/LinkedInSigninPage.png)
+   ![LinkedIn 로그인 페이지.](../media/LinkedInSigninPage.png)
 
 5. LinkedIn 로그인 페이지에서 보관할 회사 페이지와 연결된 LinkedIn 계정의 전자 메일 주소(또는 전화 번호)와 암호를 입력한 다음 **로그인을 클릭합니다.**
 

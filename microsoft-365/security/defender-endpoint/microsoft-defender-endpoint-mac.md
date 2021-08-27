@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 81c64c7a73a7d298c4468f5c7735ee3e16cf55ac630e502364170b71a1b32a5e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b7f884fa55d0f3514aae36761642e2589d1ea51e
+ms.sourcegitcommit: fce9a89b8280f41779835b18dceb59fa17384acf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894218"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58666769"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender
 
@@ -87,7 +87,7 @@ macOS의 가장 최근 주요 릴리스 3개가 지원됩니다.
 
 MacOS의 베타 버전은 지원되지 않습니다.
 
-M1 프로세서가 있는 macOS 장치는 지원되지 않습니다.
+M1 칩 기반 프로세서가 있는 macOS 장치에 대한 지원은 현재 미리 보기로 제공됩니다.
 
 서비스를 사용하도록 설정한 후 네트워크 또는 방화벽에서 해당 서비스 및 끝점 간의 아웃바운드 연결을 허용하도록 구성해야 할 수 있습니다.
 
@@ -111,7 +111,7 @@ Mac의 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선싱 �
 
 |도메인 목록의 스프레드시트|설명|
 |---|---|
-|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> 여기에서 스프레드시트를 [다운로드합니다.mdatp-urls.xlsx. ](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
+|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지입니다.](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> 여기에서 스프레드시트를 [다운로드합니다.mdatp-urls.xlsx. ](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 
 끝점용 Microsoft Defender는 다음 검색 방법을 사용하여 프록시 서버를 검색할 수 있습니다.
 

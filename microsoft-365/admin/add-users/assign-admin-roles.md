@@ -28,12 +28,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 사용자가 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에게 관리자 역할을 할당하는 방법을 설명합니다.
-ms.openlocfilehash: 55eaf8f37a61e12ec57b386a509dfddf2ca05ff8
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 0eeafd8c91a9430db09713902fb55d9491dcac8d
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347003"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585669"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -47,7 +47,7 @@ Microsoft 비즈니스 구독을 구입한 사람인 경우 전역 관리자입�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="assign-admin-roles"></a>관리자 역할 할당 
 
@@ -107,6 +107,6 @@ PowerShell을 알고 있는 경우 PowerShell을 통해 사용자 계정에 역�
 ## <a name="related-content"></a>관련 콘텐츠
 
 [Microsoft 365 관리자 역할 정보](about-admin-roles.md)(문서)\
-[Azure Active Directory 관리자](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 역할 권한(문서)\
+[Azure AD 기본 제공](/azure/active-directory/roles/permissions-reference) 역할(문서)\
 [PowerShell을 통해](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) 사용자 계정에 역할 할당(문서)\
 [파트너 관계 승인 또는](../misc/add-partner.md) 제거(문서)

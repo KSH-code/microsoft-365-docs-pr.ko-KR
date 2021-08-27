@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 2adc733247ddfe9570b02c197e18b02bcf500921
-ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
+ms.openlocfilehash: 9415b7aa8e258264095de41a7f820751d3794a13
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58387047"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571990"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -166,7 +166,7 @@ ms.locfileid: "58387047"
   
 예를 들어 작업이 없는 "나중에 검토"라는 보존 레이블을 만들고 적용한 다음 해당 레이블을 사용하여 나중에 해당 콘텐츠를 찾을 수 있습니다.
   
-![분류 전용으로 레이블 설정](../media/retention-label-retentionoff.png)
+![분류 전용으로 레이블 설정.](../media/retention-label-retentionoff.png)
 
 #### <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>보존 레이블을 DLP 정책의 조건으로 사용하기
 
@@ -182,7 +182,7 @@ SharePoint의 문서에 대한 DLP(데이터 손실 방지) 정책에서 보존 
 
 2. 보존 레이블 정책이 보존 레이블을 게시할 위치를 지정합니다. 동일한 위치가 여러 보존 레이블 정책에 포함될 수 있습니다.
 
-![위치를 지정하는 레이블 정책에 보존 레이블을 추가하는 방법](../media/retention-labels-and-policies.png)
+![위치를 지정하는 레이블 정책에 보존 레이블을 추가하는 방법.](../media/retention-labels-and-policies.png)
 
 또한 단일 보존 레이블을 사용하여 하나 이상의 **보존 레이블 자동 적용 정책** 을 만들 수 있습니다. 이 정책을 사용하면 정책에서 지정하는 조건이 충족될 경우 보존 레이블이 자동으로 적용됩니다.
 
@@ -238,7 +238,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
 
 콘텐츠 검색을 만들 때 **보존 레이블** 조건을 선택한 다음 보존 레이블 이름을 전체 또는 일부만 입력하고 와일드 카드를 사용합니다. 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
   
-![보존 레이블 조건](../media/retention-label-condition.png)
+![보존 레이블 조건.](../media/retention-label-condition.png)
 
 
 ## <a name="compare-capabilities-for-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블의 기능 비교하기
@@ -295,7 +295,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
 > [!IMPORTANT]
 > 보존 레이블을 사용하는 경우 다음을 수행합니다. 원칙을 적용하여 동일한 항목에 대한 여러 보존 설정의 결과를 결정하기 전에 [적용되는 보존 레이블](#only-one-retention-label-at-a-time)을 알고 있어야 합니다.
 
-![보존 원칙 다이어그램](../media/principles-of-retention.png)
+![보존 원칙 다이어그램.](../media/principles-of-retention.png)
 
 각 원칙을 자세히 설명하기 전에 항목의 보존 기간과 보존 정책 또는 보존 레이블에 지정된 보존 기간의 차이점을 이해하는 것이 중요합니다. 기본 구성은 항목이 생성될 때 보존 기간을 시작하여 항목에 대한 보존 기간 종료가 고정되어 있지만, 파일은 파일이 마지막으로 수정된 시점부터 보존 기간을 시작하는 구성도 지원하기 때문입니다. 이 대체 구성을 사용하면 파일이 수정될 때마다 보존 기간의 시작이 다시 설정되어 항목의 보존 기간이 종료가 연장됩니다. 보존 레이블은 레이블이 지정된 때와 이벤트 시작 시 보존 기간을 시작하는 것도 지원합니다.
 

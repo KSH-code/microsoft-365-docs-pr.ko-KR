@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: 서비스 응용 SharePoint Syntex 사용하여 계약 파일을 식별하고 솔루션 솔루션을 사용하여 데이터를 추출하는 Microsoft 365 방법을 알아보십시오.
-ms.openlocfilehash: d26a11edfbfadfa9b8905e9cb7643cfefeef9b1e1f6e7e0516c50305fe974d71
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f6097a7573037f8efc2467bb3a9f1037a12bf7ef
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53859528"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561425"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>1단계. 사용자 SharePoint Syntex 사용하여 계약 파일을 식별하고 데이터 추출
 
@@ -81,7 +81,7 @@ ms.locfileid: "53859528"
 
 3. 왼쪽의 **레이블이 붙은** 예제 목록에서 예제로 사용할 다른 파일을 선택하고 레이블을 지정합니다. 
 
-    ![분류자 홈페이지](../media/content-understanding/models-contract-classifier.png) 
+    ![분류자 홈페이지.](../media/content-understanding/models-contract-classifier.png) 
 
 #### <a name="add-at-least-one-explanation-to-train-the-classifier&quot;></a>분류자 교육을 위해 하나 이상의 설명 추가 
 
@@ -111,7 +111,7 @@ ms.locfileid: "53859528"
 
 2. 테스트 **파일 목록에서** 예제 파일은 모델에서 양수 또는 음수로 예측한 파일을 표시하고 표시합니다. 이 정보를 사용하여 문서를 식별하는 데 필요한 분류자의 효율성을 알아낼 수 있습니다.
 
-    ![텍스트 파일 목록에 있는 표시되지 않은 파일의 스크린샷](../media/content-understanding/test-on-files.png) 
+    ![Screenshot of the unlabeled files in the Text Files list.](../media/content-understanding/test-on-files.png) 
 
 3. 완료되면 교육 **종료 를 선택합니다.**
 

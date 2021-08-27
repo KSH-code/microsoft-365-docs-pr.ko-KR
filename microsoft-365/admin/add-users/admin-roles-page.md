@@ -21,27 +21,27 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리자 역할은 비즈니스 기능에 매핑되어 관리 센터에서 특정 작업을 수행할 수 있는 권한을 제공합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: 5e1555d022801eb59bf4a4996c12c95e25037efbde9314e1157b06fa793a1ae2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f0dc528814c47bca618c7df3462bb0d7bcdb55fe
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53815939"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585645"
 ---
 # <a name="get-started-with-the-roles-page"></a>역할 페이지 시작
 
 역할 페이지에서 관리 센터에서 작업을 수행할 수 있는 권한을 사용자에게 부여할 수 있습니다. 이렇게 하면 조직에서 작업을 적절한 사용자로 분산하고 데이터를 안전하게 유지하는 데 도움이 됩니다.
 
-![관리자 역할을 보여 주는 그림](../../media/roles-main-page.png)
+![관리자 역할을 보여 주는 그림입니다.](../../media/roles-main-page.png)
 
 > [!TIP]
-> 자세한 역할 설명을 찾고 계신가요? Azure Active Directory 관리자 [역할에](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 대한 관리자 역할 권한을 [확인 합니다.](/microsoft-365/admin/add-users/about-admin-roles)
+> 자세한 역할 설명을 찾고 계신가요? Azure [AD 기본 제공 역할](/azure/active-directory/roles/permissions-reference) 및 [관리자 역할 정보를 확인 합니다.](/microsoft-365/admin/add-users/about-admin-roles)
 
 ## <a name="about-the-admin-roles-page"></a>관리자 역할 페이지
 
 역할에 따라 검색 및 필터링뿐만 아니라 관리자 목록을 내보낼 수 있습니다.
 
-![관리자 역할 필터링 또는 가져오기](../../media/admin-role-page-options.png)
+![관리자 역할을 필터링하거나 가져오기.](../../media/admin-role-page-options.png)
 
 - 관리자 목록 내보내기 를 사용하여 조직의 모든 관리자 사용자의 전체 목록을 얻습니다. 목록은 Excel .csv 저장됩니다.
 
@@ -59,11 +59,11 @@ ms.locfileid: "53815939"
 
 ### <a name="exchange-admin"></a>Exchange 관리자
 
-사용자의 Exchange 사서함, 그룹 및 사용자 지정 사서함을 보고 관리해야 하는 Microsoft 365 관리자 역할을 Exchange Online. 또한 Microsoft 지원 서비스에 대한 서비스 요청을 열고 관리할 수 있습니다. [자세한 정보](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
+사용자의 Exchange 사서함, 그룹 및 사용자 지정 사서함을 보고 관리해야 하는 Microsoft 365 관리자 역할을 Exchange Online. 또한 Microsoft 지원에 대한 지원 요청을 열고 관리할 수 있습니다. [자세한 정보](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
 
 ### <a name="global-admin"></a>전역 관리자
 
-Microsoft 온라인 서비스에서 대부분의 관리 기능 및 데이터에 대한 전역 액세스 권한이 필요한 사용자에게 전역 관리자 역할을 할당합니다. 사용자에게 너무 많은 전역 액세스 권한을 부여 하는 것은 보안상 위험하며 2~4명의 전역 관리자를 사용하는 것이 좋습니다. 전역 관리자만 모든 사용자의 암호를 재설정하고 도메인을 추가 및 관리할 수 있습니다. 또한 Microsoft 지원에 대한 서비스 요청을 열고 관리할 수 있습니다. Microsoft 온라인 서비스에 등록한 사용자가 자동으로 전역 관리자가 [됩니다. 자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Microsoft 온라인 서비스에서 대부분의 관리 기능 및 데이터에 대한 전역 액세스 권한이 필요한 사용자에게 전역 관리자 역할을 할당합니다. 사용자에게 너무 많은 전역 액세스 권한을 부여 하는 것은 보안상 위험하며 2~4명의 전역 관리자를 사용하는 것이 좋습니다. 전역 관리자만 모든 사용자의 암호를 재설정하고 도메인을 추가 및 관리할 수 있습니다. 또한 Microsoft 지원에 대한 지원 요청을 열고 관리할 수 있습니다. Microsoft 온라인 서비스에 등록한 사용자가 자동으로 전역 관리자가 [됩니다. 자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ### <a name="global-reader"></a>전역 읽기 권한자
 
@@ -71,23 +71,23 @@ Microsoft 온라인 서비스에서 대부분의 관리 기능 및 데이터에 
 
 ### <a name="helpdesk-admin"></a>헬프데스크 관리자
 
-암호를 다시 설정하려는 사용자에게 헬프데스크 관리자 역할을 할당하고 사용자가 보안 문제에 대해 강제로 로그인해야 합니다. 또한 Microsoft 지원 서비스에 대한 서비스 요청을 열고 관리할 수 있습니다. 헬프데스크 관리자는 관리자가 아닌 사용자와 디렉터리 읽기 관리자, 게스트 초대자, 헬프데스크 관리자, 메시지 센터 읽기 관리자 및 보고서 판독기 역할이 할당된 사용자만 지원할 수 있습니다. [자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+암호를 다시 설정하려는 사용자에게 헬프데스크 관리자 역할을 할당하고 사용자가 보안 문제에 대해 강제로 로그인해야 합니다. 또한 Microsoft 지원에 대한 지원 요청을 열고 관리할 수 있습니다. 헬프데스크 관리자는 관리자가 아닌 사용자와 디렉터리 읽기 관리자, 게스트 초대자, 헬프데스크 관리자, 메시지 센터 읽기 관리자 및 보고서 판독기 역할이 할당된 사용자만 지원할 수 있습니다. [자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ### <a name="service-admin"></a>서비스 관리자
 
-Azure, 서비스 및 서비스 서비스에 대한 서비스 요청을 만들어야 하는 Microsoft 365 관리자 Office 365 할당합니다. [자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Azure, Microsoft 365 및 서비스 서비스에 대한 지원 요청을 만들어야 하는 Office 365 관리자 역할을 할당합니다. [자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ### <a name="sharepoint-admin"></a>SharePoint 관리자
 
-Microsoft 365 구독을 구매하면 팀 사이트가 자동으로 만들어지며 전역 관리자가 기본 사이트 모음 관리자로 설정됩니다. SharePoint 센터에 액세스하려는 사용자에게 SharePoint 관리자 역할을 할당합니다. 관리자 역할이 SharePoint 사용자는 사이트 모음을 만들고 관리하고, 사이트 모음 관리자를 지정하고, 사용자 프로필을 관리할 수 있습니다. 또한 SharePoint 역할이 있는 사용자는 Microsoft 지원을 통해 Microsoft 365 그룹 및 서비스 요청을 열 수 있습니다. [자세한 정보](/sharepoint/sharepoint-admin-role)
+Microsoft 365 구독을 구매하면 팀 사이트가 자동으로 만들어지며 전역 관리자가 기본 사이트 모음 관리자로 설정됩니다. SharePoint 센터에 액세스하려는 사용자에게 SharePoint 관리자 역할을 할당합니다. 관리자 역할이 SharePoint 사용자는 사이트 모음을 만들고 관리하고, 사이트 모음 관리자를 지정하고, 사용자 프로필을 관리할 수 있습니다. 관리자 역할이 SharePoint 사용자도 Microsoft 지원을 통해 Microsoft 365 그룹을 관리하고 지원 요청을 열 수 있습니다. [자세한 정보](/sharepoint/sharepoint-admin-role)
 
 ### <a name="teams-service-admin"></a>Teams 서비스 관리자
 
-Teams 관리 센터에 액세스하고 관리하려는 사용자에게 Teams & Skype 관리자 역할을 할당합니다. 관리자 역할이 Teams 사용자는 Microsoft 지원을 통해 Microsoft 365 서비스 요청을 관리할 수도 있습니다. [자세한 정보](/MicrosoftTeams/using-admin-roles)
+Teams 관리 센터에 액세스하고 관리하려는 사용자에게 Teams & Skype 관리자 역할을 할당합니다. 관리자 역할이 Teams 사용자도 Microsoft 지원을 통해 Microsoft 365 그룹을 관리하고 지원 요청을 열 수 있습니다. [자세한 정보](/MicrosoftTeams/using-admin-roles)
 
 ### <a name="user-admin"></a>사용자 관리자
 
-사용자 암호 재설정을 액세스 및 관리하고 사용자 및 그룹을 관리하려는 사용자에게 사용자 관리자 역할을 할당합니다. 또한 Microsoft 지원 서비스에 대한 서비스 요청을 열고 관리할 수 있습니다. [자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+사용자 암호 재설정을 액세스 및 관리하고 사용자 및 그룹을 관리하려는 사용자에게 사용자 관리자 역할을 할당합니다. 또한 Microsoft 지원에 대한 지원 요청을 열고 관리할 수 있습니다. [자세한 정보](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ## <a name="compare-roles"></a>역할 비교
 
@@ -97,7 +97,7 @@ Teams 관리 센터에 액세스하고 관리하려는 사용자에게 Teams & S
 
 - 최대 3개 역할을 선택하고 **역할** 비교를 선택하여 각 역할이 가지는 사용 권한을 봐야 합니다.
 
-![관리자 역할 비교를 보여주는 그림](../../media/compare-roles-list.png)
+![관리자 역할 비교를 보여주는 그림입니다.](../../media/compare-roles-list.png)
 
 ## <a name="related-content"></a>관련 콘텐츠
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d0688a9ccae293e68d54ec9f00d74d9829d85d4e
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 55b1e33483b4ba9d3480b1e1c1c8dc2f37557039
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532814"
+ms.locfileid: "58571858"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>링에서 끝점용 Microsoft Defender 배포
 
@@ -44,7 +44,7 @@ ms.locfileid: "58532814"
 
 ## <a name="new-deployments"></a>새 배포
 
-![배포 링의 이미지](images/deployment-rings.png)
+![배포 링의 이미지입니다.](images/deployment-rings.png)
 
 링 기반 접근 방식은 온보드할 끝점 집합을 식별하고 서비스를 더 큰 장치 집합에 배포하기 전에 특정 조건이 충족되는지 확인하는 방법입니다. 각 링에 대한 종료 조건을 정의하고 다음 링으로 이동하기 전에 해당 링이 충족되도록 할 수 있습니다.
 
@@ -103,13 +103,9 @@ ms.locfileid: "58532814"
 
 다음 자료를 사용하여 조직에 가장 적합한 끝점 아키텍처용 Microsoft Defender를 선택합니다.
 
-<br>
-
-****
-
-|항목|설명|
-|---|---|
-|[![Endpoint 배포 전략용 Microsoft Defender의 축소판 이미지](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx)  |건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li></ul>|
+|**항목**|**설명**|
+|:-----|:-----|
+|[![Endpoint 배포 전략용 Microsoft Defender의 축소판 이미지입니다.](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) | 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li></ul>
 
 ## <a name="existing-deployments"></a>기존 배포
 
@@ -131,7 +127,7 @@ macOS 및 Linux에서는 몇 가지 시스템을 사용하며 베타 채널에�
 
 채널 선택에 따라 장치에 제공되는 업데이트의 유형과 빈도가 결정됩니다. Beta의 장치는 업데이트 및 새 기능을 수신하는 첫 번째 장치로, 나중에 미리 보기 및 마지막으로 현재가 표시됩니다.
 
-![내부자 링의 이미지](images/insider-rings.png)
+![내부자 링의 이미지입니다.](images/insider-rings.png)
 
 새 기능을 미리 보고 초기 피드백을 제공하기 위해서는 엔터프라이즈에서 베타 또는 미리 보기를 사용하도록 일부 장치를 구성하는 것이 좋습니다.
 

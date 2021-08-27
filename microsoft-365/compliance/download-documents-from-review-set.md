@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 프레젠테이션 또는 외부 검토를 위해 Advanced eDiscovery 리뷰 집합에서 콘텐츠를 선택하고 다운로드하는 방법을 학습합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: adda9d1ee8594137a68994f8fc908297991ff525341af4421535536cf77b346f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1ec4c82acdc7958cb17def5660f51109f1ff32e0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53905870"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572182"
 ---
 # <a name="download-selected-documents-from-a-review-set"></a>검토 집합에서 선택한 문서 다운로드
 
@@ -30,4 +30,4 @@ ms.locfileid: "53905870"
 
 Advanced eDiscovery 사례의 검토 집합에서 콘텐츠를 다운로드하려면 먼저 다운로드할 파일을 선택한 다음 작업 항목 다운로드 **를**  >  **선택합니다.**
 
-![검토 집합에서 Advanced eDiscovery 작업 다운로드](../media/eDiscoDownload.png)
+![검토 집합에서 Advanced eDiscovery 다운로드합니다.](../media/eDiscoDownload.png)

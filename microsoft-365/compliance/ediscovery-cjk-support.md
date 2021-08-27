@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 더블 Advanced eDiscovery 집합을 Microsoft 365, 중국어, 일본어 및 한국어(CJK) 언어를 지원하는 방법을 배워야 합니다.
-ms.openlocfilehash: 7301903effa11dbe090197f0445f572b754fb44ca267b39b8cdc18ed27459fb4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bcab34e8232a77cecf7d7331d75d140f73e4db37
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53905886"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572038"
 ---
 # <a name="cjk-language-support-for-advanced-ediscovery"></a>CJK 언어 지원 Advanced eDiscovery
 
@@ -33,7 +33,7 @@ Advanced eDiscovery 검토 집합에서 다음과 같은 고급 시나리오에 
 
 - 중복에 [가까운 검색,](analyzing-data-in-review-set.md) 전자 메일 스레딩 및 테마 분석을 사용하여 검토 집합의 사례 데이터를 분석할 때
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **검색을 만들어 CJK 문자가 포함된 항목을 수집하는 방법**
 
@@ -41,7 +41,7 @@ Advanced eDiscovery 검토 집합에서 다음과 같은 고급 시나리오에 
 
 부울 연산자 **AND, OR,** [](keyword-queries-and-search-conditions.md#search-operators) **NOT** 및 NEAR를 비롯한 모든 검색 연산자 및 검색 조건에 대해 CJK 지원을 **제공합니다.** [](keyword-queries-and-search-conditions.md#search-conditions)
 
-콘텐츠 위치 또는 항목에 CJK 문자가 포함되어 있지만 검색에서 결과를 반환하지 않는 경우 쿼리 언어-국가/지역 아이콘을 클릭합니다. ![콘텐츠 검색의 쿼리 언어-국가/지역 아이콘](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) 를 선택하고 검색에 해당하는 언어-국가 문화권 코드 값을 선택합니다. 기본 언어/지역은 중립입니다.
+콘텐츠 위치 또는 항목에 CJK 문자가 포함되어 있지만 검색에서 결과를 반환하지 않는 경우 쿼리 언어-국가/지역 아이콘을 클릭합니다. ![콘텐츠 검색에서 언어-국가/지역 아이콘을 쿼리합니다.](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) 를 선택하고 검색에 해당하는 언어-국가 문화권 코드 값을 선택합니다. 기본 언어/지역은 중립입니다.
 
 **한에 여러 언어를 검색할 수 있나요?**
 

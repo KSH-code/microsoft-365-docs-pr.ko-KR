@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: efb6bcde04411b3409d3076d09251423d436265c
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 1b5e664e6675b477ecb2507fd52588aa159bcc9b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58252140"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571798"
 ---
 # <a name="enable-the-evaluation-environment-for-microsoft-cloud-app-security"></a>사용자에 대해 평가 환경을 Microsoft Cloud App Security
 
@@ -47,7 +47,7 @@ ms.locfileid: "58252140"
 
 다음 단계에 따라 설치 Microsoft Cloud App Security.
 
-![Microsoft Defender 평가 환경에서 Microsoft Microsoft Cloud App Security 사용하도록 설정하는 단계](../../media/defender/m365-defender-mcas-eval-enable-steps.png)
+![Microsoft Defender 평가 환경에서 Microsoft Microsoft Cloud App Security 사용하도록 설정하는 단계입니다.](../../media/defender/m365-defender-mcas-eval-enable-steps.png)
 
 - [1단계. 커넥트 포털에 Cloud App Security 수 있습니다.](#step-1-connect-to-the-cloud-app-security-portal)
 - [2단계. 끝점용 Microsoft Defender와 통합](#step-2-integrate-with-microsoft-defender-for-endpoint)

@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 517938951c6bf772097f15dca1a8d3b79c568ca1
-ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
+ms.openlocfilehash: a4ed6e53712ac3aa4b99e991d5fbbbb2bee31b80
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58392055"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572206"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>정보 통신 규정 준수에 대해 Microsoft 365
 
@@ -74,7 +74,7 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 - 유연한 수정 워크플로
 - 실행 가능한 인사이트
 
-![커뮤니케이션 규정 준수 홈 페이지](../media/communication-compliance-home.png)
+![커뮤니케이션 규정 준수 홈 페이지.](../media/communication-compliance-home.png)
 
 ### <a name="intelligent-customizable-templates"></a>지능형 사용자 지정 가능한 템플릿
 
@@ -126,7 +126,7 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 
 다음 워크플로를 사용하여 통신 규정 Microsoft 365 식별하고 해결합니다.
 
-![커뮤니케이션 규정 준수 워크플로](../media/communication-compliance-workflow.png)
+![커뮤니케이션 준수 워크플로.](../media/communication-compliance-workflow.png)
 
 ### <a name="configure"></a>구성하기
 

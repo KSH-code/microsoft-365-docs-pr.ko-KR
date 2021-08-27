@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 75c18feba1b7d293f954582d83357d1efcff98ed
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 4bc846927524bd80adf512107e1d072c7969d58f
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256310"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614929"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Microsoft 365 Defender 전제
 
@@ -59,7 +59,7 @@ ms.locfileid: "58256310"
 기존 라이선스를 Microsoft 365 관리 센터[(admin.microsoft.com](https://admin.microsoft.com/))로 이동 합니다. 관리 센터에서 **청구** > **라이선스** 로 이동합니다.
 
 >[!NOTE]
-> 라이선스 정보를 볼 수  있게 하려면  [Azure AD에서](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 청구 관리자 또는 전역 리더 역할을 할당해야 합니다. 액세스 문제가 발생하는 경우 전역 관리자에게 문의하세요.
+> 라이선스 정보를 볼 수  있게 하려면  [Azure AD에서](/azure/active-directory/roles/permissions-reference) 청구 관리자 또는 전역 리더 역할을 할당해야 합니다. 액세스 문제가 발생하는 경우 전역 관리자에게 문의하세요.
 
 ## <a name="required-permissions"></a>필요한 사용 권한
 전역 관리자  또는 보안  관리자 Azure Active Directory 설정해야 Microsoft 365 Defender. 데이터 액세스 권한을 사용하는 데 필요한 역할 Microsoft 365 Defender 데이터에 대한 액세스 제어 방법에 대한 자세한 내용은 에 대한 액세스 [Microsoft 365 Defender.](m365d-permissions.md)

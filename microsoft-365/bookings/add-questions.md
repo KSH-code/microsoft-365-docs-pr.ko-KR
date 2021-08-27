@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: fd6b7587-5055-4bcd-83a4-13bd4929bfff
 description: 고객이 온라인으로 약속을 예약할 때 고객에게 질문을 해야 하는 경우 예약 페이지에 사용자 지정 질문과 필요한 질문을 추가할 수 있습니다.
-ms.openlocfilehash: 7ee5710d20145dc1cb819c03c0a86336241ba829173f8abc3b4fdf2a96aa719e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 496d395677d272c436504bfe43b3c42833e3a73e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900895"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571606"
 ---
 # <a name="add-custom-and-required-questions-to-the-booking-page"></a>예약 페이지에 사용자 정의 및 필수 질문 추가
 
@@ -41,7 +41,7 @@ ms.locfileid: "53900895"
 
    이 예에서는 전화 번호와 고객 메모가 꺼져 있으며 두 가지 새로운 사용자 지정 질문을 만들어 묻습니다.
 
-   ![사용자 지정 질문 화면의 이미지](../media/bookings-questions-custom-fields.png)
+   ![사용자 지정 질문 화면의 이미지입니다.](../media/bookings-questions-custom-fields.png)
 
 1. 질문을 요구하려면 필수 **확인란을** 선택합니다. 고객은 필요한 질문에 답변할 때까지 예약을 완료할 수 없습니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "53900895"
 
 이 예제에서는 첫 번째 서비스에 대해 추가된 질문을 이 서비스에 사용할 수 있습니다. 이 서비스에 대해 만든 질문은 모든 서비스에 대해 제공됩니다.
 
-   ![여러 서비스에 대해 나타나는 질문 이미지](../media/bookings-questions-services.png)
+   ![여러 서비스에 대해 나타나는 질문 이미지입니다.](../media/bookings-questions-services.png)
 
 예약 페이지가 이미 게시되어 있는 경우 다른 작업을 할 필요가 없습니다. 고객은 다음에 예약할 때 질문을 볼 수 있습니다. 예약 페이지가 아직 게시되지 않은 경우  에서 예약 페이지로 이동한 웹용 Outlook 저장 **및 게시를 선택합니다.**
 
@@ -66,10 +66,10 @@ ms.locfileid: "53900895"
 
 고객이 약속을 예약하면 기본 고객 정보 질문이 세부 정보 추가 **섹션에** 표시됩니다. 추가하는 사용자 지정 질문은 추가 정보 제공 **섹션에 있습니다.**
 
-![질문이 활성화된 경우 고객에게 표시하는 이미지](../media/bookings-questions-customer.png)
+![질문이 활성화된 경우 고객에게 표시하는 이미지입니다.](../media/bookings-questions-customer.png)
 
 ## <a name="staff-experience"></a>직원 환경
 
 고객이 약속을 예약하면 직원은 예약 일정에 대한 질문과 고객의 답변을 볼 수 있습니다. 이 확인을 위해 **Bookings Calendar(예약 일정)로** \> **이동한** 다음 약속을 여십시오.
 
-![질문이 활성화된 경우 직원에게 표시하는 이미지](../media/bookings-questions-staff.png)
+![질문이 활성화된 경우 직원에게 표시하는 이미지입니다.](../media/bookings-questions-staff.png)

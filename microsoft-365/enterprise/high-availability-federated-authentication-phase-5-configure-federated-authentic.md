@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 0f1dbf52-5bff-44cc-a264-1b48641af98f
 description: '요약: 2016년 커넥트 대한 고가용성 페더전 인증에 대해 Azure AD Microsoft 365 구성하는 Microsoft Azure.'
-ms.openlocfilehash: ecd5eac14279bb79c0e4bc574a9340314cc77574
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 8d8636c10947562037093991fa3a3cee5a867af3
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356531"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561413"
 ---
 # <a name="high-availability-federated-authentication-phase-5-configure-federated-authentication-for-microsoft-365"></a>고가용성 페더러타 인증 5단계: 페더러에 대한 페더 Microsoft 365
 
@@ -65,7 +65,7 @@ Contoso 조직의 예는 다음과 같습니다.
   
 **Azure의 고가용성 페더타 인증 인프라에 대한 구성 예**
 
-![Azure의 페더 Microsoft 365 인프라에 대한 고가용성 구성의 예](../media/ac1a6a0d-0156-4407-9336-6e4cd6db8633.png)
+![Azure의 페더 Microsoft 365 인프라에 대한 고가용성 구성의 예입니다.](../media/ac1a6a0d-0156-4407-9336-6e4cd6db8633.png)
   
 ## <a name="run-azure-ad-connect-to-configure-federated-authentication"></a>Azure AD 커넥트 실행하여 페더타 인증 구성
 
@@ -135,7 +135,7 @@ Azure AD 커넥트 도구는 다음 단계를 사용하여 AD FS 서버, 웹 응
   
 **5단계: Azure의 고가용성 페더전 인증 인프라의 최종 구성**
 
-![Azure의 페더 Microsoft 365 인프라에 대한 고가용성 구성](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
+![Azure의 페더 Microsoft 365 인프라에 대한 고가용성의 최종 구성입니다.](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
   
 Azure에서 사용할 수 있는 고가용성 페더 Microsoft 365 인프라가 완료되었습니다.
   

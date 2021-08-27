@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: aed7cb7320e000cbbec4733ebe9e6543c25a497da77df5af0667a2e67cce796a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2555070438ead608b470f3291bd74dea0b657543
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53901854"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572122"
 ---
 # <a name="contact-support-for-china-prc"></a>중국 지원에 문의(PRC)
 
@@ -42,7 +42,7 @@ ms.locfileid: "53901854"
 대체 전화 번호: 400 920 0365(모바일)
 
 ## <a name="follow-us-on-wechat"></a>WeChat에서 팔로우:
-![WeChat QR 코드](../../media/4d8fe09c-1a11-4cd8-be4c-75add8dccddd.jpg)
+![WeChat QR 코드.](../../media/4d8fe09c-1a11-4cd8-be4c-75add8dccddd.jpg)
 
 ## <a name="contact-support-for-office-365-operated-by-21vianet-only"></a>21Vianet에서 Office 365 지원에 문의
 ## <a name="phone-number"></a>전화 번호

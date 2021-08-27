@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8bfca50816f0efc3ea0c2c8fa17521d038570b839508d6fe67b5db7ba03b379b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a9397eeaf9edd58903a50cf3f9194b995c56d216
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53902405"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614887"
 ---
 # <a name="event-timeline---threat-and-vulnerability-management"></a>이벤트 타임라인 - 위협 및 취약성 관리
 
@@ -40,8 +40,8 @@ ms.locfileid: "53902405"
 
 또한 이벤트 타임라인은 큰 [](tvm-exposure-score.md) 변경의 원인을 확인할 수 있도록 노출 점수와 [장치에 대한 Microsoft 보안](tvm-microsoft-secure-score-devices.md) 점수에 대한 스토리를 제공합니다. 이벤트는 디바이스 또는 장치의 점수에 영향을 줄 수 있습니다. 우선 순위가 높은 보안 권장 사항에 따라 수정해야 하는 사항을 해결하여 노출을 [줄입니다.](tvm-security-recommendation.md)
 
->[!TIP]
->새 취약성 이벤트에 대한 전자 메일을 얻습니다. [끝점용 Microsoft Defender에서 취약성](configure-vulnerability-email-notifications.md) 전자 메일 알림 구성을 참조하세요.
+> [!TIP]
+> 새 취약성 이벤트에 대한 전자 메일을 얻습니다. [끝점용 Microsoft Defender에서 취약성](configure-vulnerability-email-notifications.md) 전자 메일 알림 구성을 참조하세요.
 
 ## <a name="navigate-to-the-event-timeline-page"></a>이벤트 타임라인 페이지로 이동합니다.
 
@@ -57,22 +57,22 @@ ms.locfileid: "53902405"
 
 디바이스 또는 장치의 점수에 영향을 주는 이벤트가 없는 경우 아무 이벤트도 표시되지 않습니다.
 
-![노출 점수가 장치용 Microsoft 보안 점수 ](images/tvm-event-timeline-exposure-score350.png) 
- ![ 호버](images/tvm-event-timeline-device-hover360.png)
+![노출 점수 호버. ](images/tvm-event-timeline-exposure-score350.png) 
+ ![ Microsoft Secure Score for Devices hover.](images/tvm-event-timeline-device-hover360.png)
 
 ### <a name="drill-down-to-events-from-that-day"></a>그 날의 이벤트로 드릴다운
 
 이 **날의** 모든 이벤트 표시를 선택하면 해당 날짜에 대한 사용자 지정 날짜 범위가 있는 이벤트 타임라인 페이지로 이동합니다.
 
-![이벤트 타임라인 선택 사용자 지정 날짜 범위](images/tvm-event-timeline-drilldown.png)
+![이벤트 타임라인이 선택된 사용자 지정 날짜 범위입니다.](images/tvm-event-timeline-drilldown.png)
 
 날짜 **범위를 다른** 사용자 지정 범위 또는 미리 설정된 시간 범위로 변경하려면 사용자 지정 범위를 선택합니다.
 
-![이벤트 타임라인 날짜 범위 옵션](images/tvm-event-timeline-dates.png)
+![이벤트 타임라인 날짜 범위 옵션입니다.](images/tvm-event-timeline-dates.png)
 
 ## <a name="event-timeline-overview"></a>이벤트 타임라인 개요
 
-이벤트 타임라인 페이지에서 이벤트와 관련된 모든 필요한 정보를 볼 수 있습니다. 
+이벤트 타임라인 페이지에서 이벤트와 관련된 모든 필요한 정보를 볼 수 있습니다.
 
 기능:
 
@@ -82,7 +82,7 @@ ms.locfileid: "53902405"
 
 페이지 맨 위에 있는 두 개의 큰 숫자는 이벤트가 아니라 새로운 취약성 및 악용 가능한 취약성의 수를 보여 합니다. 일부 이벤트는 여러 취약성을 가지며 일부 취약성은 여러 이벤트를 가지는 것일 수 있습니다.
 
-![이벤트 타임라인 페이지](images/tvm-event-timeline-overview-mixed-type.png)
+![이벤트 타임라인 페이지입니다.](images/tvm-event-timeline-overview-mixed-type.png)
 
 ### <a name="columns"></a>열
 
@@ -92,21 +92,21 @@ ms.locfileid: "53902405"
 - **원래 영향을 났던 장치:** 이 이벤트가 처음에 발생한 영향을 미치는 장치의 수 및 백분율입니다. 총 장치 수에서 원래 영향을 들은 장치의 비율을 필터링할 수도 있습니다.
 - **현재 영향을 미치는 장치:** 이 이벤트가 현재 영향을 미치는 장치의 현재 수 및 백분율입니다. 열 사용자 지정 을 선택하여 이 **필드를 찾을 수 있습니다.**
 - **유형**: 점수에 영향을 미치는 타임스탬프가 있는 이벤트를 반영합니다. 필터링할 수 있습니다.
-    - Exploit Kit에 추가된 Exploit
-    - Exploit가 확인된 경우
-    - 새 공개 악용
-    - 새로운 취약성
-    - 새 구성 평가
+  - Exploit Kit에 추가된 Exploit
+  - Exploit가 확인된 경우
+  - 새 공개 악용
+  - 새로운 취약성
+  - 새 구성 평가
 - **점수 추세**: 노출 점수 추세
 
 ### <a name="icons"></a>아이콘
 
 다음 아이콘은 이벤트 옆에 표시됩니다.
 
-- ![버그 아이콘](images/tvm-black-bug-icon.png) 새 공개 악용
-- ![보고 경고 아이콘](images/report-warning-icon.png) 새로운 취약성 게시
-- ![exploit kit](images/bug-lightning-icon2.png) Exploit Kit에서 찾은 Exploit
-- ![경고 아이콘이 있는 버그 아이콘](images/bug-caution-icon2.png) 악용 확인
+- ![버그 아이콘.](images/tvm-black-bug-icon.png) 새 공개 악용
+- ![경고 아이콘 보고](images/report-warning-icon.png) 새로운 취약성 게시
+- ![exploit kit.](images/bug-lightning-icon2.png) Exploit Kit에서 찾은 Exploit
+- ![경고 아이콘이 있는 버그 아이콘입니다.](images/bug-caution-icon2.png) 악용 확인
 
 ### <a name="drill-down-to-a-specific-event"></a>특정 이벤트로 드릴다운
 
@@ -114,9 +114,9 @@ ms.locfileid: "53902405"
 
 "점수 추세" 아래의 화살표를 사용하면 이 이벤트가 조직 노출 점수를 잠재적으로 발생 또는 낮출지 여부를 결정할 수 있습니다. 노출 점수가 높을수록 장치가 악용에 더 취약하다는 의미입니다.
 
-![이벤트 타임라인 플라이아웃](images/tvm-event-timeline-flyout500.png)
+![이벤트 타임라인 플라이아웃.](images/tvm-event-timeline-flyout500.png)
 
-이 페이지에서 관련 보안 권장 사항 보기로 **이동을** 선택하여 보안 권장 사항 페이지에서 새로운 소프트웨어 취약성을 해결합니다. [](tvm-security-recommendation.md) 보안 권장 사항에서 설명 및 취약점 세부 정보를 읽은 후 수정 요청을 제출하고 수정 페이지에서 요청을 추적할 [수 있습니다.](tvm-remediation.md)  
+이 페이지에서 관련 보안 권장 사항 보기로 **이동을** 선택하여 보안 권장 사항 페이지에서 새로운 소프트웨어 취약성을 해결합니다. [](tvm-security-recommendation.md) 보안 권장 사항에서 설명 및 취약점 세부 정보를 읽은 후 수정 요청을 제출하고 수정 페이지에서 요청을 추적할 [수 있습니다.](tvm-remediation.md)
 
 ## <a name="view-event-timelines-in-software-pages"></a>소프트웨어 페이지에서 이벤트 타임라인 보기
 
@@ -124,7 +124,7 @@ ms.locfileid: "53902405"
 
 전체 페이지가 특정 소프트웨어의 모든 세부 정보가 표시됩니다. 그래프 위에 마우스를 놓아 특정 소프트웨어에 대한 이벤트 타임라인을 볼 수 있습니다.
 
-![이벤트 타임라인 그래프가 있는 소프트웨어 페이지](images/tvm-event-timeline-software2.png)
+![이벤트 타임라인 그래프가 있는 소프트웨어 페이지입니다.](images/tvm-event-timeline-software2.png)
 
 이벤트 타임라인 탭으로 이동하여 해당 소프트웨어와 관련된 모든 이벤트를 볼 수 있습니다. 보안 권장 사항, 발견된 취약성, 설치된 장치 및 버전 배포도 볼 수 있습니다.
 
@@ -138,4 +138,3 @@ ms.locfileid: "53902405"
 - [보안 권장 사항](tvm-security-recommendation.md)
 - [취약성 수정](tvm-remediation.md)
 - [소프트웨어 인벤토리](tvm-software-inventory.md)
-

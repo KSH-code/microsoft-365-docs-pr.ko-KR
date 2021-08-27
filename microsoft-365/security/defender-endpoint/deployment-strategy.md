@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 50abaa4033f00225cb4b456949d57618741e8016
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 528e7ed0f7655cd873a42a5b953049d078d19803
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532802"
+ms.locfileid: "58571846"
 ---
 # <a name="plan-your-microsoft-defender-for-endpoint-deployment"></a>엔드포인트용 Microsoft Defender 배포 계획
 
@@ -36,7 +36,7 @@ ms.locfileid: "58532802"
 
 이 솔루션은 환경 아키텍처를 식별하는 방법, 요구에 가장 적합한 배포 도구 유형 선택 및 기능 구성 방법에 대한 지침을 제공합니다.
 
-![배포 흐름의 이미지](images/deployment-guide-plan.png)
+![배포 흐름의 이미지입니다.](images/deployment-guide-plan.png)
 
 ## <a name="step-1-identify-architecture"></a>1단계: 아키텍처 식별
 
@@ -46,9 +46,9 @@ ms.locfileid: "58532802"
 
 다음 자료를 사용하여 조직에 가장 적합한 끝점 아키텍처에 적합한 Defender를 선택합니다.
 
-|항목|설명|
-|---|---|
-|[![Endpoint 배포 전략용 Defender의 축소판 이미지](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) <br> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx)  |건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li>클라우드 네이티브</li><li>공동 관리</li><li>온-프레미스</li><li>평가 및 로컬 온보딩</li></ul>|
+| 항목 | 설명 |
+|:-----|:-----|
+|[![Endpoint 배포 전략용 Defender의 축소판 이미지입니다.](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) | 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
 
 ## <a name="step-2-select-deployment-method"></a>2단계: 배포 방법 선택
 

@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 07/22/2021
-ms.openlocfilehash: c2fafe62c5fecbc1e7ed9f7e622daf6a1b6c7faa
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.openlocfilehash: 6063aed4fcbd215e4acfcc1e265df5775c3105b7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58510052"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561389"
 ---
 # <a name="cloud-delivered-protection-antivirus-sample-submission"></a>클라우드 제공 보호 바이러스 백신 샘플 제출
 
@@ -99,11 +99,11 @@ _그림 1 - Microsoft Defender_ 클라우드 보호로 전송된 메타데이터
 
 _그림 2. 클라우드 제공 보호 흐름_:
 
-:::image type="content" source="images/cloud-protection-flow.png" alt-text="그림 2. 클라우드 제공 보호 흐름":::
+:::image type="content" source="images/cloud-protection-flow.png" alt-text="그림 2. 클라우드 제공 보호 흐름.":::
 
 _그림 3. 클라우드 제공 보호 및 계층적 기계 학습_:
 
-:::image type="content" source="images/cloud-protection-detection-layered-machine-learning.png" lightbox="images/cloud-protection-detection-layered-machine-learning.png" alt-text="그림 3. 클라우드 제공 보호 및 계층적 기계 학습":::
+:::image type="content" source="images/cloud-protection-detection-layered-machine-learning.png" lightbox="images/cloud-protection-detection-layered-machine-learning.png" alt-text="그림 3. 클라우드 제공 보호 및 계층적 기계 학습.":::
 
 > [!NOTE]
 >

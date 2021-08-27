@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 8a016ab0e73af99ce47c30b598daade864e041eb
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.openlocfilehash: a7f85d20dfa59fbe21f811d8bef30a6c21a69125
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58510028"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561401"
 ---
 # <a name="collect-microsoft-defender-av-diagnostic-data"></a>Microsoft Defender AV 진단 데이터 수집
 
@@ -121,12 +121,13 @@ GPO(그룹 정책 개체).cab 진단 파일을 만들 위치를 지정할 수도
 
    ![로그 파일 경로 정의 설정 스크린샷](images/GPO2-SupportLogLocationGPPage.png)
 
+    ![로컬 그룹 정책 편집기 스크린샷.](images/GPO1-SupportLogLocationDefender.png)  
+        
+     ![로그 파일의 경로 정의 설정 스크린샷.](images/GPO2-SupportLogLocationGPPage.png)  
 3. 정책 편집기 내에서 사용 을 **선택합니다.**
 
 4. 옵션 필드에서 지원 로그 파일을 복사할 디렉터리 경로를 **지정합니다.**
-
-   ![사용 디렉터리 경로 사용자 지정 설정 스크린샷](images/GPO3-SupportLogLocationGPPageEnabledExample.png)
-
+     ![사용 디렉터리 경로 사용자 지정 설정 스크린샷.](images/GPO3-SupportLogLocationGPPageEnabledExample.png) 
 5. **확인 또는 적용을** **선택합니다.**
 
 ## <a name="see-also"></a>참고 항목

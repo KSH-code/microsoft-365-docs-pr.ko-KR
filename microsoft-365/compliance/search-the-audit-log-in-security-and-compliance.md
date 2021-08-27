@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dfacd679a48c81b7a952638f2944d0fe6a8d9123
-ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
+ms.openlocfilehash: 34d3f7fa8c12d1509b864bc45e97717dbf01f534
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58408097"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533282"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -844,7 +844,7 @@ Shifts 앱 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 �
 
 ### <a name="microsoft-power-automate-activities"></a>Microsoft Power Automate 활동
 
-Power Automate(이전의 Microsoft Flow)에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 흐름 만들기, 편집, 삭제 및 흐름의 사용 권한 변경이 포함됩니다. Power Automate 활동을 감사하는 방법에 대한 자세한 내용은 [현재 Microsoft 365 규정 준수 센터에서 사용할 수 있는 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)를 블로그에서 참조하세요.
+Power Automate(이전의 Microsoft Flow)에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 흐름 만들기, 편집, 삭제 및 흐름의 사용 권한 변경이 포함됩니다. 블로그의 [현재 Microsoft 365 규정 준수 센터에서 사용할 수 있는 Power Automate 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)에서 Power Automate 활동을 감사하는 방법에 대한 정보를 살펴보세요.
 
 ### <a name="microsoft-power-apps-activities"></a>Microsoft Power Apps 활동
 

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 다중 위치 SharePoint 다른 지리적 위치로 이동하고 사용자에게 변경에 대한 기대치를 전달하는 방법에 대해 알아보고
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97f19b0f4ae1e00eb1d81bb20052efa158bc55cf
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: 9c7ad267dcb32e055038e5186595db5776999263
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400394"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571942"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>SharePoint 사이트를 다른 지리적 위치로 이동
 
@@ -80,7 +80,7 @@ SharePoint 사이트 지리적 이동을 수행하려면 사이트가 있는 지
 Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
 ```
 
-![SharePoint 온라인 관리 셸 창에 Connect-SPOService 표시](../media/move-onedrive-between-geo-locations-image1.png)
+![SharePoint 온라인 관리 셸 창에 Connect-SPOService 표시됩니다.](../media/move-onedrive-between-geo-locations-image1.png)
 
 ### <a name="validating-the-environment"></a>환경 유효성 검사
 
@@ -118,7 +118,7 @@ Microsoft 365 그룹에 연결되지 않은 사이트의 경우에도 `-Destinat
 Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation> -DestinationUrl <DestinationSiteURL>
 ```
 
-![Start-SPOSiteContentMove cmdlet을 보여주는 PowerShell 창 스크린샷](../media/multi-geo-sharepoint-site-move-powershell.png)
+![Cmdlet을 보여 Start-SPOSiteContentMove PowerShell 창의 스크린샷.](../media/multi-geo-sharepoint-site-move-powershell.png)
 
 ### <a name="start-a-sharepoint-site-geo-move-for-a-microsoft-365-group-connected-site"></a>Microsoft 365 그룹에 연결된 사이트의 SharePoint 사이트 지리적 이동 시작
 

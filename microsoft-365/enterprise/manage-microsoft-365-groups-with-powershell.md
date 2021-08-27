@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
 description: 이 문서에서는 PowerShell에서 Microsoft 365 관리 작업을 수행하는 방법을 설명합니다.
-ms.openlocfilehash: 48555dd41ff18941a6cbce3ef9f25cb5e3727735c7c7cedfe1e6050556e96dfb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 023b0a4264af5989e93c70f959584bcef9a89075
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53899430"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571954"
 ---
 # <a name="manage-microsoft-365-groups-with-powershell"></a>PowerShell을 Microsoft 365 그룹 관리
 
@@ -41,9 +41,9 @@ ms.locfileid: "53899430"
 
 Azure AD(Azure Active Directory) PowerShell을 사용하여 사용자에게 조직의 조직 사용 지침을 Microsoft 365 있습니다. 그룹 [Azure Active Directory 구성하기 위한 cmdlet을](/azure/active-directory/enterprise-users/groups-settings-cmdlets) 확인하고 디렉터리 수준에서 설정  만들기의 단계에 따라 사용 지침 하이퍼링크를 정의합니다. AAD cmdlet을 실행하고 나면 사용자가 그룹에서 그룹을 만들거나 편집할 때 지침에 대한 링크가 Outlook.
 
-![사용 지침 링크를 사용하여 새 그룹 만들기](../media/3f74463f-3448-4f24-a0ec-086d9aa95caa.png)
+![사용 지침 링크를 사용하여 새 그룹을 만드세요.](../media/3f74463f-3448-4f24-a0ec-086d9aa95caa.png)
 
-![그룹 사용 지침을 클릭하여 조직의 그룹 Office 365 확인](../media/d0d54ace-f0ec-4946-b2de-50ce23f17765.png)
+![그룹 사용 지침을 클릭하여 조직에서 그룹 Office 365 확인합니다.](../media/d0d54ace-f0ec-4946-b2de-50ce23f17765.png)
 
 ## <a name="allow-users-to-send-as-the-microsoft-365-group"></a>사용자가 그룹으로 보내기 허용 Microsoft 365
 <a name="BK_LinkToGuideLines"> </a>
@@ -87,7 +87,7 @@ $setting["ClassificationDescriptions"] ="Classification:Description,Classificati
 
 여기서 Classification은 ClassificationList의 문자열과 일치합니다.
 
-예:
+예제:
 
 ```powershell
 $setting["ClassificationDescriptions"] = "Low Impact: General communication, Medium Impact: Company internal data , High Impact: Data that has regulatory requirements"

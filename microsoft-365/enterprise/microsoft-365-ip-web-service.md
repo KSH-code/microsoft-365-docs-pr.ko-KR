@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Office 365 IP 주소 및 URL 웹 서비스를 사용하여 Office 365 네트워크 트래픽을 손쉽게 식별하고 구분하는 방법을 알아봅니다.
-ms.openlocfilehash: fd9951d78757c07d543c502515304e6d8792ed5493665aebfb21b1b3ed84d725
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 62e9b638b0f767aef3b7f52bb3d129310d2bcbd5
+ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864546"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58533450"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스
 
@@ -605,7 +605,7 @@ else:
 
 IP 주소 및 URL 변경 사항이 웹 서비스에 게시될 때 몇 가지 방법을 사용하여 전자 메일 알림을 받을 수 있습니다.
 
-- Microsoft Flow 솔루션을 사용하려면 [Microsoft Flow 사용하여 Office 365 IP 주소 및 URL 변경 내용에 대한 전자 메일 받기](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651)를 참조하세요.
+- Power Automate 솔루션을 사용하려면 [Power Automate을 사용하여 Office 365 IP 주소 및 URL 변경 내용에 대한 전자 메일 받기](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651)를 참조하세요.
 - ARM 서식 파일을 사용하여 Azure Logic 앱을 배포하려면 [Office 365 업데이트 알림(v1.1)](https://aka.ms/ipurlws-updates-template)을 참조하세요.
 - PowerShell을 사용하여 알림 스크립트를 직접 작성하려면 [Send-MailMessage](/powershell/module/microsoft.powershell.utility/send-mailmessage)를 참조하세요.
 

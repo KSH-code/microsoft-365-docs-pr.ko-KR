@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: c4a8fa37ab1fcce73961d9f8f1b349cc96f94498db36a71e238c9a2aeff914a3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bbb0cfe262687a22277dda99f47690a4932d8abc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53880344"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561473"
 ---
 # <a name="investigate-insider-risk-management-activities"></a>내부자 위험 관리 활동 조사
 
@@ -31,7 +31,7 @@ ms.locfileid: "53880344"
 
 사용자에 대한 활동을 검사한 후 조사자는 개별 활동을 양성으로 해지하거나, 다른 조사자들과 보고서 링크를 공유하거나 전자 메일을 보내거나, 사용자를 내부자 위험 관리 정책에 일시적으로 또는 명시적으로 할당하도록 선택할 수 있습니다. 사용자 활동 보고서 페이지를 확인하려면 사용자를 *Insider Risk Management Investigators* 역할 그룹에 **할당해야** 합니다.  
 
-![내부자 위험 관리 사용자 활동 보고서 개요](../media/insider-risk-user-activity-report-overview.png)
+![내부자 위험 관리 사용자 활동 보고서 개요.](../media/insider-risk-user-activity-report-overview.png)
 
 내부자 위험 관리 개요  페이지의 사용자  활동 조사 섹션에서 보고서 관리를 선택하여 시작할 **수** 있습니다. 사용자에 대한 활동을 보기  위해 먼저 사용자 활동 보고서 만들기를 선택하고 새 사용자 활동 보고서 창에서 다음 필드를 **입력합니다.**
 
@@ -40,7 +40,7 @@ ms.locfileid: "53880344"
 - **종료 날짜:** 달력 컨트롤을 사용하여 사용자 활동의 종료 날짜를 선택합니다. 선택한 종료 날짜는 선택한 시작 날짜로부터 2일이 지난 후, 선택한 시작 날짜로부터 90일을 넘지 말아야 합니다.
 일반적으로 새 보고서는 검토할 준비가 되기까지 최대 10시간이 소요됩니다. 보고서가 준비되면 사용자 활동  보고서 페이지의  상태 열에 보고서 준비 상태가 표시됩니다. 자세한 보고서를 볼 사용자를 선택합니다.
 
-![내부자 위험 관리 사용자 활동 보고서](../media/insider-risk-user-activity-report.png)
+![내부자 위험 관리 사용자 활동 보고서입니다.](../media/insider-risk-user-activity-report.png)
 
 선택한 **사용자의** 사용자 활동 보고서에는 사용자 **활동** 및 활동 **탐색기 탭이** 포함되어 있습니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "53880344"
   - 시간, 일 또는 월 단위로 나열된 중간 심각도 경고를 해결하는 평균 시간입니다.
   - 낮은 심각도 경고를 해결하기 위한 평균 시간(시간, 일 또는 월)입니다.
 
-![내부자 위험 관리 경고 대시보드](../media/insider-risk-alerts-dashboard.png)
+![내부자 위험 관리 경고 대시보드.](../media/insider-risk-alerts-dashboard.png)
 
 > [!NOTE]
 > 내부자 위험 관리는 기본 제공 경보 스로틀 기능을 사용하여 위험 조사 및 검토 경험을 보호하고 최적화합니다. 이 제한은 잘못 구성된 데이터 커넥터 또는 DLP 정책과 같은 정책 경고 과부하를 초래할 수 있는 문제를 보호합니다. 따라서 사용자에 대한 새 경고를 표시하는 데 지연이 있을 수 있습니다.
@@ -134,7 +134,7 @@ ms.locfileid: "53880344"
 
 활동 탐색기는 경고에 대한 자세한 정보를 제공하는 포괄적인 분석 도구를 통해 위험 조사자 및 분석가를 제공합니다. 활동 탐색기를 사용하여 검토자는 감지된 위험한 활동의 타임라인을 신속하게 검토하고 경고와 관련된 모든 위험 활동을 식별하고 필터링할 수 있습니다. 활동 탐색기에서 알림을 필터링하려면 필터 컨트롤을 선택합니다. 경고에 대한 세부 정보 창에 나열된 하나 이상의 특성을 사용하여 경고를 필터링할 수 있습니다. 또한 활동 탐색기는 사용자 지정 가능한 열을 지원하여 조사자 및 분석가가 가장 중요한 정보에 대시보드를 집중할 수 있도록 합니다.
 
-![내부자 위험 관리 활동 탐색기 개요](../media/insider-risk-activity-explorer.png)
+![내부자 위험 관리 활동 탐색기 개요.](../media/insider-risk-activity-explorer.png)
 
 활동 **탐색기를 사용하려면** 다음 단계를 완료합니다.
 
@@ -145,7 +145,7 @@ ms.locfileid: "53880344"
 
 활동 탐색기에서 활동을 검토할 때 조사자 및 분석가가 특정 활동을 선택하고 활동 세부 정보 창을 열 수 있습니다. 이 창에는 조사자 및 분석가가 경고 선고 프로세스 중에 사용할 수 있는 활동에 대한 자세한 정보가 표시됩니다. 자세한 정보는 경고에 대한 컨텍스트를 제공하고 경고를 트리거한 위험 활동의 전체 범위를 식별하는 데 도움이 될 수 있습니다.
 
-![내부자 위험 관리 활동 탐색기 세부 정보](../media/insider-risk-activity-explorer-details.png)
+![내부자 위험 관리 활동 탐색기 세부 정보.](../media/insider-risk-activity-explorer-details.png)
 
 ## <a name="create-a-case-for-an-alert"></a>경고 사례 만들기
 

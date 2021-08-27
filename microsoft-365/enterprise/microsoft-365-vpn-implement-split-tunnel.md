@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Office 365 VPN 분할 터널링 구현 방법
-ms.openlocfilehash: 58c72fa0ede7b9f0fb75d1a8d8c26a4a18464aa4
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 9d706de846b6206a6be8a1524da1222b1c49147b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533582"
+ms.locfileid: "58571978"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Office 365 VPN 분할 터널링 구현
 
@@ -37,7 +37,7 @@ ms.locfileid: "58533582"
 
 분산 및 성능에 민감한 클라우드 응용 프로그램에 연결하는 데 강제 터널링된 VPN을 사용하는 것은 가장 좋은 일이지만 일부 기업에서는 보안 관점에서 상태 할당을 유지하기 위해 이러한 부정적인 영향을 받아들일 수 있습니다. 이 시나리오의 예제 다이어그램은 다음과 같습니다.
 
-![분할 터널 VPN 구성](../media/vpn-split-tunneling/enterprise-network-traditional.png)
+![VPN Tunnel 분할합니다.](../media/vpn-split-tunneling/enterprise-network-traditional.png)
 
 이 문제는 수년 동안 증가하여 많은 고객이 네트워크 트래픽 패턴의 중요한 변화를 보고하고 있습니다. 이제는 프레미스에 유지된 트래픽이 외부 클라우드 끝점에 연결됩니다. 많은 Microsoft 고객이 이전에 네트워크 트래픽의 약 80%가 내부 원본(위의 다이어그램에서 점선으로 표시됨)에 대한 것이라고 보고했습니다. 2020년에 주요 작업을 클라우드로 이동시킴에 따라 이 수치가 현재 약20 % 이하로 떨어졌으며, 이러한 추세는 다른 기업에서는 드문 일이 아닙니다. 시간이 지나며 클라우드 마이그레이션이 진행됨에 따라 위의 모델은 점점 번거롭고 지속하기 어려워졌으며, 조직이 클라우드 우선 환경으로 진입하는 상황에서 조직의 민첩성에 방해가 되었습니다.
 
@@ -63,31 +63,31 @@ Microsoft에서 원격 작업자의 연결을 최적화에 권장하는 전략�
 
 대부분의 엔터프라이즈 고객에게 가장 일반적인 시작 시나리오입니다. 강제 VPN이 사용됩니다. 즉, 끝점이 회사 네트워크에 있는지와 관계없이 트래픽의 100%가 회사 네트워크로 연결됩니다. 그런 다음 Office 365 인터넷 검색과 같은 외부(인터넷) 바운드 트래픽은 내부 보안 장비(예: proxies)에서 헤어핀됩니다. 약 100%의 사용자가 원격으로 작업하는 현재 환경의 경우 이 모델은 VPN 인프라에 많은 부하를 주게 하므로 모든 회사 트래픽의 성능이 크게 희미해지기 때문에 기업은 위기 시 효율적으로 작동할 수 있습니다.
 
-![VPN 강제 터널 모델 1](../media/vpn-split-tunneling/vpn-model-1.png)
+![VPN 강제 Tunnel 모델 1.](../media/vpn-split-tunneling/vpn-model-1.png)
 
 ### <a name="2-vpn-forced-tunnel-with-a-small-number-of-trusted-exceptions"></a>2. 소수의 신뢰할 수 있는 예외가 있는 VPN 강제 터널
 
 이 모델은 VPN 터널을 무시하고 이 예제의 Office 365 서비스로 직접 이동하기 위해 부하와 대기 시간이 매우 높은 몇 가지 제어되고 정의된 끝점을 허용하기 때문에 엔터프라이즈에서 훨씬 더 효율적으로 작동할 수 있습니다. 이렇게 하여 오프로드된 서비스의 성능이 크게 향상되고 VPN 인프라의 부하도 감소하므로 리소스에 대한 낮은경열로 작동해야 하는 요소가 계속 작동할 수 있습니다. 이 문서에서는 다양한 긍정적인 결과로 단순하고 정의된 작업을 빠르게 수행할 수 있도록 지원하기 위해 이 모델에 집중합니다.
 
-![분할 터널 VPN 모델 2](../media/vpn-split-tunneling/vpn-model-2.png)
+![분할 Tunnel VPN 모델 2.](../media/vpn-split-tunneling/vpn-model-2.png)
 
 ### <a name="3-vpn-forced-tunnel-with-broad-exceptions"></a>3. VPN 강제 터널(광범위한 예외 포함)
 
 세 번째 모델은 정의된 소규모 끝점 그룹을 직접 보내는 것이 아니라 모델 2의 범위를 넓히는 대신 모든 트래픽을 Office 365 신뢰할 수 있는 서비스로 직접 전송합니다. 따라서 회사 VPN 인프라의 부하가 줄어들며 정의된 서비스의 성능이 향상됩니다. 이 모델의 실행 가능성 평가 및 구현에 시간이 더 걸릴 가능성이 높기 때문에 모델 2가 성공적으로 적용된 후 나중에 다시 실행될 수 있는 단계일 수 있습니다.
 
-![분할 터널 VPN 모델 3](../media/vpn-split-tunneling/vpn-model-3.png)
+![분할 Tunnel VPN 모델 3.](../media/vpn-split-tunneling/vpn-model-3.png)
 
 ### <a name="4-vpn-selective-tunnel"></a>4. VPN 선택적 터널
 
 이 모델은 회사 IP 주소를 포함하는 것으로 식별된 트래픽만 VPN 터널로 전송되므로 인터넷 경로가 그 밖의 모든 항목의 기본 경로라는 점에서 세 번째 모델과 반대입니다. 이 모델을 안전하게 구현하려면 조직에서 [제로 트러스트](https://www.microsoft.com/security/zero-trust?rtc=1) 경로를 제대로 따라야 하빈다. 점점 더 많은 서비스가 회사 네트워크에서 클라우드로 이동함에 따라 이 모델이나 이 모델의 일부 변형은 시간이 지남에 따라 필수적인 기본값이 될 수 있다는 점에 유의해야 합니다. Microsoft는 내부적으로 이 모델을 사용합니다. Microsoft의 VPN 분할 터널링 구현에 대한 자세한 내용은 [VPN에서 실행: Microsoft가 원격 인력을 연결 상태로 유지하는 방법](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/?elevate-lv)을 참조하세요.
 
-![분할 터널 VPN 모델 4](../media/vpn-split-tunneling/vpn-model-4.png)
+![분할 Tunnel VPN 모델 4.](../media/vpn-split-tunneling/vpn-model-4.png)
 
 ### <a name="5-no-vpn"></a>5. VPN 없음
 
 모델 번호 2의 고급 버전입니다. 여기서 모든 내부 서비스는 최신 보안 방식 또는 Azure AD 프록시, MCAS, Zscaler ZPA 등의 SDWAN 솔루션을 통해 게시됩니다.
 
-![분할 터널 VPN 모델 5](../media/vpn-split-tunneling/vpn-model-5.png)
+![분할 Tunnel VPN 모델 5.](../media/vpn-split-tunneling/vpn-model-5.png)
 
 ## <a name="implement-vpn-split-tunneling"></a>VPN 분할 터널링 구현
 
@@ -95,7 +95,7 @@ Microsoft에서 원격 작업자의 연결을 최적화에 권장하는 전략�
 
 다음 다이어그램은 권장 VPN 분할 터널 솔루션이 어떻게 진행되는지 보여줍니다.
 
-![분할 터널 VPN 솔루션 세부 정보](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
+![분할 터널 VPN 솔루션 세부 정보입니다.](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
 
 ### <a name="1-identify-the-endpoints-to-optimize"></a>1. 최적화할 끝점 식별
 
@@ -172,7 +172,7 @@ foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -Inter
 
 경로를 추가 한 후 명령 프롬프트 또는 PowerShell에서 **route print** 를 실행하여 경로 테이블이 올바른지 확인할 수 있습니다. 출력에는 인터페이스 색인(이 예제의 경우 _22_)과 해당 인터페이스의 게이트웨이(이 예제의 경우 _192.168.1.1_)를 표시하는 추가된 경로가 포함되어야 합니다.
 
-![Route print 출력](../media/vpn-split-tunneling/vpn-route-print.png)
+![인쇄 출력을 라우팅합니다.](../media/vpn-split-tunneling/vpn-route-print.png)
 
 최적화 범주에서 _모든_ 현재 IP 주소 범위에 대한 경로를 추가하려면 다음 스크립트 변형을 사용하여 현재 최적화 IP 서브넷 집합에 대해 [Office 365 IP 및 URL 웹 서비스](microsoft-365-ip-web-service.md)를 쿼리하고 이를 라우팅 테이블에 추가할 수 있습니다.
 

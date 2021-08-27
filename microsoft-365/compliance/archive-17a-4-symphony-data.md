@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 Symphony DataParser 커넥터를 설정하고 사용하여 Symphony 데이터를 Microsoft 365.
-ms.openlocfilehash: 1302ae87900b765f0cdf3ed9e380c6c3361f0760678ef1f459827374a4be00e4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b8ea306ffd8dc5384519a4828c5f855b122891f4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571522"
 ---
 # <a name="set-up-a-connector-to-archive-data-from-symphony"></a>Symphony에서 데이터를 보관할 커넥터 설정
 

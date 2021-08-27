@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 77d3968e0eb96d100149582f021da2f050c12262f26628beee2c60c097a435cd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f9c61d870f15536ceadd000da5d9123e0dd918e5
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800477"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611274"
 ---
 # <a name="create-an-app-to-access-microsoft-defender-for-endpoint-without-a-user"></a>사용자 없이 끝점용 Microsoft Defender에 액세스하는 앱 만들기
 
@@ -52,22 +52,22 @@ ms.locfileid: "53800477"
 
 1. 전역 관리자 역할이 있는 사용자로 [Azure에](https://portal.azure.com) **로그온합니다.**
 
-2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.** 
+2. 앱 등록 **Azure Active Directory** \> **새** \> **등록으로 이동합니다.** 
 
-   ![응용 Microsoft Azure 탐색 및 이미지](images/atp-azure-new-app2.png)
+   ![응용 프로그램 Microsoft Azure 탐색하는 이미지입니다.](images/atp-azure-new-app2.png)
 
 3. 등록 양식에서 응용 프로그램의 이름을 선택한 다음 등록을 **선택합니다.**
 
-4. 앱이 끝점용 Defender에 액세스하여 '모든 경고 **읽기'** 권한을 할당할 수 있도록 설정하려면 응용 프로그램 페이지에서 **API** 사용 권한 추가 권한 API를 선택하고 >  >    >   **WindowsDefenderATP를 입력한 다음 WindowsDefenderATP를** 선택합니다. 
+4. 앱이 끝점용 Defender에 액세스하여 '모든 경고 **읽기'** 권한을 할당할 수 있도록 설정하려면 응용 프로그램 페이지에서 **API** 사용 권한 추가 권한 API를 선택하고 > \>  \>  **WindowsDefenderATP를 입력한 다음 WindowsDefenderATP를** 선택합니다. 
 
    > [!NOTE]
    > *WindowsDefenderATP는* 원래 목록에 나타나지 않습니다. 텍스트 상자에 이름을 입력하여 표시를 시작하십시오.
 
-   ![사용 권한 추가](images/add-permission.png)
+   ![사용 권한을 추가합니다.](images/add-permission.png)
 
-   - 응용 **프로그램 권한**  >  **Alert.Read.All** 을 선택한 다음 사용 권한 **추가를 선택합니다.**
+   - 응용 **프로그램 권한** \> **Alert.Read.All** 을 선택한 다음 사용 권한 **추가를 선택합니다.**
 
-   ![앱 사용 권한](images/application-permissions.png)
+   ![앱 사용 권한.](images/application-permissions.png)
 
      관련 권한을 선택해야 합니다. '모든 경고 읽기'는 예일 뿐입니다. 예:
 
@@ -80,18 +80,18 @@ ms.locfileid: "53800477"
      > [!NOTE]
      > 권한을 추가할 때마다 새 사용 권한을 **적용하기** 위해 동의 부여를 선택해야 합니다.
 
-    ![사용 권한 부여](images/grant-consent.png)
+    ![사용 권한을 부여합니다.](images/grant-consent.png)
 
 6. 응용 프로그램에 비밀을 추가하려면 인증서 & **를** 선택하고 비밀에 설명을 추가한 다음 추가를 **선택합니다.**
 
     > [!NOTE]
     > 추가를 **선택한** 후 생성된 **비밀 값 복사 를 선택합니다.** 나가면 이 값을 검색할 수 없습니다.
 
-    ![앱 키 만들기 이미지](images/webapp-create-key2.png)
+    ![앱 키 만들기의 이미지입니다.](images/webapp-create-key2.png)
 
 7. 응용 프로그램 ID와 테넌트 ID를 기록해 써야 합니다. 응용 프로그램 페이지에서 개요로 이동하여 **다음을** 복사합니다.
 
-   ![생성된 앱 ID의 이미지](images/app-and-tenant-ids.png)
+   ![생성된 앱 ID의 이미지입니다.](images/app-and-tenant-ids.png)
 
 8. **끝점 파트너용 Microsoft Defender의 경우만 입니다.** 앱을 다중 테넌트로 설정(동의 후 모든 테넌트에서 사용 가능) 타사 **앱(예:** 여러 고객의 테넌트에서 실행되는 앱을 만드는 경우)에 필요합니다. 테넌트에서만 실행할 서비스를 만드는 경우(예: 자체 데이터와만 상호 작용하는 응용 프로그램을 직접 만드는 경우)에는 필요하지 않습니다.  앱을 다중 테넌트로 설정하는 경우:
 
@@ -201,7 +201,7 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
 1. 원하는 사용 권한으로 '역할' 클레임이 유효한지 확인
 1. 다음 이미지에서는 끝점의 모든 역할에 대한 사용 권한이 있는 앱에서 획득한 디코딩된 토큰을 볼 수 있습니다.
 
-![토큰 유효성 검사 이미지](images/webapp-decoded-token.png)
+![토큰 유효성 검사의 이미지입니다.](images/webapp-decoded-token.png)
 
 ## <a name="use-the-token-to-access-microsoft-defender-for-endpoint-api"></a>토큰을 사용하여 끝점 API용 Microsoft Defender에 액세스
 

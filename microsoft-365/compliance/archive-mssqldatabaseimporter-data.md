@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 MS 계정에서 데이터를 가져오고 보관하는 커넥터를 설정할 수 SQL Database. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 해당 커넥터에 Microsoft 365. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: cf0e4d1bc9d5cf6db7538f5f75174488532871e8
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 9bd83226973b0a51990382f02b17fba0da28d91b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533606"
+ms.locfileid: "58571486"
 ---
 # <a name="set-up-a-connector-to-archive-data-from-ms-sql-database"></a>MS 2013에서 데이터를 보관할 커넥터 SQL Database
 
@@ -29,7 +29,7 @@ MS SQL Database 사서함에 저장한 후 소송 보존, eDiscovery Microsoft 3
 
 다음 개요에서는 커넥터를 사용하여 MS SQL 데이터를 보관하는 Microsoft 365.
 
-![MS 및 데이터 보관 SQL 워크플로](../media/MSSQLDatabaseConnectorWorkflow.png)
+![MS 데이터 보관 워크플로를 SQL.](../media/MSSQLDatabaseConnectorWorkflow.png)
 
 1. 조직은 MS SQL Database 공급자와 함께 MS SQL Database 사이트 설정 및 구성합니다.
 

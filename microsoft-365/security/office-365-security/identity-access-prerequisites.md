@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 684585d38bd66e5a62df82e9c757a80775f4403e42d4f28c929d1f6e3fe3852f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d4f44b1e77771860ba36a77f257b34bf0cd10e2a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873371"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571786"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>ID 및 장치 액세스 정책 구현을 위한 선행 작업
 
@@ -129,6 +129,6 @@ Microsoft 365 E3 또는 E5 또는 별도의 Azure AD Premium P1 또는 P2 라이
 
 ## <a name="next-step"></a>다음 단계
 
-[![2단계: 공용 ID 구성 및 조건부 액세스 정책 액세스](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
+[![2단계: 공용 ID를 구성하고 조건부 액세스 정책에 액세스합니다.](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
 
 [공통 ID 및 장치 액세스 정책 구성](identity-access-policies.md)

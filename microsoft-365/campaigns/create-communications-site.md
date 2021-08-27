@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인 또는 비즈니스에 대한 커뮤니케이션 사이트를 만들 수 있습니다.
-ms.openlocfilehash: d34ab2f5360db1d756cb97a66bb87e443b86605f4864b1f8fdd827504c8829c1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d40311a616e51ed665248dded45ef7d0432b6f94
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843465"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571558"
 ---
 # <a name="create-a-communications-site"></a>통신 사이트 만들기
 
@@ -44,13 +44,13 @@ Communications 사이트에 다음 요소를 포함합니다.
 4. 모든 사람이 **다가오는** 기능을 볼 수 있도록 이벤트 웹 파트에 이벤트를 추가합니다.
 5. 이미지 갤러리 웹 파트에 사용하거나 공유할 수 있는 사진을 **추가합니다.**
 
-![캠페인에 SharePoint 요소를 위한 공간이 있는 통신 페이지의 다이어그램](../media/m365-democracy-comms-site.png)
+![캠페인에 SharePoint 요소를 위한 공간이 있는 통신 페이지의 다이어그램입니다.](../media/m365-democracy-comms-site.png)
 
 ## <a name="infographic-create-a-communications-site-infographic"></a>인포그래픽: 커뮤니케이션 사이트 정보 그래픽 만들기
 
 다음은 PowerPoint PDF에 대한 다음 링크를 다운로드하여 타블로이드 형식으로 인쇄할 수 있습니다(ledger 11 x 17 또는 A3).
 
-[![커뮤니케이션 사이트 인포그래픽 이미지](../media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
+[![커뮤니케이션 사이트 인포그래픽 이미지입니다.](../media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
 
 [PDF](downloads/M365CampaignsCreateCommunicationSite.pdf)  |  [PowerPoint](downloads/M365CampaignsCreateCommunicationSite.pptx)
 

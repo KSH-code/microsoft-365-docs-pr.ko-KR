@@ -20,12 +20,12 @@ description: 관리자는 검색 포털에서 사용할 수 있는 Office 365 De
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca1013e631c0a041d2fa4475081588a65c299129fc017e98235f57c95cba88f1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5cc6c39c9d18e1fcc206f1d8cb81451201541e61
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56817119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614961"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>검색 포털에서 Office 365 대한 Microsoft 365 Defender 보기
 
@@ -37,7 +37,7 @@ ms.locfileid: "56817119"
 
 Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Office 365 Plan 1용 Microsoft Defender 또는 Office 365 Plan 2 추가 기능용 Microsoft Defender)에는 다양한 보안 관련 보고서가 포함되어 있습니다. 필요한 권한이 [](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)있는 경우 보고서 전자 메일 Microsoft 365 Defender 공동 작업 전자  메일 & 공동 작업 보고서로 이동하여 & \>  \> **수 있습니다.** 전자 메일 및 공동 작업 **& 페이지로** 직접 이동하기 위해 를 를 를 열 수 <https://security.microsoft.com/emailandcollabreport> 있습니다.
 
-![& 포털의 전자 메일 Microsoft 365 Defender 공동 작업 보고서 페이지](../../media/email-collaboration-reports.png)
+![전자 & 포털의 공동 작업 보고서 Microsoft 365 Defender 전자 메일로 보내기](../../media/email-collaboration-reports.png)
 
 > [!NOTE]
 >
@@ -63,7 +63,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 보고서를 보시고 Microsoft 365 Defender [포털을](https://security.microsoft.com)열고 보고서  전자 메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 메일 대기 시간 보고서를 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/mailLatencyReport> 습니다.
 
-![전자 메일 및 공동 작업 보고서 페이지의 메일 & 보고서 위젯](../../media/mail-latency-report-widget.png)
+![메일 대기 시간 보고서 위젯의 전자 메일 & 공동 작업 보고서 페이지의 위젯입니다.](../../media/mail-latency-report-widget.png)
 
 메일 대기 **시간 보고서** 페이지에서는 메일 대기 시간 보고서 페이지에서 다음 **탭을 사용할 수** 있습니다.
 
@@ -78,7 +78,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 차트의 범주 위에 마우스를 대면 각 범주의 대기 시간 분석이 표시됩니다.
 
-![메일 대기 시간 보고서의 50번째 백분위수 보기](../../media/mail-latency-report-50th-percentile-view.png)
+![메일 대기 시간 보고서의 50번째 백분위수 보기입니다.](../../media/mail-latency-report-50th-percentile-view.png)
 
 필터를 **클릭하면** 다음 값으로 차트와 세부 정보 테이블을 필터링할 수 있습니다.
 
@@ -107,7 +107,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 보고서를 보시고 Microsoft 365 Defender [포털을](https://security.microsoft.com)열고 보고서  전자 메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동 작업 보고서** 페이지에서 URL 보호 페이지를 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/URLProtectionActionReport> 습니다.
 
-![전자 메일 및 공동 작업 보고서 & URL 보호 보고서 위젯](../../media/url-protection-report-widget.png)
+![전자 메일 및 공동 작업 보고서 & URL 보호 보고서 위젯입니다.](../../media/url-protection-report-widget.png)
 
 다음 섹션에서는 **URL 위협** 방지 보고서 페이지의 사용 가능한 보기에 대한 설명을 제공합니다.
 
@@ -116,7 +116,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ### <a name="view-data-by-url-click-protection-action"></a>URL 클릭 보호 작업으로 데이터 보기
 
-![URL 위협 방지 보고서의 URL 클릭 보호 작업 보기](../../media/url-threat-protection-report-url-click-protection-action-view.png)
+![URL 위협 방지 보고서의 URL 클릭 보호 작업 보기입니다.](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
 **URL로 데이터** 보기 보호 작업 보기에는 조직의 사용자가 클릭한 URL 클릭 수와 클릭 결과가 표시됩니다.
 
@@ -150,7 +150,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ### <a name="view-data-by-url-click-by-application"></a>응용 프로그램으로 클릭한 URL로 데이터 보기
 
-![URL 위협 방지 보고서의 응용 프로그램 보기로 URL 클릭](../../media/url-threat-protection-report-url-click-by-application-view.png)
+![URL 위협 방지 보고서의 응용 프로그램 보기로 URL을 클릭합니다.](../../media/url-threat-protection-report-url-click-by-application-view.png)
 
 응용 **프로그램 보기에서 URL로 데이터** 보기를 클릭하면 링크가 지원되는 앱의 URL 클릭 금고 표시됩니다.
 
@@ -232,4 +232,4 @@ PowerShell 보고 cmdlet:
 
 [검색 포털의 스마트 보고서 및 Microsoft 365 Defender 정보](reports-and-insights-in-security-and-compliance.md)
 
-[역할 권한(Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)
+[Azure AD 기본 제공 역할](/azure/active-directory/roles/permissions-reference)
