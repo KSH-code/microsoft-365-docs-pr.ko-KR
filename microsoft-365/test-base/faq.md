@@ -14,12 +14,12 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: ff686860455279218b55fa871327a87fe1ce3e411f3aa7cab83e2ddba00978e7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2f4cfd4cb55d6a89acf8f78d60006851c14e603f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888242"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548633"
 ---
 # <a name="test-base-faq"></a>테스트 기본 FAQ
 
@@ -79,7 +79,7 @@ OOB(첫 실행) 테스트는 응용 프로그램에서 표준화된 원격 분�
 
 OOB(첫 실행) 테스트의 경우 설치 스크립트에 재부팅이 필요한지 _여부를 지정할 수 있습니다._
 
-![사진 다시부팅](Media/reboot.png)
+![그림을 다시부팅합니다.](Media/reboot.png)
 
 기능 테스트의 경우 추가되는 각 스크립트에 대해 재부팅이 필요한지 여부를 지정할 수 있습니다.
 

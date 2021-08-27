@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 79916304950547acdb169cbee9b8fcccc40b8f93
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 262c68e517bb088af7ca3fa814a788c9303adf22
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247137"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548693"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>2013에서 인시던트 Microsoft 365 Defender
 
@@ -50,11 +50,11 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 확인 표시 열에서 인시던트부터 선택할 수 있습니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-incidents/incidents-ss-incident-select.png" alt-text="확인 표시 열에서 인시던트 선택 예제":::
+:::image type="content" source="../../media/investigate-incidents/incidents-ss-incident-select.png" alt-text="확인 표시 열에서 인시던트 선택 예제입니다.":::
 
 이렇게 하는 경우 인시던트에 대한 주요 정보(예: 심각도, 할당된 사용자) 및 [MITRE ATT가 &trade; ](https://attack.mitre.org/) 인시던트에 대한 CK 범주를&창이 열립니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-incidents/incidents-ss-incident-side-panel.png" alt-text="인시던트에 대한 요약 창의 예":::
+:::image type="content" source="../../media/investigate-incidents/incidents-ss-incident-side-panel.png" alt-text="인시던트에 대한 요약 창의 예입니다.":::
 
 여기에서 문제 페이지 **열기 를 선택할 수 있습니다.** 그러면 경고, 장치, 사용자, 조사 및 증거에 대한 추가 요약 정보와 탭을 찾을 수 있는 인시던트의 기본 페이지가 열립니다.
 
@@ -89,7 +89,7 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="인시던트에 대한 경고 페이지 예":::
+:::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="인시던트에 대한 경고 페이지의 예입니다.":::
 
 기본적으로 경고는 시간적으로 순서가 지정되어 시간이 지날 때 공격이 어떻게 재생되는지 알 수 있습니다. 인시던트 내에서 경고를 선택하면 Microsoft 365 Defender 상황과 관련한 경고 정보가 표시됩니다. 
 
@@ -97,7 +97,7 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-incidents/incident-alert-example.png" alt-text="인시던트 내의 경고 세부 정보 페이지 예":::
+:::image type="content" source="../../media/investigate-incidents/incident-alert-example.png" alt-text="인시던트 내의 경고 세부 정보 페이지의 예입니다.":::
 
 인시던트 경고 페이지에는 다음 섹션이 있습니다.
 
@@ -115,15 +115,15 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 경고 조사에서 경고 큐 및 경고 페이지를 사용하는 [방법을 학습합니다.](investigate-alerts.md)
 
-## <a name="devices"></a>장치
+## <a name="devices"></a>디바이스
 
 장치 **탭에는** 인시던트와 관련된 모든 장치가 나열됩니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-incidents/incident-devices.png" alt-text="인시던트에 대한 장치 페이지의 예":::
+:::image type="content" source="../../media/investigate-incidents/incident-devices.png" alt-text="인시던트에 대한 장치 페이지의 예입니다.":::
 
 장치의 확인 표시를 선택하여 장치, 디렉터리 데이터, 활성 경고 및 로그온한 사용자의 세부 정보를 볼 수 있습니다. Microsoft Defender for Endpoints 장치 인벤토리에서 장치 세부 정보를 확인하려면 장치의 이름을 선택합니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-incidents/incident-devices-details.png" alt-text="끝점용 Microsoft Defender의 장치 페이지 예":::
+:::image type="content" source="../../media/investigate-incidents/incident-devices-details.png" alt-text="끝점용 Microsoft Defender에 대한 장치 페이지의 예":::
 
 디바이스 페이지에서 모든 경고, 타임라인 및 보안 권장 사항과 같은 장치에 대한 추가 정보를 수집할 수 있습니다. 예를 들어 시간  표시 막대 탭에서 컴퓨터 타임라인을 스크롤하여 컴퓨터에서 관찰된 모든 이벤트와 동작을 시간 순서대로 볼 수 있으며, 경고가 발생했습니다.
 
@@ -134,7 +134,7 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 사용자 **탭에는** 인시던트의 일부로 식별되거나 인시던트와 관련된 것으로 식별된 모든 사용자가 나열됩니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예":::
+:::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예입니다.":::
 
 사용자의 확인 표시를 선택하여 사용자 계정 위협, 노출 및 연락처 정보에 대한 세부 정보를 볼 수 있습니다. 사용자 이름을 선택하여 추가 사용자 계정 세부 정보를 볼 수 있습니다.
 
@@ -145,7 +145,7 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 사서함 **탭에는** 인시던트의 일부로 식별되거나 인시던트와 관련이 있는 것으로 확인된 모든 사서함이 나열됩니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-incidents/incident-mailboxes.png" alt-text="인시던트에 대한 사서함 페이지의 예":::
+:::image type="content" source="../../media/investigate-incidents/incident-mailboxes.png" alt-text="인시던트에 대한 사서함 페이지의 예입니다.":::
 
 사서함의 확인 표시를 선택하여 활성 경고 목록을 볼 수 있습니다. 사서함 이름을 선택하여 Microsoft Defender for Office 365.
 

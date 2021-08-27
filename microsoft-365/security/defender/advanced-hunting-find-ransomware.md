@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 4dac86ca9125359b07c4acfb7500b6920baa019bd2d4df2ca6eff32dde412735
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e3c944ea79adc22f587e2a0e20e3d783f845d15f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867771"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548777"
 ---
 # <a name="hunt-for-ransomware"></a>랜섬웨어 찾기
 
@@ -235,7 +235,7 @@ ScDisable = iff(make_set(ScDisableUse) contains "1", 1, 0), TotalEvidenceCount =
 - **TotalEvidenceCount**- 관찰된 기호 수입니다.
 - **UniqueEvidenceCount**- 관찰된 표지의 수
 
-![랜섬웨어 활동에 대한 쿼리 결과의 이미지](../../media/advanced-hunting-ransomware-query.png)
+![랜섬웨어 활동에 대한 쿼리 결과의 이미지입니다.](../../media/advanced-hunting-ransomware-query.png)
 
 *영향을 받는 장치 및 랜섬웨어 활동의 다양한 징후 수를 보여 주는 쿼리 결과*
 

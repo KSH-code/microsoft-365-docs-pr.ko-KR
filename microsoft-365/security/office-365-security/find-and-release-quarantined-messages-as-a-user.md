@@ -20,12 +20,12 @@ ms.custom:
 description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: efd82e5fc321b9a9c7a586b75e2b96ae44cc38c1
-ms.sourcegitcommit: d792743bc21eec87693ebca51d7307a506d0bc43
+ms.openlocfilehash: d8aab84cd406366182650e6fbf6c39aee9810ce3
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58450203"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548705"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 
@@ -46,9 +46,9 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 |격리 이유:|보기|릴리스|삭제|
 |---|:---:|:---:|:---:|
-|대량|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|스팸|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|피싱(높은 신뢰도 피싱은 해당 안 됨)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
+|대량|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
+|스팸|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
+|피싱(높은 신뢰도 피싱은 해당 안 됨)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
 |
 
 Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)(관리자가 설정한 경우)에서 격리된 메시지를 보고 관리합니다.
@@ -113,7 +113,7 @@ Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-n
      - **피싱 방지 정책**
      - **스팸 방지 정책**
 
-   완료되면 **적용** 을 클릭합니다. 필터를 지우려면 ![필터 지우기 아이콘](../../media/m365-cc-sc-clear-filters-icon.png) **필터 지우기** 를 클릭합니다.
+   완료되면 **적용** 을 클릭합니다. 필터를 지우려면 ![필터 지우기 아이콘](../../media/m365-cc-sc-clear-filters-icon.png)을 클릭합니다. **필터 지우기**
 
 4. **검색** 상자와 해당 값을 사용하여 특정 메시지를 찾습니다. 와일드카드는 지원되지 않습니다. 다음 값을 기준으로 검색할 수 있습니다.
    - 메시지 ID
@@ -130,7 +130,7 @@ Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-n
 
 목록에서 격리된 메시지를 선택하면 표시되는 세부 정보 플라이아웃에서 다음 정보를 확인할 수 있습니다.
 
-![격리된 메시지의 세부 정보 플라이아웃](../../media/quarantine-user-message-details.png)
+![격리된 메시지의 세부 정보 플라이아웃.](../../media/quarantine-user-message-details.png)
 
 목록에서 전자 메일 메시지를 선택하면 **세부 정보** 플라이아웃 창에 다음 메시지 세부 정보가 표시됩니다.
 
@@ -149,31 +149,31 @@ Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-n
 > [!NOTE]
 > 세부 정보 플라이아웃에서 나가지 않고 보고 있는 격리된 메시지를 변경하려면 플라이아웃 맨 위에 있는 위쪽 및 아래쪽 화살표를 사용합니다.
 >
-> ![격리된 메시지의 세부 정보 플라이아웃에 있는 위쪽 및 아래쪽 화살표](../../media/quarantine-message-details-flyout-up-down-arrows.png)
+> ![격리된 메시지의 세부 정보 플라이아웃에 있는 위쪽 및 아래쪽 화살표.](../../media/quarantine-message-details-flyout-up-down-arrows.png)
 
 ### <a name="take-action-on-quarantined-email"></a>격리된 전자 메일에 대한 작업 수행하기
 
 목록에서 격리된 메시지를 선택하면 세부 정보 플라이아웃에서 다음 작업을 수행할 수 있습니다.
 
-![격리된 메시지의 세부 정보 플라이아웃에서 사용 가능한 작업](../../media/quarantine-user-message-details-flyout-actions.png)
+![격리된 메시지의 세부 정보 플라이아웃에서 사용 가능한 작업.](../../media/quarantine-user-message-details-flyout-actions.png)
 
-- ![전자 메일 릴리스 아이콘](../../media/m365-cc-sc-check-mark-icon.png)**전자 메일 릴리스**<sup>\*</sup>: 받은 편지함으로 메시지를 전달합니다.
+- ![전자 메일 릴리스 아이콘.](../../media/m365-cc-sc-check-mark-icon.png) **전자 메일 릴리스**<sup>\*</sup>: 받은 편지함으로 메시지를 전달합니다.
 
-- ![메시지 헤더 보기 아이콘](../../media/m365-cc-sc-eye-icon.png)**메시지 헤더 보기**: 메시지 헤더 텍스트를 보려면 이 링크를 선택합니다. 다음 링크와 함께 **메시지 헤더** 플라이아웃이 나타납니다.
+- ![메시지 헤더 보기 아이콘](../../media/m365-cc-sc-eye-icon.png). **메시지 헤더 보기** 메시지 헤더 텍스트를 보려면 이 링크를 선택합니다. 다음 링크와 함께 **메시지 헤더** 플라이아웃이 나타납니다.
 - **메시지 헤더 복사**: 이 링크를 클릭하여 메시지 헤더(모든 헤더 필드)를 클립보드에 복사합니다.
 - **Microsoft 메시지 헤더 분석기**: 헤더 필드 및 값을 자세히 분석하려면 이 링크를 클릭하여 메시지 헤더 분석기로 이동합니다. **분석할 메시지 헤더를 삽입** 섹션에 메시지 헤더를 삽입합니다(Ctrl+V 또는 마우스 오른쪽 단추를 클릭하고 **붙여넣기** 선택). 그런 다음 **헤더 분석** 을 클릭합니다.
 
 ![기타 작업 아이콘](../../media/m365-cc-sc-more-actions-icon.png) **기타 작업** 을 클릭하면 다음 작업을 수행할 수 있습니다.
 
-- ![메시지 미리 보기 아이콘](../../media/m365-cc-sc-eye-icon.png) **메시지 미리 보기**: 표시되는 플라이아웃에서 다음 탭 중 하나를 선택합니다.
+- ![메시지 미리 보기 아이콘](../../media/m365-cc-sc-eye-icon.png). **메시지 미리 보기**: 표시되는 플라이아웃에서 다음 탭 중 하나를 선택합니다.
   - **원본**: 모든 링크가 비활성화된 메시지 본문의 HTML 버전을 표시합니다.
   - **일반 텍스트**: 메시지 본문을 일반 텍스트로 표시합니다.
 
-- ![격리 아이콘에서 제거](../../media/m365-cc-sc-delete-icon.png) **격리에서 제거**: 표시되는 경고에서 **예** 를 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 즉시 삭제됩니다.
+- ![격리 아이콘에서 제거](../../media/m365-cc-sc-delete-icon.png). **격리에서 제거**: 표시되는 경고에서 **예** 를 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 즉시 삭제됩니다.
 
-- ![전자 메일 다운로드 아이콘](../../media/m365-cc-sc-download-icon.png)**전자 메일 다운로드**: 표시되는 플라이아웃에서 **이 메시지를 다운로드할 때의 위험을 이해합니다** 를 선택한 다음 **다운로드** 를 클릭하여 메시지의 로컬 복사본을 .eml 형식으로 저장합니다.
+- ![전자 메일 다운로드 아이콘.](../../media/m365-cc-sc-download-icon.png) **전자 메일 다운로드**: 표시되는 플라이아웃에서 **이 메시지를 다운로드할 때의 위험을 이해합니다** 를 선택한 다음 **다운로드** 를 클릭하여 메시지의 로컬 복사본을 .eml 형식으로 저장합니다.
 
-- ![보낸 사람 차단 아이콘](../../media/m365-cc-sc-block-sender-icon.png) **보낸 사람 차단**: **사용자** 의 사서함의 수신 거부 목록에 보낸 사람을 추가합니다. 자세한 내용은 [메일 보낸 사람 차단](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)을 참조하세요.
+- ![보낸 사람 차단 아이콘](../../media/m365-cc-sc-block-sender-icon.png) **보낸 사람 차단**: **귀하** 의 사서함의 수신 거부 목록에 보낸 사람을 추가합니다. 자세한 내용은 [메일 보낸 사람 차단](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)을 참조하세요.
 
 <sup>\*</sup>이미 릴리스된 메시지에 대해 이 옵션을 사용할 수 없습니다(**릴리스 상태** 값은 **릴리스됨**).
 
@@ -182,23 +182,23 @@ Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-n
 > [!NOTE]
 > 모바일에서는 작업 아이콘의 설명 텍스트를 볼 수 없습니다.
 >
-> ![사용 가능한 작업이 강조 표시된 격리된 메시지의 세부 정보](../../media/quarantine-user-message-details-flyout-mobile-actions.png)
+> ![사용 가능한 작업이 강조 표시된 격리된 메시지의 세부 정보.](../../media/quarantine-user-message-details-flyout-mobile-actions.png)
 >
 > 아이콘 순서 및 해당 설명은 다음 표에 요약되어 있습니다.
 >
 > |아이콘|설명|
 > |---:|---|
-> |![전자 메일 해제 아이콘](../../media/m365-cc-sc-check-mark-icon.png)|**전자 메일 해제**|
-> |![메시지 헤더 보기 아이콘](../../media/m365-cc-sc-eye-icon.png)|**메시지 헤더 보기**|
-> |![메시지 미리 보기 아이콘](../../media/m365-cc-sc-eye-icon.png)|**메시지 미리 보기**|
-> |![격리 아이콘에서 제거](../../media/m365-cc-sc-delete-icon.png)|**격리 해제**|
-> |![보낸 사람 차단 아이콘](../../media/m365-cc-sc-block-sender-icon.png)|**보낸 사람 차단**|
+> |![전자 메일 해제 아이콘.](../../media/m365-cc-sc-check-mark-icon.png)|**전자 메일 해제**|
+> |![메시지 헤더 보기 아이콘.](../../media/m365-cc-sc-eye-icon.png)|**메시지 헤더 보기**|
+> |![메시지 미리 보기 아이콘.](../../media/m365-cc-sc-eye-icon.png)|**메시지 미리 보기**|
+> |![격리 아이콘에서 제거.](../../media/m365-cc-sc-delete-icon.png)|**격리 해제**|
+> |![보낸 사람 차단 아이콘.](../../media/m365-cc-sc-block-sender-icon.png)|**보낸 사람 차단**|
 
 #### <a name="take-action-on-multiple-quarantined-email-messages"></a>여러 개의 격리된 전자 메일 메시지에 대한 작업 수행하기
 
 첫 번째 열의 왼쪽에 있는 빈 영역을 클릭하여 목록에서 격리된 메시지를 여러 개(최대 100개) 선택하면 다음 작업을 수행할 수 있는 **대량 작업** 드롭다운 목록이 나타납니다.
 
-![격리된 메시지에 대한 대량 작업 드롭다운 목록](../../media/quarantine-user-message-bulk-actions.png)
+![격리된 메시지에 대한 대량 작업 드롭다운 목록.](../../media/quarantine-user-message-bulk-actions.png)
 
-- ![전자 메일 릴리스 아이콘](../../media/m365-cc-sc-check-mark-icon.png)**메시지 릴리스**: 받은 편지함으로 메시지를 전달합니다.
-- ![격리에서 아이콘 제거](../../media/m365-cc-sc-delete-icon.png) **메시지 삭제**: 표시되는 경고에서 **예** 를 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 격리에서 즉시 제거됩니다.
+- ![전자 메일 릴리스 아이콘](../../media/m365-cc-sc-check-mark-icon.png) **메시지 릴리스**: 받은 편지함으로 메시지를 전달합니다.
+- ![격리에서 아이콘 제거.](../../media/m365-cc-sc-delete-icon.png) **메시지 삭제**: 표시되는 경고에서 **예** 를 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 격리에서 즉시 제거됩니다.

@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 보안 & Complance Center의 공격 시뮬레이터를 사용하여 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조직에서 시뮬레이션된 피싱 및 암호 공격을 Office 365 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 902673c39e0f2c9c68e8408073dc25bb7f92c87189e10568c80a1be21e2c7b02
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 631c6d9ecfeb24ddfad16391990043d283b02a82
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56878257"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548669"
 ---
 # <a name="attack-simulator-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 시뮬레이터
 
@@ -69,7 +69,7 @@ ms.locfileid: "56878257"
 
   - 이 테스트가 단지 테스트에 불과하다는 설명과 피싱 메시지를 인식하기 위한 팁을 제공하는 기본 페이지입니다.
 
-    ![피싱 링크를 클릭하고 자격 증명을 입력하면 사용자에게 표시](../../media/attack-simulator-phishing-result.png)
+    ![피싱 링크를 클릭하고 자격 증명을 입력하면 사용자에게 표시됩니다.](../../media/attack-simulator-phishing-result.png)
 
   - 지정한 사용자 지정 페이지(URL)입니다.
 
@@ -164,7 +164,7 @@ ms.locfileid: "56878257"
    - 서식 **파일 사용을** 클릭하고 기본 제공 또는 사용자 지정 전자 메일 서식 파일을 선택합니다. 템플릿을 선택하면 서식  파일을 기준으로 이름 상자가 자동으로 채워지지만 이름을 변경할 수 있습니다.
 
    > [!div class="mx-imgBorder"]
-   > ![피싱 시작 페이지](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
+   > ![피싱 시작 페이지.](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
    작업을 마친 후 **다음** 을 클릭합니다.
 

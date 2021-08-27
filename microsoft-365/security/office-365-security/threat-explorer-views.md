@@ -17,12 +17,12 @@ description: 위협 탐색기 및 실시간 검색 보고서를 사용하여 보
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fb58b8c605354dcecf82f11176955f89e9aeae04403af1f0ae591f14ae5f9141
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ae46d8540ec0d2bd9ae8d906a9a44fd0e397ee2f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56815708"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548717"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 보기
 
@@ -33,7 +33,7 @@ ms.locfileid: "56815708"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-![위협 탐색기](../../media/explorer.png)
+![위협 탐색기.](../../media/explorer.png)
 
 [위협](threat-explorer.md) 탐색기(및 실시간 검색 보고서)는 보안 운영 팀이 보안 운영 팀이 보안 포털에서 위협을 조사하고 대응하는 데 도움이 되는 강력한 거의 실시간 Microsoft 365 Defender 도구입니다. 탐색기(및 실시간 검색 보고서)는 조직의 전자 메일 및 파일에서 의심되는 맬웨어 및 피싱Office 365 조직에 대한 기타 보안 위협 및 위험에 대한 정보를 표시합니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "56815708"
 
 보기 **메뉴를** 사용하여 표시되는 정보를 변경합니다. 도구tips를 사용하면 사용할 보기를 결정하는 데 도움이 됩니다.
 
-![위협 탐색기 보기 메뉴](../../media/all-email.png)
+![위협 탐색기 보기 메뉴.](../../media/all-email.png)
 
 보기를 선택한 후 필터를 적용하고 추가 분석을 수행하기 위한 쿼리를 설정할 수 있습니다. 다음 섹션에서는 탐색기(또는 실시간 검색)에서 사용할 수 있는 다양한 보기에 대한 간략한 개요를 제공합니다.
 
@@ -66,53 +66,53 @@ ms.locfileid: "56815708"
 
 이 보고서를 확인하려면 탐색기(또는 실시간 검색)에서 전자 **메일** 맬웨어 \> **보기를** \> **선택하세요.** 이 보기에는 맬웨어가 포함된 것으로 확인된 전자 메일 메시지에 대한 정보가 표시됩니다.
 
-![맬웨어로 식별된 전자 메일에 대한 데이터 보기](../../media/detection-technology.png)
+![맬웨어로 식별된 전자 메일에 대한 데이터를 하세요.](../../media/detection-technology.png)
 
 보낸 **사람 을** 클릭하여 보기 옵션 목록을 열 수 있습니다. 이 목록을 사용하여 보낸 사람, 받는 사람, 보낸 사람 도메인, 주제, 검색 기술, 보호 상태 등의 데이터를 볼 수 있습니다.
 
 예를 들어 검색된 전자 메일 메시지에 대해 수행된 작업을 확인하기 위해 목록에서 **보호** 상태를 선택합니다. 옵션을 선택한 다음 새로 고침 단추를 클릭하여 보고서에 해당 필터를 적용합니다.
 
-![위협 탐색기용 위협 방지 상태 옵션](../../media/ThreatExplorerProtectionStatusOptions.png)
+![위협 탐색기에 대한 위협 방지 상태 옵션입니다.](../../media/ThreatExplorerProtectionStatusOptions.png)
 
 차트 아래에서 특정 메시지에 대한 자세한 내용을 확인하세요. 목록에서 항목을 선택하면 선택한 항목에 대한 자세한 내용을 볼 수 있는 플라이아웃 창이 열립니다.
 
-![플라이아웃이 열린 위협 탐색기](../../media/ThreatExplorerMalwareItemSelectedFlyout.png)
+![플라이아웃이 있는 위협 탐색기가 열립니다.](../../media/ThreatExplorerMalwareItemSelectedFlyout.png)
 
 ## <a name="email--phish"></a>피싱 > 메일 보내기
 
 이 보고서를 확인하려면 탐색기(또는 실시간 검색)에서 전자 메일 피싱  \>  \> **보기를 선택하세요.** 이 보기에는 피싱 시도로 식별된 전자 메일 메시지가 표시됩니다.
 
-![피싱 시도로 식별된 전자 메일에 대한 데이터 보기](../../media/phish.png)
+![피싱 시도로 식별된 전자 메일에 대한 데이터를 하세요.](../../media/phish.png)
 
 보낸 **사람 을** 클릭하여 보기 옵션 목록을 열 수 있습니다. 이 목록을 사용하여 보낸 사람, 받는 사람, 보낸 사람 도메인, 보낸 사람 IP, URL 도메인, 판정 클릭 등 데이터를 볼 수 있습니다.
 
 예를 들어 피싱 시도로 식별된 URL을 클릭할 때 수행된 작업을 확인하려면  목록에서 판정 클릭을 선택하고 하나 이상의 옵션을 선택한 다음 새로 고침 단추를 클릭합니다.
 
-![피싱 보고서에 대한 결과 옵션 클릭](../../media/click-verdict.png)
+![피싱 보고서에 대한 결과 옵션을 클릭합니다.](../../media/click-verdict.png)
 
 차트 아래에서 특정 메시지, URL 클릭, URL 및 전자 메일 출처에 대한 자세한 정보를 확인합니다.
 
-![전자 메일 메시지에서 피싱으로 검색된 URL](../../media/ThreatExplorerEmailPhishURLs.png)
+![전자 메일 메시지에서 피싱으로 검색된 URL입니다.](../../media/ThreatExplorerEmailPhishURLs.png)
 
 목록에서 검색된 URL과 같은 항목을 선택하면 선택한 항목에 대한 자세한 내용을 볼 수 있는 플라이아웃 창이 열립니다.
 
-![검색된 URL에 대한 세부 정보](../../media/ThreatExplorerEmailPhishURLDetails.png)
+![검색된 URL에 대한 세부 정보입니다.](../../media/ThreatExplorerEmailPhishURLDetails.png)
 
 ## <a name="email--submissions"></a>메일 > 제출
 
 이 보고서를 확인하려면 탐색기(또는 실시간 검색)에서 전자 **메일** 제출 \>  \> **보기를 선택하세요.** 이 보기에는 사용자가 정크 메일이나 피싱 메일이 아닌 정크 메일로 보고한 전자 메일이 표시됩니다.
 
-![사용자가 보고한 전자 메일 메시지](../../media/ThreatExplorerEmailUserReportedViewOptions.png)
+![사용자가 보고한 전자 메일 메시지입니다.](../../media/ThreatExplorerEmailUserReportedViewOptions.png)
 
 보낸 **사람 을** 클릭하여 보기 옵션 목록을 열 수 있습니다. 이 목록을 사용하여 보낸 사람, 받는 사람, 보고서 유형(전자 메일이 정크 메일이 아니라 정크 메일 또는 피싱으로 확인) 등별로 정보를 볼 수 있습니다.
 
 예를 들어 피싱 시도로 보고된 전자 메일 메시지에 대한  정보를 보려면 보낸 사람 보고서 유형, 피싱을 선택한 다음 새로 고침 \> 단추를 클릭합니다. 
 
-![보고서 유형 필터에 대해 피싱 선택](../../media/ThreatExplorerEmailUserReportedPhishSelected.png)
+![피싱이 보고서 유형 필터에 대해 선택되어 있습니다.](../../media/ThreatExplorerEmailUserReportedPhishSelected.png)
 
 차트 아래에서 제목 줄, 보낸 사람 IP 주소, 메시지를 정크 메일로 보고한 사용자, 정크 메일이 아닌 피싱 등의 특정 전자 메일 메시지에 대한 세부 정보를 보세요.
 
-![피싱 시도로 보고된 메시지](../../media/ThreatExplorerEmailPhishUserReportedPhishDetails.png)
+![피싱 시도로 보고된 메시지입니다.](../../media/ThreatExplorerEmailPhishUserReportedPhishDetails.png)
 
 목록에서 항목을 선택하여 추가 세부 정보를 볼 수 있습니다.
 
@@ -125,7 +125,7 @@ ms.locfileid: "56815708"
 
 필터를 적용하려면 **보낸** 사람 , 목록에서 항목을 선택한 다음 새로 고침 단추를 클릭합니다. 이 예제에서는 검색 **기술을** 필터로 사용했습니다(몇 가지 옵션을 사용할 수 있습니다). 보낸 사람, 보낸 사람의 도메인, 받는 사람, 제목, 첨부 파일 이름, 맬웨어 패밀리, 보호 상태(Office 365의 위협 방지 기능 및 정책에 의해 수행되는 작업), 검색 기술(맬웨어가 검색된 방법) 등으로 정보를 볼 수 있습니다.
 
-![검색 기술로 검색된 전자 메일에 대한 데이터 보기](../../media/0c032eb3-6021-4174-9f06-ff8f30c245ca.png)
+![검색 기술로 검색된 전자 메일에 대한 데이터를 하세요.](../../media/0c032eb3-6021-4174-9f06-ff8f30c245ca.png)
 
 차트 아래에서 제목 줄, 받는 사람, 보낸 사람, 상태 등의 특정 전자 메일 메시지에 대한 세부 정보를 보세요.
 
@@ -143,11 +143,11 @@ ms.locfileid: "56815708"
 
 탐색기(및 실시간 검색)를 사용하여 클릭으로 필터를 적용할 수 있습니다. 범례에서 항목을 클릭하면 해당 항목이 보고서의 필터가 됩니다. 예를 들어 탐색기에서 맬웨어 보기를 보고 있는 경우를 가정해 보겠습니다.
 
-![위협 관리 \> 탐색기로 이동](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+![위협 관리 탐색기로 \> 이동 합니다.](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
 이 **차트에서 ATP** 검색을 클릭하면 보기가 이와 같이 표시됩니다.
 
-![검색 결과에 대한 Defender만 표시 Office 365 탐색기](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
+![탐색기에서 검색 결과에 대한 Defender만 Office 365 필터링됩니다.](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
 
 이 보기에서는 이제 첨부 파일 에서 검색된 파일에 [대한 금고 있습니다.](safe-attachments.md) 차트 아래에서는 첨부 파일에서 검색된 첨부 파일이 있는 특정 전자 메일 메시지에 대한 세부 금고 있습니다.
 
