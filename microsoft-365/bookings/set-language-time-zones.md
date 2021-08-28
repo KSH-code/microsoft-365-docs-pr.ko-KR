@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 94af3e22-aca6-4e91-8b91-1cd5a02a9ea8
 description: Microsoft Bookings에서 언어 및 표준 시간대 설정을 변경합니다. 잘못된 시간으로 예약을 만든 경우 Bookings가 잘못된 표준 시간대에 대해 설정될 수 있습니다.
-ms.openlocfilehash: 7c1ae42f327291062fb6bc4512ef3b1b85709b45814a816222958405327e054c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2ccea0446d168476961294ba5800ad3899bd24eb
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58556447"
 ---
 # <a name="set-language-and-time-zones-in-microsoft-bookings"></a>Microsoft Bookings에서 언어 및 표준 시간대 설정
 
@@ -30,7 +30,7 @@ Bookings에 대한 두 가지 언어 및 표준 시간대 설정이 있습니다
 
 1. 방문 Microsoft 365 로그인하고 방문 페이지(아래 스크린샷에 표시된 Outlook) 또는 Microsoft 365 앱 창에서 시작 관리자.
 
-   ![방문 Outlook 타일의 Microsoft 365 이미지](../media/bookings-outlook-tile.png)
+   ![방문 Outlook 타일의 Microsoft 365 이미지입니다.](../media/bookings-outlook-tile.png)
 
 1. Outlook 열고 나면 화면의  오른쪽 위 모서리에 있는 기어 아이콘을 선택하여 개인 및 계정 설정을 연 다음 설정 패널 검색 상자에서 "표준 **시간대"를** 검색합니다. 이 계정에 대한 현재 개인 언어 및 표준 시간대 설정을 표시하기 위해 패널이 업데이트됩니다. 위에서 설명한 대로 이 설정은 예약 일정의 언어 및 표준 시간대도 제어합니다.
 
@@ -44,8 +44,8 @@ Bookings에 대한 두 가지 언어 및 표준 시간대 설정이 있습니다
 
 1. 탐색 창에서 예약 페이지를 **선택하고** 언어 및 표준 시간대 설정 **변경을 선택합니다.**
 
-   ![스크린샷: 언어 및 표준 시간대 설정 변경 링크](../media/bookings-region-language-timezone-settings.png)
+   ![Screenshot: Change language and time zone settings link.](../media/bookings-region-language-timezone-settings.png)
 
 1. 언어 및 현재 표준 시간대를 선택하고 확인을 선택합니다.
 
-   ![스크린샷: 언어 및 표준 시간대 설정](../media/bookings-region-timezone-settings.png)
+   ![Screenshot: Language and time zone settings.](../media/bookings-region-timezone-settings.png)

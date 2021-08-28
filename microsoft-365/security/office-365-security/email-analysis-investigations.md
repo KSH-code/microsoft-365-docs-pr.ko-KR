@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fc30c59df53341d26ab07799a88084d1e3ddde3c81b21503441607a520d218e2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 598f8713103a49dad01eb9bb6cf74257128e25f9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56814761"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58558881"
 ---
 # <a name="email-analysis-in-investigations-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -91,7 +91,7 @@ ms.locfileid: "56814761"
 
 인시던트의 엔터티  탭에 있는 전자  메일 또는 전자 메일 클러스터의 경우 금지된 것은 이 항목(메일 또는 클러스터)에 대한 사서함에 악성 전자 메일이 없음을 나타냅니다. 예를 들면 다음과 같습니다.
 
-:::image type="content" source="../../media/email-analysis-investigations/email-analysis-evidence-example-prevented.png" alt-text="방지된 전자 메일의 예" lightbox="../../media/email-analysis-investigations/email-analysis-evidence-example-prevented.png":::
+:::image type="content" source="../../media/email-analysis-investigations/email-analysis-evidence-example-prevented.png" alt-text="금지된 전자 메일의 예" lightbox="../../media/email-analysis-investigations/email-analysis-evidence-example-prevented.png":::
 
 이 예에서 전자 메일은 악성이지만 사서함에는 없습니다.
 

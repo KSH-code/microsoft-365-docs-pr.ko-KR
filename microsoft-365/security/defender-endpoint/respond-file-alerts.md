@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 57494202a401edd920ac43defc40f6bebcde778a
-ms.sourcegitcommit: 60cc1b2828b1e191f30ca439b97e5a38f48c5169
+ms.openlocfilehash: b8eab3ee1244a56c41ad2eea806c8933e9224e47
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53541688"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58559085"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -33,7 +33,7 @@ ms.locfileid: "53541688"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-responddile-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-responddile-abovefoldlink)
 
 파일을 중지 및 차단하거나 파일을 차단하여 감지된 공격에 신속하게 대응합니다. 파일에 대한 작업을 수행한 후 작업 센터에서 활동 세부 정보를 확인할 수 있습니다.
 
@@ -51,12 +51,17 @@ ms.locfileid: "53541688"
 
 일부 작업을 수행하려면 특정 사용 권한이 필요합니다. 다음 표에서는 PE(이식 가능한 실행 파일) 및 PE가 아닌 파일에 대해 특정 사용 권한이 취할 수 있는 작업을 설명하고 있습니다.
 
-| 사용 권한             | PE 파일 | PE가 아닌 파일 |
-| :--------------------- | :------: | :----------: |
-| 데이터 보기              |     X    |       X 키      |
-| 경고 조사   | &#x2611; |       X 키      |
-| 실시간 응답 기본    |     X    |       X 키      |
-| 실시간 응답 고급 | &#x2611; |   &#x2611;   |
+<br>
+
+****
+
+|사용 권한|PE 파일|PE가 아닌 파일|
+|:---------------------|:------:|:----------:|
+|데이터 보기|X|X 키|
+|경고 조사|&#x2611;|X 키|
+|실시간 응답 기본|X|X 키|
+|실시간 응답 고급|&#x2611;|&#x2611;|
+|
 
 역할에 대한 자세한 내용은 역할 기반 액세스 제어에 대한 역할 [만들기 및 관리를 참조하세요.](user-roles.md)
 
@@ -90,15 +95,15 @@ ms.locfileid: "53541688"
 
 2. 위쪽 표시줄로 이동하여 파일 중지 **및 Quarantine 을 선택합니다.**
 
-   ![파일 중지 및 검지 작업의 이미지](images/atp-stop-quarantine-file.png)
+   ![파일 작업을 중지하고 검지하는 이미지입니다.](images/atp-stop-quarantine-file.png)
 
 3. 이유를 지정한 다음 확인 을 **선택합니다.**
 
-   ![파일 모달 창 중지 및 검지 이미지](images/atp-stop-quarantine.png)
+   ![파일 모달 창을 중지하고 검사하는 이미지입니다.](images/atp-stop-quarantine.png)
 
    Action Center에는 제출 정보가 표시됩니다.
-   
-   ![파일 중지 및 검지 작업 센터 이미지](images/atp-stopnquarantine-file.png)
+
+   ![파일 작업 센터 중지 및 검지 이미지](images/atp-stopnquarantine-file.png)
 
    - **제출 시간** - 작업이 제출된 시간을 보여줍니다.
    - **Success** - 파일이 중지 및 대리된 장치 수를 보여 주며,
@@ -107,10 +112,11 @@ ms.locfileid: "53541688"
 
 4. 상태에 대한 자세한 정보를 확인하려면 상태 표시기를 선택합니다. 예를 들어 **실패를** 선택하여 작업이 실패한 위치를 볼 수 있습니다.
 
-**장치 사용자에 대한 알림**:</br>
+#### <a name="notification-on-device-user"></a>장치 사용자에 대한 알림
+
 장치에서 파일을 제거하면 다음 알림이 표시됩니다.
 
-![장치 사용자에 대한 알림 이미지](images/atp-notification-file.png)
+![장치 사용자에 대한 알림 이미지입니다.](images/atp-notification-file.png)
 
 장치 타임라인에서 파일이 중지 및 중단된 각 장치에 대해 새 이벤트가 추가됩니다.
 
@@ -124,12 +130,12 @@ ms.locfileid: "53541688"
 
    1. **시작**(으)로 이동하고 _cmd_ 를 입력하십시오.
 
-   1. 명령 **프롬프트를 마우스 오른쪽 단추로 클릭하고** **관리자 권한으로 실행을 선택합니다.**
+   1. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
 2. 다음 명령을 입력하고 **Enter를 누를 수 있습니다.**
 
-   ```console
-   “%ProgramFiles%\Windows Defender\MpCmdRun.exe” –Restore –Name EUS:Win32/CustomEnterpriseBlock –All
+   ```dos
+   "%ProgramFiles%\Windows Defender\MpCmdRun.exe" -Restore -Name EUS:Win32/CustomEnterpriseBlock -All
    ```
 
    > [!NOTE]
@@ -144,9 +150,31 @@ ms.locfileid: "53541688"
 
 응답 **작업에서** 파일 다운로드를 선택하면 파일이 포함된 로컬 암호로 보호된 .zip 다운로드할 수 있습니다. 파일을 다운로드하는 이유를 기록하고 암호를 설정할 수 있는 플라이아웃이 나타납니다.
 
-기본적으로는 검지된 파일을 다운로드할 수 없습니다.
+기본적으로는 검지된 파일을 다운로드할 수 있습니다.
 
-![파일 다운로드 작업의 이미지](images/atp-download-file-action.png)
+![파일 다운로드 작업의 이미지입니다.](images/atp-download-file-action.png)
+
+### <a name="download-quarantined-files"></a>quarantined files 다운로드
+
+사용자 또는 보안 팀에서 Microsoft Defender 바이러스 백신 샘플 제출 구성에 따라 규격 방식으로 [저장되는](enable-cloud-protection-microsoft-defender-antivirus.md)파일입니다. 보안 팀은 "파일 다운로드" 단추를 통해 파일의 세부 정보 페이지에서 직접 파일을 다운로드할 수 있습니다. **이 미리 보기 기능은 기본적으로 '켜기'로 설정되어 있습니다.**
+
+위치는 조직의 지리적 설정(EU, 영국 또는 미국)에 따라 다를 수 있습니다. 분리된 파일은 조직당 한 번만 수집됩니다. Service Trust Portal에서 Microsoft의 데이터 보호에 대한 자세한 내용은 을(를) 통해 자세히 알아보아야 https://aka.ms/STP 합니다.
+
+이 설정을 설정하면 보안 팀이 잠재적으로 잘못된 파일을 검사하고 인시던트의 위험을 덜 위험하게 빠르게 조사하는 데 도움이 될 수 있습니다. 그러나 이 설정을 해제해야 하는 경우 끝점 고급 기능 설정 파일 다운로드로 이동하여 설정을  >    >    >   조정합니다. [고급 기능에 대해 자세히 알아보시다](advanced-features.md)
+
+#### <a name="backing-up-quarantined-files"></a>고지된 파일 백업
+
+샘플 제출 구성에 따라 사용자에게 검사된 파일을 백업하기 전에 명시적 동의를 제공하라는 메시지가 표시될 [수 있습니다.](enable-cloud-protection-microsoft-defender-antivirus.md#use-group-policy-to-turn-on-cloud-delivered-protection)
+
+샘플 제출이 꺼져 있는 경우 이 기능이 작동하지 않습니다. 자동 샘플 제출이 사용자의 사용 권한을 요청하도록 설정되어 있는 경우 사용자가 보내기에 동의한 샘플만 수집됩니다.
+
+>[!IMPORTANT]
+>다음을 통해 quarantined file requirements을 다운로드합니다.
+>- 조직에서 활성 Microsoft Defender 바이러스 백신 사용 
+>- 바이러스 백신 엔진 버전은 1.1.17300.4 이상입니다. 월별 [플랫폼 및 엔진 버전 참조](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
+>- 클라우드 기반 보호를 사용할 수 있습니다. 클라우드 [제공 보호 켜기 참조](enable-cloud-protection-microsoft-defender-antivirus.md)
+>- 샘플 제출이 켜져 있습니다.
+>- 장치에 Windows 10 버전 1703 이상 또는 Windows 서버 2016 또는 2019가 있습니다.
 
 ### <a name="collect-files"></a>파일 수집
 
@@ -160,7 +188,7 @@ ms.locfileid: "53541688"
 
 > [!IMPORTANT]
 >
-> - 조직에서 클라우드 제공 보호를 사용하도록 설정하고 Microsoft Defender 바이러스 백신 기능을 사용하는 경우 이 기능을 사용할 수 있습니다. 자세한 내용은 클라우드 제공 [보호 관리를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+> - 이 기능은 조직에서 클라우드 제공 보호를 사용하도록 Microsoft Defender 바이러스 백신 경우 사용할 수 있습니다. 자세한 내용은 클라우드 제공 보호 [관리를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 >
 > - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
 > - 이 기능은 의심되는 맬웨어(또는 악성 파일)가 웹에서 다운로드되지 않도록 디자인되었습니다. 현재 이식 가능한 PE(이식 가능한 실행 파일) 파일을.exe _.dll_ _있습니다._ 적용 범위는 시간이 지날 때 연장됩니다.
@@ -175,6 +203,7 @@ ms.locfileid: "53541688"
 ### <a name="enable-the-block-file-feature"></a>파일 차단 기능 사용
 
 파일 차단을 시작하려면 먼저 [  ](advanced-features.md) 차단 또는 허용 기능을 설정해야 설정.
+
 ### <a name="allow-or-block-file"></a>파일 허용 또는 차단
 
 파일에 대한 표시기 해시를 추가할 때 조직의 장치가 파일을 실행하려고 할 때마다 경고를 발생하고 파일을 차단할 수 있습니다.
@@ -204,7 +233,7 @@ ms.locfileid: "53541688"
 
 제출 날짜/시간, 사용자 제출, 작업 성공 또는 실패와 같은 기타 모든 관련 세부 정보도 표시됩니다.
 
-![정보가 있는 센터 이미지](images/action-center-details.png)
+![정보가 있는 센터의 이미지입니다.](images/action-center-details.png)
 
 ## <a name="deep-analysis"></a>심층 분석
 
@@ -219,10 +248,11 @@ ms.locfileid: "53541688"
 
 심층 분석 결과는 위협 인텔리전스와 일치하며 일치하면 적절한 경고가 생성됩니다.
 
-심층 분석 기능을 사용하여 일반적으로 경고 조사 중에 또는 악의적인 동작이 의심되는 다른 이유로 파일의 세부 정보를 조사합니다. 이 기능은 파일의  프로필 페이지에서 심층 분석 탭에서 사용할 수 있습니다.<br/>
-<br/>
+심층 분석 기능을 사용하여 일반적으로 경고 조사 중에 또는 악의적인 동작이 의심되는 다른 이유로 파일의 세부 정보를 조사합니다. 이 기능은 파일의  프로필 페이지에서 심층 분석 탭에서 사용할 수 있습니다.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4aAYy?rel=0]
+<br/><br/>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4aAYy?rel=0]
 
  파일을 Endpoint 백 엔드용 Defender 샘플 컬렉션에서 사용할 수 있는 경우 또는 심층 분석 제출을 지원하는 Windows 10 장치에서 파일을 관찰한 경우 심층 분석을 위한 제출을 사용할 수 있습니다.
 
@@ -244,7 +274,7 @@ ms.locfileid: "53541688"
 
 2. 파일 **보기의** 심층 분석 탭에서 제출을 **선택합니다.**
 
-   ![파일 세부 정보 섹션에서만 PE 파일을 제출할 수 있습니다.](images/submit-file.png)
+   ![PE 파일은 파일 세부 정보 섹션에서만 제출할 수 있습니다.](images/submit-file.png)
 
    > [!NOTE]
    > PE 파일만 _지원됩니다(파일_ 및.exe _.dll_ 포함).
@@ -268,7 +298,7 @@ ms.locfileid: "53541688"
 1. 심층 분석을 위해 제출한 파일을 선택합니다.
 2. 심층 **분석 탭을** 선택합니다. 이전 보고서가 있는 경우 보고서 요약이 이 탭에 표시됩니다.
 
-    ![심층 분석 보고서에는 여러 범주의 세부 정보가 표시되어 있습니다.](images/analysis-results-nothing500.png)
+    ![심층 분석 보고서에는 여러 범주에 대한 자세한 정보가 표시되어 있습니다.](images/analysis-results-nothing500.png)
 
 #### <a name="troubleshoot-deep-analysis"></a>심층 분석 문제 해결
 
@@ -282,18 +312,18 @@ ms.locfileid: "53541688"
 
 4. 샘플 수집 정책이 구성되지 않은 경우 기본 동작은 샘플 수집을 허용하는 것입니다. 구성된 경우 파일을 다시 제출하기 전에 정책 설정에서 샘플 수집을 허용하는지 확인해야 합니다. 샘플 컬렉션이 구성되면 다음 레지스트리 값을 검사합니다.
 
-    ```console
+    ```text
     Path: HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection
     Name: AllowSampleCollection
     Type: DWORD
     Hexadecimal value :
-      Value = 0 – block sample collection
-      Value = 1 – allow sample collection
+      Value = 0 - block sample collection
+      Value = 1 - allow sample collection
     ```
 
-1. 그룹 정책을 통해 조직 구성 단위를 변경합니다. 자세한 내용은 [그룹 정책으로 구성을 참조하세요.](configure-endpoints-gp.md)
+5. 그룹 정책을 통해 조직 구성 단위를 변경합니다. 자세한 내용은 [그룹 정책으로 구성을 참조하세요.](configure-endpoints-gp.md)
 
-1. 이러한 단계로 문제가 해결되지 않으면 에 [winatp@microsoft.com.](mailto:winatp@microsoft.com)
+6. 이러한 단계로 문제가 해결되지 않으면 에 [winatp@microsoft.com.](mailto:winatp@microsoft.com)
 
 ## <a name="related-topics"></a>관련 항목
 

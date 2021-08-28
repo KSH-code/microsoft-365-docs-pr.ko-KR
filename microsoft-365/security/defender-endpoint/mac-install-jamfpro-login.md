@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b439976ea0d3b0d79f98cba1a719d1210c7eb2f165d989983661aad878f978b8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1179259934dc77b29e68a8adcf49323d93bc93da
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53889714"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58559061"
 ---
 # <a name="log-in-to-jamf-pro"></a>Jamf 2013에 Pro
 
@@ -37,15 +37,15 @@ ms.locfileid: "53889714"
 
 1. 자격 증명을 입력합니다.
 
-    ![Jamf Pro dashboard1의 이미지](images/jamf-pro-portal1.png)
+    ![Jamf Pro 대시보드1의 이미지입니다.](images/jamf-pro-portal1.png)
 
 2. 컴퓨터를 **선택합니다.**
 
-    ![Jamf Pro 대시보드2의 이미지](images/jamf-pro-dashboard.png)
+    ![Jamf Pro 대시보드2의 이미지입니다.](images/jamf-pro-dashboard.png)
 
 3. 사용 가능한 설정이 표시됩니다.
 
-     ![Jamf Pro 대시보드3의 이미지](images/jamfpro-settings.png)
+     ![Jamf Pro 대시보드3의 이미지입니다.](images/jamfpro-settings.png)
 
 
 ## <a name="next-step"></a>다음 단계

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 89c185472f9e570374a3c0ea0ee70a62a4970b89
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 79a8c8f20b2db4f1b3604c5e652c98a6c9898868
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256531"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58558953"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>첫 번째 인시던트에 대한 보안 준비
 
@@ -67,7 +67,7 @@ Microsoft 365 Defender 구성 요소는 끝점용 Microsoft Defender 또는 기�
 
 소프트웨어 패치 진행률을 확인하기 [](../defender-endpoint/next-gen-threat-and-vuln-mgt.md) 위해 Endpoint용 Defender의 위협 및 취약성 관리 페이지를 방문하여 추가 리소스 탭을 통해 Microsoft 365 Defender 액세스할 **수** 있습니다.
 
-:::image type="content" source="../../media/first-incident-prepare/first-incident-vulnerability.png" alt-text="Microsoft 보안 센터의 위협 및 취약성 페이지 예"::: 
+:::image type="content" source="../../media/first-incident-prepare/first-incident-vulnerability.png" alt-text="Microsoft 보안 센터의 위협 및 취약성 페이지의 예"::: 
  
 ## <a name="4-understand-emerging-threats"></a>4. 새로운 위협 이해
 
@@ -87,7 +87,7 @@ Microsoft 365 Defender 구성 요소는 끝점용 Microsoft Defender 또는 기�
 
 ## <a name="next-step"></a>다음 단계
 
-[![1단계: 인시던트의 선별 및 분석 방법 학습](../../media/first-incident-overview/first-incident-path-step1.png)](first-incident-analyze.md)
+[![1단계: 인시던트의 선별 및 분석 방법을 배워야 합니다.](../../media/first-incident-overview/first-incident-path-step1.png)](first-incident-analyze.md)
 
 인시던트 [를 분석하고 을(를) 분석하는 방법을 배워야 합니다.](first-incident-analyze.md)
 

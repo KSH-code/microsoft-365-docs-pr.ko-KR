@@ -14,12 +14,12 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: 72300374c90e0142bdbf713ffee1dba40869fff3293014e1b9884d5e148fed8e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 38c21f69680d6e9d6a3231c8bf2dc44f15e057f6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827581"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58556507"
 ---
 # <a name="step-3-upload-your-binaries-dependencies-and-scripts"></a>3단계: 업로드, 종속성 및 스크립트 확인
 
@@ -27,7 +27,7 @@ ms.locfileid: "53827581"
 
 ## <a name="upload-package-zip-file"></a>업로드 zip 파일
 
-![업로드 이진](Media/AddBinaries.png)
+![업로드 이진을 추가합니다.](Media/AddBinaries.png)
 
   - 업로드된 종속성에는 응용 프로그램 또는 테스트 사례를 실행하기 위해 액세스할 테스트 프레임워크, 스크립팅 엔진 또는 데이터가 포함됩니다. 예를 들어 Selenium 및 webdriver 설치 관리자를 업로드하여 브라우저 기반 테스트를 실행할 수 있습니다.
   - 스크립트 활동이 모듈식으로 유지되도록 하는 것이 가장 좋은 예입니다. 

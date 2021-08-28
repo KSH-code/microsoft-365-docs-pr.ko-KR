@@ -16,12 +16,12 @@ description: 맬웨어 피싱 시도를 보고 조사합니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cfefbbbdcba0b7ff909892e982abf2ca534e978ead74a6263e23fa443fa8125d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e067431c4c27b4e249f404852e24a197e492ce31
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53897366"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58558845"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -53,13 +53,13 @@ ms.locfileid: "53897366"
 
 3. 보낸 **사람 을** 클릭한 다음 **드롭다운** 목록에서 기본 검색 기술을 \>  선택합니다.
 
-   :::image type="content" source="../../media/exploreremailmalwaredetectiontech-newimg.png" alt-text="맬웨어 감지 기술":::
+   :::image type="content" source="../../media/exploreremailmalwaredetectiontech-newimg.png" alt-text="맬웨어 감지 기술.":::
 
    이제 검색 기술을 보고서의 필터로 사용할 수 있습니다.
 
 4. 옵션을 선택한 다음 새로 고침을 **클릭하여** 해당 필터를 적용합니다(브라우저 창을 새로 고치지 않습니다).
 
-   :::image type="content" source="../../media/exploreremailmalwaredetectiontech2-new.png" alt-text="선택한 검색 기술":::
+   :::image type="content" source="../../media/exploreremailmalwaredetectiontech2-new.png" alt-text="선택된 검색 기술.":::
 
    보고서가 새로 고쳐서 선택한 기술 옵션을 사용하여 전자 메일에서 맬웨어가 검색된 결과를 보여 주며, 여기에서 추가 분석을 진행할 수 있습니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "53897366"
 
 4. 나타나는 옵션에서 차단 및 다시 설정 차단과 같은 하나 이상의 옵션을 선택한  다음 새로 고침을 클릭합니다(브라우저 창을 새로 고치지 않습니다). 
 
-    :::image type="content" source="../../media/threatexploreremailphishclickverdict-new.png" alt-text="URL 및 클릭 판정":::
+    :::image type="content" source="../../media/threatexploreremailphishclickverdict-new.png" alt-text="URL 및 확인을 클릭합니다.":::
 
    보고서가 새로 고쳐지며 보고서 아래에 있는 URL 탭에 두 개의 서로 **다른** URL 테이블이 표시됩니다.
 
@@ -89,7 +89,7 @@ ms.locfileid: "53897366"
    두 URL 테이블에는 배달 작업 및 위치로 피싱 전자 메일 메시지의 상위 URL이 표시됩니다. 표에는 경고에도 불구하고 차단되거나 방문한 URL 클릭이 표시 있으므로 사용자에게 제공된 잠재적인 잘못된 링크와 사용자가 클릭한 잠재적인 링크를 볼 수 있습니다. 여기에서 추가 분석을 진행할 수 있습니다. 예를 들어 차트 아래에서 조직의 환경에서 차단된 전자 메일 메시지의 상위 URL을 볼 수 있습니다.
 
    > [!div class="mx-imgBorder"]
-   > ![차단된 탐색기 URL](../../media/ExplorerPhishClickVerdictURLs.png)
+   > ![차단된 탐색기 URL입니다.](../../media/ExplorerPhishClickVerdictURLs.png)
 
    자세한 정보를 확인하려면 URL을 선택합니다.
 

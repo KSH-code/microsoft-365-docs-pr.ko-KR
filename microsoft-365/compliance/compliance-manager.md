@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 조직에서 위험 평가를 간소화하고 자동화하는 데 도움을 주며 위험을 해결하기 위한 권장 조치를 제안합니다.
-ms.openlocfilehash: b763560d48f4e07a01fdd3baaf7286327c78cca508984c65f88aff1c73ee47b6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e0e8d4595f883f33dc7714cd41c8cb49002321a1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895750"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58556399"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft 준수 관리자
 
@@ -49,7 +49,7 @@ ms.locfileid: "53895750"
 
 준수 관리자 대시보드는 현재 준수 점수를 표시하고, 주의가 필요한 사항을 볼 수 있도록 도움을 주며 주요 개선 조치를 안내합니다. 다음은 준수 관리자 대시보드의 모양에 대한 예입니다.
 
-![준수 관리자 - 대시보드](../media/compliance-manager-dashboard.png "준수 관리자 대시보드 검토")
+![준수 관리자 - 대시보드.](../media/compliance-manager-dashboard.png "준수 관리자 대시보드 검토")
 
 ## <a name="understanding-your-compliance-score"></a>준수 점수 이해
 

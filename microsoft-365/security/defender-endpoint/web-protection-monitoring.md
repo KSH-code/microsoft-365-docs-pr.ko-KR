@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d0cb507f0d221916e73bfa7261df59d33529639f8197f70fdf88c87b708131f2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6a134dced8eb749bebdf7e486c6d06c9cc19048b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884506"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58558965"
 ---
 # <a name="monitor-web-browsing-security"></a>웹 검색 보안 모니터링
 
@@ -37,11 +37,11 @@ ms.locfileid: "53884506"
 
 - **시간 경과에** 대한 웹 위협 방지 감지 - 이 추세 카드는 선택한 기간(지난 30일, 지난 3개월, 지난 6개월) 동안 유형별로 검색된 웹 위협 수를 표시합니다.
 
-  :::image type="content" alt-text="시간이 지날 때 웹 위협 방지 감지를 보여주는 카드 이미지" source="images/wtp-blocks-over-time.png" lightbox="images/wtp-blocks-over-time.png":::
+  :::image type="content" alt-text="시간이 지날 때 웹 위협 방지 감지를 보여 주며 카드의 이미지입니다." source="images/wtp-blocks-over-time.png" lightbox="images/wtp-blocks-over-time.png":::
 
 - **웹 위협 방지** 요약 - 이 카드는 지난 30일 동안의 총 웹 위협 감지를 표시하여 다양한 유형의 웹 위협에 대한 배포를 표시합니다. 조각을 선택하면 악성 또는 원치 않는 웹 사이트에서 발견된 도메인 목록이 열립니다.
 
-  :::image type="content" alt-text="웹 위협 방지 요약을 보여주는 카드 이미지" source="images/wtp-summary.png" lightbox="images/wtp-summary.png":::
+  :::image type="content" alt-text="웹 위협 방지 요약을 보여 주며 카드의 이미지입니다." source="images/wtp-summary.png" lightbox="images/wtp-summary.png":::
 
 > [!NOTE]
 > 블록이 카드 또는 도메인 목록에 반영되기까지 최대 12시간이 걸릴 수 있습니다.

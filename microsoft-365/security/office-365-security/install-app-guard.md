@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 description: 하드웨어 기반의 최신 고리형을 다운로드합니다. 악용 또는 악의적인 링크와 같은 현재 및 새로운 공격이 직원 생산성과 엔터프라이즈 보안을 방해하지 않도록 방지합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6eabad2b52dc83c65b6a36ea4bb057573ce83e5d4dfc18b298ba1e287a8a696d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f734a4ee22984bdc716a9897624f21396c8b7c1d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53828267"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58558869"
 ---
 # <a name="application-guard-for-office-for-admins"></a>관리자를 위한 Office Application Guard
 
@@ -68,7 +68,7 @@ Microsoft Defender Application Guard (Office Application Guard for Office)를 �
 
 3. 관리 **모드에서** Microsoft Defender Application Guard 검색합니다. 컴퓨터 구성 관리 템플릿 및 구성 요소 Windows **그룹 \\ \\ \\ Microsoft Defender Application Guard.** 옵션에서 값을 2 또는 **3으로** 설정한 다음 확인 또는 적용 **을** 선택하여 이 **정책을** **켜야 합니다.**
 
-   ![관리 모드에서 AG 켜기](../../media/ag04-deploy.png)
+   ![관리 모드에서 AG를 켜야 합니다.](../../media/ag04-deploy.png)
 
    대신 해당 CSP 정책을 설정할 수 있습니다.
 
@@ -85,7 +85,7 @@ Microsoft Defender Application Guard (Office Application Guard for Office)를 �
 
 1. 창에서 **설정** 열 시작 메뉴.
 
-   ![시작 메뉴](../../media/ag05-diagnostic.png)
+   ![시작 메뉴.](../../media/ag05-diagnostic.png)
 
 2. 에서 **Windows 설정** 개인 정보를 **선택합니다.**
 
@@ -105,17 +105,17 @@ Microsoft Defender Application Guard (Office Application Guard for Office)를 �
 
 처음에 트러설이 없는 파일을 열면 다음 예제와 Office 시작 화면이 표시될 수 있습니다. 이 파일은 응용 프로그램에 대한 Application Guard가 활성화되고 Office 파일이 열리면서 몇 시간 동안 표시될 수 있습니다. 이후에는 더 빠르게 파일을 열 수 있습니다.
 
-![Office 앱 시작 화면](../../media/ag08-confirm.png)
+![Office 앱 시작 화면입니다.](../../media/ag08-confirm.png)
 
 파일을 열면 파일에 다음을 위해 Application Guard 내에서 파일이 열렸다는 몇 가지 시각적 표시기가 Office.
 
 * 리본 메뉴의 콜아웃
 
-  ![작은 App Guard 메모를 표시하는 Doc 파일](../../media/ag09-confirm.png)
+  ![작은 App Guard 메모를 표시하는 Doc 파일입니다.](../../media/ag09-confirm.png)
 
 * 작업 표시줄에 방패가 있는 응용 프로그램 아이콘
 
-  ![작업 표시줄의 아이콘](../../media/ag12-limitations.png)
+  ![작업 표시줄의 아이콘입니다.](../../media/ag12-limitations.png)
 
 ## <a name="configure-application-guard-for-office"></a>사용자에 대해 Application Guard Office
 
@@ -198,7 +198,7 @@ Application Guard for Office Microsoft Defender for Endpoint와 통합되어 격
 
 * Office Application Guard는 신뢰할 수 있는 회사 리소스, 인트라넷, 사용자의 ID 및 컴퓨터의 임의 파일에 액세스할 수 없는 신뢰할 수 없는 문서를 격리하는 보호 모드입니다. 따라서 사용자가 디스크에 로컬 파일에서 그림을 삽입하는 등 액세스에 종속된 기능에 액세스하면 액세스가 실패하고 다음 예제와 같은 프롬프트가 생성됩니다. 신뢰할 수 없는 문서가 신뢰할 수 있는 리소스에 액세스할 수 있도록 설정하려면 사용자가 문서에서 Application Guard 보호를 제거해야 합니다.
 
-  ![안전한 유지를 위해 이 기능을 사용할 수 없는 경우를 설명하는 대화 상자](../../media/ag10-limitations.png)
+  ![안전한 유지를 위해 이 기능을 사용할 수 없습니다.](../../media/ag10-limitations.png)
 
   > [!NOTE]
   > 사용자가 파일과 해당 원본을 신뢰할 수 있는 경우 또는 보호가 어디에서 왔는지만 보호를 제거해보는 것이 좋습니다.

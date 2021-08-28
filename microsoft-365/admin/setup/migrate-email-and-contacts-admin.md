@@ -29,12 +29,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: Gmail 또는 다른 전자 메일 공급자에서 연락처, 일정 및 전자 메일을 가져와서 전자 메일로 마이그레이션하는 Microsoft 365.
-ms.openlocfilehash: 7ae14ffa8445a54d888216e7014d21e31752e1c17c9c496cf6d7e4c546cfa716
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: adf36aea78019a98f8b5b49e316eeb64b3f05cbc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821789"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58556471"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Microsoft 365로 전자 메일 및 연락처 마이그레이션
 
@@ -74,7 +74,7 @@ Gmail 또는 다른 전자 메일 공급자에서 전자 메일을 가져오거�
     
 프로세스를 시작하지 Outlook 파일 열기  내보내기 \> **&amp;** \> Import/Export.
   
-![파일 메뉴의 Outlook 2016](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Open &amp; Export command in Outlook 2016](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Import/Export 단추를 Outlook 2016](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
+![파일 메뉴의 Outlook 2016.](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Open &amp; Export command in Outlook 2016](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Import/Export 단추를 Outlook 2016](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
   
 ## <a name="see-other-email-accounts-in-outlook"></a>자세한 내용은 Outlook
 
