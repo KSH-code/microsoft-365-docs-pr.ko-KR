@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - Ent_Architecture
 description: 테스트 랩 가이드를 사용하여 개발/테스트 Microsoft 365 및 시나리오를 구축할 수 있습니다.
-ms.openlocfilehash: 2e7544c7d1b39e8cba198b0fce6bbf2814e7332d0af00bdeca748b4b660f8a1a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d380c77d9a94b5c08fe97b9874d15e0272711653
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816634"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573358"
 ---
 # <a name="test-lab-guides-for-solutions-and-scenarios"></a>솔루션 및 시나리오에 대한 테스트 랩 가이드
 
@@ -32,7 +32,7 @@ TLS는 모듈 방식으로 설계되었습니다. 따라서 각 모듈을 조합
 
 또한, TLG는 응용 프로그램의 개발 및 테스트를 위한 대표적 환경(개발/테스트 환경이라고도 함)을 만들 수도 있습니다.
   
-![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Microsoft 클라우드용 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 이 [테스트 랩 가이드를 참조하여](team-security-isolation-dev-test.md) 보안이 강화된 팀을 설정해 보세요.
 

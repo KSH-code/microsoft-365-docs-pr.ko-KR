@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a939bd03f983904f438aaa2efe8e3be18c6831cd
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 5e8f6d2c79a0eeac6db20ff5791a25264d1b6767
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533558"
+ms.locfileid: "58573454"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics-in-microsoft-365-defender"></a>위협 분석의 분석가 보고서를 Microsoft 365 Defender
 
@@ -42,7 +42,7 @@ ms.locfileid: "58533558"
 
 각 [위협 분석 보고서에는](threat-analytics.md) 동적 섹션과 분석 보고서라는 포괄적인 서면 _섹션이 포함되어 있습니다._ 이 섹션에 액세스하려면 추적된 위협에 대한 보고서를 열고 분석가 보고서 **탭을** 선택합니다.
 
-![위협 분석 보고서의 분석 보고서 섹션 이미지](../../media/threat-analytics/ta_analystreport_mtp.png)
+![위협 분석 보고서의 분석 보고서 섹션 이미지입니다.](../../media/threat-analytics/ta_analystreport_mtp.png)
 
 _위협 분석 보고서의 분석가 보고서 섹션_
 

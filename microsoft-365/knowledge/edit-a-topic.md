@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 localization_priority: Normal
 description: 기존 항목의 기존 항목을 편집하는 Microsoft Viva 방법을 참조하세요.
-ms.openlocfilehash: 748b626dcdf6d118794872d5865a06678293d90da95d7e74057f019df749a1c6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4fb3089d0ce701477542fec7710db5de17638469
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53840409"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573610"
 ---
 # <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a>Microsoft Viva 항목 편집 
 
@@ -103,7 +103,7 @@ Viva 항목에서는 기존 항목을 편집할 수 있습니다. 기존 항목 
 
 8. 추천 **사이트 섹션에는** AI가 항목에 연결될 것으로 제안하는 사이트가 표시됩니다. 
 
-   ![추천 사이트 섹션 스크린샷](../media/knowledge-management/suggested-sites-section.png)  
+   ![추천 사이트 섹션의 스크린샷.](../media/knowledge-management/suggested-sites-section.png)  
 
     고정된 아이콘을 선택하여 추천 사이트를 고정된 사이트로 변경할 수 있습니다.
 

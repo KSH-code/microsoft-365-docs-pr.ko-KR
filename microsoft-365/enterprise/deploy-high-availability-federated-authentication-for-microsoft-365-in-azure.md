@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 34b1ab9c-814c-434d-8fd0-e5a82cd9bff6
 description: '요약: Microsoft 365 구독에 대해 고가용성 페더타 인증을 Microsoft Azure.'
-ms.openlocfilehash: 2bbd802a3ed3e7cc553d95e346d6b793b59f3533
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 22715f55a733b963a9b9f9c26c910adba1012ed7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356819"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574030"
 ---
 # <a name="deploy-high-availability-federated-authentication-for-microsoft-365-in-azure"></a>Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포
 
@@ -42,7 +42,7 @@ ms.locfileid: "58356819"
   
 **Azure의 Microsoft 365 인프라에 대한 고가용성 페더전 인증**
 
-![Azure의 페더 Microsoft 365 인프라에 대한 고가용성 구성](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
+![Azure의 페더 Microsoft 365 인프라에 대한 고가용성의 최종 구성입니다.](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
   
 모든 가상 컴퓨터는 단일 프레미스 간 Azure VNet(가상 네트워크)에 있습니다. 
   

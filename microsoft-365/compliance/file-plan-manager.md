@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획은 보존 라벨에 대한 고급 관리 기능을 제공한다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 81400dd6cad1caa83bb5dcfa3fc530f6db38796bd0ed4e28d908c3041b87a902
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5c270e3b03c8c8373cc3fcb204f5f5a654eeb001
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820124"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573274"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>파일 계획을 사용하여 보존 레이블 관리
 
@@ -54,7 +54,7 @@ Microsoft 365 규정 준수 센터에서 **솔루션** > **레코드* 관리** >
 
 **관리 기록** 이 탐색 창에 표시되지 않으면 먼저 아래로 스크롤하고 **모두 표시** 를 선택합니다.
 
-![파일 계획 페이지](../media/compliance-file-plan.png)
+![파일 계획 페이지.](../media/compliance-file-plan.png)
 
 ## <a name="navigating-your-file-plan"></a>파일 계획 탐색
 
@@ -107,11 +107,11 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
 
 보존 레이블을 만들거나 편집할 때 수행 하는 파일 계획 설명자의 예
 
-![보존 레이블을 만들거나 편집할 때 수행 하는 파일 계획 설명](../media/file-plan-descriptors.png)
+![보존 레이블을 만들거나 편집할 때 수행 하는 파일 계획 설명자.](../media/file-plan-descriptors.png)
 
 이러한 각 선택적 설명자에 대해 **선택** 을 선택하면 기본 제공 값 중 하나를 선택하거나 직접 만든 다음 선택할 수 있습니다. 예를 들어 다음과 같습니다. 
 
-![프로비전/인용을 위한 새 파일 플랜 설명자 만들기](../media/file-plan-descriptors-create.png)
+![프로비전/인용을 위한 새 파일 플랜 설명자를 만듭니다.](../media/file-plan-descriptors-create.png)
 
 ## <a name="export-all-retention-labels-to-analyze-or-enable-offline-reviews"></a>오프라인 검토를 분석하거나 활성화하기 위해 모든 보존 레이블을 내보냅니다.
 
@@ -119,11 +119,11 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
 
 모든 보존 레이블을 내보내려면 다음을 수행합니다. **파일 계획** 페이지에서 **내보내기** 를 클릭합니다.
 
-![파일 계획 내보내기 옵션](../media/compliance-file-plan-export-labels.png)
+![파일 계획 내보내기 옵션.](../media/compliance-file-plan-export-labels.png)
 
 기존의 모든 보존 레이블을 포함하는 *.csv 파일이 열립니다. 예를 들면 다음과 같습니다.
 
-![모든 보존 레이블이 표시되는 CSV 파일](../media/file-plan-csv-file.png)
+![모든 보존 레이블이 표시되는 CSV 파일.](../media/file-plan-csv-file.png)
 
 ## <a name="import-retention-labels-into-your-file-plan"></a>파일 계획에 보존 레이블 가져오기
 
@@ -131,9 +131,9 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
 
 1. **파일 계획** 페이지에서 **가져오기** 를 클릭하여 **파일 계획 작성 및 가져오기** 페이지를 사용합니다.
 
-   ![파일 계획 가져오기 옵션](../media/compliance-file-plan-import-labels.png)
+   ![파일 계획 가져오기 옵션.](../media/compliance-file-plan-import-labels.png)
 
-   ![빈 파일 계획 서식 파일 다운로드 옵션](../media/file-plan-blank-template-option.png)
+   ![빈 파일 계획 서식 파일 다운로드 옵션.](../media/file-plan-blank-template-option.png)
 
 2. 지시에 따라 빈 템플릿을 다운로드합니다.
 
@@ -170,13 +170,13 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
 
    다음은 보존 레이블에 대한 정보를 포함하는 템플릿의 예입니다.
 
-   ![정보가 채워진 파일 계획 서식 파일](../media/file-plan-filled-out-template.png)
+   ![정보가 채워진 파일 계획 서식 파일.](../media/file-plan-filled-out-template.png)
 
 4. **파일 플랜 작성 및 가져오기** 페이지의 3단계에서 **파일 찾아보기** 를 클릭하여 작성한 템플릿을 업로드한 후 **다음** 을 선택합니다.
 
    파일 플랜은 파일을 업로드하고 가져오기 통계를 표시하여 항목의 유효성을 검사합니다.
 
-   ![파일 플랜 가져오기 통계](../media/file-plan-import-statistics.png)
+   ![파일 계획 가져오기 통계.](../media/file-plan-import-statistics.png)
 
 5. 유효성 검사 결과에 따라 다음과 같은 결과가 나타납니다.
     

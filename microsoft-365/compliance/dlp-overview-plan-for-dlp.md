@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 데이터 손실 방지 계획 프로세스 개요
-ms.openlocfilehash: 2f1c37cee6b3fee9d317314b67736d627e4f7e4306be7f063383656e54fe374d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 130675ad15a872ed14041289fb24aeec471014ff
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814536"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573262"
 ---
 # <a name="plan-for-data-loss-prevention-dlp"></a>DLP(데이터 손실 방지) 계획
 
@@ -113,7 +113,7 @@ start small and always in test mode. Note that DLP policies can feed into inside
 
 조직이 시작 상태부터 원하는 종료 상태로 어떻게 진행할지 문서화하는 것은 관련자와 의사소통하고 프로젝트 범위를 설정하는 데 필수적입니다. 다음은 DLP를 배포하는 데 일반적으로 사용되는 단계 집합입니다. 이보다 더 자세한 내용을 원하지만 이를 사용하여 DLP 채택 경로를 틀 수 있습니다.
 
-![DLP 배포의 일반적인 순서를 보여주는 그래픽](../media/dlp-deployment-planning.png)
+![DLP 배포의 일반적인 순서를 보여 주며 그래픽](../media/dlp-deployment-planning.png)
 
 #### <a name="sensitive-item-discovery"></a>중요한 항목 검색
 
@@ -177,15 +177,15 @@ DLP 정책을 만든 후에는 완전히 적용하기 전에 서서히 롤아웃
     
 3. 규칙에서 작업이 적용되고 콘텐츠가 보호되도록 **정책에 대한 전체 적용을 시작합니다**. DLP 보고서 및 모든 사고 보고서나 알림을 계속 모니터링하여 결과가 의도한 대로 나타나는지 확인합니다. 
 
-    ![테스트 모드를 사용하고 정책을 설정하기 위한 옵션](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
+    ![테스트 모드를 사용하고 정책을 켜기 위한 옵션입니다.](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
 
     언제든지 DLP 정책을 종료할 수 있습니다. 이 경우 정책의 모든 규칙들이 영향을 받습니다. 하지만 규칙 편집기에서 상태를 전환하여 각 규칙을 개별적으로 종료할 수도 있습니다.
 
-    ![정책에서 규칙을 종료하기 위한 옵션](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
+    ![정책에서 규칙을 끄기 위한 옵션입니다.](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
 
     정책에서 여러 규칙의 우선 순위를 변경할 수도 있습니다. 이를 위해 편집할 정책을 엽니다. 규칙의 행에서 줄임표(**...**)를 선택하고 **아래로 이동** 또는 **마지막 규칙 가져오기** 와 같은 옵션을 선택하십시오.
 
-    ![규칙 우선 순위를 설정하십시오.](../media/dlp-set-rule-priority.png)
+    ![규칙 우선 순위를 설정합니다.](../media/dlp-set-rule-priority.png)
 
 #### <a name="end-user-training"></a>최종 사용자 교육
 

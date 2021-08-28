@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 1b3b5318-6977-42ed-b5c7-96fa74b08846
 description: Microsoft 365 Active Directory 간에 디렉터리 동기화를 설정하는 방법을 알아보십시오.
-ms.openlocfilehash: db6fc46eb4659b0c41f46b2828044af3bdaf02e2
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: f6537e1c813e564b728891ffb13f644c3850a07e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356195"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574018"
 ---
 # <a name="set-up-directory-synchronization-for-microsoft-365"></a>사용자에 대한 디렉터리 동기화 Microsoft 365
 
@@ -37,7 +37,7 @@ Microsoft 365 Azure AD(Azure Active Directory) 테넌트에서 클라우드 기�
 
 AD DS(Active Directory 도메인 서비스) 도메인 또는 포리스트가 있는 경우 AD DS 사용자 계정, 그룹 및 연락처를 Microsoft 365 Azure AD 테넌트와 동기화할 수 있습니다. 이 ID는 하이브리드 Microsoft 365. 구성 요소는 다음과 같습니다.
 
-![사용자에 대한 디렉터리 동기화 구성 Microsoft 365](../media/about-microsoft-365-identity/hybrid-identity.png)
+![사용자에 대한 디렉터리 동기화 구성 Microsoft 365.](../media/about-microsoft-365-identity/hybrid-identity.png)
 
 Azure AD 커넥트 실행되어 AD DS를 Azure AD 테넌트와 동기화합니다. 디렉터리 동기화와 함께 다음 인증 옵션을 지정할 수도 있습니다.
 

@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 보안 수준 증가에 대한 도움말을 Microsoft 365
-ms.openlocfilehash: 840c9ba2db5408d539722db45528a3db728698b311e55a7c3803cee32468aafa
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 96aee5716374fda43c0258c55ab22d425001b8b5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573370"
 ---
 # <a name="increase-threat-protection-for-microsoft-365-subscription"></a>구독에 대한 위협 Microsoft 365 증가
 
@@ -90,7 +90,7 @@ ms.locfileid: "53887711"
 |다음을 합니다. . .|받는 사람에게 메시지로 알림|
 |메시지 텍스트 제공|악성 코드가 포함된 매크로가 포함되어 있을 수 있기 때문에 모르는 사용자로부터 이러한 형식의 파일을 열지 않습니다.|
 
-자세한 내용은 다음 항목을 참조하세요.
+자세한 내용은 다음을 참조하세요.
 
 - [랜섬웨어: 위험을 줄이는 방법](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 
@@ -283,7 +283,7 @@ Office 365 또는 Microsoft 365 사용자 지정 도메인을 하나 이상 구�
 
 다음 그림에서는 정책에 포함된 기본 정책을 Microsoft 365.
 
-![정책에 포함된 기본 경고 Microsoft 365](../media/alertpolicies.png)
+![정책에 포함된 기본 경고 Microsoft 365.](../media/alertpolicies.png)
 
 ## <a name="disable-or-manage-calendar-sharing"></a>일정 공유를 사용하지 않도록 설정하거나 관리
 

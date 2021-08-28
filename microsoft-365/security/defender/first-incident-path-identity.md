@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 57a324310458dc15f5edcd6012ab381bb4d5041d902b8871d85cb318f0e7023e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f0695f406bdc2063c58d87c61032d120442928e5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873638"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573514"
 ---
 # <a name="example-of-an-identity-based-attack"></a>ID 기반 공격의 예
 
@@ -42,25 +42,25 @@ Microsoft Defender for Identity는 조직에서 ID를 손상하려는 악의적�
 
 Microsoft 365 Defender 인시던트 페이지의 경고 탭에서 분석가가 검색 원본을 통해 경고를 필터링할 수 있습니다.  다음 예제에서는 ID에 대한 검색 원본이 **Defender로 필터링됩니다.** 
 
-:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mdi-filter.png" alt-text="ID에 대한 Defender에 대한 검색 원본 필터링 예":::
+:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mdi-filter.png" alt-text="ID에 대한 Defender에 대한 검색 원본 필터링의 예":::
 
 의심되는 **overpass-the-hash** 공격 경고를 선택하면 자세한 정보가 Microsoft Cloud App Security 페이지로 이동합니다. 경고 유형에 대해 자세히 알아보고 공격에  대한 설명과 수정 제안을 읽으면 경고 또는 공격에 대한 자세한 정보를 언제든지 찾을 수 있습니다. [](/defender-for-identity/lateral-movement-alerts#suspected-overpass-the-hash-attack-kerberos-external-id-2002)
  
-:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-alert-example.png" alt-text="의심되는 오버패스- 해시 공격 경고의 예"::: 
+:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-alert-example.png" alt-text="Overpass-the-hash 공격 경고의 예입니다."::: 
 
 ## <a name="investigating-the-same-attack-in-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender에서 동일한 공격 조사
 
 또는 분석가가 끝점용 Defender를 사용하여 끝점의 활동에 대해 자세히 배울 수 있습니다. 인시던트 큐에서 인시던트 를 선택한 다음 경고 **탭을** 선택합니다. 여기에서 검색 원본도 식별할 수 있습니다. 검색된 것으로 레이블이 EDR 끝점 검색 및 응답은 끝점용 Defender입니다. 여기에서 분석가가 검색된 경고를 EDR.
 
-:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mde-edr.png" alt-text="Endpoint용 Defender의 끝점 감지 및 응답 예"::: 
+:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mde-edr.png" alt-text="Endpoint용 Defender의 끝점 검색 및 응답 예"::: 
 
 경고 페이지에는 영향을 미치는 장치 이름, 사용자 이름, 자동 조사 상태, 경고 세부 정보 등 다양한 관련 정보가 표시됩니다. 경고 스토리는 프로세스 트리의 시각적 표현을 나타냈습니다. 프로세스 트리는 경고와 관련된 상위 및 자식 프로세스의 계층적 표현입니다.
 
-:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mde-tree.png" alt-text="Endpoint용 Defender의 경고 프로세스 트리 예"::: 
+:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mde-tree.png" alt-text="Endpoint용 Defender의 경고 프로세스 트리 예제입니다."::: 
 
 각 프로세스를 확장하여 추가 세부 정보를 볼 수 있습니다. 분석가가 볼 수 있는 세부 정보는 악의적인 스크립트, 아웃바운드 연결 IP 주소 및 기타 유용한 정보의 일부로 입력된 실제 명령입니다.
 
-:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-process-details.png" alt-text="Endpoint용 Defender의 프로세스 세부 정보 예":::
+:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-process-details.png" alt-text="Endpoint용 Defender의 프로세스 세부 정보 예제입니다.":::
  
 시간 표시 **막대에서 참조를** 선택하면 분석가가 드릴다운을 추가하여 정확한 손상 시간을 확인할 수 있습니다. 
 
@@ -68,13 +68,13 @@ Microsoft 365 Defender 인시던트 페이지의 경고 탭에서 분석가가 �
 
 이를 위해 분석가가 경고 검색 시(빨간색)에 시작하고 뒤로 스크롤하여 악의적인 활동을 주도한 원래 활동이 실제로 시작된 시기를 파악합니다. 
 
-:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-start-time.png" alt-text="경고 검색 시 시작 예제"::: 
+:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-start-time.png" alt-text="경고 검색 시 시작 예제입니다."::: 
 
 Windows 업데이트 연결, Windows 신뢰할 수 있는 소프트웨어 정품 인증 트래픽, Microsoft 사이트에 대한 기타 일반적인 연결, 타사 인터넷 활동, Microsoft Endpoint Configuration Manager 활동 및 기타 무해한 활동과 같은 일반적인 활동을 이해하고 구분해야 합니다. 이렇게 하는 한 가지 방법은 시간 표시 막대 필터를 사용하는 것입니다. 분석가가 보지 않을 모든 것을 필터링하는 동안 특정 활동을 강조할 수 있는 많은 필터가 있습니다. 
 
 아래 이미지에서 분석가가 네트워크 및 처리 이벤트만 보기 위해 필터링했습니다. 이를 통해 분석가가 IP 주소와의 연결을 설정한 이벤트와 메모장 네트워크 연결 및 프로세스를 볼 수 있습니다. 프로세스 트리에서도 볼 수 있습니다. 
 
-:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-notepad.png" alt-text="악의적인 아웃바운드 연결을 메모장 방법의 예"::: 
+:::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-notepad.png" alt-text="악의적인 아웃바운드 연결을 메모장 방법을 예로 들 수 있습니다."::: 
 
 이 특정 이벤트에서는 메모장 아웃바운드 연결을 만드는 데 사용됩니다. 그러나 일반적으로 iexplorer.exe 웹 브라우저 활동으로 간주되어 공격자는 단순히 iexplorer.exe 사용하여 악의적인 페이로드를 다운로드하기 위한 연결을 설정하기만 합니다.
 

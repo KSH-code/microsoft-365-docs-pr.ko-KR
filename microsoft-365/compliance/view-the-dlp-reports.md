@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: 정책의 DLP Office 365 DLP 정책 일치, 재지정 또는 가짓 긍정 수를 보고 시간이 경과에 따라 추세인지 또는 하락 추세인지를 볼 수 있습니다.
-ms.openlocfilehash: 936c8aaba7d50cbb775c98babe751b357738e617d55ea8a8517a86c4f7cdb188
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 12ee109a348657aa8ca04c55e496047a82772e22
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795498"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574066"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>데이터 손실 방지에 대한 보고서 보기
 
@@ -60,13 +60,13 @@ DLP(데이터 손실 방지) 정책을 만든 후 의도한 것만큼 작동하�
   
 이러한 보고서는 보안 및 준수 센터 보고서 대시보드 &amp; \> **에서 찾을 수** \> **있습니다.**
   
-![DLP 정책 일치 보고서](../media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
+![DLP 정책은 보고서와 일치합니다.](../media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
   
 ## <a name="view-the-justification-submitted-by-a-user-for-an-override"></a>사용자가 제출한 정당성에 대한 검토
 
 DLP 정책에서 사용자가 이를 재정의할 수 있도록 허용하는 경우 가양성 및 재정의 보고서를 사용하여 정책 팁에서 사용자가 제출한 텍스트를 볼 수 있습니다.
   
-![DLP 가 긍정 및 다시 정당성 보고서의 세부 정보 필드](../media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
+![DLP 가 긍정 및 긍정 보고서에 대한 세부 정보의 사소한 필드입니다.](../media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
   
 ## <a name="take-action-on-insights-and-recommendations"></a>인사이트 및 권장 사항에 대한 조치 수행
 

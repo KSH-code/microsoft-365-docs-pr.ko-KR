@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 구성 분석기를 사용하여 표준 보호 및 미리 설정된 보안 정책에서 엄격한 보호의 설정 아래에 있는 보안 정책을 찾아 수정하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ae0655b2f05962418e736242200d65be34a20d58
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 2b732922cf0a7d9f1d44a24d3b7b6f025f3c2a27
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255033"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573430"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
@@ -84,7 +84,7 @@ Microsoft 365 Defender 포털의 템플릿 기반  정책 섹션에서 전자 �
 
 기본적으로 구성 분석기는 표준 권장 사항 **탭에서 열립니다.** 엄격 추천 **탭으로 전환할 수** 있습니다. 설정, 레이아웃 및 동작은 두 탭에서 동일합니다.
 
-![설정 분석기에서 보기 및 추천 보기](../../media/configuration-analyzer-settings-and-recommendations-view.png)
+![설정 분석기에서 보기 및 추천 보기를 볼 수 있습니다.](../../media/configuration-analyzer-settings-and-recommendations-view.png)
 
 탭의 첫 번째 섹션에는 표준 또는 엄격한 보호와 비교하여 개선해야 하는 각 정책 유형의 설정 수가 표시됩니다. 정책의 유형은 다음입니다.
 
@@ -141,7 +141,7 @@ Microsoft 365 Defender 포털의 템플릿 기반  정책 섹션에서 전자 �
 - **시작 시간** 및 **종료 시간(날짜):** 오늘로부터 90일까지 돌아갈 수 있습니다.
 - **표준 보호** 또는 **엄격한 보호**
 
-완료되면 적용을 **클릭합니다.**
+완료되면 **적용** 을 클릭합니다.
 
 결과를 파일로 내보내려면 .csv 를 **클릭합니다.**
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: 이 페이지를 사용하여 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리할 수 있습니다.
-ms.openlocfilehash: fca6ac7d76c4ce680209eba297894b582a824355b3a9c6f736c861dc9559fe82
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3b61c2f3e5597208ace2a87a7d203e8d724e4f5f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900850"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573346"
 ---
 # <a name="add-staff-to-bookings"></a>Bookings에 직원 추가
 
@@ -49,13 +49,13 @@ Bookings는 모든 Microsoft 365 Microsoft 365 계정이 필요한 것은 아닙
 
 6. 직원 **전자 메일을** 사용하도록 할당된 예약을 만들거나 변경할 때 전자 메일을 통해 모든 직원에게 알림을 선택합니다. 다음은 전자 메일의 예입니다.
 
-    :::image type="content" source="media/bookings-notify-all-email.jpg" alt-text="Bookings의 알림 전자 메일":::
+    :::image type="content" source="media/bookings-notify-all-email.jpg" alt-text="Bookings의 알림 전자 메일입니다.":::
 
 7. 직원 **Office 365** 약속이 있는/약속이 있는 정보를 예약을 통해 예약 서비스의 가용성에 영향을 주게 하려는 경우 일정에서 이벤트를 선택하면 가용성에 영향을 미치게 됩니다.
 
     예를 들어 직원 구성원이 수요일에 오후 3시로 예정된 팀 모임 또는 개인 약속을 이 시간 슬롯에 예약할 수 없음으로 표시하는 경우 Bookings는 해당 직원 구성원을 예약할 수 없음으로 표시하게 됩니다. 이 시간은 아래 예제와 같이 Bookings 일정 보기에서 약속이 있는 시간 또는 미정으로 표시됩니다.
 
-    :::image type="content" source="media/bookings-busy-tentative-view.jpg" alt-text="Bookings 일정 보기":::
+    :::image type="content" source="media/bookings-busy-tentative-view.jpg" alt-text="Bookings 일정 보기입니다.":::
 
 > [!IMPORTANT]
 > 이중 예약을 방지하고 직원 구성원의 가용성을 최적화하기 위해 이 설정을 설정(기본적으로 켜져 있습니다)으로 두는 것이 좋습니다.

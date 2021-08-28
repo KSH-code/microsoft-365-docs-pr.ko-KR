@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 93b44b063047ca900a8f5b638494efb5b09a6555
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: d67cfd7cec1c5ead0b2ac3c6843b26fd236e7cea
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508157"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573214"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사를 위한 준수 경계 설정
 
@@ -34,7 +34,7 @@ ms.locfileid: "58508157"
   
 다음 그림의 예제를 사용하여 규정 준수 경계의 작동 방식에 대해 설명합니다.
   
-![규정 준수 경계는 eDiscovery 사례에 대한 액세스를 제어하는 기관 및 관리자 역할 그룹에 대한 액세스를 제어하는 검색 권한 필터로 구성됩니다.](../media/M365_ComplianceBoundary_OrgChart_v2.png)
+![준수 경계는 eDiscovery 사례에 대한 액세스를 제어하는 기관 및 관리자 역할 그룹에 대한 액세스를 제어하는 검색 권한 필터로 구성됩니다.](../media/M365_ComplianceBoundary_OrgChart_v2.png)
   
 이 예에서 Contoso LTD는 Fourth Coffee와 Coho Winery의 두 지사로 구성된 조직입니다. 비즈니스를 위해서는 eDiscovery 관리자와 조사자는 해당 Exchange 사서함, OneDrive 계정 및 해당 SharePoint 사이트만 검색할 수 있도록 요구합니다. 또한 eDiscovery 관리자 및 조사자는 해당 기관에서 eDiscovery 사례만 볼 수 있으며 구성원인 사례에만 액세스할 수 있습니다. 또한 이 시나리오에서 조사자는 콘텐츠 위치를 보류하거나 사례에서 콘텐츠를 내보낼 수 없습니다. 규정 준수 경계가 이러한 요구 사항을 충족하는 방식은 다음과 있습니다.
   
@@ -275,7 +275,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
 - 콘텐츠 기반 준수 경계에 제외 필터(예: 검색 권한 필터에서 사용)를 사용하지 `-not()` 않는 것이 좋습니다. 최근에 업데이트된 특성이 있는 콘텐츠가 인덱싱되지 않은 경우 제외 필터를 사용하면 예기치 않은 결과가 발생할 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **Who 및 cmdlet을 사용하여 검색 권한 필터를 New-ComplianceSecurityFilter Set-ComplianceSecurityFilter 수 있습니까?**
   

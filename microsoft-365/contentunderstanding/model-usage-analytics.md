@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 문서 이해 모델에 대한 사용 현황 분석을 찾고 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 9ea408485a7cf1ff935192775eab2325e0e268aad927a72dedf237f0e81a3e0f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d39b2417a90716200d33831bfef7e9cb2ff1d523
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871146"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574042"
 ---
 # <a name="document-understanding-model-usage-analytics-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 문서 이해 모델 사용 현황 분석
 
@@ -35,7 +35,7 @@ SharePoint Syntex 콘텐츠 센터는 콘텐츠 센터에서 게시된 모델이
 - 라이브러리별 분류
 - 모델 사용 
 
- ![모델 분석](../media/content-understanding/model-analytics.png) </br>
+ ![모델 분석.](../media/content-understanding/model-analytics.png) </br>
 
 ### <a name="roll-up-of-model-usage-data-in-the-default-content-center"></a>기본 콘텐츠 센터에서 모델 사용 현황 데이터 롤업
 
@@ -49,7 +49,7 @@ SharePoint Syntex에서 기본 콘텐츠 센터는 설치 중에 만들어집니
 
 ## <a name="classification-by-model"></a>모델별 분류
 
-   ![총 모델 백분율](../media/content-understanding/total-model-percentage.png) </br>
+   ![총 모델 백분율.](../media/content-understanding/total-model-percentage.png) </br>
 
 **모델별 분류** 원형 차트에서는 가장 많은 파일을 분류한 모델이 표시됩니다. 게시된 각 모델은 콘텐츠 센터에 게시된 모든 모델에서 처리한 총 파일의 백분율로 표시됩니다.
 
@@ -57,7 +57,7 @@ SharePoint Syntex에서 기본 콘텐츠 센터는 설치 중에 만들어집니
 
 ## <a name="classification-by-library"></a>라이브러리별 분류
 
-   ![처리된 파일](../media/content-understanding/files-processed-over-time.png) </br>
+   ![처리된 파일.](../media/content-understanding/files-processed-over-time.png) </br>
 
 **라이브러리별 분류** 막대 차트는 조직에서 콘텐츠 이해의 효율성을 결정하도록 돕습니다.  각 모델에서 시간에 따라 처리된 파일 수를 보여줄 뿐만 아니라 챠트의 열을 선택하면 모델이 적용된 문서 라이브러리도 표시합니다.
 

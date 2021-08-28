@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: CellTrust SL2 데이터 커넥터를 설정하고 사용하여 모바일 통신 데이터를 가져오고 보관하는 방법을 학습합니다.
-ms.openlocfilehash: 802d5e08354d5fbdc179c01a7c72145a5d0c7ac3f12907b06632cd5db758ee0f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 65f887e067b84414fe09f2ff39b3f1c0d7012f5b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861086"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573322"
 ---
 # <a name="archive-data-from-celltrust-sl2-to-microsoft-365"></a>CellTrust SL2의 데이터를 보관하여 Microsoft 365
 
@@ -29,7 +29,7 @@ CellTrust SL2는 모바일 통신 데이터를 캡처하고 주요 보관 기술
 
 CellTrust의 SL2 플랫폼은 여러 원본의 통신 데이터를 캡처합니다. SL2 데이터 원본은 P2P(일대일) 또는 A2P(응용 프로그램 대 개인)입니다. 이 문서에서 설명하는 프로세스는 P2P 데이터 원본에만 해당합니다. 모든 P2P 데이터 원본의 경우 공동 작업의 한 명 이상의 사용자가 SL2 서비스에 구독된 SL2 사용자입니다. 다음 개요에서는 이 섹션에서 CellTrust SL2 Data Connector를 사용하는 Microsoft 365.
 
-![CellTrust SL2 서비스에 대한 보관 워크플로](../media/CellTrustSL2ConnectorWorkflow.png)
+![CellTrust SL2 서비스에 대한 보관 워크플로입니다.](../media/CellTrustSL2ConnectorWorkflow.png)
 
 1. SL2 사용자는 해당 서비스의 SL2 서비스와 데이터를 Microsoft Azure.
 
@@ -55,7 +55,7 @@ CellTrust의 SL2 플랫폼은 여러 원본의 통신 데이터를 캡처합니�
 
 2. 개요 **탭에서** 필터를 **클릭하고** **CellTrust로** 를 선택한 다음 필터를 적용합니다.
 
-   ![CellTrust 커넥터를 표시하도록 필터 구성](../media/DataConnectorsFilter.png)
+   ![CellTrust 커넥터를 표시하도록 필터를 구성합니다.](../media/DataConnectorsFilter.png)
 
 3. **CellTrust SL2(미리 보기)를 클릭합니다.**
 
@@ -81,7 +81,7 @@ CellTrust의 SL2 플랫폼은 여러 원본의 통신 데이터를 캡처합니�
 
 3. 보관할 사업부를 사용하도록 설정하십시오. 도메인을 선택하면 US가 자동으로 선택되지 않습니다. 각 OU를 개별적으로 사용하도록 설정하여 보관해야 합니다.
 
-   ![보관할 US 사용](../media/EnableCellTrustOUs.png)
+   ![보관할 US를 사용하도록 설정](../media/EnableCellTrustOUs.png)
 
 4. 선택을 마치면 브라우저 창을 닫고 브라우저의 마법사 페이지로 Microsoft 365 규정 준수 센터. 몇 초 후에 마법사가 자동으로 다음 매핑 단계로 진행됩니다.
 

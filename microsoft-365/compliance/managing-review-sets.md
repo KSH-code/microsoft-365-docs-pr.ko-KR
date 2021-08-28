@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 사례에서 데이터를 분석, 쿼리, 보기, 태그 및 내보낼 수 있도록 검토 집합을 관리하는 Advanced eDiscovery 방법을 알아보습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 164c172dd4c4ad5de6b24d25466afcb8a016715fdbe1f1958616afe823aeb487
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 51362fa23af1c0a8b232fe5fc026ac1a87803c3a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865874"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573622"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>2013에서 검토 집합 Advanced eDiscovery
 
@@ -42,11 +42,11 @@ ms.locfileid: "53865874"
 
 검토 집합은 +  검토 집합 추가를 클릭하여 검토 집합 **탭에서 만들 수 있습니다.**
 
-![검토 집합 추가](../media/f45c51d9-585d-47d1-b7fb-0288715e0b6a.png)
+![검토 집합을 추가합니다.](../media/f45c51d9-585d-47d1-b7fb-0288715e0b6a.png)
 
 검토 **집합 플라이아웃** 추가 페이지에서 검토 집합의 이름을 입력한 다음 저장을 **클릭합니다.** 새 검토 집합이 검토 집합 탭의 목록에 **표시됩니다.**
 
-![검토 집합 탭에 나열된 새 검토 집합](../media/AeDnewreviewset.png)
+![검토 집합 탭에 나열된 새 검토 집합입니다.](../media/AeDnewreviewset.png)
 
 검토 집합에 데이터를 추가하는 방법에는 세 가지가 Advanced eDiscovery 있습니다.
 

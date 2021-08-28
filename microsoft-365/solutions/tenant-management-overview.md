@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 테넌트의 계획, 배포 및 진행 Microsoft 365 개요입니다.
-ms.openlocfilehash: 18a4f4f39b2c3fd530aecb9202032a2b571a9c7f4cf38fec489dfa88a81a2a98
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5d98f715b9233a29c8710966099667075eae0020
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53883226"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573382"
 ---
 # <a name="tenant-management-for-microsoft-365-for-enterprise"></a>엔터프라이즈용 테넌트 Microsoft 365 테넌트 관리
 
@@ -47,7 +47,7 @@ Microsoft 365 테넌트는 Microsoft 365 및 유럽 또는 북미와 같은 특�
 
 예를 들면 다음과 같습니다.
 
-![Azure MICROSOFT 365 테넌트에 대한 예제](../media/tenant-management-overview/tenant-management-example-tenant.png)
+![Azure MICROSOFT 365 테넌트에 대한 예제입니다.](../media/tenant-management-overview/tenant-management-example-tenant.png)
 
 *테넌트 관리는* 테넌트의 계획, 배포 및 Microsoft 365 작업입니다.
 
@@ -77,7 +77,7 @@ Microsoft 365 테넌트는 Microsoft 365 및 유럽 또는 북미와 같은 특�
 
 다음은 이러한 요소가 모두 Microsoft 365 테넌트의 예입니다.
 
-![테넌트 Microsoft 365 예](../media/tenant-management-overview/tenant-management-tenant-config.png)
+![테넌트의 Microsoft 365 예입니다.](../media/tenant-management-overview/tenant-management-tenant-config.png)
 
 이 그림에서 Microsoft 365 테넌트에는 다음이 포함됩니다.
 
@@ -146,7 +146,7 @@ Microsoft 365 테넌트는 Microsoft 365 및 유럽 또는 북미와 같은 특�
 4. [서버 및 데이터로 Office 마이그레이션](tenant-management-migration.md)
 5. [장치 및 앱 관리 배포](tenant-management-device-management.md)
 
-[![테넌트 배포 및 관리 Microsoft 365 단계](../media/tenant-management-overview/tenant-management-step-grid.png)](tenant-management-tenants.md)
+[![테넌트 배포 및 관리 Microsoft 365 단계입니다.](../media/tenant-management-overview/tenant-management-step-grid.png)](tenant-management-tenants.md)
 
 각 단계에서는 배포 옵션, 결과 요약 및 지속적인 유지 관리 작업에 대해 설명합니다.
 

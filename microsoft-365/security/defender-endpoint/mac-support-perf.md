@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3be00729d96c7c46189348bf517e40e08f226fa08ad494aa93d14b3cb4b725e5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f7b1607a6e83db969807c0d0ce369b161cb88f1e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898167"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573538"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -52,7 +52,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
 
     - 사용자 인터페이스에서 macOS에서 끝점용 Microsoft Defender를 열고 설정 **관리로 이동합니다.**
 
-      ![실시간 보호 스크린샷 관리](images/mdatp-36-rtp.png)
+      ![실시간 보호 스크린샷을 관리합니다.](images/mdatp-36-rtp.png)
 
     - 터미널에서 보안을 위해 이 작업을 수행하려면 권한 상승이 필요합니다.
 

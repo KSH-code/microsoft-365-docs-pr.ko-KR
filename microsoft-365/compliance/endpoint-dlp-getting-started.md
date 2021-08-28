@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 85880fd9f64df1bd3807bc36d12c4bd7a5c2e4754ad1ac07ffe3e68f7f07a99d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 53054e32803bb3722674c043a84eb7f410a77d06
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865972"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573634"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
@@ -127,7 +127,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 2. 규정 준수 센터 설정 페이지를 열고 **장치 온보딩** 을 선택합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![장치 관리를 사용하도록 설정](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
+   > ![장치 관리를 사용하도록 설정.](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
 
    > [!NOTE]
    > 일반적으로 장치 온보딩이 활성화되는 데 60초 정도 소요되지만, Microsoft 지원에 연락하기 전에 30분까지 기다려보세요.
@@ -139,7 +139,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 5. **배포 방법** 목록에서 이러한 추가 장치에 배포할 방법을 선택한 다음 **패키지를 다운로드합니다**.
 
    > [!div class="mx-imgBorder"]
-   > ![배포 방법](../media/endpoint-dlp-getting-started-3-deployment-method.png)
+   > ![배포 방법.](../media/endpoint-dlp-getting-started-3-deployment-method.png)
 
 6. [Windows 10 컴퓨터용 온보딩 도구와 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
 
@@ -165,7 +165,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 3. **장치 관리** 를 선택하여 **장치** 목록을 엽니다. 이미 엔드포인트용 Microsoft Defender에 보고하고 있는 장치 목록이 표시되어야 합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![장치 관리](../media/endpoint-dlp-getting-started-2-device-management.png)
+   > ![장치 관리.](../media/endpoint-dlp-getting-started-2-device-management.png)
 
 4. 추가 디바이스를 온보딩해야 하는 경우에는 **온보딩** 을 선택합니다.
 
@@ -196,7 +196,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 2. [활동 탐색기 시작하기](data-classification-activity-explorer.md)의 절차를 참조하여 엔드포인트 장치에 대한 모든 데이터에 액세스하고 테이터를 필터링합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![엔드포인트 장치에 대한 활동 탐색기 필터](../media/endpoint-dlp-4-getting-started-activity-explorer.png)
+   > ![엔드포인트 장치에 대한 활동 탐색기 필터.](../media/endpoint-dlp-4-getting-started-activity-explorer.png)
 
 ## <a name="next-steps"></a>다음 단계
 

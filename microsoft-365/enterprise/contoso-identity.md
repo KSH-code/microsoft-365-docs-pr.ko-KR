@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 IDaaS(Identity as a Service)를 활용하고 직원을 위해 클라우드 기반 인증을 제공하고, 파트너 및 고객을 위해 페더레이션 인증을 제공하는 방법을 알아봅니다.
-ms.openlocfilehash: 9138e0743e5194e98213ab2d2c2bfe457500b0de
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: b8943f0af678ed3d86d1428fe44cd6ab67554470
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58353795"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574054"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Contoso Corporation의 ID
 
@@ -44,7 +44,7 @@ Contoso는 다음을 허용합니다.
 
 다음은 공용 웹 사이트, 파트너 엑스트라넷 및 AD FS(Active Directory Federation Services) 서버 집합을 포함하는 Contoso DMZ입니다. DMZ는 고객, 파트너 및 인터넷 서비스가 포함된 인터넷에 연결됩니다.
 
-![고객 및 파트너를 위한 페더전 인증에 대한 Contoso 지원](../media/contoso-identity/contoso-identity-fig2.png)
+![Contoso는 고객 및 파트너를 위한 페더러드 인증을 지원하고 있습니다.](../media/contoso-identity/contoso-identity-fig2.png)
  
 DMZ의 AD FS 서버는 공용 웹 사이트에 액세스하기 위해 ID 공급자가 고객 자격 증명을 인증하고 파트너 엑스트라넷에 액세스하기 위한 파트너 자격 증명을 쉽게 인증할 수 있도록 합니다.
 
@@ -72,7 +72,7 @@ Contoso는 다음 세 가지 보호 수준에서 Azure AD 및 Intune [조건부 
 
 Contoso ID 및 장치 조건부 액세스 정책의 결과 집합은 다음과 있습니다.
 
-![Contoso의 ID 및 디바이스 조건부 액세스 정책](../media/contoso-identity/contoso-identity-fig5.png)
+![Contoso의 ID 및 장치 조건부 액세스 정책](../media/contoso-identity/contoso-identity-fig5.png)
  
 ## <a name="next-step"></a>다음 단계
 

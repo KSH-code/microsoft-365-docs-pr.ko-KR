@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 21864ec94b4b7cd9ef19d23bb5c141d6458d63544361c52b023b6eaeafee6444
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7853a7b0439ee42cbe4b653f0572b055b19c3a2b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573646"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -57,11 +57,11 @@ ms.locfileid: "53886249"
 
 1. 일반 지침에 따라 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)하고 반드시 레이블 범위에 대해 **파일 및 전자 메일** 이 선택되도록 합니다. 
     
-    ![파일 및 전자 메일에 대한 민감도 레이블 범위 옵션](../media/filesandemails-scope-options-sensitivity-label.png)
+    ![파일 및 전자 메일에 대한 민감도 레이블 범위 옵션.](../media/filesandemails-scope-options-sensitivity-label.png)
 
 2. 그런 다음 **파일 및 전자 메일에 대한 보호 설정 선택** 페이지에서 반드시 **파일 및 전자 메일 암호화** 를 선택합니다.
     
-    ![파일 및 전자 메일에 대한 민감도 레이블 보호 옵션](../media/protection-options-sensitivity-label.png)
+    ![파일 및 전자 메일에 대한 민감도 레이블 보호 옵션.](../media/protection-options-sensitivity-label.png)
 
 4.  마법사의 **암호화** 페이지에서 다음 옵션 중 하나를 선택하세요.
     
@@ -71,7 +71,7 @@ ms.locfileid: "53886249"
     
     - **암호화 설정 구성**: 암호화를 켜고 암호화 설정을 표시합니다.
         
-        ![암호화에 대한 민감도 레이블 옵션](../media/encrytion-options-sensitivity-label.png)
+        ![암호화에 대한 민감도 레이블 옵션.](../media/encrytion-options-sensitivity-label.png)
         
         해당 설정에 대한 지침은 다음 [암호화 설정 구성](#configure-encryption-settings) 섹션에 있습니다.
 
@@ -125,7 +125,7 @@ ms.locfileid: "53886249"
 
 지금 권한을 할당할지 사용자가 권한을 할당하도록 허용할지 선택:
 
-![사용자 또는 관리자가 정의한 권한 추가 옵션](../media/sensitivity-label-user-or-admin-defined-permissions.png)
+![사용자 또는 관리자가 정의한 권한 추가 옵션.](../media/sensitivity-label-user-or-admin-defined-permissions.png)
 
 ## <a name="assign-permissions-now"></a>지금 권한 할당
 
@@ -137,7 +137,7 @@ ms.locfileid: "53886249"
 
 암호화된 콘텐츠의 액세스 제어 설정:
 
-![관리자가 정의한 권한에 대한 설정](../media/sensitivity-encryption-settings-for-admin-defined-permissions.png)
+![관리자가 정의한 권한에 대한 설정.](../media/sensitivity-encryption-settings-for-admin-defined-permissions.png)
 
 ### <a name="rights-management-use-license-for-offline-access"></a>오프라인 액세스에 대한 권한 관리 사용 라이선스
 
@@ -159,7 +159,7 @@ ms.locfileid: "53886249"
 
 사용 권한 할당:
 
-![사용자에게 사용 권한을 할당하는 옵션](../media/Sensitivity-Assign-permissions-settings.png)
+![사용자에게 사용 권한을 할당하는 옵션.](../media/Sensitivity-Assign-permissions-settings.png)
 
 #### <a name="add-users-or-groups"></a>사용자 또는 그룹 추가
 
@@ -202,13 +202,13 @@ ms.locfileid: "53886249"
 
 적절한 사용 권한을 선택하는 데 도움이 되는 자세한 내용은 [사용 권한 및 설명](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions)을 참조하세요.  
 
-![미리 설정된 옵션 또는 사용자 지정 사용 권한](../media/Sensitivity-Choose-permissions-settings.png)
+![미리 설정된 옵션 또는 사용자 지정 사용 권한.](../media/Sensitivity-Choose-permissions-settings.png)
 
 동일한 레이블로 다른 사용자에게 다른 권한을 부여할 수 있습니다. 예를 들어 아래에 있는 스크린샷과 같이 단일 레이블에서 일부 사용자를 검토자로 할당하고 다른 사용자를 공동 작성자로 할당할 수 있습니다.
 
 이를 위해서는 사용자 또는 그룹을 추가하고 사용 권한을 할당하고 해당 설정을 저장합니다. 그런 다음 매번 이 단계를 반복하여 사용자를 추가하고 권한을 할당하고 설정을 저장합니다. 이 구성을 필요한 만큼 수행하여 여러 사용자에게 서로 다른 권한을 정의할 수 있습니다.
 
-![다른 사용 권한을 가진 다른 사용자](../media/Sensitivity-Multiple-users-permissions.png)
+![다른 사용 권한을 가진 다른 사용자.](../media/Sensitivity-Multiple-users-permissions.png)
 
 #### <a name="rights-management-issuer-user-applying-the-sensitivity-label-always-has-full-control"></a>권한 관리 발급자(민감도 레이블을 적용한 사용자)는 항상 모든 권한을 갖습니다
 
@@ -263,13 +263,13 @@ ms.locfileid: "53886249"
 
 사용자 할당 권한 구성:
 
-![사용자 정의 권한에 대한 암호화 설정](../media/sensitivity-encryption-settings-for-user-defined-permissions.png)
+![사용자 정의 권한에 대한 암호화 설정.](../media/sensitivity-encryption-settings-for-user-defined-permissions.png)
 
 ### <a name="outlook-restrictions"></a>Outlook 제한 사항
 
 Outlook에서, 사용자가 메시지에 권한을 할당하도록 허용하는 민감도 레이블을 적용하는 경우 **전달하지 않음** 또는 **암호화 전용** 옵션을 선택할 수 있습니다. 사용자에게 메시지 맨 위에 레이블 이름과 설명이 표시됩니다. 이는 콘텐츠가 보호되고 있음을 나타냅니다. Word, PowerPoint 및 Excel([다음 섹션](#word-powerpoint-and-excel-permissions) 참조)과 달리, 사용자에게 특정 권한을 선택 하라는 메시지가 표시되지 않습니다.
 
-![Outlook의 메시지에 적용된 민감도 레이블](../media/sensitivity-label-outlook-protection-applied.png)
+![Outlook의 메시지에 적용된 민감도 레이블.](../media/sensitivity-label-outlook-protection-applied.png)
 
 이러한 옵션 중 하나를 전자 메일에 적용하면 전자 메일이 암호화되고 받는 사람은 인증을 거쳐야 합니다. 인증을 완료하면 받는 사람에게 자동으로 제한된 사용 권한이 부여됩니다.
 
@@ -293,7 +293,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 - 사용자, 그룹 또는 조직을 선택합니다. 여기에는 조직의 내부 또는 외부 사용자가 모두 포함될 수 있습니다.
 - 선택한 사용자가 콘텐츠에 액세스할 수 없는 만료 날짜를 설정합니다. 자세한 내용은 위에 있는 섹션 [오프라인 액세스용 권한 관리 사용자 라이선스](#rights-management-use-license-for-offline-access)를 참조하세요.
 
-![사용자 지정 권한을 사용하여 보호하기 위한 옵션](../media/sensitivity-aip-custom-permissions-dialog.png)
+![사용자 지정 권한을 사용하여 보호하기 위한 옵션.](../media/sensitivity-aip-custom-permissions-dialog.png)
 
 내장 레이블의 경우 유저가 다음을 선택할 경우 동일한 대화 상자가 표시됩니다.
 
@@ -305,7 +305,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 아래에 나오는 각 예제에 대해 **암호화 설정 구성** 을 선택하는 경우, 마법사의 **암호화** 페이지에서 구성을 수행합니다.
 
-![민감도 레이블 마법사의 암호화 옵션 적용](../media/apply-encryption-option.png)
+![민감도 레이블 마법사의 암호화 옵션 적용.](../media/apply-encryption-option.png)
 
 ### <a name="example-1-label-that-applies-do-not-forward-to-send-an-encrypted-email-to-a-gmail-account"></a>예제 1: 적용되는 레이블 암호화된 전자 메일을 Gmail 계정으로 보내기 위해 전달하지 않습니다.
 

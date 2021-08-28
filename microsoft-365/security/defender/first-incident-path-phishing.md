@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 16599fc3941c2e3e86600ee5f45b3ea2eb43c6924259468c00edfdc773577338
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5f61b092ab8c8ce23694f566b7b11f4bca80b79e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573482"
 ---
 # <a name="example-of-a-phishing-email-attack"></a>피싱 전자 메일 공격의 예
 
@@ -52,7 +52,7 @@ Microsoft 365 Defender 전자 메일을 통해 배달된 악의적인 첨부 파
   
 경고 **열기 페이지를 선택하면** 링크를 선택하여 다양한 정보를 보다 자세히 볼 수 있는 특정 경고로 이동됩니다. 탐색기에서 패널 아래쪽에 있는  메시지 보기를 선택하여 실제 전자 메일 메시지를 볼 수 있습니다.
  
-:::image type="content" source="../../media/first-incident-path-phishing/first-incident-phishing-event-explorer.png" alt-text="경고 세부 정보의 예"::: 
+:::image type="content" source="../../media/first-incident-path-phishing/first-incident-phishing-event-explorer.png" alt-text="경고 세부 정보의 예입니다."::: 
 
 이 경우 분석가가 전자 메일 제목, 받는 사람, 보낸 사람 및 기타 정보가 표시되는 위협 관리 페이지로 이동합니다. 특수 작업 **아래에 있는** **ZAP는** 분석가에게 제로 아워 자동 제거 기능이 구현되었다고 알 수 있습니다. ZAP는 조직 전체의 사서함에서 악성 및 스팸 메시지를 자동으로 감지하고 제거합니다. 자세한 내용은 에서 [제로 아워 ZAP(자동 제거)를 Exchange Online.](../office-365-security/zero-hour-auto-purge.md)
 

@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(스팸 지수)의 메시지에 적용된 SCL(스팸 지수)Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0d93f0ba26e164209aa36dac8d8849bc0cb8be7ecf1c7b4faf624d4b1acab6f8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3d45de527400088a180f5de8f8a836f5e4596395
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56883107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573418"
 ---
 # <a name="spam-confidence-level-scl-in-eop"></a>EOP의 SCL(스팸 지수)
 
@@ -57,4 +57,4 @@ SCL과 마찬가지로 BCL(대량 불만 수준)은 잘못된 대량 전자 메�
 
 ****
 
-![LinkedIn 개체의 Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **아이콘을 Microsoft 365?** LinkedIn 관리자가 제공한 Microsoft 365 **및 IT** 프로를 위한 무료 비디오 과정을 Learning.
+![LinkedIn Learning용 짧은 아이콘.](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **새 Microsoft 365?** LinkedIn 관리자가 제공한 Microsoft 365 **및 IT** 프로를 위한 무료 비디오 과정을 Learning.

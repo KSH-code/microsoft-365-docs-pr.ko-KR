@@ -19,18 +19,18 @@ description: Azure AzCopy에서 오류 수정을 위해 비영구 데이터를 O
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: f8f8ea4cfcd38aa3680fc1aeef3317a6a16a90b909530061beb6c03a95a45f89
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 87f4e62f05e29147213d70b28e1778ea9e3ea683
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885434"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573190"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>AzCopy의 문제 Advanced eDiscovery
 
 Advanced eDiscovery 오류 수정을 위해 비영구 데이터 또는 문서를 로드할 때 사용자 인터페이스는 업로드할 파일이 저장되는 위치와 파일이 업로드될 Azure 저장소 위치가 포함된 매개 변수가 포함된 Azure AzCopy 명령을 제공합니다. Microsoft 365 문서를 업로드하려면 이 명령을 복사한 다음 로컬 컴퓨터의 명령 프롬프트에서 실행합니다.  다음 스크린샷은 AzCopy 명령의 예를 보여줍니다.
 
-![업로드 파일이 아닌 Microsoft 365 파일](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
+![업로드 파일을 Microsoft 365 파일입니다.](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
 
 일반적으로 제공된 명령은 실행할 때 작동합니다. 그러나 표시되는 명령이 성공적으로 실행되지 않는 경우도 있습니다. 다음과 같은 몇 가지 이유가 있습니다.
 

@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: SharePoint online 서비스 끝점 호출 횟수를 제한 하여 SharePoint Online에서 최신 및 클래식 게시 사이트 페이지를 최적화하는 방법에 대해 알아보세요.
-ms.openlocfilehash: f06ec4027737f03d44c6a95a7faa74ff48d94548
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 7c3872e0860b089f52d9597a06bced71ea6eb523
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394675"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573598"
 ---
 # <a name="optimize-page-calls-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>SharePoint Online 최신 및 클래식 게시 사이트 페이지에서 페이지 호출 최적화
 
@@ -54,7 +54,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 **SharePoint에 대한 요청** 결과가 **주의를 요함** 섹션에 표시되는 경우 해당 결과를 클릭하 여 페이지의 총 호출 수와 URL 목록을 포함한 세부 정보를 확인할 수 있습니다.
 
-![SharePoint 결과에 대한 요청](../media/modern-portal-optimization/pagediag-requests.png)
+![결과를 SharePoint 요청입니다.](../media/modern-portal-optimization/pagediag-requests.png)
 
 ## <a name="remediate-performance-issues-related-to-too-many-calls-on-a-page"></a>페이지에서 너무 많은 호출과 관련된 성능 문제 해결
 
@@ -66,7 +66,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 성능 문제를 해결하기 위해 페이지 수정을 수행 하기 전에 분석 결과에 페이지 로드 시간을 기록해 둡니다. 수정 후에 다시 도구를 실행하여 새 결과가 기준선 표준에 포함되는지 확인하고 새 페이지 로드 시간을 확인하여 개선이 되었는지 확인합니다.
 
-![페이지 로드 시간 결과](../media/modern-portal-optimization/pagediag-page-load-time.png)
+![페이지 로드 시간 결과입니다.](../media/modern-portal-optimization/pagediag-page-load-time.png)
 
 >[!NOTE]
 >페이지 로드 시간은 네트워크 부하, 하루 중 시간 및 기타 일시적인 조건과 같은 다양한 요인에 따라 다를 수 있습니다. 결과의 평균을 내는데 도움이 되도록 수정을 하기 전과 후에 페이지 로드 시간을 몇 번 정도 테스트해야 합니다.

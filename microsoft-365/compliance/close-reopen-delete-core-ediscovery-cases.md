@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 핵심 eDiscovery 사례를 관리하는 방법을 설명합니다. 여기에는 사례 닫기, 닫힌 사례 다시 열기 및 사례 삭제가 포함됩니다.
-ms.openlocfilehash: 407956540e8881f34244e920fe9e49e6fe48ca7f417d084dcbd1845a2c53c4f6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 67961d2404f54ca3fbb33dabc71508ba65bfa205
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906151"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573298"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Core eDiscovery 사례 닫기, 다시 열기 및 삭제
 
@@ -68,7 +68,7 @@ Core eDiscovery 사례에서 지원되는 법적 사례 또는 조사가 완료�
 
 2. 다시 열 사례의 이름을 클릭합니다.
 
-   ![닫힌 사례 다시 열기](../media/eDiscoveryCaseHomePageReopen.png)
+   ![닫힌 사례를 다시 니다.](../media/eDiscoveryCaseHomePageReopen.png)
 
 3. 홈 페이지의 상태 **아래에서** 사례 **다시 열기 를 클릭합니다.**
 
@@ -98,7 +98,7 @@ eDiscovery 보류를 삭제하려면
 
 3. 플라이아웃 페이지에서 **삭제를 클릭합니다.**
 
-      ![eDiscovery 보류 삭제](../media/DeleteeDiscoveryHold.png)
+      ![eDiscovery 보류를 삭제합니다.](../media/DeleteeDiscoveryHold.png)
 
 케이스를 삭제하려면
 
@@ -108,6 +108,6 @@ eDiscovery 보류를 삭제하려면
 
 3. 사례 홈 페이지의 상태 **아래에서** 사례 **삭제를 클릭합니다.**
 
-      ![케이스 삭제](../media/eDiscoveryCaseHomePageDelete.png)
+      ![사례를 삭제합니다.](../media/eDiscoveryCaseHomePageDelete.png)
 
 삭제하려는 사례에 eDiscovery 보류가 계속 포함되어 있는 경우 오류 메시지가 표시됩니다. 사례와 연결된 모든 보류를 삭제한 다음 다시 시도하여 사례를 삭제해야 합니다.

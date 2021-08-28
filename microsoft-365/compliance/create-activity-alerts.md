@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자가 특정 활동을 수행할 때 Microsoft 365 규정 준수 센터 전자 메일 알림을 Microsoft 365 수 있도록 메일 메시지에서 활동 경고를 추가 및 관리합니다.
-ms.openlocfilehash: b9f73a8f61bf1d9ef303ce0ef0b4a60320cae4df
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 85362983749659bd6193e59b85e1d8f9eddaf83e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503122"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573286"
 ---
 # <a name="create-activity-alerts"></a>활동 알림 만들기
 
@@ -50,12 +50,12 @@ ms.locfileid: "58503122"
 
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
-3. 활동 **알림 페이지에서** 아이콘 ![ 추가 새로 추가를 ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **클릭합니다.**
+3. 활동 **알림 페이지에서** 아이콘 ![ 추가를 클릭합니다.](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **새로 추가.**
 
    활동 경고를 만드는 플라이아웃 페이지가 표시됩니다.
 
 
-    ![활동 경고 만들기](../media/53888bd5-9fa2-4398-8ccc-1a9dc72517ac.png)
+    ![활동 경고를 생성합니다.](../media/53888bd5-9fa2-4398-8ccc-1a9dc72517ac.png)
 
 4. 다음 필드를 작성하여 활동 경고를 생성합니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "58503122"
 
     새 경고는 활동 경고 페이지의 목록에 **표시됩니다.**
 
-    ![활동 경고 페이지에 경고 목록이 표시됩니다.](../media/02b774f2-1719-41de-bbc9-5e5b7576f335.png)
+    ![경고 목록이 활동 경고 페이지에 표시됩니다.](../media/02b774f2-1719-41de-bbc9-5e5b7576f335.png)
 
     경고의 상태는 으로 **설정됩니다.** 알림이 전송될 때 전자 메일 알림을 받을 받는 사람도 나열됩니다.
 
@@ -101,7 +101,7 @@ ms.locfileid: "58503122"
 
 - 다음은 전자 메일 알림의 보낸 사람 필드(활동 알림 페이지의 받는 사람 아래에 나열)에 지정된  사용자에게 전송되는 전자 메일 알림의 Microsoft 365 규정 준수 센터. 
 
-    ![활동 경고에 대해 전송된 전자 메일 알림의 예](../media/a5f91611-fae6-4fe9-82f5-58521a2e2541.png)
+    ![활동 경고에 대해 전송된 전자 메일 알림의 예입니다.](../media/a5f91611-fae6-4fe9-82f5-58521a2e2541.png)
 
 - 다음은 활동 알림을 만들 수 있는 몇 가지 일반적인 문서 및 전자 메일 활동입니다. 표에는 활동, 경고를 만들 활동의 이름 및 활동 드롭다운 목록에 활동이 나열된 활동  그룹의 이름이 설명되어 있습니다. 활동 알림을 만들 수 있는 활동의 전체 목록을 확인하려면 감사 로그 검색의 "감사된 활동" [섹션을 참조하세요.](search-the-audit-log-in-security-and-compliance.md#audited-activities)
 

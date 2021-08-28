@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 303b32499d73b14751ece094dfd6f900386cbba0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 98cd67154d1fb4ac7d0be741e1adee4fe71ab1ff
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568303"
+ms.locfileid: "58589711"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
 
@@ -39,25 +39,15 @@ ms.locfileid: "58568303"
 다음 단계를 수행해야 합니다.
 
 1. [끝점용 Microsoft Defender 온보딩 패키지 다운로드](#step-1-get-the-microsoft-defender-for-endpoint-onboarding-package)
-
 2. [온보더링 패키지를 사용하여 Jamf Pro 구성 프로필 만들기](#step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package)
-
 3. [끝점 설정에 맞게 Microsoft Defender 구성](#step-3-configure-microsoft-defender-for-endpoint-settings)
-
 4. [끝점 알림 설정에 맞게 Microsoft Defender 구성](#step-4-configure-notifications-settings)
-
 5. [MAU(Microsoft 자동 업데이트) 구성](#step-5-configure-microsoft-autoupdate-mau)
-
 6. [끝점용 Microsoft Defender에 대한 전체 디스크 액세스 권한 부여](#step-6-grant-full-disk-access-to-microsoft-defender-for-endpoint)
-
 7. [끝점용 Microsoft Defender에 대한 커널 확장 승인](#step-7-approve-kernel-extension-for-microsoft-defender-for-endpoint)
-
 8. [끝점용 Microsoft Defender에 대한 시스템 확장 승인](#step-8-approve-system-extensions-for-microsoft-defender-for-endpoint)
-
 9. [네트워크 확장 구성](#step-9-configure-network-extension)
-
 10. [MacOS의 끝점에 대한 Microsoft Defender 검사 예약](/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
-
 11. [macOS에서 끝점용 Microsoft Defender 배포](#step-11-deploy-microsoft-defender-for-endpoint-on-macos)
 
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>1단계: 끝점용 Microsoft Defender 온보딩 패키지 다운로드
@@ -72,8 +62,7 @@ ms.locfileid: "58568303"
 
 4. 추출 `WindowsDefenderATPOnboardingPackage.zip` .
 
-5. 파일을 원하는 위치에 복사합니다. 예:  `C:\Users\JaneDoe_or_JohnDoe.contoso\Downloads\WindowsDefenderATPOnboardingPackage_macOS_MDM_contoso\jamf\WindowsDefenderATPOnboarding.plist`.
-
+5. 파일을 원하는 위치에 복사합니다. 예를 들면 `C:\Users\JaneDoe_or_JohnDoe.contoso\Downloads\WindowsDefenderATPOnboardingPackage_macOS_MDM_contoso\jamf\WindowsDefenderATPOnboarding.plist`와 같습니다.
 
 ## <a name="step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package"></a>2단계: 온보더링 패키지를 사용하여 Jamf Pro 프로필 만들기
 
@@ -87,7 +76,8 @@ ms.locfileid: "58568303"
 
 3. 다음 세부 정보를 입력합니다.
 
-   **일반**
+   **일반**:
+
    - 이름: macOS용 MDATP 온보드
    - 설명: macOS용 EDR MDATP 관리
    - 범주: 없음
@@ -370,8 +360,9 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     ![구성 설정 업로드 이미지.](images/f624de59b3cc86e3e2d32ae5de093e02.png)
 
-    >[!NOTE]
-    >Intune 파일을 업로드하는 경우 다음 오류가 발생합니다.<br>
+    > [!NOTE]
+    > Intune 파일을 업로드하는 경우 다음 오류가 발생합니다.
+    >
     >![구성 설정 intune 파일 업로드의 이미지입니다.](images/8e69f867664668796a3b2904896f0436.png)
 
 11. **저장** 을 선택합니다.
@@ -449,6 +440,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     ![구성 설정의 이미지는 저장을 추가합니다.](images/4d2d1d4ee13d3f840f425924c3df0d51.png)
 
 6. **완료** 를 선택합니다. 새 구성 **프로필이 표시됩니다.**
+
     ![img를 완료한 구성 설정의 이미지입니다.](images/633ad26b8bf24ec683c98b2feb884bdf.png)
 
 ## <a name="step-5-configure-microsoft-autoupdate-mau"></a>5단계: MAU(Microsoft 자동 업데이트) 구성
@@ -552,7 +544,6 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     - 배포 방법: 자동으로 설치
     - 수준: 컴퓨터 수준
 
-
     ![구성 설정 일반 이미지입니다.](images/ba3d40399e1a6d09214ecbb2b341923f.png)
 
 4. 개인 **정보 기본 설정 정책 제어 구성에서** **구성을 선택합니다.**
@@ -564,7 +555,6 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     - 식별자: `com.microsoft.wdav`
     - 식별자 유형: 번들 ID
     - 코드 요구 사항: `identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`
-
 
     ![구성 설정 개인 정보 기본 설정 정책 제어 세부 정보의 이미지입니다.](images/22cb439de958101c0a12f3038f905b27.png)
 
@@ -827,9 +817,9 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
 
     **매니페스트 파일은** 필요하지 않습니다. 끝점용 Microsoft Defender는 매니페스트 파일 없이 작동합니다.
 
-    **옵션 탭**<br> 기본값을 유지 합니다.
+    **옵션 탭:** 기본값을 유지 합니다.
 
-    **제한 사항 탭**<br> 기본값을 유지 합니다.
+    **제한 탭:** 기본값을 유지 합니다.
 
      ![구성 설정 제한 탭의 이미지입니다.](images/56dac54634d13b2d3948ab50e8d3ef21.png)
 

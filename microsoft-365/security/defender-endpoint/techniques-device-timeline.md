@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5e5222214d4a5f98b140bbfc1f094de4733ceebe88ce298b434de0ed01c057dc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6ab81054cf2c2f4d6394730651a891c7d47b1794
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817486"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573502"
 ---
 # <a name="techniques-in-the-device-timeline"></a>디바이스 타임라인의 기술
 
@@ -57,18 +57,18 @@ ms.locfileid: "53817486"
 
 오른쪽에 파란색 아이콘이 표시될 때 엔터티의 세부 정보를 복사할 수 있습니다. 예를 들어 관련 파일의 SHA1을 복사하려면 파란색 페이지 아이콘을 선택합니다.
 
-![엔터티 세부 정보 복사](images/techniques-side-pane-clickable.png)
+![엔터티 세부 정보를 복사합니다.](images/techniques-side-pane-clickable.png)
 
 명령줄에 대해 동일한 작업을 할 수 있습니다.
 
-![명령줄 복사](images/techniques-side-pane-command.png)
+![명령줄을 복사합니다.](images/techniques-side-pane-command.png)
 
 
 ## <a name="investigate-related-events"></a>관련 이벤트 조사
 
 고급 [헌팅을](advanced-hunting-overview.md) 사용하여 선택한 기술과 관련된 이벤트를 찾으하려면 관련 이벤트 **헌트 를 선택합니다.** 이렇게 하면 기술과 관련된 이벤트를 찾기 위한 쿼리가 있는 고급 헌팅 페이지가 표시됩니다.
 
-![관련 이벤트 헌트](images/techniques-hunt-for-related-events.png)
+![관련 이벤트를 헌팅합니다.](images/techniques-hunt-for-related-events.png)
 
 >[!NOTE]
 >기술 쪽  창의 관련 이벤트 헌트 단추를 사용하여 쿼리하면 식별된 기술과 관련된 모든 이벤트가 표시되지만 쿼리 결과에는 기술 자체가 포함되어 있지 않습니다.
@@ -83,7 +83,7 @@ ms.locfileid: "53817486"
 ### <a name="choose-columns-to-expose"></a>노출할 열 선택
 열 선택 단추를 선택하여 시간 표시 막대에 노출할 열을 **선택할 수** 있습니다.
 
-![열 사용자 지정](images/filter-customize-columns.png)
+![열을 사용자 지정합니다.](images/filter-customize-columns.png)
 
 이 목록에서 포함할 정보를 선택할 수 있습니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "53817486"
 
 이벤트 또는 기술만 표시하려면  장치 타임라인에서 필터를 선택하고 볼 기본 설정 데이터 형식을 선택합니다.
 
-![필터 스크린샷](images/device-timeline-filters.png)
+![스크린샷을 필터합니다.](images/device-timeline-filters.png)
 
 
 

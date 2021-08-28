@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: 파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한하는 방법을 알아보세요.
-ms.openlocfilehash: be5dfaa0549d96c93befc5c59947651391acf6e9f0b029d4745f717d87c7cccb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c3769239951b409afe7596b6f4fecf83c87a9131
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53804688"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573394"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한
 
@@ -46,7 +46,7 @@ Anyone 링크는 가장 쉽게 공유하는 방법이며 사용자가 IT 부서�
 1. SharePoint 관리 센터의 왼쪽 탐색 창에서 **공유** 를 클릭합니다.
 2. SharePoint 외부 공유 설정을 **신규 및 기존 게스트** 로 설정합니다.
 
-   ![조직 수준 SharePoint 사이트 외부 공유 설정 스크린샷](../media/sharepoint-organization-external-sharing-controls-new-users.png)
+   ![조직 수준 SharePoint 사이트 외부 공유 설정 스크린샷.](../media/sharepoint-organization-external-sharing-controls-new-users.png)
 
 3. **저장** 을 클릭합니다.
 
@@ -56,7 +56,7 @@ Anyone 링크는 가장 쉽게 공유하는 방법이며 사용자가 IT 부서�
 3. 리본 메뉴에서 **공유** 를 클릭합니다.
 4. 공유가 **신규 및 기존 게스트로** 설정되었는지 확인합니다.
 
-   ![조직 수준 SharePoint 사이트 외부 공유 설정 스크린샷](../media/sharepoint-site-external-sharing-settings.png)
+   ![조직 수준 SharePoint 사이트 외부 공유 설정 스크린샷.](../media/sharepoint-site-external-sharing-settings.png)
 
 5. 변경한 내용이 있으면 **저장** 을 클릭합니다.
 
@@ -92,7 +92,7 @@ SharePoint 및 OneDrive 보다 상위 수준에서 도메인 별로 공유를 �
 
 3. **특정 보안 그룹의 사용자만 외부에서 공유할 수 있도록 허용** 을 선택한 다음 **보안 그룹 관리** 를 선택합니다.
 
-    ![보안 그룹 관리 패널의 스크린샷](/sharepoint/sharepointonline/media/manage-security-groups.png)
+    ![보안 그룹 관리 패널의 스크린샷.](/sharepoint/sharepointonline/media/manage-security-groups.png)
 
 4. **보안 그룹 추가** 상자에서 보안 그룹의 이름을 입력합니다. 보안 그룹 상자가 나타납니다.
 

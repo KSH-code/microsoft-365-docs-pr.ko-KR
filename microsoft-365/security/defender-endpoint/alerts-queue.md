@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 03/27/2020
 ms.technology: mde
-ms.openlocfilehash: a9b483230cbd2406d11709844a62c150bce48731
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 42d8662ade476e23e3a7e8d8af31bf782f6ccf6b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508109"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573994"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-alerts-queue"></a>엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성
 
@@ -48,7 +48,7 @@ ms.locfileid: "58508109"
 - 페이지 간 탐색
 - 필터 적용
 
-![경고 큐의 이미지](images/alerts-queue-list.png)
+![경고 큐의 이미지입니다.](images/alerts-queue-list.png)
 
 ## <a name="sort-filter-and-group-the-alerts-queue"></a>경고 큐 정렬, 필터링 및 그룹화
 

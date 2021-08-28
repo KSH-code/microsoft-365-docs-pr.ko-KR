@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 콘텐츠의 보존, 수집, 검토 및 내보내기 방법을 Microsoft Teams Advanced eDiscovery.
-ms.openlocfilehash: e5e899b3ee6268c0214dbcfe6b53566072fc75ed045e728a0f7845f25354e552
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 462442d2319c2c199d39795b77b67c6dcefdb758
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53841346"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573238"
 ---
 # <a name="advanced-ediscovery-workflow-for-content-in-microsoft-teams-using-large-cases-preview"></a>Advanced eDiscovery(미리 보기)를 사용하여 Microsoft Teams 콘텐츠에 대한 워크플로 관리
 
@@ -69,7 +69,7 @@ Teams 콘텐츠 관리의 첫 번째 Advanced eDiscovery 콘텐츠 관리에 최
 
    새 **eDiscovery 사례** 플라이아웃 페이지가 표시됩니다. 사례 **형식 섹션에서는** 큰 사례를 만들 수 있는 옵션을 제공합니다.
 
-   ![새 eDiscovery 사례 페이지의 큰 사례 옵션](..\media\AeDLargeCases1.png)
+   ![새 eDiscovery 사례 페이지의 큰 대소문자 옵션입니다.](..\media\AeDLargeCases1.png)
 
 4. 사례 이름을 정한 후  큰 사례 옵션을 선택한  다음 저장을 클릭하여 큰 사례를 만드려면 저장을 클릭합니다.
 
@@ -87,7 +87,7 @@ Teams 콘텐츠 관리의 첫 번째 Advanced eDiscovery 콘텐츠 관리에 최
 
 4. 각 보호자까지 확장하여 자동으로 보호자에 연결된 기본 데이터 원본을 보고, 보호자에 연결될 다른 위치를 선택합니다.
 
-   ![보호자 데이터 원본](..\media\TeamsCustodialDataLocations1.png)
+   ![보호자 데이터 원본.](..\media\TeamsCustodialDataLocations1.png)
 
 5. 다음 지침에 따라 콘텐츠에 대한 Teams 추가합니다. **편집을** 클릭하여 데이터 위치를 추가합니다.
 
@@ -156,11 +156,11 @@ Teams 콘텐츠 관리의 첫 번째 Advanced eDiscovery 콘텐츠 관리에 최
 
    1:Teams, 그룹, 채널 및 비공개 채팅을 포함하여 가장 포괄적인 Teams 형식 조건을 사용하여 인스턴트 메시지 옵션을 **선택합니다.**  또한 날짜 범위나 여러 키워드를 포함하여 컬렉션 범위를 조사와 관련된 항목으로 좁히는 것이 좋습니다. 다음은 유형 및 날짜 옵션을 사용하는 샘플 쿼리의 **스크린샷입니다.** 
 
-   ![콘텐츠 수집을 Teams 쿼리](..\media\TeamsConditionsQueryType.png)
+   ![쿼리를 사용하여 콘텐츠 Teams 수집합니다.](..\media\TeamsConditionsQueryType.png)
 
 9. 초안 **저장** 또는 수집 마법사 페이지에서 초안 컬렉션을 만들지 아니면 검토 집합에 커밋할지 여부에 따라 다음 중 하나를 실행합니다.
 
-   ![초안 컬렉션 저장 또는 커밋 컬렉션](..\media\TeamsDraftCommitCollection.png)
+   ![초안 컬렉션을 저장하거나 커밋 컬렉션을 커밋합니다.](..\media\TeamsDraftCommitCollection.png)
 
    1. **컬렉션을 초안으로 저장합니다.** 초안 컬렉션을 만들면 이 옵션을 선택합니다. 앞서 설명한 것 처럼 초안 컬렉션은 검토 집합에 컬렉션 결과를 추가하지 않습니다. 컬렉션 범위의 데이터 원본에 대한 검색 쿼리와 일치하는 예상 검색 결과를 반환합니다. 이렇게 하면 [컬렉션 통계 및 보고서[(collection-statistics-reports.md)]를 보고 초안 컬렉션을 편집하고 다시할 수 있습니다. 초안 컬렉션의 결과가 만족스러우면 검토 집합으로 커밋할 수 있습니다. 자세한 내용은 초안 컬렉션 [만들기를 참조하세요.](create-draft-collection.md)
 
@@ -215,11 +215,11 @@ Teams 콘텐츠 관리의 첫 번째 Advanced eDiscovery 콘텐츠 관리에 최
 
 ##### <a name="conversation-in-teams-client"></a>Teams 클라이언트의 대화
 
-![검토 집합의 대화](..\media\TeamsClient1.png)
+![검토 집합의 대화입니다.](..\media\TeamsClient1.png)
 
 ##### <a name="conversation-in-transcript-file"></a>대화 대화 대화 파일
 
-![클라이언트에 표시되는 Teams 대화](..\media\TeamsTranscript1.png)
+![클라이언트에 표시된 Teams 동일합니다.](..\media\TeamsTranscript1.png)
 
 ### <a name="transcript-conversation-threading"></a>대화 대화 스레딩
 
@@ -271,7 +271,7 @@ Teams 콘텐츠 관리의 첫 번째 Advanced eDiscovery 콘텐츠 관리에 최
 |FamilyId|채팅 대화에 대한 대화 대화의 대화 파일을 식별하는 GUID입니다. 첨부 파일은 파일이 첨부된 메시지가 들어 있는 스크립트 파일과 이 속성의 값을 동일하게 하게 됩니다.|
 |FileClass     |해당 콘텐츠 형식을 나타냅니다. 채팅의 Teams 값은 `Conversation` 입니다. 반면, Exchange 메시지의 값은 `Email` 입니다.|          |
 |MessageKind     | 메시지 종류 속성입니다. Teams 콘텐츠의 값은 `microsoftteams , im` 입니다. |
-|수신자     | 대화 대화 내에서 메시지를 받은 모든 사용자의 목록입니다.|
+|받는 사람     | 대화 대화 내에서 메시지를 받은 모든 사용자의 목록입니다.|
 |TeamsChannelName     | Teams 채널 이름 또는 비공개 채널 이름입니다.|
 |||
 
@@ -289,7 +289,7 @@ Teams 콘텐츠 관리의 첫 번째 Advanced eDiscovery 콘텐츠 관리에 최
 
 - 명령 **표시줄의** 열 사용자 지정 컨트롤을 사용하여 열을 추가하고 구성하여 콘텐츠의 검토를 최적화할 Teams 있습니다.
 
-  ![열 편집 플라이아웃 페이지를 사용하여 열 추가, 제거 및 구성](..\media\EditReviewSetColumns.png)
+  ![열 편집 플라이아웃 페이지를 사용하여 열을 추가, 제거 및 구성합니다.](..\media\EditReviewSetColumns.png)
 
    콘텐츠에 유용한 열을 추가하고 제거할 Teams 있습니다. 열을 끌어서 편집 플라이아웃 페이지에 놓아 열 **순서를 순서대로 정렬할** 수도 있습니다. 열을 정렬하여 정렬한 열에 대해 Teams 콘텐츠의 그룹화도 할 수 있습니다.
 

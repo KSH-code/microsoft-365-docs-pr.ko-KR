@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관련성 교육 상태 및 관련성 교육의 사례 문제에 대한 결과를 보고 해석하는 방법을 Advanced eDiscovery.
-ms.openlocfilehash: f0c0ab94b328a715739c7c8aec32ac041b6dc97f6fd998865a5b2e282bff42eb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ac575ebf073afa8eb4ba13e63202f8b634c52f60
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573202"
 ---
 # <a name="track-relevance-analysis-in-advanced-ediscovery"></a>Advanced eDiscovery
   
@@ -42,7 +42,7 @@ Advanced eDiscovery 추적 탭에는 태그 탭에서 수행된 해당 유효성
   
     이 예제에서는 완료된 문제 평가가 완료된 색 진행률 표시기 및 확인 표시로 표시됩니다. 태그 지정이 진행 중이지만 이 사례는 여전히 불안정한 것으로 간주됩니다(안정성 상태는 도구 설명에도 표시). 다음 단계 권장 단계는 "교육"입니다. 
   
-    ![관련 트랙 훈련 1 단계](../media/a00fe607-680a-48eb-9d61-4565319f7ab6.png)
+    ![1단계 교육을 추적합니다.](../media/a00fe607-680a-48eb-9d61-4565319f7ab6.png)
   
     확장된 보기에는 추가 정보 및 옵션이 표시됩니다. 표시된 현재 오류 여백은 기존(이미 태그가 지정된) 평가 파일이 있는 경우 현재 평가 상태의 회수 오차입니다.
   
@@ -53,7 +53,7 @@ Advanced eDiscovery 추적 탭에는 태그 탭에서 수행된 해당 유효성
   
     관련 **트랙에서** 교육 진행률 표시기 및 도구 팁은 안정성에 도달하는 데 필요한 예상 추가 샘플 \> 수를 나타냅니다. 이 예상치는 필요한 추가 교육에 대한 지침입니다.
   
-    ![관련 트랙 훈련](../media/98dbc3f5-5238-4d73-9f88-1aa4d77ea729.png)
+    ![교육에 대한 트랙 트랙.](../media/98dbc3f5-5238-4d73-9f88-1aa4d77ea729.png)
   
 2. 태그 지정을 완료하고 교육을 계속해야 하는 경우 교육 을 **클릭합니다.** 추가 교육을 위해 로드된 파일 집합에서 다른 샘플 파일 집합이 생성됩니다. 그런 다음 태그 탭으로 돌아와서 더 많은 파일에 태그를 지정하고 교육합니다.
 
@@ -98,13 +98,13 @@ Advanced eDiscovery 추적 탭에는 태그 탭에서 수행된 해당 유효성
 
 관련성 **\>** 추적 탭에서 문제의 행을 확장하고 자세한 결과 옆에 **있는** 보기를 **클릭합니다.** 아래와 같이 자세한 결과 창이 표시됩니다.
   
-![자세한 결과 교육 하는 관련성](../media/495c04a9-ed1e-4355-8cab-c14270ca2bbb.png)
+![관련성 교육 세부 결과](../media/495c04a9-ed1e-4355-8cab-c14270ca2bbb.png)
   
 ### <a name="tagging-summary"></a>태그 지정 요약
 
  아래 표시된 예제에서  태그 지정 요약에는 각 평가, 교육 및 추가 파일 태그 지정 프로세스의 합계가 표시됩니다.
   
-![관련성 추적 태그 요약](../media/0ec906fc-bc84-4245-a964-fb3ca37891db.png)
+![태그 지정 요약을 추적합니다.](../media/0ec906fc-bc84-4245-a964-fb3ca37891db.png)
   
 ### <a name="keywords"></a>키워드
 
@@ -118,7 +118,7 @@ Advanced eDiscovery 키워드 가중치 값을 할당합니다. 가중치가 높
 
 교육 **진행률** 창에는 아래 예제와 같이 교육 진행률 그래프와 품질 표시기가 포함되어 있습니다.
   
-![관련 교육 진행 상황 관리](../media/8a5089f5-a162-4246-ae09-bc1921859860.png)
+![Relevance Training progress를 추적합니다.](../media/8a5089f5-a162-4246-ae09-bc1921859860.png)
   
 **교육 품질 표시기:** 다음과 같이 태그 지정 일관성의 등급을 표시합니다.
   
@@ -154,7 +154,7 @@ Advanced eDiscovery 키워드 가중치 값을 할당합니다. 가중치가 높
 
 교육 **통계 창에는** 관련성 교육의 결과를 기반으로 통계 Advanced eDiscovery 그래프가 표시됩니다. 
   
-![관련 트랙 교육 통계](../media/9a07740e-20d3-49fb-b9b9-84265e0a1836.png)
+![관련 교육 통계를 추적합니다.](../media/9a07740e-20d3-49fb-b9b9-84265e0a1836.png)
   
 이 보기에는 다음이 표시됩니다.
   

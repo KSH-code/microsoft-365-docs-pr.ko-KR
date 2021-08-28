@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: a98f3a4d1bda182331f81de0c0c5cf232940819c864b638fb738ae192ff9cc4f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2f1318b2c062e3db848b60edbb9ad60e1b38723f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854503"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573574"
 ---
 # <a name="windows-10-location-service"></a>Windows 10 위치 서비스
 
@@ -45,7 +45,7 @@ ms.locfileid: "53854503"
 
 Microsoft Managed Desktop 설정의  위치 개인 정보 설정을 이 **Windows** 위치에 대한 액세스를 허용하도록 **설정할 수 있습니다.** 사용자 인터페이스는 다음과 같습니다.
 
- :::image type="content" source="../../media/MMD-location-services-UI.png" alt-text="기본 설정의 Windows 설정":::
+ :::image type="content" source="../../media/MMD-location-services-UI.png" alt-text="기본 설정의 Windows 설정입니다.":::
 
 > [!NOTE]
 > 위치 서비스를 사용 옵트인(opt in)하는 경우 이 설정은 Windows 운영 체제 자체에만 적용됩니다. 앱은 위치 서비스를 사용할 수 없습니다. 각 사용자는 앱이 자신의 위치에 액세스할 수 있도록 허용할지 여부를 선택할 수 있습니다.

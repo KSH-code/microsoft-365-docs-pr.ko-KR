@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6d64b3998aabf7ff6435ea9cf32518eb4f827dd833fd05a650339ec3a96d25ef
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dd299db1f8894851cb6d26d82756014b942c8240
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53868335"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573530"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender 업데이트 배포
 
@@ -42,7 +42,7 @@ Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위
 
 MacOS에서 끝점에 대한 Microsoft Defender를 업데이트하기 위해 MAU(Microsoft 자동 업데이트)라는 프로그램이 사용됩니다. 기본적으로 MAU는 매일 업데이트를 자동으로 확인하지만 매주, 월별 또는 수동으로 변경할 수 있습니다.
 
-![MAU 스크린샷](images/MDATP-34-MAU.png)
+![MAU 스크린샷.](images/MDATP-34-MAU.png)
 
 소프트웨어 배포 도구를 사용하여 업데이트를 배포하기로 결정한 경우 소프트웨어 업데이트를 수동으로 확인하도록 MAU를 구성해야 합니다. 기본 설정을 배포하여 MAU가 조직의 Mac에 대한 업데이트를 검사하는 방법과 경우를 구성할 수 있습니다.
 
@@ -81,7 +81,7 @@ MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 �
 |**도메인**|`com.microsoft.autoupdate2`|
 |**키**|ChannelName|
 |**Data type**|String|
-|**사용 가능한 값:**|Beta <p> 미리 보기 <p> Current|
+|**사용 가능한 값:**|Beta <p> Preview <p> Current|
 |||
 
 >[!WARNING]

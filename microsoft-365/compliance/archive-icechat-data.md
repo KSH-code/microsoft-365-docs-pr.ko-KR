@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 ICE 채팅 도구에서 데이터를 가져오고 보관할 커넥터를 설정하여 MICROSOFT 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 0e2029f638611844fa2dba54241e11d9b743f802521615d7d4ea6f5865e2181d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c9d0cf8da71818b091c73002766be3beb5d516e9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53802636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573310"
 ---
 # <a name="set-up-a-connector-to-archive-ice-chat-data"></a>ICE 채팅 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ ICE 채팅 데이터를 사용자 사서함에 저장한 후 소송 보존, eDis
 
 다음 개요에서는 커넥터를 사용하여 ICE 채팅 데이터를 커넥터에 보관하는 Microsoft 365.
 
-![ICE 채팅 보관 워크플로](../media/ICEChatConnectorWorkflow.png)
+![ICE 채팅 보관 워크플로.](../media/ICEChatConnectorWorkflow.png)
 
 1. 조직은 ICE 채팅과 함께 ICE 채팅 SFTP 사이트를 설정합니다. ICE 채팅을 통해 ICE 채팅을 구성하여 채팅 메시지를 ICE Chat SFTP 사이트로 복사할 수도 있습니다.
 
@@ -75,11 +75,11 @@ ICE 채팅 데이터를 보관하는 데 필요한 일부 구현 단계는 Micro
 
 5. 콘텐츠 **원본에 대한** 자격 증명 추가 페이지에서 Microsoft에서 제공하는 PGP 및 SSH 공개 키를 **사용하려는 경우를 클릭합니다.**
 
-   ![공개 키를 사용하는 옵션 선택](../media/ICEChatPublicKeysOption.png)
+   ![공개 키를 사용하는 옵션을 선택합니다.](../media/ICEChatPublicKeysOption.png)
 
 6. 1단계에서 **SSH** 키 다운로드, **PGP** 키 다운로드 및 **IP** 주소 링크 다운로드를 클릭하여 각 파일의 복사본을 로컬 컴퓨터에 저장합니다.
 
-   ![공개 키 및 IP 주소 다운로드 링크](../media/ICEChatPublicKeyDownloadLinks.png)
+   ![공개 키 및 IP 주소를 다운로드하는 링크입니다.](../media/ICEChatPublicKeyDownloadLinks.png)
 
    이러한 파일에는 2단계에서 ICE Chat SFTP 사이트를 구성하는 데 사용되는 다음 항목이 포함되어 있습니다.
 
@@ -150,11 +150,11 @@ IP 주소를 구하는 방법:
 
 5. 콘텐츠 **원본에 대한** 자격 증명 추가 페이지에서 PGP 및 SSH 개인 키를 사용하려는 **을 클릭합니다.**
 
-   ![개인 키를 사용하는 옵션 선택](../media/ICEChatPrivateKeysOption.png)
+   ![개인 키를 사용하는 옵션을 선택합니다.](../media/ICEChatPrivateKeysOption.png)
 
 6. 1단계에서 IP 주소 다운로드를 클릭하여 **IP** 주소 파일의 복사본을 로컬 컴퓨터에 저장합니다.
 
-   ![IP 주소 다운로드](../media/ICEChatConnectorIPAddress.png)
+   ![IP 주소를 다운로드합니다.](../media/ICEChatConnectorIPAddress.png)
 
 7. 취소를 **클릭하여** 마법사를 닫습니다. 2단계에서 이 마법사로 돌아와 커넥터를 만들면 됩니다.
 

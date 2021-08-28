@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 암호 해시 동기화를 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 9a43d8707b0a242b7c65a44c90161da4e9fe39f6
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: ab43fc4a41a5faba703cb20fd707fcd18909f42a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58353708"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576227"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 암호 해시 동기화를 위한 ID 및 장치 액세스 필수 구성 요소
 
@@ -47,9 +47,9 @@ ms.locfileid: "58353708"
 암호 해시 동기화 테스트 랩 가이드의 [지침을](password-hash-sync-m365-ent-test-environment.md) 따릅니다.
 구성 결과는 다음과 같습니다.
 
-![암호 해시 동기화 테스트 환경을 사용하여 시뮬레이션된 엔터프라이즈](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![암호 해시 동기화 테스트 환경을 사용하여 시뮬레이트된 엔터프라이즈입니다.](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
  
-## <a name="phase-2-configure-azure-ad-seamless-single-sign-on"></a>2단계: Azure AD Seamless Single Sign-on 구성
+## <a name="phase-2-configure-azure-ad-seamless-single-sign-on"></a>2단계: Azure AD Seamless Single Sign-on를 구성합니다.
 
 [Azure AD Seamless Single Sign-on 테스트 랩 가이드의 2 단계](single-sign-on-m365-ent-test-environment.md#phase-2-configure-azure-ad-connect-on-app1-for-azure-ad-seamless-sso) 지침을 따릅니다.
 
@@ -97,7 +97,7 @@ ms.locfileid: "58353708"
 
 ## <a name="phase-9-enable-azure-ad-identity-protection"></a>9단계: Azure AD ID 보호 사용
 
-[Azure Active Directory Identity Protection 테스트 랩 가이드의 2단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection)에 있는 지침을 따릅니다. 
+[Azure AD ID 보호 테스트 랩 가이드의 2 단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection) 지침을 따릅니다. 
 
 ## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>10단계: 온라인 및 Exchange Online 비즈니스용 Skype 사용하도록 설정
 

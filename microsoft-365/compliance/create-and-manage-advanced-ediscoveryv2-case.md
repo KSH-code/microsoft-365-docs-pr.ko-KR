@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사례를 만들고 관리하는 방법을 Advanced eDiscovery 있습니다. 첫 번째 단계에서는 사례를 만들고 Advanced eDiscovery 기능을 사용하게 합니다.
-ms.openlocfilehash: 31b19f48ba6deabe3d4150544ce16c3669d18efe1607652d8224a2ebb1f81bb2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 69d2f22a3792f2217ea8ef58ae9771dd4a10f32d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886466"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573250"
 ---
 # <a name="create-and-manage-an-advanced-ediscovery-case"></a>사례 만들기 및 Advanced eDiscovery 관리
 
@@ -64,7 +64,7 @@ ms.locfileid: "53886466"
 
 사용자 지정 기능을 Advanced eDiscovery 일반적인 [eDiscovery](advanced-ediscovery-edrm.md)사례에 부합하는 기본 워크플로는 다음과 있습니다. 이러한 각 단계에서는 탐색할 수 있는 몇 가지 확장된 Advanced eDiscovery 기능도 강조합니다.
 
-![Advanced eDiscovery 워크플로](../media/AeDWorkflow.png)
+![Advanced eDiscovery 워크플로를 실행합니다.](../media/AeDWorkflow.png)
 
 1. **[사례에](add-custodians-to-case.md) [](non-custodial-data-sources.md)** 보호자 및 비보조 데이터 원본을 추가합니다. 사례를 작성한 후 첫 번째 단계는 보금자리를 추가하는 것입니다. *관리자는* 사례와 관련이 있을 수 있는 문서 또는 전자 파일의 관리 제어권이 있는 사람입니다. 또한 특정 사용자와 연결되지는 않지만 사례와 관련이 있을 수 있는 데이터 원본을 추가할 수 있습니다.
 
@@ -110,7 +110,7 @@ ms.locfileid: "53886466"
 
 다음은 단일 위치 환경 및 Advanced eDiscovery 환경의 종단-종단식 워크플로와 전자 검색 참조 모델과 정렬된 종단-종단 데이터 흐름을 보여 [줍니다.](overview-ediscovery-20.md#advanced-ediscovery-alignment-with-the-electronic-discovery-reference-model)
 
-[![모델 포스터: Advanced eDiscovery 아키텍처를 Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+[![모델 포스터: Advanced eDiscovery 아키텍처를 Microsoft 365.](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
 
 [이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
 

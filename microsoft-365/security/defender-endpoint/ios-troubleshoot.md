@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 713abbf65edcf36c1e9015093c4f4933732a5fec
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 9a77662d1473a56031a30e44a1d39df8e3964541
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257602"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573562"
 ---
-# <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender에서 문제를 해결하고 FAQ에 대한 답변 찾기
+# <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 엔드포인트용 Microsoft Defender에서 문제 해결 및 FAQ에 대한 답변 찾기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -53,7 +53,7 @@ ms.locfileid: "58257602"
 1. VPN을 사용하지 **커넥트 On Demand를** 해제합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![VPN 구성 필요 시 연결](images/ios-vpn-config.png)
+    > ![VPN 구성은 필요 시 연결합니다.](images/ios-vpn-config.png)
 
 > [!NOTE]
 > VPN을 사용하지 않도록 설정하면 웹 보호를 사용할 수 없습니다. 웹 보호를 다시 사용하도록 설정하려면 장치에서 끝점용 Microsoft Defender 앱을 열고 VPN 시작 을 클릭하거나 **탭합니다.**
@@ -91,7 +91,7 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 또한 iOS 장치에 알림이 표시됩니다. 알림을 탭하면 사용자가 세부 정보를 검토할 수 있는 다음 화면이 열립니다.
 
 > [!div class="mx-imgBorder"]
-> ![안전하지 않은 알림으로 보고된 사이트의 이미지](images/ios-phish-alert.png)
+> ![안전하지 않은 알림으로 보고된 사이트의 이미지입니다.](images/ios-phish-alert.png)
 
 ## <a name="device-not-seen-on-the-defender-for-endpoint-console-after-onboarding"></a>온보딩 후 끝점용 Defender 콘솔에 디바이스가 볼 수 없습니다.
 
