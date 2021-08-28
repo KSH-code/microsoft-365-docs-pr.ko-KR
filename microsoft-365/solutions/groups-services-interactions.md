@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 그룹 서비스 상호 작용
-ms.openlocfilehash: 3cf68b0abcf15515ebe724fe795b9b31c5ebd2b6f8b3dd6c9ca76b7b706c8508
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 54d8cd0ff31bad9af4269b3a4d8af23ccb618e16
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853070"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563709"
 ---
 # <a name="groups-services-interactions"></a>그룹 서비스 상호 작용
 
@@ -109,7 +109,7 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 �
 
 다양한 유형의 Microsoft 365, 그룹이 생성 및 관리되는 방식 및 몇 가지 거버넌스 권장 사항에 대한 자세한 내용은 Microsoft 365 그룹의 그룹 포스터를 참조하세요.
 
-[![그룹 인포그래픽용 축소판 이미지](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf)
+[![그룹 정보 그래픽의 축소판 이미지입니다.](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf)
 
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
 
@@ -124,14 +124,14 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 �
 |Planner|작업 보드|아니요|예|예|
 |Power Apps 앱|앱|예|아니요|아니요|
 |Power Automate|워크플로|예|아니요|아니요|
-|Power BI(클래식)|Workspace|아니요|예|예|
-|Power BI(신규)|Workspace|예|아니요|예|
+|Power BI(클래식)|작업 영역|아니요|예|예|
+|Power BI(신규)|작업 영역|예|아니요|예|
 |웹용 Project|Project 계획|예|예|아니요|
 |로드맵|로드맵|예|예|아니요|
 |SharePoint|사이트|예|예|예|
 |Stream|채널, 비디오|예|예|예|
 |Teams|팀|아니요|예|예|
-|Yammer|Group|예|예|예|
+|Yammer|그룹|예|예|예|
 
 위의 표에서는 Microsoft 365 서비스와의 그룹 상호 작용에 대한 개략적인 개요를 제공하나, 이해해야 할 미소와 복잡도는 매우 높습니다. 다음 섹션에서는 특정 워크로드 및 그룹과의 상호 작용에 대해 좀 더 깊이 있게 살펴 봐야 합니다.
 
@@ -141,7 +141,7 @@ Azure AD는 여러 응용 프로그램은 다양한 기능에 대한 Microsoft 3
 
 **그룹에 제공되는 주요 기능**
 
-- 그룹 구성원 자격
+- 그룹 멤버십
 - 이름 정책
 - 만료 정책
 - 게스트

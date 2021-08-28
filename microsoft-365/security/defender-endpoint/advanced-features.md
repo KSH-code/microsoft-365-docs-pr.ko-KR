@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: bd56ab7daef91fb06aca8bc9d60213877b9696b8
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: f9fbeb7d0fbaee05e86c89749ffc62695e8ff9e9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507761"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563597"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -107,8 +107,8 @@ PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 �
 1. 탐색 창에서 끝점 **일반 설정** 허용 또는 차단 파일을 \>  \>  \>  \> **선택합니다.**
 
 1. 설정과 끄기 **간에 설정을** **전환합니다.**
-
-    :::image type="content" source="../../media/alloworblockfile.png" alt-text="파일 차단 기능에 대한 고급 설정 이미지":::
+ 
+    :::image type="content" source="../../media/alloworblockfile.png" alt-text="파일 차단 기능에 대한 고급 설정의 이미지입니다.":::
 
 1. 페이지 **아래쪽의** 기본 설정 저장을 선택합니다.
 
