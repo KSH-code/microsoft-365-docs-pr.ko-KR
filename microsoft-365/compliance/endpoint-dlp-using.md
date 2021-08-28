@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: c33677d483eadca4526d2c7f977ad91de6c7340c
-ms.sourcegitcommit: d792743bc21eec87693ebca51d7307a506d0bc43
+ms.openlocfilehash: 26f5723d604cb9f57000f13eb799cd0afba593e7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58450131"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58556303"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -41,7 +41,7 @@ ms.locfileid: "58450131"
 - 모니터링에서 잡음이 있는 파일 경로를 제외하려는 경우
 
   > [!div class="mx-imgBorder"]
-  > ![DLP 설정](../media/endpoint-dlp-1-using-dlp-settings.png)
+  > ![DLP 설정](../media/endpoint-dlp-1-using-dlp-settings.png).
 
 ### <a name="file-path-exclusions"></a>파일 경로 제외
 
@@ -191,7 +191,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 5. **사고 보고서** 섹션이 나올 때까지 아래로 스크롤한 다음 **켜기** 에 대한 **규칙 일치 오류가 발생하면 관리자에게 알림 보내기** 를 설정합니다. 전자 메일 알림은 관리자와 받는 사람 목록에 추가된 모든 사용자에게 자동으로 전달됩니다. 
 
    > [!div class="mx-imgBorder"]
-   > ![turn-on-incident-reports](../media/endpoint-dlp-2-using-dlp-incident-reports.png)
+   > ![turn-on-incident-reports.](../media/endpoint-dlp-2-using-dlp-incident-reports.png)
    
 6. 이 시나리오의 목적을 위해 **활동이 규칙에 일치할 때마다 알림 보내기** 를 선택합니다.
 
@@ -216,7 +216,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 5. 아래로 스크롤하여 **Windows 장치에서 활동 감사 또는 제한** 섹션으로 이동하여 각 활동에 대한 해당 작업을 **재정의로 차단** 으로 설정합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![재정의 작업으로 차단 설정](../media/endpoint-dlp-6-using-dlp-set-blocked-with-override.png)
+   > ![재정의 작업으로 차단 설정](../media/endpoint-dlp-6-using-dlp-set-blocked-with-override.png).
    
 6. **저장** 을 선택합니다.
 
@@ -229,7 +229,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
    클라이언트 장치에 다음과 같은 팝업이 표시됩니다.
 
    > [!div class="mx-imgBorder"]
-   > ![끝점 DLP 클라이언트가 차단 재정의 알림](../media/endpoint-dlp-3-using-dlp-client-blocked-override-notification.png)
+   > ![끝점 DLP 클라이언트가 차단 재정의 알림.](../media/endpoint-dlp-3-using-dlp-client-blocked-override-notification.png)
 
 10. 이벤트에 대한 활동 탐색기를 확인합니다.
 
@@ -318,7 +318,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 1. [민감도 레이블이 기밀인 파일의 OneDrive 동기화를 차단하는 정책 구성](#configure-a-policy-to-block-onedrive-synchronization-of-files-with-the-sensitivity-label-highly-confidential) 5단계에서 지정한 사용자 계정으로 Windows 10 컴퓨터에 로그인합니다.
 
-2. 내용이 OneDrive에 동기화되지 않을 폴더를 만듭니다. 예를 들면 다음과 같습니다.
+2. 콘텐츠가 OneDrive에 동기화되지 않는 폴더를 만듭니다. 예를 들면 다음과 같습니다.
 
     *C:\auto-quarantine 원본 폴더*
 
@@ -326,7 +326,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 4. 방금 만든 파일을 OneDrive 동기화 폴더에 복사합니다. 작업이 허용되지 않으며 파일이 격리될 것임을 알리는 사용자 알림 알림이 표시되어야 합니다. 예를 들어 사용자 이름이 *Isaiah Langer* 이고 제목이 *auto-quarantine doc 1.docx* 인 문서의 경우 다음 메시지가 표시됩니다.
 
-![지정된 파일에 대해 OneDrive 동기화 작업이 허용되지 않으며 파일이 격리될 것임을 나타내는 데이터 손실 방지 사용자 알림 팝업](../media/auto-quarantine-user-notification-toast.png)
+![지정된 파일에 대해 OneDrive 동기화 작업이 허용되지 않으며 파일이 격리될 것임을 나타내는 데이터 손실 방지 사용자 알림 팝업.](../media/auto-quarantine-user-notification-toast.png)
 
 메시지는 다음과 같습니다.
 

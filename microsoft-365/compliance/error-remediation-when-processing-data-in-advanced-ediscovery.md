@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 오류 수정을 사용하여 콘텐츠의 적절한 처리를 Advanced eDiscovery 데이터 문제를 수정하는 방법을 알아보겠습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd2d8e3f681f57c915b610f4771bdeb078fbc79ae3482f7dfacbbc9334697ad1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4b249f7941d4f366a2651b570286d2974aca176a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53802169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58556183"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
@@ -37,7 +37,7 @@ ms.locfileid: "53802169"
 
 1. Advanced eDiscovery  사례의 처리 탭에서 보기 드롭다운 메뉴에서  오류를 선택한 다음 범위 드롭다운 메뉴에서 검토 집합 또는 전체 사례를 선택합니다.   이 섹션에는 특정 검토 집합의 사례 또는 오류가 모두 표시됩니다.
 
-   ![오류 수정](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
+   ![오류 수정.](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
 
 2. 오류 유형 또는 파일 형식 옆에 있는 라디오 단추를 클릭하여 수정하려는 오류를 선택합니다.  다음 예제에서는 암호로 보호된 파일을 수정합니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "53802169"
 
 4. 준비가 완료되면 다음: 파일 **다운로드를** 클릭하여 다운로드를 진행합니다.
 
-    ![파일 다운로드](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
+    ![파일을 다운로드합니다.](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
 
 5. 파일을 다운로드하려면 **다운로드 대상 경로** 를 지정합니다. 이는 로컬 컴퓨터의 상위 폴더에 대한 경로로, 파일이 이곳으로 다운로드됩니다.  기본 경로인 %USERPROFILE%\Downloads\errors는 로그인한 사용자의 다운로드 폴더를 지정합니다. 원하는 경우 이 경로를 변경할 수 있습니다. 변경하는 경우 최상의 성능을 위해 로컬 파일 경로를 사용하는 것이 좋습니다. 원격 네트워크 경로를 사용하지 않습니다. 예를 들어 **C:\Remediation 경로를 사용할 수 있습니다.**
 
@@ -57,7 +57,7 @@ ms.locfileid: "53802169"
 
 6. **클립보드로 복사** 를 클릭하여 미리 정의된 명령을 복사합니다. 명령 프롬프트를 Windows 열고 AzCopy 명령을 붙여 넣은 다음 **Enter 를 누를 수 있습니다.**
 
-    ![오류 수정 준비](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
+    ![오류 수정을 준비합니다.](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
     > [!NOTE]
     > 파일 다운로드 페이지에 제공된 명령을 사용하려면 AzCopy v8.1을 **사용해야** 합니다. 또한 AzCopy v8.1을 사용하여 10단계에서 파일을 업로드해야 합니다. 이 버전의 AzCopy를 설치하려면 에서 [AzCopy v8.1을](/previous-versions/azure/storage/storage-use-azcopy)사용하여 데이터 Windows. 제공된 AzCopy 명령이 실패하면 에서 [AzCopy 문제 해결을 Advanced eDiscovery.](troubleshooting-azcopy.md)
@@ -85,7 +85,7 @@ ms.locfileid: "53802169"
 
 8. 파일 Advanced eDiscovery 수정 마법사로 돌아가 다음: 파일 업로드 **클릭합니다.**  이렇게 하면 파일을 업로드할 수 있는 다음 페이지로 이동됩니다.
 
-    ![업로드 파일](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
+    ![업로드 파일.](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
 
 9. **파일 위치 경로** 텍스트 상자에서 수정된 파일이 있는 상위 폴더를 지정합니다. 다시 말하면 부모 폴더의 하위 폴더 구조는 파일을 다운로드할 때 만들어진 동일한 하위 폴더 구조가 있어야 합니다.
 
@@ -93,7 +93,7 @@ ms.locfileid: "53802169"
 
 10. **클립보드로 복사** 를 클릭하여 미리 정의된 명령을 복사합니다. 명령 프롬프트를 Windows 열고 AzCopy 명령을 붙여 넣은 다음 **Enter 를 누를 수 있습니다.** 파일을 업로드합니다.
 
-    ![Azcopy에서 수정된 파일을 성공적으로 업로드한 결과](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
+    ![Azcopy에서 수정된 파일을 성공적으로 업로드한 결과입니다.](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
 11. AzCopy 명령을 실행한 후 **다음: 파일 처리를 클릭합니다.**
 

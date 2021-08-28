@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Microsoft 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42a877188d8c385fa3ff1a24057d89ff694e5a8a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 625d9e37246fa6c4e24754be2e3bc830740124a2
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58552987"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684019"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Microsoft 365로 가져오기
 
@@ -59,12 +59,12 @@ PST 파일을 Microsoft 365 사서함으로 가져오려면 1단계를 한 번�
 
   - 조직의 전역 관리자여야 합니다.
 
-  > [!TIP]
+    > [!TIP]
     > Exchange Online에 PST 파일을 가져오기 위한 새 역할 그룹을 만들어보겠습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한을 얻기 위해 새 역할 그룹에 사서함 가져오기 내보내기 및 메일 받는 사람 역할을 할당한 다음 구성원을 추가합니다.
   
 - PST 파일을 Microsoft 365로 가져오는 데 지원되는 유일한 방법은 이 항목에 설명된 대로 AzCopy 도구를 사용하는 것입니다. Azure 저장소 탐색기를 사용하여 PST 파일을 Azure 저장소 영역에 직접 업로드할 수 없습니다.
-
-- 조직의 파일 서버에 있는 Microsoft 365 또는 공유 폴더에 가져오려는 PST 파일을 저장해야 합니다. 2단계에서 이 파일 서버 또는 공유 폴더에 저장된 PST 파일을 Microsoft 365로 업로드하는 AzCopy 도구를 실행합니다.
+ 
+- 조직의 파일 서버 또는 공유 폴더에 Microsoft 365로 가져오려는 PST 파일을 저장해야 합니다. 현재 조직의 Azure Storage 계정에서 Microsoft 365 가져오기 서비스에서 사용하는 Azure Storage 위치로 PST 파일을 복사하는 것은 지원되지 않습니다. 2단계에서는 파일 서버 또는 공유 폴더에 저장된 PST 파일을 Microsoft 클라우드로 업로드하기 위해 AzCopy 도구를 실행합니다.
 
 - 큰 PST 파일은 PST 가져오기 프로세스의 성능에 영향을 줄 수 있습니다. 따라서 2 단계에서 Azure 저장소 위치에 업로드하는 각 PST 파일의 크기는 20GB를 넘지 않는 것이 좋습니다.
 
