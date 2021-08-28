@@ -16,14 +16,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c8ef316dbd25436221a15777f992faf943c3dc6ee2783dd92afa270d4e72cfdf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1d5771be82c687144759fd321dfc44b8c6158d57
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863658"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684199"
 ---
-# <a name="list-software-version-distribution"></a>소프트웨어 버전 배포 목록 
+# <a name="list-software-version-distribution"></a>소프트웨어 버전 배포 목록
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,9 +37,9 @@ ms.locfileid: "53863658"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-조직의 소프트웨어 버전 배포 목록을 검색합니다. 
+조직의 소프트웨어 버전 배포 목록을 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
 
@@ -66,7 +66,7 @@ GET /api/Software/{Id}/distributions
 
 ## <a name="response"></a>응답
 
-성공하면 이 메서드는 본문에 소프트웨어 배포 데이터 목록이 있는 200 OK를 반환합니다. 
+성공하면 이 메서드는 본문에 소프트웨어 배포 데이터 목록이 있는 200 OK를 반환합니다.
 
 ## <a name="example"></a>예제
 

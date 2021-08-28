@@ -377,6 +377,7 @@
 ##### [인시던트 조사](investigate-incidents.md)
 
 #### [경고 큐]()
+##### [Microsoft 365 Defender의 경고 큐](alerts-queue-endpoint-detection-response.md)
 ##### [경고 큐 보기 및 구성](alerts-queue.md)
 ##### [경고 검토](review-alerts.md)
 ##### [경고 관리](manage-alerts.md)
@@ -485,7 +486,7 @@
 ####### [경고 관련 IP 정보 가져오기](get-alert-related-ip-info.md)
 ####### [경고 관련 장치 정보 가져오기](get-alert-related-machine-info.md)
 ####### [경고 관련 사용자 정보 가져오기](get-alert-related-user-info.md)
-####### [Microsoft 365 Defender의 경고 큐](alerts-queue-endpoint-detection-response.md)
+
 
 ###### [취약성 및 보안 구성 평가]()
 ####### [평가 방법 및 속성 내보내기](get-assessment-methods-properties.md)

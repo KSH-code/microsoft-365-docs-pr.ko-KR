@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Microsoft Viva Topics에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: ec078f1a3e1e4dd963111f0c60529173d2aedbcffcd2b61e3248a3021b5eea69
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e66252f93b3c32815e3a3a13217a59bb40fa17e6
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53840170"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684223"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Microsoft Viva Topics 소개
 
@@ -29,7 +29,7 @@ ms.locfileid: "53840170"
 </br>
 
 
-Viva Topics는 Microsoft 365 정보를 지식으로 변환하는 데 도움이 되는 서비스입니다.
+Viva Topics는 Microsoft 365 정보를 지식으로 변환하는 데 도움이 되는 새로운 서비스입니다.
 
 이 페이지의 리소스는 조직에서 Viva Topics를 배우고 사용하기 시작하는 데 도움을 주기 위해 설계되었습니다.
 
@@ -46,10 +46,9 @@ Viva Topics는 Microsoft 365 정보를 지식으로 변환하는 데 도움이 �
 |Microsoft Tech 커뮤니티 리소스 센터의 리소스 참조|[Viva Topics Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/)|
 
 
-
 ## <a name="adoption"></a>채택
 
-조직에서 Microsoft Viva Topics를 사용하고 구현하는 방법에 대해 자세히 알아보고 비즈니스 문제를 해결하는 데 도움을 받으세요. 
+비즈니스 문제를 해결하는 데 도움이 될 수 있도록 조직에서 Viva 항목을 사용 및 구현하는 방법에 대해 자세히 알아보하세요. 
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
@@ -78,6 +77,12 @@ Viva Topics는 Microsoft 365 정보를 지식으로 변환하는 데 도움이 �
 |주제가 서로 다를 수 있는 이유 이해|[Viva Topics 보안 조정](topic-experiences-security-trimming.md)|
 |특정 토픽을 식별 및 보지 못하도록 하는 방법 배우기|[토픽에 대한 액세스 제한](restrict-access-to-topics.md)|
 
+## <a name="provide-us-feedback"></a>피드백 제공
 
+Viva 항목을 통해 사용자 경험에 대한 피드백을 Microsoft에 직접 제공합니다.
+
+| 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
+|:-----|:-----|
+|Viva 항목에 대한 피드백을 제공하는 방법|[피드백 제공](topic-experiences-overview.md#provide-us-feedback)|
 
 

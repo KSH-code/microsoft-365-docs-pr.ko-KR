@@ -19,12 +19,12 @@ ms.collection:
 recommendations: false
 description: DLP 정책 구성 요소 및 구성 참조
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 9ee8db55a43f75fe31a64bced1adad6aecbfdb6c
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: daae280fa4c08a47f74cec6a71ec11ac9739ebd6
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621519"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684115"
 ---
 # <a name="data-loss-prevention-policy-reference"></a>데이터 손실 방지 정책 참조
 
@@ -549,3 +549,10 @@ DLP는 SharePoint Online 또는 비즈니스용 OneDrive의 항목과는 다른 
 #### <a name="additional-options"></a>추가 옵션
 
 정책에 여러 규칙이 있는 경우 추가  옵션을 사용하여 편집할 규칙과 일치하는 경우 추가 규칙 처리를 제어하고 규칙 평가 우선 순위를 설정할 수 있습니다.
+
+## <a name="see-also"></a>기타 참고 항목
+
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md#learn-about-data-loss-prevention)
+- [DLP(데이터 손실 방지) 계획](dlp-overview-plan-for-dlp.md#plan-for-data-loss-prevention-dlp)
+- [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md#create-a-dlp-policy-from-a-template)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md#create-test-and-tune-a-dlp-policy)

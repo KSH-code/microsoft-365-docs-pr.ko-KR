@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: 조직에서 Viva 항목을 사용하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: d8e8de3cead0fc389212b2f3b028769d6b2850138b864c379b87bc9f00dfd8bd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 902628d53f651073b1d08ce3f1915808da22b03f
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864098"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684136"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva 주제 개요 
 
@@ -134,7 +134,7 @@ Microsoft 365 환경에서 Viva Topics를 사용하는 경우 사용자는 다�
 
 관리 컨트롤에 대한 자세한 내용은 사용자 권한 [할당,](./plan-topic-experiences.md#user-permissions)항목 표시 관리 [및](./topic-experiences-knowledge-rules.md)항목 검색 [관리를 참조하세요.](./topic-experiences-discovery.md)
 
-## <a name="topic-curation--feedback"></a>주제 큐레이션 및 피드백
+## <a name="topic-curation-and-suggestions"></a>항목 큐레이터 및 제안
 
 AI는 사용자 환경이 변함에 따라 계속해서 주제를 개선하기 위한 제안을 제공할 것입니다. 
 
@@ -144,6 +144,22 @@ AI는 사용자 환경이 변함에 따라 계속해서 주제를 개선하기 �
 
 자세한 내용은 항목 검색 및 [큐레이터를 참조하세요.](./topic-experiences-discovery-curation.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="provide-us-feedback"></a>피드백 제공
+
+Microsoft는 고객의 피드백을 매우 중요하게 생각합니다. Viva 항목에 대해 제공하는 피드백은 문제 해결, 버그 수정, 기존 기능 향상 및 새 기능 개발에 사용됩니다. 
+
+항목 페이지 및 항목 관리 및 내 항목  페이지에서 직접 Microsoft에 **피드백을** 보낼 수 있습니다. 페이지의 오른쪽 아래 모서리에서 이 단추를 찾아 봐야 합니다.
+
+   ![Screenshot showing the Feedback button.](../media/knowledge-management/feedback-icon.png)
+
+Microsoft에  피드백 보내기 페이지에서 원하는 것을 원하지 않는 경우 또는 제안 사항이 있는 경우 알려주세요.
+
+   ![Microsoft에 피드백 보내기 페이지를 보여 주는 스크린샷.](../media/knowledge-management/feedback-page.png)
+
+피드백을 제출할 때 전화 번호, 주소 또는 개인 이야기와 같은 중요한 정보는 포함하지 않는 것이 좋습니다. 대신 Viva 항목에서 발생하는 특정 문제 또는 Viva 항목의 일반적인 사용 경험에 대한 정보를 제공하세요. 이런 정보는 Microsoft가 검토하고 피드백을 기반으로 조치를 취할 때 귀하의 개인 정보를 유지하는 데 도움이 됩니다.
+
+여러분의 생각을 공유해 주셔서 감사합니다. 사용자 관점은 기존 기능을 개선하고 새로운 기능을 개발하는 데 도움이 됩니다.
+
+## <a name="see-also"></a>기타 참고 항목
 
 [Viva Microsoft Search 항목을 찾아보는 데 사용할 수 있습니다.](./search.md)

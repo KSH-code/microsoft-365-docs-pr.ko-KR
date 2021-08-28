@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 202fe1c38b6846f52361f3e55baf9050cae36fb5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 73c16691dc56ad478912b85cb1b712bc7b1b44a8
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58550169"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684187"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 사용자 계정 조사
 
@@ -62,8 +62,8 @@ ms.locfileid: "58550169"
 
 왼쪽의 사용자 세부 정보 창에서는 관련된 공개 인시던트, 활성 경고, SAM 이름, SID, ID 알림용 Microsoft Defender 경고, 사용자가 로그온한 장치 수, 사용자가 처음 및 마지막으로 본 때, 역할 및 로그온 유형과 같은 사용자에 대한 정보를 제공합니다.  사용하도록 설정한 통합 기능에 따라 다른 세부 정보가 표시됩니다. 예를 들어 비즈니스용 Skype 사용하도록 설정하면 포털에서 사용자에게 연락할 수 있습니다. **Azure ATP 경고** 섹션에는 Id에 대한 Microsoft Defender 기능을 사용하도록 설정한 경우 Id에 대한 Microsoft Defender 페이지로 이동하는 링크가 포함되어 있으며 사용자와 관련된 알림이 있습니다. Microsoft Defender for Identity 페이지에서 경고에 대한 자세한 정보를 제공합니다.
 
->[!NOTE]
->이 기능을 사용하려면 ID용 Microsoft Defender 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. Endpoint용 Defender에서 고급 기능에서 이 기능을 사용하도록 설정할 수 있습니다. 고급 기능을 사용하도록 설정하는 방법에 대한 자세한 내용은 고급 기능 [켜기 를 참조하세요.](advanced-features.md)
+> [!NOTE]
+> 이 기능을 사용하려면 ID용 Microsoft Defender 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. Endpoint용 Defender에서 고급 기능에서 이 기능을 사용하도록 설정할 수 있습니다. 고급 기능을 사용하도록 설정하는 방법에 대한 자세한 내용은 고급 기능 [켜기 를 참조하세요.](advanced-features.md)
 
 조직에서 개요, 경고 및 관찰된 탭은 사용자 계정에 대한 다양한 특성을 표시하는 서로 다른 탭입니다.
 
