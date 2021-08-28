@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정하고, 제거하고, 테스트하는 & 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b0a1a081f0eaad8be9b3afefc65f10c79eb5264cf5ce300dd454ccad6cf37fc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f1fcb52d99f939d686ac423c80caa0fe00cec24c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900171"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574823"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -143,7 +143,7 @@ Sum = digit = digit 1 * Weight 1 + digit 2 * weight 2 + digit 3 * weight 3 + dig
 > [!NOTE]
 > 체크 숫자가 체크 체크 um 계산의 일부가 아닌 경우 0을 검사 숫자의 가중치로 사용합니다. 예를 들어 검사 숫자를 검사 숫자로 계산하지 않을 경우 위의 경우 가중치 8은 0과 같습니다.  Modulo_operation).
 
-![구성된 체크 um 유효성 검사기 스크린샷](../media/checksum-validator.png)
+![구성된 체크 um 유효성 검사기 스크린샷.](../media/checksum-validator.png)
 
 ### <a name="date-validator"></a>날짜 유효성 검사기
 

@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 평가
-ms.openlocfilehash: c9533cb4189709ad4e32194371fb0863b4b5fa3f38eb035f7f0bdc505152b731
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 00ce0bb2f0f6b93df9f0eeb8e8bd63629edae9d7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854733"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574703"
 ---
 # <a name="microsoft-365-network-assessment"></a>Microsoft 365 네트워크 평가
 
@@ -28,7 +28,7 @@ Microsoft 365 관리 센터의 네트워크 연결에서 네트워크  평가는
 네트워크 평가점 값은 0에서 100까지의 값으로, TCP 대기 시간, 다운로드 속도 및 UDP 연결 품질 메트릭의 평균입니다. 이러한 메트릭은 하루 한 번 컴파일됩니다. Microsoft 소유 네트워크에 대한 성능 메트릭은 평가 결과가 모호하지 않은 회사 네트워크와 관련이 있도록 이러한 측정에서 제외됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![네트워크 평가 값](../media/m365-mac-perf/m365-mac-perf-overview-score-top.png)
+> ![네트워크 평가 값입니다.](../media/m365-mac-perf/m365-mac-perf-overview-score-top.png)
 
 네트워크 평가 값이 매우 낮을수록 Microsoft 365 클라이언트가 테넌트에 연결하거나 반응형 사용자 환경을 유지 관리하는 데 상당한 문제가 있는 것입니다. 값이 높으면 성능 문제가 거의 없습니다. 값 80%는 정상 기준을 나타내며, 이 기준은 네트워크 성능으로 인해 Microsoft 365 연결 또는 응답성에 대한 정기적인 사용자 불만을 받지 않을 것으로 예상됩니다. 네트워크 연결 개선을 거치면 사용자 환경과 함께 이 값이 증가합니다.
 
@@ -49,7 +49,7 @@ Microsoft 365 관리 센터의 네트워크 연결에서 네트워크  평가는
 각 네트워크 평가는 테넌트로 범위가 지정되거나 특정 사무실 위치에 따라 평가에 대한 세부 정보가 있는 패널을 보여줍니다. 이 패널은 측정 데이터를 수신한 워크로드만 포함하여 각 구성 요소 작업의 총점 및 백분율로 평가의 막대형 차트를 보여줍니다. 사무실 위치 네트워크 평가의 경우 사무실 위치와 같은 도시에 있는 데이터를 보고한 5개의 각 Microsoft 365 고객 비율을 비교하여 보여 주며,
 
 > [!div class="mx-imgBorder"]
-> ![네트워크 평가 값 예제](../media/m365-mac-perf/m365-mac-perf-overview-score.png)
+> ![네트워크 평가 값의 예](../media/m365-mac-perf/m365-mac-perf-overview-score.png)
 
 패널의 **평가** 분석에는 각 구성 요소 워크로드에 대한 평가가 표시됩니다.
 

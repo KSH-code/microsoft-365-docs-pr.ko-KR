@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 description: 엔터프라이즈 테스트 환경의 휴대폰에서 스마트폰으로 전송된 문자 메시지를 사용하여 Microsoft 365 다단계 인증을 구성합니다.
-ms.openlocfilehash: 772fc5d5a05ca08f2fcb851f1e5399c1dd77828f
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 92c60819c2e32661b4af9cfba76553c59b784519
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570728"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 대한 Microsoft 365 다단계 인증
 
@@ -38,7 +38,7 @@ ms.locfileid: "58356231"
 - [2단계: 사용자 2 계정에 대해 다단계 인증 사용 및 테스트](#phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account)
 - [3단계: 조건부 액세스 정책을 사용하여 다단계 인증 사용 및 테스트](#phase-3-enable-and-test-multi-factor-authentication-with-a-conditional-access-policy)
 
-![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Microsoft 클라우드용 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 자세한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)

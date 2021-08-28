@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 4fecb948ff86ab5bcc7b2b76946b29677d25611d
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.openlocfilehash: 1e11cdd9300b58d7cc410c43d1bd09ed095c29e7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570692"
 ---
 # <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -46,23 +46,23 @@ ms.locfileid: "58509608"
 
 |규칙 이름|&nbsp;Windows 10|&nbsp;Windows Server 2019|&nbsp;Windows 서버|&nbsp;Windows Server 2016|&nbsp;Windows Server 2012 R2|
 |---|:---:|:---:|:---:|:---:|:---:|
-|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br> 버전 1803(반기 채널) 이상|||
-|[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes)|![지원](images/checkmark.png) <br><br> 버전 1809 이상|![지원](images/checkmark.png)|![지원](images/checkmark.png)  <br><br>|||
-|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png)|![지원](images/checkmark.png) <br><br>|||
-|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|![지원](images/checkmark.png) <br><br> 버전 1803 이상|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|![지원](images/checkmark.png) <br><br> 버전 1803 이상|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription) <br><br> \*_파일 및 폴더 제외는 지원되지 않습니다._|![지원](images/checkmark.png) <br><br> 버전 1903(빌드 18362) 이상|![지원](images/checkmark.png)|![지원](images/checkmark.png) <br><br> 버전 1903(빌드 18362) 이상|||
-|[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands)|![지원](images/checkmark.png) <br><br> 버전 1803 이상|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware)|![지원](images/checkmark.png) <br><br> 버전 1803 이상|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br>|||
-|**규칙 이름**|**&nbsp;Windows 10**|**&nbsp;Windows Server 2019**|**&nbsp;Windows 서버**|**&nbsp;Windows Server 2016**|**&nbsp;Windows Server 2012 R2**|
+|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers) | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원되지 않습니다.](images/checkmark.png) <br><br> 버전 1803(반기 채널) 이상 |  |  |
+|[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes) | ![지원되지 않습니다.](images/checkmark.png) <br><br> 버전 1809 이상 | ![지원](images/checkmark.png) | ![지원](images/checkmark.png)  <br><br> |  |  |
+|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes) | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) | ![지원](images/checkmark.png) <br><br> |  |  |
+|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem) | ![지원되지 않습니다.](images/checkmark.png) <br><br> 버전 1803 이상 | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail) | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion) | ![지원되지 않습니다.](images/checkmark.png) <br><br> 버전 1803 이상 | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts) | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content) | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes)  | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes) | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription) <br><br> \*_파일 및 폴더 제외는 지원되지 않습니다._ | ![지원되지 않습니다.](images/checkmark.png) <br><br> 버전 1903(빌드 18362) 이상| ![지원](images/checkmark.png) | ![지원](images/checkmark.png) <br><br> 버전 1903(빌드 18362) 이상 |  |  |
+|[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands) | ![지원되지 않습니다.](images/checkmark.png) <br><br> 버전 1803 이상 | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br>  |  |  |
+|[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb) | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros) | ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+|[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware) | ![지원되지 않습니다.](images/checkmark.png) <br><br> 버전 1803 이상 | ![지원](images/checkmark.png) <br><br> | ![지원](images/checkmark.png) <br><br> |  |  |
+| **규칙 이름** |  **&nbsp;Windows 10** | **&nbsp;Windows Server 2019** | **&nbsp;Windows 서버** | **&nbsp;Windows Server 2016** | **&nbsp;Windows Server 2012 R2** |
 
 ## <a name="supported-configuration-management-systems"></a>지원되는 구성 관리 시스템
 
@@ -70,23 +70,23 @@ ms.locfileid: "58509608"
 
 |규칙 이름|Intune|Microsoft Endpoint Manager|Microsoft Endpoint Configuration Manager|그룹 정책|PowerShell|
 |---|:---:|:---:|:---:|:---:|:---:|
-|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers)|![지원](images/checkmark.png) <br><br>|![지원](images/checkmark.png) <br><br> MEM OMA-URI|||![지원](images/checkmark.png) <br><br>|
-|[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes)|![지원](images/checkmark.png)||![지원](images/checkmark.png)|||
-|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br> CB 1710|||
-|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br> CB 1802|||
-|[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br> CB 1710|![지원](images/checkmark.png)||
-|[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br> CB 1802|||
-|[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts)|![지원](images/checkmark.png)||![지원](images/checkmark.png)  <br><br> CB 1710|||
-|[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br> CB 1710|||
-|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content)|![지원](images/checkmark.png) <br><br>||![지원](images/checkmark.png) <br><br> CB 1710 <br><br>|||
-|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br> CB 1710|||
-|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br>  CB 1710|||
-|[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription)||||||
-|[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands)|![지원](images/checkmark.png)|||||
-|[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br> CB 1802 <br><br>|||
-|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br> CB 1710 <br><br>|||
-|[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware)|![지원](images/checkmark.png)||![지원](images/checkmark.png) <br><br>  CB 1802|||
-|**규칙 이름**|**Intune**|**Microsoft Endpoint Manager**|**Microsoft Endpoint Configuration Manager**|**그룹 정책**|**PowerShell**|
+|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers) | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |  ![지원](images/checkmark.png) <br><br> MEM OMA-URI |   |   |  ![지원](images/checkmark.png) <br><br> |
+|[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) |   |   |
+|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) <br><br> CB 1710 |   |   |
+|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem) | ![지원되지 않습니다.](images/checkmark.png)  |   |  ![지원](images/checkmark.png) <br><br> CB 1802 |   |   |
+|[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail) | ![지원되지 않습니다.](images/checkmark.png) |  | ![지원](images/checkmark.png) <br><br> CB 1710 | ![지원](images/checkmark.png) |   |
+|[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) <br><br> CB 1802 |   |   |
+|[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts) | ![지원되지 않습니다.](images/checkmark.png) |   |  ![지원](images/checkmark.png)  <br><br> CB 1710 |   |   |
+|[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) | ![지원되지 않습니다.](images/checkmark.png) |   |  ![지원](images/checkmark.png) <br><br> CB 1710 |   |   |
+|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content) | ![지원되지 않습니다.](images/checkmark.png) <br><br> |  | ![지원](images/checkmark.png) <br><br> CB 1710 <br><br> |   |   |
+|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes) | ![지원되지 않습니다.](images/checkmark.png) |  |  ![지원](images/checkmark.png) <br><br> CB 1710 |   |   |
+|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes) | ![지원되지 않습니다.](images/checkmark.png) |  | ![지원](images/checkmark.png) <br><br>  CB 1710 |   |   |
+|[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription) |  |  |  |   |   |
+|[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands) | ![지원](images/checkmark.png) |   |   |   |   |
+|[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) <br><br> CB 1802 <br><br> |   |   |
+|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) <br><br> CB 1710 <br><br> |   |   |
+|[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware) | ![지원되지 않습니다.](images/checkmark.png) |   |  ![지원](images/checkmark.png) <br><br>  CB 1802 |   |   |
+| **규칙 이름** | **Intune** | **Microsoft Endpoint Manager** | **Microsoft Endpoint Configuration Manager** | **그룹 정책** | **PowerShell** |
 
 - [Configuration Manager CB 1710](/configmgr/core/servers/manage/updates)
 - [Configuration Manager CB 1802](/configmgr/core/servers/manage/updates)

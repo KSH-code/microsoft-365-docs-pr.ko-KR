@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: Microsoft 365에서 안전한 게스트 공유 환경을 만드는 데 사용할 수 있는 옵션에 대해 알아보고, 공동 작업을 위한 게스트 액세스를 제공합니다.
-ms.openlocfilehash: 37db4eaaf6c6cd8c6c173d52f68c23c16cfb1f3c7cccfc1eb35e610f679dff9d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1986140e2aa809e81415a8e581ce626c5100809d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53777832"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575435"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>보안 게스트 공유 환경 만들기
 
@@ -81,7 +81,7 @@ Azure AD 사용 약관을 만들려면
 2. [사용 약관](https://aka.ms/catou)으로 이동합니다.
 3. **새 사용 약관** 을 클릭합니다.
 
-   ![Azure AD 새 사용 약관 설정의 스크린샷](../media/azure-ad-guest-terms-of-use.png)
+   ![Microsoft Azure AD 새 사용 약관 설정의 스크린샷](../media/azure-ad-guest-terms-of-use.png)
 
 4. **이름** 을 입력하고 **이름을 표시** 합니다.
 6. **사용 약관 문서** 의 경우 작성한 pdf 파일을 찾아 선택합니다.
@@ -132,11 +132,11 @@ Azure AD의 액세스 검토로 다양한 팀과 그룹에 대한 주기적 사�
 9. 시작 날짜 및 기간을 선택합니다.
 10. **종료 기간** 은 **없음** 을 선택하고 **다음: 설정** 을 선택합니다.
 
-    ![Azure AD 액세스 검토 탭 스크린샷](../media/azure-ad-create-access-review.png)
+    ![Microsoft Azure AD 액세스 검토 탭의 스크린샷](../media/azure-ad-create-access-review.png)
 
 11. **설정** 탭에서 비즈니스 규칙과 규정 준수 설정을 검토합니다.
 
-    ![Azure AD 액세스 검토 설정 탭 스크린샷](../media/azure-ad-create-access-review-settings.png)
+    ![Microsoft Azure AD 액세스 검토 설정 탭의 스크린샷](../media/azure-ad-create-access-review-settings.png)
 
 12. **다음: 검토 + 만들기** 를 클릭합니다.
 13. **검토자 이름** 을 입력하고 설정을 검토합니다.
@@ -170,7 +170,7 @@ Microsoft 365 그룹 및 Teams의 경우, Azure AD 조건부 액세스 정책을
 10. **조건** 블레이드에서 **클라이언트 앱** 을 클릭합니다.
 11. **클라이언트 앱** 블레이드에서 **구성** 의 경우 **예** 를 클릭하고 **모바일 앱 및 데스크톱 클라이언트**, **Exchange ActiveSync 클라이언트** 그리고 **기타 클라이언트** 설정을 선택합니다. **브라우저** 확인란을 선택 취소합니다.
 
-    ![Azure AD 조건부 액세스 클라이언트 앱 설정 스크린샷](../media/azure-ad-conditional-access-client-mobile.png)
+    ![Microsoft Azure AD 조건부 액세스 클라이언트 앱 설정의 스크린샷](../media/azure-ad-conditional-access-client-mobile.png)
 
 12. **완료** 를 클릭합니다.
 13. **액세스 제어** 아래에서 **허용** 을 선택합니다.

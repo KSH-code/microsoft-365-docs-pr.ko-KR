@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 않는 도메인 보고서를 사용하여 보낸 사람 도메인이 조직에 구성되어 있지 않은 & 조직에서 보낸 메시지를 모니터링하는 방법을 Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 018fb5ee8e2d0532cc96f85f4ec66e146dae8eb81a8e189e8746c26fde71fe7e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3b2ddbc6215ebbc3b1a2b2ccff4a5bc8ad7118c3
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56816525"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574547"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 도메인 보고서
 
@@ -34,7 +34,7 @@ ms.locfileid: "56816525"
 
 Microsoft 365 메시지의 의도가 악의적일 수 있는 것으로 증명할 데이터가 있는 경우 이러한 메시지가 스로틀될 수 있습니다. 따라서 어떤 일이 일어나는지 이해하고 문제를 해결하는 것이 중요합니다.
 
-![보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 & 위젯](../../media/mfi-non-accepted-domain-report-widget.png)
+![보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 & 위젯입니다.](../../media/mfi-non-accepted-domain-report-widget.png)
 
 ## <a name="report-view-for-the-non-accepted-domain-report"></a>허용되지 않는 도메인 보고서에 대한 보고서 보기
 
@@ -44,7 +44,7 @@ Microsoft 365 메시지의 의도가 악의적일 수 있는 것으로 증명할
 
 차트에서 데이터 포인트(일)를 마우스로 마우스로 대면 커넥터의 총 메시지 수가 표시됩니다.
 
-![허용되지 않는 도메인 보고서의 보고서 보기](../../media/mfi-non-accepted-domain-report-overview-view.png)
+![허용되지 않는 도메인 보고서의 보고서 보기입니다.](../../media/mfi-non-accepted-domain-report-overview-view.png)
 
 ## <a name="details-table-view-for-the-non-accepted-domain-report"></a>허용되지 않는 도메인 보고서에 대한 세부 정보 테이블 보기
 
@@ -68,7 +68,7 @@ Microsoft 365 메시지의 의도가 악의적일 수 있는 것으로 증명할
 - **메시지 수**
 - **샘플 메시지:** 샘플  메시지 보기를 클릭하여 [](message-trace-scc.md) 영향을 받는 메시지의 샘플에 대한 메시지 추적 결과를 볼 수 있습니다.
 
-![허용되지 않는 도메인 보고서의 세부 정보 테이블 보기에서 행을 선택한 후의 세부 정보 플라이아웃](../../media/mfi-non-accepted-domain-report-details-flyout.png)
+![허용되지 않는 도메인 보고서의 세부 정보 테이블 보기에서 행을 선택한 후 플라이아웃에 대한 세부 정보입니다.](../../media/mfi-non-accepted-domain-report-details-flyout.png)
 
 보고서 보기로 돌아가려면 보고서 **보기 를 클릭합니다.**
 

@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: how-to
 ms.technology: m365d
-ms.openlocfilehash: c97d7751d56bb42a4a120deb52563a0668138ca5
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 5e2588361cfc416b8d7aa8b51b8e12ded8a7ceca
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247383"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570464"
 ---
 # <a name="pilot-microsoft-defender-for-office-365"></a>파일럿 Microsoft Defender for Office 365
 **적용 대상:**
@@ -36,7 +36,7 @@ ms.locfileid: "58247383"
 
 다음 단계에 따라 Microsoft Defender for Office 365.
 
-![Microsoft Defender for Office 365](../../media/defender/m365-defender-office-pilot.png)
+![Microsoft Defender for Office 365.](../../media/defender/m365-defender-office-pilot.png)
 
 - [1단계: 파일럿 그룹 만들기](#step-1-create-pilot-groups)
 - [2단계: 보호 구성](#step-2-configure-protection)
@@ -95,7 +95,7 @@ MDO를 평가할 때  권장되는 기준 정책으로 시작한 다음 평가 �
 
 3. 정책 정책 & 대시보드에서 위협 *정책을 클릭합니다.*
 
-:::image type="content" source="../../media/mdo-eval/6-mdo-eval-pilot-threat-policies.png" alt-text="a":::
+:::image type="content" source="../../media/mdo-eval/6-mdo-eval-pilot-threat-policies.png" alt-text="a.":::
 
 4. Microsoft 365 Defender 포털에서 탐색 메뉴에서 위협 관리를 확장한 다음 하위 메뉴에서 정책을 선택합니다.
 5. 정책 대시보드에서 보안 정책 *미리 설정 을 클릭합니다.*

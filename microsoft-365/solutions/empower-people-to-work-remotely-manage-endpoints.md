@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft Endpoint Manager를 사용하여 장치, PC 및 기타 끝점을 관리합니다.
-ms.openlocfilehash: b1c3b565ddbe3741d60f547ba45fc5891a01b406a2401e64147696aa1934b3e9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a5326743bc1673facff864a562ebb0accb8d483c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53902004"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575363"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>4단계: 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 
@@ -30,7 +30,7 @@ ms.locfileid: "53902004"
 
 [Microsoft Endpoint Manager](/mem/endpoint-manager-overview)는 사용자가 이미 알고 사용 중에 있는 다음 서비스를 결합하여 모바일 장치, 데스크톱 컴퓨터, 가상 머신, 내장 장치, 서버를 관리하는 서비스와 도구를 제공합니다.
 
-![Microsoft 365의 끝점 관리 구성 요소](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
+![Microsoft 365의 끝점 관리 구성 요소.](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
@@ -93,6 +93,6 @@ Windows 자동 실행 기능을 사용하면 IT 부서가 쉽고 간단한 프�
 
 ## <a name="next-step"></a>다음 단계
 
-[![5단계: 원격 작업자 생산성 앱 및 서비스 배포](../media/empower-people-to-work-remotely/remote-workers-step-grid-5.png)](empower-people-to-work-remotely-teams-productivity-apps.md)
+[![5단계: 원격 작업자 생산성 앱 및 서비스 배포.](../media/empower-people-to-work-remotely/remote-workers-step-grid-5.png)](empower-people-to-work-remotely-teams-productivity-apps.md)
 
 [5단계](empower-people-to-work-remotely-teams-productivity-apps.md)를 계속 진행하면 하이브리드 작업자가 Microsoft 팀과 같은 Microsoft 365 생산성 앱을 사용할 수 있습니다.

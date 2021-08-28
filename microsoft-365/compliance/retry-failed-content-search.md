@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: ''
 description: 조사하는 동안 다시 시도 단추를 사용하여 콘텐츠 위치 오류가 있는 콘텐츠 검색을 해결할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a67702e7c9d3c307ed44fe52c86c8b080f8d1e01e7cf9dcdc9dfb3929c638bf6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ee60ab8aa5dad32360303f31924995f110ed99cc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574126"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>콘텐츠 검색을 다시 시도하여 콘텐츠 위치 오류 해결
 

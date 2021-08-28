@@ -14,22 +14,24 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 관리하는 앱 거버넌스 기능을 시작하세요.
-ms.openlocfilehash: 8d74de8210cd9fff1a551937c31883aabd26c270
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 9f74e2c352ccc67adbb7f1b15632cca88c75c51e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256113"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574895"
 ---
 # <a name="get-started-with-app-governance-in-preview"></a>앱 거버넌스 시작(미리 보기)
 
-Microsoft Cloud App Security에서 앱 거버넌스 추가 항목 사용을 시작하려면 다음을 수행합니다.
+Microsoft Cloud App Security에 대한 앱 거버넌스 추가 기능 사용을 시작하려면 다음 세 단계를 실행해야 합니다.
+
+## <a name="step-1-meet-the-licensing-and-administrator-role-prerequisites"></a>1단계: 라이선스 및 관리자 역할 필수 구성 요소 충족
 
 1. 계정이 [적절한 수준의 라이선스](#licensing-for-app-governance)를 보유하고 있는지 확인합니다. 앱 거버넌스는 MCAS(Microsoft Cloud App Security)의 추가 기능이므로 계정은 MCAS는 독립 실행형 제품 또는 다양한 라이선스 패키지의 일부로 라이선스를 보유하고 있어야 합니다.
 1. 포털에서 앱 거버넌스 페이지에 액세스하려면 아래에 나열된 [관리자 역할](#administrator-roles) 중 하나가 있어야 합니다.
 1. 무료 평가판을 활성화하려면 조직의 청구 주소가 [북미, 유럽 또는 아프리카에서 지원되는 지역](app-governance-countries.md) 중 하나여야 합니다.
 
-## <a name="sign-up-for-free-trial-of-app-governance"></a>앱 거버넌스 평가판에 등록
+## <a name="step-2-sign-up-for-free-trial-of-app-governance"></a>2단계: 앱 거버넌스 무료 평가판에 등록
 
 신규 Microsoft 365 고객용:
 
@@ -45,7 +47,7 @@ Microsoft Cloud App Security에서 앱 거버넌스 추가 항목 사용을 시�
 
 :::image type="content" source="../media/manage-app-protection-governance/app-governance-signup2.gif" alt-text="계정에 앱 거버넌스를 추가하는 간단한 단계별 실행":::
 
-## <a name="add-integration-with-mcas"></a>MCAS와의 통합 추가
+## <a name="step-3-add-integration-with-mcas"></a>3단계: MCAS와의 통합 추가
 
 필수 조건:
 
@@ -121,16 +123,16 @@ Cloud App Security와 앱 거버넌스 동기화를 사용하려면 다음 단�
 
 | 역할 | 대시보드 읽기 | 모든 앱 읽기 |정책 읽기 | 정책 만들기, 업데이트 또는 삭제 | 경고 읽기 | 경고 업데이트 | 설정 읽기 | 설정 업데이트 | 수정 사항 읽기 | 수정 사항 업데이트 |
 |:-------|:-----|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
-| 애플리케이션 관리자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |
+| 애플리케이션 관리자 | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |
 | 클라우드 애플리케이션 관리자 | ![확인 표시](..\media\checkmark.png) | | | | | | | | | |
-| 회사 관리자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |
-| 규정 준수 관리자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | |
-| 규정 준수 데이터 관리자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | |
-| 규정 준수 읽기 권한자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | | |
-| 전역 읽기 권한자  | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | | |
-| 보안 관리자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | |
-| 보안 운영자 | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | |
-| 보안 읽기 권한자  | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) | |
+| 회사 관리자 | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |
+| 규정 준수 관리자 | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | |
+| 규정 준수 데이터 관리자 | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | |
+| 규정 준수 읽기 권한자 | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | | |
+| 전역 읽기 권한자  | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | | |
+| 보안 관리자 | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | |
+| 보안 운영자 | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | |
+| 보안 읽기 권한자  | ![확인 표시입니다.](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) |  | ![확인 표시](..\media\checkmark.png) | |
 |||||||||| | |
 
 각 역할에 대한 자세한 내용은 [관리자 역할 권한](/azure/active-directory/roles/permissions-reference)을 참조하십시오.

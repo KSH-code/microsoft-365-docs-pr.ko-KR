@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: 0f4ccadd48759f3aa3de959df3ef8104df21520e2dcd59b65567891be31d314a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a0f806da62378ca21c1693fd96105bb89eaf5708
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570836"
 ---
 # <a name="information-barriers-in-microsoft-365"></a>정보 장벽 Microsoft 365
 
@@ -38,7 +38,7 @@ Microsoft 365 그룹과 조직 간 통신 및 공동 작업을 지원하고, 필
 
 다음 단계를 사용하여 조직에 대한 정보 장벽을 구성합니다.
 
-![내부자 위험 솔루션 정보 장벽 단계](../media/ir-solution-ib-steps.png)
+![내부자 위험 솔루션 정보 장벽 단계.](../media/ir-solution-ib-steps.png)
 
 1. 정보 [장벽에](information-barriers.md) 대해 자세히 Microsoft 365
 2. 선행 [구성 및 사용 권한 구성](information-barriers-policies.md#prerequisites)

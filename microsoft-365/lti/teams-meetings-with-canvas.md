@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 캔버스 Microsoft Teams 통합
-ms.openlocfilehash: 3883459d6d8fce9d8e150c9de82faf5dad75e7a5
-ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
+ms.openlocfilehash: dfa9bf10400900f879c806d6ea44bdb9b4b67a9c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58387155"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574655"
 ---
 # <a name="use-microsoft-teams-meetings-with-canvas"></a>Canvas에서 Microsoft Teams 모임 사용
 
@@ -42,7 +42,7 @@ Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canva
 
 3. 관리자 탐색에서 설정 **링크를** 선택한 다음 **통합 탭을** 선택합니다.
 
-![Canvas Teams 동기화 업데이트 png](https://user-images.githubusercontent.com/87142492/128552407-78cb28e9-47cf-4026-954d-12dc3553af6f.png)
+![Canvas Teams 동기화 업데이트된 png입니다.](https://user-images.githubusercontent.com/87142492/128552407-78cb28e9-47cf-4026-954d-12dc3553af6f.png)
 
 4. Microsoft 테넌트 이름, 로그인 특성, 도메인 접미사 및 AAD 검색 특성을 입력합니다. 이러한 필드는 Canvas의 사용자와 캔버스의 사용자 일치에 Microsoft Azure Active Directory. 
    * Login 특성은 일치에 활용된 Canvas 사용자 특성입니다.
@@ -53,7 +53,7 @@ Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canva
 
 6. Canvas의 **Microsoft-Teams-Sync-for-Canvas** Azure 앱에 대한 액세스를 승인하려면 테넌트 액세스 권한 부여 **링크를** 선택합니다. Microsoft Identity Platform 관리자 동의 끝점으로 리디렉션됩니다.
 
-   ![사용 권한](media/permissions.png)
+   ![사용 권한.](media/permissions.png)
 
 7. **수락** 을 선택합니다. 
 
@@ -62,7 +62,7 @@ Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canva
 
 8. 토글을 Microsoft Teams 동기화할 수 있도록 합니다.
 
-   ![teams-sync](media/teams-sync.png)
+   ![teams-sync.](media/teams-sync.png)
 
 ## <a name="canvas-admin"></a>Canvas Admin
 
@@ -76,11 +76,11 @@ Canvas 관리자는 사용자 환경 내에서 Microsoft Teams 모임 LTI 앱을
 
 2. **+ 앱을 선택하여** LTI Teams 추가합니다.
 
-   ![external-apps](media/external-apps.png)
+   ![external-apps.](media/external-apps.png)
 
 3. 구성 **유형으로 클라이언트 ID를** 선택합니다.
 
-   ![앱 추가](media/add-app.png)
+   ![앱을 추가합니다.](media/add-app.png)
 
 4. 제공된 클라이언트 ID를 입력한 다음 제출을 **선택합니다.**
 

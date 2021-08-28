@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 센터에서 정책에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: 043b3b25fb311de162e3e3299413d21036e7090d1c8bf60df1229952df53bb35
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 41f36354fa94da9cae8e7794dca778c1bfe8ac2e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53851683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570296"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -139,7 +139,7 @@ ms.locfileid: "53851683"
 
 다음은 가장 간단한 시나리오입니다. 정책이 9자리 숫자로 구성된 조직의 직원 ID를 포함하는 콘텐츠를 식별하게 하려고 합니다. 따라서 패턴은 9자리 숫자를 식별하는 규칙에 포함된 정규식을 나타냅니다. 9자리 숫자를 포함하는 모든 콘텐츠는 해당 패턴을 충족합니다.
   
-![하나의 패턴을 갖는 엔터티 다이어그램](../media/4cc82dcf-068f-43ff-99b2-bac3892e9819.png)
+![하나의 패턴을 사용하는 엔터티 다이어그램입니다.](../media/4cc82dcf-068f-43ff-99b2-bac3892e9819.png)
   
 이 패턴은 간단하지만 9자리 숫자를 포함하는 콘텐츠를 일치시켜 직원 ID가 아닐 수 있는 많은 가양성을 식별할 수 있습니다.
   
@@ -149,7 +149,7 @@ ms.locfileid: "53851683"
   
 예를 들어, 직원 ID를 포함하는 콘텐츠를 식별할 확률을 높이기 위해, 채용 날짜도 식별하는 다른 패턴을 정의하고, 9자리 숫자 외에 채용 날짜와 키워드(예: “직원 ID”)를 둘 다 식별하는 또 다른 패턴을 정의할 수 있습니다.
   
-![여러 패턴을 갖는 엔터티 다이어그램](../media/c8dc2c9d-00c6-4ebc-889a-53b41a90024a.png)
+![여러 패턴이 있는 엔터티 다이어그램입니다.](../media/c8dc2c9d-00c6-4ebc-889a-53b41a90024a.png)
   
 이 구조는 다음과 같은 몇 가지 중요한 측면을 갖습니다.
   
@@ -167,7 +167,7 @@ ms.locfileid: "53851683"
 2. 사용자 지정 엔터티의 이름(이 예제에서는 직원 ID)을 포함하는 주석을 추가합니다. 나중에 이 엔터티 이름을 지역화된 문자열 섹션에 추가합니다. 그러면 해당 이름이 정책을 만들 때 UI에 표시됩니다.
 3. 엔터티의 GUID를 생성합니다. GUID를 생성하는 방법에는 여러 가지가 있지만, PowerShell에서 **[guid]::NewGuid()** 를 입력하면 간단하게 생성할 수 있습니다. 뒤에서 현지화된 문자열 섹션에도 엔터티 GUID를 추가하게 됩니다.
   
-![Rules 및 Entity 보여 주는 XML 태그 요소](../media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
+![Rules 및 Entity 요소를 표시하는 XML 마크업입니다.](../media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
   
 ## <a name="what-pattern-do-you-want-to-match-pattern-element-idmatch-element-regex-element"></a>일치하려는 패턴은 어느 것인가요? [Pattern 요소, IdMatch 요소, Regex 요소]
 
@@ -175,11 +175,11 @@ ms.locfileid: "53851683"
   
 아래의 모든 패턴이 갖는 공통점은 모두가 공백 (\s) … (\s)으로 둘러싸인 9자리 숫자(\d{9})를 찾는 동일한 정규식을 참조한다는 것입니다. 이 정규식은 IdMatch 요소에서 참조되고 직원 ID 엔터티를 찾는 모든 패턴의 공통된 요구 사항입니다. IdMatch는 패턴이 직원 ID, 신용 카드 번호, 주민 등록 번호 등을 일치시킬 식별자입니다. Pattern 요소에는 IdMatch 요소가 1개만 있어야 합니다.
   
-![단일 Regex 요소를 참조하는 여러 Pattern 요소를 보여 주는 XML 태그](../media/8f3f497b-3b8b-4bad-9c6a-d9abf0520854.png)
+![단일 Regex 요소를 참조하는 여러 Pattern 요소를 보여 주는 XML 마크업입니다.](../media/8f3f497b-3b8b-4bad-9c6a-d9abf0520854.png)
   
 결과가 충족되면 패턴은 해당 개수 및 신뢰도를 반환합니다. 이 결과를 정책의 조건에서 사용할 수 있습니다. 중요한 정보 유형을 감지하는 조건을 정책에 추가하면 여기에 표시된 것처럼 개수 및 신뢰도를 편집할 수 있습니다. 신뢰도(일치 정확도라고도 함)는 이 항목의 뒷부분에서 설명합니다.
   
-![인스턴스 개수 및 일치 정확도 옵션](../media/sit-confidence-level.png)
+![인스턴스 수 및 일치 정확도 옵션](../media/sit-confidence-level.png)
   
 정규식을 만들 때 인식해야 하는 잠재적인 문제가 있을 수 있다는 사실을 고려해야 합니다. 예를 들어, 너무 많은 콘텐츠를 식별하는 regex를 작성하여 업로드하는 경우 성능에 영향을 줄 수 있습니다. 이러한 잠재적인 문제에 대한 자세한 내용은 뒷부분에 나오는 [인식해야 하는 잠재적인 유효성 검사 문제](#potential-validation-issues-to-be-aware-of)를 참조하세요.
   
@@ -191,7 +191,7 @@ Pattern은 여러 개의 Match 요소를 포함할 수 있으며, 여러 개의 
   
 선택적인 minCount 특성을 사용하여 각 Match 요소에 대해 검색되어야 하는 일치 인스턴스 수를 지정할 수 있습니다. 예를 들어, 키워드 목록에서 두 개 이상의 키워드가 검색된 경우에만 패턴이 충족되도록 지정할 수 있습니다.
   
-![minOccurs 특성을 갖는 Match 요소를 보여 주는 XML 태그](../media/607f6b5e-2c7d-43a5-a131-a649f122e15a.png)
+![minOccurs 특성이 있는 Match 요소를 보여 주는 XML 마크업입니다.](../media/607f6b5e-2c7d-43a5-a131-a649f122e15a.png)
   
 ### <a name="keywords-keyword-group-and-term-elements-matchstyle-and-casesensitive-attributes"></a>키워드 [Keyword, Group 및 Term 요소, matchStyle 및 caseSensitive 특성]
 
@@ -205,7 +205,7 @@ Pattern은 여러 개의 Match 요소를 포함할 수 있으며, 여러 개의 
     
 마지막으로, 콘텐츠가 대소문자를 포함하는 키워드와 정확히 일치하도록 지정하려면 하도록 Term 요소의 caseSensitive 특성을 사용할 수 있습니다.
   
-![키워드를 참조하는 Match 요소를 보여 주는 XML 태그](../media/e729ba27-dec6-46f4-9242-584c6c12fd85.png)
+![키워드를 참조하는 Match 요소를 보여 주는 XML 마크업입니다.](../media/e729ba27-dec6-46f4-9242-584c6c12fd85.png)
   
 ### <a name="regular-expressions-regex-element"></a>정규식 [Regex 요소]
 
@@ -219,7 +219,7 @@ Pattern은 여러 개의 Match 요소를 포함할 수 있으며, 여러 개의 
   
 자세한 내용은 [DLP 함수가 찾는 항목](what-the-dlp-functions-look-for.md)을 참조하세요.
   
-![기본 제공 함수를 참조하는 Match 요소를 보여 주는 XML 태그](../media/dac6eae3-9c52-4537-b984-f9f127cc9c33.png)
+![기본 제공 함수를 참조하는 Match 요소를 보여 준 XML 마크업입니다.](../media/dac6eae3-9c52-4537-b984-f9f127cc9c33.png)
   
 ## <a name="different-combinations-of-evidence-any-element-minmatches-and-maxmatches-attributes"></a>다양한 증거 조합 [Any 요소, minMatches 및 maxMatches 특성]
 
@@ -281,15 +281,15 @@ Any 요소에는 패턴이 일치되기 위해 충족되어야 하는 자식 Mat
 
 중요한 정보 유형은 직원 ID를 나타나는 패턴을 찾으며, 해당 패턴의 일부로 “ID”와 같은 키워드 등을 중요 증거로 찾습니다. 이 증거에 더 가까울수록 패턴이 실제 직원 ID일 확률이 높습니다. Entity 요소의 필수 patternsProximity 특성을 사용하여 패턴의 다른 증거가 엔터티에 얼마나 가까워야 하는지 결정할 수 있습니다.
   
-![patternsProximity 특성을 보여 주는 XML 태그](../media/e97eb7dc-b897-4e11-9325-91c742d9839b.png)
+![patternsProximity 특성을 보여 주는 XML 마크업입니다.](../media/e97eb7dc-b897-4e11-9325-91c742d9839b.png)
   
 엔터티의 각 패턴에 대해, patternsProximity 특성 값은 해당 패턴에 대해 지정된 다른 모든 Match의 IdMatch 위치로부터 거리(유니코드 문자)를 정의합니다. 근접 범위는 IdMatch 위치에 의해 고정되며, 범위는 IdMatch의 좌우로 확장됩니다.
   
-![근접 범위 다이어그램](../media/b593dfd1-5eef-4d79-8726-a28923f7c31e.png)
+![근접성 창 다이어그램입니다.](../media/b593dfd1-5eef-4d79-8726-a28923f7c31e.png)
   
 아래 예제에서는 근접 범위가 사용자 지정 엔터티에 대한 IdMatch 요소가 하나 이상의 키워드 또는 날짜 증빙 일치를 요구하는 패턴 일치에 어떤 영향을 미치는지를 보여 줍니다. ID2 및 ID3의 경우 근접 범위 내에서 증빙을 찾을 수 없거나 부분적인 증빙만 발견되므로 ID1만 일치합니다.
   
-![증빙 및 근접 범위 다이어그램](../media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
+![증분 증거 및 근접성 창 다이어그램입니다.](../media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
   
 전자 메일의 경우 메시지 본문과 각 첨부 파일이 별도 항목으로 취급됩니다. 즉, 근접 범위는 이러한 각 항목이 범위 너머까지 확장되지 않습니다. 각 항목(첨부 파일 또는 본문) 내에 idMatch 및 증빙이 둘 다 있어야 합니다.
   
@@ -299,7 +299,7 @@ Any 요소에는 패턴이 일치되기 위해 충족되어야 하는 자식 Mat
   
 Pattern 요소에는 필수 confidencelevel 특성이 있습니다. confidenceLevel 값(1에서 100 사이의 정수)을 엔터티의 각 패턴에 대한 고유 ID로 생각할 수 있습니다. 즉, 엔터티의 패턴에는 다른 신뢰도가 할당되어야 합니다. 정수 정밀도 값은 중요하지 않습니다. 준수 팀에서 허용하는 숫자만 선택하면 됩니다. 사용자 지정 중요한 정보 유형을 업로드한 후 DLP 정책을 만든 후에 생성한 규칙의 조건에서 이러한 신뢰도를 참조할 수 있습니다.
   
-![다른 confidenceLevel 특성 값을 갖는 Pattern 요소를 보여 주는 XML 태그](../media/sit-xml-markedup-2.png)
+![confidenceLevel 특성 값이 서로 다른 Pattern 요소를 보여 주는 XML 마크업입니다.](../media/sit-xml-markedup-2.png)
   
 Entity는 각 Pattern에 대핸 confidenceLevel 외에도 recommendedConfidence 속성을 갖습니다. 권장 신뢰도 속성은 규칙의 신뢰도 수준 기본값이라고 생각하면 됩니다. 정책에서 규칙을 만들 때 규칙에서 사용할 신뢰도 수준을 지정하지 않은 경우에는 규칙이 해당 엔터티의 권장 신뢰도 수준을 사용하여 매치를 수행합니다. RecommendedConfidence 속성은 규칙 패키지의 각 Entity ID에 대한 필수 항목입니다. 이 값이 없는 경우 중요한 정보 유형을 사용 하는 정책을 저장하지 못할 수 있습니다. 
   
@@ -307,11 +307,11 @@ Entity는 각 Pattern에 대핸 confidenceLevel 외에도 recommendedConfidence 
 
 준수 팀에서 Microsoft 365 준수 센터를 사용하여 다른 로캘 및 다른 언어로 정책을 만드는 경우 사용자 지정 중요한 정보 유형의 지역화된 이름 및 설명 버전을 제공할 수 있습니다. 준수 팀에서 지원되는 언어로 Office 365를 사용하는 경우 UI에 지역화된 이름이 표시됩니다.
   
-![인스턴스 개수 및 일치 정확도 옵션](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
+![인스턴스 수 및 일치 정확도 옵션](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
   
 Rules 요소는 사용자 지정 엔터티의 GUID를 참조하는 Resource 요소가 포함된 LocalizedStrings 요소를 포함해야 합니다. 마찬가지로, 각 Resource 요소는 각각이 langcode 특성을 사용하여 특정 언어에 대해 지역화된 문자열을 제공하는 하나 이상의 Name 및 Description 요소를 포함합니다.
   
-![LocalizedStrings 요소의 내용을 보여 주는 XML 태그](../media/a96fc34a-b93d-498f-8b92-285b16a7bbe6.png)
+![LocalizedStrings 요소의 내용을 표시하는 XML 마크업입니다.](../media/a96fc34a-b93d-498f-8b92-285b16a7bbe6.png)
   
 규정 준수 센터의 UI에 사용자 지정 중요한 정보 유형이 표시될 때만 지역화된 문자열을 사용합니다. 키워드 목록 또는 정규식의 다른 지역화된 버전을 제공할 때는 지역화된 문자열을 사용할 수 없습니다.
   
@@ -347,7 +347,7 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
 
 완료되면 RulePack 요소는 다음과 같습니다.
   
-![RulePack 요소를 보여 주는 XML 태그](../media/fd0f31a7-c3ee-43cd-a71b-6a3813b21155.png)
+![RulePack 요소를 표시하는 XML 마크업입니다.](../media/fd0f31a7-c3ee-43cd-a71b-6a3813b21155.png)
 
 ## <a name="validators"></a>유효성 검사기
 

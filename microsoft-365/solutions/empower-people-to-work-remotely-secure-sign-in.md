@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 하이브리드 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: 19a249e25aaa2db21d8b2dea4b4bdd86e673e4f9761a3adcd530b0a21b5c3bfc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d59f990cd7acf576247d75e6544ad045179e3c81
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53805095"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575351"
 ---
 # <a name="step-1-increase-sign-in-security-for-hybrid-workers-with-mfa"></a>1단계.MFA를 사용하여 하이브리드 작업자에 대 한 로그인 보안 강화
 
@@ -119,6 +119,6 @@ MFA를 배포한 후 사용자는 다음 사항에 해당됩니다.
 
 ## <a name="next-step"></a>다음 단계
 
-[![2단계: 온-프레미스 앱 및 서비스로의 원격 액세스 제공](../media/empower-people-to-work-remotely/remote-workers-step-grid-2.png)](empower-people-to-work-remotely-remote-access.md)
+[![2단계: 온-프레미스 앱 및 서비스에 대한 원격 액세스 제공](../media/empower-people-to-work-remotely/remote-workers-step-grid-2.png)](empower-people-to-work-remotely-remote-access.md)
 
 온 프레미스 앱 및 서비스에 대한 원격 액세스를 제공하려면 [2단계](empower-people-to-work-remotely-remote-access.md)를 계속 진행하세요.

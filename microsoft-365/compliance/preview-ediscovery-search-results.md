@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 콘텐츠 검색 또는 Microsoft 365 규정 준수 센터의 Core eDiscovery 검색에서 반환한 결과 샘플 미리 보기.
-ms.openlocfilehash: fa9d69672f86cb58ef362b4b3fbaec5ba00bd50ac48778a96a0358910a35f311
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ac9929ee8639c4d653f8e9dfe680a5df5c6c3a7d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891746"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570800"
 ---
 # <a name="preview-ediscovery-search-results"></a>eDiscovery 검색 결과 미리 보기
 
@@ -45,7 +45,7 @@ Core eDiscovery 케이스와 관련된 콘텐츠 검색 또는 검색을 실행�
 
 4. 항목을 선택해서 읽기 창을 열고 콘텐츠를 검토합니다.
 
-   ![읽기 창에서 항목 미리 보기](../media/PreviewSearchResults2.png)
+   ![읽기 창에서 항목 미리 보기.](../media/PreviewSearchResults2.png)
 
    이전 스크린샷에서는 항목을 미리 볼 때 검색 쿼리의 키워드가 강조 표시됩니다.
 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: eDiscovery 및 검색 도구를 사용하여 조직의 데이터 유출 인시던트 관리 및 대응
-ms.openlocfilehash: 96cb6362149fe056249e7ffe2d6858785335a00c
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 340bf10dc57737c024d1ffcb3a441ba53bc917d6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508193"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570272"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오 - 검색 및 제거
 
@@ -37,7 +37,7 @@ Contoso의 책임자 정보 보안 책임자입니다. 직원이 전자 메일�
 
 다음은 데이터 유출 사고를 관리하는 방법입니다.
 
-![데이터 유출 사고를 관리하기 위한 8단계 워크플로](../media/O365-eDiscoverySolutions-DataSpillage-workflow.png)
+![데이터 유출 인시던트 관리를 위한 8단계 워크플로입니다.](../media/O365-eDiscoverySolutions-DataSpillage-workflow.png)
   
 [(선택 사항) 1단계: 사례에 액세스할 수 있는 사용자 관리 및 규정 준수 경계 설정](#optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries)<br/>
 [2단계: eDiscovery 사례 만들기](#step-2-create-an-ediscovery-case)<br/>
@@ -109,7 +109,7 @@ eDiscovery 사례와 연결된 콘텐츠 검색을 만들 내용은 [Core eDisco
 
 5. 내보내기 작업을 클릭한  다음 플라이아웃 페이지에서 보고서 다운로드를 클릭합니다.
  
-    ![내보내기 페이지에서 내보내기 를 클릭한 다음 "보고서 다운로드"를 클릭합니다.](../media/O365-eDiscoverySolutions-DataSpillage-ExportReport2.png)
+    ![내보내기 페이지에서 내보내기, "보고서 다운로드"를 클릭합니다.](../media/O365-eDiscoverySolutions-DataSpillage-ExportReport2.png)
 
 요약 **내보내기 보고서에는** 결과가 포함된 위치 수와 검색 결과의 크기가 포함되어 있습니다. 이 기능을 사용하여 해당 보고서를 지우고 생성된 보고서와 비교하고, 이를 지우기 증명으로 제공할 수 있습니다. 결과 **보고서에는** 각 메시지의 제목, 보낸 사람, 받는 사람, 전자 메일을 읽은 경우, 날짜 및 크기를 포함하여 검색 결과에 대한 자세한 요약이 포함되어 있습니다. 이 보고서의 세부 정보 중 하나에 실제 유출된 데이터가 포함되어 있는 경우 조사가 완료되면 Results.csv 파일을 영구적으로 삭제해야 합니다.
 
@@ -143,7 +143,7 @@ eDiscovery 사례와 연결된 콘텐츠 검색을 만들 내용은 [Core eDisco
     
 4. 유형 **드롭다운** 목록에서 위쪽 **위치를 클릭합니다.**
     
-    ![검색 통계의 최상위 위치 페이지에서 검색 결과가 포함된 사서함 목록 표시](../media/O365-eDiscoverySolutions-DataSpillage-TopLocations.png)
+    ![검색 통계의 최상위 위치 페이지에서 검색 결과가 포함된 사서함 목록을 얻습니다.](../media/O365-eDiscoverySolutions-DataSpillage-TopLocations.png)
 
     검색 결과가 포함된 사서함 목록이 표시됩니다. 검색 쿼리와 일치하는 각 사서함의 항목 수도 표시됩니다.
     

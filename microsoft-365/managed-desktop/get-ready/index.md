@@ -9,18 +9,18 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 8e65dd554a07158d3df3b11323e158c1ea8afd20
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.openlocfilehash: 4af99d0fa87d8d11d3dfcc21d37e332e890c8f7f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58364576"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575051"
 ---
 # <a name="get-ready-for-enrollment-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 등록 준비
 
 이 항목에서는 환경이 주요 필수 구성 요소를 충족하는지 확인하고, 네트워크를 구성하고, 인증서를 설정하고, 서비스에 포함할 앱을 준비하는 등 조직에서 등록을 준비하기 위해 수행해야 하는 단계에 대해 설명합니다. 준비 평가 도구를 실행한 후 다른 단계를 순서대로 완료하거나 동시에 완료할 수 있습니다. 환경에 따라 일부 단계는 사용자와 관련이 없을 수 있습니다.
 
-![이 문서에 나열된 등록 준비 단계의 제안 순서](../../media/mmd-getready-sequence.png)
+![이 문서에 나열된 등록 준비 단계의 제안 순서.](../../media/mmd-getready-sequence.png)
 
 1. [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)를 감토하세요.
 2. [준비 상태 평가 도구](readiness-assessment-tool.md)를 실행하세요.

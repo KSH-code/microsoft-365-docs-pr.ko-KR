@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Normal
 description: 게시된 모델을 문서 라이브러리에 적용하는 SharePoint 방법을 학습합니다.
-ms.openlocfilehash: 9eed1fe6c209a4d89ea3c4114856c994fa283e340880332ecaa84a9a33bdb8ab
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d277b959fc05318380363e1eaba14343c84af126
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53841524"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575147"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 
@@ -40,31 +40,31 @@ SharePoint 문서 라이브러리에 모델 적용하기:
 
 1. 모델 홈페이지의 **라이브러리에 모델 적용** 타일에서 **모델 게시** 를 선택합니다. 또는 **이 모델 라이브러리** 섹션에서 **+라이브러리 추가** 를 선택할 수 있습니다. </br>
 
-    ![라이브러리에 모델 추가](../media/content-understanding/apply-to-library.png)</br>
+    ![라이브러리에 모델을 추가합니다.](../media/content-understanding/apply-to-library.png)</br>
 
 2. 그런 다음, 모델을 적용하려는 문서 라이브러리가 포함된 SharePoint 사이트를 선택할 수 있습니다. 사이트가 목록에 표시되지 않는 경우, 검색 상자를 사용하여 찾습니다.</br>
 
-    ![사이트 선택](../media/content-understanding/site-search.png)</br>
+    ![사이트를 선택합니다.](../media/content-understanding/site-search.png)</br>
 
     > [!NOTE]
     > 모델을 적용할 문서 라이브러리에 대한 *목록 관리* 권한 또는 *편집* 권한이 있어야 합니다.</br>
 
 3. 사이트를 선택한 후, 모델을 적용할 문서 라이브러리를 선택합니다. 샘플에서 *Contoso 사례 추적* 사이트의 *Documents* 문서 라이브러리를 선택합니다.</br>
 
-    ![문서 라이브러리 선택](../media/content-understanding/select-doc-library.png)</br>
+    ![문서 라이브러리를 선택합니다.](../media/content-understanding/select-doc-library.png)</br>
 
 4. 모델이 콘텐츠 유형에 연결되어 있으므로 라이브러리에 적용하면 추출한 레이블이 열로 표시되는 컨텐츠 유형 및 보기가 추가됩니다. 이 보기는 기본적으로 라이브러리의 기본 보기이지만, **고급 설정** 을 선택하고 **이 새 보기를 기본값으로 설정** 을 선택 취소하여 선택적으로 기본 보기가되지 않도록 선택할 수 있습니다.</br>
 
-    ![라이브러리 보기](../media/content-understanding/library-view.png)</br>
+    ![라이브러리 보기.](../media/content-understanding/library-view.png)</br>
 
 5. 라이브러리에 모델을 적용하려면 **추가** 를 선택합니다. 
 6. 모델 홈페이지의 **모델이있는 라이브러리** 섹션에서 나열된 SharePoint 사이트의 URL이 표시되어야 합니다.</br>
 
-    ![선택된 라이브러리](../media/content-understanding/selected-library.png)</br>
+    ![선택한 라이브러리.](../media/content-understanding/selected-library.png)</br>
 
 7. 문서 라이브러리로 이동하여 모델의 문서 라이브러리 보기에 있는지 확인합니다. 문서 라이브러리 이름 옆에 있는 정보 단추를 선택하면 문서 라이브러리에 모델이 적용되었다는 메시지가 표시됩니다.
 
-    ![정보 보기](../media/content-understanding/info-du.png)</br> 
+    ![정보 보기.](../media/content-understanding/info-du.png)</br> 
 
     **활성 모델 보기** 선택하여 문서 라이브러리에 적용된 모델에 대한 세부 정보를 볼 수 있습니다.
 
@@ -84,7 +84,7 @@ SharePoint 문서 라이브러리에 모델 적용하기:
 2. 파일을 선택한 후 **분류 및 추출** 이 문서 라이브러리 리본에 나타납니다. **분류 및 추출** 을 선택합니다.
 3. 선택한 파일이 처리할 큐에 추가됩니다.
 
-      ![분류 및 추출](../media/content-understanding/extract-classify.png)</br> 
+      ![분류 및 추출.](../media/content-understanding/extract-classify.png)</br> 
 
 > [!NOTE]
 > 개별 파일을 라이브러리에 복사하여 모델에 적용할 수 있지만 폴더는 적용할 수 없습니다.
@@ -97,7 +97,7 @@ SharePoint Syntex 문서의 이해 또는 양식 처리 모델을 문서 라이�
 
 분류 날짜 필드는 Syntex 콘텐츠 이해 모델이 파일 처리를 완료하고 "분류 날짜" 필드를 업데이트한 후 Power Automate 흐름을 실행하기 위해 [<b>콘텐츠 이해 모델에 의해 파일이 분류되는 경우</b> 트리거](/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model)에서 사용됩니다.
 
-   ![흐름 트리거](../media/content-understanding/trigger.png)</br>
+   ![Flow 트리거합니다.](../media/content-understanding/trigger.png)</br>
 
 <b>콘텐츠 이해 모델에 의해 파일이 분류되는 경우</b> 트리거를 사용하여 파일에서 추출한 정보로 다른 워크플로를 시작할 수 있습니다.
 

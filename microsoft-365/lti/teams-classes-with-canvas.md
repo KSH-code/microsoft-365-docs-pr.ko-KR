@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Canvas Microsoft Teams 클래스 통합
-ms.openlocfilehash: 09c0033f6deca5d941dee5003391b1a0b171a0ee
-ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
+ms.openlocfilehash: 44ba24e5c8bd7107f9cba199ce290c10b31e0806
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58387023"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575075"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Canvas에서 Microsoft Teams 클래스 사용
 
@@ -44,7 +44,7 @@ Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canva
 
 4. 토글을 Microsoft Teams 동기화를 사용하도록 설정
    
-   ![Canvas Teams 동기화 업데이트 png](https://user-images.githubusercontent.com/87142492/128225881-abdfc52d-dc9e-48ad-aec5-f6617c6436f3.png)
+   ![Canvas Teams 동기화 업데이트된 png입니다.](https://user-images.githubusercontent.com/87142492/128225881-abdfc52d-dc9e-48ad-aec5-f6617c6436f3.png)
 
 5. Microsoft 테넌트 이름, 로그인 특성, 도메인 접미사 및 AAD 검색 특성을 입력합니다.
 
@@ -57,7 +57,7 @@ Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canva
 
 7. Canvas의 **Microsoft-Teams-Sync-for-Canvas** Azure 앱에 대한 액세스를 승인하려면 테넌트 액세스 권한 부여 **링크를** 선택합니다. Microsoft Identity Platform 관리자 동의 끝점으로 리디렉션됩니다.
 
-   ![사용 권한](media/permissions.png)
+   ![사용 권한.](media/permissions.png)
 
 8. **수락** 을 선택합니다.
 
@@ -73,11 +73,11 @@ Canvas 관리자는 사용자 환경 내에 Microsoft Teams 클래스 LTI 앱을
 
 2. **+ 앱을 선택하여** LTI Teams 추가합니다.
 
-   ![external-apps](media/external-apps.png)
+   ![external-apps.](media/external-apps.png)
 
 3. 구성 **유형으로 클라이언트 ID를** 선택합니다.
 
-   ![앱 추가](media/add-app.png)
+   ![앱을 추가합니다.](media/add-app.png)
 
 4. 제공된 클라이언트 ID를 입력한 다음 제출을 **선택합니다.**
 

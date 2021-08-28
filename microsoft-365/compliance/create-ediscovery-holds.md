@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조사 또는 법률 사례와 관련된 콘텐츠를 보존하기 위해 핵심 eDiscovery 사례와 Microsoft 365 보류를 만들 수 있습니다.
-ms.openlocfilehash: cefe45b02be4f8449753270142a92983ef547898
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 69689bc2f23b2be16ded9a6546c66a7d9ee18caf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502884"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574379"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -54,7 +54,7 @@ Core eDiscovery 사례와 연결된 eDiscovery 보류를 만들 수 있는 경�
 
 7. 위치 **선택 마법사** 페이지에서 보류할 콘텐츠 위치를 선택합니다. 사서함, 사이트, 공용 폴더를 보류 상태로 지정할 수 있습니다.
 
-    ![보류 시킬 콘텐츠 위치 선택](../media/eDiscoveryHoldLocations.png)
+    ![보류할 콘텐츠 위치를 선택하세요.](../media/eDiscoveryHoldLocations.png)
   
    1. **Exchange 사서함**: 토글을 **켜기** 로 설정한 다음 **사용자, 그룹 또는 팀 선택** 을 클릭하여 보류할 사서함을 지정합니다. 검색 상자를 사용하여 보류 상태로 지정할 사용자 사서함 및 메일 그룹(그룹 구성원의 사서함을 보류)을 찾습니다. Microsoft 팀, 그룹 및 그룹 그룹에 대한 연결된 Office 365 보류할 Yammer 있습니다. 사서함을 보류할 때 보존되는 응용 프로그램 데이터에 대한 자세한 내용은 [eDiscovery의](what-is-stored-in-exo-mailbox.md)사서함에 저장된 콘텐츠를 참조하세요.
 
@@ -69,7 +69,7 @@ Core eDiscovery 사례와 연결된 eDiscovery 보류를 만들 수 있는 경�
 
 9. 키워드 또는 조건을 사용하여 쿼리 기반 보류를 만들 경우 다음 단계를 완료합니다. 지정된 콘텐츠 위치에 있는 모든 콘텐츠를 보존하려면 다음 을 **클릭합니다.**
 
-    ![키워드 및 조건을 사용하여 쿼리 기반 보류 만들기](../media/eDiscoveryHoldQuery.png)
+    ![키워드 및 조건을 사용하여 쿼리 기반 보류를 만들 수 있습니다.](../media/eDiscoveryHoldQuery.png)
   
     1. 키워드 아래에 **있는 상자에** 쿼리 조건과 일치하는 콘텐츠만 보존하는 쿼리를 입력합니다. 키워드, 전자 메일 메시지 속성 또는 사이트 속성(예: 파일 이름)을 지정할 수 있습니다. **AND**, **OR** 또는 NOT과 같은 부울 연산자를 사용하는 좀 더 복잡한 쿼리를 사용할 수도 **있습니다.**
 
@@ -93,7 +93,7 @@ Core eDiscovery 사례와 연결된 eDiscovery 보류를 만들 수 있는 경�
 
 eDiscovery 보류를 만든 후 선택한 보류에 대한 플라이아웃 페이지에 새 보류에 대한 정보가 표시됩니다. 이 정보에는 보류된 총 항목 수와 크기, 마지막으로 보류 통계를 계산한 시간 등 보류된 콘텐츠에 대한 통계 및 보류된 사서함 및 사이트 수가 포함됩니다. 이러한 보류 통계는 사례와 관련된 콘텐츠의 양을 식별하는 데 도움이 됩니다.
   
-![보류 통계](../media/eDiscoveryHoldStatistics.png)
+![보류 통계.](../media/eDiscoveryHoldStatistics.png)
   
 eDiscovery 보류 통계에 대해 다음에 유의하십시오.
   

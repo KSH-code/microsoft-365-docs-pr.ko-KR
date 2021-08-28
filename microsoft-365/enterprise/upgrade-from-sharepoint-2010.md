@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: SharePoint Server 2010에서 업그레이드할 정보 SharePoint 리소스를 찾아야 합니다. 두 가지 모두 지원은 2021년 4월 13일까지입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f0919bd80b68167ccfae38a461c79b704e2b803
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 8c57aa4d15ba6fbb95a59f28039db41303a536fd
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394519"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575243"
 ---
 # <a name="upgrading-from-sharepoint-2010"></a>SharePoint 2010에서 업그레이드
 
@@ -68,7 +68,7 @@ SharePoint Server 2010 지원이 종료되면 제품을 업그레이드하고 �
 
 다음은 SharePoint 서버 2010에 대한 지원이 종료되지 않도록 할 수 있는 세 가지 경로입니다.
 
-![SharePoint Server 2010 업그레이드 경로](../media/upgrade-from-sharepoint-2010/upgrade-from-sharepoint-2010-paths.png)
+![SharePoint Server 2010 업그레이드 경로입니다.](../media/upgrade-from-sharepoint-2010/upgrade-from-sharepoint-2010-paths.png)
 
 > [!NOTE]
 > SharePoint Server 2010 및 SharePoint Foundation 2010에 대한 지원 종료는 2021년 4월 13일로 예정되어 있습니다. 그러나 제품 수명 [주기](https://support.microsoft.com/lifecycle) 사이트에서 최신 날짜를 확인해야 합니다.
@@ -259,7 +259,7 @@ SharePoint 2007에서 SharePoint Server 2016으로의 전체 경로를 사용하
 
 Office 2010 클라이언트 및 서버와 Windows 7에 대한 업그레이드, 마이그레이션 및 클라우드 옵션으로 이동에 대한 시각적 요약은 [지원 종료 포스터](../downloads/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
 
-[![Office 2010 클라이언트 및 서버 및 Windows 포스터 지원 종료](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![2010 클라이언트 및 Office 지원 종료 및 Windows 7 포스터.](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
 이 포스터는 Office 2010 클라이언트 및 서버 제품 및 Windows 7개 지원 종료를 방지하기 위해 취할 수 있는 다양한 경로를 보여 주며 기본 설정 경로 및 옵션 지원은 강조 표시되어 Microsoft 365 Enterprise 있습니다.
 

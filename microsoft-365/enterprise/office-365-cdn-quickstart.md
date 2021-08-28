@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - SPO160
 description: Office 365 Content Delivery Network(CDN) 빠른 시작
-ms.openlocfilehash: b005c670bce80d84e7d1762eb2d8b2fc57bc7b55d0f5da9e7de13ec144742169
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 30c5d301af6e4ca20646c46cc63cde38f2b28aed
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870305"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570536"
 ---
 # <a name="office-365-content-delivery-network-cdn-quickstart"></a>Office 365 Content Delivery Network(CDN) 빠른 시작
 
@@ -43,7 +43,7 @@ SharePoint  페이지 진단 도구는 새로운 Microsoft Edge(및 SharePoint O
 
 SharePoint Online 페이지에서 SharePoint 진단 도구를 실행하면 진단 테스트 탭을 클릭하여 웹  페이지에서 호스팅되지 않는 자산 목록을 볼 CDN. 이러한 자산은 아래 스크린샷에 표시된 Content Delivery Network **(CDN) 확인** 제목 아래에 나열됩니다.
 
-![페이지 진단](../media/page-diagnostics-for-spo/pagediag-results-general.PNG)
+![페이지 진단.](../media/page-diagnostics-for-spo/pagediag-results-general.PNG)
 
 >[!NOTE]
 >페이지 진단 도구는 SharePoint Online에서만 사용할 수 있으며 SharePoint 시스템 페이지에서는 사용할 수 없습니다.
@@ -78,7 +78,7 @@ Set-SPOTenantCdnEnabled -CdnType Both -Enable $true
 
 이러한 cmdlet의 출력은 다음과 같습니다.
 
-![출력 Set-SPOTenantCdnEnabled](../media/O365-CDN/o365-cdn-enable-output.png)
+![Set-SPOTenantCdnEnabled의 출력입니다.](../media/O365-CDN/o365-cdn-enable-output.png)
 
 ## <a name="see-also"></a>참고 항목
 

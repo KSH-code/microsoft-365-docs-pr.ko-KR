@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 recommendations: false
 description: 그룹 Microsoft 365 정책에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 831253a64ad30cf37370ec9e93e3f1d8172befc94705758e77367c3697c41686
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4617124801ed0400481bd81a453c6520a0c8d73a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816661"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574487"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 만료 정책
 
@@ -66,7 +66,7 @@ Microsoft 365 그룹 및 Microsoft Teams 사용이 증가하면 관리자와 사
 
 모든 그룹에 대한 정책을 설정하고 선택한 그룹(최대 500개)만 설정하거나 없음을 선택하여 완전히 해제할 **수 있습니다.** 현재 다른 그룹에 대해 다른 정책을 사용할 수 없습니다.
 
-![Screenshot of Groups expiration settings in Azure Active Directory](../media/azure-groups-expiration-settings.png)
+![Screenshot of Groups expiration settings in Azure Active Directory.](../media/azure-groups-expiration-settings.png)
 
 ## <a name="how-expiry-works-with-the-retention-policy"></a>보존 정책에 만료가 작동하는 방식
 

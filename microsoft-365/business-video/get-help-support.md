@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium에서 관리자 도움말 또는 온라인 또는 전화 지원을 받으려면 비즈니스 구독의 관리자여야 합니다.
-ms.openlocfilehash: 56aae6fc6ad966aeefb7d1fede4b86e1300babd393f51f5c28839f3220d985e3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f38e07cb7db25cbc6d6fa3e813d8f7c5863e4055
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53882540"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570656"
 ---
 # <a name="get-support"></a>지원 받기
 
@@ -220,7 +220,7 @@ Office 365 계획 전체의 기능 가용성을 보려면 [Office 365 서비스 
 
 이 QR 코드를 스캔하여 WeChat에서 팔로우하면 21Vianet에서 운영하는 Office 365에 대한 최신 업데이트를 받을 수 있습니다.
 
-![21Vianet에서 운영하는 Office 365용 업데이트 QR 코드](../media/4d8fe09c-1a11-4cd8-be4c-75add8dccddd.jpg)
+![21Vianet에서 운영하는 Office 365용 업데이트 QR 코드.](../media/4d8fe09c-1a11-4cd8-be4c-75add8dccddd.jpg)
 
 ::: moniker-end
 

@@ -15,12 +15,12 @@ ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
 description: 조직에서 응용 SharePoint Syntex 시나리오를 찾아 봤습니다.
-ms.openlocfilehash: 0be3424acd6d3d1b547feedb6854beced4a2453f88530271c1376a8fd07ea09d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 619acd5d71bc6f3ab1aa99d3b7fd068faa51d696
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819694"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575279"
 ---
 # <a name="scenarios-and-use-cases-for-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에 대한 시나리오 및 사용 사례
 
@@ -46,7 +46,7 @@ ms.locfileid: "53819694"
     - 송장 기한이 지난 경우
     - 송장은 자동 승인 금액보다 큰 금액에 대한 것입니다.
 
-![송장 추적 및 모니터링 및 SharePoint Syntex Power Automate](../media/content-understanding/process-invoices-flow.png)
+![송장을 추적하고 SharePoint Syntex 및 Power Automate.](../media/content-understanding/process-invoices-flow.png)
 
 이 시나리오를 자동화할 때 다음을 할 수 있습니다.
 
@@ -63,7 +63,7 @@ ms.locfileid: "53819694"
 1. 모델이 완료되면 계약을 업로드할 수 있는 라이브러리에 모델을 적용합니다.
 1. 날짜 필드에 보존 레이블을 적용하여 계약이 필요한 기간 동안 라이브러리에 보존됩니다.
 
-![보존 레이블과의 SharePoint Syntex 추적 및 모니터링](../media/content-understanding/process-contracts-flow.png)
+![레이블 및 보존 레이블과 SharePoint Syntex 추적하고 모니터링합니다.](../media/content-understanding/process-contracts-flow.png)
 
 이 시나리오를 자동화할 때 다음을 할 수 있습니다.
 

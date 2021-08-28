@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
 description: 여러 인터넷 연결 서비스로의 대체 라우팅 경로를 제공하는 Office 365 ExpressRoute를 구현하는 Office 365 알아보습니다.
-ms.openlocfilehash: f0f429d2fce1c83109e19191f1f3c60190046176c1ce03a31c159aa3591e21b4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 66ff6157c8f2fb28b1a57af42295a6ba0ed93dad
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575339"
 ---
 # <a name="implementing-expressroute-for-office-365"></a>Office 365용 ExpressRoute 구현
 
@@ -159,7 +159,7 @@ Office 365 ExpressRoute는 여러 인터넷 연결 서비스에 대한 대체 �
 
 아래 다이어그램은 인바운드 및 아웃바운드 라우팅 광고와 함께 Office 365 사용할 각 위치를 보여 Office 365.
   
-![ExpressRoute 지역 지역 meet-me](../media/d866b36b-49bf-416b-af1b-d054e24989d2.png)
+![ExpressRoute 지역 지역 meet-me.](../media/d866b36b-49bf-416b-af1b-d054e24989d2.png)
   
 아웃바운드 트래픽의 경우 다음 Office 365 방법 중 하나를 통해 액세스합니다.
   
@@ -179,7 +179,7 @@ Office 365 ExpressRoute는 여러 인터넷 연결 서비스에 대한 대체 �
 
 3. 더 적은 수의 사람이 있는 방글라데시의 인터넷을 통해 ExpressRoute 회로가 프로비전된 것이 없습니다.
 
-![지역 다이어그램에 대한 인바운드 연결](../media/d6d6160d-bf28-4de3-a787-186c7432b306.png)
+![지역별 다이어그램에 대한 인바운드 연결입니다.](../media/d6d6160d-bf28-4de3-a787-186c7432b306.png)
   
 ### <a name="determine-the-appropriate-meet-me-location"></a>적절한 meet-me 위치 결정
 
@@ -205,7 +205,7 @@ Office 365 지역, ExpressRoute 네트워크 서비스 공급자 meet-me 위치 
 
 2. 호스트되는 Microsoft 데이터 센터와 Office 365 가장 가깝습니다.
 
-![ExpressRoute 미국 지리적 meet-me](../media/5ec38274-b317-4ec1-91c8-90c2a7fd32ca.png)
+![ExpressRoute 미국 지리적 meet-me.](../media/5ec38274-b317-4ec1-91c8-90c2a7fd32ca.png)
   
 이 개념을 약간 더 확장하면 두 번째 다이어그램은 유사한 정보 및 의사 결정으로 직면한 다국적 고객의 예를 보여 주며, 이 고객은 방글라데시에 소규모 사무실이 있습니다. 이 지역에는 10명으로 규모를 늘려야 하는 소규모 팀만 있습니다. Chennai에는 meet-me 위치가 있으며, Chennai에 Office 365 Microsoft 데이터 센터가 있으므로 미트나이(meet-me) 위치가 좋습니다. 그러나 10명에게는 추가 회로 비용을 부담해야 합니다. 네트워크를 살펴보면 네트워크를 통해 네트워크 트래픽을 보내는 데 관련된 대기 시간이 다른 ExpressRoute 회로를 취득하는 데 자본을 소비하는 것보다 더 효과적인지 여부를 결정해야 합니다.
   
@@ -329,7 +329,7 @@ ExpressRoute 연결을 통해 일부 인바운드 흐름을 지시할 수 있는
 
 2. 새 저지 데이터 센터의 서버는 인터넷 및 ExpressRoute 경로를 모두 볼 수 있습니다.
 
-![ExpressRoute 연결 개요](../media/8f074af6-ef38-44e8-bc5a-8b4d981fbb20.png)
+![ExpressRoute 연결 개요.](../media/8f074af6-ef38-44e8-bc5a-8b4d981fbb20.png)
   
 또한 수정 방법에 대한 제안도 있습니다.
   
@@ -345,7 +345,7 @@ ExpressRoute 연결을 통해 일부 인바운드 흐름을 지시할 수 있는
 
   - 그 결과 해당 흐름에 대한 비대칭 경로가 Office 365 연결이 끊어집니다.
 
-![ExpressRoute 비대칭 라우팅 문제 1](../media/9c210c2a-e0ea-4180-8ede-1bf41746ce7a.png)
+![ExpressRoute 비대칭 라우팅 문제 1.](../media/9c210c2a-e0ea-4180-8ede-1bf41746ce7a.png)
   
 ##### <a name="solution-1a-source-nat"></a>해결 방법 1a: 원본 NAT
   
@@ -355,7 +355,7 @@ ExpressRoute 연결을 통해 일부 인바운드 흐름을 지시할 수 있는
 
 2. 서버의 응답은 원래 IP 주소 대신 원본 NAT와 연결된 IP로 다시 라우팅되어 응답이 동일한 네트워크 경로를 따라 반환됩니다.
 
-![ExpressRoute 비대칭 라우팅 솔루션 1](../media/0e87a155-f8de-48ed-92ac-27367b727a82.png)
+![ExpressRoute 비대칭 라우팅 솔루션 1.](../media/0e87a155-f8de-48ed-92ac-27367b727a82.png)
   
 ##### <a name="solution-1b-route-scoping"></a>솔루션 1b: 경로 스코핑
   
@@ -365,7 +365,7 @@ ExpressRoute 연결을 통해 일부 인바운드 흐름을 지시할 수 있는
 
 2. 서버의 응답은 사용 가능한 유일한 경로를 통해 원래 IP 주소와 연결된 IP로 다시 라우팅되어 응답이 동일한 네트워크 경로를 따라 반환됩니다.
 
-![ExpressRoute 비대칭 라우팅 솔루션 2](../media/9cb4b2bf-7aa6-487a-bc02-e02af8a979f6.png)
+![ExpressRoute 비대칭 라우팅 솔루션 2.](../media/9cb4b2bf-7aa6-487a-bc02-e02af8a979f6.png)
   
 #### <a name="problem-2-cloud-to-on-premises-connection-over-expressroute"></a>문제 2: ExpressRoute를 통해 클라우드에서 사내로의 연결
   
@@ -379,7 +379,7 @@ ExpressRoute 연결을 통해 일부 인바운드 흐름을 지시할 수 있는
 
   - 결과로 해당 연결에 대한 비대칭 연결이 Office 365.
 
-![ExpressRoute 비대칭 라우팅 문제 2](../media/f6fd155b-bbb7-472a-846e-039a99f09913.png)
+![ExpressRoute 비대칭 라우팅 문제 2.](../media/f6fd155b-bbb7-472a-846e-039a99f09913.png)
   
 ##### <a name="solution-2-source-nat"></a>해결 방법 2: 원본 NAT
   
@@ -389,7 +389,7 @@ ExpressRoute 연결을 통해 일부 인바운드 흐름을 지시할 수 있는
 
 2. 서버의 응답은 원래 IP 주소 대신 원본 NAT와 연결된 IP로 다시 라우팅되어 응답이 동일한 네트워크 경로를 따라 반환됩니다.
 
-![ExpressRoute 비대칭 라우팅 솔루션 3](../media/a5d2b90d-a3ec-4047-afbf-6e6e99f376a7.png)
+![ExpressRoute 비대칭 라우팅 솔루션 3.](../media/a5d2b90d-a3ec-4047-afbf-6e6e99f376a7.png)
   
 ### <a name="paper-verify-that-the-network-design-has-path-symmetry"></a>네트워크 디자인에 경로 대칭이 있는지 확인 백서
 
@@ -402,7 +402,7 @@ ExpressRoute 연결을 통해 일부 인바운드 흐름을 지시할 수 있는
 ### <a name="design-client-connectivity-configuration"></a>클라이언트 연결 구성 디자인
 <a name="asymmetric"> </a>
 
-![ExpressRoute에서 PAC 파일 사용](../media/7cfa6482-dbae-416a-ae6f-a45e5f4de23b.png)
+![ExpressRoute와 함께 PAC 파일 사용](../media/7cfa6482-dbae-416a-ae6f-a45e5f4de23b.png)
   
 인터넷 바인딩 트래픽에 프록시 서버를 사용하는 경우 네트워크의 클라이언트 컴퓨터가 프록시 서버를 전송하지 않고 원하는 ExpressRoute 트래픽을 Office 365 올바르게 구성하고 일부 Office 365 트래픽을 비롯한 나머지 트래픽이 관련 프록시로 전송되도록 PAC 또는 클라이언트 구성 파일을 조정해야 합니다. PAC [파일과](./managing-office-365-endpoints.md) 같은 Office 365 관리에 대한 가이드를 읽어보세요.
   
@@ -573,7 +573,7 @@ ExpressRoute 연결을 사용하여 Office 365 배포하는 동안 ExpressRoute�
   
 다음의 간단한 링크를 사용할 수 있습니다. [https://aka.ms/implementexpressroute365]()
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
   

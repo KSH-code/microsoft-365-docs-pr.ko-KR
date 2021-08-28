@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 미국 정부 클라우드의 관리자는 데이터 커넥터를 설정하여 조직의 HR(인사) 시스템에서 직원 데이터를 데이터 원본으로 가져올 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책의 HR 데이터를 사용하여 조직에 내부 위협을 줄 수 있는 특정 사용자의 활동을 검색할 수 있습니다.
-ms.openlocfilehash: 3c471fed07fc1f9cb5c86a027884f2973bf05ac5db53522f4e21a8eded5e7c7a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a8edc80d9663165608a23d3d3e03fbd6c57933f8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574210"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government"></a>미국 정부에서 HR 데이터를 가져오는 커넥터 설정
 
@@ -93,7 +93,7 @@ CSV 파일의 첫 번째 행(머리줄 행)에는 필요한 열 이름이 나열
 
    커넥터가 만들어졌다는 확인 상태 페이지가 표시됩니다. 이 페이지에는 HR 데이터를 업로드하기 위해 샘플 스크립트를 실행하기 위해 다음 단계를 완료해야 하는 두 가지 중요한 것이 포함되어 있습니다.
 
-   ![작업 ID가 있는 페이지 검토 및 샘플 스크립트에 대한 github 링크](../media/HRConnector_Confirmation.png)
+   ![작업 ID가 있는 페이지를 검토하고 샘플 스크립트를 위해 github에 연결합니다.](../media/HRConnector_Confirmation.png)
 
    1. **작업 ID입니다.** 다음 단계에서 스크립트를 실행하려면 이 작업 ID가 필요합니다. 이 페이지 또는 커넥터 플라이아웃 페이지에서 복사할 수 있습니다.
    
@@ -105,7 +105,7 @@ CSV 파일의 첫 번째 행(머리줄 행)에는 필요한 열 이름이 나열
 
 8. 방금 만든 HR 커넥터를 클릭하여 커넥터에 대한 속성 및 기타 정보가 포함된 플라이아웃 페이지를 표시합니다.
 
-   ![새 HR 커넥터에 대한 플라이아웃 페이지](../media/HRConnectorWizard7.png)
+   ![새 HR 커넥터에 대한 플라이아웃 페이지입니다.](../media/HRConnectorWizard7.png)
 
    아직 복사하지 않은 경우 Azure 앱 ID 및 **커넥터** 작업 ID 값을 **복사할 수 있습니다.** 다음 단계에서 스크립트를 실행하려면 이러한 단계가 필요합니다. 플라이아웃 페이지에서 스크립트를 다운로드하거나 다음 단계의 링크를 사용하여 다운로드할 수도 있습니다.
 
@@ -163,11 +163,11 @@ HR 커넥터를 만들고 스크립트를 실행하여 HR 데이터를 업로드
 
 2. 커넥터 **탭을** 클릭한 다음 HR 커넥터를 선택하여 플라이아웃 페이지를 표시합니다. 이 페이지에는 커넥터에 대한 속성과 정보가 포함되어 있습니다.
 
-   ![속성 및 상태가 있는 HR 커넥터 플라이아웃 페이지](../media/HRConnectorFlyout1.png)
+   ![속성 및 상태가 있는 HR 커넥터 플라이아웃 페이지입니다.](../media/HRConnectorFlyout1.png)
 
 3. 진행 **중에서**  로그 다운로드 링크를 클릭하여 커넥터의 상태 로그를 열거나 저장합니다. 이 로그에는 스크립트를 실행하고 CSV 파일의 데이터를 Microsoft 클라우드에 업로드할 때마다 대한 정보가 포함되어 있습니다. 
 
-   ![HR 커넥터 로그 파일에 업로드된 CSV 파일의 숫자 행이 표시됩니다.](../media/HRConnectorLogFile.png)
+   ![HR 커넥터 로그 파일에는 업로드된 CSV 파일의 숫자 행이 표시됩니다.](../media/HRConnectorLogFile.png)
 
    필드는 업로드한 CSV 파일의 행 `RecordsSaved` 수를 나타냅니다. 예를 들어 CSV 파일에 4개의 행이 포함되어 있는 경우 스크립트가 CSV 파일의 모든 행을 업로드한 경우 필드 값은 `RecordsSaved` 4입니다.
 

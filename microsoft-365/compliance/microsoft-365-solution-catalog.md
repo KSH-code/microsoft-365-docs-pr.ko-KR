@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: 포함된 Microsoft 365, 솔루션 카탈로그를 다운로드하는 방법 및 다음 단계를 포함하여 솔루션 카탈로그에 대해 알아보세요.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 7ca34e9bb091d98af999b0c7e019421bbd2b023961c2b9c348c38fdd65dd6e51
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7b7c7f299201a25518b187eed1bd78e7f67d678b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807821"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574955"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -30,17 +30,17 @@ ms.locfileid: "53807821"
 
 솔루션 카탈로그는 사용자 구독에서 사용할 수 있는 각 준수 솔루션에 대한 정보 카드가 포함된 Microsoft 365 구성됩니다. 각 섹션에는 준수 영역별로 그룹화된 솔루션용 카드가 포함되어 있습니다.
 
-![Microsoft 365 카탈로그 홈 페이지](../media/m365-solution-catalog-home.png)
+![Microsoft 365 카탈로그 홈 페이지를 참조하세요.](../media/m365-solution-catalog-home.png)
 
 솔루션 **카드에** 대한 보기를 선택하면 규정 준수 솔루션 및 시작 방법에 대한 자세한 정보가 표시됩니다. 이 정보에는 개요, 사전 구성 요구 사항, 학습 리소스, 카드를 탐색 창에 고정할 수 있는 컨트롤 및 솔루션을 링크, 전자 메일 또는 메시지로 공유하는 Microsoft Teams 포함됩니다.
 
-![Microsoft 365 커뮤니케이션 규정 준수 솔루션](../media/m365-solution-catalog-communication-compliance.png)
+![Microsoft 365 준수 솔루션입니다.](../media/m365-solution-catalog-communication-compliance.png)
 
 ## <a name="information-protection--governance-section"></a>정보 보호 & 관리 섹션
 
 정보 **보호 &** 섹션에서는 조직의 데이터를 보호하고 관리하기 위해 Microsoft 365 솔루션을 사용하는 방법을 한 눈에 볼 수 있습니다.
 
-![Microsoft 365 카탈로그 정보 보호 및 거버넌스 섹션](../media/m365-solution-catalog-information-protection-governance.png)
+![Microsoft 365 카탈로그 정보 보호 및 거버넌스 섹션을 참조하세요.](../media/m365-solution-catalog-information-protection-governance.png)
 
 여기에서 다음 솔루션에 대한 카드를 볼 수 있습니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "53807821"
 
 홈페이지의 **내부자** 위험 관리 섹션에서는 조직에서 내부 위험을 식별, 분석 및 조치를 취한 후 손상을 일으킬 수 있는 방법을 한 눈에 확인할 수 있습니다.
 
-![Microsoft 365 솔루션 카탈로그 내부자 위험 관리 섹션](../media/m365-solution-catalog-insider-risk-management.png)
+![Microsoft 365 카탈로그 내부자 위험 관리 섹션을 참조하세요.](../media/m365-solution-catalog-insider-risk-management.png)
 
 여기에서 다음 솔루션에 대한 카드를 볼 수 있습니다.
 
@@ -64,7 +64,7 @@ ms.locfileid: "53807821"
 
 **홈페이지의** 검색 & 응답 섹션에서는 조직에서 관련 데이터와 관련된 규정 준수 문제를 빠르게 찾고, 조사하고, 대응하는 방법을 한 눈에 볼 수 있습니다.
 
-![Microsoft 365 카탈로그 검색 및 응답 섹션](../media/m365-solution-catalog-discovery-response.png)
+![Microsoft 365 카탈로그 검색 및 응답 섹션을 참조하세요.](../media/m365-solution-catalog-discovery-response.png)
 
 여기에서 다음 솔루션에 대한 카드를 볼 수 있습니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "53807821"
 
 Microsoft 365 카탈로그를 방문하여 전역 관리자, 준수 관리자 또는 규정 준수 데이터 관리자로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인합니다. 화면 **왼쪽의** 탐색 창에서 카탈로그를 선택하여 카탈로그 홈 페이지를 열 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 하는 질문
 
 **솔루션 카탈로그가 Microsoft 365 없는 이유는 무엇입니까?**
 

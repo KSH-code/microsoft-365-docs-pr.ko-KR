@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 게시물은 Microsoft 365 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구에 대한 참조 정보를 포함하며, 콘텐츠 검색 세부 정보를 제공하여 사용자의 이해를 돕습니다.
-ms.openlocfilehash: e3c764dd1fb79906061b9b9b4c1408d83c8dbe0c
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: f6c720973f91ae9a202b232d821c33c7f487b76a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574451"
 ---
 # <a name="feature-reference-for-content-search"></a>콘텐츠 검색에 대한 기능 참조
 
@@ -45,11 +45,11 @@ ms.locfileid: "58502078"
 
     **잘못된 예**
 
-    ![키워드 목록의 형식을 지정하는 잘못된 방법(키워드 상자에 목록 붙여넣기)](../media/fb54e3df-232a-439a-b3d7-27a60ec76a4c.png)
+    ![목록을 키워드 상자에 붙여넣어 키워드 목록의 서식을 지정하는 잘못된 방법입니다.](../media/fb54e3df-232a-439a-b3d7-27a60ec76a4c.png)
 
     **올바른 예**
 
-    ![키워드 목록의 형식을 지정하는 올바른 방법(확인란을 선택한 다음 목록 붙여넣기)](../media/5d511a7b-c1f9-499c-bffe-e075bfc9adec.png)
+    ![확인란을 선택한 다음 목록을 붙여넣어 키워드 목록의 서식을 지정하는 올바른 방법입니다.](../media/5d511a7b-c1f9-499c-bffe-e075bfc9adec.png)
 
 - Excel 파일이나 일반 텍스트 파일에서 키워드나 키워드 구문 목록을 준비한 다음 키워드 목록에 목록을 복사하여 붙여넣을 수도 있습니다. 이렇게 하려면 **키워드 목록 표시** 확인란을 선택해야 합니다. 그런 다음 키워드 목록의 첫 번째 행을 클릭하고 목록을 붙여넣습니다. Excel 또는 텍스트 파일의 각 줄은 키워드 목록의 별도 행에 붙여넣어집니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "58502078"
 
 - 콘텐츠 검색을 실행하면 Microsoft 365에서 검색 쿼리에서 지원되지 않는 문자와 대문자로 표시되지 않은 부울 연산자를 자동으로 확인합니다. 지원되지 않는 문자는 종종 숨겨져 있으며 일반적으로 검색 오류를 발생시키거나 예기치 않은 결과를 반환할 수 있습니다. 검사의 대상이 되는 지원되지 않는 문자에 대한 자세한 내용은 [오류에 대한 콘텐츠 검색 쿼리 확인](check-your-content-search-query-for-errors.md)을 참조하세요.
 
-- 영문자가 아닌 문자(예: 한자)에 대한 키워드가 포함된 검색 쿼리가 있는 경우 **쿼리 언어-국가/지역**![콘텐츠 검색에서 쿼리 언어-국가/지역 아이콘](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png)을 클릭하고 언어-국가 문화 코드 값을 선택합니다. 기본 언어/지역은 중립입니다. 콘텐츠 검색에 대해 언어 설정을 변경해야 하는지 어떻게 알 수 있나요? 특정 콘텐츠 위치에 검색 중인 영어 이외의 문자가 포함되어 있지만 검색 결과가 나타나지 않으면 언어 설정이 원인일 수 있습니다.
+- 영어가 아닌 문자(예: 중국어 문자)에 대한 키워드가 포함된 검색 쿼리가 있는 경우 **쿼리 언어-국가/지역**![콘텐츠 검색의 쿼리 언어-국가/지역 아이콘](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png)을 클릭할 수 있습니다. 그리고 검색에 대한 언어-국가 문화권 코드 값을 선택합니다. 기본 언어/지역은 중립입니다. 콘텐츠 검색에 대해 언어 설정을 변경해야 하는지 어떻게 알 수 있나요? 특정 콘텐츠 위치에 검색 중인 영어 이외의 문자가 포함되어 있지만 검색 결과가 나타나지 않으면 언어 설정이 원인일 수 있습니다.
 
 ## <a name="partially-indexed-items"></a>부분적으로 인덱싱된 항목
 
@@ -181,15 +181,15 @@ Microsoft Teams 및 Microsoft 365 그룹에서 콘텐츠를 검색할 때 다음
 
     예를 들어 다음 검색 쿼리를 사용하여 Yammer 메시지와 Yammer 칭찬 항목을 반환할 수 있습니다.
 
-    ![ItemClass 속성을 사용하여 Yammer 항목 검색](../media/YammerContentSearch1.png)
+    ![ItemClass 속성을 사용하여 Yammer 항목을 검색합니다.](../media/YammerContentSearch1.png)
 
   - 또는 **유형** 전자 메일 조건을 사용하고 **Yammer 메시지** 를 선택하여 Yammer 항목을 반환할 수 있습니다. 예를 들어 다음 검색 쿼리는 "기밀" 이라는 키워드를 포함하는 모든 Yammer 대화 항목을 반환합니다.
 
-    ![유형 조건 카드를 사용하여 Yammer 대화 항목 검색](../media/YammerContentSearch2.png)
+    ![유형 조건 카드를 사용하여 Yammer 대화 항목을 검색합니다.](../media/YammerContentSearch2.png)
 
 ## <a name="searching-inactive-mailboxes"></a>비활성 사서함 검색
 
-콘텐츠 검색에서 비활성 사서함을 검색할 수 있습니다. 조직의 비활성 사서함 목록을 가져오려면 Exchange Online PowerShell에서 `Get-Mailbox -InactiveMailboxOnly` 명령을 실행합니다. 또는 Microsoft 365 규정 준수 센터의 **정보 거버넌스** \> **보존** 으로 이동한 다음 **더 보기**![탐색 모음 줄임표](../media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **비활성 사서함** 을 클릭합니다.
+콘텐츠 검색에서 비활성 사서함을 검색할 수 있습니다. 조직의 비활성 사서함 목록을 가져오려면 Exchange Online PowerShell에서 `Get-Mailbox -InactiveMailboxOnly` 명령을 실행합니다. 또는 보안 및 준수 센터에서 **정보 거버넌스**\>**보존** 으로 이동한 다음 **추가**![탐색 모음 줄임표를 클릭할 수 있습니다.](../media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **비활성 사서함**
 
 다음은 비활성 사서함을 검색할 때 유의해야 하는 몇 가지 사항입니다.
 

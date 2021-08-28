@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: 45cc01103a578f84d49bb293ff8801aae3b4c216
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.openlocfilehash: 7da746ade0e4ec684b97a61524abd5ab1e83c114
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360868"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570476"
 ---
 # <a name="microsoft-defender-for-identity-directory-services-account-in-microsoft-365-defender"></a>Microsoft Defender for Identity Directory Services 계정 Microsoft 365 Defender
 
@@ -32,19 +32,19 @@ ms.locfileid: "58360868"
 
 1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
 
-    ![다음 설정 다음 ID로 이동](../../media/defender-identity/settings-identities.png)
+    ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
 1. 디렉터리 **서비스 계정을 선택합니다.** 어떤 계정이 어떤 도메인과 연결되는지 볼 수 있습니다.
 
-    ![디렉터리 서비스 계정](../../media/defender-identity/directory-service-accounts.png)
+    ![디렉터리 서비스 계정.](../../media/defender-identity/directory-service-accounts.png)
 
 1. 계정을 선택하면 해당 계정에 대한 설정이 있는 창이 열립니다.
 
-    ![계정 설정](../../media/defender-identity/account-settings.png)
+    ![계정 설정.](../../media/defender-identity/account-settings.png)
 
 1. 새 디렉터리 서비스 계정을 추가하려면 새 계정 만들기를 **선택하고** 계정 **이름,** **도메인** 및 암호를 **입력합니다.** gMSA(그룹 관리 서비스 **계정)의** 경우와 단일 레이블 도메인에 속하는지 선택할 **수도 있습니다.**
 
-    ![새 디렉터리 서비스 계정](../../media/defender-identity/new-directory-service-account.png)
+    ![새 디렉터리 서비스 계정입니다.](../../media/defender-identity/new-directory-service-account.png)
 
 1. **저장** 을 선택합니다.
 

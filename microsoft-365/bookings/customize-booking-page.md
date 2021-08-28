@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 116d7a84-a7a0-4911-a1e9-debb2cca7c43
 description: Microsoft Bookings 앱에서 예약 페이지의 색 테마를 변경합니다.
-ms.openlocfilehash: e1d5eeea44194ea0ad152c51fbf506f1c4e3cbd1e41f59621c76bd955f49dd6b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d1cd08d33d90424fa091f6dcce3a9878bb662dfe
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53896734"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570356"
 ---
 # <a name="customize-and-publish-your-booking-page"></a>예약 페이지 사용자 정의 및 게시
 
@@ -32,7 +32,7 @@ ms.locfileid: "53896734"
 
     내부 예약 페이지는 다음과 같습니다.
 
-    :::image type="content" source="media/bookings-Self-Service_2.jpg" alt-text="예약 페이지":::
+    :::image type="content" source="media/bookings-Self-Service_2.jpg" alt-text="예약 페이지.":::
 
 - **예약 페이지 액세스 제어: Microsoft 365 계정으로 예약해야 합니다.**  이 옵션을 선택하면 조직 내의 사용자만 페이지를 보거나 서비스를 예약할 수 있습니다. 페이지에 대한 액세스는 방문자가 테넌트 내의 계정에 속하는지 확인할 수 있는 자격 증명 검사를 통해 권한이 부여됩니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "53896734"
 
 예약 페이지를 게시하면 고객에게 약속을 예약할 수 있는 예약 페이지가 표시됩니다. 고객 관련 예약 페이지는 다음과 같습니다.
 
-:::image type="content" source="media/bookings-self-service.jpg" alt-text="고객 지원 예약 페이지":::
+:::image type="content" source="media/bookings-self-service.jpg" alt-text="고객 마주이트 예약 페이지.":::
 
 ## <a name="publish-the-booking-page"></a>예약 페이지 게시
 

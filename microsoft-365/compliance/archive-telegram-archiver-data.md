@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 원격 통신 데이터를 원격 통신 데이터로 가져오고 보관할 수 있는 TeleMessage 커넥터를 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: a4f1e5232883602cd8102793b4fbfaa6439b60bb
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 20732bedee07369a05bd26deca6154f08981ef34
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257526"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570632"
 ---
 # <a name="set-up-a-connector-to-archive-telegram-communications-data"></a>원격 통신 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ Telegram Archiver 커넥터 데이터를 사용자 사서함에 저장한 후 �
 
 다음 개요에서는 커넥터를 사용하여 원격 통신 데이터를 커넥터에 보관하는 Microsoft 365.
 
-![원격 통신 보관 워크플로](../media/TelegramConnectorWorkflow.png)
+![원격 통신 보관 워크플로.](../media/TelegramConnectorWorkflow.png)
 
 1. 조직은 TeleMessage와 함께 원격 보관 커넥터를 설치합니다. 자세한 내용은 [Activating the TeleMessage Telegram Archiver for Microsoft 365.](https://www.telemessage.com/microsoft-365-activation-for-telegram-archiver/)
 

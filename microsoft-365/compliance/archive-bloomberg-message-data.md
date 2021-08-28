@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 데이터 커넥터를 설정하여 데이터 커넥터의 Bloomberg 메시지 전자 메일 도구에서 데이터를 가져오고 보관할 수 Microsoft 365. 이렇게 하면 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 6fe3f50576ef01868c335823f09970f9a3bf88ccdbe06eef73cc1e04ea8d7e61
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2fabe34f7172c67442474359c8eefe4078c4bdd6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575027"
 ---
 # <a name="set-up-a-connector-to-archive-bloomberg-message-data"></a>Bloomberg 메시지 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ Bloomberg 메시지 데이터가 사용자 사서함에 저장되고 나면 소�
 
 다음 개요에서는 커넥터를 사용하여 Bloomberg 메시지 데이터를 커넥터에 보관하는 Microsoft 365.
 
-![Bloomberg 메시지 가져오기 및 보관 프로세스](../media/BloombergMessageArchiving.png)
+![Bloomberg 메시지 가져오기 및 보관 프로세스.](../media/BloombergMessageArchiving.png)
 
 1. 조직은 Bloomberg와 함께 Bloomberg SFTP 사이트를 설정합니다. Bloomberg와 함께 전자 메일 메시지를 Bloomberg SFTP 사이트로 복사하도록 Bloomberg 메시지를 구성할 수도 있습니다.
 
@@ -91,11 +91,11 @@ Bloomberg 메시지 데이터를 보관하는 데 필요한 일부 구현 단계
 
 5. 콘텐츠 **원본에 대한** 자격 증명 추가 페이지에서 Microsoft에서 제공하는 PGP 및 SSH 공개 키를 **사용하려는 경우를 클릭합니다.**
 
-   ![공개 키를 사용하는 옵션 선택](../media/BloombergMessagePublicKeysOption.png)
+   ![공개 키를 사용하는 옵션을 선택합니다.](../media/BloombergMessagePublicKeysOption.png)
 
 6. 1단계에서 **SSH** 키 다운로드, **PGP** 키 다운로드 및 **IP** 주소 링크 다운로드를 클릭하여 각 파일의 복사본을 로컬 컴퓨터에 저장합니다.
 
-   ![공개 키 및 IP 주소 다운로드 링크](../media/BloombergMessagePublicKeyDownloadLinks.png)
+   ![공개 키 및 IP 주소를 다운로드하는 링크입니다.](../media/BloombergMessagePublicKeyDownloadLinks.png)
 
    이러한 파일에는 2단계에서 Bloomberg SFTP 사이트를 구성하는 데 사용되는 다음 항목이 포함되어 있습니다.
 
@@ -179,7 +179,7 @@ IP 주소를 구하는 방법:
 
 6. 1단계에서 IP 주소 다운로드를 클릭하여 **IP** 주소 파일의 복사본을 로컬 컴퓨터에 저장합니다.
 
-   ![IP 주소 다운로드](../media/BloombergMessageConnectorIPAddress.png)
+   ![IP 주소를 다운로드합니다.](../media/BloombergMessageConnectorIPAddress.png)
 
 7. 취소를 **클릭하여** 마법사를 닫습니다. 2단계에서 이 마법사로 돌아와 커넥터를 만들면 됩니다.
 
@@ -199,7 +199,7 @@ Bloomberg SFTP 사이트를 구성한 후 다음 단계는 2단계에서 Bloombe
 
 5. 콘텐츠 **원본에 대한** 자격 증명 추가 페이지에서 PGP 및 SSH 개인 키를 사용하려는 **을 클릭합니다.**
 
-   ![개인 키를 사용하는 옵션 선택](../media/BloombergMessagePrivateKeysOption.png)
+   ![개인 키를 사용하는 옵션을 선택합니다.](../media/BloombergMessagePrivateKeysOption.png)
 
 6. 3단계 아래에서 다음 상자에 필요한 정보를 입력한 다음 연결 유효성 **검사를 클릭합니다.**
 

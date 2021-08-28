@@ -20,18 +20,18 @@ ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일 메시지의 복사본을 하나만 내보낼 수 있도록 중복 eDiscovery 검색 결과를 제거하는 방법을 배워야 합니다.
-ms.openlocfilehash: 08318019f9fc56b70d2eae3ea80b82da85e37e69e8d0ff1401517ae1a84ea327
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 67c856d9f245e3856ba1bd4f3ac1942391dab8fa
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842421"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570260"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>EDiscovery 검색 결과에서 중복 제거
 
 이 문서에서는 eDiscovery 검색 결과의 중복 제거 작동 방식에 대해 설명하고 중복 제거 알고리즘의 제한 사항을 설명합니다.
   
-eDiscovery 도구를 사용하여 eDiscovery 검색 결과를 내보낼 때 내보낼 결과 중복을 제거하는 옵션이 제공됩니다. 어떤 의미가 있나요? 중복 제거를 사용하도록 설정하면(기본적으로 중복 제거가 사용되지 않는 경우) 동일한 메시지의 여러 인스턴스가 검색된 사서함에서 발견된 경우에도 전자 메일 메시지의 복사본 하나만 내보낼 수 있습니다. 중복 제거를 사용하면 검색 결과를 내보낼 때 검토 및 분석해야 하는 항목 수를 줄여 시간을 절약할 수 있습니다. 그러나 중복 제거가 작동하는 방식에 대해 이해하고 내보내기 프로세스 중에 고유한 항목이 중복 항목으로 표시될 수 있는 알고리즘에 제한이 있습니다.
+eDiscovery 도구를 사용하여 eDiscovery 검색 결과를 내보낼 때 내보낼 결과 중복을 제거하는 옵션이 제공됩니다. 시나리오 중복 제거를 사용하도록 설정하면(기본적으로 중복 제거가 사용되지 않는 경우) 동일한 메시지의 여러 인스턴스가 검색된 사서함에서 발견된 경우에도 전자 메일 메시지의 복사본 하나만 내보낼 수 있습니다. 중복 제거를 사용하면 검색 결과를 내보낼 때 검토 및 분석해야 하는 항목 수를 줄여 시간을 절약할 수 있습니다. 그러나 중복 제거가 작동하는 방식에 대해 이해하고 내보내기 프로세스 중에 고유한 항목이 중복 항목으로 표시될 수 있는 알고리즘에 제한이 있습니다.
   
 ## <a name="how-duplicate-messages-are-identified"></a>중복된 메시지를 식별하는 방법
 
@@ -49,11 +49,11 @@ eDiscovery 내보내기 프로세스 중에 검색 조건과 일치하는 모든
   
  ### <a name="resultscsv-report-viewed-in-excel"></a>Results.csv 보고서(Excel)
   
-![보고서에서 중복 항목에 대한 Results.csv 보기](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
+![보고서에서 중복 항목에 대한 Results.csv.](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
   
  ### <a name="manifestxml-report-viewed-in-excel"></a>Manifest.xml 보고서(Excel)
   
-![보고서에서 중복 항목에 대한 Manifest.xml 보기](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
+![보고서에서 중복 항목에 대한 Manifest.xml.](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
   
 또한 중복 메시지의 다른 속성이 내보내기 보고서에 포함됩니다. 여기에는 중복 메시지가 있는 사서함, 메시지가 메일 그룹으로 전송된지 여부, 메시지가 다른 사용자에게 Cc'd인지 또는 Bcc'd인지 여부가 포함됩니다.
   

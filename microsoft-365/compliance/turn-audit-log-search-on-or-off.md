@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: 관리자의 감사 로그 검색 기능을 설정하거나 해제하여 Microsoft 365 규정 준수 센터 감사 로그를 검색할 수 있는 기능을 활성화 또는 비활성화하는 방법
-ms.openlocfilehash: d0d6937a8a4f8f6fd6a8a6e6e3873f2ad8f51b56431268d3108d7808dba8467b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 793c76d45f2cd7aed43a959dfcb94edeb9869310
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53841242"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575327"
 ---
 # <a name="turn-auditing-on-or-off"></a>감사 켜기 또는 끄기
 
@@ -67,7 +67,7 @@ Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
 
    조직에 대한 감사가 설정되어 있지 않은 경우 사용자 및 관리자 활동 기록을 시작하라는 배너가 표시됩니다.
 
-   ![감사 페이지의 배너](../media/AuditingBanner.png)
+   ![감사 페이지의 배너.](../media/AuditingBanner.png)
 
 3. 사용자 **및 관리자 활동 기록 시작 배너를** 클릭합니다.
 

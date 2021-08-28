@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: ef5bc9561f79bf1629522a610632d5eb349ab892347843e73701a2efa2ef65c6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b4c499392bf9c48d704b1a0a960d9d92d097bd05
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53810921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570452"
 ---
 # <a name="defender-for-identity-notifications-in-microsoft-365-defender"></a>2013의 ID 알림에 대한 defender Microsoft 365 Defender
 
@@ -32,13 +32,13 @@ ms.locfileid: "53810921"
 
 1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
 
-    ![다음 설정 다음 ID로 이동](../../media/defender-identity/settings-identities.png)
+    ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
 1. 상태 **문제 알림 을 선택합니다.**
 
 1. 받는 사람의 전자 메일 주소를 입력합니다. **추가** 를 선택합니다.
 
-    ![상태 문제에 대한 전자 메일 주소 입력](../../media/defender-identity/health-email-recipient.png)
+    ![상태 문제에 대한 전자 메일 주소를 입력합니다.](../../media/defender-identity/health-email-recipient.png)
 
 1. ID에 대한 Defender가 상태 문제를 감지하면 받는 사람은 세부 정보가 있는 전자 메일 알림을 받게 됩니다.
 
@@ -53,13 +53,13 @@ ms.locfileid: "53810921"
 
 1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
 
-    ![다음 설정 다음 ID로 이동](../../media/defender-identity/settings-identities.png)
+    ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
 1. 알림 **을 선택합니다.**
 
 1. 받는 사람의 전자 메일 주소를 입력합니다. **추가** 를 선택합니다.
 
-    ![검색된 경고에 대한 전자 메일 주소 입력](../../media/defender-identity/alert-email-recipient.png)
+    ![검색된 경고에 대한 전자 메일 주소를 입력합니다.](../../media/defender-identity/alert-email-recipient.png)
 
 ## <a name="syslog-notifications"></a>Syslog 알림
 
@@ -67,17 +67,17 @@ ID에 대한 Defender는 지명된 센서를 통해 Syslog 서버에 보안 및 
 
 1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
 
-    ![다음 설정 다음 ID로 이동](../../media/defender-identity/settings-identities.png)
+    ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
 1. **Syslog 알림 을 선택합니다.**
 
 1. syslog 알림을 사용하도록 설정하려면 **Syslog 서비스** 토글을 **설정 위치로** 설정해야 합니다.
 
-    ![syslog 서비스 켜기](../../media/defender-identity/syslog-service.png)
+    ![syslog 서비스를 켜야 합니다.](../../media/defender-identity/syslog-service.png)
 
 1. 서비스 **구성 을 선택합니다.** syslog 서비스에 대한 세부 정보를 입력할 수 있는 창이 열립니다.
 
-    ![syslog 서비스 세부 정보 입력](../../media/defender-identity/syslog-sensor.png)
+    ![syslog 서비스 세부 정보를 입력합니다.](../../media/defender-identity/syslog-sensor.png)
 
 1. 다음 세부 정보를 입력합니다.
 
@@ -92,7 +92,7 @@ ID에 대한 Defender는 지명된 센서를 통해 Syslog 서버에 보안 및 
 
 1. Syslog 서비스를 구성한 후 **Syslog** 서버로 보낼 알림 유형(경고 또는 상태 문제)을 선택할 수 있습니다.
 
-    ![Syslog 서비스 구성](../../media/defender-identity/syslog-configured.png)
+    ![Syslog 서비스가 구성됩니다.](../../media/defender-identity/syslog-configured.png)
 
 ## <a name="see-also"></a>참고 항목
 

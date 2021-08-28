@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: 다음 지침에 따라 약속을 만들고 Microsoft Bookings 앱을 통해 직원을 할당합니다.
-ms.openlocfilehash: 3ac35cceea7413f6f4634df6474df2d07258debb1bdadb62893f443dc6c2df7b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9af9b28eb1f00bfc41dbdff2d7df4111cb8bdd13
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53803947"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574439"
 ---
 # <a name="create-a-manual-booking"></a>수동 예약 만들기
 
@@ -22,11 +22,11 @@ Bookings에서는 두 가지 방법으로 예약하고 직원을 배정할 수 �
 
 1. 다음 Microsoft 365 앱 시작 프로그램을 선택한 다음 **Bookings 를 선택합니다.**
 
-   ![앱 시작커의 Bookings 이미지](../media/bookings-applauncher.png)
+   ![앱 시작커의 Bookings 이미지입니다.](../media/bookings-applauncher.png)
 
 1. 탐색 창에서 일정 **새** 예약 \> **을 선택합니다.**
 
-   ![새 예약 UI의 이미지](../media/bookings-newbooking.png)
+   ![새 예약 UI의 이미지입니다.](../media/bookings-newbooking.png)
 
 1. 제공될 서비스를 선택합니다. 서비스 [설정 지침은 Microsoft Bookings에서 서비스](define-service-offerings.md) 제품 정의를 참조하세요.
 
@@ -34,7 +34,7 @@ Bookings에서는 두 가지 방법으로 예약하고 직원을 배정할 수 �
 
 1. 서비스를 제공할 직원 구성원을 선택합니다. 표시되는 직원 구성원 목록은 서비스 페이지에서 설정한 항목에 따라 표시됩니다.
 
-   ![직원 목록 UI의 이미지](../media/bookings-staff-list.png)
+   ![직원 목록 UI의 이미지입니다.](../media/bookings-staff-list.png)
 
 1. 날짜, 시간, 위치 및 기타 관련 정보를 포함하여 서비스 세부 정보를 입력합니다. 고객의 유효한 전자 메일 주소를 입력하면  저장 단추가 보내기 으로 변경되어 고객에게 확인이 전송됩니다. 고객 확인에는 일정에 추가할 첨부 파일이 포함되어 있습니다. 또한 선택한 직원 구성원은 약속 정보가 있는 모임 초대를 수신하여 개인 일정에 추가할 수 있습니다.
 

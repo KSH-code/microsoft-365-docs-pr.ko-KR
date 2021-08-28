@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 ROBOTS: NOINDEX, NOFOLLOW
 description: 파일에 태그를 지정하고 평가 결과를 검토하는 등 평가 교육을 수행하는 단계를 Advanced eDiscovery.
-ms.openlocfilehash: 4e1b9f3e79ee35866322e713412690af068ce1837c668c0331d1091cd84a2786
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 539d4e8f28aa8e4e3ab98807c5019711edbdcc4f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53899864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574919"
 ---
 # <a name="tagging-and-assessment-in-the-relevance-module-in-advanced-ediscovery"></a>2016년 8월의 연결 모듈에 있는 태그 지정 및 Advanced eDiscovery
   
@@ -34,7 +34,7 @@ ms.locfileid: "53899864"
 
     예를 들어 이 절차에서는 500개 파일로 된 샘플  평가 집합이 만들어지고 태그 지정 패널, 표시된 파일 콘텐츠 및 기타 태그 지정 옵션이 포함된 태그 탭이 표시됩니다. 
 
-    ![평가 대 한 관련 태그 탭](../media/c8acf891-b1cd-4344-816c-eabb8cbbe742.png)
+    ![평가에 대한 태그 탭과의 무관성입니다.](../media/c8acf891-b1cd-4344-816c-eabb8cbbe742.png)
   
 2. 샘플의 각 파일을 검토하고 각 사례 문제의 파일 관련성 확인 및 관련성(R), 관련성(NR) 및 태그 지정 패널  창의 건너뛰기 단추를 사용하여 파일에 태그를 지정합니다. 
 
@@ -45,14 +45,14 @@ ms.locfileid: "53899864"
 
     평가 현재 오류 여백 및 풍부한성은  아래와 같이 관련성 트랙 탭에 계산되고 표시되고 문제당 세부 정보가 확장됩니다. 이 대화 상자에 대한 자세한 내용은 평가 결과 검토 [섹션에 설명되어](#reviewing-assessment-results) 있습니다.
 
-    ![관련 트랙-평가](../media/da911ba5-8678-40d6-9ad5-fd0b058355c1.png)
+    ![Relevance Track - Assessment.](../media/da911ba5-8678-40d6-9ad5-fd0b058355c1.png)
   
     > [!TIP]
     > 기본적으로 문제의 평가 진행률 표시기가 완료되면 기본 다음 단계로 진행하여 평가 샘플이 검토되고 관련 파일이 태그가 지정되었음을 나타내는 것이 좋습니다. > 그렇지 않은 경우 탭 결과  추적을 보고 오류의 여백과 다음 단계를  제어하려면 다음 단계 옆에 있는 수정을 **클릭하고** 평가 계속을 선택한 다음 확인을 **클릭합니다.**
   
 4. **문제당** 평가 매개 변수를 보고 지정하려면 **평가** 확인란의 오른쪽에 있는 수정을 클릭합니다. 다음 **예제와 같이** 각 문제의 평가 수준 대화 상자가 표시됩니다. 
 
-    ![평가 수준 사례 문제](../media/b7113fef-d125-4617-ae1b-c9eb0bf79aec.png)
+    ![평가 수준 사례 문제입니다.](../media/b7113fef-d125-4617-ae1b-c9eb0bf79aec.png)
   
     이 문제의 다음 매개 변수가 계산되어 평가 수준 대화 **상자에** 표시됩니다. 
 
@@ -70,7 +70,7 @@ ms.locfileid: "53899864"
 
 9. 평가 **수준** **대화 상자에서 고급을 클릭하여** 다음과 같은 추가 매개 변수 및 세부 정보를 볼 수 있습니다. 
 
-    ![평가 수준 사례 문제를 상세하게 보기](../media/577d7e0e-95df-48c2-9dec-bdeab5e801d8.png)
+    ![평가 수준 사례 문제 고급 보기입니다.](../media/577d7e0e-95df-48c2-9dec-bdeab5e801d8.png)
   
     - **예상된 풍부한성:** 현재 평가 결과에 따라 예상되는 풍부한성
 
@@ -90,7 +90,7 @@ ms.locfileid: "53899864"
 
     여러 문제가 있는 경우 모든 문제를 검토하거나 조정한 후 다음 예제와 같이 평가 **수준:** 요약 대화 상자가 표시됩니다. 
 
-    ![평가 수준 요약](../media/4997b46d-10a5-4abc-b3b2-7b75a370eb9e.png)
+    ![평가 수준 요약.](../media/4997b46d-10a5-4abc-b3b2-7b75a370eb9e.png)
   
     평가가 성공적으로 완료된 경우, Relevance training의 다음 단계로 진행합니다.
 

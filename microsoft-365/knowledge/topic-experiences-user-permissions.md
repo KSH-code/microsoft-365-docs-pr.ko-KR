@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목에 대한 사용 권한을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2d7720f3e3c3272ba8ec3088fbd417d4977a2f4b7494ce4dfc9e2934f017f2b0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9a391d3a51d5ed7a8b4e17f4f310600284c87f54
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863966"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570740"
 ---
 # <a name="manage-topic-permissions-in-microsoft-viva-topics"></a>다음 항목에서 항목 사용 Microsoft Viva 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "53863966"
 
 3. 항목 **사용 권한 탭을** 선택합니다. 각 설정에 대한 자세한 내용은 다음 섹션을 참조하세요.
 
-    ![knowledge-network-settings](../media/knowledge-network-settings-topic-permissions.png) 
+    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-permissions.png) 
 
 ## <a name="change-who-has-permissions-to-update-topic-details"></a>항목 세부 정보를 업데이트할 수 있는 권한이 있는 사용자 변경
 
@@ -43,11 +43,11 @@ ms.locfileid: "53863966"
 
 1. 항목 **사용 권한** 탭의 Who 만들고 편집할 수 있습니다. **에서** 편집을 **선택합니다.**
 2. 항목 Who 만들고 편집할 **수 있습니다. 페이지에서** 다음을 선택할 수 있습니다.
-    - **사용자 조직의 모든 사용자**
+    - **조직의 모든 사람**
     - **선택한 사용자 또는 보안 그룹만**
     - **아무도 없어**
 
-    ![주제 만들기 및 편집](../media/k-manage-who-can-create-and-edit.png)  
+    ![항목을 만들고 편집합니다.](../media/k-manage-who-can-create-and-edit.png)  
 
 3. **저장** 을 선택합니다.
 
@@ -55,10 +55,10 @@ ms.locfileid: "53863966"
 
 1. 항목 **사용 권한** 탭의 Who 수 **있습니다. 에서** 편집을 **선택합니다.**
 2. 항목 **Who 수 있습니다. 페이지에서** 다음을 선택할 수 있습니다.
-    - **사용자 조직의 모든 사용자**
+    - **조직의 모든 사람**
     - **선택한 사용자 또는 보안 그룹**
 
-    ![항목 관리](../media/k-manage-who-can-manage-topics.png)  
+    ![항목을 관리합니다.](../media/k-manage-who-can-manage-topics.png)  
 
 3. **저장** 을 선택합니다.
 

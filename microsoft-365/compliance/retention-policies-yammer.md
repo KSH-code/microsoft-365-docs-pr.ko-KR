@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Yammer에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 63583fcdb0860bfba60d8847e9130f671d916bbf
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 352c66ad34508d06d4673dab4ebc2b98a27649d7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255265"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574138"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Yammer의 보존에 대한 자세한 정보
 
@@ -78,7 +78,7 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 보존 정책을 유지한 후 삭제하려면 다음을 수행합니다.
 
-![Yammer 메시지의 보존 흐름 다이어그램](../media/yammerretentionlifecycle.png)
+![Yammer 메시지의 보존 흐름 다이어그램.](../media/yammerretentionlifecycle.png)
 
 다이어그램의 두 경로:
 

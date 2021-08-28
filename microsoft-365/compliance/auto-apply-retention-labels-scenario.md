@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 메타데이터를 사용하여 내용을 분류하고 레이블을 자동으로 적용하며 이벤트 기반 보존을 사용하여 보존 기간을 시작하여 SharePoint 에서 문서의 라이프사이클을 관리하는 방법입니다.
-ms.openlocfilehash: b26cdbe7f2b8f0d6ac3845941418b189cb3d9083
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 8c34e8fe860f3704ac96e852393e6661115bb58a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533018"
+ms.locfileid: "58574931"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리
 
@@ -45,7 +45,7 @@ ms.locfileid: "58533018"
 
 이 메타데이터는 모든 문서에 대해 *생산 문서* 라는 기본 콘텐츠 유형을 구성합니다.
 
-![제품 설명서 메타 데이터 표](../media/SPRetention1.png)
+![제품 설명서 메타 데이터 표입니다.](../media/SPRetention1.png)
 
 > [!NOTE]
 > **문서 유형** 및 **상태** 속성은 시나리오의 뒷부분에 나오는 보존 정책에서 보존 레이블을 분류하고 자동 적용하는 데 사용됩니다.
@@ -54,13 +54,13 @@ ms.locfileid: "58533018"
 
 이 시나리오에서는 관리되는 메타 데이터 서비스 및 용어 저장소를 사용하여 *문서 유형* 에 대한 용어 집합과 *제품 이름* 에 대한 용어 집합을 만듭니다. 각 용어 집합에 대해 각 값에 대한 용어를 만듭니다. SharePoint 조직의 경우 Term Store에서는 다음과 같습니다.
 
-![용어 저장소의 제품 설명서에 대한 샘플 용어 집합](../media/SPRetention2.png)
+![용어 저장소의 제품 설명서에 대한 샘플 용어 집합입니다.](../media/SPRetention2.png)
 
 *콘텐츠 유형* 은(는) [ 콘텐츠 유형 허브](https://support.office.com/article/manage-content-type-publishing-06f39ac0-5576-4b68-abbc-82b68334889b)를 사용하여 생성하고 게시할 수 있습니다. [PnP 프로비저닝 프레임워크](/sharepoint/dev/solution-guidance/pnp-provisioning-framework) 또는 [ 사이트 설계 JSON 스키마](/sharepoint/dev/declarative-customization/site-design-json-schema#define-a-new-content-type)와 같은 사이트 프로비저닝 도구를 사용하여 컨텐츠 유형을 생성하고 게시할 수도 있습니다.
 
 각 제품에는 올바른 콘텐츠 유형을 사용하는 하나의 문서 라이브러리가 포함된 전용 SharePoint 사이트가 있습니다. 모든 문서는 이 문서 라이브러리에 저장됩니다.
 
-[ ![제품 설명서에 대한 문서 라이브러리](../media/SPRetention3.png) ](../media/SPRetention3.png#lightbox)
+[![제품 설명서용 문서 라이브러리입니다.](../media/SPRetention3.png)](../media/SPRetention3.png#lightbox)
 
 > [!NOTE]
 > 이 시나리오의 제조 회사는 제품당 SharePoint 사이트를 보유하는 대신 제품당 마이크로소프트 팀을 사용하여 지속적인 채팅을 통해 팀원 간의 협업을 지원하고 문서 관리를 위해 팀 내 **파일** 탭을 사용할 수 있습니다. 이 기사에서는 문서에만 초점을 맞추므로 사이트만 사용합니다.
@@ -122,7 +122,7 @@ Microsoft 365 규중 준수 센터를 사용하여 다음 [보존 레이블](ret
 
 1. 보존 레이블 만들기 마법사의 **보존 설정 정의** 페이지에서 **기준에 따라 보존 기간을 시작한 후** **새 이벤트 유형 만들기** 를 선택합니다.
 
-    ![제품 사양 레이블 대화 상자에 대한 새 이벤트 유형을 생성합니다.](../media/SPRetention6.png)
+    ![제품 사양 레이블 대화 상자에 대한 새 이벤트 유형을 만듭니다.](../media/SPRetention6.png)
 
 3. **이벤트 유형 이름 지정** 페이지에서 **제품 Cessation** 과 선택적 설명을 입력합니다. 그 후 **다음**, **제출**, 그리고 **완료** 를 선택합니다.
 
@@ -130,7 +130,7 @@ Microsoft 365 규중 준수 센터를 사용하여 다음 [보존 레이블](ret
 
     제품 사양 보존 레이블의 설정은 다음과 같습니다.
 
-   ![새 제품 사양 레이블 설정](../media/SPRetention7.png)
+   ![새 제품 사양 레이블에 대한 설정입니다.](../media/SPRetention7.png)
 
 6. **레이블 만들기** 를 선택하고 다음 페이지에 레이블을 게시, 레이블을 자동으로 적용 혹은 단지 레이블을 저장하는 옵션이 표시되면 **지금은 단지 레이블을 저장** 을 선택한 후 **완료** 를 선택합니다.
 
@@ -149,17 +149,17 @@ SharePoint는 콘텐츠를 인덱싱할 때 각 사이트 열에 대해 크롤�
 
 SharePoint 관리 센터에서 검색 구성을 열고 **검색 스키마 관리** 를 선택하여 탐색된 속성을 보고 구성합니다.
 
-![검색 스키마에서 속성을 탐색했습니다.](../media/SPRetention8.png)
+![검색 스키마의 크롤링 속성입니다.](../media/SPRetention8.png)
 
 ***상태** _를_ *크롤링된 속성* 상자에 입력하고 녹색 화살표를 선택하면 다음과 같은 결과가 표시됩니다.
 
-![ows_Status 속성이 탐색되었습니다.](../media/SPRetention9.png)
+![ows_Status 크롤링 속성입니다.](../media/SPRetention9.png)
 
 우리가 관심을 가지고 있는 속성은 **ows\_\_상태** 속성(이중 밑줄에 주목)입니다.. 생산 문서 컨텐츠 유형의 **상태** 속성에 매핑됩니다.
 
 이제 ***ows\_문서*** 를 입력하고 녹색 화살표를 선택하면 다음과 같은 것이 표시됩니다.
 
-![ows_Doc_Type 속성이 탐색되었습니다.](../media/SPRetention10.png)
+![크롤링된 ows_Doc_Type 속성입니다.](../media/SPRetention10.png)
 
 **ows\_문서\_x0020\_유형** 속성은 우리가 관심을 갖는 두 번째 속성입니다. 생산 문서 컨텐츠 유형의 **문서 유형** 속성에 매핑됩니다.
 
@@ -180,7 +180,7 @@ KQL은 검색 쿼리에서 크롤링된 속성을 사용할 수 없습니다. �
 
 KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로 적용하기 위해 크롤링된 속성 **ows\_문서\_x0020\_유형* 과 *ows\_\_상태** 를 두 개의 정의 가능한 관리 속성에 맵핑합니다. 이 시나리오의 테스트 환경에서는 **RefinableString00** 및 **RefinableString01** 은 사용되지 않습니다. SharePoint 관리 센터의 **검색 스키마 관리** 에서 **관리 속성** 을(를) 확인하여 이 문제를 확인했습니다.
 
-[ ![검색 스키마의 관리 속성](../media/SPRetention12.png) ](../media/SPRetention12.png#lightbox)
+[![검색 스키마의 관리 속성입니다.](../media/SPRetention12.png)](../media/SPRetention12.png#lightbox)
 
 이전 스크린 샷의 **매핑된 크롤링 속성** 열이 비어있는 것을 주목하세요.
 
@@ -196,7 +196,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
    **맵핑된 크롤링 속성** 섹션에 다음 스크린샷과 유사한 내용이 표시됩니다.
 
-   [ ![매핑된 탐색 속성 섹션에서 매핑 추가를 선택합니다.](../media/SPRetention13.png) ](../media/SPRetention13.png#lightbox)
+   [![매핑된 크롤링 속성 섹션에서 매핑 추가를 선택합니다.](../media/SPRetention13.png)](../media/SPRetention13.png#lightbox)
 
 
 5. 페이지 하단으로 스크롤하고 **OK** 를 선택하여 매핑을 저장합니다.
@@ -205,7 +205,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 이제 두 개의 관리되는 속성이 두 탐색된 속성에 매핑되어야 합니다.
 
-[ ![관리되는 속성이 탐색 속성에 매핑되어 표시됩니다.](../media/SPRetention14.png) ](../media/SPRetention14.png#lightbox)
+[![크롤링 속성에 매핑된 관리 속성이 표시됩니다.](../media/SPRetention14.png)](../media/SPRetention14.png#lightbox)
 
 엔터프라이즈 검색을 실행하여 설정이 올바른지 확인합니다. 브라우저에서 *https://\<your_tenant>.sharepoint.com/search*.(으)로 이동합니다. 검색 상자에 ***RefableString00:"제품 사양"** 을 입력하고 Enter 키를 누릅니다. 이 검색에서는 _ *제품 사양**이 **_문서 유형_** 으로 된 모든 문서를 반환해야 합니다.
 
@@ -223,7 +223,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 3. **이 레이블을 적용하려는 콘텐츠의 유형을 선택** 페이지에서 **특정 단어 또는 구 또는 속성을 포함하는 콘텐츠에 레이블을 적용** 을 선택한 후 **다음** 을 선택합니다.
 
-   [ ![특정 단어나 구 또는 속성을 포함하는 콘텐츠에 레이블 적용을 선택합니다.](../media/SPRetention17.png) ](../media/SPRetention17.png#lightbox)
+   [![특정 단어나 구 또는 속성이 포함된 콘텐츠에 레이블 적용을 선택합니다.](../media/SPRetention17.png)](../media/SPRetention17.png#lightbox)
 
    이 옵션은 이전 섹션에서 테스트한 것과 동일한 KQL 검색 쿼리를 제공합니다. 이 쿼리는 상태가 *최종* 인 모든 제품 사양 문서를 반환합니다. 자동 적용 레이블 정책에서 동일한 쿼리를 사용하면 제품 사양 보존 레이블이 일치하는 모든 문서에 자동으로 적용됩니다.
 
@@ -233,7 +233,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 5. **정책을 적용하려는 위치 선택** 페이지에서 정책을 적용하려는 콘텐츠 위치를 선택합니다. 이 시나리오에서는 모든 프로덕션 문서가 SharePoint 문서 라이브러리에 저장되기 때문에 정책을 SharePoint 위치에만 적용합니다. **Exchange 전자 메일**, **OneDrive 계정** 의 상태를 전환하고, **Microsoft 365 그룹** 을 **해제** 합니다. **다음** 을 선택하기 전에 SharePoint 사이트의 상태가 **켜짐** 으로 설정되어 있는지 확인합니다.
 
-    ![레이블을 자동 적용하려는 특정 사이트를 선택](../media/SPRetentionSPlocations.png)
+    ![레이블을 자동으로 적용할 특정 사이트를 선택합니다.](../media/SPRetentionSPlocations.png)
 
    > [!TIP]
    > 정책을 모든 SharePoint 사이트에 적용하는 대신 **사이트 선택** 을 선택하여 특정 SharePoint 사이트의 URL을 추가할 수 있습니다.
@@ -244,7 +244,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 8. 설정 검토
 
-    ![레이블을 자동으로 적용하기 위한 설정](../media/SPRetention18.png)
+    ![레이블을 자동으로 적용하는 설정입니다.](../media/SPRetention18.png)
 
 9. 자동 적용 레이블 정책을 생성하려면 **제출** 을 선택합니다.
 
@@ -279,7 +279,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 이 시나리오에서는 다음 흐름을 사용하여 이벤트를 트리거합니다.
 
-[ ![이벤트를 트리거하는 흐름의 구성](../media/SPRetention24.png) ](../media/SPRetention24.png#lightbox)
+[ ![이벤트를 트리거하는 흐름의 구성입니다.](../media/SPRetention24.png) ](../media/SPRetention24.png#lightbox)
 
 이 흐름을 만들려면 SharePoint 커넥터에서 시작하여 **항목을 만들거나 수정할 때** 트리거를 선택합니다. 사이트 주소 및 목록 이름을 지정합니다. 그런 다음 **생산 중** 에서 목록 열 값이 **_아니오_* _(또는 조건 카드의 _허위*)로 설정된 시점을 기준으로 조건을 추가합니다. 그런 다음 기본 제공 HTTP 서식 파일을 기반으로 하는 작업을 추가합니다. 다음 섹션의 값을 사용하여 HTTP 작업을 구성합니다. 다음 섹션에서 **URI** 및 **Body** 속성의 값을 복사하여 템플릿에 붙여넣을 수 있습니다.
 
@@ -310,7 +310,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 - **EventType**: 이 매개 변수의 값은 생성된 이벤트가 적용되는 이벤트 유형에 해당합니다. 이 이벤트 유형은 보존 레이블을 생성할 때 정의되었습니다. 이 시나리오의 경우 이벤트 유형은 "제품 중단"입니다."
 - **SharePointAssetIdQuery** 입니다. 이 매개 변수는 이벤트에 대한 자산 ID를 정의합니다. 이벤트 기반 보존에는 문서의 고유 식별자가 필요합니다. 자산 ID를 사용하여 특정 이벤트가 적용되는 문서를 식별하거나 이 시나리오에서처럼 메타데이터 열 **제품 이름** 을 식별할 수 있습니다. 이렇게 하려면 KQL 쿼리에 사용할 수 있는 새 **ProductName** 관리 속성을 생성해야 합니다. 대체적으로 새 관리 속성을 생성하는 대신 **RefableString00** 를 사용할 수 있습니다. 또한 이 새로운 관리 속성을 **ows_Product_x0020_Name** 크롤링된 속성에 맵핑해야합니다. 다음은 이 관리 속성의 스크린샷입니다.
 
-    [ ![보존 관리 속성](../media/SPRetention25.png) ](../media/SPRetention25.png#lightbox)
+    [ ![보존 관리 속성입니다.](../media/SPRetention25.png) ](../media/SPRetention25.png#lightbox)
 
 - **EventDateTime**: 이 매개 변수는 이벤트가 발생한 날짜를 정의합니다. 현재 날짜 형식을 사용합니다.<br/><br/>*날짜 시간(utcNow()), 'yyyy-MM-dd'* 을(를) 포맷합니다.
 
@@ -322,7 +322,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 이벤트를 선택하여 플라이아웃 페이지에서 세부 정보를 봅니다. 이벤트가 생성되더라도 이벤트 상태는 처리된 SharePoint 사이트나 문서가 없음을 나타냅니다.
 
-![이벤트 세부 정보](../media/SPRetention29.png)
+![이벤트 세부 정보입니다.](../media/SPRetention29.png)
 
 그러나 지연 후 이벤트 상태는 SharePoint 사이트와 SharePoint 문서가 처리되었음을 표시합니다.
 
@@ -338,7 +338,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 다음 스크린샷에서 볼 수 있듯이 자산 ID 관리 속성을 **ComplianceAssetId** 라고 합니다.
 
-[ ![ComplianceAssetId 관리 속성](../media/SPRetention27.png) ](../media/SPRetention27.png#lightbox)
+[ ![ComplianceAssetId 관리 속성입니다.](../media/SPRetention27.png) ](../media/SPRetention27.png#lightbox)
 
 이 시나리오에서와 같이 기본 **Asset Id** 속성을 사용하는 대신 다른 속성을 사용할 수 있습니다. 그러나 이벤트에 대한 자산 ID 또는 키워드를 지정하지 않으면 해당 이벤트 유형의 레이블이 있는 모든 콘텐츠는 이벤트에 의해 보존 기간이 트리거됩니다.
 

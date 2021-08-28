@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 3053740119c09b56b6fa01434d79fe9cd31d826e
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 5ada5a4e4c7bd65ef0be6f273548bebba6e342ea
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256707"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574330"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -232,7 +232,7 @@ Microsoft 365 그룹에 적용되는 보존 정책에는 그룹 사서함 및 Sh
 
 다른 위치와 달리 모든 사용자를 자동으로 포함하도록 Skype 위치의 상태를 전환할 수 없습니다. 대신, 해당 위치를 켜면 **편집** 옵션을 선택하여 대화를 유지할 사용자를 수동으로 선택해야 합니다.
 
-![보존 정책을 위한 Skype 위치 편집](../media/skype-location-retention-policies.png)
+![보존 정책을 위한 Skype 위치 편집.](../media/skype-location-retention-policies.png)
 
 이 **편집** 옵션을 선택한 후 **비즈니스용 Skype** 창에서 **이름** 열 앞에 숨겨진 상자를 선택하여 모든 사용자를 빠르게 포함할 수 있습니다. 그러나 각 사용자가 정책의 특정 포함사항으로 간주된다는 점을 이해해야 합니다. 따라서 이 상자를 선택하여 1,000명의 사용자를 포함하는 경우, 포함할 1,000명의 사용자를 수동으로 선택한 것과 같으며 이는 비즈니스용 Skype에 대해 지원되는 최대를 선택하는 것과 같습니다.
 
@@ -270,7 +270,7 @@ Outlook 폴더인 **대화 내용** 은 Skype 아카이빙은 관계가 없는 �
 
 보존 기간이 끝나면 콘텐츠를 영구적으로 삭제할지 여부를 선택합니다.
 
-![보존 설정 페이지](../media/b05f84e5-fc71-4717-8f7b-d06a29dc4f29.png)
+![보존 설정 페이지.](../media/b05f84e5-fc71-4717-8f7b-d06a29dc4f29.png)
 
 ### <a name="deleting-content-thats-older-than-a-specific-age"></a>특정 사용 기간보다 오래된 콘텐츠 삭제
 

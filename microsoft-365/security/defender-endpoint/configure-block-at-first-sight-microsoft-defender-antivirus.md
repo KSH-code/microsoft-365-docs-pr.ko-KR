@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.date: 07/29/2021
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 20918b3412a5534675c873fdfd9d2fb94a73ab75
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.openlocfilehash: f38bb019d3f04b4e0be19cf93062ac75005495cb
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509944"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570680"
 ---
 # <a name="turn-on-block-at-first-sight"></a>즉각적 차단 켜기
 
@@ -49,7 +49,7 @@ Microsoft Defender 바이러스 백신은 의심스러우나 검색되지 않은
 
 Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사용하여 정확하고 지능적인 실시간 보호를 제공합니다.
 
-![Microsoft Defender AV 엔진 목록](images/microsoft-defender-atp-next-generation-protection-engines.png)
+![Microsoft Defender AV 엔진 목록.](images/microsoft-defender-atp-next-generation-protection-engines.png)  
 
 > [!TIP]
 > 자세한 내용은 [(블로그) 차세대 보호 엔드포인트용 Microsoft Defender의 핵심 고급 기술 알아보기](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)를 참조하세요.
@@ -107,7 +107,7 @@ Microsoft Defender 바이러스 백신은 여러 검색 및 방지 기술을 사
    - **클라우드 제공 보호 수준**: 높음
    - **Defender Cloud 확장 시간 초과(초)**: 50
 
-   :::image type="content" source="images/endpointmgr-antivirus-cloudprotection.png" alt-text="Endpoint Manager에서 즉각적 차단 설정":::
+   :::image type="content" source="images/endpointmgr-antivirus-cloudprotection.png" alt-text="Endpoint Manager의 즉각적 차단 설정":::
 
 4. Microsoft Defender 바이러스 백신 프로필을 **모든 사용자**, **모든 장치** 또는 **모든 사용자 및 장치** 와 같은 그룹에 적용합니다.
 

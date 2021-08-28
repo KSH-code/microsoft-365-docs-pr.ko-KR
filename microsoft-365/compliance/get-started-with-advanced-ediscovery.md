@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사례 만들기 및 관리를 시작할 수 있도록 Advanced eDiscovery 방법을 설명합니다. 또한 필수 Microsoft 구독 및 라이선싱에 대해 설명합니다. 몇 가지 빠른 단계를 완료하면 Advanced eDiscovery 사용할 수 있습니다.
-ms.openlocfilehash: eb54b43e4361750f66371f224cd7bf6bce58d604
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 42ff8a7ef49949b9061972f08ebafeebd6d1a85d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508025"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570848"
 ---
 # <a name="set-up-microsoft-365-advanced-ediscovery"></a>설정 Microsoft 365 Advanced eDiscovery
 
@@ -32,7 +32,7 @@ Advanced eDiscovery 조직의 Microsoft 365 조사에 응답하는 데이터를 
 
 이 문서에서는 설치를 설정하는 데 필요한 다음 단계에 대해 Advanced eDiscovery.
 
-![설정 단계 Advanced eDiscovery](../media/set-up-advanced-ediscovery.png)
+![설치 단계를 Advanced eDiscovery.](../media/set-up-advanced-ediscovery.png)
 
 여기에는 사례에 액세스하고 Advanced eDiscovery 추가하는 데 필요한 적절한 라이선스를 보장하고 사례에 액세스하고 관리할 수 있도록 법률 및 조사 팀에 권한을 할당하는 것이 포함됩니다.
 

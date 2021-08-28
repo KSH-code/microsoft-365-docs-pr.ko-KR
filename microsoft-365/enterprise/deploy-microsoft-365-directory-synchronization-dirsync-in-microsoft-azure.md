@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: b8464818-4325-4a56-b022-5af1dad2aa8b
 description: Azure의 가상 머신에 Azure AD 커넥트 배포하여 계정과 Azure AD 테넌트 간에 계정을 동기화하는 방법을 설명합니다.
-ms.openlocfilehash: c7a3c8a3800f7dc866895606277ca7dc5bd9ddd6
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: df41c88330eb71c67505d8a75e8268ae2acb9b01
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356807"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575291"
 ---
 # <a name="deploy-microsoft-365-directory-synchronization-in-microsoft-azure"></a>Microsoft 365 디렉터리 동기화 배포 Microsoft Azure
 
@@ -46,7 +46,7 @@ Azure Active Directory(Azure AD) 커넥트(이전의 디렉터리 동기화 도�
 
 다음 다이어그램은 커넥트 AD DS 포리스트를 Microsoft 365 Azure의 가상 컴퓨터(디렉터리 동기화 서버)에서 실행되는 Azure AD Microsoft 365 보여줍니다.
   
-![트래픽 흐름을 커넥트 Azure의 가상 컴퓨터의 Azure AD 서비스 도구로, Microsoft 365 구독의 Azure AD 테넌트와 동기화](../media/CP-DirSyncOverview.png)
+![트래픽 흐름을 커넥트 Azure의 가상 머신에 있는 Azure AD Microsoft 365 계정의 Azure AD 테넌트와 동기화합니다.](../media/CP-DirSyncOverview.png)
   
 다이어그램에는 사이트 간 VPN 또는 ExpressRoute 연결로 연결되는 2개의 네트워크가 있습니다. AD DS 도메인 컨트롤러가 있는 온-프레미스 네트워크가 있고, [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594)가 실행되는 가상 머신에 해당하는 디렉터리 동기화 서버를 포함하는 Azure Virtual Network가 있습니다. 디렉터리 동기화 서버에서 시작하는 다음과 같은 두 가지 주요 트래픽 흐름이 있습니다.
   
@@ -128,7 +128,7 @@ Azure Virtual Network를 만들고 구성하려면 [ 온-프레미스 네트워�
   
 구성 결과는 다음과 같습니다.
   
-![Azure에서 호스트되는 서버의 디렉터리 동기화 Microsoft 365 1단계](../media/aab6a9a4-eb78-4d85-9b96-711e6de420d7.png)
+![Azure에서 호스트되는 서버의 디렉터리 동기화 Microsoft 365 1단계.](../media/aab6a9a4-eb78-4d85-9b96-711e6de420d7.png)
   
 이 그림에서는 사이트 간 VPN 또는 ExpressRoute 연결을 통해 Azure Virtual Network에 연결된 온-프레미스를 보여줍니다.
   
@@ -150,7 +150,7 @@ Azure AD Connect가 인터넷 리소스에 액세스할 수 있게 하려면 온
   
 구성 결과는 다음과 같습니다.
   
-![Azure에서 호스트되는 서버의 디렉터리 동기화 Microsoft 365 2단계](../media/9d8c9349-a207-4828-9b2b-826fe9c06af3.png)
+![Azure에서 호스트되는 Microsoft 365 디렉터리 동기화 서버의 2단계.](../media/9d8c9349-a207-4828-9b2b-826fe9c06af3.png)
   
 이 그림은 크로스-프레미스 Azure Virtual Network의 디렉터리 동기화 서버 가상 머신을 보여줍니다.
   
@@ -167,7 +167,7 @@ Azure AD Connect가 인터넷 리소스에 액세스할 수 있게 하려면 온
   
 구성 결과는 다음과 같습니다.
   
-![Azure에서 호스트되는 서버의 디렉터리 동기화 Microsoft 365 3단계](../media/3f692b62-b77c-4877-abee-83c7edffa922.png)
+![Azure에서 호스트되는 Microsoft 365 디렉터리 동기화 서버의 3단계.](../media/3f692b62-b77c-4877-abee-83c7edffa922.png)
   
 이 그림은 크로스-프레미스 Azure Virtual Network에서 Azure AD Connect를 사용하는 디렉터리 동기화 서버를 보여줍니다.
   

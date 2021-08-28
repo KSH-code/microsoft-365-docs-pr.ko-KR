@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 비밀 프로젝트를 위해 보안이 강화된 팀을 사용하여 새 제품 및 서비스 제품군을 개발하는 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: 86c2b0cbf53df07ac956138e096ad53a67f0bd7226b8583214d0e666ddbafe9e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3a14a5c7ba844e31b8e96d209eb21a9daac45e00
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53883585"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575423"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 최상위 프로젝트를 위한 격리된 팀
 
@@ -77,7 +77,7 @@ Contoso 관리자는 **2X라는** 새 Project 레이블을 만들었다.
 
 다음은 보안이 Project 2X 팀의 결과 구성입니다.
 
-![2X 팀의 결과 Project 구성](../media/contoso-team-for-top-secret-project.png)
+![2X 팀의 결과 Project 구성입니다.](../media/contoso-team-for-top-secret-project.png)
 
  ## <a name="step-4-trained-project-2x-team-members"></a>4단계: 교육된 Project 2X 팀 구성원
 
@@ -92,7 +92,7 @@ Contoso 보안 직원은 다음을 Project 필수 과정에 2X 팀 구성원을 
 
 다음은 2X 민감도 레이블이 할당된 Project 2X 사이트에 Project 예입니다.
 
-![2X 사이트에 저장된 파일의 Project 예](../media/contoso-team-for-top-secret-project-example.png)
+![2X 사이트에 저장된 파일의 Project 예제입니다.](../media/contoso-team-for-top-secret-project-example.png)
 
 몇 가지 경우에 Project 2X 팀 구성원이 오프라인 작업을 위해 Project 2X 레이블로 보호된 파일을 로컬 드라이브에 다운로드했습니다. 
 

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: DataParser 커넥터에서 17a-4 FX 커넥트 설정하고 사용하여 FX 데이터 가져오기 및 보관을 커넥트 방법을 Microsoft 365.
-ms.openlocfilehash: d716d27a0cd7b4bdcb55770fd4d7685bbb32e8aebccbb3c51b5a044e0618a941
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 91975cb8d0d3dc8d0b1a0baf5a6851f1b2bcea4b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53836177"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574883"
 ---
 # <a name="set-up-a-connector-to-archive-data-from-fx-connect"></a>FX 서버의 데이터를 보관할 커넥터 커넥트
 
@@ -29,7 +29,7 @@ FX 커넥트 사서함에 저장한 후 소송 보존, eDiscovery Microsoft 365 
 
 다음 개요에서는 데이터 커넥터를 사용하여 FX 커넥터의 FX 커넥트 보관하는 Microsoft 365.
 
-![17a-커넥트 FX 데이터 보관 워크플로](../media/FXConnectDataParserConnectorWorkflow.png)
+![FX용 보관 워크플로는 커넥트 17a-4의 데이터를 보관합니다.](../media/FXConnectDataParserConnectorWorkflow.png)
 
 1. 조직은 17a-4와 함께 작업하여 DataParser에서 FX 커넥트 구성합니다.
 

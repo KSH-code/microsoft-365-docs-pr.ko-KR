@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 5b585fb5ada85bfedebc4787620c70a610143a79
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 4bd6726550e444ffc31e241b8fb5c52c9967a267
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533318"
+ms.locfileid: "58570668"
 ---
 # <a name="onboard-the-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드
 
@@ -43,7 +43,7 @@ ms.locfileid: "58533318"
 
 ## <a name="onboard-devices-using-group-policy"></a>그룹 정책을 사용하여 장치 온보딩
 
-[![다양한 배포 경로를 보여 주며 PDF 이미지](images/onboard-gp.png)](images/onboard-gp.png#lightbox)
+[![다양한 배포 경로를 보여 주며 PDF의 이미지입니다.](images/onboard-gp.png)](images/onboard-gp.png#lightbox)
 
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
@@ -179,7 +179,7 @@ Microsoft MAPS에 가입|사용, 고급 지도
 
    그러면 각 감사에 대해 설정됩니다.
 
-   ![공격 표면 축소 구성 이미지](images/asr-guid.png)
+   ![공격 표면 축소 구성의 이미지입니다.](images/asr-guid.png)
 
 정책|설정
 ---|---
@@ -241,53 +241,51 @@ Microsoft MAPS에 가입|사용, 고급 지도
 새 그룹 정책을 만들거나 이러한 설정을 다른 정책과 함께 그룹화합니다. 이는 고객 환경 및 다양한 OU(조직 구성 단위)를 대상으로 하여 서비스를 롤아웃하는 방법에 따라 달라집니다.
 
 1. GP를 선택하거나 새 GP를 만든 후 GP를 편집합니다.
-2. 컴퓨터 구성 **정책** 관리 템플릿 및 \>  \>  \> **Windows 구성 요소 Microsoft Defender 바이러스 백신** \>  \> **검색합니다.**
+2. 컴퓨터 구성 **정책** 관리 템플릿 및  >    >    >  **Windows 구성 요소 Microsoft Defender 바이러스 백신**  >    >  **검색합니다.**
+:::image type="content" source="images/realtime-protect.png" alt-text="실시간 보호.":::
+1. Quarantine 폴더에서 항목을 Quarantine 폴더에서 제거하도록 구성합니다.
 
-   :::image type="content" source="images/realtime-protect.png" alt-text="실시간 보호":::
+    :::image type="content" source="images/removal-items-quarantine1.png" alt-text="제거 항목 폴더를 분리합니다.":::
 
-3. Quarantine 폴더에서 항목을 Quarantine 폴더에서 제거하도록 구성합니다.
-
-    :::image type="content" source="images/removal-items-quarantine1.png" alt-text="제거 항목 분리 폴더":::
-
-    :::image type="content" source="images/config-removal-items-quarantine2.png" alt-text="config-removal quarantine":::
+    :::image type="content" source="images/config-removal-items-quarantine2.png" alt-text="config-removal quarantine.":::
 
 4. 검사 폴더에서 검사 설정을 구성합니다.
 
-    :::image type="content" source="images/gpo-scans.png" alt-text="gpo 검사":::
+    :::image type="content" source="images/gpo-scans.png" alt-text="gpo 검사.":::
 
 ### <a name="monitor-all-files-in-real-time-protection"></a>실시간 보호로 모든 파일 모니터링
 
 컴퓨터 구성 **정책** 관리 템플릿 및 \>  \>  \> **Windows 구성 요소 Microsoft Defender 바이러스 백신** \>  \> **검색합니다.**
 
-:::image type="content" source="images/config-monitor-incoming-outgoing-file-act.png" alt-text="들어오는 파일 활동에 대한 모니터링 구성":::
+:::image type="content" source="images/config-monitor-incoming-outgoing-file-act.png" alt-text="들어오는 파일 활동에 대한 모니터링을 구성합니다.":::
 
 ### <a name="configure-windows-defender-smart-screen-settings"></a>스마트 Windows Defender 설정 구성
 
 1. Computer **Configuration** \> **Policies** \> **Administrative Templates** \> **Windows Components Windows Defender** \> **SmartScreen** \> **Explorer로 연결합니다.**
 
-    :::image type="content" source="images/config-windows-def-smartscr-explorer.png" alt-text="Windows Defender 스마트 화면 탐색기 구성":::
+    :::image type="content" source="images/config-windows-def-smartscr-explorer.png" alt-text="Windows Defender 스마트 화면 탐색기를 구성합니다.":::
+ 
+2. Computer **Configuration**  >  **Policies**  >  **Administrative Templates**  >  **Windows Components Windows Defender**  >  **SmartScreen**  >  Microsoft Edge.
 
-2. Computer **Configuration** \> **Policies** \> **Administrative Templates** \> **Windows Components Windows Defender** \> **SmartScreen** \> Microsoft Edge.
-
-    :::image type="content" source="images/config-windows-def-smartscr-explorer.png" alt-text="Windows Defender 스마트 화면 에지 구성":::
+    :::image type="content" source="images/config-windows-def-smartscr-explorer.png" alt-text="config windows defender smart screen Edge.":::
 
 ### <a name="configure-potentially-unwanted-applications"></a>잠재적으로 원치 않는 응용 프로그램 구성
 
 컴퓨터 구성 **정책** 관리 템플릿 Windows \>  \>  \> **구성 요소 Microsoft Defender 바이러스 백신.** \> 
 
-:::image type="content" source="images/config-potential-unwanted-apps.png" alt-text="잠재적 원치 않는 앱 구성":::
+:::image type="content" source="images/config-potential-unwanted-apps.png" alt-text="잠재적 원치 않는 앱을 구성합니다.":::
 
-:::image type="content" source="images/config-potential-unwanted-apps2.png" alt-text="구성 잠재력":::
+:::image type="content" source="images/config-potential-unwanted-apps2.png" alt-text="config potential.":::
 
 ### <a name="configure-cloud-deliver-protection-and-send-samples-automatically"></a>클라우드 보호 구성 및 자동으로 샘플 보내기
 
 MAPS에서 **컴퓨터** 구성 정책 관리 \>  \>  \> **템플릿 Windows 구성** \> **Microsoft Defender 바이러스 백신** \> **찾아볼 수 있습니다.**
 
-:::image type="content" source="images/gpo-maps1.png" alt-text="maps":::
+:::image type="content" source="images/gpo-maps1.png" alt-text="maps.":::
 
-:::image type="content" source="images/gpo-maps-block-atfirst-sight.png" alt-text="차단 시 차단":::
+:::image type="content" source="images/gpo-maps-block-atfirst-sight.png" alt-text="차단 시 차단합니다.":::
 
-:::image type="content" source="images/gpo-maps-join-ms-maps.png" alt-text="Microsoft 지도 조인":::
+:::image type="content" source="images/gpo-maps-join-ms-maps.png" alt-text="Microsoft 지도에 가입합니다.":::
 
 :::image type="content" source="images/send-file-sample-further-analysis-require.png" alt-text="추가 분석이 필요한 경우 파일 샘플 보내기":::
 
@@ -295,18 +293,18 @@ MAPS에서 **컴퓨터** 구성 정책 관리 \>  \>  \> **템플릿 Windows 구
 
 컴퓨터 구성 **정책** 관리 템플릿 및 \>  \>  \> **Windows 구성 요소** \> **Microsoft Defender 바이러스 백신** \> **업데이트 찾아보기**
 
-:::image type="content" source="images/signature-update-1.png" alt-text="서명 업데이트":::
+:::image type="content" source="images/signature-update-1.png" alt-text="서명 업데이트.":::
 
-:::image type="content" source="images/signature-update-2.png" alt-text="서명 정의 업데이트":::
+:::image type="content" source="images/signature-update-2.png" alt-text="서명 정의 업데이트.":::
 
 ### <a name="configure-cloud-deliver-timeout-and-protection-level"></a>클라우드 제공 시간 제한 및 보호 수준 구성
 
  \>  \>  \>  \>  \> **MpEngine의** 컴퓨터 구성 정책 관리 템플릿 Windows 구성 Microsoft Defender 바이러스 백신 찾아볼 수 있습니다.
 클라우드 보호 수준 정책을 **Default Microsoft Defender 바이러스 백신 차단** 정책으로 구성하면 정책이 비활성화됩니다. 이는 보호 수준을 Windows 기본값으로 설정하는 데 필요한 것입니다.
 
-:::image type="content" source="images/config-extended-cloud-check.png" alt-text="클라우드 검사 구성":::
+:::image type="content" source="images/config-extended-cloud-check.png" alt-text="클라우드 검사를 구성합니다.":::
 
-:::image type="content" source="images/cloud-protection-level.png" alt-text="구성 클라우드 보호 수준":::
+:::image type="content" source="images/cloud-protection-level.png" alt-text="클라우드 보호 수준 구성.":::
 
 ## <a name="related-topics"></a>관련 항목
 

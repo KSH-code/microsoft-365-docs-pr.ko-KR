@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 최상위 도메인 메일 흐름 상태 정보를 사용하여 MX 레코드와 & 메일 흐름 문제를 해결하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e0258aeb57f9821091f29f884a42266da47e63dee4adf44a99b3f22154549d19
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9c0c0eed3cffaadd76f18b9b446ac14873712f6f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56786310"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574559"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 메일 흐름 상태 정보
 
@@ -34,7 +34,7 @@ ms.locfileid: "56786310"
 
 이 인사이트는 메일 흐름 문제가 발생하는 도메인을 식별하고 ***문제를 해결하는 데 도움이*** 됩니다. 예를 들어 도메인이 만료되었거나 도메인에 잘못된 MX 레코드가 있기 때문에 도메인에서 외부 전자 메일을 받을 수 없습니다.
 
-![보안 및 준수 센터의 메일 흐름 대시보드에서 & 흐름 상태 위젯](../../media/mfi-top-domain-mail-flow-status-widget.png)
+![보안 및 준수 센터의 메일 흐름 대시보드에 있는 & 흐름 상태 위젯입니다.](../../media/mfi-top-domain-mail-flow-status-widget.png)
 
 위젯에서 **세부 정보** 보기를 클릭하면  각 도메인의 상태에 대한 자세한 정보가 표시하는 도메인 상태 플라이아웃이 나타납니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "56786310"
 
 더 보기를 **클릭하여** 더 많은 도메인에 대한 동일한 정보를 볼 수 있습니다.
 
-![최상위 도메인 메일 흐름 상태 정보의 세부 정보 플라이아웃](../../media/mfi-top-domain-mail-flow-status-view-details.png)
+![최상위 도메인 메일 흐름 상태 정보의 플라이아웃 세부 정보](../../media/mfi-top-domain-mail-flow-status-view-details.png)
 
 ## <a name="see-also"></a>참고 항목
 

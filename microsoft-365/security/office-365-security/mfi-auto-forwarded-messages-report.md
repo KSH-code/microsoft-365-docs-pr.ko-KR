@@ -12,12 +12,12 @@ ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 자동 전달된 메시지 & 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e0c03321b1bdada7145a19d0d2147594eb039c716b61feebbf26c4becab286f3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 94700aa4fc08d0c462aa186a0f0847d73151a82a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56815715"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574571"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 전달된 메시지 정보
 
@@ -30,7 +30,7 @@ ms.locfileid: "56815715"
 
 Security  & [Compliance Center의](https://protection.office.com) 메일 [](mail-flow-insights-v2.md) 흐름 대시보드에 있는 자동 전달 메시지 인사이트에는 조직에서 외부 도메인의 받는 사람에게 자동으로 전달되는 메시지에 대한 정보가 표시됩니다.
 
-![보안 및 준수 센터의 자동 전달 & 위젯](../../media/mfi-auto-forwarded-messages.png)
+![보안 및 준수 센터의 자동 전달 & 위젯입니다.](../../media/mfi-auto-forwarded-messages.png)
 
 ## <a name="auto-forwarded-messages-details"></a>자동 전달된 메시지 세부 정보
 
@@ -51,7 +51,7 @@ Security  & [Compliance Center의](https://protection.office.com) 메일 [](mail
   - **새 사용자(지난 주)**
   - 자세한 내용은 [전달](mfi-new-users-forwarding-email.md#forwarding-modifications-report) 수정 내용 보고서에 대한 링크입니다.
 
-![보안 및 준수 센터의 자동 전달된 메시지 보고서에 대한 & 플라이아웃](../../media/mfi-auto-forwarded-messages-details.png)
+![보안 및 준수 센터의 자동 전달 메시지 보고서에 대한 & 플라이아웃합니다.](../../media/mfi-auto-forwarded-messages-details.png)
 
 ## <a name="insights"></a>인사이트
 

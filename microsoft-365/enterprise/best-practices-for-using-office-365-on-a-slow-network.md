@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 저속 네트워크에서 데이터를 사용하는 경우 채택할 수 Office 365 모범 사례를 안내합니다.
-ms.openlocfilehash: b09fe2a38cd98a09e7d6375abccb0486b59c34c092f60c78144ebc695453f7c6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 928e2156a6d559fab4b838118d972a4ae730e328
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819601"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575135"
 ---
 # <a name="best-practices-for-using-office-365-on-a-slow-network"></a>속도가 느린 네트워크에서 Office 365 모범 사례
 
@@ -40,7 +40,7 @@ ms.locfileid: "53819601"
 
 ### <a name="major-factors-that-affect-network-performance"></a>네트워크 성능에 영향을 주는 주요 요인
 
-![네트워크 성능 요인](../media/62a94322-3f1a-4d2d-bbdc-2aa0722d2d96.png)
+![네트워크 성능 요인.](../media/62a94322-3f1a-4d2d-bbdc-2aa0722d2d96.png)
 
  **대역폭 및 대기 시간:** 네트워크 성능에 대한 가장 중요한 두 가지 측정값은 대역폭과 대기 시간입니다.
 

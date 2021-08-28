@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 0968717e-b61f-4b06-987c-6c1464541782
 description: Microsoft Bookings에서 직원의 근무 시간 및 가용성을 설정할 수 있습니다.
-ms.openlocfilehash: 04e6d3e079fec1c75536f3ac30dbab12026dabe2207f985b87410af77a7b832f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9fffee6addd5f2d816fc7639661f2e03f53a96de
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53803790"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575039"
 ---
 # <a name="employee-working-hours-in-microsoft-bookings"></a>Microsoft Bookings의 직원 작업 시간
 
@@ -34,13 +34,13 @@ ms.locfileid: "53803790"
 
 1. 탐색 창에서 직원 을 선택한 다음 시간을 설정할 직원 구성원을 선택합니다.
 
-   ![이름이 강조 표시된 Bookings 직원 화면의 이미지](../media/bookings-staff-name-highlight.png)
+   ![이름이 강조 표시된 Bookings 직원 화면의 이미지입니다.](../media/bookings-staff-name-highlight.png)
 
 1. 작업 시간에서 업무 시간 사용 **확인란의** 선택을 취소합니다.
 
 1. 드롭다운을 사용하여 각 일의 시작 및 종료 시간을 선택합니다. 시간은 15분 증분으로 제공됩니다.
 
-   ![Bookings 직원 작업 시간 화면의 이미지](../media/bookings-staff-hours.png)
+   ![Bookings 직원 작업 시간 화면의 이미지입니다.](../media/bookings-staff-hours.png)
 
 1. 시작 및 종료 시간 선택을 **+** 클릭하여 추가합니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "53803790"
 
 1. 작업 시간 화면에서 직원이 퇴사할 날 옆에 있는 **x를** 선택합니다.
 
-   ![X 단추 위에 마우스를 놓은 Bookings 직원의 작업 시간 화면 이미지](../media/bookings-staff-time-off.png)
+   ![X 단추 위에 마우스를 놓은 Bookings 직원의 작업 시간 화면 이미지.](../media/bookings-staff-time-off.png)
 
 1. 이전에 해제로 표시된 날을 예약하려면 예약하려는 날 다음에 오는 **+** 기호를 선택합니다.
 

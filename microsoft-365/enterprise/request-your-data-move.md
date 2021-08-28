@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 기존 Office 365 고객은 해당 국가가 새 지역으로 Microsoft 365 요청을 제출해야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbd1984520019296026bc5f57328a20837591c27830f4fe9b32fc425123b6550
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fa3464a33143f442a38adb8693bb77b9d174114d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574679"
 ---
 # <a name="how-to-request-your-data-move"></a>데이터 이동을 요청하는 방법
 
@@ -56,7 +56,7 @@ ms.locfileid: "53904646"
   
 테넌트가 Microsoft 365 프로그램 이동을 사용할 수 없는 경우 이 섹션이 Microsoft 365 않습니다.  조직에 데이터 보관 요구 사항이 있으며 마이그레이션을 요청해야 하는 경우 확인란을 표시한 다음 저장 을 **표시하세요.**
   
-![데이터 센터 옵트인 작업 화면](../media/dataresidencyflyoutae.jpg)
+![데이터 센터 옵트인 작업 화면입니다.](../media/dataresidencyflyoutae.jpg)
   
 데이터 유지 **섹션의** 텍스트는 조직에서 데이터를  적절한 국가 및 날짜로 이동하도록 요청했다는 것을 나타내기 위해 변경됩니다. 메시지 센터에도 확인 메시지가 표시됩니다. 이렇게 하여 이동을 요청한 것입니다. 
   

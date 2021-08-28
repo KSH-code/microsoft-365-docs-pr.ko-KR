@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 ms.custom: seo-marvel-apr2020
 description: 관리자는 PST 파일을 하드 드라이브에 복사한 다음 Microsoft로 Microsoft 365 사서함으로 PST 파일을 대량으로 가져오는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 4c4509301a6bf4c2807b89fc9fe005522e36989f6712236efda8d917851bee02
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d5f0fee4808d479ff4a80f4d2152b2cc8a983eb6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813807"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575303"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files"></a>드라이브 배송을 사용하여 조직의 PST 파일 가져오기
 
@@ -55,7 +55,7 @@ For frequently asked questions about using drive shipping to import PST files to
 
 - PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기/내보내기 역할을 할당한 후 구성원으로 자신을 추가할 수 있습니다. 자세한 내용은 [역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 “역할 그룹에 역할 추가” 또는 “역할 그룹 만들기” 섹션을 참조하세요.
     
-    또한 가져오기 작업에서 가져오기 작업을 Microsoft 365 규정 준수 센터 다음 중 하나에 해당해야 합니다.
+    또한 Microsoft 365 규정 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나를 충족해야 합니다.
     
   - Exchange Online에서 전자 메일 받는 사람 역할을 할당받아야 합니다. 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 기본값으로 할당됩니다.
     
@@ -124,7 +124,7 @@ For frequently asked questions about using drive shipping to import PST files to
     > [!NOTE]
     > 앞서 설명한 것 처럼 가져오기 페이지에 액세스하려면  적절한 사용 권한을 할당해야 Microsoft 365 규정 준수 센터. 
   
-3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 새로 만들기** 를 클릭합니다.
+3. 가져오기 **탭에서** 아이콘 ![ 추가를 클릭합니다.](../media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업 입니다.**
     
 4. 가져오기 작업 마법사에서 PST 가져오기 작업의 이름을 입력하고 다음 을 **클릭합니다.** 소문자, 숫자, 하이픈 및 밑줄을 사용하세요. 이름에는 대문자를 사용하거나 공백을 포함할 수 없습니다.
     
@@ -245,7 +245,7 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
     | `ContentCodePage` <br/> |이 선택적 매개 변수는 ANSI 파일 형식으로 PST 파일을 가져오는 데 사용할 코드 페이지의 숫자 값을 지정합니다. 이 매개 변수는 중국어, 일본어 및 한국어 (CJK) 조직에서 PST 파일을 가져오는 데 사용됩니다. 이러한 언어는 일반적으로 문자 인코딩에 2 바이트 문자 세트 (DBCS)를 사용하기 때문입니다. 사서함 폴더 이름으로 DBCS를 사용하는 언어의 PST 파일을 가져오는 데 이 매개 변수를 사용하지 않으면, 가져온 후에 폴더 이름이 왜곡되는 경우가 많습니다.  <br/> 이 매개 변수를 사용하는 데 지원되는 값의 목록은 [코드 페이지 식별자](/windows/win32/intl/code-page-identifiers)를 참조하세요.  <br/> > [!NOTE]> 앞서 언급했듯이 이 매개 변수는 선택적 매개 변수이며 CSV 파일에 포함할 사항이 없습니다. 또는 포함하고 하나 이상의 행에 대해 값을 비워둘 수 있습니다.           |(공백으로 둠)  <br/> 또는  <br/>  `932` (ANSI/OEM 일본어에 대한 코드 페이지 식별자)  <br/> |
     | `SPFileContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
     | `SPManifestContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
-    | `SPSiteUrl` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
+    | `SPSiteUrl` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 사항 없음  <br/> |
 
 ## <a name="step-4-create-a-pst-import-job-in-office-365"></a>4단계: Office 365에서 PST 가져오기 작업 만들기
 
@@ -255,7 +255,7 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
 
 2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 **거버넌스 가져오기 를** \> **클릭합니다.**
 
-3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 새로 만들기** 를 클릭합니다.
+3. 가져오기 **탭에서** 아이콘 ![ 추가를 클릭합니다.](../media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업 입니다.**
 
     > [!NOTE]
     > 앞서 설명한 것 처럼 가져오기 페이지에 액세스하려면  적절한 사용 권한을 할당해야 Microsoft 365 규정 준수 센터.
@@ -270,7 +270,7 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
   
 7. 드라이브 **파일 선택 페이지에서** 드라이브 파일 선택을 클릭한 다음 드라이브 도구가 WAImportExport.exe 폴더로 이동합니다. 2단계에서 만든 저널 파일이 이 폴더에 복사되었습니다.
 
-    ![드라이브 파일 선택을 클릭하여 WAImportExport.exe 실행 시 만든 저널 파일을 제출합니다.](../media/1ea35c04-bd88-4d7e-b7d9-dc390149d94f.png)
+    ![드라이브 파일 선택을 클릭하여 WAImportExport.exe 실행한 저널 파일을 제출합니다.](../media/1ea35c04-bd88-4d7e-b7d9-dc390149d94f.png)
   
 8. 저널 파일을 선택합니다. 예를 들면 `PSTHDD1.jrn` 입니다.
 
@@ -288,13 +288,13 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
   
 10. Microsoft에 발송하는 각 하드 드라이브에 대해 저널 파일을 추가하고 유효성을 검사한 후 다음 을 **클릭합니다.**
     
-11. 아이콘 ![ 추가 매핑 파일 ](../media/ITPro-EAC-AddIcon.gif) **선택을 클릭하여** 3단계에서 만든 PST 가져오기 매핑 파일을 제출합니다. 
+11. 아이콘 ![ 추가를 클릭합니다.](../media/ITPro-EAC-AddIcon.gif) **매핑 파일을 선택하여** 3단계에서 만든 PST 가져오기 매핑 파일을 제출합니다. 
 
     ![매핑 파일 선택을 클릭하여 가져오기 작업을 위해 만든 CSV 파일을 제출합니다.](../media/d30b1d73-80bb-491e-a642-a21673d06889.png)
   
 12. CSV 파일 이름이 **매핑 파일 이름** 아래에 나타나면 **유효성 검사** 를 클릭하여 CSV 파일에 오류가 있는지 확인합니다. 
 
-    ![유효성 검사를 클릭하여 CSV 파일에 오류가 있는지 검사하기](../media/4680999d-5538-4059-b878-2736a5445037.png)
+    ![유효성 검사를 클릭하여 CSV 파일에서 오류를 검사합니다.](../media/4680999d-5538-4059-b878-2736a5445037.png)
   
     PST 가져오기 작업을 만들려면 CSV 파일의 유효성 검사를 성공적으로 완료해야 합니다. 파일의 유효성 검사를 성공적으로 완료하면 파일 이름이 녹색으로 변경됩니다. 유효성 검사에 실패할 경우 **로그 보기** 링크를 클릭합니다. 실패한 파일의 각 행에 대한 오류 메시지를 포함한 유효성 검사 오류 보고서가 열립니다. 
 
@@ -308,7 +308,7 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
 
     가져오기 작업이 만들어지면 드라이브 배송 프로세스의 다음 단계를 설명하는 상태 페이지가 표시됩니다.
 
-16. 가져오기 **탭에서** 새로 고침 아이콘 새로 고침을 클릭하여 가져오기 작업 목록에 새 드라이브 ![ 배송 ](../media/O365-MDM-Policy-RefreshIcon.gif)  가져오기 작업을 표시합니다. 상태는 추적 번호 **대기 중으로 설정됩니다.** 가져오기 작업을 클릭하여 가져오기 작업의 자세한 정보가 포함된 상태 플라이아웃 페이지를 표시할 수 있습니다.
+16. 가져오기 **탭에서** 새로 ![ 고침 아이콘을 클릭합니다.](../media/O365-MDM-Policy-RefreshIcon.gif) **새로** 고쳐서 가져오기 작업 목록에 새 드라이브 배송 가져오기 작업을 표시합니다. 상태는 추적 번호 **대기 중으로 설정됩니다.** 가져오기 작업을 클릭하여 가져오기 작업의 자세한 정보가 포함된 상태 플라이아웃 페이지를 표시할 수 있습니다.
 
 ## <a name="step-5-ship-the-hard-drive-to-microsoft"></a>5단계: Microsoft로 하드 드라이브 발송
 
@@ -353,7 +353,7 @@ Microsoft에 하드 드라이브를 발송한 후 가져오기 서비스 페이�
 
 6. **저장** 을 클릭하여 가져오기 작업에 대한 이 정보를 저장합니다. 
 
-    가져오기 **탭에서** 새로 고침 아이콘 새로 고침을 클릭하여 드라이브 배송 가져오기 작업의 정보를 ![ ](../media/O365-MDM-Policy-RefreshIcon.gif)  업데이트합니다. 상태는 이제 **드라이브 전송 중** 으로 설정됩니다.
+    가져오기 **탭에서** 새로 ![ 고침 아이콘을 클릭합니다.](../media/O365-MDM-Policy-RefreshIcon.gif) **Refresh** to update the information for your drive shipping import job. 상태는 이제 **드라이브 전송 중** 으로 설정됩니다.
 
 ## <a name="step-6-filter-data-and-start-the-pst-import-job"></a>6단계: 데이터 필터링 및 PST 가져오기 작업 시작
 
@@ -373,7 +373,7 @@ PST 파일이 Azure에 업로드되고 나면 상태가 **Analysis in progress�
 
 5. **데이터 필터링** 페이지가 표시됩니다. 여기에는 데이터 수명에 대한 정보를 포함하여 Office 365의 PST 파일에서 수행한 분석에서 얻은 데이터 인사이트가 포함되어 있습니다. 이 시점에서 모든 데이터를 그대로 가져 오거나 가져올 데이터를 필터링할 수 있습니다. 
 
-    ![PST 파일의 데이터를 트리밍하거나 또는 모든 파일을 가져올 수 있습니다](../media/287fc030-99e9-417b-ace7-f64617ea5d4e.png)
+    ![PST 파일의 데이터를 트리밍하거나 모든 데이터를 가져올 수 있습니다.](../media/287fc030-99e9-417b-ace7-f64617ea5d4e.png)
   
 6. 다음 중 하나를 수행합니다.
 
@@ -387,7 +387,7 @@ PST 파일이 Azure에 업로드되고 나면 상태가 **Analysis in progress�
 
 7. 모든 데이터를 가져 오도록 선택한 경우 **데이터 가져오기** 를 클릭하여 가져오기 작업을 시작합니다. 
 
-    가져오기 작업의 상태가 PST 파일 **가져오기 페이지에** 표시됩니다. ![새로 고침 아이콘](../media/O365-MDM-Policy-RefreshIcon.gif) **새로 고침** 을 클릭하여 **상태** 열에 표시되는 상태 정보를 업데이트합니다. 가져오기 작업을 클릭하여 가져오는 각 PST 파일에 대한 상태 정보를 표시하는 상태 플라이 아웃 페이지를 표시합니다. 가져오기가 완료되고 PST 파일이 사용자 사서함으로 가져오기되면 상태는 **완료** 로 바뀝니다.
+    가져오기 작업의 상태가 PST 파일 **가져오기 페이지에** 표시됩니다. 새로 ![ 고침 아이콘을 클릭합니다.](../media/O365-MDM-Policy-RefreshIcon.gif) **상태** 열에 표시되는 상태 정보를 업데이트합니다.  가져오기 작업을 클릭하여 가져오는 각 PST 파일에 대한 상태 정보를 표시하는 상태 플라이 아웃 페이지를 표시합니다. 가져오기가 완료되고 PST 파일이 사용자 사서함으로 가져오기되면 상태는 **완료** 로 바뀝니다.
 
 ## <a name="view-a-list-of-the-pst-files-uploaded-to-microsoft-365"></a>서버에 업로드된 PST 파일 목록을 Microsoft 365
 
@@ -404,7 +404,7 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
 
 2. Microsoft 365 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스 > 가져오기** 를 클릭합니다.
 
-3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **가져오기 작업 새로 만들기** 를 클릭합니다.
+3. 가져오기 **탭에서** 아이콘 ![ 추가를 클릭합니다.](../media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업 입니다.**
 
 4. 가져오기 작업 마법사에서 PST 가져오기 작업의 이름을 입력하고 다음 을 **클릭합니다.** 소문자, 숫자, 하이픈 및 밑줄을 사용하세요. 이름에는 대문자를 사용하거나 공백을 포함할 수 없습니다.
 
@@ -423,7 +423,7 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
 
 10. Microsoft Azure 저장소 탐색기를 시작하고 왼쪽 창에서 **저장소 계정** 을 마우스 오른쪽 단추로 클릭한 다음 **Azure 저장소에 연결** 을 클릭합니다.
 
-    ![저장소 계정을 마우스 오른쪽 단추로 클릭한 다음 Azure 저장소에 연결을 클릭합니다.](../media/75b80cc3-c336-4f96-ad32-54ac9b96a7af.png)
+    ![계정 Storage 마우스 오른쪽 단추로 클릭한 다음 커넥트 클릭하여 Azure Storage.](../media/75b80cc3-c336-4f96-ad32-54ac9b96a7af.png)
   
 11. **SAS (공유 액세스 서명) URI 또는 연결 문자열 사용** 을 클릭하고 **다음** 을 클릭합니다.
 
@@ -433,11 +433,11 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
 
     **Ingestiondata** 컨테이너를 엽니다. 하드 드라이브의 PST 파일이 들어 있습니다. **ingestiondata** 컨테이너는 **저장소 계정** \> **(SAS 연결 서비스)** \> **Blob 컨테이너** 아래에 있습니다.
 
-    ![Azure 저장소 탐색기는 업로드한 PST 파일 목록을 표시합니다.](../media/12376fed-13a5-4a09-8fe6-e819e011b334.png)
+    ![Azure Storage Explorer 업로드한 PST 파일의 목록이 표시됩니다.](../media/12376fed-13a5-4a09-8fe6-e819e011b334.png)
   
 14. Microsoft Azure 저장소 탐색기 사용을 마치게 되면 **ingestiondata** 를 마우스 오른쪽 단추로 클릭한 다음 **분리** 를 클릭하여 Azure 저장소 영역에서 연결을 끊습니다. 그렇지 않으면 다음에 연결할 때 오류가 발생합니다. 
 
-    ![ingestion을 마우스 오른쪽 단추로 클릭하고 분리를 클릭하여 Azure 저장소 영역에서 연결을 끊습니다.](../media/1e8e5e95-4215-4ce4-a13d-ab5f826a0510.png)
+    ![Ingestion을 마우스 오른쪽 단추로 클릭하고 분리를 클릭하여 사용자 Azure Storage 분리합니다.](../media/1e8e5e95-4215-4ce4-a13d-ab5f826a0510.png)
 
 ## <a name="troubleshooting-tips"></a>문제 해결 팁
 

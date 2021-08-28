@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: acddaecf5a845c442a7c3acfe967057abee9502fb9f1ef0179dd138418c564db
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7d9dad6b2f2f1b37525faf0a4a90d143650c49d1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53811475"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570368"
 ---
 # <a name="behavioral-blocking-and-containment"></a>동작 차단 및 제약
 
@@ -40,7 +40,7 @@ ms.locfileid: "53811475"
 
 동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리에 따라 위협을 식별하고 중지하는 데 도움이 될 수 있습니다. 엔드포인트 구성 요소 및 기능에 대한 차세대 보호, EDR 및 Defender는 동작 차단 및 포함 기능에서 함께 작동됩니다.
 
-:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="동작 차단 및 제약":::
+:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="동작 차단 및 포함.":::
 
 동작 차단 및 포함 기능은 끝점용 Defender의 여러 구성 요소 및 기능과 함께 작동하여 공격을 즉시 중지하고 공격이 진행되지 않도록 합니다.
 
@@ -97,7 +97,7 @@ Endpoint용 Defender의 동작 기반 장치 학습 모델은 공격 체인에�
 
 공격이 감지되고 중지되는 동안 "초기 액세스 알림"과 같은 경고가 트리거되고 Microsoft 365 Defender [포털에 표시됩니다.](microsoft-defender-security-center.md)
 
-:::image type="content" source="images/behavblockcontain-initialaccessalert.png" alt-text="사이트 포털의 Microsoft 365 Defender 알림":::
+:::image type="content" source="images/behavblockcontain-initialaccessalert.png" alt-text="사이트 포털의 초기 액세스 Microsoft 365 Defender 알림입니다.":::
 
 이 예에서는 실행을 시작한 후에도 클라우드의 동작 기반 장치 학습 모델이 공격으로부터 새로운 보호 계층을 추가하는 방법을 보여 주며,
 
@@ -105,13 +105,13 @@ Endpoint용 Defender의 동작 기반 장치 학습 모델은 공격 체인에�
 
 최근 블로그 게시물 동작 차단 및 [포함:](https://www.microsoft.com/security/blog/2020/03/09/behavioral-blocking-and-containment-transforming-optics-into-protection)2020년 1월에 끝점용 Defender가 조직의 장치에서 권한 에스컬레이터 활동을 감지했습니다. "NTLM 릴레이를 사용하여 가능한 권한 에스컬레이터"라는 경고가 트리거됩니다.
 
-:::image type="content" alt-text="Juicy Malware 맬웨어에 대한 NTLM 경고" source="images/NTLMalertjuicypotato.png" lightbox="images/NTLMalertjuicypotato.png":::
+:::image type="content" alt-text="Juicy Malware 맬웨어에 대한 NTLM 경고입니다." source="images/NTLMalertjuicypotato.png" lightbox="images/NTLMalertjuicypotato.png":::
 
 위협이 맬웨어로 발견되었습니다. 이 도구는 공격자가 디바이스에서 권한 에스컬레이터를 다운로드하는 데 사용되는 주크로(Juicy)라는 의심스러운 해킹 도구의 새로운 변형으로, 볼 수 없습니다.
 
 경고가 트리거된 후 파일이 분석된 후 악성으로 확인된 시간(분)입니다. 다음 이미지와 같이 프로세스가 중지 및 차단되었습니다.
 
-:::image type="content" alt-text="아티팩트 차단" source="images/Artifactblockedjuicypotato.png" lightbox="images/Artifactblockedjuicypotato.png":::
+:::image type="content" alt-text="아티팩트가 차단됩니다." source="images/Artifactblockedjuicypotato.png" lightbox="images/Artifactblockedjuicypotato.png":::
 
 아티팩트가 차단된 후 몇 분 후에 동일한 파일의 여러 인스턴스가 동일한 장치에서 차단되어 더 많은 공격자 또는 기타 맬웨어가 디바이스에 배포되지 못하게 합니다.
 

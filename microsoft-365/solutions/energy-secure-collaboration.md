@@ -13,15 +13,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Priority
 description: Microsoft 365에서는 에너지 회사가 데이터와 시스템을 계속 안전하게 유지하고 규정을 준수하는 한편, 최신 공동 작업 플랫폼으로 전환하도록 도와줍니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 3bf38814593a08de7889ab2e870ca5fecc9165e6be75ce2175358151df38ff5e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a9e104516b203d81ef69058b2d31d4b4c97df39e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53798704"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570380"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>에너지 산업에 대한 주요 규정 준수 및 보안 고려 사항
-![클라우드를 사용하는 다양한 업계 전체 보기를 위한 실제 사례 비유](../media/solution-arch-center/MSC17_global_016.png)
+![클라우드를 사용하는 다양한 업계 전체 보기를 위한 실제 사례 비유.](../media/solution-arch-center/MSC17_global_016.png)
 ## <a name="introduction"></a>소개
 에너지 산업은 사람들이 매일 필요로 하는 연료 및 중요한 인프라를 사회에 공급합니다. 규제 기관은 대규모 전력 시스템과 관련된 인프라의 안정성을 보장하기 위해 에너지 산업 조직에 엄격한 표준을 도입합니다. 이러한 규제 표준은 전력 생산 및 송전뿐만 아니라 에너지 회사의 일상 업무에 중요한 데이터 및 커뮤니케이션과도 관련이 있습니다. 
 

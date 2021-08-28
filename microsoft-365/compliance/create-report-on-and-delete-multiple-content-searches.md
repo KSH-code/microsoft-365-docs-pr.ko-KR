@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: 보안 및 준수 센터 PowerShell을 사용하여 검색 만들기 및 보고서 실행과 같은 콘텐츠 검색 & 방법을 설명합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c49cc0da930d6502df2ae88652c3b9fb23c36d3f
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: fff69aac3ab30e0fe1ea60f9d097602a5390ba87
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508097"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574342"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
@@ -180,7 +180,7 @@ ms.locfileid: "58508097"
 
    스크립트는 검색을 만들고 실행하는 진행률을 표시됩니다. 스크립트가 완료되면 프롬프트로 돌아온 것입니다.
 
-   ![여러 규정 준수 검색을 만드는 스크립트를 실행한 경우의 샘플 출력](../media/37d59b0d-5f89-4dbc-9e2d-0e88e2ed7b4c.png)
+   ![스크립트를 실행하여 여러 준수 검색을 만들 때의 샘플 출력입니다.](../media/37d59b0d-5f89-4dbc-9e2d-0e88e2ed7b4c.png)
 
 ## <a name="step-4-run-the-script-to-report-the-search-estimates"></a>4단계: 스크립트를 실행하여 검색 예상 결과 보고
 
@@ -255,7 +255,7 @@ ms.locfileid: "58508097"
 
    스크립트는 검색을 만들고 실행하는 진행률을 표시됩니다. 스크립트가 완료되면 보고서가 표시됩니다.
 
-   ![검색 보고서를 실행하여 검색 그룹에 대한 예상 결과 표시](../media/3b5f2595-71d5-4a14-9214-fad156c981f8.png)
+   ![검색 보고서를 실행하여 검색 그룹에 대한 예상 정보를 표시합니다.](../media/3b5f2595-71d5-4a14-9214-fad156c981f8.png)
 
 > [!NOTE]
 > 동일한 사서함 또는 사이트가 검색 그룹에서 둘 이상의 검색에서 콘텐츠 위치로 지정된 경우 보고서의 예상 결과(항목 수와 총 크기 모두)에 동일한 항목에 대한 결과가 포함됩니다. 동일한 전자 메일 메시지 또는 문서가 검색 그룹의 여러 검색에 대한 쿼리와 일치하는 경우 두 번 이상 계산이 되거나 문서가 계산되지 않습니다.
@@ -290,4 +290,4 @@ ms.locfileid: "58508097"
 
    스크립트는 삭제된 각 검색의 이름을 표시합니다.
 
-   ![검색 그룹에서 검색을 삭제하기 위한 스크립트 실행](../media/9d97b9d6-a539-4d9b-a4e4-e99989144ec7.png)
+   ![스크립트를 실행하여 검색 그룹에서 검색을 삭제합니다.](../media/9d97b9d6-a539-4d9b-a4e4-e99989144ec7.png)

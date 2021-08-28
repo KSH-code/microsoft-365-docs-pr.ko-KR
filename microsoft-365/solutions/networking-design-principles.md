@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: f259f7379d0b3f723880d8734488b2004581ff6f
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 6ab911fa9ad4e39a59b7acc58cae7686dd330ed4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502054"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574475"
 ---
 # <a name="networking-up-to-the-cloudone-architects-viewpoint"></a>클라우드에 대한 네트워킹 - 설계자 한 1명의 관점에서 볼 수 있습니다.
 
@@ -26,7 +26,7 @@ ms.locfileid: "58502054"
 
 ## <a name="about-the-author"></a>만든 이 정보
 
-![Ed Fisher 사진](../media/solutions-architecture-center/ed-fisher-networking.jpg) 
+![Ed Fisher 사진.](../media/solutions-architecture-center/ed-fisher-networking.jpg) 
 
 현재 소매 및 소비자 제품 팀의 수석 기술 전문가로, 보안 및 규정 준수에 & 있습니다. 지난 10년 동안 고객사로 이동한 Office 365 작업했습니다. 전 세계에 수백만 명의 사용자가 배포된 정부 기관 및 기업에 소수의 장소와 함께 소수의 장소와 함께 일해 보며, 그 사이에는 수만 명의 사용자, 전 세계 다양한 위치에 있는 여러 위치, 높은 수준의 보안 요구 사항 및 다양한 규정 준수 요구 사항과 함께 많은 고객을 유치했습니다. 수백 대기업과 수백만 명의 사용자가 안전하게 클라우드로 이동하는 데 도움을 주었다.
 

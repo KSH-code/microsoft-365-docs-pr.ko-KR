@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 전역 테넌트의 중국 사용자를 위한 네트워크 성능을 최적화하기 위한 Microsoft 365 제공합니다.
-ms.openlocfilehash: 36ae5bf08cfb529c7c6a23b5b3c1a8e17c73f412a0de196296b14226d5ec88a8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 06be7db700114db6111ff7f3c4a8d70e0c3f2243
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864325"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570200"
 ---
 # <a name="microsoft-365-global-tenant-performance-optimization-for-china-users"></a>Microsoft 365 사용자를 위한 전역 테넌트 성능 최적화
 
@@ -32,7 +32,7 @@ ms.locfileid: "53864325"
 
 중국 ISP는 높은 수준의 경계 네트워크 정체에 가까우는 경계 장치를 통과하는 전역 공용 인터넷에 대한 오프사이어 연결을 규제했습니다. 이 정체로 인해 중국으로 들어와서 들어와는 모든 인터넷 트래픽에 대한 패킷 손실 및 대기 시간이 생성됩니다.
 
-![Microsoft 365 트래픽 - 비개인적 트래픽](../media/O365-networking/China-O365-unoptimized.png)
+![Microsoft 365 - 비개인적 트래픽.](../media/O365-networking/China-O365-unoptimized.png)
 
 패킷 손실 및 대기 시간은 네트워크 서비스의 성능에 유해해지며, 특히 큰 데이터 교환(예: 대용량 파일 전송)이 필요하거나 거의 실시간 성능(오디오 및 비디오 응용 프로그램)이 필요한 서비스입니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "53864325"
 
 트래픽을 선택적으로 라우팅하는 방법에 대한 자세한 Microsoft 365 끝점 Office 365 [참조하세요.](managing-office-365-endpoints.md) 전 세계 모든 OFFICE 365 URL 및 IP 주소 목록은 Office 365 URL 및 IP 주소 범위를 [참조하세요.](urls-and-ip-address-ranges.md)
 
-![Microsoft 365 트래픽 - 최적화](../media/O365-networking/China-O365-optimized.png)
+![Microsoft 365 트래픽 - 최적화됩니다.](../media/O365-networking/China-O365-optimized.png)
 
 ## <a name="user-best-practices"></a>사용자 모범 사례
 

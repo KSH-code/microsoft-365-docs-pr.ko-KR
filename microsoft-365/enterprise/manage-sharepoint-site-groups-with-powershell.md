@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: 이 문서에서는 PowerShell을 사용하여 온라인 사이트 Microsoft 365 관리하기 위한 SharePoint 있습니다.
-ms.openlocfilehash: 2004d4720eb693cb2a9bd0a7304f9c2e2cc5ab58
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 975c6ee7e1b3d62bf5a4c06791ed510b8fa61c31
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58353706"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575123"
 ---
 # <a name="manage-sharepoint-online-site-groups-with-powershell"></a>PowerShell을 SharePoint 온라인 사이트 그룹 관리
 
@@ -70,7 +70,7 @@ C:\Scripts\SiteGroupsAndUsers.ps1
 
 두 경우 모두 이와 유사한 것을 볼 수 있습니다.
 
-![SharePoint 온라인 사이트 그룹](../media/SPO-site-groups.png)
+![SharePoint 온라인 사이트 그룹.](../media/SPO-site-groups.png)
 
 이러한 그룹은 사이트에 대해 만들어진 모든 그룹 및 해당 그룹에 할당된 `https://litwareinc.sharepoint.com/sites/finance` 모든 사용자입니다. 그룹 이름은 구성원과 그룹 이름을 구분하는 데 도움이 있도록 노란색입니다.
 

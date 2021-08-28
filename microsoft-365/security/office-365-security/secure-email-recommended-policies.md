@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 755dbd892d5e772a2bfda3b8e6e959027b74815a2e69ab27659f7f5e4a29bf26
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: de1a66fcf2b057e2f1254d64286b521928d2c560
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53805251"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570392"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
@@ -43,7 +43,7 @@ ms.locfileid: "53805251"
 
 다음 다이어그램에서는 전자 메일을 보호하기 위해 공통 ID 및 장치 액세스 정책에서 업데이트할 정책을 보여 제공합니다.
 
-[![사용자 및 해당 종속 서비스에 대한 액세스를 Teams 정책 업데이트 요약](../../media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
+[![사용자 및 해당 종속 서비스에 대한 액세스를 보호하기 위한 Teams 업데이트 요약입니다.](../../media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
 
 ActiveSync 클라이언트를 차단하는 Exchange Online 새 정책이 추가되었습니다. 따라서 모바일을 강제로 Outlook 합니다.
 
@@ -112,7 +112,7 @@ Azure Information Protection의 보호 기능을 활용하는 새로운 OME(Offi
 
 ## <a name="next-steps"></a>다음 단계
 
-![4단계: 클라우드 Microsoft 365 정책](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![4단계: 클라우드 Microsoft 365 정책.](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 조건부 액세스 정책 구성:
 

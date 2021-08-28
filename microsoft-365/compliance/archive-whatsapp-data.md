@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 WhatsApp 데이터를 가져오고 보관할 수 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 3d329a97948e36f380d0d42dc59555a967c4f25223cdd34a932b99f89ecd9869
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9a56e365b58ce545b62149a44659f21994c03caf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53896131"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574391"
 ---
 # <a name="set-up-a-connector-to-archive-whatsapp-data"></a>WhatsApp 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ WhatsApp 데이터를 사용자 사서함에 저장한 후 소송 보존, Micros
 
 다음 개요에서는 커넥터를 사용하여 WhatsApp 데이터를 커넥터에 보관하는 Microsoft 365.
 
-![WhatsApp 보관 워크플로](../media/WhatsAppConnectorWorkflow.png)
+![WhatsApp 보관 워크플로.](../media/WhatsAppConnectorWorkflow.png)
 
 1. 조직은 TeleMessage와 함께 WhatsApp Archiver 커넥터를 설치합니다. 자세한 내용은 [WhatsApp Archiver를 참조하세요.](https://www.telemessage.com/office365-activation-for-whatsapp-archiver)
 

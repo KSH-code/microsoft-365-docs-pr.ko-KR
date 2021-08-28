@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: 검색 결과에서 콘텐츠 검색의 실제 결과를 내보내는 Microsoft 365 규정 준수 센터 검색 결과 보고서를 내보낼 수 있습니다. 보고서에는 내보낼 각 항목에 대한 자세한 정보가 포함된 검색 결과 및 문서가 요약되어 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5307bab55f838697e63559834653b54f06c86e7
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 56a61bb1cd0fa9952f85d75ae50f42754c583ce7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503098"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570248"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
@@ -73,13 +73,13 @@ Microsoft 365 준수 센터의 콘텐츠 검색(또는 Core eDiscovery 사례와
   
 2. 검색 **플라이아웃** 페이지의 아래쪽에 있는 작업 메뉴에서 보고서 **내보내기 를 클릭합니다.**
 
-   ![작업 메뉴에서 보고서 내보내기 옵션](../media/ActionMenuExportReport.png)
+   ![작업 메뉴에서 보고서 내보내기 옵션입니다.](../media/ActionMenuExportReport.png)
 
    보고서 **내보내기** 플라이아웃 페이지가 표시됩니다. 검색에 대한 정보를 내보내는 데 사용할 수 있는 내보내기 보고서 옵션은 검색 결과가 사서함에 있는지 사이트인지 아니면 둘의 조합인지에 따라 결정됩니다.
   
 3. 출력 **옵션에서** 다음 옵션 중 하나를 선택합니다.
   
-   ![출력 옵션 내보내기](../media/ExportOutputOptions.png)
+   ![출력 옵션을 내보낼 수 있습니다.](../media/ExportOutputOptions.png)
 
     - **인식할** 수 없는 형식의 항목을 제외한 모든 항목은 암호화되거나 다른 이유로 인덱싱되지 않습니다. 이 옵션은 인덱싱된 항목에 대한 정보만 내보낼 수 있습니다.
   
@@ -122,7 +122,7 @@ Microsoft 365 준수 센터의 콘텐츠 검색(또는 Core eDiscovery 사례와
 
 6. **eDiscovery 내보내기 도구에서** 다음을 실행합니다.
 
-   ![eDiscovery 내보내기 도구](../media/eDiscoveryExportTool.png)
+   ![eDiscovery 내보내기 도구.](../media/eDiscoveryExportTool.png)
 
    1. 3단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다.
   

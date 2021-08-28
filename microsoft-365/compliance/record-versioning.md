@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 레코드 관리 솔루션을 구현하는 데 도움이 되는 레코드에 대해 알아봅니다.
-ms.openlocfilehash: be85632bb4b85231f3a95680c960846fa245d97a
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 5e77d38ed6e3b122ceb85a6cff901a09dbe782d1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58506529"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574967"
 ---
 # <a name="use-record-versioning-to-update-records-stored-in-sharepoint-or-onedrive"></a>레코드 버전을 사용하여 SharePoint 또는 OneDrive에 저장된 레코드를 업데이트합니다.
 
@@ -53,14 +53,14 @@ ms.locfileid: "58506529"
 문서가 잠금 해제되는 동안 표준 편집 권한이 있는 모든 사용자는 파일을 편집할 수 있습니다. 그러나 사용자는 파일을 삭제할 수 없습니다. 여전히 레코드이기 때문입니다. 편집이 완료되면 **레코드 상태** 를 **잠금 해제** 에서 **잠금** 으로 전환하여 이 상태에서 추가로 편집이 진행되지 않도록 할 수 있습니다.
 <br/><br/>
 
-![레코드로 태그가 지정된 문서의 레코드 상태 속성](../media/recordversioning8.png)
+![레코드로 태그가 지정된 문서의 레코드 상태 속성.](../media/recordversioning8.png)
 
 ## <a name="locking-and-unlocking-a-record"></a>레코드 잠금 및 잠금 해제
 
 콘텐츠를 레코드로 표시하는 보존 레이블을 문서에 적용한 후 참가 권한 또는 더 적은 권한 수준을 사용하는 모든 사용자가 레코드를 잠금 해제하거나 잠금 해제된 레코드를 잠글 수 있습니다.
 <br/><br/>
 
-![레코드 문서가 잠금 해제됨을 표시하는 레코드 상태](../media/recordversioning9.png)
+![레코드 문서가 잠금 해제됨을 표시하는 레코드 상태.](../media/recordversioning9.png)
 
 사용자가 레코드를 잠금 해제하면 다음 작업이 수행됩니다.
 
@@ -81,7 +81,7 @@ ms.locfileid: "58506529"
 사용자가 레코드의 잠금을 해제할 때마다 최신 버전은 자료 보존 라이브러리에 복사되고 해당 버전에는 버전 기록의 **설명** 필드에 **레코드** 값이 포함됩니다.
 <br/><br/>
 
-![자료 보존 라이브러리에 표시된 레코드](../media/recordversioning10.png)
+![자료 보존 라이브러리에 표시된 레코드.](../media/recordversioning10.png)
 
 버전 기록을 보려면 문서 라이브러리에서 문서를 선택하고 항목 메뉴에서 **버전 기록** 을 클릭합니다.
 
@@ -90,11 +90,11 @@ ms.locfileid: "58506529"
 레코드는 사이트 모음의 최상위 사이트에 있는 자료 보존 라이브러리의 레코드 폴더에 저장됩니다. 최상위 사이트의 왼쪽 탐색 창에서 **사이트 콘텐츠** \> **자료 보존 라이브러리** 을 선택합니다.
 <br/><br/>
 
-![자료 보존 라이브러리](../media/recordversioning11.png)
+![자료 보존 라이브러리.](../media/recordversioning11.png)
 
 <br/><br/>
 
-![자료 보존 라이브러리의 레코드 폴더](../media/recordversioning12.png)
+![자료 보존 라이브러리의 레코드 폴더.](../media/recordversioning12.png)
 
 자료 보존 라이브러리 작동 방식에 대한 자세한 내용은 [SharePoint 및 OneDrive에 대한 보존 작동 방식](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)을 참조하세요.
 

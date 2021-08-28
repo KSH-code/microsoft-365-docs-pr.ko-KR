@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 이 문서에서는 중요한 정보 유형에 대해 간략하게 설명하고 주민등의 보안, 신용 카드 또는 은행 계좌 번호와 같은 중요한 정보를 검색하여 중요한 항목을 식별하는 방법을 제공합니다.
-ms.openlocfilehash: ac293eea8b81125b124265d2546d562393a81f8f
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.openlocfilehash: 6c2f54900c3e08531a57501ff6eda8b2ccc14911
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684007"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574775"
 ---
 # <a name="learn-about-sensitive-information-types"></a>중요한 정보 유형에 대해 자세히 알아보기
 
@@ -65,7 +65,7 @@ ms.locfileid: "58684007"
 ### <a name="example-sensitive-information-type"></a>중요한 정보 유형 예
 
 
-#### <a name="argentina-national-identity-dni-number"></a>아르헨티나 국가 ID(DNI) 번호
+## <a name="argentina-national-identity-dni-number"></a>아르헨티나 국가 ID(DNI) 번호
 
 ### <a name="format"></a>형식
 
@@ -82,7 +82,7 @@ ms.locfileid: "58684007"
 
 ### <a name="checksum"></a>체크섬
 
-아니오
+아니요
 
 ### <a name="definition"></a>정의
 

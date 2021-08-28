@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Microsoft 365 구독에서 클라우드 전용 ID를 사용하는 경우 사용자 및 그룹을 만드는 방법에 대해 설명하는 문서입니다.
-ms.openlocfilehash: fa3bef4b25327b675f18b2ea0bb9dfea15b2a81a
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 9b58b831f2a338e5fb79726b8de66c11bba96d0e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570764"
 ---
 # <a name="microsoft-365-cloud-only-identity"></a>Microsoft 365 전용 ID
 
@@ -39,7 +39,7 @@ ms.locfileid: "58356099"
 
 클라우드 전용 ID를 사용하여 모든 사용자, 그룹 및 연락처는 Azure Active Directory 구독의 Azure Active Directory(Azure AD) 테넌트에 Microsoft 365 저장됩니다. 다음은 클라우드 전용 ID의 기본 구성 요소입니다.
  
-![클라우드 전용 ID의 기본 구성 요소](../media/about-microsoft-365-identity/cloud-only-identity.png)
+![클라우드 전용 ID의 기본 구성 요소입니다.](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
 조직의 사용자 및 해당 사용자 계정은 여러 가지 방법으로 분류할 수 있습니다. 예를 들어 일부는 직원으로, 영구적 상태입니다. 일부는 임시 상태인 공급업체, 계약자 또는 파트너입니다. 사용자 계정이 없지만 상호 작용 및 공동 작업을 지원하기 위해 특정 서비스 및 리소스에 대한 액세스 권한을 부여받아야 하는 외부 사용자도 있습니다. 예시:
 

@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: 지원에 전화하기 전에 Microsoft 365 서비스의 상태를 확인하여 활성 서비스 중단이 있는지 확인하세요.
-ms.openlocfilehash: dc925a1ce1e61f2a67d258c12baabddf29dd880b
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 64a0d4816ce9afdd8ee4bf1c2a4522ef9fc56afc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356339"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570488"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Microsoft 365 서비스 상태를 확인하는 방법
 
@@ -52,7 +52,7 @@ ms.locfileid: "58356339"
 
 3. **서비스 상태** 페이지에서 각 클라우드 서비스의 상태가 표 형식으로 표시됩니다.
 
-   ![서비스 상태의 현재 문제 보기](../media/shd-landing-page.png)
+   ![서비스 상태의 현재 문제 보기.](../media/shd-landing-page.png)
 
 **모든 서비스** 탭(기본 보기)에는 모든 서비스, 현재 상태, 활성 인시던트 또는 권고가 표시됩니다. **상태** 열의 아이콘과 상태는 각 서비스의 상태를 나타냅니다.
 
@@ -99,7 +99,7 @@ Microsoft 365 서비스에 문제가 있고 **서비스 상태** 페이지에 �
 - **사용자 영향** - 이 문제가 최종 사용자에게 미치는 영향에 대한 간략한 설명입니다.
 - **모든 업데이트** - 솔루션 적용 과정에서 진행 상황을 알리기 위해 메시지를 자주 게시합니다.
 
-![문제 세부 정보를 보여주는 스크린샷](../media/service-health-advisory-detail.png)
+![문제 세부 정보를 보여주는 스크린샷.](../media/service-health-advisory-detail.png)
 
 ### <a name="translate-service-health-details"></a>서비스 상태 세부 정보 번역
 
@@ -116,8 +116,8 @@ Microsoft 365 서비스에 문제가 있고 **서비스 상태** 페이지에 �
 
 | 아이콘 | 설명 |
 |:-----|:-----|
-|![Information icon for advisory](../media/a7f5fd21-c760-4948-9bc1-50f7c8070e28.png)|서비스에 권고가 표시되면 Microsoft에서 일부 사용자에게 영향을 미치는 문제를 알고 있지만, 서비스를 계속 사용할 수는 있습니다. 권고에는 일반적으로 문제에 대한 해결 방법이 있으며, 문제가 일시적으로 발생하는 것일 수 있거나 범위 및 사용자 영향에서 제한적입니다.  <br/> |
-|![Exclamation point icon for incident](../media/a636db57-6083-44dc-bbd5-556850804f17.png)|서비스에 활성 인시던트가 표시되면 이 인시던트가 중요 문제이며 서비스 또는 서비스의 주요 기능을 사용할 수 없습니다. 예를 들어 사용자가 전자 메일을 보내고 받을 수 없거나 로그인할 수 없습니다. 인시던트는 사용자에게 눈에 띄는 영향을 줍니다. 진행 중인 인시던트가 있는 경우 서비스 상태 대시보드에서 조사, 완화 노력 및 해결 확인과 관련된 업데이트를 제공합니다.  <br/> |
+|![자문용 정보 아이콘.](../media/a7f5fd21-c760-4948-9bc1-50f7c8070e28.png)|서비스에 권고가 표시되면 Microsoft에서 일부 사용자에게 영향을 미치는 문제를 알고 있지만, 서비스를 계속 사용할 수는 있습니다. 권고에는 일반적으로 문제에 대한 해결 방법이 있으며, 문제가 일시적으로 발생하는 것일 수 있거나 범위 및 사용자 영향에서 제한적입니다.  <br/> |
+|![인시던트에 대한 느낌표 아이콘.](../media/a636db57-6083-44dc-bbd5-556850804f17.png)|서비스에 활성 인시던트가 표시되면 이 인시던트가 중요 문제이며 서비스 또는 서비스의 주요 기능을 사용할 수 없습니다. 예를 들어 사용자가 전자 메일을 보내고 받을 수 없거나 로그인할 수 없습니다. 인시던트는 사용자에게 눈에 띄는 영향을 줍니다. 진행 중인 인시던트가 있는 경우 서비스 상태 대시보드에서 조사, 완화 노력 및 해결 확인과 관련된 업데이트를 제공합니다.  <br/> |
 
 ### <a name="status-definitions"></a>상태 정의
 

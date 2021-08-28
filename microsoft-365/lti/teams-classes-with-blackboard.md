@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Blackboard Microsoft Teams 클래스 사용
-ms.openlocfilehash: 2ec017c331c722e199c1347b2c65b4ca04d71a4d0778695c0c9504560b3c29f5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 30ab28c4a9c2431a63db976df13748de6b843fdc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819346"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575087"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard-learn-ultra"></a>Blackboard Microsoft Teams 클래스 사용
 
@@ -161,7 +161,7 @@ LTI 통합을 구성하기 전에 Blackboard Learn Ultra Teams Classes Azure 앱
 
 사용자에게 액세스 권한을 Blackboard Learn Ultra에 부여할 수 있는 권한을 설명하는 사용 권한 창이 Microsoft Teams.
 
-![Microsoft 및 Blackboard의 사용 권한 창](media/permissions1.png)
+![Microsoft 및 Blackboard에 대한 사용 권한 창입니다.](media/permissions1.png)
 
 ### <a name="after-configuring-the-lti-applications"></a>LTI 응용 프로그램 구성 후
 

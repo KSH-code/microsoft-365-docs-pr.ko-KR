@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 가져오기 도구 d를 사용하여 여러 보호자 및 관련 데이터 원본을 데이터 원본의 사례에 빠르게 Advanced eDiscovery.
-ms.openlocfilehash: ccce04b5821eaff2d2ba65c846d58f3f474fb7277931da1d986f7b7ebe8beccb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ccb180766df47de39e3deb61faab60396c74bb9e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906110"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570308"
 ---
 # <a name="import-custodians-to-an-advanced-ediscovery-case"></a>보시다시안을 사례로 Advanced eDiscovery 가져오기
 
@@ -34,7 +34,7 @@ ms.locfileid: "53906110"
 
 3. 가져오기 **custodians** 플라이아웃  페이지에서 빈 템플릿 다운로드를 클릭하여 custodian template CSV 파일을 다운로드합니다.
 
-   ![수장 가져오기 플라이아웃 페이지에서 CSV 템플릿 다운로드](../media/ImportCustodians1.png)
+   ![CSV 템플릿을 다운로드하려면 다음을 참조하세요.](../media/ImportCustodians1.png)
 
 4. CSV 파일에 custodial 정보를 추가하고 로컬 컴퓨터에 저장합니다. CSV 파일의 필수 속성에 대한 자세한 내용은 [Custodian CSV](#custodian-csv-file) 파일 섹션을 참조하세요.
 

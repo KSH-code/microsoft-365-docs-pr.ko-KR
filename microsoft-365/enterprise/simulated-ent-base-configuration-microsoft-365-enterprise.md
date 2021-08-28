@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 테스트를 위한 시뮬레이트된 Microsoft 365 환경을 만들 수 있습니다.
-ms.openlocfilehash: c392e24b9bf3ef7c8c949ef00a6b661000156117
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: e3576c5d7e1a00069dd5dd46d1b1e6063da217bf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354419"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575255"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>시뮬레이트된 엔터프라이즈 기본 구성
 
@@ -34,7 +34,7 @@ ms.locfileid: "58354419"
 - Microsoft 365 E5 평가판 또는 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷으로, Azure Virtual Network의 3개의 가상 머신(DC1, APP1 및 CLIENT1)으로 구성됩니다.
  
-![시뮬레이트된 엔터프라이즈 기본 구성](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
+![시뮬레이트된 엔터프라이즈 기본 구성입니다.](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
 
 간소화된 테스트 환경을 만들 때에는 다음 두 단계가 필요합니다.
 - [1단계: 시뮬레이트된 인트라넷 만들기](#phase-1-create-a-simulated-intranet)
@@ -42,7 +42,7 @@ ms.locfileid: "58354419"
 
 결과 환경을 사용하여 추가 테스트 랩 가이드를 [](https://www.microsoft.com/microsoft-365/enterprise) 사용하여 엔터프라이즈용 Microsoft 365 [](m365-enterprise-test-lab-guides.md) 기능을 테스트할 수 있습니다.
 
-![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Microsoft 클라우드용 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 자세한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
@@ -236,7 +236,7 @@ Set-NetFirewallRule -DisplayName "File and Printer Sharing (Echo Request - ICMPv
 
 현재 구성은 다음과 같습니다.
   
-![시뮬레이트된 엔터프라이즈 기반 구성 1단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase1.png)
+![시뮬레이트된 엔터프라이즈 기본 구성의 1단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase1.png)
   
 #### <a name="step-2-configure-app1"></a>2단계: APP1 구성
 
@@ -291,7 +291,7 @@ New-SmbShare -name files -path c:\files -changeaccess TESTLAB\User1
 
 현재 구성은 다음과 같습니다.
   
-![시뮬레이트된 엔터프라이즈 기반 구성 2단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase2.png)
+![시뮬레이트된 엔터프라이즈 기본 구성의 2단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase2.png)
   
 #### <a name="step-3-configure-client1"></a>3단계: CLIENT1 구성
 
@@ -355,7 +355,7 @@ CLIENT1을 다시 시작한 후에 TESTLAB\\User1 계정 이름 및 암호를 �
     
 현재 구성은 다음과 같습니다.
   
-![시뮬레이트된 엔터프라이즈 기반 구성 3단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
+![시뮬레이트된 엔터프라이즈 기본 구성의 3단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
 
 ## <a name="phase-2-create-your-microsoft-365-e5-subscription"></a>2단계: Microsoft 365 E5 구독 만들기
 
@@ -398,7 +398,7 @@ Microsoft 365 E5 평가판 구독을 추가하고 사용자 계정을 라이선�
     
 최종 구성은 다음과 같습니다.
   
-![시뮬레이트된 엔터프라이즈 기반 구성 2단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
+![시뮬레이트된 엔터프라이즈 기본 구성의 2단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
   
 이제 엔터프라이즈용 에디터스 에디터의 추가 [기능을 Microsoft 365 준비가 완료되었습니다.](https://www.microsoft.com/microsoft-365/enterprise)
   

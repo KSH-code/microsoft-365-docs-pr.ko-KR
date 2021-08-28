@@ -14,12 +14,12 @@ ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: 관리자는 커넥터를 사용하여 메시지 배달과 연결된 오류 코드(메일 흐름 인텔리전스라고도 알려지기)에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 32b613cbd3251c58602a292c50ba48d56a02291fd9388c5433b4c8d9a836d314
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e8df87c5d8a93bec8051f29c1ba8eae0fbe8bab9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56877787"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574583"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>EOP의 메일 흐름 인텔리전스
 
@@ -52,7 +52,7 @@ Microsoft 365 사용하여 메시지를 배달할 수 없는 경우 오류가 �
 
 ## <a name="error-code-450-44315-connection-timed-out"></a>오류 코드: 450 4.4.315 연결 시간
 
-일반적으로 이 Microsoft 365 대상 전자 메일 서버에 연결할 수 없습니다. 오류 세부 정보에서 문제를 설명합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+일반적으로 이 Microsoft 365 대상 전자 메일 서버에 연결할 수 없습니다. 오류 세부 정보에서 문제를 설명합니다. 예시:
 
 - On-premises email server is down.
 
@@ -79,8 +79,8 @@ Microsoft 365 사용하여 메시지를 배달할 수 없는 경우 오류가 �
     1. EAC에서 메일 **흐름** \> **커넥터로 이동하십시오.**
 
     2. From 값과 Office 365  조직의 전자 메일  서버를  값으로 설정하는 커넥터를 선택하고 다음 단계 중 하나를 수행합니다. 
-       - 제거 제거 아이콘을  클릭하여 커넥터 ![ 삭제](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
-       - 편집 편집 아이콘을  클릭하고 켜기 를 선택 취소하여 ![ ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **커넥터를 사용하지 않도록 설정합니다.**
+       - 제거 제거 아이콘을  클릭하여 ![ 커넥터를 삭제합니다.](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
+       - 편집 편집 아이콘을  클릭하여 ![ 커넥터를 사용하지 않도록 설정합니다.](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 를 선택 **취소합니다.**
 
   - 내부 릴레이에서 Microsoft 365 전자 메일 환경과 연결된 허용 도메인을 **내부** 릴레이에서 권한이 있는 도메인으로 **변경합니다.** 자세한 내용은 [에서 허용 도메인 관리를 Exchange Online.](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
 
@@ -90,7 +90,7 @@ Microsoft 365 사용하여 메시지를 배달할 수 없는 경우 오류가 �
 
 ## <a name="error-code-450-44317-cannot-connect-to-remote-server"></a>오류 코드: 450 4.4.317 원격 서버에 연결할 수 없습니다.
 
-일반적으로 이 오류는 Microsoft 365 전자 메일 서버에 연결되지만 서버가 즉시 오류로 응답했거나 연결 요구 사항을 충족하지 않는다는 의미입니다. 오류 세부 정보에서 문제를 설명합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+일반적으로 이 오류는 Microsoft 365 전자 메일 서버에 연결되지만 서버가 즉시 오류로 응답했거나 연결 요구 사항을 충족하지 않는다는 의미입니다. 오류 세부 정보에서 문제를 설명합니다. 예시:
 
 - 대상 전자 메일 서버가 "서비스를 사용할 수 없습니다." 오류로 응답했습니다. 이 오류는 서버가 서버와 통신을 유지 관리할 수 Microsoft 365.
 - 커넥터가 TLS를 요구하도록 구성되지만 대상 전자 메일 서버는 TLS를 지원하지 않습니다.
@@ -116,7 +116,7 @@ Microsoft 365 사용하여 메시지를 배달할 수 없는 경우 오류가 �
 
 ## <a name="error-code-450-47320-certificate-validation-failed"></a>오류 코드: 450 4.7.320 인증서 유효성 검사 실패
 
-일반적으로 이 오류는 Microsoft 365 서버의 인증서 유효성을 검사하는 동안 오류가 발생했다는 의미입니다. 오류 세부 정보에서 오류를 설명합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+일반적으로 이 오류는 Microsoft 365 서버의 인증서 유효성을 검사하는 동안 오류가 발생했다는 의미입니다. 오류 세부 정보에서 오류를 설명합니다. 예시:
 
 - 인증서 만료
 - 인증서 주체 불일치

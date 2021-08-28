@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery 관리 도구를 사용하여 사례 내에서 보호자에 대한 활동에 쉽게 액세스하고 검색할 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 43ec73c87efaad51711879e0574d03f571675523
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 4069b4ee61f15cfbe8f0f7f74cb42e9790f0106a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507833"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570776"
 ---
 # <a name="view-custodian-audit-activity"></a>보유자 감사 활동 보기
 
@@ -45,19 +45,19 @@ ms.locfileid: "58507833"
 
     Custodian 활동 검색 페이지가 표시됩니다. 이전 단계에서 선택한 **custodian이 Custodian** 드롭다운 상자에 표시됩니다. 드롭다운 상자에서 다른 보위원을 선택할 수 있지만 한 번의 보육자에 대한 활동만 검색할 수 있습니다.
 
-    ![보유자 활동 검색 페이지](../media/AeDCustodianActivities1.png)
+    ![Custodian activities search page.](../media/AeDCustodianActivities1.png)
    
 4. 다음과 같은 검색 조건을 구성합니다. 
       
    1. **활동** - 드롭다운 목록을 클릭하여 검색할 수 있는 활동을 표시합니다. 검색을 실행하면 선택한 활동에 대한 감사 기록만 표시됩니다. 모든 **활동에** 대한 결과 표시를 선택하면 다른 검색 조건과 일치하는 보위부가 수행한 모든 활동에 대한 결과가 표시됩니다.
 
-      ![활동 목록](../media/CustodianActivityAudit.PNG)
+      ![활동 목록입니다.](../media/CustodianActivityAudit.PNG)
       
    1. **시작 날짜 및 종료 날짜** - 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 기본적으로 지난 7일이 선택됩니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 1년입니다.
       
    1. **Custodians** - 이 상자를 클릭한 다음 검색 결과를 표시할 특정 수장인을 선택합니다. 이 상자에서 선택한 사용자가 수행한 선택한 활동에 대한 감사 레코드가 결과 목록에 표시됩니다.
       
-5. 이 ![검색 단추](../media/SearchButton.PNG)  검색 조건을 사용하여 검색을 실행합니다. 검색 결과가 로드되고 몇 분 후에 검색 결과가 Custodian Activities 검색 페이지의 결과 아래에 표시됩니다. 
+5. 이 ![검색 단추.](../media/SearchButton.PNG)  검색 조건을 사용하여 검색을 실행합니다. 검색 결과가 로드되고 몇 분 후에 검색 결과가 Custodian Activities 검색 페이지의 결과 아래에 표시됩니다. 
 
 ## <a name="step-2-view-the-audit-log-search-results"></a>2단계: 감사 로그 검색 결과 보기
 

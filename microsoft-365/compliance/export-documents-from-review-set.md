@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 프레젠테이션 또는 외부 검토에 대한 Advanced eDiscovery 콘텐츠 선택 및 내보내기 방법에 대해 자세히 알아보겠습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4ec92c432d693a46151cd92e9d65e5b6fc9c2734
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 5021428dc1ee82b5fb0aeed58d4e055710dec2ef
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58246582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570860"
 ---
 # <a name="export-documents-from-a-review-set-in-advanced-ediscovery"></a>문서의 검토 집합에서 Advanced eDiscovery
 
@@ -36,7 +36,7 @@ ms.locfileid: "58246582"
 
    내보내기 도구에는 내보내기 구성 설정이 있는 플라이아웃 페이지가 표시됩니다. 일부 옵션은 기본적으로 선택되지만 변경할 수 있습니다. 구성할 수 있는 내보내기 옵션에 대한 설명은 다음 섹션을 참조하세요.
 
-   ![검토 집합에서 항목을 내보내기 위한 구성 옵션](../media/bcfc72c7-4a01-4697-9e16-2965b7f04fdb.png)
+   ![검토 집합에서 항목을 내보내기 위한 구성 옵션입니다.](../media/bcfc72c7-4a01-4697-9e16-2965b7f04fdb.png)
 
 3. 내보내기 구성 후 **내보내기** 를 클릭하여 내보내기 프로세스를 시작 합니다. 출력 옵션 섹션에서 선택한  옵션에 따라 직접 다운로드 또는 조직의 Azure Storage 액세스할 수 있습니다.
 

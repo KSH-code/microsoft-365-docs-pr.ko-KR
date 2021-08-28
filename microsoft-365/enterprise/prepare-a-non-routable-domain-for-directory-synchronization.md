@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
 description: 라우팅할 수 없는 도메인을 사용자 테넌트와 동기화하기 전에 라우팅할 수 없는 도메인이 있는 경우 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: cecaee814d19f78b973ebd2f06c8d2c665d905de
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: dd93cfd85aa6f6f5788b6ae5562c2a2def3ffaa0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356915"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574294"
 ---
 # <a name="prepare-a-non-routable-domain-for-directory-synchronization"></a>디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인) 준비
 
@@ -63,7 +63,7 @@ AD DS에 새 UPN 접미사 또는 접미어를 등록하여 확인한 도메인(
   
 2. Active **Directory 도메인 및 트러스트** 창에서 Active Directory 도메인 및 **트러스트** 를 마우스 오른쪽 단추로 클릭한 다음 속성을 **선택합니다.**
     
-    ![Active Directory 도메인 및 트러스트를 마우스 오른쪽 단추로 클릭하고 속성을 선택](../media/39d20812-ffb5-4ba9-8d7b-477377ac360d.png)
+    ![Active Directory 도메인 및 트러스트를 마우스 오른쪽 단추로 클릭하고 속성을 클릭합니다.](../media/39d20812-ffb5-4ba9-8d7b-477377ac360d.png)
   
 3. **UPN 접미사** 탭의 대체 **UPN** 접미사 상자에 새 UPN 접미사 또는 접미사를  입력한 다음 적용 추가를 \> **선택합니다.**
     

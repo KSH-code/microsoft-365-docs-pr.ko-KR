@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 연결기에서 커넥터를 설정하고 Microsoft 365 규정 준수 센터 WeChat 데이터를 가져오고 보관할 Microsoft 365.
-ms.openlocfilehash: d99b96b97cbf0be01dfe12d38fe9c655372be24a2724a30fa3cb33be68932381
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 486340571c9650f9d10d367f056eeaa5a92aba55
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820513"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570620"
 ---
 # <a name="set-up-a-connector-to-archive-wechat-data"></a>WeChat 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ WeChat Archiver 커넥터 데이터가 사용자 사서함에 저장되고 나�
 
 다음 개요에서는 커넥터를 사용하여 연결기에서 WeChat 통신 데이터를 보관하는 프로세스에 대해 Microsoft 365.
 
-![WeChat Archiver 데이터에 대한 보관 워크플로](../media/WeChatConnectorWorkflow.png)
+![WeChat Archiver 데이터에 대한 보관 워크플로입니다.](../media/WeChatConnectorWorkflow.png)
 
 1. 조직은 TeleMessage와 함께 WeChat Archiver 커넥터를 설치합니다.
 

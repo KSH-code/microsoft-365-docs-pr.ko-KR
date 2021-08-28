@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-mar2020
 description: 검토 집합에서 문서를 Azure Storage 계정으로 내보은 다음 Azure Storage Explorer 사용하여 로컬 컴퓨터에 다운로드합니다.
-ms.openlocfilehash: e4dee3eb6da53b58e79993f39e4540e0c2d1951f41be13c370fb3631138f5208
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 352bce7134f92a7f6759673f28d388aac4957d1c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906045"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570872"
 ---
 # <a name="export-documents-in-a-review-set-to-an-azure-storage-account"></a>검토 집합의 문서를 Azure Storage 계정으로 내보내기
 
@@ -53,7 +53,7 @@ Advanced eDiscovery 검토 집합에서 문서를 내보낼 때 조직에서 관
 
 6. 저장소 계정의 컨테이너 URL과 SAS 토큰을 해당 필드에 붙여 넣습니다.
 
-   ![해당 필드에 연결 URL 및 SAS 토큰 붙여넣기](../media/AzureStorageOutputOptions.png)
+   ![연결 URL과 SAS 토큰을 해당 필드에 붙여 넣습니다.](../media/AzureStorageOutputOptions.png)
 
 7. 내보내기 **를** 클릭하여 내보내기 작업을 만들 수 있습니다.
 
@@ -67,7 +67,7 @@ Advanced eDiscovery 검토 집합에서 문서를 내보낼 때 조직에서 관
 
 3. 플라이아웃 페이지의 **위치** 아래에서 표시되는 SAS URL을 복사합니다. 필요한 경우 3단계에서 액세스할 수 있도록 텍스트 파일에 저장할 수 있습니다.
 
-   ![위치에 표시되는 SAS URL 복사](../media/eDiscoExportJob.png)
+   ![위치에 표시된 SAS URL을 복사합니다.](../media/eDiscoExportJob.png)
 
    > [!TIP]
    > 내보내기 작업에서 표시되는 SAS URL은 컨테이너 URL과 사용자 계정의 SAS 토큰을 Azure Storage 있습니다. 내보내기 작업에서 복사하거나 URL과 SAS 토큰을 결합하여 직접 만들 수 있습니다.
@@ -88,7 +88,7 @@ Advanced eDiscovery 검토 집합에서 문서를 내보낼 때 조직에서 관
 
 5. 연결 **정보 입력 페이지의** Blob 컨테이너 SAS URL 상자에 2단계의 내보내기 작업에서 획득한 **SAS URL을 붙여 넣습니다.**
 
-    ![URI 상자에 SAS URL 붙여넣기](../media/AzureStorageConnect3.png)
+    ![URI 상자에 SAS URL을 붙여 넣습니다.](../media/AzureStorageConnect3.png)
 
     표시 이름 상자에 컨테이너 **이름이** 표시됩니다. 이 이름을 편집할 수 있습니다.
 
@@ -96,7 +96,7 @@ Advanced eDiscovery 검토 집합에서 문서를 내보낼 때 조직에서 관
 
     Blob **컨테이너** 노드(Storage **계정(연결된**  >  **컨테이너)가 열립니다.** \>
 
-    ![Blobs 컨테이너 노드에서 작업 내보내기](../media/AzureStorageConnect5.png)
+    ![Blobs 컨테이너 노드에서 작업을 내보낼 수 있습니다.](../media/AzureStorageConnect5.png)
 
     5단계의 표시 이름으로 이름이 인 컨테이너가 들어 있습니다. 이 컨테이너에는 사용자 계정의 컨테이너로 다운로드한 각 내보내기 작업의 폴더가 Azure Storage 있습니다. 이러한 폴더의 이름은 내보내기 작업의 ID에 해당하는 ID로 지정됩니다. 이러한 내보내기 ID(및 내보내기 이름)는  작업 사례의 작업 탭에 나열된 각 내보내기  작업 준비 작업의 플라이아웃 페이지의 지원 정보에서 Advanced eDiscovery 있습니다. 
 
@@ -104,7 +104,7 @@ Advanced eDiscovery 검토 집합에서 문서를 내보낼 때 조직에서 관
 
    폴더 및 내보내기 보고서 목록이 표시됩니다.
 
-    ![내보내기 폴더에 내보낼 파일 및 내보내기 보고서가 포함되어 있습니다.](../media/AzureStorageConnect6.png)
+    ![내보내기 폴더에는 내보낼 파일 및 내보내기 보고서가 포함되어 있습니다.](../media/AzureStorageConnect6.png)
 
 8. 내보내기 작업에서 모든 콘텐츠를 내보내려면  위쪽 화살표를 클릭하여 내보내기 작업 폴더로 돌아가 다운로드를 **클릭합니다.**
 

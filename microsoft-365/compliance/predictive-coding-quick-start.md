@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 이 모듈에서 예측 코딩 모듈을 사용하는 방법을 Advanced eDiscovery. 이 문서에서는 예측 코딩을 사용하여 조사와 가장 관련이 있는 검토 집합의 콘텐츠를 식별하는 종단-종단 프로세스에 대해 설명합니다.
-ms.openlocfilehash: fe0e19c61f441f7ae01ba1c8245301ab8c6e00a3c3b1c8ddf601476bcd1f4301
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0ca9e4ff8b42ced962b68fff9073e892d8ea5d4e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866701"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574835"
 ---
 # <a name="quick-start-predictive-coding-in-advanced-ediscovery-preview"></a>빠른 시작: Advanced eDiscovery 예측 코딩(미리 보기)
 
@@ -27,7 +27,7 @@ ms.locfileid: "53866701"
 
 다음은 예측 코딩 프로세스에 대한 간략한 개요입니다.
 
-![예측 코딩을 위한 빠른 시작 프로세스](..\media\PredictiveCodingQuickStartProcess.png)
+![예측 코딩을 위한 빠른 시작 프로세스입니다.](..\media\PredictiveCodingQuickStartProcess.png)
 
 시작하기 위해 관련성 또는 관련성이 없는 항목 50개만 레이블을 지정하는 모델을 만들면 됩니다. 그러면 시스템은 이 교육을 사용하여 검토 집합의 모든 항목에 예측 점수를 적용합니다. 이렇게 하면 예측 점수에 따라 항목을 필터링할 수 있습니다. 이를 통해 가장 관련성 있는(또는 관련이 없는) 항목을 먼저 검토할 수 있습니다. 더 높은 정보 및 회수율을 사용하여 모델을 교육하려는 경우 모델이 안정화될 때까지 후속 교육 라운드에서 항목에 레이블을 지정하는 것을 계속할 수 있습니다. 모델이 안정화되면 최종 예측 필터를 적용하여 검토할 항목의 우선 순위를 지정할 수 있습니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "53866701"
 
 4. 각 문서를 검토한  다음  읽기 창 아래쪽의 관련성 또는 관련이 없는 단추를 선택하여 레이블을 지정합니다.
 
-   ![각 문서에 관련성 또는 관련이 없는 것으로 레이블 지정](..\media\TrainModel1.png)
+   ![각 문서에 관련성 또는 관련이 없는 것으로 레이블을 지정합니다.](..\media\TrainModel1.png)
 
 5. 50개 항목에 모두 레이블을 지정한 후 마친 을 **클릭합니다.**
 
@@ -81,7 +81,7 @@ ms.locfileid: "53866701"
 
 1. 검토 집합을 열 수 있습니다.
 
-   ![필터를 클릭하여 필터 플라이아웃 페이지 표시](..\media\PredictionScoreFilter0.png)
+   ![필터를 클릭하여 필터 플라이아웃 페이지를 표시합니다.](..\media\PredictionScoreFilter0.png)
 
    미리 로드된 기본 필터는 검토 집합 페이지 맨 위에 표시됩니다. 이러한 집합을 Any로 설정할 수 **있습니다.**
 
@@ -89,7 +89,7 @@ ms.locfileid: "53866701"
 
 3. 분석 & **코딩 섹션을** 확장하여 필터 집합을 표시합니다.
 
-      ![분석 및 예측 & 섹션의 예측 점수 필터](..\media\PredictionScoreFilter1.png)
+      ![분석 및 예측 & 섹션의 예측 점수 필터입니다.](..\media\PredictionScoreFilter1.png)
 
    예측 점수 필터의 명명 규칙은 **예측 점수(모델 이름)입니다.** 예를 들어 Model **A라는** 모델의 예측 점수 필터 이름은 예측 **점수(모델 A)입니다.**
 
@@ -97,7 +97,7 @@ ms.locfileid: "53866701"
 
 5. 검토 집합 페이지에서 예측 점수 필터에 대한 드롭다운을 클릭하고 예측 점수 범위에 대한 최소값 및 최대값을 입력합니다. 예를 들어 다음 스크린샷에는 **.5에서 1.0** 사이의 예측 점수 **범위가 나와 있습니다.**
 
-   ![예측 점수 필터의 최소값 및 최대값](..\media\PredictionScoreFilter2.png)
+   ![예측 점수 필터의 최소값 및 최대값입니다.](..\media\PredictionScoreFilter2.png)
 
 6. 필터 외부를 클릭하여 검토 집합에 필터를 자동으로 적용합니다.
 

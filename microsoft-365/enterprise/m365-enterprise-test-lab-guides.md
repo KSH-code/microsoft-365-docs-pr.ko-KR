@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 다음 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise의 데모, 개념 증명 또는 개발/테스트 환경을 설정합니다.
-ms.openlocfilehash: 19b8a41674d26bf6e02da4be7be1e16739003044
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: cb1588a1f4740839fd08949a4f2a79fcc95e32ff
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356363"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575267"
 ---
 # <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Microsoft 365 Enterprise 테스트 랩 가이드
 
@@ -35,11 +35,11 @@ TLG는 모듈식으로 설계됩니다. 이러한 구성은 서로를 토대하�
 
 또한 TLG를 사용하여 대표적인 환경을 만들어 응용 프로그램(개발/테스트 환경)을 개발 및 테스트할 수 있습니다.
   
-![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Microsoft 클라우드용 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 문서에 대한 시각적 맵을 확인한 경우 다음 그래픽을 확장하거나 엔터프라이즈 테스트 랩 Microsoft 365 스택용 그래픽으로 [이동하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
-[![Microsoft 365 Enterprise 테스트 랩 가이드 스택](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../downloads/Microsoft365EnterpriseTLGStack.pdf)
+[![엔터프라이즈 Microsoft 365 테스트 랩 가이드 스택에 대한 지침입니다.](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="base-configuration"></a>기본 구성
 

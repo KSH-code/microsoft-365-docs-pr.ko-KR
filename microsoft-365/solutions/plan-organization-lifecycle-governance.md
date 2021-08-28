@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 공동 작업 도구에 대한 수명 주기 거버넌스 옵션에 대해 Microsoft 365
-ms.openlocfilehash: d49fb6cfe9f181a7e79c9984aa54deb0cf2f3a8e4008512132c980ce1623ea59
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5421f12109fb40e4e5cc6f68568a3b5f1873c7ce
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827713"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574463"
 ---
 # <a name="plan-organization-and-lifecycle-governance-for-microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 및 사용자에 대한 조직 및 수명 주기 거버넌스 Microsoft Teams
 
@@ -33,7 +33,7 @@ Microsoft 365 그룹에는 조직에 필요한 거버넌스 기능을 구현하�
 
 그룹은 최종 사용자가 Outlook, SharePoint, 기타 환경 등 여러 끝점에서 Teams 수 있습니다.
 
-![이미지 desc](../media/04.png)
+![이미지 desc.](../media/04.png)
 
 그룹 소유자에게 권한을 부여하고 사용자가 작업을 보다 쉽게 완료할 수 있도록 셀프 서비스를 권장하는 것이 좋습니다. 그룹 및 팀 만들기를 제한하면 많은 Microsoft 365 서비스를 사용하려면 그룹을 만들어야 하기 때문에 사용자의 생산성이 늦어질 수 있습니다.
 

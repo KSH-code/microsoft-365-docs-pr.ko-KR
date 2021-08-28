@@ -17,18 +17,18 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: 조직에 적합한 음성 솔루션을 선택하고 Teams 방법을 알아보십시오.
-ms.openlocfilehash: bfcad56d54eb29fdf9d2b48b74d7811dee5dc2df1be9fdf2ddcd5373a1b1be48
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 359242ea66fc1be9af18ff10cb7e33fe26ddd83e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53883369"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575375"
 ---
 # <a name="plan-and-deploy-a-teams-voice-solution"></a>Teams 음성 솔루션 계획 및 배포
 
 Teams 음성 솔루션을 사용하면 조직의 사용자가 조직 내부 및 외부에서 전화를 걸 수 있습니다. 전체 음성 솔루션은 Teams, Microsoft 전화 시스템 및 PSTN(Public Switched Telephone Network)에 연결하는 옵션 선택으로 구성됩니다.
 
-![Teams 솔루션 개요](..\media\solutions-architecture-center\voice-concepts.png)
+![Teams 솔루션 개요를 참조하세요.](..\media\solutions-architecture-center\voice-concepts.png)
 
 전화 시스템 조직에 대한 완전한 PBX(Private Branch Exchange) 기능을 제공합니다. 조직의 사용자 간 통화는 지리적 위치에 상관없이 내부적으로 처리되므로 전화 시스템 내부 통화에 대한 장거리 비용이 제거됩니다.  
 
@@ -41,7 +41,7 @@ Teams 음성 솔루션을 사용하면 조직의 사용자가 조직 내부 및 
 
 다음 단계에 따라 음성 솔루션을 선택, 계획 및 구성합니다.
 
-![음성 솔루션을 선택합니다.](..\media\solutions-architecture-center\voice-solutions-overview-1.png)
+![음성 솔루션을 선택하십시오.](..\media\solutions-architecture-center\voice-solutions-overview-1.png)
 
 1. [음성 솔루션을 선택합니다.](/MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json)
 

@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 553e27bf4f3d3b34749bb0b45375ee646e7c28ed20f5f3f0751626752b07b0d2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 33d32918316b997b2cc97d63dac8c8deff135528
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53879674"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570812"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>내부자 위험 관리에 대해 Microsoft 365
 
@@ -69,9 +69,9 @@ ms.locfileid: "53879674"
 
 내부자 위험 관리 워크플로를 사용하면 조직의 내부 위험을 식별, 조사 및 해결할 수 있습니다. 포커스가 있는 정책 템플릿, Microsoft 365 서비스 전반의 포괄적인 활동 신호 및 경고 및 사례 관리 도구를 사용하여 실행 가능한 인사이트를 사용하여 위험한 동작을 신속하게 식별하고 조치를 취할 수 있습니다.
 
-Microsoft 365의 내부자 위험 관리를 통해 내부 위험 활동 및 규정 준수 문제를 식별하고 해결하는 방법은 다음과 같습니다.
+Microsoft 365의 내부 위험 관리를 통해 내부 위험 활동 및 규정 준수 문제를 식별하고 해결하는 방법은 다음과 같습니다.
 
-![내부자 위험 관리 워크플로입니다.](../media/insider-risk-workflow.png)
+![내부자 위험 관리 워크플로.](../media/insider-risk-workflow.png)
 
 ### <a name="policies"></a>정책
 
@@ -88,7 +88,7 @@ Microsoft 365의 내부자 위험 관리를 통해 내부 위험 활동 및 규�
 - [우선순위 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
 - [불만을 품은 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-disgruntled-users-preview)
 
-![내부 위험 관리 정책 대시보드](../media/insider-risk-policy-dashboard.png)
+![내부자 위험 관리 정책 대시보드.](../media/insider-risk-policy-dashboard.png)
 
 ### <a name="alerts"></a>경고
 
@@ -100,17 +100,17 @@ Microsoft 365의 내부자 위험 관리를 통해 내부 위험 활동 및 규�
 - 사례
 - 사례 상태
 
-![내부자 위험 관리 경고 대시보드](../media/insider-risk-alerts-dashboard.png)
+![내부자 위험 관리 경고 대시보드.](../media/insider-risk-alerts-dashboard.png)
 
 ### <a name="triage"></a>Triage
 
 조사가 필요한 새 사용자 활동은 검토 필요 상태가 할당된 경고를 *자동으로 생성합니다.* 검토자는 이러한 경고를 신속하게 식별하고 검토, 평가 및 심사할 수 있습니다.
 
-경고는 새 케이스를 열거나, 기존 사례에 경고를 할당하거나, 경고를 해제함으로써 해결됩니다. 경고 필터를 사용하면 상태, 심각도 또는 검색된 시간으로 경고를 빠르게 식별할 수 있습니다. 심사 프로세스의 일부로 검토자는 정책으로 식별된 활동에 대한 경고 세부 정보를 보고, 정책 일치와 관련된 사용자 활동을 보고, 경고의 심각도 확인 및 사용자 프로필 정보를 검토할 수 있습니다.
+경고는 새 케이스를 열거나, 기존 케이스에 경고를 할당하거나, 경고를 해제함으로써 해결됩니다. 경고 필터를 사용하면 상태, 심각도 또는 검색된 시간으로 경고를 빠르게 식별할 수 있습니다. 심사 프로세스의 일부로 검토자는 정책으로 식별된 활동에 대한 경고 세부 정보를 보고, 정책 일치와 관련된 사용자 활동을 보고, 경고의 심각도 확인 및 사용자 프로필 정보를 검토할 수 있습니다.
 
-![내부자 위험 관리 평가](../media/insider-risk-triage.png)
+![내부자 위험 관리 평가.](../media/insider-risk-triage.png)
 
-### <a name="investigate"></a>조사하기
+### <a name="investigate"></a>조사
 
 사용자 활동 보고서(미리 보기)를 통해 선택한 사용자의 모든 활동을 [빠르게 조사합니다.](insider-risk-management-activities.md#user-activity-reports-preview) 이러한 보고서를 통해 조직의 조사자는 내부자 위험 관리 정책에 일시적으로 또는 명시적으로 할당하지 않고도 정의된 기간 동안 특정 사용자에 대한 활동을 검사할 수 있습니다. 사용자에 대한 활동을 검사한 후 조사자는 개별 활동을 양성으로 해지하거나, 다른 조사자들과 보고서 링크를 공유하거나 전자 메일을 보내거나, 사용자를 내부자 위험 관리 정책에 일시적으로 또는 명시적으로 할당하도록 선택할 수 있습니다.
 
@@ -122,7 +122,7 @@ Microsoft 365의 내부자 위험 관리를 통해 내부 위험 활동 및 규�
 - **콘텐츠 탐색기:** 경고 활동과 관련된 모든 데이터 파일 및 전자 메일 메시지가 자동으로 캡처되어 콘텐츠 탐색기에 표시됩니다. 검토자는 데이터 원본, 파일 형식, 태그, 대화 등 다양한 특성을 통해 파일 및 메시지를 필터링하고 볼 수 있습니다.
 - **사례 참고:** 검토자는 사례 메모 섹션에서 사례에 대한 메모를 제공할 수 있습니다. 이 목록은 중앙 보기의 모든 메모를 통합하고 검토자 및 제출된 날짜 정보를 포함합니다.
 
-![내부자 위험 관리 조사](../media/insider-risk-investigate.png)
+![내부자 위험 관리 조사.](../media/insider-risk-investigate.png)
 
 또한 새로운 감사 [로그(미리](insider-risk-management-audit-log.md) 보기)를 사용하면 내부자 위험 관리 기능에 대해 수행된 작업에 대한 정보를 계속 알 수 있습니다. 이 리소스를 사용하면 하나 이상의 내부자 위험 관리 역할 그룹에 할당된 사용자가 수행한 작업을 독립적으로 검토할 수 있습니다.
 

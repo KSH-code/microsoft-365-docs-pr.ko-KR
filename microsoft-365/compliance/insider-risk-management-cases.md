@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 0a465458026c7da21ff60d62c7566d01e77d3e584ba487adf842074578066662
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0a1b91c888e1ee91d03d5a2d315e4d4fc38b2d10
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801601"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570824"
 ---
 # <a name="insider-risk-management-cases"></a>내부자 위험 관리 사례
 
@@ -50,7 +50,7 @@ ms.locfileid: "53801601"
 - **사례 마지막 업데이트:** 사례 상태가 추가되거나 변경된 이후로 지난 시간입니다.
 - **마지막 업데이트 날짜:** 사례를 마지막으로 업데이트한 내부자 위험 관리 분석가 또는 조사자 이름입니다.
 
-![내부자 위험 관리 사례 대시보드](../media/insider-risk-cases-dashboard.png)
+![내부자 위험 관리 사례 대시보드.](../media/insider-risk-cases-dashboard.png)
 
 검색 **컨트롤을** 사용하여 특정 텍스트의 사례 이름을 검색하고 사례 필터를 사용하여 다음 특성을 사용하여 사례를 정렬합니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "53801601"
 - **심각도:** 경고의 심각도입니다.
 - **검색된 시간:** 경고가 생성된 후 지났던 시간입니다.
 
-![내부자 위험 관리 사례 세부 정보](../media/insider-risk-case-details.png)
+![내부자 위험 관리 사례 세부 정보.](../media/insider-risk-case-details.png)
 
 ### <a name="alerts"></a>경고
 
@@ -120,7 +120,7 @@ ms.locfileid: "53801601"
 
 **사용자 작업** 탭은 내부 위험 분석 및 내부 위험 관리 솔루션 케이스 조사를 위한 가장 강력한 도구 중 하나입니다. 이 탭은 모든 경고의 기록 타임라인, 경고 세부 정보, 해당 사용자의 현재 위험 점수, 위험 이벤트의 순서 및 해당 사례의 위험을 포함하도록 효과적인 조치를 취하는 컨트롤을 포함하여 사례를 빠르게 검토할 수 있도록 구성됩니다.
 
-![내부자 위험 관리 사용자 활동](../media/insider-risk-user-activities.png)
+![내부자 위험 관리 사용자 활동.](../media/insider-risk-user-activities.png)
 
 1. **시간 필터:** 기본적으로 사례에서 확인된 최근 6개월의 알림이 사용자 활동 차트에 표시됩니다. 거품형 차트에서 *6개월,* *3개월* 또는 *1개월* 탭을 선택하여 차트 보기를 쉽게 필터링할 수 있습니다.
 2. **위험 경고 활동 및 세부 정보:** 위험 활동은 사용자 활동 차트에서 색이 있는 거품으로 시각적으로 표시됩니다. 거품은 다양한 위험 범주에 대해 만들어지며 거품 크기는 해당 범주에 대한 위험 활동 수에 비례합니다. 거품을 선택하여 각 위험 활동에 대한 세부 정보를 표시합니다. 세부 정보는 다음과 같습니다.
@@ -155,7 +155,7 @@ ms.locfileid: "53801601"
 
 콘텐츠 탐색기는 기본 및 고급 검색 및 필터링 기능이 있는 강력한 도구입니다. 콘텐츠 탐색기 사용에 대한 자세한 내용은 [Insider risk management Content explorer 를 참조하세요.](insider-risk-management-content-explorer.md)
 
-![내부자 위험 관리 사례 콘텐츠 탐색기](../media/insider-risk-content-explorer.png)
+![내부자 위험 관리 사례 콘텐츠 탐색기입니다.](../media/insider-risk-content-explorer.png)
 
 ### <a name="case-notes"></a>사례 주석
 
@@ -206,7 +206,7 @@ ms.locfileid: "53801601"
 4. 알림 필드를 검토하고 적절하게 업데이트합니다. 여기에 입력한 값은 템플릿의 값을 다시 정의합니다.
 5. 사용자에게  통지를 보내기 위해 보내기 를 선택하거나 사용자에게 통지를 보내지 않고 대화 상자 닫기 취소를 선택합니다.  보낸 모든 알림은 사례 메모 대시보드의 사례 메모 **큐에 추가됩니다.**
 
-### <a name="escalate-for-investigation"></a>조사를 위해 에스컬레이션
+### <a name="escalate-for-investigation"></a>조사를 위한 에스컬레이션
 
 사용자의 위험 활동에 대해 추가 법적 검토가 필요한 상황에서 사용자 조사 사례를 에스컬레이터합니다. 이 에스컬레이션은 Microsoft 365 조직의 새로운 Advanced eDiscovery 케이스를 엽니다. Advanced eDiscovery는 조직의 내부 및 외부 법률 조사에 대응하는 컨텐츠를 보존, 수집, 검토, 분석 및 내보낼 수 있는 엔드 투 엔드 워크플로우를 제공합니다. 또한 법률 팀이 전체 법적 보류 알림 워크플로를 관리하여 사건에 관련된 관리자와 통신할 수 있도록 합니다. 내부자 위험 관리 케이스에서 생성된 Advanced eDiscovery 케이스에서 검토자를 관리자로 할당하면 법률 팀이 적절한 조치를 취하고 콘텐츠 보존을 관리하는 데 도움이 됩니다. Advanced eDiscovery 케이스에 대한 자세한 내용은 [Microsoft 365의 Advanced eDiscovery 개요](overview-ediscovery-20.md)를 참조하세요.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 조직의 사용자와 관리자의 활동을 감사하는 방법에 대해 알아 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a099ab2241e1e2a4705fd54760a48cb3f95b421
-ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
+ms.openlocfilehash: f89303e22432f2e3297bec01912710daf21d7379
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58387011"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570596"
 ---
 # <a name="auditing-solutions-in-microsoft-365"></a>Microsoft 365의 감사 솔루션
 
@@ -34,7 +34,7 @@ Microsoft 365 감사 솔루션은 조직이 보안 이벤트, 법의학적 조�
 
 Microsoft 365는 기본 감사 및 고급 감사라는 두 가지 감사 솔루션을 제공합니다.
 
-![기본 감사 및 고급 감사의 주요 기능](..\media\AuditingSolutionsComparison.png)
+![기본 감사 및 고급 감사의 주요 기능.](..\media\AuditingSolutionsComparison.png)
 
 ### <a name="basic-audit"></a>기본 감사
 
@@ -44,7 +44,7 @@ Microsoft 365는 기본 감사 및 고급 감사라는 두 가지 감사 솔루�
 - **수천 개의 검색 가능한 감사 이벤트**. 조직의 대부분의 Microsoft 365 서비스에서 발생하는 광범위한 감사 활동을 검색할 수 있습니다. 검색할 수 있는 작업의 일부 목록은 [감사 활동](search-the-audit-log-in-security-and-compliance.md#audited-activities)을 참조하세요. 감사된 작업을 지원하는 서비스 및 기능 목록은 [감사 로그 레코드 유형](/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype)을 참조하세요.
 - **Microsoft 365 규정 준수 센터의 감사 검색 도구**. Microsoft 365 규정 준수 센터의 감사 로그 검색 도구를 사용하여 감사 레코드를 검색합니다. 특정 활동, 특정 사용자가 수행한 활동 및 날짜 범위로 발생한 활동을 검색할 수 있습니다. 다음은 규정 준수 센터에 있는 감사 검색 도구의 스크린샷입니다.
 
-   ![Microsoft 365 규정 준수 센터의 감사 로그 검색 도구](../media/AuditLogSearchToolMCC.png)
+   ![Microsoft 365 규정 준수 센터의 감사 로그 검색 도구.](../media/AuditLogSearchToolMCC.png)
 
 - **Search-UnifiedAuditLog cmdlet**. Exchange Online PowerShell의 **Search-UnifiedAuditLog** cmdlet(검색 도구의 기본 cmdlet)을 사용하여 감사 이벤트를 검색하거나 스크립트에서 사용할 수도 있습니다. 자세한 내용은 다음을 참조하세요.
 
@@ -77,14 +77,14 @@ Microsoft 365는 기본 감사 및 고급 감사라는 두 가지 감사 솔루�
 
 |기능|기본 감사|고급 감사|
 |:------|:-------------|:-------------|
-|기본적으로 사용|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
-|수천 개의 검색 가능한 감사 이벤트|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
-|Microsoft 365 규정 준수 센터의 감사 검색 도구|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
-|Search-UnifiedAuditLog cmdlet|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
-|CSV 파일로 감사 레코드 내보내기|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
-|Office 365 Management Activity API를 통해 감사 로그에 액세스<sup>1</sup>.|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)</sup>|
-|90일 감사 로그 보존|![지원](../media/check-mark.png)|![지원](../media/check-mark.png)|
-|1년 감사 로그 보존||![지원](../media/check-mark.png)|
+|기본적으로 사용|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|수천 개의 검색 가능한 감사 이벤트|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|Microsoft 365 규정 준수 센터의 감사 검색 도구|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|Search-UnifiedAuditLog cmdlet|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|CSV 파일로 감사 레코드 내보내기|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|Office 365 관리 작업 API를 통해 감사 로그에 액세스<sup>1</sup>.|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)</sup>|
+|90일 감사 로그 보존|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|1년 감사 로그 보존||![지원됨.](../media/check-mark.png)|
 |10년 감사 로그 보존 기간 <sup>2</sup>||![지원](../media/check-mark.png)|
 |로그 보존 정책 감사||![지원](../media/check-mark.png)|
 |가치가 높고 중요한 이벤트||![지원](../media/check-mark.png)|
@@ -131,7 +131,7 @@ Microsoft 365의 감사 솔루션 사용을 시작하려면 다음 설정 지침
 
 첫 번째 단계는 기본 감사를 설정한 다음 감사 로그 검색 실행을 시작하는 것입니다.
 
-![기본 감사 설정 워크플로](../media/BasicAuditingWorkflow.png)
+![기본 감사 설정 워크플로.](../media/BasicAuditingWorkflow.png)
 
 1. 조직에 기본 감사를 지원하는 구독이 있는지와 해당되는 경우 고급 감사를 지원하는 구독이 있는지 확인해야 합니다.
 
@@ -145,7 +145,7 @@ Microsoft 365의 감사 솔루션 사용을 시작하려면 다음 설정 지침
 
 조직에 고급 감사를 지원하는 구독이 있는 경우 다음 단계를 수행하여 고급 감사의 추가 기능을 설정하고 사용하세요.
 
-![고급 감사 설정 워크플로](../media/AdvancedAuditWorkflow.png)
+![고급 감사 설정 워크플로.](../media/AdvancedAuditWorkflow.png)
 
 1. 사용자에 대한 고급 감사 설정 이 단계는 다음과 같은 작업으로 구성됩니다.
 

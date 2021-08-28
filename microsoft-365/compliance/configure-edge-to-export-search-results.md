@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 ClickOnce 센터의 콘텐츠 검색 및 eDiscovery에서 검색 결과를 다운로드하려면 Microsoft Edge 최신 버전을 사용하도록 설정해야 합니다.
-ms.openlocfilehash: ec241d36bc24d72e4c0ea3e30e622e42eb9546bfb4b548220e98a0d9ea1c0334
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bd42ebffce326e4abe4943ff4187fc2bd960ff65
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830950"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574847"
 ---
 # <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>eDiscovery 내보내기 도구는 Microsoft Edge
 
@@ -30,7 +30,7 @@ ms.locfileid: "53830950"
 
 2. 드롭다운 목록에서 기존 값을 **Default** 또는 **Disabled로** 설정하면 사용으로 **변경합니다.**
 
-   ![드롭다운 목록에서 사용 선택](../media/ClickOnceimage1.png)
+   ![드롭다운 목록에서 사용 을 선택합니다.](../media/ClickOnceimage1.png)
 
 3. 브라우저 창 아래쪽으로 스크롤한 다음  다시 시작을 클릭하여 Edge를 다시 시작합니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "53830950"
 
 **참고:** 조직에서는 그룹 정책을 사용하여 조직에서 지원을 사용하지 ClickOnce 있습니다. 조직 지원에 대한 조직 정책이 ClickOnce 으로 **edge://policy.** 다음 스크린샷은 전체 ClickOnce 사용하도록 설정되어 있습니다. 이 정책 값이 **false로** 설정된 경우 조직의 관리자에게 문의해야 합니다.
 
-![에지 조직 정책 목록](../media/ClickOnceimage3.png)
+![에지 조직 정책 목록입니다.](../media/ClickOnceimage3.png)
 
 ## <a name="install-and-run-the-ediscovery-export-tool"></a>eDiscovery 내보내기 도구 설치 및 실행
 

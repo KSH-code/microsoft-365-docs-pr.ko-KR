@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 예상 검색 결과 및 실제 검색 결과가 각기 다른 이유에 대해 이해합니다. 검색에서 eDiscovery 도구를 사용하여 Office 365.
-ms.openlocfilehash: 70a2f22250010204298bb4e9ea5e4f3833013d04027bbdb4bcb0d25653ca47d4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ae6e8d21ceb448f2402b14a02d5e08a3bf331548
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53808110"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570584"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results"></a>예상 및 실제 eDiscovery 검색 결과 차이
 
@@ -35,21 +35,21 @@ ms.locfileid: "53808110"
 
 eDiscovery 검색을 실행하면 사용하는 도구는 검색 조건과 일치하는 예상 항목 수 및 총 크기를 반환합니다. 예를 들어 검색 창에서 검색을 Microsoft 365 규정 준수 센터 선택한 검색의 플라이아웃 페이지에 예상 검색 결과가 표시됩니다.
   
-![검색 플라이아웃 페이지에 표시되는 결과 예상](../media/EstimatedSearchResults1.png)
+![검색 플라이아웃 페이지에 표시되는 결과의 예상 결과입니다.](../media/EstimatedSearchResults1.png)
   
 로컬 컴퓨터로 결과를 내보낼 때 및 검색 결과와 함께 다운로드한 내보내기 요약 보고서에서 eDiscovery 내보내기 도구에 표시되는 총 크기 및 항목 수의 예상치와 동일합니다.
   
 **eDiscovery 내보내기 도구의 예상 결과**
 
-![eDiscovery 내보내기 도구의 예상 결과](../media/d34312a5-0ee6-49aa-9460-7ea0015a6e66.png)
+![eDiscovery 내보내기 도구의 예상 결과입니다.](../media/d34312a5-0ee6-49aa-9460-7ea0015a6e66.png)
   
 **내보내기 요약 보고서의 예상 결과**
 
-![예상된 검색 결과 내보내기 요약 보고서에 포함 된](../media/44b579da-86c2-4f33-81b5-84d604003eda.png)
+![예상 검색 결과는 내보내기 요약 보고서에 포함됩니다.](../media/44b579da-86c2-4f33-81b5-84d604003eda.png)
   
 그러나 내보내기 요약 보고서의 이전 스크린샷에서 알 수 있는 것 처럼 다운로드되는 실제 검색 결과의 크기와 수는 예상 검색 결과의 크기와 수와 다릅니다.
   
-![예상 및 다운로드 검색 결과 차이](../media/84aef318-230f-430d-9d9e-02f21342d364.png)
+![예상 검색 결과와 다운로드한 검색 결과의 차이입니다.](../media/84aef318-230f-430d-9d9e-02f21342d364.png)
   
 이러한 차이점의 몇 가지 이유는 다음과 같습니다.
   

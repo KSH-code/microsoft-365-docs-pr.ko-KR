@@ -8,12 +8,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 2a817f863102df09c457d759151bfa516f6b2da4
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.openlocfilehash: c8d0c712a0d2e9c575f55041b3182e3c77b2c687
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365128"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575231"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop 시작
 
@@ -24,7 +24,7 @@ ms.locfileid: "58365128"
 
 등록을 완료한 후 아래 단계에 따라 서비스를 구성합니다. 이 단계를 수행하는 것이 좋습니다. 그러나 순서는 어느 정도 조정할 수 있습니다.
 
-![이 문서에 나열된 등록 준비 단계의 제안 순서](../../media/mmd-getstarted-sequence.png) 
+![이 문서에 나열된 등록 준비 단계의 제안 순서.](../../media/mmd-getstarted-sequence.png) 
 
 1. [관리 포털](access-admin-portal.md)에 액세스합니다.
 1. [관리 포털의 관리자 연락처를 추가하고 확인합니다](add-admin-contacts.md).

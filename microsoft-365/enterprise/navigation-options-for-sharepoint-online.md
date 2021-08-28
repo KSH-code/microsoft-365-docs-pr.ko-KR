@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: adb92b80-b342-4ecb-99a1-da2a2b4782eb
 description: 이 문서에서는 SharePoint Online에서 게시를 사용하도록 설정한 탐색 옵션 SharePoint 설명합니다.
-ms.openlocfilehash: 38e72811eca6487a862beb8b1d197186783d3c48
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 7c890f61beae9ae98045861bbb08e3f6752d0037
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394663"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574739"
 ---
 # <a name="navigation-options-for-sharepoint-online"></a>온라인용 탐색 SharePoint 옵션
 
@@ -75,15 +75,15 @@ SharePoint [페이지](./page-diagnostics-for-spo.md) 진단 도구는 Microsoft
 
 사이트 **설정** 디자인 탐색에서 전역 탐색 또는 현재 탐색에 대해 구조적 탐색이 선택되어 있는지  >    >  확인할 수 있습니다. 페이지 **표시를 선택하면** 성능에 부정적인 영향을 미치게 됩니다.
 
-![하위 페이지 표시가 선택된 구조 탐색](../media/SPONavOptionsStructuredShowSubsites.png)
+![하위 페이지 표시가 선택된 구조 탐색입니다.](../media/SPONavOptionsStructuredShowSubsites.png)
 
 캐싱은 사이트 모음 수준과 사이트 수준에서 사용하도록 설정하거나 사용하지 않도록 설정할 수 있으며 기본적으로 둘 다에 대해 사용하도록 설정됩니다. 사이트 모음 수준에서 사용하도록 설정하려면 사이트 설정 사이트 모음 관리 사이트 모음   >    >  **탐색에서** 캐싱 사용 확인란을 **선택합니다.**
 
-![사이트 수준에서 캐싱 사용](../media/structural-nav/structural-nav-caching-site-coll.png)
+![사이트 수준에서 캐싱을 사용하도록 설정](../media/structural-nav/structural-nav-caching-site-coll.png)
 
 사이트 수준에서 사용하도록 설정하려면 사이트 설정  >  **탐색에서** 캐싱 사용 **확인란을 선택합니다.**
 
-![사이트 수준에서 캐싱 사용](../media/structural-nav/structural-nav-caching-site.png)
+![사이트 수준에서 캐싱을 사용하도록 설정](../media/structural-nav/structural-nav-caching-site.png)
 
 ## <a name="using-managed-navigation-and-metadata-in-sharepoint-online"></a>SharePoint Online에서 관리 탐색 및 메타데이터 사용
 
@@ -101,9 +101,9 @@ SharePoint [페이지](./page-diagnostics-for-spo.md) 진단 도구는 Microsoft
 
 관리 탐색의 세부 docs.microsoft.com 문서가 몇 가지 있습니다. 예를 들어 SharePoint 서버의 관리 [탐색 개요를 참조하세요.](/sharepoint/administration/overview-of-managed-navigation)
 
-관리 탐색을 구현하기 위해 사이트의 탐색 구조에 해당하는 URL을 사용하여 용어를 설정해야 합니다. 대부분의 경우 구조 탐색을 대체하기 위해 관리 탐색을 수동으로 구성할 수도 있습니다. 예를 들어:
+관리 탐색을 구현하기 위해 사이트의 탐색 구조에 해당하는 URL을 사용하여 용어를 설정해야 합니다. 대부분의 경우 구조 탐색을 대체하기 위해 관리 탐색을 수동으로 구성할 수도 있습니다. 예시:
 
-![SharePoint 온라인 사이트 구조](../media/SPONavOptionsListOfSites.png))
+![SharePoint 온라인 사이트 구조.](../media/SPONavOptionsListOfSites.png))
 
 ## <a name="using-search-driven-client-side-scripting"></a>검색 기반 클라이언트 쪽 스크립팅 사용
 
@@ -128,7 +128,7 @@ SharePoint [페이지](./page-diagnostics-for-spo.md) 진단 도구는 Microsoft
 1. 사이트 사이트 설정 페이지로 이동합니다.
 2. 마스터 페이지 를 클릭하여 마스터 페이지 **갤러리를 열 수 있습니다.**
 3. 여기에서 라이브러리를 탐색하고 파일을 다운로드할 수 `seattle.master` 있습니다.
-4. 텍스트 편집기를 사용하여 코드를 편집하고 다음 스크린샷에서 코드 블록을 삭제합니다.<br/>![표시된 코드 블록 삭제](../media/SPONavOptionsDeleteCodeBlock.png)<br/>
+4. 텍스트 편집기를 사용하여 코드를 편집하고 다음 스크린샷에서 코드 블록을 삭제합니다.<br/>![표시된 코드 블록을 삭제합니다.](../media/SPONavOptionsDeleteCodeBlock.png)<br/>
 5. 및 태그 사이에 있는 코드를 제거하고 다음 코드 코드로 `<SharePoint:AjaxDelta id="DeltaTopNavigation">` `<\SharePoint:AjaxDelta>` 대체합니다.<br/>
 
 ```javascript

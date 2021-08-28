@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Office 365 Content Delivery Network(CDN)를 사용하여 온라인 자산의 배달 속도를 SharePoint 방법을 알아보습니다.
-ms.openlocfilehash: f2e23217e18c51bb865dd46a692db50bf3fa81ade1a09e833305cdb9a5fbadc9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 494f0574707693f7d36fa2e1c61ee942e4c088a6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885114"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574270"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>sharepoint Online을 활용해 Office 365 콘텐츠 배달 네트워크(CDN) 사용하기
 
@@ -37,7 +37,7 @@ ms.locfileid: "53885114"
 
 Office 365 CDN은 여러 위치, 즉 _출발지_ 에 정적 자산을 호스트하고 글로벌 고속 네트워크에서 제공할 수 있는 여러 CDN으로 구성됩니다. Office 365 CDN에서 호스팅하려는 콘텐츠의 종류에 따라 **공개** 출처, **비공개** 출처 또는 둘 다를 추가할 수 있습니다. 공개 [원본과](use-microsoft-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate) 개인 출처 간의 차이점에 대한 자세한 내용은 각 출처가 공개 또는 비공개인지 선택을 참조하세요.
 
-![Office 365 CDN 다이어그램](../media/O365-CDN/o365-cdn-flow-transparent.png "Office 365 CDN 다이어그램")
+![Office 365 CDN 다이어그램을 참조합니다.](../media/O365-CDN/o365-cdn-flow-transparent.png "Office 365 CDN 다이어그램")
 
 CDNS 작동 방식에 이미 익숙한 경우 테넌트에 대해 CDNS를 사용하도록 설정하기 위해 몇 Office 365 CDN만 수행하면 됩니다. 이 항목에서는 방법을 설명합니다. 정적 자산 호스팅을 시작하는 방법에 대한 자세한 내용을 읽어 읽습니다.
 
@@ -399,7 +399,7 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 <a name="ExamplePrivateOriginSiteCollection"> </a>
 ### <a name="example-configure-a-private-origin-for-a-site-collection-for-sharepoint-online"></a>예: SharePoint Online의 사이트 모음에 대한 비공개 출처 구성
 
-**Add-SPOTenantCdnOrigin** cmdlet을 사용하여 사이트 모음을 비공개 원본으로 정의합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+**Add-SPOTenantCdnOrigin** cmdlet을 사용하여 사이트 모음을 비공개 원본으로 정의합니다. 예시:
 
 ```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
@@ -682,7 +682,7 @@ Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 <a name="ExamplePrivateOriginSiteCollectionPnPPosh"> </a>
 ### <a name="example-configure-a-private-origin-for-a-site-collection-for-sharepoint-online"></a>예: SharePoint Online의 사이트 모음에 대한 비공개 출처 구성
 
-**Add-PnPTenantCdnOrigin** cmdlet을 사용하여 사이트 모음을 비공개 원본으로 정의합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+**Add-PnPTenantCdnOrigin** cmdlet을 사용하여 사이트 모음을 비공개 원본으로 정의합니다. 예시:
 
 ```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
@@ -938,7 +938,7 @@ SharePoint  Online의 게시 기능은 공개 원본에 저장된 자산의 URL�
 https://publiccdn.sharepointonline.com/<TenantHostName>/sites/site/library/asset.png
 ```
 
-**TenantHostName을 테넌트** 이름으로 바 대체합니다. 예:
+**TenantHostName을 테넌트** 이름으로 바 대체합니다. 예제:
 
 ```http
 https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library/asset.png
@@ -962,7 +962,7 @@ https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library
 
 온라인에서 개인 출처의 자산에 Office 365 CDN 액세스는 SharePoint 통해 부여됩니다. 원본으로 지정된 폴더 또는 라이브러리에 대한 액세스 권한이 이미 있는 사용자에게는 사용 권한 수준에 따라 파일에 액세스할 수 있는 토큰이 자동으로 부여됩니다. 이러한 액세스 토큰은 생성 후 30~90분 동안 유효하여 토큰 재생 공격을 방지할 수 있습니다.
 
-액세스 토큰이 생성된 후 SharePoint Online은 두 개의 권한 부여 매개  변수(edge 인증 토큰)와 _oat(원본_ 인증 토큰)이 포함된 클라이언트에 사용자 지정 URI를 반환합니다. 각 토큰의 구조는 _에포치<_ 형식의 >__< 서명의 만료 >. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+액세스 토큰이 생성된 후 SharePoint Online은 두 개의 권한 부여 매개  변수(edge 인증 토큰)와 _oat(원본_ 인증 토큰)이 포함된 클라이언트에 사용자 지정 URI를 반환합니다. 각 토큰의 구조는 _에포치<_ 형식의 >__< 서명의 만료 >. 예시:
 
 ```http
 https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/library1/folder1/image1.jpg?eat=1486154359_cc59042c5c55c90b26a2775323c7c8112718431228fe84d568a3795a63912840&oat=1486154359_7d73c2e3ba4b7b1f97242332900616db0d4ffb04312
@@ -975,7 +975,7 @@ https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/libra
 
 온라인에서는 개인 SharePoint 자산에 대한 항목 수준 권한을 지원하지 않습니다. 예를 들어 에 있는 파일의 경우 다음과 같은 조건에 따라 파일에 효과적으로 `https://contoso.sharepoint.com/sites/site1/library1/folder1/image1.jpg` 액세스할 수 있습니다.
 
-|사용자  |사용 권한  |효과적인 액세스  |
+|사용자  |권한  |효과적인 액세스  |
 |---------|---------|---------|
 |사용자 1     |folder1에 액세스할 수 있습니다.         |사용자 image1.jpg 액세스할 수 CDN         |
 |사용자 2     |folder1에 액세스할 수 없습니다.         |에서 image1.jpg 액세스할 수 CDN         |

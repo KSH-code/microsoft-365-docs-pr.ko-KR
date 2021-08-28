@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b7b830c35443f47af72ed0d76303b96491648bc
-ms.sourcegitcommit: b05b107774e8bca36c9ee19fdc4719d17e302f11
+ms.openlocfilehash: 1dc5a22fe23a64669c7ab89ecd2141aff1659166
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483322"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574499"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -87,7 +87,7 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 
 2. 사용자 **제출 페이지에서는** Microsoft Outlook 메시지 단추 설정이 꺼지거나 으로 설정되어 **있는지** **여부에** 따라 **표시됩니다.**
 
-   - **Microsoft Outlook 메시지 단추** \> **On** ![ 토글: 보고서 메시지 추가 기능, 피싱 보고 추가 기능 또는 기본 제공 보고 기능을 웹용 Outlook 다음 설정을 구성하려면 이 ](../../media/scc-toggle-on.png) 옵션을 선택합니다.
+   - **Microsoft Outlook 메시지 단추** \> **On** ![ 토글합니다. 보고서 메시지 추가 기능, 피싱 보고 추가 기능 또는 기본 제공 보고 기능을 웹용 Outlook 다음 설정을 구성하려면 이 ](../../media/scc-toggle-on.png) 옵션을 선택합니다.
      - **보고된 메시지를** 다음 옵션 중 하나를 선택합니다.
        - **Microsoft:** 사용자 전송 사서함이 사용되지 않습니다(보고된 모든 메시지는 Microsoft로 이동).
        - **Microsoft 및 내** 조직의 사서함: 나타나는 상자에 기존 사서함의 전자 메일 주소를 Exchange Online. 메일 그룹은 허용되지 않습니다. 사용자 제출은 분석을 위해 Microsoft로 이동하고 관리자 또는 보안 운영 팀이 분석할 사용자 지정 사서함으로 이동됩니다.
@@ -119,7 +119,7 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 
           > 분석을 위해 전자 메일이 Microsoft에 있는 동안 제출됩니다. 일부 전자 메일에는 개인 또는 중요한 정보가 포함될 수 있습니다.
 
-   - **Microsoft Outlook 메시지 단추** \> **끄기** ![ 토글 해제: 보고서 메시지 추가 기능, 피싱 보고 추가 기능 또는 기본 제공 보고 기능 대신 타사 보고 도구를 사용하는 경우 웹용 Outlook 다음 설정을 ](../../media/scc-toggle-off.png) 구성합니다.
+   - **Microsoft Outlook 메시지 단추** \> **끄기** ![ 토글 해제: 보고서 메시지 추가 기능, 피싱 보고 추가 기능 또는 기본 제공 웹용 Outlook 대신 타사 보고 도구를 사용하는 경우 이 옵션을 선택하고 다음 설정을 ](../../media/scc-toggle-off.png) 구성합니다.
      - 이 **사용자 지정 사서함을 사용하여 사용자가 보고한 제출을 받습니다.를 선택합니다.** 나타나는 상자에 전자 메일을 받을 수 있는 기존 Exchange Online 사서함의 전자 메일 주소를 입력합니다.
 
    완료되면 확인 을 **클릭합니다.** 이러한 값을 지우려면 **복원을 클릭합니다.**
@@ -142,7 +142,7 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 - 2| 또는 정크 아님
 - 3| 또는 피싱
 
-예제:
+예시:
 
 `3|This part is ignored by the system` <br>
 `Not Junk:This part of the subject is ignored as well`

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 또는 Number Archiver에서 SMS 및 MMS 데이터를 가져오고 보관할 커넥터를 Enterprise 있습니다. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 1fb13b5c35aa71d3ed2d83a28dbcedcb764a10506e38381032052f39b2970cf0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d164f2087e0e172cd948549090b750cfefe947b2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814825"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570344"
 ---
 # <a name="set-up-a-connector-to-archive-enterprise-number-data"></a>번호 데이터를 보관할 Enterprise 설정
 

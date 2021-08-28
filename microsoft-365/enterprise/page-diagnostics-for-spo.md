@@ -19,12 +19,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: SharePoint 페이지 진단 도구를 사용하여 SharePoint 온라인 최신 포털 및 클래식 게시 페이지를 미리 정의된 성능 기준 집합과 분석합니다.
-ms.openlocfilehash: 742c55fcdcb527b3544650918d2e404045318619abba7df79f736dead31d07ca
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e741e8e2da62d2361578e31edcb6dbbafafbb7dc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53878414"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574715"
 ---
 # <a name="use-the-page-diagnostics-for-sharepoint-tool"></a>사용자용 페이지 진단 SharePoint 사용
 
@@ -45,14 +45,14 @@ SharePoint용 페이지 진단 도구는 새 Microsoft Edge에 대한 브라우�
 페이지 진단 도구는 *allitems.aspx* 또는 *sharepoint.aspx와* 같은 시스템 SharePoint 사이트 페이지만 분석하도록 디자인되어 있습니다. 시스템 페이지 또는 다른 비사이트 페이지에서 도구를 실행하려고 하면 해당 유형의 페이지에 대해 도구를 실행할 수 없다는 오류 메시지가 표시됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![다음 페이지에서 실행해야 SharePoint 합니다.](../media/page-diagnostics-for-spo/pagediag-Error-StartPage.png)
+> ![웹 페이지로 SharePoint 합니다.](../media/page-diagnostics-for-spo/pagediag-Error-StartPage.png)
 
 라이브러리 또는 시스템 페이지를 평가하는 데 값이 없는 도구에서는 오류가 되지 않습니다. 도구를 사용하려면 SharePoint 페이지로 이동합니다. 이 오류가 SharePoint 페이지에서 발생하는 경우 마스터 페이지를 확인하여 SharePoint 메타태그가 제거되지 않은지 확인하십시오.
 
 도구에 대한 피드백을 제공하려면 도구의 오른쪽 상단 모서리에 있는 줄임차를 선택한 다음 피드백 [보내기를 선택합니다.](https://go.microsoft.com/fwlink/?linkid=874109)
 
 > [!div class="mx-imgBorder"]
-> ![피드백 제공](../media/page-diagnostics-for-spo/pagediag-feedback.png)
+> ![피드백을 제공합니다.](../media/page-diagnostics-for-spo/pagediag-feedback.png)
   
 ## <a name="install-the-page-diagnostics-for-sharepoint-tool"></a>사용자용 페이지 진단 SharePoint 설치
 
@@ -64,7 +64,7 @@ SharePoint용 페이지 진단 도구는 새 Microsoft Edge에 대한 브라우�
 1.  [SharePoint(Edge](https://microsoftedge.microsoft.com/addons/detail/ocemkolpnamjcacndljdfmhlpcaoipji) 확장) 또는 Chrome(Chrome 확장Microsoft Edge용 **페이지** 진단 [도구를 설치합니다.](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi) 스토어의 설명 페이지에 제공된 사용자 개인 정보 취급 방침을 검토하세요. When adding the tool to your browser, you will see the following permissions notice.
 
     > [!div class="mx-imgBorder"]
-    > ![확장 권한](../media/page-diagnostics-for-spo/pagediag-add-to-edge.png)
+    > ![확장 권한.](../media/page-diagnostics-for-spo/pagediag-add-to-edge.png)
 
     이 알림은 페이지의 웹 파트 및 사용자 지정에 따라 페이지에 SharePoint 외부 위치의 콘텐츠를 포함할 수 있기 때문에 이 알림이 설정됩니다. 즉, 시작 단추를 클릭할 때 도구가 실행 중인 활성 SharePoint 탭에만 요청 및 응답을 읽게 됩니다. 이 정보는 웹 브라우저에서 로컬로 캡처하며 도구의 네트워크 추적 탭에 **있는 JSON으로** 내보내기 또는 **HAR로** 내보내기 단추를 통해 사용할 수 있습니다. 이 정보는 Microsoft로 전송되거나 Microsoft에서 캡처되지 **않습니다.**  이 도구는 여기에서 액세스할 수 있는 Microsoft 개인 정보 취급 방침을 [준수합니다.](https://go.microsoft.com/fwlink/p/?linkid=857875)
 
@@ -73,9 +73,9 @@ SharePoint용 페이지 진단 도구는 새 Microsoft Edge에 대한 브라우�
     1. 다음 Microsoft Edge URL 표시줄에 확장을 _edge://extensions_ 입력하고 확장에 대한 **세부** 정보를 선택합니다.  확장 설정에서 InPrivate 에서 허용 **확인란을 선택합니다.**
     1. Chrome에서 확장으로 이동하거나  URL chrome://extensions 확장에 대한  세부 정보를 선택합니다.  확장 설정에서 **Incognito에서 허용할 슬라이더를 선택합니다.**
 1. 검토할 SharePoint 온라인에서 SharePoint 사이트 페이지로 이동합니다. 페이지에서 항목의 "로드 지연"이 허용됩니다. 따라서 이 도구는 자동으로 중지되지 않습니다(모든 페이지 로드 시나리오를 수용하기 위해 디자인). 컬렉션을 중지하려면 중지 를 **선택합니다.** 데이터 수집을 중지하기 전에 페이지 로드가 완료되거나 부분 추적만 캡처해야 합니다.
-1. 확장의 도구 모음 단추 클릭 ![로고에 대한 SharePoint 진단](../media/page-diagnostics-for-spo/pagediag-icon32.png) 를 사용하여 도구를 로드하면 다음과 같은 확장 팝업 창이 표시됩니다.
+1. 확장의 도구 모음 단추 클릭 ![로고에 대한 SharePoint 진단입니다.](../media/page-diagnostics-for-spo/pagediag-icon32.png) 를 사용하여 도구를 로드하면 다음과 같은 확장 팝업 창이 표시됩니다.
 
-    ![페이지 진단 도구 팝업](../media/page-diagnostics-for-spo/pagediag-Landing.png)
+    ![페이지 진단 도구 팝업.](../media/page-diagnostics-for-spo/pagediag-Landing.png)
 
 분석을 **위해** 데이터 수집을 시작하려면 시작을 선택합니다.
 
@@ -88,7 +88,7 @@ SharePoint용 페이지 진단 도구는 새 Microsoft Edge에 대한 브라우�
 1. **상관 관계 ID, SPRequestDuration, SPIISLatency,** 페이지 로드 시간 및 **URL** 세부 정보는 정보를 제공하며 몇 가지 용도로 사용할 수 있습니다. 
 
     > [!div class="mx-imgBorder"]
-    > ![페이지 진단 세부 정보](../media/page-diagnostics-for-spo/pagediag-details.PNG)
+    > ![페이지 진단 세부 정보.](../media/page-diagnostics-for-spo/pagediag-details.PNG)
 
    - **CorrelationID는** Microsoft 지원 서비스에서 특정 페이지에 대한 추가 진단 데이터를 수집할 수 있도록 하는 중요한 요소입니다.
    - **SPRequestDuration은** 페이지를 SharePoint 시간입니다. 구조 탐색, 큰 이미지, 많은 API 호출이 모두 더 긴 기간에 기여할 수 있습니다.
@@ -105,7 +105,7 @@ SharePoint용 페이지 진단 도구는 새 Microsoft Edge에 대한 브라우�
     |**필요한 작업 없음** |녹색 |테스트 결과는 테스트의 기준 값에 해당합니다.|
 
     > [!div class="mx-imgBorder"]
-    > ![페이지 진단](../media/page-diagnostics-for-spo/pagediag-results-general.PNG)
+    > ![페이지 진단.](../media/page-diagnostics-for-spo/pagediag-results-general.PNG)
 
 1. 네트워크 [**추적 탭은**](#how-to-use-the-network-trace-tab-and-how-to-export-a-har-file) 페이지 빌드 요청 및 응답에 대한 세부 정보를 제공합니다.
 
@@ -135,7 +135,7 @@ SharePoint SharePoint 도구로 최신 포털 페이지 또는 클래식 게시 
     - 빨간색: \> 1000ms
 
     > [!div class="mx-imgBorder"]
-    > ![네트워크 추적](../media/page-diagnostics-for-spo/pagediag-networktrace-red.png)
+    > ![네트워크 추적.](../media/page-diagnostics-for-spo/pagediag-networktrace-red.png)
 
     위에 표시된 이미지에서 빨간색 항목은 기본 페이지에 해당합니다. 페이지가 \< 1000ms(1초 미만)로 로드되지 않으면 항상 빨간색으로 표시됩니다.
 
@@ -144,12 +144,12 @@ SharePoint SharePoint 도구로 최신 포털 페이지 또는 클래식 게시 
 3. 문제를 조사하는 데 도움이 될 수 있는 다른 사용자와 관련 **세부 정보를 공유합니다.** 도구에 제공된 세부 정보나 정보를 개발자 또는 기술 지원 사용자와 공유하려면 **HAR(HTTP Archive)로** 내보내기 사용을 사용하는 것이 좋습니다. 
 
    > [!div class="mx-imgBorder"]
-   > ![HAR로 내보내기 사용](../media/page-diagnostics-for-spo/pagediag-submithar.png)
+   > ![HAR로 내보내기 사용.](../media/page-diagnostics-for-spo/pagediag-submithar.png)
 
 시작을 클릭하기 전에 사용하도록 설정해야 합니다. 그러면 브라우저에서 디버그 모드를 사용하도록 설정됩니다. 그런 다음 "네트워크 추적" 탭을 통해 액세스할 수 있는 HTTP 보관 파일(HAR)을 생성합니다. "HAR로 내보내기"를 클릭하면 파일이 컴퓨터로 다운로드된 다음 그에 따라 공유할 수 있습니다. F12 개발자 도구 및 Fiddler와 같은 다양한 디버그 도구에서 파일을 열 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![네트워크 추적](../media/page-diagnostics-for-spo/pagediag-networktracehar.png)
+> ![네트워크 추적.](../media/page-diagnostics-for-spo/pagediag-networktracehar.png)
 
 > [!IMPORTANT]
 > 이러한 결과에는 PII(개인 식별이 가능한 정보)로 분류할 수 있는 URL이 포함되어 있습니다. 해당 정보를 배포하기 전에 조직의 지침을 따라야 합니다.
@@ -167,7 +167,7 @@ SharePoint SharePoint 도구로 최신 포털 페이지 또는 클래식 게시 
 3. 확인란을 선택한 다음 시작을 **클릭하여** 페이지를 다시 로드하고 자세한 로깅을 생성합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![지원 옵션 사용](../media/page-diagnostics-for-spo/pagediag-support.png)
+   > ![지원 옵션 사용.](../media/page-diagnostics-for-spo/pagediag-support.png)
   
     CorrelationID(도구의 맨 위에 표시)를 메모하고 지원 담당자에게 제공하여 진단 세션에 대한 추가 정보를 수집할 수 있도록 해야 합니다.
 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: d628922d5c6933acc386abf14cf6436a3e595419741a4f816fc374b0570b4a73
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 94351858da196edfd719d7b07ab6f125abf9d658
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865223"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570236"
 ---
 # <a name="train-a-predictive-coding-model-preview"></a>예측 코딩 모델 교육(미리 보기)
 
@@ -45,7 +45,7 @@ Advanced eDiscovery 예측 코딩 모델을 만든 후 다음 단계는 첫 번�
 
 5. 각 문서를 검토한  다음  읽기 창 아래쪽의 관련성 또는 관련이 없는 단추를 선택하여 레이블을 지정합니다.
 
-   ![각 문서에 관련성 또는 관련이 없는 것으로 레이블 지정](..\media\TrainModel1.png)
+   ![각 문서에 관련성 또는 관련이 없는 것으로 레이블을 지정합니다.](..\media\TrainModel1.png)
 
 6. 50개 항목에 모두 레이블을 지정한 후 마친 을 **클릭합니다.**
 
@@ -71,7 +71,7 @@ Advanced eDiscovery 예측 코딩 모델을 만든 후 다음 단계는 첫 번�
 
   ****
 
-  |레이블|Model predicts item is relevant|Model predicts item is not relevant|
+  |Label|Model predicts item is relevant|Model predicts item is not relevant|
   |---|---|---|
   |**관련성 있는 검토자 레이블 항목**|참 긍정|가양성|
   |**관련이 없는 검토자 레이블 항목**|거짓 부정|True 음수|

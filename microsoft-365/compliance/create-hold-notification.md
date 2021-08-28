@@ -17,18 +17,18 @@ search.appverid:
 ms.assetid: ''
 description: 법적 보유 알림을 보내고 Advanced eDiscovery 추적할 수 있는 정보 보호 사례에서 통신 도구를 사용합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b5bf8d070e5e1bf8fc44e16a6550a6e376e2716f
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: cc9e8c424550c2be12711d7ef098c95230b0b1a4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502702"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574367"
 ---
 # <a name="create-a-legal-hold-notice"></a>법적 보유 알림 만들기
 
 조직은 Advanced eDiscovery 통신을 사용하여 관리인과의 통신에 대한 워크플로를 관리할 수 있습니다. 커뮤니케이션 도구를 통해 법률 팀은 법적 보유 알림을 체계적으로 보내고, 수집하고, 추적할 수 있습니다. 유연한 만들기 프로세스를 통해 팀은 보유 알림 워크플로 및 보유자에게 전송되는 알림의 콘텐츠를 사용자 지정할 수도 있습니다.
 
-![통신 페이지](../media/CommunicationPage.PNG)
+![통신 페이지.](../media/CommunicationPage.PNG)
 
 이 문서에서는 보류 알림 워크플로의 단계에 대해 간략하게 설명합니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "58502702"
 
 첫 번째 단계는 법적 보유 알림 또는 기타 보유자 통신에 적절한 세부 정보를 지정하는 것입니다.
 
-![이름 통신 페이지](../media/NameCommunication.PNG)
+![이름 통신 페이지입니다.](../media/NameCommunication.PNG)
 
 1. 조직 Microsoft 365 규정 준수 센터 **eDiscovery** > 고급으로 이동하여 조직의 사례 목록을 표시합니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "58502702"
 
 다음으로 보류 알림의 콘텐츠를 만들고 추가할 수 있습니다. 통신 **만들기 마법사의** 포털  콘텐츠 정의 페이지에서 보류 알림의 내용을 지정합니다. 이 콘텐츠는 발급, 다시 발급, 미리 알림 및 에스컬레이터 알림에 자동으로 추가됩니다. 또한 이 콘텐츠는 관리인의 준수 포털에 표시됩니다.
 
-![포털 콘텐츠 페이지](../media/PortalContent.PNG)
+![포털 콘텐츠 페이지.](../media/PortalContent.PNG)
 
 포털 콘텐츠를 만들 수 있는 경우:
 
@@ -132,7 +132,7 @@ ms.locfileid: "58502702"
 
 원하는 경우 자동화된 미리 알림 및 에스컬레이터 알림을 만들고 설정하여 응답하지 않는 관리인에게 후행할 수 있는 워크플로를 단순화할 수 있습니다.
 
-![미리 알림/에스컬ation 페이지](../media/ReminderEscalations.PNG)
+![미리 알림/에스컬ation 페이지.](../media/ReminderEscalations.PNG)
 
 ### <a name="reminders"></a>미리 알림
 
@@ -178,7 +178,7 @@ ms.locfileid: "58502702"
 
 알림에 대한 콘텐츠를 마무리한 후 알림을 보낼 수 있는 정보를 선택합니다.
 
-![Custodians 페이지 선택](../media/SelectCustodians.PNG)
+![Custodians 페이지를 선택합니다.](../media/SelectCustodians.PNG)
 
 보금주를 추가하는 경우:
 

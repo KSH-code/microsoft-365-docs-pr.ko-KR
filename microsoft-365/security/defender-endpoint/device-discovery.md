@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 75b47d9d7c95bd2e1f0c2654e59c3d24e7e838fc6a4d1d543976829e9c96c149
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4c1d24119ee8f403b168d6b2f2d97b9842f89d9b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834135"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575195"
 ---
 # <a name="device-discovery-overview"></a>장치 검색 개요
 
@@ -90,7 +90,7 @@ Microsoft Defender for Endpoint는 추가 어플라이언스 또는 번거로운
 - 지원되지 않습니다. 끝점은 네트워크에서 검색했지만 끝점용 Microsoft Defender에서 지원되지 않습니다.
 - 정보 부족: 시스템에서 장치의 지원 여부를 확인할 수 없습니다. 네트워크의 더 많은 장치에서 표준 검색을 사용하도록 설정하면 검색된 특성을 강화할 수 있습니다.
 
-![장치 인벤토리 대시보드의 이미지](images/2b62255cd3a9dd42f3219e437b956fb9.png)
+![장치 인벤토리 대시보드의 이미지입니다.](images/2b62255cd3a9dd42f3219e437b956fb9.png)
 
 > [!TIP]
 > 항상 필터를 적용하여 관리되지 않는 장치를 장치 인벤토리 목록에서 제외할 수 있습니다. API 쿼리의 등록 상태 열을 사용하여 관리되지 않는 장치를 필터링할 수도 있습니다.
@@ -100,14 +100,14 @@ Microsoft Defender for Endpoint는 추가 어플라이언스 또는 번거로운
 네트워크에서 검색된 다른 관리되지 않는 장치뿐만 아니라 장치의 취약성 및 위험은 "보안 권장 사항"에 따라 현재 TVM 흐름의 일부로 포털의 엔터티 페이지에 표시됩니다.
 "SSH" 관련 보안 권장 사항을 검색하여 관리되지 않는 장치 및 관리되는 장치와 관련된 SSH 취약성을 검색합니다.
 
-![보안 권장 사항 대시보드의 이미지](images/1156c82ffadd356ce329d1cf551e806c.png)
+![보안 권장 사항 대시보드의 이미지입니다.](images/1156c82ffadd356ce329d1cf551e806c.png)
 
 ## <a name="use-advanced-hunting-on-discovered-devices"></a>검색된 장치에서 고급 헌팅 사용
 
 고급 헌팅 쿼리를 사용하여 검색된 디바이스를 볼 수 있습니다.
 DeviceInfo 테이블에서 검색된 끝점에 대한 세부 정보 또는 DeviceNetworkInfo 테이블에서 해당 장치에 대한 네트워크 관련 정보를 찾아볼 수 있습니다.
 
-![고급 헌팅 사용 이미지](images/f48ba1779eddee9872f167453c24e5c9.png)
+![고급 헌팅 사용의 이미지입니다.](images/f48ba1779eddee9872f167453c24e5c9.png)
 
 장치 검색은 네트워크 데이터 원본으로 끝점용 Microsoft Defender를 네트워크 데이터 원본으로 활용하여 활동을 비보딩된 장치에 특성화합니다. 즉, 온보딩되지 않은 장치와 통신한 끝점용 Microsoft Defender 온보딩 디바이스의 경우 온보딩되지 않은 장치의 활동은 타임라인 및 고급 헌팅 DeviceNetworkEvents 테이블을 통해 볼 수 있습니다.
 

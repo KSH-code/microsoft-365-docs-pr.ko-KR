@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 64f2339f6e533237a3aca77fda1a8da439ff6f59
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: bb0633145ab1a1ac97e77b7b319e8defeb06e309
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257227"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570440"
 ---
 # <a name="evaluate-and-pilot-microsoft-365-defender"></a>평가 및 파일럿 Microsoft 365 Defender
 
@@ -66,7 +66,7 @@ Microsoft 365 Defender 보안 기술로 나란하게 작동됩니다. XDR 및 XD
 |ID용 Microsoft Defender     |      Microsoft Defender for Identity는 Active Directory 신호를 사용하여 조직에 대한 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사합니다.     |     [Microsoft Defender for Identity란?](/defender-for-identity/what-is)   |
 |Exchange Online Protection     |      Exchange Online Protection 스팸 및 맬웨어로부터 조직을 보호하는 데 도움이 되는 기본 클라우드 기반 SMTP 릴레이 및 필터링 서비스입니다.      |   [Exchange Online Protection(EOP) 개요 - Office 365](../office-365-security/overview.md)     |
 |Office 365용 Microsoft Defender     |     Microsoft Defender for Office 365 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다.      |    [Microsoft Defender for Office 365 - Office 365](../office-365-security/overview.md)    |
-|끝점용 Microsoft Defender     |     끝점용 Microsoft Defender는 장치 보호, 위반 후 감지, 자동화된 조사 및 권장 응답을 위한 통합 플랫폼입니다.      |   [끝점용 Microsoft Defender - Windows 보안](../defender-endpoint/microsoft-defender-endpoint.md)    |
+|엔드포인트용 Microsoft Defender     |     끝점용 Microsoft Defender는 장치 보호, 위반 후 감지, 자동화된 조사 및 권장 응답을 위한 통합 플랫폼입니다.      |   [끝점용 Microsoft Defender - Windows 보안](../defender-endpoint/microsoft-defender-endpoint.md)    |
 |Microsoft Cloud App Security     |      Microsoft Cloud App security는 클라우드 앱에 심층 가시성, 강력한 데이터 제어 및 향상된 위협 방지를 도입하는 포괄적인 교차 SaaS 솔루션입니다.       |    [Cloud App Security란 무엇인가요?](/cloud-app-security/what-is-cloud-app-security)    |
 |Azure AD ID 보호|Azure AD ID 보호는 수 억 번의 로그인 시도에서 위험 데이터를 평가하고 이 데이터를 사용하여 사용자 환경에 대한 각 로그인의 위험을 평가합니다. 이 데이터는 조건부 액세스 정책이 구성된 방식에 따라 Azure AD에서 계정 액세스를 허용하거나 차단하는 데 사용됩니다. Azure AD ID 보호는 사용자와 별도로 Microsoft 365 Defender. 이 패키지는 2016에 Azure Active Directory Premium P2.|[ID 보호란?](/azure/active-directory/identity-protection/overview-identity-protection)|
 | | | |
@@ -75,7 +75,7 @@ Microsoft 365 Defender 보안 기술로 나란하게 작동됩니다. XDR 및 XD
 
 아래 다이어그램에서는 주요 구성 요소 및 통합에 대한 Microsoft 365 Defender 아키텍처를 보여 제공합니다. *각* Defender 구성 요소 및 사용 사례 시나리오에 대한 자세한 아키텍처는 이 문서 시리즈 전체에서 제공됩니다.
 
-![Microsoft 365 Defender 아키텍처](../../media/defender/m365-defender-eval-architecture.png)
+![Microsoft 365 Defender 아키텍처를 제공합니다.](../../media/defender/m365-defender-eval-architecture.png)
 
 이 그림에서는 다음을 참조합니다.
 
@@ -94,14 +94,14 @@ Microsoft 365 Defender 보안 기술로 나란하게 작동됩니다. XDR 및 XD
 
 Microsoft는 설명된 순서대로 Microsoft 365 구성 요소를 사용하도록 설정하는 것이 좋습니다.
 
-![Microsoft 365 Defender 평가 프로세스](../../media/defender/m365-defender-eval-process.png)
+![Microsoft 365 Defender 수준 평가 프로세스를 제공합니다.](../../media/defender/m365-defender-eval-process.png)
 
 다음 표에서는 이 그림에 대해 설명합니다.
 
 |      |단계  |설명  |
 |------|---------|---------|
 |1     | [평가 환경 만들기](eval-create-eval-environment.md)       |이 단계를 통해 사용자에 대한 평가판 라이선스가 Microsoft 365 Defender.         |
-|2      | [ID에 Defender 사용](eval-defender-identity-overview.md)        | 아키텍처 요구 사항을 검토하고, 평가를 사용하도록 설정하고, 다양한 공격 유형을 식별하고 수정하기 위한 자습서를 진행합니다.   |
+|2     | [ID에 Defender 사용](eval-defender-identity-overview.md)        | 아키텍처 요구 사항을 검토하고, 평가를 사용하도록 설정하고, 다양한 공격 유형을 식별하고 수정하기 위한 자습서를 진행합니다.   |
 |3      | [사용자에 대해 Defender를 Office 365](eval-defender-office-365-overview.md)       | 아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요. 이 구성 요소에는 Exchange Online Protection 포함되어 있으므로 여기서 실제로 두 가지를 *모두 평가합니다.*      |
 |4      | [끝점에 Defender 사용 ](eval-defender-endpoint-overview.md)       | 아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요.         |
 |5      | [사용자 Microsoft Cloud App Security](eval-defender-mcas-overview.md)        |  아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요.        |

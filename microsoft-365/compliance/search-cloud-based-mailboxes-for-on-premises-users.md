@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Microsoft 365의 eDiscovery 도구를 사용하여 Exchange 하이브리드 배포의 온-프레미스 사용자에 대한 Teams 채팅 데이터를 검색하고 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa90f79faa20d930a9740c852767663f843cba51
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 1dfd3ebe278f704cc878beaa1711f117d57551bc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507845"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574787"
 ---
 # <a name="search-for-teams-chat-data-for-on-premises-users"></a>온-프레미스 사용자의 Teams 채팅 데이터 검색
 
@@ -48,7 +48,7 @@ Microsoft Teams 지원 사용자에게 온-프레미스 사서함이 있고 사�
   
 다음 그래픽은 온-프레미스 사용자의 Teams 채팅 데이터를 검색하고 미리 보고 내보내는 방법에 대한 워크플로를 보여줍니다.
   
-![Microsoft Teams에서 온-프레미스 사용자의 클라우드 기반 저장소](../media/EHAMShard1.png)
+![Microsoft Teams에서 온-프레미스 사용자의 클라우드 기반 저장소.](../media/EHAMShard1.png)
   
 이 기능 외에도 eDiscovery 도구를 사용하여 클라우드 기반 SharePoint 사이트 및 각 Microsoft Teams와 연결된 Exchange 사서함 및 클라우드 기반 사용자를 위한 Exchange Online 사서함의 1xN Teams 채팅 데이터에서 Teams 콘텐츠를 검색하고 미리 보고 내보낼 수 있습니다.
 

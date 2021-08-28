@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: d2676c827cc6771d4a8b9a140c06365321695f9f12674c7a41a846b76f210044
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f7f1f1c4a6655142401f121def17999d4f07d9f9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835793"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570560"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>2016의 내부자 위험 Microsoft 365
 
@@ -44,7 +44,7 @@ Microsoft 365 내부자 위험 관리는 모든 서비스 및 제3자 지표를 
 
 다음 단계를 사용하여 조직에 대해 내부자 위험 관리를 구성합니다.
 
-![내부자 위험 솔루션 내부자 위험 관리 단계](../media/ir-solution-ir-steps.png)
+![내부자 위험 솔루션 내부자 위험 관리 단계.](../media/ir-solution-ir-steps.png)
 
 1. 내부자 [위험 관리에](insider-risk-management.md) 대해 Microsoft 365
 2. 내부자 [위험 관리 계획 및 라이선스 확인](insider-risk-management-plan.md)

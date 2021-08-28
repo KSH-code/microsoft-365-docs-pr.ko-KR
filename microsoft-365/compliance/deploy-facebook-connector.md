@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 기본 커넥터를 설정하여 Facebook 비즈니스 페이지를 가져와서 보관할 수 Microsoft 365. 이 데이터를 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 Facebook 데이터의 거버넌스를 관리할 수 있습니다.
-ms.openlocfilehash: 14793931ec6e58571dd870bd48b2150d2d00fa09
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 9b2e7293bdd5be4eaf0b478263645663395e522d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58248066"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574979"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook 비즈니스 페이지 데이터를 보관하는 커넥터 배포
 
@@ -30,27 +30,27 @@ ms.locfileid: "58248066"
 
 1. 으로 이동한 후 전역 관리자 계정의 자격 증명을 <https://portal.azure.com> 사용하여 로그인합니다.
 
-    ![AAD에서 앱 만들기](../media/FBCimage1.png)
+    ![AAD에서 앱을 만들 수 있습니다.](../media/FBCimage1.png)
 
 2. 왼쪽 탐색 창에서 **Azure Active Directory** 를 클릭합니다.
 
-    ![클릭 Azure Active Directory](../media/FBCimage2.png)
+    ![사용자 Azure Active Directory.](../media/FBCimage2.png)
 
 3. 왼쪽 탐색 창에서 앱 등록(미리 **보기)을 클릭한** 다음 새 등록 **을 클릭합니다.**
 
-    ![Click **App registrations (Preview)** and then click **New registration**](../media/FBCimage3.png)
+    ![**앱 등록(미리 보기)**을 클릭한 다음 **새 등록**을 클릭합니다.](../media/FBCimage3.png)
 
 4. 응용 프로그램을 등록합니다. URI 리디렉션의 응용 프로그램 유형 드롭다운 목록에서 웹을 선택한 다음 <https://portal.azure.com> URI의 상자에 입력합니다.
 
-   ![응용 프로그램 등록](../media/FBCimage4.png)
+   ![응용 프로그램을 등록합니다.](../media/FBCimage4.png)
 
 5. 응용 **프로그램(클라이언트) ID** 및 **디렉터리(테넌트) ID를** 복사하여 텍스트 파일 또는 기타 안전한 위치에 저장합니다. 이러한 ID는 이후 단계에서 사용할 수 있습니다.
 
-   ![응용 프로그램 ID 및 디렉터리 ID를 복사하여 저장](../media/FBCimage5.png)
+   ![응용 프로그램 ID 및 디렉터리 ID를 복사하여 저장합니다.](../media/FBCimage5.png)
 
 6. 새 **앱의 & 인증서로 이동하세요.**
 
-   ![새 앱의 & 인증서로 이동](../media/FBCimage6.png)
+   ![새 앱의 & 인증서로 이동하세요.](../media/FBCimage6.png)
 
 7. 새 **클라이언트 비밀을 클릭합니다.**
 
@@ -58,11 +58,11 @@ ms.locfileid: "58248066"
 
 8. 새 비밀을 만드시다. 설명 상자에 비밀을 입력한 다음 만료 기간을 선택합니다.
 
-    ![비밀을 입력한 다음 만료 기간 선택](../media/FBCimage8.png)
+    ![비밀을 입력한 다음 만료 기간을 선택 합니다.](../media/FBCimage8.png)
 
 9. 비밀 값을 복사하여 텍스트 파일이나 다른 저장 위치에 저장합니다. 이후 단계에서 사용하는 AAD 응용 프로그램 비밀입니다.
 
-   ![비밀 값을 복사하여 저장](../media/FBCimage9.png)
+   ![비밀 값을 복사하여 저장합니다.](../media/FBCimage9.png)
 
 ## <a name="step-2-deploy-the-connector-web-service-from-github-to-your-azure-account"></a>2단계: Azure 계정으로 GitHub 커넥터 웹 서비스 배포
 
@@ -84,21 +84,21 @@ ms.locfileid: "58248066"
 
    - **APISecretKey:** 모든 값을 비밀로 입력할 수 있습니다. 5단계에서 커넥터 웹앱에 액세스하는 데 사용됩니다.
 
-     ![리소스 만들기 및 저장소 계정 유형 클릭](../media/FBCimage12.png)
+     ![리소스 만들기를 클릭하고 저장소 계정을 입력합니다.](../media/FBCimage12.png)
 
 3. 배포가 성공하면 페이지는 다음 스크린샷과 유사하게 표시됩니다.
 
-   ![사용자 Storage 클릭한 다음 계정 Storage 클릭합니다.](../media/FBCimage13.png)
+   ![계정 Storage 클릭한 다음 계정 Storage 클릭합니다.](../media/FBCimage13.png)
 
 ## <a name="step-3-register-the-facebook-app"></a>3단계: Facebook 앱 등록
 
 1. 로 이동하여 조직의 Facebook 비즈니스 페이지에 대한 계정의 자격 증명을 사용하여 로그인한 다음 새 앱 <https://developers.facebook.com> **추가를 클릭합니다.**
 
-   ![Facebook 비즈니스용 새 앱 추가 페이지](../media/FBCimage25.png)
+   ![Facebook 비즈니스 페이지를 위한 새 앱을 추가합니다.](../media/FBCimage25.png)
 
 2. 새 앱 ID를 생성합니다.
 
-   ![새 앱 ID 만들기](../media/FBCimage26.png)
+   ![새 앱 ID를 생성합니다.](../media/FBCimage26.png)
 
 3. 왼쪽 탐색 창에서 제품 추가를 클릭한 **다음** Facebook 로그인 타일에서 **설정 을** 클릭합니다. 
 
@@ -106,19 +106,19 @@ ms.locfileid: "58248066"
 
 4. Facebook 로그인 통합 페이지에서 웹 을 **클릭합니다.**
 
-   ![Facebook 로그인 통합 페이지에서 웹 클릭](../media/FBCimage28.png)
+   ![Facebook 로그인 통합 페이지에서 웹을 클릭합니다.](../media/FBCimage28.png)
 
 5. Azure 앱 서비스 URL을 추가합니다. 예를 들면 `https://fbconnector.azurewebsites.net` 입니다.
 
-   ![Azure 앱 서비스 URL 추가](../media/FBCimage29.png)
+   ![Azure 앱 서비스 URL을 추가합니다.](../media/FBCimage29.png)
 
 6. Facebook 로그인 설정의 QuickStart 섹션을 완료합니다.
 
-   ![빠른 시작 섹션 완료](../media/FBCimage30.png)
+   ![빠른 시작 섹션을 완료합니다.](../media/FBCimage30.png)
 
 7. Facebook 로그인 아래의 왼쪽 탐색 창에서 설정 를 클릭하고 유효한 OAuth 리디렉션 URI 상자에 **OAuth 리디렉션 URI를 추가합니다.**  **\<connectorserviceuri> /Views/FacebookOAuth** 형식을 사용합니다. 여기서 connectorserviceuri의 값은 조직의 Azure 앱 서비스 URL입니다(예: `https://fbconnector.azurewebsites.net` ).
 
-   ![유효한 OAuth 리디렉션 URI 상자에 OAuth 리디렉션 URI 추가](../media/FBCimage31.png)
+   ![OAuth 리디렉션 URI를 유효한 OAuth 리디렉션 URI 상자에 추가합니다.](../media/FBCimage31.png)
 
 8. 왼쪽 탐색 창에서 제품 추가를 **클릭한** 다음 **Webhook을 클릭합니다.** 페이지 **풀다운** 메뉴에서 페이지를 **클릭합니다.**
 
@@ -128,15 +128,15 @@ ms.locfileid: "58248066"
 
    확인 토큰은 강력한 암호와 유사해야 합니다. 확인 토큰을 텍스트 파일 또는 다른 저장소 위치에 복사합니다.
 
-   ![확인 토큰 추가](../media/FBCimage33.png)
+   ![verify 토큰을 추가합니다.](../media/FBCimage33.png)
 
 10. 피드에 대한 끝점을 테스트하고 구독합니다.
 
-    ![끝점 테스트 및 구독](../media/FBCimage34.png)
+    ![끝점을 테스트하고 구독합니다.](../media/FBCimage34.png)
 
 11. 개인 정보 URL, 앱 아이콘 및 비즈니스 사용을 추가합니다. 또한 앱 ID 및 앱 비밀을 텍스트 파일 또는 다른 저장소 위치에 복사합니다.
 
-    ![개인 정보 URL, 앱 아이콘 및 비즈니스 사용 추가](../media/FBCimage35.png)
+    ![개인 정보 URL, 앱 아이콘 및 비즈니스 사용을 추가합니다.](../media/FBCimage35.png)
 
 12. 앱을 공개합니다.
 
@@ -144,7 +144,7 @@ ms.locfileid: "58248066"
 
 13. 관리자 또는 테스터 역할에 사용자를 추가합니다.
 
-    ![관리자 또는 테스터 역할에 사용자 추가](../media/FBCimage37.png)
+    ![관리자 또는 테스터 역할에 사용자를 추가합니다.](../media/FBCimage37.png)
 
 14. 페이지 공용 **콘텐츠 액세스 권한을 추가합니다.**
 
@@ -162,7 +162,7 @@ ms.locfileid: "58248066"
 
 1. (여기서 `https://<AzureAppResourceName>.azurewebsites.net` AzureAppResourceName은 4단계에서 명명한 Azure 앱 리소스의 이름)로 이동하세요. 예를 들어 이름이 **fbconnector이면** 로 `https://fbconnector.azurewebsites.net` 이동합니다. 앱의 홈 페이지는 다음 스크린샷과 같습니다.
 
-   ![커넥터 웹 앱으로 이동](../media/FBCimage41.png)
+   ![커넥터 웹 앱으로 이동하세요.](../media/FBCimage41.png)
 
 2. **구성을** 클릭하여 로그인 페이지를 표시합니다.
 
@@ -198,7 +198,7 @@ ms.locfileid: "58248066"
 
 5. 커넥터 **앱에 대한** 자격 증명 추가 페이지에서 다음 정보를 입력하고 연결 유효성 **검사를 클릭합니다.**
 
-   ![커넥터 앱 자격 증명 입력](../media/TCimage38.png)
+   ![커넥터 앱 자격 증명을 입력합니다.](../media/TCimage38.png)
 
    - 이름 **상자에** Facebook 뉴스 페이지와 같은 커넥터의 **이름을 입력합니다.**
 
@@ -214,11 +214,11 @@ ms.locfileid: "58248066"
 
 8. Facebook **커넥터 앱 구성 페이지에서** **Facebook으로** 로그인을 클릭하고 조직의 Facebook 비즈니스 페이지에 대한 계정의 자격 증명을 사용하여 로그인합니다. 로그인한 Facebook 계정에 조직의 Facebook 비즈니스 페이지에 대한 관리자 역할이 할당되어 있는지 확인
 
-   ![Facebook으로 로그인](../media/FBCimage50.png)
+   ![Facebook으로 로그인합니다.](../media/FBCimage50.png)
 
 9. 로그인한 Facebook 계정으로 관리되는 비즈니스 페이지 목록이 표시됩니다. 보관할 페이지를 선택하고 다음 을 **클릭합니다.**
 
-   ![보관할 조직 비즈니스 페이지 선택](../media/FBCimage52.png)
+   ![보관할 조직 비즈니스 페이지를 선택합니다.](../media/FBCimage52.png)
 
 10. **계속을** 클릭하여 커넥터 서비스 앱의 설정을 종료합니다.
 

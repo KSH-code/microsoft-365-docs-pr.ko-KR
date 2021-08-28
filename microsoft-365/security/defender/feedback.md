@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 9feaad92a413443770db4e65eecaa8e90845a8e8a969800c2910c0ecd62970a9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9e007a84286df348158ddc830a5bec079183f768
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570428"
 ---
 # <a name="provide-feedback-on-microsoft-365-defender"></a>사용자 의견 Microsoft 365 Defender
 
@@ -44,7 +44,7 @@ ms.locfileid: "53884183"
 
 1. 포털의 모든 부분에서 피드백 **보내기 를 선택합니다.** 
 
-    ![피드백 단추의 이미지](../../media/feedback.png)
+    ![피드백 단추의 이미지입니다.](../../media/feedback.png)
 
 2. 사용자 환경을 평가하고 원하는 내용이나 개선이 이행될 수 있는 장소에 대한 세부 정보를 제공합니다. 피드백에 대해 문의할 수도 있습니다. 
 

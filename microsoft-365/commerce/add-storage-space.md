@@ -23,12 +23,12 @@ ms.custom:
 search.appverid: MET150
 description: 사용자 구독에 파일 Microsoft 365 추가합니다. 추가 파일 저장소를 사용하면 추가 콘텐츠를 온라인 및 SharePoint 저장할 수 OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 381a11fe6c2a320b2864561975f516f9684acb11c4c9757ad4d125e6d31acba9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5c08b105271f3b5297c1ca7258f7b723164e1fe0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53872942"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574991"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>구독에 대한 저장소 공간 추가
 
@@ -47,7 +47,7 @@ SharePoint Online 사이트 모음의 저장소 공간이 부족해지면 해당
 
 2. 페이지의 오른쪽 위에서 모든 사이트에서 사용된 저장소의 크기와 구독에 대한 총 저장소 크기를 확인합니다. 조직에서 여러 위치에서 Multi-Geo를 Office 365 모든 지리적 위치에서 사용되는 저장소의 양도 표시줄에 표시됩니다.
 
-   ![활성 사이트 페이지의 저장소 표시줄](/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
+   ![Storage 페이지의 표시줄을 선택합니다.](/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
 
    > [!NOTE]
    > 사용된 저장소에는 최근 24-48시간 내에 변경한 내용이 포함되지 않습니다.

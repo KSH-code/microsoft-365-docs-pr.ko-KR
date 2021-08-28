@@ -11,18 +11,18 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 591b83823aac1679209ed6cdd0069d559e9fe3e7adfbf7a3f24f0730f37ce912
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2c1c8f46c3d569b6b43a87a6481d93b76729e48d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570944"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-viva-topics"></a>Microsoft Viva 도입 시작
 
 채택을 시작하기 전에 지식 관리 및 Viva 항목과 관련된 개념을 이해해야 합니다. 다음 다이어그램은 항목 검색 및 큐레이터 중에 발생하는 항목을 보여줍니다.
 
-![Viva 항목 아키텍처](../media/knowledge-management/topic-management-architecture.png)
+![Viva Topics 아키텍처.](../media/knowledge-management/topic-management-architecture.png)
 
 - **검색**: 사용자는 주제 카드를 통해 매일 사용하는 앱에 대한 지식을 검색할 수 있으며, Microsoft Search에서 주제를 검색할 수도 있습니다.
 - **큐레이션**: 분야별 전문가(중소기업)는 주제 페이지를 통해 주제를 구체화하고, AI는 분야별 전문가의 입력을 학습합니다. 주제 센터에는 사용자가 탐색하고 전문가가 관리할 수 있는 항목 페이지가 포함되어 있습니다.
@@ -87,7 +87,7 @@ Viva 항목을 성공적으로 사용할 수 있도록 조직에서 Viva 항목�
 
 HR 관리자는 신입 사원이 회사 및 팀에 신속하게 온보드할 수 있도록 정보를 제공해야 합니다. 또한 신속하고 효율적으로 온보드해야 하는 올바른 리소스, 문서 및 팀 구성원을 보게 하려는 경우 새 직원이 여러 리포지토리에서 검색하거나 이미 사용하고 있는 응용 프로그램을 나가지 않고도 필요한 정보를 빠르게 찾을 수 있는 솔루션을 찾고 있습니다.
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예시:
 
 - 직원(Jordan)이 새 역할을 맡고 있으며 새로 고용된 후 역할을 시작하고 있습니다. 요르단은 최대한 빨리 참여하고 생산성을 향상하기를 원합니다. 하지만 요르단은 시작 장소를 찾는 데도 도움이 필요합니다.
 - Jordan이 신입 사원과 해당 정보를 찾는 데 도움이 되는 항목 페이지를 만들기 전에 역할에 있는 동료(Kim)입니다.
@@ -121,7 +121,7 @@ Viva 항목을 사용하여 이 시나리오를 자동화할 때 다음을 보�
 
 시나리오의 우선 순위를 지정하는 한 가지 방법은 영향과 구현 편의성을 보여주는 시나리오를 표로 작성하는 것입니다. 영향력이 높고 구현하기 쉬운 시나리오를 찾아서 우선 순위를 정합니다. 영향력이 작고 구현하기 어려운 시나리오에 가장 낮은 우선 순위를 지정합니다. 영향력이 높고 구현하기 쉬운 시나리오로 빠른 성과를 실현하면 사용자가 기뻐하고 항목을 이용할 가능성이 높아집니다.
 
-![높은 영향, 구현하기 쉬운 시나리오가 우선 순위가 높습니다.](../media/knowledge-management/topics-prioritize-scenarios.png)
+![영향이 높고 구현하기 쉬운 시나리오가 우선 순위가 높습니다.](../media/knowledge-management/topics-prioritize-scenarios.png)
 
 처음에는 중점을 둘 몇 가지 주요 시나리오를 선택하고, 얼리어답터를 통해 피드백을 받고, 단계적으로 출시합니다. 이렇게 하면 시간이 지날수록 채택을 증가할 수 있도록 계속하고, 개선하고, 피드백을 얻을 수 있습니다.
 

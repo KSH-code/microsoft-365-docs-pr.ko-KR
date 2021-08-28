@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 985ce31ae9c88e6124e559ef200cfbecfc7ab8de63b63244f399b7c0c96c30f2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 94bbcac31a3dd533ee589496989e60b739ca3b3f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575015"
 ---
 # <a name="create-tag-groups"></a>태그 그룹 만들기
 
@@ -59,5 +59,5 @@ ms.locfileid: "53866013"
 
 태그를 중첩하려면 태그 옆에 있는 타원을 클릭한 다음 추가할 새 태그를 선택합니다.
 
-![중첩 태그](../media/ED-tagnesting.png)
+![태그 중첩](../media/ED-tagnesting.png)
 

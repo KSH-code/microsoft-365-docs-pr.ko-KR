@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9d74bba395854f582a609fec6bbd0b9d504c90eebb8c1328389fefe7c5a3da15
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b0b7e93c59484bb3f7b1e34d33dd3ee7a19f7634
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56880156"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574523"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -50,11 +50,11 @@ ms.locfileid: "56880156"
 
 |기능|EOP의 피싱 방지 정책|Defender for Office 365|
 |---|:---:|:---:|
-|자동으로 만들어진 기본 정책|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|사용자 지정 정책 생성|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|일반적인 정책 설정<sup>\*</sup>|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|스푸핑 설정|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|첫 번째 보안 팁|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
+|자동으로 만들어진 기본 정책|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|사용자 지정 정책 생성|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|일반적인 정책 설정<sup>\*</sup>|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|스푸핑 설정|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|첫 번째 보안 팁|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
 |가장 설정||![확인 표시](../../media/checkmark.png)|
 |고급 피싱 임계값||![확인 표시](../../media/checkmark.png)|
 |

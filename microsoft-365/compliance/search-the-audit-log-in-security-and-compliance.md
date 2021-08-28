@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 34d3f7fa8c12d1509b864bc45e97717dbf01f534
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 9aff58f4175cd7615ad2de2a9659bec71f3f1cb8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533282"
+ms.locfileid: "58574114"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -105,25 +105,25 @@ ms.locfileid: "58533282"
 
   |Microsoft 365 서비스 또는 기능|30분|24시간|
   |---|:---:|:---:|
-  |Office 365용 Defender 및 위협 인텔리전스|![확인 표시](../media/checkmark.png)||
-  |Azure Active Directory(사용자 로그인 이벤트)||![확인 표시](../media/checkmark.png)|
-  |Azure Active Directory(관리 이벤트)||![확인 표시](../media/checkmark.png)|
-  |데이터 손실 방지|![확인 표시](../media/checkmark.png)||
-  |Dynamics 365 CRM||![확인 표시](../media/checkmark.png)|
-  |eDiscovery|![확인 표시](../media/checkmark.png)||
-  |Exchange Online|![확인 표시](../media/checkmark.png)||
-  |Microsoft Power Automate||![확인 표시](../media/checkmark.png)|
-  |Microsoft Project|![확인 표시](../media/checkmark.png)||
-  |Microsoft Stream|![확인 표시](../media/checkmark.png)||
-  |Microsoft Teams|![확인 표시](../media/checkmark.png)||
-  |Power Apps||![확인 표시](../media/checkmark.png)|
-  |Power BI|![확인 표시](../media/checkmark.png)||
-  |Microsoft 365 규정 준수 센터|![확인 표시](../media/checkmark.png)||
-  |민감도 레이블||![확인 표시](../media/checkmark.png)|
-  |SharePoint Online 및 비즈니스용 OneDrive|![확인 표시](../media/checkmark.png)||
-  |Workplace Analytics|![확인 표시](../media/checkmark.png)||
-  |Yammer||![확인 표시](../media/checkmark.png)|
-  |Microsoft Forms|![확인 표시](../media/checkmark.png)||
+  |Office 365용 Defender 및 위협 인텔리전스|![확인 표시입니다.](../media/checkmark.png)||
+  |Azure Active Directory(사용자 로그인 이벤트)||![확인 표시입니다.](../media/checkmark.png)|
+  |Azure Active Directory(관리자 이벤트)||![확인 표시입니다.](../media/checkmark.png)|
+  |데이터 손실 방지|![확인 표시입니다.](../media/checkmark.png)||
+  |Dynamics 365 CRM||![확인 표시입니다.](../media/checkmark.png)|
+  |eDiscovery|![확인 표시입니다.](../media/checkmark.png)||
+  |Exchange Online|![확인 표시입니다.](../media/checkmark.png)||
+  |Microsoft Power Automate||![확인 표시입니다.](../media/checkmark.png)|
+  |Microsoft Project|![확인 표시입니다.](../media/checkmark.png)||
+  |Microsoft Stream|![확인 표시입니다.](../media/checkmark.png)||
+  |Microsoft Teams|![확인 표시입니다.](../media/checkmark.png)||
+  |Power Apps||![확인 표시입니다.](../media/checkmark.png)|
+  |Power BI|![확인 표시입니다.](../media/checkmark.png)||
+  |Microsoft 365 규정 준수 센터|![확인 표시입니다.](../media/checkmark.png)||
+  |민감도 레이블||![확인 표시입니다.](../media/checkmark.png)|
+  |Microsoft Office SharePoint Online 및 비즈니스용 OneDrive|![확인 표시입니다.](../media/checkmark.png)||
+  |Workplace Analytics|![확인 표시입니다.](../media/checkmark.png)||
+  |Yammer||![확인 표시입니다.](../media/checkmark.png)|
+  |Microsoft Forms|![확인 표시입니다.](../media/checkmark.png)||
   |
 
 - Azure A (azure Active Directory)는 Office 365의 디렉터리 서비스입니다. 통합 감사 로그에는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](/azure/active-directory/reports-monitoring/concept-audit-logs)를 참조하세요.
@@ -179,7 +179,7 @@ Microsoft 365에서 감사 로그를 검색하는 과정은 다음과 같습니�
 
    검색 결과가 로드되고, 잠시 후에 새 페이지에 표시됩니다. 검색이 완료되면 찾은 결과 수가 표시됩니다. 최대 5,000개의 이벤트가 150개 이벤트 단위로 표시됩니다. 5000개 이상의 이벤트에서 검색 조건을 충족하는 경우에는 최근 5000 이벤트가 표시됩니다.
 
-   ![검색을 완료한 후 결과 수가 표시됩니다.](../media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
+   ![검색을 완료한 후 결과의 수가 표시됩니다.](../media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
 
 #### <a name="tips-for-searching-the-audit-log"></a>감사 로그 검색을 위한 팁
 
@@ -798,7 +798,7 @@ Microsoft Teams에서 사용자 및 관리자 활동에 대한 감사 로그를 
 
 조직에서 Microsoft Teams의 [환자 응용 프로그램](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview)을 사용하는 경우 환자 앱을 사용과 관련된 활동에 대한 감사 로그를 검색할 수 있습니다. 환자 앱을 지원하도록 환경을 구성한 경우 이러한 활동에 대한 추가 활동 그룹을 **활동** 선택기 목록에서 사용할 수 있습니다.
 
-![활동 선택기 목록에서 Microsoft Teams의 보건 활동](../media/TeamsHealthcareAuditActivities.png)
+![활동 선택기 목록의 Microsoft Teams 보건 활동](../media/TeamsHealthcareAuditActivities.png)
 
 환자 앱 활동에 대한 자세한 내용은 [환자 앱에 대한 감사 로그](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit)를 참조하세요.
 
@@ -844,7 +844,7 @@ Shifts 앱 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 �
 
 ### <a name="microsoft-power-automate-activities"></a>Microsoft Power Automate 활동
 
-Power Automate(이전의 Microsoft Flow)에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 흐름 만들기, 편집, 삭제 및 흐름의 사용 권한 변경이 포함됩니다. 블로그의 [현재 Microsoft 365 규정 준수 센터에서 사용할 수 있는 Power Automate 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)에서 Power Automate 활동을 감사하는 방법에 대한 정보를 살펴보세요.
+Power Automate(이전의 Microsoft Flow)에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 흐름 만들기, 편집, 삭제 및 흐름의 사용 권한 변경이 포함됩니다. 블로그의 [현재 Microsoft 365 규정 준수 센터에서 사용할 수 있는 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)에서 Power Automate 활동을 감사하는 방법의 세부 정보를 살펴보세요.
 
 ### <a name="microsoft-power-apps-activities"></a>Microsoft Power Apps 활동
 

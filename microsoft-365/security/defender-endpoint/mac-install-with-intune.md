@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e335503c9182176b957b5b15e664a4e629f42a17a585c3fbd53ea5508b730cbd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 35ecf8639255d21266df4403b4d4b824a5982f97
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53869231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570524"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포
 
@@ -69,7 +69,7 @@ ms.locfileid: "53869231"
 
 2. 운영 체제를 **macOS로** 설정하고 배포 방법을 모바일 장치 관리 **/Microsoft Intune.**
 
-    ![등록 설정 스크린샷](images/macos-install-with-intune.png)
+    ![등록 설정 스크린샷.](images/macos-install-with-intune.png)
 
 3. **온보더링 패키지 다운로드를 선택합니다.** 동일한 _디렉터리에_ WindowsDefenderATPOnboardingPackage.zip저장합니다.
 
@@ -99,30 +99,30 @@ Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/
 1. 플랫폼  = **macOS,** **프로필 유형** = **템플릿을 선택합니다.** **서식 파일 이름** = **사용자 지정**. **만들기** 를 클릭합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![사용자 지정 구성 프로필 만들기](images/mdatp-6-systemconfigurationprofiles-1.png)
+    > ![사용자 지정 구성 프로필 만들기.](images/mdatp-6-systemconfigurationprofiles-1.png)
 
 1. 프로필의 이름(예: "Defender 또는 MacOS용 끝점 온보딩")을 선택하세요. **다음** 을 클릭합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![사용자 지정 구성 프로필 - 이름](images/mdatp-6-systemconfigurationprofiles-2.png)
+    > ![사용자 지정 구성 프로필 - 이름.](images/mdatp-6-systemconfigurationprofiles-2.png)
 
 1. 구성 프로필 이름(예: "MacOS용 끝점용 Defender 온보딩용 Defender")을 선택하세요.
 1. 위 온보드 패키지에서 추출한 intune/WindowsDefenderATPOnboarding.xml 프로필 파일로 선택합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![사용자 지정 구성 프로필에 대한 파일에서 구성 가져오기](images/mdatp-6-systemconfigurationprofiles.png)
+    > ![사용자 지정 구성 프로필에 대한 파일에서 구성을 가져올 수 있습니다.](images/mdatp-6-systemconfigurationprofiles.png)
 
 1. **다음** 을 클릭합니다.
 1. 할당 탭에서 **디바이스를 할당합니다.** 다음 을 **클릭합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![사용자 지정 구성 프로필 - 할당](images/mdatp-6-systemconfigurationprofiles-2.png)
+    > ![사용자 지정 구성 프로필 - 할당.](images/mdatp-6-systemconfigurationprofiles-2.png)
 
 1. 검토 및 **만들기.**
 1. 장치 **구성** 프로필을  >  **열면** 생성된 프로필을 볼 수 있습니다.
 
     > [!div class="mx-imgBorder"]
-    > ![사용자 지정 구성 프로필 - 완료](images/mdatp-6-systemconfigurationprofiles-3.png)
+    > ![사용자 지정 구성 프로필 - 완료.](images/mdatp-6-systemconfigurationprofiles-3.png)
 
 ### <a name="approve-system-extensions"></a>시스템 확장 승인
 
@@ -139,7 +139,7 @@ Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/
     com.microsoft.wdav.netext | UBF8T346G9
 
     > [!div class="mx-imgBorder"]
-    > ![시스템 확장 설정](images/mac-system-extension-intune2.png)
+    > ![시스템 확장 설정.](images/mac-system-extension-intune2.png)
 
 1. 할당 **탭에서** 이 프로필을 모든 사용자 및 모든 & **할당합니다.**
 1. 이 구성 프로필을 검토하고 만들 수 있습니다.
@@ -158,7 +158,7 @@ Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/
 1. 팀 **식별자를** **UBF8T346G9로** 설정하고 다음 을 **클릭합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![커널 확장 설정](images/mac-kernel-extension-intune2.png)
+    > ![커널 확장 설정.](images/mac-kernel-extension-intune2.png)
 
 1. 할당 **탭에서** 이 프로필을 모든 사용자 및 모든 & **할당합니다.**
 1. 이 구성 프로필을 검토하고 만들 수 있습니다.
@@ -195,7 +195,7 @@ GitHub 리포지토리에서 [notif.mobileconfig를 다운로드합니다.](http
 Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니터링에 나열된 내용을 볼  >  **수 있습니다.**
 
 > [!div class="mx-imgBorder"]
-> ![모니터의 장치 상태 보기](images/mdatp-7-devicestatusblade.png)
+> ![모니터의 장치 상태 보기입니다.](images/mdatp-7-devicestatusblade.png)
 
 ## <a name="publish-application"></a>응용 프로그램 게시
 
@@ -210,7 +210,7 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니�
 1. 앱 **유형** = **macOS를 선택하고** 선택을 **클릭합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![응용 프로그램 유형 지정](images/mdatp-9-app-type.png)
+    > ![응용 프로그램 유형을 지정합니다.](images/mdatp-9-app-type.png)
 
 1. 기본값을 유지하고 다음 을 **클릭합니다.**
 
@@ -220,13 +220,13 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니�
 1. 배정을 추가하고 다음 을 **클릭합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Intune 할당 정보 스크린샷](images/mdatp-11-assignments.png)
+    > ![Intune 할당 정보 스크린샷.](images/mdatp-11-assignments.png)
 
 1. 검토 및 **만들기.**
 1. 플랫폼   >    >  **macOS에서** 앱을 방문하여 모든 응용 프로그램 목록에서 볼 수 있습니다.
 
     > [!div class="mx-imgBorder"]
-    > ![응용 프로그램 목록](images/mdatp-12-applications.png)
+    > ![응용 프로그램 목록.](images/mdatp-12-applications.png)
 
 (Defender 배포에 대한 [Intune의](/mem/intune/apps/apps-advanced-threat-protection-macos)페이지에서 자세한 정보를 찾을 수 있습니다.)
 
@@ -240,11 +240,11 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니�
 1. 장치 관리를 확인합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![장치 관리 스크린샷 확인](images/mdatp-3-confirmdevicemgmt.png)
+    > ![장치 관리 스크린샷을 확인합니다.](images/mdatp-3-confirmdevicemgmt.png)
 
     시스템 **기본 설정 열기** 를 선택하고 목록에서 **관리** 프로필을 찾은 다음 **승인... 을 선택합니다.** 관리 프로필이 확인된 **것으로 표시됩니다.**
 
-    ![관리 프로필 스크린샷](images/mdatp-4-managementprofile.png)
+    ![관리 프로필 스크린샷.](images/mdatp-4-managementprofile.png)
 
 2. **계속을** 선택하고 등록을 완료합니다.
 
@@ -253,25 +253,25 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니�
 3. Intune에서 장치 모든  >  **장치 관리를** 열 수  >  **있습니다.** 여기에 나열된 장치 중 디바이스를 볼 수 있습니다.
 
    > [!div class="mx-imgBorder"]
-   > ![장치 추가 스크린샷](images/mdatp-5-alldevices.png)
+   > ![장치 스크린샷 추가](images/mdatp-5-alldevices.png)
 
 ## <a name="verify-client-device-state"></a>클라이언트 장치 상태 확인
 
 1. 구성 프로필을 장치에 배포한 후 Mac 장치에서 **시스템** 기본 설정  >   프로필을 여는 방법을 확인합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![시스템 기본 설정 스크린샷](images/mdatp-13-systempreferences.png)
+    > ![시스템 기본 설정 스크린샷.](images/mdatp-13-systempreferences.png)
 
-    ![시스템 기본 설정 프로필 스크린샷](images/mdatp-14-systempreferencesprofiles.png)
+    ![시스템 기본 설정 프로필 스크린샷.](images/mdatp-14-systempreferencesprofiles.png)
 
 2. 다음 구성 프로필이 존재하고 설치되어 있는지 확인합니다. 관리 **프로필은** Intune 시스템 프로필입니다. _Wdav-config_ 및 _wdav-kext는_ Intune에 추가된 시스템 구성 프로필입니다.
 
-    ![프로필 스크린샷](images/mdatp-15-managementprofileconfig.png)
+    ![프로필 스크린샷.](images/mdatp-15-managementprofileconfig.png)
 
 3. 오른쪽 위 모서리에 끝점용 Microsoft Defender 아이콘도 표시됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![상태 표시줄의 끝점용 Microsoft Defender 아이콘 스크린샷](images/mdatp-icon-bar.png)
+    > ![상태 표시줄 스크린샷의 끝점용 Microsoft Defender 아이콘](images/mdatp-icon-bar.png)
 
 ## <a name="troubleshooting"></a>문제 해결
 

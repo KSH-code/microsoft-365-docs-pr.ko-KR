@@ -12,12 +12,12 @@ ms.assetid: ''
 description: '& 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 새 도메인이 전달되는 전자 메일 정보를 사용하여 사용자가 전달되지 않은 외부 도메인으로 메시지를 전달하는 경우를 조사하는 방법을 배울 수 있습니다.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 98705d1f865886db91c8073188beaa0b3bc6b6da711839c0e43f6c81b1a7eae4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 87af41d4c6fe1964510944f0ad06554056ce4f37
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "57036683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570404"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전달되는 새 & 정보
 
@@ -36,11 +36,11 @@ Security **&** Compliance [Center에서](https://protection.office.com) 전달�
 
 이 인사이트는 문제가 검색된 경우만 표시되고 전달 보고서 페이지에 [표시됩니다.](view-mail-flow-reports.md#forwarding-report)
 
-![전자 메일 인사이트가 전달되는 새 도메인](../../media/mfi-new-domains-being-forwarded.png)
+![전자 메일 인사이트를 전달하는 새 도메인입니다.](../../media/mfi-new-domains-being-forwarded.png)
 
 위젯을 클릭하면 전달 보고서에 대한 링크를 포함하여 전달된 메시지에 대한 자세한 정보를 찾을 수 있는 플라이아웃이 [나타납니다.](view-mail-flow-reports.md#forwarding-report)
 
-![전자 메일 인사이트를 전달하는 새 도메인을 클릭한 후 나타나는 세부 정보 플라이아웃](../../media/mfi-new-domains-being-forwarded-details.png)
+![전자 메일 인사이트를 전달하는 새 도메인을 클릭한 후 나타나는 플라이아웃에 대한 세부 정보입니다.](../../media/mfi-new-domains-being-forwarded-details.png)
 
 또한 ( 보고서 대시보드 또는 **)의** 상위 인사이트 및 추천 영역에 있는 모든 정보 보기를 클릭한 & 세부 정보 페이지로 이동될 **수도**  \>  <https://protection.office.com/insightdashboard> 있습니다.
 

@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Normal
 description: 2016년 8월 2일부로 하여금 모델에 보존 레이블을 적용하는 SharePoint Syntex.
-ms.openlocfilehash: afc131654a536e37834b0a01bc6c46362debeb05ea0e4a372f9f713639032f88
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 505a1a90fa1a85c6d125343d49d9a0dbd01443b7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53859651"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574907"
 ---
 # <a name="apply-a-retention-label-to-a-model-in-sharepoint-syntex"></a>SharePoint Syntex에서 모델에 보존 레이블 적용
 
@@ -42,7 +42,7 @@ Microsoft SharePoint Syntex의 모델에 [보존 레이블](../compliance/retent
 
 1. 모델 홈페이지에서 **모델 설정** 을 선택합니다.</br>
 2. **모델 설정** 의 **보안 및 준수** 섹션에서 **보존 레이블** 메뉴를 선택하여 모델에 적용 가능한 보존 레이블 목록을 확인합니다.</br>
- ![보존 레이블 메뉴](../media/content-understanding/retention-labels-menu.png)</br> 
+ ![보존 레이블 메뉴.](../media/content-understanding/retention-labels-menu.png)</br> 
 3. 모델에 적용할 보존 레이블을 선택하고 **저장** 을 선택 합니다.</br>
 
 모델에 보존 레이블을 적용한 후, 다음에 적용할 수 있습니다.
@@ -55,7 +55,7 @@ Microsoft SharePoint Syntex의 모델에 [보존 레이블](../compliance/retent
 
 1. 모델 홈페이지의 **이 모델을 사용하는 라이브러리** 섹션에서 보존 레이블 업데이트를 적용할 문서 라이브러리를 선택합니다. </br> 
 2. **동기화** 를 선택합니다. </br>
- ![모델 동기화](../media/content-understanding/sync-model.png)</br> 
+ ![동기화 모델.](../media/content-understanding/sync-model.png)</br> 
 
 
 업데이트를 적용한 후 모델에 동기화하면, 다음을 실행하여 이 업데이트가 적용되었는지 확인할 수 있습니다.
@@ -84,7 +84,7 @@ Microsoft SharePoint Syntex의 모델에 [보존 레이블](../compliance/retent
 2. <b>고급 설정</b>의 <b>보존 레이블</b> 섹션에서 메뉴를 선택하고 모델을 적용하려는 보존 레이블을 선택합니다.</b>
 
  
-     ![새 양식 처리 모델에 추가](../media/content-understanding/retention-label-forms.png)</br>
+     ![새 양식 처리 모델에 추가합니다.](../media/content-understanding/retention-label-forms.png)</br>
 
 3.  나머지 모델 설정을 완료한 후 <b>만들기</b>를 선택하요 모델을 빌드합니다.
 
@@ -102,11 +102,11 @@ Microsoft SharePoint Syntex의 모델에 [보존 레이블](../compliance/retent
 
 1. 양식 처리 모델이 적용된 문서 라이브러리에서 <b>자동화</b> 메뉴를 선택하고 <b>AI 작성기</b>를 선택한 다음 <b>양식 처리 모델 세부 정보 보기</b>를 선택합니다.
 
-   ![자동화 메뉴](../media/content-understanding/automate-menu.png)</br>
+   ![메뉴 자동화.](../media/content-understanding/automate-menu.png)</br>
 
 2. 모델 세부 정보의 <b>보존 레이블</b> 섹션에서 적용할 보존 레이블을 선택합니다.  그런 다음 <b>저장</b>을 선택합니다.
 
-     ![기존 양식 처리 모델에 추가](../media/content-understanding/retention-label-model-details.png)</br> 
+     ![기존 양식 처리 모델에 추가합니다.](../media/content-understanding/retention-label-model-details.png)</br> 
 
 #### <a name="to-add-a-retention-label-to-an-existing-form-processing-model-in-the-active-model-settings"></a>활성 모델 설정에서 기존 양식 처리 모델에 보존 레이블을 추가하는 방법
 
@@ -114,11 +114,11 @@ Microsoft SharePoint Syntex의 모델에 [보존 레이블](../compliance/retent
 
 1. 모델이 적용된 SharePoint 문서 라이브러리에서 <b>활성 모델 보기</b> 아이콘을 선택하고 <b>활성 모델 보기</b>를 선택합니다.</b>
 
-   ![활성 모델 보기](../media/content-understanding/info-du.png)</br> 
+   ![활성 모델을 볼 수 있습니다.](../media/content-understanding/info-du.png)</br> 
 
 2. <b>활성 모델</b>에서 보존 레이블을 적용할 양식 처리 모델을 선택합니다.
 
-     ![모델 세부 정보](../media/content-understanding/retention-label-model-details.png)</br> 
+     ![모델 세부 정보.](../media/content-understanding/retention-label-model-details.png)</br> 
 
 
 3. 모델 세부 정보의 <b>보존 레이블</b> 섹션에서 적용할 보존 레이블을 선택합니다.  그런 다음 <b>저장</b>을 선택합니다.

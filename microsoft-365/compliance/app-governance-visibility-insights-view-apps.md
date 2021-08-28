@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 봅니다.
-ms.openlocfilehash: 9e67f5115e715f804cf91d95c24760a25fdf869c
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 8e9ac5fda62e015bc1e2a5df11b618afa508a4a4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394531"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574415"
 ---
 # <a name="view-your-apps"></a>앱 보기
 
@@ -34,7 +34,7 @@ Microsoft 앱 거버넌스를 사용하면 사용자의 테넌트의 Microsoft 3
 
 테넌트에서 앱에 대한 요약을 보려면 **Microsoft 365 규정 준수 센터 > 앱 거버넌스 > 앱** 으로 이동하세요.
 
-![Microsoft 365 규정 준수 센터의 MAPG 앱 요약 페이지](..\media\manage-app-protection-governance\mapg-cc-apps.png)
+![Microsoft 365 규정 준수 센터의 MAPG 앱 요약 페이지.](..\media\manage-app-protection-governance\mapg-cc-apps.png)
 
 >[!Note]
 > 앱 거버넌스 데이터를 보려면 로그인 계정에 [관리자 역할](app-governance-get-started.md#administrator-roles) 중 하나가 부여되어야 합니다.
@@ -67,7 +67,7 @@ Microsoft 앱 거버넌스를 사용하면 사용자의 테넌트의 Microsoft 3
 
 테넌트의 특정 앱에 대한 자세한 내용은 **Microsoft 365 규정 준수 센터 > 앱 거버넌스 > 앱 페이지 > *앱 이름***으로 이동하세요.
 
-![Microsoft 365 규정 준수 센터의 앱 거버넌스 앱 세부 정보 창](..\media\manage-app-protection-governance\mapg-cc-apps-app.png)
+![Microsoft 365 규정 준수 센터의 앱 거버넌스 앱 세부 정보 창.](..\media\manage-app-protection-governance\mapg-cc-apps-app.png)
 
 앱 세부 정보 창은 다음 탭에 관한 추가 정보를 제공합니다.
 

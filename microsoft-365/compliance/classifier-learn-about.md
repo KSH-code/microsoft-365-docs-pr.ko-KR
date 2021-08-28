@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 교육 가능한 Microsoft 365 분류자란 테스트 또는 정책 응용 프로그램에 대해 다양한 유형의 콘텐츠를 인식할 수 있는 도구로, 이를 통해 볼 수 있는 양성 및 부정 샘플을 제공합니다.
-ms.openlocfilehash: 25bbec395b1bb229f62122caf23845c18f5305e324a37cd0a6856e81286d1ee5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6b54ab2f905d77ae59ba94e15768c7664007baaa
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53872102"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574859"
 ---
 # <a name="learn-about-trainable-classifiers"></a>학습 가능한 분류자에 대한 자세한 정보
 
@@ -109,7 +109,7 @@ Microsoft 365 5개의 사전 학습된 분류자와 함께 사용할 수 있습�
 
 이러한 분류는 Microsoft 365 규정 준수 센터 데이터 분류 학습 가능한  >    >  **분류자** 보기에 상태가 `Ready to use` 표시됩니다.
 
-![classifiers-pre-trained-classifiers](../media/classifiers-ready-to-use-classifiers.png)
+![classifiers-pre-trained-classifiers.](../media/classifiers-ready-to-use-classifiers.png)
 
 > [!IMPORTANT]
 > 공격적인 언어, 괴롭히는 언어, 희롱, 차별 및 위협 분류기는 검색 가능한 텍스트로만 작동하며 이러한 영역의 전체 또는 전체 용어 또는 언어 목록은 아니며 이에 유의하세요. 또한 언어 및 문화 표준은 지속적으로 변경되고 이러한 현실에 비관하여 Microsoft는 재량에 따라 분류자 업데이트할 수 있는 권리가 있습니다. 분류자 조직에서 이러한 영역을 검색하는 데 도움이 될 수 있는 반면 분류기는 이러한 언어의 사용을 검색하거나 해결할 수 있는 유일한 수단을 조직에 제공하기 위한 것이 아니며, Microsoft 또는 해당 자회사가 아닌 조직은 사전 학습된 분류자에 의해 식별된 콘텐츠의 모니터링, 검사, 차단, 제거 및 보존과 관련된 모든 결정(로컬 개인 정보 및 기타 관련 법률 준수 포함)에 대한 책임을 져야 합니다. Microsoft는 배포 및 사용 전에 법률 자문가와 상의하는 것이 좋습니다.
@@ -130,13 +130,13 @@ Microsoft 365 5개의 사전 학습된 분류자와 함께 사용할 수 있습�
 
 보존 정책 및 통신 감독과 같은 규정 준수 솔루션에서 사용할 분류자 만들기 및 게시는 이 흐름을 따르게 됩니다. 학습 가능한 사용자 지정 분류자 만들기에 대한 자세한 내용은 사용자 지정 분류자 [만들기를 참조합니다.](classifier-get-started-with.md)
 
-![프로세스 흐름 사용자 지정 분류자](../media/classifier-trainable-classifier-flow.png)
+![프로세스 흐름 사용자 지정 분류자입니다.](../media/classifier-trainable-classifier-flow.png)
 
 ### <a name="retraining-classifiers"></a>분류자 재시도
 
 수행한 분류의 정확성에 대한 피드백을 제공하여 모든 사용자 지정 분류자 및 사전 학습된 분류자의 정확도를 향상시킬 수 있습니다. 이를 재조정이라고 하여 이 워크플로를 따르는 것입니다.
 
-![분류자 재조정 워크플로](../media/classifier-retraining-workflow.png)
+![분류자 재조정 워크플로.](../media/classifier-retraining-workflow.png)
 
 ## <a name="see-also"></a>참고 항목
 

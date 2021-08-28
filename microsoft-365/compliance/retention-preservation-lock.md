@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 및 보존 레이블 정책과 함께 유지 잠금을 사용하여 규정 요구 사항을 충족하고 로그 관리자로부터의 안전 보호를 지원합니다.
-ms.openlocfilehash: e1d0077567fdfd529e4c81f6c2ecf4c00f847f0cc5a10e2c74d80aa5d320c813
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: eb842a3d5add719338773f088b07dcf4c32ede53
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830508"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574162"
 ---
 # <a name="use-preservation-lock-to-restrict-changes-to-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책 변경을 제한하기 위한 유지 잠금 사용
 
@@ -60,7 +60,7 @@ ms.locfileid: "53830508"
 
 2. [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)를 실행하여 잠그려는 정책의 이름을 찾습니다. 예를 들어,
     
-   ![PowerShell의 보존 정책 목록](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
+   ![PowerShell의 보존 정책 목록.](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
 
 3. 사용자의 정책에 유지 잠금을 설정하려면 [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) cmdlet을 해당 정책 이름으로 실행하고 *RestrictiveRetention* 매개 변수를 True로 설정합니다.
     
@@ -70,11 +70,11 @@ ms.locfileid: "53830508"
     
     예시:
     
-    ![PowerShell의 RestrictiveRetention 매개 변수](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
+    ![PowerShell의 RestrictiveRetention 매개 변수.](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
     
      메시지가 표시되면 이 구성과 함께 제공되는 제한 사항을 읽고 **Y** 를 입력하여 승인합니다.
     
-   ![PowerShell에서 보존 정책 잠금을 원하는지 확인하는 메시지](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
+   ![PowerShell에서 보존 정책 잠금을 원하는지 확인하는 메시지.](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 
 이제 해당 정책에 유지 잠금이 적용됩니다. 확인하기 위해 `Get-RetentionCompliancePolicy`을(를) 다시 실행하지만 해당 정책 이름을 지정하고 정책 매개변수를 표시합니다.
 
@@ -84,7 +84,7 @@ Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl
 
 **RestrictiveRetention** 이 **True** 로 설정되어 있는지 확인해야 합니다. 예를 들어,
 
-![PowerShell에 모든 매개 변수와 함께 표시된 잠긴 정책](../media/retention-policy-preservation-lock-locked-policy.PNG)
+![PowerShell에 모든 매개 변수와 함께 표시된 잠긴 정책.](../media/retention-policy-preservation-lock-locked-policy.PNG)
 
 ## <a name="see-also"></a>참고 항목
 

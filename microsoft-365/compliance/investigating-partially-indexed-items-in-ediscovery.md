@@ -18,12 +18,12 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내에서 인덱싱된 항목(인덱싱되지 않은 항목이라고도 Exchange, SharePoint 및 비즈니스용 OneDrive 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 173ff913e9e355e9032e83d5c197a4ced9865257
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: f578b5ba4b89338c5d6ef861b20d42c4aebbb3b2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507271"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574174"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -51,7 +51,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
 
 부분적으로 인덱싱된 항목에 대한 조직의 노출을 이해하기 위해 빈 키워드 쿼리를 사용하여 모든 사서함의 모든 콘텐츠에 대한 검색을 실행할 수 있습니다. 다음 예제에서는 1,629,904(146.46GB) 완전히 인덱싱된 항목과 부분적으로 인덱싱된 항목 10,025개(10.27GB)가 있습니다.
   
-![부분적으로 인덱싱된 항목을 표시하는 검색 통계의 예](../media/PartiallyIndexedItemsTest.png)
+![부분적으로 인덱싱된 항목을 표시하는 검색 통계의 예입니다.](../media/PartiallyIndexedItemsTest.png)
   
 다음 계산을 사용하여 부분적으로 인덱싱된 항목의 백분율을 확인할 수 있습니다.
   
@@ -75,7 +75,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
 
 부분적으로 항목을 검사하여 관련 정보가 없는지 검사해야 하는 경우 부분적으로 인덱싱된 항목에 대한 정보가 포함된 콘텐츠 검색 보고서를 내보낼 수 있습니다. [](export-a-content-search-report.md) 콘텐츠 검색 보고서를 내보낼 때 부분적으로 인덱싱된 항목을 포함하는 내보내기 옵션 중 하나를 선택해야 합니다.
   
-![부분적으로 인덱싱된 항목을 내보내는 두 번째 또는 세 번째 옵션 선택](../media/PartiallyIndexedItemsExportOptions.png)
+![부분적으로 인덱싱된 항목을 내보내는 두 번째 또는 세 번째 옵션을 선택합니다.](../media/PartiallyIndexedItemsExportOptions.png)
   
 이러한 옵션 중 하나를 사용하여 eDiscovery 검색 결과 또는 검색 보고서를 내보낼 때 내보내기에는 Unindexed라는 보고서가 Items.csv. 이 보고서에는 파일과 대부분의 동일한 정보가 ResultsLog.csv 포함됩니다. 그러나 인덱싱되지 않은 Items.csv 파일에는 부분적으로 인덱싱된 항목과 관련된 두 개의 필드인 **오류 태그** 및 오류 **속성도 포함됩니다.** 이러한 필드에는 부분적으로 인덱싱된 각 항목에 대한 인덱싱 오류에 대한 정보가 들어 있습니다. 이러한 두 필드의 정보를 사용하면 특정 인덱싱 오류가 조사에 영향을 미치는지 여부를 결정하는 데 도움이 될 수 있습니다. 이 경우 대상 검색을 수행하고 특정 전자 메일 메시지와 SharePoint 또는 OneDrive 문서를 검색하여 내보낼 수 있으므로 조사와 관련이 있는지 확인할 수 있습니다. 단계별 지침은 에서 대상 검색을 위한 [CSV 파일 준비를 Office 365.](csv-file-for-an-id-list-content-search.md)
 
@@ -164,7 +164,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
      }
    ```
 
-2. [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/exchange-online-powershell)합니다.
+2. [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/exchange-online-powershell)
 
 3. 보안 & 준수 센터 PowerShell에서 1단계에서 스크립트를 저장한 폴더로 이동한 다음 스크립트를 실행합니다. 예를 들어:
 
@@ -174,7 +174,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
 
 다음은 스크립트에서 반환된 출력의 예입니다.
   
-![부분적으로 인덱싱된 전자 메일 항목에 대한 조직의 노출에 대한 보고서를 생성하는 스크립트의 출력 예](../media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)
+![부분적으로 인덱싱된 전자 메일 항목에 대한 조직의 노출에 대한 보고서를 생성하는 스크립트의 출력 예입니다.](../media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)
 
 > [!NOTE]
 > 다음에 유의하세요.

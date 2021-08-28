@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 대량 오류 수정 프로세스를 수행하지 않고도 문서의 검토 집합에서 Advanced eDiscovery 오류를 수정할 수 있습니다.
-ms.openlocfilehash: 038be8d60851dcbd14452d293bad29be4f9de3f8b4c86aab6e7ee7e905b2d13a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b0f710b737b8cc87c154747dd952322f3cf2ea20
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830592"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58574318"
 ---
 # <a name="single-item-error-remediation-in-advanced-ediscovery"></a>단일 항목 오류 수정 Advanced eDiscovery
 
@@ -31,21 +31,21 @@ ms.locfileid: "53830592"
 
 이제 검토 집합에서 오류를 처리하는 문서가 배너로 식별됩니다. 오류를 수정하거나 무시할 수 있습니다. 다음 스크린샷은 암호로 보호된 검토 집합의 Word 문서에 대한 처리 오류 배너를 보여줍니다. 또한 처리 오류와 함께 문서의 파일 메타데이터를 볼 수 있습니다.
 
-![처리 오류와 함께 문서에 표시되는 배너](../media/SIERimage1.png)
+![처리 오류와 함께 문서에 표시되는 배너입니다.](../media/SIERimage1.png)
 
 검토 집합의 문서를 쿼리할 때 처리 상태  조건을 사용하여 처리 오류가 있는 문서를 검색할 [수도 있습니다.](review-set-search.md)
 
-![처리 상태 조건을 사용하여 오류 문서 검색](../media/SIERimage2.png)
+![처리 상태 조건을 사용하여 오류 문서를 검색합니다.](../media/SIERimage2.png)
 
 ### <a name="ignore-errors"></a>오류 무시
 
 처리 오류 배너에서 **무시를** 클릭하여 처리 오류를 무시할 수 있습니다. 오류를 무시하면 문서가 대량 오류 수정 [워크플로에서 제거됩니다.](error-remediation-when-processing-data-in-advanced-ediscovery.md) 오류가 무시되면 문서 배너의 색이 변경되고 처리 오류가 무시된 것입니다. 원하는 경우 되전을 클릭하여 오류를 무시하기로 결정한 시간을 **되전할 수 있습니다.**
 
-![무시를 클릭하여 처리 오류를 무시합니다.](../media/SIERimage3.png)
+![처리 오류를 무시하려면 무시를 클릭합니다.](../media/SIERimage3.png)
 
 검토 집합에서 문서를 쿼리할 때 무시된 처리 오류 조건을  사용하여 처리 오류가 무시된 모든 문서를 검색할 수도 있습니다.
 
-![무시된 처리 오류 조건을 사용하여 무시된 오류 문서 검색](../media/SIERimage4.png)
+![무시된 처리 오류 조건을 사용하여 무시된 오류 문서를 검색합니다.](../media/SIERimage4.png)
 
 ## <a name="remediate-a-document-with-errors"></a>오류로 문서 수정
 
@@ -55,7 +55,7 @@ ms.locfileid: "53830592"
 
 1. 원본 **다운로드를** 클릭하여 파일 복사본을 로컬 컴퓨터에  >   다운로드합니다.
 
-   ![처리 오류와 함께 문서 다운로드](../media/SIERimage5.png)
+   ![처리 오류와 함께 문서를 다운로드합니다.](../media/SIERimage5.png)
 
 2. 파일을 오프라인으로 수정합니다. 암호 보호를 제거하려면 암호 해독 소프트웨어가 필요한 암호화된 파일의 경우 암호를 제공하고 파일을 저장하거나 암호 크래커를 사용하세요. 파일을 수정한 후 다음 단계로 이동하십시오.
 
