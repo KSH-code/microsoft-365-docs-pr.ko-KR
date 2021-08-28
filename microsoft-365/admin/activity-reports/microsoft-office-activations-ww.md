@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Office 활성화 보고서를 통해 Office 구독을 정품 인증한 사용자를 파악하고 추가 도움말이 필요할 수 있는 사용자를 식별하는 방법을 알아보세요.
-ms.openlocfilehash: ee803dece4e66ede794677b99b3d27de29b53aed11ab590486b1a7bcd1a6c78b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: de5ca46cd8ecabb88e250c5fb754b9943a01d4e5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53797891"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565015"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Microsoft 365 관리 센터의 보고서 - Microsoft Office 활성화
 
@@ -44,7 +44,7 @@ Office 정품 인증 보고서는 하나 이상의 장치에서 Office 구독을
   
 활성화 탭을 선택하여 Office 365 보고서에서 정품 인증을 **볼 수** 있습니다.<br/>![Microsoft 365 - Microsoft Office 365.](../../media/e1df82a2-3336-4b38-b66c-b286c44b82ee.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Office 365 정품 인증 보고서 - 열 선택](../../media/d11a0efa-a067-4440-a4f3-71b618a90301.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Office 365 활성화 보고서 - 열을 선택 합니다.](../../media/d11a0efa-a067-4440-a4f3-71b618a90301.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
 

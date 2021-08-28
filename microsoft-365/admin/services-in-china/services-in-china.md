@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국에서 Office 365, 안정성 및 확장 가능한 클라우드 서비스에 대한 요구 사항을 충족하도록 설계된 21Vianet에서 운영하는 21Vianet에 의해 운영되는 비즈니스에 대해 자세히 알아보아야 합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 57126d37e8abe64ed2cbee1c1c271de91cf547d8
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: 6313212d39b81e9954681848e5ac6747ff6ee3ea
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567835"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -44,7 +44,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
   
 이 QR 코드를 스캔하여 WeChat에서 팔로우하면 21Vianet에서 운영하는 Office 365에 대한 최신 업데이트를 받을 수 있습니다.
   
-![WeChat에서 이 QR 코드를 스캔하여 팔로우](../../media/9bbbdf3b-b3ab-4355-82a0-37a84d70735b.png)
+![WeChat에서 이 QR 코드를 스캔하여 팔로우합니다.](../../media/9bbbdf3b-b3ab-4355-82a0-37a84d70735b.png)
   
  **21Vianet에서 Office 365 서비스의 정보**
   
@@ -199,7 +199,7 @@ Apple Exchange 연락처 데이터를 Apple iCloud에 공유합니다. |이 설�
 |리서치 창과 서비스 Bing 통합  <br/> |사용할 수 없습니다.  <br/> |
 |접근성 검사  <br/> |사용할 수 없습니다.  <br/> |
 |수업용 전자 필기장  <br/> |사용할 수 없습니다.  <br/> |
-|양식  <br/> |사용할 수 없습니다.  <br/> |
+|Forms  <br/> |사용할 수 없습니다.  <br/> |
 |몰입형 리더  <br/> |사용할 수 없습니다.  <br/> |
 |온라인 그림 삽입  <br/> |사용할 수 없습니다.  <br/> |
 |모임 세부 정보  <br/> |사용할 수 없습니다.  <br/> |

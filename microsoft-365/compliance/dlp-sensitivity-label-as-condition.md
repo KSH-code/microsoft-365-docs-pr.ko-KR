@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: DLP 정책에서 민감도 레이블을 조건으로 사용할 수 있는 서비스 및 항목 형식에 대해 배워봅니다.
-ms.openlocfilehash: 288eb91c383e1ecd8e6e332438004b3ed8c4a2729829286ab4be8a2803657ec1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: aa9b936f7c40227245d0ffd9fbbc951e51c49321
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53892111"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567751"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies"></a>DLP 정책에서 민감도 레이블을 조건으로 사용
 
@@ -39,7 +39,7 @@ ms.locfileid: "53892111"
 민감도 레이블은 **콘텐츠가 포함하는** 목록에 옵션으로 표시됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![조건으로서의 민감도 레이블](../media/dlp-sensitivity-label-as-a-condition.png)
+> ![조건으로서의 민감도 레이블.](../media/dlp-sensitivity-label-as-a-condition.png)
 
 > [!IMPORTANT]
 > DLP 정책을 적용할 위치로 **Teams 대화 및 채널 메시지** 를 선택한 경우 조건별 **민감도 레이블** 을 사용할 수 없습니다.

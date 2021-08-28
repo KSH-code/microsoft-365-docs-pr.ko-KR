@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: e8ce6b72-745b-464a-85c7-cbf6eb53391b
 description: SharePoint Server 2013 및 SharePoint Online에서 콘텐츠 쿼리 웹 파트를 콘텐츠 검색 웹 파트로 바꾸어 성능을 SharePoint 방법을 알아보겠습니다.
-ms.openlocfilehash: 1fbddb662d87f135d90dfb1303ba75097da4650eefdf57dfe2f9ca50fcf186a4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 270019b59666c3f52d67648a88c453278149fccd
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53840795"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566747"
 ---
 # <a name="using-content-search-web-part-instead-of-content-query-web-part-to-improve-performance-in-sharepoint-online"></a>콘텐츠 쿼리 웹 파트 대신 콘텐츠 검색 웹 파트를 사용하여 온라인에서 SharePoint 향상
 
@@ -52,15 +52,15 @@ SharePoint Server 2013 및 SharePoint Online의 가장 강력한 새로운 기�
     
 다음은 콘텐츠 쿼리 웹 파트의 결과 스크린샷입니다.
   
-![웹 파트에 대한 콘텐츠 쿼리를 보여 주는 그래픽](../media/b3d41f20-dfe5-46ed-9c0a-31057e82de33.png)
+![웹 파트에 대한 콘텐츠 쿼리를 보여 주는 그래픽입니다.](../media/b3d41f20-dfe5-46ed-9c0a-31057e82de33.png)
   
 이 Internet Explorer F12  개발자 도구의 네트워크 탭을 사용하여 응답 헤더에 대한 세부 정보를 확인합니다. 다음 스크린샷에서 이 페이지 로드의 **SPRequestDuration** 값은 924밀리초입니다. 
   
-![924의 요청 기간을 보여 주는 스크린샷](../media/343571f2-a249-4de2-bc11-2cee93498aea.png)
+![Screenshot showing request duration of 924.](../media/343571f2-a249-4de2-bc11-2cee93498aea.png)
   
  **SPRequestDuration은** 서버에서 페이지를 준비하기 위해 수행되는 작업의 양을 나타냅니다. 쿼리로 콘텐츠를 웹 파트 검색을 통해 콘텐츠를 웹 파트 페이지를 렌더링하는 데 걸리는 시간이 크게 줄어듭니다. 반면 동일한 수의 결과를 반환하는 동등한 콘텐츠 검색 웹 파트가 있는 페이지에는 이 스크린샷과 같이 **SPRequestDuration** 값이 106밀리초입니다. 
   
-![106의 요청 기간을 보여 주는 스크린샷](../media/b46387ac-660d-4e5e-a11c-cc430e912962.png)
+![요청 기간이 106인 스크린샷](../media/b46387ac-660d-4e5e-a11c-cc430e912962.png)
   
 ## <a name="adding-a-content-search-web-part-in-sharepoint-online"></a>온라인에서 콘텐츠 검색 웹 파트 SharePoint 추가
 

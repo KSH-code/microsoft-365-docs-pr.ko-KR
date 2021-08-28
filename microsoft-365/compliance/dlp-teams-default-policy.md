@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 2013의 기본 데이터 손실 방지 정책에 대해 Microsoft Teams
-ms.openlocfilehash: 6358ec692142aa5f2c47007133cb99ec080621f8452234f1260a65e5cd7f9c21
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8f021031bd1dc3672a7aa7123ce01d4c6536fe77
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567739"
 ---
 # <a name="learn-about-the-default-data-loss-prevention-policy-in-microsoft-teams-preview"></a>Microsoft Teams의 기본 데이터 손실 방지 정책에 대한 자세한 정보(미리 보기)
 
@@ -47,7 +47,7 @@ ms.locfileid: "53814249"
 
 
 > [!div class="mx-imgBorder"]
-> ![기본 Teams DLP 정책](../media/default-teams-dlp-policy.png)
+> ![기본 Teams DLP 정책입니다.](../media/default-teams-dlp-policy.png)
 
 ## <a name="edit-or-delete-the-default-policy"></a>기본 정책 편집 또는 삭제
 

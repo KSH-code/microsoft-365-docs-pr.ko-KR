@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: '조직에서 비즈니스용 OneDrive 총 파일 및 저장소 수를 확인하려면 사용 현황 보고서를 다운로드합니다. '
-ms.openlocfilehash: 5b668880d03c2b14ee09361a68757ce5f6efb694f38e71e765d11a000fb04b61
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1dd5e595e1e7766bb3f4a4a3e67af02605bb7768
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816310"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564819"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Microsoft 365 관리 센터의 보고서 - 비즈니스용 OneDrive 사용 현황
 
@@ -47,7 +47,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 사용 현황 탭을 선택하여 OneDrive 보고서에서 사용 현황을 볼 **수** 있습니다.<br/>![Microsoft 365 - Microsoft OneDrive 보고서입니다.](../../media/3cdaf2fb-1817-479b-a0e1-2afa228690cf.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![OneDrive 사용 현황 보고서 - 열 선택](../../media/9ee80f25-cfe3-411d-8e31-08f1507d18c1.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![OneDrive 보고서 - 열을 선택 합니다.](../../media/9ee80f25-cfe3-411d-8e31-08f1507d18c1.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
   

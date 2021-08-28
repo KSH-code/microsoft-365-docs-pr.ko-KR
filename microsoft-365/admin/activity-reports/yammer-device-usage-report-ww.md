@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Yammer 장치 사용 현황 보고서를 통해 사용자가 어떤 장치를 사용하고 Yammer.
-ms.openlocfilehash: 6130da9e6cb7c982489ea50fe80aa661bc2a512967284237ef63e7dc9cafc429
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b9c05f54b1cc8f2483b3b167743bf0158c6dbc35
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816202"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564761"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a>Microsoft 365 관리 센터의 보고서 - Yammer 사용 현황 보고서
 
@@ -45,7 +45,7 @@ Yammer 장치 사용 현황 보고서는 사용자가 Yammer를 사용하는 장
 
 장치 사용 탭을 선택하여 OneDrive **보고서에서** 사용 현황을 볼 수 있습니다.<br/>![Microsoft 365 보고서 - Microsoft Yammer 사용 현황 보고서입니다.](../../media/e21af4c0-0ad2-4485-8ab1-2f82d7dfa90e.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Yammer 사용 현황 보고서 - 열 선택](../../media/fc1fc8db-e197-4878-85c7-7ba0d67b9379.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Yammer 사용 현황 보고서 - 열을 선택하세요.](../../media/fc1fc8db-e197-4878-85c7-7ba0d67b9379.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
   

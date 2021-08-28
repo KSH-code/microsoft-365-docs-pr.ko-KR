@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: 5dde70565cd9a5ca7812f84d0c62c39c9844ba42
-ms.sourcegitcommit: fac7b4b0095254c87b2a341fa2d53a42193f8957
+ms.openlocfilehash: 4bdc9a1d60423a7541c2f5c26cc544df59a271e5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58417990"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565257"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
@@ -75,15 +75,15 @@ ms.locfileid: "58417990"
 
    **옵션 1:** 처음 몇 번(또는 홈페이지 버전 3.0까지) 홈 페이지에 대한 변경 내용을 편집하고 다시 게시하는 경우 포털 시작 스케줄러 도구를 사용할지 묻는 메시지가 표시됩니다. 예약을 **통해** 시작 예약을 선택하여 앞으로 이동할 수 있습니다. 또는 **다시 게시를 선택하여** 시작을 설정하지 않고 페이지 편집을 다시 게시합니다.
 
-   ![홈 페이지를 다시 게시할 때 포털 시작 스케줄러를 사용하는 프롬프트 이미지](../media/portal-launch-republish-2.png)
+   ![홈 페이지를 다시 게시할 때 포털 시작 스케줄러를 사용할지 묻는 메시지의 이미지입니다.](../media/portal-launch-republish-2.png)
 
    **옵션 2:** 원하는 경우 SharePoint 커뮤니케이션 사이트 홈 페이지로 이동하여 설정 사이트  실행 예약을 선택하여 포털의 시작을 예약할 수 있습니다. 
 
-   ![사이트 설정 예약이 강조 표시된 이미지](../media/portal-launch-settings-2.png)
+   ![사이트 설정 예약이 강조 표시된 사이트 창의 이미지입니다.](../media/portal-launch-settings-2.png)
 
 3. 다음으로 포털의 상태 점수를 확인하고 필요한 경우 포털에서 정상 [](https://aka.ms/perftool) 점수를 받을 때까지 SharePoint 페이지 진단 도구를 사용하여 포털을 **개선합니다.** 그런 후 **다음** 을 선택합니다.
 
-   ![포털 시작 스케줄러 도구의 이미지](../media/portal-launch-panel-2.png)
+   ![포털 시작 스케줄러 도구의 이미지입니다.](../media/portal-launch-panel-2.png)
 
    > [!NOTE]
    > 사이트 이름 및 설명은 포털 시작 스케줄러에서 편집할 수 없습니다. 대신  홈 페이지에서 사이트  설정 정보를 선택하여 변경할 수 있습니다.
@@ -166,7 +166,7 @@ ms.locfileid: "58417990"
 
 2. 그런 다음 **삭제를** 선택하고 아래 메시지가 표시되면 다시 **삭제를** 선택합니다.
 
-   ![예약된 실행을 삭제할지 또는 유지할지 묻는 프롬프트 이미지](../media/portal-launch-delete-2.png)
+   ![예약된 실행을 삭제할지 또는 유지할지 묻는 프롬프트 이미지입니다.](../media/portal-launch-delete-2.png)
 
 ## <a name="use-the-powershell-portal-launch-scheduler"></a>PowerShell 포털 시작 스케줄러 사용
 

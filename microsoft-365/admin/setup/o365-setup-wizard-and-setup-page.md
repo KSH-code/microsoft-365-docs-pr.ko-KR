@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: 설정 마법사와 설치 페이지 간의 차이점에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 18dd1e6cd2aae0c1222bc0a63025c413946dbd8619231c307ec5a938c97a1bef
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a4936dded4e13b6cf748a1b4d33513480bf382a9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821703"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565593"
 ---
 # <a name="difference-between-the-setup-wizard-and-the-setup-page"></a>설치 마법사와 설치 페이지 차이점
 
@@ -40,7 +40,7 @@ Microsoft 365 두 가지 설치 환경을 제공합니다.
 
 계정을 설정하려면 관리 센터로 [이동하여](https://go.microsoft.com/fwlink/p/?linkid=2024339)  왼쪽 탐색 창에서 설치를 선택한  다음 설치 페이지에서 안내 **설치를** 선택합니다.
 
-![설치 비즈니스용 Microsoft 365 앱 시작](../../media/o365b-guided-setup.png)
+![설치 비즈니스용 Microsoft 365 앱 시작하십시오.](../../media/o365b-guided-setup.png)
 
 설치 마법사가 다음 단계를 안내합니다.
 
@@ -58,7 +58,7 @@ Microsoft 365 두 가지 설치 환경을 제공합니다.
 
 설치 마법사에서 완료한 작업을 포함하여 논리적 범주로 정렬된 설치 작업의 전체 목록이 표시됩니다.
 
-![Microsoft 365 설정 페이지](../../media/o365b-setup-page.png)
+![Microsoft 365 설정 페이지를 참조하세요.](../../media/o365b-setup-page.png)
 
 작업  설명, 사용자 영향, 선행 작업, 구현 노력, 보안 및 채택 통계와 같은 정보를 한눈에 볼 수 있는 모든 작업에 대한 보기를 선택하면 진행하기 전에 결과와 영향을 이해하는 데 도움이 됩니다.
 
@@ -68,4 +68,4 @@ Microsoft 365 두 가지 설치 환경을 제공합니다.
 
 작업을 완료할 준비가 되면 시작을 선택하여 구성 프로세스를 진행합니다.  작업을 완료하면 시작  단추가 **관리** 단추로 변경되어 필요한 경우 작업을 관리할 수 있습니다.
 
-![한 눈에 볼 수 있는 정보를 보여주는 작업 보기](../../media/o365b-at-a-glance.png)
+![작업 보기에서 정보를 한눈에 볼 수 있습니다.](../../media/o365b-at-a-glance.png)

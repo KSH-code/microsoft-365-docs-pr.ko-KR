@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에서 사용자 Microsoft Teams 보고서를 얻고 조직에서 Teams 활동을 파악하는 방법을 학습합니다.
-ms.openlocfilehash: 945cc48b442a521a0e755e5bebf4b5a36b7eccfb696b3506a793eba0ae5de647
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6f75b3547af25f06858eb72ab1956e787f6e6bc5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53797749"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564979"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>관리 센터의 Microsoft 365 보고서 - Microsoft Teams 사용자 활동
 
@@ -42,7 +42,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 사용자 활동 탭을 선택하여 Teams **보고서에서** 사용자 활동을 볼 수 있습니다. <br/>![Microsoft 365 보고서 - Microsoft Teams 활동입니다.](../../media/1011877f-3cf0-4417-9447-91d0b2312aab.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Teams user activity report - choose columns](../../media/6d3c013e-2c5e-4d66-bb41-998aa4bd1c20.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Teams 활동 보고서 - 열을 선택하십시오.](../../media/6d3c013e-2c5e-4d66-bb41-998aa4bd1c20.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 오디오 **시간,** 비디오 시간 및 화면 **공유** 시간의 내보낼 형식은 ISO8601 기간 형식을 나타냅니다.
 

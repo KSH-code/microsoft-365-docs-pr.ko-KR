@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: MailItemsAccessed 사서함 감사 작업을 사용하여 손상된 사용자 계정에 대한 포렌식 조사를 수행합니다.
-ms.openlocfilehash: b168cc25afc1a21044d00eb2dece1cee4da5f9cb6b7c70ecea05874ad6fcefd4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b0fac6e4ac5d6cc4bb20b6853cb67cf301c6295a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830786"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565999"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>고급 감사를 사용하여 손상된 계정 조사
 
@@ -194,7 +194,7 @@ Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/202
 
 예를 들어, 다음의 스크린샷에 표시된 감사 레코드에서 EWSEditor와 OWA에서 동시에 메일에 액세스를 하지만, 액세스 활동은 액세스가 발생한 컨텍스트에 따라 다른 감사 레코드로 정렬됩니다. 이 경우 컨텍스트는 ClientInfoString 속성에 대 한 다양한 값으로 정의됩니다.
 
-![컨텍스트에 기반한 다양한 감사 레코드](../media/MailItemsAccessed4.png)
+![컨텍스트에 기반한 다양한 감사 레코드.](../media/MailItemsAccessed4.png)
 
 다음은 이전 스크린샷에 표시된 명령에 대한 구문입니다.
 

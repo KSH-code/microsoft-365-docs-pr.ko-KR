@@ -17,12 +17,12 @@ search.appverid: MET150
 ms.assetid: ba780859-0297-4114-a258-2b2809bab9e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모바일 장치에서 전자 메일에 액세스하는 방법을 확인합니다.
-ms.openlocfilehash: a2a4df56a6f17a8e4d5a1c7b9165b58971c46170fdfa08b808b1cc7ca2563d66
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c003b90e704a51adcaca6d3887d1fc7286f40168
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53832841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566373"
 ---
 # <a name="options-for-accessing-email-from-your-mobile-device"></a>모바일 장치에서 전자 메일에 액세스하기 위한 옵션
 
@@ -36,7 +36,7 @@ Android Outlook 및 iOS Outlook 앱을 위한 앱 앱은 직장 또는 학교 �
 
 조직에서는 iOS 모바일 앱에서 Android용 Outlook 또는 Outlook 메일, 일정 및 연락처에 액세스하기 위해 이 앱을 사용해야 합니다. Android 또는 iOS용 Outlook 앱을 다운로드하여 설치하면 Outlook 동기화가 시작됩니다.
 
-![전자 메일을 동기화하는 Outlook 전자 메일 예](../../media/798d942a-4181-4dcb-8039-cd9f2edd9723.png)
+![전자 메일을 동기화하는 Outlook 전자 메일을 예로 들 수 있습니다.](../../media/798d942a-4181-4dcb-8039-cd9f2edd9723.png)
 
 자세한 내용은 [iOS Outlook Android](https://support.microsoft.com/office/de075b19-b73c-4d8a-841b-459982c7e890) 휴대폰에 맞게 모바일 앱 최적화를 Outlook 있습니다. 그리고 문제가 [Outlook iOS](https://support.microsoft.com/office/cd84214e-a5ac-4e95-9ea3-e07f78d0cde6) 및 Android 도움말 센터에 대한 업데이트로 이동 합니다.
 

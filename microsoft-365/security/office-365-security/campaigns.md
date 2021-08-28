@@ -19,12 +19,12 @@ ms.collection:
 description: Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d1b080968675de25374019ea96e68cb6e9a63aa2fe72533759065cd4fbbc44c0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ca5049b234972ef55b951c0886a9d4074613c860
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56885526"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566655"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -45,7 +45,7 @@ ms.locfileid: "56885526"
 
 캠페인은 하나 이상의 조직에 대해 조율된 전자 메일 공격입니다. 자격 증명 및 회사 데이터를 도용하는 전자 메일 공격은 대규모의 기업입니다. 기술이 공격을 중지하기 위한 노력이 증가하면 공격자는 계속 성공하기 위해 방법을 수정합니다.
 
-Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별합니다. 여러 요인에 따라 공격 정보를 분석하고 분류합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별합니다. 여러 요인에 따라 공격 정보를 분석하고 분류합니다. 예시:
 
 - **공격 원본**: 원본 IP 주소 및 보낸 사람 전자 메일 도메인입니다.
 - **메시지 속성:** 메시지의 콘텐츠, 스타일 및 톤입니다.
@@ -58,7 +58,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 
 캠페인 보기는 Microsoft 365 Defender 포털( )의 전자 메일 & 공동 작업 캠페인 또는 에서 직접 사용할 수 <https://security.microsoft.com>  \>  <https://security.microsoft.com/campaigns> 있습니다.
 
-![Microsoft 365 Defender 포털의 캠페인 개요](../../media/campaigns-overview.png)
+![검색 포털의 캠페인 Microsoft 365 Defender.](../../media/campaigns-overview.png)
 
 다음에서 캠페인 보기를 볼 수 있습니다.
 
@@ -88,7 +88,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 
 - **유형:** 이 값은 **피싱 또는** 맬웨어입니다. 
 
-- **하위 스타일:** 이 값에는 캠페인에 대한 자세한 정보가 포함되어 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+- **하위 스타일:** 이 값에는 캠페인에 대한 자세한 정보가 포함되어 있습니다. 예시:
   - **피싱:** 사용 가능한 경우 이 캠페인에 의해 피싱되는 브랜드입니다. 예를 들면 `Microsoft` , , , 또는 `365` `Unknown` `Outlook` `DocuSign` 입니다.
   - **맬웨어**: 예: `HTML/PHISH` `HTML/<MalwareFamilyName>` 또는 .
 
@@ -112,7 +112,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 
 캠페인 페이지 맨  위에는 특정 캠페인을 찾아 격리하는 데 도움이 되는 몇 가지 필터 및 쿼리 설정이 있습니다.
 
-![캠페인 필터](../../media/campaign-filters-and-settings.png)
+![캠페인 필터.](../../media/campaign-filters-and-settings.png)
 
 가장 기본적인 필터링은 시작 날짜/시간 및 종료 날짜/시간입니다.
 
@@ -191,7 +191,7 @@ Endpoint용 Microsoft Defender 구독이 있는 경우 **MDE** 구독을 설정 
 - 다음 섹션에 설명된 캠페인 흐름에 대한 시작 날짜/시간 및 종료 데이터/시간 필터입니다.
 - 캠페인 활동의 대화형 타임라인: 타임라인에는 캠페인의 전체 수명 동안 활동이 표시됩니다. 검색된 메시지의 양을 확인하기 위해 그래프의 데이터 포인트 위에 마우스를 대면 됩니다.
 
-![캠페인 정보](../../media/campaign-details-campaign-info.png)
+![캠페인 정보.](../../media/campaign-details-campaign-info.png)
 
 ### <a name="campaign-flow"></a>캠페인 흐름
 
@@ -200,7 +200,7 @@ Endpoint용 Microsoft Defender 구독이 있는 경우 **MDE** 구독을 설정 
 > [!TIP]
 > 흐름 다이어그램에 표시되는 정보는 이전 섹션에 설명된 바와 같이 시간 표시 막대의 날짜 범위 필터에 의해 제어됩니다.
 
-![사용자 URL 클릭을 포함하지 않는 캠페인 세부 정보](../../media/campaign-details-no-recipient-actions.png)
+![사용자 URL 클릭을 포함하지 않는 캠페인 세부 정보입니다.](../../media/campaign-details-no-recipient-actions.png)
 
 다이어그램에서 가로 밴드에 마우스를 올리면 관련 메시지 수(예: 특정 원본 IP의 메시지, 지정된 보낸 사람 도메인을 사용하는 원본 IP의 메시지)가 표시 됩니다.
 
@@ -220,7 +220,7 @@ Endpoint용 Microsoft Defender 구독이 있는 경우 **MDE** 구독을 설정 
   |**차단됨**|`SFV:SKS`|메시지가 스팸 필터링에 의해 평가되기 전에 스팸으로 표시되었습니다. 예를 들어 메일 흐름 규칙에 의해|
   |**감지함**|`SFV:SPM`|메시지가 스팸 필터링에 의해 스팸으로 표시되었습니다.|
   |**검색되지 않습니다.**|`SFV:NSPM`|메시지가 스팸 필터링에 의해 스팸이 아닌 것으로 표시되었습니다.|
-  |**릴리스**|`SFV:SKQ`|메시지가 스팸 필터링에서 릴리스되어 스팸 필터링을 건너뜁니다.|
+  |**릴리스됨**|`SFV:SKQ`|메시지가 스팸 필터링에서 릴리스되어 스팸 필터링을 건너뜁니다.|
   |**테넌트 허용**<sup>\*</sup>|`SFV:SKA`|스팸 방지 정책의 설정 때문에 메시지가 스팸 필터링을 건너뜁니다. 예를 들어 보낸 사람이 허용된 보낸 사람 목록 또는 허용된 도메인 목록에 있습니다.|
   |**테넌트 차단**<sup>\*\*</sup>|`SFV:SKA`|스팸 방지 정책의 설정 때문에 메시지가 스팸 필터링에 의해 차단되었습니다. 예를 들어 보낸 사람이 허용된 보낸 사람 목록 또는 허용된 도메인 목록에 있습니다.|
   |**사용자 허용**<sup>\*</sup>|`SFV:SFE`|보낸 사람이 사용자의 보낸 사람 목록에 있기 때문에 메시지가 스팸 필터링을 금고 건너뜁니다.|

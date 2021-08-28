@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-mar2020
 description: 키워드 및 조건을 사용하여 검색 범위 내에서 데이터를 검색할 Advanced eDiscovery 범위를 Microsoft 365.
-ms.openlocfilehash: cbb96e6ba58a5e7af6a3f8472ccfd10986cc698e510869b466784f24bb66e580
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 00a5ab1c009f0c006aba251c770c87c1f7569fc1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814798"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564197"
 ---
 # <a name="build-search-queries-for-collections-in-advanced-ediscovery"></a>2013에서 컬렉션에 대한 검색 쿼리를 Advanced eDiscovery
 
 Advanced eDiscovery 사례에서 컬렉션을 만들 [](collections-overview.md) 때 검색 쿼리를 구성할 때 키워드를 사용하여 특정 콘텐츠 및 조건을 검색하여 법적 조사와 가장 관련이 있는 항목을 반환하도록 검색 범위를 좁힐 수 있습니다.
 
-![키워드 및 조건을 사용하여 검색 결과 좁히기](../media/SearchQueryBox.png)
+![키워드 및 조건을 사용하여 검색 결과의 범위를 좁힐 수 있습니다.](../media/SearchQueryBox.png)
 
 ## <a name="keyword-searches"></a>키워드 검색
 
@@ -37,7 +37,7 @@ Advanced eDiscovery 사례에서 컬렉션을 만들 [](collections-overview.md)
 
 또는 키워드 목록 표시  확인란을 선택하고 각 행에 키워드 또는 키워드 구를 입력할 수 있습니다. 각 행의 키워드는 작성된 검색 쿼리의 **OR** 연산자와 기능상 유사한 논리 연산자(검색 쿼리 구문에서 *c:s로* 표시)에 의해 연결됩니다. 즉, 행에 키워드가 포함된 항목이 검색 결과에 있습니다. 검색 쿼리의 키워드 목록에 최대 180개 행을 추가할 Advanced eDiscovery 있습니다.
 
-![키워드 목록을 사용하여 쿼리의 각 키워드에 대한 통계를 얻습니다.](../media/KeywordListSearch.png)
+![키워드 목록을 사용하여 쿼리의 각 키워드에 대한 통계를 얻을 수 있습니다.](../media/KeywordListSearch.png)
 
 키워드 목록을 사용하는 이유 키워드 목록의 각 키워드와 일치하는 항목 수를 표시하는 통계를 얻을 수 있습니다. 이를 통해 가장 효과적이고 가장 효과적인 키워드를 빠르게 식별할 수 있습니다. 키워드 목록의 행에 키워드 구(괄호로 둘러싸인)를 사용할 수도 있습니다. 검색 통계에 대한 자세한 내용은 [검색 통계를 참조하세요.](search-statistics-in-advanced-ediscovery.md)
 

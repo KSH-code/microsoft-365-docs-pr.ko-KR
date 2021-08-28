@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 문서의 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook.
-ms.openlocfilehash: c9d9858d030e54884a4defc9b06afe67e8951fca37e36f10d0e9979e5d282920
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e0904c6aeca919dd3f93044ce177a34761cb141b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827493"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564725"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여
 
@@ -115,11 +115,11 @@ ms.locfileid: "53827493"
   
 3. Open **&amp; Export** \> **Import/Export.**
 
-    ![Import/Export 보기의 Import/Export 명령](../../media/6013919e-d8ce-4902-b7b4-78ff4260a2f8.jpg)
+    ![Import/Export 보기에서 명령을 실행합니다.](../../media/6013919e-d8ce-4902-b7b4-78ff4260a2f8.jpg)
   
 4. 파일로 **내보내기 를 선택하고** 다음 을 **선택합니다.**
 
-    ![가져오기 및 내보내기 마법사의 파일로 내보내기 옵션](../../media/458466a0-366b-4fbf-a2db-1919412c6527.jpg)
+    ![가져오기 및 내보내기 마법사의 파일 옵션으로 내보내기](../../media/458466a0-366b-4fbf-a2db-1919412c6527.jpg)
   
 5. 데이터 **Outlook 파일(.pst)을** 선택하고 다음 을 **선택합니다.**
 
@@ -128,7 +128,7 @@ ms.locfileid: "53827493"
     > [!NOTE]
     > 한 번씩 하나의 계정을 내보낼 수 있습니다. 여러 계정을 내보내는 경우 한 계정을 내보낼 때 다음 단계를 반복합니다.
   
-    ![상위 Outlook 선택한 데이터 파일 내보내기 대화 상자 및 하위 폴더 포함 선택](../../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
+    ![상위 Outlook 선택한 다음 하위 폴더 포함을 선택한 다음 데이터 파일 대화 상자를 내보낼 수 있습니다.](../../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
   
 7. **다음** 을 선택합니다.
 
@@ -165,7 +165,7 @@ Outlook 새 Outlook 파일(.pst)을 만들거나 암호로 보호된 파일을 �
 
 2. 다른 **프로그램 또는 파일에서 가져오기 를 선택하고** 다음 을 **선택합니다.**
 
-    ![가져오기 및 내보내기 마법사](../../media/15cdd674-cd7b-492c-8e93-992cfa890f26.jpg)
+    ![가져오기 및 내보내기 마법사.](../../media/15cdd674-cd7b-492c-8e93-992cfa890f26.jpg)
   
 3. 데이터 **Outlook 파일(.pst)을 선택하고** 다음 을 **선택합니다.**
 

@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 통과 인증을 구성합니다.'
-ms.openlocfilehash: 6919c3f85e076232c864642ada020daaeff8f566
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: aa2ef24db76917917d35e7816c249334f6bdd229
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58357068"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566769"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 통과 인증
 
@@ -31,14 +31,14 @@ ms.locfileid: "58357068"
 
 Microsoft 클라우드 기반 서비스 및 응용 프로그램에 대한 인증을 위해 AD DS (Active Directory 도메인 서비스) 인프라를 직접 사용하려는 조직은 통과 인증을 사용할 수 있습니다. 이 문서에서는 통과 인증에 대해 Microsoft 365 테스트 환경을 구성하여 다음과 같은 결과를 얻는 방법을 설명합니다.
   
-![통과 인증 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/pass-through-auth-m365-ent-test-environment/Phase2.png)
+![통과 인증 테스트 환경을 사용하는 시뮬레이트된 엔터프라이즈입니다.](../media/pass-through-auth-m365-ent-test-environment/Phase2.png)
   
 이 테스트 환경의 2가지 주요 설정 단계는 다음과 같습니다.
 
 1.    암호 해시 동기화로 시뮬레이트된 Microsoft 365 엔터프라이즈 테스트 환경을 만듭니다.
 2.    통과 인증을 위해 APP1에서 Azure AD Connect를 구성합니다.
     
-![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Microsoft 클라우드용 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > [여기](../downloads/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
@@ -47,7 +47,7 @@ Microsoft 클라우드 기반 서비스 및 응용 프로그램에 대한 인증
 
 [Microsoft 365에 대한 암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md) 지침을 따릅니다. 결과 구성은 다음과 같습니다.
   
-![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/pass-through-auth-m365-ent-test-environment/Phase1.png)
+![암호 해시 동기화 테스트 환경을 사용하여 시뮬레이트된 엔터프라이즈입니다.](../media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
 이 구성은 다음으로 이루어집니다. 
   
@@ -90,7 +90,7 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
 
 구성 결과는 다음과 같습니다.
 
-![통과 인증 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/pass-through-auth-m365-ent-test-environment/Phase2.png)
+![통과 인증 테스트 환경을 사용하는 시뮬레이트된 엔터프라이즈입니다.](../media/pass-through-auth-m365-ent-test-environment/Phase2.png)
  
 이 구성은 다음으로 이루어집니다.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: 전자 메일을 메일 Microsoft 365 메일 Microsoft 365 메일 목록에서 보낸 것으로 표시될 때 해당 메시지에 응답할 수 있도록 합니다.
-ms.openlocfilehash: 83a94055386763b5908c872ce9b3b9971c4578e965ccd14b2f67558e4983c335
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 021f44591805385f0575d6fa2ca550289a72c82d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566165"
 ---
 # <a name="send-email-as-a-distribution-list"></a>메일로 전자 메일 보내기
 
@@ -47,9 +47,9 @@ ms.locfileid: "53824639"
     
 3. **회신을 선택합니다.** 
     
-4. 메시지 아래쪽에서 에서 **추가** \> **표시를 선택합니다.**<br/> ![추가를 선택하고 다음에서 표시를 선택합니다.](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)
+4. 메시지 아래쪽에서 에서 **추가** \> **표시를 선택합니다.**<br/> ![추가를 선택하고 시작 화면 표시를 선택합니다.](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)
   
-5. From 주소(예: )를 마우스 오른쪽 단추로 클릭하고 `Ina@weewalter.me` 제거를 **클릭합니다.**<br/> ![FROM 별칭 제거](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)
+5. From 주소(예: )를 마우스 오른쪽 단추로 클릭하고 `Ina@weewalter.me` 제거를 **클릭합니다.**<br/> ![Remove the FROM alias.](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)
   
 6. 그런 다음 메일 support@contoso.com 입력하고 메시지를 전송합니다. 다음에 메일 목록에서 회신하면 해당 주소가 시작 목록에 옵션으로 **표시됩니다.**<br/>![공유 사서함의 별칭이 나타납니다.](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)
 

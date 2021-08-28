@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: 7671bcc99a0f1ab205312fe0aa6930255ae6cfa1
-ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
+ms.openlocfilehash: 5892932bc3fe35cfc6739c266db9f6379d08ee6b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386999"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565509"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -90,7 +90,7 @@ MailItemsAccessed 액세스 활동의 감사 레코드에 대한 자세한 내�
 
 MailItemsAccessed 감사 레코드를 검색하려면 Microsoft 365 보안 및 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **Exchange 사서함 활동** 드롭다운 목록에서 **액세스한 사서함 항목** 에 대한 활동을 검색할 수 있습니다.
 
-![감사 로그 검색 도구에서 MailItemsAccessed 작업 검색](../media/AdvAudit_MailItemsAccessed.png)
+![감사 로그 검색 도구에서 MailItemsAccessed 작업 검색.](../media/AdvAudit_MailItemsAccessed.png)
 
 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations MailItemsAccessed](/powershell/module/exchange/search-unifiedauditlog) 또는 [Search-MailboxAuditLog -Operations MailItemsAccessed](/powershell/module/exchange/search-mailboxauditlog) 명령을 실행할 수도 있습니다.
 
@@ -108,7 +108,7 @@ Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations MailItemsAc
 
 감사 레코드 보내기를 검색하려면 Microsoft 365 준수 센터 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **Exchange 사서함 활동** 드롭다운 목록에서 **보낸 메시지** 활동을 검색할 수 있습니다.
 
-![감사 로그 검색 도구에서 보낸 메시지 동작 검색하기](../media/AdvAudit_SentMessage.png)
+![감사 로그 검색 도구에서 보낸 메시지 동작 검색하기.](../media/AdvAudit_SentMessage.png)
 
 또한 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations Send](/powershell/module/exchange/search-unifiedauditlog) 또는 [Search-MailboxAuditLog -Operations Send](/powershell/module/exchange/search-mailboxauditlog) 명령을 실행할 수도 있습니다.
 
@@ -130,7 +130,7 @@ SearchQueryInitiatedExchange 이벤트는 사용자가 Outlook을 사용하여 �
 
 SearchQueryInitiatedExchange 감사 레코드를 검색하려면 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **검색 활동** 드롭다운 목록에서 **수행한 전자 메일 검색** 활동을 검색할 수 있습니다.
 
-![감사 로그 검색 도구에서 수행된 전자 메일 검색 작업을 검색하는 중](../media/AdvAudit_SearchExchange.png)
+![감사 로그 검색 도구에서 수행된 전자 메일 검색 작업을 검색하는 중.](../media/AdvAudit_SearchExchange.png)
 
 Exchange Online PowerShell에서 [Search-UnifiedAuditLog-Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
 
@@ -153,7 +153,7 @@ Exchange Online PowerShell에서 [Search-UnifiedAuditLog-Operations SearchQueryI
 
 SearchQueryInitiatedSharePoint 감사 레코드를 검색하려면 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **검색 활동** 드롭다운 목록에서 **수행한 SharePoint 검색** 활동을 검색할 수 있습니다.
 
-![감사 로그 검색 도구에서 수행된 SharePoint 검색 작업을 검색하는 중](../media/AdvAudit_SearchSharePoint.png)
+![감사 로그 검색 도구에서 수행된 SharePoint 검색 작업을 검색하는 중.](../media/AdvAudit_SearchSharePoint.png)
 
 또한 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
 

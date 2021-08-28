@@ -25,12 +25,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: MFA(다단계 인증)는 강력한 암호와 추가 확인 방법을 모두 사용합니다.
-ms.openlocfilehash: 56a72a7232abc5f0eb7a46beb27984425648a6db
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: d0f88043ecaa4d2dd990f74661e904351db97524
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394627"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566099"
 ---
 # <a name="multifactor-authentication-for-microsoft-365"></a>사용자에 대한 다단계 Microsoft 365
 
@@ -97,7 +97,7 @@ Azure 포털의 Azure AD에 대해 **속성** 창에서 보안 기본값을 사�
 
 Azure 포털의 Azure AD의 **보안** 창에서 조건부 액세스 정책을 구성합니다.
 
-![조건부 액세스의 메뉴 옵션 그림](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
+![조건부 액세스의 메뉴 옵션 그림입니다.](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
 
 조건부 액세스 정책을 사용할 수 있습니다
 
@@ -144,7 +144,7 @@ Azure AD ID 보호 기능을 사용하여 [로그인 위험이 중간에서 높�
 
 사용자 계정의 활성 사용자 창에서 개별 사용자 계정에 대해 MFA를 Microsoft 365 관리 센터. <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"></a>
 
-![활성 사용자 페이지의 다단계 인증 옵션 그림](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
+![활성 사용자 페이지의 다단계 인증 옵션 그림.](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
 
 사용 설정 되면, 사용자가 다음에 로그인 할 때에 MFA를 등록하고 추가 확인 방법을 선택하라는 메시지가 표시됩니다.
 

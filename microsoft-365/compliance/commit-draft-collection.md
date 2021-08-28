@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 초안 컬렉션을 만들고 이 컬렉션을 다시 작성한 후 검토 집합으로 커밋할 수 있습니다. 초안 컬렉션을 커밋하면 수집된 항목이 사례의 검토 집합에 추가됩니다. 수집된 항목이 검토 집합에 들어오면 분석, 검토 및 내보낼 수 있습니다.
-ms.openlocfilehash: c5e2ebaec734efed1c310e13a8d66badefac860dfaf59ea8c6189104656185df
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9b63117a90f6373e485f74e2edccfa0992ca2ded
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814765"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567511"
 ---
 # <a name="commit-a-draft-collection-to-a-review-set-in-advanced-ediscovery"></a>초안 컬렉션을 임시 검토 집합에 Advanced eDiscovery
 
@@ -31,7 +31,7 @@ ms.locfileid: "53814765"
 
 1. 이 Microsoft 365 규정 준수 센터 사례를 Advanced eDiscovery 컬렉션 탭을 선택하여 해당 사례의 컬렉션 목록을 표시합니다. 
 
-   ![사례의 컬렉션 목록](../media/CommitDraftCollections1.png)
+   ![사례의 컬렉션 목록입니다.](../media/CommitDraftCollections1.png)
 
    > [!TIP]
    > 상태 열의 값은 검토 집합에 추가할 수 있는 초안 `Estimated` 컬렉션을 식별합니다.  상태는 컬렉션이 검토 집합에 이미 추가된 `Committed` 상태입니다.

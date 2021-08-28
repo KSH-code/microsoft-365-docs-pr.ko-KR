@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: 전역 Office 365 조직의 브랜드를 암호화 포털의 콘텐츠와 함께 암호화된 전자 메일 메시지에 적용하는 & 방법을 알아보겠습니다.
-ms.openlocfilehash: 35fc440b6ae8f973dac6ce1fa5216829b4a966f8d00d763969bc03d1a5216c59
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 761cf2b85d13db34a0150e1ca21996ad0742e4bb
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53836934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567571"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 메시지 암호화 암호화 Microsoft 365 조직 브랜드 추가
 
@@ -76,11 +76,11 @@ ms.locfileid: "53836934"
 
 2. [Set-OMEConfiguration에](/powershell/module/exchange/Set-OMEConfiguration) 설명된 Set-OMEConfiguration cmdlet을 사용하거나 다음 그래픽 및 표를 사용하여 지침을 참조하세요.
 
-![사용자 지정 가능한 전자 메일 파트](../media/ome-template-breakout.png)
+![사용자 지정 가능한 전자 메일 파트.](../media/ome-template-breakout.png)
 
 |**암호화 환경에서 사용자 지정하려는 기능**|**다음 명령 사용**|
 |:-----|:-----|
-|배경색|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> 배경색에 대한 자세한 내용은 이 문서 부분의 [배경색](#background-color-reference) 섹션을 참조하세요.|
+|배경색|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **예:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> 배경색에 대한 자세한 내용은 이 문서 부분의 [배경색](#background-color-reference) 섹션을 참조하세요.|
 |로고|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <Byte[]>` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 로고 이미지의 최적 크기: 170x70 픽셀 이미지가 이러한 크기를 초과하면 서비스에서 포털에 표시하기 위해 로고 크기를 변경합니다. 서비스는 그래픽 파일 자체를 수정하지 않습니다. 최상의 결과를 얻기 위해 최적의 크기를 사용 합니다.|
 |보낸 사람 이름 및 전자 메일 주소 옆의 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -IntroductionText "<String up to 1024 characters>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
 |"메시지 읽기" 단추에 나타나는 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -ReadButtonText "<String up to 1024 characters>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
@@ -124,7 +124,7 @@ ms.locfileid: "53836934"
    |암호화 환경의 이 기능을 기본 텍스트 및 이미지로 되돌리려면|다음 명령 사용|
    |:-----|:-----|
    |암호화된 전자 메일 메시지와 함께 제공된 기본 텍스트입니다.  암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
-   |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
+   |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **예:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
    |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **기본값으로 되돌리기 예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
    |로고|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **기본값으로 되돌리기 예제:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
    |배경색|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **기본값으로 되돌리기 예제:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
@@ -170,7 +170,7 @@ ms.locfileid: "53836934"
 
 3. In the Microsoft 365 관리 센터, choose **Admin centers** \> **Exchange.**
 
-4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
+4. EAC에서 메일 흐름 **규칙으로** \> **이동하고** 새 새 **아이콘을** ![ 선택합니다.](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \>**새 규칙을 만드시다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
 
 5. **이름에** 규칙의 이름(예: 영업 부서의 브랜드)을 입력합니다.
 

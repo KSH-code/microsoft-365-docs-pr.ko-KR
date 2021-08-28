@@ -15,12 +15,12 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: cb90623629be58122b985088ddce0ec26e24dc53c0772a7f3a6f09bfa2467731
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 412b42fd7ac67326552f23c4d6cc0909daa60aa6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833597"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565847"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리
 
@@ -102,7 +102,7 @@ Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 
 
    2. 다음 스크린샷과 같이 소스 순서를 단일 파이프로 구분하여 입력합니다( 예: `InternalDefinitionUpdateServer|MicrosoftUpdateServer|MMPC` ).
 
-      :::image type="content" source="../../media/wdav-order-update-sources.png" alt-text="원본 순서를 나열하는 그룹 정책 설정":::
+      :::image type="content" source="../../media/wdav-order-update-sources.png" alt-text="그룹 정책 설정에서 원본 순서를 나열합니다.":::
 
    3. **확인** 을 선택합니다. 이렇게 하면 보호 업데이트 원본의 순서가 설정됩니다.
 

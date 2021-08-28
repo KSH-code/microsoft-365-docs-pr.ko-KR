@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47a7471aa5f42ca548b994a5f979dd526219e89e45b6ad522896c6c856b66a20
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a7ee836cc40c7960c7963867484056b5a506241b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884312"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566701"
 ---
 # <a name="respond-to-web-threats"></a>웹 위협에 대응
 
@@ -49,7 +49,7 @@ ms.locfileid: "53884312"
 - 사용자 지정 표시기 목록의 악의적인 URL 또는 URL
 - 응답자에 대한 권장 작업
 
-![웹 위협 방지와 관련된 경고 이미지](images/wtp-alert.png)
+![웹 위협 방지와 관련된 경고 이미지입니다.](images/wtp-alert.png)
 
 > [!NOTE]
 > 경고 볼륨을 줄이기 위해 끝점용 Microsoft Defender는 매일 동일한 장치에서 동일한 도메인에 대한 웹 위협 감지를 단일 경고로 통합합니다. 하나의 경고만 생성되어 웹 보호 보고서 [에 계산됩니다.](web-protection-monitoring.md)
@@ -62,7 +62,7 @@ ms.locfileid: "53884312"
 - 웹 사이트와 관련된 인시던트 및 알림
 - 조직의 이벤트에 웹 사이트가 얼마나 자주 나타날 수 있습니다.
 
-    ![도메인 또는 URL 엔터티 세부 정보 페이지의 이미지](images/wtp-website-details.png)
+    ![도메인 또는 URL 엔터티 세부 정보 페이지의 이미지입니다.](images/wtp-website-details.png)
 
 [URL 또는 도메인 엔터티 페이지에 대해 자세히 알아보세요.](investigate-domain.md)
 
@@ -76,11 +76,11 @@ ms.locfileid: "53884312"
 
 Endpoint용 Microsoft Defender의 웹 보호를 통해 최종 사용자는 웹 사이트 또는 기타 브라우저를 사용하여 악성 또는 원치 않는 웹 Microsoft Edge 방지할 수 있습니다. 차단은 네트워크 보호에서 [수행하기](network-protection.md)때문에 웹 브라우저에서 일반 오류가 표시됩니다. 또한 사용자로부터 알림이 Windows.
 
-![403 Microsoft Edge 웹 위협이 차단된 Windows 웹 위협을 보여 Microsoft Edge ](images/wtp-browser-blocking-page.png)
- 
+![403 Microsoft Edge 알림이 표시되어 있는 Windows 이미지입니다. ](images/wtp-browser-blocking-page.png)
+ *웹에서 차단된 웹 Microsoft Edge*
 
-![보안 연결 경고 및 Chrome에서 차단된 보안 Windows 웹 위협을 표시하는 Chrome 웹 ](images/wtp-chrome-browser-blocking-page.png)
- *브라우저의 이미지*
+![보안 연결 경고 및 보안 알림이 Windows Chrome 웹 브라우저의 이미지입니다. ](images/wtp-chrome-browser-blocking-page.png)
+ *Chrome에서 차단된 웹 위협*
 
 ## <a name="related-topics"></a>관련 항목
 

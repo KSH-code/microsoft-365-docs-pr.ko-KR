@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: e3c0a4ee-e3d8-4fbe-bd8f-16d1c712d1f4
 description: 직원이 지정된 시간 동안 예약할 수 없음으로 표시될 수 있도록 Bookings 일정에서 사무실 폐쇄 및 직원의 시간을 예약합니다.
-ms.openlocfilehash: 3d8c7b370331f0e4651864f961d6eceffc9d24cddef07810d765bfbc5db6e96b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bdd00d2bc97de1e981b2de7f5f21325de6967aa7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906986"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567595"
 ---
 # <a name="schedule-business-closures-time-off-and-vacation-time"></a>업무 폐쇄, 휴가 및 휴가 예약
 
@@ -30,7 +30,7 @@ ms.locfileid: "53906986"
 
 1. 탐색 창에서 일정  시간 \> **끄기 를 선택합니다.**
 
-   ![Bookings 일정 보기 및 시간 끄기 단추의 이미지](../media/bookings-calendar-timeoff.png)
+   ![Bookings 일정 보기 및 시간 끄기 단추의 이미지입니다.](../media/bookings-calendar-timeoff.png)
 
 1. 제목, 시작 및 종료 날짜 및 시간, 위치 및 추가 메모를 포함하여 세부 정보를 입력합니다.
 
@@ -42,17 +42,17 @@ ms.locfileid: "53906986"
 
 고객이 사무실이 닫힌 날에 서비스를 예약하려고 시도하면 예약 페이지에 메시지가 표시됩니다.
 
-   ![끄기 중에 예약하려고 할 때 고객에게 표시하는 예제 메시지의 이미지](../media/bookings-timeoff-message.png)
+   ![끄기 중에 예약하려고 할 때 고객에게 표시하는 예제 메시지의 이미지입니다.](../media/bookings-timeoff-message.png)
 
 ## <a name="schedule-employee-time-off"></a>직원의 시간 퇴사 예약
 
 1. 다음 Microsoft 365 시작 프로그램을 선택한 다음 **Bookings 를 선택합니다.**
 
-   ![앱 시작 프로그램 이미지](../media/bookings-applauncher.png)
+   ![앱 시작커의 이미지입니다.](../media/bookings-applauncher.png)
 
 1. 탐색 창에서 일정  시간 \> **끄기 를 선택합니다.**
 
-   ![Bookings 일정 보기 및 시간 끄기 단추의 이미지](../media/bookings-calendar-timeoff.png)
+   ![Bookings 일정 보기 및 시간 끄기 단추의 이미지입니다.](../media/bookings-calendar-timeoff.png)
 
 1. 제목, 시작 및 종료 날짜 및 시간, 위치 및 추가 메모를 포함하여 세부 정보를 입력합니다. 직원이 하루 또는 며칠 동안 퇴사하게 될 경우 하루 동안 이벤트를 **선택합니다.**
 

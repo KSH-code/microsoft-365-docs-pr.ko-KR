@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 클라우드 서비스에 대한 액세스를 최적화하는 동안 원격 작업자가 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
-ms.openlocfilehash: 2097507c79d9c2f1738e0fee45464e90e7887551836fd8895c99cfb22de1d094
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 52711e0c43f4121728968a0d2ddcc0e0c9b25e3d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816802"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566493"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계: 온-프레미스 앱 및 서비스에 대한 원격 액세스 제공
 
@@ -59,7 +59,7 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 
 다음은 Microsoft 365 클라우드 앱에 대한 대부분의 트래픽이 VPN 연결을 바이패스하는 결과 트래픽 흐름입니다.
 
-![터널링이 있는 VPN 클라이언트에서의 네트워크 트래픽](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
+![터널링이 있는 VPN 클라이언트의 네트워크 트래픽](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
 
 이는 VPN 클라이언트가 인터넷을 통해 직접 중요한 Microsoft 365 클라우드 서비스 트래픽을 가장 가까운 진입점으로 Microsoft 네트워크로 전송하고 받도록 해줍니다.
 
@@ -71,7 +71,7 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 
 Azure AD 응용 프로그램 프록시의 구성 요소는 다음과 같습니다.
 
-![Azure AD 응용 프로그램 프록시의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
+![Microsoft Azure AD 응용 프로그램 프록시의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
 자세한 내용은 이 [Azure AD 응용 프로그램 프록시 개요](/azure/active-directory/manage-apps/application-proxy)를 참조하세요.
 
@@ -95,7 +95,7 @@ P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치
 
 개인 디바이스와 관리되지 않는 디바이스만 사용할 수 있는 원격 작업자를 지원하려면 Azure에서 Windows Virtual Desktop을 사용하여 사용자가 집에서 사용할 가상 데스크톱을 만들고 할당합니다. 가상화된 PC는 조직 네트워크에 연결된 PC처럼 작동합니다.
 
-![Azure Windows Virtual Desktop의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
+![Azure Windows 가상 데스크톱의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
 자세한 내용은 [Windows Virtual Desktop의 개요](/azure/virtual-desktop/overview)를 참조하세요.
 

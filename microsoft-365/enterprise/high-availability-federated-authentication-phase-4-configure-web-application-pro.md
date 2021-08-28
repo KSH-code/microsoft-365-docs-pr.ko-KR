@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 1c903173-67cd-47da-86d9-d333972dda80
 description: '요약: 웹 응용 프로그램 프록시 서버의 웹 응용 프로그램 프록시 서버에 대한 고가용성 Microsoft 365 구성하는 Microsoft Azure.'
-ms.openlocfilehash: 9c67aa4b2c3583fe4e370fdc750a49d7088e0db2
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 17efeb414208afac9ce9dcb0b7136a4c962a0268
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565223"
 ---
 # <a name="high-availability-federated-authentication-phase-4-configure-web-application-proxies"></a>고가용성 페더레이션 인증 4단계: 웹 응용 프로그램 프록시 구성
 
@@ -156,7 +156,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
   
 **4단계: Azure의 고가용성 페더레이션 인증 인프라용 인터넷 부하 분산 장치 및 웹 응용 프로그램 프록시 서버**
 
-![Azure의 고가용성 Microsoft 365 프록시 서버와 함께 Azure의 고가용성 인증 인프라 4단계](../media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
+![Azure의 고가용성 Microsoft 365 프록시 서버와 함께 Azure의 페더전된 인증 인프라의 4단계](../media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
   
 ## <a name="next-step"></a>다음 단계
 

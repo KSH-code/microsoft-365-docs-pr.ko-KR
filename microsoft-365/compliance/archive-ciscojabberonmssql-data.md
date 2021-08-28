@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 MS에서 Cisco Jabber를 가져오고 보관할 커넥터를 설정하여 MS SQL 데이터를 가져오고 보관할 수 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 해당 커넥터에 Microsoft 365. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: efe624c7c3d8ac7d4d066f3a1cc055bd60550ed0ce740d5eb62a3fccaf39b5a3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a34bf267373e09f94c28bba243fb39d2ba932baf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565455"
 ---
 # <a name="set-up-a-connector-to-archive-cisco-jabber-on-ms-sql-data"></a>MS 2016에서 Cisco Jabber를 보관할 커넥터를 SQL 설정
 
@@ -29,7 +29,7 @@ Cisco Jabber 데이터가 사용자 사서함에 저장되고 나면 소송 보�
 
 다음 개요에서는 커넥터를 사용하여 Cisco Jabber를 MS SQL 데이터를 보관하는 Microsoft 365.
 
-![Cisco Jabber 데이터에 대한 보관 워크플로](../media/CiscoJabberonMSSQLConnectorWorkflow.png)
+![Cisco Jabber 데이터에 대한 보관 워크플로입니다.](../media/CiscoJabberonMSSQLConnectorWorkflow.png)
 
 1. 조직은 Cisco와 함께 MS 365에서 Cisco Jabber를 설정하고 SQL Database.
 

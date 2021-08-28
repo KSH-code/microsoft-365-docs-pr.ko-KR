@@ -20,12 +20,12 @@ ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 ms.custom:
 - seo-marvel-apr2020
 description: 사서함의 비활성 사서함 기능을 사용하여 삭제된 사서함의 콘텐츠를 Microsoft 365.
-ms.openlocfilehash: 6f533cf213f28d42dee1bb470cefaa2ced186778
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: f0e95d5853580116db6f7c48396e601058e303e3
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503170"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567775"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>비활성 사서함 만들기 및 관리
 
@@ -86,7 +86,7 @@ Microsoft 365 사서함의 내용을 보존할 수 있습니다. 이 기능을 [
 
    ![플라이아웃 페이지에 비활성 사서함에 대한 세부 정보가 표시됩니다.](../media/MCCInactiveMailboxes2.png)  
 
-검색 결과 내보내기 아이콘 내보내기 를 클릭하여 조직의 비활성 사서함에 대한 추가 정보가 포함된 CSV 파일을 보거나 다운로드할 ![ ](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png)  수 있습니다.
+검색 결과 내보내기 ![ 아이콘을 클릭할 수 있습니다.](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **내보낼** 경우 조직의 비활성 사서함에 대한 추가 정보가 포함된 CSV 파일을 보거나 다운로드할 수 있습니다.
 
 또는 PowerShell에서 다음 명령을 Exchange Online 비활성 사서함 목록을 표시할 수 있습니다.
 

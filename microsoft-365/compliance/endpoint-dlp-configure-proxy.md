@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Endpoint DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a05afb4ac8d5c66e1bbcbba0e8cd8e13b3d8a6d46c73899ea40e5205898036e4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e0de08bd27f2222589343fe66715198645fbeb29
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886042"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567463"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
 
@@ -55,13 +55,13 @@ WinHTTP 구성 설정은 Windows Internet(WinINet) 인터넷 검색 프록시 �
 
 2. **사용**(으)로 설정하고 **인증 프록시 사용 안 함** 을 선택합니다.
 
-   ![그룹 정책 설정 1의 이미지](../media/atp-gpo-proxy1.png)
+   ![그룹 정책 설정 1의 이미지.](../media/atp-gpo-proxy1.png)
 
 3. **관리 템플릿 > Windows 구성 요소 > 데이터 수집 및 미리 보기 빌드 > 연결된 사용자 환경 및 원격 메트릭** 을(를) 여십시오.
 
    프록시 구성
 
-   ![그룹 정책 설정 2의 이미지](../media/atp-gpo-proxy2.png)
+   ![그룹 정책 설정 2의 이미지.](../media/atp-gpo-proxy2.png)
 
    정책은 레지스트리 키 `HKLM\Software\Policies\Microsoft\Windows\DataCollection`에서 레지스트리 값 `TelemetryProxyServer`을(를) REG_SZ로, `DisableEnterpriseAuthProxy`을(를) REG_DWORD로 설정합니다.
 

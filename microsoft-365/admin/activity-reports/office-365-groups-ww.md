@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: 그룹 및 Microsoft 365 정보를 얻을 수 있는 그룹 보고서를 얻습니다.
-ms.openlocfilehash: f899b742cb4d7098c1b8bcf7b51563e009dcd0217c74fb71f6bc98944650c681
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8c96d0bdbc42e4cebec47bde532afd6288d29613
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816382"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564933"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 365 그룹
 
@@ -49,7 +49,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.
 
-:::image type="content" alt-text="Office 365 그룹 활동 보고서 - 열 선택" source="../../media/1600556a-f5f1-47d9-b325-cd77c78f4004.png":::
+:::image type="content" alt-text="Office 365 그룹 활동 보고서 - 열을 선택하십시오." source="../../media/1600556a-f5f1-47d9-b325-cd77c78f4004.png":::
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
 

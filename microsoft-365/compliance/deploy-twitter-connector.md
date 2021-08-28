@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Twitter 데이터를 가져오고 보관할 네이티브 커넥터를 설정하여 기본 Microsoft 365. 이 데이터를 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 Twitter 데이터의 거버넌스를 관리할 수 있습니다.
-ms.openlocfilehash: 8f78da8570c792085d87031dba917c9295417e40d7c85e8d022b41088aec69f4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 52f5e426aa2f5fe90d067879fcf39f97d435a2a1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564149"
 ---
 # <a name="deploy-a-connector-to-archive-twitter-data"></a>Twitter 데이터를 보관하는 커넥터 배포
 
@@ -30,46 +30,46 @@ ms.locfileid: "53866275"
 
 1. 으로 이동한 후 전역 관리자 계정의 자격 증명을 <https://portal.azure.com> 사용하여 로그인합니다.
 
-   ![Azure에 로그인](../media/TCimage01.png)
+   ![Azure에 로그인합니다.](../media/TCimage01.png)
 
 2. 왼쪽 탐색 창에서 **Azure Active Directory** 를 클릭합니다.
 
-   ![이동하여 Azure Active Directory](../media/TCimage02.png)
+   ![다음으로 Azure Active Directory.](../media/TCimage02.png)
 
 3. 왼쪽 탐색 창에서 앱 등록(미리 **보기)을 클릭한** 다음 새 등록 **을 클릭합니다.**
 
-   ![새 앱 등록 만들기](../media/TCimage03.png)
+   ![새 앱 등록을 생성합니다.](../media/TCimage03.png)
 
 4. 응용 프로그램을 등록합니다. URI **리디렉션(선택 사항)의** 응용 프로그램 유형 드롭다운 목록에서 웹을 선택한 다음  `https://portal.azure.com` URI의 상자에 입력합니다.
 
-   ![리디렉션 https://portal.azure.com URI 유형](../media/TCimage04.png)
+   ![리디렉션 https://portal.azure.com URI를 입력합니다.](../media/TCimage04.png)
 
 5. 응용 **프로그램(클라이언트) ID** 및 **디렉터리(테넌트) ID를** 복사하여 텍스트 파일 또는 기타 안전한 위치에 저장합니다. 이러한 ID는 이후 단계에서 사용할 수 있습니다.
 
-    ![응용 프로그램 ID 및 디렉터리 ID 복사 및 저장](../media/TCimage05.png)
+    ![응용 프로그램 ID 및 디렉터리 ID를 복사하여 저장합니다.](../media/TCimage05.png)
 
 6. 새 **앱에 &** 대한 인증서 관리로 이동하고 **클라이언트 비밀에서** 새 클라이언트 비밀 **을 클릭합니다.**
 
-   ![새 클라이언트 비밀 만들기](../media/TCimage06.png)
+   ![새 클라이언트 비밀을 생성합니다.](../media/TCimage06.png)
 
 7. 새 비밀을 만드시다. 설명 상자에 비밀을 입력한 다음 만료 기간을 선택합니다.
 
-   ![비밀을 입력하고 만료 기간 선택](../media/TCimage08.png)
+   ![비밀을 입력하고 만료 기간을 선택 합니다.](../media/TCimage08.png)
 
 8. 비밀 값을 복사하여 텍스트 파일이나 다른 저장 위치에 저장합니다. 이후 단계에서 사용하는 AAD 응용 프로그램 비밀입니다.
 
-   ![비밀 복사 및 저장](../media/TCimage09.png)
+   ![비밀을 복사하여 저장합니다.](../media/TCimage09.png)
 
 
 ## <a name="step-2-deploy-the-connector-web-service-from-github-to-your-azure-account"></a>2단계: Azure 계정으로 GitHub 커넥터 웹 서비스 배포
 
 1. 이 [사이트로 GitHub Azure에](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet) **배포를 클릭합니다.**
 
-    ![Azure 홈 페이지로 이동](../media/FBCimage11.png)
+    ![Azure 홈 페이지로 이동합니다.](../media/FBCimage11.png)
 
 2. Azure에 **배포를 클릭하면** 사용자 지정 템플릿 페이지가 있는 Azure Portal로 리디렉션됩니다. 기본 사항 **및** **설정** 입력한 다음 구매를 **클릭합니다.**
 
-   ![리소스 만들기 및 저장소 계정 유형 클릭](../media/FBCimage12.png)
+   ![리소스 만들기를 클릭하고 저장소 계정을 입력합니다.](../media/FBCimage12.png)
 
     - **구독:** Twitter 커넥터 웹 서비스를 배포할 Azure 구독을 선택합니다.
 
@@ -85,38 +85,38 @@ ms.locfileid: "53866275"
 
 3. 배포가 성공하면 페이지는 다음 스크린샷과 유사하게 표시됩니다.
 
-    ![사용자 Storage 클릭한 다음 계정 Storage 클릭합니다.](../media/FBCimage13.png)
+    ![계정 Storage 클릭한 다음 계정 Storage 클릭합니다.](../media/FBCimage13.png)
 
 ## <a name="step-3-create-the-twitter-app"></a>3단계: Twitter 앱 만들기
 
 1. 로 이동하여 조직의 개발자 계정에 대한 자격 증명을 사용하여 로그인한 다음 https://developer.twitter.com 앱을 **클릭합니다.**
 
-   ![으로 https://developer.twitter.com 이동하여 로그인](../media/TCimage25-5.png)
+   ![으로 https://developer.twitter.com 이동하여 로그인합니다.](../media/TCimage25-5.png)
 2. 앱 **만들기를 클릭합니다.**
 
-   ![앱 페이지로 이동하여 앱 만들기](../media/TCimage26.png)
+   ![앱 페이지로 이동하여 앱을 만드십시오.](../media/TCimage26.png)
 
 3. 앱 **세부 정보에서** 응용 프로그램에 대한 정보를 추가합니다.
 
-   ![앱에 대한 정보 입력](../media/TCimage27.png)
+   ![앱에 대한 정보를 입력합니다.](../media/TCimage27.png)
 
 4. Twitter 개발자 대시보드에서 방금 만든 앱을 선택하고 세부 **정보를 클릭합니다.**
 
-   ![앱 ID 복사 및 저장](../media/TCimage28.png)
+   ![앱 ID를 복사하여 저장합니다.](../media/TCimage28.png)
 
 5. 키 및 **토큰** 탭의 소비자 API 키 아래에서 **API** 키와 API 비밀 키를 모두 복사하여 텍스트 파일 또는 다른 저장소 위치에 저장합니다. 그런 다음 **만들기를** 클릭하여 액세스 토큰 및 액세스 토큰 비밀을 생성하고 이를 텍스트 파일 또는 다른 저장소 위치에 복사합니다.
 
-   ![API 비밀 키 복사 및 저장](../media/TCimage29.png)
+   ![API 비밀 키를 복사하여 저장합니다.](../media/TCimage29.png)
 
    그런 다음 **만들기를** 클릭하여 액세스 토큰 및 액세스 토큰 비밀을 생성하고 이를 텍스트 파일 또는 다른 저장소 위치에 복사합니다.
 
 6. 사용 권한 **탭을** 클릭하고 다음 스크린샷과 같이 사용 권한을 구성합니다.
 
-   ![사용 권한 구성](../media/TCimage30.png)
+   ![사용 권한을 구성합니다.](../media/TCimage30.png)
 
 7. 사용 권한 설정을 저장한  후 앱 세부 정보 탭을 클릭한 다음 편집을 > **클릭합니다.**
 
-   ![앱 세부 정보 편집](../media/TCimage31.png)
+   ![앱 세부 정보를 편집합니다.](../media/TCimage31.png)
 
 8. 다음 작업을 수행합니다.
 
@@ -124,7 +124,7 @@ ms.locfileid: "53866275"
 
    - **\<connectorserviceuri> /Views/TwitterOAuth** 형식을 사용하여 OAuth 리디렉션 Uri를 추가합니다. 여기서 *connectorserviceuri* 값은 조직의 Azure 앱 서비스 URL입니다(예: https://twitterconnector.azurewebsites.net/Views/TwitterOAuth ).
 
-    ![커넥터 앱이 Twitter에 로그인하고 OAuth 리디렉션 Uri를 추가하도록 허용](../media/TCimage32.png)
+    ![커넥터 앱이 Twitter에 로그인하고 OAuth 리디렉션 Uri를 추가할 수 있도록 허용합니다.](../media/TCimage32.png)
 
 이제 Twitter 개발자 앱을 사용할 준비가 완료되었습니다.
 
@@ -132,7 +132,7 @@ ms.locfileid: "53866275"
 
 1. \<AzureAppResourceName>.https:// .azurewebsites.net(여기서 **AzureAppResourceName은** 4단계에서 명명한 Azure 앱 리소스의 이름)로 이동하십시오. 예를 들어 이름이 **twitterconnector이면** 로 https://twitterconnector.azurewebsites.net 이동하세요. 앱의 홈 페이지는 다음 스크린샷과 같습니다.
 
-   ![Azure 앱 리소스 페이지로 이동](../media/FBCimage41.png)
+   ![Azure 앱 리소스 페이지로 이동합니다.](../media/FBCimage41.png)
 
 2. **구성을** 클릭하여 로그인 페이지를 표시합니다.
 
@@ -140,7 +140,7 @@ ms.locfileid: "53866275"
 
 3. 테넌트 ID 상자에 테넌트 ID(2단계에서 획득한)를 입력하거나 붙여넣습니다. 암호 상자에 APISecretKey(2단계에서 획득)를 입력하거나 붙여넣은 다음 구성 설정 설정 클릭하여 구성 **세부 정보** 페이지를 표시합니다.
 
-   ![테넌트 ID 및 API 비밀 키를 사용하여 로그인](../media/TCimage35.png)
+   ![테넌트 ID 및 API 비밀 키를 사용하여 로그인합니다.](../media/TCimage35.png)
 
 4. 다음 구성 설정을 입력합니다.
 
@@ -170,7 +170,7 @@ ms.locfileid: "53866275"
 
 5. 커넥터 **앱에 대한** 자격 증명 추가 페이지에서 다음 정보를 입력하고 연결 유효성 **검사를 클릭합니다.**
 
-   ![커넥터 앱 자격 증명 입력](../media/TCimage38.png)
+   ![커넥터 앱 자격 증명을 입력합니다.](../media/TCimage38.png)
 
     - 이름 **상자에** Twitter 도움말 핸들과 같은 **커넥터의 이름을 입력합니다.**
 
@@ -188,7 +188,7 @@ ms.locfileid: "53866275"
 
 9. Twitter 로그인 페이지에서 조직의 Twitter 계정에 대한 자격 증명을 사용하여 로그인합니다.
 
-   ![Twitter 계정에 로그인](../media/TCimage42.png)
+   ![Twitter 계정에 로그인합니다.](../media/TCimage42.png)
 
    로그인하면 Twitter 페이지에 "Twitter Connector Job Successfully set up"이 표시됩니다.
 

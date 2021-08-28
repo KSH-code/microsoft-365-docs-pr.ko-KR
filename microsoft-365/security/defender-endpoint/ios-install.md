@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cf043741e2d066c8eaa7c4919b194a6ffd6d857d
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.openlocfilehash: 8683631adeb0f7e6090dafae36c075edacd7cc14
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684031"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563953"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>iOS에서 끝점용 Microsoft Defender 배포
 
@@ -122,7 +122,7 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
    > [!NOTE]
    > 감독되는 장치에 대한 이 앱 구성 정책은 관리되는 장치에만 적용될 수 있으며 모범 사례로 관리되는 모든 iOS 장치를 대상으로 해야 합니다.
 
-1. Microsoft Endpoint Manager 관리 센터에 [로그인하고](https://go.microsoft.com/fwlink/?linkid=2109431) 앱 앱  구성 정책 추가 \> **로** \> **이동하세요.** 관리되는 **장치를 클릭합니다.**
+1. Microsoft Endpoint Manager 관리 센터에 [로그인하고](https://go.microsoft.com/fwlink/?linkid=2109431) 앱 앱 구성 정책 추가  >  **로**  >  **이동하세요.** 관리되는 **장치를 클릭합니다.**
 
     > [!div class="mx-imgBorder"]
     > ![관리 Microsoft Endpoint Manager 이미지입니다.](images/ios-deploy-4.png)
@@ -139,7 +139,7 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
     - 구성 키: issupervised
     - 값 형식: String
     - 구성 값: {{issupervised}}
-
+    
     > [!div class="mx-imgBorder"]
     > ![관리 센터 Microsoft Endpoint Manager 이미지입니다.](images/ios-deploy-6.png)
 

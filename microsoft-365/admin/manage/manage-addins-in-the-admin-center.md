@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 중앙 집중식 추가 기능을 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 학습합니다.
-ms.openlocfilehash: a6eb234f9911b13616483456ef67866b99b4dee39fca90c2b16b272de2a85d62
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4dd2cbc842d10770b544df014685173a8888df67
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825376"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566273"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 관리
 
@@ -41,7 +41,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 
 추가 기능의 상태는 **On** 또는 **Off 상태일 수** 있습니다.
   
-| 상태 | 상태가 적용되는 경우 | 영향 |
+| 시/도 | 상태가 적용되는 경우 | 영향 |
 |:-----|:-----|:-----|
 |**활성**  <br/> |관리자가 추가 기능을 업로드하고 사용자 또는 그룹에 할당했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹은 관련 클라이언트에서 추가 기능을 볼 수 있습니다.  <br/> |
 |**해제됨**  <br/> |관리자가 추가 기능을 해제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> 추가 기능 상태가 활성으로 변경되면 사용자 및 그룹이 추가 기능에 다시 액세스할 수 있습니다.  <br/> |
@@ -105,7 +105,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
         
       - Windows
       - Mac
-      - Office
+      - 사무실
         
         
     - **AppSource** 내에서 시작하여 취득
@@ -140,7 +140,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
   
 추가 기능이 추가 기능 명령을 지원하는 경우 명령은 Office 리본에 나타납니다. 다음 예에서는 **인용 검색** 명령이 **인용** 추가 기능에 나타납니다. 
 
-![Office 인용이 있는 리본 메뉴](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
+![Office 인용이 있는 리본 메뉴를 탐색합니다.](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   
 배포된 추가 기능에서 추가 기능 명령을 지원하지 않는 경우 또는 배포된 모든 추가 기능을 보거나 내 추가 기능을 통해 볼 **수 있습니다.** 
   
@@ -152,13 +152,13 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
     
 3. 앞에서 배포한 추가 기능(이 예에서는 **인용)을** 두 번 클릭합니다.
 
-    ![추가 기능 Office 관리 탭](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
+    ![추가 기능 페이지의 관리 Office 탭입니다.](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
   
 ### <a name="in-outlook"></a>Outlook의 경우
 
 1. 홈 **리본에서** 추가 기능 **사용 을 선택합니다.**
 
-    ![Outlook의 스토어 단추](../../media/getaddinsicon.png)
+    ![저장소 단추를 Outlook.](../../media/getaddinsicon.png)
   
 2. 왼쪽 탐색기에서 **관리되는 관리자** 를 선택합니다. 
 

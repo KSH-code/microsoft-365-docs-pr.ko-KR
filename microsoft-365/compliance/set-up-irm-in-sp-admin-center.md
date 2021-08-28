@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: SharePoint RMS(권한 관리 서비스)를 통해 Microsoft Azure Active Directory 온라인 IRM을 사용하여 SharePoint 라이브러리를 보호하는 방법을 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e79e9bb81a7c328d90e46bdbfa5103f4c399ddcb36e5baad3eab20c140a114df
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 32424165be24614a43f44d78791ffac334969bed
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830473"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565385"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>SharePoint 관리 센터의 IRM(정보 권한 관리) 설정
 
@@ -37,7 +37,7 @@ SharePoint Online에서 IRM 보호가 목록 및 라이브러리 수준의 파�
   
 1. 전역 관리자 또는 관리자로 SharePoint 로그인합니다.
     
-2. 왼쪽 위에서 앱 시작 관리자 아이콘 ![The app launcher icon in Office 365](../media/e5aee650-c566-4100-aaad-4cc2355d909f.png)을 선택하고 **관리자** 를 선택하여 Microsoft 365 관리 센터를 엽니다. (관리 타일이 없는 경우 조직에 관리자 권한이 없습니다.) 
+2. 앱 시작 프로그램 아이콘 앱 시작 프로그램 아이콘을 ![ Office 365.](../media/e5aee650-c566-4100-aaad-4cc2355d909f.png) 에서 왼쪽 위에 있는 **관리자를** 선택하고 관리자를 Microsoft 365 관리 센터. (관리 타일이 없는 경우 조직에 관리자 권한이 없습니다.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint.**
     

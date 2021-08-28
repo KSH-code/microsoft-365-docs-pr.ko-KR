@@ -18,12 +18,12 @@ search.appverid:
 - PJU120
 - PJW120
 description: 2021년 4월 13일 Project Server 2010에 대한 지원이 종료됩니다. 이 문서를 가이드로 사용하여 Project Online 또는 최신 버전의 Project 서버로 업그레이드할 수 있습니다.
-ms.openlocfilehash: ec8046589fb1691ca0feb4791d174587b33eb8c9cb2c51f720292fb2e3561f12
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1c5b942e50a137c1ecc32f08c481811ef4edf779
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904754"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567859"
 ---
 # <a name="project-server-2010-end-of-support-roadmap"></a>Project Server 2010 지원 종료 로드맵
 
@@ -62,7 +62,7 @@ Project Server 2010은 **2021년 4월 13일** 지원이 종료됩니다. 이 날
 
 다음은 Project 서버 2010에 대한 지원이 종료되지 않도록 할 수 있는 두 가지 경로입니다.
 
-![Project Server 2010 업그레이드 경로](../media/project-server-2010-end-of-support/project-server-2010-end-of-support-timeline.png)
+![Project Server 2010 업그레이드 경로입니다.](../media/project-server-2010-end-of-support/project-server-2010-end-of-support-timeline.png)
 
 |Server 2019로 마이그레이션하는 Project 이유는 무엇입니까?|마이그레이션을 선호하는 이유는 Project Online?|
 |---|---|
@@ -227,7 +227,7 @@ Project Server 2016 Server 2019로 업그레이드하기 위해 Project 필요�
 
 Office 2010 클라이언트 및 서버와 Windows 7에 대한 업그레이드, 마이그레이션 및 클라우드 옵션으로 이동에 대한 시각적 요약은 [지원 종료 포스터](../downloads/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
 
-[![Office 2010 클라이언트 및 서버 및 Windows 포스터 지원 종료](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![2010 클라이언트 및 Office 지원 종료 및 Windows 7 포스터.](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
 이 포스터는 기본 경로 및 옵션 지원이 강조 표시된 Office 2010 클라이언트 및 서버 제품 및 Windows 7에 대한 지원이 종료되지 않도록 방지하기 위해 취할 수 있는 다양한 Microsoft 365 Enterprise 보여 주며,
 

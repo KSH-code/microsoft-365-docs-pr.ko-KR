@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에서 Yammer 그룹 활동 보고서를 통해 조직에서 만들어 Yammer 그룹 수와 해당 활동을 알 수 있습니다.
-ms.openlocfilehash: ee547e6da465cd36d62f62043c9364350352bc5a6b19da631a9e56071ef9d679
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 18ed4519a0f7859d8084f2144a58f4a726db530a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816165"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564749"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>Microsoft 365 관리 센터의 보고서 - Yammer 활동 보고서
 
@@ -44,7 +44,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 그룹 활동 탭을 선택하여 그룹 Yammer 볼 **수** 있습니다.<br/>![Microsoft 365 보고서 - Microsoft Yammer 그룹 활동 보고서.](../../media/3afdafe5-9269-402e-8264-c7695ceb227d.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Yammer 그룹 활동 보고서 - 열 선택](../../media/54744932-34fe-48c3-9779-1d10c3f05be1.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Yammer 그룹 활동 보고서 - 열을 선택하십시오.](../../media/54744932-34fe-48c3-9779-1d10c3f05be1.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
   

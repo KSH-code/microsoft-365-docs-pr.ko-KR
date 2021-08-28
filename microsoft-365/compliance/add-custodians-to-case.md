@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 워크플로를 조정하고 관련 데이터 원본을 식별하기 위해 Advanced eDiscovery 기본 제공 관리 도구를 사용하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3fc08eb6602331ef12cba45ed5106cf692272a8f80537a2cd73fc6bd357efd2f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3c5adf4b51cbb9898b0b4f7bc806c1392453c526
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53837231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564245"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>추가한 사례에 Advanced eDiscovery 추가
 
@@ -38,7 +38,7 @@ Advanced eDiscovery 기본 제공 관리 도구를 사용하여 보호자를 관
 
 4. Custodians를 검토하고 프로세스를 완료합니다.
 
-   [![원본 사례의 Advanced eDiscovery 탭 ](../media/AeD-Sources-Tab.png)](../media/AeD-Sources-Tab.png#lightbox)
+   [![원본 사례의 Advanced eDiscovery 탭입니다. ](../media/AeD-Sources-Tab.png)](../media/AeD-Sources-Tab.png#lightbox)
 
 ## <a name="make-sure-you-have-the-necessary-permissions"></a>필요한 사용 권한이 있는지 확인
 
@@ -68,7 +68,7 @@ Advanced eDiscovery 기본 제공 관리 도구를 사용하여 보호자를 관
 
 2. 사서함 **또는**  OneDrive  옆의 지우기를 선택하여 이 OneDrive 계정이 데이터 위치로 연결되지 못하게 제거합니다.
 
-   ![관리인과 연결하도록 위치 구성](../media/ConfigureCustodianLocations.png)
+   ![위치를 구성하여 관리인과 연결합니다.](../media/ConfigureCustodianLocations.png)
 
 다른 사서함, 사이트, Teams 또는 Yammer 그룹을 특정 Yammer 연결합니다.
 
@@ -114,4 +114,4 @@ Advanced eDiscovery 기본 제공 관리 도구를 사용하여 보호자를 관
 
    새 보호자는 사례에 추가되고 데이터 원본 **탭에** 표시됩니다.
 
-   [![데이터 원본 탭에 나열된 보호자 ](../media/DataSourcesTab.png)](../media/DataSourcesTab.png#lightbox)
+   [데이터 원본 탭에 나열된 ![ 보호자입니다. ](../media/DataSourcesTab.png)](../media/DataSourcesTab.png#lightbox)

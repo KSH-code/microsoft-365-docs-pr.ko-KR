@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f504ac86dcef68bf4427819babea119b2418512bee59e169ffd72e51a6dd92dd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5436494d8d94097e15f67e3b568727fe510113ef
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873466"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565717"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>인시던트 우선 순위를 Microsoft 365 Defender
 
@@ -42,7 +42,7 @@ Microsoft 365 Defender 상관 관계 분석을 적용하고 다양한 제품의 
 
 인시던트 및  인시던트 & 포털(>)의 빠른 실행에서 인시던트 Microsoft 365 Defender 큐로[security.microsoft.com.](https://security.microsoft.com) 다음은 예입니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예입니다.":::
 
 최근 **인시던트** 및 알림 섹션에는 지난 24시간 동안 수신된 경고 및 인시던트 수의 그래프가 표시됩니다.
 
@@ -63,14 +63,14 @@ Microsoft 365 Defender 상관 관계 분석을 적용하고 다양한 제품의 
 
 기본 인시던트 큐에서  필터를 선택하여 필터링된 인시던트 집합을 볼 수 있는 필터 창을 볼 수 있습니다. 예를 들면 다음과 같습니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-filters.png" alt-text="인시던트 큐에 대한 필터 창의 예":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-filters.png" alt-text="문제 큐에 대한 필터 창의 예입니다.":::
 
 다음 표에는 사용 가능한 필터 이름이 나열되어 있습니다.
 
 | 필터 이름 | 설명 |
 |:-------|:-----|
 | 할당된 사용자 | 사용자에게 할당된 경고 또는 자동화에서 처리하는 경고를 표시하기로 선택할 수 있습니다. |
-| 분류 | 범주를 선택해 특정 전략, 기술 또는 공격 구성 요소에 집중합니다. |
+| Categories | 범주를 선택해 특정 전략, 기술 또는 공격 구성 요소에 집중합니다. |
 | 분류 | 관련 경고의 설정된 분류에 따라 인시던트 필터링 값에는 실제 경고, 거짓 경고 또는 설정되지 않은 알림이 포함됩니다. |
 | 데이터 민감도 | 일부 공격은 민감하거나 가치있는 데이터 수집을 목적으로 합니다.  필터를 적용하여 민감한 데이터가 사건에 연루되었는지를 확인한 후 민감 정보의 누출 여부를 결정하고 해당 사고의 우선순위를 결정할 수 있습니다.   <br><br> Microsoft Threat Protection이 설정 된 경우에만 적용 됩니다.|
 | 장치 그룹 | 정의된 장치 그룹으로 필터링합니다. |

@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9a9b682307c9891aab8e73496916205368734b369ecea2f6e43d73f2c2640fbf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 977cd2d099d9c5be7fc0db9ef61f31f28afdc9fe
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56884527"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563769"
 ---
 # <a name="add-allows-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에 허용 추가
 
@@ -40,7 +40,7 @@ ms.locfileid: "56884527"
 
 1. Microsoft 365 Defender 포털에서 전자 메일 &  \> **제출로 이동하세요.**
 
-2. 제출 **페이지에서** 분석용 **제출** 탭이 선택되어 있는지 확인한 다음 분석을 위해 Microsoft에 광고 아이콘 ![ ](../../media/m365-cc-sc-create-icon.png) **제출을 클릭합니다.**
+2. 제출 **페이지에서** 분석용 **제출** 탭이 선택되어 있는지 확인한 다음 광고 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **분석을 위해 Microsoft에 제출합니다.**
 
 3. 검토 **플라이아웃을 위해 Microsoft에** 제출을 사용하여 보낸 사람, 파일 또는 URL을 가음성으로 표시합니다. 
 
@@ -53,11 +53,11 @@ ms.locfileid: "56884527"
 7. 완료되면 제출 **단추를** 클릭합니다.
 
 > [!div class="mx-imgBorder"]
-> ![가짓 긍정 제출 예제](../../media/admin-submission-allow-messages.png)
+> ![가짓 긍정 제출 예제입니다.](../../media/admin-submission-allow-messages.png)
 
 ## <a name="create-spoofed-sender-allow-entries-using-microsoft-365-defender"></a>스푸핑된 보낸 사람 허용 항목을 Microsoft 365 Defender
 
-**참고:**
+**참고**:
 
 - _스푸핑된_ 사용자와 도메인  쌍에 정의된 전송 인프라의 조합만 스푸핑을 특별히 허용하거나 차단합니다.
 - 도메인 쌍에 대해 허용 또는 차단 항목을 구성하면 해당 도메인 쌍의 메시지가 더 이상 스푸핑 인텔리전스 인사이트에 나타나지 않습니다.
@@ -66,7 +66,7 @@ ms.locfileid: "56884527"
 
 1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
 
-2. **테넌트 허용/차단 목록** 페이지에서  스푸핑 탭을 선택한 다음 차단 아이콘 추가를 ![ ](../../media/m365-cc-sc-create-icon.png) **클릭합니다.**
+2. **테넌트 허용/차단 목록** 페이지에서  스푸핑 탭을 선택한 다음 차단 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **추가** 합니다.
 
 3. 나타나는 **새 도메인** 쌍 추가 플라이아웃에서 다음 설정을 구성합니다.
    - **와일드카드를 통해** 새 도메인 쌍 추가: 한 줄에 도메인 쌍을 하나씩 입력하고 최대 20개까지 입력합니다. 스푸핑된 보낸 사람 항목에 대한 구문에 대한 자세한 내용은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)

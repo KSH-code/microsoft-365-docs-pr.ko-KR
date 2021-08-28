@@ -14,12 +14,12 @@ audience: ITPro
 ms.topic: conceptual
 ms.technology: mde
 ROBOTS: NOINDEX
-ms.openlocfilehash: b8e44aa81c0985b296d0f19b8ead2e6251b53c1c
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 6ad51065ca4e919fe51cc4a2d5f4b0d53bc474b1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533342"
+ms.locfileid: "58566713"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법
 
@@ -85,7 +85,7 @@ Endpoint 고급 헌팅 쿼리에 대한 Defender의 예는 Microsoft [Defender f
 
 위의 모든 컨트롤은 Intune 관리 템플릿 을 [통해 설정할 수 있습니다.](/intune/administrative-templates-windows) 관련 정책은 Intune 관리자 템플릿에 있습니다.
 
-![관리 템플릿 목록의 스크린샷](images/admintemplates.png)
+![관리자 템플릿 목록의 스크린샷.](images/admintemplates.png)
 
 > [!NOTE]
 > Intune을 사용하여 Azure AD 사용자 및/또는 장치 그룹에 장치 구성 정책을 적용할 수 있습니다.
@@ -108,11 +108,11 @@ USB 드라이브 및 기타 주변 장치 설치 및 사용을 허용하는 한 
 
 장치 설치 허용 정책을 구성할 때 모든 상위 특성도 허용해야 합니다. 장치 관리자를 열고 연결로 보기를 통해 디바이스의 부모를 볼 수 있습니다.
 
-![연결로 장치](images/devicesbyconnection.png)
+![연결 장치.](images/devicesbyconnection.png)
 
 이 예제에서는 HID, 키보드 및 {36fc9e60-c465-11cf-8056-444553540000}을 추가해야 했습니다. 자세한 [내용은 Microsoft에서 제공하는 USB](/windows-hardware/drivers/usbcon/supported-usb-classes) 드라이버를 참조하세요.
 
-![디바이스 호스트 컨트롤러](images/devicehostcontroller.jpg)
+![디바이스 호스트 컨트롤러.](images/devicehostcontroller.jpg)
 
 특정 장치로 제한하려면 제한할 주변 장치의 장치 설정 클래스를 제거합니다. 그런 다음 추가할 장치 ID를 추가합니다. 장치 ID는 장치의 공급업체 ID 및 제품 ID 값을 기반으로 합니다. 장치 ID 형식에 대한 자세한 내용은 [표준 USB 식별자를 참조하세요.](/windows-hardware/drivers/install/standard-usb-identifiers)
 
@@ -139,11 +139,11 @@ USB 드라이브 및 기타 주변 장치 설치 및 사용을 허용하는 한 
 
 1. [설치하지](#look-up-device-id) 못하도록 할 디바이스에 Windows ID를 찾아보아야 합니다.
 
-   ![공급업체 또는 제품 ID 찾아 보기](images/lookup-vendor-product-id.png)
+   ![공급업체 또는 제품 ID를 찾아 봐야 합니다.](images/lookup-vendor-product-id.png)
 
 2. 이러한 **장치 신원과** 일치하는 장치 설치 금지를 사용하도록 설정하고 목록에 공급업체 또는 제품 ID를 추가합니다.
 
-    ![목록을 방지하는 공급업체 ID 추가](images/add-vendor-id-to-prevent-list.png)
+    ![목록을 방지하는 공급업체 ID를 추가합니다.](images/add-vendor-id-to-prevent-list.png)
 
 #### <a name="look-up-device-id"></a>장치 ID 보기
 
@@ -175,7 +175,7 @@ Get-WMIObject -Class Win32_DiskDrive | Select-Object -Property *
 2. 이러한 **장치 설정** 클래스와 일치하는 드라이버를 사용하여 디바이스 설치 방지를 사용하도록 설정하고 클래스 GUID를 목록에 추가합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![목록을 방지하려면 장치 설정 클래스 추가](images/Add-device-setup-class-to-prevent-list.png)
+    > ![목록을 방지하려면 장치 설정 클래스를 추가합니다.](images/Add-device-setup-class-to-prevent-list.png)
 
 ### <a name="block-installation-and-usage-of-removable-storage"></a>이동식 저장소 설치 및 사용 차단
 
@@ -184,7 +184,7 @@ Get-WMIObject -Class Win32_DiskDrive | Select-Object -Property *
 2. 장치 **구성** \> **프로필 프로필** \> **만들기를 클릭합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![장치 구성 프로필 만들기](images/create-device-configuration-profile.png)
+    > ![장치 구성 프로필을 생성합니다.](images/create-device-configuration-profile.png)
 
 3. 다음 설정을 사용합니다.
    - 이름: 프로필의 이름을 입력합니다.
@@ -193,13 +193,13 @@ Get-WMIObject -Class Win32_DiskDrive | Select-Object -Property *
    - 프로필 유형: 장치 제한
 
    > [!div class="mx-imgBorder"]
-   > ![프로필 만들기](images/create-profile.png)
+   > ![프로필을 만듭니다.](images/create-profile.png)
 
 4. 일반 **구성을** \> **클릭합니다.**
 
 5. 이동식 **저장소 및** **USB 연결(모바일 전용)의** 경우 차단 을 **선택하십시오.** **이동식 저장소에는** USB 드라이브가 포함되어 있지만 **USB 연결(모바일** 전용)은 USB 충전을 제외하지만 모바일 장치에서만 다른 USB 연결을 포함합니다.
 
-   ![일반 설정](images/general-settings.png)
+   ![일반 설정.](images/general-settings.png)
 
 6. **확인을** 클릭하여 일반 설정 **및** 장치 **제한을 닫습니다.**
 
@@ -236,7 +236,7 @@ Get-WMIObject -Class Win32_DiskDrive | Select-Object -Property *
 Intune을 사용하여 "허용된 서비스" 를 통해 Bluetooth 수 있는 Bluetooth [수 있습니다.](/windows/client-management/mdm/policy-csp-bluetooth#servicesallowedlist-usage-guide) "허용된 Bluetooth" 설정의 기본 상태는 모든 것이 허용되는 것을 의미합니다.  서비스가 추가되는 즉시 허용되는 목록이 됩니다. 고객이 키보드 및 마우스 값을 추가하고 파일 전송 GUID를 추가하지 않는 경우 파일 전송이 차단됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![Bluetooth 설정 페이지의 스크린샷](images/bluetooth.png)
+> ![Bluetooth 페이지의 스크린샷.](images/bluetooth.png)
 
 ## <a name="prevent-threats-from-removable-storage"></a>이동식 저장소의 위협 방지
 
@@ -296,20 +296,20 @@ USB에서 실행된 트러블되지 않은 프로세스와 부호 없는 프로�
 
 2. 구성 **정책** \> **Windows** \> **만들기** \> **를 클릭합니다.**
 
-    ![장치 구성 프로필 만들기](images/create-device-configuration-profile.png)
+    ![장치 구성 프로필을 생성합니다.](images/create-device-configuration-profile.png)
 
 3. 다음 설정을 사용합니다.
    - 플랫폼: Windows 10 이상
    - 프로필 유형: 장치 제한
 
    > [!div class="mx-imgBorder"]
-   > ![끝점 보호 프로필 만들기](images/create-endpoint-protection-profile.png)
+   > ![끝점 보호 프로필을 만들 수 있습니다.](images/create-endpoint-protection-profile.png)
 
 4. **만들기** 를 클릭합니다.
 
 5. USB에서 **실행된** 부호 없는 프로세스 및 트러블되지 않은 프로세스의 경우 차단 을 **선택하십시오.**
 
-   ![트러블되지 않은 프로세스 차단](images/block-untrusted-processes.png)
+   ![트러블되지 않은 프로세스를 차단합니다.](images/block-untrusted-processes.png)
 
 6. **확인을** 클릭하여 설정 및 장치 **제한을 닫습니다.**
 

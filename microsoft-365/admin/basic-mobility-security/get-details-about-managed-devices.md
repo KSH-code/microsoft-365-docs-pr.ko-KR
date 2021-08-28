@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 조직의 Windows PowerShell 모바일 및 보안 장치에 대한 세부 정보를 얻습니다.
-ms.openlocfilehash: 1d34f1b1dbb96227affffd31d794b7d0244298e25e3080ea08dcd3380399db4d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 231eeb87d3f72ca4107c0ee6bef5bd60c713bb3f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826813"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564468"
 ---
 # <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>기본 모바일 및 보안 관리 장치에 대한 세부 정보 확인
 
@@ -36,7 +36,7 @@ ms.locfileid: "53826813"
 |장치가 기본 모바일 및 보안에 등록됩니다. 자세한 내용은 기본 모바일 및 보안을 사용하여 모바일 장치 [등록을 참조하세요.](enroll-your-mobile-device.md)| *isManaged* 매개   변수의 값은 다음입니다.<br/>**True**= 장치가 등록됩니다.<br/>**False**= 장치가 등록되지 않습니다. |
 |장치가 장치 보안 정책을 준수합니다. 자세한 내용은 장치 보안 [정책 만들기를 참조하세요.](create-device-security-policies.md)| *isCompliant* 매개 변수의   값은 다음입니다.<br/>**True**   = 장치가 정책을 준수합니다.<br/>**False**   = 장치가 정책을 준수하지 않습니다.|
 
-:::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="기본 Mobility and Security PowerShell 매개 변수":::
+:::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="기본 Mobility and Security PowerShell 매개 변수입니다.":::
 
 > [!NOTE]
 > 이 문서의 명령 및 스크립트는 또한 에서 관리하는 모든 장치에 대한 세부 [Microsoft Intune.](https://www.microsoft.com/cloud-platform/microsoft-intune)

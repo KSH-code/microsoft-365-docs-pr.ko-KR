@@ -19,12 +19,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 조직 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: b532d8c189598db941f3ced4095b910cfc6f0668
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 3cb5b34d869ae16faa89ced45d54537fbb07a5e2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394327"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564444"
 ---
 # <a name="manage-devices-enrolled-in-mobile-device-management-in-microsoft-365"></a>모바일 장치에서 모바일 장치 관리에 등록된 Microsoft 365
 
@@ -40,7 +40,7 @@ iPhone, iPad Microsoft 365 Androids 및 휴대폰과 같은 사용자의 모바�
 
 2. 검색 필드에 모바일 장치 관리를 입력하고 결과 목록에서 **모바일** 장치 관리를   선택합니다.
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-6-mobile-device-management-option.png" alt-text="모바일 장치 관리 옵션":::
+    :::image type="content" source="../../media/basic-mobility-security/bms-6-mobile-device-management-option.png" alt-text="모바일 장치 관리 옵션입니다.":::
 
 3. 시작  **을 선택합니다.**
 

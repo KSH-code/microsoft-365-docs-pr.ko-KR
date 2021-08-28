@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: MIP(Microsoft Information Protection)를 구현하여 중요한 정보를 어디에서나 보호할 수 있습니다.
-ms.openlocfilehash: 76e2da01dd9fbcbb7d053b61b515aeb998d86c5147893a822dfa2695e43f58a4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8b576ca7f6fd3914d160592c0d1e34d20c3bdcc1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53860791"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567439"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 Microsoft Information Protection
 
@@ -33,7 +33,7 @@ MIP(Microsoft Information Protection)를 구현하면 중요한 정보를 언제
 
 MIP 기능은 Microsoft 365 규정 준수에 포함되어 있으며, [데이터 파악](#know-your-data), [데이터 보호](#protect-your-data) 및 [데이터 손실 방지](#prevent-data-loss)를 위한 도구를 제공합니다.
 
-![MIP를 통해 중요한 데이터를 검색, 분류 및 보호하는 방법에 대한 이미지](../media/powered-by-intelligent-platform.png)
+![MIP를 통해 중요한 데이터를 검색, 분류 및 보호하는 방법에 대한 이미지.](../media/powered-by-intelligent-platform.png)
 
 데이터 관리에 대한 자세한 내용은 [Microsoft 365에서 Microsoft 정보 관리](manage-Information-governance.md)를 참조합니다.
 

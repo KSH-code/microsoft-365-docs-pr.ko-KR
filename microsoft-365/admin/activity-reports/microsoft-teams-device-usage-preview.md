@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft Teams 보고서에서 Microsoft Teams 앱 사용 현황 보고서를 확인하여 조직에서 사용되는 Microsoft 365 정보를 얻습니다.
-ms.openlocfilehash: 6691520f7fc2f05f58d83ea97ab07f1f0bfeb144fc6b6bd9036e0773be10bb78
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a64664c6d9e78499501d16f56b41aa9be6058eaa
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53797803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565003"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft Teams 사용 현황
 
@@ -44,7 +44,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 장치 사용 탭을 선택하여 Teams 보고서에서 장치 사용을 볼 **수** 있습니다.<br/>![Microsoft 365 - Microsoft Teams 사용 현황을 확인합니다.](../../media/e46c7f7c-8371-4a20-ae82-b20df64b0205.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Teams 장치 보고서 - 열 선택](../../media/3358d5d9-931b-4d30-931f-450b2f5717da.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Teams 장치 보고서 - 열을 선택하십시오.](../../media/3358d5d9-931b-4d30-931f-450b2f5717da.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
 

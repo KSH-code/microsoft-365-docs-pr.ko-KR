@@ -19,12 +19,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 사용하여 조직 정보를 보호하는 장치 정책을 만들 수 있습니다.
-ms.openlocfilehash: 8c6731b6f206b8c30f0d2abfa0d61d251658c3401ab37042a1b6ba31f0df00c4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9792a936f2f209eabb4da9ce725e611ef3766526
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827005"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564517"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 보안 정책 만들기
 
@@ -94,7 +94,7 @@ ms.locfileid: "53827005"
 2. 조직 **전체 장치 액세스 설정 관리를 선택합니다.**
 3. 지원되지 않는 장치를 차단하려면  디바이스가 기본 모바일 및 보안에서 지원되지 않는 경우 에서 차단을 선택하고 Microsoft 365 **를 선택합니다.**
 
-   :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="기본 모바일 및 보안 차단 액세스 옵션":::
+   :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="기본 모바일 및 보안 차단 액세스 옵션입니다.":::
 
 ## <a name="step-5-choose-security-groups-to-be-excluded-from-conditional-access-checks"></a>5단계: 조건부 액세스 검사에서 제외할 보안 그룹 선택
 
@@ -104,7 +104,7 @@ ms.locfileid: "53827005"
 
 2. 조직 **전체 장치 액세스 설정 관리를 선택합니다.**
 
-   :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="기본 모바일 및 보안 정책 만들기 옵션":::
+   :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="기본 모바일 및 보안 정책 옵션을 만들 수 있습니다.":::
 
 3. **추가를** 선택하여 보안 그룹에 대한 액세스가 차단되지 않고 제외하려는 사용자가 있는 보안 그룹을 Microsoft 365. 사용자가 이 목록에 추가된 경우 지원되지 않는 장치를 Microsoft 365 전자 메일에 액세스할 수 있습니다.
 
@@ -114,7 +114,7 @@ ms.locfileid: "53827005"
 
 6. 조직 전체 **장치 액세스** 설정 패널에서 저장 을 **선택합니다.**
 
-   :::image type="content" source="../../media/basic-mobility-security/bms-8-allow-access.png" alt-text="기본 모바일 및 보안 허용 액세스 옵션":::
+   :::image type="content" source="../../media/basic-mobility-security/bms-8-allow-access.png" alt-text="기본 이동성 및 보안 허용 액세스 옵션입니다.":::
 
 ## <a name="what-is-the-impact-of-security-policies-on-different-device-types"></a>보안 정책이 여러 장치 유형에 미치는 영향은 무엇입니까?
 

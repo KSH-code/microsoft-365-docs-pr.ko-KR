@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: fcf3e170752cfc31c2117b51b9be9fba719db30c
-ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
+ms.openlocfilehash: d49446ff602c0354ee7702c9f8325f5cc5fa0409
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58392084"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564173"
 ---
 # <a name="communication-compliance-feature-reference"></a>커뮤니케이션 규정 준수 기능 참조
 
@@ -94,7 +94,7 @@ Microsoft 365 규정 준수 센터에서 Microsoft 365 조직에 대한 커뮤�
 - 정책을 검사하여 과도한 가짓 긍정 경고를 검사합니다. 일반적인 가짓 긍정 경고를 무시하기 위해 정책 조건에 예외 또는 변경 내용을 추가하는 것을 고려합니다.
 - 정책이 저장소 또는 메시지 제한에 도달하고 비활성화된 경우 정책 복사본을 만들어 동일한 조건과 사용자에 대한 작업을 계속 감지하고 조치를 취합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 > [!IMPORTANT]
 > 기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당된 역할은 통신 준수 기능에 액세스하기 전에 필요합니다.
@@ -294,7 +294,7 @@ OCR을 사용하는 정책에 대해 보류 중인 경고를 검토할 때 식�
 
 > [!IMPORTANT]
 >
-> 사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. 예를 들어:
+> 사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. 예시:
 >
 > *banker* <br>
 > *confidential* <br>
@@ -422,7 +422,7 @@ OCR을 사용하는 정책에 대해 보류 중인 경고를 검토할 때 식�
 > [!IMPORTANT]
 > 흐름을 테스트할 때 추가 라이선스 유효성 검사를 Power Automate 있나요? 조직에서 이 미리 보기 기능에 대한 서비스 업데이트를 아직 받지 않았을 수 있습니다. 업데이트가 배포되고 Microsoft 365 구독이 포함된 모든 조직은 2020년 10월 30일까지 권장되는 Power Automate 템플릿에서 만든 흐름에 대한 라이선스 지원을 제공해야 합니다.
 
-![통신 준수 Power Automate](../media/communication-compliance-power-automate.png)
+![통신 준수 Power Automate.](../media/communication-compliance-power-automate.png)
 
 고객에게 Power Automate 준수 경고에 대한 프로세스 자동화를 지원하기 위해 다음과 같은 Power Automate 템플릿이 제공됩니다.
 
@@ -491,7 +491,7 @@ Power Automate 흐름을 공유하려면 하나 이상의 통신 준수 역할 �
 
 새 보고서 **대시보드는** 모든 통신 준수 보고서를 볼 수 있는 중앙 위치입니다. 보고서 위젯은 커뮤니케이션 규정 준수 활동의 상태를 전체적으로 평가하는 데 가장 일반적으로 필요한 인사이트를 빠르게 볼 수 있도록 합니다. 보고서 위젯에 포함된 정보는 내보낼 수 없습니다. 자세한 보고서는 특정 통신 준수 영역과 관련된 자세한 정보를 제공하고 검토하는 동안 정보를 필터링, 그룹화, 정렬 및 내보내는 기능을 제공합니다. 날짜 및 시간 범위 필터의 경우 이벤트의 날짜와 시간이 UTC(협정 세계시)로 나열됩니다.
 
-![커뮤니케이션 준수 보고서 대시보드](../media/communication-compliance-reports-dashboard.png)
+![커뮤니케이션 준수 보고서 대시보드.](../media/communication-compliance-reports-dashboard.png)
 
 보고서 **대시보드에는** 다음과 같은 보고서 위젯 및 자세한 보고서 링크가 포함되어 있습니다.
 

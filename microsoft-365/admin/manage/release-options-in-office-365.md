@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: 새 제품 및 기능 업데이트에 대한 릴리스 옵션을 설정하는 방법을 Microsoft 365 관리 센터.
-ms.openlocfilehash: c9a3478c15ad5505bae73b6821fc8ed9511f9b3e
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: df64bbac95f9d902ed83080e639544feb384fd72
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346787"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566249"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>표준 또는 대상 지정 릴리스 옵션 설정
 
@@ -42,7 +42,7 @@ ms.locfileid: "58346787"
 
 모든 새 릴리스는 먼저 기능 팀에서 테스트하고 유효성을 검사한 다음 전체 Microsoft 365 기능 팀이 테스트한 다음 모든 Microsoft가 검증합니다. 내부 테스트 및 유효성 검사 후 다음 단계는 선택한 고객에게 **대상 지정된 릴리스**(이전의 첫 번째 릴리스)입니다. 각 릴리스 링에서 Microsoft는 주요 사용 메트릭을 모니터링하여 피드백을 수집하고 품질을 더 확인합니다. 이러한 일련의 점진적인 유효성 검사는 전 세계 릴리스가 가능한 한 견고하도록 하기 위한 것입니다. 릴리스는 다음 그림과 같습니다. 
   
-![사용자에 대한 유효성 검사 Microsoft 365](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
+![사용자에 대한 유효성 검사 링을 Microsoft 365.](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
   
 중요한 업데이트의 경우 초기에는 2016년 8월 1일 [로드맵을 통해 Microsoft 365 합니다.](https://products.office.com/business/office-365-roadmap) 업데이트가 롤아웃에 가까워지고 나면 업데이트가 메시지 센터 를 [통해 Microsoft 365 전달됩니다.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
 

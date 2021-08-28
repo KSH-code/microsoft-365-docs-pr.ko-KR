@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: DataParser 커넥터를 사용하여 17a-4 비즈니스용 Skype 서버 설정하고 사용하여 비즈니스용 Skype 서버 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: 1cbb0873a86af099665cf8bf6353ce351bafb3cd
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: 602f0e0c2472bd3cb2d5b0040c26ea5b3b289da5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567799"
 ---
 # <a name="set-up-a-connector-to-archive-skype-for-business-server-data"></a>데이터 보관을 위한 비즈니스용 Skype 서버 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "58400418"
 
 다음 개요에서는 데이터 커넥터를 사용하여 데이터 커넥터를 사용하여 비즈니스용 Skype 서버 데이터를 보관하는 Microsoft 365.
 
-![17a-비즈니스용 Skype 서버 데이터를 보관하는 워크플로](../media/SkypeServerDataParserConnectorWorkflow.png)
+![17a-비즈니스용 Skype 서버 데이터를 보관하는 워크플로입니다.](../media/SkypeServerDataParserConnectorWorkflow.png)
 
 1. 조직은 17a-4와 함께 작업하여 DataParser를 비즈니스용 Skype 서버 구성합니다.
 

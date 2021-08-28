@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: 7c5b30abcf755ff43f746e4a7a299ae1aece0f8688612274ebc2ce9e547f3eaa
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 46ddc7584b0299a7098b3fbe0758bdd9d4ee914c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866507"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564161"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 커뮤니케이션 규정 준수
 
@@ -31,7 +31,7 @@ ms.locfileid: "53866507"
 
 다음 단계를 사용하여 조직에 대한 통신 규정 준수를 구성합니다.
 
-![내부자 위험 솔루션 커뮤니케이션 규정 준수 단계](../media/ir-solution-cc-steps.png)
+![내부자 위험 솔루션 커뮤니케이션 규정 준수 단계.](../media/ir-solution-cc-steps.png)
 
 1. 정보 통신 규정 [준수에](communication-compliance.md) 대해 Microsoft 365
 2. 통신 규정 [준수 계획](communication-compliance-plan.md) 및 [라이선스 확인](communication-compliance-configure.md#subscriptions-and-licensing)

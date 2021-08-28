@@ -23,12 +23,12 @@ search.appverid:
 ROBOTS: NO INDEX, NO FOLLOW
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Windows 10 컴퓨터에 32비트 Office 앱을 자동으로 설치하고 업데이트된 Windows 10 방법을 배워야 합니다.
-ms.openlocfilehash: 2e5d9cc711c0b5c9c8cc8dbfbeb1d8519856c674
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.openlocfilehash: ea131e37fa7f82a0ab03aa52b71569e3c96a2c7f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58378212"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566111"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>비즈니스용 Office 클라이언트 배포를 Microsoft 365 준비
 
@@ -48,7 +48,7 @@ ms.locfileid: "58378212"
     
 간편 실행 버전의 Office가 있는지 확인하려는 경우 Office 앱에서 **파일** \> **계정**(Outlook에서는 **Office 계정**)으로 이동합니다. 다음 그림에 Office 업데이트가 표시되어 있는 경우 Click-to-Run을 사용하여 설치를 수행한 것입니다.  
   
-![Screenshot of Office updates in Office app Account](../../media/e3439380-fa43-4ed6-ae5d-64851c297df5.png)
+![Screenshot of Office updates in Office 앱 Account.](../../media/e3439380-fa43-4ed6-ae5d-64851c297df5.png)
   
  **Who 기능을 사용할 경우의 이점**
   

@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: noindex,nofollow
 description: Office 365용 Microsoft Defender에 대한 새 경고 정책을 릴리스합니다. 또한 기존 경고 정책 2개를 새 경고 정책으로 대체했습니다.
-ms.openlocfilehash: 5c4edbb59d3328bb933825ab6a85ab561db93741
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 130bcb9c8511de1f18a8711561bbe6a15544f810
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255362"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564013"
 ---
 # <a name="new-alert-policies-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새 경고 정책
 
@@ -85,17 +85,17 @@ Office 365용 Microsoft Defender ZAP(제로 아워 자동 제거)가 받은 편�
 
   - **맬웨어가 포함된 전자 메일 메시지** 및 **악성 파일이 포함된 전자 메일 메시지가 전달 후 제거됨**
 
-  ![새 경고와 기존 경고의 경고 쌍](../media/DefenderAlerts.png)
+  ![새 경고와 기존 경고의 경고 쌍.](../media/DefenderAlerts.png)
 
    이러한 경고 쌍 관리에 대한 자세한 내용은 [이러한 변경 사항에 대비하는 데 필요한 작업](#what-you-need-to-do-to-prepare-for-these-changes) 섹션을 참조하세요.
 
 - **AIR 조사**: 경고는 단일 AIR 조사와 상관 관계가 있으며, 경고 중 하나는 "트리거"로 분류되고 다른 하나는 "반복"으로 분류됩니다.
 
-  ![AIR 조사 시 경고 쌍](../media/AIRAlerts.png)
+  ![AIR 조사 시 경고 쌍.](../media/AIRAlerts.png)
 
 - **인시던트**: 두 경고가 모두 동일한 인시던트와 연관이 있음
 
-  ![인시던트 내 경고 쌍](../media/IncidentsAlerts.png)
+  ![인시던트 내 경고 쌍.](../media/IncidentsAlerts.png)
 
 ## <a name="what-you-need-to-do-to-prepare-for-these-changes"></a>이러한 변경 사항에 대해 대비하는 데 필요한 작업
 

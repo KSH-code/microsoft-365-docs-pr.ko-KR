@@ -20,16 +20,16 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
-ms.openlocfilehash: 02cc7298afe202ae004a1fff84ea6961535c5b2e2972d08da6527946d7253fae
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e66f9133959ce7f09915361e7583ae809e33647e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900020"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567679"
 ---
 # <a name="learn-about-privileged-access-management"></a>권한이 부여된 액세스 관리에 대한 자세한 정보
 
-Privileged access management를 사용하면 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어를 제공합니다. 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스가 진행 중인 기존의 권한 있는 관리자 계정을 사용하는 위반로부터 조직을 보호할 수 있습니다. Privileged Access Management는 사용자가 범위가 넓고 시간 제한이 큰 승인 워크플로를 통해 권한 있는 작업을 완료하기 위해 제시간에 액세스 권한을 요청해야 합니다. 이 구성을 통해 사용자는 중요한 데이터나 중요한 구성 설정에 노출될 위험 없이 당면한 작업을 수행할 수 있는 액세스 권한을 얻을 수 있습니다. 조직에서 권한 있는 액세스 관리를 Microsoft 365 권한 없는 권한으로 운영할 수 있으며, 관리 액세스 취약성에 대한 방어 계층을 제공합니다.
+권한 있는 액세스 관리를 사용하면 Office 365에서 권한 있는 관리자가 실행할 수 있는 작업에 대해 세부적인 액세스 제어를 할 수 있습니다. 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스가 진행 중인 기존의 권한 있는 관리자 계정을 사용하는 위반로부터 조직을 보호할 수 있습니다. Privileged Access Management는 사용자가 범위가 넓고 시간 제한이 큰 승인 워크플로를 통해 권한 있는 작업을 완료하기 위해 제시간에 액세스 권한을 요청해야 합니다. 이 구성을 통해 사용자는 중요한 데이터나 중요한 구성 설정에 노출될 위험 없이 당면한 작업을 수행할 수 있는 액세스 권한을 얻을 수 있습니다. 조직에서 권한 있는 액세스 관리를 Microsoft 365 권한 없는 권한으로 운영할 수 있으며, 관리 액세스 취약성에 대한 방어 계층을 제공합니다.
 
 통합된 고객 Lockbox 및 권한 있는 액세스 관리 워크플로에 대한 간략한 개요는 이 고객 Lockbox 및 권한 있는 액세스 관리 비디오를 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=2066800)
 
@@ -37,7 +37,7 @@ Privileged access management를 사용하면 Office 365의 권한 있는 관리 
 
 권한 있는 액세스 관리 는 Microsoft 365 보안 아키텍처 내의 다른 데이터 및 액세스 기능 보호를 보완합니다. 권한 있는 액세스 관리 를 보안에 대한 통합 및 계층적 접근 방식의 일부로 포함하면 중요한 정보 및 Microsoft 365 구성 설정의 보호를 최대화하는 보안 모델을 제공할 수 있습니다. 다이어그램에 표시된 바와 같이 권한 있는 액세스 관리는 Microsoft 365 데이터의 기본 암호화 및 Microsoft 365 서비스의 역할 기반 액세스 제어 보안 모델과 함께 제공되는 보호를 기반으로 합니다. [Azure AD](/azure/active-directory/active-directory-privileged-identity-management-configure)Privileged Identity Management 사용할 경우 이러한 두 기능은 서로 다른 범위에서 Just-In-Time 액세스를 통해 액세스 제어를 제공합니다.
 
-![2016의 계층적 Microsoft 365](../media/pam-layered-protection.png)
+![계층적 보호를 Microsoft 365.](../media/pam-layered-protection.png)
 
 권한 있는 액세스 관리는 작업  수준에서 정의되고 범위가 지정되는 반면 Azure  AD Privileged Identity Management 여러 작업을 실행할 수 있는 기능으로 역할 수준에서 보호를 적용합니다. Azure AD Privileged Identity Management는 주로 AD 역할 및 역할 그룹에 대한 액세스를 관리할 수 있으며, Microsoft 365의 권한 있는 액세스 관리는 작업 수준에서만 적용됩니다.
 
@@ -53,27 +53,27 @@ Privileged access management를 사용하면 Office 365의 권한 있는 관리 
 
 Microsoft 365 관리 센터 또는 Exchange 관리 PowerShell을 사용하여 권한 있는 액세스 정책을 구성하는 경우 정책 및 권한 있는 액세스 기능 프로세스 및 정책 특성을 Microsoft 365 구성합니다. [](https://admin.microsoft.com) 활동은 보안 및 준수 &amp; 센터에 기록됩니다. 이 정책은 이제 사용하도록 설정되었으며 승인을 위해 들어오는 요청을 처리할 준비가 완료되었습니다.
 
-![1단계: 정책 만들기](../media/pam-step1-policy-creation.jpg)
+![1단계: 정책 만들기.](../media/pam-step1-policy-creation.jpg)
 
 ### <a name="step-2-access-request"></a>2단계: 액세스 요청
 
 사용자 [Microsoft 365 관리 센터](https://admin.microsoft.com) 또는 Exchange PowerShell을 사용하여 상승되거나 권한이 부여된 작업에 대한 액세스를 요청할 수 있습니다. 권한 있는 액세스 기능은 구성된 권한 액세스 정책에 대해 처리하기 위해 Microsoft 365 요청을 전송하고 보안 및 준수 센터 로그에 &amp; 활동을 기록합니다.
 
-![2단계: 액세스 요청](../media/pam-step2-access-request.jpg)
+![2단계: 액세스 요청.](../media/pam-step2-access-request.jpg)
 
 ### <a name="step-3-access-approval"></a>3단계: 액세스 승인
 
 승인 요청이 생성되며, 보류 중인 요청 알림이 승인자에게 전자 메일로 전송됩니다. 승인될 경우, 권한 있는 액세스 요청은 승인으로 처리되며, 해당 작업은 완료할 준비가 됩니다. 승인 거부될 경우, 해당 작업은 차단되며, 요청자에 대한 액세스 권한이 부여되지 않습니다. 요청자는 전자 메일 메시지를 통해 요청 승인 또는 거부 관련 알림을 받습니다.
 
-![3단계: 액세스 승인](../media/pam-step3-access-approval.jpg)
+![3단계: 액세스 승인.](../media/pam-step3-access-approval.jpg)
 
 ### <a name="step-4-access-processing"></a>4단계: 액세스 처리
 
 승인된 요청의 경우, 해당 작업은 Exchange 관리의 Runspace에서 실행됩니다. 승인은 권한 있는 액세스 정책에 대해 점검되며, Microsoft 365에서 처리됩니다. 작업에 대한 모든 활동은 보안 및 준수 &amp; 센터에 기록됩니다.
 
-![4단계: 액세스 처리](../media/pam-step4-access-processing.jpg)
+![4단계: 액세스 처리.](../media/pam-step4-access-processing.jpg)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="what-skus-can-use-privileged-access-in-office-365"></a>어떤 SKUS에서 권한 있는 액세스를 사용할 수 Office 365?
 

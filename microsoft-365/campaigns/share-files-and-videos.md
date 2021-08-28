@@ -25,18 +25,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인 내에서 파일 및 비디오를 공유하고 Microsoft Teams SharePoint.
-ms.openlocfilehash: 90f99f42db7dbfba3d0b7276da8591623cc6a32b588acb212694953a29735d1d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 20e232f1ca8a8392efa236d21b26259f47382148
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861445"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567583"
 ---
 # <a name="share-files-and-videos"></a>파일 및 동영상 공유
 
 파일을 볼 수 있는 사용자와 편집할 수 있는 사용자에 대해 제어해야 하는 경우 사용 권한이 적절하게 적용될 수 있는 안전한 위치에 파일을 저장해야 합니다. 사용자 Microsoft Teams 파일을 저장한 다음 회사, 사례 또는 캠페인 내부 또는 외부에서 파일을 공유하려면 Microsoft Teams 링크를 보내거나 SharePoint 있습니다. 전자 메일 첨부 파일이 아닌 링크를 보내면 누가 파일을 보고 수정하는지 알 수 있으며, 사용자 권한 없이는 파일을 보거나 수정할 수 없습니다.
 
-![메뉴에서 Microsoft Teams 탭 및 링크가 표시되어 있는 보기 창의 다이어그램](../media/m365-democracy-teams-sharefiles.png)
+![메뉴의 파일 Microsoft Teams 링크가 표시되어 있는 보기 창의 다이어그램입니다.](../media/m365-democracy-teams-sharefiles.png)
 
 파일 및 Microsoft Teams SharePoint 함께 작업하고 서로의 변경 내용을 검토할 수도 있습니다. 회사Microsoft Teams 사례 또는 캠페인 내에서 파일을 공유하는 데 사용할 수 있습니다. 조직 외부의 사용자와 외부적으로 공유해야 하는 경우 팀에 게스트로 추가하거나 보안 링크로 SharePoint 있습니다.
 
@@ -68,4 +68,4 @@ Microsoft Stream을 사용하여 내부적으로 비디오를 저장하고 공�
 
 PDF 또는 PowerPoint [](https://go.microsoft.com/fwlink/?linkid=2079435) 인포그래픽을 다운로드하여 파일을 공유하는 방법에 대한 간략한 개요를 확인할 수 있습니다. [](https://go.microsoft.com/fwlink/?linkid=2079438)
 
-[![다른 사용자와 파일 공유 그림](../media/ShareYourfiles-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2079435)
+[![다른 사용자와 파일을 공유하는 그림입니다.](../media/ShareYourfiles-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2079435)

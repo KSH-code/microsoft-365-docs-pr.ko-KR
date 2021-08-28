@@ -19,18 +19,18 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 사용하여 장치 보안 정책 및 액세스 규칙을 설정할 수 있습니다.
-ms.openlocfilehash: 6ae42b9d7515e027e826fe7735a63b23ffd0eff04cb37995d28c60c9dddfada1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a5fe6c4d6350871a2c7013d1de3df8b2911ceca1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826849"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565627"
 ---
 # <a name="overview-of-basic-mobility-and-security-for-microsoft-365"></a>모바일 기능의 기본 이동성 및 보안 Microsoft 365
 
 모바일 장치가 기본 이동성 및 보안을 사용하여 Microsoft 365 조직에 연결될 때 모바일 장치를 관리하고 보호할 수 있습니다. 스마트폰 및 태블릿과 같은 모바일 장치를 사용하여 회사 전자 메일, 일정, 연락처 및 문서에 액세스하는 방식은 직원들이 시간과 장소의 구애를 받지 않고 업무를 완료하도록 하는 데 큰 역할을 합니다. 따라서 사용자가 장치를 사용할 때 조직의 정보를 보호하는 것이 중요합니다. 기본 모바일 및 보안을 사용하여 장치 보안 정책 및 액세스 규칙을 설정하고 분실하거나 도난당한 모바일 장치를 초기화할 수 있습니다.
 
-:::image type="content" source="../../media/basic-mobility-security/bms-3-setup.png" alt-text="기본 이동성 및 보안 설정":::
+:::image type="content" source="../../media/basic-mobility-security/bms-3-setup.png" alt-text="기본 이동성 및 보안 설정.":::
 
 ## <a name="what-types-of-devices-can-you-manage"></a>어떤 종류의 장치를 관리할 수 있나요?
 

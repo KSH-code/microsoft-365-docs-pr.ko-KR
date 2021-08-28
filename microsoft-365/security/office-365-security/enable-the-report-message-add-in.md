@@ -17,12 +17,12 @@ ms.collection:
 description: 개별 사용자 또는 전체 조직에 대해 보고서 메시지 또는 Outlook 및 웹용 Outlook 피싱 보고 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 35d84f9b960f466c76adf1f278d8d3a40a725f38
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: f7c077521700a8bd4c7d1997bb87bab0f214337d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258587"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563793"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>보고서 메시지 또는 피싱 보고 추가 기능 사용
 
@@ -50,7 +50,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 전역 관리자 또는 Exchange Online 관리자로서 Exchange OAuth 인증을 사용하도록 구성된 경우 조직에 대해 보고서 메시지 추가 기능 및 피싱 보고 추가 기능을 사용하도록 설정할 수 있습니다. 이제 중앙 집중식 배포를 통해 두 추가 [기능을 모두 사용할 수 있습니다.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 보고서 메시지 추가 기능 및 피싱 보고 추가 기능 모두 대부분의 Microsoft 365 및 다음 제품과 함께 작동합니다.
   - 웹용 Outlook
@@ -83,7 +83,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 2. 지금 **다운로드를 클릭합니다.**
 
-   ![보고서 메시지 - 지금 시작](../../media/ReportMessageGETITNOW.png)
+   ![보고서 메시지 - 지금 얻습니다.](../../media/ReportMessageGETITNOW.png)
 
 3. 나타나는 대화 상자에서 사용 약관 및 개인 정보 취급 방침을 검토한 다음 계속을 **클릭합니다.**
 
@@ -94,12 +94,12 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 - 이 Outlook 아이콘은 다음과 같습니다.
 
   > [!div class="mx-imgBorder"]
-  > ![보고서 메시지 추가 기능 아이콘을 Outlook](../../media/OutlookReportMessageIcon.png)
+  > ![보고서 메시지 추가 기능 아이콘을 Outlook.](../../media/OutlookReportMessageIcon.png)
 
 - 이 웹용 Outlook 아이콘은 다음과 같습니다.
 
   > [!div class="mx-imgBorder"]
-  > ![웹용 Outlook 보고서 메시지 추가 기능 아이콘](../../media/owa-report-message-icon.png)
+  > ![웹용 Outlook 보고서 메시지 추가 기능 아이콘입니다.](../../media/owa-report-message-icon.png)
 
 ### <a name="get-the-report-message-add-in-for-your-organization"></a>조직에 대한 보고서 메시지 추가 기능 확인
 
@@ -110,17 +110,17 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 2. 페이지 **맨** 위에 있는 추가 기능 배포를 선택하고 다음 을 **선택합니다.**
 
-   ![서비스 및 추가 기능 페이지의 Microsoft 365 관리 센터](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![서비스 및 추가 기능 페이지의 Microsoft 365 관리 센터.](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 3. 새 **추가 기능** 배포 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**
 
 4. 다음 페이지에서 **스토어에서 선택을 클릭합니다.**
 
-   ![새 추가 기능 페이지 배포](../../media/NewAddInScreen2.png)
+   ![새 추가 기능 페이지를 배포합니다.](../../media/NewAddInScreen2.png)
 
-5. 나타나는 **추가 기능** 선택 페이지에서 검색 상자를 **클릭하고** 보고서 **메시지** 를 입력한 다음 검색 검색 아이콘 **을** ![ ](../../media/search-icon.png) 클릭합니다. 결과 목록에서 보고서 **메시지를 찾은 다음** 추가 를 **클릭합니다.**
+5. 나타나는 **추가 기능** 선택 페이지에서 검색 상자를 **클릭하고** 보고서 **메시지** 를 입력한 다음 검색 검색 **아이콘을** ![ ](../../media/search-icon.png) 클릭합니다. 결과 목록에서 보고서 **메시지를 찾은 다음** 추가 를 **클릭합니다.**
 
-   ![추가 기능 검색 결과 선택](../../media/NewAddInScreen3.png)
+   ![추가 기능 검색 결과를 선택합니다.](../../media/NewAddInScreen3.png)
 
 6. 나타나는 대화 상자에서 라이선스 및 개인 정보 보호 정보를 검토한 다음 계속을 **클릭합니다.**
 
@@ -136,29 +136,29 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
      - **사용** 가능: 사용자는 홈 추가  기능 추가 기능 관리자가 관리하는 에서 추가 기능을 설치할 \>  \> **수 있습니다.**
      - **선택** 사항: 추가 기능을 지정된 사용자에게 자동으로 배포하지만 제거를 선택할 수 있습니다.
 
-   ![추가 기능 페이지 구성](../../media/configure-add-in.png)
+   ![추가 기능 페이지를 구성합니다.](../../media/configure-add-in.png)
 
    완료되면 배포를 **클릭합니다.**
 
 8. 보고서 **메시지** 배포 페이지에 나타나는 진행률 보고서와 추가 기능 배포 확인이 표시됩니다. 정보를 읽은 후 다음 을 **클릭합니다.**
 
-   ![보고서 메시지 배포 페이지](../../media/deploy-report-message-page.png)
+   ![보고서 메시지 배포 페이지.](../../media/deploy-report-message-page.png)
 
 9. 추가 기능 발표 **페이지가** 나타나면 정보를 검토하고 닫기 를 **클릭합니다.**
 
-   ![추가 기능 페이지 발표](../../media/announce-add-in-page.png)
+   ![추가 기능 페이지를 발표합니다.](../../media/announce-add-in-page.png)
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>보고서 메시지 추가 기능의 설정 검토 또는 편집
 
 1. In the Microsoft 365 관리 센터, go to the go to the **설정** \> **Add-ins** page <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> at. 추가 기능 페이지가  없는 경우 통합 앱 **페이지 설정** 통합 앱 추가 기능 링크로 \>  \>  이동합니다. 
 
-   ![새 Add-Ins 센터의 서비스 및 Microsoft 365 관리 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![새 Add-Ins 센터의 서비스 및 Microsoft 365 관리 페이지입니다.](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 2. 보고서 메시지 **추가** 기능을 찾아 선택합니다.
 
 3. 보고서 **메시지 편집** 플라이아웃이 나타나면 조직에 적합한 설정을 검토하고 편집합니다. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
-   ![설정 메시지 추가 기능의 추가 기능 확인](../../media/EditReportMessageAddIn.png)
+   ![설정 메시지 추가 기능의 추가 기능입니다.](../../media/EditReportMessageAddIn.png)
 
 ## <a name="get-the-report-phishing-add-in"></a>피싱 보고서 추가 기능 얻기
 
@@ -176,7 +176,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 - 이 Outlook 아이콘은 다음과 같습니다.
 
-  ![보고서 피싱 추가 기능 아이콘에 대한 Outlook](../../media/Outlook-ReportPhishing.png)
+  ![피싱 추가 기능 아이콘을 보고하여 Outlook.](../../media/Outlook-ReportPhishing.png)
 
 - 이 웹용 Outlook 아이콘은 다음과 같습니다.
 
@@ -192,15 +192,15 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 2. 페이지 **맨** 위에 있는 추가 기능 배포를 선택하고 다음 을 **선택합니다.**
 
-   ![서비스 및 추가 기능 페이지의 Microsoft 365 관리 센터](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![서비스 및 추가 기능 페이지의 Microsoft 365 관리 센터.](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 3. 새 **추가 기능** 배포 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**
 
 4. 다음 페이지에서 **스토어에서 선택을 클릭합니다.**
 
-   ![새 추가 기능 페이지 배포](../../media/NewAddInScreen2.png)
+   ![새 추가 기능 페이지를 배포합니다.](../../media/NewAddInScreen2.png)
 
-5. 나타나는 **추가 기능** 선택 페이지에서 검색 상자를 **클릭하고** 피싱 **보고를** 입력한 다음 검색 **검색** 아이콘 을 ![ ](../../media/search-icon.png) 클릭합니다. 결과 목록에서 피싱 **보고를 찾은** 다음 추가 를 **클릭합니다.**
+5. 나타나는 **추가 기능** 선택 페이지에서 검색 상자를 **클릭하고** 피싱 보고를 **입력한** 다음 검색 검색 **아이콘을** ![ 클릭합니다. ](../../media/search-icon.png) 결과 목록에서 피싱 **보고를 찾은** 다음 추가 를 **클릭합니다.**
 
 6. 나타나는 대화 상자에서 라이선스 및 개인 정보 보호 정보를 검토한 다음 계속을 **클릭합니다.**
 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 예측 점수 필터를 사용하여 예측 코딩 모델이 관련성이 있는 것으로 예측된 항목을 표시합니다.
-ms.openlocfilehash: 99cc9aee90c57f6f48053a6ef7e5a622a15295aa16089416081913ac6e5d3473
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 34a9b4da55443cae6c2334952f60b94953b0d9d4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865855"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567703"
 ---
 # <a name="apply-a-prediction-score-filter-to-a-review-set-preview"></a>검토 집합에 예측 점수 필터 적용(미리 보기)
 
@@ -41,7 +41,7 @@ Advanced eDiscovery 예측 코딩 모델을 만들고 안정된 지점으로 교
 
 1. 이 Microsoft 365 규정 준수 센터 사례를 Advanced eDiscovery 검토 집합 탭을 선택한  다음 검토 집합을 여는 경우
 
-   ![필터를 클릭하여 필터 플라이아웃 페이지 표시](..\media\PredictionScoreFilter0.png)   
+   ![필터를 클릭하여 필터 플라이아웃 페이지를 표시합니다.](..\media\PredictionScoreFilter0.png)   
 
    미리 로드된 기본 필터는 검토 집합 페이지 맨 위에 표시됩니다. 이러한 집합을 Any로 설정할 수 **있습니다.**
 
@@ -49,7 +49,7 @@ Advanced eDiscovery 예측 코딩 모델을 만들고 안정된 지점으로 교
 
 3. 분석 & **코딩 섹션을** 확장하여 필터 집합을 표시합니다.
 
-      ![분석 및 예측 & 섹션의 예측 점수 필터](..\media\PredictionScoreFilter1.png)
+      ![분석 및 예측 & 섹션의 예측 점수 필터입니다.](..\media\PredictionScoreFilter1.png)
 
    예측 점수 필터의 명명 규칙은 **예측 점수(모델 이름)입니다.** 예를 들어 Model **A라는** 모델의 예측 점수 필터 이름은 예측 **점수(모델 A)입니다.**
 
@@ -57,7 +57,7 @@ Advanced eDiscovery 예측 코딩 모델을 만들고 안정된 지점으로 교
 
 5. 검토 집합 페이지에서 예측 점수 필터에 대한 드롭다운을 클릭하고 예측 점수 범위에 대한 최소값 및 최대값을 입력합니다. 예를 들어 다음 스크린샷에는 **.5에서 1.0** 사이의 예측 점수 **범위가 나와 있습니다.**
 
-   ![예측 점수 필터의 최소값 및 최대값](..\media\PredictionScoreFilter2.png)
+   ![예측 점수 필터의 최소값 및 최대값입니다.](..\media\PredictionScoreFilter2.png)
 
 6. 필터 외부를 클릭하여 검토 집합에 필터를 자동으로 적용합니다.
 

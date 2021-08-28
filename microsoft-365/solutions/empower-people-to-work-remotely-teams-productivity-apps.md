@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: 7a26d89e04d9739434208c4b3c4a536be5c5c5075a00dabdc06b8c4abd318838
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 034f0c3d4127ed75db8ba9a7cbe628a2502d192c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53777772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566481"
 ---
 # <a name="step-5-deploy-hybrid-worker-productivity-apps-and-services"></a>5단계. 하이브리드 작업자 생산성 앱 및 서비스 배포
 
@@ -36,7 +36,7 @@ ms.locfileid: "53777772"
 | 데스크톱 및 모바일 장치 Office 응용 프로그램 | Microsoft 365 앱 | 새 콘텐츠를 만들거나 로컬 컴퓨터에 설치된 Word, PowerPoint, Excel 및 Outlook 버전으로 기존 콘텐츠를 공동 작업하고 지속적인 기능 및 보안 업데이트를 받을 수 있습니다. |
 ||||
 
-![Teams, Outlook, SharePoint, OneDrive 및 Microsoft 365 앱을 사용해서 생산성 유지](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
+![Teams, Outlook, SharePoint, OneDrive 및 Microsoft 365 앱을 사용해서 생산성 유지.](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
 
 ## <a name="keep-people-connected-with-microsoft-teams"></a>Microsoft Teams를 통해 사용자들이 연결된 상태를 유지
 
@@ -105,6 +105,6 @@ Microsoft 365 앱은 언제 어디에서나 사용자들이 원활하게 함께 
 
 ## <a name="next-step"></a>다음 단계
 
-[![6단계: 사용자 교육 및 사용자 성공 모니터링](../media/empower-people-to-work-remotely/remote-workers-step-grid-6.png)](empower-people-to-work-remotely-train-monitor-usage.md)
+[![6단계: 사용자 교육 및 사용자 성공 모니터링.](../media/empower-people-to-work-remotely/remote-workers-step-grid-6.png)](empower-people-to-work-remotely-train-monitor-usage.md)
 
 [6단계](empower-people-to-work-remotely-train-monitor-usage.md)로 계속하여 사용자를 교육하고 사용자의 성공을 모니터링합니다.

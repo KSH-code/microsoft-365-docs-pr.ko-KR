@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 2aa3cab705b8ed872c0f06c3f215fe8fde713322d9bfa45a0123b0ca5fbcb682
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3c9829ecee2bddcff392d9f58fe11e2a7de7486a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53777729"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563721"
 ---
 # <a name="microsoft-365-architecture-icons-and-templates"></a>Microsoft 365 아이콘 및 템플릿
 
@@ -43,8 +43,8 @@ Microsoft는 아키텍처 다이어그램, 교육 자료 또는 설명서에서 
 
 1. 다음에 대한 검색 아키텍처 다이어그램의 SharePoint.
 
-    ![검색 아키텍처의 SharePoint](../media/configure-search-for-multi-geo-image1-1.png)
+    ![예제 검색 아키텍처를 SharePoint.](../media/configure-search-for-multi-geo-image1-1.png)
 
 2. Teams 주기 아키텍처 다이어그램:
 
-    ![Teams 수명 주기](../media/TeamsRetentionLifecycle.png)
+    ![Teams 수명 주기입니다.](../media/TeamsRetentionLifecycle.png)

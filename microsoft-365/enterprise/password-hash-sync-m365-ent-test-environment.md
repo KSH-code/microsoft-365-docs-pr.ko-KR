@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 로그인을 구성하고 보여 줍니다.'
-ms.openlocfilehash: a71c7046967d796d59d3ba9ae5ff42d1e0d6bcf9
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: dbf4b2ca694ee9dc81a5b02ebd0f7cf3820d0f1d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58355943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565893"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 해시 동기화
 
@@ -34,7 +34,7 @@ ms.locfileid: "58355943"
 
 이 문서에서는 테스트 환경에 암호 해시 동기화를 추가하는 Microsoft 365 설명하여 이 구성을 구현합니다.
   
-![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![암호 해시 동기화 테스트 환경을 사용하여 시뮬레이트된 엔터프라이즈입니다.](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
   
 이 테스트 환경을 설정하는 단계는 다음 세 단계로 진행됩니다.
 - [1단계: Microsoft 365 시뮬레이트된 엔터프라이즈 테스트 환경을 만들기](#phase-1-create-the-microsoft-365-simulated-enterprise-test-environment)
@@ -48,7 +48,7 @@ ms.locfileid: "58355943"
 
 에 대한 [시뮬레이트된 엔터프라이즈 기본 구성의 Microsoft 365.](simulated-ent-base-configuration-microsoft-365-enterprise.md) 구성 결과는 다음과 같습니다.
   
-![시뮬레이트된 엔터프라이즈 기본 구성](../media/password-hash-sync-m365-ent-test-environment/Phase1.png)
+![시뮬레이트된 엔터프라이즈 기본 구성입니다.](../media/password-hash-sync-m365-ent-test-environment/Phase1.png)
   
 이 구성은 다음으로 이루어집니다.
   
@@ -65,7 +65,7 @@ ms.locfileid: "58355943"
 
 구성 결과는 다음과 같습니다.
   
-![테스트 랩 도메인 이름 등록](../media/password-hash-sync-m365-ent-test-environment/Phase2.png)
+![테스트 랩 도메인 이름 등록.](../media/password-hash-sync-m365-ent-test-environment/Phase2.png)
   
 이 구성은 다음으로 이루어집니다.
 
@@ -132,7 +132,7 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
 
 구성 결과는 다음과 같습니다.
 
-![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![암호 해시 동기화 테스트 환경을 사용하여 시뮬레이트된 엔터프라이즈입니다.](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
 
 이 구성은 다음으로 이루어집니다. 
   

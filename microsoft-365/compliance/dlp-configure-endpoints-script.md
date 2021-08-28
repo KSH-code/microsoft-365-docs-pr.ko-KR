@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 로컬 스크립트를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보딩합니다.
-ms.openlocfilehash: 9b5df749d71ac3c7b6004f2c44e5d0015595a935a749061eb74b581ae44951cc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 18e1230285df0c462000454f2b13ac5bb2245e92
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53892134"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566053"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 사용하여 Windows 10 장치 온보딩
 
@@ -52,7 +52,7 @@ ms.locfileid: "53892134"
 
 8.  **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-    ![관리자 시작 메뉴 실행을 설정하는 창 창](../media/dlp-run-as-admin.png)
+    ![관리자 시작 메뉴 실행을 설정하는 창 창입니다.](../media/dlp-run-as-admin.png)
 
 9.  스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPOnboardingScript.cmd를 입력합니다.*
 
@@ -82,7 +82,7 @@ ms.locfileid: "53892134"
 
 8.  **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-    ![관리자 시작 메뉴 실행을 설정하는 창 창](../media/dlp-run-as-admin.png)
+    ![관리자 시작 메뉴 실행을 설정하는 창 창입니다.](../media/dlp-run-as-admin.png)
 
 9.  스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd를 입력합니다.*
 

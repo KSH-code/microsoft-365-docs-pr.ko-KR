@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 관리자 계정을 설정하고 보호하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: d66ce47886a1743ea39be23df4c9b5d4977bb675e1c835c421bcb61205c1f4fc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 44b5f9bb07736e06f7e427e521b5c85364091020
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53803039"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564257"
 ---
 # <a name="protect-your-administrator-accounts"></a>관리자 계정 보호
 
@@ -48,18 +48,18 @@ ms.locfileid: "53803039"
 
  1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">센터로 이동한</a> 다음 왼쪽 네비게이트에서 **사용자** \> **활성** 사용자를 선택하세요.
 
-    ![사용자, 왼쪽으로 나타났다가 활성 사용자 선택](../media/Activeusers.png)
+    ![왼쪽에서 사용자를 선택한 다음 활성 사용자를 선택 합니다.](../media/Activeusers.png)
 
  2. 활성 **사용자 페이지에서** 페이지  맨 위에 있는 사용자 추가를 선택하고  새 사용자 패널에서 이름 및 기타 정보를 입력합니다.
  3. 역할 **섹션을 확장하고** 전역 관리자를 **선택해** 이 사용자에게 전역 관리자 액세스 권한을 부여합니다. 사용자 지정 **관리자를 선택하고** 표시되는 역할을 선택할 수도 있습니다.
 
     대체 전자 메일 주소 텍스트 **상자에** 대체 전자 메일을 입력합니다. 잠긴 경우 이 주소를 사용하여 암호 정보를 복구할 수 있습니다. 전역 관리자의 경우 청구서도 이 주소로 전송됩니다.
 
-    ![관리자 역할 선택](../media/adminroles.png)
+    ![관리자 역할을 선택 합니다.](../media/adminroles.png)
 
  4. 제품 라이선스 **섹션에서** 비즈니스용 선택기 Microsoft 365 해제로  이동하고 제품 **라이선스가** 없는 사용자 만들기를 **으로** **이동합니다.**
 
-    ![제품 라이선스 선택](../media/productlicense.png)
+    ![제품 라이선스를 선택하십시오.](../media/productlicense.png)
 
 ## <a name="create-an-emergency-admin-account"></a>응급 관리자 계정 만들기
 

@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 2d9914dec5abcf87885404adbc5092605402a045
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 6629672ec43b157c2ce1c70d383d6772e5671260
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599170"
+ms.locfileid: "58564025"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>내부자 위험 관리 설정 시작
 
@@ -408,6 +408,8 @@ Security & 규정 준수 경고에 대한 내부자 위험 관리 경고에 대�
 
 > [!IMPORTANT]
 > 조직의 다른 사용자가 흐름에 액세스해야 하는 경우 흐름을 공유해야 합니다.
+
+![내부자 위험 관리 전원 흐름을 자동화합니다.](../media/insider-risk-settings-power-automate-flows.png)
 
 ### <a name="create-a-custom-power-automate-flow-for-insider-risk-management"></a>내부자 위험 Power Automate 사용자 지정 관리 흐름 만들기
 

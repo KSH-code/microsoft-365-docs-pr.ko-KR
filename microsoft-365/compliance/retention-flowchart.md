@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 순서도를 사용하여 항목에 여러 보존 정책 또는 보존 레이블 및 보존 정책이 있는 경우 결과를 확인합니다.
-ms.openlocfilehash: d41f213c003da1b6a1fdacd464d052446e63845e
-ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
+ms.openlocfilehash: 45d67b3df71dc3be17bd545be77ce99afdff56b3
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372667"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567655"
 ---
 # <a name="flowchart-to-determine-when-an-item-will-be-retained-or-permanently-deleted"></a>항목이 보존되거나 영구적으로 삭제되는 시기를 결정하는 순서도
 
@@ -40,7 +40,7 @@ ms.locfileid: "58372667"
 이 순서도에 사용된 용어가 익숙하지 않은 경우 [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)를 참조하세요.
 
 
-   ![항목이 보존되거나 영구적으로 삭제되는 시기를 결정하는 순서도](../media/retention-flowchart.svg)
+   ![항목이 보존되거나 영구적으로 삭제되는 시기를 결정하는 순서도.](../media/retention-flowchart.svg)
 
 > [!NOTE]
 > 항목에 대한 가장 긴 보존 기간과 보존 정책 또는 레이블에서 지정된 가장 긴 기간을 구분하는 것이 중요합니다. 마찬가지로 항목에 대한 가장 짧은 만료 날짜와 보존 정책에서 지정한 가장 짧은 기간 사이입니다.

@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 9b497770086537beaf0e20bd4fc5773257ace5e2f40aae3fe7695c99f009d38b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2c9e5d06b13cb2fa64ed9d51977ee13af19c92f8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53890614"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567607"
 ---
 # <a name="evaluate-microsoft-365-defender-for-endpoint-overview"></a>끝점 Microsoft 365 Defender 평가
 
@@ -34,7 +34,7 @@ ms.locfileid: "53890614"
 
 - Microsoft 365 Defender
 
-![Microsoft 365 Defender 평가 및 파일럿 프로세스](../../media/defender/m365-defender-eval-process.png)
+![Microsoft 365 Defender 및 파일럿 프로세스를 진행합니다.](../../media/defender/m365-defender-eval-process.png)
 
 포괄적인 보안 제품 평가는 복잡한 프로세스일 수 있으며, 종단 투 엔드 공격 시뮬레이션을 실제로 수행하기 전에 번거로우는 환경 및 장치 구성을 요구합니다. 복잡성을 더하는 것은 평가 중에 시뮬레이션 활동, 경고 및 결과가 반영되는 위치를 추적해야 하는 과제입니다.
 

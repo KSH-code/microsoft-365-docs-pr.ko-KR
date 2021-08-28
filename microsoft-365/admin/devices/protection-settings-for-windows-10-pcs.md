@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: 비즈니스용 장치에서 사용할 수 있는 설정에 대해 Microsoft 365 장치를 보호하는 Windows 10 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 1d3f3f3516431e08b00f83bf2b8beb4bebecb0f5
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.openlocfilehash: 29fb5c18f016bd2832c25ff66db258671b95bd6f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360603"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566397"
 ---
 # <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>PC에 대한 장치 보호 Windows 10 편집하거나 만들기
 
@@ -50,7 +50,7 @@ ms.locfileid: "58360603"
     
     언제든지 **기본 설정 다시 설정** 링크를 사용하여 기본 설정으로 돌아갈 수 있습니다. 
     
-    ![Add policy pane with Windows 10 Device configuration selected](../../media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
+    ![장치 구성이 선택된 Windows 10 정책 창을 추가합니다.](../../media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
   
 6. Next decide **Who will get these settings?** If you don't want to use the default **All users** security group, Choose **Change**, search for the security group who will get these settings \> **Select**.
 7. 마지막으로 **완료** 를 선택하여 정책을 저장하고 장치를 할당합니다. 

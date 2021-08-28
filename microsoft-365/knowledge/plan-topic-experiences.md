@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 계획하는 방법 학습
-ms.openlocfilehash: 639c76567f3f14ac9c885ae277ee2631ca26dec5bdf8b3184ad6ee212a7c4c1f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: deb4e219992400a5155b40a849a6df3a8bccbef1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854702"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563989"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 계획
 
@@ -98,7 +98,7 @@ Site name,URL
 
 누구도 항목에 참여하지 못하도록 선택할 수 있습니다. 그러나 이는 권장되지 않습니다. 이 옵션을 선택하는 경우 지식 관리자는 여전히 항목을 편집하고 만들 수 있습니다.
 
-*항목 뷰어*
+*주제 뷰어*
 
 항목 뷰어는 항목 페이지에 대한 정보, 검색 결과 및 콘텐츠에서 항목을 강조 표시하는 경우(SharePoint 수 있습니다. 사용자는 항목에서 검색된 파일 및 페이지에 액세스할 수 있는 경우 검색된 항목만 볼 수 있습니다.
 
@@ -124,7 +124,7 @@ Site name,URL
     - 부분 일치: 특정 단어가 있는 모든 항목을 제외할 수 있습니다.  예를 들어 *호는* 호 원, 4도분의 호, 교육 호 등 호 단어가 있는 모든 항목을 *제외합니다.*  아키텍처와 같이 텍스트가 단어의 일부로 포함된 항목은 제외되지 *않습니다.*
 - **(선택 사항)**: (확장) 약어를 제외하려는 경우 약어가 서 있는 단어를 입력합니다.
 
-    ![CSV 템플릿에서 항목 제외](../media/exclude-topics-csv.png) 
+    ![CSV 서식 파일에서 항목을 제외합니다.](../media/exclude-topics-csv.png) 
 
 아래 csv 템플릿을 복사할 수 있습니다.
 

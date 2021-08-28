@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: SharePoint 활동 사용 현황 보고서를 통해 모든 SharePoint 사용자의 활동, 공유되는 파일 수 및 저장소 사용률을 알 수 있습니다.
-ms.openlocfilehash: 4121cce33c530e422dcf3b3d05e9a47f1a86c381eff549187f5904c961c57470
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5b4fb458c96202993a30a64800aac3c443983d04
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816274"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564807"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>Microsoft 365 관리 센터의 보고서 - SharePoint 활동
 
@@ -45,7 +45,7 @@ ms.locfileid: "53816274"
 
 활동 탭을 선택하여 보고서에서 SharePoint **볼 수** 있습니다.<br/>![Microsoft 365 보고서 - Microsoft SharePoint 활동 보고서.](../../media/5a0a96f-0e4f-4fb9-8baa-3262275b3d1f.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![SharePoint 활동 보고서 - 열 선택](../../media/3c396cd1-9701-4712-8eaa-eb7bba702aa8.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![SharePoint 보고서 - 열을 선택하십시오.](../../media/3c396cd1-9701-4712-8eaa-eb7bba702aa8.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
   

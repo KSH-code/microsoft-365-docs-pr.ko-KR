@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f709d0929b12d6f19121c6ca6c653f6484bab6c2ba2d3df52fda446b675deca5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8bdc8451d3f3885cb9704a954cae8f439cad1abf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565813"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-incidents-queue"></a>엔드포인트용 Microsoft Defender 인시던트 큐 보기 및 구성
 
@@ -48,7 +48,7 @@ ms.locfileid: "53806178"
 - 페이지 간 탐색
 - 필터 적용
 
-![사고 큐의 이미지](images/atp-incident-queue.png)
+![인시던트 큐의 이미지입니다.](images/atp-incident-queue.png)
 
 ## <a name="sort-and-filter-the-incidents-queue"></a>인시던트 큐 정렬 및 필터링
 다음 필터를 적용하여 인시던트 목록을 제한하고 보다 집중적인 보기를 얻을 수 있습니다.

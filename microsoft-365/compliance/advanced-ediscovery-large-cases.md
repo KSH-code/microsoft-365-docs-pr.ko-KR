@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 많은 경우 Advanced eDiscovery 항목을 추가하여 검토 집합을 더 추가하고 다른 증가된 제한을 활용할 수 있습니다.
-ms.openlocfilehash: 592b9d60a1275be0e12ddce238621d5ef02ab06e
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 43211dbeed7621de64d696e21fa647d5023350bb
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565487"
 ---
 # <a name="use-large-cases-in-advanced-ediscovery-preview"></a>대규모 사례를 Advanced eDiscovery(미리 보기)
 
@@ -39,7 +39,7 @@ ms.locfileid: "58255864"
 
    새 **eDiscovery 사례** 플라이아웃 페이지가 표시됩니다. 사례 **형식 섹션에서는** 큰 사례를 만들 수 있는 옵션을 제공합니다. 단기간에 많은 양의 콘텐츠를 수집해야 하는 경우 이 사례 유형을 선택하세요.
 
-   ![새 eDiscovery 사례 페이지의 큰 사례 옵션](..\media\AeDLargeCases1.png)
+   ![새 eDiscovery 사례 페이지의 큰 대소문자 옵션입니다.](..\media\AeDLargeCases1.png)
 
 4. 사례 이름을 정한 후  큰 사례 옵션을 선택한  다음 저장을 클릭하여 큰 사례를 만드려면 저장을 클릭합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "58255864"
 
 또한 새 큰 사례 형식에는 각 검토 집합의 총 크기를 표시하는 업데이트된 사용자 인터페이스가 포함되어 있습니다. 검토 집합 크기는 검토 집합  탭의 열과 이 경우 모든 탭이 지속되는 플라이아웃 창에 표시됩니다.
 
-![사용자 인터페이스의 대규모 Advanced eDiscovery 통계](..\media\LargeCaseUI.png)
+![사용자 인터페이스의 대규모 Advanced eDiscovery 통계입니다.](..\media\LargeCaseUI.png)
 
 ## <a name="known-issues"></a>알려진 문제
 
@@ -67,7 +67,7 @@ ms.locfileid: "58255864"
 
 - 대소문자 및 비관리 데이터 원본을 사례에 추가할 때 발생하는 고급 인덱싱은 현재 지원되지 않습니다. 인덱싱 작업이 만들어지지만 완료되지는 않습니다. 대규모의 경우 고급 인덱싱이 곧 지원될 예정입니다. 고급 인덱싱에 대한 자세한 내용은 보호자 데이터의 고급 인덱싱을 [참조하세요.](indexing-custodian-data.md)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **단일 컬렉션에서 1 TB를 넘게 수집하려고 하면 작동합니까?**
 

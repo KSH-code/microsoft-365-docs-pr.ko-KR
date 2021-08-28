@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: DLP(데이터 손실 방지) 정책을 사용하여 타사 시스템의 속성이 있는 문서를 보호하는 방법을 학습합니다.
-ms.openlocfilehash: a3dc0cd9d73382c1c0c1df47b346dd13c9563b66088a9eef592069e46a751596
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: be0ca4901b8f32aca4c50daa45c059388561832f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801672"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567667"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
@@ -34,7 +34,7 @@ Microsoft 365 DLP(데이터 손실 방지) 정책은 분류 속성 또는 항목
 - SharePoint 속성
 - 타사 시스템 문서 속성
 
-![Office 365 외부 분류 시스템을 보여 주는 다이어그램](../media/59ad0ac1-4146-4919-abd1-c74d8508d25e.png)
+![Office 365 및 외부 분류 시스템을 보여주는 다이어그램입니다.](../media/59ad0ac1-4146-4919-abd1-c74d8508d25e.png)
 
 예를 들어 조직에서는 Windows Server FCI를 사용하여 주민 등록 번호와 같은 개인 데이터가 있는 항목을  식별한 다음 개인 식별 정보 속성을 문서에서 찾은 개인 데이터의 유형과 횟수에 따라 높음, 보통, 낮음, 공용 또는 **PII** 아예로 설정하여 문서를 분류할 수 있습니다.   
 
@@ -69,11 +69,11 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
 
 3. 왼쪽 탐색에서 검색 관리 **페이지** 검색 Schema 관리 에서 \>  \> **검색을 선택합니다.**
 
-   ![검색 관리 페이지의 SharePoint 관리 센터](../media/6bcd3aec-d11a-4f8c-9987-8f35da14d80b.png)
+   ![검색 관리 센터의 SharePoint 페이지입니다.](../media/6bcd3aec-d11a-4f8c-9987-8f35da14d80b.png)
 
 4. 관리 **속성 페이지에서** 새 \> **관리 속성 을 클릭합니다.**
 
-   ![관리 속성 페이지에서 새 관리 속성 단추가 강조 표시 된](../media/b161c764-414c-4037-83ed-503a49fb4410.png)
+   ![새 관리 속성 단추가 강조 표시된 관리 속성 페이지](../media/b161c764-414c-4037-83ed-503a49fb4410.png)
 
 5. 속성의 이름 및 설명을 입력합니다. 이 이름은 DLP 정책에 표시되는 이름입니다.
 
@@ -85,7 +85,7 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
 
 9. **크롤링** 속성 선택 대화 상자에서 Windows Server FCI 속성 또는 DLP 정책 확인에 사용할 기타 속성에 해당하는 크롤링 속성을 찾아 \> \> **선택합니다.**
 
-   ![크롤링된 속성 선택](../media/aeda1dce-1342-48bf-9594-a8e4f230e8aa.png)
+   ![크롤링 속성 선택 대화 상자](../media/aeda1dce-1342-48bf-9594-a8e4f230e8aa.png)
 
 10. 페이지 맨 아래에서 \> 확인을 **클릭합니다.**
 
@@ -131,7 +131,7 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
 
 규칙 하나는 **개인 식별 정보** 속성이 **높은** 또는 **보통** 인 콘텐츠에 대한 액세스를 차단합니다. 또 다른 규칙은 **개인 식별 정보** 속성이 **낮음** 인 콘텐츠에 대해 알림을 보냅니다.
 
-![방금 만든 두 규칙을 보여 주는 새로운 DLP 정책 대화](../media/5c56c13b-62a5-4f25-8eb7-ce83a844bb12.png)
+![방금 만든 두 개의 규칙을 보여 주며 새 DLP 정책 대화 상자입니다.](../media/5c56c13b-62a5-4f25-8eb7-ce83a844bb12.png)
 
 ## <a name="after-you-create-the-dlp-policy"></a>DLP 정책을 만든 후
 

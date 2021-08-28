@@ -19,12 +19,12 @@ description: Microsoft 365 Defender 포털에서 탐색기 및 실시간 검색�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 35044963b34d9120eb1490e64b8c9831ba6840aad7d7aa6b3b2776e70602d6fb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 94a7fb847eca7f46f543399d8de1b2d3d12e1908
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806017"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566561"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -40,12 +40,12 @@ ms.locfileid: "53806017"
 
 |Microsoft Defender for Office 365 요금제 2를 사용하면 다음을 볼 수 있습니다.|Microsoft Defender for Office 365 요금제 1을 사용하면 다음을 볼 수 있습니다.|
 |---|---|
-|![위협 탐색기](../../media/threatmgmt-explorer.png)|![실시간 탐지](../../media/threatmgmt-realtimedetections.png)|
+|![위협 탐색기.](../../media/threatmgmt-explorer.png)|![실시간 탐지](../../media/threatmgmt-realtimedetections.png)|
 |
 
 탐색기 또는 실시간 검색을 통해 보안 운영 팀이 위협을 효율적으로 조사하고 대응할 수 있습니다. 보고서는 다음 이미지와 같습니다.
 
-![위협 관리 \> 탐색기로 이동](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+![위협 관리 탐색기로 \> 이동 합니다.](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
 이 보고서를 사용하여 다음을 할 수 있습니다.
 
@@ -65,10 +65,10 @@ ms.locfileid: "53806017"
 개별 경고를 볼 때 URL 내에서 경고 ID를 사용할 수 있습니다. 의 `https://protection.office.com/viewalerts?id=372c9b5b-a6c3-5847-fa00-08d8abb04ef1` 예입니다.
 
 > [!div class="mx-imgBorder"]
-> ![경고 ID 필터링](../../media/AlertID-Filter.png)
+> ![경고 ID 필터링.](../../media/AlertID-Filter.png)
 
 > [!div class="mx-imgBorder"]
-> ![경고 ID 세부 정보 플라이아웃](../../media/AlertID-DetailsFlyout.png)
+> ![세부 정보 플라이아웃의 경고 ID입니다.](../../media/AlertID-DetailsFlyout.png)
 
 ### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days"></a>평가판 테넌트에 대한 탐색기(및 실시간 검색) 데이터 보존 및 검색 제한을 7일에서 30일로 확장
 
@@ -93,16 +93,16 @@ ms.locfileid: "53806017"
 전자 **메일 그리드의** 태그 열에는 보낸 사람 또는 받는 사람 사서함에 적용된 모든 태그가 포함되어 있습니다. 기본적으로 우선 순위 계정과 같은 시스템 태그가 먼저 표시됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![전자 메일 그리드 보기에서 태그 필터링](../../media/tags-grid.png)
+> ![전자 메일 그리드 보기에서 태그를 필터링합니다.](../../media/tags-grid.png)
 
 #### <a name="filtering"></a>필터링
 
 태그를 필터로 사용할 수 있습니다. 우선 순위 계정 또는 특정 사용자 태그 시나리오에서 헌트하기만 합니다. 특정 태그가 있는 결과를 제외할 수도 있습니다. 이 기능을 다른 필터와 결합하여 조사 범위를 좁힐 수 있습니다.
 
-[![필터 태그](../../media/tags-filter-normal.png)](../../media/tags-filter-normal.png#lightbox)
+[![필터 태그.](../../media/tags-filter-normal.png)](../../media/tags-filter-normal.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> ![필터 태그 아미기](../../media/tags-filter-not.png)
+> ![태그를 필터링하지 않습니다.](../../media/tags-filter-not.png)
 
 #### <a name="email-detail-flyout"></a>전자 메일 세부 정보 플라이아웃
 
@@ -110,14 +110,14 @@ ms.locfileid: "53806017"
 보낸 사람 및 받는 사람에 대한 개별 태그에 대한 정보도 내보낼 CSV 데이터로 확장되어 두 개의 개별 열에서 이러한 세부 정보를 볼 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![전자 메일 세부 정보 태그](../../media/tags-flyout.png)
+> ![전자 메일 세부 정보 태그.](../../media/tags-flyout.png)
 
 태그 정보는 URL 클릭 플라이아웃에도 표시됩니다. 이 보기를 보려면 피싱 또는 모든 전자 메일 보기로 이동한 다음 **URL** 또는 **URL 클릭 탭으로** 이동하세요. 해당 클릭과 연결된 태그를 포함하여 해당 URL의 클릭에 대한 추가 세부 정보를 보려면 개별 URL 플라이아웃을 선택합니다.
 
 ### <a name="updated-timeline-view"></a>업데이트된 시간 표시 막대 보기
 
 > [!div class="mx-imgBorder"]
-> ![URL 태그](../../media/tags-urls.png)
+> ![URL 태그.](../../media/tags-urls.png)
 >
 [이 비디오](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4)를 시청하여 자세히 확인하세요.
 
@@ -141,12 +141,12 @@ ms.locfileid: "53806017"
 이제 전자 메일 플라이아웃 세부 정보 탭에서 URL에 대한 특정 위협을 볼 **수** 있습니다. 위협은  *맬웨어,* *피싱, 스팸* 또는 *없음일 수* 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![URL 위협](../../media/URL_Threats.png)
+> ![URL 위협.](../../media/URL_Threats.png)
 
 ### <a name="updated-timeline-view-upcoming"></a>업데이트된 시간 표시 막대 보기(예정)
 
 > [!div class="mx-imgBorder"]
-> ![업데이트된 시간 표시 막대 보기](../../media/Email_Timeline.png)
+> ![시간 표시 막대 보기가 업데이트되었습니다.](../../media/Email_Timeline.png)
 
 시간 표시 막대 보기는 모든 배달 및 배달 후 이벤트를 식별합니다. 여기에는 이러한 이벤트의 하위 집합에 대해 해당 시점에 식별된 위협에 대한 정보가 포함됩니다. 시간 표시 막대 보기는 해당 작업의 결과와 함께 추가 작업(예: ZAP 또는 수동 수정)에 대한 정보도 제공합니다. 시간 표시 막대 보기 정보에는 다음이 포함됩니다.
 
@@ -163,7 +163,7 @@ ms.locfileid: "53806017"
 **원래 배달 위치는** 처음에 전자 메일이 배달된 위치에 대한 자세한 정보를 제공합니다. **최신 배달 위치는** *ZAP와* 같은 시스템 작업 또는 삭제된 항목으로 이동과 같은 관리자 작업 후에 전자 *메일이 전송된 위치를 표시됩니다.* 최신 배달 위치는 메시지의 배달 후 또는 시스템/관리자 작업을 관리자에게 알려 주기 위한 것입니다. 전자 메일에 대한 최종 사용자 작업은 포함하지 않습니다. 예를 들어 사용자가 메시지를 삭제하거나 메시지를 archive/pst로 이동한 경우 메시지 "배달" 위치가 업데이트되지 않습니다. 그러나 시스템 작업이 위치를 업데이트한 경우(예: ZAP로 인해 전자 메일이  검지로 이동) 최신 배달 위치는 "검사"로 표시됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![업데이트된 배달 위치](../../media/Updated_Delivery_Location.png)
+> ![배달 위치가 업데이트되었습니다.](../../media/Updated_Delivery_Location.png)
 
 > [!NOTE]
 > 배달 위치 및  배달 작업이  "알 수 없음"으로 표시될 수 있는 몇 가지 경우가 있습니다.
@@ -173,7 +173,7 @@ ms.locfileid: "53806017"
 > - **ZAP와** 같은 관리자/시스템 작업을 시도했지만 메시지를 찾을 수 없는 경우 최신 배달 위치를 알 수 없습니다. 일반적으로 이 작업은 사용자가 메시지를 이동하거나 삭제한 후에 발생합니다. 이러한 경우 시간 표시 막대 보기에서 **결과/세부** 정보 열을 확인해야 합니다. "사용자가 메시지를 이동하거나 삭제했습니다."라는 문을 찾아야 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![시간 표시 막대의 배달 위치](../../media/Updated_Timeline_Delivery_Location.png)
+> ![시간 표시 막대의 배달 위치입니다.](../../media/Updated_Timeline_Delivery_Location.png)
 
 ### <a name="additional-actions"></a>추가 작업
 
@@ -183,7 +183,7 @@ ms.locfileid: "53806017"
 > 보류 중인 변경 내용의 일부로 현재 배달 작업 필터에 표시되어 있는 "ZAP에서 제거됨" 값이 제거됩니다. 추가 작업을 통해 ZAP 시도가 있는 모든 전자 메일을 검색할 **수 있습니다.**
 
 > [!div class="mx-imgBorder"]
-> ![탐색기에서 추가 작업](../../media/Additional_Actions.png)
+> ![탐색기에서 추가 작업.](../../media/Additional_Actions.png)
 
 ### <a name="system-overrides"></a>시스템 오버라이드
 
@@ -199,10 +199,10 @@ ms.locfileid: "53806017"
 
 - 조직 정책에 의해 차단된 파일 확장명: 조직의 보안 팀이 맬웨어 방지 정책 설정을 통해 파일 이름 확장명을 차단합니다. 이러한 값은 조사에 도움이 될 수 있도록 전자 메일 세부 정보로 표시됩니다. Secops 팀은 다양한 필터링 기능을 사용하여 차단된 파일 확장명을 필터링할 수도 있습니다.
 
-[![탐색기에서 시스템 오버라이드](../../media/System_Overrides.png)](../../media/System_Overrides.png#lightbox)
+[![탐색기에서 시스템 오버라이드.](../../media/System_Overrides.png)](../../media/System_Overrides.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> ![탐색기에서 시스템 눈금을 오버라이드합니다.](../../media/System_Overrides_Grid.png)
+> ![시스템이 탐색기에서 그리드를 어버합니다.](../../media/System_Overrides_Grid.png)
 
 ### <a name="improvements-for-the-url-and-clicks-experience"></a>URL 및 클릭 환경 개선
 
@@ -210,7 +210,7 @@ ms.locfileid: "53806017"
 
 - URL 플라이아웃의 클릭 섹션에 전체 클릭된 URL(URL의 일부인 쿼리 매개 변수 포함)을 표시하세요.  현재 URL 도메인 및 경로는 제목 표시줄에 표시됩니다. 전체 URL을 표시하기 위해 해당 정보를 확장하고 있습니다.
 
-- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예시:
   - URL, URL 도메인 및 URL 도메인 및 경로 필터 필드의 사전 사전을 사용하여 `http://` 검색합니다.    검색에 동일한 결과가 표시해야 합니다.
   - `https://`URL에서 prefix를 **검색합니다.** 값을 지정하지 않으면 `http://` prefix가 가정됩니다.
   - `/`은 URL 경로, **URL** 도메인, **URL** 도메인 및 경로 필드의 시작과 끝에서 **무시됩니다.** `/` URL 필드의 끝에 있는 **은** 무시됩니다.
@@ -219,7 +219,7 @@ ms.locfileid: "53806017"
 
 피싱 신뢰 수준은 전자 메일이 "피싱"으로 분류된 신뢰 수준을 식별하는 데 도움이 됩니다. 가능한 두 값은 *High* 및 *Normal입니다.* 초기 단계에서 이 필터는 위협 탐색기 피싱 보기에서만 사용할 수 있습니다.
 
-[![탐색기에서 피싱 지수](../../media/Phish_Confidence_Level.png)](../../media/Phish_Confidence_Level.png#lightbox)
+[![탐색기에서 피싱 지수입니다.](../../media/Phish_Confidence_Level.png)](../../media/Phish_Confidence_Level.png#lightbox)
 
 ### <a name="zap-url-signal"></a>ZAP URL 신호
 
@@ -247,7 +247,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 내보낼 데이터뿐만 아니라 포털의 전자 메일 레코드에 대한 표준 시간대가 볼 수 있습니다. 전자 메일 그리드, 세부 정보 플라이아웃, 전자 메일 타임라인 및 유사한 전자 메일과 같은 환경 전반에 표시될 것이기 때문에 결과 집합의 표준 시간대가 명확합니다.
 
 > [!div class="mx-imgBorder"]
-> ![탐색기에서 표준 시간대 보기](../../media/TimezoneImprovements.png)
+> ![탐색기에서 표준 시간대를 니다.](../../media/TimezoneImprovements.png)
 
 ### <a name="update-in-the-refresh-process"></a>새로 고침 프로세스에서 업데이트
 
@@ -256,21 +256,21 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 환경 관점에서 사용자는 다양한 필터 범위(필터 집합 및 날짜)를 적용 및 제거하고 새로 고침 단추를 선택하여 쿼리를 정의한 후 결과를 필터링할 수 있습니다. 이제 화면에서 새로 고침 단추도 강조 표시됩니다. 관련 도구 설명 및 제품 내 설명서도 업데이트되었습니다.
 
 > [!div class="mx-imgBorder"]
-> ![새로 고침을 선택하여 결과 필터링](../../media/ManualRefresh.png)
+> ![결과를 필터링하려면 새로 고침을 선택합니다.](../../media/ManualRefresh.png)
 
 ### <a name="chart-drilldown-to-add-to-filters"></a>필터에 추가할 차트 드릴다운
 
 이제 범례 값을 차트로 차트에 필터로 추가할 수 있습니다. 결과를 **필터링하려면 새로** 고침 단추를 선택합니다.
 
 > [!div class="mx-imgBorder"]
-> ![차트에서 필터링으로 드릴다운](../../media/ChartDrilldown.png)
+> ![차트를 아래로 드릴다운하여 필터링합니다.](../../media/ChartDrilldown.png)
 
 ### <a name="in-product-information-updates"></a>제품 내 정보 업데이트
 
 이제 표 내의 총 검색 결과 수와 같은 추가 세부 정보를 제품 내에서 사용할 수 있습니다(아래 참조). 필터, 검색 환경 및 결과 집합에 대한 자세한 정보를 제공하기 위해 레이블, 오류 메시지 및 도구 탐색이 개선되어 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![제품 내 정보 보기](../../media/ProductInfo.png)
+> ![제품 내 정보 보기.](../../media/ProductInfo.png)
 
 ## <a name="extended-capabilities-in-threat-explorer"></a>위협 탐색기에서 확장된 기능
 
@@ -281,7 +281,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 각 전자 메일 보기에 대한 오프라인 분석 시도 횟수와 함께 대상 사용자 목록을 최대 3,000개까지 내보낼 수 있습니다. 또한 시도 횟수(예: 아래 이미지에서 13회 시도)를 선택하면 위협 탐색기에서 필터링된 보기가 열리기 때문에 해당 사용자의 전자 메일 및 위협에 대한 자세한 정보를 볼 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![상위 대상 사용자](../../media/Top_Targeted_Users.png)
+> ![상위 대상 사용자.](../../media/Top_Targeted_Users.png)
 
 ### <a name="exchange-transport-rules"></a>Exchange 전송 규칙
 
@@ -302,7 +302,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 > 전자 메일 그리드, 세부 정보 플라이아웃 및 내보내는 CSV 내에서 ETRS에는 아래 표시된 이름/GUID가 표시됩니다.
 >
 > > [!div class="mx-imgBorder"]
-> > ![Exchange 전송 규칙](../../media/ETR_Details.png)
+> > ![Exchange 전송 규칙.](../../media/ETR_Details.png)
 
 ### <a name="inbound-connectors"></a>인바운드 커넥터
 
@@ -311,7 +311,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 커넥터 검색은 본질적으로 "포함"입니다. 즉, 부분 키워드 검색도 작동해야 합니다. 주 그리드 보기, 세부 정보 플라이아웃 및 내보낼 CSV 내에서 커넥터는 다음과 같이 이름/GUID 형식으로 표시됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![커넥터 세부 정보](../../media/Connector_Details.png)
+> ![커넥터 세부 정보입니다.](../../media/Connector_Details.png)
 
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 새로운 기능
 
@@ -420,7 +420,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 > 네트워크 메시지 ID는 탐색기 또는 연결된 타사 도구를 통해 ID를 검색할 때 클릭을 특정 메일에 매핑합니다. 이러한 검색은 클릭 결과와 연결된 전자 메일을 식별합니다. 상호 관련 네트워크 메시지 ID를 사용하면 보다 빠르고 강력한 분석이 수행됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![탐색기에서 클릭 탭](../../media/tp_ExportClickResultAndNetworkID.png)
+> ![탐색기에서 탭을 클릭합니다.](../../media/tp_ExportClickResultAndNetworkID.png)
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>기술로 전자 메일에서 검색된 맬웨어 보기
 
@@ -431,19 +431,19 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 2. 보기 **메뉴에서** 전자 메일 **맬웨어** \> **를 선택합니다.**
 
    > [!div class="mx-imgBorder"]
-   > ![탐색기용 보기 메뉴](../../media/ExplorerViewEmailMalwareMenu.png)
+   > ![탐색기용 보기 메뉴입니다.](../../media/ExplorerViewEmailMalwareMenu.png)
 
 3. 보낸 **사람 을** 클릭한 다음 **기본** 검색 기술을 \> **클릭합니다.**
 
    이제 검색 기술을 보고서의 필터로 사용할 수 있습니다.
 
    > [!div class="mx-imgBorder"]
-   > ![맬웨어 감지 기술](../../media/ExplorerEmailMalwareDetectionTech.png)
+   > ![맬웨어 검색 기술.](../../media/ExplorerEmailMalwareDetectionTech.png)
 
 4. 옵션을 선택합니다. 그런 다음 새로 **고침 단추를** 선택하여 해당 필터를 적용합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![선택한 검색 기술](../../media/ExplorerEmailMalwareDetectionTechATP.png)
+   > ![선택된 검색 기술입니다.](../../media/ExplorerEmailMalwareDetectionTechATP.png)
 
 보고서가 새로 고쳐서 선택한 기술 옵션을 사용하여 전자 메일에서 맬웨어가 검색된 결과를 보여 주며, 여기에서 추가 분석을 진행할 수 있습니다.
 
@@ -465,7 +465,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 4. 차단 및 다시 설정 차단과 같은 하나 이상의 옵션을 선택한  다음 해당 필터를 적용할 옵션과 같은 줄에서 새로 고침 단추를 선택합니다.  (브라우저 창을 새로 고치지 않습니다.)
 
    > [!div class="mx-imgBorder"]
-   > ![URL 및 클릭 판정](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
+   > ![URL 및 확인을 클릭합니다.](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
 
    보고서가 새로 고쳐지며 보고서 아래에 있는 URL 탭에 두 개의 서로 다른 URL 테이블이 표시됩니다.
 
@@ -476,7 +476,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
    두 URL 테이블에는 배달 작업 및 위치로 피싱 전자 메일 메시지의 상위 URL이 표시됩니다. 표에는 경고에도 불구하고 차단되거나 방문한 URL 클릭이 표시 있으므로 사용자에게 제공된 잠재적인 잘못된 링크와 사용자의 클릭을 볼 수 있습니다. 여기에서 추가 분석을 진행할 수 있습니다. 예를 들어 차트 아래에서 조직의 환경에서 차단된 전자 메일 메시지의 상위 URL을 볼 수 있습니다.
 
    > [!div class="mx-imgBorder"]
-   > ![차단된 탐색기 URL](../../media/ExplorerPhishClickVerdictURLs.png)
+   > ![차단된 탐색기 URL입니다.](../../media/ExplorerPhishClickVerdictURLs.png)
 
    자세한 정보를 확인하려면 URL을 선택합니다.
 
@@ -505,14 +505,14 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 2. 보기 **메뉴에서** 전자 메일 제출  \> **을 선택합니다.**
 
    > [!div class="mx-imgBorder"]
-   > ![전자 메일용 탐색기 메뉴 보기](../../media/explorer-view-menu-email-user-reported.png)
+   > ![전자 메일에 대한 탐색기 메뉴를 니다.](../../media/explorer-view-menu-email-user-reported.png)
 
 3. 보낸 **사람 을** 클릭한 다음 **기본** 보고서 유형 \> **을 클릭합니다.**
 
 4. 피싱 등의 **옵션을** 선택한 다음 새로 **고침 단추를** 선택합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![사용자가 보고한 피싱](../../media/EmailUserReportedReportType.png)
+   > ![사용자가 보고한 피싱입니다.](../../media/EmailUserReportedReportType.png)
 
 이 보고서는 조직의 사람들이 피싱 시도로 보고한 전자 메일 메시지에 대한 데이터를 표시하기 위해 새로 고쳐서 표시됩니다. 이 정보를 사용하여 추가 분석을 수행하고 필요한 경우 [Microsoft Defender에서](configure-mdo-anti-phishing-policies.md)피싱 방지 정책을 조정할 수 Office 365.
 

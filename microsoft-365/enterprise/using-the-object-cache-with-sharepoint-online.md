@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 38bc9c14-3826-449c-beb6-b1003bcbeaaf
 description: 이 문서에서는 SharePoint Server 2013의 개체 캐시 사용과 SharePoint Online의 차이점에 대해 설명하고 있습니다.
-ms.openlocfilehash: 669a68e949c5e83be794644e0d4b9ae117c69e6282f2d0ea15f96a0ad3e90461
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 40863ccf375620cf4b38d231fa0a86336c4826cc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566725"
 ---
 # <a name="using-the-object-cache-with-sharepoint-online"></a>SharePoint online에서 개체 캐시 사용
 
@@ -36,7 +36,7 @@ ms.locfileid: "53894858"
 
 SharePoint Server 2013이 사내에서 호스팅되는 경우 고객에게는 개체 캐시를 호스트하는 개인 프런트 엔드 웹 서버가 있습니다. 즉, 캐시는 고객 한 명에게만 전용으로 사용 가능하고 개체 캐시에 할당되는 메모리의 크기에 의해서만 제한됩니다. 프런트 엔드 웹 서버는 일반적으로 한 고객만이 동일한 사이트에 대한 요청을 여러 번 실행하게 됩니다. 즉, 캐시가 빠르게 가득 차고 사용자가 정기적으로 요청하는 SharePoint 쿼리 결과 및 모든 개체가 그대로 남아 있습니다.
   
-![온-프레미스 프런트 엔드 웹 서버에 대한 트래픽 및 로드 표시](../media/a0d38b36-4909-4abb-8d4e-4930814bb3de.png)
+![트래픽 및 부하를 사내 프런트 엔드 웹 서버로 보여줍니다.](../media/a0d38b36-4909-4abb-8d4e-4930814bb3de.png)
   
 따라서 사용자가 페이지를 두 번째 방문하면 페이지 로드 시간이 향상됩니다. 같은 페이지의 부하가 네 개 이상이면 모든 프런트 엔드 웹 서버에서 해당 페이지가 캐시됩니다.
   
@@ -44,7 +44,7 @@ SharePoint Server 2013이 사내에서 호스팅되는 경우 고객에게는 �
   
 다음 그림에서 각 점은 사용자가 요청하는 페이지와 캐시된 페이지를 나타내고 있습니다. 서로 다른 색은 SaaS 인프라를 공유하는 다양한 고객을 나타내고 있습니다.
   
-![SharePoint Online의 개체 캐시 결과 표시](../media/25d04011-ef83-4cb7-9e04-a6ed490f63c3.png)
+![Online에서 개체 캐싱의 결과를 SharePoint 나타냅니다.](../media/25d04011-ef83-4cb7-9e04-a6ed490f63c3.png)
   
 다이어그램에서 볼 수 있 있든, 주어진 사용자가 해당 페이지의 캐시된 버전을 사용하여 서버를 적중할 가능성은 배제됩니다. 또한 많은 사이트 간에 서버가 공유되는 데 많고 캐시가 오래 지속되지는 않습니다. 캐싱을 사용할 수 있는 공간이 너무 많기 때문에 캐시가 오래 지속되지 않습니다.
   

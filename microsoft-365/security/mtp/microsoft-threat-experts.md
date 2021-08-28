@@ -1,7 +1,7 @@
 ---
-title: Microsoft 위협 전문가 Defender의 Microsoft 365 개요
+title: Microsoft 위협 전문가 Microsoft 365 Defender 개요
 ms.reviewer: ''
-description: Microsoft 위협 전문가 Defender를 지원하기 위한 추가 전문 Microsoft 365 제공합니다.
+description: Microsoft 위협 전문가 추가 전문 지식 계층을 Microsoft 365 Defender.
 keywords: 관리되는 위협 헌팅 서비스, 관리되는 위협 헌팅, MDR(관리되는 감지 및 응답) 서비스, MTE, Microsoft 위협 전문가
 search.product: Windows 10
 search.appverid: met150
@@ -15,12 +15,12 @@ localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.openlocfilehash: a545794e0ca5739f0b65513edce0c61bb649ad82
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 4fcab8abd4f1a5a45ff2700b01abc7fe67b8563f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764426"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565675"
 ---
 # <a name="microsoft-threat-experts-in-microsoft-365-overview"></a>Microsoft 위협 전문가 Microsoft 365 개요
 
@@ -41,9 +41,9 @@ Microsoft 위협 전문가 – 요구 시 전문가를 통해 조직이 직면�
 > [!IMPORTANT]
 > 적용하기 전에 Microsoft 기술 서비스 공급자 및 계정 팀과 Microsoft 위협 전문가 - 대상 공격 알림의 자격 요구 사항을 논의해야 합니다.
 
-Endpoint 및 Microsoft 365용 Microsoft Defender가 이미 있는 경우 Microsoft 위협 전문가 Defender 포털을 통해 Microsoft 위협 전문가 – 대상 공격 알림에 Microsoft 365 있습니다. 설정 > **Endpoints > General > Advanced features > Microsoft 위협 전문가 – Targeted Attack Notifications(대상** 공격 알림> Microsoft 위협 전문가 적용)으로 **이동하고 적용을 선택합니다.** 자세한 [Microsoft 위협 전문가 기능](./configure-microsoft-threat-experts.md) 구성을 참조하세요.
+끝점용 Microsoft Defender 및 Microsoft 365 Defender 이미 있는 경우 Microsoft 위협 전문가 포털을 통해 Microsoft 위협 전문가 – 대상 공격 알림을 Microsoft 365 Defender 있습니다. 설정 > **Endpoints > General > Advanced features > Microsoft 위협 전문가 – Targeted Attack Notifications(대상** 공격 알림> Microsoft 위협 전문가 적용)으로 **이동하고 적용을 선택합니다.** 자세한 [Microsoft 위협 전문가 기능](./configure-microsoft-threat-experts.md) 구성을 참조하세요.
 
-![MTE 응용 프로그램 페이지의 스크린샷](../../media/mte/mte-collaboratewithmte.png)
+![MTE 응용 프로그램 페이지의 스크린샷.](../../media/mte/mte-collaboratewithmte.png)
 
 응용 프로그램이 승인되면 위협 전문가가 환경에 대한 위협을 감지할 때마다 대상 공격 알림을 수신하게 됩니다.
 
@@ -71,19 +71,19 @@ Microsoft 위협 전문가 - 대상 공격 알림 기능은 네트워크에 대�
 위협 **전문가에게 문의** 옵션은 포털 전체의 여러 곳에서 사용할 수 있습니다.
 
 - <i>**장치 페이지 작업 메뉴**</i><BR>
-![장치 페이지 작업 메뉴의 MTE-EOD 메뉴 옵션 스크린샷](../../media/mte/device-actions-mte-highlighted.png)
+![장치 페이지 작업 메뉴의 MTE-EOD 메뉴 옵션 스크린샷.](../../media/mte/device-actions-mte-highlighted.png)
 
 - <i>**장치 인벤토리 페이지 플라이아웃 메뉴**</i><BR>
-![장치 인벤토리 페이지의 MTE-EOD 메뉴 옵션 스크린샷](../../media/mte/device-inventory-mte-highlighted.png)
+![장치 인벤토리 페이지의 MTE-EOD 메뉴 옵션 스크린샷.](../../media/mte/device-inventory-mte-highlighted.png)
 
 - <i>**경고 페이지 플라이아웃 메뉴**</i><BR>
-![경고 페이지의 MTE-EOD 메뉴 옵션 스크린샷](../../media/mte/alerts-actions-mte-highlighted.png)
+![경고 페이지의 MTE-EOD 메뉴 옵션 스크린샷.](../../media/mte/alerts-actions-mte-highlighted.png)
 
 - <i>**인시던트 페이지 작업 메뉴**</i><BR>
-![문제 페이지의 MTE-EOD 메뉴 옵션 스크린샷](../../media/mte/incidents-action-mte-highlighted.png)
+![문제 페이지의 MTE-EOD 메뉴 옵션 스크린샷.](../../media/mte/incidents-action-mte-highlighted.png)
 
 - <i>**인시던트 인벤토리 페이지**</i><BR>
-![인시던트 인벤토리 페이지의 MTE-EOD 메뉴 옵션 스크린샷](../../media/mte/incidents-inventory-mte-highlighted.png)
+![인시던트 인벤토리 페이지의 MTE-EOD 메뉴 옵션 스크린샷.](../../media/mte/incidents-inventory-mte-highlighted.png)
 
 > [!NOTE]
 > Microsoft Defender for Office 365 라이선스에 매핑된 프리미어 지원 구독이 있는 경우 Microsoft 서비스 허브를 통해 요구 시 전문가 사례의 상태를 추적할 수 있습니다.

@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 가능한 메일 루프 수정 정보를 사용하여 조직의 메일 루프를 식별하고 & 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c391dee66461dd2535de5f05ef6ebd0f00b8dde0b7c973df8fa638199885dd22
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0c866dbec4a406c47bec072225dbe038510d71de
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56813752"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563745"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 가능한 메일 루프 & 해결
 
@@ -40,7 +40,7 @@ ms.locfileid: "56813752"
 
 이 인사이트는 조건이 검색된 후에만 나타납니다(메일 루프가 없는 경우 인사이트를 볼 수 없습니다).
 
-![메일 흐름 대시보드의 권장 영역의 느린 메일 흐름 규칙 인사이트 수정](../../media/mfi-fix-possible-mail-loop.png)
+![메일 흐름 대시보드의 권장 영역의 느린 메일 흐름 규칙 정보를 수정합니다.](../../media/mfi-fix-possible-mail-loop.png)
 
 위젯에서 세부 **정보** 보기를 클릭하면 추가 정보가 있는 플라이아웃이 나타납니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "56813752"
 - **MX 레코드:** 도메인에 대한  MX 레코드의 호스트(**메일** 서버) 및 우선 순위 값입니다.
 - **루프 이유** 및 해결 **방법:** 가장 일반적인 메일 루프 시나리오를 식별하고 루프를 해결하기 위한 권장 작업을 제공합니다.
 
-![가능한 메일 루프 정보 수정에서 세부 정보 보기를 클릭한 후 나타나는 세부 정보 플라이아웃](../../media/mfi-fix-possible-mail-loop-details.png)
+![가능한 메일 루프 정보 수정에서 세부 정보 보기를 클릭한 후 나타나는 플라이아웃에 대한 세부 정보입니다.](../../media/mfi-fix-possible-mail-loop-details.png)
 
 ## <a name="see-also"></a>참고 항목
 

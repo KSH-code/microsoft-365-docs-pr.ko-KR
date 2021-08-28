@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: 68fa947467948a788b5902ef50b7b9d574101a3a
-ms.sourcegitcommit: fac7b4b0095254c87b2a341fa2d53a42193f8957
+ms.openlocfilehash: ce6de37a792c81e9d43b3d7c716629e386fca7b3
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58417978"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566021"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Microsoft 365 끝점 데이터 손실 방지 알아보기
 
@@ -86,7 +86,7 @@ Microsoft 끝점 DLP를 사용하면 사용자가 Windows 10 디바이스에 물
 장치 관리는 장치에서 원격 분석 수집을 사용하도록 설정하고 원격 분석 수집을 끝점 DLP 및 [참가자 위험 관리](insider-risk-management.md)와 같은 Microsoft 365 규정 준수 솔루션으로 가져오는 기능입니다. DLP 정책에서 위치로 사용하려는 모든 장치를 등록해야 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![장치 관리를 사용하도록 설정](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
+> ![장치 관리를 사용하도록 설정.](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
 
 장치 관리 센터에서 다운로드한 스크립트를 통해 온보딩 및 오프보딩이 처리됩니다. 해당 센터는 각 배포 방법에 대한 사용자 지정 스크립트를 포함합니다.
 
@@ -97,14 +97,14 @@ Microsoft 끝점 DLP를 사용하면 사용자가 Windows 10 디바이스에 물
 - 비 영구적인 컴퓨터에 대한 VDI 온보딩 스크립트
 
 > [!div class="mx-imgBorder"]
-> ![장치 온보딩 페이지](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)
+> ![장치 온보딩 페이지.](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)
 
  [Microsoft 365 끝점 DLP 시작하기](endpoint-dlp-getting-started.md)의 절차를 사용하여 장치를 등록하세요.
 
 [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)를 통해 장치를 온보딩한 경우, 해당 장치는 장치 목록에 자동으로 표시됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![관리된 장치 목록](../media/endpoint-dlp-learn-about-2-device-list.png)
+> ![관리된 장치 목록.](../media/endpoint-dlp-learn-about-2-device-list.png)
 
 ### <a name="viewing-endpoint-dlp-data"></a>끝점 DLP 데이터 확인하기
 
@@ -116,12 +116,12 @@ Microsoft 끝점 DLP를 사용하면 사용자가 Windows 10 디바이스에 물
 동일한 대시보드에서 서식 있는 메타데이터와 관련된 이벤트 세부 정보를 볼 수도 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![이벤트 정보](../media/Event-info-1.png)
+> ![이벤트 정보.](../media/Event-info-1.png)
 
 장치가 등록되면 장치를 위치로 포함하는 모든 DLP 정책을 구성하고 배포하기 전에 감사 활동에 대한 정보가 활동 탐색기로 전달됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![활동 탐색기의 끝점 DLP 이벤트](../media/endpoint-dlp-learn-about-4-activity-explorer.png)
+> ![활동 탐색기의 끝점 DLP 이벤트.](../media/endpoint-dlp-learn-about-4-activity-explorer.png)
 
 끝점 DLP는 감사 활동에 대한 광범위한 정보를 수집합니다.
 
@@ -153,7 +153,7 @@ Microsoft 끝점 DLP를 사용하면 사용자가 Windows 10 디바이스에 물
 - 이동식 미디어 장치 일련 번호
 
 > [!div class="mx-imgBorder"]
-> ![USB 활동 특성에 복사](../media/endpoint-dlp-learn-about-5-activity-attributes.png)
+> ![USB 활동 특성에 복사.](../media/endpoint-dlp-learn-about-5-activity-attributes.png)
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 메일 흐름 맵을 사용하여 커넥터를 사용하지 않고도 조직에서 & 흐름을 시각화하고 추적하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6bf906871bc95bd57ef3ffc342352c4ce8b5fea96bb6a5212b04b000d66c7b41
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bdde117d8984db3a71624ab48a6ed88ba8367054
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56816872"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563757"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 흐름 맵
 
@@ -32,9 +32,9 @@ ms.locfileid: "56816872"
 
 보안 **및** 준수 [](mail-flow-insights-v2.md) 센터의 메일 [](https://protection.office.com) 흐름 대시보드에 있는 메일 흐름 & 조직을 통해 메일이 흐르는 방식에 대한 정보를 제공합니다. 이 정보를 사용하여 패턴을 학습하고, 오류를 식별하고, 발생할 때 문제를 해결할 수 있습니다.
 
-![보안 및 준수 센터의 메일 흐름 대시보드에서 메일 흐름 & 위젯](../../media/mfi-mail-flow-map-widget.png)
+![보안 및 준수 센터의 메일 흐름 대시보드에 있는 메일 흐름 & 위젯입니다.](../../media/mfi-mail-flow-map-widget.png)
 
-기본적으로 위젯에는 전날의 메일 흐름 패턴이 Sankey 다이어그램으로 알려진 *차트에* 표시됩니다. 왼쪽 화살표 왼쪽 화살표와 오른쪽 화살표 오른쪽 화살표를 사용하여 다른 일의 정보를 ![ ](../../media/scc-left-arrow.png) ![ ](../../media/scc-right-arrow.png) 표시하는 데 사용할 수 있습니다. 각 색은 서로 다른 인바운드 또는 아웃바운드 커넥터를 통해(또는 커넥터를 사용하지 않고) 메일 흐름을 나타내며, 특정 색 위에 마우스를 대면 해당 유형의 커넥터에 대한 메시지 수가 표시됩니다.
+기본적으로 위젯에는 전날의 메일 흐름 패턴이 Sankey 다이어그램으로 알려진 *차트에* 표시됩니다. 왼쪽 화살표 왼쪽 ![ 화살표를 사용할 수 있습니다.](../../media/scc-left-arrow.png) 오른쪽 화살표를 사용하여 다른 일의 ![ ](../../media/scc-right-arrow.png) 정보를 표시하는 오른쪽 화살표 각 색은 서로 다른 인바운드 또는 아웃바운드 커넥터를 통해(또는 커넥터를 사용하지 않고) 메일 흐름을 나타내며, 특정 색 위에 마우스를 대면 해당 유형의 커넥터에 대한 메시지 수가 표시됩니다.
 
 ## <a name="report-view-for-the-mail-flow-map"></a>메일 흐름 맵에 대한 보고서 보기
 
@@ -44,11 +44,11 @@ ms.locfileid: "56816872"
 
 - **데이터 표시: 개요:** 이 보기는 기본적으로 위젯의 더 큰 보기입니다. 특정 색 위에 마우스를 대면 해당 유형의 커넥터에 대한 메시지 수가 표시됩니다.
 
-  ![메일 흐름 지도 보고서의 개요 보기](../../media/mfi-mail-flow-map-report-overview.png)
+  ![메일 흐름 지도 보고서의 개요 보기입니다.](../../media/mfi-mail-flow-map-report-overview.png)
 
 - **데이터 표시: 세부 정보:** 이 보기에는 커넥터 및 대상 도메인에 대한 세부 정보가 표시됩니다. 최상위 보낸 사람 및 받는 사람 도메인이 나열되어 나머지는 기타 에 **추가됩니다.** 특정 색과 섹션 위에 마우스를 대면 메시지 수가 표시됩니다.
 
-  ![메일 흐름 지도 보고서의 세부 정보 보기](../../media/mfi-mail-flow-map-report-detail.png)
+  ![메일 흐름 지도 보고서의 세부 정보 보기입니다.](../../media/mfi-mail-flow-map-report-detail.png)
 
 보고서 보기에서 **필터를** 클릭하면 시작 날짜 및  종료 날짜로 날짜 범위를 **지정할 수 있습니다.**
 
@@ -61,7 +61,7 @@ ms.locfileid: "56816872"
 보고서 보기에서 **세부** 정보 표 보기를 클릭하면 다음 정보가 표시됩니다.
 
 - **날짜**
-- **종류**
+- **범주**
 - **커넥터/타사 서비스 공급자**
 - **보낸 사람/받는 사람 도메인**
 - **메시지 수**
@@ -70,7 +70,7 @@ ms.locfileid: "56816872"
 
 행을 선택하면 플라이아웃에 유사한 세부 정보가 표시됩니다.
 
-![메일 흐름 맵의 세부 정보 표에서 세부 정보 플라이아웃](../../media/mfi-mail-flow-map-view-details-table-details.png)
+![메일 흐름 맵의 세부 정보 표에서 플라이아웃 세부 정보](../../media/mfi-mail-flow-map-view-details-table-details.png)
 
 특정 날짜 범위에 대한 보고서를 한명 이상의 받는 사람에게 전자 메일로 보내려면 다운로드 **요청을 클릭합니다.**
 

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: 텍스트, 주석 Advanced eDiscovery 또는 기본 보기와 같은 콘텐츠 보기 방법을 선택하세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0cbb720ee935b9c6046eb2d7b78b1bcf8a06e9284bc01133145eb6c8ed0820ad
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1aab4f5e2f5674392fd5577afdb12865b9405380
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865401"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565281"
 ---
 # <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>문서의 검토 집합에서 Advanced eDiscovery
 
@@ -53,9 +53,9 @@ Advanced eDiscovery는 각각 다른 목적을 가진 여러 뷰어를 통해 �
 - 스크롤 막대뿐만 아니라 문서 내의 용어를 강조 표시하는 검색 적중 강조 표시
 - Diff 보기는 가까운 중복 문서를 볼 때 텍스트 차이를 강조 표시하는 비교 보기를 제공합니다.
 
-![텍스트 보기](../media/Reviewimage4.png)
+![텍스트 보기입니다.](../media/Reviewimage4.png)
 
-![Diff 보기](../media/Reviewimage5.png)
+![Diff 보기입니다.](../media/Reviewimage5.png)
 
 ## <a name="annotate-view"></a>주석 보기
 
@@ -72,7 +72,7 @@ Annotate 보기는 사용자가 다음을 포함하여 문서에 변경을 적�
 - Rotate – 사용자가 문서를 시계 방향으로 회전할 수 있습니다.
 - 검색 - 사용자가 문서 내에서 검색하고 문서 내에서 다양한 적중 수를 탐색할 수 있습니다.
 
-  ![주석 보기](../media/Reviewimage1.png)
+  ![보기에 주석을 습니다.](../media/Reviewimage1.png)
 
 ## <a name="dashboard-view"></a>대시보드 보기
 

@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: e3e8ff4f94b0295b4ce42e20175a3547cfb4ae23
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.openlocfilehash: 7b09c12c1d4c519a47fc60057ab26741a7145469
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359923"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566689"
 ---
 # <a name="defender-for-identity-entity-tags-in-microsoft-365-defender"></a>Id 엔터티 태그에 대한 defender Microsoft 365 Defender
 
@@ -32,11 +32,11 @@ ms.locfileid: "58359923"
 
 이러한 태그를 설정하기 [위해](https://security.microsoft.com/)Microsoft 365 Defender 에서 설정  **ID로 이동합니다.**
 
-![다음 설정 다음 ID로 이동](../../media/defender-identity/settings-identities.png)
+![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
 태그 설정은 엔터티 태그 **아래에 표시됩니다.**
 
-![태그 설정 유형](../../media/defender-identity/tag-settings.png)
+![태그 설정 유형입니다.](../../media/defender-identity/tag-settings.png)
 
 각 태그 유형을 설정하기 위해 아래 지침을 따릅니다.
 
@@ -48,15 +48,15 @@ ms.locfileid: "58359923"
 
 1. 중요 **를 선택합니다.** 그러면 기존 중요한 **사용자,** 장치 **및** 그룹이 볼 **수 있습니다.**
 
-    ![중요한 엔터티](../../media/defender-identity/sensitive-entities.png)
+    ![중요한 엔터티.](../../media/defender-identity/sensitive-entities.png)
 
 1. 각 범주에서 **태그...를** 선택하여 해당 엔터티 유형에 태그를 지정합니다. 예를 들어 그룹 **아래에서** 태그 **그룹을 선택합니다.** 창이 태그로 선택할 수 있는 그룹과 함께 열립니다. 그룹을 검색하기 위해 검색 상자에 해당 이름을 입력합니다.
 
-    ![그룹 추가](../../media/defender-identity/add-groups.png)
+    ![그룹을 추가합니다.](../../media/defender-identity/add-groups.png)
 
 1. 그룹을 선택하고 선택 영역 **추가를 클릭합니다.**
 
-    ![선택 영역 추가](../../media/defender-identity/add-selection.png)
+    ![선택을 추가합니다.](../../media/defender-identity/add-selection.png)
 
 ## <a name="honeytoken-tags"></a>Honeytoken 태그
 
@@ -66,15 +66,15 @@ Honeytoken 엔터티는 악의적인 공격자에 대한 트래핑으로 사용�
 
 1. **Honeytoken 을 선택합니다.** 그런 다음 기존 허니투게한 사용자 및 **장치 를** **볼 수 있습니다.**
 
-    ![Honeytoken 엔터티](../../media/defender-identity/honeytoken-entities.png)
+    ![Honeytoken 엔터티.](../../media/defender-identity/honeytoken-entities.png)
 
 1. 각 범주에서 **태그...를** 선택하여 해당 엔터티 유형에 태그를 지정합니다. 예를 들어 사용자 **아래에서** 사용자 **태그를 선택합니다.** 창이 태그로 선택할 수 있는 그룹과 함께 열립니다. 그룹을 검색하기 위해 검색 상자에 해당 이름을 입력합니다.
 
-    ![사용자 추가](../../media/defender-identity/add-users.png)
+    ![사용자를 추가합니다.](../../media/defender-identity/add-users.png)
 
 1. 사용자를 선택하고 선택 영역 **추가를 클릭합니다.**
 
-    ![선택한 사용자 추가](../../media/defender-identity/add-selected-user.png)
+    ![선택한 사용자를 추가합니다.](../../media/defender-identity/add-selected-user.png)
 
 ## <a name="exchange-server-tags"></a>Exchange 서버 태그
 
@@ -82,15 +82,15 @@ ID에 대한 defender는 Exchange 서버를 높은 가치의 자산으로 고려
 
 1. 서버 **Exchange 선택합니다.** 그런 다음 기존 디바이스에 서버 태그로 레이블이 **Exchange** 표시됩니다.
 
-    ![Exchange 서버](../../media/defender-identity/exchange-servers.png)
+    ![Exchange 서버.](../../media/defender-identity/exchange-servers.png)
 
 1. 디바이스를 Exchange 태그를 지정하려면 디바이스 **태그를 선택합니다.**  태그를 지정하기 위해 선택할 수 있는 장치와 함께 창이 열립니다. 장치를 검색하려면 검색 상자에 해당 이름을 입력합니다.
 
-    ![장치 추가](../../media/defender-identity/add-devices.png)
+    ![디바이스를 추가합니다.](../../media/defender-identity/add-devices.png)
 
 1. 장치를 선택하고 선택 영역 **추가를 클릭합니다.**
 
-    ![디바이스 선택](../../media/defender-identity/select-device.png)
+    ![디바이스를 선택합니다.](../../media/defender-identity/select-device.png)
 
 ## <a name="see-also"></a>참고 항목
 

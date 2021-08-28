@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 분류자를 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 7694337e28a1d18ddf1eed3bddc0d4d8c9e2ebaee4f5c575cb057b1d4ef58af7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e9c8a08fe3583f4692edcc4649854a26950eb717
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53850447"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565269"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 분류자 만들기
 
@@ -31,7 +31,7 @@ ms.locfileid: "53850447"
 
 분류자는 문서 유형의 식별 및 분류를 자동화하는 데 사용할 수 있는 모델 유형입니다. 예를 들어 다음 그림과 같이 문서 라이브러리에 추가되는 모든 *계약 갱신* 문서를 식별할 수 있습니다.
 
-![계약 갱신 문서](../media/content-understanding/contract-renewal.png)
+![계약 갱신 문서.](../media/content-understanding/contract-renewal.png)
 
 분류자를 만들면 모델에 연결되는 새 [SharePoint 콘텐츠 유형](/sharepoint/governance/content-type-and-workflow-planning#content-type-overview)을 만들 수 있습니다.
 
@@ -143,7 +143,7 @@ SharePoint 콘텐츠 유형 갤러리에서 해당 모델을 기존 엔터프라
 1. 모델 홈페이지에서 **테스트** 탭을 선택합니다. 이 경우 레이블이 지정되지 않은 샘플 파일에서 모델이 실행됩니다.
 2. **테스트 파일** 목록에서 예제 파일이 표시되고 모델이 해당 예제 파일을 긍정 예제로 예상하는지 부정 예제로 예상하는지 보여줍니다. 이 정보를 사용하여 문서를 식별하는 데 필요한 분류자 효율성을 결정할 수 있습니다.
 
-    ![레이블이 지정되지 않은 파일 테스트](../media/content-understanding/test-on-files.png) 
+    ![레이블이 지정되지 않은 파일 테스트.](../media/content-understanding/test-on-files.png) 
 
 ## <a name="see-also"></a>참고 항목
 [추출기 만들기](create-an-extractor.md)

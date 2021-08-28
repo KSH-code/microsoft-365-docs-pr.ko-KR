@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: 05bb73269d78c08de3345ab001d12892960e30bf35c7ef43772212fc200ff435
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b6aaf63f61919c520c77a09bf3607174757d4c2b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826325"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566319"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
@@ -99,7 +99,7 @@ ms.locfileid: "53826325"
 
 2. **사서함 위임** 을 선택합니다.
 
-3. 모든 권한 및 다른 사람 권한을 부여하거나 제거하려면 **아이콘** ![아이콘 추가](../../media/ITPro-EAC-AddIcon.png) 또는 **제거** ![아이콘 제거](../../media/ITPro-EAC-RemoveIcon.gif)를 선택한 다음 사용 권한을 부여할 사용자를 선택합니다.
+3. 전체 액세스 및 다른 사람 이름으로 보내기 권한을 부여하거나 제거하려면 **추가** ![아이콘 추가](../../media/ITPro-EAC-AddIcon.png) 또는 **제거** ![아이콘 제거](../../media/ITPro-EAC-RemoveIcon.gif)를 선택한 다음 권한을 부여하려고 하는 사용자를 선택합니다.
 
    > [!NOTE]
    > 모든 액세스 권한을 사용하면 사서함을 열 수 있을 뿐만 아니라 사서함에서 항목을 만들고 수정할 수 있습니다. 다른 사람 이름으로 보내기 권한을 사용하면 사서함 소유자가 아닌 사용자가 공유 사서함에서 전자 메일을 보낼 수 있습니다. 두 권한 모두 공유 사서함 작업에 필요합니다.

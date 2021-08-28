@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: 직원, Microsoft 365 또는 공급업체와 같은 사용자 또는 연락처를 전자 메일 그룹에 추가하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a5cce43d37eb67b40f284b732aa8cb997c14bc30e9c7f359247170195073e9cb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: af7581a7541835185a7cc8df12dcc58b779243ca
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53832793"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566331"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>메일 그룹에 사용자 또는 연락처 추가
 
@@ -43,7 +43,7 @@ ms.locfileid: "53832793"
 
 4. 구성원 **보기 페이지에서** 구성원 추가를 선택하고 메일 그룹에 추가할 사용자 또는 연락처를 선택합니다. 
     
-    ![메일 그룹에 구성원 추가](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
+    ![메일 그룹에 구성원을 추가합니다.](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
 5. **저장을** 선택한 다음 **닫기 를 선택합니다.**
 

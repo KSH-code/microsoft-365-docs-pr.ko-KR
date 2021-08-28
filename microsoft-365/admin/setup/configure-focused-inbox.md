@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 비즈니스 내 모든 사용자의 전자 메일 설정 구성 책임을 맡고 있다면 이 문서에서 사용자의 중요 받은 편지함 구성 방법에 대해 알아보세요.
-ms.openlocfilehash: 3e296bbfd45955cf7ba97a90e565be3ec6d4412f
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 6bc33211af5ee0cd064b63f95e720f19cee196e5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394543"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567811"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 
@@ -123,13 +123,13 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
 
-2. **메일 흐름** \> **규칙** 으로 이동합니다. ![EAC 아이콘 추가](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif)를 선택한 다음 **새 규칙 만들기** 를 선택합니다. 
+2. **메일 흐름** \> **규칙** 으로 이동합니다. ![EAC 추가 아이콘](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif)을 선택합니다. 그런 다음 **새 규칙 만들기** 를 선택합니다. 
 
 3. 새 규칙 만들기가 완료되면 **저장** 을 선택하여 해당 규칙을 시작합니다.
 
     다음 이미지는 "급여 부서"의 모든 메시지가 중요 받은 편지함으로 배달되는 예를 보여 줍니다.
 
-    ![focusedinbox 급여](../../media/focusedinbox-transport-rule.PNG)
+    ![focusedinbox 급여.](../../media/focusedinbox-transport-rule.PNG)
 
     > [!NOTE]
     > 이 예제에서 메시지 헤더 값 텍스트는 **X-MS-Exchange-Organization-BypassFocusedInbox** 입니다.

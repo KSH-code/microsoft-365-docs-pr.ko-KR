@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: SharePoint 사이트 사용 현황 보고서를 통해 사용자가 SharePoint 사이트에 저장하는 파일 수, 적극적으로 사용되는 파일 수 및 사용된 총 저장소를 알 수 있습니다.
-ms.openlocfilehash: 2280630999ee3fa95d37b27cc57ec36140dd1d953dec0f2cafea8367baf2391e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a55f76fe1ca53129af27647b42ca44ce267a626c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816238"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564795"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>Microsoft 365 관리 센터의 보고서 - SharePoint 사용 현황
 
@@ -46,7 +46,7 @@ Microsoft 365 관리 센터의 보고서는 High 및 DoD 테넌트에 GCC 지원
 
 사이트 사용 현황 탭을 선택하여 SharePoint 보고서에서 사이트 사용 **현황을 볼 수** 있습니다.<br/>![Microsoft 365 보고서 - Microsoft SharePoint 사이트 사용 현황 보고서입니다.](../../media/d1cb6200-e81c-460b-9d05-53f4bd7cf5ee.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![SharePoint 사용 현황 보고서 - 열 선택](../../media/71ac3195-c494-40c1-9346-a858125ef6df.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![SharePoint 사용 현황 보고서 - 열을 선택하십시오.](../../media/71ac3195-c494-40c1-9346-a858125ef6df.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
   

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Advanced eDiscovery 새로운 예측 코딩 모듈은 기계 학습을 사용하여 검토 집합의 항목을 사례 또는 조사와 관련된 예측 항목으로 분석합니다.
-ms.openlocfilehash: 5588f65af5d987eb5094a605331d9efd46f8fe999b5983e5a546f19564b09f26
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0b453713d986572dae8d80efe6dcd60b0616d789
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891906"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567691"
 ---
 # <a name="learn-about-predictive-coding-in-advanced-ediscovery-preview"></a>미리 보기의 예측 Advanced eDiscovery 대해 자세히 알아보기
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c1d0095860242492dc8dd5e370f8583aaed7cff4
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 69775e57bda2c49af2fe4c0b2c81ba86394073a5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594223"
+ms.locfileid: "58565729"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -42,9 +42,9 @@ ms.locfileid: "58594223"
 
 사용자 지정 검색을 관리하려면 다음 역할 중 하나를 할당해야 합니다.
 
-- **보안 관리자**-이 역할이 [Azure Active Directory](/azure/active-directory/roles/permissions-reference#security-administrator) 사용자는 Microsoft 365 Defender 포털 및 서비스에서 보안 설정을 관리할 수 있습니다.
+- **보안 관리자**-이 역할이 [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 사용자는 Microsoft 365 Defender 포털 및 서비스에서 보안 설정을 관리할 수 있습니다.
 
-- **보안 운영자**—이 Azure Active Directory 역할이 있는 사용자는 경고를 관리하고 보안 관련 기능에 대한 전역 읽기 전용 액세스 권한을 가지며, 보안 포털의 모든 정보를 Microsoft 365 Defender 있습니다. [](/azure/active-directory/roles/permissions-reference#security-operator) 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
+- **보안 운영자**—이 Azure Active Directory 역할이 있는 사용자는 경고를 관리하고 보안 관련 기능에 대한 전역 읽기 전용 액세스 권한을 가지며, 보안 포털의 모든 정보를 Microsoft 365 Defender 있습니다. [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
 
 사용 권한이 있는 경우 특정 솔루션 솔루션의 데이터에 적용되는 사용자 지정 Microsoft 365 Defender 관리할 수도 있습니다. 예를 들어 테이블에 대한 관리 권한만 있는 Microsoft 365 Defender Office 테이블을 사용하여 사용자 지정 검색을 만들 수 있지만 테이블은 사용하여 만들 `Email` `Identity` 수 없습니다.  
 

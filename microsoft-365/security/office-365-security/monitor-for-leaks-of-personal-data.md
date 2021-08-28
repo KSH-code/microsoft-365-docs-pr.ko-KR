@@ -19,12 +19,12 @@ search.appverid:
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1711ce8154afb976ce89ac7760f5bec9afca7292
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 9c40078626948e51c0e43f06dd567967f3cff516
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532574"
+ms.locfileid: "58565651"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -33,7 +33,7 @@ ms.locfileid: "58532574"
 
 개인 데이터의 사용 및 전송을 모니터링하는 데 사용할 수 있는 많은 도구가 있습니다. 이 항목에서는 잘 작동하는 세 가지 도구에 대해 설명합니다.
 
-![개인 데이터의 사용 및 전송을 모니터링하기 위한 도구](../../media/Monitor-for-leaks-of-personal-data-image1.png)
+![개인 데이터의 사용 및 전송을 모니터링하기 위한 도구.](../../media/Monitor-for-leaks-of-personal-data-image1.png)
 
 이 그림의 내용
 
@@ -62,7 +62,7 @@ DLP 보고서는Microsoft 365 규정 준수 센터에 있습니다. **보고서*
 
 자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](../../compliance/view-the-dlp-reports.md)를 참조하세요.
 
-![DLP 정책 일치를 표시하는 보고서](../../media/Monitor-for-leaks-of-personal-data-image2.png)
+![DLP 정책 일치를 표시하는 보고서.](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
 ## <a name="audit-log-and-alert-policies"></a>감사 로그 및 경고 정책
 
@@ -98,7 +98,7 @@ Microsoft Cloud App Security는 클라우드 앱에 대해 보다 자세한 가�
 
 예를 들어, 다음 그림에서는 GDPR 준수에 도움이 되는 두 가지 Cloud App Security 정책을 보여 줍니다.
 
-![예제 Cloud App Security 정책](../../media/Monitor-for-leaks-of-personal-data-image3.png)
+![예제 Cloud App Security 정책.](../../media/Monitor-for-leaks-of-personal-data-image3.png)
 
 첫 번째 정책은 선택한 미리 정의된 PII 특성 또는 사용자 지정 식을 포함하는 파일이 선택한 SaaS 앱을 통해 조직 외부에서 공유되면 경고합니다.
 
@@ -116,7 +116,7 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 > [!NOTE]
 > Cloud App Security를 시작하거나 레이블 할당을 시작하기 전에 반드시 Azure Information Protection 분류 레이블용 파일 자동 스캔’을 사용 설정해 주세요. 설정 후에는 파일을 수정하지 않는 한 Cloud App Security가 기존 파일을 다시 스캔하지 않습니다.
 
-![경고에 대한 정보를 표시하는 대시보드](../../media/Monitor-for-leaks-of-personal-data-image4.png)
+![경고에 대한 정보를 표시하는 대시보드.](../../media/Monitor-for-leaks-of-personal-data-image4.png)
 
 추가 정보:
 

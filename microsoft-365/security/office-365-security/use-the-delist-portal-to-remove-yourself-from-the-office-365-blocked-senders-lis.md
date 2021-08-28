@@ -20,12 +20,12 @@ ms.custom:
 description: 이 문서에서는 목록 제거 포털을 사용하여 수신 차단된 보낸 사람 목록에서 Microsoft 365 방법을 배우게 됩니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7beee058a85d7ab44a6a4a94b362fa669537f573754de8558d713332d897843f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f1c4c09af11829d2b4d902211baff9fb8e6cfb11
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56886157"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566505"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>목록 해제 포털을 사용하여 수신 거부 목록에서 본인 제거
 
@@ -56,7 +56,7 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
 
 3. **전송** 을 클릭합니다.
 
-    포털에서는 사용자가 제공한 전자 메일 주소로 전자 메일을 보냅니다. 전자 메일은 다음과 같습니다. 목록 목록 포털을 통해 요청을 제출할 때 받은 전자 ![ 메일의 스크린샷](../../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
+    포털에서는 사용자가 제공한 전자 메일 주소로 전자 메일을 보냅니다. 전자 메일은 목록 목록 해지 포털을 통해 요청을 제출할 때 수신된 전자 메일의 ![ 스크린샷과 같습니다.](../../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
 
 4. 목록 해제 포털을 사용하여 사용자에게 전송된 전자 메일의 확인 링크를 클릭합니다.
 

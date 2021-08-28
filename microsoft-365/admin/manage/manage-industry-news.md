@@ -17,12 +17,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 사용자에게 업계에 대한 최신 뉴스 헤드라인과 조직의 정보를 제공하고, 뉴스 서비스를 사용하여 조직에 대해 사용자 지정된 뉴스 피드를 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 42a65543ef37d2433d84432a7436dabaaa9ce345
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 9577081bcf8d8c2b7b47bc820529f2e66cc86924
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566261"
 ---
 # <a name="manage-industry-news"></a>산업 뉴스 관리
 
@@ -34,13 +34,13 @@ ms.locfileid: "58394231"
  
 Bing 홈페이지로 이동하는 로그인한 사용자는 조직의 개인 설정 정보에서 업계 뉴스 피드를 볼 수 있습니다. 
  
-:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="웹에서 산업 뉴스가 있는 이미지 캐롤링 스크린샷":::
+:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="웹에서 산업 뉴스가 있는 이미지 캐롤링 스크린샷.":::
 
-:::image type="content" source="../../media/industry-updates-new.png" alt-text="날짜 및 헤드라인이 있는 산업 업데이트 페이지":::
+:::image type="content" source="../../media/industry-updates-new.png" alt-text="날짜 및 헤드라인이 있는 산업 업데이트 페이지입니다.":::
 
 또한 새 탭 페이지에서 회사, 산업 및 내부 뉴스 또는 개인 설정된 작업 정보를 볼 Microsoft Edge 있습니다. 
 
-:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Microsoft in news homepage":::
+:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Microsoft in news homepage.":::
 
 ## <a name="news-settings"></a>뉴스 설정
 

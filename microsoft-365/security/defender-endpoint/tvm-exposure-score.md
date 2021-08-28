@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a0daf8c36a4b216cd79d43e6832816350f554b8d9e7a307649552a6bf9c97e23
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: be60d8f4c8adae02a1a5e388a5b75e717dd5eb51
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853579"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565825"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>노출 점수 - 위협 및 취약성 관리
 
@@ -45,7 +45,7 @@ ms.locfileid: "53853579"
 
 이 카드는 시간 경과에 따라 노출 점수 추세에 대한 높은 수준의 보기를 제공합니다. 차트의 모든 스파이크는 더 조사할 수 있는 높은 사이버 보안 위협 노출을 시각적으로 표시하는 것입니다.
 
-![노출 점수 카드](images/tvm_exp_score.png)
+![노출 점수 카드.](images/tvm_exp_score.png)
 
 ## <a name="how-it-works"></a>작동 방법
 

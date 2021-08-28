@@ -19,12 +19,12 @@ ms.custom:
 description: 새 보안 대시보드를 사용하여 위협 방지 Office 365 검토하고 보안 경고를 보고 이에 대한 행동을 할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 95f0a804491e8f2fe4963379efd68873336966f164fda9692ca289d4bc60253b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3f945a75f8b15b55c999da95410a6078a48c540e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56881947"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563733"
 ---
 # <a name="security-dashboard-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 대시보드
 
@@ -50,7 +50,7 @@ ms.locfileid: "56881947"
 
 위협 관리 요약 위젯은 지난 7일 동안 조직이 위협으로부터 보호된 방법을 한눈에 알 수 있습니다.
 
-![보안 대시보드 - 위협 관리 요약 위젯](../../media/SecDash-ThreatMgmtSummary.png)
+![보안 대시보드 - 위협 관리 요약 위젯.](../../media/SecDash-ThreatMgmtSummary.png)
 
 위협 관리 요약에 표시될 정보는 구독에 포함된 내용에 따라 다를 수 있습니다. 다음 표에서는 사용자 및 사용자에 대해 포함된 Office 365 E3 Office 365 E5.
 
@@ -69,7 +69,7 @@ ms.locfileid: "56881947"
 
 위협 방지 상태 위젯은 피싱 및 맬웨어의 추세적이고 상세한 보기로 위협 방지 효과를 보여줍니다.
 
-![위협 방지 상태 위젯](../../media/tpswidget.png)
+![위협 방지 상태 위젯.](../../media/tpswidget.png)
 
 세부 정보는 Microsoft 365 구독에 Microsoft Defender for [Exchange Online Protection(EOP)를](exchange-online-protection-overview.md) 포함하는지 여부에 [따라 Office 365.](defender-for-office-365.md)
 
@@ -89,7 +89,7 @@ ms.locfileid: "56881947"
 
 Global Weekly Threat Detections 위젯은 지난 7일 동안 전자 메일 메시지에서 감지된 위협의 수를 보여줍니다.
 
-![전역 주간 위협 감지 위젯](../../media/globalweeklythreatdetections.png)
+![전역 주간 위협 감지 위젯.](../../media/globalweeklythreatdetections.png)
 
 메트릭은 다음 표에 설명된 바와 같이 계산됩니다.
 
@@ -115,7 +115,7 @@ Global Weekly Threat Detections 위젯은 지난 7일 동안 전자 메일 메�
 
 Insights 주요 문제를 표면화할 뿐만 아니라 고려할 권장 사항 및 작업도 포함됩니다.
 
-![스마트 인사이트](../../media/smartinsights.png)
+![똑똑한 인사이트.](../../media/smartinsights.png)
 
 예를 들어 일부 사용자가 정크 메일 옵션을 사용하지 않도록 설정하여 피싱 전자 메일 메시지가 배달되는 것을 볼 수 있습니다. 인사이트 작동 방식에 대한 자세한 내용은 Security & Compliance Center에서 보고서 [및 정보를 참조합니다.](reports-and-insights-in-security-and-compliance.md)
 

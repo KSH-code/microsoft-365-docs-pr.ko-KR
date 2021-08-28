@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 13e89f64a0b86249d69e3c36e52dc445b2d4c70438d3f16f62bc8758fa6b5b4a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b9d00ec13a08751882e7c699a4e029083dc08bc6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894474"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567871"
 ---
 # <a name="ensure-your-devices-are-configured-properly"></a>장치가 올바르게 구성되어 있는지 확인
 
@@ -41,7 +41,7 @@ ms.locfileid: "53894474"
 
 탐색 **메뉴에서** 구성 관리를 클릭하여 장치 구성 관리 페이지를 열 수 있습니다.
 
-![보안 구성 관리 페이지](images/secconmgmt_main.png)
+![보안 구성 관리 페이지.](images/secconmgmt_main.png)
 
 *장치 구성 관리 페이지*
 
@@ -77,7 +77,7 @@ ms.locfileid: "53894474"
 - 장치 준수 정책에 대한 읽기 권한
 - 조직에 대한 읽기 권한
 
-![intune에 대한 필수 권한](images/secconmgmt_intune_permissions.png)
+![intune에 대한 필수 권한입니다.](images/secconmgmt_intune_permissions.png)
 
 *Intune에 대한 장치 구성 권한*
 

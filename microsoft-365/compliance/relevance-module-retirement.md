@@ -14,12 +14,12 @@ search.appverid:
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: M365-security-compliance
 description: 2021년 3월 10일에는 Advanced eDiscovery 모듈이 사용 중지됩니다. 이 문서에서는 관련성 사용이 중지되기 전에 해야 할 작업을 설명합니다. 특히 모델의 메타데이터를 유지할 수 있도록 일괄 계산을 실행하여 미완료 모델을 완료합니다.
-ms.openlocfilehash: c64a0e1f42fc1904c91c4ac30a74cecb975b1b18c0a3426e63bd5ca2aac45feb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1005c7a1c065adba039f6f07197dbca758d20ea4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871461"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565407"
 ---
 # <a name="retirement-of-the-relevance-module-in-advanced-ediscovery"></a>2016년 12월에 대한 Advanced eDiscovery
 
@@ -37,7 +37,7 @@ ms.locfileid: "53871461"
 
    다음 스크린샷은 일괄 계산을 위해 준비된 모듈을 보여줍니다. 평가 및 교육이 완료된 후 다음 단계는 일괄 계산을 실행하는 것입니다.
 
-   ![일괄 계산을 위한 모델 준비 스크린샷](../media/ReadyForBatchCalculation.png)
+   ![일괄 계산을 위한 모델 준비 스크린샷.](../media/ReadyForBatchCalculation.png)
 
 2. Batch 계산을 실행합니다. 일괄 [계산 수행을 참조합니다.](track-relevance-analysis-in-advanced-ediscovery.md#performing-batch-calculation)
 

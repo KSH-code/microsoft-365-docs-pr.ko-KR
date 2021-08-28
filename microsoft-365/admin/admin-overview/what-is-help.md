@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: 사용자 정보를 사용하여 도움을 얻을 수 있는 모든 방법에 대해 Microsoft 365 관리 센터.
-ms.openlocfilehash: c011b68e07843956a558d26e42d0c0cd9a328451
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 873f8fb6d016a7ac7a5468154d2c79285ea064ec
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394351"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564541"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
@@ -46,7 +46,7 @@ ms.locfileid: "58394351"
 
 도움말은 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=2166757" target="_blank"></a>센터 전체에서 통합되어 있으므로 필요할 때 바로 사용할 수 있습니다. 많은 페이지 맨 위에는 작업에 대한 정보 개요를 제공하는 인라인 도움말 텍스트와 보다 자세한 학습을 위한 공식 설명서를 빠르게 찾을 수 있는 문서의 링크가 있습니다.
 
-![인라인 도움말 및 문서 링크를 표시하는 그룹 페이지](../../media/integrated-help.png)
+![인라인 도움말 및 문서 링크를 표시하는 그룹 페이지입니다.](../../media/integrated-help.png)
 
 ## <a name="modern-self-help-powered-by-ai"></a>AI를 통해 지원된 최신 자가진단
 
@@ -54,7 +54,7 @@ ms.locfileid: "58394351"
 
 또는 특정 상황에서 어떻게 완료할지 잘 모르는 경우 지원 도우미를 사용 하도록 합니다. 현재 이 환경은 영어로만 제공됩니다. 지원 도우미를 켜기 위해 도움말 필요 창의 맨 위에 있는 **토글만** 사용하면됩니다. 지원 도우미는 사용자에게 도움이 되는 대화 인터페이스를 제공합니다. 쿼리를 입력한 후 채팅방은 특정 상황에 대한 올바른 답변을 묻는 명확한 질문을 합니다. 솔루션을 검색하고 작업을 완료하기 위한 가상 도우미로 생각하세요.
 
-![최신 자가 도움말](../../media/help-options.png)
+![최신 자가 도움말.](../../media/help-options.png)
 
 물론 경우에 따라 질문이 사람에 의해 가장 잘 답변된 경우도 있습니다. 최신 자가 도움말에 답변이 없는 경우 항상 지원 에이전트에 문의할 수 있습니다.
 

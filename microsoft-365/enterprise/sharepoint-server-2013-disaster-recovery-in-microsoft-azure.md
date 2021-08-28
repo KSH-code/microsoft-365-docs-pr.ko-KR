@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: e9d14cb2-ff28-4a18-a444-cebf891880ea
 description: 이 문서에서는 Azure를 사용하여 팜에 대한 재해 복구 환경을 만드는 SharePoint 설명합니다.
-ms.openlocfilehash: bb048b9b0cf297ba5e5cd61e09f9f3164464a41a37fecfe2d27d0ef7be82f37b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 87bbbf143fe831537ddbc08e6d43b4013fe1e379
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53878260"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567643"
 ---
 # <a name="sharepoint-server-2013-disaster-recovery-in-microsoft-azure"></a>Microsoft Azure에서 SharePoint Server 2013 재해 복구
 
@@ -36,7 +36,7 @@ ms.locfileid: "53878260"
   
 다음 솔루션 모델과 함께 이 문서를 SharePoint **재해 복구를 Microsoft Azure.**
   
-[![Azure에 대한 SharePoint 재해 복구 프로세스](../media/SP-DR-Azure.png)](https://go.microsoft.com/fwlink/p/?LinkId=392555)
+[![SharePoint 복구 프로세스를 Azure로 변경합니다.](../media/SP-DR-Azure.png)](https://go.microsoft.com/fwlink/p/?LinkId=392555)
   
  [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392555) |  [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392554)
   
@@ -82,7 +82,7 @@ Azure 인프라 서비스를 사용할 경우의 이점은 다음과 같습니�
   
 **그림: Azure의 웜 대기 솔루션 요소**
 
-![Azure에서 SharePoint 웜 대기 솔루션의 요소](../media/AZarch-AZWarmStndby.png)
+![Azure의 SharePoint 웜 대기 솔루션의 요소입니다.](../media/AZarch-AZWarmStndby.png)
   
 SQL Server DFSR(분산 파일 시스템 복제)을 사용한 로그 전달은 Azure의 복구 팜에 데이터베이스 백업 및 트랜잭션 로그를 복사하는 데 사용됩니다. 
   
@@ -186,7 +186,7 @@ Azure의 환경은 더 작은 버전의 프로덕션 팜일 수 있습니다. �
   
 **그림: 가상 컴퓨터를 실행하는 콜드 대기 복구 팜**
 
-![Azure의 SharePoint 콜드 대기 솔루션의 요소](../media/AZarch-AZColdStndby.png)
+![Azure의 SharePoint 콜드 대기 솔루션의 요소입니다.](../media/AZarch-AZColdStndby.png)
   
 콜드 대기 환경으로의 장애 조치(failover)가 시작된 후 모든 가상 컴퓨터를 시작하고 AlwaysOn 가용성 그룹과 같이 데이터베이스 서버의 고가용성을 SQL Server 구성해야 합니다.
   
@@ -273,7 +273,7 @@ Microsoft Azure [Architectures for SharePoint 2013의](microsoft-azure-architect
   
 **그림: 하이브리드 Active Directory 도메인 구성**
 
-![Azure Virtual Network에 배포된 두 개의 가상 컴퓨터와 SharePoint 팜 서브넷은 복제본 도메인 컨트롤러 및 DNS 서버입니다.](../media/AZarch-HyADdomainConfig.png)
+![Azure Virtual Network에 배포된 두 개의 가상 컴퓨터와 SharePoint 팜 서브넷은 복제본 도메인 컨트롤러와 DNS 서버입니다.](../media/AZarch-HyADdomainConfig.png)
   
 그림에서 두 가상 컴퓨터는 동일한 서브넷에 배포됩니다. 이러한 가상 컴퓨터는 각각 Active Directory 및 DNS의 두 역할을 호스팅합니다.
   

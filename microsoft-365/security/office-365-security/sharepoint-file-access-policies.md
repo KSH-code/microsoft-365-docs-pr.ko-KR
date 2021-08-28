@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 6b0957984d7391ac8a9303b1f412b89196b6345ae88db39206dc555e91507fef
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a031e60cbad91f71c55e678f03480b5d56c24efe
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53810213"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565639"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>사이트 및 파일 보호를 SharePoint 정책 권장 사항
 
@@ -44,7 +44,7 @@ ms.locfileid: "53810213"
 
 다음 다이어그램은 SharePoint 및 OneDrive 공용 ID 및 장치 액세스 정책에서 업데이트할 정책을 보여 주는 다이어그램입니다.
 
-[![사용자 및 해당 종속 서비스에 대한 액세스를 Teams 정책 업데이트 요약](../../media/microsoft-365-policies-configurations/identity-access-ruleset-sharepoint.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-sharepoint.png)
+[![사용자 및 해당 종속 서비스에 대한 액세스를 보호하기 위한 Teams 업데이트 요약입니다.](../../media/microsoft-365-policies-configurations/identity-access-ruleset-sharepoint.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-sharepoint.png)
 
 공용 정책을 SharePoint 정책에 포함된 경우 새 정책만 만들어야 합니다. 조건부 액세스 정책의 경우 SharePoint 포함된 OneDrive.
 
@@ -99,7 +99,7 @@ James에는 기준 조건부 액세스 정책이 할당되어 있지만, 중요�
 
 ## <a name="next-step"></a>다음 단계
 
-![4단계: 클라우드 Microsoft 365 정책](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![4단계: 클라우드 Microsoft 365 정책.](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 조건부 액세스 정책 구성:
 

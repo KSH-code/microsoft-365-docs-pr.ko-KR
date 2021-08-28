@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aec023a2d60d188900cf6afcc97f0f03cfc0aec4ea6860abb2782f7fd554342d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 43190dabe55ab3600a05aa8e6094c6ad7393a04d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53905562"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567451"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -29,7 +29,7 @@ ms.locfileid: "53905562"
 이 문서에서는 정보 장벽 정책을 계획, 정의, 구현 및 관리하는 방법에 대해 설명하고 있습니다. 여러 단계가 관련이 있으며 작업 흐름은 여러 부분으로 나뉘어 있습니다. 정보 장벽 정책 [](#prerequisites) 정의(또는 편집)를 시작하기 전에 선행 작업 및 전체 프로세스를 읽어야 합니다.
 
 > [!TIP]
-> 이 문서에는 정보 장벽 [정책을](#example-contosos-departments-segments-and-policies) 계획하고 [정의하는 Excel](https://github.com/MicrosoftDocs/OfficeDocs-O365SecComp/raw/public/SecurityCompliance/media/InfoBarriers-PowerShellGenerator.xlsx) 예제 시나리오 및 다운로드 가능한 통합 문서가 포함되어 있습니다.
+> 이 문서에는 정보 장벽 [정책을](#example-contosos-departments-segments-and-policies) 계획하고 정의하는 데 도움이 되는 예제 시나리오가 포함되어 있습니다.
 
 ## <a name="concepts-of-information-barrier-policies"></a>정보 장벽 정책의 개념
 
@@ -71,7 +71,7 @@ ms.locfileid: "53905562"
 - 주소장 정책 없음 - 정보 장벽 정책을 정의하고 적용하기 전에 주소 Exchange 정책이 적용되어 있는지 확인하지 않습니다. 정보 장벽은 주소록 정책을 기반으로 하지만 두 종류의 정책은 호환되지 않습니다. 이러한 정책이 있는 경우 먼저 주소부 정책을 [제거해야](/exchange/address-books/address-book-policies/remove-an-address-book-policy) 합니다. 정보 장벽 정책을 사용하도록 설정하고 계층적 주소 예약을 사용하도록  설정하면 정보 장벽 세그먼트에 포함되지 [](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 않은 모든 사용자에게는 온라인 Exchange 표시됩니다.
 
 - PowerShell - 현재 정보 장벽 정책은 PowerShell cmdlet을 사용하여 Office 365 보안 & 규정 준수 센터에서 정의되고 관리됩니다. 이 문서에서는 몇 가지 예제를 제공하겠지만 PowerShell cmdlet 및 매개 변수에 익숙해야 합니다. 또한 이 모듈은 Azure PowerShell 필요합니다.
-  - [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)
+  - [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)
   - [Azure PowerShell 모듈 설치](/powershell/azure/install-az-ps)
 
 - Microsoft Teams 정보 장벽에 대한 관리자 동의 - IB 정책이 설정되어 있는 경우 그룹(즉, 그룹을 기반으로 하는 Teams 채널)에서 IB가 아닌 사용자를 제거할 수 있습니다. 이 구성은 조직이 정책 및 규정을 준수하는지 보장하는 데 도움이 됩니다. 다음 절차에 따라 정보 장벽 정책이 해당 정책에서 예상대로 작동하도록 Microsoft Teams.
@@ -93,12 +93,12 @@ ms.locfileid: "53905562"
    1. 요청한 **사용** 권한 대화 상자에서 정보를 검토한 다음 수락을 **선택합니다.** 앱에서 요청한 사용 권한은 아래에 제공됩니다.
 
       > [!div class="mx-imgBorder"]
-      > ![이미지](https://user-images.githubusercontent.com/8932063/107690955-b1772300-6c5f-11eb-9527-4235de860b27.png)
+      > ![이미지.](https://user-images.githubusercontent.com/8932063/107690955-b1772300-6c5f-11eb-9527-4235de860b27.png)
 
 모든 선행 구성이 충족될 경우 다음 섹션으로 진행합니다.
 
 > [!TIP]
-> 이 문서에는 계획을 준비하는 데 도움이 되는 예제 시나리오가 포함되어 있습니다. [Contoso의 부서, 세그먼트](#example-contosos-departments-segments-and-policies)및 정책을 참조합니다.<p>또한 다운로드 가능한 통합 Excel 사용하여 세그먼트 및 정책을 계획하고 정의하고 PowerShell cmdlet을 만들 수 있습니다. [통합 문서 를 다운로드합니다.](https://github.com/MicrosoftDocs/OfficeDocs-O365SecComp/raw/public/SecurityCompliance/media/InfoBarriers-PowerShellGenerator.xlsx)
+> 이 문서에는 계획을 준비하는 데 도움이 되는 예제 시나리오가 포함되어 있습니다. [Contoso의 부서, 세그먼트](#example-contosos-departments-segments-and-policies)및 정책을 참조합니다.
 
 ## <a name="part-1-segment-users"></a>1부: 사용자 구분
 

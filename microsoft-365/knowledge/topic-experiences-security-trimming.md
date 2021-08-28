@@ -12,12 +12,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: None
 description: 보안이 Viva 항목의 항목을 보는 데 사용되는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3dd6e25fffe0a395bf41814309574c67507d280b29ee3848e676c66cadfb2463
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 25acd5ea96cb07a5974e10ec9763d1f20351d021
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563977"
 ---
 # <a name="security-trimming-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 보안 트리밍
 
@@ -29,11 +29,11 @@ AI 또는 수동 큐레이션을 통해 항목이 생성될 때 항목의 설명
   
 예를 들어 사용자 1이 Neptune 주제 페이지를 보는 경우 다음과 같은 주제 페이지 보기가 표시될 수 있습니다.
 
-![사용자 1에 대한 Neptune 항목](../media/knowledge-management/user2-topic-view.png) </br> 
+![사용자 1에 대한 Neptune 항목입니다.](../media/knowledge-management/user2-topic-view.png) </br> 
 
 그러나 사용자 2가 동일한 Neptune 항목 페이지를 보는 경우 보기는 사용자 1과 다릅니다.  사용자 2는 항목 페이지의 고정된 파일 및 페이지 섹션에서  사용자 1에 대해 나타나지 않는 *DG-2000* 제품 개요 파일을 볼 수 있습니다. 
 
-![사용자 2에 대한 Neptune 항목](../media/knowledge-management/user1-topic-view.png) </br> 
+![사용자 2에 대한 Neptune 항목입니다.](../media/knowledge-management/user1-topic-view.png) </br> 
 
 사용자가 동일한 항목에 대해 볼 수 있는 항목의 차이점은 사용자가 관련 사이트 또는 파일을 볼 수 Office 365 권한이 없는 것일 수 있기 때문에입니다.  Viva Topics는 항목의 항목에 대해 설정된 사용 권한을 사용하며 해당 항목에 대한 액세스를 변경할 수 없습니다. 이 예제에서는 사용자 1이 파일을 볼 수 있는 권한이 Office 365 사용자 1의 항목 페이지에서 *DG-2000* 제품 개요 파일을 볼 수 없습니다.
 

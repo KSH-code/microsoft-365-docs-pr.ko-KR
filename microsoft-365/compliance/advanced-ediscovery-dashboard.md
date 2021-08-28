@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 검토 집합에 Advanced eDiscovery 대시보드를 사용하여 신속하게 코퍼스를 분석하여 검토 전략을 개발하는 데 도움이 되는 추세 또는 주요 통계를 식별합니다.
-ms.openlocfilehash: 14baa47a73ac3cc4917d6e2f04614a80960ef085
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 6466e33964969d6cd75addba7092ee95e0c321ef
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502978"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565521"
 ---
 # <a name="advanced-ediscovery-dashboard-for-review-sets"></a>Advanced eDiscovery 대시보드에서 검토 집합
 
@@ -37,15 +37,15 @@ ms.locfileid: "58502978"
   
 4. **개별 결과** 드롭다운 목록에서 **검색 프로필 보기** 를 클릭합니다. 
 
-   ![DashbordPivot](../media/dashboardpivot.png)
+   ![DashbordPivot.](../media/dashboardpivot.png)
 
    검색 **프로필 보기** 페이지가 표시됩니다. 이 페이지를 처음 표시하면 세 개의 기본 위젯이 표시됩니다.
 
-   ![대시보드](../media/dashboardonly.png)
+   ![대시보드.](../media/dashboardonly.png)
   
 5. 새 **위젯을 클릭하고** 다음 항목 중 하나를 선택합니다.
 
-   ![새 위젯 드롭다운 목록](../media/NewWidgetDropdownBox.png)
+   ![새 위젯 드롭다운 목록입니다.](../media/NewWidgetDropdownBox.png)
 
    - **라이브러리에서 선택:** 위젯의 기본 라이브러리를 표시됩니다. 위젯을 클릭한 다음  추가를 클릭하여 검색 프로필 보기 페이지의 위젯에 **추가합니다.**
   
@@ -53,7 +53,7 @@ ms.locfileid: "58502978"
 
 6. 사용자 지정 위젯을 만들하려면 위젯 플라이아웃 추가 페이지에서 **다음을** 합니다.
 
-   ![위젯 만들기](../media/addwidget.png)
+   ![위젯을 생성합니다.](../media/addwidget.png)
 
     a. 위젯 제목 표시줄에 표시되는 위젯의 이름을 입력합니다. 위젯 이름을 정해야 하지만 위젯 데이터를 식별하는 것이 유용합니다.
 
@@ -67,17 +67,17 @@ ms.locfileid: "58502978"
 
 1. 위젯 **제목** 표시줄에서 ...를 클릭한 다음 조건 **적용을 클릭합니다.**
 
-   ![대시보드](../media/searchprofilehome.png)
+   ![대시보드.](../media/searchprofilehome.png)
 
 2. 플라이아웃 페이지에서 위젯 키 또는 위젯 차트의 요소를 클릭하여 필터를 만드십시오.
 
-   ![CreateFilter](../media/applyconditionfilter.png)
+   ![CreateFilter.](../media/applyconditionfilter.png)
 
 3. 다른 위젯 여러 위젯에 대해 1-2단계를 반복합니다. 
 
 4. 완료되면 쿼리로 저장을 **클릭하여** 조건을 검토 집합에 대한 새 검색 쿼리로 저장합니다.
 
-   ![쿼리](../media/savequery.png)
+   ![쿼리.](../media/savequery.png)
 
 5. 검색 프로필 **보기를 닫고** 검색 결과 보기로 돌아 습니다.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용하여 추가 기능을 배포할 수 있도록 테넌트와 사용자가 요구 사항을 Office 확인합니다.
-ms.openlocfilehash: 98496ce57c57cbce10178cc2be99079d8733a0ca
-ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
+ms.openlocfilehash: 79acef4454428daba68d42b0161d060b7e28ee56
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564396"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 적합한지 확인
 
@@ -136,18 +136,18 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 
 지민, 서연 및 영업부 그룹이 추가 기능에 할당된 다음 예제를 살펴봅니다. 서해안 영업부는 중첩된 그룹이므로 현준 및 배식은 추가 기능에 할당되지 않습니다.
 
-![영업 부서 다이어그램](../../media/683094bb-1160-4cce-810d-26ef7264c592.png)
+![영업 부서의 다이어그램입니다.](../../media/683094bb-1160-4cce-810d-26ef7264c592.png)
 
 
 ### <a name="find-out-if-a-group-contains-nested-groups"></a>그룹이 중첩된 그룹을 포함하는지 확인
 
 그룹이 중첩된 그룹을 포함하는지를 검색하는 가장 쉬운 방법은 Outlook 내에서 그룹 연락처 카드를 확인하는 것입니다. 전자 메일의 To 필드에 그룹 이름을 입력한 다음 그룹 이름이 확인될 때 선택하면 그룹 이름이 사용자 또는 중첩된 그룹이 포함되어 있는 경우 표시됩니다.  아래 예에서 테스트 그룹에 대한 Outlook 연락처 카드의 **구성원** 탭에는 사용자는 표시되지 않고 하위 그룹 두 개만 표시됩니다.
 
-![연락처 카드의 Outlook 탭](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
+![연락처 카드의 Outlook 탭입니다.](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
 
 그룹이 어떤 그룹의 구성원인지 확인하기 위해 그룹을 확인하여 반대 쿼리를 수행할 수 있습니다. 아래 예에서 하위 그룹 1이 테스트 그룹의 구성원인 Outlook 연락처 카드의 **구성원 자격** 탭 아래에서 확인할 수 있습니다.
 
-![연락처 카드의 Outlook 탭](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
+![연락처 카드의 Outlook 탭입니다.](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
 
 또는 Azure Active Directory Graph API를 사용하여 그룹 내의 그룹 목록을 찾기 위한 쿼리를 실행할 수 있습니다. 자세한 내용은 [Operations on groups | Graph API reference](/previous-versions/azure/ad/graph/api/groups-operations)(그룹에 대한 작업 | Graph API 참조)를 참조하세요.
 

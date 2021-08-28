@@ -22,12 +22,12 @@ ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
 - admindeeplinkMAC
-ms.openlocfilehash: d9a5d6543c1a3e26a6809d8ea7826beb338757bc
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: f8adf1fe5141d11d4f57eb3c7348b3961815a38d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394795"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567823"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>새로운 Microsoft 365 관리 센터
 
@@ -176,7 +176,7 @@ CEO와 같이 업무에 큰 영향을 미치는 사용자에게 전송된 실패
 - Office 365 E3 Microsoft 365 E3 또는 Office 365 E5 Microsoft 365 E5.
 - 최소 10,000개 이상의 라이선스와 최소 50개 이상의 월별 활성 Exchange Online.
 
-![기능 설정 페이지: 가장 중요한 계정 모니터링](../media/MAC-WN-PriorityAccounts.png)
+![기능 설정 페이지: 가장 중요한 계정을 모니터링합니다.](../media/MAC-WN-PriorityAccounts.png)
 
 시작하는 방법에는 다음 두 가지가 있습니다.
 
@@ -274,7 +274,7 @@ Microsoft에서 Ignite의 시기로 이동하고 있으므로 세션 중에 많�
 
 도메인 관리는 복잡할 수 있으며 이를 보다 쉽게 만들기 위해 새로운 기능을 출시했습니다. 도메인 설정 > 이동한 다음 도메인을 선택하여 도메인 및 도메인의 상태 관련 정보를 얻습니다.
 
-:::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="도메인 세부 정보 contoso.com":::
+:::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="도메인 세부 정보 contoso.com.":::
 
 ### <a name="docs-training-and-videos-july-2020"></a>Docs, training, and videos(2020년 7월)
 
@@ -339,7 +339,7 @@ Monthly Enterprise 채널 릴리스와 함께 기존 업데이트 채널의 이�
 
 이 경우 통합 역할 환경을 위한 두 번째 단계를 진행했습니다. 이제 통합 역할 에서 Intune 역할을 관리할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a> 또한 역할을 검색하고 역할 권한을 보는 기능과 같은 기능을 활용할 수 있습니다. 즉, 사용자 및 Intune에 대한 역할을 관리하기 위해 두 가지 별도의 Microsoft 365 필요가 없습니다. 에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">로그인하면</a>역할 Microsoft 365 관리 센터 Azure AD용 피벗과 Intune용 피벗 1개가 있습니다.
 
-![Intune 피벗이 선택된 역할 페이지](../media/MAC-WN-IntuneRoles.png)
+![Intune 피벗이 선택된 역할 페이지입니다.](../media/MAC-WN-IntuneRoles.png)
 
 ### <a name="sync-message-center-posts-to-planner"></a>Planner에 메시지 센터 게시물 동기화
 
@@ -416,7 +416,7 @@ Teams 관리 센터, 보안 센터 및 규정 준수 센터는 이제 동일한 
 
 일부 Teams 사용하면 일부 Teams 더 쉽게 검색할 수 있도록 하는 고정된 대시보드 Teams 수 있습니다. 또한 카드에는 원격 작업으로 전환하는 데 도움이 되는 교육 및 문서에 대한 링크가 있습니다. 홈 **페이지로 이동하여** 새 카드를 볼 수 있습니다.
 
-![Microsoft Teams 페이지 카드](../media/MAC-WN-TeamsCard.PNG)
+![Microsoft Teams 페이지 카드를 선택합니다.](../media/MAC-WN-TeamsCard.PNG)
 
 ### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>조직의 모바일 앱 테마 SharePoint 사용자 지정
 
@@ -460,7 +460,7 @@ Microsoft 365 웹 시리즈의 새로운 [기능:](https://go.microsoft.com/fwli
 ![화면 캡처: 전환기 아이콘이 있는 조직 프로필 이름을 표시하는 홈 페이지 위쪽입니다.](../media/MAC-Organization-switcher.png)
 
 2. 조직 전환기에서 관리할 조직을 선택합니다.
-![화면 캡처: 통합 Messenger 테넌트가 강조 표시된 조직 테넌트 전환기](../media/MAC-OrgSwitcherSelected.png)
+![화면 캡처: 통합 Messenger 테넌트가 강조 표시된 조직 테넌트 전환기입니다.](../media/MAC-OrgSwitcherSelected.png)
 
 이는 문자 그대로입니다!!!
 

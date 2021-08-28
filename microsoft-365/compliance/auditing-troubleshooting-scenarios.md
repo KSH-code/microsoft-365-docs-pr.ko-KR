@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일 계정에 대한 일반적인 Microsoft 365 문제를 해결하는 데 도움이 되는 감사 로그 검색 도구를 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: b24306b65a6f5eab59865f09c996892ef24660a0
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 4f90d618fd72c41a3c1d3d6ff1600f3d6d10bbfc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502726"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564209"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색하여 일반적인 지원 문제 조사
 
@@ -114,7 +114,7 @@ ms.locfileid: "58502726"
 
 이제 각 감사 레코드의 세부 정보를 확인하여 활동이 전자 메일 전달과 관련이 있는지 여부를 결정해야 합니다. 감사 레코드를 선택하여 **세부** 정보 플라이아웃 페이지를 표시한 다음 추가 정보를 **선택합니다.** 다음 스크린샷 및 설명은 사서함에 전자 메일 전달이 설정되어 있는 정보를 강조합니다.
 
-![감사 레코드의 자세한 정보](../media/emailforwarding2.png)
+![감사 레코드의 세부 정보입니다.](../media/emailforwarding2.png)
 
 a. **ObjectId 필드에는** 전자 메일 전달이 설정된 사서함의 별칭이 표시됩니다. 이 사서함은 검색 결과 페이지의 **항목** 열에도 표시됩니다.
 
@@ -156,11 +156,11 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 **소프트 삭제된 항목에 대한 AffectedItems 필드의 예**
 
-![소프트 삭제된 항목에 대한 감사 레코드](../media/softdeleteditem.png)
+![소프트 삭제된 항목에 대한 감사 레코드입니다.](../media/softdeleteditem.png)
 
 **영구 삭제된 항목에 대한 AffectedItems 필드의 예**
 
-![영구 삭제된 전자 메일 항목에 대한 감사 레코드](../media/harddeleteditem.png)
+![영구 삭제된 전자 메일 항목에 대한 감사 레코드입니다.](../media/harddeleteditem.png)
 
 ### <a name="recover-deleted-email-items"></a>삭제된 전자 메일 항목 복구
 
@@ -190,7 +190,7 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 검색을 실행하면 이 활동에 대한 모든 감사 레코드가 검색 결과에 표시됩니다. 감사 레코드를 선택하여 **세부** 정보 플라이아웃 페이지를 표시한 다음 추가 정보를 **선택합니다.** 받은 편지함 규칙 설정에 대한 정보가 매개 변수 **필드에** 표시됩니다. 다음 스크린샷 및 설명은 받은 편지함 규칙에 대한 정보를 강조합니다.
 
-![새 받은 편지함 규칙에 대한 감사 레코드](../media/NewInboxRuleRecord.png)
+![새 받은 편지함 규칙에 대한 감사 레코드입니다.](../media/NewInboxRuleRecord.png)
 
 a. **ObjectId 필드에** 받은 편지함 규칙의 전체 이름이 표시됩니다. 이 이름에는 사용자 사서함의 별칭(예: SaraD)과 받은 편지함 규칙의 이름(예: "관리자로부터 메시지 이동")이 포함됩니다.
 
@@ -235,7 +235,7 @@ UserLoggedIn 감사 레코드에 표시되는 다른 속성에 대한 자세한 
 
 - 감사 로그에서 감사 레코드에 기록된 사용자에 식별된 외부 사용자가 수행한 활동을 **검색합니다.** 사용자 상자에 외부 사용자의 UPN을 **입력하고** 시나리오와 관련된 경우 날짜 범위를 사용 합니다. 예를 들어 다음 검색 조건을 사용하여 검색을 만들 수 있습니다.
 
-   ![외부 사용자가 수행한 모든 활동 검색](../media/PassThroughAuth2.png)
+   ![외부 사용자가 수행한 모든 활동을 검색합니다.](../media/PassThroughAuth2.png)
 
     사용자가 로그인한  활동 외에도 조직의 사용자가 외부 사용자와 리소스를 공유하고 외부 사용자가 공유한 문서를 액세스, 수정 또는 다운로드하는지 여부를 나타내는 기타 감사 레코드가 반환될 수 있습니다.
 

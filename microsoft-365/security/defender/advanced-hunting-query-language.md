@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 815b962d56ca75dbd864579d7f26e24a587b74df
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: a253d1224f1c7a0e0be0b5478efcc78204cb4a27
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256543"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565751"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -117,7 +117,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 결과를 **표시하려면** 쿼리 실행을 선택합니다. 쿼리 편집기 오른쪽 위에 있는 확장 아이콘을 사용하여 헌팅 쿼리 및 결과에 집중합니다. 
 
-![고급 헌팅 쿼리 편집기에서 확장 컨트롤의 이미지](../../media/advanced-hunting-expand.png)
+![고급 헌팅 쿼리 편집기에서 확장 컨트롤의 이미지입니다.](../../media/advanced-hunting-expand.png)
 
 >[!TIP]
 >쿼리 결과를 차트로 보고 필터를 빠르게 조정할 수 있습니다. 자세한 [지침은 쿼리 결과 사용에 대해 읽어 보시고](advanced-hunting-query-results.md)
@@ -167,13 +167,13 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 - 각 쿼리를 빈 줄로 구분합니다.
 - 쿼리의 모든 부분에 커서를 배치하여 쿼리를 실행하기 전에 해당 쿼리를 선택합니다. 그러면 선택한 쿼리만 실행됩니다. 다른 쿼리를 실행하려면 그에 따라 커서를 이동하고 쿼리 **실행을 선택합니다.**
 
-![쿼리가 여러 개 있는 쿼리 편집기 이미지](../../media/mtp-ah/ah-multi-query.png)
+![쿼리가 여러 개 있는 쿼리 편집기 이미지입니다.](../../media/mtp-ah/ah-multi-query.png)
 
 ## <a name="use-sample-queries"></a>샘플 쿼리 사용
 
 **시작** 섹션에서는 자주 사용하는 연산자를 사용하는 몇 가지 간단한 쿼리를 제공합니다. 이러한 쿼리를 실행하고 약간 수정해 보세요.
 
-![고급 헌팅 창 이미지](../../media/advanced-hunting-get-started.png)
+![고급 헌팅 창의 이미지입니다.](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
 >기본 쿼리 샘플과는 별도로 특정 위협 헌팅 시나리오에 대한 [공유 쿼리](advanced-hunting-shared-queries.md)에 액세스할 수도 있습니다. 페이지 또는 쿼리 리포지토리의 왼쪽에 있는 공유 [쿼리를 GitHub 탐색합니다.](https://aka.ms/hunting-queries)

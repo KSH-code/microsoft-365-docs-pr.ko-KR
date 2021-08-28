@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
-ms.openlocfilehash: 89182ddc317bfefdf0e82632bbe8ec8f78f81ada
-ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
+ms.openlocfilehash: 2c3323466d79137251be1f8d9ee764b42b643bb1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377220"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58565199"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -57,7 +59,7 @@ ms.locfileid: "53377220"
 
 ::: moniker-end
 
-2. 서비스(예: 전자 메일 또는 OneDrive)에 대한 간략한 활동 카드에서 **자세히 보기** 단추를 클릭하면 보고서 세부 정보 페이지가 표시됩니다. 서비스에 대한 다양한 보고서가 탭에서 제공됩니다. <br/>![사용 현황 대시보드](../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png) 
+2. 서비스(예: 전자 메일 또는 OneDrive)에 대한 간략한 활동 카드에서 **자세히 보기** 단추를 클릭하면 보고서 세부 정보 페이지가 표시됩니다. 서비스에 대한 다양한 보고서가 탭에서 제공됩니다. <br/>![사용 현황 대시보드.](../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png) 
 
 ## <a name="who-can-see-reports"></a>보고서를 볼 수 있는 사용자
 
@@ -157,7 +159,7 @@ ms.locfileid: "53377220"
   
 사용자 목록은 다음과 같습니다.
   
-![보고서 - 익명 사용자 목록](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
+![보고서 - 익명 사용자 목록.](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
 보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 보고서 API에도 적용됩니다.
   

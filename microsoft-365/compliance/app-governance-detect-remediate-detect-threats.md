@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 위협을 교정합니다.
-ms.openlocfilehash: 3b84594aa990516b6ecb340d6b8ffbd8d6d1a544c9c1e3dddeb691044e221424
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 103616c9bee47455b75e0750194d876fc7a13600
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53836456"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564233"
 ---
 # <a name="remediate-app-threats"></a>앱 위협 교정
 
@@ -27,11 +27,11 @@ ms.locfileid: "53836456"
 
 Microsoft 365 준수 센터의 Microsoft 앱 거버넌스 섹션에 있는 **경고** 페이지를 통해 Microsoft 365 테넌트에 대한 앱 위협을 교정합니다.
 
-![Microsoft 365 준수 센터의 앱 거버넌스 경고 요약 페이지](..\media\manage-app-protection-governance\mapg-cc-alerts.png)
+![Microsoft 365 준수 센터의 앱 거버넌스 경고 요약 페이지.](..\media\manage-app-protection-governance\mapg-cc-alerts.png)
 
 기본적으로 **경고** 페이지에는 앱 거버넌스에서 생성한 새 위협 경고와 활성 앱 정책에서 생성한 정책 기반 경고가 나열됩니다. 특정 경고를 선택하면 추가 경고 정보와 경고 상태 변경 기능이 있는 경고 창이 열립니다. 여기서 세부 정보를 볼 수 있습니다.
 
-![Microsoft 365 준수 센터의 앱 거버넌스 경고 세부 정보 페이지](..\media\manage-app-protection-governance\mapg-cc-alerts-alert.png)
+![Microsoft 365 준수 센터의 앱 거버넌스 경고 세부 정보 페이지.](..\media\manage-app-protection-governance\mapg-cc-alerts-alert.png)
 
 이 창에서 다음 추가 정보를 확인할 수 있습니다.
 

@@ -19,12 +19,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: cfd29178bfa6ea235bc26cf8ca1efa3b80e39915
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: bd400f81b3d125b6d6100ecf2ed06f536106d1f0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58346955"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564529"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>기본 이동성 및 보안 기능
 
@@ -74,7 +74,7 @@ ms.locfileid: "58346955"
 
 다음 다이어그램은 새 장치를 사용하는 사용자가 기본 Mobility and Security를 사용하여 액세스 제어를 지원하는 앱에 로그인할 때 발생하는 일과를 보여줍니다. 사용자가 디바이스를 등록할 때까지 Microsoft 365 리소스에 액세스하지 못하도록 차단됩니다.
 
-:::image type="content" source="../../media/basic-mobility-security/bms-1-access-control.png" alt-text="기본 모바일 및 보안 액세스 제어":::
+:::image type="content" source="../../media/basic-mobility-security/bms-1-access-control.png" alt-text="기본 모바일 및 보안 액세스 제어.":::
 
 > [!NOTE]
 > 기본 모바일 및 보안 for Microsoft 365 Business Standard 정책 및 액세스 규칙은 Exchange ActiveSync 관리 센터에서 만든 모바일 장치 사서함 정책 및 장치 액세스 Exchange 다시 적용됩니다. 기본 모바일 및 보안에 장치를 등록한 Microsoft 365 Business Standard 장치에 Exchange ActiveSync 모바일 장치 사서함 정책 또는 장치 액세스 규칙은 무시됩니다. 자세한 내용은 Exchange ActiveSync 에서 Exchange ActiveSync [Exchange Online.](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync)
@@ -95,7 +95,7 @@ ms.locfileid: "58346955"
 
 예를 들어 다음 다이어그램에는 등록된 장치를 사용하는 사용자가 장치에 적용되는 모바일 장치 관리 정책의 보안 설정을 준수하지 않는 경우 수행되는 작업을 보여 줍니다. 사용자는 Basic Mobility and Security를 사용하여 액세스 제어를 지원하는 앱에 로그인합니다. 디바이스가 보안 설정을 준수할 때까지 Microsoft 365 리소스에 액세스하지 못하게 차단됩니다.
 
-:::image type="content" source="../../media/basic-mobility-security/bms-2-device-not-compliant.png" alt-text="기본 모바일 및 보안 준수 메시지":::
+:::image type="content" source="../../media/basic-mobility-security/bms-2-device-not-compliant.png" alt-text="기본 모바일 및 보안 준수 메시지입니다.":::
 
 다음 섹션에는 조직 리소스에 연결하는 모바일 장치를 보호하고 관리하는 데 사용할 수 있는 정책 Microsoft 365 나열되어 있습니다.
 
@@ -116,7 +116,7 @@ ms.locfileid: "58346955"
 
 |**설정 이름**|**iOS 7.1 이상**|**Android 5 이상**|**Samsung Knox**|
 |:-----|:-----|:-----|:-----|
-|디바이스<sup>1에서</sup> 데이터 암호화 필요 |아니오|예|예|
+|디바이스<sup>1에서</sup> 데이터 암호화 필요 |아니요|예|예|
 
 <sup>1</sup> Samsung Knox를 사용하면 저장소 카드에 암호화를 요구할 수도 있습니다.
 
@@ -142,8 +142,8 @@ ms.locfileid: "58346955"
 |클라우드 백업 차단 |예|아니요|아니요|
 |문서 동기화 차단 |예|아니요|아니요|
 |사진 동기화 차단  |예|아니요|아니요|
-|Google 백업 허용  |해당 없음|아니오|예|
-|Google 계정 자동 동기화 허용  |해당 없음|아니오|예|
+|Google 백업 허용  |해당 없음|아니요|예|
+|Google 계정 자동 동기화 허용  |해당 없음|아니요|예|
 
 ## <a name="system-settings"></a>시스템 설정
 
@@ -158,7 +158,7 @@ ms.locfileid: "58346955"
 |:-----|:-----|:-----|:-----|
 |장치에서 비디오 회의 차단 |예|아니요|아니요|
 |응용 프로그램 저장소에 대한 액세스 차단 |예|아니요|예|
-|응용 프로그램 저장소에 액세스할 때 암호 필요 |아니오|예|예|
+|응용 프로그램 저장소에 액세스할 때 암호 필요 |아니요|예|예|
 
 ## <a name="device-capabilities-settings"></a>장치 기능 설정
 

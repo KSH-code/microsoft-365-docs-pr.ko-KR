@@ -17,18 +17,18 @@ search.appverid:
 ms.assetid: ''
 description: 사례에서 세부 정보를 보고, 편집하고, 대량으로 편집하는 방법을 Advanced eDiscovery.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daf74c2e51d9a01fad97534a4e49068528e820054b147c09baf8d3b3a8099d45
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e542a76e55e0ed9d75a1756026ff9a4f8c1d59ac
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53879320"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567715"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>관리 사례에서 Advanced eDiscovery 관리
 
 Advanced eDiscovery 사례의 원본 탭에  있는 Custodians 페이지에는 사례에 추가된 모든 정보 근로자 목록이 포함되어 있습니다. 사례에 보아를 추가하고 나면 각 보위부에 대한 세부 정보가 Azure Active Directory 자동으로 수집되며 Advanced eDiscovery.
 
-![Custodians 관리](../media/CustodianDetails.PNG)
+![Custodians를 관리합니다.](../media/CustodianDetails.PNG)
 
 ## <a name="view-custodian-details"></a>보아도 세부 정보 보기
 
@@ -83,7 +83,7 @@ Advanced eDiscovery 사례의 원본 탭에  있는 Custodians 페이지에는 �
   
 3. **Custodians** 페이지에서 목록에서 Custodian를 선택하고 플라이아웃 페이지에서 편집을 클릭합니다. 
 
-    ![데이터 원본 편집](../media/EditCustodianDataSource.PNG)
+    ![데이터 원본을 편집합니다.](../media/EditCustodianDataSource.PNG)
   
 4. 데이터 **원본** 선택 탭을 클릭하여 보호자 사서함 및 Exchange 계정의 설정을 변경하고 OneDrive 원본 **선택을 클릭합니다.**
   
@@ -113,7 +113,7 @@ Advanced eDiscovery 사례의 원본 탭에  있는 Custodians 페이지에는 �
 
 보호자 데이터를 다시 인덱싱하는 과정은 오래 지속됩니다. 생성된 해당 작업의 이름은 다시 인덱싱 **custodian 데이터입니다.** 인덱싱 작업 상태  열의 상태를  모니터링하여 작업 탭 또는 관리 탭에서 진행 상황을 추적할 **수** 있습니다.
 
-자세한 내용은 다음 항목을 참조하세요.
+자세한 내용은 다음을 참조하세요.
 
 - [오류 처리 작업](processing-data-for-case.md)
 
@@ -148,4 +148,4 @@ Advanced eDiscovery 사례의 원본 탭에  있는 Custodians 페이지에는 �
 
 대량 편집기를 사용하여 동시에 여러 관리인을 편집할 수 있습니다. 이렇게하려면 관리 탭에서 두 개 이상의 관리인을  선택하여 대량 편집기를 표시한 다음 작업 중 하나를 클릭합니다.
 
-![여러 보호자 설정을 편집하는 플라이아웃 페이지](../media/AeDBulkEditCustodians.png)
+![플라이아웃 페이지에서 여러 보호자 설정을 편집합니다.](../media/AeDBulkEditCustodians.png)

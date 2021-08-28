@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: 앱 관리 정책을 생성, 편집 또는 삭제하고 Android 또는 iOS 디바이스에서 작업 파일을 보호하는 방법을 학습합니다.
-ms.openlocfilehash: b3dc925d907c08708ce56c5f6b7a1d1a7d32096c
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.openlocfilehash: 1ab7c57e1a9da1a68c07535c2550f0762f7c8141
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564408"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 설정하기
 
@@ -50,7 +50,7 @@ ms.locfileid: "58360636"
     
     언제든지 **기본 설정 다시 설정** 링크를 사용하여 기본 설정으로 돌아갈 수 있습니다. 
     
-    ![Screenshot of Create a policy with Application management for Android selected](../../media/eabbe06d-ac0a-4f3a-8630-68c808b1e662.png)
+    ![Screenshot of Create a policy with Application management for Android selected.](../../media/eabbe06d-ac0a-4f3a-8630-68c808b1e662.png)
   
 6. Next decide **Who will get these settings?** 기본 모든 사용자 보안 그룹을  사용하지 않는 경우 변경 을 선택하고 이러한 설정을 사용하는 보안 그룹을 \> **선택합니다.**
     

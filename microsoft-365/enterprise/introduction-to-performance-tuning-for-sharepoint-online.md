@@ -17,12 +17,12 @@ ms.custom: Adm_O365
 search.appverid: SPO160
 ms.assetid: 81c4be5f-327e-435d-a568-526d68cffef0
 description: 이 문서에서는 온라인에서 최상의 성능을 위해 페이지를 디자인할 때 고려해야 하는 특정 측면에 대해 SharePoint 있습니다.
-ms.openlocfilehash: 248600582fe7fea550fc401bdbd25c68ba5c97e2c76321aaf835cbdb7e6c5d50
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d2653e1ee07309d2f31a24df2715bf7810beb65b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53849065"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567883"
 ---
 # <a name="introduction-to-performance-tuning-for-sharepoint-online"></a>SharePoint Online의 성능 조정 소개
 
@@ -92,11 +92,11 @@ SharePoint 성능에 영향을 주는 대부분의 문제는 SharePoint Online�
   
 SharePoint 서버 On-premises
   
-![온-프레미스 서버의 스크린샷](../media/a8e9b646-cdff-4131-976a-b5f891da44ac.png)
+![Screenshot of server on premises.](../media/a8e9b646-cdff-4131-976a-b5f891da44ac.png)
   
 SharePoint Online
   
-![온라인 서버의 스크린샷](../media/46b27ded-d8a4-4287-b3e0-2603a764b8f8.png)
+![온라인 서버 스크린샷.](../media/46b27ded-d8a4-4287-b3e0-2603a764b8f8.png)
   
 온라인 SharePoint 특정 페이지 요청이 실제로 여러 서버를 호출하게 될 수 있습니다. 개별 요청에 대한 서버 간의 요청 행렬이 끝날 수 있습니다. 이러한 조작은 페이지 로드 관점에서 비용이 많이 들고 속도가 느려질 수 있습니다.
   

@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 모바일 장치 액세스를 차단합니다.
-ms.openlocfilehash: 8613e5a08cae43ebb5bbb9dbb0d7f99c734d47303a9a9349f402b512dd18905e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8c5b279bc85d6c99fd8722d1f9fd4d4b3757e793
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827437"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58564713"
 ---
 # <a name="step-5---wipe-and-block-a-former-employees-mobile-device"></a>5단계 - 이전 직원의 모바일 장치 지우기 및 차단
 
@@ -41,7 +41,7 @@ ms.locfileid: "53827437"
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
 2. Exchange 관리 센터에서 **받는 사람** \> **사서함** 으로 이동합니다.
 3. 사용자를 선택하고 모바일 **장치에서** 세부 정보 보기 **를 선택합니다.**
-4. 모바일 **장치 세부 정보** 페이지의 모바일 장치 에서 모바일 장치를 선택하고 데이터 지우기 장치 지우기를 선택한 다음 ![ ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) 차단을 **선택합니다.**
+4. 모바일 **장치 세부 정보** 페이지의 모바일 장치에서 모바일 장치를 선택하고 데이터 지우기 장치 초기화 를 선택한 다음 ![ ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) 차단을 **선택합니다.**
 5. **저장** 을 선택합니다.
    > [!TIP]
    > 사용자를 프레미스 Blackberry Enterprise 제거해야 합니다. 또한 사용자에 대해 Blackberry 장치를 사용하지 않도록 설정해야 합니다. 사용자를 사용하지 않도록 설정하는 방법에 대한 구체적인 단계가 필요한 경우 Blackberry Business Cloud Services Administration Guide를 참조하세요.

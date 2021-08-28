@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: b9f73150d858efc8eecf7a027035011d88098e9359ab87c9ce5c2f992cd8857e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f33b16cb08f7573a579f46327f126071ed726e42
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53805697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563941"
 ---
 # <a name="device-profile-page"></a>디바이스 프로필 페이지
 
@@ -36,7 +36,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 프로필 페이지는 여러 광범위한 섹션으로 나됩니다.
 
-![(1) 탭 영역 (2) 사이드바 및 (3) 작업이 빨간색으로 강조 표시된 장치 프로필 페이지의 이미지](../../media/mtp-device-profile/hybrid-device-overall.png)
+![(1) 탭 영역 (2) 사이드바 및 (3) 작업이 빨간색으로 강조 표시된 장치 프로필 페이지의 이미지입니다.](../../media/mtp-device-profile/hybrid-device-overall.png)
 
 사이드바(1)에는 장치에 대한 기본 세부 정보가 나열됩니다.
 
@@ -48,7 +48,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 디바이스 프로필 페이지의 기본 콘텐츠 영역 옆에 사이드바가 있습니다.
 
-![장치 프로필에 대한 사이드바 탭 이미지](../../media/mtp-device-profile/azure-atp-only-device-sidebar.png)
+![장치 프로필에 대한 사이드바 탭의 이미지입니다.](../../media/mtp-device-profile/azure-atp-only-device-sidebar.png)
 
 사이드바에는 장치의 전체 이름 및 노출 수준이 나열됩니다. 또한 다음과 같이 열리거나 닫을 수 있는 소규모 하위Ection에서 몇 가지 중요한 기본 정보를 제공합니다.
 
@@ -66,7 +66,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 대응 조치는 위협을 신속하게 방어하고 분석하는 방법을 제공합니다.
 
-![장치 프로필에 대한 작업 표시줄의 이미지](../../media/mtp-device-profile/hybrid-device-long-action-bar.png)
+![장치 프로필에 대한 작업 표시줄의 이미지입니다.](../../media/mtp-device-profile/hybrid-device-long-action-bar.png)
 
 > [!IMPORTANT]
 > * [응답 작업은](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts) 장치가 끝점용 Microsoft Defender에 등록된 경우만 사용할 수 있습니다.
@@ -94,7 +94,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 기본 탭은 **개요입니다.** 디바이스에 대한 가장 중요한 보안 팩트에 대한 빠른 보기를 제공합니다.
 
-![장치 프로필에 대한 개요 탭 이미지](../../media/mtp-device-profile/hybrid-device-tab-overview.png)
+![장치 프로필에 대한 개요 탭의 이미지입니다.](../../media/mtp-device-profile/hybrid-device-tab-overview.png)
 
 여기서 장치의 활성 경고 및 현재 로그온한 모든 사용자를 빠르게 살펴 볼 수 있습니다.
 
@@ -104,7 +104,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 경고 **탭에는** Id용 Microsoft Defender와 끝점용 Microsoft Defender 모두에서 장치에서 발생된 경고 목록이 포함되어 있습니다.
 
-![장치 프로필에 대한 경고 탭 이미지](../../media/mtp-device-profile/hybrid-device-tab-alerts.png)
+![장치 프로필에 대한 경고 탭의 이미지입니다.](../../media/mtp-device-profile/hybrid-device-tab-alerts.png)
 
 표시되는 항목 수와 각 항목에 대해 표시되는 열을 사용자 지정할 수 있습니다. 기본 동작은 페이지당 30개 항목을 나열하는 것입니다.
 
@@ -122,7 +122,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 차트 아래에는 선택한 날짜 범위에 대한 이벤트 목록이 있습니다.
 
-![장치 프로필의 타임라인 탭 이미지](../../media/mtp-device-profile/hybrid-device-tab-timeline.png)
+![장치 프로필에 대한 타임라인 탭의 이미지입니다.](../../media/mtp-device-profile/hybrid-device-tab-timeline.png)
 
 표시되는 항목 수와 목록의 열을 모두 사용자 정의할 수 있습니다. 기본 열에는 이벤트 시간, 활성 사용자, 작업 유형, 엔터티(프로세스) 및 이벤트에 대한 추가 정보가 나열됩니다.
 
@@ -136,7 +136,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 보안 **권장 사항** 탭에는 장치를 보호하기 위해 수행할 수 있는 작업이 나열됩니다. 이 목록에서 항목을 선택하면 추천을 적용하는 방법에 대한 지침을 얻을 수 있는 플라이아웃이 열립니다.
 
-![장치 프로필에 대한 보안 권장 탭 이미지](../../media/mtp-device-profile/hybrid-device-tab-security-recs.png)
+![장치 프로필에 대한 보안 권장 사항 탭의 이미지입니다.](../../media/mtp-device-profile/hybrid-device-tab-security-recs.png)
 
 이전 탭과 동일하게 페이지당 표시되는 항목 수와 표시되는 열을 사용자 정의할 수 있습니다.
 
@@ -146,7 +146,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 소프트웨어 **인벤토리** 탭에는 장치에 설치된 소프트웨어가 나열됩니다.
 
-![장치 프로필에 대한 소프트웨어 인벤토리 탭의 이미지](../../media/mtp-device-profile/hybrid-device-tab-software-inventory.png)
+![장치 프로필에 대한 소프트웨어 인벤토리 탭의 이미지입니다.](../../media/mtp-device-profile/hybrid-device-tab-software-inventory.png)
 
 기본 보기에는 소프트웨어 공급업체, 설치된 버전 번호, 알려진 소프트웨어 약점 수, 위협 정보, 제품 코드 및 태그가 표시됩니다. 표시되는 항목 수와 표시되는 열을 모두 사용자 정의할 수 있습니다.
 
@@ -158,7 +158,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 검색된 **취약성** 탭에는 장치에 영향을 줄 수 있는 일반 취약성 및 CV(Exploits)가 나열됩니다.
 
-![장치 프로필에 대해 검색된 취약성 탭의 이미지](../../media/mtp-device-profile/hybrid-device-tab-discovered-vulnerabilities.png)
+![장치 프로필에 대해 검색된 취약성 탭의 이미지입니다.](../../media/mtp-device-profile/hybrid-device-tab-discovered-vulnerabilities.png)
 
 기본 보기에는 CVE의 심각도, CVS(Common Vulnerability Score), CVE 관련 소프트웨어, CVE가 게시된 때, CVE가 마지막으로 업데이트된 때 및 CVE와 관련된 위협이 나열됩니다.
 
@@ -170,7 +170,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 누락된 **KB 탭에는** 장치에 아직 적용되지 않은 모든 Microsoft 업데이트가 나열됩니다. 해당 "KB"는 이러한 업데이트를 [설명하는 기술](https://support.microsoft.com/help/242450/how-to-query-the-microsoft-knowledge-base-by-using-keywords-and-query) 자료 문서입니다. 예를 들어 [KB4551762와 같습니다.](https://support.microsoft.com/help/4551762/windows-10-update-kb4551762)
 
-![장치 프로필에 대한 kbs 탭이 누락된 이미지](../../media/mtp-device-profile/hybrid-device-tab-missing-kbs.PNG)
+![장치 프로필에 대한 kbs 탭이 누락된 이미지입니다.](../../media/mtp-device-profile/hybrid-device-tab-missing-kbs.PNG)
 
 기본 보기에는 업데이트, OS 버전, 영향을 받는 제품, 주소가 지정되는 CV, KB 번호 및 태그가 포함된 공지가 나열됩니다.
 
@@ -178,7 +178,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 항목을 선택하면 업데이트에 연결되는 플라이아웃이 열립니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 * [Microsoft 365 Defender 개요](microsoft-365-defender.md)
 * [Microsoft 365 Defender 켜기](m365d-enable.md)

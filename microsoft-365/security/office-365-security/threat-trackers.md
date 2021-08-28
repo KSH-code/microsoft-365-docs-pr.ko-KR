@@ -18,12 +18,12 @@ ms.collection:
 description: 조직이 보안 문제의 맨 위에 오게 도와주는 새로운 주목할 만한 추적기 등 위협 추적기에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8beeceec6c98af093d2fff30e4553a36cdcce28634fadc03cc37c22b96fc4848
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6ab8cf03b7ceb1ec01e6b30d3b0c11bbb7223b6f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56877737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566527"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기 - 신규 및 주목할 만한 요소
 
@@ -46,7 +46,7 @@ ms.locfileid: "56877737"
 
 대부분의 트래커 페이지에는 주기적으로 업데이트되는 추세 번호, 가장 큰 문제 또는 증가한 문제를 이해하는 데 도움이  되는 위젯, 더 자세한 정보를 볼 수 있는 탐색기로 연결되는 작업 열의 빠른 링크가 포함되어 있습니다.
 
-![탐색기에서 캠페인 정보의 예](../../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
+![탐색기에서 캠페인 정보의 예입니다.](../../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
 
 추적기 기능은 계획 [2용 Microsoft Defender에서](office-365-ti.md)얻을 수 있는 몇 가지 Office 365 있습니다. 위협 추적기에는 [주목할만한](#noteworthy-trackers)추적기, [인기](#trending-trackers)트래커, 추적된 [쿼리](#tracked-queries)및 저장된 [쿼리가 포함됩니다.](#saved-queries)
 
@@ -65,7 +65,7 @@ ms.locfileid: "56877737"
 
 인기 있는 추적기(이전의 캠페인)는 지난 주에 조직의 전자 메일에 수신된 새로운 위협을 강조합니다.
 
-![인기 맬웨어 캠페인 위젯의 예](../../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
+![인기 맬웨어 캠페인 위젯의 예입니다.](../../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
 
 인기 트래커는 더 광범위한 회사 환경을 공격에 대비하기 위해 검토해야 하는 새로운 위협에 대한 아이디어를 제공합니다.
 
@@ -73,13 +73,13 @@ ms.locfileid: "56877737"
 
 추적된 쿼리는 저장된 쿼리를 활용하여 조직의 Microsoft 365 주기적으로 평가합니다. 이를 통해 이벤트 추세가 제공될 수 있습니다. 그 다음 몇 개월에 더 많은 이벤트가 제공될 것입니다. 추적된 쿼리는 자동으로 실행되며 쿼리를 다시 실행할 필요 없이 최신 정보를 제공합니다.
 
-![선택한 쿼리가 하나인 추적된 쿼리의 예](../../media/0c556174-06eb-4ae5-b32a-5ff76b9e4f13.png)
+![선택한 쿼리가 하나인 추적된 쿼리의 예입니다.](../../media/0c556174-06eb-4ae5-b32a-5ff76b9e4f13.png)
 
 ### <a name="saved-queries"></a>저장된 쿼리
 
 저장된 쿼리는 추적기 섹션에도 있습니다. 저장된 쿼리를 사용하여 매번 검색을 다시 만들지 않고도 더 빠르고 반복적으로 돌아가고자 하는 일반적인 탐색기 검색을 저장할 수 있습니다.
 
-![선택한 쿼리가 하나인 저장된 쿼리의 예](../../media/188cf3ff-58f1-41ea-81aa-76158d8f40c3.png)
+![선택한 쿼리가 하나인 저장된 쿼리의 예입니다.](../../media/188cf3ff-58f1-41ea-81aa-76158d8f40c3.png)
 
 항상 탐색기 페이지의 맨 위에 있는 저장 쿼리 단추를 사용하여  주목할만한 추적기 쿼리 또는 사용자 자신의 탐색기 쿼리를 저장할 수 있습니다. 저장한 모든 항목은 추적기 페이지의 **저장된** 쿼리 목록에 표시됩니다.
 
@@ -89,13 +89,13 @@ ms.locfileid: "56877737"
 
 또한 오른쪽 아래 모서리에 있는 피드백 단추를 클릭하여 항상 이 또는  기타 Microsoft 365 보안 기능에 대한 피드백을 제공할 수 있습니다.
 
-![Microsoft 365 Defender 포털](../../media/microsoft-365-defender-portal.png)
+![Microsoft 365 Defender 포털.](../../media/microsoft-365-defender-portal.png)
 
 ## <a name="trackers-and-microsoft-defender-for-office-365"></a>트래커 및 Microsoft Defender for Office 365
 
 취임 후의 주목할 만한 위협으로, 첨부 파일 에서 검색된 고급 [맬웨어 위협을 금고 있습니다.](safe-attachments.md) E5 고객으로 Office 365 Enterprise Microsoft [Defender를](defender-for-office-365.md)Office 365 경우 구독에 포함되어야 합니다. Defender for Office 365 서비스를 사용하여 전자 메일 흐름을 필터링하는 다른 보안 도구가 있는 경우에도 Office 365 제공합니다. 그러나 스팸 방지 [](safe-links.md) 및 금고 링크 기능은 기본 전자 메일 보안 솔루션을 통해 작업할 때 가장 Office 365.
 
-![microsoft Defender for Office 365 포털에서 Microsoft 365 Defender 수 있습니다.](../../media/policies.png)
+![Microsoft Defender for Office 365 포털에서 Microsoft 365 Defender.](../../media/policies.png)
 
 오늘날의 위협을 없애는 세계에서 기존의 맬웨어 방지 검사만 실행하면 공격으로부터 충분히 보호되지 않습니다. 오늘날 좀 더 정교한 공격자는 일반적으로 사용할 수 있는 도구를 사용하여 기존의 서명 기반 맬웨어 방지 엔진에서 인식되지 않는 새로운, 난독 또는 지연된 공격을 만들 수 있습니다. 금고 첨부 파일 기능은 전자 메일 첨부 파일을 사용하여 가상 환경에서 이를 확인하여 안전한지 또는 악성인지를 확인할 수 있습니다. 이 데이타 프로세스는 가상 컴퓨터 환경에서 각 파일을 연 다음 파일을 연 후 어떤 일이 일어나는지 확인합니다. PDF 및 압축된 파일이든 Office 문서이든, 악성 코드는 파일에 숨겨져 있으며, 사용자가 컴퓨터에서 파일을 열 때만 활성화할 수 있습니다. 전자 메일 흐름에서 파일을 검색하고 분석하여 Office 365 기능의 Defender는 동작, 파일 신뢰도 및 다양한추론 규칙을 기반으로 이러한 위협을 검색합니다.
 

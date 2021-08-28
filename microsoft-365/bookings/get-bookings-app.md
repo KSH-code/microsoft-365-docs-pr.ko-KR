@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 01b79cb0-e206-4a3a-aaef-b10941770f87
 description: Bookings 모바일 앱은 아직 전 세계에 사용할 수 없습니다. 이 문서에서는 지금 앱을 사용할 수 있는 로케이션을 나열합니다.
-ms.openlocfilehash: 551ce6efb3c310d7864b24d29190d662445e6b226babf3870a56a1643c3d067b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2ac3338423cb2c9f472e28bba2be748bed2d7fd0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53815093"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58566087"
 ---
 # <a name="get-the-microsoft-bookings-app-for-ios-and-android"></a>iOS 및 Android용 Microsoft Bookings 앱 다운로드
 
@@ -24,7 +24,7 @@ Microsoft Bookings 앱을 다운로드해주신 경우 감사합니다. Microsof
 
 1. 찾고자 하는 앱을 찾을 수 없나요? 앱 시작기에서 모든 앱을 선택하여 사용 가능한 앱의 사전 Microsoft 365 볼 수 있습니다. 이 경우 특정 앱을 검색할 수 있습니다.
 
-   ![앱 시작 프로그램 이미지](../media/bookings-all-apps-launcher.png)
+   ![앱 시작커의 이미지입니다.](../media/bookings-all-apps-launcher.png)
 
 2. Office [홈 페이지로 이동한](https://office.com) 후 앱 시작 페이지에서 **Bookings 를 선택합니다.**
 
