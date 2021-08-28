@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 142ce23d87c1f793a0192270e6d041b33d9bc126
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 5b1cee16f4eccaa8f6fd36d8764b1305cba3131f
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573970"
+ms.locfileid: "58611286"
 ---
 # <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender의 라이선스 문제 해결
 
@@ -52,7 +52,7 @@ ms.locfileid: "58573970"
 
 **원인:** 
 
-MacOS용 끝점용 Microsoft Defender 패키지("설치 패키지 다운로드")를 배포하거나 설치했으나 구성 스크립트("온보딩 패키지 다운로드")를 실행했거나 사용자에게 라이선스를 할당하지 않은 것일 수 있습니다.
+MacOS용 끝점용 Microsoft Defender 패키지("설치 패키지 다운로드")를 배포 및 설치했으나 구성 스크립트("온보딩 패키지 다운로드")를 실행하지 못했거나 사용자에게 라이선스를 할당하지 않은 것일 수 있습니다.
 
 **해결 방법:**
 

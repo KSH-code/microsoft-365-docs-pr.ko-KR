@@ -14,16 +14,16 @@ ms.service: o365-administration
 ms.custom: admindeeplinkMAC
 localization_priority: Normal
 description: 전역 관리자는 사용자의 앱 시작 관리자에 최대 3개의 앱을 고정할 수 있습니다.
-ms.openlocfilehash: b26f77d819f41517add59be14f26931f14001c65
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: bbb41dfcb72849287bb9ce87ab2c9d250b1b4d99
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394471"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589231"
 ---
 # <a name="pin-apps-to-your-users-app-launcher"></a>사용자의 앱 시작커에 앱 고정
 
-Azure Active Directory 포털의 컨트롤을 사용하여 최대 3개의 앱을 Office.com에 고정하고 조직의 모든 사용자에 대한 앱 시작 프로그램을 고정할 수 있습니다. 응용 프로그램 그룹을 구성할 수 있습니다. 나중에 추가하는 모든 앱은 사용자가 원하는 경우 이 기능을 언핑할 수 있습니다. 사용자를 위해 앱을 고정하려면 조직의 클라우드 응용 프로그램 관리자 또는 Azure Active Directory 전역 관리자 또는 Office 365. 관리자 역할에 대한 자세한 [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 내용은 Azure Active Directory 및 관리자 역할의 관리자 역할을 [Microsoft 365.](../add-users/about-admin-roles.md) 
+Azure Active Directory 포털의 컨트롤을 사용하여 최대 3개의 앱을 Office.com에 고정하고 조직의 모든 사용자에 대한 앱 시작 프로그램을 고정할 수 있습니다. 응용 프로그램 그룹을 구성할 수 있습니다. 나중에 추가하는 모든 앱은 사용자가 원하는 경우 이 기능을 언핑할 수 있습니다. 사용자를 위해 앱을 고정하려면 조직의 클라우드 응용 프로그램 관리자 또는 Azure Active Directory 전역 관리자 또는 Office 365. 관리자 역할에 대한 자세한 내용은 에서 [Azure AD](/azure/active-directory/roles/permissions-reference) 기본 제공 역할 및 관리자 [역할을 Microsoft 365.](../add-users/about-admin-roles.md) 
 
 앱 시작 프로그램 및 Office.com에 대한 자세한 [](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a) 내용은 앱 시작 office.com 업데이트 및 앱 시작 Office 365 [문서를](https://techcommunity.microsoft.com/t5/office-365-blog/updates-to-office-com-and-the-office-365-app-launcher/ba-p/1150503) 참조하세요.
 

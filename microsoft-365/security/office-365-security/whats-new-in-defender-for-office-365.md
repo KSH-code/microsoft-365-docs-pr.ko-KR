@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ae01a929121488399ac3a016f0b33ae7b28ff96d
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: eab119de2f4058d853a85c6ec5ba3a99056b595e
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533618"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684079"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -43,10 +43,6 @@ ms.locfileid: "58533618"
 > [!TIP]
 > 아직 Microsoft Defender for Office 365 없는가요? [영업 담당자에게 평가판을 시작해 을(를) 시작해 을(를) 평가](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
-## <a name="august-2021"></a>2021년 8월
-
-- [보고된](admin-review-reported-message.md)메시지에 대한 관리자 검토: 관리자는 이제 보고된 메시지를 검토한 후 템플릿 기반 메시지를 최종 사용자에게 다시 보낼 수 있습니다. 이는 조직에 맞게 사용자 지정하고 관리자의 판결에 따라 사용자 지정될 수 있습니다. 
-=======
 ## <a name="september-2021"></a>2021년 9월
 
 - [Quarantine policies:](quarantine-policies.md)Admins can configure granular control for recipient access to quarantined messages and customize end-user spam notifications.
@@ -167,7 +163,7 @@ ms.locfileid: "58533618"
 
 Microsoft Defender for Office 365 계획으로 사용할 수 있나요? [각 계획에 포함된 내용에 대해 자세히 알아보시고 을(를) 포함합니다.](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)
 

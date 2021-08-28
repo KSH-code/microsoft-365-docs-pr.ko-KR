@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d7c3fac607f470018b4c6c5a025b3b2ac09464cc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: b3fa8c7c919edc438bb63fe4baaeca6711a3a045
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58550229"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683519"
 ---
 # <a name="information-protection-in-windows-overview"></a>Windows의 정보 보호 개요
 
@@ -34,12 +34,11 @@ ms.locfileid: "58550229"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 정보 보호는 업무 공간에서 생산성을 Microsoft 365 Enterprise 중요한 데이터를 안전하게 유지하는 지능형 보호 기능을 제공하는 Microsoft 365 Enterprise 제품군의 중요한 부분입니다.
 
->[!TIP]
+> [!TIP]
 > Microsoft Defender for Endpoint가 통합되어 Microsoft Information Protection 디바이스에서 중요한 데이터를 검색, 보호 및 모니터링하는 방법에 대한 [블로그 Windows 읽어 읽습니다.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
 
 Endpoint용 Defender는 다음 방법을 적용하여 데이터를 검색, 분류 및 보호합니다.

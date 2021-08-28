@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 10/07/2018
-ms.openlocfilehash: a5d050bfe61af9754b7cb1dd45c46a419314f5220a36630c8b1a528d694dc9c1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ca0c033a92f7607db2b1ad6e00f13cd33ad9c8f9
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53818710"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589549"
 ---
 # <a name="get-kb-collection-api"></a>KB 컬렉션 API 사용
 
@@ -36,10 +36,10 @@ ms.locfileid: "53818710"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 RBAC 장치 그룹 컬렉션을 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
+
 사용자에게 읽기 권한이 필요합니다.
 
 ## <a name="http-request"></a>HTTP 요청
@@ -50,7 +50,7 @@ GET /testwdatppreview/machinegroups
 
 ## <a name="request-headers"></a>요청 헤더
 
-헤더 | 값 
+헤더|값
 :---|:---
 권한 부여 | Bearer {token}. **필수입니다**.
 콘텐츠 형식 | application/json
@@ -77,9 +77,10 @@ Content-type: application/json
 ### <a name="response-example"></a>응답 예제
 
 다음은 응답의 예입니다.
-필드 ID에는 장치 그룹 **ID가** 포함되어 있으며 디바이스 정보의 **필드 rbacGroupId와** 동일합니다. **그룹화되지 않은** 필드는 그룹에 할당되지 않은 모든 장치에 대해 하나의 그룹에만 true입니다. 이 그룹은 평소와 같이 이름이 "UnassignedGroup"입니다.
+필드 ID에는 장치 그룹 **ID가** 포함되어 있으며 디바이스 정보의 **필드 rbacGroupId와** 동일합니다.
+**그룹화되지 않은** 필드는 그룹에 할당되지 않은 모든 장치에 대해 하나의 그룹에만 true입니다. 이 그룹은 평소와 같이 이름이 "UnassignedGroup"입니다.
 
-```
+```http
 HTTP/1.1 200 OK
 Content-type: application/json
 {

@@ -3,7 +3,7 @@ title: Microsoft 365 네트워크 연결 개요
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/23/2020
+ms.date: 08/27/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,24 +17,24 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: SaaS 서비스에 네트워크 최적화가 중요한 이유, Microsoft 365 네트워킹의 목표 및 SaaS가 다른 워크로드와 다른 네트워킹을 요구하는 방법에 대해 논의합니다.
-ms.openlocfilehash: 05e30c7ef3caedff54b45b95f90b4a9f1036193d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: c5794f9312ba098d27beb65bfbb272701ac3927f
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566781"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683959"
 ---
 # <a name="microsoft-365-network-connectivity-overview"></a>Microsoft 365 연결 개요
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 다양한 마이크로 서비스 및 응용 프로그램을 통해 생산성 및 공동 작업 시나리오를 제공하는 분산 SaaS(Software-as-a-Service) 클라우드입니다. Microsoft 365, Word 및 Outlook 같은 PowerPoint 구성 요소는 사용자 컴퓨터에서 실행되어 Microsoft 데이터 센터에서 Microsoft 365 구성 요소에 연결합니다. 최종 사용자 환경의 품질을 결정하는 가장 중요한 요소는 Microsoft 365 클라이언트와 서비스 프런트 도어 간의 네트워크 안정성과 Microsoft 365 낮은 Microsoft 365 요인입니다.
+Microsoft 365 다양한 마이크로 서비스 및 응용 프로그램을 통해 생산성 및 공동 작업 시나리오를 제공하는 분산 SaaS(Software-as-a-Service) 클라우드입니다. Microsoft 365, Outlook, Word 및 PowerPoint 같은 클라이언트 구성 요소는 사용자 컴퓨터에서 실행되어 Microsoft 데이터 센터에서 Microsoft 365 구성 요소에 연결합니다. 최종 사용자 환경의 품질을 결정하는 가장 중요한 요소는 Microsoft 365 클라이언트와 서비스 프런트 도어 간의 네트워크 안정성과 Microsoft 365 낮은 Microsoft 365 요인입니다.
 
 이 문서에서는 Microsoft 365 네트워킹의 목표에 대해 알아보고, Microsoft 365 네트워킹에 일반 인터넷 트래픽과 다른 최적화 방식이 필요한 이유에 대해 알아보고 있습니다.
 
 ## <a name="microsoft-365-networking-goals"></a>Microsoft 365 네트워킹 목표
 
-네트워킹을 Microsoft 365 가장 가까운 끝점과 클라이언트 간에 가장 제한적인 액세스를 사용하도록 설정하여 최종 사용자 환경을 최적화하는 Microsoft 365 있습니다. 최종 사용자 환경의 품질은 사용자가 사용하는 응용 프로그램의 성능 및 응답 성능과 직접적인 관련이 있습니다. 예를 들어 Microsoft Teams 전화 통화, 회의 및 공유 화면 공동 작업에서 문제가 없는 낮은 대기 시간을 활용하며, Outlook 서버 쪽 인덱싱 및 AI 기능을 활용하는 인스턴트 검색 기능에 대한 훌륭한 네트워킹 연결을 활용합니다.
+네트워킹을 Microsoft 365 가장 가까운 끝점과 클라이언트 간에 가장 제한적인 액세스를 사용하도록 설정하여 최종 사용자 환경을 최적화하는 Microsoft 365 있습니다. 최종 사용자 환경의 품질은 사용자가 사용하는 응용 프로그램의 성능 및 응답 성능과 직접적인 관련이 있습니다. 예를 들어 Microsoft Teams 전화 통화, 회의 및 공유 화면 공동 작업에서 문제가 없는 낮은 대기 시간을 사용할 수 있으며, Outlook 서버 쪽 인덱싱 및 AI 기능을 적용하는 인스턴트 검색 기능에 대한 훌륭한 네트워킹 연결을 사용할 수 있습니다.
 
 네트워크 디자인의 기본 목표는 전 세계에 분산된 대기 시간이 짧은 고가용성 클라우드 응용 프로그램 진입점으로 모든 Microsoft의 데이터 센터를 상호 연결하는 Microsoft의 공용 네트워크 백본인 클라이언트 컴퓨터의 RTT(왕복 시간)를 줄여 대기 시간을 최소화하는 것입니다. [Microsoft가 빠르고 안정적인 글로벌 네트워크를 구축하는 방법](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)에서 Microsoft 글로벌 네트워크에 대해 자세히 알아볼 수 있습니다.
 
@@ -57,7 +57,7 @@ Microsoft 365 다양한 마이크로 서비스 및 응용 프로그램을 통해
 네트워크 트래픽을 보다 쉽게 식별하고 Microsoft 365 쉽게 관리할 수 있도록 지원하고 있습니다.
 
 - 인터넷 대기 시간의 영향을 들이지 않는 네트워크 트래픽과 매우 중요한 네트워크 트래픽을 구분하기 위해 새로운 범주의 네트워크 끝점입니다. 가장 중요한 "최적화" 범주에는 소수의 URL과 지원 IP 주소가 있습니다.
-- 스크립트 사용 또는 직접 장치 구성 및 네트워크 식별 변경 관리를 위한 Microsoft 365 서비스입니다. 변경 내용은 웹 서비스 또는 RSS 형식 또는 전자 메일에서 사용할 수 Power Automate 있습니다.
+- 스크립트 사용 또는 직접 장치 구성 및 네트워크 식별 변경 관리를 위한 Microsoft 365 서비스입니다. 변경 내용은 웹 서비스 또는 RSS 형식 또는 전자 메일에서 사용할 수 Microsoft Flow 있습니다.
 - [Office 365](./microsoft-365-networking-partner-program.md) 연결 원칙을 따르고 간단한 구성을 가지는 장치 또는 서비스를 Microsoft 365 Microsoft 파트너와 네트워크 파트너 프로그램을 구성합니다.
 
 ## <a name="securing-microsoft-365-connections"></a>연결 Microsoft 365 보안
@@ -68,23 +68,23 @@ Microsoft 365 기능을 위해 특별히 설계된 기본 제공 보안 및 거�
 
 ## <a name="why-is-microsoft-365-networking-different"></a>네트워크 Microsoft 365 다른 이유는 무엇입니까?
 
-Microsoft 365 및 암호화된 네트워크 연결을 사용하여 성능을 최적화하도록 설계되어 경계 보안 적용의 필요성이 줄어 습니다. Microsoft 365 데이터 센터는 전 세계에 있으며, 이 서비스는 클라이언트를 사용 가능한 최상의 서비스 끝점에 연결하는 다양한 방법을 사용할 수 있도록 디자인되었습니다. 사용자 데이터 및 처리는 여러 Microsoft 데이터 센터 간에 분산되어 있으며 클라이언트 컴퓨터를 연결할 수 있는 단일 네트워크 끝점이 없습니다. 실제로 Microsoft 365 테넌트의 데이터 및 서비스는 Microsoft 전역 네트워크에서 동적으로 최적화되어 최종 사용자가 액세스하는 지리적 위치에 맞게 조정됩니다.
+Microsoft 365 및 암호화된 네트워크 연결을 사용하여 성능을 최적화하도록 설계되어 경계 보안 적용의 필요성이 줄어 습니다. Microsoft 365 데이터 센터는 전 세계에 있으며, 이 서비스는 클라이언트를 사용 가능한 최상의 서비스 끝점에 연결하는 다양한 방법을 사용할 수 있도록 디자인되었습니다. 사용자 데이터와 처리는 여러 Microsoft 데이터 센터 간에 분산되어 있으며 클라이언트 컴퓨터를 연결할 수 있는 단일 네트워크 끝점이 없습니다. 실제로 Microsoft 365 테넌트의 데이터 및 서비스는 Microsoft 전역 네트워크에서 동적으로 최적화되어 최종 사용자가 액세스하는 지리적 위치에 맞게 조정됩니다.
 
 특정 일반적인 성능 문제는 Microsoft 365 검사 및 중앙 집중식 전송이 적용될 때 생성됩니다.
 
-- 대기 시간이 길면 비디오 및 오디오 스트림의 성능이 매우 저하되고 데이터 검색, 검색, 실시간 공동 작업, 약속이 있는 일정 정보, 제품 내 콘텐츠 및 기타 서비스에 대한 응답 속도가 느려질 수 있습니다.
+- 대기 시간이 길면 비디오 및 오디오 스트림의 성능이 저하되고 데이터 검색, 검색, 실시간 공동 작업, 약속이 있는 일정 정보, 제품 내 콘텐츠 및 기타 서비스에 대한 응답 속도가 느려질 수 있습니다.
 - 중앙 위치에서 연결을 유출하면 Microsoft 365 네트워크의 동적 라우팅 기능이 제거되어 대기 시간 및 왕복 시간이 추가됩니다.
 - 네트워크 트래픽을 Microsoft 365 SSL 보안 암호를 해독하고 다시 암호화하면 프로토콜 오류가 발생할 수 있으며 보안 위험이 있습니다.
 
-클라이언트 트래픽이 지리적 위치에 최대한 가깝게 유입될 수 있도록 하여 Microsoft 365 진입점에 대한 네트워크 경로를 단축하면 연결 성능과 최종 사용자 환경이 Microsoft 365. 또한 네트워크 아키텍처가 향후 변경될 경우 성능 및 안정성에 미치는 영향을 줄일 Microsoft 365 있습니다. 최적의 연결 모델은 회사 네트워크에 있는지, 집, 커피숍, 공항과 같은 원격 위치에 있는지에 관계없이 항상 사용자 위치에 네트워크 발신을 제공하는 것입니다. 일반 인터넷 트래픽 및 WAN 기반 회사 네트워크 트래픽은 별도로 라우팅될 것이고 로컬 직접 발신 모델을 사용하지 않습니다. 이 로컬 직접 송신 모델은 아래 다이어그램에 표시되어 있습니다.
+클라이언트 트래픽이 지리적 위치에 최대한 가깝게 유입될 수 있도록 하여 Microsoft 365 진입점에 대한 네트워크 경로를 단축하면 연결 성능과 최종 사용자 환경이 Microsoft 365. 또한 네트워크 아키텍처가 향후 변경될 경우 성능 및 안정성에 미치는 영향을 줄일 Microsoft 365 있습니다. 최적의 연결 모델은 회사 네트워크 또는 집, 커피숍, 공항 등의 원격 위치에 있는지에 관계없이 항상 사용자 위치에 네트워크 발신을 제공하는 것입니다. 일반 인터넷 트래픽 및 WAN 기반 회사 네트워크 트래픽은 별도로 라우팅될 것이고 로컬 직접 발신 모델을 사용하지 않습니다. 이 로컬 직접 송신 모델은 아래 다이어그램에 표시되어 있습니다.
 
-![로컬에서 네트워크 아키텍처를 Egress합니다.](../media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
+![로컬 송신 네트워크 아키텍처](../media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
 
 로컬 송신 아키텍처는 기존 모델과 비교할 때 다음과 같은 Microsoft 365 네트워크 트래픽의 이점을 제공합니다.
   
 - 경로 길이를 최적화하여 최적의 Microsoft 365 성능을 제공합니다. 최종 사용자 연결은 Microsoft 글로벌 네트워크의 분산 서비스 프런트 도어 인프라를  통해 가장 가까운 Microsoft 365 진입점으로 동적으로 라우팅되고 트래픽은 Microsoft의 매우 낮은 대기 시간 고가용성 파이버를 통해 내부적으로 데이터 및 서비스 끝점으로 라우팅됩니다.
 - 회사 네트워크 인프라에 대한 부하를 줄이면 Microsoft 365 및 트래픽 검사 장치를 우회하여 로컬로 유출할 수 있습니다.
-- 클라이언트 끝점 보안 및 클라우드 보안 기능을 활용하고 중복 네트워크 보안 기술을 적용하지 않도록 하여 양 끝에서 연결을 보호합니다.
+- 중복 네트워크 보안 기술을 적용하지 않도록 클라이언트 끝점 보안 및 클라우드 보안 기능을 적용하여 양 끝에서 연결을 보호합니다.
 
 > [!NOTE]
 > 분산 _서비스 Front Door_ 인프라는 지리적으로 분산된 위치가 있는 Microsoft 전역 네트워크의 고가용성 및 확장 가능한 네트워크 에지입니다. 최종 사용자 연결을 종료하고 Microsoft 전역 네트워크 내에서 효율적으로 라우팅합니다. [Microsoft가 빠르고 안정적인 글로벌 네트워크를 구축하는 방법](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)에서 Microsoft 글로벌 네트워크에 대해 자세히 알아볼 수 있습니다.
@@ -95,7 +95,7 @@ Microsoft 365 및 암호화된 네트워크 연결을 사용하여 성능을 최
 
 네트워크 Microsoft 365 최적화를 수행하면 불필요한 단점을 제거할 수 있습니다. 이러한 Microsoft 365 트러스트된 트래픽으로 처리하면 패킷 검사 및 프록시 대역폭 경쟁으로 인해 대기 시간이 도입되지 않도록 할 수 있습니다. 클라이언트 컴퓨터와 Office 365 로컬 연결을 허용하면 트래픽을 Microsoft 전역 네트워크를 통해 동적으로 라우팅할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft 365 네트워크 연결 원칙](microsoft-365-network-connectivity-principles.md)
 

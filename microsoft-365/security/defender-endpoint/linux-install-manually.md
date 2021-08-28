@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 24659a1e928143c79b3ab7324114d5c8b0fa1f43
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: aeafcec8c3ee3e557ac8ac429530a35cd8f7561e
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58550157"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683579"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -74,14 +74,20 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     ```bash
     sudo yum install yum-utils
     ```
+
 - 배포 및 버전을 확인하고 에서 가장 가까운 항목(주, 부)을 `https://packages.microsoft.com/config/rhel/` 식별합니다.
 
-    다음 표를 사용하여 패키지를 찾기 위한 안내를 제공합니다. 
+    다음 표를 사용하여 패키지를 찾기 위한 안내를 제공합니다.
 
-    |     Distro & 버전    |     패키지    |
+    <br>
+
+    ****
+
+    |Distro & 버전|패키지|
     |---|---|
-    |     RHEL 8.0-8.5의 경우    |     https://packages.microsoft.com/config/rhel/8/prod/    |
-    |     RHEL 7.2-7.9의 경우    |     https://packages.microsoft.com/config/rhel/7/prod/    |
+    |RHEL 8.0-8.5의 경우|<https://packages.microsoft.com/config/rhel/8/prod/>|
+    |RHEL 7.2-7.9의 경우|<https://packages.microsoft.com/config/rhel/7/prod/>|
+    |
 
     다음 명령에서 *[version]* 및 *[channel]을* 식별한 정보로 바 대체합니다.
 
@@ -440,6 +446,6 @@ Options:
 
 클라이언트 [장치에서](linux-resources.md#uninstall) Linux에서 Endpoint용 Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 - [에이전트 상태 문제 조사](health-status.md)

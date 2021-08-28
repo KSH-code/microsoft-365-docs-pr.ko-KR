@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 612c1629869a5cc777c0d00ba8169fe1707b78ed
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 0b28d4088b8475794989d777bf58ccc7550b3f7c
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58355835"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683555"
 ---
 # <a name="create-indicators-for-ips-and-urlsdomains"></a>IP 및 URL/도메인에 대한 지표 만들기
 
@@ -51,8 +51,8 @@ Endpoint용 Defender는 Microsoft 브라우저용 Windows Defender SmartScreen �
 IPS, URL 또는 도메인에 대한 표시기를 만들기 전에 다음의 선행 구성 요소에 대해 이해하는 것이 중요합니다.
 
 - URL/IP 허용 및 차단은 차단 모드에서 사용하도록 설정하기 위해 끝점 구성 요소 네트워크 보호에 대한 Defender를 사용합니다. 네트워크 보호 및 구성 지침에 대한 자세한 내용은 네트워크 보호 사용 [을 참조하세요.](enable-network-protection.md)
-- 맬웨어 방지 클라이언트 버전은 4.18.1906.x 이상입니다. 
-- 버전 1709 Windows 10 컴퓨터의 경우 지원됩니다. 
+- 맬웨어 방지 클라이언트 버전은 4.18.1906.x 이상입니다.
+- 버전 1709 Windows 10 컴퓨터의 경우 지원됩니다.
 - 고급 **기능의** 끝점에서 사용자 지정 **Microsoft 365 Defender > 설정 > 표시기가 > 확인합니다.** 자세한 내용은 고급 기능을 [참조하세요.](advanced-features.md)
 - iOS의 지표 지원은 사용자 지정 표시기 [구성을 참조합니다.](/microsoft-365/security/defender-endpoint/ios-configure-features#configure-custom-indicators)
 
@@ -72,16 +72,17 @@ IPS, URL 또는 도메인에 대한 표시기를 만들기 전에 다음의 선�
 >
 > 작업을 수행한 시간과 차단되는 URL 및 IP 사이에 최대 2시간의 대기 시간이 있을 수 있습니다(일반적으로 적음).
 
-
 경고 모드를 사용할 때 다음 컨트롤을 구성할 수 있습니다.
 
-**우회 능력**
+**우회 능력**:
+
 - Edge의 허용 단추
 - Allow button on toast (Non-Microsoft browsers)
 - 표시기에서 기간 매개 변수 무시
-- Microsoft 및 비 Microsoft 브라우저에서 적용 무시 
+- Microsoft 및 비 Microsoft 브라우저에서 적용 무시
 
-**URL 리디렉션** 
+**리디렉션 URL**:
+
 - 표시기에서 URL 매개 변수 리디렉션
 - Edge에서 URL 리디렉션
 - Toast에서 URL 리디렉션(비 Microsoft 브라우저)
@@ -90,7 +91,7 @@ IPS, URL 또는 도메인에 대한 표시기를 만들기 전에 다음의 선�
 
 ## <a name="create-an-indicator-for-ips-urls-or-domains-from-the-settings-page"></a>설정 페이지에서 IPS, URL 또는 도메인에 대한 표시기 만들기
 
-1. 탐색 창에서 **끝점 설정(규칙** 아래)를  >    >   **선택합니다.**
+1. 탐색 창에서 **끝점 설정(규칙** 아래)를 \>  \>  **선택합니다.**
 
 2. IP 주소 **또는 URL/도메인 탭을** 선택합니다.
 

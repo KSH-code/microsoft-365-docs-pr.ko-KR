@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 05ea44a0ffdf66a96c9915ca84639033bc59be7e946263ec2332b902e6d17daf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 264953bd84a0a167cb6283c64b9e6ecf2d28ba19
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863634"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683495"
 ---
 # <a name="create-indicators-based-on-certificates"></a>인증서를 기반으로 표시기 만들기
 
@@ -52,9 +52,9 @@ ms.locfileid: "53863634"
 
 > [!IMPORTANT]
 >
-> - 유효한 리프 인증서는 유효한 인증 경로가 있으며 Microsoft에서 신뢰하는 루트 CA(인증 기관)에 연결되어야 하는 서명 인증서입니다.  또는 클라이언트가 신뢰하는 한 사용자 지정(자체 서명된) 인증서를 사용할 수 있습니다(루트 CA 인증서는 로컬 컴퓨터 '신뢰할 수 있는 루트 인증 기관'에 설치됩니다.
->- 허용/차단 인증서 IOC의 자식 또는 부모는 IoC 허용/차단 기능에 포함되지 않습니다. 리프 인증서만 지원됩니다.
->- Microsoft 서명된 인증서는 차단할 수 없습니다.
+> - 유효한 리프 인증서는 유효한 인증 경로가 있으며 Microsoft에서 신뢰하는 루트 CA(인증 기관)에 연결되어야 하는 서명 인증서입니다. 또는 클라이언트가 신뢰하는 한 사용자 지정(자체 서명된) 인증서를 사용할 수 있습니다(루트 CA 인증서는 로컬 컴퓨터 '신뢰할 수 있는 루트 인증 기관'에 설치됩니다.
+> - 허용/차단 인증서 IOC의 자식 또는 부모는 IoC 허용/차단 기능에 포함되지 않습니다. 리프 인증서만 지원됩니다.
+> - Microsoft 서명된 인증서는 차단할 수 없습니다.
 
 ## <a name="create-an-indicator-for-certificates-from-the-settings-page"></a>설정 페이지에서 인증서에 대한 표시기를 만드십시오.
 

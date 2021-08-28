@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 445267eef56c50dfce4bb1349c8188b47c2bbc06
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 4bc5b5b1ec612bc8f14c6ac67a2c00ce75ac4516
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502942"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684067"
 ---
 # <a name="get-one-remediation-activity-by-id"></a>ID로 하나의 재구성 활동 얻기
 
@@ -72,13 +72,13 @@ createdOn|날짜/시간|이 수정 활동이 만들어진 시간|2021-01-12T18:5
 dueOn|날짜/시간|이 수정 활동에 대한 작성자가 설정한 기한|2021-01-13T00:00:00Z
 fixedDevices||고정된 장치 수|2
 id|String|이 수정 활동의 ID|097d9735-5479-4899-b1b7-77398899df92
-nameId|String|관련 제품 이름|Microsoft Silverlight
+nameId|문자열|관련 제품 이름|Microsoft Silverlight
 priority|String|이 수정 활동의 작성자 집합 우선 순위(높음\중간\낮음)|높음
 productId|String|관련 제품 ID|microsoft-_-silverlight
 productivityImpactRemediationType|String|사용자 영향이 없는 장치에만 몇 가지 구성 변경을 요청할 수 있습니다. 이 값은 "노출된 모든 장치" 또는 "사용자 영향이 없는 장치만" 선택을 나타냅니다.|AllExposedAssets
-rbacGroupNames|String|관련 장치 그룹 이름|[ "Windows Servers", "Windows 10" ]
-recommendedProgram|String|업그레이드할 권장 프로그램|null
-recommendedVendor|String|업그레이드할 권장 공급업체|null
+rbacGroupNames|문자열|관련 장치 그룹 이름|[ "Windows Servers", "Windows 10" ]
+recommendedProgram|문자열|업그레이드할 권장 프로그램|null
+recommendedVendor|문자열|업그레이드할 권장 공급업체|null
 recommendedVersion|String|업데이트/업그레이드에 권장되는 버전|null
 relatedComponent|String|이 수정 작업의 관련 구성 요소(보안 권장에 대한 관련 구성 요소와 유사)|Microsoft Microsoft Silverlight
 requesterEmail|String|작성자 전자 메일 주소|globaladmin@UserName.contoso.com
@@ -103,43 +103,43 @@ GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-ae
 ### <a name="response-example"></a>응답 예제
 
 ```json
-{ 
-    "@odata.context": "https://wpatdadi-luna-stg.cloudapp.net/api/$metadata#RemediationTasks/$entity", 
-    "id": "03942ef5-aecb-4c6e-b555-d6a97013844c", 
-    "title": "Update Microsoft Silverlight", 
-    "createdOn": "2021-02-10T13:20:36.4718166Z", 
-    "requesterId": "65548a1d-efo0-4a7a-8d19-1b967b5c36f4", 
-    "requesterEmail": "user1@contoso.com", 
-    "status": "Active", 
-    "statusLastModifiedOn": "2021-02-10T13:20:36.4719698Z", 
-    "description": "Update Silverlight to a later version to mitigate 55 known vulnerabilities affecting your devices. Doing so can help lessen the security risk to your organization due to versions which have reached their end-of-support.  ", 
-    "relatedComponent": "Microsoft Silverlight", 
-    "targetDevices": 18511, 
-    "rbacGroupNames": [ 
-        "UnassignedGroup", 
-        "hhh" 
-    ], 
-    "fixedDevices": 2866, 
-    "requesterNotes": "test", 
-    "dueOn": "2021-02-11T00:00:00Z", 
-    "category": "Software", 
-    "productivityImpactRemediationType": null, 
-    "priority": "Medium", 
-    "completionMethod": null, 
-    "completerId": null, 
-    "completerEmail": null, 
-    "scid": null, 
-    "type": "Update", 
-    "productId": "microsoft-_-silverlight", 
-    "vendorId": "microsoft", 
-    "nameId": "silverlight", 
-    "recommendedVersion": null, 
-    "recommendedVendor": null, 
-    "recommendedProgram": null 
-} 
+{
+    "@odata.context": "https://wpatdadi-luna-stg.cloudapp.net/api/$metadata#RemediationTasks/$entity",
+    "id": "03942ef5-aecb-4c6e-b555-d6a97013844c",
+    "title": "Update Microsoft Silverlight",
+    "createdOn": "2021-02-10T13:20:36.4718166Z",
+    "requesterId": "65548a1d-efo0-4a7a-8d19-1b967b5c36f4",
+    "requesterEmail": "user1@contoso.com",
+    "status": "Active",
+    "statusLastModifiedOn": "2021-02-10T13:20:36.4719698Z",
+    "description": "Update Silverlight to a later version to mitigate 55 known vulnerabilities affecting your devices. Doing so can help lessen the security risk to your organization due to versions which have reached their end-of-support.",
+    "relatedComponent": "Microsoft Silverlight",
+    "targetDevices": 18511,
+    "rbacGroupNames": [
+        "UnassignedGroup",
+        "hhh"
+    ],
+    "fixedDevices": 2866,
+    "requesterNotes": "test",
+    "dueOn": "2021-02-11T00:00:00Z",
+    "category": "Software",
+    "productivityImpactRemediationType": null,
+    "priority": "Medium",
+    "completionMethod": null,
+    "completerId": null,
+    "completerEmail": null,
+    "scid": null,
+    "type": "Update",
+    "productId": "microsoft-_-silverlight",
+    "vendorId": "microsoft",
+    "nameId": "silverlight",
+    "recommendedVersion": null,
+    "recommendedVendor": null,
+    "recommendedProgram": null
+}
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 - [수정 방법 및 속성](get-remediation-methods-properties.md)
 - [모든 수정 작업 나열s](get-remediation-all-activities.md)

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 16a0222b1d72099cf1d6f9cba23f599ad722804fc1d0b04c9953e94aa3ab1d80
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8e3484d07263063c9fab04a056cd09ac9b5d67a5
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53811203"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684055"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 통해 잠재적으로 원치 않는 응용 프로그램 검색 및 차단
 
@@ -55,8 +55,8 @@ Linux의 끝점용 Defender의 PUA 보호는 다음 방법 중 하나에서 구�
 - **감사**: PUA 파일은 제품 로그에 보고되지만, 제품 로그에는 Microsoft 365 Defender. 감염에 대한 기록은 위협 기록에 저장되지 않습니다. 제품에 의해 수행된 조치가 없습니다.
 - **차단:** PUA 파일이 제품 로그 및 검색된 Microsoft 365 Defender. 감염 레코드는 위협 기록에 저장되고 제품이 조치를 취합니다.
 
->[!WARNING]
->기본적으로 PUA 보호는 감사 모드에서 **구성됩니다.**
+> [!WARNING]
+> 기본적으로 PUA 보호는 감사 모드에서 **구성됩니다.**
 
 명령줄 또는 관리 콘솔에서 PUA 파일이 처리되는 방법을 구성할 수 있습니다.
 

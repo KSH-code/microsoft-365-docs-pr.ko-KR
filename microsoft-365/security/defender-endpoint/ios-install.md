@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 612089ef8e4b4ba3429c5116847a5888c8ea752e4543da5c2d97b217f179bca4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cf043741e2d066c8eaa7c4919b194a6ffd6d857d
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53818012"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684031"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>iOS에서 끝점용 Microsoft Defender 배포
 
@@ -55,7 +55,7 @@ iOS에서 끝점용 Defender를 배포하는 Intune 회사 포털.
 1. [Microsoft Endpoint Manager 관리 센터에서](https://go.microsoft.com/fwlink/?linkid=2109431)앱   ->  **iOS/iPadOS** iOS 스토어 앱  ->    ->  **추가로 이동하고** 선택을 **클릭합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 관리 센터의 이미지1](images/ios-deploy-1.png)
+    > ![관리 Microsoft Endpoint Manager 이미지1.](images/ios-deploy-1.png)
 
 1. 앱 추가 페이지에서 앱  스토어 검색을 클릭하고 검색 표시줄에 **Microsoft Defender 끝점을** 입력합니다. 검색 결과 섹션에서 *Microsoft Defender 끝점을 클릭하고* 선택을 **클릭합니다.**
 
@@ -67,14 +67,14 @@ iOS에서 끝점용 Defender를 배포하는 Intune 회사 포털.
     > 선택한 사용자 그룹은 Intune에 등록된 사용자로 구성됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 관리 센터의 이미지2](images/ios-deploy-2.png)
+    > ![관리 Microsoft Endpoint Manager 이미지2.](images/ios-deploy-2.png)
 
 1. 검토 *+ 만들기 섹션에서* 입력한 모든 정보가 올바른지 확인하고 만들기를 **선택합니다.** 잠시 후 Endpoint용 Defender 앱이 만들어지며 알림이 페이지의 오른쪽 위에 표시됩니다.
 
 1. 표시되는 앱 정보 페이지의 모니터 섹션에서 장치  설치 상태를 선택하여 장치 설치가 성공적으로 완료되어 있는지 확인합니다. 
 
     > [!div class="mx-imgBorder"]
-    > ![관리 Microsoft Endpoint Manager 이미지3](images/ios-deploy-3.png)
+    > ![관리 Microsoft Endpoint Manager 이미지입니다.](images/ios-deploy-3.png)
 
 ## <a name="auto-onboarding-of-vpn-profile-simplified-onboarding"></a>VPN 프로필의 자동 온보더링(간소화된 온보더링)
 
@@ -102,14 +102,14 @@ iOS에서 끝점용 Defender를 배포하는 Intune 회사 포털.
 
 1. iOS의 끝점용 Defender가 장치에 설치되면 앱 아이콘이 표시됩니다.
 
-    ![자동으로 생성된 스마트폰 설명의 스크린샷](images/41627a709700c324849bf7e13510c516.png)
+    ![스마트폰 설명의 스크린샷이 자동으로 생성됩니다.](images/41627a709700c324849bf7e13510c516.png)
 
 2. 끝점용 Defender 앱 아이콘(MSDefender)을 탭하고 화면의 지침에 따라 온보딩 단계를 완료합니다. 세부 정보에는 iOS의 끝점에 대한 Defender에서 요구하는 iOS 사용 권한의 최종 사용자 수락이 포함됩니다.
 
 3. 온보드에 성공하면 디바이스가 장치 포털의 장치 목록에 Microsoft 365 Defender 됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![휴대폰 설명이 자동으로 생성되는 스크린샷](images/device-inventory-screen.png)
+    > ![A screenshot of a cell phone Description automatically generated.](images/device-inventory-screen.png)
 
 ## <a name="configure-microsoft-defender-for-endpoint-for-supervised-mode"></a>감독 모드에 대한 끝점에 대한 Microsoft Defender 구성
 
@@ -122,10 +122,10 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
    > [!NOTE]
    > 감독되는 장치에 대한 이 앱 구성 정책은 관리되는 장치에만 적용될 수 있으며 모범 사례로 관리되는 모든 iOS 장치를 대상으로 해야 합니다.
 
-1. Microsoft Endpoint Manager 관리 센터에 [로그인하고](https://go.microsoft.com/fwlink/?linkid=2109431) 앱 앱 구성 정책 추가  >  **로**  >  **이동하세요.** 관리되는 **장치를 클릭합니다.**
+1. Microsoft Endpoint Manager 관리 센터에 [로그인하고](https://go.microsoft.com/fwlink/?linkid=2109431) 앱 앱  구성 정책 추가 \> **로** \> **이동하세요.** 관리되는 **장치를 클릭합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 관리 센터의 이미지](images/ios-deploy-4.png)
+    > ![관리 Microsoft Endpoint Manager 이미지입니다.](images/ios-deploy-4.png)
 
 1. 앱 *구성 정책 만들기 페이지에서* 다음 정보를 제공합니다.
     - 정책 이름
@@ -133,15 +133,15 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
     - 대상 앱: 목록에서 **Microsoft Defender 끝점** 선택
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 관리 센터5의 이미지](images/ios-deploy-5.png)
+    > ![관리 Microsoft Endpoint Manager 이미지입니다.](images/ios-deploy-5.png)
 
 1. 다음 화면에서 구성 **디자이너를** 형식으로 사용을 선택합니다. 다음 속성을 지정합니다.
     - 구성 키: issupervised
     - 값 형식: String
     - 구성 값: {{issupervised}}
-    
+
     > [!div class="mx-imgBorder"]
-    > ![관리 Microsoft Endpoint Manager 이미지6](images/ios-deploy-6.png)
+    > ![관리 센터 Microsoft Endpoint Manager 이미지입니다.](images/ios-deploy-6.png)
 
 1. 다음을 클릭하여 **범위** 태그 페이지를 열 수 있습니다.  범위 태그는 선택 사항입니다. **다음** 을 클릭하여 계속합니다.
 
@@ -158,7 +158,7 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
     - 장치   ->  **iOS/iPadOS**  ->  **구성 프로필 프로필**  ->  **만들기로 이동합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Endpoint Manager 관리 센터의 이미지7](images/ios-deploy-7.png)
+    > ![관리 Microsoft Endpoint Manager 이미지입니다.](images/ios-deploy-7.png)
 
     - 프로필 이름을 입력합니다. 구성 프로필 파일을 가져올지 묻는 메시지가 표시될 때 위에 다운로드한 프로필 파일을 선택합니다.
     - 할당 **섹션에서** 이 프로필을 적용할 장치 그룹을 선택합니다. 이 방법은 모든 관리되는 iOS 장치에 적용하는 것이 가장 좋은 모범 사례입니다. **다음** 을 클릭합니다.

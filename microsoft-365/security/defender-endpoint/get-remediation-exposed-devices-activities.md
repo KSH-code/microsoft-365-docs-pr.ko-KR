@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 856379aeb0264cf1c6d604050ad2a0052dab4e0b
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: 1ee64608e9ce6ce24dc40f1729303ef99b162cab
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400250"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683531"
 ---
 # <a name="list-exposed-devices-of-one-remediation-activity"></a>한 번의 수정 작업이 있는 노출된 장치 목록
 
@@ -50,7 +50,7 @@ ms.locfileid: "58400250"
 
 **URL:** GET: /api/remediationTasks/ \{ id \} /machineReferences
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API for details을 참조합니다.](apis-intro.md)
 
@@ -87,34 +87,34 @@ GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-ae
             "computerDnsName": "ComputerPII_2ea21b2d97c9df23c143ad9e3e454cb674232529.DomainPII_21eed80b086e79bdfa178eabfa25e8be9acfa346.corp.contoso.com",
             "osPlatform": "WindowsServer2016",
             "rbacGroupName": "UnassignedGroup",
-            
+
         },
         {
             "id": "3d9b1ca53e8f077199c7dcbfc9dbfa78f9bf1918",
             "computerDnsName": "ComputerPII_001d606fc149567c192747f48fae304b43c0ddba.DomainxPII_21eed80b086e79bdfa178eabfa25e8be9acfa346.corp.contoso.com",
             "osPlatform": "WindowsServer2012R2",
             "rbacGroupName": "UnassignedGroup",
-            
+
         },
         {
             "id": "3db8b27e6172951d7ea2e2d75945abec56feaf82",
             "computerDnsName": "ComputerPII_ce60cfbjj4b82a091deb5eae560332bba99a9bd7.DomainPII_0bc1aee0fa396d175e514bd61a9e7a5b2b07ee8e.corp.contoso.com",
             "osPlatform": "WindowsServer2016",
             "rbacGroupName": "UnassignedGroup",
-            
+
         },
         {
             "id": "3bad326dcda5b53fab47408cd4a7080f3f3cc8ab",
             "computerDnsName": "ComputerPII_b6b35960dd6539d1d1cef5ada02e235e7b357408.DomainPII_21eed80b089e76bdfa178eadfa25e8de9acfa346.corp.contoso.com",
             "osPlatform": "WindowsServer2012R2",
             "rbacGroupName": "UnassignedGroup",
-            
+
         }
 ]
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 - [수정 방법 및 속성](get-remediation-methods-properties.md)
 - [ID로 수정 작업 1개 가져오기](get-remediation-one-activity.md)

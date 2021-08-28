@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: c153d664ca658c50789b7372de0bd20e3423199f5f82242f76470c375b3a530c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f3ccb47c2facffed0a259b4807f8155b4c87cb70
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53869880"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58684043"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -231,13 +231,9 @@ Microsoft 계정 담당자에게 Intune으로 마이그레이션할 준비가 �
 
 Microsoft Managed Desktop 비즈니스용 Windows Hello 사용하도록 설정해야 합니다.
 
-**준비되지 않음**
-
-Windows Hello 비즈니스용 서비스를 사용할 수 없습니다. Create [a Windows Hello for Business policy의](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy) 단계를 수행하여 사용하도록 설정
-
 **권고**
 
-Windows Hello 비즈니스용 설정이 설정되지 않습니다. Create a Windows Hello [for Business policy의 단계를 수행하여 사용하도록 설정하세요.](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
+Windows Hello 비즈니스용 전자 메일이 사용하지 않도록 설정되거나 설정되지 않았습니다. Create a Windows Hello [for Business policy의 단계를 수행하여 사용하도록 설정하세요.](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
 
 ### <a name="windows-10-update-rings"></a>Windows 10 업데이트 링

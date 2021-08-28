@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9f70cba0d749238b9602f88b27d96aec87a5139b
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 98852db88f2b586d8e69a529a838e785dc22654c
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502846"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683995"
 ---
 # <a name="list-vulnerabilities-by-software"></a>소프트웨어별 취약성 목록
 
@@ -37,10 +37,9 @@ ms.locfileid: "58502846"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-설치된 소프트웨어의 취약성 목록을 검색합니다. 
+설치된 소프트웨어의 취약성 목록을 검색합니다.
 
 ## <a name="permissions"></a>권한
 
@@ -69,7 +68,7 @@ GET /api/Software/{Id}/vulnerabilities
 
 ## <a name="response"></a>응답
 
-성공하면 이 메서드는 지정된 소프트웨어에 의해 노출된 취약점 목록과 함께 200 OK를 반환합니다. 
+성공하면 이 메서드는 지정된 소프트웨어에 의해 노출된 취약점 목록과 함께 200 OK를 반환합니다.
 
 ## <a name="example"></a>예제
 
@@ -78,7 +77,7 @@ GET /api/Software/{Id}/vulnerabilities
 다음은 요청의 예입니다.
 
 ```http
-GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/vulnerabilities 
+GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/vulnerabilities
 ```
 
 ### <a name="response-example"></a>응답 예제

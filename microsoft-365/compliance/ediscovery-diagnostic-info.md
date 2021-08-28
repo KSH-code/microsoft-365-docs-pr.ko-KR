@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 지원 사례에 대한 eDiscovery 진단 정보를 수집하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 99edb19e61e3b403f283fcb3b73636308cf494ddbea199c01858007e8844d960
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e5dd4f9bd26121fd5879b2322549a801a3376be0
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886326"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589349"
 ---
 # <a name="collect-ediscovery-diagnostic-information"></a>eDiscovery 진단 정보 수집
 
@@ -77,13 +77,13 @@ Get-ComplianceCase "<Core eDiscovery case name>"| %{$_|fl;"`t==Searches==";Get-C
 
 설정  사례의 Advanced eDiscovery 탭을 사용하면 사례에 대한 진단 정보를 빠르게 복사할 수 있습니다. 진단 정보는 클립보드에 저장되어 텍스트 파일에 붙여넣고 Microsoft 지원에 보낼 수 있습니다.
 
-1. 으로 [https://compliance.microsoft.com](https://compliance.microsoft.com/) 이동한 다음 **모든 eDiscovery**> 표시를 > 클릭합니다.
+1. 으로 [https://compliance.microsoft.com](https://compliance.microsoft.com/) 이동한 다음 **고급 에서 eDiscovery > 클릭합니다.**
 
 2. 사례를 선택한 다음 설정 **클릭합니다.**
 
 3. 사례 **정보에서** 선택을 **클릭합니다.**
 
-4. 플라이아웃 페이지에서 진단  정보 복사를 클릭하여 정보를 클립보드에 복사합니다.
+4. 플라이아웃 페이지에서 작업 **복사** 지원 정보를 클릭하여 정보를 클립보드에  >   복사합니다.
 
 5. 텍스트 파일(메모장)을 열고 텍스트 파일에 정보를 붙여 넣습니다.
 

@@ -20,12 +20,12 @@ ms.custom:
 description: 사용자가 Office 365용 Microsoft Defender에서 상승된 권한 작업을 수행하여 데이터에 대한 위험을 낮출 수 있도록 시간이 제한된 Just-In-Time 액세스 권한을 부여하기 위해 PIM을 통합하는 방법을 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a894f1c4652dbea4a0c5ab9a7df9027f4d42c75c
-ms.sourcegitcommit: b05b107774e8bca36c9ee19fdc4719d17e302f11
+ms.openlocfilehash: 4d1333963f841a9d9263f44263ad43d20ec75057
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483955"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615043"
 ---
 # <a name="privileged-identity-management-pim-and-why-to-use-it-with-microsoft-defender-for-office-365"></a>PIM(Privileged Identity Management) 및 Office 365용 Microsoft Defender와 함께 사용해야 하는 이유
 
@@ -62,7 +62,7 @@ PIM(Privileged Identity Management)은 일단 설정되면 특정 작업을 수�
 
 ***2단계***. 추가 작업에 필요한 두 번째(승격된) 권한 그룹을 만들고 자격을 할당합니다.
 
-[권한 있는 액세스 그룹])https://docs.microsoft.com/ko-KR/azure/active-directory/privileged-identity-management/groups-features)을 사용하여 이제 자체 사용자 지정 그룹을 만들고 권한을 결합하거나 조직의 관행 및 요구 사항을 충족하는 데 필요한 세분성을 높일 수 있습니다.
+[권한 있는 액세스 그룹](/azure/active-directory/privileged-identity-management/groups-features)을 사용하여 이제 자체 사용자 지정 그룹을 만들고 권한을 결합하거나 조직의 관행 및 요구 사항을 충족하는 데 필요한 세분성을 높일 수 있습니다.
 
 ### <a name="create-a-role-group-requiring-the-permissions-we-need"></a>필요한 권한을 요구하는 역할 그룹을 만듭니다.
 

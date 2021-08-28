@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 28eb524645ecbc3867a342bea1fa34a717a3dde5
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: 68583eeb7daaf755f3e095ef80e0a221f54f0766
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589371"
 ---
 # <a name="list-machineactions-api"></a>MachineActions API 나열
 
@@ -43,17 +43,19 @@ Machine [Actions 컬렉션을 검색합니다.](machineaction.md)
 [OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
 
 OData의 쿼리는 `$filter` , , , , 및 `id` `status` `machineId` `type` `requestor` 속성에서 `creationDateTimeUtc` 지원됩니다.
-<br>```$stop``` 최대값 10,000
-<br>```$skip```
+
+`$stop` 최대값 10,000
+
+`$skip`
 
 [끝점용 Microsoft Defender를 사용하여 OData 쿼리 예제 보기](exposed-apis-odata-samples.md)
 
 ## <a name="limitations"></a>제한 사항
 
 1. 최대 페이지 크기는 10,000개입니다.
-2. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다. 
+2. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -67,7 +69,7 @@ OData의 쿼리는 `$filter` , , , , 및 `id` `status` `machineId` `type` `reque
 > [!NOTE]
 > 사용자 자격 증명을 사용하여 토큰을 얻을 때:
 >
-> - 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
+> 사용자에게 최소한 '데이터 보기' 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
 
 ## <a name="http-request"></a>HTTP 요청
 
@@ -79,7 +81,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

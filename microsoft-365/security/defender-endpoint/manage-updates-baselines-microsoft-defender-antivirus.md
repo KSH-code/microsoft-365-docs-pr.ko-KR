@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 08/05/2021
-ms.openlocfilehash: d8a01890ac3a42903786d161201a287f65b1715a
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.date: 08/27/2021
+ms.openlocfilehash: f24ff525f2abfe940446a64370840458d7914835
+ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256194"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683543"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -37,7 +37,7 @@ ms.locfileid: "58256194"
 - 제품 업데이트
 
 > [!TIP]
-> 최신 엔진, 플랫폼 및 서명 날짜를 확인한 다음 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지에 대한 보안 인텔리전스 업데이트를 [방문하세요.](https://www.microsoft.com/wdsi/defenderupdates)
+> 최신 엔진, 플랫폼 및 서명 날짜를 확인한 다음 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지에 대한 보안 인텔리전스 업데이트를 [방문하세요.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
 
 ## <a name="security-intelligence-updates"></a>보안 인텔리전스 업데이트
 

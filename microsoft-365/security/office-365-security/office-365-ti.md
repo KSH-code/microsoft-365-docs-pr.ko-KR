@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender for Office 365 대한 위협 조사 및 대응 기능에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 19e41fbca984ed74dc204eb665fdee481738a1a02e078cd8c0aa0f7f8bd3180e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2e6a237295a979797cd8884d07d1afe8e284cace
+ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56885466"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589293"
 ---
 # <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
@@ -58,7 +58,7 @@ Microsoft [Defender](defender-for-office-365.md) for Office 365 위협 조사 �
 
 [탐색기(및 실시간](threat-explorer.md) 검색)를 사용하여 위협을 분석하고, 시간이 지날수록 공격의 양을 보고, 위협 패밀리, 공격자 인프라 등에서 데이터를 분석합니다. 탐색기(위협 탐색기라고도 지칭)는 모든 보안 분석가의 조사 워크플로를 위한 시작 장소입니다.
 
-![위협 탐색기](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
+![위협 탐색기.](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
 
 이 보고서를 보고 사용하려면 Microsoft 365 Defender 포털에서 전자 메일 & **탐색기 로**  >  **이동하세요.**
 
@@ -66,11 +66,11 @@ Microsoft [Defender](defender-for-office-365.md) for Office 365 위협 조사 �
 
 인시던트 목록(조사라고도 합니다)을 사용하여 플라이트 보안 인시던트 목록을 볼 수 있습니다. 인시던트는 의심스러운 전자 메일 메시지와 같은 위협을 추적하고 추가 조사 및 수정을 수행하기 위해 사용됩니다.
 
-![보안 위협의 현재 위협 Office 365](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
+![현재 위협 인시던트 Office 365 목록입니다.](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
 
 조직의 현재 인시던트 목록을 확인하면 Microsoft 365 Defender 포털에서 인시던트 및 &   >  **로 이동하세요.**
 
-![보안 및 & 센터에서 위협 관리 검토를 \> 선택](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
+![보안 및 & 센터에서 위협 관리 검토를 \> 선택 합니다.](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
 ### <a name="attack-simulation-training"></a>공격 시뮬레이션 교육
 
@@ -86,7 +86,7 @@ Microsoft 365 Defender 포털에서 이 기능을 보고 사용하세요. 전자
 
 Microsoft Defender for Office 365 계획 2의 일부로 보안 분석가가 알려진 위협에 대한 세부 정보를 검토할 수 있습니다. 이는 사용자를 안전하게 유지하기 위해 추가로 예방 조치/단계가 있는지 여부를 확인하는 데 유용합니다.
 
-![최근 위협에 대한 정보를 보여주는 보안 추세](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png)
+![보안 추세는 최근 위협에 대한 정보를 표시합니다.](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png)
 
 ## <a name="how-do-we-get-these-capabilities"></a>이러한 기능을 어떻게 얻을 수 있나요?
 
@@ -100,7 +100,7 @@ Microsoft Defender for Office 365 역할 기반 액세스 제어를 사용 합�
 > 보안 관리자와 같은 일부 역할은 Microsoft 365 Defender 포털에서 할당할 수 Microsoft 365 관리 센터 Azure Active Directory. 역할, 역할 그룹 및 사용 권한에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 >
 > - [Microsoft 365 Defender 포털 사용 권한](permissions-microsoft-365-security-center.md)
-> - [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+> - [Azure AD 기본 제공 역할](/azure/active-directory/roles/permissions-reference)
 
 <br>
 
